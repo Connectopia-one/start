@@ -239,7 +239,7 @@ DEEL2 = [
                  "Cordialement",
                  "Bisous"],
          antwoord=[0, 1, 2],
-         uitleg="De drie juiste antwoorden zijn hoffelijk en neutraal. Bisous schrijf je enkel aan familie of goede vrienden."),
+         uitleg="De juiste antwoorden zijn hoffelijk en neutraal. Bisous schrijf je enkel aan familie of goede vrienden."),
     dict(type="meerkeuze",
          vraag="Lees: \"Je suis vraiment désolé d'avoir oublié ton anniversaire!\" Wat doet de schrijver?",
          opties=["zich verontschuldigen",

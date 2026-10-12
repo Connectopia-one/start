@@ -141,7 +141,7 @@ DEEL1 = [
         vraag="Welke woorden zijn samenstellingen?",
         opties=["voetbal", "tandarts", "boekentas", "vriendelijk"],
         antwoord=[0, 1, 2],
-        uitleg="De drie juiste antwoorden bestaan uit twee woorden. 'Vriendelijk' is een afleiding: vriend plus het achtervoegsel -elijk.",
+        uitleg="De juiste antwoorden bestaan uit twee woorden. 'Vriendelijk' is een afleiding: vriend plus het achtervoegsel -elijk.",
     ),
     dict(
         type="invultekst",

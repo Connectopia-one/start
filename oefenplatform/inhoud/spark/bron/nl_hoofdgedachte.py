@@ -235,7 +235,7 @@ DEEL2 = [
             "De fietsenstalling is blauw geschilderd",
         ],
         antwoord=[0, 1],
-        uitleg="De twee juiste antwoorden ondersteunen 'gezonder' en 'sneller'. De kleur van de stalling en het aantal leerlingen doen er niets toe.",
+        uitleg="De juiste antwoorden ondersteunen 'gezonder' en 'sneller'. De kleur van de stalling en het aantal leerlingen doen er niets toe.",
     ),
     dict(
         type="waarofniet",

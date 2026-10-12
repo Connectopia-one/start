@@ -162,7 +162,7 @@ DEEL2 = [
                  "carefully",
                  "friendly"],
          antwoord=[0, 1, 2],
-         uitleg="De drie juiste antwoorden zeggen hoe iets gebeurt. Friendly eindigt wel op -ly maar is een bijvoeglijk naamwoord: a friendly man."),
+         uitleg="De juiste antwoorden zeggen hoe iets gebeurt. Friendly eindigt wel op -ly maar is een bijvoeglijk naamwoord: a friendly man."),
     dict(type="invultekst",
          vraag="Maak een bijwoord van easy. Eén woord.",
          antwoord=["easily"],

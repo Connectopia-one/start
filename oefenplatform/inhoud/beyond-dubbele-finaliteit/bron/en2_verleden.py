@@ -191,7 +191,7 @@ DEEL2 = [
                  "It was getting dark.",
                  "We was walking."],
          antwoord=[0, 1, 2],
-         uitleg="De drie juiste antwoorden hebben de juiste vorm van to be. Het foute antwoord moet we were walking zijn."),
+         uitleg="De juiste antwoorden hebben de juiste vorm van to be. Het foute antwoord moet we were walking zijn."),
     dict(type="invultekst",
          vraag="Welk voegwoord gebruik je voor de lange handeling in een verleden tijd, met vijf letters en beginnend met w?",
          antwoord=["while", "whilst"],

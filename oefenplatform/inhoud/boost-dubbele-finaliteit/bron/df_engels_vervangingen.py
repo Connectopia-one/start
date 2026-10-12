@@ -198,7 +198,7 @@ VERVANGINGEN = {
                 "The train will be late.",
                 "The train was late again."],
         antwoord=[0, 1, 2],
-        uitleg="De drie juiste antwoorden hebben 'will'. Het foute antwoord staat in de verleden tijd en kijkt dus "
+        uitleg="De juiste antwoorden hebben 'will'. Het foute antwoord staat in de verleden tijd en kijkt dus "
                "achteruit.",
     ),
     "Welke vorm gebruik je voor iets dat morgen bezig zal zijn?": dict(
@@ -289,7 +289,7 @@ VERVANGINGEN = {
                 "We left early because it was late.",
                 "The children played in the garden."],
         antwoord=[0, 1, 2],
-        uitleg="De drie juiste antwoorden hebben twee persoonsvormen en dus twee zinnen in één. Het foute antwoord "
+        uitleg="De juiste antwoorden hebben twee persoonsvormen en dus twee zinnen in één. Het foute antwoord "
                "heeft er maar één en is een enkelvoudige zin.",
     ),
     "Vul aan met één woord: if you study hard, you … pass. Het gaat over één keer, in de toekomst.":

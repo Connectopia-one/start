@@ -192,7 +192,7 @@ DEEL1 = [
             "weerstand, doordat de warmte wordt tegengehouden",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De drie juiste antwoorden zijn geleiding, convectie en straling. Weerstand is geen "
+        uitleg="De juiste antwoorden zijn geleiding, convectie en straling. Weerstand is geen "
         "manier van verplaatsen.",
     ),
     dict(

@@ -200,7 +200,7 @@ DEEL1 = [
             "Ik voel me het meest mezelf als ik gitaar speel",
         ],
         antwoord=[0, 1],
-        uitleg="De twee juiste antwoorden zijn gewoon feiten over de wereld. Alleen het foute antwoord zegt iets over wie iemand is.",
+        uitleg="De juiste antwoorden zijn gewoon feiten over de wereld. Alleen het foute antwoord zegt iets over wie iemand is.",
     ),
     dict(
         type="waarofniet",

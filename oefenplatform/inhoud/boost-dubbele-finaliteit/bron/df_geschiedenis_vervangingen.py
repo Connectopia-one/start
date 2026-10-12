@@ -102,7 +102,7 @@ VERVANGINGEN = {
             "de staatsfabriek die volledig van de koning is",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De drie juiste antwoorden horen bij de commerciële revolutie. Een fabriek die volledig van "
+        uitleg="De juiste antwoorden horen bij de commerciële revolutie. Een fabriek die volledig van "
                "de staat is, hoort bij een veel latere tijd.",
     ),
     "Wat houdt mercantilisme in?": dict(

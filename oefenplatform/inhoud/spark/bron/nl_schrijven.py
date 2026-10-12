@@ -44,7 +44,7 @@ DEEL1 = [
             "Een recept uitschrijven",
         ],
         antwoord=[0, 1],
-        uitleg="Bij de twee juiste antwoorden wil je dat de ander iets doet of denkt. Een recept en een verslag leggen alleen uit.",
+        uitleg="Bij de juiste antwoorden wil je dat de ander iets doet of denkt. Een recept en een verslag leggen alleen uit.",
     ),
     dict(
         type="waarofniet",

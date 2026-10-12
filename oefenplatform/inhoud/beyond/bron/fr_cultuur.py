@@ -94,7 +94,7 @@ DEEL1 = [
                  "Je voudrais savoir si…",
                  "Donnez-moi ça tout de suite."],
          antwoord=[0, 1, 2],
-         uitleg="De drie juiste antwoorden staan in de conditionnel en laten de ander ruimte. Het foute antwoord is een bevel."),
+         uitleg="De juiste antwoorden staan in de conditionnel en laten de ander ruimte. Het foute antwoord is een bevel."),
     dict(type="invultekst",
          vraag="Hoe antwoord je in het Frans op merci? Twee woorden.",
          antwoord=["de rien", "pas de quoi"],

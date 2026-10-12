@@ -250,7 +250,7 @@ DEEL2 = [
                  "de pupil die kleiner wordt",
                  "het kiezen van een boek"],
          antwoord=[0, 1, 2],
-         uitleg="De drie juiste antwoorden gebeuren zonder dat je het beslist. Een boek kiezen is een bewuste keuze."),
+         uitleg="De juiste antwoorden gebeuren zonder dat je het beslist. Een boek kiezen is een bewuste keuze."),
     dict(type="waarofniet",
          vraag="Bij een reflex gaat de impuls eerst naar de grote hersenen.",
          antwoord=False,

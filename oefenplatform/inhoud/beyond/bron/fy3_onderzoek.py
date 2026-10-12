@@ -425,7 +425,7 @@ DEEL2 = [
             "wie van de groep heeft het minste gedaan?",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Het foute antwoord gaat over mensen en niet over het ontwerp. De drie juiste antwoorden "
+        uitleg="Het foute antwoord gaat over mensen en niet over het ontwerp. De juiste antwoorden "
         "leveren een volgende versie op.",
     ),
     dict(

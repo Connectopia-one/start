@@ -299,7 +299,7 @@ DEEL2 = [
             "Een elektrisch toestel bedienen met natte handen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De drie juiste antwoorden staan als goede werkwijze in de fiche. Natte handen en elektriciteit gaan nooit samen.",
+        uitleg="De juiste antwoorden staan als goede werkwijze in de fiche. Natte handen en elektriciteit gaan nooit samen.",
     ),
     dict(
         type="waarofniet",

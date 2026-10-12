@@ -348,7 +348,7 @@ DEEL2 = [
             "De hond van de buren blaft de hele nacht.",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De drie juiste antwoorden hebben twee persoonsvormen. Het foute antwoord heeft er maar één en is dus enkelvoudig.",
+        uitleg="De juiste antwoorden hebben twee persoonsvormen. Het foute antwoord heeft er maar één en is dus enkelvoudig.",
     ),
     dict(
         type="meerkeuze",

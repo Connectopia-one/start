@@ -67,15 +67,14 @@
           "opties": [
             "het boek gaat over een Welsh gezin",
             "het verhaal speelt tijdens de oorlog",
-            "de schrijfster gebruikte een dagboek",
+            "de schrijfster komt zelf uit Wales",
             "het boek verkocht heel goed in Engeland"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Hoofdpunten ondersteunen de hoofdgedachte. Over de verkoopcijfers zegt de tekst niets."
+          "uitleg": "Hoofdpunten ondersteunen de hoofdgedachte. Over de verkoopcijfers en over de herkomst van de schrijfster zegt de tekst niets."
         },
         {
           "type": "meerkeuze",
@@ -270,15 +269,14 @@
           "opties": [
             "he, she, it, they",
             "this, that, these, those",
-            "the former, the latter",
+            "very, quite, rather",
             "and, but, or"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Persoonlijke en aanwijzende voornaamwoorden en uitdrukkingen als the latter verwijzen terug. And, but en or verbinden, maar verwijzen niet."
+          "uitleg": "Persoonlijke en aanwijzende voornaamwoorden en uitdrukkingen als the latter verwijzen terug. And, but en or verbinden, en very of quite versterken alleen."
         },
         {
           "type": "waarofniet",
@@ -325,14 +323,16 @@
             "can en may",
             "should en could",
             "must",
-            "to be"
+            "to be",
+            "will en would"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De fiche noemt can, may, should, could en must als voorbeelden. To be is een hulpwerkwoord, maar geen modaal."
+          "uitleg": "De fiche noemt can, may, should, could en must als voorbeelden, en will en would horen er ook bij. To be is een hulpwerkwoord, maar geen modaal."
         },
         {
           "type": "waarofniet",
@@ -371,12 +371,14 @@
             "therefore",
             "as a result",
             "consequently",
-            "nevertheless"
+            "nevertheless",
+            "so"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Therefore, as a result, consequently en so geven een gevolg. Nevertheless is toch, en dat is een tegenstelling."
         },
@@ -494,15 +496,14 @@
           "opties": [
             "een gebruiksaanwijzing",
             "een recept uit een kookboek",
-            "de spelregels van een spel",
+            "een reisverslag van een vakantie",
             "een kort verhaal in een tijdschrift"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Alle drie zeggen ze wat je moet doen. Een kort verhaal vertelt, en dat is narratief."
+          "uitleg": "Een gebruiksaanwijzing en een recept zeggen wat je moet doen. Een kort verhaal en een reisverslag vertellen, en dat is narratief."
         },
         {
           "type": "waarofniet",
@@ -550,14 +551,16 @@
             "Dear Sir or Madam",
             "with regard to",
             "I look forward to hearing from you",
-            "Hiya, how are things?"
+            "Hiya, how are things?",
+            "Yours faithfully"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Die drie horen in een zakelijke brief. Hiya is spreektaal, en aan een vriend schrijf je about in plaats van with regard to."
+          "uitleg": "Die vier horen in een zakelijke brief. Hiya is spreektaal, en aan een vriend schrijf je about in plaats van with regard to."
         },
         {
           "type": "waarofniet",
@@ -583,15 +586,14 @@
           "opties": [
             "een verloop in de tijd",
             "personages die iets doen",
-            "veel verleden tijden",
+            "veel gebiedende wijs",
             "een opsomming van regels"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een verhaal heeft tijd, personages en meestal de past simple. Regels opsommen doet een prescriptieve tekst."
+          "uitleg": "Een verhaal heeft tijd, personages en meestal de past simple. Regels opsommen en bevelen geven doet een prescriptieve tekst."
         },
         {
           "type": "invultekst",
@@ -720,14 +722,16 @@
             "This is the finest novel of the year.",
             "Everyone should learn a second language.",
             "The film was far too long.",
-            "The film lasts 142 minutes."
+            "The film lasts 142 minutes.",
+            "In my view, the ending is weak."
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Finest, should en too long zijn beoordelingen. De speelduur in minuten is een feit."
+          "uitleg": "Finest, should, too long en in my view zijn beoordelingen. De speelduur in minuten is een feit."
         },
         {
           "type": "waarofniet",
@@ -774,12 +778,14 @@
             "informeren",
             "overtuigen",
             "aanzetten tot iets",
-            "verbeterd worden"
+            "verbeterd worden",
+            "ontroeren"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een tekst kan je informeren, overtuigen, ontroeren of in beweging zetten. Verbeterd worden is geen doel van de tekst zelf."
         },
@@ -857,13 +863,12 @@
           "opties": [
             "may",
             "possibly",
-            "it seems",
+            "definitely",
             "certainly"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
           "uitleg": "May, possibly, perhaps en it seems zwakken af. Certainly en definitely versterken juist."
         },
@@ -942,15 +947,14 @@
           "opties": [
             "a ground floor",
             "a semi-detached house",
-            "a terraced house",
+            "a motorway",
             "a roundabout"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De drie juiste antwoorden zijn woonvormen: de gelijkvloerse verdieping, een halfopen bebouwing en een rijhuis. A roundabout is een rotonde."
+          "uitleg": "De gelijkvloerse verdieping en een halfopen bebouwing horen bij een woning. A roundabout is een rotonde en a motorway een autosnelweg."
         },
         {
           "type": "waarofniet",
@@ -998,14 +1002,16 @@
             "to get on well with someone",
             "to fall out with someone",
             "to keep in touch",
-            "to run out of milk"
+            "to run out of milk",
+            "to look after someone"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Goed overeenkomen, ruzie krijgen en contact houden. To run out of milk is geen melk meer hebben."
+          "uitleg": "Goed overeenkomen, ruzie krijgen, contact houden en voor iemand zorgen. To run out of milk is geen melk meer hebben."
         },
         {
           "type": "waarofniet",
@@ -1019,15 +1025,14 @@
           "opties": [
             "the rent",
             "the bills",
-            "the deposit",
+            "the landlord",
             "the ceiling"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De huur, de rekeningen en de waarborg. A bill is een rekening: the electricity bill. The ceiling is het plafond."
+          "uitleg": "De huur en de rekeningen kosten je geld: the electricity bill. The landlord is de verhuurder en the ceiling het plafond."
         },
         {
           "type": "meerkeuze",
@@ -1167,14 +1172,16 @@
             "still water",
             "sparkling water",
             "squash",
-            "gravy"
+            "gravy",
+            "lemonade"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Plat water, water met bubbels en siroop. Gravy is jus, en die hoort bij het vlees."
+          "uitleg": "Plat water, water met bubbels, siroop en limonade. Gravy is jus, en die hoort bij het vlees."
         },
         {
           "type": "waarofniet",
@@ -1220,15 +1227,14 @@
           "opties": [
             "Could we have the bill, please?",
             "I would like to book a table.",
-            "Is service included?",
+            "Can I have a single room, please?",
             "Mind the step on your way out."
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De rekening vragen, een tafel reserveren en vragen of het dienstgeld erbij zit. Mind the step waarschuwt je voor een trapje, waar dan ook."
+          "uitleg": "De rekening vragen en een tafel reserveren horen in een restaurant. Mind the step waarschuwt je voor een trapje, waar dan ook, en een single room vraag je in een hotel."
         },
         {
           "type": "waarofniet",
@@ -1306,12 +1312,14 @@
             "to hang out with friends",
             "to go for a walk",
             "to work out at the gym",
-            "to hand in an essay"
+            "to hand in an essay",
+            "to take up a hobby"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Rondhangen met vrienden, gaan wandelen en trainen in de zaal. To hand in an essay is een taak inleveren, en dat is school."
         },
@@ -1391,15 +1399,14 @@
           "opties": [
             "a sore throat",
             "a rash",
-            "shortness of breath",
+            "a sick note",
             "a waiting list"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Keelpijn, uitslag en kortademigheid. A waiting list is een wachtlijst, geen klacht."
+          "uitleg": "Keelpijn en uitslag zijn klachten. A waiting list is een wachtlijst en a sick note een doktersattest."
         },
         {
           "type": "waarofniet",
@@ -1446,12 +1453,14 @@
             "anxiety",
             "burnout",
             "coping strategies",
-            "a bandage"
+            "a bandage",
+            "mindfulness"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Angst, opgebrand zijn en manieren om ermee om te gaan. A bandage is een verband."
         },
@@ -1517,15 +1526,14 @@
           "opties": [
             "a check-up",
             "a referral",
-            "a repeat prescription",
+            "a season ticket",
             "a parking ticket"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een controle, een verwijzing naar een specialist en een herhaalvoorschrift. A parking ticket is een parkeerboete."
+          "uitleg": "Een controle en een verwijzing naar een specialist. A parking ticket is een parkeerboete en a season ticket een abonnement."
         },
         {
           "type": "meerkeuze",
@@ -1615,12 +1623,14 @@
             "renewable energy",
             "carbon footprint",
             "waste separation",
-            "a greenhouse"
+            "a greenhouse",
+            "single-use plastic"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Hernieuwbare energie, je koolstofvoetafdruk en afval sorteren. A greenhouse is een serre, maar the greenhouse effect is wel het broeikaseffect."
         },
@@ -1668,15 +1678,14 @@
           "opties": [
             "a flood",
             "a drought",
-            "a wildfire",
+            "a harvest",
             "a landscape"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een overstroming, een droogte en een natuurbrand. A landscape is gewoon een landschap."
+          "uitleg": "Een overstroming en een droogte zijn rampen. A landscape is gewoon een landschap en a harvest een oogst."
         },
         {
           "type": "waarofniet",
@@ -1755,12 +1764,14 @@
             "wind power",
             "solar power",
             "hydropower",
-            "coal from a mine"
+            "coal from a mine",
+            "geothermal energy"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Wind, zon en water raken niet op. Coal is steenkool, en die is fossiel."
         },
@@ -1839,15 +1850,14 @@
           "opties": [
             "a head teacher",
             "a term",
-            "a pupil",
+            "a tenant",
             "a landlord"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De directeur, een trimester en een leerling. A landlord is een huiseigenaar."
+          "uitleg": "De directeur en een trimester hoor je op school. A landlord is een huiseigenaar en a tenant zijn huurder."
         },
         {
           "type": "waarofniet",
@@ -1894,12 +1904,14 @@
             "a job interview",
             "a CV",
             "a cover letter",
-            "a lunch break"
+            "a lunch break",
+            "a reference"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een sollicitatiegesprek, een cv en een begeleidende brief. A lunch break is een middagpauze."
         },
@@ -1968,15 +1980,14 @@
           "opties": [
             "a lecture",
             "a seminar",
-            "a tutorial",
+            "a canteen",
             "a term"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een hoorcollege in een groot auditorium, een werkgroep en een begeleidingsgesprek met een docent. A term is een trimester."
+          "uitleg": "Een hoorcollege in een groot auditorium en een werkgroep zijn lesvormen. A term is een trimester en a canteen de refter."
         },
         {
           "type": "meerkeuze",
@@ -2067,12 +2078,14 @@
             "a receipt",
             "a till",
             "change",
-            "a landlord"
+            "a landlord",
+            "a bank card"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het kasticket, de kassa en het wisselgeld. A landlord verhuurt een woning."
         },
@@ -2121,12 +2134,14 @@
             "savings",
             "interest",
             "debt",
-            "a bargain"
+            "a bargain",
+            "a loan"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Spaargeld, rente en schuld. A bargain is een koopje in de winkel."
         },
@@ -2204,15 +2219,14 @@
           "opties": [
             "a traffic jam",
             "a pedestrian crossing",
-            "a speed limit",
+            "a staircase",
             "a waiting room"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een file, een zebrapad en een snelheidsbeperking. A waiting room is een wachtzaal."
+          "uitleg": "Een file en een zebrapad hoor je in het verkeer. A waiting room is een wachtzaal en a staircase een trap."
         },
         {
           "type": "waarofniet",
@@ -2269,15 +2283,14 @@
           "opties": [
             "plays",
             "sonnets",
-            "poems",
+            "essays",
             "novels"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Toneelstukken, sonnetten en lange gedichten. De roman bestond in zijn tijd nog niet in die vorm, en a playwright is de toneelauteur."
+          "uitleg": "Toneelstukken en sonnetten. Essays en romans schreef hij niet: de roman bestond in zijn tijd nog niet in die vorm, en a playwright is de toneelauteur."
         },
         {
           "type": "invultekst",
@@ -2294,12 +2307,14 @@
             "a chapter",
             "a preface",
             "an epilogue",
-            "a chorus"
+            "a chorus",
+            "an index"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een hoofdstuk, een voorwoord en een naschrift. A chorus is het refrein van een lied of het koor in een theater."
         },
@@ -2347,15 +2362,14 @@
           "opties": [
             "an exhibition",
             "a guided tour",
-            "an audio guide",
+            "a boarding pass",
             "a fortnight"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een tentoonstelling, een rondleiding en een audiogids. A fortnight zijn twee weken."
+          "uitleg": "Een tentoonstelling en een rondleiding hoor je in een museum. A fortnight zijn twee weken en a boarding pass is je instapkaart."
         },
         {
           "type": "waarofniet",
@@ -2513,12 +2527,14 @@
             "a ballot",
             "a turnout",
             "a candidate",
-            "a headline"
+            "a headline",
+            "a polling station"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een stembiljet, de opkomst en een kandidaat. A headline is een krantenkop."
         },
@@ -2566,15 +2582,14 @@
           "opties": [
             "equality",
             "discrimination",
-            "integration",
+            "a deadline",
             "a timetable"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Gelijkheid, discriminatie en integratie. A timetable is een uurrooster."
+          "uitleg": "Gelijkheid en discriminatie gaan over de samenleving. A timetable is een uurrooster en a deadline een uiterste datum."
         },
         {
           "type": "waarofniet",
@@ -2640,12 +2655,14 @@
             "England",
             "Scotland",
             "Wales",
-            "the Republic of Ireland"
+            "the Republic of Ireland",
+            "Northern Ireland"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Engeland, Schotland, Wales en Noord-Ierland. De Republiek Ierland is een apart land."
         },
@@ -2737,15 +2754,14 @@
           "opties": [
             "evidence",
             "a sample",
-            "a hypothesis",
+            "a caption",
             "a headline"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bewijs, een steekproef en een hypothese. A headline is een krantenkop."
+          "uitleg": "Bewijs en een steekproef horen bij onderzoek. A headline is een krantenkop en a caption het onderschrift bij een foto."
         },
         {
           "type": "waarofniet",
@@ -2792,12 +2808,14 @@
             "a keyboard",
             "a screen",
             "a hard drive",
-            "a drawer"
+            "a drawer",
+            "a mouse"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een toetsenbord, een scherm en een harde schijf. A drawer is een schuif in een kast."
         },
@@ -2905,15 +2923,14 @@
           "opties": [
             "phishing",
             "a scam",
-            "malware",
+            "a bookmark",
             "a browser"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een valse mail die je gegevens vist, een zwendel en schadelijke software. A browser is gewoon je webbrowser."
+          "uitleg": "Een valse mail die je gegevens vist en een zwendel zijn gevaren. A browser is gewoon je webbrowser en a bookmark een bewaarde link."
         }
       ]
     },
@@ -2961,15 +2978,14 @@
           "opties": [
             "careless",
             "happiness",
-            "readable",
+            "unhappy",
             "rewrite"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De achtervoegsels -less, -ness en -able. In rewrite staat re- vooraan, en dat is een voorvoegsel."
+          "uitleg": "De achtervoegsels -less en -ness staan achteraan. In rewrite en unhappy staan re- en un- vooraan, en dat zijn voorvoegsels."
         },
         {
           "type": "waarofniet",
@@ -3016,14 +3032,16 @@
             "actually",
             "eventually",
             "library",
-            "table"
+            "table",
+            "sympathetic"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Actually is eigenlijk, eventually is uiteindelijk en a library is een bibliotheek. A table is gewoon een tafel."
+          "uitleg": "Actually is eigenlijk, eventually is uiteindelijk, a library is een bibliotheek en sympathetic is meelevend, niet sympathiek. A table is gewoon een tafel."
         },
         {
           "type": "waarofniet",
@@ -3099,15 +3117,14 @@
           "opties": [
             "formal",
             "informal",
-            "slang",
+            "handwritten",
             "silent"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Formeel, informeel en straattaal. Silent betekent stil, en een silent letter is een letter die je niet uitspreekt."
+          "uitleg": "Formeel en informeel zijn manieren van spreken. Silent betekent stil, en handwritten gaat over schrijven met de hand."
         },
         {
           "type": "waarofniet",
@@ -3185,12 +3202,14 @@
             "foot",
             "tooth",
             "mouse",
-            "book"
+            "book",
+            "child"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Feet, teeth en mice. Book wordt gewoon books."
         },
@@ -3218,15 +3237,14 @@
           "opties": [
             "scissors",
             "trousers",
-            "glasses",
+            "information",
             "luggage"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een schaar, een broek en een bril zijn in het Engels meervoud: a pair of scissors. Luggage is juist ontelbaar enkelvoud."
+          "uitleg": "Een schaar en een broek zijn in het Engels meervoud: a pair of scissors. Luggage en information zijn juist ontelbaar enkelvoud."
         },
         {
           "type": "invultekst",
@@ -3243,14 +3261,16 @@
             "the boy's bike",
             "the boys' bikes",
             "the children's room",
-            "the childrens' room"
+            "the childrens' room",
+            "the women's team"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Eén jongen krijgt 's, meerdere jongens een apostrof achter de s, en children krijgt 's omdat het al meervoud is."
+          "uitleg": "Eén jongen krijgt 's, meerdere jongens een apostrof achter de s, en children en women krijgen 's omdat ze al meervoud zijn."
         },
         {
           "type": "waarofniet",
@@ -3407,15 +3427,14 @@
           "opties": [
             "I like ___ music.",
             "She is at ___ school.",
-            "We had ___ lunch at one.",
+            "I play ___ guitar.",
             "I saw ___ film you mentioned."
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bij een algemeen begrip, bij school of work en bij de maaltijden staat er niets. In de laatste zin hoort the, want het is een bepaalde film."
+          "uitleg": "Bij een algemeen begrip en bij school of work staat er niets. In de laatste twee zinnen hoort the: het is een bepaalde film, en je zegt to play the guitar."
         },
         {
           "type": "waarofniet",
@@ -3462,12 +3481,14 @@
             "many",
             "few",
             "several",
-            "much"
+            "much",
+            "a number of"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Many, few, several en a number of gaan met telbare woorden. Much hoort bij ontelbare."
         },
@@ -3545,15 +3566,14 @@
           "opties": [
             "a lot of",
             "plenty of",
-            "a great deal of",
+            "a bit of",
             "hardly any"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "A lot of en plenty of gaan met beide soorten, a great deal of enkel met ontelbare. Hardly any is bijna niets."
+          "uitleg": "A lot of en plenty of gaan met beide soorten. Hardly any is bijna niets en a bit of is een beetje."
         },
         {
           "type": "waarofniet",
@@ -3631,12 +3651,14 @@
             "mine",
             "yours",
             "theirs",
-            "their"
+            "their",
+            "hers"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Mine, yours, his, hers, ours en theirs staan alleen. Their hoort altijd bij een naamwoord: their house."
         },
@@ -3684,15 +3706,14 @@
           "opties": [
             "somebody",
             "nothing",
-            "everyone",
+            "whose",
             "which"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Ze wijzen niet iemand of iets bepaalds aan. Which is vragend of betrekkelijk."
+          "uitleg": "Somebody en nothing wijzen niet iemand of iets bepaalds aan. Which en whose zijn vragend of betrekkelijk."
         },
         {
           "type": "waarofniet",
@@ -3769,12 +3790,14 @@
             "nobody",
             "everything",
             "somebody",
-            "both"
+            "both",
+            "no one"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Nobody knows, everything is ready, somebody has called. Both en several zijn meervoud: both are here."
         },
@@ -3853,16 +3876,15 @@
           "vraag": "Welke vraagwoorden bestaan in het Engels?",
           "opties": [
             "whose",
-            "whom",
+            "whoms",
             "which",
             "whomst"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Who, whom, whose, which en what. Whomst bestaat niet, het is een grap op het internet."
+          "uitleg": "Who, whom, whose, which en what bestaan. Whomst en whoms bestaan niet, het eerste is een grap op het internet."
         },
         {
           "type": "waarofniet",
@@ -3908,15 +3930,14 @@
           "opties": [
             "when",
             "where",
-            "why",
+            "how come",
             "how"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "That, who, whose, which, when, where en why. How staat er niet bij als betrekkelijk woord: the way she did it."
+          "uitleg": "That, who, whose, which, when, where en why staan in de lijst. How en how come staan er niet bij als betrekkelijk woord: the way she did it."
         },
         {
           "type": "waarofniet",
@@ -3993,14 +4014,16 @@
             "The book that I read was good.",
             "The book which I read was good.",
             "The book I read was good.",
-            "The book what I read was good."
+            "The book what I read was good.",
+            "The book, which I read, was good."
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Bij een ding kan that of which, en in een beperkende bijzin mag het woord ook wegvallen. What is er altijd fout."
+          "uitleg": "Bij een ding kan that of which, in een beperkende bijzin mag het woord ook wegvallen, en met komma's erbij is which een toevoeging. What is er altijd fout."
         },
         {
           "type": "waarofniet",
@@ -4078,12 +4101,14 @@
             "bigger",
             "happier",
             "more careful",
-            "more big"
+            "more big",
+            "more interesting"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Eén lettergreep krijgt -er, een woord op -y wordt -ier, en lange woorden krijgen more. More big bestaat niet."
         },
@@ -4131,15 +4156,14 @@
           "opties": [
             "the largest",
             "the easiest",
-            "the most useful",
+            "the most largest",
             "the usefullest"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Korte woorden krijgen -est, lange woorden the most. Useful is lang, dus the most useful."
+          "uitleg": "Korte woorden krijgen -est, lange woorden the most. The usefullest en the most largest bestaan niet: je gebruikt nooit beide samen."
         },
         {
           "type": "waarofniet",
@@ -4186,12 +4210,14 @@
             "good, better, best",
             "bad, worse, worst",
             "far, further, furthest",
-            "long, longer, longest"
+            "long, longer, longest",
+            "little, less, least"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Die drie volgen geen regel en leer je uit het hoofd. Long, longer, longest is juist het gewone rijtje met -er en -est."
         },
@@ -4280,15 +4306,14 @@
           "opties": [
             "slowly",
             "happily",
-            "carefully",
+            "goodly",
             "fastly"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De uitgang is -ly, en een y wordt -ily. Fast blijft fast: he drives fast."
+          "uitleg": "De uitgang is -ly, en een y wordt -ily. Fast blijft fast: he drives fast. Van good is het bijwoord well, niet goodly."
         },
         {
           "type": "invultekst",
@@ -4358,12 +4383,14 @@
             "fast",
             "hard",
             "late",
-            "careful"
+            "careful",
+            "early"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "A fast car en to drive fast, hard work en to work hard. Careful heeft wel een bijwoord: carefully."
         },
@@ -4441,15 +4468,14 @@
           "opties": [
             "under",
             "next to",
-            "between",
+            "although",
             "because"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Onder, naast en tussen zijn plaatsbepalingen. Because is een voegwoord dat een reden geeft."
+          "uitleg": "Onder en naast zijn plaatsbepalingen. Because en although zijn voegwoorden die een reden of een tegenstelling geven."
         },
         {
           "type": "waarofniet",
@@ -4527,12 +4553,14 @@
             "every day",
             "usually",
             "on Mondays",
-            "at the moment"
+            "at the moment",
+            "sometimes"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Ze wijzen op een gewoonte of een vast gegeven. At the moment hoort bij de present continuous."
         },
@@ -4580,15 +4608,14 @@
           "opties": [
             "I am reading a novel.",
             "She is working late.",
-            "They are waiting outside.",
+            "He is play tennis.",
             "He plays tennis on Sundays."
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een vorm van to be plus -ing. De laatste zin is een gewoonte, en dus een present simple."
+          "uitleg": "Een vorm van to be plus -ing. He plays tennis on Sundays is een gewoonte, dus een present simple, en he is play bestaat niet."
         },
         {
           "type": "waarofniet",
@@ -4665,14 +4692,16 @@
             "He always arrives late.",
             "She studies French.",
             "They don't live here.",
-            "He is arrive late."
+            "He is arrive late.",
+            "Does she live here?"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Een gewoonte krijgt de present simple, met een s bij he en she en met don't of doesn't in een ontkenning. De laatste zin bestaat niet."
+          "uitleg": "Een gewoonte krijgt de present simple, met een s bij he en she en met do of does in een vraag of een ontkenning. De laatste zin bestaat niet."
         },
         {
           "type": "waarofniet",
@@ -4749,15 +4778,14 @@
           "opties": [
             "already",
             "just",
-            "yet",
+            "last week",
             "yesterday"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Already, just, yet, ever en never horen bij de present perfect. Yesterday is een afgesloten tijd, en vraagt de past simple."
+          "uitleg": "Already, just, yet, ever en never horen bij de present perfect. Yesterday en last week zijn afgesloten tijd, en vragen de past simple."
         },
         {
           "type": "waarofniet",
@@ -4884,12 +4912,14 @@
             "written",
             "taken",
             "bought",
-            "thinked"
+            "thinked",
+            "gone"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Write, wrote, written. Take, took, taken. Buy, bought, bought. Van to think is het thought."
         },
@@ -4917,15 +4947,14 @@
           "opties": [
             "just",
             "already",
-            "never",
+            "yesterday",
             "yet"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "She has just left, I have already eaten, he has never been there. Yet staat achteraan: I haven't finished yet."
+          "uitleg": "She has just left, I have already eaten. Yet staat achteraan: I haven't finished yet, en yesterday hoort bij de past simple."
         }
       ]
     },
@@ -5148,7 +5177,7 @@
             1,
             2
           ],
-          "uitleg": "De drie juiste antwoorden zijn gewone onregelmatige rijtjes. Van to swim is het swim, swam, swum."
+          "uitleg": "De juiste antwoorden zijn gewone onregelmatige rijtjes. Van to swim is het swim, swam, swum."
         }
       ]
     },

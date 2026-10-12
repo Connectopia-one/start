@@ -168,12 +168,14 @@
                 "naast",
                 "achter",
                 "binnen",
-                "want"
+                "want",
+                "tijdens"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Naast, achter en binnen geven een plaats aan. Want is een voegwoord."
             },
@@ -181,15 +183,14 @@
               "opties": [
                 "boven",
                 "voor",
-                "door",
+                "omdat",
                 "maar"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Boven, voor en door geven een plaats of een richting aan. Maar is een voegwoord."
+              "uitleg": "Boven en voor geven een plaats of een tijd aan. 'Maar' en 'omdat' verbinden zinnen: dat zijn voegwoorden."
             },
             {
               "opties": [
@@ -293,12 +294,14 @@
             "oei",
             "hè",
             "hoera",
-            "hij"
+            "hij",
+            "ai"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Tussenwerpsels drukken een gevoel of een reactie uit en staan los in de zin. 'Hij' is een persoonlijk voornaamwoord."
         },
@@ -469,35 +472,36 @@
             1,
             2
           ],
-          "uitleg": "De drie juiste antwoorden bestaan uit twee woorden. 'Vriendelijk' is een afleiding: vriend plus het achtervoegsel -elijk.",
+          "uitleg": "De juiste antwoorden bestaan uit twee woorden. 'Vriendelijk' is een afleiding: vriend plus het achtervoegsel -elijk.",
           "varianten": [
             {
               "opties": [
                 "zonnebril",
                 "tafelpoot",
                 "schoolbus",
-                "gelukkig"
+                "gelukkig",
+                "voetbalveld"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
-              "uitleg": "Bij de drie juiste antwoorden plak je twee bestaande woorden aan elkaar. Gelukkig is een afleiding: geluk plus -ig."
+              "uitleg": "Bij de juiste antwoorden plak je twee bestaande woorden aan elkaar. Gelukkig is een afleiding: geluk plus -ig."
             },
             {
               "opties": [
                 "deurklink",
                 "regenjas",
-                "appelboom",
+                "vriendschap",
                 "duidelijk"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Bij de drie juiste antwoorden plak je twee bestaande woorden aan elkaar. Duidelijk is een afleiding."
+              "uitleg": "Deurklink en regenjas bestaan uit twee volwaardige woorden. 'Duidelijk' en 'vriendschap' zijn afleidingen: een grondwoord plus een achtervoegsel."
             },
             {
               "opties": [
@@ -511,7 +515,7 @@
                 1,
                 2
               ],
-              "uitleg": "Bij de drie juiste antwoorden plak je twee bestaande woorden aan elkaar. Eerlijk is een afleiding: eer plus -lijk."
+              "uitleg": "Bij de juiste antwoorden plak je twee bestaande woorden aan elkaar. Eerlijk is een afleiding: eer plus -lijk."
             }
           ]
         },
@@ -729,29 +733,30 @@
           "type": "meerkeuze",
           "vraag": "Welke woorden zijn homoniemen?",
           "opties": [
-            "bank",
+            "boek",
             "slot",
             "kussen",
             "fiets"
           ],
           "antwoord": [
-            0,
             1,
             2
           ],
-          "uitleg": "Een slot op een deur of het einde van een tekst; een kussen op de zetel of iemand kussen. 'Fiets' heeft maar één betekenis.",
+          "uitleg": "Een slot op een deur of het einde van een tekst; een kussen op de zetel of iemand kussen. 'Fiets' en 'boek' hebben maar één betekenis.",
           "varianten": [
             {
               "opties": [
                 "pad",
                 "veer",
                 "arm",
-                "tafel"
+                "tafel",
+                "blik"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Een pad is een weggetje of een dier, een veer zit in een matras of aan een vogel, en arm is een lichaamsdeel of het tegendeel van rijk."
             },
@@ -759,15 +764,14 @@
               "opties": [
                 "bot",
                 "stof",
-                "schaal",
+                "stoel",
                 "raam"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Bot is een been of het tegendeel van scherp, stof is materiaal of vuil, en een schaal is een kom of de buitenkant van een ei."
+              "uitleg": "Een bot in je lichaam of een bot mes; stof om een kleed van te maken of stof op de kast. 'Raam' en 'stoel' hebben maar één betekenis."
             },
             {
               "opties": [
@@ -792,12 +796,14 @@
             "fraai",
             "prachtig",
             "schitterend",
-            "lelijk"
+            "lelijk",
+            "beeldig"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Synoniemen betekenen ongeveer hetzelfde. 'Lelijk' is net het tegengestelde.",
           "varianten": [
@@ -807,29 +813,30 @@
                 "vrolijk",
                 "opgewekt",
                 "gelukkig",
-                "verdrietig"
+                "verdrietig",
+                "blijgezind"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
-              "uitleg": "De drie juiste antwoorden betekenen ongeveer hetzelfde als blij. Verdrietig is het tegendeel."
+              "uitleg": "De juiste antwoorden betekenen ongeveer hetzelfde als blij. Verdrietig is het tegendeel."
             },
             {
               "vraag": "Welke woorden zijn synoniemen van 'groot'?",
               "opties": [
                 "enorm",
                 "reusachtig",
-                "gigantisch",
+                "smal",
                 "piepklein"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "De drie juiste antwoorden betekenen ongeveer hetzelfde als groot. Piepklein is het tegendeel."
+              "uitleg": "Enorm en reusachtig betekenen ongeveer hetzelfde als groot. 'Piepklein' en 'smal' net niet."
             },
             {
               "vraag": "Welke woorden zijn synoniemen van 'snel'?",
@@ -844,7 +851,7 @@
                 1,
                 2
               ],
-              "uitleg": "De drie juiste antwoorden betekenen ongeveer hetzelfde als snel. Traag is het tegendeel."
+              "uitleg": "De juiste antwoorden betekenen ongeveer hetzelfde als snel. Traag is het tegendeel."
             }
           ]
         },
@@ -928,28 +935,29 @@
                 "ongeluk",
                 "blijheid",
                 "schilder",
-                "voetbal"
+                "voetbal",
+                "onvriendelijk"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
-              "uitleg": "Bij de drie juiste antwoorden komt er een voor- of achtervoegsel bij een bestaand woord. Voetbal is een samenstelling."
+              "uitleg": "Bij de juiste antwoorden komt er een voor- of achtervoegsel bij een bestaand woord. Voetbal is een samenstelling."
             },
             {
               "opties": [
                 "onmogelijk",
                 "vrijheid",
-                "werker",
+                "tafelpoot",
                 "zonnebril"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Bij de drie juiste antwoorden komt er een voor- of achtervoegsel bij. Zonnebril is een samenstelling."
+              "uitleg": "Onmogelijk en vrijheid bestaan uit een grondwoord plus een voor- of achtervoegsel. Zonnebril en tafelpoot zijn samenstellingen van twee volwaardige woorden."
             },
             {
               "opties": [
@@ -963,7 +971,7 @@
                 1,
                 2
               ],
-              "uitleg": "Bij de drie juiste antwoorden komt er een voor- of achtervoegsel bij. Tafelpoot is een samenstelling."
+              "uitleg": "Bij de juiste antwoorden komt er een voor- of achtervoegsel bij. Tafelpoot is een samenstelling."
             }
           ]
         },
@@ -1047,12 +1055,14 @@
                 "steden",
                 "schepen",
                 "koeien",
-                "mans"
+                "mans",
+                "eieren"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Het meervoud van man is mannen, niet mans."
             },
@@ -1060,15 +1070,14 @@
               "opties": [
                 "ramen",
                 "gaten",
-                "sleutels",
+                "huizes",
                 "boekes"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Het meervoud van boek is boeken, niet boekes."
+              "uitleg": "Ramen en gaten zijn juist. 'Boekes' en 'huizes' bestaan niet: dat worden boeken en huizen."
             },
             {
               "opties": [
@@ -1431,15 +1440,14 @@
               "opties": [
                 "vanmorgen",
                 "traag",
-                "door het park",
+                "de fiets",
                 "ze"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Vanmorgen zegt wanneer, traag zegt hoe en door het park zegt waar. Ze is het onderwerp."
+              "uitleg": "Wanneer en hoe: twee bijwoordelijke bepalingen. 'Ze' is het onderwerp en 'de fiets' is een ander zinsdeel."
             },
             {
               "vraag": "Welke zinsdelen zijn bijwoordelijke bepalingen in 'Straks rijdt de bus stipt naar het station'?",
@@ -1635,14 +1643,16 @@
             "niet",
             "geen",
             "nooit",
-            "altijd"
+            "altijd",
+            "niemand"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "'Altijd' bevestigt net. De drie juiste antwoorden draaien de betekenis om."
+          "uitleg": "'Altijd' bevestigt net. De juiste antwoorden draaien de betekenis om."
         },
         {
           "type": "meerkeuze",
@@ -1794,12 +1804,14 @@
             "zijn",
             "worden",
             "blijven",
-            "fietsen"
+            "fietsen",
+            "blijken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Zijn, worden, blijven, blijken, lijken, schijnen en heten koppelen het onderwerp aan een eigenschap of een naam."
         },
@@ -2024,12 +2036,14 @@
                 "Een van de spelers is geblesseerd.",
                 "De groep toeristen wacht buiten.",
                 "Mijn broers studeren allebei in Leuven.",
-                "De rij wagens staan stil."
+                "De rij wagens staan stil.",
+                "Het team speelt morgen thuis."
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Het onderwerp van de laatste zin is de rij, en die is enkelvoud: de rij wagens staat stil."
             },
@@ -2037,15 +2051,14 @@
               "opties": [
                 "Een van de boeken ontbreekt.",
                 "Het team traint elke dinsdag.",
-                "De buren komen vanavond langs.",
+                "De meeste leerlingen komt te voet.",
                 "De doos met pennen liggen daar."
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Het onderwerp van de laatste zin is de doos, en die is enkelvoud: de doos met pennen ligt daar."
+              "uitleg": "Het onderwerp is 'een' en 'het team', allebei enkelvoud. In de twee andere zinnen is het onderwerp 'de doos' en 'de meeste leerlingen', dus moet het 'ligt' en 'komen' zijn."
             },
             {
               "opties": [
@@ -2187,15 +2200,14 @@
           "opties": [
             "Ik blijf thuis, want het regent.",
             "Toen hij thuiskwam, was het al donker.",
-            "Ze zei dat ze later zou komen.",
+            "Hij ging na de training meteen slapen.",
             "Na de training ging hij meteen slapen."
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De drie juiste antwoorden hebben twee persoonsvormen. Het foute antwoord heeft er maar één: 'ging'."
+          "uitleg": "De juiste antwoorden hebben twee persoonsvormen. De twee andere hebben er maar één."
         },
         {
           "type": "meerkeuze",

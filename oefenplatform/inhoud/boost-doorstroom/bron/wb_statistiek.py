@@ -142,7 +142,7 @@ DEEL1 = [
                  "de leeftijd in jaren",
                  "de kleur van de jas"],
          antwoord=[0, 1, 2],
-         uitleg="Met de drie juiste antwoorden kan je rekenen. Met een kleur niet."),
+         uitleg="Met de juiste antwoorden kan je rekenen. Met een kleur niet."),
     dict(type="invultekst",
          vraag=r"Hoeveel klassen van \(10\) cm heb je nodig voor lengtes van \(150\) tot \(190\) cm? Een getal.",
          antwoord=["4", "vier"],

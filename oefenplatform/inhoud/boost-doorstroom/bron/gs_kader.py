@@ -304,7 +304,7 @@ DEEL2 = [
             "ze maakt het onmogelijk om gebeurtenissen te dateren",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Dateren kan je nog altijd, dat is net wat een tijdrekening doet. De drie juiste antwoorden zijn de echte beperkingen.",
+        uitleg="Dateren kan je nog altijd, dat is net wat een tijdrekening doet. De juiste antwoorden zijn de echte beperkingen.",
     ),
     dict(
         type="waarofniet",

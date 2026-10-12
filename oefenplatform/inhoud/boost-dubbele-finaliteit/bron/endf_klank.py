@@ -113,7 +113,7 @@ DEEL1 = [
          vraag="Welke paren klinken hetzelfde maar worden anders geschreven?",
          opties=["their en there", "to en two", "write en right", "ship en sheep"],
          antwoord=[0, 1, 2],
-         uitleg="De drie juiste antwoorden zijn gelijkklinkend; je hoort het verschil niet, je ziet het. Ship "
+         uitleg="De juiste antwoorden zijn gelijkklinkend; je hoort het verschil niet, je ziet het. Ship "
                 "en sheep klinken wel verschillend."),
     dict(type="meerkeuze",
          vraag="Waarin verschillen 'ship' en 'sheep'?",

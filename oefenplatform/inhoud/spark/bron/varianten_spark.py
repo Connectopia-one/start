@@ -121,7 +121,7 @@ VARIANTEN[("nederlands.json", "Woordsoorten en woordvorming — deel 1")] = {
     "gelukkig",
     "voetbalveld",
 ], antwoord=[0, 1, 2, 4],
-             uitleg="Bij de drie juiste antwoorden plak je twee bestaande woorden aan elkaar. Gelukkig is een afleiding: geluk plus -ig."),
+             uitleg="Bij de juiste antwoorden plak je twee bestaande woorden aan elkaar. Gelukkig is een afleiding: geluk plus -ig."),
         dict(opties=[
     "deurklink",
     "regenjas",
@@ -130,7 +130,7 @@ VARIANTEN[("nederlands.json", "Woordsoorten en woordvorming — deel 1")] = {
 ], antwoord=[0, 1],
              uitleg="Deurklink en regenjas bestaan uit twee volwaardige woorden. 'Duidelijk' en 'vriendschap' zijn afleidingen: een grondwoord plus een achtervoegsel."),
         dict(opties=["fietspad", "keukenkast", "sneeuwbal", "eerlijk"], antwoord=[0, 1, 2],
-             uitleg="Bij de drie juiste antwoorden plak je twee bestaande woorden aan elkaar. Eerlijk is een afleiding: eer plus -lijk."),
+             uitleg="Bij de juiste antwoorden plak je twee bestaande woorden aan elkaar. Eerlijk is een afleiding: eer plus -lijk."),
     ],
     "Wat is het verkleinwoord van 'boom'?": [
         dict(vraag="Wat is het verkleinwoord van 'raam'?",
@@ -201,7 +201,7 @@ VARIANTEN[("nederlands.json", "Woordsoorten en woordvorming — deel 2")] = {
     "verdrietig",
     "blijgezind",
 ], antwoord=[0, 1, 2, 4],
-             uitleg="De drie juiste antwoorden betekenen ongeveer hetzelfde als blij. Verdrietig is het tegendeel."),
+             uitleg="De juiste antwoorden betekenen ongeveer hetzelfde als blij. Verdrietig is het tegendeel."),
         dict(vraag="Welke woorden zijn synoniemen van 'groot'?",
              opties=[
     "enorm",
@@ -212,7 +212,7 @@ VARIANTEN[("nederlands.json", "Woordsoorten en woordvorming — deel 2")] = {
              uitleg="Enorm en reusachtig betekenen ongeveer hetzelfde als groot. 'Piepklein' en 'smal' net niet."),
         dict(vraag="Welke woorden zijn synoniemen van 'snel'?",
              opties=["vlug", "rap", "haastig", "traag"], antwoord=[0, 1, 2],
-             uitleg="De drie juiste antwoorden betekenen ongeveer hetzelfde als snel. Traag is het tegendeel."),
+             uitleg="De juiste antwoorden betekenen ongeveer hetzelfde als snel. Traag is het tegendeel."),
     ],
     "'Voetbalclub' bestaat uit hoeveel woorden?": [
         dict(vraag="'Boekenkastdeur' bestaat uit hoeveel woorden?",
@@ -233,7 +233,7 @@ VARIANTEN[("nederlands.json", "Woordsoorten en woordvorming — deel 2")] = {
     "voetbal",
     "onvriendelijk",
 ], antwoord=[0, 1, 2, 4],
-             uitleg="Bij de drie juiste antwoorden komt er een voor- of achtervoegsel bij een bestaand woord. Voetbal is een samenstelling."),
+             uitleg="Bij de juiste antwoorden komt er een voor- of achtervoegsel bij een bestaand woord. Voetbal is een samenstelling."),
         dict(opties=[
     "onmogelijk",
     "vrijheid",
@@ -242,7 +242,7 @@ VARIANTEN[("nederlands.json", "Woordsoorten en woordvorming — deel 2")] = {
 ], antwoord=[0, 1],
              uitleg="Onmogelijk en vrijheid bestaan uit een grondwoord plus een voor- of achtervoegsel. Zonnebril en tafelpoot zijn samenstellingen van twee volwaardige woorden."),
         dict(opties=["oneerlijk", "koningschap", "zwemmer", "tafelpoot"], antwoord=[0, 1, 2],
-             uitleg="Bij de drie juiste antwoorden komt er een voor- of achtervoegsel bij. Tafelpoot is een samenstelling."),
+             uitleg="Bij de juiste antwoorden komt er een voor- of achtervoegsel bij. Tafelpoot is een samenstelling."),
     ],
     "Wat is het meervoud van 'kind'?": [
         dict(vraag="Wat is het meervoud van 'ei'?",

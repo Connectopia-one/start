@@ -99,7 +99,7 @@ DEEL1 = [
                  r"\(x^{2} - 1 = 0\)",
                  r"\(3x + 2 = 11\)"],
          antwoord=[0, 1, 2],
-         uitleg=r"De drie juiste antwoorden hebben een term in \(x^{2}\). Het foute antwoord is eerste graad."),
+         uitleg=r"De juiste antwoorden hebben een term in \(x^{2}\). Het foute antwoord is eerste graad."),
     dict(type="waarofniet",
          vraag=r"Er geldt \(x^{2} + 2x + 1 = (x + 1)^{2}\).",
          antwoord=True,

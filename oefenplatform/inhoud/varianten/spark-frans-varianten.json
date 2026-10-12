@@ -105,15 +105,14 @@
           "opties": [
             "le",
             "la",
-            "les",
+            "une",
             "un"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Le, la en les wijzen iets bepaalds aan: de of het. Un en une zijn onbepaald: een."
+          "uitleg": "Le en la wijzen iets bepaalds aan: de of het. Un en une zijn onbepaald: een."
         },
         {
           "type": "meerkeuze",
@@ -541,15 +540,14 @@
           "opties": [
             "ce",
             "cette",
-            "ces",
+            "ma",
             "mes"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Ce, cette en ces wijzen aan. 'Mes' is bezittelijk."
+          "uitleg": "Ce en cette wijzen aan. 'Mes' en 'ma' zijn bezittelijk."
         },
         {
           "type": "meerkeuze",
@@ -628,12 +626,14 @@
             "je",
             "tu",
             "nous",
-            "me"
+            "me",
+            "vous"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Je, tu, il, elle, nous, vous, ils en elles staan voor het werkwoord als onderwerp. 'Me' is lijdend of meewerkend voorwerp."
         },
@@ -730,12 +730,14 @@
                 "Je n'ai pas de chien.",
                 "Trop de bruit.",
                 "Une tasse de thé.",
-                "Je mange de le pain."
+                "Je mange de le pain.",
+                "Beaucoup de monde."
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "De + le bestaat niet, dat wordt du: je mange du pain."
             },
@@ -757,15 +759,14 @@
               "opties": [
                 "Il n'y a pas de place.",
                 "Assez de travail.",
-                "Une bouteille d'eau.",
+                "Je parle de le livre.",
                 "Je viens de le magasin."
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "De + le bestaat niet, dat wordt du: je viens du magasin."
+              "uitleg": "De + le bestaat niet, dat wordt du: je viens du magasin, je parle du livre."
             }
           ]
         },
@@ -788,14 +789,16 @@
             "petit",
             "grand",
             "jeune",
-            "bleu"
+            "bleu",
+            "beau"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Een kleine groep korte, veelgebruikte woorden staat vooraan: un petit garçon, une grande maison, un jeune homme. Kleuren staan altijd achteraan."
+          "uitleg": "Een kleine groep korte, veelgebruikte woorden staat vooraan: un petit garçon, une grande maison, un jeune homme, un beau jardin. Kleuren staan altijd achteraan."
         },
         {
           "type": "meerkeuze",
@@ -1050,15 +1053,14 @@
           "opties": [
             "lui",
             "leur",
-            "nous",
+            "le",
             "la"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Lui (hem/haar), leur (hun) en nous (ons) kunnen COI zijn. 'La' is altijd lijdend voorwerp."
+          "uitleg": "Lui (hem of haar) en leur (hun) zijn meewerkend voorwerp. 'La' en 'le' zijn altijd lijdend voorwerp."
         },
         {
           "type": "meerkeuze",
@@ -1111,14 +1113,16 @@
             "Je me lève.",
             "Tu te couches.",
             "Elle s'habille.",
-            "Nous regardons la télé."
+            "Nous regardons la télé.",
+            "Ils se promènent."
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Opstaan, gaan slapen en zich aankleden doe je aan jezelf. Televisiekijken niet."
+          "uitleg": "Opstaan, gaan slapen, zich aankleden en gaan wandelen draag je aan jezelf op. Televisiekijken niet."
         },
         {
           "type": "invultekst",
@@ -1418,12 +1422,14 @@
                 "il est",
                 "vous êtes",
                 "elles sont",
-                "nous êtes"
+                "nous êtes",
+                "je suis"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Bij nous hoort sommes, niet êtes."
             },
@@ -1445,15 +1451,14 @@
               "opties": [
                 "tu es",
                 "nous sommes",
-                "vous êtes",
+                "ils est",
                 "je es"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Bij je hoort suis."
+              "uitleg": "Bij je hoort suis, en bij ils hoort sont."
             }
           ]
         },
@@ -1690,12 +1695,14 @@
                 "Tu as parlé.",
                 "Elle est partie.",
                 "Nous avons fini.",
-                "Je vais manger."
+                "Je vais manger.",
+                "J'ai compris."
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "De laatste is de nabije toekomst: ik ga eten."
             },
@@ -1717,15 +1724,14 @@
               "opties": [
                 "J'ai vu le film.",
                 "Elle est restée.",
-                "Tu as dormi.",
+                "Nous allons partir.",
                 "Il va pleuvoir."
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "De laatste is de nabije toekomst: het gaat regenen."
+              "uitleg": "De twee laatste zinnen zijn de nabije toekomst: het gaat regenen, wij gaan vertrekken."
             }
           ]
         },
@@ -1809,12 +1815,14 @@
                 "Ferme la porte !",
                 "Mangeons !",
                 "Parlez plus fort !",
-                "Elle parle fort."
+                "Elle parle fort.",
+                "Écoute bien !"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "De laatste zin vertelt gewoon iets; er wordt niets gevraagd."
             },
@@ -1836,15 +1844,14 @@
               "opties": [
                 "Regarde !",
                 "Partons !",
-                "Asseyez-vous !",
+                "Nous partons demain.",
                 "Ils partent."
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "De laatste zin vertelt gewoon iets; er wordt niets gevraagd."
+              "uitleg": "De twee laatste zinnen vertellen gewoon iets; er wordt niets gevraagd."
             }
           ]
         },
@@ -1934,12 +1941,14 @@
             "mededelend",
             "vragend",
             "bevelend",
-            "verhalend"
+            "verhalend",
+            "uitroepend"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Mededelend, vragend, bevelend, uitroepend, ontkennend en bevestigend. 'Verhalend' is een tekstsoort, geen zinssoort."
         },
@@ -2048,12 +2057,14 @@
                 "arriver",
                 "rester",
                 "tomber",
-                "regarder"
+                "regarder",
+                "partir"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Regarder gaat met avoir: j'ai regardé."
             },
@@ -2075,15 +2086,14 @@
               "opties": [
                 "naître",
                 "mourir",
-                "rentrer",
+                "manger",
                 "parler"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Parler gaat met avoir: j'ai parlé."
+              "uitleg": "Parler en manger gaan met avoir: j'ai parlé, j'ai mangé."
             }
           ]
         },
@@ -2302,12 +2312,14 @@
                 "Il pleut, mais je sors quand même.",
                 "Je pense que tu as raison.",
                 "Elle lit et il écrit.",
-                "Je bois du thé."
+                "Je bois du thé.",
+                "Quand il pleut, je reste à la maison."
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "In de laatste zin staat maar één persoonsvorm."
             },
@@ -2328,16 +2340,15 @@
             {
               "opties": [
                 "Tu viens, ou tu restes ?",
-                "Je sais où il habite.",
+                "Elle dort bien.",
                 "Il court et elle marche.",
                 "Ils jouent au jardin."
               ],
               "antwoord": [
                 0,
-                1,
                 2
               ],
-              "uitleg": "In de laatste zin staat maar één persoonsvorm."
+              "uitleg": "In de twee laatste zinnen staat maar één persoonsvorm."
             }
           ]
         },
@@ -2362,12 +2373,14 @@
                 "et",
                 "donc",
                 "car",
-                "quand"
+                "quand",
+                "ou"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Quand maakt een bijzin; de andere drie verbinden twee gelijkwaardige zinnen."
             },
@@ -2389,15 +2402,14 @@
               "opties": [
                 "car",
                 "et",
-                "ou",
+                "parce que",
                 "si"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Si maakt een bijzin; de andere drie verbinden twee gelijkwaardige zinnen."
+              "uitleg": "Si en parce que maken een bijzin; car en et verbinden twee gelijkwaardige zinnen."
             }
           ]
         },
@@ -2453,16 +2465,15 @@
           "vraag": "Welke woorden zijn voorzetsels?",
           "opties": [
             "à",
-            "en",
+            "mais",
             "sur",
             "et"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "À Bruxelles, en train, sur la table. 'Et' is een voegwoord."
+          "uitleg": "À Bruxelles, sur la table. 'Et' en 'mais' zijn voegwoorden."
         },
         {
           "type": "invultekst",

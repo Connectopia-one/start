@@ -434,7 +434,7 @@ DEEL2 = [
         ],
         antwoord=[0, 1, 2],
         uitleg="Een echografie werkt met ultrasoon geluid en dus niet met straling. De "
-        "drie juiste antwoorden werken wel met ioniserende straling.",
+        "juiste antwoorden werken wel met ioniserende straling.",
     ),
     dict(
         type="waarofniet",

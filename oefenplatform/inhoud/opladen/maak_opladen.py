@@ -156,7 +156,7 @@ INTRO = """<p>Deze ronde gaat over de <strong>inhoud van de vragen zelf</strong>
       gezet, zodat het juiste antwoord niet altijd bovenaan staat. Maar in de uitleg stond bij
       166 vragen nog &#8220;De eerste drie zijn juist&#8221; of &#8220;De laatste moet it rains
       zijn&#8221;. Een kind dat die uitleg las, zag die drie niet bovenaan staan. Dat is nu
-      overal vervangen door iets dat blijft kloppen: <em>de drie juiste antwoorden</em>,
+      overal vervangen door iets dat blijft kloppen: <em>de juiste antwoorden</em>,
       <em>de twee andere</em>, <em>het foute antwoord</em>.</p>
       <p><strong>Twee.</strong> Het aantal juiste antwoorden bij een aankruisvraag. Bij de meeste
       vakken stond bijna alles op precies drie, dus kon een kind er drie aanvinken zonder de

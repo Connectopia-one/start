@@ -197,7 +197,7 @@ DEEL2 = [
             "Xxx",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De drie juiste antwoorden zijn formeel of neutraal. Kusjes horen bij familie en vrienden.",
+        uitleg="De juiste antwoorden zijn formeel of neutraal. Kusjes horen bij familie en vrienden.",
     ),
     dict(
         type="meerkeuze",

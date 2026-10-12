@@ -57,7 +57,7 @@ DEEL1 = [
         ],
         antwoord=[0, 1, 2],
         uitleg="Natte handen en elektriciteit zijn levensgevaarlijk, want water geleidt. De "
-        "drie juiste antwoorden sparen bovendien het toestel en de batterij.",
+        "juiste antwoorden sparen bovendien het toestel en de batterij.",
     ),
     dict(
         type="waarofniet",

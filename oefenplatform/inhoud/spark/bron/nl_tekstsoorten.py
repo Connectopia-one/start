@@ -36,7 +36,7 @@ DEEL1 = [
             "Een documentaire",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="De vier juiste antwoorden informeren. Een reclamefilmpje wil je overtuigen of beïnvloeden.",
+        uitleg="De juiste antwoorden informeren. Een reclamefilmpje wil je overtuigen of beïnvloeden.",
     ),
     dict(
         type="invultekst",

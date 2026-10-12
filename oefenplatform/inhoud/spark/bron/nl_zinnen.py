@@ -130,7 +130,7 @@ DEEL1 = [
             "niemand",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="'Altijd' bevestigt net. De vier juiste antwoorden draaien de betekenis om.",
+        uitleg="'Altijd' bevestigt net. De juiste antwoorden draaien de betekenis om.",
     ),
     dict(
         type="meerkeuze",
@@ -331,7 +331,7 @@ DEEL2 = [
             "Na de training ging hij meteen slapen.",
         ],
         antwoord=[0, 1],
-        uitleg="De twee juiste antwoorden hebben twee persoonsvormen. De twee andere hebben er maar één.",
+        uitleg="De juiste antwoorden hebben twee persoonsvormen. De twee andere hebben er maar één.",
     ),
     dict(
         type="meerkeuze",

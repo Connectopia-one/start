@@ -240,7 +240,7 @@ DEEL2 = [
                  "Kind regards",
                  "See ya, mate, got to run"],
          antwoord=[0, 1, 2],
-         uitleg="De drie juiste antwoorden zijn hoffelijk en neutraal. See ya hoort bij een bericht aan een vriend."),
+         uitleg="De juiste antwoorden zijn hoffelijk en neutraal. See ya hoort bij een bericht aan een vriend."),
     dict(type="meerkeuze",
          vraag="Lees: \"I am so sorry I forgot your birthday!\" Wat doet de schrijver?",
          opties=["zich verontschuldigen",

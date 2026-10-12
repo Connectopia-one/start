@@ -225,7 +225,7 @@ DEEL2 = [
             "Het bericht dringt erop aan dat je het meteen deelt",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="De vier juiste antwoorden zijn alarmsignalen. Een datum vermelden is net een goed teken.",
+        uitleg="De juiste antwoorden zijn alarmsignalen. Een datum vermelden is net een goed teken.",
     ),
     dict(
         type="meerkeuze",
@@ -299,7 +299,7 @@ DEEL2 = [
             "Ik hou nu eenmaal van water",
         ],
         antwoord=[0, 1],
-        uitleg="De twee juiste antwoorden geven een reden die ook voor anderen telt. Wat jij lekker vindt of wat je vriendin wil, overtuigt niemand.",
+        uitleg="De juiste antwoorden geven een reden die ook voor anderen telt. Wat jij lekker vindt of wat je vriendin wil, overtuigt niemand.",
     ),
     dict(
         type="waarofniet",

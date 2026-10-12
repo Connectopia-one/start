@@ -363,7 +363,7 @@ DEEL2 = [
             "De koopkracht van de laagste lonen daalt erdoor",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De drie juiste antwoorden zijn de gebruikelijke bezwaren. De koopkracht van wie het minimumloon krijgt, stijgt er juist door: dat is net het doel.",
+        uitleg="De juiste antwoorden zijn de gebruikelijke bezwaren. De koopkracht van wie het minimumloon krijgt, stijgt er juist door: dat is net het doel.",
     ),
     dict(
         type="waarofniet",

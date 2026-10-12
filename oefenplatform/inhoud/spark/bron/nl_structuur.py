@@ -217,7 +217,7 @@ DEEL2 = [
             "neem nu",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="De vier juiste antwoorden leiden een voorbeeld in. 'Daarentegen' zet net iets tegenover elkaar.",
+        uitleg="De juiste antwoorden leiden een voorbeeld in. 'Daarentegen' zet net iets tegenover elkaar.",
     ),
     dict(
         type="meerkeuze",

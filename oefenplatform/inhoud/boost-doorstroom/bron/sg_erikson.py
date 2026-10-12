@@ -102,7 +102,7 @@ DEEL1 = [
                  "initiatief versus schuld",
                  "intimiteit versus isolatie"],
          antwoord=[0, 1, 2],
-         uitleg="De drie juiste antwoorden van de acht. Intimiteit versus isolatie komt pas in de vroege volwassenheid."),
+         uitleg="De juiste antwoorden van de acht. Intimiteit versus isolatie komt pas in de vroege volwassenheid."),
     dict(type="meerkeuze",
          vraag="Welke kracht hoort bij handvaardigheid versus minderwaardigheid?",
          opties=["competentie",

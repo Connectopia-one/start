@@ -233,7 +233,7 @@ DEEL2 = [
         vraag="Welke werkwoordsvormen staan in de onvoltooid verleden tijd?",
         opties=["hij fietste", "wij leerden", "zij speelden", "hij heeft gefietst"],
         antwoord=[0, 1, 2],
-        uitleg="De drie juiste antwoorden zijn ovt. 'Heeft gefietst' is de voltooid tegenwoordige tijd: hulpwerkwoord plus deelwoord.",
+        uitleg="De juiste antwoorden zijn ovt. 'Heeft gefietst' is de voltooid tegenwoordige tijd: hulpwerkwoord plus deelwoord.",
     ),
     dict(
         type="meerkeuze",
@@ -305,7 +305,7 @@ DEEL2 = [
             "Ik heb een neiuwe fiets.",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De drie juiste antwoorden bestaan als woord, dus de controle zwijgt. 'Neiuwe' bestaat niet en wordt wel aangeduid.",
+        uitleg="De juiste antwoorden bestaan als woord, dus de controle zwijgt. 'Neiuwe' bestaat niet en wordt wel aangeduid.",
     ),
     dict(
         type="meerkeuze",

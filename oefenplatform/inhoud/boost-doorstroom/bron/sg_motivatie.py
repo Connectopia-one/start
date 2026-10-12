@@ -102,7 +102,7 @@ DEEL1 = [
                  "ze kan van buiten komen",
                  "ze is bij iedereen gelijk"],
          antwoord=[0, 1, 2],
-         uitleg="De drie juiste antwoorden staan in de fiche. Motivatie verschilt sterk per persoon en per taak."),
+         uitleg="De juiste antwoorden staan in de fiche. Motivatie verschilt sterk per persoon en per taak."),
     dict(type="meerkeuze",
          vraag="Iemand solliciteert voor een job die hij nog niet heeft. Welk gedrag is dat?",
          opties=["nastreven wat je niet hebt",

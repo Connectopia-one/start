@@ -260,7 +260,7 @@ DEEL2 = [
             "Water dat bevriest",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="Bij de vier juiste antwoorden blijft de stof zichzelf. Een appel die bruin wordt, reageert met zuurstof uit de lucht: dat is chemisch.",
+        uitleg="Bij de juiste antwoorden blijft de stof zichzelf. Een appel die bruin wordt, reageert met zuurstof uit de lucht: dat is chemisch.",
     ),
     dict(
         type="meerkeuze",

@@ -297,7 +297,7 @@ DEEL2 = [
             "De bus rijdt volgens een uurrooster dat al jaren vastligt",
         ],
         antwoord=[0, 1],
-        uitleg="In de twee juiste antwoorden wordt je mening gevraagd voor er beslist wordt. Bij het busuurrooster en het schoolreglement gebeurt dat niet.",
+        uitleg="In de juiste antwoorden wordt je mening gevraagd voor er beslist wordt. Bij het busuurrooster en het schoolreglement gebeurt dat niet.",
     ),
     dict(
         type="waarofniet",

@@ -105,29 +105,31 @@
           "opties": [
             "children",
             "teeth",
-            "mice",
-            "tables"
+            "books",
+            "tables",
+            "houses"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Child wordt children, tooth wordt teeth, mouse wordt mice. Table wordt gewoon tables.",
+          "uitleg": "Child wordt children en tooth wordt teeth. Table, book en house krijgen gewoon een -s erbij.",
           "varianten": [
             {
               "opties": [
                 "men",
                 "women",
                 "feet",
-                "books"
+                "books",
+                "children"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
-              "uitleg": "Books krijgt gewoon een -s. De andere drie veranderen van vorm."
+              "uitleg": "Books krijgt gewoon een -s. De andere vier veranderen van vorm."
             },
             {
               "opties": [
@@ -147,15 +149,14 @@
               "opties": [
                 "feet",
                 "teeth",
-                "geese",
+                "tables",
                 "windows"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Windows krijgt gewoon een -s. Bij de andere drie verandert de klinker."
+              "uitleg": "Windows en tables krijgen gewoon een -s. Bij feet en teeth verandert de klinker."
             }
           ]
         },
@@ -377,12 +378,14 @@
             "my",
             "her",
             "their",
-            "mine"
+            "mine",
+            "our"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "My, your, his, her, its, our en their staan vóór een naamwoord: my book. Mine staat alleen: that book is mine.",
           "varianten": [
@@ -391,14 +394,16 @@
                 "your",
                 "our",
                 "his",
-                "yours"
+                "yours",
+                "my"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
-              "uitleg": "Yours staat alleen; de andere drie staan altijd vóór een naamwoord."
+              "uitleg": "Yours staat alleen; de andere vier staan altijd vóór een naamwoord."
             },
             {
               "opties": [
@@ -418,15 +423,14 @@
               "opties": [
                 "her",
                 "their",
-                "your",
+                "hers",
                 "theirs"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Theirs staat alleen; de andere drie staan altijd vóór een naamwoord."
+              "uitleg": "Theirs en hers staan alleen; her en their staan altijd vóór een naamwoord."
             }
           ]
         },
@@ -743,29 +747,31 @@
           "opties": [
             "good – better – best",
             "bad – worse – worst",
-            "far – further – furthest",
-            "small – smaller – smallest"
+            "long – longer – longest",
+            "small – smaller – smallest",
+            "quick – quicker – quickest"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Small volgt gewoon de regel met -er en -est. De drie andere moet je uit het hoofd kennen.",
+          "uitleg": "Small, long en quick volgen gewoon de regel met -er en -est. Good en bad moet je uit het hoofd kennen.",
           "varianten": [
             {
               "opties": [
                 "little – less – least",
                 "many – more – most",
                 "bad – worse – worst",
-                "big – bigger – biggest"
+                "big – bigger – biggest",
+                "good – better – best"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
-              "uitleg": "Big volgt gewoon de regel: -er en -est."
+              "uitleg": "Big volgt gewoon de regel: -er en -est. De vier andere moet je kennen."
             },
             {
               "opties": [
@@ -785,15 +791,14 @@
               "opties": [
                 "bad – worse – worst",
                 "little – less – least",
-                "good – better – best",
+                "small – smaller – smallest",
                 "tall – taller – tallest"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Tall volgt gewoon de regel: -er en -est."
+              "uitleg": "Tall en small volgen gewoon de regel: -er en -est."
             }
           ]
         },
@@ -956,29 +961,31 @@
           "opties": [
             "first",
             "third",
-            "twentieth",
-            "fifteen"
+            "twenty",
+            "fifteen",
+            "thirty"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Fifteen is een hoofdtelwoord; het rangtelwoord daarvan is fifteenth.",
+          "uitleg": "First en third zijn rangtelwoorden. Fifteen, twenty en thirty zijn hoofdtelwoorden; de rangtelwoorden daarvan zijn fifteenth, twentieth en thirtieth.",
           "varianten": [
             {
               "opties": [
                 "second",
                 "fourth",
                 "tenth",
-                "seven"
+                "seven",
+                "first"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
-              "uitleg": "Seven is een gewoon telwoord; de andere drie zeggen de hoeveelste."
+              "uitleg": "Seven is een gewoon telwoord; de andere vier zeggen de hoeveelste."
             },
             {
               "opties": [
@@ -997,16 +1004,15 @@
             {
               "opties": [
                 "eighth",
-                "thirtieth",
+                "fifty",
                 "sixth",
                 "forty"
               ],
               "antwoord": [
                 0,
-                1,
                 2
               ],
-              "uitleg": "Forty is een gewoon telwoord; de andere drie zeggen de hoeveelste."
+              "uitleg": "Forty en fifty zijn gewone telwoorden; eighth en sixth zeggen de hoeveelste."
             }
           ]
         },
@@ -1338,12 +1344,14 @@
                 "last night",
                 "in 2019",
                 "a month ago",
-                "always"
+                "always",
+                "when I was six"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Always wijst op een gewoonte, en die hoort bij de present simple."
             },
@@ -1365,15 +1373,14 @@
               "opties": [
                 "yesterday morning",
                 "last Friday",
-                "in the Middle Ages",
+                "every Friday",
                 "often"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Often wijst op een gewoonte, en die hoort bij de present simple."
+              "uitleg": "Often en every Friday wijzen op een gewoonte, en die hoort bij de present simple."
             }
           ]
         },
@@ -1454,28 +1461,32 @@
             "to see",
             "to take",
             "to buy",
-            "to open"
+            "to open",
+            "to bring"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "See wordt saw, take wordt took, buy wordt bought. Open volgt gewoon de regel: opened.",
+          "uitleg": "See wordt saw, take wordt took, buy wordt bought en bring wordt brought. Open volgt gewoon de regel: opened.",
           "varianten": [
             {
               "opties": [
                 "to go",
                 "to eat",
                 "to write",
-                "to play"
+                "to play",
+                "to buy"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
-              "uitleg": "To play krijgt gewoon -ed: played."
+              "uitleg": "To play krijgt gewoon -ed: played. De vier andere veranderen van vorm."
             },
             {
               "opties": [
@@ -1495,15 +1506,14 @@
               "opties": [
                 "to find",
                 "to leave",
-                "to speak",
+                "to watch",
                 "to listen"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "To listen krijgt gewoon -ed: listened."
+              "uitleg": "To listen en to watch krijgen gewoon -ed: listened, watched."
             }
           ]
         },
@@ -1628,14 +1638,16 @@
                 "He doesn't play tennis.",
                 "We have not eaten.",
                 "She never calls.",
-                "I am tired."
+                "I am tired.",
+                "She has no money."
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
-              "uitleg": "De laatste zin ontkent niets."
+              "uitleg": "'I am tired' ontkent niets; de vier andere zinnen wel."
             },
             {
               "opties": [
@@ -1655,15 +1667,14 @@
               "opties": [
                 "She doesn't drive.",
                 "We were not there.",
-                "I never forget.",
+                "She drives to work.",
                 "He is kind."
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "De laatste zin ontkent niets."
+              "uitleg": "'He is kind' en 'she drives to work' ontkennen niets."
             }
           ]
         },
@@ -2047,14 +2058,16 @@
                 "I will write tomorrow.",
                 "We will try again.",
                 "He will be ten next month.",
-                "She danced all night."
+                "She danced all night.",
+                "They will come later."
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
-              "uitleg": "De laatste zin staat in de verleden tijd."
+              "uitleg": "'She danced all night' staat in de verleden tijd; de vier andere in de toekomende."
             },
             {
               "opties": [
@@ -2073,16 +2086,15 @@
             {
               "opties": [
                 "She will help you.",
-                "We will know tomorrow.",
+                "We knew it already.",
                 "He will turn twelve in May.",
                 "They played outside."
               ],
               "antwoord": [
                 0,
-                1,
                 2
               ],
-              "uitleg": "De laatste zin staat in de verleden tijd."
+              "uitleg": "'They played outside' en 'we knew it already' staan in de verleden tijd."
             }
           ]
         },
@@ -2156,27 +2168,29 @@
           "opties": [
             "and",
             "but",
-            "because",
-            "very"
+            "quickly",
+            "very",
+            "really"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De fiche noemt but, and, so, when en because als frequente voegwoorden. 'Very' versterkt alleen een bijvoeglijk naamwoord.",
+          "uitleg": "And en but verbinden twee delen van een zin, net als so, when en because. Very, quickly en really versterken of beschrijven alleen.",
           "varianten": [
             {
               "opties": [
                 "or",
                 "so",
                 "although",
-                "quickly"
+                "quickly",
+                "because"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Quickly is een bijwoord; het verbindt niets."
             },
@@ -2198,15 +2212,14 @@
               "opties": [
                 "if",
                 "but",
-                "since",
+                "very",
                 "almost"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Almost is een bijwoord; het verbindt niets."
+              "uitleg": "Almost en very zijn bijwoorden; ze verbinden niets."
             }
           ]
         },
@@ -2239,15 +2252,14 @@
           "opties": [
             "ze is bevelend",
             "ze is ontkennend",
-            "ze heeft een uitroepteken",
+            "ze staat in de verleden tijd",
             "ze heeft een onderwerp"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een bevelende zin met 'don't' is ontkennend én bevelend. Een onderwerp staat er niet bij; dat is juist het kenmerk van de imperative."
+          "uitleg": "Een bevelende zin met 'don't' is ontkennend én bevelend. Een onderwerp staat er niet bij, en dat is juist het kenmerk van de imperative. Van een verleden tijd is er geen sprake."
         },
         {
           "type": "meerkeuze",

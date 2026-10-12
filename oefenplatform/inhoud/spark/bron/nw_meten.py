@@ -37,7 +37,7 @@ DEEL1 = [
             "Een veiligheidsbril dragen waar dat nodig is",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="De vier juiste antwoorden sparen energie, materiaal en milieu, of je eigen ogen. Natte handen en elektriciteit gaan nooit samen: dat is net gevaarlijk.",
+        uitleg="De juiste antwoorden sparen energie, materiaal en milieu, of je eigen ogen. Natte handen en elektriciteit gaan nooit samen: dat is net gevaarlijk.",
     ),
     dict(
         type="waarofniet",
@@ -264,7 +264,7 @@ DEEL2 = [
             "Een dynamometer voor de waterdiepte",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De drie juiste antwoorden passen bij wat je wil weten. Een dynamometer meet kracht en zegt niets over diepte; daarvoor gebruik je een meetlat of een peilstok.",
+        uitleg="De juiste antwoorden passen bij wat je wil weten. Een dynamometer meet kracht en zegt niets over diepte; daarvoor gebruik je een meetlat of een peilstok.",
     ),
     dict(
         type="waarofniet",

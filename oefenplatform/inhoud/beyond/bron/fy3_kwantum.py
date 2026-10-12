@@ -114,7 +114,7 @@ DEEL1 = [
         ],
         antwoord=[0, 1, 2],
         uitleg="Een gloeilamp werkt net de andere kant op: elektriciteit wordt licht. De "
-        "drie juiste antwoorden maken van licht een stroom.",
+        "juiste antwoorden maken van licht een stroom.",
     ),
     dict(
         type="meerkeuze",
@@ -287,7 +287,7 @@ DEEL2 = [
             "de drempelfrequentie bij een fotocel",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De drempelfrequentie heb je het deeltjesmodel voor nodig. De drie "
+        uitleg="De drempelfrequentie heb je het deeltjesmodel voor nodig. De "
         "juiste antwoorden zijn typisch golfgedrag.",
     ),
     dict(

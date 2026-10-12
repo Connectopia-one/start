@@ -31,7 +31,7 @@ DEEL1 = [
             "er gebeurt op deeltjesniveau niets meer",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De drie juiste antwoorden zijn precies wat een evenwicht is. Op deeltjesniveau gaat het wel door, in beide richtingen even snel, en daarom heet het dynamisch.",
+        uitleg="De juiste antwoorden zijn precies wat een evenwicht is. Op deeltjesniveau gaat het wel door, in beide richtingen even snel, en daarom heet het dynamisch.",
     ),
     dict(
         type="invultekst",

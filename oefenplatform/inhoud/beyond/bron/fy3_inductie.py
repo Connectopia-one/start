@@ -267,7 +267,7 @@ DEEL2 = [
             "een gewone gloeilamp",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een gloeilamp werkt gewoon doordat een draad warm wordt. De drie juiste "
+        uitleg="Een gloeilamp werkt gewoon doordat een draad warm wordt. De juiste "
         "antwoorden hebben allemaal een veranderend magnetisch veld nodig.",
     ),
     dict(
