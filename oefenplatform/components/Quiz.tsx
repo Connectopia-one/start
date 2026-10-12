@@ -596,12 +596,21 @@ export function Quiz({
   kinderen = [],
   hoofdstukId,
   taalvak = false,
+  examen = false,
 }: {
   vragen: Vraag[];
   kinderen?: Kind[];
   hoofdstukId?: string;
   /** Bij een taalvak wordt een ingetypt antwoord streng vergeleken. */
   taalvak?: boolean;
+  /**
+   * Een examen over een heel vak (zie app/niveaus/[niveau]/[vak]/examen).
+   * Dan wordt er niets bijgehouden: geen antwoorden, geen sticker, geen vinkje
+   * bij een hoofdstuk. Een examen is een meting van wat je al kan, geen les,
+   * en het zou de voortgang van hoofdstukken die je nog niet maakte vervuilen.
+   * Gevraagd door een tester van de Examencommissie op 12 oktober 2026.
+   */
+  examen?: boolean;
 }) {
   const [statussen, setStatussen] = useState<Record<string, Status>>(() =>
     Object.fromEntries(
@@ -868,7 +877,7 @@ export function Quiz({
       ...s,
       [vraag.id]: { ...s[vraag.id], gecontroleerd: true, correct },
     }));
-    if (actiefKindId) {
+    if (actiefKindId && !examen) {
       registreerAntwoord(
         actiefKindId,
         vraag.id,
@@ -916,7 +925,7 @@ export function Quiz({
         overgeslagen: true,
       },
     }));
-    if (actiefKindId) {
+    if (actiefKindId && !examen) {
       registreerAntwoord(
         actiefKindId,
         vraag.id,

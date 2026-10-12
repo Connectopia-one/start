@@ -1,0 +1,208 @@
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { Header } from "@/components/Header";
+import { Quiz } from "@/components/Quiz";
+import { Leidraad } from "@/components/Leidraad";
+import { getSessionProfile } from "@/lib/auth";
+import { heeftVolledigeToegang } from "@/lib/toegang";
+import { createClient } from "@/lib/supabase/server";
+import {
+  PRIJS_NU_EUR,
+  TIJDELIJKE_PRIJS,
+  TIJDELIJKE_PRIJS_KORT,
+} from "@/lib/prijs";
+import { schooljaarEindeLabel } from "@/lib/schooljaar";
+import { vindNiveau } from "@/lib/niveaus";
+import { isTaalvak } from "@/lib/taalvak";
+import { vakIcoon } from "@/lib/vakbeeld";
+import { maakVraag } from "@/lib/vraagrij";
+
+/*
+  Een examen over een heel vak binnen één niveau.
+
+  Gevraagd op 12 oktober 2026 door een tester die zich via dit platform
+  voorbereidt op de Examencommissie: "Nu is het heel goed per hoofdstuk toetsen
+  (wat ik zeker goed vind en behouden moet worden) maar ook zou ik graag een
+  toets / examen per vak hebben. Wat je dan kan doen om je totale kennis te
+  testen." Zelfde mail: "Het zijn ook altijd wel dezelfde vragen."
+
+  Drie keuzes die daaruit volgen:
+
+  1. De vragen worden elke keer opnieuw door elkaar getrokken uit álle
+     hoofdstukken van dat vak. Herladen geeft een ander examen; dat is meteen
+     het antwoord op dat tweede punt.
+  2. Er wordt niets bijgehouden. Geen antwoorden, geen sticker, geen vinkje bij
+     een hoofdstuk. Een examen meet wat je al kan; het hoort de voortgang van
+     hoofdstukken die je nog niet maakte niet in te kleuren. Daarom krijgt de
+     Quiz hier examen={true} en geen hoofdstukId.
+  3. De pittige hoofdstukken blijven eruit. Die liggen bewust boven de leerstof
+     van het niveau, en een examen hoort te meten of je het niveau zelf
+     beheerst.
+*/
+
+const AANTAL_VRAGEN = 40;
+const PITTIG = /\s*—\s*pittig$/i;
+
+/* Door elkaar, zonder de lijst van de aanroeper aan te raken. */
+function schud<T>(lijst: T[]): T[] {
+  const kopie = [...lijst];
+  for (let i = kopie.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [kopie[i], kopie[j]] = [kopie[j], kopie[i]];
+  }
+  return kopie;
+}
+
+export default async function ExamenPage({
+  params,
+}: {
+  params: Promise<{ niveau: string; vak: string }>;
+}) {
+  const { niveau: niveauSlug, vak: vakSlug } = await params;
+  const niveau = vindNiveau(niveauSlug);
+  if (!niveau) notFound();
+
+  const session = await getSessionProfile();
+  const supabase = await createClient();
+
+  const { data: vak } = await supabase
+    .from("vakken")
+    .select("id, naam, slug, hoofdstukken(id, titel, niveau)")
+    .eq("slug", vakSlug)
+    .single();
+  if (!vak) notFound();
+
+  const hoofdstukken = (
+    vak.hoofdstukken as { id: string; titel: string; niveau: string }[]
+  ).filter((h) => h.niveau === niveau.slug && !PITTIG.test(h.titel));
+  if (!hoofdstukken.length) notFound();
+
+  const terug = `/niveaus/${niveau.slug}/${vak.slug}`;
+  const volledigeToegang = heeftVolledigeToegang(session?.profile ?? null);
+
+  /*
+    Een examen loopt over alle hoofdstukken heen, ook de hoofdstukken die niet
+    gratis zijn. Het hoort dus achter een account, net als de uitdagingshoek.
+  */
+  if (!volledigeToegang) {
+    return (
+      <>
+        <Header
+          naam={session?.profile?.full_name}
+          rol={session?.profile?.role}
+        />
+        <main className="mx-auto w-full max-w-3xl flex-1 px-6 py-10">
+          <Link href={terug} className="text-sm text-ink-dim hover:text-ink">
+            &larr; {vak.naam}
+          </Link>
+          <h1 className="mt-2 font-display text-2xl font-semibold text-ink">
+            Examen {vak.naam}
+          </h1>
+          <div className="mt-6 rounded-xl border border-amber/40 bg-amber/10 px-5 py-4 text-sm text-ink">
+            Een examen gaat over alle hoofdstukken van dit vak samen, dus het
+            hoort bij de volledige toegang. Die kost €{PRIJS_NU_EUR} per
+            schooljaar
+            {TIJDELIJKE_PRIJS && <> ({TIJDELIJKE_PRIJS_KORT})</>}, geldig tot en
+            met {schooljaarEindeLabel()} — de opbrengsten gaan volledig naar vzw
+            Connectopia.{" "}
+            <Link
+              href={session ? "/betalen" : "/registreren"}
+              className="font-medium text-forest-dark underline-offset-2 hover:underline"
+            >
+              {session ? "Nu vrijgeven" : "Account maken en starten"}
+            </Link>
+          </div>
+          <Leidraad />
+        </main>
+      </>
+    );
+  }
+
+  /*
+    Eerst enkel de nummers ophalen en daarvan veertig trekken, en pas dan die
+    veertig rijen zelf. Een vak heeft al snel vijfhonderd vragen; die allemaal
+    binnenhalen om er veertig te houden, laat een gsm onnodig wachten.
+  */
+  const hoofdstukIds = hoofdstukken.map((h) => h.id);
+  const { data: nummers } = await supabase
+    .from("vragen")
+    .select("id")
+    .in("hoofdstuk_id", hoofdstukIds);
+
+  const gekozen = schud((nummers ?? []).map((n) => n.id as string)).slice(
+    0,
+    AANTAL_VRAGEN,
+  );
+
+  const { data: vragenRuw } = gekozen.length
+    ? await supabase.from("vragen").select("*").in("id", gekozen)
+    : { data: [] };
+
+  const vragen = schud(
+    await Promise.all((vragenRuw ?? []).map((rij) => maakVraag(supabase, rij))),
+  );
+
+  const { data: kinderen } = session
+    ? await supabase
+        .from("kinderen")
+        .select("*")
+        .eq("profile_id", session.userId)
+        .order("naam")
+    : { data: [] };
+
+  return (
+    <>
+      <Header naam={session?.profile?.full_name} rol={session?.profile?.role} />
+      <main className="mx-auto w-full max-w-3xl flex-1 px-6 py-10">
+        <Link href={terug} className="text-sm text-ink-dim hover:text-ink">
+          &larr; {vakIcoon(vak.slug)} {vak.naam}
+        </Link>
+        <h1 className="mt-2 font-display text-2xl font-semibold text-ink">
+          Examen {vak.naam}
+        </h1>
+        <p className="mt-1 text-sm text-ink-dim">
+          {vragen.length} vragen door elkaar uit de {hoofdstukken.length}{" "}
+          hoofdstukken van {niveau.emoji} {niveau.naam}.
+        </p>
+
+        <div className="mt-5 rounded-xl border border-border bg-surface px-5 py-4 text-sm text-ink-dim">
+          <p>
+            Dit examen telt niet mee in je voortgang. De vinkjes en sterren bij
+            de hoofdstukken blijven zoals ze zijn, dus je kan het zo vaak
+            proberen als je wil.
+          </p>
+          <p className="mt-2">
+            Elke keer dat je dit examen opnieuw opent, krijg je andere vragen.{" "}
+            <Link
+              href={`${terug}/examen`}
+              className="font-medium text-forest-dark underline-offset-2 hover:underline"
+            >
+              Nieuw examen
+            </Link>
+          </p>
+        </div>
+
+        <div className="mt-8">
+          {vragen.length === 0 ? (
+            <p className="rounded-xl border border-border bg-surface px-5 py-4 text-sm text-ink-dim">
+              Er staan nog geen vragen bij dit vak.
+            </p>
+          ) : (
+            <Quiz
+              vragen={vragen}
+              kinderen={(kinderen ?? []).map((k) => ({
+                id: k.id,
+                naam: k.naam,
+                toonVoortgang: Boolean(k.toon_voortgang),
+              }))}
+              taalvak={isTaalvak(vak.slug)}
+              examen
+            />
+          )}
+        </div>
+
+        <Leidraad />
+      </main>
+    </>
+  );
+}

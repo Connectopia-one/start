@@ -13,8 +13,7 @@ import {
 import { schooljaarEindeLabel } from "@/lib/schooljaar";
 import { vindNiveau } from "@/lib/niveaus";
 import { isTaalvak } from "@/lib/taalvak";
-import { schikOpties } from "@/lib/optievolgorde";
-import { bouwVarianten } from "@/lib/spellingvariant";
+import { maakVraag } from "@/lib/vraagrij";
 import { HoofdstukTabs } from "@/components/HoofdstukTabs";
 import { GeoGebraCalculator } from "@/components/GeoGebraCalculator";
 import { Leerbundel, type LeerbundelBlok } from "@/components/Leerbundel";
@@ -75,38 +74,7 @@ export default async function HoofdstukPage({
     : { data: [] };
 
   const vragen = await Promise.all(
-    (vragenRuw ?? []).map(async (rij) => {
-      // Alleen wat de browser nodig heeft. De rij komt met "*" binnen, dus er
-      // staan ook kolommen in die daar niets te zoeken hebben.
-      const v = {
-        id: rij.id as string,
-        type: rij.type as "meerkeuze" | "invultekst" | "waarofniet",
-        vraag: rij.vraag as string,
-        opties: (rij.opties ?? null) as string[] | null,
-        antwoord: rij.antwoord as
-          | number
-          | string
-          | boolean
-          | number[]
-          | string[],
-        uitleg: (rij.uitleg ?? null) as string | null,
-        volgnummer: rij.volgnummer as number,
-      };
-      // Wisselende woorden bij spelling: elke beurt krijgt hier haar eigen
-      // geschudde opties mee. Welke beurt een kind ziet, weet pas de browser,
-      // want daar staat welk kind aan het oefenen is. Zie lib/spellingvariant.ts.
-      const varianten = bouwVarianten(v, rij.varianten);
-      // De opties krijgen hier hun volgorde, zodat het juiste antwoord niet
-      // altijd bovenaan staat. Zie lib/optievolgorde.ts.
-      const kern = { ...schikOpties(v), varianten };
-      const pad = (rij.afbeelding_pad ?? null) as string | null;
-      if (!pad) return { ...kern, afbeeldingUrl: null as string | null };
-      if (pad.startsWith("http")) return { ...kern, afbeeldingUrl: pad };
-      const { data } = await supabase.storage
-        .from("vraagafbeeldingen")
-        .createSignedUrl(pad, 3600);
-      return { ...kern, afbeeldingUrl: data?.signedUrl ?? null };
-    }),
+    (vragenRuw ?? []).map((rij) => maakVraag(supabase, rij)),
   );
 
   const { data: kinderen } = session

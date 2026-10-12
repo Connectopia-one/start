@@ -128,6 +128,29 @@ export default async function NiveauVakPage({
           kinderen={kinderen ?? []}
         />
 
+        {/* Een examen over het hele vak, onderaan: eerst oefen je per
+            hoofdstuk, daarna test je of het blijft plakken. Gevraagd door een
+            tester die zich voorbereidt op de Examencommissie. */}
+        {volledigeToegang && (
+          <Link
+            href={`/niveaus/${niveau.slug}/${vak.slug}/examen`}
+            className="mt-8 flex items-center justify-between gap-4 rounded-xl border border-border bg-surface px-5 py-4 transition hover:border-forest"
+          >
+            <span>
+              <span className="font-display font-semibold text-ink">
+                <span aria-hidden>📝</span> Examen over het hele vak
+              </span>
+              <span className="mt-0.5 block text-sm text-ink-dim">
+                Veertig vragen door elkaar uit alle hoofdstukken. Telt niet mee
+                in je voortgang.
+              </span>
+            </span>
+            <span aria-hidden className="text-ink-dim">
+              &rarr;
+            </span>
+          </Link>
+        )}
+
         <Leidraad />
       </main>
     </>
