@@ -29,8 +29,9 @@ DEEL1 = [
             "de concentraties veranderen niet meer",
             "de heenreactie en de terugreactie gaan even snel",
             "er gebeurt op deeltjesniveau niets meer",
+            "het evenwicht is dynamisch",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De juiste antwoorden zijn precies wat een evenwicht is. Op deeltjesniveau gaat het wel door, in beide richtingen even snel, en daarom heet het dynamisch.",
     ),
     dict(
@@ -128,12 +129,12 @@ DEEL1 = [
         vraag="Welke uitspraken over de twee snelheden in een evenwicht zijn juist? Kruis alles aan wat juist is.",
         opties=[
             "de heenreactie vertraagt onderweg naar het evenwicht",
-            "de terugreactie versnelt onderweg naar het evenwicht",
+            "beide snelheden blijven onderweg aan elkaar gelijk",
             "in het evenwicht zijn beide snelheden gelijk",
             "in het evenwicht zijn beide snelheden nul",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De twee snelheden groeien naar elkaar toe en blijven daarna gelijk. Nul zijn ze niet, want het evenwicht is dynamisch.",
+        antwoord=[0, 2],
+        uitleg="De twee snelheden groeien naar elkaar toe: de heenreactie vertraagt, de terugreactie versnelt, en pas in het evenwicht zijn ze gelijk. Nul zijn ze niet, want het evenwicht is dynamisch.",
     ),
     dict(
         type="waarofniet",
@@ -243,8 +244,9 @@ DEEL2 = [
             "het volume van het vat veranderen bij een gasevenwicht",
             "de temperatuur veranderen",
             "een katalysator toevoegen",
+            "een gas uit het vat wegnemen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Die drie veranderen de ligging van het evenwicht. Een katalysator versnelt heen- en terugreactie even sterk, dus komt het evenwicht enkel sneller tot stand.",
     ),
     dict(
@@ -349,11 +351,11 @@ DEEL2 = [
         opties=[
             "kijken welke lijn als eerste plots verspringt",
             "kijken in welke richting de lijnen daarna evolueren",
-            "kijken of alle lijnen op hetzelfde moment van richting veranderen",
+            "kijken hoeveel lijnen er in de grafiek staan",
             "kijken hoeveel gram product er in totaal ontstaan is",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een plotse sprong in één lijn wijst op een toevoeging van die stof. Veranderen alle lijnen samen zonder sprong, dan gaat het eerder over temperatuur of volume.",
+        antwoord=[0, 1],
+        uitleg="Een plotse sprong in één lijn wijst op een toevoeging van die stof, en de richting daarna zegt waar het evenwicht naartoe schuift. Het aantal lijnen of het totale aantal gram zegt niets over de verstoring.",
     ),
     dict(
         type="waarofniet",
@@ -369,8 +371,9 @@ DEEL2 = [
             "extra reagens blijven toevoegen",
             "de temperatuur in de gunstige richting zetten",
             "het volume van het vat zo groot mogelijk maken",
+            "de druk verhogen als er rechts minder gasdeeltjes staan",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Die drie schuiven het evenwicht echt naar rechts. Het volume helpt enkel als links en rechts een ander aantal gasdeeltjes staat, en dan niet zomaar in die richting.",
     ),
     dict(

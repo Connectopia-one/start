@@ -91,11 +91,11 @@ DEEL1 = [
         opties=[
             "het is de insnoering van een chromosoom",
             "het houdt de zusterchromatiden samen",
-            "er zit een kinetochoor op waaraan de trekdraden aangrijpen",
+            "het ligt altijd precies in het midden van het chromosoom",
             "het is het eiwit waarrond het DNA zich opwindt",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Het centromeer is de insnoering die de chromatiden samenhoudt en waar via de kinetochoor de trekdraden aangrijpen. De eiwitten waarrond DNA zich wikkelt zijn de histonen.",
+        antwoord=[0, 1],
+        uitleg="Het centromeer is de insnoering die de chromatiden samenhoudt en waar via de kinetochoor de trekdraden aangrijpen. Het ligt niet altijd in het midden, en de eiwitten waarrond DNA zich wikkelt zijn de histonen.",
     ),
     dict(
         type="meerkeuze",
@@ -105,8 +105,9 @@ DEEL1 = [
             "het geslacht van de persoon",
             "een afwijkend aantal chromosomen",
             "de kleur van de ogen van de persoon",
+            "de vorm en de grootte van elk chromosoom",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Op een karyogram staan de chromosomen gerangschikt per paar. Je ziet het aantal, de geslachtschromosomen en afwijkingen, maar geen gewone kenmerken zoals oogkleur.",
     ),
     dict(
@@ -209,12 +210,12 @@ DEEL2 = [
         vraag="Wat klopt er over DNA-polymerase? Kruis alles aan wat juist is.",
         opties=[
             "het zet nieuwe nucleotiden tegen de oude streng aan",
-            "het leest de oude streng als sjabloon",
+            "het knipt de strengen in stukken",
             r"het werkt altijd in de richting van \(5\) naar \(3\)",
             "het rolt zelf de dubbele helix open",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Polymerase bouwt de nieuwe streng op tegen de oude als sjabloon, en altijd in dezelfde richting. Openrollen is het werk van helicase.",
+        antwoord=[0, 2],
+        uitleg="Polymerase bouwt de nieuwe streng op tegen de oude als sjabloon, en altijd in dezelfde richting. Openrollen is het werk van helicase, en knippen doet het niet.",
     ),
     dict(
         type="meerkeuze",
@@ -236,8 +237,9 @@ DEEL2 = [
             "die stukjes heten Okazaki-fragmenten",
             "ligase plakt de stukjes aan elkaar",
             "ze wordt in één ononderbroken beweging gemaakt",
+            "ze loopt tegengesteld aan de beweging van de vork",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Omdat het polymerase maar in één richting werkt, kan de achterblijvende streng enkel in korte stukjes gemaakt worden. De leading strand loopt wel ononderbroken door.",
     ),
     dict(
@@ -330,11 +332,11 @@ DEEL2 = [
         opties=[
             "de crossing-over tussen homologe chromosomen",
             "de toevallige verdeling van de chromosomenparen",
-            "de willekeurige combinatie bij de bevruchting",
+            "de verdubbeling van het aantal chromosomen",
             "het identiek kopiëren van elke chromatide",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Overkruising en de onafhankelijke verdeling leveren al heel veel combinaties op, en de bevruchting voegt er nog eens toeval aan toe. Een identieke kopie geeft juist geen variatie.",
+        antwoord=[0, 1],
+        uitleg="Overkruising en de onafhankelijke verdeling leveren al heel veel combinaties op, en de bevruchting voegt er nog eens toeval aan toe. Een identieke kopie of een verdubbeling van het aantal chromosomen geeft juist geen variatie.",
     ),
     dict(
         type="invultekst",

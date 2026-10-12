@@ -30,9 +30,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke structuren vind je wel in een plantaardige cel en niet in een dierlijke cel? Kruis alles aan wat juist is.",
-        opties=["een celwand van cellulose", "chloroplasten", "een grote centrale vacuole", "een celmembraan"],
-        antwoord=[0, 1, 2],
-        uitleg="De celwand, de bladgroenkorrels en de grote centrale vacuole zijn typisch plantaardig. Een celmembraan heeft elke cel.",
+        opties=[
+            "een celwand van cellulose",
+            "chloroplasten",
+            "mitochondriën",
+            "een celmembraan",
+        ],
+        antwoord=[0, 1],
+        uitleg="De celwand, de bladgroenkorrels en de grote centrale vacuole zijn typisch plantaardig. Een celmembraan en mitochondriën heeft elke cel.",
     ),
     dict(
         type="meerkeuze",
@@ -75,8 +80,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke stoffen zitten er in een celmembraan ingebouwd? Kruis alles aan wat juist is.",
-        opties=["cholesterol", "transmembraaneiwitten", "perifere herkenningseiwitten", "chlorofyl uit het blad"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "cholesterol",
+            "transmembraaneiwitten",
+            "perifere herkenningseiwitten",
+            "chlorofyl uit het blad",
+            "fosfolipiden in een dubbele laag",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Cholesterol houdt het membraan soepel, transmembraaneiwitten lopen er helemaal door en perifere eiwitten liggen aan één kant, vaak als herkenningspunt. Chlorofyl zit in de chloroplast.",
     ),
     dict(
@@ -178,9 +189,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke onderdelen horen bij het huidweefsel van een plant? Kruis alles aan wat juist is.",
-        opties=["de epidermis", "de waslaag of cuticula", "de rhizodermis met wortelharen", "de vaatbundel in de stengel"],
-        antwoord=[0, 1, 2],
-        uitleg="Epidermis, waslaag en rhizodermis vormen samen de buitenste laag van de plant. De vaatbundel hoort bij het transportweefsel.",
+        opties=[
+            "de epidermis",
+            "de waslaag of cuticula",
+            "het palissadeparenchym",
+            "de vaatbundel in de stengel",
+        ],
+        antwoord=[0, 1],
+        uitleg="Epidermis, waslaag en rhizodermis vormen samen de buitenste laag van de plant. De vaatbundel hoort bij het transportweefsel en het palissadeparenchym bij het grondweefsel.",
     ),
     dict(
         type="waarofniet",
@@ -259,8 +275,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke onderdelen van een blad horen bij het grondweefsel? Kruis alles aan wat juist is.",
-        opties=["het palissadeparenchym", "het sponsparenchym", "het steunweefsel", "de epidermis"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "het palissadeparenchym",
+            "het sponsparenchym",
+            "het steunweefsel",
+            "de epidermis",
+            "het vulweefsel tussen de nerven",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Vulweefsel of parenchym en steunweefsel vormen samen het grondweefsel. De epidermis is huidweefsel.",
     ),
     dict(
@@ -323,11 +345,11 @@ DEEL2 = [
         opties=[
             "er komt te weinig koolstofdioxide binnen",
             "de fotosynthese valt grotendeels stil",
-            "de plant verliest veel minder waterdamp",
+            "de plant groeit juist sneller",
             "de wortels nemen plots veel meer mineralen op",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Gesloten huidmondjes sparen water, maar sluiten ook de aanvoer van koolstofdioxide af. Zonder dat gas kan de donkerreactie niet doorgaan.",
+        antwoord=[0, 1],
+        uitleg="Gesloten huidmondjes sparen water, maar sluiten ook de aanvoer van koolstofdioxide af. Zonder dat gas valt de donkerreactie stil en groeit de plant juist langzamer.",
     ),
     dict(
         type="invultekst",

@@ -27,11 +27,11 @@ DEEL1 = [
         opties=[
             "de afname van de concentratie van een reagens per seconde",
             "de toename van de concentratie van een product per seconde",
-            "het aantal effectieve botsingen per seconde",
+            "de hoeveelheid product die in totaal ontstaat",
             "het aantal deeltjes dat in het vat aanwezig is",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een concentratie die per seconde af- of toeneemt, is de gewone manier; de botsingen per seconde horen bij het botsingsmodel. Het aantal deeltjes alleen is geen snelheid, want er staat geen tijd bij.",
+        antwoord=[0, 1],
+        uitleg="Een concentratie die per seconde af- of toeneemt, is de gewone manier; de botsingen per seconde horen bij het botsingsmodel. Een aantal deeltjes of een totale hoeveelheid is geen snelheid, want er staat geen tijd bij.",
     ),
     dict(
         type="invultekst",
@@ -83,8 +83,9 @@ DEEL1 = [
             "de concentratie van de reagentia",
             "de verdelingsgraad van een vaste stof",
             "de massa van het reactievat",
+            "een katalysator toevoegen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Temperatuur, concentratie en verdelingsgraad zijn drie van de vier factoren; de vierde is de katalysator. Het vat zelf doet niet mee aan de reactie.",
     ),
     dict(
@@ -246,11 +247,11 @@ DEEL2 = [
         opties=[
             "de reactie neemt energie uit de omgeving op",
             "de producten hebben meer inwendige energie dan de reagentia",
-            "de omgeving koelt tijdens de reactie af",
+            "de reactie loopt altijd vanzelf door",
             "de reactie heeft geen activeringsenergie nodig",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Endo-energetisch betekent dat er energie naar binnen gaat. Een activeringsenergie is er altijd, ook bij endo-energetische reacties.",
+        antwoord=[0, 1],
+        uitleg="Endo-energetisch betekent dat er energie naar binnen gaat, en daardoor koelt de omgeving af. Een activeringsenergie is er altijd, en vanzelf doorlopen doet zo'n reactie niet.",
     ),
     dict(
         type="meerkeuze",
@@ -296,8 +297,9 @@ DEEL2 = [
             "de energie van de reagentia blijft dezelfde",
             "de energie van de producten blijft dezelfde",
             "de reactie-energie wordt met een katalysator groter",
+            "de terugreactie wordt even sterk versneld",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Enkel de berg wordt lager. Begin en einde liggen even hoog als zonder katalysator, dus blijft de reactie-energie precies dezelfde.",
     ),
     dict(

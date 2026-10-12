@@ -35,8 +35,9 @@ DEEL1 = [
             "het slijm van de baarmoederhals",
             "de corona radiata rond de eicel",
             "de placentabarrière van de moederkoek",
+            "de glashuid rond de eicel",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De zaadcel moet door het zure vaginale milieu, door het baarmoederhalsslijm en door de cellaag en de glashuid rond de eicel. De placenta bestaat op dat ogenblik nog niet.",
     ),
     dict(
@@ -124,11 +125,11 @@ DEEL1 = [
         opties=[
             "de kiembladen worden aangelegd",
             "de organen worden voor het eerst gevormd",
-            "de vrucht is dan het gevoeligst voor schadelijke stoffen",
+            "de vrucht groeit dan het snelst in gewicht",
             "de vrucht is dan al levensvatbaar buiten de baarmoeder",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="In de eerste acht weken worden alle organen uit de kiembladen aangelegd. Daarom is de vrucht in die periode het kwetsbaarst. Levensvatbaar is ze pas veel later.",
+        antwoord=[0, 1],
+        uitleg="In de eerste acht weken worden alle organen uit de kiembladen aangelegd, en daarom is de vrucht dan het kwetsbaarst. Het meeste gewicht komt er pas in de foetale fase bij, en levensvatbaar is ze pas veel later.",
     ),
     dict(
         type="invultekst",
@@ -185,8 +186,9 @@ DEEL2 = [
             "afvalstoffen van de vrucht afvoeren",
             "hormonen aanmaken die de zwangerschap in stand houden",
             "het bloed van moeder en kind laten mengen",
+            "het bloed van moeder en kind gescheiden houden",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De placenta is uitwisselingsorgaan én hormoonklier. Het bloed van moeder en kind komt daarbij nooit rechtstreeks met elkaar in contact.",
     ),
     dict(
@@ -246,9 +248,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke gewoontes van de moeder kunnen de ontwikkeling van de vrucht schaden? Kruis alles aan wat juist is.",
-        opties=["alcohol drinken", "roken", "medicijnen zonder advies innemen", "foliumzuur innemen"],
-        antwoord=[0, 1, 2],
-        uitleg="Alcohol, nicotine en sommige geneesmiddelen gaan door de placenta. Foliumzuur wordt juist aangeraden, want het beperkt het risico op een open ruggetje.",
+        opties=[
+            "alcohol drinken",
+            "roken",
+            "vitaminen uit groenten eten",
+            "foliumzuur innemen",
+        ],
+        antwoord=[0, 1],
+        uitleg="Alcohol, nicotine en sommige geneesmiddelen gaan door de placenta. Foliumzuur en vitaminen uit groenten worden juist aangeraden; foliumzuur beperkt het risico op een open ruggetje.",
     ),
     dict(
         type="invultekst",
@@ -344,8 +351,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke factoren kunnen de vruchtbaarheid van man of vrouw verminderen? Kruis alles aan wat juist is.",
-        opties=["roken", "zware stress over lange tijd", "overgewicht", "voldoende beweging"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "roken",
+            "zware stress over lange tijd",
+            "overgewicht",
+            "voldoende beweging",
+            "zwaar alcoholgebruik",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Roken, langdurige stress en overgewicht hebben bij beide partners een ongunstig effect. Regelmatig bewegen werkt juist gunstig.",
     ),
     dict(

@@ -11,9 +11,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke stoffen zijn monosachariden? Kruis alles aan wat juist is.",
-        opties=["glucose", "fructose", "galactose", "lactose"],
-        antwoord=[0, 1, 2],
-        uitleg="Die drie zijn enkelvoudige suikers. Lactose is een disacharide, want ze bestaat uit glucose en galactose aan elkaar.",
+        opties=[
+            "glucose",
+            "fructose",
+            "sacharose",
+            "lactose",
+        ],
+        antwoord=[0, 1],
+        uitleg="Glucose, fructose en galactose zijn enkelvoudige suikers. Lactose en sacharose zijn disachariden, want ze bestaan elk uit twee enkelvoudige suikers aan elkaar.",
     ),
     dict(
         type="meerkeuze",
@@ -79,8 +84,9 @@ DEEL1 = [
             "stevigheid geven aan een plantencel",
             "het pantser van een insect vormen",
             "zuurstof door het bloed vervoeren",
+            "zetmeel opslaan in een plant",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Glycogeen slaat op, cellulose geeft stevigheid en chitine vormt het pantser. Zuurstof vervoeren is het werk van hemoglobine, een eiwit.",
     ),
     dict(
@@ -144,11 +150,11 @@ DEEL1 = [
         opties=[
             "energie op lange termijn opslaan",
             "het lichaam tegen koude isoleren",
-            "in vet oplosbare vitaminen opslaan",
+            "de erfelijke informatie bewaren",
             "zuurstof naar de weefsels vervoeren",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Vetweefsel is voorraad, isolatie en opslagplaats voor de vitaminen A, D, E en K. Zuurstof vervoeren doet hemoglobine.",
+        antwoord=[0, 1],
+        uitleg="Vetweefsel is voorraad, isolatie en opslagplaats voor de vitaminen A, D, E en K. Zuurstof vervoeren doet hemoglobine, en de erfelijke informatie zit in het DNA.",
     ),
     dict(
         type="meerkeuze",
@@ -186,8 +192,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke groepen heeft elk aminozuur altijd? Kruis alles aan wat juist is.",
-        opties=["een carboxylgroep", "een aminogroep", "een restgroep", "een fosfaatgroep"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "een carboxylgroep",
+            "een aminogroep",
+            "een restgroep",
+            "een fosfaatgroep",
+            "een waterstofatoom aan het centrale koolstofatoom",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Het skelet van elk aminozuur is hetzelfde; alleen de restgroep verschilt. Een fosfaatgroep hoort bij de nucleotiden.",
     ),
     dict(
@@ -236,9 +248,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke bindingen houden de tertiaire structuur van een eiwit samen? Kruis alles aan wat juist is.",
-        opties=["disulfidebindingen", "ionbindingen", "waterstofbruggen", "glycosidische bindingen"],
-        antwoord=[0, 1, 2],
-        uitleg="De restgroepen houden elkaar vast met zwavelbruggen, ladingen en waterstofbruggen. Glycosidische bindingen horen bij de suikers.",
+        opties=[
+            "disulfidebindingen",
+            "peptidebindingen",
+            "waterstofbruggen",
+            "glycosidische bindingen",
+        ],
+        antwoord=[0, 2],
+        uitleg="De restgroepen houden elkaar vast met zwavelbruggen, ladingen en waterstofbruggen. Peptidebindingen vormen de keten zelf, dus de primaire structuur, en glycosidische bindingen horen bij de suikers.",
     ),
     dict(
         type="waarofniet",
@@ -286,8 +303,9 @@ DEEL2 = [
             "indringers herkennen als antilichaam",
             "de genexpressie regelen als transcriptiefactor",
             "energie opslaan voor de lange termijn",
+            "stoffen door het membraan loodsen als transporteiwit",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Eiwitten doen bijna al het werk in een cel. Energie op lange termijn opslaan is de taak van de lipiden.",
     ),
     dict(

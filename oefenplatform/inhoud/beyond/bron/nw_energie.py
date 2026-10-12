@@ -53,8 +53,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Bij welke processen levert ATP de energie? Kruis alles aan wat juist is.",
-        opties=["spiercontractie", "zenuwimpulsgeleiding", "de synthese van biomoleculen", "de val van een steen naar beneden"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "spiercontractie",
+            "zenuwimpulsgeleiding",
+            "de synthese van biomoleculen",
+            "de val van een steen naar beneden",
+            "de celdeling",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Alle actieve processen in een cel draaien op ATP: samentrekken, prikkels geleiden, bouwen en delen. Een vallende steen heeft geen cel nodig.",
     ),
     dict(
@@ -91,9 +97,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat levert de lichtreactie op voor de donkerreactie? Kruis alles aan wat juist is.",
-        opties=["ATP", "energierijke waterstofdragers", "zuurstofgas als nevenproduct", "glucose als eindproduct"],
-        antwoord=[0, 1, 2],
-        uitleg="De lichtreactie splitst water, geeft zuurstof af en maakt ATP en waterstofdragers. Pas de donkerreactie bouwt daarmee glucose op.",
+        opties=[
+            "ATP",
+            "energierijke waterstofdragers",
+            "koolstofdioxide uit de lucht",
+            "glucose als eindproduct",
+        ],
+        antwoord=[0, 1],
+        uitleg="De lichtreactie splitst water, geeft zuurstof af en maakt ATP en waterstofdragers. Het koolstofdioxide komt pas in de donkerreactie binnen, en die bouwt de glucose op.",
     ),
     dict(
         type="waarofniet",
@@ -133,8 +144,9 @@ DEEL1 = [
             "palissadecellen vol chloroplasten onder de bovenzijde",
             "huidmondjes die koolstofdioxide binnenlaten",
             "een dikke houtige schors rond het hele blad",
+            "vaatbundels die water tot in het blad brengen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Het blad is plat voor het licht, zit vanboven vol bladgroen en heeft huidmondjes voor het gas. Een houtige schors zou het licht juist tegenhouden.",
     ),
     dict(
@@ -226,18 +238,24 @@ DEEL2 = [
         vraag="Wat geldt voor de melkzuurgisting? Kruis alles aan wat juist is.",
         opties=[
             "ze loopt zonder zuurstof",
-            "ze gebeurt in het cytoplasma",
+            "ze gebeurt in de mitochondriën",
             "ze levert veel minder energie op dan de aerobe ademhaling",
             "ze maakt koolstofdioxidegas vrij",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Melkzuurgisting is anaeroob, loopt in het cytoplasma en levert weinig energie. Koolstofdioxide komt vrij bij de alcoholische gisting, niet bij deze.",
+        antwoord=[0, 2],
+        uitleg="Melkzuurgisting is anaeroob, loopt in het cytoplasma en niet in de mitochondriën, en levert weinig energie. Koolstofdioxide komt vrij bij de alcoholische gisting, niet bij deze.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat levert de alcoholische gisting van glucose op? Kruis alles aan wat juist is.",
-        opties=["ethanol", "koolstofdioxide", "een kleine hoeveelheid energie", "zuurstofgas"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "ethanol",
+            "koolstofdioxide",
+            "een kleine hoeveelheid energie",
+            "zuurstofgas",
+            "een beetje warmte",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Gist zet glucose zonder zuurstof om in ethanol en koolstofdioxide. Daarop berusten het rijzen van deeg en het brouwen van bier.",
     ),
     dict(
@@ -273,9 +291,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke weefsels verzorgen het transport van stoffen in een plant? Kruis alles aan wat juist is.",
-        opties=["het xyleem voor water en mineralen", "het floëem voor opgeloste suikers", "de vaatbundel waarin beide samen liggen", "de waslaag op de bladeren"],
-        antwoord=[0, 1, 2],
-        uitleg="Xyleem en floëem liggen samen in de vaatbundels en vormen samen het transportweefsel. De waslaag beperkt juist het verlies van water.",
+        opties=[
+            "het xyleem voor water en mineralen",
+            "het floëem voor opgeloste suikers",
+            "het steunweefsel in de stengel",
+            "de waslaag op de bladeren",
+        ],
+        antwoord=[0, 1],
+        uitleg="Xyleem en floëem liggen samen in de vaatbundels en vormen zo het transportweefsel. De waslaag beperkt juist het verlies van water, en steunweefsel hoort bij het grondweefsel.",
     ),
     dict(
         type="meerkeuze",

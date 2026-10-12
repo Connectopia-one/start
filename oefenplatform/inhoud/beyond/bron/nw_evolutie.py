@@ -29,8 +29,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Uit welke vakgebieden komen de argumenten voor evolutie? Kruis alles aan wat juist is.",
-        opties=["de paleontologie", "de embryologie", "de moleculaire biologie", "de sterrenkunde"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "de paleontologie",
+            "de embryologie",
+            "de moleculaire biologie",
+            "de sterrenkunde",
+            "de vergelijkende anatomie",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Fossielen, de gelijkenis tussen embryo's en de overeenkomst in DNA en aminozuren wijzen alle drie dezelfde kant op. De sterrenkunde zegt hier niets over.",
     ),
     dict(
@@ -39,11 +45,11 @@ DEEL1 = [
         opties=[
             "ze hebben dezelfde bouw",
             "ze gaan terug op dezelfde oorsprong",
-            "ze kunnen een heel andere functie vervullen",
+            "ze komen enkel bij zoogdieren voor",
             "ze zijn los van elkaar ontstaan",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De voorpoot van een hond, de vleugel van een vleermuis en de arm van een mens hebben dezelfde beenderen in een andere taak. Los van elkaar ontstaan zijn net de analoge organen.",
+        antwoord=[0, 1],
+        uitleg="De voorpoot van een hond, de vleugel van een vleermuis en de arm van een mens hebben dezelfde beenderen in een andere taak, en zulke organen vind je in heel het dierenrijk. Los van elkaar ontstaan zijn net de analoge organen.",
     ),
     dict(
         type="meerkeuze",
@@ -143,8 +149,9 @@ DEEL1 = [
             "dat tussenvormen echt bestaan hebben",
             "dat bouwkenmerken stap voor stap wijzigen",
             "dat elke soort onveranderd blijft",
+            "dat je elke stap in de tijd kan plaatsen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Bij de paardachtigen zie je de tenen verminderen en het dier groter worden. De reeks toont net dat soorten niet onveranderd blijven.",
     ),
     dict(
@@ -226,9 +233,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Waar komt de variatie in een populatie vandaan? Kruis alles aan wat juist is.",
-        opties=["mutaties", "crossing-over bij de meiose", "de willekeurige combinatie bij de bevruchting", "het trainen van spieren"],
-        antwoord=[0, 1, 2],
-        uitleg="Alleen wat in de geslachtscellen zit telt mee. Getrainde spieren zijn een verworven eigenschap en gaan niet over.",
+        opties=[
+            "mutaties",
+            "crossing-over bij de meiose",
+            "het leren van een nieuwe taal",
+            "het trainen van spieren",
+        ],
+        antwoord=[0, 1],
+        uitleg="Alleen wat in de geslachtscellen zit telt mee: mutaties en overkruising, en daarna het toeval van de bevruchting. Getrainde spieren en een geleerde taal zijn verworven eigenschappen en gaan niet over.",
     ),
     dict(
         type="invultekst",
@@ -350,8 +362,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Wat is nodig voor soortvorming? Kruis alles aan wat juist is.",
-        opties=["variatie in de populatie", "isolatie tussen de groepen", "selectie die de groepen uit elkaar duwt", "een gelijk blijvende omgeving"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "variatie in de populatie",
+            "isolatie tussen de groepen",
+            "selectie die de groepen uit elkaar duwt",
+            "een gelijk blijvende omgeving",
+            "genoeg tijd om de verschillen te laten oplopen",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Zonder isolatie mengen de allelen weer en blijft het één soort. Juist een veranderende omgeving duwt de twee groepen uit elkaar.",
     ),
     dict(

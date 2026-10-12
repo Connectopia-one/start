@@ -39,15 +39,14 @@
           "opties": [
             "een celwand van cellulose",
             "chloroplasten",
-            "een grote centrale vacuole",
+            "mitochondriën",
             "een celmembraan"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De celwand, de bladgroenkorrels en de grote centrale vacuole zijn typisch plantaardig. Een celmembraan heeft elke cel."
+          "uitleg": "De celwand, de bladgroenkorrels en de grote centrale vacuole zijn typisch plantaardig. Een celmembraan en mitochondriën heeft elke cel."
         },
         {
           "type": "meerkeuze",
@@ -104,12 +103,14 @@
             "cholesterol",
             "transmembraaneiwitten",
             "perifere herkenningseiwitten",
-            "chlorofyl uit het blad"
+            "chlorofyl uit het blad",
+            "fosfolipiden in een dubbele laag"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Cholesterol houdt het membraan soepel, transmembraaneiwitten lopen er helemaal door en perifere eiwitten liggen aan één kant, vaak als herkenningspunt. Chlorofyl zit in de chloroplast."
         },
@@ -234,15 +235,14 @@
           "opties": [
             "de epidermis",
             "de waslaag of cuticula",
-            "de rhizodermis met wortelharen",
+            "het palissadeparenchym",
             "de vaatbundel in de stengel"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Epidermis, waslaag en rhizodermis vormen samen de buitenste laag van de plant. De vaatbundel hoort bij het transportweefsel."
+          "uitleg": "Epidermis, waslaag en rhizodermis vormen samen de buitenste laag van de plant. De vaatbundel hoort bij het transportweefsel en het palissadeparenchym bij het grondweefsel."
         },
         {
           "type": "waarofniet",
@@ -335,12 +335,14 @@
             "het palissadeparenchym",
             "het sponsparenchym",
             "het steunweefsel",
-            "de epidermis"
+            "de epidermis",
+            "het vulweefsel tussen de nerven"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Vulweefsel of parenchym en steunweefsel vormen samen het grondweefsel. De epidermis is huidweefsel."
         },
@@ -404,15 +406,14 @@
           "opties": [
             "er komt te weinig koolstofdioxide binnen",
             "de fotosynthese valt grotendeels stil",
-            "de plant verliest veel minder waterdamp",
+            "de plant groeit juist sneller",
             "de wortels nemen plots veel meer mineralen op"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Gesloten huidmondjes sparen water, maar sluiten ook de aanvoer van koolstofdioxide af. Zonder dat gas kan de donkerreactie niet doorgaan."
+          "uitleg": "Gesloten huidmondjes sparen water, maar sluiten ook de aanvoer van koolstofdioxide af. Zonder dat gas valt de donkerreactie stil en groeit de plant juist langzamer."
         },
         {
           "type": "invultekst",
@@ -476,12 +477,14 @@
             "spiercontractie",
             "zenuwimpulsgeleiding",
             "de synthese van biomoleculen",
-            "de val van een steen naar beneden"
+            "de val van een steen naar beneden",
+            "de celdeling"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Alle actieve processen in een cel draaien op ATP: samentrekken, prikkels geleiden, bouwen en delen. Een vallende steen heeft geen cel nodig."
         },
@@ -527,15 +530,14 @@
           "opties": [
             "ATP",
             "energierijke waterstofdragers",
-            "zuurstofgas als nevenproduct",
+            "koolstofdioxide uit de lucht",
             "glucose als eindproduct"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De lichtreactie splitst water, geeft zuurstof af en maakt ATP en waterstofdragers. Pas de donkerreactie bouwt daarmee glucose op."
+          "uitleg": "De lichtreactie splitst water, geeft zuurstof af en maakt ATP en waterstofdragers. Het koolstofdioxide komt pas in de donkerreactie binnen, en die bouwt de glucose op."
         },
         {
           "type": "waarofniet",
@@ -574,12 +576,14 @@
             "een plat, breed oppervlak dat veel licht opvangt",
             "palissadecellen vol chloroplasten onder de bovenzijde",
             "huidmondjes die koolstofdioxide binnenlaten",
-            "een dikke houtige schors rond het hele blad"
+            "een dikke houtige schors rond het hele blad",
+            "vaatbundels die water tot in het blad brengen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het blad is plat voor het licht, zit vanboven vol bladgroen en heeft huidmondjes voor het gas. Een houtige schors zou het licht juist tegenhouden."
         },
@@ -691,16 +695,15 @@
           "vraag": "Wat geldt voor de melkzuurgisting? Kruis alles aan wat juist is.",
           "opties": [
             "ze loopt zonder zuurstof",
-            "ze gebeurt in het cytoplasma",
+            "ze gebeurt in de mitochondriën",
             "ze levert veel minder energie op dan de aerobe ademhaling",
             "ze maakt koolstofdioxidegas vrij"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Melkzuurgisting is anaeroob, loopt in het cytoplasma en levert weinig energie. Koolstofdioxide komt vrij bij de alcoholische gisting, niet bij deze."
+          "uitleg": "Melkzuurgisting is anaeroob, loopt in het cytoplasma en niet in de mitochondriën, en levert weinig energie. Koolstofdioxide komt vrij bij de alcoholische gisting, niet bij deze."
         },
         {
           "type": "meerkeuze",
@@ -709,12 +712,14 @@
             "ethanol",
             "koolstofdioxide",
             "een kleine hoeveelheid energie",
-            "zuurstofgas"
+            "zuurstofgas",
+            "een beetje warmte"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Gist zet glucose zonder zuurstof om in ethanol en koolstofdioxide. Daarop berusten het rijzen van deeg en het brouwen van bier."
         },
@@ -754,15 +759,14 @@
           "opties": [
             "het xyleem voor water en mineralen",
             "het floëem voor opgeloste suikers",
-            "de vaatbundel waarin beide samen liggen",
+            "het steunweefsel in de stengel",
             "de waslaag op de bladeren"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Xyleem en floëem liggen samen in de vaatbundels en vormen samen het transportweefsel. De waslaag beperkt juist het verlies van water."
+          "uitleg": "Xyleem en floëem liggen samen in de vaatbundels en vormen zo het transportweefsel. De waslaag beperkt juist het verlies van water, en steunweefsel hoort bij het grondweefsel."
         },
         {
           "type": "meerkeuze",
@@ -868,12 +872,14 @@
             "de opperhuid als fysische barrière",
             "de zuurmantel en de talg op de huid",
             "lysozym in traanvocht en speeksel",
-            "de antistoffen uit de B-lymfocyten"
+            "de antistoffen uit de B-lymfocyten",
+            "het trilhaarepitheel in de luchtwegen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De eerste lijn houdt ziekteverwekkers buiten met fysische en chemische barrières. Antistoffen horen bij de derde, specifieke lijn."
         },
@@ -907,15 +913,14 @@
           "opties": [
             "de thymus",
             "de milt",
-            "de lymfeknopen",
+            "de lever",
             "de alvleesklier"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Thymus, milt, lymfeknopen, keelamandelen en beenmerg zijn lymfoïde organen. De alvleesklier hoort bij de spijsvertering."
+          "uitleg": "Thymus, milt, lymfeknopen, keelamandelen en beenmerg zijn lymfoïde organen. De alvleesklier en de lever horen bij de spijsvertering."
         },
         {
           "type": "meerkeuze",
@@ -1008,12 +1013,14 @@
             "de B-lymfocyten",
             "de T-helperlymfocyten",
             "de cytotoxische T-lymfocyten",
-            "de neutrofielen"
+            "de neutrofielen",
+            "de plasmacellen die antistoffen maken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "B- en T-lymfocyten herkennen één bepaald antigeen en vormen de derde lijn. Neutrofielen zijn fagocyten uit de niet-specifieke afweer."
         },
@@ -1080,16 +1087,15 @@
           "vraag": "Welke verschijnselen horen bij een ontsteking? Kruis alles aan wat juist is.",
           "opties": [
             "roodheid",
-            "zwelling",
+            "een strakke, koude huid",
             "warmte",
             "bleekheid"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Door de verwijde en doorlaatbare bloedvaten wordt de plek rood, warm, gezwollen en pijnlijk. Bleek wordt ze juist niet."
+          "uitleg": "Door de verwijde en doorlaatbare bloedvaten wordt de plek rood, warm, gezwollen en pijnlijk. Bleek of koud wordt ze juist niet."
         },
         {
           "type": "meerkeuze",
@@ -1134,12 +1140,14 @@
             "ze binden op zijn antigeen",
             "ze klitten ziekteverwekkers samen",
             "ze maken hem herkenbaar voor fagocyten",
-            "ze zetten hem om in een voedingsstof"
+            "ze zetten hem om in een voedingsstof",
+            "ze maken zijn gif onschadelijk"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Antistoffen binden op het antigeen. Daardoor klitten ziekteverwekkers samen, wordt hun gif onschadelijk en worden ze vlotter opgeruimd."
         },
@@ -1179,15 +1187,14 @@
           "opties": [
             "het lichaam maakt zelf antistoffen aan",
             "er ontstaat een afweergeheugen",
-            "de bescherming houdt lang aan",
+            "ze werkt met kant-en-klare antistoffen",
             "de bescherming is er meteen na toediening"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Actief wil zeggen dat je eigen afweer aan het werk gaat. Dat duurt even, maar het levert geheugencellen en dus langdurige bescherming op."
+          "uitleg": "Actief wil zeggen dat je eigen afweer aan het werk gaat; kant-en-klare antistoffen horen bij passieve immunisatie. Dat duurt even, maar het levert geheugencellen en dus langdurige bescherming op."
         },
         {
           "type": "meerkeuze",
@@ -1305,12 +1312,14 @@
             "het zure milieu van de vagina",
             "het slijm van de baarmoederhals",
             "de corona radiata rond de eicel",
-            "de placentabarrière van de moederkoek"
+            "de placentabarrière van de moederkoek",
+            "de glashuid rond de eicel"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De zaadcel moet door het zure vaginale milieu, door het baarmoederhalsslijm en door de cellaag en de glashuid rond de eicel. De placenta bestaat op dat ogenblik nog niet."
         },
@@ -1404,15 +1413,14 @@
           "opties": [
             "de kiembladen worden aangelegd",
             "de organen worden voor het eerst gevormd",
-            "de vrucht is dan het gevoeligst voor schadelijke stoffen",
+            "de vrucht groeit dan het snelst in gewicht",
             "de vrucht is dan al levensvatbaar buiten de baarmoeder"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "In de eerste acht weken worden alle organen uit de kiembladen aangelegd. Daarom is de vrucht in die periode het kwetsbaarst. Levensvatbaar is ze pas veel later."
+          "uitleg": "In de eerste acht weken worden alle organen uit de kiembladen aangelegd, en daarom is de vrucht dan het kwetsbaarst. Het meeste gewicht komt er pas in de foetale fase bij, en levensvatbaar is ze pas veel later."
         },
         {
           "type": "invultekst",
@@ -1486,12 +1494,14 @@
             "zuurstof en voedingsstoffen doorgeven",
             "afvalstoffen van de vrucht afvoeren",
             "hormonen aanmaken die de zwangerschap in stand houden",
-            "het bloed van moeder en kind laten mengen"
+            "het bloed van moeder en kind laten mengen",
+            "het bloed van moeder en kind gescheiden houden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De placenta is uitwisselingsorgaan én hormoonklier. Het bloed van moeder en kind komt daarbij nooit rechtstreeks met elkaar in contact."
         },
@@ -1555,15 +1565,14 @@
           "opties": [
             "alcohol drinken",
             "roken",
-            "medicijnen zonder advies innemen",
+            "vitaminen uit groenten eten",
             "foliumzuur innemen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Alcohol, nicotine en sommige geneesmiddelen gaan door de placenta. Foliumzuur wordt juist aangeraden, want het beperkt het risico op een open ruggetje."
+          "uitleg": "Alcohol, nicotine en sommige geneesmiddelen gaan door de placenta. Foliumzuur en vitaminen uit groenten worden juist aangeraden; foliumzuur beperkt het risico op een open ruggetje."
         },
         {
           "type": "invultekst",
@@ -1668,12 +1677,14 @@
             "roken",
             "zware stress over lange tijd",
             "overgewicht",
-            "voldoende beweging"
+            "voldoende beweging",
+            "zwaar alcoholgebruik"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Roken, langdurige stress en overgewicht hebben bij beide partners een ongunstig effect. Regelmatig bewegen werkt juist gunstig."
         },
@@ -1802,15 +1813,14 @@
           "opties": [
             "het is de insnoering van een chromosoom",
             "het houdt de zusterchromatiden samen",
-            "er zit een kinetochoor op waaraan de trekdraden aangrijpen",
+            "het ligt altijd precies in het midden van het chromosoom",
             "het is het eiwit waarrond het DNA zich opwindt"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het centromeer is de insnoering die de chromatiden samenhoudt en waar via de kinetochoor de trekdraden aangrijpen. De eiwitten waarrond DNA zich wikkelt zijn de histonen."
+          "uitleg": "Het centromeer is de insnoering die de chromatiden samenhoudt en waar via de kinetochoor de trekdraden aangrijpen. Het ligt niet altijd in het midden, en de eiwitten waarrond DNA zich wikkelt zijn de histonen."
         },
         {
           "type": "meerkeuze",
@@ -1819,12 +1829,14 @@
             "het aantal chromosomen van een cel",
             "het geslacht van de persoon",
             "een afwijkend aantal chromosomen",
-            "de kleur van de ogen van de persoon"
+            "de kleur van de ogen van de persoon",
+            "de vorm en de grootte van elk chromosoom"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Op een karyogram staan de chromosomen gerangschikt per paar. Je ziet het aantal, de geslachtschromosomen en afwijkingen, maar geen gewone kenmerken zoals oogkleur."
         },
@@ -1942,16 +1954,15 @@
           "vraag": "Wat klopt er over DNA-polymerase? Kruis alles aan wat juist is.",
           "opties": [
             "het zet nieuwe nucleotiden tegen de oude streng aan",
-            "het leest de oude streng als sjabloon",
+            "het knipt de strengen in stukken",
             "het werkt altijd in de richting van \\(5\\) naar \\(3\\)",
             "het rolt zelf de dubbele helix open"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Polymerase bouwt de nieuwe streng op tegen de oude als sjabloon, en altijd in dezelfde richting. Openrollen is het werk van helicase."
+          "uitleg": "Polymerase bouwt de nieuwe streng op tegen de oude als sjabloon, en altijd in dezelfde richting. Openrollen is het werk van helicase, en knippen doet het niet."
         },
         {
           "type": "meerkeuze",
@@ -1972,12 +1983,14 @@
             "ze wordt in stukjes opgebouwd",
             "die stukjes heten Okazaki-fragmenten",
             "ligase plakt de stukjes aan elkaar",
-            "ze wordt in één ononderbroken beweging gemaakt"
+            "ze wordt in één ononderbroken beweging gemaakt",
+            "ze loopt tegengesteld aan de beweging van de vork"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Omdat het polymerase maar in één richting werkt, kan de achterblijvende streng enkel in korte stukjes gemaakt worden. De leading strand loopt wel ononderbroken door."
         },
@@ -2071,15 +2084,14 @@
           "opties": [
             "de crossing-over tussen homologe chromosomen",
             "de toevallige verdeling van de chromosomenparen",
-            "de willekeurige combinatie bij de bevruchting",
+            "de verdubbeling van het aantal chromosomen",
             "het identiek kopiëren van elke chromatide"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Overkruising en de onafhankelijke verdeling leveren al heel veel combinaties op, en de bevruchting voegt er nog eens toeval aan toe. Een identieke kopie geeft juist geen variatie."
+          "uitleg": "Overkruising en de onafhankelijke verdeling leveren al heel veel combinaties op, en de bevruchting voegt er nog eens toeval aan toe. Een identieke kopie of een verdubbeling van het aantal chromosomen geeft juist geen variatie."
         },
         {
           "type": "invultekst",
@@ -2215,12 +2227,14 @@
             "de heterozygoot vertoont een tussenvorm",
             "geen van beide allelen is dominant",
             "een rode en een witte leeuwenbek geven roze",
-            "de heterozygoot lijkt volledig op de dominante ouder"
+            "de heterozygoot lijkt volledig op de dominante ouder",
+            "de F2 geeft rood, roze en wit in de verhouding 1 op 2 op 1"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Bij intermediaire overerving overheerst geen van beide allelen, dus de heterozygoot ligt ertussenin. Kruis je rood met wit, dan wordt de F1 roze."
         },
@@ -2261,12 +2275,14 @@
             "beide ouders zijn heterozygoot",
             "beide ouders dragen het recessieve allel",
             "de nakomeling is homozygoot recessief",
-            "beide ouders zijn homozygoot dominant"
+            "beide ouders zijn homozygoot dominant",
+            "de kans op zo'n nakomeling was één op vier"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De nakomeling is aa, dus hij kreeg van elke ouder een a. Omdat de ouders zelf het dominante kenmerk tonen, zijn ze allebei Aa."
         },
@@ -2288,15 +2304,14 @@
           "opties": [
             "ze toont of de onderzochte ouder homozygoot of heterozygoot is",
             "alle nakomelingen tonen het dominante kenmerk als de ouder AA is",
-            "de helft toont het recessieve kenmerk als de ouder Aa is",
+            "ze werkt enkel bij dieren, niet bij planten",
             "ze verandert het genotype van de onderzochte ouder zelf"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Door met aa te kruisen wordt elk recessief allel van de andere ouder zichtbaar in het nageslacht. Het genotype van die ouder verandert daar niet door."
+          "uitleg": "Door met aa te kruisen wordt elk recessief allel van de andere ouder zichtbaar in het nageslacht: bij een Aa-ouder is dat de helft. Het genotype van die ouder verandert daar niet door, en bij planten werkt de kruising net zo goed."
         },
         {
           "type": "meerkeuze",
@@ -2402,12 +2417,14 @@
             "een man heeft maar één X-chromosoom",
             "bij een man volstaat één aangedaan allel",
             "een vrouw kan het gezonde allel op haar tweede X hebben",
-            "het Y-chromosoom draagt dezelfde genen als het X"
+            "het Y-chromosoom draagt dezelfde genen als het X",
+            "een vrouw is dan meestal draagster zonder klachten"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een vrouw heeft een reserve op haar tweede X, een man niet. Het Y-chromosoom is veel kleiner en draagt die genen juist niet."
         },
@@ -2417,15 +2434,14 @@
           "opties": [
             "rood-groen kleurenblindheid",
             "hemofilie A",
-            "de ziekte van Duchenne",
+            "mucoviscidose",
             "het syndroom van Down"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Die drie liggen op het X-chromosoom. Het syndroom van Down ontstaat door een extra chromosoom \\(21\\) en is geen geslachtsgebonden kenmerk."
+          "uitleg": "Kleurenblindheid, hemofilie A en de ziekte van Duchenne liggen op het X-chromosoom. Mucoviscidose is wel recessief maar niet geslachtsgebonden, en het syndroom van Down ontstaat door een extra chromosoom \\(21\\)."
         },
         {
           "type": "meerkeuze",
@@ -2458,12 +2474,14 @@
             "of een kenmerk dominant of recessief is",
             "of een kenmerk geslachtsgebonden is",
             "welke personen zeker drager zijn",
-            "hoeveel chromosomen elke persoon heeft"
+            "hoeveel chromosomen elke persoon heeft",
+            "wie zeker homozygoot recessief is"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een stamboom toont wie het kenmerk heeft en hoe het doorgegeven wordt. Het aantal chromosomen lees je er niet uit, daarvoor heb je een karyogram nodig."
         },
@@ -2565,12 +2583,14 @@
             "RNA heeft ribose in plaats van desoxyribose",
             "RNA heeft uracil in plaats van thymine",
             "RNA is meestal enkelstrengig",
-            "RNA bevat helemaal geen fosfaatgroepen"
+            "RNA bevat helemaal geen fosfaatgroepen",
+            "RNA komt ook buiten de celkern voor"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De suiker, één base en het aantal strengen verschillen. Fosfaatgroepen zitten in beide moleculen, want die vormen de ruggengraat."
         },
@@ -2700,15 +2720,14 @@
           "opties": [
             "trisomie \\(21\\)",
             "het syndroom van Turner",
-            "het syndroom van Klinefelter",
+            "mucoviscidose",
             "sikkelcelanemie"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bij een genoommutatie klopt het aantal chromosomen niet. Sikkelcelanemie komt van één veranderde base en is dus een genmutatie."
+          "uitleg": "Bij een genoommutatie klopt het aantal chromosomen niet, zoals bij trisomie \\(21\\) en de syndromen van Turner en Klinefelter. Sikkelcelanemie en mucoviscidose komen van een verandering in één gen."
         },
         {
           "type": "meerkeuze",
@@ -2729,12 +2748,14 @@
             "uv-straling",
             "röntgenstraling",
             "benzopyreen uit tabaksrook",
-            "zuurstofgas uit de lucht"
+            "zuurstofgas uit de lucht",
+            "stoffen uit verbrand voedsel"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Mutagenen beschadigen het DNA rechtstreeks of via vrije radicalen. Gewone zuurstof uit de lucht hoort daar niet bij."
         },
@@ -2805,15 +2826,14 @@
           "opties": [
             "het knipt de dubbele streng DNA door",
             "het herkent daarvoor een vaste basenvolgorde",
-            "het laat vaak sticky ends achter",
+            "het bouwt een nieuwe streng op",
             "het plakt twee stukken DNA aan elkaar"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Elk restrictie-enzym herkent zijn eigen korte volgorde en knipt daar. Veel enzymen knippen schuin, waardoor er sticky ends ontstaan. Plakken doet ligase."
+          "uitleg": "Elk restrictie-enzym herkent zijn eigen korte volgorde en knipt daar; veel enzymen knippen schuin, waardoor er sticky ends ontstaan. Plakken doet ligase en een nieuwe streng bouwen doet polymerase."
         },
         {
           "type": "meerkeuze",
@@ -2840,12 +2860,14 @@
             "het menselijke insulinegen wordt uitgeknipt",
             "een plasmide wordt met hetzelfde enzym opengeknipt",
             "het recombinante plasmide gaat een bacterie binnen",
-            "de bacterie krijgt daarna een menselijke celkern"
+            "de bacterie krijgt daarna een menselijke celkern",
+            "de bacterie geeft het plasmide bij elke deling door"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het gen gaat in een plasmide en dat plasmide in een bacterie, die vanaf dan insuline maakt. Een kern krijgt een bacterie nooit."
         },
@@ -2903,15 +2925,14 @@
           "opties": [
             "sporen aan een verdachte koppelen",
             "een vaderschap aantonen",
-            "familieleden van elkaar onderscheiden",
+            "de ziektes van een persoon voorspellen",
             "de bloedgroep van een persoon bepalen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het bandenpatroon berust op stukken DNA die sterk van persoon tot persoon verschillen. Een bloedgroep bepaal je met een gewone bloedtest."
+          "uitleg": "Het bandenpatroon berust op stukken DNA die sterk van persoon tot persoon verschillen, ook tussen familieleden. Een bloedgroep bepaal je met een gewone bloedtest, en ziektes voorspelt een fingerprint niet."
         },
         {
           "type": "invultekst",
@@ -2987,12 +3008,14 @@
             "de paleontologie",
             "de embryologie",
             "de moleculaire biologie",
-            "de sterrenkunde"
+            "de sterrenkunde",
+            "de vergelijkende anatomie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Fossielen, de gelijkenis tussen embryo's en de overeenkomst in DNA en aminozuren wijzen alle drie dezelfde kant op. De sterrenkunde zegt hier niets over."
         },
@@ -3002,15 +3025,14 @@
           "opties": [
             "ze hebben dezelfde bouw",
             "ze gaan terug op dezelfde oorsprong",
-            "ze kunnen een heel andere functie vervullen",
+            "ze komen enkel bij zoogdieren voor",
             "ze zijn los van elkaar ontstaan"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De voorpoot van een hond, de vleugel van een vleermuis en de arm van een mens hebben dezelfde beenderen in een andere taak. Los van elkaar ontstaan zijn net de analoge organen."
+          "uitleg": "De voorpoot van een hond, de vleugel van een vleermuis en de arm van een mens hebben dezelfde beenderen in een andere taak, en zulke organen vind je in heel het dierenrijk. Los van elkaar ontstaan zijn net de analoge organen."
         },
         {
           "type": "meerkeuze",
@@ -3109,12 +3131,14 @@
             "dat soorten geleidelijk veranderen",
             "dat tussenvormen echt bestaan hebben",
             "dat bouwkenmerken stap voor stap wijzigen",
-            "dat elke soort onveranderd blijft"
+            "dat elke soort onveranderd blijft",
+            "dat je elke stap in de tijd kan plaatsen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Bij de paardachtigen zie je de tenen verminderen en het dier groter worden. De reeks toont net dat soorten niet onveranderd blijven."
         },
@@ -3213,15 +3237,14 @@
           "opties": [
             "mutaties",
             "crossing-over bij de meiose",
-            "de willekeurige combinatie bij de bevruchting",
+            "het leren van een nieuwe taal",
             "het trainen van spieren"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Alleen wat in de geslachtscellen zit telt mee. Getrainde spieren zijn een verworven eigenschap en gaan niet over."
+          "uitleg": "Alleen wat in de geslachtscellen zit telt mee: mutaties en overkruising, en daarna het toeval van de bevruchting. Getrainde spieren en een geleerde taal zijn verworven eigenschappen en gaan niet over."
         },
         {
           "type": "invultekst",
@@ -3362,12 +3385,14 @@
             "variatie in de populatie",
             "isolatie tussen de groepen",
             "selectie die de groepen uit elkaar duwt",
-            "een gelijk blijvende omgeving"
+            "een gelijk blijvende omgeving",
+            "genoeg tijd om de verschillen te laten oplopen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Zonder isolatie mengen de allelen weer en blijft het één soort. Juist een veranderende omgeving duwt de twee groepen uit elkaar."
         },
@@ -3402,15 +3427,14 @@
           "opties": [
             "glucose",
             "fructose",
-            "galactose",
+            "sacharose",
             "lactose"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Die drie zijn enkelvoudige suikers. Lactose is een disacharide, want ze bestaat uit glucose en galactose aan elkaar."
+          "uitleg": "Glucose, fructose en galactose zijn enkelvoudige suikers. Lactose en sacharose zijn disachariden, want ze bestaan elk uit twee enkelvoudige suikers aan elkaar."
         },
         {
           "type": "meerkeuze",
@@ -3485,12 +3509,14 @@
             "energie opslaan in lever en spieren",
             "stevigheid geven aan een plantencel",
             "het pantser van een insect vormen",
-            "zuurstof door het bloed vervoeren"
+            "zuurstof door het bloed vervoeren",
+            "zetmeel opslaan in een plant"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Glycogeen slaat op, cellulose geeft stevigheid en chitine vormt het pantser. Zuurstof vervoeren is het werk van hemoglobine, een eiwit."
         },
@@ -3560,15 +3586,14 @@
           "opties": [
             "energie op lange termijn opslaan",
             "het lichaam tegen koude isoleren",
-            "in vet oplosbare vitaminen opslaan",
+            "de erfelijke informatie bewaren",
             "zuurstof naar de weefsels vervoeren"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Vetweefsel is voorraad, isolatie en opslagplaats voor de vitaminen A, D, E en K. Zuurstof vervoeren doet hemoglobine."
+          "uitleg": "Vetweefsel is voorraad, isolatie en opslagplaats voor de vitaminen A, D, E en K. Zuurstof vervoeren doet hemoglobine, en de erfelijke informatie zit in het DNA."
         },
         {
           "type": "meerkeuze",
@@ -3614,12 +3639,14 @@
             "een carboxylgroep",
             "een aminogroep",
             "een restgroep",
-            "een fosfaatgroep"
+            "een fosfaatgroep",
+            "een waterstofatoom aan het centrale koolstofatoom"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het skelet van elk aminozuur is hetzelfde; alleen de restgroep verschilt. Een fosfaatgroep hoort bij de nucleotiden."
         },
@@ -3676,16 +3703,15 @@
           "vraag": "Welke bindingen houden de tertiaire structuur van een eiwit samen? Kruis alles aan wat juist is.",
           "opties": [
             "disulfidebindingen",
-            "ionbindingen",
+            "peptidebindingen",
             "waterstofbruggen",
             "glycosidische bindingen"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "De restgroepen houden elkaar vast met zwavelbruggen, ladingen en waterstofbruggen. Glycosidische bindingen horen bij de suikers."
+          "uitleg": "De restgroepen houden elkaar vast met zwavelbruggen, ladingen en waterstofbruggen. Peptidebindingen vormen de keten zelf, dus de primaire structuur, en glycosidische bindingen horen bij de suikers."
         },
         {
           "type": "waarofniet",
@@ -3742,12 +3768,14 @@
             "reacties versnellen als enzym",
             "indringers herkennen als antilichaam",
             "de genexpressie regelen als transcriptiefactor",
-            "energie opslaan voor de lange termijn"
+            "energie opslaan voor de lange termijn",
+            "stoffen door het membraan loodsen als transporteiwit"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Eiwitten doen bijna al het werk in een cel. Energie op lange termijn opslaan is de taak van de lipiden."
         },
@@ -3842,15 +3870,14 @@
           "opties": [
             "de afname van de concentratie van een reagens per seconde",
             "de toename van de concentratie van een product per seconde",
-            "het aantal effectieve botsingen per seconde",
+            "de hoeveelheid product die in totaal ontstaat",
             "het aantal deeltjes dat in het vat aanwezig is"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een concentratie die per seconde af- of toeneemt, is de gewone manier; de botsingen per seconde horen bij het botsingsmodel. Het aantal deeltjes alleen is geen snelheid, want er staat geen tijd bij."
+          "uitleg": "Een concentratie die per seconde af- of toeneemt, is de gewone manier; de botsingen per seconde horen bij het botsingsmodel. Een aantal deeltjes of een totale hoeveelheid is geen snelheid, want er staat geen tijd bij."
         },
         {
           "type": "invultekst",
@@ -3904,12 +3931,14 @@
             "de temperatuur",
             "de concentratie van de reagentia",
             "de verdelingsgraad van een vaste stof",
-            "de massa van het reactievat"
+            "de massa van het reactievat",
+            "een katalysator toevoegen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Temperatuur, concentratie en verdelingsgraad zijn drie van de vier factoren; de vierde is de katalysator. Het vat zelf doet niet mee aan de reactie."
         },
@@ -4082,15 +4111,14 @@
           "opties": [
             "de reactie neemt energie uit de omgeving op",
             "de producten hebben meer inwendige energie dan de reagentia",
-            "de omgeving koelt tijdens de reactie af",
+            "de reactie loopt altijd vanzelf door",
             "de reactie heeft geen activeringsenergie nodig"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Endo-energetisch betekent dat er energie naar binnen gaat. Een activeringsenergie is er altijd, ook bij endo-energetische reacties."
+          "uitleg": "Endo-energetisch betekent dat er energie naar binnen gaat, en daardoor koelt de omgeving af. Een activeringsenergie is er altijd, en vanzelf doorlopen doet zo'n reactie niet."
         },
         {
           "type": "meerkeuze",
@@ -4135,12 +4163,14 @@
             "de top ligt met een katalysator lager",
             "de energie van de reagentia blijft dezelfde",
             "de energie van de producten blijft dezelfde",
-            "de reactie-energie wordt met een katalysator groter"
+            "de reactie-energie wordt met een katalysator groter",
+            "de terugreactie wordt even sterk versneld"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Enkel de berg wordt lager. Begin en einde liggen even hoog als zonder katalysator, dus blijft de reactie-energie precies dezelfde."
         },
@@ -4276,12 +4306,14 @@
             "de reagentia en de producten zijn allebei nog aanwezig",
             "de concentraties veranderen niet meer",
             "de heenreactie en de terugreactie gaan even snel",
-            "er gebeurt op deeltjesniveau niets meer"
+            "er gebeurt op deeltjesniveau niets meer",
+            "het evenwicht is dynamisch"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De juiste antwoorden zijn precies wat een evenwicht is. Op deeltjesniveau gaat het wel door, in beide richtingen even snel, en daarom heet het dynamisch."
         },
@@ -4389,16 +4421,15 @@
           "vraag": "Welke uitspraken over de twee snelheden in een evenwicht zijn juist? Kruis alles aan wat juist is.",
           "opties": [
             "de heenreactie vertraagt onderweg naar het evenwicht",
-            "de terugreactie versnelt onderweg naar het evenwicht",
+            "beide snelheden blijven onderweg aan elkaar gelijk",
             "in het evenwicht zijn beide snelheden gelijk",
             "in het evenwicht zijn beide snelheden nul"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "De twee snelheden groeien naar elkaar toe en blijven daarna gelijk. Nul zijn ze niet, want het evenwicht is dynamisch."
+          "uitleg": "De twee snelheden groeien naar elkaar toe: de heenreactie vertraagt, de terugreactie versnelt, en pas in het evenwicht zijn ze gelijk. Nul zijn ze niet, want het evenwicht is dynamisch."
         },
         {
           "type": "waarofniet",
@@ -4522,12 +4553,14 @@
             "de concentratie van één stof veranderen",
             "het volume van het vat veranderen bij een gasevenwicht",
             "de temperatuur veranderen",
-            "een katalysator toevoegen"
+            "een katalysator toevoegen",
+            "een gas uit het vat wegnemen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Die drie veranderen de ligging van het evenwicht. Een katalysator versnelt heen- en terugreactie even sterk, dus komt het evenwicht enkel sneller tot stand."
         },
@@ -4636,15 +4669,14 @@
           "opties": [
             "kijken welke lijn als eerste plots verspringt",
             "kijken in welke richting de lijnen daarna evolueren",
-            "kijken of alle lijnen op hetzelfde moment van richting veranderen",
+            "kijken hoeveel lijnen er in de grafiek staan",
             "kijken hoeveel gram product er in totaal ontstaan is"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een plotse sprong in één lijn wijst op een toevoeging van die stof. Veranderen alle lijnen samen zonder sprong, dan gaat het eerder over temperatuur of volume."
+          "uitleg": "Een plotse sprong in één lijn wijst op een toevoeging van die stof, en de richting daarna zegt waar het evenwicht naartoe schuift. Het aantal lijnen of het totale aantal gram zegt niets over de verstoring."
         },
         {
           "type": "waarofniet",
@@ -4659,12 +4691,14 @@
             "het product onderweg uit het vat afvoeren",
             "extra reagens blijven toevoegen",
             "de temperatuur in de gunstige richting zetten",
-            "het volume van het vat zo groot mogelijk maken"
+            "het volume van het vat zo groot mogelijk maken",
+            "de druk verhogen als er rechts minder gasdeeltjes staan"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Die drie schuiven het evenwicht echt naar rechts. Het volume helpt enkel als links en rechts een ander aantal gasdeeltjes staat, en dan niet zomaar in die richting."
         },
@@ -4735,15 +4769,14 @@
           "opties": [
             "de alcoholen",
             "de carbonzuren",
-            "de esters",
+            "de alkenen",
             "de aminen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Alcoholen hebben een OH, carbonzuren een COOH en esters een COO tussen twee ketens. Aminen hebben in de plaats daarvan een stikstofatoom."
+          "uitleg": "Alcoholen hebben een OH en carbonzuren een COOH, en esters een COO tussen twee ketens. Aminen hebben in de plaats daarvan een stikstofatoom, en alkenen enkel koolstof en waterstof."
         },
         {
           "type": "waarofniet",
@@ -4839,12 +4872,14 @@
             "CH₄",
             "C₃H₈",
             "C₄H₁₀",
-            "CH₂=CH₂"
+            "CH₂=CH₂",
+            "C₂H₆"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Methaan, propaan en butaan zijn alkanen. CH₂=CH₂ is etheen, en de dubbele binding maakt dat een alkeen."
         },
@@ -4893,15 +4928,14 @@
           "opties": [
             "de uitgang -aan hoort bij de alkanen",
             "de uitgang -een hoort bij de alkenen",
-            "de uitgang -ol hoort bij de alcoholen",
+            "de uitgang -al hoort bij de ketonen",
             "de uitgang -on hoort bij de aldehyden"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De uitgang -on hoort bij de ketonen, zoals propanon; aldehyden eindigen op -al, zoals methanal."
+          "uitleg": "De uitgang -on hoort bij de ketonen, zoals propanon, en aldehyden eindigen op -al, zoals methanal. De -ol van de alcoholen klopt wel."
         },
         {
           "type": "meerkeuze",
@@ -4980,12 +5014,14 @@
             "wasbenzine",
             "CCl₄",
             "een lang alkaan",
-            "water"
+            "water",
+            "olie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Die drie zijn de bekendste apolaire stoffen. Water is juist het schoolvoorbeeld van een polaire stof."
         },
@@ -5034,15 +5070,14 @@
           "opties": [
             "ze heeft een lange apolaire staart",
             "ze heeft een polaire kop",
-            "ze kan vet en water met elkaar verbinden",
+            "ze lost niet op in water",
             "ze is over haar hele lengte polair"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Juist die twee kanten maken zeep bruikbaar. Was ze over haar hele lengte polair, dan zou ze niet in het vet kunnen gaan zitten."
+          "uitleg": "Juist die twee kanten maken zeep bruikbaar: met haar staart gaat ze in het vet, met haar kop in het water, en zo verbindt ze de twee. Was ze over haar hele lengte polair, dan zou ze niet in het vet kunnen gaan zitten."
         },
         {
           "type": "waarofniet",
@@ -5120,12 +5155,14 @@
             "het is een alkeen",
             "het heeft een dubbele binding",
             "het is de bouwsteen van polyetheen",
-            "het is een alcohol"
+            "het is een alcohol",
+            "het laat als plantenhormoon fruit rijpen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De dubbele binding maakt het een alkeen en laat toe de moleculen aan elkaar te rijgen tot polyetheen. Een alcohol is het niet, want er zit geen OH-groep in."
         },
@@ -5199,15 +5236,14 @@
           "opties": [
             "PE",
             "PP",
-            "PVC",
+            "nylon",
             "PET"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Polyetheen, polypropeen en polyvinylchloride komen van etheen, propeen en chloroetheen. PET wordt juist door polycondensatie gemaakt."
+          "uitleg": "Polyetheen, polypropeen en polyvinylchloride komen van etheen, propeen en chloroetheen. PET en nylon worden juist door polycondensatie gemaakt."
         },
         {
           "type": "invultekst",
@@ -5318,12 +5354,14 @@
             "een buckyball is een 0D-structuur",
             "een koolstofnanobuis is een 1D-structuur",
             "een laagje grafeen is een 2D-structuur",
-            "een poeder van nanodeeltjes is een 1D-structuur"
+            "een poeder van nanodeeltjes is een 1D-structuur",
+            "een poeder van nanodeeltjes reken je bij 3D"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een bolletje is 0D, een buis is lang in één richting en dus 1D, een vlak is 2D. Een poeder dat een ruimte vult, reken je bij 3D."
         },
@@ -5351,15 +5389,14 @@
           "opties": [
             "ze hebben een heel groot oppervlak per volume-eenheid",
             "ze zijn daardoor vaak veel reactiever",
-            "hun smeltpunt kan lager liggen dan dat van een groot stuk",
+            "ze zijn met het oog te zien",
             "ze hebben altijd dezelfde kleur als het grote stuk"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Die eerste drie zijn typische nano-eigenschappen. De kleur verandert juist vaak met de grootte van het deeltje."
+          "uitleg": "Een groot oppervlak per volume maakt nanodeeltjes reactiever, en hun smeltpunt ligt vaak lager dan dat van een groot stuk. Met het oog zie je ze niet, en de kleur verandert juist vaak met de grootte."
         }
       ]
     },
@@ -5399,12 +5436,14 @@
             "optische eigenschappen zoals een specifieke kleur",
             "elektrische eigenschappen",
             "mechanische eigenschappen zoals sterkte en hardheid",
-            "de smaak van het materiaal"
+            "de smaak van het materiaal",
+            "magnetische eigenschappen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Daarnaast staan er ook magnetische en biochemische eigenschappen bij. Smaak hoort er niet bij."
         },
@@ -5480,15 +5519,14 @@
           "opties": [
             "materiaalgezondheid",
             "productcirculariteit",
-            "sociale rechtvaardigheid",
+            "de winstmarge op het product",
             "het reclamebudget van het bedrijf"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De vijf categorieën zijn materiaalgezondheid, productcirculariteit, luchtkwaliteit en klimaatbescherming, water- en grondgezondheid en sociale rechtvaardigheid."
+          "uitleg": "De vijf categorieën zijn materiaalgezondheid, productcirculariteit, luchtkwaliteit en klimaatbescherming, water- en grondgezondheid en sociale rechtvaardigheid. Een reclamebudget of een winstmarge staat er niet bij."
         },
         {
           "type": "meerkeuze",
@@ -5628,12 +5666,14 @@
             "het ene voorwerp wordt positief en het andere negatief",
             "de twee ladingen zijn even groot",
             "er zijn elektronen van het ene naar het andere voorwerp gegaan",
-            "er zijn protonen van het ene naar het andere voorwerp gegaan"
+            "er zijn protonen van het ene naar het andere voorwerp gegaan",
+            "samen blijft de lading nul"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Wat de ene verliest, krijgt de andere, dus zijn de ladingen even groot en tegengesteld. Protonen blijven in de kern zitten."
         },
@@ -5764,15 +5804,14 @@
           "opties": [
             "gelijksoortige ladingen stoten elkaar af",
             "ongelijksoortige ladingen trekken elkaar aan",
-            "evenveel protonen als elektronen betekent neutraal",
+            "een neutraal voorwerp heeft geen lading in zich",
             "lading kan zomaar uit het niets ontstaan"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Die eerste drie zijn de basisregels van de elektrostatica. Lading ontstaat nooit uit het niets: ze verhuist enkel van de ene plaats naar de andere."
+          "uitleg": "Afstoten, aantrekken, en neutraal zijn bij evenveel protonen als elektronen: dat zijn de basisregels. Een neutraal voorwerp zit wel vol ladingen, ze heffen elkaar enkel op, en lading ontstaat nooit uit het niets."
         },
         {
           "type": "meerkeuze",
@@ -5793,12 +5832,14 @@
             "een fotokopietoestel",
             "poedercoating van metaal",
             "een stoffilter in een luchtzuiveraar",
-            "een gewone gloeilamp"
+            "een gewone gloeilamp",
+            "een inktjetprinter die druppels afbuigt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "In alle drie gaan geladen deeltjes naar een plaats met de tegengestelde lading. Een gloeilamp werkt door een draad op te warmen en heeft daar niets mee te maken."
         },
@@ -5896,15 +5937,14 @@
           "opties": [
             "ze heeft een grootte, een richting en een zin",
             "je tekent ze als een pijl die in de lading begint",
-            "bij meerdere ladingen tel je de vectoren samen",
+            "je tekent de pijl altijd even lang, hoe groot de kracht ook is",
             "je tekent de pijl altijd naar beneden gericht"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een kracht is een vector, dus tel je ze samen tot de resulterende kracht. Naar beneden wijst enkel de zwaartekracht."
+          "uitleg": "Een kracht is een vector: grootte, richting en zin, en bij meerdere ladingen tel je ze samen tot de resulterende kracht. De lengte van de pijl geeft die grootte weer, en naar beneden wijst enkel de zwaartekracht."
         },
         {
           "type": "meerkeuze",

@@ -45,9 +45,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke kunststoffen worden door polyadditie uit een monomeer met een dubbele binding gemaakt? Kruis alles aan wat juist is.",
-        opties=["PE", "PP", "PVC", "PET"],
-        antwoord=[0, 1, 2],
-        uitleg="Polyetheen, polypropeen en polyvinylchloride komen van etheen, propeen en chloroetheen. PET wordt juist door polycondensatie gemaakt.",
+        opties=[
+            "PE",
+            "PP",
+            "nylon",
+            "PET",
+        ],
+        antwoord=[0, 1],
+        uitleg="Polyetheen, polypropeen en polyvinylchloride komen van etheen, propeen en chloroetheen. PET en nylon worden juist door polycondensatie gemaakt.",
     ),
     dict(
         type="invultekst",
@@ -148,8 +153,9 @@ DEEL1 = [
             "een koolstofnanobuis is een 1D-structuur",
             "een laagje grafeen is een 2D-structuur",
             "een poeder van nanodeeltjes is een 1D-structuur",
+            "een poeder van nanodeeltjes reken je bij 3D",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een bolletje is 0D, een buis is lang in één richting en dus 1D, een vlak is 2D. Een poeder dat een ruimte vult, reken je bij 3D.",
     ),
     dict(
@@ -176,11 +182,11 @@ DEEL1 = [
         opties=[
             "ze hebben een heel groot oppervlak per volume-eenheid",
             "ze zijn daardoor vaak veel reactiever",
-            "hun smeltpunt kan lager liggen dan dat van een groot stuk",
+            "ze zijn met het oog te zien",
             "ze hebben altijd dezelfde kleur als het grote stuk",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Die eerste drie zijn typische nano-eigenschappen. De kleur verandert juist vaak met de grootte van het deeltje.",
+        antwoord=[0, 1],
+        uitleg="Een groot oppervlak per volume maakt nanodeeltjes reactiever, en hun smeltpunt ligt vaak lager dan dat van een groot stuk. Met het oog zie je ze niet, en de kleur verandert juist vaak met de grootte.",
     ),
 ]
 
@@ -212,8 +218,9 @@ DEEL2 = [
             "elektrische eigenschappen",
             "mechanische eigenschappen zoals sterkte en hardheid",
             "de smaak van het materiaal",
+            "magnetische eigenschappen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Daarnaast staan er ook magnetische en biochemische eigenschappen bij. Smaak hoort er niet bij.",
     ),
     dict(
@@ -282,11 +289,11 @@ DEEL2 = [
         opties=[
             "materiaalgezondheid",
             "productcirculariteit",
-            "sociale rechtvaardigheid",
+            "de winstmarge op het product",
             "het reclamebudget van het bedrijf",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De vijf categorieën zijn materiaalgezondheid, productcirculariteit, luchtkwaliteit en klimaatbescherming, water- en grondgezondheid en sociale rechtvaardigheid.",
+        antwoord=[0, 1],
+        uitleg="De vijf categorieën zijn materiaalgezondheid, productcirculariteit, luchtkwaliteit en klimaatbescherming, water- en grondgezondheid en sociale rechtvaardigheid. Een reclamebudget of een winstmarge staat er niet bij.",
     ),
     dict(
         type="meerkeuze",

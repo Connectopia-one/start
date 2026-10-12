@@ -37,9 +37,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke stofklassen bevatten een zuurstofatoom in hun kenmerkende groep? Kruis alles aan wat juist is.",
-        opties=["de alcoholen", "de carbonzuren", "de esters", "de aminen"],
-        antwoord=[0, 1, 2],
-        uitleg="Alcoholen hebben een OH, carbonzuren een COOH en esters een COO tussen twee ketens. Aminen hebben in de plaats daarvan een stikstofatoom.",
+        opties=[
+            "de alcoholen",
+            "de carbonzuren",
+            "de alkenen",
+            "de aminen",
+        ],
+        antwoord=[0, 1],
+        uitleg="Alcoholen hebben een OH en carbonzuren een COOH, en esters een COO tussen twee ketens. Aminen hebben in de plaats daarvan een stikstofatoom, en alkenen enkel koolstof en waterstof.",
     ),
     dict(
         type="waarofniet",
@@ -118,8 +123,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke formules horen bij een alkaan? Kruis alles aan wat juist is.",
-        opties=["CH₄", "C₃H₈", "C₄H₁₀", "CH₂=CH₂"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "CH₄",
+            "C₃H₈",
+            "C₄H₁₀",
+            "CH₂=CH₂",
+            "C₂H₆",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Methaan, propaan en butaan zijn alkanen. CH₂=CH₂ is etheen, en de dubbele binding maakt dat een alkeen.",
     ),
     dict(
@@ -154,11 +165,11 @@ DEEL1 = [
         opties=[
             "de uitgang -aan hoort bij de alkanen",
             "de uitgang -een hoort bij de alkenen",
-            "de uitgang -ol hoort bij de alcoholen",
+            "de uitgang -al hoort bij de ketonen",
             "de uitgang -on hoort bij de aldehyden",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De uitgang -on hoort bij de ketonen, zoals propanon; aldehyden eindigen op -al, zoals methanal.",
+        antwoord=[0, 1],
+        uitleg="De uitgang -on hoort bij de ketonen, zoals propanon, en aldehyden eindigen op -al, zoals methanal. De -ol van de alcoholen klopt wel.",
     ),
     dict(
         type="meerkeuze",
@@ -226,8 +237,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke stoffen zijn apolair? Kruis alles aan wat juist is.",
-        opties=["wasbenzine", "CCl₄", "een lang alkaan", "water"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "wasbenzine",
+            "CCl₄",
+            "een lang alkaan",
+            "water",
+            "olie",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Die drie zijn de bekendste apolaire stoffen. Water is juist het schoolvoorbeeld van een polaire stof.",
     ),
     dict(
@@ -272,11 +289,11 @@ DEEL2 = [
         opties=[
             "ze heeft een lange apolaire staart",
             "ze heeft een polaire kop",
-            "ze kan vet en water met elkaar verbinden",
+            "ze lost niet op in water",
             "ze is over haar hele lengte polair",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Juist die twee kanten maken zeep bruikbaar. Was ze over haar hele lengte polair, dan zou ze niet in het vet kunnen gaan zitten.",
+        antwoord=[0, 1],
+        uitleg="Juist die twee kanten maken zeep bruikbaar: met haar staart gaat ze in het vet, met haar kop in het water, en zo verbindt ze de twee. Was ze over haar hele lengte polair, dan zou ze niet in het vet kunnen gaan zitten.",
     ),
     dict(
         type="waarofniet",
@@ -332,8 +349,9 @@ DEEL2 = [
             "het heeft een dubbele binding",
             "het is de bouwsteen van polyetheen",
             "het is een alcohol",
+            "het laat als plantenhormoon fruit rijpen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De dubbele binding maakt het een alkeen en laat toe de moleculen aan elkaar te rijgen tot polyetheen. Een alcohol is het niet, want er zit geen OH-groep in.",
     ),
     dict(

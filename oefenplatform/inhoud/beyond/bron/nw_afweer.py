@@ -23,8 +23,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat hoort bij de eerste verdedigingslijn? Kruis alles aan wat juist is.",
-        opties=["de opperhuid als fysische barrière", "de zuurmantel en de talg op de huid", "lysozym in traanvocht en speeksel", "de antistoffen uit de B-lymfocyten"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "de opperhuid als fysische barrière",
+            "de zuurmantel en de talg op de huid",
+            "lysozym in traanvocht en speeksel",
+            "de antistoffen uit de B-lymfocyten",
+            "het trilhaarepitheel in de luchtwegen",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="De eerste lijn houdt ziekteverwekkers buiten met fysische en chemische barrières. Antistoffen horen bij de derde, specifieke lijn.",
     ),
     dict(
@@ -54,9 +60,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke organen horen bij het lymfatisch systeem? Kruis alles aan wat juist is.",
-        opties=["de thymus", "de milt", "de lymfeknopen", "de alvleesklier"],
-        antwoord=[0, 1, 2],
-        uitleg="Thymus, milt, lymfeknopen, keelamandelen en beenmerg zijn lymfoïde organen. De alvleesklier hoort bij de spijsvertering.",
+        opties=[
+            "de thymus",
+            "de milt",
+            "de lever",
+            "de alvleesklier",
+        ],
+        antwoord=[0, 1],
+        uitleg="Thymus, milt, lymfeknopen, keelamandelen en beenmerg zijn lymfoïde organen. De alvleesklier en de lever horen bij de spijsvertering.",
     ),
     dict(
         type="meerkeuze",
@@ -135,8 +146,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke cellen horen bij de specifieke afweer? Kruis alles aan wat juist is.",
-        opties=["de B-lymfocyten", "de T-helperlymfocyten", "de cytotoxische T-lymfocyten", "de neutrofielen"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "de B-lymfocyten",
+            "de T-helperlymfocyten",
+            "de cytotoxische T-lymfocyten",
+            "de neutrofielen",
+            "de plasmacellen die antistoffen maken",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="B- en T-lymfocyten herkennen één bepaald antigeen en vormen de derde lijn. Neutrofielen zijn fagocyten uit de niet-specifieke afweer.",
     ),
     dict(
@@ -193,9 +210,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke verschijnselen horen bij een ontsteking? Kruis alles aan wat juist is.",
-        opties=["roodheid", "zwelling", "warmte", "bleekheid"],
-        antwoord=[0, 1, 2],
-        uitleg="Door de verwijde en doorlaatbare bloedvaten wordt de plek rood, warm, gezwollen en pijnlijk. Bleek wordt ze juist niet.",
+        opties=[
+            "roodheid",
+            "een strakke, koude huid",
+            "warmte",
+            "bleekheid",
+        ],
+        antwoord=[0, 2],
+        uitleg="Door de verwijde en doorlaatbare bloedvaten wordt de plek rood, warm, gezwollen en pijnlijk. Bleek of koud wordt ze juist niet.",
     ),
     dict(
         type="meerkeuze",
@@ -241,8 +263,9 @@ DEEL2 = [
             "ze klitten ziekteverwekkers samen",
             "ze maken hem herkenbaar voor fagocyten",
             "ze zetten hem om in een voedingsstof",
+            "ze maken zijn gif onschadelijk",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Antistoffen binden op het antigeen. Daardoor klitten ziekteverwekkers samen, wordt hun gif onschadelijk en worden ze vlotter opgeruimd.",
     ),
     dict(
@@ -281,11 +304,11 @@ DEEL2 = [
         opties=[
             "het lichaam maakt zelf antistoffen aan",
             "er ontstaat een afweergeheugen",
-            "de bescherming houdt lang aan",
+            "ze werkt met kant-en-klare antistoffen",
             "de bescherming is er meteen na toediening",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Actief wil zeggen dat je eigen afweer aan het werk gaat. Dat duurt even, maar het levert geheugencellen en dus langdurige bescherming op.",
+        antwoord=[0, 1],
+        uitleg="Actief wil zeggen dat je eigen afweer aan het werk gaat; kant-en-klare antistoffen horen bij passieve immunisatie. Dat duurt even, maar het levert geheugencellen en dus langdurige bescherming op.",
     ),
     dict(
         type="meerkeuze",

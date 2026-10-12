@@ -41,8 +41,9 @@ DEEL1 = [
             "de twee ladingen zijn even groot",
             "er zijn elektronen van het ene naar het andere voorwerp gegaan",
             "er zijn protonen van het ene naar het andere voorwerp gegaan",
+            "samen blijft de lading nul",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Wat de ene verliest, krijgt de andere, dus zijn de ladingen even groot en tegengesteld. Protonen blijven in de kern zitten.",
     ),
     dict(
@@ -155,11 +156,11 @@ DEEL1 = [
         opties=[
             "gelijksoortige ladingen stoten elkaar af",
             "ongelijksoortige ladingen trekken elkaar aan",
-            "evenveel protonen als elektronen betekent neutraal",
+            "een neutraal voorwerp heeft geen lading in zich",
             "lading kan zomaar uit het niets ontstaan",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Die eerste drie zijn de basisregels van de elektrostatica. Lading ontstaat nooit uit het niets: ze verhuist enkel van de ene plaats naar de andere.",
+        antwoord=[0, 1],
+        uitleg="Afstoten, aantrekken, en neutraal zijn bij evenveel protonen als elektronen: dat zijn de basisregels. Een neutraal voorwerp zit wel vol ladingen, ze heffen elkaar enkel op, en lading ontstaat nooit uit het niets.",
     ),
     dict(
         type="meerkeuze",
@@ -181,8 +182,9 @@ DEEL1 = [
             "poedercoating van metaal",
             "een stoffilter in een luchtzuiveraar",
             "een gewone gloeilamp",
+            "een inktjetprinter die druppels afbuigt",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="In alle drie gaan geladen deeltjes naar een plaats met de tegengestelde lading. Een gloeilamp werkt door een draad op te warmen en heeft daar niets mee te maken.",
     ),
     dict(
@@ -272,11 +274,11 @@ DEEL2 = [
         opties=[
             "ze heeft een grootte, een richting en een zin",
             "je tekent ze als een pijl die in de lading begint",
-            "bij meerdere ladingen tel je de vectoren samen",
+            "je tekent de pijl altijd even lang, hoe groot de kracht ook is",
             "je tekent de pijl altijd naar beneden gericht",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een kracht is een vector, dus tel je ze samen tot de resulterende kracht. Naar beneden wijst enkel de zwaartekracht.",
+        antwoord=[0, 1],
+        uitleg="Een kracht is een vector: grootte, richting en zin, en bij meerdere ladingen tel je ze samen tot de resulterende kracht. De lengte van de pijl geeft die grootte weer, en naar beneden wijst enkel de zwaartekracht.",
     ),
     dict(
         type="meerkeuze",

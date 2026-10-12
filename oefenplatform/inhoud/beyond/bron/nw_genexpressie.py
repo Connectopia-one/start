@@ -40,8 +40,9 @@ DEEL1 = [
             "RNA heeft uracil in plaats van thymine",
             "RNA is meestal enkelstrengig",
             "RNA bevat helemaal geen fosfaatgroepen",
+            "RNA komt ook buiten de celkern voor",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De suiker, één base en het aantal strengen verschillen. Fosfaatgroepen zitten in beide moleculen, want die vormen de ruggengraat.",
     ),
     dict(
@@ -147,9 +148,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke mutaties horen bij de genoommutaties? Kruis alles aan wat juist is.",
-        opties=[r"trisomie \(21\)", "het syndroom van Turner", "het syndroom van Klinefelter", "sikkelcelanemie"],
-        antwoord=[0, 1, 2],
-        uitleg="Bij een genoommutatie klopt het aantal chromosomen niet. Sikkelcelanemie komt van één veranderde base en is dus een genmutatie.",
+        opties=[
+            r"trisomie \(21\)",
+            "het syndroom van Turner",
+            "mucoviscidose",
+            "sikkelcelanemie",
+        ],
+        antwoord=[0, 1],
+        uitleg=r"Bij een genoommutatie klopt het aantal chromosomen niet, zoals bij trisomie \(21\) en de syndromen van Turner en Klinefelter. Sikkelcelanemie en mucoviscidose komen van een verandering in één gen.",
     ),
     dict(
         type="meerkeuze",
@@ -166,8 +172,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat zijn mutagenen? Kruis alles aan wat juist is.",
-        opties=["uv-straling", "röntgenstraling", "benzopyreen uit tabaksrook", "zuurstofgas uit de lucht"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "uv-straling",
+            "röntgenstraling",
+            "benzopyreen uit tabaksrook",
+            "zuurstofgas uit de lucht",
+            "stoffen uit verbrand voedsel",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Mutagenen beschadigen het DNA rechtstreeks of via vrije radicalen. Gewone zuurstof uit de lucht hoort daar niet bij.",
     ),
     dict(
@@ -233,11 +245,11 @@ DEEL2 = [
         opties=[
             "het knipt de dubbele streng DNA door",
             "het herkent daarvoor een vaste basenvolgorde",
-            "het laat vaak sticky ends achter",
+            "het bouwt een nieuwe streng op",
             "het plakt twee stukken DNA aan elkaar",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Elk restrictie-enzym herkent zijn eigen korte volgorde en knipt daar. Veel enzymen knippen schuin, waardoor er sticky ends ontstaan. Plakken doet ligase.",
+        antwoord=[0, 1],
+        uitleg="Elk restrictie-enzym herkent zijn eigen korte volgorde en knipt daar; veel enzymen knippen schuin, waardoor er sticky ends ontstaan. Plakken doet ligase en een nieuwe streng bouwen doet polymerase.",
     ),
     dict(
         type="meerkeuze",
@@ -265,8 +277,9 @@ DEEL2 = [
             "een plasmide wordt met hetzelfde enzym opengeknipt",
             "het recombinante plasmide gaat een bacterie binnen",
             "de bacterie krijgt daarna een menselijke celkern",
+            "de bacterie geeft het plasmide bij elke deling door",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Het gen gaat in een plasmide en dat plasmide in een bacterie, die vanaf dan insuline maakt. Een kern krijgt een bacterie nooit.",
     ),
     dict(
@@ -323,11 +336,11 @@ DEEL2 = [
         opties=[
             "sporen aan een verdachte koppelen",
             "een vaderschap aantonen",
-            "familieleden van elkaar onderscheiden",
+            "de ziektes van een persoon voorspellen",
             "de bloedgroep van een persoon bepalen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Het bandenpatroon berust op stukken DNA die sterk van persoon tot persoon verschillen. Een bloedgroep bepaal je met een gewone bloedtest.",
+        antwoord=[0, 1],
+        uitleg="Het bandenpatroon berust op stukken DNA die sterk van persoon tot persoon verschillen, ook tussen familieleden. Een bloedgroep bepaal je met een gewone bloedtest, en ziektes voorspelt een fingerprint niet.",
     ),
     dict(
         type="invultekst",
