@@ -333,15 +333,14 @@
           "opties": [
             "politiek, want het gaat over macht en gezag",
             "cultureel, want de Griekse taal en kunst verspreidden zich mee",
-            "economisch, want er kwam handel op gang",
+            "religieus, want hij verbood alle goden",
             "in geen enkel domein, een verovering staat daarbuiten"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Alle drie. Eén gebeurtenis hoort vaak in meerdere domeinen tegelijk, en dat is juist het punt van die indeling."
+          "uitleg": "Eén gebeurtenis hoort vaak in meerdere domeinen tegelijk, en dat is juist het punt van die indeling. Goden verbood Alexander niet, en een verovering staat nooit buiten elk domein."
         },
         {
           "type": "meerkeuze",
@@ -476,12 +475,14 @@
             "om warmte en licht te geven",
             "om roofdieren op afstand te houden",
             "om voedsel beter verteerbaar te maken",
-            "om metaal te smelten"
+            "om metaal te smelten",
+            "om houten speerpunten te harden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Metaal bewerken komt pas veel later; in de prehistorie werkte men met steen en hout."
         },
@@ -536,12 +537,14 @@
             "paarden, bizons en herten",
             "handafdrukken",
             "jachttaferelen",
-            "de namen van de schilders"
+            "de namen van de schilders",
+            "stippen en abstracte tekens"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Dieren, handen en jachtscènes. Namen niet: het schrift bestond nog niet, en daarom heet deze periode de prehistorie."
         },
@@ -552,12 +555,14 @@
             "Ze leefden in kleine groepen van enkele tientallen mensen",
             "Ze trokken mee met het voedsel",
             "Er was een taakverdeling in de groep",
-            "Ze woonden in dorpen met voorraadschuren"
+            "Ze woonden in dorpen met voorraadschuren",
+            "Ze maakten werktuigen van steen, hout en been"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Dorpen en voorraden komen er pas met de landbouw, duizenden jaren later."
         },
@@ -638,15 +643,14 @@
           "opties": [
             "zelf gewassen telen",
             "dieren houden",
-            "op een vaste plaats wonen",
+            "van de jacht op groot wild leven",
             "in de winter naar warmere streken trekken"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Landbouw en veeteelt, en daardoor een vast woonplaats. Rondtrekken is net wat men daarvóór deed."
+          "uitleg": "Landbouw en veeteelt horen bij de agrarische revolutie, en daardoor ook een vaste woonplaats. Rondtrekken en jagen is net wat men daarvóór deed."
         },
         {
           "type": "meerkeuze",
@@ -688,12 +692,14 @@
             "Sommigen konden een ander beroep uitoefenen",
             "Er konden meer mensen op één plek wonen",
             "Er ontstonden verschillen in rijkdom",
-            "Iedereen werd even rijk"
+            "Iedereen werd even rijk",
+            "Er kwam een bestuur dat de voorraden beheerde"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Overschot geeft specialisatie, steden én ongelijkheid. Gelijkheid juist niet: wie grond en voorraden had, stond sterker."
         },
@@ -736,15 +742,14 @@
           "opties": [
             "Ziektes sprongen makkelijker over",
             "Eén misoogst kon hongersnood betekenen",
-            "Er ontstond ongelijkheid in bezit",
+            "Men moest elke winter verhuizen",
             "Men kon geen voedsel meer bewaren"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bewaren kon juist wél, en net dat bewaarde bezit maakte het verschil tussen arm en rijk."
+          "uitleg": "Ziektes en misoogsten waren de keerzijde van vast wonen. Bewaren kon juist wél, en verhuizen hoefde niet meer."
         },
         {
           "type": "meerkeuze",
@@ -875,16 +880,15 @@
           "vraag": "Wat hoort bij irrigatielandbouw?",
           "opties": [
             "kanalen graven",
-            "dijken aanleggen en onderhouden",
+            "de akkers hoger op de helling leggen",
             "rivierwater tot bij de akkers brengen",
             "wachten tot het regent"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Irrigatie is water zelf naar je akkers brengen. Net omdat het er te weinig regende, was dat nodig."
+          "uitleg": "Irrigatie is water zelf naar je akkers brengen, met kanalen en dijken. Wachten op regen of hoger gaan liggen helpt daar niet bij."
         },
         {
           "type": "meerkeuze",
@@ -904,14 +908,16 @@
             "Ur",
             "Uruk",
             "Babylon",
-            "Athene"
+            "Athene",
+            "Nippur"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Ur, Uruk en Babylon lagen tussen Tigris en Eufraat. Athene is een Griekse polis, duizenden jaren later."
+          "uitleg": "Ur, Uruk, Babylon en Nippur lagen tussen Tigris en Eufraat. Athene is een Griekse polis, duizenden jaren later."
         },
         {
           "type": "meerkeuze",
@@ -984,16 +990,15 @@
           "vraag": "Wat klopt over een ziggurat?",
           "opties": [
             "Het is een tempeltoren in trappen",
-            "Hij stond midden in de stad",
+            "Het is een graanschuur voor de hele stad",
             "Hij was gewijd aan de god van die stad",
             "Het is het graf van een koning"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Een ziggurat is een tempel, geen graf. Het graf van een heerser is in Egypte de piramide."
+          "uitleg": "Een ziggurat is een tempeltoren in trappen, gewijd aan de god van die stad. Een graf of een graanschuur is het niet; het graf van een heerser is in Egypte de piramide."
         },
         {
           "type": "meerkeuze",
@@ -1098,15 +1103,14 @@
           "opties": [
             "Het ontstond om voorraden en bezit bij te houden",
             "Maar weinig mensen konden lezen en schrijven",
-            "Schrijvers stonden daardoor hoog in de standenmaatschappij",
+            "Iedereen leerde schrijven op school",
             "Het ontstond om verhalen te bewaren"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De oudste kleitabletten zijn boekhouding, geen literatuur. Die kwam pas later."
+          "uitleg": "De oudste kleitabletten zijn boekhouding, geen literatuur. En schrijven kon maar een kleine groep: van school voor iedereen was geen sprake."
         },
         {
           "type": "meerkeuze",
@@ -1137,12 +1141,14 @@
             "belastingen innen",
             "akkers opmeten",
             "de voorraden bijhouden",
-            "het leger aanvoeren in de strijd"
+            "het leger aanvoeren in de strijd",
+            "alles vastleggen in schrift"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een ambtenaar bestuurt in naam van de heerser. Het leger leiden was de taak van de heerser zelf."
         },
@@ -1174,13 +1180,12 @@
           "opties": [
             "Er was nauwelijks hout",
             "Er was nauwelijks steen",
-            "Er was nauwelijks metaal",
+            "Er was nauwelijks klei",
             "Er was nauwelijks graan"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
           "uitleg": "Graan en klei waren er juist in overvloed. Bouwhout, steen en erts moesten van ver komen."
         },
@@ -1222,16 +1227,15 @@
           "vraag": "Welke taken had een farao?",
           "opties": [
             "besturen en rechtspreken",
-            "het leger leiden",
+            "zelf de akkers bewerken",
             "de goden gunstig stemmen",
             "zelf bij elke boer de belasting ophalen"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Zijn taak was politiek én religieus. Het ophalen van belastingen deden de ambtenaren voor hem."
+          "uitleg": "Zijn taak was politiek én religieus: besturen, rechtspreken, het leger leiden en de goden gunstig stemmen. Belastingen ophalen en akkers bewerken deden anderen voor hem."
         },
         {
           "type": "meerkeuze",
@@ -1316,14 +1320,16 @@
             "dezelfde taal",
             "dezelfde goden en verhalen",
             "de Olympische Spelen",
-            "hetzelfde bestuur"
+            "hetzelfde bestuur",
+            "het orakel van Delphi"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Cultureel waren ze één, politiek juist niet: elke polis bestuurde zichzelf."
+          "uitleg": "Cultureel waren ze één: taal, goden, verhalen, spelen en orakel. Politiek juist niet: elke polis bestuurde zichzelf."
         },
         {
           "type": "waarofniet",
@@ -1389,12 +1395,14 @@
             "Ze woonden volgens de verhalen op de Olympus",
             "Zeus was de oppergod",
             "Ze werden jaloers, verliefd en kwaad, net als mensen",
-            "De Grieken geloofden in één god"
+            "De Grieken geloofden in één god",
+            "Elke god had een eigen taak"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De Grieken waren polytheïstisch: veel goden, elk met een eigen taak en karakter."
         },
@@ -1460,15 +1468,14 @@
           "opties": [
             "in Zuid-Italië",
             "in Zuid-Frankrijk",
-            "rond de Zwarte Zee",
+            "in Scandinavië",
             "in Britannië"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Zo kwamen de Romeinen al vroeg met de Griekse cultuur in aanraking. Britannië is Romeins, en veel later."
+          "uitleg": "Zuid-Italië en Zuid-Frankrijk liggen vol Griekse stichtingen; zo kwamen de Romeinen al vroeg met de Griekse cultuur in aanraking. Britannië is Romeins, en in Scandinavië kwamen ze niet."
         },
         {
           "type": "meerkeuze",
@@ -1523,12 +1530,14 @@
             "vrouwen",
             "slaven",
             "vreemdelingen",
-            "vrije mannen met burgerrecht"
+            "vrije mannen met burgerrecht",
+            "kinderen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Enkel vrije mannelijke burgers stemden, ongeveer één op tien van de bevolking. Dat is meteen de grootste beperking van die democratie."
         },
@@ -1555,15 +1564,14 @@
           "opties": [
             "De stadstaten werkten uitzonderlijk samen",
             "Athene werd de leider van een bondgenootschap",
-            "Athene bouwde met dat geld onder meer het Parthenon",
+            "Perzië veroverde heel Griekenland",
             "Sparta werd meteen de baas over heel Griekenland"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Sparta won pas veel later, in de Peloponnesische oorlog — en toen kwamen alle stadstaten er verzwakt uit."
+          "uitleg": "De stadstaten werkten uitzonderlijk samen en Athene werd de leider van een bondgenootschap. Perzië won niet, en Sparta won pas veel later, in de Peloponnesische oorlog."
         },
         {
           "type": "meerkeuze",
@@ -1626,15 +1634,14 @@
           "opties": [
             "sporten",
             "zich vrij bewegen",
-            "bezit hebben",
+            "in de volksvergadering spreken",
             "meestemmen over de wetten"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Meebeslissen deed een vrouw op geen van beide plaatsen."
+          "uitleg": "Sporten, zich vrij bewegen en bezit hebben mocht een Spartaanse wel en een Atheense niet. Meebeslissen of spreken in de vergadering deed een vrouw op geen van beide plaatsen."
         },
         {
           "type": "invultekst",
@@ -1795,12 +1802,14 @@
             "Er stonden twee consuls aan het hoofd, elk voor één jaar",
             "De senaat was de raad van oud-bestuurders",
             "De volksvergadering koos de bestuurders",
-            "Aan het hoofd stond een koning"
+            "Aan het hoofd stond een koning",
+            "Volkstribunen kwamen op voor de plebejers"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De koningen kwamen net vóór de republiek. De Romeinen joegen hun laatste koning weg en wilden nooit meer één alleenheerser."
         },
@@ -1982,15 +1991,14 @@
           "opties": [
             "Rome werd de baas over de westelijke Middellandse Zee",
             "Carthago werd uiteindelijk volledig verwoest",
-            "Er kwamen zoveel krijgsgevangenen dat slavenarbeid spotgoedkoop werd",
+            "Hannibal werd keizer van Rome",
             "Rome verloor de macht over Italië"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Italië had Rome al vóór die oorlogen in handen. Net door die goedkope slavenarbeid kon de kleine boer niet meer mee."
+          "uitleg": "Rome werd de baas over de westelijke Middellandse Zee en Carthago werd verwoest. Italië had Rome al vóór die oorlogen in handen, en Hannibal was de Carthaagse veldheer, nooit keizer van Rome."
         },
         {
           "type": "meerkeuze",
@@ -2065,12 +2073,14 @@
             "veilige wegen en zeeën",
             "één munt",
             "één rechtssysteem",
-            "een tolmuur rond elke provincie"
+            "een tolmuur rond elke provincie",
+            "één taal voor het bestuur"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Goederen konden van Britannië tot Egypte reizen. Tolmuren zouden dat net onmogelijk gemaakt hebben."
         },
@@ -2091,15 +2101,14 @@
           "opties": [
             "Christenen weigerden de keizer te vereren",
             "Ze werden eerst vervolgd",
-            "Onder Constantijn werd het christendom toegelaten",
+            "Keizer Nero maakte het christendom tot staatsgodsdienst",
             "Het was vanaf het begin de staatsgodsdienst"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Staatsgodsdienst werd het pas op het einde. Daarvóór botste het net op de keizerscultus."
+          "uitleg": "Christenen weigerden de keizer te vereren en werden daarom eerst vervolgd, onder meer onder Nero. Toelaten deed Constantijn, en staatsgodsdienst werd het pas op het einde."
         },
         {
           "type": "meerkeuze",
@@ -2197,12 +2206,14 @@
             "een muntje",
             "een afvalhoop",
             "kinderspeelgoed",
-            "enkel een geschreven tekst"
+            "enkel een geschreven tekst",
+            "een foto"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Alles uit het verleden waaruit je iets kan afleiden, is een bron. Juist een afvalhoop vertelt veel over het gewone leven."
         },
@@ -2324,15 +2335,14 @@
           "opties": [
             "Elke maker vertelt vanuit zijn eigen positie en belang",
             "Wie de bron betaalde, kan bepalen wat erin komt",
-            "De winnaar beschrijft een slag anders dan de verliezer",
+            "Omdat enkel een maker met een diploma meetelt",
             "Omdat een bron zonder naam altijd onbruikbaar is"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een bron zonder naam kan nog altijd veel vertellen. De drie juiste antwoorden zijn precies de reden waarom je altijd naar de maker kijkt."
+          "uitleg": "Elke maker vertelt vanuit zijn eigen positie en belang, en wie de bron betaalde kan bepalen wat erin komt. Een bron zonder naam kan nog altijd veel vertellen, en een diploma heeft er niets mee te maken."
         },
         {
           "type": "waarofniet",
@@ -2380,12 +2390,14 @@
             "een schilderij",
             "een gebouw",
             "een film of een game",
-            "enkel werk dat in een museum hangt"
+            "enkel werk dat in een museum hangt",
+            "een lied"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Ook graffiti en wat vandaag gemaakt wordt, is voor latere historici een bron over onze tijd."
         },
@@ -2519,12 +2531,14 @@
             "oorzaak en gevolg benoemen",
             "meerdere perspectieven hanteren",
             "continuïteit en verandering benoemen",
-            "afgaan op je gevoel"
+            "afgaan op je gevoel",
+            "bewijs gebruiken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De vijf redeneerwijzen zijn: oorzaak en gevolg, meerdere perspectieven, continuïteit en verandering, bewijs gebruiken en verbanden leggen. Je gevoel hoort er niet bij."
         },
@@ -2584,15 +2598,14 @@
           "opties": [
             "Ze maakten samengestelde werktuigen",
             "Ze verzorgden zieken en gewonden",
-            "Ze begroeven hun doden",
+            "Ze konden niet spreken",
             "Ze kenden geen vuur"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Vuur en kleding kenden ze wél. Het beeld van de domme, lompe holbewoner is mythevorming."
+          "uitleg": "Ze maakten samengestelde werktuigen, verzorgden zieken en gewonden en begroeven hun doden. Vuur en kleding kenden ze wél, en over spraak wijzen de vondsten net de andere kant op. Het beeld van de domme, lompe holbewoner is mythevorming."
         },
         {
           "type": "waarofniet",
@@ -2607,12 +2620,14 @@
             "door nieuwe bronnen",
             "door nieuwe onderzoekstechnieken zoals DNA-onderzoek",
             "door nieuwe vragen te stellen",
-            "doordat het verleden zelf verandert"
+            "doordat het verleden zelf verandert",
+            "door oude bronnen met andere ogen te herlezen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het verleden ligt vast; geschiedenis is het verhaal erover, en dat kan wél herschreven worden."
         },
