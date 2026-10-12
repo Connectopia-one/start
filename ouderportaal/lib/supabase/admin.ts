@@ -50,6 +50,42 @@ export function projectnaam(): string | null {
   Door die twee apart te benoemen hoeft niemand te gokken, en staat de code
   erbij voor het geval het nog iets anders is.
 */
+/*
+  Dezelfde uitleg, maar voor een kolom die nog niet bestaat.
+
+  Een tabel die ontbreekt valt op: er staat meteen niets meer op het scherm.
+  Een kolom die ontbreekt is gemener. De tabel is er, de bladzijde laadt, en
+  enkel het bewaren mislukt — of een select die die kolom meevraagt geeft niets
+  terug, zodat een ingevulde fiche er leeg uitziet. Dat is precies wat Kim op
+  11 en 12 oktober 2026 beschreef als "hij bewaart het niet".
+
+  Postgres geeft 42703 voor een onbekende kolom; PostgREST stuurt PGRST204 als
+  zijn eigen lijst van kolommen nog niet bijgewerkt is.
+*/
+export function kolomOntbreekt(
+  fout: { message?: string; code?: string },
+  bestand: string,
+): string | null {
+  const tekst = fout.message || "";
+  const isKolom =
+    fout.code === "42703" ||
+    fout.code === "PGRST204" ||
+    /column .* does not exist/i.test(tekst) ||
+    /could not find the '.*' column/i.test(tekst);
+  if (!isKolom) return null;
+
+  const project = projectnaam();
+  const waar = project
+    ? `het Supabase-project met het adres ${project}.supabase.co`
+    : "het Supabase-project van het ouderportaal";
+
+  return (
+    `Deze fiche heeft een kolom nodig die nog niet in de databank staat. ` +
+    `Draai ${bestand} in de SQL Editor van ${waar}. Je hebt twee projecten; ` +
+    `in het andere staat het oefenplatform. (${tekst || "code " + (fout.code || "?")})`
+  );
+}
+
 export function tabelOntbreekt(
   fout: { message?: string; code?: string },
   tabel: string,

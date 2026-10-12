@@ -1,6 +1,7 @@
 import { requirePortaalSessie } from "@/lib/auth";
 import { MeekijkBalk } from "@/components/MeekijkBalk";
 import { createClient } from "@/lib/supabase/server";
+import { kolomOntbreekt } from "@/lib/supabase/admin";
 import { Header } from "@/components/Header";
 import {
   wijzigContactgegevens,
@@ -11,26 +12,42 @@ import {
 
 import { type Kind, KINDVELDEN } from "@/lib/kind";
 
-export default async function GezinProfielPage() {
+export default async function GezinProfielPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ fout?: string; succes?: string }>;
+}) {
+  const { fout, succes } = await searchParams;
   const session = await requirePortaalSessie();
   const naam = session.profile?.full_name ?? session.email ?? "";
   const rol = session.profile?.role ?? "ouder";
 
   const supabase = await createClient();
-  const [{ data: profiel }, { data: kinderenData }] = await Promise.all([
-    supabase
-      .from("profiles")
-      .select("telefoon, adres")
-      .eq("id", session.userId)
-      .single(),
-    supabase
-      .from("kinderen")
-      .select(KINDVELDEN)
-      .eq("profile_id", session.userId)
-      .order("naam"),
-  ]);
+  const [{ data: profiel }, { data: kinderenData, error: kinderenFout }] =
+    await Promise.all([
+      supabase
+        .from("profiles")
+        .select("telefoon, adres")
+        .eq("id", session.userId)
+        .single(),
+      supabase
+        .from("kinderen")
+        .select(KINDVELDEN)
+        .eq("profile_id", session.userId)
+        .order("naam"),
+    ]);
 
   const kinderen = (kinderenData as Kind[] | null) ?? [];
+
+  /*
+    Mislukt deze select, dan staat er geen enkel kind op het scherm en ziet dat
+    eruit alsof er nooit iets bewaard is. Dat mag niet stil gebeuren: zeg wat
+    er aan de hand is en welk bestand er nog moet draaien.
+  */
+  const leesFout = kinderenFout
+    ? kolomOntbreekt(kinderenFout, "supabase/inlichtingenfiche.sql") ||
+      `De fiches konden niet opgehaald worden: ${kinderenFout.message}`
+    : null;
 
   return (
     <>
@@ -51,6 +68,24 @@ export default async function GezinProfielPage() {
           Contactgegevens en de inlichtingenfiche van je kind(eren) — enkel
           zichtbaar voor jou en Connectopia.
         </p>
+
+        {/* Na elke bewaring staat hier wat er gebeurd is. Zonder deze regel
+            ziet een geslaagde bewaring er net zo uit als een mislukte. */}
+        {succes && (
+          <p className="mt-4 rounded-md bg-forest/10 px-4 py-3 text-sm text-forest-dark">
+            {succes}
+          </p>
+        )}
+        {fout && (
+          <p className="mt-4 rounded-md bg-danger/10 px-4 py-3 text-sm text-danger">
+            {fout}
+          </p>
+        )}
+        {leesFout && (
+          <p className="mt-4 rounded-md bg-danger/10 px-4 py-3 text-sm text-danger">
+            {leesFout}
+          </p>
+        )}
 
         {/* Je kijkt mee, dus wat je invult hoort bij dat gezin. Dat hoort op
             het scherm te staan voor je begint te typen, niet achteraf. */}

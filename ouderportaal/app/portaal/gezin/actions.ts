@@ -1,8 +1,42 @@
 "use server";
 
+import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { requirePortaalSessie } from "@/lib/auth";
-import { createAdminClient } from "@/lib/supabase/admin";
+import { createAdminClient, kolomOntbreekt } from "@/lib/supabase/admin";
+
+const PAD = "/portaal/gezin";
+
+/*
+  Elk scherm hier eindigt met een zin: "Bewaard" of wat er misging.
+
+  Kim op 11 én op 12 oktober 2026: "ik heb al 3 x proberen de inlichtingsfiche
+  in te vullen en dit wordt niet bewaard" en "zelfs mijn eigen fiche onthoudt
+  die niet". Beide keren viel er niets te zien, want deze acties lazen de fout
+  van Supabase niet uit en gaven ook bij een geslaagde bewaring niets terug.
+  Een scherm dat er na het klikken exact hetzelfde uitziet, is niet te
+  onderscheiden van een scherm dat niets gedaan heeft.
+
+  Zie connectopia-fout-441 in het geheugen: een server action die stil mislukt,
+  kost altijd meer tijd dan een lelijke foutmelding.
+*/
+/*
+  Zet een fout van Supabase om in een zin die zegt wat Kim moet doen. Gaat het
+  om een kolom die nog niet bestaat, dan is het sql-bestand niet gedraaid en
+  helpt de naam van dat bestand meer dan de ruwe melding.
+*/
+function uitleg(fout: { message?: string; code?: string }): string {
+  return (
+    kolomOntbreekt(fout, "supabase/inlichtingenfiche.sql") ||
+    fout.message ||
+    "onbekende fout"
+  );
+}
+
+function terug(bericht: string, fout = false): never {
+  revalidatePath(PAD);
+  redirect(`${PAD}?${fout ? "fout" : "succes"}=${encodeURIComponent(bericht)}`);
+}
 
 /*
   Bij welk gezin horen de gegevens van dit scherm?
@@ -57,18 +91,19 @@ export async function wijzigContactgegevens(formData: FormData) {
   const adres = String(formData.get("adres") || "").trim() || null;
 
   const admin = createAdminClient();
-  await admin
+  const { error } = await admin
     .from("profiles")
     .update({ telefoon, adres })
     .eq("id", gezinId);
 
-  revalidatePath("/portaal/gezin");
+  if (error) terug(`Je contactgegevens zijn niet bewaard: ${uitleg(error)}`, true);
+  terug("Je contactgegevens zijn bewaard.");
 }
 
 export async function voegKindToe(formData: FormData) {
   const gezinId = await gezinVanDitScherm();
   const naam = String(formData.get("naam") || "").trim();
-  if (!naam) return;
+  if (!naam) terug("Vul de naam van je kind in, de rest mag leeg blijven.", true);
 
   const geboortedatum =
     String(formData.get("geboortedatum") || "").trim() || null;
@@ -94,11 +129,10 @@ export async function voegKindToe(formData: FormData) {
     (k: { naam: string }) => k.naam.trim().toLowerCase() === naam.toLowerCase(),
   );
   if (alGekend) {
-    revalidatePath("/portaal/gezin");
-    return;
+    terug(`${naam} stond er al. We hebben niets dubbel toegevoegd.`);
   }
 
-  await admin.from("kinderen").insert({
+  const { error } = await admin.from("kinderen").insert({
     profile_id: gezinId,
     naam,
     geboortedatum,
@@ -111,14 +145,15 @@ export async function voegKindToe(formData: FormData) {
     ...fichevelden(formData),
   });
 
-  revalidatePath("/portaal/gezin");
+  if (error) terug(`${naam} is niet toegevoegd: ${uitleg(error)}`, true);
+  terug(`${naam} is toegevoegd.`);
 }
 
 export async function wijzigKind(formData: FormData) {
   const gezinId = await gezinVanDitScherm();
   const kindId = String(formData.get("kind_id") || "");
   const naam = String(formData.get("naam") || "").trim();
-  if (!naam) return;
+  if (!naam) terug("De naam mag niet leeg zijn, de rest van de fiche wel.", true);
 
   const geboortedatum =
     String(formData.get("geboortedatum") || "").trim() || null;
@@ -133,7 +168,13 @@ export async function wijzigKind(formData: FormData) {
     formData.get("toestemming_social_media") === "on";
 
   const admin = createAdminClient();
-  await admin
+  /*
+    Met .select() erachter krijgen we de rijen terug die écht aangepast zijn.
+    Zonder dat kan je een update die niets raakte — omdat dit kind bij een
+    ander gezin hoort, of intussen verwijderd is — niet onderscheiden van een
+    geslaagde. Dat is precies hoe "hij bewaart niet" eruitziet.
+  */
+  const { data: aangepast, error } = await admin
     .from("kinderen")
     .update({
       naam,
@@ -148,9 +189,18 @@ export async function wijzigKind(formData: FormData) {
       updated_at: new Date().toISOString(),
     })
     .eq("id", kindId)
-    .eq("profile_id", gezinId);
+    .eq("profile_id", gezinId)
+    .select("id");
 
-  revalidatePath("/portaal/gezin");
+  if (error) terug(`De fiche van ${naam} is niet bewaard: ${uitleg(error)}`, true);
+  if (!aangepast || aangepast.length === 0) {
+    terug(
+      `De fiche van ${naam} is niet bewaard: we vonden dit kind niet terug bij dit gezin. ` +
+        `Laad de bladzijde opnieuw en probeer nog eens.`,
+      true,
+    );
+  }
+  terug(`De fiche van ${naam} is bewaard.`);
 }
 
 export async function verwijderKind(formData: FormData) {
@@ -158,11 +208,12 @@ export async function verwijderKind(formData: FormData) {
   const kindId = String(formData.get("kind_id") || "");
 
   const admin = createAdminClient();
-  await admin
+  const { error } = await admin
     .from("kinderen")
     .delete()
     .eq("id", kindId)
     .eq("profile_id", gezinId);
 
-  revalidatePath("/portaal/gezin");
+  if (error) terug(`Verwijderen is niet gelukt: ${uitleg(error)}`, true);
+  terug("Het kind is verwijderd.");
 }
