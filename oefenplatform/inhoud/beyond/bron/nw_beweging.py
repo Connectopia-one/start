@@ -22,7 +22,7 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Met welke drie letters korten we een eenparig veranderlijke rechtlijnige beweging af?",
+        vraag="Met welke vier letters korten we een eenparig veranderlijke rechtlijnige beweging af?",
         antwoord=["EVRB", "evrb"],
         uitleg="De versnelling is daarbij constant maar niet nul. Is ze nul, dan heb je een ERB; gaat het over een cirkel, dan een ECB.",
     ),

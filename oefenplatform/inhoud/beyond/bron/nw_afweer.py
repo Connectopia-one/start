@@ -160,7 +160,7 @@ DEEL1 = [
     dict(
         type="invultekst",
         vraag="Hoe heten de knooppunten in de lymfevaten waar afweercellen samenkomen en die bij een infectie kunnen opzwellen?",
-        antwoord="lymfeknopen",
+        antwoord=["lymfeknopen", "lymfeklieren"],
         uitleg="Lymfeknopen of lymfeklieren filteren de lymfe. Bij een infectie vermenigvuldigen de lymfocyten er zich, waardoor ze opzwellen en gevoelig worden.",
     ),
     dict(
