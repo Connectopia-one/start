@@ -65,9 +65,15 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welk verband geeft het woord 'want' aan?",
-        opties=["Een reden", "Een tegenstelling", "Een opsomming", "Een tijd"],
-        antwoord=0,
-        uitleg="'Want' en 'omdat' geven de reden: 'Ik neem de fiets, want de bus is te laat.'",
+        opties=[
+            "Een gevolg",
+            "Een tegenstelling",
+            "Een opsomming",
+            "Een tijd",
+            "Geen van deze antwoorden",
+        ],
+        antwoord=4,
+        uitleg="'Want' en 'omdat' geven de reden: 'Ik neem de fiets, want de bus is te laat.' Dat woord staat er niet bij. Een gevolg kondig je aan met 'dus'.",
     ),
     dict(
         type="meerkeuze",

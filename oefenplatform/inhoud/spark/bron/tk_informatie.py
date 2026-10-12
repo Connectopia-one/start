@@ -29,6 +29,7 @@ DEEL1 = [
             "Hij voert zelf een beweging uit",
             "Hij slaat de gegevens van het systeem op",
             "Hij verdeelt de stroom over de onderdelen",
+            "Geen van deze antwoorden",
         ],
         antwoord=0,
         uitleg="Een sensor voelt iets: licht, beweging, druk, geluid. Hij geeft dat door aan de verwerking als een signaal.",

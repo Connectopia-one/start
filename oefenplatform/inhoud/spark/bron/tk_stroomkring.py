@@ -39,6 +39,7 @@ DEEL1 = [
             "Hij maakt de stroom sterker dan daarvoor",
             "Hij zet elektrische stroom om in licht",
             "Hij meet hoeveel stroom er door de kring loopt",
+            "Geen van deze antwoorden",
         ],
         antwoord=0,
         uitleg="Een schakelaar onderbreekt de kring of maakt ze weer rond. Meer doet hij niet: hij verandert niets aan de stroom zelf.",
@@ -220,7 +221,13 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Wat is de eenheid van elektrische spanning?",
-        opties=["De volt", "De ampère", "De ohm", "De watt"],
+        opties=[
+            "De volt",
+            "De ampère",
+            "De ohm",
+            "De watt",
+            "Geen van deze antwoorden",
+        ],
         antwoord=0,
         uitleg="Spanning draagt het symbool U en wordt gemeten in volt (V). Stroomsterkte is ampère, weerstand is ohm en vermogen is watt.",
     ),

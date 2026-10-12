@@ -12,7 +12,8 @@
             "Naar de titel",
             "Naar de schaal die eronder staat afgedrukt",
             "Naar de kleuren die het meest voorkomen",
-            "Naar het aantal plaatsnamen dat erop staat"
+            "Naar het aantal plaatsnamen dat erop staat",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "De titel zegt waarover de kaart gaat en welk gebied ze toont. Daarmee weet je meteen of je de juiste kaart voor je hebt."
@@ -233,7 +234,8 @@
             "Hoeveel keer het gebied verkleind is",
             "Hoe oud de gegevens op de kaart zijn",
             "Hoe groot het blad papier is waarop ze staat",
-            "Hoeveel kilometer je moet stappen om er te raken"
+            "Hoeveel kilometer je moet stappen om er te raken",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Een gebied past nooit op ware grootte op papier. De schaal zegt hoeveel keer alles verkleind werd, en daarmee kan je echte afstanden terugrekenen."
@@ -260,13 +262,14 @@
           "type": "meerkeuze",
           "vraag": "Op een kaart met schaal 1 : 50 000 meet je tussen twee dorpen 3 centimeter. Hoe ver liggen ze in het echt uit elkaar?",
           "opties": [
-            "1,5 kilometer",
+            "2,5 kilometer",
             "150 meter",
             "15 kilometer",
-            "50 kilometer"
+            "50 kilometer",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "Eén centimeter is hier 50 000 centimeter, dus 500 meter. Drie centimeter is dan 1500 meter, of 1,5 kilometer."
+          "antwoord": 4,
+          "uitleg": "Eén centimeter is hier 50 000 centimeter, dus 500 meter. Drie centimeter is dan 1500 meter, of 1,5 kilometer. Dat getal staat er niet bij, dus is geen van de vier antwoorden juist."
         },
         {
           "type": "meerkeuze",
@@ -369,13 +372,14 @@
           "type": "meerkeuze",
           "vraag": "Je gaat van de hoogtelijn van 100 meter naar die van 160 meter. Hoeveel stijg je?",
           "opties": [
-            "60 meter",
+            "16 meter",
             "6 meter",
             "160 meter",
-            "260 meter"
+            "260 meter",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "Het hoogteverschil is het verschil tussen de twee hoogtes: 160 min 100 is 60 meter."
+          "antwoord": 4,
+          "uitleg": "Het hoogteverschil is het verschil tussen de twee hoogtes: 160 min 100 is 60 meter. Geen van de vier getallen hierboven is dat."
         },
         {
           "type": "meerkeuze",
@@ -452,7 +456,8 @@
             "Een paar getallen die overal ter wereld hetzelfde betekenen",
             "De naam van de straat en het huisnummer waar je woont",
             "Een beschrijving van het gebouw waarin je woont en werkt",
-            "De afstand tot de dichtstbijzijnde winkel bij jou"
+            "De afstand tot de dichtstbijzijnde winkel bij jou",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Een straatnaam zegt niets aan de andere kant van de wereld. Geografische coördinaten wel: die werken overal, want iedereen rekent met hetzelfde net van lijnen over de aardbol."
@@ -509,25 +514,27 @@
           "type": "meerkeuze",
           "vraag": "Welke lijnen liggen op 23,5 graden noorder- en zuiderbreedte?",
           "opties": [
-            "De keerkringen",
+            "De hoogtelijnen",
             "De poolcirkels",
             "De meridianen",
-            "De datumlijnen"
+            "De datumlijnen",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "De Kreeftskeerkring ligt op 23,5 graden noorderbreedte en de Steenbokskeerkring op 23,5 graden zuiderbreedte. Daartussen kan de zon recht boven je hoofd staan."
+          "antwoord": 4,
+          "uitleg": "De Kreeftskeerkring ligt op 23,5 graden noorderbreedte en de Steenbokskeerkring op 23,5 graden zuiderbreedte. Die twee heten samen de keerkringen, en dat woord staat er niet bij."
         },
         {
           "type": "meerkeuze",
           "vraag": "Op welke breedte liggen de poolcirkels?",
           "opties": [
-            "Op 66,5 graden",
+            "Op 60 graden",
             "Op 23,5 graden",
             "Op 45 graden",
-            "Op 90 graden"
+            "Op 90 graden",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "De noordpoolcirkel ligt op 66,5 graden noorderbreedte en de zuidpoolcirkel op 66,5 graden zuiderbreedte. Daarbinnen komt de zon in de winter een tijd niet meer op."
+          "antwoord": 4,
+          "uitleg": "De noordpoolcirkel ligt op 66,5 graden noorderbreedte en de zuidpoolcirkel op 66,5 graden zuiderbreedte. Daarbinnen komt de zon in de winter een tijd niet meer op. 66,5 staat er niet bij."
         },
         {
           "type": "waarofniet",
@@ -542,15 +549,17 @@
             "De evenaar",
             "De poolcirkel",
             "De nulmeridiaan",
-            "De hoogtelijn",
-            "De legende"
+            "De keerkring",
+            "De breedtecirkel"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            3,
+            4
           ],
-          "uitleg": "De evenaar, de poolcirkels en de nulmeridiaan horen bij het gradennet. Een hoogtelijn gaat over reliëf en een legende hoort bij een kaart."
+          "uitleg": "Hier is elk antwoord juist: de evenaar, de poolcirkel, de nulmeridiaan, de keerkring en de breedtecirkel zijn alle vijf lijnen of cirkels van het gradennet. Soms moet je er dus écht alle aankruisen."
         },
         {
           "type": "meerkeuze",
@@ -669,7 +678,8 @@
             "De plaats absoluut situeren",
             "De plaats relatief situeren",
             "De afstand tot de school berekenen",
-            "De richting naar de school aanwijzen"
+            "De richting naar de school aanwijzen",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Absoluut situeren is een plaats vastleggen met coördinaten uit het gradennet. Die twee getallen wijzen maar één plek op aarde aan."
@@ -902,7 +912,8 @@
             "Aan de lagen waaruit het landschap is opgebouwd",
             "Aan de mensen die er toevallig wonen",
             "Aan het weer op de dag dat je er toevallig bent",
-            "Aan de naam die de streek gekregen heeft"
+            "Aan de naam die de streek gekregen heeft",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Een landschap bestaat uit lagen die over elkaar liggen: reliëf, klimaat, vegetatie, bodem, ondergrond, water, en daarbovenop wat de mens ermee doet. Verschillen in die lagen maken het verschil."
@@ -1129,7 +1140,8 @@
             "Hoe de mensen de grond gebruiken",
             "Hoe hoog de streek boven de zeespiegel ligt",
             "Welke bodemsoort er in de grond zit",
-            "Hoeveel regen er jaarlijks valt"
+            "Hoeveel regen er jaarlijks valt",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Akkers, huizen, wegen en fabrieken zijn landgebruik: de sociaalgeografische of menselijke lagen van het landschap."

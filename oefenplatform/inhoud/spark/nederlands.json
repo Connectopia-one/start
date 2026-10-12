@@ -12,7 +12,8 @@
             "Het onderwerp",
             "De hoofdgedachte",
             "Het besluit",
-            "De inleiding"
+            "De inleiding",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Het onderwerp is waarover de tekst gaat. Je zegt het in één of enkele woorden: hier 'een fietsband herstellen'."
@@ -105,16 +106,17 @@
             "Afkortingen gebruiken",
             "Symbolen en pijlen gebruiken",
             "In telegramstijl schrijven",
-            "Elke zin volledig overschrijven",
+            "In je eigen woorden schrijven",
             "Alleen de kernwoorden opschrijven"
           ],
           "antwoord": [
             0,
             1,
             2,
+            3,
             4
           ],
-          "uitleg": "Notities mogen kort: afkortingen, symbolen, telegramstijl en kernwoorden. Alles volledig overschrijven lukt niet en helpt niet."
+          "uitleg": "Hier is elk antwoord juist: notities mogen kort zijn en in je eigen woorden. Afkortingen, symbolen, telegramstijl en kernwoorden horen daar alle bij. Elke zin volledig overschrijven lukt niet en helpt niet."
         },
         {
           "type": "invultekst",
@@ -230,7 +232,8 @@
             "Jongeren slapen te weinig door hun gsm, en dat heeft gevolgen op school",
             "Blauw licht bestaat",
             "Jongeren kijken graag naar hun gsm",
-            "Scholen zouden later moeten beginnen"
+            "Scholen zouden later moeten beginnen",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "De hoofdgedachte vat oorzaak én gevolg samen. De andere zinnen zijn een detail of iets wat er niet staat."
@@ -464,7 +467,8 @@
             "Je stap voor stap iets leren doen",
             "Je overtuigen om pannenkoeken te kopen",
             "Zijn mening over pannenkoeken geven",
-            "Een verhaal vertellen"
+            "Een verhaal vertellen",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Een recept is een instructieve tekst: hij legt uit hoe je iets doet, in stappen."
@@ -548,25 +552,27 @@
           "type": "meerkeuze",
           "vraag": "Voor wie een tekst bedoeld is, noem je in het communicatiemodel de ...",
           "opties": [
-            "ontvanger",
+            "afzender",
             "zender",
             "context",
-            "boodschap"
+            "boodschap",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "De ontvanger is het publiek: een vriend, een leerkracht, de lezers van een krant."
+          "antwoord": 4,
+          "uitleg": "Voor wie een tekst bedoeld is, dat is de ontvanger: een vriend, een leerkracht, de lezers van een krant. Dat woord staat er niet bij. De afzender is net wie de boodschap verstuurt."
         },
         {
           "type": "meerkeuze",
           "vraag": "Je stuurt een WhatsAppbericht naar je ploegmaats. Wat is het kanaal?",
           "opties": [
-            "WhatsApp",
+            "Het bericht zelf",
             "Jijzelf",
             "Je ploegmaats",
-            "De training van morgen"
+            "De training van morgen",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "Het kanaal is de weg waarlangs je boodschap gaat: een mail, een blog, een telefoongesprek, een app."
+          "antwoord": 4,
+          "uitleg": "Het kanaal is de weg waarlangs je boodschap gaat: een mail, een blog, een telefoongesprek, een app. Hier is dat WhatsApp, en dat staat er niet bij."
         },
         {
           "type": "waarofniet",
@@ -684,7 +690,8 @@
             "Je leerkracht",
             "Jijzelf",
             "Het telefoongesprek",
-            "De vertraagde bus"
+            "De vertraagde bus",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Jij bent de zender, je leerkracht de ontvanger, de telefoon het kanaal, de vertraagde bus de context."
@@ -918,7 +925,8 @@
             "België telt drie officiële landstalen.",
             "Nederlands is de mooiste taal.",
             "Iedereen zou Frans moeten leren.",
-            "Dialect klinkt gezellig."
+            "Dialect klinkt gezellig.",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Een feit kan je controleren. De drie andere zinnen zijn meningen: daar kan je het mee oneens zijn."
@@ -1032,13 +1040,14 @@
           "type": "meerkeuze",
           "vraag": "Een influencer prijst enthousiast een crème aan en krijgt daarvoor betaald. Wat is die boodschap eigenlijk?",
           "opties": [
-            "Reclame",
+            "Een getuigenis",
             "Nieuws",
             "Een onderzoek",
-            "Een instructie"
+            "Een instructie",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "Wie betaald wordt om iets aan te prijzen, maakt reclame. Daarom moet dat ook aangeduid worden."
+          "antwoord": 4,
+          "uitleg": "Wie betaald wordt om iets aan te prijzen, maakt reclame, en dat woord staat er niet bij. Daarom moet zo'n bericht ook als reclame aangeduid worden."
         },
         {
           "type": "meerkeuze",
@@ -1135,7 +1144,8 @@
             "Waarschijnlijk nepnieuws, bedoeld om bezoekers te lokken",
             "Zeker betrouwbaar nieuws, want anders zou niemand het delen",
             "Een instructieve tekst",
-            "Een literaire tekst"
+            "Een literaire tekst",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Geen zender, een besloten kanaal en een doel dat geld oplevert: drie signalen samen maken het verdacht."
@@ -1419,13 +1429,14 @@
           "type": "meerkeuze",
           "vraag": "Welk verband geeft het woord 'want' aan?",
           "opties": [
-            "Een reden",
+            "Een gevolg",
             "Een tegenstelling",
             "Een opsomming",
-            "Een tijd"
+            "Een tijd",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "'Want' en 'omdat' geven de reden: 'Ik neem de fiets, want de bus is te laat.'"
+          "antwoord": 4,
+          "uitleg": "'Want' en 'omdat' geven de reden: 'Ik neem de fiets, want de bus is te laat.' Dat woord staat er niet bij. Een gevolg kondig je aan met 'dus'."
         },
         {
           "type": "meerkeuze",

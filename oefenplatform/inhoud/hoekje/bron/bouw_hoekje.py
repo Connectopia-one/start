@@ -21,6 +21,9 @@ import pathlib
 import sys
 
 HIER = pathlib.Path(__file__).parent
+sys.path.insert(0, str(HIER.parents[1]))
+
+from notatie import sluitend  # noqa: E402  (pad moet eerst klaarstaan)
 UIT = HIER.parent
 NIVEAU = "hoekje"
 
@@ -68,8 +71,12 @@ def gokpatronen(vragen):
     for v in mk:
         antw = v["antwoord"] if isinstance(v["antwoord"], list) else [v["antwoord"]]
         lengtes = [len(o) for o in (v.get("opties") or [""])]
-        anders = [lengtes[i] for i in range(len(lengtes)) if i not in antw]
-        if anders and min(lengtes[i] for i in antw) > max(anders) + SPELING:
+        # "Geen van deze antwoorden" is bijna altijd de langste optie, en die
+        # lengte zegt niets over de inhoud. Zulke opties blijven hier buiten.
+        vrij = [i for i, o in enumerate((v.get("opties") or [""])) if not sluitend(o)]
+        juist = [i for i in antw if i in vrij]
+        anders = [lengtes[i] for i in vrij if i not in antw]
+        if juist and anders and min(lengtes[i] for i in juist) > max(anders) + SPELING:
             langst += 1
     if mk and langst > GRENS_LANGSTE * len(mk):
         meldingen.append(

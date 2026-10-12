@@ -12,7 +12,8 @@
             "De grondstoffen",
             "De legeringen die in een fabriek gemaakt worden",
             "De kunstmatige materialen uit de scheikunde",
-            "De afgewerkte producten die in de winkel liggen"
+            "De afgewerkte producten die in de winkel liggen",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Een grondstof haal je uit de natuur. Daar maak je een materiaal van, en van dat materiaal een product: van ijzererts maak je staal, en van staal een spijker."
@@ -97,15 +98,16 @@
             "Koper",
             "Lood",
             "Zink",
-            "Gietijzer"
+            "Tin"
           ],
           "antwoord": [
             0,
             1,
             2,
-            3
+            3,
+            4
           ],
-          "uitleg": "Non-ferro betekent zonder ijzer. Aluminium, koper, lood en zink bevatten geen ijzer. Gietijzer wel, dat is een ferrometaal."
+          "uitleg": "Hier is elk antwoord juist: non-ferro betekent zonder ijzer, en aluminium, koper, lood, zink en tin bevatten alle vijf geen ijzer. Gietijzer en staal zijn wel ferrometalen."
         },
         {
           "type": "waarofniet",
@@ -117,13 +119,14 @@
           "type": "meerkeuze",
           "vraag": "Welk van deze materialen is kunstmatig?",
           "opties": [
-            "Composiet",
+            "Graniet",
             "Marmer",
             "Leder",
-            "Hout"
+            "Hout",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "Composiet, kunststof en keramische materialen worden door de mens gemaakt. Marmer, leder en hout komen uit de natuur."
+          "antwoord": 4,
+          "uitleg": "Composiet, kunststof en keramische materialen worden door de mens gemaakt, en geen van die drie staat er bij. Marmer, graniet, leder en hout komen uit de natuur."
         },
         {
           "type": "waarofniet",
@@ -171,13 +174,14 @@
           "type": "meerkeuze",
           "vraag": "Welke stof is géén metaal?",
           "opties": [
-            "Steen",
+            "Zink",
             "Koper",
             "Lood",
-            "Aluminium"
+            "Aluminium",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "Steen is een niet-metaal. Koper, lood en aluminium zijn alle drie metalen, en alle drie non-ferrometalen."
+          "antwoord": 4,
+          "uitleg": "Koper, lood, aluminium en zink zijn alle vier metalen, en alle vier non-ferrometalen. Er staat dus geen niet-metaal bij."
         },
         {
           "type": "meerkeuze",
@@ -227,7 +231,8 @@
             "Bij de mechanische",
             "Bij de elektrische",
             "Bij de magnetische",
-            "Bij de technologische"
+            "Bij de technologische",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Hardheid hoort bij de mechanische eigenschappen, samen met elasticiteit, treksterkte, taaiheid, broosheid en gewicht. Dat zijn de eigenschappen die met kracht te maken hebben."
@@ -324,13 +329,14 @@
           "type": "meerkeuze",
           "vraag": "Een materiaal dat veel kan verdragen voor het breekt, noemen we ...",
           "opties": [
-            "Taai",
+            "Stevig",
             "Broos",
             "Hard",
-            "Zwaar"
+            "Zwaar",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "Taaiheid is het tegengestelde van broosheid. Een taai materiaal vervormt eerst en breekt pas daarna."
+          "antwoord": 4,
+          "uitleg": "Een materiaal dat veel kan verdragen voor het breekt, is taai, en dat woord staat er niet bij. Taaiheid is het tegengestelde van broosheid: een taai materiaal vervormt eerst en breekt pas daarna."
         },
         {
           "type": "meerkeuze",
@@ -388,13 +394,14 @@
           "type": "meerkeuze",
           "vraag": "Bij welke groep eigenschappen hoort de warmtegeleiding?",
           "opties": [
-            "Bij de fysische",
+            "Bij de elektrische",
             "Bij de mechanische",
             "Bij de magnetische",
-            "Bij de technologische"
+            "Bij de technologische",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "Warmtegeleiding is een fysische eigenschap, samen met massadichtheid, smeltpunt en stolpunt."
+          "antwoord": 4,
+          "uitleg": "Warmtegeleiding is een fysische eigenschap, samen met massadichtheid, smeltpunt en stolpunt. Die groep staat er niet bij."
         },
         {
           "type": "invultekst",
@@ -674,7 +681,8 @@
             "De bron raakt niet op",
             "De bron is altijd goedkoper dan een andere bron",
             "De energie kan alleen in de zomermaanden gebruikt worden",
-            "De energie komt altijd uit een ander land dan het onze"
+            "De energie komt altijd uit een ander land dan het onze",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "De zon blijft schijnen, de wind blijft waaien en het water blijft stromen. Daarom heet die energie hernieuwbaar of duurzaam."
@@ -886,7 +894,8 @@
             "Hij opent of sluit de kring",
             "Hij maakt de stroom sterker dan daarvoor",
             "Hij zet elektrische stroom om in licht",
-            "Hij meet hoeveel stroom er door de kring loopt"
+            "Hij meet hoeveel stroom er door de kring loopt",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Een schakelaar onderbreekt de kring of maakt ze weer rond. Meer doet hij niet: hij verandert niets aan de stroom zelf."
@@ -1088,7 +1097,8 @@
             "De volt",
             "De ampère",
             "De ohm",
-            "De watt"
+            "De watt",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Spanning draagt het symbool U en wordt gemeten in volt (V). Stroomsterkte is ampère, weerstand is ohm en vermogen is watt."
@@ -1310,7 +1320,8 @@
             "Hij meet iets in de omgeving",
             "Hij voert zelf een beweging uit",
             "Hij slaat de gegevens van het systeem op",
-            "Hij verdeelt de stroom over de onderdelen"
+            "Hij verdeelt de stroom over de onderdelen",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Een sensor voelt iets: licht, beweging, druk, geluid. Hij geeft dat door aan de verwerking als een signaal."

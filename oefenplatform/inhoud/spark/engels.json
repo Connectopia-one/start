@@ -12,7 +12,8 @@
             "de nieuwe fietsenstalling",
             "dat fietsen gezond is",
             "de openingsuren van de school",
-            "de mening van de schrijver"
+            "de mening van de schrijver",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "A bike shed = een fietsenstalling. Het onderwerp zeg je in één of enkele woorden: waarover gaat de tekst? Hier over de nieuwe stalling."
@@ -222,7 +223,8 @@
             "opruimen op de speelplaats",
             "dat plastic slecht is",
             "de vrijdag op school",
-            "de klas van de schrijver"
+            "de klas van de schrijver",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "To pick up = oprapen, a bag = een zak. Het onderwerp vat in enkele woorden samen waarover de tekst gaat."
@@ -380,13 +382,14 @@
           "type": "meerkeuze",
           "vraag": "Je leest: 'Nobody knew the answer, not even the teacher.' Wat betekent 'nobody'?",
           "opties": [
-            "niemand",
+            "nergens",
             "iedereen",
             "iemand",
-            "iets"
+            "iets",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "Nobody = niemand. Vergelijk: somebody (iemand), everybody (iedereen), anybody (om het even wie)."
+          "antwoord": 4,
+          "uitleg": "Nobody = niemand, en dat woord staat er niet bij. Vergelijk: somebody (iemand), everybody (iedereen), anybody (om het even wie)."
         },
         {
           "type": "meerkeuze",
@@ -432,7 +435,8 @@
             "een informatieve tekst",
             "een opiniërende tekst",
             "een prescriptieve tekst",
-            "een literaire tekst"
+            "een literaire tekst",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Een informatieve tekst geeft je informatie over een onderwerp. De fiche noemt een krantenartikel, een stukje uit een leerboek en een interview."
@@ -553,13 +557,14 @@
           "type": "meerkeuze",
           "vraag": "Je leest: 'We stayed at home because the weather was bad.' Welke functie heeft 'because'?",
           "opties": [
-            "oorzaak",
+            "gevolg",
             "tegenstelling",
             "opsomming",
-            "chronologisch verloop"
+            "chronologisch verloop",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "Because = omdat, en het geeft de reden. Let op het verschil met 'so' (dus), dat het gevolg aankondigt."
+          "antwoord": 4,
+          "uitleg": "Because = omdat, en het geeft de reden, dus de oorzaak. Dat woord staat er niet bij. Let op het verschil met 'so' (dus), dat net het gevolg aankondigt."
         },
         {
           "type": "invultekst",
@@ -651,7 +656,8 @@
             "een opiniërende tekst",
             "een prescriptieve tekst",
             "een narratieve tekst",
-            "een literaire tekst"
+            "een literaire tekst",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "'Needs' zegt wat de schrijver vindt dat er moet gebeuren. Dat is een mening, geen feit."
@@ -714,16 +720,17 @@
             "first of all",
             "secondly",
             "in addition",
-            "however",
+            "moreover",
             "furthermore"
           ],
           "antwoord": [
             0,
             1,
             2,
+            3,
             4
           ],
-          "uitleg": "In addition en furthermore betekenen allebei bovendien. However = echter en kondigt net een tegenstelling aan, geen opsomming."
+          "uitleg": "Hier is elk woord juist: first of all, secondly, in addition, furthermore en moreover kondigen alle vijf een opsomming aan. In addition, furthermore en moreover betekenen alle drie bovendien."
         },
         {
           "type": "meerkeuze",
@@ -862,13 +869,14 @@
           "type": "meerkeuze",
           "vraag": "Je schrijft een mail aan de directeur van een school die je niet kent. Hoe begin je?",
           "opties": [
-            "Dear Mr Jones,",
+            "Dear friend Jones,",
             "Hi mate!",
             "Hey you,",
-            "Yo!"
+            "Yo!",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "Bij iemand die je niet kent gebruik je een neutraal register: Dear + Mr, Mrs of Ms en de familienaam. 'Mate' kan alleen bij vrienden."
+          "antwoord": 4,
+          "uitleg": "Bij iemand die je niet kent gebruik je een neutraal register: Dear + Mr, Mrs of Ms en de familienaam, dus Dear Mr Jones. Die vorm staat er niet bij. 'Mate' en 'friend' kunnen alleen bij vrienden."
         },
         {
           "type": "meerkeuze",
@@ -877,7 +885,8 @@
             "Kind regards,",
             "See ya!",
             "Bye bye!",
-            "Later!"
+            "Later!",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Kind regards of Best regards zijn neutraal. 'See ya' en 'Later' zijn spreektaal en horen in een bericht aan een vriend."
@@ -1084,7 +1093,8 @@
             "als je de naam van de lezer niet kent",
             "als je met een vriend schrijft",
             "als je aan je broer schrijft",
-            "als je aan jezelf schrijft"
+            "als je aan jezelf schrijft",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Dear Sir or Madam is de formele aanhef als je de naam niet kent. Ken je ze wel, dan schrijf je Dear Mrs Clarke."
@@ -1243,13 +1253,14 @@
           "type": "meerkeuze",
           "vraag": "Je schrijft over je vorige vakantie. Welke tijd gebruik je vooral?",
           "opties": [
-            "de past simple",
+            "de present continuous",
             "de present simple",
             "de future simple",
-            "de imperative"
+            "de imperative",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "De past simple is voor wat gebeurd en afgelopen is: 'We went to Spain. I swam every day.' Let op signaalwoorden als last year of ago."
+          "antwoord": 4,
+          "uitleg": "De past simple is voor wat gebeurd en afgelopen is: 'We went to Spain. I swam every day.' Die tijd staat er niet bij. Let op signaalwoorden als last year of ago."
         },
         {
           "type": "waarofniet",

@@ -17,9 +17,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat maakt een plant zelf aan met behulp van zonlicht?",
-        opties=["Suiker (glucose)", "Zout", "IJzer"],
-        antwoord=0,
-        uitleg="Bij de fotosynthese maakt een plant glucose. Dat is een energierijke stof: er zit energie in die uit het zonlicht komt.",
+        opties=[
+            "Kalk",
+            "Zout",
+            "IJzer",
+            "Geen van deze antwoorden",
+        ],
+        antwoord=3,
+        uitleg="Bij de fotosynthese maakt een plant glucose, dus suiker, en dat staat er niet bij. Het is een energierijke stof: er zit energie in die uit het zonlicht komt.",
     ),
     dict(
         type="meerkeuze",
@@ -37,7 +42,12 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="In welk plantendeel gebeurt de fotosynthese vooral?",
-        opties=["In het blad", "In de wortel", "In de bloem"],
+        opties=[
+            "In het blad",
+            "In de wortel",
+            "In de bloem",
+            "Geen van deze antwoorden",
+        ],
         antwoord=0,
         uitleg="Bladeren liggen breed uitgespreid in het licht en zitten vol bladgroenkorrels. Daar gebeurt het grootste deel van de fotosynthese.",
     ),
@@ -175,6 +185,7 @@ DEEL2 = [
             "Van de wortels via de stengel naar de bladeren",
             "Van de bladeren via de stengel naar de wortels",
             "Van de bloem rechtstreeks naar de wortels",
+            "Geen van deze antwoorden",
         ],
         antwoord=0,
         uitleg="Water gaat omhoog: opgenomen door de wortels, door het transportweefsel van de stengel, tot in de bladeren. Daar wordt het gebruikt of het verdampt via de huidmondjes.",

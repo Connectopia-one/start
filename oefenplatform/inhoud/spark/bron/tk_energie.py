@@ -234,6 +234,7 @@ DEEL2 = [
             "De bron is altijd goedkoper dan een andere bron",
             "De energie kan alleen in de zomermaanden gebruikt worden",
             "De energie komt altijd uit een ander land dan het onze",
+            "Geen van deze antwoorden",
         ],
         antwoord=0,
         uitleg="De zon blijft schijnen, de wind blijft waaien en het water blijft stromen. Daarom heet die energie hernieuwbaar of duurzaam.",

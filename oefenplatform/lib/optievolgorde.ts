@@ -38,6 +38,35 @@ function teller(begin: number): () => number {
   };
 }
 
+/**
+ * Opties die hun betekenis verliezen zodra ze niet onderaan staan.
+ *
+ * Febe, een tester die zich op de Examencommissie voorbereidt, stelde op
+ * 12 oktober 2026 voor om ook vragen te maken waarbij geen enkel of net elk
+ * antwoord juist is. Dat maakt gokken een stuk moeilijker: wie het aantal juiste
+ * antwoorden niet meer kan afleiden, moet de opties echt één per één nagaan.
+ *
+ * Maar "Geen van deze antwoorden" in het midden van een lijst is onzin. Daarom
+ * blijven deze opties staan waar ze horen: het schudden gebeurt met de andere
+ * opties, en deze schuiven achteraan aan, in dezelfde volgorde als in het
+ * bestand.
+ */
+const SLUITENDE_OPTIES = [
+  "geen van deze",
+  "geen van bovenstaande",
+  "geen enkel van deze",
+  "geen van de bovenstaande",
+  "alle bovenstaande",
+  "allemaal juist",
+  "alle antwoorden",
+];
+
+/** Of een optie onderaan moet blijven staan. */
+export function sluitendeOptie(optie: string): boolean {
+  const schoon = optie.trim().toLowerCase().replace(/[.!?]+$/, "");
+  return SLUITENDE_OPTIES.some((v) => schoon.startsWith(v));
+}
+
 export type SchikbareVraag = {
   id: string;
   type: string;
@@ -89,11 +118,19 @@ export function schikOpties<T extends SchikbareVraag>(
   }
 
   const volgend = teller(zaad(zaadTekst ?? vraag.id));
-  const volgorde = opties.map((_, i) => i);
+  // Eerst de opties die mogen schuiven, daarna de sluitende opties zoals "Geen
+  // van deze antwoorden": die horen onderaan, anders lezen ze als onzin.
+  const volgorde = opties
+    .map((_, i) => i)
+    .filter((i) => !sluitendeOptie(opties[i]));
+  const achteraan = opties
+    .map((_, i) => i)
+    .filter((i) => sluitendeOptie(opties[i]));
   for (let i = volgorde.length - 1; i > 0; i--) {
     const j = Math.floor(volgend() * (i + 1));
     [volgorde[i], volgorde[j]] = [volgorde[j], volgorde[i]];
   }
+  volgorde.push(...achteraan);
 
   return {
     ...vraag,

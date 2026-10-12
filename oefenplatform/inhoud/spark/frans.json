@@ -12,7 +12,8 @@
             "wilde dieren in de zoo",
             "dat wilde dieren niet gelukkig zijn in de zoo",
             "dat dieren gevoelig zijn voor stress",
-            "de schrijver van de tekst"
+            "de schrijver van de tekst",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Sauvage = wild, bouger = bewegen, sensible = gevoelig, le comportement = het gedrag. Het onderwerp zeg je in één of enkele woorden: waarover gaat de tekst? Wat de schrijver ervan vindt, is de hoofdgedachte."
@@ -137,13 +138,14 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent 'la nourriture' in een tekst over Frankrijk?",
           "opties": [
-            "het eten",
+            "het drinken",
             "het land",
             "de natuur",
-            "de nacht"
+            "de nacht",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "La nourriture = het voedsel, het eten. Verwar het niet met 'la nature'."
+          "antwoord": 4,
+          "uitleg": "La nourriture = het voedsel, het eten. Dat woord staat er niet bij. Verwar het niet met 'la nature'."
         },
         {
           "type": "waarofniet",
@@ -253,7 +255,8 @@
             "Jongeren zitten te veel voor een scherm, en dat is slecht voor hen.",
             "Jongeren slapen graag.",
             "Schermen zijn duur.",
-            "Jongeren bewegen veel."
+            "Jongeren bewegen veel.",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "De eerste zin geeft de boodschap; de tweede geeft de gevolgen. Samen: te veel schermtijd is niet goed."
@@ -277,13 +280,14 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent 'malgré'?",
           "opties": [
-            "ondanks",
+            "zonder",
             "omdat",
             "sinds",
-            "tijdens"
+            "tijdens",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "Malgré = ondanks. Het kondigt aan dat er toch iets tegenin gaat."
+          "antwoord": 4,
+          "uitleg": "Malgré = ondanks, en dat woord staat er niet bij. Het kondigt aan dat er toch iets tegenin gaat."
         },
         {
           "type": "meerkeuze",
@@ -334,13 +338,14 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent 'cependant'?",
           "opties": [
-            "nochtans",
+            "daarna",
             "daarom",
             "eerst",
-            "bijvoorbeeld"
+            "bijvoorbeeld",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "Cependant = nochtans, echter. Het kondigt een tegenstelling aan, net als 'pourtant' en 'mais'."
+          "antwoord": 4,
+          "uitleg": "Cependant = nochtans, echter. Dat woord staat er niet bij. Het kondigt een tegenstelling aan, net als 'pourtant' en 'mais'."
         },
         {
           "type": "meerkeuze",
@@ -376,13 +381,14 @@
           "type": "meerkeuze",
           "vraag": "In een uitnodiging staat 'à partir de 14 h'. Wat betekent dat?",
           "opties": [
-            "vanaf 14 uur",
+            "een kwartier voor 14 uur",
             "tot 14 uur",
             "om 4 uur",
-            "gedurende 14 uur"
+            "gedurende 14 uur",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "À partir de = vanaf. 'Jusqu'à' betekent tot."
+          "antwoord": 4,
+          "uitleg": "À partir de = vanaf, dus vanaf 14 uur. Dat staat er niet bij. 'Jusqu'à' betekent tot."
         },
         {
           "type": "meerkeuze",
@@ -492,7 +498,8 @@
             "Hij legt uit hoe je iets moet doen.",
             "Hij geeft een mening.",
             "Hij vertelt een verhaal.",
-            "Hij wil je ontroeren."
+            "Hij wil je ontroeren.",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Couper = snijden, ajouter = toevoegen, mélanger = mengen. Een recept zegt stap voor stap wat je moet doen. De fiche noemt zo'n tekst prescriptief."
@@ -552,16 +559,17 @@
             "een gedicht",
             "een strip",
             "een kortverhaal",
-            "een schoolreglement",
+            "een cartoon",
             "een lied"
           ],
           "antwoord": [
             0,
             1,
             2,
+            3,
             4
           ],
-          "uitleg": "Literaire teksten hebben een esthetische waarde en spelen in op emoties: een lied, een gedicht, een cartoon, een strip, een kortverhaal. Een schoolreglement is prescriptief."
+          "uitleg": "Hier is elk antwoord juist: een lied, een gedicht, een cartoon, een strip en een kortverhaal zijn alle vijf literaire teksten. Ze hebben een esthetische waarde en spelen in op emoties."
         },
         {
           "type": "waarofniet",
@@ -733,7 +741,8 @@
             "opiniërend",
             "prescriptief",
             "informatief",
-            "narratief"
+            "narratief",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "De schrijver geeft zijn mening over de film: ennuyeux = saai, conseiller = aanraden."
@@ -975,7 +984,8 @@
             "Salut !",
             "Madame, Monsieur,",
             "Veuillez agréer…",
-            "Cordialement,"
+            "Cordialement,",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Salut is de losse groet onder vrienden. 'Madame, Monsieur' en 'Veuillez agréer' horen in een formele brief; 'Cordialement' is een slotgroet."
@@ -1227,7 +1237,8 @@
             "Je gebruikt 'je voudrais' in plaats van 'je veux'.",
             "Je schrijft alles in de verleden tijd.",
             "Je laat het werkwoord weg.",
-            "Je gebruikt alleen 'tu'."
+            "Je gebruikt alleen 'tu'.",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Je voudrais, pourriez-vous, j'aimerais: die vormen klinken beleefd. 'Je veux' klinkt kortaf."

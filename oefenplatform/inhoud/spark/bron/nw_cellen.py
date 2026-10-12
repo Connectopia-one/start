@@ -17,7 +17,12 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Waaruit is elk levend wezen opgebouwd?",
-        opties=["Uit cellen", "Uit atomen alleen", "Uit organen alleen"],
+        opties=[
+            "Uit cellen",
+            "Uit atomen alleen",
+            "Uit organen alleen",
+            "Geen van deze antwoorden",
+        ],
         antwoord=0,
         uitleg="De cel is de basiseenheid van het leven. Alles wat leeft, van een bacterie tot een olifant, is uit cellen opgebouwd.",
     ),
@@ -52,9 +57,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="In welk celonderdeel zit de erfelijke informatie van de cel?",
-        opties=["In de celkern", "In het cytoplasma", "In de vacuole"],
-        antwoord=0,
-        uitleg="De celkern bevat het erfelijk materiaal en stuurt van daaruit alles wat in de cel gebeurt.",
+        opties=[
+            "In de celwand",
+            "In het cytoplasma",
+            "In de vacuole",
+            "Geen van deze antwoorden",
+        ],
+        antwoord=3,
+        uitleg="De celkern bevat het erfelijk materiaal en stuurt van daaruit alles wat in de cel gebeurt. De celkern staat er niet bij.",
     ),
     dict(
         type="meerkeuze",
@@ -187,6 +197,7 @@ DEEL2 = [
             "organisme – stelsel – orgaan – weefsel – cel",
             "organisme – orgaan – stelsel – weefsel – cel",
             "stelsel – organisme – orgaan – cel – weefsel",
+            "Geen van deze antwoorden",
         ],
         antwoord=0,
         uitleg="Van afnemende complexiteit: het hele organisme, dan zijn stelsels, daarin de organen, daarin de weefsels, en die bestaan uit cellen met celonderdelen.",

@@ -41,3 +41,28 @@ def zonder_notatie(tekst: str) -> str:
     tekst = MARKERING.sub(" ", tekst)
     tekst = COMMANDO.sub(" ", tekst)
     return tekst.replace("{", " ").replace("}", " ")
+
+
+# Opties die hun betekenis verliezen zodra ze niet onderaan staan, en waarvan
+# de lengte dus niets over de inhoud zegt. Febe, een tester die zich op de
+# Examencommissie voorbereidt, stelde op 12 oktober 2026 voor om ook vragen te
+# maken waarbij geen enkel of net elk antwoord juist is. "Geen van deze
+# antwoorden" is bijna altijd de langste optie, dus zou de controle op het
+# langste antwoord bij elke zo'n vraag afgaan. Daarom blijft die optie bij het
+# meten van de lengtes buiten beschouwing; dat ze er staat, wordt apart geteld.
+# Dezelfde lijst staat in lib/optievolgorde.ts, die ze onderaan houdt.
+SLUITENDE_OPTIES = (
+    "geen van deze",
+    "geen van bovenstaande",
+    "geen enkel van deze",
+    "geen van de bovenstaande",
+    "alle bovenstaande",
+    "allemaal juist",
+    "alle antwoorden",
+)
+
+
+def sluitend(optie: str) -> bool:
+    """Of deze optie onderaan de lijst hoort te blijven staan."""
+    schoon = optie.strip().lower().rstrip(".!?")
+    return schoon.startswith(SLUITENDE_OPTIES)

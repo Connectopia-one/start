@@ -18,7 +18,12 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Waarvoor heeft je lichaam voedsel nodig?",
-        opties=["Als brandstof, als bouwstof en als beschermstof", "Alleen om je maag te vullen zodat je geen honger hebt", "Alleen om warm te blijven"],
+        opties=[
+            "Als brandstof, als bouwstof en als beschermstof",
+            "Alleen om je maag te vullen zodat je geen honger hebt",
+            "Alleen om warm te blijven",
+            "Geen van deze antwoorden",
+        ],
         antwoord=0,
         uitleg="Voedingsstoffen zijn brandstof (energie), bouwstof (groeien en herstellen) of beschermstof (goed blijven werken, zoals vitaminen en mineralen).",
     ),
@@ -107,9 +112,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welk orgaan maakt urine?",
-        opties=["De nier", "De blaas", "De lever"],
-        antwoord=0,
-        uitleg="De nieren filteren afvalstoffen uit het bloed en maken daar urine van. De blaas bewaart die urine alleen maar tot je naar het toilet gaat.",
+        opties=[
+            "De milt",
+            "De blaas",
+            "De lever",
+            "Geen van deze antwoorden",
+        ],
+        antwoord=3,
+        uitleg="De nieren filteren afvalstoffen uit het bloed en maken daar urine van, en de nier staat er niet bij. De blaas bewaart die urine alleen maar tot je naar het toilet gaat.",
     ),
     dict(
         type="meerkeuze",
@@ -146,9 +156,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke voedingsstoffen zijn vooral bouwstoffen?",
-        opties=["Eiwitten", "Suikers", "Vitaminen"],
-        antwoord=0,
-        uitleg="Eiwitten leveren de bouwstenen voor spieren, huid en bloed. Suikers en vetten zijn vooral brandstof; vitaminen en mineralen zijn beschermstoffen.",
+        opties=[
+            "Vetten",
+            "Suikers",
+            "Vitaminen",
+            "Geen van deze antwoorden",
+        ],
+        antwoord=3,
+        uitleg="Eiwitten leveren de bouwstenen voor spieren, huid en bloed, en die staan er niet bij. Suikers en vetten zijn vooral brandstof, vitaminen en mineralen zijn beschermstoffen.",
     ),
     dict(
         type="meerkeuze",
@@ -173,6 +188,7 @@ DEEL2 = [
             "Eiwitten worden aminozuren",
             "Eiwitten worden glucose",
             "Eiwitten worden glycerol en vetzuren",
+            "Geen van deze antwoorden",
         ],
         antwoord=0,
         uitleg="Eiwitten worden afgebroken tot aminozuren, suikers zoals zetmeel tot glucose, en vetten tot glycerol en drie vetzuren.",

@@ -23,7 +23,8 @@
           "opties": [
             "\\(-8\\)",
             "\\(-3\\)",
-            "\\(2\\)"
+            "\\(2\\)",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Bij negatieve getallen is het grootste cijfer juist het kleinste getal. \\(-8\\) ligt het verst links."
@@ -32,23 +33,25 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel is \\(-5 + 8\\)?",
           "opties": [
-            "\\(3\\)",
+            "\\(4\\)",
             "\\(-3\\)",
-            "\\(13\\)"
+            "\\(13\\)",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "Je begint bij \\(-5\\) en gaat \\(8\\) naar rechts. Je passeert de nul en komt op \\(3\\) uit."
+          "antwoord": 3,
+          "uitleg": "Je begint bij \\(-5\\) en gaat \\(8\\) naar rechts. Je passeert de nul en komt op \\(3\\) uit, en dat getal staat er niet bij."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoeveel is \\(4 - 9\\)?",
           "opties": [
-            "\\(-5\\)",
+            "\\(-4\\)",
             "\\(5\\)",
-            "\\(-13\\)"
+            "\\(-13\\)",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "Je gaat \\(9\\) stappen naar links vanaf \\(4\\). Na \\(4\\) stappen sta je op \\(0\\), en dan nog \\(5\\) verder: \\(-5\\)."
+          "antwoord": 3,
+          "uitleg": "Je gaat \\(9\\) stappen naar links vanaf \\(4\\). Na \\(4\\) stappen sta je op \\(0\\), en dan nog \\(5\\) verder: \\(-5\\). Dat getal staat er niet bij."
         },
         {
           "type": "meerkeuze",
@@ -71,23 +74,25 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel is \\(-3 \\cdot 4\\)?",
           "opties": [
-            "\\(-12\\)",
+            "\\(-11\\)",
             "\\(12\\)",
-            "\\(-7\\)"
+            "\\(-7\\)",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "Min maal plus geeft min. Drie keer vier is twaalf, met een minteken ervoor."
+          "antwoord": 3,
+          "uitleg": "Min maal plus geeft min. Drie keer vier is twaalf, met een minteken ervoor: \\(-12\\). Dat staat er niet bij."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoeveel is \\(-6 \\cdot -2\\)?",
           "opties": [
-            "\\(12\\)",
+            "\\(-4\\)",
             "\\(-12\\)",
-            "\\(-8\\)"
+            "\\(-8\\)",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "Min maal min geeft plus. Dat is de regel die het vaakst fout gaat."
+          "antwoord": 3,
+          "uitleg": "Min maal min geeft plus, dus \\(-6 \\cdot -2 = 12\\). Dat getal staat er niet bij, en net die regel gaat het vaakst fout."
         },
         {
           "type": "waarofniet",
@@ -422,7 +427,8 @@
           "opties": [
             "\\(0\\)",
             "\\(7\\)",
-            "\\(-3\\)"
+            "\\(-3\\)",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 2,
           "uitleg": "De natuurlijke getallen zijn \\(0\\), \\(1\\), \\(2\\), \\(3\\), … Negatieve getallen horen er niet bij."
@@ -657,7 +663,8 @@
           "opties": [
             "\\(1\\)",
             "\\(0\\)",
-            "\\(-1\\)"
+            "\\(-1\\)",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Neutraal betekent: het verandert niets. \\(a \\cdot 1 = a\\). Bij optellen is \\(0\\) het neutraal element."
@@ -848,7 +855,8 @@
           "opties": [
             "De opgave nog eens lezen en opschrijven wat je weet en wat je zoekt",
             "Alle getallen die je ziet bij elkaar optellen",
-            "Naar de volgende vraag gaan"
+            "Naar de volgende vraag gaan",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "De eerste stap is altijd: begrijp het probleem. Pas als je weet wat gegeven is en wat gevraagd wordt, kan je een plan maken."
@@ -1642,7 +1650,8 @@
           "opties": [
             "Een rechte hoek",
             "Een scherpe hoek",
-            "Een stompe hoek"
+            "Een stompe hoek",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "De hoek van een blad is \\(90^{\\circ}\\), en dat heet een rechte hoek. Kleiner dan \\(90^{\\circ}\\) is scherp, groter dan \\(90^{\\circ}\\) is stomp."
@@ -2416,7 +2425,8 @@
           "opties": [
             "Ze wordt vier keer zo groot",
             "Ze wordt dubbel zo groot",
-            "Ze blijft gelijk"
+            "Ze blijft gelijk",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Een vierkant van \\(3\\) cm heeft oppervlakte \\(9\\,\\text{cm}^{2}\\), een van \\(6\\) cm heeft \\(36\\,\\text{cm}^{2}\\). Dat is vier keer zo veel, want allebei de afmetingen verdubbelen."

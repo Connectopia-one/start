@@ -36,7 +36,7 @@ import pathlib
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
-from notatie import zichtbaar  # noqa: E402  (pad moet eerst klaarstaan)
+from notatie import sluitend, zichtbaar  # noqa: E402  (pad moet eerst klaarstaan)
 
 HIER = pathlib.Path(__file__).parent
 SPELING = 5          # letters verschil die niet meetellen
@@ -47,6 +47,12 @@ WAAR_ONDER, WAAR_BOVEN = 0.35, 0.65
 # 60 laat ademruimte zonder dat je erop kan gokken.
 GRENS_AANTAL = 0.6
 MINIMUM_AANKRUIS = 8   # minder dan dit zegt een percentage niets
+# Bij hoeveel van de vragen waar "Geen van deze antwoorden" tussen de opties
+# staat, mag die optie hoogstens het juiste antwoord zijn? Staat ze er enkel
+# bij als ze juist is, dan verklapt haar aanwezigheid het antwoord. Ze hoort er
+# dus even vaak als afleider bij te staan.
+GRENS_SLUITEND = 0.5
+MINIMUM_SLUITEND = 6
 
 
 def beurten(hoofdstuk):
@@ -72,9 +78,23 @@ def tel(hoofdstuk):
     for v in mk:
         antw = v["antwoord"] if isinstance(v["antwoord"], list) else [v["antwoord"]]
         lengtes = [len(zichtbaar(o)) for o in (v.get("opties") or [""])]
-        anders = [lengtes[i] for i in range(len(lengtes)) if i not in antw]
-        if anders and min(lengtes[i] for i in antw) > max(anders) + SPELING:
+        # "Geen van deze antwoorden" is bijna altijd de langste optie, en die
+        # lengte zegt niets over de inhoud. Zulke opties blijven hier buiten.
+        vrij = [i for i, o in enumerate((v.get("opties") or [""])) if not sluitend(o)]
+        juist = [i for i in antw if i in vrij]
+        anders = [lengtes[i] for i in vrij if i not in antw]
+        if juist and anders and min(lengtes[i] for i in juist) > max(anders) + SPELING:
             langst += 1
+    # Hoe vaak is "Geen van deze antwoorden" ook écht het juiste antwoord?
+    sluit_totaal = sluit_juist = 0
+    for v in mk:
+        plaatsen = [i for i, o in enumerate(v.get("opties") or []) if sluitend(o)]
+        if not plaatsen:
+            continue
+        sluit_totaal += 1
+        antw = v["antwoord"] if isinstance(v["antwoord"], list) else [v["antwoord"]]
+        if any(i in antw for i in plaatsen):
+            sluit_juist += 1
     wn = [v["antwoord"] for v in vragen if v["type"] == "waarofniet"]
     # Hoeveel antwoorden zijn er juist bij de vragen met aankruisvakjes? Een
     # vraag met één juist antwoord heeft rondjes en hoort hier niet bij.
@@ -83,17 +103,18 @@ def tel(hoofdstuk):
         antw = v["antwoord"]
         if isinstance(antw, list) and len(antw) > 1:
             aantallen[len(antw)] = aantallen.get(len(antw), 0) + 1
-    return langst, len(mk), sum(1 for a in wn if a), len(wn), aantallen
+    return langst, len(mk), sum(1 for a in wn if a), len(wn), aantallen, sluit_juist, sluit_totaal
 
 
 def controleer(pad):
     data = json.loads(pathlib.Path(pad).read_text(encoding="utf-8"))
     meldingen = []
-    tl = tm = tw = tt = 0
+    tl = tm = tw = tt = sj = st = 0
     totaal_aantallen = {}
     for h in data.get("hoofdstukken", []):
-        langst, mk, waar, wn, aantallen = tel(h)
+        langst, mk, waar, wn, aantallen, sluit_juist, sluit_totaal = tel(h)
         tl, tm, tw, tt = tl + langst, tm + mk, tw + waar, tt + wn
+        sj, st = sj + sluit_juist, st + sluit_totaal
         for k, n in aantallen.items():
             totaal_aantallen[k] = totaal_aantallen.get(k, 0) + n
         if mk and langst > GRENS_LANGSTE * mk:
@@ -119,7 +140,13 @@ def controleer(pad):
                     f"zijn er precies {k} antwoorden juist. Dan weet een kind na "
                     f"een paar vragen hoeveel het er moet aanduiden."
                 )
-    return (tl, tm, tw, tt, totaal_aantallen), meldingen
+    if st >= MINIMUM_SLUITEND and sj > GRENS_SLUITEND * st:
+        meldingen.append(
+            f"over het hele vak: bij {sj} van de {st} vragen met \"Geen van deze "
+            f"antwoorden\" erbij is die optie ook het juiste antwoord. Zet ze er "
+            f"vaker bij als afleider."
+        )
+    return (tl, tm, tw, tt, totaal_aantallen, sj, st), meldingen
 
 
 def main():
@@ -144,7 +171,7 @@ def main():
         )
     mis = 0
     for pad in paden:
-        (tl, tm, tw, tt, aantallen), meldingen = controleer(pad)
+        (tl, tm, tw, tt, aantallen, sj, st), meldingen = controleer(pad)
         if not tm and not tt:
             continue
         naam = pathlib.Path(pad).name
@@ -156,9 +183,10 @@ def main():
             if aankruis
             else "-"
         )
+        geen = f"{sj}/{st}" if st else "-"
         print(
             f"{naam:38} langste antwoord {langste:>4}   waar {waar:>4}"
-            f"   aankruis {verdeling}"
+            f"   aankruis {verdeling}   geen-van-deze {geen}"
         )
         for m in meldingen:
             print("   -", m)

@@ -12,7 +12,8 @@
             "Het geheel van wat iemand tot die persoon maakt",
             "Het nummer dat op iemands identiteitskaart staat",
             "Het beroep dat iemand later wil doen",
-            "De school waar iemand elke dag naartoe gaat"
+            "De school waar iemand elke dag naartoe gaat",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Je identiteit is alles samen wat jou tot jou maakt: je lichaam, je karakter, je afkomst, de groepen waar je bij hoort. Je identiteitskaart is maar een document."
@@ -228,7 +229,8 @@
             "Over de groepen waar je deel van uitmaakt",
             "Over je karakter en je gewoontes",
             "Over je lengte en je leeftijd",
-            "Over het beeld dat anderen van je hebben"
+            "Over het beeld dat anderen van je hebben",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Groepsidentiteit gaat over het samen: je streek of land, de groepen waar je bij hoort, en de subculturen waarin je je thuis voelt."
@@ -357,13 +359,14 @@
           "type": "meerkeuze",
           "vraag": "Een klas zamelt geld in voor een medeleerling van wie het huis is afgebrand. Wat zie je hier?",
           "opties": [
-            "Solidariteit",
+            "Groepsdruk",
             "Discriminatie",
             "Wij-zij-denken",
-            "Machtsmisbruik"
+            "Machtsmisbruik",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "Ze steunen iemand zonder er zelf iets bij te winnen. Dat is solidariteit."
+          "antwoord": 4,
+          "uitleg": "Ze steunen iemand zonder er zelf iets bij te winnen. Dat is solidariteit, en dat woord staat er niet bij."
         },
         {
           "type": "meerkeuze",
@@ -442,7 +445,8 @@
             "Eén jongen wordt uitgelachen door een groepje",
             "Een groepje jongens oefent samen een dansje in",
             "Twee jongens leggen een ruzie tussen hen bij",
-            "Een groepje jongens wacht tot de bel gaat"
+            "Een groepje jongens wacht tot de bel gaat",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Eén jongen kijkt naar de grond terwijl er naar hem gewezen wordt en anderen lachen. De aandacht is op hem gericht, en hij lacht als enige niet mee."
@@ -668,7 +672,8 @@
             "Dat mensen in een samenleving van elkaar verschillen",
             "Dat mensen in een samenleving allemaal gelijk zijn",
             "Dat iedereen in een land dezelfde taal spreekt",
-            "Dat mensen uit hetzelfde land moeten komen"
+            "Dat mensen uit hetzelfde land moeten komen",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Diversiteit is de verscheidenheid tussen mensen: in afkomst, geloof, geld, gezin, wie ze graag zien. Iedereen is anders, en dat is normaal."
@@ -784,13 +789,14 @@
           "type": "meerkeuze",
           "vraag": "Iemand krijgt een stage niet omdat zijn naam buitenlands klinkt. Wat is dat?",
           "opties": [
-            "Discriminatie",
+            "Een vergissing van de werkgever",
             "Groepsdruk",
             "Een meningsverschil",
-            "Een gewone sollicitatie"
+            "Een gewone sollicitatie",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "Hij wordt slechter behandeld om een kenmerk dat niets met de stage te maken heeft. Dat is discriminatie, en ze is bij wet verboden."
+          "antwoord": 4,
+          "uitleg": "Hij wordt slechter behandeld om een kenmerk dat niets met de stage te maken heeft. Dat is discriminatie, en dat woord staat er niet bij. Discriminatie is bij wet verboden."
         },
         {
           "type": "meerkeuze",
@@ -844,16 +850,17 @@
             "Toestemming: allebei akkoord en allebei goed erbij",
             "Vrijwillig: niemand zet de ander onder druk",
             "Gelijkwaardigheid: er is geen machtsverschil",
-            "Snelheid: hoe sneller het gaat, hoe beter",
+            "Passend in de situatie: tijd en plaats kloppen",
             "Passend bij de leeftijd van allebei"
           ],
           "antwoord": [
             0,
             1,
             2,
+            3,
             4
           ],
-          "uitleg": "De fiche noemt toestemming, vrijwilligheid, gelijkwaardigheid, passend bij de leeftijd, passend in de situatie en zelfrespect. Snelheid staat er niet bij."
+          "uitleg": "Hier is elk antwoord juist: de fiche noemt toestemming, vrijwilligheid, gelijkwaardigheid, passend bij de leeftijd, passend in de situatie en zelfrespect."
         },
         {
           "type": "waarofniet",
@@ -911,7 +918,8 @@
             "Zorgen voor veiligheid",
             "De toestand van het slachtoffer beoordelen",
             "Gespecialiseerde hulp raadplegen",
-            "Verdere eerste hulp verlenen"
+            "Verdere eerste hulp verlenen",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Eerst veiligheid: voor jezelf, voor het slachtoffer en voor de omstaanders. Een tweede slachtoffer helpt niemand vooruit."
@@ -1124,7 +1132,8 @@
             "Stevige slagen met de hiel van je hand tussen de schouderbladen",
             "Zachte tikjes in de nek om iemand rustiger te laten worden",
             "Stevige slagen op de onderrug om iemand rechtop te helpen",
-            "Vriendelijke klopjes op de rug om iemand aan te moedigen"
+            "Vriendelijke klopjes op de rug om iemand aan te moedigen",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Bij een ernstige verslikking geef je vijf stevige slagen met de hiel van je hand tussen de schouderbladen, om het voorwerp los te maken."
@@ -1344,13 +1353,14 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent democratie, letterlijk?",
           "opties": [
-            "Het volk regeert",
+            "De stad regeert",
             "De koning regeert over het volk",
             "De rijkste mensen regeren mee",
-            "De oudste inwoners nemen de beslissingen"
+            "De oudste inwoners nemen de beslissingen",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "Democratie komt uit het Grieks: demos is volk en kratos is macht. In een democratie ligt de macht dus bij de bevolking."
+          "antwoord": 4,
+          "uitleg": "Democratie komt uit het Grieks: demos is volk en kratos is macht. Letterlijk betekent het dus dat het volk regeert, en dat staat er niet bij."
         },
         {
           "type": "meerkeuze",
@@ -1494,13 +1504,14 @@
           "type": "meerkeuze",
           "vraag": "Een journalist schrijft een kritisch artikel over een minister en wordt daarvoor opgepakt. Welk principe wordt hier geschonden?",
           "opties": [
-            "De persvrijheid",
+            "De vrijheid van vereniging",
             "Het stemrecht van de bevolking",
             "De aanwezigheid van een grondwet",
-            "De scheiding tussen gemeente en provincie"
+            "De scheiding tussen gemeente en provincie",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "Kritiek op de macht is precies wat persvrijheid beschermt. Wie daarvoor opgepakt wordt, leeft niet meer in een vrije pers."
+          "antwoord": 4,
+          "uitleg": "Kritiek op de macht is precies wat de persvrijheid beschermt, en die staat er niet bij. Wie daarvoor opgepakt wordt, leeft niet meer in een land met een vrije pers."
         },
         {
           "type": "meerkeuze",

@@ -11,7 +11,8 @@
           "opties": [
             "Hij onderzoekt het verleden aan de hand van bronnen",
             "Hij graaft voorwerpen op uit de grond",
-            "Hij schrijft verhalen die zich vroeger afspelen"
+            "Hij schrijft verhalen die zich vroeger afspelen",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Een historicus onderzoekt het verleden met bronnen. Opgraven is het werk van een archeoloog. Ze werken wel vaak samen."
@@ -31,34 +32,37 @@
           "type": "meerkeuze",
           "vraag": "Welke periode komt meteen na de klassieke oudheid?",
           "opties": [
-            "De middeleeuwen",
+            "De prehistorie",
             "De moderne tijd",
-            "De vroegmoderne tijd"
+            "De vroegmoderne tijd",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "De volgorde is: klassieke oudheid, middeleeuwen, vroegmoderne tijd, moderne tijd, hedendaagse tijd."
+          "antwoord": 3,
+          "uitleg": "De volgorde is: klassieke oudheid, middeleeuwen, vroegmoderne tijd, moderne tijd, hedendaagse tijd. Na de klassieke oudheid komen dus de middeleeuwen, en die staan er niet bij."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoeveel jaar duurt een millennium?",
           "opties": [
             "Honderd jaar",
-            "Duizend jaar",
-            "Tienduizend jaar"
+            "Tien jaar",
+            "Tienduizend jaar",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 1,
-          "uitleg": "Een millennium is duizend jaar. Een eeuw is honderd jaar."
+          "antwoord": 3,
+          "uitleg": "Een millennium is duizend jaar, en dat staat er niet bij. Een eeuw is honderd jaar en een decennium tien jaar."
         },
         {
           "type": "meerkeuze",
           "vraag": "In welke eeuw ligt het jaar 1492?",
           "opties": [
             "De 14de eeuw",
-            "De 15de eeuw",
-            "De 16de eeuw"
+            "De 13de eeuw",
+            "De 16de eeuw",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 1,
-          "uitleg": "De jaren 1401 tot en met 1500 vormen samen de 15de eeuw. Je telt dus altijd een eeuw hoger dan de eerste twee cijfers, behalve bij een rond honderdtal."
+          "antwoord": 3,
+          "uitleg": "De jaren 1401 tot en met 1500 vormen samen de 15de eeuw, en die staat er niet bij. Je telt dus altijd een eeuw hoger dan de eerste twee cijfers, behalve bij een rond honderdtal."
         },
         {
           "type": "meerkeuze",
@@ -216,11 +220,12 @@
           "vraag": "Hoeveel periodes telt het courante westerse historisch referentiekader?",
           "opties": [
             "Vijf",
-            "Zeven",
-            "Negen"
+            "Zes",
+            "Negen",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 1,
-          "uitleg": "Het zijn er zeven: prehistorie, oude nabije oosten, klassieke oudheid, middeleeuwen, vroegmoderne tijd, moderne tijd en hedendaagse tijd."
+          "antwoord": 3,
+          "uitleg": "Het zijn er zeven: prehistorie, oude nabije oosten, klassieke oudheid, middeleeuwen, vroegmoderne tijd, moderne tijd en hedendaagse tijd. Dat aantal staat er niet bij."
         },
         {
           "type": "meerkeuze",
@@ -243,7 +248,8 @@
           "opties": [
             "De ontdekking van het vuur",
             "De uitvinding van het schrift",
-            "Het ontstaan van de landbouw"
+            "Het ontstaan van de landbouw",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 1,
           "uitleg": "Prehistorie betekent letterlijk vóór de geschiedenis: de tijd waarvan geen geschreven bronnen bestaan. Met het schrift begint de geschiedenis."
@@ -421,7 +427,8 @@
           "opties": [
             "Azië",
             "Afrika",
-            "Europa"
+            "Europa",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 1,
           "uitleg": "De homo sapiens ontstond in Afrika en verspreidde zich van daaruit over de wereld."
@@ -634,7 +641,8 @@
           "opties": [
             "Rondtrekken met de seizoenen",
             "Op een vaste plaats wonen",
-            "Leven van de jacht"
+            "Leven van de jacht",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 1,
           "uitleg": "Sedentair betekent gevestigd op een vaste plaats. Het tegenovergestelde is nomadisch."
@@ -852,7 +860,8 @@
           "opties": [
             "Land van de zon",
             "Land tussen de rivieren",
-            "Land van het schrift"
+            "Land van het schrift",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 1,
           "uitleg": "Mesopotamië ligt tussen de Tigris en de Eufraat, in wat vandaag grotendeels Irak is."
@@ -1074,7 +1083,8 @@
           "opties": [
             "Kanalen en dijken aanleggen en onderhouden kan niemand alleen",
             "Omdat er te weinig boeren waren",
-            "Omdat de rivier aan iemand anders toebehoorde en er betaald moest worden voor water"
+            "Omdat de rivier aan iemand anders toebehoorde en er betaald moest worden voor water",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Een kanalenstelsel graven, onderhouden en het water eerlijk verdelen vraagt veel mensen en afspraken. Wie dat organiseert, krijgt macht."

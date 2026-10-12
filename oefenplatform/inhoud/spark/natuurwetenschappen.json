@@ -12,7 +12,8 @@
           "opties": [
             "Uit cellen",
             "Uit atomen alleen",
-            "Uit organen alleen"
+            "Uit organen alleen",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "De cel is de basiseenheid van het leven. Alles wat leeft, van een bacterie tot een olifant, is uit cellen opgebouwd."
@@ -52,12 +53,13 @@
           "type": "meerkeuze",
           "vraag": "In welk celonderdeel zit de erfelijke informatie van de cel?",
           "opties": [
-            "In de celkern",
+            "In de celwand",
             "In het cytoplasma",
-            "In de vacuole"
+            "In de vacuole",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "De celkern bevat het erfelijk materiaal en stuurt van daaruit alles wat in de cel gebeurt."
+          "antwoord": 3,
+          "uitleg": "De celkern bevat het erfelijk materiaal en stuurt van daaruit alles wat in de cel gebeurt. De celkern staat er niet bij."
         },
         {
           "type": "meerkeuze",
@@ -226,7 +228,8 @@
           "opties": [
             "organisme – stelsel – orgaan – weefsel – cel",
             "organisme – orgaan – stelsel – weefsel – cel",
-            "stelsel – organisme – orgaan – cel – weefsel"
+            "stelsel – organisme – orgaan – cel – weefsel",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Van afnemende complexiteit: het hele organisme, dan zijn stelsels, daarin de organen, daarin de weefsels, en die bestaan uit cellen met celonderdelen."
@@ -442,12 +445,13 @@
           "type": "meerkeuze",
           "vraag": "Wat maakt een plant zelf aan met behulp van zonlicht?",
           "opties": [
-            "Suiker (glucose)",
+            "Kalk",
             "Zout",
-            "IJzer"
+            "IJzer",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "Bij de fotosynthese maakt een plant glucose. Dat is een energierijke stof: er zit energie in die uit het zonlicht komt."
+          "antwoord": 3,
+          "uitleg": "Bij de fotosynthese maakt een plant glucose, dus suiker, en dat staat er niet bij. Het is een energierijke stof: er zit energie in die uit het zonlicht komt."
         },
         {
           "type": "meerkeuze",
@@ -479,7 +483,8 @@
           "opties": [
             "In het blad",
             "In de wortel",
-            "In de bloem"
+            "In de bloem",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Bladeren liggen breed uitgespreid in het licht en zitten vol bladgroenkorrels. Daar gebeurt het grootste deel van de fotosynthese."
@@ -658,7 +663,8 @@
           "opties": [
             "Van de wortels via de stengel naar de bladeren",
             "Van de bladeren via de stengel naar de wortels",
-            "Van de bloem rechtstreeks naar de wortels"
+            "Van de bloem rechtstreeks naar de wortels",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Water gaat omhoog: opgenomen door de wortels, door het transportweefsel van de stengel, tot in de bladeren. Daar wordt het gebruikt of het verdampt via de huidmondjes."
@@ -872,7 +878,8 @@
           "opties": [
             "Als brandstof, als bouwstof en als beschermstof",
             "Alleen om je maag te vullen zodat je geen honger hebt",
-            "Alleen om warm te blijven"
+            "Alleen om warm te blijven",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Voedingsstoffen zijn brandstof (energie), bouwstof (groeien en herstellen) of beschermstof (goed blijven werken, zoals vitaminen en mineralen)."
@@ -1000,12 +1007,13 @@
           "type": "meerkeuze",
           "vraag": "Welk orgaan maakt urine?",
           "opties": [
-            "De nier",
+            "De milt",
             "De blaas",
-            "De lever"
+            "De lever",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "De nieren filteren afvalstoffen uit het bloed en maken daar urine van. De blaas bewaart die urine alleen maar tot je naar het toilet gaat."
+          "antwoord": 3,
+          "uitleg": "De nieren filteren afvalstoffen uit het bloed en maken daar urine van, en de nier staat er niet bij. De blaas bewaart die urine alleen maar tot je naar het toilet gaat."
         },
         {
           "type": "meerkeuze",
@@ -1055,12 +1063,13 @@
           "type": "meerkeuze",
           "vraag": "Welke voedingsstoffen zijn vooral bouwstoffen?",
           "opties": [
-            "Eiwitten",
+            "Vetten",
             "Suikers",
-            "Vitaminen"
+            "Vitaminen",
+            "Geen van deze antwoorden"
           ],
-          "antwoord": 0,
-          "uitleg": "Eiwitten leveren de bouwstenen voor spieren, huid en bloed. Suikers en vetten zijn vooral brandstof; vitaminen en mineralen zijn beschermstoffen."
+          "antwoord": 3,
+          "uitleg": "Eiwitten leveren de bouwstenen voor spieren, huid en bloed, en die staan er niet bij. Suikers en vetten zijn vooral brandstof, vitaminen en mineralen zijn beschermstoffen."
         },
         {
           "type": "meerkeuze",
@@ -1092,7 +1101,8 @@
           "opties": [
             "Eiwitten worden aminozuren",
             "Eiwitten worden glucose",
-            "Eiwitten worden glycerol en vetzuren"
+            "Eiwitten worden glycerol en vetzuren",
+            "Geen van deze antwoorden"
           ],
           "antwoord": 0,
           "uitleg": "Eiwitten worden afgebroken tot aminozuren, suikers zoals zetmeel tot glucose, en vetten tot glycerol en drie vetzuren."

@@ -37,7 +37,7 @@ HIER = pathlib.Path(__file__).parent
 sys.path.insert(0, str(HIER))
 sys.path.insert(0, str(HIER.parents[1]))
 
-from notatie import zichtbaar  # noqa: E402  (pad moet eerst klaarstaan)
+from notatie import sluitend, zichtbaar  # noqa: E402  (pad moet eerst klaarstaan)
 DOEL = HIER.parent / "natuurwetenschappen.json"
 
 # De volgorde volgt de fiche: eerst biologie, dan chemie, dan fysica, en
@@ -113,8 +113,12 @@ def gokpatronen(titel: str, vragen: list) -> list:
     for v in mk:
         antw = v["antwoord"] if isinstance(v["antwoord"], list) else [v["antwoord"]]
         lengtes = [len(zichtbaar(o)) for o in v["opties"]]
-        anders = [lengtes[i] for i in range(len(lengtes)) if i not in antw]
-        if anders and min(lengtes[i] for i in antw) > max(anders) + 5:
+        # "Geen van deze antwoorden" is bijna altijd de langste optie, en die
+        # lengte zegt niets over de inhoud. Zulke opties blijven hier buiten.
+        vrij = [i for i, o in enumerate(v["opties"]) if not sluitend(o)]
+        juist = [i for i in antw if i in vrij]
+        anders = [lengtes[i] for i in vrij if i not in antw]
+        if juist and anders and min(lengtes[i] for i in juist) > max(anders) + 5:
             langst += 1
     if mk and langst > 0.4 * len(mk):
         meldingen.append(

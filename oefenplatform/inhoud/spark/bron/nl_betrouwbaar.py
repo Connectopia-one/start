@@ -20,6 +20,7 @@ DEEL1 = [
             "Nederlands is de mooiste taal.",
             "Iedereen zou Frans moeten leren.",
             "Dialect klinkt gezellig.",
+            "Geen van deze antwoorden",
         ],
         antwoord=0,
         uitleg="Een feit kan je controleren. De drie andere zinnen zijn meningen: daar kan je het mee oneens zijn.",
@@ -114,9 +115,15 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Een influencer prijst enthousiast een crème aan en krijgt daarvoor betaald. Wat is die boodschap eigenlijk?",
-        opties=["Reclame", "Nieuws", "Een onderzoek", "Een instructie"],
-        antwoord=0,
-        uitleg="Wie betaald wordt om iets aan te prijzen, maakt reclame. Daarom moet dat ook aangeduid worden.",
+        opties=[
+            "Een getuigenis",
+            "Nieuws",
+            "Een onderzoek",
+            "Een instructie",
+            "Geen van deze antwoorden",
+        ],
+        antwoord=4,
+        uitleg="Wie betaald wordt om iets aan te prijzen, maakt reclame, en dat woord staat er niet bij. Daarom moet zo'n bericht ook als reclame aangeduid worden.",
     ),
     dict(
         type="meerkeuze",
@@ -197,7 +204,13 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Een bericht heeft geen auteur, staat alleen op sociale media en linkt naar een site vol advertenties. Wat besluit je?",
-        opties=["Waarschijnlijk nepnieuws, bedoeld om bezoekers te lokken", "Zeker betrouwbaar nieuws, want anders zou niemand het delen", "Een instructieve tekst", "Een literaire tekst"],
+        opties=[
+            "Waarschijnlijk nepnieuws, bedoeld om bezoekers te lokken",
+            "Zeker betrouwbaar nieuws, want anders zou niemand het delen",
+            "Een instructieve tekst",
+            "Een literaire tekst",
+            "Geen van deze antwoorden",
+        ],
         antwoord=0,
         uitleg="Geen zender, een besloten kanaal en een doel dat geld oplevert: drie signalen samen maken het verdacht.",
     ),
