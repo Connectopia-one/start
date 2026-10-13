@@ -135,12 +135,14 @@
             "wat weet ik hier al over?",
             "waarover zou dit kunnen gaan?",
             "wat zeggen de titel en de foto?",
-            "hoeveel woorden staan er in?"
+            "hoeveel woorden staan er in?",
+            "wat voor soort tekst is dit?"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Die drie horen bij de leesstrategieën van de fiche. Het aantal woorden tellen helpt je niet verder."
         },
@@ -272,12 +274,14 @@
             "first",
             "then",
             "next",
-            "because"
+            "because",
+            "finally"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "First, then en next zetten de stappen op een rij. Because geeft een reden en is dus een ander soort signaalwoord."
         },
@@ -325,15 +329,14 @@
           "opties": [
             "de titel",
             "de tussentitels",
-            "de foto's en grafieken",
+            "het aantal bladzijden",
             "het papierformaat"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Titels, tussentitels en beelden vertellen je al veel voor je de eerste zin leest. Het formaat van het blad zegt niets over de inhoud."
+          "uitleg": "Titels, tussentitels en beelden vertellen je al veel voor je de eerste zin leest. Het formaat van het blad en het aantal bladzijden zeggen niets over de inhoud."
         },
         {
           "type": "waarofniet",
@@ -348,12 +351,14 @@
             "van wie is de tekst?",
             "waarom is hij geschreven?",
             "voor wie is hij bedoeld?",
-            "hoeveel bladzijden heeft hij?"
+            "hoeveel bladzijden heeft hij?",
+            "via welk kanaal komt hij?"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Zender, bedoeling en publiek: die drie vragen staan in de fiche. Daarmee begrijp je vaak al waarom een tekst klinkt zoals hij klinkt."
         },
@@ -475,15 +480,14 @@
           "opties": [
             "een reclamefilmpje",
             "een flyer voor een sportevenement",
-            "een campagne tegen te snel rijden",
+            "een handleiding bij een toestel",
             "een bijsluiter van een geneesmiddel"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Persuasief wil je overtuigen of beïnvloeden. Een bijsluiter legt uit wat je moet doen en is dus prescriptief."
+          "uitleg": "Persuasief wil je overtuigen of beïnvloeden: reclame, een flyer, een campagne. Een bijsluiter en een handleiding zeggen wat je moet doen en zijn prescriptief."
         },
         {
           "type": "invultekst",
@@ -531,12 +535,14 @@
             "een gedicht",
             "een lied",
             "een kortverhaal",
-            "een schoolreglement"
+            "een schoolreglement",
+            "een strip of een cartoon"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Ook een cartoon, een strip en een fragment uit een roman. Een schoolreglement zegt wat je moet doen en is prescriptief."
         },
@@ -616,15 +622,14 @@
           "opties": [
             "aan de bevelende zinnen",
             "aan de signaalwoorden van orde",
-            "aan het stappenplan erin",
+            "aan de uitgebreide inleiding",
             "aan de persoonlijke mening"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Imperatieven, first en then, en een rij stappen: dat is een handleiding of een recept. Een mening hoort er juist niet in."
+          "uitleg": "Imperatieven, first en then, en een rij stappen: dat is een handleiding of een recept. Een mening en een lange inleiding horen er juist niet in."
         },
         {
           "type": "waarofniet",
@@ -726,12 +731,14 @@
             "I think",
             "the best",
             "terrible",
-            "in 1912"
+            "in 1912",
+            "awful"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een gedachte, een waardering en een gevoelswoord. Een jaartal is een feit en geen mening."
         },
@@ -776,19 +783,18 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Uit welke drie delen bestaat een goed opgebouwde tekst?",
+          "vraag": "Uit welke delen bestaat een goed opgebouwde tekst?",
           "opties": [
             "inleiding",
             "midden",
-            "slot",
+            "bibliografie",
             "voetnoot"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Inleiding, midden en slot: zo staat het bij de vereisten in de fiche. Een voetnoot hoort niet bij de verplichte opbouw."
+          "uitleg": "Inleiding, midden en slot: zo staat het bij de vereisten in de fiche. Een voetnoot of een bibliografie hoort niet bij de verplichte opbouw."
         },
         {
           "type": "waarofniet",
@@ -831,16 +837,15 @@
           "vraag": "Welke woorden passen in een formele mail?",
           "opties": [
             "I would like to",
-            "Thank you in advance",
+            "Hey, what's up?",
             "Kind regards",
             "See ya, mate, got to run"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "De juiste antwoorden zijn hoffelijk en neutraal. See ya hoort bij een bericht aan een vriend."
+          "uitleg": "I would like to en Kind regards zijn hoffelijk en neutraal, net als Thank you in advance. See ya of Hey, what's up hoort bij een bericht aan een vriend."
         },
         {
           "type": "meerkeuze",
@@ -956,12 +961,14 @@
             "netjes in de rij staan",
             "thee met melk drinken",
             "links rijden",
-            "met de fiets naar school"
+            "met de fiets naar school",
+            "op zondag een roast dinner eten"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Queueing, thee met een wolkje melk en links rijden zijn bekende Britse gewoontes. Met de fiets naar school is veeleer Vlaams en Nederlands."
         },
@@ -1041,12 +1048,14 @@
             "Ierland",
             "Australië",
             "Nieuw-Zeeland",
-            "Oostenrijk"
+            "Oostenrijk",
+            "Canada"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Ook Canada, Zuid-Afrika en India hebben Engels als officiële taal. In Oostenrijk spreekt men Duits."
         },
@@ -1128,15 +1137,14 @@
           "opties": [
             "je houding",
             "je blik",
-            "je handen",
+            "de taal die je spreekt",
             "de woorden die je kiest"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Lichaamstaal is wat je zegt zonder woorden. De fiche vraagt ook dat je de lichaamstaal van je gesprekspartner inschat en er goed op reageert."
+          "uitleg": "Lichaamstaal is wat je zegt zonder woorden: je houding, je blik en je handen. De woorden en de taal die je kiest horen daar niet bij."
         }
       ]
     },
@@ -1174,12 +1182,14 @@
             "a ticket",
             "a suitcase",
             "a passport",
-            "a frying pan"
+            "a frying pan",
+            "a boarding pass"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een ticket, een koffer en een paspoort neem je mee op reis. A frying pan is een braadpan en hoort in de keuken."
         },
@@ -1240,15 +1250,14 @@
           "opties": [
             "a coach",
             "a ferry",
-            "an underground",
+            "a platform",
             "a cottage"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een reisbus, een veerboot en de metro van Londen. A cottage is een huisje op het platteland."
+          "uitleg": "Een reisbus, een veerboot en de metro van Londen zijn vervoermiddelen. A platform is het perron en a cottage een huisje op het platteland."
         },
         {
           "type": "waarofniet",
@@ -1262,15 +1271,14 @@
           "opties": [
             "a delay",
             "a strike",
-            "a diversion",
+            "a timetable",
             "a souvenir"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een vertraging, een staking en een omleiding. A souvenir is een aandenken dat je meebrengt."
+          "uitleg": "Een vertraging, een staking en een omleiding zijn problemen op reis. A souvenir is een aandenken en a timetable is gewoon de uurtabel."
         },
         {
           "type": "meerkeuze",
@@ -1391,12 +1399,14 @@
             "een titel",
             "alinea's",
             "witruimte tussen de delen",
-            "zo veel mogelijk kleuren"
+            "zo veel mogelijk kleuren",
+            "tussentitels"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche vraagt dat de opbouw herkenbaar is: titel en alinea's. Kleur maakt een tekst niet duidelijker."
         },
@@ -1446,15 +1456,14 @@
           "opties": [
             "een online woordenboek",
             "een spellingcontrole",
-            "je eigen schrijfplan op het blad",
+            "je handboek Engels",
             "je samenvatting van thuis"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het woordenboek en de spellingcontrole staan op de website van de Examencommissie. Cursusmateriaal of een samenvatting meebrengen is examenfraude."
+          "uitleg": "Het woordenboek en de spellingcontrole staan op de website van de Examencommissie. Cursusmateriaal, een handboek of een samenvatting meebrengen is examenfraude."
         },
         {
           "type": "invultekst",
@@ -1518,15 +1527,14 @@
           "opties": [
             "waarom schrijf ik?",
             "voor wie is dit?",
-            "welk kanaal gebruik ik?",
+            "hoe lang schrijf ik al?",
             "hoeveel tijd heb ik nog?"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Dat is het communicatiemodel uit de fiche. De klok nakijken helpt wel bij je planning, maar hoort niet bij het model."
+          "uitleg": "Waarom, voor wie en via welk kanaal: dat is het communicatiemodel uit de fiche. De klok nakijken helpt bij je planning, maar hoort niet bij het model."
         },
         {
           "type": "waarofniet",
@@ -1553,12 +1561,14 @@
             "first",
             "however",
             "finally",
-            "pizza"
+            "pizza",
+            "because"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Signaalwoorden maken de tekstverbanden zichtbaar. De fiche vraagt ze uitdrukkelijk bij tekststructuur en samenhang."
         },
@@ -1620,12 +1630,14 @@
             "waarom spreekt dit me aan?",
             "wie van de personages lijkt op mij?",
             "welk gevoel roept dit op?",
-            "hoeveel bladzijden heeft het boek?"
+            "hoeveel bladzijden heeft het boek?",
+            "zou ik dit aanraden, en waarom?"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche noemt die drie zelf als voorbeelden. Het aantal bladzijden zegt niets over je beleving."
         },
@@ -1696,15 +1708,14 @@
           "opties": [
             "Take a warm sleeping bag.",
             "The campsite opens in May.",
-            "You can book online.",
+            "Could you help me?",
             "What time is it?"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie tips over kamperen, precies het voorbeeld uit de fiche. De laatste zin vraagt juist informatie."
+          "uitleg": "Drie tips over kamperen, precies het voorbeeld uit de fiche. Een vraag naar het uur of om hulp vraagt juist zelf informatie."
         },
         {
           "type": "waarofniet",
@@ -1718,15 +1729,14 @@
           "opties": [
             "This is cheaper.",
             "It saves time.",
-            "You should try it.",
+            "Where do you live?",
             "What is your name?"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie zinnen die een argument of een aanbeveling geven. De laatste vraagt enkel informatie en overtuigt niemand."
+          "uitleg": "This is cheaper, It saves time en You should try it geven een argument of een aanbeveling. Een vraag naar een naam of een woonplaats overtuigt niemand."
         },
         {
           "type": "meerkeuze",
@@ -1850,12 +1860,14 @@
             "an aunt",
             "a nephew",
             "a cousin",
-            "a landlord"
+            "a landlord",
+            "a grandson"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een tante, een neefje en een kozijn of nicht. A landlord is de eigenaar die een huis verhuurt."
         },
@@ -1903,15 +1915,14 @@
           "opties": [
             "tea",
             "squash",
-            "cider",
+            "salt",
             "pepper"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Thee, fruitsiroop en appelcider. Pepper is peper en hoort bij de kruiden."
+          "uitleg": "Thee, fruitsiroop en appelcider zijn dranken. Pepper is peper en salt is zout: dat zijn kruiden."
         },
         {
           "type": "invultekst",
@@ -1977,12 +1988,14 @@
             "a present",
             "a candle",
             "a guest",
-            "a cupboard"
+            "a cupboard",
+            "a balloon"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een cadeau, een kaarsje en een gast. A cupboard is een kast in de keuken."
         },
@@ -2073,15 +2086,14 @@
           "opties": [
             "a hall",
             "a landing",
-            "a cellar",
+            "a pavement",
             "a lorry"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een gang, een overloop en een kelder. A lorry is een vrachtwagen."
+          "uitleg": "Een gang, een overloop en een kelder zijn delen van een huis. A lorry is een vrachtwagen en a pavement het voetpad."
         },
         {
           "type": "invultekst",
@@ -2129,12 +2141,14 @@
             "a hoover",
             "a kettle",
             "a tap",
-            "a tie"
+            "a tie",
+            "a bin"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een stofzuiger, een waterkoker en een kraan. A tie is een das."
         },
@@ -2195,15 +2209,14 @@
           "opties": [
             "a lawn",
             "a fence",
-            "a shed",
+            "a cupboard",
             "a staircase"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een grasveld, een afsluiting en een tuinhuisje. A staircase is een trap en staat binnen."
+          "uitleg": "Een grasveld, een afsluiting en een tuinhuisje horen bij een tuin. A staircase is een trap en a cupboard een kast: die staan binnen."
         },
         {
           "type": "waarofniet",
@@ -2303,12 +2316,14 @@
             "a cough",
             "a rash",
             "a fever",
-            "a wallet"
+            "a wallet",
+            "a sore throat"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Hoest, huiduitslag en koorts. A wallet is een portefeuille."
         },
@@ -2358,15 +2373,14 @@
           "opties": [
             "nervous",
             "lonely",
-            "proud",
+            "busy",
             "crowded"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Nerveus, eenzaam en trots. Crowded betekent vol met mensen en zegt niets over een gevoel."
+          "uitleg": "Nerveus, eenzaam en trots zijn gevoelens. Crowded betekent vol met mensen en busy bezig: die zeggen niets over een gevoel."
         },
         {
           "type": "invultekst",
@@ -2432,12 +2446,14 @@
             "a ward",
             "an operation",
             "an ambulance",
-            "a lawn mower"
+            "a lawn mower",
+            "a waiting room"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een afdeling, een operatie en een ziekenwagen. A lawn mower is een grasmachine."
         },
@@ -2528,15 +2544,14 @@
           "opties": [
             "a hedgehog",
             "an owl",
-            "a squirrel",
+            "an oak",
             "a maple"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een egel, een uil en een eekhoorn. A maple is een esdoorn, dus een boom."
+          "uitleg": "Een egel, een uil en een eekhoorn zijn dieren. A maple is een esdoorn en an oak een eik: dat zijn bomen."
         },
         {
           "type": "invultekst",
@@ -2583,12 +2598,14 @@
             "pollution",
             "waste",
             "emissions",
-            "furniture"
+            "furniture",
+            "recycling"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Vervuiling, afval en uitstoot. Furniture is meubilair en hoort bij wonen."
         },
@@ -2656,15 +2673,14 @@
           "opties": [
             "a shower",
             "a breeze",
-            "a thunderstorm",
+            "a fence",
             "a pavement"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een regenbui, een briesje en een onweer. A pavement is het voetpad. Let op: a shower is ook een douche."
+          "uitleg": "Een regenbui, een briesje en een onweer horen bij het weer. A pavement is het voetpad en a fence een afsluiting. Let op: a shower is ook een douche."
         },
         {
           "type": "meerkeuze",
@@ -2758,12 +2774,14 @@
             "a timetable",
             "a report",
             "homework",
-            "a trolley"
+            "a trolley",
+            "a break"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een lessenrooster, een rapport en huiswerk. A trolley is een winkelkar."
         },
@@ -2812,15 +2830,14 @@
           "opties": [
             "a plumber",
             "a nurse",
-            "a shop assistant",
+            "a canteen",
             "a timetable"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een loodgieter, een verpleegkundige en een winkelbediende. A timetable is een uurrooster."
+          "uitleg": "Een loodgieter, een verpleegkundige en een winkelbediende zijn beroepen. A timetable is een uurrooster en a canteen de refter."
         },
         {
           "type": "invultekst",
@@ -2887,12 +2904,14 @@
             "an interview",
             "a vacancy",
             "an application",
-            "a canteen"
+            "a canteen",
+            "a cv"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een gesprek, een openstaande plaats en een sollicitatie. A canteen is het refter of het bedrijfsrestaurant."
         },
@@ -2984,15 +3003,14 @@
           "opties": [
             "a loan",
             "interest",
-            "savings",
+            "a shelf",
             "a crossing"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een lening, rente en spaargeld. A crossing is een oversteekplaats."
+          "uitleg": "Een lening, rente en spaargeld horen bij geld. A crossing is een oversteekplaats en a shelf een rek."
         },
         {
           "type": "invultekst",
@@ -3040,12 +3058,14 @@
             "a roundabout",
             "a traffic jam",
             "a pedestrian",
-            "a saucepan"
+            "a saucepan",
+            "a zebra crossing"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een rotonde, een file en een voetganger. A saucepan is een kookpot."
         },
@@ -3113,15 +3133,14 @@
           "opties": [
             "a till",
             "a queue",
-            "a shelf",
+            "a lawn",
             "a helmet"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De kassa, de rij en het rek. A helmet is een valhelm."
+          "uitleg": "De kassa, de rij en het rek horen bij een winkel. A helmet is een valhelm en a lawn een grasveld."
         },
         {
           "type": "meerkeuze",
@@ -3215,12 +3234,14 @@
             "an exhibition",
             "a gallery",
             "an entrance fee",
-            "a referee"
+            "a referee",
+            "a guide"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een tentoonstelling, een zaal of galerie en de inkomprijs. A referee is een scheidsrechter."
         },
@@ -3268,15 +3289,14 @@
           "opties": [
             "a stage",
             "an audience",
-            "a performance",
+            "a saucepan",
             "a kettle"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het podium, het publiek en de voorstelling. A kettle is een waterkoker."
+          "uitleg": "Het podium, het publiek en de voorstelling horen bij het theater. A kettle is een waterkoker en a saucepan een kookpot."
         },
         {
           "type": "invultekst",
@@ -3342,12 +3362,14 @@
             "a war",
             "a treaty",
             "a revolution",
-            "a saucer"
+            "a saucer",
+            "a battle"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een oorlog, een verdrag en een revolutie. A saucer is een schoteltje onder een tas."
         },
@@ -3439,15 +3461,14 @@
           "opties": [
             "a party",
             "a minister",
-            "parliament",
+            "a receipt",
             "a bargain"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een partij, een minister en het parlement. A bargain is een koopje en hoort bij geld. Let op: a party is ook een feest."
+          "uitleg": "Een partij, een minister en het parlement horen bij de politiek. A bargain is een koopje en a receipt een kassabon. Let op: a party is ook een feest."
         },
         {
           "type": "invultekst",
@@ -3495,12 +3516,14 @@
             "poverty",
             "equality",
             "charity",
-            "a receipt"
+            "a receipt",
+            "homelessness"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Armoede, gelijkheid en een goed doel. A receipt is een kassabon."
         },
@@ -3567,15 +3590,14 @@
           "opties": [
             "a judge",
             "a court",
-            "a lawyer",
+            "a tenant",
             "a landlord"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een rechter, een rechtbank en een advocaat. A landlord verhuurt een huis."
+          "uitleg": "Een rechter, een rechtbank en een advocaat horen bij het recht. A landlord verhuurt een huis en a tenant huurt er een."
         },
         {
           "type": "meerkeuze",
@@ -3669,12 +3691,14 @@
             "a keyboard",
             "a screen",
             "a file",
-            "a shelf"
+            "a shelf",
+            "a mouse"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een toetsenbord, een scherm en een bestand. A shelf is een rek in de kast."
         },
@@ -3722,15 +3746,14 @@
           "opties": [
             "a pitch",
             "a referee",
-            "a draw",
+            "a shed",
             "a tenant"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een speelveld, een scheidsrechter en een gelijkspel. A tenant is een huurder."
+          "uitleg": "Een speelveld, een scheidsrechter en een gelijkspel horen bij sport. A tenant is een huurder en a shed een tuinhuisje."
         },
         {
           "type": "invultekst",
@@ -3796,12 +3819,14 @@
             "a board game",
             "a jigsaw",
             "a hike",
-            "a plaster"
+            "a plaster",
+            "a cinema"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een gezelschapsspel, een puzzel en een wandeltocht. A plaster is een pleister."
         },
@@ -3892,15 +3917,14 @@
           "opties": [
             "impossible",
             "disagree",
-            "unfair",
+            "preview",
             "rebuild"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Im-, dis- en un- maken het omgekeerde. Re- betekent opnieuw, dus rebuild is heropbouwen."
+          "uitleg": "Im-, dis- en un- maken het omgekeerde. Re- betekent opnieuw en pre- ervoor, dus rebuild is heropbouwen en preview een voorvertoning."
         },
         {
           "type": "invultekst",
@@ -3948,12 +3972,14 @@
             "its en it's",
             "their en there",
             "your en you're",
-            "big en small"
+            "big en small",
+            "whose en who's"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Ze klinken gelijk maar betekenen iets anders. Its is bezittelijk, it's is it is."
         },
@@ -4019,15 +4045,14 @@
           "opties": [
             "homework",
             "football",
-            "sunglasses",
+            "teacher",
             "quickly"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Twee woorden samen tot één nieuw woord. Quickly is een afleiding met het achtervoegsel -ly."
+          "uitleg": "Twee woorden samen tot één nieuw woord: homework, football en sunglasses. Quickly en teacher zijn afleidingen, met -ly en -er."
         },
         {
           "type": "meerkeuze",
@@ -4121,12 +4146,14 @@
             "feet",
             "mice",
             "teeth",
-            "books"
+            "books",
+            "children"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Foot wordt feet, mouse wordt mice, tooth wordt teeth. Books is een gewoon meervoud met s."
         },
@@ -4214,15 +4241,14 @@
           "opties": [
             "a coin",
             "a note",
-            "a wallet",
+            "water",
             "money"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een muntstuk, een biljet en een portefeuille kan je tellen. Money is ontelbaar: much money, nooit many moneys."
+          "uitleg": "Een muntstuk, een biljet en een portefeuille kan je tellen. Money en water zijn ontelbaar: much money, nooit many moneys."
         },
         {
           "type": "meerkeuze",
@@ -4231,12 +4257,14 @@
             "bread",
             "water",
             "music",
-            "apples"
+            "apples",
+            "advice"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Brood, water en muziek tel je niet; je zegt a loaf of bread of a glass of water. Appels zijn wel te tellen."
         },
@@ -4346,12 +4374,14 @@
             "apple",
             "umbrella",
             "egg",
-            "house"
+            "house",
+            "hour"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "An komt voor een klinkerklank. House begint met een hoorbare h, dus a house."
         },
@@ -4419,13 +4449,12 @@
           "opties": [
             "first",
             "second",
-            "third",
+            "fifth",
             "fourth"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
           "uitleg": "One, two en three worden first, second en third. Vanaf vier komt er gewoon -th bij: fourth, fifth, sixth."
         },
@@ -4471,15 +4500,14 @@
           "opties": [
             "plenty of",
             "a couple of",
-            "several",
+            "therefore",
             "however"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Veel, een paar en verscheidene. However is een signaalwoord voor een tegenstelling."
+          "uitleg": "Plenty of, a couple of en several duiden een hoeveelheid aan. However en therefore zijn signaalwoorden, voor een tegenstelling en voor een gevolg."
         },
         {
           "type": "meerkeuze",
@@ -4569,12 +4597,14 @@
             "I",
             "we",
             "they",
-            "mine"
+            "mine",
+            "she"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "I, you, he, she, it, we en they staan vooraan als onderwerp. Mine is bezittelijk: that book is mine."
         },
@@ -4622,15 +4652,14 @@
           "opties": [
             "myself",
             "yourself",
-            "themselves",
+            "ours",
             "theirs"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Ze eindigen op -self of -selves. Theirs is bezittelijk: the house is theirs."
+          "uitleg": "Wederkerende voornaamwoorden eindigen op -self of -selves: myself, yourself, themselves. Theirs en ours zijn bezittelijk."
         },
         {
           "type": "invultekst",
@@ -4665,12 +4694,14 @@
             "someone",
             "anything",
             "nobody",
-            "whose"
+            "whose",
+            "everyone"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Ze wijzen niemand in het bijzonder aan. Whose is vragend of betrekkelijk."
         },
@@ -4791,15 +4822,14 @@
           "opties": [
             "that",
             "which",
-            "whose",
+            "although",
             "because"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De fiche noemt that, who, whose, which, when, where en why. Because begint een redengevende bijzin, geen betrekkelijke."
+          "uitleg": "De fiche noemt that, who, whose, which, when, where en why. Because en although beginnen een redengevende of een toegevende bijzin, geen betrekkelijke."
         },
         {
           "type": "invultekst",
@@ -4846,12 +4876,14 @@
             "when",
             "how",
             "which",
-            "so"
+            "so",
+            "why"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Wanneer, hoe en welke. So is een voegwoord dat een gevolg aankondigt."
         },
@@ -4931,12 +4963,14 @@
             "how many",
             "how much",
             "how long",
-            "how come"
+            "how come",
+            "how far"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een aantal, een ontelbare hoeveelheid en een duur of lengte. How come vraagt naar een reden: hoe komt het dat."
         },
@@ -5016,15 +5050,14 @@
           "opties": [
             "She has a new phone.",
             "The soup is cold.",
-            "It was a long day.",
+            "She sings beautiful.",
             "He drives careful."
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bij een werkwoord hoort een bijwoord: he drives carefully."
+          "uitleg": "Een bijvoeglijk naamwoord staat bij een naamwoord: a new phone, a long day, the soup is cold. Bij een werkwoord hoort een bijwoord: he drives carefully, she sings beautifully."
         },
         {
           "type": "invultekst",
@@ -5071,12 +5104,14 @@
             "good, better, best",
             "bad, worse, worst",
             "far, further, furthest",
-            "small, smaller, smallest"
+            "small, smaller, smallest",
+            "little, less, least"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Good, bad en far gaan hun eigen weg. Small volgt gewoon de regel met -er en -est."
         },
