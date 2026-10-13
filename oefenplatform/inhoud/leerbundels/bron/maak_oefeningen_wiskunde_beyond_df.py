@@ -1091,3 +1091,817 @@ OEFENBUNDELS["oefenbundel-de-normale-verdeling-en-de-gausskromme-beyond-dubbele-
              ]),
     ],
 )
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-problemen-oplossen-van-situatie-naar-wiskunde-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Kijk bij elke zin wat er met de opgave gebeurt: lees je nog, kies je een weg, reken "
+                   "je, of kijk je je antwoord na? Dat is telkens een andere stap.",
+            waarom=[
+                None,
+                None,
+                "Let erop dat je hier al een antwoord hebt: je kijkt het na, en dat is reflecteren. Een "
+                "onmogelijke uitkomst is net het signaal om terug te gaan.",
+                "Let erop dat beslissen hoe je het aanpakt nog plannen is. Het rekenen begint pas "
+                "daarna.",
+                "Let erop dat een schets helpt om de situatie te snappen, dus hoort ze bij begrijpen en "
+                "niet bij uitvoeren.",
+                "Let erop dat de eenheid nakijken ook reflecteren is. Het is de snelste controle die je "
+                "hebt.",
+            ],
+        ),
+        dict(
+            aanpak="Kijk eerst hoeveel gevallen er zijn en of er een regelmaat in zit. Weinig gevallen "
+                   "vraagt ordelijk opsommen, veel gevallen vraagt een formule.",
+            waarom=[
+                None,
+                "Let erop dat je de regelmaat gebruikt in plaats van 23 keer op te tellen. Zo maak je "
+                "ook minder rekenfouten.",
+                "Let erop dat een tabel de getallen geeft en de grafiek het verloop. Juist de grafiek "
+                "toont waar de top ligt.",
+                None,
+                "Let erop dat gissen hier geen gokken is: je vertrekt van een goede schatting en stuurt "
+                "bij op wat je ziet.",
+            ],
+        ),
+        dict(
+            aanpak="Noem eerst je onbekende met een woord, dan pas met een letter. Schrijf daarna de "
+                   "zin van de opgave om in een formule, stuk per stuk.",
+            waarom=[
+                "Let erop dat de voorrijkosten het vaste deel zijn en het bedrag per uur de factor bij "
+                "x. Dat is het verschil tussen de twee getallen in de opgave.",
+                "Let erop dat er een minteken komt, want het bad loopt leeg. Het vaste deel is hier de "
+                "beginhoeveelheid.",
+                "Let erop dat 30 procent korting betekent dat je 70 procent betaalt. Je deelt dus door "
+                "0,7 en trekt niet 30 procent van 42 bij.",
+                "Let erop dat een percentage per jaar een groeifactor geeft, dus een macht en geen "
+                "vermenigvuldiging met het aantal jaren.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je bij elk antwoord af of het in de werkelijkheid kan. Kijk naar de grootte, "
+                   "naar de eenheid en naar de grenzen die de grootheid heeft.",
+            waarom=[
+                "Let erop dat een gemiddelde geen mogelijke uitkomst hoeft te zijn. Dat is iets anders "
+                "dan een onmogelijk antwoord.",
+                "Let erop dat je de uitkomst in een bekende eenheid omrekent om ze te kunnen beoordelen. "
+                "Meter per seconde zegt meer dan banen per minuut.",
+                "Let erop dat procent en euro hier verwisseld zijn. Reken het percentage altijd eerst "
+                "uit voor je aftrekt.",
+                "Let erop dat een kans altijd tussen 0 en 1 ligt. Zo'n grens is de makkelijkste "
+                "controle die er is.",
+            ],
+        ),
+        dict(
+            aanpak="Onthou de grens: eenvoudige bewerkingen doe je met de hand, grafieken en kansen met "
+                   "een app. Afronden doe je altijd pas op het einde.",
+            waarom=[
+                None,
+                "Let erop dat de oppervlakte onder een Gausskromme niet met de hand te berekenen is. "
+                "Daarvoor zijn die apps net bedoeld.",
+                "Let erop dat dit soort vergelijking in twee stappen opgelost is. Een toestel gebruiken "
+                "kost hier meer tijd dan het wint.",
+                "Let erop dat tussentijds afronden je eindantwoord kan veranderen. Hou de volle "
+                "nauwkeurigheid bij tot de laatste stap.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-machtswortels-en-machten-met-rationale-exponent-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Een negatieve exponent betekent 1 gedeeld door die macht. Elk grondtal tot de macht "
+                   "nul is 1.",
+            waarom=[
+                "Let op de eerste: elk getal tot de macht nul is 1, en dat is geen uitzondering maar een "
+                "regel.",
+                "Let erop dat je de breuk omzet naar een decimaal getal: 1 achtste is 0,125.",
+                "Let op de laatste: bij een macht van een product gaat de exponent op élke factor, dus "
+                "ook op de 3.",
+            ],
+        ),
+        dict(
+            aanpak="De noemer van de exponent is de wortelexponent, de teller de macht. Neem altijd "
+                   "eerst de wortel, dan blijven de getallen klein.",
+            waarom=[
+                "Let op de rij met 8 tot de twee derde: eerst de derdemachtswortel, dus 2, en dan "
+                "kwadrateren geeft 4. Omgekeerd zou je met 64 moeten werken.",
+            ],
+        ),
+        dict(
+            aanpak="Lees de exponent als twee bewerkingen en reken ze in de goede orde: eerst de wortel, "
+                   "dan de macht. Een minteken in de exponent keert de breuk om.",
+            waarom=[
+                None,
+                None,
+                "Let erop dat 4 tot de drie halve de wortel van 4 is, dus 2, tot de derde. Dat geeft 8.",
+                "Let erop dat de vierdemachtswortel van 16 gelijk is aan 2, en 2 tot de derde is 8. Twee "
+                "verschillende opgaven met hetzelfde antwoord.",
+                None,
+                "Let erop dat het minteken enkel de breuk omkeert: de wortel van 100 is 10, dus het "
+                "antwoord is 1 tiende.",
+                "Let erop dat de twee uitleggen bij elkaar passen: de exponenten optellen en de wortel "
+                "kwadrateren geven hetzelfde.",
+                "Let erop dat de regel over gelijke grondtallen gaat. Hier zijn de exponenten gelijk, en "
+                "dan mag je net de grondtallen samennemen.",
+            ],
+        ),
+        dict(
+            aanpak="Kijk of de wortelexponent even of oneven is. Een even wortel van een negatief getal "
+                   "bestaat niet in R, een oneven wortel wel.",
+            waarom=[
+                "Niet waar: een kwadraat is nooit negatief, dus er bestaat geen reëel getal waarvan het "
+                "kwadraat min 9 is.",
+                None,
+                "Niet waar: dat zou 1 gedeeld door nul zijn, en delen door nul kan niet.",
+                None,
+                "Let erop dat het antwoord in het teken van de macht zit: bij een oneven macht blijft "
+                "het minteken staan, bij een even macht verdwijnt het.",
+            ],
+        ),
+        dict(
+            aanpak="Zet eerst op wat je kent en wat je zoekt. Zoek je een factor per jaar uit een factor "
+                   "over meerdere jaren, dan neem je de zoveelste machtswortel.",
+            waarom=[
+                "Let erop dat je de totale groeifactor niet door 3 deelt maar er de derdemachtswortel "
+                "van neemt. Delen zou een lineair model veronderstellen.",
+                "Let erop dat de zijde de wortel van de oppervlakte is, dus de oppervlakte tot de macht "
+                "een half.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-logaritmen-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Een logaritme is een exponent. Lees de machtsgelijkheid dus als een vraag: het "
+                   "grondtal blijft het grondtal, en de exponent wordt het antwoord.",
+            waarom=[
+                "Let op de laatste rij: een negatieve exponent hoort bij een getal kleiner dan 1. "
+                "Daarom is de logaritme van 0,001 gelijk aan min 3.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je telkens af tot welke macht het grondtal moet om dat getal te geven. Schrijf "
+                   "de macht erbij, dan zie je het antwoord staan.",
+            waarom=[
+                "Let op de derde: de logaritme van 1 is bij elk grondtal nul, want elk getal tot de "
+                "macht nul geeft 1.",
+                "Let op de eerste: een getal kleiner dan 1 geeft een negatieve logaritme. En let erop "
+                "dat de logaritme van het grondtal zelf altijd 1 is.",
+                None,
+                "Let erop dat 0,01 gelijk is aan 10 tot de min 2. Zet een decimaal getal eerst om in "
+                "een macht van 10.",
+            ],
+        ),
+        dict(
+            aanpak="Zoek de twee machten van het grondtal waartussen het getal ligt. De logaritme ligt "
+                   "dan tussen die twee exponenten.",
+            waarom=[
+                "Let erop dat 50 tussen 10 en 100 ligt, dus tussen 10 tot de eerste en 10 tot de "
+                "tweede.",
+                None,
+                "Let erop dat het grondtal hier 2 is: 64 en 128 zijn de machten waar 100 tussen ligt, "
+                "dus 6 en 7.",
+                "Let erop dat een getal tussen 0 en 1 een negatieve logaritme geeft: tussen min 1 en 0.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Hou in het oog wat een logaritme kan en wat niet: ze bestaat enkel voor een strikt "
+                   "positief getal, en haar waarde hangt van het grondtal af.",
+            waarom=[
+                "Let erop dat ook de logaritme van nul niet bestaat: geen enkele exponent maakt een "
+                "positief grondtal nul.",
+                "Niet waar: enkel bij grondtal 10 is ze 2. Bij grondtal 2 is de logaritme van 100 "
+                "ongeveer 6,6.",
+                None,
+                "Niet waar: de logaritme van een negatief getal bestaat niet. Een negatieve logaritme "
+                "hoort bij een getal tussen 0 en 1.",
+                None,
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Schrijf eerst de vergelijking op met de groeifactor erin. Staat de onbekende in de "
+                   "exponent, dan heb je een logaritme nodig.",
+            waarom=[
+                "Let erop dat je naar boven afrondt bij volle jaren: na 17 jaar is het nog geen dubbel.",
+                "Let erop dat de groeifactor bij 10 procent verval 0,9 is en niet min 0,1. Een "
+                "groeifactor is nooit negatief.",
+                "Let erop dat dit de reden is waarom een logaritmische schaal handig is: tien keer zo "
+                "groot wordt gewoon één stap verder.",
+                "Let erop dat je deelt en niet aftrekt. Dat is de rekenregel om van grondtal te "
+                "veranderen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-een-functie-aflezen-van-haar-grafiek-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Kijk bij elk begrip op welke as het hoort. Het domein leest op de horizontale as, "
+                   "het bereik op de verticale.",
+            waarom=[
+                None,
+                "Let erop dat het bereik over de functiewaarden gaat, dus over de verticale as. Dat is "
+                "het verschil met het domein.",
+                "Let erop dat een nulpunt een x-waarde is, waar de grafiek de x-as snijdt.",
+                None,
+                None,
+                None,
+                "Let erop dat de periode een lengte is op de horizontale as, dus een afstand en niet "
+                "een hoogte.",
+            ],
+        ),
+        dict(
+            aanpak="Hou twee schema's uit elkaar: het tekenverloop gaat over boven of onder de as, het "
+                   "verloopschema over stijgen of dalen.",
+            waarom=[
+                "Let erop dat een plusteken niets zegt over stijgen: het zegt enkel dat de "
+                "functiewaarde positief is.",
+                None,
+                "Let erop dat een min in het verloopschema dalen betekent. In het tekenverloop zou "
+                "dezelfde min onder de as betekenen.",
+                "Let erop dat een maximum ligt waar stijgen in dalen overgaat, en een minimum waar dalen "
+                "in stijgen overgaat.",
+            ],
+        ),
+        dict(
+            aanpak="Zet de uren op de horizontale as en de aantallen op de verticale, met getallen op "
+                   "beide assen. Verbind de punten en lees pas daarna af.",
+            waarom=[
+                "Let erop dat je echt getallen op de zijas zet: zonder die lijn met getallen kan je het "
+                "maximum niet aflezen. En schrijf de hoogste waarde bij haar punt.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Kijk bij elke uitspraak over welke as of over welke voorstelling ze gaat. Voorschrift, "
+                   "tabel en grafiek beschrijven dezelfde functie.",
+            waarom=[
+                None,
+                None,
+                "Niet waar: het zijn twee voorstellingen van dezelfde functie. Spreken ze elkaar tegen, "
+                "dan is er een rekenfout gemaakt.",
+                "Niet waar: bij een schets gaat het om de vorm en de kenmerken, niet om de precieze "
+                "maten. Zet wel de belangrijke waarden erbij.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Zeg bij elk kenmerk wat het in de situatie zelf betekent, met de eenheid erbij. Een "
+                   "getal zonder uitleg is geen antwoord.",
+            waarom=[
+                None,
+                "Let erop dat een nulpunt hier het break-evenpunt is. Zeg ook wat er links en rechts van "
+                "dat punt gebeurt.",
+                None,
+                "Let erop dat het bereik hier twee grenzen geeft. Noem ze allebei, en zeg dat de waarden "
+                "ertussen schommelen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-gemiddelde-verandering-en-het-differentiequotient-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Deel het verschil van de functiewaarden door het verschil van de x-waarden, in die "
+                   "orde. De eenheid volgt uit de deling: de ene eenheid per de andere.",
+            waarom=[
+                "Let op de derde rij: de uitkomst is negatief, want de inhoud daalt. Het minteken hoort "
+                "bij het antwoord en is geen rekenfout.",
+                None,
+                "Let erop dat je de jaren telt en niet de jaartallen: van 2015 tot 2025 zijn dat 10 "
+                "jaar, dus 6000 gedeeld door 10.",
+                "Let erop dat je het minteken schrijft én in woorden zegt wat het betekent. Zo blijft "
+                "duidelijk dat er water uit gaat.",
+                "Let erop dat een helling in procent de hoogte gedeeld door de afstand is, maal honderd. "
+                "Ook dat is een differentiequotiënt.",
+            ],
+        ),
+        dict(
+            aanpak="De eenheid van een differentiequotiënt is altijd de eenheid van de functiewaarde per "
+                   "eenheid van de x. Lees ze gewoon af uit de opgave.",
+            waarom=[
+                "Let erop dat je bij elke eenheid het woordje per gebruikt. Zonder die eenheid is een "
+                "differentiequotiënt een los getal.",
+            ],
+        ),
+        dict(
+            aanpak="Trek per stap het vorige aantal van het nieuwe af. Het tijdsverschil is hier telkens "
+                   "één jaar, dus de deling verandert niets.",
+            waarom=[
+                "Let op de rij van 2022: hetzelfde aantal geeft nul, en op 2024: een daling geeft een "
+                "negatief getal.",
+                "Let erop dat je naar het grootste getal kijkt, niet naar het grootste aantal leden. Het "
+                "jaar met de meeste leden en het jaar met de snelste groei zijn hier verschillend.",
+            ],
+        ),
+        dict(
+            aanpak="Zeg wat het getal in de situatie betekent, met de eenheid en met het woord "
+                   "gemiddeld erbij. Dat laatste woord hoort er altijd bij.",
+            waarom=[
+                None,
+                "Let erop dat nul niet betekent dat er niets gebeurde: er kan evenveel bij als af "
+                "gegaan zijn.",
+                "Let erop dat je ook zegt wat het gemiddelde niet vertelt. Over de tussenstukken zegt "
+                "het niets.",
+            ],
+        ),
+        dict(
+            aanpak="Hou in het oog dat een gemiddelde verandering twee punten vergelijkt en niets zegt "
+                   "over wat ertussen gebeurde.",
+            waarom=[
+                None,
+                None,
+                "Niet waar: je hebt enkel twee koppels nodig. Die mag je uit een tabel of een grafiek "
+                "halen.",
+                "Let erop dat dit net het kenmerk van een rechte is: haar differentiequotiënt is overal "
+                "gelijk, en dat is haar richtingscoëfficiënt.",
+            ],
+        ),
+        dict(
+            aanpak="Zet de minuten op de horizontale as en de liters op de verticale, met getallen "
+                   "erbij. Reken daarna per stuk, niet over het geheel.",
+            waarom=[
+                "Let erop dat je de twee stukken apart rekent: min 6 over het eerste en min 8 over het "
+                "laatste. En noem het vlakke stuk tussen 10 en 15 minuten, waar het quotiënt nul is.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-exponentiele-functies-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="In b maal a tot de macht x is b de beginwaarde en a de groeifactor. Staat er geen "
+                   "getal vooraan, dan is de beginwaarde 1.",
+            waarom=[
+                "Let op de derde rij: zonder getal vooraan is de beginwaarde 1 en niet 0. En een "
+                "groeifactor onder 1 betekent dalen.",
+                None,
+                "Let erop dat het verschil in de plaats van de x zit: in de exponent of in het "
+                "grondtal. Dat ene verschil verandert het hele gedrag.",
+            ],
+        ),
+        dict(
+            aanpak="Vermenigvuldig telkens met de groeifactor om naar de volgende kolom te gaan. Begin "
+                   "bij x gelijk aan nul met de beginwaarde.",
+            waarom=[
+                "Let erop dat je van kolom naar kolom vermenigvuldigt en niet optelt. Een vast verschil "
+                "zou lineair zijn.",
+                "Let erop dat halveren ook een groeifactor is, namelijk 0,5. Een dalende reeks is dus "
+                "even goed exponentieel.",
+            ],
+        ),
+        dict(
+            aanpak="Deel twee opeenvolgende waarden door elkaar. Zit er meer dan één stap tussen, dan "
+                   "neem je de zoveelste machtswortel.",
+            waarom=[
+                None,
+                "Let erop dat 0,64 over twee stappen gaat, dus je neemt de wortel en deelt niet door 2. "
+                "Delen door 2 zou 0,32 geven, en dat is fout.",
+                "Let erop dat de deling telkens hetzelfde moet geven. Geeft de aftrekking hetzelfde, dan "
+                "is het lineair.",
+            ],
+        ),
+        dict(
+            aanpak="Onthou de vorm van de grafiek: ze loopt over alle x-waarden, blijft altijd boven de "
+                   "x-as, en gaat door de beginwaarde op de verticale as.",
+            waarom=[
+                None,
+                "Let erop dat de functiewaarde nooit nul of negatief wordt, hoe klein x ook is. Daarom "
+                "is het bereik enkel het positieve deel.",
+                None,
+                "Let erop dat je de getallen op beide assen zet. En noem de drie dingen die ze gemeen "
+                "hebben: het punt op de verticale as, de asymptoot en de spiegeling.",
+            ],
+        ),
+        dict(
+            aanpak="Schrijf eerst het voorschrift op met de beginwaarde en de groeifactor erin, en vul "
+                   "dan pas in. Een percentage eraf geeft een factor onder 1.",
+            waarom=[
+                None,
+                "Let erop dat de groeifactor 0,82 is en niet 0,18. Je houdt 82 procent over.",
+                "Let erop dat je naar boven afrondt: bij 8 uur zit je nog net niet onder een tiende. "
+                "Reken dus beide uren na in plaats van te schatten.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-lineaire-en-exponentiele-groeimodellen-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Reken twee keer: trek twee opeenvolgende getallen van elkaar af, en deel ze ook door "
+                   "elkaar. Een vast verschil is lineair, een vaste factor exponentieel.",
+            waarom=[
+                "Let op de derde rij: de verschillen zijn 9, dan 8,1, dan 7,29, maar de factor blijft "
+                "0,9. Een dalende reeks kan dus even goed exponentieel zijn.",
+                "Let op de laatste rij: een reeks die gelijk blijft, kan je als lineair met nul erbij "
+                "lezen. Haar groeifactor is dan 1.",
+                "Let erop dat je bij exponentiële groei ook zegt dat het bedrag dat erbij komt zelf "
+                "groeit. Dat is het hele verschil met lineaire groei.",
+            ],
+        ),
+        dict(
+            aanpak="Een groeifactor is 1 plus of min het percentage als kommagetal. Omgekeerd lees je "
+                   "het percentage af door 1 van de factor af te trekken.",
+            waarom=[
+                "Let op de rijen met 0,88 en 1,5: daar ga je van de factor naar het percentage, dus 12 "
+                "procent eraf en 50 procent erbij. Verdubbelen is factor 2.",
+                "Let erop dat je de factor tot de derde macht verheft en de percentages niet optelt. "
+                "Drie keer 10 procent is dus geen 30 maar 33,1 procent.",
+                "Let erop dat het tweede percentage op een kleiner bedrag rekent. Daarom is twee keer 20 "
+                "procent samen minder dan 40 procent.",
+            ],
+        ),
+        dict(
+            aanpak="Zoek in de opgave het vaste deel en het deel dat verandert. Komt er telkens "
+                   "hetzelfde getal bij, dan is het lineair; gaat het per procent of per factor, dan "
+                   "exponentieel.",
+            waarom=[
+                None,
+                None,
+                "Let erop dat met de helft toenemen groeifactor 1,5 betekent en niet 0,5. Je houdt wat "
+                "er was en er komt de helft bij.",
+                "Let erop dat een vast aantal per week lineair is, met een minteken omdat de voorraad "
+                "daalt.",
+            ],
+        ),
+        dict(
+            aanpak="Vul eerst de tabel voor beide modellen in, en vergelijk daarna. Reken ze uit in "
+                   "plaats van te schatten welk model voorligt.",
+            waarom=[
+                "Let erop dat het lineaire model eerst meegaat en daarna ver achterop raakt: in jaar 10 "
+                "staat 300 tegenover ruim 600.",
+                "Let erop dat het antwoord twee delen heeft: welk model inhaalt, én wat dat in het "
+                "algemeen zegt.",
+                "Niet waar: bij exponentiële afname kom je steeds dichter bij nul zonder er te komen. "
+                "Enkel bij lineaire afname bereik je nul echt.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Reken bij elke reeks zowel het verschil als de factor uit. Zeg daarna welk model "
+                   "past, met het getal of de factor erbij.",
+            waarom=[
+                "Let erop dat je ook zegt waaraan je ziet dat het niet exponentieel is: bij exponentiële "
+                "afname zou het verschil zelf krimpen.",
+                "Let erop dat de factor hier geen rond getal is, maar wel telkens dezelfde. Twee derde "
+                "mag je ook als breuk laten staan.",
+                "Let erop dat je het voorschrift eerst opschrijft en dan invult. Zo zie je meteen dat 12 "
+                "maal 40 erbij komt.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-kansen-en-de-wet-van-laplace-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Leer deze vier woorden met een voorbeeld erbij. Een uitkomst is één geval, een "
+                   "gebeurtenis een groep gevallen.",
+            waarom=[
+                None,
+                None,
+                None,
+                None,
+                "Let erop dat je de twee worpen apart bekijkt en vermenigvuldigt: 6 maal 6. Optellen zou "
+                "12 geven, en dat is geen enkele mogelijkheid.",
+            ],
+        ),
+        dict(
+            aanpak="Tel de gunstige gevallen en deel door het totaal. Vereenvoudig de breuk pas als je "
+                   "beide getallen hebt staan.",
+            waarom=[
+                "Let op de tweede: groter dan 4 betekent 5 en 6, dus twee gevallen op zes. Vier zelf "
+                "hoort er niet bij.",
+                "Let op de tweede: precies één keer kop kan op twee manieren, kop en munt of munt en "
+                "kop. Dat is de helft en niet een kwart.",
+                None,
+                "Let erop dat je alle knikkers samen als totaal neemt, dus 10 en niet 3 plus de andere "
+                "kleuren apart.",
+            ],
+        ),
+        dict(
+            aanpak="Is de gevraagde kans lastig te tellen, reken dan het tegengestelde uit en trek het "
+                   "van 1 af.",
+            waarom=[
+                None,
+                "Let erop dat je van breuk naar breuk werkt: 36 min 11 geeft 25 op 36. Reken niet eerst "
+                "om naar een kommagetal.",
+                None,
+                None,
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Hou in het oog dat een kans over de lange termijn gaat. Een korte reeks worpen mag "
+                   "ervan afwijken, en een worp heeft geen geheugen.",
+            waarom=[
+                "Let erop dat je ook zegt wat er bij veel worpen gebeurt: dan kruipt de verhouding naar "
+                "de kans toe.",
+                "Let erop dat de kans een zesde blijft, hoe vaak er ook geen zes viel. Dat is de "
+                "klassieke denkfout bij kansen.",
+                None,
+                "Let erop dat de wet van Laplace symmetrie veronderstelt. Bij het weer heb je gegevens "
+                "nodig in plaats van gelijke gevallen.",
+            ],
+        ),
+        dict(
+            aanpak="Schrijf telkens eerst op hoeveel gunstige gevallen er zijn en hoeveel in totaal. "
+                   "Pas daarna deel je.",
+            waarom=[
+                None,
+                "Let erop dat het totaal hier 400 is en niet 240: de vraag gaat over alle leerlingen, "
+                "niet enkel over de meisjes.",
+                "Let erop dat de vraag naar de werkende lampen gaat, dus 9 en niet 3. Lees eerst welke "
+                "gevallen de gunstige zijn.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-kansbomen-product-som-en-complement-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Let op de woordjes in de vraag. En betekent vermenigvuldigen, of betekent optellen, "
+                   "en minstens één vraagt het complement.",
+            waarom=[
+                None,
+                "Let erop dat een twee en een vijf niet samen kunnen vallen bij één worp. Daarom mag je "
+                "hier optellen.",
+                "Let erop dat minstens één bijna altijd via het tegengestelde gaat: de kans op geen "
+                "enkele zes.",
+                None,
+                None,
+                "Let erop dat de voorwaarde elkaar uitsluiten is. Bij harten en een aas bijvoorbeeld "
+                "zou je de hartenaas dubbel tellen.",
+            ],
+        ),
+        dict(
+            aanpak="Teken alle takken en zet bij elke tak haar kans. Langs een pad vermenigvuldig je, en "
+                   "paden naar dezelfde uitkomst tel je op.",
+            waarom=[
+                "Let erop dat er twee paden naar precies één keer kop leiden. Eén pad vergeten halveert "
+                "je antwoord.",
+                "Let erop dat de tweede laag andere kansen heeft: 3 op 9 en niet 4 op 10. Zonder "
+                "terugleggen verandert ook de noemer.",
+            ],
+        ),
+        dict(
+            aanpak="Vergelijk de twee rijen van de tabel: enkel de tweede kans verschilt. Daar zit het "
+                   "hele verschil tussen met en zonder terugleggen.",
+            waarom=[
+                "Let erop dat de eerste kans in beide gevallen dezelfde is. Pas bij de tweede trekking "
+                "scheiden de twee situaties.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Kies eerst de regel, dan reken je. Bij minstens één reken je de kans op geen enkele "
+                   "en trek je die van 1 af.",
+            waarom=[
+                None,
+                None,
+                "Let erop dat minstens één kop het tegengestelde is van twee keer munt, dus 1 min een "
+                "vierde.",
+                "Let erop dat dit niet 2 op 6 is: de kans op geen enkele zes is 25 op 36, en 36 min 25 "
+                "geeft 11.",
+                None,
+                "Let erop dat de twee kansen samen 1 geven. Reken het complement uit en trek pas op het "
+                "einde af.",
+                "Let erop dat minstens één fout het tegengestelde is van alles juist. Eén aftrekking "
+                "vervangt hier drie berekeningen.",
+            ],
+        ),
+        dict(
+            aanpak="Zet de kans per stuk eerst op, en kijk dan of de vraag naar allemaal of naar "
+                   "minstens één gaat. Dat tweede vraagt het complement.",
+            waarom=[
+                None,
+                "Let erop dat minstens één brandt het tegengestelde is van beide stuk. Dat is één "
+                "berekening in plaats van drie gevallen.",
+                "Let erop dat de tweede kans 1 op 19 is, want de eerste leerling is al aangeduid.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-populatie-steekproef-en-representativiteit-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Onderscheid drie dingen per onderzoek: over wie gaat het, wie is er echt gemeten, en "
+                   "wat is er gemeten? Dat zijn de populatie, de steekproef en de variabele.",
+            waarom=[
+                "Let erop dat de variabele altijd een grootheid is met een eenheid, zoals uren per week "
+                "of gram. De mensen zelf zijn de steekproef, niet de variabele.",
+                "Let erop dat je ook de prijs noemt: je wint werk maar krijgt onzekerheid terug. Dat is "
+                "de hele afweging achter een steekproef.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Vraag je bij elke manier van kiezen af: heeft iedereen uit de populatie dezelfde "
+                   "kans om erbij te zijn? Zo niet, zeg dan wie ontbreekt.",
+            waarom=[
+                "Let erop dat je bij een vertekende steekproef ook de richting noemt: hier ligt de "
+                "uitkomst te hoog.",
+                None,
+                None,
+                "Let erop dat wie zich aanmeldt nooit een doorsnede is. Dat heet vrijwillige respons, en "
+                "meer antwoorden helpen er niet tegen.",
+                "Let erop dat een systematische steekproef niet aselect is maar vaak wel bruikbaar. "
+                "Noem de voorwaarde: er mag geen patroon met hetzelfde ritme meelopen.",
+                "Let erop dat de vertekening hier niet in de keuze zit maar in de antwoorden. Ook dat "
+                "maakt een onderzoek scheef.",
+            ],
+        ),
+        dict(
+            aanpak="Hou twee dingen uit elkaar: hoe de steekproef gekozen is, en hoe groot ze is. De "
+                   "manier van kiezen weegt het zwaarst.",
+            waarom=[
+                "Niet waar: een grote scheve steekproef blijft scheef. De manier van kiezen beslist over "
+                "representativiteit.",
+                "Niet waar: op dezelfde manier meer mensen bijnemen vergroot de scheefheid gewoon mee. "
+                "Je moet de opzet veranderen.",
+                None,
+                "Let erop dat dit de steekproeffout is: ook een eerlijke trekking kan toevallig afwijken. "
+                "Die fout wordt kleiner bij een grotere steekproef.",
+                "Let erop dat de verhouding tussen steekproef en populatie minder telt dan de "
+                "aselectheid. Daarom werkt duizend mensen voor miljoenen.",
+                "Niet waar: statistiek geeft een schatting met een onzekerheid erbij, nooit zekerheid.",
+            ],
+        ),
+        dict(
+            aanpak="Hou de twee families letters uit elkaar: Griekse letters voor de populatie, gewone "
+                   "letters voor de steekproef.",
+            waarom=[
+                "Let erop dat het telkens hetzelfde begrip is, maar op een andere groep gemeten. Daarom "
+                "staan ze twee aan twee.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Kijk bij elk besluit of de gemeten groep wel de groep is waarover men spreekt. Mag "
+                   "het niet, zeg dan waarvoor het wel geldt.",
+            waarom=[
+                "Let erop dat je ook zegt waarvoor het besluit wél geldt: voor dat festival.",
+                "Let erop dat je eerste vraag over de manier van kiezen gaat en niet over het aantal. "
+                "Veertig aselect gekozen mensen zeggen meer dan duizend zelf aangemelde.",
+                None,
+                "Let erop dat de vraag twee dingen wil: hoe je de zakken kiest, en wat de variabele is. "
+                "Noem allebei.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-samenhang-en-causaliteit-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Loop de vier verklaringen af voor je kiest: doet de ene de andere, staat het "
+                   "omgekeerd, is er een derde grootheid, of is het puur toeval?",
+            waarom=[
+                "Let erop dat je de verborgen variabele ook met naam noemt. Alleen zeggen dat het geen "
+                "oorzaak is, legt niets uit.",
+                None,
+                "Let erop dat je bij omgewisselde causaliteit het woord mogelijk gebruikt. Uit deze "
+                "cijfers alleen volgt de richting niet.",
+                None,
+                "Let erop dat toeval een echte verklaring is: wie in veel gegevens zoekt, vindt altijd "
+                "paren die samen lopen.",
+                None,
+                None,
+                "Let erop dat hier wél causaliteit staat, en waarom: er is een mechanisme en er is "
+                "gecontroleerd onderzoek. Dat is net wat bij de andere ontbreekt.",
+            ],
+        ),
+        dict(
+            aanpak="Schrijf de kop om met het woord samenhang in plaats van een werkwoord dat een "
+                   "oorzaak suggereert. Noem daarna wat er nog kan meespelen.",
+            waarom=[
+                None,
+                "Let erop dat je ook zegt waarom: een bevraging neemt enkel waar en kan dus geen oorzaak "
+                "aantonen.",
+                "Let erop dat je twee dingen noemt: dat de richting onduidelijk is, en welke verborgen "
+                "variabele kan meespelen.",
+                "Let erop dat je de vergelijking elders voorstelt. Daalde de criminaliteit overal, dan "
+                "zeggen de lampen niets.",
+            ],
+        ),
+        dict(
+            aanpak="Hou in het oog wat een waarnemend onderzoek kan en wat niet. Alleen een experiment "
+                   "met een controlegroep kan een oorzaak aantonen.",
+            waarom=[
+                "Niet waar: samenhang kan ook uit een verborgen variabele, een omgekeerde richting of "
+                "toeval komen.",
+                "Let erop dat negatieve samenhang gewoon betekent dat de ene stijgt als de andere daalt. "
+                "Ook dat is samenhang.",
+                "Niet waar: een verborgen variabele is juist niet gemeten. Daarom valt ze zo moeilijk op.",
+                None,
+                "Niet waar: een onderzoeker moet haar besluit onderbouwen met de opzet van het "
+                "onderzoek. Het gezag van wie het zegt, bewijst niets.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Beschrijf bij een experiment altijd drie dingen: wat je verandert, wat je gelijk "
+                   "houdt, en wat je meet. De controlegroep is het vierde.",
+            waarom=[
+                "Let erop dat je uitdrukkelijk opschrijft wat je gelijk houdt. Juist doordat alleen de "
+                "voeding verschilt, mag je het verschil daaraan toeschrijven.",
+                None,
+                "Let erop dat de vraag twee vragen wil: een mechanisme en een verborgen variabele. Noem "
+                "ze allebei.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-normale-verdeling-en-de-gausskromme-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Hou twee getallen in het oog: het gemiddelde zegt waar de top ligt, de "
+                   "standaardafwijking hoe breed de kromme is. Samen leggen ze de hele verdeling vast.",
+            waarom=[
+                None,
+                None,
+                None,
+                "Let erop dat de oppervlakte altijd 1 is, bij elke normale verdeling. Dat komt doordat "
+                "alle kansen samen 1 geven.",
+                "Let erop dat die drie samenvallen doordat de kromme symmetrisch is. Bij een scheve "
+                "verdeling liggen ze apart.",
+                "Let erop dat het antwoord in de vaste oppervlakte zit: breder kan alleen als ze ook "
+                "lager wordt.",
+            ],
+        ),
+        dict(
+            aanpak="Lees de twee getallen van de grafiek af: de plaats van de top en de breedte. "
+                   "Verschuiven hoort bij het gemiddelde, breder of smaller bij de standaardafwijking.",
+            waarom=[
+                None,
+                "Let erop dat de vraag naar beide getallen vraagt. Even breed betekent dezelfde "
+                "standaardafwijking.",
+                "Let erop dat je beide kanten noemt: meer heel sterke én meer heel zwakke resultaten. "
+                "Een grotere spreiding werkt in twee richtingen.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Reken eerst de grenzen uit met het gemiddelde plus of min een of twee keer de "
+                   "standaardafwijking. Lees daarna het percentage af.",
+            waarom=[
+                "Let erop dat je de standaardafwijking optelt en aftrekt, dus 8 naar beide kanten en "
+                "daarna 16 naar beide kanten.",
+                None,
+                "Let erop dat 130 twee standaardafwijkingen boven het gemiddelde ligt. Boven die grens "
+                "zit de helft van de 5 procent.",
+                "Let erop dat je de 5 procent over twee staarten verdeelt, dus 2,5 procent per kant.",
+                "Let erop dat je de afstand eerst in standaardafwijkingen omrekent. Pas dan kan je zeggen "
+                "of een score uitzonderlijk is.",
+            ],
+        ),
+        dict(
+            aanpak="Denk aan oppervlakte in plaats van aan hoogte: een kans is de oppervlakte onder de "
+                   "kromme boven een stuk van de as.",
+            waarom=[
+                "Let erop dat de kromme symmetrisch is rond het gemiddelde, dus elke helft is 0,5.",
+                None,
+                "Let erop dat een kans altijd over een interval gaat. Daarom vraagt een opgave naar "
+                "minder dan, meer dan of tussen.",
+                "Let erop dat de rekenapps hiervoor toegelaten zijn. Dit soort oppervlakte kan je niet "
+                "met de hand berekenen.",
+                "Niet waar: de kromme nadert de as maar raakt ze nooit. De kans wordt heel klein, maar "
+                "nooit precies nul.",
+            ],
+        ),
+        dict(
+            aanpak="Kijk naar de vorm van het histogram. Klokvormig en symmetrisch past bij het model, "
+                   "een lange staart naar één kant niet.",
+            waarom=[
+                None,
+                "Let erop dat het woord scheef hier het hele antwoord is: enkele heel hoge inkomens "
+                "trekken de staart naar rechts.",
+                None,
+                "Let erop dat de vraag vier dingen wil: twee stappen en twee getallen. Noem het "
+                "histogram, de kromme erover, en het gemiddelde en de standaardafwijking.",
+            ],
+        ),
+    ],
+)
