@@ -3058,3 +3058,2496 @@ OEFENBUNDELS["oefenbundel-programmeren-algoritmen-en-structuren-beyond"] = dict(
     ],
 )
 
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-machtswortels-machten-en-logaritmen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zet een negatieve exponent eerst om in een breuk, en pas dan de rekenregels toe. "
+                   "Bij een breuk met een negatieve exponent keer je de breuk om.",
+            waarom=[
+                "Let op het laatste: min 2 tot de vierde is positief, want de exponent is even. Had er "
+                "min 2 tot de derde gestaan, dan was het antwoord negatief.",
+                "Let op de tweede: een negatieve exponent in de noemer wordt positief in de teller. "
+                "b tot de min 2 gedeeld door b tot de min 5 geeft b tot de derde.",
+                "Let erop dat je de exponenten optelt tot één exponent: x plus 2x min 1 is 3x min 1. "
+                "Pas als de grondtallen gelijk zijn, mag je de exponenten gelijkstellen.",
+            ],
+        ),
+        dict(
+            aanpak="Lees een rationale exponent als twee bewerkingen: de noemer is de wortelexponent, "
+                   "de teller de macht. Neem altijd eerst de wortel, dan blijven de getallen klein.",
+            waarom=[
+                "Let erop dat je bij 16 tot de drie vierde eerst de vierdemachtswortel neemt, dus 2, en "
+                "dan tot de derde verheft. Omgekeerd zou je met 4096 moeten werken.",
+                "Let op de laatste: de vijfdemachtswortel van a tot de tiende maal b tot de vijfde geeft "
+                "a kwadraat maal b. Elke exponent wordt door 5 gedeeld.",
+                "Let erop dat je de exponent omkeert: uit x tot de twee vijfde volgt x gelijk aan 4 tot "
+                "de vijf halve, en dat is 32.",
+                "Noem beide stappen bij naam, zoals de vraag vraagt: eerst de derdemachtswortel, dan "
+                "het kwadraat.",
+                "Niet waar: een even wortel van een negatief getal bestaat niet in R. Geen enkel reëel "
+                "getal tot de vierde geeft min 16.",
+                None,
+                "Niet waar: de wortel van x kwadraat is de absolute waarde van x. Voor x gelijk aan min "
+                "3 geeft het 3 en niet min 3.",
+            ],
+        ),
+        dict(
+            aanpak="Zoek in de wortel een volkomen macht en haal die eruit. Bij een noemer met een "
+                   "wortel vermenigvuldig je met de toegevoegde vorm.",
+            waarom=[
+                "Let op het laatste: beide wortels worden eerst vereenvoudigd tot 2 wortel 5 en 3 "
+                "wortel 5. Pas dan kan je optellen, want nu zijn het gelijke termen.",
+                "Let op de tweede: je vermenigvuldigt teller en noemer met wortel 3 min 1. De noemer "
+                "wordt dan 3 min 1, dus 2.",
+                "Let erop dat een even wortelexponent eist dat wat eronder staat niet negatief is: 5 "
+                "min x groter dan of gelijk aan 0.",
+                "Let erop dat één tegenvoorbeeld genoeg is. En noem de regel die wel geldt: een wortel "
+                "verdeelt zich over een product en een quotiënt.",
+            ],
+        ),
+        dict(
+            aanpak="Lees een logaritme als een vraag: tot welke macht moet ik het grondtal verheffen om "
+                   "dit getal te krijgen? Bij log zonder grondtal is het 10, bij ln is het e.",
+            waarom=[
+                None,
+                "Let op het eerste: een grondtal kleiner dan 1 geeft een negatieve uitkomst, want een "
+                "derde tot de min 2 is 9. En let op het laatste: de twee logaritmen schakelen aan "
+                "elkaar tot log met grondtal 3 van 81.",
+                "Let erop dat een som van logaritmen een product wordt en een verschil een quotiënt. "
+                "Een factor vooraan wordt een exponent, en een half wordt een wortel.",
+                "Let erop dat de noemer met een minteken komt: de drie machten van y geven min 3 en de "
+                "wortel van z geeft min een half.",
+                "Noem de reden: 1 tot de macht x blijft altijd 1. Daarom levert de vraag geen enkel "
+                "antwoord op, behalve voor het getal 1 zelf, en dan oneindig veel.",
+            ],
+        ),
+        dict(
+            aanpak="Bij een logaritmische vergelijking schrijf je eerst het domein op, want wat onder de "
+                   "logaritme staat moet positief zijn. Bij een exponentiële vergelijking neem je de "
+                   "logaritme van beide leden.",
+            waarom=[
+                None,
+                "Let erop dat je een exacte vorm mag laten staan: ln 15 gedeeld door ln 2. Pas daarna "
+                "mag je benaderen.",
+                "Noem het domein als reden: x moet groter zijn dan 6, dus min 3 valt weg. Daarom is het "
+                "domein opschrijven geen formaliteit.",
+                "Let erop dat 3 tot de 2x gelijk is aan het kwadraat van 3 tot de x. Daarom werkt de "
+                "hulponbekende t, en vergeet niet terug te keren naar x.",
+                "Let erop dat enkel bij een onbekende in de exponent een logaritme nodig is. De drie "
+                "andere los je op met een wortel of met gewone bewerkingen.",
+            ],
+        ),
+        dict(
+            aanpak="Schrijf bij een toepassing eerst de vergelijking op met de groeifactor erin, en "
+                   "reken dan pas. Bij volle jaren rond je naar boven af.",
+            waarom=[
+                "Let erop dat je naar boven afrondt: na 13 jaar is het nog geen anderhalve keer zoveel. "
+                "De groeifactor is 1,03 en niet 0,03.",
+                "Let erop dat de exponent het aantal halveringstijden is: 30 gedeeld door 8, dus 3,75. "
+                "Een halve halveringstijd bestaat in deze formule gewoon.",
+                "Let erop dat het antwoord niet van de beginwaarde afhangt: verdubbelen geeft altijd 10 "
+                "log 2, ongeveer 3 decibel. Dat is wat een logaritmische schaal doet.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-veeltermen-deelbaarheid-en-horner-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De reststelling zegt: de rest van een deling door x min a is P(a). Vul dus het "
+                   "getal in waarvoor de deler nul wordt, en je hoeft niet te delen.",
+            waarom=[
+                "Let op het teken: bij x plus 1 vul je min 1 in. Daar gaat het het vaakst mis.",
+                "Let erop dat deelbaar betekent dat de rest nul is. Je stelt dus P(3) gelijk aan nul en "
+                "lost naar k op.",
+                "Let erop dat je P van min 2 moet berekenen en niet P van 2. De deler x plus 2 wordt nul "
+                "bij min 2.",
+            ],
+        ),
+        dict(
+            aanpak="Zet links in het schema het getal waarvoor de deler nul wordt, en bovenaan alle "
+                   "coëfficiënten, ook de nullen. Het laatste getal onderaan is de rest.",
+            waarom=[
+                "Let op de laatste rij: bij 2x min 1 wordt de deler nul bij een half. Het teken keert "
+                "dus om en de coëfficiënt vooraan telt mee.",
+                "Let erop dat een vierdegraadsveelterm vijf coëfficiënten heeft, van graad 4 tot graad "
+                "0. Hier moeten er dus twee nullen tussen.",
+                "Noem de reden: elke graad krijgt een plaats. Zonder die nul schuiven de coëfficiënten "
+                "op en klopt het hele schema niet meer.",
+                "Let erop dat de rest nul is, dus x min 3 is een deler. Daarna ontbind je het quotiënt "
+                "verder, en zo krijg je de volledige ontbinding.",
+                None,
+                "Niet waar: Horner werkt enkel bij een deler van de vorm x min a. Voor een deler van de "
+                "tweede graad doe je de staartdeling.",
+            ],
+        ),
+        dict(
+            aanpak="Twee regels volstaan: de graad van het quotiënt is de graad van het deeltal min die "
+                   "van de deler, en de rest heeft een graad die strikt lager is dan de deler.",
+            waarom=[
+                "Let op de laatste rij: de rest mag hier tot graad 2 gaan, want de deler is van graad "
+                "3. Hoogstens betekent dat ze ook lager kan zijn.",
+                "Let erop dat je ook de voorwaarde op de graad van de rest vermeldt. Zonder die "
+                "voorwaarde zou de deling niet uniek zijn.",
+            ],
+        ),
+        dict(
+            aanpak="Zoek altijd eerst een gemeenschappelijke factor, dan een merkwaardig product, en pas "
+                   "als dat niet lukt een nulwaarde onder de delers van de constante term.",
+            waarom=[
+                "Let op het verschil tussen de eerste twee: een verschil van kwadraten geeft twee "
+                "factoren, een volkomen kwadraat geeft er één die je kwadrateert.",
+                "Let op de som van derde machten bij x derde plus 27, en op x vierde min 81: daar blijft "
+                "x kwadraat plus 9 staan, want een som van kwadraten ontbindt niet in R.",
+                "Let erop dat je bij de tweede factor de discriminant nakijkt: die is min 3, dus "
+                "negatief, en daar stopt het ontbinden in R.",
+                "Let erop dat je de delers van 6 probeert: 1, 2, 3, 6 en hun tegengestelden. Bij x "
+                "gelijk aan 2 is de rest nul, en daarna ontbind je de tweedegraadsfactor.",
+                "Let erop dat x vierde plus 4 nooit nul wordt: een vierde macht is nooit negatief, dus "
+                "er komt altijd minstens 4 uit.",
+                "Let erop dat je de som van de nulwaarden zonder te rekenen vindt: min b gedeeld door a, "
+                "dus 10 gedeeld door 2.",
+                None,
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-vergelijkingen-en-ongelijkheden-oplossen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Drie dingen kunnen misgaan: een even wortel van een negatief getal, een logaritme "
+                   "van nul of minder, en een noemer die nul wordt. Zoek die drie, en anders is er geen "
+                   "voorwaarde.",
+            waarom=[
+                "Let op het verschil tussen de eerste twee: onder een wortel mag 0 staan, onder een "
+                "logaritme niet. En een derdemachtswortel heeft geen voorwaarde, want die bestaat ook "
+                "voor negatieve getallen.",
+            ],
+        ),
+        dict(
+            aanpak="Kijk eerst waar de onbekende staat. Staat ze in de exponent, dan heb je een "
+                   "logaritme nodig; staat ze onder een wortel of een logaritme, dan moet je achteraf "
+                   "elke oplossing controleren.",
+            waarom=[
+                "Let op het verschil tussen de tweede en de derde: bij x kwadraat gelijk aan 16 zijn er "
+                "twee oplossingen, bij 2 tot de x gelijk aan 16 maar één. Een exponentiële functie "
+                "neemt elke waarde juist één keer aan.",
+                "Let erop dat de absolute waarde twee gevallen geeft, en dat x vierde min 5 x kwadraat "
+                "plus 4 een bikwadratische vergelijking is: stel t gelijk aan x kwadraat en vergeet niet "
+                "terug te keren.",
+                None,
+                "Let erop dat je het domein al vóór het rekenen opschrijft: zowel x als x min 4 moet "
+                "positief zijn, dus x groter dan 4.",
+                None,
+                None,
+                "Niet waar: wat je wegdeelt, kan nul zijn, en dan verlies je een oplossing. Breng alles "
+                "naar één lid en ontbind in factoren.",
+            ],
+        ),
+        dict(
+            aanpak="Reken b kwadraat min 4ac uit. Positief geeft twee oplossingen, nul geeft er één, "
+                   "negatief geen enkele in R.",
+            waarom=[
+                "Let op de eerste rij: een discriminant gelijk aan nul betekent niet geen oplossing maar "
+                "juist één, want x kwadraat min 4x plus 4 is het kwadraat van x min 2.",
+            ],
+        ),
+        dict(
+            aanpak="Bij een ongelijkheid gaat het om tekens, niet om één getal: breng alles naar één "
+                   "lid, zoek de nulwaarden en zet ze op een as met het teken van elk stuk ertussen.",
+            waarom=[
+                "Let op het laatste: de nulwaarden 2 en 4 verdelen de as in drie stukken, en het "
+                "middelste valt weg. Het antwoord bestaat dus uit twee stukken.",
+                "Let op de derde: bij een breuk hoort de nulwaarde van de noemer er nooit bij, ook niet "
+                "bij groter dan of gelijk aan.",
+                None,
+                None,
+                "Let erop dat x kwadraat plus 4 altijd minstens 4 is, dus de ongelijkheid geldt overal. "
+                "Zoeken naar nulwaarden levert hier niets op, want er zijn er geen.",
+                "Niet waar: de oplossing van een ongelijkheid is bijna altijd een interval, dus "
+                "oneindig veel getallen. Hoogstens twee is de regel voor een vierkantsvergelijking.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-een-functie-aflezen-van-haar-grafiek-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Het domein zijn alle x-waarden die je mag invullen. Zoek dus de noemers die nul "
+                   "worden en wat onder een even wortel of in een logaritme staat.",
+            waarom=[
+                "Let op de laatste rij: daar gelden twee voorwaarden samen, en bij de logaritme is 0 zelf "
+                "uitgesloten, vandaar het open interval.",
+                "Let erop dat het bereik over de y-waarden gaat: een kwadraat is nooit negatief, dus de "
+                "kleinste waarde is 1.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Vul min x in. Komt dezelfde functie eruit, dan is ze even; komt min f(x) eruit, dan "
+                   "is ze oneven; komt er iets anders uit, dan is ze geen van beide.",
+            waarom=[
+                "Let op de derde rij: x kwadraat plus x is geen van beide, want het kwadraat blijft "
+                "gelijk en de x keert van teken. Eén term die niet meewerkt, is al genoeg.",
+                "Niet waar: symmetrie om de oorsprong hoort bij een oneven functie. Een even functie is "
+                "symmetrisch om de y-as.",
+            ],
+        ),
+        dict(
+            aanpak="Stijgen of dalen zegt welke richting de grafiek uitgaat, hol of bol zegt hoe ze "
+                   "buigt. Pas de twee samen geven het verloop.",
+            waarom=[
+                "Let erop dat de eerste twee allebei stijgen: het verschil zit enkel in hol of bol, dus "
+                "in hoe snel de stijging verandert.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Een verticale asymptoot zoek je waar de noemer nul wordt. Voor de horizontale "
+                   "vergelijk je de graad van teller en noemer.",
+            waarom=[
+                "Let op de drie gevallen: gelijke graden geven de verhouding van de coëfficiënten, een "
+                "kleinere teller geeft y gelijk aan 0, en een grotere teller geeft geen horizontale "
+                "asymptoot.",
+                "Niet waar: een veelterm zoals x kwadraat heeft er geen enkele. Asymptoten hoor je bij "
+                "breuken, wortels, exponentiële en logaritmische functies te verwachten.",
+            ],
+        ),
+        dict(
+            aanpak="De inverse draait de bewerking om. Schrijf y gelijk aan het voorschrift, verwissel x "
+                   "en y, en los op naar y.",
+            waarom=[
+                "Let op de laatste: 1 gedeeld door x is haar eigen inverse. Dat komt doordat haar "
+                "grafiek al symmetrisch ligt om de rechte y gelijk aan x.",
+                None,
+                None,
+                "Let erop dat x kwadraat twee x-waarden op dezelfde y-waarde stuurt, bijvoorbeeld 3 en "
+                "min 3 op 9. Enkel op de positieve helft is ze inverteerbaar.",
+                None,
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-tweedegraadsfuncties-en-transformaties-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De x van de top is min b gedeeld door 2a, en die vul je in om de y te vinden. Het "
+                   "teken van a zegt of het een dal of een berg is.",
+            waarom=[
+                "Let op de derde rij: de discriminant is negatief, dus er zijn geen nulwaarden, maar de "
+                "top bestaat wel. Een parabool zonder nulwaarden ligt volledig boven of volledig onder "
+                "de as.",
+                None,
+                "Let erop dat het bereik bij een bergparabool naar beneden open staat: de top is de "
+                "hoogste waarde, dus alles tot en met 1.",
+            ],
+        ),
+        dict(
+            aanpak="In de topvorm a maal het kwadraat van x min p, plus q, lees je de top meteen af als "
+                   "(p, q). Let op het teken: x plus 4 betekent p gelijk aan min 4.",
+            waarom=[
+                "Let op de derde en de vierde: bij x plus 4 is de x van de top min 4, en een factor "
+                "vooraan verandert de top niet.",
+                "Let erop dat je de helft van 8 kwadrateert: x kwadraat min 8x wordt het kwadraat van x "
+                "min 4, min 16. Samen met de 11 geeft dat min 5.",
+                None,
+                "Let erop dat raken betekent juist één snijpunt, dus discriminant nul. Twee snijpunten "
+                "zou een positieve discriminant geven.",
+            ],
+        ),
+        dict(
+            aanpak="Wat binnen de haakjes bij de x staat, werkt horizontaal en omgekeerd aan wat je "
+                   "verwacht; wat erbuiten staat, werkt verticaal en gewoon zoals je leest.",
+            waarom=[
+                "Let op het verschil tussen de tweede en de derde: min 7 binnen de haakjes schuift naar "
+                "rechts en plus 2 naar links. Horizontaal gaat het dus tegen je gevoel in.",
+                "Let erop dat de volgorde telt: eerst wat in de haakjes staat, dan het uitrekken en het "
+                "spiegelen, en pas daarna het verschuiven omhoog.",
+                "Let erop dat een nulwaarde een plaats op de x-as is: 3 maal nul blijft nul, dus "
+                "verticaal uitrekken verandert er niets aan. Verschuiven wel.",
+                "Niet waar: een factor groter dan 1 maakt de parabool smaller. Breder wordt ze bij een "
+                "factor tussen 0 en 1.",
+                None,
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Zet eerst op wat de top en wat de nulwaarden betekenen in de context. Het hoogste "
+                   "punt vraagt de top, terug op de grond vraagt de nulwaarden.",
+            waarom=[
+                None,
+                "Let erop dat je ontbindt in plaats van de discriminant te gebruiken: min 5t maal t min "
+                "4 geeft de twee tijden meteen. En t gelijk aan 0 is het ogenblik van het opgooien.",
+                "Let erop dat er maar drie zijden draad krijgen: de muur vormt de vierde. Daarom staat "
+                "er 2x in plaats van 4x, en komt er een vierkant uit.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-exponentiele-en-logaritmische-functies-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Een grondtal groter dan 1 geeft een stijgende grafiek, een grondtal tussen 0 en 1 "
+                   "een dalende. De asymptoot ligt op y gelijk aan 0, tenzij er een getal buiten de "
+                   "macht bij komt.",
+            waarom=[
+                "Let op de laatste twee rijen: plus 3 schuift de asymptoot mee naar y gelijk aan 3, maar "
+                "het minteken vooraan spiegelt enkel en laat de asymptoot op haar plaats.",
+                "Let erop dat elk grondtal tot de macht 0 gelijk is aan 1. Daarom gaan al die grafieken "
+                "door hetzelfde punt.",
+                None,
+                "Niet waar: de grafiek komt er altijd dichter bij, maar raakt ze nooit. Een macht van "
+                "een positief grondtal wordt nooit nul.",
+                "Let erop dat de factor 3 het bereik niet verandert, want 3 maal iets positiefs blijft "
+                "positief. Enkel het verschuiven met min 6 verlegt de ondergrens.",
+            ],
+        ),
+        dict(
+            aanpak="Lees elke logaritme als een vraag: tot welke macht moet het grondtal om dit getal te "
+                   "geven? Zo heb je geen rekentoestel nodig.",
+            waarom=[
+                "Let op de derde en de zesde: een grondtal kleiner dan 1 geeft een negatieve uitkomst, "
+                "en een wortel geeft een halve exponent.",
+                "Let erop dat het argument een hele uitdrukking is: je lost dus eerst de ongelijkheid x "
+                "kwadraat min 9 groter dan 0 op, en dat geeft twee stukken.",
+            ],
+        ),
+        dict(
+            aanpak="Kan je beide leden als een macht van hetzelfde grondtal schrijven, dan stel je de "
+                   "exponenten gelijk. Kan dat niet, dan neem je de logaritme.",
+            waarom=[
+                "Let erop dat je bij 5 tot de 2x gelijk aan 125 de exponenten gelijkstelt: 2x gelijk aan "
+                "3, dus anderhalf. Een niet-geheel antwoord is hier gewoon juist.",
+                "Let erop dat je de exacte vorm eerst opschrijft en pas daarna benadert. Een afgerond "
+                "getal in een verdere berekening sleept zijn fout mee.",
+                "Let erop dat je de bestaansvoorwaarden vóór het rekenen opschrijft: zo zie je meteen "
+                "dat min 2 geen oplossing kan zijn.",
+                "Let erop dat 4 tot de x het kwadraat is van 2 tot de x. Daarom werkt de hulponbekende "
+                "t, en vergeet de laatste stap niet: van t terug naar x.",
+            ],
+        ),
+        dict(
+            aanpak="Een groeifactor is 1 plus het groeipercentage, of 1 min het dalingspercentage. Bij "
+                   "een andere tijdseenheid verhef je de factor tot het aantal perioden.",
+            waarom=[
+                "Let op de laatste rij: je telt de maandpercentages niet op maar verheft de factor tot "
+                "de twaalfde. Daarom komt er ruim 27 procent uit en niet 24.",
+                "Let erop dat de factor 1 geen groei betekent: het aantal blijft precies gelijk.",
+            ],
+        ),
+        dict(
+            aanpak="Reken twee keer: trek twee opeenvolgende getallen van elkaar af, en deel ze ook door "
+                   "elkaar. Een vast verschil is lineair, een vaste factor exponentieel.",
+            waarom=[
+                "Let op de derde rij: de verschillen zijn 10, 9 en 8,1, maar de factor is telkens 0,9. "
+                "Een dalende reeks kan dus even goed exponentieel zijn.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Schrijf eerst het model op in de vorm beginwaarde maal groeifactor tot de macht t, "
+                   "en reken dan pas. Vraagt de vraag naar een tijd, dan heb je een logaritme nodig.",
+            waarom=[
+                None,
+                "Let erop dat de verdubbelingstijd niet van het bedrag afhangt: duizend of honderdduizend "
+                "euro verdubbelt in dezelfde tijd. En de vuistregel 100 gedeeld door het percentage zit "
+                "er hier ver naast.",
+                "Let erop dat de exponent niet geheel hoeft te zijn: 2,5 halveringstijden kan je gewoon "
+                "invullen, want de formule geldt ook tussen twee halveringen.",
+                "Let erop dat je naar boven afrondt: na 22 uur zit je er nog onder, dus het antwoord is "
+                "23 volle uren.",
+                "Let erop dat de logaritme van 0,82 negatief is, dus het ongelijkheidsteken draait om. "
+                "Dat is bij een dalend model de klassieke valkuil.",
+                "Let erop dat 10 procent eraf niet hetzelfde is als 10 procent erbij ongedaan maken: het "
+                "tweede percentage rekent op een groter getal. Je verliest dus 1 procent.",
+                "Let erop dat de onbekende in de exponent staat, en dat vraagt altijd een logaritme. De "
+                "andere drie zijn rekenregels die hier niet bestaan.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-goniometrische-functies-en-goniometrie-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Van graden naar radialen vermenigvuldig je met pi gedeeld door 180, en omgekeerd met "
+                   "180 gedeeld door pi. Laat pi in het antwoord staan en vereenvoudig de breuk.",
+            waarom=[
+                "Let erop dat je de breuk vereenvoudigt: 120 maal pi gedeeld door 180 wordt 2 pi gedeeld "
+                "door 3. Een onvereenvoudigde breuk is hier geen net antwoord.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Kijk eerst wat je kent. Twee zijden met de hoek ertussen, of de drie zijden, vraagt "
+                   "de cosinusregel; alle andere gevallen de sinusregel.",
+            waarom=[
+                "Let op de laatste rij: met enkel twee hoeken ken je de vorm van de driehoek maar niet "
+                "haar grootte. Je hebt dus minstens één zijde nodig.",
+                "Let erop dat de cosinus van 60 graden gelijk is aan een half, dus de correctieterm is "
+                "28 en niet 56. Zonder die term zou je de stelling van Pythagoras gebruiken, en de hoek "
+                "is hier niet recht.",
+                "Let erop dat de zijde tegenover de gezochte hoek alleen staat in de formule: a kwadraat "
+                "wordt afgetrokken, b en c worden opgeteld.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Zet de hoek op de cirkel en lees het punt af. De x-coördinaat is de cosinus, de "
+                   "y-coördinaat de sinus.",
+            waarom=[
+                "Let op de kolomorde: hier wordt eerst de sinus gevraagd. Bij 0 graden is de sinus 0 en "
+                "de cosinus 1, en bij 90 graden net omgekeerd.",
+                "Let erop dat twee supplementaire hoeken op dezelfde hoogte liggen maar aan weerszijden "
+                "van de y-as. Daarom is de sinus gelijk en de cosinus tegengesteld.",
+            ],
+        ),
+        dict(
+            aanpak="Uit de grondformule volgt de ene uit de andere, maar het teken komt uit het "
+                   "kwadrant. Bepaal dus eerst waar de hoek ligt.",
+            waarom=[
+                None,
+                "Let erop dat de sinus in het tweede kwadrant positief is, ook al is de cosinus er "
+                "negatief. Het kwadrant beslist over het teken, de grondformule enkel over het getal.",
+                "Let erop dat de tangens de sinus gedeeld door de cosinus is: de vijfden vallen tegen "
+                "elkaar weg.",
+                "Let erop dat één tegenvoorbeeld al genoeg is om te besluiten. En noem de juiste formule: "
+                "sin 2x is 2 sin x cos x.",
+            ],
+        ),
+        dict(
+            aanpak="Het getal vóór de sinus is de amplitude, het getal bij de x bepaalt de periode, en "
+                   "het losse getal achteraan schuift de evenwichtslijn.",
+            waarom=[
+                "Let op het verschil tussen de eerste twee rijen: 4 sin x verandert de amplitude, sin 4x "
+                "de periode. En een minteken vooraan spiegelt de grafiek maar maakt de amplitude niet "
+                "negatief.",
+                "Let erop dat je de amplitude uit het halve verschil haalt, 5 min 1 gedeeld door 2, en "
+                "de evenwichtslijn uit het gemiddelde.",
+                "Let erop dat het bereik rond de evenwichtslijn min 1 ligt, met 3 naar boven en 3 naar "
+                "beneden.",
+            ],
+        ),
+        dict(
+            aanpak="Deze formules moet je kennen. Leer ze met hun naam erbij: de "
+                   "verdubbelingsformules en de tekenregels voor een tegengestelde hoek.",
+            waarom=[
+                "Let erop dat cos 2x een verschil van kwadraten is, geen product. Die twee verwar je "
+                "makkelijk met elkaar.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Kijk telkens naar de cirkel. De sinus en de cosinus zijn coördinaten op een cirkel "
+                   "met straal 1, en dus nooit groter dan 1 of kleiner dan min 1.",
+            waarom=[
+                None,
+                None,
+                "Niet waar: de amplitude is een afstand, dus altijd positief. Bij min 3 sin x is ze 3; "
+                "het minteken spiegelt alleen.",
+                "Niet waar: de tangens kan elke waarde aannemen en loopt naar oneindig bij 90 graden. "
+                "Enkel de sinus en de cosinus blijven tussen min 1 en 1.",
+                None,
+                "Niet waar: een identiteit moet voor élke hoek gelden, dus je moet ze uitwerken. Een "
+                "paar hoeken invullen kan ze enkel ontkrachten, niet bewijzen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-limieten-continuiteit-en-asymptoten-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vul eerst gewoon in. Komt er een getal uit, dan ben je klaar; komt er nul gedeeld "
+                   "door nul uit, dan ontbind je eerst; gaat x naar oneindig, dan vergelijk je de "
+                   "hoogste graden.",
+            waarom=[
+                "Let op de tweede: ontbinden geeft x plus 3, en dan vul je 3 in. Zonder ontbinden lijkt "
+                "de limiet niet te bestaan, terwijl ze gewoon 6 is.",
+                "Let erop dat je bij de tweede op het teken let: een derde graad gedeeld door een tweede "
+                "graad gedraagt zich als x, en x gaat hier naar min oneindig.",
+                "Let erop dat het verschil in het teken van de noemer zit. Dat is precies waarom je bij "
+                "een pool de linker- en de rechterlimiet apart bekijkt.",
+            ],
+        ),
+        dict(
+            aanpak="Een onbepaaldheid is een vorm waar je niets uit kan afleiden. Nul gedeeld door nul "
+                   "en oneindig gedeeld door oneindig zijn er twee; een getal gedeeld door nul is er "
+                   "geen.",
+            waarom=[
+                "Let op de tweede rij: 2 gedeeld door 0 is geen onbepaaldheid maar een pool, en de "
+                "limiet is daar plus of min oneindig. Enkel het teken moet je nog bekijken.",
+            ],
+        ),
+        dict(
+            aanpak="Leid teller en noemer apart af, niet als een quotiënt. Vul daarna opnieuw in, en "
+                   "herhaal als er weer een onbepaaldheid staat.",
+            waarom=[
+                "Let erop dat dit het klassieke voorbeeld is: de limiet is 1, dus dicht bij nul is de "
+                "sinus van x bijna gelijk aan x zelf.",
+                "Let erop dat je na het afleiden mag invullen zonder nog te ontbinden. Je mag hier ook "
+                "ontbinden: dan staat er x plus 2 gedeeld door x min 1, ook 4.",
+                "Let erop wat dit zegt: de logaritme groeit trager dan x. Daarom gaat de breuk naar nul "
+                "en niet naar 1.",
+            ],
+        ),
+        dict(
+            aanpak="Continu betekent dat je de grafiek daar kan tekenen zonder je pen op te heffen. Een "
+                   "knik mag dus, een gat of een sprong niet.",
+            waarom=[
+                "Let op de derde rij: de absolute waarde heeft een knik in nul maar geen gat, dus ze is "
+                "er continu. Niet afleidbaar en niet continu zijn twee verschillende dingen.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Verticaal zoek je waar de noemer nul wordt. Voor de rest vergelijk je de graden: "
+                   "gelijk geeft horizontaal, teller één hoger geeft schuin.",
+            waarom=[
+                "Let op de laatste twee rijen: daar is de teller één graad hoger, dus de asymptoot is "
+                "schuin. Je vindt haar door uit te delen, en bij de laatste is dat x min 2, niet x.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Hou twee dingen apart: wat de functie doet in een punt, en wat ze doet in de buurt "
+                   "van dat punt. Een limiet gaat altijd over de buurt.",
+            waarom=[
+                "Niet waar: 2 gedeeld door 0 is geen onbepaaldheid. De regel geldt enkel bij nul "
+                "gedeeld door nul of oneindig gedeeld door oneindig.",
+                "Let erop dat een asymptoot geen verbod is maar een richting op lange termijn. Ze mag "
+                "dus best gesneden worden.",
+                "Niet waar: een parabool blijft stijgen, dus haar limiet is oneindig en geen getal.",
+                "Niet waar: de limiet gaat over de buurt van a, niet over a zelf. Daarom bestaat de "
+                "limiet van de sinus van x gedeeld door x in nul, al bestaat de functie er niet.",
+                "Let erop dat het omgekeerde niet geldt: de absolute waarde is continu in nul maar daar "
+                "niet afleidbaar.",
+                "Niet waar: bij een verticale asymptoot bestaat de functie daar niet, dus er valt niets "
+                "te snijden. Dat is het verschil met een horizontale.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-afgeleiden-en-het-verloop-van-een-functie-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Kijk eerst naar de bouw van het voorschrift. Een som leid je term per term af, een "
+                   "product en een quotiënt hebben hun eigen regel, en iets binnen iets anders vraagt de "
+                   "kettingregel.",
+            waarom=[
+                "Let erop dat de afgeleide van een rechte het getal vóór de x is: de min 3 verdwijnt, "
+                "want een constante verandert niet.",
+                "Let op de derde: de productregel geeft twee termen. En bij de vierde haal je met de "
+                "kettingregel de factor 2 naar buiten: 3 maal het kwadraat maal 2 geeft 6.",
+            ],
+        ),
+        dict(
+            aanpak="Schrijf de regel die je gebruikt er telkens bij. Zo zie je zelf waar een "
+                   "rekenfout zit, en kan je ze gericht verbeteren.",
+            waarom=[
+                "Let erop dat bij de eerste de teller van de quotiëntregel netjes vereenvoudigt: x plus "
+                "1 min x geeft 1. De noemer blijft gekwadrateerd staan.",
+                "Let erop dat één tegenvoorbeeld de regel onderuit haalt. Daarom bestaat de productregel "
+                "met zijn twee termen.",
+            ],
+        ),
+        dict(
+            aanpak="Een raaklijn heb je met twee dingen: de helling, dat is de afgeleide in dat punt, en "
+                   "het raakpunt zelf. Vul die in de vergelijking van een rechte in.",
+            waarom=[
+                "Let erop dat je de y van het raakpunt uit f haalt en niet uit de afgeleide: 4 en niet "
+                "min 4.",
+                "Let erop dat een afgeleide altijd een verandering per eenheid is. Bij een weg in "
+                "functie van de tijd is dat dus een snelheid.",
+                "Let op het verschil met een afgeleide: de gemiddelde verandering is het verschil van de "
+                "functiewaarden gedeeld door het verschil van de x-waarden, dus 16 min 4 gedeeld door 2.",
+                "Let erop dat 3 x kwadraat min 3 nul wordt in 1. Dat betekent dat de grafiek daar "
+                "horizontaal loopt.",
+            ],
+        ),
+        dict(
+            aanpak="Het teken van de eerste afgeleide zegt of de functie stijgt of daalt, dat van de "
+                   "tweede of ze hol of bol is. Zet beide in een tekenschema onder elkaar.",
+            waarom=[
+                "Let erop dat je met de tweede afgeleide ook meteen weet welk extremum het is: negatief "
+                "geeft een maximum, positief een minimum. Dat spaart een tekenschema uit.",
+                "Let erop dat de laatste rij een tekenwissel eist: f dubbel priem gelijk aan nul alleen "
+                "is niet genoeg voor een buigpunt.",
+            ],
+        ),
+        dict(
+            aanpak="Zet eerst de oppervlakte of het volume in één onbekende, met de gegeven voorwaarde "
+                   "erin verwerkt. Leid dan af en zoek de nulwaarde.",
+            waarom=[
+                "Let erop dat de omtrek 40 geeft dat breedte plus lengte 20 is, niet 40. Daar gaat het "
+                "het vaakst mis.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Hou de eerste en de tweede afgeleide goed uit elkaar: de eerste gaat over stijgen en "
+                   "dalen, de tweede over hol en bol.",
+            waarom=[
+                "Niet waar: bij x tot de derde is de afgeleide nul in 0, maar de functie blijft stijgen. "
+                "Dat is een buigpunt met een horizontale raaklijn.",
+                "Let erop dat een hoekpunt ook een maximum kan zijn, zoals de top van min de absolute "
+                "waarde van x. De afgeleide bestaat daar niet, de top wel.",
+                "Niet waar: de afgeleide van e tot de x is e tot de x. De regel met de exponent vooraan "
+                "geldt voor x tot de n, waar de onbekende het grondtal is.",
+                "Niet waar: in een buigpunt is f dubbel priem nul. De eerste afgeleide mag daar elke "
+                "waarde hebben.",
+                None,
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-rijen-en-hun-limiet-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Reken twee keer: trek twee opeenvolgende termen van elkaar af, en deel ze ook door "
+                   "elkaar. Een vast verschil is rekenkundig, een vaste factor meetkundig.",
+            waarom=[
+                "Let op de laatste rij: een negatieve factor mag, en dan springt de rij heen en weer "
+                "rond nul. Ook dat is meetkundig.",
+            ],
+        ),
+        dict(
+            aanpak="Vul het eerste getal en het vaste getal in de formule in, en werk de haakjes dan "
+                   "helemaal uit tot er een nette vorm staat.",
+            waarom=[
+                "Let erop dat je bij een rekenkundige rij uitwerkt tot de vorm zonder haakjes: 2 plus 7 "
+                "maal n min 1 wordt 7n min 5. Bij een meetkundige rij blijft de exponent n min 1 staan.",
+            ],
+        ),
+        dict(
+            aanpak="Hou in het oog dat de teller van de exponent of van de factor altijd n min 1 is. Je "
+                   "zet dus één stap minder dan het nummer van de term.",
+            waarom=[
+                "Let erop dat je 19 keer 3 optelt en niet 20 keer. De eerste term staat er immers al.",
+                "Let erop dat de exponent 5 is en niet 6: 3 maal 2 tot de vijfde.",
+                None,
+                "Let erop dat de rij halveert, dus van 64 kom je in zes stappen bij 1. Een rij mag ook "
+                "dalen en toch meetkundig zijn.",
+            ],
+        ),
+        dict(
+            aanpak="Voor een som heb je drie dingen nodig: de eerste term, de laatste term of het vaste "
+                   "getal, en het aantal termen. Tel dat aantal eerst zorgvuldig.",
+            waarom=[
+                "Let erop dat dit het trucje van Gauss is: 100 maal 101 gedeeld door 2. Je paart de "
+                "eerste met de laatste term, en elk paar geeft 101.",
+                "Let erop dat er 25 termen zijn en niet 50: je telt enkel de even getallen. Het aantal "
+                "termen fout tellen is hier de klassieke fout.",
+                None,
+                "Let erop dat je bij een meetkundige som de andere formule neemt: 3 maal 2 tot de zesde "
+                "min 1, gedeeld door 2 min 1.",
+            ],
+        ),
+        dict(
+            aanpak="Hier is de onbekende het vaste getal zelf. Zet de twee gegeven termen in de formule "
+                   "en los de vergelijking op.",
+            waarom=[
+                "Let erop dat je door 4 deelt, want van de derde naar de zevende term zet je vier "
+                "stappen. Denk altijd in stappen en niet in termen.",
+                "Let erop dat je de derde macht van q zoekt, want van de tweede naar de vijfde term zijn "
+                "er drie stappen.",
+                "Let erop dat je naar boven afrondt naar een geheel nummer: bij n gelijk aan 20 is de "
+                "term precies 99, dus pas vanaf 21 zit je erboven.",
+            ],
+        ),
+        dict(
+            aanpak="Bij een breuk vergelijk je de hoogste graden van teller en noemer. Bij een macht "
+                   "kijk je naar het grondtal.",
+            waarom=[
+                "Let op het laatste: min 1 tot de n springt tussen 1 en min 1 en komt nergens tot rust, "
+                "dus de limiet bestaat niet. Dat is iets anders dan naar oneindig gaan.",
+            ],
+        ),
+        dict(
+            aanpak="Een oneindige meetkundige som bestaat enkel als de absolute waarde van q kleiner is "
+                   "dan 1. Kijk dus eerst naar q, en reken pas daarna.",
+            waarom=[
+                "Let op de laatste rij: q is min een derde, en de absolute waarde daarvan is kleiner dan "
+                "1, dus de som bestaat. In de noemer staat dan 1 plus een derde.",
+                "Let erop dat je de herhalende groep als eerste term neemt, 36 honderdsten, en dat q "
+                "één honderdste is. Zo wordt elk repeterend decimaal getal een breuk.",
+            ],
+        ),
+        dict(
+            aanpak="Hou drie woorden uit elkaar: convergent betekent naar één getal, divergent betekent "
+                   "niet naar één getal, en alternerend betekent heen en weer van teken.",
+            waarom=[
+                None,
+                None,
+                "Niet waar: met een vast verschil van 3 groeit de rij onbeperkt. Alleen een rij die naar "
+                "één getal kruipt, convergeert.",
+                "Niet waar: enkel als de absolute waarde van q kleiner is dan 1. Bij q gelijk aan 2 "
+                "groeit de som onbeperkt.",
+                None,
+                None,
+                "Niet waar: bij q gelijk aan 1 staat er nul in de noemer. Dan is de som gewoon n maal de "
+                "eerste term.",
+                "Niet waar: het is precies gelijk aan 1. De oneindige som 9 tienden gedeeld door 1 min "
+                "een tiende geeft exact 1.",
+            ],
+        ),
+        dict(
+            aanpak="Schrijf bij een uitlegvraag eerst de formule of de voorwaarde op die je gebruikt, en "
+                   "leg daarna in woorden uit waarom ze hier past.",
+            waarom=[
+                None,
+                "Let erop dat de voorwaarde op q het hele antwoord draagt: bij 0,6 bestaat de som, bij "
+                "een factor groter dan 1 niet. Oneindig veel termen mag, oneindig groot niet.",
+                "Let erop dat een limiet over een verhouding gaat en niet over de grootte. Teller en "
+                "noemer groeien allebei, maar hun verhouding komt tot rust.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-primitieven-en-de-onbepaalde-integraal-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Integreren is afleiden achterstevoren. Vraag je dus telkens: welke functie heeft dit "
+                   "als afgeleide? En zet de plus C erbij.",
+            waarom=[
+                "Let op het teken bij de sinus: de primitieve is min de cosinus, want afleiden van de "
+                "cosinus geeft een minteken. En let op de absolute waarde bij 1 gedeeld door x.",
+            ],
+        ),
+        dict(
+            aanpak="Een som mag je term per term integreren, en een getal vooraan mag je buiten het "
+                   "integraalteken laten staan. Eén plus C achteraan volstaat.",
+            waarom=[
+                "Let erop dat één enkele plus C genoeg is: de constanten van de losse termen vallen "
+                "samen tot één getal.",
+            ],
+        ),
+        dict(
+            aanpak="Schrijf de integrand eerst als een macht van x, ook als er een wortel of een breuk "
+                   "staat. Dan past de gewone regel weer.",
+            waarom=[
+                "Let erop dat 1 gedeeld door x kwadraat gelijk is aan x tot de min 2, en de primitieve "
+                "dus x tot de min 1 gedeeld door min 1. Vandaar het minteken.",
+                "Let erop dat de wortel x tot de helft is, dus de primitieve x tot de drie halve "
+                "gedeeld door drie halve.",
+                None,
+                "Let erop dat je de breuk eerst splitst in x en 1 gedeeld door x. Een breuk met een som "
+                "in de teller mag je splitsen, met een som in de noemer niet.",
+            ],
+        ),
+        dict(
+            aanpak="Kijk naar de bouw. Een som splits je, een product van twee verschillende soorten "
+                   "vraagt partiële integratie, en staat de afgeleide van de binnenste functie er ook, "
+                   "dan is het substitutie.",
+            waarom=[
+                "Let op de derde en de vijfde rij: daar staat de afgeleide van wat binnenin zit er "
+                "gewoon bij, dus substitutie. Bij x sin x is dat niet zo, en dan heb je de partiële "
+                "integratie nodig.",
+            ],
+        ),
+        dict(
+            aanpak="Noem de binnenste functie u, reken du uit, en vervang alles in de integraal. Er mag "
+                   "geen x meer overblijven.",
+            waarom=[
+                "Let erop dat de 2x er juist staat om du te vormen. Zonder die factor was deze "
+                "integraal niet elementair op te lossen.",
+                None,
+                "Let erop dat de afgeleide van x plus 1 gelijk is aan 1, dus hier heb je geen extra "
+                "factor nodig. Je mag ook gewoon uitwerken, maar dat is veel meer rekenwerk.",
+            ],
+        ),
+        dict(
+            aanpak="Kies u zo dat de afgeleide ervan eenvoudiger wordt, en v prime zo dat je het "
+                   "makkelijk kan integreren. Bij x maal iets is x bijna altijd de goede keuze voor u.",
+            waarom=[
+                None,
+                "Let op het teken: de tweede integraal wordt min de integraal van de sinus, en dat geeft "
+                "plus de cosinus. Twee mintekens die elkaar opheffen is hier de valkuil.",
+            ],
+        ),
+        dict(
+            aanpak="Zoek een primitieve, zet ze tussen vierkante haken met de grenzen erbij, en reken "
+                   "dan de bovengrens min de ondergrens uit.",
+            waarom=[
+                "Let op de laatste: als de twee grenzen gelijk zijn, is de integraal nul. Er is dan geen "
+                "stukje om oppervlakte op te meten.",
+            ],
+        ),
+        dict(
+            aanpak="Dezelfde werkwijze, maar laat e en pi als symbool staan tot op het einde. Afronden "
+                   "doe je alleen als het gevraagd wordt.",
+            waarom=[
+                "Let erop dat je min de cosinus invult: min de cosinus van pi is plus 1, en min de "
+                "cosinus van 0 is min 1. Samen 2.",
+                "Let erop dat de natuurlijke logaritme van e gelijk is aan 1 en die van 1 gelijk aan 0. "
+                "Daar komt het ronde antwoord uit.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Hou in het oog wat een constante is en wat niet. De plus C mag alleen weg bij een "
+                   "bepaalde integraal.",
+            waarom=[
+                "Let erop dat ze allebei dezelfde afgeleide hebben, maar verschillen door een vaste "
+                "waarde. Daarom staat die plus C er.",
+                "Niet waar: enkel een getal mag buiten. Een factor met x erin hoort bij de integrand.",
+                "Niet waar: met de nieuwe veranderlijke horen ook nieuwe grenzen. Anders moet je eerst "
+                "terugkeren naar x.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Elke methode komt uit een afleidingsregel. Weet je waar ze vandaan komt, dan weet je "
+                   "ook wanneer ze mag.",
+            waarom=[
+                "Let erop dat een primitieve bestaan en ze kunnen opschrijven twee verschillende dingen "
+                "zijn: bij e tot de min x kwadraat bestaat ze, maar ze is niet elementair.",
+                "Niet waar: je zou door nul delen. Dat is precies het geval waar de logaritme "
+                "tussenkomt.",
+                None,
+                "Niet waar: een wortel is vaak juist een goede kandidaat voor substitutie, zoals bij de "
+                "wortel van 2x plus 1.",
+            ],
+        ),
+        dict(
+            aanpak="Noem bij een uitlegvraag eerst de regel of de voorwaarde, en leg daarna in woorden "
+                   "uit waarom ze hier beslist.",
+            waarom=[
+                None,
+                None,
+                "Let erop dat de constante zich wegstreept doordat je aftrekt. Dat is de reden, niet "
+                "een afspraak.",
+                "Let erop dat afleiden een onafhankelijke controle is: je gebruikt een andere regel dan "
+                "bij het integreren, en dus herhaal je dezelfde fout niet.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-bepaalde-integraal-en-haar-toepassingen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zie de oppervlakte als een reeks rechthoekjes. Neem je per stukje de laagste "
+                   "waarde, dan blijf je eronder; neem je de hoogste, dan ga je erover.",
+            waarom=[
+                "Let erop dat de werkelijke oppervlakte altijd tussen de twee ligt. Dat is precies "
+                "waarom de limiet van beide hetzelfde getal moet geven.",
+                "Let erop dat dx de breedte van een rechthoekje is en f(x) de hoogte. Het product is "
+                "dus een oppervlakte, en de integraal telt ze op.",
+            ],
+        ),
+        dict(
+            aanpak="Zoek een primitieve, vul de bovengrens in, vul de ondergrens in en trek af. Hier "
+                   "geen plus C.",
+            waarom=[
+                "Let op de vierde: 1 gedeeld door de wortel van x is x tot de min een half, en de "
+                "primitieve is 2 maal de wortel van x.",
+            ],
+        ),
+        dict(
+            aanpak="Schrijf eerst de primitieve tussen haken met de grenzen erbij. Zo maak je bij het "
+                   "aftrekken geen tekenfout.",
+            waarom=[
+                "Let erop dat de kettingregel achterstevoren een factor een half geeft: de primitieve "
+                "van e tot de 2x is e tot de 2x gedeeld door 2.",
+                "Let erop dat dit een substitutie is met u gelijk aan de logaritme van x: de 1 gedeeld "
+                "door x is net haar afgeleide.",
+                "Let erop dat je ook hier gewoon de twee grenzen invult: min een derde van min 1 geeft "
+                "plus een derde, en samen twee derde.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Een integraal telt een stuk onder de as negatief mee. Vraagt de opgave de werkelijke "
+                   "oppervlakte, dan reken je de stukken apart en neem je ze allemaal positief.",
+            waarom=[
+                "Let erop dat de nul niet betekent dat er geen oppervlakte is: het stuk links van de as "
+                "ligt onder de as en heft het rechtse op.",
+                "Let erop dat de sinus over een volle periode even veel boven als onder de as ligt. De "
+                "werkelijke oppervlakte is hier 4.",
+                "Let erop dat je de helft uitrekent en verdubbelt, omdat de twee stukken even groot "
+                "zijn. Dat is korter dan twee aparte integralen.",
+            ],
+        ),
+        dict(
+            aanpak="Zoek eerst de snijpunten, dat zijn je grenzen. Integreer dan de bovenste functie min "
+                   "de onderste, in die orde.",
+            waarom=[
+                "Let erop dat op dat stuk de rechte boven de parabool ligt, dus 2x min x kwadraat. "
+                "Omgekeerd zou je min vier derde krijgen.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Bij een omwentelingslichaam staat de functie in het kwadraat en komt er een pi "
+                   "voor. Bij een booglengte staat de afgeleide onder een wortel.",
+            waarom=[
+                "Let erop dat het antwoord klopt met de formule voor een kegel: een derde maal pi maal "
+                "r kwadraat maal h, met r en h gelijk aan 1.",
+                "Let erop dat een constante functie een cilinder geeft: pi maal 4 maal 3, dus 12 pi.",
+                "Let erop dat enkel het opschrijven gevraagd wordt. Deze integraal uitrekenen vraagt "
+                "een techniek die hier niet aan de orde is.",
+            ],
+        ),
+        dict(
+            aanpak="Een integraal telt altijd op over de tijd of over het aantal. Kijk naar de eenheden: "
+                   "wat je integreert maal waarover je integreert geeft de eenheid van je antwoord.",
+            waarom=[
+                "Let erop dat de eenheden het antwoord geven: meter per seconde maal seconde is meter, "
+                "en liter per seconde maal seconde is liter.",
+                None,
+                "Let erop dat de snelheid hier toeneemt, dus je mag niet gewoon snelheid maal tijd "
+                "nemen. De primitieve van 3t is anderhalf t kwadraat.",
+            ],
+        ),
+        dict(
+            aanpak="Hou twee dingen uit elkaar: wat de integraal uitrekent, en wat de opgave vraagt. Een "
+                   "georiënteerde oppervlakte kan negatief zijn, een werkelijke niet.",
+            waarom=[
+                None,
+                None,
+                "Let erop dat een oppervlakte een grootte is. De integraal kan negatief zijn, de "
+                "oppervlakte zelf niet.",
+                "Let erop dat de grenzen omwisselen het teken omkeert. Dat is de afspraak die de "
+                "rekenregels laat kloppen.",
+                "Niet waar: de hoofdstelling vraagt een continue functie. Bij een sprong moet je de "
+                "stukken apart nemen.",
+                "Niet waar: de bovengrens is de grootste x-waarde en niet de grootste functiewaarde. "
+                "Grens en waarde zijn hier makkelijk te verwarren.",
+                None,
+                "Niet waar: met twee gelijke grenzen is de integraal nul. Er is geen breedte, dus geen "
+                "oppervlakte.",
+            ],
+        ),
+        dict(
+            aanpak="Noem bij een uitlegvraag eerst de formule of de voorwaarde, en zeg daarna wat ze in "
+                   "deze situatie betekent.",
+            waarom=[
+                None,
+                "Let erop dat verplaatsing en afgelegde weg twee verschillende dingen zijn. Voor de weg "
+                "integreer je de absolute waarde van de snelheid.",
+                "Let erop dat een negatieve uitkomst bijna altijd betekent dat je de twee functies hebt "
+                "verwisseld. De schets voorkomt dat.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-complexe-getallen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Deel de exponent door 4 en kijk naar de rest. Rest 0 geeft 1, rest 1 geeft i, rest 2 "
+                   "geeft min 1 en rest 3 geeft min i.",
+            waarom=[
+                "Let erop dat je met de rest werkt en niet met de exponent zelf: 11 gedeeld door 4 laat "
+                "rest 3, dus min i.",
+            ],
+        ),
+        dict(
+            aanpak="Reken met i zoals met een letter, en vervang op het einde i kwadraat door min 1. "
+                   "Groepeer dan het reële en het imaginaire deel.",
+            waarom=[
+                "Let op de laatste: het kwadraat van 2 min i geeft 4 min 4i plus i kwadraat, en i "
+                "kwadraat is min 1. Daarom komt er 3 min 4i uit en niet 5 min 4i.",
+            ],
+        ),
+        dict(
+            aanpak="Vermenigvuldig teller en noemer met de toegevoegde van de noemer. De noemer wordt "
+                   "dan een gewoon getal, en de rest is eenvoudig rekenen.",
+            waarom=[
+                "Let erop dat de noemer 2 kwadraat plus 1 kwadraat wordt, dus 5. Je hoeft die "
+                "haakjes niet uit te werken: de som van de kwadraten volstaat.",
+                None,
+                "Let erop dat de toegevoegde van 1 plus i gelijk is aan 1 min i, en dat de noemer dan 2 "
+                "wordt.",
+            ],
+        ),
+        dict(
+            aanpak="Zet het getal als een punt in het vlak. De modulus is de afstand tot de oorsprong, "
+                   "het argument de hoek met de positieve x-as.",
+            waarom=[
+                "Let op de tweede rij: de modulus van min 2 is 2, want een afstand is nooit negatief. "
+                "Enkel het argument, 180 graden, zegt dat het getal links ligt.",
+                "Let erop dat je de wortel van 36 plus 64 neemt, dus de wortel van 100. De tekens spelen "
+                "geen rol, want alles wordt gekwadrateerd.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Elke bewerking met complexe getallen is ook een beweging in het vlak. Denk in "
+                   "draaien en spiegelen, niet alleen in rekenen.",
+            waarom=[
+                "Let erop dat vier keer met i vermenigvuldigen je weer op hetzelfde punt brengt. Dat is "
+                "dezelfde reden waarom de machten van i zich om de vier herhalen.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="In goniometrische vorm werk je met de modulus en het argument apart. De moduli "
+                   "vermenigvuldig of deel je, de argumenten tel je op of trek je af.",
+            waarom=[
+                "Let erop dat de twee kolommen verschillende bewerkingen krijgen: de moduli worden "
+                "vermenigvuldigd en de argumenten opgeteld. Dat is net de reden waarom de Moivre werkt.",
+                None,
+                "Let erop dat 8 maal 45 graden precies 360 graden geeft, dus het resultaat is zuiver "
+                "reëel. In cartesische vorm zou je vier keer moeten kwadrateren.",
+            ],
+        ),
+        dict(
+            aanpak="In C heeft elke vierkantsvergelijking twee oplossingen. Bij een negatieve "
+                   "discriminant schrijf je de wortel ervan met een i erbij.",
+            waarom=[
+                "Let erop dat er twee oplossingen zijn: 3i en min 3i. Vergeet de tweede niet, net zoals "
+                "bij een gewone vierkantsvergelijking.",
+                "Let erop dat de discriminant min 36 is, en dat de wortel daarvan 6i is. Gedeeld door 2 "
+                "geeft dat plus of min 3i.",
+                "Let erop dat een vergelijking van graad n in C precies n oplossingen heeft. Ze liggen "
+                "hier gelijkmatig op de eenheidscirkel.",
+            ],
+        ),
+        dict(
+            aanpak="Hou in het oog dat C een vlak is en geen rechte. Rekenen kan je ermee, ordenen niet.",
+            waarom=[
+                "Let erop dat complexe getallen punten in een vlak zijn. Kleiner en groter hebben daar "
+                "geen betekenis; enkel hun modulus kan je vergelijken.",
+                None,
+                None,
+                "Niet waar: de moduli worden vermenigvuldigd en niet opgeteld. Enkel de argumenten "
+                "worden opgeteld.",
+                None,
+                "Niet waar: een negatieve discriminant geeft juist twee complexe oplossingen. In R zijn "
+                "er geen, in C altijd twee.",
+                None,
+                "Niet waar: de modulus van min 3 is 3. Een afstand is nooit negatief.",
+            ],
+        ),
+        dict(
+            aanpak="Noem bij een uitlegvraag eerst de formule of de eigenschap, en zeg daarna wat ze in "
+                   "het vlak van Gauss betekent.",
+            waarom=[
+                None,
+                "Let erop dat dit dezelfde truc is als het rationaal maken van een noemer met een "
+                "wortel. Het doel is een noemer zonder i.",
+                "Let erop dat de n oplossingen een regelmatige veelhoek vormen: ze liggen op dezelfde "
+                "afstand van de oorsprong en de hoeken liggen op gelijke afstand van elkaar.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-telproblemen-en-het-binomium-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Stel je twee vragen: telt de volgorde mee, en mag een element herhaald worden? Die "
+                   "twee antwoorden bepalen de formule.",
+            waarom=[
+                "Let op het verschil tussen de eerste twee: bij goud, zilver en brons telt de volgorde "
+                "mee, bij vier leden kiezen niet. Dat ene verschil kiest de formule.",
+            ],
+        ),
+        dict(
+            aanpak="Vereenvoudig een breuk met faculteiten voor je rekent: 6 faculteit gedeeld door 4 "
+                   "faculteit is gewoon 6 maal 5. Zo hou je de getallen klein.",
+            waarom=[
+                "Let op de laatste: n boven 0 is altijd 1. Er is precies één manier om niets te kiezen.",
+            ],
+        ),
+        dict(
+            aanpak="Schrijf de formule eerst op. Bij een variatie neem je aflopende factoren, bij een "
+                   "herhaling het aantal mogelijkheden tot de macht van het aantal plaatsen.",
+            waarom=[
+                None,
+                "Let erop dat een letter hier opnieuw mag gebruikt worden, dus 26 tot de derde. Mocht "
+                "dat niet mogen, dan was het 26 maal 25 maal 24.",
+                None,
+                "Let erop dat je deelt door 2 faculteit voor de twee K's en nog eens voor de twee O's. "
+                "Zonder dat delen tel je dezelfde woorden meermaals.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je af of de keuzes na elkaar komen of elkaar uitsluiten. Na elkaar is "
+                   "vermenigvuldigen, of-of is optellen, en minstens één vraagt bijna altijd de "
+                   "complementregel.",
+            waarom=[
+                "Let op het verschil met de volgende oefening: hier kies je drie gangen na elkaar, dus "
+                "vermenigvuldigen.",
+                "Let erop dat je hier optelt en niet vermenigvuldigt: je neemt het één of het ander, "
+                "niet beide.",
+                "Let erop dat een handdruk tussen twee mensen één keer telt, dus de volgorde doet niet "
+                "mee. Daarom een combinatie en niet 8 maal 7.",
+                "Let erop dat je eerst alle codes telt en daarna de codes zonder nul aftrekt. Minstens "
+                "één rechtstreeks tellen zou veel ingewikkelder zijn.",
+            ],
+        ),
+        dict(
+            aanpak="Elk getal in de driehoek is de som van de twee getallen schuin erboven. De rij "
+                   "begint en eindigt altijd met een 1.",
+            waarom=[
+                "Let erop dat de som van rij n gelijk is aan 2 tot de n. Een goede controle van je "
+                "uitgewerkte rij.",
+                "Let erop dat je dit ook uit de driehoek kan lezen: het derde getal van rij 7.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Neem de rij van de driehoek die bij de exponent hoort, en let op het teken bij een "
+                   "verschil: dat wisselt van term tot term.",
+            waarom=[
+                None,
+                "Let erop dat de min 2 elke keer tot een hogere macht gaat: min 2, plus 4, min 8. "
+                "Daarom staat er 6, 12 en 8 en wisselen de tekens.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Je hoeft niet alles uit te werken. Met de algemene term vind je één term meteen: "
+                   "kies k zo dat de exponent klopt.",
+            waarom=[
+                "Let erop dat je enkel 5 boven 3 nodig hebt. Het hele binomium uitwerken is hier verloren "
+                "werk.",
+                "Let erop dat er altijd één term meer is dan de exponent, want k loopt van 0 tot n.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Hou volgorde en herhaling goed uit elkaar. Dat ene verschil zit achter bijna elke "
+                   "uitspraak in deze reeks.",
+            waarom=[
+                None,
+                "Let erop dat p kiezen hetzelfde is als n min p weglaten. Daarom is elke rij van de "
+                "driehoek symmetrisch.",
+                "Niet waar: 0 faculteit is gelijk aan 1. Dat is nodig om de formules te laten kloppen, "
+                "en het past bij de lege keuze.",
+                None,
+                None,
+                "Niet waar: er staat ook een dubbel product, dus 2ab ertussen. Dat is het merkwaardige "
+                "product, en rij 2 van de driehoek is 1 2 1.",
+                None,
+                "Niet waar: het is net omgekeerd. Elke combinatie komt overeen met p faculteit "
+                "variaties, dus er zijn er minder.",
+            ],
+        ),
+        dict(
+            aanpak="Noem bij een uitlegvraag de regel of de formule, en leg daarna uit welk telprobleem "
+                   "erachter zit.",
+            waarom=[
+                "Let erop dat de deling door p faculteit het hele antwoord is: elke groep kan je op p "
+                "faculteit manieren ordenen, en die gelden samen als één combinatie.",
+                None,
+                "Let erop dat of-of en en-en de twee woorden zijn om op te letten. Lees de opgave daarop "
+                "na voor je rekent.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-kansrekenen-en-kansverdelingen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Tel hoeveel gunstige uitkomsten er zijn en deel door het totaal. Vereenvoudig de "
+                   "breuk pas op het einde.",
+            waarom=[
+                "Let op de vierde: 1 is geen priemgetal, dus enkel 2, 3 en 5 tellen mee. En let erop "
+                "dat een spel 52 kaarten heeft met 4 azen, dus 1 op 13.",
+            ],
+        ),
+        dict(
+            aanpak="Lees of de twee gebeurtenissen samen moeten gebeuren of elkaar uitsluiten. Samen is "
+                   "vermenigvuldigen, of-of is optellen.",
+            waarom=[
+                "Let erop dat twee worpen na elkaar komen, dus je vermenigvuldigt. Optellen zou een kans "
+                "groter maken dan één van de twee, en dat kan niet.",
+                "Let erop dat harten en ruiten elkaar uitsluiten: een kaart kan niet beide zijn. Daarom "
+                "hoeft er niets afgetrokken te worden.",
+            ],
+        ),
+        dict(
+            aanpak="Twee formules volstaan: de kans op het tegengestelde is 1 min de kans, en bij een "
+                   "vereniging trek je de doorsnede er één keer af.",
+            waarom=[
+                None,
+                "Let erop dat je de doorsnede aftrekt, anders tel je de gevallen die in beide zitten "
+                "dubbel. Zonder die 0,2 kwam er 1,1 uit, en dat kan geen kans zijn.",
+                "Let erop dat de doorsnede hier nul is, want de gebeurtenissen sluiten elkaar uit. "
+                "Daarom mag je gewoon optellen.",
+                "Let erop dat minstens één het tegengestelde is van geen enkele. Daarom werkt de "
+                "complementregel hier.",
+            ],
+        ),
+        dict(
+            aanpak="Vul eerst de rijen en de kolommen van de tabel aan tot alle totalen kloppen. Reken "
+                   "pas daarna kansen.",
+            waarom=[
+                "Let erop dat het totaal van de rijen en dat van de kolommen hetzelfde moet geven, hier "
+                "200. Dat is je controle dat de tabel klopt.",
+            ],
+        ),
+        dict(
+            aanpak="Kijk telkens door wat je deelt. Een gewone kans deelt door het grote totaal, een "
+                   "voorwaardelijke kans door het totaal van die ene groep.",
+            waarom=[
+                None,
+                "Let erop dat je door 100 deelt en niet door 200: je kijkt enkel binnen de groep "
+                "meisjes. Dat is het hele verschil tussen de twee vorige oefeningen.",
+                "Let erop dat je de twee kansen vergelijkt, 0,45 tegenover 0,375. Gelijke "
+                "groepsgroottes zeggen niets over onafhankelijkheid.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je af of de eerste gebeurtenis de kansen van de tweede verandert. Verandert ze "
+                   "niets, dan zijn ze onafhankelijk.",
+            waarom=[
+                "Let op de tweede en de derde rij: alleen het terugleggen maakt het verschil. Zonder "
+                "terugleggen is er na de eerste kaart één kaart minder in het spel.",
+            ],
+        ),
+        dict(
+            aanpak="Een kans ligt altijd tussen 0 en 1, en de kansen op de takken uit één knoop tellen "
+                   "samen tot 1. Gebruik dat als controle.",
+            waarom=[
+                "Niet waar: dat geldt enkel als de gebeurtenissen elkaar uitsluiten. Anders moet de "
+                "doorsnede eraf.",
+                None,
+                "Niet waar: de noemer is verschillend. Elke arts is een mens, maar niet elke mens is "
+                "arts.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Teken de boom met twee lagen. Langs een pad vermenigvuldig je, en verschillende "
+                   "paden naar dezelfde uitkomst tel je op.",
+            waarom=[
+                "Let erop dat de tweede laag andere kansen heeft: er zijn nog 3 groene van de 9 over. "
+                "Zonder terugleggen verandert de noemer dus ook.",
+                "Let erop dat er twee paden naar precies één groene leiden, groen dan oranje en oranje "
+                "dan groen. Eén pad vergeten halveert je antwoord.",
+            ],
+        ),
+        dict(
+            aanpak="Bij minstens één reken je het tegengestelde uit, dus geen enkele, en trek je dat van "
+                   "1 af. Dat is bijna altijd korter.",
+            waarom=[
+                "Let erop dat het tegengestelde van minstens één keer munt is: vier keer kop. Dat is "
+                "één geval in plaats van vier gevallen samen te tellen.",
+            ],
+        ),
+        dict(
+            aanpak="Een binomiale verdeling vraagt vier dingen: een vast aantal pogingen, telkens twee "
+                   "uitkomsten, een vaste kans en onafhankelijke pogingen.",
+            waarom=[
+                "Let op de tweede en de derde rij: bij de ene verandert de kans per trekking, bij de "
+                "andere ligt het aantal pogingen niet vast. Telkens valt er één voorwaarde weg.",
+            ],
+        ),
+        dict(
+            aanpak="In de formule staan drie stukken: het aantal manieren, de kans op succes tot de "
+                   "macht k, en de kans op mislukking tot de macht n min k.",
+            waarom=[
+                "Let op de derde en de vierde: bij alles of niets is de binomiaalcoëfficiënt gelijk aan "
+                "1, dus er blijft één macht over.",
+                "Let erop dat dit vijf keer kop op een rij is, dus een half tot de vijfde.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="De verwachtingswaarde is n maal p. De standaardafwijking is de wortel van n maal p "
+                   "maal 1 min p.",
+            waarom=[
+                "Let erop dat je bij sigma de wortel neemt van het product van drie factoren. Vergeet de "
+                "laatste factor 1 min p niet.",
+                "Let erop dat p maal 1 min p het grootst is in het midden. Bij een eerlijke kans is de "
+                "onzekerheid dus het grootst.",
+            ],
+        ),
+        dict(
+            aanpak="Lees goed of er gelijk aan, minstens of hoogstens staat. Dat ene woord verandert de "
+                   "hele betekenis van een kans.",
+            waarom=[
+                "Let erop dat 0,18 bij precies tien hoort en niet bij minstens tien. Zelfs de meest "
+                "waarschijnlijke uitkomst heeft hier een kleine kans.",
+                "Let erop dat gokken bij vier opties een kans van een kwart geeft, dus 40 maal een "
+                "kwart.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Hou in het oog wat een binomiale verdeling kan en wat niet: ze telt successen, dus "
+                   "een geheel getal van 0 tot n.",
+            waarom=[
+                "Niet waar: X loopt van 0 tot n. Meer successen dan pogingen kan niet.",
+                "Niet waar: bij n gelijk aan 5 en p gelijk aan 0,3 is E gelijk aan 1,5. Een gemiddelde "
+                "hoeft geen mogelijke uitkomst te zijn.",
+                None,
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Noem bij een uitlegvraag eerst de regel, en zeg daarna wat ze in deze situatie "
+                   "betekent.",
+            waarom=[
+                None,
+                "Let erop dat sigma ongeveer 1 is, dus nul of twee fouten liggen binnen één "
+                "standaardafwijking. Een verwachtingswaarde is een gemiddelde, geen voorspelling.",
+            ],
+        ),
+        dict(
+            aanpak="Reken bij een vergelijking altijd beide gevallen uit in plaats van te schatten. "
+                   "Dezelfde verwachtingswaarde zegt niets over de spreiding.",
+            waarom=[
+                "Let erop dat de spreiding niet enkel van n afhangt: meer worpen met een kleinere kans "
+                "geeft hier juist een grotere sigma.",
+                "Let erop dat het verschil in de noemer zit: 100 tegenover 200. Dat is dezelfde fout als "
+                "in de kruistabel hierboven.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-statistiek-normale-verdeling-en-hypothesetoets-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Trek het gemiddelde van de meting af en deel door de standaardafwijking. Het teken "
+                   "zegt of de meting boven of onder het gemiddelde ligt.",
+            waarom=[
+                "Let op de derde rij: een meting die gelijk is aan het gemiddelde geeft z gelijk aan 0. "
+                "En een negatieve z betekent gewoon onder het gemiddelde.",
+            ],
+        ),
+        dict(
+            aanpak="Hier is de z-score gegeven. Werk de formule om: x is het gemiddelde plus z maal "
+                   "sigma, en sigma is het verschil gedeeld door z.",
+            waarom=[
+                None,
+                "Let op het minteken: min 0,8 maal 100 geeft min 80, dus de meting ligt onder het "
+                "gemiddelde.",
+                "Let erop dat je hier naar sigma zoekt: 5 gedeeld door 2,5. Kijk dus eerst wat ontbreekt "
+                "voor je de formule gebruikt.",
+            ],
+        ),
+        dict(
+            aanpak="Reken altijd eerst beide z-scores uit. Dezelfde ruwe score kan in de ene groep "
+                   "uitzonderlijk zijn en in de andere gewoon.",
+            waarom=[
+                "Let erop dat de twee 70 procent niet hetzelfde waard zijn: in een klas met een kleine "
+                "spreiding valt dezelfde score veel meer op.",
+            ],
+        ),
+        dict(
+            aanpak="Reken de z-scores uit en bedenk daarna wat goed is in deze context. Bij een tijd is "
+                   "een negatieve z-score het gunstige geval.",
+            waarom=[
+                "Let erop dat je de z-scores vergelijkt op afstand van het gemiddelde en niet op teken: "
+                "min 1,6 ligt verder van nul dan min 1,25, en dat is hier beter.",
+            ],
+        ),
+        dict(
+            aanpak="Ken de drie percentages uit het hoofd: ongeveer 68, 95 en 99,7 procent. Daarmee "
+                   "schat je bijna elke vraag zonder tabel.",
+            waarom=[
+                "Let erop dat de percentages binnen een of twee sigma liggen, niet erbuiten. De "
+                "oppervlakte onder de kromme is altijd 100 procent in totaal.",
+                "Let erop dat de 5 procent over beide staarten samen gaat, dus 2,5 procent per kant.",
+                "Let erop dat de 68 procent symmetrisch verdeeld is: 34 procent aan elke kant van het "
+                "gemiddelde.",
+            ],
+        ),
+        dict(
+            aanpak="Reken eerst de grenzen uit met het gemiddelde plus of min een, twee of drie sigma. "
+                   "Pas dan lees je het percentage af.",
+            waarom=[
+                None,
+                "Let erop dat 185 precies één sigma boven het gemiddelde ligt. Boven één sigma zit de "
+                "helft van de 32 procent die buiten de 68 procent valt, dus 16 procent.",
+                "Let erop dat 164 twee sigma onder het gemiddelde ligt, dus de helft van de 5 procent.",
+            ],
+        ),
+        dict(
+            aanpak="De Gausskromme is een kansverdeling: de oppervlakte eronder is altijd 1. Sigma "
+                   "verandert haar vorm, niet haar oppervlakte.",
+            waarom=[
+                "Niet waar: de oppervlakte is altijd 1. Een grotere sigma maakt de kromme breder en "
+                "platter, maar de oppervlakte blijft gelijk.",
+                "Let erop dat de eenheden zich wegdelen: centimeter gedeeld door centimeter. Daarom kan "
+                "je z-scores van lengtes en van tijden vergelijken.",
+                None,
+                "Niet waar: het normale model veronderstelt een symmetrische verdeling. Bij een duidelijk "
+                "scheef histogram passen de percentages niet.",
+            ],
+        ),
+        dict(
+            aanpak="Kijk niet naar het aantal deelnemers maar naar hoe ze gekozen zijn. Wie zich zelf "
+                   "aanmeldt, vormt bijna nooit een doorsnede.",
+            waarom=[
+                "Let erop dat meer antwoorden hier niet helpen: de scheefheid zit in wie antwoordt, niet "
+                "in hoeveel er antwoorden.",
+            ],
+        ),
+        dict(
+            aanpak="Hou de twee soorten fouten uit elkaar met één vraag: helpt een grotere steekproef? "
+                   "Zo ja, dan is het toeval; zo nee, dan zit het in de opzet.",
+            waarom=[
+                None,
+                "Niet waar: een grotere scheve steekproef geeft gewoon een preciezer fout antwoord. Dat "
+                "is precies het verschil met een steekproeffout.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je af waar de afwijking vandaan komt: uit het toeval van de trekking, of uit "
+                   "hoe de vraag of de groep gekozen is.",
+            waarom=[
+                "Let op de eerste en de laatste rij: daar is de trekking eerlijk en blijft er enkel "
+                "toeval over. In de twee andere zit het probleem in de opzet.",
+            ],
+        ),
+        dict(
+            aanpak="De correlatiecoëfficiënt ligt altijd tussen min 1 en 1. Het teken geeft de richting, "
+                   "de grootte de sterkte.",
+            waarom=[
+                "Let erop dat dalende punten een negatieve r geven. De sterkte zit in het getal, de "
+                "richting in het teken.",
+                "Let erop dat r nooit buiten min 1 en 1 kan liggen. Een waarde daarbuiten is altijd een "
+                "rekenfout.",
+                "Let erop dat min 0,05 bijna nul is, dus er is geen lineair verband. Een ander soort "
+                "verband is daarmee niet uitgesloten.",
+            ],
+        ),
+        dict(
+            aanpak="Zoek bij een vreemde samenhang altijd naar een derde grootheid die de twee andere "
+                   "samen omhoog of omlaag duwt.",
+            waarom=[
+                "Let erop dat je de verborgen variabele met naam noemt. Alleen zeggen dat samenhang geen "
+                "oorzaak is, legt niets uit.",
+            ],
+        ),
+        dict(
+            aanpak="Dezelfde aanpak als hierboven: zoek wat de twee grootheden samen bepaalt, en zeg wat "
+                   "het is.",
+            waarom=[
+                "Let erop dat de richting hier omgekeerd ligt dan ze lijkt: de brand bepaalt het aantal "
+                "wagens, niet omgekeerd.",
+            ],
+        ),
+        dict(
+            aanpak="Een toets bewijst nooit iets. Je vergelijkt de p-waarde met het significantieniveau "
+                   "en besluit of je de nulhypothese verwerpt of aanhoudt.",
+            waarom=[
+                "Let erop dat een p-waarde over de gegevens gaat en niet over de hypothese: het is de "
+                "kans op zo'n resultaat als H nul waar is.",
+                "Let erop dat 0,08 groter is dan 0,05, dus je verwerpt niet. Aanhouden is niet hetzelfde "
+                "als bewijzen dat ze waar is.",
+                "Let erop dat 0,003 kleiner is dan 0,01, dus je verwerpt. Ook dan bewijs je niets, je "
+                "besluit enkel dat het bewijs sterk genoeg is.",
+            ],
+        ),
+        dict(
+            aanpak="Reken eerst hoeveel valse alarmen je bij dat significantieniveau verwacht. Vergelijk "
+                   "dat daarna met je vondst.",
+            waarom=[
+                "Let erop dat 5 procent van 100 juist 5 is. Wie genoeg toetst, vindt altijd iets; "
+                "daarom moet een vondst opnieuw onderzocht worden.",
+            ],
+        ),
+        dict(
+            aanpak="Schrijf het besluit altijd voorzichtig: onvoldoende bewijs tegen de nulhypothese, en "
+                   "niet dat er niets is.",
+            waarom=[
+                "Let erop dat een kleine steekproef een echt effect kan missen. Niets vinden en er is "
+                "niets zijn twee verschillende besluiten.",
+            ],
+        ),
+        dict(
+            aanpak="Denk bij deze vraag aan de spreiding. Dezelfde afstand van het gemiddelde betekent "
+                   "iets heel anders in een brede dan in een smalle verdeling.",
+            waarom=[
+                "Let erop dat de z-score in standaardafwijkingen rekent en dus geen eenheid heeft. Dat "
+                "maakt hem over groepen heen vergelijkbaar.",
+            ],
+        ),
+        dict(
+            aanpak="Reken met een groot rond aantal mensen in plaats van met kansen. Zet de zieken en de "
+                   "gezonden apart en tel de positieven in beide groepen.",
+            waarom=[
+                "Let erop dat de gezonde groep veel groter is: 2 procent van 9990 is al 200 mensen, "
+                "tegen 10 echte zieken. Een lage ziektekans maakt het valse alarm dus de regel.",
+            ],
+        ),
+        dict(
+            aanpak="Hou in het oog waar elke kans over gaat. Alfa en de p-waarde gaan over de gegevens, "
+                   "nooit over de kans dat een hypothese waar is.",
+            waarom=[
+                "Niet waar: de p-waarde gaat over de gegevens, niet over de hypothese. Het is de kans op "
+                "zo'n resultaat als H nul waar is.",
+                None,
+                None,
+                "Niet waar: het is net omgekeerd. Een strenger niveau maakt een type I-fout minder "
+                "waarschijnlijk, maar een type II-fout juist waarschijnlijker.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-matrices-en-hun-bewerkingen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Noem een matrix altijd eerst bij haar dimensie, rijen maal kolommen. Optellen vraagt "
+                   "dezelfde dimensie, vermenigvuldigen vraagt dat de binnenste getallen gelijk zijn.",
+            waarom=[
+                "Let op de tweede en de derde rij: bij een product moeten de binnenste getallen gelijk "
+                "zijn, en het resultaat krijgt de buitenste. Bij 2 bij 3 maal 2 bij 3 past dat niet.",
+                None,
+                "Let erop dat een kolommatrix één kolom heeft, dus de elementen staan onder elkaar. Haar "
+                "dimensie is 6 bij 1.",
+            ],
+        ),
+        dict(
+            aanpak="Optellen en met een getal vermenigvuldigen doe je element per element. Werk de "
+                   "factor eerst uit en tel daarna op.",
+            waarom=[
+                None,
+                "Let erop dat je de 3 op élk element van A toepast, ook op de negatieve. En let op het "
+                "teken bij min min 1, dat geeft plus 1.",
+            ],
+        ),
+        dict(
+            aanpak="Matrixrekenen lijkt op gewoon rekenen, met twee uitzonderingen: de volgorde telt, en "
+                   "de dimensies moeten passen.",
+            waarom=[
+                None,
+                "Niet waar: bij een product keert de orde om, dus B getransponeerd maal A "
+                "getransponeerd. Anders kloppen de dimensies zelfs niet.",
+                None,
+                "Niet waar: enkel matrices met dezelfde dimensie. Een matrix van 2 bij 3 en een van 3 "
+                "bij 2 kan je niet optellen.",
+            ],
+        ),
+        dict(
+            aanpak="Elk element is een rij van de eerste matrix tegen een kolom van de tweede: "
+                   "vermenigvuldig paar per paar en tel op.",
+            waarom=[
+                "Let erop dat het element linksboven uit de eerste rij en de eerste kolom komt: 1 maal 0 "
+                "plus 2 maal min 1 geeft min 2. Werk per plaats en niet per matrix.",
+                "Let erop dat de dimensies hier 2 bij 3 en 3 bij 2 zijn, dus het resultaat is 2 bij 2. "
+                "Controleer dat eerst, dan weet je hoeveel elementen je moet uitrekenen.",
+            ],
+        ),
+        dict(
+            aanpak="Leer deze namen samen met hun voorwaarde. Vierkant hoort bij drie van de vijf, en "
+                   "dat vergeten is de klassieke fout.",
+            waarom=[
+                "Let erop dat de nulmatrix elke dimensie kan hebben, maar de eenheidsmatrix en de "
+                "diagonaalmatrix vierkant moeten zijn.",
+            ],
+        ),
+        dict(
+            aanpak="Transponeren verwisselt de rijen en de kolommen, dus ook de twee getallen van de "
+                   "dimensie.",
+            waarom=[
+                "Let op de tweede: bij een getransponeerd product keert ook de orde om, dus het "
+                "resultaat is 2 bij 3. En let op de laatste: het aantal rijen van A getransponeerd is "
+                "het aantal kolommen van A.",
+            ],
+        ),
+        dict(
+            aanpak="De determinant van orde twee is a maal d min b maal c. Eén eigenschap spaart je "
+                   "rekenwerk: bij twee afhankelijke rijen is ze nul.",
+            waarom=[
+                "Let op de tweede en de laatste: daar hoef je niet te rekenen. Twee rijen die van elkaar "
+                "afhangen geven altijd nul.",
+            ],
+        ),
+        dict(
+            aanpak="Reken eerst de determinant uit. Is ze nul, dan bestaat de inverse niet; anders "
+                   "verwissel je a en d, keer je de tekens van b en c om en deel je door de "
+                   "determinant.",
+            waarom=[
+                None,
+                "Let erop dat enkel b en c van teken wisselen, en dat a en d van plaats verwisselen. Dat "
+                "is de hele formule, maar de plaatsen verwarren is makkelijk.",
+                "Let erop dat de tweede rij hier het dubbel is van de eerste, dus de determinant is nul. "
+                "Bij de drie andere is ze dat niet.",
+            ],
+        ),
+        dict(
+            aanpak="Hou in het oog dat een determinant enkel bij een vierkante matrix bestaat, en dat de "
+                   "rang nooit groter is dan het kleinste van rijen en kolommen.",
+            waarom=[
+                None,
+                "Niet waar: een determinant bestaat enkel bij een vierkante matrix. Bij 2 bij 3 valt er "
+                "niets te berekenen.",
+                "Niet waar: de rang is nooit groter dan het aantal rijen, en ook niet dan het aantal "
+                "kolommen.",
+                "Let erop dat de rijcanonieke vorm uniek is, ook al kan je er langs verschillende wegen "
+                "komen. Daarom is de rang eenduidig.",
+            ],
+        ),
+        dict(
+            aanpak="De rang is het aantal rijen dat echt nieuwe informatie geeft. Veeg de matrix uit met "
+                   "rijoperaties en tel de rijen die niet nul zijn.",
+            waarom=[
+                None,
+                "Let erop dat de nulmatrix rang 0 heeft: geen enkele rij geeft informatie. Dat is de "
+                "enige matrix met rang nul.",
+                "Let erop dat de determinant nul precies betekent dat niet alle rijen onafhankelijk "
+                "zijn. Hoeveel er wegvallen, zegt ze niet.",
+                "Let erop dat de tweede rij het dubbel is van de eerste, dus ze valt weg. Je hoeft de "
+                "matrix niet helemaal te vegen om dat te zien.",
+            ],
+        ),
+        dict(
+            aanpak="Zet de aantallen in de ene matrix en de prijzen in de andere. De dimensies zeggen "
+                   "zelf in welke orde het product moet staan.",
+            waarom=[
+                "Let erop dat het product 2 bij 2 maal 2 bij 1 is, dus 2 bij 1: één totaal per klant. De "
+                "andere orde zou niet eens kunnen.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Noteer elke rijoperatie met de pijl erbij. Zo kan je je stappen later controleren en "
+                   "ze ook terugdraaien.",
+            waarom=[
+                "Let erop dat de factor bij het vermenigvuldigen niet nul mag zijn: met nul wis je de "
+                "rij en verlies je informatie.",
+            ],
+        ),
+        dict(
+            aanpak="Reken bij deze vraag beide producten volledig uit. Eén verschil in één element is al "
+                   "genoeg om het besluit te dragen.",
+            waarom=[
+                "Let erop dat zelfs de dimensies van de twee producten niet altijd gelijk zijn. Hier wel, "
+                "maar de getallen verschillen volledig.",
+            ],
+        ),
+        dict(
+            aanpak="Beantwoord de drie delen los van elkaar, en zeg bij elk welke eigenschap je "
+                   "gebruikt. Ze hangen alle drie aan dezelfde vaststelling.",
+            waarom=[
+                "Let erop dat de drie antwoorden één oorzaak hebben: twee afhankelijke rijen. Daaruit "
+                "volgen de determinant nul, de lagere rang en het ontbreken van de inverse.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-stelsels-oplossen-en-matrixmodellen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="In de uitgebreide matrix staan de coëfficiënten links van de streep en de rechterlid "
+                   "ernaast. Elke rij is één vergelijking.",
+            waarom=[
+                "Let erop dat een ontbrekende onbekende een nul krijgt en dat je de tekens meeneemt: x "
+                "min y geeft min 1.",
+                "Let erop dat je van onder naar boven terugrekent: eerst y uit de tweede rij, dan x. Dat "
+                "is de laatste stap van elke oplossing.",
+            ],
+        ),
+        dict(
+            aanpak="Drie rijoperaties mogen: rijen verwisselen, een rij met een getal verschillend van "
+                   "nul vermenigvuldigen, en bij een rij een veelvoud van een andere optellen.",
+            waarom=[
+                "Let op de laatste rij: met nul vermenigvuldigen wist de vergelijking. Een negatief "
+                "getal mag wel, want die stap kan je terugdraaien.",
+            ],
+        ),
+        dict(
+            aanpak="Vergelijk de twee rangen. Verschillen ze, dan is het stelsel strijdig; zijn ze gelijk "
+                   "aan n, dan bepaald; zijn ze gelijk maar kleiner dan n, dan onbepaald.",
+            waarom=[
+                "Let erop dat je eerst de twee rangen vergelijkt en pas daarna met n: verschillende "
+                "rangen betekent altijd strijdig, wat n ook is.",
+            ],
+        ),
+        dict(
+            aanpak="Het aantal vrijheidsgraden is n min de rang. Dat is het aantal onbekenden dat je "
+                   "zelf mag kiezen.",
+            waarom=[
+                "Let op de derde: nul vrijheidsgraden betekent precies één oplossing. Het is dus geen "
+                "teken dat er geen oplossing is.",
+            ],
+        ),
+        dict(
+            aanpak="Zet de twee vergelijkingen om in rechten. Snijden ze, dan is er één oplossing; vallen "
+                   "ze samen, dan oneindig veel; lopen ze evenwijdig, dan geen enkele.",
+            waarom=[
+                "Let erop dat samenvallen en evenwijdig lopen allebei geen snijpunt in de gewone zin "
+                "geven, maar wel een heel ander besluit.",
+            ],
+        ),
+        dict(
+            aanpak="Lees de laatste rij altijd eerst. Nullen met een nul erachter geven een "
+                   "vrijheidsgraad, nullen met een getal erachter maken het stelsel strijdig.",
+            waarom=[
+                None,
+                "Let erop dat een rij met alleen nullen geen tegenspraak is maar een vergelijking die "
+                "wegvalt. Daarom blijft er een vrijheidsgraad over.",
+                "Let erop dat de laatste rij hier 0 is gelijk aan 7 zegt, en dat kan nooit. Juist dat "
+                "ene getal maakt het verschil met de vorige oefening.",
+            ],
+        ),
+        dict(
+            aanpak="Veeg de eerste onbekende weg uit de tweede rij, en reken dan terug. Schrijf elke "
+                   "rijoperatie op, dan kan je je stappen nakijken.",
+            waarom=[
+                None,
+                "Let erop dat de twee vergelijkingen hier dezelfde linkerleden hebben maar een ander "
+                "rechterlid. Dat geeft 0 is gelijk aan min 1, dus er is geen oplossing.",
+            ],
+        ),
+        dict(
+            aanpak="Werk van boven naar onder tot er een driehoek staat, en reken dan van onder naar "
+                   "boven terug. Doe altijd de proef in alle drie de vergelijkingen.",
+            waarom=[
+                "Let erop dat je de proef in alle drie de vergelijkingen doet. Bij drie onbekenden sluipt "
+                "er makkelijk een tekenfout in, en de proef vindt die.",
+            ],
+        ),
+        dict(
+            aanpak="Hou de twee rangen in het oog. Bijna elke uitspraak over stelsels gaat over de rang "
+                   "en niet over het aantal vergelijkingen.",
+            waarom=[
+                "Niet waar: twee vergelijkingen kunnen hetzelfde zeggen. Dan is de rang kleiner dan n en "
+                "is het stelsel onbepaald of strijdig.",
+                None,
+                "Niet waar: een rij met alleen nullen, ook achter de streep, valt gewoon weg. Strijdig "
+                "wordt het pas als er achter de streep een ander getal staat.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Reken eerst de determinant uit. Is ze verschillend van nul, dan kan je de inverse "
+                   "gebruiken; anders moet je vegen.",
+            waarom=[
+                "Let erop dat de determinant hier 1 is, dus je hoeft niet te delen. Doe altijd de proef "
+                "door X in het oorspronkelijke stelsel te vullen.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Kies eerst je onbekenden en noem ze bij naam. Schrijf dan per gegeven één "
+                   "vergelijking op, en los pas daarna op.",
+            waarom=[
+                None,
+                "Let erop dat een dubbele bestelling geen nieuwe informatie geeft. Je hebt twee echt "
+                "verschillende bestellingen nodig om twee prijzen te vinden.",
+            ],
+        ),
+        dict(
+            aanpak="Een overgangsmatrix brengt je één stap verder. Voor k stappen verhef je de matrix "
+                   "tot de macht k, en pas dan vermenigvuldig je met de begintoestand.",
+            waarom=[
+                "Let erop dat de macht op T staat en niet op X. De begintoestand vermenigvuldig je maar "
+                "één keer.",
+                None,
+                "Let erop dat een overgangsmatrix altijd vierkant is: elke toestand krijgt een rij én "
+                "een kolom.",
+            ],
+        ),
+        dict(
+            aanpak="Een Markov-matrix controleer je per kolom: elke kolom moet samen 1 geven, en geen "
+                   "enkel element mag negatief zijn.",
+            waarom=[
+                "Let erop dat je per kolom telt en niet per rij. Elke kolom zegt waar alles uit die ene "
+                "toestand naartoe gaat, en dat is samen het geheel.",
+                "Let erop dat het totaal gelijk blijft: 90 plus 110 is nog altijd 200. Dat is een goede "
+                "controle bij elk Markov-model.",
+            ],
+        ),
+        dict(
+            aanpak="Hou de twee voorwaarden in het oog: vierkant, en elke kolom samen precies 1.",
+            waarom=[
+                None,
+                "Niet waar: een kolom moet precies 1 geven. Meer dan 1 zou betekenen dat er meer "
+                "vertrekt dan er is.",
+            ],
+        ),
+        dict(
+            aanpak="Zet de knopen in dezelfde volgorde op de rijen en de kolommen. Een verbinding geeft "
+                   "een 1 op twee plaatsen, want ze loopt in beide richtingen.",
+            waarom=[
+                "Let erop dat de matrix symmetrisch is en dat er nullen op de diagonaal staan: geen "
+                "knoop is met zichzelf verbonden.",
+                "Let erop dat één element van het product al het antwoord geeft. Je hoeft niet de hele "
+                "matrix in het kwadraat te zetten.",
+            ],
+        ),
+        dict(
+            aanpak="Onthou het verband: de macht van de matrix is de lengte van de weg, en de orde is "
+                   "het aantal knopen.",
+            waarom=[
+                None,
+                "Niet waar: vijf knopen geven een matrix van orde 5. Elke knoop krijgt een eigen rij en "
+                "kolom.",
+            ],
+        ),
+        dict(
+            aanpak="Noem bij een uitlegvraag de rijoperatie of de rang die het antwoord draagt, en leg "
+                   "daarna in woorden uit waarom.",
+            waarom=[
+                "Let erop dat de reden omkeerbaarheid is: wat je kan terugdraaien, verandert de "
+                "oplossingen niet.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Denk bij deze twee in rangen en in wat een vermenigvuldiging met T doet. Reken niets "
+                   "uit wat je kan beredeneren.",
+            waarom=[
+                "Let erop dat een vierde vergelijking enkel helpt als ze de rang doet stijgen. Een "
+                "vergelijking die niets nieuws zegt, verandert niets.",
+                "Let erop dat je hier niets hoeft uit te rekenen: T maal X geeft X, dus elke verdere "
+                "stap geeft opnieuw X. Dat heet een evenwichtstoestand.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-algebraische-structuren-en-groepen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Loop de vier eigenschappen altijd in dezelfde orde af: intern, associatief, "
+                   "neutraal element, invers element. Dan vergeet je er geen.",
+            waarom=[
+                "Let erop dat intern over de verzameling gaat en associatief over de haakjes. Die twee "
+                "woorden verwar je makkelijk.",
+            ],
+        ),
+        dict(
+            aanpak="Schrijf elke eigenschap met het sterretje in plaats van met plus of maal. Zo zie je "
+                   "dat ze over elke bewerking gaat.",
+            waarom=[
+                "Let erop dat bij het invers element beide kanten staan: a maal a omgekeerd én "
+                "omgekeerd. In een groep die niet commutatief is, moet dat allebei gelden.",
+            ],
+        ),
+        dict(
+            aanpak="Ga per rij de vier eigenschappen na. Eén eigenschap die ontbreekt, is al genoeg om "
+                   "te besluiten dat het geen groep is.",
+            waarom=[
+                "Let op de vijfde rij: oneven plus oneven geeft even, dus de bewerking is niet eens "
+                "intern. Daar struikelt het al bij de eerste eigenschap.",
+            ],
+        ),
+        dict(
+            aanpak="Zoek bij elke vraag één tegenvoorbeeld. Eén getal dat niet past, is genoeg bewijs.",
+            waarom=[
+                "Let erop dat de natuurlijke getallen wel een neutraal element hebben, de nul. Enkel het "
+                "invers element ontbreekt, want min 3 is geen natuurlijk getal.",
+                None,
+                "Let erop dat nul het enige reële getal is zonder invers element: er bestaat geen getal "
+                "dat met nul vermenigvuldigd 1 geeft.",
+            ],
+        ),
+        dict(
+            aanpak="Het neutraal element is het element dat niets verandert. Bij een optelling is dat "
+                   "nul, bij een vermenigvuldiging 1.",
+            waarom=[
+                "Let erop dat ook bij matrices dezelfde logica geldt: de nulmatrix bij het optellen en "
+                "de eenheidsmatrix bij het vermenigvuldigen.",
+            ],
+        ),
+        dict(
+            aanpak="Het invers element is wat je nodig hebt om bij e te komen. Bij een optelling is dat "
+                   "het tegengestelde, bij een vermenigvuldiging het omgekeerde.",
+            waarom=[
+                "Let op de laatste twee: e is zijn eigen invers, en het invers van het invers is het "
+                "element zelf. Die twee gelden in élke groep.",
+            ],
+        ),
+        dict(
+            aanpak="Let erop dat de grootte van de verzameling niets zegt. Enkel de vier eigenschappen "
+                   "beslissen of het een groep is.",
+            waarom=[
+                None,
+                "Niet waar: de matrices van orde 2 met een determinant verschillend van nul vormen een "
+                "groep die niet commutatief is. Eindig en commutatief zijn twee aparte dingen.",
+                None,
+                "Niet waar: de gehele getallen met de optelling vormen een oneindige groep. Oneindig zijn "
+                "is geen bezwaar.",
+            ],
+        ),
+        dict(
+            aanpak="De tabel is vierkant: zoveel rijen en kolommen als er elementen zijn. Het aantal "
+                   "vakjes is dus het aantal elementen in het kwadraat.",
+            waarom=[
+                "Let erop dat de kopregel en de kopkolom niet meetellen. Bij 7 elementen zijn er dus 49 "
+                "vakjes en niet 64.",
+            ],
+        ),
+        dict(
+            aanpak="Een Cayley-tabel verraadt de eigenschappen in haar vorm. Kijk naar de diagonaal, "
+                   "naar de symmetrie en naar wat zich in een rij herhaalt.",
+            waarom=[
+                "Let op de laatste: in een groep komt elk element precies één keer per rij voor. Een "
+                "element dat twee keer staat, sluit een groep dus uit.",
+            ],
+        ),
+        dict(
+            aanpak="Tel gewoon op en hou de rest na deling door 3 over. Zo komt 2 plus 2 op 1 uit, want "
+                   "4 laat rest 1.",
+            waarom=[
+                "Let erop dat elke rij een plaats opschuift. Dat patroon is een goede controle dat je "
+                "nergens een rest fout berekend hebt.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Bij het inverse van een product keert de orde om. Schrijf de factoren achterstevoren "
+                   "en zet bij elk het invers.",
+            waarom=[
+                None,
+                "Let erop dat de orde omkeert: eerst b omgekeerd en dan a omgekeerd. Dat is de regel die "
+                "het vaakst fout gaat.",
+                "Let erop dat de orde ook bij drie factoren volledig omkeert, dus van achter naar voor.",
+            ],
+        ),
+        dict(
+            aanpak="Bewerk aan de kant waar het element staat. Staat a links, dan bewerk je links; "
+                   "staat het rechts, dan rechts.",
+            waarom=[
+                None,
+                "Let erop dat je van buiten naar binnen werkt: eerst b weg, dan a. En alles gebeurt aan "
+                "de rechterkant, want daar staan ze.",
+            ],
+        ),
+        dict(
+            aanpak="Hou in het oog dat de orde telt, tenzij de groep commutatief is. Dat onderscheid "
+                   "zit achter bijna elke uitspraak hier.",
+            waarom=[
+                "Niet waar: de orde keert om, dus b omgekeerd eerst. Enkel in een commutatieve groep "
+                "mag je ze omwisselen.",
+                None,
+                "Niet waar: het neutraal element is uniek. Dat is precies wat het bewijs hieronder "
+                "aantoont.",
+                "Let erop dat dit mag omdat de groep commutatief is. Vergelijk met de eerste uitspraak "
+                "van deze reeks: dezelfde formule, maar daar zonder die voorwaarde.",
+            ],
+        ),
+        dict(
+            aanpak="Vertrek bij een bewijs van de definitie en werk met de eigenschappen. Bij "
+                   "uniciteit veronderstel je twee elementen en toon je dat ze gelijk zijn.",
+            waarom=[
+                "Let erop dat je dezelfde uitdrukking twee keer anders leest: één keer met e neutraal en "
+                "één keer met e prime neutraal. Daaruit volgt meteen dat ze gelijk zijn.",
+                "Let erop dat je enkel moet nagaan dat het product e geeft. Dat is per definitie wat een "
+                "invers element is.",
+            ],
+        ),
+        dict(
+            aanpak="Noem bij een uitlegvraag de eigenschap of de voorwaarde die het antwoord draagt, en "
+                   "zeg daarna in woorden waarom.",
+            waarom=[
+                "Let erop dat een Cayley-tabel enkel bij een eindige groep bestaat. Voor een oneindige "
+                "groep bewijs je de eigenschappen met letters.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Denk bij deze twee in de eigenschappen en niet in getallen. Eén eigenschap kan al "
+                   "een andere opleveren.",
+            waarom=[
+                "Let erop dat de commutativiteit hier een gevolg is en geen bijkomende aanname: ze volgt "
+                "uit het feit dat elk element zijn eigen invers is.",
+                "Let erop dat de nul in de gehele getallen geen invers element heeft. Daarom mag je daar "
+                "niet schrappen, en in een groep wel.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-punten-vectoren-en-afstanden-in-de-ruimte-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Trek de coördinaten van het beginpunt van die van het eindpunt af, in die orde. De "
+                   "norm reken je daarna met de stelling van Pythagoras in drie richtingen.",
+            waarom=[
+                "Let op de derde rij: twee coördinaten blijven gelijk, dus de vector loopt zuiver langs "
+                "de z-as. En let op de tekens bij de laatste: min 1 min min 1 geeft 2.",
+            ],
+        ),
+        dict(
+            aanpak="Vectoren tel je op en trek je af per coördinaat. De eerste bij de eerste, de tweede "
+                   "bij de tweede, de derde bij de derde.",
+            waarom=[
+                "Let erop dat twee gelijke vectoren aftrekken de nulvector geeft, en niet het getal nul. "
+                "Een vector blijft een vector.",
+            ],
+        ),
+        dict(
+            aanpak="Een getal maal een vector werkt op elke coördinaat. Een negatief getal keert de "
+                   "richting om.",
+            waarom=[
+                "Let erop dat min 1 maal een vector alle tekens omkeert: dat is de tegengestelde vector, "
+                "met dezelfde lengte.",
+            ],
+        ),
+        dict(
+            aanpak="Kwadrateer de drie coördinaten, tel ze op en neem de wortel. De tekens spelen geen "
+                   "rol, want alles wordt gekwadrateerd.",
+            waarom=[
+                "Let erop dat de nullen niets bijdragen, en dat een negatieve coördinaat dezelfde norm "
+                "geeft als haar tegengestelde.",
+            ],
+        ),
+        dict(
+            aanpak="Hou in het oog dat een vector enkel een richting, een zin en een lengte is. Waar ze "
+                   "begint, doet voor een vrije vector niet mee.",
+            waarom=[
+                "Niet waar: een norm is een lengte, dus nooit negatief. Ze is nul enkel voor de "
+                "nulvector.",
+                None,
+                "Niet waar: dezelfde coördinaten betekent dezelfde vrije vector. Enkel het beginpunt "
+                "verschilt, en dat hoort niet bij de vector.",
+                "Let erop dat elk veelvoud van een richtingsvector ook een richtingsvector is. Daarom "
+                "zijn er oneindig veel.",
+            ],
+        ),
+        dict(
+            aanpak="De coördinaten zijn de getallen vóór de eenheidsvectoren. Een ontbrekende as "
+                   "betekent een nul op die plaats.",
+            waarom=[
+                None,
+                "Let erop dat de y-coördinaat nul is, want er staat geen e y in de som. Een ontbrekende "
+                "term is een nul en niet een 1.",
+            ],
+        ),
+        dict(
+            aanpak="Vermenigvuldig de overeenkomstige coördinaten en tel de drie producten op. Het "
+                   "resultaat is een getal, geen vector.",
+            waarom=[
+                "Let op de laatste: 2 min 4 plus 3 geeft 1. Let goed op de tekens, want één fout teken "
+                "verandert het besluit over de hoek.",
+            ],
+        ),
+        dict(
+            aanpak="Het teken van het scalair product beslist: positief geeft een scherpe hoek, nul een "
+                   "rechte, negatief een stompe.",
+            waarom=[
+                "Let erop dat het teken alleen genoeg is: je hoeft de hoek niet uit te rekenen om te "
+                "weten of ze scherp of stomp is.",
+            ],
+        ),
+        dict(
+            aanpak="Kijk eerst of de ene vector een veelvoud is van de andere, dan zijn ze evenwijdig. "
+                   "Is dat niet zo, reken dan het scalair product uit.",
+            waarom=[
+                "Let op de laatste rij: min 4, 2, 0 is min 2 maal de eerste vector. Een negatieve factor "
+                "maakt ze evenwijdig met tegengestelde zin, maar nog altijd evenwijdig.",
+            ],
+        ),
+        dict(
+            aanpak="Zet de voorwaarde om in een vergelijking: loodrecht geeft scalair product nul, "
+                   "evenwijdig geeft een veelvoud.",
+            waarom=[
+                None,
+                "Let erop dat je de factor k eerst uit één coördinaat haalt en dan nakijkt of ze overal "
+                "klopt. Eén coördinaat die niet past, maakt ze niet evenwijdig.",
+            ],
+        ),
+        dict(
+            aanpak="Reken eerst het scalair product en de twee normen uit, en vul dan de formule in. Een "
+                   "negatieve cosinus hoort bij een stompe hoek.",
+            waarom=[
+                None,
+                "Let erop dat de cosinus hier negatief is, dus de hoek is stomp. Vergeleken met de "
+                "vorige oefening is enkel het teken anders, en dat geeft 135 in plaats van 45 graden.",
+            ],
+        ),
+        dict(
+            aanpak="Een afstand tussen twee punten is de norm van de vector ertussen. Bij de oorsprong "
+                   "zijn dat gewoon de coördinaten van het punt.",
+            waarom=[
+                "Let erop dat twee coördinaten gelijk zijn, dus er blijft één verschil over. De afstand "
+                "is dan gewoon dat verschil.",
+                None,
+                "Let erop dat 1, 16 en 64 samen 81 geven. Mooie ronde uitkomsten zijn hier een teken dat "
+                "je goed gerekend hebt.",
+            ],
+        ),
+        dict(
+            aanpak="Een midden is het gemiddelde van twee punten, een zwaartepunt het gemiddelde van "
+                   "alle hoekpunten. Tel op en deel door het aantal.",
+            waarom=[
+                "Let erop dat je bij een driehoek door 3 deelt en bij een viervlak door 4. Het aantal "
+                "punten bepaalt de noemer.",
+            ],
+        ),
+        dict(
+            aanpak="Hou in het oog wat een scalair product oplevert: een getal. Dat is de reden achter "
+                   "bijna elke uitspraak hier.",
+            waarom=[
+                None,
+                "Niet waar: v maal v geeft de norm in het kwadraat. Je moet er dus nog de wortel van "
+                "nemen.",
+                None,
+                "Niet waar: het resultaat is een getal, vandaar de naam scalair. Het vectorieel product "
+                "geeft wel een vector.",
+            ],
+        ),
+        dict(
+            aanpak="Zet de gegevens eerst als vectoren en reken dan. Krachten en wegen in verschillende "
+                   "richtingen tel je als vectoren op, niet als getallen.",
+            waarom=[
+                "Let erop dat de twee krachten loodrecht op elkaar staan, dus Pythagoras geeft 5. Enkel "
+                "bij dezelfde richting zou 7 kloppen.",
+                "Let erop dat de weg en de afstand twee verschillende dingen zijn: de weg is de som van "
+                "de stukken, de afstand de rechte lijn naar het eindpunt.",
+            ],
+        ),
+        dict(
+            aanpak="Noem bij een uitlegvraag de formule of de voorwaarde, en zeg daarna waarom ze hier "
+                   "nodig is.",
+            waarom=[
+                "Let erop dat de formule niets anders is dan Pythagoras. Scheve assen of ongelijke "
+                "eenheden breken dus het hele rekenwerk.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Werk bij deze twee met letters in plaats van met getallen. Dan geldt je besluit voor "
+                   "elk punt en niet enkel voor dit voorbeeld.",
+            waarom=[
+                None,
+                "Let erop dat er twee oplossingen zijn: de norm werkt met kwadraten, dus het teken van t "
+                "doet niet mee. Eén oplossing opschrijven is hier onvolledig.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-rechten-en-vlakken-in-de-ruimte-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Een rechte heeft één richting nodig, een vlak twee. Werk je met een normaalvector, "
+                   "dan volstaat er één, want die staat loodrecht op het hele vlak.",
+            waarom=[
+                "Let op de tweede rij: de twee richtingsvectoren mogen niet evenwijdig zijn, anders "
+                "beschrijven ze samen maar één richting en krijg je geen vlak.",
+            ],
+        ),
+        dict(
+            aanpak="Onthou het verband met de ruimte: elke vergelijking neemt één vrijheidsgraad weg. "
+                   "Een vlak houdt er twee over, een rechte één.",
+            waarom=[
+                "Let op de eerste twee: in het vlak volstaat één vergelijking, in de ruimte heb je er "
+                "twee nodig, want een rechte is daar de doorsnede van twee vlakken.",
+            ],
+        ),
+        dict(
+            aanpak="Zet het punt als vast deel en de richtingsvector maal t erachter, per coördinaat. "
+                   "Werk je met twee punten, dan reken je eerst de vector ertussen uit.",
+            waarom=[
+                None,
+                "Let erop dat de tweede coördinaat van de richtingsvector nul is, dus y blijft gelijk "
+                "aan 1. Een vergelijking zonder t is geen fout.",
+            ],
+        ),
+        dict(
+            aanpak="De getallen vóór x, y en z vormen samen de normaalvector. Een ontbrekende "
+                   "veranderlijke geeft een nul op die plaats.",
+            waarom=[
+                "Let op de tweede en de derde: een ontbrekende veranderlijke betekent een nul in de "
+                "normaalvector, en de losse term d speelt er geen rol in.",
+            ],
+        ),
+        dict(
+            aanpak="Vul de normaalvector in als a, b en c, en gebruik het punt om d te vinden. Doe de "
+                   "proef door het punt opnieuw in te vullen.",
+            waarom=[
+                "Let erop dat de y wegvalt, want b is nul. Reken d met het punt uit en niet op het zicht.",
+                "Let erop dat een vlak door de oorsprong altijd d gelijk aan nul heeft. Dat is een "
+                "handige controle.",
+            ],
+        ),
+        dict(
+            aanpak="Vul de drie coördinaten in de vergelijking in. Komt er nul uit, dan ligt het punt in "
+                   "het vlak.",
+            waarom=[
+                "Let erop dat je elke coördinaat op haar eigen plaats zet. Eén coördinaat verwisselen "
+                "geeft meteen een fout besluit.",
+            ],
+        ),
+        dict(
+            aanpak="Hou in het oog hoeveel gegevens elk voorwerp nodig heeft. Dat zit achter bijna elke "
+                   "uitspraak hier.",
+            waarom=[
+                "Niet waar: in de ruimte heeft een rechte er twee nodig. Eén vergelijking beschrijft "
+                "daar een vlak.",
+                None,
+                "Niet waar: drie punten op één rechte liggen in oneindig veel vlakken. Ze moeten niet op "
+                "één rechte liggen.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Zet per geval alle mogelijkheden op een rij voor je er één kiest. Kruisend bestaat "
+                   "enkel bij twee rechten in de ruimte.",
+            waarom=[
+                "Let erop dat twee vlakken elkaar nooit in één punt snijden: hun doorsnede is een rechte "
+                "of ze zijn evenwijdig.",
+            ],
+        ),
+        dict(
+            aanpak="Vergelijk eerst de twee normaalvectoren. Zijn ze veelvouden van elkaar, kijk dan "
+                   "naar d om samenvallend van evenwijdig te onderscheiden.",
+            waarom=[
+                "Let op de eerste twee rijen: dezelfde normaalvectoren, maar de ene vergelijking is het "
+                "dubbel van de andere en de andere niet. Juist dat ene getal beslist.",
+            ],
+        ),
+        dict(
+            aanpak="Vergelijk de richtingsvector met de normaalvector. Scalair product nul geeft "
+                   "evenwijdig, een veelvoud geeft loodrecht, en anders snijdt ze schuin.",
+            waarom=[
+                "Let op de eerste twee: een scalair product van nul betekent evenwijdig met het vlak, "
+                "niet loodrecht erop. Dat is precies omgekeerd aan wat je zou verwachten.",
+            ],
+        ),
+        dict(
+            aanpak="Vul het punt in de vergelijking in, neem de absolute waarde, en deel door de norm "
+                   "van de normaalvector.",
+            waarom=[
+                None,
+                "Let erop dat de teller hier enkel de losse term is, met de absolute waarde erom. Een "
+                "afstand is nooit negatief.",
+                "Let erop dat de noemer altijd 3 is bij dit vlak: hij hangt enkel van de normaalvector "
+                "af en niet van het punt.",
+            ],
+        ),
+        dict(
+            aanpak="De hoek tussen twee vlakken is de hoek tussen hun normaalvectoren. Neem de absolute "
+                   "waarde, zodat je altijd de scherpe hoek krijgt.",
+            waarom=[
+                None,
+                "Let erop dat een hoek van nul graden betekent dat de vlakken evenwijdig zijn. Dat de "
+                "vlakken niet samenvallen, verandert die hoek niet.",
+            ],
+        ),
+        dict(
+            aanpak="Hou in het oog wat er in de ruimte bij komt tegenover het vlak. Kruisende rechten "
+                   "zijn het enige geval dat in het vlak niet bestaat.",
+            waarom=[
+                None,
+                "Niet waar: twee niet-evenwijdige vlakken snijden elkaar volgens een rechte. Eén punt "
+                "kan alleen bij drie vlakken.",
+                "Niet waar: de richtingsvector loodrecht op de normaalvector betekent evenwijdig met het "
+                "vlak. Loodrecht erop zou een veelvoud van de normaalvector vragen.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Noem bij een uitlegvraag de eigenschap of het aantal vrijheidsgraden dat het "
+                   "antwoord draagt, en leg daarna in woorden uit waarom.",
+            waarom=[
+                None,
+                "Let erop dat het tweede deel van de vraag het belangrijkste is: in het vlak kan dit "
+                "geval niet bestaan, want twee niet-evenwijdige rechten snijden er altijd.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Zet de situatie eerst om in vlakken en rechten met hun vectoren. Zeg daarna pas wat "
+                   "je berekent, en ook wat het niet is.",
+            waarom=[
+                "Let erop dat de vraag ook wil weten welke hoek het níet is. De hellingshoek van het dak "
+                "meet je tegenover de horizontale grond, niet tegenover de gevel.",
+                "Let erop dat geen snijpunt niet betekent dat de afstand nul is. Bij kruisende rechten "
+                "meet je de kortste loodrechte afstand.",
+            ],
+        ),
+        dict(
+            aanpak="Denk bij deze twee eerst in vectoren en pas daarna in getallen. De normaalvectoren "
+                   "beslissen over de ligging, een punt pas over de afstand.",
+            waarom=[
+                "Let erop dat je ook een punt nodig hebt: loodrecht op de normaalvector maakt de rechte "
+                "evenwijdig, niet liggend in het vlak.",
+                "Let erop dat je een punt op het ene vlak kiest en de formule met het ándere vlak "
+                "gebruikt. En let op de noemer: de wortel van 12 hoort bij de tweede vergelijking.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-programmeren-algoritmen-en-structuren-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Leer deze vier namen met een voorbeeld erbij. Een conditie kiest, een iteratie "
+                   "herhaalt; dat is het verschil dat het vaakst gevraagd wordt.",
+            waarom=[
+                "Let op het verschil tussen een variabele en een constante: niet de soort waarde maakt "
+                "het verschil, maar of ze nog verandert.",
+                "Let erop dat een functie ook een eigen naam heeft en opnieuw opgeroepen kan worden. Dat "
+                "is net wat haar nuttig maakt.",
+            ],
+        ),
+        dict(
+            aanpak="Elk sleutelwoord hoort bij één bouwsteen. Koppel ze twee aan twee: if bij kiezen, "
+                   "for bij herhalen, def bij een functie, return bij haar antwoord.",
+            waarom=[
+                "Let op de laatste twee: def maakt de functie, return geeft het resultaat terug. Een "
+                "functie zonder return rekent iets uit en geeft niets.",
+            ],
+        ),
+        dict(
+            aanpak="Stel je twee vragen: telt de volgorde, en mag het veranderen? Daarmee kies je tussen "
+                   "een list, een tuple, een set en een dictionary.",
+            waarom=[
+                "Let op de laatste twee rijen: een set laat geen dubbels toe, en een tuple kan je niet "
+                "meer wijzigen. Juist die eigenschap maakt ze hier de beste keuze.",
+            ],
+        ),
+        dict(
+            aanpak="Een set houdt elke waarde maar één keer. Tel dus hoeveel verschillende waarden er in "
+                   "de lijst staan.",
+            waarom=[
+                "Let op de derde rij: vier keer hetzelfde getal geeft één element. En let erop dat de "
+                "volgorde in een set geen rol speelt.",
+            ],
+        ),
+        dict(
+            aanpak="Hou per structuur twee dingen in het oog: de volgorde en of ze aanpasbaar is. "
+                   "Daarmee beantwoord je bijna elke uitspraak.",
+            waarom=[
+                "Niet waar: een tuple ligt vast. Wil je nog wijzigen, dan heb je een list nodig.",
+                None,
+                "Niet waar: in een set staat elk element precies één keer. Een tweede keer toevoegen "
+                "verandert niets.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Leer deze vier technieken met hun kernwoord: zichzelf oproepen, opsplitsen, "
+                   "bewaren, halveren.",
+            waarom=[
+                "Let erop dat halveren ook verdeel-en-heers is: je gooit elke stap de helft weg en lost "
+                "verder in de andere helft op.",
+            ],
+        ),
+        dict(
+            aanpak="Een recursieve formule bestaat altijd uit twee delen: de stap die terugverwijst, en "
+                   "het stopgeval. Zonder het stopgeval stopt het programma nooit.",
+            waarom=[
+                "Let erop dat het stopgeval 0 faculteit gelijk aan 1 is, en niet 1 faculteit. Anders "
+                "werkt de formule niet voor nul.",
+                "Let erop dat Fibonacci twee stopgevallen nodig heeft, want de formule kijkt twee "
+                "stappen terug.",
+            ],
+        ),
+        dict(
+            aanpak="Reken de rij van onder op in plaats van van boven af. Dan hou je de tussenresultaten "
+                   "bij en hoef je niets twee keer te doen.",
+            waarom=[
+                "Let erop dat de rij van Fibonacci veel trager groeit dan de faculteit: 6 faculteit is "
+                "al 720, terwijl F van 8 maar 21 is.",
+            ],
+        ),
+        dict(
+            aanpak="Elke stap halveert de rij. Tel dus hoeveel keer je door 2 kan delen tot er één "
+                   "getal overblijft; dat is de logaritme met grondtal 2.",
+            waarom=[
+                "Let erop dat 1024 getallen maar 10 stappen vragen. Dat is precies waarom halveren zo "
+                "veel sneller is dan één voor één doorlopen.",
+            ],
+        ),
+        dict(
+            aanpak="Schrijf de boom van oproepen eerst uit. Dan zie je zelf welke waarden meer dan één "
+                   "keer berekend worden.",
+            waarom=[
+                "Let erop dat je de oproepen echt uitschrijft: zo zie je dat F van 1 drie keer berekend "
+                "wordt, en dat is precies de verspilling.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Hou de twee woorden uit elkaar: correct gaat over het antwoord, eindig over het "
+                   "stoppen. Een programma heeft ze allebei nodig.",
+            waarom=[
+                "Let erop dat de twee onafhankelijk zijn: een algoritme kan juist redeneren en toch "
+                "eeuwig blijven lopen.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Een algoritme is een werkwijze, niet een taal. Dat idee zit achter bijna elke "
+                   "uitspraak in deze reeks.",
+            waarom=[
+                "Niet waar: een algoritme is een werkwijze in eindig veel stappen. Je kan ze ook in "
+                "woorden of in een schema zetten.",
+                "Niet waar: hetzelfde antwoord kan je op een snelle en op een trage manier vinden. Kijk "
+                "naar de laatste doordenker van deze bundel.",
+                None,
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Elke bibliotheek doet één soort werk. Koppel de naam aan die taak en je hoeft niets "
+                   "van buiten te leren.",
+            waarom=[
+                None,
+                "Let erop dat een CSV-bestand gewoon tekst is met komma's ertussen. Daarom kan je het "
+                "met een rekenblad openen en met een programma inlezen.",
+            ],
+        ),
+        dict(
+            aanpak="Vul n in de formule in en reken. Bij een logaritme met grondtal 2 is dat ongeveer "
+                   "10 bij duizend.",
+            waarom=[
+                "Let erop dat het verschil enorm is: 10 tegenover een miljoen bij hetzelfde aantal "
+                "gegevens. Daarom kijk je naar het groeigedrag en niet naar de klok.",
+            ],
+        ),
+        dict(
+            aanpak="Een Riemannsom telt stroken op: hoogte maal breedte, en dat n keer. Schrijf eerst op "
+                   "wat delta x is.",
+            waarom=[
+                None,
+                "Let erop dat smallere stroken de benadering beter maken, niet slechter. Dat is het idee "
+                "achter de integraal: de limiet voor n naar oneindig.",
+            ],
+        ),
+        dict(
+            aanpak="Noem bij een uitlegvraag ook waarom het telt voor wie je code leest. Leesbaarheid is "
+                   "een deel van de beoordeling en geen opsmuk.",
+            waarom=[
+                None,
+                "Let erop dat testen en debuggen er echt bij horen: zonder die vierde stap weet je niet "
+                "of je programma werkt.",
+            ],
+        ),
+        dict(
+            aanpak="Denk bij deze twee aan de voorwaarde en aan het groeigedrag. Een techniek werkt "
+                   "alleen als haar voorwaarde klopt.",
+            waarom=[
+                "Let erop dat halveren een gesorteerde rij veronderstelt. Sorteren kost zelf tijd, dus "
+                "dat is pas de moeite als je vaak moet zoeken.",
+                "Let erop dat je de twee bij een klein en bij een groot aantal vergelijkt. Bij kleine "
+                "aantallen zie je het verschil niet, en dat maakt een trage aanpak verraderlijk.",
+            ],
+        ),
+    ],
+)
