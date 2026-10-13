@@ -999,3 +999,536 @@ OEFENBUNDELS["oefenbundel-zinsdelen-soorten-zinnen-en-bijzinnen-boost-doorstroom
             "Vrij antwoord. And, but en because zijn in bijna elke tekst de drie meest gebruikte.", 6),
     ],
 )
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-een-engelse-tekst-analyseren-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Lees de tekst eerst één keer helemaal door zonder te stoppen bij woorden die je "
+                    "niet kent. Pas daarna lees je met de vragen ernaast.",
+             waarom=[
+                 None,
+                 "Het onderwerp schrijf je in enkele woorden, de hoofdgedachte in één hele zin. Dat is "
+                 "het verschil tussen waarover het gaat en wat de tekst erover zegt.",
+                 None,
+                 None,
+                 "Dit staat er niet letterlijk; je leidt het af uit twee zinnen samen. Zeg er dus altijd "
+                 "bij waaruit je het haalt.",
+                 None,
+             ]),
+        dict(aanpak="Zoek bij een beoordeling eerst het algemene oordeel, en daarna de zinnen die ervan "
+                    "afwijken. Juist die nuance is wat gevraagd wordt.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Let op het woordje dat het verschil maakt: unlike, who, on … and on. Daar hangt de "
+                    "hele afleiding aan.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Let op de woorden altijd, alleen en eerst. Daar zit meestal het verschil tussen "
+                    "waar en niet waar.",
+             waarom=[
+                 "Net omgekeerd: het onderwerp in enkele woorden, de hoofdgedachte in een hele zin.",
+                 None,
+                 "Vertalen is traag en meestal niet nodig. Je leest gericht naar wat de vraag vraagt.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. Eén keer kijken zonder "
+                    "ondertitels is het punt van de opdracht.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-tekstsoorten-tekstverbanden-en-verwijswoorden-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je bij elk fragment af wat het van je wil: iets laten doen, iets laten "
+                    "weten, overtuigen, vertellen of iets laten voelen.",
+             waarom=[None, None]),
+        dict(aanpak="Leer de signaalwoorden per verband in groepjes. Zo herken je ook een woord dat je "
+                    "nog nooit zag aan de plaats waar het staat.",
+             waarom=[None, None, None]),
+        dict(aanpak="Let niet alleen op de betekenis maar ook op de bouw: although en since krijgen een "
+                    "hele zin achter zich, despite en because of een naamwoord.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Zoek bij een verwijswoord altijd terug in de tekst. Let erop dat this en it ook "
+                    "naar een hele zin kunnen verwijzen, niet enkel naar één woord.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Let op de woorden alleen en hetzelfde. Een signaalwoord stuurt de lezer; het is "
+                    "geen versiering.",
+             waarom=[
+                 None,
+                 "Signaalwoorden leggen verbanden. Haal ze weg en de lezer moet zelf raden hoe de zinnen "
+                 "samenhangen.",
+                 None,
+                 "Therefore legt een gevolg, however een tegenstelling. Dat zijn twee heel verschillende "
+                 "verbanden.",
+                 None,
+             ]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. Noteer de signaalwoorden "
+                    "terwijl je luistert, niet achteraf.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-engelstalige-wereld-gewoontes-en-conventies-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Leer de woordparen samen, als paar. Zo weet je meteen welke variant je voor je "
+                    "hebt, en dat helpt bij het lezen.",
+             waarom=[None, None]),
+        dict(aanpak="De Britse spelling houdt -our, -re en de dubbele l. De Amerikaanse maakt het "
+                    "korter.",
+             waarom=[None]),
+        dict(aanpak="Let bij praktische teksten op de conventies: verdiepingen, datums, graden en "
+                    "afstanden lopen niet gelijk met de onze.",
+             waarom=[
+                 "In het Brits is the ground floor het gelijkvloers en the first floor de verdieping "
+                 "erboven. In het Amerikaans is the first floor het gelijkvloers.",
+                 "In het Brits staat de dag eerst, in het Amerikaans de maand. Dezelfde datum kan dus "
+                 "twee dingen betekenen.",
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Aanhef en afsluiter horen bij elkaar: ken je de naam, dan Yours sincerely; ken je "
+                    "ze niet, dan Yours faithfully.",
+             waarom=[None, None]),
+        dict(aanpak="Beleefdheid zit in het Engels in de vorm: could, would en please maken van een "
+                    "bevel een vraag.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Leer de feesten met hun datum én hun land erbij. Een datum alleen volstaat niet.",
+             waarom=[None]),
+        dict(aanpak="Let op de woorden hetzelfde en even vaak. Daar zitten de klassieke misverstanden.",
+             waarom=[
+                 "England is één land van Great Britain, naast Scotland en Wales. Voeg je Northern "
+                 "Ireland toe, dan krijg je the United Kingdom.",
+                 "Kies er één en houd die vol in heel je tekst. Door elkaar gebruiken telt wel als "
+                 "fout.",
+                 None,
+                 None,
+                 "In het Engels gebruik je please en thank you veel vaker dan bij ons: ook voor kleine "
+                 "dingen, en ook tegen mensen die je goed kent.",
+             ]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. Noteer terwijl je kijkt, "
+                    "niet achteraf uit het hoofd.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-schrijven-schriftelijke-interactie-en-literatuurbeleving-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je bij elke situatie af wat je met je tekst wil bereiken. Dat doel bepaalt "
+                    "je opbouw én je toon.",
+             waarom=[None, None]),
+        dict(aanpak="Leer deze zinnen als vaste bouwstenen. Op een examen heb je ze zo klaar en hoef je "
+                    "niets meer te bedenken.",
+             waarom=[None, None, None, None, None, None]),
+        dict(aanpak="Je punten komen uit vier hoeken tegelijk. Loop ze na voor je indient, niet enkel "
+                    "de spelling.",
+             waarom=[
+                 None,
+                 None,
+                 "De opgegeven lengte hoort bij de opdracht. Met de helft van de woorden kan je de taak "
+                 "niet volledig uitvoeren, ook al is elk woord juist.",
+             ]),
+        dict(aanpak="Ken je een woord niet, omschrijf het dan met woorden die je wel kent. Een zin half "
+                    "laten staan kost meer punten dan een omweg.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Een samenvatting zegt wat er in het boek staat; een leeservaring zegt wat het met "
+                    "jou deed. Let op het woordje I.",
+             waarom=[None]),
+        dict(aanpak="Vink af wat gevraagd wordt voor je begint, en tel achteraf je woorden. Bij "
+                    "interactie beantwoord je élke vraag van de ander.",
+             waarom=[None, None]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. Waar de voorlezer hapert, "
+                    "loopt je zin niet.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordvelden-mensen-gezondheid-en-het-dagelijkse-leven-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Teken een stamboompje. Dan zie je meteen wie langs welke kant staat en welk woord "
+                    "erbij hoort.",
+             waarom=[
+                 "Nephew en niece gaan een trapje omlaag (het kind van je broer of zus), cousin gaat "
+                 "opzij (het kind van je tante of oom).",
+                 "In-law betekent aangetrouwd, step- betekent stief. Twee verschillende dingen.",
+             ]),
+        dict(aanpak="De woorden van een formulier leer je als groep: je komt ze op elk formulier "
+                    "opnieuw tegen.",
+             waarom=[None]),
+        dict(aanpak="Leer gevoelswoorden met hun tegengestelde erbij, en pijnklachten met hun vaste "
+                    "uitdrukking.",
+             waarom=[None, None, None, None, None]),
+        dict(aanpak="Loop in gedachten je lichaam af van boven naar beneden en benoem elk deel in het "
+                    "Engels.",
+             waarom=[None, None]),
+        dict(aanpak="De vuistregel: do bij werk en taken, make bij iets wat je maakt of voortbrengt. De "
+                    "uitzonderingen leer je als vaste uitdrukking.",
+             waarom=[None]),
+        dict(aanpak="Zoek eerst welke regel geschonden wordt: een ontelbaar woord, een meervoudig "
+                    "kledingstuk, of een bijvoeglijk naamwoord dat geen -s krijgt.",
+             waarom=[
+                 "Hair is ontelbaar, net als water en bread: nooit een -s en het werkwoord in het "
+                 "enkelvoud.",
+                 "Trousers bestaat alleen in het meervoud, dus these en are.",
+                 None,
+                 "Een bijvoeglijk naamwoord krijgt in het Engels nooit een meervouds-s.",
+             ]),
+        dict(aanpak="Let bij deze uitspraken op de valse vrienden en op de Britse gewoontes.",
+             waarom=[
+                 "The ground floor is het gelijkvloers; the first floor ligt daarboven.",
+                 None,
+                 "Arm betekent in het Engels de arm van je lichaam. Weinig geld hebben is poor.",
+                 None,
+                 "Washing-up liquid is afwasmiddel voor met de hand. Waspoeder is washing powder of "
+                 "detergent.",
+             ]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. Woorden die je elke dag "
+                    "aanraakt, blijven het best hangen.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordvelden-school-werk-reizen-en-de-samenleving-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Instructietaal is de taal van de opgave zelf. Ken je die niet, dan verlies je "
+                    "punten op een oefening die je eigenlijk kon.",
+             waarom=[None, None]),
+        dict(aanpak="Schoolwoorden verschillen tussen Brits en Amerikaans. Leer de Britse vorm, met de "
+                    "vaste werkwoorden erbij.",
+             waarom=[None, None, None]),
+        dict(aanpak="Leer beroepen in groepjes per sector. Veel ervan lijken niet op het Nederlandse "
+                    "woord, dus herhaling helpt.",
+             waarom=[None, None]),
+        dict(aanpak="Let bij werk op twee dingen: het vaste voorzetsel, en wie het ontslag neemt.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Work is ontelbaar, net als advice en information. Eén betrekking is a job.",
+             ]),
+        dict(aanpak="Leer de reiswoorden in de volgorde van de reis: ticket, perron, vertraging, en wat "
+                    "je in een winkel nodig hebt.",
+             waarom=[
+                 None,
+                 "Opgelet: in de Verenigde Staten is the subway de metro. In het Verenigd Koninkrijk is "
+                 "dat the underground of the tube.",
+                 None,
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Weerwoorden eindigen vaak op -y. Het uur zeg je met past en to, vanuit het hele "
+                    "uur.",
+             waarom=[None, None]),
+        dict(aanpak="Onthoud de drie vaste combinaties: play bij een balsport of een spel, go bij een "
+                    "sport op -ing, do bij de rest.",
+             waarom=[None]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. Bellen leert meer dan "
+                    "mailen, want dan moet je ook luisteren.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-nouns-articles-quantifiers-en-numerals-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Het meervoud volgt vier groepen: de gewone -s, woorden op s/sh/ch/x met -es, een "
+                    "medeklinker plus y wordt -ies, en f of fe wordt ves.",
+             waarom=[
+                 None,
+                 "Potato krijgt -es, photo niet. Woorden die uit een andere taal komen, houden vaak "
+                 "gewoon -s.",
+                 "Man, tooth, goose en person zijn onregelmatig; die leer je uit het hoofd.",
+                 "Sheep, fish en series blijven gelijk in het meervoud.",
+             ]),
+        dict(aanpak="Vraag je af of je er een getal voor kan zetten. Kan dat niet, dan is het "
+                    "ontelbaar en krijgt het nooit een -s.",
+             waarom=[None, None]),
+        dict(aanpak="Bij personen gebruik je 's. Bij dingen zeg je meestal of the. In het meervoud "
+                    "komt de apostrof na de -s.",
+             waarom=[None]),
+        dict(aanpak="A of an kies je op de klánk, niet op de letter. Bij een vak, een taal of iets in "
+                    "het algemeen staat er geen lidwoord.",
+             waarom=[None, None]),
+        dict(aanpak="Much en a little horen bij ontelbare woorden, many en a few bij telbare.",
+             waarom=[None]),
+        dict(aanpak="Zoek bij elke zin eerst welke regel geschonden wordt. Daarna schrijf je de hele "
+                    "zin correct over.",
+             waarom=[
+                 "Een beroep krijgt in het Engels altijd a of an.",
+                 "People is een meervoud, dus there are.",
+                 "News ziet eruit als een meervoud maar is ontelbaar: the news is.",
+                 "In een vraag of een ontkenning gebruik je any; some blijft voor bevestigende zinnen.",
+                 "Information is ontelbaar: je telt het met pieces of.",
+             ]),
+        dict(aanpak="De rangtelwoorden eindigen op -th, op first, second en third na. Let bij getallen "
+                    "op de punt en de komma.",
+             waarom=[
+                 None,
+                 None,
+                 "In het Engels is de punt het decimaalteken en de komma het duizendtalteken. Bij ons is "
+                 "dat net omgekeerd.",
+                 None,
+             ]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. Getallen zijn wat je in "
+                    "gesproken Engels het snelst mist.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-pronouns-de-zeven-soorten-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je bij elk voornaamwoord af wat het doet: iemand vervangen, bezit aanduiden, "
+                    "terugwijzen naar het onderwerp, aanwijzen, vragen of onbepaald laten.",
+             waarom=[None, None]),
+        dict(aanpak="Let op de plaats in de zin: vóór het werkwoord staat de onderwerpsvorm, erachter "
+                    "de voorwerpsvorm.",
+             waarom=[None, None]),
+        dict(aanpak="Een ezelsbruggetje: kan je het lezen als it is, dan schrijf je it's. Anders its, "
+                    "zonder apostrof.",
+             waarom=[None]),
+        dict(aanpak="Who gaat over personen, which over dingen, that over allebei. Where en when "
+                    "verwijzen naar een plaats of een tijd.",
+             waarom=[None, None]),
+        dict(aanpak="Zoek bij elke zin eerst welke regel geschonden wordt, en schrijf dan de hele zin "
+                    "over.",
+             waarom=[
+                 "Vóór het werkwoord hoort de onderwerpsvorm: she and I, niet her and me.",
+                 "Theirselves bestaat niet; het is themselves.",
+                 "In het Engels staat er maar één ontkenning per zin: didn't … anything.",
+                 "Everybody, somebody en nobody zijn enkelvoud: was, niet were.",
+                 "What kan geen betrekkelijk voornaamwoord zijn na een naamwoord; gebruik that of which.",
+                 "Your staat vóór een naamwoord, yours staat alleen.",
+             ]),
+        dict(aanpak="Zodra twee antwoorden even goed passen, herhaal je gewoon de naam. Duidelijkheid "
+                    "gaat voor elegantie.",
+             waarom=[None, None]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. Pijlen tekenen laat je "
+                    "zelf zien waar de tekst wringt.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-adjectives-adverbs-comparatives-en-voorzetsels-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Een bijwoord krijgt meestal -ly. Een -y wordt -ily, een -le wordt -ly, en good "
+                    "wordt well.",
+             waarom=[
+                 None,
+                 "Fast en hard blijven gelijk. Hardly bestaat ook, maar betekent iets heel anders.",
+             ]),
+        dict(aanpak="Vraag je af waarover het woord iets zegt: over een naamwoord (bijvoeglijk) of over "
+                    "het werkwoord (bijwoord). Na look, taste, feel en seem komt een bijvoeglijk "
+                    "naamwoord.",
+             waarom=[None]),
+        dict(aanpak="Hard betekent hard of zwaar, hardly betekent nauwelijks. Dat is een "
+                    "betekenisverschil, geen vormverschil.",
+             waarom=[None, None, None]),
+        dict(aanpak="Tot twee lettergrepen: -er en -est. Langer: more en the most. Good, bad en far "
+                    "zijn onregelmatig.",
+             waarom=[
+                 None,
+                 "Not as … as betekent minder dan. Deze toets is dus makkelijker dan de vorige.",
+                 None,
+             ]),
+        dict(aanpak="De tijdsvoorzetsels gaan van groot naar klein: in voor een jaar of maand, on voor "
+                    "een dag of datum, at voor een uur.",
+             waarom=[None, None]),
+        dict(aanpak="Vaste voorzetsels leer je samen met het woord, als één geheel. Ze volgen geen "
+                    "regel.",
+             waarom=[
+                 None,
+                 "Let op discuss: dat krijgt géén voorzetsel, anders dan het Nederlandse praten over.",
+             ]),
+        dict(aanpak="Zoek bij elke zin welke regel geschonden wordt, en schrijf de hele zin correct "
+                    "over.",
+             waarom=[
+                 "Een bijvoeglijk naamwoord krijgt in het Engels nooit een meervouds-s.",
+                 "Fast is al een bijwoord; fastly bestaat niet.",
+                 "Een vergrotende trap versterk je met much of far, niet met very.",
+                 "Gelijkheid gaat met as … as, een verschil met than.",
+                 "Arrive gaat met at bij een plaats en met in bij een stad of land, nooit met to.",
+             ]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. De woorden die je niet "
+                    "vindt, zijn precies de woorden die je moet opzoeken.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-tegenwoordige-tijden-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="In de derde persoon enkelvoud komt er -s bij. Na s, sh, ch, x en o wordt dat -es, "
+                    "en een medeklinker plus y wordt -ies.",
+             waarom=[None, None]),
+        dict(aanpak="De present simple is voor wat altijd of gewoonlijk zo is, de continuous voor wat nu "
+                    "aan het gebeuren is of al afgesproken staat.",
+             waarom=[
+                 None,
+                 "Know is een werkwoord van denken en voelen: dat staat niet in de continuous. Hetzelfde "
+                 "geldt voor like, want, understand en believe.",
+             ]),
+        dict(aanpak="Een korte klinker plus één medeklinker verdubbelt die medeklinker, een stomme -e "
+                    "valt weg, en -ie wordt -ying.",
+             waarom=[None]),
+        dict(aanpak="De present perfect verbindt vroeger met nu: iets begon in het verleden en loopt "
+                    "door, of het gevolg is nu nog te zien.",
+             waarom=[
+                 "In het Nederlands zeg je ik woon, in het Engels have lived: het is begonnen in 2020 en "
+                 "nog altijd zo.",
+                 "Je bent ze nog kwijt, dus het gevolg is er nu nog. Daarom geen past simple.",
+                 "For staat bij een duur, since bij een beginpunt.",
+             ]),
+        dict(aanpak="Staat er een afgesloten tijd bij (yesterday, in 2019, two hours ago), dan is het "
+                    "past simple. Loopt het door tot nu, dan present perfect.",
+             waarom=[None, None, None]),
+        dict(aanpak="Zoek bij elke zin welke regel geschonden wordt, en schrijf de hele zin correct over.",
+             waarom=[
+                 "Na does komt de kale vorm; de -s zit al in does.",
+                 "Books is meervoud, dus there are.",
+                 None,
+                 "Na have komt het voltooid deelwoord: eaten, niet ate.",
+                 "Know staat niet in de continuous, ook niet in de present perfect.",
+                 "How long gaat over iets dat nog duurt: have been learning.",
+             ]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. Het verschil tussen de twee "
+                    "tijden voel je pas als je ze hardop gebruikt.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-verleden-en-de-toekomende-tijden-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="De onregelmatige werkwoorden leer je in drie vormen tegelijk. Let op dat de tweede "
+                    "en de derde soms gelijk zijn (bought, brought) en soms niet (went, gone).",
+             waarom=[None]),
+        dict(aanpak="Bij de regelmatige komt er -ed bij: een medeklinker plus y wordt -ied, en een korte "
+                    "klinker plus één medeklinker verdubbelt.",
+             waarom=[None]),
+        dict(aanpak="De past continuous is de achtergrond, de past simple is wat er in die achtergrond "
+                    "gebeurde. Daarom while bij de lange en when bij de korte.",
+             waarom=[None]),
+        dict(aanpak="De past perfect is het verleden vóór het verleden: je hebt er altijd een tweede, "
+                    "later moment bij nodig.",
+             waarom=[None, None, None]),
+        dict(aanpak="Will is wat je op het moment zelf beslist of belooft, going to is een plan of een "
+                    "voorspelling waar je bewijs voor ziet.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Zoek bij elke zin welke regel geschonden wordt, en schrijf de hele zin correct over.",
+             waarom=[
+                 "Na didn't komt de kale vorm; de verleden tijd zit al in didn't.",
+                 "Was is zelf al een werkwoordsvorm: bij to be maak je de vraag met de omgekeerde "
+                 "woordorde, niet met did.",
+                 None,
+                 "Na will komt de kale vorm, zonder to.",
+                 "Twee modale werkwoorden kunnen niet achter elkaar: can wordt be able to.",
+                 "Na when, as soon as en before komt in het Engels een tegenwoordige tijd, ook al gaat "
+                 "het over de toekomst.",
+                 "Na if komt geen will; de will hoort in de hoofdzin.",
+             ]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. Drie tijden in één verhaal "
+                    "is precies wat een spreekexamen vraagt.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-modal-auxiliaries-imperative-en-infinitive-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Een modaal werkwoord zegt niet wát er gebeurt maar hoe je ertegenover staat. Must "
+                    "kan zowel een verplichting als een conclusie zijn; de rest van de zin verraadt welke.",
+             waarom=[
+                 None,
+                 "Must be exhausted is geen bevel maar een conclusie: je leidt het af uit wat je ziet. "
+                 "Het tegendeel daarvan is can't be, niet mustn't be.",
+             ]),
+        dict(aanpak="Mustn't is een verbod, don't have to betekent dat het niet nodig is. Dat is het "
+                    "grootste verschil van dit hoofdstuk.",
+             waarom=[
+                 None,
+                 None,
+                 "Must heeft geen verleden tijd; daarvoor gebruik je had to.",
+             ]),
+        dict(aanpak="De gebiedende wijs is de kale vorm, zonder onderwerp en zonder to. De ontkenning is "
+                    "don't, en een voorstel begint met let's.",
+             waarom=[None]),
+        dict(aanpak="Na want, hope en decide komt to, na make en let de kale vorm, en na een voorzetsel "
+                    "of na enjoy de -ing-vorm.",
+             waarom=[
+                 None,
+                 "Let op look forward to: die to is een voorzetsel, geen infinitief, dus er komt -ing "
+                 "achter.",
+             ]),
+        dict(aanpak="Staat er do of does in een bevestigende zin, dan geeft het nadruk. In een vraag of "
+                    "een ontkenning is het gewoon het hulpwerkwoord.",
+             waarom=[None]),
+        dict(aanpak="Zoek bij elke zin welke regel geschonden wordt, en schrijf de hele zin correct over.",
+             waarom=[
+                 "Een modaal werkwoord krijgt nooit een -s.",
+                 "Na een modaal werkwoord komt de kale vorm, zonder to.",
+                 "De gebiedende wijs is de kale vorm; please verandert daar niets aan.",
+                 None,
+                 "Enjoy heeft een lijdend voorwerp nodig: enjoy yourself.",
+                 "Een Engelse zin heeft altijd een onderwerp; bij het weer is dat it.",
+                 "Ook hier moet er een onderwerp staan: it takes.",
+             ]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. Hoe vriendelijk iets klinkt, "
+                    "hoor je van iemand anders beter dan van jezelf.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-zinsdelen-soorten-zinnen-en-bijzinnen-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Zoek eerst de persoonsvorm, dan het onderwerp (wie of wat doet het), dan het lijdend "
+                    "voorwerp (wie of wat ondergaat het).",
+             waarom=[
+                 None,
+                 "Het meewerkend voorwerp is aan wie je iets geeft. Het staat zonder to vóór het lijdend "
+                 "voorwerp.",
+                 "Zet je het achter het lijdend voorwerp, dan moet er to bij. Twee volgordes, dezelfde "
+                 "betekenis.",
+             ]),
+        dict(aanpak="De Engelse woordorde is onderwerp, werkwoord, voorwerp, en dan plaats vóór tijd. "
+                    "Een tijdsbepaling kan ook helemaal vooraan.",
+             waarom=[
+                 None,
+                 None,
+                 "Yesterday mag vooraan of achteraan, maar niet tussen het onderwerp en het werkwoord.",
+             ]),
+        dict(aanpak="Kijk naar de vorm, niet naar de inhoud: een vraagteken, een don't, een kale vorm of "
+                    "een what a verraadt het soort.",
+             waarom=[None, None]),
+        dict(aanpak="Zit er al een hulpwerkwoord in de zin, dan zet je dat vooraan. Zit er geen, dan "
+                    "haal je do, does of did erbij.",
+             waarom=[
+                 None,
+                 "Een aanhangvraag is altijd het omgekeerde van de zin ervoor: bevestigend wordt "
+                 "ontkennend.",
+             ]),
+        dict(aanpak="Let op de woorden die eruitzien als een meervoud maar het niet zijn, en op police, "
+                    "dat het omgekeerde doet.",
+             waarom=[
+                 "One of my friends lijkt meervoud, maar het onderwerp is one: dus is.",
+             ]),
+        dict(aanpak="Because geeft de reden, so het gevolg. But en although geven allebei een tegenstelling, "
+                    "maar although staat vooraan in de bijzin.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Zonder komma beperkt de bijzin: ze zegt over wélke je het hebt. Met komma's is ze "
+                    "extra informatie die je kan weglaten.",
+             waarom=[None, None, None]),
+        dict(aanpak="De zero conditional is een algemene waarheid: twee keer een tegenwoordige tijd. De "
+                    "first gaat over één geval in de toekomst: if plus tegenwoordige tijd, dan will.",
+             waarom=[None, None]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. In een echte tekst zie je "
+                    "welke voegwoorden je zelf te weinig gebruikt.",
+             waarom=[None]),
+    ],
+)
