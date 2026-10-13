@@ -960,3 +960,803 @@ zet("transport-expeditie-en-logistiek",
                   "staking of één file bij de leverancier legt je productie stil.", 3),
              ]),
     ])
+
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-behoeften-schaarste-en-soorten-goederen-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Primair is wat je nodig hebt om te leven en mee te kunnen doen, secundair is "
+                   "wat daarbovenop komt. Let op het woordje derde in het derde paar sneakers: "
+                   "kledij is primair, maar een derde paar van hetzelfde niet. Het is dus niet "
+                   "het soort goed dat beslist maar de hoeveelheid die je al hebt.",
+            waarom=[
+                None,
+                "Dit is het punt van de hele reeks: de grens is niet natuurlijk maar "
+                "maatschappelijk. Daarom spreekt men van relatieve armoede, gemeten aan wat in "
+                "een land nodig is om mee te doen, en niet enkel aan overleven.",
+            ],
+        ),
+        dict(
+            aanpak="Houd twee indelingen uit elkaar. De eerste gaat over wie het gebruikt: een "
+                   "productiegoed dient om mee te maken, een consumptiegoed om te gebruiken, en "
+                   "dat laatste kan eenmalig of duurzaam zijn. De tweede gaat over de verhouding "
+                   "tussen twee goederen: vervangen ze elkaar of hebben ze elkaar nodig?",
+            waarom=[
+                "Let op het verschil tussen een vrij en een economisch goed. Lucht is vrij omdat "
+                "er genoeg van is voor iedereen; zodra er een prijs op staat, is het economisch. "
+                "Datzelfde goed kan dus van categorie veranderen, zoals drinkwater in een droog "
+                "land.",
+                "De toets is eenvoudig: wordt het andere goed meer of minder gevraagd als dit "
+                "duurder wordt? Meer betekent vervangend, minder betekent aanvullend. Daarmee "
+                "kan je elk paar zelf nagaan zonder het rijtje te kennen.",
+            ],
+        ),
+        dict(
+            aanpak="Schaarste, kiezen en alternatieve kosten horen bij elkaar: omdat er niet "
+                   "genoeg is, moet je kiezen, en elke keuze kost je wat je niet koos. Antwoord "
+                   "bij alternatieve kosten dus nooit met een bedrag maar met het alternatief "
+                   "zelf.",
+            waarom=[
+                "Zeldzaam is een eigenschap van het goed, schaars een verhouding tussen "
+                "hoeveelheid en vraag. Een maansteen is zeldzaam maar economisch oninteressant; "
+                "zand is overal en toch schaars omdat er zo veel van gevraagd wordt.",
+                "Let op de laatste zin van het antwoord: de 55 euro is niet de alternatieve kost. "
+                "Dat geld had je al; wat je echt verliest, zijn de schoenen. Zo meet een "
+                "econoom de kost van een keuze.",
+                "Dit is het verschil tussen schaarste en armoede. Een rijk land heeft meer "
+                "middelen maar nog altijd een beperkt aantal uren, mensen en grondstoffen, en "
+                "dus blijft elke keuze een keuze tegen iets anders.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-nut-voorkeuren-en-de-vraag-van-de-consument-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Totaal nut en grensnut zijn twee kolommen van dezelfde tabel. Het grensnut "
+                   "is altijd het verschil tussen twee opeenvolgende totalen, dus reken van rij "
+                   "tot rij en niet vanaf het begin. Daalt het totaal, dan is het grensnut "
+                   "negatief.",
+            waarom=[
+                "Reken mee: de grensnutten zijn 20, 16, 10, 4 en −2, en dat zijn telkens de "
+                "verschillen tussen twee totalen. Merk op dat het grensnut al daalt vanaf de "
+                "eerste pannenkoek terwijl het totaal nog stijgt; dat is precies het verschil "
+                "tussen de twee kolommen.",
+                "De grens ligt waar het grensnut door nul gaat. Alles met een positief grensnut "
+                "voegt nog iets toe, hoe weinig ook; de vijfde haalt er iets af.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Houd twee bewegingen uit elkaar. Verandert de prijs van het goed zelf, dan "
+                   "schuif je langs de curve. Verandert iets anders, dan verschuift de hele "
+                   "curve. Vraag je bij elke lijn dus eerst af: gaat dit over de prijs van dit "
+                   "goed, of over iets anders?",
+            waarom=[
+                "Vergelijk brood met restaurantbezoek: bij een hoger inkomen eet je niet meer "
+                "brood, maar ga je wel vaker uit eten. Daarom noemt men brood een noodzakelijk "
+                "goed en een restaurantbezoek een luxegoed.",
+                None,
+                "Let bij je tekening op twee dingen: de prijs hoort op de verticale as, en de "
+                "tweede curve ligt volledig naast de eerste en kruist ze niet. Een gestegen "
+                "inkomen verandert immers bij elke prijs de gevraagde hoeveelheid.",
+            ],
+        ),
+        dict(
+            aanpak="Omzet is altijd prijs maal hoeveelheid. Reken de twee situaties apart uit en "
+                   "vergelijk daarna; reken nooit met het verschil in prijs alleen, want de "
+                   "hoeveelheid verandert mee.",
+            waarom=[
+                "400 × 2,50 = 1 000 euro.",
+                "360 × 2,80 = 1 008 euro. Merk op dat de prijs met 12 procent steeg en de "
+                "verkoop met 10 procent zakte; daarom blijft de omzet bijna gelijk.",
+                "Het punt van deze oefening is de laatste zin: omzet is geen winst. Veertig "
+                "broden minder bakken kost ook minder meel, energie en werk, dus kan de winst "
+                "stijgen terwijl de omzet nauwelijks beweegt.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-productiefactoren-en-de-productie-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vier factoren, en bij elk hoort één vergoeding: arbeid krijgt loon, natuur "
+                   "pacht of huur, kapitaal intrest, ondernemerschap winst. Leer die vier paren "
+                   "samen, dan heb je de twee rijen van deze reeks in één keer.",
+            waarom=[
+                "Kapitaal is in de economie niet hetzelfde als geld. Het is alles wat zelf "
+                "gemaakt is om verder mee te produceren: een oven, een bestelwagen, een gebouw. "
+                "Het weiland is natuur, want niemand maakte het.",
+                "Let op de vergoeding voor ondernemerschap. Winst is geen vast bedrag zoals een "
+                "loon of een huur: ze kan ook negatief zijn, en dat is net waarom deze factor "
+                "het risico draagt.",
+            ],
+        ),
+        dict(
+            aanpak="De sectoren volgen de weg van een product: winnen, verwerken, verkopen, en "
+                   "daarnaast de niet-commerciële diensten. Let op de quartaire sector, die "
+                   "vaak vergeten wordt: zorg, onderwijs en overheid.",
+            waarom=[
+                "De vier vislijnen staan er bewust in dezelfde orde: visser, fabriek, winkel, "
+                "ziekenhuis. Zo zie je dat niet het product maar de bewerking de sector bepaalt.",
+                "Drie schakels volstaan. Het punt is de laatste zin: elke schakel voegt waarde "
+                "toe, en de prijs in de winkel is de som van al die toevoegingen. Dat is ook de "
+                "gedachte achter de belasting over de toegevoegde waarde.",
+                "Let op het tweede deel van het antwoord, want dat wordt het vaakst vergeten. "
+                "Arbeidsverdeling maakt sneller en beter werk mogelijk, maar ook eentoniger werk "
+                "en een grotere afhankelijkheid: valt er één schakel weg, dan staat alles stil.",
+            ],
+        ),
+        dict(
+            aanpak="Productiviteit is altijd een deling: hoeveel per eenheid. Lees goed per wat "
+                   "er gevraagd wordt, want per uur, per werknemer en per werknemer per uur zijn "
+                   "drie verschillende getallen. Bij een stijging in procent neem je het verschil "
+                   "gedeeld door het oude getal.",
+            waarom=[
+                "Reken de laatste twee na: 360 gedeeld door 4 werknemers gedeeld door 6 uur is "
+                "15 stuks, en 480 gedeeld door 24 uren werk is 20 stuks. Deel dus altijd door "
+                "het aantal werknemers én het aantal uren als beide in de vraag staan. De "
+                "stijging van 30 naar 37,5 is 7,5 gedeeld door 30, dus 25 procent.",
+                "Twee van de genoemde manieren volstaan. Ze hebben alle iets gemeen: niet de "
+                "inspanning verandert maar de omstandigheden errond. Dat is ook het antwoord op "
+                "de vraag waarom een land rijker wordt zonder dat men langer werkt.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-kosten-van-de-producent-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Eén vraag beslist: verandert deze kost als je één stuk meer maakt? Zo ja, "
+                   "dan is ze variabel; zo niet, dan is ze vast. Let op de elektriciteit, want "
+                   "die hangt ervan af waarvoor ze dient: stroom voor de machines is variabel, "
+                   "de verlichting van het atelier zou vast zijn.",
+            waarom=[
+                "Het loon van de zaakvoerder staat hier bij de vaste kosten, en het loon van wie "
+                "per stuk werkt zou variabel zijn. Het is dus niet de soort kost maar de band "
+                "met de productie die beslist.",
+                "Dit is ook waarom vaste kosten gevaarlijk zijn voor een jonge zaak. In een "
+                "slechte maand lopen ze gewoon door, en daar moet de spaarpot voor dienen.",
+            ],
+        ),
+        dict(
+            aanpak="Werk de tabel kolom per kolom af. De variabele kost is het aantal maal 8, de "
+                   "totale kost is dat plus 1 200, en de kostprijs per stuk is de totale kost "
+                   "gedeeld door het aantal. Reken de laatste kolom altijd uit de totale kost en "
+                   "niet uit de vorige rij.",
+            waarom=[
+                "Reken één rij na om te zien of je het goed hebt: 400 × 8 = 3 200; plus 1 200 is "
+                "4 400; gedeeld door 400 is 11 euro per stuk. Merk op dat de kostprijs per stuk "
+                "van 20 naar 10 euro daalt terwijl er niets aan de werkwijze verandert.",
+                "Dit is het schaalvoordeel in één zin. Je kan het ook aan de getallen zien: de "
+                "vaste kost per stuk gaat van 12 euro bij 100 stuks naar 2 euro bij 600, en de "
+                "variabele 8 euro blijft gewoon staan.",
+                "1 200 gedeeld door 600 = 2 euro. Tel er de variabele 8 euro bij en je hebt weer "
+                "de 10 euro uit de tabel; dat is een goede controle op je hele kolom.",
+            ],
+        ),
+        dict(
+            aanpak="Het break-evenpunt is één deling: de vaste kosten gedeeld door de brutowinst "
+                   "per stuk. Reken dus altijd eerst die brutowinst uit, dus de prijs min de "
+                   "variabele kost per stuk, en deel daarna. Verandert een vaste kost, dan "
+                   "verandert alleen de teller.",
+            waarom=[
+                "20 − 8 = 12 euro. Deze marge heet ook de dekkingsbijdrage: elk verkocht stuk "
+                "draagt 12 euro bij om de vaste kosten te dekken.",
+                "1 200 gedeeld door 12 = 100 stuks. Tel na: 100 × 12 = 1 200, dus de vaste "
+                "kosten zijn precies gedekt en de winst is nul.",
+                "100 × 20 = 2 000 euro. Merk op dat de omzet in het break-evenpunt gelijk is aan "
+                "de totale kosten uit de tabel hierboven, en dat is ook de betekenis van "
+                "break-even.",
+                "300 × 12 = 3 600; min 1 200 = 2 400 euro winst. Reken nooit 300 × 20 min 1 200, "
+                "want dan vergeet je de variabele kosten.",
+                "De brutowinst per stuk blijft 12 euro, alleen de vaste kosten stijgen tot "
+                "1 500. Dus 1 500 / 12 = 125 stuks: vijfentwintig stuks meer om dezelfde 300 "
+                "euro huur te dragen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-opbrengsten-optimale-productiegrootte-en-aanbod-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Let op het woord marginaal: dat gaat altijd over één stuk extra, niet over "
+                   "het geheel en niet over het gemiddelde. Drie soorten cijfers dus: totaal, "
+                   "gemiddeld en marginaal. De optimale productiegrootte vind je enkel met de "
+                   "marginale cijfers.",
+            waarom=[
+                None,
+                "Je kan de regel zelf nagaan. Brengt een stuk extra meer op dan het kost, dan "
+                "stijgt je winst, dus maak je het. Kost het meer dan het opbrengt, dan daalt je "
+                "winst. Op het punt waar ze gelijk zijn, kan het niet beter meer.",
+            ],
+        ),
+        dict(
+            aanpak="Vul de tabel in twee kolommen: eerst de omzet als aantal maal 15, dan de "
+                   "winst als omzet min totale kosten. Let op dat de variabele kost per stuk hier "
+                   "niet gelijk blijft; bij grotere aantallen loopt ze op, en dat is net wat de "
+                   "tabel wil laten zien.",
+            waarom=[
+                "Reken de eerste rij na: 50 × 15 = 750 euro omzet, en met 1 000 euro kosten is "
+                "dat 250 euro verlies. Merk op dat verlies niet betekent dat de zaak slecht "
+                "werkt: bij 50 stuks zijn de vaste kosten van 600 euro simpelweg nog niet "
+                "verdeeld.",
+                "Reken de stappen na: van 100 naar 150 stuks stijgt de winst met 250 euro, van "
+                "150 naar 200 nog maar met 50 euro. De opbrengst per stuk blijft 15 euro, dus "
+                "het is de kost per extra stuk die oploopt. Daarom nadert het optimum.",
+            ],
+        ),
+        dict(
+            aanpak="Het aanbod werkt omgekeerd aan de vraag: een hogere prijs maakt produceren "
+                   "aantrekkelijker, dus de aanbodcurve stijgt. Vraag je bij elke lijn af of het "
+                   "om de prijs van het goed gaat of om de kosten van de producent; het eerste "
+                   "beweegt langs de curve, het tweede verschuift ze.",
+            waarom=[
+                None,
+                "Let bij je tekening op de twee richtingen: de vraag daalt, het aanbod stijgt, en "
+                "ze kruisen in één punt. Zet op beide assen de eenheid, want zonder eenheden zegt "
+                "een evenwichtspunt niets.",
+                "Dit is een maximumprijs, en het antwoord geldt algemeen: onder het evenwicht "
+                "ontstaat een tekort, boven het evenwicht een overschot. Daarom gaan "
+                "prijsplafonds bijna altijd met wachtlijsten of met een zwarte markt samen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-soorten-ondernemingen-en-hun-verplichtingen-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De rechtsvormen verschillen op twee punten: is er een aparte rechtspersoon, "
+                   "en loopt je privévermogen risico? Bij een eenmanszaak is er geen scheiding, "
+                   "bij een bv of nv wel. De vzw en de cv verschillen van de rest niet in "
+                   "aansprakelijkheid maar in doel.",
+            waarom=[
+                "De eenmanszaak staat twee keer in deze rij, als eerste en als laatste. Dat is "
+                "bewust: het ontbreken van een rechtspersoon en het meespelen van het "
+                "privévermogen zijn twee kanten van hetzelfde.",
+                "Let op het woord concreet in de vraag. Het antwoord moet dus niet de definitie "
+                "herhalen maar zeggen waar de schuldeisers wel en niet aan kunnen. Een "
+                "uitzondering bestaat wel: een bestuurder die duidelijke fouten maakte, kan "
+                "alsnog persoonlijk aansprakelijk zijn.",
+                "Twee van de genoemde voordelen volstaan. Zet er in gedachten altijd het nadeel "
+                "naast, want dat is wat de keuze echt maakt: je staat met je eigen vermogen in "
+                "voor de schulden.",
+            ],
+        ),
+        dict(
+            aanpak="De orde van de opstartstappen volgt een logica: eerst nagaan of je het beroep "
+                   "mag uitoefenen, dan bestaan als onderneming, dan een rekening, dan de btw, "
+                   "dan het sociaal statuut, dan de verzekeringen. Het ondernemingsnummer komt "
+                   "vroeg, want je hebt het voor bijna elke volgende stap nodig.",
+            waarom=[
+                "Merk op waarom de vergunning vooraan staat. Blijkt dat je beroep een "
+                "erkenning vraagt die je niet haalt, dan heb je aan een ondernemingsnummer en "
+                "een rekening niets.",
+                "Dit is het grote verschil tussen een werknemer en een zelfstandige. Bij een "
+                "werknemer houdt de werkgever alles af; als zelfstandige betaal je zelf, per "
+                "kwartaal, en in het begin op een geschat inkomen dat later herzien wordt.",
+            ],
+        ),
+        dict(
+            aanpak="Zes uitspraken over verplichtingen. Toets ze aan twee vragen: geldt dit voor "
+                   "elke onderneming of enkel voor een vennootschap, en gaat het over een "
+                   "termijn die je moet kennen? Let op de uitspraken met een getal erin, want "
+                   "daar zit de fout meestal.",
+            waarom=[
+                "Waar, en die jaarrekening is openbaar. Iedereen kan ze opvragen, ook een "
+                "concurrent of een leverancier die wil weten of je gezond bent. Een eenmanszaak "
+                "moet dat niet.",
+                None,
+                "Niet waar. De boekhoudwet vraagt zeven jaar, en de fiscale bewaartermijn werd "
+                "ondertussen verlengd tot tien jaar voor recente boekjaren. Houd dus tien jaar "
+                "aan; drie jaar is in elk geval veel te kort.",
+                "Waar, en dat is de kern van een vzw. Ze mag wel winst maken, en dat verrast "
+                "velen; ze mag die alleen niet uitkeren maar moet ze opnieuw voor haar doel "
+                "gebruiken.",
+                "Waar. Dat is ook meteen een stuk van de kosten en de drempel om een "
+                "vennootschap op te richten; voor een eenmanszaak heb je geen notaris nodig.",
+                "Waar. De RSZ gaat over werknemers, dus zonder personeel sluit je je enkel aan "
+                "bij een sociaal verzekeringsfonds voor zelfstandigen. Neem je één werknemer "
+                "aan, dan komt de RSZ er wel bij.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-organisatiestructuur-van-een-onderneming-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Twee begrippenparen die bij elkaar horen: spanwijdte en aantal niveaus gaan "
+                   "over de vorm van de organisatie, centralisatie en decentralisatie over waar "
+                   "beslist wordt. Let op dat de twee samenhangen: een grote spanwijdte geeft "
+                   "weinig niveaus en dus een plattere organisatie.",
+            waarom=[
+                None,
+                "Er is geen beste spanwijdte, en dat is het antwoord dat ze willen horen. Werkt "
+                "iedereen hetzelfde en zelfstandig, dan kan één leidinggevende er veel aan; is "
+                "het werk moeilijk of nieuw voor de mensen, dan kan hij er maar enkele begeleiden.",
+            ],
+        ),
+        dict(
+            aanpak="Vijf structuren, en elk is een antwoord op de vraag waarop je indeelt: op "
+                   "gezagslijn, op specialisme, op afdeling, op product of op niets. Houd de "
+                   "lijn-staf en de matrix uit elkaar: een stafmedewerker geeft advies, in een "
+                   "matrix hebben twee mensen echt gezag.",
+            waarom=[
+                "Let op het verschil tussen de functionele structuur en de divisiestructuur. "
+                "Dezelfde onderneming kan op beide manieren ingedeeld worden, en grote bedrijven "
+                "doen het vaak dubbel: per land én per afdeling. Dan is het een matrix.",
+                "Het risico is niet de drukte maar de tegenstrijdige opdracht. Daarom spreekt men "
+                "af wie voorgaat bij een conflict; zonder die afspraak werkt een matrix niet.",
+                "Let bij je tekening op de stippellijn. Die is het hele punt van de oefening: de "
+                "boekhouder staat naast de lijn en geeft advies, dus hij hangt niet boven de "
+                "bakkers en hij kan hun niets opdragen.",
+            ],
+        ),
+        dict(
+            aanpak="De laatste reeks gaat over het verschil tussen de tekening en de "
+                   "werkelijkheid. Het organogram toont het gezag, de informele organisatie toont "
+                   "de echte wegen van informatie. Bij de laatste oefening moet je het geschonden "
+                   "principe bij naam noemen.",
+            waarom=[
+                "De informele organisatie is niet iets wat je moet bestrijden. Een goede "
+                "leidinggevende kent ze en gebruikt ze, want wie echt weet hoe iets werkt, staat "
+                "zelden bovenaan het organogram.",
+                "De eenheid van bevel is een van de oudste beginselen van organisatieleer. Merk "
+                "op dat het niet tegen samenwerking is: je mag met tien mensen overleggen, maar "
+                "je opdrachten en je beoordeling komen van één persoon.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-afdelingen-en-hun-samenwerking-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zoek bij elke taak wie het eigenaarschap heeft en niet wie erbij betrokken "
+                   "is. Bijna elke taak raakt meerdere afdelingen, maar één afdeling voert ze "
+                   "uit. Twee paren worden vaak verwisseld: aankoop koopt in, logistiek "
+                   "verplaatst; marketing maakt bekend, verkoop sluit af.",
+            waarom=[
+                None,
+                "Let op de klant bellen die niet betaalt: dat is boekhouding en niet verkoop. De "
+                "opvolging van de betaling hoort bij wie de factuur maakte, al zal de verkoper "
+                "er wel van willen weten voor hij opnieuw levert.",
+            ],
+        ),
+        dict(
+            aanpak="Bij elk geval is de vraag welke twee afdelingen iets van elkaar moesten "
+                   "weten. Zoek dus de twee uiteinden van de informatie: wie beloofde iets, en "
+                   "wie moest het waarmaken. Dat is bijna altijd het paar dat men vraagt.",
+            waarom=[
+                "Merk op dat geen enkel van deze zes gevallen een fout van één persoon is. Het is "
+                "telkens informatie die niet doorgegeven werd, en dat is precies waarom een "
+                "onderneming vast overleg tussen afdelingen organiseert.",
+                "Deze vraag gaat eigenlijk over de kas, dus over liquiditeit. Een korte "
+                "betaaltermijn bij de leverancier is goedkoper, maar enkel als je het geld dan "
+                "ook hebt; daarom moeten die twee afdelingen samen beslissen.",
+            ],
+        ),
+        dict(
+            aanpak="De documentenstroom in huis volgt de goederen, met twee controles errond: "
+                   "eerst kijken of de klant mag kopen op krediet, achteraan of hij ook betaalt. "
+                   "Zet de kredietcontrole dus vooraan, nog voor het magazijn iets klaarzet.",
+            waarom=[
+                "Let op stap 2, want die wordt het vaakst te laat gezet. Een klant die niet "
+                "kredietwaardig is, kijk je na voor de goederen het huis uit zijn; daarna heb je "
+                "enkel nog een onbetaalde factuur en geen goederen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-werving-selectie-en-de-werkplek-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Houd twee documenten uit elkaar: de functiebeschrijving gaat over de job, "
+                   "het profiel over de persoon. En twee wegen: intern zoek je bij je eigen "
+                   "mensen, extern buiten de deur. Die twee woorden, functie en profiel, "
+                   "verwarren het meest.",
+            waarom=[
+                None,
+                "Er is bij elk ook een nadeel dat je mag noemen: intern blijft het bedrijf in "
+                "zijn eigen gewoonten zitten en komt er een plaats elders vrij, extern duurt het "
+                "langer en weet je minder zeker wat je krijgt.",
+            ],
+        ),
+        dict(
+            aanpak="Eén vraag beslist of iets gevraagd mag worden: heeft dit met de job te maken? "
+                   "Alles wat over de taken, de uren of de vereiste bekwaamheid gaat, mag. Alles "
+                   "wat over je persoon gaat zonder band met de job, mag niet: geloof, "
+                   "gezinsplannen, afkomst, gezondheid, lidmaatschap.",
+            waarom=[
+                "Let op het rijbewijs. Dat is het enige antwoord met een voorwaarde erbij, en dat "
+                "is net de regel in actie: voor een chauffeur mag het gevraagd worden, voor een "
+                "bureaufunctie niet.",
+                "Noem in je antwoord de twee delen: het is discriminatie op grond van geslacht, "
+                "én het zegt niets over de bekwaamheid. Dat tweede is de toets die je bij elke "
+                "andere vraag opnieuw kan gebruiken.",
+            ],
+        ),
+        dict(
+            aanpak="Veiligheid op het werk is geregeld met vaste namen en vaste stappen. Onthoud "
+                   "de drie die het vaakst terugkomen: de interne dienst voor preventie en "
+                   "bescherming, de veiligheidsfiche bij een gevaarlijk product, en de aangifte "
+                   "bij de verzekeraar na een ongeval.",
+            waarom=[
+                "Let op het verschil tussen de preventiedienst en de ondernemingsraad. De eerste "
+                "is een dienst die waakt over veiligheid, de tweede een overlegorgaan tussen "
+                "vakbond en directie. Een onderneming heeft ze pas vanaf een bepaald aantal "
+                "werknemers.",
+                "Drie van de genoemde volstaan. Het laatste punt is het belangrijkste en wordt "
+                "het vaakst vergeten: iemand aanwijzen bij wie de nieuwe medewerker terecht kan. "
+                "Een onthaal zonder aanspreekpunt is een rondleiding en niets meer.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-aanwerving-en-de-arbeidsovereenkomst-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De soorten overeenkomsten verschillen op twee punten: hoe lang ze duren en "
+                   "hoeveel uren je werkt. Deeltijds is dus geen soort naast bepaalde duur maar "
+                   "iets wat erbij komt: je kan deeltijds werken met een contract van onbepaalde "
+                   "duur.",
+            waarom=[
+                None,
+                "Dit is de reden waarom een deeltijdse overeenkomst strenger geregeld is dan een "
+                "volledige. Zonder vast rooster op papier kan niemand nagaan of er geen uren "
+                "zwart bij gewerkt worden, en dan verliest de werknemer zijn bescherming.",
+            ],
+        ),
+        dict(
+            aanpak="Zes uitspraken over wat er in een overeenkomst hoort. Twee regels geven de "
+                   "meeste antwoorden: wat afwijkt van de gewone regel moet op papier, en van een "
+                   "minimum kan je nooit geldig afwijken, ook niet met instemming.",
+            waarom=[
+                "Niet waar, en dat verrast de meesten. Een contract van onbepaalde duur mag in "
+                "België mondeling, want de wet vult alles zelf aan. Het is natuurlijk wel "
+                "verstandig om het te schrijven.",
+                "Waar, en let op het woord uiterlijk. Komt het pas later op papier, dan geldt het "
+                "als een overeenkomst van onbepaalde duur, en dat verandert alles bij het einde.",
+                "Niet waar. Dat is net wat een cao doet: ze legt een minimum vast waarvan je niet "
+                "naar beneden kan afwijken. Instemming van de werknemer verandert dat niet, want "
+                "anders zou de bescherming niets waard zijn.",
+                None,
+                "Niet waar. Een concurrentiebeding moet er uitdrukkelijk in staan, en er hangen "
+                "nog voorwaarden aan, zoals een vergoeding en een beperking in tijd en plaats. "
+                "Wat niet in het contract staat, geldt dus niet.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Arbeider en bediende hangen samen met het hele overlegstelsel: per sector zit "
+                   "een paritair comité, dat sluit cao's, en die gelden voor elke werkgever van "
+                   "die sector. Onthoud die keten van drie, want ze komt op het examen terug.",
+            waarom=[
+                "Let op de laatste lijn: een cao geldt voor elke werkgever van de sector, ook "
+                "voor wie er niet bij was en er niet mee instemt. Dat is net de kracht van het "
+                "systeem.",
+                "Men spreekt van het eenheidsstatuut. Het verschil is kleiner geworden maar niet "
+                "verdwenen: de paritaire comités blijven apart, en dus ook de lonen en de "
+                "premies per sector.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-schorsing-en-einde-van-de-arbeidsovereenkomst-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Houd één onderscheid vast: bij een schorsing blijft de overeenkomst bestaan "
+                   "en valt enkel het werk weg, bij een einde is de overeenkomst zelf voorbij. "
+                   "Vraag je dus bij elk geval af: moet deze werknemer daarna terugkomen? Zo ja, "
+                   "dan is het een schorsing.",
+            waarom=[
+                None,
+                "Staking staat hier bij de schorsingen, en dat is het verrassende antwoord van "
+                "deze rij. Wie staakt, verbreekt zijn contract niet: hij werkt die dagen niet en "
+                "krijgt geen loon van de werkgever, maar de overeenkomst loopt door.",
+            ],
+        ),
+        dict(
+            aanpak="Vijf manieren waarop een overeenkomst eindigt, en bij elk hoort een eigen "
+                   "gevolg: met een termijn, met een vergoeding, of met niets. Het C4 is geen "
+                   "manier van eindigen maar het document dat je achteraf nodig hebt bij de "
+                   "uitbetalingsinstelling.",
+            waarom=[
+                "Let op het verschil tussen de opzegtermijn en de opzeggingsvergoeding. Het is "
+                "hetzelfde recht in twee vormen: je werkt de termijn uit, of je krijgt het loon "
+                "van die periode in één keer.",
+                "Let op dat er twee keer drie werkdagen zijn, en dat is de klassieke valkuil. "
+                "Eerst drie dagen om te ontslaan, dan nog drie om de reden aangetekend te laten "
+                "weten. Wie één van die twee termijnen mist, verliest de dringende reden.",
+                "Merk op dat de termijn beide partijen beschermt. Daarom geldt hij ook als de "
+                "werknemer zelf opzegt, al is zijn termijn korter.",
+            ],
+        ),
+        dict(
+            aanpak="Reken altijd eerst het weekloon uit, want een opzegtermijn staat in weken en "
+                   "een loon in maanden. Het weekloon is het maandloon maal twaalf gedeeld door "
+                   "tweeënvijftig; deel nooit gewoon door vier, want een maand heeft meer dan "
+                   "vier weken.",
+            waarom=[
+                "2 600 × 12 = 31 200, en gedeeld door 52 is dat 600 euro per week. Deel je door "
+                "4, dan kom je op 650 euro uit, en dat is 50 euro per week te veel.",
+                "9 × 600 = 5 400 euro. Reken dus altijd met het weekloon en niet met het "
+                "maandloon gedeeld door iets.",
+                "Dit is waarom een verbrekingsvergoeding hoger uitvalt dan je op het eerste "
+                "gezicht zou rekenen. Men spreekt van het lopend loon en de voordelen verworven "
+                "krachtens de overeenkomst, en daar zit alles in wat de werknemer die periode "
+                "zou gekregen hebben.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-loonfiche-en-de-loonberekening-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De weg van bruto naar netto heeft twee aftrekkingen, in deze orde: eerst de "
+                   "RSZ van 13,07 procent, dan de bedrijfsvoorheffing. Die orde telt, want de "
+                   "belasting wordt op het belastbaar loon gerekend en niet op het brutoloon. De "
+                   "werkgeversbijdrage komt in dit rijtje niet voor.",
+            waarom=[
+                "Merk op dat de laatste lijn er bewust buiten valt. De werkgeversbijdrage staat "
+                "niet op de weg van bruto naar netto, want ze gaat niet van het loon van de "
+                "werknemer af.",
+                "Dit verschil verklaart waarom een werknemer veel meer kost dan hij netto "
+                "overhoudt. De werknemer ziet zijn brutoloon als het begin, terwijl de werkgever "
+                "van een bedrag vertrekt dat nog een kwart hoger ligt.",
+            ],
+        ),
+        dict(
+            aanpak="Reken de fiche in drie stappen na, telkens met het bedrag van de vorige "
+                   "stap. Eerst 13,07 procent van het bruto, dan dat eraf voor het belastbaar "
+                   "loon, dan de voorheffing eraf voor het netto. Rond pas aan het einde van elke "
+                   "stap af op twee cijfers.",
+            waarom=[
+                "Reken mee: 13,07 % van 2 400 = 313,68; 2 400 − 313,68 = 2 086,32; 2 086,32 − "
+                "410 = 1 676,32 euro netto.",
+                "1 676,32 gedeeld door 2 400 = 0,6985, dus ongeveer 69,8 procent. Zo'n "
+                "verhouding is nuttig om te onthouden: van een bruto maandloon blijft bij een "
+                "gewone werknemer ruwweg twee derde over.",
+                "25 % van 2 400 = 600, dus 2 400 + 600 = 3 000 euro. Zet dat naast het netto: de "
+                "werkgever betaalt 3 000 euro, de werknemer houdt 1 676,32 euro over. Dat is de "
+                "loonwig waar in het nieuws over gesproken wordt.",
+            ],
+        ),
+        dict(
+            aanpak="Een loonfiche leest van boven naar beneden: eerst het loon voor gewerkte "
+                   "uren, dan de premies en vergoedingen, dan de inhoudingen. Let op de "
+                   "bedragen die maar één keer per jaar komen, want die vallen op een fiche "
+                   "meteen op: de eindejaarspremie in december en het dubbel vakantiegeld in mei.",
+            waarom=[
+                "Het dubbel vakantiegeld is bij een bediende 92 procent van één maandloon. Dat "
+                "percentage is geen afspraak van je werkgever maar een wettelijk bedrag, en het "
+                "komt bovenop het gewone loon van die maand.",
+                "Dit is een vraag die veel mensen in december stellen. Het hogere tarief op een "
+                "premie is geen vergissing en geen extra belasting: het is een voorschot dat bij "
+                "de afrekening van je belastingen verrekend wordt.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-marketingmix-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vier p's, en bij elk een eigen vraag. Product: wat verkoop je? Prijs: wat "
+                   "kost het? Plaats: waar is het te krijgen? Promotie: hoe weet de klant het? "
+                   "Let op dat een korting prijs is en geen promotie, ook al heet het in de "
+                   "winkel een actie.",
+            waarom=[
+                "De verpakking hoort bij product en niet bij promotie, en dat is het lastigste "
+                "van deze rij. Een verpakking is deel van wat de klant koopt; een folder over die "
+                "verpakking is promotie.",
+                "De drie vormen van distributie verschillen enkel in het aantal verkooppunten: "
+                "exclusief is bij één, selectief bij enkele gekozen, intensief bij zo veel "
+                "mogelijk. Een merk kiest dat bewust, want overal te koop zijn maakt een product "
+                "ook minder bijzonder.",
+            ],
+        ),
+        dict(
+            aanpak="Let goed op waarop de marge gerekend wordt. Marge op de aankoopprijs betekent "
+                   "dat je bij de aankoopprijs optelt; marge op de verkoopprijs zou een andere "
+                   "uitkomst geven. En zet de btw er altijd als laatste bij, op de verkoopprijs "
+                   "zonder btw.",
+            waarom=[
+                "18 × 1,60 = 28,80 euro. Reken dus 18 + 60 % van 18, en niet 18 gedeeld door "
+                "0,40, want dat laatste zou een marge op de verkoopprijs zijn.",
+                "28,80 × 1,21 = 34,848, afgerond 34,85 euro. Merk op dat de btw geen deel van de "
+                "marge is: de winkel houdt er niets van over.",
+                "Hier gaat de rekening de andere kant op: (19,99 − 12) gedeeld door 12 = 0,666, "
+                "dus ongeveer 66,6 procent. Deel altijd door de aankoopprijs, want dat is waarop "
+                "de marge gerekend wordt.",
+                "Dat dit werkt, is nagegaan in onderzoek, en het is ook de reden waarom bijna "
+                "geen enkele prijs op een rond getal eindigt. Let wel: bij dure of luxueuze "
+                "producten doet men het net niet, want 19,99 doet goedkoop aan.",
+            ],
+        ),
+        dict(
+            aanpak="Houd twee soorten onderzoek uit elkaar: deskresearch gebruikt cijfers die al "
+                   "bestaan, fieldresearch maakt nieuwe. Daarnaast drie stappen die op elkaar "
+                   "volgen: segmenteren, een doelgroep kiezen, en je positioneren.",
+            waarom=[
+                None,
+                "Noem in je antwoord alle drie de problemen, want het zijn drie verschillende "
+                "fouten. De steekproef is vertekend, de antwoorden zijn sociaal gewenst, en "
+                "zeggen is nog niet doen. Dat laatste is het hardnekkigst: ook een eerlijke ja "
+                "wordt vaak geen aankoop.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-soorten-klanten-en-het-verkoopgesprek-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De zes fasen volgen een vaste logica: eerst contact, dan luisteren, dan pas "
+                   "voorstellen. Wie fase drie voor fase twee zet, verkoopt op gok. Onthoud dat "
+                   "de bezwaren een eigen fase zijn en geen ongeluk: ze horen bij elk gesprek.",
+            waarom=[
+                None,
+                "Dit is de kern van het hele hoofdstuk. Een verkoop die niet past, komt terug, "
+                "en dan heb je de omzet verloren én de klant. Luisteren is dus geen hoffelijkheid "
+                "maar het goedkoopste deel van het werk.",
+            ],
+        ),
+        dict(
+            aanpak="Een open vraag kan niet met ja of nee beantwoord worden en begint vaak met "
+                   "wat, hoe of waarvoor. Een gesloten vraag kan dat wel. Lees dus naar het "
+                   "eerste woord van de vraag en niet naar de lengte.",
+            waarom=[
+                None,
+                "Een gesprek gaat dus van open naar gesloten: open om te weten te komen, "
+                "gesloten om af te sluiten. Wie het omgekeerd doet, hoort enkel ja en nee en "
+                "weet aan het einde nog niets.",
+            ],
+        ),
+        dict(
+            aanpak="Bij elk bezwaar is de werkwijze dezelfde drie stappen: erkennen, een vraag "
+                   "stellen om te weten wat er echt achter zit, en dan pas antwoorden. Nooit "
+                   "tegenspreken en nooit het bezwaar klein maken.",
+            waarom=[
+                "Te duur betekent bijna nooit ik heb het geld niet, maar ik zie de waarde niet. "
+                "Daarom vraag je eerst waarmee de klant vergelijkt: zonder dat antwoord weet je "
+                "niet wat je naast de prijs moet zetten.",
+                "Dit bezwaar is vaak een hoffelijke nee. Door te vragen wat er nog ontbreekt, "
+                "krijg je het echte bezwaar te horen, en dat kan je wel beantwoorden.",
+                "Let op dat je in dit antwoord nooit de concurrent afbreekt. Je vraagt naar het "
+                "precieze model, want vaak vergelijkt de klant twee verschillende dingen, en dat "
+                "mag hij zelf vaststellen.",
+                "Dat de klant zijn gezicht zou moeten verliezen, is hier de echte reden. Het "
+                "gaat dus niet om hoffelijkheid maar om de uitkomst: wie gelijk haalt in de "
+                "discussie, verliest de verkoop.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-commerciele-documenten-en-de-documentenstroom-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De documenten volgen de handel in twee reeksen: eerst alles rond de "
+                   "bestelling en de levering, dan alles rond het geld. Twee paren verwar je het "
+                   "makkelijkst: de offerte komt van de verkoper en de bestelbon van de klant; de "
+                   "verzendnota rijdt mee en de leveringsbon wordt afgetekend.",
+            waarom=[
+                None,
+                "Houd creditnota en debetnota uit elkaar met de richting: een creditnota haalt "
+                "iets van de factuur af, een debetnota rekent iets bij. De creditnota komt het "
+                "vaakst voor, bij een retour of een te hoog aangerekend bedrag.",
+            ],
+        ),
+        dict(
+            aanpak="Zes uitspraken over de wettelijke vermeldingen. Twee regels helpen: elk stuk "
+                   "moet terug te vinden en te dateren zijn, dus nummer en datum zijn nooit "
+                   "optioneel; en een particulier is geen onderneming, dus voor hem gelden andere "
+                   "regels.",
+            waarom=[
+                "Het opeenvolgende nummer is er niet voor de orde maar voor de controle: aan een "
+                "ontbrekend nummer ziet de fiscus dat er een factuur weg is.",
+                None,
+                "Niet waar. De datum beslist in welk btw-tijdvak de factuur valt en wanneer de "
+                "betaaltermijn begint te lopen. Een vervaldag zonder factuurdatum is dus "
+                "onbruikbaar.",
+                None,
+                "Niet waar. Bij een verkoop aan een particulier volstaat een kasticket; een "
+                "factuur moet enkel in bepaalde gevallen, bijvoorbeeld bij een wagen of bij "
+                "werken aan een woning. De klant kan er wel altijd om vragen.",
+                "Waar, en dat is vandaag de gewoonte. Voorwaarde is dat de factuur leesbaar en "
+                "ongewijzigd bewaard blijft gedurende de hele bewaartermijn.",
+            ],
+        ),
+        dict(
+            aanpak="Reken een factuur van boven naar beneden en schrijf elk tussenbedrag op. De "
+                   "orde is vast: brutobedrag, handelskorting, contantkorting, dan de "
+                   "verzendkosten erbij, en dat is de maatstaf van heffing. De btw komt daar "
+                   "helemaal op het einde bij.",
+            waarom=[
+                "20 × 45 = 900 euro.",
+                "10 % van 900 = 90 euro.",
+                "900 − 90 = 810 euro. Dit is het bedrag waarop de contantkorting gerekend wordt, "
+                "en niet de 900.",
+                "2 % van 810 = 16,20 euro. Reken de twee kortingen dus na elkaar; samen 12 "
+                "procent van 900 zou 108 euro geven en dat is te veel.",
+                "810 − 16,20 = 793,80; plus 25 euro verzendkosten = 818,80 euro. De "
+                "verzendkosten zitten in de maatstaf omdat ze aan dezelfde btw onderworpen zijn.",
+                "21 % van 818,80 = 171,948, afgerond 171,95 euro.",
+                "818,80 + 171,95 = 990,75 euro. Toets je uitkomst: ze ligt onder de 900 euro aan "
+                "goederen plus btw, want de kortingen wogen zwaarder dan de verzendkosten.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-transport-expeditie-en-logistiek-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Elke vervoerswijze heeft één sterkte: het vliegtuig snelheid, het schip "
+                   "prijs per volume, de vrachtwagen bereik tot aan de deur. Houd bij de "
+                   "documenten de twee namen uit elkaar: CMR hoort bij de weg, het cognossement "
+                   "bij de zee. En expediteur is niet hetzelfde als vervoerder.",
+            waarom=[
+                None,
+                "Het verschil tussen de expediteur en de vervoerder is het belangrijkste van "
+                "deze rij. De expediteur organiseert en heeft zelf geen vrachtwagens; hij zoekt "
+                "de weg, de papieren en de douane uit. Daarom staat hij ook op andere documenten.",
+            ],
+        ),
+        dict(
+            aanpak="Reken altijd met de maten en de eenheden die in de vraag staan, en schrijf "
+                   "elke tussenstap op. Bij een kost per pallet deel je de ritprijs door het "
+                   "aantal pallets; bij een gewicht vermenigvuldig je. Let op de stand van de "
+                   "pallet, want daarvan hangt af hoeveel er naast elkaar passen.",
+            waarom=[
+                "2,40 gedeeld door 1,20 = 2 pallets. Zet je ze gedraaid, met de korte zijde "
+                "dwars, dan passen er 2,40 / 0,80 = 3 naast elkaar, maar dan nemen ze meer "
+                "lengte in. Daarom beslist de stand hoeveel er in de wagen gaan.",
+                "33 × 420 = 13 860 kg. Toets of dat kan: een vrachtwagen mag in België tot 44 ton "
+                "totaal, met ongeveer 25 ton lading, dus dit past ruim.",
+                "1,35 × 480 = 648 euro.",
+                "648 gedeeld door 33 = 19,636, afgerond 19,64 euro per pallet. Dat soort cijfer "
+                "is wat een vervoerder echt gebruikt: niet de ritprijs maar de prijs per pallet "
+                "of per kilo.",
+                "Reken het mee: rijdt hij leeg terug, dan kost elke pallet het dubbele, want "
+                "dezelfde 648 euro moet dan over één richting gedragen worden. Daarom zoeken "
+                "expediteurs retourladingen.",
+            ],
+        ),
+        dict(
+            aanpak="Het bestelpunt reken je met één formule: het verbruik tijdens de levertijd "
+                   "plus de veiligheidsvoorraad. Let erop dat het verbruik en de levertijd in "
+                   "dezelfde eenheid staan, hier allebei in weken.",
+            waarom=[
+                "Let op fifo. Het is niet alleen een ordeningsregel maar ook een "
+                "houdbaarheidskwestie: wie het nieuwste vooraan zet, vindt achteraan vervallen "
+                "voorraad terug.",
+                "40 × 2 = 80 stuks tijdens de levertijd, plus 30 veiligheidsvoorraad = 110 "
+                "stuks. Zonder die veiligheidsvoorraad kom je precies op nul uit op de dag van "
+                "de levering, en dan is één dag vertraging al een probleem.",
+                "Just in time is dus een afweging tussen geld en risico. Dat is geen theorie: "
+                "tijdens de pandemie en bij de blokkade van het Suezkanaal lagen fabrieken "
+                "wereldwijd stil omdat er bewust geen voorraad was.",
+            ],
+        ),
+    ],
+)
