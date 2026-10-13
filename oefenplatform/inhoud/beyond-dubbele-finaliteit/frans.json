@@ -135,12 +135,14 @@
             "wat weet ik hier al over?",
             "waarover zou dit gaan?",
             "wat zegt de titel?",
-            "hoeveel woorden staan er?"
+            "hoeveel woorden staan er?",
+            "wat voor soort tekst is dit?"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Die drie horen bij de leesstrategieën van de fiche. Woorden tellen helpt je niet verder."
         },
@@ -270,15 +272,14 @@
           "opties": [
             "d'abord",
             "puis",
-            "enfin",
+            "car",
             "parce que"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Eerst, dan en ten slotte. Parce que geeft een reden en is dus een ander soort signaalwoord."
+          "uitleg": "Eerst, dan en ten slotte zetten de stappen op een rij. Parce que en car geven een reden en zijn dus een ander soort signaalwoord."
         },
         {
           "type": "waarofniet",
@@ -325,15 +326,14 @@
           "opties": [
             "de titel",
             "de tussentitels",
-            "de foto of de grafiek",
+            "het aantal bladzijden",
             "het formaat van het blad"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Ze vertellen al veel voor je de eerste zin leest. Het formaat zegt niets over de inhoud."
+          "uitleg": "Ze vertellen al veel voor je de eerste zin leest. Het formaat van het blad en het aantal bladzijden zeggen niets over de inhoud."
         },
         {
           "type": "waarofniet",
@@ -348,12 +348,14 @@
             "van wie is de tekst?",
             "waarom is hij gemaakt?",
             "voor wie is hij bedoeld?",
-            "hoeveel bladzijden heeft hij?"
+            "hoeveel bladzijden heeft hij?",
+            "via welk kanaal komt hij?"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Zender, bedoeling en publiek: die drie vragen staan in de fiche."
         },
@@ -475,15 +477,14 @@
           "opties": [
             "une publicité",
             "une campagne de sécurité",
-            "un tract pour un concert",
+            "un mode d'emploi",
             "une notice de médicament"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Persuasief wil je overtuigen of beïnvloeden. Une notice legt uit wat je moet doen en is dus prescriptief."
+          "uitleg": "Persuasief wil je overtuigen of beïnvloeden: une publicité, une campagne, un tract. Une notice en un mode d'emploi leggen uit wat je moet doen en zijn prescriptief."
         },
         {
           "type": "invultekst",
@@ -531,12 +532,14 @@
             "un poème",
             "une chanson",
             "une bande dessinée",
-            "un règlement"
+            "un règlement",
+            "une nouvelle"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Ook een cartoon, een kortverhaal en een fragment uit een roman. Un règlement zegt wat je moet doen en is prescriptief."
         },
@@ -616,15 +619,14 @@
           "opties": [
             "aan de imperatief",
             "aan d'abord en puis",
-            "aan het stappenplan",
+            "aan een lange inleiding",
             "aan à mon avis"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Imperatieven, signaalwoorden van orde en een rij stappen. À mon avis kondigt juist een mening aan."
+          "uitleg": "Imperatieven, signaalwoorden van orde en een rij stappen. À mon avis kondigt een mening aan, en een lange inleiding hoort er niet in."
         },
         {
           "type": "waarofniet",
@@ -726,12 +728,14 @@
             "je pense",
             "le meilleur",
             "affreux",
-            "en 1912"
+            "en 1912",
+            "à mon avis"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een gedachte, een waardering en een gevoelswoord. Een jaartal is een feit."
         },
@@ -775,19 +779,18 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Uit welke drie delen bestaat een goed opgebouwde tekst?",
+          "vraag": "Uit welke delen bestaat een goed opgebouwde tekst?",
           "opties": [
             "inleiding",
             "midden",
-            "slot",
+            "bibliografie",
             "voetnoot"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Inleiding, midden en slot: zo staat het bij de vereisten in de fiche. Een voetnoot hoort er niet verplicht bij."
+          "uitleg": "Inleiding, midden en slot: zo staat het bij de vereisten in de fiche. Een voetnoot of een bibliografie hoort er niet verplicht bij."
         },
         {
           "type": "waarofniet",
@@ -830,16 +833,15 @@
           "vraag": "Welke woorden passen in een formele Franse mail?",
           "opties": [
             "Je voudrais",
-            "Merci d'avance",
+            "Salut, ça va?",
             "Cordialement",
             "Bisous"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "De juiste antwoorden zijn hoffelijk en neutraal. Bisous schrijf je enkel aan familie of goede vrienden."
+          "uitleg": "Je voudrais en Cordialement zijn hoffelijk en neutraal, net als Merci d'avance. Bisous of Salut, ça va schrijf je enkel aan familie of goede vrienden."
         },
         {
           "type": "meerkeuze",
@@ -955,12 +957,14 @@
             "België",
             "Zwitserland",
             "Canada",
-            "Portugal"
+            "Portugal",
+            "Luxemburg"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Ook Luxemburg, Senegal en nog tientallen landen. In Portugal spreekt men Portugees."
         },
@@ -1057,15 +1061,14 @@
           "opties": [
             "Luik",
             "Namen",
-            "Charleroi",
+            "Antwerpen",
             "Gent"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Liège, Namur en Charleroi. Namen is de hoofdstad van het Waalse Gewest. Gent ligt in Vlaanderen."
+          "uitleg": "Liège, Namur en Charleroi liggen in Wallonië, en Namen is de hoofdstad van het Waalse Gewest. Gent en Antwerpen liggen in Vlaanderen."
         },
         {
           "type": "meerkeuze",
@@ -1074,12 +1077,14 @@
             "l'apéritif",
             "l'entrée",
             "le dessert",
-            "le périphérique"
+            "le périphérique",
+            "le plat principal"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het drankje voor het eten, het voorgerecht en het nagerecht. Le périphérique is de ringweg rond Parijs."
         },
@@ -1170,15 +1175,14 @@
           "opties": [
             "un billet",
             "une valise",
-            "un passeport",
+            "une casserole",
             "une poêle"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een ticket, een koffer en een paspoort. Une poêle is een pan en hoort in de keuken."
+          "uitleg": "Een ticket, een koffer en een paspoort neem je mee op reis. Une poêle is een pan en une casserole een kookpot: die horen in de keuken."
         },
         {
           "type": "meerkeuze",
@@ -1239,12 +1243,14 @@
             "un car",
             "un ferry",
             "le métro",
-            "un gîte"
+            "un gîte",
+            "un train"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een reisbus, een veerboot en de metro. Un gîte is een vakantiehuisje. Let op: un car is een bus, une voiture een auto."
         },
@@ -1260,15 +1266,14 @@
           "opties": [
             "un retard",
             "une grève",
-            "une déviation",
+            "un horaire",
             "un souvenir"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een vertraging, een staking en een omleiding. Un souvenir is een aandenken, en ook een herinnering."
+          "uitleg": "Een vertraging, een staking en een omleiding zijn problemen op reis. Un souvenir is een aandenken en un horaire gewoon de uurtabel."
         },
         {
           "type": "meerkeuze",
@@ -1390,12 +1395,14 @@
             "een titel",
             "alinea's",
             "witruimte tussen de delen",
-            "zo veel mogelijk kleuren"
+            "zo veel mogelijk kleuren",
+            "tussentitels"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche vraagt dat de opbouw herkenbaar is: titel en alinea's. Kleur maakt een tekst niet duidelijker."
         },
@@ -1434,12 +1441,14 @@
             "Bonjour",
             "Merci beaucoup",
             "Au revoir",
-            "Il pleut"
+            "Il pleut",
+            "S'il vous plaît"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Begroeten, bedanken en afscheid nemen staan alle drie in de lijst van de fiche. Il pleut is enkel een mededeling over het weer."
         },
@@ -1449,15 +1458,14 @@
           "opties": [
             "een online woordenboek",
             "een spellingcontrole",
-            "je schrijfplan op het kladpapier",
+            "je handboek Frans",
             "je samenvatting van thuis"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het woordenboek en de spellingcontrole staan op de website van de Examencommissie. Cursusmateriaal meebrengen is examenfraude."
+          "uitleg": "Het woordenboek en de spellingcontrole staan op de website van de Examencommissie. Een handboek of een samenvatting meebrengen is examenfraude."
         },
         {
           "type": "invultekst",
@@ -1521,15 +1529,14 @@
           "opties": [
             "waarom schrijf ik?",
             "voor wie is dit?",
-            "welk kanaal gebruik ik?",
+            "hoe lang schrijf ik al?",
             "hoeveel tijd heb ik nog?"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Dat is het communicatiemodel uit de fiche. De klok nakijken helpt wel bij je planning, maar hoort niet bij het model."
+          "uitleg": "Waarom, voor wie en via welk kanaal: dat is het communicatiemodel uit de fiche. De klok nakijken helpt bij je planning, maar hoort niet bij het model."
         },
         {
           "type": "waarofniet",
@@ -1619,12 +1626,14 @@
             "Je voudrais un café.",
             "Pourriez-vous m'aider?",
             "J'aimerais réserver.",
-            "Je veux un café."
+            "Je veux un café.",
+            "Je souhaiterais partir demain."
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Voudrais, pourriez en aimerais zijn hoffelijke vormen. Je veux klinkt nogal bot."
         },
@@ -1713,12 +1722,14 @@
             "d'abord",
             "ensuite",
             "enfin",
-            "pizza"
+            "pizza",
+            "cependant"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Signaalwoorden maken de tekstverbanden zichtbaar. De fiche vraagt ze uitdrukkelijk bij tekststructuur en samenhang."
         },
@@ -1746,15 +1757,14 @@
           "opties": [
             "C'est moins cher.",
             "Ça fait gagner du temps.",
-            "Tu devrais essayer.",
+            "Où habites-tu?",
             "Comment tu t'appelles?"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie zinnen met een argument of een aanbeveling. De laatste vraagt enkel informatie."
+          "uitleg": "C'est moins cher, ça fait gagner du temps en tu devrais essayer geven een argument of een aanbeveling. Een vraag naar een naam of een woonplaats overtuigt niemand."
         },
         {
           "type": "meerkeuze",
@@ -1846,12 +1856,14 @@
             "une tante",
             "un neveu",
             "un cousin",
-            "un locataire"
+            "un locataire",
+            "une nièce"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een tante, een neefje en een kozijn. Un locataire is een huurder."
         },
@@ -1901,15 +1913,14 @@
           "opties": [
             "le thé",
             "le jus",
-            "le cidre",
+            "le sel",
             "le poivre"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Thee, sap en cider. Le poivre is peper en hoort bij de kruiden."
+          "uitleg": "Thee, sap en cider zijn dranken. Le poivre is peper en le sel is zout: dat zijn kruiden."
         },
         {
           "type": "invultekst",
@@ -1977,12 +1988,14 @@
             "un cadeau",
             "une bougie",
             "un invité",
-            "une armoire"
+            "une armoire",
+            "un gâteau"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een cadeau, een kaars en een genodigde. Une armoire is een kleerkast."
         },
@@ -2076,15 +2089,14 @@
           "opties": [
             "le couloir",
             "le grenier",
-            "la cave",
+            "le trottoir",
             "le camion"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De gang, de zolder en de kelder. Un camion is een vrachtwagen."
+          "uitleg": "De gang, de zolder en de kelder zijn ruimtes in een huis. Un camion is een vrachtwagen en le trottoir het voetpad."
         },
         {
           "type": "invultekst",
@@ -2133,12 +2145,14 @@
             "un aspirateur",
             "une bouilloire",
             "un robinet",
-            "une cravate"
+            "une cravate",
+            "un balai"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een stofzuiger, een waterkoker en een kraan. Une cravate is een das."
         },
@@ -2200,15 +2214,14 @@
           "opties": [
             "la pelouse",
             "la haie",
-            "la terrasse",
+            "l'armoire",
             "l'escalier"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het grasveld, de haag en het terras. Un escalier is een trap en staat binnen."
+          "uitleg": "Het grasveld, de haag en het terras horen bij een tuin. Un escalier is een trap en une armoire een kleerkast: die staan binnen."
         },
         {
           "type": "waarofniet",
@@ -2308,12 +2321,14 @@
             "la toux",
             "la fièvre",
             "une allergie",
-            "un portefeuille"
+            "un portefeuille",
+            "un mal de gorge"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Hoest, koorts en een allergie. Un portefeuille is een portefeuille met geld in."
         },
@@ -2364,12 +2379,14 @@
             "nerveux",
             "seul",
             "fier",
-            "bondé"
+            "bondé",
+            "triste"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Nerveus, alleen en trots. Bondé betekent overvol en zegt niets over een gevoel."
         },
@@ -2439,12 +2456,14 @@
             "une opération",
             "une ambulance",
             "un infirmier",
-            "une tondeuse"
+            "une tondeuse",
+            "un médecin"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een operatie, een ziekenwagen en een verpleger. Une tondeuse is een grasmachine of een tondeuse."
         },
@@ -2537,15 +2556,14 @@
           "opties": [
             "un hérisson",
             "un hibou",
-            "un écureuil",
+            "un chêne",
             "un érable"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een egel, een uil en een eekhoorn. Un érable is een esdoorn, dus een boom."
+          "uitleg": "Een egel, een uil en een eekhoorn zijn dieren. Un érable is een esdoorn en un chêne een eik: dat zijn bomen."
         },
         {
           "type": "invultekst",
@@ -2594,12 +2612,14 @@
             "la pollution",
             "les émissions",
             "le gaspillage",
-            "les meubles"
+            "les meubles",
+            "le recyclage"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Vervuiling, uitstoot en verspilling. Les meubles zijn de meubels en horen bij wonen."
         },
@@ -2667,15 +2687,14 @@
           "opties": [
             "une averse",
             "une brise",
-            "un orage",
+            "une clôture",
             "un trottoir"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een regenbui, een briesje en een onweer. Un trottoir is het voetpad."
+          "uitleg": "Een regenbui, een briesje en een onweer horen bij het weer. Un trottoir is het voetpad en une clôture een afsluiting."
         },
         {
           "type": "meerkeuze",
@@ -2769,12 +2788,14 @@
             "un horaire",
             "un bulletin",
             "les devoirs",
-            "un caddie"
+            "un caddie",
+            "une interrogation"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een uurrooster, een rapport en het huiswerk. Un caddie is een winkelkar."
         },
@@ -2825,15 +2846,14 @@
           "opties": [
             "un plombier",
             "un infirmier",
-            "un vendeur",
+            "une cantine",
             "un horaire"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een loodgieter, een verpleger en een verkoper. Un horaire is een uurrooster."
+          "uitleg": "Een loodgieter, een verpleger en een verkoper zijn beroepen. Un horaire is een uurrooster en une cantine het refter."
         },
         {
           "type": "invultekst",
@@ -2900,12 +2920,14 @@
             "un entretien",
             "une offre d'emploi",
             "une candidature",
-            "une cantine"
+            "une cantine",
+            "un cv"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een gesprek, een vacature en een sollicitatie. Une cantine is het refter."
         },
@@ -2999,15 +3021,14 @@
           "opties": [
             "un prêt",
             "les intérêts",
-            "l'épargne",
+            "un rayon",
             "un passage"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een lening, rente en spaargeld. Un passage is een doorgang of een oversteek."
+          "uitleg": "Een lening, rente en spaargeld horen bij geld. Un passage is een doorgang en un rayon een rek of een afdeling."
         },
         {
           "type": "invultekst",
@@ -3057,12 +3078,14 @@
             "un rond-point",
             "un embouteillage",
             "un piéton",
-            "une casserole"
+            "une casserole",
+            "un passage pour piétons"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een rotonde, een file en een voetganger. Une casserole is een kookpot."
         },
@@ -3128,15 +3151,14 @@
           "opties": [
             "la caisse",
             "la file",
-            "le rayon",
+            "la pelouse",
             "le casque"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De kassa, de rij en het rek of de afdeling. Un casque is een helm."
+          "uitleg": "De kassa, de rij en het rek of de afdeling horen bij een winkel. Un casque is een helm en la pelouse het grasveld."
         },
         {
           "type": "meerkeuze",
@@ -3230,12 +3252,14 @@
             "une exposition",
             "une salle",
             "le prix d'entrée",
-            "un arbitre"
+            "un arbitre",
+            "un guide"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een tentoonstelling, een zaal en de inkomprijs. Un arbitre is een scheidsrechter."
         },
@@ -3286,15 +3310,14 @@
           "opties": [
             "la scène",
             "le public",
-            "une pièce",
+            "une casserole",
             "une bouilloire"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het podium, het publiek en een toneelstuk. Une bouilloire is een waterkoker. Let op: une pièce is ook een kamer of een muntstuk."
+          "uitleg": "Het podium, het publiek en een toneelstuk horen bij het theater. Une bouilloire is een waterkoker en une casserole een kookpot. Let op: une pièce is ook een kamer of een muntstuk."
         },
         {
           "type": "invultekst",
@@ -3361,12 +3384,14 @@
             "une guerre",
             "un traité",
             "une révolution",
-            "une soucoupe"
+            "une soucoupe",
+            "une bataille"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een oorlog, een verdrag en een revolutie. Une soucoupe is een schoteltje."
         },
@@ -3459,15 +3484,14 @@
           "opties": [
             "un parti",
             "un ministre",
-            "le parlement",
+            "un ticket",
             "une affaire"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een partij, een minister en het parlement. Let op: un parti is een partij, une partie een deel."
+          "uitleg": "Een partij, een minister en het parlement horen bij de politiek. Une affaire is een zaak en un ticket een kaartje. Let op: un parti is een partij, une partie een deel."
         },
         {
           "type": "invultekst",
@@ -3516,12 +3540,14 @@
             "la pauvreté",
             "l'égalité",
             "la solidarité",
-            "un ticket"
+            "un ticket",
+            "le chômage"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Armoede, gelijkheid en solidariteit. Un ticket is een kaartje."
         },
@@ -3590,15 +3616,14 @@
           "opties": [
             "un juge",
             "un tribunal",
-            "un avocat",
+            "un locataire",
             "un propriétaire"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een rechter, een rechtbank en een advocaat. Un propriétaire is een eigenaar. Let op: un avocat is ook een avocado."
+          "uitleg": "Een rechter, een rechtbank en een advocaat horen bij het recht. Un propriétaire is een eigenaar en un locataire een huurder. Let op: un avocat is ook een avocado."
         },
         {
           "type": "meerkeuze",
@@ -3692,12 +3717,14 @@
             "l'écran",
             "la souris",
             "le clavier",
-            "le fauteuil"
+            "le fauteuil",
+            "un fichier"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het scherm, de muis en het toetsenbord. Le fauteuil is een zetel. Let op: la souris is ook een echte muis."
         },
@@ -3745,15 +3772,14 @@
           "opties": [
             "une expérience",
             "un résultat",
-            "une mesure",
+            "un horaire",
             "un abonnement"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een proef, een resultaat en een meting. Un abonnement is een abonnement. Let op: une expérience is ook ervaring."
+          "uitleg": "Een proef, een resultaat en een meting horen bij een labo. Un abonnement is een abonnement en un horaire een uurrooster. Let op: une expérience is ook ervaring."
         },
         {
           "type": "invultekst",
@@ -3820,12 +3846,14 @@
             "un loisir",
             "une randonnée",
             "un spectacle",
-            "un bulletin"
+            "un bulletin",
+            "un jeu de société"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een hobby, een wandeltocht en een voorstelling. Un bulletin is een rapport."
         },
@@ -3968,15 +3996,14 @@
           "opties": [
             "septante",
             "nonante",
-            "une drache",
+            "un croissant",
             "une baguette"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Zeventig, negentig en een stortregen. In Frankrijk zegt men soixante-dix en quatre-vingt-dix. Une baguette kent iedereen."
+          "uitleg": "Septante, nonante en une drache zijn Belgisch Frans: in Frankrijk zegt men soixante-dix en quatre-vingt-dix. Une baguette en un croissant kent iedereen."
         },
         {
           "type": "invultekst",
@@ -4042,12 +4069,14 @@
             "élève",
             "père",
             "été",
-            "table"
+            "table",
+            "après"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Leerling, vader en zomer. Table heeft geen accent. Een accent kan de klank of de betekenis veranderen: ou tegen où."
         },
@@ -4087,15 +4116,14 @@
           "opties": [
             "la pile",
             "la journée",
-            "actuellement",
+            "le train",
             "le téléphone"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een batterij of stapel, een dag, en momenteel. Geen pijl, geen reis, geen eigenlijk. Le téléphone is gewoon de telefoon."
+          "uitleg": "Une pile is een batterij of een stapel, une journée een dag en actuellement betekent momenteel. Le téléphone en le train zijn gewoon wat ze lijken."
         },
         {
           "type": "meerkeuze",
@@ -4197,12 +4225,14 @@
             "le fromage",
             "le village",
             "le voyage",
-            "le table"
+            "le table",
+            "le garage"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Woorden op -age zijn meestal mannelijk. Maar het is la table, want table is vrouwelijk."
         },
@@ -4268,15 +4298,14 @@
           "opties": [
             "Je veux ... lait.",
             "Il achète ... viande.",
-            "Nous prenons ... frites.",
+            "Il est ... professeur.",
             "Elle est ... élève."
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Du lait, de la viande, des frites: een onbepaalde hoeveelheid. Bij elle est une élève hoort geen partitief."
+          "uitleg": "Du lait en de la viande: een onbepaalde hoeveelheid, net als des frites. Bij elle est élève of il est professeur hoort geen partitief."
         },
         {
           "type": "meerkeuze",
@@ -4315,12 +4344,14 @@
             "école",
             "hôtel",
             "ami",
-            "maison"
+            "maison",
+            "heure"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Voor een klinker of een stomme h wordt le of la altijd l': l'école, l'hôtel, l'ami. Maison begint met een m, dus la maison."
         },
@@ -4419,16 +4450,15 @@
           "vraag": "Welke vormen van quel zijn juist geschreven?",
           "opties": [
             "quel jour",
-            "quelle heure",
+            "quel heure",
             "quels livres",
             "quelle garçon"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Quel past zich aan: quel, quelle, quels, quelles. Bij garçon hoort quel, zonder le."
+          "uitleg": "Quel past zich aan: quel jour, quelle heure, quels livres, quelles filles. Bij garçon hoort quel en bij heure quelle."
         },
         {
           "type": "invultekst",
@@ -4493,12 +4523,14 @@
             "premier",
             "deuxième",
             "neuvième",
-            "unième"
+            "unième",
+            "troisième"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Eerste is premier of première, daarna komt -ième. Alleen is het nooit unième, wel vingt et unième."
         },
@@ -4538,13 +4570,12 @@
           "opties": [
             "mes parents",
             "nos parents",
-            "leurs parents",
+            "mon parents",
             "ma parents"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
           "uitleg": "Bij een meervoud horen mes, tes, ses, nos, vos en leurs. Ma en mon horen bij een enkelvoud."
         },
@@ -4647,15 +4678,14 @@
           "opties": [
             "chez moi",
             "avec eux",
-            "Moi, je pense que oui.",
+            "Toi parles français.",
             "Moi parle français."
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Na een voorzetsel en om iets te beklemtonen. Als onderwerp blijft het je: moi, je parle français."
+          "uitleg": "Na een voorzetsel en om iets te beklemtonen: chez moi, avec eux, moi, je pense que oui. Als onderwerp blijft het je of tu: toi, tu parles français."
         },
         {
           "type": "invultekst",
@@ -4690,12 +4720,14 @@
             "se laver",
             "se lever",
             "s'habiller",
-            "laver"
+            "laver",
+            "se dépêcher"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Je herkent ze aan de se ervoor: se laver is zich wassen. Laver alleen is iets anders wassen."
         },
@@ -4723,15 +4755,14 @@
           "opties": [
             "J'y pense souvent.",
             "Il en vient.",
-            "Nous y allons demain.",
+            "J'en ai besoin de ça.",
             "Je y suis."
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Penser à geeft y, venir de geeft en. Je y wordt altijd j'y, met een weglatingsteken."
+          "uitleg": "Penser à geeft y en venir de geeft en: j'y pense, il en vient, nous y allons. Je y wordt altijd j'y, en avoir besoin de iets wordt j'en ai besoin, zonder de erachter."
         },
         {
           "type": "meerkeuze",
@@ -4871,12 +4902,14 @@
             "celui",
             "celle",
             "ceux",
-            "cellui"
+            "cellui",
+            "celles"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Celui, celle, ceux en celles. Cellui bestaat niet. Met -ci of -là wordt het celui-ci of celui-là."
         },
@@ -4942,15 +4975,14 @@
           "opties": [
             "la fille qui chante",
             "la ville où j'habite",
-            "le sujet dont on parle",
+            "le livre dont je lis",
             "le livre qui je lis"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Qui als onderwerp, où voor een plaats en dont voor de plus iets. Bij le livre que je lis hoort que."
+          "uitleg": "Qui als onderwerp, où voor een plaats en dont voor de plus iets. Bij le livre que je lis hoort que, want lire vraagt geen de."
         },
         {
           "type": "meerkeuze",
