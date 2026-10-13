@@ -942,3 +942,591 @@ OEFENBUNDELS["oefenbundel-veilig-werken-meten-en-onderzoek-chemie-boost-doorstro
              ]),
     ],
 )
+
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-mengsels-zuivere-stoffen-en-scheidingstechnieken-chemie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Twee vragen na elkaar: zit er meer dan één stof in, en kan je de bestanddelen nog "
+                    "onderscheiden. Dat geeft de drie mogelijkheden.",
+             waarom=[
+                 "Messing is een legering en dus homogeen, al is het vast. Een legering is nooit een "
+                 "zuivere stof.",
+                 "Vinaigrette die schift, toont zijn twee lagen. Pas geschud lijkt het homogeen, maar dat "
+                 "is het niet.",
+             ]),
+        dict(aanpak="Het soort mengsel volgt uit de twee fasen: wat zit er in wat. Vast in vloeibaar is een "
+                    "suspensie, vloeibaar in vloeibaar een emulsie, gas in vloeibaar een schuim.",
+             waarom=[
+                 "Een aerosol is vast of vloeibaar fijn verdeeld in een gas. Nevel, rook en haarlak horen "
+                 "alle drie in die groep.",
+                 None,
+             ]),
+        dict(aanpak="Een stofeigenschap hangt niet af van hoeveel je hebt. Massa en volume van je staal "
+                    "dus niet.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Kies de techniek op het verschil dat je kan gebruiken: deeltjesgrootte, kookpunt, "
+                    "massadichtheid of oplosbaarheid.",
+             waarom=[
+                 "Centrifugeren is filtreren op snelheid: de zwaarste deeltjes worden naar buiten geduwd. "
+                 "Het werkt waar een filter te grof is.",
+                 None,
+                 "Dit is de kern van elke keuze: een techniek werkt alleen als er een verschil is om op te "
+                 "werken. Opgeloste ionen zijn even klein als de watermoleculen.",
+             ]),
+        dict(aanpak="Bij een destillatie werk je met een verschil in kookpunt. Vraag je altijd eerst af of "
+                    "de vloeistoffen wel mengen.",
+             waarom=[
+                 None,
+                 "Destilleren kost veel warmte en tijd. Als de lagen al gescheiden zijn, is decanteren "
+                 "eenvoudiger en goedkoper.",
+                 "Dit is ook de proef waarmee je een mengsel van een zuivere stof onderscheidt: één punt "
+                 "tegenover een traject.",
+             ]),
+        dict(aanpak="Twee woorden vastleggen: residu blijft op het filter, filtraat loopt erdoor. Daarna "
+                    "kan je elke labovraag lezen.",
+             waarom=[
+                 None, None,
+                 "Noem bij elke techniek het verschil waarop ze werkt. Dat is wat deze vraag echt toetst, "
+                 "niet de namen.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-enkelvoudige-en-samengestelde-stoffen-chemie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="De symbolen die niet op de Nederlandse naam lijken, komen uit het Latijn. Juist die "
+                    "zijn het waard apart te leren.",
+             waarom=[
+                 "Pb komt van plumbum, Sn van stannum en Hg van hydrargyrum. Geen van de drie lijkt op de "
+                 "Nederlandse naam.",
+                 None, None,
+             ]),
+        dict(aanpak="Lees een formule van buiten naar binnen: eerst de coëfficiënt, dan de haakjes, dan de "
+                    "indexen erin.",
+             waarom=[
+                 "De index achter de haakjes geldt voor alles erin. Daarom zitten er twaalf zuurstofatomen "
+                 "per deeltje en niet vier.",
+                 "Vergeet de coëfficiënt niet: bij 2 NH₃ tel je eerst vier atomen per deeltje en "
+                 "vermenigvuldig je dan met twee.",
+             ]),
+        dict(aanpak="Tel het aantal verschillende elementen, niet het aantal atomen. Eén soort betekent "
+                    "enkelvoudig.",
+             waarom=[
+                 "S₈ bestaat uit acht zwavelatomen, maar wel uit één soort. Daarom is het enkelvoudig.",
+                 None, None, None,
+             ]),
+        dict(aanpak="Metalen staan links en in het midden, niet-metalen rechtsboven, de edelgassen in de "
+                    "laatste kolom.",
+             waarom=[
+                 "Br is broom, een niet-metaal, en bij kamertemperatuur vloeibaar. Niet elk vloeibaar "
+                 "element is dus kwik.",
+                 "Verbind alle drie de eigenschappen met de vrije elektronen. Ze los opsommen levert minder "
+                 "op dan ze uit één oorzaak afleiden.",
+                 None,
+             ]),
+        dict(aanpak="Zet bij elke stof één kenmerk of één gebruik. Daarmee herken je ze in een vraag.",
+             waarom=[
+                 "Helium werd gekozen omdat het niet brandbaar is. Waterstofgas is lichter maar "
+                 "levensgevaarlijk in een ballon.",
+                 "Dit heet allotropie: dezelfde atomen, een andere structuur. Leg de verschillen altijd uit "
+                 "de bouw uit, niet uit de stof.",
+                 None,
+             ]),
+        dict(aanpak="Analyse breekt af, synthese bouwt op. Vraag je af of er stoffen samenkomen of uit "
+                    "elkaar gaan.",
+             waarom=[
+                 None,
+                 "Analyse is net het omgekeerde: één stof valt uiteen in meerdere. Het woord betekent "
+                 "ontleden.",
+                 "Dit onderscheid komt terug bij elk zout. In een ionrooster bestaat er geen molecule, "
+                 "enkel een verhouding.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-chemische-reacties-en-energie-chemie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Tel links en rechts per atoomsoort. Begin met het element dat in maar één stof aan "
+                    "elke kant voorkomt, en doe zuurstof het laatst.",
+             waarom=[
+                 None,
+                 r"Bij een verbranding van een koolwaterstof ga je altijd in dezelfde orde: eerst koolstof, "
+                 r"dan waterstof, dan zuurstof. Zo kom je op \(1\), \(5\), \(3\), \(4\).",
+             ]),
+        dict(aanpak="De wet van behoud van massa geldt altijd. Weegt het meer of minder, dan is er iets uit "
+                    "de lucht bij gekomen of als gas ontsnapt.",
+             waarom=[
+                 None,
+                 "Dit is de klassieke proef: staalwol wordt zwaarder omdat de zuurstof mee in de vaste stof "
+                 "gaat zitten. Niets komt uit het niets.",
+                 "Hier gaat er net massa weg als gas. Dezelfde wet, een tegengestelde meting: alles hangt "
+                 "af van wat er in of uit het vat kan.",
+             ]),
+        dict(aanpak="Een chemische reactie maakt nieuwe stoffen. Verandert er enkel het uitzicht, dan is "
+                    "het geen reactie.",
+             waarom=[
+                 None,
+                 "Troebel water is een suspensie, dus een mengsel. Er ontstaat geen nieuwe stof.",
+                 None,
+                 "Atomen worden herschikt, niet omgezet in andere elementen. Daarvoor zou je een "
+                 "kernreactie nodig hebben.",
+             ]),
+        dict(aanpak="Exo geeft energie af, endo neemt op. Let op dat je redeneert vanuit de reactie en niet "
+                    "vanuit je hand.",
+             waarom=[
+                 None,
+                 "Een handwarmer voelt warm omdat de reactie energie afgeeft; een koudepakje voelt koud "
+                 "omdat ze energie opneemt. Je hand meet telkens het omgekeerde van wat de stof doet.",
+                 "De beker koelt af, dus de reactie haalde energie uit de omgeving. Dat is wat endo "
+                 "betekent.",
+             ]),
+        dict(aanpak="Op de verticale as staat de inwendige energie. Of de producten hoger of lager liggen, "
+                    "zegt of de reactie exo of endo is.",
+             waarom=[
+                 None,
+                 "Beschrijf altijd beide uiteinden én het hoogteverschil. Dat hoogteverschil is de "
+                 "reactie-energie, en het teken zegt welke soort reactie het is.",
+             ]),
+        dict(aanpak="Schrijf een omzetting altijd als van-naar. Zo zie je meteen of je de twee vormen juist "
+                    "benoemd hebt.",
+             waarom=[
+                 "Let op de laatste: bij het opladen gaat het van elektrisch naar chemisch, bij het "
+                 "gebruiken net omgekeerd.",
+                 "Hier komt het energiediagram terug: het verschil tussen de bindingen van begin en eind is "
+                 "precies de reactie-energie.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-bouw-van-atomen-en-ionen-chemie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Drie deeltjes, drie dingen om van elk te weten: waar het zit, welke lading het heeft "
+                    "en of het meetelt voor de massa.",
+             waarom=[
+                 None,
+                 "Een elektron is bijna tweeduizend keer lichter dan een proton. Daarom reken je het "
+                 "gewicht van een atoom nooit met de elektronen mee.",
+                 None,
+             ]),
+        dict(aanpak="Protonen lees je uit het atoomnummer, neutronen uit massagetal min atoomnummer. Het "
+                    "aantal elektronen is enkel bij een átoom gelijk aan het aantal protonen; bij een ion "
+                    "verschuift het met de lading.",
+             waarom=[
+                 "Let op de twee ionen: het zwavelion heeft er twee te veel en het aluminiumion drie te "
+                 "weinig. De kern blijft bij beide ongemoeid.",
+                 None,
+             ]),
+        dict(aanpak="Elke uitspraak gaat over één van de drie getallen. Vraag je telkens af of het over de "
+                    "kern of over de schillen gaat.",
+             waarom=[
+                 None,
+                 "Een atoom geeft bij een ion altijd elektronen af of neemt ze op; aan de protonen raakt "
+                 "het niet. Veranderen de protonen wel, dan is het een ander element.",
+                 None,
+                 "Het massagetal telt protonen en neutronen, dus enkel wat in de kern zit. De elektronen "
+                 "wegen te weinig om mee te tellen.",
+             ]),
+        dict(aanpak="De relatieve atoommassa zegt hoeveel keer zwaarder een atoom is dan één u. Wil je "
+                    "kilogram, dan vermenigvuldig je met de waarde van u.",
+             waarom=[
+                 None,
+                 "Dit onderscheid komt later terug bij elke molberekening: hetzelfde getal, de ene keer "
+                 "zonder eenheid, de andere keer in gram per mol.",
+             ]),
+        dict(aanpak="Vul de schillen van binnen naar buiten: twee, dan acht, dan acht. Het atoomnummer zegt "
+                    "hoeveel elektronen je moet verdelen.",
+             waarom=[
+                 None, None,
+                 "Dit is de regel achter alle ionen: een atoom gaat naar de edelgasconfiguratie langs de "
+                 "kortste weg. Daarom geven metalen af en nemen niet-metalen op.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-het-periodiek-systeem-der-elementen-chemie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="De configuratie zegt het allemaal: het aantal bezette schillen is de periode, het "
+                    "aantal elektronen op de buitenste schil de hoofdgroep.",
+             waarom=[
+                 None,
+                 "Oefen die twee stappen tot ze vlot gaan. Met de groep en de periode kan je daarna het ion "
+                 "en de eigenschappen voorspellen.",
+             ]),
+        dict(aanpak="Vier namen om vast te leggen: alkalimetalen, aardalkalimetalen, halogenen, edelgassen. "
+                    "Ze horen bij groep IA, IIA, VIIA en de laatste.",
+             waarom=[
+                 None, None,
+                 "Waterstof staat wel boven groep IA, maar is een gas en geen metaal. Het is het buitenbeentje "
+                 "van het systeem.",
+                 None,
+             ]),
+        dict(aanpak="Werk in twee stappen: hoeveel valentie-elektronen heeft het, en is afgeven of opnemen "
+                    "de kortste weg naar acht.",
+             waarom=[
+                 None, None,
+                 "Bij de hoofdgroepen is de lading voorspelbaar uit het groepsnummer. Dat spaart je het "
+                 "vanbuiten leren van de ionen apart.",
+             ]),
+        dict(aanpak="Elektronegativiteit is hoe hard een atoom aan de elektronen van een binding trekt. Ze "
+                    "stijgt naar rechts en naar boven.",
+             waarom=[
+                 None,
+                 "Naar onder dáált ze juist: let op de richting, want dit is de helft van de vragen die "
+                 "hierover fout gaan.",
+                 None, None,
+                 "Fluor staat daar, met de hoogste waarde van alle elementen. De edelgassen laat men buiten "
+                 "beschouwing, want die vormen bijna geen bindingen.",
+             ]),
+        dict(aanpak="Metaal of niet-metaal volgt uit wat het met elektronen doet. Dat bepaalt op zijn beurt "
+                    "het bindingstype.",
+             waarom=[
+                 None,
+                 "Dit is een vraag die vaak misloopt: dezelfde elektronenconfiguratie maakt geen gelijke "
+                 "stof. Het is de kern die zegt welk element je in handen hebt.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-chemische-bindingen-en-roosters-chemie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Kijk naar het soort elementen: metaal met niet-metaal geeft een ionbinding, twee "
+                    "niet-metalen een atoombinding, twee metalen een metaalbinding.",
+             waarom=[None, None]),
+        dict(aanpak="Ga langs de ionen: welke lading vormt elk, en hoeveel heb je er nodig om samen op nul "
+                    "uit te komen. Die aantallen zijn de indexen.",
+             waarom=[
+                 None,
+                 "Hier kruisen de ladingen: Mg²⁺ met N³⁻ geeft drie magnesium tegen twee stikstof. Het "
+                 "geheel moet neutraal zijn.",
+                 "Schrijf die drie stappen altijd uit: lading, lading, opheffen. Zo heb je geen formules "
+                 "nodig die je vanbuiten kent.",
+             ]),
+        dict(aanpak="Een bindend paar ligt tussen twee atomen, een vrij paar hoort bij één atoom. Tel in "
+                    "een Lewisstructuur altijd de paren en niet de losse elektronen.",
+             waarom=[
+                 None, None,
+                 "Een dubbele binding is twee páren, dus vier elektronen. Juist daarom spreekt men van "
+                 "elektronenparen en niet van elektronen.",
+                 None,
+             ]),
+        dict(aanpak="Vier roosters, en bij elk hangen de eigenschappen aan wat er op de plaatsen zit: "
+                    "ionen, atomen, moleculen of een metaalrooster met vrije elektronen.",
+             waarom=[
+                 "Alleen koper geleidt in vaste toestand, want alleen daar zijn de elektronen vrij. "
+                 "Geleiden vraagt altijd ladingen die kunnen bewegen.",
+                 None,
+                 "Dit is het mooiste voorbeeld van bouw die gedrag verklaart: hetzelfde duwtje breekt het "
+                 "ene rooster en vervormt het andere alleen maar.",
+             ]),
+        dict(aanpak="Vaste afspraken: zuurstof is meestal −II, waterstof +I, een enkelvoudige stof nul, en "
+                    "de som in een neutrale stof is nul. Daarmee reken je de rest uit.",
+             waarom=[
+                 "IJzer vind je door de som: twee keer x plus drie keer −II moet nul geven, dus x is +III. "
+                 "Reken het altijd zo na in plaats van te gokken.",
+                 None, None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-anorganische-stofklassen-en-naamgeving-chemie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Lees de formule van voor naar achter. Begint ze met H, dan is het een zuur; eindigt ze "
+                    "op OH, dan een hydroxide; staat er enkel een metaal en zuurstof, dan een oxide; alle "
+                    "andere combinaties van een metaal met een zuurrest zijn zouten. Binair betekent twee "
+                    "elementen, ternair drie.",
+             waarom=[
+                 None, None,
+                 "Water begint wel met H, maar geeft geen H⁺ af in een oplossing. Het is de uitzondering "
+                 "die je apart moet kennen.",
+                 "Een binair zout zoals MgCl₂ heeft geen zuurstof. Enkel de ternaire zouten hebben een "
+                 "zuurrest met zuurstof erin.",
+             ]),
+        dict(aanpak="De zuurresten zijn een lijstje dat je echt moet kennen. Let op lading én uitgang, want "
+                    "de uitgang verraadt of er zuurstof in zit.",
+             waarom=[
+                 None, None,
+                 "Die regel spaart je het halve lijstje: hoor je -aat, dan weet je al dat er zuurstof in "
+                 "zit, en hoor je -ide, dan niet.",
+             ]),
+        dict(aanpak="Zelfde werkwijze als bij een binair zout: zoek de twee ladingen en zorg dat ze elkaar "
+                    "opheffen. Een zuurrest met meer dan één atoom zet je tussen haakjes.",
+             waarom=[
+                 "Bij calciumfosfaat heb je drie Ca²⁺ tegen twee PO₄³⁻ nodig, en dan zijn de haakjes "
+                 "verplicht: Ca₃(PO₄)₂.",
+                 None,
+             ]),
+        dict(aanpak="Twee stelsels naast elkaar. Bij twee niet-metalen gebruik je Griekse telwoorden, bij "
+                    "een metaal met meerdere oxidatiegetallen een Romeins cijfer.",
+             waarom=[
+                 None,
+                 "Dit is de vuistregel: enkel waar er iets te kiezen valt, moet het cijfer erbij. Bij "
+                 "calcium, natrium of kalium valt er niets te kiezen.",
+                 "Bij een ionverbinding zeggen de ladingen al hoeveel ionen er zijn, dus zijn telwoorden "
+                 "overbodig. Die horen bij de niet-metaaloxiden.",
+             ]),
+        dict(aanpak="De triviale namen zijn de namen uit de winkel en het labo. Leer er telkens de formule "
+                    "én waar je de stof tegenkomt bij.",
+             waarom=[
+                 None, None,
+                 "Eén letter verschil in de formule geeft een heel andere stof. NaOH is bijtend, NaHCO₃ zit "
+                 "in je keukenkast.",
+             ]),
+        dict(aanpak="Vier patronen die telkens terugkeren: metaaloxide met water, niet-metaaloxide met "
+                    "water, zuur met hydroxide, en een zout dat oplost.",
+             waarom=[
+                 None,
+                 "Hiermee kan je van een onbekend oxide al voorspellen of de oplossing zuur of basisch "
+                 "wordt, enkel uit de plaats van het element in het periodiek systeem.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-organische-stoffen-en-de-alkanen-chemie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="De eerste tien namen van de alkanen zijn de basis van heel de organische chemie. "
+                    "Ken je het aantal koolstofatomen, dan volgt de formule uit CnH\\(2n+2\\).",
+             waarom=[
+                 None, None,
+                 "Reken die regel één keer na op een getekende keten. Dan hoef je de formules niet meer "
+                 "vanbuiten te leren.",
+             ]),
+        dict(aanpak="De uitgang van de naam zegt de stofklasse: -aan, -een, -yn, -ol of -zuur. De "
+                    "functionele groep hoort daarbij.",
+             waarom=[None, None, None]),
+        dict(aanpak="De eigenschappen van een organische stof volgen uit twee dingen: de lengte van de "
+                    "keten en de functionele groep.",
+             waarom=[
+                 "Een alkaan is apolair en water polair, dus mengen ze niet. Daarom ligt benzine op water.",
+                 None,
+                 "Die OH zit vast in de molecule en komt niet los als OH⁻. Juist daarom is een alcohol "
+                 "neutraal en geen base.",
+                 None,
+             ]),
+        dict(aanpak="Zet bij elke triviale naam de IUPAC-naam en één gebruik. Zo herken je de stof hoe ze "
+                    "ook genoemd wordt.",
+             waarom=[
+                 None, None,
+                 "Dit is geen bijzaak maar een echt gevaar: methanol zit in ruitensproeivloeistof en in "
+                 "zelfgestookte drank.",
+             ]),
+        dict(aanpak="Elke verbranding van een koolwaterstof geeft koolstofdioxide en water. Maak kloppend "
+                    "in de orde koolstof, waterstof, zuurstof.",
+             waarom=[
+                 "Bij ethaan kom je op halve getallen uit, dus verdubbel je alles: \\(2\\), \\(7\\), \\(4\\) "
+                 "en \\(6\\).",
+                 "Onthoud vooral het tweede deel. Een koolstofmonoxidevergiftiging merk je niet, en dat is "
+                 "net waarom een geiser gekeurd moet zijn.",
+                 "Hier verklaart een fysische eigenschap een dagelijkse keuze. Dat is wat organische chemie "
+                 "nuttig maakt.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-stoffen-in-water-polariteit-oplossen-en-ph-chemie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Twee vragen na elkaar: zijn de bindingen polair, en is de molecule symmetrisch. Pas "
+                    "als het antwoord ja en nee is, is de molecule als geheel polair.",
+             waarom=[
+                 None,
+                 "CCl₄ heeft wel polaire bindingen, maar ze staan symmetrisch rond de koolstof en heffen "
+                 "elkaar op.",
+                 None, None,
+             ]),
+        dict(aanpak="Drie krachten, van sterk naar zwak: ion-dipool, waterstofbrug, londonkracht. Welke er "
+                    "speelt, volgt uit wat er naast elkaar ligt.",
+             waarom=[
+                 "Een waterstofbrug vraagt H aan O, N of F. Daarom hebben hexaanmoleculen er geen en water "
+                 "wel.",
+                 None, None,
+             ]),
+        dict(aanpak="Gelijk lost op in gelijk: polair in polair, apolair in apolair. Zeg bij je antwoord "
+                    "altijd welke van de twee je bedoelt.",
+             waarom=[
+                 None,
+                 "Dit is dezelfde regel toegepast op een alledaags probleem. Daarom zit er zeep tussen: die "
+                 "heeft een polaire én een apolaire kant.",
+             ]),
+        dict(aanpak="Een zout dissocieert, een polaire molecule ioniseert. Let bij het schrijven op de "
+                    "coëfficiënt vóór het ion dat twee keer voorkomt.",
+             waarom=[
+                 "Bij MgCl₂ moet er een 2 voor Cl¹⁻ staan, want er komen twee chloride-ionen vrij per "
+                 "formule-eenheid.",
+                 None,
+                 "Suiker lost wel op maar valt niet in ionen uiteen, dus geleidt de oplossing niet. "
+                 "Oplossen en ioniseren zijn twee verschillende dingen.",
+                 None,
+             ]),
+        dict(aanpak="Onder zeven is zuur, zeven is neutraal, boven zeven basisch. Een indicator geeft maar "
+                    "een gebied aan, geen getal.",
+             waarom=[
+                 "Let op pH \\(7\\) bij lakmoes: daar ligt het omslagpunt, dus geeft het papier geen "
+                 "duidelijke uitslag.",
+                 None, None,
+                 "Een indicator zegt enkel zuur of basisch; wil je het getal, dan heb je het toestel nodig.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-neerslag-gas-neutralisatie-en-redoxreacties-chemie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Werk met de vuistregels: nitraten, kaliumzouten, natriumzouten en ammoniumzouten "
+                    "lossen altijd goed op. De vaste klanten aan de andere kant zijn AgCl, BaSO₄ en CaCO₃.",
+             waarom=[
+                 None,
+                 "Let op het paar carbonaten: K₂CO₃ lost op omdat het een kaliumzout is, CaCO₃ niet. De "
+                 "kalksteen in je waterketel is daar het bewijs van.",
+             ]),
+        dict(aanpak="Zoek telkens welk paar ionen samenkomt. Vormen ze een slecht oplosbaar zout, dan is "
+                    "het een neerslag; een gas, dan gasontwikkeling; H⁺ met OH⁻, dan een neutralisatie.",
+             waarom=[None, None]),
+        dict(aanpak="Schrijf eerst alle ionen los op, streep dan weg wat links en rechts hetzelfde is. Wat "
+                    "overblijft is de essentiële vergelijking.",
+             waarom=[
+                 None, None,
+                 "Dit is de hele reden waarom je de essentiële vergelijking schrijft: ze laat zien wat er "
+                 "echt gebeurt, zonder de ionen die enkel toekijken.",
+             ]),
+        dict(aanpak="Drie gassen die je uit het patroon kan voorspellen: CO₂ uit een carbonaat, H₂S uit een "
+                    "sulfide, NH₃ uit een ammoniumzout met een sterke base.",
+             waarom=[
+                 "Je ruikt ze ook aan elkaar af: H₂S naar rotte eieren, ammoniak scherp. CO₂ heeft geen "
+                 "geur.",
+                 None,
+             ]),
+        dict(aanpak="Twee woorden en vier gevolgen: oxidatie is afgeven en het getal stijgt, reductie is "
+                    "opnemen en het getal daalt. Wie oxideert wordt zelf gereduceerd.",
+             waarom=[
+                 "De namen zitten omgekeerd aan wat je zou denken: de reductor ondergáát de oxidatie. Reken "
+                 "altijd met de oxidatiegetallen en niet met de namen.",
+                 None,
+                 "Deze proef kan je echt zien gebeuren: de kleur verdwijnt en er komt koper op het zink. "
+                 "Elektronenoverdracht is dus niet enkel een berekening.",
+             ]),
+        dict(aanpak="Eén toets volstaat: veranderen er oxidatiegetallen, dan is het redox. Wisselen de "
+                    "ionen enkel van partner, dan niet.",
+             waarom=[
+                 None,
+                 "Bij een neerslag veranderen alleen de partners; de ionen houden hun lading. Daarom is dat "
+                 "geen redox.",
+                 None, None,
+             ]),
+        dict(aanpak="Herken het patroon in plaats van elke reactie te leren: een element met zuurstof geeft "
+                    "een oxide, en een koolwaterstof of alcohol geeft koolstofdioxide en water.",
+             waarom=[
+                 None, None,
+                 "Dit verklaart waarom een aluminium ladder niet wegrot en een ijzeren hek wel. Een "
+                 "oxidelaag kan beschermen of juist niet, en dat hangt af van hoe ze blijft zitten.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-rekenen-met-mol-massa-en-concentratie-chemie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Tel de atoommassa's op, met elke index als vermenigvuldiger. Hou dezelfde cijfers na "
+                    "de komma als je gegevens.",
+             waarom=[None, None]),
+        dict(aanpak="Twee formules die elkaars omgekeerde zijn: n = m : M en m = n · M. Zet er altijd de "
+                    "eenheid bij, dan merk je zelf of je moest delen of vermenigvuldigen.",
+             waarom=[
+                 None, None,
+                 "Zo'n controle op de grootteorde is de snelste manier om een rekenfout te vinden: is het "
+                 "antwoord plausibel groter of kleiner dan één mol.",
+             ]),
+        dict(aanpak="Eén mol is altijd \\(6{,}02 \\cdot 10^{23}\\) deeltjes, welke stof het ook is. Van mol "
+                    "naar deeltjes vermenigvuldig je, omgekeerd deel je.",
+             waarom=[
+                 None, None,
+                 "Evenveel deeltjes betekent niet dezelfde massa: water weegt \\(18{,}0\\) g per mol en "
+                 "koolstofdioxide \\(44{,}0\\) g. Dat verschil is net waarom de molaire massa bestaat.",
+             ]),
+        dict(aanpak="Concentratie is mol per liter: c = n : V. Zet milliliter eerst om in liter, anders zit "
+                    "je er duizend keer naast.",
+             waarom=[
+                 "Bij \\(200\\) mL reken je met \\(0{,}200\\) L. Dat is de fout die hier het vaakst gemaakt "
+                 "wordt.",
+                 None, None,
+             ]),
+        dict(aanpak="Bij verdunnen blijft het aantal mol gelijk, dus geldt c₁V₁ = c₂V₂. Je zoekt bijna "
+                    "altijd V₁: hoeveel je uit de voorraad neemt.",
+             waarom=[
+                 None,
+                 "Let op de laatste stap: je vult aan tót het streepje, je giet geen \\(225\\) mL water "
+                 "bij. Het eindvolume moet kloppen, niet het toegevoegde water.",
+                 None,
+                 "De concentratie dáált: evenveel mol in meer liter. Dat is precies wat de formule zegt.",
+             ]),
+        dict(aanpak="De coëfficiënten van een kloppende vergelijking zijn een verhouding in mol. Reken dus "
+                    "altijd eerst naar mol, dan met de verhouding, dan terug naar gram.",
+             waarom=[
+                 "Let op de tweede: drie mol zuurstof geeft zes mol water, want de verhouding is één tegen "
+                 "twee.",
+                 None,
+                 "Dit komt in elk vraagstuk terug: reken allebei de stoffen naar mol en kijk welke eerst "
+                 "op is. Die bepaalt de opbrengst.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-veilig-werken-meten-en-onderzoek-chemie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Een pictogram zegt het soort gevaar, de H- en P-zinnen zeggen wat en wat je ermee "
+                    "doet. Lees ze altijd samen.",
+             waarom=[
+                 None, None,
+                 "H staat voor hazard en P voor precaution. Weet je dat, dan hoef je de twee niet te "
+                 "verwarren.",
+             ]),
+        dict(aanpak="Elke regel heeft een reden. Vraag je bij een uitspraak af wat er in het slechtste "
+                    "geval gebeurt.",
+             waarom=[
+                 None,
+                 "Ruiken aan een onbekende stof kan je luchtwegen aantasten. Wie toch moet ruiken, wappert "
+                 "de damp voorzichtig naar zich toe en buigt zich nooit over de opening.",
+                 None,
+                 "Veel producten horen niet in het water terecht. Verdunnen verandert daar niets aan, zie "
+                 "het pictogram voor het aquatisch milieu.",
+                 "Gebruik een borstel en een blik. Een scherf glas gaat makkelijk door een handschoen.",
+             ]),
+        dict(aanpak="Kies het materiaal naar wat je nodig hebt: nauwkeurig afmeten, een volume aanvullen, "
+                    "of enkel mengen en opvangen.",
+             waarom=[
+                 "Een volpipet en een maatkolf zijn gemaakt voor één volume en dus nauwkeurig. Een bekerglas "
+                 "en een erlenmeyer dienen om in te werken, niet om in af te meten.",
+                 None,
+                 "Dit is de vuistregel bij elke meting: kies het bereik dat net boven je waarde ligt. Dan "
+                 "gebruik je de hele schaal.",
+                 None,
+             ]),
+        dict(aanpak="Zet de voorvoegsels als machten van tien op een rij. Dan is omrekenen enkel de komma "
+                    "verschuiven.",
+             waarom=[None, None, None]),
+        dict(aanpak="Beduidende cijfers tellen hoe nauwkeurig je meting was. Een nul vóór het eerste cijfer "
+                    "telt niet mee, een nul erna wel.",
+             waarom=[
+                 "Let op het verschil tussen \\(12{,}0\\) en \\(1200\\): die laatste nullen zijn niet "
+                 "gemeten, dus tellen ze niet mee.",
+                 None,
+                 "Daarom is afronden geen slordigheid maar juist eerlijk: je antwoord zegt zelf hoe zeker "
+                 "je bent.",
+             ]),
+        dict(aanpak="Een goede onderzoeksvraag is enkelvoudig, objectief en onderzoekbaar. Pas daarna "
+                    "formuleer je een hypothese en bedenk je een plan.",
+             waarom=[
+                 None, None,
+                 "Het woord beste is in een onderzoeksvraag bijna altijd een alarmbel. Vervang het door een "
+                 "eigenschap die je kan meten.",
+                 "Een weerlegde hypothese is een resultaat, geen mislukking. Je weet nu iets wat je ervoor "
+                 "niet wist.",
+                 None,
+             ]),
+    ],
+)
