@@ -1180,3 +1180,574 @@ zet("soorten-zinnen-bijzinnen-en-si-zinnen",
                   "Il n'a rien vu.", 2),
              ]),
     ])
+
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-een-franse-tekst-analyseren-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Lees de tekst eerst helemaal door zonder te stoppen bij een woord dat je niet kent. "
+                    "Pas daarna de vragen, en dan gericht terugzoeken.",
+             waarom=[]),
+        dict(aanpak="Het onderwerp is waarover de tekst gaat, in enkele woorden. De hoofdgedachte is wat "
+                    "de tekst erover zegt, in één volle zin.",
+             waarom=[
+                 None,
+                 "Een hoofdgedachte is geen opsomming van alles wat er staat; ze vat samen waar de tekst "
+                 "naartoe werkt. Hier dus niet alleen wat ze uitlenen, maar ook waarom het lukt.",
+                 None, None, None,
+             ]),
+        dict(aanpak="Een vraag met twee of drie punten erin wil ook twee of drie antwoorden. Tel dus hoeveel "
+                    "er gevraagd worden voor je schrijft.",
+             waarom=[
+                 "De tekst zet de prijs en het gebruik naast elkaar: tachtig euro voor minder dan een uur "
+                 "per jaar. Dat is één reden in twee cijfers.",
+                 None, None,
+                 "Let op het verschil tussen verkeerd gebruik en gewone slijtage: alleen bij het eerste "
+                 "betaal je zelf.",
+                 None,
+                 "De tekst zegt dat ze náást boeken ook voorwerpen uitleent, niet in de plaats ervan.",
+             ]),
+        dict(aanpak="Raad een woord uit de zin eromheen: het soort woord, wat ervoor en erachter staat, en "
+                    "wat in die zin logisch past. Een woordenboek sla je pas daarna open.",
+             waarom=[
+                 "Une perceuse en une échelle zijn te raden uit de zin zelf: je leent ze, en je gebruikt "
+                 "ze zelden. Un conseil lijkt op het Nederlandse consult maar betekent een raad.",
+                 "On is in het Frans vaak een vage men, en wat dat men is, staat in de zin ervoor.",
+                 None,
+             ]),
+        dict(aanpak="Een tekst van een ander soort lees je anders: bij een bericht zoek je wie het stuurt, "
+                    "aan wie, en wat er van je gevraagd wordt.",
+             waarom=[
+                 "Een kader, een afzender en een datum zonder verhaal erbij: dat is een bekendmaking.",
+                 None, None, None,
+                 "De straat is net dicht tussen die uren; daarbuiten mag het wel.",
+                 None,
+             ]),
+        dict(aanpak="Deze vragen gaan over hoe je werkt, niet over één tekst. Het antwoord dat je hier "
+                    "opschrijft, is wat je op het examen zelf doet.",
+             waarom=[
+                 "De fout die het meest punten kost, is woord per woord beginnen vertalen. Dan ben je door "
+                 "je tijd voor je weet waarover de tekst gaat.",
+                 None, None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-tekstsoorten-tekstverbanden-en-verwijswoorden-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Je herkent de soort aan de vorm, nog voor je de inhoud snapt: gebiedende wijs en "
+                    "stappen, een aanspreking, een verleden tijd met een verhaal, een prijs, een afzender.",
+             waarom=[
+                 "Mélangez en ajoutez staan in de gebiedende wijs: iemand zegt je wat je moet doen.",
+                 "Chère Madame en je vous écris au sujet de: de twee vaste kenmerken van een brief.",
+                 "Een verleden tijd plus een vooruitwijzing (ne savait pas encore) hoort bij een verhaal.",
+                 None, None,
+                 "Selon une étude verwijst naar een bron. Dat doet een artikel, geen reclame.",
+             ]),
+        dict(aanpak="Zeg niet wat de tekst betekent maar waaraan je het ziet: aan de vorm, de werkwoorden, "
+                    "de aanspreking, de cijfers.",
+             waarom=[None, None, None]),
+        dict(aanpak="Zet eerst in het Nederlands welk verband er ligt (oorzaak, gevolg, tegenstelling, "
+                    "volgorde) en kies dan het Franse woord dat daarbij hoort.",
+             waarom=[
+                 "Let op het verschil tussen parce que (oorzaak, achteraan) en donc (gevolg). Malgré krijgt "
+                 "een naamwoord achter zich, geen zin.",
+                 None, None, None,
+             ]),
+        dict(aanpak="Zoek het woord waar het verwijswoord voor staat, meestal in de zin ervoor. Let bij y "
+                    "en en op wat ze vervangen: y een plaats, en een hoeveelheid.",
+             waarom=[
+                 "Le vervangt een lijdend voorwerp, leur een meewerkend voorwerp in het meervoud. Dat "
+                 "verschil bepaalt de vorm.",
+                 "Ci betekent hier, là betekent daar: ci staat dus bij wat het dichtst bij staat in de "
+                 "tekst, en dat is het laatstgenoemde.",
+                 "Y vervangt een plaats of een zaak met à. Voor een persoon gebruik je lui of leur.",
+             ]),
+        dict(aanpak="De signaalwoorden zijn de wegwijzers van een alinea: ze zeggen of er een voordeel, "
+                    "een nadeel of een gevolg komt.",
+             waarom=[
+                 None,
+                 "Cependant betekent nochtans: het kondigt altijd een tegenstelling aan, dus hier het nadeel.",
+                 None,
+                 "Cette limite verwijst terug naar het cijfer dat er net voor staat. Een verwijswoord "
+                 "opzoeken doe je altijd in de zin ervoor.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-franstalige-wereld-omgangsvormen-en-gewoontes-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je twee dingen af: ken ik deze persoon, en sta ik in een formele situatie. Bij "
+                    "twijfel is vous altijd de veilige keuze.",
+             waarom=[
+                 "Let op de laatste twee: vous kan ook gewoon meervoud zijn tegen twee vrienden, en op een "
+                 "forum tutoyeert bijna iedereen.",
+                 None,
+                 "Dat is de vaste omgangsvorm: wie begint met tu, geeft daarmee toestemming. Zelf beginnen "
+                 "tegen iemand ouder doe je niet.",
+             ]),
+        dict(aanpak="Deze uitdrukkingen leer je als geheel, niet woord per woord. Ze komen op elk "
+                    "spreekexamen terug.",
+             waarom=[
+                 "Je voudrais is de beleefde vorm van je veux. Met je veux klink je in het Frans eisend.",
+                 None,
+             ]),
+        dict(aanpak="Het Frans is een wereldtaal, niet enkel de taal van Frankrijk. Onthoud van elk "
+                    "werelddeel minstens één voorbeeld.",
+             waarom=[
+                 None, None, None,
+                 "Septante en nonante zijn Belgisch en Zwitsers, soixante-dix en quatre-vingt-dix Frans. "
+                 "Huitante hoort enkel in Zwitserland.",
+             ]),
+        dict(aanpak="Gewoontes zijn examenstof zoals de grammatica: ze komen terug in de spreek- en "
+                    "schrijftaken over een bezoek of een uitwisseling.",
+             waarom=[
+                 None, None, None,
+                 "Te vroeg komen is in Frankrijk onhandig, want de gastheer is dan nog niet klaar. Een "
+                 "kwartiertje later is de gewoonte.",
+                 "De kaas komt in Frankrijk vóór het dessert, anders dan bij ons.",
+             ]),
+        dict(aanpak="Beleefder maken doe je in het Frans met drie middelen: de voorwaardelijke wijs "
+                    "(pourriez-vous, je voudrais), een s'il vous plaît, en een excuses vooraf.",
+             waarom=[
+                 None, None,
+                 "Iemand rechtstreeks tegenspreken doe je in het Frans met een verzachting: je ne suis pas "
+                 "tout à fait d'accord in plaats van c'est faux.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-schrijven-schriftelijke-interactie-en-leesbeleving-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="De aanhef hangt af van twee dingen: ken je de naam, en is het formeel. Ken je de naam "
+                    "niet, dan is het Madame, Monsieur, zonder meer.",
+             waarom=[
+                 "Let op het slot: cordialement is het gewone formele slot, veuillez agréer is het zeer "
+                 "formele. Bises schrijf je enkel aan vrienden.",
+                 "Cher of chère gebruik je alleen bij iemand die je kent. Bij een onbekende is dat te "
+                 "familiair.",
+             ]),
+        dict(aanpak="Een mail van zestig woorden heeft drie delen: wat er gebeurd is, wat het probleem is, "
+                    "en wat je vraagt. Zet een aanhef en een slotformule rond dat geheel.",
+             waarom=[
+                 "Het verschil tussen punten en geen punten zit in de derde stap: zeg uitdrukkelijk wat je "
+                 "wil, en vraag een antwoord. Een klacht zonder vraag is geen klacht.",
+                 "Een bericht aan een vriend heeft dezelfde drie delen, maar in spreektaal: bedanken, "
+                 "uitleggen, iets anders voorstellen.",
+             ]),
+        dict(aanpak="Schrijftaal is in het Frans iets heel anders dan spreektaal. Drie vaste ingrepen: de "
+                    "ne terug, je veux wordt je voudrais, en een vraag met pourriez-vous.",
+             waarom=[
+                 "In gesproken Frans valt de ne weg. Op papier zet je ze er altijd terug.",
+                 None,
+                 "C'est nul is een gevoel, geen klacht. Zeg wat je vindt en wat je wil, in plaats van een "
+                 "oordeel.",
+                 "Faut que is spreektaal; schrijf il faut que. Zet ook het uur voluit.",
+             ]),
+        dict(aanpak="Loop je eigen tekst na op vier dingen in deze volgorde: de werkwoordsvorm, het "
+                    "geslacht van het naamwoord, de overeenkomst van het deelwoord, en de ontkenning.",
+             waarom=[
+                 "Na avoir komt het voltooid deelwoord: pris, niet prendre.",
+                 "Musée is mannelijk, al eindigt het op -e. Daar struikelt bijna iedereen over.",
+                 "Bij être komt het deelwoord overeen met het onderwerp: elle est arrivée.",
+                 "In een ontkenning wordt du, de la en des altijd de: pas de viande.",
+                 "Que plus il wordt qu'il. En na een verleden tijd in de hoofdzin komt de conditionnel: "
+                 "viendrait in plaats van viendra.",
+             ]),
+        dict(aanpak="Bij leesbeleving vraagt men niet wat er staat maar wat het met je doet, én waaraan je "
+                    "dat merkt. Dat tweede deel is waar de punten zitten.",
+             waarom=[
+                 "Een gevoel noemen is de helft; het andere halve punt zit in het detail uit de tekst dat "
+                 "het laat zien.",
+                 None, None,
+                 "Een mening in het Frans mag kort zijn, maar de reden met parce que moet erbij staan.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordvelden-mens-gezondheid-en-het-dagelijkse-leven-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Leer een Frans naamwoord altijd met zijn lidwoord erbij. Zonder dat lidwoord weet je "
+                    "later het geslacht niet meer, en dan loopt het bijvoeglijk naamwoord mis.",
+             waarom=[
+                 "Épaule is vrouwelijk, al staat er l' voor. Dat kan je niet horen, dus moet je het leren.",
+                 "Le cœur is enkelvoud, les poumons meervoud. Longen zijn er twee, dus altijd meervoud.",
+             ]),
+        dict(aanpak="Pijn zeg je in het Frans met avoir mal à, en dan smelt à samen met het lidwoord: à la "
+                    "gorge, au dos, aux dents.",
+             waarom=[
+                 None,
+                 "Enrhumé is een bijvoeglijk naamwoord, dus je gebruikt être. Bij een meisje komt er een "
+                 "tweede e bij.",
+                 "Koorts is in het Frans een hoeveelheid: de la fièvre, niet la fièvre.",
+                 "Depuis betekent sinds en antwoordt op depuis quand. Pendant zou de duur zijn.",
+                 None, None,
+             ]),
+        dict(aanpak="Na een maat of een hoeveelheid komt in het Frans de, zonder lidwoord. Dat is één regel "
+                    "die je in deze hele reeks kan toepassen.",
+             waarom=[None, None, None]),
+        dict(aanpak="Een bijvoeglijk naamwoord past zich aan in geslacht en getal. Op drie kleuren na: "
+                    "marron, orange en kleuren met twee woorden blijven gelijk.",
+             waarom=[
+                 "Let op gris: dat eindigt al op -s, dus in het mannelijk enkelvoud verandert er niets.",
+                 None, None,
+             ]),
+        dict(aanpak="Bij een gatentekst lees je eerst de hele tekst door. Pas als je weet waarover hij "
+                    "gaat, vul je de gaten in.",
+             waarom=[
+                 "Se lever is wederkerend: elle se lève. Prendre une douche is vast, net als prendre le bus.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordvelden-school-werk-reizen-en-de-samenleving-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Deze woorden heb je nodig zodra je over je eigen school praat, en dat is in bijna elke "
+                    "spreektaak het eerste onderwerp.",
+             waarom=[
+                 None,
+                 "Rater betekent zowel buizen als missen, bijvoorbeeld een trein. De zin eromheen zegt "
+                 "welke van de twee.",
+             ]),
+        dict(aanpak="Een sollicitatie draait om drie dingen: wat je al deed, wat je kan, en wanneer je vrij "
+                    "bent. Zeg die drie altijd met een concreet voorbeeld erbij.",
+             waarom=[
+                 None, None, None,
+                 "Een eigenschap zonder voorbeeld zegt niets. Noem dus wat je al deed, niet enkel dat je "
+                 "vriendelijk bent.",
+                 None,
+             ]),
+        dict(aanpak="Aan een loket of een balie gebruik je altijd je voudrais plus s'il vous plaît. Dat is "
+                    "de vaste vorm, ook voor een vraag die eigenlijk een bevel is.",
+             waarom=[
+                 None, None, None,
+                 "Le quai is het perron. Het loket is le guichet.",
+             ]),
+        dict(aanpak="Voor een mening in het Frans heb je twee bouwstenen nodig: een inleiding (à mon avis, "
+                    "je pense que) en een reden (parce que).",
+             waarom=[None, None, None]),
+        dict(aanpak="Bij een advertentie lees je gericht: wat moet je doen, wanneer, voor wie, en tegen "
+                    "wanneer melden. Reken de uren zelf na.",
+             waarom=[
+                 "De pauze moet eraf. Een advertentie geeft het begin- en het einduur, de pauze staat er "
+                 "los bij.",
+                 None, None, None,
+                 "Begin een sollicitatiemail met waar je de vacature zag. Dan weet de werkgever meteen "
+                 "waarover het gaat.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-zelfstandige-naamwoorden-lidwoorden-en-determinanten-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Het lidwoord verraadt het geslacht. Begint het woord met een klinker, dan zie je dat "
+                    "niet meer, en dan moet je het geleerd hebben.",
+             waarom=[
+                 "Problème is mannelijk ondanks de -e, liberté vrouwelijk. Woorden op -té zijn bijna altijd "
+                 "vrouwelijk.",
+                 None,
+             ]),
+        dict(aanpak="Drie soorten: bepaald als het bekend is, onbepaald als het er één van vele is, delend "
+                    "als het een onbepaalde hoeveelheid is (du, de la, de l', des).",
+             waarom=[
+                 "Na een ontkenning verdwijnt het delend lidwoord: pas d'argent, niet pas de l'argent.",
+                 None, None,
+             ]),
+        dict(aanpak="De meeste woorden krijgen -s. De uitzonderingen zijn -al dat -aux wordt, -eau dat "
+                    "-eaux wordt, en wat al op s, x of z eindigt.",
+             waarom=[
+                 "Œil is volledig onregelmatig: des yeux. Travail wordt travaux, net als journal.",
+                 None,
+                 "Professeur krijgt in het Frans van vandaag een -e in het vrouwelijk. Élève is voor "
+                 "allebei hetzelfde woord, alleen het lidwoord verandert.",
+             ]),
+        dict(aanpak="Het bezittelijk voornaamwoord volgt het dìng, niet de bezitter: sa voiture gaat over "
+                    "de auto, die vrouwelijk is, niet over wie hem bezit.",
+             waarom=[None, None, None]),
+        dict(aanpak="Tout past zich aan aan wat erachter komt, chaque nooit. En een rangtelwoord maak je "
+                    "met -ième, behalve de eerste.",
+             waarom=[
+                 "Tout le monde blijft tout, want monde is mannelijk enkelvoud. Premier is het enige "
+                 "rangtelwoord dat geen -ième krijgt.",
+                 None,
+                 "Bij neuf valt de f weg: neuvième, niet neufième.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-voornaamwoorden-cod-coi-y-en-en-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag qui of quoi na het werkwoord: past dat, dan is het een COD. Moet je à qui of à "
+                    "quoi vragen, dan is het een COI.",
+             waarom=[
+                 "Téléphoner, parler en répondre krijgen in het Frans altijd à. In het Nederlands hoor je "
+                 "dat niet, dus daar gaat het mis.",
+                 None,
+                 "Je téléphone à quelqu'un: dus een COI, en daarom lui of leur, nooit le of la.",
+             ]),
+        dict(aanpak="COD wordt le, la of les. COI wordt lui of leur. Een plaats wordt y, een hoeveelheid of "
+                    "iets met de wordt en.",
+             waarom=[
+                 None, None, None, None, None,
+                 "Bij en blijft het getal staan: j'en ai trois. Het voornaamwoord vervangt alleen frères.",
+                 "Ook na een ontkenning komt en op zijn plaats vóór het werkwoord: je n'en mange pas.",
+             ]),
+        dict(aanpak="Het voornaamwoord staat vóór het werkwoord, op één geval na: een bevestigend bevel. "
+                    "Daar komt het erachter met een streepje.",
+             waarom=[
+                 None,
+                 "In de passé composé staat het voornaamwoord vóór avoir, niet vóór het deelwoord.",
+                 "In een bevestigend bevel wordt me ook moi: donne-le-moi.",
+                 None,
+                 "Bij twee werkwoorden hoort het voornaamwoord bij het werkwoord waar het bij past, dus "
+                 "vóór de infinitief: allons y aller.",
+                 None,
+             ]),
+        dict(aanpak="Met être gaat het deelwoord mee met het onderwerp. Met avoir gaat het alleen mee als "
+                    "het lijdend voorwerp vóór het werkwoord staat.",
+             waarom=[
+                 "Les lettres en la porte staan als voornaamwoord vóór avoir, dus gaat het deelwoord mee. "
+                 "In nous avons vu le film staat het erachter, dus niet.",
+                 None,
+             ]),
+        dict(aanpak="Moi, toi, lui, elle, nous, vous, eux en elles zijn de vormen die alleen kunnen staan: "
+                    "na een voorzetsel, in een c'est-zin of als antwoord.",
+             waarom=[
+                 "Ce livre est à moi gaat over bezit met à; le mien is het bezittelijk voornaamwoord dat "
+                 "alleen staat. Beide zijn juist.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-bijvoeglijke-naamwoorden-bijwoorden-en-de-trappen-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Zoek eerst het naamwoord: geslacht en getal daarvan bepalen de uitgang. Let op de "
+                    "groepen -eux dat -euse wordt, -f dat -ve wordt, en -eau dat -elle wordt.",
+             waarom=[
+                 "Neuf wordt neuve: de f wordt een v. Vieux blijft in het mannelijk gelijk, want het "
+                 "eindigt al op x.",
+                 "Beau, nouveau en vieux hebben een extra vorm voor een mannelijk woord met een klinker: "
+                 "bel, nouvel, vieil.",
+                 None,
+             ]),
+        dict(aanpak="De meeste bijvoeglijke naamwoorden staan in het Frans achter het naamwoord. Een kleine "
+                    "groep korte, veel gebruikte staat ervoor.",
+             waarom=[
+                 "Kleuren, nationaliteiten en lange woorden staan altijd achteraan. Grand, jeune en bon "
+                 "horen bij de kleine groep die vooraan staat.",
+                 None,
+                 "Bij een paar woorden verandert de plaats de betekenis. Vooraan is het figuurlijk, "
+                 "achteraan letterlijk.",
+             ]),
+        dict(aanpak="De gewone regel: neem de vrouwelijke vorm en zet -ment erachter. Woorden op -ant en "
+                    "-ent worden -amment en -emment.",
+             waarom=[
+                 "Vrai wordt vraiment zonder e, want de vrouwelijke vorm klinkt hetzelfde. Bon is "
+                 "onregelmatig: bien.",
+                 None,
+                 "Het bijwoord bij bon is bien. Bonnement bestaat alleen in de vaste uitdrukking tout "
+                 "bonnement.",
+             ]),
+        dict(aanpak="Vergelijken doe je met plus, moins of aussi, en altijd que erachter. Bon en bien "
+                    "hebben hun eigen vorm: meilleur en mieux.",
+             waarom=[
+                 None,
+                 "Que wordt qu' voor een klinker: qu'une voiture.",
+                 None,
+                 "Meilleur is het bijvoeglijk naamwoord bij bon, dus het hoort bij restaurant.",
+                 "Mieux is het bijwoord bij bien, dus het hoort bij travaille. Dat is het verschil met "
+                 "meilleur.",
+                 None,
+             ]),
+        dict(aanpak="Loop de zin na op drie dingen: klopt het geslacht, klopt que in een vergelijking, en "
+                    "staat het bijwoord op zijn plaats.",
+             waarom=[
+                 "Film is mannelijk, dus un film intéressant. De uitgang van het bijvoeglijk naamwoord "
+                 "volgt dat.",
+                 "Vergelijken gaat met que, niet met comme. Comme betekent zoals of als in een gelijkenis.",
+                 "Staat een bijvoeglijk naamwoord vóór een meervoudig naamwoord, dan wordt des tot de: de "
+                 "grandes maisons.",
+                 "Bij een werkwoord hoort een bijwoord: il parle bien. En het bijwoord komt vóór het "
+                 "lijdend voorwerp.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-present-imperatif-en-de-wederkerende-werkwoorden-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Kijk eerst naar de uitgang van de infinitief: -er is de eerste groep, -ir de tweede, "
+                    "-re de derde. Elke groep heeft zijn eigen rij uitgangen.",
+             waarom=[
+                 "Let op choisir en finir: in het enkelvoud -is, -is, -it, maar in het meervoud komt er "
+                 "-iss- tussen.",
+                 None,
+             ]),
+        dict(aanpak="De onregelmatige werkwoorden zijn precies de werkwoorden die je het vaakst nodig hebt. "
+                    "Leer ze in de volle rij, niet per vorm.",
+             waarom=[
+                 None,
+                 "Dites is onregelmatig: vous dites, niet vous disez. Faites en êtes horen in dezelfde "
+                 "kleine groep.",
+             ]),
+        dict(aanpak="De gebiedende wijs is de vervoegde vorm zonder het voornaamwoord. Bij -er valt de "
+                    "slot-s weg in de tu-vorm.",
+             waarom=[
+                 "Être en avoir hebben een eigen vorm: sois, soyons, soyez en aie, ayons, ayez.",
+                 None,
+                 "Een verbod is ne … pas rond het bevel: n'arrive pas.",
+             ]),
+        dict(aanpak="Bij een wederkerend werkwoord verandert niet alleen het werkwoord maar ook het "
+                    "voornaamwoord ervoor: me, te, se, nous, vous, se.",
+             waarom=[
+                 "Se lever krijgt een accent in het enkelvoud: je me lève, maar nous nous levons.",
+                 None,
+                 "In de ontkenning staat ne vóór het voornaamwoord: elle ne se dépêche pas.",
+                 "In een bevestigend bevel komt het voornaamwoord erachter en wordt te tot toi: lève-toi.",
+             ]),
+        dict(aanpak="Zoek bij elke leegte eerst het onderwerp, en vervoeg daarna. De infinitief staat er bij "
+                    "deze oefening al, dus de vraag is alleen de vorm.",
+             waarom=[
+                 "Boire en venir zijn onregelmatig: nous buvons, il vient. Préférer krijgt een accent grave "
+                 "in het enkelvoud: elle préfère.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-passe-compose-imparfait-en-plus-que-parfait-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je eerst af welk hulpwerkwoord erbij hoort. Met être gaat het deelwoord mee met "
+                    "het onderwerp, met avoir meestal niet.",
+             waarom=[
+                 "Elle est allée krijgt een e, ils sont venus een s: bij être gaat het deelwoord mee. Bij "
+                 "avoir blijft het gelijk.",
+                 None,
+             ]),
+        dict(aanpak="De onregelmatige deelwoorden moet je uit het hoofd kennen; er zit geen regel in. Leer ze "
+                    "per groepje met dezelfde uitgang.",
+             waarom=[None, None]),
+        dict(aanpak="De imparfait is het decor: hoe het was, wat gewoonlijk gebeurde, wat bezig was. De passé "
+                    "composé is wat er dan gebeurde: één feit dat af is.",
+             waarom=[
+                 "Toute la journée lijkt op een duur, maar de dag is af: het is één afgeronde gebeurtenis.",
+                 None,
+                 "Lisait is de achtergrond, a sonné is wat erin gebeurde. Dat is het klassieke paar.",
+                 "Chaque été wijst op een gewoonte, en een gewoonte staat altijd in de imparfait.",
+                 "Soudain is het signaalwoord van de passé composé. Let op het deelwoord: s'éteindre is "
+                 "wederkerend, dus être en een e erbij.",
+                 None,
+             ]),
+        dict(aanpak="Lees het hele verhaal eerst door. Zet daarna het decor in de imparfait en de "
+                    "gebeurtenissen in de passé composé.",
+             waarom=[
+                 "De eerste drie zijn decor, de laatste vier zijn wat er gebeurde. Est arrivée krijgt être "
+                 "en een e, want het gaat over een zij.",
+             ]),
+        dict(aanpak="De plus-que-parfait is het hulpwerkwoord in de imparfait plus het deelwoord: j'avais fait, "
+                    "j'étais parti.",
+             waarom=[
+                 "Partir neemt être, dus était parti. Déjà staat tussen het hulpwerkwoord en het deelwoord.",
+                 None,
+                 "In een ontkenning staat ne … pas rond het hulpwerkwoord: nous n'avions pas réservé.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-futur-conditionnel-en-subjonctif-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="De futur proche is aller plus de infinitief. De futur simple is de infinitief plus -ai, "
+                    "-as, -a, -ons, -ez, -ont.",
+             waarom=[
+                 "Être, avoir, aller en faire hebben een eigen stam: ser-, aur-, ir-, fer-. De uitgangen "
+                 "blijven wel dezelfde.",
+                 None,
+             ]),
+        dict(aanpak="Ken je de stam van de futur, dan ken je ook de conditionnel. Dat zijn twee tijden voor "
+                    "de prijs van één rij.",
+             waarom=[None, None]),
+        dict(aanpak="De conditionnel doet vier dingen: beleefd vragen, een wens uiten, het gevolg van een "
+                    "voorwaarde geven, en een onzeker bericht melden.",
+             waarom=[
+                 "Je voudrais is de beleefde vorm van je veux. Dat is de meest gebruikte conditionnel van "
+                 "het Frans.",
+                 None,
+                 "Na si komt de imparfait en in de hoofdzin de conditionnel. Nooit twee keer de conditionnel.",
+                 "Een bericht uit tweede hand zet het Frans in de conditionnel: le pont fermerait betekent "
+                 "dat het zo gezegd wordt, niet dat het zeker is.",
+                 None,
+             ]),
+        dict(aanpak="De subjonctif komt na een wil, een gevoel, een twijfel of een noodzaak. Na een zeker "
+                    "weten komt hij niet.",
+             waarom=[
+                 "Je pense que en j'espère que geven iets dat je voor waar houdt, dus geen subjonctif. Bien "
+                 "que geeft een toegeving, en die vraagt hem wel.",
+                 None,
+                 "Aller, faire, pouvoir en savoir hebben een eigen subjonctifstam: aille, fasse, puisse, "
+                 "sache.",
+             ]),
+        dict(aanpak="Deze taak toetst of je de drie tijden door elkaar kan gebruiken. Schrijf eerst wat je "
+                    "wil zeggen, en zet er dan de gevraagde vormen in.",
+             waarom=[
+                 "Il faut que vraagt een subjonctif: que je réussisse. Dat is precies waar deze taak naar "
+                 "kijkt.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-soorten-zinnen-bijzinnen-en-si-zinnen-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Drie manieren, van spreektaal naar schrijftaal: alleen de stem omhoog, est-ce que ervoor, "
+                    "of het onderwerp achter het werkwoord.",
+             waarom=[
+                 None,
+                 "Bij omkering met il, elle of on komt er na een klinker een -t- bij: habite-t-elle.",
+                 None,
+             ]),
+        dict(aanpak="De ontkenning bestaat in het Frans uit twee delen: ne vóór het werkwoord en pas, plus, "
+                    "jamais, rien, personne of que erachter.",
+             waarom=[
+                 "Let op plus de viande: na een ontkenning wordt de la gewoon de. En ne … que betekent niet "
+                 "ontkennen maar beperken: alleen.",
+                 None,
+             ]),
+        dict(aanpak="Kijk welke rol het herhaalde woord in de tweede zin speelt: onderwerp wordt qui, lijdend "
+                    "voorwerp wordt que, een plaats of tijd wordt où, iets met de wordt dont.",
+             waarom=[
+                 None,
+                 "Que is hier lijdend voorwerp van ai acheté, dus que en niet qui. Het werkwoord dat erachter "
+                 "komt, verraadt het.",
+                 None,
+                 "Parler de wordt dont. Daarom moet je bij elk werkwoord weten of het de bij zich heeft.",
+                 None,
+             ]),
+        dict(aanpak="De si-zin heeft drie vaste patronen. Welk je neemt, hangt af van hoe waarschijnlijk het "
+                    "is: mogelijk, niet echt zo, of te laat.",
+             waarom=[
+                 None, None,
+                 "Bij het derde patroon staat er twee keer een voltooide vorm: étions partis en aurions raté. "
+                 "Dat gaat over iets dat niet meer kan.",
+                 "Na si komt een tegenwoordige of een verleden tijd, nooit een futur. De futur hoort in de "
+                 "hoofdzin.",
+             ]),
+        dict(aanpak="Loop de zin na op drie dingen: één vraagvorm per zin, één ontkennend woordje naast ne, "
+                    "en de juiste tijd na si.",
+             waarom=[
+                 "Est-ce que en de omkering zijn twee manieren voor dezelfde vraag; je gebruikt er één.",
+                 "Personne is zelf al het tweede deel van de ontkenning, dus pas valt weg.",
+                 None,
+                 "Qui of que hangt af van de rol: hier is le livre het lijdend voorwerp van ai lu, dus que.",
+                 "In de passé composé komt rien tussen het hulpwerkwoord en het deelwoord: il n'a rien vu.",
+             ]),
+    ],
+)
