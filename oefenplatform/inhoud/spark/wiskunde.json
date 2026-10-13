@@ -35,11 +35,11 @@
           "opties": [
             "\\(4\\)",
             "\\(-3\\)",
-            "\\(13\\)",
+            "\\(3\\)",
             "Geen van deze antwoorden"
           ],
-          "antwoord": 3,
-          "uitleg": "Je begint bij \\(-5\\) en gaat \\(8\\) naar rechts. Je passeert de nul en komt op \\(3\\) uit, en dat getal staat er niet bij."
+          "antwoord": 2,
+          "uitleg": "Je begint bij \\(-5\\) en gaat \\(8\\) naar rechts. Je passeert de nul en komt op \\(3\\) uit."
         },
         {
           "type": "meerkeuze",
@@ -88,11 +88,11 @@
           "opties": [
             "\\(-4\\)",
             "\\(-12\\)",
-            "\\(-8\\)",
+            "\\(12\\)",
             "Geen van deze antwoorden"
           ],
-          "antwoord": 3,
-          "uitleg": "Min maal min geeft plus, dus \\(-6 \\cdot -2 = 12\\). Dat getal staat er niet bij, en net die regel gaat het vaakst fout."
+          "antwoord": 2,
+          "uitleg": "Min maal min geeft plus, dus \\(-6 \\cdot -2 = 12\\). Net die regel gaat het vaakst fout: \\(-12\\) staat er als valstrik bij."
         },
         {
           "type": "waarofniet",
