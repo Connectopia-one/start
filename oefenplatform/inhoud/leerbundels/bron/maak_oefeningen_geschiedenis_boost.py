@@ -1288,3 +1288,697 @@ OEFENBUNDELS["oefenbundel-beeldvorming-en-het-verleden-vandaag-boost-doorstroom"
              ]),
     ],
 )
+
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-het-historisch-referentiekader-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Zoek bij elke gebeurtenis eerst het jaartal, en leg dat dan naast de grenzen van de "
+                    "zeven periodes. Zonder jaartal kan je niet indelen.",
+             waarom=[
+                 "De piramide van Cheops hoort niet bij de prehistorie: er was al schrift in Egypte, en "
+                 "daarmee begint de geschiedenis.",
+                 "De spoorlijn Brussel-Mechelen van 1835 valt in de moderne tijd, die in 1789 begint. De "
+                 "hedendaagse tijd rekent men pas vanaf 1945.",
+             ]),
+        dict(aanpak="Chronologie is volgorde: wat kwam eerst. Periodisering is indelen: aan een stuk tijd "
+                    "een naam en grenzen geven.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Twee jaartallen na Christus trek je gewoon van elkaar af. Voor een eeuw deel je door "
+                    "honderd en rond je naar boven af, behalve bij een rond honderdtal.",
+             waarom=[
+                 "1302 zit in de 14de eeuw, maar 1600 in de 16de: een rond honderdtal is het laatste jaar "
+                 "van zijn eeuw, niet het eerste van de volgende.",
+                 None,
+             ]),
+        dict(aanpak="Vier van de zes begrippen gaan over tijd: continuïteit en verandering tegenover "
+                    "elkaar, evolutie (langzaam) tegenover revolutie (snel). Gelijktijdigheid en "
+                    "ongelijktijdigheid gaan over twee plaatsen tegelijk.",
+             waarom=[
+                 "Het verschil tussen evolutie en revolutie is het tempo, niet de omvang: een taal groeit "
+                 "stilaan, een stoommachine slaat in.",
+                 "Ongelijktijdigheid betekent dat dezelfde ontwikkeling elders vroeger of later gebeurt. "
+                 "Gelijktijdigheid is dat twee verschillende dingen samenvallen.",
+             ]),
+        dict(aanpak="De vier domeinen zijn politiek (macht), economisch (geld en werk), sociaal (groepen en "
+                    "hun verhouding) en cultureel (geloof, kunst, denken). Bijna elke gebeurtenis raakt "
+                    "er meer dan één.",
+             waarom=[
+                 "De punten op een examen zitten in de uitleg, niet in het woord. Zeg dus altijd waarom je "
+                 "dat domein kiest.",
+             ]),
+        dict(aanpak="Het schaalniveau is de grootte van het gebied waar je naar kijkt, niet het belang van "
+                    "wat er gebeurt.",
+             waarom=[
+                 None,
+                 "Ruraal betekent op het platteland. Urbaan is in de stad.",
+                 "Daarom gebruik je voor een historische vraag ook een historische kaart: de grenzen van nu "
+                 "bestonden toen niet.",
+             ]),
+        dict(aanpak="Een periodegrens is een keuze van historici, geen feit. Je verdedigt een keuze dus met "
+                    "argumenten, en je mag ook zeggen dat een andere keuze net zo goed verdedigbaar is.",
+             waarom=[
+                 None,
+                 "Noem bij elke beperking een voorbeeld: zonder voorbeeld blijft het een slogan en levert "
+                 "het geen punten op.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-van-rome-naar-de-franken-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je af van wie de oorzaak uitgaat: ligt ze binnen de groep waarover de vraag "
+                    "gaat, of komt ze van buiten. Let dus goed op of de vraag over Rome of over de "
+                    "migraties gaat.",
+             waarom=[
+                 None, None,
+                 "Dezelfde gebeurtenis kan intern of extern zijn, afhankelijk van wie je in het midden "
+                 "zet. Bevolkingsgroei bij de Germanen is intern voor de migraties, maar extern voor Rome.",
+                 None,
+             ]),
+        dict(aanpak="Zet eerst de jaartallen die je zeker kent, en vul de rest daartussen in. Zo kom je "
+                    "ook aan de volgorde van wat je niet precies weet.",
+             waarom=[
+                 "Let op het paar 751 en 800: Pepijn wordt eerst koning gezalfd, zijn zoon Karel wordt "
+                 "pas later keizer gekroond.",
+             ]),
+        dict(aanpak="Deze woorden hangen allemaal aan het Frankische bestuur. Leer ze met wat ze deden, "
+                    "niet enkel met hun naam.",
+             waarom=[
+                 "Een hofmeier was eigenlijk de rentmeester van het hof, maar hij werd zo machtig dat zijn "
+                 "familie uiteindelijk zelf koning werd. Dat is de overgang van Merovingers naar "
+                 "Karolingers.",
+                 "De vadsige koningen is een spotnaam uit latere bronnen. Hij komt van wie de macht "
+                 "overnam, dus hij is geen neutrale beschrijving.",
+             ]),
+        dict(aanpak="Zoek bij elke bewering het woordje dat ze juist of fout maakt: altijd, nauwelijks, "
+                    "duizend jaar. Dat ene woord beslist.",
+             waarom=[
+                 "Het Oost-Romeinse Rijk, later Byzantium, hield stand tot 1453. Dat is het jaartal dat je "
+                 "ook bij de periodegrens tegenkomt.",
+                 "Het Frankische erfrecht verdeelde het rijk onder álle zonen. Juist daardoor viel het "
+                 "telkens uiteen.",
+                 "De Karolingische renaissance speelde aan het hof en in de kloosters: boeken, scholen, "
+                 "schrift. Op het domein veranderde er weinig.",
+                 "De Mongolen kwamen pas in de 13de eeuw, en tot in Hongarije. In de 9de eeuw waren het de "
+                 "Noormannen, Saracenen en Hongaren.",
+                 None,
+             ]),
+        dict(aanpak="Een gevolg schrijf je als een volle zin: wat verandert er voor wie. Alleen het woord "
+                    "verzwakking opschrijven levert geen punt op.",
+             waarom=[
+                 None,
+                 "Dit is de kern van het ontstaan van het feodale stelsel: de verre koning kan niet "
+                 "beschermen, de nabije heer wel.",
+                 "Clovis koos niet het arianisme maar het katholieke geloof van de bevolking die hij "
+                 "wilde besturen. Dat was een politieke zet, geen louter religieuze.",
+             ]),
+        dict(aanpak="Bij een bron stel je altijd drie vragen: wie schrijft, voor wie, en wat wil die "
+                    "bereiken. Verwijs in je antwoord naar een stuk uit de tekst.",
+             waarom=[
+                 None,
+                 "Het verschil tussen een vaststelling en een oordeel is waar bronkritiek over gaat. Citeer "
+                 "dus een woord waarin het oordeel zit.",
+                 None,
+             ]),
+        dict(aanpak="Vergelijken vraagt altijd twee dingen: een gelijkenis én een verschil, elk met een "
+                    "voorbeeld. Eén van de twee geven is een half antwoord.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-standen-domein-en-stad-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="De standenleer deelt in naar taak: bidden, strijden, werken. Zet bij elke stand die "
+                    "taak én wie erin zat.",
+             waarom=[
+                 "Let op dat de koning bij de adel hoort en de bisschop bij de geestelijkheid, ook al "
+                 "waren het de machtigste mensen van allemaal.",
+                 None,
+             ]),
+        dict(aanpak="Het verschil tussen een horige en een slaaf is de kern van deze reeks: een horige was "
+                    "niet vrij, maar hij was ook geen bezit.",
+             waarom=[
+                 None,
+                 "Een horige kon niet verkocht worden en had rechten op zijn stuk land. Hij hoorde bij het "
+                 "domein, niet bij de heer persoonlijk.",
+                 None, None,
+                 "Dat heet een banrecht: de heer had het alleenrecht op de molen, de oven en de "
+                 "wijnpers, en liet zich daarvoor betalen.",
+             ]),
+        dict(aanpak="Elke vernieuwing lost één probleem op. Zeg bij elke naam welk probleem dat was, dan "
+                    "onthoud je ze.",
+             waarom=[
+                 None,
+                 "Zet de stappen echt op een rij: overschot, markt, bevolkingsgroei, vrijkomende handen, "
+                 "stad. Een examen vraagt de ketting, niet enkel het begin en het einde.",
+             ]),
+        dict(aanpak="Een stad ontstond waar drie dingen samenkwamen: genoeg voedsel, genoeg veiligheid en "
+                    "een goede ligging. Noem bij elke factor een voorbeeld.",
+             waarom=[
+                 None, None, None,
+                 "Ambacht en gilde worden door elkaar gebruikt; in Vlaanderen zei men meestal ambacht.",
+                 "Vergeet de laatste stap niet: zonder geld voor een eigen werkplaats bleef je gezel, hoe "
+                 "goed je ook was. Daarom kwamen zonen van meesters er veel makkelijker in.",
+             ]),
+        dict(aanpak="Vrijheid en gelijkheid zijn niet hetzelfde. De stadslucht maakte vrij van horigheid, "
+                    "maar binnen de muren was de ongelijkheid groot.",
+             waarom=[
+                 "Een poorter was een inwoner met stadsrechten, een patriciër een rijke koopman uit het "
+                 "bestuur. Niet elke poorter was dus een patriciër.",
+                 None, None,
+             ]),
+        dict(aanpak="Leg de loonstijging na de pest uit met vraag en aanbod: minder aanbod van arbeid bij "
+                    "evenveel vraag betekent een hogere prijs.",
+             waarom=[None, None]),
+        dict(aanpak="Noem bij een vraag over domeinen altijd het hoofddomein eerst en dan het tweede, met "
+                    "bij elk een reden.",
+             waarom=[
+                 None,
+                 "Stad en platteland hadden elkaar nodig: de stad at het graan van het platteland, het "
+                 "platteland kocht het laken en het ijzerwerk van de stad.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-geloof-kunst-en-macht-in-de-middeleeuwen-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="De Kerk was in de middeleeuwen niet alleen een geloof maar ook een bestuur, met een "
+                    "eigen hiërarchie, eigen gebieden en eigen inkomsten.",
+             waarom=[
+                 None,
+                 "Let op wat er níét bij hoort: munten slaan was een vorstelijk recht, geen kloosterwerk. "
+                 "Zo'n val zit vaker in een examenvraag.",
+                 "Dit heet bekering van boven naar onder. Het verklaart waarom missionarissen altijd eerst "
+                 "naar het hof trokken.",
+             ]),
+        dict(aanpak="Onthoud één sleutelwoord per stijl: de romaanse rondboog tegenover de gotische "
+                    "spitsboog. Al de rest volgt daaruit.",
+             waarom=[
+                 None, None,
+                 "De luchtboog is het kenmerk waarmee je de gotiek van buiten herkent: je ziet de steunen "
+                 "tegen de muur staan.",
+                 None,
+                 "Het verschil zit in de bouwtechniek, niet in de smaak. Pas als de muur niet meer alles "
+                 "hoeft te dragen, kan er glas in.",
+             ]),
+        dict(aanpak="Middeleeuwse kunst lees je niet als een foto maar als een boodschap: grootte, plaats en "
+                    "kleur betekenen iets.",
+             waarom=[
+                 None,
+                 "Primitief betekent hier vroeg, niet onbekwaam. Het is een term uit de kunstgeschiedenis.",
+                 "Dit is het verschil met de renaissance, waar de grootte de afstand aangeeft. Twee "
+                 "manieren van kijken, geen betere en slechtere.",
+             ]),
+        dict(aanpak="Vergelijk de twee rijken op één vraag: wie beperkt de koning. In Engeland een "
+                    "parlement, in Frankrijk steeds minder iemand.",
+             waarom=[
+                 None, None,
+                 "De Magna Carta van 1215 beperkte de koning juist: hij moest de adel om toestemming "
+                 "vragen voor nieuwe belastingen.",
+             ]),
+        dict(aanpak="Bij de Guldensporenslag worden twee dingen door elkaar gehaald: wat er in 1302 "
+                    "gebeurde, en wat men er later van gemaakt heeft.",
+             waarom=[
+                 None, None,
+                 "Beeldvorming is een apart begrip op het examen: het verschil tussen het verleden en het "
+                 "beeld dat een latere tijd ervan maakt.",
+             ]),
+        dict(aanpak="Zet bij deze vragen altijd het tijdsverloop erbij: de islam ontstaat rond 600, de "
+                    "kruistochten beginnen in 1095. Daar zitten bijna vijf eeuwen tussen.",
+             waarom=[
+                 None,
+                 "De verspreiding duurde een eeuw en meer, met veroveringen, handel en bekering. Een rijk "
+                 "groeit niet in tien jaar.",
+                 "Dat is de reden waarom de Arabische wereld voor Europa zo belangrijk was: wat in het "
+                 "Westen verloren ging, bleef daar bewaard en vertaald.",
+                 "Noem ook wat er níét vandaan kwam: de boekdrukkunst met losse letters is van Gutenberg. "
+                 "Zo'n tegenvoorbeeld toont dat je de lijn echt kent.",
+                 "De kruisvaardersstaten hielden amper twee eeuwen. De blijvende gevolgen waren niet "
+                 "territoriaal maar economisch en cultureel.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-nieuwe-wereld-en-de-driehoekshandel-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="De drie motieven heten goud, God en glorie: economisch, godsdienstig en politiek. "
+                    "Bijna elke reis had ze alle drie, maar het economische woog zwaarst.",
+             waarom=[None, None]),
+        dict(aanpak="Zonder deze instrumenten was varen buiten het zicht van de kust onmogelijk. Daarom "
+                    "komt de techniek vóór de ontdekkingen, niet erna.",
+             waarom=[
+                 "De scheepsmotor hoort hier niet: die komt pas met de stoom in de 19de eeuw. Let op "
+                 "zulke anachronismen in een rij.",
+             ]),
+        dict(aanpak="Zet bij elke naam wat die deed, voor wie en wanneer. Eén van de vier hoort niet bij de "
+                    "ontdekkingsreizigers.",
+             waarom=[
+                 "Cortés veroverde het Aztekenrijk; hij ontdekte geen zeeweg. Veroveraar en "
+                 "ontdekkingsreiziger zijn twee rollen.",
+                 "Dit verschil verklaart ook waarom er in Brazilië en Spaans-Amerika een ander soort "
+                 "kolonie ontstond.",
+             ]),
+        dict(aanpak="Een demografische inzinking is een scherpe daling van de bevolking. Zoek altijd de "
+                    "voornaamste oorzaak, niet de meest zichtbare.",
+             waarom=[
+                 "De oorlogen vielen hard op, maar ziekten als pokken en mazelen doodden veruit het "
+                 "meeste. De bevolking had er geen weerstand tegen.",
+                 None, None,
+                 "Schrijf dit soort antwoord echt als een ketting van stappen. De punten zitten in de "
+                 "verbanden, niet in de losse feiten.",
+             ]),
+        dict(aanpak="De driehoekshandel onthoud je per been: wat ging er mee, en wat kwam er terug. Elk "
+                    "been leverde winst op.",
+             waarom=[
+                 None, None,
+                 "Deze vraag toetst of je domeinen kan verbinden. Een handelsstroom op een kaart gaat hier "
+                 "over mensen, dus ook over het sociale domein.",
+             ]),
+        dict(aanpak="Deze begrippen horen bij elkaar: het mercantilisme is het beleid, de manufactuur en de "
+                    "huisnijverheid zijn de productie, de compagnie is de financiering.",
+             waarom=[
+                 "Let op het verschil tussen huisnijverheid en manufactuur: thuis werken tegenover samen "
+                 "op één plaats onder toezicht. Dat tweede is de voorloper van de fabriek.",
+                 None, None,
+                 "Het mercantilisme wil juist het tegendeel: invoer afremmen met tolmuren en de uitvoer "
+                 "steunen, om edelmetaal binnen te houden.",
+             ]),
+        dict(aanpak="Deze vragen vragen naar continuïteit tot vandaag. Geef altijd een concreet voorbeeld, "
+                    "geen algemene zin.",
+             waarom=[
+                 None,
+                 "Dit is een vraag over woordgebruik: wie 'nieuw' zegt, kijkt met Europese ogen. Daarom de "
+                 "aanhalingstekens.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-humanisme-reformatie-renaissance-en-barok-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Het humanisme is een manier van denken, niet een geloof of een kunststijl. Houd die "
+                    "drie uit elkaar: humanisme denkt, renaissance beeldt, reformatie gelooft.",
+             waarom=[
+                 None,
+                 "De humanisten wilden de Kerk verbeteren, niet afschaffen. Erasmus bleef katholiek en nam "
+                 "uitdrukkelijk afstand van Luther.",
+                 None, None,
+                 "De boekdrukkunst is bij vrijwel elke vraag over deze eeuw het antwoord op waarom het nu "
+                 "wel lukte: snelheid en aantal.",
+             ]),
+        dict(aanpak="De breuk zit niet in wat men onderzocht maar in hoe: zelf waarnemen weegt zwaarder dan "
+                    "wat een oud boek zegt.",
+             waarom=[
+                 None,
+                 "Het nieuwe is niet dat Galenus fouten maakte, maar dat je die fouten mág vaststellen op "
+                 "grond van je eigen waarneming.",
+                 "De microscoop komt uit de Nederlanden, met namen als Van Leeuwenhoek. Uit de Arabische "
+                 "wereld kwamen de sterrenkunde en de wiskunde.",
+             ]),
+        dict(aanpak="Zet de feiten van 1517 vast (de stad, het aantal stellingen) en koppel die aan de twee "
+                    "leuzen. Die twee leuzen verklaren alles wat erna komt.",
+             waarom=[
+                 "De aflaat was het concrete misbruik waar Luther op aansloeg: vergeving die te koop was.",
+                 None, None,
+                 "Dit is de kern van de hele Reformatie: als geloof en Bijbel genoeg zijn, valt de "
+                 "tussenpersoon weg. Daarom was het ook een machtsvraag.",
+             ]),
+        dict(aanpak="Elke strekking heeft één kenmerk waarmee je ze onmiddellijk herkent: predestinatie bij "
+                    "Calvijn, de koning als hoofd van de Kerk bij het anglicanisme.",
+             waarom=[
+                 None,
+                 "Noem bij deze vraag het wereldse voordeel apart. Een examen wil zien dat je godsdienstige "
+                 "en politieke motieven kan scheiden.",
+             ]),
+        dict(aanpak="De Contrareformatie is de katholieke reactie: de leer opnieuw vastleggen, de priesters "
+                    "beter opleiden, en toezicht op wat men leest.",
+             waarom=[
+                 None, None, None,
+                 "De mis afschaffen is protestants, niet katholiek. De Contrareformatie versterkte de mis "
+                 "juist.",
+                 None,
+             ]),
+        dict(aanpak="Eén woord per stijl: de renaissance zoekt evenwicht, de barok zoekt beweging. Elk "
+                    "kenmerk is daarvan af te leiden.",
+             waarom=[
+                 None, None, None, None,
+                 None,
+                 "Dit is het verschil tussen kijken en betekenen. In de middeleeuwen bepaalt het belang de "
+                 "grootte, in de renaissance de afstand.",
+             ]),
+        dict(aanpak="Let bij deze namen op de eeuw: Michelangelo, Da Vinci en Rafaël horen in de 15de en "
+                    "16de eeuw, Rubens in de 17de.",
+             waarom=[
+                 "Rubens is barok en geen renaissance. Een eeuw verschil is hier het hele antwoord.",
+                 "Noem kenmerken die je aan het beeld zélf ziet, niet wat je erover gelezen hebt. Daar "
+                 "vraagt zo'n opdracht naar.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-vorsten-opstand-en-de-verlichting-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Eén vraag beslist alles: moet de koning iemand om toestemming vragen. Moet hij dat "
+                    "niet, dan is het absolutisme.",
+             waarom=[
+                 None, None,
+                 "Een standenvergadering niet meer samenroepen is de praktische kant van het absolutisme: "
+                 "wie niet vergadert, kan ook niets weigeren.",
+                 None,
+                 "Droit divin betekent godsgegeven recht. Het maakt verzet tegen de koning tot verzet tegen "
+                 "God, en dat is precies wat de Verlichting omkeert.",
+             ]),
+        dict(aanpak="Versailles was geen luxe maar een werktuig van macht. Zeg bij elk punt wat het de "
+                    "koning opleverde.",
+             waarom=[
+                 "De adel aan het hof binden is het slimste deel: wie aan het hof om gunsten dingt, komt "
+                 "niet in opstand in zijn eigen gewest.",
+                 "Dit wordt in 1789 de aanleiding van de Franse Revolutie. Het geldgebrek loopt dus als een "
+                 "draad door deze hele bundel.",
+             ]),
+        dict(aanpak="Zet de Engelse en de Franse 17de eeuw naast elkaar: dezelfde strijd tussen vorst en "
+                    "parlement, een tegengestelde uitkomst.",
+             waarom=[None, None, None]),
+        dict(aanpak="De Opstand heeft drie soorten oorzaken tegelijk: politiek (de privileges), "
+                    "godsdienstig (de vervolging) en economisch (de belastingen).",
+             waarom=[
+                 "Let op de volgorde: de Beeldenstorm van 1566 komt vóór het begin van de oorlog in 1568, "
+                 "al staat hij in de rij niet eerst.",
+                 None,
+                 "Wat voor een vorst doelmatig bestuur is, is voor een stad verlies van haar rechten. "
+                 "Dezelfde maatregel, twee ervaringen.",
+                 "Zeg bij de gevolgen altijd de Schelde erbij: de sluiting verklaart waarom Antwerpen "
+                 "wegzakt en Amsterdam opkomt.",
+             ]),
+        dict(aanpak="Twee bronnen die elkaar tegenspreken, zijn geen probleem maar materiaal. Vraag je van "
+                    "elke bron af wie schrijft en met welk belang.",
+             waarom=[
+                 None,
+                 "Dit is de kern van bronnenkritiek: een bron kan gekleurd zijn zonder te liegen. Je "
+                 "vergelijkt dus, in plaats van er één te kiezen.",
+             ]),
+        dict(aanpak="Zet bij elke filosoof zijn ene kernidee. Dat ene idee is wat een examenvraag van je "
+                    "wil, niet een levensverhaal.",
+             waarom=[
+                 None,
+                 "De scheiding der machten betekent dat de machten elkaar in de hand houden. Ze betekent "
+                 "niet dat de regering de rechtbanken leidt, maar net het omgekeerde.",
+                 "Velen wilden een verlicht vorst, geen republiek. Voltaire zocht het zelfs bij vorsten als "
+                 "Frederik II.",
+             ]),
+        dict(aanpak="Deze begrippen komen terug in elke vraag over het recht. Leer het verschil tussen "
+                    "rechtsgelijkheid (dezelfde wet) en rechtszekerheid (wet vooraf gekend).",
+             waarom=[
+                 None,
+                 "Empirisme en rationalisme zijn twee wegen naar kennis: de waarneming tegenover het "
+                 "redeneren. De Verlichting gebruikt ze allebei.",
+                 None,
+                 "Zeg uitdrukkelijk waar het gezag vandaan komt. Dat die bron verschuift van God naar het "
+                 "volk, is de hele betekenis van de Verlichting voor de politiek.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-amerika-frankrijk-en-de-industriele-omwenteling-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Let goed op wat de kolonisten precies betwistten: niet de belasting, maar wie ze mocht "
+                    "opleggen. Dat verschil is het hele punt.",
+             waarom=[
+                 None, None,
+                 "Noem bij de kenmerken ook wat er níét is: geen erfelijke koning. Een afwezigheid is hier "
+                 "een kenmerk.",
+                 "Dit is een vraag over een spanning in een bron zelf. Het antwoord is niet dat de tekst "
+                 "liegt, maar dat de praktijk de woorden niet volgde.",
+             ]),
+        dict(aanpak="Scheid de structurele oorzaken (leeg schatkist, standen, misoogsten) van de aanleiding "
+                    "(de Staten-Generaal van 1789). Een examen vraagt die twee apart.",
+             waarom=[
+                 None, None,
+                 "Een misoogst lijkt een natuurfeit, maar via de broodprijs is het een politieke oorzaak: "
+                 "honger brengt mensen op straat.",
+                 "Frankrijk was niet bezet; het vocht juist buiten zijn grenzen. Let op zulke verzonnen "
+                 "oorzaken in een rij.",
+                 None,
+                 "Dit is beeldvorming zoals bij de Guldensporenslag: de betekenis van de daad weegt "
+                 "zwaarder dan het feit.",
+             ]),
+        dict(aanpak="De revolutie verloopt in drie fasen. Zet ze op een rij voor je over oorzaken of "
+                    "gevolgen schrijft, anders haal je de fasen door elkaar.",
+             waarom=[
+                 "Een terugkeer naar het absolutisme van voor 1789 kwam er nooit: ook Napoleon regeerde met "
+                 "een wetboek en een burgerlijke stand.",
+                 "Een revolutie die haar eigen beginsel schendt, is geen uitzondering maar een patroon. "
+                 "Daarom staat deze vraag erbij.",
+                 "Zeg erbij dat de ongelijkheid niet verdwijnt maar uit de wet gaat. Dat is het precieze "
+                 "antwoord.",
+                 "Olympe de Gouges hoort bij deze stof: haar verklaring laat zien wat de Verklaring van "
+                 "1789 juist niet gaf.",
+             ]),
+        dict(aanpak="Vergelijk de twee revoluties op hun politieke oorzaken, en zoek daarna de concrete "
+                    "sporen die het Franse bestuur bij ons achterliet.",
+             waarom=[
+                 None,
+                 "Noem een naam zoals Lafayette: het bewijs dat ideeën door mensen reizen, niet door de "
+                 "lucht.",
+                 "Deze drie sporen gebruik je vandaag nog: je identiteitskaart, het burgerlijk recht en de "
+                 "meter.",
+                 "Het Frans werd de bestuurstaal, en dat is een van de redenen waarom de taalkwestie bij "
+                 "ons zo lang is blijven spelen.",
+             ]),
+        dict(aanpak="Scheid de technische vernieuwingen (machines) van de organisatorische (hoe het werk "
+                    "geregeld wordt). Dat zijn twee aparte vragen op een examen.",
+             waarom=[
+                 None,
+                 "De verbrandingsmotor komt pas eind 19de eeuw. Zo'n anachronisme in een rij is een "
+                 "klassieke valstrik.",
+                 "Het verschil is de aandrijving, niet het samen werken. Samen op één plaats deed men al in "
+                 "de manufactuur.",
+                 "Wat verdwijnt is net zo belangrijk als wat erbij komt: één arbeider die een heel product "
+                 "maakt, bestaat niet meer.",
+                 "Revolutie gaat hier over de diepte van de gevolgen, niet over het tempo. Dat is hetzelfde "
+                 "onderscheid als bij de commerciële revolutie.",
+             ]),
+        dict(aanpak="Een aanbodfactor is wat je nodig hebt om te maken (grondstof, kapitaal, arbeid). Een "
+                    "vraagfactor is wie het koopt.",
+             waarom=[
+                 None, None, None, None,
+                 "De enclosures zijn de schakel tussen landbouw en fabriek. Zonder dat woord kan je het "
+                 "verband van de volgende vraag niet leggen.",
+                 None,
+                 "Zeg erbij dat de ongelijkheid een nieuwe vorm krijgt in plaats van te verdwijnen. Dat is "
+                 "wat de vraag toetst.",
+                 "Let op de laatste vraag: een hedendaagse roman is geen bron over die tijd zélf. Dat "
+                 "onderscheid tussen bron en latere voorstelling komt steeds terug.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-het-ottomaanse-rijk-en-samenlevingen-vergelijken-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Vergelijk de sultan telkens met Lodewijk XIV: wat hebben ze gemeen, en waar loopt de "
+                    "vergelijking mank. Dat is precies hoe de vragen gebouwd zijn.",
+             waarom=[
+                 "1453 is hetzelfde jaartal dat soms als begin van de vroegmoderne tijd geldt. Twee "
+                 "hoofdstukken komen hier samen.",
+                 None,
+                 "Het verschil is dat de sultan zelf het godsdienstige hoofd was. Lodewijk XIV gebruikte "
+                 "de godsdienst, maar de paus stond boven hem.",
+                 None,
+             ]),
+        dict(aanpak="Let bij het millet-stelsel op de juiste woorden: minderheden mochten hun eigen zaken "
+                    "regelen. Dat is verdraagzaamheid in de praktijk, geen gelijkheid.",
+             waarom=[
+                 None,
+                 "Zeg erbij dat het geen gelijkheid was: er waren aparte belastingen en aparte regels. Het "
+                 "verschil met christelijk Europa zit in dat er een plaats was.",
+                 "Er was juist veel handel met Venetië, Genua en later Frankrijk. De capitulaties verderop "
+                 "in deze bundel zijn daar het bewijs van.",
+                 "Dit is de brug naar het hoofdstuk over de ontdekkingsreizen: wie de landroute beheerst, "
+                 "doet anderen een zeeweg zoeken.",
+             ]),
+        dict(aanpak="Zet de drie soorten contact naast elkaar: oorlog, handel en diplomatie. Ze bestonden "
+                    "tegelijk, en daarom is 'enkel een vijand' te eenvoudig.",
+             waarom=[
+                 None, None,
+                 "Dit is het bewijs dat politiek belang zwaarder woog dan geloof. Hetzelfde patroon zag je "
+                 "bij de vorsten die protestant werden.",
+                 None, None,
+                 "Het verval komt pas later. Wie het rijk meteen als zieke man van Europa beschrijft, "
+                 "verschuift drie eeuwen.",
+             ]),
+        dict(aanpak="Beschrijf bouwkunst altijd aan wat je ziet: vorm, versiering, kleur. Noem er één "
+                    "gebouw bij, zodat het geen opsomming blijft.",
+             waarom=[
+                 "Dat er geen mensenfiguren staan, is geen gebrek maar een keuze: daarom nemen sierschrift "
+                 "en patronen die plaats in.",
+             ]),
+        dict(aanpak="Vergelijkingspunten horen in vier soorten: politiek, sociaal, cultureel en economisch. "
+                    "Zet er bij elk punt eerst de soort bij, dan vergelijk je ordelijk.",
+             waarom=[
+                 None, None,
+                 "De afstand tot de evenaar is geografie, geen kenmerk van een samenleving. Een "
+                 "vergelijkingspunt moet over mensen en hun ordening gaan.",
+                 "Kolonialisme is één vorm van imperialisme. De twee door elkaar gebruiken is een fout die "
+                 "op een examen opvalt.",
+             ]),
+        dict(aanpak="Bij een vergelijkingstabel vul je elke rij voor allebei in, ook als het antwoord "
+                    "tweemaal hetzelfde is. Dat is dan een gelijkenis.",
+             waarom=[
+                 "Dat bij allebei parlement en grondwet ontbreken, is een volwaardig antwoord. Een leeg vak "
+                 "zou dat niet laten zien.",
+                 "Zeg erbij dat opklimmen in geen van beide kon: dat verbindt Egypte en de middeleeuwen "
+                 "sterker dan de losse kenmerken.",
+             ]),
+        dict(aanpak="Deze laatste reeks gaat over de werkwijze zelf. Vaste vergelijkingspunten dwingen je "
+                    "verder te kijken dan wat vreemd aan ons is.",
+             waarom=[
+                 None, None, None,
+                 "Een anachronisme is bijvoorbeeld een middeleeuwse boer die aandelen koopt. Het is de "
+                 "meest gemaakte fout in een eigen tekst over het verleden.",
+                 "Vergelijken kan in de breedte (twee samenlevingen in dezelfde tijd) en in de diepte "
+                 "(dezelfde samenleving door de tijd). Beide zijn geldig.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-redeneren-met-historische-bronnen-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Loop bij elke vraag de vijf criteria af: tijd, ruimte, domein, bestaan er bronnen, en "
+                    "zijn die bruikbaar. Het eerste criterium dat ontbreekt, is je antwoord.",
+             waarom=[
+                 "Let op de laatste: of iemand een goed mens was, is een morele vraag. Een historische vraag "
+                 "kan je met bronnen beantwoorden, een oordeel niet.",
+                 None,
+                 "Dit is de kern van historisch werken: de vraag bepaalt wat je in een bron ziet. Dezelfde "
+                 "bron geeft twee onderzoekers een ander antwoord.",
+             ]),
+        dict(aanpak="Primair betekent uit de tijd zelf, secundair betekent later over die tijd gemaakt. Het "
+                    "gaat dus over het moment van ontstaan, niet over de kwaliteit.",
+             waarom=[
+                 None, None, None, None,
+                 "Een primaire bron kan vol belang en vooroordeel zitten, en een goed secundair werk weegt "
+                 "tien bronnen tegen elkaar af. Primair is niet beter, het is dichter.",
+             ]),
+        dict(aanpak="De vier vormen zijn geschreven, mondeling, materieel en audiovisueel. Vraag je af langs "
+                    "welk kanaal de informatie tot ons komt.",
+             waarom=[
+                 None,
+                 "Dit is waarom archeologie zoveel oplevert: ze geeft een stem aan de grote groep die zelf "
+                 "niet kon schrijven.",
+                 "Dat onderscheid bepaalt hoeveel gewicht een getuigenis krijgt. Een tijdgenoot vertelt wat "
+                 "men zei, een ooggetuige wat hij zag.",
+             ]),
+        dict(aanpak="Een bron ontleden gaat in drie stappen: situeren in tijd, ruimte en domein; de "
+                    "inhoudelijke criteria toepassen; en dan pas besluiten wat je ermee kan.",
+             waarom=[
+                 None,
+                 "Wijs de woorden echt aan in de tekst. 'Alle eerlijke lieden' en 'ofwel lui ofwel een "
+                 "verrader' zijn de plaatsen waar het wringt.",
+                 "Standplaatsgebondenheid maakt een bron niet waardeloos maar juist informatief: je leest "
+                 "er de blik van een Antwerpse koopman in 1585 in.",
+             ]),
+        dict(aanpak="Betrouwbaarheid gaat over de bron zelf (wie, wanneer, met welk belang). Bruikbaarheid "
+                    "gaat over jouw vraag. Twee verschillende dingen.",
+             waarom=[
+                 None, None, None, None,
+                 "Dit is het verschil in één zin: bruikbaarheid bestaat niet los van een vraag.",
+                 "Lengte zegt niets. Een regel in een rekenboek kan betrouwbaarder zijn dan tien bladzijden "
+                 "lofrede.",
+             ]),
+        dict(aanpak="De drie lopen op in ernst: een veralgemening trekt een besluit te breed, een stereotype "
+                    "maakt er een vast beeld van, een vooroordeel beslist vooraf.",
+             waarom=[
+                 "Het verschil tussen de tweede en de derde: een stereotype zit in de tekst, een vooroordeel "
+                 "zit bij de lezer die de bron niet eens opent.",
+                 None,
+             ]),
+        dict(aanpak="Een beargumenteerd antwoord is geen samenvatting van bronnen maar een stelling met "
+                    "bewijs uit meer dan één bron.",
+             waarom=[
+                 None,
+                 "Samenvatten is nog geen antwoorden. Een beargumenteerd antwoord neemt een standpunt in en "
+                 "verwijst naar de bronnen die het dragen.",
+                 "Let op het verschil tussen actualiseren en contextualiseren: het eerste legt een lijn naar "
+                 "vandaag, het tweede plaatst iets terug in zijn eigen tijd.",
+                 None,
+                 "Dit is geen vrijbrief: niet elk antwoord is even goed. Wat beslist, is of de bronnen het "
+                 "dragen.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-beeldvorming-en-het-verleden-vandaag-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Houd twee dingen uit elkaar: wat er gebeurd is (dat staat vast) en het beeld dat wij "
+                    "ervan maken (dat verandert). Beeldvorming gaat over het tweede.",
+             waarom=[
+                 "De vier keuzes zijn selecteren, afleiden, interpreteren en samenhang zoeken. Elk van die "
+                 "stappen kan anders uitvallen, en dus ook het beeld.",
+                 "Dat het verleden vastligt maar niet volledig kenbaar is, is geen tegenspraak. Het is "
+                 "precies de ruimte waarin een historicus werkt.",
+                 None,
+                 "Het echte probleem is niet verschil maar tegenspraak met de bronnen. Dat is de grens "
+                 "tussen interpretatie en fout.",
+             ]),
+        dict(aanpak="De persoonlijke context is wie de maker is, de maatschappelijke context is de tijd en "
+                    "de omgeving waarin hij werkt. Geld en opdrachtgever horen bij de tweede.",
+             waarom=[
+                 None, None, None,
+                 "Ook een boek van vandaag is standplaatsgebonden. Wij kiezen ook, en over vijftig jaar "
+                 "ziet men dat aan ons.",
+                 None,
+                 "Dit is de praktische les van deze reeks: bronnen van beide kanten naast elkaar leggen, "
+                 "ook als er maar één makkelijk te vinden is.",
+             ]),
+        dict(aanpak="De vier vragen bij een beeld zijn: wie, op welke bronnen, wat wordt verzwegen, en wie "
+                    "gaf de opdracht. Die vierde wordt het vaakst vergeten.",
+             waarom=[
+                 "De vraag wat er niet verteld wordt, levert het meeste op. Een beeld bouwt even hard op "
+                 "wat het weglaat als op wat het zegt.",
+                 "Deze uitspraak is een veralgemening die ook feitelijk niet klopt: geleerden wisten in de "
+                 "middeleeuwen dat de aarde een bol is.",
+                 "Een standbeeld, een film of een feestdag doet net zo hard aan beeldvorming als een tekst, "
+                 "en bereikt meer mensen.",
+             ]),
+        dict(aanpak="Zet de drie momenten naast elkaar: wat de tijdgenoten zagen, wat de 19de eeuw ervan "
+                    "maakte, en wat wij vandaag herdenken. Het verschil is de les.",
+             waarom=[
+                 "De feestdag van 11 juli is een keuze uit de 20ste eeuw. Een herdenking is dus zelf een "
+                 "historisch feit met een datum.",
+                 None, None,
+             ]),
+        dict(aanpak="Identiteit bestaat uit lagen die naast elkaar bestaan. Een vraag over identiteit "
+                    "beantwoord je dus nooit met één woord.",
+             waarom=[
+                 None,
+                 "Zeg uitdrukkelijk wat het níét betekent: begrijpen is niet goedkeuren. Zonder die zin "
+                 "lijkt het alsof je alles vergoelijkt.",
+             ]),
+        dict(aanpak="De vier stappen gaan van buiten naar binnen: eerst situeren, dan beschrijven wat je "
+                    "ziet, dan de bedoeling bepalen, dan verwoorden.",
+             waarom=[
+                 "Let op de orde van stap 2 en 3: eerst beschrijven wat er staat, pas daarna uitleggen "
+                 "waarvoor het dient. Omgekeerd ga je zien wat je al dacht.",
+                 None, None,
+                 "De huidige verkoopprijs zegt iets over onze markt, niet over het werk in zijn tijd. "
+                 "Daarom hoort hij in geen enkele stap.",
+             ]),
+        dict(aanpak="Verbind bij een kunstwerk altijd de vorm met de bedoeling: waarom dit licht, dit "
+                    "formaat, deze beweging, in déze tijd.",
+             waarom=[
+                 None,
+                 "Dit voorbeeld toont wat context oplevert: zonder de Beeldenstorm is een Mariabeeld uit "
+                 "1650 enkel een beeld, met de Beeldenstorm is het een antwoord.",
+                 None,
+             ]),
+    ],
+)
