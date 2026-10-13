@@ -380,15 +380,14 @@
           "opties": [
             "De telefoons liggen tijdens de les in een kastje.",
             "De leraren vinden de klassen rustiger.",
-            "De school houdt de regel aan tot juni.",
+            "De school schaft de regel in juni af.",
             "De ouders hebben om de regel gevraagd."
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Un casier is een kastje, plus calmes is rustiger, jusqu'en juin is tot in juni. Over de ouders staat er niets."
+          "uitleg": "Un casier is een kastje en plus calmes is rustiger. Jusqu'en juin betekent tot in juni: de regel blijft dus. Over de ouders staat er niets."
         },
         {
           "type": "waarofniet",
@@ -643,17 +642,16 @@
           "type": "meerkeuze",
           "vraag": "Lees dit tekstje: « D'abord, enlevez le couvercle. Ensuite, rincez le bocal à l'eau froide. Enfin, mettez-le dans le sac bleu. Attention : les bouchons vont dans le sac bleu aussi, mais pas les couvercles en métal. » Welke woorden geven de orde van de stappen aan?",
           "opties": [
-            "d'abord",
+            "à l'eau froide",
             "ensuite",
             "enfin",
             "attention"
           ],
           "antwoord": [
-            0,
             1,
             2
           ],
-          "uitleg": "D'abord is eerst, ensuite is daarna, enfin is tot slot. Attention is een waarschuwing, geen stap in de rij."
+          "uitleg": "Ensuite is daarna en enfin is tot slot: die zetten de stappen op een rij. À l'eau froide zegt hoe je spoelt en attention is een waarschuwing."
         },
         {
           "type": "invultekst",
@@ -828,14 +826,16 @@
             "d'abord",
             "par contre",
             "enfin",
-            "beaucoup"
+            "beaucoup",
+            "ensuite"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Eerst, daarentegen, tot slot: die drie zeggen hoe de stukken van de tekst zich tot elkaar verhouden. Beaucoup betekent gewoon veel."
+          "uitleg": "Eerst, daarna, daarentegen, tot slot: die zeggen hoe de stukken van de tekst zich tot elkaar verhouden. Beaucoup betekent gewoon veel."
         },
         {
           "type": "meerkeuze",
@@ -893,12 +893,14 @@
             "tu tegen een vriend of een klasgenoot",
             "vous tegen een volwassene die je niet kent",
             "vous tegen één persoon kan ook, uit hoffelijkheid",
-            "tu tegen een onbekende klant op je werk"
+            "tu tegen een onbekende klant op je werk",
+            "tu tegen een kind"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Vous is zowel het meervoud als de hoffelijke vorm voor één persoon. Tegen een klant die je niet kent, blijf je bij vous."
         },
@@ -1079,16 +1081,15 @@
           "vraag": "Lees dit tekstje: « En Belgique, trois langues sont officielles : le néerlandais, le français et l'allemand. Le français est la langue de la Wallonie et, avec le néerlandais, de Bruxelles. Un Belge francophone dit septante et nonante, là où un Français dit soixante-dix et quatre-vingt-dix. » Welke uitspraken over het Frans in België zijn juist?",
           "opties": [
             "Frans is een van de drie officiële talen van België.",
-            "Frans is de taal van Wallonië.",
+            "In Wallonië is het Duits de officiële taal, niet het Frans.",
             "In Brussel zijn Frans en Nederlands samen officieel.",
             "Frans is de enige officiële taal van België."
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Trois langues sont officielles: Nederlands, Frans en Duits. De laatste keuze spreekt dat tegen."
+          "uitleg": "Trois langues sont officielles: Nederlands, Frans en Duits. In Wallonië spreekt men Frans, niet Duits, en Frans is ook niet de enige officiële taal van het land."
         },
         {
           "type": "invultekst",
@@ -1120,17 +1121,16 @@
           "type": "meerkeuze",
           "vraag": "Hetzelfde tekstje. Welke plaatsen noemt het waar Frans gesproken wordt?",
           "opties": [
-            "Zwitserland",
+            "Spanje",
             "Luxemburg",
             "Québec",
             "Portugal"
           ],
           "antwoord": [
-            0,
             1,
             2
           ],
-          "uitleg": "La Suisse, le Luxembourg, le Québec. Portugal staat er niet bij."
+          "uitleg": "Le Luxembourg en le Québec staan in de tekst, net als la Suisse. Spanje en Portugal staan er niet bij: daar spreekt men Spaans en Portugees."
         },
         {
           "type": "waarofniet",
@@ -1189,12 +1189,14 @@
             "gewoontes",
             "waarden en normen",
             "sociale verhoudingen",
-            "de spelling van werkwoorden"
+            "de spelling van werkwoorden",
+            "lichaamstaal"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Zeven dingen horen erbij: het dagelijkse leven, leefomstandigheden, gewoontes, sociale verhoudingen, waarden en normen, lichaamstaal en sociale conventies. Spelling hoort bij de grammatica, niet hierbij."
         },
@@ -1289,12 +1291,14 @@
             "wat je verkoopt en in welke staat het is",
             "de prijs",
             "hoe iemand je kan bereiken",
-            "waarom je vorig jaar van school veranderd bent"
+            "waarom je vorig jaar van school veranderd bent",
+            "waar de koper het kan ophalen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Taakvoltooiing betekent dat je boodschap volledig is: wat, voor hoeveel, en hoe men je bereikt. De rest heeft er niets mee te maken."
         },
@@ -1343,12 +1347,14 @@
             "À mon avis,",
             "Je pense que",
             "Pour moi,",
-            "Il est trois heures."
+            "Il est trois heures.",
+            "Je trouve que"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Naar mijn mening, ik denk dat, voor mij. De laatste zin zegt alleen hoe laat het is."
         },
@@ -1425,16 +1431,15 @@
           "vraag": "Je legt iemand in het Frans de weg uit. Welke uitdrukkingen heb je nodig?",
           "opties": [
             "tournez à droite",
-            "allez tout droit",
+            "allez bien",
             "prenez la deuxième rue",
             "il fait beau"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Rechts afslaan, rechtdoor gaan, de tweede straat nemen. Het weer helpt niemand de weg vinden."
+          "uitleg": "Tournez à droite en prenez la deuxième rue wijzen de weg. Allez bien betekent het goed stellen en il fait beau gaat over het weer."
         },
         {
           "type": "invultekst",
@@ -1457,12 +1462,14 @@
             "Je te remercie beaucoup.",
             "Excuse-moi pour hier.",
             "Tu viens avec nous samedi ?",
-            "Le train part à huit heures."
+            "Le train part à huit heures.",
+            "Félicitations pour ton diplôme !"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Bedanken, je verontschuldigen, uitnodigen. De laatste zin geeft gewoon informatie."
         },
@@ -1510,12 +1517,14 @@
             "Waarom schrijf ik?",
             "Voor wie is mijn boodschap bedoeld?",
             "Welk kanaal gebruik ik, een mail of een blogbericht?",
-            "Hoeveel Franse boeken heb ik al gelezen?"
+            "Hoeveel Franse boeken heb ik al gelezen?",
+            "Wat wil ik precies zeggen?"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Doel, ontvanger, inhoud en kanaal. Het laatste zegt niets over deze opdracht."
         },
@@ -1655,16 +1664,15 @@
           "vraag": "Iemand schrijft dit over datzelfde stukje: « Ce texte me touche parce que je connais ce sentiment. Moi aussi, j'ai déjà attendu quelqu'un pendant tout un hiver. J'aime la dernière phrase : apporte-moi le soleil, ça veut dire apporte-moi un peu de joie. » Welke dingen doet die reactie goed?",
           "opties": [
             "Ze zegt wat de tekst bij haar oproept.",
-            "Ze legt uit waarom, met iets uit haar eigen leven.",
+            "Ze vat de tekst zin per zin samen.",
             "Ze verwijst naar een zin uit de tekst.",
             "Ze vertelt wie de tekst geschreven heeft."
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Gevoel, reden en een verwijzing naar de tekst zelf. Wie de schrijver is, staat er niet in en hoeft ook niet."
+          "uitleg": "Ze zegt wat de tekst bij haar oproept en verwijst naar een zin eruit. Een samenvatting zin per zin maakt ze niet, en wie de schrijver is hoeft er niet in."
         },
         {
           "type": "meerkeuze",
@@ -1699,12 +1707,14 @@
             "Ce passage me fait penser à mon enfance.",
             "Je m'identifie au personnage principal.",
             "J'aime la façon dont c'est écrit.",
-            "Ce texte compte quatre-vingts mots."
+            "Ce texte compte quatre-vingts mots.",
+            "La fin m'a mis mal à l'aise."
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Waaraan het je doet denken, met wie je je vereenzelvigt, wat je van de stijl vindt. Het aantal woorden is geen beleving."
         },
@@ -1768,16 +1778,15 @@
           "vraag": "Wat krijg je van de examencommissie mee in het examenlokaal?",
           "opties": [
             "een balpen en kladpapier",
-            "een hoofdtelefoon",
+            "een eigen woordenboek op papier",
             "links naar het digitale woordenboek en de spellingcontrole",
             "een eigen laptop om op te werken"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "De computer staat er al; een eigen laptop breng je niet mee. Je persoonlijke spullen gaan in een locker."
+          "uitleg": "De computer met de links naar het woordenboek en de spellingcontrole staat er al, en een balpen en kladpapier krijg je. Een eigen laptop of een eigen woordenboek op papier breng je niet mee."
         },
         {
           "type": "waarofniet",
@@ -1804,12 +1813,14 @@
             "Bonjour, je peux vous poser une question ?",
             "Excusez-moi, vous avez une minute ?",
             "Bonjour, je voudrais vous parler de mon stage.",
-            "Au revoir, bonne journée."
+            "Au revoir, bonne journée.",
+            "Bonjour, j'aurais une question sur l'annonce."
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Au revoir sluit een gesprek juist af. Beginnen, gaande houden en beëindigen zijn drie aparte dingen die je moet kunnen."
         },
@@ -1946,12 +1957,14 @@
             "ou in bouche",
             "ou in rouge",
             "ou in tout",
-            "oi in trois"
+            "oi in trois",
+            "ou in jour"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Ou klinkt als oe. Oi klinkt heel anders, ongeveer als wa: trois klinkt als 'trwa'."
         },
@@ -2041,16 +2054,15 @@
           "vraag": "Welke woordparen verschillen alleen door een accent, en toch in betekenis?",
           "opties": [
             "ou en où",
-            "a en à",
+            "et en est",
             "la en là",
             "les en le"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Ou is of, où is waar. La is het lidwoord, là betekent daar. Les en le verschillen niet door een accent maar door hun vorm: meervoud tegenover enkelvoud."
+          "uitleg": "Ou is of, où is waar. La is het lidwoord en là betekent daar, en bij a en à is het net zo. Et en est verschillen niet door een accent, en les en le verschillen door hun vorm: meervoud tegenover enkelvoud."
         },
         {
           "type": "meerkeuze",
@@ -2125,16 +2137,15 @@
           "vraag": "Welke dingen horen bij de rij fonologische elementen en spelling?",
           "opties": [
             "de uitspraak van klanken en klankencombinaties",
-            "woordklemtoon, articulatie en intonatie",
+            "de keuze tussen tu en vous",
             "de spelling van frequente woorden",
             "de plaats van het bijvoeglijk naamwoord"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "De plaats van het bijvoeglijk naamwoord hoort bij de grammatica. De andere gaan over hoe het Frans klinkt en hoe je dat schrijft."
+          "uitleg": "De plaats van het bijvoeglijk naamwoord hoort bij de grammatica en de keuze tussen tu en vous bij de omgangsvormen. Deze rij gaat over hoe het Frans klinkt en hoe je dat schrijft."
         },
         {
           "type": "invultekst",
@@ -2197,12 +2208,14 @@
             "la tante",
             "les grands-parents",
             "le cousin",
-            "le voisin"
+            "le voisin",
+            "le frère"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Tante, grootouders, neef. Le voisin is de buur, en die hoort bij een ander woordveld."
         },
@@ -2255,16 +2268,15 @@
           "vraag": "Welke gegevens vraagt een Frans formulier als het naar je persoonlijke gegevens vraagt?",
           "opties": [
             "nom en prénom",
-            "date de naissance",
+            "plat préféré",
             "adresse",
             "matière préférée"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Naam, geboortedatum en adres. Je lievelingsvak vraagt een formulier niet."
+          "uitleg": "Nom, prénom en adresse staan op elk formulier, en je geboortedatum ook. Je lievelingsvak en je lievelingsgerecht vraagt een formulier niet."
         },
         {
           "type": "meerkeuze",
@@ -2317,12 +2329,14 @@
             "triste",
             "content",
             "fâché",
-            "lundi"
+            "lundi",
+            "inquiet"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Verdrietig, tevreden, kwaad. Lundi is maandag en hoort bij de dagen van de week."
         },
@@ -2404,12 +2418,14 @@
             "la main",
             "le dos",
             "le pied",
-            "le lit"
+            "le lit",
+            "la jambe"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Hand, rug, voet. Un lit is een bed en hoort bij het woordveld van de woning."
         },
@@ -2548,16 +2564,15 @@
           "vraag": "Welke Franse zinnen zeg je als je je niet goed voelt?",
           "opties": [
             "Je ne me sens pas bien.",
-            "J'ai de la fièvre.",
+            "J'ai de la chance.",
             "Je suis malade.",
             "Je suis en vacances."
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Zich niet goed voelen, koorts hebben, ziek zijn. In vakantie zijn is iets heel anders."
+          "uitleg": "Je ne me sens pas bien en je suis malade zeg je als je ziek bent. J'ai de la chance betekent geluk hebben en je suis en vacances in vakantie zijn."
         },
         {
           "type": "waarofniet",
@@ -2699,12 +2714,14 @@
             "un kilo de",
             "un paquet de",
             "beaucoup de",
-            "parce que"
+            "parce que",
+            "un litre de"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Na een hoeveelheid komt de en geen lidwoord: beaucoup de sucre, un litre d'eau. Parce que betekent omdat."
         },
@@ -2764,15 +2781,14 @@
           "opties": [
             "le magasin",
             "la poste",
-            "la banque",
+            "la chambre",
             "la cuisine"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Winkel, post, bank. La cuisine is de keuken, en die hoort bij de woning."
+          "uitleg": "Le magasin is de winkel en la poste het postkantoor. La cuisine en la chambre horen bij de woning."
         },
         {
           "type": "waarofniet",
@@ -2834,12 +2850,14 @@
             "une chemise",
             "une veste",
             "une jupe",
-            "une assiette"
+            "une assiette",
+            "un pantalon"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Hemd, vest, rok. Une assiette is een bord en hoort bij de keuken."
         },
@@ -2875,15 +2893,14 @@
           "opties": [
             "le bois",
             "le verre",
-            "le coton",
+            "le cercle",
             "le carré"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Hout, glas, katoen. Un carré is een vierkant, en dat is een vorm."
+          "uitleg": "Le bois is hout en le verre glas. Un carré is een vierkant en un cercle een cirkel: dat zijn vormen."
         },
         {
           "type": "waarofniet",
@@ -2936,12 +2953,14 @@
             "une table",
             "un lit",
             "un frigo",
-            "un loyer"
+            "un loyer",
+            "une armoire"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Tafel, bed, koelkast. Un loyer is de huurprijs en dus geen voorwerp."
         },
@@ -2991,15 +3010,14 @@
           "opties": [
             "faire la vaisselle",
             "ranger sa chambre",
-            "sortir la poubelle",
+            "avoir de la fièvre",
             "avoir mal au dos"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De vaat doen, je kamer opruimen, het vuilnis buitenzetten. Rugpijn hebben is geen bezigheid."
+          "uitleg": "De vaat doen en je kamer opruimen zijn bezigheden. Rugpijn of koorts hebben is er geen."
         },
         {
           "type": "waarofniet",
@@ -3014,12 +3032,14 @@
             "les clés",
             "le portefeuille",
             "le parapluie",
-            "le balcon"
+            "le balcon",
+            "le téléphone"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Sleutels, portefeuille, paraplu. Un balcon hoort bij de woning en gaat niet mee in je zak."
         }
@@ -3068,15 +3088,14 @@
           "opties": [
             "un cours",
             "un devoir",
-            "un bulletin",
+            "un salaire",
             "un loyer"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een les, een taak, een rapport. Un loyer is de huurprijs van een woning."
+          "uitleg": "Un cours is een les en un devoir een taak. Un loyer is de huurprijs van een woning en un salaire het loon: die horen bij wonen en werken."
         },
         {
           "type": "waarofniet",
@@ -3181,12 +3200,14 @@
             "un vendeur",
             "un coiffeur",
             "un cuisinier",
-            "un bureau"
+            "un bureau",
+            "un boulanger"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Verkoper, kapper, kok. Un bureau is een bureau of een kantoor, dus een plaats."
         },
@@ -3220,15 +3241,14 @@
           "opties": [
             "un salaire",
             "un contrat",
-            "un horaire",
+            "un bulletin",
             "un trimestre"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Loon, contract, uurregeling. Un trimestre hoort bij de school."
+          "uitleg": "Un salaire is het loon en un contrat het contract. Un trimestre en un bulletin horen bij de school."
         },
         {
           "type": "invultekst",
@@ -3327,12 +3347,14 @@
             "wie je bent en in welk jaar je zit",
             "wanneer je kan werken",
             "waarom je net die job wil",
-            "welk cijfer je had voor Frans"
+            "welk cijfer je had voor Frans",
+            "hoe de werkgever je kan bereiken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Taakvoltooiing betekent dat je boodschap volledig is. Je punten op school hoort de werkgever niet te vragen en jij niet te vertellen."
         },
@@ -3368,15 +3390,14 @@
           "opties": [
             "un ordinateur",
             "un écran",
-            "une application",
+            "une armoire",
             "un rayon"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Computer, scherm, app. Un rayon is een rek in een winkel."
+          "uitleg": "Un ordinateur is een computer en un écran een scherm. Un rayon is een rek in een winkel en une armoire een kast."
         },
         {
           "type": "meerkeuze",
@@ -3427,12 +3448,14 @@
             "jouer au football",
             "jouer de la guitare",
             "faire du vélo",
-            "jouer du tennis"
+            "jouer du tennis",
+            "faire de la natation"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Bij een sport of een spel hoort jouer à, bij een instrument jouer de, en voor veel sporten gebruik je faire de. Jouer du tennis bestaat niet."
         },
@@ -3456,15 +3479,14 @@
           "opties": [
             "un film",
             "une série",
-            "un livre",
+            "un bureau",
             "un contrat"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Film, reeks, boek. Un contrat hoort bij werken."
+          "uitleg": "Un film en une série horen bij ontspanning. Un contrat hoort bij werken en un bureau bij het kantoor."
         }
       ]
     },
@@ -3512,12 +3534,14 @@
             "mardi",
             "vendredi",
             "dimanche",
-            "janvier"
+            "janvier",
+            "jeudi"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Dinsdag, vrijdag, zondag. Janvier is januari, een maand. Dagen en maanden schrijf je in het Frans met een kleine letter."
         },
@@ -3649,15 +3673,14 @@
           "opties": [
             "entre",
             "derrière",
-            "à côté de",
+            "depuis",
             "pendant"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Tussen, achter, naast. Pendant betekent tijdens en zegt wanneer, niet waar."
+          "uitleg": "Entre is tussen en derrière achter. Pendant betekent tijdens en depuis sinds: die zeggen wanneer, niet waar."
         },
         {
           "type": "waarofniet",
@@ -3729,12 +3752,14 @@
             "il fait beau",
             "il neige",
             "il y a du vent",
-            "il est tard"
+            "il est tard",
+            "il pleut"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het is mooi weer, het sneeuwt, het waait. Il est tard betekent het is laat, en dat gaat over de tijd."
         },
@@ -3790,15 +3815,14 @@
           "opties": [
             "le tram",
             "l'avion",
-            "le bateau",
+            "l'arrêt",
             "le quai"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Tram, vliegtuig, boot. Un quai is het perron of de kaai, dus een plaats."
+          "uitleg": "Le tram en l'avion brengen je ergens. Un quai is het perron of de kaai en un arrêt een halte: dat zijn plaatsen."
         },
         {
           "type": "waarofniet",
@@ -3909,12 +3933,14 @@
             "le livre",
             "le train",
             "le pain",
-            "la gare"
+            "la gare",
+            "le vélo"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Boek, trein, brood. Une gare, het station, is vrouwelijk."
         },
@@ -4000,15 +4026,14 @@
           "opties": [
             "au bureau",
             "aux enfants",
-            "à la maison",
+            "à les enfants",
             "à le parc"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "À le bestaat niet: dat wordt au parc. De andere zijn juist."
+          "uitleg": "À le en à les bestaan niet: die worden au parc en aux enfants."
         },
         {
           "type": "meerkeuze",
@@ -4067,12 +4092,14 @@
             "beaucoup de monde",
             "un peu de sel",
             "trop de bruit",
-            "assez des places"
+            "assez des places",
+            "moins de bruit"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Assez de places, zonder s aan de. Na beaucoup, un peu, trop en assez komt altijd de."
         },
@@ -4166,15 +4193,14 @@
           "opties": [
             "mon frère",
             "ma mère",
-            "mes parents",
+            "ma ami",
             "ma oncle"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Un oncle is mannelijk, dus mon oncle. Het bezittelijk woord volgt het geslacht van het bezit, niet van de bezitter."
+          "uitleg": "Un oncle en un ami zijn mannelijk, dus mon oncle en mon ami. Het bezittelijk woord volgt het geslacht van het bezit, niet van de bezitter."
         },
         {
           "type": "meerkeuze",
@@ -4280,12 +4306,14 @@
             "troisième",
             "premier",
             "dernier",
-            "trois"
+            "trois",
+            "deuxième"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Derde, eerste, laatste: die zeggen welke plaats in een rij. Trois is een hoofdtelwoord en zegt hoeveel."
         },

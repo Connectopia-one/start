@@ -199,12 +199,14 @@
             "Op zaterdagochtend is het plein vol.",
             "De prijzen liggen hoger dan in de supermarkt.",
             "De klanten komen toch elke week terug.",
-            "De markt verdwijnt door de supermarkt."
+            "De markt verdwijnt door de supermarkt.",
+            "Op het plein worden groenten, kaas en bloemen verkocht."
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Hoofdpunten zijn de zinnen waar de tekst op steunt. Dat de markt zou verdwijnen staat er nergens."
         },
@@ -280,16 +282,15 @@
           "vraag": "Welke woorden in het tekstje over de kantine wijzen op een tijdsverloop?",
           "opties": [
             "en septembre",
-            "au début",
+            "la cantine",
             "trois mois plus tard",
             "le cuisinier"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Die drie zetten de gebeurtenissen na elkaar. Le cuisinier is gewoon wie er spreekt."
+          "uitleg": "En septembre en trois mois plus tard zetten de gebeurtenissen na elkaar. Le cuisinier en la cantine zeggen wie er spreekt en waarover, niet wanneer."
         },
         {
           "type": "waarofniet",
@@ -501,15 +502,14 @@
           "opties": [
             "een uitroepteken en een rechtstreeks bevel aan de lezer",
             "een groot getal dat de schade zichtbaar maakt",
-            "een kort slotzinnetje met een sterk beeld erin",
+            "een lange uitleg met cijfers uit een studie",
             "een opsomming van wetenschappelijke bronnen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Ne jetez plus, des milliers de litres, un fleuve sauvé. Bronnen staan er net niet bij, en dat is typisch voor een affiche."
+          "uitleg": "Ne jetez plus is een rechtstreeks bevel en des milliers de litres een groot getal. Bronnen en lange uitleg staan er net niet bij, en dat is typisch voor een affiche."
         },
         {
           "type": "meerkeuze",
@@ -530,12 +530,14 @@
             "een reisverslag",
             "een getuigenis",
             "een videoblog",
-            "een bijsluiter"
+            "een bijsluiter",
+            "een dagboekfragment"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Narratief betekent verhalend: iemand vertelt wat er gebeurd is. Een bijsluiter zegt wat je moet doen en is dus prescriptief."
         },
@@ -618,12 +620,14 @@
             "de titel en de tussentitels",
             "een foto of een tekening erbij",
             "woorden die vetgedrukt staan",
-            "de lengte van de laatste alinea"
+            "de lengte van de laatste alinea",
+            "een grafiek bij de tekst"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Visuele hulpmiddelen: titel, tussentitels, benadrukte woorden, een foto of grafiek. Kijk daarnaar vooraleer je begint te lezen."
         },
@@ -701,12 +705,14 @@
             "mais",
             "pourtant",
             "par contre",
-            "ainsi"
+            "ainsi",
+            "cependant"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Mais, pourtant, cependant, par contre en en revanche zetten iets tegenover elkaar. Ainsi betekent zo of dus en kondigt juist een gevolg aan."
         },
@@ -818,15 +824,14 @@
           "opties": [
             "donc",
             "alors",
-            "c'est pourquoi",
+            "car",
             "parce que"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Parce que is het enige dat achteruit wijst, naar de oorzaak. De andere wijzen vooruit, naar wat eruit volgt."
+          "uitleg": "Donc en alors wijzen vooruit, naar wat eruit volgt. Parce que en car wijzen achteruit, naar de oorzaak."
         },
         {
           "type": "invultekst",
@@ -861,12 +866,14 @@
             "de plus",
             "en outre",
             "aussi",
-            "pourtant"
+            "pourtant",
+            "également"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De plus, en outre en aussi voegen iets toe aan wat er al stond. Pourtant draait de richting net om."
         },
@@ -902,12 +909,14 @@
             "België",
             "Zwitserland",
             "Luxemburg",
-            "Portugal"
+            "Portugal",
+            "Canada"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "In Portugal spreekt men Portugees. België heeft drie officiële talen, Zwitserland vier, Luxemburg drie."
         },
@@ -947,15 +956,14 @@
           "opties": [
             "Sénégal",
             "Côte d'Ivoire",
-            "République démocratique du Congo",
+            "Angola",
             "Brésil"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "In Brazilië spreekt men Portugees. De andere zijn Franstalige landen in Afrika."
+          "uitleg": "In Brazilië en in Angola spreekt men Portugees. Sénégal en Côte d'Ivoire zijn Franstalige landen in Afrika."
         },
         {
           "type": "invultekst",
@@ -1165,12 +1173,14 @@
             "Cordialement",
             "Bien à vous",
             "Veuillez agréer mes salutations distinguées",
-            "Bisous"
+            "Bisous",
+            "Sincères salutations"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Bisous is voor familie en vrienden. Cordialement is het gewone formele slot, de lange formule is de deftigste."
         },
@@ -1249,15 +1259,14 @@
           "opties": [
             "Je suis désolé",
             "Excusez-moi",
-            "Pardon",
+            "S'il vous plaît",
             "De rien"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De rien is het antwoord op merci, graag gedaan. De andere zijn excuses."
+          "uitleg": "Je suis désolé en excusez-moi zijn excuses. De rien is het antwoord op merci, en s'il vous plaît betekent alstublieft."
         },
         {
           "type": "invultekst",
@@ -1305,12 +1314,14 @@
             "Au revoir",
             "À bientôt",
             "Bonne journée",
-            "Enchanté"
+            "Enchanté",
+            "Bonne soirée"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Enchanté hoort bij de kennismaking, aan het begin. De andere zeg je als je weggaat."
         },
@@ -1358,12 +1369,14 @@
             "Pourriez-vous me dire si …",
             "Je voudrais savoir …",
             "J'aimerais avoir des renseignements sur …",
-            "Je ne suis pas d'accord avec vous."
+            "Je ne suis pas d'accord avec vous.",
+            "Je souhaiterais connaître …"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De laatste geeft een mening. Des renseignements is het gewone woord voor inlichtingen, en dat woord is op een examen goud waard."
         },
@@ -1393,15 +1406,14 @@
           "opties": [
             "à mon avis",
             "je trouve que",
-            "selon moi",
+            "on dit que",
             "il paraît que"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Il paraît que betekent naar het schijnt, en dat is net géén eigen mening maar iets van horen zeggen."
+          "uitleg": "À mon avis en je trouve que leiden je eigen mening in. Il paraît que en on dit que betekenen naar het schijnt: dat is horen zeggen, geen eigen mening."
         },
         {
           "type": "waarofniet",
@@ -1472,12 +1484,14 @@
             "d'abord",
             "de plus",
             "enfin",
-            "malheureusement"
+            "malheureusement",
+            "ensuite"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "D'abord, de plus, enfin zetten je argumenten op een rij. Malheureusement drukt spijt uit en is geen argument."
         },
@@ -1580,15 +1594,14 @@
           "opties": [
             "Je vous écris au sujet de …",
             "Je me permets de vous contacter pour …",
-            "Suite à votre annonce, …",
+            "En attendant votre réponse, …",
             "Je vous remercie d'avance."
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De laatste hoort aan het eind, niet aan het begin. De andere kondigen je onderwerp aan."
+          "uitleg": "Je vous écris au sujet de en je me permets de vous contacter kondigen je onderwerp aan. 'Je vous remercie d'avance' en 'en attendant votre réponse' horen aan het eind."
         },
         {
           "type": "invultekst",
@@ -1653,12 +1666,14 @@
             "Ce personnage me ressemble beaucoup.",
             "Cette histoire m'a beaucoup touché.",
             "La fin m'a surpris parce que …",
-            "Le livre compte deux cent dix pages."
+            "Le livre compte deux cent dix pages.",
+            "Je me suis ennuyé en lisant la fin."
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het aantal bladzijden is een feit over het boek, geen beleving. De andere zeggen wat de tekst met jou deed."
         },
@@ -1800,12 +1815,14 @@
             "une nièce",
             "un cousin",
             "une tante",
-            "un voisin"
+            "un voisin",
+            "un oncle"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Un voisin is een buurman en dus geen familie. Une nièce is een nicht als kind van je broer of zus, une cousine een nicht als kind van je oom of tante."
         },
@@ -1841,15 +1858,14 @@
           "opties": [
             "triste",
             "en colère",
-            "déçu",
+            "poli",
             "mince"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Mince betekent slank en beschrijft een lichaam, niet een gevoel. Déçu is teleurgesteld."
+          "uitleg": "Mince betekent slank en poli hoffelijk: het eerste beschrijft een lichaam, het tweede een houding. Triste is verdrietig en en colère kwaad."
         },
         {
           "type": "invultekst",
@@ -1884,12 +1900,14 @@
             "le genou",
             "l'épaule",
             "la cheville",
-            "la poêle"
+            "la poêle",
+            "le poignet"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Une poêle is een pan. Le genou is de knie, l'épaule de schouder, la cheville de enkel."
         },
@@ -2018,15 +2036,14 @@
           "opties": [
             "le pain",
             "la confiture",
-            "le café",
+            "le poivre",
             "le poulet"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Le poulet is kip en hoort bij het warme eten. La confiture is confituur."
+          "uitleg": "Le poulet is kip en le poivre peper: die horen bij het warme eten. Le pain is brood en la confiture confituur."
         },
         {
           "type": "invultekst",
@@ -2061,12 +2078,14 @@
             "une chemise",
             "un pantalon",
             "une jupe",
-            "une ceinture"
+            "une ceinture",
+            "une robe"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Une ceinture is een riem en hoort bij de accessoires. Une chemise is een hemd, une jupe een rok."
         },
@@ -2090,15 +2109,14 @@
           "opties": [
             "marron",
             "orange",
-            "kaki",
+            "bleu",
             "vert"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Kleuren die eigenlijk de naam van een ding zijn, blijven onveranderd: des chaussures marron, des murs orange. Vert volgt wel gewoon: des murs verts."
+          "uitleg": "Marron en orange zijn eigenlijk de naam van een ding en blijven onveranderd: des chaussures marron, des murs orange. Vert en bleu volgen wel gewoon: des murs verts, des murs bleus."
         },
         {
           "type": "meerkeuze",
@@ -2280,12 +2298,14 @@
             "un boulanger",
             "une avocate",
             "un plombier",
-            "un bâtiment"
+            "un bâtiment",
+            "une infirmière"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Un bâtiment is een gebouw. Un boulanger is een bakker, une avocate een advocate, un plombier een loodgieter."
         },
@@ -2321,17 +2341,16 @@
           "type": "meerkeuze",
           "vraag": "Welke woorden zijn vervoermiddelen?",
           "opties": [
-            "un car",
+            "un carrefour",
             "un camion",
             "un avion",
             "un carnet"
           ],
           "antwoord": [
-            0,
             1,
             2
           ],
-          "uitleg": "Un carnet is een boekje of een rittenkaart. Un car is een reisbus, un camion een vrachtwagen, un avion een vliegtuig."
+          "uitleg": "Un carnet is een boekje en un carrefour een kruispunt. Un camion is een vrachtwagen en un avion een vliegtuig."
         },
         {
           "type": "meerkeuze",
@@ -2502,12 +2521,14 @@
             "soixante-dix",
             "quatre-vingts",
             "quatre-vingt-dix",
-            "septante-cinq"
+            "septante-cinq",
+            "soixante-quinze"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Septante bestaat wel, maar in België en Zwitserland, niet in Frankrijk. Let ook op: quatre-vingts met een s, maar quatre-vingt-dix zonder."
         },
@@ -2543,15 +2564,14 @@
           "opties": [
             "beaucoup de",
             "un peu de",
-            "assez de",
+            "pendant que",
             "parce que"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Parce que is een voegwoord. Na een hoeveelheid komt altijd de zonder lidwoord: beaucoup de travail, un peu d'eau."
+          "uitleg": "Parce que en pendant que zijn voegwoorden. Na een hoeveelheid komt altijd de zonder lidwoord: beaucoup de travail, un peu d'eau."
         },
         {
           "type": "invultekst",
@@ -3061,12 +3081,14 @@
             "cinquième",
             "neuvième",
             "onzième",
-            "neufième"
+            "neufième",
+            "quatrième"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Neuf verandert de f in een v: neuvième. Cinq krijgt er een u bij: cinquième. Die twee zijn de enige die van vorm veranderen."
         },
@@ -3183,15 +3205,14 @@
           "opties": [
             "Je lui parle tous les jours.",
             "Elle leur a répondu hier.",
-            "Nous lui téléphonons ce soir.",
+            "Je lui attends depuis une heure.",
             "Je lui vois à l'école."
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Voir vraagt geen à, dus daar hoort je le vois of je la vois. De andere werkwoorden gaan wel met à."
+          "uitleg": "Voir en attendre vragen geen à, dus daar hoort je le vois en je l'attends. Parler en répondre gaan wel met à."
         },
         {
           "type": "meerkeuze",
@@ -3250,14 +3271,16 @@
             "Je te le dis.",
             "Il le lui a donné.",
             "Elle nous en parle.",
-            "Je lui le donne."
+            "Je lui le donne.",
+            "Je t'en ai parlé."
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De laatste moet je le lui donne zijn: le komt vóór lui. Bij te en nous is het net omgekeerd."
+          "uitleg": "Je lui le donne klopt niet: le komt vóór lui. Bij te en nous is het net omgekeerd, daar staat het voornaamwoord van de persoon eerst."
         },
         {
           "type": "waarofniet",
@@ -3297,15 +3320,14 @@
           "opties": [
             "Je me lève tôt.",
             "Tu te souviens de lui ?",
-            "Nous nous dépêchons.",
+            "Nous se dépêchons.",
             "Il se lave les mains de lui."
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De laatste zin stapelt twee keer hetzelfde op. Il se lave les mains volstaat."
+          "uitleg": "Bij nous hoort nous, niet se: nous nous dépêchons. En 'il se lave les mains de lui' stapelt twee keer hetzelfde op, il se lave les mains volstaat."
         },
         {
           "type": "meerkeuze",
@@ -3384,12 +3406,14 @@
             "C'est le livre dont j'ai besoin.",
             "Voici l'ami dont je t'ai parlé.",
             "C'est la ville dont il vient.",
-            "C'est la maison dont j'habite."
+            "C'est la maison dont j'habite.",
+            "C'est le film dont tout le monde parle."
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Habiter gaat niet met de maar met à of dans, dus daar hoort où: la maison où j'habite. De andere werkwoorden vragen wel de."
         },
@@ -3426,12 +3450,14 @@
             "le mien",
             "la tienne",
             "les leurs",
-            "leur"
+            "leur",
+            "les nôtres"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Leur hoort voor een naamwoord: leur maison. Le mien, la tienne en les leurs staan alleen: ce livre est le mien."
         },
@@ -3461,15 +3487,14 @@
           "opties": [
             "celui",
             "celle",
-            "ceux",
+            "ces",
             "cette"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Cette hoort voor een naamwoord: cette maison. Celui, celle, ceux en celles staan alleen: celui de Marie, celle que je préfère."
+          "uitleg": "Cette en ces horen voor een naamwoord: cette maison, ces livres. Celui en celle staan alleen: celui de Marie, celle que je préfère."
         },
         {
           "type": "meerkeuze",
@@ -3565,12 +3590,14 @@
             "heureuse",
             "sportive",
             "blanche",
-            "beaus"
+            "beaus",
+            "belle"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Beau wordt belle, en het meervoud is beaux. Woorden op -eux worden -euse, op -f worden -ve, blanc wordt blanche."
         },
@@ -3604,17 +3631,16 @@
           "type": "meerkeuze",
           "vraag": "Welke bijvoeglijke naamwoorden hebben een aparte vorm voor een mannelijk woord dat met een klinker begint?",
           "opties": [
-            "beau wordt bel",
+            "bon wordt bol",
             "nouveau wordt nouvel",
             "vieux wordt vieil",
             "petit wordt petil"
           ],
           "antwoord": [
-            0,
             1,
             2
           ],
-          "uitleg": "Un bel homme, un nouvel appartement, un vieil arbre. Petit verandert niet: un petit arbre."
+          "uitleg": "Un nouvel appartement, un vieil arbre. Petit en bon veranderen niet: un petit arbre, un bon ami. Beau heeft wel zo'n vorm: un bel homme."
         },
         {
           "type": "invultekst",
@@ -3643,12 +3669,14 @@
             "grand",
             "petit",
             "jeune",
-            "intéressant"
+            "intéressant",
+            "bon"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een klein groepje korte, veelgebruikte woorden gaat vooraan: beau, bon, grand, gros, jeune, joli, mauvais, nouveau, petit, vieux. De rest komt achteraan."
         },
@@ -3791,15 +3819,14 @@
           "opties": [
             "rapidement",
             "vraiment",
-            "facilement",
+            "facilemente",
             "bonment"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het bijwoord van bon is bien, volledig onregelmatig. Vrai wordt vraiment zonder e, omdat de klinker al open is."
+          "uitleg": "Facile wordt facilement, niet facilemente. Het bijwoord van bon is bien, volledig onregelmatig. Vrai wordt vraiment zonder e, omdat de klinker al open is."
         },
         {
           "type": "waarofniet",
@@ -3826,12 +3853,14 @@
             "toujours",
             "parfois",
             "rarement",
-            "lentement"
+            "lentement",
+            "souvent"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Lentement zegt hoe, niet hoe vaak. Toujours is altijd, parfois is soms, rarement is zelden."
         },
@@ -3868,15 +3897,14 @@
           "opties": [
             "Il est plus rapide que moi.",
             "Elle est moins grande que lui.",
-            "Tu es aussi fort que ton frère.",
+            "Tu es aussi fort comme ton frère.",
             "Je suis plus mieux que toi."
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Plus mieux bestaat niet: mieux is al een vergrotende trap. Je suis meilleur que toi of je joue mieux que toi."
+          "uitleg": "Na aussi hoort que, niet comme. En plus mieux bestaat niet: mieux is al een vergrotende trap, dus je suis meilleur que toi."
         },
         {
           "type": "invultekst",
@@ -4013,12 +4041,14 @@
             "je parle",
             "tu parles",
             "ils parlent",
-            "nous parlons"
+            "nous parlons",
+            "elle parle"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De uitgangen -e, -es en -ent zwijgen allemaal. Daarom kan je bij het luisteren de persoon vaak alleen aan het voornaamwoord horen."
         },
@@ -4054,15 +4084,14 @@
           "opties": [
             "être",
             "faire",
-            "dire",
+            "aller",
             "avoir"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Vous êtes, vous faites, vous dites. Avoir is gewoon vous avez. Vous disez en vous faisez zijn klassieke fouten."
+          "uitleg": "Vous êtes, vous faites. Aller en avoir zijn gewoon vous allez en vous avez. Dire hoort wél bij het groepje: vous dites."
         },
         {
           "type": "waarofniet",
@@ -4089,12 +4118,14 @@
             "prendre",
             "venir",
             "pouvoir",
-            "chanter"
+            "chanter",
+            "boire"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Je prends tegenover nous prenons, je viens tegenover nous venons, je peux tegenover nous pouvons. Chanter blijft chant- in alle personen."
         },
@@ -4238,15 +4269,14 @@
           "opties": [
             "sois (être)",
             "aie (avoir)",
-            "sache (savoir)",
+            "veux (vouloir)",
             "parle (parler)"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Être, avoir, savoir en vouloir hebben een eigen bevelende vorm, geleend van de subjonctif. Parler is gewoon regelmatig."
+          "uitleg": "Être, avoir, savoir en vouloir hebben een eigen bevelende vorm, geleend van de subjonctif: sois, aie, sache, veuille. Veux en parle zijn de gewone vormen."
         },
         {
           "type": "meerkeuze",
