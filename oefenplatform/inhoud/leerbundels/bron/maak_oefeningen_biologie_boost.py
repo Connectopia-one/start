@@ -1119,3 +1119,697 @@ OEFENBUNDELS["oefenbundel-wetenschappelijk-onderzoek-en-stem-biologie-boost-door
              ]),
     ],
 )
+
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-homeostase-en-waterhuishouding-bij-planten-biologie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Werk van buiten naar binnen: eerst de organen, dan de weefsels, dan de lagen. Zo zit "
+                    "elke naam op zijn plaats in het geheel.",
+             waarom=[
+                 None,
+                 "Onthoud het aan de naam: xyleem is hout en voert water, floëem komt van vloeien en voert "
+                 "het sap met suikers.",
+                 "De cuticula ligt op de epidermis; ze is geen cellaag maar een waslaagje dat die cellen "
+                 "afdekken.",
+             ]),
+        dict(aanpak="Vraag je bij elke bewering af welke kracht of welke stof er precies genoemd wordt. Eén "
+                    "verkeerd woord maakt een hele zin fout.",
+             waarom=[
+                 None,
+                 "De turgor is de druk van het water ván binnenuit tegen de celwand. Dat is wat een plant "
+                 "rechthoudt.",
+                 "De zwaartekracht werkt juist tegen: het water moet eróp. Dat is net waarom er drie "
+                 "krachten nodig zijn.",
+                 "Hier zie je de keuze die de plant moet maken: water sparen of fotosynthese doen. Allebei "
+                 "tegelijk gaat niet.",
+                 "De kleur van de bloemblaadjes heeft met bestuivers te maken, niet met water. Let op zulke "
+                 "beweringen die alleen biologisch klinken.",
+             ]),
+        dict(aanpak="Drie krachten tillen het water omhoog: worteldruk duwt, transpiratiezuiging trekt, "
+                    "capillariteit helpt in de nauwe vaten.",
+             waarom=[
+                 "De transpiratiezuiging is veruit de sterkste van de drie. Worteldruk alleen zou nooit tot "
+                 "in de kruin van een boom komen.",
+             ]),
+        dict(aanpak="Leg bij zulke vragen altijd twee dingen uit: wat de plant wint en wat ze verliest. Een "
+                    "plant kiest altijd tussen water en koolstofdioxide.",
+             waarom=[None, None, None]),
+        dict(aanpak="Een plant heeft geen zenuwen maar hormonen. Elk hormoon doet één ding; leer ze aan dat "
+                    "ene effect.",
+             waarom=[
+                 "Auxine verzamelt zich aan de donkere kant, waar de cellen dan sterker strekken. Daardoor "
+                 "buigt de stengel naar het licht toe.",
+                 "Bij een tropie bepaalt de prikkel de richting. Een blad dat dichtklapt of een bloem die "
+                 "opengaat, doet dat altijd op dezelfde manier: dat zijn nastieën.",
+                 None,
+                 "Een plant heeft geen zenuwen en geen centraal orgaan. Alles verloopt via hormonen, en "
+                 "daarom duurt het ook veel langer.",
+             ]),
+        dict(aanpak="De fotosynthese verbindt dit hele hoofdstuk: water, licht en koolstofdioxide komen er "
+                    "samen. Zonder water geen fotosynthese.",
+             waarom=[
+                 "Tel de atomen links en rechts na; de vergelijking moet kloppen. De zes voor het water en "
+                 "de koolstofdioxide zijn geen versiering.",
+                 None,
+                 "Noem alle drie de manieren: water als grondstof, open huidmondjes, en het aanvoeren van "
+                 "mineralen. Eén ervan is zelden genoeg voor de punten.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-van-prikkel-tot-reactie-en-het-zenuwstelsel-biologie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Zet eerst de vijf schakels op een rij, en vul daarna bij elke schakel in wat ze in dit "
+                    "voorbeeld is. Werk nooit omgekeerd.",
+             waarom=[
+                 "De punten zitten in het invullen: niet enkel receptor noemen maar ook zeggen dat het hier "
+                 "de haarcellen in het oor zijn.",
+             ]),
+        dict(aanpak="Een receptor vangt op, een effector voert uit. Vraag je af of het orgaan iets "
+                    "waarneemt of iets doet.",
+             waarom=[
+                 "Een klier is ook een effector, net als een spier. Effector betekent uitvoerder, niet "
+                 "beweger.",
+                 None,
+             ]),
+        dict(aanpak="Zet bij elke reflex de prikkel en de reactie apart. Een reflex is altijd dat vaste "
+                    "paar.",
+             waarom=[
+                 None,
+                 "Dat de overschakeling níét in de grote hersenen gebeurt, is net wat een reflex snel "
+                 "maakt.",
+                 "Sommige reflexen kan je onderdrukken, zoals knipperen, maar de pupilreflex en de "
+                 "kniepeesreflex niet. Daarom test een arts die laatste.",
+             ]),
+        dict(aanpak="Drie delen, drie taken: de hersenstam houdt je in leven, de grote hersenen denken, de "
+                    "kleine hersenen stemmen af.",
+             waarom=[None, None, None]),
+        dict(aanpak="Volg het signaal door het neuron: binnen bij de dendrieten, buiten langs het ene axon. "
+                    "De bouw bepaalt de richting.",
+             waarom=[
+                 None, None,
+                 "Veel ingangen en één uitgang: dat is de hele bouw van een neuron, en de reden dat het "
+                 "signalen kan samenvoegen.",
+                 "Dat springen heet saltatoire geleiding. Het is de reden dat een gemyeliniseerde vezel "
+                 "tientallen keren sneller is.",
+             ]),
+        dict(aanpak="Vergelijk telkens op drie punten: snelheid, waar het overschakelt, en hoe lang het "
+                    "effect duurt.",
+             waarom=[
+                 None,
+                 "Dit is de reden dat je beide stelsels nodig hebt: snel en kort tegenover traag en lang. "
+                 "Ze vullen elkaar aan.",
+                 "Blaasjes aan de ene kant, receptoren aan de andere: daarom kan het signaal maar één kant "
+                 "op.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-het-oog-biologie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Volg het licht van buiten naar binnen. Die ene rij is de ruggengraat van het hele "
+                    "hoofdstuk.",
+             waarom=[
+                 "Let op dat het hoornvlies vóór de pupil komt: de pupil is een gat in de iris, en die ligt "
+                 "erachter.",
+             ]),
+        dict(aanpak="Zet bij elk deel zijn taak. De drie vliezen van buiten naar binnen zijn het harde "
+                    "oogvlies, het vaatvlies en het netvlies.",
+             waarom=[
+                 "Het vaatvlies is zwart van binnen; dat neemt het strooilicht weg, zoals de zwarte "
+                 "binnenkant van een fototoestel.",
+                 None,
+             ]),
+        dict(aanpak="Staafjes en kegeltjes verschillen op drie punten: licht, kleur en plaats. Zet die drie "
+                    "altijd naast elkaar.",
+             waarom=[
+                 "Dat de staafjes buiten het midden liggen, verklaart waarom je een zwakke ster beter ziet "
+                 "als je er net naast kijkt.",
+                 None, None,
+                 "De hersenen draaien het beeld terug om. Wat je ziet, is dus al verwerkt.",
+             ]),
+        dict(aanpak="Accommodatie is het boller of platter worden van de lens. Dichtbij vraagt meer buiging, "
+                    "dus een bollere lens.",
+             waarom=[
+                 None,
+                 "Let op het woord ontspannen: de lens is van zichzelf bol, en het kringspiertje laat hem "
+                 "boller worden door los te laten van de spanning.",
+                 "Noem beide redenen. Dat de hersenen aanvullen, is het verrassende deel van het antwoord.",
+             ]),
+        dict(aanpak="Bij elke afwijking: waar valt het beeld, en welke lens brengt het terug op het "
+                    "netvlies. Dat is telkens dezelfde redenering.",
+             waarom=[
+                 "Bijziend betekent dichtbij goed zien; het beeld valt dan vóór het netvlies. Die "
+                 "koppeling is het makkelijkst te onthouden.",
+                 None,
+                 "Een verkeerde bril geeft hoofdpijn en vermoeide ogen, maar beschadigt het netvlies niet. "
+                 "Let op zulke overdreven beweringen.",
+                 "Ouderdomsverziendheid komt van een stijvere lens, gewone verziendheid van een te korte "
+                 "oogbol. Dezelfde klacht, een andere oorzaak.",
+             ]),
+        dict(aanpak="Zien gebeurt pas in de hersenen. Het oog levert enkel impulsen aan.",
+             waarom=[
+                 "Dit heet stereozicht. Het verklaart ook waarom iemand met één oog moeilijker kan "
+                 "inschatten hoe ver iets ligt.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-het-oor-en-het-evenwicht-biologie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Drie delen in de volgorde waarin het geluid ze doorloopt: uitwendig, midden, "
+                    "inwendig. Elk deel heeft zijn eigen soort trilling.",
+             waarom=[
+                 None,
+                 "De buis van Eustachius verbindt het middenoor met de keel. Daarom kan je de druk erin "
+                 "bijsturen door te slikken.",
+             ]),
+        dict(aanpak="Zet bij elke schakel ook de drager erbij: lucht, vast of vloeistof. Dat is net wat deze "
+                    "opdracht toetst.",
+             waarom=[
+                 "Het geluid verandert driemaal van drager. Juist daarvoor dienen de gehoorbeentjes: de "
+                 "trilling van lucht naar vloeistof overzetten.",
+             ]),
+        dict(aanpak="Vraag je bij elke bewering af wat er precies trilt en wat er vervangen of hersteld "
+                    "wordt.",
+             waarom=[
+                 "Ze maken de trilling krachtiger omdat het trommelvel veel groter is dan het venster "
+                 "waarop de stijgbeugel duwt. Zonder die versterking zou het geluid in de vloeistof "
+                 "verloren gaan.",
+                 "In het slakkenhuis zit vloeistof. Dat is net waarom het geluid versterkt moet worden.",
+                 "Dat haarcellen niet teruggroeien, is de reden dat lawaaischade blijvend is. Oordopjes op "
+                 "een fuif zijn dus geen overdreven voorzorg.",
+                 "Een hoortoestel versterkt enkel het geluid. Het herstelt niets; het maakt alleen beter "
+                 "bruikbaar wat er nog over is.",
+                 None,
+             ]),
+        dict(aanpak="Leg bij zulke vragen altijd de bouw en het gevolg samen uit. De vorm van het "
+                    "slakkenhuis verklaart drie van deze antwoorden.",
+             waarom=[
+                 None,
+                 "Dit heet de plaatstheorie: elke toonhoogte heeft haar eigen plek. Daarom kan een "
+                 "gehoortest per frequentie meten.",
+                 "Het begin van het slakkenhuis krijgt álle geluid te verwerken. Daarom slijten juist de "
+                 "haarcellen voor de hoge tonen het eerst.",
+             ]),
+        dict(aanpak="Het evenwichtsorgaan meet twee dingen: de stand van je hoofd en de draai ervan. Twee "
+                    "soorten informatie, twee soorten structuren.",
+             waarom=[
+                 "De zakjes met gewichtjes meten stand, de kanaaltjes meten draai. Die twee uit elkaar "
+                 "houden is het halve hoofdstuk.",
+                 None,
+                 "Dezelfde traagheid als bij de bus die remt. Eén natuurkundig begrip, twee vakken.",
+                 "Drie richtingen, drie vlakken: knikken, kantelen en rondkijken. Daarom precies drie "
+                 "kanalen.",
+             ]),
+        dict(aanpak="Duizeligheid en wagenziekte ontstaan allebei doordat je oor en je ogen iets anders "
+                    "melden. Zoek dus altijd het conflict.",
+             waarom=[
+                 None,
+                 "Hier zie je waarom het advies werkt: naar buiten kijken maakt de twee berichten weer "
+                 "gelijk. Dat is de hele uitleg.",
+                 "Je evenwicht komt uit drie bronnen tegelijk. Daarom kan je ook op één been staan met je "
+                 "ogen dicht, maar veel moeilijker.",
+                 "De signalen gaan eerst naar de hersenen, die ze met de ogen en de spieren vergelijken. "
+                 "Pas daarna volgt een reactie.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-spieren-en-de-klieren-biologie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Twee vragen apart: is het gestreept, en stuur je het zelf. Het hartspierweefsel is "
+                    "gestreept én onwillekeurig.",
+             waarom=[
+                 None,
+                 "Het hart is de uitzondering die elk examen graag vraagt: gestreept maar niet door jou "
+                 "aan te sturen.",
+             ]),
+        dict(aanpak="Hou vast dat de filamenten niet korter worden maar langs elkaar schuiven. Elk antwoord "
+                    "in deze reeks volgt uit dat ene beeld.",
+             waarom=[
+                 "Actine is dun, myosine is dik. Onthoud het aan de letters: myosine is massiever.",
+                 None,
+                 "De filamenten blijven even lang. Dat is net waarom de banden van breedte veranderen en "
+                 "niet de filamenten zelf.",
+                 "De lichte band bevat alleen actine, en die wordt overdekt wanneer de filamenten in elkaar "
+                 "schuiven. Daarom wordt juist die band smaller.",
+                 "In de donkere band ligt de myosine, met de actine die ertussen schuift. De lichte band is "
+                 "die met alleen actine.",
+                 None,
+             ]),
+        dict(aanpak="Een spier heeft drie dingen nodig: een prikkel, energie en calcium. Mist er één, dan "
+                    "trekt ze niet samen.",
+             waarom=[
+                 None,
+                 "Vergeet het calcium niet. Dat is de schakel tussen de zenuwprikkel en het vastgrijpen van "
+                 "de myosinekopjes.",
+                 "Dit is anaërobe verbranding: zonder genoeg zuurstof blijft melkzuur over. Met rust en "
+                 "zuurstof wordt dat weer afgebroken.",
+                 None,
+             ]),
+        dict(aanpak="Zet bij elke klier haar hormoon en het effect. Een hormoon werkt traag maar lang, een "
+                    "zenuwimpuls snel maar kort.",
+             waarom=[
+                 None,
+                 "Zo'n klier heet endocrien. Een klier mét afvoergang, zoals de zweetklier, is exocrien.",
+                 "Dat is het sleutel-slotprincipe. Het verklaart waarom een hormoon overal komt en toch "
+                 "maar op bepaalde plaatsen iets doet.",
+                 "Een zenuwimpuls werkt in milliseconden, een hormoon in minuten tot dagen. De traagheid "
+                 "is net de prijs voor de duur.",
+                 "Noem ook wat er trager gaat: de spijsvertering. Adrenaline zet het lichaam klaar om te "
+                 "vechten of te vluchten, niet om te verteren.",
+             ]),
+        dict(aanpak="De bètacel verlaagt, de alfacel verhoogt. Beschrijf bij elke vraag de hele kring, niet "
+                    "enkel het hormoon.",
+             waarom=[
+                 "Onthoud ze aan de letters: bèta hoort bij insuline, alfa bij glucagon.",
+                 "Beschrijf alle vier de stappen. Een antwoord dat enkel insuline noemt, toont de "
+                 "terugkoppeling niet.",
+                 "Homeostase vraagt twee tegengestelde regelaars. Met één hormoon kan je enkel in één "
+                 "richting bijsturen.",
+                 "Bij type 1 ligt het aan de bètacellen zelf, bij type 2 reageren de lichaamscellen minder "
+                 "goed op insuline. Dat verschil bepaalt de behandeling.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-voortplanting-en-de-menstruatiecyclus-biologie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Deze woorden komen in de hele bundel terug. Leer ze met het moment waarop ze in het "
+                    "verhaal voorkomen.",
+             waarom=[
+                 None,
+                 "Het geel lichaam is wat na de ovulatie van de follikel overblijft. Het maakt progesteron, "
+                 "en dat verklaart de hele tweede helft van de cyclus.",
+                 "Een gameet heeft de helft van 46. Juist daarom heeft de zygote er na de bevruchting weer "
+                 "46.",
+             ]),
+        dict(aanpak="Vraag je bij elke bewering af welk orgaan of welk hormoon er genoemd wordt. Eén "
+                    "verkeerde naam maakt de zin fout.",
+             waarom=[
+                 None,
+                 "De twee bloedbanen lopen vlak langs elkaar maar blijven gescheiden. Alleen de stoffen "
+                 "gaan door de dunne wand.",
+                 "Alcohol, nicotine en veel medicijnen passeren wel. Daarom geldt het advies over alcohol "
+                 "tijdens de zwangerschap.",
+                 "De hypofyse stuurt de geslachtsklieren aan, niet de schildklier. Die regelt de "
+                 "stofwisseling.",
+                 "Een eeneiige tweeling komt uit één bevruchte eicel die zich gesplitst heeft. Een "
+                 "twee-eiige komt uit twee eicellen en lijkt dus op gewone broers of zussen.",
+             ]),
+        dict(aanpak="Drie structuren met elk hun taak: uitwisselen, verbinden en beschermen. Zet die taken "
+                    "erbij, niet enkel de namen.",
+             waarom=[None, None]),
+        dict(aanpak="De cyclus heeft twee hormonale fasen rond de ovulatie: oestrogeen bouwt op, "
+                    "progesteron houdt in stand.",
+             waarom=[
+                 "Luteaal komt van het geel lichaam, het corpus luteum. De naam van de fase zegt dus welk "
+                 "orgaan er werkt.",
+                 None, None,
+                 "Beschrijf de ketting: geel lichaam weg, progesteron weg, slijmvlies los. Elke stap volgt "
+                 "uit de vorige.",
+             ]),
+        dict(aanpak="De cyclus is een terugkoppeling tussen hypofyse en eierstok. Bijna elke vraag erover "
+                    "is een vraag over die kring.",
+             waarom=[
+                 None,
+                 "De luteale fase duurt bij bijna iedereen ongeveer veertien dagen. Een langere cyclus komt "
+                 "dus door een langere eerste helft.",
+                 "Noem ook de twee tekens waarop je wél kan letten. Een antwoord dat enkel zegt dat het niet "
+                 "kan, is maar half af.",
+                 "De pil werkt dus niet op de eierstok zelf maar op de hypofyse. Het is terugkoppeling die "
+                 "van buitenaf nagebootst wordt.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-biodiversiteit-en-micro-organismen-biologie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Biodiversiteit bestaat op drie niveaus: binnen een soort (genen), tussen soorten, en "
+                    "tussen ecosystemen. Vraag je af waartussen het verschil zit.",
+             waarom=[
+                 "Verschil binnen één soort is genetische diversiteit. Dat niveau wordt het vaakst "
+                 "vergeten, en het is net het belangrijkste voor overleven.",
+                 "Vruchtbare nakomelingen is het beslissende woord: een paard en een ezel krijgen wel een "
+                 "muildier, maar dat is onvruchtbaar.",
+             ]),
+        dict(aanpak="Vraag je bij elke bewering af of ze over een soort, over een middel of over een "
+                    "verband gaat. Twee ervan zijn klassieke misverstanden.",
+             waarom=[
+                 "Dit heet veerkracht: meer soorten betekent meer kans dat een andere soort een rol kan "
+                 "overnemen.",
+                 "Dat zijn het geslacht en de soort, in het Latijn. Daardoor begrijpt een onderzoeker in "
+                 "elk land welke soort je bedoelt.",
+                 None,
+                 "Antibiotica werken enkel tegen bacteriën. Daarom krijg je er bij een griep geen.",
+                 "De meeste bacteriën in en op ons zijn nuttig of onschadelijk. Je darmmicrobioom helpt "
+                 "zelfs verteren.",
+             ]),
+        dict(aanpak="Zet bij elke bedreiging de oplossing die ze rechtstreeks aanpakt. Een algemene zin "
+                    "over natuur beschermen levert geen punten op.",
+             waarom=[
+                 None,
+                 "Dit is de kern: niet de oppervlakte telt maar de verbinding. Kleine, gescheiden groepen "
+                 "verliezen hun genetische variatie.",
+                 "Noem concrete dingen, geen goede voornemens. Inheemse planten, een verwilderd hoekje en "
+                 "geen gif zijn drie echte maatregelen.",
+             ]),
+        dict(aanpak="Drie groepen, drie verschillen: een bacterie is een cel, een virus is geen cel, een "
+                    "schimmel heeft wel een echte kern.",
+             waarom=[
+                 None,
+                 "Geen eigen stofwisseling is net waarom men twijfelt of een virus leeft. Het heeft altijd "
+                 "een gastheercel nodig.",
+                 "Zeg erbij waaróp een antibioticum ingrijpt, zoals de celwand. Een virus heeft dat niet, "
+                 "en daarom werkt het middel niet.",
+                 "Hier zie je selectie aan het werk, net als bij evolutie. De kuur afmaken is dus geen "
+                 "formaliteit maar de kern van het middel.",
+             ]),
+        dict(aanpak="Micro-organismen doen in de keuken en in de natuur hetzelfde: ze breken stoffen af. "
+                    "Alleen het doel verschilt.",
+             waarom=[
+                 None,
+                 "Zonder reducenten stopt de kringloop. Dat is de rol die in bijna elke ecosysteemvraag "
+                 "terugkomt.",
+             ]),
+        dict(aanpak="De afweer werkt in lagen: eerst buitenkant tegenhouden, dan algemeen opruimen, dan "
+                    "gericht met antistoffen.",
+             waarom=[
+                 "Dit zijn de barrières die er altijd zijn, nog vóór je afweersysteem iets doet. Daarom "
+                 "heet een wonde een poort voor infectie.",
+                 None,
+                 "Zeg erbij dat je er niet ziek van wordt. Dat is precies het verschil tussen een vaccin en "
+                 "de ziekte zelf doormaken.",
+                 "Hygiëne werkt op de weg van besmetting, niet op het micro-organisme. Daarom is het zo "
+                 "doeltreffend en zo goedkoop.",
+                 "Reken het na: een bacterie die zich elk half uur deelt, is na tien uur miljoenen keer "
+                 "talrijker. Dat is waarom de koelkast bestaat.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-gedrag-en-interactie-biologie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je af of het dier het moest meemaken om het te kunnen. Zo niet, dan is het "
+                    "aangeboren.",
+             waarom=[
+                 None,
+                 "Een spin leert haar web van niemand: ze bouwt het de eerste keer al goed. Dat is het "
+                 "bewijs dat het aangeboren is.",
+             ]),
+        dict(aanpak="Elke leervorm heeft één kenmerk: gewenning laat een reactie wegvallen, conditionering "
+                    "koppelt, inprenting gebeurt eenmalig en vroeg.",
+             waarom=[
+                 "Gewenning is geen vergeten maar leren dat een prikkel niets betekent. Daarom werkt een "
+                 "vogelverschrikker na een tijd niet meer.",
+                 None,
+                 "Wat je leert, gaat niet in je genen zitten. Het wordt wel doorgegeven door het voor te "
+                 "doen, en dat is cultuur en geen erfelijkheid.",
+                 "Noem bij allebei het voordeel. Het verschil is snelheid tegenover aanpasbaarheid.",
+             ]),
+        dict(aanpak="Zet bij elke relatie wie voordeel heeft en wie nadeel. Twee keer voordeel is symbiose, "
+                    "voordeel plus niets is commensalisme.",
+             waarom=[
+                 None, None,
+                 "De tabel is het kerntje van dit hoofdstuk: vul hem in met plus, min en nul, dan heb je "
+                 "alle vier de relaties in één oogopslag.",
+             ]),
+        dict(aanpak="Deze vragen gaan over evenwicht tussen soorten. Denk telkens door wat er na de eerste "
+                    "verandering gebeurt.",
+             waarom=[
+                 None,
+                 "Dit is het begrip niche: hoe meer de behoeften overlappen, hoe scherper de competitie. "
+                 "Soortgenoten overlappen volledig.",
+                 "Dit heet nichedifferentiatie. Hetzelfde voedsel op een andere plaats halen, is genoeg om "
+                 "samen te bestaan.",
+                 "Beschrijf de hele ketting: prooien eerst meer, dan de planten kaal, dan de prooien zelf "
+                 "in de problemen. Het eindigt niet bij het eerste gevolg.",
+             ]),
+        dict(aanpak="Een groep brengt voordelen en nadelen tegelijk. Noem er altijd van allebei, en zeg "
+                    "waarvoor een rangorde dient.",
+             waarom=[
+                 None, None, None,
+                 "Een hiërarchie bespaart gevechten en dus energie. Ze bestaat niet om de sterkste te "
+                 "belonen maar om conflicten kort te houden.",
+                 "Herhaling en meerdere dieren: dat is de kern van elke proef over gedrag. Met één dier en "
+                 "één poging meet je toeval.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-materie-en-energiestromen-in-een-ecosysteem-biologie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Autotroof maakt zelf organische stof, heterotroof haalt ze uit een ander organisme. "
+                    "Auto is zelf, hetero is anders.",
+             waarom=[
+                 "Een schimmel is heterotroof, al lijkt hij op een plant. Hij heeft geen bladgroen en "
+                 "breekt af in plaats van op te bouwen.",
+                 None,
+             ]),
+        dict(aanpak="Fotosynthese en celademhaling zijn elkaars omgekeerde. Zet grondstoffen, producten, "
+                    "plaats en energie telkens naast elkaar.",
+             waarom=[
+                 "De twee zijn elkaars spiegelbeeld. Leer ze dus nooit apart, altijd als paar.",
+                 None,
+                 "Een dierlijke cel heeft geen chloroplasten en doet enkel celademhaling. Daarom moet een "
+                 "dier eten.",
+                 "Netto is het sleutelwoord: de celademhaling stopt nooit, ook niet overdag. Alleen de "
+                 "balans verschuift.",
+             ]),
+        dict(aanpak="Gisting is afbraak zonder zuurstofgas, en dus onvolledig. Een enzym versnelt zo'n "
+                    "omzetting zonder zelf te verdwijnen.",
+             waarom=[
+                 None,
+                 "Dat er nog energie in de ethanol zit, kan je proeven en zien: alcohol brandt. Daar zit de "
+                 "rest van de energie.",
+                 None,
+                 "Dit is weer het sleutel-slotprincipe. Buiten het juiste gebied verandert de vorm van het "
+                 "enzym, en dan past de sleutel niet meer.",
+             ]),
+        dict(aanpak="Zet een keten altijd met de pijlen in de richting van de stroom: van het gegeten "
+                    "organisme naar wie het eet.",
+             waarom=[
+                 None,
+                 "De richting van de pijl is het halve antwoord. Hij volgt de stof en de energie, niet de "
+                 "blik van het roofdier.",
+                 None,
+             ]),
+        dict(aanpak="Onthoud de vuistregel van een tiende per stap. Daarmee kan je elke vraag over een "
+                    "piramide beantwoorden.",
+             waarom=[
+                 None,
+                 "Werk in stappen van een tiende en schrijf elke stap op. Zo zie je hoe snel het getal "
+                 "kleiner wordt.",
+                 "Dit is hetzelfde tiende, drie vragen lang. Eén vuistregel draagt de hele reeks.",
+                 "Daarom gaat deze vraag over meer dan biologie: de energiepiramide verklaart waarom "
+                 "plantaardig eten minder land vraagt.",
+                 None,
+                 "Zonder reducenten blijven de mineralen opgesloten in dood materiaal. Zonlicht alleen "
+                 "volstaat niet, want de kringloop is dan onderbroken.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-kringlopen-voedselrelaties-en-de-mens-biologie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Zoek bij elk voorbeeld de stof die rondgaat. Water, koolstof en stikstof hebben een "
+                    "gasvorm, fosfor niet.",
+             waarom=[
+                 "Die wortelknolletjes zijn het kenmerk van de stikstofkringloop: bacteriën maken "
+                 "stikstofgas bruikbaar voor planten.",
+                 "Dat fosfor geen gasvorm heeft, is net waarom die kringloop zo traag is: hij loopt enkel "
+                 "via gesteente, bodem en water.",
+             ]),
+        dict(aanpak="Vraag je bij elke bewering af of de stof rondgaat en hoe snel. Materie keert terug, "
+                    "energie niet.",
+             waarom=[
+                 "De atomen in je lichaam zaten ooit in een plant, een dier of in de lucht. Dat is wat een "
+                 "kringloop betekent.",
+                 None,
+                 "Stikstofgas is heel stabiel. Planten hebben bacteriën nodig die het eerst omzetten; "
+                 "daarom bestaat die hele kringloop.",
+                 "De fosforkringloop is juist de traagste, want hij loopt langs gesteente. Daarom is fosfaat "
+                 "een eindige grondstof.",
+                 None,
+             ]),
+        dict(aanpak="Beschrijf elk gevolg als een ketting van stappen. De punten zitten in de verbanden, "
+                    "niet in het eindpunt.",
+             waarom=[
+                 "Het punt is het tempo: wat in miljoenen jaren vastgelegd werd, komt er in enkele eeuwen "
+                 "weer uit. De kringloop zelf is niet nieuw.",
+                 "Zet de vier stappen echt op een rij: algen, licht weg, planten dood, zuurstof op. Het "
+                 "zuurstoftekort is het einde van de ketting, niet het begin.",
+                 None, None,
+             ]),
+        dict(aanpak="Deze begrippen beschrijven een populatie en haar plaats. Leer ze aan een voorbeeld, "
+                    "niet aan de definitie alleen.",
+             waarom=[
+                 "Een niche is meer dan een plaats: het is alles wat een soort nodig heeft en doet. Daarom "
+                 "kunnen twee soorten dezelfde plek delen met een andere niche.",
+                 "Een indicatorsoort zoals een korstmos of een steenvlieg vertelt je iets over de lucht of "
+                 "het water zonder dat je meet.",
+                 "Vergeet de migratie niet. Veel antwoorden noemen enkel geboorte en sterfte, en dat is "
+                 "onvolledig.",
+                 "Dit heet het competitieuitsluitingsprincipe. Het verklaart waarom soorten in de natuur "
+                 "altijd ergens van elkaar verschillen.",
+             ]),
+        dict(aanpak="Successie gaat altijd dezelfde kant op, van kaal naar bos. Beheer betekent dat je dat "
+                    "proces met opzet tegenhoudt.",
+             waarom=[
+                 "Elke fase maakt de volgende mogelijk: pioniers vormen humus, en daarop kunnen grassen en "
+                 "later struiken groeien.",
+                 "Natuurbeheer is dus niet de natuur haar gang laten gaan. Een heide is een landschap dat "
+                 "onderhoud vraagt.",
+                 "Noem beide voordelen: water vasthouden én leefruimte. Een beek rechttrekken deed precies "
+                 "het omgekeerde van allebei.",
+             ]),
+        dict(aanpak="De voetafdruk gaat over land, water en energie samen. Wat hoger in de voedselketen "
+                    "zit, kost meer.",
+             waarom=[
+                 None,
+                 "Dit is dezelfde energiepiramide als in het vorige hoofdstuk. Eén begrip verklaart hier "
+                 "een keuze in de supermarkt.",
+                 "Het punt is dat soorten niet altijd kúnnen meeverhuizen. Een bergtop of een versnipperd "
+                 "landschap heeft geen uitweg.",
+                 "Volg de ketting door: minder bestuiving, minder zaad, minder planten. Daarna volgen ook "
+                 "de dieren die van die planten leven.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-levensreddend-handelen-biologie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="De orde ligt vast: veiligheid, bewustzijn, ademhaling, hulp bellen. Die vier stappen "
+                    "zijn zelf de leerstof.",
+             waarom=[
+                 "Veiligheid komt eerst, altijd. Een tweede slachtoffer helpt niemand vooruit.",
+                 None,
+                 "Zeg vooral waar je bent, en blijf aan de lijn. De centralist kan je door de rest leiden "
+                 "zolang je niet ophangt.",
+             ]),
+        dict(aanpak="Twee vragen beslissen alles: reageert hij, en ademt hij normaal. Daaruit volgt wat je "
+                    "doet.",
+             waarom=[
+                 "Let op het verschil tussen de eerste twee: dezelfde bewusteloosheid, een andere "
+                 "handeling. De ademhaling beslist.",
+                 "Zolang iemand krachtig hoest, laat je hem hoesten. Dat werkt beter dan wat jij kan doen.",
+             ]),
+        dict(aanpak="De cijfers van een reanimatie leer je uit het hoofd: dertig op twee, honderd tot "
+                    "honderdtwintig per minuut, ongeveer vijf centimeter diep.",
+             waarom=[
+                 None,
+                 "Elke onderbreking laat de bloeddruk wegvallen. Daarom massage je door tot de hulpdiensten "
+                 "of de AED je laten stoppen.",
+                 "Met de luidspreker aan verlies je geen tijd. Dat is het antwoord dat deze vraag zoekt.",
+                 "Stoppen mag enkel als de ademhaling weer normaal is. Je blijft wel kijken, want het kan "
+                 "opnieuw misgaan.",
+             ]),
+        dict(aanpak="Een AED beslist zelf of een schok nodig is. Jij volgt enkel de gesproken aanwijzingen.",
+             waarom=[
+                 "Het toestel analyseert eerst het hartritme. Je kan er dus geen schok mee geven aan iemand "
+                 "die er geen nodig heeft.",
+                 "Daarom hangen ze in winkelcentra en sportzalen. Wachten op iemand met een opleiding kost "
+                 "net de minuten die tellen.",
+                 "Vergeet de laatste niet: niemand raakt het slachtoffer aan tijdens de schok. Dat is de "
+                 "enige veiligheidsregel bij een AED.",
+             ]),
+        dict(aanpak="Zeg bij elke situatie niet alleen wat je niet doet, maar ook waarom niet. Daar zitten "
+                    "de punten.",
+             waarom=[
+                 "Vet houdt de warmte vast en maakt de wonde moeilijker te beoordelen. Lauw stromend water "
+                 "doet het omgekeerde.",
+                 None,
+                 "Drinken geven lijkt vriendelijk en is net gevaarlijk: verslikken, en een lege maag is "
+                 "nodig voor een eventuele operatie.",
+                 "Iets tussen de tanden steken breekt tanden en is gevaarlijk. Je beschermt enkel het hoofd "
+                 "en wacht de aanval af.",
+             ]),
+        dict(aanpak="Deze laatste reeks legt de woorden vast. Weten waarom iets zo heet, helpt je de "
+                    "handeling onthouden.",
+             waarom=[
+                 "Extern betekent van buitenaf, defibrilleren betekent het chaotische ritme stilleggen zodat "
+                 "het hart opnieuw kan beginnen.",
+                 None,
+                 "Water spoelt zonder het weefsel te beschadigen. Alcohol doodt wel kiemen maar ook de "
+                 "cellen die de wonde moeten helen.",
+                 "Hersencellen verdragen maar enkele minuten zonder bloed. Daarom beslist de omstaander en "
+                 "niet de ziekenwagen over de afloop.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-wetenschappelijk-onderzoek-en-stem-biologie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Twee variabelen uit elkaar houden: de onafhankelijke stel je zelf in, de afhankelijke "
+                    "meet je. Al de rest houd je constant.",
+             waarom=[
+                 "De controlegroep is de maatstaf: zonder die groep weet je niet wat er zonder behandeling "
+                 "gebeurd zou zijn.",
+                 "Een storende variabele is een tweede factor die mee veranderde. Die opsporen is de kern "
+                 "van de volgende reeks.",
+             ]),
+        dict(aanpak="Zoek bij elke opzet welke regel geschonden wordt: te weinig herhaling, twee factoren "
+                    "tegelijk, of geen controlegroep.",
+             waarom=[
+                 "Twee plantjes is geen proef maar een vergelijking van twee individuen. Herhaling is wat "
+                 "toeval uitsluit.",
+                 "Noem de storende variabele bij naam: de temperatuur. Zonder dat woord toon je niet dat je "
+                 "ziet wát er misgaat.",
+                 None,
+                 "Gegevens aanpassen is geen slordigheid maar bedrog. De meting beslist, niet de "
+                 "verwachting.",
+                 "Een weerlegde hypothese is een geldig resultaat: je weet nu iets wat je ervoor niet wist.",
+             ]),
+        dict(aanpak="Een opzet uitschrijven doe je in vaste onderdelen: vraag, hypothese, de twee "
+                    "variabelen, en wat constant blijft. Sla er geen over.",
+             waarom=[
+                 "De hypothese krijgt een waarom erbij, hier de stikstofbindende bacteriën. Een verwachting "
+                 "zonder reden is geen hypothese.",
+             ]),
+        dict(aanpak="De totale vergroting is het oculair maal het objectief. Begin altijd bij het zwakste "
+                    "objectief.",
+             waarom=[
+                 None,
+                 "Hoe sterker je vergroot, hoe kleiner het beeldveld. Daarom zoek je eerst bij een zwakke "
+                 "vergroting en ga je dan pas sterker.",
+                 "Een luchtbel wordt vaak voor een cel aangezien. De scherpe donkere rand verraadt haar.",
+                 "Een virus is te klein voor een lichtmicroscoop; daarvoor heb je een elektronenmicroscoop "
+                 "nodig. Dat is ook waarom virussen zo laat ontdekt zijn.",
+             ]),
+        dict(aanpak="De laboregels hebben één doel: niemand komt in aanraking met iets wat hij niet kan "
+                    "overzien.",
+             waarom=[
+                 None, None,
+                 "Een onbekende stof ruik je niet. Je gebruikt het etiket, en bij twijfel vraag je het.",
+                 "Onderzoekend leren betekent met een plan werken, niet lukraak mengen. Dat laatste is "
+                 "gevaarlijk en levert ook niets op.",
+             ]),
+        dict(aanpak="Een grafiek of tabel moet op zichzelf leesbaar zijn: grootheid, eenheid en schaal bij "
+                    "elke as.",
+             waarom=[
+                 "Losse categorieën krijgen staven met ruimte ertussen; een vloeiend verband krijgt een "
+                 "lijn. De soort gegevens beslist, niet de smaak.",
+                 "Onthoud dat de onafhankelijke variabele horizontaal staat. Dat is in elke grafiek zo.",
+                 "Een getal zonder eenheid betekent niets. Eén keer bovenaan de kolom volstaat.",
+                 "De laatste vraag, wie het betaalde, wordt het vaakst vergeten. Een belang bij de uitkomst "
+                 "kleurt een onderzoek.",
+             ]),
+        dict(aanpak="STEM is een manier van werken: meten, ontwerpen, uitvoeren, opnieuw meten. Die kring "
+                    "is zelf het antwoord op bijna elke vraag.",
+             waarom=[
+                 None,
+                 "Zonder beginmeting kan je achteraf niets besluiten. Daarom begint een STEM-opdracht altijd "
+                 "met meten en niet met bouwen.",
+             ]),
+    ],
+)
