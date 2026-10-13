@@ -118,16 +118,15 @@
           "vraag": "Welke vormen van een getal noemt de vakfiche?",
           "opties": [
             "decimale vorm",
-            "wortelvorm",
+            "tabelvorm",
             "breuk en procent",
             "letterverm"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Decimale vorm, wortelvorm, breuk en procent. Een lettervorm is geen getalvorm."
+          "uitleg": "Decimale vorm, wortelvorm, breuk en procent zijn de vormen. Een lettervorm of een tabelvorm is geen getalvorm."
         },
         {
           "type": "meerkeuze",
@@ -154,14 +153,16 @@
             "\\(0{,}75\\)",
             "\\(-\\frac{2}{3}\\)",
             "\\(4\\)",
-            "\\(\\sqrt{5}\\)"
+            "\\(\\sqrt{5}\\)",
+            "\\(\\frac{1}{8}\\)"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Drie getallen die je als breuk kan schrijven. Bij \\(\\sqrt{5}\\) lukt dat niet."
+          "uitleg": "Getallen die je als breuk kan schrijven, zijn rationaal. Bij \\(\\sqrt{5}\\) lukt dat niet."
         },
         {
           "type": "meerkeuze",
@@ -380,15 +381,14 @@
           "opties": [
             "associativiteit",
             "commutativiteit",
-            "distributiviteit",
+            "transformativiteit",
             "transitiviteit"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Die drie staan er, elk in woorden en in symbolen."
+          "uitleg": "Associativiteit, commutativiteit en distributiviteit staan er, elk in woorden en in symbolen. Transitiviteit en transformativiteit horen er niet bij."
         },
         {
           "type": "meerkeuze",
@@ -592,12 +592,14 @@
             "\\(5\\) of meer rondt naar boven",
             "minder dan \\(5\\) rondt naar beneden",
             "je kijkt naar het eerste wegvallende cijfer",
-            "je rondt altijd naar boven af"
+            "je rondt altijd naar boven af",
+            "je rondt pas op het einde van een berekening af"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Altijd naar boven afronden zou de resultaten systematisch te groot maken."
         },
@@ -727,15 +729,14 @@
           "opties": [
             "open",
             "halfopen of halfgesloten",
-            "gesloten",
+            "omgekeerd",
             "dubbel"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Die drie staan er. Een dubbel interval bestaat niet als begrip."
+          "uitleg": "Open, halfopen of halfgesloten en gesloten staan er. Een dubbel of omgekeerd interval bestaat niet als begrip."
         },
         {
           "type": "waarofniet",
@@ -880,12 +881,14 @@
             "rechts is groter",
             "elk reëel getal heeft er een plaats",
             "ze loopt in beide richtingen door",
-            "ze bevat enkel gehele getallen"
+            "ze bevat enkel gehele getallen",
+            "tussen twee getallen liggen er altijd nog andere"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Juist alle reële getallen liggen erop. Dat is waarom de reële getallen nodig waren."
         },
@@ -989,16 +992,15 @@
           "vraag": "Welke bewerkingen noemt de vakfiche?",
           "opties": [
             "negatie \\(\\neg\\) en conjunctie \\(\\wedge\\)",
-            "disjunctie \\(\\vee\\)",
+            "eliminatie",
             "implicatie \\(\\Rightarrow\\) en equivalentie \\(\\Leftrightarrow\\)",
             "substitutie"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Vijf bewerkingen staan er. Substitutie is een methode bij stelsels, geen logische bewerking."
+          "uitleg": "Vijf bewerkingen staan er: negatie, conjunctie, disjunctie, implicatie en equivalentie. Substitutie en eliminatie zijn methodes bij stelsels, geen logische bewerkingen."
         },
         {
           "type": "invultekst",
@@ -1073,14 +1075,16 @@
             "\\(p \\vee \\neg p\\)",
             "\\(p \\Rightarrow p\\)",
             "\\(p \\Leftrightarrow p\\)",
-            "\\(p \\wedge \\neg p\\)"
+            "\\(p \\wedge \\neg p\\)",
+            "\\(\\neg(p \\wedge \\neg p)\\)"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Drie uitspraken die altijd waar zijn. De laatste is net altijd vals."
+          "uitleg": "Uitspraken die altijd waar zijn, noem je een tautologie. \\(p \\wedge \\neg p\\) is net altijd vals."
         },
         {
           "type": "meerkeuze",
@@ -1118,15 +1122,14 @@
           "opties": [
             "voor elke, \\(\\forall\\)",
             "er bestaat, \\(\\exists\\)",
-            "beide samen",
+            "er bestaat geen, \\(\\nexists\\)",
             "er bestaat precies één, \\(\\exists !\\)"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De fiche noemt voor elke en er bestaat. Precies één is een derde kwantor die er niet bij staat."
+          "uitleg": "De fiche noemt voor elke, \\(\\forall\\), en er bestaat, \\(\\exists\\). Precies één en er bestaat geen zijn kwantoren die er niet bij staan."
         },
         {
           "type": "meerkeuze",
@@ -1217,12 +1220,14 @@
             "alle combinaties opschrijven",
             "de deeluitdrukkingen uitwerken",
             "de eindkolom bepalen",
-            "de getallen invullen"
+            "de getallen invullen",
+            "de kolommen voor p en q vooraan zetten"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een waarheidstabel werkt met waar en vals, niet met getallen."
         },
@@ -1329,15 +1334,14 @@
           "opties": [
             "ze tonen alle gevallen",
             "ze bewijzen een tautologie",
-            "hun aantal rijen verdubbelt per uitspraak",
+            "hun aantal rijen blijft altijd vier",
             "ze werken met getallen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een waarheidstabel werkt met waar en vals, of met \\(1\\) en \\(0\\) bij poorten, niet met gewone getallen."
+          "uitleg": "Een waarheidstabel toont alle gevallen en kan zo een tautologie bewijzen. Het aantal rijen verdubbelt met elke extra uitspraak, dus het blijft niet op vier, en ze werkt met waar en vals of met \\(1\\) en \\(0\\), niet met gewone getallen."
         },
         {
           "type": "meerkeuze",
@@ -1428,14 +1432,16 @@
             "\\(a^{2} > 0\\) voor elke \\(a\\)",
             "\\(-a < 0\\) voor elke \\(a\\)",
             "delen maakt altijd kleiner",
-            "\\(a^{2} \\geq 0\\) voor elke \\(a\\)"
+            "\\(a^{2} \\geq 0\\) voor elke \\(a\\)",
+            "\\(\\sqrt{a^{2}} = a\\) voor elke \\(a\\)"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "\\(0^{2} = 0\\), \\(-a\\) is positief als \\(a\\) negatief is, en delen door \\(\\frac{1}{2}\\) maakt groter. De laatste uitspraak is wel waar."
+          "uitleg": "\\(0^{2} = 0\\), \\(-a\\) is positief als \\(a\\) negatief is, delen door \\(\\frac{1}{2}\\) maakt groter, en \\(\\sqrt{a^{2}}\\) is \\(|a|\\). Enkel \\(a^{2} \\geq 0\\) is wel waar.\\(\\frac{1}{2}\\) maakt groter. De laatste uitspraak is wel waar."
         },
         {
           "type": "invultekst",
@@ -1458,15 +1464,14 @@
           "opties": [
             "vaktaal gebruiken",
             "de symbolen correct zetten",
-            "tussenstappen verklaren",
+            "het resultaat op twee cijfers afronden",
             "het antwoord alleen geven"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De vakfiche noemt die drie, met haakjes en bewerkingstekens op de juiste plaats. Enkel het antwoord volstaat niet."
+          "uitleg": "Vaktaal, correcte symbolen en verklaarde tussenstappen horen erbij, met haakjes en bewerkingstekens op de juiste plaats. Enkel het antwoord geven volstaat niet, en afronden hoort niet bij de notatie."
         },
         {
           "type": "meerkeuze",
@@ -1505,12 +1510,14 @@
             "\\(\\wedge\\), \\(\\vee\\), \\(\\neg\\)",
             "\\(\\Rightarrow\\)",
             "\\(\\Leftrightarrow\\)",
-            "\\(\\sum\\)"
+            "\\(\\sum\\)",
+            "\\(\\forall\\) en \\(\\exists\\)"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Negatie, conjunctie, disjunctie, implicatie, equivalentie en de twee kwantoren. Een sommatieteken staat er niet."
         },
@@ -1659,15 +1666,14 @@
           "opties": [
             "de gegevens benoemen",
             "elke stap verantwoorden",
-            "het besluit formuleren",
+            "een voorbeeld als bewijs nemen",
             "het antwoord raden"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Gegeven, redenering met verantwoording, besluit. Raden hoort nergens in een bewijs."
+          "uitleg": "Gegeven, redenering met verantwoording, besluit. Raden hoort nergens in een bewijs, en een voorbeeld illustreert maar bewijst niet."
         },
         {
           "type": "invultekst",
@@ -1733,15 +1739,14 @@
           "opties": [
             "rekenregels fout toepassen",
             "uitspraken over schaalverandering",
-            "beide soorten samen",
+            "uitspraken over de puntenverdeling",
             "uitspraken over de examenduur"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De fiche noemt rekenregels die fout worden toegepast en uitspraken over schaalverandering als voorbeelden."
+          "uitleg": "De fiche noemt rekenregels die fout worden toegepast en uitspraken over schaalverandering als voorbeelden. De examenduur en de puntenverdeling staan er niet bij."
         },
         {
           "type": "waarofniet",
@@ -1778,12 +1783,14 @@
             "ze gelden voor alle gevallen",
             "elke stap wordt verantwoord",
             "ze eindigen met een besluit",
-            "ze bestaan uit voorbeelden"
+            "ze bestaan uit voorbeelden",
+            "ze gebruiken enkel wat al bewezen is"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Voorbeelden illustreren, ze bewijzen niet. Dat onderscheid is de kern van dit onderdeel."
         },
@@ -1864,15 +1871,14 @@
           "opties": [
             "evenwijdig",
             "samenvallend",
-            "snijdend of loodrecht",
+            "snijdend in één punt",
             "kruisend"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Twee vlakken kunnen niet kruisen: ze snijden altijd in een rechte of zijn evenwijdig."
+          "uitleg": "Twee vlakken zijn evenwijdig, vallen samen of snijden in een rechte, eventueel loodrecht. Kruisen kan niet, en snijden in één punt ook niet."
         },
         {
           "type": "meerkeuze",
@@ -1899,12 +1905,14 @@
             "een balk",
             "een kegel",
             "een bol",
-            "een vierkant"
+            "een vierkant",
+            "een cilinder"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Drie figuren met een volume. Een vierkant is een vlakke figuur."
         },
@@ -1936,15 +1944,14 @@
           "opties": [
             "zijaanzicht",
             "vooraanzicht",
-            "bovenaanzicht",
+            "achteraanzicht",
             "binnenaanzicht"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie aanzichten op drie vlakken. Een binnenaanzicht staat er niet bij."
+          "uitleg": "De fiche noemt het zij-, voor- en bovenaanzicht: drie aanzichten op drie vlakken. Een binnen- of achteraanzicht staat er niet bij."
         },
         {
           "type": "waarofniet",
@@ -1998,12 +2005,14 @@
             "deelverzameling",
             "doorsnede",
             "unie en verschil",
-            "functie"
+            "functie",
+            "element"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Element, deelverzameling, doorsnede, unie en verschil. Een functie hoort bij een ander onderdeel."
         },
@@ -2193,15 +2202,14 @@
           "opties": [
             "krachten",
             "verplaatsing",
-            "snelheid",
+            "massa",
             "temperatuur"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Die drie staan er. Temperatuur heeft geen richting en is dus geen vectorgrootheid."
+          "uitleg": "Krachten, verplaatsing en snelheid staan er. Temperatuur en massa hebben geen richting en zijn dus geen vectorgrootheden."
         },
         {
           "type": "waarofniet",
@@ -2246,12 +2254,14 @@
             "hun plaats doet niet mee",
             "ze hebben richting, zin en grootte",
             "ze beschrijven een verschuiving",
-            "ze hebben altijd dezelfde lengte"
+            "ze hebben altijd dezelfde lengte",
+            "je kan ze bij elkaar optellen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Hun lengte verschilt juist: dat is precies hun grootte."
         },
@@ -2352,15 +2362,14 @@
           "opties": [
             "lengte \\(\\times k\\)",
             "oppervlakte \\(\\times k^{2}\\)",
-            "volume \\(\\times k^{3}\\)",
+            "volume \\(\\times k^{2}\\)",
             "alles \\(\\times k\\)"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Juist niet alles met dezelfde factor. Dat is de klassieke misvatting bij dit onderwerp."
+          "uitleg": "Lengte gaat \\(\\times k\\), oppervlakte \\(\\times k^{2}\\) en volume \\(\\times k^{3}\\). Niet alles gaat met dezelfde factor, en het volume zeker niet met \\(k^{2}\\)."
         },
         {
           "type": "waarofniet",
@@ -2414,12 +2423,14 @@
             "elke lengte verdubbelt",
             "de oppervlakte wordt vier keer zo groot",
             "het volume wordt acht keer zo groot",
-            "de hoeken worden dubbel zo groot"
+            "de hoeken worden dubbel zo groot",
+            "de verhoudingen tussen de zijden blijven gelijk"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De hoeken blijven juist gelijk. Lengte gaat met de factor, oppervlakte met het kwadraat, volume met de derde macht."
         },
@@ -2447,15 +2458,14 @@
           "opties": [
             "de lengte",
             "de oppervlakte",
-            "het volume",
+            "de verhoudingen tussen de zijden",
             "de hoeken"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De hoeken blijven juist gelijk. Dat is de kern van gelijkvormigheid."
+          "uitleg": "Lengte en oppervlakte veranderen, en het volume ook. De hoeken en de verhoudingen tussen de zijden blijven gelijk: dat is de kern van gelijkvormigheid."
         },
         {
           "type": "meerkeuze",
@@ -2540,12 +2550,14 @@
             "HH",
             "ZHZ",
             "ZZZ",
-            "ZZH met een scherpe hoek"
+            "ZZH met een scherpe hoek",
+            "ZZH met een rechte hoek"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "HH, ZHZ, ZZZ en het geval met een rechte hoek van \\(90^{\\circ}\\). Een scherpe hoek volstaat niet."
         },
@@ -2599,16 +2611,15 @@
           "vraag": "Welke gegevens volstaan om gelijkvormigheid van twee driehoeken te besluiten?",
           "opties": [
             "twee gelijke hoeken",
-            "drie zijden in verhouding",
+            "één gelijke hoek",
             "twee zijden in verhouding met de hoek ertussen",
             "twee zijden in verhouding alleen"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "HH, ZZZ en ZHZ volstaan. Twee zijden zonder de ingesloten hoek volstaat niet."
+          "uitleg": "HH, ZZZ en ZHZ volstaan. Eén gelijke hoek volstaat niet, en twee zijden zonder de ingesloten hoek ook niet."
         },
         {
           "type": "meerkeuze",
@@ -2674,12 +2685,14 @@
             "het kenmerk aanwijzen",
             "de verhouding opstellen",
             "de onbekende berekenen",
-            "de oppervlakte meten"
+            "de oppervlakte meten",
+            "het antwoord in de context plaatsen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De oppervlakte heb je er niet voor nodig. De vakfiche vraagt wel het kenmerk ter verklaring."
         },
@@ -2783,15 +2796,14 @@
           "opties": [
             "\\(3\\), \\(4\\) en \\(5\\)",
             "\\(5\\), \\(12\\) en \\(13\\)",
-            "\\(8\\), \\(15\\) en \\(17\\)",
+            "\\(6\\), \\(7\\) en \\(9\\)",
             "\\(2\\), \\(3\\) en \\(4\\)"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bij de juiste antwoorden klopt de som van de kwadraten. Bij \\(2\\), \\(3\\) en \\(4\\) is \\(4 + 9 = 13\\) en niet \\(16\\)."
+          "uitleg": "Bij \\(3\\), \\(4\\), \\(5\\) en bij \\(5\\), \\(12\\), \\(13\\) klopt de som van de kwadraten. Bij \\(2\\), \\(3\\), \\(4\\) is \\(4 + 9 = 13\\) en niet \\(16\\), en bij \\(6\\), \\(7\\), \\(9\\) is \\(36 + 49 = 85\\) en niet \\(81\\)."
         },
         {
           "type": "meerkeuze",
@@ -2897,12 +2909,14 @@
             "een schets maken",
             "de rechte hoek aanwijzen",
             "de schuine zijde benoemen",
-            "de hoeken meten met een geodriehoek"
+            "de hoeken meten met een geodriehoek",
+            "controleren of het antwoord redelijk is"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Meten hoeft niet: je rekent. De schets en het aanwijzen van de rechte hoek voorkomen de meeste fouten."
         },
@@ -2989,15 +3003,14 @@
           "opties": [
             "\\(\\tan \\alpha\\) mist de schuine zijde",
             "\\(\\sin \\alpha\\) gebruikt de overstaande zijde",
-            "\\(\\cos \\alpha\\) gebruikt de aanliggende zijde",
+            "\\(\\tan \\alpha\\) gebruikt de schuine zijde",
             "alle drie gebruiken de schuine zijde"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "\\(\\tan \\alpha\\) werkt met de twee rechthoekszijden. \\(\\sin \\alpha\\) en \\(\\cos \\alpha\\) hebben de schuine zijde wel nodig."
+          "uitleg": "\\(\\tan \\alpha\\) werkt met de twee rechthoekszijden, dus zonder de schuine zijde. \\(\\sin \\alpha\\) en \\(\\cos \\alpha\\) hebben die wel nodig."
         },
         {
           "type": "waarofniet",
@@ -3085,12 +3098,14 @@
             "het juiste goniometrische getal kiezen",
             "de gegeven zijden benoemen",
             "de onbekende berekenen met ICT",
-            "de oppervlakte opmeten"
+            "de oppervlakte opmeten",
+            "een schets maken met de gegevens erop"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De vakfiche laat je de goniometrische getallen met ICT berekenen. De oppervlakte heb je er niet voor nodig."
         },
@@ -3286,15 +3301,14 @@
           "opties": [
             "aan beide kanten optellen",
             "aan beide kanten aftrekken",
-            "aan beide kanten delen door iets \\(\\neq 0\\)",
+            "aan beide kanten delen door nul",
             "aan één kant iets bijtellen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Alles aan beide kanten. Eén kant veranderen breekt de gelijkheid."
+          "uitleg": "Alles aan beide kanten, en delen mag alleen door iets anders dan nul. Eén kant veranderen breekt de gelijkheid."
         },
         {
           "type": "meerkeuze",
@@ -3372,12 +3386,14 @@
             "\\(y = ax + b\\)",
             "\\(y = ax^{2} + bx + c\\)",
             "\\(P = 2l + 2b\\) en \\(A = l \\cdot b\\)",
-            "\\(U = I \\cdot R\\)"
+            "\\(U = I \\cdot R\\)",
+            "\\(A = \\pi r^{2}\\)"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "\\(U = I \\cdot R\\) staat bij de formules uit de natuurwetenschappen."
         },
@@ -3547,15 +3563,14 @@
           "opties": [
             "\\(\\rho = \\frac{m}{V}\\)",
             "\\(U = I \\cdot R\\)",
-            "\\(F = k \\cdot x\\) en \\(p = \\frac{F}{A}\\)",
+            "\\(P = 2l + 2b\\)",
             "\\(a^{2} + b^{2} = c^{2}\\)"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Pythagoras is wiskunde, geen natuurwetenschappelijke formule."
+          "uitleg": "De dichtheid en de wet van Ohm komen uit de natuurwetenschappen, net als \\(F = k \\cdot x\\) en \\(p = \\frac{F}{A}\\). Pythagoras en de omtrek van een rechthoek zijn wiskunde."
         },
         {
           "type": "waarofniet",
@@ -3582,12 +3597,14 @@
             "bepaal welke letter je zoekt",
             "werk met eigenschappen van gelijkheden",
             "controleer de eenheden",
-            "rond zo snel mogelijk af"
+            "rond zo snel mogelijk af",
+            "vul pas op het einde de getallen in"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Snel afronden is net wat de vakfiche afraadt: werk zo lang mogelijk exact."
         },
@@ -3676,15 +3693,14 @@
           "opties": [
             "aan beide kanten \\(+ 5\\)",
             "aan beide kanten \\(\\cdot 3\\)",
-            "aan beide kanten \\(: 2\\)",
+            "aan één kant \\(\\cdot 3\\)",
             "aan één kant \\(+ 5\\)"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Alles aan beide kanten tegelijk. Eén kant veranderen breekt de gelijkheid."
+          "uitleg": "Alles aan beide kanten tegelijk, ook \\(: 2\\). Eén kant veranderen breekt de gelijkheid."
         },
         {
           "type": "invultekst",
@@ -3799,12 +3815,14 @@
             "haakjes uitwerken",
             "de onbekenden samenbrengen",
             "delen door de coëfficiënt",
-            "de grafiek tekenen"
+            "de grafiek tekenen",
+            "de oplossing in de vergelijking controleren"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een grafiek hoeft niet voor een algebraïsche oplossing. Ze helpt wel bij de controle."
         },
@@ -3907,16 +3925,15 @@
           "vraag": "Welke getallen zijn een oplossing van \\(x < 3\\)?",
           "opties": [
             "\\(2\\)",
-            "\\(0\\)",
+            "\\(4\\)",
             "\\(-5\\)",
             "\\(3\\)"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Alles links van \\(3\\) op de getallenas. Het getal \\(3\\) zelf valt erbuiten, want het teken is strikt."
+          "uitleg": "Alles links van \\(3\\) op de getallenas, dus ook \\(0\\). Het getal \\(3\\) zelf valt erbuiten, want het teken is strikt, en \\(4\\) ligt rechts."
         },
         {
           "type": "invultekst",
@@ -3992,12 +4009,14 @@
             "de onbekende vrijmaken",
             "het teken omkeren bij een negatieve deler",
             "de oplossing als interval noteren",
-            "de top van de grafiek berekenen"
+            "de top van de grafiek berekenen",
+            "de oplossing op de getallenas tekenen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een top hoort bij een parabool, niet bij een eerstegraadsongelijkheid."
         },
@@ -4080,15 +4099,14 @@
           "opties": [
             "de combinatiemethode",
             "de substitutiemethode",
-            "de gelijkstellingsmethode",
+            "de grafische methode",
             "de discriminantmethode"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Die drie staan er. De discriminant hoort bij tweedegraadsvergelijkingen."
+          "uitleg": "De combinatie-, de substitutie- en de gelijkstellingsmethode staan er als algebraïsche methodes. De grafische methode is niet algebraïsch en de discriminant hoort bij tweedegraadsvergelijkingen."
         },
         {
           "type": "invultekst",
@@ -4220,15 +4238,14 @@
           "opties": [
             "bepaald",
             "strijdig",
-            "onbepaald",
+            "bepaald met twee oplossingen",
             "kwadratisch"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie soorten, elk met hun grafische betekenis. Kwadratisch hoort bij de tweede graad."
+          "uitleg": "Drie soorten: bepaald, strijdig en onbepaald, elk met hun grafische betekenis. Kwadratisch hoort bij de tweede graad, en twee oplossingen bestaat niet bij een stelsel van de eerste graad."
         },
         {
           "type": "meerkeuze",
@@ -4435,12 +4452,14 @@
             "twee onbekenden benoemen",
             "twee vergelijkingen opstellen",
             "het stelsel oplossen",
-            "de top berekenen"
+            "de top berekenen",
+            "het antwoord terug in de context plaatsen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een top hoort bij een parabool. De vakfiche vraagt wel het antwoord terug in de context te plaatsen."
         },
@@ -4481,12 +4500,14 @@
             "ze kunnen geen oplossing hebben",
             "ze kunnen oneindig veel oplossingen hebben",
             "ze kunnen precies één oplossing hebben",
-            "ze hebben altijd twee oplossingen"
+            "ze hebben altijd twee oplossingen",
+            "hun oplossing is een koppel getallen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Strijdig, onbepaald of bepaald. Twee oplossingen bestaat niet bij een stelsel van eerstegraadsvergelijkingen."
         },
@@ -4560,15 +4581,14 @@
           "opties": [
             "\\((a + b)^{2}\\)",
             "\\((a - b)^{2}\\)",
-            "\\((a + b)(a - b)\\)",
+            "\\(a^{2} + b^{2}\\)",
             "\\(a + b + c\\)"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De drie merkwaardige producten. De laatste is gewoon een som van drie termen."
+          "uitleg": "\\((a + b)^{2}\\), \\((a - b)^{2}\\) en \\((a + b)(a - b)\\) zijn de merkwaardige producten. \\(a + b + c\\) is een som van drie termen en \\(a^{2} + b^{2}\\) is geen product."
         },
         {
           "type": "waarofniet",
@@ -4647,12 +4667,14 @@
             "\\(x^{2} = 16\\)",
             "\\(2x^{2} + 3x = 0\\)",
             "\\(x^{2} - 1 = 0\\)",
-            "\\(3x + 2 = 11\\)"
+            "\\(3x + 2 = 11\\)",
+            "\\(x^{2} + 2x + 1 = 0\\)"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De juiste antwoorden hebben een term in \\(x^{2}\\). Het foute antwoord is eerste graad."
         },
@@ -4675,12 +4697,14 @@
             "eerst een gemeenschappelijke factor zoeken",
             "een merkwaardig product herkennen",
             "som en product van twee getallen zoeken",
-            "de letters door getallen vervangen"
+            "de letters door getallen vervangen",
+            "controleren door terug uit te werken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "In die orde werk je het snelst. Letters vervangen door getallen is geen ontbinding."
         },
@@ -4875,15 +4899,14 @@
           "opties": [
             "\\(D > 0\\) geeft twee oplossingen",
             "\\(D = 0\\) geeft één oplossing",
-            "\\(D < 0\\) geeft geen reële oplossing",
+            "\\(D = 0\\) geeft geen oplossing",
             "\\(D\\) is altijd positief"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De discriminant kan evengoed nul of negatief zijn."
+          "uitleg": "\\(D > 0\\) geeft twee oplossingen en \\(D = 0\\) juist één, niet geen. Bij \\(D < 0\\) is er geen reële oplossing, dus \\(D\\) kan evengoed nul of negatief zijn."
         },
         {
           "type": "waarofniet",
@@ -4995,12 +5018,14 @@
             "met een woordelijke beschrijving",
             "met een tabel",
             "met een grafiek",
-            "met een alfabetische lijst"
+            "met een alfabetische lijst",
+            "met een voorschrift"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "In woorden, in een tabel, in een grafiek of met een voorschrift."
         },
@@ -5091,15 +5116,14 @@
           "opties": [
             "de nulwaarden",
             "waar de functie stijgt",
-            "het hoogste punt",
+            "de formule van de regressielijn",
             "de naam van de onderzoeker"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Nulwaarden, stijgen en dalen, extrema en het teken lees je rechtstreeks af."
+          "uitleg": "Nulwaarden, stijgen en dalen, de extrema en het teken lees je rechtstreeks af. Een regressielijn en de naam van de onderzoeker staan er niet op."
         },
         {
           "type": "invultekst",
@@ -5165,12 +5189,14 @@
             "het zijn de \\(x\\)-waarden",
             "bij een breuk mag de noemer niet nul zijn",
             "bij een wortel mag wat eronder staat niet negatief zijn",
-            "het domein is altijd eindig"
+            "het domein is altijd eindig",
+            "je schrijft het als een interval"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een domein is zelden eindig: meestal zijn het alle getallen op enkele uitzonderingen na."
         },
@@ -5390,15 +5416,14 @@
           "opties": [
             "\\(a > 0\\) betekent stijgend",
             "\\(a < 0\\) betekent dalend",
-            "\\(a = 0\\) geeft een horizontale rechte",
+            "\\(a\\) geeft de top van de parabool",
             "\\(a\\) geeft het snijpunt met de \\(y\\)-as"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het snijpunt met de \\(y\\)-as is \\(b\\), niet \\(a\\)."
+          "uitleg": "\\(a > 0\\) is stijgend, \\(a < 0\\) dalend en \\(a = 0\\) horizontaal. Het snijpunt met de \\(y\\)-as is \\(b\\), niet \\(a\\), en een top hoort bij de tweede graad."
         },
         {
           "type": "invultekst",
@@ -5746,12 +5771,14 @@
             "de nulwaarden",
             "waar de functie stijgt en daalt",
             "het extremum",
-            "de lengte van de grafiek"
+            "de lengte van de grafiek",
+            "het teken van de functie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Nulwaarden, stijgen en dalen, extremum en teken. Een grafiek heeft geen lengte."
         },
@@ -6033,15 +6060,14 @@
           "opties": [
             "de somregel",
             "de productregel",
-            "de complementregel",
+            "de kwadraatregel",
             "de wortelregel"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie telregels. Een wortelregel bestaat hier niet."
+          "uitleg": "De somregel, de productregel en de complementregel staan in de fiche. Een wortel- of kwadraatregel bestaat hier niet."
         },
         {
           "type": "meerkeuze",
@@ -6130,12 +6156,14 @@
             "een tekening of schema maken",
             "het probleem eerst vereenvoudigen",
             "van achteren naar voren werken",
-            "de vraag overslaan en verder gaan"
+            "de vraag overslaan en verder gaan",
+            "een tabel maken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Tekenen, vereenvoudigen, terugwerken, een tabel maken of een klein geval uitproberen."
         },
@@ -6215,15 +6243,14 @@
           "opties": [
             "is dit een antwoord op de vraag",
             "klopt de grootteorde",
-            "staat de eenheid erbij",
+            "is mijn handschrift leesbaar",
             "is mijn blad netjes geschreven"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een antwoord zonder eenheid of met een onmogelijke grootteorde is niet af."
+          "uitleg": "Je kijkt of het een antwoord op de vraag is, of de grootteorde klopt en of de eenheid erbij staat. Een net blad of een mooi handschrift maakt een antwoord niet juist."
         },
         {
           "type": "meerkeuze",
