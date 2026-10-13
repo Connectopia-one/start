@@ -891,3 +891,791 @@ zet("zinsbouw-indirecte-rede-en-de-passieve-vorm",
                           "is?", "de derde (third conditional)", WL),
              ]),
     ])
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-een-engelse-tekst-analyseren-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Lees de tekst eerst één keer helemaal door zonder iets op te zoeken, en "
+                   "onderstreep dan de cijfers, de namen en de citaten. Dat zijn de plaatsen waar "
+                   "de vragen bijna altijd over gaan.",
+            waarom=[],
+        ),
+        dict(
+            aanpak="Zoek bij elke vraag de plaats in de tekst terug en antwoord met wat daar staat, "
+                   "niet met wat je er zelf van denkt. Bij de vragen over cijfers staat het antwoord "
+                   "letterlijk in de tekst.",
+            waarom=[
+                None,
+                None,
+                None,
+                "Twee cijfers in één vraag: lees dus verder dan het jaartal. Let erop dat de "
+                "veertig stuks geschonken waren en niet aangekocht, want dat hoort bij het "
+                "antwoord.",
+                "Haal het citaat van Price erbij en zeg wat ze ermee bedoelt. Een goede samenvatting "
+                "noemt het cijfer uit het citaat en het besluit dat eruit volgt.",
+                "Noem de twee die de tekst zelf toegeeft, niet die je zelf bedenkt. Dat een "
+                "journalistiek stuk ook de keerzijde geeft, is precies wat het van een advertentie "
+                "onderscheidt.",
+            ],
+        ),
+        dict(
+            aanpak="Zoek het Engelse woord in de tekst zelf terug in plaats van het uit je hoofd te "
+                   "vertalen. Zo leer je het woord in zijn context, en dat blijft beter hangen.",
+            waarom=[
+                "Let op to break even: quitte spelen, dus niet winst maken en niet verlies maken. "
+                "Een grant is een subsidie die je niet moet terugbetalen, in tegenstelling tot a "
+                "loan.",
+                "Noem wie wat doet, want dat is het hele verschil. In het Nederlands verwisselen we "
+                "lenen ook, maar in het Engels is lend altijd geven en borrow altijd krijgen: I "
+                "lend you my drill, you borrow my drill.",
+            ],
+        ),
+        dict(
+            aanpak="Een recensie heeft bijna altijd lof en kritiek door elkaar. Zoek dus eerst de "
+                   "lovende woorden, dan de kritiek, en kijk waar het zwaarst op weegt. Woorden als "
+                   "that said en still markeren de bocht.",
+            waarom=[
+                "Gemengd maar overwegend positief, en dat zie je aan het slot: still cheaper en I "
+                "will renew. Een schrijver die terugkomt, is niet negatief, hoeveel kritiek hij "
+                "ook geeft.",
+                "Let op dat de tweede kritiek een tip is in de vorm van een opdracht: bring your "
+                "own extension lead betekent dat er geen voorzien is.",
+                "I will renew is het bewijs. Zo'n toekomstvorm aan het einde van een recensie is de "
+                "duidelijkste graadmeter van het eindoordeel.",
+            ],
+        ),
+        dict(
+            aanpak="Hier moet je niet meer zoeken maar vergelijken. Kijk naar de persoon (hij of "
+                   "ik), naar de soort woorden (cijfers of meningen) en naar wie er aangesproken "
+                   "wordt.",
+            waarom=[
+                "Noem telkens een verschil dat je in de taal kan aanwijzen, niet in de inhoud. Dat "
+                "is net wat de vraag wil: twee verschillen die je met je vinger kan aanduiden.",
+                "Hier is elk goed onderbouwd antwoord juist. Zet er wel bij waarom je dat zou "
+                "willen weten, want dan wordt het een argument en geen opsomming.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-tekstsoorten-en-de-bedoeling-van-een-tekst-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vraag je telkens af wat de tekst van jou wil: iets weten, iets doen, iets "
+                   "vinden, of gewoon meegaan in een verhaal. Dat doel bepaalt de tekstsoort, niet "
+                   "het onderwerp.",
+            waarom=[
+                "Let op het verschil tussen persuasive en prescriptive: een affiche wil je "
+                "overtuigen een helm te dragen, een recept zegt stap voor stap wat je moet doen. En "
+                "tussen informative en argumentative: een nieuwsbericht brengt feiten, een "
+                "lezersbrief verdedigt een standpunt.",
+                "Een advertentie wil overtuigen, ook al geeft ze er informatie bij. Die informatie "
+                "is het middel en niet het doel, en dat is de vraag die je altijd moet stellen.",
+            ],
+        ),
+        dict(
+            aanpak="Een feit kan je nakijken, een mening niet. Zoek dus naar woorden die een "
+                   "waardering uitdrukken: een overtreffende trap, clearly, obviously, best, worst.",
+            waarom=[
+                "De eerste, derde en vijfde noemen een jaartal, een verhouding en een bedrag: alle "
+                "drie na te kijken. Let op: een feit hoeft niet juist te zijn om een feit te zijn, "
+                "het moet enkel te controleren zijn.",
+                "Ugliest is een overtreffende trap van een smaakoordeel, en clearly the best doet "
+                "alsof een mening een vaststelling is. Juist dat soort woorden zoek je.",
+            ],
+        ),
+        dict(
+            aanpak="Register is de toon: formeel voor wie je niet kent of in een officiële brief, "
+                   "informeel onder vrienden. Let op de lengte van de wending: formeel is bijna "
+                   "altijd langer en met meer hulpwerkwoorden.",
+            waarom=[
+                "Schrijf telkens de andere versie erbij, want dat is waar de oefening op mikt. I "
+                "would be grateful if you could is een beleefdheidsformule; letterlijk vertalen "
+                "klinkt in het Nederlands overdreven.",
+                "Yours faithfully na Dear Sir or Madam, dus wanneer je de naam niet kent. Een "
+                "steuntje: faithfully hoort bij een onbekende, zoals trouw zonder gezicht.",
+                "Yours sincerely na Dear Mr Brown. Let op: Amerikanen schrijven liever Sincerely of "
+                "Best regards, en in een mail is Kind regards bijna altijd veilig.",
+            ],
+        ),
+        dict(
+            aanpak="Een verbindingswoord moet passen bij de verhouding tussen de twee delen: "
+                   "tegenstelling, gevolg, voorwaarde of reden. Lees de zin dus eerst zonder het "
+                   "woord en bepaal welke van de vier het is.",
+            waarom=[
+                "Let op het verschil tussen despite en although: na despite komt een naamwoord "
+                "(despite the rain), na although een hele zin (although it was raining). Dat is de "
+                "fout die het vaakst gemaakt wordt.",
+                "Although komt vooraan en krijgt een komma na de eerste zinshelft. Dit is dezelfde "
+                "regel als hierboven: although plus zin, despite plus naamwoord.",
+            ],
+        ),
+        dict(
+            aanpak="Twee opdrachten waar je eigen antwoord juist is, zolang het de vorm heeft die "
+                   "gevraagd wordt: één volledige Engelse zin, en drie dingen met een reden erbij.",
+            waarom=[
+                "Houd het bij één zin met een onderwerp en een werkwoord. Begin eventueel met The "
+                "article explains, The post argues of The chapter describes, want dat dwingt je "
+                "meteen om het doel van de tekst te noemen.",
+                "Noem drie zaken en liefst één over de schrijver zelf, want wie iets schrijft en "
+                "met welk belang is de vraag die het meest oplevert. Dit sluit aan bij het verschil "
+                "tussen feit en mening uit reeks 2.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordvelden-wonen-eten-en-vrije-tijd-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Leer de woorden per paar dat bij elkaar hoort: huurder en huisbaas, zolder en "
+                   "kelder. Dat gaat sneller dan een lijst van losse woorden, en bij een toets komt "
+                   "het paar vaak samen aan bod.",
+            waarom=[
+                "Let op tenant en landlord: de huurder betaalt, de huisbaas bezit. En op ground "
+                "floor: het gelijkvloers is in het Brits Engels niet de first floor, want dat is "
+                "bij ons de eerste verdieping.",
+                "Let op de bouwwoorden: terraced is een rijhuis, semi-detached een halfopen "
+                "bebouwing en detached een vrijstaand huis. Flat is Brits, apartment Amerikaans.",
+                "Noem beide: house is het gebouw, home is het gevoel erbij. Daarom zegt men a house "
+                "for sale maar I am going home, en nooit I am going house.",
+            ],
+        ),
+        dict(
+            aanpak="Bij eten en drinken is de kunst niet het woord maar het werkwoord dat erbij "
+                   "hoort. Zulke vaste combinaties leer je als één geheel, want ze zijn niet uit "
+                   "het Nederlands te voorspellen.",
+            waarom=[
+                "Let op pudding: in Brits Engels is dat het nagerecht in het algemeen, niet enkel "
+                "pudding zoals bij ons. Takeaway is Brits, takeout is Amerikaans.",
+                "Dit zijn vaste combinaties: lay the table, do the washing-up, follow a recipe, "
+                "make a reservation. Make the washing-up bestaat niet, al klinkt het logisch.",
+                "Spanner is een moersleutel, dus geen keukengerei; de drie andere zijn een "
+                "waterkoker, een kookpot en een pan. Zo'n vraag test of je het woordveld kent en "
+                "niet enkel de losse woorden.",
+            ],
+        ),
+        dict(
+            aanpak="Ook hier gaat het vooral om het juiste werkwoord. De regel die het meest "
+                   "oplevert: play bij een spel met een bal of een tegenstander, go bij een "
+                   "beweging die op -ing eindigt, do bij de rest.",
+            waarom=[
+                "Let op audience en performance: audience is het publiek als groep, dus enkelvoud "
+                "met een meervoudsgevoel. En a pastime is een bezigheid; het Nederlandse hobby "
+                "bestaat ook in het Engels, maar pastime klinkt natuurlijker in een tekst.",
+                "Do yoga, play football, go jogging, take part in a race. Het steuntje: go plus "
+                "-ing, play plus bal of spel, do plus de rest.",
+                "Houd het bij twee volle zinnen met de gevraagde wendingen. Let op de plaats van "
+                "usually en hardly ever: die komen vóór het werkwoord, maar ná een vorm van to be.",
+            ],
+        ),
+        dict(
+            aanpak="Een phrasal verb betekent samen iets anders dan de twee woorden apart, dus leer "
+                   "ze als geheel. Up betekent vaak afwerken of verzamelen, out leeg of weg, off "
+                   "uit of weg.",
+            waarom=[
+                "Let op give up: opgeven, niet weggeven. En run out of: op zijn. Pick you up is "
+                "ophalen, en dat up kan ook achteraan: I will pick up the children of I will pick "
+                "the children up, maar bij een voornaamwoord móet het erachter: pick you up.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordvelden-gezondheid-natuur-en-duurzaamheid-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Bij de dokter is het woordveld klein maar vol valstrikken, vooral tussen Brits "
+                   "en Amerikaans Engels. Leer bij elke klacht ook het werkwoord dat erbij hoort.",
+            waarom=[
+                "Let op GP: dat staat voor general practitioner, de huisarts. En chemist's is in "
+                "Brits Engels de apotheek, terwijl een Amerikaan pharmacy of drugstore zegt.",
+                "Vaste combinaties: catch a cold, get better, make an appointment, take painkillers. "
+                "Take a cold bestaat niet, en in het Nederlands zeggen we net wel pillen nemen, dus "
+                "die ene klopt wel.",
+                "Noem beide betekenissen. In Amerikaans Engels betekent sick gewoon ziek, en dat is "
+                "precies waarom de vraag Brits Engels zegt. Een Brit die I feel sick zegt, moet "
+                "misschien overgeven.",
+            ],
+        ),
+        dict(
+            aanpak="Deze woorden gaan over hoe je je voelt, en het Engels heeft er meer dan het "
+                   "Nederlands. Leer ze op een lijn van rustig naar uitgeput, dan weet je ook welk "
+                   "woord te sterk is.",
+            waarom=[
+                "Let op overwhelmed: overweldigd, dus het gevoel dat alles te veel wordt. Het is "
+                "sterker dan stressed en komt vaak met by of with: overwhelmed by the work.",
+                "Houd het bij twee zinnen met should en try to. Let erop dat er na should geen to "
+                "komt (you should go, niet you should to go), en na try to wel een infinitief.",
+            ],
+        ),
+        dict(
+            aanpak="Dierennamen en landschapswoorden moet je gewoon kennen. Het helpt om ze in "
+                   "groepjes te leren: wat beweegt, wat groeit, en wat vorm geeft aan het landschap.",
+            waarom=[
+                "Let op an owl met an, want het begint met een klinkerklank. En hedgehog zit in "
+                "hedge: letterlijk een haagvarken, want daar leeft hij.",
+                "Gravel is grind, dus geen boom; oak, beech en willow zijn de eik, de beuk en de "
+                "wilg. Zoek bij zo'n vraag altijd de categorie van de drie andere.",
+                "Let op species: dat is zowel enkelvoud als meervoud, dus one species en two "
+                "species. Een vaak gemaakte fout is specie, en dat woord bestaat zo niet.",
+            ],
+        ),
+        dict(
+            aanpak="Duurzaamheid is een woordveld dat je ook in een examentekst of een opiniestuk "
+                   "tegenkomt. Leer naast het woord ook de drie r's op een rij: reduce, reuse, "
+                   "recycle.",
+            waarom=[
+                "Let op emissions: altijd meervoud in deze betekenis. En carbon footprint is een "
+                "beeld: de afdruk die je met je uitstoot achterlaat.",
+                "Noem dat het om eenmalig gebruik gaat. Single-use is ook een voorbeeld van hoe het "
+                "Engels met een streepje een hele bijvoeglijke bepaling maakt, zoals in a ten-year-"
+                "old bike.",
+                "Houd het bij drie volle zinnen met een werkwoord. Wissel af tussen could, should en "
+                "we could, want een opsomming van drie keer dezelfde opbouw leest zwak.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordvelden-school-werk-geld-en-verkeer-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Bij school zitten de valstrikken in de werkwoorden en in de onteltbare "
+                   "woorden. Leer de drie werkwoorden rond een examen samen: sit, pass en fail.",
+            waarom=[
+                "Let op to pass an exam: slagen, niet afleggen. En een subject is een vak, terwijl "
+                "a course een hele opleiding of cursus is.",
+                "Afleggen, dus enkel deelnemen. I sat the exam zegt niets over het resultaat, en "
+                "dat is precies de fout die men met passed maakt.",
+                "Zakken. Let op dat fail ook met een lijdend voorwerp kan: I failed maths, dus ik "
+                "was niet geslaagd voor wiskunde.",
+                "Waar. Net als information, advice en furniture: altijd enkelvoud, en wil je er één "
+                "aanduiden, dan zeg je a piece of homework of an assignment.",
+            ],
+        ),
+        dict(
+            aanpak="Dit woordveld heb je nodig zodra je zelf een mail schrijft voor een job. Leer "
+                   "naast het woord ook het voorzetsel dat erbij hoort, want dat is wat men fout "
+                   "doet.",
+            waarom=[
+                "Let op to apply for a job, met for. En op het verschil tussen to be made redundant "
+                "en to be fired: het eerste is ontslagen omdat de functie verdwijnt, het tweede "
+                "omdat je iets fout deed. Salary is een maandloon, wages is loon per uur of per week.",
+                "Curriculum vitae, Latijn voor levensloop. In de Verenigde Staten heet hetzelfde "
+                "document a resume.",
+                "Begin met Dear Sir or Madam als je de naam niet kent, en zeg in de eerste zin "
+                "meteen waarvoor je solliciteert en waar je de vacature zag. Een mail die met Hello "
+                "begint, leest in een sollicitatie te los.",
+            ],
+        ),
+        dict(
+            aanpak="Bij geld zijn er twee dingen om te leren: het woord zelf en het werkwoord dat "
+                   "erbij past. Spend gebruik je voor geld, pay voor een rekening of een manier van "
+                   "betalen.",
+            waarom=[
+                "Let op the change: wisselgeld, niet verandering, al is het hetzelfde woord. En a "
+                "receipt heeft een stille p; het werkwoord erbij is to receive.",
+                "Spend money, pay a bill, pay in cash, get a bargain. Je betaalt dus niet money "
+                "maar je spendeert het, en dat is net omgekeerd aan het Nederlands.",
+                "Pavement is het voetpad, dus geen geldwoord; savings, interest en budget zijn "
+                "spaargeld, intrest en budget. Pavement komt in de volgende reeks terug.",
+            ],
+        ),
+        dict(
+            aanpak="Verkeer is het woordveld met het grootste verschil tussen Brits en Amerikaans "
+                   "Engels. Leer ze als paar, want in een examentekst kan beide staan en je moet "
+                   "ze alle twee herkennen.",
+            waarom=[
+                "Let op pavement: in Brits Engels het voetpad, in Amerikaans Engels het wegdek "
+                "zelf. Dat is dus niet enkel een ander woord maar een andere betekenis, en daar "
+                "gaan de meeste fouten.",
+                "Een zebrapad, genoemd naar de strepen. In het Verenigd Koninkrijk heet een "
+                "zebrapad met lichten een pelican crossing.",
+                "Het spitsuur, al duurt het meestal langer dan een uur. Let op: in Brits Engels zegt "
+                "men ook the rush hour met the ervoor.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordvelden-kunst-literatuur-politiek-en-reizen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Splits dit woordveld in twee: de woorden om een werk te benoemen, en de "
+                   "woorden om een verhaal te bespreken. Die tweede groep heb je nodig zodra je "
+                   "over een boek of een film moet schrijven.",
+            waarom=[
+                "Let op a novel: een roman, niet een novelle. En an exhibition met een h die je "
+                "niet hoort; het werkwoord is to exhibit.",
+                "Deze vier zijn het gereedschap om elk verhaal te bespreken: wat er gebeurt, wie "
+                "het meemaakt, wie het vertelt en waar en wanneer het speelt. Let op character: "
+                "zowel personage als karakter.",
+                "Noem beide helften. Let op dat non-fiction niet hetzelfde is als waar: het gaat "
+                "over de werkelijkheid, maar een non-fictieboek kan zich vergissen of overtuigen "
+                "willen.",
+            ],
+        ),
+        dict(
+            aanpak="Politieke woorden lijken sterk op het Nederlands, dus hier gaat het vooral om "
+                   "de juiste vorm en het juiste voorzetsel. Leer government als een enkelvoud dat "
+                   "in Brits Engels ook meervoudig gebruikt wordt.",
+            waarom=[
+                "Let op to vote for someone, met for. En an act is de naam van een wet in het "
+                "Verenigd Koninkrijk, zoals the Education Act; a law is het begrip in het algemeen.",
+                "De Houses of Parliament, met het House of Commons en het House of Lords. In "
+                "Belgie zijn dat de Kamer en de Senaat, en dat verschil is een handige vergelijking.",
+                "Houd het bij twee zinnen met de gevraagde wendingen en één echt argument. Let op "
+                "de komma na In my opinion, en op het streepje in sixteen-year-olds.",
+            ],
+        ),
+        dict(
+            aanpak="Reiswoorden komen vaak met een vast werkwoord: book a flight, check in, catch "
+                   "the train. Leer die combinaties, want ze staan in elke dialoog over reizen.",
+            waarom=[
+                "Let op a return ticket: Brits voor heen en terug, terwijl een Amerikaan a "
+                "round-trip ticket zegt. Enkel heen is a single (UK) of a one-way (US).",
+                "Book a flight, check in at a hotel, get off a plane, catch the train. Let op get "
+                "on en get off voor een trein, bus of vliegtuig, maar get in en get out of voor een "
+                "auto.",
+                "Waar. Net als information en furniture. Wil je stuks noemen, dan zeg je two pieces "
+                "of luggage of two suitcases.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordvelden-wetenschap-techniek-en-taal-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Veel van deze woorden ken je al uit het Nederlands, dus let vooral op wat "
+                   "anders is: de onteltbare woorden en de woorden die op het eerste gezicht "
+                   "hetzelfde lijken.",
+            waarom=[
+                "Let op research: onteltbaar, dus geen a research. En a device is een toestel in het "
+                "algemeen, terwijl an appliance een huishoudtoestel is.",
+                "Let op a file: zowel een bestand als een map of een vijl, afhankelijk van de "
+                "context. En to save betekent zowel opslaan als sparen en redden.",
+                "Waar. Je zegt a piece of research, some research of a study. Dezelfde regel als bij "
+                "homework, information en advice.",
+            ],
+        ),
+        dict(
+            aanpak="Een false friend lijkt op een Nederlands woord maar betekent iets anders. Leer "
+                   "er telkens twee dingen bij: wat het echt betekent, en hoe je het Nederlandse "
+                   "woord dan wel zegt.",
+            waarom=[
+                "Deze vijf staan in bijna elke toets. Actually betekent eigenlijk, niet actueel "
+                "(dat is current). Eventually is uiteindelijk, niet eventueel. En to control is "
+                "besturen of beheersen, niet nakijken.",
+                "Possibly of if necessary. Een zin als we will eventually come betekent dus dat je "
+                "zeker komt, en dat is net het omgekeerde van wat men bedoelt.",
+                "To check. En nakijken van een taak is to mark of to correct, dus ook daar niet "
+                "control gebruiken.",
+            ],
+        ),
+        dict(
+            aanpak="Van één woord maak je met een voor- of achtervoegsel een ander woord. Leer de "
+                   "achtervoegsels per soort: -ion en -ment maken een naamwoord, -er en -or iemand "
+                   "die het doet, -ful en -less een bijvoeglijk naamwoord.",
+            waarom=[
+                "Let op useful en useless: het ene is nuttig, het andere nutteloos, dus kijk goed "
+                "wat er gevraagd wordt. En op government: het werkwoord govern verliest zijn n niet, "
+                "maar de uitspraak slikt ze half in.",
+                "Il-, want legal begint met een l: illegal. Hetzelfde bij im- voor p, b en m "
+                "(impossible), en in- voor de rest (incorrect).",
+                "Ir-, want regular begint met een r: irregular. Het voorvoegsel past zich dus aan de "
+                "beginklank aan, en dat is de hele regel.",
+            ],
+        ),
+        dict(
+            aanpak="Brits en Amerikaans verschillen in woorden en in spelling. De spellingregels "
+                   "zijn eenvoudig: our wordt or, re wordt er, ise wordt ize, en een dubbele l "
+                   "wordt enkel.",
+            waarom=[
+                "Let op chips: in Brits Engels zijn dat frieten, in Amerikaans Engels chips uit een "
+                "zak (die een Brit crisps noemt). Dat is de verwarring die het vaakst voorkomt.",
+                "Kies in een eigen tekst één variant en houd die aan. In Vlaamse examens is Brits "
+                "Engels de norm, dus schrijf colour en centre, maar reken een Amerikaanse spelling "
+                "niet als fout bij een tekst die je leest.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-naamwoorden-lidwoorden-en-hoeveelheden-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De gewone regel is een s erbij, maar let op vier groepen: woorden op f die ves "
+                   "worden, woorden op een consonant plus y die ies worden, woorden op s, x, ch of "
+                   "sh die es krijgen, en de onregelmatige die je gewoon moet kennen.",
+            waarom=[
+                "Let op sheep: enkelvoud en meervoud gelijk, net als fish, deer en aircraft. En op "
+                "knife dat knives wordt, terwijl roof gewoon roofs blijft.",
+                "Analysis wordt analyses, net als basis, crisis en thesis: de is wordt es. Potato "
+                "krijgt es (potatoes), net als tomato en hero, maar piano en photo niet.",
+            ],
+        ),
+        dict(
+            aanpak="Een onteltbaar woord heeft geen meervoud en geen a ervoor. Wil je er toch één "
+                   "van aanduiden, dan zet je er a piece of of an item of voor.",
+            waarom=[
+                "Deze zes zijn de klassiekers van elke toets. Advice, information, furniture en news "
+                "zijn onteltbaar; suitcase en journey niet. Let op dat het Nederlands hier wel een "
+                "meervoud heeft, en dat is net waarom de fout zo vaak gemaakt wordt.",
+                "Enkelvoud, ondanks de s: the news is good. Hetzelfde bij mathematics, physics en "
+                "politics als vakgebied.",
+            ],
+        ),
+        dict(
+            aanpak="Drie vragen helpen je kiezen: is het iets algemeens (dan geen lidwoord), is het "
+                   "voor het eerst genoemd (dan a of an), of weten we al welke het is (dan the)? "
+                   "Instrumenten krijgen altijd the, en school en bed zonder lidwoord als het om de "
+                   "bezigheid gaat.",
+            waarom=[
+                "Let op to go to school zonder lidwoord: het gaat over naar school gaan als "
+                "bezigheid. Sta je als ouder bij het gebouw, dan zeg je wel I am at the school. En "
+                "the Netherlands krijgt the, net als the United States, omdat het een meervoud is.",
+                "Noem dat het om de klank gaat en niet om de letter. Daarom ook an MP3 file, want "
+                "de m wordt em uitgesproken, en a one-way ticket, want one begint met een w-klank.",
+            ],
+        ),
+        dict(
+            aanpak="Much bij onteltbaar, many bij telbaar. Little en a little bij onteltbaar, few "
+                   "en a few bij telbaar. A lot of kan bij beide en is in een gewone zin het "
+                   "veiligst.",
+            waarom=[
+                "Let op dat much en many vooral in vragen en ontkenningen staan; in een bevestigende "
+                "zin klinkt a lot of natuurlijker. Daarom staat er in de laatste a lot of work en "
+                "niet much work.",
+                "A few is enkele en klinkt positief, few is weinig en klinkt als een klacht. "
+                "Hetzelfde verschil bij a little en little: a little help is wat hulp, little help "
+                "is bijna geen hulp.",
+            ],
+        ),
+        dict(
+            aanpak="De s met apostrof gebruik je bij mensen en dieren, of bij tijd (today's paper). "
+                   "Bij dingen neem je of. Staat er al een s van het meervoud, dan komt de apostrof "
+                   "erachter.",
+            waarom=[
+                "Let op de drie vormen naast elkaar: sister's (enkelvoud), children's (meervoud "
+                "zonder s) en managers' (meervoud met s). Bij the roof of the house blijft of staan, "
+                "want een huis is geen persoon.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-voornaamwoorden-en-betrekkelijke-bijzinnen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vraag je bij elk gaatje af welke soort er moet staan: een bezittelijk zonder "
+                   "naamwoord erachter (mine), een wederkerend (herself), of een onderwerp dat enkel "
+                   "de zin vult (it of there).",
+            waarom=[
+                "Let op het verschil tussen it en there: it is raining gaat over het weer, there "
+                "were twenty people zegt dat er iets bestaat of aanwezig is. In het Nederlands zeggen "
+                "we in beide gevallen het of er, en daar komt de fout.",
+                "Its is bezittelijk, it's is een samentrekking van it is of it has. Een handig "
+                "steuntje: zet de apostrof enkel waar je ook it is zou kunnen zeggen.",
+            ],
+        ),
+        dict(
+            aanpak="Who voor mensen, which voor dingen, whose voor bezit, where voor een plaats. "
+                   "That kan who en which vervangen, maar enkel in een bepalende bijzin.",
+            waarom=[
+                "Let op whose: dat gebruik je ook voor dingen, dus a photo whose colours had faded. "
+                "En bij de laatste staat er who en geen that, want die bijzin staat tussen komma's.",
+                "Noem het verschil tussen bepalend en niet-bepalend, en gebruik de proef: kan de "
+                "bijzin weg zonder dat je niet meer weet over wie het gaat, dan is hij "
+                "niet-bepalend en krijgt hij komma's.",
+                "Niet waar. In een niet-bepalende bijzin kan enkel who of which, nooit that. Dat is "
+                "de regel die uit de vorige oefening volgt.",
+            ],
+        ),
+        dict(
+            aanpak="Zoek het woord dat in beide zinnen voorkomt en vervang het in de tweede zin "
+                   "door who, which, where of whose. Plak die bijzin dan direct achter het woord "
+                   "waar hij bij hoort.",
+            waarom=[
+                None,
+                "Where vervangt there, dus dat woordje verdwijnt: niet the house where we lived "
+                "there. Je kan ook zeggen the house in which we lived, en dat is formeler.",
+                "Its wordt whose, ook al gaat het over een ding. Veel leerlingen schrijven hier of "
+                "which, en dat kan ook, maar whose is korter en gewoner.",
+            ],
+        ),
+        dict(
+            aanpak="Some in een bevestigende zin, any in een vraag of een ontkenning. Een "
+                   "uitzondering: bij een aanbod of een verzoek staat er some, ook in een vraag.",
+            waarom=[
+                "Let op would you like some coffee: een aanbod, dus some en geen any. En op no plus "
+                "naamwoord tegenover not plus any: there is no time to lose betekent hetzelfde als "
+                "there is not any time to lose.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-bijvoeglijke-naamwoorden-bijwoorden-en-voorzetsels-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Korte woorden krijgen er en est, lange krijgen more en most. De grens ligt "
+                   "ongeveer bij twee lettergrepen; woorden op y worden ier en iest.",
+            waarom=[
+                "Let op de onregelmatige: good, better, best en bad, worse, worst. En op big dat "
+                "zijn g verdubbelt, want na een korte klinker verdubbel je de slotconsonant.",
+                "As tall as voor een gelijkheid, the best met the voor de overtreffende trap, en "
+                "much colder voor een versterking. Let op: very colder bestaat niet, bij een "
+                "vergrotende trap zeg je much, far of a lot.",
+            ],
+        ),
+        dict(
+            aanpak="Een bijvoeglijk naamwoord zegt iets over een naamwoord, een bijwoord over een "
+                   "werkwoord. Gaat het over hóe iets gebeurt, dan hoort er ly bij, behalve bij de "
+                   "koppelwerkwoorden en bij fast en hard.",
+            waarom=[
+                "Let op fast en hard: die hebben geen ly-vorm als bijwoord. En op hardly, dat wel "
+                "bestaat maar iets heel anders betekent.",
+                "Hard is hevig of zwaar, hardly is nauwelijks. I worked hard en I hardly worked "
+                "zeggen dus net het omgekeerde, en dat is een klassieke valstrik.",
+                "Noem het woord koppelwerkwoord en wat het doet. Bij die werkwoorden gaat het over "
+                "het onderwerp zelf: she looks good gaat over hoe ze eruitziet, she looks carefully "
+                "over hoe ze kijkt.",
+            ],
+        ),
+        dict(
+            aanpak="Voorzetsels van tijd volgen een regel: at bij een uur, on bij een dag, in bij "
+                   "een maand of jaar. Voor is het moeilijkst wat vast aan een bijvoeglijk "
+                   "naamwoord hangt, en dat moet je als combinatie leren.",
+            waarom=[
+                "Het steuntje gaat van klein naar groot: at six o'clock, on Monday, in 2019. For "
+                "noemt een duur, since een startpunt, en during een periode waarin iets gebeurt.",
+                "Deze combinaties zijn niet te voorspellen: good at, interested in, afraid of, "
+                "depend on, married to. Leer ze als één geheel, want het Nederlandse voorzetsel "
+                "helpt je hier niet.",
+                "For plus een duur (for three years), since plus een tijdstip (since 2015). Daarom "
+                "hoort since bijna altijd bij een present perfect: I have lived here since 2015.",
+            ],
+        ),
+        dict(
+            aanpak="De orde van bijvoeglijke naamwoorden in het Engels is vast: mening, grootte, "
+                   "leeftijd, vorm, kleur, herkomst, materiaal, en dan het naamwoord. Een getal "
+                   "komt altijd vooraan.",
+            waarom=[
+                "Loop de orde af en je komt er altijd uit: an old black leather jacket volgt "
+                "leeftijd, kleur, materiaal. Een moedertaalspreker kent die regel niet, maar hoort "
+                "meteen dat a leather black old jacket fout klinkt.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-tegenwoordige-tijden-en-de-present-perfect-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De simple present gebruik je voor wat altijd of regelmatig zo is, de present "
+                   "continuous voor wat nu bezig is of tijdelijk duurt. Woorden als every day, "
+                   "always en never wijzen naar de simple, woorden als look, now en this week naar "
+                   "de continuous.",
+            waarom=[
+                "Let op de derde: water boils at 100 graden Celsius is een algemene waarheid, dus "
+                "simple. En de laatste: they are staying with us this week is tijdelijk, dus "
+                "continuous, ook al gebeurt het de hele week.",
+                "Noem er twee uit de lijst. Dit zijn de state verbs: ze beschrijven een toestand en "
+                "geen bezigheid. I am knowing bestaat dus niet, en de reclameslogan I'm loving it "
+                "is bewust fout gekozen omdat het opvalt.",
+            ],
+        ),
+        dict(
+            aanpak="De present perfect verbindt het verleden met nu: het gebeurde eerder, maar het "
+                   "telt nog. Zodra er een afgesloten tijdstip in de zin staat, kan hij niet meer "
+                   "en moet het de past simple zijn.",
+            waarom=[
+                "Let op for en since bij de eerste en de laatste: for tien jaar lang, since vanaf "
+                "een punt. En op de plaats van just en not: die komen tussen have en het "
+                "deelwoord.",
+                "Noem dat het bij de tweede zin nú nog telt. Dat is de hele kern: I have lost my "
+                "keys betekent dat ze nog kwijt zijn, I lost my keys kan betekenen dat ik ze "
+                "daarna terugvond.",
+                "Dit lijstje is het handigst om te onthouden: yesterday, in 2010 en last week zijn "
+                "af, dus past simple; since, already en so far lopen door tot nu, dus present "
+                "perfect.",
+            ],
+        ),
+        dict(
+            aanpak="De present perfect continuous legt de nadruk op hoe lang je ergens mee bezig "
+                   "bent, de gewone present perfect op wat er klaar is. Staat er een aantal in de "
+                   "zin, dan is het bijna altijd de gewone vorm.",
+            waarom=[
+                "Vergelijk de tweede met de andere twee: three emails is een resultaat dat je kan "
+                "tellen, dus has written. For an hour en all morning zijn duur, dus de continuous.",
+                "Op de duur. Daarom hoort de continuous bij for an hour, all morning en how long, "
+                "en de gewone vorm bij een aantal of een afgewerkt resultaat.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-verleden-tijden-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Onregelmatige werkwoorden moet je kennen, maar ze zitten in groepjes: buy, "
+                   "catch en bring eindigen alle drie op ought of aught, en choose, write en fall "
+                   "hebben een apart deelwoord op en.",
+            waarom=[
+                "Let op het verschil tussen de eerste groep (verleden tijd en deelwoord gelijk) en "
+                "de tweede (deelwoord op en). Bij chose, chosen hoor je dat verschil ook.",
+                "Deze vier zijn de lastigste van allemaal. Lie betekent liggen en is onregelmatig "
+                "(lay, lain), lay betekent leggen en is regelmatig (laid). Hetzelfde patroon bij "
+                "rise, dat vanzelf stijgt, en raise, dat iemand doet stijgen. Let op dat lay ook "
+                "de verleden tijd van lie is, en daar komt alle verwarring van.",
+            ],
+        ),
+        dict(
+            aanpak="De past continuous is wat al bezig was, de past simple wat er toen gebeurde. "
+                   "While hoort bij de continuous, when meestal bij de simple.",
+            waarom=[
+                "Let op het patroon: de lange handeling in de continuous, de korte die ertussen "
+                "komt in de simple. Daarom was cooking en rang, en were watching en went out.",
+                "Noem beide helften, want dat is de regel die je bij elk verhaal kan gebruiken. "
+                "Een verhaal opent dan ook vaak met een continuous die het decor zet.",
+            ],
+        ),
+        dict(
+            aanpak="De past perfect is het verleden van het verleden: iets dat al gebeurd was voor "
+                   "het moment waar je verhaal staat. Je hebt dus altijd twee momenten nodig.",
+            waarom=[
+                "Let op de plaats van already en never: die komen tussen had en het deelwoord. En "
+                "op de laatste: she had finished before the others arrived, dus eerst het "
+                "afgewerkte, dan het latere.",
+                "Noem dat het gaat om wat nog vroeger gebeurde. In een indirecte rede verschuift "
+                "alles een stap: he said he had never flown, en dat komt in de bundel over de "
+                "indirecte rede terug.",
+            ],
+        ),
+        dict(
+            aanpak="Used to en would beschrijven beide een gewoonte uit het verleden die nu niet "
+                   "meer bestaat. Het verschil: used to kan ook bij een toestand, would enkel bij "
+                   "een handeling die zich herhaalde.",
+            waarom=[
+                "Na used to komt de infinitief zonder to erbij: used to play, niet used to played. "
+                "Let ook op de ontkenning: I did not use to play, zonder d.",
+                "Nee, want wonen is een toestand en geen herhaalde handeling. I used to live in "
+                "Ghent kan wel, en dat is net het verschil tussen de twee.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-toekomst-de-modale-hulpwerkwoorden-en-de-gerund-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Het Engels heeft drie manieren om over de toekomst te praten. Going to voor "
+                   "een plan dat vastligt of voor wat je ziet aankomen, will voor een beslissing "
+                   "op het moment of een voorspelling, en de present continuous voor een afspraak "
+                   "met een tijdstip erbij.",
+            waarom=[
+                "Let op de eerste en de laatste: de wolken zie je nu al, en de studiekeuze ligt "
+                "vast, dus beide going to. We are meeting Sara at eight is een afspraak in de "
+                "agenda, dus de present continuous.",
+                "Noem beide helften in één zin. Een handig steuntje: bij I promise of I think hoort "
+                "will, bij I have decided hoort going to.",
+            ],
+        ),
+        dict(
+            aanpak="Modale werkwoorden zeggen hoe zeker of hoe verplicht iets is. Must voor een "
+                   "verplichting of een sterke conclusie, cannot voor een conclusie die niet kan, "
+                   "should voor een raad, may en can om toestemming te vragen.",
+            waarom=[
+                "Let op de derde en de vijfde: must kan ook een conclusie zijn (haar auto staat "
+                "daar, dus ze is thuis), en should have plus deelwoord is een verwijt over het "
+                "verleden.",
+                "Must not is een verbod, do not have to betekent dat het mag maar niet moet. Dat is "
+                "het grootste verschil met het Nederlands, waar moet niet beide kan betekenen.",
+            ],
+        ),
+        dict(
+            aanpak="Na sommige werkwoorden komt de ing-vorm, na andere de infinitief met to. De "
+                   "lijsten moet je kennen, maar er is een regel die altijd geldt: na een "
+                   "voorzetsel komt altijd de ing-vorm.",
+            waarom=[
+                "Enjoy, avoid en mind nemen de ing-vorm; decide en hope nemen to. De laatste twee "
+                "hebben een voorzetsel voor zich (mind plus ing, forward to plus ing), en dat "
+                "beslist.",
+                "Noem dat to hier een voorzetsel is en geen deel van de infinitief. Hetzelfde bij "
+                "be used to doing en look forward to meeting.",
+                "Noem beide betekenissen. Dezelfde omslag bij remember: I remember locking the door "
+                "is een herinnering, I remembered to lock the door is dat je het niet vergat.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-zinsbouw-indirecte-rede-en-de-passieve-vorm-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Een vraag of een ontkenning heeft een hulpwerkwoord nodig. Staat er al een "
+                   "(have, can, is), dan zet je dat vooraan. Staat er geen, dan haal je do, does of "
+                   "did erbij, en het hoofdwerkwoord gaat terug naar de infinitief.",
+            waarom=[
+                "Let op de eerste en de laatste: works wordt does she work (de s verhuist naar "
+                "does) en saw wordt did you see (de verleden tijd verhuist naar did). Did you saw "
+                "is dus dubbel fout.",
+                "Isn't she, dus omgekeerd aan de hoofdzin: een bevestiging krijgt een ontkennende "
+                "tag en omgekeerd. Dat is wat het Nederlandse he of niet in een vraagje doet.",
+            ],
+        ),
+        dict(
+            aanpak="In de indirecte rede schuift alles een stap naar achteren: de tijd, de persoon "
+                   "en de tijds- en plaatswoorden. Bij een vraag verdwijnt de vraagomkering, bij een "
+                   "bevel komt er not to of to plus infinitief.",
+            waarom=[
+                None,
+                "Will wordt would en tomorrow wordt the next day. Let ook op you dat me wordt, want "
+                "de spreker is veranderd.",
+                "Let erop dat de vraagvorm verdwijnt: niet he asked where did I live, maar he asked "
+                "where I lived. Dat is de fout die het vaakst gemaakt wordt.",
+                "Bij een bevel gebruik je to plus infinitief, en bij een verbod not to. Dus she "
+                "told him to leave en she told him not to touch that.",
+                "The next day en there. Hetzelfde bij today dat that day wordt, yesterday dat the "
+                "day before wordt, en this dat that wordt.",
+            ],
+        ),
+        dict(
+            aanpak="In de passieve vorm wordt het lijdend voorwerp het onderwerp. Je neemt de "
+                   "juiste vorm van to be en het voltooid deelwoord, en je houdt de tijd van de "
+                   "actieve zin aan.",
+            waarom=[
+                None,
+                "Has stolen wordt has been stolen: de present perfect blijft, maar er komt been "
+                "bij. Someone verdwijnt, want wie het deed weet je niet.",
+                "Are repairing wordt is being repaired: bij een continuous heb je zowel being als "
+                "het deelwoord nodig. Dat is de vorm die het meest fout gaat.",
+                "Noem twee redenen, en liefst ook dat het in verslagen en wetenschappelijke teksten "
+                "de gewone manier van schrijven is. Wil je de dader er toch bij, dan gebruik je by: "
+                "the bridge was built by the city.",
+            ],
+        ),
+        dict(
+            aanpak="Er zijn vier soorten voorwaardelijke zinnen. De nulde voor wat altijd zo is "
+                   "(present plus present), de eerste voor wat echt kan (present plus will), de "
+                   "tweede voor wat onwaarschijnlijk is (past plus would), de derde voor wat niet "
+                   "meer kan veranderen (past perfect plus would have).",
+            waarom=[
+                "Let op de laatste: if you heat ice, it melts is de nulde conditional, dus geen "
+                "will. En let erop dat er na if nooit will of would staat.",
+                "De derde conditional, want die gaat over het verleden: if she had studied, she "
+                "would have passed. Ze heeft niet gestudeerd en dat is nu niet meer te veranderen.",
+            ],
+        ),
+    ],
+)
