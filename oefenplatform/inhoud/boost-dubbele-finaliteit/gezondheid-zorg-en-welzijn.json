@@ -100,12 +100,14 @@
             "mechanoreceptoren",
             "thermoreceptoren",
             "fotoreceptoren",
-            "rekenreceptoren"
+            "rekenreceptoren",
+            "chemoreceptoren"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De vijf types zijn mechano-, thermo-, chemo-, foto- en nociceptoren. Rekenreceptoren bestaan niet."
         },
@@ -128,12 +130,14 @@
             "een alarmfunctie",
             "een sociale functie",
             "een emotionele functie",
-            "een rekenfunctie"
+            "een rekenfunctie",
+            "een communicatieve functie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De vijf functies zijn functioneel, sociaal, emotioneel, communicatief en alarmerend."
         },
@@ -275,15 +279,14 @@
           "opties": [
             "pijnreceptoren",
             "mechanoreceptoren",
-            "thermoreceptoren",
+            "geluidsreceptoren",
             "fotoreceptoren"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Fotoreceptoren zitten in het oog, niet in de huid."
+          "uitleg": "In de huid zitten pijnreceptoren, mechanoreceptoren en thermoreceptoren. Fotoreceptoren zitten in het oog en geluidsreceptoren in het binnenoor."
         },
         {
           "type": "meerkeuze",
@@ -340,12 +343,14 @@
             "zoet",
             "zuur",
             "umami",
-            "warm"
+            "warm",
+            "bitter"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De vijf basissmaken zijn zoet, zout, zuur, bitter en umami. Warm is geen smaak maar een temperatuur."
         },
@@ -391,15 +396,14 @@
           "opties": [
             "ze beschermt",
             "ze regelt de warmte",
-            "ze voelt aanraking",
+            "ze maakt vitamine C",
             "ze maakt speeksel"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Speeksel komt van de speekselklieren in de mond, niet van de huid."
+          "uitleg": "De huid beschermt, regelt de warmte en voelt aanraking, en met zonlicht maakt ze vitamine D. Speeksel komt van de speekselklieren en vitamine C moet je eten."
         },
         {
           "type": "waarofniet",
@@ -492,12 +496,14 @@
             "ze is gekleurd",
             "ze regelt de pupil",
             "ze ligt vooraan",
-            "ze maakt het beeld scherp"
+            "ze maakt het beeld scherp",
+            "ze bepaalt hoeveel licht binnenkomt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De iris is het gekleurde ringetje vooraan dat de pupil groter of kleiner maakt. Scherpstellen doet de lens."
         },
@@ -531,15 +537,14 @@
           "opties": [
             "ze zien kleur",
             "ze werken bij veel licht",
-            "ze maken het beeld scherp",
+            "ze zien enkel zwart-wit",
             "ze werken in het donker"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "In het donker nemen de staafjes over, en dan zie je bijna geen kleur meer."
+          "uitleg": "De kegeltjes zien kleur, werken bij veel licht en geven een scherp beeld in het midden van het netvlies. In het donker nemen de staafjes over, en die zien bijna geen kleur."
         },
         {
           "type": "meerkeuze",
@@ -596,12 +601,14 @@
             "het ooglid",
             "de wimpers",
             "de oogspieren",
-            "het netvlies"
+            "het netvlies",
+            "het bindvlies"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het netvlies zit binnenin, achteraan in de oogbol."
         },
@@ -694,15 +701,14 @@
           "opties": [
             "het buitenoor",
             "het middenoor",
-            "het binnenoor",
+            "het achteroor",
             "het voorhoofd"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het oor bestaat uit drie delen: buitenoor, middenoor en binnenoor."
+          "uitleg": "Het oor bestaat uit het buitenoor, het middenoor en het binnenoor. Een achteroor of het voorhoofd horen er niet bij."
         },
         {
           "type": "meerkeuze",
@@ -735,12 +741,14 @@
             "het ligt achter het trommelvel",
             "er zitten drie gehoorbeentjes",
             "het is met de keel verbonden",
-            "het bevat het slakkenhuis"
+            "het bevat het slakkenhuis",
+            "het geeft trillingen door naar het binnenoor"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Hamer, aambeeld en stijgbeugel zitten in het middenoor. Het slakkenhuis zit in het binnenoor."
         },
@@ -810,15 +818,14 @@
           "opties": [
             "te veel lawaai",
             "muziek te luid zetten",
-            "lang in een fabriek werken",
+            "een koptelefoon met gehoorbescherming",
             "een rustig gesprek"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een gesprek haalt ongeveer 60 dB; daar gebeurt niets mee."
+          "uitleg": "Te veel lawaai en te luide muziek beschadigen je gehoor, en ook jarenlang werken in een lawaaierige fabriek. Een rustig gesprek haalt ongeveer 60 dB en gehoorbescherming helpt juist."
         },
         {
           "type": "meerkeuze",
@@ -922,15 +929,14 @@
           "opties": [
             "glad spierweefsel",
             "hartspierweefsel",
-            "skeletspierweefsel",
+            "kraakbeen",
             "beenweefsel van een bot"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Beenweefsel is bot, geen spier. De drie spierweefsels zijn glad, hart en skelet."
+          "uitleg": "De drie spierweefsels zijn glad spierweefsel, hartspierweefsel en skeletspierweefsel. Beenweefsel en kraakbeen zijn geen spier."
         },
         {
           "type": "meerkeuze",
@@ -1011,12 +1017,14 @@
             "de spierbuik",
             "de pees",
             "de spiervezels",
-            "de smaakknop"
+            "de smaakknop",
+            "het bindweefsel rond de spier"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De smaakknop zit op de tong. Een spier bestaat uit een spierbuik met vezels en pezen aan de uiteinden."
         },
@@ -1063,12 +1071,14 @@
             "om te bewegen",
             "om warmte te maken",
             "om rechtop te staan",
-            "om bloed aan te maken"
+            "om bloed aan te maken",
+            "om je gewrichten stevig te houden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Bloed wordt in het beenmerg gemaakt, niet door de spieren."
         },
@@ -1163,15 +1173,14 @@
           "opties": [
             "het opperarmbeen",
             "het spaakbeen",
-            "de ellepijp",
+            "het schouderblad",
             "het dijbeen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het dijbeen zit in het been. Spaakbeen en ellepijp vormen samen de onderarm."
+          "uitleg": "Het opperarmbeen zit boven, en het spaakbeen en de ellepijp vormen samen de onderarm. Het dijbeen zit in het been en het schouderblad hoort bij de schoudergordel."
         },
         {
           "type": "meerkeuze",
@@ -1216,12 +1225,14 @@
             "de kop zit in een kom",
             "het draait alle kanten op",
             "de heup is er een",
-            "de knie is er een"
+            "de knie is er een",
+            "de schouder is er een"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De knie is een scharniergewricht. De heup en de schouder zijn kogelgewrichten."
         },
@@ -1232,12 +1243,14 @@
             "de gewrichtskop",
             "de gewrichtskom",
             "het gewrichtskapsel",
-            "de smaakknop"
+            "de smaakknop",
+            "het kraakbeen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Verder nog kraakbeen, ligamenten en gewrichtssmeer. Een smaakknop hoort bij de tong."
         },
@@ -1380,15 +1393,14 @@
           "opties": [
             "het ruggenmerg",
             "de grote hersenen",
-            "de kleine hersenen",
+            "een ruggenmergzenuw",
             "een hersenzenuw"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De hersenzenuwen horen bij het perifere zenuwstelsel, buiten de hersenen en het ruggenmerg."
+          "uitleg": "De grote hersenen, de kleine hersenen en het ruggenmerg vormen het centraal zenuwstelsel. De hersenzenuwen en de ruggenmergzenuwen horen bij het perifere zenuwstelsel."
         },
         {
           "type": "meerkeuze",
@@ -1409,12 +1421,14 @@
             "denken",
             "taal",
             "bewust voelen",
-            "de hartslag regelen"
+            "de hartslag regelen",
+            "bewegingen besturen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De hartslag regelt de hersenstam. In de grote hersenen zitten de centra voor denken, taal en bewust voelen."
         },
@@ -1497,12 +1511,14 @@
             "de dendriet",
             "het cellichaam",
             "het axon",
-            "de spierbuik"
+            "de spierbuik",
+            "de myelineschede"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De spierbuik hoort bij een spier. Een neuron heeft dendrieten, een cellichaam en een axon."
         },
@@ -1633,15 +1649,14 @@
           "opties": [
             "in het neuron is het elektrisch",
             "in de synaps is het chemisch",
-            "het is dus een samenwerking",
+            "het gaat even snel als het bloed",
             "het gaat enkel via het bloed"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Binnen de cel elektrisch, tussen twee cellen chemisch. Het bloed vervoert hormonen, geen impulsen."
+          "uitleg": "Binnen de cel is het elektrisch en tussen twee cellen chemisch: dus een samenwerking van beide. Het bloed vervoert hormonen, geen impulsen, en veel trager."
         },
         {
           "type": "meerkeuze",
@@ -1686,12 +1701,14 @@
             "de kniepeesreflex",
             "de slikreflex",
             "de pupilreflex",
-            "het schrijven van een brief"
+            "het schrijven van een brief",
+            "de hoestreflex"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Schrijven is een gewilde beweging: je beslist er zelf over."
         },
@@ -1761,15 +1778,14 @@
           "opties": [
             "het zweten bij warmte",
             "het kloppen van je hart",
-            "de pupil die kleiner wordt",
+            "het oversteken van de straat",
             "het kiezen van een boek"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De juiste antwoorden gebeuren zonder dat je het beslist. Een boek kiezen is een bewuste keuze."
+          "uitleg": "Zweten, je hartslag en je pupil gebeuren zonder dat je het beslist. Een boek kiezen of oversteken is een bewuste keuze."
         },
         {
           "type": "waarofniet",
@@ -1862,12 +1878,14 @@
             "slaap en rust",
             "uitscheiding",
             "rol en relatie",
-            "winst en verlies"
+            "winst en verlies",
+            "voeding"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Winst en verlies hoort bij een boekhouding, niet bij de patronen van Gordon."
         },
@@ -1938,12 +1956,14 @@
             "zien",
             "horen",
             "onthouden",
-            "plassen"
+            "plassen",
+            "pijn voelen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Plassen hoort bij uitscheiding. Waarneming en cognitie gaat over de zintuigen, het denken en het onthouden."
         },
@@ -1953,15 +1973,14 @@
           "opties": [
             "je vergeet minder",
             "je werkt sneller",
-            "je kan het uitleggen",
+            "je moet niets opschrijven",
             "je hoeft niet te kijken"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een vaste werkwijze vervangt het kijken niet; ze zorgt dat je niets overslaat."
+          "uitleg": "Een vaste werkwijze zorgt dat je niets overslaat, dat je sneller werkt en dat je kan uitleggen hoe je te werk ging. Kijken en noteren blijft nodig."
         },
         {
           "type": "meerkeuze",
@@ -2076,15 +2095,14 @@
           "opties": [
             "lichaam",
             "doen",
-            "samen",
+            "werk",
             "geld"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Lichaam, doen en samen. Geld hoort niet bij de gezondheidstoestand."
+          "uitleg": "In het ICF bestaat de gezondheidstoestand uit lichaam, doen en samen. Geld en werk horen bij de externe factoren."
         },
         {
           "type": "meerkeuze",
@@ -2153,12 +2171,14 @@
             "de woonplaats",
             "het gezin",
             "de school",
-            "het karakter"
+            "het karakter",
+            "de vrienden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het karakter is een persoonlijke factor; de andere liggen buiten de persoon."
         },
@@ -2205,12 +2225,14 @@
             "het functioneren bekijken",
             "een plan opstellen",
             "de sterktes zien",
-            "een diagnose stellen"
+            "een diagnose stellen",
+            "de noden op een rij zetten"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een diagnose stellen is werk van een arts. Beide schema's brengen het functioneren in kaart."
         },
@@ -2291,15 +2313,14 @@
           "opties": [
             "koorts",
             "braken",
-            "geen zin om te spelen",
+            "veel honger hebben",
             "een nieuwe jas"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een nieuwe jas zegt niets over gezondheid. De andere zijn symptomen van ziek zijn."
+          "uitleg": "Koorts, braken en geen zin om te spelen zijn symptomen van ziek zijn. Een nieuwe jas zegt niets over gezondheid, en veel honger hebben is juist een goed teken."
         },
         {
           "type": "meerkeuze",
@@ -2368,12 +2389,14 @@
             "slaaptekort",
             "rugklachten",
             "stress en faalangst",
-            "een gebroken arm"
+            "een gebroken arm",
+            "te weinig bewegen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een gebroken arm is een ongeval, geen vaak voorkomend gezondheidsprobleem."
         },
@@ -2443,15 +2466,14 @@
           "opties": [
             "genoeg bewegen",
             "gezond eten",
-            "water drinken",
+            "elke dag op de weegschaal staan",
             "veel zitten"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Veel zitten is net sedentair gedrag, en dat werkt overgewicht in de hand."
+          "uitleg": "Genoeg bewegen, gezond eten en water drinken in plaats van frisdrank helpen. Veel zitten werkt overgewicht in de hand, en elke dag wegen helpt niet."
         },
         {
           "type": "waarofniet",
@@ -2519,14 +2541,16 @@
             "blijf rustig",
             "vermijd besmetting",
             "zorg voor comfort",
-            "ga snel naar huis"
+            "ga snel naar huis",
+            "handel als hulpverlener"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Je blijft bij het slachtoffer. Verder nog: handel als hulpverlener, geef psychosociale hulp en denk aan de reacties achteraf."
+          "uitleg": "Bij eerste hulp blijf je rustig, vermijd je besmetting, zorg je voor comfort en handel je als hulpverlener; verder geef je psychosociale hulp en denk je aan de reacties achteraf. Je blijft bij het slachtoffer."
         },
         {
           "type": "meerkeuze",
@@ -2643,14 +2667,16 @@
             "een botbreuk",
             "een verstuiking",
             "een kneuzing",
-            "een brandwonde"
+            "een brandwonde",
+            "een ontwrichting"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Een brandwonde is een wonde van de huid. De vierde in dit rijtje is een ontwrichting."
+          "uitleg": "Een botbreuk, een verstuiking, een kneuzing en een ontwrichting zijn letsels aan botten, spieren en gewrichten. Een brandwonde is een wonde van de huid."
         },
         {
           "type": "meerkeuze",
@@ -2670,15 +2696,14 @@
           "opties": [
             "bel 112",
             "start borstcompressies",
-            "zoek een AED",
+            "leg het slachtoffer op zijn zij",
             "geef het slachtoffer water"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een bewusteloos slachtoffer krijgt nooit te drinken. De zes stappen eindigen met doorgaan tot de ambulance er is."
+          "uitleg": "Je belt 112, start met borstcompressies, laat een AED halen en gaat door tot de ambulance er is. Een bewusteloos slachtoffer dat niet ademt, leg je niet op zijn zij en geef je nooit te drinken."
         },
         {
           "type": "waarofniet",
@@ -2756,15 +2781,14 @@
           "opties": [
             "ziektepreventie",
             "gezondheidspromotie",
-            "gezondheidsbescherming",
+            "een ziekenhuisopname",
             "ziekteverzekering"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een ziekteverzekering betaalt de zorg; ze bevordert de gezondheid niet."
+          "uitleg": "Gezondheidsbevordering bestaat uit ziektepreventie, gezondheidspromotie en gezondheidsbescherming. Een ziekteverzekering of een opname betaalt of behandelt, maar bevordert niets."
         },
         {
           "type": "meerkeuze",
@@ -2833,14 +2857,16 @@
             "een gezonde omgeving maken",
             "vaardigheden aanleren",
             "je gedrag aanpassen",
-            "elke dag een pil nemen"
+            "elke dag een pil nemen",
+            "bewust omgaan met je gezondheid"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De vierde manier is bewust en actief omgaan met je gezondheid en die van anderen."
+          "uitleg": "Je bevordert gezondheid door een gezonde omgeving te maken, vaardigheden aan te leren, je gedrag aan te passen en bewust en actief om te gaan met je gezondheid en die van anderen. Een pil hoort daar niet bij."
         },
         {
           "type": "meerkeuze",
@@ -2884,15 +2910,14 @@
           "opties": [
             "water",
             "groenten",
-            "fruit",
+            "kaas",
             "snoep"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Water, groenten, fruit, granen, noten en hoogstens weinig dierlijke producten. Snoep hoort bij de restgroep."
+          "uitleg": "Water, groenten, fruit, granen en noten staan bovenaan. Dierlijke producten zoals kaas eet je weinig, en snoep hoort bij de restgroep."
         },
         {
           "type": "meerkeuze",
@@ -2973,14 +2998,16 @@
             "sedentair gedrag",
             "licht intensief bewegen",
             "hoog intensief bewegen",
-            "half intensief bewegen"
+            "half intensief bewegen",
+            "matig intensief bewegen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De vierde is matig intensief bewegen. Half intensief bestaat niet."
+          "uitleg": "Sedentair gedrag, licht, matig en hoog intensief bewegen zijn de bewegingscategorieën. Half intensief bestaat niet."
         },
         {
           "type": "meerkeuze",
@@ -3047,16 +3074,15 @@
           "vraag": "Waarvan hangt de hoeveelheid slaap af?",
           "opties": [
             "de leeftijd",
-            "het moment van inslapen",
+            "het weer buiten",
             "de kwaliteit van de slaap",
             "de kleur van de kamer"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Daarnaast spelen individuele verschillen mee. De kleur van de kamer hoort niet in dat rijtje."
+          "uitleg": "De leeftijd, het moment van inslapen en de kwaliteit van de slaap bepalen hoeveel slaap je nodig hebt, en er zijn individuele verschillen. De kleur van de kamer en het weer buiten horen niet in dat rijtje."
         },
         {
           "type": "meerkeuze",
@@ -3064,15 +3090,14 @@
           "opties": [
             "elke dag een vast uur",
             "een donkere kamer",
-            "een koele kamer",
+            "laat nog sporten",
             "een scherm in het bed"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een scherm vlak voor het slapen houdt je juist wakker."
+          "uitleg": "Elke dag een vast uur en een donkere, koele kamer helpen. Een scherm of een late training vlak voor het slapen houdt je juist wakker."
         },
         {
           "type": "meerkeuze",
@@ -3200,12 +3225,14 @@
             "hygiënisch handelen",
             "veilig handelen",
             "ergonomisch handelen",
-            "winstgevend handelen"
+            "winstgevend handelen",
+            "milieubewust handelen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De zeven factoren zijn respectvol en belevingsgericht, methodisch, hygiënisch, veilig, ergonomisch, milieubewust en economisch."
         },
@@ -3239,15 +3266,14 @@
           "opties": [
             "voor jezelf",
             "voor anderen",
-            "voor het materiaal",
+            "voor de kalender",
             "voor het weer"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie richtingen: jezelf, de anderen en het materiaal."
+          "uitleg": "Respect gaat in drie richtingen: naar jezelf, naar de anderen en naar het materiaal. Het weer en de kalender horen daar niet bij."
         },
         {
           "type": "meerkeuze",
@@ -3315,15 +3341,14 @@
           "opties": [
             "maaltijdzorg",
             "interieurzorg",
-            "linnenzorg",
+            "de loonadministratie",
             "boekhouding"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De drie huishoudelijke taken zijn maaltijdzorg, interieurzorg en linnenzorg."
+          "uitleg": "De drie huishoudelijke taken zijn maaltijdzorg, interieurzorg en linnenzorg. De boekhouding en de loonadministratie zijn geen huishoudelijke taak."
         },
         {
           "type": "meerkeuze",
@@ -3451,14 +3476,16 @@
             "verbodstekens",
             "gebodstekens",
             "waarschuwingstekens",
-            "rekentekens"
+            "rekentekens",
+            "reddingstekens"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De vierde soort zijn de reddingstekens. Rekentekens bestaan niet in de veiligheid."
+          "uitleg": "Verbodstekens, gebodstekens, waarschuwingstekens en reddingstekens zijn de soorten gevarentekens. Rekentekens bestaan niet in de veiligheid."
         },
         {
           "type": "meerkeuze",
@@ -3503,14 +3530,16 @@
             "het gebruik",
             "de dosering",
             "de gevarensymbolen",
-            "de naam van de winkel"
+            "de naam van de winkel",
+            "de veiligheidsaanduidingen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Verder nog de gevarenaanduidingen en de veiligheidsaanduidingen."
+          "uitleg": "Op een etiket staan het gebruik, de dosering, de gevarensymbolen, de gevarenaanduidingen en de veiligheidsaanduidingen. De naam van de winkel zegt niets over het product."
         },
         {
           "type": "meerkeuze",
@@ -3579,14 +3608,16 @@
             "gft",
             "pmd",
             "restafval",
-            "grijsafval"
+            "grijsafval",
+            "glas"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Verder nog glas, papier en karton en kga. Grijsafval bestaat niet als categorie."
+          "uitleg": "Gft, pmd, restafval, glas, papier en karton en kga zijn de afvalcategorieën. Grijsafval bestaat niet als categorie."
         },
         {
           "type": "waarofniet",
@@ -3667,12 +3698,14 @@
             "eiwitten",
             "vetten",
             "koolhydraten",
-            "boterhammen"
+            "boterhammen",
+            "vitaminen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een boterham is een voedingsmiddel. De zeven voedingsstoffen zijn eiwitten, koolhydraten, vetten, vitaminen, mineralen, voedingsvezels en water."
         },
@@ -3743,14 +3776,16 @@
             "energie leveren",
             "het lichaam opbouwen",
             "het lichaam beschermen",
-            "het lichaam afkoelen"
+            "het lichaam afkoelen",
+            "het lichaam in stand houden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De vierde functie is het lichaam in stand houden. Afkoelen hoort er niet bij."
+          "uitleg": "Voedingsstoffen leveren energie, bouwen het lichaam op, beschermen het en houden het in stand. Afkoelen hoort er niet bij."
         },
         {
           "type": "meerkeuze",
@@ -3807,14 +3842,16 @@
             "vlees",
             "vis",
             "eieren",
-            "frisdrank"
+            "frisdrank",
+            "peulvruchten"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Ook peulvruchten en noten zijn rijk aan eiwitten. Frisdrank levert alleen suiker."
+          "uitleg": "Vlees, vis, eieren, peulvruchten en noten zijn rijk aan eiwitten. Frisdrank levert alleen suiker."
         },
         {
           "type": "waarofniet",
@@ -3881,15 +3918,14 @@
           "opties": [
             "het ontbijt",
             "de lunch",
-            "het avondmaal",
+            "een feestmaaltijd",
             "het dessertbord"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Plus twee à drie tussendoortjes. Een dessertbord is geen maaltijd op zich."
+          "uitleg": "Een dagmenu bestaat uit het ontbijt, de lunch en het avondmaal, plus twee à drie tussendoortjes. Een dessertbord of een feestmaaltijd is geen vast deel van de dag."
         },
         {
           "type": "meerkeuze",
@@ -3921,15 +3957,14 @@
           "opties": [
             "het geslacht",
             "de groei",
-            "de fysieke activiteit",
+            "het seizoen",
             "het merk van de winkel"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Wie groeit of veel beweegt, heeft meer energie nodig. De winkel heeft er niets mee te maken."
+          "uitleg": "Het geslacht, de groei en de fysieke activiteit bepalen hoeveel je nodig hebt: wie groeit of veel beweegt, heeft meer energie nodig. De winkel of het seizoen heeft er niets mee te maken."
         },
         {
           "type": "meerkeuze",
@@ -4010,14 +4045,16 @@
             "te grote porties",
             "te weinig groenten",
             "te veel alcohol",
-            "te veel water drinken"
+            "te veel water drinken",
+            "een onregelmatig eetpatroon"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Verder nog een onregelmatig patroon en te calorierijke voedingsmiddelen."
+          "uitleg": "Te grote porties, te weinig groenten, te veel alcohol en een onregelmatig eetpatroon zijn voedingsfouten, net als te calorierijke voedingsmiddelen. Van water drinken komt niets."
         },
         {
           "type": "meerkeuze",
@@ -4133,12 +4170,14 @@
             "water",
             "voedsel",
             "een goede temperatuur",
-            "volledige duisternis"
+            "volledige duisternis",
+            "zuurstof"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De vier levensvoorwaarden zijn water, voedsel, zuurstof en temperatuur. Donker hoeft niet."
         },
@@ -4208,15 +4247,14 @@
           "opties": [
             "bederf door bacteriën",
             "bederf door schimmels",
-            "bederf door insecten",
+            "bederf door bevriezen",
             "bederf door uitdrogen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Biologisch bederf komt door micro-organismen of macro-organismen. Uitdrogen is fysisch."
+          "uitleg": "Biologisch bederf komt door micro-organismen zoals bacteriën en schimmels, of door macro-organismen zoals insecten. Uitdrogen en bevriezen zijn fysisch."
         },
         {
           "type": "meerkeuze",
@@ -4260,15 +4298,14 @@
           "opties": [
             "braken",
             "diarree",
-            "misselijkheid",
+            "meer eetlust",
             "beter zien"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bedorven voedsel tast de spijsvertering aan, niet het gezichtsvermogen."
+          "uitleg": "Bedorven voedsel tast de spijsvertering aan: braken, diarree en misselijkheid. Op je ogen of je eetlust heeft het geen gunstig effect."
         },
         {
           "type": "waarofniet",
@@ -4358,16 +4395,15 @@
           "vraag": "Wanneer was je je handen bij het koken?",
           "opties": [
             "na rauw vlees",
-            "voor je begint",
+            "na het dekken van de tafel",
             "na het toilet",
             "na het afdrogen"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Na het afdrogen zijn je handen net schoon; dan hoeft het niet opnieuw."
+          "uitleg": "Je wast je handen voor je begint, na rauw vlees en na het toilet. Na het afdrogen of na het dekken van de tafel zijn je handen net schoon."
         },
         {
           "type": "meerkeuze",
@@ -4399,15 +4435,14 @@
           "opties": [
             "boodschappen bewaren",
             "hygiënisch werken",
-            "voedsel bereiden",
+            "het menu uitkiezen",
             "de tafel versieren"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "HACCP loopt van het ontvangen van de boodschappen tot het afwassen en schoonmaken."
+          "uitleg": "HACCP loopt van het ontvangen en bewaren van de boodschappen over het hygiënisch bereiden tot het afwassen en schoonmaken. De tafel versieren of een menu kiezen valt erbuiten."
         },
         {
           "type": "meerkeuze",
@@ -4463,15 +4498,14 @@
           "opties": [
             "een schorts dragen",
             "de haren samenbinden",
-            "de juwelen afleggen",
+            "met één handdoek alles drogen",
             "met je vingers proeven"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Met je vingers proeven brengt juist kiemen in het eten."
+          "uitleg": "Een schorts dragen, de haren samenbinden en de juwelen afleggen horen bij de persoonlijke hygiëne. Met je vingers proeven of met één handdoek alles drogen brengt juist kiemen in het eten."
         },
         {
           "type": "meerkeuze",
@@ -4563,15 +4597,14 @@
           "opties": [
             "de koelkast",
             "de vriezer",
-            "de voorraadkast",
+            "de vaatwasser",
             "de wasmachine"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Koelkast, vriezer en een koele berging of voorraadkast. In de wasmachine hoort geen voedsel."
+          "uitleg": "De koelkast, de vriezer en een koele berging of voorraadkast zijn de bewaarplaatsen. In de wasmachine of de vaatwasser hoort geen voedsel."
         },
         {
           "type": "meerkeuze",
@@ -4651,15 +4684,14 @@
           "opties": [
             "het voedingsmiddel",
             "de bewaarplaats",
-            "de houdbaarheidsdatum",
+            "het merk",
             "de kleur van de doos"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Wat het is, waar het hoort en tot wanneer het goed blijft. De kleur van de doos doet niets."
+          "uitleg": "Wat het is, waar het hoort en tot wanneer het goed blijft. De kleur van de doos en het merk doen daar niets aan."
         },
         {
           "type": "meerkeuze",
@@ -4668,12 +4700,14 @@
             "donker",
             "droog",
             "koel",
-            "warm"
+            "warm",
+            "goed verlucht"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Donker, droog, koel en goed verlucht. Warmte is net wat je er niet wil."
         },
@@ -4837,15 +4871,14 @@
           "opties": [
             "dranken",
             "sauzen",
-            "boter",
+            "verse vis",
             "rauw gehakt"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De deur is de minst koude plaats. Rauw gehakt hoort juist onderaan."
+          "uitleg": "De deur is de minst koude plaats: dranken, sauzen en boter kunnen daar. Rauw gehakt en verse vis horen juist onderaan, waar het koudst is."
         },
         {
           "type": "meerkeuze",
@@ -4913,15 +4946,14 @@
           "opties": [
             "de inhoud",
             "de datum",
-            "het aantal personen",
+            "de prijs per kilo",
             "de prijs van het vlees"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Zo weet je later wat het is, hoe lang het er al ligt en voor hoeveel mensen het volstaat."
+          "uitleg": "Zo weet je later wat het is, hoe lang het er al ligt en voor hoeveel mensen het volstaat. De prijs hoeft er niet op."
         },
         {
           "type": "meerkeuze",
