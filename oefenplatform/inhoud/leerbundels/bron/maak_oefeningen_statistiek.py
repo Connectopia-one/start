@@ -972,3 +972,877 @@ OEFENBUNDELS["oefenbundel-een-statistisch-onderzoek-met-de-rekenapps-beyond"] = 
              ]),
     ],
 )
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-problemen-oplossen-en-ict-gebruiken-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Eén vraag: staat de werkwijze al in de opgave? Dan is het een vraagstuk. Moet je "
+                   "zelf kiezen hoe je het aanpakt, dan is het een probleem.",
+            waarom=[
+                "Let erop dat beide opgaven zeggen wat je moet doen: berekenen met een combinatie, en "
+                "het gemiddelde nemen. Daarom zijn ze vraagstukken.",
+                "Let erop dat hier niet staat hoe je het moet aanpakken. Je moet zelf naar de "
+                "foutenmarge en de steekproefgrootte toe werken.",
+                "Let erop dat je zelf moet beslissen wat je met die cijfers doet: een toets opzetten, "
+                "hypothesen kiezen, een p-waarde afwegen. Daarom is het een probleem.",
+                "Noem de drie voorwaarden: de aanpak klopt, de stappen zijn navolgbaar en het antwoord "
+                "is juist. Dan mag het pad verschillen.",
+            ],
+        ),
+        dict(
+            aanpak="Vier stappen in hun orde: eerst lezen wat er gevraagd wordt, dan kiezen hoe, dan "
+                   "rekenen, dan nakijken of het antwoord kan.",
+            waarom=[
+                None,
+                None,
+                None,
+                "Let erop dat reflecteren niet hetzelfde is als overlezen. Het is nagaan of je uitkomst "
+                "mogelijk is, en dat is de volgende reeks.",
+            ],
+        ),
+        dict(
+            aanpak="Houd de grenzen vast: een kans en een p-waarde liggen tussen nul en één, de "
+                   "correlatiecoëfficiënt tussen min één en één, en een standaardafwijking is nooit "
+                   "negatief.",
+            waarom=[
+                None,
+                "Let erop dat een p-waarde zelf een kans is. Negatief kan dus niet, en boven één ook "
+                "niet.",
+                "Let erop dat nul hier wel kan: als alle waarden gelijk zijn, is er geen spreiding. "
+                "Negatief kan nooit.",
+                "Let erop dat r nooit buiten min één en één valt. Een getal boven één betekent dat je "
+                "ergens verkeerd ingetikt hebt.",
+            ],
+        ),
+        dict(
+            aanpak="Demathematiseren is je uitkomst teruggeven in de taal van de vraag. Bij mensen en "
+                   "dozen rond je naar boven af, want een halve bestaat niet.",
+            waarom=[
+                "Let erop dat je naar boven afrondt en niet naar het dichtste getal. Met 148 mensen "
+                "haal je je nauwkeurigheid niet.",
+                "Let erop dat 7 dozen te weinig is. Bij een aantal dat je moet aankopen, rond je altijd "
+                "naar boven af.",
+                "Let erop dat je in een volle zin moet antwoorden, zonder het woord kans te laten "
+                "staan als getal. Zevenentwintig op honderd of ruim één op vier doet dat.",
+            ],
+        ),
+        dict(
+            aanpak="Vier heuristieken, vier bezigheden: tekenen of in een tabel zetten, alles opsommen, "
+                   "kleine gevallen uitrekenen om een patroon te zien, of een antwoord gissen en "
+                   "nakijken.",
+            waarom=[
+                None,
+                "Let erop dat je hier geen antwoord zoekt maar een formule. Kleine gevallen uitrekenen "
+                "om de regel te zien, is een patroon zoeken.",
+                "Noem het voordeel: je kan er je formule mee controleren. Dat is de reden om het ook te "
+                "doen als je de formule al kent.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-telregels-product-som-en-complement-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zoek het woordje in de opgave. En betekent allebei kiezen, dus de productregel. Of "
+                   "betekent één van de twee, dus de somregel. Minstens betekent het complement.",
+            waarom=[
+                "Let op het verschil tussen en en of: bij een voorgerecht en een dessert kies je twee "
+                "keer, bij een taal of een sport maar één keer.",
+                None,
+                "Let erop dat hier twee keer gekozen wordt, letters en cijfers, dus de productregel. "
+                "Het woordje gevolgd door werkt als een en.",
+            ],
+        ),
+        dict(
+            aanpak="Zet voor elke keuze een vakje en schrijf erin hoeveel mogelijkheden er zijn. "
+                   "Vermenigvuldig dan alle vakjes.",
+            waarom=[
+                None,
+                "Let erop dat herhaling mag, dus elk vakje blijft 26 of 10. Dat geeft 26 tot de derde "
+                "maal 100.",
+                "Let erop dat het tweede vakje 7 wordt en geen 8: dezelfde smaak mag niet twee keer. "
+                "Daarom is het 8 maal 7.",
+                "Let op het eerste vakje: geen nul vooraan, dus 9 mogelijkheden. De drie andere vakjes "
+                "blijven 10.",
+                "Noem de voorwaarde: het aantal mogelijkheden van de tweede keuze is telkens hetzelfde, "
+                "welke eerste keuze je ook maakte. Dan mag je vermenigvuldigen.",
+            ],
+        ),
+        dict(
+            aanpak="Bij de somregel tel je op, maar enkel als de twee groepen niemand gemeen hebben. "
+                   "Overlappen ze, dan trek je de overlapping er één keer af.",
+            waarom=[
+                "Let erop dat een leerling niet tegelijk bij de meisjes en de jongens staat. Er is geen "
+                "overlapping, dus gewoon optellen.",
+                "Let erop dat de zes die allebei doen in beide getallen zitten. Daarom trek je ze één "
+                "keer af: 20 plus 14 min 6.",
+                "Niet waar: enkel als de groepen elkaar niet overlappen. Anders tel je de mensen in "
+                "beide groepen twee keer.",
+            ],
+        ),
+        dict(
+            aanpak="Reken altijd eerst de kans op geen enkele uit, met de productregel, en trek die van "
+                   "één af. Rond pas op het einde af op drie decimalen.",
+            waarom=[
+                "Let erop dat de kans op geen zes per worp 5 op 6 is, dus vier keer achter elkaar. Eén "
+                "min 625 op 1296 geeft 671 op 1296.",
+                "Let erop dat de kans op vijf keer munt gelijk is aan 1 op 32. Eén min dat geeft 31 op "
+                "32.",
+                "Let erop dat de kans op een goed stuk 0,9 is, dus drie keer 0,9 geeft 0,729. Eén min "
+                "dat geeft 0,271.",
+                "Noem waarom: minstens één dekt heel veel gevallen, geen enkele is één geval. Daarom is "
+                "het complement bijna altijd de kortste weg.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-faculteit-en-combinaties-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Een faculteit is het product van alle getallen tot dat getal. Een breuk van twee "
+                   "faculteiten werk je weg door te schrappen, niet door beide uit te rekenen.",
+            waarom=[
+                None,
+                "Let op de derde: 8 faculteit gedeeld door 7 faculteit is gewoon 8. Alle factoren tot "
+                "7 vallen weg, en zo reken je nooit met grote getallen.",
+                "Noem de reden uit de combinatieformule: C(n, 0) moet één zijn, want er is precies één "
+                "manier om niets te kiezen.",
+            ],
+        ),
+        dict(
+            aanpak="Schrijf de formule uit en schrap voor je rekent. C(8, 2) is 8 maal 7 gedeeld door 2 "
+                   "maal 1: zo blijf je bij kleine getallen.",
+            waarom=[
+                "Let op C(6, 4): dat is gelijk aan C(6, 2), en dat rekent veel sneller. Die eigenschap "
+                "komt in de volgende oefening terug.",
+                "Let op C(10, 7): schrijf het als C(10, 3) en je rekent 10 maal 9 maal 8 gedeeld door "
+                "6, dus 120.",
+                "Let erop dat 11 min 8 gelijk is aan 3, dus C(11, 3). Kies altijd het kleinste van de "
+                "twee getallen.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Eén vraag beslist: telt de volgorde mee? Krijgt elke gekozen persoon een andere "
+                   "taak, dan telt ze (productregel). Zijn ze allemaal gelijk, dan niet (combinatie).",
+            waarom=[
+                None,
+                "Let erop dat hier drie verschillende functies zijn, dus de volgorde telt. Daarom geen "
+                "combinatie maar 10 maal 9 maal 8.",
+                "Let erop dat een handdruk tussen twee mensen één keer telt, niet twee keer. Daarom is "
+                "het C(12, 2) en geen 12 maal 11.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="De klassieke fout is vergeten te delen. Wie de volgorde niet nodig heeft, moet het "
+                   "aantal ordeningen van de gekozen groep wegdelen.",
+            waarom=[
+                "Noem beide delen: wat hij vergat en hoeveel keer hij elk viertal telde. Vier faculteit "
+                "is 24, dus 3024 gedeeld door 24 geeft 126.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-kansvariabelen-en-de-binomiale-verdeling-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Loop de vier voorwaarden af: een vast aantal pogingen, twee uitkomsten per poging, "
+                   "een kans die gelijk blijft, en pogingen die elkaar niet beïnvloeden. Faalt er een, "
+                   "dan is het niet binomiaal.",
+            waarom=[
+                None,
+                "Let op zonder terugleggen: na een harten liggen er minder harten in het pak, dus de "
+                "kans verandert. Daarmee valt de derde voorwaarde weg.",
+                None,
+                "Let erop dat een lengte geen aantal successen is. Een binomiale variabele telt hoe "
+                "vaak iets lukte, en een meting telt niets.",
+                "Noem alle vier, want elke voorwaarde is een punt. Vergeet de onafhankelijkheid niet: "
+                "die wordt het vaakst overgeslagen.",
+            ],
+        ),
+        dict(
+            aanpak="Tik telkens n, p en de gevraagde waarde in. Let goed op het teken: precies is één "
+                   "waarde, ten hoogste is de cumulatieve kans, en minstens reken je via het complement.",
+            waarom=[
+                None,
+                None,
+                None,
+                "Let erop dat P(X = 0) hetzelfde is als 0,9 tot de twintigste. Zo kan je het antwoord "
+                "ook zonder machine nakijken.",
+                "Let erop dat p hier 1 op 6 is en niet 0,16. Tik de breuk in of gebruik genoeg "
+                "decimalen, anders wijkt je uitkomst af.",
+                "Let erop dat minstens één via het complement gaat: één min de kans op nul. Dat is één "
+                "min 0,8 tot de vijfde.",
+                "Let erop dat ten hoogste drie de kansen op nul, één, twee en drie samen zijn. Daarvoor "
+                "gebruik je de cumulatieve functie en niet vier losse berekeningen.",
+            ],
+        ),
+        dict(
+            aanpak="Let bij het opschrijven op de orde: eerst n, dan p. En lees een ongelijkheidsteken "
+                   "altijd eerst in woorden voor je rekent.",
+            waarom=[
+                None,
+                "Let erop dat groter dan of gelijk aan acht ook acht zelf meeneemt. Acht of meer is de "
+                "juiste verwoording.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-verwachtingswaarde-variantie-en-standaardafwijking-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Drie formules die je uit het hoofd moet kunnen: het gemiddelde is n maal p, de "
+                   "variantie is n maal p maal één min p, en de standaardafwijking is de wortel van de "
+                   "variantie.",
+            waarom=[
+                "Let erop dat je de derde kolom uit de tweede haalt: eerst de variantie, dan de wortel. "
+                "Bij B(10; 0,4) is dat 2,4 en de wortel daarvan is 1,55.",
+                "Let erop dat de variantie hier 100 maal 0,6 maal 0,4 is, dus 24. De wortel van 24 is "
+                "4,90.",
+                "Let erop dat 12 maal 0,5 maal 0,5 gelijk is aan 3. Bij p gelijk aan 0,5 is de "
+                "variantie het grootst voor die n.",
+            ],
+        ),
+        dict(
+            aanpak="Bij een tabel reken je met de kansen: het gemiddelde is de som van elke waarde maal "
+                   "haar kans. Voor de variantie neem je het gemiddelde van de kwadraten min het "
+                   "kwadraat van het gemiddelde.",
+            waarom=[
+                "Let erop dat je elke waarde met haar eigen kans vermenigvuldigt en dan optelt: 0,2 "
+                "plus 0,8 plus 0,9 geeft 1,9.",
+                "Let erop dat je hier niet de formule van de binomiale verdeling mag gebruiken. Het "
+                "gemiddelde van de kwadraten is 4,5, en 4,5 min 1,9 in het kwadraat geeft 0,89.",
+                None,
+                "Let erop dat die controle het eerste is wat je doet: tellen de kansen niet tot één op, "
+                "dan staat er een fout in de tabel en is verder rekenen zinloos.",
+            ],
+        ),
+        dict(
+            aanpak="Drie vragen over wat de maten betekenen. Antwoord in volle zinnen en verbind de "
+                   "spreiding telkens met de vorm van de tekening.",
+            waarom=[
+                "Noem beide delen: hetzelfde midden en een andere breedte. Smal en hoog tegenover breed "
+                "en laag is het beeld.",
+                "Noem de reden: je telt kwadraten op. En noem dat nul wel kan, als alle waarden op het "
+                "gemiddelde liggen.",
+                "Let erop dat de standaardafwijking dezelfde eenheid heeft als X en de variantie niet. "
+                "Dat is precies waarom je de wortel neemt.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-normale-verdeling-en-standaardiseren-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Standaardiseren is één bewerking: het verschil met het gemiddelde, gedeeld door de "
+                   "standaardafwijking. Een negatieve z betekent onder het gemiddelde.",
+            waarom=[
+                "Let op de tekens: 162 ligt onder 170, dus z is negatief. En let op de vierde rij, waar "
+                "sigma een half is: delen door 0,5 is maal 2.",
+                "Noem de twee delen: hoeveel standaardafwijkingen, en aan welke kant. Onder het "
+                "gemiddelde hoort bij het minteken.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Houd de drie getallen van de vuistregel vast: 68 binnen één sigma, 95 binnen twee, "
+                   "99,7 binnen drie. Voor één staart deel je wat overblijft door twee.",
+            waarom=[
+                None,
+                None,
+                "Let erop dat je de 5 procent die overblijft moet halveren: de staart links en de "
+                "staart rechts zijn even groot, dus 2,5 procent elk.",
+                "Let erop dat twee sigma hier 14 cm is: 178 min 14 en 178 plus 14 geeft 164 en 192.",
+            ],
+        ),
+        dict(
+            aanpak="Werk altijd in twee stappen: standaardiseer eerst naar z, en zoek dan de kans op. "
+                   "Een kans rechts van een waarde is één min de kans links ervan.",
+            waarom=[
+                "Let erop dat P(Z groter dan 2) gelijk is aan één min 0,9772. De tabel en de machine "
+                "geven standaard de kans links.",
+                "Let erop dat de tweede rij het stuk tussen twee grenzen vraagt: de kans links van 1 "
+                "min de kans links van min 1. Dat geeft de 68 procent van de vuistregel.",
+                "Let erop dat z hier 1,25 is: 180 min 170 gedeeld door 8. Daarna is het één min de kans "
+                "links.",
+                "Let erop dat z hier precies min 1 is. Daarom komt het antwoord overeen met de "
+                "vuistregel: ongeveer 16 procent onder één sigma.",
+                "Let erop dat 475 en 525 precies één sigma onder en boven het gemiddelde liggen. Je kan "
+                "het dus ook zonder machine zien.",
+                "Let erop dat deze vraag omgekeerd loopt: je kent de kans en zoekt de waarde. Tien "
+                "procent boven zich betekent negentig procent eronder, dus z is ongeveer 1,28.",
+            ],
+        ),
+        dict(
+            aanpak="Twee vragen over wat een continue verdeling is. Antwoord in volle zinnen en denk "
+                   "aan de oppervlakte onder de kromme.",
+            waarom=[
+                "Noem beide delen: dat de verdeling continu is, en dat een enkel punt geen oppervlakte "
+                "heeft. Daarom vraag je altijd een interval.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-populatie-steekproef-en-de-steekproevenverdeling-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Eén vraag: gaat het over allen of over de groep die je bevraagd hebt? De hele groep "
+                   "is de populatie met mu, je eigen groep is de steekproef met x-streep.",
+            waarom=[
+                None,
+                None,
+                "Let erop dat het hier om het getal gaat dat je zelf berekende. Een gemiddelde uit een "
+                "steekproef heet een steekproefgemiddelde, en dat is nooit mu.",
+                "Noem de reden: het gemiddelde van je steekproef ken je al. Je toetst juist het getal "
+                "dat je niet kent.",
+            ],
+        ),
+        dict(
+            aanpak="Vier manieren, vier herkenningen: elke naam even veel kans (aselect), elke zoveelste "
+                   "naam (systematisch), uit elke groep een deel (gestratificeerd), of wie er toevallig "
+                   "is (gelegenheid).",
+            waarom=[
+                None,
+                None,
+                "Let erop dat gestratificeerd betekent dat je de populatie eerst in lagen verdeelt en "
+                "dan uit elke laag trekt. Daarom lijkt je steekproef beter op de populatie.",
+                "Let erop dat je bij een gelegenheidssteekproef ook moet zeggen dat ze niet "
+                "representatief is. Wie er toevallig staat, is geen doorsnede van de school.",
+            ],
+        ),
+        dict(
+            aanpak="Eén formule: sigma gedeeld door de wortel van n. Reken eerst de wortel uit, dan de "
+                   "deling, dan heb je geen rekenmachine nodig.",
+            waarom=[
+                "Let erop dat de wortels hier mooi uitkomen: 6, 10, 5 en 8. Daarom zijn de antwoorden "
+                "ronde getallen.",
+                "Let erop dat de wortel van vier gelijk is aan twee. Vier keer zoveel mensen bevragen "
+                "halveert dus pas je onzekerheid.",
+                None,
+                "Noem de formule in je antwoord: hoe groter n, hoe kleiner sigma gedeeld door de wortel "
+                "van n. Dat een uitschieter minder doorweegt, hoort erbij.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-hypothesen-opstellen-h0-h1-en-de-richting-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Werk altijd in drie stappen: in H nul komt de gelijkheid met het getal uit de "
+                   "bewering, in H één komt jouw vermoeden, en de richting van dat vermoeden geeft de "
+                   "soort toets.",
+            waarom=[
+                "Let erop dat te licht een richting geeft, dus kleiner dan. Daarom is de toets "
+                "linkszijdig.",
+                "Let erop dat je hier geen richting hebt. Dan staat er verschillend van in H één en is "
+                "de toets tweezijdig.",
+                "Let erop dat boven een richting geeft, dus groter dan. En let erop dat je mu gebruikt "
+                "en niet p, want het gaat over een gemiddelde punt.",
+            ],
+        ),
+        dict(
+            aanpak="Lees het teken in H één: groter dan is rechtszijdig, kleiner dan is linkszijdig, "
+                   "verschillend van is tweezijdig.",
+            waarom=[
+                None,
+                None,
+                "Let erop dat de vraag naar één kant kijkt: schadelijk en niet anders. Daarom "
+                "eenzijdig, ook al staat er geen formule bij.",
+            ],
+        ),
+        dict(
+            aanpak="Drie klassieke fouten: geen gelijkheid in H nul, twee verschillende getallen, of een "
+                   "hypothese over je eigen steekproef. Zet telkens het hele paar recht.",
+            waarom=[
+                "Let erop dat H nul altijd een gelijkheid is. Dat is wat je toetst, en zonder vast getal "
+                "kan je niets uitrekenen.",
+                "Let erop dat de twee hypothesen samen alles moeten dekken en hetzelfde getal moeten "
+                "gebruiken. Met 50 en 60 blijft er een gat tussen.",
+                "Let erop dat x-streep in geen van de twee hypothesen hoort. Een hypothese gaat altijd "
+                "over de populatie.",
+            ],
+        ),
+        dict(
+            aanpak="Houd twee drempels vast: bij een gemiddelde moet n minstens 30 zijn, bij een "
+                   "proportie moeten n maal p en n maal één min p allebei minstens 10 zijn.",
+            waarom=[
+                None,
+                "Let erop dat je beide producten moet nakijken, niet één: 60 en 40 halen allebei de "
+                "drempel.",
+                "Let erop dat het eerste product faalt: 50 maal 0,08 is 4. Eén product dat de drempel "
+                "niet haalt, is genoeg om niet verder te rekenen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-p-waarde-het-significantieniveau-en-de-twee-fouten-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De p-waarde is de oppervlakte in de staart voorbij jouw z. Bij een rechtszijdige "
+                   "toets de staart rechts, bij een linkszijdige die links, en bij een tweezijdige de "
+                   "twee samen, dus het dubbele.",
+            waarom=[
+                "Let op de laatste rij: dezelfde z van 2,00 geeft tweezijdig het dubbele van de eerste "
+                "rij. Daarom staat ze erbij.",
+                "Noem de reden: de twee staarten tellen mee en zijn even groot bij een symmetrische "
+                "verdeling.",
+            ],
+        ),
+        dict(
+            aanpak="Houd de vier stappen in hun orde en schrijf ze allemaal op, ook als je het antwoord "
+                   "al ziet. De punten staan op de stappen.",
+            waarom=[
+                "Let erop dat de wortel van 49 gelijk is aan 7, dus 6 gedeeld door 7. Reken met de "
+                "onafgeronde waarde verder.",
+                "Let erop dat z negatief is: 68 ligt onder 70. Een positieve z bij een linkszijdige "
+                "toets betekent dat je een teken omgewisseld hebt.",
+                None,
+                "Noem beide delen in je zin: de vergelijking met alfa en wat dat betekent voor de "
+                "inhoud. Significant alleen is geen besluit.",
+            ],
+        ),
+        dict(
+            aanpak="Eén vergelijking beslist: is de p-waarde kleiner dan alfa, dan verwerp je H nul. Is "
+                   "ze groter, dan verwerp je niet.",
+            waarom=[
+                "Let op de eerste: 0,0548 ligt net boven 0,05, dus niet verwerpen. Net erboven is nog "
+                "altijd erboven.",
+                "Let erop dat dezelfde p-waarde bij een strenger alfa een ander besluit geeft. Daarom "
+                "hoort alfa altijd bij je besluit vermeld.",
+                "Let erop dat niet verwerpen geen bewijs voor H nul is. Je hebt enkel te weinig bewijs "
+                "tegen, en dat is iets anders.",
+            ],
+        ),
+        dict(
+            aanpak="Houd de twee fouten aan hun richting: de eerste soort verwerpt een ware H nul, de "
+                   "tweede soort verwerpt een valse H nul niet.",
+            waarom=[
+                None,
+                None,
+                "Let erop dat H nul hier gezond is. Hem verwerpen terwijl de patiënt gezond is, is dus "
+                "een fout van de eerste soort.",
+                "Noem beide richtingen: de ene kans daalt en de andere stijgt. Dat je een echt verschil "
+                "vaker mist, is de prijs van een strenger alfa.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-betrouwbaarheidsinterval-en-foutenmarge-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Reken altijd eerst de marge uit, dan het interval. De marge is 1,96 maal sigma "
+                   "gedeeld door de wortel van n, en die trek je af en tel je op bij je gemiddelde.",
+            waarom=[
+                "Let op de eerste twee rijen: sigma gedeeld door de wortel van n is er precies 1, dus "
+                "de marge is 1,96. In de derde rij is het 4,2 gedeeld door 7, dus 0,6.",
+                "Let erop dat je in je zin ook zegt over wie het gaat: het echte gemiddelde van de hele "
+                "groep. Het interval zegt niets over je eigen steekproef.",
+            ],
+        ),
+        dict(
+            aanpak="Bij een proportie staat onder de wortel p-dakje maal één min p-dakje, gedeeld door "
+                   "n. Reken de wortel eerst uit en vermenigvuldig dan met 1,96.",
+            waarom=[
+                "Let erop dat 0,52 maal 0,48 gelijk is aan 0,2496, en dat je dat door 400 deelt voor je "
+                "de wortel neemt. De orde van de bewerkingen is hier de hele oefening.",
+                None,
+                "Let erop dat een grotere n de marge kleiner maakt: bij 1000 mensen is ze 0,0304 in "
+                "plaats van 0,0490. Dat is de volgende reeks.",
+                "Noem het interval en waar 50 procent ligt. Dat de 50 binnen het interval valt, is "
+                "precies waarom de krant het niet mag schrijven.",
+            ],
+        ),
+        dict(
+            aanpak="Houd twee verbanden vast: de marge zakt met de wortel van n, en een hogere "
+                   "zekerheid geeft een grotere z en dus een bredere marge.",
+            waarom=[
+                "Let erop dat het vier is en niet twee: de wortel van vier is twee, dus vier keer meer "
+                "mensen halveert de marge.",
+                "Let erop dat je naar boven afrondt: 1067,1 mensen bestaat niet, en met 1067 haal je je "
+                "marge niet.",
+                None,
+                "Noem de twee kanten: een grotere z geeft een bredere marge, en enkel een grotere "
+                "steekproef verbetert beide tegelijk.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-spreidingsdiagrammen-trendlijn-en-correlatie-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zet eerst je assen met getallen uit, dan de punten, en pas dan de trendlijn. De "
+                   "oorzaak komt horizontaal, het gevolg verticaal.",
+            waarom=[
+                "Let erop dat je op allebei de assen een schaal zet. Een tekening zonder getallen is "
+                "niet te lezen, ook als de punten juist staan.",
+                None,
+                "Let erop dat het antwoord twee delen heeft: de rekening en de waarschuwing. Meer dan "
+                "tien kan niet, dus buiten je gegevens mag je niet doortrekken.",
+                "Let erop dat de 1,20 de stijging per uur is en niet het punt zelf. De 1,80 is wat de "
+                "lijn voorspelt bij nul uur.",
+            ],
+        ),
+        dict(
+            aanpak="Lees r in twee stappen: het teken geeft de richting, de grootte geeft de sterkte. "
+                   "Dicht bij nul betekent geen lineair verband.",
+            waarom=[
+                "Let erop dat min 0,99 even sterk is als plus 0,99. Het minteken zegt enkel dat de "
+                "punten dalen.",
+                None,
+                "Let erop dat je bij zo'n waarde geen trendlijn moet tekenen. Een lijn door een wolk "
+                "zonder verband suggereert iets dat er niet is.",
+                "Let erop dat r nooit buiten min één en één valt. Een getal daarbuiten betekent een "
+                "rekenfout.",
+            ],
+        ),
+        dict(
+            aanpak="Drie vragen over wat r niet zegt: niets over oorzaak, niets over kromme verbanden, "
+                   "en niets zonder naar de tekening te kijken.",
+            waarom=[
+                "Noem de derde oorzaak: de warmte doet beide stijgen. Dat een sterke correlatie geen "
+                "oorzaak aantoont, is de kern.",
+                "Noem waarom het kan: r meet enkel een rechte lijn. Daarom kijk je altijd eerst naar de "
+                "tekening.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-kansen-berekenen-met-de-kansrekenmachine-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Lees eerst welk stuk van de verdeling gevraagd wordt. Krijg je een kans en wordt er "
+                   "een grens gevraagd, dan is het de omgekeerde vraag en gebruik je een andere functie.",
+            waarom=[
+                None,
+                None,
+                "Let erop dat deze vraag omgekeerd loopt: je kent de kans en zoekt de waarde. Daarvoor "
+                "heb je de omgekeerde functie nodig en niet de gewone.",
+            ],
+        ),
+        dict(
+            aanpak="Bij een binomiale vraag tik je n, p en de grenzen in. Voor precies een waarde zet je "
+                   "dezelfde grens twee keer, voor minstens reken je van die waarde tot n.",
+            waarom=[
+                "Let op de derde rij: minstens 12 is van 12 tot 16, dus je bovengrens is n en niet het "
+                "getal uit de vraag. Dat is de fout die het vaakst gemaakt wordt.",
+                "Let erop dat precies veertien betekent: van 14 tot 14. Zo gebruik je dezelfde functie "
+                "als voor een interval.",
+            ],
+        ),
+        dict(
+            aanpak="Bij een normale vraag tik je mu en sigma in, en daarna de twee grenzen. Voor een "
+                   "staart gebruik je een heel groot of heel klein getal als andere grens.",
+            waarom=[
+                "Let erop dat z hier 1,25 is: 75 min 60 gedeeld door 12. Zo kan je je uitkomst "
+                "nakijken.",
+                "Let erop dat 45 en 75 precies op min en plus 1,25 sigma liggen. Daarom is dit het stuk "
+                "tussen twee symmetrische grenzen.",
+                None,
+                "Let erop dat het antwoord nul is omdat de verdeling continu is. Vraag altijd een stuk, "
+                "nooit één punt.",
+            ],
+        ),
+        dict(
+            aanpak="Reken met de standaardnormale verdeling, dus mu is nul en sigma is één. Bij een "
+                   "tweezijdige toets verdubbel je de staart.",
+            waarom=[
+                "Let erop dat de tweede rij tweezijdig is: de staart bij 2,50 is 0,0062, en het dubbele "
+                "daarvan is 0,0124.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Twee veelvoorkomende fouten: de verkeerde staart nemen, en een exacte waarde vragen "
+                   "bij een continue verdeling. Leer ze herkennen aan de uitkomst.",
+            waarom=[
+                "Let op het teken dat het verklapt: een p-waarde boven 0,9 bij een rechtszijdige toets "
+                "kan niet. Eén min je uitkomst zet het recht.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-frequentietabellen-en-gegevens-groeperen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vul de tabel kolom per kolom in en niet rij per rij: eerst alle absolute "
+                   "frequenties, dan de relatieve, dan de cumulatieve. Zo kan je elke kolom apart "
+                   "controleren.",
+            waarom=[
+                "Let erop dat de cumulatieve kolom optelt en niet opnieuw begint: 1, 4, 9, 13, 16, 20. "
+                "De laatste moet 20 zijn, en dat is je controle.",
+                "Let op ten hoogste: dat is de cumulatieve frequentie bij 7, dus 9. Je hoeft niets op "
+                "te tellen als je tabel klaar is.",
+                "Let op meer dan 8: de 8 zelf hoort er niet bij, dus enkel de 9 en de 10. Dat geeft 3 "
+                "plus 4 van de 20.",
+                "Let erop dat je elk punt met zijn frequentie moet vermenigvuldigen. De som is 157, en "
+                "dan deel je door 20.",
+            ],
+        ),
+        dict(
+            aanpak="Drie controles die je altijd doet: de relatieve frequenties tellen tot één op, de "
+                   "laatste cumulatieve is het totaal, en geen relatieve frequentie ligt boven één.",
+            waarom=[
+                None,
+                None,
+                "Niet waar: een relatieve frequentie is een deel van het geheel, dus ze ligt altijd "
+                "tussen nul en één. Boven één betekent een rekenfout.",
+            ],
+        ),
+        dict(
+            aanpak="Groeperen is tellen per klasse. Let op de haakjes: bij 150 tot 160 hoort 150 erbij "
+                   "en 160 niet. Het klassenmidden is het gemiddelde van de twee grenzen.",
+            waarom=[
+                "Let op het open haakje aan de rechterkant: 170 hoort bij de derde klasse en niet bij "
+                "de tweede. Daarom tel je 6 en 7 en niet 7 en 6.",
+                "Let erop dat je met de klassenmiddens rekent en niet met de echte waarden. Elk midden "
+                "maal zijn frequentie, en dan delen door 20.",
+                "Noem de reden: je doet alsof elke waarde in het midden van haar klasse ligt. Dat je "
+                "nauwkeurigheid inruilt voor overzicht, is de kern.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-juiste-grafische-voorstelling-kiezen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vraag je af wat je wil laten zien: losse categorieën vergelijken, een verloop in de "
+                   "tijd, een verdeling van metingen, een verband tussen twee variabelen, of groepen "
+                   "naast elkaar op mediaan en spreiding.",
+            waarom=[
+                None,
+                "Let op over tien jaar: een verloop in de tijd vraagt een lijndiagram. Met staven zou "
+                "je de beweging niet zien.",
+                "Let op in klassen: gegroepeerde metingen vragen een histogram, waarvan de staven elkaar "
+                "raken. Een staafdiagram heeft ruimte tussen de staven.",
+                None,
+                None,
+                "Let op één stip per punt: bij een kleine groep kan je elke waarde apart zetten. Dat is "
+                "wat een dotplot van een histogram onderscheidt.",
+            ],
+        ),
+        dict(
+            aanpak="Kijk bij een grafiek altijd eerst naar de verticale as en naar de som van de delen. "
+                   "Daar zitten de twee meest voorkomende misleidingen.",
+            waarom=[
+                "Noem beide delen: wat er misleidt en hoe je het beter doet. Dat een afgeknipte as "
+                "gemeld moet worden, hoort erbij.",
+                "Noem de reden waarom het niet kan: de delen van een geheel tellen tot 100 procent op. "
+                "Overlappende categorieën horen in een staafdiagram.",
+                "Let erop dat het cirkeldiagram niet bij de zes van deze fiche staat, ook al kent "
+                "iedereen het. Leer de zes zoals ze er staan.",
+            ],
+        ),
+        dict(
+            aanpak="Drie vragen over wat je uit een tekening kan lezen, en wat niet. Antwoord in volle "
+                   "zinnen.",
+            waarom=[
+                "Noem beide delen: hoe de vorm heet en wat ze over de twee maten zegt. De staart trekt "
+                "het gemiddelde mee, de mediaan niet.",
+                "Niet waar: een boxplot toont de vijf kengetallen en geen aantallen. Twee boxplots "
+                "kunnen gelijk zijn bij een heel verschillend aantal gegevens.",
+                "Noem de reden: kleine staven worden onleesbaar naast een uitschieter. Met de getallen "
+                "erbij blijft het vergelijkbaar.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-centrummaten-gemiddelde-mediaan-en-modus-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zet de reeks eerst van klein naar groot. Dan is de mediaan de middelste waarde, of "
+                   "het gemiddelde van de twee middelste bij een even aantal.",
+            waarom=[
+                "Let op de tweede reeks: vier waarden, dus de mediaan is het gemiddelde van 5 en 8, en "
+                "er is geen modus omdat elke waarde één keer voorkomt.",
+                "Noem welke maat je kiest en waarom. Dat vijf van de zes waarden onder de 21 liggen, "
+                "maakt het gemiddelde van 30 misleidend.",
+            ],
+        ),
+        dict(
+            aanpak="Bij een gewogen gemiddelde vermenigvuldig je elk cijfer met zijn gewicht en deel je "
+                   "door de som van de gewichten, niet door het aantal cijfers.",
+            waarom=[
+                "Let erop dat je door 5 deelt en niet door 4: de gewichten zijn 1, 1, 1 en 2. Dat is de "
+                "fout die deze reeks test.",
+                "Noem het verschil in uitkomst: 14,4 tegenover 14,25. Dat het examen dubbel telt, is de "
+                "reden.",
+            ],
+        ),
+        dict(
+            aanpak="Uit een frequentietabel reken je het gemiddelde met de frequenties als gewichten. "
+                   "Voor de mediaan tel je de frequenties op tot je bij de middelste waarde komt.",
+            waarom=[
+                "Let erop dat je elk punt met zijn frequentie vermenigvuldigt: dat geeft 102, gedeeld "
+                "door 30.",
+                "Let erop dat je bij 30 gegevens de vijftiende en de zestiende nodig hebt. De "
+                "cumulatieve frequenties zijn 2, 7, 15, 24 en 30, dus de vijftiende is nog een 3 en de "
+                "zestiende al een 4.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Drie vragen over wat de maten wel en niet kunnen. Let bij de laatste op het soort "
+                   "gegevens: niet elke maat past bij elke variabele.",
+            waarom=[
+                "Niet waar: twee waarden kunnen even vaak voorkomen, en dan zijn er twee modi. Soms is "
+                "er ook geen enkele.",
+                None,
+                "Let erop dat kleuren niet te rangschikken zijn, dus ook geen mediaan. Enkel de modus "
+                "werkt bij zulke gegevens.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-spreidingsmaten-en-de-boxplot-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zet de reeks van klein naar groot, zoek de mediaan, en zoek dan de mediaan van de "
+                   "onderste en de bovenste helft. Dat zijn Q1 en Q3.",
+            waarom=[
+                "Let erop dat er tien waarden zijn, dus de mediaan ligt tussen de vijfde en de zesde: "
+                "8 en 11 geven 9,5. Q1 is de mediaan van de eerste vijf, Q3 van de laatste vijf.",
+                "Let erop dat de variatiebreedte het maximum min het minimum is: 21 min 2.",
+                "Let erop dat de interkwartielafstand Q3 min Q1 is, dus 15 min 5. Die maat kijkt enkel "
+                "naar de middelste helft.",
+                "Let erop dat je ook een getallenas moet tekenen. Een boxplot zonder as is niet te "
+                "lezen, al staan de vijf getallen juist.",
+            ],
+        ),
+        dict(
+            aanpak="Werk de uitschietertoets in vaste stappen af: Q1 en Q3, dan de interkwartielafstand, "
+                   "dan de grens op anderhalve interkwartielafstand erbuiten, en dan vergelijken.",
+            waarom=[
+                None,
+                None,
+                "Let erop dat anderhalf maal 5 gelijk is aan 7,5, en dat je dat bij Q3 optelt: 12 plus "
+                "7,5 geeft 19,5.",
+                None,
+                "Noem de maat en de reden: de interkwartielafstand is robuust en kijkt enkel naar de "
+                "middelste helft. De standaardafwijking zou door de 30 opgeblazen worden.",
+            ],
+        ),
+        dict(
+            aanpak="Vier vragen over wat de maten wel en niet zeggen. Houd vast dat een spreidingsmaat "
+                   "nooit negatief is en dat de modus bij het centrum hoort.",
+            waarom=[
+                "Niet waar: het maximum is altijd minstens gelijk aan het minimum, dus de "
+                "variatiebreedte is nooit negatief.",
+                "Niet waar: de modus is een centrummaat. De spreidingsmaten zijn de variatiebreedte, de "
+                "interkwartielafstand en de standaardafwijking.",
+                None,
+                "Noem alle drie de dingen die je ziet: het centrum, de spreiding en de uitschieters. "
+                "Dat ze op dezelfde as staan, maakt het vergelijken mogelijk.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-een-dataset-doorrekenen-met-het-rekenblad-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zet de getallen in één kolom en lees de kengetallen af. Let erop welke van de twee "
+                   "standaardafwijkingen je neemt: in dit vak is dat s.",
+            waarom=[
+                "Let erop dat de mediaan hier tussen twee waarden ligt: 25 en 27 geven 26. Het "
+                "gemiddelde is 160 gedeeld door 6, dus 26,67.",
+                None,
+                None,
+                "Let erop dat de app er twee geeft: 5,61 is s en 5,12 is sigma. Het kleinste van de "
+                "twee is altijd sigma.",
+            ],
+        ),
+        dict(
+            aanpak="Eén regel: s deelt door n min één, sigma deelt door n. Daarom is s altijd het "
+                   "grootste van de twee, en s is wat je bij een steekproef neemt.",
+            waarom=[
+                "Let erop dat je het grootste getal moet aanwijzen. Hier is dat 3,16, want delen door "
+                "4 geeft meer dan delen door 5.",
+                "Noem de reden: je deelt door n min één, dus door een kleiner getal. Daarom valt de "
+                "uitkomst hoger uit.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Bij twee kolommen hoort elk paar bij elkaar. Let op wat verandert als je de "
+                   "kolommen verwisselt: de trendlijn wel, r niet.",
+            waarom=[
+                "Let erop dat de app anders paren maakt die niet bij elkaar horen. Even lange kolommen "
+                "zijn dus geen vormkwestie.",
+                "Let erop dat 1,30 maal 20 gelijk is aan 26, en dat je daar 20,47 bij optelt.",
+                "Let erop dat r symmetrisch is in x en y, en de trendlijn niet. Dat onderscheid wordt "
+                "vaak verwisseld.",
+                "Niet waar: buiten het bereik van je gegevens weet je niet of het verband doorloopt. "
+                "Doortrekken mag alleen met een voorbehoud.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-een-statistisch-onderzoek-met-de-rekenapps-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Leer de vijf stappen in hun orde: vraag, verzamelen, verkennen, toetsen of schatten, "
+                   "besluiten. Het verkennen staat tussen het verzamelen en het rekenen.",
+            waarom=[
+                "Let erop dat de stappen in de tabel niet in de juiste orde staan. Lees dus eerst alle "
+                "vijf de regels voor je nummert.",
+                "Noem de stap en wat er misloopt: zonder grafiek zie je een uitschieter of een scheve "
+                "verdeling niet.",
+            ],
+        ),
+        dict(
+            aanpak="Werk de toets in vier stappen af: hypothesen, voorwaarden, rekenen, besluit. Schrijf "
+                   "elke stap op, ook als je het antwoord al vermoedt.",
+            waarom=[
+                "Let erop dat je p gebruikt en niet mu: het gaat over een proportie. En let erop dat "
+                "minder een richting geeft, dus kleiner dan.",
+                "Let erop dat je beide producten nakijkt: 60 en 40 halen allebei de drempel van tien.",
+                "Let erop dat p-dakje je eigen steekproefwaarde is: 58 van de 100. H nul blijft 0,60.",
+                "Noem alle drie de delen in je zin: de vergelijking met alfa, het besluit, en dat niet "
+                "verwerpen geen gelijk voor de school betekent.",
+            ],
+        ),
+        dict(
+            aanpak="Drie klassieke besluiten die niet mogen: een oorzaak lezen in een samenhang, een "
+                   "trendlijn bij een zwakke r, en veralgemenen uit een niet representatieve steekproef.",
+            waarom=[
+                None,
+                "Let erop dat r hier zwak is: 0,15. Een lijn tekenen door een wolk zonder verband "
+                "suggereert iets dat er niet is.",
+                None,
+                "Noem de reden: bij een kleine n is de foutenmarge groot. Zonder het aantal kan de "
+                "lezer je uitkomst niet wegen.",
+            ],
+        ),
+    ],
+)
