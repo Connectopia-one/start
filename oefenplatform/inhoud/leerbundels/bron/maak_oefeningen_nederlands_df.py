@@ -347,3 +347,187 @@ OEFENBUNDELS["oefenbundel-lichaamstaal-beleefdheid-en-een-tekst-die-werkt" + NIE
             "keer heeft teruggehoord, spreekt daarna bijna altijd trager en duidelijker.", 8),
     ],
 )
+
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-zender-ruis-en-de-zeven-tekstsoorten-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je bij elke tekst af wat de schrijver vooral wil: iets laten weten, iets laten "
+                    "doen, overtuigen, vertellen, of iets moois maken. Dat hoofddoel bepaalt de tekstsoort.",
+             waarom=[
+                 "Een reisverslag vertelt wat er gebeurd is, dus narratief. Zou het vooral uitleggen hoe "
+                 "Peru in elkaar zit, dan was het informatief.",
+                 None,
+             ]),
+        dict(aanpak="Allebei willen ze je overtuigen, maar op een andere manier: persuasief werkt op gevoel "
+                    "en beeld, argumentatief op redenering en bewijs.",
+             waarom=[
+                 None,
+                 "Cijfers van een officiële bron maken het argumentatief. Het is de bewijsvoering die het "
+                 "onderscheid maakt, niet het onderwerp.",
+                 None, None,
+             ]),
+        dict(aanpak="Loop de vijf plaatsen van het schema af: wie, aan wie, wat, waarlangs, en waarom.",
+             waarom=[None]),
+        dict(aanpak="Ruis is alles wat de boodschap stoort. Zit ze in de formulering, dan bij de zender; "
+                    "in de verbinding, dan bij het kanaal; in de aandacht of de voorkennis, dan bij de "
+                    "ontvanger.",
+             waarom=[
+                 None,
+                 "Dit is de nuttigste van heel het hoofdstuk: wie zendt, is verantwoordelijk voor de "
+                 "duidelijkheid. De fout bij de ander leggen lost niets op.",
+             ]),
+        dict(aanpak="Let bij elke uitspraak op het verschil tussen de bedoeling van de schrijver en de vorm "
+                    "van de tekst.",
+             waarom=[
+                 "De meeste teksten hebben meerdere bedoelingen tegelijk. Voor de tekstsoort kijk je naar "
+                 "de hóófdbedoeling.",
+                 None, None,
+                 "Een handleiding zegt wat jij moet doen, dus is ze prescriptief. Narratief zou betekenen "
+                 "dat ze een verhaal vertelt.",
+             ]),
+        dict(aanpak="Bij zelf schrijven is er geen modelantwoord. Kijk na of je bedoeling door heel de "
+                    "tekst klopt: feiten zonder oordeel, of juist een duidelijk standpunt.",
+             waarom=[None, None]),
+        dict(aanpak="Deze oefening tel je pas af als je ze echt gedaan hebt. Het papierwerk vooraf is maar "
+                    "de helft.",
+             waarom=[
+                 "Waar de ander doorvraagt, zat de ruis. Dat is de beste oefening in duidelijk formuleren "
+                 "die er is.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-hoofdgedachte-alinea-en-structuuraanduiders-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(aanpak="Een signaalwoord kondigt het verband aan dat volgt. Vervang het in gedachten door "
+                    "want, maar, en, of dus, en je weet welk verband het is.",
+             waarom=[None, None]),
+        dict(aanpak="Zoek eerst welk verband er tussen de twee delen zit, en kies dan een woord dat precies "
+                    "dat verband legt. Meerdere woorden kunnen juist zijn.",
+             waarom=[
+                 None, None,
+                 "Tenzij is het woord voor een uitzonderingsvoorwaarde: het gaat door, behalve als het "
+                 "regent.",
+                 None,
+             ]),
+        dict(aanpak="De hoofdgedachte is de zin waar de rest van de alinea bij hoort. Cijfers, namen en "
+                    "voorbeelden zijn de uitwerking, niet de kern.",
+             waarom=[
+                 "Het aantal deelnemers is een detail dat het onderzoek staaft. De kern is wat eruit komt.",
+                 None, None,
+             ]),
+        dict(aanpak="Drie delen met elk hun taak. Elke alinea in het midden draagt één hoofdgedachte.",
+             waarom=[
+                 None,
+                 "Hou dat onderscheid vast: signaalwoorden werken tussen zinnen, structuuraanduiders over "
+                 "de hele tekst.",
+             ]),
+        dict(aanpak="Let bij elke uitspraak op het woord altijd of nooit. Dat is bij alinea's bijna nooit "
+                    "waar.",
+             waarom=[
+                 None,
+                 "Een korte alinea kan net een sterk effect hebben, bijvoorbeeld om iets te benadrukken.",
+                 "Ze staat vaak vooraan, maar even goed achteraan als besluit, of verspreid over de alinea.",
+                 None,
+             ]),
+        dict(aanpak="Een samenvatting geeft de hoofdlijn in je eigen woorden. Alles wat enkel illustreert, "
+                    "laat je weg.",
+             waarom=[
+                 "Je eigen mening hoort er niet in. Dat is het verschil tussen samenvatten en bespreken.",
+                 None,
+             ]),
+        dict(aanpak="Deze oefening tel je pas af als je ze echt gedaan hebt.",
+             waarom=[
+                 "Dat de ander moet vragen, is de beste controle op je structuur die er bestaat: daar "
+                 "ontbrak een verband of een hoofdgedachte.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-bronnen-wegen-objectief-gekleurd-of-nep-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(aanpak="Zoek de woorden die een oordeel meedragen. Staan er enkel cijfers, namen en data, dan "
+                    "is de zin objectief.",
+             waarom=[
+                 None,
+                 "Duwde er vlotjes door en omstreden zijn de gekleurde woorden. Het feit blijft hetzelfde, "
+                 "enkel de toon verandert.",
+                 "Een golf en overspoelde maken van een aantal een ramp. Een getal zou hier veel meer "
+                 "zeggen.",
+                 None,
+             ]),
+        dict(aanpak="Streep eerst de gekleurde woorden door en schrijf dan op wat er feitelijk gebeurd is. "
+                    "Een getal in de plaats van een gevoelswoord is bijna altijd een verbetering.",
+             waarom=[None, None]),
+        dict(aanpak="Betrouwbaarheid lees je af aan controleerbaarheid: wie schreef het, wanneer, en waarop "
+                    "steunt het.",
+             waarom=[
+                 None,
+                 "Geen auteur is een reden om verder te kijken, geen bewijs van onbetrouwbaarheid. Dat "
+                 "onderscheid is de kern van bronnen wegen.",
+             ]),
+        dict(aanpak="Wie een onderzoek betaalt, heeft er belang bij. Dat maakt het niet waardeloos, wel iets "
+                    "om bij te vermelden en strenger te lezen.",
+             waarom=[
+                 None,
+                 "Die drie vragen, bron, datum en tweede bron, kosten je een halve minuut en halen het "
+                 "meeste eruit.",
+             ]),
+        dict(aanpak="Een feit kan je nakijken, een mening niet, en een aanname is iets wat de schrijver "
+                    "zomaar veronderstelt.",
+             waarom=[
+                 "Let op de aanname: iedereen wil toch is een zin die je zonder bewijs meekrijgt. Juist "
+                 "zulke zinnen sturen een tekst.",
+                 "Bronnen vermelden kan ook voor de schijn. Kijk na of de bron bestaat en of ze zegt wat er "
+                 "beweerd wordt.",
+                 None,
+             ]),
+        dict(aanpak="Deze oefening tel je pas af als je ze echt gedaan hebt.",
+             waarom=[
+                 "Spreek over de bron, niet over de persoon die het doorstuurde. Anders wordt het een ruzie "
+                 "in plaats van een gesprek.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-standaardtaal-tussentaal-en-register-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(aanpak="Vier variëteiten op een rij, van verzorgd naar los: standaardtaal, tussentaal, "
+                    "dialect en jongerentaal. Kijk naar de woorden én naar de klanken die opgeschreven zijn.",
+             waarom=[
+                 "Tussentaal herken je aan kleine dingen: da in plaats van dat, en een he erachter. Het is "
+                 "geen dialect, maar ook geen standaardtaal.",
+             ]),
+        dict(aanpak="Het register volgt uit de situatie, niet uit het onderwerp: wie is de ander, en hoe "
+                    "goed ken je hem.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Vervang de gewestelijke vormen door standaardvormen en maak de zin af. Let op gij en "
+                    "kunde, want die vallen het eerst op.",
+             waarom=[None, None, None]),
+        dict(aanpak="Een register is een keuze, geen kwestie van goed of fout. De vraag is telkens of het "
+                    "past bij de situatie.",
+             waarom=[
+                 "Dit is het belangrijkste inzicht van het hoofdstuk: tussentaal is niet fout, ze is soms "
+                 "ongepast. Dat is iets anders.",
+                 None, None,
+                 "In een gesprek met vrienden klinkt strakke standaardtaal afstandelijk. Passen bij de "
+                 "situatie is het doel, niet zo verzorgd mogelijk.",
+             ]),
+        dict(aanpak="Een verzorgde mail heeft een aanspreking, een duidelijke vraag, volledige zinnen en "
+                    "een afsluiting. Zeg in de eerste zin waarover het gaat.",
+             waarom=[None]),
+        dict(aanpak="Deze oefening tel je pas af als je ze echt gedaan hebt.",
+             waarom=[
+                 "Let op wat er naast de woorden verandert: tempo, toon en hoeveel je uitlegt. Dat hoort "
+                 "allemaal bij het register.",
+             ]),
+    ],
+)

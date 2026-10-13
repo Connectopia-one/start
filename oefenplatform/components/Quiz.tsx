@@ -737,9 +737,16 @@ export function Quiz({
   /* Heeft dit hoofdstuk wisselende woorden, dan wachten we met tonen tot we
      weten welke beurt dit kind krijgt. Anders staat er even het ene woord en
      een tel later het andere. Een hoofdstuk zonder varianten wacht nergens op
-     en verandert dus niet. */
+     en verandert dus niet.
+
+     Alleen wachten als er ook echt iets opgehaald wordt. Een examen loopt over
+     alle hoofdstukken heen en heeft dus geen hoofdstukId: dan haalt de effect
+     hierboven niets op, blijft `beurten` leeg en bleef het examen hangen op
+     "Even kijken welke woorden er deze keer aan de beurt zijn...". Zonder
+     hoofdstuk krijgt elke vraag gewoon haar eerste beurt. */
   const heeftVarianten = alleVragen.some((v) => (v.varianten ?? []).length > 0);
-  const wachtOpBeurt = heeftVarianten && Boolean(actiefKindId) && !beurten;
+  const wachtOpBeurt =
+    heeftVarianten && Boolean(actiefKindId) && Boolean(hoofdstukId) && !beurten;
 
   // Hoeveel vragen van dit hoofdstuk staan er nog open? Is dat er geen enkele,
   // of zijn het er evenveel als het hoofdstuk telt, dan valt er niets te
