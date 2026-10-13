@@ -46,8 +46,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke kenmerken heeft een vectoriële grootheid? Kruis alles aan wat juist is.",
-        opties=["grootte", "richting", "zin", "temperatuur"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "grootte",
+            "richting",
+            "zin",
+            "temperatuur",
+            "aangrijpingspunt",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="De vier kenmerken zijn grootte, richting, zin en aangrijpingspunt. De temperatuur heeft met een vector niets te maken.",
     ),
     dict(
@@ -337,9 +343,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke grootheden stel je bij een beweging met een vector voor? Kruis alles aan wat juist is.",
-        opties=["de verplaatsing", "de snelheid", "de versnelling", "het tijdsverloop"],
-        antwoord=[0, 1, 2],
-        uitleg="Die drie hebben een grootte én een richting en zin. Het tijdsverloop is gewoon een getal met een eenheid.",
+        opties=[
+            "de verplaatsing",
+            "de snelheid",
+            "de afgelegde weg",
+            "het tijdsverloop",
+        ],
+        antwoord=[0, 1],
+        uitleg="De verplaatsing en de snelheid hebben een grootte én een richting en zin, en de versnelling ook. Het tijdsverloop en de afgelegde weg zijn gewoon een getal met een eenheid.",
     ),
     dict(
         type="meerkeuze",

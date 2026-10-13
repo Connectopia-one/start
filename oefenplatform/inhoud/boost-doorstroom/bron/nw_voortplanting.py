@@ -23,8 +23,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke delen horen bij het vrouwelijk voortplantingsstelsel? Kruis alles aan wat juist is.",
-        opties=["de eierstok", "de eileider met de eitrechter", "de baarmoeder", "de bijbal"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "de eierstok",
+            "de eileider met de eitrechter",
+            "de baarmoeder",
+            "de bijbal",
+            "de vagina",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Eierstok, eileider met eitrechter en baarmoeder horen bij het vrouwelijk stelsel. De bijbal hoort bij het mannelijk stelsel.",
     ),
     dict(
@@ -74,9 +80,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke klieren spelen mee in de hormonale regeling van de cyclus? Kruis alles aan wat juist is.",
-        opties=["de hypothalamus", "de hypofyse", "de eierstok", "de schildklier"],
-        antwoord=[0, 1, 2],
-        uitleg="De hypothalamus geeft GnRH, de hypofyse geeft FSH en LH, en de eierstok geeft oestrogeen en progesteron. De schildklier staat hierbuiten.",
+        opties=[
+            "de alvleesklier",
+            "de hypofyse",
+            "de eierstok",
+            "de schildklier",
+        ],
+        antwoord=[1, 2],
+        uitleg="De hypofyse geeft FSH en LH en de eierstok oestrogeen en progesteron, op bevel van de hypothalamus. De schildklier en de alvleesklier staan hierbuiten.",
     ),
     dict(
         type="invultekst",
@@ -122,8 +133,9 @@ DEEL1 = [
             "het gehalte progesteron daalt",
             "het baarmoederslijmvlies laat los en de menstruatie begint",
             "het gehalte progesteron blijft maandenlang hoog",
+            "een nieuwe cyclus kan daarna opnieuw beginnen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Zonder bevruchting verdwijnt het geel lichaam, valt het progesteron weg en kan het slijmvlies niet in stand blijven. Dat is de menstruatie.",
     ),
     dict(
@@ -193,9 +205,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke delen horen bij het mannelijk voortplantingsstelsel? Kruis alles aan wat juist is.",
-        opties=["de teelbal", "de bijbal", "de zaadleider", "de eitrechter"],
-        antwoord=[0, 1, 2],
-        uitleg="Teelbal, bijbal en zaadleider horen bij het mannelijk stelsel. De eitrechter hoort bij het vrouwelijk stelsel.",
+        opties=[
+            "de teelbal",
+            "de baarmoeder",
+            "de zaadleider",
+            "de eitrechter",
+        ],
+        antwoord=[0, 2],
+        uitleg="De teelbal en de zaadleider horen bij het mannelijk stelsel. De eitrechter en de baarmoeder horen bij het vrouwelijk stelsel.",
     ),
     dict(
         type="waarofniet",
@@ -242,8 +259,9 @@ DEEL2 = [
             "de hypofyse geeft minder LH af",
             "de cellen van Leydig maken daarna minder testosteron",
             "de teelballen maken meteen veel meer zaadcellen",
+            "het gehalte testosteron zakt daarna weer",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Testosteron remt zowel de hypothalamus als de hypofyse. Dat is negatieve terugkoppeling: het gehalte wordt zo weer naar beneden gebracht.",
     ),
     dict(
@@ -285,9 +303,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke hormonen spelen bij zowel man als vrouw een rol? Kruis alles aan wat juist is.",
-        opties=["GnRH", "FSH", "LH", "progesteron"],
-        antwoord=[0, 1, 2],
-        uitleg="GnRH, FSH en LH komen bij beide geslachten voor; alleen hun doelorgaan verschilt. Progesteron hoort bij de vrouwelijke cyclus.",
+        opties=[
+            "GnRH",
+            "FSH",
+            "hCG",
+            "progesteron",
+        ],
+        antwoord=[0, 1],
+        uitleg="GnRH en FSH komen bij beide geslachten voor, en LH ook; alleen hun doelorgaan verschilt. Progesteron hoort bij de vrouwelijke cyclus en hCG komt enkel bij een zwangerschap voor.",
     ),
     dict(
         type="waarofniet",

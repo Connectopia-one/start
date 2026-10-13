@@ -87,8 +87,9 @@ DEEL1 = [
             "de verdamping door dat blad daalt",
             "de opname van koolstofdioxide wordt moeilijker",
             "de plant neemt meteen meer water op via het blad",
+            "de fotosynthese in dat blad vertraagt",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Slappe sluitcellen laten het huidmondje dichtvallen. Dat spaart water, maar er komt ook minder koolstofdioxide binnen, waardoor de fotosynthese vertraagt. Een blad neemt geen water op via een gesloten huidmondje.",
     ),
     dict(
@@ -151,11 +152,11 @@ DEEL1 = [
         opties=[
             "ze zorgt voor een zuigkracht die water omhoog trekt",
             "ze koelt het blad af bij warm weer",
-            "ze gebeurt vooral via de huidmondjes",
+            "ze duwt het water van boven naar onder door de plant",
             "ze levert de plant de suikers die ze nodig heeft",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Transpiratie trekt water omhoog, koelt het blad en verloopt via de huidmondjes. Suikers komen niet van de transpiratie maar van de fotosynthese.",
+        antwoord=[0, 1],
+        uitleg="Transpiratie zorgt voor een zuigkracht die water omhoog trekt en koelt het blad af. Het water gaat dus omhoog, niet omlaag, en de suikers komen van de fotosynthese.",
     ),
     dict(
         type="meerkeuze",
@@ -217,9 +218,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke weefsels horen bij het huidweefsel van een plant? Kruis alles aan wat juist is.",
-        opties=["de epidermis", "de cuticula of waslaag", "de bast", "de houtvaten"],
-        antwoord=[0, 1, 2],
-        uitleg="Epidermis, cuticula en bast dekken de plant af en beschermen haar. De houtvaten horen bij het transportweefsel.",
+        opties=[
+            "de epidermis",
+            "de cuticula of waslaag",
+            "de zeefvaten",
+            "de houtvaten",
+        ],
+        antwoord=[0, 1],
+        uitleg="De epidermis en de cuticula dekken de plant af en beschermen haar. De houtvaten en de zeefvaten horen bij het transportweefsel.",
     ),
     dict(
         type="meerkeuze",
@@ -260,9 +266,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke stoffen heeft een plant nodig om aan fotosynthese te doen? Kruis alles aan wat juist is.",
-        opties=["water", "koolstofdioxide", "licht als energiebron", "zuurstofgas"],
-        antwoord=[0, 1, 2],
-        uitleg="Water en koolstofdioxide zijn de grondstoffen, licht levert de energie. Zuurstofgas is geen grondstof maar juist een product van de fotosynthese.",
+        opties=[
+            "water",
+            "koolstofdioxide",
+            "glucose uit de bodem",
+            "zuurstofgas",
+        ],
+        antwoord=[0, 1],
+        uitleg="Water en koolstofdioxide zijn de grondstoffen. Licht levert de energie, maar is geen stof. Glucose maakt de plant zelf en zuurstofgas is een product.",
     ),
     dict(
         type="waarofniet",
@@ -327,8 +338,9 @@ DEEL2 = [
             "het helpt de plant water sparen in een droge periode",
             "het speelt mee bij het verliezen van bladeren",
             "het laat de stengel sneller naar het licht groeien",
+            "het houdt zaden in rust tot het seizoen goed is",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Abscisinezuur is het hormoon van de droogte en de rust: huidmondjes dicht, water sparen, blad laten vallen. Het strekken naar het licht is het werk van auxine.",
     ),
     dict(

@@ -47,11 +47,11 @@ DEEL1 = [
         opties=[
             "ze neemt in een periode toe naar rechts",
             "niet-metalen hebben een hoge elektronegativiteit",
-            "metalen hebben een lage elektronegativiteit",
+            "metalen hebben de hoogste elektronegativiteit van allemaal",
             "de edelgassen hebben de laagste elektronegativiteit van allemaal",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Naar rechts in een periode wordt een atoom gretiger naar elektronen. Metalen links zijn dat juist niet; de edelgassen vallen buiten die vergelijking omdat ze geen bindingen aangaan.",
+        antwoord=[0, 1],
+        uitleg="Naar rechts in een periode wordt een atoom gretiger naar elektronen: niet-metalen hoog, metalen laag. De edelgassen vallen buiten die vergelijking omdat ze geen bindingen aangaan.",
     ),
     dict(
         type="invultekst",
@@ -99,8 +99,9 @@ DEEL1 = [
             "de som van de oxidatiegetallen in een neutrale stof is nul",
             "waterstof heeft meestal het oxidatiegetal plus een",
             "het oxidatiegetal is altijd gelijk aan de lading van het atoom",
+            "zuurstof heeft meestal het oxidatiegetal min twee",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Het oxidatiegetal is een hulpmiddel om te boekhouden, geen echte lading. In een enkelvoudige stof is het nul en in een neutrale stof tellen ze samen tot nul op.",
     ),
     dict(
@@ -227,11 +228,11 @@ DEEL2 = [
         opties=[
             "het geleidt elektriciteit, ook in vaste toestand",
             "het is plooibaar in plaats van breekbaar",
-            "het heeft glans",
+            "het is doorschijnend als glas",
             "het geleidt alleen elektriciteit als je het in water oplost",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De vrije elektronen zorgen voor de geleiding en voor de glans, en de lagen ionen kunnen over elkaar schuiven zonder te breken. Metalen lossen niet op in water.",
+        antwoord=[0, 1],
+        uitleg="De vrije elektronen zorgen voor de geleiding en voor de glans, en de lagen ionen kunnen over elkaar schuiven zonder te breken. Metaal is niet doorschijnend en lost niet op in water.",
     ),
     dict(
         type="invultekst",
@@ -313,9 +314,10 @@ DEEL2 = [
             "water",
             "koolstofdioxide",
             "keukenzout",
+            "ammoniak",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Die drie hebben een molecuulrooster met zwakke krachten tussen de moleculen. Keukenzout heeft een ionrooster en is daarom vast.",
+        antwoord=[0, 1, 2, 4],
+        uitleg="Die stoffen hebben een molecuulrooster met zwakke krachten tussen de moleculen. Keukenzout heeft een ionrooster en is daarom vast.",
     ),
     dict(
         type="meerkeuze",

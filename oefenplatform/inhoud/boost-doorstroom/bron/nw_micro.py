@@ -28,8 +28,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke rijken horen bij het vijfrijkensysteem? Kruis alles aan wat juist is.",
-        opties=["het plantenrijk", "het dierenrijk", "het prokaryotenrijk", "het virusrijk"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "het plantenrijk",
+            "het dierenrijk",
+            "het prokaryotenrijk",
+            "het virusrijk",
+            "het schimmelrijk",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="De vijf rijken zijn planten, dieren, schimmels, prokaryoten en protisten. Virussen staan in geen enkel rijk.",
     ),
     dict(
@@ -113,9 +119,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke organismen horen bij de micro-organismen? Kruis alles aan wat juist is.",
-        opties=["bacteriën", "gisten en schimmels", "protozoa en eencellige algen", "mossen"],
-        antwoord=[0, 1, 2],
-        uitleg="Bacteriën, gisten en schimmels, protozoa en eencellige algen zijn micro-organismen. Mossen zijn gewone, met het blote oog zichtbare planten.",
+        opties=[
+            "bacteriën",
+            "gisten en schimmels",
+            "varens",
+            "mossen",
+        ],
+        antwoord=[0, 1],
+        uitleg="Bacteriën, gisten en schimmels zijn micro-organismen, en protozoa en eencellige algen ook. Mossen en varens zijn gewone planten, met het blote oog zichtbaar.",
     ),
     dict(
         type="meerkeuze",
@@ -208,8 +219,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Bij welke voedingsmiddelen spelen micro-organismen een rol? Kruis alles aan wat juist is.",
-        opties=["yoghurt", "zuurkool", "schimmelkaas", "gekookt water"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "yoghurt",
+            "zuurkool",
+            "schimmelkaas",
+            "gekookt water",
+            "brooddeeg met gist",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Yoghurt en zuurkool danken hun zure smaak aan melkzuurbacteriën, en schimmelkaas aan een schimmel. In gekookt water zit juist zo min mogelijk leven.",
     ),
     dict(
@@ -272,11 +289,11 @@ DEEL2 = [
         opties=[
             "ze breken dood materiaal af bij het composteren",
             "ze zuiveren water in een waterzuiveringsinstallatie",
-            "ze helpen planten aan stikstof via mycorrhiza",
+            "ze vangen met hun eigen wortels stikstof uit de lucht",
             "ze maken met hun bladgroen zuurstof voor de hele bodem",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Composteren, waterzuivering en de samenwerking met plantenwortels zijn klassieke voorbeelden. Bladgroen hebben bacteriën en schimmels niet.",
+        antwoord=[0, 1],
+        uitleg="Composteren en waterzuivering zijn klassieke voorbeelden, en de samenwerking met plantenwortels ook. Wortels en bladgroen hebben bacteriën en schimmels niet.",
     ),
     dict(
         type="invultekst",
@@ -340,8 +357,9 @@ DEEL2 = [
             "het houdt ziekteverwekkers mee op afstand",
             "het hoort bij een gezonde huid",
             "het moet je zo volledig mogelijk wegwassen",
+            "het verschilt van mens tot mens",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De bewoners van je huid horen erbij en beschermen je. Alles wegboenen verzwakt die bescherming eerder dan dat het helpt.",
     ),
     dict(

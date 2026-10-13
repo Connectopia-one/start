@@ -82,12 +82,14 @@
             "het huidmondje gaat dicht",
             "de verdamping door dat blad daalt",
             "de opname van koolstofdioxide wordt moeilijker",
-            "de plant neemt meteen meer water op via het blad"
+            "de plant neemt meteen meer water op via het blad",
+            "de fotosynthese in dat blad vertraagt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Slappe sluitcellen laten het huidmondje dichtvallen. Dat spaart water, maar er komt ook minder koolstofdioxide binnen, waardoor de fotosynthese vertraagt. Een blad neemt geen water op via een gesloten huidmondje."
         },
@@ -151,15 +153,14 @@
           "opties": [
             "ze zorgt voor een zuigkracht die water omhoog trekt",
             "ze koelt het blad af bij warm weer",
-            "ze gebeurt vooral via de huidmondjes",
+            "ze duwt het water van boven naar onder door de plant",
             "ze levert de plant de suikers die ze nodig heeft"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Transpiratie trekt water omhoog, koelt het blad en verloopt via de huidmondjes. Suikers komen niet van de transpiratie maar van de fotosynthese."
+          "uitleg": "Transpiratie zorgt voor een zuigkracht die water omhoog trekt en koelt het blad af. Het water gaat dus omhoog, niet omlaag, en de suikers komen van de fotosynthese."
         },
         {
           "type": "meerkeuze",
@@ -228,15 +229,14 @@
           "opties": [
             "de epidermis",
             "de cuticula of waslaag",
-            "de bast",
+            "de zeefvaten",
             "de houtvaten"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Epidermis, cuticula en bast dekken de plant af en beschermen haar. De houtvaten horen bij het transportweefsel."
+          "uitleg": "De epidermis en de cuticula dekken de plant af en beschermen haar. De houtvaten en de zeefvaten horen bij het transportweefsel."
         },
         {
           "type": "meerkeuze",
@@ -280,15 +280,14 @@
           "opties": [
             "water",
             "koolstofdioxide",
-            "licht als energiebron",
+            "glucose uit de bodem",
             "zuurstofgas"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Water en koolstofdioxide zijn de grondstoffen, licht levert de energie. Zuurstofgas is geen grondstof maar juist een product van de fotosynthese."
+          "uitleg": "Water en koolstofdioxide zijn de grondstoffen. Licht levert de energie, maar is geen stof. Glucose maakt de plant zelf en zuurstofgas is een product."
         },
         {
           "type": "waarofniet",
@@ -357,12 +356,14 @@
             "het laat de huidmondjes sluiten bij droogte",
             "het helpt de plant water sparen in een droge periode",
             "het speelt mee bij het verliezen van bladeren",
-            "het laat de stengel sneller naar het licht groeien"
+            "het laat de stengel sneller naar het licht groeien",
+            "het houdt zaden in rust tot het seizoen goed is"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Abscisinezuur is het hormoon van de droogte en de rust: huidmondjes dicht, water sparen, blad laten vallen. Het strekken naar het licht is het werk van auxine."
         },
@@ -434,12 +435,14 @@
             "het geluid van een toeterende auto",
             "het licht van een felle lamp",
             "de kou van een ijskoude wind",
-            "het hongergevoel na een lange les"
+            "het hongergevoel na een lange les",
+            "de geur van brandend hout"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Geluid, licht en kou komen van buiten het lichaam. Honger komt van binnenuit en is dus een inwendige prikkel."
         },
@@ -472,16 +475,15 @@
           "vraag": "Welke receptoren horen bij welk zintuig? Kruis alles aan wat juist is.",
           "opties": [
             "staafjes en kegeltjes horen bij het zicht",
-            "haarcellen horen bij het gehoor",
+            "haarcellen horen bij het zicht",
             "zintuigcellen op de tong horen bij de smaakzin",
             "sluitcellen horen bij de tastzin van de huid"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Staafjes en kegeltjes, haarcellen en de zintuigcellen van de tong zijn receptoren van mens en dier. Sluitcellen zijn plantencellen rond een huidmondje."
+          "uitleg": "Staafjes en kegeltjes horen bij het zicht en de zintuigcellen op de tong bij de smaakzin. Haarcellen horen bij het gehoor, niet bij het zicht, en sluitcellen zijn plantencellen rond een huidmondje."
         },
         {
           "type": "waarofniet",
@@ -544,12 +546,14 @@
             "ze sturen de strekking van cellen in de stengel",
             "ze spelen mee bij de vorming van bijwortels en zijscheuten",
             "ze regelen het rijpen van vruchten",
-            "ze geleiden elektrische impulsen door de plant"
+            "ze geleiden elektrische impulsen door de plant",
+            "ze laten de huidmondjes sluiten bij droogte"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Celstrekking, wortelgroei en vruchtrijping lopen bij een plant via hormonen. Elektrische impulsen over zenuwbanen bestaan bij planten niet."
         },
@@ -638,15 +642,14 @@
           "opties": [
             "het straallichaam",
             "de iris met haar spieren",
-            "de lensbanden",
+            "het hoornvlies vooraan het oog",
             "de oogzenuw"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Straallichaam, iris en lensbanden horen bij het vaatvlies. De oogzenuw vertrekt vanuit het netvlies."
+          "uitleg": "Het straallichaam en de iris horen bij het vaatvlies. Het hoornvlies hoort bij de buitenste laag en de oogzenuw vertrekt vanuit het netvlies."
         },
         {
           "type": "meerkeuze",
@@ -709,12 +712,14 @@
             "staafjes werken ook bij weinig licht",
             "kegeltjes zorgen voor het zien van kleur",
             "beide liggen in het netvlies",
-            "beide liggen op de blinde vlek"
+            "beide liggen op de blinde vlek",
+            "kegeltjes hebben meer licht nodig dan staafjes"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Staafjes zien grijswaarden bij weinig licht, kegeltjes zien kleur bij veel licht, en beide liggen in het netvlies. Op de blinde vlek liggen er juist geen lichtreceptoren."
         },
@@ -796,15 +801,14 @@
           "opties": [
             "de pupil wordt groter",
             "de staafjes nemen het werk over van de kegeltjes",
-            "je ziet eerst bijna geen kleuren meer",
+            "je ziet de kleuren juist feller dan buiten",
             "de ooglens wordt meteen een stuk boller"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bij weinig licht gaat de pupil open en nemen de staafjes over. Die zien geen kleur, dus de wereld wordt grijzig. De lens verandert alleen bij het scherpstellen op afstand."
+          "uitleg": "Bij weinig licht gaat de pupil open en nemen de staafjes over. Die zien geen kleur, dus de kleuren worden juist zwakker en grijzer. De lens verandert alleen bij het scherpstellen op afstand."
         },
         {
           "type": "invultekst",
@@ -844,12 +848,14 @@
             "de hersenzenuwen",
             "de ruggenmergzenuwen",
             "de grensstrengen",
-            "het ruggenmerg"
+            "het ruggenmerg",
+            "de zenuwuiteinden in de huid"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Alles buiten de hersenen en het ruggenmerg hoort bij het perifere stelsel: de hersenzenuwen, de ruggenmergzenuwen en de grensstrengen. Het ruggenmerg zelf is centraal."
         },
@@ -884,12 +890,14 @@
             "de dendrieten",
             "het axon",
             "het cellichaam met de celkern",
-            "de synaptische spleet"
+            "de synaptische spleet",
+            "de eindknopjes van het axon"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Dendrieten, axon en cellichaam zijn delen van het neuron zelf. De synaptische spleet is de ruimte tússen twee neuronen."
         },
@@ -957,17 +965,16 @@
           "type": "meerkeuze",
           "vraag": "Welke beweringen over het ruggenmerg zijn juist? Kruis alles aan wat juist is.",
           "opties": [
-            "het ligt beschermd in het wervelkanaal",
+            "het ligt beschermd in de schedel",
             "het hoort bij het centrale zenuwstelsel",
             "het kan zelf een reflex afhandelen zonder de hersenen",
             "het maakt de hormonen aan die de spieren aansturen"
           ],
           "antwoord": [
-            0,
             1,
             2
           ],
-          "uitleg": "Het ruggenmerg ligt in de wervelkolom, hoort bij het centrale stelsel en sluit bij een reflex de kortste weg. Hormonen maakt het niet; dat doen klieren."
+          "uitleg": "Het ruggenmerg hoort bij het centrale stelsel en sluit bij een reflex de kortste weg. Het ligt in het wervelkanaal, niet in de schedel, en hormonen maakt het niet: dat doen klieren."
         },
         {
           "type": "waarofniet",
@@ -999,15 +1006,14 @@
           "opties": [
             "een spier",
             "een klier",
-            "het hartspierweefsel",
+            "een zintuigcel in het oog",
             "een receptor in de huid"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Spieren en klieren zijn de effectoren, de hartspier ook. Een receptor staat juist aan het begin van de weg, niet aan het einde."
+          "uitleg": "Spieren en klieren zijn de effectoren. Een receptor in de huid en een zintuigcel in het oog staan juist aan het begin van de weg, niet aan het einde."
         },
         {
           "type": "waarofniet",
@@ -1089,12 +1095,14 @@
             "de impuls laat blaasjes met neurotransmitter leeglopen",
             "de neurotransmitter past op membraanreceptoren aan de overkant",
             "het signaal gaat er maar in één richting over",
-            "het signaal springt er als een vonk rechtstreeks over"
+            "het signaal springt er als een vonk rechtstreeks over",
+            "de neurotransmitter wordt daarna weer opgeruimd"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "In de synaps wordt het elektrische signaal even chemisch. Alleen het eindknopje heeft blaasjes en alleen de overkant heeft receptoren, dus de richting ligt vast."
         },
@@ -1129,12 +1137,14 @@
             "de pupilreflex bij fel licht",
             "de kniepeesreflex bij een tik onder de knieschijf",
             "het terugtrekken van je hand bij hitte",
-            "het aanbinden van je veters"
+            "het aanbinden van je veters",
+            "het knipperen van je oog als er iets op afkomt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Pupilreflex, kniepeesreflex en terugtrekreflex gaan vanzelf en razendsnel. Je veters knopen is een aangeleerde, gewilde beweging."
         },
@@ -1253,15 +1263,14 @@
           "opties": [
             "de spier die je arm buigt",
             "de spier die je been strekt",
-            "de kauwspier in je kaak",
+            "de spierwand van je maag",
             "de spierwand van je darm"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De dwarsgestreepte skeletspieren stuur je zelf aan. De gladde spieren van de darm werken onwillekeurig, zonder dat je erbij nadenkt."
+          "uitleg": "De dwarsgestreepte skeletspieren van arm en been stuur je zelf aan, en de kauwspier ook. De gladde spieren van darm en maag werken onwillekeurig."
         },
         {
           "type": "waarofniet",
@@ -1324,12 +1333,14 @@
             "de Z-plaat",
             "het actinefilament",
             "het myosinefilament",
-            "de motorische eindplaat"
+            "de motorische eindplaat",
+            "de sarcomeer tussen twee Z-platen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Z-platen, actine en myosine liggen in de spierfibril zelf. De motorische eindplaat is de plek waar het zenuwuiteinde op de vezel aankomt."
         },
@@ -1405,15 +1416,14 @@
           "opties": [
             "het ligt in de wand van organen en bloedvaten",
             "het werkt onwillekeurig",
-            "het trekt trager samen dan een skeletspier",
+            "het trekt sneller samen dan een skeletspier",
             "het vertoont onder de microscoop een duidelijke dwarse streping"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Glad spierweefsel ligt in darm, maag en bloedvatwand, werkt buiten je wil om en trekt traag maar lang samen. De dwarse streping is net wat het níét heeft."
+          "uitleg": "Glad spierweefsel ligt in darm, maag en bloedvatwand en werkt buiten je wil om. Het trekt traag maar lang samen, niet sneller dan een skeletspier, en de dwarse streping is net wat het níét heeft."
         },
         {
           "type": "waarofniet",
@@ -1465,12 +1475,14 @@
             "de traanklier",
             "de zweetklier",
             "de talgklier",
-            "de schildklier"
+            "de schildklier",
+            "de speekselklier"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Traanklier, zweetklier en talgklier hebben een afvoerbuis naar het oppervlak. De schildklier geeft haar hormoon rechtstreeks aan het bloed en is dus endocrien."
         },
@@ -1534,15 +1546,14 @@
           "opties": [
             "de bètacellen geven insuline af",
             "de lever slaat glucose op als glycogeen",
-            "de lichaamscellen nemen meer glucose op",
+            "de lever breekt glycogeen af tot glucose",
             "de alfacellen geven extra glucagon af"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Insuline laat de cellen glucose opnemen en de lever glycogeen aanleggen, zodat het gehalte weer daalt. Glucagon komt pas als het gehalte juist te laag wordt."
+          "uitleg": "Insuline uit de bètacellen laat de lever glycogeen aanleggen en de cellen glucose opnemen, zodat het gehalte weer daalt. Glycogeen afbreken en glucagon afgeven gebeurt pas als het gehalte te laag wordt."
         },
         {
           "type": "invultekst",
@@ -1575,12 +1586,14 @@
             "de hartslag versnelt",
             "er komt extra glucose vrij in het bloed",
             "het lichaam wordt klaargezet voor inspanning",
-            "de spijsvertering wordt juist versneld"
+            "de spijsvertering wordt juist versneld",
+            "de ademhaling versnelt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Adrenaline uit de bijnier maakt het lichaam klaar om te vechten of te vluchten: sneller hart, meer brandstof. De spijsvertering gaat op dat moment juist op een laag pitje."
         },
@@ -1670,12 +1683,14 @@
             "de eierstok",
             "de eileider met de eitrechter",
             "de baarmoeder",
-            "de bijbal"
+            "de bijbal",
+            "de vagina"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Eierstok, eileider met eitrechter en baarmoeder horen bij het vrouwelijk stelsel. De bijbal hoort bij het mannelijk stelsel."
         },
@@ -1737,17 +1752,16 @@
           "type": "meerkeuze",
           "vraag": "Welke klieren spelen mee in de hormonale regeling van de cyclus? Kruis alles aan wat juist is.",
           "opties": [
-            "de hypothalamus",
+            "de alvleesklier",
             "de hypofyse",
             "de eierstok",
             "de schildklier"
           ],
           "antwoord": [
-            0,
             1,
             2
           ],
-          "uitleg": "De hypothalamus geeft GnRH, de hypofyse geeft FSH en LH, en de eierstok geeft oestrogeen en progesteron. De schildklier staat hierbuiten."
+          "uitleg": "De hypofyse geeft FSH en LH en de eierstok oestrogeen en progesteron, op bevel van de hypothalamus. De schildklier en de alvleesklier staan hierbuiten."
         },
         {
           "type": "invultekst",
@@ -1792,12 +1806,14 @@
             "het geel lichaam valt na een tiental dagen weg",
             "het gehalte progesteron daalt",
             "het baarmoederslijmvlies laat los en de menstruatie begint",
-            "het gehalte progesteron blijft maandenlang hoog"
+            "het gehalte progesteron blijft maandenlang hoog",
+            "een nieuwe cyclus kan daarna opnieuw beginnen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Zonder bevruchting verdwijnt het geel lichaam, valt het progesteron weg en kan het slijmvlies niet in stand blijven. Dat is de menstruatie."
         },
@@ -1879,16 +1895,15 @@
           "vraag": "Welke delen horen bij het mannelijk voortplantingsstelsel? Kruis alles aan wat juist is.",
           "opties": [
             "de teelbal",
-            "de bijbal",
+            "de baarmoeder",
             "de zaadleider",
             "de eitrechter"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Teelbal, bijbal en zaadleider horen bij het mannelijk stelsel. De eitrechter hoort bij het vrouwelijk stelsel."
+          "uitleg": "De teelbal en de zaadleider horen bij het mannelijk stelsel. De eitrechter en de baarmoeder horen bij het vrouwelijk stelsel."
         },
         {
           "type": "waarofniet",
@@ -1939,12 +1954,14 @@
             "de hypothalamus geeft minder GnRH af",
             "de hypofyse geeft minder LH af",
             "de cellen van Leydig maken daarna minder testosteron",
-            "de teelballen maken meteen veel meer zaadcellen"
+            "de teelballen maken meteen veel meer zaadcellen",
+            "het gehalte testosteron zakt daarna weer"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Testosteron remt zowel de hypothalamus als de hypofyse. Dat is negatieve terugkoppeling: het gehalte wordt zo weer naar beneden gebracht."
         },
@@ -1990,15 +2007,14 @@
           "opties": [
             "GnRH",
             "FSH",
-            "LH",
+            "hCG",
             "progesteron"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "GnRH, FSH en LH komen bij beide geslachten voor; alleen hun doelorgaan verschilt. Progesteron hoort bij de vrouwelijke cyclus."
+          "uitleg": "GnRH en FSH komen bij beide geslachten voor, en LH ook; alleen hun doelorgaan verschilt. Progesteron hoort bij de vrouwelijke cyclus en hCG komt enkel bij een zwangerschap voor."
         },
         {
           "type": "waarofniet",
@@ -2086,12 +2102,14 @@
             "het plantenrijk",
             "het dierenrijk",
             "het prokaryotenrijk",
-            "het virusrijk"
+            "het virusrijk",
+            "het schimmelrijk"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De vijf rijken zijn planten, dieren, schimmels, prokaryoten en protisten. Virussen staan in geen enkel rijk."
         },
@@ -2179,15 +2197,14 @@
           "opties": [
             "bacteriën",
             "gisten en schimmels",
-            "protozoa en eencellige algen",
+            "varens",
             "mossen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bacteriën, gisten en schimmels, protozoa en eencellige algen zijn micro-organismen. Mossen zijn gewone, met het blote oog zichtbare planten."
+          "uitleg": "Bacteriën, gisten en schimmels zijn micro-organismen, en protozoa en eencellige algen ook. Mossen en varens zijn gewone planten, met het blote oog zichtbaar."
         },
         {
           "type": "meerkeuze",
@@ -2293,12 +2310,14 @@
             "yoghurt",
             "zuurkool",
             "schimmelkaas",
-            "gekookt water"
+            "gekookt water",
+            "brooddeeg met gist"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Yoghurt en zuurkool danken hun zure smaak aan melkzuurbacteriën, en schimmelkaas aan een schimmel. In gekookt water zit juist zo min mogelijk leven."
         },
@@ -2362,15 +2381,14 @@
           "opties": [
             "ze breken dood materiaal af bij het composteren",
             "ze zuiveren water in een waterzuiveringsinstallatie",
-            "ze helpen planten aan stikstof via mycorrhiza",
+            "ze vangen met hun eigen wortels stikstof uit de lucht",
             "ze maken met hun bladgroen zuurstof voor de hele bodem"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Composteren, waterzuivering en de samenwerking met plantenwortels zijn klassieke voorbeelden. Bladgroen hebben bacteriën en schimmels niet."
+          "uitleg": "Composteren en waterzuivering zijn klassieke voorbeelden, en de samenwerking met plantenwortels ook. Wortels en bladgroen hebben bacteriën en schimmels niet."
         },
         {
           "type": "invultekst",
@@ -2433,12 +2451,14 @@
             "het bestaat uit micro-organismen die normaal op je huid leven",
             "het houdt ziekteverwekkers mee op afstand",
             "het hoort bij een gezonde huid",
-            "het moet je zo volledig mogelijk wegwassen"
+            "het moet je zo volledig mogelijk wegwassen",
+            "het verschilt van mens tot mens"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De bewoners van je huid horen erbij en beschermen je. Alles wegboenen verzwakt die bescherming eerder dan dat het helpt."
         },
@@ -2503,15 +2523,14 @@
           "opties": [
             "conditioneren",
             "trial-and-error",
-            "imitatie",
+            "het bouwen van een nest volgens een vast patroon",
             "baltsgedrag"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Conditioneren, met vallen en opstaan leren en nabootsen zijn manieren waarop een dier iets leert. Baltsgedrag hoort bij het aangeboren gedrag rond de voortplanting."
+          "uitleg": "Conditioneren en leren met vallen en opstaan zijn manieren waarop een dier iets leert, en nabootsen ook. Baltsgedrag en het vaste nestpatroon horen bij het aangeboren gedrag."
         },
         {
           "type": "waarofniet",
@@ -2574,12 +2593,14 @@
             "de kleurenpracht van een pauwenstaart",
             "de dans van een honingbij",
             "het opzetten van de haren bij een kat",
-            "het blaffen van een hond bij de deur"
+            "het blaffen van een hond bij de deur",
+            "het tonen van de tanden bij een wolf"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Alles wat je moet zien om het te begrijpen, is visueel. Blaffen hoor je, dus dat is auditieve communicatie."
         },
@@ -2655,15 +2676,14 @@
           "opties": [
             "twee soorten leven nauw met elkaar samen",
             "mutualisme is er een vorm van",
-            "ze kan voor één of voor beide partners voordelig zijn",
+            "ze is voor beide partners altijd even voordelig",
             "ze bestaat alleen tussen dieren onderling"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Symbiose is het nauwe samenleven van twee soorten. Ook planten, schimmels en bacteriën doen eraan mee; denk aan korstmossen of aan mycorrhiza."
+          "uitleg": "Symbiose is het nauwe samenleven van twee soorten en mutualisme is er een vorm van. Het voordeel is niet altijd gelijk verdeeld, en ook planten, schimmels en bacteriën doen eraan mee."
         },
         {
           "type": "waarofniet",
@@ -2715,12 +2735,14 @@
             "de temperatuur",
             "de hoeveelheid licht",
             "de zuurtegraad van de bodem",
-            "de begrazing door schapen"
+            "de begrazing door schapen",
+            "de hoeveelheid neerslag"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Abiotisch betekent niet-levend: temperatuur, licht, water, bodem. Begrazing komt van levende wezens en is dus biotisch."
         },
@@ -2771,16 +2793,15 @@
           "vraag": "Welke processen horen samen in de koolstofkringloop? Kruis alles aan wat juist is.",
           "opties": [
             "de fotosynthese van planten",
-            "de celademhaling van planten en dieren",
+            "de verdamping van water uit een blad",
             "het afbreken van dood materiaal door reducenten",
             "het verdampen van water uit de oceaan"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Fotosynthese legt koolstof vast, celademhaling en afbraak geven hem weer vrij als koolstofdioxide. Verdamping hoort bij de waterkringloop."
+          "uitleg": "Fotosynthese legt koolstof vast en de afbraak door reducenten geeft hem weer vrij als koolstofdioxide, net als de celademhaling. Verdamping uit een blad en uit de oceaan hoort bij de waterkringloop."
         },
         {
           "type": "meerkeuze",
@@ -2837,12 +2858,14 @@
             "de algen vermeerderen zich sterk",
             "er dringt minder licht door tot in de diepte",
             "het zuurstofgehalte daalt wanneer de algen afsterven",
-            "de biodiversiteit in het meer neemt toe"
+            "de biodiversiteit in het meer neemt toe",
+            "het water wordt troebel"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Dat is eutrofiëring. De algenbloei maakt het water troebel, en de afbraak van de dode algen slorpt de zuurstof op. Soorten verdwijnen in plaats van erbij te komen."
         },
@@ -2925,15 +2948,14 @@
           "opties": [
             "suiker in water",
             "lucht",
-            "messing",
+            "slagroom",
             "zand in water"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "In een homogeen mengsel zie je de bestanddelen niet meer apart. Een oplossing, lucht en een legering zijn homogeen; zand in water blijft zichtbaar gescheiden."
+          "uitleg": "In een homogeen mengsel zie je de bestanddelen niet meer apart: een oplossing en lucht, en ook een legering zoals messing. Zand in water en slagroom blijven zichtbaar gescheiden."
         },
         {
           "type": "waarofniet",
@@ -3032,12 +3054,14 @@
             "ze heeft een vast smeltpunt",
             "ze heeft een vast kookpunt",
             "ze bestaat uit één soort deeltjes",
-            "ze bestaat altijd uit één soort atomen"
+            "ze bestaat altijd uit één soort atomen",
+            "ze kan uit meer dan één soort atomen bestaan"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een zuivere stof smelt en kookt bij één temperatuur. Ze kan wel samengesteld zijn: water is zuiver en bestaat toch uit waterstof en zuurstof."
         },
@@ -3077,15 +3101,14 @@
           "opties": [
             "slagroom",
             "vinaigrette",
-            "rook",
+            "suiker in water",
             "zeewater"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Schuim, emulsie en aerosol zijn heterogeen: je kan de delen nog onderscheiden. Zeewater is een oplossing en dus homogeen."
+          "uitleg": "Schuim en emulsie zijn heterogeen: je kan de delen nog onderscheiden, en rook ook. Zeewater en suiker in water zijn oplossingen en dus homogeen."
         },
         {
           "type": "waarofniet",
@@ -3137,12 +3160,14 @@
             "het kookpunt",
             "de oplosbaarheid",
             "de geleidbaarheid",
-            "de hoeveelheid die je in de pot hebt"
+            "de hoeveelheid die je in de pot hebt",
+            "de dichtheid"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een stofeigenschap hangt niet af van hoeveel je ervan hebt. Kookpunt, oplosbaarheid en geleidbaarheid zijn stofeigenschappen; de hoeveelheid zelf is dat niet."
         },
@@ -3205,16 +3230,15 @@
           "vraag": "Bij welke technieken speelt het kookpunt een rol? Kruis alles aan wat juist is.",
           "opties": [
             "destilleren",
-            "indampen",
+            "filtreren",
             "het scheiden van alcohol en water",
             "zeven"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Destilleren en indampen steunen allebei op verdampen, en alcohol scheidt van water omdat hun kookpunten verschillen. Zeven gaat over deeltjesgrootte."
+          "uitleg": "Destilleren steunt op verdampen, net als indampen, en alcohol scheidt van water omdat hun kookpunten verschillen. Zeven en filtreren gaan over deeltjesgrootte."
         },
         {
           "type": "invultekst",
@@ -3277,12 +3301,14 @@
             "het filtraat is wat door de filter loopt",
             "het residu blijft op de filter liggen",
             "allebei kunnen ze het bestanddeel zijn dat je nodig hebt",
-            "het residu is altijd afval"
+            "het residu is altijd afval",
+            "het filtraat is meestal een vloeistof"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Wat je nodig hebt, hangt van je doel af. Bij koffiezetten gooi je het residu weg, bij goudwinning is net het residu de buit."
         },
@@ -3347,15 +3373,14 @@
           "opties": [
             "zuurstofgas",
             "waterstofgas",
-            "ozon",
+            "water",
             "koolstofdioxide"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Zuurstofgas, waterstofgas en ozon bestaan elk uit één atoomsoort. In koolstofdioxide zitten twee soorten atomen, dus die is samengesteld."
+          "uitleg": "Zuurstofgas en waterstofgas bestaan elk uit één atoomsoort, en ozon ook. In koolstofdioxide en in water zitten twee soorten atomen, dus die zijn samengesteld."
         },
         {
           "type": "waarofniet",
@@ -3418,12 +3443,14 @@
             "ze geleiden elektriciteit goed",
             "ze geleiden warmte goed",
             "ze zijn vervormbaar",
-            "ze zijn bij kamertemperatuur altijd een gas"
+            "ze zijn bij kamertemperatuur altijd een gas",
+            "ze glanzen als je ze poetst"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Metalen geleiden, glanzen en laten zich pletten of trekken. Op kwik na zijn ze bij kamertemperatuur allemaal vast."
         },
@@ -3499,15 +3526,14 @@
           "opties": [
             "ze geleiden elektriciteit slecht",
             "veel ervan zijn bij kamertemperatuur een gas",
-            "ze zijn meestal broos als ze vast zijn",
+            "ze geleiden warmte even goed als metaal",
             "ze zijn allemaal glanzend en goed vervormbaar"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Niet-metalen geleiden slecht, zijn vaak gasvormig en breken makkelijk als ze vast zijn. Glans en vervormbaarheid horen juist bij metalen."
+          "uitleg": "Niet-metalen geleiden elektriciteit en warmte slecht en zijn vaak gasvormig; als ze vast zijn, breken ze makkelijk. Glans en vervormbaarheid horen juist bij metalen."
         },
         {
           "type": "invultekst",
@@ -3625,12 +3651,14 @@
             "warmte",
             "licht",
             "elektrische energie",
-            "massa"
+            "massa",
+            "geluid"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een vuur geeft warmte en licht, een batterij geeft elektrische energie. Massa is geen energievorm, en ze blijft bovendien behouden."
         },
@@ -3705,16 +3733,15 @@
           "vraag": "In de reactie 2 Mg + O₂ geeft 2 MgO: welke uitspraken kloppen? Kruis alles aan wat juist is.",
           "opties": [
             "links en rechts staan twee magnesiumatomen",
-            "links en rechts staan twee zuurstofatomen",
+            "er verdwijnt massa tijdens de reactie",
             "magnesium en zuurstofgas zijn de reagentia",
             "er ontstaan twee verschillende reactieproducten"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "De vergelijking klopt: \\(2\\) Mg en \\(2\\) O aan elke kant. Er ontstaat maar één product, namelijk magnesiumoxide."
+          "uitleg": "De vergelijking klopt: \\(2\\) Mg en \\(2\\) O aan elke kant. Er ontstaat maar één product, namelijk magnesiumoxide, en massa gaat niet verloren."
         },
         {
           "type": "waarofniet",
@@ -3765,15 +3792,14 @@
           "opties": [
             "een proton is positief geladen",
             "een elektron is negatief geladen",
-            "een neutron is niet geladen",
+            "een proton is negatief geladen",
             "een neutron is positief geladen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het proton is positief, het elektron negatief en het neutron neutraal. In een atoom zijn er evenveel protonen als elektronen, dus is het geheel neutraal."
+          "uitleg": "Het proton is positief, het elektron negatief en het neutron neutraal: dus niet positief en niet negatief. In een atoom zijn er evenveel protonen als elektronen, dus is het geheel neutraal."
         },
         {
           "type": "waarofniet",
@@ -3872,12 +3898,14 @@
             "de kern bevat \\(17\\) protonen",
             "een neutraal atoom heeft \\(17\\) elektronen",
             "het element staat op de zeventiende plaats in het PSE",
-            "de kern bevat \\(17\\) neutronen"
+            "de kern bevat \\(17\\) neutronen",
+            "het gaat om chloor"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het atoomnummer geeft de protonen, en in een neutraal atoom evenveel elektronen, en de plaats in het systeem. Het aantal neutronen lees je er niet uit af."
         },
@@ -4038,15 +4066,14 @@
           "opties": [
             "links in het systeem staan de metalen",
             "rechtsboven staan de niet-metalen",
-            "helemaal rechts staat de groep van de edelgassen",
+            "helemaal links staat de groep van de edelgassen",
             "het metaalkarakter neemt naar rechts toe"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Metalen staan links en in het midden, niet-metalen rechtsboven, en de laatste kolom zijn de edelgassen. Naar rechts neemt het metaalkarakter juist af."
+          "uitleg": "Metalen staan links en in het midden en niet-metalen rechtsboven. De edelgassen vormen de laatste kolom rechts, niet de eerste links, en naar rechts neemt het metaalkarakter juist af."
         },
         {
           "type": "invultekst",
@@ -4109,12 +4136,14 @@
             "helium",
             "neon",
             "argon",
-            "waterstof"
+            "waterstof",
+            "krypton"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Helium, neon en argon staan in de laatste kolom en hebben een volle buitenste schil. Waterstof staat helemaal links en is geen edelgas."
         },
@@ -4197,15 +4226,14 @@
           "opties": [
             "ze neemt in een periode toe naar rechts",
             "niet-metalen hebben een hoge elektronegativiteit",
-            "metalen hebben een lage elektronegativiteit",
+            "metalen hebben de hoogste elektronegativiteit van allemaal",
             "de edelgassen hebben de laagste elektronegativiteit van allemaal"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Naar rechts in een periode wordt een atoom gretiger naar elektronen. Metalen links zijn dat juist niet; de edelgassen vallen buiten die vergelijking omdat ze geen bindingen aangaan."
+          "uitleg": "Naar rechts in een periode wordt een atoom gretiger naar elektronen: niet-metalen hoog, metalen laag. De edelgassen vallen buiten die vergelijking omdat ze geen bindingen aangaan."
         },
         {
           "type": "invultekst",
@@ -4262,12 +4290,14 @@
             "in een enkelvoudige stof is het altijd nul",
             "de som van de oxidatiegetallen in een neutrale stof is nul",
             "waterstof heeft meestal het oxidatiegetal plus een",
-            "het oxidatiegetal is altijd gelijk aan de lading van het atoom"
+            "het oxidatiegetal is altijd gelijk aan de lading van het atoom",
+            "zuurstof heeft meestal het oxidatiegetal min twee"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het oxidatiegetal is een hulpmiddel om te boekhouden, geen echte lading. In een enkelvoudige stof is het nul en in een neutrale stof tellen ze samen tot nul op."
         },
@@ -4404,15 +4434,14 @@
           "opties": [
             "het geleidt elektriciteit, ook in vaste toestand",
             "het is plooibaar in plaats van breekbaar",
-            "het heeft glans",
+            "het is doorschijnend als glas",
             "het geleidt alleen elektriciteit als je het in water oplost"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De vrije elektronen zorgen voor de geleiding en voor de glans, en de lagen ionen kunnen over elkaar schuiven zonder te breken. Metalen lossen niet op in water."
+          "uitleg": "De vrije elektronen zorgen voor de geleiding en voor de glans, en de lagen ionen kunnen over elkaar schuiven zonder te breken. Metaal is niet doorschijnend en lost niet op in water."
         },
         {
           "type": "invultekst",
@@ -4493,14 +4522,16 @@
             "zuurstof",
             "water",
             "koolstofdioxide",
-            "keukenzout"
+            "keukenzout",
+            "ammoniak"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Die drie hebben een molecuulrooster met zwakke krachten tussen de moleculen. Keukenzout heeft een ionrooster en is daarom vast."
+          "uitleg": "Die stoffen hebben een molecuulrooster met zwakke krachten tussen de moleculen. Keukenzout heeft een ionrooster en is daarom vast."
         },
         {
           "type": "meerkeuze",
@@ -4611,15 +4642,14 @@
           "opties": [
             "waterstofchloride",
             "waterstofsulfide",
-            "waterstoffluoride",
+            "zwavelzuur",
             "salpeterzuur"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een binair zuur bestaat uit waterstof en één ander element. Salpeterzuur bevat ook zuurstof en is dus ternair."
+          "uitleg": "Een binair zuur bestaat uit waterstof en één ander element, zoals waterstofchloride en waterstofsulfide. Salpeterzuur en zwavelzuur bevatten ook zuurstof en zijn dus ternair."
         },
         {
           "type": "invultekst",
@@ -4664,12 +4694,14 @@
             "ze zet het oxidatiegetal van het metaal tussen haakjes",
             "ze gebruikt een Romeins cijfer voor dat getal",
             "ze wordt gebruikt bij ionverbindingen",
-            "ze gebruikt Griekse telwoorden zoals di en tri"
+            "ze gebruikt Griekse telwoorden zoals di en tri",
+            "ze onderscheidt ijzer(II) van ijzer(III)"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "IJzer(III)chloride is stocknotatie. De Griekse telwoorden horen bij atoomverbindingen, zoals koolstofdioxide."
         },
@@ -4819,12 +4851,14 @@
             "propaan",
             "hexaan",
             "octaan",
-            "ammoniak"
+            "ammoniak",
+            "butaan"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De naam van een alkaan eindigt op aan en begint met een telwoord. Ammoniak bevat stikstof en is geen koolwaterstof."
         },
@@ -4906,15 +4940,14 @@
           "opties": [
             "propaan",
             "butaan",
-            "een mengsel van die twee",
+            "zuurstofgas onder druk",
             "waterstofchloride"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Propaan en butaan zijn vloeibaar onder druk en verbranden schoon. Waterstofchloride is een zuur gas en heeft niets met brandstof te maken."
+          "uitleg": "Propaan en butaan, apart of gemengd, zijn vloeibaar onder druk en verbranden schoon. Waterstofchloride is een zuur gas en zuurstof is geen brandstof."
         },
         {
           "type": "meerkeuze",
@@ -5444,12 +5477,14 @@
             "grootte",
             "richting",
             "zin",
-            "temperatuur"
+            "temperatuur",
+            "aangrijpingspunt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De vier kenmerken zijn grootte, richting, zin en aangrijpingspunt. De temperatuur heeft met een vector niets te maken."
         },
@@ -5780,15 +5815,14 @@
           "opties": [
             "de verplaatsing",
             "de snelheid",
-            "de versnelling",
+            "de afgelegde weg",
             "het tijdsverloop"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Die drie hebben een grootte én een richting en zin. Het tijdsverloop is gewoon een getal met een eenheid."
+          "uitleg": "De verplaatsing en de snelheid hebben een grootte én een richting en zin, en de versnelling ook. Het tijdsverloop en de afgelegde weg zijn gewoon een getal met een eenheid."
         },
         {
           "type": "meerkeuze",
@@ -5934,14 +5968,16 @@
             "versnellen",
             "vertragen",
             "van richting veranderen",
-            "van massa veranderen"
+            "van massa veranderen",
+            "van vorm veranderen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Die drie zijn samen wat we een verandering van bewegingstoestand noemen. De massa van een voorwerp verandert niet door een kracht."
+          "uitleg": "Versnellen, vertragen en van richting veranderen noemen we samen een verandering van bewegingstoestand, en vervormen kan ook. De massa van een voorwerp verandert niet door een kracht."
         },
         {
           "type": "waarofniet",

@@ -108,9 +108,10 @@ DEEL1 = [
             "vertragen",
             "van richting veranderen",
             "van massa veranderen",
+            "van vorm veranderen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Die drie zijn samen wat we een verandering van bewegingstoestand noemen. De massa van een voorwerp verandert niet door een kracht.",
+        antwoord=[0, 1, 2, 4],
+        uitleg="Versnellen, vertragen en van richting veranderen noemen we samen een verandering van bewegingstoestand, en vervormen kan ook. De massa van een voorwerp verandert niet door een kracht.",
     ),
     dict(
         type="waarofniet",

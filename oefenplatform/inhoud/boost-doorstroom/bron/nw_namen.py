@@ -40,11 +40,11 @@ DEEL1 = [
         opties=[
             "waterstofchloride",
             "waterstofsulfide",
-            "waterstoffluoride",
+            "zwavelzuur",
             "salpeterzuur",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een binair zuur bestaat uit waterstof en één ander element. Salpeterzuur bevat ook zuurstof en is dus ternair.",
+        antwoord=[0, 1],
+        uitleg="Een binair zuur bestaat uit waterstof en één ander element, zoals waterstofchloride en waterstofsulfide. Salpeterzuur en zwavelzuur bevatten ook zuurstof en zijn dus ternair.",
     ),
     dict(
         type="invultekst",
@@ -80,8 +80,9 @@ DEEL1 = [
             "ze gebruikt een Romeins cijfer voor dat getal",
             "ze wordt gebruikt bij ionverbindingen",
             "ze gebruikt Griekse telwoorden zoals di en tri",
+            "ze onderscheidt ijzer(II) van ijzer(III)",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="IJzer(III)chloride is stocknotatie. De Griekse telwoorden horen bij atoomverbindingen, zoals koolstofdioxide.",
     ),
     dict(
@@ -207,8 +208,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke stoffen zijn alkanen? Kruis alles aan wat juist is.",
-        opties=["propaan", "hexaan", "octaan", "ammoniak"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "propaan",
+            "hexaan",
+            "octaan",
+            "ammoniak",
+            "butaan",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="De naam van een alkaan eindigt op aan en begint met een telwoord. Ammoniak bevat stikstof en is geen koolwaterstof.",
     ),
     dict(
@@ -286,9 +293,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke stoffen zitten gewoonlijk in een gasfles voor de barbecue? Kruis alles aan wat juist is.",
-        opties=["propaan", "butaan", "een mengsel van die twee", "waterstofchloride"],
-        antwoord=[0, 1, 2],
-        uitleg="Propaan en butaan zijn vloeibaar onder druk en verbranden schoon. Waterstofchloride is een zuur gas en heeft niets met brandstof te maken.",
+        opties=[
+            "propaan",
+            "butaan",
+            "zuurstofgas onder druk",
+            "waterstofchloride",
+        ],
+        antwoord=[0, 1],
+        uitleg="Propaan en butaan, apart of gemengd, zijn vloeibaar onder druk en verbranden schoon. Waterstofchloride is een zuur gas en zuurstof is geen brandstof.",
     ),
     dict(
         type="meerkeuze",

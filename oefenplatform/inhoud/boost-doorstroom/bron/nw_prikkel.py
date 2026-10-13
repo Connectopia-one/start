@@ -28,8 +28,9 @@ DEEL1 = [
             "het licht van een felle lamp",
             "de kou van een ijskoude wind",
             "het hongergevoel na een lange les",
+            "de geur van brandend hout",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Geluid, licht en kou komen van buiten het lichaam. Honger komt van binnenuit en is dus een inwendige prikkel.",
     ),
     dict(
@@ -61,12 +62,12 @@ DEEL1 = [
         vraag="Welke receptoren horen bij welk zintuig? Kruis alles aan wat juist is.",
         opties=[
             "staafjes en kegeltjes horen bij het zicht",
-            "haarcellen horen bij het gehoor",
+            "haarcellen horen bij het zicht",
             "zintuigcellen op de tong horen bij de smaakzin",
             "sluitcellen horen bij de tastzin van de huid",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Staafjes en kegeltjes, haarcellen en de zintuigcellen van de tong zijn receptoren van mens en dier. Sluitcellen zijn plantencellen rond een huidmondje.",
+        antwoord=[0, 2],
+        uitleg="Staafjes en kegeltjes horen bij het zicht en de zintuigcellen op de tong bij de smaakzin. Haarcellen horen bij het gehoor, niet bij het zicht, en sluitcellen zijn plantencellen rond een huidmondje.",
     ),
     dict(
         type="waarofniet",
@@ -125,8 +126,9 @@ DEEL1 = [
             "ze spelen mee bij de vorming van bijwortels en zijscheuten",
             "ze regelen het rijpen van vruchten",
             "ze geleiden elektrische impulsen door de plant",
+            "ze laten de huidmondjes sluiten bij droogte",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Celstrekking, wortelgroei en vruchtrijping lopen bij een plant via hormonen. Elektrische impulsen over zenuwbanen bestaan bij planten niet.",
     ),
     dict(
@@ -202,9 +204,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke delen horen bij het vaatvlies? Kruis alles aan wat juist is.",
-        opties=["het straallichaam", "de iris met haar spieren", "de lensbanden", "de oogzenuw"],
-        antwoord=[0, 1, 2],
-        uitleg="Straallichaam, iris en lensbanden horen bij het vaatvlies. De oogzenuw vertrekt vanuit het netvlies.",
+        opties=[
+            "het straallichaam",
+            "de iris met haar spieren",
+            "het hoornvlies vooraan het oog",
+            "de oogzenuw",
+        ],
+        antwoord=[0, 1],
+        uitleg="Het straallichaam en de iris horen bij het vaatvlies. Het hoornvlies hoort bij de buitenste laag en de oogzenuw vertrekt vanuit het netvlies.",
     ),
     dict(
         type="meerkeuze",
@@ -268,8 +275,9 @@ DEEL2 = [
             "kegeltjes zorgen voor het zien van kleur",
             "beide liggen in het netvlies",
             "beide liggen op de blinde vlek",
+            "kegeltjes hebben meer licht nodig dan staafjes",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Staafjes zien grijswaarden bij weinig licht, kegeltjes zien kleur bij veel licht, en beide liggen in het netvlies. Op de blinde vlek liggen er juist geen lichtreceptoren.",
     ),
     dict(
@@ -350,11 +358,11 @@ DEEL2 = [
         opties=[
             "de pupil wordt groter",
             "de staafjes nemen het werk over van de kegeltjes",
-            "je ziet eerst bijna geen kleuren meer",
+            "je ziet de kleuren juist feller dan buiten",
             "de ooglens wordt meteen een stuk boller",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Bij weinig licht gaat de pupil open en nemen de staafjes over. Die zien geen kleur, dus de wereld wordt grijzig. De lens verandert alleen bij het scherpstellen op afstand.",
+        antwoord=[0, 1],
+        uitleg="Bij weinig licht gaat de pupil open en nemen de staafjes over. Die zien geen kleur, dus de kleuren worden juist zwakker en grijzer. De lens verandert alleen bij het scherpstellen op afstand.",
     ),
     dict(
         type="invultekst",

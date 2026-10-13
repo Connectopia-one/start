@@ -27,11 +27,11 @@ DEEL1 = [
         opties=[
             "de spier die je arm buigt",
             "de spier die je been strekt",
-            "de kauwspier in je kaak",
+            "de spierwand van je maag",
             "de spierwand van je darm",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De dwarsgestreepte skeletspieren stuur je zelf aan. De gladde spieren van de darm werken onwillekeurig, zonder dat je erbij nadenkt.",
+        antwoord=[0, 1],
+        uitleg="De dwarsgestreepte skeletspieren van arm en been stuur je zelf aan, en de kauwspier ook. De gladde spieren van darm en maag werken onwillekeurig.",
     ),
     dict(
         type="waarofniet",
@@ -85,8 +85,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke delen horen bij de microscopische bouw van een dwarsgestreepte spier? Kruis alles aan wat juist is.",
-        opties=["de Z-plaat", "het actinefilament", "het myosinefilament", "de motorische eindplaat"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "de Z-plaat",
+            "het actinefilament",
+            "het myosinefilament",
+            "de motorische eindplaat",
+            "de sarcomeer tussen twee Z-platen",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Z-platen, actine en myosine liggen in de spierfibril zelf. De motorische eindplaat is de plek waar het zenuwuiteinde op de vezel aankomt.",
     ),
     dict(
@@ -161,11 +167,11 @@ DEEL1 = [
         opties=[
             "het ligt in de wand van organen en bloedvaten",
             "het werkt onwillekeurig",
-            "het trekt trager samen dan een skeletspier",
+            "het trekt sneller samen dan een skeletspier",
             "het vertoont onder de microscoop een duidelijke dwarse streping",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Glad spierweefsel ligt in darm, maag en bloedvatwand, werkt buiten je wil om en trekt traag maar lang samen. De dwarse streping is net wat het níét heeft.",
+        antwoord=[0, 1],
+        uitleg="Glad spierweefsel ligt in darm, maag en bloedvatwand en werkt buiten je wil om. Het trekt traag maar lang samen, niet sneller dan een skeletspier, en de dwarse streping is net wat het níét heeft.",
     ),
     dict(
         type="waarofniet",
@@ -209,8 +215,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke klieren zijn exocrien? Kruis alles aan wat juist is.",
-        opties=["de traanklier", "de zweetklier", "de talgklier", "de schildklier"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "de traanklier",
+            "de zweetklier",
+            "de talgklier",
+            "de schildklier",
+            "de speekselklier",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Traanklier, zweetklier en talgklier hebben een afvoerbuis naar het oppervlak. De schildklier geeft haar hormoon rechtstreeks aan het bloed en is dus endocrien.",
     ),
     dict(
@@ -263,11 +275,11 @@ DEEL2 = [
         opties=[
             "de bètacellen geven insuline af",
             "de lever slaat glucose op als glycogeen",
-            "de lichaamscellen nemen meer glucose op",
+            "de lever breekt glycogeen af tot glucose",
             "de alfacellen geven extra glucagon af",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Insuline laat de cellen glucose opnemen en de lever glycogeen aanleggen, zodat het gehalte weer daalt. Glucagon komt pas als het gehalte juist te laag wordt.",
+        antwoord=[0, 1],
+        uitleg="Insuline uit de bètacellen laat de lever glycogeen aanleggen en de cellen glucose opnemen, zodat het gehalte weer daalt. Glycogeen afbreken en glucagon afgeven gebeurt pas als het gehalte te laag wordt.",
     ),
     dict(
         type="invultekst",
@@ -301,8 +313,9 @@ DEEL2 = [
             "er komt extra glucose vrij in het bloed",
             "het lichaam wordt klaargezet voor inspanning",
             "de spijsvertering wordt juist versneld",
+            "de ademhaling versnelt",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Adrenaline uit de bijnier maakt het lichaam klaar om te vechten of te vluchten: sneller hart, meer brandstof. De spijsvertering gaat op dat moment juist op een laag pitje.",
     ),
     dict(

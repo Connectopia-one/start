@@ -64,8 +64,9 @@ VERVANGINGEN.update(
                 "een slijmlaag aan de buitenkant",
                 "een plasmide naast het grote DNA",
                 "een echte kern met een kernmembraan",
+                "een zweephaar om zich voort te bewegen",
             ],
-            antwoord=[0, 1, 2],
+            antwoord=[0, 1, 2, 4],
             uitleg="Een bacterie heeft DNA, een celmembraan en een celwand, en daarbij vaak een slijmlaag, een plasmide, pili of een zweephaar. Een echte kern met kernmembraan heeft ze niet.",
         ),
         "Een prokaryote cel heeft geen kernmembraan.": dict(
@@ -293,11 +294,11 @@ VERVANGINGEN.update(
             opties=[
                 "ze zet elektrische energie om in licht en in warmte",
                 "het grootste deel van de energie komt vrij als warmte",
-                "haar rendement voor licht is laag",
+                "ze geeft meer licht dan een ledlamp van hetzelfde vermogen",
                 "ze zet alle energie die ze opneemt om in licht",
             ],
-            antwoord=[0, 1, 2],
-            uitleg="Bij een gloeilamp is het licht de nuttige energie en de warmte de ongewenste. Een ledlamp geeft bij hetzelfde licht veel minder warmte en heeft dus een beter rendement.",
+            antwoord=[0, 1],
+            uitleg="Bij een gloeilamp is het licht de nuttige energie en de warmte de ongewenste, dus is haar rendement voor licht laag. Een ledlamp geeft bij hetzelfde vermogen veel meer licht en veel minder warmte.",
         ),
         "Hoe bereken je de elastische potentiële energie van een uitgerekte veer?": dict(
             type="meerkeuze",
@@ -327,8 +328,9 @@ VERVANGINGEN.update(
                 "een thermometer die in een bad niet meer verandert",
                 "twee blokken metaal tegen elkaar met dezelfde temperatuur",
                 "een ijsblokje dat je net in een glas water hebt gelegd",
+                "een kamer waarin de radiator al uren uit staat",
             ],
-            antwoord=[0, 1, 2],
+            antwoord=[0, 1, 2, 4],
             uitleg="In thermisch evenwicht hebben twee systemen dezelfde temperatuur en gaat er geen warmte meer van het ene naar het andere. Het ijsblokje is daar nog lang niet.",
         ),
         "Hoe noem je het warmtetransport dat ook door het luchtledige gaat?": dict(
@@ -621,11 +623,11 @@ VERVANGINGEN.update(
             opties=[
                 "de stuwkracht van de motoren",
                 "de zwaartekracht naar beneden",
-                "de wrijvingskracht van de lucht",
+                "de spankracht van een kabel",
                 "de normaalkracht van de landingsbaan",
             ],
-            antwoord=[0, 1, 2],
-            uitleg="Een normaalkracht bestaat alleen zolang het vliegtuig op een oppervlak rust. In de lucht blijven de stuwkracht, de zwaartekracht, de luchtwrijving en de draagkracht van de vleugels over.",
+            antwoord=[0, 1],
+            uitleg="Een normaalkracht bestaat alleen zolang het vliegtuig op een oppervlak rust, en een spankracht alleen als er een kabel aan hangt. In de lucht blijven de stuwkracht, de zwaartekracht, de luchtwrijving en de draagkracht van de vleugels over.",
         ),
         r"Een veer rekt \(4\) centimeter uit bij een kracht van \(20\) newton. Wat is de veerconstante?": dict(
             type="meerkeuze",
@@ -928,11 +930,11 @@ VERVANGINGEN.update(
             opties=[
                 "temperatuur meet je in graden Celsius",
                 "warmte is energie en meet je in joule",
-                "warmte gaat altijd van warm naar koud",
+                "warmte gaat altijd van koud naar warm",
                 "warmte en temperatuur zijn twee woorden voor hetzelfde",
             ],
-            antwoord=[0, 1, 2],
-            uitleg="Temperatuur zegt hoe snel de deeltjes bewegen, warmte is de energie die van het ene systeem naar het andere gaat. Je kan warmte dus niet in graden uitdrukken.",
+            antwoord=[0, 1],
+            uitleg="Temperatuur zegt hoe snel de deeltjes bewegen en meet je in graden. Warmte is energie, meet je in joule en gaat van warm naar koud, niet omgekeerd.",
         ),
         "Welke faseovergangen zijn het? Kruis alles aan wat juist is.": dict(
             type="meerkeuze",
@@ -942,8 +944,9 @@ VERVANGINGEN.update(
                 "condenseren",
                 "desublimeren",
                 "krimpen",
+                "smelten",
             ],
-            antwoord=[0, 1, 2],
+            antwoord=[0, 1, 2, 4],
             uitleg="Sublimeren is van vast rechtstreeks naar gas, desublimeren het omgekeerde. Krimpen is geen faseovergang: de stof blijft dan in dezelfde fase.",
         ),
         "Waarom kan je je lelijk verbranden aan stoom van honderd graden, erger dan aan water van honderd graden?": dict(
@@ -978,8 +981,9 @@ VERVANGINGEN.update(
                 "gewicht is een kracht en meet je in newton",
                 "je massa blijft op de maan dezelfde",
                 "je gewicht blijft op de maan hetzelfde",
+                "massa meet je in kilogram",
             ],
-            antwoord=[0, 1, 2],
+            antwoord=[0, 1, 2, 4],
             uitleg="Je massa is overal gelijk, ook op de maan. Je gewicht is daar ongeveer zes keer kleiner, want de maan trekt veel minder hard aan je dan de aarde.",
         ),
         "Je meet de zwaartekracht op verschillende massa's en zet ze in een grafiek. Wat zie je?": dict(

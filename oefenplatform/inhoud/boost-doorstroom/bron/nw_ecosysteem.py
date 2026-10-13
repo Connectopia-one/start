@@ -24,9 +24,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke vormen van aangeleerd gedrag zijn het? Kruis alles aan wat juist is.",
-        opties=["conditioneren", "trial-and-error", "imitatie", "baltsgedrag"],
-        antwoord=[0, 1, 2],
-        uitleg="Conditioneren, met vallen en opstaan leren en nabootsen zijn manieren waarop een dier iets leert. Baltsgedrag hoort bij het aangeboren gedrag rond de voortplanting.",
+        opties=[
+            "conditioneren",
+            "trial-and-error",
+            "het bouwen van een nest volgens een vast patroon",
+            "baltsgedrag",
+        ],
+        antwoord=[0, 1],
+        uitleg="Conditioneren en leren met vallen en opstaan zijn manieren waarop een dier iets leert, en nabootsen ook. Baltsgedrag en het vaste nestpatroon horen bij het aangeboren gedrag.",
     ),
     dict(
         type="waarofniet",
@@ -80,8 +85,9 @@ DEEL1 = [
             "de dans van een honingbij",
             "het opzetten van de haren bij een kat",
             "het blaffen van een hond bij de deur",
+            "het tonen van de tanden bij een wolf",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Alles wat je moet zien om het te begrijpen, is visueel. Blaffen hoor je, dus dat is auditieve communicatie.",
     ),
     dict(
@@ -151,11 +157,11 @@ DEEL1 = [
         opties=[
             "twee soorten leven nauw met elkaar samen",
             "mutualisme is er een vorm van",
-            "ze kan voor één of voor beide partners voordelig zijn",
+            "ze is voor beide partners altijd even voordelig",
             "ze bestaat alleen tussen dieren onderling",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Symbiose is het nauwe samenleven van twee soorten. Ook planten, schimmels en bacteriën doen eraan mee; denk aan korstmossen of aan mycorrhiza.",
+        antwoord=[0, 1],
+        uitleg="Symbiose is het nauwe samenleven van twee soorten en mutualisme is er een vorm van. Het voordeel is niet altijd gelijk verdeeld, en ook planten, schimmels en bacteriën doen eraan mee.",
     ),
     dict(
         type="waarofniet",
@@ -199,8 +205,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke factoren zijn abiotisch? Kruis alles aan wat juist is.",
-        opties=["de temperatuur", "de hoeveelheid licht", "de zuurtegraad van de bodem", "de begrazing door schapen"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "de temperatuur",
+            "de hoeveelheid licht",
+            "de zuurtegraad van de bodem",
+            "de begrazing door schapen",
+            "de hoeveelheid neerslag",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Abiotisch betekent niet-levend: temperatuur, licht, water, bodem. Begrazing komt van levende wezens en is dus biotisch.",
     ),
     dict(
@@ -250,12 +262,12 @@ DEEL2 = [
         vraag="Welke processen horen samen in de koolstofkringloop? Kruis alles aan wat juist is.",
         opties=[
             "de fotosynthese van planten",
-            "de celademhaling van planten en dieren",
+            "de verdamping van water uit een blad",
             "het afbreken van dood materiaal door reducenten",
             "het verdampen van water uit de oceaan",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Fotosynthese legt koolstof vast, celademhaling en afbraak geven hem weer vrij als koolstofdioxide. Verdamping hoort bij de waterkringloop.",
+        antwoord=[0, 2],
+        uitleg="Fotosynthese legt koolstof vast en de afbraak door reducenten geeft hem weer vrij als koolstofdioxide, net als de celademhaling. Verdamping uit een blad en uit de oceaan hoort bij de waterkringloop.",
     ),
     dict(
         type="meerkeuze",
@@ -313,8 +325,9 @@ DEEL2 = [
             "er dringt minder licht door tot in de diepte",
             "het zuurstofgehalte daalt wanneer de algen afsterven",
             "de biodiversiteit in het meer neemt toe",
+            "het water wordt troebel",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Dat is eutrofiëring. De algenbloei maakt het water troebel, en de afbraak van de dode algen slorpt de zuurstof op. Soorten verdwijnen in plaats van erbij te komen.",
     ),
     dict(

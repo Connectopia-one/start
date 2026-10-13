@@ -25,9 +25,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke stoffen zijn enkelvoudig? Kruis alles aan wat juist is.",
-        opties=["zuurstofgas", "waterstofgas", "ozon", "koolstofdioxide"],
-        antwoord=[0, 1, 2],
-        uitleg="Zuurstofgas, waterstofgas en ozon bestaan elk uit één atoomsoort. In koolstofdioxide zitten twee soorten atomen, dus die is samengesteld.",
+        opties=[
+            "zuurstofgas",
+            "waterstofgas",
+            "water",
+            "koolstofdioxide",
+        ],
+        antwoord=[0, 1],
+        uitleg="Zuurstofgas en waterstofgas bestaan elk uit één atoomsoort, en ozon ook. In koolstofdioxide en in water zitten twee soorten atomen, dus die zijn samengesteld.",
     ),
     dict(
         type="waarofniet",
@@ -81,8 +86,9 @@ DEEL1 = [
             "ze geleiden warmte goed",
             "ze zijn vervormbaar",
             "ze zijn bij kamertemperatuur altijd een gas",
+            "ze glanzen als je ze poetst",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Metalen geleiden, glanzen en laten zich pletten of trekken. Op kwik na zijn ze bij kamertemperatuur allemaal vast.",
     ),
     dict(
@@ -147,11 +153,11 @@ DEEL1 = [
         opties=[
             "ze geleiden elektriciteit slecht",
             "veel ervan zijn bij kamertemperatuur een gas",
-            "ze zijn meestal broos als ze vast zijn",
+            "ze geleiden warmte even goed als metaal",
             "ze zijn allemaal glanzend en goed vervormbaar",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Niet-metalen geleiden slecht, zijn vaak gasvormig en breken makkelijk als ze vast zijn. Glans en vervormbaarheid horen juist bij metalen.",
+        antwoord=[0, 1],
+        uitleg="Niet-metalen geleiden elektriciteit en warmte slecht en zijn vaak gasvormig; als ze vast zijn, breken ze makkelijk. Glans en vervormbaarheid horen juist bij metalen.",
     ),
     dict(
         type="invultekst",
@@ -256,8 +262,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke vormen van energie kunnen bij een chemische reactie vrijkomen? Kruis alles aan wat juist is.",
-        opties=["warmte", "licht", "elektrische energie", "massa"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "warmte",
+            "licht",
+            "elektrische energie",
+            "massa",
+            "geluid",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een vuur geeft warmte en licht, een batterij geeft elektrische energie. Massa is geen energievorm, en ze blijft bovendien behouden.",
     ),
     dict(
@@ -326,12 +338,12 @@ DEEL2 = [
         vraag=r"In de reactie 2 Mg + O₂ geeft 2 MgO: welke uitspraken kloppen? Kruis alles aan wat juist is.",
         opties=[
             "links en rechts staan twee magnesiumatomen",
-            "links en rechts staan twee zuurstofatomen",
+            "er verdwijnt massa tijdens de reactie",
             "magnesium en zuurstofgas zijn de reagentia",
             "er ontstaan twee verschillende reactieproducten",
         ],
-        antwoord=[0, 1, 2],
-        uitleg=r"De vergelijking klopt: \(2\) Mg en \(2\) O aan elke kant. Er ontstaat maar één product, namelijk magnesiumoxide.",
+        antwoord=[0, 2],
+        uitleg=r"De vergelijking klopt: \(2\) Mg en \(2\) O aan elke kant. Er ontstaat maar één product, namelijk magnesiumoxide, en massa gaat niet verloren.",
     ),
     dict(
         type="waarofniet",

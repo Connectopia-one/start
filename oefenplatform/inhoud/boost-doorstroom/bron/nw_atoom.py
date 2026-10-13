@@ -31,11 +31,11 @@ DEEL1 = [
         opties=[
             "een proton is positief geladen",
             "een elektron is negatief geladen",
-            "een neutron is niet geladen",
+            "een proton is negatief geladen",
             "een neutron is positief geladen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Het proton is positief, het elektron negatief en het neutron neutraal. In een atoom zijn er evenveel protonen als elektronen, dus is het geheel neutraal.",
+        antwoord=[0, 1],
+        uitleg="Het proton is positief, het elektron negatief en het neutron neutraal: dus niet positief en niet negatief. In een atoom zijn er evenveel protonen als elektronen, dus is het geheel neutraal.",
     ),
     dict(
         type="waarofniet",
@@ -130,8 +130,9 @@ DEEL1 = [
             r"een neutraal atoom heeft \(17\) elektronen",
             "het element staat op de zeventiende plaats in het PSE",
             r"de kern bevat \(17\) neutronen",
+            "het gaat om chloor",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Het atoomnummer geeft de protonen, en in een neutraal atoom evenveel elektronen, en de plaats in het systeem. Het aantal neutronen lees je er niet uit af.",
     ),
     dict(
@@ -282,11 +283,11 @@ DEEL2 = [
         opties=[
             "links in het systeem staan de metalen",
             "rechtsboven staan de niet-metalen",
-            "helemaal rechts staat de groep van de edelgassen",
+            "helemaal links staat de groep van de edelgassen",
             "het metaalkarakter neemt naar rechts toe",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Metalen staan links en in het midden, niet-metalen rechtsboven, en de laatste kolom zijn de edelgassen. Naar rechts neemt het metaalkarakter juist af.",
+        antwoord=[0, 1],
+        uitleg="Metalen staan links en in het midden en niet-metalen rechtsboven. De edelgassen vormen de laatste kolom rechts, niet de eerste links, en naar rechts neemt het metaalkarakter juist af.",
     ),
     dict(
         type="invultekst",
@@ -340,8 +341,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke elementen horen bij de edelgassen? Kruis alles aan wat juist is.",
-        opties=["helium", "neon", "argon", "waterstof"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "helium",
+            "neon",
+            "argon",
+            "waterstof",
+            "krypton",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Helium, neon en argon staan in de laatste kolom en hebben een volle buitenste schil. Waterstof staat helemaal links en is geen edelgas.",
     ),
     dict(

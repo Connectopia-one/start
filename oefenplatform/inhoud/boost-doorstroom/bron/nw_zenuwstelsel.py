@@ -26,8 +26,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke delen horen bij het perifere zenuwstelsel? Kruis alles aan wat juist is.",
-        opties=["de hersenzenuwen", "de ruggenmergzenuwen", "de grensstrengen", "het ruggenmerg"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "de hersenzenuwen",
+            "de ruggenmergzenuwen",
+            "de grensstrengen",
+            "het ruggenmerg",
+            "de zenuwuiteinden in de huid",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Alles buiten de hersenen en het ruggenmerg hoort bij het perifere stelsel: de hersenzenuwen, de ruggenmergzenuwen en de grensstrengen. Het ruggenmerg zelf is centraal.",
     ),
     dict(
@@ -57,8 +63,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke delen horen bij een neuron? Kruis alles aan wat juist is.",
-        opties=["de dendrieten", "het axon", "het cellichaam met de celkern", "de synaptische spleet"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "de dendrieten",
+            "het axon",
+            "het cellichaam met de celkern",
+            "de synaptische spleet",
+            "de eindknopjes van het axon",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Dendrieten, axon en cellichaam zijn delen van het neuron zelf. De synaptische spleet is de ruimte tússen twee neuronen.",
     ),
     dict(
@@ -125,13 +137,13 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Welke beweringen over het ruggenmerg zijn juist? Kruis alles aan wat juist is.",
         opties=[
-            "het ligt beschermd in het wervelkanaal",
+            "het ligt beschermd in de schedel",
             "het hoort bij het centrale zenuwstelsel",
             "het kan zelf een reflex afhandelen zonder de hersenen",
             "het maakt de hormonen aan die de spieren aansturen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Het ruggenmerg ligt in de wervelkolom, hoort bij het centrale stelsel en sluit bij een reflex de kortste weg. Hormonen maakt het niet; dat doen klieren.",
+        antwoord=[1, 2],
+        uitleg="Het ruggenmerg hoort bij het centrale stelsel en sluit bij een reflex de kortste weg. Het ligt in het wervelkanaal, niet in de schedel, en hormonen maakt het niet: dat doen klieren.",
     ),
     dict(
         type="waarofniet",
@@ -160,9 +172,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Een motorisch neuron brengt een bevel naar een effector. Welke effectoren kunnen dat zijn? Kruis alles aan wat juist is.",
-        opties=["een spier", "een klier", "het hartspierweefsel", "een receptor in de huid"],
-        antwoord=[0, 1, 2],
-        uitleg="Spieren en klieren zijn de effectoren, de hartspier ook. Een receptor staat juist aan het begin van de weg, niet aan het einde.",
+        opties=[
+            "een spier",
+            "een klier",
+            "een zintuigcel in het oog",
+            "een receptor in de huid",
+        ],
+        antwoord=[0, 1],
+        uitleg="Spieren en klieren zijn de effectoren. Een receptor in de huid en een zintuigcel in het oog staan juist aan het begin van de weg, niet aan het einde.",
     ),
     dict(
         type="waarofniet",
@@ -241,8 +258,9 @@ DEEL2 = [
             "de neurotransmitter past op membraanreceptoren aan de overkant",
             "het signaal gaat er maar in één richting over",
             "het signaal springt er als een vonk rechtstreeks over",
+            "de neurotransmitter wordt daarna weer opgeruimd",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="In de synaps wordt het elektrische signaal even chemisch. Alleen het eindknopje heeft blaasjes en alleen de overkant heeft receptoren, dus de richting ligt vast.",
     ),
     dict(
@@ -277,8 +295,9 @@ DEEL2 = [
             "de kniepeesreflex bij een tik onder de knieschijf",
             "het terugtrekken van je hand bij hitte",
             "het aanbinden van je veters",
+            "het knipperen van je oog als er iets op afkomt",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Pupilreflex, kniepeesreflex en terugtrekreflex gaan vanzelf en razendsnel. Je veters knopen is een aangeleerde, gewilde beweging.",
     ),
     dict(

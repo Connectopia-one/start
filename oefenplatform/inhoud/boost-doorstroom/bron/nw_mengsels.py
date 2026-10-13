@@ -23,9 +23,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke mengsels zijn homogeen? Kruis alles aan wat juist is.",
-        opties=["suiker in water", "lucht", "messing", "zand in water"],
-        antwoord=[0, 1, 2],
-        uitleg="In een homogeen mengsel zie je de bestanddelen niet meer apart. Een oplossing, lucht en een legering zijn homogeen; zand in water blijft zichtbaar gescheiden.",
+        opties=[
+            "suiker in water",
+            "lucht",
+            "slagroom",
+            "zand in water",
+        ],
+        antwoord=[0, 1],
+        uitleg="In een homogeen mengsel zie je de bestanddelen niet meer apart: een oplossing en lucht, en ook een legering zoals messing. Zand in water en slagroom blijven zichtbaar gescheiden.",
     ),
     dict(
         type="waarofniet",
@@ -120,8 +125,9 @@ DEEL1 = [
             "ze heeft een vast kookpunt",
             "ze bestaat uit één soort deeltjes",
             "ze bestaat altijd uit één soort atomen",
+            "ze kan uit meer dan één soort atomen bestaan",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een zuivere stof smelt en kookt bij één temperatuur. Ze kan wel samengesteld zijn: water is zuiver en bestaat toch uit waterstof en zuurstof.",
     ),
     dict(
@@ -157,9 +163,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke mengsels zijn heterogeen? Kruis alles aan wat juist is.",
-        opties=["slagroom", "vinaigrette", "rook", "zeewater"],
-        antwoord=[0, 1, 2],
-        uitleg="Schuim, emulsie en aerosol zijn heterogeen: je kan de delen nog onderscheiden. Zeewater is een oplossing en dus homogeen.",
+        opties=[
+            "slagroom",
+            "vinaigrette",
+            "suiker in water",
+            "zeewater",
+        ],
+        antwoord=[0, 1],
+        uitleg="Schuim en emulsie zijn heterogeen: je kan de delen nog onderscheiden, en rook ook. Zeewater en suiker in water zijn oplossingen en dus homogeen.",
     ),
     dict(
         type="waarofniet",
@@ -203,8 +214,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke eigenschappen zijn stofeigenschappen? Kruis alles aan wat juist is.",
-        opties=["het kookpunt", "de oplosbaarheid", "de geleidbaarheid", "de hoeveelheid die je in de pot hebt"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "het kookpunt",
+            "de oplosbaarheid",
+            "de geleidbaarheid",
+            "de hoeveelheid die je in de pot hebt",
+            "de dichtheid",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een stofeigenschap hangt niet af van hoeveel je ervan hebt. Kookpunt, oplosbaarheid en geleidbaarheid zijn stofeigenschappen; de hoeveelheid zelf is dat niet.",
     ),
     dict(
@@ -254,9 +271,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Bij welke technieken speelt het kookpunt een rol? Kruis alles aan wat juist is.",
-        opties=["destilleren", "indampen", "het scheiden van alcohol en water", "zeven"],
-        antwoord=[0, 1, 2],
-        uitleg="Destilleren en indampen steunen allebei op verdampen, en alcohol scheidt van water omdat hun kookpunten verschillen. Zeven gaat over deeltjesgrootte.",
+        opties=[
+            "destilleren",
+            "filtreren",
+            "het scheiden van alcohol en water",
+            "zeven",
+        ],
+        antwoord=[0, 2],
+        uitleg="Destilleren steunt op verdampen, net als indampen, en alcohol scheidt van water omdat hun kookpunten verschillen. Zeven en filtreren gaan over deeltjesgrootte.",
     ),
     dict(
         type="invultekst",
@@ -320,8 +342,9 @@ DEEL2 = [
             "het residu blijft op de filter liggen",
             "allebei kunnen ze het bestanddeel zijn dat je nodig hebt",
             "het residu is altijd afval",
+            "het filtraat is meestal een vloeistof",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Wat je nodig hebt, hangt van je doel af. Bij koffiezetten gooi je het residu weg, bij goudwinning is net het residu de buit.",
     ),
     dict(

@@ -82,12 +82,14 @@
             "de zweetklieren in de huid",
             "de spiertjes in de wand van een bloedvat",
             "de cellen van de alvleesklier die een hormoon afgeven",
-            "de warmtereceptoren vlak onder de huid"
+            "de warmtereceptoren vlak onder de huid",
+            "de hartspier, die sneller gaat kloppen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Spieren en klieren zijn de effectoren: zij voeren de reactie uit. Receptoren horen aan het begin van de weg en voeren zelf niets uit."
         },
@@ -97,15 +99,14 @@
           "opties": [
             "een zenuwsignaal gaat elektrisch via de zenuwbanen",
             "een hormoon gaat chemisch mee met het bloed",
-            "een zenuwsignaal werkt sneller dan een hormoon",
+            "een hormoon werkt sneller dan een zenuwsignaal",
             "een hormoon bereikt alleen de cellen die de zenuwen aanwijzen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een zenuwsignaal is snel en gaat naar een nauwkeurig doel. Een hormoon gaat met het bloed mee, werkt langzamer, maar bereikt alle cellen die er gevoelig voor zijn."
+          "uitleg": "Een zenuwsignaal is elektrisch, snel en gaat naar een nauwkeurig doel. Een hormoon gaat met het bloed mee en werkt juist langzamer, maar bereikt alle cellen die er gevoelig voor zijn."
         },
         {
           "type": "invultekst",
@@ -153,14 +154,16 @@
             "je gaat zweten wanneer je lichaamstemperatuur stijgt",
             "je alvleesklier geeft insuline af wanneer je glucosegehalte stijgt",
             "de huidmondjes van een plant gaan dicht bij te veel waterverlies",
-            "de weeën bij een bevalling worden steeds krachtiger"
+            "de weeën bij een bevalling worden steeds krachtiger",
+            "je gaat rillen wanneer je lichaamstemperatuur daalt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De juiste antwoorden duwen de waarde terug naar de normwaarde. De weeën versterken elkaar tot de bevalling voorbij is, en dat is positieve feedback."
+          "uitleg": "Negatieve feedback duwt de waarde terug naar de normwaarde. De weeën versterken elkaar tot de bevalling voorbij is, en dat is positieve feedback."
         },
         {
           "type": "invultekst",
@@ -250,15 +253,14 @@
           "opties": [
             "de bloedvaten in de huid verwijden zich",
             "de zweetklieren geven meer zweet af",
-            "je huid wordt roder dan gewoonlijk",
+            "je haren gaan rechtop staan",
             "je begint te rillen met je spieren"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Verwijde bloedvaten brengen meer warm bloed naar de huid, waar de warmte weg kan. Rillen is juist de reactie op koude: dan maken je spieren extra warmte."
+          "uitleg": "Verwijde bloedvaten brengen meer warm bloed naar de huid, waar de warmte weg kan, en daardoor wordt je huid roder. Rillen en kippenvel zijn juist reacties op koude."
         },
         {
           "type": "waarofniet",
@@ -306,12 +308,14 @@
             "de alvleesklier, die insuline en glucagon maakt",
             "de lever, die glucose opslaat en weer vrijgeeft",
             "de spiercellen, die glucose uit het bloed opnemen",
-            "de zweetklieren, die glucose met het zweet afvoeren"
+            "de zweetklieren, die glucose met het zweet afvoeren",
+            "de darm, die de glucose uit je eten in het bloed brengt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De alvleesklier is de klier die de hormonen afgeeft, de lever en de spiercellen zijn de effectoren. Zweet voert geen glucose af."
         },
@@ -377,15 +381,14 @@
           "opties": [
             "receptoren in de wand van grote bloedvaten meten de druk",
             "de hersenstam stuurt het hart en de bloedvaten bij",
-            "bij een te hoge druk vertraagt het hart en verwijden de bloedvaten",
+            "bij een te hoge druk versnelt het hart en vernauwen de bloedvaten",
             "bij een te hoge druk gaan de zweetklieren extra zweet afgeven"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De bloeddruk werkt met dezelfde schakels als de temperatuurregeling: receptoren in de vaatwand, de hersenstam als controlecentrum, het hart en de bloedvaten als effectoren."
+          "uitleg": "De bloeddruk werkt met dezelfde schakels als de temperatuurregeling: receptoren in de vaatwand, de hersenstam als controlecentrum, het hart en de bloedvaten als effectoren. Bij een te hoge druk gaat het hart juist trager en gaan de vaten open."
         },
         {
           "type": "invultekst",
@@ -475,12 +478,14 @@
             "een celwand rond het celmembraan",
             "een slijmlaag aan de buitenkant",
             "een plasmide naast het grote DNA",
-            "een echte kern met een kernmembraan"
+            "een echte kern met een kernmembraan",
+            "een zweephaar om zich voort te bewegen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een bacterie heeft DNA, een celmembraan en een celwand, en daarbij vaak een slijmlaag, een plasmide, pili of een zweephaar. Een echte kern met kernmembraan heeft ze niet."
         },
@@ -571,15 +576,14 @@
           "opties": [
             "bacteriën",
             "gisten en schimmels",
-            "protozoa en eencellige algen",
+            "varens",
             "mossen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bacteriën, gisten en schimmels, protozoa en eencellige algen zijn micro-organismen. Mossen zijn gewone, met het blote oog zichtbare planten."
+          "uitleg": "Bacteriën, gisten en schimmels zijn micro-organismen, en protozoa en eencellige algen ook. Mossen en varens zijn gewone planten, met het blote oog zichtbaar."
         },
         {
           "type": "meerkeuze",
@@ -685,12 +689,14 @@
             "yoghurt",
             "zuurkool",
             "schimmelkaas",
-            "gekookt water"
+            "gekookt water",
+            "brooddeeg met gist"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Yoghurt en zuurkool danken hun zure smaak aan melkzuurbacteriën, en schimmelkaas aan een schimmel. In gekookt water zit juist zo min mogelijk leven."
         },
@@ -754,15 +760,14 @@
           "opties": [
             "ze breken dood materiaal af bij het composteren",
             "ze zuiveren water in een waterzuiveringsinstallatie",
-            "ze helpen planten aan stikstof via mycorrhiza",
+            "ze vangen met hun eigen wortels stikstof uit de lucht",
             "ze maken met hun bladgroen zuurstof voor de hele bodem"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Composteren, waterzuivering en de samenwerking met plantenwortels zijn klassieke voorbeelden. Bladgroen hebben bacteriën en schimmels niet."
+          "uitleg": "Composteren en waterzuivering zijn klassieke voorbeelden, en de samenwerking met plantenwortels ook. Wortels en bladgroen hebben bacteriën en schimmels niet."
         },
         {
           "type": "invultekst",
@@ -825,12 +830,14 @@
             "het bestaat uit micro-organismen die normaal op je huid leven",
             "het houdt ziekteverwekkers mee op afstand",
             "het hoort bij een gezonde huid",
-            "het moet je zo volledig mogelijk wegwassen"
+            "het moet je zo volledig mogelijk wegwassen",
+            "het verschilt van mens tot mens"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De bewoners van je huid horen erbij en beschermen je. Alles wegboenen verzwakt die bescherming eerder dan dat het helpt."
         },
@@ -896,12 +903,14 @@
             "de eierstok",
             "de eileider met de eitrechter",
             "de baarmoeder",
-            "de bijbal"
+            "de bijbal",
+            "de vagina"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Eierstok, eileider met eitrechter en baarmoeder horen bij het vrouwelijk stelsel. De bijbal hoort bij het mannelijk stelsel."
         },
@@ -963,17 +972,16 @@
           "type": "meerkeuze",
           "vraag": "Welke klieren spelen mee in de hormonale regeling van de cyclus? Kruis alles aan wat juist is.",
           "opties": [
-            "de hypothalamus",
+            "de alvleesklier",
             "de hypofyse",
             "de eierstok",
             "de schildklier"
           ],
           "antwoord": [
-            0,
             1,
             2
           ],
-          "uitleg": "De hypothalamus geeft GnRH, de hypofyse geeft FSH en LH, en de eierstok geeft oestrogeen en progesteron. De schildklier staat hierbuiten."
+          "uitleg": "De hypofyse geeft FSH en LH en de eierstok oestrogeen en progesteron, op bevel van de hypothalamus. De schildklier en de alvleesklier staan hierbuiten."
         },
         {
           "type": "invultekst",
@@ -1018,12 +1026,14 @@
             "het geel lichaam valt na een tiental dagen weg",
             "het gehalte progesteron daalt",
             "het baarmoederslijmvlies laat los en de menstruatie begint",
-            "het gehalte progesteron blijft maandenlang hoog"
+            "het gehalte progesteron blijft maandenlang hoog",
+            "een nieuwe cyclus kan daarna opnieuw beginnen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Zonder bevruchting verdwijnt het geel lichaam, valt het progesteron weg en kan het slijmvlies niet in stand blijven. Dat is de menstruatie."
         },
@@ -1105,16 +1115,15 @@
           "vraag": "Welke delen horen bij het mannelijk voortplantingsstelsel? Kruis alles aan wat juist is.",
           "opties": [
             "de teelbal",
-            "de bijbal",
+            "de baarmoeder",
             "de zaadleider",
             "de eitrechter"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Teelbal, bijbal en zaadleider horen bij het mannelijk stelsel. De eitrechter hoort bij het vrouwelijk stelsel."
+          "uitleg": "De teelbal en de zaadleider horen bij het mannelijk stelsel. De eitrechter en de baarmoeder horen bij het vrouwelijk stelsel."
         },
         {
           "type": "waarofniet",
@@ -1165,12 +1174,14 @@
             "de hypothalamus geeft minder GnRH af",
             "de hypofyse geeft minder LH af",
             "de cellen van Leydig maken daarna minder testosteron",
-            "de teelballen maken meteen veel meer zaadcellen"
+            "de teelballen maken meteen veel meer zaadcellen",
+            "het gehalte testosteron zakt daarna weer"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Testosteron remt zowel de hypothalamus als de hypofyse. Dat is negatieve terugkoppeling: het gehalte wordt zo weer naar beneden gebracht."
         },
@@ -1216,15 +1227,14 @@
           "opties": [
             "GnRH",
             "FSH",
-            "LH",
+            "hCG",
             "progesteron"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "GnRH, FSH en LH komen bij beide geslachten voor; alleen hun doelorgaan verschilt. Progesteron hoort bij de vrouwelijke cyclus."
+          "uitleg": "GnRH en FSH komen bij beide geslachten voor, en LH ook; alleen hun doelorgaan verschilt. Progesteron hoort bij de vrouwelijke cyclus en hCG komt enkel bij een zwangerschap voor."
         },
         {
           "type": "waarofniet",
@@ -1311,15 +1321,14 @@
           "opties": [
             "suiker in water",
             "lucht",
-            "messing",
+            "slagroom",
             "zand in water"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "In een homogeen mengsel zie je de bestanddelen niet meer apart. Een oplossing, lucht en een legering zijn homogeen; zand in water blijft zichtbaar gescheiden."
+          "uitleg": "In een homogeen mengsel zie je de bestanddelen niet meer apart: een oplossing en lucht, en ook een legering zoals messing. Zand in water en slagroom blijven zichtbaar gescheiden."
         },
         {
           "type": "waarofniet",
@@ -1418,12 +1427,14 @@
             "ze heeft een vast smeltpunt",
             "ze heeft een vast kookpunt",
             "ze bestaat uit één soort deeltjes",
-            "ze bestaat altijd uit één soort atomen"
+            "ze bestaat altijd uit één soort atomen",
+            "ze kan uit meer dan één soort atomen bestaan"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een zuivere stof smelt en kookt bij één temperatuur. Ze kan wel samengesteld zijn: water is zuiver en bestaat toch uit waterstof en zuurstof."
         },
@@ -1463,15 +1474,14 @@
           "opties": [
             "slagroom",
             "vinaigrette",
-            "rook",
+            "suiker in water",
             "zeewater"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Schuim, emulsie en aerosol zijn heterogeen: je kan de delen nog onderscheiden. Zeewater is een oplossing en dus homogeen."
+          "uitleg": "Schuim en emulsie zijn heterogeen: je kan de delen nog onderscheiden, en rook ook. Zeewater en suiker in water zijn oplossingen en dus homogeen."
         },
         {
           "type": "waarofniet",
@@ -1523,12 +1533,14 @@
             "het kookpunt",
             "de oplosbaarheid",
             "de geleidbaarheid",
-            "de hoeveelheid die je in de pot hebt"
+            "de hoeveelheid die je in de pot hebt",
+            "de dichtheid"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een stofeigenschap hangt niet af van hoeveel je ervan hebt. Kookpunt, oplosbaarheid en geleidbaarheid zijn stofeigenschappen; de hoeveelheid zelf is dat niet."
         },
@@ -1591,16 +1603,15 @@
           "vraag": "Bij welke technieken speelt het kookpunt een rol? Kruis alles aan wat juist is.",
           "opties": [
             "destilleren",
-            "indampen",
+            "filtreren",
             "het scheiden van alcohol en water",
             "zeven"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Destilleren en indampen steunen allebei op verdampen, en alcohol scheidt van water omdat hun kookpunten verschillen. Zeven gaat over deeltjesgrootte."
+          "uitleg": "Destilleren steunt op verdampen, net als indampen, en alcohol scheidt van water omdat hun kookpunten verschillen. Zeven en filtreren gaan over deeltjesgrootte."
         },
         {
           "type": "invultekst",
@@ -1663,12 +1674,14 @@
             "het filtraat is wat door de filter loopt",
             "het residu blijft op de filter liggen",
             "allebei kunnen ze het bestanddeel zijn dat je nodig hebt",
-            "het residu is altijd afval"
+            "het residu is altijd afval",
+            "het filtraat is meestal een vloeistof"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Wat je nodig hebt, hangt van je doel af. Bij koffiezetten gooi je het residu weg, bij goudwinning is net het residu de buit."
         },
@@ -1733,15 +1746,14 @@
           "opties": [
             "zuurstofgas",
             "waterstofgas",
-            "ozon",
+            "water",
             "koolstofdioxide"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Zuurstofgas, waterstofgas en ozon bestaan elk uit één atoomsoort. In koolstofdioxide zitten twee soorten atomen, dus die is samengesteld."
+          "uitleg": "Zuurstofgas en waterstofgas bestaan elk uit één atoomsoort, en ozon ook. In koolstofdioxide en in water zitten twee soorten atomen, dus die zijn samengesteld."
         },
         {
           "type": "waarofniet",
@@ -1804,12 +1816,14 @@
             "ze geleiden elektriciteit goed",
             "ze geleiden warmte goed",
             "ze zijn vervormbaar",
-            "ze zijn bij kamertemperatuur altijd een gas"
+            "ze zijn bij kamertemperatuur altijd een gas",
+            "ze glanzen als je ze poetst"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Metalen geleiden, glanzen en laten zich pletten of trekken. Op kwik na zijn ze bij kamertemperatuur allemaal vast."
         },
@@ -1885,15 +1899,14 @@
           "opties": [
             "ze geleiden elektriciteit slecht",
             "veel ervan zijn bij kamertemperatuur een gas",
-            "ze zijn meestal broos als ze vast zijn",
+            "ze geleiden warmte even goed als metaal",
             "ze zijn allemaal glanzend en goed vervormbaar"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Niet-metalen geleiden slecht, zijn vaak gasvormig en breken makkelijk als ze vast zijn. Glans en vervormbaarheid horen juist bij metalen."
+          "uitleg": "Niet-metalen geleiden elektriciteit en warmte slecht en zijn vaak gasvormig; als ze vast zijn, breken ze makkelijk. Glans en vervormbaarheid horen juist bij metalen."
         },
         {
           "type": "invultekst",
@@ -2011,12 +2024,14 @@
             "warmte",
             "licht",
             "elektrische energie",
-            "massa"
+            "massa",
+            "geluid"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een vuur geeft warmte en licht, een batterij geeft elektrische energie. Massa is geen energievorm, en ze blijft bovendien behouden."
         },
@@ -2091,16 +2106,15 @@
           "vraag": "In de reactie 2 Mg + O₂ geeft 2 MgO: welke uitspraken kloppen? Kruis alles aan wat juist is.",
           "opties": [
             "links en rechts staan twee magnesiumatomen",
-            "links en rechts staan twee zuurstofatomen",
+            "er verdwijnt massa tijdens de reactie",
             "magnesium en zuurstofgas zijn de reagentia",
             "er ontstaan twee verschillende reactieproducten"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "De vergelijking klopt: \\(2\\) Mg en \\(2\\) O aan elke kant. Er ontstaat maar één product, namelijk magnesiumoxide."
+          "uitleg": "De vergelijking klopt: \\(2\\) Mg en \\(2\\) O aan elke kant. Er ontstaat maar één product, namelijk magnesiumoxide, en massa gaat niet verloren."
         },
         {
           "type": "waarofniet",
@@ -2151,15 +2165,14 @@
           "opties": [
             "een proton is positief geladen",
             "een elektron is negatief geladen",
-            "een neutron is niet geladen",
+            "een proton is negatief geladen",
             "een neutron is positief geladen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het proton is positief, het elektron negatief en het neutron neutraal. In een atoom zijn er evenveel protonen als elektronen, dus is het geheel neutraal."
+          "uitleg": "Het proton is positief, het elektron negatief en het neutron neutraal: dus niet positief en niet negatief. In een atoom zijn er evenveel protonen als elektronen, dus is het geheel neutraal."
         },
         {
           "type": "waarofniet",
@@ -2262,12 +2275,14 @@
             "de kern bevat \\(17\\) protonen",
             "een neutraal atoom heeft \\(17\\) elektronen",
             "het element staat op de zeventiende plaats in het PSE",
-            "de kern bevat \\(17\\) neutronen"
+            "de kern bevat \\(17\\) neutronen",
+            "het gaat om chloor"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het atoomnummer geeft de protonen, en in een neutraal atoom evenveel elektronen, en de plaats in het systeem. Het aantal neutronen lees je er niet uit af."
         },
@@ -2428,15 +2443,14 @@
           "opties": [
             "links in het systeem staan de metalen",
             "rechtsboven staan de niet-metalen",
-            "helemaal rechts staat de groep van de edelgassen",
+            "helemaal links staat de groep van de edelgassen",
             "het metaalkarakter neemt naar rechts toe"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Metalen staan links en in het midden, niet-metalen rechtsboven, en de laatste kolom zijn de edelgassen. Naar rechts neemt het metaalkarakter juist af."
+          "uitleg": "Metalen staan links en in het midden en niet-metalen rechtsboven. De edelgassen vormen de laatste kolom rechts, niet de eerste links, en naar rechts neemt het metaalkarakter juist af."
         },
         {
           "type": "invultekst",
@@ -2499,12 +2513,14 @@
             "helium",
             "neon",
             "argon",
-            "waterstof"
+            "waterstof",
+            "krypton"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Helium, neon en argon staan in de laatste kolom en hebben een volle buitenste schil. Waterstof staat helemaal links en is geen edelgas."
         },
@@ -2897,15 +2913,14 @@
           "opties": [
             "ze zet elektrische energie om in licht en in warmte",
             "het grootste deel van de energie komt vrij als warmte",
-            "haar rendement voor licht is laag",
+            "ze geeft meer licht dan een ledlamp van hetzelfde vermogen",
             "ze zet alle energie die ze opneemt om in licht"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bij een gloeilamp is het licht de nuttige energie en de warmte de ongewenste. Een ledlamp geeft bij hetzelfde licht veel minder warmte en heeft dus een beter rendement."
+          "uitleg": "Bij een gloeilamp is het licht de nuttige energie en de warmte de ongewenste, dus is haar rendement voor licht laag. Een ledlamp geeft bij hetzelfde vermogen veel meer licht en veel minder warmte."
         },
         {
           "type": "waarofniet",
@@ -3005,12 +3020,14 @@
             "een glas water dat al een uur in de kamer staat",
             "een thermometer die in een bad niet meer verandert",
             "twee blokken metaal tegen elkaar met dezelfde temperatuur",
-            "een ijsblokje dat je net in een glas water hebt gelegd"
+            "een ijsblokje dat je net in een glas water hebt gelegd",
+            "een kamer waarin de radiator al uren uit staat"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "In thermisch evenwicht hebben twee systemen dezelfde temperatuur en gaat er geen warmte meer van het ene naar het andere. Het ijsblokje is daar nog lang niet."
         },
@@ -3139,15 +3156,14 @@
           "opties": [
             "temperatuur meet je in graden Celsius",
             "warmte is energie en meet je in joule",
-            "warmte gaat altijd van warm naar koud",
+            "warmte gaat altijd van koud naar warm",
             "warmte en temperatuur zijn twee woorden voor hetzelfde"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Temperatuur zegt hoe snel de deeltjes bewegen, warmte is de energie die van het ene systeem naar het andere gaat. Je kan warmte dus niet in graden uitdrukken."
+          "uitleg": "Temperatuur zegt hoe snel de deeltjes bewegen en meet je in graden. Warmte is energie, meet je in joule en gaat van warm naar koud, niet omgekeerd."
         },
         {
           "type": "invultekst",
@@ -3225,12 +3241,14 @@
             "sublimeren",
             "condenseren",
             "desublimeren",
-            "krimpen"
+            "krimpen",
+            "smelten"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Sublimeren is van vast rechtstreeks naar gas, desublimeren het omgekeerde. Krimpen is geen faseovergang: de stof blijft dan in dezelfde fase."
         },
@@ -3504,14 +3522,16 @@
             "versnellen",
             "vertragen",
             "van richting veranderen",
-            "van massa veranderen"
+            "van massa veranderen",
+            "van vorm veranderen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Die drie zijn samen wat we een verandering van bewegingstoestand noemen. De massa van een voorwerp verandert niet door een kracht."
+          "uitleg": "Versnellen, vertragen en van richting veranderen noemen we samen een verandering van bewegingstoestand, en vervormen kan ook. De massa van een voorwerp verandert niet door een kracht."
         },
         {
           "type": "waarofniet",
@@ -3623,12 +3643,14 @@
             "massa is de hoeveelheid materie in een voorwerp",
             "gewicht is een kracht en meet je in newton",
             "je massa blijft op de maan dezelfde",
-            "je gewicht blijft op de maan hetzelfde"
+            "je gewicht blijft op de maan hetzelfde",
+            "massa meet je in kilogram"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Je massa is overal gelijk, ook op de maan. Je gewicht is daar ongeveer zes keer kleiner, want de maan trekt veel minder hard aan je dan de aarde."
         },
@@ -3710,15 +3732,14 @@
           "opties": [
             "de stuwkracht van de motoren",
             "de zwaartekracht naar beneden",
-            "de wrijvingskracht van de lucht",
+            "de spankracht van een kabel",
             "de normaalkracht van de landingsbaan"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een normaalkracht bestaat alleen zolang het vliegtuig op een oppervlak rust. In de lucht blijven de stuwkracht, de zwaartekracht, de luchtwrijving en de draagkracht van de vleugels over."
+          "uitleg": "Een normaalkracht bestaat alleen zolang het vliegtuig op een oppervlak rust, en een spankracht alleen als er een kabel aan hangt. In de lucht blijven de stuwkracht, de zwaartekracht, de luchtwrijving en de draagkracht van de vleugels over."
         },
         {
           "type": "meerkeuze",
