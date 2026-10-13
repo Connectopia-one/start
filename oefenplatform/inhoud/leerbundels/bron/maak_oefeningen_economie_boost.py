@@ -941,3 +941,704 @@ zet("producten-merken-prijsstrategie-en-distributie",
 if __name__ == "__main__":
     for naam, b in OEFENBUNDELS.items():
         oefenbundel.schrijf(b, naam)
+
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-de-economische-kringloop-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Kijk naar de rol, niet naar de persoon. Wie produceert om te verkopen is een bedrijf, "
+                    "wie verbruikt en arbeid levert is een gezin, en wie met belastinggeld werkt is de "
+                    "overheid.",
+             waarom=[
+                 "Een zelfstandige zonder personeel telt in dit schema als gezin: hij levert zijn eigen "
+                 "arbeid en verbruikt. Dezelfde mens kan dus in twee rollen voorkomen.",
+             ]),
+        dict(aanpak="Een geldstroom is euro's die van hand tot hand gaan, een reële stroom is goederen, "
+                    "diensten of arbeid. Bij elke pijl hoort er een in de andere richting.",
+             waarom=[
+                 "Loon en uren zijn hetzelfde ruilen, van twee kanten bekeken. Dat is waarom je ze in het "
+                 "schema altijd als een paar tekent.",
+             ]),
+        dict(aanpak="Vier productiefactoren, vier vergoedingen. Leer ze als paren, want ze komen in elk "
+                    "hoofdstuk over inkomensverdeling terug.",
+             waarom=[None]),
+        dict(aanpak="Een lek haalt geld uit de binnenlandse kringloop, een injectie brengt het erin. Sparen, "
+                    "invoer en belastingen zijn de drie lekken; investeren, overheidsuitgaven en uitvoer de "
+                    "drie injecties.",
+             waarom=[
+                 "Let op de spiegeling: sparen tegenover investeren, belastingen tegenover "
+                 "overheidsuitgaven, invoer tegenover uitvoer. Ken je die drie paren, dan ken je de hele "
+                 "reeks.",
+             ]),
+        dict(aanpak="Bij een berekening zet je de stappen onder elkaar. Bij een uitlegvraag noem je de twee "
+                    "actoren en de richting van de stroom.",
+             waarom=[
+                 None,
+                 "Dit is de kern van het kringloopdenken, en ook de reden waarom een crisis zichzelf kan "
+                 "versterken.",
+             ]),
+        dict(aanpak="Ga bij elke uitspraak na welke pijl in het schema erbij hoort. Bestaat die pijl niet, "
+                    "dan is de uitspraak fout.",
+             waarom=[
+                 "Gezinnen leveren ook arbeid, kapitaal en grond. Zonder die pijl zou er niets geproduceerd "
+                 "worden.",
+                 None, None,
+                 "Het buitenland hoort bij het uitgebreide schema. In het eenvoudige staan enkel gezinnen "
+                 "en bedrijven.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-productie-toegevoegde-waarde-en-het-bbp-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Toegevoegde waarde is omzet min de aankopen bij andere bedrijven. Lonen trek je er "
+                    "níét af, want die zijn juist een deel van die toegevoegde waarde.",
+             waarom=[
+                 None,
+                 "De lonen van \\(6\\,000\\) euro staan er om je op het verkeerde been te zetten. Ze zitten "
+                 "ín de toegevoegde waarde en gaan er niet af.",
+                 None,
+             ]),
+        dict(aanpak="Bereken per schakel de toegevoegde waarde door af te trekken wat die schakel inkocht. "
+                    "De som moet gelijk zijn aan de prijs van het eindproduct.",
+             waarom=[
+                 "Die controle is handig: komt de som niet uit op de eindprijs, dan zit er een rekenfout in "
+                 "een van de schakels.",
+                 None,
+             ]),
+        dict(aanpak="In het bbp telt enkel wat geregistreerd en betaald geproduceerd wordt, binnen de "
+                    "grenzen van het land. Doorverkoop van iets ouds is geen nieuwe productie.",
+             waarom=[
+                 "Let op de Franse fabriek in Luik: binnenlands betekent op het grondgebied, niet van "
+                 "eigen eigenaars. Dat is net het verschil met het bruto nationaal product.",
+             ]),
+        dict(aanpak="Reële groei is de nominale groei min de inflatie. Een groei in procent reken je als "
+                    "het verschil gedeeld door de beginwaarde.",
+             waarom=[
+                 None,
+                 "Hier groeit het bbp wel in euro's, maar trager dan de prijzen. In goederen gemeten gaat "
+                 "het land er dus op achteruit.",
+                 None, None,
+             ]),
+        dict(aanpak="Antwoord met het begrip erin. Bij het bbp is de vraag vaak wat het níét meet.",
+             waarom=[
+                 None,
+                 "Dit komt veel voor in groeiende landen: het bbp stijgt en toch wordt niemand rijker. "
+                 "Daarom kijk je altijd naar het bbp per capita.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-economische-groei-welvaart-en-welzijn-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Vijf oorzaken van groei: meer mensen, meer machines, beter opgeleide mensen, betere "
+                    "technologie, en meer productie per werknemer.",
+             waarom=[
+                 "Let op het verschil tussen kapitaalvorming (meer machines) en technologische "
+                 "ontwikkeling (betere machines of methodes). Beide verhogen de productie, maar op een "
+                 "andere manier.",
+             ]),
+        dict(aanpak="Arbeidsproductiviteit is de productie gedeeld door het aantal werknemers. De "
+                    "procentuele stijging reken je op de oude waarde.",
+             waarom=[
+                 None, None,
+                 "Reken \\(30 : 180\\), dus ongeveer \\(16{,}7\\,\\%\\). Deel altijd door de óude waarde, "
+                 "niet door de nieuwe.",
+             ]),
+        dict(aanpak="Welvaart gaat over wat je kan kopen, welzijn over hoe goed je leeft. Alles wat je niet "
+                    "met geld meet, hoort meestal bij welzijn.",
+             waarom=[
+                 "Vrije tijd en een veilige buurt staan in geen enkele statistiek van het bbp. Toch wegen "
+                 "ze voor de meeste mensen zwaar door.",
+             ]),
+        dict(aanpak="Gebruik in je antwoord het begrippenpaar welvaart en welzijn, of het bbp per capita. "
+                    "Zeg telkens wat het cijfer wél en niet laat zien.",
+             waarom=[
+                 None, None,
+                 "Dit begrip komt terug bij elk hoofdstuk over milieu en energie. Het is het antwoord op de "
+                 "vraag of groei op zich altijd goed is.",
+             ]),
+        dict(aanpak="Ga bij elke uitspraak na of ze over een gemiddelde of over de verdeling gaat. Dat is "
+                    "hier bijna altijd het verschil.",
+             waarom=[
+                 None, None,
+                 "Een gemiddelde kan stijgen terwijl de helft van de mensen erop achteruitgaat. Daarom "
+                 "zegt een hoger bbp op zich niets over wie het krijgt.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-behoeften-schaarste-en-soorten-goederen-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Primair is wat je nodig hebt om te leven, secundair wat het leven aangenamer maakt, "
+                    "tertiair wat luxe is. De grens schuift mee met de tijd en met het land.",
+             waarom=[
+                 "Een fiets om naar school te gaan is secundair: je kan ook gaan te voet, maar het is meer "
+                 "dan luxe. Dezelfde fiets kan voor een koerier wel primair zijn.",
+             ]),
+        dict(aanpak="Drie vragen per goed: is het tastbaar, wordt het meteen verbruikt, en dient het om "
+                    "mee te produceren. Daaruit volgt elke indeling.",
+             waarom=[
+                 "Een kappersbeurt is geen goed maar een dienst: ze is niet tastbaar en je kan ze niet "
+                 "opslaan.",
+             ]),
+        dict(aanpak="De alternatieve kost is wat je opgeeft, niet wat je betaalt. Noem altijd het beste "
+                    "alternatief dat je liet liggen.",
+             waarom=[
+                 None,
+                 "Let op het verschil tussen opbrengst en kost. Het loon win je, de namiddag met je "
+                 "vrienden verlies je, en dat laatste is de alternatieve kost.",
+             ]),
+        dict(aanpak="Een collectief goed kan je niemand ontzeggen, en het gebruik van de ene gaat niet ten "
+                    "koste van de andere. Alles wat je apart kan kopen en bezitten is individueel.",
+             waarom=[
+                 "Een treinabonnement is individueel, al is de trein een openbare dienst: jouw abonnement "
+                 "is van jou alleen.",
+                 None,
+             ]),
+        dict(aanpak="Ga bij elke uitspraak terug naar de definitie. Vooral schaarste en het verschil tussen "
+                    "een vrij en een economisch goed worden hier getoetst.",
+             waarom=[
+                 "Leidingwater kost geld om te zuiveren en te leveren, dus is het een economisch goed. "
+                 "Regenwater of lucht zijn wel vrije goederen.",
+                 "Schaarste betekent dat de middelen beperkt zijn tegenover de behoeften, en behoeften "
+                 "groeien mee. Daarom verdwijnt ze nooit.",
+                 None,
+                 "Intermediaire goederen zitten al in de prijs van het eindproduct. Ze apart meetellen zou "
+                 "dubbeltelling zijn.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-nut-preferentie-en-de-indifferentiecurve-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Het grensnut is wat er bij de vorige regel bij komt, dus tel je op. Het totale nut "
+                    "stijgt zolang het grensnut positief is.",
+             waarom=[
+                 None,
+                 "Het maximum ligt waar het grensnut net voor het laatst positief was. Daarna begint de "
+                 "daling.",
+                 "Een negatief grensnut betekent dat je er last van krijgt: het vijfde stuk taart maakt je "
+                 "misselijk in plaats van blij.",
+             ]),
+        dict(aanpak="Vijf begrippen die je moet kunnen onderscheiden. Indifferentie is even goed vinden, "
+                    "preferentie is verkiezen.",
+             waarom=[None]),
+        dict(aanpak="Elk kenmerk van de curve volgt uit één idee: je blijft even tevreden. Zeg dat in je "
+                    "antwoord altijd uitdrukkelijk.",
+             waarom=[
+                 None,
+                 "Dit is dezelfde wet van het afnemende grensnut als in de eerste reeks, nu in de vorm van "
+                 "een kromme.",
+                 None,
+             ]),
+        dict(aanpak="Let op het verschil tussen het totale nut en het grensnut, en tussen wat iemand wil en "
+                    "wat hij kan betalen.",
+             waarom=[
+                 "Een dalend grensnut betekent enkel dat er minder bijkomt. Zolang het positief blijft, "
+                 "stijgt het totale nut nog altijd.",
+                 None,
+                 "Nut is persoonlijk en niet in euro's te meten. Je kan het enkel ordenen: deze combinatie "
+                 "verkies ik boven die.",
+                 "Een indifferentiemap zegt enkel wat iemand wil. Pas met de budgetlijn erbij weet je wat "
+                 "hij kan en dus koopt.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-budgetlijn-en-de-optimale-goederencombinatie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="De budgetvergelijking zegt dat de uitgaven samen het budget opmaken: prijs maal "
+                    "aantal, plus prijs maal aantal, is het budget. Vul in wat je weet en reken de rest uit.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Een snijpunt met een as vind je door het andere goed op nul te zetten: budget gedeeld "
+                    "door de prijs van dat goed.",
+             waarom=[None]),
+        dict(aanpak="Twee bewegingen om uit elkaar te houden: verandert het budget, dan schuift de lijn "
+                    "parallel; verandert één prijs, dan kantelt ze om het andere snijpunt.",
+             waarom=[
+                 "Let op het geval waar alles met tien procent stijgt: dan kan je precies evenveel kopen en "
+                 "verandert er niets. Dat is geldillusie.",
+             ]),
+        dict(aanpak="Het optimum ligt waar de budgetlijn een indifferentiecurve raakt. Dat is het hoogste "
+                    "nut dat je met je geld kan halen.",
+             waarom=[
+                 None, None,
+                 "Reken eerst uit wat er aan het ene goed opgaat, dan hoeveel er overblijft, en deel dat "
+                 "door de prijs van het andere.",
+             ]),
+        dict(aanpak="Ga bij elke uitspraak na of ze over kunnen betalen gaat of over willen. De budgetlijn "
+                    "zegt het eerste, de curven het tweede.",
+             waarom=[
+                 "Alle punten op de lijn kosten evenveel, maar geven niet evenveel nut. Daarvoor heb je "
+                 "juist de indifferentiecurven nodig.",
+                 None,
+                 "Dezelfde budgetlijn, een andere smaak, dus een ander raakpunt. Daarom zitten de curven in "
+                 "het model.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-productiefactoren-productiefunctie-en-meeropbrengsten-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Vier productiefactoren met hun vergoeding. Natuur is alles wat de aarde levert, "
+                    "kapitaal alles wat de mens maakte om mee te produceren.",
+             waarom=[None]),
+        dict(aanpak="MP is wat er met één werknemer erbij nog bijkomt, dus het verschil tussen twee regels "
+                    "van TP. De gemiddelde productie is TP gedeeld door het aantal werknemers.",
+             waarom=[
+                 None, None,
+                 "TP bereikt zijn maximum waar MP voor het laatst positief is. Daarna haalt elke extra "
+                 "werknemer de productie naar beneden.",
+                 "Dit is de kern van de wet: eerst stijgt MP, dan daalt hij, en ten slotte wordt hij "
+                 "negatief.",
+             ]),
+        dict(aanpak="Op korte termijn ligt minstens één productiefactor vast, meestal de gebouwen en de "
+                    "machines. Op lange termijn kan alles veranderen.",
+             waarom=[None]),
+        dict(aanpak="Antwoord met de vaste en de variabele factor. Beide helften van de wet volgen uit hun "
+                    "verhouding.",
+             waarom=[
+                 None,
+                 "De vaste factor is hier de oven. Het is dus niet dat de zevende bakker slechter werkt, "
+                 "maar dat hij minder plaats heeft om te werken.",
+                 None,
+             ]),
+        dict(aanpak="Let op het verschil tussen de totale productie en de meeropbrengst, en tussen kapitaal "
+                    "en natuur.",
+             waarom=[
+                 "Een dalende MP betekent dat er minder bíjkomt, niet dat er minder is. De totale productie "
+                 "stijgt nog zolang MP positief blijft.",
+                 None,
+                 "Machines zijn door de mens gemaakt, dus horen ze bij kapitaal. Natuur is grond, water en "
+                 "grondstoffen.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-kosten-en-de-opbrengstencurven-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je bij elke kost af of ze meegroeit met het aantal stuks. Zo ja, dan is ze "
+                    "variabel; blijft ze gelijk ook als je niets produceert, dan is ze constant.",
+             waarom=[
+                 "De afschrijving van de bestelwagen is constant: ze loopt door of je nu rijdt of niet. De "
+                 "brandstof zou wel variabel zijn.",
+             ]),
+        dict(aanpak="Werk de tabel kolom per kolom af: eerst de totale variabele kost, dan de totale kost, "
+                    "dan de gemiddelde kost door te delen door het aantal stuks.",
+             waarom=[
+                 None,
+                 "Hier zie je het schaalvoordeel in cijfers: van \\(16\\) naar \\(7\\) euro per stuk, "
+                 "terwijl de variabele kost per stuk niet veranderde.",
+             ]),
+        dict(aanpak="De marginale kost is wat het éne extra stuk kost, dus het verschil tussen twee totale "
+                    "kosten.",
+             waarom=[
+                 None, None,
+                 "Dit is de regel achter de vorm van de curven: ligt de marginale kost onder het "
+                 "gemiddelde, dan trekt ze het gemiddelde naar beneden. Net zoals een punt onder je "
+                 "gemiddelde dat gemiddelde doet dalen.",
+             ]),
+        dict(aanpak="Bij volkomen concurrentie ligt de prijs vast. De totale opbrengst is prijs maal "
+                    "aantal, en de gemiddelde en de marginale opbrengst zijn allebei de prijs.",
+             waarom=[None, None]),
+        dict(aanpak="Winst is de totale opbrengst min de totale kost. Vergeet bij de kosten de constante "
+                    "kosten niet.",
+             waarom=[
+                 None, None,
+                 "Werk in drie stappen: eerst TO, dan TK uit de twee soorten kosten, dan het verschil. Zo "
+                 "zie je meteen waar een fout zit.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-optimale-productiegrootte-en-winstmaximalisatie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Produceer zolang het laatste stuk meer opbrengt dan het kost. Het optimum ligt waar de "
+                    "marginale kost gelijk wordt aan de marginale opbrengst.",
+             waarom=[
+                 "Zolang MK onder de prijs ligt, levert elk extra stuk nog iets op. Ligt MK erboven, dan "
+                 "kost het meer dan het opbrengt.",
+                 None,
+             ]),
+        dict(aanpak="De kritische hoeveelheid is de constante kosten gedeeld door de marge per stuk, dus "
+                    "prijs min variabele kost per stuk.",
+             waarom=[
+                 "Elke verkoop levert \\(25 - 15 = 10\\) euro op om de constante kosten mee te dekken, dus "
+                 "\\(6\\,000 : 10 = 600\\) stuks.",
+                 None, None,
+             ]),
+        dict(aanpak="Winst per stuk is prijs min gemiddelde kost. Vermenigvuldig dat met het aantal stuks.",
+             waarom=[
+                 None,
+                 "Ligt de gemiddelde kost boven de prijs, dan is het verschil een verlies per stuk. Dat "
+                 "verlies groeit dus met elk stuk dat je erbij maakt.",
+                 "Hier staat de totale kost gegeven, dus reken je eerst de gemiddelde kost: \\(5\\,400 : "
+                 "900 = 6\\) euro.",
+             ]),
+        dict(aanpak="Op korte termijn kijk je naar de gemiddelde variabele kost: dekt de prijs die, dan ga "
+                    "je door. Op lange termijn moet de prijs ook de constante kosten dekken.",
+             waarom=[
+                 None, None,
+                 "Dit is het verschil tussen de twee termijnen: op korte termijn lopen de constante kosten "
+                 "toch door, op lange termijn kan je ze wegnemen door te stoppen.",
+             ]),
+        dict(aanpak="Let op het verschil tussen opbrengst en winst, en tussen het beste punt en het "
+                    "grootste getal.",
+             waarom=[
+                 "MK = MO geeft het beste resultaat dat haalbaar is. Dat kan ook het kleinste verlies zijn.",
+                 None,
+                 "De totale opbrengst is het hoogst bij de grootste productie, niet in het optimum. Je "
+                 "zoekt de grootste winst, niet de grootste omzet.",
+                 "De kosten groeien mee, en vanaf een bepaald punt zelfs sneller. Omzet en winst zijn twee "
+                 "verschillende dingen.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-markt-met-volkomen-concurrentie-en-de-overheid-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Het evenwicht vind je door de twee functies gelijk te stellen en de prijs op te "
+                    "lossen. Vul die prijs daarna in één van de twee in om de hoeveelheid te vinden.",
+             waarom=[
+                 "Stel \\(180 - 3P = 30 + 2P\\), dus \\(150 = 5P\\) en \\(P = 30\\). Zet je stappen onder "
+                 "elkaar, dan vind je een rekenfout meteen terug.",
+                 None, None, None,
+                 "Ligt de prijs boven het evenwicht, dan is er altijd een overschot. Dat is \\(110 - 60 = "
+                 "50\\).",
+             ]),
+        dict(aanpak="Verandert de prijs van het goed zelf, dan beweeg je langs de curve. Verandert er iets "
+                    "ánders, dan verschuift de hele curve.",
+             waarom=[
+                 "Dit is de belangrijkste valkuil van heel het hoofdstuk: de prijs van het goed zelf doet "
+                 "nooit een curve verschuiven.",
+             ]),
+        dict(aanpak="Teken in gedachten de curve die verschuift en kijk waar het nieuwe snijpunt ligt. Bij "
+                    "de vraag gaan prijs en hoeveelheid samen, bij het aanbod tegen elkaar in.",
+             waarom=[None]),
+        dict(aanpak="Een maximumprijs werkt enkel als ze ónder het evenwicht ligt, een minimumprijs enkel "
+                    "als ze erbóven ligt. Anders verandert er niets.",
+             waarom=[
+                 "Let op de twee gevallen die niets doen: de markt zat al binnen de grens, dus is de regel "
+                 "er zonder gevolg.",
+                 None, None,
+             ]),
+        dict(aanpak="Volkomen concurrentie is een model, geen beschrijving van de werkelijkheid. Leer de "
+                    "vier kenmerken, want elk gevolg komt eruit voort.",
+             waarom=[None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-arbeidsmarkt-en-de-collectieve-afspraken-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Op de arbeidsmarkt draait het om: bedrijven vrágen arbeid, mensen biéden ze aan. Het "
+                    "loon speelt de rol van de prijs.",
+             waarom=[
+                 "Dat omgekeerde is wat deze reeks oefent: wie werk zoekt, is hier de aanbieder, niet de "
+                 "vrager.",
+             ]),
+        dict(aanpak="Reken net als bij een gewone markt, met W in de plaats van P. Een minimumloon boven "
+                    "het evenwicht geeft een overschot aan arbeid, en dat heet werkloosheid.",
+             waarom=[
+                 "Stel \\(900 - 15W = 300 + 10W\\), dus \\(600 = 25W\\) en \\(W = 24\\).",
+                 None, None, None,
+                 "Het overschot is \\(600 - 450 = 150\\). In mensen uitgedrukt zijn dat de werklozen die "
+                 "aan dat loon wel willen werken maar geen plaats vinden.",
+             ]),
+        dict(aanpak="Vraag je af of de verandering bij de bedrijven zit of bij de mensen. Bij de bedrijven "
+                    "beweegt de vraag, bij de mensen het aanbod.",
+             waarom=[None]),
+        dict(aanpak="Vijf termen uit het sociaal overleg. Let op het verschil tussen een cao (één sector) "
+                    "en een ipa (alle sectoren samen).",
+             waarom=[None]),
+        dict(aanpak="Antwoord met het begrip erin. Bij de arbeidsmarkt gaat het bijna altijd over "
+                    "machtsverhouding of over de kost van arbeid.",
+             waarom=[
+                 "Dit verklaart waarom werkloosheid meestal volgt op een crisis in de verkoop, en niet "
+                 "omgekeerd.",
+                 None, None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-internationale-handel-en-handelsbelemmeringen-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Binnen de Europese Unie heten in- en uitvoer anders: verwerving en levering. Buiten de "
+                    "Unie blijft het invoer en uitvoer.",
+             waarom=[
+                 "Het verschil is niet enkel een woord: binnen de Unie zijn er geen douanerechten en geen "
+                 "grenscontrole, dus is de administratie een andere.",
+             ]),
+        dict(aanpak="De handelsbalans is uitvoer min invoer. Een positief getal is een overschot, een "
+                    "negatief een tekort.",
+             waarom=[None, None, None]),
+        dict(aanpak="Vier soorten belemmeringen: een quotum beperkt de hoeveelheid, een heffing maakt duurder, "
+                    "een subsidie helpt de eigen verkoper, en al de rest zijn niet-tarifaire regels.",
+             waarom=[
+                 "Keuringen, labels en normen heten niet-tarifair omdat er geen tarief aan te pas komt. Ze "
+                 "werken daarom ook stiller dan een heffing.",
+             ]),
+        dict(aanpak="Een heffing van x procent betekent dat de koper de prijs maal \\(1 + x\\) betaalt. "
+                    "Reken eerst het bedrag van de heffing, dan de som.",
+             waarom=[None, None, None]),
+        dict(aanpak="Loop bij elke maatregel de vier partijen af: de eigen producent, de koper, de overheid "
+                    "en de buitenlandse verkoper. Bijna altijd wint de ene wat de andere verliest.",
+             waarom=[
+                 "De koper betaalt altijd het gelag van een heffing. Daarom staat bescherming van de eigen "
+                 "industrie altijd tegenover een hogere prijs in de winkel.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-ondernemingsvormen-en-aansprakelijkheid-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Zes vragen per vorm: is er een rechtspersoon, een notaris, kapitaal, wie is "
+                    "aansprakelijk, hoe gaan de aandelen over, en welke belasting. Met die tabel beantwoord "
+                    "je elke vraag van dit hoofdstuk.",
+             waarom=[
+                 "De twee regels die het meest doorwegen zijn aansprakelijkheid en belasting. Daar zit het "
+                 "echte verschil tussen een eenmanszaak en een vennootschap.",
+             ]),
+        dict(aanpak="Vertrek van wat de starter belangrijk vindt: weinig papierwerk, bescherming van het "
+                    "privévermogen, of aandelen die vrij verhandeld kunnen worden.",
+             waarom=[None, None, None]),
+        dict(aanpak="Bij een eenmanszaak loopt het privévermogen mee, bij een vennootschap niet. Dat is het "
+                    "verschil tussen onbeperkte en beperkte aansprakelijkheid.",
+             waarom=[
+                 None,
+                 "Beperkt betekent beperkt tot wat je inbracht. Juist daarom kiezen de meeste starters "
+                 "vandaag voor een bv.",
+             ]),
+        dict(aanpak="Ga bij elke uitspraak terug naar de tabel van de eerste reeks. Daar staat het antwoord "
+                    "altijd in.",
+             waarom=[
+                 "Een bv kan sinds de hervorming met één oprichter. Dat was vroeger anders, dus kom je de "
+                 "oude regel nog tegen.",
+                 None, None,
+                 "Dat is net de bedoeling van een rechtspersoon: de vennootschap bestaat los van de mensen "
+                 "die haar oprichtten.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-balans-en-de-resultatenrekening-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Links staat wat het bedrijf bezit, rechts waar dat geld vandaan komt. Vast of vlottend "
+                    "hangt af van of het langer dan een jaar meegaat.",
+             waarom=[
+                 "Een softwarelicentie is een vast actief, al kan je ze niet vastpakken. Ze gaat meerdere "
+                 "jaren mee, en dat is wat telt.",
+             ]),
+        dict(aanpak="De balans is altijd in evenwicht: totaal actief is totaal passief. Ken je twee van de "
+                    "drie, dan vind je de derde.",
+             waarom=[None]),
+        dict(aanpak="Bedrijfsresultaat gaat over de gewone werking, financieel over geld lenen en "
+                    "beleggen. Alles wat met intrest te maken heeft, is financieel.",
+             waarom=[None]),
+        dict(aanpak="Reken van boven naar beneden: eerst het bedrijfsresultaat, dan het financiële, dan de "
+                    "winst voor belasting, dan de belasting, en ten slotte de nettowinst.",
+             waarom=[
+                 "Let op het financiële resultaat: de kosten zijn hier groter dan de opbrengsten, dus is "
+                 "het \\(-20\\,000\\) euro en trek je het af.",
+             ]),
+        dict(aanpak="Antwoord met het verschil tussen een moment en een periode, of tussen een uitgave en "
+                    "een kost.",
+             waarom=[
+                 "Dit is het matchingbeginsel: kosten horen in hetzelfde jaar als de opbrengsten die ze "
+                 "voortbrachten.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-dubbel-boekhouden-redeneerschema-journaal-en-grootboek-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Onthoud één regel: actief en kosten stijgen in debet, passief en opbrengsten stijgen "
+                    "in credit. Dalen doen ze telkens aan de andere kant.",
+             waarom=[
+                 "Leer die zes regels als één blok. Alles wat hierna komt, is er enkel een toepassing van.",
+             ]),
+        dict(aanpak="Werk elke verrichting af in drie stappen: welke rekeningen spelen mee, stijgen of "
+                    "dalen ze, en komen ze dus in debet of in credit.",
+             waarom=[
+                 "Let op het verschil tussen de aankoop en de betaling: bij de aankoop ontstaat de kost en "
+                 "de schuld, bij de betaling verdwijnt enkel de schuld.",
+             ]),
+        dict(aanpak="De klassen van het MAR volgen de balans: 1 tot 5 zijn balansrekeningen, 6 is kosten en "
+                    "7 is opbrengsten.",
+             waarom=[
+                 "Ken je enkel 6 en 7, dan weet je al of iets in de resultatenrekening of op de balans "
+                 "thuishoort.",
+             ]),
+        dict(aanpak="Bij een aankoop betaal je de btw en kan je ze terugvorderen; bij een verkoop ontvang "
+                    "je ze en moet je ze doorstorten. Reken met \\(1{,}21\\) voor het totaal.",
+             waarom=[
+                 None,
+                 "De btw is \\(1\\,500 \\cdot 0{,}21 = 315\\) euro. Die staat apart, want ze is niet van "
+                 "jou maar van de staat.",
+                 None,
+                 "Deze twee bedragen verrekent het bedrijf met elkaar in zijn btw-aangifte: ontvangen btw "
+                 "min betaalde btw.",
+             ]),
+        dict(aanpak="Ga bij elke uitspraak na of ze over het journaal (op datum) of over het grootboek (per "
+                    "rekening) gaat, en of er een kost of enkel een schuld verandert.",
+             waarom=[
+                 "Het journaal boekt op datum, het grootboek groepeert per rekening. Dezelfde boekingen, "
+                 "twee manieren om ze te ordenen.",
+                 "De kost ontstond al bij de factuur. Bij de betaling verhuist er enkel geld van de bank "
+                 "naar de leverancier.",
+                 "Een creditnota is een terugname, dus ze verlaagt je schuld. Daarom staat ze aan de "
+                 "tegengestelde kant van de factuur.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-facturen-kortingen-en-btw-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="De orde ligt vast en je mag er niet van afwijken: eerst de kortingen eraf, dan de "
+                    "doorgerekende kosten erbij, dan pas de btw, en de terugstuurbare verpakking helemaal "
+                    "op het einde.",
+             waarom=[
+                 "Het bedrag waarop je de btw rekent heet de maatstaf van heffing. Reken je de btw te "
+                 "vroeg, dan reken je ze ook op een korting die er nog af moet.",
+             ]),
+        dict(aanpak="Een handelskorting reken je op de brutoprijs, een financiële korting op wat er daarna "
+                    "overblijft. Nooit de twee percenten samentellen.",
+             waarom=[
+                 None,
+                 "Let op: de \\(2\\,\\%\\) gaat op \\(680\\) euro en niet op \\(800\\). Daarom mag je de "
+                 "kortingen nooit optellen tot \\(17\\,\\%\\).",
+                 None,
+             ]),
+        dict(aanpak="Werk de factuur regel per regel af in de vaste orde. Schrijf elk tussenbedrag op, dan "
+                    "vind je een fout meteen terug.",
+             waarom=[
+                 "De btw van \\(399\\) euro staat op \\(1\\,900\\) euro, dus na de korting en met het "
+                 "vervoer erbij. De verpakking van \\(150\\) euro komt er pas daarna bij, zonder btw.",
+             ]),
+        dict(aanpak="Alles wat je doorrekent aan de klant hoort in de maatstaf van heffing. Enkel de "
+                    "terugstuurbare verpakking valt erbuiten, want ze komt terug.",
+             waarom=[
+                 "Verpakking die niet terugkomt is wél belast. Het onderscheid zit dus in het terugsturen, "
+                 "niet in het woord verpakking.",
+             ]),
+        dict(aanpak="Drie soorten aankopen: om door te verkopen, om te gebruiken, of om jaren mee te "
+                    "werken. Dat laatste is een investeringsgoed.",
+             waarom=[
+                 "De vuistregel is de levensduur: gaat het meer dan een jaar mee en wordt het "
+                 "afgeschreven, dan is het een investering.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-bedrijfsstrategie-missie-visie-swot-en-stakeholders-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="De missie zegt wat je nu doet en voor wie, de visie waar je naartoe wil, en een "
+                    "doelstelling is dat concreet gemaakt in cijfers en tijd.",
+             waarom=[
+                 "Let op het verschil tussen visie en doelstelling: een visie is een beeld van de toekomst, "
+                 "een doelstelling is meetbaar en afgebakend in de tijd.",
+             ]),
+        dict(aanpak="Zet elk gegeven eerst intern of extern, en dan positief of negatief. Daarmee ligt het "
+                    "vak vast.",
+             waarom=[
+                 "Alles wat het bedrijf zelf in handen heeft, is een sterkte of een zwakte. Wat van buiten "
+                 "komt, is een kans of een bedreiging.",
+             ]),
+        dict(aanpak="De eerste twee letters van SWOT zijn intern, de laatste twee extern. Dat is de hele "
+                    "indeling.",
+             waarom=[None]),
+        dict(aanpak="Een stakeholder is iedereen die iets te winnen of te verliezen heeft bij wat het "
+                    "bedrijf doet. Noem bij elk zijn belang, want daar draait het om.",
+             waarom=[
+                 None,
+                 "Juist die botsing maakt besturen moeilijk: wat de ene wint, verliest de andere vaak. Een "
+                 "strategie is dus ook kiezen tussen belangen.",
+             ]),
+        dict(aanpak="Antwoord met wat een strategie oplevert, of met het verschil tussen binnen en buiten.",
+             waarom=[
+                 "Dat laatste is de kern: kiezen is ook kiezen wat je niet doet.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-marktonderzoek-doelgroep-en-de-marketingmix-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Twee vragen per onderzoek: verzamel je zelf nieuwe gegevens (primair) of gebruik je "
+                    "bestaande (secundair), en zoek je cijfers (kwantitatief) of motieven (kwalitatief).",
+             waarom=[
+                 "Kwantitatief antwoordt op hoeveel, kwalitatief op waarom. Een enquête met cijfers is het "
+                 "eerste, een gesprek in een groepje het tweede.",
+             ]),
+        dict(aanpak="Lees de letters als van wie naar wie: B is een bedrijf, C een consument. De eerste "
+                    "letter is de verkoper.",
+             waarom=[
+                 "Let op C2B: een particulier die aan een bedrijf verkoopt. Dat is net de omgekeerde "
+                 "richting van de gewone webshop.",
+             ]),
+        dict(aanpak="Vier P's: product is wat je verkoopt, prijs wat het kost, plaats hoe het bij de klant "
+                    "raakt, promotie hoe je het bekend maakt.",
+             waarom=[
+                 "Een korting is prijs, een actie van twee halen één betalen promotie. Het verschil zit in "
+                 "of de prijs zelf verandert of enkel tijdelijk een actie loopt.",
+             ]),
+        dict(aanpak="De vier C's zijn dezelfde vier P's, maar bekeken vanuit de klant. Leer ze als paren.",
+             waarom=[
+                 None,
+                 "Die omkering is de kern van de vier C's: niet wat het bedrijf doet, maar wat de klant "
+                 "ervaart.",
+             ]),
+        dict(aanpak="Segmenteren is de markt in groepen verdelen die op elkaar lijken. Daarna kies je de "
+                    "groep waarop je mikt.",
+             waarom=[
+                 None,
+                 "Dit is het argument vóór segmenteren: een scherpe boodschap voor een kleine groep werkt "
+                 "beter dan een vage voor iedereen.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-producten-merken-prijsstrategie-en-distributie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Vier soorten, naar hoeveel moeite de klant doet: convenience koopt hij zonder nadenken, "
+                    "shopping vergelijkt hij, speciality rijdt hij voor om, unsought zoekt hij liever niet.",
+             waarom=[
+                 "Een verzekering en een grafzerk zijn unsought: nodig, maar niemand gaat er met plezier "
+                 "naar op zoek. Daarom werken die sectoren met vertegenwoordigers.",
+             ]),
+        dict(aanpak="Breedte is het aantal verschillende lijnen, diepte het aantal varianten binnen één "
+                    "lijn. Komt er iets heel anders bij, dan is het breedte.",
+             waarom=[None]),
+        dict(aanpak="Twee vragen: blijft het in dezelfde productgroep, en blijft de naam dezelfde. "
+                    "Daarmee heb je de vier gevallen uit elkaar.",
+             waarom=[
+                 "Lijnextensie blijft in dezelfde groep, merkextensie springt naar een andere groep met "
+                 "dezelfde naam. Dat laatste is riskanter voor het merk.",
+             ]),
+        dict(aanpak="Vijf fasen, af te lezen aan de verkoopcurve: nog niets, net begonnen, snel stijgend, "
+                    "hoog en vlak, en dalend.",
+             waarom=[None]),
+        dict(aanpak="Prijsstrategie gaat over hoe je begint of hoe je je positioneert; distributie over hoe "
+                    "ruim je aanwezig bent. Let op het paar differentiatie en discriminatie.",
+             waarom=[
+                 "Prijsdifferentiatie hangt aan het moment of de omstandigheid, prijsdiscriminatie aan de "
+                 "persoon. Daarom is studentenkorting het tweede en een spitstarief het eerste.",
+                 None,
+             ]),
+    ],
+)
