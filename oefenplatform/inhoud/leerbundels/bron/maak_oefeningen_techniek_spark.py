@@ -1029,3 +1029,464 @@ OEFENBUNDELS["oefenbundel-algoritmen-en-computationeel-denken-spark"] = dict(
              ]),
     ],
 )
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-materialen-en-grondstoffen-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Volg de weg van de natuur naar de winkel: een grondstof komt uit de natuur, een "
+                    "materiaal is daaruit gemaakt, een product is er klaar mee.",
+             waarom=[None, None, None]),
+        dict(aanpak="Twee proeven, twee vragen. De geleidingsproef zegt of het een metaal is, de "
+                    "magneetproef zegt welk soort metaal.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Alleen ferrometalen, dus metalen met ijzer erin, worden door een magneet aangetrokken. "
+                 "Aluminium bevat geen ijzer.",
+             ]),
+        dict(aanpak="Een legering is een mengsel van metalen, gemaakt om iets te krijgen wat geen van "
+                    "de twee alleen heeft: sterker, harder of roestvrij.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Deel de eigenschappen in op de vraag die ze beantwoorden: mechanisch gaat over "
+                    "kracht, fysisch over natuurkundige grootheden, technologisch over bewerken.",
+             waarom=[None, None, None, None, None]),
+        dict(aanpak="Kijk bij een pictogram naar wat er getekend staat: een vlam, een druppel op een "
+                    "hand, een vis. Het beeld zegt het gevaar.",
+             waarom=[None, None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-energie-in-een-technisch-systeem-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je bij elke energievorm af waar de energie in zit: in de beweging, in de "
+                    "hoogte, in de stof zelf, of in de straling.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Schrijf elke omzetting als een pijl: van welke vorm naar welke vorm. Dan zie je "
+                    "meteen of je het goed hebt.",
+             waarom=[
+                 None,
+                 "Een motor zet elektriciteit om in beweging. Het omgekeerde doet een generator.",
+                 None,
+                 "Energie kan je alleen omzetten, niet maken of laten verdwijnen. Wat je er niet nuttig "
+                 "uit haalt, gaat weg als warmte of geluid.",
+             ]),
+        dict(aanpak="Nuttig is de energie waarvoor je het toestel kocht. Alles wat er nog bij komt, is "
+                    "niet-nuttig, meestal warmte of geluid.",
+             waarom=[
+                 None,
+                 None,
+                 "Bij een leeslamp is licht net wat je wil hebben, dus dat is de nuttige energie. De "
+                 "warmte van de lamp is de niet-nuttige.",
+             ]),
+        dict(aanpak="Eén vraag beslist: raakt de bron op? Steenkool, olie en gas wel, wind, zon en "
+                    "water niet.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Wind raakt niet op: hij wordt telkens opnieuw aangemaakt door de zon die de lucht "
+                 "opwarmt. Dat is net wat hernieuwbaar betekent.",
+                 None,
+             ]),
+        dict(aanpak="Denk bij deze vragen aan wat jij zelf in handen hebt, en bij de nadelen aan het "
+                    "moment waarop de energie binnenkomt.",
+             waarom=[
+                 None,
+                 None,
+                 "Het broeikaseffect is natuurlijk en nodig: zonder dat effect zou het op aarde ver "
+                 "onder nul zijn. Het probleem is dat het sterker wordt.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-elektrische-stroomkring-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Ga bij elk onderdeel na wat het met de stroom doet: sturen, tegenhouden, omzetten "
+                    "of doorgeven.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Een LED laat de stroom maar in één richting door. Zet je hem omgekeerd in de kring, "
+                 "dan brandt hij niet.",
+                 None,
+                 "Een open kring is onderbroken, dus er loopt geen stroom. Pas als de kring helemaal "
+                 "rond is, gaat er stroom lopen.",
+             ]),
+        dict(aanpak="Teken de kring: ligt alles op één lijn achter elkaar (serie), of heeft elk "
+                    "onderdeel zijn eigen tak (parallel)?",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Leer de vier koppels als paren: spanning in volt, stroomsterkte in ampère, "
+                    "weerstand in ohm, vermogen in watt.",
+             waarom=[
+                 None,
+                 "Weerstand wordt uitgedrukt in ohm. De ampère is de eenheid van stroomsterkte.",
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Hou de drie gevaren uit elkaar aan wat er misgaat: te veel stroom, een te korte "
+                    "weg, of stroom door een mens.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Dubbele isolatie is geen gereedschap maar een beveiliging: het toestel heeft twee "
+                 "lagen isolatie en heeft daarom geen aarding nodig.",
+             ]),
+        dict(aanpak="Elk gereedschap hoort bij één handeling aan een draad: strippen, verbinden, "
+                    "klemmen of knippen.",
+             waarom=[
+                 None,
+                 "Een kroonsteentje klemt twee draden vast met schroefjes. Doorknippen doe je met een "
+                 "zijsnijtang.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-informatieverwerkende-systemen-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Zet elk onderdeel op zijn plaats in de rij invoer, verwerking, uitvoer. Vraag je "
+                    "af: komt er iets binnen, wordt er beslist, of gaat er iets naar buiten?",
+             waarom=[
+                 None,
+                 None,
+                 "Een luidspreker geeft iets naar buiten, dus dat is uitvoer. Een microfoon zou invoer "
+                 "zijn.",
+                 None,
+             ]),
+        dict(aanpak="Een sensor meet alleen. Wat er daarna moet gebeuren, beslist de verwerking.",
+             waarom=[
+                 None,
+                 None,
+                 "Een sensor meet en geeft een signaal door, meer niet. De beslissing valt in de "
+                 "verwerking, bij de regeling of de processor.",
+             ]),
+        dict(aanpak="Analoog loopt vloeiend over, digitaal springt in stapjes. Kijk of er tussenwaarden "
+                    "bestaan.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Vertaal de zin eerst naar en of of: moeten beide voorwaarden kloppen, of volstaat "
+                    "er één?",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Leg elke situatie op het communicatiemodel: wie stuurt, waarlangs, wie krijgt het, "
+                    "en wat stoort.",
+             waarom=[
+                 None,
+                 None,
+                 "Ruis is net wat je niet wil: alles wat de boodschap onderweg verstoort. Je probeert ze "
+                 "zo klein mogelijk te houden.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-krachten-en-stevigheid-in-een-constructie-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Kijk wat de kracht met het materiaal doet: samendrukken, uitrekken, verdraaien of "
+                    "doorbuigen.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Zoek in elke constructie de driehoeken. Waar er geen zijn, kan de vorm nog "
+                    "vervormen.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "Bij dezelfde dikte zit er in een volle staaf méér materiaal, dus die is steviger. Een "
+                 "buis wint pas als je datzelfde materiaal in een dikkere buis steekt.",
+             ]),
+        dict(aanpak="Schrijf de bewerking op met de eenheid erbij. Druk is altijd kracht gedeeld door "
+                    "oppervlakte.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Zoek bij elke hefboom eerst het steunpunt. Daarna zie je vanzelf welke arm lang is "
+                    "en welke kort.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Stabiliteit hangt van twee dingen af: hoe breed het steunvlak is en hoe laag het "
+                    "zwaartepunt ligt.",
+             waarom=[None, None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-verbinden-afwerken-en-veilig-werken-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Eén vraag beslist: kan je de verbinding weer openmaken zonder iets te breken? Dan "
+                    "is ze los.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "Klittenband is wel degelijk een verbinding, en een losse: je trekt het open en het "
+                 "houdt daarna nog altijd.",
+             ]),
+        dict(aanpak="Leer de houtverbindingen aan hun vorm: schuin afgezaagd, met pinnetjes, of "
+                    "draaiend.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Kijk bij elke techniek of de laag doorschijnend is of dekkend, en of ze "
+                    "beschermt of kleurt.",
+             waarom=[
+                 None,
+                 None,
+                 "Beits trekt in het hout en laat de nerf zichtbaar. Een dekkende laag krijg je met "
+                 "verf.",
+             ]),
+        dict(aanpak="De regel in een werkplaats: eerst de machine spanningsloos, dan pas je handen "
+                    "erbij. En een PBM draag je vóór het misgaat, niet erna.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 None,
+                 "Water geleidt stroom. Natte handen aan een elektrisch toestel is net de situatie waarin "
+                 "een stroomstoot door je lichaam gaat.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Het verschil zit in de aandrijving: komt de beweging van een motor of van jou?",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Buiten het meetbereik meet het toestel niet alleen fout, je kan het ook beschadigen. "
+                 "Kort duren verandert daar niets aan.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-meten-eenheden-en-modelvoorstellingen-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Kies je meetinstrument naar wat je meet: een hoeveelheid, een lengte, een massa of "
+                    "iets elektrisch.",
+             waarom=[
+                 None,
+                 "Een stappenplan zegt wat je moet doen, het meet niets. Een meetinstrument geeft een "
+                 "getal met een eenheid.",
+             ]),
+        dict(aanpak="Leer grootheid, symbool en eenheid altijd als drietal. Het symbool is schuin, de "
+                    "eenheid rechtop.",
+             waarom=[None, None, None]),
+        dict(aanpak="De voorvoegsels gaan telkens met tien, honderd of duizend. Zet ze op een rij van "
+                    "klein naar groot: milli, centi, deci, basis, deca, hecto, kilo.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Werk in drie stappen: eerst de formule, dan de bewerking, dan het antwoord met de "
+                    "eenheid. Die eenheid is punten waard.",
+             waarom=[
+                 None,
+                 None,
+                 "Let op de eenheid: lengte in cm, oppervlakte in cm², volume in cm³. Het aantal "
+                 "afmetingen dat je vermenigvuldigt, is het getalletje erbij.",
+                 None,
+             ]),
+        dict(aanpak="Lees een schaal als een verhouding tekening staat tot werkelijkheid. Staat het "
+                    "grootste getal links, dan is de tekening groter dan het echte voorwerp.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Een aanzicht is wat je ziet vanuit één richting. Zet je in gedachten op die plaats "
+                    "en kijk recht vooruit.",
+             waarom=[
+                 None,
+                 None,
+                 "Een conceptschets is een eerste idee, bedoeld om weg te gooien of bij te werken. Het "
+                 "definitieve plan is het detailontwerp of de werktekening.",
+                 None,
+                 "Een functiedriehoek is geen tekening maar een manier om een ontwerp te doordenken: "
+                 "functie, materiaal, bewerking en vorm hangen aan elkaar vast.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-transport-en-overbrengingen-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Zoek bij elke overbrenging eerst waar de beweging vandaan komt. Dat is de drijver; "
+                    "wat erachter ligt, is de volger.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "De volger krijgt de beweging. Geven doet de drijver.",
+             ]),
+        dict(aanpak="Elke overbrenging heeft haar sterke en haar zwakke kant. Vraag je af of ze kan "
+                    "slippen, en of ze kracht of snelheid wint.",
+             waarom=[None, None, None, None, None]),
+        dict(aanpak="De vuistregel: klein drijft groot wordt trager, groot drijft klein wordt sneller. "
+                    "Tel de tanden om het zeker te weten.",
+             waarom=[
+                 None,
+                 "Meer tanden betekent trager draaien. Het wiel moet immers meer tanden laten passeren "
+                 "voor het één keer rond is.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Deel het aantal tanden van het grote wiel door dat van het kleine. Dat getal zegt "
+                    "hoeveel keer sneller of trager het draait.",
+             waarom=[None, None, None]),
+        dict(aanpak="Twee tandwielen die elkaar raken, duwen elkaar de andere kant op. Een riem trekt "
+                    "allebei dezelfde kant op, tenzij hij gekruist is.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Bij een hefboom, een katrol en een versnelling geldt telkens hetzelfde: kracht "
+                    "winnen kost weg of snelheid.",
+             waarom=[
+                 None,
+                 None,
+                 "Eén vaste katrol verandert alleen de richting. Met meerdere katrollen samen til je ook "
+                 "met minder kracht, maar je trekt wel een langer stuk touw.",
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-biotechnische-systemen-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Bij fermenteren laat je micro-organismen juist hun gang gaan. Vraag je telkens af "
+                    "welk van de drie het werk doet.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Ook kaas wordt met bacteriën en soms met schimmels gemaakt. Denk aan de blauwe aders "
+                 "in blauwe kaas.",
+                 None,
+             ]),
+        dict(aanpak="Elke bewaartechniek neemt bacteriën iets af: water, lucht of warmte. Zoek bij elke "
+                    "techniek wat er weggehaald wordt.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 None,
+                 None,
+                 "Vacuüm verpakken haalt de lucht er juist uit. Zonder zuurstof groeien veel bacteriën "
+                 "veel trager.",
+             ]),
+        dict(aanpak="Lees een etiket altijd op drie dingen: wat zit erin, waar moet je voor opletten, "
+                    "en tot wanneer.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "Ten minste houdbaar tot gaat over de kwaliteit: daarna mag je het nog eten. Te "
+                 "gebruiken tot gaat over de veiligheid: daarna niet meer.",
+             ]),
+        dict(aanpak="Het FAVV controleert de hele keten, van het veld tot in de winkel.",
+             waarom=[None, None]),
+        dict(aanpak="Een verpakking doet drie dingen tegelijk: beschermen, bewaren en informeren. Zoek "
+                    "bij elke vraag welke van de drie bedoeld wordt.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "Het Groenpuntlogo betekent alleen dat de producent betaalt voor de inzameling en de "
+                 "verwerking van die verpakking. Het zegt niets over gerecycleerd materiaal.",
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-het-technisch-proces-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Leer de vijf fasen als een verhaal: eerst weten wat nodig is, dan tekenen, dan "
+                    "maken, dan testen, dan bijsturen.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Het technisch proces geldt voor élk technisch systeem: ook voor een transportsysteem, "
+                 "een informatieverwerkend systeem of een biotechnisch systeem.",
+             ]),
+        dict(aanpak="In de eerste fase schrijf je nog niets over de oplossing op, alleen over het "
+                    "probleem en over de eisen.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Criteria stel je vooraf op: ze zijn net de meetlat waarmee je achteraf nagaat of je "
+                 "systeem voldoet.",
+             ]),
+        dict(aanpak="In de ontwerpfase ligt alles vast voor er iets gemaakt wordt: de tekening, het "
+                    "materiaal, het gereedschap en de volgorde.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Het stappenplan is net je werkvolgorde. Achteraf opstellen heeft geen zin meer.",
+             ]),
+        dict(aanpak="Onthoud waar je terugkeert bij een fout: naar de fase waar het misliep, niet "
+                    "telkens naar het begin.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="STEM staat voor vier letters die elk een vakgebied zijn. Een goed ontwerp leunt op "
+                    "meer dan één ervan.",
+             waarom=[
+                 None,
+                 "De T van STEM is techniek, maar de S, de E en de M zijn wetenschappen, engineering en "
+                 "wiskunde. Het gaat juist om de combinatie.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Probleemoplossend ontwerpen begint altijd met het probleem scherp krijgen. Pas "
+                    "daarna mag je aan een oplossing denken.",
+             waarom=[None, None, None, None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-algoritmen-en-computationeel-denken-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Een algoritme is gewoon een stappenplan. Vraag je af of de stappen vastliggen en "
+                    "of de volgorde ertoe doet.",
+             waarom=[
+                 None,
+                 None,
+                 "Een recept en een stappenplan zijn evengoed algoritmen. Een computer is niet nodig, "
+                 "alleen vaste stappen in een vaste volgorde.",
+                 None,
+                 "De volgorde is net de kern. Eerst boteren en dan snijden geeft een andere boterham dan "
+                 "omgekeerd.",
+                 None,
+             ]),
+        dict(aanpak="Ontwerp in vaste stappen: het probleem benoemen, het met IPO uiteenleggen, het "
+                    "tekenen, het programmeren, het testen.",
+             waarom=[None, None, None, None, None, None, None]),
+        dict(aanpak="De vier principes zijn vier manieren om een groot probleem klein te maken. Zoek "
+                    "bij elke vraag welke je hier gebruikt.",
+             waarom=[
+                 None,
+                 None,
+                 "Abstractie is net het omgekeerde: je laat weg wat er niet toe doet, zodat de kern "
+                 "overblijft.",
+                 None,
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Testen hoort bij het werk. Een algoritme dat je nooit uitvoerde, weet je ook niet "
+                    "of het werkt.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Veel fouten zie je pas als je het programma laat lopen. Daarom test je altijd, ook als "
+                 "de code er juist uitziet.",
+                 "Efficiënt betekent met zo weinig mogelijk stappen tot hetzelfde resultaat komen.",
+                 None,
+                 None,
+             ]),
+    ],
+)
