@@ -63,11 +63,13 @@ VRAGEN = [
         "opties": [
             "Een muntstuk geslagen in het jaar 50 n.C.",
             "Een brief van een Romeinse soldaat aan zijn familie",
+            "Een grafsteen met een Romeinse inscriptie erop",
+            "Een stuk muur van een Romeinse villa",
             "Een film over Rome die in het jaar 2000 gemaakt is",
             "Een schoolboek over Rome uit het jaar 1950",
         ],
-        "antwoord": [0, 1],
-        "uitleg": "Een primaire bron komt uit de tijd zelf. De munt en de brief zijn dat; de film en het schoolboek zijn later gemaakt en dus secundair.",
+        "antwoord": [0, 1, 2, 3],
+        "uitleg": "Een primaire bron komt uit de tijd zelf: de munt, de brief, de grafsteen en het stuk muur van een villa. De film en het schoolboek zijn later gemaakt en dus secundair.",
     },
     {
         "type": "waarofniet",

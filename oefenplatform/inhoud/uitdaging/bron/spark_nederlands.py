@@ -15,11 +15,12 @@ VRAGEN = [
         "opties": [
             "Ik wordt morgen opgehaald door mijn tante.",
             "Zij antwoord altijd meteen op mijn berichten.",
+            "Ik vindt dat een goed idee.",
             "Hij heeft het probleem gisteren opgelost.",
             "Wij hebben het hele verhaal al verteld.",
         ],
-        "antwoord": [0, 1],
-        "uitleg": "Bij 'ik' komt er nooit een -t bij: ik word. Bij 'zij' komt er net wél een -t bij: zij antwoordt. De andere zinnen kloppen.",
+        "antwoord": [0, 1, 2],
+        "uitleg": "Bij 'ik' komt er nooit een -t bij: ik word, ik vind. Bij 'zij' komt er net wél een -t bij: zij antwoordt. De andere zinnen kloppen.",
     },
     {
         "type": "meerkeuze",

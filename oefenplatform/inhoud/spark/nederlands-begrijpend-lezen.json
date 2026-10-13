@@ -330,13 +330,17 @@
             "Twee wielen van gelijke grootte",
             "Aandrijving van het achterwiel met een ketting",
             "Een band die met lucht gevuld was in plaats van massief te zijn",
-            "Een stuur dat kon draaien"
+            "Een stuur dat kon draaien",
+            "De trappers tussen de twee wielen in",
+            "Een overbrenging die je met de tandwielen kon kiezen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
-          "uitleg": "De luchtband kwam pas in 1888, en een draaibaar stuur bestond al sinds 1817."
+          "uitleg": "De luchtband kwam pas in 1888, en een draaibaar stuur bestond al sinds 1817. De plaats van de trappers en de keuze van de overbrenging horen er wel bij."
         },
         {
           "type": "invultekst",
@@ -387,13 +391,15 @@
             "Werken in een dorp waar je niet woont",
             "Vrouwen die zich alleen konden verplaatsen",
             "Het einde van het treinverkeer op de korte afstanden",
-            "Goedkopere postbedeling"
+            "Goedkopere postbedeling",
+            "Familie bezoeken zonder een dag te verliezen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
-          "uitleg": "Over treinen en post zegt de tekst niets."
+          "uitleg": "Over treinen en post zegt de tekst niets. Werken in een ander dorp, familie bezoeken en vrouwen die zich alleen verplaatsten, staan er wel in."
         },
         {
           "type": "meerkeuze",
