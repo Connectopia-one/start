@@ -30,11 +30,11 @@ DEEL1 = [
         opties=[
             "de oorschelp",
             "de gehoorgang",
-            "het trommelvel",
+            "het slakkenhuis",
             "de gehoorbeentjes",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Oorschelp, gehoorgang en trommelvel vormen het uitwendige oor. De gehoorbeentjes liggen er net achter, in het middenoor.",
+        antwoord=[0, 1],
+        uitleg="Oorschelp, gehoorgang en trommelvel vormen het uitwendige oor. De gehoorbeentjes liggen in het middenoor en het slakkenhuis in het inwendige oor.",
     ),
     dict(
         type="meerkeuze",
@@ -146,8 +146,9 @@ DEEL1 = [
             "een gaatje in het trommelvel",
             "vocht in het middenoor na een ontsteking",
             "beschadigde haarcellen in het slakkenhuis",
+            "vastgegroeide gehoorbeentjes",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Bij geleidingsslechthorendheid raakt het geluid niet goed tot in het inwendige oor. Beschadigde haarcellen geven een andere soort slechthorendheid.",
     ),
     dict(
@@ -309,11 +310,11 @@ DEEL2 = [
         opties=[
             "de signalen van het evenwichtsorgaan",
             "wat je ogen zien",
-            "de rek in spieren en gewrichten",
+            "de geur in de lucht",
             "de toonhoogte van het geluid om je heen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Oor, ogen en lichaamsgevoel leveren elk een stuk, en de kleine hersenen leggen die samen. Geluid speelt daarbij geen rol.",
+        antwoord=[0, 1],
+        uitleg="Oor, ogen en het gevoel in spieren en gewrichten leveren elk een stuk, en de kleine hersenen leggen die samen. Geluid en geur spelen daarbij geen rol.",
     ),
     dict(
         type="meerkeuze",
@@ -377,8 +378,9 @@ DEEL2 = [
             "ze zetten die beweging om in zenuwimpulsen",
             "ze liggen beide in het inwendige oor",
             "ze reageren beide op de toonhoogte van geluid",
+            "een omgebogen haartje wekt bij beide een impuls op",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Het is in beide gevallen hetzelfde principe: een haartje dat omgebogen wordt, wekt een impuls op. Enkel de haarcellen in het slakkenhuis gaan over toonhoogte.",
     ),
     dict(

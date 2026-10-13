@@ -74,8 +74,9 @@ DEEL1 = [
             "fotosynthese slaat energie op en celademhaling maakt ze vrij",
             "een plantencel doet beide",
             "een dierlijke cel doet beide",
+            "beide gebeuren in de cel zelf",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een plant doet fotosynthese én ademt, want ook zij heeft energie nodig. Een dierlijke cel doet enkel celademhaling.",
     ),
     dict(
@@ -144,10 +145,10 @@ DEEL1 = [
         opties=[
             "koolhydraten",
             "vetten",
-            "proteïnen",
+            "vitaminen",
             "mineralen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1],
         uitleg="Koolhydraten, vetten en proteïnen kan het lichaam afbreken voor energie. Mineralen en vitaminen zijn nodig, maar leveren geen energie.",
     ),
     dict(

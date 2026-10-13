@@ -116,12 +116,14 @@
             "de worteldruk die van onderaf duwt",
             "de transpiratiezuiging die van bovenaf trekt",
             "de capillariteit in de nauwe houtvaten",
-            "de zwaartekracht die op de waterkolom werkt"
+            "de zwaartekracht die op de waterkolom werkt",
+            "de samenhang tussen de watermoleculen onderling"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Duwen van onder, trekken van boven en de hechting in nauwe buisjes werken samen. De zwaartekracht werkt juist tegen: zij trekt het water naar beneden."
         },
@@ -233,15 +235,14 @@
           "opties": [
             "de epidermis",
             "de cuticula of waslaag",
-            "de bast",
+            "het floëem",
             "het xyleem"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Epidermis, cuticula en bast bedekken de plant aan de buitenkant. Het xyleem is transportweefsel en ligt juist binnenin."
+          "uitleg": "De epidermis en de cuticula bedekken de plant aan de buitenkant, en de bast hoort er ook bij. Het xyleem en het floëem zijn transportweefsel en liggen juist binnenin."
         },
         {
           "type": "invultekst",
@@ -334,12 +335,14 @@
             "water is zelf een grondstof van de fotosynthese",
             "open huidmondjes laten de koolstofdioxide binnen",
             "het watertransport brengt mineralen naar het blad",
-            "water geeft het blad zijn groene kleurstof"
+            "water geeft het blad zijn groene kleurstof",
+            "water houdt de cellen stevig door de turgor"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Water is grondstof, de huidmondjes staan alleen open als er water genoeg is, en de waterstroom voert mineralen aan. De groene kleur komt van chlorofyl, niet van water."
         },
@@ -466,15 +469,14 @@
           "opties": [
             "een skeletspier in de arm",
             "een zweetklier in de huid",
-            "de hartspier",
+            "een zintuigcel in het oog",
             "een tastreceptor in de vingertop"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Spieren en klieren voeren uit, dus zijn effectoren. Een tastreceptor vangt juist op en staat aan het begin van de weg."
+          "uitleg": "Spieren en klieren voeren uit, dus zijn het effectoren, de hartspier ook. Een tastreceptor en een zintuigcel in het oog vangen juist op en staan aan het begin van de weg."
         },
         {
           "type": "waarofniet",
@@ -559,12 +561,14 @@
             "een reflex verloopt sneller dan een bewuste reactie",
             "bij een bewuste reactie komen de grote hersenen tussen",
             "een reflex schakelt over in het ruggemerg of de hersenstam",
-            "een reflex gebruikt geen zenuwcellen en een bewuste reactie wel"
+            "een reflex gebruikt geen zenuwcellen en een bewuste reactie wel",
+            "bij een reflex komt nadenken er niet aan te pas"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Beide gebruiken zenuwcellen, dat is net het punt. Het verschil zit in waar de boodschap overschakelt en of je erbij nadenkt."
         },
@@ -602,15 +606,14 @@
           "opties": [
             "tastreceptoren",
             "temperatuurreceptoren",
-            "pijnreceptoren",
+            "reukreceptoren",
             "lichtreceptoren"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De huid voelt aanraking, warmte en koude, en pijn. Lichtreceptoren zitten in het netvlies van het oog."
+          "uitleg": "De huid voelt aanraking, warmte en koude, en pijn. Licht- en reukreceptoren zitten in het oog en in de neus."
         },
         {
           "type": "waarofniet",
@@ -674,16 +677,15 @@
           "vraag": "Welke delen onderscheidt men bij de hersenen? Kruis alles aan wat juist is.",
           "opties": [
             "de grote hersenen",
-            "de kleine hersenen",
+            "het evenwichtsorgaan",
             "de hersenstam",
             "het ruggemerg"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Grote hersenen, kleine hersenen en hersenstam liggen in de schedel. Het ruggemerg ligt in de wervelkolom en hoort er dus niet bij."
+          "uitleg": "Grote hersenen, kleine hersenen en hersenstam liggen in de schedel. Het ruggemerg ligt in de wervelkolom en het evenwichtsorgaan in het oor."
         },
         {
           "type": "meerkeuze",
@@ -722,12 +724,14 @@
             "het cellichaam met de kern",
             "de dendrieten",
             "het axon met zijn eindknopjes",
-            "de vacuole"
+            "de vacuole",
+            "de myelineschede rond het axon"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een neuron heeft een cellichaam, korte dendrieten die opvangen en één lang axon dat doorgeeft. Een vacuole is iets van plantencellen."
         },
@@ -815,15 +819,14 @@
           "opties": [
             "het geleidt signalen tussen de hersenen en het lichaam",
             "het schakelt reflexen over zonder omweg langs de hersenen",
-            "het ligt beschut in de wervelkolom",
+            "het ligt beschut in de schedel",
             "het maakt de hormonen aan die de groei regelen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het ruggemerg is snelweg en schakelstation in één, beschut door de wervels. Hormonen komen van klieren, niet van het ruggemerg."
+          "uitleg": "Het ruggemerg is snelweg en schakelstation in één, beschut door de wervels en niet door de schedel. Hormonen komen van klieren, niet van het ruggemerg."
         },
         {
           "type": "waarofniet",
@@ -925,15 +928,14 @@
           "opties": [
             "het harde oogvlies",
             "het vaatvlies",
-            "het netvlies",
+            "de lens",
             "het glasachtig lichaam"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Van buiten naar binnen: harde oogvlies, vaatvlies, netvlies. Het glasachtig lichaam is geen laag van de wand maar de vulling binnenin."
+          "uitleg": "Van buiten naar binnen: harde oogvlies, vaatvlies, netvlies. Het glasachtig lichaam en de lens zijn geen laag van de wand maar zitten binnenin."
         },
         {
           "type": "meerkeuze",
@@ -994,12 +996,14 @@
             "het hoornvlies",
             "de lens",
             "het kamervocht",
-            "de iris"
+            "de iris",
+            "het glasachtig lichaam"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Hoornvlies, kamervocht en lens zijn doorzichtig en buigen het licht. De iris laat licht alleen door of houdt het tegen."
         },
@@ -1102,15 +1106,14 @@
           "opties": [
             "ze werken ook bij weinig licht",
             "ze geven geen kleur door",
-            "ze liggen vooral buiten het midden van het netvlies",
+            "ze liggen vooral in de gele vlek",
             "ze geven het scherpste beeld van het hele netvlies"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Staafjes zijn gevoelig maar zien grijs, en liggen vooral aan de zijkant. Het scherpste beeld komt van de kegeltjes in de gele vlek."
+          "uitleg": "Staafjes zijn gevoelig maar zien grijs, en ze liggen vooral aan de zijkant, niet in de gele vlek. Het scherpste beeld komt van de kegeltjes in die gele vlek."
         },
         {
           "type": "invultekst",
@@ -1274,12 +1277,14 @@
             "het licht valt op een staafje of kegeltje in het netvlies",
             "die cel wekt een zenuwimpuls op",
             "de oogzenuw brengt de impuls naar de hersenen",
-            "de iris zet de impuls om in een beeld"
+            "de iris zet de impuls om in een beeld",
+            "de hersenen maken er een beeld van"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Opvangen, omzetten, doorgeven en in de hersenen verwerken. De iris doet daar niet aan mee; die regelt enkel het licht."
         },
@@ -1314,15 +1319,14 @@
           "opties": [
             "de oorschelp",
             "de gehoorgang",
-            "het trommelvel",
+            "het slakkenhuis",
             "de gehoorbeentjes"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Oorschelp, gehoorgang en trommelvel vormen het uitwendige oor. De gehoorbeentjes liggen er net achter, in het middenoor."
+          "uitleg": "Oorschelp, gehoorgang en trommelvel vormen het uitwendige oor. De gehoorbeentjes liggen in het middenoor en het slakkenhuis in het inwendige oor."
         },
         {
           "type": "meerkeuze",
@@ -1444,12 +1448,14 @@
             "een prop oorsmeer in de gehoorgang",
             "een gaatje in het trommelvel",
             "vocht in het middenoor na een ontsteking",
-            "beschadigde haarcellen in het slakkenhuis"
+            "beschadigde haarcellen in het slakkenhuis",
+            "vastgegroeide gehoorbeentjes"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Bij geleidingsslechthorendheid raakt het geluid niet goed tot in het inwendige oor. Beschadigde haarcellen geven een andere soort slechthorendheid."
         },
@@ -1623,15 +1629,14 @@
           "opties": [
             "de signalen van het evenwichtsorgaan",
             "wat je ogen zien",
-            "de rek in spieren en gewrichten",
+            "de geur in de lucht",
             "de toonhoogte van het geluid om je heen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Oor, ogen en lichaamsgevoel leveren elk een stuk, en de kleine hersenen leggen die samen. Geluid speelt daarbij geen rol."
+          "uitleg": "Oor, ogen en het gevoel in spieren en gewrichten leveren elk een stuk, en de kleine hersenen leggen die samen. Geluid en geur spelen daarbij geen rol."
         },
         {
           "type": "meerkeuze",
@@ -1698,12 +1703,14 @@
             "ze vangen beweging van vloeistof op",
             "ze zetten die beweging om in zenuwimpulsen",
             "ze liggen beide in het inwendige oor",
-            "ze reageren beide op de toonhoogte van geluid"
+            "ze reageren beide op de toonhoogte van geluid",
+            "een omgebogen haartje wekt bij beide een impuls op"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het is in beide gevallen hetzelfde principe: een haartje dat omgebogen wordt, wekt een impuls op. Enkel de haarcellen in het slakkenhuis gaan over toonhoogte."
         },
@@ -1750,15 +1757,14 @@
           "opties": [
             "je kan het met je wil aansturen",
             "het ziet onder de microscoop gestreept uit",
-            "het hecht met pezen aan de botten vast",
+            "het ligt in de wand van de darm",
             "het trekt samen zonder dat je het kan beslissen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een skeletspier is willekeurig: jij beslist. Dat laatste geldt juist voor glad spierweefsel en voor de hartspier."
+          "uitleg": "Een skeletspier is willekeurig, ziet gestreept uit en hecht met pezen aan de botten. Samentrekken zonder dat je het beslist, en in een darmwand liggen, hoort bij glad spierweefsel."
         },
         {
           "type": "waarofniet",
@@ -1881,12 +1887,14 @@
             "een prikkel van een motorische zenuwcel",
             "energie uit de celademhaling",
             "calciumionen in de cel",
-            "licht dat op de vezel valt"
+            "licht dat op de vezel valt",
+            "zuurstof om die energie te maken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een zenuwsignaal laat calcium vrijkomen, en met energie uit de celademhaling kan de myosine dan werken. Licht komt er niet bij te pas."
         },
@@ -1976,16 +1984,15 @@
           "vraag": "Welke van deze zijn klieren zonder afvoergang? Kruis alles aan wat juist is.",
           "opties": [
             "de schildklier",
-            "de bijnier",
+            "de speekselklier",
             "de eilandjes van Langerhans in de pancreas",
             "de zweetklier in de huid"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Die drie geven hun hormoon rechtstreeks aan het bloed. Een zweetklier heeft wel een afvoergang en loost op de huid."
+          "uitleg": "De schildklier en de eilandjes van Langerhans geven hun hormoon rechtstreeks aan het bloed, de bijnier ook. Een zweet- of speekselklier heeft wel een afvoergang."
         },
         {
           "type": "waarofniet",
@@ -2090,12 +2097,14 @@
             "de hartslag versnelt",
             "de pupillen worden groter",
             "er komt glucose uit de lever vrij",
-            "de spijsvertering versnelt sterk"
+            "de spijsvertering versnelt sterk",
+            "de ademhaling versnelt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Alles wat voor onmiddellijke actie dient, gaat omhoog. De spijsvertering gaat net op een lager pitje, want die kan wachten."
         },
@@ -2197,15 +2206,14 @@
           "opties": [
             "eicellen laten rijpen",
             "oestrogeen afgeven",
-            "progesteron afgeven",
+            "de eicel bevruchten",
             "de bevruchte eicel laten innestelen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De eierstok levert de eicel en de twee hormonen die de cyclus sturen. Het innestelen gebeurt in het baarmoederslijmvlies."
+          "uitleg": "De eierstok laat de eicel rijpen en geeft oestrogeen en progesteron af. De bevruchting gebeurt in de eileider en het innestelen in het baarmoederslijmvlies."
         },
         {
           "type": "meerkeuze",
@@ -2282,12 +2290,14 @@
             "zuurstof",
             "voedingsstoffen",
             "alcohol en nicotine",
-            "rode bloedcellen van de moeder"
+            "rode bloedcellen van de moeder",
+            "geneesmiddelen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Kleine moleculen gaan door, en dus ook schadelijke. Bloedcellen zijn te groot en blijven aan de kant van de moeder."
         },
@@ -2336,15 +2346,14 @@
           "opties": [
             "de geslachtsklieren beginnen hormonen af te geven",
             "de geslachtsorganen worden rijp",
-            "er ontstaan secundaire geslachtskenmerken",
+            "het lichaam stopt met groeien",
             "het aantal chromosomen in de lichaamscellen verdubbelt"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De puberteit maakt het lichaam geschikt voor voortplanting, onder leiding van hormonen. Het aantal chromosomen blijft levenslang hetzelfde."
+          "uitleg": "De puberteit maakt het lichaam geschikt voor voortplanting, met rijpe geslachtsorganen en secundaire geslachtskenmerken. Groeien gaat juist sneller, en het aantal chromosomen blijft levenslang hetzelfde."
         },
         {
           "type": "waarofniet",
@@ -2565,12 +2574,14 @@
             "een lichte stijging van de lichaamstemperatuur",
             "een verandering van het baarmoederhalsslijm",
             "soms een lichte pijn in de onderbuik",
-            "een daling van het aantal rode bloedcellen"
+            "een daling van het aantal rode bloedcellen",
+            "een piek van LH in het bloed"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Temperatuur, slijm en soms een steek zijn de klassieke tekens. Met het aantal rode bloedcellen heeft de ovulatie niets te maken."
         },
@@ -2613,19 +2624,18 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Op welke drie niveaus kan je biodiversiteit bekijken? Kruis alles aan wat juist is.",
+          "vraag": "Op welke niveaus kan je biodiversiteit bekijken? Kruis alles aan wat juist is.",
           "opties": [
             "de variatie binnen een soort",
             "het aantal verschillende soorten",
-            "de verscheidenheid aan ecosystemen",
+            "het aantal natuurparken in Europa",
             "het aantal dierentuinen in een land"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Genen, soorten en ecosystemen: dat zijn de drie niveaus. Dierentuinen bewaren wel soorten, maar zijn zelf geen niveau van biodiversiteit."
+          "uitleg": "Genen, soorten en ecosystemen zijn de drie niveaus. Dierentuinen en natuurparken bewaren wel soorten, maar zijn zelf geen niveau van biodiversiteit."
         },
         {
           "type": "meerkeuze",
@@ -2680,12 +2690,14 @@
             "het verdwijnen en versnipperen van leefgebieden",
             "vervuiling van bodem, water en lucht",
             "het binnenbrengen van soorten die er niet thuishoren",
-            "het aanleggen van natuurgebieden"
+            "het aanleggen van natuurgebieden",
+            "de klimaatverandering"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Leefgebied, vervuiling en invasieve soorten zijn de grote bedreigingen. Natuurgebieden werken net de andere richting uit."
         },
@@ -2736,12 +2748,14 @@
             "de bacteriën",
             "de schimmels",
             "de planten en de dieren",
-            "de mineralen"
+            "de mineralen",
+            "de eencellige organismen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Bacteriën, schimmels, planten, dieren en eencellige organismen zijn levende rijken. Mineralen leven niet en horen er dus niet bij."
         },
@@ -2839,12 +2853,14 @@
             "ze bestaat uit één cel",
             "ze heeft geen echte celkern",
             "ze kan zich zelf delen en zo vermeerderen",
-            "ze heeft een gastheercel nodig om zich te vermeerderen"
+            "ze heeft een gastheercel nodig om zich te vermeerderen",
+            "ze heeft een celwand rond haar membraan"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een bacterie is een volwaardige cel zonder kern en kan zich zelfstandig delen. Een gastheer nodig hebben is net het kenmerk van een virus."
         },
@@ -2944,15 +2960,14 @@
           "opties": [
             "de onbeschadigde huid",
             "het zuur in de maag",
-            "het slijm in de luchtwegen",
+            "het vet onder de huid",
             "het skelet van de romp"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Huid, maagzuur en slijmvliezen vormen de eerste verdedigingslinie. Het skelet heeft daar geen rol in."
+          "uitleg": "Huid, maagzuur en slijmvliezen vormen de eerste verdedigingslinie. Het skelet en het vet onder de huid hebben daar geen rol in."
         },
         {
           "type": "meerkeuze",
@@ -3128,12 +3143,14 @@
             "gewenning",
             "conditionering",
             "leren door nadoen",
-            "leren door erfelijkheid"
+            "leren door erfelijkheid",
+            "leren door te proberen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Gewenning, conditionering, nadoen en leren door proberen zijn vormen van leren. Erfelijkheid geeft net het aangeboren gedrag door, dat niet geleerd wordt."
         },
@@ -3324,15 +3341,14 @@
           "opties": [
             "een bij en een bloem",
             "een korstmos, waarin een alg en een schimmel samenleven",
-            "de bacteriën in onze darm en wij",
+            "een vlo en een hond",
             "een lintworm en zijn gastheer"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "In die drie winnen beide partijen. Een lintworm leeft op kosten van zijn gastheer en is dus een parasiet."
+          "uitleg": "Bij een bij en een bloem en bij een korstmos winnen beide partijen, en bij de bacteriën in onze darm ook. Een lintworm en een vlo leven op kosten van hun gastheer en zijn dus parasieten."
         },
         {
           "type": "invultekst",
@@ -3554,12 +3570,14 @@
             "de producten van het ene zijn de grondstoffen van het andere",
             "fotosynthese slaat energie op en celademhaling maakt ze vrij",
             "een plantencel doet beide",
-            "een dierlijke cel doet beide"
+            "een dierlijke cel doet beide",
+            "beide gebeuren in de cel zelf"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een plant doet fotosynthese én ademt, want ook zij heeft energie nodig. Een dierlijke cel doet enkel celademhaling."
         },
@@ -3637,13 +3655,12 @@
           "opties": [
             "koolhydraten",
             "vetten",
-            "proteïnen",
+            "vitaminen",
             "mineralen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
           "uitleg": "Koolhydraten, vetten en proteïnen kan het lichaam afbreken voor energie. Mineralen en vitaminen zijn nodig, maar leveren geen energie."
         },

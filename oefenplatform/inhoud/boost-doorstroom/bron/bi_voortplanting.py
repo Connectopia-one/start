@@ -44,11 +44,11 @@ DEEL1 = [
         opties=[
             "eicellen laten rijpen",
             "oestrogeen afgeven",
-            "progesteron afgeven",
+            "de eicel bevruchten",
             "de bevruchte eicel laten innestelen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De eierstok levert de eicel en de twee hormonen die de cyclus sturen. Het innestelen gebeurt in het baarmoederslijmvlies.",
+        antwoord=[0, 1],
+        uitleg="De eierstok laat de eicel rijpen en geeft oestrogeen en progesteron af. De bevruchting gebeurt in de eileider en het innestelen in het baarmoederslijmvlies.",
     ),
     dict(
         type="meerkeuze",
@@ -118,8 +118,9 @@ DEEL1 = [
             "voedingsstoffen",
             "alcohol en nicotine",
             "rode bloedcellen van de moeder",
+            "geneesmiddelen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Kleine moleculen gaan door, en dus ook schadelijke. Bloedcellen zijn te groot en blijven aan de kant van de moeder.",
     ),
     dict(
@@ -164,11 +165,11 @@ DEEL1 = [
         opties=[
             "de geslachtsklieren beginnen hormonen af te geven",
             "de geslachtsorganen worden rijp",
-            "er ontstaan secundaire geslachtskenmerken",
+            "het lichaam stopt met groeien",
             "het aantal chromosomen in de lichaamscellen verdubbelt",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De puberteit maakt het lichaam geschikt voor voortplanting, onder leiding van hormonen. Het aantal chromosomen blijft levenslang hetzelfde.",
+        antwoord=[0, 1],
+        uitleg="De puberteit maakt het lichaam geschikt voor voortplanting, met rijpe geslachtsorganen en secundaire geslachtskenmerken. Groeien gaat juist sneller, en het aantal chromosomen blijft levenslang hetzelfde.",
     ),
     dict(
         type="waarofniet",
@@ -367,8 +368,9 @@ DEEL2 = [
             "een verandering van het baarmoederhalsslijm",
             "soms een lichte pijn in de onderbuik",
             "een daling van het aantal rode bloedcellen",
+            "een piek van LH in het bloed",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Temperatuur, slijm en soms een steek zijn de klassieke tekens. Met het aantal rode bloedcellen heeft de ovulatie niets te maken.",
     ),
     dict(

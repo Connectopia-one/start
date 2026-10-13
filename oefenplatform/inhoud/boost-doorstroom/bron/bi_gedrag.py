@@ -85,8 +85,9 @@ DEEL1 = [
             "conditionering",
             "leren door nadoen",
             "leren door erfelijkheid",
+            "leren door te proberen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Gewenning, conditionering, nadoen en leren door proberen zijn vormen van leren. Erfelijkheid geeft net het aangeboren gedrag door, dat niet geleerd wordt.",
     ),
     dict(
@@ -260,11 +261,11 @@ DEEL2 = [
         opties=[
             "een bij en een bloem",
             "een korstmos, waarin een alg en een schimmel samenleven",
-            "de bacteriën in onze darm en wij",
+            "een vlo en een hond",
             "een lintworm en zijn gastheer",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="In die drie winnen beide partijen. Een lintworm leeft op kosten van zijn gastheer en is dus een parasiet.",
+        antwoord=[0, 1],
+        uitleg="Bij een bij en een bloem en bij een korstmos winnen beide partijen, en bij de bacteriën in onze darm ook. Een lintworm en een vlo leven op kosten van hun gastheer en zijn dus parasieten.",
     ),
     dict(
         type="invultekst",

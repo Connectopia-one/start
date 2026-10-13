@@ -25,15 +25,15 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Op welke drie niveaus kan je biodiversiteit bekijken? Kruis alles aan wat juist is.",
+        vraag="Op welke niveaus kan je biodiversiteit bekijken? Kruis alles aan wat juist is.",
         opties=[
             "de variatie binnen een soort",
             "het aantal verschillende soorten",
-            "de verscheidenheid aan ecosystemen",
+            "het aantal natuurparken in Europa",
             "het aantal dierentuinen in een land",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Genen, soorten en ecosystemen: dat zijn de drie niveaus. Dierentuinen bewaren wel soorten, maar zijn zelf geen niveau van biodiversiteit.",
+        antwoord=[0, 1],
+        uitleg="Genen, soorten en ecosystemen zijn de drie niveaus. Dierentuinen en natuurparken bewaren wel soorten, maar zijn zelf geen niveau van biodiversiteit.",
     ),
     dict(
         type="meerkeuze",
@@ -85,8 +85,9 @@ DEEL1 = [
             "vervuiling van bodem, water en lucht",
             "het binnenbrengen van soorten die er niet thuishoren",
             "het aanleggen van natuurgebieden",
+            "de klimaatverandering",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Leefgebied, vervuiling en invasieve soorten zijn de grote bedreigingen. Natuurgebieden werken net de andere richting uit.",
     ),
     dict(
@@ -133,8 +134,9 @@ DEEL1 = [
             "de schimmels",
             "de planten en de dieren",
             "de mineralen",
+            "de eencellige organismen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Bacteriën, schimmels, planten, dieren en eencellige organismen zijn levende rijken. Mineralen leven niet en horen er dus niet bij.",
     ),
     dict(
@@ -220,8 +222,9 @@ DEEL2 = [
             "ze heeft geen echte celkern",
             "ze kan zich zelf delen en zo vermeerderen",
             "ze heeft een gastheercel nodig om zich te vermeerderen",
+            "ze heeft een celwand rond haar membraan",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een bacterie is een volwaardige cel zonder kern en kan zich zelfstandig delen. Een gastheer nodig hebben is net het kenmerk van een virus.",
     ),
     dict(
@@ -308,11 +311,11 @@ DEEL2 = [
         opties=[
             "de onbeschadigde huid",
             "het zuur in de maag",
-            "het slijm in de luchtwegen",
+            "het vet onder de huid",
             "het skelet van de romp",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Huid, maagzuur en slijmvliezen vormen de eerste verdedigingslinie. Het skelet heeft daar geen rol in.",
+        antwoord=[0, 1],
+        uitleg="Huid, maagzuur en slijmvliezen vormen de eerste verdedigingslinie. Het skelet en het vet onder de huid hebben daar geen rol in.",
     ),
     dict(
         type="meerkeuze",

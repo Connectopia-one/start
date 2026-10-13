@@ -119,8 +119,9 @@ DEEL1 = [
             "de transpiratiezuiging die van bovenaf trekt",
             "de capillariteit in de nauwe houtvaten",
             "de zwaartekracht die op de waterkolom werkt",
+            "de samenhang tussen de watermoleculen onderling",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Duwen van onder, trekken van boven en de hechting in nauwe buisjes werken samen. De zwaartekracht werkt juist tegen: zij trekt het water naar beneden.",
     ),
     dict(
@@ -216,11 +217,11 @@ DEEL2 = [
         opties=[
             "de epidermis",
             "de cuticula of waslaag",
-            "de bast",
+            "het floëem",
             "het xyleem",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Epidermis, cuticula en bast bedekken de plant aan de buitenkant. Het xyleem is transportweefsel en ligt juist binnenin.",
+        antwoord=[0, 1],
+        uitleg="De epidermis en de cuticula bedekken de plant aan de buitenkant, en de bast hoort er ook bij. Het xyleem en het floëem zijn transportweefsel en liggen juist binnenin.",
     ),
     dict(
         type="invultekst",
@@ -302,8 +303,9 @@ DEEL2 = [
             "open huidmondjes laten de koolstofdioxide binnen",
             "het watertransport brengt mineralen naar het blad",
             "water geeft het blad zijn groene kleurstof",
+            "water houdt de cellen stevig door de turgor",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Water is grondstof, de huidmondjes staan alleen open als er water genoeg is, en de waterstroom voert mineralen aan. De groene kleur komt van chlorofyl, niet van water.",
     ),
     dict(

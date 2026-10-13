@@ -49,11 +49,11 @@ DEEL1 = [
         opties=[
             "een skeletspier in de arm",
             "een zweetklier in de huid",
-            "de hartspier",
+            "een zintuigcel in het oog",
             "een tastreceptor in de vingertop",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Spieren en klieren voeren uit, dus zijn effectoren. Een tastreceptor vangt juist op en staat aan het begin van de weg.",
+        antwoord=[0, 1],
+        uitleg="Spieren en klieren voeren uit, dus zijn het effectoren, de hartspier ook. Een tastreceptor en een zintuigcel in het oog vangen juist op en staan aan het begin van de weg.",
     ),
     dict(
         type="waarofniet",
@@ -135,8 +135,9 @@ DEEL1 = [
             "bij een bewuste reactie komen de grote hersenen tussen",
             "een reflex schakelt over in het ruggemerg of de hersenstam",
             "een reflex gebruikt geen zenuwcellen en een bewuste reactie wel",
+            "bij een reflex komt nadenken er niet aan te pas",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Beide gebruiken zenuwcellen, dat is net het punt. Het verschil zit in waar de boodschap overschakelt en of je erbij nadenkt.",
     ),
     dict(
@@ -169,11 +170,11 @@ DEEL1 = [
         opties=[
             "tastreceptoren",
             "temperatuurreceptoren",
-            "pijnreceptoren",
+            "reukreceptoren",
             "lichtreceptoren",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De huid voelt aanraking, warmte en koude, en pijn. Lichtreceptoren zitten in het netvlies van het oog.",
+        antwoord=[0, 1],
+        uitleg="De huid voelt aanraking, warmte en koude, en pijn. Licht- en reukreceptoren zitten in het oog en in de neus.",
     ),
     dict(
         type="waarofniet",
@@ -225,12 +226,12 @@ DEEL2 = [
         vraag="Welke delen onderscheidt men bij de hersenen? Kruis alles aan wat juist is.",
         opties=[
             "de grote hersenen",
-            "de kleine hersenen",
+            "het evenwichtsorgaan",
             "de hersenstam",
             "het ruggemerg",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Grote hersenen, kleine hersenen en hersenstam liggen in de schedel. Het ruggemerg ligt in de wervelkolom en hoort er dus niet bij.",
+        antwoord=[0, 2],
+        uitleg="Grote hersenen, kleine hersenen en hersenstam liggen in de schedel. Het ruggemerg ligt in de wervelkolom en het evenwichtsorgaan in het oor.",
     ),
     dict(
         type="meerkeuze",
@@ -270,8 +271,9 @@ DEEL2 = [
             "de dendrieten",
             "het axon met zijn eindknopjes",
             "de vacuole",
+            "de myelineschede rond het axon",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een neuron heeft een cellichaam, korte dendrieten die opvangen en één lang axon dat doorgeeft. Een vacuole is iets van plantencellen.",
     ),
     dict(
@@ -346,11 +348,11 @@ DEEL2 = [
         opties=[
             "het geleidt signalen tussen de hersenen en het lichaam",
             "het schakelt reflexen over zonder omweg langs de hersenen",
-            "het ligt beschut in de wervelkolom",
+            "het ligt beschut in de schedel",
             "het maakt de hormonen aan die de groei regelen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Het ruggemerg is snelweg en schakelstation in één, beschut door de wervels. Hormonen komen van klieren, niet van het ruggemerg.",
+        antwoord=[0, 1],
+        uitleg="Het ruggemerg is snelweg en schakelstation in één, beschut door de wervels en niet door de schedel. Hormonen komen van klieren, niet van het ruggemerg.",
     ),
     dict(
         type="waarofniet",

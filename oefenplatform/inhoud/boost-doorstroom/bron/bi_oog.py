@@ -66,11 +66,11 @@ DEEL1 = [
         opties=[
             "het harde oogvlies",
             "het vaatvlies",
-            "het netvlies",
+            "de lens",
             "het glasachtig lichaam",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Van buiten naar binnen: harde oogvlies, vaatvlies, netvlies. Het glasachtig lichaam is geen laag van de wand maar de vulling binnenin.",
+        antwoord=[0, 1],
+        uitleg="Van buiten naar binnen: harde oogvlies, vaatvlies, netvlies. Het glasachtig lichaam en de lens zijn geen laag van de wand maar zitten binnenin.",
     ),
     dict(
         type="meerkeuze",
@@ -128,8 +128,9 @@ DEEL1 = [
             "de lens",
             "het kamervocht",
             "de iris",
+            "het glasachtig lichaam",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Hoornvlies, kamervocht en lens zijn doorzichtig en buigen het licht. De iris laat licht alleen door of houdt het tegen.",
     ),
     dict(
@@ -219,11 +220,11 @@ DEEL2 = [
         opties=[
             "ze werken ook bij weinig licht",
             "ze geven geen kleur door",
-            "ze liggen vooral buiten het midden van het netvlies",
+            "ze liggen vooral in de gele vlek",
             "ze geven het scherpste beeld van het hele netvlies",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Staafjes zijn gevoelig maar zien grijs, en liggen vooral aan de zijkant. Het scherpste beeld komt van de kegeltjes in de gele vlek.",
+        antwoord=[0, 1],
+        uitleg="Staafjes zijn gevoelig maar zien grijs, en ze liggen vooral aan de zijkant, niet in de gele vlek. Het scherpste beeld komt van de kegeltjes in die gele vlek.",
     ),
     dict(
         type="invultekst",
@@ -377,8 +378,9 @@ DEEL2 = [
             "die cel wekt een zenuwimpuls op",
             "de oogzenuw brengt de impuls naar de hersenen",
             "de iris zet de impuls om in een beeld",
+            "de hersenen maken er een beeld van",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Opvangen, omzetten, doorgeven en in de hersenen verwerken. De iris doet daar niet aan mee; die regelt enkel het licht.",
     ),
     dict(

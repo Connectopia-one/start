@@ -31,11 +31,11 @@ DEEL1 = [
         opties=[
             "je kan het met je wil aansturen",
             "het ziet onder de microscoop gestreept uit",
-            "het hecht met pezen aan de botten vast",
+            "het ligt in de wand van de darm",
             "het trekt samen zonder dat je het kan beslissen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een skeletspier is willekeurig: jij beslist. Dat laatste geldt juist voor glad spierweefsel en voor de hartspier.",
+        antwoord=[0, 1],
+        uitleg="Een skeletspier is willekeurig, ziet gestreept uit en hecht met pezen aan de botten. Samentrekken zonder dat je het beslist, en in een darmwand liggen, hoort bij glad spierweefsel.",
     ),
     dict(
         type="waarofniet",
@@ -147,8 +147,9 @@ DEEL1 = [
             "energie uit de celademhaling",
             "calciumionen in de cel",
             "licht dat op de vezel valt",
+            "zuurstof om die energie te maken",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een zenuwsignaal laat calcium vrijkomen, en met energie uit de celademhaling kan de myosine dan werken. Licht komt er niet bij te pas.",
     ),
     dict(
@@ -225,12 +226,12 @@ DEEL2 = [
         vraag="Welke van deze zijn klieren zonder afvoergang? Kruis alles aan wat juist is.",
         opties=[
             "de schildklier",
-            "de bijnier",
+            "de speekselklier",
             "de eilandjes van Langerhans in de pancreas",
             "de zweetklier in de huid",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Die drie geven hun hormoon rechtstreeks aan het bloed. Een zweetklier heeft wel een afvoergang en loost op de huid.",
+        antwoord=[0, 2],
+        uitleg="De schildklier en de eilandjes van Langerhans geven hun hormoon rechtstreeks aan het bloed, de bijnier ook. Een zweet- of speekselklier heeft wel een afvoergang.",
     ),
     dict(
         type="waarofniet",
@@ -330,8 +331,9 @@ DEEL2 = [
             "de pupillen worden groter",
             "er komt glucose uit de lever vrij",
             "de spijsvertering versnelt sterk",
+            "de ademhaling versnelt",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Alles wat voor onmiddellijke actie dient, gaat omhoog. De spijsvertering gaat net op een lager pitje, want die kan wachten.",
     ),
     dict(
