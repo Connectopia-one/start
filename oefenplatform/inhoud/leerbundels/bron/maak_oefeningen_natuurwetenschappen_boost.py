@@ -1944,3 +1944,1309 @@ OEFENBUNDELS["oefenbundel-grootheden-eenheden-en-wetenschappelijk-onderzoek-boos
              ]),
     ],
 )
+
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-water-en-homeostase-bij-planten-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Zet bij elk deel van de plant zijn taak. De bouw volgt de taak: een wortel is breed "
+                    "verdeeld om op te nemen, een blad is plat om licht te vangen.",
+             waarom=[
+                 None,
+                 "Het huidmondje en de cuticula werken tegen elkaar in: het ene laat damp weg, het andere "
+                 "houdt ze tegen. De plant moet daartussen kiezen.",
+             ]),
+        dict(aanpak="Vraag je bij elke bewering af welke richting het water volgt, en wat het de plant "
+                    "kost.",
+             waarom=[
+                 "Aan de onderkant is er minder zon en minder wind, dus verliest de plant daar minder "
+                 "water bij hetzelfde gaswisselen.",
+                 "Water gaat binnen bij de wortel en buiten bij het blad. Die richting staat vast.",
+                 "Dit is de kern van homeostase bij een plant: ze kiest tussen uitdrogen en honger. "
+                 "Water sparen gaat altijd ten koste van fotosynthese.",
+                 "Transpiratie kost geen energie: de verdamping zelf trekt het water omhoog. Daarom zegt "
+                 "men dat een plant geen pomp heeft.",
+             ]),
+        dict(aanpak="Begin bij de cel: wat gebeurt er met het water, dan met de druk, dan met de hele "
+                    "plant. Zo komt elke uitleg in de juiste orde.",
+             waarom=[
+                 "Het woord dat je nodig hebt is turgor: de druk van het water tegen de celwand. Zonder "
+                 "die druk houdt niets de plant recht.",
+                 "Het water hangt als een draad aan elkaar; daarom trekt de verdamping boven de hele kolom "
+                 "mee omhoog.",
+                 "Alle drie de factoren doen hetzelfde: ze houden het verschil in vochtigheid tussen het "
+                 "blad en de lucht groot. Dat verschil drijft de verdamping.",
+             ]),
+        dict(aanpak="Elke omgevingsfactor werkt op dezelfde manier: hij vergroot of verkleint het verschil "
+                    "in vochtigheid tussen blad en lucht.",
+             waarom=[
+                 "Let op het licht: dat werkt niet via de lucht maar via de huidmondjes. In het donker "
+                 "staan ze verder dicht en zakt de verdamping.",
+             ]),
+        dict(aanpak="Een tropie is een groeibeweging naar de richting van de prikkel. Foto is licht, geo is "
+                    "de zwaartekracht.",
+             waarom=[
+                 None,
+                 "Bij een nastie is de beweging altijd dezelfde, waar de prikkel ook van komt. Bij een "
+                 "tropie bepaalt de prikkel de richting.",
+                 "Assimilaten zijn de suikers uit de fotosynthese. Het woord zelf komt van assimileren: "
+                 "opbouwen.",
+             ]),
+        dict(aanpak="Twee vaten, twee taken: xyleem voor water omhoog, floëem voor suikers in beide "
+                    "richtingen.",
+             waarom=[
+                 "Onthoud het aan de naam: xyleem is hout en staat voor water, floëem komt van vloeien en "
+                 "voert het sap met suikers.",
+                 "Water volgt de verdamping en kan dus maar één kant op. Suikers gaan van de bron naar de "
+                 "plaats die ze nodig heeft, en die kan hoger of lager liggen.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-van-prikkel-tot-reactie-en-het-oog-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="De weg is altijd dezelfde vier stappen: receptor, impuls naar het centrum, verwerking, "
+                    "effector. Zet die rij eerst op, dan past elke vraag erin.",
+             waarom=[None, None, None]),
+        dict(aanpak="Elk zintuig heeft zijn eigen soort prikkel. Zoek eerst welke soort prikkel het is: "
+                    "licht, geluid, een stof, warmte of een stand.",
+             waarom=[
+                 None,
+                 "Neus en tong nemen allebei stoffen op, maar de neus uit de lucht en de tong uit wat je "
+                 "eet. Daarom verandert eten van smaak als je neus dicht zit.",
+             ]),
+        dict(aanpak="Volg het licht door het oog: hoornvlies, pupil, lens, netvlies, oogzenuw. Elk deel "
+                    "doet één ding met dat licht.",
+             waarom=[
+                 "De iris is de gekleurde ring, de pupil het gat erin. De iris is de spier, de pupil de "
+                 "opening.",
+                 "Het hoornvlies buigt het licht al het meeste; de lens doet enkel de bijregeling. Daarom "
+                 "kan een ooglaserbehandeling op het hoornvlies werken.",
+                 "Staafjes voor weinig licht zonder kleur, kegeltjes voor kleur met veel licht. Daarom zie "
+                 "je 's nachts in grijstinten.",
+             ]),
+        dict(aanpak="Vraag je bij elke bewering af wat de functie is. Een pupil die in fel licht groter "
+                    "wordt, zou het oog beschadigen; dus klopt het niet.",
+             waarom=[
+                 "De hersenen draaien het beeld terug om. Wat je ziet, is dus al verwerkt.",
+                 "In fel licht wordt de pupil juist kleiner, om het oog te beschermen.",
+                 "Dit heet accommodatie: hoe dichter het voorwerp, hoe boller de lens.",
+                 "De blinde vlek is waar de oogzenuw het oog verlaat; daar zitten geen lichtgevoelige "
+                 "cellen. Het scherpst zie je in de gele vlek.",
+             ]),
+        dict(aanpak="Leg bij zulke vragen altijd twee dingen uit: wat er in het oog verandert, en waarom "
+                    "dat helpt.",
+             waarom=[
+                 "Er gebeuren twee dingen tegelijk: de pupil gaat open, en de staafjes worden gevoelig. Dat "
+                 "tweede duurt minuten, en dat is waarom het niet meteen lukt.",
+                 "Dit is bijziendheid: het beeld valt vóór het netvlies. De holle lens spreidt het licht "
+                 "eerst, zodat het net op het netvlies samenkomt.",
+                 None,
+             ]),
+        dict(aanpak=r"De sterkte in dioptrie is \(1\) gedeeld door de brandpuntsafstand in meter. Werk dus "
+                    r"altijd eerst in meter.",
+             waarom=[
+                 None,
+                 r"Reken terug: \(1\) gedeeld door min \(4\) is min \(0{,}25\). Het minteken blijft staan, "
+                 r"want het hoort bij de soort lens.",
+                 "Een plusteken is een bolle lens (verziend), een minteken een holle lens (bijziend). Het "
+                 "teken is dus geen rekenkundig detail.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-het-zenuwstelsel-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Centraal is wat in de schedel en de wervelkolom zit, perifeer is al de rest: de "
+                    "zenuwen die eruit vertrekken.",
+             waarom=[
+                 None,
+                 "De grensstrengen horen bij het perifere stelsel, al liggen ze diep in het lichaam. De "
+                 "grens is de schedel en de wervelkolom, niet de diepte.",
+             ]),
+        dict(aanpak="Volg het signaal door het neuron: dendrieten in, cellichaam, axon, eindknopje uit. De "
+                    "bouw vertelt de richting.",
+             waarom=[
+                 None,
+                 "De knopen van Ranvier zijn geen fout in de isolatie maar de reden dat het snel gaat: het "
+                 "signaal springt van knoop naar knoop.",
+                 "In het centrale zenuwstelsel doen andere cellen dat werk. Daarom herstelt een zenuw in "
+                 "de arm wel en het ruggenmerg niet.",
+             ]),
+        dict(aanpak="De naam zegt de richting: sensorisch naar binnen, motorisch naar buiten, een "
+                    "schakelneuron verbindt de twee.",
+             waarom=[
+                 None,
+                 "Een motorisch neuron komt niet enkel op een spier uit maar ook op een klier. Motorisch "
+                 "betekent hier uitvoerend, niet bewegend.",
+                 None,
+             ]),
+        dict(aanpak="Vraag je bij elke bewering af wat de bouw toelaat. Eén richting in een synaps en snelle "
+                    "geleiding met myeline volgen rechtstreeks uit de bouw.",
+             waarom=[
+                 "Gemengd betekent sensorisch én motorisch in dezelfde zenuw. Het woord zelf geeft het "
+                 "antwoord.",
+                 None,
+                 None,
+                 "Een reflex loopt juist via het ruggenmerg alleen. Daarom is hij zo snel, en daarom voel "
+                 "je de pijn pas achteraf.",
+             ]),
+        dict(aanpak="Een synaps is een chemische overgang: blaasjes aan de ene kant, receptoren aan de "
+                    "andere. Daar volgt alles uit.",
+             waarom=[
+                 None, None,
+                 "De eenrichtingsregel volgt uit de bouw: blaasjes aan één kant, receptoren aan de andere. "
+                 "Dat is het hele antwoord.",
+                 "Het sleutel-slotprincipe verklaart ook waarom een geneesmiddel of een drug maar op "
+                 "bepaalde neuronen werkt.",
+             ]),
+        dict(aanpak="Een reflex gaat buiten de hersenen om. Zet de weg op een rij voor je antwoordt: "
+                    "receptor, sensorisch, schakel, motorisch, effector.",
+             waarom=[
+                 None,
+                 "In de verkeerde antwoorden zitten de hersenen of ontbreekt een schakel. De korte weg "
+                 "langs het ruggenmerg is wat een reflex een reflex maakt.",
+                 "Hier zie je waarom een reflex nuttig is: hij is sneller dan het bewustzijn. De pijn is "
+                 "de melding, niet het bevel.",
+             ]),
+        dict(aanpak="De actiepotentiaal is altijd even groot. Dat is de alles-of-nietsregel, en bijna elke "
+                    "vraag in deze reeks steunt erop.",
+             waarom=[
+                 None,
+                 "Een actiepotentiaal is altijd even hoog; dat is de alles-of-nietsregel. Een sterkere "
+                 "prikkel verandert de frequentie, niet de amplitude.",
+                 "Hoe de sterkte dan toch overkomt: in het aantal impulsen per seconde, en in het aantal "
+                 "vezels dat meedoet.",
+                 "Die herstelfase heet de refractaire periode. Ze zorgt er ook voor dat het signaal maar "
+                 "één kant op loopt door het axon.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-spieren-klieren-en-hormonen-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Twee vragen apart: ziet het weefsel dwarsgestreept uit, en stuur je het zelf aan. Bij "
+                    "het hart valt het antwoord op die twee vragen niet samen.",
+             waarom=[
+                 None, None,
+                 "Het hart is de uitzondering: dwarsgestreept van bouw, maar onwillekeurig van werking. "
+                 "Daarom is het een eigen soort weefsel.",
+             ]),
+        dict(aanpak="Ga van groot naar klein: spierbuik, bundel, vezel, fibril. Elke stap zit in de vorige, "
+                    "zoals een touw uit strengen bestaat.",
+             waarom=[
+                 None, None,
+                 "Het sarcomeer is de eenheid die samentrekt. Al de rest van de spierwerking speelt zich "
+                 "daarbinnen af.",
+                 "Een spiervezel ontstaat uit meerdere cellen die samensmelten, dus heeft ze veel kernen. "
+                 "Dat is een uitzondering op de regel van één kern per cel.",
+             ]),
+        dict(aanpak="Bij samentrekken worden de filamenten niet korter; ze schuiven in elkaar. Houd dat "
+                    "beeld vast, dan kloppen al je antwoorden.",
+             waarom=[
+                 "De filamenten blijven even lang en glijden langs elkaar. Daarom komen de Z-platen naar "
+                 "elkaar toe en wordt het sarcomeer korter.",
+                 None,
+                 "Hoe fijner je iets moet kunnen besturen, hoe minder vezels per motorische eenheid. Een "
+                 "oogspier heeft er weinig, een beenspier veel.",
+                 "Een spier kan enkel trekken. Dat is de hele reden waarom spieren in paren werken, en het "
+                 "woord dat je nodig hebt is antagonist.",
+             ]),
+        dict(aanpak="Endo betekent naar binnen, exo naar buiten. Vraag je af of de stof in het bloed "
+                    "terechtkomt of via een buis naar een holte of naar buiten gaat.",
+             waarom=[
+                 "De alvleesklier is gemengd: ze geeft spijsverteringssappen via een buis af en hormonen "
+                 "aan het bloed. Allebei in één orgaan.",
+                 None, None,
+             ]),
+        dict(aanpak="Zet bij elke klier haar hormoon en wat dat hormoon doet. De hypofyse is de dirigent: "
+                    "veel hormonen sturen weer een andere klier aan.",
+             waarom=[
+                 None,
+                 "De hypofyse hangt onder de hypothalamus en stuurt de schildklier, de bijnier en de "
+                 "geslachtsklieren. Daarom noemt men ze de hoofdklier.",
+                 "Een stimulerend hormoon is altijd naar zijn doelorgaan genoemd. De naam zelf geeft het "
+                 "antwoord.",
+             ]),
+        dict(aanpak="Insuline en glucagon werken tegen elkaar in: het ene bergt glucose op, het andere "
+                    "haalt ze terug. Zet die twee altijd naast elkaar.",
+             waarom=[
+                 "Onthoud het aan de letters: insuline brengt glucose in de cel, glucagon haalt ze uit de "
+                 "voorraad.",
+                 "Beschrijf de hele kring: stijging, insuline, opslag, daling. Dat is wat een vraag over "
+                 "homeostase wil zien.",
+                 "De dorst is dus geen apart verschijnsel maar het gevolg van het waterverlies langs de "
+                 "nieren. Zo hangen de twee klachten samen.",
+                 "Bij type 1 maakt het lichaam geen insuline meer; bij type 2 reageren de cellen er minder "
+                 "goed op. Dat verschil bepaalt de behandeling.",
+             ]),
+        dict(aanpak="Vergelijk zenuwen en hormonen op drie punten: snelheid, duur en bereik. Daarmee kan je "
+                    "elke vraag erover beantwoorden.",
+             waarom=[
+                 "Dit is hetzelfde sleutel-slotprincipe als bij een neurotransmitter. Eén mechanisme, twee "
+                 "hoofdstukken.",
+                 None,
+                 "Adrenaline komt van de bijnier en doet het hart sneller slaan, de luchtwegen openen en "
+                 "glucose vrijkomen. Alles tegelijk, want het hoeft niet gericht te zijn.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-voortplanting-en-de-hormonale-regeling-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Volg bij elk stelsel de weg die de cel aflegt. Dan hoort bij elk orgaan automatisch de "
+                    "juiste taak.",
+             waarom=[
+                 "De bevruchting gebeurt in de eileider, niet in de baarmoeder. Daar groeit het embryo "
+                 "pas na de innesteling.",
+                 None,
+             ]),
+        dict(aanpak="Zet de cyclus op een tijdlijn van dag 1 tot dag 28, met de eisprong rond dag 14. Elke "
+                    "vraag erover kan je dan aflezen.",
+             waarom=[
+                 "Dag 1 is de eerste dag van de menstruatie, niet het einde ervan. Dat is de afspraak "
+                 "waarop de hele cyclus genummerd wordt.",
+                 None, None,
+                 "Het geel lichaam is de restant van de follikel, en het maakt progesteron. Zonder dat "
+                 "verband kan je de laatste reeks niet uitleggen.",
+             ]),
+        dict(aanpak="Vraag je bij elke bewering af welk orgaan of welk hormoon er precies genoemd wordt. "
+                    "Eén verkeerd orgaan maakt een hele zin fout.",
+             waarom=[
+                 None,
+                 "De eileider vangt de eicel op. De baarmoeder komt pas later in het verhaal.",
+                 "Daarom kan men met een temperatuurcurve de eisprong achteraf vaststellen. Het is een "
+                 "gevolg van het progesteron.",
+                 "Bij de man loopt de zaadcelvorming doorlopend, zonder cyclus. Dat is een van de "
+                 "duidelijkste verschillen tussen de twee stelsels.",
+                 "Inhibine is het hormoon dat de rem op FSH zet. Het is een mooi voorbeeld van negatieve "
+                 "terugkoppeling.",
+             ]),
+        dict(aanpak="De keten loopt altijd van hypothalamus naar hypofyse naar de klier zelf. Zet die drie "
+                    "verdiepingen op een rij, dan past elk hormoon op zijn plaats.",
+             waarom=[
+                 "Let op het paar FSH en LH: FSH laat de follikel rijpen, een piek van LH brengt de "
+                 "eisprong op gang. Verwissel die twee niet.",
+                 None,
+                 "GnRH, FSH en LH werken bij man en vrouw; alleen wat ze in de klier aansturen verschilt. "
+                 "Eén systeem, twee uitkomsten.",
+             ]),
+        dict(aanpak="Twee soorten cellen in de teelbal, twee taken: Leydig maakt het hormoon, Sertoli "
+                    "verzorgt de rijpende cellen.",
+             waarom=[
+                 None,
+                 "Dat is ook waarom de teelballen bij koude dichter tegen het lichaam getrokken worden: de "
+                 "temperatuur wordt actief geregeld.",
+                 None,
+             ]),
+        dict(aanpak="Feedback betekent dat het eindproduct terugwerkt op het begin. Zoek bij elke vraag "
+                    "eerst het eindproduct en dan de rem.",
+             waarom=[
+                 None,
+                 "Beschrijf de hele keten van boven naar onder. Een antwoord dat enkel zegt dat het daalt, "
+                 "toont niet dat je het systeem kent.",
+                 "In een hormoonschema betekent een minteken altijd remmen en een plusteken stimuleren. "
+                 "Zonder dat leest een schema niet.",
+                 "Hier zie je waarom de cyclus een cyclus is: het geel lichaam gaat te gronde, het "
+                 "progesteron valt weg, en daarmee begint alles opnieuw.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-biodiversiteit-en-micro-organismen-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Eén vraag beslist: zit het erfelijk materiaal in een kern met een membraan erom. Zo ja, "
+                    "eukaryoot; zo niet, prokaryoot.",
+             waarom=[
+                 "Gist en schimmel zijn eukaryoot, al zijn ze klein en al noemt men ze micro-organismen. "
+                 "Klein is niet hetzelfde als prokaryoot.",
+                 "Archaea lijken op bacteriën maar vormen een eigen domein. Veel ervan leven op extreme "
+                 "plaatsen.",
+                 None,
+             ]),
+        dict(aanpak="Elke groep heeft zijn eigen manier om zich te vermeerderen. Bij een virus is er geen "
+                    "eigen manier: het heeft een gastheercel nodig.",
+             waarom=[
+                 "Knopvorming betekent dat er een uitstulping ontstaat die loskomt. Dat is iets anders dan "
+                 "de gelijke splitsing van een bacterie.",
+                 "Dit is de kern van de discussie of een virus leeft: geen eigen stofwisseling, geen eigen "
+                 "vermeerdering.",
+                 None,
+             ]),
+        dict(aanpak="Deze woorden komen in elke vraag over micro-organismen terug. Leer ze aan hun "
+                    "voorvoegsel: an is zonder, auto is zelf, hetero is anders.",
+             waarom=[
+                 None,
+                 "Een spore is geen vermeerderingsvorm bij een bacterie maar een overlevingsvorm. Daarom "
+                 "zijn sporen zo moeilijk weg te krijgen.",
+                 None,
+             ]),
+        dict(aanpak="Vraag je bij elke bewering af tegen wát een middel of een techniek werkt: een bacterie, "
+                    "een virus of een schimmel.",
+             waarom=[
+                 "Griep is een virus, en een antibioticum werkt enkel tegen bacteriën. Dit is de meest "
+                 "gemaakte fout van het hele hoofdstuk.",
+                 "Dit is selectie in de praktijk: wie overleeft, plant zich voort. Daarom is een kuur "
+                 "afmaken zo belangrijk.",
+                 "Pasteuriseren doodt de meeste micro-organismen, niet alle. Steriliseren gaat verder en "
+                 "veel heter.",
+                 None,
+             ]),
+        dict(aanpak="Micro-organismen worden op twee manieren gebruikt: je laat ze werken, of je houdt ze "
+                    "tegen. Zoek bij elke techniek welke groeivoorwaarde wegvalt.",
+             waarom=[
+                 None,
+                 "Alle drie de technieken pakken een groeivoorwaarde aan: water weg, water onttrekken, of "
+                 "de temperatuur gebruiken. Zeg dat erbij.",
+                 "Dit is gisting zonder zuurstofgas, dus anaëroob. Dezelfde gist laat brood rijzen met de "
+                 "koolstofdioxide en maakt bier met de alcohol.",
+             ]),
+        dict(aanpak="Hier gaat het over micro-organismen die er al zijn: in je darm en in het water. Niet "
+                    "elk micro-organisme is een ziekteverwekker.",
+             waarom=[
+                 None,
+                 "Beschrijf de ketting: mest, algenbloei, minder licht, afsterven, zuurstoftekort. Het "
+                 "zuurstoftekort is het eindpunt, niet het begin.",
+                 "Dit is het verschil tussen doden en de weg afsluiten. Hygiëne werkt op de overdracht, "
+                 "niet op het micro-organisme zelf.",
+                 "Anti-mycoticum: mycos is het Griekse woord voor zwam. De naam zegt tegen wat het werkt.",
+             ]),
+        dict(aanpak="Het driedomeinensysteem deelt in naar verwantschap, niet naar vorm of nut. Dat is het "
+                    "hele punt van zo'n indeling.",
+             waarom=[
+                 "Archaea staan apart van de bacteriën, al lijken ze erop. Dat is net de vondst waarvoor "
+                 "dit systeem gemaakt is.",
+                 None,
+                 "Werk met het beslissende kenmerk: geen kernmembraan. Vorm en grootte zeggen veel minder "
+                 "dan die ene eigenschap.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-gedrag-interactie-en-ecosystemen-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je af of het dier het moest leren. Kan het het van de eerste keer, dan is het "
+                    "aangeboren.",
+             waarom=[
+                 "Een spin leert haar web niet van een andere spin: ze weeft het de eerste keer al goed. "
+                 "Dat is het bewijs dat het aangeboren is.",
+                 None,
+             ]),
+        dict(aanpak="Elke leervorm heeft één kenmerk: conditioneren koppelt twee prikkels, gewenning laat "
+                    "een reactie wegvallen, inprenting gebeurt eenmalig en vroeg.",
+             waarom=[
+                 "Gewenning is geen vergeten maar leren dat een prikkel niets betekent. Daarom werkt een "
+                 "vogelverschrikker na een tijd niet meer.",
+                 "Inprenting kan maar in een korte periode na de geboorte, en ze is daarna niet meer te "
+                 "veranderen. Dat onderscheidt ze van de andere vormen.",
+             ]),
+        dict(aanpak="Zet bij elke relatie wie voordeel en wie nadeel heeft. Twee keer voordeel is "
+                    "mutualisme, voordeel en nadeel is parasitisme of predatie.",
+             waarom=[
+                 "Het verschil tussen parasitisme en predatie: een parasiet leeft van zijn gastheer en "
+                 "houdt die in leven, een roofdier doodt zijn prooi.",
+                 None,
+                 "Bij antibiose remt de ene soort de andere zonder er zelf voordeel uit te halen. Dat is "
+                 "iets anders dan concurrentie om hetzelfde voedsel.",
+             ]),
+        dict(aanpak="Vraag je bij elke bewering af of het over levende of niet-levende factoren gaat, en "
+                    "wie er voordeel heeft.",
+             waarom=[
+                 "Bij commensalisme heeft de ene voordeel en ondervindt de andere niets. Gelijk verdeeld is "
+                 "het nooit.",
+                 "Symbiose is het samenleven zelf; mutualisme is de vorm waarin beiden erbij winnen. Het "
+                 "ene is de soort, het andere het geheel.",
+                 "Betreding en begrazing worden door levende wezens gedaan, dus zijn ze biotisch. Alleen "
+                 "bodem, water, licht en temperatuur zijn abiotisch.",
+                 None,
+                 "Een consument van de eerste orde eet juist planten. Wie dieren eet, is van de tweede orde "
+                 "of hoger.",
+             ]),
+        dict(aanpak="Drie rollen: producent, consument, reducent. Zet bij elk een voorbeeld, want zonder "
+                    "voorbeeld blijft het een woord.",
+             waarom=[
+                 "Vergeet de reducenten niet. Zonder hen stopt de materiekringloop en blijven de "
+                 "voedingsstoffen in dood materiaal vastzitten.",
+                 None,
+             ]),
+        dict(aanpak="Houd twee dingen scherp uit elkaar: energie stroomt in één richting en gaat verloren, "
+                    "materie draait rond.",
+             waarom=[
+                 "Per stap blijft maar een tiende van de energie over. Daarom zijn er zo weinig "
+                 "toproofdieren en zo veel planten.",
+                 None, None,
+                 "De celademhaling is de tegenhanger van de fotosynthese. Samen sluiten die twee de "
+                 "kringloop van koolstof.",
+             ]),
+        dict(aanpak="Bij een verstoring volg je de gevolgen stap voor stap door het web: wie valt weg, en "
+                    "wie leefde daarvan.",
+             waarom=[
+                 "Noem ook de abiotische gevolgen: meer licht op de bodem en een andere vochtigheid. Een "
+                 "bos verliest meer dan zijn bomen.",
+                 "Dit heet veerkracht: hoe meer soorten, hoe meer kans dat een andere soort dezelfde rol "
+                 "kan overnemen.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-mengsels-en-zuivere-stoffen-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Een zuivere stof bestaat uit één soort deeltje. Zit er meer dan één stof in, dan is "
+                    "het een mengsel, hoe gelijkmatig het ook lijkt.",
+             waarom=[
+                 "Lucht lijkt één stof maar is een mengsel van stikstof, zuurstof en meer. Onzichtbaar "
+                 "gemengd is nog altijd gemengd.",
+                 "Kraantjeswater bevat opgeloste mineralen, en brons is koper met tin. Allebei zien eruit "
+                 "als één stof en zijn het niet.",
+             ]),
+        dict(aanpak="Homogeen betekent dat je de bestanddelen niet meer kan onderscheiden, ook niet onder "
+                    "een gewone microscoop.",
+             waarom=[
+                 "Messing is een legering en dus homogeen. Een legering is een vast homogeen mengsel, geen "
+                 "zuivere stof.",
+                 None,
+             ]),
+        dict(aanpak="Het soort mengsel volgt uit de twee fasen: vloeistof in vloeistof is een emulsie, vast "
+                    "in vloeistof dat niet oplost een suspensie, gas in vloeistof een schuim.",
+             waarom=[
+                 None, None,
+                 "Messing is koper en zink, brons is koper en tin. Die twee worden het vaakst verwisseld.",
+             ]),
+        dict(aanpak="Vraag je bij elke bewering af of de bestanddelen veranderen. Bij mengen en scheiden "
+                    "blijven ze chemisch dezelfde stof.",
+             waarom=[
+                 "Een zuivere stof smelt en kookt bij één vaste temperatuur, een mengsel over een traject. "
+                 "Dat is net de proef waarmee je ze onderscheidt.",
+                 None,
+                 "Een scheidingstechniek verandert de stoffen niet; ze haalt ze alleen uit elkaar. Dat is "
+                 "het verschil met een chemische reactie.",
+                 None,
+             ]),
+        dict(aanpak="Een stofeigenschap hangt niet af van hoeveel je ervan hebt. Massa en volume van je "
+                    "staal zijn dus geen stofeigenschap.",
+             waarom=[
+                 "Massadichtheid is wel een stofeigenschap, massa niet. De breuk van de twee hangt niet van "
+                 "de hoeveelheid af, de massa zelf wel.",
+                 None,
+                 "Zo gebruik je een stofeigenschap in de praktijk: het kooktraject verraadt dat het geen "
+                 "zuivere stof is.",
+             ]),
+        dict(aanpak="Kies de techniek op het verschil dat je kan uitbuiten: deeltjesgrootte, kookpunt, "
+                    "magnetisme of oplosbaarheid.",
+             waarom=[
+                 "Filtreren werkt op deeltjesgrootte, destilleren op een verschil in kookpunt. Dat verschil "
+                 "bepaalt welke je neemt.",
+                 "Indampen houdt de opgeloste stof over, destilleren het oplosmiddel. Welke van de twee je "
+                 "wil houden, bepaalt de keuze.",
+                 None,
+             ]),
+        dict(aanpak="Twee woorden om vast te leggen: residu is wat achterblijft, filtraat is wat doorloopt. "
+                    "Die twee komen in elke labovraag terug.",
+             waarom=[
+                 None, None,
+                 "Filtreren werkt enkel op een verschil in deeltjesgrootte. Twee vloeistoffen lopen allebei "
+                 "door, dus heb je een scheitrechter nodig.",
+                 "Wat afval is en wat product, hangt van je doel af, niet van de techniek. Daarom is die "
+                 "vraag geen woordspel.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-enkelvoudige-en-samengestelde-stoffen-en-chemische-reacties-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Tel de soorten atomen in de formule. Eén soort is enkelvoudig, meer dan één soort is "
+                    "samengesteld.",
+             waarom=[
+                 "O₂ en O₃ zijn allebei enkelvoudig, al staan er meerdere atomen. Het gaat om het aantal "
+                 "soorten, niet om het aantal atomen.",
+                 None,
+             ]),
+        dict(aanpak="De symbolen die niet op de Nederlandse naam lijken, komen uit het Latijn. Die zijn het "
+                    "waard om apart te leren.",
+             waarom=[
+                 "Na komt van natrium, K van kalium en Au van aurum. Die drie worden het vaakst verward met "
+                 "N, C en Ag.",
+                 None, None,
+             ]),
+        dict(aanpak="De index staat achter een atoomsoort en geldt enkel voor die soort. De coëfficiënt "
+                    "staat vooraan en geldt voor het hele deeltje.",
+             waarom=[
+                 None, None,
+                 r"Per deeltje \(2\) waterstof en \(1\) zuurstof is \(3\); drie deeltjes geven \(9\).",
+                 r"De haakjes gelden voor alles erin: per deeltje \(1\) calcium, \(2\) zuurstof en "
+                 r"\(2\) waterstof is \(5\); twee deeltjes geven \(10\).",
+                 "Werk altijd in twee stappen: eerst per deeltje tellen, dan maal de coëfficiënt. Dat "
+                 "voorkomt de meeste fouten.",
+             ]),
+        dict(aanpak="Metalen staan links in het periodiek systeem, niet-metalen rechts. Glanzend, "
+                    "vervormbaar en geleidend hoort bij een metaal.",
+             waarom=[
+                 "Kwik is een metaal, al is het vloeibaar. De toestand zegt niets over de soort.",
+                 None,
+                 "Niet-metalen zijn juist meestal mat en bros, en ze geleiden slecht. Grafiet is daar de "
+                 "uitzondering op.",
+             ]),
+        dict(aanpak="Deze stoffen komen terug in de oefeningen én in het labo. Leer ze aan één opvallend "
+                    "kenmerk of één gebruik.",
+             waarom=[
+                 None, None,
+                 "Helium is lichter dan lucht én onbrandbaar. Die combinatie is waarom het waterstofgas "
+                 "vervangen heeft.",
+                 "Dit heet allotropie: dezelfde atomen, een andere structuur, andere eigenschappen. Het "
+                 "bewijst dat de bouw even belangrijk is als de soort.",
+             ]),
+        dict(aanpak="Tel links en rechts per atoomsoort en pas enkel de coëfficiënten aan. Begin met de "
+                    "soort die maar in één stof voorkomt.",
+             waarom=[
+                 None, None,
+                 r"Begin bij de koolstof, dan de waterstof, en doe de zuurstof het laatst: die zit in twee "
+                 r"producten. Zo kom je op \(1\), \(2\), \(1\), \(2\).",
+                 "Een index veranderen maakt er een andere stof van. Daarom staat die vast en mag je alleen "
+                 "het aantal deeltjes kiezen.",
+             ]),
+        dict(aanpak="De wet van behoud van massa geldt altijd. Verschijnt of verdwijnt er massa, dan is er "
+                    "iets in of uit het vat gegaan.",
+             waarom=[
+                 "In een gesloten vat blijft alles binnen. Dat is net waarom je zo'n proef in een gesloten "
+                 "vat doet.",
+                 "De massa daalt niet echt: er ontsnapt gas dat je niet meeweegt. De wet geldt nog, je "
+                 "meting niet.",
+             ]),
+        dict(aanpak="Exo geeft af, endo neemt op. Vraag je altijd af vanuit het standpunt van de reactie, "
+                    "niet van je hand.",
+             waarom=[
+                 None,
+                 "De beker voelt kouder omdat de reactie warmte uit de omgeving haalt. Je hand meet dus het "
+                 "omgekeerde van wat de reactie doet.",
+                 "Afgegeven energie betekent dat de producten minder energie overhouden. Daarom liggen ze "
+                 "lager in het diagram.",
+                 None, None, None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-bouw-van-het-atoom-en-het-periodiek-systeem-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Drie deeltjes, drie ladingen, twee plaatsen: protonen en neutronen in de kern, "
+                    "elektronen eromheen. Alles in dit hoofdstuk volgt daaruit.",
+             waarom=[
+                 "Onthoud de ladingen aan de naam: een proton is positief, een neutron neutraal. Dan hoeft "
+                 "alleen het elektron onthouden te worden.",
+                 "Een elektron weegt bijna niets tegenover een proton. Daarom zit de massa in de kern en "
+                 "het volume in de schillen.",
+                 None,
+             ]),
+        dict(aanpak="Het atoomnummer is het aantal protonen, het massagetal het aantal protonen plus "
+                    "neutronen. Het verschil van de twee geeft het aantal neutronen.",
+             waarom=[None, None, None]),
+        dict(aanpak="Isotopen verschillen enkel in neutronen. Zelfde element, zelfde plaats in het systeem, "
+                    "andere massa.",
+             waarom=[
+                 None,
+                 "Het atoomnummer blijft gelijk; dat is net waarom het hetzelfde element is. Alleen het "
+                 "massagetal verschilt.",
+                 "Het is een gewogen gemiddelde. Daarom staat er bij chloor 35,5 en niet 35 of 37.",
+             ]),
+        dict(aanpak="Twee getallen volgen uit de plaats in het systeem: de groep geeft het aantal "
+                    "valentie-elektronen, de periode het aantal bezette schillen.",
+             waarom=[
+                 None, None,
+                 r"Vul de schillen op: \(2\) in de eerste, \(8\) in de tweede, en de laatste \(1\) in de "
+                 r"derde. Dat ene buitenste elektron verklaart waarom natrium zo graag reageert.",
+                 None,
+             ]),
+        dict(aanpak="Een atoom reageert om een volle buitenste schil te bereiken. Dat is de reden achter "
+                    "elke binding in het volgende hoofdstuk.",
+             waarom=[
+                 None,
+                 "Een atoom kiest altijd de kortste weg naar een volle schil. Zes afstaan kost veel meer "
+                 "dan twee opnemen.",
+                 None,
+                 "Helium, neon en argon staan in de laatste kolom. Hun volle schil is net waarom ze niets "
+                 "doen.",
+             ]),
+        dict(aanpak="Twee trends volstaan voor bijna elke vraag: naar rechts neemt het metaalkarakter af, "
+                    "en de gretigheid naar elektronen toe.",
+             waarom=[
+                 None,
+                 "De valentie-elektronen lees je af aan het groepsnummer, niet aan de periode. De periode "
+                 "geeft het aantal schillen.",
+                 "Links staan de elektronengevers, rechts de elektronennemers. Daarom vormt links met "
+                 "rechts een ionbinding.",
+             ]),
+        dict(aanpak="Relatief is een verhouding zonder eenheid, absoluut is de echte massa in kilogram. Het "
+                    "verschil zit in de eenheid.",
+             waarom=[
+                 None,
+                 "Eén u is ongeveer de massa van één proton. Dat is net waarom de relatieve atoommassa zo "
+                 "dicht bij het massagetal ligt.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-chemische-bindingen-en-roosters-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Kijk naar de soort elementen: metaal met niet-metaal geeft een ionbinding, twee "
+                    "niet-metalen een atoombinding, twee metalen een metaalbinding.",
+             waarom=[
+                 None, None,
+                 "Dit is de reden achter de hele regel: het ene geeft, het andere neemt, en de "
+                 "tegengestelde ladingen trekken elkaar aan.",
+             ]),
+        dict(aanpak="De lading van een ion volgt uit de groep: groep 1 geeft er één af, groep 2 twee, en de "
+                    "halogenen nemen er één op.",
+             waarom=[
+                 None,
+                 "Tel de ladingen altijd na: ze moeten samen nul geven. Daarom CaCl₂ en niet CaCl.",
+                 "De formule van een ionverbinding is altijd de kleinste verhouding waarin de ladingen "
+                 "opgaan tegen elkaar.",
+             ]),
+        dict(aanpak="Tel hoeveel elektronen een atoom nog tekort komt. Twee atomen die er elk drie tekort "
+                    "komen, delen drie paren.",
+             waarom=[
+                 "Stikstof komt drie elektronen tekort, dus delen de twee atomen drie paren. Daarom is "
+                 "stikstofgas zo moeilijk te laten reageren.",
+                 None,
+                 "Koolstof heeft vier valentie-elektronen en maakt dus vier bindingen. Dat ene feit draagt "
+                 "de hele organische chemie.",
+             ]),
+        dict(aanpak="In een Lewisstructuur staat elk streepje voor een paar elektronen. Tussen twee atomen "
+                    "is het bindend, bij één atoom is het vrij.",
+             waarom=[
+                 None,
+                 "Reken het altijd na vanuit het aantal valentie-elektronen: zes min twee in bindingen "
+                 "geeft vier, dus twee vrije paren.",
+                 None,
+                 "Zuurstof is min twee, behalve in peroxiden. Die regel heb je nodig om elk ander "
+                 "oxidatiegetal te berekenen.",
+             ]),
+        dict(aanpak="Het rooster volgt uit de binding: ionen geven een ionrooster, moleculen een "
+                    "molecuulrooster, een netwerk van atoombindingen een atoomrooster.",
+             waarom=[
+                 None,
+                 "Let op het verschil tussen een molecuulrooster en een atoomrooster: bij jood liggen er "
+                 "losse moleculen naast elkaar, bij kwarts hangt alles aan elkaar.",
+             ]),
+        dict(aanpak="Verklaar een eigenschap altijd uit het rooster: hoe sterk de deeltjes samenhangen, en "
+                    "of er iets kan bewegen.",
+             waarom=[
+                 "Dit is de klassieke combinatie: sterk maar bros. Sterk omdat de aantrekking groot is, "
+                 "bros omdat één verschuiving gelijke ladingen tegenover elkaar brengt.",
+                 "Geleiden vraagt bewegende ladingen. Vast zout heeft de ladingen wel maar ze zitten vast.",
+                 "Het verschil tussen de binding bìnnen en tùssen de moleculen is wat een laag kookpunt "
+                 "verklaart. Die twee niet verwisselen is de hele vraag.",
+                 "Alle drie de eigenschappen komen uit dezelfde elektronenzee. Noem ze dus niet los van "
+                 "elkaar.",
+             ]),
+        dict(aanpak="Je kan uit een formule al veel voorspellen. Zie je een metaal en een niet-metaal, dan "
+                    "weet je het rooster en dus ook de eigenschappen.",
+             waarom=[
+                 None,
+                 "Twee elementen is binair, drie is ternair. De naam komt van het aantal elementen, niet "
+                 "van het aantal atomen.",
+                 "De formule-eenheid is geen molecule: in een ionrooster bestaan er geen losse deeltjes, "
+                 "enkel een verhouding.",
+             ]),
+        dict(aanpak="Diamant en grafiet bestaan uit dezelfde atomen. Elk verschil tussen hen komt dus uit "
+                    "de structuur, niet uit de stof.",
+             waarom=[
+                 "Vier bindingen in alle richtingen tegenover drie in lagen: daaruit volgen de hardheid, "
+                 "de geleiding en de zachtheid alle drie.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-stoffen-classificeren-en-benoemen-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Herken de klasse aan de formule: zuurstof erachter is een oxide, OH een hydroxide, H "
+                    "vooraan een zuur, en een metaal met een zuurrest een zout.",
+             waarom=[
+                 None,
+                 "Let op het verschil tussen een hydroxide (OH, met een metaal) en een zuur (H vooraan). "
+                 "De plaats van de waterstof beslist.",
+                 "Een carbonaat is een zuurrest, dus is CaCO₃ een zout en geen oxide, al staat er zuurstof "
+                 "in.",
+             ]),
+        dict(aanpak="Tel het aantal verschillende elementen: twee is binair, drie is ternair. Niet het "
+                    "aantal atomen tellen.",
+             waarom=[
+                 None, None, None,
+             ]),
+        dict(aanpak="De zuurresten leer je per paar: het zuur en het ion dat eruit overblijft. Dan kan je "
+                    "elk zout benoemen.",
+             waarom=[
+                 "Let op de ladingen: nitraat is één min, sulfaat en carbonaat zijn twee min. Die lading "
+                 "bepaalt de formule van het zout.",
+                 "De uitgang verraadt de zuurstof: -aat en -iet bevatten zuurstof, -ide niet. Chloride is "
+                 "dus niet hetzelfde als chloraat.",
+                 None,
+             ]),
+        dict(aanpak="Twee notaties voor twee soorten stoffen: stock met Romeinse cijfers bij ionen, Griekse "
+                    "telwoorden bij niet-metalen onder elkaar.",
+             waarom=[
+                 None,
+                 "Zet de zuurrest tussen haakjes als er meer dan één nodig is: Ca(NO₃)₂, niet CaNO₃₂. "
+                 "Anders verander je de zuurrest zelf.",
+                 None,
+             ]),
+        dict(aanpak="De naam van een alkaan bestaat uit een telwoord plus de uitgang -aan. Leer de reeks "
+                    "meth, eth, prop, but, pent, hex, hept, oct, non, dec.",
+             waarom=[
+                 "De eerste vier namen volgen geen telwoord (methaan, ethaan, propaan, butaan). Vanaf vijf "
+                 "zit het Griekse getal in de naam.",
+                 None, None, None,
+             ]),
+        dict(aanpak="Een triviale naam is de dagelijkse naam. Zet er altijd de systematische naam naast, "
+                    "want daarmee kan je rekenen.",
+             waarom=[
+                 "Zoutzuur is geen zout maar een zuur: waterstofchloride opgelost in water. De naam "
+                 "misleidt.",
+                 None, None,
+             ]),
+        dict(aanpak="Werk van de formule naar de klasse: welke ionen zitten erin, en welke groep herken je. "
+                    "Dan volgt de naam en het gedrag.",
+             waarom=[
+                 "Drie elementen plus een zuurrest met zuurstof: dus een ternair zout. Zo lees je een "
+                 "formule stap voor stap.",
+                 "Alle carbonaten reageren met een zuur en geven koolstofdioxide. Dat is ook de proef "
+                 "waarmee je een carbonaat aantoont.",
+                 "Een brutoformule telt, een structuurformule toont. Ethanol en dimethylether hebben "
+                 "dezelfde brutoformule en zijn toch twee heel verschillende stoffen: tellen is "
+                 "dus niet genoeg.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-stoffen-in-water-reacties-en-berekeningen-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je af of de ionen er al waren. Zaten ze al in het rooster, dan dissocieert de "
+                    "stof; ontstaan ze pas in het water, dan ioniseert ze.",
+             waarom=[
+                 "Zouten en hydroxiden dissociëren, zuren ioniseren. Dat volgt uit hun rooster: ionrooster "
+                 "tegenover moleculen.",
+                 None,
+                 "Let op de ladingen in zo'n vergelijking: ze moeten links en rechts opgaan tegen elkaar.",
+             ]),
+        dict(aanpak="Een elektrolyt geleidt omdat er vrij bewegende ionen in de oplossing zitten. Geen "
+                    "ionen, geen geleiding.",
+             waarom=[
+                 "Suiker lost wel op maar valt niet in ionen uiteen. Oplossen en ioniseren zijn dus twee "
+                 "verschillende dingen.",
+                 "Hier zie je dat het water niet het punt is maar de beweeglijkheid van de ionen. Smelten "
+                 "doet hetzelfde als oplossen.",
+             ]),
+        dict(aanpak="De pH-schaal loopt van 0 tot 14, met 7 als neutraal. Onder 7 is zuur, boven 7 basisch.",
+             waarom=[
+                 None, None, None, None,
+                 "Een pH-meter meet de zuurtegraad veel preciezer dan een indicator. Een indicator geeft "
+                 "enkel een gebied.",
+             ]),
+        dict(aanpak="Eén breuk volstaat: het aantal mol is de massa gedeeld door de molaire massa. Alles "
+                    "in deze reeks is die breuk, voor- of achteruit.",
+             waarom=[
+                 None,
+                 r"Hier is de massa precies gelijk aan de molaire massa, dus is het antwoord \(1\) mol. Dat "
+                 r"is geen toeval maar de definitie.",
+                 None, None,
+             ]),
+        dict(aanpak="Concentratie is het aantal mol per liter. Werk dus eerst je volume om naar liter.",
+             waarom=[
+                 None,
+                 r"\(500\) mL is \(0{,}5\) liter, en \(0{,}4\) maal \(0{,}5\) is \(0{,}2\) mol. De "
+                 r"omzetting naar liter is de hele oefening.",
+                 "Bij verdunnen blijft het aantal mol gelijk en verandert enkel het volume. Reken dus "
+                 "altijd eerst het aantal mol uit.",
+             ]),
+        dict(aanpak="Twee soorten reacties in water: een neerslagreactie geeft een vaste stof, een "
+                    "neutralisatie geeft water en een zout.",
+             waarom=[
+                 None, None,
+                 "De ionen die niets doen, heten spectatorionen. Ze weglaten maakt de vergelijking "
+                 "leesbaar, en dat is het hele nut ervan.",
+                 "Dat de pH op 7 uitkomt, geldt enkel bij een sterk zuur met een sterke base. Bij een zwak "
+                 "zuur ligt het anders.",
+             ]),
+        dict(aanpak="Oxideren is elektronen afstaan, reduceren is ze opnemen. Zoek eerst welke stof welke "
+                    "doet, dan volgt de rest.",
+             waarom=[
+                 "Een hulpmiddel: oxidatie is afstaan, en het oxidatiegetal stijgt dan. Die twee horen bij "
+                 "elkaar.",
+                 "Daarom spreekt men van een redoxreactie en niet van een oxidatie alleen. De elektronen "
+                 "moeten ergens naartoe.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-rechtlijnige-bewegingen-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Houd afgelegde weg en verplaatsing goed uit elkaar: de eerste telt alles, de tweede "
+                    "enkel het verschil tussen begin en einde.",
+             waarom=[
+                 "Die twee zijn alleen gelijk bij een beweging in één richting. Zodra je terugkeert, lopen "
+                 "ze uiteen.",
+                 None, None,
+             ]),
+        dict(aanpak=r"Snelheid is afstand gedeeld door tijd. Om van km/h naar m/s te gaan deel je door "
+                    r"\(3{,}6\), en omgekeerd vermenigvuldig je ermee.",
+             waarom=[
+                 None, None, None,
+                 r"Zet eerst de tijd om: \(2\) minuten is \(120\) seconden. De eenheden moeten bij elkaar "
+                 r"passen voor je rekent.",
+             ]),
+        dict(aanpak="Versnelling is de verandering van snelheid gedeeld door de tijd. Let op het teken: "
+                    "vertragen geeft een negatieve versnelling.",
+             waarom=[
+                 None,
+                 "Het minteken hoort bij het antwoord: de snelheid daalt. Een versnelling zonder teken is "
+                 "hier onvolledig.",
+                 "Let op het woord: een negatieve versnelling heet in de natuurkunde nog altijd een "
+                 "versnelling, al vertraagt het voorwerp.",
+             ]),
+        dict(aanpak="Twee grafieken, twee betekenissen: in een x,t-grafiek is de steilheid de snelheid, in "
+                    "een v,t-grafiek is de oppervlakte de afgelegde weg.",
+             waarom=[
+                 "Een rechte in een x,t-grafiek betekent een gelijke snelheid; een rechte in een v,t-grafiek "
+                 "betekent een gelijke versnelling. Dezelfde vorm, een andere betekenis.",
+                 None, None, None,
+             ]),
+        dict(aanpak="Vraag je bij elke bewering af of het over de grootte of over de richting gaat. Veel "
+                    "fouten komen van het vergeten van de richting.",
+             waarom=[
+                 None,
+                 "Ze zijn enkel gelijk bij een rechte lijn in één richting. Een ronde op een piste toont "
+                 "het verschil het duidelijkst.",
+                 "Vooruit rijden en toch vertragen: dan is de snelheid positief en de versnelling negatief. "
+                 "De twee tekens hoeven niet gelijk te zijn.",
+                 "Snelheid, versnelling en kracht zijn vectoren; afgelegde weg, tijd en massa niet. Dat "
+                 "onderscheid komt in elke oefening terug.",
+             ]),
+        dict(aanpak="Bij een toepassingsvraag zeg je altijd ten opzichte van wát je meet. Beweging bestaat "
+                    "niet zonder referentiepunt.",
+             waarom=[
+                 "Dit is het mooiste voorbeeld van het verschil: vierhonderd meter weg, nul meter "
+                 "verplaatsing.",
+                 None,
+                 "Het kwadraat in de formule van de kinetische energie is wat remafstanden zo verraderlijk "
+                 "maakt. Dubbel zo snel is vier keer zo veel energie.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-vrije-val-verticale-worp-en-krachten-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak=r"Twee formules volstaan: \(v = g \cdot t\) voor de snelheid en \(s = \tfrac{1}{2} g t^2\) "
+                    r"voor de afstand. Reken met \(g = 10\) m/s².",
+             waarom=[
+                 None,
+                 r"Let op het kwadraat: in drie seconden valt hij \(45\) meter, niet \(30\). De afstand "
+                 r"groeit veel sneller dan de snelheid.",
+                 r"Hier moet je de formule omkeren: \(t = \sqrt{2s/g}\). Reken na met de eerste formule of "
+                 r"je antwoord klopt.",
+                 "Dit is de proef van Galilei: zonder lucht valt alles even snel. De massa staat niet in de "
+                 "formule, en daarom maakt ze niets uit.",
+             ]),
+        dict(aanpak="Een verticale worp is een vrije val achterstevoren. Dezelfde formules, enkel het teken "
+                    "van de snelheid verschilt.",
+             waarom=[
+                 None,
+                 r"Gebruik \(s = \tfrac{1}{2} g t^2\) met de twee seconden die je net vond, of reken met de "
+                 r"gemiddelde snelheid van \(10\) m/s. Beide geven \(20\) meter.",
+                 "Snelheid nul betekent niet versnelling nul. De zwaartekracht werkt door, ook op het "
+                 "hoogste punt, en dat is waarom de bal terugvalt.",
+             ]),
+        dict(aanpak="Massa is hoeveel stof er is, in kilogram. Gewicht is de kracht waarmee de aarde eraan "
+                    "trekt, in newton.",
+             waarom=[
+                 None, None,
+                 r"Gewicht is massa maal \(g\): \(40\) maal \(10\) is \(400\) newton. Let op de eenheid: "
+                 r"newton, niet kilogram.",
+                 "Gewichtloos betekent niet massaloos. De astronaut en het station vallen samen, en daarom "
+                 "duwt niets hem nog tegen.",
+             ]),
+        dict(aanpak="Zoek bij elke kracht wie ze uitoefent en in welke richting. Dat is wat een kracht "
+                    "beschrijft.",
+             waarom=[None, None]),
+        dict(aanpak=r"De wet van Hooke: \(F = k \cdot x\), met de uitrekking in meter. Werk altijd eerst in "
+                    r"meter.",
+             waarom=[
+                 None, None,
+                 "Dit is dezelfde gedachte als bij een x,t-grafiek: de steilheid van een rechte heeft altijd "
+                 "een betekenis. Hier is dat de veerconstante.",
+             ]),
+        dict(aanpak=r"De tweede wet van Newton is \(F = m \cdot a\). De eerste en de derde wet leg je uit, "
+                    r"de tweede reken je uit.",
+             waarom=[
+                 None, None,
+                 "De eerste wet zegt niet dat het voorwerp stilstaat maar dat zijn snelheid niet verandert. "
+                 "Stilstaan en gelijkmatig doorrijden zijn allebei goed.",
+                 "Dit heet traagheid: zonder kracht verandert je snelheid niet. Daarom bestaan er "
+                 "veiligheidsgordels.",
+                 "Zeg bij de derde wet altijd dat de twee krachten op verschillende voorwerpen werken. "
+                 "Anders zou niets ooit kunnen versnellen.",
+             ]),
+        dict(aanpak="Evenwicht betekent dat de krachten elkaar opheffen. Dat kan bij stilstand én bij een "
+                    "gelijke snelheid.",
+             waarom=[
+                 None,
+                 "Hier zie je dat evenwicht niet hetzelfde is als stilstand. De springer valt, en toch is de "
+                 "resulterende kracht nul.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-druk-en-de-gaswetten-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak=r"Druk is kracht gedeeld door oppervlakte: \(p = F/A\). Dezelfde kracht op een kleiner "
+                    r"oppervlak geeft een grotere druk.",
+             waarom=[
+                 None, None, None,
+                 "Dit is de hele reeks in één voorbeeld: de kracht blijft, het oppervlak groeit, dus de "
+                 "druk daalt. Hetzelfde verklaart waarom een naald doorprikt.",
+             ]),
+        dict(aanpak="Druk in een vloeistof hangt af van de diepte, niet van de vorm of de breedte van het "
+                    "vat. Dat is minder vanzelfsprekend dan het klinkt.",
+             waarom=[
+                 None,
+                 "Alleen de diepte telt, en de dichtheid van de vloeistof. In een smalle buis en in een "
+                 "breed meer is de druk op tien meter dezelfde.",
+                 None, None, None,
+             ]),
+        dict(aanpak="Het beginsel van Pascal is de basis van elke hydraulische installatie: de druk plant "
+                    "zich overal even sterk voort.",
+             waarom=[
+                 None,
+                 "Wat je wint aan kracht, verlies je aan weg. Zo komt de energiebalans toch weer uit; een "
+                 "pers maakt geen energie bij.",
+                 None,
+             ]),
+        dict(aanpak="Denk bij een gas altijd aan botsende deeltjes. Meer of snellere botsingen betekenen "
+                    "meer druk.",
+             waarom=[
+                 "Dat de druk in alle richtingen even groot is, volgt uit de botsingen: de deeltjes "
+                 "bewegen alle kanten op.",
+                 None,
+                 "Een gesloten bus kan niet uitzetten. Daarom zet alle warmte zich om in druk, en breekt "
+                 "de bus als die te hoog wordt.",
+             ]),
+        dict(aanpak="Bij de gaswetten houd je er altijd één grootheid vast en kijk je naar de twee andere. "
+                    "Reken altijd in kelvin.",
+             waarom=[
+                 None,
+                 r"Optellen of aftrekken van \(273\): van celsius naar kelvin tel je op, omgekeerd trek je "
+                 r"af.",
+                 "De voorvoegsels zeggen welke grootheid gelijk blijft: iso betekent gelijk, baar is druk, "
+                 "choor is volume, therm is temperatuur.",
+                 r"Halveer je het volume, dan verdubbelt de druk: \(2 \times 100 = 1 \times 200\). Het "
+                 r"product van druk en volume blijft gelijk.",
+                 "Rekenen met graden celsius zou betekenen dat je soms door nul of door een negatief getal "
+                 "deelt. Daarom bestaat de kelvinschaal.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-arbeid-energie-vermogen-en-rendement-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak=r"Arbeid is kracht maal verplaatsing in de zin van die kracht: \(W = F \cdot s\). Geen "
+                    r"verplaatsing betekent geen arbeid.",
+             waarom=[
+                 None, None,
+                 "In het dagelijks taalgebruik is dat zware arbeid, in de natuurkunde nul. Het woord "
+                 "betekent hier iets anders dan je gewend bent.",
+                 None,
+                 "Dit is de reden waarom dragen op een vlakke weg natuurkundig geen arbeid is: de kracht "
+                 "staat omhoog, de weg ligt horizontaal.",
+             ]),
+        dict(aanpak="Zoek bij elke vorm waar de energie in zit: in de hoogte, in de beweging, in de "
+                    "vervorming, in de stof of in de warmte.",
+             waarom=[None, None]),
+        dict(aanpak=r"Twee formules: \(E = m \cdot g \cdot h\) voor de hoogte en \(E = \tfrac{1}{2} m v^2\) "
+                    r"voor de beweging. Let op het kwadraat in de tweede.",
+             waarom=[
+                 None, None,
+                 "Dubbel zo snel geeft vier keer zo veel energie. Vergelijk de twee antwoorden en je ziet "
+                 "het kwadraat aan het werk.",
+                 "Dit is hetzelfde kwadraat dat de remweg zo lang maakt. Eén formule, twee hoofdstukken.",
+             ]),
+        dict(aanpak="Energie gaat nooit verloren, ze verandert van vorm. Beschrijf dus altijd waar ze "
+                    "naartoe gaat, niet dat ze weg is.",
+             waarom=[
+                 None,
+                 "Zeg erbij waar de energie heen is: naar warmte. Dat is het verschil tussen verdwenen en "
+                 "niet meer bruikbaar.",
+                 "Energie kan niet verdwijnen, enkel omzetten. Bij wrijving wordt ze warmte, en die is "
+                 "verspreid en dus niet meer bruikbaar.",
+             ]),
+        dict(aanpak=r"Vermogen is energie per seconde: \(P = E/t\). Een kilowattuur is \(1000\) watt "
+                    r"gedurende één uur.",
+             waarom=[
+                 None, None,
+                 "Reken niet om naar joule: kWh is vermogen in kilowatt maal tijd in uur. Hier dus gewoon "
+                 "één maal twee.",
+                 "Dit is het verschil tussen arbeid en vermogen in één voorbeeld: hetzelfde werk, een "
+                 "ander tempo.",
+             ]),
+        dict(aanpak="Rendement is de nuttige energie gedeeld door de toegevoerde, maal honderd. Het is "
+                    "altijd kleiner dan honderd procent.",
+             waarom=[
+                 None, None,
+                 "Er gaat altijd iets naar warmte door wrijving of weerstand. Dat is geen slechte bouw maar "
+                 "een natuurwet.",
+                 "Het verlies is bij een gloeilamp net de warmte. Daarom kon je een gloeilamp niet "
+                 "vastpakken en een led wel.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-warmte-en-faseovergangen-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Temperatuur is hoe snel de deeltjes bewegen, warmte is energie die overgaat. Die twee "
+                    "niet verwisselen is de helft van dit hoofdstuk.",
+             waarom=[
+                 None,
+                 "Een kop koffie heeft een hogere temperatuur dan een bad, maar het bad bevat veel meer "
+                 "warmte. Daar zie je het verschil.",
+                 None,
+             ]),
+        dict(aanpak="Drie manieren: geleiding door een stof heen, stroming met de stof mee, straling zonder "
+                    "stof. Vraag je af wat er beweegt.",
+             waarom=[
+                 "Straling is de enige die geen stof nodig heeft. Daarom bereikt de zon ons door het "
+                 "luchtledige.",
+                 None,
+                 "Je voelt geen temperatuur maar een warmtestroom. Dat is waarom metaal altijd kouder "
+                 "aanvoelt dan hout bij dezelfde temperatuur.",
+             ]),
+        dict(aanpak=r"De formule is \(Q = c \cdot m \cdot \Delta T\). Reken eerst het temperatuurverschil "
+                    r"uit, dan de massa, dan vermenigvuldigen.",
+             waarom=[
+                 None,
+                 r"Het verschil is \(10\) graden, niet \(30\). Een verschil in graden celsius is "
+                 r"hetzelfde als in kelvin, dus daar hoef je niets om te rekenen.",
+                 "Dit is ook waarom de zee het klimaat aan de kust mild houdt: ze warmt traag op en koelt "
+                 "traag af.",
+                 "Dit klopt alleen omdat het dezelfde stof en dezelfde massa is. Bij ongelijke massa's moet "
+                 "je met de formule rekenen.",
+             ]),
+        dict(aanpak="Zes overgangen, drie paren. Naar een losser geordende toestand neemt warmte op, de "
+                    "omgekeerde weg geeft warmte af.",
+             waarom=[
+                 "Vast, vloeibaar, gas: elke stap naar rechts kost energie om de deeltjes los te maken.",
+                 None,
+                 "Sublimeren zie je bij droogijs en bij bevroren was die toch droogt. Desublimeren is "
+                 "rijm op een ruit.",
+             ]),
+        dict(aanpak="Vraag je bij elke bewering af wat er met de deeltjes gebeurt. De uitzondering van "
+                    "water is er een om te onthouden.",
+             waarom=[
+                 "Alle toegevoerde warmte gaat tijdens een faseovergang naar het losmaken van de deeltjes, "
+                 "niet naar de temperatuur.",
+                 "Verdampen vraagt energie, en die haalt de vloeistof uit wat eronder ligt. Daarom werkt "
+                 "zweten.",
+                 "Water is de uitzondering: tussen nul en vier graden zet het uit als het afkoelt. Daarom "
+                 "barsten leidingen in de vorst.",
+                 "Dat ijs blijft drijven, is een gevolg van diezelfde uitzondering. Een meer vriest "
+                 "daarom van boven dicht en niet van onder.",
+             ]),
+        dict(aanpak="Leg elke vraag uit via de deeltjes: wat doen ze, en waar gaat de energie naartoe.",
+             waarom=[
+                 "Die warmte heet de smeltwarmte. Ze zit in de stof zonder dat de thermometer het ziet.",
+                 None, None,
+                 "Warme lucht kan meer waterdamp dragen dan koude. Dat is ook waarom er 's ochtends dauw "
+                 "ligt.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-elektriciteit-en-de-wet-van-ohm-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Zet de drie grootheden met hun eenheid en hun meettoestel op een rij. Daarna gaat elke "
+                    "oefening over de verhouding tussen die drie.",
+             waarom=[
+                 None,
+                 "Een ampèremeter moet de stroom dóór zich laten lopen, dus staat hij in serie. Parallel "
+                 "zou hij de kring kortsluiten.",
+                 "Een voltmeter meet het verschil over een deel van de kring, dus staat hij ernaast.",
+             ]),
+        dict(aanpak=r"De wet van Ohm is \(U = R \cdot I\). Schrijf op welke twee je hebt en welke je zoekt, "
+                    r"dan volgt de bewerking vanzelf.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Een geleider heeft vrije ladingen, een isolator niet. Metalen en zoutoplossingen "
+                    "geleiden, kunststof en droog hout niet.",
+             waarom=[
+                 None,
+                 "Een zoutoplossing geleidt omdat er ionen in bewegen. Zuiver water geleidt juist bijna "
+                 "niet.",
+                 "Geleidingsvermogen en weerstand zijn elkaars tegengestelde: hoe beter het geleidt, hoe "
+                 "lager de weerstand.",
+                 None,
+             ]),
+        dict(aanpak="In serie tel je de weerstanden op, parallel wordt de totale weerstand kleiner dan de "
+                    "kleinste. Bij twee gelijke weerstanden parallel is dat de helft.",
+             waarom=[
+                 None,
+                 "Parallel geeft de stroom twee wegen, dus is het geheel makkelijker door te komen. Daarom "
+                 "daalt de weerstand.",
+                 None,
+                 "Noem beide voordelen: dezelfde spanning op elke lamp, en onafhankelijk schakelen. Dat is "
+                 "waarom een huis nooit in serie bekabeld wordt.",
+             ]),
+        dict(aanpak="Een draad is als een buis: langer geeft meer weerstand, dikker geeft minder. De stof "
+                    "zelf speelt ook mee.",
+             waarom=[None, None]),
+        dict(aanpak=r"Vermogen is spanning maal stroom: \(P = U \cdot I\). Voor kilowattuur reken je het "
+                    r"vermogen om naar kilowatt en de tijd naar uur.",
+             waarom=[
+                 None,
+                 r"\(60\) watt is \(0{,}06\) kilowatt, maal \(5\) uur geeft \(0{,}3\) kWh. De omzetting "
+                 r"naar kilowatt is de hele oefening.",
+                 "Het Joule-effect is in een kachel gewenst en in een snoer net niet. Dezelfde natuurwet, "
+                 "twee beoordelingen.",
+             ]),
+        dict(aanpak="Twee beveiligingen met elk hun eigen taak: de zekering tegen te veel stroom, de "
+                    "verliesstroomschakelaar tegen een lek naar de aarde.",
+             waarom=[
+                 "De twee vervangen elkaar niet. Een zekering merkt een lek door een mens niet, want die "
+                 "stroom is te klein voor haar.",
+                 "Zonder aarding staat de behuizing onder spanning tot iemand ze aanraakt. De aarding maakt "
+                 "van die fout meteen een zichtbare storing.",
+                 "Eerst afschakelen, nooit aanraken. Raak je de persoon aan terwijl de stroom erop staat, "
+                 "dan sta jij er ook op.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-veilig-werken-meten-en-levensreddend-handelen-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Elk pictogram toont wat er misgaat: een vlam, een doodshoofd, een weggevreten hand. "
+                    "Het beeld zegt het gevaar.",
+             waarom=[
+                 None, None,
+                 "Zonder pictogram weet je niet wat je in handen hebt. Daarom is een product zonder etiket "
+                 "nooit veilig te gebruiken.",
+             ]),
+        dict(aanpak="De laboregels hebben één doel: niemand komt in aanraking met iets wat hij niet kan "
+                    "overzien. Vraag je bij elke regel af welk ongeval ze voorkomt.",
+             waarom=[
+                 "Teruggieten kan de hele voorraad vervuilen. Daarom giet je liever iets te weinig uit dan "
+                 "te veel.",
+                 "De bril blijft op zolang er iemand werkt, niet enkel wanneer jij bezig bent. Een spat "
+                 "komt van de buur.",
+                 "Je wuift de damp naar je toe, en je ademt niet diep in. Dat heet waaieren.",
+                 "Onthoud het als zuur bij water, nooit water bij zuur. Het ezelsbruggetje is dat zuur in "
+                 "het water duikt.",
+                 None,
+             ]),
+        dict(aanpak="Meten is nooit exact. Zeg bij elk resultaat hoe nauwkeurig je toestel is, en lees af "
+                    "op ooghoogte.",
+             waarom=[
+                 None,
+                 "De holle bovenkant heet de meniscus. Afgelezen vanuit een andere hoek krijg je een "
+                 "parallaxfout.",
+                 "Beduidende cijfers zeggen hoe nauwkeurig je gemeten hebt. Een nul erbij zou meer "
+                 "nauwkeurigheid voorwenden dan je hebt.",
+                 "Herhalen helpt enkel tegen toevallige fouten. Een toestel dat verkeerd staat, blijft "
+                 "even verkeerd hoe vaak je ook meet.",
+             ]),
+        dict(aanpak="De orde bij een ongeval ligt vast: eerst veiligheid, dan beoordelen, dan hulp bellen "
+                    "en handelen. Die orde is zelf de leerstof.",
+             waarom=[
+                 "Dit is de regel die het vaakst vergeten wordt, en de belangrijkste. Een tweede slachtoffer "
+                 "helpt niemand vooruit.",
+                 None,
+                 "De zijligging houdt de luchtweg vrij. Ze geldt alleen als de persoon wél normaal ademt.",
+             ]),
+        dict(aanpak="Bij een hartstilstand telt elke seconde. Herken het aan twee dingen: geen reactie en "
+                    "geen normale ademhaling.",
+             waarom=[
+                 "Die happende bewegingen heten gaspen. Ze worden vaak voor ademen aangezien, en dat kost "
+                 "tijd.",
+                 None, None,
+                 "Hier zie je waarom de vorige vraag ertoe doet: bij iemand die niet ademt, is zijligging "
+                 "net verkeerd. Het verschil is de ademhaling.",
+                 "Je gaat door tot de hulpdiensten het overnemen of het slachtoffer weer normaal ademt. "
+                 "Stoppen betekent dat de bloedsomloop stilvalt.",
+             ]),
+        dict(aanpak="Bij verdrinking en verslikking geldt dezelfde eerste regel: eerst je eigen veiligheid, "
+                    "dan handelen volgens een vaste reeks.",
+             waarom=[
+                 "Zeg ook wat je níét doet. Veel redders worden zelf slachtoffer omdat ze het water in "
+                 "springen.",
+                 "Zolang iemand nog hoest, laat je hem hoesten; dat werkt beter dan wat jij kan doen. Pas "
+                 "als dat stopt, grijp je in.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-grootheden-eenheden-en-wetenschappelijk-onderzoek-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Een grootheid is wat je meet, een eenheid is waarin je het uitdrukt. Leer ze altijd "
+                    "als een paar.",
+             waarom=[
+                 None,
+                 "Deze drie zijn afgeleide eenheden: ze zijn uit de basiseenheden opgebouwd. Een newton is "
+                 "kilogram maal meter per seconde in het kwadraat.",
+                 None,
+                 "Een getal zonder eenheid betekent niets: 3 kan drie meter of drie kilometer zijn. Daarom "
+                 "kost een vergeten eenheid punten.",
+             ]),
+        dict(aanpak="Bij het omrekenen tel je de stappen van drie: kilo is duizend keer meer, milli duizend "
+                    "keer minder.",
+             waarom=[None, None, None]),
+        dict(aanpak="Kijk naar de grafiek of naar de getallen: blijft de verhouding gelijk, het product "
+                    "gelijk, of groeit het met het kwadraat.",
+             waarom=[
+                 None,
+                 "Een omgekeerd evenredig verband herken je aan het gelijke product. De gaswet van Boyle is "
+                 "daar het voorbeeld van.",
+                 "Elk recht evenredig verband is lineair, maar niet elk lineair verband is recht evenredig. "
+                 "De oorsprong beslist.",
+             ]),
+        dict(aanpak="Schrijf nooit meer cijfers op dan je gemeten hebt. De nauwkeurigheid van je toestel "
+                    "bepaalt je antwoord.",
+             waarom=[
+                 None, None,
+                 "Een schatting vooraf vangt de grove fouten op: een komma verkeerd, een factor duizend "
+                 "mis. Dat zijn net de fouten die het meest kosten.",
+                 "Herhalen helpt tegen de ene fout en niet tegen de andere. Dat is waarom je ook je toestel "
+                 "op nul zet voor je begint.",
+             ]),
+        dict(aanpak="De vier stappen zijn: probleemstelling, hypothese, plan, data. Pas daarna komt het "
+                    "besluit en de reflectie.",
+             waarom=[
+                 "De hypothese komt vóór het plan: je weet eerst wat je verwacht, en dan bedenk je hoe je "
+                 "dat gaat nagaan.",
+                 None, None,
+                 "Een weerlegde hypothese is een geldig resultaat: je weet nu iets wat je ervoor niet wist. "
+                 "Alleen een slecht uitgevoerde proef is waardeloos.",
+             ]),
+        dict(aanpak="Bij elke proef geldt: één ding tegelijk veranderen, de rest gelijk houden, en alles "
+                    "opschrijven.",
+             waarom=[
+                 "De dingen die je gelijk houdt, heten de controlevariabelen. Noem ze bij naam, dan toon je "
+                 "dat je weet wat je controleert.",
+                 None, None,
+                 "Dit is geen regel maar de kern van wetenschap: wie zijn gegevens aanpast, onderzoekt "
+                 "niets meer.",
+             ]),
+        dict(aanpak="Een ontwerpopdracht begint niet bij bouwen maar bij het probleem scherp stellen en de "
+                    "criteria opschrijven.",
+             waarom=[
+                 None, None,
+                 "De meest gemaakte fout is meteen beginnen bouwen. Een onscherp probleem levert een "
+                 "oplossing voor de verkeerde vraag.",
+                 None, None,
+                 "Evalueren en verbeteren horen bij het ontwerpen. Een ontwerpproces is een kring en geen "
+                 "rechte lijn.",
+             ]),
+    ],
+)
