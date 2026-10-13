@@ -123,15 +123,14 @@
           "opties": [
             "goed omringd zijn",
             "je goed voelen",
-            "jezelf kunnen zijn",
+            "veel bezitten",
             "genoeg verdienen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De drie bouwstenen zijn goed omringd zijn, je goed voelen en jezelf kunnen zijn."
+          "uitleg": "De bouwstenen van de geluksdriehoek zijn goed omringd zijn, je goed voelen en jezelf kunnen zijn. Geld en bezit staan er niet in."
         },
         {
           "type": "meerkeuze",
@@ -140,12 +139,14 @@
             "mensen om je heen",
             "ergens bij horen",
             "steun krijgen",
-            "een groot inkomen"
+            "een groot inkomen",
+            "iemand hebben om op terug te vallen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Goed omringd zijn gaat over mensen, niet over geld."
         },
@@ -237,15 +238,14 @@
           "opties": [
             "fysiek welbevinden",
             "psychisch welbevinden",
-            "sociaal welbevinden",
+            "financiële zekerheid",
             "materieel bezit"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Gezondheid is een toestand van volledig fysiek, psychisch en sociaal welbevinden."
+          "uitleg": "Gezondheid is een toestand van volledig fysiek, psychisch en sociaal welbevinden. Bezit en geld horen daar niet bij."
         },
         {
           "type": "meerkeuze",
@@ -302,12 +302,14 @@
             "gezonde kantine",
             "water op school",
             "fruit op tafel",
-            "frisdrank in de gang"
+            "frisdrank in de gang",
+            "samen koken in de les"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een automaat met frisdrank is net een drempel."
         },
@@ -377,15 +379,14 @@
           "opties": [
             "zelfzorg",
             "mantelzorg",
-            "professionele zorg",
+            "zorg van de winkelier",
             "winkelzorg"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Zelfzorg, mantelzorg en professionele zorg."
+          "uitleg": "Zelfzorg, mantelzorg en professionele zorg zijn de soorten zorg. Een winkel verkoopt, ze zorgt niet."
         },
         {
           "type": "meerkeuze",
@@ -464,14 +465,16 @@
             "biologische factoren",
             "de omgeving",
             "de leefstijl",
-            "de leeftijd van de ouders"
+            "de leeftijd van de ouders",
+            "de voorzieningen van de gezondheidszorg"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De vierde determinant zijn de voorzieningen van de gezondheidszorg."
+          "uitleg": "Lalonde onderscheidt de biologische factoren, de omgeving, de leefstijl en de voorzieningen van de gezondheidszorg. De leeftijd van de ouders is geen aparte determinant."
         },
         {
           "type": "meerkeuze",
@@ -563,15 +566,14 @@
           "opties": [
             "de woning",
             "de buurt",
-            "het werk",
+            "de leefstijl",
             "het erfelijk materiaal"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het erfelijk materiaal is een biologische factor."
+          "uitleg": "De woning, de buurt en het werk horen bij de omgeving. Het erfelijk materiaal is een biologische factor en de leefstijl is een determinant op zich."
         },
         {
           "type": "meerkeuze",
@@ -604,12 +606,14 @@
             "roken",
             "bewegen",
             "eten",
-            "de bloedgroep"
+            "de bloedgroep",
+            "alcohol drinken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De bloedgroep is een biologische factor, geen leefstijl."
         },
@@ -688,17 +692,16 @@
           "type": "meerkeuze",
           "vraag": "Welke gedragsdeterminanten heeft het gedragswiel?",
           "opties": [
-            "competenties",
+            "de leeftijd",
             "drijfveren",
             "context",
             "erfelijkheid"
           ],
           "antwoord": [
-            0,
             1,
             2
           ],
-          "uitleg": "Het gedragswiel werkt met competenties, drijfveren en context."
+          "uitleg": "Het gedragswiel werkt met competenties, drijfveren en context. Erfelijkheid en leeftijd horen daar niet bij."
         },
         {
           "type": "meerkeuze",
@@ -779,12 +782,14 @@
             "de prijs van voeding",
             "de regels op school",
             "de mensen om je heen",
-            "je eigen motivatie"
+            "je eigen motivatie",
+            "het aanbod in de buurt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Je motivatie is een drijfveer, en die zit in de persoon zelf."
         },
@@ -818,15 +823,14 @@
           "opties": [
             "bewegen",
             "gezond eten",
-            "voldoende slapen",
+            "je bloedgroep",
             "je lengte"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Je lengte is geen gedrag maar een biologisch gegeven."
+          "uitleg": "Bewegen, gezond eten en voldoende slapen zijn gedrag: je kan het zelf doen. Je lengte en je bloedgroep zijn biologische gegevens."
         },
         {
           "type": "meerkeuze",
@@ -916,16 +920,15 @@
           "vraag": "Uit welke delen bestaat ontwikkeling?",
           "opties": [
             "groeien",
-            "rijpen",
+            "veranderen van school",
             "leren",
             "verhuizen"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Ontwikkeling is altijd een combinatie van groeien, rijpen en leren."
+          "uitleg": "Ontwikkeling is altijd een combinatie van groeien, rijpen en leren. Verhuizen of van school veranderen is geen deel van de ontwikkeling zelf."
         },
         {
           "type": "meerkeuze",
@@ -994,12 +997,14 @@
             "de babytijd",
             "de peutertijd",
             "de kleutertijd",
-            "de pensioentijd"
+            "de pensioentijd",
+            "de lagereschooltijd"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De pensioentijd hoort bij de late volwassenheid."
         },
@@ -1045,15 +1050,14 @@
           "opties": [
             "de vroege volwassenheid",
             "de midden-volwassenheid",
-            "de late volwassenheid",
+            "de kleutertijd",
             "de adolescentie erbij"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De adolescentie komt voor de volwassenheid."
+          "uitleg": "De vroege, de midden- en de late volwassenheid horen bij de volwassenen. De adolescentie en de kleutertijd komen ervoor."
         },
         {
           "type": "meerkeuze",
@@ -1145,16 +1149,15 @@
           "vraag": "Welke ontwikkelingsfactoren zijn er?",
           "opties": [
             "erfelijkheid",
-            "de omgeving",
+            "de leeftijd",
             "de zelfbepaling",
             "het toeval"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Nature of erfelijkheid, nurture of omgeving, en zelfbepaling."
+          "uitleg": "Nature of erfelijkheid, nurture of omgeving, en zelfbepaling zijn de ontwikkelingsfactoren. Het toeval en de leeftijd horen er niet bij."
         },
         {
           "type": "meerkeuze",
@@ -1223,14 +1226,16 @@
             "de fysieke ontwikkeling",
             "de cognitieve ontwikkeling",
             "de morele ontwikkeling",
-            "de financiële ontwikkeling"
+            "de financiële ontwikkeling",
+            "de socio-emotionele ontwikkeling"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Verder nog de socio-emotionele ontwikkeling en de persoonlijkheidsontwikkeling."
+          "uitleg": "De fysieke, de cognitieve, de morele en de socio-emotionele ontwikkeling zijn domeinen, en ook de persoonlijkheidsontwikkeling. Een financiële ontwikkeling bestaat niet als domein."
         },
         {
           "type": "meerkeuze",
@@ -1274,15 +1279,14 @@
           "opties": [
             "de sociale ontwikkeling",
             "omgaan met emoties",
-            "vriendschappen maken",
+            "leren rekenen",
             "de lengte van het kind"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De lengte hoort bij de lichamelijke ontwikkeling."
+          "uitleg": "De sociale ontwikkeling, omgaan met emoties en vriendschappen maken horen bij de socio-emotionele ontwikkeling. De lengte hoort bij de lichamelijke en rekenen bij de cognitieve ontwikkeling."
         },
         {
           "type": "meerkeuze",
@@ -1397,12 +1401,14 @@
             "de lengte",
             "het gewicht",
             "de leeftijd",
-            "het rapport"
+            "het rapport",
+            "de percentiellijnen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een groeicurve zet lengte of gewicht uit tegenover de leeftijd."
         },
@@ -1484,15 +1490,14 @@
           "opties": [
             "hij valt op in de groep",
             "hij voelt zich anders",
-            "hij wordt onhandiger",
+            "hij ziet slechter",
             "hij leert trager lezen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het lichaam verandert sneller dan de motoriek volgt, en dat valt op. Lezen heeft er niets mee te maken."
+          "uitleg": "Het lichaam verandert sneller dan de motoriek volgt, dus wordt een tiener onhandiger, en dat valt op in de groep. Met lezen of met de ogen heeft het niets te maken."
         },
         {
           "type": "meerkeuze",
@@ -1501,12 +1506,14 @@
             "het gehoor",
             "de reuk",
             "de smaak",
-            "het dieptezicht"
+            "het dieptezicht",
+            "de tast"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Gehoor, reuk en smaak werken al rond de geboorte. Het zicht en het dieptezicht hebben nog maanden nodig."
         },
@@ -1602,14 +1609,16 @@
             "de zuigreflex",
             "de grijpreflex",
             "de schrikreflex",
-            "de leesreflex erbij"
+            "de leesreflex erbij",
+            "de zoekreflex"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Een leesreflex bestaat niet. Verder nog de zoekreflex en de stapreflex."
+          "uitleg": "De zuigreflex, de grijpreflex, de schrikreflex en de zoekreflex zijn er van het begin, en ook de stapreflex. Een leesreflex bestaat niet."
         },
         {
           "type": "meerkeuze",
@@ -1678,12 +1687,14 @@
             "zitten",
             "kruipen",
             "stappen",
-            "schrijven"
+            "schrijven",
+            "rollen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Schrijven is fijne motoriek."
         },
@@ -1717,15 +1728,14 @@
           "opties": [
             "met de hand grijpen",
             "de pincetgreep",
-            "leren tekenen",
+            "leren stappen",
             "leren kruipen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Kruipen is grove motoriek."
+          "uitleg": "Met de hand grijpen, de pincetgreep en leren tekenen horen bij de fijne motoriek. Kruipen en stappen zijn grove motoriek."
         },
         {
           "type": "meerkeuze",
@@ -1851,16 +1861,15 @@
           "vraag": "Wat hoort bij het sensomotorische stadium?",
           "opties": [
             "objectpermanentie",
-            "persoonspermanentie",
+            "hypothetisch denken",
             "intentioneel handelen",
             "abstract denken"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Abstract denken komt pas in het formeel-operationele stadium."
+          "uitleg": "Objectpermanentie, persoonspermanentie en intentioneel handelen horen bij het sensomotorische stadium. Abstract en hypothetisch denken komen pas in het formeel-operationele stadium."
         },
         {
           "type": "meerkeuze",
@@ -1917,12 +1926,14 @@
             "symbolisch denken",
             "veel fantasie",
             "typische denkfouten",
-            "logisch redeneren"
+            "logisch redeneren",
+            "egocentrisme"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Logisch redeneren komt pas later, in het formeel-operationele stadium."
         },
@@ -1981,14 +1992,16 @@
             "animisme",
             "magisch denken",
             "egocentrisme",
-            "logisch redeneren"
+            "logisch redeneren",
+            "centratie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Verder nog centratie en niet-reversibel denken. Logisch redeneren is geen denkfout."
+          "uitleg": "Animisme, magisch denken, egocentrisme en centratie zijn denkfouten van kleuters, en ook niet-reversibel denken. Logisch redeneren is geen denkfout."
         },
         {
           "type": "waarofniet",
@@ -2066,15 +2079,14 @@
           "opties": [
             "systematisch denken",
             "reversibel denken",
-            "conservatienotie",
+            "abstract denken",
             "hypothetisch denken"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Hypothetisch denken komt pas in het formeel-operationele stadium."
+          "uitleg": "Systematisch denken, reversibel denken en de conservatienotie horen bij het concreet-operationele stadium. Hypothetisch en abstract denken komen pas daarna."
         },
         {
           "type": "meerkeuze",
@@ -2155,14 +2167,16 @@
             "abstract denken",
             "logisch redeneren",
             "hypothetisch denken",
-            "objectpermanentie"
+            "objectpermanentie",
+            "experimenteel denken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Objectpermanentie hoort bij het sensomotorische stadium. Verder nog experimenteel denken."
+          "uitleg": "Abstract denken, logisch redeneren, hypothetisch denken en experimenteel denken horen bij het formeel-operationele stadium. Objectpermanentie hoort bij het sensomotorische stadium."
         },
         {
           "type": "meerkeuze",
@@ -2194,15 +2208,14 @@
           "opties": [
             "eerst brabbelen",
             "dan losse woorden",
-            "dan korte zinnen",
+            "dan vanzelf lezen",
             "eerst volledige verhalen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Huilen en brabbelen, dan een eerste woordje, dan tweewoordzinnen, dan korte zinnen."
+          "uitleg": "Huilen en brabbelen, dan een eerste woordje, dan tweewoordzinnen en dan korte zinnen. Volledige verhalen en lezen komen veel later."
         },
         {
           "type": "meerkeuze",
@@ -2305,15 +2318,14 @@
           "opties": [
             "het pre-conventionele",
             "het conventionele",
-            "het post-conventionele",
+            "het sensomotorische",
             "het operationele"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het operationele stadium komt van Piaget, niet van Kohlberg."
+          "uitleg": "Kohlberg onderscheidt het pre-conventionele, het conventionele en het post-conventionele niveau. Het operationele en het sensomotorische stadium komen van Piaget."
         },
         {
           "type": "meerkeuze",
@@ -2392,16 +2404,15 @@
           "vraag": "Wat weegt mee in het pre-conventionele stadium?",
           "opties": [
             "de straf",
-            "de beloning",
+            "de verwachtingen van de groep",
             "het eigen voordeel",
             "de mensenrechten"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Mensenrechten wegen pas in het post-conventionele stadium."
+          "uitleg": "In het pre-conventionele stadium wegen de straf, de beloning en het eigen voordeel. De verwachtingen van de groep wegen in het conventionele en de mensenrechten in het post-conventionele stadium."
         },
         {
           "type": "meerkeuze",
@@ -2422,12 +2433,14 @@
             "de regels",
             "wat anderen vinden",
             "de wet",
-            "het eigen voordeel"
+            "het eigen voordeel",
+            "de orde in de samenleving"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het eigen voordeel weegt in het pre-conventionele stadium."
         },
@@ -2603,17 +2616,16 @@
           "type": "meerkeuze",
           "vraag": "Welke conflicten horen bij de volwassenheid?",
           "opties": [
-            "intimiteit of isolatie",
+            "vertrouwen of wantrouwen",
             "generativiteit of stagnatie",
             "integriteit of wanhoop",
             "initiatief of schuld"
           ],
           "antwoord": [
-            0,
             1,
             2
           ],
-          "uitleg": "Initiatief tegenover schuld hoort bij de kleuter."
+          "uitleg": "Intimiteit tegenover isolatie, generativiteit tegenover stagnatie en integriteit tegenover wanhoop horen bij de volwassenheid. Initiatief tegenover schuld hoort bij de kleuter en vertrouwen tegenover wantrouwen bij de baby."
         },
         {
           "type": "meerkeuze",
@@ -2646,12 +2658,14 @@
             "hoop",
             "wil",
             "doelgerichtheid",
-            "wijsheid"
+            "wijsheid",
+            "bekwaamheid"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Wijsheid hoort bij de late volwassenheid, bij integriteit tegenover wanhoop."
         },
@@ -2661,15 +2675,14 @@
           "opties": [
             "de kracht komt vrij",
             "het kind gaat verder",
-            "de volgende fase kan",
+            "de fase begint opnieuw",
             "het kind blijft stilstaan"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een opgelost conflict levert de kracht van die fase op en maakt de volgende stap mogelijk."
+          "uitleg": "Een opgelost conflict levert de kracht van die fase op, het kind gaat verder en de volgende fase kan beginnen. Stilstaan of opnieuw beginnen hoort er niet bij."
         },
         {
           "type": "waarofniet",
@@ -2737,14 +2750,16 @@
             "solospel",
             "parallel spel",
             "samenspel",
-            "rekenspel"
+            "rekenspel",
+            "toekijkend spel"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Verder nog toekijkend, associatief, coöperatief en doen-alsof-spel."
+          "uitleg": "Solospel, parallel spel, samenspel en toekijkend spel zijn soorten spel, en ook associatief, coöperatief en doen-alsof-spel. Een rekenspel is geen apart soort."
         },
         {
           "type": "meerkeuze",
@@ -2837,12 +2852,14 @@
             "ze leren samenleven",
             "ze leren ruzie maken",
             "ze leren goedmaken",
-            "ze leren beter rekenen erbij"
+            "ze leren beter rekenen erbij",
+            "ze leren voor zichzelf opkomen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "In vriendschappen leren kinderen delen, ruzie maken, goedmaken en voor zichzelf opkomen."
         },
@@ -2877,14 +2894,16 @@
             "directe groepsdruk",
             "indirecte groepsdruk",
             "positieve groepsdruk",
-            "verplichte groepsdruk"
+            "verplichte groepsdruk",
+            "negatieve groepsdruk"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Direct tegenover indirect, en positief tegenover negatief."
+          "uitleg": "Groepsdruk kan direct of indirect zijn, en positief of negatief. Verplichte groepsdruk bestaat niet als soort."
         },
         {
           "type": "meerkeuze",
@@ -2988,14 +3007,16 @@
             "veilige hechting",
             "angstig-vermijdend",
             "angstig-ambivalent",
-            "verplichte hechting"
+            "verplichte hechting",
+            "het gedesorganiseerde patroon"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Verder nog het gedesorganiseerde en gedesoriënteerde patroon."
+          "uitleg": "Veilige hechting, angstig-vermijdend, angstig-ambivalent en het gedesorganiseerde en gedesoriënteerde patroon zijn de vormen van gehechtheid. Verplichte hechting bestaat niet."
         },
         {
           "type": "meerkeuze",
@@ -3003,15 +3024,14 @@
           "opties": [
             "het durft op verkenning",
             "het zoekt troost bij angst",
-            "het keert terug naar zijn basis",
+            "het huilt nooit",
             "het vraagt nooit om hulp"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Omdat het weet dat zijn ouder er is, durft een veilig gehecht kind de wereld in en komt het terug voor troost."
+          "uitleg": "Omdat het weet dat zijn ouder er is, durft een veilig gehecht kind de wereld in en komt het terug voor troost. Dat het nooit huilt of nooit om hulp vraagt, hoort daar niet bij."
         },
         {
           "type": "meerkeuze",
@@ -3103,15 +3123,14 @@
           "opties": [
             "de signalen zien",
             "ze juist begrijpen",
-            "er snel op ingaan",
+            "wachten tot het kind stopt",
             "het kind laten huilen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Zien, begrijpen en er prompt en passend op ingaan. Laten huilen is net het omgekeerde."
+          "uitleg": "De signalen zien, ze juist begrijpen en er prompt en passend op ingaan. Laten huilen of wachten tot het kind stopt is net het omgekeerde."
         },
         {
           "type": "meerkeuze",
@@ -3192,12 +3211,14 @@
             "rimpels",
             "grijze haren",
             "een krommere rug",
-            "minder nierwerking"
+            "minder nierwerking",
+            "een dunnere huid"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Uiterlijke veroudering zie je; de nieren hoort bij de inwendige veroudering."
         },
@@ -3255,15 +3276,14 @@
           "opties": [
             "meer overzicht",
             "meer woordenschat",
-            "meer levenswijsheid",
+            "meer rekensnelheid",
             "meer reactiesnelheid"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De snelheid neemt juist af; overzicht, woorden en wijsheid nemen toe."
+          "uitleg": "Overzicht, woordenschat en levenswijsheid nemen toe. De reactiesnelheid en de rekensnelheid nemen juist af."
         },
         {
           "type": "meerkeuze",
@@ -3320,12 +3340,14 @@
             "de spierkracht daalt",
             "het zicht gaat achteruit",
             "het gehoor gaat achteruit",
-            "de lengte neemt sterk toe"
+            "de lengte neemt sterk toe",
+            "de huid wordt droger"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Groeien in de lengte is al gestopt; de rest gaat traag achteruit."
         },
@@ -3419,15 +3441,14 @@
           "opties": [
             "gezinsvorming",
             "midlifecrisis",
-            "legenestsyndroom",
+            "de eerste schooldag",
             "pensionering"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Pensionering hoort bij de oudere."
+          "uitleg": "Gezinsvorming, een midlifecrisis en het legenestsyndroom horen bij de volwassene. Pensionering hoort bij de oudere en de eerste schooldag bij het kind."
         },
         {
           "type": "meerkeuze",
@@ -3496,12 +3517,14 @@
             "pensionering",
             "eenzaamheid",
             "kleinkinderen",
-            "gezinsvorming"
+            "gezinsvorming",
+            "het verlies van een partner"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Gezinsvorming hoort bij de volwassene."
         },
@@ -3559,15 +3582,14 @@
           "opties": [
             "eigen spullen meenemen",
             "mee beslissen",
-            "bezoek krijgen",
+            "meteen alle gewoontes aanpassen",
             "alles achterlaten"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Eigen spullen, mee kunnen beslissen en bezoek maken de stap draaglijker."
+          "uitleg": "Eigen spullen meenemen, mee kunnen beslissen en bezoek krijgen maken de stap draaglijker. Alles achterlaten of meteen alle gewoontes omgooien maakt het juist zwaarder."
         },
         {
           "type": "meerkeuze",
@@ -3669,15 +3691,14 @@
           "opties": [
             "de zintuigen",
             "het lichaam",
-            "de psyche",
+            "de kleur van de muur",
             "het weerbericht"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Zintuiglijke, fysiologische en psychologische factoren bepalen wat je opmerkt."
+          "uitleg": "Zintuiglijke, fysiologische en psychologische factoren bepalen wat je opmerkt. Het weerbericht en de kleur van de muur spelen geen rol."
         },
         {
           "type": "meerkeuze",
@@ -3722,12 +3743,14 @@
             "aandacht",
             "voorkennis",
             "emoties",
-            "de temperatuur"
+            "de temperatuur",
+            "je eigen ervaring"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Aandacht, ervaring en voorkennis, en je eigen gevoelens kleuren wat je ziet."
         },
@@ -3797,15 +3820,14 @@
           "opties": [
             "ze kleuren wat je ziet",
             "ze sturen je aandacht",
-            "ze maken je minder streng",
+            "ze maken je altijd strenger",
             "ze hebben geen invloed"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Wie zelf moe of geïrriteerd is, ziet ander gedrag dan wie uitgeslapen is."
+          "uitleg": "Emoties kleuren wat je ziet en sturen je aandacht: wie moe of geïrriteerd is, ziet ander gedrag dan wie uitgeslapen is. Of je daardoor strenger of milder wordt, hangt van het moment af."
         },
         {
           "type": "waarofniet",
@@ -3874,14 +3896,16 @@
             "doelgericht",
             "objectief",
             "nauwkeurig",
-            "verrassend"
+            "verrassend",
+            "opnieuw uitvoerbaar"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Verder nog: opnieuw uitvoerbaar en representatief."
+          "uitleg": "Een goede observatie is doelgericht, objectief, nauwkeurig, opnieuw uitvoerbaar en representatief. Verrassend hoeft ze niet te zijn."
         },
         {
           "type": "meerkeuze",
@@ -3889,15 +3913,14 @@
           "opties": [
             "je noteert enkel feiten",
             "je laat je mening weg",
-            "je schrijft gedrag op",
+            "je schrijft op wat je ervan denkt",
             "je oordeelt meteen erbij"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Niet \"hij was boos\" maar \"hij duwde zijn stoel weg en zweeg\"."
+          "uitleg": "Je noteert enkel feiten en gedrag en laat je mening weg. Niet dat hij boos was, maar dat hij zijn stoel wegduwde en zweeg."
         },
         {
           "type": "meerkeuze",
@@ -3978,12 +4001,14 @@
             "je doet zelf mee",
             "je zit in de groep",
             "je speelt mee",
-            "je kijkt van ver toe"
+            "je kijkt van ver toe",
+            "je praat mee met de kinderen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Je neemt deel aan de activiteit terwijl je observeert. Van ver toekijken is net niet-participerend."
         },
@@ -4102,14 +4127,16 @@
             "mondeling",
             "schriftelijk",
             "intern",
-            "toevallig"
+            "toevallig",
+            "extern"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Mondeling of schriftelijk, en intern of extern."
+          "uitleg": "Rapportering is mondeling of schriftelijk, en intern of extern. Toevallig rapporteren is geen soort."
         },
         {
           "type": "meerkeuze",
@@ -4141,15 +4168,14 @@
           "opties": [
             "ze blijft binnen de werking",
             "ze is voor de collega's",
-            "ze kan mondeling zijn",
+            "ze is altijd schriftelijk",
             "ze gaat naar de krant"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Voor de eigen collega's en het eigen team."
+          "uitleg": "Interne rapportering blijft binnen de werking, is voor de eigen collega's en het eigen team, en kan mondeling of schriftelijk zijn. Naar de krant gaat ze niet."
         },
         {
           "type": "meerkeuze",
@@ -4194,12 +4220,14 @@
             "de feiten",
             "de datum",
             "wie erbij was",
-            "je eigen gissing"
+            "je eigen gissing",
+            "het uur"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Wat, wanneer en wie: zo is het rapport controleerbaar."
         },
@@ -4329,15 +4357,14 @@
           "opties": [
             "je laat hem uitspreken",
             "je neemt hem ernstig",
-            "je vraagt zijn mening",
+            "je beslist wat het beste is",
             "je beslist in zijn plaats"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Respect betekent de ander ernstig nemen en mee laten beslissen."
+          "uitleg": "Respect betekent iemand laten uitspreken, hem ernstig nemen, zijn mening vragen en mee laten beslissen. In zijn plaats beslissen hoort daar niet bij."
         },
         {
           "type": "meerkeuze",
@@ -4430,12 +4457,14 @@
             "iedereen mag meedoen",
             "niemand wordt uitgelachen",
             "de afspraken zijn duidelijk",
-            "er is altijd een winnaar"
+            "er is altijd een winnaar",
+            "iedereen mag een fout maken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Meedoen mogen, niet uitgelachen worden en duidelijke afspraken maken een groep veilig."
         },
@@ -4469,15 +4498,14 @@
           "opties": [
             "je kijkt naar wat kan",
             "je benoemt de sterktes",
-            "je zoekt samen een weg",
+            "je zegt wat er moet gebeuren",
             "je somt de fouten op"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Je start bij de mogelijkheden en de sterktes, niet bij de tekorten."
+          "uitleg": "Je start bij de mogelijkheden en de sterktes en zoekt samen een weg, niet bij de tekorten en niet met een opdracht van bovenaf."
         },
         {
           "type": "meerkeuze",
@@ -4558,12 +4586,14 @@
             "wat iemand doet",
             "wat iemand zegt",
             "wat iemand denkt",
-            "wat iemand bezit"
+            "wat iemand bezit",
+            "wat iemand voelt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Gedrag is alles wat een mens doet, zegt, denkt en voelt."
         },
@@ -4573,15 +4603,14 @@
           "opties": [
             "waarneembaar gedrag",
             "niet-waarneembaar gedrag",
-            "reflexmatig gedrag",
+            "geheim gedrag",
             "verboden gedrag"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Gedrag kan zichtbaar zijn, binnenin blijven of automatisch gebeuren."
+          "uitleg": "Gedrag kan zichtbaar zijn, binnenin blijven of automatisch gebeuren als een reflex. Verboden of geheim gedrag is geen aparte soort."
         },
         {
           "type": "meerkeuze",
@@ -4626,12 +4655,14 @@
             "biologische factoren",
             "psychologische factoren",
             "sociale factoren",
-            "toevallige factoren"
+            "toevallige factoren",
+            "cognitieve factoren"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Biologisch, psychologisch, cognitief en sociaal: samen bepalen ze het gedrag."
         },
@@ -4799,12 +4830,14 @@
             "fysieke behoeften",
             "zekerheid",
             "erkenning",
-            "beloning"
+            "beloning",
+            "sociaal contact"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Fysieke behoeften, zekerheid, sociaal contact, erkenning en zelfactualisatie."
         },
@@ -4838,15 +4871,14 @@
           "opties": [
             "worden wie je kan zijn",
             "je talenten gebruiken",
-            "jezelf ontplooien",
+            "alles bereiken wat je wil",
             "alles kunnen kopen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Je talenten en je mogelijkheden ten volle gebruiken."
+          "uitleg": "Zelfactualisatie is worden wie je kan zijn: je talenten en je mogelijkheden ten volle gebruiken en jezelf ontplooien. Met kopen of met alles bereiken heeft het niets te maken."
         },
         {
           "type": "meerkeuze",
@@ -4879,12 +4911,14 @@
             "affectie",
             "veiligheid",
             "erkenning",
-            "beloning"
+            "beloning",
+            "zingeving"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Zes in totaal: lichamelijke behoeften, affectie, veiligheid, erkenning, zichzelf kundig voelen en zingeving."
         },
