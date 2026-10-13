@@ -464,7 +464,7 @@ OEFENBUNDELS["oefenbundel-natuurlijke-selectie-en-het-ontstaan-van-soorten-beyon
                  ("waar", "Natuurlijke selectie maakt zelf nieuwe eigenschappen aan.", False),
                  ("waar", "Natuurlijke selectie werkt alleen op erfelijke kenmerken.", True),
                  ("waar", "Een organisme kan zich doelbewust aanpassen om beter te overleven.", False),
-                 ("open", "Een populaties wordt heel klein. Waarom is dat gevaarlijk voor de soort?",
+                 ("open", "Een populatie wordt heel klein. Waarom is dat gevaarlijk voor de soort?",
                   "Er is dan weinig erfelijke variatie om op terug te vallen. Verandert de omgeving, dan "
                   "is de kans klein dat er iemand bij is die het overleeft.", 4),
              ]),
@@ -1261,5 +1261,1091 @@ OEFENBUNDELS["oefenbundel-veilig-werken-meten-en-onderzoeken-beyond-dubbele-fina
                   "meettoestellen en filters, en wiskundige kennis om de metingen te verwerken. Een "
                   "totaaloplossing vraagt kennis uit meerdere hoeken.", 4),
              ]),
+    ],
+)
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-bevruchting-en-de-ontwikkeling-van-embryo-en-foetus-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Hou de vier hormonen aan hun eerste letter: FSH laat rijpen, LH lost de eisprong "
+                   "uit, progesteron houdt het slijmvlies dik. En hou apart wie ze maakt.",
+            waarom=[
+                "Let op FSH en LH: de F van FSH past bij follikel, en LH geeft de piek die de "
+                "eisprong uitlokt. Zo verwar je de twee niet.",
+                "Let op het geel lichaam: dat is wat er van de follikel overblijft na de eisprong, en "
+                "het maakt het progesteron. Valt het weg, dan komt de menstruatie.",
+            ],
+        ),
+        dict(
+            aanpak="Reken altijd van achteren naar voren: de eisprong valt ongeveer veertien dagen "
+                   "vóór de volgende menstruatie. Trek dus veertien van de cyclusduur af.",
+            waarom=[
+                "Let erop dat je 30 min 14 rekent en niet 14 zelf neemt. Bij een cyclus van 28 dagen "
+                "vallen de twee manieren samen, en daarom denken veel mensen dat dag 14 altijd "
+                "klopt.",
+                None,
+                "Noem dat de tweede helft bij bijna elke vrouw ongeveer even lang is. Dat is de "
+                "reden, en het verklaart ook waarom een kalendermethode weinig betrouwbaar is.",
+            ],
+        ),
+        dict(
+            aanpak="Vergelijk de twee cellen op hun taak: de zaadcel moet reizen, de eicel moet "
+                   "voeden. Alles aan hun bouw volgt daaruit.",
+            waarom=[
+                "Let op beide: een kern hebben ze allebei, want elk van de twee brengt de helft van "
+                "het erfelijk materiaal aan.",
+                "Let op de mitochondriën in het middenstuk van de zaadcel: dat is haar motor. De "
+                "eicel geeft bij de bevruchting wel haar mitochondriën mee, en de zaadcel niet.",
+            ],
+        ),
+        dict(
+            aanpak="Volg de weg in de tijd: eerst de eisprong, dan de reis, dan de versmelting, en "
+                   "pas een week later de innesteling.",
+            waarom=[
+                "Let erop dat het bevruchtingsmembraan vóór het versmelten van de kernen komt. Eerst "
+                "wordt de deur gesloten, dan gebeurt wat erbinnen moet gebeuren.",
+            ],
+        ),
+        dict(
+            aanpak="De placenta is een uitwisselingsplaats. Zet de stoffen in twee kolommen: wat "
+                   "naar de vrucht gaat en wat eruit moet.",
+            waarom=[
+                None,
+                "Noem beide voordelen: de bloedgroepen en de afweer. En noem dat de stoffen wel door "
+                "het vlies gaan, anders lijkt het alsof er niets passeert.",
+                "Let erop dat het twee slagaders en één ader zijn. Een slagader voert hier bloed van "
+                "de vrucht weg, dus zuurstofarm, en de ader brengt zuurstofrijk bloed binnen.",
+            ],
+        ),
+        dict(
+            aanpak="Vier vragen over wat van buiten bij de vrucht raakt. Hou vast dat de eerste "
+                   "weken het gevoeligst zijn, ook als de vrouw nog niets weet.",
+            waarom=[
+                None,
+                "Niet waar: ook meeroken brengt schadelijke stoffen binnen. Daarom geldt het advies "
+                "voor de hele omgeving van een zwangere vrouw.",
+                "Noem dat de aanleg al in de eerste weken gebeurt. Dat is het hele antwoord, en het "
+                "is de reden dat men foliumzuur aanraadt van zodra er een kinderwens is.",
+                "Let op de drie ziekteverwekkers: elk heeft een eigen weg naar het lichaam. "
+                "Rodehond via de lucht, toxoplasmose via vlees of een kattenbak, zika via een mug.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-vruchtbaarheid-anticonceptie-en-kinderwens-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vier soorten. Vraag je bij elk middel af wat het doet: de vruchtbare dagen "
+                   "mijden, de hormonen regelen, de weg versperren, of een blijvende ingreep.",
+            waarom=[
+                "Let op het pessarium: dat is een barrière, net als een condoom. Alleen beschermt "
+                "een pessarium niet tegen soa, en een condoom wel.",
+                "Let op sterilisatie: dat is een ingreep en bedoeld als blijvend. Dat onderscheidt "
+                "ze van alle andere middelen in deze reeks.",
+                "Let erop dat drie van de natuurlijke methodes hier door elkaar staan: temperatuur, "
+                "ovulatie en kalender. Alle drie proberen ze de vruchtbare dagen te vinden.",
+            ],
+        ),
+        dict(
+            aanpak="Zet de middelen op een tijdlijn: elke dag, elke maand, elke drie maanden, "
+                   "enkele jaren. Hoe langer het werkt, hoe minder er fout kan gaan.",
+            waarom=[
+                "Let erop dat juist de duur de betrouwbaarheid in de praktijk bepaalt. Een staafje "
+                "kan je niet vergeten, een pil wel, en dat komt in de vierde reeks terug.",
+            ],
+        ),
+        dict(
+            aanpak="Bij een advies geef je altijd twee dingen: wat je aanraadt en waarom. Lees in de "
+                   "situatie wat de persoon zelf belangrijk vindt.",
+            waarom=[
+                "Noem dat de pil geen enkele soa tegenhoudt. Dat is de kern: zwangerschap en soa "
+                "zijn twee verschillende risico's en vragen soms twee middelen.",
+                "Noem dat het koperspiraaltje zonder hormonen werkt en jaren meegaat. Beide eisen uit "
+                "de vraag komen zo in je antwoord.",
+                "Noem beide redenen: er komen al zaadcellen vrij vóór de zaadlozing, en het hangt van "
+                "het juiste moment af. Eén reden is maar de helft.",
+            ],
+        ),
+        dict(
+            aanpak="Hou twee cijfers apart: hoe goed een middel werkt als het perfect gebruikt wordt, "
+                   "en hoe goed in het echte leven. Dat verschil is de kern van deze reeks.",
+            waarom=[
+                "Niet waar: een zaaddodend middel is alleen gebruikt te onbetrouwbaar. Het is "
+                "bedoeld als aanvulling op een barrière, zoals een pessarium.",
+                None,
+                "Noem beide kanten van het verschil, met een voorbeeld zoals een vergeten pil. Zo "
+                "wordt duidelijk dat het verschil niet in het middel zit maar in het gebruik.",
+            ],
+        ),
+        dict(
+            aanpak="Drie behandelingen, in stijgende hulp: KI brengt het sperma binnen, IVF "
+                   "bevrucht buiten het lichaam, ICSI prikt één zaadcel in de eicel.",
+            waarom=[
+                "Let op het verschil tussen KI en IVF: bij KI gebeurt de bevruchting nog in het "
+                "lichaam. Enkel bij IVF en ICSI gebeurt ze in het labo.",
+                "Niet waar: het embryo wordt na enkele dagen in de baarmoeder geplaatst en groeit "
+                "daar verder. Het labo doet enkel het eerste stukje.",
+                "Noem beide redenen: niet elke eicel raakt bevrucht en niet elk embryo groeit door. "
+                "Daarom werkt men met meerdere.",
+                "Noem dat er meerdere eicellen rijpen. Dat is het verband tussen de stimulatie en de "
+                "meerling, en het is waarom men vandaag meestal één embryo terugplaatst.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je bij elke factor af waar ze op werkt: op de zaadcellen, op de cyclus, of "
+                   "op beide. Warmte raakt de man, ondergewicht de cyclus van de vrouw.",
+            waarom=[
+                "Let erop dat roken bij beiden speelt. Dat wordt vaak enkel bij de vrouw gelegd, en "
+                "dat is niet juist.",
+                "Noem dat zaadcellen enkele graden koeler rijpen. Daarom is een laptop op de schoot "
+                "of een lange warme bak niet onschuldig.",
+                "Noem allebei: dat de behandeling de vruchtbaarheid kan aantasten en dat invriezen "
+                "haar kans bewaart. Dat tweede is wat de vraag zoekt.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-van-dna-naar-eiwit-genexpressie-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Twee paren: A hoort bij T, G hoort bij C. Enkel bij RNA komt er op de plaats van "
+                   "thymine een U te staan.",
+            waarom=[
+                None,
+                "Let erop dat je bij RNA twee dingen tegelijk doet: de complementaire base nemen en "
+                "T door U vervangen. Vergeet die tweede stap niet.",
+            ],
+        ),
+        dict(
+            aanpak="Drie verschillen tussen DNA en RNA: de suiker, de base en het aantal strengen. "
+                   "Alles wat ze gemeen hebben, hoort bij beide.",
+            waarom=[
+                "Let op guanine: die staat in beide. Enkel thymine en uracil verschillen, en de "
+                "andere drie basen zijn in DNA en RNA dezelfde.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Vier woorden in een rij: een gen is het stuk DNA, een allel is een versie van dat "
+                   "gen, het genotype is wat je hebt, het fenotype is wat je ziet.",
+            waarom=[
+                "Let op het verschil tussen een gen en een allel: het gen is de plaats, het allel is "
+                "de versie. Iedereen heeft het gen voor oogkleur, en de allelen verschillen.",
+                "Let op lengte als fenotype: je ziet ze, dus is ze fenotype, ook al bepaalt het "
+                "genotype haar mee. De volgende reeksen gaan daar verder op in.",
+            ],
+        ),
+        dict(
+            aanpak="Vier stappen, en bij elke stap ook de plaats. Hou vast dat het lezen in de kern "
+                   "gebeurt en het bouwen buiten de kern.",
+            waarom=[
+                "Let erop dat je bij elke stap ook de plaats moet geven. De grens van de kern is de "
+                "kern van dit schema: het origineel blijft binnen, de kopie gaat buiten.",
+                "Noem dat het DNA het origineel is. Dezelfde gedachte als bij een belangrijk "
+                "document: je neemt een kopie mee en laat het origineel in de kluis.",
+            ],
+        ),
+        dict(
+            aanpak="Drie vragen over hetzelfde idee: hetzelfde DNA betekent niet hetzelfde resultaat. "
+                   "Welke genen aanstaan en wat de omgeving doet, beslissen mee.",
+            waarom=[
+                "Noem dat in elke cel andere genen aanstaan. Dat is het hele antwoord, en het woord "
+                "daarvoor is genexpressie.",
+                "Noem twee oorzaken, zoals gevraagd, en noem het woord omgeving. Genotype en omgeving "
+                "samen geven het fenotype.",
+                "Niet waar: een litteken zit in je lichaamscellen en niet in je geslachtscellen. Dat "
+                "is dezelfde fout als die van Lamarck met de giraf.",
+            ],
+        ),
+        dict(
+            aanpak="Eén vraag beslist: blijf je binnen wat de natuur zelf kan kruisen (veredeling), "
+                   "of grijp je rechtstreeks in het DNA in (modificatie)?",
+            waarom=[
+                "Let op de derde: DNA van twee soorten samenbrengen kan de natuur niet door kruisen. "
+                "Dat is dus altijd modificatie.",
+                "Noem van beide technieken wat ze doet, zoals de vraag een verschil vraagt. De grens "
+                "van wat kruisbaar is, is het scherpste onderscheid.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-overerving-van-kenmerken-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Twee woorden volstaan: diploïd is dubbel, haploïd is half. Lichaamscellen zijn "
+                   "diploïd, geslachtscellen haploïd.",
+            waarom=[
+                "Let erop dat een eicel en een zaadcel elk 23 chromosomen hebben. Samen geven ze de "
+                "46 van de volgende vraag.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Eén vraag beslist: gaat het om groeien of herstellen (mitose), of om "
+                   "geslachtscellen maken (meiose)? Variatie hoort altijd bij de meiose.",
+            waarom=[
+                None,
+                "Let op de tweede: variatie tussen de nakomelingen komt van de meiose, door de "
+                "crossing-over en de toevallige verdeling. Mitose geeft juist identieke cellen.",
+            ],
+        ),
+        dict(
+            aanpak="Teken het vierkant met de gameten van de ene ouder bovenaan en die van de andere "
+                   "links. Lees daarna af hoeveel vakjes elk genotype heeft.",
+            waarom=[
+                "Let erop dat de twee middelste vakjes hetzelfde genotype geven, Aa. Daarom komt de "
+                "verhouding op 25, 50 en 25 procent uit.",
+                None,
+                "Let erop dat de dragers de heterozygote helft zijn. Zij tonen het kenmerk niet, en "
+                "toch geven zij het door.",
+                "Noem het genotype van beide ouders en leg uit waarom. Een kind met bloedgroep O "
+                "moet van elke ouder een O gekregen hebben, en dat verraadt hun genotype.",
+            ],
+        ),
+        dict(
+            aanpak="Drie soorten overerving, met één vraag: toont de heterozygoot het dominante "
+                   "kenmerk, een tussenvorm, of allebei volledig?",
+            waarom=[
+                "Let op het verschil tussen intermediair en codominant: bij roze mengen de twee, bij "
+                "bloedgroep AB zijn beide volledig aanwezig. Mengen tegenover naast elkaar.",
+            ],
+        ),
+        dict(
+            aanpak="Eén gegeven draagt de hele reeks: het gen ligt op het X-chromosoom, en een jongen "
+                   "heeft maar één X.",
+            waarom=[
+                None,
+                "Noem alle drie de stappen: het gen op de X, één X bij een jongen, en de tweede X bij "
+                "een meisje. Dan is je uitleg volledig.",
+                None,
+                "Noem de helft en leg uit waarom: een zoon krijgt zijn enige X van zijn moeder. Een "
+                "schema met XX en XY maakt het snel duidelijk.",
+            ],
+        ),
+        dict(
+            aanpak="Bij elke mutatie twee vragen: in welke cel zit ze, en is dat erg? Enkel in een "
+                   "geslachtscel gaat ze mee naar de volgende generatie.",
+            waarom=[
+                "Let erop dat een mutatie in een huidcel niet overerft. Ze kan daar wel kanker "
+                "veroorzaken, en dat is een ander soort gevolg.",
+                "Niet waar: veel mutaties doen niets, en af en toe is er een voordelig. Zonder die "
+                "voordelige mutaties zou er geen evolutie zijn.",
+                "Noem twee oorzaken en één bescherming, zoals gevraagd. Let erop dat ook het gewone "
+                "kopiëren van DNA fouten maakt, zonder dat er iets van buiten bij komt.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-biologische-evolutie-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Drie woorden, drie vragen: dezelfde oorsprong (homoloog), dezelfde functie "
+                   "(analoog), of een overblijfsel zonder taak (rudimentair)?",
+            waarom=[
+                "Let op de insectenvleugel: die vliegt wel maar is heel anders gebouwd. Dezelfde "
+                "functie zonder gemeenschappelijke oorsprong is analoog.",
+                "Let op de walvis: haar vin is homoloog met onze arm, en haar heupbeentjes zijn "
+                "rudimentair. Beide samen zijn een sterk argument dat haar voorouders op het land "
+                "liepen.",
+            ],
+        ),
+        dict(
+            aanpak="Vier vakgebieden: botten zijn anatomie, embryo's zijn embryologie, fossielen zijn "
+                   "paleontologie, en DNA of eiwitten zijn moleculaire biologie.",
+            waarom=[
+                "Let op het tweede: dezelfde vier basen bij alle leven is een moleculair argument, en "
+                "het is een van de sterkste die er zijn.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Een evolutieboom leest van de splitsingen naar de takken. Hoe recenter de "
+                   "splitsing, hoe meer twee soorten op elkaar lijken.",
+            waarom=[
+                None,
+                "Niet waar: een boom toont verwantschap en geen rangorde. Boven of onder in de "
+                "tekening is een kwestie van opmaak.",
+                "Noem dat elke tak die nog leeft, even lang bezig is. Dat is wat deze uitspraak "
+                "weerlegt, en het is een van de hardnekkigste misverstanden over evolutie.",
+                "Noem dat het twee onafhankelijke soorten gegevens zijn. Daarom is zo'n overeenkomst "
+                "een echt argument en geen toeval.",
+            ],
+        ),
+        dict(
+            aanpak="Hou bij deze vragen twee dingen vast: meer verschil in DNA betekent langer "
+                   "geleden, en gemeenschappelijke voorouders zijn geen bestaande dieren.",
+            waarom=[
+                None,
+                "Noem de gemeenschappelijke voorouder en noem dat die uitgestorven is. Zeggen dat de "
+                "uitspraak fout is, volstaat niet; de vraag vraagt een verbetering.",
+                None,
+                "Noem dat kleine veranderingen zich opstapelen. De ouderdom van de aarde is wat de "
+                "theorie de ruimte geeft, en zonder die tijd zou ze niet werken.",
+            ],
+        ),
+        dict(
+            aanpak="Hier gaat het over wat wetenschap is: een verklaring die aan waarnemingen "
+                   "getoetst kan worden en daardoor kan bijgestuurd worden.",
+            waarom=[
+                "Niet waar: de theorie is sindsdien aangevuld met de genetica en het DNA. Juist dat "
+                "bijsturen is wat haar wetenschappelijk maakt.",
+                "Noem dat de theorie te toetsen is en de andere verklaring niet. Dat is het "
+                "onderscheid, en het gaat dus niet over wie er meer in gelooft.",
+                "Noem de voorwaarden voor fossilisatie. Dat verklaart de gaten in het fossielenbestand "
+                "zonder dat die gaten tegen de theorie pleiten.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-natuurlijke-selectie-en-het-ontstaan-van-soorten-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Eén vraag scheidt de twee: verandert het individu tijdens zijn leven (Lamarck) of "
+                   "verandert de samenstelling van de populatie (Darwin)?",
+            waarom=[
+                "Let erop dat variatie en overvloedige nakomelingen bij Darwin horen. Dat zijn de "
+                "twee vaststellingen waarmee hij begon.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Alle drie de uitspraken maken dezelfde fout: het organisme verandert zelf. Schrijf "
+                   "ze om zodat de selectie tussen bestaande verschillen kiest.",
+            waarom=[
+                "Noem beide delen: hoe het wel gaat, en dat uitrekken je geslachtscellen niet "
+                "verandert. De vraag vraagt ook wat eraan fout was.",
+                "Noem dat de mutatie er al was, door toeval. Een mutatie ontstaat niet omdat ze "
+                "nodig is, en dat is de kern van deze verbetering.",
+                "Noem dat de vlinders zelf niet veranderden. Het is de verhouding in de populatie die "
+                "verschoof, en dat is iets heel anders.",
+            ],
+        ),
+        dict(
+            aanpak="Selectie heeft twee dingen nodig: verschillen die er al zijn, en erfelijkheid. "
+                   "Mist er een van de twee, dan werkt ze niet.",
+            waarom=[
+                "Niet waar: nieuwe eigenschappen komen van mutaties. De selectie kiest enkel tussen "
+                "wat er al is.",
+                "Waar: een kenmerk dat niet overerft, verdwijnt met het individu. Daarom werkt training "
+                "of een litteken niet mee in de evolutie.",
+                "Niet waar: aanpassen gebeurt over generaties en niet met een bedoeling. Woorden als "
+                "willen of proberen horen niet in een uitleg over evolutie.",
+                "Noem de erfelijke variatie. Dat is waarom een kleine populatie kwetsbaar is, los van "
+                "jacht of ziekte.",
+            ],
+        ),
+        dict(
+            aanpak="Vijf soorten isolatie: in de ruimte, in de tijd, in het gedrag, in het leefgebied "
+                   "en in de bouw. Vraag je af wat de twee groepen precies belet om te paren.",
+            waarom=[
+                None,
+                "Let op het verschil tussen ecologisch en geografisch: bij ecologisch leven de groepen "
+                "in hetzelfde gebied maar op een andere plek erin, bij geografisch is er een echte "
+                "scheiding.",
+                "Noem dat de genen anders blijven mengen. Dat is waarom isolatie nodig is, en het is "
+                "dezelfde gedachte als bij de eerste reeks van deze bundel.",
+            ],
+        ),
+        dict(
+            aanpak="Hou vast dat het woord vruchtbaar in de definitie staat. Nakomelingen krijgen is "
+                   "niet genoeg; die nakomelingen moeten zich zelf kunnen voortplanten.",
+            waarom=[
+                "Noem het woord vruchtbaar en noem het besluit. Zonder dat woord lijkt het muildier "
+                "juist een bewijs dat het één soort is.",
+            ],
+        ),
+        dict(
+            aanpak="Hou bij de menswording de eerste stap vast: rechtop lopen, en daardoor vrije "
+                   "handen. De rest volgt daarop.",
+            waarom=[
+                "Let erop dat het rechtop lopen vóór de grote hersenen komt. Dat verrast vaak, en "
+                "toch wijzen de fossielen het zo uit.",
+                "Noem drie kenmerken, zoals gevraagd. Let erop dat het gaat om wat we gemeen hebben, "
+                "niet om wat ons onderscheidt.",
+                "Waar: ze leefden tienduizenden jaren naast elkaar, en in ons DNA zitten nog sporen "
+                "van de neanderthaler. De ene is dus niet de voorouder van de andere.",
+                "Noem alle drie de lagen: soorten, variatie binnen een soort, en leefgebieden. Dat "
+                "tweede is wat deze bundel met de rest verbindt.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-productlabels-pictogrammen-en-risico-s-van-stoffen-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Lees bij elke omschrijving wat er precies gebeurt. Vreten is bijtend, een brand "
+                   "voeden is oxiderend, zelf vlam vatten is ontvlambaar.",
+            waarom=[
+                "Let op het verschil tussen ontvlambaar en oxiderend: het eerste brandt zelf, het "
+                "tweede laat iets anders beter branden. Een oxiderende stof maakt een brandje "
+                "onblusbaar.",
+                "Let op het verschil tussen bijtend en irriterend: bijtend vreet weg en geeft blijvende "
+                "schade, irriterend geeft roodheid die weer overgaat.",
+            ],
+        ),
+        dict(
+            aanpak="H van hazard zegt wat er kan gebeuren, P van precaution zegt wat jij moet doen. "
+                   "Een gebod of een verbod is dus altijd een P-zin.",
+            waarom=[
+                None,
+                "Let erop dat ook een gevaar voor het milieu een H-zin is. Een H-zin gaat niet enkel "
+                "over jouw lichaam.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je bij elk stuk afval af of er een gevaar aan zit. Alles met een "
+                   "gevaarpictogram is klein gevaarlijk afval, ook als het bijna leeg is.",
+            waarom=[
+                "Let op de halfvolle fles verf: die hoort bij het kga en niet bij het restafval. Een "
+                "lege verfpot is iets anders dan een pot met een restje erin.",
+                None,
+                "Noem beide delen: dat ze samen giftige gassen vormen, en dat ze allebei naar het kga "
+                "moeten. Enkel waarschuwen voor het mengen is maar de helft.",
+            ],
+        ),
+        dict(
+            aanpak="Hou één gedachte vast bij de driehoek met het cijfer: hij zegt uit wat de "
+                   "verpakking gemaakt is, en niets over wat er daarna met haar gebeurt.",
+            waarom=[
+                None,
+                "Niet waar: de code zegt enkel welke kunststof het is. Of er een inzameling en een "
+                "verwerking voor bestaat, hangt van de gemeente en van de markt af.",
+                "Noem het woord identificatiecode. Dat is waarom zo'n logo geen belofte is, en het is "
+                "een vorm van greenwashing wanneer men het zo gebruikt.",
+            ],
+        ),
+        dict(
+            aanpak="Vergelijk de temperatuur van de kamer met het smelt- en kookpunt van de stof. "
+                   "Ligt 20 graden ertussen, dan is de stof vloeibaar.",
+            waarom=[
+                "Let erop dat je twee grenzen nodig hebt: boven het smeltpunt en onder het kookpunt. "
+                "Bij ijzer liggen beide ver boven de kamertemperatuur.",
+                "Noem het lage kookpunt. Dat verklaart zowel het snelle drogen als waarom je met "
+                "aceton niet bij een vlam werkt.",
+                "Niet waar: een laag kookpunt betekent veel damp, en damp is precies wat vlam vat of "
+                "wat je inademt. Het kookpunt zegt dus wel iets over het gevaar.",
+            ],
+        ),
+        dict(
+            aanpak="Eén regel: soort lost soort op. Vet en olie vragen een organisch oplosmiddel, "
+                   "zout en suiker lossen op in water.",
+            waarom=[
+                "Let op de suikersiroop: die is kleverig en lijkt vettig, maar suiker lost gewoon op "
+                "in water. Kleverig is niet hetzelfde als vettig.",
+                None,
+                "Geef bij de regel ook een voorbeeld, zoals de vraag vraagt. Met zout en olie naast "
+                "elkaar is het meteen duidelijk.",
+            ],
+        ),
+        dict(
+            aanpak="Hou de drie groepen vast met een voorbeeld uit de keuken: azijn en citroen zijn "
+                   "zuur, water is neutraal, ontstopper en bleekwater zijn basisch.",
+            waarom=[
+                None,
+                "Let erop dat je de kleuren aan de twee kanten van de schaal koppelt: rood is zuur, "
+                "groen tot geel is basisch. Rode kool werkt dus als een indicator, net als lakmoes.",
+                "Noem dat het zuur met het aluminium reageert. Dat is hetzelfde soort reactie als "
+                "tussen een zuur en een metaal in het labo.",
+                "Noem allebei: lang spoelen met water, en niet neutraliseren. Dat tweede is wat deze "
+                "vraag toetst, want neutraliseren maakt extra warmte.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-voedingsbestanddelen-en-etiketten-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zes voedingsmiddelen, elk met één hoofdbestanddeel. Vraag je af waarvoor je dat "
+                   "middel eet: voor energie, voor bouwstof of voor kleine hoeveelheden.",
+            waarom=[
+                None,
+                "Let op de linzen: ook plantaardige voeding levert eiwit. Eiwit komt niet enkel uit "
+                "vlees, en dat is bij een vegetarische voeding de kern.",
+            ],
+        ),
+        dict(
+            aanpak="Een voedingsmiddel is wat op je bord ligt, een voedingsstof is wat erin zit. Vraag "
+                   "je af of je het zo zou kunnen eten.",
+            waarom=[
+                "Let op fructose en ijzer: dat zijn stoffen in een middel, geen middelen op zich. Een "
+                "appel is het middel, de fructose erin de stof.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Tel de bouwstenen: één is mono, twee is di, veel is poly. Hoe langer de keten, hoe "
+                   "trager de glucose in je bloed komt.",
+            waarom=[
+                None,
+                "Noem de keten van zetmeel en noem het geleidelijke. Dat is het verschil, en het is "
+                "dezelfde gedachte als bij trage en snelle suikers.",
+                "Noem van beide momenten waarom het past. De vraag vraagt naar de orde, dus je "
+                "antwoord moet die twee aan elkaar koppelen.",
+            ],
+        ),
+        dict(
+            aanpak="Vijf bestanddelen met elk een eigen taak. Hou vast dat water en mineralen geen "
+                   "energie leveren en toch onmisbaar zijn.",
+            waarom=[
+                "Let op de vetten: naast energie leveren ze ook isolatie en helpen ze de vitaminen A, "
+                "D, E en K opnemen. Dat laatste wordt vaak vergeten.",
+                None,
+                "Noem de dubbele binding en noem wat je eraan merkt, zoals de vraag twee dingen "
+                "vraagt. De knik in de keten is de reden dat olie vloeibaar is.",
+            ],
+        ),
+        dict(
+            aanpak="Reken altijd in twee stappen: eerst hoeveel keer 100 gram of 100 milliliter er in "
+                   "de verpakking zit, dan die factor maal de hoeveelheid.",
+            waarom=[
+                "Let erop dat 400 gram vier keer 100 gram is, dus vier keer 25. Zo hoef je geen "
+                "kruisproduct te maken.",
+                "Let op de anderhalve keer: 150 gram is 1,5 keer 100 gram, dus 1,5 maal 12. Een "
+                "verpakking kleiner dan 100 gram geeft dus een getal onder de waarde van het etiket.",
+                "Let erop dat je eerst de liters naar milliliter zet: 1,5 liter is 1500 milliliter, "
+                "dus vijftien keer 100. Wie dat vergeet, zit een factor tien of meer fout.",
+                "Noem het in gewone woorden, zoals de vraag vraagt: ruim een derde. Een percentage "
+                "omzetten naar een breuk maakt een etiket pas echt leesbaar.",
+            ],
+        ),
+        dict(
+            aanpak="Twee scores met twee vragen: de nutriscore gaat over wat er in het product zit, de "
+                   "ecoscore over hoe het gemaakt en vervoerd is.",
+            waarom=[
+                None,
+                "Let op de derde: beide scores staan vooraan op de verpakking, en dat is precies "
+                "waarom mensen ze verwarren.",
+                "Noem van beide scores waar ze naar kijkt. Dat de ecoscore de hele levenscyclus "
+                "bekijkt, is de kern van het antwoord.",
+                "Niet waar: ook een gezond product eet je met maat. De nutriscore vergelijkt producten "
+                "binnen dezelfde groep, en ze zegt niets over de hoeveelheid.",
+            ],
+        ),
+        dict(
+            aanpak="Op een etiket staat niet alles wat je zou willen weten, maar wat de wet oplegt. "
+                   "Hou dat onderscheid vast bij alle drie de vragen.",
+            waarom=[
+                "Noem beide delen: hoe je ze herkent en dat de wet het oplegt. Het gaat om de veertien "
+                "bekendste allergenen, van gluten tot noten en schaaldieren.",
+                "Noem dat het niet met opzet is en dat het voor wie zwaar allergisch is toch telt. Die "
+                "twee samen zijn het antwoord.",
+                "Noem alle vijf, zoals gevraagd. Onder vet staat meestal ook hoeveel verzadigd vet, en "
+                "onder koolhydraten hoeveel suikers; die twee bijlijnen maken het etiket pas "
+                "bruikbaar.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-dosis-en-concentratie-van-stoffen-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Lees de eenheid, die verraadt alles: gram per liter is een massaconcentratie, "
+                   "procent vol is volumeprocent, en gram per 100 gram is massaprocent.",
+            waarom=[
+                None,
+                "Let op het eerste: bij drank staat het percentage altijd voor volume en niet voor "
+                "massa. Daarom staat er vol bij.",
+            ],
+        ),
+        dict(
+            aanpak="Reken altijd het volume maal het percentage, en zet het percentage eerst om naar "
+                   "een getal onder één. Zo komt er milliliter alcohol uit.",
+            waarom=[
+                "Let erop dat 5 procent van 200 gewoon 10 is. Je kan ook door twintig delen, want 5 "
+                "procent is een twintigste.",
+                None,
+                None,
+                "Noem de orde en de reden, zoals de vraag twee dingen vraagt. Dat het glas wijn meer "
+                "alcohol bevat dan het glaasje sterke drank, is het hele punt van deze reeks.",
+            ],
+        ),
+        dict(
+            aanpak="Hou twee formules apart: massaprocent is de massa van de stof gedeeld door de "
+                   "massa van de oplossing, massaconcentratie is de massa gedeeld door het volume in "
+                   "liter.",
+            waarom=[
+                None,
+                "Let erop dat je de milliliter eerst naar liter zet: 250 milliliter is 0,25 liter, en "
+                "10 gedeeld door 0,25 is 40. Wie met 250 rekent, zit een factor duizend fout.",
+                None,
+                "Let erop dat je hier omgekeerd rekent: de concentratie maal het volume in liter. 400 "
+                "milliliter is 0,4 liter, dus 25 maal 0,4.",
+            ],
+        ),
+        dict(
+            aanpak="Eén vraag beslist: zegt het getal iets over het product (concentratie) of over "
+                   "wat jij binnenkreeg (dosis)?",
+            waarom=[
+                None,
+                "Noem beide delen: de concentratie is laag, en de dosis hangt van de hoeveelheid af. "
+                "Dit is de kerngedachte van de hele bundel.",
+            ],
+        ),
+        dict(
+            aanpak="De ADI staat per kilogram, dus vermenigvuldig met het gewicht. Let op de eenheid "
+                   "van je antwoord: milligram.",
+            waarom=[
+                None,
+                None,
+                "Noem dat de stof zich over het hele lichaam verdeelt. Daarom staat een dosis bij "
+                "geneesmiddelen voor kinderen ook per kilogram.",
+            ],
+        ),
+        dict(
+            aanpak="Bij de LD50 is laag gevaarlijk: het is de dosis waarbij de helft sterft, dus hoe "
+                   "minder er nodig is, hoe giftiger de stof.",
+            waarom=[
+                "Let erop dat de orde omgekeerd is aan wat je verwacht. Een laag getal betekent hier "
+                "een hoog gevaar.",
+                "Let op de omzetting naar gram: 1500 maal 50 is 75 000 milligram, en dat is 75 gram. "
+                "Wie niet omzet, antwoordt in milligram en krijgt een getal dat niets zegt.",
+                "Niet waar: een hoge LD50 betekent enkel dat er veel nodig is om acuut te sterven. "
+                "Over schade op lange termijn zegt ze niets, en daarvoor dient de ADI.",
+                "Noem het ophopen in je lichaam. Dat is het verschil tussen een dagelijkse dosis en "
+                "één keer veel, en daarom bestaan er twee aparte maten.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-duurzame-chemie-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Drie ketens: één die eindigt in de vuilnisbak, één die het materiaal terugbrengt, "
+                   "en één waarbij het product al voor dat terugbrengen ontworpen is.",
+            waarom=[
+                "Let op het verschil tussen de tweede en de derde: bij recyclage maak je er iets van, "
+                "bij cradle to cradle is het product er van het begin voor ontworpen.",
+                "Let erop dat beide namen hetzelfde zeggen: nemen, maken, weggooien, en van de wieg "
+                "tot het graf. Cradle to cradle is daar het antwoord op.",
+            ],
+        ),
+        dict(
+            aanpak="Twee vragen bij elk geval: blijft het voorwerp bestaan (hergebruik) of wordt het "
+                   "materiaal verwerkt (recyclage)? En gaat de kwaliteit vooruit of achteruit?",
+            waarom=[
+                "Let op de bloempot en het boekenrek: beide zijn een tweede leven, maar van een "
+                "petfles maak je geen fles meer en van een ladder maak je iets van meer waarde.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="De ladder gaat van voorkomen tot storten. Onthou de orde met één gedachte: hoe "
+                   "minder bewerking er nodig is, hoe hoger de trap.",
+            waarom=[
+                "Let erop dat verbranden met energiewinst nog boven storten staat. Je haalt er dan "
+                "toch nog warmte of stroom uit.",
+                "Noem dat er geen energie nodig is om het materiaal opnieuw te verwerken. Dat is de "
+                "reden, en ze geldt voor elke stap van de ladder.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je bij elk label af wie het controleert. Een woord of een kleur mag iedereen "
+                   "op een pak zetten, een keurmerk niet.",
+            waarom=[
+                "Noem dat niemand het nakijkt. Dat is waaraan je greenwashing ziet, en niet aan de "
+                "kleur zelf.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="De crosslinks beslissen alles: geen crosslinks geeft een thermoplast die opnieuw "
+                   "smelt, veel crosslinks geeft een thermoharder die dat niet meer kan.",
+            waarom=[
+                "Let erop dat enkel de thermoplast goed te recycleren is. Dat is dezelfde reden als "
+                "waarom een petfles wel in de blauwe zak mag en een pansteel niet.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Drie woorden die op elkaar lijken en iets anders zeggen: waaruit het gemaakt is, "
+                   "of het afbreekt, en of het binnen een afgesproken tijd afbreekt.",
+            waarom=[
+                None,
+                "Noem dat biogebaseerd niets zegt over afbreken, en noem het keurmerk. Zonder dat "
+                "keurmerk hoort een zakje niet bij het gft, hoe groen het ook kleurt.",
+                "Noem dat de deeltjes blijven bestaan en in water, bodem en voeding komen. Afbreken "
+                "en verdwijnen zijn twee verschillende dingen.",
+            ],
+        ),
+        dict(
+            aanpak="Drie reeksen kleuren en soorten. Hou vast dat de kleur van waterstof over de "
+                   "productie gaat, en niet over het gas zelf.",
+            waarom=[
+                "Let erop dat grijs en blauw allebei uit aardgas komen. Het verschil zit enkel in wat "
+                "er met de koolstofdioxide gebeurt.",
+                "Let op wit water: dat is gewoon drinkbaar water. Grijs water kan je hergebruiken "
+                "voor het toilet of de tuin, zwart water niet.",
+                None,
+                "Noem beide begrippen, zoals de vraag een verschil vraagt. Negatief is meer dan "
+                "neutraal, en het is veel moeilijker te halen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-elektromagnetisme-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Enkel ijzer, nikkel en cobalt worden aangetrokken, en staal omdat het vooral "
+                   "ijzer is. Alle andere metalen niet, ook al geleiden ze goed.",
+            waarom=[
+                "Let op de koperen buis: koper geleidt heel goed en is toch niet magnetisch. "
+                "Geleiden en magnetisch zijn hebben niets met elkaar te maken.",
+                "Let op aluminium en goud: ook die zijn niet magnetisch. Een magneet is dus een "
+                "handige manier om metalen van elkaar te scheiden.",
+                "Noem dat staal vooral ijzer bevat. Dat is de reden dat de installatie werkt, en het "
+                "verklaart ook waarom aluminium met een heel andere techniek gesorteerd wordt.",
+            ],
+        ),
+        dict(
+            aanpak="Eén regel, zoals bij ladingen: gelijke polen stoten af, ongelijke trekken aan.",
+            waarom=[
+                "Let erop dat zuid tegenover zuid even hard afstoot als noord tegenover noord. Het "
+                "gaat om gelijk of ongelijk, niet om welke pool.",
+            ],
+        ),
+        dict(
+            aanpak="Hou één beeld vast: kleine gebiedjes die elk een richting hebben. Staan ze door "
+                   "elkaar, dan merk je niets; staan ze op één lijn, dan heb je een magneet.",
+            waarom=[
+                "Noem beide delen: waarom hij het niet is, en hoe je het verandert. Strijken in "
+                "steeds dezelfde richting is wat de gebieden op één lijn zet.",
+                "Noem dat de schok de gebieden door elkaar gooit. Dat is hetzelfde effect als sterk "
+                "verhitten, maar met geweld in plaats van met warmte.",
+                None,
+                "Noem het woord influentie en noem dat het tijdelijk is. Haal je de magneet weg, dan "
+                "valt de tweede paperclip er weer af.",
+            ],
+        ),
+        dict(
+            aanpak="Hou vast dat een losse pool niet bestaat. Breek je een magneet, dan krijg je "
+                   "telkens weer twee polen per stuk.",
+            waarom=[
+                "Noem het aantal en de reden. Elk stuk heeft twee polen, dus drie stukken hebben zes "
+                "polen; de weissgebieden staan er nog altijd op één lijn.",
+            ],
+        ),
+        dict(
+            aanpak="Hou vast dat de aarde omgekeerd ligt dan de namen laten denken: bij het "
+                   "geografische noorden ligt een magnetische zuidpool.",
+            waarom=[
+                None,
+                "Noem beide stappen: daar ligt de magnetische zuidpool, en ongelijke polen trekken "
+                "aan. Zonder die tweede stap is het antwoord niet volledig.",
+            ],
+        ),
+        dict(
+            aanpak="Eén vraag beslist: werkt het altijd (permanent) of enkel zolang er stroom loopt "
+                   "(elektromagneet)? Alles wat moet kunnen schakelen, is een elektromagneet.",
+            waarom=[
+                None,
+                "Let op de automatische zekering: die moet de stroom kunnen onderbreken, dus zit er "
+                "een elektromagneet in die bij te veel stroom aan de schakelaar trekt.",
+                "Noem dat de lading loskomt als de stroom afgaat. Dat is het hele voordeel, en het is "
+                "ook het nadeel: bij stroomuitval valt het schroot naar beneden.",
+            ],
+        ),
+        dict(
+            aanpak="Een spoel wordt op drie manieren sterker: meer wikkelingen, meer stroom, of een "
+                   "ijzeren kern. De zin van het veld hangt enkel van de stroomrichting af.",
+            waarom=[
+                "Let erop dat alle drie sterker geven. Hier zit geen valstrik in de richting; de "
+                "vraag is of je de drie factoren kent.",
+                "Noem dat de weissgebieden in de kern meedoen. De kern maakt geen eigen veld, hij "
+                "versterkt dat van de spoel.",
+                "Noem allebei: de polen wisselen en de sterkte blijft gelijk. Dat tweede wordt vaak "
+                "vergeten.",
+                "Niet waar: rond elke stroomvoerende draad staat een magneetveld, in cirkels. Dat is "
+                "precies waarop een elektromagneet berust.",
+                "Noem de cirkels en de rechterhandregel. Met je duim langs de stroom wijzen je "
+                "vingers de zin aan, en bij een spoel wijst je duim dan naar de noordpool.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-golven-geluid-en-het-elektromagnetisch-spectrum-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Twee vragen bij elke golf: heeft ze een middenstof nodig (mechanisch) of niet "
+                   "(elektromagnetisch), en trillen de deeltjes in de richting van de golf "
+                   "(longitudinaal) of dwars erop (transversaal)?",
+            waarom=[
+                "Let op geluid: dat is de enige van de drie die longitudinaal is. De deeltjes trillen "
+                "er heen en terug in dezelfde richting als de golf reist.",
+                None,
+                "Noem van beide golven de soort. Het verschil tussen mechanisch en elektromagnetisch "
+                "is het hele antwoord.",
+            ],
+        ),
+        dict(
+            aanpak="Twee formules: de frequentie is één gedeeld door de periode, en de snelheid is de "
+                   "golflengte maal de frequentie. Schrijf eerst op wat je zoekt.",
+            waarom=[
+                "Let erop dat je deelt: één gedeeld door 0,02 is 50. Een kleine periode geeft een "
+                "grote frequentie.",
+                None,
+                "Let erop dat je hier 340 meter per seconde uitkomt, de snelheid van geluid in lucht. "
+                "Dat is een goede controle op je berekening.",
+                "Let erop dat je hier deelt in plaats van vermenigvuldigt: de snelheid gedeeld door "
+                "de frequentie.",
+                "Let erop dat de periode en de frequentie elkaars omgekeerde zijn. Je kan dus altijd "
+                "terugrekenen om je antwoord te controleren.",
+            ],
+        ),
+        dict(
+            aanpak="Hou de twee grootheden apart: luider is amplitude, hoger is frequentie. Harder "
+                   "slaan op dezelfde snaar verandert dus niet de toon.",
+            waarom=[
+                "Let op de derde: harder slaan geeft een luidere toon en niet een hogere. De "
+                "toonhoogte hangt van de snaar af, niet van de kracht.",
+            ],
+        ),
+        dict(
+            aanpak="Drie verschijnselen: breking is van richting veranderen in een andere stof, "
+                   "weerkaatsing is terugbotsen, buiging is om een hoek of door een opening gaan.",
+            waarom=[
+                None,
+                None,
+                "Noem de golflengte in je antwoord. Dat geluid veel langere golven heeft dan licht, "
+                "is de reden dat het wel om een hoek buigt.",
+            ],
+        ),
+        dict(
+            aanpak="Eén regel voor deze hele reeks: twee keer zo ver betekent vier keer minder "
+                   "intensiteit, en dat is ongeveer 6 decibel minder.",
+            waarom=[
+                "Let erop dat je 6 aftrekt en niet halveert. Van 94 naar 88 decibel is nog altijd "
+                "heel luid, en dat is wat de decibelschaal zo verraderlijk maakt.",
+                "Let erop dat je van 4 naar 8 meter opnieuw 6 decibel aftrekt. Elke verdubbeling van "
+                "de afstand kost dezelfde 6 decibel.",
+                None,
+                "Geef bij elk geluid een schatting in decibel, zoals gevraagd. Fluisteren, een "
+                "gesprek en een machine liggen telkens zowat 30 decibel uit elkaar.",
+            ],
+        ),
+        dict(
+            aanpak="Hou de drie grenzen vast: 0 decibel is wat je net hoort, vanaf 80 wordt het "
+                   "gevaarlijk, en 120 doet pijn. En onthou dat de tijd even zwaar weegt.",
+            waarom=[
+                None,
+                "Niet waar: schade aan het binnenoor is blijvend. Een tijdelijke piep na een fuif "
+                "gaat weg, maar de schade eronder niet altijd.",
+                "Noem de haarcellen en noem dat ze niet teruggroeien. Dat is de reden, en het is "
+                "waarom oordopjes geen luxe zijn.",
+                "Noem beide factoren, het niveau en de tijd, en durf te zeggen dat het van de "
+                "combinatie afhangt. Dat is hier het juiste antwoord, geen van de twee alleen.",
+            ],
+        ),
+        dict(
+            aanpak="Leer het spectrum als één rij van radio tot gamma. Hoe verder naar rechts, hoe "
+                   "hoger de frequentie en de energie, en hoe korter de golf.",
+            waarom=[
+                "Let erop dat het zichtbare licht precies in het midden van de rij staat, tussen "
+                "infrarood en ultraviolet. Alles wat we zien, is dus maar een smalle strook.",
+                "Waar: frequentie en golflengte zijn omgekeerd verbonden, want hun product is de "
+                "lichtsnelheid. Meer van het ene is dus altijd minder van het andere.",
+            ],
+        ),
+        dict(
+            aanpak="Zes toestellen, elk met zijn straling. Een hulpje: warmte is infrarood, draadloos "
+                   "is radio, doorkijken is röntgen, bruin worden is uv.",
+            waarom=[
+                None,
+                "Let op de zonnebank en de warmtelamp: de ene werkt met uv en de andere met "
+                "infrarood. De eerste is ioniserend en de tweede niet, dus dat verschil is geen "
+                "detail.",
+                "Noem alle drie de ioniserende soorten en noem waarom het gevaarlijk is. Dat ze "
+                "elektronen losmaken en zo het DNA raken, is de kern.",
+                "Noem van beide stralingen een eigen bescherming, zoals de vraag twee dingen vraagt. "
+                "Zonnecrème helpt niet tegen röntgen, en lood draag je niet op het strand.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-kernfysica-kernenergie-en-straling-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Het getal achter de naam is het massagetal. Trek daarvan het atoomnummer af, en "
+                   "je hebt het aantal neutronen.",
+            waarom=[
+                "Let erop dat je bij elke stof eerst het atoomnummer moet weten. Koolstof heeft zes "
+                "protonen, zuurstof acht, waterstof één en uranium 92.",
+                "Noem allebei: wat gelijk is en wat verschilt. Isotopen staan op dezelfde plaats in "
+                "het periodiek systeem en hebben een andere massa.",
+            ],
+        ),
+        dict(
+            aanpak="Reken met halveringen: deel de verstreken tijd door de halfwaardetijd, en halveer "
+                   "dan zo veel keer.",
+            waarom=[
+                "Let erop dat 20 gedeeld door 5 vier halveringen geeft: een half, een vierde, een "
+                "achtste, een zestiende. Tel ze op je vingers.",
+                None,
+                None,
+                "Niet waar, en het is net omgekeerd: een lange halfwaardetijd betekent dat de stof "
+                "heel lang actief blijft. Daarom is langlevend afval juist het lastigste.",
+            ],
+        ),
+        dict(
+            aanpak="Hou de twee richtingen apart: fusie smelt lichte kernen samen, splijting breekt "
+                   "een zware kern. Beide gaan naar het stabiele midden toe.",
+            waarom=[
+                None,
+                "Noem het massaverlies en de formule van Einstein. Dat de massa een beetje kleiner "
+                "wordt, is het antwoord op beide reacties tegelijk.",
+            ],
+        ),
+        dict(
+            aanpak="Volg in een centrale de weg van de warmte: splijten, water verhitten, stoom, "
+                   "turbine, generator. Elke tussenstap telt.",
+            waarom=[
+                "Let erop dat er twee tussenstappen zijn tussen de kern en de stroom: de stoom en de "
+                "turbine. Een kerncentrale is dus eigenlijk een stoomcentrale met een bijzondere "
+                "brandstof.",
+                None,
+                "Noem de hele keten in je verbetering. Enkel zeggen dat het niet rechtstreeks gaat, "
+                "is te weinig.",
+                "Let erop dat de categorie zowel over de activiteit als over de duur gaat. Categorie "
+                "A is kortlevend, en juist daarom het makkelijkst te bergen.",
+            ],
+        ),
+        dict(
+            aanpak="Drie soorten straling met drie schermen: papier, aluminium, lood. Hou daarbij "
+                   "vast dat weinig doordringen niet weinig gevaarlijk betekent.",
+            waarom=[
+                None,
+                "Niet waar, en het is net omgekeerd: alfastraling dringt het minst diep door en "
+                "gamma het diepst. De volgende vraag laat zien waarom alfa toch gevaarlijk is.",
+                "Noem beide delen: binnen in je lichaam zit er niets tussen, en alfastraling heeft "
+                "het grootste ioniserend vermogen. Dat is waarom radon in een kelder een risico is.",
+            ],
+        ),
+        dict(
+            aanpak="Twee regels volstaan: bij alfa gaat A vier omlaag en Z twee, bij bèta blijft A "
+                   "gelijk en gaat Z één omhoog.",
+            waarom=[
+                "Let op het bètaverval: het massagetal verandert niet. Een neutron wordt een proton, "
+                "dus het totaal aantal nucleonen blijft hetzelfde.",
+                "Noem wat er in de kern gebeurt, zoals de vraag twee dingen vraagt. Een neutron dat "
+                "een proton wordt, is de kern van het antwoord.",
+            ],
+        ),
+        dict(
+            aanpak="Eén vraag beslist: blijft de bron buiten je (bestraling) of zit ze op of in je "
+                   "lichaam (besmetting)? En hou gray en sievert apart.",
+            waarom=[
+                None,
+                "Noem dat je bij besmetting de bron meedraagt. Daarom wast en kleedt men zich uit na "
+                "een besmetting, en dat helpt bij een bestraling niet.",
+                "Let erop dat de gray de opgenomen energie meet en de sievert de schade. Twee "
+                "verschillende eenheden voor twee verschillende vragen.",
+                "Noem dat alfastraling alles over een korte afstand afgeeft. De factor twintig is het "
+                "gevolg daarvan en niet de reden.",
+                "Noem alle drie, zoals gevraagd: afstand, afscherming en tijd. Dat zijn dezelfde drie "
+                "als in het hoofdstuk over straling.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-veilig-werken-meten-en-onderzoeken-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vraag je bij elke handeling af wat er kan misgaan, en voor wie. Soms is het gevaar "
+                   "niet voor jou maar voor wie later iets vindt.",
+            waarom=[
+                "Let op de natte handen bij een toestel: water geleidt, dus is dat een risico op een "
+                "elektrische schok. Scherven raap je op met een borstel en een blik.",
+                "Let op de drankfles: dat is het gevaarlijkste van de zes, want het gevaar komt pas "
+                "later en bij iemand anders.",
+                "Noem dat er geen etiket meer op staat en dat iemand ervan kan drinken. Beide delen "
+                "horen in je antwoord.",
+            ],
+        ),
+        dict(
+            aanpak="H van hazard zegt wat de stof doet, P van precaution zegt wat jij moet doen. Een "
+                   "gebod of een verbod is altijd een P-zin.",
+            waarom=[
+                "Let erop dat verwijderd houden van open vuur een opdracht aan jou is, dus een "
+                "P-zin, ook al gaat het over brand.",
+            ],
+        ),
+        dict(
+            aanpak="Bij meten horen twee vragen: welk toestel, en past het meetbereik en de "
+                   "nauwkeurigheid bij wat je wil meten?",
+            waarom=[
+                None,
+                None,
+                "Noem allebei: een ander toestel zoeken, en het zeker niet toch proberen. Boven het "
+                "meetbereik klopt de waarde niet en kan de balans stuk gaan.",
+                "Noem dat het toestel fijner moet zijn dan het verschil dat je zoekt. Met streepjes "
+                "van een halve graad zie je een verschil van 0,2 graden nooit.",
+            ],
+        ),
+        dict(
+            aanpak="Zet om met de macht van tien die bij het voorvoegsel hoort. Controleer je antwoord "
+                   "door het weer terug te zetten.",
+            waarom=[
+                "Let op de milligram: milli is duizend keer kleiner, dus wordt 750 milligram 0,75 "
+                "gram. Het getal wordt kleiner als de eenheid groter wordt.",
+                "Let op de micrometer: micro is een miljoenste. 8 micrometer is dus 0,000008 meter, "
+                "en dat is ongeveer de grootte van een rode bloedcel.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Twee verbanden met twee proeven: verdubbelt het ene en verdubbelt het andere mee, "
+                   "dan recht evenredig; halveert het, dan omgekeerd evenredig.",
+            waarom=[
+                "Let op de derde: een gelijk blijvend product is precies wat omgekeerd evenredig "
+                "betekent. Dat is dezelfde zin als de tweede, anders gezegd.",
+                "Noem de oorsprong. Een rechte alleen is niet genoeg; ze moet door nul gaan.",
+            ],
+        ),
+        dict(
+            aanpak="Bouw je onderzoek in vier stappen: een scherpe vraag, een hypothese, alles gelijk "
+                   "houden behalve één factor, en eerlijk besluiten.",
+            waarom=[
+                "Let erop dat je vraag een getal en een meting bevat. Groeien planten beter met licht "
+                "is te vaag; met uren per dag en centimeter wordt ze meetbaar.",
+                "Let erop dat een hypothese een verwachting is en geen vraag. Schrijf ze als een "
+                "zin die juist of fout kan blijken.",
+                "Noem drie factoren en leg uit waarom, zoals gevraagd. Verander je er twee, dan weet "
+                "je achteraf niet welke het verschil maakte.",
+                "Noem dat je je metingen nooit aanpast. Een weerlegde hypothese is een resultaat, en "
+                "dat is de kern van eerlijk onderzoek.",
+            ],
+        ),
+        dict(
+            aanpak="Ontwerpen loopt in een kring: probleem, criteria, delen, oplossen, en dan "
+                   "evalueren en opnieuw. STEM is de samenwerking van de vier domeinen.",
+            waarom=[
+                "Let erop dat de criteria vroeg komen en het evalueren niet het einde is. Na het "
+                "bijsturen begin je weer bij je criteria.",
+                "Noem van elk domein waarvoor je het nodig hebt, zoals gevraagd. Een lijst zonder die "
+                "koppeling is maar de helft van het antwoord.",
+            ],
+        ),
     ],
 )
