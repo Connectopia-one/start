@@ -738,3 +738,300 @@ if __name__ == "__main__":
     for naam, b in OEFENBUNDELS.items():
         oefenbundel.schrijf(b, naam)
         print("  ", naam)
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-een-franse-tekst-lezen-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Lees de tekst eerst één keer helemaal, zonder te stoppen bij woorden die je niet "
+                    "kent. Pas daarna lees je met de vragen ernaast.",
+             waarom=[]),
+        dict(aanpak="De antwoorden staan in de tekst. Zoek de alinea en schrijf in het Nederlands wat "
+                    "er staat; je hoeft niet woord voor woord te vertalen.",
+             waarom=[None, None, None, None, None]),
+        dict(aanpak="Raad een onbekend woord eerst uit de zin eromheen. Vaak herken je ook een stuk van "
+                    "het woord uit het Nederlands of het Engels.",
+             waarom=[
+                 None,
+                 "Les is een meervoud, dus het verwijst naar iets wat met meer is. Zoek het laatste "
+                 "meervoud dat erboven staat.",
+                 "Pas op met valse vrienden: une journée is een dag en geen journaal, la monnaie is "
+                 "wisselgeld en geen munt uit het museum.",
+             ]),
+        dict(aanpak="Een leesstrategie is kiezen hoe je leest. De titel, de foto en het eerste zinnetje "
+                    "van elke alinea vertellen je al veel voor je begint.",
+             waarom=[
+                 None,
+                 None,
+                 "Je hebt niet elk woord nodig. Wat je zoekt, is het antwoord op de vraag; de rest mag "
+                 "je laten staan.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-tekstsoorten-signaalwoorden-en-verwijswoorden-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je bij elke tekst af wat hij van je wil: iets laten doen, iets laten weten, "
+                    "je overtuigen, of je meenemen in een verhaal.",
+             waarom=[
+                 "Let op de werkwoordsvorm: een gebiedende wijs (coupez, ajoutez) wijst op een "
+                 "instructie, een il était une fois op een verhaal.",
+                 None,
+             ]),
+        dict(aanpak="Een signaalwoord zegt wat er gaat komen. Leer ze per verband: volgorde, reden, "
+                    "gevolg, tegenstelling, voorbeeld, toevoeging.",
+             waarom=[
+                 None,
+                 None,
+                 "Parce que wordt parce qu' voor een klinker. Dat weglaten van de e heet elisie, en het "
+                 "gebeurt ook bij je, le, la en de.",
+             ]),
+        dict(aanpak="Zoek bij een verwijswoord altijd terug: naar welk woord of welke groep verwijst "
+                    "het? Meestal staat dat vlak ervoor.",
+             waarom=[
+                 None,
+                 "Net omgekeerd: y vervangt een plaats of iets met à, en vervangt een hoeveelheid of "
+                 "iets met de.",
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-schrijven-berichten-uitnodigingen-en-mails-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Vaste zinnen leer je als één geheel, met de accenten erbij. Zeg ze hardop, dan "
+                    "blijven ze beter hangen.",
+             waarom=[None, None, None]),
+        dict(aanpak="Kies eerst tu of vous, en houd die keuze vol tot het einde van je tekst. Aanhef, "
+                    "slotgroet en werkwoordsvormen volgen die keuze.",
+             waarom=[
+                 None,
+                 "Vous is de beleefde vorm tegen één onbekende volwassene, en ook het gewone meervoud. "
+                 "Tu is voor vrienden, familie en kinderen.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Vink af wat gevraagd wordt (wat, wanneer, waar, hoe laat) voor je begint, en "
+                    "schrijf dan pas. Een korte juiste zin is beter dan een lange met fouten.",
+             waarom=[None, None, None]),
+        dict(aanpak="Nakijken is deel van de opdracht. Lees je tekst nog één keer met de opgave "
+                    "ernaast, niet alleen op spelling.",
+             waarom=[
+                 None,
+                 "In een formele mail horen geen emoji's en geen afkortingen. Vriendelijk word je er "
+                 "met je woorden en met je slotgroet.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-een-foto-of-afbeelding-beschrijven-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Beschrijf een foto in een vaste volgorde: eerst het geheel, dan links, rechts en "
+                    "het midden, dan voor- en achtergrond. Dan vergeet je niets.",
+             waarom=[
+                 None,
+                 "Le premier plan is wat het dichtst bij je staat, de voorgrond. De achtergrond is "
+                 "l'arrière-plan.",
+                 None,
+             ]),
+        dict(aanpak="Il y a is je werkpaard: het betekent er is én er zijn, en de vorm verandert nooit.",
+             waarom=[None, None]),
+        dict(aanpak="Houd twee dingen uit elkaar: wat je echt ziet (een rode jas), en wat je eruit "
+                    "afleidt (ze lijkt verdrietig). Dat tweede zeg je voorzichtig.",
+             waarom=[
+                 None,
+                 "Avoir l'air betekent eruitzien of lijken. Triste is verdrietig; boos zou en colère "
+                 "zijn.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Werk af met je mening én de reden. Een beschrijving zonder parce que blijft een "
+                    "opsomming.",
+             waarom=[None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordenschat-mensen-familie-gevoelens-en-gezondheid-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Leer een Frans naamwoord altijd mét zijn lidwoord: le of la hoort bij het woord, "
+                    "want je kan het niet aan het woord zelf zien.",
+             waarom=[
+                 None,
+                 "Beau- en belle- vooraan betekent aangetrouwd of stief: beau-père, belle-mère, "
+                 "beau-frère.",
+             ]),
+        dict(aanpak="Zich voorstellen gaat met vier vaste zinnen. Leer ze als één geheel, dan heb je ze "
+                    "altijd klaar.",
+             waarom=[
+                 None,
+                 "Leeftijd gaat in het Frans met avoir: j'ai douze ans. Letterlijk ik heb twaalf jaren.",
+                 None,
+             ]),
+        dict(aanpak="Onthoud welke gevoelens met avoir gaan en welke met être. Avoir hoort bij wat je "
+                    "lichaam voelt: faim, soif, peur, froid, chaud.",
+             waarom=[None, None]),
+        dict(aanpak="Pijn zeg je in het Frans met avoir mal à. Daarna volgt het lichaamsdeel met zijn "
+                    "lidwoord.",
+             waarom=[
+                 None,
+                 None,
+                 "Die samentrekking geldt overal: à + le wordt au, à + les wordt aux, de + le wordt du, "
+                 "de + les wordt des.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordenschat-eten-wonen-kleding-en-dagelijkse-dingen-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Ook hier: leer het lidwoord mee. Voor een klinker worden le en la allebei l', dus "
+                    "dan moet je het geslacht apart onthouden.",
+             waarom=[
+                 None,
+                 None,
+                 "In Frankrijk is le petit déjeuner het ontbijt, le déjeuner het middagmaal en le dîner "
+                 "het avondmaal. In België hoor je soms de oudere namen.",
+             ]),
+        dict(aanpak="Bij de woorden van het huis helpt het om in gedachten door je eigen huis te lopen "
+                    "en elke kamer te benoemen.",
+             waarom=[None, None, None]),
+        dict(aanpak="Een kleur staat in het Frans áchter het naamwoord en past zich aan: een -e erbij "
+                    "als het woord vrouwelijk is, een -s als het meervoud is.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Winkelzinnen leer je als vaste zinnetjes. Je voudrais is beleefder dan je veux, en "
+                    "dat laatste klinkt in een winkel bot.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordenschat-school-beroepen-sport-en-vrije-tijd-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Instructietaal is de taal van de opgave zelf. Ken je die niet, dan verlies je "
+                    "punten op een oefening die je eigenlijk kon.",
+             waarom=[
+                 None,
+                 "Relier is verbinden, van la ligne, de lijn. Doorstrepen is barrer of rayer.",
+                 None,
+             ]),
+        dict(aanpak="Schoolwoorden komen in elke tekst terug. Leer ze met hun lidwoord; les devoirs is "
+                    "altijd meervoud.",
+             waarom=[None, None]),
+        dict(aanpak="Veel beroepen hebben een vrouwelijke vorm met -e, -euse of -ière: un vendeur wordt "
+                    "une vendeuse, un infirmier wordt une infirmière.",
+             waarom=[None, None]),
+        dict(aanpak="Twee vaste combinaties om uit elkaar te houden: jouer à bij een sport of een spel, "
+                    "jouer de bij een muziekinstrument.",
+             waarom=[
+                 None,
+                 "À + le wordt au (au football), de + la blijft de la (de la guitare).",
+                 "Bij een instrument is het jouer de: je joue de la guitare, je joue du piano.",
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordenschat-getallen-tijd-weer-reizen-en-landen-spark"] = dict(
+    reeksen=[
+        dict(aanpak="De Franse getallen boven zestig zijn rekenwerk: 70 is zestig plus tien, 80 is vier "
+                    "keer twintig, 90 is vier keer twintig plus tien.",
+             waarom=[
+                 None,
+                 "Vingt et un, trente et un, quarante et un: bij 21, 31, 41, 51 en 61 staat er et "
+                 "tussen, zonder streepjes. Bij de andere getallen wel streepjes.",
+                 None,
+             ]),
+        dict(aanpak="Het uur gaat met et quart, et demie en moins le quart. En let op: midi is twaalf "
+                    "uur 's middags, minuit twaalf uur 's nachts.",
+             waarom=[
+                 "Dagen en maanden krijgen in het Frans géén hoofdletter, anders dan in het Engels.",
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Over het weer zeg je il fait (il fait beau, il fait froid) of il y a (il y a du "
+                    "vent). Il est gebruik je er niet voor.",
+             waarom=[
+                 None,
+                 "Over het weer zeg je il fait froid. Il est froid zou over een ding gaan, bijvoorbeeld "
+                 "over de soep.",
+                 None,
+             ]),
+        dict(aanpak="Bij landen en steden hangt het voorzetsel af van het geslacht: à bij een stad, en "
+                    "bij een vrouwelijk land, au bij een mannelijk land.",
+             waarom=[None, None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-grammatica-lidwoorden-naamwoorden-en-voornaamwoorden-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Drie soorten lidwoorden: le en la wijzen iets bepaalds aan, un en une iets "
+                    "onbepaalds, du en de la een onbepaalde hoeveelheid (wat brood, wat melk).",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Die -s zwijgt in het Frans. Je hoort het meervoud aan het lidwoord: la maison tegenover "
+                 "les maisons.",
+             ]),
+        dict(aanpak="Na een ontkenning verdwijnen un, une, du, de la en des allemaal, en wordt het de "
+                    "of d'. Le en la blijven wel staan.",
+             waarom=[None, None]),
+        dict(aanpak="Een bijvoeglijk naamwoord past zich aan: een -e erbij als het woord vrouwelijk is, "
+                    "een -s als het meervoud is, allebei als het vrouwelijk meervoud is.",
+             waarom=[
+                 "Rouge eindigt al op een -e, dus er komt er geen bij. Vert wordt verte.",
+                 None,
+                 None,
+                 "Meilleur is de vergrotende trap van bon. Bij mauvais is dat pire.",
+             ]),
+        dict(aanpak="Een voorwerpsvoornaamwoord staat in het Frans vóór het werkwoord, niet erachter "
+                    "zoals in het Nederlands.",
+             waarom=[
+                 "Le en la vervangen een lijdend voorwerp, lui en leur een meewerkend voorwerp, dus "
+                 "iets met à.",
+                 None,
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-grammatica-werkwoorden-tijden-en-zinsbouw-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Leer eerst être, avoir en aller uit het hoofd: die drie heb je bij elke andere "
+                    "tijd nodig als hulpwerkwoord.",
+             waarom=[
+                 None,
+                 None,
+                 "Aller lijkt op een -er-werkwoord maar is onregelmatig: je vais, tu vas, il va, nous "
+                 "allons, vous allez, ils vont.",
+             ]),
+        dict(aanpak="Luisteren helpt hier niet: -er, -ez en -é klinken gelijk. Kijk naar wat ervoor "
+                    "staat. Na j'ai of je suis komt het deelwoord, na pouvoir of vouloir de infinitief.",
+             waarom=[None, None]),
+        dict(aanpak="De passé composé is hulpwerkwoord plus deelwoord. De meeste werkwoorden nemen "
+                    "avoir; de werkwoorden van beweging en verandering nemen être.",
+             waarom=[
+                 None,
+                 "Bij être past het deelwoord zich aan het onderwerp aan: je suis allée als je een "
+                 "meisje bent.",
+                 None,
+             ]),
+        dict(aanpak="De ontkenning is een tang: ne vóór het werkwoord en pas erachter. In de passé "
+                    "composé staat het hulpwerkwoord ertussen: je n'ai pas mangé.",
+             waarom=[None, None, None]),
+    ],
+)
