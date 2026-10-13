@@ -584,3 +584,336 @@ OEFENBUNDELS["oefenbundel-de-aarde-en-de-ruimte"] = dict(
              ]),
     ],
 )
+
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-biologie-leven-en-ecologie"] = dict(
+    reeksen=[
+        dict(aanpak="Sorteer op kenmerken die je aan het dier zelf ziet: een ruggengraat of niet, "
+                    "veren, schubben of haar, en het aantal poten. Waar een dier woont of hoe groot "
+                    "het is, zegt niets over zijn groep.",
+             waarom=[
+                 "De kikker en de vleermuis zijn de twee waar het vaak op misgaat. Een kikker leeft in "
+                 "het water maar is geen vis: als volwassen dier heeft hij longen en een vochtige huid "
+                 "zonder schubben. Een vleermuis vliegt maar is geen vogel: hij heeft haar en zoogt "
+                 "zijn jongen.",
+                 "Kijk naar wat het dier in het echt eet, niet naar wat je zou verwachten. Een vos eet "
+                 "vooral vlees, maar ook bessen en afval, en is dus een alleseter.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Vraag je bij elk deel van een plant af: wat haalt het binnen, en wat geeft het "
+                    "door? De wortel haalt water en voeding uit de grond, het blad vangt licht, de "
+                    "stengel is de weg tussen die twee, en de bloem zorgt voor nieuwe planten.",
+             waarom=[
+                 None,
+                 None,
+                 "Let op het verschil met ademen: een plant neemt koolstofdioxide op en geeft zuurstof "
+                 "af, net omgekeerd aan wat wij doen. Zuurstof is dus niet wat ze opneemt maar wat ze "
+                 "maakt.",
+             ]),
+        dict(aanpak="De pijl wijst naar wie eet, dus naar de kant waar de energie naartoe gaat. Begin "
+                    "je keten altijd bij een plant: die maakt zijn eigen voedsel met licht.",
+             waarom=[
+                 "Draai de pijlen niet om. Gras → konijn → vos betekent: het konijn eet het gras, en de "
+                 "vos eet het konijn.",
+                 None,
+                 None,
+                 "Zijn er veel soorten, dan kan een andere soort het werk overnemen als er één "
+                 "verdwijnt. Hoe minder soorten, hoe sneller alles stilvalt.",
+             ]),
+        dict(aanpak="Er zijn drie manieren om de winter door te komen: wegtrekken, slapen, of je "
+                    "aanpassen (een dikkere vacht, de bladeren laten vallen). Zoek bij elk dier en elke "
+                    "plant welke van de drie het is.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Aan de vorm van een zaadje kan je bijna altijd zien hoe het reist: een pluisje vangt "
+                 "wind, een klit blijft in een vacht hangen, een bes wordt opgegeten.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-biologie-het-menselijk-lichaam"] = dict(
+    reeksen=[
+        dict(aanpak="Volg telkens de weg: wat komt er binnen, waar gaat het naartoe, en wat gaat er "
+                    "weer buiten? Zo blijft de taak van een orgaan beter hangen dan een rijtje namen.",
+             waarom=[
+                 None,
+                 None,
+                 "Let op de volgorde van de darmen: in de dúnne darm gaan de voedingsstoffen naar het "
+                 "bloed, in de dikke darm wordt het water eruit gehaald. Die twee worden vaak "
+                 "verwisseld.",
+             ]),
+        dict(aanpak="Onthoud één woord per vat: een slagader voert bloed wég van het hart, een ader "
+                    "náár het hart toe. En bij het bloed zelf: rode cellen vervoeren zuurstof, witte "
+                    "cellen vechten tegen ziektekiemen.",
+             waarom=[
+                 "Een geheugensteun voor de slagader en de ader: de slagader slaat met het hart mee, "
+                 "want daar komt het bloed onder druk uit. De ader brengt het rustig terug.",
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Botten beschermen en dragen, spieren bewegen, en een pees maakt een spier vast aan "
+                    "een bot. Een spier kan alleen trekken, nooit duwen.",
+             waarom=[
+                 None,
+                 None,
+                 "De hartspier werkt dag en nacht door zonder dat je eraan denkt. De kuitspier, de "
+                 "biceps en de kauwspier stuur je zelf aan.",
+             ]),
+        dict(aanpak="Je lichaam beschermt zichzelf vaak voor je het beseft. Vraag je bij elke oefening "
+                    "af: waartegen beschermt het hier, en hoe?",
+             waarom=[
+                 None,
+                 "De korte weg via het ruggenmerg is net waarom een reflex zo snel gaat: het signaal "
+                 "moet niet eerst naar de hersenen en terug.",
+                 "Daarom helpt een antibioticum tegen een bacterie en niet tegen een virus. Een griep "
+                 "uitzitten is dus geen koppigheid van de dokter.",
+                 "Het zweet neemt bij het verdampen warmte mee van je huid. Daarom koelt zweten pas "
+                 "echt af als het ook kan drogen.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-chemie-stoffen-en-mengsels"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je bij elke overgang twee dingen af: van welke toestand naar welke, en gaat "
+                    "er warmte bij of gaat er warmte weg? Warmte erbij maakt de deeltjes losser "
+                    "(smelten, verdampen), warmte weg maakt ze vaster (condenseren, stollen).",
+             waarom=[
+                 None,
+                 "Het water komt niet uit het blikje. Er zit altijd onzichtbare waterdamp in de lucht, "
+                 "en tegen het koude blikje wordt die weer vloeibaar.",
+                 "Water is bijzonder: bijna alle stoffen krimpen als ze vast worden, water zet net uit. "
+                 "Daarom drijft ijs op water.",
+                 None,
+             ]),
+        dict(aanpak="Kijk naar het verschil tussen de twee stoffen: korrelgrootte (filteren), kookpunt "
+                    "(laten verdampen), magnetisch of niet (een magneet), of gewicht (laten scheiden en "
+                    "afgieten). Dat verschil is altijd je manier van scheiden.",
+             waarom=[
+                 None,
+                 None,
+                 "Dit heet het behoud van massa: bij het oplossen verdwijnt er niets, de stof zit alleen "
+                 "zo fijn verspreid dat je ze niet meer ziet.",
+                 "Zeewater, lucht en fruitsap met vruchtvlees bestaan elk uit verschillende stoffen door "
+                 "elkaar. Zuiver water is één stof, en dus geen mengsel.",
+             ]),
+        dict(aanpak="De pH-schaal loopt van 0 tot 14: onder 7 is zuur, 7 is neutraal, boven 7 is een "
+                    "base. Een indicator zoals rodekoolsap verkleurt mee en vertelt je waar je zit.",
+             waarom=[
+                 "Een vuistregel die bijna altijd klopt: wat scherp zuur smaakt (citroen, azijn) is "
+                 "zuur, en wat glad aanvoelt (zeep) is een base. In een labo proef je natuurlijk nooit.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Onthoud de branddriehoek: brandstof, zuurstof en warmte. Elke manier om een vuur "
+                    "te doven haalt één van die drie weg, en dat is ook hoe je deze oefeningen oplost.",
+             waarom=[
+                 None,
+                 "Het glas sluit de zuurstof af. Dat is dezelfde reden waarom een deksel op een pan een "
+                 "vuurtje dooft.",
+                 "Water zakt door het hete vet, verdampt in één klap en spat het brandende vet door de "
+                 "keuken. Een deksel erop is wel juist.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-natuurkunde-energie-en-krachten"] = dict(
+    reeksen=[
+        dict(aanpak="Een kracht zie je nooit zelf, alleen wat ze doet: iets in beweging brengen, "
+                    "afremmen of van vorm veranderen. Vraag je dus af wat er verandert, en wat dat "
+                    "veroorzaakt.",
+             waarom=[
+                 None,
+                 None,
+                 "Denk aan een spons die je indrukt of een veer die je uitrekt: er beweegt niets "
+                 "vooruit, en toch werkt er een kracht.",
+                 "Massa is hoeveel materie er in je zit, gewicht is hoe hard een hemellichaam daaraan "
+                 "trekt. Een weegschaal meet eigenlijk het tweede.",
+             ]),
+        dict(aanpak="Bij een hefboom draait alles om de afstand tot het steunpunt. Hoe verder je duwt "
+                    "of zit van het steunpunt, hoe minder kracht je nodig hebt, maar hoe verder je ook "
+                    "moet bewegen.",
+             waarom=[
+                 None,
+                 "Kracht maal afstand tot het steunpunt moet links en rechts gelijk zijn. Het zwaarste "
+                 "kind heeft dus de kortste afstand nodig.",
+                 None,
+                 "Dat is de regel achter elk hulpmiddel: je wint kracht en je verliest afstand. Werk "
+                 "besparen doet geen enkel hulpmiddel.",
+             ]),
+        dict(aanpak="Energie verdwijnt nooit en komt er nooit bij: ze verandert alleen van vorm. Vraag "
+                    "je bij elke oefening af welke vorm erin ging en welke eruit kwam.",
+             waarom=[
+                 None,
+                 None,
+                 "Fossiel komt uit de grond en raakt op, hernieuwbaar komt telkens terug. Achter wind en "
+                 "water zit trouwens ook de zon.",
+                 None,
+             ]),
+        dict(aanpak="Warmte gaat altijd van warm naar koud, nooit omgekeerd. Isoleren is dus geen "
+                    "warmte maken maar warmte tegenhouden.",
+             waarom=[
+                 "De jas verwarmt niets: hij houdt de warmte binnen die jij zelf maakt. Daarom wordt een "
+                 "koude steen onder een jas ook niet warm.",
+                 "Snelheid is afstand gedeeld door tijd. Schrijf die regel op voor je rekent, dan weet "
+                 "je meteen wat door wat moet.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-natuurkunde-licht-geluid-en-elektriciteit"] = dict(
+    reeksen=[
+        dict(aanpak="Twee regels volstaan voor bijna alles: licht gaat in een rechte lijn, en wat je "
+                    "ziet is het licht dat op jouw oog terugkaatst. Teken bij twijfel de stralen vanaf "
+                    "de lamp.",
+             waarom=[
+                 "Een lichtbron maakt zelf licht. De maan en een spiegel geven alleen het licht van iets "
+                 "anders terug, en zijn dus geen lichtbron.",
+                 None,
+                 "Hoe dichter bij de lamp, hoe meer stralen het balletje tegenhoudt, dus hoe groter de "
+                 "schaduw. Teken de stralen vanaf de lamp, dan zie je het meteen.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Geluid is een trilling die zich door stof voortplant: door lucht, door water of "
+                    "door een vaste wand. Geen stof, geen geluid. En hoe sneller de trilling, hoe hoger "
+                    "de toon.",
+             waarom=[
+                 None,
+                 "Licht is er meteen, geluid doet er ongeveer drie seconden over per kilometer. Tel dus "
+                 "de seconden en deel door drie, dan heb je de afstand in kilometer.",
+                 None,
+                 None,
+                 "Decibel zegt hoe luid, hertz zegt hoe hoog. Die twee worden vaak door elkaar gehaald.",
+             ]),
+        dict(aanpak="Stroom loopt alleen rond in een gesloten kring: van de ene pool van de batterij, "
+                    "door alles heen, en terug naar de andere pool. Is de kring ergens open, dan loopt "
+                    "er nergens stroom.",
+             waarom=[
+                 None,
+                 "Metalen geleiden, kunststoffen niet. Daarom zit er rubber of plastic rond elke draad "
+                 "die je vastneemt.",
+                 "Hier staat alles na elkaar in dezelfde kring. Thuis is dat anders aangelegd: daar "
+                 "blijft de rest wel branden als één lamp stuk gaat.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Gelijke polen stoten af, ongelijke trekken aan. En een magneet werkt niet op alle "
+                    "metalen, alleen op ijzer, nikkel en kobalt.",
+             waarom=[
+                 None,
+                 None,
+                 "Probeer het met aluminiumfolie of met een koperen draad: die blijven liggen, terwijl "
+                 "het toch metalen zijn.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-techniek-ontwerpen-en-maken"] = dict(
+    reeksen=[
+        dict(aanpak="Een ontwerp loopt in stappen, maar niet in een rechte lijn: na het testen kom je "
+                    "vaak terug bij je eisen of bij je schets. Dat heen en weer hoort erbij.",
+             waarom=[
+                 "Het probleem en de eisen komen vóór de ideeën. Wie meteen begint te tekenen, ontwerpt "
+                 "iets moois dat niet doet wat er gevraagd was.",
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Schaal 1:10 betekent dat alles op de tekening tien keer kleiner is dan in het "
+                    "echt. Om naar de werkelijkheid te gaan, reken je dus maal het tweede getal.",
+             waarom=[
+                 "Maal het tweede getal van de schaal: 6 cm bij 1:10 wordt 60 cm, en 3 cm bij 1:100 "
+                 "wordt 300 cm, wat je het best als 3 m schrijft.",
+                 None,
+                 "Millimeter, want dan heb je geen komma's nodig en kan er geen twijfel zijn: 12 mm is "
+                 "duidelijker dan 1,2 cm.",
+             ]),
+        dict(aanpak="Kies je gereedschap naar wat je wil doen, en je verbinding naar wat er later mee "
+                    "moet gebeuren: moet het nog los kunnen, of net nooit meer?",
+             waarom=[
+                 None,
+                 "Een schroef en een bout met moer draai je terug, een nagel krijg je er moeilijk uit, "
+                 "en lijm nooit meer. Denk dus op voorhand aan herstellen.",
+                 None,
+             ]),
+        dict(aanpak="Bij tandwielen geldt: een klein wiel dat een groot wiel aandrijft, geeft minder "
+                    "snelheid maar meer kracht. Dat is dezelfde ruil als bij een hefboom.",
+             waarom=[
+                 None,
+                 None,
+                 "Een driehoek is de enige vorm die niet scheef kan zakken zonder dat een zijde breekt "
+                 "of rekt. Een vierkant van vier latjes klapt wel scheef; probeer het eens.",
+                 None,
+             ]),
+        dict(aanpak="Denk aan de ladder van best naar slechtst: niet kopen, herstellen, hergebruiken, "
+                    "recycleren, en pas helemaal onderaan wegwerpen.",
+             waarom=[
+                 None,
+                 "Recycleren kost nog altijd energie en nieuw materiaal. Hergebruiken is dus beter, en "
+                 "wat je niet koopt kost helemaal niets.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-aarde-en-de-ruimte"] = dict(
+    reeksen=[
+        dict(aanpak="Twee bewegingen, drie gevolgen: de aarde draait in één dag om haar eigen as (dag "
+                    "en nacht) en in één jaar rond de zon (een jaar). De seizoenen komen van de schuine "
+                    "stand van die as. Hou die drie uit elkaar.",
+             waarom=[
+                 None,
+                 "De seizoenen komen níét doordat de aarde dichter bij de zon staat, maar door de "
+                 "schuine as. Dat is de meest gemaakte fout bij deze vraag.",
+                 "Dezelfde reden waarom het 's ochtends koeler is dan 's middags: hoe schuiner het licht "
+                 "valt, over hoe meer grond het verdeeld wordt.",
+                 None,
+             ]),
+        dict(aanpak="De maan maakt zelf geen licht: je ziet alleen het stuk dat door de zon beschenen "
+                    "wordt én naar ons gekeerd staat. Teken de zon, de aarde en de maan, dan zie je elke "
+                    "stand.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Er is geen lucht op de maan, dus ook geen wind en geen regen. Er is niets dat de "
+                 "voetstappen kan uitwissen.",
+             ]),
+        dict(aanpak="Acht planeten, in volgorde vanaf de zon. Een ezelsbruggetje helpt: maak een zin "
+                    "waarvan elke eerste letter die van een planeet is.",
+             waarom=[
+                 None,
+                 "Venus is heter dan Mercurius, al staat ze verder van de zon: haar dikke atmosfeer "
+                 "houdt de warmte vast als een deken.",
+                 None,
+                 None,
+                 "Hoe verder van de zon, hoe langer de weg rond: op Mercurius duurt een jaar 88 aardse "
+                 "dagen, op Neptunus 165 aardse jaren.",
+             ]),
+        dict(aanpak="In de ruimte zijn de afstanden te groot voor kilometers. Daarom meten we in "
+                    "lichtjaren: hoever het licht in één jaar komt.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Zweven is niet hetzelfde als geen zwaartekracht voelen. Alles in het station valt "
+                 "samen rond de aarde, en daardoor voel je je gewicht niet.",
+             ]),
+    ],
+)
