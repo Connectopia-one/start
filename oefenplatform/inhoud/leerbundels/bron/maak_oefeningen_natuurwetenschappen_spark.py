@@ -842,3 +842,411 @@ if __name__ == "__main__":
     for naam, b in OEFENBUNDELS.items():
         oefenbundel.schrijf(b, naam)
         print("  ", naam)
+
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-cellen-weefsels-en-organen-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Loop de ladder telkens van klein naar groot af: cel, weefsel, orgaan, stelsel, "
+                    "organisme. Zoek waar het voorbeeld op die ladder past.",
+             waarom=[
+                 None,
+                 None,
+                 "Het hart bestaat uit verschillende weefsels (spierweefsel, zenuwweefsel, bindweefsel) "
+                 "die samen één taak uitvoeren. Dat maakt het een orgaan.",
+                 None,
+             ]),
+        dict(aanpak="Onthoud welke drie onderdelen enkel bij een plantencel horen: de celwand, de grote "
+                    "vacuole en de bladgroenkorrels. De rest hebben plant en dier allebei.",
+             waarom=[
+                 None,
+                 None,
+                 "Een dierlijke cel heeft wel een celmembraan, maar geen stevige celwand. Daarom kan "
+                 "een dier bewegen en van vorm veranderen.",
+                 None,
+             ]),
+        dict(aanpak="Noem bij elk antwoord het celonderdeel bij naam en zeg wat het doet. Een verklaring "
+                    "zonder dat onderdeel is nooit volledig.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "Een loep vergroot ongeveer tien keer, een lichtmicroscoop vierhonderd keer of meer. "
+                 "Dat is het verschil tussen niets zien en cellen zien.",
+             ]),
+        dict(aanpak="Een stelsel is een groep organen met één gezamenlijke taak. Vraag je bij elke "
+                    "oefening af welke taak dat is.",
+             waarom=[None, None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-fotosynthese-en-de-plant-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Schrijf de reactie uit als één pijl: water en koolstofdioxide worden, met licht en "
+                    "bladgroen, glucose en zuurstof. Alles in deze reeks komt uit die ene regel.",
+             waarom=[
+                 None,
+                 None,
+                 "Het is net omgekeerd: CO₂ gaat erin en zuurstof komt eruit. Een plant verbruikt wel "
+                 "zuurstof bij haar eigen celademhaling, maar dat is een ander proces.",
+                 None,
+             ]),
+        dict(aanpak="Volg twee wegen door de plant: het water gaat van de wortel via de stengel naar "
+                    "het blad, en de suiker gaat van het blad naar de voorraad.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Autotroof betekent letterlijk zichzelf voedend. Dieren zijn heterotroof: zij moeten "
+                 "hun energierijke stoffen bij anderen halen.",
+             ]),
+        dict(aanpak="Zet de twee naast elkaar: fotosynthese maakt glucose en heeft licht nodig, "
+                    "celademhaling verbrandt glucose en loopt dag en nacht door. Een plant doet allebei.",
+             waarom=[
+                 None,
+                 None,
+                 "'s Nachts staat de fotosynthese stil terwijl de celademhaling doorloopt. Dan "
+                 "verbruikt de plant dus netto zuurstof in plaats van ze af te geven.",
+                 None,
+             ]),
+        dict(aanpak="Hier pas je de reactie toe op het echte leven. Zoek telkens welk stuk van de "
+                    "reactie in het voorbeeld meespeelt.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Haar suikers maakt een plant zelf, maar voor haar bladgroen, haar eiwitten en haar "
+                 "dna heeft ze ook stikstof, fosfor, magnesium en ijzer nodig. Die haalt ze als "
+                 "mineralen uit de bodem.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-het-menselijk-lichaam-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Volg het eten van voor naar achter en zeg bij elk station wat er gebeurt: kauwen "
+                    "en speeksel, doorslikken, zuur in de maag, opname in de dunne darm, water eruit in "
+                    "de dikke darm.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "Gal wordt gemaakt in de lever en bewaard in de galblaas, niet in de maag. De maag "
+                 "maakt maagsap met zoutzuur.",
+             ]),
+        dict(aanpak="Teken het hart met zijn vier holtes en volg het bloed: rechts het zuurstofarme "
+                    "bloed naar de longen, links het zuurstofrijke bloed naar de rest van het lichaam.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "Een slagader voert bloed wég van het hart, en hier is dat zuurstofarm bloed op weg "
+                 "naar de longen. De naam zegt dus iets over de richting, niet over de zuurstof.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Antwoord in volle zinnen en noem de stelsels bij naam. De vraag is telkens: wie "
+                    "levert wat, en wie brengt het waar?",
+             waarom=[
+                 None,
+                 "In de longen gebeurt alleen de gasuitwisseling. De verbranding zelf gebeurt in de "
+                 "mitochondriën van elke cel, en dat is de verwarring die hier het vaakst opduikt.",
+                 None,
+             ]),
+        dict(aanpak="Denk aan de twee driehoeken: de voedingsdriehoek zegt wat je het best vaak eet, de "
+                    "bewegingsdriehoek zet lang stilzitten apart onderaan.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Water levert geen energie, maar zonder water werkt geen enkele cel. Daarom telt het "
+                 "wel degelijk als voedingsstof.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-voortplanting-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Tel de ouders: één ouder is aseksueel, twee ouders zijn seksueel. Dat is het hele "
+                    "onderscheid.",
+             waarom=[
+                 None,
+                 None,
+                 "Bij stekken komt alle erfelijke informatie van één plant. Je krijgt dus een kloon, "
+                 "erfelijk identiek aan de moederplant.",
+                 None,
+             ]),
+        dict(aanpak="Hou de twee delen uit elkaar: de meeldraad is mannelijk en maakt stuifmeel, de "
+                    "stamper is vrouwelijk en vangt het op. De stamper bestaat uit stempel, stijl en "
+                    "vruchtbeginsel.",
+             waarom=[
+                 "Een geheugensteun: meeldraad begint met m, net als mannelijk. Alles wat in het midden "
+                 "staat, hoort bij de stamper.",
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Volg de weg: de eicel rijpt in de eierstok, komt in de eileider waar de "
+                    "bevruchting meestal gebeurt, en nestelt zich daarna in de baarmoeder.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "De eisprong valt ongeveer veertien dagen vóór de volgende menstruatie, dus midden in "
+                 "de cyclus. Tijdens de menstruatie zelf is de kans het kleinst, maar nooit nul.",
+             ]),
+        dict(aanpak="Hou twee vragen uit elkaar: houdt het middel een zwangerschap tegen, en houdt het "
+                    "ziektekiemen tegen? Alleen het condoom doet allebei.",
+             waarom=[None, None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-ecologie-en-biodiversiteit-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je bij elke factor af of ze leeft. Leeft ze, dan is ze biotisch; gaat het "
+                    "over temperatuur, licht, water of bodem, dan is ze abiotisch.",
+             waarom=[None, None, None]),
+        dict(aanpak="De pijl wijst altijd naar wie eet, dus de kant van de energie op. Begin je keten "
+                    "bij een producent: die maakt zijn eigen voedsel met licht.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "Een producent maakt zijn eigen voedsel met licht. Een regenworm eet dood "
+                 "plantenmateriaal en breekt het af, en is dus een reducent.",
+             ]),
+        dict(aanpak="Biodiversiteit is de verscheidenheid aan soorten in een gebied. Vraag je bij elke "
+                    "oefening af wat er gebeurt als die verscheidenheid kleiner wordt.",
+             waarom=[
+                 "Een exoot is niet per se schadelijk. Hij wordt het wel als hij hier geen natuurlijke "
+                 "vijand heeft en de soorten verdringt die er al leefden.",
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Zeg bij elke aanpassing welk voordeel ze oplevert: minder warmte verliezen, minder "
+                    "water verliezen, minder opvallen, of beter zien.",
+             waarom=[
+                 None,
+                 None,
+                 "Kieuwen halen zuurstof uit het wáter. Longen halen hem uit de lucht, en daarom stikt "
+                 "een vis op het droge, al zit er in lucht veel meer zuurstof.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-materie-stoffen-en-mengsels-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Zeg bij elke overgang van welke fase naar welke, en of er warmte bij moet of net "
+                    "weg. Zo kom je op de naam uit, ook bij rijpen en vervluchtigen.",
+             waarom=[
+                 None,
+                 "Rijp slaat waterdamp meteen als ijs neer (gas naar vast) en droogijs gaat meteen van "
+                 "vast naar gas. Die twee slaan de vloeibare fase over.",
+                 "Tijdens een faseovergang blijft de temperatuur gelijk. Alle warmte die je toevoegt, "
+                 "gaat naar het losmaken van de deeltjes en niet naar het opwarmen.",
+             ]),
+        dict(aanpak="Teken de deeltjes in gedachten: in een vaste stof dicht op elkaar en trillend op "
+                    "hun plaats, in een vloeistof tegen elkaar maar schuivend, in een gas ver uit "
+                    "elkaar en snel.",
+             waarom=[
+                 None,
+                 None,
+                 "Dat uitzetten is klein maar niet te verwaarlozen: een stalen brug van honderd meter "
+                 "wordt op een hete dag enkele centimeters langer.",
+                 None,
+             ]),
+        dict(aanpak="Eén vraag volstaat: blijft het dezelfde stof, of ontstaat er een nieuwe? Verandert "
+                    "alleen de vorm of de fase, dan is het fysisch.",
+             waarom=[
+                 "Bij koken, oplossen en breken blijft de stof zichzelf: je kan de damp weer laten "
+                 "condenseren en de suiker weer uit het water halen. Bij branden en roesten kan dat "
+                 "niet meer.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Drie trappen: een element bestaat uit één soort atoom, een verbinding uit vaste "
+                    "combinaties van atomen, en een mengsel uit verschillende stoffen door elkaar.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Zuiver water bevriest bij 0 °C, zeewater pas rond -2 °C. Opgeloste stoffen verlagen "
+                 "het vriespunt, en dat is ook waarom men zout op de weg strooit.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-massadichtheid-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Schrijf eerst de formule op, zet de gegevens eronder met hun eenheid, en reken dan "
+                    "pas. Zo zie je meteen of je moet delen of vermenigvuldigen.",
+             waarom=[
+                 None,
+                 None,
+                 "Uit \\(\\rho = m / V\\) volgt \\(V = m / \\rho\\), dus \\(780 : 7{,}8 = 100\\,"
+                 "\\text{cm}^{3}\\).",
+                 "De SI-eenheid is kg/\\(\\text{m}^{3}\\), maar in de praktijk reken je bijna altijd in "
+                 "g/\\(\\text{cm}^{3}\\). Eén g/\\(\\text{cm}^{3}\\) is \\(1\\,000\\) kg/"
+                 "\\(\\text{m}^{3}\\).",
+             ]),
+        dict(aanpak="Is het voorwerp regelmatig, dan reken je het volume uit met een formule. Is het "
+                    "onregelmatig, dan dompel je het onder en lees je het verschil af.",
+             waarom=[
+                 None,
+                 "Eén mL is precies \\(1\\,\\text{cm}^{3}\\). Daarom kan je het verschil in de "
+                 "maatcilinder zonder omrekenen als volume gebruiken.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Vergelijk telkens met water: \\(1\\) g/\\(\\text{cm}^{3}\\). Minder dan \\(1\\) "
+                    "drijft, meer dan \\(1\\) zinkt. De massa alleen zegt niets.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Massadichtheid hangt af van de massa én van het volume. Een kilo veren en een kilo "
+                 "lood wegen evenveel, maar de veren nemen veel meer plaats in.",
+             ]),
+        dict(aanpak="Massadichtheid is een stofeigenschap: ze hangt niet af van hoe groot je stuk is. "
+                    "Dat is de rode draad door deze hele reeks.",
+             waarom=[None, None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-energie-kracht-en-snelheid-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Noem de energievorm bij naam, en zeg bij een omzetting altijd van welke vorm naar "
+                    "welke.",
+             waarom=[
+                 None,
+                 None,
+                 "Die warmte is niet verdwenen, ze is alleen niet meer bruikbaar voor wat je wou. "
+                 "Daarom haalt geen enkel toestel honderd procent.",
+             ]),
+        dict(aanpak="Een kracht heeft vier kenmerken: een grootte, een richting, een zin en een "
+                    "aangrijpingspunt. Teken ze als een pijl, dan zie je richting en zin meteen.",
+             waarom=[
+                 None,
+                 None,
+                 "Krachten in dezelfde zin tel je op, krachten in tegengestelde zin trek je af. "
+                 "\\(150\\) N tegen \\(150\\) N geeft dus \\(0\\) N: evenwicht.",
+                 "De richting is de lijn waarop de kracht werkt, hier horizontaal. De zin is de kant "
+                 "waarnaar ze wijst. Links en rechts liggen dus op dezelfde lijn.",
+                 "Wrijving werkt altijd tégen de beweging in. Daarom remt ze af, en daarom heb je ze "
+                 "net nodig om je te kunnen afzetten.",
+                 None,
+             ]),
+        dict(aanpak="\\(v = \\Delta x / \\Delta t\\). Zet eerst alles in dezelfde eenheden: meter en "
+                    "seconde voor m/s, kilometer en uur voor km/h.",
+             waarom=[
+                 None,
+                 "Van m/s naar km/h vermenigvuldig je met \\(3{,}6\\); van km/h naar m/s deel je door "
+                 "\\(3{,}6\\).",
+                 None,
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="In een grafiek van de weg tegenover de tijd is de helling de snelheid. Steiler is "
+                    "sneller, een vlak stuk betekent stilstand.",
+             waarom=[None, None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-veilig-werken-meten-en-eenheden-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Bij elk antwoord geldt dezelfde volgorde: eerst jezelf en de anderen veilig "
+                    "houden, dan de leerkracht verwittigen, en pas daarna opruimen.",
+             waarom=[
+                 None,
+                 "Gebruik een borstel en een blik, nooit je handen. Een splinter glas zie je niet "
+                 "altijd liggen.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Kies je instrument naar wat je meet én naar hoe nauwkeurig het moet zijn. Een "
+                    "bekerglas toont een volume ruwweg, een maatcilinder meet het.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Een schuifmaat leest tot op een tiende millimeter af, een gewone meetlat tot op een "
+                 "millimeter.",
+             ]),
+        dict(aanpak="Hou de grootheid (wat je meet) en de eenheid (waarin je het uitdrukt) uit elkaar, "
+                    "en schrijf bij elk getal zijn eenheid.",
+             waarom=[
+                 None,
+                 "Zet om via de trap: van mm naar m deel je door \\(1\\,000\\), van kg naar g "
+                 "vermenigvuldig je met \\(1\\,000\\).",
+                 "De SI-eenheid van temperatuur is de kelvin. \\(0\\) °C is \\(273{,}15\\) K, en een "
+                 "stap van één graad is in allebei even groot.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Vraag je bij elk getal af of het realistisch is, en meet liever meerdere keren. "
+                    "Een enkele meting kan er altijd eens naast zitten.",
+             waarom=[
+                 "Een appel van \\(15\\) g zou zo licht zijn als een blad papier, een van \\(1\\,500\\) "
+                 "g zo zwaar als anderhalve liter water. \\(150\\) g klopt wel.",
+                 None,
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-wetenschappelijk-onderzoek-spark"] = dict(
+    reeksen=[
+        dict(aanpak="De volgorde is altijd dezelfde: vraag, plan, meten, besluiten. En daarna kijk je "
+                    "terug op hoe het gelopen is.",
+             waarom=[
+                 None,
+                 None,
+                 "Een hypothese die niet uitkomt, is óók een resultaat. Je weet nu iets dat je ervoor "
+                 "niet wist, en daarvoor deed je het onderzoek.",
+                 None,
+             ]),
+        dict(aanpak="Toets elke vraag aan vier eisen: enkelvoudig (één ding tegelijk), objectief (geen "
+                    "oordeel erin), meetbaar en haalbaar.",
+             waarom=[
+                 "Een opzoekvraag heeft haar antwoord al in een boek staan; daar heb je geen proef "
+                 "voor nodig. En het woordje beter in de tweede vraag zit vol oordeel.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Een besluit steunt op je metingen en op niets anders. Verander ook maar één ding "
+                    "tegelijk, anders weet je achteraf niet waardoor het kwam.",
+             waarom=[
+                 "Logisch klinken en kloppen zijn twee verschillende dingen. Heel wat verwachtingen "
+                 "die logisch leken, bleken bij het meten niet te kloppen.",
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Omvormen doe je stap voor stap: wat links gedeeld wordt, komt rechts te "
+                    "vermenigvuldigen. Bij een tabel kijk je wat er met het product of het quotiënt "
+                    "gebeurt.",
+             waarom=[
+                 None,
+                 None,
+                 "Let op de woorden door de oorsprong. Een rechte die de y-as hoger snijdt, is wel "
+                 "lineair maar niet recht evenredig.",
+                 None,
+             ]),
+    ],
+)

@@ -543,3 +543,301 @@ if __name__ == "__main__":
     for naam, b in OEFENBUNDELS.items():
         oefenbundel.schrijf(b, naam)
         print("  ", naam)
+
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-historisch-referentiekader-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Tel bij de eerste cijfers van het jaartal één op om de eeuw te vinden, behalve bij "
+                    "een jaar dat op 00 eindigt: dat hoort nog bij de eeuw ervoor.",
+             waarom=[
+                 "1066 wordt de 11de eeuw (10 plus 1), maar 1600 blijft de 16de, want een jaar op 00 "
+                 "sluit zijn eeuw af.",
+                 "Een eeuw loopt van 01 tot en met 00. De 15de eeuw begint dus in 1401 en eindigt in "
+                 "1500.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Vóór Christus tellen de jaartallen achterwaarts: hoe groter het getal, hoe langer "
+                    "geleden. Ga je van v.C. naar n.C., tel dan de twee getallen op en trek er één af, "
+                    "want er is geen jaar 0.",
+             waarom=[
+                 None,
+                 "Van 753 v.C. tot 476 n.C. is 753 plus 476, min 1 voor het ontbrekende jaar 0, dus "
+                 "1 229. Twee jaartallen aan dezelfde kant trek je gewoon af: 3300 min 800 is 2 500.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Leer de zeven periodes als een ketting, en hang aan elke overgang zijn "
+                    "scharnierpunt: het schrift, de val van Rome, de ontdekkingsreizen, 1789 en 1945.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "De prehistorie beslaat het grootste deel van de menselijke geschiedenis: "
+                 "honderdduizenden jaren, tegenover enkele duizenden voor alle andere periodes samen.",
+             ]),
+        dict(aanpak="Kijk naar het tempo van de verandering, niet naar hoe groot het gevolg was. Een "
+                    "revolutie gaat snel en met een breuk, een evolutie traag en geleidelijk.",
+             waarom=[
+                 "De overgang naar landbouw duurde duizenden jaren, en dat is een evolutie. Maar de "
+                 "gevolgen waren zo groot dat historici ook van een revolutie spreken. Daarom kunnen "
+                 "de twee hier samengaan.",
+                 None,
+                 "Een scharnierpunt is een afspraak die uit de Europese geschiedenis komt. In 476 viel "
+                 "Rome, maar in China of Midden-Amerika veranderde er op dat moment niets.",
+                 None,
+             ]),
+        dict(aanpak="Vraag je af waar de gebeurtenis over gaat: macht (politiek), geld en werk "
+                    "(economisch), de groepen in de samenleving (sociaal), of geloof, kunst en denken "
+                    "(cultureel). Soms past er meer dan één.",
+             waarom=[
+                 None,
+                 "Een senator is een machtsfiguur, en dat is politiek. Een bronzen beeld is kunst, en "
+                 "dat is cultureel. Daarom hoort dit voorwerp in twee domeinen tegelijk.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Structuurbegrippen komen in paren: stedelijk tegenover ruraal, statisch tegenover "
+                    "dynamisch. Zoek telkens welke kant van het paar past.",
+             waarom=[None, None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-prehistorie-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Hang elke naam aan wat ze betekent: habilis is handig, erectus staat rechtop, "
+                    "sapiens is wijs. Zo onthoud je meteen ook de volgorde.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "De homo erectus verliet Afrika al veel eerder. De homo sapiens kwam later, en trof "
+                 "onderweg andere mensachtigen aan, zoals de neanderthaler.",
+             ]),
+        dict(aanpak="Vraag je bij elke oefening af wat je niet kon bewaren, en wat dat betekende voor "
+                    "je leven. Bijna alles volgt uit het feit dat eten niet lang goed bleef.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "Verzamelen leverde het grootste deel van het eten: noten, vruchten, wortels, eieren. "
+                 "Jagen lukte lang niet elke dag.",
+                 None,
+             ]),
+        dict(aanpak="Hou de oorzaak en het gevolg uit elkaar: de landbouw is de oorzaak, de vaste "
+                    "woonplaats en het overschot zijn het gevolg.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "De Vruchtbare Halvemaan loopt van Mesopotamië tot de Middellandse Zee. Daar groeiden "
+                 "de wilde granen en leefden de dieren die zich lieten temmen.",
+                 "De landbouw ontstond op verschillende plaatsen los van elkaar, duizenden jaren uit "
+                 "elkaar: in het nabije oosten, in China, in Midden-Amerika.",
+             ]),
+        dict(aanpak="Volg de ketting: eerst een overschot, dan een vaste woonplaats, dan specialisatie, "
+                    "en pas dan een stad. Elke schakel maakt de volgende mogelijk.",
+             waarom=[
+                 "Lees de ketting als een gevolg: pas als er een overschot is, kan iemand ophouden met "
+                 "boeren, en pas dan kan er een stad ontstaan.",
+                 None,
+                 None,
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-mesopotamie-en-egypte-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Beide beschavingen draaien om één ding: water op de juiste plaats. Vraag je bij "
+                    "elke oefening af wat de rivier gaf, en wat ze van de mensen vroeg.",
+             waarom=[
+                 "Meso is Grieks voor tussen en potamos voor rivier. De naam zegt dus letterlijk waar "
+                 "het gebied lag.",
+                 None,
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Hou de twee schriften uit elkaar: spijkerschrift in Mesopotamië, in natte klei "
+                    "gedrukt, en hiërogliefen in Egypte, in steen gehakt en op papyrus geschilderd.",
+             waarom=[
+                 None,
+                 None,
+                 "De oudste kleitabletten zijn lijsten: zoveel zakken graan, zoveel schapen. Het schrift "
+                 "is ontstaan uit boekhouding, niet uit verhalen.",
+                 "Op de Steen van Rosetta staat dezelfde tekst in drie schriften. Omdat men het Grieks "
+                 "kon lezen, kon men de hiërogliefen ernaast ontcijferen.",
+                 None,
+             ]),
+        dict(aanpak="In een standenmaatschappij ligt je plaats vast bij je geboorte. Kijk bij elke "
+                    "oefening naar wie bovenaan stond, wie onderaan, en wie ertussen.",
+             waarom=[
+                 None,
+                 None,
+                 "Ruilhandel werkt zolang allebei de partijen willen wat de ander heeft. Daarom kwam er "
+                 "later geld: dat aanvaardt iedereen.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Geloof en bestuur liepen door elkaar: de farao was tegelijk koning en priester. "
+                    "Vraag je bij elke oefening af welke van die twee rollen meespeelt.",
+             waarom=[
+                 None,
+                 None,
+                 "Bijna alle andere koningsgraven waren in de oudheid al leeggeroofd. Dat van "
+                 "Toetanchamon bleef bij toeval gespaard, en daardoor weten we hoe zo'n graf er echt "
+                 "uitzag.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-het-oude-griekenland-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Denk bij Griekenland eerst aan het landschap: bergen en zee die alles van elkaar "
+                    "scheiden. Bijna elke oefening in deze reeks volgt daaruit.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Er was geen gezamenlijk bestuur. Wat de Grieken deelde, was hun taal, hun goden en "
+                 "hun feesten, niet één koning.",
+             ]),
+        dict(aanpak="Zet de bestuursvormen naast elkaar met één vraag: hoeveel mensen beslissen er? "
+                    "Eén (tirannie), enkelen (oligarchie), of de burgers samen (democratie).",
+             waarom=[
+                 None,
+                 "Burger zijn was in Athene eng bepaald: vrij, man, volwassen, en uit Atheense ouders. "
+                 "Dat was maar een klein deel van de inwoners.",
+                 None,
+                 "Een Atheense burger stemde zelf, op de volksvergadering. Wij kiezen mensen die voor "
+                 "ons stemmen, en dat heet een indirecte democratie.",
+             ]),
+        dict(aanpak="Vergelijk de twee steden punt voor punt: Athene is zee, handel en kunst, Sparta is "
+                    "land, leger en tucht. Bij de vrouwen draait het net om: in Sparta hadden ze meer "
+                    "vrijheid.",
+             waarom=[None, None, None]),
+        dict(aanpak="Hou de twee oorlogen uit elkaar: de Perzische oorlogen zijn de Grieken tegen een "
+                    "vijand van buiten, de Peloponnesische oorlog is de Grieken onder elkaar.",
+             waarom=[
+                 None,
+                 "Na die oorlog waren alle stadstaten uitgeput. Daardoor kon Macedonië, onder Filippus "
+                 "en Alexander, hen kort daarna onderwerpen.",
+                 None,
+             ]),
+        dict(aanpak="Onthoud de keten van leraren: Socrates leerde Plato, Plato leerde Aristoteles, en "
+                    "Aristoteles was de leraar van Alexander de Grote.",
+             waarom=[
+                 None,
+                 "Hellas is de Griekse naam voor Griekenland. Na Alexander verspreidde de Griekse taal "
+                 "en cultuur zich tot in Egypte en Perzië, vermengd met wat daar al leefde.",
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-het-romeinse-rijk-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Rome doorloopt drie bestuursvormen, in deze volgorde: koningstijd, republiek, "
+                    "keizerrijk. Hang aan elk één woord: koning, consuls, keizer.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "De patriciërs waren de oude adellijke families, de plebejers de gewone burgers. De "
+                 "strijd tussen die twee groepen loopt door de hele republiek.",
+             ]),
+        dict(aanpak="Zoek bij elke oefening de oorzaak achter de gebeurtenis. De republiek viel niet "
+                    "door één man, maar door veroveringen die de samenleving van binnenuit veranderden.",
+             waarom=[
+                 "Carthago lag in Noord-Afrika en was Romes grote tegenstander op zee. Na drie oorlogen "
+                 "werd de stad vernietigd.",
+                 None,
+                 None,
+                 "Augustus vermeed met opzet het woord koning: dat lag in Rome gevoelig sinds de "
+                 "koningstijd. Hij hield de vormen van de republiek in stand en had ondertussen alle "
+                 "macht.",
+                 None,
+             ]),
+        dict(aanpak="Pax Romana betekent de Romeinse vrede: ruim twee eeuwen zonder grote oorlog binnen "
+                    "het rijk. Vraag je af wat die rust mogelijk maakte, en wat ze opleverde.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "De keizer vereren was vooral een manier om je trouw aan het rijk te tonen. Wie "
+                 "weigerde, zoals de christenen, kreeg daardoor problemen.",
+             ]),
+        dict(aanpak="De Romeinen namen veel over van de Grieken, maar waren zelf sterk in techniek: de "
+                    "boog, het gewelf en beton zijn van hen.",
+             waarom=[None, None, None]),
+        dict(aanpak="Noem oorzaken, geen losse gebeurtenissen. Het rijk viel door een optelsom: druk "
+                    "aan de grenzen, chaos in het bestuur, en een economie die het niet meer droeg.",
+             waarom=[
+                 None,
+                 None,
+                 "Het Oost-Romeinse Rijk, met Constantinopel als hoofdstad, bleef nog bijna duizend "
+                 "jaar bestaan, tot 1453.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-bronnen-kunst-en-beeldvorming-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Eén vraag volstaat: is de bron gemaakt in de tijd zelf, of kijkt ze erop terug? "
+                    "Het gaat niet om hoe oud de bron is, maar om wanneer ze gemaakt werd tegenover wat "
+                    "ze beschrijft.",
+             waarom=[
+                 None,
+                 "Een schoolboek van vandaag over de Romeinen kijkt tweeduizend jaar terug, dus "
+                 "secundair. Een documentaire van 2024 ook, ook al staan er echte voorwerpen in beeld.",
+                 None,
+             ]),
+        dict(aanpak="De vorm van een bron is iets anders dan primair of secundair. Vraag je af hoe ze "
+                    "tot je komt: geschreven, materieel (een voorwerp), beeldend (een beeld of een "
+                    "schilderij) of mondeling (verteld).",
+             waarom=[None, None, None]),
+        dict(aanpak="Dit zijn twee verschillende vragen. Bruikbaar: helpt deze bron mij bij mijn vraag? "
+                    "Betrouwbaar: klopt wat erin staat? Een bron kan het ene zijn zonder het andere.",
+             waarom=[
+                 None,
+                 "Ook een leugen is informatie: ze toont wat iemand wilde doen geloven, en aan wie. Je "
+                 "gebruikt zo'n bron dan voor een andere vraag dan je eerst had.",
+                 None,
+             ]),
+        dict(aanpak="Vraag je bij elke bron af wie het zegt, van waaruit, en aan wie. Niemand kijkt van "
+                    "nergens.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Wie een standbeeld of een kroniek betaalde, bepaalde vaak mee wat erin kwam. Dat "
+                 "maakt de bron niet waardeloos, maar je leest ze met die opdrachtgever in gedachten.",
+             ]),
+        dict(aanpak="De redeneerwijzen zijn gereedschap. Vraag je bij elke vraag af welk stuk "
+                    "gereedschap ze van je vraagt: vergelijken in de tijd, verschillende partijen naast "
+                    "elkaar leggen, of je uitspraak met bronnen onderbouwen.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Het verleden is voorbij en verandert niet meer. Geschiedenis verandert wel, want ze "
+                 "wordt geschreven met de bronnen en de vragen van vandaag.",
+             ]),
+    ],
+)
