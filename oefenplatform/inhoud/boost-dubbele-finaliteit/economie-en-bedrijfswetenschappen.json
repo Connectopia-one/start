@@ -179,12 +179,14 @@
             "de behoeften zijn onbeperkt",
             "de middelen zijn beperkt",
             "het budget is begrensd",
-            "de winkels zijn te klein"
+            "de winkels zijn te klein",
+            "de tijd is beperkt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Onbeperkte behoeften tegenover beperkte middelen: dat is het economisch probleem."
         },
@@ -206,15 +208,14 @@
           "opties": [
             "ze dwingt tot kiezen",
             "ze geldt ook voor tijd",
-            "ze geldt voor elk land",
+            "ze geldt enkel in arme landen",
             "ze verdwijnt als je rijk bent"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Ook wie veel geld heeft, heeft maar vierentwintig uur per dag."
+          "uitleg": "Schaarste geldt in elk land, ook het rijkste: ook wie veel geld heeft, heeft maar vierentwintig uur per dag."
         },
         {
           "type": "invultekst",
@@ -345,12 +346,14 @@
             "economisch en vrij",
             "verbruiks- en gebruiksgoederen",
             "consumptie- en investeringsgoederen",
-            "mooie en lelijke goederen"
+            "mooie en lelijke goederen",
+            "individuele en collectieve goederen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "En individuele tegenover collectieve goederen. Mooi of lelijk is geen indeling."
         },
@@ -406,15 +409,14 @@
           "opties": [
             "een dijk",
             "de straatverlichting",
-            "het leger",
+            "een fiets",
             "een brood"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een brood eet één persoon op; dat is een individueel goed."
+          "uitleg": "Een dijk en de straatverlichting gebruikt iedereen samen, net als het leger. Een brood en een fiets gebruikt één persoon; dat zijn individuele goederen."
         },
         {
           "type": "meerkeuze",
@@ -435,12 +437,14 @@
             "het dient om te produceren",
             "een machine is er een",
             "het gaat meestal jaren mee",
-            "het wordt meteen opgegeten"
+            "het wordt meteen opgegeten",
+            "een onderneming schrijft het af"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Daarom schrijft een onderneming het over meerdere jaren af."
         },
@@ -573,15 +577,14 @@
           "opties": [
             "elk punt geeft evenveel nut",
             "ze loopt dalend",
-            "ze snijdt geen andere curve",
+            "ze geldt voor één goed",
             "ze toont het budget"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het budget staat in de budgetlijn, niet in de indifferentiecurve."
+          "uitleg": "Elk punt op dezelfde curve geeft evenveel nut, en de curve loopt dalend over twee goederen samen: meer van het ene betekent minder van het andere. Het budget staat in de budgetlijn."
         },
         {
           "type": "meerkeuze",
@@ -636,12 +639,14 @@
             "zijn voorkeuren",
             "zijn budget",
             "de prijzen",
-            "de winst van de winkel"
+            "de winst van de winkel",
+            "het nut dat hij eraan heeft"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De voorkeuren zeggen wat hij wil, budget en prijzen wat hij kan."
         },
@@ -663,15 +668,14 @@
           "opties": [
             "het is het nut van de laatste eenheid",
             "het daalt bij meer eenheden",
-            "het kan nul worden",
+            "het stijgt bij elke eenheid",
             "het is altijd gelijk aan de prijs"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Wordt het nul, dan geeft een extra eenheid je niets meer."
+          "uitleg": "Het marginale nut is het nut van de laatste eenheid en het daalt bij meer eenheden; het kan zelfs nul worden. Gelijk aan de prijs is het niet."
         },
         {
           "type": "invultekst",
@@ -864,15 +868,14 @@
           "opties": [
             "de budgetlijn kantelt",
             "er kan minder van gekocht worden",
-            "het optimum verschuift",
+            "de indifferentiecurven verschuiven",
             "de voorkeuren veranderen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Zijn voorkeuren blijven dezelfde; enkel wat hij kan betalen verandert."
+          "uitleg": "De budgetlijn kantelt omdat hij van dat goed minder kan kopen, en het optimum schuift mee. Zijn voorkeuren en dus zijn indifferentiecurven blijven dezelfde."
         },
         {
           "type": "meerkeuze",
@@ -893,12 +896,14 @@
             "ze is de som van de individuele",
             "ze loopt ook dalend",
             "ze geldt voor de hele markt",
-            "ze geldt voor één persoon"
+            "ze geldt voor één persoon",
+            "ze ontstaat door horizontaal op te tellen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Eén persoon geeft de individuele vraagcurve."
         },
@@ -1032,12 +1037,14 @@
             "arbeid",
             "kapitaal",
             "natuur",
-            "de belasting"
+            "de belasting",
+            "ondernemerschap"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "En ondernemerschap. Belastingen zijn geen productiefactor."
         },
@@ -1093,15 +1100,14 @@
           "opties": [
             "een machine",
             "een bedrijfsgebouw",
-            "een vrachtwagen",
+            "een lening bij de bank",
             "een werknemer"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een werknemer hoort bij arbeid."
+          "uitleg": "Machines, gebouwen en voertuigen zijn kapitaalgoederen. Een werknemer hoort bij arbeid en een lening is geld, geen kapitaalgoed."
         },
         {
           "type": "meerkeuze",
@@ -1120,16 +1126,15 @@
           "vraag": "Wat is waar over de bedrijfskolom?",
           "opties": [
             "ze heeft meerdere schakels",
-            "elke schakel voegt waarde toe",
+            "elke schakel verkoopt aan de vorige",
             "ze begint bij de grondstof",
             "ze begint bij de consument"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "De consument staat aan het einde, niet aan het begin."
+          "uitleg": "De bedrijfskolom loopt van de grondstof naar de consument, langs schakels die elk waarde toevoegen en aan de volgende verkopen. De consument staat aan het einde, niet aan het begin."
         },
         {
           "type": "invultekst",
@@ -1261,12 +1266,14 @@
             "het aantal machines",
             "de grootte van het gebouw",
             "de beschikbare ruimte",
-            "het aantal werkers"
+            "het aantal werkers",
+            "de hoeveelheid grond"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het aantal werkers is net wat wel verandert."
         },
@@ -1322,15 +1329,14 @@
           "opties": [
             "ze stijgt eerst",
             "ze daalt daarna",
-            "ze kan onder nul gaan",
+            "ze blijft altijd boven nul",
             "ze stijgt altijd verder"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Eerst toenemende, dan afnemende meeropbrengsten."
+          "uitleg": "Eerst toenemende, dan afnemende meeropbrengsten: de curve stijgt eerst en daalt daarna, en ze kan zelfs onder nul gaan als er te veel werkers bij komen."
         },
         {
           "type": "meerkeuze",
@@ -1351,12 +1357,14 @@
             "de ruimte raakt vol",
             "de machines zijn bezet",
             "men zit elkaar in de weg",
-            "de werkers kunnen minder"
+            "de werkers kunnen minder",
+            "de vaste factoren groeien niet mee"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Niet omdat de nieuwe werkers slechter zijn, wel omdat de vaste factoren niet meegroeien."
         },
@@ -1489,15 +1497,14 @@
           "opties": [
             "de huur van het gebouw",
             "de verzekering",
-            "de afschrijving van een machine",
+            "het loon per gemaakt stuk",
             "de grondstoffen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Grondstoffen zijn variabel: meer stuks, meer grondstof."
+          "uitleg": "Huur en verzekering lopen door, ook bij nul productie, net als de afschrijving. Grondstoffen en een loon per stuk heb je enkel nodig als je produceert."
         },
         {
           "type": "meerkeuze",
@@ -1552,12 +1559,14 @@
             "de grondstoffen",
             "de verpakking",
             "de energie van de machine",
-            "de huur van de loods"
+            "de huur van de loods",
+            "het vervoer per levering"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De huur verandert niet met het aantal stuks."
         },
@@ -1579,15 +1588,14 @@
           "opties": [
             "ze start boven nul",
             "ze stijgt altijd",
-            "ze loopt parallel met de variabele kosten",
+            "ze loopt door de oorsprong",
             "ze daalt bij veel productie"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het verschil tussen de twee curven is precies de constante kost."
+          "uitleg": "De curve start boven nul, want de constante kosten zijn er ook bij nul stuks, en ze stijgt altijd. Het verschil met de curve van de variabele kosten is precies die constante kost."
         },
         {
           "type": "invultekst",
@@ -1719,12 +1727,14 @@
             "de gemiddelde constante kosten",
             "de gemiddelde variabele kosten",
             "de marginale kosten",
-            "de gemiddelde omzet"
+            "de gemiddelde omzet",
+            "de totale kosten"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De gemiddelde opbrengst hoort bij de opbrengsten, niet bij de kosten."
         },
@@ -1779,15 +1789,14 @@
           "opties": [
             "ze daalt eerst",
             "ze stijgt daarna",
-            "ze snijdt de gemiddelde kosten in hun minimum",
+            "ze snijdt de gemiddelde kosten in hun maximum",
             "ze loopt altijd vlak"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Ook zij heeft de vorm van een u, maar ze bereikt haar minimum eerder."
+          "uitleg": "Ook zij heeft de vorm van een u: ze daalt eerst en stijgt daarna, en ze snijdt de gemiddelde kosten precies in hun laagste punt."
         },
         {
           "type": "meerkeuze",
@@ -1808,12 +1817,14 @@
             "het bedrag blijft gelijk",
             "het aantal stuks stijgt",
             "de kost wordt verdeeld",
-            "de huur daalt mee"
+            "de huur daalt mee",
+            "het deel per stuk wordt kleiner"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De huur zelf verandert niet; enkel het deel per stuk wordt kleiner."
         },
@@ -1947,12 +1958,14 @@
             "de totale opbrengsten",
             "de gemiddelde opbrengsten",
             "de marginale opbrengsten",
-            "de marginale kosten"
+            "de marginale kosten",
+            "de omzet"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De marginale kosten horen bij de kosten."
         },
@@ -2008,15 +2021,14 @@
           "opties": [
             "de prijs ligt vast",
             "de gemiddelde opbrengst is de prijs",
-            "de marginale opbrengst is de prijs",
+            "de verkoper bepaalt zijn omzet vrij",
             "de verkoper kiest zijn prijs"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De verkoper is te klein om de marktprijs te beïnvloeden."
+          "uitleg": "De prijs ligt vast op de markt, dus zijn gemiddelde en zijn marginale opbrengst zijn beide gelijk aan die prijs. De verkoper is te klein om daar iets aan te veranderen."
         },
         {
           "type": "meerkeuze",
@@ -2035,16 +2047,15 @@
           "vraag": "Hoe vind je de optimale productiegrootte?",
           "opties": [
             "grafisch waar MO en MK snijden",
-            "rekenkundig met een tabel",
+            "door de hoogste prijs te vragen",
             "waar het verschil TO en TK het grootst is",
             "waar de omzet het hoogst is"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "De hoogste omzet is niet de hoogste winst: de kosten lopen mee op."
+          "uitleg": "Je zoekt het punt waar MO en MK snijden, grafisch of met een tabel, en dat is ook waar het verschil tussen TO en TK het grootst is. De hoogste omzet of de hoogste prijs is niet de hoogste winst."
         },
         {
           "type": "invultekst",
@@ -2176,12 +2187,14 @@
             "de marktprijs",
             "zijn marginale kosten",
             "zijn productiemogelijkheden",
-            "de voorkeur van de klant"
+            "de voorkeur van de klant",
+            "de prijzen van zijn grondstoffen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De voorkeuren van de klant zitten in de vraagcurve."
         },
@@ -2237,15 +2250,14 @@
           "opties": [
             "hij biedt minder aan bij dezelfde prijs",
             "zijn aanbodcurve schuift",
-            "zijn optimale productie daalt",
+            "zijn marginale opbrengst daalt",
             "de marktprijs stijgt vanzelf"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Eén producent met hogere kosten verandert de marktprijs niet."
+          "uitleg": "Bij hogere kosten snijden MO en MK vroeger, dus zakt zijn optimale productie en biedt hij bij dezelfde prijs minder aan: zijn aanbodcurve schuift. De marktprijs en zijn opbrengst per stuk veranderen daar niet door."
         },
         {
           "type": "meerkeuze",
@@ -2266,12 +2278,14 @@
             "ze stijgt",
             "ze komt uit de marginale kosten",
             "ze geldt per producent of per markt",
-            "ze toont de vraag van de klant"
+            "ze toont de vraag van de klant",
+            "ze ligt hoger bij hogere kosten"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De vraag van de klant staat in de vraagcurve."
         },
@@ -2404,12 +2418,14 @@
             "de aansprakelijkheid",
             "de administratie",
             "de fiscaliteit",
-            "de kleur van het logo"
+            "de kleur van het logo",
+            "de oprichtingsakte"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "En ook op de oprichtingsakte, het kapitaal en de overdraagbaarheid van de aandelen."
         },
@@ -2465,15 +2481,14 @@
           "opties": [
             "hij heeft eigen bezit",
             "hij kan zelf schulden hebben",
-            "hij blijft bestaan los van de oprichters",
+            "hij valt weg als een oprichter stopt",
             "hij kan niet voor de rechter komen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Hij kan net wel dagvaarden en gedagvaard worden."
+          "uitleg": "Een rechtspersoon heeft eigen bezit en eigen schulden en blijft bestaan los van zijn oprichters. Hij kan net wel dagvaarden en gedagvaard worden."
         },
         {
           "type": "meerkeuze",
@@ -2494,12 +2509,14 @@
             "één eigenaar",
             "onbeperkte aansprakelijkheid",
             "geen rechtspersoonlijkheid",
-            "een minimumkapitaal"
+            "een minimumkapitaal",
+            "de winst valt in de personenbelasting"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Er is geen kapitaal vereist om te starten."
         },
@@ -2631,15 +2648,14 @@
           "opties": [
             "een jaarrekening opmaken",
             "die neerleggen bij de Nationale Bank",
-            "vennootschapsbelasting betalen",
+            "het kapitaal verhogen",
             "het kapitaal uitbetalen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het kapitaal blijft in de vennootschap zitten."
+          "uitleg": "Een jaarrekening opmaken en neerleggen bij de Nationale Bank hoort er elk jaar bij, net als de vennootschapsbelasting. Het kapitaal blijft gewoon in de vennootschap zitten."
         },
         {
           "type": "meerkeuze",
@@ -2694,12 +2710,14 @@
             "beperkte aansprakelijkheid",
             "een eigen rechtspersoon",
             "makkelijker partners erbij",
-            "minder administratie"
+            "minder administratie",
+            "de zaak blijft bestaan na een overlijden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De administratie is juist zwaarder: dubbele boekhouding en jaarrekening."
         },
@@ -2721,15 +2739,14 @@
           "opties": [
             "het minimumkapitaal",
             "de overdraagbaarheid van de aandelen",
-            "de naam van de vorm",
+            "de vennootschapsbelasting",
             "de aansprakelijkheid van de aandeelhouders"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "In beide gevallen is de aansprakelijkheid beperkt tot de inbreng."
+          "uitleg": "Een nv heeft een minimumkapitaal en vrij overdraagbare aandelen, een bv niet. De aansprakelijkheid is bij beide beperkt tot de inbreng en beide betalen vennootschapsbelasting."
         },
         {
           "type": "invultekst",
@@ -2861,12 +2878,14 @@
             "de functionele organisatie",
             "de horizontale organisatie",
             "de lijnorganisatie",
-            "de alfabetische organisatie"
+            "de alfabetische organisatie",
+            "de lijnstaforganisatie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "En de lijnstaforganisatie. Alfabetisch bestaat niet als structuur."
         },
@@ -2922,15 +2941,14 @@
           "opties": [
             "de lijn beslist",
             "de staf adviseert",
-            "er is vakkennis beschikbaar",
+            "de lijn moet het advies volgen",
             "de staf geeft bevelen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Juist het niet-bevelen van de staf is het kenmerk van deze vorm."
+          "uitleg": "De lijn beslist en de staf adviseert met zijn vakkennis, maar de lijn is niet verplicht dat advies te volgen. Juist het niet-bevelen van de staf is het kenmerk van deze vorm."
         },
         {
           "type": "meerkeuze",
@@ -2951,12 +2969,14 @@
             "de grootte van de zaak",
             "de aard van het werk",
             "hoeveel specialisten nodig zijn",
-            "de kleur van het logo"
+            "de kleur van het logo",
+            "hoeveel niveaus je wil"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een kleine zaak heeft geen staf nodig, een fabriek met specialisten wel."
         },
@@ -3152,12 +3172,14 @@
             "wie leiding geeft aan wie",
             "welke afdelingen er zijn",
             "hoeveel niveaus er zijn",
-            "hoeveel winst er gemaakt wordt"
+            "hoeveel winst er gemaakt wordt",
+            "hoeveel mensen één chef onder zich heeft"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Cijfers staan in de jaarrekening, niet in het organogram."
         },
@@ -3179,15 +3201,14 @@
           "opties": [
             "beslissingen duren lang",
             "informatie raakt onderweg kwijt",
-            "medewerkers voelen zich ver van de top",
+            "er zijn te weinig leidinggevenden",
             "er is te weinig vakkennis"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Vakkennis is er juist veel; het probleem zit in de afstand."
+          "uitleg": "Met veel niveaus duren beslissingen lang, raakt informatie onderweg kwijt en voelen medewerkers zich ver van de top. Leidinggevenden zijn er juist veel, en vakkennis ook."
         },
         {
           "type": "invultekst",
@@ -3319,12 +3340,14 @@
             "aankoop en verkoop",
             "marketing",
             "expeditie en logistiek",
-            "de raad van bestuur"
+            "de raad van bestuur",
+            "administratie en boekhouding"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "En administratie en boekhouding, HR, IT en R&D. De raad van bestuur is geen afdeling."
         },
@@ -3380,15 +3403,14 @@
           "opties": [
             "personeel aanwerven",
             "opleidingen regelen",
-            "de loonadministratie opvolgen",
+            "de facturen boeken",
             "de voorraad beheren"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De instroom, de doorstroom en de uitstroom van het personeel."
+          "uitleg": "HR volgt de instroom, de doorstroom en de uitstroom van het personeel: aanwerven, opleiden en de loonadministratie. Facturen boeken en de voorraad beheren doen andere afdelingen."
         },
         {
           "type": "meerkeuze",
@@ -3409,12 +3431,14 @@
             "facturen boeken",
             "de btw-aangifte opmaken",
             "de jaarrekening voorbereiden",
-            "de vrachtwagens plannen"
+            "de vrachtwagens plannen",
+            "de betalingen opvolgen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het transport plannen is werk voor de logistiek."
         },
@@ -3547,15 +3571,14 @@
           "opties": [
             "de bestelbonnen",
             "de leverbonnen",
-            "de afspraken over de levertijd",
+            "de btw-aangifte",
             "de loonfiches"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Loonfiches lopen tussen HR en de boekhouding."
+          "uitleg": "Bestelbonnen en leverbonnen lopen tussen verkoop en logistiek, samen met de afspraken over de levertijd. Loonfiches en de btw-aangifte lopen langs HR en de boekhouding."
         },
         {
           "type": "meerkeuze",
@@ -3610,12 +3633,14 @@
             "de verkoop",
             "de logistiek",
             "de boekhouding",
-            "de afdeling R&D"
+            "de afdeling R&D",
+            "de administratie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "R&D werkt aan nieuwe producten, niet aan een losse verkoop."
         },
@@ -3637,15 +3662,14 @@
           "opties": [
             "welke functies vrij komen",
             "welke prestaties geleverd zijn",
-            "welke opleidingen nodig zijn",
+            "welke leveranciers er zijn",
             "welke klanten er zijn"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De klantenlijst is werk voor de verkoop."
+          "uitleg": "HR moet weten welke functies vrijkomen, welke prestaties geleverd zijn en welke opleidingen nodig zijn. De klanten- en de leverancierslijst zijn werk voor verkoop en aankoop."
         },
         {
           "type": "invultekst",
@@ -3777,12 +3801,14 @@
             "de functiebeschrijving",
             "het gevraagde opleidingsniveau",
             "het aanbod en de verloning",
-            "het rijksregisternummer"
+            "het rijksregisternummer",
+            "de gevraagde ervaring"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "En de vaardigheden, de attitudes, de kennis en de gevraagde ervaring."
         },
@@ -3838,15 +3864,14 @@
           "opties": [
             "je opleiding",
             "je werkervaring",
-            "je vaardigheden",
+            "je rijksregisternummer",
             "je rekeningnummer"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Je rekeningnummer geef je pas als je aangeworven bent."
+          "uitleg": "Je opleiding, je werkervaring en je vaardigheden horen in een cv. Je rekeningnummer en je rijksregisternummer geef je pas als je aangeworven bent."
         },
         {
           "type": "meerkeuze",
@@ -3867,12 +3892,14 @@
             "de vacature bekendmaken",
             "de kandidaten screenen",
             "gesprekken voeren",
-            "de loonfiche opmaken"
+            "de loonfiche opmaken",
+            "een keuze maken en die laten weten"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De loonfiche komt pas maanden later, als iemand al in dienst is."
         },
@@ -4005,15 +4032,14 @@
           "opties": [
             "op veiligheid",
             "op ergonomie",
-            "op hygiëne",
+            "op het uitzicht",
             "op de kleur van de muren"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Die drie samen bepalen of iemand er gezond kan werken."
+          "uitleg": "Veiligheid, ergonomie en hygiëne bepalen samen of iemand er gezond kan werken. Het uitzicht of de kleur van de muren staat daarbuiten."
         },
         {
           "type": "meerkeuze",
@@ -4068,12 +4094,14 @@
             "een regelbare stoel",
             "het scherm op ooghoogte",
             "genoeg ruimte voor je benen",
-            "zo weinig mogelijk licht"
+            "zo weinig mogelijk licht",
+            "genoeg licht om te werken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Te weinig licht is juist slecht voor je ogen."
         },
@@ -4095,15 +4123,14 @@
           "opties": [
             "een propere werktafel",
             "handen wassen waar nodig",
-            "afval meteen opruimen",
+            "de stoel laag zetten",
             "een hogere stoel zetten"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De stoel hoort bij de ergonomie."
+          "uitleg": "Een propere werktafel, handen wassen waar nodig en afval meteen opruimen horen bij de hygiëne. De stoel, hoog of laag, hoort bij de ergonomie."
         },
         {
           "type": "invultekst",
@@ -4234,15 +4261,14 @@
           "opties": [
             "op de duur",
             "op de omvang van de prestaties",
-            "op het soort werk",
+            "op het loon",
             "op de leeftijd van de werknemer"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De leeftijd bepaalt de soort overeenkomst niet."
+          "uitleg": "De vakfiche deelt in volgens de duur, de omvang van de prestaties en het soort werk. De leeftijd en het loon bepalen de soort overeenkomst niet."
         },
         {
           "type": "meerkeuze",
@@ -4297,12 +4323,14 @@
             "de identiteit van de partijen",
             "de begindatum",
             "het loon en de arbeidsduur",
-            "het rijbewijs van de chef"
+            "het rijbewijs van de chef",
+            "de functie van de werknemer"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "En de functie die de werknemer zal uitoefenen."
         },
@@ -4324,15 +4352,14 @@
           "opties": [
             "de DIMONA-aangifte",
             "de arbeidsongevallenverzekering",
-            "een arbeidsovereenkomst",
+            "een inschrijving bij de vakbond",
             "een factuur aan de RSZ"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De RSZ stuurt een afrekening van de bijdragen; je factureert haar niets."
+          "uitleg": "Een DIMONA-aangifte, een arbeidsongevallenverzekering en een arbeidsovereenkomst moeten in orde zijn. De RSZ stuurt een afrekening van de bijdragen, en lid worden van een vakbond is een vrije keuze van de werknemer."
         },
         {
           "type": "invultekst",
@@ -4464,12 +4491,14 @@
             "het werk zorgvuldig doen",
             "de instructies volgen",
             "geen zaken doorvertellen",
-            "het loon berekenen"
+            "het loon berekenen",
+            "op tijd komen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het loon berekenen is werk voor de werkgever of zijn sociaal secretariaat."
         },
@@ -4525,15 +4554,14 @@
           "opties": [
             "loon voor zijn werk",
             "jaarlijkse vakantie",
-            "een veilige werkplek",
+            "een vaste promotie na een jaar",
             "een eigen bedrijfswagen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een bedrijfswagen is een extra die in het contract moet staan, geen recht."
+          "uitleg": "Loon voor je werk, jaarlijkse vakantie en een veilige werkplek zijn rechten. Een bedrijfswagen of een promotie is een extra die in het contract moet staan."
         },
         {
           "type": "meerkeuze",
@@ -4554,12 +4582,14 @@
             "van onbepaalde duur",
             "van bepaalde duur",
             "voor een duidelijk werk",
-            "voor één klant"
+            "voor één klant",
+            "voor de vervanging van iemand"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Ook vervangingsovereenkomsten horen bij de indeling naar duur."
         },
@@ -4692,15 +4722,14 @@
           "opties": [
             "ziekte en ongeval",
             "zwangerschap en bevallingsverlof",
-            "jaarlijkse vakantie",
+            "een promotie bij een andere werkgever",
             "een promotie binnen de zaak"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "En klein verlet, verloren arbeidsuren, dwingende redenen en overmacht."
+          "uitleg": "Ziekte en ongeval, zwangerschap en bevallingsverlof en de jaarlijkse vakantie schorsen de overeenkomst, net als klein verlet, overmacht en dwingende redenen. Een promotie doet dat niet."
         },
         {
           "type": "meerkeuze",
@@ -4755,12 +4784,14 @@
             "de werknemer moet verwittigen",
             "er is gewaarborgd loon",
             "het contract blijft bestaan",
-            "de werkgever mag meteen ontslaan"
+            "de werkgever mag meteen ontslaan",
+            "een attest kan gevraagd worden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Ziekte is geen reden voor een ontslag op staande voet."
         },
@@ -4782,15 +4813,14 @@
           "opties": [
             "het is betaald",
             "het geldt voor een gebeurtenis",
-            "het duurt kort",
+            "het duurt een volle week",
             "het duurt maanden"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Meestal één tot enkele dagen, per gebeurtenis vastgelegd."
+          "uitleg": "Klein verlet is betaald verlof voor een bepaalde gebeurtenis en duurt meestal één tot enkele dagen, per gebeurtenis vastgelegd."
         },
         {
           "type": "invultekst",
@@ -4922,12 +4952,14 @@
             "de arbeidsduur en de uurregeling",
             "de ziekteregeling",
             "de regeling van de jaarlijkse vakantie",
-            "de omzet van vorig jaar"
+            "de omzet van vorig jaar",
+            "de sancties bij een overtreding"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Cijfers over de omzet horen in de jaarrekening."
         },
@@ -4983,15 +5015,14 @@
           "opties": [
             "de formaliteiten",
             "het begin en de duur van de termijn",
-            "de opzegvergoeding",
+            "de ziekteregeling",
             "de jaarlijkse vakantie"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Vakantie hoort bij de schorsing, niet bij het einde."
+          "uitleg": "De formaliteiten, het begin en de duur van de opzegtermijn en de opzegvergoeding horen bij het einde. Vakantie en ziekte horen bij de schorsing."
         },
         {
           "type": "meerkeuze",
@@ -5012,12 +5043,14 @@
             "de werkuren",
             "wanneer je vakantie kan nemen",
             "wat te doen bij ziekte",
-            "hoeveel winst de zaak maakt"
+            "hoeveel winst de zaak maakt",
+            "welke sancties er bestaan"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het reglement gaat over de afspraken, niet over de cijfers."
         },
@@ -5150,15 +5183,14 @@
           "opties": [
             "het brutoloon",
             "de RSZ-bijdrage",
-            "de bedrijfsvoorheffing",
+            "de omzet van de afdeling",
             "de omzet van de zaak"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "En het nettoloon, de gewerkte dagen en eventuele premies."
+          "uitleg": "Op een loonfiche staan het brutoloon, de RSZ-bijdrage, de bedrijfsvoorheffing en het nettoloon, met de gewerkte dagen en eventuele premies. Cijfers over de omzet staan er niet op."
         },
         {
           "type": "meerkeuze",
