@@ -1905,3 +1905,1138 @@ OEFENBUNDELS["oefenbundel-de-onderzoekscyclus-van-orienteren-tot-rapporteren-bey
              ]),
     ],
 )
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-ontwikkelingspsychologie-de-begrippen-en-de-drie-basisvragen-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Stel twee vragen na elkaar. Gaat het vanzelf of moet er geoefend worden? Gaat het "
+                   "vanzelf, wordt er dan iets groter (groei) of komt er iets nieuws bij (rijping)?",
+            waarom=[
+                "Let op de tanden: ze komen door volgens een ingebouwd plan, dus rijping. Dat ze ook "
+                "groeien, maakt het geen groei in de zin van de fiche.",
+                "Let op het brabbelen: dat leert een baby niemand aan, het komt vanzelf op zijn "
+                "moment. Daarom is het rijping en geen leren.",
+                "Noem beide delen: omvang tegenover nieuwe mogelijkheden. Groei is meer van hetzelfde, "
+                "rijping is iets nieuws dat kan.",
+            ],
+        ),
+        dict(
+            aanpak="Leer de fasen in hun orde en met hun leeftijden. Let erop dat de ontwikkeling na de "
+                   "adolescentie doorloopt: daarom zijn het negen fasen en geen vijf.",
+            waarom=[
+                "Let erop dat twee fasen twee namen hebben: vroege kindertijd of kleutertijd, en midden "
+                "kindertijd of lagere schoolkindfase. Beide namen zijn goed.",
+                None,
+                "Niet waar: de fasen lopen door tot in de late volwassenheid. Een mens ontwikkelt zijn "
+                "hele leven, en dat is net waarom Erikson acht fasen heeft en Freud vijf.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je af waarover het gaat: het lichaam, het denken, goed en kwaad, omgang met "
+                   "anderen en gevoelens, of wie iemand is.",
+            waarom=[
+                "Let op het verschil tussen de derde en de vierde: spieken afkeuren is een oordeel over "
+                "goed en kwaad, boosheid in woorden zeggen is omgaan met je gevoelens.",
+                "Let op het verschil tussen een strik maken (fysiek, je handen) en begrijpen dat water "
+                "hetzelfde blijft (cognitief). De eerste is motoriek, de tweede inzicht.",
+                "Noem beide domeinen en de richting, zoals het antwoord doet. Dat de domeinen in elkaar "
+                "werken, is de kern van deze vraag.",
+                "Noem alle drie de leeftijden apart. Dat bij de adolescent het eigen oordeel erbij komt, "
+                "is het verschil met het kind van tien.",
+            ],
+        ),
+        dict(
+            aanpak="Houd de drie vragen vast: verloopt ontwikkeling vloeiend of in sprongen, komt ze van "
+                   "de genen, de omgeving of de persoon zelf, en is ze overal gelijk of cultureel.",
+            waarom=[
+                "Let op plots en daarna een hele tijd niets: dat zijn sprongen, dus discontinu. Continu "
+                "zou een gelijkmatige lijn zijn.",
+                "Let op over de hele wereld en in dezelfde orde: dat wijst op universeel. Zou het van "
+                "land tot land verschillen, dan was het cultureel.",
+                "Let op de derde: zelf kiezen is zelfbepaling, en dat is het derde antwoord naast nature "
+                "en nurture. Precies daarom zet deze basisvraag drie dingen tegenover elkaar.",
+                None,
+                "Niet waar: er is een derde, de zelfbepaling. De persoon beslist ook zelf mee, en dat is "
+                "wat deze basisvraag van een gewone nature-nurture-vraag onderscheidt.",
+                "Noem de vraag en de kant, zoals het antwoord doet. Dat de leeftijd per samenleving "
+                "verschilt, is het bewijs voor de culturele kant.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-ontwikkeling-de-biologische-en-de-psychodynamische-benadering-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Houd de drie theorieën aan hun kern: overleven en doorgeven (Darwin), een vast plan "
+                   "van binnenuit (Gesell), en de omgeving die genen aan of uit zet (Waddington).",
+            waarom=[
+                "Let erop dat je bij elke theorie zowel de naam als de kern moet geven. De naam alleen "
+                "levert maar de helft van de punten op.",
+                "Let op de derde: stress die genen aan of uit zet, is epigenetica. De genen blijven "
+                "dezelfde, enkel of ze werken verandert.",
+                "Noem allebei met hun eigen plaats voor de omgeving. Dat ze een ander antwoord geven op "
+                "de basisvragen, is de kern.",
+                "Niet waar: bij epigenetica blijft het DNA zelf ongewijzigd. Enkel welke genen aan of "
+                "uit staan verandert, en dat is het hele punt van die theorie.",
+                "Noem de theorie en waarom de twee andere het moeilijk uitgelegd krijgen. Dezelfde genen "
+                "in een andere omgeving is precies het geval dat epigenetica beschrijft.",
+            ],
+        ),
+        dict(
+            aanpak="Zet Freud en Erikson in je hoofd naast elkaar in drie regels: hoe de theorie heet, "
+                   "hoeveel fasen ze heeft, en tot wanneer ze loopt.",
+            waarom=[
+                "Let op de aantallen: Freud heeft vijf fasen tot de adolescentie, Erikson acht tot in de "
+                "late volwassenheid. Die twee getallen zijn de makkelijkste punten van deze bundel.",
+                None,
+                "Let erop dat een fixatie bij Freud over blijven hangen gaat, niet over een gewoonte. Een "
+                "stuk van de persoon blijft in een vroegere fase steken.",
+                "Noem waarom een crisis bij Erikson gewoon is: het is een opdracht die bij die leeftijd "
+                "hoort. En noem de positieve pool als ze goed afloopt.",
+                "Let erop dat het bezwaar over het onderzoek gaat en niet over het aantal fasen. Wat je "
+                "niet kan meten, kan je niet nagaan, en zijn patiënten waren geen doorsnede.",
+            ],
+        ),
+        dict(
+            aanpak="Leg elke benadering naast de drie basisvragen. Werken ze met fasen, dan antwoorden "
+                   "ze discontinu; leggen ze de motor binnenin, dan kiezen ze eerder nature.",
+            waarom=[
+                "Let erop dat allebei met fasen werken, en wie met fasen werkt, antwoordt discontinu. Dat "
+                "is een vuistregel die je in dit hele thema kan gebruiken.",
+                "Noem het verschil in gewicht: bij Erikson spelen de mensen rond het kind en de "
+                "samenleving mee, bij Freud zit de motor binnenin.",
+                "Noem wat ze delen: het begin van de ontwikkeling ligt in het individu zelf. Dat geen van "
+                "de twee bij de omgeving begint, is de kern.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-ontwikkeling-de-behavioristische-en-de-cognitieve-benadering-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vul de vier begrippen in deze orde in: wat werkte al vanzelf, wat was eerst "
+                   "onbelangrijk, en wat is het geworden door het koppelen.",
+            waarom=[
+                "Let op het lampje: het staat twee keer in de tabel, één keer voor en één keer na het "
+                "koppelen. Daarom heet het eerst neutraal en daarna geconditioneerd.",
+                "Noem het koppelen en het aantal keren, zoals het antwoord doet. Eén keer samen is niet "
+                "genoeg.",
+                None,
+                "Niet waar: Little Albert is klassieke conditionering. Watson koppelde een geluid aan een "
+                "dier, en dat is koppelen van prikkels en geen belonen of straffen.",
+            ],
+        ),
+        dict(
+            aanpak="Werk altijd in twee stappen. Eerst: neemt het gedrag toe of af? Dan: komt er iets bij "
+                   "of gaat er iets weg? Nooit de woorden positief en negatief eerst.",
+            waarom=[
+                "Let op de derde: geen vaat meer, dus er gaat iets onaangenaams weg, en het gewenste "
+                "gedrag neemt toe. Dat is negatieve bekrachtiging en geen belofte van iets leuks.",
+                "Let op het verschil tussen de eerste en de derde: de muziek afzetten doet het roepen "
+                "afnemen (negatieve straf), de zeurtoon die stopt doet het gordel omdoen toenemen "
+                "(negatieve bekrachtiging). Dezelfde beweging, een ander doel.",
+                "Noem wat negatief hier betekent: wegnemen, niet onaangenaam. En noem het onderscheid dat "
+                "beslist: bekrachtiging doet gedrag toenemen, straf doet het afnemen.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Houd twee namen aan twee ideeën: Bandura leert door te kijken, Piaget werkt met vier "
+                   "stadia in een vaste orde.",
+            waarom=[
+                None,
+                "Noem wat er bij Bandura in het hoofd gebeurt: kijken, opslaan en later toepassen. Dat "
+                "een zuiver behaviorist dat buiten beschouwing laat, is het argument.",
+                "Let erop dat de orde van de stadia vast is, van de zintuigen naar het abstracte. Die "
+                "orde is zelf een deel van de theorie.",
+                "Let erop dat dit kind op de vorm van de beker gaat en niet op de hoeveelheid. Zulk "
+                "denken hoort bij het pre-operationele stadium.",
+                "Niet waar: bij Piaget doorloopt elk kind de stadia in dezelfde orde. Sneller kan, "
+                "overslaan niet.",
+            ],
+        ),
+        dict(
+            aanpak="Houd de drie onderdelen aan hun vraag: een eigen herinnering (episodisch), kennis "
+                   "van feiten (semantisch), of iets kunnen doen (procedureel).",
+            waarom=[
+                "Let erop dat de laatste twee allebei procedureel zijn: fietsen en een strik maken zijn "
+                "handelingen die je kan zonder uitleg.",
+                "Let op de orde: het sensorische vangt kort op, het kortetermijngeheugen houdt even vast, "
+                "het langetermijngeheugen bewaart. Drie stappen in één keten.",
+                "Noem de twee expliciete en de impliciete apart, en zeg wat het verschil betekent: "
+                "kunnen zeggen tegenover kunnen doen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-ontwikkeling-de-humanistische-en-de-systemische-benadering-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zet de lagen van Maslow in je hoofd van onder naar boven: eerst het lichaam, dan "
+                   "veiligheid, dan erbij horen, dan waardering, dan zelfontplooiing.",
+            waarom=[
+                "Let erop dat de tabel van boven naar onder loopt en de piramide van onder naar boven. "
+                "Lees dus eerst welke laag er staat voor je antwoordt.",
+                "Noem de orde als reden: wie honger heeft of zich onveilig voelt, komt niet aan de "
+                "hogere behoeften toe. En benoem wat het ontbijt en de structuur vullen.",
+                "Noem het bezwaar met een voorbeeld, zoals het antwoord doet. Dat mensen de orde soms "
+                "omkeren, is precies de kritiek.",
+                None,
+                "Let erop dat de drie houdingen van Rogers over de hulpverlener gaan en niet over de "
+                "cliënt: aanvaarden, echt zijn en meevoelen.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je af hoe ver de invloed van het kind af staat: waar het zelf in zit (micro), "
+                   "twee van die kringen die elkaar raken (meso), iets wat van buiten doorwerkt (exo), "
+                   "de waarden en wetten van een samenleving (macro), of de tijd (chrono).",
+            waarom=[
+                "Let op het verschil tussen micro en meso: het gezin en de klas zijn elk een "
+                "microsysteem, maar de juf die met de ouders belt is het contact tussen twee van die "
+                "kringen, dus meso.",
+                "Let op opgroeien met een smartphone: dat gaat over het tijdperk waarin je opgroeit, "
+                "dus het chronosysteem.",
+                None,
+                "Geef een voorbeeld dat door twee of drie systemen loopt, zoals het antwoord doet. Dat "
+                "één verandering ver van het kind toch bij het kind uitkomt, is de kern.",
+            ],
+        ),
+        dict(
+            aanpak="Houd de zones aan hun leerwinst: te makkelijk levert niets op, te moeilijk blokkeert, "
+                   "en daartussen zit de zone waar je met hulp wel verder komt.",
+            waarom=[
+                "Let erop dat de comfortzone en de angstzone allebei weinig opleveren, maar om een "
+                "andere reden: de ene is te makkelijk, de andere te moeilijk.",
+                None,
+                "Noem het beeld van de steiger volledig: hij staat er zolang hij nodig is en gaat weg "
+                "als het gebouw rechtstaat. Dat de hulp bedoeld is om te verdwijnen, is de kern.",
+                None,
+                "Let erop dat luidop tellen eerst samen gebeurt en daarna in het hoofd. Dat is wat "
+                "interiorisatie betekent: van buiten naar binnen.",
+                "Noem de naam van de theorie: de sociaal-culturele theorie. De naam zelf is het "
+                "antwoord op de vraag.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-prosociaal-gedrag-antisociaal-gedrag-en-sociale-cognitie-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Antwoord in twee delen, zoals de opdracht vraagt: eerst prosociaal of antisociaal, "
+                   "dan de vorm uit de lijst van de fiche. Enkel het eerste is een half antwoord.",
+            waarom=[
+                "Let op het verschil tussen vandalisme en agressie: vandalisme richt zich op spullen, "
+                "agressie op personen. Dat komt in de laatste oefening van deze reeks terug.",
+                "Let op de derde: de hele klas die door de les roept is ongepast groepsgedrag. Een "
+                "groep kan ook samen iets afbreken, en dat is de volgende vraag.",
+                "Noem wat het je leert: samen iets doen zegt op zich niets over goed of slecht. Het "
+                "gedrag zelf beslist.",
+                "Let erop dat het antwoord ja is. De fiche kijkt naar het gedrag en niet naar de reden "
+                "erachter, ook als er een eigen voordeel meespeelt.",
+                "Niet waar: het staat net omgekeerd. Vandalisme is gericht op spullen, agressie op "
+                "personen.",
+            ],
+        ),
+        dict(
+            aanpak="Houd de drie processen van de sociale cognitie vast, en bij attributie één vraag: "
+                   "legt iemand de oorzaak bij de persoon of bij de situatie?",
+            waarom=[
+                None,
+                "Noem de nuance: een attitude maakt gedrag waarschijnlijker maar beslist het niet. En "
+                "noem wat er nog meespeelt, zoals gewoonte en gemak.",
+                "Let op het verschil tussen de eerste en de tweede: onbeschoft is een eigenschap van de "
+                "persoon (intern), file is een omstandigheid (extern).",
+                "Noem de naam van de fout en wat er precies gebeurt: bij anderen de persoon, bij jezelf "
+                "de situatie. Dat dezelfde gebeurtenis twee verklaringen krijgt, is de kern.",
+            ],
+        ),
+        dict(
+            aanpak="Drie dimensies, drie vragen: binnen of buiten, blijvend of veranderlijk, en zelf iets "
+                   "aan te doen of niet. Lees een uitspraak en zoek welke vraag ze beantwoordt.",
+            waarom=[
+                "Let erop dat de drie dimensies samen gebruikt worden: één uitspraak kan op alle drie "
+                "een antwoord geven. Daarom vraagt de volgende oefening welke vooraan staat.",
+                "Let op de tweede: geluk ligt buiten de persoon, dus de locus van controle. De eerste "
+                "gaat over wat nooit verandert, dus de stabiliteit.",
+                "Let erop dat nog niet het sleutelwoord is van een growth mindset. Hetzelfde kunnen met "
+                "of zonder dat woordje maakt het hele verschil.",
+                "Noem twee dimensies met hun naam, zoals de vraag zegt: stabiel en oncontroleerbaar. Dat "
+                "is de brug tussen Dweck en Weiner.",
+                "Niet waar: iemand kan in het ene vak een growth mindset hebben en in het andere een "
+                "fixed. Een mindset hangt aan een domein en niet aan een persoon.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-cognitieve-dissonantie-en-processen-in-een-groep-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Drie manieren om dezelfde spanning weg te werken: je doen aanpassen, je denken "
+                   "aanpassen, of er een gedachte bij zetten die het goedmaakt.",
+            waarom=[
+                "Let op de derde: de opa die negentig werd verandert niets aan het roken en niets aan "
+                "de kennis. Er komt enkel een gedachte bij, en dat is een cognitie toevoegen.",
+                None,
+                "Noem welke en waarom: je gedrag veranderen is het moeilijkst. Daarom kiezen mensen "
+                "meestal een van de twee andere.",
+                "Let erop dat de drie situaties verschillen in wat eraan voorafging: een keuze, een ja "
+                "op een verzoek, of geleverde moeite. Zoek dus eerst wat de persoon al deed.",
+                "Noem beide delen: welke situatie het is en welke manier hij gebruikt. Dat hij cognities "
+                "toevoegt om de keuze goed te maken, is het antwoord.",
+            ],
+        ),
+        dict(
+            aanpak="Leer de vijf fasen in hun orde met hun twee namen. Het Engels helpt: forming, "
+                   "storming, norming, performing, adjourning rijmen op elkaar.",
+            waarom=[
+                "Let erop dat je zowel de Nederlandse als de Engelse naam moet geven. De orde is vast, "
+                "dus een fase op de verkeerde plaats kost punten.",
+                "Noem de naam van de fase en wat ze oplevert: zonder botsen komen de afspraken van de "
+                "normeringsfase er niet.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je af wat de groep met de persoon doet: beter of slechter presteren door "
+                   "publiek, minder inzet omdat het niet opvalt, of samen een slecht plan kiezen.",
+            waarom=[
+                "Let op het verschil tussen de eerste twee: dezelfde situatie, een gevorderde en een "
+                "beginner. Hoe goed de taak al zit, beslist welke kant het uitgaat.",
+                "Noem waar het van afhangt: hoe goed de taak al ingeoefend is. Eenvoudig of vertrouwd "
+                "wordt beter, moeilijk of nieuw wordt slechter.",
+                "Noem het onderscheid: inzet tegenover prestatie onder druk. Bij social loafing doe je "
+                "minder, bij sociale belemmering doe je je best en lukt het minder.",
+                None,
+                "Let erop dat de goede tegenzet het tegenspreken organiseert. Wachten tot iedereen "
+                "enthousiast is, is net de weg naar groepsdenken.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-sociale-beinvloeding-conformisme-inwilliging-en-gehoorzaamheid-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Stel de twee vragen uit de opdracht in deze orde. Vroeg niemand iets, dan is het "
+                   "conformisme. Vroeg iemand het wel: had hij gezag (gehoorzaamheid) of niet "
+                   "(inwilliging)?",
+            waarom=[
+                "Let op de eerste en de vierde: in beide gevallen vraagt niemand je iets en volg je "
+                "toch. Dat is precies conformisme.",
+                "Let op het verschil tussen de eerste en de tweede: de politie heeft gezag, een "
+                "verkoper niet. Dezelfde vraag, een ander niveau.",
+                None,
+                "Noem het onderscheid: bij conformisme is er geen verzoek, bij inwilliging wel. Daar "
+                "zit het hele verschil.",
+            ],
+        ),
+        dict(
+            aanpak="Eén vraag: weet je het zelf of niet? Wie het niet weet, volgt om te weten "
+                   "(informatief). Wie het wel weet en toch volgt, doet het om erbij te horen "
+                   "(normatief).",
+            waarom=[
+                "Let op de laatste twee: een onduidelijke situatie geeft informatief conformisme, een "
+                "duidelijke situatie normatief. Dat is precies het verschil tussen Sherif en Asch.",
+                "Noem beide kanten: bij informatief verandert je overtuiging, bij normatief vaak enkel "
+                "je gedrag. Dat je alleen nog het tegendeel denkt, is het beeld.",
+            ],
+        ),
+        dict(
+            aanpak="Houd per onderzoeker één woord vast: Sherif onduidelijk, Asch duidelijk, Darley en "
+                   "Latané de omstaanders.",
+            waarom=[
+                "Let erop dat de tabel je de brug geeft: de duidelijkheid van de situatie bepaalt welk "
+                "conformisme je ziet. Daarom horen die twee onderzoeken bij elkaar.",
+                "Noem beide delen: dat het puntje niet bewoog en wat er met de schattingen gebeurde. Dat "
+                "ze de groepsnorm ook alleen nog aanhielden, is het sterkste gegeven.",
+                None,
+                None,
+                "Noem het mechanisme: de verantwoordelijkheid wordt niet meer gespreid. Wie persoonlijk "
+                "aangewezen is, kan niet meer op een ander rekenen.",
+            ],
+        ),
+        dict(
+            aanpak="Vier technieken, vier bewegingen: klein beginnen en dan groot, groot beginnen en dan "
+                   "klein, de prijs verhogen als je al ja zei, of iets gratis bijgeven.",
+            waarom=[
+                "Let op het verschil tussen de eerste twee: voet-tussen-de-deur begint klein, "
+                "deur-in-het-gezicht begint overdreven groot. De richting verklapt de techniek.",
+                "Noem het mechanisme: wie één keer ja zei, ziet zichzelf als iemand die helpt, en nee "
+                "zeggen past daar niet meer bij. Dat is dissonantie vermijden.",
+                "Noem de andere reden: het tweede verzoek lijkt klein naast het eerste. Hier speelt het "
+                "contrast en niet het zelfbeeld.",
+            ],
+        ),
+        dict(
+            aanpak="Houd de twee onderzoeken aan hun onderwerp: bij Milgram een bevel van een "
+                   "gezagsfiguur, bij Zimbardo de rol die iemand krijgt.",
+            waarom=[
+                "Noem beide delen: wat hij onderzocht en dat er niemand echt geschokt werd. Dat een "
+                "groot deel toch doorging, is het eigenlijke resultaat.",
+                "Let op in de eerste plaats: bij Zimbardo gaat het om de rol van bewaker of gevangene, "
+                "niet om een bevel. Dat is het verschil met Milgram.",
+                "Niet waar: het onderzoek werd vroeger stilgelegd dan gepland, omdat het uit de hand "
+                "liep.",
+                "Noem beide delen: waarom de kritiek er is en wat het voor vandaag betekent. Vooraf "
+                "weten waarvoor je toestemt, is de kern.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-persoonlijkheid-wat-ze-is-en-hoe-een-brein-reageert-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vraag je af waarover het gegeven gaat: hoe iemand van kleins af reageert "
+                   "(temperament), wat hij wil (motivatie), hoe hij zichzelf ziet (zelfbeeld), of waartoe "
+                   "hij geneigd is (een trek).",
+            waarom=[
+                "Let op het verschil tussen temperament en een trek: temperament is de aangeboren "
+                "reactiesnelheid, een trek is een neiging over situaties heen. Van kleins af verklapt "
+                "het eerste.",
+                "Noem allebei met hun eigen kant: temperament is aangeboren, karakter groeit erbij. Dat "
+                "onderscheid is het antwoord.",
+                "Noem wat een trek is: een neiging tot gedrag en geen gedrag. Daarom kan ze bestaan "
+                "zonder dat ze op elk moment te zien is.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Houd twee dingen uit elkaar: dat de trekken in veel culturen terugkomen, en dat de "
+                   "waardering ervan verschilt. De fiche zegt allebei.",
+            waarom=[
+                "Noem beide helften van de uitkomst: de trekken komen overal terug, maar de score en de "
+                "waardering verschillen. Enkel het eerste noemen is een half antwoord.",
+                None,
+                "Noem het mechanisme: cultuur bepaalt mee welke eigenschappen gewaardeerd worden. Geef "
+                "beide kanten, zoals het antwoord doet.",
+                "Niet waar: cultuur komt bovenop de biologische kant en vervangt ze niet. De fiche zet "
+                "ze naast elkaar.",
+            ],
+        ),
+        dict(
+            aanpak="Houd de letters aan hun woord: de I van Inhibition remt, de A van Activation zet aan. "
+                   "Straf en gevaar horen bij de rem, beloning bij de aanzet.",
+            waarom=[
+                "Let erop dat de vier voorbeelden telkens per twee bij elkaar horen: eerst zien wat er "
+                "fout kan gaan en gevoelig zijn voor straf is de rem, recht op de beloning af en "
+                "risico nemen is de aanzet.",
+                None,
+                "Let erop dat het antwoord ja is: de twee systemen staan niet op één lijn. Wie beide "
+                "sterk heeft, wil er tegelijk naartoe en deinst terug.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Houd één idee vast: het brein zoekt een aangenaam middenniveau van prikkeling. Staat "
+                   "het al hoog, dan zoekt iemand rust; staat het laag, dan zoekt hij prikkels.",
+            waarom=[
+                None,
+                "Let erop dat de twee rijen tegengesteld zijn: hoge arousal in rust geeft het zoeken van "
+                "stilte, lage arousal het zoeken van drukte.",
+                "Noem de reden zoals Eysenck ze geeft: niet omdat hij graag onder mensen is, maar omdat "
+                "zijn brein te weinig geprikkeld is. Dat is het omgekeerde van wat je verwacht.",
+                "Noem beide kanten: dezelfde zaal, een ander beginniveau. Dat het brein en niet de zaal "
+                "verschilt, is de kern.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-persoonlijkheid-van-freud-over-bandura-naar-rogers-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Houd twee dingen gescheiden: de drie niveaus van bewustzijn (waar iets zit) en de "
+                   "drie instanties (wat er spreekt). Het examen vraagt ze vaak in één vraag.",
+            waarom=[
+                "Let op het verschil tussen het voorbewuste en het onbewuste: je adres kan je ophalen, "
+                "wat verdrongen is niet. Dat komt in de derde oefening terug.",
+                None,
+                "Noem beide delen: wat je wel kan ophalen en wat niet. En noem waar het onbewuste toch "
+                "opduikt: in dromen, verspreken en symptomen.",
+                "Let erop dat elk deel twee namen heeft en een eigen principe. Het Es wil nu en volledig, "
+                "het Ich kijkt naar wat haalbaar is, het Über-ich naar wat hoort.",
+                "Let erop dat je de stem aan het principe herkent: nu is het Es, straks is het Ich, dat "
+                "hoort niet is het Über-ich.",
+                "Let erop dat er twee driften zijn, niet één: de levensdrift en de doodsdrift. Beide "
+                "zitten volgens Freud in het Es.",
+            ],
+        ),
+        dict(
+            aanpak="Houd per naam één begrip vast: bij Bandura het wederzijds determinisme en de "
+                   "zelfeffectiviteit, bij Rotter de locus of control.",
+            waarom=[
+                None,
+                "Geef een voorbeeld waarin de drie aan elkaar trekken, zoals het antwoord doet. Dat de "
+                "beweging in beide richtingen loopt, is waarom het wederzijds heet.",
+                "Noem het kenmerk: zelfeffectiviteit is taakgebonden. En noem het verschil met zelfbeeld "
+                "en zelfwaarde, die over de hele persoon gaan.",
+                None,
+                "Noem het onderscheid: bij Weiner één attributie voor één voorval, bij Rotter een vaste "
+                "eigenschap van de persoon. Hetzelfde woord, een andere draagwijdte.",
+            ],
+        ),
+        dict(
+            aanpak="Houd de begrippen van Rogers aan hun paar: het actuele en het ideale zelf, en de "
+                   "afstand ertussen. Klein is congruentie, groot is incongruentie.",
+            waarom=[
+                None,
+                "Let erop dat congruentie en incongruentie over dezelfde afstand gaan, één keer klein en "
+                "één keer groot. Je hoeft dus maar één van de twee te kennen.",
+                "Let erop dat het antwoord nee is. Een doel hebben hoort bij groeien; de spanning komt "
+                "van een onbereikbaar ver beeld.",
+                "Noem het begrip: het fenomenale veld. Dat het gaat over de wereld zoals die persoon ze "
+                "beleeft, is de kern.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-persoonlijkheid-trekken-de-big-five-en-hexaco-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Houd de drie soorten aan hun bereik: een handvol eigenschappen die iemand typeren "
+                   "(centraal), één die zijn hele leven beheerst (cardinaal), en één die enkel in "
+                   "bepaalde situaties opduikt (secundair).",
+            waarom=[
+                "Let op de tweede: zenuwachtig worden van spreken voor een groep geldt enkel in die "
+                "situatie. Daarom is het secundair en geen centrale trek.",
+                "Niet waar: een cardinale trek is uitzonderlijk en de meeste mensen hebben er geen.",
+                "Noem beide delen: waarmee je de meeste mensen beschrijft, en waarom een cardinale trek "
+                "zeldzaam is.",
+            ],
+        ),
+        dict(
+            aanpak="Drie modellen op een rij: Eysenck heeft drie dimensies, Costa en McCrae vijf, "
+                   "HEXACO zes. Het verschil tussen de laatste twee is één factor.",
+            waarom=[
+                None,
+                "Let erop dat je de vijf zelf moet opschrijven: hier staat geen enkel woord voor. Leer "
+                "ze dus in een vaste orde, dan vergeet je er geen.",
+                "Noem waarom het één factor blijft: het is één lijn met twee uiteinden. Hoog is "
+                "stabiliteit, laag is neuroticisme.",
+                None,
+                None,
+                "Noem beide delen: wat de zesde factor voorspelt, en waarom vriendelijkheid dat niet "
+                "dekt. Iemand kan vriendelijk lijken en laag op integriteit scoren.",
+                "Let erop dat de X van eXtraversion binnen het woord staat en niet vooraan. Daarom is "
+                "HEXACO geen gewone rij beginletters.",
+            ],
+        ),
+        dict(
+            aanpak="Verbind elk begrip met de naam erachter. Wie de namen bij de modellen kent, heeft "
+                   "deze reeks gratis.",
+            waarom=[
+                "Let erop dat de vraag naar het model vraagt en niet naar de betekenis. Noem dus ook de "
+                "onderzoekers, zoals het antwoord doet.",
+                "Noem het verschil tussen een trek en een factor: een factor bundelt trekken die in "
+                "onderzoek samen bewegen. Daarom volstaan er vijf.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-opvoeden-milieus-dimensies-stijlen-en-middelen-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vraag je af wie opvoedt en of iemand het zo bedoelde: het gezin (primair), een "
+                   "plaats waar het kind naartoe gaat (secundair), of iets dat naar het kind toe komt "
+                   "zonder opvoedingsbedoeling (tertiair).",
+            waarom=[
+                "Let op de grootouders: ook zij horen bij het primaire milieu. Het gaat over het gezin "
+                "en de familie rond het kind, niet enkel over de ouders.",
+                "Noem het onderscheid met een voorbeeld van elk. Dat niemand het tertiaire milieu als "
+                "opvoeding bedoelde, is de kern.",
+                "Noem waarom het geen detail is: het kind stuurt de opvoeding mee. Dat opvoeden in twee "
+                "richtingen gaat, is het antwoord.",
+            ],
+        ),
+        dict(
+            aanpak="Drie dimensies, drie vragen. Stuurt het wat het kind doet (gedragsmatige controle), "
+                   "wat het kind voelt of denkt (psychologische controle), of gaat het in op wat het "
+                   "kind nodig heeft (responsiviteit)?",
+            waarom=[
+                "Let op de tweede: doe je mij verdriet werkt op schuldgevoel, dus psychologische "
+                "controle. Een uur afspreken is gedragsmatig.",
+                "Let op de tweede: niet meer praten tot je het toegeeft is het intrekken van liefde. "
+                "Dat is psychologische controle en geen regel.",
+                "Noem beide soorten met hun werking en hun uitkomst. Dat de ene het gedrag stuurt en de "
+                "andere de eigenwaarde raakt, is het antwoord.",
+            ],
+        ),
+        dict(
+            aanpak="De vier stijlen zijn alle combinaties van hoge of lage responsiviteit met hoge of "
+                   "lage controle. Zet die twee assen in je hoofd en de vier vakjes volgen.",
+            waarom=[
+                "Let erop dat enkel de democratisch-autoritatieve stijl op beide assen hoog staat, en "
+                "de onverschillige op beide laag. De twee andere hebben er één van de twee.",
+                None,
+                "Noem beide stijlen met hun twee scores. Dat autoritatief hoog staat op warmte én "
+                "controle, is wat haar van autoritair onderscheidt.",
+                "Noem waar het verschil zit: in de warmte. Allebei leggen ze niets op, maar de "
+                "permissieve opvoeder is er wel voor het kind.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Negen middelen, en ze zijn te herkennen aan wat de opvoeder doet: voordoen, "
+                   "herhalen, uitleggen, belonen, straffen, afleiden, negeren, aanmoedigen, grenzen "
+                   "stellen.",
+            waarom=[
+                "Let op het verschil tussen de eerste en de derde: zelf je gsm wegzetten is voordoen, "
+                "zeggen waarom je iets niet doet is uitleggen. Doen tegenover zeggen.",
+                "Let op het verschil tussen afleiden en negeren: bij afleiden breng je de aandacht naar "
+                "iets anders, bij een time-out haal je de aandacht juist weg.",
+                "Noem beide middelen met hun theorie en hun onderzoeker, zoals het antwoord doet. "
+                "Belonen en straffen bij Skinner, voorbeeldgedrag bij Bandura.",
+                "Noem de reden: bij een peuter komt uitleggen nog niet aan. Dat het bij jonge kinderen "
+                "vaak het werkzaamste middel is, is het antwoord.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-pedagogische-modellen-en-opvoeden-in-bijzondere-contexten-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Houd per visie één kernwoord vast: deugd bij Confucius, de rede bij Plato, kennis en "
+                   "geloof samen bij Al-Ghazali, de natuur van het kind bij Rousseau.",
+            waarom=[
+                "Let op Rousseau: het kind is geen kleine volwassene. Die ene zin is de makkelijkste "
+                "herkenning van de vier.",
+                "Let op het verschil tussen de twee hedendaagse visies: de ene vertrekt van de "
+                "behoeften van het kind, de andere van het gezag van de opvoeder.",
+                "Noem beide delen: dat de opvoeder niet toegeeft, en dat hij de machtsstrijd niet "
+                "aangaat en er niet alleen staat. Dat laatste is wat nieuw is.",
+            ],
+        ),
+        dict(
+            aanpak="Antwoord in twee delen, zoals de opdracht vraagt: eerst het niveau (micro, meso of "
+                   "macro), dan of het beschermt of een risico vormt.",
+            waarom=[
+                "Let op het verschil tussen micro en meso: thuis en de band met een ouder zijn micro, "
+                "de school en de leerkracht zijn meso.",
+                "Let op de laatste twee: allebei macro, en toch het ene beschermend en het andere een "
+                "risico. Het niveau zegt niets over de richting.",
+                "Noem waarom het geen voorspelling is: het gaat over kansen. En noem waarom de "
+                "beschermende factor er altijd naast staat.",
+            ],
+        ),
+        dict(
+            aanpak="Houd twee modellen uit elkaar: Bronfenbrenner werkt met vijf systemen rond het kind, "
+                   "het balansmodel met twee kanten van een weegschaal.",
+            waarom=[
+                "Let erop dat je beide delen moet geven: de naam en het aantal systemen. Dat zijn twee "
+                "losse punten.",
+                None,
+                "Noem het begrip: het gaat om de verhouding tussen last en kracht, niet om de last "
+                "alleen. Geef een voorbeeld van draagkracht, zoals familie die bijspringt.",
+                "Noem beide manieren en zeg welke vaak de enige is. Dat een ziekte of beperking niet "
+                "weggaat terwijl steun erbij kan komen, is de reden.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Vraag je af waar de moeilijkheid zit: op één schools domein (leerstoornis), in het "
+                   "functioneren breed (ontwikkelingsstoornis), in de zintuigen, of in meerdere dingen "
+                   "samen.",
+            waarom=[
+                "Let erop dat dyslexie en dyscalculie leerstoornissen zijn en ADHD en ASS "
+                "ontwikkelingsstoornissen. Die twee rijen worden het vaakst verwisseld.",
+                "Noem het onderscheid: één schools domein tegenover het functioneren breed. Dat is "
+                "precies het verschil tussen de eerste twee rijen hierboven.",
+                None,
+                "Noem de terreinen die meespelen: wonen, gezondheid, werk en onderwijs. Dat ze elkaar "
+                "vasthouden, is waarom kansarmoede moeilijk te doorbreken is.",
+            ],
+        ),
+        dict(
+            aanpak="Houd twee dingen vast: wat ortho betekent, en dat beide modellen naast de beperking "
+                   "kijken. Dat laatste is het antwoord op de slotvraag.",
+            waarom=[
+                None,
+                "Let erop dat de drie velden niets over de beperking zeggen: zelf beslissen, meedoen en "
+                "je goed voelen. Dat is de kern van de orthopedagogiek.",
+                "Let erop dat de scene de situatie is en de structuur het kader. Vier letters, vier "
+                "aanknopingspunten om aan te werken.",
+                "Noem waarom: een diagnose zegt wat moeilijk is en niets over wat een leven goed maakt. "
+                "Dat de modellen daarom andere vragen stellen, is het antwoord.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-communicatieve-vaardigheden-kaders-en-gesprekstechnieken-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Houd twee dingen vast: het aantal onderdelen van de basishouding, en het verschil "
+                   "tussen empathie en medelijden. Dat laatste komt in elk examen over dit thema terug.",
+            waarom=[
+                None,
+                None,
+                "Let op de toon: dat moet lastig zijn voor jou zet de ander in zijn eigen beleving, ach "
+                "arme jij kijkt op hem neer. Hetzelfde onderwerp, een andere houding.",
+                "Noem beide kanten: bij empathie begrijp je zonder weg te zakken, bij medelijden kijk "
+                "je neer of neem je het verdriet over. Dat het tweede niet helpt, is de kern.",
+            ],
+        ),
+        dict(
+            aanpak="Vier stappen, vier vragen: wat zag ik, wat voelde ik, wat heb ik nodig, wat vraag "
+                   "ik. Houd de orde, want ze is de kern van het model.",
+            waarom=[
+                "Let erop dat je in elk vakje een echte zin moet schrijven en niet enkel de vraag. De "
+                "stappen zijn makkelijk, de uitvoering is het werk.",
+                "Let op altijd en gewoon: zulke woorden maken van een waarneming een oordeel. Een "
+                "waarneming zegt enkel wat te zien of te horen was.",
+                "Noem de proef: een waarneming mag alleen zeggen wat een camera zou zien. En noem de "
+                "val: woorden als altijd en nooit.",
+                "Let erop dat emotioneel bij de vijf kenmerken staat. Geweldloos betekent dus niet "
+                "gevoelloos, en dat is de volgende vraag.",
+                "Niet waar: de vijf kenmerken zeggen juist direct en doeltreffend. Geweldloos gaat over "
+                "hoe je het zegt, niet over het afzwakken van wat je zegt.",
+            ],
+        ),
+        dict(
+            aanpak="Houd de namen aan hun kader: Rosenberg bij verbindend communiceren, Gordon bij de "
+                   "geen-verliesmethode.",
+            waarom=[
+                None,
+                "Noem beide delen: wat ze zoekt en wat eerst op tafel moet. Dat een behoefte iets "
+                "anders is dan een eis, is de kern.",
+            ],
+        ),
+        dict(
+            aanpak="LSD staat voor luisteren, samenvatten en doorvragen. Herken de techniek aan de "
+                   "woorden: dezelfde woorden (papegaaien), eigen woorden (parafraseren), een "
+                   "gevoelswoord (reflecteren), of een vraag (doorvragen).",
+            waarom=[
+                "Let op het verschil tussen papegaaien en parafraseren: het eerste herhaalt letterlijk, "
+                "het tweede zet het in je eigen woorden.",
+                "Noem het kenmerk waaraan je het ziet: een gevoelswoord. Dat is een proef die je snel "
+                "kan toepassen.",
+                None,
+                "Noem de reden: een gesloten vraag levert één woord op en legt het gesprek stil. Daarom "
+                "komen de open vragen eerst.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Zet de drie schema's naast elkaar: ze beginnen alle drie bij het feit en eindigen "
+                   "bij de vraag. Enkel de orde van gevoel en gevolg verschilt.",
+            waarom=[
+                "Let erop dat de twee schema's dezelfde delen hebben in een andere orde. Daarom vraagt "
+                "de volgende oefening wat je dan wel moet kennen.",
+                "Noem wat je wel moet kennen: uit welke delen elk schema bestaat. De orde van buiten "
+                "leren leidt enkel tot verwarring.",
+                None,
+                "Let erop dat je bij elk stuk moet zetten welk onderdeel het is. Vier onderdelen zonder "
+                "benoeming is een half antwoord.",
+                "Noem het patroon in drie stappen: eerst het feit, dan wat het met je doet, dan de "
+                "vraag. Dat alle drie zo opgebouwd zijn, is het antwoord.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-socialisatie-posities-rollen-en-vier-visies-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Houd de vier begrippen aan hun vraag: welke plaats (positie), wat men verwacht "
+                   "(rol), hoeveel aanzien (status), en wie kan bepalen wat anderen doen (macht).",
+            waarom=[
+                "Let op het verschil tussen de eerste twee: leerling is een positie, op tijd komen is "
+                "wat er bij die positie verwacht wordt, dus de rol.",
+                "Noem de twee woorden die de opdracht geeft: een positie heb je, een rol speel je. En "
+                "noem dat je verschillende posities tegelijk hebt.",
+                "Noem het begrip rolconflict en het probleem: twee posities vragen iets anders. Geef "
+                "beide verwachtingen, zoals het antwoord doet.",
+                "Noem een voorbeeld van elk, zoals het antwoord doet. Status is aanzien, macht is "
+                "kunnen bepalen, en die twee lopen niet altijd samen.",
+            ],
+        ),
+        dict(
+            aanpak="De drie vormen van socialisatie lopen gelijk met de drie opvoedingsmilieus: het "
+                   "gezin, de plaatsen waar je naartoe gaat, en wat naar je toe komt.",
+            waarom=[
+                "Let op de tweede en de vierde: een club en een nieuwe klas zijn allebei secundair. "
+                "Het gaat niet om de school alleen.",
+                "Noem waarom: de taal en de eerste regels krijg je daar mee, en daarmee ga je de andere "
+                "milieus binnen.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Houd per naam één kernwoord vast: de instituties bij Durkheim, de functies bij "
+                   "Parsons, de omgang en de taal bij Mead, de referentiegroep bij Merton.",
+            waarom=[
+                "Let op het verschil tussen Durkheim en Parsons: de eerste kijkt naar instituties die "
+                "er al zijn, de tweede naar de functie die elk onderdeel in het geheel heeft.",
+                None,
+                "Noem welke twee van de samenleving naar de mens kijken en welke omgekeerd. Dat die "
+                "richting het onderscheid maakt, is de kern.",
+                "Noem het mechanisme: jezelf leren kennen door de ogen van anderen. Dat spel het "
+                "oefenen van rollen is, is het antwoord.",
+                "Noem het begrip: de referentiegroep. Dat je je met een hogere groep vergelijkt, is "
+                "waarom het objectieve niet beslist.",
+                "Noem het onderscheid: de ingroup is de groep waar je bij hoort, de referentiegroep die "
+                "waaraan je je spiegelt. Ze kunnen samenvallen en hoeven niet.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-sociale-stratificatie-en-de-verklaringsmodellen-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zet de vier systemen op één lijn van gesloten naar open: bezit van een mens, "
+                   "geboorte met religieuze grond, wettelijke standen, en een plaats in het economisch "
+                   "leven.",
+            waarom=[
+                "Let op de laatste kolom: enkel bij de klassenmaatschappij staat er ja, en dan nog in "
+                "principe. Dat voorbehoud komt in een volgende bundel terug.",
+                "Noem beide verschillen: de religieuze grond bij een kaste, en de wettelijke rechten en "
+                "de beperkte beweging bij een stand.",
+                "Noem waar stratificatie zit: in de structuur van de samenleving. Dat het niet over "
+                "slimmer of harder werken gaat, is de kern.",
+                "Let erop dat je het Latijnse woord én zijn betekenis moet geven: stratum is laag. Het "
+                "woord zegt dus zelf waarover het gaat.",
+            ],
+        ),
+        dict(
+            aanpak="Antwoord in twee delen, zoals de opdracht vraagt: de naam en het perspectief. Vier "
+                   "van de vijf modellen zijn conflictsociologisch, enkel Davis en Moore niet.",
+            waarom=[
+                "Let erop dat de vier verschillen in waar de ongelijkheid zit: bezit bij Marx, drie "
+                "lijnen bij Weber, gezag bij Dahrendorf, drie soorten kapitaal bij Bourdieu.",
+                "Let erop dat dit het enige functionalistische model is. Het ziet ongelijkheid als "
+                "nuttig voor het geheel, en dat is wat functionalistisch betekent.",
+                "Noem beide delen: welk model het uitlegt en waarom Marx het niet kan. Een manager "
+                "zonder bezit valt bij Marx bij de arbeiders.",
+                "Noem wat Weber extra kan: rijk met weinig aanzien, of veel aanzien met weinig geld. "
+                "Drie lijnen tegenover één.",
+                "Let erop dat cultureel kapitaal geen geld is: de taal van de school en boeken thuis. "
+                "Dat het toch doorgegeven wordt, is de volgende vraag.",
+                "Noem het mechanisme: het ene kind kreeg de taal en de gewoonten van de school al mee. "
+                "Dat dit geen geld is en toch een voorsprong geeft, is de kern.",
+                "Noem er twee, zoals de vraag zegt: de best betaalde beroepen zijn niet de nuttigste, "
+                "en niet iedereen kiest vrij.",
+            ],
+        ),
+        dict(
+            aanpak="Houd twee rijtjes vast: waarop de EGP-indeling steunt, en uit welke drie gegevens de "
+                   "sociaal-economische status bestaat.",
+            waarom=[
+                None,
+                "Let erop dat het drie gegevens zijn en niet één: opleiding, beroep en inkomen. Daarom "
+                "is SES niet hetzelfde als loon, en dat is de volgende vraag.",
+                "Noem wat het leert: inkomen is er maar één van de drie. Dat dezelfde verdienste een "
+                "andere SES kan geven, volgt daaruit.",
+                "Noem waarmee SES samenhangt, zoals het antwoord doet. En noem het gevolg: wie ze niet "
+                "meeneemt, schrijft een verschil aan iets anders toe.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-sociale-mobiliteit-meritocratie-en-het-matheuseffect-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Twee paren, twee vragen. Gaat het omhoog of omlaag (verticaal) of blijft het op "
+                   "dezelfde hoogte (horizontaal)? En gaat het over één loopbaan (intra) of over twee "
+                   "generaties (inter)?",
+            waarom=[
+                "Let erop dat de laatste twee twee antwoorden vragen: één uit elk paar. De twee paren "
+                "staan los van elkaar, en dat is de laatste oefening van deze reeks.",
+                "Noem de betekenis van de twee voorvoegsels en wat ze hier aanduiden: binnen één "
+                "loopbaan tegenover tussen twee generaties.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Drie open vragen over de factoren. Antwoord telkens met de twee richtingen of de "
+                   "twee kanten erin, want daar zit het punt.",
+            waarom=[
+                "Noem het onderscheid: inkomen komt binnen, bezit staat er al. Dat bezit geërfd kan "
+                "worden en een buffer geeft, is waarom het apart staat.",
+                "Noem beide richtingen met een voorbeeld, zoals het antwoord doet. Dat dezelfde factor "
+                "op en neer kan werken, is de kern.",
+                "Noem het verschil met een voorbeeld: dezelfde gebeurtenis geeft op vijftig een ander "
+                "gevolg dan op vijfentwintig.",
+            ],
+        ),
+        dict(
+            aanpak="Houd twee dingen vast: dat onderwijs tegelijk optrekt en doorgeeft, en wat "
+                   "meritocratie betekent. De tabel vraagt drie argumenten aan elke kant.",
+            waarom=[
+                "Noem allebei, zoals het antwoord zelf waarschuwt: de weg naar boven én het doorgeven "
+                "van ongelijkheid. Eén van de twee is een half antwoord.",
+                "Let erop dat je het Latijnse woord én de betekenis moet geven: meritum is verdienste.",
+                "Let erop dat je drie argumenten aan elke kant moet geven. Leer ze per paar, dan "
+                "vergeet je er geen.",
+                "Noem het argument volledig: de ongelijkheid wordt iets dat je zelf verdiend hebt. "
+                "Daardoor is ze moeilijker aan te klagen.",
+            ],
+        ),
+        dict(
+            aanpak="Houd één idee vast: het matheüseffect gaat over wie een maatregel in de praktijk "
+                   "gebruikt, niet over wie er recht op heeft.",
+            waarom=[
+                "Noem de cirkel in beide richtingen: de positie verhoogt de kans op uitsluiting, en de "
+                "uitsluiting houdt de positie vast. Het netwerk is de schakel.",
+                "Let erop dat elke maatregel voor iedereen openstaat en toch vooral bij één groep "
+                "aankomt. Dat is precies het matheüseffect.",
+                "Noem het onderscheid: recht hebben tegenover weten te gebruiken. Dat een maatregel "
+                "voor iedereen minder herverdelend kan zijn dan ze lijkt, is het gevolg.",
+                "Let erop dat de naam uit het evangelie van Matteüs komt: wie heeft, zal nog meer "
+                "krijgen. Vandaar het ü in matheüseffect.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-mediatisering-en-de-functies-van-de-massamedia-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Eén proef voor mediatisering: gedraagt iets buiten de media zich naar de logica van "
+                   "de media? Veel kijken is geen mediatisering.",
+            waarom=[
+                "Let op de derde: twee uur televisie per avond is veel mediagebruik en geen "
+                "mediatisering. Niemand past er zijn werking aan.",
+                "Noem de logica van de media: kort, zichtbaar, met een beeld erbij. En noem dat andere "
+                "domeinen zich daarnaar gaan gedragen.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Vraag je af wat het programma met jou wil: je op de hoogte brengen, je iets leren, "
+                   "je bezighouden, je mening veranderen, of je iets verkopen.",
+            waarom=[
+                "Let op het verschil tussen de informatieve en de educatieve functie: het journaal "
+                "brengt je op de hoogte, een documentaire leert je iets bij.",
+                "Let op de mengvormen: infotainment mengt informatie met ontspanning, edutainment "
+                "leren met ontspanning. De namen zeggen het zelf.",
+                "Noem het onderscheid met een voorbeeld van elk: een mening veranderen tegenover iets "
+                "verkopen.",
+                "Noem alle drie met hun reden, zoals het antwoord doet. Dat één programma meerdere "
+                "functies kan hebben, is de kern.",
+            ],
+        ),
+        dict(
+            aanpak="Houd twee lijsten gescheiden: functies voor het individu en functies voor de "
+                   "samenleving. Lees dus altijd eerst voor wie de functie geldt.",
+            waarom=[
+                "Let op het verschil tussen de informerende en de onderzoeksfunctie: doorgeven wat er "
+                "is tegenover zelf opgraven wat verborgen lag. Dat komt verderop terug.",
+                "Let erop dat het vier functies zijn. Vergeet de sociale functie niet: die wordt het "
+                "vaakst overgeslagen.",
+                "Noem waarom het geen tegenspraak is: er zijn twee aparte lijsten. Voor wie de functie "
+                "geldt, beslist welke naam ze krijgt.",
+                "Noem het onderscheid: doorgeven tegenover zelf opgraven. Dat het tweede eigen werk van "
+                "de redactie vraagt, hoort erbij.",
+            ],
+        ),
+        dict(
+            aanpak="Leer de drie staatsmachten met hun taak, en houd vast dat de media de vierde macht "
+                   "heten maar geen staatsmacht zijn.",
+            waarom=[
+                None,
+                "Niet waar: de media zijn de vierde macht, maar geen staatsmacht. De drie staatsmachten "
+                "zijn de wetgevende, de uitvoerende en de rechterlijke.",
+                "Noem de reden: hun invloed komt juist van hun onafhankelijkheid. Wie ze bij de staat "
+                "rekent, laat de macht zichzelf controleren.",
+                "Noem de functie met haar naam: de controlerende of waakhondfunctie. Dat is de brug "
+                "tussen de vijf politieke functies en de vierde macht.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-mediatheorieen-beeldvorming-en-persvrijheid-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vijf theorieën op één lijn: van een publiek dat alles opneemt, over een publiek dat "
+                   "zelf kiest, naar media die de agenda zetten, het wereldbeeld vormen, en tot slot de "
+                   "hele samenleving sturen.",
+            waarom=[
+                "Let erop dat je ook de naam moet geven waar de fiche er een noemt: McCombs en Shaw bij "
+                "agendasetting, Gerbner bij cultivatie.",
+                None,
+                "Let erop dat het bij deze theorie vier namen zijn. Leer ze als een rijtje, want de "
+                "vraag komt zo op het examen.",
+                "Noem waarom ze belangrijk blijft: ze is het vertrekpunt waar de andere tegenin gaan. "
+                "Noem ook waarmee ze weerlegd wordt.",
+                "Noem de kantelvraag met haar twee antwoorden: een passief tegenover een actief publiek. "
+                "Dat is wat de twee theorieën scheidt.",
+                "Noem beide delen: welke theorie het is en wat de media hier niet bepalen. Dat laatste "
+                "is waarover de vraag gaat.",
+                "Noem het verschil in termijn: drie weken tegenover jaren. Dat één uitzending geen "
+                "wereldbeeld verandert, is de kern.",
+            ],
+        ),
+        dict(
+            aanpak="Houd de mechanismen aan hun plaats: in de boodschap (framing), in wat eraan "
+                   "voorafging (priming), in de keuze van wat het nieuws haalt (selectie), en in hoe we "
+                   "mensen indelen.",
+            waarom=[
+                "Let op het verschil tussen het selectieproces en de selectiecriteria: het proces is "
+                "dat er gekozen wordt, de criteria zijn waarop er gekozen wordt.",
+                "Let op het verschil tussen de twee: indelen is nog geen stereotyperen. Dat wordt het "
+                "pas als er vaste eigenschappen aan de groep hangen, en dat is de volgende vraag.",
+                "Noem waar elk van de twee zit: framing in de boodschap, priming in wat eraan "
+                "voorafging. Die plaatsbepaling is het antwoord.",
+                "Noem waar de grens ligt: bij het vastklikken van eigenschappen. En noem dat het "
+                "indelen zelf niet kwaadwillig is.",
+            ],
+        ),
+        dict(
+            aanpak="Houd de twee vrijheden uit elkaar: die van iedereen om zijn mening te uiten, en die "
+                   "van de pers om zonder voorafgaande controle te berichten.",
+            waarom=[
+                "Let op het onderscheid: de ene vrijheid is van iedereen, de andere van de pers. En let "
+                "op voorafgaande, want dat woord is de kern van deze bundel.",
+                "Noem beide redenen: zonder vrije informatie weet een burger niet waarover hij kiest, "
+                "en zonder vrije pers is er geen controle op de macht.",
+                "Let op de derde: een kritisch artikel over een minister is geen beperking maar precies "
+                "waarvoor de persvrijheid bestaat.",
+                "Noem het onderscheid tussen vooraf en achteraf. Geen toelating nodig vooraf, wel "
+                "verantwoording achteraf, bijvoorbeeld voor laster.",
+                "Noem er drie, zoals de vraag zegt: beslissen wat verschijnt, journalisten bedreigen of "
+                "opsluiten, en websites afsluiten.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-maatschappelijke-vraagstukken-en-de-redeneeractiviteiten-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Leer het aantal en de namen van de vraagstukken. Let op woorden die in dit vak twee "
+                   "betekenissen hebben, want daar wordt op getest.",
+            waarom=[
+                None,
+                "Let op rationalisering: het gaat over berekening en efficiëntie die gewoonten "
+                "vervangen, niet over redelijk zijn.",
+                "Noem beide betekenissen apart: verkeer tegenover stijgen en dalen op de sociale "
+                "ladder. Zelfde woord, een ander vraagstuk.",
+                "Geef twee voorbeelden waarin een berekening een gewoonte vervangt, zoals het antwoord "
+                "doet. Dat patroon is de kern van rationalisering.",
+            ],
+        ),
+        dict(
+            aanpak="Vijf invalshoeken, vijf vragen: wat kost het (economisch), wie wordt geraakt "
+                   "(sociaal), wat vindt men normaal (cultureel), wie beslist (politiek), wat staat in "
+                   "de wet (juridisch).",
+            waarom=[
+                "Let op het verschil tussen sociaal en cultureel: wie het eerst voelt is sociaal, wat "
+                "men vanzelfsprekend vindt is cultureel. Dat komt verderop terug.",
+                "Let op de eerste: een vonnis is juridisch, ook als het een regering tot iets dwingt. "
+                "Wie beslist is politiek, wat een rechter zegt is juridisch.",
+                "Noem allebei met hun eigen onderwerp: mensen en verhoudingen tegenover waarden en "
+                "gewoonten.",
+                "Noem het onderscheid: beslissen tegenover wat in de wet staat en wat een rechter "
+                "ermee doet.",
+            ],
+        ),
+        dict(
+            aanpak="Vier stappen in een vaste orde: wat is er aan de hand, waarom is het zo, wat zou "
+                   "kunnen helpen, en zou het werken. Beschrijven komt altijd eerst.",
+            waarom=[
+                "Let erop dat je bij elke stap drie dingen moet geven: de naam, de vraag en wat je "
+                "doet. Enkel de namen opsommen is een derde van het antwoord.",
+                "Let op het verschil tussen de eerste twee: een cijfer is beschrijven, doordat is "
+                "verklaren. Het woordje doordat verklapt de stap.",
+                "Noem de reden: in stap 3 mag je niets afkeuren. Wie meteen oordeelt, houdt twee saaie "
+                "ideeën over.",
+                "Noem beide delen: dat bij elke stap bewijs hoort, en waarom een mening geen stap kan "
+                "dragen. Dat ze niet na te kijken is, is de reden.",
+            ],
+        ),
+        dict(
+            aanpak="Vier criteria, vier vragen: kan het op tijd, is er genoeg, mag het, en houdt het "
+                   "stand. De laatste twee zijn de criteria die een snelle oplossing doen vallen.",
+            waarom=[
+                None,
+                "Noem beide criteria met hun reden, zoals het antwoord doet. Snel en goedkoop zegt niets "
+                "over mag het en houdt het stand.",
+                "Noem beide richtingen: werken zonder uitvoerbaar te zijn, en uitvoerbaar zonder iets "
+                "op te lossen. In stap 4 weeg je allebei.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-onderzoekscyclus-van-orienteren-tot-rapporteren-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vier fasen in een vaste orde: verkennen en je vraag stellen, kiezen hoe je het "
+                   "aanpakt, gegevens halen, en opschrijven. De vraag komt dus voor de methode.",
+            waarom=[
+                "Let erop dat je per fase ook moet zeggen wat je doet. De namen alleen zijn de helft "
+                "van de punten.",
+                None,
+                "Noem de reden: eerst weten wat je wil weten, dan hoe. Wie de methode eerst kiest, "
+                "buigt zijn vraag naar zijn methode.",
+                "Noem waarom het rond loopt: een besluit roept nieuwe vragen op. Dat rapporteren het "
+                "vertrekpunt is voor wie na jou komt, hoort erbij.",
+            ],
+        ),
+        dict(
+            aanpak="Loop de zes criteria af bij elke vraag: open, enkelvoudig, objectief, haalbaar, "
+                   "onderzoekbaar en relevant. Het eerste waarop ze faalt, is je antwoord.",
+            waarom=[
+                "Let op de derde: zo schadelijk zit het antwoord al in de vraag. Dat is niet objectief, "
+                "en dat is iets anders dan niet onderzoekbaar.",
+                "Let op het verschil: mag een kind een gsm hebben is een ethische vraag, dus niet "
+                "onderzoekbaar. De letters in een schoolnaam zijn te tellen maar leveren niets op.",
+                "Let erop dat je de vraag echt moet herschrijven en niet enkel moet zeggen wat er mis "
+                "is. Zet er een groep, een maat en een tijd in.",
+                "Noem het onderscheid: de ene veronderstelt al een antwoord, de andere kan met geen "
+                "enkel gegeven beslecht worden.",
+                "Noem het onderscheid: haalbaar gaat over jou en je middelen, onderzoekbaar over de "
+                "vraag zelf. Met onbeperkt geld blijft een ethische vraag onbeantwoordbaar.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Antwoord altijd met twee woorden, zoals de opdracht vraagt: waar de gegevens "
+                   "vandaan komen (desk of field) en wat voor gegevens het zijn (kwantitatief of "
+                   "kwalitatief).",
+            waarom=[
+                "Let op de laatste: bestaande interviews nalezen is deskresearch en toch kwalitatief. "
+                "Dat is de combinatie die het vaakst verkeerd gaat.",
+                "Noem waarom er vier combinaties zijn: de twee paren staan los van elkaar. Dat elke "
+                "combinatie bestaat, is de kern.",
+                "Noem van elk wat het levert en waarom men ze combineert: eerst gesprekken om te weten "
+                "wat er speelt, dan een enquête om te weten hoe vaak.",
+                "Noem de reden: eerst nagaan wat er al bestaat, spaart werk en scherpt je vraag aan.",
+            ],
+        ),
+        dict(
+            aanpak="Drie onderwerpen in deze reeks: zorgvuldig werken met mensen, eerlijk rapporteren, "
+                   "en het verschil tussen een verband en een oorzaak.",
+            waarom=[
+                "Noem er drie, zoals de vraag zegt: de steekproef, de vragen die niet mogen sturen, en "
+                "de toestemming en anonimiteit.",
+                "Noem waarom het je verslag sterker maakt: een lezer kan nagaan hoever je besluit "
+                "draagt. Navolgbaar is het sleutelwoord.",
+                "Noem beide delen: wat de fout is en wat de echte oorzaak is. Dat twee dingen die samen "
+                "bewegen beide door een derde veroorzaakt kunnen zijn, is de les.",
+                None,
+            ],
+        ),
+    ],
+)
