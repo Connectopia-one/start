@@ -710,3 +710,372 @@ OEFENBUNDELS["oefenbundel-wat-zie-je-aan-zee"] = dict(
                   "À gauche, il y a une tente verte. Le garçon sur le ponton pêche.", 6),
              ]),
     ])
+
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-woorden-voor-elke-dag"] = dict(
+    reeksen=[
+        dict(aanpak="Let op de drie die op elkaar lijken: cinq is 5, quinze is 15 en cinquante is 50. "
+                    "Lees ze luidop na elkaar, dan hoor je het verschil beter dan je het ziet.",
+             waarom=[
+                 "Vanaf 17 plakt het Frans twee getallen aan elkaar met een streepje: dix-sept is "
+                 "tien-zeven, dix-huit tien-acht, dix-neuf tien-negen.",
+                 None,
+                 None,
+                 None,
+                 "Quinze is 15 en cinq is 5, maar cinquante is 50 en quarante 40. De uitgang -ante "
+                 "maakt er een tiental van.",
+                 None,
+             ]),
+        dict(aanpak="Een kleur past zich aan het woord ervoor aan: bij een vrouwelijk woord komt er "
+                    "meestal een e bij (une voiture verte).",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Vert wordt verte bij een vrouwelijk woord, net zoals noir noire wordt. Bij rouge en "
+                 "jaune verandert er niets, want die eindigen al op een e.",
+             ]),
+        dict(aanpak="Zes van de zeven dagen eindigen op -di. Zeg ze in volgorde op, dan vind je de "
+                    "dag ervoor en erna bijna vanzelf.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Dimanche is de enige dag die niet op -di eindigt. In het Frans begint de week "
+                 "trouwens met lundi, dus dimanche staat achteraan.",
+                 None,
+             ]),
+        dict(aanpak="Maanden krijgen in het Frans géén hoofdletter, net zoals in het Nederlands. Dat is "
+                    "het verschil met het Engels.",
+             waarom=[
+                 None,
+                 None,
+                 "In het Engels is het January, in het Frans janvier met een kleine letter. Hetzelfde "
+                 "geldt voor de dagen.",
+                 None,
+                 "Été begint met een klinker, dus wordt le een l': l'été. Datzelfde gebeurt bij "
+                 "l'hiver en l'automne; alleen le printemps houdt zijn le.",
+             ]),
+        dict(aanpak="Drie woordjes die je elke dag nodig hebt. Hier helpt alleen herhalen.",
+             waarom=[None, None]),
+        dict(aanpak="Kijk naar het moment van de dag en naar wie er voor je staat: bonjour overdag, "
+                    "bonsoir 's avonds, en salut alleen bij mensen die je goed kent.",
+             waarom=[
+                 None,
+                 "Bonne nuit zeg je enkel bij het slapengaan. Kom je 's avonds ergens aan, dan is het "
+                 "bonsoir.",
+                 None,
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-mezelf-voorstellen"] = dict(
+    reeksen=[
+        dict(aanpak="Het Frans zegt dat je jaren hébt, niet dat je jaren bént: j'ai dix ans. En bij "
+                    "s'appeler verandert het woordje voor het werkwoord mee: je m'appelle, tu "
+                    "t'appelles.",
+             waarom=[
+                 "Me wordt m' voor een klinker: je m'appelle. Dat gebeurt in het Frans telkens als twee "
+                 "klinkers tegen elkaar botsen.",
+                 None,
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Habiter is wonen, venir de is komen uit. Vraag je dus af of het over nu gaat "
+                    "(waar je woont) of over je herkomst.",
+             waarom=[
+                 "Bij een stad hoort à: j'habite à Genk. Bij een land is het en of au: j'habite en "
+                 "Belgique.",
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Mon, ma of mes hangt af van het woord dat erna komt: mon bij een mannelijk woord, "
+                    "ma bij een vrouwelijk, mes bij een meervoud.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Père is mannelijk, dus mon père. Zou het ma zijn, dan moest het woord erna vrouwelijk "
+                 "zijn, zoals ma mère.",
+                 None,
+             ]),
+        dict(aanpak="Tu is vertrouwd, vous is beleefd. Bij twijfel neem je vous: te beleefd zijn is in "
+                    "het Frans nooit een fout.",
+             waarom=[
+                 None,
+                 "Tegen de mama van een vriend hoort bonjour madame en vous. Salut en ça va zijn voor "
+                 "leeftijdsgenoten.",
+                 None,
+             ]),
+        dict(aanpak="Deze zinnetjes zeg je elke dag. Leer ze als één geheel, niet woord voor woord.",
+             waarom=[
+                 None,
+                 None,
+                 "Een jongen schrijft enchanté, een meisje enchantée met een extra e. Je hoort geen "
+                 "verschil, je ziet het alleen.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-etre-en-avoir"] = dict(
+    reeksen=[
+        dict(aanpak="Deze twee rijtjes zijn de basis van alles wat daarna komt. Schrijf ze een paar "
+                    "keer uit het hoofd op, en kijk pas daarna na.",
+             waarom=[None, None, None]),
+        dict(aanpak="Vraag je af of het om een toestand gaat (être: moe, lief, Belg) of om iets dat je "
+                    "hebt (avoir: honger, dorst, koud, gelijk, een leeftijd). Het Nederlands zegt hier "
+                    "soms zijn waar het Frans avoir gebruikt.",
+             waarom=[
+                 "Ik heb het warm is j'ai chaud, met avoir. Het Frans ziet warmte als iets dat je hebt, "
+                 "niet als iets dat je bent.",
+                 None,
+                 None,
+                 "Je suis froid betekent dat jij als persoon koud of kil bent. Wil je zeggen dat je het "
+                 "koud hebt, dan is het j'ai froid.",
+                 None,
+             ]),
+        dict(aanpak="Sont en ont schelen één letter maar betekenen iets heel anders: sont is zijn, ont "
+                    "is hebben. Lees deze reeks traag.",
+             waarom=[
+                 "Ils sont is zij zijn, ils ont is zij hebben. Eén letter verschil, en de zin betekent "
+                 "iets anders.",
+                 None,
+                 None,
+                 None,
+                 "Tu es schrijf je zonder t, il est met een t. Je hoort het verschil niet, dus hier "
+                 "helpt alleen kijken.",
+             ]),
+        dict(aanpak="Zoek eerst wie er iets doet, kies dan de vorm, en schrijf pas daarna de hele zin "
+                    "op.",
+             waarom=[None, None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-tegenwoordige-tijd"] = dict(
+    reeksen=[
+        dict(aanpak="Haal de -er van het hele werkwoord en plak er de uitgang van de persoon aan: -e, "
+                    "-es, -e, -ons, -ez, -ent. Die uitgangen zijn voor élk werkwoord op -er dezelfde.",
+             waarom=[
+                 None,
+                 None,
+                 "Je krijgt -e, tu krijgt -es, nous krijgt -ons en vous krijgt -ez. Je parlons en je "
+                 "parlez horen dus bij een andere persoon.",
+                 "Je hoort -e, -es en -ent niet: je parle, tu parles en ils parlent klinken hetzelfde. "
+                 "Daarom moet je bij het schrijven kijken wie er vooraan staat.",
+             ]),
+        dict(aanpak="Aller is onregelmatig: je vais, tu vas, il va, nous allons, vous allez, ils vont. "
+                    "Die vormen moet je gewoon kennen.",
+             waarom=[
+                 None,
+                 None,
+                 "Aller plus een werkwoord is de naaste toekomst: je vais manger betekent ik ga eten, "
+                 "dus straks. Ik eet nu is je mange.",
+                 None,
+             ]),
+        dict(aanpak="Faire is ook onregelmatig, en de twee vormen die het vaakst fout gaan zijn vous "
+                    "faites en ils font.",
+             waarom=[
+                 None,
+                 None,
+                 "Vous faites en ils font zijn de twee die er niet uitzien zoals de rest. Vous faisez "
+                 "bestaat niet.",
+                 None,
+             ]),
+        dict(aanpak="Over het weer zegt het Frans il fait: il fait froid, il fait beau. Letterlijk "
+                    "vertalen met être werkt hier niet.",
+             waarom=[
+                 None,
+                 "Il est froid zou betekenen dat een ding koud is. Over het weer zeg je il fait froid.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-zinnen-bouwen"] = dict(
+    reeksen=[
+        dict(aanpak="Le hoort bij een mannelijk woord, la bij een vrouwelijk, les bij een meervoud, en "
+                    "voor een klinker worden le en la allebei l'.",
+             waarom=[
+                 "École en ami beginnen met een klinker, dus l'école en l'ami. Je ziet dan niet meer of "
+                 "het woord mannelijk of vrouwelijk is; dat moet je erbij leren.",
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Een ontkenning in het Frans heeft twee delen: ne vóór het werkwoord en pas erna. "
+                    "Beide moeten er staan.",
+             waarom=[
+                 None,
+                 "Na een ontkenning wordt un, une of des meestal de: j'ai un chien wordt je n'ai pas de "
+                 "chien.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Met est-ce que maak je van elke zin een vraag, zonder iets anders te veranderen. "
+                    "En let op de spatie vóór het vraagteken: die hoort er in het Frans bij.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="In het Frans komt het bijvoeglijk naamwoord meestal áchter het woord (un chien "
+                    "noir). Een handvol korte woorden zoals petit en grand gaat ervoor.",
+             waarom=[
+                 None,
+                 "Voiture is vrouwelijk, dus une, en de kleur komt erachter: une voiture rouge. Rouge "
+                 "eindigt al op een e en verandert verder niet.",
+                 "Alles gaat mee in het meervoud: les petites filles krijgt een s bij het lidwoord, bij "
+                 "het bijvoeglijk naamwoord én bij het zelfstandig naamwoord.",
+                 None,
+             ]),
+        dict(aanpak="Et verbindt, ou laat kiezen, en mais zet twee dingen tegenover elkaar.",
+             waarom=[None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-op-school-en-onderweg"] = dict(
+    reeksen=[
+        dict(aanpak="Leer elk woord meteen met zijn un of une erbij. Het lidwoord onthouden is later "
+                    "veel moeilijker dan het nu mee te leren.",
+             waarom=[
+                 None,
+                 "Un crayon is een potlood, un stylo een balpen. Alleen een potlood kan je uitgommen.",
+                 None,
+             ]),
+        dict(aanpak="Dit zijn de zinnen die in de klas vallen. Zeg ze luidop, dan herken je ze ook als "
+                    "de leerkracht ze gebruikt.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Let goed op à droite en tout droit: die twee lijken op elkaar maar sturen je een "
+                    "andere kant uit.",
+             waarom=[
+                 "À droite is naar rechts, tout droit is rechtdoor. Het verschil zit in het kleine "
+                 "woordje ervoor.",
+                 None,
+                 None,
+                 "La gare is het station, un garage is de garage. Ze lijken op elkaar, maar het is niet "
+                 "dezelfde plaats.",
+             ]),
+        dict(aanpak="Denk aan wat je in de winkel komt doen: kopen of lenen? Dat is hier het hele "
+                    "verschil.",
+             waarom=[
+                 "Une librairie is een boekenwinkel, une bibliothèque een bibliotheek. Het Franse woord "
+                 "lijkt op library in het Engels, en dat is net de valstrik.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Op iets waar je op zit, gebruikt het Frans à (à vélo, à pied). In iets waar je in "
+                    "zit, is het en (en bus, en voiture).",
+             waarom=[None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-een-tekstje-lezen"] = dict(
+    reeksen=[
+        dict(aanpak="Lees de tekst eerst helemaal, zonder op elk woord te blijven hangen. Je moet niet "
+                    "elk woord kennen om te begrijpen waar het over gaat.",
+             waarom=[]),
+        dict(aanpak="Zoek bij elke vraag de zin in de tekst waar het antwoord in staat, en lees die "
+                    "traag opnieuw. Staat iets er niet, dan is dat ook een antwoord.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 None,
+                 "Dat staat nergens in de tekst. Wat er niet staat, mag je er niet bij denken, hoe "
+                 "logisch het ook lijkt.",
+                 None,
+                 None,
+                 None,
+                 "De titel moet over het hele verhaaltje gaan, niet over één zin eruit. De apotheek en "
+                 "de school komen wel voor, maar dragen het verhaal niet.",
+             ]),
+        dict(aanpak="Deze woorden staan in de tekst. Zoek ze daar terug: in een zin onthoud je een "
+                    "woord veel beter dan los in een lijst.",
+             waarom=[None, None, None]),
+        dict(aanpak="Schrijf korte zinnen met woorden die je zeker kent. Drie eenvoudige zinnen die "
+                    "kloppen zijn beter dan één lange zin vol twijfel.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-wat-zie-je-op-de-prent"] = dict(
+    reeksen=[
+        dict(aanpak="Kijk eerst rustig naar de hele prent voor je begint. Overloop ze daarna in stukken: "
+                    "links, in het midden, rechts, boven en onder.",
+             waarom=[]),
+        dict(aanpak="Leer elk woord met un of une erbij, en zoek het telkens ook echt op de prent. Zo "
+                    "hang je het woord aan een beeld in plaats van aan een vertaling.",
+             waarom=[None, None, None]),
+        dict(aanpak="Zeg altijd eerst wáár iets staat en dan pas wat het is: à gauche, il y a un arbre. "
+                    "Zo bouw je in het Frans een beschrijving op.",
+             waarom=[None, None, None]),
+        dict(aanpak="Tel op de prent zelf, niet uit je hoofd. En let bij une vache op de e: un wordt "
+                    "une bij een vrouwelijk woord, ook als het om het getal één gaat.",
+             waarom=[
+                 "Une vache en un lapin: het getal één past zich aan het woord aan, net als het "
+                 "lidwoord. Bij trois oiseaux verandert er niets meer.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Staat het erop, dan il y a. Staat het er niet, dan il n'y a pas de, met de in "
+                    "plaats van un of une.",
+             waarom=[
+                 "Na een ontkenning wordt un of une altijd de: il y a un chien wordt il n'y a pas de "
+                 "chien.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Begin elke zin met een plaats, dan il y a, en dan pas het ding. Dat is het patroon "
+                    "van de hele bundel.",
+             waarom=[None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-wat-zie-je-aan-zee"] = dict(
+    reeksen=[
+        dict(aanpak="Kijk eerst rustig naar de hele prent voor je begint. Overloop ze daarna in stukken: "
+                    "links, in het midden, rechts, boven en onder.",
+             waarom=[]),
+        dict(aanpak="Leer elk woord met un of une erbij, en zoek het telkens ook echt op de prent. Zo "
+                    "hang je het woord aan een beeld in plaats van aan een vertaling.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Kijk wie wat doet, en schrijf het als een hele zin: il pêche, elle ramasse. Het "
+                    "werkwoord past zich aan die ene persoon aan.",
+             waarom=[
+                 None,
+                 "Une casquette is een pet met een klep, un chapeau een hoed met een rand, un casque "
+                 "een helm. Die drie worden vaak verwisseld.",
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Zeg eerst wáár iets staat en dan pas wat het is. En let bij de kleur op de e: bij "
+                    "een vrouwelijk woord krijgt ze er meestal een bij.",
+             waarom=[
+                 None,
+                 "La tente is vrouwelijk, dus verte met een e. Le seau is mannelijk, en rouge eindigt "
+                 "al op een e en verandert niet.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Staat het erop, dan il y a. Staat het er niet, dan il n'y a pas de, met de in "
+                    "plaats van un, une of des.",
+             waarom=[
+                 "Na een ontkenning wordt un, une of des altijd de: il y a une voiture wordt il n'y a "
+                 "pas de voiture.",
+                 None,
+             ]),
+        dict(aanpak="Begin met waar het is, zeg dan wat je ziet, en eindig met wat de mensen doen. Vier "
+                    "korte zinnen die kloppen, zijn beter dan één lange.",
+             waarom=[None]),
+    ],
+)
