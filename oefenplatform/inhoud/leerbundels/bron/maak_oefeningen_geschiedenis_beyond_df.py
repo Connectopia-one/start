@@ -48,7 +48,7 @@ OEFENBUNDELS["oefenbundel-het-historisch-referentiekader-tijd-ruimte-en-domeinen
                  ("rij", [("de val van het West-Romeinse Rijk", "het einde van de klassieke oudheid"),
                           ("de eerste boekdruk met losse letters in Europa", "de vroegmoderne tijd"),
                           ("de val van de Berlijnse Muur", "de hedendaagse tijd")], "Welke periode?", WL),
-                 ("rij", [("de Franse Revolutie", "het einde van de moderne tijd"),
+                 ("rij", [("de Franse Revolutie", "het einde van de vroegmoderne tijd"),
                           ("de bouw van de piramides van Gizeh", "het oude nabije oosten"),
                           ("de stichting van de steden in Vlaanderen", "de middeleeuwen")],
                   "Welke periode?", WL),
@@ -1459,5 +1459,1359 @@ OEFENBUNDELS["oefenbundel-beeldvorming-standplaatsgebondenheid-en-betekenisgevin
                   "die opnieuw werken: hoe propaganda werkt, hoe een crisis een samenleving splijt, hoe "
                   "rechten verworven en weer verloren raken.", 6),
              ]),
+    ],
+)
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-het-historisch-referentiekader-tijd-ruimte-en-domeinen-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zoek bij elke gebeurtenis een jaartal dat je kent en kijk tussen welke twee "
+                   "scharnierpunten het valt. De vroegmoderne tijd loopt van ongeveer 1500 tot 1789 "
+                   "of 1815, de moderne tijd daarna tot 1945.",
+            waarom=[
+                "Let op de boekdruk met losse letters: rond 1450, dus aan het begin van de "
+                "vroegmoderne tijd. Dat is zelf een van de scharnierpunten.",
+                "Let op de Franse Revolutie: 1789 is het einde van de vroegmoderne tijd en het begin "
+                "van de moderne tijd. Hetzelfde jaartal sluit de ene periode af en opent de andere.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je af of het begrip iets zegt over wanneer of over waar. Woorden op -aal "
+                   "gaan bijna altijd over de ruimte.",
+            waarom=[
+                "Let op generatie: dat is een stuk tijd gemeten in mensenlevens, dus tijd. Urbaan "
+                "betekent in de stad en lokaal ter plaatse, dus beide ruimte.",
+            ],
+        ),
+        dict(
+            aanpak="De vier domeinen zijn het politieke, het economische, het sociale en het "
+                   "culturele. Zoek waar de kern van de gebeurtenis zit, niet alles wat ze raakt.",
+            waarom=[
+                "Let op het verschil tussen de spoorlijn en de vakbonden: een spoorlijn is in de "
+                "eerste plaats economisch, een vakbond sociaal, ook al hebben beide ook politieke "
+                "gevolgen.",
+            ],
+        ),
+        dict(
+            aanpak="Eén vraag beslist: blijft iets hetzelfde of wordt het anders. Woorden als "
+                   "eeuwenlang en zonder onderbreking wijzen op continuïteit, verdubbelt en "
+                   "verdwijnt op verandering.",
+            waarom=[
+                None,
+                None,
+                None,
+                "Let op dat continuïteit niet betekent dat niets veranderde. Het Nederlands van 1600 "
+                "klinkt heel anders dan dat van nu, en toch bleef het de taal van het dagelijks "
+                "leven.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over één idee: een periodisering maken historici achteraf, en "
+                   "ze is altijd een keuze. Vraag je bij elke af of ze dat respecteert.",
+            waarom=[
+                None,
+                None,
+                "Niet waar: onze zeven periodes zijn vanuit Europa gemaakt. Voor China of de "
+                "Islamwereld gebruikt men andere indelingen, en die zijn niet minder juist.",
+                None,
+                "Niet waar: de vier domeinen beïnvloeden elkaar voortdurend. Een economische crisis "
+                "verandert de politiek, en een wet verandert het sociale leven.",
+            ],
+        ),
+        dict(
+            aanpak="Deze drie vragen vragen een uitleg. Noem telkens dat een indeling of een "
+                   "schaalniveau een keuze is, en wat die keuze oplevert.",
+            waarom=[
+                "Noem beide delen van de vraag: wat er in 1789 gebeurde en waarom het een keuze is. "
+                "De veranderingen begonnen eerder en liepen langer door, dus iemand besloot achteraf "
+                "dat dit jaar het meest in het oog springt.",
+                "Noem minstens twee domeinen apart, zoals gevraagd, en leg hun verband. Enkel "
+                "zeggen dat alles met alles te maken heeft, is geen analyse.",
+                "Noem dat hetzelfde verhaal op elk niveau anders klinkt. Een staking in één mijn, de "
+                "sociale strijd in een land en de industrialisering van de wereld zijn drie "
+                "schaalniveaus van dezelfde geschiedenis.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-kenmerken-van-samenlevingen-vergelijken-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vier kenmerken om een samenleving te beschrijven: wie bestuurt, waarvan men "
+                   "leeft, hoe de groepen tegenover elkaar staan, en wat men denkt en gelooft.",
+            waarom=[
+                "Let op het verschil tussen de eerste en de derde: standen met eigen rechten gaat "
+                "over de verhouding tussen groepen, dus sociale verhoudingen, terwijl een koning "
+                "zonder parlement over het bestuur gaat.",
+                "Let op de kerk die bepaalt wat men mag denken: dat is cultuur, ook al heeft die "
+                "kerk veel politieke macht. Het gevraagde kenmerk is wat er in de eerste plaats "
+                "geregeld wordt.",
+            ],
+        ),
+        dict(
+            aanpak="Twee vragen helpen altijd: hangt je plaats af van je geboorte of van je bezit, "
+                   "en staat de macht van de vorst boven of onder de wet.",
+            waarom=[
+                None,
+                None,
+                "Let op de leer van het droit divin: de vorst dankt zijn macht aan God en is dus aan "
+                "niemand verantwoording schuldig. Precies dat idee verdwijnt met een grondwet.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Vergelijk altijd op dezelfde drie vragen: wie bestuurt, hoe krijg je je plaats, "
+                   "en wie mag stemmen. Zo staan de twee samenlevingen echt naast elkaar.",
+            waarom=[
+                "Let op de laatste rij: in de negentiende eeuw mocht niet iedereen stemmen maar "
+                "enkel wie genoeg belasting betaalde. Dat heet het cijnskiesrecht, en het is dus een "
+                "halve stap en geen volledige.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over hoe je vergelijkt: op welke kenmerken, in welke tijd, en "
+                   "met welk doel. Een vergelijking zoekt inzicht, geen winnaar.",
+            waarom=[
+                None,
+                "Niet waar: je kan ook twee samenlevingen uit verschillende tijden vergelijken, "
+                "zoals het ancien régime en vandaag. Dan heet het een diachrone vergelijking.",
+                None,
+                "Niet waar: een vergelijking levert overeenkomsten en verschillen op, geen rangorde. "
+                "Wie een winnaar aanwijst, oordeelt met de maatstaf van zijn eigen tijd.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Deze twee vragen vragen een onderscheid en een eigen keuze. Noem bij een "
+                   "vergelijking altijd waarom je die kenmerken kiest.",
+            waarom=[
+                "Noem beide kanten: in een standenmaatschappij staat je plaats in de wet, in een "
+                "klassenmaatschappij zijn allen gelijk voor de wet en beslist het bezit in de "
+                "praktijk.",
+                "Noem er drie, zoals gevraagd, en zeg bij elk waarom. Een kenmerk is bruikbaar als "
+                "het op beide momenten bestaat; anders kan je het niet vergelijken.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-restauratie-en-revolutie-het-congres-van-wenen-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Leer elk begrip aan één beeld: de klok terugzetten, de weegschaal in evenwicht, "
+                   "vorsten die elkaar steunen, en een recht dat van vader op zoon gaat.",
+            waarom=[
+                "Let op het verschil tussen restauratie en machtsevenwicht: het eerste gaat over "
+                "terug naar vroeger, het tweede over de verdeling tussen de mogendheden. Op het "
+                "congres gingen die twee hand in hand.",
+                "Let op de Honderd Dagen: Napoleon kwam in 1815 terug terwijl het congres nog "
+                "vergaderde, en werd bij Waterloo definitief verslagen. Legitimiteit was net het "
+                "argument waarmee men zijn troon afwees.",
+            ],
+        ),
+        dict(
+            aanpak="Drie namen, drie landen. Metternich hoort bij Oostenrijk en leidde het congres, "
+                   "en Talleyrand was de Franse onderhandelaar van de verslagen kant.",
+            waarom=[
+                "Let op dat Talleyrand voor Frankrijk sprak, dus voor het verslagen land. Dat hij "
+                "toch mocht meebeslissen, is een van de merkwaardigste punten van het congres.",
+            ],
+        ),
+        dict(
+            aanpak="Een beslissing stond in de slotakte, een gevolg kwam later uit die beslissing "
+                   "voort. Vraag je af of de diplomaten het zo opschreven.",
+            waarom=[
+                None,
+                "Let op het verschil met de vorige: dat de twee Nederlanden samengevoegd werden, is "
+                "een beslissing; dat het daar misliep, is een gevolg. Juist dat onderscheid is wat "
+                "deze reeks toetst.",
+                None,
+                None,
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: hoe het congres werkte, wat het niet "
+                   "meenam, en wat het wel bereikte. Vraag je bij elke af welk van de drie.",
+            waarom=[
+                None,
+                "Niet waar: niemand vroeg de bevolking iets. Men keek naar het evenwicht tussen de "
+                "mogendheden, en precies daarom brak het nationalisme later overal door.",
+                "Waar: Talleyrand kreeg een plaats aan de tafel. Vergelijk dat met 1919, toen "
+                "Duitsland in Versailles niet mocht meeonderhandelen en het verdrag als een dictaat "
+                "ervaren werd.",
+                "Niet waar: de grenzen en de tronen kon men herstellen, de ideeën niet. Liberalisme "
+                "en nationalisme leefden verder en kwamen in 1830 en 1848 naar boven.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Deze drie vragen vragen een uitleg van een bedoeling of een mislukking. Noem "
+                   "telkens wat men wou bereiken en waarop het botste.",
+            waarom=[
+                "Noem het onderscheid tussen grenzen en ideeën. Dat is de kern: men kon de kaart "
+                "herstellen maar niet wat de mensen ondertussen dachten.",
+                "Noem dat een vernederd Frankrijk gevaarlijk was. Een land dat meebeslist, heeft "
+                "belang bij het resultaat, en dat is precies de redenering die in 1919 niet gevolgd "
+                "werd.",
+                "Noem tegen wie de buffer diende en noem minstens twee verschillen tussen noord en "
+                "zuid. Taal, godsdienst en economie liggen alle drie voor de hand.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-liberalisme-en-nationalisme-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Eén vraag beslist: gaat de eis over vrijheid van de enkeling tegenover de "
+                   "overheid, of over een volk dat een eigen staat wil. Het eerste is liberaal, het "
+                   "tweede nationalistisch.",
+            waarom=[
+                None,
+                None,
+                "Let op dat het liberalisme van de negentiende eeuw ook economisch bedoeld was: zo "
+                "weinig overheid mogelijk, ook in de fabriek. Juist daaruit groeide later de sociale "
+                "kwestie.",
+                None,
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Drie begrippen die bij een grondwet horen: wie mag stemmen, hoe de macht "
+                   "verdeeld is, en wat de vorst nog mag.",
+            waarom=[
+                "Let op dat een constitutionele monarchie niet hetzelfde is als een democratie. De "
+                "vorst is gebonden aan een grondwet, maar met het cijnskiesrecht stemde maar een "
+                "kleine minderheid.",
+            ],
+        ),
+        dict(
+            aanpak="Twee golven om vast te zetten: 1830 en 1848. België hoort bij de eerste, "
+                   "Frankfurt en de val van Louis-Philippe bij de tweede.",
+            waarom=[
+                "Let op dat 1848 een veel bredere golf was dan 1830: bijna heel Europa, van Parijs "
+                "tot Wenen en Boedapest. En bijna overal werd ze binnen het jaar neergeslagen.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: hoe ver het liberalisme ging, dat "
+                   "nationalisme twee kanten heeft, en dat het later ook tegen andere volken "
+                   "gebruikt werd.",
+            waarom=[
+                "Niet waar: het liberalisme van die tijd wilde stemrecht voor wie bezit en opleiding "
+                "had, niet voor iedereen. Algemeen stemrecht was een eis van de arbeidersbeweging, "
+                "veel later.",
+                None,
+                None,
+                "Niet waar: in de eerste helft van de negentiende eeuw trokken ze juist vaak samen "
+                "op tegen de orde van Wenen. Pas later groeiden ze uit elkaar.",
+                "Waar: hetzelfde idee dat een volk recht heeft op een eigen staat, werd aan het eind "
+                "van de eeuw gebruikt om andere volken te overheersen. Dat is de weg naar het "
+                "imperialisme.",
+            ],
+        ),
+        dict(
+            aanpak="Deze drie vragen vragen een verband en een uitleg. Noem bij 1848 zowel waarom "
+                   "het mislukte als wat er bleef, want beide worden gevraagd.",
+            waarom=[
+                "Noem wat de burgerij had en wat ze miste: bezit en opleiding wel, politieke macht "
+                "niet. En noem het cijnskiesrecht, want dat hield de arbeiders bewust buiten.",
+                "Noem één voorbeeld van elk, zoals gevraagd. Italië en Duitsland voor het samenbrengen, "
+                "Oostenrijk-Hongarije en het Ottomaanse Rijk voor het uiteenvallen.",
+                "Noem de verdeeldheid van de revolutionairen én wat er toch bleef. Grondwetten en "
+                "parlementen kwamen er in veel staten alsnog, maar jaren later.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-het-ontstaan-van-belgie-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vraag je bij elke klacht af wie er het meest door geraakt werd: de kerk, de "
+                   "burgerij, of allebei. De taalpolitiek en de ondervertegenwoordiging stoorden "
+                   "beide groepen.",
+            waarom=[
+                "Let op dat de taalkwestie bij allebei thuishoort: de katholieken omdat hun "
+                "geestelijken en scholen eronder leden, de liberalen omdat de Franstalige elite het "
+                "bestuur niet meer in kon. Juist zulke gedeelde grieven maakten het unionisme "
+                "mogelijk.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Zet de vijf stappen op een tijdlijn van augustus 1830 tot augustus 1831. Het "
+                   "hele verhaal van opstand tot bijna-nederlaag duurt één jaar.",
+            waarom=[
+                "Let op dat de Tiendaagse Veldtocht na de eedaflegging van Leopold I komt: "
+                "Nederland viel binnen toen België al een koning had. Frankrijk moest België toen "
+                "komen helpen.",
+            ],
+        ),
+        dict(
+            aanpak="Drie begrippen die bij de nieuwe staat horen: een bondgenootschap, een "
+                   "vergadering en een belofte aan het buitenland.",
+            waarom=[
+                "Let op de neutraliteit: die was geen Belgische keuze maar een voorwaarde van de "
+                "mogendheden. In 1914 was juist de schending van die neutraliteit de reden dat "
+                "Groot-Brittannië in de oorlog stapte.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: hoe liberaal de grondwet was, wie mocht "
+                   "stemmen, en hoe de erkenning verliep. Vraag je bij elke af welk van de drie.",
+            waarom=[
+                None,
+                "Niet waar: in 1831 gold het cijnskiesrecht, dus mocht ongeveer één procent van de "
+                "bevolking stemmen. Een liberale grondwet en een smal stemrecht gingen samen.",
+                None,
+                "Niet waar: Nederland erkende België pas in 1839, dus negen jaar later. Tot dan was "
+                "de toestand officieel onbeslist.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Deze drie vragen vragen een uitleg met gevolgen op lange termijn. Noem telkens "
+                   "wat de beslissing opleverde en voor wie.",
+            waarom=[
+                "Noem ook de voorwaarde, want die wordt uitdrukkelijk gevraagd. België paste in het "
+                "evenwicht van Wenen, en de prijs was de neutraliteit.",
+                "Noem dat ze verenigd waren door wat ze niet wilden. Zodra Willem I weg was, kwam "
+                "het onderwijs als twistpunt boven, en daaruit groeiden de eerste partijen.",
+                "Noem dat taal zo een sociale grens werd. Wie vooruit wou, had Frans nodig, en dat "
+                "is de voedingsbodem van de Vlaamse beweging en van de latere taalwetten.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-eerste-en-de-tweede-industriele-revolutie-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Eén vraag beslist: welke energiebron zit erachter. Steenkool en stoom horen bij "
+                   "de eerste, elektriciteit en aardolie bij de tweede.",
+            waarom=[
+                None,
+                None,
+                "Let op de textiel: dat is de sector waar de eerste revolutie begon, met de "
+                "spinmachine en de mechanische weefmachine. De chemie en de auto horen bij de "
+                "tweede.",
+                None,
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Leer elk begrip aan één beeld: thuis werken voor een opdrachtgever, de trek naar "
+                   "de stad, geld dat in een bedrijf gaat, en één bedrijf dat alles beheerst.",
+            waarom=[
+                None,
+                "Let op de naamloze vennootschap: door aandelen kon men geld van veel mensen "
+                "samenbrengen, en net dat maakte heel grote fabrieken en spoorwegen mogelijk.",
+            ],
+        ),
+        dict(
+            aanpak="Vul de drie domeinen apart in: wat veranderde aan het werk, aan de groepen, en "
+                   "aan de plaats waar men woonde. Zo zie je dat de revolutie meer was dan machines.",
+            waarom=[
+                "Let op de ruimtelijke kolom: de steden groeiden sneller dan men kon bouwen, "
+                "vandaar de beluiken en de slechte hygiëne. Dat is de verbinding tussen de "
+                "economische verandering en het sociale vraagstuk.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: waar de industrialisering in België begon, "
+                   "wat het vervoer deed, en dat het tempo per land verschilde.",
+            waarom=[
+                None,
+                "Niet waar: de industrialisering begon in Wallonië, bij de steenkool van Henegouwen "
+                "en Luik. Vlaanderen bleef langer landelijk, met Gent als uitzondering.",
+                None,
+                "Niet waar: elk land had zijn eigen tempo. Groot-Brittannië eerst, dan België, later "
+                "Duitsland en Frankrijk, en nog later Oost-Europa.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Deze drie vragen vragen een oorzaak en twee uitleggen. Noem bij de eerste "
+                   "meerdere factoren samen, want dat is wat het antwoord sterk maakt.",
+            waarom=[
+                "Noem er meerdere, niet één. Steenkool en ijzer bij elkaar, kapitaal uit de handel, "
+                "een grote markt en goede vervoerswegen: pas samen verklaren ze de voorsprong.",
+                "Noem wat er verdween: het eigen ritme, het werken bij je gezin en het hele "
+                "ambacht. In de plaats kwamen de klok, het toezicht en de opgesplitste taak.",
+                "Noem het verschil in herkomst van de vernieuwing. De eerste golf kwam van "
+                "praktische uitvinders, de tweede uit wetenschappelijk onderzoek en bedrijfslabo's.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-ongelijkheden-klassenmaatschappij-en-sociale-strijd-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Leer de begrippen in twee groepen: wat het probleem benoemt, en wat de arbeiders "
+                   "ertegen opzetten. Staking en vakbond horen bij het tweede.",
+            waarom=[
+                None,
+                "Let op het verschil tussen een mutualiteit en een cooperatie: de eerste keert geld "
+                "uit bij ziekte, de tweede laat je goedkoper kopen. Allebei bestonden ze lang voor "
+                "er sociale wetten waren.",
+            ],
+        ),
+        dict(
+            aanpak="Drie klassen, drie bronnen van inkomen: winst uit bezit, een loon voor "
+                   "handenarbeid, en een wedde of een eigen zaak in het midden.",
+            waarom=[
+                "Let op de middenklasse: onderwijzers, bedienden en winkeliers hoorden bij geen van "
+                "de twee uitersten. Juist die groep groeide sterk in de negentiende eeuw.",
+            ],
+        ),
+        dict(
+            aanpak="Vier maatregelen op een tijdlijn van 1886 tot 1921. Let erop dat de enquête "
+                   "vooraf gaat aan de wetten: eerst onderzoek, dan wetgeving.",
+            waarom=[
+                "Let op hoe laat die data zijn: het verbod op kinderarbeid onder twaalf kwam in "
+                "1889, bijna zestig jaar na de onafhankelijkheid. En de achturendag kwam er pas na "
+                "de Eerste Wereldoorlog.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: wat gelijkheid voor de wet betekent, hoe de "
+                   "eerste sociale wetten tot stand kwamen, en wat toegelaten was.",
+            waarom=[
+                "Waar, en let op het verschil met de praktijk: alle burgers waren gelijk voor de "
+                "wet, maar wie geen bezit had, mocht niet stemmen en kon zijn recht moeilijk halen. "
+                "Gelijkheid op papier is niet hetzelfde als gelijkheid in de praktijk.",
+                None,
+                "Niet waar: kinderarbeid was lang gewoon toegelaten en zelfs nodig voor het "
+                "gezinsinkomen. Het verbod kwam er pas in 1889, en dan nog enkel onder de twaalf "
+                "jaar.",
+                None,
+                "Niet waar: staken was lange tijd strafbaar, want het viel onder het verbod op "
+                "samenspanning. Dat verbod werd pas in 1866 opgeheven, en ook daarna werd staken "
+                "nog vaak vervolgd.",
+            ],
+        ),
+        dict(
+            aanpak="Deze drie vragen vragen een verband, een opsomming en een bronkritiek. Zeg bij "
+                   "een uitspraak van een tijdgenoot altijd welk belang erachter zit.",
+            waarom=[
+                "Noem het mechanisme: wie stemt, wordt vertegenwoordigd, en wie vertegenwoordigd "
+                "wordt, krijgt wetten. Zonder stemrecht bleven de arbeiders afhankelijk van de "
+                "goodwill van anderen.",
+                "Noem er twee met hun doel, zoals gevraagd. De mutualiteit tegen het risico van "
+                "ziekte, de cooperatie tegen de hoge prijzen.",
+                "Noem dat het een standpunt is met een belang erachter, en zeg waarvoor de bron dan "
+                "wél dient. Over de arbeiders zegt ze niets, over het denken van de fabrikanten "
+                "veel.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-marxisme-sociaaldemocratie-christendemocratie-en-migratie-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De drie stromingen verschillen in de weg, niet in de vaststelling. Vraag je af "
+                   "of de uitspraak revolutie, parlement of overleg voorstelt.",
+            waarom=[
+                None,
+                "Let op dat marxisme en sociaaldemocratie dezelfde wortel hebben: het doel lag "
+                "dicht bij elkaar, de weg niet. De christendemocratie wou geen klassenstrijd maar "
+                "samenwerking tussen de klassen.",
+            ],
+        ),
+        dict(
+            aanpak="Drie begrippen van drie kanten: het marxistische, het christelijke en het "
+                   "maatschappelijke. Leer bij Rerum Novarum het jaartal 1891.",
+            waarom=[
+                "Let op uitbuiting: bij Marx is dat geen scheldwoord maar een begrip, namelijk de "
+                "meerwaarde die de eigenaar uit het werk haalt. Daarmee verklaarde hij waar de winst "
+                "vandaan komt.",
+            ],
+        ),
+        dict(
+            aanpak="Migratie naar België kwam in golven: eerst binnen het land, dan uit Italië, dan "
+                   "uit Marokko en Turkije. Zet de drie in die orde.",
+            waarom=[
+                "Let op de eerste golf: die was binnenlands. Vlamingen trokken in de negentiende eeuw "
+                "naar de Waalse industrie, en die beweging wordt vaak vergeten in het verhaal over "
+                "migratie.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: wie wat schreef, wat de christendemocratie "
+                   "wilde, en wanneer de migratie begon. Vraag je bij elke af welk van de drie.",
+            waarom=[
+                None,
+                "Niet waar: de christendemocratie wou juist overleg tussen de klassen in plaats van "
+                "strijd. Dat staat ook in Rerum Novarum: privébezit blijft, maar met een "
+                "rechtvaardig loon.",
+                None,
+                "Niet waar: er was al veel eerder migratie, binnen België en uit het buitenland. De "
+                "akkoorden van na 1945 zijn een nieuwe fase en geen begin.",
+                "Waar: na de ramp in Marcinelle, waar 262 mijnwerkers omkwamen, van wie de meeste "
+                "Italianen, stopte Italië met het sturen van werkkrachten. Daarna sloot België "
+                "akkoorden met andere landen.",
+            ],
+        ),
+        dict(
+            aanpak="Deze drie vragen vragen een verband, een oorzaak met gevolgen, en een kritiek op "
+                   "een woord. Noem telkens wat de mensen zelf meemaakten.",
+            waarom=[
+                "Noem dat ze dezelfde vaststelling deelden en in de oplossing verschilden. Juist dat "
+                "maakt ze drie antwoorden op één vraag.",
+                "Noem beide kanten, zoals gevraagd: waarom België hen nodig had, en wat het voor hen "
+                "betekende. Het zware werk, de barakken en het blijven horen er alle drie bij.",
+                "Noem dat het woord een verwachting uitdrukt en geen werkelijkheid. De mensen "
+                "bleven, haalden hun gezin over en bouwden hier hun leven op.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-modern-imperialisme-en-de-wedloop-om-afrika-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Drie soorten motieven: geld, macht en een idee over de eigen superioriteit. "
+                   "Vraag je af wat men ermee wou winnen.",
+            waarom=[
+                None,
+                "Let op de kolenstations: die dienden de vloot en dus de macht, niet de handel "
+                "rechtstreeks. En een beroep op de wetenschap om de eigen superioriteit te bewijzen "
+                "is ideologisch, hoe wetenschappelijk het ook klonk.",
+            ],
+        ),
+        dict(
+            aanpak="Let op het verschil tussen een kolonie en een protectoraat: in het eerste geval "
+                   "bestuurt de mogendheid zelf, in het tweede blijft er een eigen vorst onder "
+                   "toezicht.",
+            waarom=[
+                "Let op de Conferentie van Berlijn van 1884 en 1885: daar werden de spelregels van "
+                "de wedloop afgesproken, onder meer dat je een gebied werkelijk moest bezetten om er "
+                "aanspraak op te maken.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: wie in Berlijn aan tafel zat, hoever de "
+                   "verdeling ging, en wat de grenzen volgen. Vraag je bij elke af welk van de drie.",
+            waarom=[
+                "Waar, en dat is het kernpunt: over Afrika werd beslist zonder Afrikanen. Zo'n "
+                "conferentie is zelf al een bron over de verhoudingen van die tijd.",
+                None,
+                "Niet waar: Ethiopië bleef onafhankelijk en versloeg Italië in 1896 bij Adwa. Pas in "
+                "1936 werd het bezet, en dan maar voor enkele jaren. Liberia bleef ook buiten de "
+                "verdeling.",
+                "Niet waar: de grenzen werden met de lat getrokken, zonder rekening te houden met "
+                "volkeren of talen. Juist daarom lopen ze zo vaak kaarsrecht.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Vraag je bij zo'n bron eerst af waarover ze wél iets zegt. Een "
+                   "rechtvaardigingstekst is een goede bron over de denkwijze en een slechte over de "
+                   "feiten.",
+            waarom=[
+                "Noem beide kanten, zoals gevraagd: over de schrijver en zijn tijd zegt de zin veel, "
+                "over de Afrikaanse samenlevingen niets betrouwbaars.",
+                "Noem wat de uitdrukking wegstopt: de economische en politieke drijfveren, en het "
+                "geweld en de dwangarbeid. Een mooie naam voor een harde praktijk.",
+            ],
+        ),
+        dict(
+            aanpak="Deze vraag vraagt een gevolg op lange termijn. Noem het mechanisme en niet enkel "
+                   "het eindpunt.",
+            waarom=[
+                "Noem beide gevolgen van die lijnen: één volk verdeeld over twee staten, en "
+                "volkeren die niets met elkaar hadden in één staat. Dat de nieuwe staten die "
+                "grenzen behielden, hoort erbij.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-congo-van-congo-vrijstaat-tot-belgisch-congo-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Het verschil zit in de eigenaar: tot 1908 was Congo het persoonlijke bezit van "
+                   "Leopold II, daarna een kolonie van de Belgische staat.",
+            waarom=[
+                None,
+                None,
+                "Let op de rubberquota: die horen bij de Vrijstaat. Het geweld dat ermee gepaard "
+                "ging, bracht de internationale druk op gang die tot de overdracht van 1908 leidde.",
+                "Let op de drie-eenheid: staat, kerk en grote bedrijven. Elk had zijn terrein, "
+                "onderwijs en zorg bij de kerk, en samen regelden ze het dagelijks leven.",
+            ],
+        ),
+        dict(
+            aanpak="Drie begrippen om vast te zetten: het leger, de bestuursvorm en de manier van "
+                   "besturen via plaatselijke hoofden.",
+            waarom=[
+                "Let op indirect bestuur: men regeerde via bestaande hoofden, en zette er hoofden af "
+                "die niet meewerkten. Dat lijkt zacht maar maakte de controle juist diepgaander.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: wat Leopold II zelf deed, hoe de overdracht "
+                   "kwam, en wat Congolezen wel en niet mochten. Vraag je bij elke af welk van de "
+                   "drie.",
+            waarom=[
+                "Waar, en dat is opmerkelijk: hij bestuurde het gebied vijfentwintig jaar lang "
+                "zonder er ooit een voet te zetten. Alles liep via rapporten en vertrouwelingen.",
+                None,
+                "Niet waar: hoger onderwijs voor Congolezen kwam er pas heel laat, in de jaren "
+                "vijftig. Daarom waren er in 1960 nauwelijks Congolese universitair geschoolden.",
+                None,
+                "Niet waar: Congolezen hadden geen stemrecht voor het Belgische parlement en geen "
+                "eigen parlement. Ze werden bestuurd zonder vertegenwoordiging.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je bij elke bron af wie ze maakte en met welk doel. Ook een bron met een "
+                   "duidelijk belang kan heel bruikbaar zijn, maar voor een andere vraag.",
+            waarom=[
+                "Noem beide delen, zoals gevraagd. Over Congo zegt het schoolboek weinig, over het "
+                "Belgische onderwijs van 1950 veel.",
+                "Noem beide kanten: waarom de bron waardevol is en waarom je ze toch kritisch leest. "
+                "Zonder die verslagen wisten we veel minder, en toch had elke schrijver zijn eigen "
+                "doel.",
+            ],
+        ),
+        dict(
+            aanpak="Deze vraag vraagt een gevolg. Noem het verschil tussen lager en hoger onderwijs, "
+                   "want daar zit de kern.",
+            waarom=[
+                "Noem dat er veel lager en bijna geen hoger onderwijs was. Een nieuwe staat zonder "
+                "eigen artsen, ingenieurs en hoge ambtenaren start met een handicap, en die blijft "
+                "jaren meespelen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-eerste-wereldoorlog-en-de-vrede-van-versailles-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Een aanleiding is de vonk, een oorzaak is het kruit dat er al lag. Vraag je af "
+                   "of iets jaren of dagen voor de oorlog speelde.",
+            waarom=[
+                "Let op dat de moord in Sarajevo de aanleiding is. Zonder de wapenwedloop, de "
+                "bondgenootschappen en de spanningen op de Balkan was het bij een misdaad gebleven.",
+                None,
+                None,
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Zes begrippen in twee groepen: drie over de oorlog zelf en drie over de vrede "
+                   "erna. Leer bij de Volkenbond het jaar 1920.",
+            waarom=[
+                "Let op het verschil tussen een totale oorlog en een loopgravenoorlog: het eerste "
+                "gaat over wie er allemaal bij betrokken is, het tweede over de manier van vechten.",
+                "Let op het schuldartikel: dat was het artikel dat in Duitsland het hardst "
+                "aangevoeld werd, nog meer dan de herstelbetalingen. Daaruit groeide het woord "
+                "dictaat van Versailles.",
+            ],
+        ),
+        dict(
+            aanpak="Versailles legde Duitsland vier dingen op: gebied, leger, geld en schuld. Leer ze "
+                   "als vier vakjes, dan vergeet je er geen.",
+            waarom=[
+                "Let op dat Duitsland ook al zijn koloniën kwijtraakte, niet alleen gebied in "
+                "Europa. Die koloniën werden onder de overwinnaars verdeeld als mandaatgebieden van "
+                "de Volkenbond.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: de inval in België, hoelang men dacht dat "
+                   "de oorlog zou duren, en hoe de vrede tot stand kwam.",
+            waarom=[
+                None,
+                "Waar, en juist die neutraliteit maakt de inval zo belangrijk: de schending was voor "
+                "Groot-Brittannië de reden om in de oorlog te stappen.",
+                "Niet waar: iedereen rekende op een korte oorlog, en het werd er een van meer dan "
+                "vier jaar. Die verkeerde verwachting verklaart mee waarom men zo makkelijk begon.",
+                "Niet waar: Duitsland mocht niet meeonderhandelen en kreeg de tekst voorgelegd. "
+                "Vergelijk met het Congres van Wenen, waar het verslagen Frankrijk wel aan tafel "
+                "zat.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Deze drie vragen vragen een uitleg en een gevolg. Noem bij de totale oorlog "
+                   "meerdere terreinen, en bij Versailles het mechanisme van de wrok.",
+            waarom=[
+                "Noem meerdere terreinen samen: de fabrieken, de vrouwen die het werk overnamen, de "
+                "rantsoenering, de propaganda en de burgers als doelwit. Eén voorbeeld maakt het "
+                "antwoord te smal.",
+                "Noem de combinatie die het gevaarlijk maakte: vernederd en met de rekening, maar "
+                "nog groot en sterk genoeg om zich te verzetten.",
+                "Noem ook dat het stemrecht er pas veel later kwam. De oorlog veranderde vooral het "
+                "argument, niet onmiddellijk de wet.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-het-interbellum-de-opkomst-van-het-totalitarisme-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Drie regimes, drie kernwoorden: de mars op Rome bij Italië, de rassenleer bij "
+                   "Duitsland, de vijfjarenplannen bij de Sovjet-Unie.",
+            waarom=[
+                "Let op dat de drie regimes veel gemeen hadden, zoals één partij en één leider, en "
+                "toch elk hun eigen kern. Juist die kern vraagt deze reeks.",
+            ],
+        ),
+        dict(
+            aanpak="Zes begrippen in twee groepen: drie over hoe zo'n staat werkt, en drie over de "
+                   "gebeurtenissen die hem mogelijk maakten.",
+            waarom=[
+                "Let op censuur: die gaat niet enkel over verbieden maar over vooraf controleren wat "
+                "mag verschijnen. Dat verschil met achteraf straffen is wezenlijk.",
+                "Let op de inflatie van 1923: die vaagde het spaargeld van de middenklasse weg, en "
+                "dat was nog voor de crisis van 1929. Twee keer in tien jaar zijn spaargeld "
+                "verliezen verklaart veel over het vertrouwen in de republiek.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: hoe Hitler aan de macht kwam, wat de crisis "
+                   "deed, en hoe zwak de Volkenbond was.",
+            waarom=[
+                "Waar, en dat is ongemakkelijk om vast te stellen: hij werd kanselier via de "
+                "grondwet, na verkiezingen. De dictatuur kwam erna, met de noodmaatregelen en de "
+                "Machtigingswet.",
+                None,
+                None,
+                "Niet waar: de Volkenbond kon de aanval van Italië op Ethiopië en die van Japan op "
+                "Mantsjoerije niet tegenhouden. Zonder leger bleef het bij sancties op papier.",
+                "Waar: ook hier groeiden partijen als Rex en het VNV. Autoritaire antwoorden op de "
+                "crisis waren geen Duits of Italiaans verschijnsel alleen.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je bij propaganda altijd af waarover ze wél iets zegt. Ze toont wat het "
+                   "regime wilde laten zien, en dat is een echte historische vraag.",
+            waarom=[
+                "Noem er drie, zoals gevraagd, en noem ook de nieuwe media. Radio en film maakten "
+                "het bereik van propaganda in de jaren dertig veel groter dan ooit tevoren.",
+                "Noem beide kanten: waarvoor de poster een goede bron is en waarvoor niet. Dat is de "
+                "kern van bronkritiek bij beeldmateriaal.",
+            ],
+        ),
+        dict(
+            aanpak="Deze vraag vraagt twee oorzaken samen. Zeg wat elk van de twee leverde, en dat "
+                   "ze alleen samen genoeg verklaren.",
+            waarom=[
+                "Noem beide bijdragen apart: Versailles leverde de wrok, de crisis de werkloosheid "
+                "en de angst. En noem dat de nazi's een vijand aanwezen; dat hoort bij hun "
+                "doorbraak.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-tweede-wereldoorlog-en-de-holocaust-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zet de zes stappen op een tijdlijn van september 1939 tot mei 1945. Let erop dat "
+                   "1941 het jaar is waarin de oorlog echt wereldwijd wordt.",
+            waarom=[
+                "Let op 1941: eerst de inval in de Sovjet-Unie in juni, dan Pearl Harbor in "
+                "december. Vanaf dan staan de Sovjet-Unie en de Verenigde Staten erin, en dat "
+                "beslist de oorlog.",
+            ],
+        ),
+        dict(
+            aanpak="Zes begrippen in twee groepen: drie over de oorlog en de vervolging, drie over "
+                   "België en de nasleep.",
+            waarom=[
+                "Let op de blitzkrieg: tanks, vliegtuigen en snelheid samen, juist het tegendeel van "
+                "de loopgraven van 14-18. Dat verklaart waarom België in achttien dagen verslagen "
+                "was.",
+                "Let op de repressie: dat is de afrekening na de oorlog, niet de onderdrukking "
+                "tijdens de bezetting. Die dubbele betekenis van het woord leidt vaak tot "
+                "verwarring.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: wat er in België gebeurde, hoe de "
+                   "vervolging georganiseerd was, en wat er na de oorlog volgde.",
+            waarom=[
+                None,
+                None,
+                "Niet waar: de vervolging steunde op administratie, registers, treinen en "
+                "ambtenaren. Juist die organisatie maakte haar op zo'n schaal mogelijk, en dat is "
+                "ook wat de redeneerwijze over menselijke actoren bedoelt.",
+                None,
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Vraag je bij elke bron af voor welke vraag ze de beste is. Een gecensureerde "
+                   "krant en een late getuigenis zijn elk sterk op hun eigen punt.",
+            waarom=[
+                "Noem beide kanten: voor de feiten onbetrouwbaar, voor de taal en de bedoeling van "
+                "de bezetter juist de beste bron die er is.",
+                "Noem het onderscheid tussen data en beleving. Voor aantallen neem je de "
+                "administratie, voor wat mensen meemaakten de getuigenissen; samen geven ze het "
+                "volledige beeld.",
+            ],
+        ),
+        dict(
+            aanpak="Deze vraag vraagt het verschil tussen een feit en een mening. Noem de bronnen die "
+                   "het feit vaststellen.",
+            waarom=[
+                "Noem de soorten bronnen: de eigen administratie van de daders, de getuigenissen, de "
+                "kampen en de processen. En noem dat ontkennen in België bij wet strafbaar is.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-china-van-keizerrijk-tot-wereldmacht-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vijf stappen over bijna honderdvijftig jaar: van de Opiumoorlogen tot de "
+                   "hervormingen van 1978. Leer bij elk één jaartal.",
+            waarom=[
+                "Let op hoe dicht 1966 en 1978 op elkaar liggen: nauwelijks twaalf jaar tussen de "
+                "Culturele Revolutie en het begin van de markthervormingen. Zo'n bocht in één "
+                "mensenleven is uitzonderlijk.",
+            ],
+        ),
+        dict(
+            aanpak="Zes begrippen in twee groepen: drie over de tijd van de vernedering en van Mao, "
+                   "drie over de hervormingen daarna.",
+            waarom=[
+                "Let op de Grote Sprong Voorwaarts en de Culturele Revolutie: de eerste was "
+                "economisch bedoeld en liep uit op hongersnood, de tweede was een politieke "
+                "campagne tegen het oude en tegen critici.",
+                "Let op de speciale economische zones: daar gold de markt voordat ze in het hele "
+                "land gold. Shenzhen groeide zo van een dorp tot een miljoenenstad.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: hoe China overheerst werd, wat de "
+                   "hervormingen wel en niet brachten, en waar het land vandaag staat.",
+            waarom=[
+                "Waar: China bleef formeel een keizerrijk met eigen regering, maar moest havens, "
+                "gebieden en rechtspraak afstaan. Dat heet informeel imperialisme, en het verschilt "
+                "van wat in Congo gebeurde.",
+                None,
+                "Niet waar: Deng hervormde de economie en niet het politieke stelsel. Dat verschil "
+                "is precies waarom men van een economische revolutie zonder politieke revolutie "
+                "spreekt.",
+                None,
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Vergelijk de twee periodes op dezelfde twee punten: hoe de economie geregeld is, "
+                   "en hoe het land tegenover het buitenland staat.",
+            waarom=[
+                "Let op de tweede rij: het land ging economisch open maar politiek niet. Juist die "
+                "combinatie is wat China onderscheidt van de hervormingen in Oost-Europa.",
+            ],
+        ),
+        dict(
+            aanpak="Deze twee vragen vragen een uitleg van een uitdrukking. Zeg telkens wat er "
+                   "feitelijk gebeurde en waarom men die woorden gebruikt.",
+            waarom=[
+                "Noem concrete gevolgen van de verdragen: havens openen, gebied afstaan, eigen "
+                "rechtspraak voor buitenlanders. En noem dat die vernedering tot vandaag in het "
+                "Chinese zelfbeeld doorwerkt.",
+                "Noem beide kanten, zoals de uitdrukking zelf doet. Economisch veranderde bijna "
+                "alles, politiek bleef één partij alle macht houden.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-een-nieuwe-wereldorde-de-verenigde-naties-en-de-koude-oorlog-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Twee blokken, en bij elk een militair en een economisch verband. De NATO en het "
+                   "Warschaupact zijn de legers, het Marshallplan en de Comecon het geld.",
+            waarom=[
+                None,
+                None,
+                "Let op het Marshallplan: dat was Amerikaans geld voor de heropbouw van "
+                "West-Europa. België kreeg er ook uit, en de Sovjet-Unie verbood haar landen om "
+                "mee te doen.",
+                "Let op de Comecon: dat was het antwoord van het oosten op het Marshallplan, een "
+                "eigen economische samenwerking tussen de communistische landen.",
+            ],
+        ),
+        dict(
+            aanpak="Zes begrippen in twee groepen: drie over hoe de twee blokken elkaar in het oog "
+                   "hielden, en drie over de Verenigde Naties en de ontspanning.",
+            waarom=[
+                "Let op de afschrikking: het idee is dat juist de zekerheid van de eigen "
+                "vernietiging een aanval tegenhoudt. Dat klinkt tegenstrijdig en het is precies "
+                "waarom het nooit tot een rechtstreekse oorlog kwam.",
+                "Let op het vetorecht: het ligt bij de vijf vaste leden van de Veiligheidsraad. Dat "
+                "waren de overwinnaars van de Tweede Wereldoorlog, en dat is het nog altijd.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: hoe de VN ontstonden, hoe de twee "
+                   "supermachten elkaar bestreden, en hoe het eindigde.",
+            waarom=[
+                None,
+                "Waar, en let op het jaartal: 1948, drie jaar na de oorlog en in de schaduw van wat "
+                "er gebeurd was. De verklaring is een antwoord op die oorlog.",
+                "Waar: ze streden in Korea, Vietnam, Afghanistan en elders, maar nooit leger tegen "
+                "leger. Dat is wat een proxyoorlog is.",
+                "Niet waar: elk vast lid kan alleen een beslissing tegenhouden. Juist dat verklaart "
+                "waarom de Veiligheidsraad in de Koude Oorlog zo vaak verlamd stond.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Drie crisissen, elk met een eigen plaats op de kaart. Leer bij elk waar het was: "
+                   "Berlijn, Cuba, Vietnam.",
+            waarom=[
+                "Let op de Cubacrisis: raketten op negentig mijl van Florida. Dat was het moment "
+                "waarop de wereld het dichtst bij een kernoorlog stond, en daarna kwam de rode "
+                "telefoon tussen Washington en Moskou.",
+            ],
+        ),
+        dict(
+            aanpak="De eerste vraag vraagt een uitleg van een naam, de tweede vraagt twee kanten van "
+                   "dezelfde regel. Antwoord bij de tweede met een voordeel en een nadeel, zoals "
+                   "gevraagd.",
+            waarom=[
+                "Noem de middelen waarmee ze wel streden, en noem de kernwapens als de reden dat "
+                "het koud bleef. Zonder die reden is het antwoord niet volledig.",
+                "Let op dat beide kanten waar zijn tegelijk. Het veto hield de grote landen binnen "
+                "de organisatie en verlamt haar als een van die landen zelf partij is.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-europese-eenmaking-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vijf stappen over vijftig jaar. Een handig anker: de EGKS begint zeven jaar na "
+                   "de oorlog, de euro komt vijftig jaar later in je hand.",
+            waarom=[
+                "Let op het verschil tussen Maastricht in 1992 en de euro in 2002: het verdrag "
+                "besliste de munt, de biljetten kwamen tien jaar later. Een afspraak en de "
+                "uitvoering ervan liggen vaak jaren uit elkaar.",
+            ],
+        ),
+        dict(
+            aanpak="Zes begrippen in twee groepen: drie over de markt en de grenzen, drie over de "
+                   "instellingen en hoe ze beslissen.",
+            waarom=[
+                "Let op het verschil tussen een douane-unie en de interne markt: de eerste gaat "
+                "enkel over invoerrechten op goederen, de tweede ook over personen, diensten en "
+                "kapitaal. De interne markt is dus veel ruimer.",
+                "Let op de Europese Commissie en het Parlement: de Commissie stelt voor, het "
+                "Parlement en de lidstaten beslissen. Enkel het Parlement kies jij zelf.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: hoe het begon, wie meedoet, en hoe de "
+                   "instellingen samengesteld zijn.",
+            waarom=[
+                "Waar: België, Nederland, Luxemburg, Frankrijk, Italië en West-Duitsland. De "
+                "Benelux was er dus van het begin bij, en Brussel werd niet toevallig de "
+                "hoofdstad van de instellingen.",
+                None,
+                "Niet waar: niet alle lidstaten gebruiken de euro. Denemarken, Zweden en Polen "
+                "bijvoorbeeld hebben hun eigen munt gehouden.",
+                None,
+                "Niet waar: het Europees Parlement wordt rechtstreeks verkozen, sinds 1979, en jij "
+                "mag daar vanaf achttien jaar zelf voor gaan stemmen.",
+            ],
+        ),
+        dict(
+            aanpak="Drie open vragen: een oorzaak, twee voorbeelden uit je eigen leven, en een "
+                   "standpunt dat je moet uitleggen zonder het te moeten verdedigen.",
+            waarom=[
+                "Noem dat kolen en staal de grondstoffen van de wapenindustrie waren. Daar zit de "
+                "hele gedachte in: wie samen de wapenfabriek beheert, kan niet in het geheim "
+                "herbewapenen.",
+                "Noem bij elk voorbeeld ook waardoor het kan, zoals gevraagd. Reizen zonder "
+                "controle hoort bij Schengen, met dezelfde munt betalen bij de euro; dat is niet "
+                "hetzelfde verdrag.",
+                "Let erop dat een standpunt verklaren niet hetzelfde is als het delen. Zeg wat de "
+                "critici bedoelen, en zeg ook wat de voorstanders ertegenover zetten.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-dekolonisatie-van-congo-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vijf stappen in nauwelijks zes jaar. Let erop hoe snel het ging: anderhalf jaar "
+                   "tussen de rellen en de onafhankelijkheid, en nog een half jaar tot de "
+                   "afscheiding.",
+            waarom=[
+                "Let op dat de afscheiding van Katanga er amper twee weken na de onafhankelijkheid "
+                "al was. Die snelheid zegt veel over hoe weinig de nieuwe staat voorbereid was.",
+            ],
+        ),
+        dict(
+            aanpak="Zes keer een begrip of een naam. De eerste rij gaat over wat er met de staat "
+                   "gebeurde, de tweede over wie en wat erbij betrokken was.",
+            waarom=[
+                None,
+                "Let op het neokolonialisme: de vlag verandert, de mijnen en de winsten blijven in "
+                "buitenlandse handen. Dat begrip verklaart waarom men zegt dat Congo politiek "
+                "onafhankelijk werd en economisch niet.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: de datum en de voorbereiding, het belang "
+                   "van Katanga, en wat België later zelf onderzocht.",
+            waarom=[
+                None,
+                "Niet waar: de Belgische plannen spraken nog in 1955 over dertig jaar, en in "
+                "januari 1960 werd op de rondetafelconferentie beslist dat het binnen zes maanden "
+                "zou gebeuren. Die haast is een van de kernen van dit hoofdstuk.",
+                None,
+                "Niet waar: er waren maar een handvol Congolese universitair gediplomeerden, en "
+                "geen enkele Congolese officier in het leger. Het hoger onderwijs was pas in de "
+                "jaren vijftig opengegaan.",
+                "Waar: die commissie werkte rond 2000 en besloot dat Belgische "
+                "verantwoordelijken een morele verantwoordelijkheid droegen. Een land dat zijn "
+                "eigen verleden onderzoekt is zelf ook een historisch feit.",
+            ],
+        ),
+        dict(
+            aanpak="Twee bronnen, en bij elk dezelfde vraag: wie schreef of sprak, voor wie, en wat "
+                   "zie je daardoor wel en niet.",
+            waarom=[
+                "Noem dat het de Congolese stem zelf is, op het moment van de overdracht. Dat is "
+                "wat deze bron uitzonderlijk maakt, want de meeste bronnen over Congo komen van "
+                "Belgische hand.",
+                "Noem zowel de context van de krant als wat ze weglaat. Een woord als chaos "
+                "beschrijft niet enkel de toestand, het geeft er ook een schuld aan.",
+            ],
+        ),
+        dict(
+            aanpak="Deze vraag vraagt meerdere oorzaken samen. Noem er vier of vijf en zeg bij elk "
+                   "kort wat het deed.",
+            waarom=[
+                "Noem zeker de korte voorbereiding, het gebrek aan opgeleide Congolezen, de "
+                "muiterij in het leger, Katanga en de mijnbelangen. En noem de Koude Oorlog: "
+                "beide supermachten zagen in Congo een kans, en dat maakte het conflict nog "
+                "zwaarder.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-belgie-na-1945-breuklijnen-federale-staat-en-emancipatie-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Drie breuklijnen, en bij elk conflict één vraag: gaat het over geloof en "
+                   "onderwijs, over geld en werk, of over taal en gebied?",
+            waarom=[
+                "Let op de staking tegen de Eenheidswet van 1960 en 1961: die was "
+                "sociaaleconomisch, maar liep in Wallonië veel heviger dan in Vlaanderen. Twee "
+                "breuklijnen kunnen dus door elkaar lopen.",
+                "Let op de Koningskwestie: de tegenstelling liep vooral tussen katholieken en "
+                "vrijzinnigen, dus filosofisch, maar ook Vlaanderen en Wallonië stemden er heel "
+                "verschillend over. Dat maakt ze een schoolvoorbeeld van hoe de lijnen kruisen.",
+            ],
+        ),
+        dict(
+            aanpak="Zes begrippen in twee groepen: drie over hoe de samenleving zich organiseerde, "
+                   "drie over de staat en de rechten.",
+            waarom=[
+                "Let op het sociaal pact van 1944: dat werd nog tijdens de oorlog voorbereid, in "
+                "het geheim, tussen vakbonden en werkgevers. Daaruit groeide de sociale zekerheid "
+                "zoals we die vandaag kennen.",
+                "Let op het verschil tussen de gewesten en de gemeenschappen: samen zijn ze de "
+                "deelstaten, maar ze zijn niet hetzelfde. De volgende reeks gaat daar verder op in.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: de rechten die erbij kwamen, de taalgrens "
+                   "en de staatshervormingen, en de economische omslag.",
+            waarom=[
+                "Waar, en let op het jaartal: 1948, dertig jaar na het algemeen enkelvoudig "
+                "stemrecht voor mannen. Vrouwen mochten gemeentelijk al eerder stemmen, nationaal "
+                "pas vanaf dan.",
+                None,
+                "Niet waar: de zuilen liepen juist langs de breuklijnen. Elke strekking had haar "
+                "eigen scholen, ziekenfonds, vakbond en jeugdbeweging, en zo werd de verdeeldheid "
+                "een deel van het dagelijks leven.",
+                "Niet waar: er waren verschillende staatshervormingen, vanaf 1970, en de grondwet "
+                "noemde België pas in 1993 een federale staat. Elke ronde was een compromis dat "
+                "een volgende ronde opriep.",
+                "Waar: Zwartberg sloot in 1966 met zwaar protest, en de laatste Limburgse mijn in "
+                "1992. Duizenden gezinnen moesten ander werk zoeken.",
+            ],
+        ),
+        dict(
+            aanpak="Eén woord helpt je hier door de hele tabel: gewesten gaan over grond, "
+                   "gemeenschappen over mensen.",
+            waarom=[
+                "Let op onderwijs en cultuur: die horen bij de gemeenschappen, niet bij de "
+                "gewesten. Daarom beslist de Vlaamse Gemeenschap over jouw school, ook als je in "
+                "Brussel woont.",
+            ],
+        ),
+        dict(
+            aanpak="Twee open vragen: de eerste vraagt de drie lijnen samen, de tweede vraagt "
+                   "waarom het stap voor stap ging. Verbind in je antwoord telkens een lijn met een "
+                   "concreet conflict.",
+            waarom=[
+                "Noem bij elke lijn minstens één conflict, zoals in de eerste reeks. En noem dat de "
+                "lijnen door elkaar liepen; juist daarom waren er altijd coalities nodig.",
+                "Noem dat een compromis telkens maar een deel oploste. Dat is de reden dat er "
+                "verschillende hervormingen kwamen en dat de discussie vandaag niet gesloten is.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-kunst-en-cultuur-een-kunstwerk-analyseren-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zes stromingen, elk met één kernwoord: gevoel, de werkelijkheid, het licht, de "
+                   "oudheid, de vorm, de droom.",
+            waarom=[
+                "Let op het verschil tussen het realisme en het impressionisme: het realisme kiest "
+                "een ander onderwerp, namelijk het gewone en het arme leven; het impressionisme "
+                "kiest een andere manier van kijken, namelijk het licht van dat ene moment.",
+                "Let op het classicisme en de romantiek: die staan tegenover elkaar. Het eerste "
+                "zoekt de strakke vorm en de rede, het tweede het gevoel en de verbeelding.",
+            ],
+        ),
+        dict(
+            aanpak="Eén proef voor de hele reeks: kan iemand anders het op het werk nagaan? Dan is "
+                   "het een beschrijving. Zodra er een bedoeling of een gevoel in zit, is het een "
+                   "interpretatie.",
+            waarom=[
+                None,
+                "Let op het woord wil: zodra je over de bedoeling van de schilder spreekt, leid je "
+                "iets af. Dat kan een goede interpretatie zijn, maar het blijft een interpretatie.",
+                None,
+                "Let op troosteloos: de bleke kleuren kan je zien, troosteloos is wat jij eraan "
+                "toevoegt. Het eerste deel van de zin is beschrijving, het tweede niet.",
+            ],
+        ),
+        dict(
+            aanpak="De vier stappen gaan van buiten naar binnen: eerst waar en wanneer, dan wat je "
+                   "ziet, dan hoe het gemaakt is, en pas daarna wat het betekent.",
+            waarom=[
+                "Let erop dat interpreteren de laatste stap is en niet de eerste. Wie meteen "
+                "begint bij wat hij voelt, kijkt daarna enkel nog naar wat zijn gevoel bevestigt.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: kunst als bron, de rol van de "
+                   "opdrachtgever, en wat een werk over zijn tijd zegt.",
+            waarom=[
+                None,
+                "Niet waar: je begint bij situeren en beschrijven. Je eigen gevoel mag er zijn, "
+                "maar het komt na het kijken, niet ervoor.",
+                "Waar: wie betaalde, bepaalde vaak het onderwerp, het formaat en zelfs wie er in "
+                "beeld kwam. Daarom is de opdrachtgever een vraag die je bij elk werk stelt.",
+                None,
+                "Niet waar: ook een abstract werk is in een bepaalde tijd gemaakt en zegt iets over "
+                "de vragen van die tijd. Cobra ontstond kort na de Tweede Wereldoorlog, en dat is "
+                "aan die kunst te zien.",
+            ],
+        ),
+        dict(
+            aanpak="Drie open vragen: een methodevraag, een werk dat je moet lezen, en een vraag "
+                   "over kunst en samenleving. Verbind bij de laatste twee altijd met de tijd.",
+            waarom=[
+                "Noem dat een beschrijving controleerbaar is en een interpretatie afgeleid. Dat "
+                "onderscheid is dezelfde proef als in de tweede reeks.",
+                "Noem wat de fabriek op de achtergrond doet: ze zegt waaraan hij zijn aanzien "
+                "ontleent. Dat is precies hoe de negentiende-eeuwse burgerij zich wilde laten zien.",
+                "Noem één voorbeeld van een stroming als antwoord op de vorige, zoals de romantiek "
+                "op de verlichting. Met een voorbeeld is dit antwoord veel sterker.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-redeneren-met-bronnen-bruikbaarheid-en-betrouwbaarheid-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Eén vraag voor de hele reeks: komt het uit de tijd zelf, of is het later over "
+                   "die tijd geschreven? Het eerste is primair, het tweede secundair.",
+            waarom=[
+                None,
+                None,
+                None,
+                "Let op je handboek: het is secundair, want het is vandaag geschreven over een ver "
+                "verleden. De bronnen die erin afgedrukt staan, zijn wel primair.",
+                "Let erop dat een voorwerp ook een bron is. Een werktuig komt uit de tijd zelf, dus "
+                "het is primair, net als een brief.",
+            ],
+        ),
+        dict(
+            aanpak="Vier soorten: tekst, voorwerp, beeld en gesproken woord. Vraag je af in welke "
+                   "vorm de bron tot bij jou komt.",
+            waarom=[
+                None,
+                "Let op de affiche in de volgende rij en de foto hier: beide zijn beeldbronnen, ook "
+                "al staat er tekst op een affiche. De vorm waarin ze werkt, is het beeld.",
+            ],
+        ),
+        dict(
+            aanpak="Hou de onderzoeksvraag naast elke bron: Limburg, mijnwerkersgezinnen, wonen, "
+                   "rond 1950. Een bron die op één van die vier naast de kwestie valt, is niet "
+                   "bruikbaar.",
+            waarom=[
+                None,
+                "Niet bruikbaar, en let op waarom: het jaar klopt, maar het gaat over Wallonië en "
+                "over staal in plaats van over Limburgse mijnwerkerswoningen. Het juiste jaartal "
+                "maakt een bron nog niet bruikbaar.",
+                None,
+                "Niet bruikbaar: de achttiende eeuw ligt twee eeuwen naast je vraag. Hier is het de "
+                "tijd die niet past, niet het onderwerp.",
+            ],
+        ),
+        dict(
+            aanpak="Drie uitspraken en drie soorten. Een feit kan je nagaan, een mening geeft "
+                   "iemands kijk, een waardeoordeel spreekt goed of slecht uit.",
+            waarom=[
+                "Let op het verschil tussen een mening en een waardeoordeel: bij de tweede "
+                "uitspraak zitten de woorden veel te slecht, en dat is een oordeel. De derde "
+                "uitspraak zegt zelf volgens mij, en dat is een mening.",
+            ],
+        ),
+        dict(
+            aanpak="Vier vragen bij elke bron: wie, wanneer, voor wie, en met welk doel. Antwoord in "
+                   "die orde, dan volgt het besluit over de betrouwbaarheid er zelf uit.",
+            waarom=[
+                "Noem dat de regering in ballingschap zat, in Londen. Dat verklaart waarom de "
+                "affiche daar gedrukt werd en voor wie ze bedoeld was. En noem dat ze juist als "
+                "propaganda een uitstekende bron is, voor de goede vraag.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: primair tegenover secundair, de "
+                   "bruikbaarheid, en wat eerlijk werken betekent.",
+            waarom=[
+                "Niet waar: een ooggetuige kan zich vergissen, overdrijven of een belang hebben. "
+                "Een latere historicus kan meer bronnen naast elkaar leggen. Primair en "
+                "betrouwbaar zijn twee verschillende dingen.",
+                None,
+                None,
+                "Niet waar: de orde van de zoekresultaten zegt niets over de juistheid. Je kijkt "
+                "wie de site maakte, wanneer en met welk doel, net als bij elke andere bron.",
+                "Niet waar: met één bron weet je enkel wat die ene bron zegt. Je legt er altijd "
+                "andere naast, en dat heet kruisen.",
+                "Waar: beelden kunnen bewerkt of door een computer gemaakt zijn. Daarom vraag je "
+                "ook bij een foto waar ze vandaan komt en wie ze maakte.",
+            ],
+        ),
+        dict(
+            aanpak="Drie open vragen over dezelfde kern: de bruikbaarheid hangt af van je vraag, de "
+                   "tegenspraak is zelf informatie, en de herkomst hoort erbij.",
+            waarom=[
+                "Noem beide kanten apart: voor de feiten onbetrouwbaar, voor de boodschap van de "
+                "bezetter juist waardevol. Dat verschil is de kern van dit hoofdstuk.",
+                "Noem ook dat je in je besluit zegt wat je niet zeker weet. Dat hoort bij eerlijk "
+                "werken, en het is wat een historicus anders doet dan een verteller.",
+                "Noem beide redenen: de controleerbaarheid en de eerlijkheid. Enkel plagiaat noemen "
+                "is een half antwoord.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-beeldvorming-standplaatsgebondenheid-en-betekenisgeving-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zes begrippen in twee groepen: drie over valkuilen bij het kijken, drie over wat "
+                   "een samenleving met haar verleden doet.",
+            waarom=[
+                "Let op het eurocentrisme: het gaat niet enkel over fouten maar over de maatstaf. "
+                "Wie schrijft dat Congo in 1885 ontsloten werd, kijkt vanuit Europa; voor de "
+                "Congolezen begon er iets anders.",
+                "Let op de historische empathie: dat is proberen te begrijpen, niet meeleven en "
+                "niet goedkeuren. Dat onderscheid komt verder in de bundel terug.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je bij elk voorbeeld af wie beslist en waarom. Een feestdag, een "
+                   "straatnaam en een beschermd gebouw zijn alle drie keuzes van vandaag.",
+            waarom=[
+                None,
+                "Let erop dat een straatnaam niets aan het verleden verandert maar wel iets over "
+                "ons zegt: wij vinden die daad vandaag navolgbaar. Daarom kan een straatnaam ook "
+                "opnieuw ter discussie komen.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Eén vraag voor de hele reeks: wordt er onderzocht, of wordt er herdacht? "
+                   "Onderzoek naar een herdenking blijft geschiedenis.",
+            waarom=[
+                None,
+                None,
+                "Let op deze: er wordt wel over een herdenking gesproken, maar het is een studie. "
+                "Wie onderzoekt hoe een land herdenkt, doet aan geschiedenis.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: de plaats van de historicus zelf, hoe een "
+                   "beeld verandert, en waar de grens van de discussie ligt.",
+            waarom=[
+                "Waar, en dat is belangrijk: ook de historicus van vandaag leeft in een tijd met "
+                "eigen vragen. Daarom zegt hij waar hij staat en waar zijn bronnen vandaan komen.",
+                "Niet waar: begrijpen waarom iemand zo handelde is niet hetzelfde als het "
+                "goedvinden. Juist dat onderscheid maakt empathie bruikbaar bij een moeilijk "
+                "verleden.",
+                None,
+                "Niet waar: een handboek maakt keuzes over wat erin komt en wat niet, en het is in "
+                "een bepaald land en een bepaalde tijd geschreven. Ook jouw handboek is een bron.",
+                "Waar: de negationismewet van 1995 maakt het ontkennen van de Holocaust strafbaar. "
+                "Een vaststelling met bewijs is dus geen mening waarover je vrij discussieert.",
+                "Niet waar: wat een land herdenkt verschuift. Denk aan hoe het koloniale verleden "
+                "vandaag anders besproken wordt dan vijftig jaar geleden.",
+            ],
+        ),
+        dict(
+            aanpak="Twee vragen bij hetzelfde geval. Blijf bij de redenen en de gevolgen, en geef "
+                   "bij de oplossingen telkens het voordeel dat gevraagd wordt.",
+            waarom=[
+                "Noem bij elke oplossing het voordeel, zoals gevraagd. Een derde mogelijkheid is "
+                "een tweede werk ernaast dat de andere kant toont; ook dat is een verdedigbaar "
+                "antwoord.",
+                "Noem dat ook het plaatsen van een monument een keuze van zijn eigen tijd was. "
+                "Daarmee zie je twee lagen: de tijd van de persoon en de tijd van het beeld.",
+            ],
+        ),
+        dict(
+            aanpak="Drie open vragen: twee over verschillende verhalen over hetzelfde, en één over "
+                   "waarom dit vak nut heeft. Gebruik bij de eerste twee het begrip "
+                   "standplaatsgebondenheid.",
+            waarom=[
+                "Noem dat geen van beide liegt en dat beide verslagen samen meer tonen. Dat is "
+                "precies wat multiperspectiviteit oplevert.",
+                "Noem dat het verschil niet in de feiten zit maar in de nadruk en de hoofdrollen. "
+                "Dat is een scherper antwoord dan zeggen dat het ene boek fout zou zijn.",
+                "Noem beide redenen: begrijpen hoe het heden geworden is, en processen herkennen "
+                "die opnieuw werken. De tweede reden is wat dit vak buiten de school bruikbaar "
+                "maakt.",
+            ],
+        ),
     ],
 )
