@@ -1673,3 +1673,1575 @@ zet("het-landschap-lezen",
                   "gemeenschap, en wat brengt het op?", 5),
              ]),
     ])
+
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-situeren-kaarten-en-observatie-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Een graad heeft zestig minuten, dus reken je met zestig en niet met honderd. "
+                   "Van decimaal naar minuten: neem het deel na de komma maal 60. Van minuten "
+                   "naar decimaal: deel de minuten door 60. En onthoud één getal: één graad "
+                   "breedte is ongeveer 111 km, overal op aarde.",
+            waarom=[
+                "Reken de laatste na: 0,1 × 60 = 6, dus 3° 06'. Schrijf de minuten altijd met "
+                "twee cijfers, zodat 06' niet als 60' gelezen wordt.",
+                "En hier de omgekeerde weg: 15 gedeeld door 60 is 0,25. Een halve graad is dus "
+                "30' en niet 50', en dat is de fout die iedereen één keer maakt.",
+                None,
+                "111 gedeeld door 2 = 55,5 km. Een halve graad is een halve afstand, want de "
+                "breedtecirkels liggen overal even ver van elkaar.",
+                "Reken het na met de cosinus: 111 × cos 50° is ongeveer 71 km. Aan de evenaar is "
+                "een graad lengte nog 111 km, op de pool nul. Daarom kan je met lengte geen vaste "
+                "afstand rekenen.",
+            ],
+        ),
+        dict(
+            aanpak="Absoluut situeren doe je met coördinaten of een adres: het klopt zonder dat "
+                   "je iets anders moet kennen. Relatief situeren doe je ten opzichte van iets "
+                   "anders. Zoek dus of er in de zin een ander punt genoemd wordt; is dat zo, "
+                   "dan is het relatief.",
+            waarom=[
+                None,
+                "Boven de nevelgrens is ook een relatieve situering, en dat is minder duidelijk "
+                "dan ten oosten van Hasselt. Je kan het enkel plaatsen als je weet waar die "
+                "grens ligt, en die verschuift.",
+                None,
+                "0° lengte lijkt op niets, maar het is de nulmeridiaan van Greenwich, en dat is "
+                "een echte coördinaat. Dus absoluut.",
+                "Toets je eigen antwoord: kan iemand met enkel jouw eerste situering de school "
+                "op een kaart zetten zonder iets anders te kennen? Dan is ze absoluut.",
+            ],
+        ),
+        dict(
+            aanpak="De schaal 1 : 25 000 betekent dat één centimeter op de kaart 25 000 "
+                   "centimeter in het echt is. Reken altijd eerst in centimeter en zet pas "
+                   "achteraan om naar meter of kilometer. En onthoud: hoe kleiner het tweede "
+                   "getal, hoe groter de schaal en hoe meer detail.",
+            waarom=[
+                "8 × 25 000 = 200 000 cm. Deel door 100 voor meter (2 000 m) en nog eens door "
+                "1 000 voor kilometer (2 km).",
+                "Dezelfde 2 km, maar nu op een schaal die twee en een half keer groter is: "
+                "200 000 gedeeld door 10 000 = 20 cm. De weg wordt dus langer op het blad, niet "
+                "in het echt.",
+                "15 km is 1 500 000 cm; gedeeld door 300 000 geeft 5 cm. Zet de kilometers dus "
+                "altijd eerst om in centimeter, anders ben je er een factor honderdduizend naast.",
+                "1 : 10 000 is de grootste van de vier, want 1/10 000 is het grootste breukdeel. "
+                "Dat voelt tegennatuurlijk, en daarom staat deze vraag erbij.",
+                None,
+                "Noem in je antwoord wat je nodig hebt en niet enkel welke schaal. Paden, "
+                "hoogtelijnen en knooppunten staan alleen op een grootschalige kaart, en net "
+                "daarom kies je ze.",
+            ],
+        ),
+        dict(
+            aanpak="Kies je bron naar wat je wil weten: hoogte komt van een hoogtemodel, een "
+                   "meetreeks van een station, verandering over de tijd van beelden van twee "
+                   "momenten, en de ondergrond van een boring. Wat je enkel ter plaatse kan "
+                   "zien, vraagt een eigen waarneming.",
+            waarom=[
+                "Het DHM is het digitale hoogtemodel van Vlaanderen, gemaakt met laserscanning "
+                "vanuit een vliegtuig. Het is nauwkeurig tot op enkele centimeter, en je kan het "
+                "gratis bekijken op Geopunt.",
+                "Let op de drukte op een kruispunt: daar bestaat geen bron voor. Sommige "
+                "gegevens moet je zelf gaan tellen, en dat is ook geografisch werk.",
+                "GIS staat voor geografisch informatiesysteem. Het idee is de laag: bodem, "
+                "wegen, bevolking en hoogte over elkaar, en dan vragen stellen zoals welke huizen "
+                "liggen in overstromingsgebied.",
+            ],
+        ),
+        dict(
+            aanpak="Houd drie soorten hemellichamen uit elkaar: een ster maakt zelf licht, een "
+                   "planeet draait rond een ster en weerkaatst licht, een maan draait rond een "
+                   "planeet. Bij de vragen over observatie telt telkens één ding: de atmosfeer "
+                   "zit in de weg.",
+            waarom=[
+                None,
+                None,
+                "Niet waar. De zon is een heel gewone ster, eerder aan de kleine kant: de meeste "
+                "sterren in de Melkweg zijn kleiner, en de grootste zijn honderden keren groter. "
+                "Dat ze ons zo groot lijkt, komt enkel doordat ze dichtbij staat.",
+                "Dit is ook waarom de Hubble- en de Webbtelescoop in de ruimte hangen. De "
+                "atmosfeer doet de beelden trillen en houdt bovendien infrarood en ultraviolet "
+                "tegen.",
+                None,
+                "Noem bij deze vraag het regelmatige en het volledige van een satelliet. Een "
+                "vliegtuig vliegt waar en wanneer je het stuurt maar nooit over de hele aarde; "
+                "een satelliet komt elke paar dagen over hetzelfde punt, en net daarmee kan je "
+                "verandering meten.",
+            ],
+        ),
+        dict(
+            aanpak="Vier sferen: de atmosfeer is lucht, de hydrosfeer is water in elke vorm, de "
+                   "geosfeer is gesteente en bodem, de biosfeer is het leven. Vraag je bij elk "
+                   "verschijnsel af wat er precies beweegt of verandert, want dat beslist de "
+                   "sfeer.",
+            waarom=[
+                "Let op de ijskap: die hoort bij de hydrosfeer en niet bij de geosfeer, want ijs "
+                "is water. Men spreekt soms apart van de cryosfeer voor al het ijs en de sneeuw "
+                "op aarde.",
+                "Toets je eigen voorbeeld: het moet minstens drie sferen raken en een richting "
+                "hebben, van oorzaak naar gevolg. Twee verschijnselen naast elkaar zetten toont "
+                "nog geen samenhang.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-het-heelal-ontstaan-en-afstanden-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De orde van de oerknal volgt de temperatuur: hoe koeler, hoe grotere dingen "
+                   "er kunnen bestaan. Eerst losse deeltjes, dan protonen en neutronen, dan "
+                   "atomen, dan sterren, en pas veel later ons zonnestelsel. Ken de twee "
+                   "kerngetallen: 13,8 en 4,6 miljard jaar.",
+            waarom=[
+                "Merk op hoe laat de aarde in de rij komt: ze is pas bij ongeveer twee derde van "
+                "de geschiedenis van het heelal ontstaan. De atomen waaruit jij bestaat, zijn "
+                "dus in oudere sterren gemaakt.",
+                None,
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Drie onafhankelijke vaststellingen die alle drie naar de oerknal wijzen: de "
+                   "roodverschuiving, de achtergrondstraling en de verhouding waterstof-helium. "
+                   "Dat het er drie zijn die van elkaar losstaan, is het sterkste argument; leer "
+                   "ze dus als een drieluik.",
+            waarom=[
+                "De roodverschuiving is hetzelfde verschijnsel als het lager worden van een "
+                "sirene die wegrijdt, maar dan met licht. Rood is de lange kant van het "
+                "spectrum, dus roder betekent weg van ons.",
+                "Dit is de wet van Hubble, en het is precies wat je bij een uitrekkende ruimte "
+                "verwacht: hoe meer ruimte er tussen jou en iets zit, hoe meer ruimte er bij "
+                "komt.",
+                None,
+                "Het beeld van het rozijnenbrood is het antwoord dat ze willen horen. De kern "
+                "ervan is de laatste zin: de ruimte zelf rekt uit. De stelsels razen niet door de "
+                "ruimte weg van een punt; de afstanden ertussen worden groter.",
+            ],
+        ),
+        dict(
+            aanpak="Drie scenario's, en elk hangt af van wie het haalt: de uitdijing of de "
+                   "zwaartekracht. Haalt de zwaartekracht het, dan stort alles samen; haalt de "
+                   "uitdijing het, dan koelt alles af; versnelt ze onbeperkt, dan scheurt alles.",
+            waarom=[
+                None,
+                "De metingen wijzen op een uitdijing die versnelt, en bij de huidige waarden "
+                "eindigt dat in een heelal dat eeuwig verder uitdijt en afkoelt. De big rip "
+                "vraagt dat de versnelling zelf nog toeneemt, en daar is geen bewijs voor.",
+            ],
+        ),
+        dict(
+            aanpak="Twee maten en twee gebruiken. Binnen het zonnestelsel reken je in "
+                   "astronomische eenheden: het aantal AE maal 149,6 geeft miljoen kilometer. "
+                   "Daarbuiten reken je in lichtjaren, en dan is de afstand ook meteen de tijd "
+                   "die het licht erover deed.",
+            waarom=[
+                "1,5 × 149,6 = 224,4 miljoen km.",
+                "5,2 × 149,6 = 777,9 miljoen km, dus ongeveer 778 miljoen.",
+                "Reken het zelf na: 149,6 miljoen km gedeeld door 300 000 km per seconde is "
+                "ongeveer 499 seconden, en dat is 8 minuten en 19 seconden.",
+                "Dit is het mooiste gevolg van een lichtjaar: je kijkt altijd naar het verleden. "
+                "Ging die ster vorig jaar uit, dan zie je haar nog meer dan drie jaar schijnen.",
+                "Noem in je antwoord dat het om leesbare getallen gaat. In AE loopt het "
+                "zonnestelsel van 0,4 tot 30, mooi hanteerbaar; in kilometers zou Proxima "
+                "Centauri 40 biljoen km zijn, een getal waar niemand mee rekent.",
+            ],
+        ),
+        dict(
+            aanpak="Het adres van de aarde gaat van klein naar groot, telkens een stap verder: "
+                   "zonnestelsel, Melkweg, Lokale Groep, en daarboven de superclusterstructuur "
+                   "Laniakea. Elke stap is ongeveer honderd keer groter dan de vorige.",
+            waarom=[
+                "De Lokale Groep is de verzameling van ongeveer vijftig stelsels rond de Melkweg "
+                "en de Andromedanevel; Laniakea is de supercluster waarin die groep ligt. De naam "
+                "betekent onmetelijke hemel in het Hawaïaans.",
+                "Het brede bereik in dit antwoord is geen onzekerheid van jou maar van de "
+                "wetenschap: je kan de sterren niet tellen, je schat ze uit de massa van het "
+                "stelsel, en die schatting verschilt per methode.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-zon-en-het-zonnestelsel-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De lagen van de zon gaan van binnen naar buiten: kern, stralingszone, "
+                   "convectiezone, fotosfeer, chromosfeer, corona. Onthoud de fotosfeer als de "
+                   "grens: dat is wat je ziet, en alles daarbuiten is atmosfeer van de zon.",
+            waarom=[
+                "De namen zeggen zelf hoe de energie naar buiten gaat: in de stralingszone als "
+                "straling, in de convectiezone met stromend gas, zoals kokend water in een pan.",
+                None,
+                None,
+                "Niet waar, en dat is een van de grote open vragen van de zonnefysica. De corona "
+                "is één tot drie miljoen graden, dus honderden keren heter dan het oppervlak "
+                "eronder, en niemand weet precies hoe ze zo warm wordt.",
+                "Let op het woord fusie. In een kerncentrale op aarde gebeurt het omgekeerde, "
+                "splitsing van zware kernen; de zon smelt lichte kernen samen, en dat levert veel "
+                "meer energie per kilo.",
+            ],
+        ),
+        dict(
+            aanpak="Vier verschijnselen, van binnen naar buiten en van de zon naar ons: een vlek "
+                   "op het oppervlak, een lus erboven, de deeltjesstroom door de ruimte, en wat "
+                   "die deeltjes bij ons doen. Zo hangen ze ook samen in één keten.",
+            waarom=[
+                "Een zonnevlek is donker omdat ze koeler is, ongeveer 4 000 in plaats van 5 500 "
+                "graden. Apart zou zo'n vlek nog helder schijnen; ze lijkt zwart naast de rest.",
+                "De elfjarige cyclus is nuttig om te weten: rond het maximum zijn er meer "
+                "zonnestormen, en dus meer poollicht en meer risico voor satellieten.",
+                "Noem er twee van de genoemde. Dat het stroomnet erbij hoort, verrast meestal: "
+                "in 1989 viel de stroom in Québec negen uur uit door een zonnestorm.",
+            ],
+        ),
+        dict(
+            aanpak="Het ontstaan van het zonnestelsel is één verhaal in drie woorden: een wolk "
+                   "die samentrekt (de zonnenevel), een schijf die zich vormt, en korrels die "
+                   "samenklonteren (accretie). De vorstlijn verklaart daarna waar wat terechtkwam.",
+            waarom=[
+                None,
+                "Het kernwoord in dit antwoord is de vorstlijn: de afstand waarbinnen het te warm "
+                "was voor ijs. Binnen die lijn bleef enkel gesteente en metaal over, en daar is "
+                "veel minder van dan van ijs. Vandaar vier kleine planeten binnen en vier reuzen "
+                "buiten.",
+            ],
+        ),
+        dict(
+            aanpak="Vier aardse planeten binnen, vier reuzen buiten, en bij elk één kenmerk om te "
+                   "onthouden. Let bij Venus op de valkuil: de heetste planeet is niet de "
+                   "dichtste bij de zon, en dat heeft met haar atmosfeer te maken.",
+            waarom=[
+                None,
+                None,
+                "Venus komt tot ongeveer 465 graden, Mercurius tot 430 aan de dagzijde maar min "
+                "180 in de nacht. Mercurius heeft namelijk bijna geen atmosfeer om de warmte vast "
+                "te houden, en Venus een heel dikke.",
+                "Het verschil zit in de samenstelling: Jupiter en Saturnus zijn vooral waterstof "
+                "en helium, Uranus en Neptunus bevatten veel meer water, ammoniak en methaan, en "
+                "dat noemt men ijs in de sterrenkunde.",
+            ],
+        ),
+        dict(
+            aanpak="Drie verzamelplaatsen in opklimmende afstand: de asteroïdengordel tussen Mars "
+                   "en Jupiter, de Kuipergordel voorbij Neptunus, en de Oortwolk nog veel verder "
+                   "als bolvormige schil. Bij de dwergplaneten hoort telkens de plaats waar ze "
+                   "liggen.",
+            waarom=[
+                None,
+                None,
+                "De Oortwolk is nooit gezien: men besluit hem uit de banen van kometen die uit "
+                "alle richtingen komen en duizenden jaren over één omloop doen.",
+                None,
+                "Let op de derde voorwaarde, want daarop valt Pluto. Hij is wel bolvormig en "
+                "draait wel rond de zon, maar hij heeft zijn baan niet leeggeveegd. Sinds 2006 "
+                "heet hij daarom een dwergplaneet.",
+                "De staart ontstaat pas in de buurt van de zon, en hij wijst altijd van de zon "
+                "weg, ook als de komeet al wegvliegt. Het is dus geen spoor dat hij achterlaat.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-bewegingen-van-de-aarde-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Eén vraag beslist: gaat het over één dag of over één jaar? Rotatie is het "
+                   "draaien om de eigen as en verklaart alles van dag en nacht tot het "
+                   "corioliseffect. Revolutie is de omloop rond de zon en verklaart alles wat met "
+                   "seizoenen te maken heeft.",
+            waarom=[
+                None,
+                None,
+                None,
+                "De middernachtzon hoort bij de revolutie én bij de schuine as, niet bij de "
+                "rotatie: hij bestaat enkel in juni, dus op een bepaald punt van de omloop.",
+                None,
+                None,
+                None,
+                "Reken het na: 0,25 dag per jaar maal vier jaar is één hele dag. Zonder "
+                "schrikkeldag zou het na 700 jaar in juni winter zijn op de kalender, en net "
+                "daarom bestaat de regel ook voor de eeuwjaren.",
+            ],
+        ),
+        dict(
+            aanpak="Vijftien graden lengte is één uur, want 360 graden in 24 uur. Reken dus het "
+                   "verschil in graden, deel door vijftien, en kijk dan naar de richting: naar "
+                   "het oosten is het later, naar het westen vroeger.",
+            waarom=[
+                "45 min 15 is 30 graden, gedeeld door 15 is 2 uur, en oostwaarts is later, dus "
+                "16 uur.",
+                "75 gedeeld door 15 = 5 uur. Let op de richting: westerlengte betekent vroeger, "
+                "dus daar is het 5 uur eerder dan op de nulmeridiaan.",
+                "Hier reken je van west naar oost, dus bijtellen: 9 + 5 = 14 uur. Zet bij zo'n "
+                "oefening altijd eerst op papier welke richting je gaat.",
+                "Waar, en dat is de kant die het vaakst verkeerd onthouden wordt. Van Azië naar "
+                "Amerika, dus oostwaarts, krijg je een dag terug; westwaarts verlies je er een.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Het corioliseffect wijkt af naar rechts op het noordelijk halfrond en naar "
+                   "links op het zuidelijk; op de evenaar is het nul. Onthoud enkel die drie "
+                   "feiten, dan kan je elk windsysteem en elke depressie zelf uittekenen.",
+            waarom=[
+                None,
+                None,
+                None,
+                "Teken het mee met vier pijlen naar het middelpunt en buig ze elk naar rechts: "
+                "dan zie je dat ze samen tegen de klok in gaan draaien. Op het zuidelijk "
+                "halfrond draait een depressie dus met de klok mee.",
+            ],
+        ),
+        dict(
+            aanpak="De schuine as van 23,5 graden verklaart de seizoenen, en de vier vaste data "
+                   "verklaren waar de zon loodrecht staat. Let op de grote valkuil: de afstand "
+                   "tot de zon is niet de reden van de seizoenen.",
+            waarom=[
+                None,
+                "Merk op dat 23,5 graden terugkomt in de keerkringen en dat 90 min 23,5 de "
+                "poolcirkels op 66,5 graden geeft. Die drie getallen hangen dus aan elkaar vast.",
+                "Niet waar, en het is zelfs omgekeerd: in januari staat de aarde het dichtst bij "
+                "de zon. Dat de afstand het niet is, bewijst ook het zuidelijk halfrond, waar het "
+                "in juni winter is terwijl de afstand dezelfde is.",
+                "Noem beide redenen: een hogere zonnestand én een langere dag. De hogere stand "
+                "betekent dat dezelfde bundel licht op een kleiner oppervlak valt, en dus meer "
+                "warmte per vierkante meter.",
+                None,
+                None,
+            ],
+        ),
+        dict(
+            aanpak="De middaghoogte van de zon reken je met één formule: 90 min je breedte, en "
+                   "dan de helling erbij of eraf. Bij 21 juni plus 23,5 graden, bij 21 december "
+                   "min 23,5 graden, in maart en september niets.",
+            waarom=[
+                None,
+                "Reken mee: 39 + 23,5 = 62,5 graden. Dat is de hoogste stand van het jaar bij "
+                "ons, en nog altijd geen 90 graden; de zon staat in België nooit loodrecht.",
+                "39 − 23,5 = 15,5 graden. Dat lage getal verklaart de lange schaduwen en de "
+                "zwakke opwarming in december: het licht valt heel schuin binnen.",
+                "Let op de twee delen van het antwoord. De zonnestand hangt enkel van de breedte "
+                "en de datum af, dus die is gelijk; het klimaat hangt ook van de zee af, en de "
+                "zee warmt traag op en koelt traag af.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-maan-getijden-en-verduisteringen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Twee omlooptijden om uit elkaar te houden: 27,3 dagen ten opzichte van de "
+                   "sterren en 29,5 dagen van nieuwe maan tot nieuwe maan. Het verschil komt "
+                   "doordat de aarde zelf verder schuift; dat is dezelfde gedachte als bij de "
+                   "sterrendag en de zonnedag.",
+            waarom=[
+                None,
+                "Dit is de maand die je op de kalender ziet: de schijngestalten herhalen zich elke "
+                "29,5 dagen, en daar komt het woord maand van.",
+                "Reken het ruw na: de aarde legt in die 27 dagen ongeveer 27 graden van haar "
+                "baan af, en de maan moet die 27 graden nog bijhalen. Dat kost ongeveer twee "
+                "dagen, en zo kom je van 27,3 aan 29,5.",
+                "Niet waar, en dat is de valkuil van dit hoofdstuk. De maan draait wél om haar "
+                "as, maar precies even snel als ze rond de aarde gaat. Daarom zien we altijd "
+                "dezelfde kant.",
+                "Gebonden rotatie is geen toeval: de getijdenkrachten van de aarde hebben de maan "
+                "in die stand vastgezet, en dat gebeurt bij veel manen in het zonnestelsel.",
+            ],
+        ),
+        dict(
+            aanpak="De schijngestalten zijn niets anders dan de hoek waaronder wij de "
+                   "verlichte helft zien. Leg bij elke stand de drie lichamen op een rij: staat "
+                   "de maan tussen aarde en zon, dan is het nieuwe maan; staat de aarde in het "
+                   "midden, dan is het volle maan.",
+            waarom=[
+                None,
+                None,
+                None,
+                "Let erop dat de maan bij nieuwe maan niet in de schaduw van de aarde zit, al "
+                "wordt dat vaak gedacht. De zon beschijnt gewoon de andere helft, en die keert ze "
+                "van ons af.",
+            ],
+        ),
+        dict(
+            aanpak="Getijden komen van twee waterbergen: één aan de maanzijde en één aan de "
+                   "overzijde. Daardoor is er twee keer hoogwater per etmaal van de maan. "
+                   "Datzelfde beeld verklaart springtij en doodtij: staan zon en maan op één "
+                   "lijn, dan tellen hun krachten op.",
+            waarom=[
+                "Die 24 uur en 50 minuten is het etmaal van de maan: ze komt elke dag ongeveer "
+                "vijftig minuten later op. Daarom schuift het uur van het hoogwater elke dag mee.",
+                "Springtij bij nieuwe en volle maan, doodtij bij de kwartieren. Onthoud het aan de "
+                "lijn: op één lijn werken zon en maan samen, in een rechte hoek werken ze tegen "
+                "elkaar.",
+                "Dit is het moeilijkste van de bundel. De sleutel is de tweede zin: de maan trekt "
+                "ook aan de aarde zelf. Aan de verre kant wordt de aarde dus onder het water "
+                "weggetrokken, en daar blijft een tweede berg over.",
+                "De zon is veel zwaarder maar ook veel verder, en bij getijden telt vooral het "
+                "verschil in trekkracht over de breedte van de aarde. Daarom haalt de zon maar "
+                "ongeveer de helft van het effect van de maan.",
+            ],
+        ),
+        dict(
+            aanpak="Houd de twee verduisteringen uit elkaar aan wat er in het midden staat. Bij "
+                   "een zonsverduistering staat de maan in het midden, dus is het nieuwe maan; "
+                   "bij een maansverduistering staat de aarde in het midden, dus is het volle "
+                   "maan.",
+            waarom=[
+                None,
+                None,
+                None,
+                "Dit is de vraag waar het hoofdstuk om draait. De maanbaan helt ongeveer vijf "
+                "graden, dus de maan zit meestal net boven of net onder de schaduwlijn. Enkel in "
+                "de twee knooppunten waar de banen kruisen, kan er een verduistering zijn.",
+                "Waar, en daarom is een totale zonsverduistering zo'n zeldzaam schouwspel op één "
+                "plaats: de kernschaduw is een smalle baan die over de aarde schuift, terwijl een "
+                "maansverduistering tegelijk zichtbaar is voor het hele nachtelijke halfrond.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-opbouw-van-de-atmosfeer-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vier lagen van onder naar boven: troposfeer, stratosfeer, mesosfeer, "
+                   "thermosfeer. Onthoud ze aan de temperatuur, want die wisselt per laag van "
+                   "richting: dalen, stijgen, dalen, stijgen. De grenzen liggen rond 12, 50 en "
+                   "85 km.",
+            waarom=[
+                "Dat de temperatuur in de stratosfeer stijgt, komt door de ozonlaag: die neemt "
+                "uv-straling op en warmt daardoor op. Zo hangen de twee dingen die je van die "
+                "laag moet kennen aan elkaar.",
+                "Een verkeersvliegtuig vliegt op ongeveer 10 tot 12 km, dus net op de grens. De "
+                "reden is praktisch: boven de troposfeer is er geen bewolking en minder "
+                "turbulentie, en de ijle lucht geeft minder weerstand.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Met 0,65 graden per 100 meter reken je altijd in twee stappen: eerst het "
+                   "hoogteverschil gedeeld door 100, dan maal 0,65. Klim je, dan trek je af; daal "
+                   "je, dan tel je bij. Wil je de hoogte uit een verschil halen, dan deel je door "
+                   "0,65 en maal 100.",
+            waarom=[
+                "2000 gedeeld door 100 is 20, maal 0,65 is 13 graden. Dus 18 − 13 = 5 °C.",
+                "Hier moet je bijtellen, want je daalt: 30 × 0,65 = 19,5, en −4 + 19,5 = 15,5 °C. "
+                "De richting is het enige waar je op moet letten.",
+                "10 gedeeld door 0,65 = 15,4, maal 100 is ongeveer 1 540 m. Toets het omgekeerd: "
+                "15,4 × 0,65 is inderdaad 10 graden.",
+                "1 200 gedeeld door 100 maal 0,65 = 7,8 °C. Let op de laatste woorden van het "
+                "antwoord: als al de rest gelijk zou zijn. In werkelijkheid speelt ook de zee "
+                "mee, en die maakt de kuststad in de winter juist zachter.",
+            ],
+        ),
+        dict(
+            aanpak="Ken de vier aandelen uit het hoofd: 78, 21, 0,9 en 0,04 procent. En houd de "
+                   "twee ozons uit elkaar aan hun plaats: hoog in de stratosfeer is ozon een "
+                   "schild, laag bij de grond is het luchtvervuiling.",
+            waarom=[
+                "Merk op dat die vier samen al bijna honderd procent zijn. Waterdamp staat er "
+                "niet bij omdat het aandeel ervan sterk wisselt, van bijna niets tot enkele "
+                "procent.",
+                "Het punt is dat een aandeel niets zegt over het effect. Stikstof en zuurstof "
+                "nemen warmtestraling bijna niet op, CO2 wel, dus die 0,04 procent doet bijna al "
+                "het werk, samen met waterdamp en methaan.",
+                "Hetzelfde molecuul, twee tegengestelde rollen: dat is het hele punt van deze "
+                "lijn. Men spreekt daarom van goede ozon boven en slechte ozon beneden.",
+            ],
+        ),
+        dict(
+            aanpak="Albedo is het deel van het zonlicht dat weerkaatst wordt. Licht en wit "
+                   "weerkaatsen veel, donker weinig, en water het minst van al. De orde volgt dus "
+                   "de kleur: sneeuw, zand, beton, bos, oceaan.",
+            waarom=[
+                "Verse sneeuw haalt tot 0,9, de oceaan ongeveer 0,06. Dat is bijna het hele "
+                "bereik, en daarom weegt juist ijs zo zwaar in het klimaat.",
+                None,
+                "Dit heet een versterkende terugkoppeling, en het is het belangrijkste begrip van "
+                "de reeks. Het gevolg versterkt zijn eigen oorzaak, en daardoor gaat de opwarming "
+                "in de poolgebieden twee tot drie keer sneller dan gemiddeld.",
+            ],
+        ),
+        dict(
+            aanpak="Vier factoren bepalen de temperatuur van een plaats: de breedte, de hoogte, "
+                   "de afstand tot de zee en de bebouwing. Zoek bij elk paar welke van die vier "
+                   "verschilt, want de andere drie zijn dan ongeveer gelijk gehouden.",
+            waarom=[
+                "Let op het tweede paar: in januari is de kust warmer, in juli juist koeler. De "
+                "zee dempt in beide richtingen, dus je moet altijd het seizoen meelezen.",
+                None,
+                None,
+                "Twee van de genoemde volstaan. Wat ze gemeen hebben, is dat ze de stad minder "
+                "warmte laten opslaan of meer laten verdampen. Een boom koelt dubbel: hij geeft "
+                "schaduw en verdampt water.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-luchtdruk-en-winden-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Alles bij hoge en lage druk volgt uit één ding: de richting waarin de lucht "
+                   "beweegt. Bij lage druk stijgt ze, en stijgende lucht koelt af en geeft "
+                   "wolken en regen. Bij hoge druk daalt ze, en dalende lucht wordt warmer en "
+                   "droger, dus helder weer.",
+            waarom=[
+                "Let op de laatste twee lijnen. Aan de grond stroomt de lucht naar een lage druk "
+                "toe en waaiert ze bij een hoge druk uiteen; in de hoogte is het net omgekeerd. "
+                "Zo is de kringloop rond.",
+                "1013 hPa is ook het getal waarmee elke hoogtemeter ingesteld wordt. Boven 1020 "
+                "spreken we van een hoog, onder 1000 van een diepe depressie.",
+                "Waar, en dat is hoge druk in de winter: geen wolken, dus koelt de grond 's "
+                "nachts sterk af, en de vochtige lucht blijft onder een inversie gevangen. Hoge "
+                "druk geeft dus niet altijd zonnig weer.",
+                "Noem de hele keten: stijgen, afkoelen, dauwpunt, condensatie op "
+                "condensatiekernen, wolken. Wie enkel zegt dat de lucht stijgt, heeft de helft "
+                "van het antwoord.",
+            ],
+        ),
+        dict(
+            aanpak="Een isobaar werkt als een hoogtelijn, maar voor luchtdruk. Dicht bij elkaar "
+                   "betekent een steile drukhelling en dus veel wind, net zoals dichte "
+                   "hoogtelijnen een steile berg betekenen.",
+            waarom=[
+                None,
+                "Dit is het nuttigste dat je van een weerkaart kan lezen. De afstand tussen de "
+                "isobaren geeft de windkracht, nog voor je naar de pijlen kijkt.",
+                "De drukgradiëntkracht is de enige kracht die de lucht in beweging zet; coriolis "
+                "en wrijving veranderen daarna alleen de richting, niet de aandrijving.",
+                "Noem alle drie de krachten: druk, coriolis en wrijving. Zonder wrijving zou de "
+                "wind precies langs de isobaren waaien; door de wrijving aan de grond kruist hij "
+                "ze onder een hoek van ongeveer 20 tot 30 graden, en net daardoor kan hij een "
+                "depressie binnenlopen.",
+            ],
+        ),
+        dict(
+            aanpak="De drukgordels wisselen af van de evenaar naar de pool: laag, hoog, laag, "
+                   "hoog, dus op 0, 30, 60 en 90 graden. Onthoud ze aan het weer dat ze geven: "
+                   "regenwoud, woestijn, wisselvallig, poolwoestijn.",
+            waarom=[
+                "Merk op dat 0 en 60 graden lage druk hebben en dus nat zijn, en 30 en 90 hoge "
+                "druk en dus droog. De poolgebieden zijn daarom woestijnen, al liggen ze vol "
+                "ijs: er valt bijna geen neerslag.",
+                "Dit is de hele cel van Hadley in één antwoord: opstijgen aan de evenaar, vocht "
+                "afgeven, en droog neerdalen rond 30 graden. Daar liggen de Sahara, de Arabische "
+                "woestijn, de Kalahari en de Australische woestijnen.",
+                "De ITCZ schuift met de zon mee, in juli naar het noorden en in januari naar het "
+                "zuiden. Net die beweging maakt het regenseizoen in de tropen.",
+            ],
+        ),
+        dict(
+            aanpak="Houd twee soorten winden uit elkaar: de grote, vaste winden van de "
+                   "drukgordels (passaat, westenwind, straalstroom) en de plaatselijke winden die "
+                   "van het verschil tussen land en zee komen (zeewind, landwind, moesson). Die "
+                   "laatste drie werken alle op hetzelfde principe.",
+            waarom=[
+                "Dat de passaat noordoost heet, komt van coriolis: de lucht gaat van 30 graden "
+                "naar de evenaar en buigt naar rechts af. Een wind wordt altijd genoemd naar de "
+                "richting waaruit hij komt.",
+                None,
+                "De zeewind, de landwind en de moesson zijn hetzelfde verschijnsel op drie "
+                "schalen: per dag aan de kust, en per seizoen voor een heel continent. Leer er "
+                "dus één goed en de andere volgen.",
+                "De moesson is de zeewind in het groot: in de zomer warmt het Aziatische "
+                "vasteland veel sterker op dan de oceaan, en dus stroomt vochtige zeelucht toe. "
+                "In de winter is het continent kouder en keert de stroom om.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-neerslag-en-de-kringloop-van-het-water-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De kringloop is een kring van vaste woorden: verdamping en transpiratie "
+                   "omhoog, condensatie en neerslag omlaag, en dan infiltratie of afstroming. "
+                   "Houd die laatste twee goed uit elkaar, want daarop komt bijna elke vraag "
+                   "over de stad terug.",
+            waarom=[
+                "Verdamping en transpiratie zijn hetzelfde verschijnsel met een andere bron: het "
+                "oppervlak of de plant. Samen heet dat evapotranspiratie, en bij een bos is dat "
+                "deel groot.",
+                None,
+                "Dit is de reden waarom een stad na een onweer onder water staat. Reken het ruw "
+                "na: een weide laat het grootste deel infiltreren, asfalt bijna niets, dus komt "
+                "hetzelfde buitje in een paar minuten in de beek in plaats van in een paar dagen.",
+            ],
+        ),
+        dict(
+            aanpak="Het dauwpunt is de temperatuur waarbij de lucht vol zit. Warme lucht kan meer "
+                   "damp bevatten dan koude, dus afkoelen brengt de lucht altijd naar haar "
+                   "dauwpunt. Daar komt elke vorm van condensatie uit: wolken, mist, dauw en de "
+                   "ruit in de badkamer.",
+            waarom=[
+                None,
+                None,
+                "Zonder condensatiekernen zou de damp niet condenseren, ook niet onder het "
+                "dauwpunt. Daarom werkt het bezaaien van wolken met zoutkristallen, en daarom "
+                "komt er boven een stad soms meer neerslag.",
+                "Leer de vier wolken aan twee kenmerken: hoog of laag, en in lagen of gestapeld. "
+                "Cirrus is hoog en ijl, stratus laag en vlak, cumulus gestapeld, cumulonimbus de "
+                "reus met het aambeeld bovenaan.",
+                "Dit is hetzelfde verschijnsel als een wolk, in het klein. En het is ook de reden "
+                "dat je in de winter je brillenglazen ziet aanslaan als je binnenkomt.",
+            ],
+        ),
+        dict(
+            aanpak="Eén millimeter neerslag is één liter per vierkante meter: dat maakt elke "
+                   "rekening eenvoudig. Liters zijn millimeters maal de oppervlakte, en "
+                   "millimeters zijn liters gedeeld door de oppervlakte.",
+            waarom=[
+                "18 × 60 = 1 080 liter. Dat is meer dan drie regentonnen, en het verklaart waarom "
+                "een afvoerbuis van een dak zo snel vol staat.",
+                "300 gedeeld door 25 = 12 mm. Een flinke zomerbui levert dus al een volle ton.",
+                "780 gedeeld door 12 = 65 mm. Let op dat dit een gemiddelde is: bij ons valt er in "
+                "december ongeveer het dubbele van wat er in april valt.",
+                "Niet waar. Tegen een muur vangt de meter te veel of te weinig op, want de muur "
+                "stuurt de wind en houdt regen af. Een regenmeter staat vrij, op ongeveer anderhalve "
+                "meter en op minstens twee keer de hoogte van wat er in de buurt staat.",
+            ],
+        ),
+        dict(
+            aanpak="Drie soorten regen, en bij elk een eigen oorzaak van het opstijgen: een berg "
+                   "duwt de lucht omhoog, de warme grond laat ze zelf opstijgen, of een front "
+                   "schuift ze over koude lucht. Zoek dus in de situatie wat de lucht omhoog "
+                   "brengt.",
+            waarom=[
+                "Onthoud ze aan de tijd die ze duren: convectieve regen is kort en fel, een "
+                "onweersbui; frontale regen duurt uren en is gelijkmatig; stuwingsregen valt "
+                "altijd aan dezelfde kant van het gebergte.",
+                "De regenschaduw is de keerzijde van stuwingsregen: de lucht is haar vocht aan de "
+                "windzijde kwijtgespeeld en daalt droog weer af. Zo ligt de woestijn van Nevada "
+                "achter de Sierra Nevada en de Po-vlakte in de schaduw van de Alpen.",
+                "Drie van de genoemde volstaan, en het mooiste is dat ze samen alle woestijnen "
+                "verklaren: de ene door de drukgordel, de andere door een regenschaduw, de derde "
+                "door een koude zeestroom.",
+                "Boven koud water verdampt weinig, en koude lucht boven warmer land stijgt niet "
+                "op. Daarom is de Atacama de droogste woestijn van de wereld: in sommige stations "
+                "is er in jaren geen meetbare regen gevallen, al staat er wel vaak kustmist.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-klimaatgebieden-biomen-en-zeestromen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Eén vraag beslist: gaat het over één moment of over een gemiddelde van jaren? "
+                   "Weer is wat er nu gebeurt, klimaat is het gemiddelde over dertig jaar. Ook "
+                   "drie dagen regen blijft weer, hoe lang het ook aanvoelt.",
+            waarom=[
+                None,
+                None,
+                "Dit is de klassieke valkuil: lang weer wordt geen klimaat. Omgekeerd zegt één "
+                "koude winter niets over de opwarming, en net daarom is die periode van dertig "
+                "jaar afgesproken.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Een bioom volgt uit twee gegevens: de temperatuur en de neerslag. Bij elk "
+                   "bioom hoort een aanpassing van de planten, en daar vraagt de tabel naar: "
+                   "bladverlies bij droogte, kleine leerachtige blaadjes in de Middellandse Zee, "
+                   "naalden bij kou.",
+            waarom=[
+                "Merk op dat de aanpassing telkens hetzelfde doel heeft: water vasthouden of kou "
+                "overleven. Een naald verliest minder water dan een blad, en een leerachtig "
+                "blaadje verdampt bijna niet.",
+                "Noem beide redenen. Het korte groeiseizoen is er één, de permafrost de andere: "
+                "een boom heeft diepe wortels nodig en die kunnen in bevroren grond niet. Daarom "
+                "ligt de boomgrens waar hij ligt.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Een warme zeestroom brengt zachte, vochtige lucht; een koude stroom brengt "
+                   "droogte en mist. Zoek bij elke kust dus eerst of de stroom van de evenaar of "
+                   "van de pool komt, want dat beslist het klimaat van die kust.",
+            waarom=[
+                "Let op het verschil tussen mist en regen bij een koude stroom. De lucht boven "
+                "koud water wordt onderaan afgekoeld tot onder het dauwpunt, dus ontstaat er "
+                "mist; maar ze stijgt niet op, en zonder opstijgen is er geen regen.",
+                "Reken het verschil na: Bergen ligt vijftien breedtegraden noordelijker en is in "
+                "januari toch zachter. Dat is het sterkste bewijs dat breedte alleen een klimaat "
+                "niet verklaart.",
+            ],
+        ),
+        dict(
+            aanpak="De thermohaliene circulatie heeft haar naam van haar twee motoren: thermo "
+                   "voor warmte en halien voor zout. Koud en zout water is zwaar en zinkt, en dat "
+                   "zinken trekt de hele lopende band op gang. Elke vraag in deze reeks gaat "
+                   "terug op dat ene punt.",
+            waarom=[
+                None,
+                "Dat het water juist daar zinkt, komt doordat het er zowel koud als extra zout "
+                "is: bij het bevriezen van zee-ijs blijft het zout in het water achter.",
+                "Let op de laatste zin van het antwoord. Het is niet de koude die het water doet "
+                "zinken maar de dichtheid, en zoet smeltwater verlaagt die dichtheid. Daarom is "
+                "juist zoetwater een rem op een stroming die door kou wordt aangedreven.",
+                "Niet waar, en dat is de reden waarom deze circulatie in het nieuws komt. Ze "
+                "brengt warm water naar het noordoosten van de Atlantische Oceaan; valt ze weg, "
+                "dan worden onze winters juist veel kouder, terwijl de aarde als geheel opwarmt.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-het-weer-in-europa-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Houd de twee fronten uit elkaar aan de helling. Een warmtefront is flauw: de "
+                   "warme lucht glijdt traag omhoog, dus brede wolkenlagen en urenlange regen. "
+                   "Een koufront is steil: de koude lucht duwt de warme snel omhoog, dus hoge "
+                   "buienwolken en een korte, felle bui.",
+            waarom=[
+                "Let op de orde van de wolken bij een warmtefront: eerst cirrus, dan steeds lager "
+                "en dikker. Dat is het nuttigste weerteken dat je zelf kan zien, want die "
+                "sluierwolken komen uren voor de regen.",
+                "Een occlusie is het einde van een depressie: het koufront haalt het warmtefront "
+                "in, de warme sector wordt van de grond getild en de depressie vult zich op.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Een luchtsoort krijgt twee namen: waar ze gevormd is (maritiem of "
+                   "continentaal) en hoe koud ze is (polair of tropisch). Zoek dus in de "
+                   "omschrijving het vocht, dat geeft het eerste woord, en de temperatuur, dat "
+                   "geeft het tweede.",
+            waarom=[
+                "Merk op dat maritiem altijd vochtig betekent en continentaal altijd droog, en "
+                "dat die twee ook het dagelijkse verschil in België maken: westenwind geeft "
+                "wolken, oostenwind geeft droge kou of droge hitte.",
+                "Let op de laatste zin van het antwoord: weinig vocht betekent weinig wolken, en "
+                "zonder wolken kan de zon de lucht nog verder opwarmen. Een hittegolf heeft dus "
+                "zowel een warme herkomst als een droge lucht nodig.",
+            ],
+        ),
+        dict(
+            aanpak="Een depressie trekt in een vaste orde voorbij: eerst sluierwolken, dan het "
+                   "warmtefront met lange regen, dan de warme sector, dan het koufront met buien, "
+                   "en daarna opklaringen. Ken die vijf stappen en je kan een hele dag weer "
+                   "voorspellen.",
+            waarom=[
+                "Merk op dat het twee keer regent met iets grijs maar droog ertussen. Wie na het "
+                "warmtefront denkt dat het gedaan is, wordt door het koufront verrast.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Op een weerkaart lees je drie dingen: de letters H en L, de fronten met hun "
+                   "symbolen, en de afstand tussen de isobaren. De driehoekjes van een koufront "
+                   "en de halve bollen van een warmtefront wijzen altijd in de richting waarin "
+                   "het front beweegt.",
+            waarom=[
+                None,
+                None,
+                None,
+                "1028 hPa is hoge druk en wijd uit elkaar liggende isobaren betekenen weinig "
+                "wind. Samen is dat een blokkerend hoog: rustig en droog, in de zomer zonnig en "
+                "in de winter met mist of nachtvorst.",
+                "Dit is het chaosbegrip, en het antwoord mag je in gewone woorden zetten: een "
+                "kleine onzekerheid in de meting van vandaag groeit elke dag uit. Daarom werken "
+                "weerdiensten met een hele reeks berekeningen naast elkaar en geven ze een kans "
+                "in procent in plaats van één uitkomst.",
+                "De straalstroom stuurt niet enkel waar de depressies gaan maar ook hoe snel. Ligt "
+                "hij ver naar het zuiden, dan krijgen wij koude lucht; buigt hij om in een lus, "
+                "dan blijft hetzelfde weer wekenlang hangen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-opbouw-van-de-geosfeer-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Er zijn twee indelingen van de aarde door elkaar, en dat is net wat deze "
+                   "reeks test. Korst, mantel en kern gaan over waaruit het gesteente bestaat; "
+                   "lithosfeer en asthenosfeer gaan over of het stijf of kneedbaar is. Zoek dus "
+                   "in de naam: eindigt ze op -sfeer en gaat het over buigen, dan is het de "
+                   "tweede indeling.",
+            waarom=[
+                None,
+                None,
+                None,
+                None,
+                "Dit is het hart van de reeks. De lithosfeer is korst plus het bovenste stijve "
+                "stuk mantel, dus ze loopt dwars door de chemische indeling heen. Precies "
+                "daarom kan men niet zeggen hoe diep de lithosfeer gaat door naar de korst te "
+                "kijken.",
+            ],
+        ),
+        dict(
+            aanpak="Houd één regel vast: een P-golf is een duwgolf en kan door alles, een S-golf "
+                   "is een schuifgolf en kan niet door een vloeistof. Daarmee kan je elke vraag "
+                   "van deze reeks beantwoorden, ook die over de kern.",
+            waarom=[
+                "De P van primair helpt om te onthouden dat ze eerst aankomt. Een seismograaf "
+                "ziet dus altijd twee aankomsten, en uit het verschil ertussen kan men de "
+                "afstand tot het epicentrum berekenen.",
+                "Dit is een mooi voorbeeld van onrechtstreeks meten: niet de kern zelf is "
+                "gemeten maar de schaduw die ze maakt. Noem in je antwoord zeker de "
+                "schaduwzone, want dat is het bewijs.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="De twee soorten korst verschillen op vier punten: dikte, gesteente, "
+                   "dichtheid en leeftijd. Onthoud één koppel en de rest volgt: oceanische korst "
+                   "is dun maar zwaar, continentale korst is dik maar licht.",
+            waarom=[
+                None,
+                "Let erop dat het om dichtheid gaat en niet om dikte. De oceanische korst is "
+                "veel dunner en toch degene die wegduikt, juist omdat ze zwaarder is per "
+                "kubieke centimeter.",
+                "Dit sluit aan bij de vorige vraag: oceanische korst wordt aan een rug gemaakt "
+                "en aan een trog weer opgeruimd. De oudste oceaanbodem is dan ook maar ongeveer "
+                "200 miljoen jaar oud, terwijl continentale korst bijna vier miljard jaar kan "
+                "halen.",
+            ],
+        ),
+        dict(
+            aanpak="Isostasie is evenwicht door drijven, net als een ijsblok in water: hoe "
+                   "hoger het boven het water uitkomt, hoe dieper het eronder zit. Een gebergte "
+                   "heeft dus een wortel, en wordt er gewicht weggehaald, dan komt de korst "
+                   "omhoog.",
+            waarom=[
+                None,
+                "Dat heet de gebergtewortel. Onder de Himalaya is de korst meer dan 70 km dik, "
+                "terwijl ze onder Vlaanderen ongeveer 30 km haalt.",
+                "Dit is het bekendste bewijs van isostasie dat vandaag nog bezig is. Noem in je "
+                "antwoord zeker dat het gesteente eronder traag vloeit, want dat verklaart "
+                "waarom het nog duurt terwijl het ijs al tienduizend jaar weg is.",
+                "Reken na: 1 cm per jaar maal 100 jaar is 100 cm, dus 1 meter per eeuw. Dat is "
+                "weinig per jaar en veel op de schaal van een mensenleven.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-platentektoniek-en-reliefvorming-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Elk bewijs van Wegener volgt hetzelfde patroon: iets dat vandaag ver van "
+                   "elkaar ligt, hoort bij elkaar. Zeg bij elke vaststelling dus niet enkel dat "
+                   "de continenten bewogen zijn, maar wat precies ooit één geheel was: één kust, "
+                   "één leefgebied, één gebergte, één ijskap.",
+            waarom=[
+                None,
+                None,
+                "Dit is het punt dat Wegener zelf het zwaarst woog: hij kon de beweging zien maar "
+                "niet verklaren. Een goed idee zonder motor wordt niet geloofd, en dat is geen "
+                "domheid van zijn tijdgenoten maar gewoon wetenschap.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je bij elke plaatrand twee dingen: bewegen de platen naar elkaar toe, "
+                   "van elkaar weg of langs elkaar, en wat voor korst botst er. Naar elkaar toe "
+                   "met oceanische korst erbij geeft een trog en vulkanen; twee continenten geeft "
+                   "een plooiingsgebergte zonder vulkanen; langs elkaar geeft enkel bevingen.",
+            waarom=[
+                "Let op het verschil tussen de Andes en de Himalaya in de tabel. Bij de Andes "
+                "duikt oceanische korst weg en smelt ze, dus zijn er vulkanen; bij de Himalaya "
+                "botsen twee continenten die beide te licht zijn om te zakken, dus wordt het "
+                "gesteente enkel opgeplooid.",
+                None,
+                None,
+                "Een rift is het begin van een nieuwe oceaan: de Rode Zee was vijftien miljoen "
+                "jaar geleden ook nog zo'n slenk.",
+            ],
+        ),
+        dict(
+            aanpak="Drie krachten, en ze werken samen op dezelfde plaat. Convectie is de motor "
+                   "diep in de mantel, ridge push duwt vanaf de rug, slab pull trekt aan de kant "
+                   "waar de plaat wegzakt. Slab pull is de sterkste van de drie.",
+            waarom=[
+                None,
+                "Dat lijkt weinig, maar het is ongeveer even snel als je nagels groeien. Juist "
+                "omdat het zo traag gaat, kan je het niet voelen en wel meten met gps.",
+                "Reken na: 5 cm per jaar maal een miljoen jaar is 5 miljoen cm, en dat is 50 km. "
+                "Deze oefening laat zien hoe een trage beweging over geologische tijd een "
+                "oceaan kan openen.",
+            ],
+        ),
+        dict(
+            aanpak="Deze reeks gaat over reliëf dat niet aan een plaatrand hoort. Een hotspot "
+                   "staat stil terwijl de plaat erover schuift, en dat laat een spoor na. Bij de "
+                   "namen van de oceaanbodem helpt de diepte als ordening: plat, dan vlakte, dan "
+                   "trog.",
+            waarom=[
+                None,
+                "Dit is het sluitende bewijs dat de plaat beweegt en de warmtebron niet. Zeg in "
+                "je antwoord beide helften: de hotspot blijft, de plaat schuift. Uit de afstand "
+                "en de leeftijd van de eilanden kan men zelfs berekenen hoe snel de plaat gaat.",
+                None,
+                "11 km is diep genoeg om de Mount Everest erin te laten zakken met nog meer dan "
+                "twee kilometer water erboven.",
+                "Daarom kon men de platen in kaart brengen nog voor men de beweging kon meten: "
+                "de bevingen en vulkanen tekenden de randen zelf uit.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-aardbevingen-en-vulkanisme-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Houd de twee punten uit elkaar: het hypocentrum zit in de diepte, waar de "
+                   "breuk echt begint, en het epicentrum ligt er recht boven, aan het oppervlak. "
+                   "Het epicentrum is dus een plaats op de kaart, het hypocentrum een plaats in "
+                   "de aarde.",
+            waarom=[
+                None,
+                None,
+                "Niet waar, en let op de richting. Hoe dieper de haard, hoe meer gesteente de "
+                "golven moeten doorkruisen en hoe meer energie onderweg verloren gaat. Een "
+                "ondiepe beving van magnitude 6 doet meer schade dan een diepe van 7.",
+                None,
+                "Dit is driehoeksmeting, net als bij gps. Eén station geeft enkel een afstand en "
+                "dus een hele cirkel; drie cirkels snijden in één punt. Noem in je antwoord "
+                "zeker waar die afstand vandaan komt: het tijdsverschil tussen de P- en de "
+                "S-golf.",
+            ],
+        ),
+        dict(
+            aanpak="Magnitude is één getal voor de beving zelf, gemeten aan de energie; "
+                   "intensiteit is wat mensen ter plaatse ondervinden en verschilt dus van "
+                   "dorp tot dorp. Eén beving heeft één magnitude en tientallen intensiteiten.",
+            waarom=[
+                None,
+                "De schaal is logaritmisch: één punt hoger is ongeveer 32 keer zoveel energie. "
+                "Daarom is het verschil tussen een 5 en een 6 in het nieuws klein en in de "
+                "werkelijkheid enorm.",
+                "Reken na: 32 maal 32 is ongeveer 1000. Twee punten hoger is dus duizend keer "
+                "zoveel energie.",
+                "Noem er drie, en kies er het liefst drie van verschillende soort: één over de "
+                "aarde (diepte, bodem), één over de gebouwen (bouwwijze, voorschriften) en één "
+                "over de mensen (tijdstip, waarschuwing, hulpdiensten). Dat laat zien dat de "
+                "schade niet enkel natuur is maar ook beleid.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Volg de weg van het gesteente van onder naar boven: magmahaard, "
+                   "schoorsteen, krater. En onthoud het ene woordverschil dat vaak gevraagd "
+                   "wordt: onder de grond heet het magma, boven de grond lava.",
+            waarom=[
+                "Dezelfde stof, twee namen, en het verschil zit enkel in waar ze is. Dat komt "
+                "doordat de gassen bij het buitenkomen ontsnappen, waardoor lava zich anders "
+                "gedraagt dan magma.",
+                "Een caldera ontstaat als de magmahaard leegloopt en het dak erboven inzakt. De "
+                "Santorini-baai en het Yellowstonebekken zijn calderas, en dat verklaart waarom "
+                "een caldera veel breder is dan een krater.",
+            ],
+        ),
+        dict(
+            aanpak="Alles bij een vulkaan volgt uit één eigenschap: hoe taai de lava is. Taaie, "
+                   "kiezelrijke lava geeft een steile kegel en een explosie; vloeibare lava geeft "
+                   "een vlak schild en een stroom. Begin bij de lava en de rest van de tabel "
+                   "volgt.",
+            waarom=[
+                "Merk op dat de vorm van de berg uit de lava volgt en niet omgekeerd. Taaie lava "
+                "stroomt niet ver weg en stapelt zich op bij de krater, dus steil; vloeibare lava "
+                "loopt kilometers ver uit, dus vlak zoals op Hawaï.",
+                "Dit is de kern van de hele reeks, en de vergelijking met een fles helpt: schud "
+                "je een fles met dikke siroop, dan komt er niets tot ze openspat. Noem in je "
+                "antwoord de gassen, want zij maken de explosie, niet de lava zelf.",
+                "Een pyroclastische stroom is de dodelijkste van de drie: hij gaat honderden "
+                "kilometer per uur en is honderden graden warm. Een lahar kan ook jaren na de "
+                "uitbarsting nog komen, want hij heeft enkel as en water nodig.",
+            ],
+        ),
+        dict(
+            aanpak="Twee open vragen die naar een afweging vragen. Zet bij de eerste naast de "
+                   "voordelen van de grond ook het menselijke: het is hun thuis. Geef bij de "
+                   "tweede maatregelen die echt uitvoerbaar zijn, van meten tot evacueren.",
+            waarom=[
+                "Noem er drie van verschillende soort: iets over de bodem, iets over geld, en "
+                "het feit dat mensen niet zomaar verhuizen uit het dorp van hun familie. Net "
+                "die laatste reden wordt in een examen vaak vergeten en is in de werkelijkheid "
+                "de belangrijkste.",
+                "Twee volstaan, maar laat zien dat er een keten is: eerst meten, dan "
+                "waarschuwen, dan evacueren. Een meetnet zonder evacuatieplan redt niemand.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-gesteenten-mineralen-en-datering-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vraag je bij elk gesteente hoe het gemaakt is. Uit magma dat stolt is "
+                   "magmatisch, uit lagen die bezinken is sedimentair, uit een gesteente dat "
+                   "onder druk en hitte veranderd is metamorf. De uitgang helpt niet, dus leer "
+                   "de voorbeelden per groep.",
+            waarom=[
+                "Graniet en basalt zijn de twee voorbeelden die altijd terugkomen; kalksteen en "
+                "zandsteen zijn de twee sedimentaire; marmer en leisteen de twee metamorfe. Met "
+                "die zes namen geraak je door bijna elke vraag.",
+                "Steenkool is de verrassing in de rij: het lijkt geen gesteente, maar het is "
+                "ontstaan uit plantenresten die laag na laag bezonken en samengedrukt werden, en "
+                "dus sedimentair.",
+                "Lagen zijn het kenmerk dat je vanuit de verte ziet, in een steengroeve of in "
+                "een berm. Fossielen komen er enkel in voor, want in magma dat stolt blijft "
+                "niets over.",
+            ],
+        ),
+        dict(
+            aanpak="Eén regel beslist de korrelgrootte: hoe trager de afkoeling, hoe groter de "
+                   "kristallen. Dieptegesteente koelt traag en is grof; uitvloeiingsgesteente "
+                   "koelt snel en is fijn.",
+            waarom=[
+                "Dit is de belangrijkste oefening van de reeks, want ze toont dat dezelfde stof "
+                "twee gesteenten kan geven. Noem in je antwoord de tijd, want dat is de enige "
+                "echte reden.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Vier koppels om te kennen: kalksteen wordt marmer, klei wordt leisteen, "
+                   "zandsteen wordt kwartsiet, graniet wordt gneis. Het gesteente wordt harder "
+                   "en dichter, maar het smelt niet.",
+            waarom=[
+                None,
+                "Noem beide: druk alleen of hitte alleen is niet genoeg. Daarom vind je metamorfe "
+                "gesteenten in gebergten en bij een contact met magma.",
+                "Niet waar, en dat is net het verschil met een magmatisch gesteente. Bij "
+                "metamorfose blijft het gesteente vast en groeien de kristallen in vaste "
+                "toestand om. Zou het smelten, dan kreeg je magma en nadien een magmatisch "
+                "gesteente.",
+            ],
+        ),
+        dict(
+            aanpak="Relatieve datering is logica, geen meting: wat erbovenop ligt is jonger, en "
+                   "wat ergens dwars door gaat is jonger dan wat het doorsnijdt. Met die twee "
+                   "regels kan je een hele wand op orde zetten.",
+            waarom=[
+                None,
+                "Dit is de doorsnijdingsregel, en je kan hem in twee richtingen gebruiken. De "
+                "breuk zit ingeklemd tussen twee momenten: jonger dan wat ze stukmaakt, ouder "
+                "dan wat er ongestoord over ligt.",
+                "Let op beide helften van het antwoord. Kort geleefd maakt het fossiel precies "
+                "in de tijd, wijd verspreid maakt het bruikbaar om lagen op verschillende "
+                "plaatsen met elkaar te vergelijken.",
+            ],
+        ),
+        dict(
+            aanpak="Een halveringstijd is de tijd waarin de helft overblijft. Reken dus in "
+                   "stappen van een halvering: na één de helft, na twee een kwart, na drie een "
+                   "achtste. En kies de methode naar de ouderdom die je verwacht: koolstof-14 "
+                   "voor duizenden jaren, uranium-lood voor miljoenen.",
+            waarom=[
+                None,
+                "Reken na: 2 maal 5730 is 11 460 jaar, want een kwart is twee halveringen. Dat "
+                "is ook ongeveer de grens van de methode, want na een tiental halveringen blijft "
+                "er te weinig over om te meten.",
+                "Twee redenen tegelijk: graniet heeft nooit geleefd en bevat dus geen "
+                "koolstof-14, en 300 miljoen jaar is hoe dan ook duizenden halveringstijden. "
+                "Koolstof-14 werkt enkel op wat ooit leefde en op hoogstens enkele tienduizenden "
+                "jaren.",
+                None,
+                "Een eenvoudige ordening om te onthouden: eencellig, dan trilobieten en bossen, "
+                "dan dinosauriërs, dan zoogdieren. De namen zelf helpen ook, want zoö betekent "
+                "leven en kainos betekent nieuw.",
+                "66 miljoen jaar is de grens tussen het Mesozoïcum en het Cenozoïcum, en dat is "
+                "geen toeval: die uitstervingsgolf maakte plaats voor de zoogdieren.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-verwering-karst-en-massatransport-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Drie woorden, drie plaatsen in de keten. Verwering gebeurt ter plaatse en "
+                   "maakt het gesteente stuk, erosie voert het weg, sedimentatie legt het elders "
+                   "neer. Vraag je dus telkens: blijft het liggen, gaat het mee, of wordt het "
+                   "afgezet?",
+            waarom=[
+                "Let op het verschil tussen c en d bij de wind. Blaast de wind korrels tegen een "
+                "rots, dan is dat erosie, want het zijn meegevoerde korrels die het werk doen. "
+                "Wortels en vorst zijn verwering, want daar beweegt niets weg.",
+                "Één zin volstaat, maar zet er het woord in dat het verschil maakt: ter plaatse "
+                "tegenover afvoeren. Dat is ook het antwoord op bijna elke vraag van deze reeks.",
+            ],
+        ),
+        dict(
+            aanpak="Mechanisch is breken door een kracht, chemisch is veranderen van stof, "
+                   "biologisch is het werk van een levend wezen. Kijk bij elke zin naar wat er "
+                   "met het gesteente gebeurt: barst het, of lost het op?",
+            waarom=[
+                "Vorst en zoutkristallen staan er samen in, en ze werken allebei met uitzetten "
+                "in een spleet: het ijs of het kristal groeit en duwt de rots verder open. Roest "
+                "is chemisch, want het ijzer zelf verandert in een andere stof.",
+                "Noem beide voorwaarden: warmte én water. Daarom ziet een graniet in de tropen "
+                "er na duizend jaar helemaal anders uit dan dezelfde graniet in de Alpen, waar "
+                "vooral de vorst werkt.",
+            ],
+        ),
+        dict(
+            aanpak="Karst is één verhaal: zuur regenwater lost kalksteen op. Alles wat je ziet "
+                   "volgt daaruit, zowel wat wegvalt aan het oppervlak als wat neerslaat in een "
+                   "grot. Houd stalactiet en stalagmiet uit elkaar met de letter: de t van "
+                   "top hangt, de g van grond groeit omhoog.",
+            waarom=[
+                None,
+                "Regenwater neemt koolstofdioxide op uit de lucht en uit de bodem, en wordt "
+                "daardoor een zwak zuur. Daarom kan gewoon regenwater kalksteen aantasten zonder "
+                "dat er iets vervuild is.",
+                "Merk op dat een stalactiet en een stalagmiet precies het omgekeerde zijn van "
+                "het oplossen: het water laat de kalk die het hogerop opnam hier weer achter.",
+                "Dit verklaart ook de droge valleien in de Ardennen en in de Condroz. Zeg in je "
+                "antwoord waar het water dan wel heen gaat, want het verdwijnt niet: het stroomt "
+                "ondergronds verder tot een bron.",
+            ],
+        ),
+        dict(
+            aanpak="Zet de vier vormen op een lijn van traag naar snel: bodemkruip, "
+                   "aardverschuiving, steenval, modderstroom. Het water beslist meestal de "
+                   "snelheid, en de zwaartekracht doet altijd het werk.",
+            waarom=[
+                "Bodemkruip is de enige die je niet ziet gebeuren en wel ziet aan het gevolg: "
+                "scheefgezakte muurtjes en gebogen boomstammen op een helling.",
+                "Noem er vier van verschillende soort: de helling zelf, het water, het "
+                "verdwijnen van de wortels, en een trilling of een ingreep van mensen. Het water "
+                "is de belangrijkste, want het maakt de grond zwaarder en smeert tegelijk het "
+                "glijvlak.",
+                "Niet waar, en het is net omgekeerd. Wortels houden de bodem als een net vast en "
+                "halen bovendien water uit de grond. Daarom is kaalkap een van de duidelijkste "
+                "oorzaken van aardverschuivingen.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je bij elke ingreep of ze de helling vasthoudt of belast. Draineren, "
+                   "terrassen en netten houden vast; afgraven aan de voet, kaalkappen en zwaar "
+                   "bouwen bovenaan belasten. Water en gewicht zijn de twee sleutelwoorden.",
+            waarom=[
+                "Merk op dat c en f elkaars spiegelbeeld zijn: onderaan steun weghalen of "
+                "bovenaan gewicht bijzetten geeft hetzelfde gevolg, want beide maken de helling "
+                "steiler en zwaarder dan ze kan dragen.",
+                "Geef een duidelijk advies en hang er één argument uit de leerstof aan. Kies dan "
+                "het water of de steilte, want dat zijn de twee factoren die bij 25 graden echt "
+                "beslissen. Een advies zonder argument levert in een examen geen punten op.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-erosie-door-water-ijs-en-wind-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Een stroombekken is alles wat naar dezelfde rivier afwatert, en de grens "
+                   "ervan loopt over de hoogste lijn in het landschap. Debiet is een hoeveelheid "
+                   "per tijd, dus reken je het om door met de tijd te vermenigvuldigen.",
+            waarom=[
+                None,
+                "De waterscheiding volgt de toppen, dus op een kaart met hoogtelijnen kan je ze "
+                "zelf tekenen: vanaf elke top naar de volgende top.",
+                None,
+                "Reken na: 45 maal 60 is 2700 m³ per minuut. Dat is meer dan een olympisch "
+                "zwembad per minuut, en zo wordt een debietcijfer ineens voorstelbaar.",
+            ],
+        ),
+        dict(
+            aanpak="Een rivier doet in haar drie delen iets anders. Bovenaan erodeert ze, in het "
+                   "midden vervoert en slingert ze, onderaan zet ze af. Het verval beslist alles: "
+                   "veel verval geeft kracht naar beneden, weinig verval geeft slingeren en "
+                   "afzetten.",
+            waarom=[
+                "Let op de vorm van de vallei, want dat is het snelste kenmerk: een V bovenaan, "
+                "een brede vlakte in het midden en beneden. Grote keien horen bij veel kracht, "
+                "fijn slib bij weinig.",
+                "Dit is het hart van de hele bundel. Noem het woord verval, want daar hangt "
+                "alles aan: zonder verval geen snelheid, zonder snelheid geen insnijding.",
+            ],
+        ),
+        dict(
+            aanpak="Hier draait het om één verrassing: de kleinste korrels zijn niet de "
+                   "gemakkelijkste om op te nemen. Fijn zand gaat bij de laagste snelheid mee; "
+                   "grind en keien zijn te zwaar en klei kleeft te vast.",
+            waarom=[
+                "Fijn zand is de gemakkelijkste korrel: licht genoeg om op te tillen en los "
+                "genoeg om niet te plakken. Dat is ook de reden dat juist zand verstuift en wegwaait.",
+                "Dit is het antwoord op de vorige vraag, in volle zinnen. Noem beide helften: "
+                "klei vraagt veel kracht om op te nemen en blijft dan heel lang zweven. Daarom is "
+                "een rivier troebel van klei en niet van grind.",
+                "Niet waar, het is omgekeerd. Hoe trager het water, hoe fijner het materiaal dat "
+                "bezinkt: de keien vallen al in de bovenloop uit, het slib pas in de monding.",
+            ],
+        ),
+        dict(
+            aanpak="In een bocht loopt het water aan de buitenkant sneller en aan de binnenkant "
+                   "trager. Snel water erodeert, traag water zet af. Daarmee verklaar je de "
+                   "steile oever, de zandbank en waarom een meander altijd breder wordt.",
+            waarom=[
+                "Dit is de motor achter een meander: de buitenbocht schuift op en de binnenbocht "
+                "groeit aan, dus de bocht wordt elk jaar scherper tot ze zichzelf afsnijdt.",
+                "Een hoefijzermeer is dus het einde van een meander, en het is het bewijs dat een "
+                "rivier van loop verandert. In de vallei van de Maas liggen er verschillende.",
+                None,
+                "Dit is differentiële erosie in de praktijk. Noem beide delen: de trap die "
+                "ontstaat én de uitholling onder de val, want daardoor schuift een waterval in de "
+                "loop van de eeuwen stroomopwaarts op.",
+            ],
+        ),
+        dict(
+            aanpak="Elke kracht laat haar eigen spoor na. IJs geeft een U-vorm en ongesorteerd "
+                   "puin, water sorteert, wind laat enkel het fijne liggen. Een U-vormige vallei "
+                   "en een V-vormige vallei zijn het snelste onderscheid tussen ijs en water.",
+            waarom=[
+                "Let op het woord ongesorteerd bij de morene: een gletsjer duwt alles door "
+                "elkaar vooruit, van stof tot keien, terwijl stromend water altijd sorteert op "
+                "grootte. Löss is dan weer het fijnste, door de wind over honderden kilometers "
+                "aangevoerd, en het is de reden dat Haspengouw zulke vruchtbare grond heeft.",
+                "Een fjord toont twee dingen tegelijk: een gletsjer sneed de vallei uit tot onder "
+                "het huidige zeeniveau, en nadien steeg de zee en liep ze onder.",
+                "Noem de voorwaarde in plaats van enkel de plaats: losse, droge korrels zonder "
+                "begroeiing. Daarom werkt wind ook op een akker die in de winter kaal ligt, en "
+                "dat is precies waarom men er grasstroken aanlegt.",
+            ],
+        ),
+        dict(
+            aanpak="Twee lijstjes die elkaars spiegelbeeld zijn. Alles wat het water sneller "
+                   "doet wegstromen vergroot de kans op een overstroming; alles wat het water "
+                   "ruimte of tijd geeft verkleint ze. Houd dat ene criterium vast en je vindt "
+                   "zelf nog voorbeelden.",
+            waarom=[
+                "Noem er drie van verschillende soort: iets over de bodem, iets over de rivier "
+                "zelf en iets over waar men bouwt. Verharden is het sterkste voorbeeld, want "
+                "regen die niet in de grond kan, komt binnen het uur in de beek.",
+                "Merk op dat deze lijst gewoon het omgekeerde is van de vorige. Dat is geen "
+                "toeval: het hele waterbeleid in Vlaanderen bestaat erin de ingrepen van de "
+                "vorige eeuw terug te draaien.",
+                "Het winterbed hoort bij de rivier, ook als het jaren droog blijft. Daarop "
+                "bouwen betekent dat het water zijn ruimte ergens anders zoekt, meestal bij de "
+                "buren stroomafwaarts.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-klimaat-doorheen-de-geologische-tijd-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Een proxy is een onrechtstreekse thermometer: iets in de natuur dat het "
+                   "klimaat van toen heeft opgeslagen. Vraag je bij elk archief wat er precies "
+                   "bewaard is, want dat bepaalt wat je eruit kan lezen: lucht, groei, planten of "
+                   "zeewater.",
+            waarom=[
+                "Merk op dat de ijskern het enige archief is waarin de lucht zelf bewaard bleef. "
+                "De andere drie zijn onrechtstreeks: je leest er een gevolg in en leidt daaruit "
+                "het klimaat af.",
+                "800 000 jaar is ongeveer acht ijstijdcycli. Daardoor weten we niet alleen hoe "
+                "koud het was maar ook dat CO2 en temperatuur samen op en neer gingen.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Houd twee getallen vast: 20 000 jaar geleden was het hoogtepunt van de "
+                   "laatste ijstijd, en de zeespiegel stond toen ongeveer 120 meter lager. Bijna "
+                   "elke vraag over die periode is daarmee te beantwoorden.",
+            waarom=[
+                None,
+                "Dat water zat niet verdwenen maar vastgezet in het ijs op het land. Daarom is "
+                "zeespiegel en ijskap altijd hetzelfde verhaal, in de ijstijd en vandaag.",
+                "Noem de keten: ijs vangt water op, dus zakt de zee, dus valt de ondiepe Noordzee "
+                "droog. Dat gebied heet Doggerland, en er worden nog botten en werktuigen uit "
+                "opgevist.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Drie cycli in de baan van de aarde, elk met een eigen lengte: de vorm van de "
+                   "baan, de helling van de as en de tolbeweging van de as. Zet in de tabel "
+                   "telkens wat er beweegt en in hoeveel jaar, dan zie je het verschil meteen.",
+            waarom=[
+                "Een handige ordening is de duur: ongeveer 100 000 jaar, 41 000 jaar en 26 000 "
+                "jaar. De helling bepaalt hoe sterk de seizoenen verschillen, de tolbeweging in "
+                "welk seizoen de aarde het dichtst bij de zon staat.",
+                "Dit is de kernvraag van de reeks. Noem de verdeling en de terugkoppeling: een "
+                "koele zomer in het noorden laat sneeuw liggen, witte sneeuw weerkaatst meer "
+                "zonlicht, en daardoor koelt het nog verder af. Zonder die versterking zouden de "
+                "cycli veel te zwak zijn om een ijstijd te maken.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je bij elke factor of ze zonlicht tegenhoudt of warmte vasthoudt. "
+                   "Aerosolen en wit ijs weren zonlicht en koelen af; broeikasgassen houden "
+                   "warmte vast en warmen op.",
+            waarom=[
+                "Let op d: het is een terugkoppeling en geen oorzaak. De oceaan geeft CO2 af "
+                "omdat het warmer wordt, en dat maakt het nog warmer. Zo versterkt een gevolg "
+                "zijn eigen oorzaak.",
+                "Zeg uitdrukkelijk dat de terugkoppeling versterkt, want dat is het woord dat "
+                "gevraagd wordt. En let op: positief betekent hier niet goed maar "
+                "zelfversterkend.",
+                "Waar, en het verschil in duur is de les. Aerosolen van een vulkaan regenen na "
+                "een jaar of twee uit de lucht; CO2 blijft eeuwen hangen. Daarom is een "
+                "uitbarsting een onderbreking en een CO2-stijging een omslag.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-huidige-klimaatverandering-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Houd de twee getallen naast elkaar: zonder broeikaseffect ongeveer 18 graden "
+                   "onder nul, met broeikaseffect ongeveer 15 graden boven nul. Het natuurlijke "
+                   "broeikaseffect maakt de aarde dus bewoonbaar; de vraag is enkel hoeveel we er "
+                   "zelf bij doen.",
+            waarom=[
+                "Reken het verschil na: dat is ongeveer 33 graden die het broeikaseffect oplevert. "
+                "Daarom is het broeikaseffect zelf niets slechts.",
+                None,
+                "Stikstof is de valkuil: het maakt bijna vier vijfde van de lucht uit en is toch "
+                "geen broeikasgas. Een gas houdt enkel warmte tegen als het molecule uit "
+                "verschillende atomen bestaat en kan buigen of trillen.",
+                "Drie zinnen volstaan, maar laat alle drie de stappen erin staan: zonlicht komt "
+                "binnen, de aarde straalt infrarood terug, de gassen houden dat tegen. Zonder de "
+                "middelste stap klopt de uitleg niet, want de gassen houden het zonlicht zelf "
+                "niet tegen.",
+            ],
+        ),
+        dict(
+            aanpak="Een reeks met vaste cijfers. Leer er drie: ongeveer 1,1 tot 1,2 graden "
+                   "opwarming sinds 1850-1900, ongeveer 20 cm zeespiegelstijging sinds 1900, en "
+                   "een oceaan die verzuurt. Rond gerust af, maar ken de orde van grootte.",
+            waarom=[
+                "Let op het vergelijkingspunt: sinds 1850-1900, de tijd voor de industrie op "
+                "volle kracht kwam. Een opwarmingscijfer zonder vertrekpunt zegt niets.",
+                None,
+                "Verzuren is het minst bekende gevolg en hoort nochtans bij hetzelfde CO2: een "
+                "deel ervan lost op in zeewater en vormt daar een zuur. Dat tast de schelpen en "
+                "de koralen aan.",
+                "Noem beide redenen, en vergeet de tweede niet: ook zonder één druppel smeltwater "
+                "zou de zee stijgen, omdat warmer water uitzet. Die uitzetting levert ongeveer de "
+                "helft van de stijging.",
+            ],
+        ),
+        dict(
+            aanpak="Elke waarneming in deze reeks is een vingerafdruk: ze past bij "
+                   "broeikasgassen en niet bij een sterkere zon. Vraag je bij elk punt dus niet "
+                   "of het warmer wordt, maar wat het uitsluit.",
+            waarom=[
+                "Het sterkste paar is b en c. Een sterkere zon zou de hele atmosfeer opwarmen en "
+                "vooral de dagen; broeikasgassen warmen de onderste lucht op terwijl de hoge "
+                "lucht afkoelt, en houden vooral de nachten warm. Dat is het verschil tussen een "
+                "sterkere kachel en een dikkere deken.",
+                "Geef twee argumenten van verschillende soort: één over de snelheid en één over "
+                "de oorzaak. Geef ook toe wat juist is in de bewering, want het klimaat is "
+                "inderdaad altijd veranderd; het is het tempo en de aanwijsbare oorzaak die het "
+                "verschil maken.",
+            ],
+        ),
+        dict(
+            aanpak="Mitigatie bestrijdt de oorzaak, adaptatie vangt de gevolgen op. Vraag je bij "
+                   "elke maatregel of ze de uitstoot verlaagt of ons wapent tegen wat al "
+                   "onderweg is. Beide zijn nodig; het is geen keuze tussen de twee.",
+            waarom=[
+                "Merk op dat je de twee niet aan het soort maatregel ziet maar aan het doel. Een "
+                "boom planten kan allebei zijn: voor de koolstof is het mitigatie, voor de "
+                "schaduw in de stad adaptatie.",
+                None,
+                "Noem beide kanten: wie het minst heeft uitgestoten wordt het hardst getroffen, "
+                "en de generaties die nog moeten komen hebben niets beslist. Daarom staat er in "
+                "het Akkoord van Parijs ook geld voor de armere landen, en niet enkel een "
+                "temperatuurdoel.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-verstedelijking-en-ruimtegebruik-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De vier fasen volgen elkaar op in de tijd en je herkent ze aan de richting "
+                   "van de verhuis. Naar de stad is urbanisatie, naar de rand suburbanisatie, "
+                   "weg van de stad met bedrijven erbij desurbanisatie, en terug naar het "
+                   "centrum reurbanisatie.",
+            waarom=[
+                "Let op het verschil tussen b en c: bij suburbanisatie verhuizen de mensen maar "
+                "blijven ze in de stad werken, bij desurbanisatie vertrekken ook de werkplaatsen "
+                "en de winkels. Dat tweede is wat een kern echt uitholt.",
+                "Noem er twee van verschillende soort: iets dat het mogelijk maakte (de auto, "
+                "goedkope grond) en iets dat men wilde (een huis met tuin, rust). Dat de overheid "
+                "het bouwen buiten de stad jarenlang zelf aanmoedigde, wordt vaak vergeten en "
+                "verklaart waarom Vlaanderen er anders uitziet dan Nederland.",
+            ],
+        ),
+        dict(
+            aanpak="Drie begrippen die op elkaar lijken en niet hetzelfde zijn. Ruimtebeslag is "
+                   "alles wat ingenomen is, verharding is enkel het stuk onder beton of asfalt, "
+                   "versnippering gaat over de stukken waarin de natuur uiteenvalt. Het eerste "
+                   "is dus altijd groter dan het tweede.",
+            waarom=[
+                None,
+                "De nevelstad is de naam voor het Vlaamse patroon als geheel: nergens echt stad "
+                "en nergens echt platteland. Lintbebouwing is er één bouwsteen van.",
+                "Een tuin hoort bij het ruimtebeslag en niet bij de verharding. Daarom is in "
+                "Vlaanderen ongeveer een derde van de oppervlakte ingenomen terwijl de echte "
+                "verharding rond de 16 procent zit.",
+                "Dit is de kernvraag van de reeks. Noem wat er precies ontbreekt: niet de "
+                "oppervlakte maar de verbinding. Daarom legt men ecoducten en onderdoorgangen "
+                "aan, die geen vierkante meter natuur bijmaken en toch helpen.",
+            ],
+        ),
+        dict(
+            aanpak="Een stad warmt sterker op dan het platteland omdat ze warmte opslaat en "
+                   "weinig verdampt. Zoek in je antwoord dus de drie soorten oorzaken: wat "
+                   "warmte vasthoudt, wat ontbreekt om te koelen, en wat zelf warmte maakt.",
+            waarom=[
+                "Merk op dat het verschil vooral 's nachts groot is. Overdag schijnt de zon op "
+                "beide, maar 's nachts geeft het platteland zijn warmte snel af terwijl het "
+                "beton in de stad die nog uren uitstraalt.",
+                "Noem er drie van verschillende soort, want dat laat zien dat je het mechanisme "
+                "begrijpt: opslag in beton, gebrek aan groen en water, en de warmte van "
+                "gebouwen en verkeer zelf.",
+                "Deze vraag maakt van hitte een gezondheidsvraagstuk en geen comfortvraagstuk. "
+                "Noem de mensen én de reden: bij een hittegolf stijgt het aantal overlijdens, en "
+                "net de dichtstbebouwde wijken hebben het minste groen.",
+            ],
+        ),
+        dict(
+            aanpak="Drie niveaus en één plan: de gemeente geeft de vergunningen, Vlaanderen zet "
+                   "de grote lijnen, en een ruimtelijk uitvoeringsplan zegt perceel per perceel "
+                   "wat mag. Bij de slotvraag worden twee geldige belangen tegenover elkaar "
+                   "gezet, dus geef er ook twee.",
+            waarom=[
+                None,
+                "De bouwshift wordt ook betonstop genoemd, maar dat tweede woord is misleidend: "
+                "het gaat niet over stoppen met bouwen maar over niet méér open ruimte "
+                "aansnijden en dichter bouwen waar al bebouwing is.",
+                "Geef beide argumenten echt hun gewicht; wie één kant afdoet als onredelijk "
+                "mist het punt van de vraag. De eigenaar heeft een rechtmatige verwachting, de "
+                "gemeente een rekening voor de gemeenschap. Precies daarom gaat de discussie over "
+                "planschade en de vergoeding ervan.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-duurzaam-ruimtegebruik-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vier strategieën om geen nieuwe grond aan te snijden. Intensivering is meer "
+                   "op dezelfde plek, hergebruik is een bestaand gebouw een nieuwe taak geven, "
+                   "verweving is twee functies op één plek, tijdelijk gebruik is een plek "
+                   "benutten tot er iets anders komt.",
+            waarom=[
+                "Let op c en e: bij verweving gaat het niet om hetzelfde gebouw maar om twee "
+                "functies die samen door één ruimte bediend worden. Een speelplaats die in het "
+                "weekend buurtplein is, dient twee groepen zonder één meter extra.",
+                None,
+                "Noem beide kanten van de rekening: wat je bespaart aan open ruimte en aan "
+                "nieuwe wegen en riolering, tegenover de hogere bouwkost en de sanering. Die "
+                "kosten voor de gemeenschap zijn het argument dat in een examen vaak ontbreekt.",
+            ],
+        ),
+        dict(
+            aanpak="Hier gaat het over de vraag waar de regen heen kan. Een wadi, doorlatende "
+                   "klinkers en gras laten het water insijpelen; beton stuurt het naar de riool. "
+                   "Bij de rekenoefening: zet millimeter regen om naar liter per vierkante meter, "
+                   "want 1 mm op 1 m² is precies 1 liter.",
+            waarom=[
+                None,
+                "Merk op dat het nergens alles of niets is behalve bij beton. Daarom helpt elke "
+                "halve maatregel al: ook doorlatende klinkers nemen een flink deel weg.",
+                "Reken na: de helft van 1200 m² is 600 m², en 20 mm op 600 m² is 600 maal 20 "
+                "liter, dus 12 000 liter. De truc om te onthouden: 1 mm regen op 1 m² is 1 liter.",
+            ],
+        ),
+        dict(
+            aanpak="Beoordeel een plek niet op het huis maar op wat er rondom ligt. Kijk naar "
+                   "vervoer, voorzieningen, veiligheid en groen. Dat is precies wat "
+                   "knooppuntwaarde meet, en het is het argument waarmee je de laatste vraag "
+                   "maakt.",
+            waarom=[
+                "Noem er vier van verschillende soort, en niet vier keer vervoer. Een gezin "
+                "zonder auto heeft zowel verplaatsing als nabijheid nodig: een halte helpt niet "
+                "als de school acht kilometer ver is.",
+                "Geef een duidelijke keuze en drie argumenten, en zeg ook wat het alternatief "
+                "kost. Dat tweede stuk is wat het antwoord sterk maakt: bouwen in het veld maakt "
+                "iedereen van de auto afhankelijk en vraagt nieuwe nutsleidingen.",
+                "Knooppuntwaarde is het woord waarmee de overheid deze hele afweging in één "
+                "cijfer zet: hoe beter een plek ontsloten is en hoe meer voorzieningen er zijn, "
+                "hoe logischer het is om daar dichter te bouwen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-het-landschap-lezen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vraag je bij elk element of de natuur het maakte of de mens. Een rechte lijn "
+                   "is bijna altijd menselijk; een vorm die het reliëf of het water volgt, is "
+                   "bijna altijd natuurlijk. Een houtkant is geplant en dus menselijk, ook al "
+                   "bestaat hij uit bomen.",
+            waarom=[
+                "Het paar dat vaak misloopt is b tegenover e. Een duinengordel is door wind en "
+                "zee gevormd, een houtkant door een boer geplant om een perceel af te zetten. "
+                "Levend materiaal maakt iets dus niet natuurlijk.",
+                "Landschapsgenese betekent letterlijk het ontstaan van het landschap. Het woord "
+                "zegt dat een landschap geen toestand is maar het resultaat van een "
+                "geschiedenis.",
+            ],
+        ),
+        dict(
+            aanpak="Lees een landschap van onder naar boven en van oud naar jong: eerst het "
+                   "reliëf, dan de bodem, dan het water, dan de begroeiing, dan de mens, en als "
+                   "laatste de tijd. Die orde is geen afspraak maar een logica, want elke laag "
+                   "verklaart de volgende.",
+            waarom=[
+                "Het reliëf en de bodem staan vooraan omdat ze het oudst zijn en de rest "
+                "bepalen: waar het nat is, komt geen akker, en waar het steil is, komt geen "
+                "dorp. De bewoning komt daarom helemaal achteraan.",
+                "Noem bij zo'n vraag altijd wat het patroon oplost voor de mensen van toen. De "
+                "lange smalle percelen geven elke boerderij een stuk van elk bodemtype, en het "
+                "lint toont dat er niet gepland maar bijgebouwd is, huis na huis langs de "
+                "bestaande baan.",
+            ],
+        ),
+        dict(
+            aanpak="Kies het beeld bij de vraag. Wil je hoogte, neem een hoogtemodel; wil je "
+                   "vroeger, neem een oude luchtfoto; wil je een heel gewest in één keer, neem "
+                   "een satellietbeeld; wil je laten zien hoe iets oogt, neem een schuine foto.",
+            waarom=[
+                "Een hoogtemodel uit lasermetingen is het sterkste van de vier, want het ziet "
+                "ook wat onder de bomen ligt: oude wegen, grachten en zelfs akkergrenzen van "
+                "eeuwen terug worden erop zichtbaar.",
+                None,
+                "Noem beide voordelen: lagen combineren en ermee rekenen. Dat tweede is wat een "
+                "GIS echt onderscheidt van een kaart, want de vraag wie binnen vijfhonderd meter "
+                "van een plein woont, kan je op papier niet stellen.",
+            ],
+        ),
+        dict(
+            aanpak="Systeemdenken betekent een ingreep door de sferen volgen: geosfeer, "
+                   "hydrosfeer, atmosfeer, biosfeer. Zeg bij elke stap wat er verandert en noem "
+                   "de sfeer, want de vraag telt de ketting en niet enkel het eindpunt.",
+            waarom=[
+                "Zet de drie stappen echt achter elkaar met een omdat ertussen, in plaats van "
+                "drie losse gevolgen op te sommen. Dat is wat deze vraag test: het water loopt "
+                "weg, dus de bodem droogt uit, dus verdampt er niets meer, dus wordt het heet.",
+                None,
+                "Noem de drie pijlers en geef bij elk een vraag die men ook echt kan stellen aan "
+                "een verkaveling. Juist omdat die drie soms tegen elkaar in gaan, is duurzame "
+                "ontwikkeling een afweging en geen vinkje.",
+            ],
+        ),
+    ],
+)
