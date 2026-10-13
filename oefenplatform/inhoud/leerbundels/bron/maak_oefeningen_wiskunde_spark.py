@@ -18,7 +18,7 @@ gelijknamige hoofdstuk van 🌱 Start.
 """
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
-import svg, bundel, oefenbundel
+import svg, bundel, oefenbundel, uitlegblad
 
 SPARK = "✨ Spark — 1ste en 2de middelbaar"
 
@@ -579,7 +579,7 @@ OEFENBUNDELS["oefenbundel-relaties-en-verandering-spark"] = dict(
                           (r"\((a + b)(a - b)\)", r"\(a^{2} - b^{2}\)"), (r"\((x + 5)^{2}\)", r"\(x^{2} + 10x + 25\)")],
                   "Werk uit.", "230px"),
                  ("kort", r"Wat is de graad van de veelterm \(4x^{3} + 2x - 9\)?", r"\(3\)", W),
-                 ("kort", "In de eenterm 7x^{4}, welk getal is de coëfficiënt?", r"\(7\)", W),
+                 ("kort", r"In de eenterm \(7x^{4}\), welk getal is de coëfficiënt?", r"\(7\)", W),
              ]),
 
         dict(kop="Vergelijkingen oplossen",
@@ -798,8 +798,651 @@ OEFENBUNDELS["oefenbundel-verzamelingen-spark"] = dict(
     ],
 )
 
+# ============================================================
+# De uitlegbladen. Eén blad per oefenbundel, met per reeks een aanpak en per
+# oefening een waarom waar het antwoord op zich niet genoeg zegt. De nummers
+# komen uit de oefenbundel zelf, dus een waarom-lijst moet even lang zijn als
+# de reeks oefeningen bevat. Zie uitlegblad.py.
+# ============================================================
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-negatieve-getallen-en-procenten-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Denk bij elke som aan een <strong>getallenas</strong>: plus is naar rechts, "
+                    "min is naar links. Begin bij het eerste getal en zet de stappen. Staan er "
+                    "twee tekens naast elkaar, schrijf de som dan eerst zonder haakjes op — dan "
+                    "maak je geen tekenfout meer.",
+             waarom=[
+                 None,
+                 r"Twee tekens naast elkaar worden één: \(-(-8)\) is \(+8\), en \(+(-6)\) is "
+                 r"\(-6\). Een schuld aftrekken laat het getal dus stíjgen.",
+                 r"Van \(-6\) elf graden omhoog: zes om bij \(0\) te komen, en dan nog vijf. "
+                 "Wie de nul overslaat, komt één stap mis uit.",
+                 r"Dieper duiken is verder naar links: \(-18 - 7 = -25\). Het getal wordt in "
+                 "cijfers groter maar als getal kleiner.",
+             ]),
+
+        dict(aanpak="Bij maal en delen hoef je enkel de <strong>mintekens te tellen</strong>. Een "
+                    "even aantal geeft een plus, een oneven aantal een min. Reken dus eerst met "
+                    "de gewone getallen en zet het teken er daarna voor.",
+             waarom=[
+                 None,
+                 r"Bij een macht beslist de exponent: \((-3)^{2}\) is \(-3 \cdot -3 = 9\), maar "
+                 r"\((-3)^{3}\) gaat nog eens maal \(-3\) en wordt negatief. Even exponent is "
+                 "positief, oneven is negatief.",
+                 r"Eerst de haakjes: \(5 - 9 = -4\), en dan \(-2 \cdot -4 = 8\). Wie met "
+                 r"\(-2 \cdot 5\) begint, rekent de haakjes weg die er net staan.",
+                 "Min maal min geeft plus. Dat is de regel die het vaakst fout gaat, precies "
+                 "omdat ze bij optellen net andersom aanvoelt.",
+                 None,
+             ]),
+
+        dict(aanpak="Procent betekent <strong>per honderd</strong>. Zoek je een deel, reken dan "
+                    "het getal maal het percentage gedeeld door honderd, of korter: maal het "
+                    "kommagetal, want \\(15\\,\\%\\) is maal \\(0{,}15\\). Zoek je net het "
+                    "percentage, deel dan het deel door het gehéél en maal met honderd.",
+             waarom=[
+                 None,
+                 "Van een breuk naar een kommagetal: teller delen door noemer. Van een "
+                 "kommagetal naar procent: maal honderd, dus de komma twee plaatsen naar rechts.",
+                 r"\(14 : 40 = 0{,}35\), dus \(35\,\%\). Deel altijd het deel door het geheel, "
+                 "nooit omgekeerd; de uitkomst hoort tussen nul en één te liggen.",
+                 r"\(a\,\%\) van \(b\) geeft hetzelfde als \(b\,\%\) van \(a\), want in beide "
+                 r"gevallen reken je \(a \cdot b : 100\). Handig om een som makkelijker te maken.",
+             ]),
+
+        dict(aanpak="Reken een korting of een stijging <strong>altijd op de prijs van vóór de "
+                    "verandering</strong>. Met één maalteken gaat het sneller: \\(15\\,\\%\\) "
+                    "korting is maal \\(0{,}85\\), een stijging van \\(25\\,\\%\\) is maal "
+                    "\\(1{,}25\\). Zoek je de oude prijs, dan deel je door dat getal.",
+             waarom=[
+                 None,
+                 None,
+                 r"Hier zoek je de prijs van vóór de korting. € \(90\) is \(75\,\%\) daarvan, "
+                 r"dus € \(90 : 0{,}75 = € 120\). Wie \(25\,\%\) bij \(90\) optelt, komt op "
+                 r"€ \(112{,}50\) en rekent het percentage op het verkeerde bedrag.",
+                 r"Een stijging druk je uit in procent van het begingetal: er komt \(15\) bij "
+                 r"op \(60\), dus \(15 : 60 = 0{,}25 = 25\,\%\).",
+                 r"Eerst naar één procent: \(18 : 45 = 0{,}4\), dus \(100\,\%\) is \(40\). In "
+                 r"één stap mag ook: \(18 : 0{,}45\).",
+                 r"Kort gerekend is het \(50 \cdot 1{,}2 \cdot 0{,}8 = 48\). De stijging rekent "
+                 r"op € \(50\) en de daling op € \(60\), dus heffen ze elkaar niet op. Dat is "
+                 "geen rekenfout maar de kern van procenten.",
+                 None,
+                 r"Zet de twee kortingen eerst in euro's om, anders vergelijk je een percentage "
+                 "met een bedrag. Een percentage zegt niets zolang je niet weet waarop het "
+                 "rekent.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-getallenleer-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Loop de verzamelingen in deze orde af. Is het een natuurlijk getal "
+                    "\\((0, 1, 2, \\ldots)\\)? Zo niet, is het geheel, dus ook de negatieve? Zo "
+                    "niet, kan je het als een <strong>breuk van twee gehele getallen</strong> "
+                    "schrijven? De kleinste verzameling die past, is je antwoord.",
+             waarom=[
+                 r"\(0\) hoort bij ℕ: de natuurlijke getallen beginnen bij nul. En \(-7\) kan "
+                 "nooit in ℕ, want daar staan geen mintekens.",
+                 r"Elk geheel getal kan je als breuk schrijven, \(5\) als " +
+                 bundel.breuk(5, 1) + ". Daarom zit ℤ helemaal binnen ℚ.",
+                 None,
+             ]),
+
+        dict(aanpak="De <strong>noemer noemt</strong> in hoeveel stukken het geheel verdeeld is, "
+                    "de <strong>teller telt</strong> hoeveel van die stukken je hebt. "
+                    "Tegengesteld is het teken omdraaien, omgekeerd is teller en noemer "
+                    "wisselen, en de absolute waarde is het getal zonder zijn teken.",
+             waarom=[
+                 None,
+                 r"Let op het verschil: het tegengestelde van \(-9\) is \(9\) (teken om), het "
+                 "omgekeerde van " + bundel.breuk(3, 5) + " is " + bundel.breuk(5, 3) +
+                 " (kop over kop). Die twee worden vaak verwisseld.",
+                 None,
+                 None,
+             ]),
+
+        dict(aanpak="<strong>Ontbind eerst in priemfactoren</strong>, dan zie je beide antwoorden "
+                    "staan: de ggd neemt de factoren die de twee getallen samen hebben, het kgv "
+                    "neemt alle factoren, elk zo vaak als hij het meest voorkomt. Priem of niet? "
+                    "Probeer te delen door \\(2\\), \\(3\\), \\(5\\) en \\(7\\); lukt er geen, "
+                    "dan is het priem.",
+             waarom=[
+                 r"Ontbinden maakt het zichtbaar: \(18 = 2 \cdot 3 \cdot 3\) en "
+                 r"\(24 = 2 \cdot 2 \cdot 2 \cdot 3\). Samen hebben ze \(2 \cdot 3 = 6\), de "
+                 "ggd. Het kgv neemt alle factoren, elk zo vaak als hij het meest voorkomt.",
+                 r"\(51\) lijkt priem, maar \(5 + 1 = 6\) is deelbaar door \(3\), dus \(51\) "
+                 r"ook: \(51 = 3 \cdot 17\). Die regel op de som van de cijfers scheelt veel "
+                 "proberen.",
+                 None,
+                 r"Elk ander even getal is deelbaar door \(2\) én door zichzelf én door \(1\), "
+                 r"dus heeft het te veel delers. Daarom is \(2\) het enige even priemgetal.",
+             ]),
+
+        dict(aanpak="Machten met <strong>hetzelfde grondtal</strong>: bij maal tel je de "
+                    "exponenten op, bij een macht van een macht maal je ze. Een negatieve "
+                    "exponent betekent één gedeeld door die macht. Bij een lange rij "
+                    "bewerkingen geldt: haakjes, dan machten, dan maal en delen, dan plus en min.",
+             waarom=[
+                 r"\(3^{2} \cdot 3^{3}\) is \(3 \cdot 3\) maal \(3 \cdot 3 \cdot 3\): vijf "
+                 r"factoren \(3\), dus \(3^{5}\). Bij een macht van een macht maal je de "
+                 r"exponenten. En \(2^{0}\) is \(1\), wat het grondtal ook is.",
+                 None,
+                 r"\(5 + 2 \cdot 6\) is \(17\) en niet \(42\): maal gaat vóór plus. Zet in je "
+                 "hoofd haakjes rond het stuk dat eerst moet, dan zie je de volgorde.",
+                 r"\(4\) gaat zeven keer in \(29\), dat is \(28\), en er blijft \(1\) over. De "
+                 "rest is altijd kleiner dan de deler; is ze groter, dan kon je nog een keer "
+                 "delen.",
+             ]),
+
+        dict(aanpak="Afronden: kijk naar het cijfer <strong>één plaats verder</strong>. Is dat "
+                    "\\(5\\) of meer, dan gaat het cijfer ervoor één omhoog. Bij schaal "
+                    "\\(1 : 100\\) is elke centimeter op het plan honderd centimeter in het "
+                    "echt. En bij evenredigheid reken je het best eerst terug naar één stuk.",
+             waarom=[
+                 r"Bij \(12{,}395\) op twee decimalen kijk je naar de \(5\): die rondt naar "
+                 r"boven af, dus \(12{,}40\). Die nul blijft staan, want er zijn twee decimalen "
+                 "gevraagd.",
+                 r"\(4{,}5\) cm maal \(100\) is \(450\) cm, en dat is \(4{,}5\) m. Reken eerst "
+                 "in dezelfde eenheid en zet pas op het einde om.",
+                 r"Eerst één brood: € \(4{,}50 : 3 = € 1{,}50\), dan maal zeven. Die tussenstap "
+                 "over één stuk voorkomt de meeste fouten.",
+                 None,
+                 r"Op de getallenas ligt \(-3\) rechts van \(-5\), en rechts betekent groter. "
+                 "Bij negatieve getallen is het grootste cijfer dus het kleinste getal.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-probleemoplossend-denken-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Een vraagstuk begint <strong>niet</strong> met rekenen. Lees, onderstreep "
+                    "wat er gevraagd wordt, zet de gegevens in een tekening of een tabel, en "
+                    "schat wat een redelijk antwoord zou zijn. Reken dan, en kijk op het einde "
+                    "terug: beantwoordt je getal de vraag die er staat?",
+             waarom=[
+                 None,
+                 None,
+                 "Schatten is je vangnet. Wie vooraf weet dat het antwoord rond de vijftig moet "
+                 "liggen, ziet een fout van een factor tien meteen, ook zonder de som opnieuw "
+                 "te maken.",
+                 None,
+             ]),
+
+        dict(aanpak="Bij elk van deze vraagstukken zit er <strong>één tussenstap die niet in de "
+                    "tekst staat</strong>: de prijs van één stuk, het aantal afwezigen, de halve "
+                    "omtrek. Zoek die stap, schrijf ze op, en reken dan verder. Staat ze er niet, "
+                    "dan is het vraagstuk met één bewerking klaar.",
+             waarom=[
+                 None,
+                 r"Een vierde van \(28\) is \(7\) afwezigen, dus \(21\) aanwezig. De vraag is "
+                 "naar de aanwezigen: dat laatste stapje wordt het vaakst vergeten.",
+                 r"De omtrek is twee keer de lengte plus twee keer de breedte: "
+                 r"\(2 \cdot 15 + 2 \cdot 9\). Wie \(15 + 9\) doet, heeft maar de helft van het "
+                 "hek.",
+                 r"Tijd rekent per \(60\), niet per \(100\). Eerst de uren: \(8\).\(50\) u plus "
+                 r"\(3\) u is \(11\).\(50\) u, en \(25\) minuten later is het \(12\).\(15\) u.",
+                 r"Eerst naar één kilo: \(400\) g is een vijfde van een kilo, dus maal \(5\).",
+                 None,
+                 r"Tijd is afstand gedeeld door snelheid: \(45 : 18 = 2{,}5\) uur. Een halve "
+                 r"uur is \(30\) minuten, geen \(50\): een kommagetal van uren is geen tijd.",
+                 r"Eerst per persoon: \(320 : 4 = 80\) g, dan maal zes.",
+             ]),
+
+        dict(aanpak="Werk van <strong>achter naar voor</strong>. Zet de stappen op in de orde "
+                    "waarin ze gebeurd zijn en draai dan elke bewerking om: plus wordt min, maal "
+                    "wordt delen. Bij een telprobleem helpt een tekening of een tabel meer dan "
+                    "een formule.",
+             waarom=[
+                 None,
+                 None,
+                 "Bij elke handdruk horen twee mensen, dus heb je elke handdruk twee keer "
+                 "geteld. Daarom deel je door twee. Datzelfde doe je bij elk probleem waar je "
+                 "paren telt.",
+                 "Het klassieke paalprobleem: in een rij met twee uiteinden staat er altijd één "
+                 "paal meer dan er tussenstukken zijn. Teken het eens met drie stukken, dan zie "
+                 "je waarom.",
+                 None,
+             ]),
+
+        dict(aanpak="Kijk eerst naar het <strong>verschil</strong> tussen twee getallen die na "
+                    "elkaar komen. Blijft dat gelijk, dan tel je telkens hetzelfde erbij. Wordt "
+                    "het groter, kijk dan of je maal doet, of of het om kwadraten gaat. Schrijf "
+                    "de verschillen onder de rij, dan zie je de regel staan.",
+             waarom=[
+                 r"Vier rijen, vier soorten regels: telkens maal \(2\); de kwadraten \(1\), "
+                 r"\(4\), \(9\), \(16\); diezelfde kwadraten plus \(1\); en telkens \(9\) eraf. "
+                 "Wie meteen naar het volgende getal zoekt, ziet de regel niet.",
+                 None,
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-redeneringen-en-uitspraken-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Om een uitspraak over <strong>alle</strong> gevallen onderuit te halen heb "
+                    "je er maar één nodig waarin ze niet klopt. Zoek dus geen bewijs maar een "
+                    "uitzondering, en kijk eerst bij de randgevallen: \\(0\\), \\(1\\), \\(2\\), "
+                    "de negatieve getallen, en bij figuren de ruit en het vierkant.",
+             waarom=[
+                 r"De randgevallen leveren hier alle vier het tegenvoorbeeld: \(2\) is het enige "
+                 r"even priemgetal, en bij \(1\) (en \(0\)) is het kwadraat niet groter maar "
+                 "gelijk. Wie bij grote getallen zoekt, vindt niets.",
+                 None,
+                 "Tien keer kloppen bewijst niets, want er kan nog altijd een elfde geval zijn. "
+                 "Eén tegenvoorbeeld bewijst wél meteen dat een uitspraak fout is. Die twee "
+                 "kanten wegen dus niet even zwaar.",
+                 None,
+             ]),
+
+        dict(aanpak="Lees de pijl als <strong>als … dan …</strong>. Vraag je daarna altijd af of "
+                    "de omgekeerde zin ook klopt. Alleen als het in allebei de richtingen geldt, "
+                    "mag er een dubbele pijl staan.",
+             waarom=[
+                 r"Ga ze stuk voor stuk na in de omgekeerde richting. Deelbaar door \(3\) is "
+                 r"niet altijd deelbaar door \(6\) (\(9\)), en vier rechte hoeken maken nog geen "
+                 "vierkant (een rechthoek). Enkel bij het even getal klopt het in beide "
+                 "richtingen.",
+                 None,
+                 "Een vierkant heeft vier rechte hoeken en voldoet dus aan alles wat een "
+                 "rechthoek moet hebben. Een vierkant is een bijzondere rechthoek.",
+                 r"Nu de omgekeerde zin, en die klopt niet: een rechthoek van \(3\) op \(5\) "
+                 "heeft geen vier gelijke zijden.",
+             ]),
+
+        dict(aanpak="Zeg niet alleen <em>dat</em> het fout is, maar in <strong>welke stap</strong>. "
+                    "Lees de redenering regel per regel en vraag je bij elke stap af: welke regel "
+                    "wordt hier gebruikt, en mag dat hier?",
+             waarom=[
+                 r"Vermenigvuldigen of delen met een negatief getal draait het teken van een "
+                 r"ongelijkheid om. Op de getallenas zie je het meteen: \(-7\) ligt links van "
+                 r"\(-4\).",
+                 "Maal en delen hebben dezelfde voorrang, dus werk je van links naar rechts. "
+                 "Datzelfde geldt voor plus en min.",
+                 r"Een wortel mag je verdelen over een maal of een deling, maar nooit over een "
+                 r"plus of een min. Reken het na met \(9\) en \(16\): samen \(25\), en "
+                 r"\(\sqrt{25} = 5\).",
+                 None,
+                 "Een antwoord dat de gestelde vraag niet beantwoordt, is geen antwoord, hoe "
+                 "goed er ook gerekend is. Daarom is terugkijken naar de vraag de laatste stap "
+                 "van elk vraagstuk.",
+             ]),
+
+        dict(aanpak="Met letters redeneer je over <strong>alle</strong> getallen tegelijk. "
+                    "Schrijf op wat je weet in letters (even is \\(2a\\), oneven is "
+                    "\\(2a + 1\\)), reken ermee, en kijk wat er in je antwoord staat: kan je er "
+                    "een factor \\(2\\) uit halen, dan is het even.",
+             waarom=[
+                 None,
+                 r"Oneven maal oneven blijft oneven: \((2a + 1)(2b + 1) = 4ab + 2a + 2b + 1\), "
+                 r"en dat is een even getal plus \(1\).",
+                 r"Kwadrateren mag je aan allebei de kanten doen, dus de eerste klopt. Omgekeerd "
+                 "niet: twee verschillende getallen kunnen hetzelfde kwadraat hebben. En een "
+                 "product is ook nul als net de ándere factor nul is.",
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-meetkunde-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Vergelijk elke hoek met een <strong>rechte hoek van \\(90^{\\circ}\\)</strong>: "
+                    "kleiner is scherp, gelijk is recht, groter is stomp, en een halve draai van "
+                    "\\(180^{\\circ}\\) is gestrekt. Bij twee snijdende rechten gelden drie "
+                    "regels: nevenhoeken samen \\(180^{\\circ}\\), overstaande hoeken even groot, "
+                    "complementaire hoeken samen \\(90^{\\circ}\\).",
+             waarom=[
+                 None,
+                 r"De drie namen in één zin: de nevenhoek vult aan tot \(180^{\circ}\), de "
+                 r"overstaande hoek is even groot, en de complementaire vult aan tot "
+                 r"\(90^{\circ}\). Die laatste heeft niets met de tekening te maken.",
+                 "Overeenkomstige hoeken, de F-hoeken, zijn gelijk zodra de twee rechten "
+                 "evenwijdig zijn. Dat is net wat evenwijdig voor de hoeken betekent.",
+                 "Evenwijdig betekent overal even ver van elkaar. Twee rechten die elkaar ooit "
+                 "snijden, zijn dus niet evenwijdig, hoe klein de hoek ook is.",
+             ]),
+
+        dict(aanpak="Tel op wat je al hebt en trek dat af van het totaal: \\(180^{\\circ}\\) in "
+                    "een driehoek, \\(360^{\\circ}\\) in een vierhoek. In een gelijkbenige "
+                    "driehoek zijn de twee <strong>basishoeken gelijk</strong>: ken je de "
+                    "tophoek, dan deel je de rest door twee.",
+             waarom=[
+                 None,
+                 r"De twee basishoeken zijn even groot, dus \((180 - 50) : 2 = 65\).",
+                 r"Hier gaat het net omgekeerd: twee basishoeken van \(70^{\circ}\) zijn samen "
+                 r"\(140^{\circ}\), dus blijft er \(40^{\circ}\) over voor de tophoek.",
+                 r"In een parallellogram zijn twee hoeken naast elkaar samen \(180^{\circ}\); de "
+                 "overstaande hoeken zijn gelijk.",
+                 None,
+             ]),
+
+        dict(aanpak="Kijk naar twee dingen: de <strong>zijden</strong> (even lang? evenwijdig?) "
+                    "en de <strong>hoeken</strong> (recht?). Een vierkant is tegelijk een "
+                    "rechthoek en een ruit. Een symmetrieas is een lijn waarover je de figuur kan "
+                    "omklappen zodat ze precies op zichzelf valt.",
+             waarom=[
+                 None,
+                 "Let op het verschil tussen een ruit (vier gelijke zijden) en een vierkant "
+                 "(vier gelijke zijden én vier rechte hoeken). Elk vierkant is dus een ruit, "
+                 "maar niet elke ruit is een vierkant.",
+                 "Een gewone rechthoek heeft er maar twee: de lijnen door het midden van de "
+                 "zijden. De diagonalen tellen niet mee, want daarover omklappen legt de figuur "
+                 "niet op zichzelf. Een gewoon parallellogram heeft er geen enkele.",
+                 None,
+             ]),
+
+        dict(aanpak="Vier merkwaardige lijnen, elk met een eigen vertrekpunt. Let op het verschil "
+                    "tussen een lijn die uit een <strong>hoekpunt</strong> vertrekt (bissectrice, "
+                    "hoogtelijn, zwaartelijn) en een lijn die bij een <strong>zijde</strong> "
+                    "hoort (middelloodlijn).",
+             waarom=[
+                 "Een geheugensteun: de bissectrice snijdt een hoek in twee, de zwaartelijn "
+                 "snijdt een zijde in twee, de hoogtelijn staat loodrecht op een zijde, en de "
+                 "middelloodlijn doet die twee laatste samen.",
+                 None,
+                 "Bij een stompe hoek valt het voetpunt buiten de driehoek en verleng je de "
+                 "zijde met een stippellijn. Dat is geen fout, dat hoort erbij.",
+             ]),
+
+        dict(aanpak="Congruent betekent <strong>dezelfde vorm én dezelfde grootte</strong>: je "
+                    "kan de ene figuur precies op de andere leggen. Om dat aan te tonen heb je "
+                    "drie gegevens nodig, waarvan minstens één zijde. Een transformatie "
+                    "verplaatst een figuur zonder haar te vervormen.",
+             waarom=[
+                 "Met drie zijden ligt een driehoek vast (ZZZ), met twee zijden en de hoek "
+                 "ertússen ook (ZHZ), en met één zijde en de twee hoeken eraan ook (HZH). Drie "
+                 "hoeken alleen volstaan niet.",
+                 "Dan zijn ze gelijkvormig: dezelfde vorm, maar niet noodzakelijk dezelfde "
+                 "grootte. Denk aan een driehoek naast zijn vergroting.",
+                 None,
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-metend-rekenen-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Zet de maatladder eronder en tel de trapjes. Bij gewone lengtes en gewichten "
+                    "spring je <strong>per tien</strong>, bij vierkante maten per honderd (twee "
+                    "trapjes tegelijk) en bij kubieke maten per duizend (drie trapjes). Ga je "
+                    "naar een kleinere eenheid, dan wordt het getal groter.",
+             waarom=[
+                 None,
+                 r"Vierkante en kubieke maten gaan niet per \(10\): van \(\text{m}^{2}\) naar "
+                 r"\(\text{dm}^{2}\) is maal \(100\), naar \(\text{cm}^{2}\) maal \(10\,000\). "
+                 r"En \(1\,\text{m}^{3}\) is \(1\,000\) liter.",
+                 r"Tijd gaat per \(60\), niet per \(100\): \(3{,}5\) uur is \(3\) uur en \(30\) "
+                 r"minuten, samen \(210\) minuten.",
+                 r"\(1\) liter is precies \(1\,\text{dm}^{3}\). Dat is de brug tussen "
+                 "inhoudsmaten en kubieke maten; met die ene gelijkheid zet je alles om.",
+             ]),
+
+        dict(aanpak="Schrijf eerst de <strong>formule</strong> op, vul dan pas de getallen in. "
+                    "Omtrek is de lengte van de rand en gaat in cm; oppervlakte is wat erbinnen "
+                    "past en gaat in \\(\\text{cm}^{2}\\). Bij een driehoek, een parallellogram "
+                    "en een ruit heb je de hoogte of de diagonalen nodig, niet de schuine zijde.",
+             waarom=[
+                 None,
+                 "Let op waar je wel en niet halveert: bij een driehoek is het basis maal hoogte "
+                 "gedeeld door twee, bij een ruit de twee diagonalen maal elkaar gedeeld door "
+                 "twee, maar bij een parallellogram deel je net niet.",
+                 "Bij een trapezium tel je de twee evenwijdige zijden op en deel je door twee "
+                 "(de gemiddelde breedte), en dat maal de hoogte.",
+                 r"Hier reken je terug: welk getal maal zichzelf geeft \(64\)? Dat is de "
+                 "vierkantswortel.",
+                 "Ook terugrekenen: de oppervlakte gedeeld door de lengte geeft de breedte.",
+             ]),
+
+        dict(aanpak="Twee formules, en je moet weten welke je nodig hebt. De <strong>omtrek</strong> "
+                    "is \\(2 \\cdot \\pi \\cdot r\\) (of \\(\\pi\\) maal de diameter) en gaat in "
+                    "cm; de <strong>oppervlakte</strong> is \\(\\pi \\cdot r \\cdot r\\) en gaat "
+                    "in \\(\\text{cm}^{2}\\). Staat de diameter gegeven, deel die dan eerst door "
+                    "twee.",
+             waarom=[
+                 None,
+                 r"Hier maal je de straal met zichzelf (\(4 \cdot 4\)), niet met twee. Dat is "
+                 "net het verschil tussen de omtrek en de oppervlakte.",
+                 r"De diameter is al het dubbele van de straal, dus is de omtrek gewoon "
+                 r"\(\pi \cdot 12\). Wie eerst maal twee doet, telt dubbel.",
+                 None,
+             ]),
+
+        dict(aanpak="Let op het verschil: <strong>volume</strong> is wat erin past "
+                    "(\\(\\text{cm}^{3}\\) of liter), <strong>oppervlakte</strong> is wat je zou "
+                    "moeten inpakken (\\(\\text{cm}^{2}\\)). Bij een balk en een kubus is het "
+                    "volume lengte maal breedte maal hoogte; bij een cilinder is het de "
+                    "oppervlakte van de cirkel maal de hoogte.",
+             waarom=[
+                 None,
+                 r"\(1\,\text{dm}^{3}\) is \(1\) liter, dus een kubus met ribbe \(2\) dm is "
+                 r"\(8\,\text{dm}^{3}\) en dus \(8\) liter. Reken meteen in dm, dan hoef je "
+                 "achteraf niets om te zetten.",
+                 r"Een kubus heeft zes gelijke vlakken van \(5\) op \(5\), dus \(6 \cdot 25\).",
+                 r"Eerst de cirkel: \(3{,}14 \cdot 2 \cdot 2 = 12{,}56\,\text{cm}^{2}\), en dat "
+                 r"maal de hoogte \(10\).",
+                 r"Reken in meter en zet pas op het einde om: \(12 \cdot 5 \cdot 1{,}5 = "
+                 r"90\,\text{m}^{3}\), en \(1\,\text{m}^{3}\) is \(1\,000\) liter.",
+             ]),
+
+        dict(aanpak="Omtrek en oppervlakte zijn twee verschillende dingen en volgen elkaar niet. "
+                    "Verander je een zijde, kijk dan in de <strong>formule</strong> wat er "
+                    "gebeurt: staat die zijde er twee keer in, dan werkt de verandering ook twee "
+                    "keer door.",
+             waarom=[
+                 r"Een rechthoek van \(1\) op \(9\) en een van \(5\) op \(5\) hebben allebei "
+                 r"omtrek \(20\), maar hun oppervlakte is \(9\) tegen \(25\). Hoe vierkanter, "
+                 "hoe meer oppervlakte bij dezelfde omtrek.",
+                 None,
+                 r"\(1\) are is \(100\,\text{m}^{2}\). De tuin is \(400\,\text{m}^{2}\), dus "
+                 r"\(4\) are. Een hectare is op zijn beurt \(100\) are.",
+                 r"Zet eerst om naar meter: \(1{,}8\) km is \(1\,800\) m, en dat gedeeld door "
+                 r"\(20\) minuten.",
+                 r"\(6\) cm maal \(200\) is \(1\,200\) cm, en dat is \(12\) m. Een schaal zegt "
+                 "met hoeveel je moet vermenigvuldigen.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-relaties-en-verandering-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Een punt schrijf je als \\((x, y)\\): <strong>eerst</strong> hoever naar "
+                    "rechts of links, <strong>dan</strong> hoever omhoog of omlaag. Zet altijd "
+                    "eerst je assen met de getallen erop, en tel dan vanaf de oorsprong.",
+             waarom=[
+                 None,
+                 r"Op de x-as is de hoogte nul, dus \(y = 0\). Op de y-as is het omgekeerd: daar "
+                 r"is \(x = 0\).",
+                 r"Bij \(B(-1, 4)\) ga je eerst één naar links en dan vier omhoog. Wie de "
+                 "volgorde omdraait, zet het punt op een heel andere plaats.",
+             ]),
+
+        dict(aanpak="Een getalwaarde zoeken is gewoon <strong>invullen</strong>: zet het getal in "
+                    "de plaats van de letter en reken. Herleiden is iets anders: enkel termen "
+                    "met dezelfde letter én dezelfde macht mag je samennemen. \\(5a\\) en "
+                    "\\(2a\\) wel, \\(5a\\) en \\(2a^{2}\\) niet.",
+             waarom=[
+                 None,
+                 r"Let op de \(b\) die negatief is: \(2 \cdot 4 - (-5)\) is \(8 + 5 = 13\). Zet "
+                 "het getal tussen haakjes als je het invult, dan vergeet je het teken niet.",
+                 r"De drie merkwaardige producten zijn het waard om uit het hoofd te kennen. Let "
+                 r"bij \((a + b)^{2}\) op de middelste term \(2ab\): die wordt het vaakst "
+                 "vergeten.",
+                 "De graad van een veelterm is de hoogste exponent die erin voorkomt.",
+                 None,
+             ]),
+
+        dict(aanpak="Een vergelijking is een <strong>balans</strong>: wat je links doet, doe je "
+                    "ook rechts. Werk in deze orde: haakjes weg, dan de letters naar de ene kant "
+                    "en de getallen naar de andere, en pas op het einde delen door het getal dat "
+                    "voor de \\(x\\) staat.",
+             waarom=[
+                 None,
+                 r"Bij \(5 - x = 12\) staat er een min vóór de \(x\). Breng de \(5\) naar rechts "
+                 r"(\(-x = 7\)) en deel dan door \(-1\): \(x = -7\).",
+                 None,
+             ]),
+
+        dict(aanpak="Schrijf eerst in een hele zin op <strong>wat \\(x\\) is</strong>. Zet daarna "
+                    "de zin van het vraagstuk stap voor stap om in een vergelijking, en los pas "
+                    "dan op. Kijk op het einde of je antwoord past in het verhaal.",
+             waarom=[
+                 None,
+                 r"Het opstapgeld betaal je één keer, de kilometerprijs per kilometer. Daarom "
+                 r"staat de \(4\) los en hangt de \(1{,}50\) aan \(k\).",
+                 r"De omtrek is twee keer lengte plus breedte. Door eerst allebei de kanten door "
+                 r"\(2\) te delen, hoef je de haakjes niet weg te werken.",
+             ]),
+
+        dict(aanpak="<strong>Recht evenredig</strong>: keer zoveel, en de prijs per stuk blijft "
+                    "gelijk. <strong>Omgekeerd evenredig</strong>: het product blijft gelijk, "
+                    "zoals werklui maal dagen. Vraag je bij elk verhaal eerst af welk van de twee "
+                    "het is, want de rekenwijze verschilt helemaal.",
+             waarom=[
+                 "Reken eerst terug naar één brood, dan kan je elk aantal uitrekenen. Dat werkt "
+                 "bij elk recht evenredig verband.",
+                 None,
+                 "Door de oorsprong, want nul stuks kosten nul euro. Begint de lijn hoger, zoals "
+                 "bij een taxi met opstapgeld, dan is het verband niet recht evenredig.",
+                 r"Drie verschillende regels: telkens \(5\) erbij, telkens maal \(2\), en in de "
+                 r"laatste rij komt er telkens één méér bij dan de vorige keer (\(+2\), \(+3\), "
+                 r"\(+4\), \(\ldots\)).",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-data-en-onzekerheid-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je af of je met de gegevens kan <strong>rekenen</strong>. Een aantal "
+                    "of een lengte kan je optellen en middelen: numeriek. Een kleur of een "
+                    "vervoermiddel kan je alleen tellen hoe vaak ze voorkomen: categorisch.",
+             waarom=[
+                 None,
+                 "Van een kleur kan je geen gemiddelde maken. De modus, de waarde die het vaakst "
+                 "voorkomt, kan je wel altijd aanwijzen.",
+                 None,
+             ]),
+
+        dict(aanpak="<strong>Gemiddelde</strong>: alles optellen en delen door het aantal. "
+                    "<strong>Mediaan</strong>: op volgorde zetten en de middelste nemen; zijn er "
+                    "twee middelste, dan het gemiddelde van die twee. <strong>Modus</strong>: de "
+                    "waarde die het vaakst voorkomt, en dat kunnen er ook twee zijn.",
+             waarom=[
+                 None,
+                 r"Zet de getallen eerst op volgorde, ook als ze door elkaar staan. Bij vier "
+                 r"getallen zijn er twee middelste: \((5 + 8) : 2 = 6{,}5\).",
+                 "Komen twee waarden even vaak voor, dan zijn er twee modi. Dat is geen fout en "
+                 "je hoeft niet te kiezen.",
+                 r"De variatiebreedte is het grootste min het kleinste: \(21 - 5\).",
+                 r"Het gemiddelde van \(1\) en \(2\) is \(1{,}5\), en dat getal stond er niet "
+                 "bij. Een gemiddelde is een rekenresultaat, geen meting.",
+             ]),
+
+        dict(aanpak="Onthoud één zin: <strong>gemiddelde maal aantal is het totaal</strong>. "
+                    "Zoek je iets anders dan het gemiddelde, reken dan eerst dat totaal uit en "
+                    "werk van daaruit terug.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Zijn het grootste en het kleinste getal gelijk, dan is er geen enkel verschil "
+                 "meer tussen de waarden.",
+             ]),
+
+        dict(aanpak="Kies het diagram bij de soort gegevens: een <strong>lijn</strong> voor iets "
+                    "dat door de tijd verandert, een <strong>cirkel</strong> voor delen van één "
+                    "geheel, <strong>staven</strong> om groepen te vergelijken. In een "
+                    "cirkeldiagram is het geheel \\(360^{\\circ}\\), dus een deel reken je als "
+                    "dat deel maal \\(360\\).",
+             waarom=[
+                 None,
+                 r"\(25\,\%\) van \(360\) is \(90^{\circ}\), en omgekeerd is \(90\) van \(360\) "
+                 r"een vierde. \(15\) van de \(40\) is \(0{,}375\), maal \(360\) geeft "
+                 r"\(135^{\circ}\).",
+                 None,
+             ]),
+
+        dict(aanpak="Een cijfer vertelt pas iets als je weet hoe het gemaakt is. Vraag je bij elk "
+                    "getal af: welke waarden zitten erin, hoeveel zijn er, en is er een "
+                    "<strong>uitschieter</strong> die alles meetrekt?",
+             waarom=[
+                 None,
+                 "Dat is net het verschil met het gemiddelde: de mediaan kijkt naar de plaats in "
+                 "de rij en niet naar de grootte, dus een uitschieter verschuift haar hoogstens "
+                 "één plaatsje.",
+                 None,
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-verzamelingen-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Een verzameling schrijf je tussen <strong>accolades</strong>, met komma's "
+                    "tussen de elementen. Let op het verschil tussen ∈ (één element zit in een "
+                    "verzameling) en ⊂ (een hele verzameling zit in een andere).",
+             waarom=[
+                 None,
+                 None,
+                 "Een streep door een teken betekent altijd 'niet': ∉ is 'zit niet in', net "
+                 "zoals ≠ 'niet gelijk aan' is.",
+                 None,
+                 r"Een verzameling is een zak, geen rij: \(\{2, 4\}\) en \(\{4, 2\}\) zijn "
+                 "dezelfde verzameling. Een element twee keer opschrijven voegt ook niets toe.",
+             ]),
+
+        dict(aanpak="<strong>Doorsnede</strong> (∩) is wat in allebei zit, <strong>unie</strong> "
+                    "(∪) is alles samen, en het <strong>verschil</strong> \\(A \\setminus B\\) is "
+                    "wat in \\(A\\) zit maar niet in \\(B\\). Schrijf de twee verzamelingen onder "
+                    "elkaar en streep aan, dan vergeet je niets.",
+             waarom=[
+                 None,
+                 r"\(A \setminus B\) en \(B \setminus A\) zijn bijna nooit hetzelfde: het eerste "
+                 r"gaat over wat enkel in \(A\) zit, het tweede over wat enkel in \(B\) zit.",
+                 "Hebben twee verzamelingen niets gemeen, dan is hun doorsnede leeg. De unie met "
+                 "de lege verzameling verandert dan weer niets.",
+                 "Een element tel je maar één keer, ook al staat het twee keer opgeschreven.",
+                 r"Elk element zit er wel of niet in, dus bij drie elementen zijn er "
+                 r"\(2 \cdot 2 \cdot 2 = 8\) mogelijkheden. De lege verzameling en de "
+                 "verzameling zelf tellen mee.",
+             ]),
+
+        dict(aanpak="Ook de getallen en de figuren die je al kent, vormen verzamelingen. Vraag je "
+                    "bij een doorsnede af: welke dingen voldoen aan <strong>allebei</strong> de "
+                    "voorwaarden tegelijk?",
+             waarom=[
+                 r"Een vierkant is tegelijk een ruit en een rechthoek, dus die twee doorsnedes "
+                 r"geven allebei de vierkanten. En \(12\) is zowel een deler als een veelvoud "
+                 "van zichzelf.",
+                 None,
+                 r"Zit \(A\) helemaal binnen \(B\), dan is alles wat ze gemeen hebben precies "
+                 r"heel \(A\).",
+                 None,
+             ]),
+
+        dict(aanpak="Begin bij de <strong>overlapping</strong> en werk naar buiten. Wie de twee "
+                    "aantallen gewoon optelt, telt iedereen die in allebei de groepen zit twee "
+                    "keer mee.",
+             waarom=[
+                 None,
+                 r"\(9 + 6\) is \(15\), maar de \(4\) van de doorsnede zitten in allebei die "
+                 r"getallen. Je trekt ze er dus één keer af: \(15 - 4 = 11\).",
+                 None,
+                 None,
+             ]),
+    ],
+)
+
 
 if __name__ == "__main__":
     for naam, b in OEFENBUNDELS.items():
         oefenbundel.schrijf(b, naam)
         print("  ", naam)
+        if naam in UITLEGBLADEN:
+            uitlegblad.schrijf(UITLEGBLADEN[naam], b, naam.replace("oefenbundel-", "uitlegblad-"))
