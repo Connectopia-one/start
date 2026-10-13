@@ -24,7 +24,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke methoden zijn natuurlijk, dus zonder middel of ingreep? Er zijn er drie.",
+        vraag="Welke methoden zijn natuurlijk, dus zonder middel of ingreep?",
         opties=[
             "de kalendermethode",
             "de temperatuurmethode",
@@ -60,7 +60,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke anticonceptiemiddelen werken met hormonen? Er zijn er drie.",
+        vraag="Welke anticonceptiemiddelen werken met hormonen?",
         opties=[
             "de combinatiepil",
             "het hormoonstaafje",
@@ -90,14 +90,16 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke methoden beschermen ook tegen soa's? Er zijn er twee.",
+        vraag="Welke methoden beschermen ook tegen soa's?",
         opties=[
             "het mannencondoom",
             "het vrouwencondoom",
             "de combinatiepil",
             "de hormoonspiraal",
+            "onthouding",
+            "een condoom dat je maar één keer gebruikt",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="Alleen een condoom legt een echte barrière tussen de slijmvliezen. Hormonale middelen regelen enkel de vruchtbaarheid en houden geen enkele ziekteverwekker tegen.",
     ),
     dict(
@@ -162,7 +164,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke methoden zijn barrièremethoden, die de zaadcellen mechanisch tegenhouden? Er zijn er drie.",
+        vraag="Welke methoden zijn barrièremethoden, die de zaadcellen mechanisch tegenhouden?",
         opties=[
             "het mannencondoom",
             "het vrouwencondoom",
@@ -273,7 +275,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke gewoonten verlagen de vruchtbaarheid bij man én vrouw? Er zijn er drie.",
+        vraag="Welke gewoonten verlagen de vruchtbaarheid bij man én vrouw?",
         opties=[
             "roken",
             "veel alcohol drinken",
@@ -321,14 +323,16 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke invloeden van buitenaf kunnen de vruchtbaarheid aantasten? Er zijn er twee.",
+        vraag="Welke invloeden van buitenaf kunnen de vruchtbaarheid aantasten?",
         opties=[
             "zware metalen zoals lood en cadmium",
             "langdurige, zware stress",
             "voldoende slaap",
             "een gevarieerde voeding",
+            "bepaalde pesticiden",
+            "veel hitte op de teelballen",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="Zware metalen en aanhoudende stress verstoren de hormoonhuishouding. Slaap en gevarieerde voeding doen net het omgekeerde en ondersteunen ze.",
     ),
     dict(

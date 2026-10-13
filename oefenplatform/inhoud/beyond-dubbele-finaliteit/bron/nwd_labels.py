@@ -115,14 +115,16 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welk afval hoort bij het gft? Er zijn er twee.",
+        vraag="Welk afval hoort bij het gft?",
         opties=[
             "aardappelschillen",
             "gemaaid gras",
             "een lege conservenblik",
             "een verfrestje",
+            "koffiedik",
+            "snijafval van groenten",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="Gft staat voor groente-, fruit- en tuinafval. Een blik gaat bij het pmd of het metaal, en verf hoort bij het klein gevaarlijk afval.",
     ),
     dict(
@@ -181,7 +183,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat hoort bij de voorzorgen die je op een etiket terugvindt? Er zijn er drie.",
+        vraag="Wat hoort bij de voorzorgen die je op een etiket terugvindt?",
         opties=[
             "handschoenen dragen",
             "buiten het bereik van kinderen houden",
@@ -250,7 +252,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke oplosmiddelen zijn vetoplosbaar of organisch? Er zijn er drie.",
+        vraag="Welke oplosmiddelen zijn vetoplosbaar of organisch?",
         opties=[
             "thinner",
             "terpentine",
@@ -316,7 +318,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke stoffen zijn zuren? Er zijn er drie.",
+        vraag="Welke stoffen zijn zuren?",
         opties=[
             "azijnzuur in huishoudazijn",
             "citroenzuur in citroensap",

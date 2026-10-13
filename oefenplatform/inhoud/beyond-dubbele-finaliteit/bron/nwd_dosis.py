@@ -107,7 +107,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze uitdrukkingen zijn concentratie-uitdrukkingen? Er zijn er drie.",
+        vraag="Welke van deze uitdrukkingen zijn concentratie-uitdrukkingen?",
         opties=[
             "massaprocent",
             "volumeprocent",
@@ -173,14 +173,16 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat moet je kennen om te berekenen hoeveel alcohol er in een glas zit? Er zijn er twee.",
+        vraag="Wat moet je kennen om te berekenen hoeveel alcohol er in een glas zit?",
         opties=[
             "het volume van het glas",
             "het alcoholpercentage van de drank",
             "de temperatuur van de drank",
             "de prijs van de fles",
+            "de omrekening van milliliter naar gram",
+            "het volume dat je echt uitschenkt",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="Je vermenigvuldigt het volume met het percentage. Temperatuur en prijs veranderen niets aan de hoeveelheid alcohol.",
     ),
     dict(
@@ -284,14 +286,16 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarvan hangt het af of een stof jou schade doet? Er zijn er twee.",
+        vraag="Waarvan hangt het af of een stof jou schade doet?",
         opties=[
             "hoeveel je ervan binnenkrijgt",
             "hoeveel je zelf weegt",
             "hoe duur de stof was",
             "in welke kleur de verpakking is",
+            "hoe lang je eraan blootstaat",
+            "langs welke weg ze binnenkomt",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="De dosis en je lichaamsgewicht bepalen samen hoeveel er per kilogram in je lichaam komt. Prijs en verpakking veranderen daar niets aan.",
     ),
     dict(

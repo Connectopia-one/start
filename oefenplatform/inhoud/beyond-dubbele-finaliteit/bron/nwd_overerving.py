@@ -120,14 +120,16 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarvoor dient de meiose in ons lichaam? Er zijn er twee.",
+        vraag="Waarvoor dient de meiose in ons lichaam?",
         opties=[
             "geslachtscellen maken",
             "variatie tussen de nakomelingen brengen",
             "een wonde in de huid dichtmaken",
             "het lichaam laten groeien",
+            "het aantal chromosomen halveren",
+            "de chromosomen van beide ouders herschikken",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="Meiose gebeurt alleen in de eierstok en de teelbal. Groeien en wonden helen doet het lichaam met mitose.",
     ),
     dict(
@@ -174,7 +176,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat kan een mutatie veroorzaken? Er zijn er drie.",
+        vraag="Wat kan een mutatie veroorzaken?",
         opties=[
             "uv-straling van de zon",
             "bepaalde chemische stoffen",
@@ -315,7 +317,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke allelen bepalen de ABO-bloedgroepen? Er zijn er drie.",
+        vraag="Welke allelen bepalen de ABO-bloedgroepen?",
         opties=[
             "het allel voor A",
             "het allel voor B",
@@ -369,14 +371,16 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke aandoeningen erven X-gebonden over? Er zijn er twee.",
+        vraag="Welke aandoeningen erven X-gebonden over?",
         opties=[
             "hemofilie",
             "rood-groenkleurenblindheid",
             "mucoviscidose",
             "de ziekte van Huntington",
+            "de spierziekte van Duchenne",
+            "het fragiele X-syndroom",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="Hemofilie en rood-groenkleurenblindheid liggen op het X-chromosoom. Mucoviscidose erft autosomaal recessief over en Huntington autosomaal dominant.",
     ),
     dict(

@@ -48,7 +48,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke deeltjes zijn nucleonen? Er zijn er twee.",
+        vraag="Welke deeltjes zijn nucleonen?",
         opties=[
             "protonen",
             "neutronen",
@@ -126,7 +126,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Bij welke reacties komt er energie vrij? Er zijn er twee.",
+        vraag="Bij welke reacties komt er energie vrij?",
         opties=[
             "het samensmelten van lichte kernen",
             "het splijten van zware kernen",
@@ -174,7 +174,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke onderdelen van een kerncentrale zijn er voor de veiligheid? Er zijn er twee.",
+        vraag="Welke onderdelen van een kerncentrale zijn er voor de veiligheid?",
         opties=[
             "de regelstaven",
             "de betonnen koepel",
@@ -273,7 +273,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke soorten straling bestaan uit deeltjes en niet uit een golf? Er zijn er twee.",
+        vraag="Welke soorten straling bestaan uit deeltjes en niet uit een golf?",
         opties=[
             "alfastraling",
             "bètastraling",
@@ -291,7 +291,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarmee houd je gammastraling tegen? Er zijn er twee.",
+        vraag="Waarmee houd je gammastraling tegen?",
         opties=[
             "een dikke laag lood",
             "een dikke betonnen wand",
@@ -375,7 +375,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe bescherm je je tegen ioniserende straling? Er zijn er twee.",
+        vraag="Hoe bescherm je je tegen ioniserende straling?",
         opties=[
             "verder van de bron gaan staan",
             "een laag lood tussen jou en de bron zetten",

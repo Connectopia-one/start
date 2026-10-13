@@ -41,7 +41,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke werkwijzen horen bij veilig en duurzaam werken? Er zijn er twee.",
+        vraag="Welke werkwijzen horen bij veilig en duurzaam werken?",
         opties=[
             "een gemorst product onmiddellijk opkuisen",
             "glaswerk na gebruik schoonmaken en wegzetten",
@@ -143,7 +143,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke voorzorgen neem je bij een bunsenbrander? Er zijn er twee.",
+        vraag="Welke voorzorgen neem je bij een bunsenbrander?",
         opties=[
             "lange haren vastbinden",
             "losse kledij en mouwen wegsteken",
@@ -224,7 +224,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze eenheden zijn SI-basiseenheden? Er zijn er twee.",
+        vraag="Welke van deze eenheden zijn SI-basiseenheden?",
         opties=[
             "de meter",
             "de seconde",
@@ -338,7 +338,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat kenmerkt een goede onderzoeksvraag? Er zijn er twee.",
+        vraag="Wat kenmerkt een goede onderzoeksvraag?",
         opties=[
             "ze is scherp afgebakend",
             "je kan ze met metingen beantwoorden",
@@ -350,7 +350,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke stappen horen bij wetenschappelijk onderzoek? Er zijn er twee.",
+        vraag="Welke stappen horen bij wetenschappelijk onderzoek?",
         opties=[
             "een hypothese formuleren",
             "data verzamelen en analyseren",

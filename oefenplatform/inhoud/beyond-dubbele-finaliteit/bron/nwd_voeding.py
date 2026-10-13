@@ -24,7 +24,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke voedingsstoffen leveren energie? Er zijn er drie.",
+        vraag="Welke voedingsstoffen leveren energie?",
         opties=[
             "koolhydraten",
             "vetten",
@@ -84,7 +84,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke voedingsmiddelen zijn rijk aan zetmeel? Er zijn er drie.",
+        vraag="Welke voedingsmiddelen zijn rijk aan zetmeel?",
         opties=[
             "aardappelen",
             "rijst",
@@ -144,19 +144,21 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke voedingsmiddelen zijn rijk aan onverzadigde vetten? Er zijn er twee.",
+        vraag="Welke voedingsmiddelen zijn rijk aan onverzadigde vetten?",
         opties=[
             "olijfolie",
             "noten",
             "roomboter",
             "een kaantje spek",
+            "vette vis zoals zalm",
+            "zonnebloemolie",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="Plantaardige oliën, noten en vette vis leveren vooral onverzadigde vetten. Boter en vet vlees leveren vooral verzadigde.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarvoor dienen vetten in het lichaam? Er zijn er drie.",
+        vraag="Waarvoor dienen vetten in het lichaam?",
         opties=[
             "energie opslaan",
             "het lichaam isoleren tegen de kou",
@@ -291,14 +293,16 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat kan een bonus opleveren in de ecoscore? Er zijn er twee.",
+        vraag="Wat kan een bonus opleveren in de ecoscore?",
         opties=[
             "een biologische teelt",
             "een goed recycleerbare verpakking",
             "transport met het vliegtuig",
             "een verpakking in meerdere lagen plastic",
+            "een seizoensproduct van dichtbij",
+            "een verpakking uit één materiaal",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="Bonussen gaan naar een gunstige teelt en een goede verpakking. Vliegtransport en moeilijk te sorteren verpakkingen geven juist een malus.",
     ),
     dict(
@@ -387,7 +391,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke bestanddelen trekken de nutriscore naar beneden? Er zijn er drie.",
+        vraag="Welke bestanddelen trekken de nutriscore naar beneden?",
         opties=[
             "veel suiker",
             "veel zout",

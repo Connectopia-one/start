@@ -60,14 +60,16 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke zijn rudimentaire kenmerken bij de mens? Er zijn er twee.",
+        vraag="Welke zijn rudimentaire kenmerken bij de mens?",
         opties=[
             "het staartbeentje",
             "de spiertjes die de oorschelp bewegen",
             "de lens in het oog",
             "het middenrif onder de longen",
+            "de verstandskiezen",
+            "het aanhangsel van de blinde darm",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="Het staartbeentje is wat er van een staart overblijft, en de oorspiertjes bewegen bij ons nauwelijks nog. De lens en het middenrif doen juist voluit hun werk.",
     ),
     dict(
@@ -132,7 +134,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Uit welke vakgebieden komen argumenten voor evolutie? Er zijn er drie.",
+        vraag="Uit welke vakgebieden komen argumenten voor evolutie?",
         opties=[
             "de anatomie",
             "de paleontologie",
@@ -309,14 +311,16 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke gegevens gebruiken onderzoekers vandaag om een evolutieboom te maken? Er zijn er twee.",
+        vraag="Welke gegevens gebruiken onderzoekers vandaag om een evolutieboom te maken?",
         opties=[
             "de volgorde van de basen in het DNA",
             "de bouw van skeletten en organen",
             "het gewicht van de volwassen dieren",
             "de kleur van de vacht of de veren",
+            "de bouw van embryo's",
+            "de volgorde van de aminozuren in eiwitten",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="DNA-volgordes en bouw zijn de twee stevigste bronnen. Gewicht en kleur veranderen te makkelijk en zeggen weinig over verwantschap.",
     ),
     dict(
@@ -345,14 +349,16 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een walvis heeft kleine heupbeentjes die niets dragen. Wat besluit je daaruit? Er zijn er twee.",
+        vraag="Een walvis heeft kleine heupbeentjes die niets dragen. Wat besluit je daaruit?",
         opties=[
             "zijn voorouders hadden achterpoten",
             "die beentjes zijn rudimentaire kenmerken",
             "hij kan vandaag nog op het land lopen",
             "hij is nauwer verwant aan de vissen dan aan ons",
+            "zijn voorouders leefden op het land",
+            "die beentjes zijn een aanwijzing voor evolutie",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="De beentjes dragen niets meer, dus zijn ze rudimentair, en ze wijzen erop dat de voorouders van de walvis achterpoten hadden en op het land leefden. Een walvis is een zoogdier en dus nauwer verwant aan ons dan aan de vissen.",
     ),
     dict(

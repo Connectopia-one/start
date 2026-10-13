@@ -83,7 +83,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke stappen staan op de ladder van Lansink hoger dan verbranden? Er zijn er drie.",
+        vraag="Welke stappen staan op de ladder van Lansink hoger dan verbranden?",
         opties=[
             "preventie",
             "hergebruik",
@@ -155,19 +155,21 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="In welke ketens gaat het materiaal na gebruik verloren? Er zijn er twee.",
+        vraag="In welke ketens gaat het materiaal na gebruik verloren?",
         opties=[
             "take make waste",
             "keteneconomie zonder recyclage",
             "keteneconomie met recyclage",
             "cradle to cradle",
+            "een keten waarin het product verbrand wordt",
+            "een keten die op storten eindigt",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="In beide gevallen eindigt het materiaal als afval. Een keten zonder recyclage doet het wel beter, want daar wordt het product eerst zo lang mogelijk gebruikt.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Waaraan meet je de duurzaamheid van een proces? Er zijn er drie.",
+        vraag="Waaraan meet je de duurzaamheid van een proces?",
         opties=[
             "hoeveel grondstoffen het verbruikt",
             "hoeveel energie het verbruikt",
@@ -254,14 +256,16 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke materialen zijn moeilijk te recycleren door hun crosslinks? Er zijn er twee.",
+        vraag="Welke materialen zijn moeilijk te recycleren door hun crosslinks?",
         opties=[
             "een thermoharder",
             "een elastomeer",
             "een thermoplast",
             "glas",
+            "gevulkaniseerd rubber",
+            "een autoband",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="Allebei vormen ze een netwerk dat niet meer smelt, dus omsmelten lukt niet. Thermoplasten en glas kan je wel opnieuw vloeibaar maken.",
     ),
     dict(
@@ -314,7 +318,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Uit welke grondstoffen wordt gewone kunststof gemaakt? Er zijn er twee.",
+        vraag="Uit welke grondstoffen wordt gewone kunststof gemaakt?",
         opties=[
             "aardolie",
             "aardgas",
@@ -368,7 +372,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke energievormen zijn hernieuwbaar? Er zijn er twee.",
+        vraag="Welke energievormen zijn hernieuwbaar?",
         opties=[
             "windenergie",
             "zonne-energie",

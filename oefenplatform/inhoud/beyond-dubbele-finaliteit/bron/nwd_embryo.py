@@ -24,7 +24,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke hormonen maakt de hypofyse zelf? Er zijn er twee.",
+        vraag="Welke hormonen maakt de hypofyse zelf?",
         opties=[
             "follikelstimulerend hormoon FSH",
             "luteïniserend hormoon LH",
@@ -108,7 +108,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke onderdelen horen bij een zaadcel? Er zijn er drie.",
+        vraag="Welke onderdelen horen bij een zaadcel?",
         opties=[
             "een flagel of staart",
             "een kop met een enzym",
@@ -174,14 +174,16 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat heeft een eicel wél en een zaadcel niet? Er zijn er twee.",
+        vraag="Wat heeft een eicel wél en een zaadcel niet?",
         opties=[
             "reservevoedsel in het cytoplasma",
             "een laag eiwit rondom de cel",
             "een staart om mee te zwemmen",
             "een kop met een enzym erin",
+            "een groot cytoplasma",
+            "de mitochondriën die het embryo meekrijgt",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="De eicel moet de eerste dagen op eigen voorraad verder, dus draagt ze voedsel mee, met een eiwitlaag eromheen. De staart en het enzym zijn juist de uitrusting van de zaadcel.",
     ),
     dict(
@@ -255,14 +257,16 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat gaat er via de placenta van de moeder naar de vrucht? Er zijn er twee.",
+        vraag="Wat gaat er via de placenta van de moeder naar de vrucht?",
         opties=[
             "zuurstof uit het bloed van de moeder",
             "voedingsstoffen zoals glucose",
             "koolstofdioxide uit de vrucht",
             "afvalstoffen uit de vrucht",
+            "antistoffen van de moeder",
+            "water",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="De placenta werkt in twee richtingen. Zuurstof en voeding gaan naar de vrucht, koolstofdioxide en afvalstoffen gaan de andere kant op, naar het bloed van de moeder.",
     ),
     dict(
@@ -339,7 +343,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke ziekteverwekkers zijn gevaarlijk voor een ongeboren kind? Er zijn er drie.",
+        vraag="Welke ziekteverwekkers zijn gevaarlijk voor een ongeboren kind?",
         opties=[
             "het rubellavirus of rodehond",
             "de toxoplasmose-parasiet",

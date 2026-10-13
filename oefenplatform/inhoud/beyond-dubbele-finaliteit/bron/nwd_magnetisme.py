@@ -11,7 +11,7 @@ rechterhandregel, de ijzeren kern en de toepassingen.
 DEEL1 = [
     dict(
         type="meerkeuze",
-        vraag="Welke metalen zijn ferromagnetisch? Er zijn er drie.",
+        vraag="Welke metalen zijn ferromagnetisch?",
         opties=[
             "ijzer",
             "nikkel",
@@ -185,7 +185,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke voorwerpen trekt een magneet aan? Er zijn er twee.",
+        vraag="Welke voorwerpen trekt een magneet aan?",
         opties=[
             "een ijzeren spijker",
             "een stalen schroef",
@@ -254,7 +254,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe maak je een elektromagneet sterker? Er zijn er twee.",
+        vraag="Hoe maak je een elektromagneet sterker?",
         opties=[
             "meer wikkelingen rond de spoel leggen",
             "een grotere stroom door de spoel sturen",
@@ -314,7 +314,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="In welke toepassingen zit een elektromagneet? Er zijn er twee.",
+        vraag="In welke toepassingen zit een elektromagneet?",
         opties=[
             "een elektrische deurbel",
             "een relais",

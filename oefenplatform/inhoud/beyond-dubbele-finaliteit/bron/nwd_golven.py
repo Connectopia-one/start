@@ -41,7 +41,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke golven zijn mechanische golven? Er zijn er twee.",
+        vraag="Welke golven zijn mechanische golven?",
         opties=[
             "geluid",
             "een golf op het water",
@@ -179,7 +179,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke materialen slorpen geluid op in plaats van het terug te kaatsen? Er zijn er twee.",
+        vraag="Welke materialen slorpen geluid op in plaats van het terug te kaatsen?",
         opties=[
             "een dik gordijn",
             "een zachte tapijtvloer",
@@ -203,7 +203,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke toepassingen maken gebruik van de weerkaatsing van geluid? Er zijn er twee.",
+        vraag="Welke toepassingen maken gebruik van de weerkaatsing van geluid?",
         opties=[
             "sonar op een schip",
             "echolocatie bij een vleermuis",
@@ -308,7 +308,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe bescherm je je gehoor op een fuif? Er zijn er twee.",
+        vraag="Hoe bescherm je je gehoor op een fuif?",
         opties=[
             "oordopjes dragen",
             "verder van de boxen gaan staan",
@@ -380,7 +380,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke soorten straling zijn ioniserend? Er zijn er twee.",
+        vraag="Welke soorten straling zijn ioniserend?",
         opties=[
             "röntgenstraling",
             "gammastraling",
@@ -392,7 +392,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke toestellen werken met infraroodstraling? Er zijn er twee.",
+        vraag="Welke toestellen werken met infraroodstraling?",
         opties=[
             "een afstandsbediening",
             "een warmtelamp",

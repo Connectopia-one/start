@@ -48,14 +48,16 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is er in de moderne evolutietheorie bijgekomen ten opzichte van Darwin? Er zijn er twee.",
+        vraag="Wat is er in de moderne evolutietheorie bijgekomen ten opzichte van Darwin?",
         opties=[
             "mutaties als bron van nieuwe variatie",
             "de genetica als verklaring voor overerving",
             "het idee dat de omgeving selecteert",
             "het idee dat soorten veranderen",
+            "het toeval van de genetische drift",
+            "de bevolkingsgenetica, die allelen in een populatie volgt",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="Selectie en veranderende soorten zaten al bij Darwin. Mutaties en de genetica verklaren pas waaruit de variatie ontstaat en hoe ze doorgegeven wordt.",
     ),
     dict(
@@ -132,14 +134,16 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke uitspraken horen bij Darwin en niet bij Lamarck? Er zijn er twee.",
+        vraag="Welke uitspraken horen bij Darwin en niet bij Lamarck?",
         opties=[
             "binnen een soort bestaat er variatie",
             "er worden meer jongen geboren dan er overleven",
             "een gebruikt lichaamsdeel groeit en wordt doorgegeven",
             "een ongebruikt lichaamsdeel verdwijnt in één generatie",
+            "wie beter past, laat meer nakomelingen na",
+            "de verschillen zitten al in de soort voor de selectie begint",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="Variatie en overproductie van jongen zijn twee hoofdgedachten van Darwin. De andere uitspraken zijn juist de kern van Lamarcks verklaring.",
     ),
     dict(
@@ -186,14 +190,16 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke twee dingen heeft natuurlijke selectie nodig? Er zijn er twee.",
+        vraag="Welke twee dingen heeft natuurlijke selectie nodig?",
         opties=[
             "erfelijke variatie tussen individuen",
             "verschil in overlevings- of voortplantingskans",
             "een gelijke kans voor elk individu",
             "een omgeving die nooit verandert",
+            "variatie die doorgegeven kan worden",
+            "meer nakomelingen dan er kunnen overleven",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="Zonder verschillen valt er niets te selecteren, en zonder verschil in kansen verschuift er niets. Een onveranderlijke omgeving of gelijke kansen zouden de selectie juist stilleggen.",
     ),
 ]
@@ -219,14 +225,16 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waaruit ontstaat nieuwe erfelijke variatie? Er zijn er twee.",
+        vraag="Waaruit ontstaat nieuwe erfelijke variatie?",
         opties=[
             "uit mutaties in het DNA",
             "uit het herschikken van chromosomen bij de meiose",
             "uit het trainen van spieren",
             "uit het aanleren van nieuw gedrag",
+            "uit crossing-over tussen chromosomen",
+            "uit het willekeurig samenkomen van twee geslachtscellen",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="Mutaties maken echt nieuwe allelen, en de meiose schudt de bestaande telkens anders door elkaar. Wat je traint of leert, raakt je geslachtscellen niet.",
     ),
     dict(
@@ -315,7 +323,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat hebben de mens en de mensapen gemeenschappelijk? Er zijn er drie.",
+        vraag="Wat hebben de mens en de mensapen gemeenschappelijk?",
         opties=[
             "een grote hersenschors",
             "handen met een tegenstelbare duim",
@@ -363,7 +371,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke soorten horen bij de menselijke evolutie? Er zijn er drie.",
+        vraag="Welke soorten horen bij de menselijke evolutie?",
         opties=[
             "Australopithecus",
             "Homo habilis",

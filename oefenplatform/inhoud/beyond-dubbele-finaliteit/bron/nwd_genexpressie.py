@@ -29,7 +29,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke basen horen in DNA? Er zijn er vier.",
+        vraag="Welke basen horen in DNA?",
         opties=[
             "adenine",
             "cytosine",
@@ -107,7 +107,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarin verschilt RNA van DNA? Er zijn er drie.",
+        vraag="Waarin verschilt RNA van DNA?",
         opties=[
             "RNA heeft maar één streng",
             "RNA bevat uracil in plaats van thymine",
@@ -143,14 +143,16 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke kenmerken horen bij het fenotype? Er zijn er twee.",
+        vraag="Welke kenmerken horen bij het fenotype?",
         opties=[
             "de kleur van je ogen",
             "je lengte op volwassen leeftijd",
             "de twee allelen die je voor oogkleur draagt",
             "de volgorde van de basen in een gen",
+            "je bloedgroep zoals een test ze aangeeft",
+            "de vorm van je oorlellen",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="Het fenotype is wat je kan waarnemen of meten. De allelen en de basenvolgorde staan in het DNA zelf en horen dus bij het genotype.",
     ),
     dict(
@@ -278,14 +280,16 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke eigenschappen zijn erfelijk? Er zijn er twee.",
+        vraag="Welke eigenschappen zijn erfelijk?",
         opties=[
             "je bloedgroep",
             "je natuurlijke haarkleur",
             "een litteken op je knie",
             "een tatoeage op je arm",
+            "de vorm van je neus",
+            "een aandoening als mucoviscidose",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="Bloedgroep en natuurlijke haarkleur staan in je genen. Een litteken en een tatoeage komen van buitenaf en gaan dus niet over op je kinderen.",
     ),
     dict(

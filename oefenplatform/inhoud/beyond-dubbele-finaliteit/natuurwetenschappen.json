@@ -19,7 +19,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke hormonen maakt de hypofyse zelf? Er zijn er twee.",
+          "vraag": "Welke hormonen maakt de hypofyse zelf?",
           "opties": [
             "follikelstimulerend hormoon FSH",
             "luteïniserend hormoon LH",
@@ -116,7 +116,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke onderdelen horen bij een zaadcel? Er zijn er drie.",
+          "vraag": "Welke onderdelen horen bij een zaadcel?",
           "opties": [
             "een flagel of staart",
             "een kop met een enzym",
@@ -190,16 +190,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat heeft een eicel wél en een zaadcel niet? Er zijn er twee.",
+          "vraag": "Wat heeft een eicel wél en een zaadcel niet?",
           "opties": [
             "reservevoedsel in het cytoplasma",
             "een laag eiwit rondom de cel",
             "een staart om mee te zwemmen",
-            "een kop met een enzym erin"
+            "een kop met een enzym erin",
+            "een groot cytoplasma",
+            "de mitochondriën die het embryo meekrijgt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "De eicel moet de eerste dagen op eigen voorraad verder, dus draagt ze voedsel mee, met een eiwitlaag eromheen. De staart en het enzym zijn juist de uitrusting van de zaadcel."
         },
@@ -285,16 +289,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat gaat er via de placenta van de moeder naar de vrucht? Er zijn er twee.",
+          "vraag": "Wat gaat er via de placenta van de moeder naar de vrucht?",
           "opties": [
             "zuurstof uit het bloed van de moeder",
             "voedingsstoffen zoals glucose",
             "koolstofdioxide uit de vrucht",
-            "afvalstoffen uit de vrucht"
+            "afvalstoffen uit de vrucht",
+            "antistoffen van de moeder",
+            "water"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "De placenta werkt in twee richtingen. Zuurstof en voeding gaan naar de vrucht, koolstofdioxide en afvalstoffen gaan de andere kant op, naar het bloed van de moeder."
         },
@@ -382,7 +390,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke ziekteverwekkers zijn gevaarlijk voor een ongeboren kind? Er zijn er drie.",
+          "vraag": "Welke ziekteverwekkers zijn gevaarlijk voor een ongeboren kind?",
           "opties": [
             "het rubellavirus of rodehond",
             "de toxoplasmose-parasiet",
@@ -453,7 +461,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke methoden zijn natuurlijk, dus zonder middel of ingreep? Er zijn er drie.",
+          "vraag": "Welke methoden zijn natuurlijk, dus zonder middel of ingreep?",
           "opties": [
             "de kalendermethode",
             "de temperatuurmethode",
@@ -497,7 +505,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke anticonceptiemiddelen werken met hormonen? Er zijn er drie.",
+          "vraag": "Welke anticonceptiemiddelen werken met hormonen?",
           "opties": [
             "de combinatiepil",
             "het hormoonstaafje",
@@ -534,16 +542,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke methoden beschermen ook tegen soa's? Er zijn er twee.",
+          "vraag": "Welke methoden beschermen ook tegen soa's?",
           "opties": [
             "het mannencondoom",
             "het vrouwencondoom",
             "de combinatiepil",
-            "de hormoonspiraal"
+            "de hormoonspiraal",
+            "onthouding",
+            "een condoom dat je maar één keer gebruikt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Alleen een condoom legt een echte barrière tussen de slijmvliezen. Hormonale middelen regelen enkel de vruchtbaarheid en houden geen enkele ziekteverwekker tegen."
         },
@@ -613,7 +625,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke methoden zijn barrièremethoden, die de zaadcellen mechanisch tegenhouden? Er zijn er drie.",
+          "vraag": "Welke methoden zijn barrièremethoden, die de zaadcellen mechanisch tegenhouden?",
           "opties": [
             "het mannencondoom",
             "het vrouwencondoom",
@@ -736,7 +748,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke gewoonten verlagen de vruchtbaarheid bij man én vrouw? Er zijn er drie.",
+          "vraag": "Welke gewoonten verlagen de vruchtbaarheid bij man én vrouw?",
           "opties": [
             "roken",
             "veel alcohol drinken",
@@ -792,16 +804,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke invloeden van buitenaf kunnen de vruchtbaarheid aantasten? Er zijn er twee.",
+          "vraag": "Welke invloeden van buitenaf kunnen de vruchtbaarheid aantasten?",
           "opties": [
             "zware metalen zoals lood en cadmium",
             "langdurige, zware stress",
             "voldoende slaap",
-            "een gevarieerde voeding"
+            "een gevarieerde voeding",
+            "bepaalde pesticiden",
+            "veel hitte op de teelballen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Zware metalen en aanhoudende stress verstoren de hormoonhuishouding. Slaap en gevarieerde voeding doen net het omgekeerde en ondersteunen ze."
         },
@@ -900,7 +916,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke basen horen in DNA? Er zijn er vier.",
+          "vraag": "Welke basen horen in DNA?",
           "opties": [
             "adenine",
             "cytosine",
@@ -987,7 +1003,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarin verschilt RNA van DNA? Er zijn er drie.",
+          "vraag": "Waarin verschilt RNA van DNA?",
           "opties": [
             "RNA heeft maar één streng",
             "RNA bevat uracil in plaats van thymine",
@@ -1031,16 +1047,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke kenmerken horen bij het fenotype? Er zijn er twee.",
+          "vraag": "Welke kenmerken horen bij het fenotype?",
           "opties": [
             "de kleur van je ogen",
             "je lengte op volwassen leeftijd",
             "de twee allelen die je voor oogkleur draagt",
-            "de volgorde van de basen in een gen"
+            "de volgorde van de basen in een gen",
+            "je bloedgroep zoals een test ze aangeeft",
+            "de vorm van je oorlellen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Het fenotype is wat je kan waarnemen of meten. De allelen en de basenvolgorde staan in het DNA zelf en horen dus bij het genotype."
         },
@@ -1180,16 +1200,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke eigenschappen zijn erfelijk? Er zijn er twee.",
+          "vraag": "Welke eigenschappen zijn erfelijk?",
           "opties": [
             "je bloedgroep",
             "je natuurlijke haarkleur",
             "een litteken op je knie",
-            "een tatoeage op je arm"
+            "een tatoeage op je arm",
+            "de vorm van je neus",
+            "een aandoening als mucoviscidose"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Bloedgroep en natuurlijke haarkleur staan in je genen. Een litteken en een tatoeage komen van buitenaf en gaan dus niet over op je kinderen."
         },
@@ -1431,16 +1455,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarvoor dient de meiose in ons lichaam? Er zijn er twee.",
+          "vraag": "Waarvoor dient de meiose in ons lichaam?",
           "opties": [
             "geslachtscellen maken",
             "variatie tussen de nakomelingen brengen",
             "een wonde in de huid dichtmaken",
-            "het lichaam laten groeien"
+            "het lichaam laten groeien",
+            "het aantal chromosomen halveren",
+            "de chromosomen van beide ouders herschikken"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Meiose gebeurt alleen in de eierstok en de teelbal. Groeien en wonden helen doet het lichaam met mitose."
         },
@@ -1491,7 +1519,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat kan een mutatie veroorzaken? Er zijn er drie.",
+          "vraag": "Wat kan een mutatie veroorzaken?",
           "opties": [
             "uv-straling van de zon",
             "bepaalde chemische stoffen",
@@ -1652,7 +1680,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke allelen bepalen de ABO-bloedgroepen? Er zijn er drie.",
+          "vraag": "Welke allelen bepalen de ABO-bloedgroepen?",
           "opties": [
             "het allel voor A",
             "het allel voor B",
@@ -1710,16 +1738,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke aandoeningen erven X-gebonden over? Er zijn er twee.",
+          "vraag": "Welke aandoeningen erven X-gebonden over?",
           "opties": [
             "hemofilie",
             "rood-groenkleurenblindheid",
             "mucoviscidose",
-            "de ziekte van Huntington"
+            "de ziekte van Huntington",
+            "de spierziekte van Duchenne",
+            "het fragiele X-syndroom"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Hemofilie en rood-groenkleurenblindheid liggen op het X-chromosoom. Mucoviscidose erft autosomaal recessief over en Huntington autosomaal dominant."
         },
@@ -1806,16 +1838,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke zijn rudimentaire kenmerken bij de mens? Er zijn er twee.",
+          "vraag": "Welke zijn rudimentaire kenmerken bij de mens?",
           "opties": [
             "het staartbeentje",
             "de spiertjes die de oorschelp bewegen",
             "de lens in het oog",
-            "het middenrif onder de longen"
+            "het middenrif onder de longen",
+            "de verstandskiezen",
+            "het aanhangsel van de blinde darm"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Het staartbeentje is wat er van een staart overblijft, en de oorspiertjes bewegen bij ons nauwelijks nog. De lens en het middenrif doen juist voluit hun werk."
         },
@@ -1889,7 +1925,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Uit welke vakgebieden komen argumenten voor evolutie? Er zijn er drie.",
+          "vraag": "Uit welke vakgebieden komen argumenten voor evolutie?",
           "opties": [
             "de anatomie",
             "de paleontologie",
@@ -2082,16 +2118,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke gegevens gebruiken onderzoekers vandaag om een evolutieboom te maken? Er zijn er twee.",
+          "vraag": "Welke gegevens gebruiken onderzoekers vandaag om een evolutieboom te maken?",
           "opties": [
             "de volgorde van de basen in het DNA",
             "de bouw van skeletten en organen",
             "het gewicht van de volwassen dieren",
-            "de kleur van de vacht of de veren"
+            "de kleur van de vacht of de veren",
+            "de bouw van embryo's",
+            "de volgorde van de aminozuren in eiwitten"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "DNA-volgordes en bouw zijn de twee stevigste bronnen. Gewicht en kleur veranderen te makkelijk en zeggen weinig over verwantschap."
         },
@@ -2124,16 +2164,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een walvis heeft kleine heupbeentjes die niets dragen. Wat besluit je daaruit? Er zijn er twee.",
+          "vraag": "Een walvis heeft kleine heupbeentjes die niets dragen. Wat besluit je daaruit?",
           "opties": [
             "zijn voorouders hadden achterpoten",
             "die beentjes zijn rudimentaire kenmerken",
             "hij kan vandaag nog op het land lopen",
-            "hij is nauwer verwant aan de vissen dan aan ons"
+            "hij is nauwer verwant aan de vissen dan aan ons",
+            "zijn voorouders leefden op het land",
+            "die beentjes zijn een aanwijzing voor evolutie"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "De beentjes dragen niets meer, dus zijn ze rudimentair, en ze wijzen erop dat de voorouders van de walvis achterpoten hadden en op het land leefden. Een walvis is een zoogdier en dus nauwer verwant aan ons dan aan de vissen."
         },
@@ -2222,16 +2266,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is er in de moderne evolutietheorie bijgekomen ten opzichte van Darwin? Er zijn er twee.",
+          "vraag": "Wat is er in de moderne evolutietheorie bijgekomen ten opzichte van Darwin?",
           "opties": [
             "mutaties als bron van nieuwe variatie",
             "de genetica als verklaring voor overerving",
             "het idee dat de omgeving selecteert",
-            "het idee dat soorten veranderen"
+            "het idee dat soorten veranderen",
+            "het toeval van de genetische drift",
+            "de bevolkingsgenetica, die allelen in een populatie volgt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Selectie en veranderende soorten zaten al bij Darwin. Mutaties en de genetica verklaren pas waaruit de variatie ontstaat en hoe ze doorgegeven wordt."
         },
@@ -2313,16 +2361,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke uitspraken horen bij Darwin en niet bij Lamarck? Er zijn er twee.",
+          "vraag": "Welke uitspraken horen bij Darwin en niet bij Lamarck?",
           "opties": [
             "binnen een soort bestaat er variatie",
             "er worden meer jongen geboren dan er overleven",
             "een gebruikt lichaamsdeel groeit en wordt doorgegeven",
-            "een ongebruikt lichaamsdeel verdwijnt in één generatie"
+            "een ongebruikt lichaamsdeel verdwijnt in één generatie",
+            "wie beter past, laat meer nakomelingen na",
+            "de verschillen zitten al in de soort voor de selectie begint"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Variatie en overproductie van jongen zijn twee hoofdgedachten van Darwin. De andere uitspraken zijn juist de kern van Lamarcks verklaring."
         },
@@ -2373,16 +2425,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke twee dingen heeft natuurlijke selectie nodig? Er zijn er twee.",
+          "vraag": "Welke twee dingen heeft natuurlijke selectie nodig?",
           "opties": [
             "erfelijke variatie tussen individuen",
             "verschil in overlevings- of voortplantingskans",
             "een gelijke kans voor elk individu",
-            "een omgeving die nooit verandert"
+            "een omgeving die nooit verandert",
+            "variatie die doorgegeven kan worden",
+            "meer nakomelingen dan er kunnen overleven"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Zonder verschillen valt er niets te selecteren, en zonder verschil in kansen verschuift er niets. Een onveranderlijke omgeving of gelijke kansen zouden de selectie juist stilleggen."
         }
@@ -2413,16 +2469,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waaruit ontstaat nieuwe erfelijke variatie? Er zijn er twee.",
+          "vraag": "Waaruit ontstaat nieuwe erfelijke variatie?",
           "opties": [
             "uit mutaties in het DNA",
             "uit het herschikken van chromosomen bij de meiose",
             "uit het trainen van spieren",
-            "uit het aanleren van nieuw gedrag"
+            "uit het aanleren van nieuw gedrag",
+            "uit crossing-over tussen chromosomen",
+            "uit het willekeurig samenkomen van twee geslachtscellen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Mutaties maken echt nieuwe allelen, en de meiose schudt de bestaande telkens anders door elkaar. Wat je traint of leert, raakt je geslachtscellen niet."
         },
@@ -2520,7 +2580,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat hebben de mens en de mensapen gemeenschappelijk? Er zijn er drie.",
+          "vraag": "Wat hebben de mens en de mensapen gemeenschappelijk?",
           "opties": [
             "een grote hersenschors",
             "handen met een tegenstelbare duim",
@@ -2576,7 +2636,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten horen bij de menselijke evolutie? Er zijn er drie.",
+          "vraag": "Welke soorten horen bij de menselijke evolutie?",
           "opties": [
             "Australopithecus",
             "Homo habilis",
@@ -2727,16 +2787,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welk afval hoort bij het gft? Er zijn er twee.",
+          "vraag": "Welk afval hoort bij het gft?",
           "opties": [
             "aardappelschillen",
             "gemaaid gras",
             "een lege conservenblik",
-            "een verfrestje"
+            "een verfrestje",
+            "koffiedik",
+            "snijafval van groenten"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Gft staat voor groente-, fruit- en tuinafval. Een blik gaat bij het pmd of het metaal, en verf hoort bij het klein gevaarlijk afval."
         },
@@ -2800,7 +2864,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat hoort bij de voorzorgen die je op een etiket terugvindt? Er zijn er drie.",
+          "vraag": "Wat hoort bij de voorzorgen die je op een etiket terugvindt?",
           "opties": [
             "handschoenen dragen",
             "buiten het bereik van kinderen houden",
@@ -2881,7 +2945,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke oplosmiddelen zijn vetoplosbaar of organisch? Er zijn er drie.",
+          "vraag": "Welke oplosmiddelen zijn vetoplosbaar of organisch?",
           "opties": [
             "thinner",
             "terpentine",
@@ -2955,7 +3019,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke stoffen zijn zuren? Er zijn er drie.",
+          "vraag": "Welke stoffen zijn zuren?",
           "opties": [
             "azijnzuur in huishoudazijn",
             "citroenzuur in citroensap",
@@ -3060,7 +3124,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke voedingsstoffen leveren energie? Er zijn er drie.",
+          "vraag": "Welke voedingsstoffen leveren energie?",
           "opties": [
             "koolhydraten",
             "vetten",
@@ -3128,7 +3192,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke voedingsmiddelen zijn rijk aan zetmeel? Er zijn er drie.",
+          "vraag": "Welke voedingsmiddelen zijn rijk aan zetmeel?",
           "opties": [
             "aardappelen",
             "rijst",
@@ -3196,22 +3260,26 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke voedingsmiddelen zijn rijk aan onverzadigde vetten? Er zijn er twee.",
+          "vraag": "Welke voedingsmiddelen zijn rijk aan onverzadigde vetten?",
           "opties": [
             "olijfolie",
             "noten",
             "roomboter",
-            "een kaantje spek"
+            "een kaantje spek",
+            "vette vis zoals zalm",
+            "zonnebloemolie"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Plantaardige oliën, noten en vette vis leveren vooral onverzadigde vetten. Boter en vet vlees leveren vooral verzadigde."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarvoor dienen vetten in het lichaam? Er zijn er drie.",
+          "vraag": "Waarvoor dienen vetten in het lichaam?",
           "opties": [
             "energie opslaan",
             "het lichaam isoleren tegen de kou",
@@ -3366,16 +3434,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat kan een bonus opleveren in de ecoscore? Er zijn er twee.",
+          "vraag": "Wat kan een bonus opleveren in de ecoscore?",
           "opties": [
             "een biologische teelt",
             "een goed recycleerbare verpakking",
             "transport met het vliegtuig",
-            "een verpakking in meerdere lagen plastic"
+            "een verpakking in meerdere lagen plastic",
+            "een seizoensproduct van dichtbij",
+            "een verpakking uit één materiaal"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Bonussen gaan naar een gunstige teelt en een goede verpakking. Vliegtransport en moeilijk te sorteren verpakkingen geven juist een malus."
         },
@@ -3469,7 +3541,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke bestanddelen trekken de nutriscore naar beneden? Er zijn er drie.",
+          "vraag": "Welke bestanddelen trekken de nutriscore naar beneden?",
           "opties": [
             "veel suiker",
             "veel zout",
@@ -3603,7 +3675,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke van deze uitdrukkingen zijn concentratie-uitdrukkingen? Er zijn er drie.",
+          "vraag": "Welke van deze uitdrukkingen zijn concentratie-uitdrukkingen?",
           "opties": [
             "massaprocent",
             "volumeprocent",
@@ -3677,16 +3749,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat moet je kennen om te berekenen hoeveel alcohol er in een glas zit? Er zijn er twee.",
+          "vraag": "Wat moet je kennen om te berekenen hoeveel alcohol er in een glas zit?",
           "opties": [
             "het volume van het glas",
             "het alcoholpercentage van de drank",
             "de temperatuur van de drank",
-            "de prijs van de fles"
+            "de prijs van de fles",
+            "de omrekening van milliliter naar gram",
+            "het volume dat je echt uitschenkt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Je vermenigvuldigt het volume met het percentage. Temperatuur en prijs veranderen niets aan de hoeveelheid alcohol."
         },
@@ -3799,16 +3875,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarvan hangt het af of een stof jou schade doet? Er zijn er twee.",
+          "vraag": "Waarvan hangt het af of een stof jou schade doet?",
           "opties": [
             "hoeveel je ervan binnenkrijgt",
             "hoeveel je zelf weegt",
             "hoe duur de stof was",
-            "in welke kleur de verpakking is"
+            "in welke kleur de verpakking is",
+            "hoe lang je eraan blootstaat",
+            "langs welke weg ze binnenkomt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "De dosis en je lichaamsgewicht bepalen samen hoeveel er per kilogram in je lichaam komt. Prijs en verpakking veranderen daar niets aan."
         },
@@ -4003,7 +4083,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke stappen staan op de ladder van Lansink hoger dan verbranden? Er zijn er drie.",
+          "vraag": "Welke stappen staan op de ladder van Lansink hoger dan verbranden?",
           "opties": [
             "preventie",
             "hergebruik",
@@ -4083,22 +4163,26 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "In welke ketens gaat het materiaal na gebruik verloren? Er zijn er twee.",
+          "vraag": "In welke ketens gaat het materiaal na gebruik verloren?",
           "opties": [
             "take make waste",
             "keteneconomie zonder recyclage",
             "keteneconomie met recyclage",
-            "cradle to cradle"
+            "cradle to cradle",
+            "een keten waarin het product verbrand wordt",
+            "een keten die op storten eindigt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "In beide gevallen eindigt het materiaal als afval. Een keten zonder recyclage doet het wel beter, want daar wordt het product eerst zo lang mogelijk gebruikt."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waaraan meet je de duurzaamheid van een proces? Er zijn er drie.",
+          "vraag": "Waaraan meet je de duurzaamheid van een proces?",
           "opties": [
             "hoeveel grondstoffen het verbruikt",
             "hoeveel energie het verbruikt",
@@ -4200,16 +4284,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke materialen zijn moeilijk te recycleren door hun crosslinks? Er zijn er twee.",
+          "vraag": "Welke materialen zijn moeilijk te recycleren door hun crosslinks?",
           "opties": [
             "een thermoharder",
             "een elastomeer",
             "een thermoplast",
-            "glas"
+            "glas",
+            "gevulkaniseerd rubber",
+            "een autoband"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Allebei vormen ze een netwerk dat niet meer smelt, dus omsmelten lukt niet. Thermoplasten en glas kan je wel opnieuw vloeibaar maken."
         },
@@ -4267,7 +4355,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Uit welke grondstoffen wordt gewone kunststof gemaakt? Er zijn er twee.",
+          "vraag": "Uit welke grondstoffen wordt gewone kunststof gemaakt?",
           "opties": [
             "aardolie",
             "aardgas",
@@ -4324,7 +4412,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke energievormen zijn hernieuwbaar? Er zijn er twee.",
+          "vraag": "Welke energievormen zijn hernieuwbaar?",
           "opties": [
             "windenergie",
             "zonne-energie",
@@ -4370,7 +4458,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke metalen zijn ferromagnetisch? Er zijn er drie.",
+          "vraag": "Welke metalen zijn ferromagnetisch?",
           "opties": [
             "ijzer",
             "nikkel",
@@ -4556,7 +4644,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke voorwerpen trekt een magneet aan? Er zijn er twee.",
+          "vraag": "Welke voorwerpen trekt een magneet aan?",
           "opties": [
             "een ijzeren spijker",
             "een stalen schroef",
@@ -4632,7 +4720,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe maak je een elektromagneet sterker? Er zijn er twee.",
+          "vraag": "Hoe maak je een elektromagneet sterker?",
           "opties": [
             "meer wikkelingen rond de spoel leggen",
             "een grotere stroom door de spoel sturen",
@@ -4699,7 +4787,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "In welke toepassingen zit een elektromagneet? Er zijn er twee.",
+          "vraag": "In welke toepassingen zit een elektromagneet?",
           "opties": [
             "een elektrische deurbel",
             "een relais",
@@ -4829,7 +4917,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke golven zijn mechanische golven? Er zijn er twee.",
+          "vraag": "Welke golven zijn mechanische golven?",
           "opties": [
             "geluid",
             "een golf op het water",
@@ -4974,7 +5062,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke materialen slorpen geluid op in plaats van het terug te kaatsen? Er zijn er twee.",
+          "vraag": "Welke materialen slorpen geluid op in plaats van het terug te kaatsen?",
           "opties": [
             "een dik gordijn",
             "een zachte tapijtvloer",
@@ -5005,7 +5093,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke toepassingen maken gebruik van de weerkaatsing van geluid? Er zijn er twee.",
+          "vraag": "Welke toepassingen maken gebruik van de weerkaatsing van geluid?",
           "opties": [
             "sonar op een schip",
             "echolocatie bij een vleermuis",
@@ -5121,7 +5209,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe bescherm je je gehoor op een fuif? Er zijn er twee.",
+          "vraag": "Hoe bescherm je je gehoor op een fuif?",
           "opties": [
             "oordopjes dragen",
             "verder van de boxen gaan staan",
@@ -5200,7 +5288,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten straling zijn ioniserend? Er zijn er twee.",
+          "vraag": "Welke soorten straling zijn ioniserend?",
           "opties": [
             "röntgenstraling",
             "gammastraling",
@@ -5215,7 +5303,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke toestellen werken met infraroodstraling? Er zijn er twee.",
+          "vraag": "Welke toestellen werken met infraroodstraling?",
           "opties": [
             "een afstandsbediening",
             "een warmtelamp",
@@ -5295,7 +5383,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke deeltjes zijn nucleonen? Er zijn er twee.",
+          "vraag": "Welke deeltjes zijn nucleonen?",
           "opties": [
             "protonen",
             "neutronen",
@@ -5376,7 +5464,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Bij welke reacties komt er energie vrij? Er zijn er twee.",
+          "vraag": "Bij welke reacties komt er energie vrij?",
           "opties": [
             "het samensmelten van lichte kernen",
             "het splijten van zware kernen",
@@ -5427,7 +5515,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke onderdelen van een kerncentrale zijn er voor de veiligheid? Er zijn er twee.",
+          "vraag": "Welke onderdelen van een kerncentrale zijn er voor de veiligheid?",
           "opties": [
             "de regelstaven",
             "de betonnen koepel",
@@ -5533,7 +5621,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten straling bestaan uit deeltjes en niet uit een golf? Er zijn er twee.",
+          "vraag": "Welke soorten straling bestaan uit deeltjes en niet uit een golf?",
           "opties": [
             "alfastraling",
             "bètastraling",
@@ -5554,7 +5642,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarmee houd je gammastraling tegen? Er zijn er twee.",
+          "vraag": "Waarmee houd je gammastraling tegen?",
           "opties": [
             "een dikke laag lood",
             "een dikke betonnen wand",
@@ -5645,7 +5733,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe bescherm je je tegen ioniserende straling? Er zijn er twee.",
+          "vraag": "Hoe bescherm je je tegen ioniserende straling?",
           "opties": [
             "verder van de bron gaan staan",
             "een laag lood tussen jou en de bron zetten",
@@ -5743,7 +5831,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke werkwijzen horen bij veilig en duurzaam werken? Er zijn er twee.",
+          "vraag": "Welke werkwijzen horen bij veilig en duurzaam werken?",
           "opties": [
             "een gemorst product onmiddellijk opkuisen",
             "glaswerk na gebruik schoonmaken en wegzetten",
@@ -5852,7 +5940,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke voorzorgen neem je bij een bunsenbrander? Er zijn er twee.",
+          "vraag": "Welke voorzorgen neem je bij een bunsenbrander?",
           "opties": [
             "lange haren vastbinden",
             "losse kledij en mouwen wegsteken",
@@ -5944,7 +6032,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke van deze eenheden zijn SI-basiseenheden? Er zijn er twee.",
+          "vraag": "Welke van deze eenheden zijn SI-basiseenheden?",
           "opties": [
             "de meter",
             "de seconde",
@@ -6065,7 +6153,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat kenmerkt een goede onderzoeksvraag? Er zijn er twee.",
+          "vraag": "Wat kenmerkt een goede onderzoeksvraag?",
           "opties": [
             "ze is scherp afgebakend",
             "je kan ze met metingen beantwoorden",
@@ -6080,7 +6168,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke stappen horen bij wetenschappelijk onderzoek? Er zijn er twee.",
+          "vraag": "Welke stappen horen bij wetenschappelijk onderzoek?",
           "opties": [
             "een hypothese formuleren",
             "data verzamelen en analyseren",
