@@ -148,12 +148,14 @@
             "vijf centimeter langer worden",
             "drie kilo bijkomen",
             "een grotere schoenmaat krijgen",
-            "leren tellen tot twintig"
+            "leren tellen tot twintig",
+            "een grotere hoofdomtrek krijgen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Groeien is meetbaar in lengte, gewicht en omvang. Tellen is leren."
         },
@@ -193,15 +195,14 @@
           "opties": [
             "het gebeurt stap na stap",
             "elke stap bouwt op de vorige",
-            "een fase overslaan lukt moeilijk",
+            "de orde van de fasen kies je zelf",
             "elke stap duurt even lang"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Ontwikkeling volgt een orde, maar niet een klok: de ene fase duurt veel langer dan de andere."
+          "uitleg": "Ontwikkeling gebeurt stap na stap en elke stap bouwt op de vorige, dus een fase overslaan lukt moeilijk en de orde kies je niet zelf. Maar niet elke stap duurt even lang."
         },
         {
           "type": "invultekst",
@@ -250,12 +251,14 @@
             "de school waar je zit",
             "de buurt waar je woont",
             "de taal die thuis gesproken wordt",
-            "de kleur van je ogen"
+            "de kleur van je ogen",
+            "de vrienden waarmee je omgaat"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Nurture is de omgeving. De kleur van je ogen is erfelijk, dus nature."
         },
@@ -302,16 +305,15 @@
           "vraag": "Welke ontwikkelingsdomeinen noemt de vakfiche?",
           "opties": [
             "de fysieke",
-            "de morele",
+            "de politieke",
             "de persoonlijkheidsontwikkeling",
             "de financiële"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Vijf domeinen: fysiek, cognitief, moreel, socio-emotioneel en de persoonlijkheid. Er is geen financieel domein."
+          "uitleg": "Vijf domeinen: fysiek, cognitief, moreel, socio-emotioneel en de persoonlijkheid. Een financieel of politiek domein staat er niet bij."
         },
         {
           "type": "invultekst",
@@ -378,12 +380,14 @@
             "je bloedgroep",
             "je lichaamslengte als mogelijkheid",
             "een erfelijke aandoening",
-            "je moedertaal"
+            "je moedertaal",
+            "de kleur van je ogen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Dat zit in de genen. Welke taal je spreekt, hangt van je omgeving af, dus nurture."
         },
@@ -527,15 +531,14 @@
           "opties": [
             "de groeispurt",
             "de geslachtsrijping",
-            "de verandering van de stem",
+            "het leren plannen op lange termijn",
             "het leren lezen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Alle drie zijn lichamelijk. Lezen hoort bij de cognitieve ontwikkeling."
+          "uitleg": "De groeispurt en de geslachtsrijping zijn lichamelijk, en de stemverandering ook. Lezen en plannen horen bij de cognitieve ontwikkeling."
         },
         {
           "type": "invultekst",
@@ -601,14 +604,16 @@
             "scherper leren zien",
             "stemmen leren onderscheiden",
             "smaken leren herkennen",
-            "leren stappen en klimmen"
+            "leren stappen en klimmen",
+            "geuren leren onderscheiden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De juiste antwoorden gaan over de zintuigen. Stappen en klimmen is motoriek."
+          "uitleg": "Die antwoorden gaan over de zintuigen. Stappen en klimmen is motoriek."
         },
         {
           "type": "meerkeuze",
@@ -635,12 +640,14 @@
             "de lengte",
             "het gewicht",
             "de leeftijd",
-            "de bloeddruk"
+            "de bloeddruk",
+            "de percentiellijnen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Op de zij-as staat de lengte of het gewicht, op de onderste as de leeftijd. De bloeddruk staat er niet op."
         },
@@ -702,15 +709,14 @@
           "opties": [
             "de zuigreflex",
             "de grijpreflex",
-            "de zoekreflex",
+            "de schrijfreflex",
             "de leesreflex"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Zuigen, grijpen en met de mond naar de tepel zoeken zijn aangeboren. Een leesreflex bestaat niet."
+          "uitleg": "Zuigen, grijpen en met de mond naar de tepel zoeken zijn aangeboren. Een leesreflex of een schrijfreflex bestaat niet."
         },
         {
           "type": "invultekst",
@@ -759,14 +765,16 @@
             "een knoop dichtdoen",
             "een blad omslaan",
             "een veter knopen",
-            "van een trap springen"
+            "van een trap springen",
+            "een potlood vasthouden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Drie bewegingen met de handen en vingers. Springen is grove motoriek."
+          "uitleg": "Bewegingen met de handen en de vingers. Springen is grove motoriek."
         },
         {
           "type": "invultekst",
@@ -831,15 +839,14 @@
           "opties": [
             "klimmen",
             "huppelen",
-            "een bal trappen",
+            "een knoop dichtdoen",
             "een draad in een naald steken"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De juiste antwoorden gebruiken de grote spieren. De naald is fijne motoriek."
+          "uitleg": "Klimmen en huppelen gebruiken de grote spieren, een bal trappen ook. De naald en de knoop zijn fijne motoriek."
         },
         {
           "type": "meerkeuze",
@@ -980,12 +987,14 @@
             "objectpermanentie",
             "persoonspermanentie",
             "intentioneel handelen",
-            "hypothetisch denken"
+            "hypothetisch denken",
+            "imiteren wat je gezien hebt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Drie kenmerken van de eerste jaar. Hypothetisch denken komt pas in het laatste stadium."
         },
@@ -1053,15 +1062,14 @@
           "opties": [
             "animisme",
             "centratie",
-            "magisch denken",
+            "reversibel denken",
             "abstract denken"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Denkfouten van de kleutertijd. Abstract denken is geen fout en komt pas in het laatste stadium."
+          "uitleg": "Animisme, centratie en magisch denken zijn denkfouten van de kleutertijd. Abstract en reversibel denken zijn geen fouten en komen later."
         },
         {
           "type": "meerkeuze",
@@ -1202,12 +1210,14 @@
             "seriatie",
             "classificatie",
             "reversibel denken",
-            "magisch denken"
+            "magisch denken",
+            "conservatie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Drie vormen van logisch denken. Magisch denken hoort bij de kleutertijd."
         },
@@ -1274,15 +1284,14 @@
           "opties": [
             "abstract denken",
             "logisch redeneren",
-            "experimenteel denken",
+            "centratie",
             "objectpermanentie"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie kenmerken van het laatste stadium. Objectpermanentie hoort bij een baby."
+          "uitleg": "Abstract en logisch denken horen bij het laatste stadium, en experimenteel denken ook. Objectpermanentie hoort bij een baby en centratie bij de kleutertijd."
         },
         {
           "type": "meerkeuze",
@@ -1423,12 +1432,14 @@
             "ik word anders gestraft",
             "ik krijg er iets voor terug",
             "ik wil geen last krijgen",
-            "het is tegen de wet"
+            "het is tegen de wet",
+            "ik doe het omdat de sterkste het zegt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Alles draait om de gevolgen voor jezelf. De wet noemen hoort bij het conventionele stadium."
         },
@@ -1495,15 +1506,14 @@
           "opties": [
             "de orde ligt vast",
             "een stadium overslaan gaat niet",
-            "de reden telt, niet de daad",
+            "de daad telt, niet de reden",
             "de leeftijd bepaalt het stadium"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De leeftijd zegt weinig: twee mensen van dertig kunnen in een ander stadium zitten."
+          "uitleg": "De orde ligt vast en een stadium overslaan gaat niet. Het is de reden die het stadium toont, niet de daad, en de leeftijd zegt weinig: twee mensen van dertig kunnen in een ander stadium zitten."
         },
         {
           "type": "meerkeuze",
@@ -1530,12 +1540,14 @@
             "er is geen goed antwoord",
             "je moet je keuze uitleggen",
             "beide keuzes kosten iets",
-            "er is altijd één juist antwoord"
+            "er is altijd één juist antwoord",
+            "je weegt twee waarden tegen elkaar"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Beide keuzes botsen met iets dat je belangrijk vindt. Juist daarom toont de uitleg het stadium."
         },
@@ -1617,15 +1629,14 @@
           "opties": [
             "het staat zo in de wet",
             "zo hoort het nu eenmaal",
-            "anders ben ik geen goede vriend",
+            "anders krijg ik geen beloning",
             "anders word ik gestraft"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De wet, de gewoonte en de verwachting van anderen. Straf hoort bij het eerste stadium."
+          "uitleg": "De wet, de gewoonte en de verwachting van anderen horen bij het conventionele stadium. Straf en beloning horen bij het eerste stadium."
         },
         {
           "type": "waarofniet",
@@ -1640,12 +1651,14 @@
             "eigen beginselen wegen zwaar",
             "een regel kan je afwegen",
             "rechtvaardigheid gaat voor",
-            "de straf weegt het zwaarst"
+            "de straf weegt het zwaarst",
+            "menselijke waardigheid weegt zwaarder dan een regel"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Wie hier zit, weegt een regel af tegen een beginsel als rechtvaardigheid of menselijke waardigheid."
         },
@@ -1724,15 +1737,14 @@
           "opties": [
             "een wet kan onrechtvaardig zijn",
             "menselijke waardigheid gaat voor",
-            "regels zijn afspraken die je kan wegen",
+            "een regel volg je zonder vragen",
             "ik doe het omdat het nu eenmaal zo hoort"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De juiste antwoorden wegen een beginsel af tegen de regel. Het foute antwoord is conventioneel."
+          "uitleg": "Dat een wet onrechtvaardig kan zijn en dat waardigheid voorgaat, weegt een beginsel af tegen de regel; regels als afspraken zien hoort daar ook bij. Een regel zonder vragen volgen is conventioneel."
         },
         {
           "type": "meerkeuze",
@@ -1863,12 +1875,14 @@
             "de sociale glimlach",
             "de eigen naam herkennen",
             "de armpjes strekken om opgenomen te worden",
-            "leren fietsen zonder steunwieltjes"
+            "leren fietsen zonder steunwieltjes",
+            "naar een gezicht blijven kijken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De juiste antwoorden gaan over contact met anderen. Fietsen hoort bij de motoriek."
         },
@@ -1918,15 +1932,14 @@
           "opties": [
             "samen spelen met rollen",
             "een vriendje kiezen",
-            "beurt leren afwachten",
+            "alleen naar school fietsen",
             "lid worden van een jeugdbeweging"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De juiste antwoorden passen bij vier of vijf jaar. Een jeugdbeweging komt meestal later."
+          "uitleg": "Samen spelen met rollen en een vriendje kiezen passen bij vier of vijf jaar, en de beurt afwachten ook. Een jeugdbeweging en alleen naar school fietsen komen later."
         },
         {
           "type": "meerkeuze",
@@ -2098,15 +2111,14 @@
           "opties": [
             "angstig-vermijdend",
             "angstig-ambivalent",
-            "gedesorganiseerd",
+            "veilig-afgestemd",
             "zelfstandig-vermijdend"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie vormen. Zelfstandig-vermijdend bestaat niet als term."
+          "uitleg": "Angstig-vermijdend, angstig-ambivalent en gedesorganiseerd zijn de vormen van onveilige hechting. Zelfstandig-vermijdend en veilig-afgestemd bestaan niet als term."
         },
         {
           "type": "invultekst",
@@ -2154,12 +2166,14 @@
             "scheidingsangst",
             "angst voor vreemden",
             "veilig durven verkennen",
-            "leren stappen"
+            "leren stappen",
+            "troost zoeken bij de verzorger"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Drie gevolgen van een band. Stappen hoort bij de motoriek."
         },
@@ -2187,15 +2201,14 @@
           "opties": [
             "voorspelbaar reageren",
             "warm reageren",
-            "signalen opmerken",
+            "niets laten merken van je eigen gevoel",
             "altijd meteen ingrijpen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Voorspelbaar, warm en afgestemd. Altijd meteen ingrijpen laat een kind niets zelf oplossen."
+          "uitleg": "Voorspelbaar, warm en afgestemd op de signalen van het kind. Altijd meteen ingrijpen laat een kind niets zelf oplossen, en je eigen gevoel helemaal wegstoppen helpt het ook niet."
         },
         {
           "type": "waarofniet",
@@ -2324,12 +2337,14 @@
             "hoop",
             "wil",
             "doelgerichtheid",
-            "wijsheid"
+            "wijsheid",
+            "bekwaamheid"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Hoop, wil en doelgerichtheid. Wijsheid komt pas bij de laatste fase."
         },
@@ -2396,15 +2411,14 @@
           "opties": [
             "vertrouwen versus wantrouwen",
             "autonomie versus twijfel",
-            "initiatief versus schuld",
+            "generativiteit versus stagnatie",
             "intimiteit versus isolatie"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De juiste antwoorden van de acht. Intimiteit versus isolatie komt pas in de vroege volwassenheid."
+          "uitleg": "Vertrouwen versus wantrouwen, autonomie versus twijfel en initiatief versus schuld komen vóór de adolescentie. Intimiteit versus isolatie en generativiteit versus stagnatie komen pas in de volwassenheid."
         },
         {
           "type": "meerkeuze",
@@ -2545,12 +2559,14 @@
             "trouw",
             "liefde",
             "zorg",
-            "hoop"
+            "hoop",
+            "wijsheid"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Trouw, liefde, zorg en wijsheid. Hoop hoort bij de eerste fase."
         },
@@ -2568,15 +2584,14 @@
           "opties": [
             "kinderen opvoeden",
             "jonge collega's opleiden",
-            "een vereniging dragen",
+            "een reis voor jezelf plannen",
             "sparen voor je pensioen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Generativiteit is iets doorgeven aan wie na je komt. Sparen voor jezelf hoort daar niet bij."
+          "uitleg": "Generativiteit is iets doorgeven aan wie na je komt: kinderen opvoeden, jonge collega's opleiden, een vereniging dragen. Sparen of een reis voor jezelf hoort daar niet bij."
         },
         {
           "type": "waarofniet",
@@ -2620,15 +2635,14 @@
           "opties": [
             "intimiteit versus isolatie",
             "generativiteit versus stagnatie",
-            "integriteit versus wanhoop",
+            "identiteit versus rolverwarring",
             "initiatief versus schuld"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De laatste van de acht. Initiatief versus schuld hoort bij de kleutertijd."
+          "uitleg": "Intimiteit versus isolatie, generativiteit versus stagnatie en integriteit versus wanhoop horen bij de volwassenheid. Initiatief versus schuld hoort bij de kleutertijd en identiteit versus rolverwarring bij de adolescentie."
         },
         {
           "type": "meerkeuze",
@@ -2738,12 +2752,14 @@
             "persoonlijke identiteit",
             "culturele identiteit",
             "genderidentiteit",
-            "financiële identiteit"
+            "financiële identiteit",
+            "relationele identiteit"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Persoonlijke en sociale identiteit, en die laatste valt uiteen in cultureel, relationeel en gender."
         },
@@ -2792,15 +2808,14 @@
           "opties": [
             "ze groeit in contact met anderen",
             "ze hangt samen met socialisatie",
-            "ze kan in de loop van een leven verschuiven",
+            "ze verandert na de kindertijd niet meer",
             "ze ligt vast bij de geboorte"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Zonder anderen weet je niet wie je bent. Daarom valt identiteit grotendeels onder nurture."
+          "uitleg": "Identiteit groeit in contact met anderen en hangt samen met socialisatie, en ze kan een leven lang verschuiven. Ze ligt dus niet vast bij de geboorte en bevriest ook niet na de kindertijd."
         },
         {
           "type": "waarofniet",
@@ -2845,12 +2860,14 @@
             "je maakt zelf keuzes",
             "je kiest binnen je mogelijkheden",
             "ze staat naast nature en nurture",
-            "ze bepaalt alles alleen"
+            "ze bepaalt alles alleen",
+            "je bent niet enkel het product van je omgeving"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Zelfbepaling is één factor van drie, geen vrije keuze over alles."
         },
@@ -2942,15 +2959,14 @@
           "opties": [
             "extraversie",
             "vriendelijkheid",
-            "zorgvuldigheid",
+            "eerlijkheid",
             "intelligentie"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Vijf trekken: extraversie, vriendelijkheid, emotionele stabiliteit, zorgvuldigheid en openheid. Intelligentie hoort er niet bij."
+          "uitleg": "Vijf trekken: extraversie, vriendelijkheid, emotionele stabiliteit, zorgvuldigheid en openheid. Intelligentie en eerlijkheid horen er niet bij."
         },
         {
           "type": "invultekst",
@@ -2998,12 +3014,14 @@
             "extraversie en introversie",
             "vriendelijkheid en afstandelijkheid",
             "openheid en geslotenheid",
-            "extraversie en neuroticisme"
+            "extraversie en neuroticisme",
+            "zorgvuldigheid en nonchalance"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Elke trek heeft zijn eigen tegenpool. Extraversie en neuroticisme zijn twee verschillende trekken."
         },
@@ -3039,15 +3057,14 @@
           "opties": [
             "cholerisch",
             "flegmatisch",
-            "melancholisch",
+            "neurotisch",
             "extravert"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Vier: cholerisch, flegmatisch, melancholisch en sanguinisch. Extraversie hoort bij de big five."
+          "uitleg": "Vier temperamenten: cholerisch, flegmatisch, melancholisch en sanguinisch. Extravert en neurotisch horen bij de big five."
         },
         {
           "type": "meerkeuze",
@@ -3156,12 +3173,14 @@
             "het zelfbeeld",
             "de zelfwaardering",
             "de self-efficacy",
-            "het temperament"
+            "het temperament",
+            "het body-image"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Vier delen: zelfbeeld, zelfwaardering, self-efficacy en body-image. Temperament hoort bij de persoonlijkheid."
         },
@@ -3192,15 +3211,14 @@
           "opties": [
             "positief zelfbeeld",
             "negatief zelfbeeld",
-            "vertekend zelfbeeld",
+            "erfelijk zelfbeeld",
             "geleend zelfbeeld"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Vier soorten: positief, negatief, vertekend en realistisch. Een geleend zelfbeeld bestaat niet."
+          "uitleg": "Vier soorten: positief, negatief, vertekend en realistisch. Een geleend of erfelijk zelfbeeld bestaat niet."
         },
         {
           "type": "waarofniet",
@@ -3296,12 +3314,14 @@
             "het beschrijft wie je denkt te zijn",
             "het stuurt je gedrag",
             "het groeit in contact met anderen",
-            "het is bij iedereen realistisch"
+            "het is bij iedereen realistisch",
+            "het kan vertekend zijn"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De juiste antwoorden staan in de fiche. Een vertekend zelfbeeld laat zien dat het foute antwoord niet klopt."
         },
@@ -3393,15 +3413,14 @@
           "opties": [
             "het is geloof dat je iets kan",
             "het verschilt per taak",
-            "het groeit door te slagen",
+            "het is bij elke taak hetzelfde",
             "het is hetzelfde als zelfwaardering"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Self-efficacy is het vertrouwen dat je een bepaalde taak aankan. Zelfwaardering gaat over je waarde als persoon."
+          "uitleg": "Self-efficacy is het vertrouwen dat je een bepaalde taak aankan; het verschilt per taak en groeit door te slagen. Zelfwaardering gaat over je waarde als persoon."
         },
         {
           "type": "invultekst",
@@ -3449,12 +3468,14 @@
             "eerder zelf geslaagd zijn",
             "iemand anders zien slagen",
             "aanmoediging krijgen",
-            "je lengte en gewicht"
+            "je lengte en gewicht",
+            "je lichaam blijft rustig bij die taak"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Eigen ervaring weegt het zwaarst, daarna het voorbeeld van anderen en de aanmoediging."
         },
@@ -3503,15 +3524,14 @@
           "opties": [
             "ze beoordeelt jezelf",
             "ze stuurt wat je durft",
-            "ze kan schommelen",
+            "ze staat helemaal vast",
             "ze is per taak verschillend"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Per taak verschillend is juist de self-efficacy. De zelfwaardering is algemener."
+          "uitleg": "Zelfwaardering beoordeelt jezelf, stuurt wat je durft en kan schommelen. Per taak verschillend is juist de self-efficacy: de zelfwaardering is algemener."
         },
         {
           "type": "waarofniet",
@@ -3716,12 +3736,14 @@
             "blijdschap",
             "angst",
             "woede",
-            "trots"
+            "trots",
+            "verdriet"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Blijdschap, angst, woede, verdriet, walging en verbazing. Trots is samengesteld en komt later."
         },
@@ -3749,15 +3771,14 @@
           "opties": [
             "ze komen op door iets",
             "ze gaan vanzelf weer weg",
-            "ze hebben drie componenten",
+            "ze hebben maar één component",
             "ze zijn altijd te sturen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De eerste staan in de fiche. Dat je elke emotie zomaar kan sturen, klopt niet."
+          "uitleg": "Een emotie komt op door iets en gaat vanzelf weer weg. Ze heeft drie componenten, niet één, en dat je elke emotie zomaar kan sturen, klopt niet."
         },
         {
           "type": "meerkeuze",
@@ -3834,17 +3855,16 @@
           "type": "meerkeuze",
           "vraag": "Welke functies van emoties noemt de vakfiche?",
           "opties": [
-            "aanpassen",
+            "voorspellen",
             "communiceren",
             "waarschuwen",
             "vergelijken"
           ],
           "antwoord": [
-            0,
             1,
             2
           ],
-          "uitleg": "Drie functies: je aanpassen aan de situatie, iets laten weten aan anderen, en gevaar signaleren."
+          "uitleg": "Communiceren en waarschuwen zijn functies van een emotie, en je aanpassen aan de situatie ook. Vergelijken en voorspellen staan niet in de fiche."
         },
         {
           "type": "meerkeuze",
@@ -3904,12 +3924,14 @@
             "ze sturen wat je doet",
             "ze versnellen een beslissing",
             "ze kleuren wat je onthoudt",
-            "ze bepalen je lengte"
+            "ze bepalen je lengte",
+            "ze sturen hoe je anderen inschat"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Drie reële invloeden. Op je lengte hebben ze geen vat."
         },
@@ -3975,15 +3997,14 @@
           "opties": [
             "een emotie stuurt je gedrag",
             "ze helpt reageren op een situatie",
-            "ze werkt sneller dan nadenken",
+            "ze werkt enkel na lang nadenken",
             "ze geldt enkel bij kinderen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Aanpassen geldt het hele leven. Een volwassene reageert even goed op een emotie als een kind."
+          "uitleg": "Een emotie stuurt je gedrag, helpt reageren op een situatie en werkt sneller dan nadenken. Aanpassen geldt het hele leven: een volwassene reageert even goed op een emotie als een kind."
         },
         {
           "type": "meerkeuze",
@@ -4073,15 +4094,14 @@
           "opties": [
             "intrinsieke motivatie",
             "extrinsieke motivatie",
-            "motivatie van binnenuit",
+            "motivatie van je leeftijd",
             "erfelijke motivatie"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Twee vormen: intrinsiek, dus van binnenuit, en extrinsiek, dus van buitenaf. Erfelijke motivatie bestaat niet als term."
+          "uitleg": "Twee vormen: intrinsieke motivatie, dus van binnenuit, en extrinsieke, dus van buitenaf. Erfelijke motivatie of motivatie van je leeftijd bestaat niet als term."
         },
         {
           "type": "invultekst",
@@ -4129,12 +4149,14 @@
             "vermijdingsgedrag",
             "toenaderingsgedrag",
             "passief vermijden",
-            "collectief gedrag"
+            "collectief gedrag",
+            "actief vermijden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Vermijdingsgedrag en toenaderingsgedrag, en vermijden valt nog uiteen in passief en actief."
         },
@@ -4202,15 +4224,14 @@
           "opties": [
             "ze stuurt je gedrag",
             "ze kan van binnen komen",
-            "ze kan van buiten komen",
+            "ze komt altijd van buiten",
             "ze is bij iedereen gelijk"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De juiste antwoorden staan in de fiche. Motivatie verschilt sterk per persoon en per taak."
+          "uitleg": "Motivatie stuurt je gedrag en kan van binnen of van buiten komen. Ze komt dus niet altijd van buiten, en ze verschilt sterk per persoon en per taak."
         },
         {
           "type": "meerkeuze",
@@ -4301,12 +4322,14 @@
             "interne attributie",
             "externe attributie",
             "controleerbaar of niet",
-            "tijdelijke attributie"
+            "tijdelijke attributie",
+            "oncontroleerbaar"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Intern of extern, en daarnaast controleerbaar of oncontroleerbaar."
         },
@@ -4356,15 +4379,14 @@
           "opties": [
             "hoeveel je oefent",
             "hoe je je voorbereidt",
-            "hoeveel tijd je uittrekt",
+            "hoeveel geluk je hebt",
             "hoeveel talent je hebt"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Inzet, aanpak en tijd kan je sturen. Talent en geluk niet."
+          "uitleg": "Inzet, aanpak en de tijd die je uittrekt kan je sturen. Talent en geluk niet."
         },
         {
           "type": "invultekst",
@@ -4429,12 +4451,14 @@
             "ze verklaren slagen of falen",
             "ze sturen de motivatie",
             "ze kunnen intern of extern zijn",
-            "ze zijn altijd juist"
+            "ze zijn altijd juist",
+            "ze kunnen controleerbaar of oncontroleerbaar zijn"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een attributie is een verklaring, geen feit. Ze kan er ver naast zitten."
         },
@@ -4528,12 +4552,14 @@
             "rituelen",
             "symbolen",
             "waarden en normen",
-            "inkomen"
+            "inkomen",
+            "taal"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Zeven uitingen: gebruiken en gewoontes, kennis, kunstuitingen, rituelen, symbolen, taal, en waarden en normen."
         },
@@ -4622,15 +4648,14 @@
           "opties": [
             "muziek",
             "schilderkunst",
-            "dans",
+            "een begroeting",
             "een handdruk"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Kunstuitingen zijn één van de zeven. Een handdruk is een gebruik of een ritueel."
+          "uitleg": "Muziek, schilderkunst en dans zijn kunstuitingen, één van de zeven. Een handdruk en een begroeting zijn een gebruik of een ritueel."
         },
         {
           "type": "meerkeuze",
