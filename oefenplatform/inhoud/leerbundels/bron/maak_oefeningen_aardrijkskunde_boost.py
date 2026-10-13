@@ -859,3 +859,447 @@ OEFENBUNDELS["oefenbundel-een-geografisch-onderzoek-voeren-boost"] = dict(
              ]),
     ],
 )
+
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-waar-ligt-het-en-hoe-weet-je-dat-boost"] = dict(
+    reeksen=[
+        dict(aanpak="Onthoud de getallen, dan ken je de lijnen: 0° de evenaar, 23,5° de keerkringen, 66,5° "
+                    "de poolcirkels, 90° de polen.",
+             waarom=[
+                 "Let op het verschil tussen een breedtecirkel (horizontaal, parallel aan de evenaar) en "
+                 "een meridiaan (verticaal, van pool tot pool).",
+                 "Noord of zuid staat er altijd bij: 23,5° N is de Kreeftskeerkring, 23,5° Z de "
+                 "Steenbokskeerkring. Zonder die letter is het antwoord onvolledig.",
+             ]),
+        dict(aanpak="Absoluut situeren doe je met coördinaten, relatief met een verwijzing naar iets anders. "
+                    "Staan er graden, dan is het absoluut.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Fysischgeografisch gaat over de natuurlijke aarde (water, reliëf, klimaat, "
+                    "plantengroei), sociaaleconomisch over wat mensen doen en hebben.",
+             waarom=[
+                 "Taal en analfabetisme lijken ver van de economie te staan, maar het zijn kenmerken van "
+                 "mensen en dus sociaaleconomisch.",
+             ]),
+        dict(aanpak="De werkelijke afstand is te meten, de ervaren afstand is hoe lang het voelt, de mentale "
+                    "afstand is hoe ver je dénkt dat iets ligt.",
+             waarom=[
+                 "De derde is de lastigste: een mentale afstand zit in je hoofd, en ze is vaak scheef "
+                 "doordat je een land beter kent dan een ander.",
+                 None,
+             ]),
+        dict(aanpak="Elke wereldkaart is een keuze. Vraag je bij een kaart altijd af wat er vervormd is en "
+                    "wat er in het midden staat.",
+             waarom=[
+                 None,
+                 "Noem het verschil met een cijfer erbij: Afrika is ongeveer veertien keer zo groot als "
+                 "Groenland. Zonder cijfer blijft het een gevoel.",
+                 "Een bol plat maken kan niet zonder iets te verliezen. Elke projectie kiest wat ze "
+                 "kloppend houdt, en vervormt de rest.",
+                 None,
+             ]),
+        dict(aanpak="Begin bij de vraag en kies dan de bron. Een vraag over temperatuur en neerslag vraagt "
+                    "een klimaatbron, een vraag over hoogte een reliëfbron.",
+             waarom=[
+                 "Een klimaatkaart geeft de zone, een klimatogram de twaalf maanden van één plaats. Welke "
+                 "je neemt, hangt af van hoe fijn je het wil weten.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-waar-wonen-de-mensen-boost"] = dict(
+    reeksen=[
+        dict(aanpak="Bevolkingsdichtheid is inwoners gedeeld door oppervlakte. Schrijf de bewerking op en "
+                    "zet de eenheid inw/km² erbij, anders is het antwoord onvolledig.",
+             waarom=[
+                 None,
+                 "Dit paar is het hele punt van de reeks: land A heeft zeven keer zoveel inwoners en is "
+                 "veertig keer dunner bevolkt. Veel inwoners is niet hetzelfde als dicht bevolkt.",
+             ]),
+        dict(aanpak="Vraag je bij elk gebied af wat er ontbreekt: water, warmte, vlakke grond of vruchtbare "
+                    "bodem. Dat ontbrekende is je antwoord.",
+             waarom=[
+                 "Vaak spelen er twee factoren samen, zoals in de Ganges-delta: vruchtbaar slib én genoeg "
+                 "regen. Noem ze dan allebei.",
+             ]),
+        dict(aanpak="Een dichtheid is een gemiddelde. Vraag je altijd af wat er binnen dat gemiddelde "
+                    "verborgen zit.",
+             waarom=[
+                 "Dit verschil heet het spreidingspatroon: een compacte kern tegenover verspreide bewoning. "
+                 "Dezelfde dichtheid, een ander landschap.",
+                 "Rusland en Canada hebben veel inwoners en een hele lage dichtheid. Het is een breuk, niet "
+                 "een som.",
+                 "Bangladesh is dichtbevolkt en arm, Australië dunbevolkt en rijk. Dichtheid zegt niets "
+                 "over welvaart.",
+             ]),
+        dict(aanpak="De HDI meet welvaart op drie manieren tegelijk. Onthoud die drie, dan kan je elke vraag "
+                    "erover beantwoorden.",
+             waarom=[
+                 None,
+                 "Dat de waarde tussen 0 en 1 ligt, maakt landen vergelijkbaar: het is geen bedrag maar een "
+                 "verhouding.",
+                 None,
+                 "Dit is waarom de HDI bestaat: een land kan rijk zijn en toch slecht scoren op gezondheid "
+                 "en onderwijs. Het inkomen alleen verbergt dat.",
+             ]),
+        dict(aanpak="Vraag bij elke kaart of tabel drie dingen: van wanneer, van wie, en hoe de klassen "
+                    "gekozen zijn.",
+             waarom=[
+                 "De keuze van de klassen in de legende is het minst opvallende en het meest bepalende: "
+                 "dezelfde cijfers kunnen er heel anders uitzien.",
+                 "Dit heet het probleem van het schaalniveau: wat op landniveau klopt, kan voor een streek "
+                 "helemaal niet gelden.",
+                 "Ook in een land met een lage HDI is er een rijke groep. Een gemiddelde zegt niets over de "
+                 "spreiding.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-hoe-een-bevolking-verandert-boost"] = dict(
+    reeksen=[
+        dict(aanpak="Natuurlijke aangroei is geboorte min sterfte. Migratiesaldo is immigratie min "
+                    "emigratie. De totale groei is die twee samen.",
+             waarom=[
+                 "Een negatief resultaat is een geldig antwoord: bij 9 ‰ geboorte en 12 ‰ sterfte krimpt de "
+                 "bevolking op eigen kracht.",
+                 None,
+                 "Deze combinatie komt in West-Europa echt voor: de bevolking groeit er enkel nog door "
+                 "migratie.",
+             ]),
+        dict(aanpak="Lees een histogram van onder naar boven: de basis zijn de kinderen, de top de "
+                    "ouderen. De vorm vertelt de geschiedenis van een land.",
+             waarom=[
+                 None,
+                 "Een deuk in een histogram is altijd een gebeurtenis uit het verleden, en ze schuift elk "
+                 "jaar een jaar hoger op. Reken dus terug naar het geboortejaar.",
+                 None,
+             ]),
+        dict(aanpak="De vier fasen volgen altijd dezelfde orde: eerst daalt de sterfte, pas later de "
+                    "geboorte. Tussen die twee zit de snelle groei.",
+             waarom=[
+                 "Fase 2 is de fase van de bevolkingsexplosie, en net daarom: de sterfte is al gedaald en "
+                 "de geboorte nog niet.",
+             ]),
+        dict(aanpak="Push duwt weg van de eigen plaats, pull trekt naar de nieuwe. Vraag je af waar de "
+                    "factor zich bevindt.",
+             waarom=[
+                 None,
+                 "Dat de meesten in een buurland blijven, is een van de meest misbegrepen cijfers van dit "
+                 "hoofdstuk. Een verre reis kost geld dat men net niet heeft.",
+             ]),
+        dict(aanpak="Braindrain en braingain zijn twee kanten van dezelfde verhuizing. Zeg bij een gevolg "
+                    "altijd voor wie het een gevolg is.",
+             waarom=[
+                 None, None,
+                 "Noem ook wat er mínder wordt: scholen komen leeg te staan. Vergrijzing verschuift de "
+                 "vraag, ze vergroot ze niet alleen.",
+                 "Het land van vertrek verliest juist de mensen in wie het het meest geïnvesteerd heeft. "
+                 "Het voordeel ligt bij het land van aankomst.",
+                 "Vergrijzen betekent dat het aandeel ouderen stijgt. Dat kan samen met een groeiende "
+                 "bevolking, bijvoorbeeld door migratie.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-stad-en-platteland-boost"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je bij elk kenmerk af waar het over gaat: geld (economisch), kennis en kunst "
+                    "(cultureel), of macht en bestuur (politiek).",
+             waarom=[
+                 None,
+                 "Hiërarchie gaat over belang en bereik, niet over inwonersaantal. Daarom staat Brussel "
+                 "hoger dan veel grotere steden.",
+             ]),
+        dict(aanpak="Elk van de vijf begrippen beschrijft een beweging in de ruimte. Zoek wat er precies "
+                    "verschuift: mensen, bebouwing of verkeer.",
+             waarom=[
+                 "Let op het verschil tussen inbreiding (binnen de stad opvullen) en verstedelijking van "
+                 "het platteland (buiten de stad bijbouwen). De eerste spaart open ruimte, de tweede niet.",
+             ]),
+        dict(aanpak="Diversiteit en scheiding zijn twee verschillende vragen: wie woont er, en wonen ze "
+                    "door elkaar.",
+             waarom=[
+                 None,
+                 "Dit is de kern: segregatie ontstaat in West-Europa vooral langs de woningprijs, zonder "
+                 "dat iemand ze oplegt. Daarom is ze zo moeilijk terug te draaien.",
+             ]),
+        dict(aanpak="Verharding werkt op twee manieren tegelijk: ze houdt de warmte vast en ze houdt het "
+                    "water buiten de bodem. Noem bij elk gevolg hoe het werkt.",
+             waarom=[
+                 "Zeg bij elk probleem hoe de oplossing werkt, niet enkel dat het helpt. Schaduw en "
+                 "verdamping koelen, insijpeling vult het grondwater aan.",
+                 None, None,
+                 "Verstedelijking is ook dat het stedelijke léven en het bouwpatroon zich verspreiden, ook "
+                 "waar het aantal inwoners gelijk blijft.",
+             ]),
+        dict(aanpak="Twee beelden vergelijken kan alleen als ze vergelijkbaar zijn: let op schaal, seizoen "
+                    "en hoek voor je besluiten trekt.",
+             waarom=[
+                 None,
+                 "Een woondorp is het eindpunt van bijbouwen zonder voorzieningen: wonen hier, al de rest "
+                 "elders, en dus meer autokilometers.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-grondstoffen-energie-en-industrie-boost"] = dict(
+    reeksen=[
+        dict(aanpak="Twee vragen apart: hoe diep ligt de laag (groeve of mijn), en met welke middelen wordt "
+                    "er gewerkt (traditioneel of modern).",
+             waarom=[
+                 None,
+                 "Noem ook het nadeel: bij dagbouw verdwijnt een hele laag grond. Een antwoord dat enkel de "
+                 "voordelen geeft, is maar half af.",
+             ]),
+        dict(aanpak="Hernieuwbaar betekent dat de bron zich op menselijke tijdschaal aanvult. Het gaat over "
+                    "de bron, niet over de uitstoot.",
+             waarom=[
+                 "Uranium hoort bij de niet-hernieuwbare bronnen, ook al stoot een kerncentrale weinig CO₂ "
+                 "uit. Dat is de valkuil van deze rij.",
+                 None,
+             ]),
+        dict(aanpak="Elke installatie volgt haar eigen bron: wind waar het waait, zon waar het schijnt, "
+                    "water waar het valt, chemie waar het aankomt.",
+             waarom=[
+                 "Zeg bij elke plaats het wáárom erbij. De plaats zonder reden is op een examen geen "
+                 "antwoord.",
+             ]),
+        dict(aanpak="Geopolitiek gaat over de staat en haar verhoudingen, fysisch over de natuur, "
+                    "sociaaleconomisch over mensen, werk en markt.",
+             waarom=[
+                 "De HDI is een kenmerk van de bevolking, dus sociaaleconomisch, al klinkt het als een "
+                 "politiek cijfer.",
+             ]),
+        dict(aanpak="De drie begrippen volgen elkaar op in tijd: industrialisatie, dan de-industrialisatie, "
+                    "dan reconversie van wat achterbleef.",
+             waarom=[
+                 "Reconversie is een nieuwe bestemming voor een oude site. Het is geen nieuwe industrie "
+                 "maar een nieuw gebruik.",
+                 None,
+                 "Noem ook het nadeel: werk dat de stad verlaat en open ruimte die versnippert. Dat is "
+                 "precies wat het ruimtelijk beleid wil afremmen.",
+                 "Dit heet de grondstoffenval: inkomsten uit één grondstof kunnen een land juist afhankelijk "
+                 "en kwetsbaar maken. Noorwegen en Congo tonen de twee uitersten.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-landbouw-handel-en-toerisme-boost"] = dict(
+    reeksen=[
+        dict(aanpak="Elk gewas vraagt een bepaalde combinatie van warmte, water en bodem. Zet die "
+                    "combinatie erbij, niet enkel de streek.",
+             waarom=[
+                 "Let op koffie: tropisch maar in de hooglanden, dus warm én koeler door de hoogte. De "
+                 "hoogte is hier even belangrijk als de breedteligging.",
+                 None,
+             ]),
+        dict(aanpak="Intensief betekent veel inzet per hectare (arbeid, mest, water, kapitaal). Extensief "
+                    "betekent veel grond en weinig inzet per hectare.",
+             waarom=[
+                 "Rijstterrassen met de hand bewerkt zijn intensief, niet traditioneel-dus-extensief. De "
+                 "inzet per hectare beslist, niet de techniek.",
+                 "Dit is waarom twee landen elk kunnen zeggen dat hun landbouw de beste is: ze meten een "
+                 "andere opbrengst.",
+             ]),
+        dict(aanpak="Duurzaam is wat de bodem, het water en de biodiversiteit intact laat voor volgend jaar. "
+                    "Zet bij elk antwoord in één zin waarom.",
+             waarom=[
+                 "Let op het ploegen in de helling: hetzelfde werk dwars op de helling is wél duurzaam. De "
+                 "richting beslist, niet de handeling.",
+                 None, None,
+             ]),
+        dict(aanpak="De handelsketen loopt van producent over groothandel naar kleinhandel. De "
+                    "dienstensector is alles wat geen goederen maakt.",
+             waarom=[
+                 None,
+                 "Zeg erbij wat er verschuift: werk van de winkelstraat naar de rand van het land. Dat is "
+                 "het ruimtelijke gevolg van online winkelen.",
+             ]),
+        dict(aanpak="Toerisme hangt af van drie soorten factoren tegelijk: natuur, veiligheid en welvaart. "
+                    "Bij de gevolgen denk je aan ruimte, water en wonen.",
+             waarom=[
+                 None,
+                 "Noem bij de gevolgen ook het wonen: woningen die voor de eigen bewoners onbetaalbaar "
+                 "worden, is het gevolg dat het langst nawerkt.",
+                 "Dit heet monocultuur in de economie: steunen op één sector maakt een streek kwetsbaar "
+                 "voor één crisis.",
+                 "Stadstoerisme bestaat juist om geschiedenis, musea, winkelen en gastronomie. Brugge heeft "
+                 "geen strand.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-mondialisering-boost"] = dict(
+    reeksen=[
+        dict(aanpak="Volg een product van de grond tot de winkel. Elke stap gebeurt op een andere plaats, en "
+                    "dat is net waar mondialisering over gaat.",
+             waarom=[
+                 None,
+                 "Dit is de kern van het hoofdstuk: de winst en de last liggen op verschillende plaatsen. "
+                 "Noem bij elk deel van de ketting waar het gebeurt.",
+             ]),
+        dict(aanpak="Er zijn vier stromen: goederen, kapitaal, mensen en informatie. Vraag je af wat er "
+                    "precies beweegt.",
+             waarom=[
+                 "Geld dat migranten naar huis sturen, is een kapitaalstroom, ook al reizen er mensen. Kijk "
+                 "naar wat er beweegt, niet naar wie het stuurt.",
+                 "Voor sommige landen zijn remittances een grotere inkomstenbron dan de uitvoer of de "
+                 "ontwikkelingshulp.",
+             ]),
+        dict(aanpak="Vraag bij elk gevolg altijd: voordeel of nadeel, en voor wie. Bijna niets is voor "
+                    "iedereen hetzelfde.",
+             waarom=[
+                 "Een antwoord zonder voor wie is geen antwoord. Dezelfde lage prijs is winst voor de koper "
+                 "en verlies voor de producent.",
+             ]),
+        dict(aanpak="Mondialisering gaat over verbindingen die mensen leggen. Natuurlijke gegevens zoals "
+                    "reliëf en seizoenen staan erbuiten.",
+             waarom=[
+                 "Aardbeien in de winter zijn een gevolg van mondialisering, de seizoenen zelf niet. Dat is "
+                 "het verschil tussen een natuurlijk gegeven en een menselijke verbinding.",
+                 "De winst is heel ongelijk verdeeld; dat is de voornaamste kritiek op de mondialisering.",
+                 "Mondialisering is niet van vandaag: de zijderoute en de scheepvaart van de 16de eeuw zijn "
+                 "vroege vormen. Wat nieuw is, is het tempo en de omvang.",
+             ]),
+        dict(aanpak="Macht gaat hier over afhankelijkheid: wie beslist over het werk waar duizenden mensen "
+                    "van leven, heeft invloed zonder verkozen te zijn.",
+             waarom=[
+                 "Een bedrijf mag nooit de wetten van een land aanpassen. De invloed loopt via de "
+                 "afhankelijkheid van werk en investeringen, niet via de wet.",
+                 "Noem ook wat een overheid wél in de hand heeft: regels, vergunningen en samenwerking met "
+                 "andere landen. Anders lijkt het alsof ze niets kan.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-duurzaam-omgaan-met-de-ruimte-boost"] = dict(
+    reeksen=[
+        dict(aanpak="People gaat over mensen, planet over de natuur, profit over het geld op lange termijn. "
+                    "Zoek bij elk kenmerk wie of wat het beschermt.",
+             waarom=[
+                 "Let op profit: het gaat om rendabel blijven op lange termijn, niet om zoveel mogelijk "
+                 "winst nu. Dat verschil is wat het duurzaam maakt.",
+                 "Het sleutelwoord is evenwicht. Een plan dat op één p uitblinkt en op de andere faalt, "
+                 "komt vroeg of laat terug als probleem.",
+             ]),
+        dict(aanpak="Verharding heeft drie gevolgen tegelijk: wateroverlast verderop, een zakkend "
+                    "grondwaterpeil, en meer hitte. Noem ze alle drie.",
+             waarom=[
+                 "De twee watergevolgen lijken tegengesteld (te veel water en te weinig water) maar hebben "
+                 "dezelfde oorzaak: het water loopt weg in plaats van in te sijpelen.",
+                 None, None,
+             ]),
+        dict(aanpak="Zet bij een ruimtelijk plan altijd elke partij apart, met wat ze wil en waarom. Pas "
+                    "dan kan je een aanpassing voorstellen die werkt.",
+             waarom=[
+                 "Het gemeentebestuur staat verdeeld; dat is een geldig antwoord. Een partij die twee "
+                 "belangen tegelijk heeft, hoeft niet voor één kant gekozen te worden.",
+                 "Een goed voorstel maakt het voor twee partijen beter zonder het voor de derde onmogelijk "
+                 "te maken. Dat is wat een compromis is.",
+             ]),
+        dict(aanpak="Vraag je bij elke maatregel af of het probleem opgelost wordt of enkel verhuist naar "
+                    "een ander land of een andere plek.",
+             waarom=[
+                 "Verschuiven is de valkuil: afval verschepen en een fabriek verhuizen laten de totale "
+                 "vervuiling gelijk, ze verplaatsen ze enkel uit het zicht.",
+                 "Duurzaam betekent niet dat niets mag veranderen, maar dat de verandering de bodem, het "
+                 "water en de biodiversiteit niet ondermijnt.",
+                 "Ook een duurzame keuze heeft nadelen. Ze afwegen is iets anders dan ze ontkennen.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-het-versterkte-broeikaseffect-boost"] = dict(
+    reeksen=[
+        dict(aanpak="Leg het broeikaseffect altijd in drie stappen uit: zonlicht in, warmtestraling terug, "
+                    "een deel vastgehouden. Zonder die derde stap klopt de uitleg niet.",
+             waarom=[
+                 "De broeikasgassen houden de wármtestraling van de aarde tegen, niet het binnenkomende "
+                 "zonlicht. Dat is de stap die het vaakst mis gaat.",
+                 None,
+                 "Zonder het natuurlijke broeikaseffect zou de aarde onbewoonbaar koud zijn. Het probleem "
+                 "is de versterking ervan, niet het effect zelf.",
+             ]),
+        dict(aanpak="Zet bij elk gas zijn voornaamste bron. Zo zie je ook meteen waar een maatregel moet "
+                    "aangrijpen.",
+             waarom=[
+                 "Methaan houdt veel meer warmte vast dan CO₂ maar blijft korter in de lucht. Daarom "
+                 "levert minder methaan snel resultaat op.",
+                 "Waterdamp is een versterkend gevolg, geen oorzaak die wij rechtstreeks aansturen: hoe "
+                 "warmer de lucht, hoe meer damp ze vasthoudt.",
+             ]),
+        dict(aanpak="Een versterkende terugkoppeling maakt het effect groter, een dempende kleiner. Vraag "
+                    "je af of het gevolg de oorzaak voedt.",
+             waarom=[
+                 "Drie van de vier versterken. Dat is precies waarom de opwarming moeilijk te stoppen is "
+                 "zodra ze op gang is.",
+                 "Albedo is het sleutelwoord: wit kaatst terug, donker neemt op. Daarom is smeltend ijs "
+                 "zowel een gevolg als een oorzaak.",
+             ]),
+        dict(aanpak="Zet bij elk gevolg een concrete streek. Een gevolg zonder plaats blijft een algemene "
+                    "zin en levert geen punten op.",
+             waarom=[
+                 "Zeg bij elke streek waarom juist daar: amper boven zeeniveau, ijs uit sneeuw, een "
+                 "neerslagtekort dat al groot was, een bodem die permanent bevroren lag.",
+                 "Dit heet klimaatrechtvaardigheid: de uitstoot per inwoner en de kwetsbaarheid liggen niet "
+                 "in dezelfde landen.",
+             ]),
+        dict(aanpak="Milderen pakt de oorzaak aan (minder uitstoot), aanpassen de gevolgen (leven met de "
+                    "opwarming). Vraag je af waar de maatregel aangrijpt.",
+             waarom=[
+                 "Bomen planten tegen de hitte is aanpassen, al is het groen. Een maatregel die de uitstoot "
+                 "niet verlaagt, is geen milderen.",
+                 "Dit is het antwoord dat een examen wil: milderen komt te laat voor wat er al is, "
+                 "aanpassen laat de oorzaak doorgaan. Dus allebei.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-een-geografisch-onderzoek-voeren-boost"] = dict(
+    reeksen=[
+        dict(aanpak="De vijf stappen zijn: vraag, gegevens, verwerken, besluiten, en je werkwijze bekijken. "
+                    "Die orde is vast.",
+             waarom=[
+                 None,
+                 "De laatste stap is waar je ontdekt of je besluit wel draagt. Zonder die stap kan een "
+                 "toevalstreffer als vaststelling de deur uit.",
+             ]),
+        dict(aanpak="Een goede onderzoeksvraag is afgebakend in tijd en ruimte en vraagt naar iets "
+                    "meetbaars. Mist er één van die drie, dan is ze onbruikbaar.",
+             waarom=[
+                 "Verbeter een slechte vraag echt, met een jaartal en een gebied erbij. Enkel zeggen dat ze "
+                 "te vaag is, is een half antwoord.",
+             ]),
+        dict(aanpak="Kies de bron bij de vraag: cijfers bij een databank, het verleden bij een oude foto, "
+                    "hoogte bij een kaartportaal, en wat niemand telde bij eigen veldwerk.",
+             waarom=[
+                 "Soms is veldwerk de enige weg: verkeerscijfers voor jouw straat op jouw uur bestaan "
+                 "nergens, dus die tel je zelf.",
+                 None,
+             ]),
+        dict(aanpak="Samen stijgen is nog geen oorzaak. En één meting is geen vaststelling. Dit zijn de "
+                    "twee fouten waar deze reeks op mikt.",
+             waarom=[
+                 "Dat twee reeksen samen bewegen heet een correlatie. Er kan een oorzaak achter zitten, "
+                 "maar het cijfer alleen zegt dat niet.",
+                 None,
+                 "Zeg er altijd bij hoe je het beter zou aanpakken: meer punten, meer dagen, vaste uren, "
+                 "gelijk opgestelde toestellen. Daar zitten de punten.",
+             ]),
+        dict(aanpak="Vermenigvuldig de kaartafstand met de noemer van de schaal, en reken daarna om naar "
+                    "meter of kilometer. 100 000 cm is 1 km.",
+             waarom=[
+                 "Let op de derde: daar moet je het omgekeerde doen, van werkelijkheid naar kaart. Zet 700 m "
+                 "eerst in centimeter.",
+                 "Grote schaal betekent klein gebied met veel detail, kleine schaal een groot gebied met "
+                 "weinig detail. Dat klinkt omgekeerd, en net daar gaat het mis.",
+             ]),
+    ],
+)
