@@ -29,6 +29,11 @@ export async function maakVraag(supabase: SupabaseClient, rij: VraagRij) {
     antwoord: rij.antwoord as number | string | boolean | number[] | string[],
     uitleg: (rij.uitleg ?? null) as string | null,
     volgnummer: rij.volgnummer as number,
+    // Op het examen lopen de vragen van alle hoofdstukken door elkaar. Dan moet
+    // de browser nog kunnen zien uit welk hoofdstuk een vraag komt, want een
+    // vraag over een leestekst of een prent heeft dat hoofdstuk nodig om haar
+    // tekst of haar prent boven de vraag te krijgen.
+    hoofdstukId: (rij.hoofdstuk_id ?? null) as string | null,
   };
   // Wisselende woorden bij spelling: elke beurt krijgt hier haar eigen
   // geschudde opties mee. Welke beurt een kind ziet, weet pas de browser,

@@ -14,6 +14,9 @@ import {
 import { schooljaarEindeLabel } from "@/lib/schooljaar";
 import { vindNiveau } from "@/lib/niveaus";
 import { isTaalvak } from "@/lib/taalvak";
+import { vindPrent } from "@/lib/prent";
+import type { VraagContext } from "@/components/Quiz";
+import type { Woord } from "@/components/Leestekst";
 import { vakIcoon } from "@/lib/vakbeeld";
 import { maakVraag } from "@/lib/vraagrij";
 
@@ -67,13 +70,21 @@ export default async function ExamenPage({
 
   const { data: vak } = await supabase
     .from("vakken")
-    .select("id, naam, slug, hoofdstukken(id, titel, niveau)")
+    .select(
+      "id, naam, slug, hoofdstukken(id, titel, niveau, leestekst, woordenlijst)",
+    )
     .eq("slug", vakSlug)
     .single();
   if (!vak) notFound();
 
   const hoofdstukken = (
-    vak.hoofdstukken as { id: string; titel: string; niveau: string }[]
+    vak.hoofdstukken as {
+      id: string;
+      titel: string;
+      niveau: string;
+      leestekst: string | null;
+      woordenlijst: Woord[] | null;
+    }[]
   ).filter((h) => h.niveau === niveau.slug && !PITTIG.test(h.titel));
   if (!hoofdstukken.length) notFound();
 
@@ -142,6 +153,24 @@ export default async function ExamenPage({
     await Promise.all((vragenRuw ?? []).map((rij) => maakVraag(supabase, rij))),
   );
 
+  /*
+    Een vraag over een leestekst ("in die tekst over de schoolreis vertrekt de
+    bus om zes uur") of over een prent is zonder die tekst of die prent niet te
+    beantwoorden. Bij een hoofdstuk staat ze boven de hele reeks; hier loopt
+    alles door elkaar, dus geeft de Quiz ze mee per hoofdstuk en zet ze boven de
+    vraag waar je op staat. Door Kim gemeld op 13 oktober 2026.
+  */
+  const contexten: Record<string, VraagContext> = {};
+  for (const h of hoofdstukken) {
+    const prent = vindPrent(vak.slug as string, h.titel);
+    if (!h.leestekst && !prent) continue;
+    contexten[h.id] = {
+      leestekst: h.leestekst,
+      woorden: h.woordenlijst ?? [],
+      prent,
+    };
+  }
+
   const { data: kinderen } = session
     ? await supabase
         .from("kinderen")
@@ -196,6 +225,7 @@ export default async function ExamenPage({
                 toonVoortgang: Boolean(k.toon_voortgang),
               }))}
               taalvak={isTaalvak(vak.slug)}
+              contexten={contexten}
               examen
             />
           )}

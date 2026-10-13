@@ -3,6 +3,9 @@
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { MeldingKnop } from "@/components/MeldingKnop";
+import { Leestekst, type Woord } from "@/components/Leestekst";
+import { Prent } from "@/components/Prent";
+import type { Prent as PrentGegevens } from "@/lib/prent";
 import { Formule } from "@/components/Formule";
 import {
   haalOefenstand,
@@ -63,6 +66,21 @@ type Vraag = {
    * vaak het deze vraag al maakte. Zie lib/spellingvariant.ts.
    */
   varianten?: GetoondeVariant[] | null;
+  /** Uit welk hoofdstuk deze vraag komt. Enkel nodig op het examen, waar de
+   *  vragen van alle hoofdstukken door elkaar lopen. */
+  hoofdstukId?: string | null;
+};
+
+/**
+ * Wat er bij een vraag hoort maar niet in de vraag staat: de tekst van
+ * begrijpend lezen, of de prent die je moet beschrijven. Bij een hoofdstuk
+ * staat dat boven de hele reeks; op het examen hangt het per vraag, want daar
+ * komt de ene vraag uit een ander hoofdstuk dan de volgende.
+ */
+export type VraagContext = {
+  leestekst?: string | null;
+  woorden?: Woord[];
+  prent?: PrentGegevens | null;
 };
 
 /** De vraag zoals dit kind ze nu voor zich krijgt, met het nummer van de beurt. */
@@ -597,10 +615,18 @@ export function Quiz({
   hoofdstukId,
   taalvak = false,
   examen = false,
+  contexten,
 }: {
   vragen: Vraag[];
   kinderen?: Kind[];
   hoofdstukId?: string;
+  /**
+   * Per hoofdstuk de leestekst of de prent die bij zijn vragen hoort. Alleen
+   * het examen geeft dit mee: daar loopt alles door elkaar, en een vraag als
+   * "in die tekst over de schoolreis vertrekt de bus om zes uur" is zonder die
+   * tekst niet te beantwoorden. Door Kim gemeld op 13 oktober 2026.
+   */
+  contexten?: Record<string, VraagContext>;
   /** Bij een taalvak wordt een ingetypt antwoord streng vergeleken. */
   taalvak?: boolean;
   /**
@@ -972,6 +998,13 @@ export function Quiz({
     }
   };
 
+  /* Wat er bij déze vraag hoort: de leestekst of de prent van haar hoofdstuk.
+     Bij een hoofdstuk staat dat al boven de hele reeks en is `contexten` leeg;
+     op het examen hangt het aan de vraag waar je nu op staat. */
+  const context = vraag?.hoofdstukId
+    ? contexten?.[vraag.hoofdstukId]
+    : undefined;
+
   return (
     <div className="mt-8 space-y-4">
       {kinderen.length > 1 && (
@@ -1100,6 +1133,22 @@ export function Quiz({
       <EnterToets doe={enterActie} />
 
       <div ref={vraagKop} className="scroll-mt-4">
+        {context?.prent && (
+          <div className="mb-4">
+            <Prent prent={context.prent} />
+          </div>
+        )}
+        {context?.leestekst && (
+          <div className="mb-4">
+            <Leestekst
+              /* Een eigen sleutel per hoofdstuk: ga je naar een vraag uit een
+                 ander hoofdstuk, dan staat die tekst weer opengeklapt. */
+              key={`leestekst-${vraag.hoofdstukId}`}
+              tekst={context.leestekst}
+              woorden={context.woorden ?? []}
+            />
+          </div>
+        )}
         {wachtOpBeurt ? (
           <p className="rounded-xl border border-border bg-surface px-5 py-8 text-center text-sm text-ink-dim">
             Even kijken welke woorden er deze keer aan de beurt zijn...
