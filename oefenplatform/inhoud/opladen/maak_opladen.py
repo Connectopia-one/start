@@ -146,39 +146,11 @@ def sqlkaarten(lijst):
 # Vanaf hier staat alles van déze ronde. Enkel dit wijzigt.
 # ════════════════════════════════════════════════════════════
 
-BESTAND = "opladen-inhoudsronde.html"
-TITEL = "Plakpagina inhoudsronde"
-SLEUTEL = "connectopia-plakpagina-inhoudsronde-13-oktober"
-VOET = "Bijgewerkt op 13 oktober 2026"
-INTRO = """<p>Deze ronde gaat over de <strong>inhoud van de vragen zelf</strong>, niet over het
-      platform. Drie dingen zijn rechtgezet.</p>
-      <p><strong>Eén.</strong> De opties van een meerkeuzevraag worden bij het tonen door elkaar
-      gezet, zodat het juiste antwoord niet altijd bovenaan staat. Maar in de uitleg stond bij
-      166 vragen nog &#8220;De eerste drie zijn juist&#8221; of &#8220;De laatste moet it rains
-      zijn&#8221;. Een kind dat die uitleg las, zag die drie niet bovenaan staan. Dat is nu
-      overal vervangen door iets dat blijft kloppen: <em>de juiste antwoorden</em>,
-      <em>de twee andere</em>, <em>het foute antwoord</em>.</p>
-      <p><strong>Twee.</strong> Het aantal juiste antwoorden bij een aankruisvraag. Bij de meeste
-      vakken stond bijna alles op precies drie, dus kon een kind er drie aanvinken zonder de
-      leerstof te kennen. <strong>Heel ✨ Spark is nu gespreid</strong>: in elk vak zit het
-      grootste groepje onder de vier op de tien, dus valt er niets meer af te leiden. 🚀 Boost en
-      🌍 Beyond volgen vak per vak, en elk vak komt hier te staan zodra het helemaal af is. Die
-      bestanden staan er nu al bij voor punt één.</p>
-      <p><strong>Drie.</strong> Het idee van Febe: vragen waarbij <strong>geen enkel</strong>
-      antwoord juist is, of net <strong>alle</strong>. In negen vakken van ✨ Spark staat nu bij
-      tien vragen de optie &#8220;Geen van deze antwoorden&#8221;, en bij vier van die tien is ze
-      ook het juiste antwoord. Dat ze er staat, verklapt dus niets. Die optie blijft bij het
-      schudden altijd onderaan, want in het midden van een lijst leest ze als onzin.</p>
-      <p>Elke kaart hieronder is één bestand met één klik. De vinkjes blijven staan als je de
-      pagina sluit, ook op je telefoon.</p>"""
-
 BEYOND = "🌍 Beyond doorstroom"
 BEYOND_DF = "🌍 Beyond dubbele finaliteit"
 BOOST = "🚀 Boost doorstroom"
 BOOST_DF = "🚀 Boost dubbele finaliteit"
 SPARK = "✨ Spark"
-START = "🌱 Start"
-NIV_BASIS = "🧱 Basis"
 HOEK = "🔭 Uitdagingshoek"
 
 AL = ("Alle hoofdstukken van dit vak zitten in dit ene bestand, dus vervangen moet aan. "
@@ -186,64 +158,86 @@ AL = ("Alle hoofdstukken van dit vak zitten in dit ene bestand, dus vervangen mo
 WISSEL = ("De wisselende woorden van de grammaticahoofdstukken zitten er al in, dus je hoeft "
           "het aparte variantenbestand er niet meer bij te doen. " + AL)
 
-# (afvinksleutel, naam, categorie, map, bestandsnaam, waarom, [etiket])
-VR_BEYOND = [
-    ("u-fr-be", "Filosofie en recht", BEYOND, "beyond", "filosofie-en-recht",
-     "Hier zaten de meeste: 69 vragen begonnen met &#8220;De eerste twee.&#8221; " + AL),
-    ("u-fy-be", "Fysica", BEYOND, "beyond", "fysica", AL),
-    ("u-gs-be", "Geschiedenis", BEYOND, "beyond", "geschiedenis", AL),
-    ("u-nw-be", "Natuurwetenschappen", BEYOND, "beyond", "natuurwetenschappen", AL),
-    ("u-en-be", "Engels", BEYOND, "beyond", "engels", AL),
-    ("u-frs-be", "Frans", BEYOND, "beyond", "frans", AL),
-]
-VR_BEYOND_DF = [
-    ("u-nl-bdf", "Nederlands", BEYOND_DF, "beyond-dubbele-finaliteit", "nederlands", AL),
-    ("u-en-bdf", "Engels", BEYOND_DF, "beyond-dubbele-finaliteit", "engels", AL),
-    ("u-frs-bdf", "Frans", BEYOND_DF, "beyond-dubbele-finaliteit", "frans", AL),
-]
-VR_BOOST = [
-    ("u-nl-bo", "Nederlands", BOOST, "boost-doorstroom", "nederlands", WISSEL),
-    ("u-en-bo", "Engels", BOOST, "boost-doorstroom", "engels", WISSEL),
-    ("u-frs-bo", "Frans", BOOST, "boost-doorstroom", "frans", AL),
-    ("u-gs-bo", "Geschiedenis", BOOST, "boost-doorstroom", "geschiedenis", AL),
-    ("u-ec-bo", "Economie", BOOST, "boost-doorstroom", "economie", AL),
-    ("u-sgw-bo", "Sociale en gedragswetenschappen", BOOST, "boost-doorstroom",
-     "sociale-en-gedragswetenschappen", AL),
-    ("u-wb-bo", "Wiskunde basis", BOOST, "boost-doorstroom", "wiskunde-basis", AL),
-]
-VR_BOOST_DF = [
-    ("u-nl-sdf", "Nederlands", BOOST_DF, "boost-dubbele-finaliteit", "nederlands", WISSEL),
-    ("u-en-sdf", "Engels", BOOST_DF, "boost-dubbele-finaliteit", "engels", WISSEL),
-    ("u-gs-sdf", "Geschiedenis", BOOST_DF, "boost-dubbele-finaliteit", "geschiedenis", AL),
-    ("u-nw-sdf", "Natuurwetenschappen", BOOST_DF, "boost-dubbele-finaliteit",
-     "natuurwetenschappen", AL),
-    ("u-gzw-sdf", "Gezondheid, zorg en welzijn", BOOST_DF, "boost-dubbele-finaliteit",
-     "gezondheid-zorg-en-welzijn", AL),
-]
-GESPREID = ("Het aantal juiste antwoorden is gespreid: %s. En er staan vragen bij waarbij "
-            "geen enkel antwoord juist is, of net alle. ")
-VR_SPARK = [
-    ("u-te-sp", "Techniek", SPARK, "spark", "techniek",
-     GESPREID % "21 vragen op twee, 22 op drie, 22 op vier en 1 op vijf" + AL),
-    ("u-ak-sp", "Aardrijkskunde", SPARK, "spark", "aardrijkskunde",
-     GESPREID % "26 op twee, 18 op drie, 21 op vier en 1 op vijf" + AL),
-    ("u-nl-sp", "Nederlands", SPARK, "spark", "nederlands",
-     GESPREID % "38 op twee, 39 op drie, 32 op vier en 1 op vijf" + WISSEL),
-    ("u-en-sp", "Engels", SPARK, "spark", "engels",
-     GESPREID % "30 op twee, 32 op drie, 25 op vier en 1 op vijf" + WISSEL),
-    ("u-frs-sp", "Frans", SPARK, "spark", "frans",
-     GESPREID % "30 op twee, 37 op drie, 28 op vier en 1 op vijf" + AL),
-    ("u-gs-sp", "Geschiedenis", SPARK, "spark", "geschiedenis",
-     GESPREID % "16 op twee, 12 op drie en 16 op vier" + AL),
-    ("u-nw-sp", "Natuurwetenschappen", SPARK, "spark", "natuurwetenschappen",
-     GESPREID % "22 op twee, 23 op drie en 20 op vier" + AL),
-    ("u-se-sp", "Samenleving en economie", SPARK, "spark", "samenleving-en-economie",
-     GESPREID % "27 op twee, 18 op drie, 25 op vier en 1 op vijf" + AL),
-    ("u-wi-sp", "Wiskunde", SPARK, "spark", "wiskunde",
-     "Wiskunde heeft geen aankruisvragen, dus daar was niets te spreiden. Wel staan er nu "
-     "vier rekenvragen bij waar geen van de getallen juist is, met zes andere waar die optie "
-     "er enkel als afleider bij staat. " + AL),
-]
+GETAL = {2: "twee", 3: "drie", 4: "vier", 5: "vijf", 6: "zes"}
+
+# Enkel de vaknamen die niet gewoon de bestandsnaam met hoofdletter zijn.
+NAMEN = {
+    "sociale-en-gedragswetenschappen": "Sociale en gedragswetenschappen",
+    "kunstbeschouwing-en-filosofie": "Kunstbeschouwing en filosofie",
+    "filosofie-en-recht": "Filosofie en recht",
+    "samenleving-en-economie": "Samenleving en economie",
+    "economie-en-bedrijfswetenschappen": "Economie en bedrijfswetenschappen",
+    "gezondheid-zorg-en-welzijn": "Gezondheid, zorg en welzijn",
+    "ontwikkeling-en-pedagogisch-handelen": "Ontwikkeling en pedagogisch handelen",
+    "toegepaste-economie": "Toegepaste economie",
+    "wiskunde-basis": "Wiskunde basis",
+    "nederlands-begrijpend-lezen": "Nederlands — begrijpend lezen",
+    "nederlands-spelling-varianten": "Nederlands — spelling",
+    "spark-nederlands-uitdaging": "Nederlands",
+    "spark-geschiedenis-uitdaging": "Geschiedenis",
+}
+
+
+def naam_van(bestand):
+    if bestand in NAMEN:
+        return NAMEN[bestand]
+    return bestand.replace("-", " ").capitalize()
+
+
+def meet(pad):
+    """Hoeveel juiste antwoorden een aankruisvraag heeft, de wisselende beurten
+    meegeteld, en hoe vaak "Geen van deze antwoorden" erbij staat."""
+    data = json.loads(pad.read_text(encoding="utf-8"))
+    tel, gvd, gvd_juist = {}, 0, 0
+    for h in data["hoofdstukken"]:
+        for v in h.get("vragen", []):
+            opties = v.get("opties") or []
+            plaats = [i for i, o in enumerate(opties) if "Geen van deze" in str(o)]
+            if plaats:
+                gvd += 1
+                a = v.get("antwoord")
+                if a == plaats[0] or (isinstance(a, list) and plaats[0] in a):
+                    gvd_juist += 1
+            for b in [v] + [{**v, **w} for w in (v.get("varianten") or [])]:
+                a = b.get("antwoord")
+                if isinstance(a, list) and len(a) >= 2 and all(isinstance(x, int) for x in a):
+                    tel[len(a)] = tel.get(len(a), 0) + 1
+    return tel, gvd, gvd_juist
+
+
+def opsomming(stukken):
+    if len(stukken) == 1:
+        return stukken[0]
+    return ", ".join(stukken[:-1]) + " en " + stukken[-1]
+
+
+def waarom_van(map_, bestand, staart):
+    """De regel onder de vaknaam, gerekend uit het bestand zelf."""
+    tel, gvd, gvd_juist = meet(WORTEL / map_ / f"{bestand}.json")
+    delen = []
+    if tel:
+        n = sum(tel.values())
+        zin = opsomming([f"{a} op {GETAL[k]}" for k, a in sorted(tel.items())])
+        delen.append(f"Het aantal juiste antwoorden is gespreid: {zin}. "
+                     f"Het grootste groepje is {round(100 * max(tel.values()) / n)} procent "
+                     f"van de {n} aankruisvragen.")
+    else:
+        delen.append("Dit vak heeft geen aankruisvragen, dus daar was niets te spreiden.")
+    if gvd:
+        hoe = (f", en bij {gvd_juist} is ze ook het juiste antwoord" if gvd_juist
+               else ", telkens als afleider")
+        delen.append(f"Bij {gvd} vragen staat de optie “Geen van deze antwoorden” erbij{hoe}.")
+    delen.append(staart)
+    return " ".join(delen)
+
+
+def kaarten_van(map_, cat, bestanden, staarten=None):
+    staarten = staarten or {}
+    lijst = [(f"{map_}-{b}", naam_van(b), cat, map_, b,
+              waarom_van(map_, b, staarten.get(b, AL)))
+             for b in bestanden]
+    return vraagkaarten(lijst)
+
 
 WEG = ('Open <span class="pad">Beheer</span>, <span class="pad">Vakken</span>, '
        'categorie <span class="pad">%s</span>, dan het vak, dan '
@@ -251,39 +245,117 @@ WEG = ('Open <span class="pad">Beheer</span>, <span class="pad">Vakken</span>, '
        '<span class="pad">Bestaande vragen vervangen</span> aan. Zonder dat vinkje krijg je '
        'de vragen dubbel.')
 
-SECTIES = [
-    dict(kop="🌍 Beyond doorstroom", uitleg=WEG % BEYOND, kaarten=vraagkaarten(VR_BEYOND)),
-    dict(kop="🌍 Beyond dubbele finaliteit", uitleg=WEG % BEYOND_DF,
-         kaarten=vraagkaarten(VR_BEYOND_DF)),
-    dict(kop="🚀 Boost doorstroom", uitleg=WEG % BOOST, kaarten=vraagkaarten(VR_BOOST)),
-    dict(kop="🚀 Boost dubbele finaliteit", uitleg=WEG % BOOST_DF,
-         kaarten=vraagkaarten(VR_BOOST_DF)),
-    dict(kop="✨ Spark", uitleg=WEG % SPARK, kaarten=vraagkaarten(VR_SPARK)),
+DRIE = """<p><strong>Eén.</strong> De opties van een meerkeuzevraag worden bij het tonen door
+      elkaar gezet, zodat het juiste antwoord niet altijd bovenaan staat. Maar in de uitleg
+      stond bij 166 vragen nog “De eerste drie zijn juist” of “De laatste moet it rains zijn”.
+      Een kind dat die uitleg las, zag die drie niet bovenaan staan. Dat is nu overal vervangen
+      door iets dat blijft kloppen: <em>de juiste antwoorden</em>, <em>de twee andere</em>,
+      <em>het foute antwoord</em>.</p>
+      <p><strong>Twee.</strong> Het aantal juiste antwoorden bij een aankruisvraag. Bij de meeste
+      vakken stond bijna alles op precies drie, dus kon een kind er drie aanvinken zonder de
+      leerstof te kennen. Dat is nu <strong>in elk vak</strong> gespreid, van 🌱 Start tot
+      🌍 Beyond: het grootste groepje zit overal tussen een derde en de helft, en op elke kaart
+      hieronder staat de verdeling van dat vak erbij. Bij chemie, biologie en filosofie en recht
+      van 🌍 Beyond is het de helft twee en de helft drie, en dat is net zo onvoorspelbaar.</p>
+      <p><strong>Drie.</strong> Het idee van Febe: vragen waarbij <strong>geen enkel</strong>
+      antwoord juist is, of net <strong>alle</strong>. In negen vakken van ✨ Spark staat nu bij
+      tien vragen de optie “Geen van deze antwoorden”, en bij vier van die tien is ze ook het
+      juiste antwoord. Dat ze er staat, verklapt dus niets. Die optie blijft bij het schudden
+      altijd onderaan, want in het midden van een lijst leest ze als onzin.</p>"""
+
+SAMEN = """<p>Alle vragen van een ronde samen zijn te veel tekst voor één pagina, dus staan ze
+      op twee. %s</p>
+      <p>Elke kaart hieronder is één bestand met één klik, met de verdeling van dat vak erbij.
+      De vinkjes blijven staan als je de pagina sluit, ook op je telefoon. Ze zijn wel één keer
+      leeggemaakt, omdat er vakken bij gekomen zijn: had je er vandaag al een ingeladen, doe het
+      dan gewoon opnieuw met vervangen aan. Twee keer inladen met dat vinkje aan kan geen
+      kwaad.</p>"""
+
+PAGINAS = [
+    dict(
+        bestand="opladen-inhoudsronde.html",
+        titel="Plakpagina inhoudsronde — 🌍 Beyond",
+        sleutel="connectopia-plakpagina-inhoudsronde-beyond",
+        voet="Bijgewerkt op 13 oktober 2026",
+        intro="""<p>Deze ronde gaat over de <strong>inhoud van de vragen zelf</strong>, niet over
+      het platform. Drie dingen zijn rechtgezet.</p>
+      """ + DRIE + SAMEN % ("Hier staan de achttien vakken van 🌍 Beyond; 🚀 Boost, ✨ Spark en "
+                            "de uitdagingshoek staan op <a href=\"https://claude.ai/artifact/KZSHgn7GrQawBMJVdYF9Hz\">de tweede plakpagina</a>."),
+        secties=[
+            dict(kop=BEYOND, uitleg=WEG % BEYOND, kaarten=kaarten_van(
+                "beyond", BEYOND,
+                ["nederlands", "engels", "frans", "geschiedenis", "aardrijkskunde",
+                 "samenleving-en-economie", "sociale-en-gedragswetenschappen",
+                 "filosofie-en-recht", "biologie", "chemie", "fysica", "natuurwetenschappen"])),
+            dict(kop=BEYOND_DF, uitleg=WEG % BEYOND_DF, kaarten=kaarten_van(
+                "beyond-dubbele-finaliteit", BEYOND_DF,
+                ["nederlands", "engels", "frans", "geschiedenis", "aardrijkskunde",
+                 "natuurwetenschappen"])),
+        ],
+    ),
+    dict(
+        bestand="opladen-inhoudsronde-2.html",
+        titel="Plakpagina inhoudsronde — 🚀 Boost en ✨ Spark",
+        sleutel="connectopia-plakpagina-inhoudsronde-boost-spark",
+        voet="Bijgewerkt op 13 oktober 2026",
+        intro="""<p>Deze ronde gaat over de <strong>inhoud van de vragen zelf</strong>, niet over
+      het platform. Drie dingen zijn rechtgezet.</p>
+      """ + DRIE + SAMEN % ("Hier staan 🚀 Boost, ✨ Spark en de uitdagingshoek; de achttien "
+                            "vakken van 🌍 Beyond staan op "
+                            "<a href=\"https://claude.ai/artifact/WRm2P4DqFzuMzy7Gxp5Kb1\">"
+                            "de eerste plakpagina</a>."),
+        secties=[
+            dict(kop=BOOST, uitleg=WEG % BOOST, kaarten=kaarten_van(
+                "boost-doorstroom", BOOST,
+                ["nederlands", "engels", "frans", "geschiedenis", "aardrijkskunde", "economie",
+                 "sociale-en-gedragswetenschappen", "kunstbeschouwing-en-filosofie",
+                 "wiskunde-basis", "biologie", "chemie", "fysica", "natuurwetenschappen"],
+                {"nederlands": WISSEL, "engels": WISSEL})),
+            dict(kop=BOOST_DF, uitleg=WEG % BOOST_DF, kaarten=kaarten_van(
+                "boost-dubbele-finaliteit", BOOST_DF,
+                ["nederlands", "engels", "frans", "geschiedenis", "aardrijkskunde",
+                 "economie-en-bedrijfswetenschappen", "toegepaste-economie",
+                 "ontwikkeling-en-pedagogisch-handelen", "gezondheid-zorg-en-welzijn",
+                 "natuurwetenschappen"],
+                {"nederlands": WISSEL, "engels": WISSEL})),
+            dict(kop=SPARK, uitleg=WEG % SPARK, kaarten=kaarten_van(
+                "spark", SPARK,
+                ["nederlands", "nederlands-spelling-varianten", "nederlands-begrijpend-lezen",
+                 "engels", "frans", "geschiedenis", "aardrijkskunde", "samenleving-en-economie",
+                 "techniek", "natuurwetenschappen", "wiskunde"],
+                {"nederlands": WISSEL, "engels": WISSEL})),
+            dict(kop=HOEK, uitleg=WEG % HOEK, kaarten=kaarten_van(
+                "uitdaging", HOEK,
+                ["spark-nederlands-uitdaging", "spark-geschiedenis-uitdaging"])),
+        ],
+    ),
 ]
 
 
 def bouw():
-    stukken = []
-    for nr, s in enumerate(SECTIES, 1):
-        stukken.append(f'''  <section>
+    hier = pathlib.Path(__file__).parent
+    sjabloon = (hier / "sjabloon.html").read_text(encoding="utf-8")
+    for pag in PAGINAS:
+        stukken = []
+        for nr, s in enumerate(pag["secties"], 1):
+            stukken.append(f'''  <section>
     <h2><span class="nr">{nr}</span> {s["kop"]}</h2>
     <p>{s["uitleg"]}</p>
     <div class="vakken">{"".join(s["kaarten"])}</div>
   </section>
 ''')
-    aantal = sum(len(s["kaarten"]) for s in SECTIES)
-    hier = pathlib.Path(__file__).parent
-    pagina = hier / BESTAND
-    pagina.write_text((hier / "sjabloon.html").read_text(encoding="utf-8")
-                      .replace("<!--TITEL-->", TITEL)
-                      .replace("<!--INTRO-->", INTRO)
-                      .replace("<!--SECTIES-->", "\n".join(stukken))
-                      .replace("<!--AANTAL-->", str(aantal))
-                      .replace("<!--VOET-->", VOET)
-                      .replace("<!--SLEUTEL-->", SLEUTEL),
-                      encoding="utf-8")
-    print(f"{pagina} — {pagina.stat().st_size / 1024 / 1024:.2f} MB, "
-          f"{len(SECTIES)} secties, {aantal} kaarten")
+        aantal = sum(len(s["kaarten"]) for s in pag["secties"])
+        pagina = hier / pag["bestand"]
+        pagina.write_text(sjabloon
+                          .replace("<!--TITEL-->", pag["titel"])
+                          .replace("<!--INTRO-->", pag["intro"])
+                          .replace("<!--SECTIES-->", "\n".join(stukken))
+                          .replace("<!--AANTAL-->", str(aantal))
+                          .replace("<!--VOET-->", pag["voet"])
+                          .replace("<!--SLEUTEL-->", pag["sleutel"]),
+                          encoding="utf-8")
+        print(f"{pagina.name} — {pagina.stat().st_size / 1024 / 1024:.2f} MB, "
+              f"{len(pag['secties'])} secties, {aantal} kaarten")
 
 
 if __name__ == "__main__":
