@@ -440,3 +440,257 @@ OEFENBUNDELS["oefenbundel-op-school-en-onderweg"] = dict(
              ]),
     ],
 )
+
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-woorden-voor-elke-dag"] = dict(
+    reeksen=[
+        dict(aanpak="Dagen en maanden krijgen in het Engels áltijd een hoofdletter, ook midden in een "
+                    "zin. Dat is het verschil met het Nederlands, en het wordt het vaakst vergeten.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "In het Nederlands schrijf je vrijdag klein, in het Engels Friday met een hoofdletter. "
+                 "Hetzelfde geldt voor de maanden en voor talen en landen.",
+                 None,
+             ]),
+        dict(aanpak="Let op het verschil tussen -teen en -ty: thirteen is 13, thirty is 30. In het "
+                    "Engels ligt de klemtoon anders, maar op papier zie je het aan de uitgang.",
+             waarom=[
+                 None,
+                 None,
+                 "Seventeen is 17, seventy is 70. De uitgang -ty maakt het getal tien keer groter dan "
+                 "je op het eerste gezicht zou denken.",
+                 "Four heeft een u, forty niet. Dat is een van de weinige woorden waar de u onderweg "
+                 "verdwijnt, dus die moet je gewoon onthouden.",
+                 None,
+             ]),
+        dict(aanpak="Deze woorden leer je door ze te gebruiken. Dek de rechterkolom af, overloop de "
+                    "lijst, en schrijf enkel op wat je niet meteen wist.",
+             waarom=[
+                 None,
+                 None,
+                 "Hand, hair en head zijn lichaamsdelen, hat is een hoed. Ze lijken op elkaar doordat "
+                 "ze alle vier met h beginnen, en dat is net de valstrik.",
+                 "Foot wordt feet, net zoals tooth teeth wordt. Die onregelmatige meervouden krijgen "
+                 "geen -s.",
+                 None,
+             ]),
+        dict(aanpak="Kijk goed of er een enkelvoud of een meervoud gevraagd wordt, en let bij de "
+                    "familie op wie met wie verwant is.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Cousin is in het Engels zowel een neef als een nicht. Niece is het dochtertje van je "
+                 "broer of zus, dus iets heel anders.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-mezelf-voorstellen"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je bij elke zin af op welk moment van de dag je ze zegt, en of je iemand "
+                    "begroet of net afscheid neemt. Dat verschil bepaalt bijna alles hier.",
+             waarom=[
+                 None,
+                 "Good night zeg je niet bij het binnenkomen maar bij het slapengaan. Good evening is "
+                 "de begroeting 's avonds.",
+                 None,
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="His hoort bij een jongen of een man, her bij een meisje of een vrouw. Kijk dus "
+                    "niet naar het ding dat volgt, maar naar wie de eigenaar is.",
+             waarom=[
+                 "In het Nederlands zeg je zijn tas en haar hond. Het Engels doet net hetzelfde, maar "
+                 "het is zo makkelijk om naar het voorwerp te kijken in plaats van naar de persoon.",
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Elk vraagwoord vraagt naar iets anders: who naar een persoon, when naar een "
+                    "moment, where naar een plaats, why naar een reden en how naar een manier.",
+             waarom=[
+                 None,
+                 "Where are you from? vraagt naar je land of je stad. Who are you? klinkt in het Engels "
+                 "bijna onbeleefd, alsof je iemand ter verantwoording roept.",
+                 None,
+             ]),
+        dict(aanpak="Landen en talen krijgen in het Engels altijd een hoofdletter. En let op de kleine "
+                    "woorden: the Netherlands draagt een lidwoord, France niet.",
+             waarom=[
+                 None,
+                 None,
+                 "Belgium is het land, Belgian is de inwoner. Je zegt dus I am from Belgium of I am "
+                 "Belgian, maar nooit I am Belgium.",
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-to-be-en-to-have"] = dict(
+    reeksen=[
+        dict(aanpak="Kijk eerst wie of wat er vooraan staat. Bij I hoort am, bij he, she en it hoort "
+                    "is, en bij we, you en they hoort are. Een meervoud krijgt dus altijd are.",
+             waarom=[
+                 None,
+                 "My shoes en the films zijn meervouden, dus are. Het Engels kijkt daarbij naar het "
+                 "woord zelf, ook al voelt een paar schoenen als één ding.",
+                 "Een vraag maak je door om te wisselen: she is wordt is she. Er komt geen do bij.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Have wordt alleen bij he, she en it een has. In alle andere gevallen blijft het "
+                    "have staan.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "Does draagt de -s al, dus het werkwoord erna blijft kaal: does she have, nooit does "
+                 "she has.",
+             ]),
+        dict(aanpak="De apostrof staat precies waar de weggevallen letters stonden: is not wordt isn't, "
+                    "I am wordt I'm.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Its zonder apostrof betekent zijn of haar (the dog and its bone). It's mét apostrof "
+                 "is het is. Dat is de meest gemaakte fout in het Engels.",
+             ]),
+        dict(aanpak="Lees eerst wie of wat er vooraan staat, en kies dan pas de vorm. Dat is de enige "
+                    "vraag die je je bij deze hele reeks moet stellen.",
+             waarom=[None, None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-tegenwoordige-tijd"] = dict(
+    reeksen=[
+        dict(aanpak="Alleen bij he, she en it komt er een -s achter het werkwoord. Eindigt het op -ch, "
+                    "-sh, -s, -x of -o, dan wordt het -es; een medeklinker plus -y wordt -ies.",
+             waarom=[
+                 "Watch wordt watches en finish wordt finishes, want je kan er geen losse s achter "
+                 "uitspreken. Fly wordt flies en carry wordt carries: medeklinker plus y wordt ies.",
+                 None,
+                 "Study eindigt op een medeklinker plus y, dus wordt het studies. Play niet: daar staat "
+                 "een klinker voor de y, en dan blijft het plays.",
+                 None,
+             ]),
+        dict(aanpak="Do hoort bij I, you, we en they; does bij he, she en it. Na allebei blijft het "
+                    "werkwoord kaal, want de -s zit al in does.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Don't hoort bij I, you, we en they; doesn't bij he, she en it. Ook hier blijft het "
+                    "werkwoord erna zonder -s.",
+             waarom=[
+                 None,
+                 "He doesn't likes is dubbelop: de -s zit al in doesn't. He don't is dan weer de "
+                 "verkeerde vorm bij he.",
+                 None,
+             ]),
+        dict(aanpak="De tegenwoordige tijd gaat over wat telkens opnieuw gebeurt: elke dag, meestal, "
+                    "nooit. Woorden als yesterday of tomorrow horen bij een andere tijd.",
+             waarom=[
+                 "Usually zegt dat iets gewoonlijk gebeurt, dus telkens opnieuw. Yesterday, tomorrow en "
+                 "last week wijzen naar één moment in het verleden of de toekomst.",
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-zinnen-bouwen"] = dict(
+    reeksen=[
+        dict(aanpak="De meeste meervouden krijgen -s. Na -s, -ch, -sh of -x komt er -es bij, een "
+                    "medeklinker plus -y wordt -ies, en -f of -fe wordt -ves. Een handvol woorden is "
+                    "onregelmatig.",
+             waarom=[
+                 "Bus wordt buses en dish wordt dishes (je hoort de extra lettergreep), baby wordt "
+                 "babies, knife wordt knives. Tooth en woman zijn onregelmatig: teeth en women.",
+                 "Child wordt children, en daar zit al een meervoud in. Er komt dus geen -s meer bij.",
+                 "Mouse wordt mice, net zoals tooth teeth wordt. Books, houses en trees volgen gewoon "
+                 "de regel met -s.",
+             ]),
+        dict(aanpak="Het gaat om de klánk waarmee het woord begint, niet om de letter. Hoor je een "
+                    "klinker, dan an; hoor je een medeklinker, dan a.",
+             waarom=[
+                 "An hour, want de h zwijgt en je hoort meteen de ou-klank. A house wel met a, want "
+                 "daar hoor je de h duidelijk.",
+                 None,
+             ]),
+        dict(aanpak="De volgorde in een Engelse zin ligt vaster dan in het Nederlands: eerst wie, dan "
+                    "wat, dan waar, en pas daarna wanneer.",
+             waarom=[
+                 "Het lijdend voorwerp blijft bij het werkwoord: she reads a book. De tijd komt "
+                 "achteraan, niet ertussen.",
+                 None,
+                 None,
+                 "There is hoort bij één ding of bij iets dat je niet kan tellen (some milk), there are "
+                 "bij een meervoud.",
+             ]),
+        dict(aanpak="Met 's toon je aan van wie iets is, en het staat bij de eigenaar: my brother's "
+                    "bike. Bij de vraagwoorden let je op whose, dat naar de eigenaar vraagt.",
+             waarom=[
+                 "In het Nederlands zeg je de fiets ván mijn broer, in het Engels draai je het om: de "
+                 "eigenaar eerst, met 's, en dan het ding.",
+                 None,
+                 "Good at is een vaste combinatie, net als interested in en afraid of. Die kleine "
+                 "woordjes leer je samen met de uitdrukking, want vertalen helpt hier niet.",
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-op-school-en-onderweg"] = dict(
+    reeksen=[
+        dict(aanpak="Deze woorden en zinnen hoor je elke les. Lees ze luidop, want zo blijven ze beter "
+                    "hangen dan door ze stil over te schrijven.",
+             waarom=[
+                 "Let op bank: dat is in het Engels een desk (een schoolbank) en geen bank, want bank "
+                 "is het geldkantoor.",
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Het Engels telt vanaf het hele uur dat gewéést is: half past three is half vier "
+                    "bij ons, dus 3.30 u. Past betekent voorbij, to betekent naartoe.",
+             waarom=[
+                 "Half past nine is 9.30 u, niet 8.30 u. En twenty to five is twintig minuten vóór "
+                 "vijf, dus 4.40 u.",
+                 None,
+                 "Quarter past is kwart ná, quarter to is kwart vóór. Past en to zijn het hele "
+                 "verschil.",
+             ]),
+        dict(aanpak="Links en rechts worden het vaakst verwisseld. Een geheugensteun: right betekent "
+                    "ook juist, en de meeste mensen schrijven met rechts.",
+             waarom=[None, None, None]),
+        dict(aanpak="Dit zijn woorden die je overal tegenkomt. Oefen ze in een hele zin, niet als los "
+                    "woord: zo leer je meteen hoe ze gebruikt worden.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "I'm late betekent dat je te laat bent. Te vroeg is I'm early.",
+                 None,
+             ]),
+    ],
+)
