@@ -916,3 +916,474 @@ OEFENBUNDELS["oefenbundel-het-landschap-op-het-terrein-spark"] = dict(
              ]),
     ],
 )
+
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-een-kaart-lezen-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Vier dingen horen op elke kaart: een titel, een legende, een schaal en een "
+                    "noordpijl. Zoek ze alle vier voor je de kaart begint te lezen.",
+             waarom=[
+                 None,
+                 "Een luchtfoto is een foto: alles staat erop zoals het in het echt is, zonder tekens "
+                 "die uitleg nodig hebben. Een legende hoort bij een getekende kaart.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Zet het noorden in je hoofd bovenaan. Dan ligt het oosten rechts, het zuiden "
+                    "onderaan en het westen links, en vind je elke tussenrichting.",
+             waarom=[
+                 None,
+                 "Kijk je naar het westen, dan ligt het oosten achter je. Links en rechts draaien mee: "
+                 "links het zuiden, rechts het noorden.",
+                 None,
+             ]),
+        dict(aanpak="Vermenigvuldig wat je meet met het tweede getal van de schaal, en zet daarna om "
+                    "naar meter of kilometer. Ga je van de werkelijkheid naar de kaart, dan deel je er "
+                    "net door.",
+             waarom=[
+                 "1 cm op 1 : 20 000 is 20 000 cm, en dat is 200 m. Delen door 100 geeft meter, delen "
+                 "door 100 000 geeft kilometer.",
+                 None,
+                 None,
+                 "Hier moet je delen: 2 km is 200 000 cm, en 200 000 : 25 000 geeft 8 cm.",
+                 "Hoe groter het tweede getal van de schaal, hoe sterker het gebied verkleind is, en "
+                 "hoe minder detail er overblijft.",
+                 None,
+             ]),
+        dict(aanpak="Een hoogtelijn verbindt alle punten die even hoog liggen. Liggen de lijnen dicht "
+                    "bijeen, dan is het steil; liggen ze ver uit elkaar, dan loopt het flauw op.",
+             waarom=[
+                 "Elk punt heeft maar één hoogte. Twee lijnen die elkaar kruisen, zouden daar twee "
+                 "verschillende hoogtes beweren.",
+                 None,
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Vraag je twee dingen af: hoe hoog ligt het, en is het bovenaan vlak of niet? Die "
+                    "twee samen geven de reliëfvorm.",
+             waarom=[None, None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-waar-op-aarde-ben-je-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Breedte tel je vanaf de evenaar, van 0° tot 90°. Lengte tel je vanaf de "
+                    "nulmeridiaan door Greenwich, van 0° tot 180°.",
+             waarom=[
+                 None,
+                 "Elke meridiaan loopt van pool tot pool, dus ze zijn allemaal even lang. Een "
+                 "breedtecirkel wordt kleiner naarmate je dichter bij een pool komt.",
+                 None,
+                 None,
+                 "De breedte gaat maar tot 90°, en dat is de pool zelf. Verder dan de pool kan je niet "
+                 "gaan.",
+             ]),
+        dict(aanpak="Lees altijd in deze volgorde: eerst de breedte (N of Z, dus boven of onder de "
+                    "evenaar), dan de lengte (O of W, dus ten oosten of ten westen van Greenwich).",
+             waarom=[
+                 None,
+                 "De breedte komt eerst, de lengte daarna. Draai je ze om, dan beland je ergens "
+                 "helemaal anders op de aardbol.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Absoluut situeren is een plaats op zichzelf aanduiden, met coördinaten. Relatief "
+                    "situeren is ze aanduiden ten opzichte van iets anders: achter de kerk, ten zuiden "
+                    "van Hasselt.",
+             waarom=[None, None]),
+        dict(aanpak="Overloop een wereldkaart van links naar rechts en van boven naar onder, dan "
+                    "vergeet je geen werelddeel.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "Het register is een alfabetische lijst met bij elke naam de bladzijde en het vakje. "
+                 "Dat gaat veel sneller dan kaart per kaart zoeken.",
+             ]),
+        dict(aanpak="Drie soorten referentiepunten: sterrenkundig (lijnen die met de stand van de zon "
+                    "te maken hebben), staatkundig (grenzen die mensen afgesproken hebben) en "
+                    "topografisch (wat echt in het landschap ligt).",
+             waarom=[None, None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-lagen-van-een-landschap-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je bij elke laag af of ze er ook zou zijn zonder mensen. Reliëf, ondergrond, "
+                    "klimaat en vegetatie wel; bebouwing, wegen, ontginning en landgebruik niet.",
+             waarom=[None, None, None]),
+        dict(aanpak="Hou bodem en ondergrond uit elkaar: de bodem is de bovenste losse laag waarin "
+                    "planten wortelen, de ondergrond is het vaste gesteente daaronder.",
+             waarom=[
+                 None,
+                 None,
+                 "Klei bestaat uit heel fijne korreltjes die dicht tegen elkaar liggen. Daar raakt "
+                 "water nauwelijks tussen, terwijl het door grof zand zo wegloopt.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Drie takken: akkerbouw (gewassen op het veld), veeteelt (dieren) en tuinbouw "
+                    "(groenten, fruit en sierteelt, vaak op een kleinere oppervlakte of onder glas).",
+             waarom=[None, None, None]),
+        dict(aanpak="Vraag je bij elk voorbeeld af of het een lijn is in het landschap (een weg, een "
+                    "spoor, een leiding) of een punt of een vlek (een gebouw, een groeve).",
+             waarom=[
+                 None,
+                 "Lijninfrastructuur loopt als een lijn door het landschap: een spoorlijn, een weg, een "
+                 "leiding. Een gebouw staat op één plaats.",
+                 None,
+                 "Toerisme laat wel degelijk sporen na: hotels, campings, parkings, skiliften en wegen "
+                 "die er anders niet zouden liggen.",
+             ]),
+        dict(aanpak="Benoem bij elk ding dat je ziet welke laag het is. Eén ding kan bij twee lagen "
+                    "horen, zoals een fabriek: bebouwing én landgebruik.",
+             waarom=[None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-waarom-landschappen-verschillen-spark"] = dict(
+    reeksen=[
+        dict(aanpak="België klimt van het noordwesten naar het zuidoosten in drie trappen: laagvlakte, "
+                    "laagplateau, plateau. De naam van de eenheid verklapt bijna altijd welke trap het "
+                    "is.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Een plateau is bovenaan vlak, maar de Condroz is net een afwisseling van ruggen en "
+                 "dalen. Daarom heet die streek de heuvelruggen.",
+                 None,
+             ]),
+        dict(aanpak="Ga van de evenaar naar de pool: regenwoud, savanne, woestijn, loofwoud, taiga, "
+                    "toendra. De plantengroei volgt het klimaat, en het klimaat volgt de breedte.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Rond de evenaar valt het zonlicht het steilst in, dus op het kleinste stukje grond. "
+                 "Daarom is het daar het warmst.",
+                 None,
+             ]),
+        dict(aanpak="Mensen wonen waar water, voedsel en warmte te vinden zijn. Vraag je bij elk gebied "
+                    "af welke van die drie er ontbreekt.",
+             waarom=[None, None, None]),
+        dict(aanpak="De lagen werken op elkaar in: het reliëf bepaalt mee de bodem, de bodem bepaalt de "
+                    "landbouw, en de landbouw bepaalt mee waar de mensen wonen.",
+             waarom=[
+                 "Juist dat samenspel is de kern van dit hoofdstuk: verander het reliëf of de bodem, en "
+                 "het landgebruik verandert mee.",
+                 None,
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="De vijf P's zijn Planet, People, Prosperity, Peace en Partnership. Vraag je af wat "
+                    "er in het voorbeeld centraal staat: de natuur, de mensen, de welvaart, de vrede of "
+                    "de samenwerking.",
+             waarom=[
+                 None,
+                 None,
+                 "Een nieuwe fabriek brengt werk (Prosperity) maar kan een beekvallei schaden (Planet). "
+                 "Daarom moet je de vijf altijd samen bekijken.",
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-aarde-beweegt-en-slijt-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Hou de twee punten uit elkaar: de haard ligt in de diepte, het epicentrum ligt "
+                    "recht daarboven aan het oppervlak.",
+             waarom=[
+                 None,
+                 None,
+                 "België ligt niet op een plaatgrens, maar er lopen wel breuklijnen, onder meer in "
+                 "Limburg. Lichte bevingen komen hier dus voor.",
+                 None,
+             ]),
+        dict(aanpak="Onthoud het verschil in één regel: magma zit onder de grond, lava stroomt "
+                    "erboven. Voor de rest is het dezelfde stof.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Vulkanen worden ingedeeld in actief, slapend en uitgedoofd. Veel vulkanen hebben in "
+                 "geen duizenden jaren nog iets gedaan.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Drie stappen na elkaar: verwering breekt het gesteente af ter plaatse, erosie "
+                    "voert het weg, en sedimentatie zet het ergens anders weer af.",
+             waarom=[
+                 "Let op het verschil: bij verwering blijft het materiaal liggen waar het is, bij "
+                 "erosie wordt het meegenomen.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Aan de vorm van een dal zie je wie het uitsleep: een rivier snijdt een smalle "
+                    "V-vorm uit, een gletsjer schuurt een brede U-vorm.",
+             waarom=[
+                 None,
+                 None,
+                 "Snel stromend water neemt materiaal mee; pas waar het trager gaat, zakt het naar de "
+                 "bodem. Daarom ligt het meeste slib aan de monding.",
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Erosie tegenhouden komt altijd op hetzelfde neer: het water afremmen en de grond "
+                    "vasthouden met wortels.",
+             waarom=[None, None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-het-weer-en-zijn-uitschieters-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Zet bij elke grootheid het toestel én de eenheid. Een meting zonder eenheid zegt "
+                    "niets.",
+             waarom=[
+                 None,
+                 "Eén millimeter neerslag is precies één liter per vierkante meter. Daarom kan je het "
+                 "getal gewoon overnemen.",
+                 "Een wind wordt genoemd naar waar hij vandáán komt. Een noordenwind komt dus uit het "
+                 "noorden en waait naar het zuiden.",
+                 None,
+             ]),
+        dict(aanpak="Onthoud één regel: lage druk betekent stijgende lucht, dus wolken en regen. Hoge "
+                    "druk betekent zakkende lucht, dus opklaringen.",
+             waarom=[None, None, None]),
+        dict(aanpak="Op een klimatogram staan twee dingen samen: de staafjes zijn de neerslag, de lijn "
+                    "is de temperatuur. Lees ze apart af.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "Het weer blijft een voorspelling. Enkele dagen vooruit lukt aardig, maar tot op het "
+                 "uur en de plaats is het niet te vatten.",
+             ]),
+        dict(aanpak="Vergelijk de twee grote stormen: een orkaan is honderden kilometers breed en "
+                    "duurt dagen, een tornado is enkele honderden meters breed en duurt minuten.",
+             waarom=[
+                 None,
+                 None,
+                 "Een tornado is veel smaller, maar ter plaatse feller. Een orkaan bestrijkt een enorm "
+                 "gebied.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Alles draait om één vraag: kan het water ergens naartoe? Hoe meer verharding, hoe "
+                    "minder het de grond in kan.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "De kleuren lopen op: geel is opletten, oranje is gevaarlijk weer, en rood is "
+                 "uitzonderlijk en zeer gevaarlijk weer.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-het-klimaat-verandert-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Fossiele brandstoffen zijn resten van planten en dieren van miljoenen jaren "
+                    "geleden. Bij het verbranden komt de koolstof die daarin opgeslagen zat weer vrij.",
+             waarom=[
+                 None,
+                 None,
+                 "Zuurstof is geen broeikasgas. Waterdamp wel, en dat is zelfs het meest voorkomende, "
+                 "al is CO2 het gas waar de mens het meest aan verandert.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Hou twee dingen uit elkaar: het broeikaseffect zelf is natuurlijk en zelfs nodig, "
+                    "het versterkte broeikaseffect komt door de extra gassen van de mens.",
+             waarom=[
+                 None,
+                 "Zonder het natuurlijke broeikaseffect zou het op aarde gemiddeld rond de -18 °C zijn. "
+                 "Het probleem is dus niet het effect zelf maar de versterking ervan.",
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Twee oorzaken, en maar één ervan is smeltend ijs: water zet uit als het opwarmt, "
+                    "en ijs dat op het lánd ligt loopt bij het smelten naar zee.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "De polders liggen plaatselijk lager dan de zeespiegel. Alleen de duinen en de dijken "
+                 "houden het water tegen.",
+             ]),
+        dict(aanpak="Bekijk elk gevolg met twee vragen: wat verschuift er, en wie draagt de gevolgen? "
+                    "Dat zijn vaak niet dezelfde mensen als wie het meest uitstoot.",
+             waarom=[
+                 None,
+                 None,
+                 "Landen dicht bij de evenaar en landen die laag aan zee liggen, worden het hardst "
+                 "getroffen, terwijl ze in de geschiedenis het minst uitgestoten hebben.",
+                 None,
+             ]),
+        dict(aanpak="Er zijn twee sporen: minder uitstoten (de oorzaak aanpakken) en adaptatie (je "
+                    "aanpassen aan wat al verandert). Vraag je bij elke maatregel af welke van de twee "
+                    "het is.",
+             waarom=[
+                 "Een maatregel die de uitstoot verlaagt, pakt de oorzaak aan. Een maatregel die je "
+                 "beschermt tegen hitte of water is adaptatie: die verandert niets aan de oorzaak.",
+                 None,
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-mens-verandert-het-landschap-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je af wat er door de lijn gaat: mensen en goederen (transport), of stroom, "
+                    "gas en water (energie en nutsvoorzieningen).",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Zo'n doorsnijding heet een barrière. Daarom legt men ecoducten en tunnels aan: die "
+                 "maken van twee gebieden weer één.",
+             ]),
+        dict(aanpak="Kijk telkens naar twee dingen: wat haalt de mens weg, en wat zet hij ervoor in de "
+                    "plaats?",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Die bouwgolf dateert vooral van de jaren zestig en zeventig. Vandaag mag er aan de "
+                 "kust veel minder hoog bijgebouwd worden.",
+             ]),
+        dict(aanpak="Elke ingreep levert iets op en kost iets. Noem bij een nadeel altijd ook wie of "
+                    "wat het treft: de bodem, het water, de dieren of de buren.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "Verzilten betekent dat er zout in de bodem achterblijft als het irrigatiewater "
+                 "verdampt. Op den duur groeit er bijna niets meer.",
+             ]),
+        dict(aanpak="Verharding houdt het water buiten de grond, ontharding laat het er weer in. Alles "
+                    "in deze reeks volgt uit dat ene verschil.",
+             waarom=[None, None, None]),
+        dict(aanpak="Pas op met de woorden altijd en nooit. In de aardrijkskunde is bijna elke ingreep "
+                    "een afweging, en bijna niets is helemaal onomkeerbaar.",
+             waarom=[
+                 None,
+                 "Herstel kan, maar het duurt veel langer dan het afbreken. Een bos van honderd jaar "
+                 "oud zet je niet in tien jaar terug.",
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-onderzoeken-met-kaartlagen-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Leer de viewer kennen als gereedschap: lagen aan- en uitzetten, zoeken, meten, en "
+                    "de legende erbij halen om de kleuren te begrijpen.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "Het meetgereedschap rekent de schaal zelf om. Je leest dus meteen meters of hectaren "
+                 "af, zonder zelf te vermenigvuldigen.",
+             ]),
+        dict(aanpak="Begin bij je vraag en zoek dan pas je lagen: welke gegevens heb ik minstens nodig "
+                    "om dit te kunnen zien?",
+             waarom=[
+                 None,
+                 None,
+                 "Te veel lagen maakt de kaart onleesbaar. Kies de lagen die je vraag beantwoorden, en "
+                 "laat de rest uit.",
+             ]),
+        dict(aanpak="Vier stappen, altijd in deze volgorde: de vraag stellen, lagen kiezen, analyseren, "
+                    "besluiten.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Een weerlegde hypothese is ook een antwoord. Je weet nu dat het anders zit dan je "
+                 "dacht, en dat schrijf je gewoon op.",
+                 None,
+             ]),
+        dict(aanpak="Een vraag is bruikbaar voor een kaartonderzoek als het antwoord op een kaart te "
+                    "zien is. Over mooi vinden of houden van zegt een kaart niets.",
+             waarom=[None, None]),
+        dict(aanpak="Een besluit zegt wat je gevonden hebt, waarop je dat baseert, en wat dat met je "
+                    "hypothese doet. En pas op met oorzaak en gevolg.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Eén hectare is 10 000 vierkante meter, dus 0,8 ha is 8 000 vierkante meter.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-het-landschap-op-het-terrein-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Twee verschillende dingen: lokaliseren is weten wáár je bent, oriënteren is weten "
+                    "welke kánt je uit kijkt.",
+             waarom=[
+                 None,
+                 "IJzer en staal trekken de naald scheef. Ga enkele meters weg van hekken, fietsen en "
+                 "auto's voor je afleest.",
+                 "Een satellietsignaal raakt moeilijk door daken en dikke muren. Binnen en tussen hoge "
+                 "gebouwen is je positie veel minder nauwkeurig.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Beschrijf het reliëf in drie stappen: de helling, het hoogteverschil en de "
+                    "horizonlijn.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Een transect toont het reliëf van opzij, als een doorsnede. Op een kaart kijk je "
+                 "altijd van boven, en dan zie je de hoogte niet.",
+                 None,
+             ]),
+        dict(aanpak="Hou de drie uit elkaar: de vegetatie is wat er groeit, de bebouwing is wat er "
+                    "staat, en het landgebruik is waarvoor de grond dient.",
+             waarom=[None, None, None]),
+        dict(aanpak="Voel met je vingers: zand knerpt, leem voelt melig aan, en klei laat zich tot een "
+                    "draadje rollen. Grind zie je met het blote oog liggen.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "De bovenste laag is donkerder door de humus: afgestorven planten en bladeren die "
+                 "erin verteren.",
+                 None,
+             ]),
+        dict(aanpak="Een verslag beantwoordt drie vragen: waar en wanneer je gekeken hebt, wat je zag, "
+                    "en wat je daaruit besluit.",
+             waarom=[
+                 None,
+                 "Graven doe je alleen met de toestemming van de eigenaar, en je legt de put daarna "
+                 "weer dicht.",
+                 None,
+                 None,
+                 None,
+             ]),
+    ],
+)
