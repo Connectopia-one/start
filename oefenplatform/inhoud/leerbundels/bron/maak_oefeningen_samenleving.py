@@ -864,3 +864,361 @@ OEFENBUNDELS["oefenbundel-word-excel-powerpoint-en-veilig-online-spark"] = dict(
              ]),
     ],
 )
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-ik-ben-wie-ik-ben-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je bij elk gegeven af waar het vandaan komt: van je lichaam, van je karakter "
+                    "of van thuis. Dat is meteen de laag.",
+             waarom=[None, None, None]),
+        dict(aanpak="Een uitspraak zegt pas iets over identiteit als ze over de persoon zelf gaat. Gaat "
+                    "ze over het weer of over de trein, dan gaat ze over de omstandigheden.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="De vier woorden zeggen elk iets anders over identiteit: hoe ze opgebouwd is, of ze "
+                    "verandert, waar ze vorm krijgt, en dat niemand dezelfde heeft.",
+             waarom=[None, None]),
+        dict(aanpak="Houd twee dingen uit elkaar: identiteit is wie je bent, imago is wat anderen "
+                    "denken dat je bent.",
+             waarom=[
+                 None,
+                 None,
+                 "Iedereen laat niet alles zien. Een klein verschil is normaal; pas als het heel groot "
+                 "wordt, gaat het wringen.",
+             ]),
+        dict(aanpak="Een groep geeft verbondenheid, maar een groep tekent ook een grens. Let bij elke "
+                    "vraag op welke van die twee kanten bedoeld wordt.",
+             waarom=[
+                 None,
+                 "Ook volwassenen horen bij subculturen: motorrijders, verzamelaars, supporters van een "
+                 "ploeg. Het gaat om een eigen stijl en eigen gewoontes, niet om leeftijd.",
+                 None,
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-ik-leef-samen-met-anderen-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Kijk eerst de hele prent rond voor je iets opschrijft. Zoek daarna pas het detail "
+                    "dat de vraag vraagt; zo kijk je niet over iets heen.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 None,
+                 "Een omstaander is wie het ziet gebeuren en niets doet. Net die rol maakt het verschil: "
+                 "een omstaander die wél iets zegt, stopt vaak het pesten.",
+                 None,
+             ]),
+        dict(aanpak="Drie vragen om het uit elkaar te houden: gaat het over en weer, herhaalt het zich, "
+                    "en is er een machtsverschil?",
+             waarom=[
+                 None,
+                 None,
+                 "Hoe vaak iets gebeurt, zegt niets over of het mag. Pesten is net iets dat zich "
+                 "herhaalt, en dat maakt het erger in plaats van gewoner.",
+             ]),
+        dict(aanpak="Deze woorden lijken op elkaar maar wijzen op iets anders. Zoek bij elk woord wie "
+                    "de macht heeft en wie er iets van voelt.",
+             waarom=[None, None, None]),
+        dict(aanpak="Bij toestemming gaat het niet alleen om het woord ja, maar om de drie voorwaarden "
+                    "samen. Valt er één weg, dan is er geen toestemming.",
+             waarom=[
+                 None,
+                 "Toestemming moet vrijwillig zijn. Een ja uit schrik of onder druk is geen echte ja.",
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-eerste-hulp-bij-ongevallen-spark"] = dict(
+    reeksen=[
+        dict(aanpak="De vier stappen staan altijd in dezelfde volgorde. Leer ze als een rijtje, dan "
+                    "weet je bij een echt ongeval waar je moet beginnen.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "De centralist legt neer, niet jij. Hij kan nog vragen stellen of je zeggen wat je "
+                 "ondertussen moet doen.",
+             ]),
+        dict(aanpak="Loop bij elke situatie de vier stappen af en begin bij veiligheid. Pas daarna kijk "
+                    "je naar het slachtoffer.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Je blijft erbij en kijkt of de ademhaling doorgaat. Laat iemand anders halen wat nodig "
+                 "is.",
+                 "Iemand die niet goed bij bewustzijn is, kan zich verslikken. Geef nooit eten of drinken.",
+             ]),
+        dict(aanpak="Luister naar het geluid: wie luid hoest of kan praten, krijgt nog lucht. Wie "
+                    "plots stil valt, niet meer.",
+             waarom=[
+                 None,
+                 None,
+                 "Bij een baby geef je rugslagen en borststoten, geen buikstoten: de organen in de buik "
+                 "zijn daar te kwetsbaar voor.",
+             ]),
+        dict(aanpak="Elke wonde heeft haar eigen eerste handeling. Leer die per soort, want ze "
+                    "verschillen echt van elkaar.",
+             waarom=[
+                 None,
+                 "Vastgekleefde kleding laat je zitten: eraan trekken scheurt de huid mee. Je koelt er "
+                 "gewoon overheen.",
+                 "Een koelzak rechtstreeks op de huid kan vriesletsel geven. Altijd een doek ertussen.",
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-democratie-en-dictatuur-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Hou de drie machten uit elkaar met één werkwoord per macht: maken, uitvoeren, "
+                    "oordelen.",
+             waarom=[None, None, None]),
+        dict(aanpak="Zoek bij elke situatie welke regel geschonden wordt, niet wat je ervan vindt. "
+                    "Noem het principe met zijn naam.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Let op: niet alles wat er democratisch uitziet, ís het. Kijk of de macht echt "
+                    "gecontroleerd wordt en of ze kan wisselen.",
+             waarom=[
+                 "Een dictatuur houdt soms verkiezingen om er wettig uit te zien, maar er is maar één "
+                 "partij of de uitslag ligt op voorhand vast.",
+                 None,
+                 "In België worden rechters benoemd, niet verkozen. Dat is net de bedoeling: zo staan ze "
+                 "los van de politiek en van wie net populair is.",
+                 None,
+             ]),
+        dict(aanpak="Een recht is wat jou toekomt, een plicht is wat van jou gevraagd wordt. En "
+                    "inspraak is meepraten, niet beslissen.",
+             waarom=[
+                 None,
+                 "Inspraak wil zeggen dat je mening gehoord wordt en meetelt. Wie beslist, kan er na "
+                 "afweging toch anders over beslissen, maar legt dan wel uit waarom.",
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-hoe-belgie-bestuurd-wordt-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Elk niveau heeft hetzelfde patroon: een raad die beslist en stemt, en een bestuur "
+                    "dat uitvoert. Leer het patroon, dan heb je alle vier.",
+             waarom=[
+                 None,
+                 None,
+                 "Brussel is een gewest op zich en hoort bij geen enkele provincie.",
+                 "De gouverneur wordt benoemd door de Vlaamse Regering. Verkozen wordt de provincieraad.",
+             ]),
+        dict(aanpak="Vraag je af wie dat in de praktijk doet: de mensen van je gemeente, of een dienst "
+                    "voor heel het land?",
+             waarom=[None, None, None]),
+        dict(aanpak="De vuistregel: gaat het over mensen, taal en cultuur, dan is het de gemeenschap. "
+                    "Gaat het over de grond en wat erop staat, dan is het het gewest.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "Een decreet heeft dezelfde kracht als een federale wet. Ze gelden gewoon op een ander "
+                 "gebied, niet boven of onder elkaar.",
+             ]),
+        dict(aanpak="Let op het verschil tussen wie je verkiest en wie daarna benoemd of aangeduid "
+                    "wordt.",
+             waarom=[
+                 "Je stemt op de gemeenteraad. De partijen die samen een meerderheid vormen, dragen "
+                 "daarna een burgemeester voor, die benoemd wordt.",
+                 None,
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-economische-kringloop-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Teken bij elke vraag twee pijlen: één voor wat er geleverd wordt en één voor het "
+                    "geld, in de andere richting.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "De overheid hoort er wel bij: ze haalt belastingen op, betaalt lonen en uitkeringen en "
+                 "koopt zelf ook. Dat zijn evengoed stromen.",
+             ]),
+        dict(aanpak="Zoek bij elke beschrijving wat er precies gebeurt: wordt er gekocht, bewaard, "
+                    "gemaakt, verkocht of geteld?",
+             waarom=[None, None, None]),
+        dict(aanpak="De vier sectoren volgen de weg van een product: uit de grond halen, bewerken, "
+                    "verkopen of vervoeren, en daarnaast de diensten van de overheid.",
+             waarom=[None, None, None]),
+        dict(aanpak="Vraag je bij een goed af wie het gebruikt: een gezin om zelf te verbruiken, of een "
+                    "bedrijf om er iets mee te maken?",
+             waarom=[
+                 None,
+                 None,
+                 "Een vzw mag wel degelijk personeel in dienst nemen. Het verschil is dat de winst niet "
+                 "naar de leden gaat maar naar het doel van de organisatie.",
+             ]),
+        dict(aanpak="Deel de uitgaven in op twee vragen: komt ze elke maand terug, en kon je ze zien "
+                    "aankomen?",
+             waarom=[None, None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-overheid-in-de-economie-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je af in welke richting het geld gaat: naar de overheid toe is een inkomst, "
+                    "van de overheid weg is een uitgave.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Er zijn verschillende btw-tarieven. Op basisvoeding staat een laag tarief, op de meeste "
+                 "andere producten het hoogste.",
+             ]),
+        dict(aanpak="Schrijf bij elke rekenvraag eerst op wat je weet en wat je zoekt. Een procent is "
+                    "altijd een deel van honderd.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Zoek bij elke situatie waar het verschil vandaan komt: uit geld, uit gezondheid, "
+                    "uit opleiding of uit hoe iemand behandeld wordt.",
+             waarom=[None, None, None]),
+        dict(aanpak="Eén vraag beslist: valt je inkomen weg (vervangend) of komt er iets bij je inkomen "
+                    "(aanvullend)?",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "De sociale zekerheid wordt vooral betaald met bijdragen van werknemers en werkgevers; "
+                 "de overheid legt bij. Dat is het solidariteitsprincipe.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-ik-beheer-mijn-financien-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je bij elke behoefte af: heb ik dit nodig, of wil ik het omdat iemand het mij "
+                    "wil doen willen?",
+             waarom=[None, None, None]),
+        dict(aanpak="Schrijf bij een rekenvraag de bewerking op en zet de eenheid erbij. Zo zie je zelf "
+                    "of je antwoord kan kloppen.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Bij een lening kijk je nooit naar het maandbedrag alleen, maar naar wat je in "
+                    "totaal terugbetaalt.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Hoe langer je erover doet, hoe meer maanden er rente bij komt. Het maandbedrag is "
+                 "lager, maar het totaal hoger.",
+                 None,
+             ]),
+        dict(aanpak="Let bij een betaalmiddel op het moment waarop het geld van je rekening gaat: "
+                    "vooraf, meteen, of later.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Het herroepingsrecht geldt voor een aankoop bij een handelaar op afstand. Koop je van "
+                 "een particulier, dan heb je die veertien dagen niet.",
+             ]),
+        dict(aanpak="De regel bij fraude is altijd dezelfde: je klikt niet op hun link en je belt niet "
+                    "hun nummer, maar je gaat zelf naar een kanaal dat je al kende.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Zonder aangifte heb je geen dossier, en zonder dossier kan de bank je meestal niet "
+                 "vergoeden. Het helpt de politie ook om verbanden te zien.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-digitaal-communiceren-en-bestanden-beheren-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Kies je kanaal naar wat je nodig hebt: snel heen en weer, een formele vraag, of "
+                    "iets dat bijgehouden moet worden.",
+             waarom=[None, None]),
+        dict(aanpak="Een mail heeft vier vaste delen: onderwerp, aanhef, inhoud en slotgroet. Schrijf ze "
+                    "in die volgorde, dan vergeet je er geen.",
+             waarom=[
+                 "De onderwerpregel is wat de ontvanger als eerste ziet in een volle inbox. Vaag of leeg "
+                 "betekent later gelezen.",
+                 None,
+                 None,
+                 None,
+                 "CC is in kopie, en iedereen ziet elkaars adres. BCC is in blinde kopie: de andere "
+                 "ontvangers zien dat adres niet.",
+                 None,
+             ]),
+        dict(aanpak="De vuistregel online is dezelfde als in de klas: zou je dit ook zo zeggen als de "
+                    "ander voor je stond?",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Een goede structuur gaat van algemeen naar specifiek, en een goede bestandsnaam "
+                    "vertelt zelf wat erin zit.",
+             waarom=[None, None, None, None, None, None]),
+        dict(aanpak="Onthoud de richting: uploaden gaat van jou naar de server, downloaden van de "
+                    "server naar jou.",
+             waarom=[
+                 None,
+                 "Een kopie op dezelfde computer verdwijnt mee bij diefstal, brand of een defecte schijf. "
+                 "Een back-up hoort op een ander toestel of in de cloud.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-word-excel-powerpoint-en-veilig-online-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je af waarop de opmaak werkt: op losse letters (teken), op een hele alinea, "
+                    "of op het hele blad (pagina).",
+             waarom=[None, None, None, None, None, None]),
+        dict(aanpak="Leer de vier niveaus van Excel in volgorde: cel, bereik, werkblad, werkmap. Een "
+                    "formule begint altijd met een gelijkheidsteken.",
+             waarom=[
+                 None,
+                 "Eerst de kolomletter, dan het rijnummer: D7, nooit 7D.",
+                 None,
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Een dia is je spiekbriefje voor het publiek, niet je tekst. Steekwoorden op het "
+                    "scherm, de uitleg bij jou.",
+             waarom=[None, None]),
+        dict(aanpak="Deze woorden lijken op elkaar. Zoek bij elk wat er precies gedeeld wordt en met "
+                    "welke bedoeling.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Doorsturen is zelf verspreiden, en dat is strafbaar, ook al heb je de foto niet "
+                 "gemaakt. Je stuurt niet door, je bewaart niet, je meldt.",
+                 None,
+             ]),
+        dict(aanpak="De vier vormen van fraude verschillen alleen in het kanaal: mail, sms, QR-code of "
+                    "telefoon. De truc erachter is telkens dezelfde.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 None,
+             ]),
+    ],
+)
