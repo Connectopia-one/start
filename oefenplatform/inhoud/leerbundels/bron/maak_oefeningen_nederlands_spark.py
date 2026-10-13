@@ -968,3 +968,391 @@ if __name__ == "__main__":
     for naam, b in OEFENBUNDELS.items():
         oefenbundel.schrijf(b, naam)
         print("  ", naam)
+
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-onderwerp-hoofdgedachte-en-hoofdpunten-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Onthoud het verschil aan de vorm: het onderwerp is een woordgroep (waarover gaat "
+                    "het?), de hoofdgedachte is een hele zin (wat zegt de tekst daarover?).",
+             waarom=[
+                 "Staat er een werkwoord in en kan de zin op zichzelf staan, dan is het een "
+                 "hoofdgedachte. Een losse woordgroep zonder werkwoord is het onderwerp.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Lees de tekst twee keer: eerst om te weten waarover hij gaat, dan om per alinea "
+                    "het hoofdpunt te zoeken. Een hoofdpunt draagt de hoofdgedachte, een detail licht "
+                    "een hoofdpunt alleen toe.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Een detail licht een hoofdpunt toe. Haal je het weg, dan blijft de redenering "
+                 "overeind; haal je een hoofdpunt weg, dan niet.",
+             ]),
+        dict(aanpak="Noteer kernwoorden, geen hele zinnen, en schrijf mee terwijl je luistert. Gebruik "
+                    "pijlen en tekens voor de verbanden.",
+             waarom=[None, None, None]),
+        dict(aanpak="Probeer eerst zelf: kijk naar de delen waaruit het woord bestaat en naar de zin "
+                    "eromheen. Pas als dat niets oplevert, zoek je het op.",
+             waarom=[
+                 None,
+                 "Een hoofdpunt draagt de hoofdgedachte mee. Valt het weg, dan klopt je samenvatting "
+                 "niet meer.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-tekstsoorten-en-het-communicatiemodel-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je bij elke tekst af wat de maker wil: informeren, overtuigen, iets laten "
+                    "doen (instructie), of vertellen en ontroeren. Dat doel bepaalt de tekstsoort.",
+             waarom=[
+                 None,
+                 "Een partijfolder wil je stem winnen. Er staan wel feiten in, maar ze zijn gekozen om "
+                 "te overtuigen.",
+                 "De meeste teksten hebben één hoofddoel en daarnaast nog andere. Een reclamespot kan "
+                 "tegelijk informeren en vermaken.",
+                 None,
+             ]),
+        dict(aanpak="Loop het model telkens in dezelfde volgorde af: wie zegt wat, tegen wie, waarlangs, "
+                    "met welk doel, en in welke situatie.",
+             waarom=[None, None, None]),
+        dict(aanpak="Kijk naar drie dingen: de aanspreking, de werkwoordsvorm (een gebiedende wijs wijst "
+                    "op een instructie) en de opbouw van de tekst.",
+             waarom=[
+                 None,
+                 None,
+                 "Je herkent zo'n filmpje meestal aan een klein woordje als advertentie of "
+                 "samenwerking, en aan het feit dat er geen enkel nadeel in staat.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-feiten-meningen-en-betrouwbaarheid-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Toets elke zin met één vraag: kan ik dit nagaan, en zou iedereen dan tot hetzelfde "
+                    "antwoord komen? Zo ja, een feit. Zo nee, een mening.",
+             waarom=[
+                 "Getallen en namen kan je nakijken. Woorden als gezelligste en veel te strak kan je "
+                 "niet nakijken: daar kan iemand anders anders over denken.",
+                 None,
+                 "Een mening onderbouw je met feiten, cijfers en voorbeelden. Een stapel meningen maakt "
+                 "een mening niet sterker.",
+             ]),
+        dict(aanpak="Stel vier vragen bij elke bron: wie schreef het, wanneer, waarop steunt het, en "
+                    "wat wil de maker ermee bereiken?",
+             waarom=[
+                 None,
+                 None,
+                 "Een mooie website maken kost vandaag bijna niets. Het uitzicht zegt dus niets over de "
+                 "inhoud; de auteur en de bronnen wel.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Een standpunt zegt wat je vindt, een argument zegt waarom. Zit er geen waarom in, "
+                    "dan is het geen argument.",
+             waarom=[
+                 None,
+                 None,
+                 "Wie de nadelen zelf benoemt en weerlegt, komt net sterker over. Een lezer die het "
+                 "nadeel zelf bedenkt, voelt zich misleid.",
+                 None,
+             ]),
+        dict(aanpak="Let op zinnen die van een hele groep één persoon maken. Woorden als alle, altijd "
+                    "of de jongeren zijn daarvan vaak het teken.",
+             waarom=[None, None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-tekststructuur-en-signaalwoorden-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Zoek bij elk signaalwoord het verband zelf, niet een voorbeeldzin: reden, gevolg, "
+                    "tegenstelling, voorbeeld, opsomming, samenvatting of voorwaarde.",
+             waarom=[
+                 None,
+                 None,
+                 "Sommige woorden kondigen meer dan één verband aan. Als kan een voorwaarde zijn (als "
+                 "het regent) of een vergelijking (zo groot als).",
+             ]),
+        dict(aanpak="Lees de twee zinnen na elkaar en vraag je af wat de tweede met de eerste doet: ze "
+                    "verklaren, tegenspreken, aanvullen, of er een gevolg uit trekken.",
+             waarom=[
+                 None,
+                 None,
+                 "Een verwijswoord moet terugslaan op iets dat er al staat. Vind je dat niet, dan heeft "
+                 "de schrijver iets laten liggen, en ligt het niet aan jou.",
+             ]),
+        dict(aanpak="Drie delen: de inleiding zet het onderwerp neer, het midden werkt het uit, het "
+                    "slot vat samen. De signaalwoorden verraden waar in de tekst je zit.",
+             waarom=[
+                 None,
+                 None,
+                 "In het slot vat je samen wat je al gezegd hebt. Een nieuw argument daar laat de lezer "
+                 "met een onafgewerkte gedachte achter.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Zoek eerst de zin die op zichzelf kan staan (de inleiding) en de zin met kortom of "
+                    "dus (het slot). Wat overblijft, is het midden.",
+             waarom=[None, None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-schrijven-spreken-en-gesprekken-voeren-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Begin nooit meteen te schrijven. Zet eerst drie dingen vast: je doel, je publiek "
+                    "en de volgorde van wat je wil zeggen.",
+             waarom=[None, None, None]),
+        dict(aanpak="Schrijf eerst een ruwe versie en verbeter pas daarna. Wie meteen mooi wil "
+                    "schrijven, raakt niet vooruit.",
+             waarom=[None, None]),
+        dict(aanpak="Het register zit in drie dingen: de aanhef, de slotgroet en de woordkeuze. Die "
+                    "drie horen bij elkaar te passen.",
+             waarom=[
+                 None,
+                 "Een formele brief sluit je af met met vriendelijke groeten of hoogachtend. Groetjes "
+                 "hoort bij vrienden.",
+                 None,
+             ]),
+        dict(aanpak="Spreken en gesprekken voeren leer je niet uit het hoofd. Bereid kernwoorden voor "
+                    "en oefen hardop.",
+             waarom=[
+                 None,
+                 None,
+                 "Een gesprek rond je af: je zegt dat je verder moet, bedankt de ander, of spreekt af "
+                 "wanneer jullie verder praten.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-register-taalvariatie-en-non-verbale-communicatie-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Zet de vier op een lijn: dialect is streekgebonden, tussentaal zit ertussen, "
+                    "standaardtaal is overal begrijpelijk, en jargon is de vaktaal van een beroep.",
+             waarom=[
+                 None,
+                 None,
+                 "Standaardtaal is niet één vaste vorm. Vlaanderen en Nederland hebben elk hun eigen "
+                 "woorden en uitspraak binnen diezelfde standaardtaal.",
+                 "Spreken en schrijven zijn twee verschillende dingen. Wie thuis tussentaal spreekt, "
+                 "kan perfect foutloos schrijven.",
+             ]),
+        dict(aanpak="Kies je register naar de ontvanger en de situatie, niet naar hoe je je op dat "
+                    "moment voelt.",
+             waarom=[None, None, None]),
+        dict(aanpak="Let bij elk voorbeeld op wat er naast de woorden meespeelt: de blik, de toon, de "
+                    "houding, de afstand, en in een bericht ook de leestekens.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "In een formele mail blijft de toon zakelijk. Vriendelijk word je er met je woorden, "
+                 "niet met een smiley.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-literatuur-en-beeldspraak-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Vier vaste begrippen om over elk verhaal te praten: personages, ruimte, tijd en "
+                    "verhaallijn. Gebruik die woorden ook echt in je antwoord.",
+             waarom=[
+                 None,
+                 None,
+                 "De ik in een verhaal is een verteller, niet noodzakelijk de schrijver. Een schrijver "
+                 "kan ik zeggen als een kind, een dier of net de bedrieger.",
+             ]),
+        dict(aanpak="Vraag je bij elke zin af of ze ook letterlijk kan kloppen. Kan dat niet, dan is ze "
+                    "figuurlijk en zoek je wat er werkelijk bedoeld wordt.",
+             waarom=[
+                 None,
+                 "Staat er zo … als of lijkt op, dan is het een vergelijking. Staat er is, dan wordt "
+                 "het ene het andere genoemd, en dat klinkt sterker.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Een mening over een boek wordt pas sterk als je erbij zegt wáár in het boek en "
+                    "waarom. Mooi of saai op zich zegt niets.",
+             waarom=[
+                 "Goed en saai zeggen alleen hoe jij je voelde. Pas als je erbij zet welk stuk en "
+                 "waarom, kan een ander er iets mee.",
+                 None,
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-spelling-leestekens-en-werkwoordsvormen-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Zoek eerst het onderwerp, want dat bepaalt de vorm. En staat jij áchter het "
+                    "werkwoord, dan valt de t weg.",
+             waarom=[
+                 None,
+                 None,
+                 "Je hoort het verschil niet: wordt en word klinken gelijk. Daarom moet je hier de "
+                 "regel toepassen en kan je niet op je oor afgaan.",
+             ]),
+        dict(aanpak="Zoek de stam en luister naar de laatste klánk. Zit die in 't kofschip, dan -te en "
+                    "-t. In alle andere gevallen -de en -d.",
+             waarom=[
+                 None,
+                 None,
+                 "Een voltooid deelwoord eindigt op -t of -d, nooit op -dt. Die -dt bestaat alleen bij "
+                 "een persoonsvorm, zoals hij wordt.",
+                 None,
+             ]),
+        dict(aanpak="Lees de zin hardop. Waar je een pauze hoort, staat meestal een leesteken, en waar "
+                    "je stem omhooggaat een vraagteken.",
+             waarom=[
+                 None,
+                 "Taalnamen en plaatsnamen krijgen een hoofdletter, net als een bijvoeglijk naamwoord "
+                 "dat ervan afgeleid is (Franse). Dagen en maanden krijgen er geen.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Pas op met de woordparen die je wel hoort maar niet ziet: liggen en leggen, hun en "
+                    "hen, dan en als.",
+             waarom=[
+                 None,
+                 None,
+                 "Leggen doe je met iets: je legt een boek ergens neer. Liggen doet iets zelf: het boek "
+                 "ligt er. Leggen heeft dus altijd een voorwerp bij zich.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordsoorten-en-woordvorming-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Een woordsoort bepaal je niet aan het woord zelf maar aan wat het in díe zin "
+                    "doet. Kijk dus altijd naar de zin errond.",
+             waarom=[
+                 None,
+                 None,
+                 "Deze en die wijzen aan, ze bezitten niets. Bezittelijk zijn mijn, jouw, zijn, haar, "
+                 "ons en jullie.",
+             ]),
+        dict(aanpak="Bij een woord dat van soort verandert, zet je naast elkaar wat het in de twee "
+                    "zinnen doet. Dát verschil is het antwoord.",
+             waarom=[
+                 None,
+                 "Een vuistregel: hoort het bij een zelfstandig naamwoord, dan is het bijvoeglijk; "
+                 "hoort het bij het werkwoord, dan is het een bijwoord.",
+                 None,
+             ]),
+        dict(aanpak="Een samenstelling plakt twee hele woorden aan elkaar (voetbal + club). Een "
+                    "afleiding plakt een stukje dat zelf geen woord is voor of achter een woord "
+                    "(on-, -er, -schap).",
+             waarom=[
+                 None,
+                 None,
+                 "Dit is waarom woordvorming handig is: uit de delen van een woord dat je nooit zag, "
+                 "kan je de betekenis zelf bouwen.",
+             ]),
+        dict(aanpak="Twee dingen die op elkaar lijken maar het omgekeerde zijn: bij een homoniem is de "
+                    "vórm gelijk en de betekenis verschillend, bij synoniemen de betekenis gelijk en de "
+                    "vorm verschillend.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Echte synoniemen bestaan bijna niet: er zit altijd een nuance tussen. Je kiest dus "
+                 "niet alleen voor de afwisseling maar ook om het juister te zeggen.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-zinsdelen-zinssoorten-en-congruentie-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Zoek altijd in deze orde: eerst de persoonsvorm (zet de zin in een andere tijd, "
+                    "dat ene woord dat meeverandert), dan het onderwerp, dan de rest.",
+             waarom=[
+                 None,
+                 None,
+                 "Dat kan je juist bij een meewerkend voorwerp: aan onze buren. Kan je er aan of voor "
+                 "bij zetten, dan is het niet het lijdend voorwerp.",
+             ]),
+        dict(aanpak="De zinssoort lees je af aan wat de zin dóet: iets meedelen, iets vragen, iets "
+                    "bevelen of iets uitroepen. Het leesteken achteraan helpt.",
+             waarom=[
+                 None,
+                 None,
+                 "Een bevelende zin begint met de persoonsvorm en laat het onderwerp meestal weg: "
+                 "Sluit het raam. Jij staat er niet bij.",
+             ]),
+        dict(aanpak="Tel de persoonsvormen, niet de werkwoorden: hebben, worden en zijn horen soms bij "
+                    "één persoonsvorm.",
+             waarom=[None, None]),
+        dict(aanpak="Congruentie betekent dat onderwerp en persoonsvorm bij elkaar passen in getal. "
+                    "Zoek dus eerst het onderwerp, en laat je niet misleiden door een woord dat "
+                    "dichterbij staat.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-begrijpend-lezen-de-smartphone-op-school-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Lees de tekst eerst één keer helemaal door zonder te schrijven, en pas daarna met "
+                    "de vragen ernaast. Zo weet je al waar iets staat.",
+             waarom=[]),
+        dict(aanpak="Deze antwoorden staan letterlijk in de tekst. Zoek de alinea en schrijf over wat "
+                    "er staat, zonder er iets bij te verzinnen.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Hier staat het antwoord niet in één zin. Zeg wat je eruit leidt én uit welke zin, "
+                    "want dat tweede is de helft van het antwoord.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 "Een feit is iets wat iemand kan nagaan. Een aantal sporters kan je tellen; of "
+                 "leerlingen beter opletten, kan je niet zomaar natellen.",
+                 None,
+                 "De directeur zegt zelf dat hij er geen cijfers over heeft. De tekst laat die vraag "
+                 "dus open, en dan mag jij ze ook niet dichtdoen.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-begrijpend-lezen-hoe-de-fiets-werd-wat-hij-is-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Lees de tekst eerst één keer helemaal door zonder te schrijven, en pas daarna met "
+                    "de vragen ernaast. Zo weet je al waar iets staat.",
+             waarom=[]),
+        dict(aanpak="Deze antwoorden staan in de tekst. Bij een waarom-vraag mag je de uitleg van de "
+                    "tekst in je eigen woorden zetten, maar niets toevoegen.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Let hier op het verschil tussen wat er gebeurde en waaróm het gebeurde. Zeg bij "
+                    "elk antwoord uit welke zin je het haalt.",
+             waarom=[
+                 None,
+                 None,
+                 "Veiliger alleen volstond niet. Pas toen de lage fiets ook sneller werd, verloor de "
+                 "hoge fiets zijn enige voordeel.",
+                 None,
+                 None,
+                 None,
+                 "Een feit kan je nagaan, een interpretatie is wat de schrijver uit dat feit haalt. Het "
+                 "jaartal staat vast; of dat woord alles zegt, is zijn mening.",
+             ]),
+    ],
+)
