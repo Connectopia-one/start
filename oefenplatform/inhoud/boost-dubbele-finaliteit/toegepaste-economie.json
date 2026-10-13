@@ -108,15 +108,14 @@
           "opties": [
             "de balans",
             "de resultatenrekening",
-            "de toelichting",
+            "het kasboek",
             "het uurrooster van het personeel"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie delen. Het uurrooster hoort bij de personeelsadministratie."
+          "uitleg": "De balans en de resultatenrekening vormen samen met de toelichting de jaarrekening. Het uurrooster hoort bij de personeelsadministratie en een kasboek is een hulpboek."
         },
         {
           "type": "meerkeuze",
@@ -194,12 +193,14 @@
             "bijsturen waar het misloopt",
             "een investering plannen",
             "een prijs herbekijken",
-            "het weer voorspellen"
+            "het weer voorspellen",
+            "de bank overtuigen van een lening"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een boekhouding kijkt terug, maar wordt vooral gebruikt om vooruit te beslissen."
         },
@@ -273,15 +274,14 @@
           "opties": [
             "het journaal",
             "het grootboek",
-            "de inventaris",
+            "de jaarrekening van de klant",
             "de agenda van de zaakvoerder"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Journaal, grootboek en inventaris. De agenda hoort er niet bij."
+          "uitleg": "Het journaal, het grootboek en de inventaris horen bij de dubbele boekhouding. De agenda van de zaakvoerder en de cijfers van een klant horen er niet bij."
         },
         {
           "type": "invultekst",
@@ -348,14 +348,16 @@
             "welke rekeningen zijn betrokken",
             "stijgen of dalen ze",
             "debet of credit",
-            "wie heeft de factuur getekend"
+            "wie heeft de factuur getekend",
+            "met welk bedrag"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Drie vragen na elkaar. Wie getekend heeft, verandert niets aan de boeking."
+          "uitleg": "Je gaat stap voor stap na welke rekeningen betrokken zijn, of ze stijgen of dalen, aan welke kant ze komen en met welk bedrag. Wie getekend heeft, verandert niets aan de boeking."
         },
         {
           "type": "meerkeuze",
@@ -419,17 +421,16 @@
           "type": "meerkeuze",
           "vraag": "Wat hoort bij een boeking in het journaal?",
           "opties": [
-            "de datum",
+            "de naam van de boekhouder",
             "het rekeningnummer",
             "het bedrag in debet of credit",
             "de naam van de klant altijd"
           ],
           "antwoord": [
-            0,
             1,
             2
           ],
-          "uitleg": "De naam van de klant staat op het document, niet noodzakelijk in de boeking."
+          "uitleg": "Een boeking in het journaal heeft een datum, een rekeningnummer en een bedrag in debet of credit. De naam van de klant staat op het document en de naam van de boekhouder hoeft er niet bij."
         },
         {
           "type": "meerkeuze",
@@ -548,15 +549,14 @@
           "opties": [
             "een gebouw",
             "een machine",
-            "een bestelwagen",
+            "het geld in de kas",
             "de voorraad handelsgoederen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De voorraad is een vlottend actief: ze is bedoeld om snel weer te verkopen."
+          "uitleg": "Gebouwen en machines blijven jaren in de zaak, net als een bestelwagen. De voorraad en het geld in de kas zijn vlottende activa: die wisselen snel."
         },
         {
           "type": "meerkeuze",
@@ -623,12 +623,14 @@
             "het kapitaal",
             "de schuld aan de leveranciers",
             "een lening bij de bank",
-            "de bestelwagen van de zaak"
+            "de bestelwagen van de zaak",
+            "de te betalen btw"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De bestelwagen is bezit en staat links, bij de vaste activa."
         },
@@ -662,15 +664,14 @@
           "opties": [
             "wat de zaak bezit",
             "wie de zaak gefinancierd heeft",
-            "hoe groot het eigen vermogen is",
+            "hoeveel winst er volgend jaar komt",
             "hoeveel klanten er geweest zijn"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het aantal klanten staat nergens op de balans."
+          "uitleg": "De balans toont wat de zaak bezit, wie dat gefinancierd heeft en hoe groot het eigen vermogen is. Het aantal klanten en de winst van volgend jaar staan er niet op."
         },
         {
           "type": "invultekst",
@@ -777,12 +778,14 @@
             "de lonen",
             "de huur van het pand",
             "de aankoop van handelsgoederen",
-            "de verkoop van handelsgoederen"
+            "de verkoop van handelsgoederen",
+            "de verzekering van het pand"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De verkoop is een opbrengst, geen kost."
         },
@@ -849,15 +852,14 @@
           "opties": [
             "het bedrijfsresultaat",
             "het financieel resultaat",
-            "het resultaat van de onderneming",
+            "het resultaat van vorig jaar",
             "het resultaat van de concurrent"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie resultaten na elkaar. Wat de concurrent doet, staat niet in jouw boekhouding."
+          "uitleg": "Je berekent eerst het bedrijfsresultaat, dan het financieel resultaat en daarna het resultaat van de onderneming. Wat de concurrent of vorig jaar deed, staat niet in deze oefening."
         },
         {
           "type": "meerkeuze",
@@ -890,12 +892,14 @@
             "de verkoop van handelsgoederen",
             "ontvangen intresten",
             "een ontvangen huurgeld",
-            "een betaalde factuur van de leverancier"
+            "een betaalde factuur van de leverancier",
+            "een ontvangen dividend"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een betaalde factuur van een leverancier is een kost."
         },
@@ -1004,12 +1008,14 @@
             "klasse 1",
             "klasse 2",
             "klasse 5",
-            "klasse 7"
+            "klasse 7",
+            "klasse 3"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Klassen 1 tot 5 staan op de balans, klassen 6 en 7 in de resultatenrekening."
         },
@@ -1077,15 +1083,14 @@
           "opties": [
             "klasse 6 zijn de kosten",
             "klasse 7 zijn de opbrengsten",
-            "klassen 1 tot 5 staan op de balans",
+            "klasse 5 zijn de kosten",
             "er zijn tien klassen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Zeven klassen, geen tien."
+          "uitleg": "Klasse 6 zijn de kosten en klasse 7 de opbrengsten; klassen 1 tot 5 staan op de balans, met klasse 5 voor de geldmiddelen. Er zijn zeven klassen, geen tien."
         },
         {
           "type": "meerkeuze",
@@ -1117,15 +1122,14 @@
           "opties": [
             "400 Handelsdebiteuren",
             "440 Leveranciers",
-            "de btw-rekeningen",
+            "550 Kredietinstellingen",
             "604 Aankopen handelsgoederen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "604 staat in klasse 6, bij de kosten."
+          "uitleg": "Klasse 4 zijn de vorderingen en de schulden op ten hoogste één jaar: handelsdebiteuren, leveranciers en de btw-rekeningen. 550 staat in klasse 5 en 604 in klasse 6."
         },
         {
           "type": "invultekst",
@@ -1243,12 +1247,14 @@
             "het rekeningnummer",
             "het bedrag",
             "de kant, debet of credit",
-            "de soort rekening, A of P"
+            "de soort rekening, A of P",
+            "de naam van de rekening"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De soort rekening mag je invullen om te redeneren, maar ze wordt niet beoordeeld."
         },
@@ -1302,15 +1308,14 @@
           "opties": [
             "het document lezen",
             "nagaan wat er gebeurd is",
-            "de bedragen controleren",
+            "de jaarrekening opmaken",
             "de balans opnieuw maken"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Eerst begrijpen wat er gebeurd is, dan pas het redeneerschema invullen."
+          "uitleg": "Eerst het document lezen en begrijpen wat er gebeurd is, en de bedragen nakijken; dan pas het redeneerschema invullen. De balans en de jaarrekening komen veel later."
         },
         {
           "type": "meerkeuze",
@@ -1331,12 +1336,14 @@
             "een klant betaalt via overschrijving",
             "je betaalt een leverancier via de bank",
             "de bank rekent kosten aan",
-            "je koopt goederen op krediet aan"
+            "je koopt goederen op krediet aan",
+            "je haalt geld van de bank naar de kas"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een aankoop op krediet raakt de bank pas op het moment dat je betaalt."
         },
@@ -1457,12 +1464,14 @@
             "de prijsaanvraag",
             "de offerte",
             "de bestelbon",
-            "het loonbriefje"
+            "het loonbriefje",
+            "de aankoopfactuur"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het loonbriefje hoort bij de personeelsadministratie."
         },
@@ -1529,15 +1538,14 @@
           "opties": [
             "handelsgoederen",
             "diensten en diverse goederen",
-            "investeringen",
+            "verkopen op krediet",
             "giften aan het personeel"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie soorten, elk met hun eigen rekening in het MAR."
+          "uitleg": "Handelsgoederen en diensten en diverse goederen zijn twee soorten aankopen, naast de investeringen; elk heeft zijn eigen rekening in het MAR. Giften en verkopen horen er niet bij."
         },
         {
           "type": "meerkeuze",
@@ -1570,12 +1578,14 @@
             "de offerte",
             "de bestelbon",
             "de leverbon",
-            "de btw-aangifte"
+            "de btw-aangifte",
+            "de prijsaanvraag"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De btw-aangifte komt pas later, op basis van alle facturen samen."
         },
@@ -1695,15 +1705,14 @@
           "opties": [
             "de handelskorting",
             "de financiële korting",
-            "een korting voor een grote bestelling",
+            "de btw zelf",
             "de aankoopkosten voor vervoer"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Kosten worden juist bijgeteld, niet afgetrokken."
+          "uitleg": "Een handelskorting, een financiële korting en een korting voor een grote bestelling gaan er eerst af; op wat overblijft reken je de btw. Kosten voor vervoer worden juist bijgeteld."
         },
         {
           "type": "meerkeuze",
@@ -1781,12 +1790,14 @@
             "het bedrag zonder btw",
             "het btw-bedrag",
             "het te betalen totaal",
-            "het loon van de verkoper"
+            "het loon van de verkoper",
+            "het btw-tarief per artikel"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De maatstaf, de btw en het totaal. Het loon van de verkoper staat er niet op."
         },
@@ -1796,15 +1807,14 @@
           "opties": [
             "de hoeveelheid",
             "de eenheidsprijs",
-            "de berekende korting",
+            "de winst op de goederen",
             "de kleur van het papier"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "En het btw-tarief per artikel."
+          "uitleg": "Je kijkt de hoeveelheid, de eenheidsprijs, de berekende korting en het btw-tarief per artikel na. Wat jij later op die goederen verdient, staat niet op de factuur van je leverancier."
         },
         {
           "type": "invultekst",
@@ -1910,12 +1920,14 @@
             "de offerte",
             "de leverbon",
             "de verkoopfactuur",
-            "de btw-aangifte van de klant"
+            "de btw-aangifte van de klant",
+            "de creditnota bij een terugname"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Elke btw-plichtige doet zijn eigen aangifte."
         },
@@ -1983,15 +1995,14 @@
           "opties": [
             "het factuurnummer",
             "de datum",
-            "de btw-nummers",
+            "de handtekening van de klant",
             "de kleur van de doos"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Wettelijke vermeldingen. De verpakking doet er niet toe."
+          "uitleg": "Een factuurnummer, een datum en de btw-nummers van beide partijen zijn wettelijke vermeldingen. Een factuur hoeft niet getekend te worden, en de verpakking doet er niet toe."
         },
         {
           "type": "meerkeuze",
@@ -2024,12 +2035,14 @@
             "de offerte maken",
             "de goederen leveren",
             "de factuur sturen",
-            "de btw-aangifte van de klant invullen"
+            "de btw-aangifte van de klant invullen",
+            "de betaling opvolgen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De klant zorgt zelf voor zijn aangifte."
         },
@@ -2149,15 +2162,14 @@
           "opties": [
             "doorgerekend vervoer",
             "verpakking die niet terugkomt",
-            "de btw",
+            "de financiële korting",
             "een handelskorting"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een korting verlaagt het bedrag juist."
+          "uitleg": "Doorgerekend vervoer en verpakking die niet terugkomt verhogen het bedrag, en de btw komt er bovenop. Een handelskorting of een financiële korting verlaagt het juist."
         },
         {
           "type": "meerkeuze",
@@ -2222,15 +2234,14 @@
           "opties": [
             "de handelskorting",
             "de financiële korting",
-            "een korting bij een grote bestelling",
+            "een korting op de btw-aangifte",
             "een korting op het btw-tarief"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het btw-tarief ligt wettelijk vast, daar geef je geen korting op."
+          "uitleg": "De handelskorting, de financiële korting en een korting bij een grote bestelling kan je afspreken. Het btw-tarief ligt wettelijk vast, daar geef je geen korting op."
         },
         {
           "type": "meerkeuze",
@@ -2251,12 +2262,14 @@
             "de hoeveelheid",
             "de eenheidsprijs",
             "het btw-tarief",
-            "de naam van de vervoerder"
+            "de naam van de vervoerder",
+            "de afgesproken kortingen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "En de kortingen die afgesproken zijn."
         },
@@ -2364,15 +2377,14 @@
           "opties": [
             "de eindklant draagt ze",
             "een onderneming trekt haar aankoop-btw af",
-            "ze wordt per aangifte afgerekend",
+            "ze wordt per jaar betaald",
             "ze hangt af van de winst"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Btw hangt aan de omzet. Ook een zaak met verlies rekent btw af."
+          "uitleg": "De eindklant draagt de btw, en een onderneming trekt haar aankoop-btw af en rekent het verschil per aangifte af, meestal per kwartaal of per maand. Met de winst heeft ze niets te maken."
         },
         {
           "type": "meerkeuze",
@@ -2451,12 +2463,14 @@
             "het btw-nummer van de verkoper",
             "de datum",
             "het bedrag zonder btw en het btw-bedrag",
-            "de handtekening van de klant"
+            "de handtekening van de klant",
+            "het btw-nummer van de koper"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een factuur hoeft niet getekend te worden om geldig te zijn."
         },
@@ -2479,12 +2493,14 @@
             "een winkel",
             "een groothandel",
             "een zelfstandige loodgieter",
-            "een particulier die zijn fiets verkoopt"
+            "een particulier die zijn fiets verkoopt",
+            "een boekhouder met een eigen zaak"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een particulier is geen btw-plichtige."
         },
@@ -2629,15 +2645,14 @@
           "opties": [
             "81",
             "82",
-            "83",
+            "de datum van de factuur",
             "de naam van de leverancier"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "81 handelsgoederen, 82 diensten en diverse goederen, 83 bedrijfsmiddelen."
+          "uitleg": "Rooster 81 is voor handelsgoederen, 82 voor diensten en diverse goederen en 83 voor bedrijfsmiddelen. De naam van de leverancier en de datum van de factuur vul je niet in op de aangifte."
         },
         {
           "type": "waarofniet",
@@ -2692,12 +2707,14 @@
             "de omzet per tarief",
             "de aankopen per soort",
             "de aftrekbare btw",
-            "het aantal werknemers"
+            "het aantal werknemers",
+            "de te betalen btw"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het personeel hoort bij een heel andere aangifte."
         },
@@ -2706,16 +2723,15 @@
           "vraag": "Welke uitspraken over het btw-saldo zijn juist?",
           "opties": [
             "het kan te betalen zijn",
-            "het kan terug te vorderen zijn",
+            "het wordt met de winstbelasting verrekend",
             "het kan nul zijn",
             "het is altijd positief"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Alle drie komen voor, naargelang de aankopen en verkopen van die periode."
+          "uitleg": "Naargelang de aankopen en de verkopen van die periode kan het saldo te betalen of terug te vorderen zijn, en het kan ook nul uitkomen. Met de belasting op de winst heeft het niets te maken."
         },
         {
           "type": "invultekst",
@@ -2819,16 +2835,15 @@
           "vraag": "Welke rekeningen spelen mee bij een aankoop van handelsgoederen op krediet?",
           "opties": [
             "de aankopen handelsgoederen",
-            "de terug te vorderen btw",
+            "de te betalen btw",
             "de leveranciers",
             "de verkopen handelsgoederen"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "De verkopen komen pas aan bod als je de goederen weer buiten doet."
+          "uitleg": "Bij een aankoop op krediet boek je de aankopen handelsgoederen, de btw die je kan terugvorderen en de schuld aan de leverancier. De te betalen btw hoort bij een verkoop, en de verkopen komen pas aan bod als je de goederen weer buiten doet."
         },
         {
           "type": "meerkeuze",
@@ -2933,15 +2948,14 @@
           "opties": [
             "het bedrag zonder btw",
             "het btw-bedrag",
-            "het totaalbedrag",
+            "het nummer van de bestelbon",
             "het telefoonnummer van de leverancier"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie bedragen, en die vallen precies samen met de drie boekingsregels."
+          "uitleg": "Het bedrag zonder btw, het btw-bedrag en het totaal vallen precies samen met de drie boekingsregels. Het telefoonnummer van de leverancier en het nummer van de bestelbon boek je niet."
         },
         {
           "type": "invultekst",
@@ -3058,12 +3072,14 @@
             "een ontvangst van een klant",
             "een betaling aan een leverancier",
             "bankkosten",
-            "de voorraad in het magazijn"
+            "de voorraad in het magazijn",
+            "een overschrijving naar de kas"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een uittreksel gaat over geld, niet over goederen."
         },
@@ -3130,15 +3146,14 @@
           "opties": [
             "een bankrekeninguittreksel",
             "een kasticket",
-            "een ontvangstbewijs",
+            "een bestelbon",
             "een leverbon"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een leverbon gaat over goederen, niet over geld."
+          "uitleg": "Een bankrekeninguittreksel, een kasticket en een ontvangstbewijs gaan over geld. Een leverbon en een bestelbon gaan over goederen."
         },
         {
           "type": "meerkeuze",
@@ -3159,12 +3174,14 @@
             "550 Kredietinstellingen",
             "400 Handelsdebiteuren",
             "440 Leveranciers",
-            "604 Aankopen handelsgoederen"
+            "604 Aankopen handelsgoederen",
+            "de bankkosten"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De aankoop zelf stond al in de boeken. Op het uittreksel staat enkel de betaling."
         },
@@ -3270,16 +3287,15 @@
           "vraag": "Welke balansen komen aan bod op het einde van het jaar?",
           "opties": [
             "de voorlopige proef- en saldibalans",
-            "de definitieve proef- en saldibalans",
+            "de btw-aangifte van december",
             "de eindbalans",
             "de bestelbon"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Een bestelbon is geen balans, maar een aankoopdocument."
+          "uitleg": "De voorlopige en de definitieve proef- en saldibalans en de eindbalans komen op het einde van het jaar aan bod. Een bestelbon en een btw-aangifte zijn geen balansen."
         },
         {
           "type": "meerkeuze",
@@ -3345,12 +3361,14 @@
             "of debet en credit gelijk zijn",
             "of elke rekening een logisch saldo heeft",
             "of er geen boeking ontbreekt",
-            "of de klanten tevreden zijn"
+            "of de klanten tevreden zijn",
+            "of de saldi overeenkomen met het grootboek"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een kostenrekening met een creditsaldo verraadt bijvoorbeeld een fout."
         },
@@ -3384,15 +3402,14 @@
           "opties": [
             "ze toont de toestand op het einde van het boekjaar",
             "ze is in evenwicht",
-            "ze wordt de beginbalans van volgend jaar",
+            "ze telt de kosten en de opbrengsten op",
             "ze toont de kosten van het jaar"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De kosten staan in de resultatenrekening, niet op de balans."
+          "uitleg": "De eindbalans toont de toestand op het einde van het boekjaar, is in evenwicht en wordt de beginbalans van volgend jaar. De kosten en de opbrengsten staan in de resultatenrekening."
         },
         {
           "type": "invultekst",
@@ -3510,12 +3527,14 @@
             "de jaarlijkse afschrijvingen",
             "de regularisatie van schulden op meer dan een jaar",
             "de overdracht van het resultaat",
-            "de aankoop van nieuwe goederen"
+            "de aankoop van nieuwe goederen",
+            "de voorraadwijziging boeken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een aankoop is een gewone verrichting van tijdens het jaar."
         },
@@ -3582,15 +3601,14 @@
           "opties": [
             "de voorlopige proef- en saldibalans maken",
             "de eindejaarsverrichtingen boeken",
-            "de eindbalans opstellen",
+            "de btw-aangifte van januari maken",
             "een nieuwe leverancier zoeken"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "In die volgorde. Daartussen komt nog de definitieve proef- en saldibalans."
+          "uitleg": "Eerst de voorlopige proef- en saldibalans, dan de eindejaarsverrichtingen, dan de definitieve proef- en saldibalans en pas daarna de eindbalans. Een leverancier zoeken of de aangifte van januari maken hoort daar niet bij."
         },
         {
           "type": "meerkeuze",
@@ -3611,12 +3629,14 @@
             "een machine",
             "een bestelwagen",
             "een computer",
-            "de grond onder het gebouw"
+            "de grond onder het gebouw",
+            "een gebouw"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Grond slijt niet en wordt daarom niet afgeschreven."
         },
@@ -3722,15 +3742,14 @@
           "opties": [
             "vet en cursief",
             "de tekstkleur",
-            "klein kapitaal",
+            "de uitlijning",
             "de regelafstand"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Regelafstand hoort bij de alineaopmaak."
+          "uitleg": "Vet, cursief en de tekstkleur werken op de tekens zelf, net als klein kapitaal. De regelafstand en de uitlijning horen bij de alineaopmaak."
         },
         {
           "type": "meerkeuze",
@@ -3751,12 +3770,14 @@
             "de uitlijning",
             "de regelafstand",
             "een opsommingsteken",
-            "de tekengrootte"
+            "de tekengrootte",
+            "de inspringing"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Tekengrootte hoort bij de tekenopmaak."
         },
@@ -3836,15 +3857,14 @@
           "opties": [
             "ctrl",
             "shift",
-            "alt gr",
+            "de caps lock-toets",
             "de muis"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De muis is geen klaviertoets. Alt gr gebruik je voor het apenstaartje en het euroteken."
+          "uitleg": "De vakfiche noemt ctrl, shift en alt gr; met alt gr maak je het apenstaartje en het euroteken. De muis en de caps lock-toets horen daar niet bij."
         },
         {
           "type": "invultekst",
@@ -3963,12 +3983,14 @@
             "een factuur",
             "een sollicitatiebrief",
             "een overeenkomst",
-            "een rekenblad met formules"
+            "een rekenblad met formules",
+            "een verslag van een vergadering"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een rekenblad maak je in een rekenbladprogramma, niet in een tekstverwerker."
         },
@@ -4036,15 +4058,14 @@
           "opties": [
             "de marges",
             "de afdrukstand",
-            "de kop- en voettekst",
+            "de regelafstand",
             "het lettertype"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het lettertype hoort bij de tekenopmaak."
+          "uitleg": "De marges, de afdrukstand en de kop- en voettekst gelden voor de hele bladzijde. Het lettertype hoort bij de tekenopmaak en de regelafstand bij de alineaopmaak."
         },
         {
           "type": "meerkeuze",
@@ -4065,12 +4086,14 @@
             "een verkeerde naam overal rechtzetten",
             "een term door een andere vervangen",
             "snel iets terugvinden",
-            "de bladzijde liggend zetten"
+            "de bladzijde liggend zetten",
+            "nagaan hoe vaak een woord voorkomt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De afdrukstand verander je bij de paginaopmaak."
         },
@@ -4109,12 +4132,14 @@
             "een foto",
             "een pictogram",
             "een vorm",
-            "een lijst met sneltoetsen"
+            "een lijst met sneltoetsen",
+            "een diagram"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een lijst met sneltoetsen is gewoon tekst, geen illustratie."
         },
@@ -4207,12 +4232,14 @@
             "de afdelingen",
             "wie leiding geeft",
             "de hiërarchie",
-            "de omzet van vorig jaar"
+            "de omzet van vorig jaar",
+            "hoeveel niveaus er zijn"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De omzet staat in de resultatenrekening, niet op een organogram."
         },
@@ -4291,15 +4318,14 @@
           "opties": [
             "de vulkleur",
             "de rand",
-            "de grootte",
+            "de taal van de spellingcontrole",
             "de spelling erin"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De spellingcontrole kijkt de tekst na, niet de vorm zelf."
+          "uitleg": "Aan een vorm pas je de vulkleur, de rand en de grootte aan. De spellingcontrole en haar taal kijken de tekst na, niet de vorm zelf."
         },
         {
           "type": "invultekst",
@@ -4490,12 +4516,14 @@
             "de breedte van een kolom",
             "de randen",
             "de achtergrondkleur van een cel",
-            "de spelling van de getallen"
+            "de spelling van de getallen",
+            "de hoogte van een rij"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Getallen worden niet gespeld."
         },
@@ -4652,16 +4680,15 @@
           "vraag": "Wat kan er in een cel staan?",
           "opties": [
             "een getal",
-            "tekst",
+            "een heel bestand",
             "een formule",
             "een heel werkblad"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Ook een datum, maar dat is voor het rekenblad gewoon een getal."
+          "uitleg": "In een cel staat een getal, tekst of een formule, en ook een datum, maar dat is voor het rekenblad gewoon een getal. Een werkblad of een bestand zit niet in één cel."
         },
         {
           "type": "meerkeuze",
@@ -4716,12 +4743,14 @@
             "op een kolomletter klikken voor een hele kolom",
             "op een rijnummer klikken voor een hele rij",
             "slepen over cellen voor een bereik",
-            "op de formulebalk klikken voor het hele blad"
+            "op de formulebalk klikken voor het hele blad",
+            "op het vakje linksboven klikken voor het hele blad"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het hele blad selecteer je met het vakje linksboven, of met ctrl + a."
         },
@@ -4881,12 +4910,14 @@
             "de rand zetten",
             "de achtergrond kleuren",
             "de tekst centreren",
-            "de formule wissen"
+            "de formule wissen",
+            "het getalformaat kiezen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Wissen is geen opmaak."
         },
@@ -4941,16 +4972,15 @@
           "vraag": "Wat kan je met de vulgreep doortrekken?",
           "opties": [
             "een reeks dagen",
-            "een reeks getallen",
+            "de hoogte van een rij",
             "een formule naar beneden",
             "de breedte van een kolom"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "De kolombreedte sleep je aan de rand van de kolomkop."
+          "uitleg": "Met de vulgreep trek je een reeks dagen of getallen door en kopieer je een formule naar beneden. De breedte van een kolom en de hoogte van een rij sleep je aan de randen van de koppen."
         },
         {
           "type": "meerkeuze",
@@ -5108,12 +5138,14 @@
             "MAX",
             "MIN",
             "GEMIDDELDE",
-            "HOOFDLETTERS"
+            "HOOFDLETTERS",
+            "SOM"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "HOOFDLETTERS werkt op tekst, niet op een reeks getallen."
         },
@@ -5123,15 +5155,14 @@
           "opties": [
             "het sterretje om te vermenigvuldigen",
             "het schuine streepje om te delen",
-            "het dakje om te verheffen",
+            "de dubbele punt om te delen",
             "de letter x om te vermenigvuldigen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De letter x is voor een rekenblad gewoon tekst."
+          "uitleg": "Je vermenigvuldigt met een sterretje, deelt met een schuin streepje en verheft met een dakje. De letter x en een dubbele punt zijn voor een rekenblad gewoon tekst."
         },
         {
           "type": "waarofniet",
@@ -5196,12 +5227,14 @@
             "een bereik van cellen",
             "een celadres",
             "een getal",
-            "de naam van het bestand"
+            "de naam van het bestand",
+            "een andere functie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Dat heet het argument van de functie."
         },
@@ -5394,15 +5427,14 @@
           "opties": [
             "LINKS",
             "RECHTS",
-            "KLEINE LETTERS",
+            "SOM",
             "AFRONDEN"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "AFRONDEN werkt op getallen."
+          "uitleg": "LINKS, RECHTS en KLEINE LETTERS werken op tekst. AFRONDEN en SOM werken op getallen."
         },
         {
           "type": "meerkeuze",
