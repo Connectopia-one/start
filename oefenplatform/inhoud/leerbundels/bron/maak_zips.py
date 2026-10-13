@@ -31,10 +31,13 @@ HIER = pathlib.Path(__file__).parent
 WORTEL = HIER.parent.parent                      # inhoud/
 sys.path.insert(0, str(HIER))
 
+# De laatste kolom: ook één zip per categorie, met alle vakken van die
+# categorie samen. Enkel bij de uitlegbladen, want die worden per categorie
+# afgewerkt en Kim haalt ze dan in één keer binnen in plaats van elf keer.
 SOORTEN = [
-    ("leerbundels", WORTEL / "leerbundels", "BUNDELS", "alle-leerbundels.zip"),
-    ("oefenbundels", WORTEL / "oefenbundels", "OEFENBUNDELS", "alle-oefenbundels.zip"),
-    ("uitlegbladen", WORTEL / "uitlegbladen", "UITLEGBLADEN", "alle-uitlegbladen.zip"),
+    ("leerbundels", WORTEL / "leerbundels", "BUNDELS", "alle-leerbundels.zip", False),
+    ("oefenbundels", WORTEL / "oefenbundels", "OEFENBUNDELS", "alle-oefenbundels.zip", False),
+    ("uitlegbladen", WORTEL / "uitlegbladen", "UITLEGBLADEN", "alle-uitlegbladen.zip", True),
 ]
 
 # De sleutel `niveau` is een hele zin ("✨ Spark — 1ste en 2de middelbaar").
@@ -93,7 +96,7 @@ def _schrijf(doel, pdfs):
     return doel.stat().st_size / 1024 / 1024
 
 
-def maak(map_, sleutel, zipnaam):
+def maak(map_, sleutel, zipnaam, samen_per_niveau=False):
     """Eén zip per vak en per categorie, plus één met alles erin."""
     niveaus = lees_niveaus(sleutel)
     # bron/ staat vol met tussenbestanden en hoort er niet in
@@ -102,6 +105,7 @@ def maak(map_, sleutel, zipnaam):
     alles = []
     wezen = []
     gemaakt = set()
+    alles_per_niveau = {}
 
     for vak in vakken:
         pdfs = sorted(vak.glob("*.pdf"))
@@ -118,8 +122,16 @@ def maak(map_, sleutel, zipnaam):
                 continue
             alles.append(p)
             per_niveau.setdefault(niveaus[p.stem], []).append(p)
+            alles_per_niveau.setdefault(niveaus[p.stem], []).append(p)
         for niveau, lijst in sorted(per_niveau.items()):
             doel = map_ / f"{vak.name}-{niveau}.zip"
+            mb = _schrijf(doel, lijst)
+            gemaakt.add(doel.name)
+            regels.append(f"{map_.name}/{doel.name}: {len(lijst)} pdf, {mb:.1f} MB")
+
+    if samen_per_niveau:
+        for niveau, lijst in sorted(alles_per_niveau.items()):
+            doel = map_ / f"alle-vakken-{niveau}.zip"
             mb = _schrijf(doel, lijst)
             gemaakt.add(doel.name)
             regels.append(f"{map_.name}/{doel.name}: {len(lijst)} pdf, {mb:.1f} MB")
@@ -142,10 +154,10 @@ def maak(map_, sleutel, zipnaam):
 
 
 def main():
-    for naam, map_, sleutel, zipnaam in SOORTEN:
+    for naam, map_, sleutel, zipnaam, samen in SOORTEN:
         if not map_.exists():
             continue
-        regels = maak(map_, sleutel, zipnaam)
+        regels = maak(map_, sleutel, zipnaam, samen)
         if not regels:
             print(f"{naam}: niets gevonden")
         for r in regels:
