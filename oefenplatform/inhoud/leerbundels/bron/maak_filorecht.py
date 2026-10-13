@@ -547,7 +547,7 @@ BUNDELS["vrijheid-en-determinisme-in-de-20ste-eeuw-beyond-doorstroom"] = dict(
             ("p", "<strong>Jean-Paul Sartre</strong> noemt de mens <strong>gedoemd tot vrijheid</strong>. "
                   "Ook niet kiezen is een keuze, en de verantwoordelijkheid kan je aan niemand "
                   "doorschuiven."),
-            ("p", "Bij hem gaat de <strong>existentie aan de essentie voorbij</strong>: er ligt geen "
+            ("p", "Bij hem gaat de <strong>existentie aan de essentie vooraf</strong>: er ligt geen "
                   "vaste menselijke natuur klaar, je wordt wie je bent door te handelen. Bij een mes is "
                   "het omgekeerd: daarvan ligt het doel vast voor het gemaakt wordt."),
             ("p", "Wie zich achter zijn rol of zijn aard wegzet, is in <strong>kwade trouw</strong>: hij "

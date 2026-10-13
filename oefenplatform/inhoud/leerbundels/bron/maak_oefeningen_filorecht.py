@@ -474,7 +474,7 @@ OEFENBUNDELS["oefenbundel-vrijheid-en-determinisme-in-de-20ste-eeuw-beyond-doors
                   "Leven zoals men nu eenmaal leeft, zonder er zelf voor in te staan. Het is niet "
                   "hetzelfde als liegen: het gaat over wegkijken, je leven laten lopen zoals het hoort "
                   "te lopen, met de gewoonte als stuurman.", 5),
-                 ("open", "Leg uit wat Sartre bedoelt met de existentie gaat aan de essentie voorbij. "
+                 ("open", "Leg uit wat Sartre bedoelt met de existentie gaat aan de essentie vooraf. "
                           "Gebruik het voorbeeld van een mes.",
                   "Er ligt geen vaste menselijke natuur klaar; je wordt wie je bent door te handelen. "
                   "Bij een mes is het omgekeerd: daarvan ligt het doel vast voordat het gemaakt wordt. "
@@ -1497,5 +1497,1174 @@ OEFENBUNDELS["oefenbundel-juridische-termen-en-actoren-beyond-doorstroom"] = dic
                   "moeilijke taal van justitie is een van de redenen voor de kloof met de burger, en "
                   "net daarom is het nuttig ze te kennen.", 6),
              ]),
+    ],
+)
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-de-eigenheid-van-de-filosofie-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De proef is eenvoudig: kan je het antwoord in principe gaan meten, tellen of "
+                   "opzoeken? Dan is het een feitenvraag. Gaat het over wat juist, goed of "
+                   "wezenlijk is, dan is het een filosofische vraag.",
+            waarom=[
+                "Let op de paren: hoeveel jongeren naar het hoger onderwijs gaan is te tellen, of "
+                "iedereen er recht op heeft niet. Elk paar zet dezelfde twee vragen naast elkaar, "
+                "en dat is precies de bedoeling.",
+                "Let op wat is een rechtvaardige straf tegenover hoeveel mensen in de gevangenis "
+                "zitten. Een vraag die met hoeveel of wanneer begint, is bijna altijd een "
+                "feitenvraag; een vraag die met wat is of mag je begint, bijna altijd een "
+                "filosofische.",
+                "Noem dat zijn vraag niet over meetbare feiten gaat maar over begrippen en waarden. "
+                "Het scherpe onderscheid: je kan meten hoeveel mensen iets rechtvaardig vinden, "
+                "maar niet of het rechtvaardig is.",
+            ],
+        ),
+        dict(
+            aanpak="Natuurwetenschappen onderzoeken de stof en de natuur, menswetenschappen de "
+                   "mens en de samenleving, en de filosofie de vragen die achter beide liggen. Een "
+                   "vraag die begint met wat is of wat kan ik, hoort bij de filosofie.",
+            waarom=[
+                "Let op de derde: wat kan ik weten is geen psychologie maar filosofie, want ze "
+                "vraagt niet hoe mensen leren maar wat kennis is.",
+                "Let op de geschiedenis: die staat bij de menswetenschappen, want ze onderzoekt "
+                "mensen en samenlevingen, ook al werkt ze met bronnen zoals een natuurwetenschapper "
+                "met metingen.",
+                "Liefde voor de wijsheid, van philia en sophia. Het woord zelf zegt dus dat je de "
+                "wijsheid zoekt en niet dat je ze hebt, en dat is het antwoord op de volgende "
+                "oefening.",
+                "Niet waar, en de naam zegt net het omgekeerde: een filosoof is een liefhebber van "
+                "de wijsheid, iemand die ernaar zoekt. Socrates zei dat hij vooral wist dat hij "
+                "niets wist.",
+            ],
+        ),
+        dict(
+            aanpak="Zet de twee manieren van verklaren naast elkaar: een mythisch verhaal legt de "
+                   "oorzaak buiten de wereld, bij de goden, en de natuurfilosofie zoekt ze in de "
+                   "natuur zelf. Dat ene verschil verklaart alle antwoorden in deze reeks.",
+            waarom=[
+                "Vul de tabel rij per rij in en let op de laatste rij: te toetsen of niet. Dat is "
+                "het punt waar de natuurfilosofie echt iets nieuws doet.",
+                "Noem dat het verhaal alles verklaart. Dat klinkt als een sterkte en is net de "
+                "zwakte: een verklaring die nooit tegengesproken kan worden, zegt niets. Bij Popper "
+                "heet dat niet te weerleggen, en dat komt in een later hoofdstuk terug.",
+                "Met de natuurfilosofie, niet met de mythologie. De mythologie komt ervoor, maar "
+                "ze is nog geen filosofie, want ze bevraagt haar eigen verklaring niet.",
+                "Noem beide helften: wat verwondering is, en je eigen voorbeeld. Een goed voorbeeld "
+                "gaat over iets alledaags; verwondering over iets uitzonderlijks is gewoon "
+                "nieuwsgierigheid.",
+                "Drie, zoals de hoofdstukken erna laten zien: kennis, mens en wereld, en ethiek. De "
+                "argumentatieleer staat daar los van, want ze is het gereedschap dat je in alle "
+                "drie gebruikt.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-bronnen-van-kennis-rationalisme-en-empirisme-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vraag je bij elk voorbeeld af hoe je het te weten komt: door te kijken of te "
+                   "horen (de zintuigen), door het te herinneren, door naar binnen te kijken (de "
+                   "introspectie), door iemand te geloven, of door het uit iets anders af te "
+                   "leiden.",
+            waarom=[
+                "Let op de laatste: dat de aarde om de zon draait, heb je niet zelf gezien of "
+                "berekend, dus komt het uit verhalen van anderen. Dat voelt vreemd voor iets wat "
+                "zeker is, en dat is precies het punt van oefening 3.",
+                "Let op het verschil tussen de eerste en de rest: alle mensen zijn sterfelijk, dus "
+                "ook jij, is een afleiding en geen waarneming. Daar komt geen enkel zintuig aan te "
+                "pas.",
+                "Noem dat het meeste van je kennis van anderen komt en dat je dat niet kan nakijken. "
+                "Dat maakt de vraag wie je gelooft een dagelijkse keuze, en niet iets van de "
+                "filosofieles alleen.",
+            ],
+        ),
+        dict(
+            aanpak="Houd de twee stromingen aan hun vertrekpunt uit elkaar: het rationalisme begint "
+                   "bij de rede en werkt met deductie, het empirisme bij de ervaring en werkt met "
+                   "inductie. Daaruit volgt ook hun zekerheid.",
+            waarom=[
+                "Vul de tabel rij per rij in. De laatste rij is de belangrijkste: deductie is zeker "
+                "als de premissen kloppen, inductie nooit helemaal, en dat is wat oefening 7 "
+                "uitlegt.",
+                "De methodische twijfel: twijfelen aan alles wat ook maar kan betwijfeld worden, om "
+                "te zien wat overblijft. Wat overbleef, was dat hij twijfelde en dus dacht.",
+                "Deductie gaat van algemeen naar bijzonder, inductie van bijzonder naar algemeen. "
+                "Een handig steuntje: bij inductie zie je een paar gevallen en maak je er een regel "
+                "van, en dat is wat de bus in de laatste doet.",
+                "Noem de zwarte zwaan. Dat is het klassieke voorbeeld, en het is ook echt gebeurd: "
+                "in Europa dacht men eeuwen dat alle zwanen wit waren, tot men ze in Australie zag.",
+                "Niet waar. Een onderzoeker gebruikt beide: hij bedenkt met zijn rede een hypothese "
+                "en toetst ze aan de ervaring. Kant probeerde de twee uitdrukkelijk te verzoenen.",
+            ],
+        ),
+        dict(
+            aanpak="De grotallegorie en de AUB-methode lijken los te staan maar horen samen: het "
+                   "eerste zegt waarom een goed argument nodig is, het tweede hoe je er een bouwt.",
+            waarom=[
+                "Noem de ketenen, de schaduwen, de ene die buiten komt en de ongelovige reactie van "
+                "de anderen. En zeg waar het om gaat, want zonder die laatste zin heb je een "
+                "verhaal naverteld en geen vraag beantwoord.",
+                "Vul de drie letters aan: argument, uitleg, bijvoorbeeld. De u is het stuk dat men "
+                "vergeet, en net daar zit de kracht van een betoog: zonder uitleg is een argument "
+                "enkel een mening met een voorbeeld erbij.",
+                "Een gezagsargument. Het is niet vanzelf fout: naar een vakman verwijzen is "
+                "redelijk. Het wordt een drogreden als die persoon geen kenner is van dit onderwerp, "
+                "en dat komt in het hoofdstuk over drogredenen terug.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-van-natuurfilosofie-naar-wetenschap-falsificatie-en-demarcatie-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Alles in deze reeks hangt aan één omslag: niet vragen wat mijn theorie "
+                   "bevestigt, maar wat ze zou weerleggen. Houd die vraag in je hoofd en de "
+                   "antwoorden volgen.",
+            waarom=[
+                "Afbakening, van het Franse marquer, een grens zetten. Het woord zegt dus al "
+                "waarover het probleem gaat.",
+                "Noem dat het om de grens gaat en formuleer ze als een vraag. De bijzaak is "
+                "waar de grens precies ligt; de hoofdzaak is dat er een maatstaf nodig is.",
+                "Vul de tabel rij per rij in. De kern staat in de laatste rij: honderd "
+                "bevestigingen bewijzen niets, één tegenvoorbeeld beslist, en dat is waarom "
+                "Popper voor falsificatie koos.",
+                "Popper, Karl Popper. Hij werkte in de twintigste eeuw en wou vooral een maatstaf "
+                "die ook pseudowetenschap kon uitsluiten.",
+                "Noem dat ze niets uitsluit. Een theorie die met elke uitkomst te verzoenen is, "
+                "verbiedt niets, en wie niets verbiedt, voorspelt ook niets.",
+                "Niet waar, en dit is de belangrijkste nuance van het hele hoofdstuk. Een weerlegde "
+                "theorie was juist wél wetenschappelijk, want ze sloot iets uit en men kon "
+                "vaststellen dat het misliep. Zie ook oefening 8.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je bij elk voorbeeld af wat er gebeurt als de voorspelling niet uitkomt. "
+                   "Wordt de theorie dan wat bijgedraaid, of wordt ze opgegeven? Dat verschil is "
+                   "het hele kenmerk.",
+            waarom=[
+                "Let op het verschil tussen vage voorspellingen en uitvluchten: de eerste kan niet "
+                "misgaan, bij de tweede wordt de theorie ná de tegenslag aangepast. Beide zorgen "
+                "ervoor dat ze nooit fout kan zijn.",
+                "Noem dat het verschil in de toetsbaarheid zit en niet in de uitkomst. Dat is "
+                "hetzelfde antwoord als bij oefening 6, nu in volle zinnen.",
+                "Dat ze zichzelf kan verbeteren. Daarom is een weerlegging geen schande voor de "
+                "wetenschap maar haar motor, en dat onderscheidt haar van een leer die nooit van "
+                "mening verandert.",
+            ],
+        ),
+        dict(
+            aanpak="Drie namen, drie stappen in dezelfde geschiedenis: eerst ordenen, dan meten, "
+                   "dan toetsen. En drie leesstappen die daarmee overeenkomen: lezen, begrijpen, "
+                   "bekritiseren.",
+            waarom=[
+                "Let op de orde in de tijd: Aristoteles in de oudheid, Bacon aan het begin van de "
+                "moderne tijd, Popper in de twintigste eeuw. Bacon keerde zich uitdrukkelijk tegen "
+                "het gezag van oude boeken, ook dat van Aristoteles.",
+                "Vul de drie stappen aan. Dat de derde stap kritiek is, betekent dat lezen niet "
+                "stopt bij begrijpen: je moet ook zoeken wat de auteur zou tegenspreken, precies "
+                "zoals Popper vraagt.",
+                "Noem de proef met de vriend. Dat is een eerlijke toets, want uitleggen is iets "
+                "anders dan herkennen, en bij herkennen stopt men meestal te vroeg.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-lichaam-en-geest-monisme-en-dualisme-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Eén vraag beslist bij elke filosoof: zijn lichaam en geest twee verschillende "
+                   "dingen die van elkaar kunnen bestaan, of twee kanten van hetzelfde? Twee "
+                   "werkelijkheden is dualisme, één is monisme.",
+            waarom=[
+                "Let op Plato en Descartes naast elkaar: beide scheiden ziel en lichaam, maar met "
+                "eeuwen ertussen. Parmenides en Spinoza staan aan de andere kant, en ook daar "
+                "liggen eeuwen tussen.",
+                "Monos, het Griekse woord voor één. Daarom is monisme de stelling dat er maar één "
+                "soort werkelijkheid is.",
+                "Duo, twee. Hetzelfde woorddeel zit in duel en duo, en dat helpt om de twee termen "
+                "niet te verwisselen.",
+                "Noem dat de ziel bij hem de vorm van het lichaam is, en wat daaruit volgt bij de "
+                "dood. Onderscheiden zonder te scheiden: dat is de hele kern van zijn positie.",
+            ],
+        ),
+        dict(
+            aanpak="Leer elke stelling in de woorden van de filosoof zelf: het zijnde is één, de "
+                   "ziel is onsterfelijk, de ziel is de vorm van het lichaam, denken en "
+                   "uitgebreidheid zijn twee. Die vier formules dekken de hele reeks.",
+            waarom=[
+                "Let op uitgebreidheid: dat is het woord van Descartes voor alles wat plaats "
+                "inneemt, dus het stoffelijke. Zijn tweedeling is denken tegenover uitgebreidheid.",
+                "Spinoza. Hij gebruikt dezelfde twee woorden als Descartes, maar noemt ze twee "
+                "kanten van één werkelijkheid in plaats van twee werkelijkheden. Dat ene verschil "
+                "maakt hem een monist.",
+                "Noem bij wie het opkomt en waarom. Descartes legde de ontmoeting bij de pijnappelklier "
+                "in de hersenen, maar daarmee is de vraag verschoven en niet opgelost.",
+                "Noem dat hij de knip ongedaan maakt. Zo zie je waarom het interactieprobleem geen "
+                "los raadsel is maar een gevolg van de keuze voor twee werkelijkheden.",
+            ],
+        ),
+        dict(
+            aanpak="Hier gaat het over de vraag of de westerse tweedeling de enige mogelijke is. "
+                   "Houd twee dingen uit elkaar: wat onderzoek vaststelt, en wat je daaruit "
+                   "filosofisch besluit.",
+            waarom=[
+                "Waar. In verschillende tradities denkt men eerder in geheel en samenhang dan in "
+                "twee delen, en dat is geen gebrek maar een andere indeling.",
+                "Noem dat er geen vast, blijvend zelf is. Daarmee is ook de vraag of de ziel het "
+                "lichaam overleeft niet zomaar te stellen, want er is niets blijvends dat zou "
+                "overleven.",
+                "Noem het verschil tussen samenhang en identiteit. Dat is dezelfde fout als "
+                "besluiten dat twee dingen hetzelfde zijn omdat ze altijd samen voorkomen, en die "
+                "stap is filosofisch, niet experimenteel.",
+                "Om te zien dat de westerse indeling zelf een keuze is. Vergelijken dient dus niet "
+                "om de ene traditie fout te verklaren, maar om te merken dat wat vanzelfsprekend "
+                "lijkt, het niet is.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-cultuur-en-natuur-mens-dier-en-machine-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Houd twee vragen uit elkaar: wat kunnen dieren ook, en wat telt er voor ons om "
+                   "de mens mens te noemen? De eerste is onderzoek, de tweede filosofie. Bijna alle "
+                   "fouten in dit hoofdstuk komen van die twee door elkaar halen.",
+            waarom=[
+                "Uitsluitend bij de mens, dus bij niemand anders. Dat is een strenge eis, en dat is "
+                "precies waarom er zo weinig overblijft.",
+                "Niet waar. Vaker of sterker is een gradueel verschil; exclusief betekent dat het "
+                "bij andere wezens helemaal niet voorkomt. Dat verschil maakt of een kenmerk de "
+                "toets haalt.",
+                "Vul de tabel rij per rij in en let erop dat elke rij twee kanten heeft: wat "
+                "mensen doen én wat dieren ook blijken te doen. Zo zie je waarom geen van de twee "
+                "de toets van exclusief haalt.",
+                "Noem dat het beslissen welk verschil telt, een vraag over begrippen en waarden is. "
+                "Vaststellen dat kraaien werktuigen gebruiken, is onderzoek; besluiten dat dat niet "
+                "meetelt, is het niet.",
+                "Noem dat eten, slapen en taal tegelijk natuurlijk en cultureel zijn. Daarom is de "
+                "tegenstelling bruikbaar om over te denken, maar niet als strakke indeling.",
+            ],
+        ),
+        dict(
+            aanpak="De drie benaderingen kijken naar dezelfde emotie op drie plaatsen: in het "
+                   "lichaam, in de gewoonten van een samenleving, en in je oordeel over wat er "
+                   "gebeurt.",
+            waarom=[
+                "Let op het eerste: waar je ook geboren bent, dus niet cultureel. En op het derde: "
+                "de knal of de gebeurtenis blijft dezelfde, enkel je oordeel verandert.",
+                "Noem dat de gebeurtenis gelijk blijft en je oordeel verandert. Dat is de "
+                "scherpste proef, en ze werkt bij elk voorbeeld van deze benadering.",
+                "Niet waar. Eén emotie heeft meestal alle drie de kanten: een lichamelijke reactie, "
+                "een vorm die je samenleving eraan geeft, en een oordeel. De drie zijn brillen, "
+                "geen vakjes.",
+            ],
+        ),
+        dict(
+            aanpak="Zet de vier posities op een lijn van hoog naar laag: de mens als redelijk dier, "
+                   "de mens als enige met een geest, de mens zonder ereplaats, en de mens als "
+                   "machine. Dan zie je waar elke naam staat.",
+            waarom=[
+                "Let op Descartes en La Mettrie naast elkaar: beide gebruiken het beeld van de "
+                "machine, maar Descartes houdt de mens erbuiten en La Mettrie niet. Dat is het hele "
+                "verschil tussen hun posities.",
+                "Swaab. Zijn stelling sluit aan bij La Mettrie, maar met hersenonderzoek in plaats "
+                "van met filosofie, en daarom geldt hier dezelfde nuance als bij oefening 12.",
+                "Noem het gedrag bij pijn. Dat bezwaar is ook juridisch belangrijk geworden: onze "
+                "wetten op dierenwelzijn gaan ervan uit dat een dier wel iets ervaart.",
+                "Noem dat kunnen voortdurend opschuift en dat ervaren de vraag is die blijft. "
+                "Daarom kan je uit een machine die praat als een mens nog niet besluiten dat er "
+                "iemand is om te zijn.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-vrijheid-en-determinisme-van-de-oudheid-tot-de-19de-eeuw-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Stel bij elk voorbeeld twee vragen: lag het vast, en zat er een bedoeling "
+                   "achter? Lot is vast met bedoeling, determinisme is vast zonder bedoeling, "
+                   "toeval is geen van beide.",
+            waarom=[
+                "Let op het eerste en het derde: bij het lot is er iets dat het zo wil, bij het "
+                "determinisme enkel een keten van oorzaken. Dat is hetzelfde onderscheid als in de "
+                "tabel erna.",
+                "Vul de twee kolommen in: lag het vast, en zat er een bedoeling achter? Met die "
+                "twee vragen kan je elk voorbeeld in deze reeks plaatsen.",
+                "Noem het woord determineren, vastleggen. En noem beide vergelijkingen: kaler dan "
+                "het lot omdat er geen bedoeling bij hoort, strenger dan toeval omdat het wel "
+                "vastligt.",
+            ],
+        ),
+        dict(
+            aanpak="In de oudheid liggen drie antwoorden naast elkaar: het lot van de mythologie, "
+                   "de atomen van Democritus en de innerlijke vrijheid van de Stoicijnen. Zet er "
+                   "telkens bij waar de vrijheid dan nog zit.",
+            waarom=[
+                "Niet waar, en dat is net het bijzondere: ook de goden zijn aan het lot gebonden. "
+                "Daardoor is er in die verhalen niemand meer bij wie je in beroep kan gaan.",
+                "Noem dat de vlucht zelf deel van het lot blijkt. Dat is wat het verhaal zo "
+                "benauwend maakt: elke poging om te ontsnappen werkt mee.",
+                "Let op Democritus: hij is de eerste met een determinisme zonder goden, en daarmee "
+                "de voorganger van het mechanische wereldbeeld uit de derde reeks.",
+                "Noem het onderscheid tussen wat in je macht ligt en wat niet, en geef er een eigen "
+                "voorbeeld bij. Zonder voorbeeld blijft het een formule, en net het voorbeeld laat "
+                "zien of je het begrijpt.",
+            ],
+        ),
+        dict(
+            aanpak="Van de zeventiende eeuw af wordt de natuur als een machine gezien, en dat zet "
+                   "de vraag scherp. Let bij elke denker op waar hij de vrijheid plaatst, of waarom "
+                   "hij ze schrapt.",
+            waarom=[
+                "Mechanisch determinisme: de wereld als een uurwerk dat volgens vaste wetten "
+                "doorloopt. Laplace dacht dat wie alle posities kende, de hele toekomst kon "
+                "berekenen.",
+                "Noem beide takken van de vraag: zit de mens erin of is hij een uitzondering? Juist "
+                "omdat beide antwoorden iets kosten, blijft de vraag open.",
+                "Let op het verschil: Schopenhauer laat de handeling vrij maar niet het willen, "
+                "Nietzsche verdenkt het hele begrip van een bedoeling. Dat tweede is een verwijt aan "
+                "de moraal en niet enkel een analyse.",
+                "Noem dat het strafrecht uitgaat van anders kunnen handelen. Daarom vraagt een "
+                "rechter ook naar toerekeningsvatbaarheid, en dat is deze filosofische vraag in "
+                "juridische vorm.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-vrijheid-en-determinisme-in-de-20ste-eeuw-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vijf denkers, vijf plaatsen waar de vrijheid zit: in het opnemen van je leven, "
+                   "in de keuze zelf, in wat je wil willen, in wat de samenleving van je maakt, of "
+                   "nergens. Leer ze aan die ene formule.",
+            waarom=[
+                "Let op Heidegger en Sartre naast elkaar: beide zeggen dat je je situatie niet "
+                "koos, maar Sartre legt alle gewicht op de keuze en Heidegger op het opnemen van "
+                "wat je aantreft.",
+                "Verplaetse, Jan Verplaetse. Hij is de enige van de vijf die uitdrukkelijk "
+                "besluiten trekt voor het strafrecht, en dat komt in oefening 13 terug.",
+                "Zet de rij in die orde en leg enkel je twee uitersten uit, zoals gevraagd. Dat "
+                "Sartre de vrijheid een verdoemenis noemt, maakt hem het uiterste: meer vrijheid "
+                "kan je niet toekennen.",
+            ],
+        ),
+        dict(
+            aanpak="Houd bij Heidegger twee woorden vast: geworpenheid voor wat je aantreft, en "
+                   "eigenlijk tegenover oneigenlijk voor hoe je ermee omgaat. Bij Sartre: gedoemd "
+                   "tot vrijheid en kwade trouw.",
+            waarom=[
+                "Geworpenheid: je bent in een tijd, een lichaam en een afkomst geworpen zonder dat "
+                "iemand het je vroeg. Het woord zelf zegt dat je er niet voor koos.",
+                "Noem ook wat het níét is, want dat is uitdrukkelijk gevraagd. Oneigenlijk leven is "
+                "geen bedrog maar wegkijken, en dat maakt het ook veel gewoner dan liegen.",
+                "Noem het mes, want daarmee wordt de formule helder: bij een voorwerp ligt het doel "
+                "vast voor het bestaat, bij een mens net niet. De uitdrukking komt van Sartre zelf: "
+                "de existentie gaat aan de essentie vooraf.",
+                "Let op de laatste: ik deed niets, dus ik koos niets is bij Sartre juist wél een "
+                "keuze. Niet kiezen bestaat bij hem niet, en dat is waarom hij het een uitvlucht "
+                "noemt.",
+                "Niet waar, en dat is de kern van gedoemd tot vrijheid. Omdat je niets kan "
+                "aanwijzen dat voor jou beslist, draag je alles zelf, en dat noemt Sartre een last.",
+            ],
+        ),
+        dict(
+            aanpak="Deze drie staan op een rij van minder naar geen vrijheid: Foucault zegt dat je "
+                   "verlangen gevormd wordt, Frankfurt verzoent vrijheid met oorzaken, en "
+                   "Verplaetse schrapt de vrije wil. Let bij elk op wat er dan nog overblijft.",
+            waarom=[
+                "Disciplinering. Het punt is dat dit niet met geweld gebeurt maar met gewoonten, "
+                "schema's en verwachtingen, en daarom merk je het nauwelijks.",
+                "Noem dat niemand je dwingt en je verlangen toch gevormd wordt. Dat is wat zijn "
+                "machtsbegrip bijzonder maakt: macht zit niet enkel bij wie beveelt.",
+                "Vul beide rijen in en let op het woordje willen in de tweede verdieping: wil je de "
+                "drang die je hebt ook hebben? Dat is de hele toets van Frankfurt.",
+                "Noem dat zijn vraag niet is of je keuze zonder oorzaak was, maar of ze van jou is. "
+                "Daarmee hoeft hij het determinisme niet te ontkennen, en vandaar het woord "
+                "verzoenend.",
+                "Noem de vier maatregelen en zeg welke er sneuvelt. Enkel vergelden heeft schuld "
+                "nodig; beschermen, behandelen en voorkomen kunnen zonder, en dat is de kern van "
+                "zijn voorstel.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-ethiek-basisbegrippen-en-vier-benaderingen-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Een waarde is een algemeen goed dat je nastreeft, een norm is de concrete regel "
+                   "die eruit volgt. Staat er een gebod of een verbod in, dan is het een norm.",
+            waarom=[
+                "Let op het patroon: elk paar bestaat uit een waarde en een norm die eruit volgt. "
+                "Eerlijkheid is de waarde, niet spieken de regel die er in een school uit volgt.",
+                "Noem dat de waarde algemeen is en de norm concreet. Daarom kan je het over de "
+                "waarde eens zijn en over de norm van mening verschillen, en daar gaan de meeste "
+                "discussies over.",
+            ],
+        ),
+        dict(
+            aanpak="Houd de drie standpunten uit elkaar aan de vraag: gelden morele regels overal "
+                   "(universalisme), hangen ze van de spreker af (moreel relativisme), of horen ze "
+                   "bij een cultuur die je niet van buitenaf mag beoordelen (cultuurrelativisme)?",
+            waarom=[
+                "Let op het verschil tussen de laatste twee: moreel relativisme kijkt naar wie het "
+                "zegt, cultuurrelativisme naar de groep waarin het gezegd wordt. Dat tweede is het "
+                "standpunt dat in oefening 4 onder vuur komt.",
+                "Noem dat ook kritiek op onrecht dan onmogelijk wordt, ook in je eigen samenleving. "
+                "Dat laatste is de scherpste vorm van het bezwaar: het treft niet alleen de kritiek "
+                "op anderen.",
+                "Niet waar. Een universalist kan rustig toegeven dat de normen verschillen; hij "
+                "houdt enkel vol dat sommige waarden overal gelden. Verschil vaststellen en "
+                "verschil goedkeuren zijn twee dingen.",
+                "Noem dat verwijten enkel zin heeft als iemand anders kón handelen. Daarmee hangt "
+                "de hele ethiek vast aan het hoofdstuk over de vrije wil.",
+            ],
+        ),
+        dict(
+            aanpak="Vier benaderingen kijken naar vier verschillende dingen: de uitkomst, de regel, "
+                   "de persoon en de relatie. Leer ze aan de vraag die elk stelt, dan kan je elke "
+                   "casus met vier brillen bekijken.",
+            waarom=[
+                "Noem dat elke uitweg iets van waarde kost. Dat is het verschil met een moeilijke "
+                "keuze: bij een dilemma blijft er ook na de beste beslissing iets onherstelbaar.",
+                "Descriptief beschrijft wat mensen vinden, normatief vraagt wat juist is. Een "
+                "bevraging kan dus nooit beslechten of iets een plicht is, en dat is hetzelfde "
+                "punt als bij Hume in oefening 10.",
+                "Vul de vier rijen in met hun eigen vraag erbij. Die vier vragen zijn het "
+                "gereedschap voor de hoofdstukken die volgen, waar elke benadering apart aan bod "
+                "komt.",
+                "Let op het verschil tussen de eerste twee en de derde: de derde zegt hetzelfde als "
+                "de eerste, maar plakt er met dus een voorschrift aan. Daar zit de sprong.",
+                "Het woordje dus. Dat is de is-ought sprong van Hume, en de les is niet dat de "
+                "stap altijd fout is, maar dat je hem apart moet verdedigen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-gevolgenethiek-en-plichtethiek-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De gevolgenethiek kijkt enkel naar de uitkomst: wat brengt het meeste geluk "
+                   "teweeg, voor zoveel mogelijk wezens? Houd bij elke vraag in het oog dat de daad "
+                   "zelf er niet toe doet, enkel wat ze oplevert.",
+            waarom=[
+                "Het utilitarisme. De twee namen betekenen hetzelfde, dus gebruik ze door elkaar "
+                "zoals je handboek dat doet.",
+                "Van utilitas, nut. De naam zegt dus al dat iets goed is naar wat het opbrengt.",
+                "Let op de uitbreiding bij Singer: Bentham telt geluk, Singer vraagt van wie je het "
+                "meetelt. Dat is dezelfde gedachte, maar met een ruimere kring.",
+                "Soortisme, naar het patroon van racisme en seksisme. Zijn punt is niet dat een mens "
+                "en een varken gelijk zijn, maar dat lijden lijden is, bij wie het ook voorkomt.",
+                "Noem beide kanten, want de vraag vraagt ze uitdrukkelijk. Het voorbeeld van tien "
+                "gelukkigen en één diep ongelukkige laat zien hoe een optelsom onrecht kan "
+                "verbergen.",
+                "Noem alle drie en houd ze kort. Het derde is het bezwaar van Hume uit het vorige "
+                "hoofdstuk, nu op het utilitarisme toegepast.",
+            ],
+        ),
+        dict(
+            aanpak="Bij Kant telt de regel en niet de uitkomst. De toets is: kan ik willen dat "
+                   "iedereen dit doet? Een regel die enkel werkt zolang anderen hem niet volgen, "
+                   "zakt op die toets.",
+            waarom=[
+                "Onvoorwaardelijk, dus zonder als of tenzij. Dat is het hele verschil met een "
+                "hypothetische imperatief, die altijd met een wil je begint.",
+                "Let op het patroon: de hypothetische beginnen met wil je, de categorische zijn "
+                "kale geboden. Kant vindt enkel die tweede moreel, want de eerste hangen van je "
+                "doel af.",
+                "Schrijf ze in de woorden van de bundel. Let op de twee delen: enkel volgens een "
+                "regel, en waarvan je kan willen dat ze voor allen geldt.",
+                "Noem beide helften: wat de formulering zegt en wat eruit volgt. Let op het woordje "
+                "louter: een mens als middel gebruiken mag, zolang hij niet enkel middel is. Een "
+                "bakker betalen is geen misbruik.",
+                "Noem beide bezwaren. Het eerste is het klassieke voorbeeld van de moordenaar aan "
+                "de deur, het tweede is dat zijn toets een vorm oplegt en geen inhoud.",
+                "Niet waar, en het is net het omgekeerde: zijn plicht geldt onvoorwaardelijk, voor "
+                "iedereen en in elke situatie. Juist dat maakt hem voor sommigen te streng.",
+            ],
+        ),
+        dict(
+            aanpak="Levinas zet de ethiek nog eens anders: niet bij de uitkomst en niet bij de "
+                   "regel, maar bij de ontmoeting. Vergelijk hem met Kant op twee punten: waar het "
+                   "begint, en of de uitkomst meeweegt.",
+            waarom=[
+                "Noem het gelaat en het verschil met Kant. Let op wat ze gemeen hebben: bij beiden "
+                "weegt de uitkomst niet mee, en dat plaatst beiden tegenover de gevolgenethiek.",
+                "Vul de tabel rij per rij in en let op de rij over de belofte: daar botsen de twee "
+                "richtingen het duidelijkst. De laatste rij noemt van elke richting haar eigen "
+                "zwakte.",
+                "Noem beide kanten, lastig en nuttig. Dat je met twee brillen verder komt dan met "
+                "één, is de hele reden dat dit hoofdstuk vier benaderingen naast elkaar zet.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-deugdethiek-en-zorgethiek-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Bij een deugd horen altijd drie dingen: wat ze is, het tekort eronder en de "
+                   "overdaad erboven. Leer ze als een rij van drie, dan heb je de hele tabel in je "
+                   "hoofd.",
+            waarom=[
+                "Vul de tabel rij per rij in: de deugd, het tekort en de overdaad. Let op de "
+                "overdaad van verstandigheid: besluiteloosheid, want eindeloos afwegen is ook geen "
+                "verstandigheid.",
+                "Van cardo, spil of deurhengsel. Deze vier zijn dus de deugden waarop de andere "
+                "draaien.",
+                "Niet waar, en dit is de val van het woord midden. Het midden van Aristoteles is "
+                "het juiste punt tussen twee uitersten, niet het gemiddelde van wat mensen doen. "
+                "Doet iedereen hetzelfde fout, dan is dat nog geen deugd.",
+                "Noem dat het midden van de situatie afhangt en dat daar verstandigheid bij hoort. "
+                "Daarom is de deugdethiek geen regelboek: ze vraagt oordeelsvermogen.",
+                "Noem dat je ze oefent tot ze een gewoonte wordt. Het Griekse woord ethos betekent "
+                "ook gewoonte, en dat is de reden dat ethiek zo heet.",
+            ],
+        ),
+        dict(
+            aanpak="Drie denkers die de deugdethiek verder brengen: Nussbaum met een lijst van wat "
+                   "elke mens moet kunnen, Hume met de vraag waar een deugd vandaan komt, en Foot "
+                   "met de vraag waaraan je er een herkent.",
+            waarom=[
+                "Tien. Let erop dat het een lijst van capaciteiten is en geen lijst van deugden, "
+                "en dat is wat oefening 7 uitlegt.",
+                "Noem dat het over kunnen gaat en niet over doen. Daarom is het ook een maatstaf "
+                "voor een samenleving: die moet de mogelijkheid geven, niet het resultaat afdwingen.",
+                "Natuurlijk is wat vanzelf opkomt, artificieel wat een samenleving moet inrichten. "
+                "Medelijden voel je zonder afspraak; rechtvaardigheid en je woord houden vragen "
+                "regels en gewoonten.",
+                "Noem alle drie. Het tweede kenmerk, in je wil en niet enkel in je kunnen, sluit "
+                "talent uit: goed kunnen zingen is geen deugd.",
+                "Noem beide voorbeelden en het besluit erbij: waar geen bekoring is, is geen deugd "
+                "nodig. Daarom staat er geen deugd op de lijst voor dingen die ons nooit moeilijk "
+                "vallen.",
+            ],
+        ),
+        dict(
+            aanpak="De zorgethiek begint niet bij een regel of een som maar bij de band tussen "
+                   "mensen. Houd de vier fasen in je hoofd, want daarmee kan je ook zeggen waar het "
+                   "misloopt.",
+            waarom=[
+                "Noem het mensbeeld en het verschil met de twee andere richtingen. Dat de zorgethiek "
+                "partijdig durft te zijn, is geen vergetelheid maar een keuze: deze mens in deze "
+                "relatie.",
+                "Noem dat de ethiek lang van een onafhankelijke burger vertrok. Wie zorgde en wie "
+                "zorg nodig had, viel daarmee buiten het beeld, en dat is wat de zorgethiek "
+                "rechtzet.",
+                "Noem dat de maatstaf zelf eenzijdig was, niet dat meisjes anders zijn. Dat is de "
+                "kern van Gilligans kritiek: ze verving de ene stem niet door de andere maar zette "
+                "er een tweede naast.",
+                "Vul de vier fasen aan met de houding die erbij hoort. De vierde, zorg ontvangen, is "
+                "de fase die men vergeet, en net daar blijkt of je zorg aankomt zoals je bedoelde.",
+                "Elk voorbeeld faalt in een andere fase. Dat is precies waarvoor de vier fasen "
+                "dienen: niet om zorg te beschrijven, maar om te zien waar ze strandt.",
+                "Noem wat ze gemeen hebben en waarin ze dan nog verschillen. Beide kijken voorbij "
+                "de losse daad: de een naar de persoon, de ander naar de relatie.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-ethiek-en-geluk-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="In de oudheid liggen vier antwoorden naast elkaar. Zoek bij elk waar het geluk "
+                   "zit: in bloeien volgens de deugd, in rust, in je houding, of in loslaten. Dat "
+                   "ene woord per visie houdt de hele reeks bij elkaar.",
+            waarom=[
+                "Eudaimonia. Het wordt vaak met geluk vertaald, maar het betekent eerder bloeien of "
+                "een geslaagd leven, en dat is wat oefening 2 uitlegt.",
+                "Noem dat het een manier van leven is en geen stemming. Het beeld van de ene "
+                "zwaluw komt van Aristoteles zelf.",
+                "Niet waar, en dit is het grootste misverstand over Epicurus. Hij raadt juist aan "
+                "je verlangens te beperken; de betekenis van epicurist als levensgenieter is er "
+                "later bij gekomen.",
+                "Noem beide helften: wat geluk bij hem is en welke raad eruit volgt. Zijn geluk is "
+                "een afwezigheid, en dat verklaart waarom hij zo weinig nodig heeft.",
+                "Let op het verschil tussen de eerste en de laatste: het stoicisme werkt met je "
+                "houding tegenover wat gebeurt, Aristoteles met het ontplooien van je vermogens. Dat "
+                "zijn twee heel verschillende wegen.",
+                "Noem dat alle drie het geluk minder van buiten laten komen. Dat is de "
+                "gemeenschappelijke richting; de wegen erheen zijn verschillend, en dat mag je "
+                "erbij zeggen.",
+            ],
+        ),
+        dict(
+            aanpak="De vraag van deze reeks is niet of geluk waardevol is, maar of het de maatstaf "
+                   "van de moraal mag zijn. Kant zegt nee, Bentham ja, en de reden zit telkens in "
+                   "wat een gebod moet kunnen.",
+            waarom=[
+                "Vul de tabel rij per rij in. De kern bij Kant: wat mensen gelukkig maakt "
+                "verschilt, en een moreel gebod moet voor allen gelden. Daarom kan geluk bij hem "
+                "geen maatstaf zijn.",
+                "Noem dat wie zijn plicht doet geluk verdient, maar dat de twee niet samenvallen. "
+                "Zo zie je dat Kant geluk niet veracht; hij weigert het enkel als grond van de "
+                "moraal.",
+                "Noem dat de som de verdeling verbergt. Dit is hetzelfde bezwaar als bij het "
+                "utilitarisme in het vorige hoofdstuk, nu toegepast op geluk als cijfer.",
+            ],
+        ),
+        dict(
+            aanpak="Drie moderne stemmen: Schopenhauer die het geluk wegrelativeert, Levinas die "
+                   "het buiten jezelf legt, en De Wachter die zich tegen de gelukdwang verzet.",
+            waarom=[
+                "Let op Levinas: bij hem is geluk geen doel maar een gevolg van je "
+                "verantwoordelijkheid. Dat sluit aan bij wat hij in het vorige hoofdstuk over het "
+                "gelaat zei.",
+                "Noem de kringloop van verlangen en verveling. Dat is wat zijn visie pessimistisch "
+                "maakt: beide uitkomsten van een verlangen vallen slecht uit.",
+                "Noem beide helften: waartegen hij zich keert en waar hij het geluk wel zoekt. Zijn "
+                "punt is dat de eis om gelukkig te zijn zelf ongelukkig maakt, en dat is een "
+                "kritiek op onze tijd, niet op het geluk.",
+                "Noem de twee vragen, want daarmee kan je de hele rij ordenen: binnen de mens of "
+                "bij de ander, en wel of niet de maatstaf van de moraal.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-argumentatieleer-redeneervormen-en-drogredenen-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="In een als-dan-zin heet het eerste deel het antecedens en het tweede het "
+                   "consequens. Twee bewegingen zijn geldig: het antecedens bevestigen, en het "
+                   "consequens ontkennen. De twee andere zijn dat niet.",
+            waarom=[
+                "Vul beide delen in met hun naam. Antecedens betekent wat voorafgaat, consequens "
+                "wat volgt; het staat in de woorden zelf.",
+                "Let op het patroon: de eerste en de vierde zijn geldig, de tweede en de derde "
+                "niet. Dat zijn precies de twee geldige bewegingen uit de aanpak hierboven.",
+                "Modus ponens, van ponere, plaatsen of stellen. Je stelt het antecedens en trekt "
+                "het consequens.",
+                "Modus tollens, van tollere, wegnemen. Je neemt het consequens weg en daarmee valt "
+                "ook het antecedens.",
+                "Noem de schoonmaakwagen of een andere oorzaak. De kern: hetzelfde gevolg kan meer "
+                "dan één oorzaak hebben, en daarom mag je niet terugrekenen.",
+                "Noem dat het gevolg er ook zonder die voorwaarde kan zijn. Dit en de vorige "
+                "oefening zijn twee kanten van dezelfde fout: de als-dan-zin wordt als een "
+                "gelijkheid gelezen.",
+            ],
+        ),
+        dict(
+            aanpak="Houd twee dingen uit elkaar: een geldige vorm en een waar besluit. Geldig gaat "
+                   "over de stap van premissen naar besluit, waar over de inhoud.",
+            waarom=[
+                "Let op de tweede en de derde: ook een rammelende redenering kan bij een juist "
+                "besluit uitkomen. Ze bewijst het dan enkel niet, en dat is een belangrijk "
+                "verschil.",
+                "Noem de formule: als de premissen waar zijn, moet het besluit waar zijn. Dat moet "
+                "is het hele begrip geldigheid.",
+                "Noem welke premisse onwaar is en zeg wat er met de geldigheid gebeurt. Dat een "
+                "redenering geldig blijft met een onware premisse, is precies waarom je altijd "
+                "beide moet nakijken.",
+            ],
+        ),
+        dict(
+            aanpak="Een drogreden is een stap die lijkt te kloppen en het niet doet. Vraag je bij "
+                   "elk voorbeeld af: wordt hier iets over de zaak gezegd, of over iets anders, de "
+                   "persoon, de massa, de natuur?",
+            waarom=[
+                "Let op de stroman: de tegenstander krijgt een standpunt in de mond dat hij niet "
+                "innam, en dat wordt dan weerlegd. En op het hellend vlak: een reeks stappen wordt "
+                "als onvermijdelijk voorgesteld zonder dat te onderbouwen.",
+                "Let op de onbevoegde autoriteit: naar een kenner verwijzen is redelijk, naar "
+                "iemand met gezag op een ánder gebied niet. En op de overhaaste generalisatie: dat "
+                "is de inductie uit het hoofdstuk over kennis, maar met veel te weinig gevallen.",
+                "Noem dat het van is naar ought springt. En noem een tegenvoorbeeld zoals gif of "
+                "een ziekte, want daarmee valt het argument meteen om.",
+                "Noem dat je de stap benoemt en niet de persoon. En noem de nuance erbij: een "
+                "drogreden weerleggen betekent niet dat het besluit fout is, enkel dat dit argument "
+                "het niet steunt.",
+                "Niet waar. Vaak gebruikt iemand een drogreden zonder het te merken, omdat ze goed "
+                "klinkt. Daarom is ze benoemen nuttiger dan iemand van oneerlijkheid verdenken.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-democratische-rechtsstaat-en-haar-principes-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Houd twee begrippen scherp uit elkaar: democratie gaat over wie beslist, "
+                   "rechtsstaat over of de macht zelf aan regels gebonden is. Daarmee kan je deze "
+                   "hele reeks ordenen.",
+            waarom=[
+                "Noem uitdrukkelijk dat ook de overheid eraan gebonden is. Dat laatste is het hele "
+                "punt: dat er wetten zijn, heeft elke staat.",
+                "Noem van elke kant een voorbeeld, zonder een land te hoeven noemen: een bestuur "
+                "dat netjes zijn eigen wetten volgt zonder verkiezingen, en een verkozen bestuur "
+                "dat zich daarna aan geen rechter stoort.",
+                "De Verlichting, de achttiende eeuw. Dat is dezelfde periode als Montesquieu uit "
+                "het volgende hoofdstuk.",
+                "Noem de drie waarden en waar je ze terugvindt. Dat ze zowel in de grondwet als in "
+                "de mensenrechten staan, laat zien dat ze niet van één land zijn.",
+            ],
+        ),
+        dict(
+            aanpak="De vijf principes zijn geen lijstje maar een bouwwerk: elk principe vangt een "
+                   "zwakte van de andere op. Leer ze dus met de vraag erbij: waartegen beschermt "
+                   "dit?",
+            waarom=[
+                "Vul de tabel rij per rij in. Let op de rij over de grondwet: ze is niet enkel de "
+                "hoogste wet, ze bakent ook af wat de macht mag, en dat is wat oefening 8 uitlegt.",
+                "Geef twee voorbeelden waarin één principe wegvalt. Dat is de beste manier om te "
+                "zien waarvoor een principe dient: kijk wat er zonder gebeurt.",
+                "Noem de keerzijde en wat ze opvangt. Dat grondrechten de meerderheid beperken, is "
+                "geen gebrek aan democratie maar de reden dat een democratie houdbaar blijft.",
+                "Noem dat ze de spelregels vastlegt waaraan de wetgever zelf gebonden is. Daarom "
+                "vraagt een grondwetswijziging in Belgie een bijzondere meerderheid en verkiezingen "
+                "ertussen.",
+                "Niet waar. De grondwet bevat de grondregels: de rechten, de instellingen en hun "
+                "bevoegdheden. De gewone wetten, decreten en besluiten staan eronder en moeten "
+                "ermee kloppen.",
+            ],
+        ),
+        dict(
+            aanpak="Hier gaat het over hoe rechten echt iets waard worden. Twee woorden om niet te "
+                   "verwisselen: onafhankelijk gaat over druk van buiten, onpartijdig over een band "
+                   "met de zaak zelf.",
+            waarom=[
+                "Noem de drie voorwaarden. Dat een beperking door een rechter te toetsen moet zijn, "
+                "is de voorwaarde die men vergeet en net de belangrijkste.",
+                "Noem dat je zonder dat recht je andere rechten niet kan verdedigen. Daarom heet "
+                "het ook een procedureel recht: het is het recht om je rechten te halen.",
+                "Let op het verschil: druk van een minister of van het parlement raakt de "
+                "onafhankelijkheid, een band met een partij in de zaak raakt de onpartijdigheid.",
+                "Noem dat niemand hem kan voorschrijven hoe hij de wet toepast. Onafhankelijk "
+                "betekent dus niet vrij van de wet, en dat is precies de verwarring die de vraag "
+                "wil uitsluiten.",
+                "Noem dat de schijn al genoeg is. Een proces moet niet enkel eerlijk zijn maar ook "
+                "eerlijk lijken, en daarom bestaat de mogelijkheid tot wraking.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-scheiding-der-machten-en-de-rechterlijke-macht-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Drie machten, drie werkwoorden: maken, uitvoeren en toepassen op een concreet "
+                   "geval. Hang aan elk werkwoord zijn instelling, dan ligt de hele reeks vast.",
+            waarom=[
+                "Vul de tabel rij per rij in: wie het is en wat ze doet. Let op de rij van de "
+                "wetgevende macht: die maakt niet enkel wetten, ze controleert ook de regering, en "
+                "dat komt in reeks 2 terug.",
+                "Montesquieu, in De l'esprit des lois. Hij verwoordde het als eerste scherp, al "
+                "bouwde hij op wat Locke eerder schreef.",
+                "Noem dat macht die zichzelf controleert, niets controleert. Dat is het argument in "
+                "één zin, en alles in dit hoofdstuk volgt eruit.",
+                "Niet waar. De rem is bedoeld: snelheid is niet het doel, maar wel dat niemand "
+                "alleen kan beslissen. Dat traagheid soms ergert, hoort bij de prijs.",
+                "Noem dat de machten elkaar juist in het oog houden. Daarom spreekt men ook van "
+                "controle en evenwicht, en niet van drie eilanden.",
+                "Meerdere: naast het federale parlement hebben de gemeenschappen en de gewesten "
+                "elk hun eigen parlement, elk met eigen bevoegdheden.",
+            ],
+        ),
+        dict(
+            aanpak="Controle en evenwicht betekent dat elke macht middelen heeft om de andere "
+                   "binnen hun grenzen te houden. Zoek bij elke instelling dus wie ze controleert "
+                   "en waarop.",
+            waarom=[
+                "Let op het verschil tussen de eerste twee: het Grondwettelijk Hof toetst wetten "
+                "aan de grondwet, de Raad van State kijkt beslissingen van het bestuur na. Wetten "
+                "tegenover bestuursdaden, dat is de scheidslijn.",
+                "Noem de begroting en zeg waarom ze zo sterk is. Zonder geld en zonder wetten kan "
+                "een regering niets, en daarom valt een regering in de praktijk op een begroting.",
+                "Noem ook wat het niet betekent, want dat is uitdrukkelijk gevraagd. Evenwicht gaat "
+                "over wederzijdse rem, niet over gelijke grootte.",
+            ],
+        ),
+        dict(
+            aanpak="De rechterlijke macht is de zwakste van de drie: ze heeft geen leger en geen "
+                   "geld. Daarom is ze met waarborgen omringd. Vraag je bij elke waarborg af "
+                   "waartegen ze beschermt.",
+            waarom=[
+                "Noem dat een rechter die stemmen moet halen, afhankelijk wordt van wat populair "
+                "is. In Belgie benoemt de Koning op voordracht van de Hoge Raad voor de Justitie, "
+                "die op bekwaamheid selecteert.",
+                "Noem dat wie niet afgezet kan worden, onbevangen kan oordelen. Dat is dezelfde "
+                "reden waarom ook de wedde van een rechter beschermd is.",
+                "Noem dat een gemotiveerd vonnis te controleren en aan te vechten is. De "
+                "motiveringsplicht is dus niet beleefdheid maar een voorwaarde voor beroep.",
+                "De dienst, nooit het vonnis. Hij zorgt voor gebouwen, personeel en middelen, en "
+                "blijft met zijn handen van de uitspraak.",
+                "Let op de laatste: een nieuwe algemene wet is precies het werk van het parlement, "
+                "en dus geen schending. Het verschil met de tweede is het woord algemeen, en dat is "
+                "wat oefening 15 uitlegt.",
+                "Noem dat een wet algemeen moet zijn. Wie voor één zaak wetgeeft, spreekt in feite "
+                "recht, en dat verklaart ook waarom dit in het Europees Hof al meermaals is "
+                "aangevochten.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-functies-van-justitie-de-rechtspraak-en-de-deontologie-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vraag je bij elk voorbeeld af wat justitie hier eigenlijk doet: iemand "
+                   "beschermen, een geschil beslechten, de orde herstellen, straffen, of "
+                   "voorkomen. Dat zijn de vijf functies.",
+            waarom=[
+                "Let op het verschil tussen veiligheid en ordehandhaving: veiligheid richt zich op "
+                "een bepaalde persoon die bedreigd wordt, ordehandhaving op de samenleving als "
+                "geheel.",
+                "Vijf: veiligheid, conflictbeslechting, ordehandhaving, bestraffing en preventie. "
+                "Die vijfde komt in geen enkel voorbeeld van reeks 1 voor, en dat is precies het "
+                "punt van oefening 3.",
+                "Noem dat wat niet gebeurt, niemand opvalt. Daarom wordt preventie ook het "
+                "makkelijkst weggesneden als er bespaard moet worden.",
+                "Noem het burgerlijk recht en waarom de functie nodig is. Zonder iemand die een "
+                "geschil kan afsluiten, blijft het duren of eindigt het met geweld, en dat is het "
+                "beeld van een samenleving zonder rechter.",
+                "Niet waar. De vijf functies staan naast elkaar en niet in een rangorde; "
+                "bestraffing valt enkel het meest op in het nieuws.",
+            ],
+        ),
+        dict(
+            aanpak="Vier principes die van een proces een eerlijk proces maken. Zet er bij elk de "
+                   "vraag bij: wat zou er gebeuren als dit principe wegviel?",
+            waarom=[
+                "Vul de tabel rij per rij in. Let op de rij van het vermoeden van onschuld: ze "
+                "bestaat uit drie delen, en het derde, twijfel in jouw voordeel, is het stuk dat "
+                "men vergeet.",
+                "Noem een voorbeeld, want dat is gevraagd. Dat de jeugdrechtbank niet openbaar "
+                "zit, is het duidelijkste geval, en het laat zien dat openbaarheid een beginsel is "
+                "met uitzonderingen.",
+                "Noem dat het oordeel al valt voor de rechter iets vaststelde. Dit komt in het "
+                "volgende hoofdstuk terug als een botsing van twee grondrechten.",
+            ],
+        ),
+        dict(
+            aanpak="Deontologie is de beroepsethiek: regels die een beroepsgroep zichzelf oplegt, "
+                   "naast de wet. Houd daarbij drie plichten uit elkaar: zwijgen over wat in "
+                   "vertrouwen gezegd is, terughoudend zijn over je werk, en spreken bij gevaar.",
+            waarom=[
+                "Vul de tabel rij per rij in: van wie ze komt, voor wie ze geldt en wie straft. "
+                "Dat de sanctie van de beroepsorde komt en niet van een rechter, is het "
+                "duidelijkste verschil.",
+                "Niet waar, en dit is de kern: een code komt bóven de wet en niet in de plaats van "
+                "de wet. Wie zijn code volgt maar de wet overtreedt, is nog altijd strafbaar.",
+                "Let op het verschil tussen beroepsgeheim en discretieplicht: het eerste gaat over "
+                "wat iemand je toevertrouwt, het tweede over alles wat je op je werk verneemt. Het "
+                "tweede is ruimer maar minder zwaar.",
+                "Noem dat het de hulpvrager beschermt. Dat is de belangrijkste nuance van het hele "
+                "hoofdstuk: het beroepsgeheim is geen voorrecht van de hulpverlener.",
+                "Let op het verschil in dreiging: bij ernstig en dreigend gevaar mag en moet je "
+                "spreken, bij een praatje op een feestje gaat het om terughoudendheid.",
+                "Noem beide redenen: herkenbaar zonder naam, en het vertrouwen dat je verliest bij "
+                "wie het hoort. Dat tweede is de reden waarom zo'n verhaal ook schade doet als "
+                "niemand de persoon kent.",
+                "Noem dat plichten tegen elkaar in kunnen gaan. Zwijgen en melden botsen in "
+                "dezelfde casus, en dan heb je een afweging nodig in plaats van een regel.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-actuele-thema-s-binnen-recht-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Het schema geeft je drie niveaus: beschrijven, verklaren en evalueren. Werk ze "
+                   "in die orde af, want je kan niets verklaren wat je niet eerst beschreven hebt.",
+            waarom=[
+                "Vul de drie niveaus aan. Let op de derde rij: ook de ongewenste gevolgen benoemen "
+                "hoort erbij, en dat is precies wat oefening 4 uitlegt.",
+                "Noem alle vijf. Een goede oefening: neem één thema en zoek bij elke invalshoek één "
+                "zin, dan merk je welke invalshoek je vanzelf vergeet.",
+                "Noem de drie elementen: meerdere bronnen, betrouwbare en valide data, en onderzoek "
+                "om je uitspraken te steunen. Een mening met één bron is geen redeneren met bewijs.",
+                "Noem dat elke oplossing een prijs heeft. Wie ze zelf benoemt, neemt het argument "
+                "van de tegenpartij weg; wie ze verzwijgt, laat het klaarliggen.",
+            ],
+        ),
+        dict(
+            aanpak="Drie discussies rond het proces: de volksjury, de procedurefout en de pers. "
+                   "Bij elk hoort een botsing tussen twee goede dingen, en dat is wat de discussie "
+                   "levend houdt.",
+            waarom=[
+                "Twaalf, bij lot aangewezen uit de kiezerslijsten. Dat lot is geen gemakkigheid "
+                "maar het principe: zo kan niemand de samenstelling kiezen.",
+                "Geef één argument van elke kant, zoals gevraagd. Dat assisen zwaar weegt op de "
+                "juryleden, is een argument dat men vaak vergeet omdat het niet over de beklaagde "
+                "gaat.",
+                "Noem beide helften: waarvoor de vormregels dienen en waarom het toch onrecht "
+                "voelt. Beide kanten erkennen is hier het hele antwoord, en dat is het schema uit "
+                "reeks 1 in de praktijk.",
+                "Het vermoeden van onschuld tegenover de persvrijheid. Twee grondrechten, en "
+                "daarom is het geen kwestie van goed tegen slecht maar van afwegen.",
+                "Noem alle drie. Dat moeilijke taal erbij staat, is de reden dat justitie werkt aan "
+                "begrijpelijke vonnissen en aan uitleg bij een uitspraak.",
+            ],
+        ),
+        dict(
+            aanpak="Bij straf en strafuitvoering is de kernvraag altijd dezelfde: waarvoor dient "
+                   "deze maatregel, vergelden, beschermen of herval voorkomen? Daarmee kan je elke "
+                   "oefening in deze reeks beantwoorden.",
+            waarom=[
+                "Let op het verschil tussen de laatste twee: transitie- en detentiehuizen zijn een "
+                "vorm van straf uitvoeren, internering is een maatregel en geen straf. Dat verschil "
+                "legt oefening 13 uit.",
+                "Noem huis, werk en gezin in één zin. Dat is het argument in zijn kortste vorm, en "
+                "het gaat over herval en niet over mildheid.",
+                "Geef één argument van elke kant. Let erop dat beide kanten zich op cijfers "
+                "beroepen, en dat is precies waarom redeneren met bewijs uit reeks 1 hier nodig is.",
+                "Noem dat een straf schuld veronderstelt en een maatregel niet. Zo zie je dat het "
+                "hoofdstuk over de vrije wil geen theorie was: het zit in onze wetgeving.",
+                "Zestien jaar. Uithandengeving betekent dat een minderjarige niet door de "
+                "jeugdrechter maar als een meerderjarige behandeld wordt, en dat blijft een "
+                "uitzondering.",
+                "Noem dat bewijs verdwijnt en getuigen vergeten. Voor de zwaarste misdrijven heeft "
+                "de wetgever de verjaring afgeschaft, omdat het belang van vervolging daar zwaarder "
+                "weegt.",
+                "Niet waar. Een justitiehuis is de plaats waar justitieassistenten werken, met "
+                "onder meer begeleiding en slachtofferonthaal; een transitiehuis is kleinschalige "
+                "detentie gericht op de terugkeer na de straf.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-buitengerechtelijke-procedures-en-juridische-bijstand-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Eén vraag ordent dit hele hoofdstuk: wie beslist uiteindelijk? Bij bemiddeling "
+                   "en verzoening de partijen zelf, bij arbitrage een derde die ze samen kozen, bij "
+                   "een proces een rechter die ze niet kozen.",
+            waarom=[
+                "Vul de drie rijen in en let op de laatste: bij arbitrage geeft men de beslissing "
+                "wél uit handen. Dat is waarom arbitrage dichter bij een proces staat dan bij "
+                "bemiddeling.",
+                "Buiten de rechtbank om. Het woord zegt niet dat het geen juridische waarde heeft: "
+                "een bemiddelingsakkoord kan door een rechter bekrachtigd worden.",
+                "Noem de vraag wie beslist en pas ze op de drie toe. Met die ene vraag kan je ze "
+                "altijd uit elkaar houden, ook als je de namen even kwijt bent.",
+            ],
+        ),
+        dict(
+            aanpak="Bij bemiddeling gaan de voordelen en de keerzijde over hetzelfde: de partijen "
+                   "houden het in eigen hand. Dat maakt ze sneller en zachter, maar ook afhankelijk "
+                   "van hun bereidheid.",
+            waarom=[
+                "Noem alle vier. Dat vertrouwelijkheid erbij staat, is een echt verschil met een "
+                "proces: een zitting is in beginsel openbaar en een vonnis is dat ook.",
+                "Noem twee voorbeelden, want dat is gevraagd. De kern: een vonnis maakt een "
+                "winnaar en een verliezer, en dat is lastig als je daarna nog met elkaar verder "
+                "moet.",
+                "Noem beide helften, de keerzijde en wat er bij mislukking gebeurt. Dat je je recht "
+                "om te procederen niet verliest, is wat bemiddeling zo weinig riskant maakt.",
+                "Niet waar. Ook tijdens een lopende procedure kan een rechter de partijen naar "
+                "bemiddeling sturen, en soms gebeurt dat op zijn voorstel.",
+            ],
+        ),
+        dict(
+            aanpak="Juridische bijstand bestaat in twee lijnen: een kort eerste advies voor "
+                   "iedereen, en een advocaat die je dossier opneemt als je inkomen laag genoeg is. "
+                   "Houd daarbij de adressen uit elkaar aan wat ze doen.",
+            waarom=[
+                "Vul de tabel rij per rij in: wat je krijgt, hoe lang, en voor wie. Het verschil "
+                "zit vooral in de duur: een gesprek tegenover je hele zaak.",
+                "Een pro deo advocaat. De officiële naam is juridische tweedelijnsbijstand, en in "
+                "de wet heet de advocaat dan aangestelde of toegevoegde advocaat.",
+                "Noem dat het een recht is en geen gunst. En noem dat de overheid de advocaat "
+                "vergoedt, want dat verklaart waarom het geen liefdadigheid is.",
+                "Noem dat gelijkheid voor de wet anders van je bankrekening zou afhangen. Dat is "
+                "het argument in één zin, en het verbindt dit hoofdstuk met de principes van de "
+                "rechtsstaat.",
+                "Let op het verschil tussen de wetswinkel en het Bureau voor Juridische Bijstand: "
+                "de eerste geeft een eerste advies, het tweede stelt een advocaat aan. En het CAW "
+                "is geen juridisch adres maar hulpverlening.",
+                "Noem bemiddeling en waarom. Dit is dezelfde reden als bij oefening 5: ze blijven "
+                "buren, dus de verhouding na de ruzie weegt mee.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-gerechtelijke-piramide-rechtbanken-en-hoven-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Om te weten waar een zaak thuishoort, heb je twee vragen nodig: waarover gaat "
+                   "het (materieel) en waar is het gebeurd of waar woont de verweerder "
+                   "(territoriaal). Beide moeten kloppen.",
+            waarom=[
+                "Materieel gaat over het soort zaak en het bedrag, territoriaal over de plaats. De "
+                "eerste vraag kiest de soort rechtbank, de tweede welke van die rechtbanken in het "
+                "land.",
+                "Pas beide vragen toe, zoals gevraagd. Onder 5.000 euro is het vredegerecht "
+                "bevoegd, en het kanton volgt uit de woonplaats.",
+            ],
+        ),
+        dict(
+            aanpak="Elke rechtbank heeft haar eigen soort zaken. Leer ze aan één sleutelwoord: "
+                   "huur en kleine geschillen, verkeer, werk, onderneming, familie, misdrijven en "
+                   "minderjarigen.",
+            waarom=[
+                "Let op de politierechtbank: ondanks haar naam gaat ze over verkeer en lichte "
+                "overtredingen, niet over de politie. Dat is de valkuil van deze reeks.",
+                "Let op het verschil tussen de jeugdrechtbank en de correctionele rechtbank: de "
+                "leeftijd beslist, niet de ernst. En op de arbeidsrechtbank, die zowel over ontslag "
+                "als over uitkeringen gaat.",
+                "Vijfduizend euro. Daarboven gaat een burgerlijke zaak naar de rechtbank van eerste "
+                "aanleg.",
+                "Noem alle vijf. Dat de strafuitvoeringsrechtbank erbij staat, is logisch zodra je "
+                "het hoofdstuk over straf gelezen hebt: ook het verloop van een straf wordt door "
+                "een rechter bewaakt.",
+                "Niet waar. De jeugdrechtbank zit niet openbaar, om het kind te beschermen. Dat is "
+                "de uitzondering op de openbaarheid uit het hoofdstuk over de rechtspraak.",
+            ],
+        ),
+        dict(
+            aanpak="De piramide heeft drie verdiepingen: eerst de feiten, dan een tweede volledige "
+                   "behandeling, dan enkel nog het recht. Houd dat laatste goed vast, want daar "
+                   "zitten de meeste fouten.",
+            waarom=[
+                "Let op het Hof van Cassatie: het is geen derde beroep. Het kijkt niet naar de "
+                "feiten en spreekt geen nieuw oordeel over de zaak uit.",
+                "Noem beide en vooral dat cassatie de zaak terugstuurt. Daarom zegt men dat "
+                "cassatie een uitspraak verbreekt en niet hervormt.",
+                "Vul de drie trappen in. Let op de laatste regel: enkel over de toepassing van het "
+                "recht, en dat is dezelfde grens als in oefening 9.",
+                "Een rechtbank spreekt een vonnis uit, een hof een arrest. Een handig steuntje: hof "
+                "en arrest hebben beide iets plechtigs.",
+                "Noem dat een rechter zich kan vergissen. En noem dat het een waarborg is, geen "
+                "vertragingstruc, want dat is wat de vraag met twee instanties bedoelt.",
+                "Noem dat het vonnis definitief wordt, ook als het fout was. Daarom is de termijn "
+                "zelf een van de eerste dingen die een advocaat nakijkt.",
+                "Het Grondwettelijk Hof en de Raad van State. Ze staan naast de piramide omdat ze "
+                "geen gewone geschillen beslechten: het ene toetst wetten aan de grondwet, het "
+                "andere beslissingen van het bestuur.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-burgerlijk-recht-en-strafrecht-het-verloop-van-een-procedure-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vraag je bij elke zaak af wie er tegenover wie staat. Twee particulieren met "
+                   "een geschil is burgerlijk recht; de samenleving tegenover iemand die de wet "
+                   "overtrad, is strafrecht.",
+            waarom=[
+                "Vul de tabel rij per rij in en let op de rij over wie de zaak start: een "
+                "particulier tegenover het openbaar ministerie. Dat is het duidelijkste verschil "
+                "tussen de twee takken.",
+                "Let op het patroon: geld en familie bij het burgerlijk recht, verkeer en diefstal "
+                "bij het strafrecht. Dat is geen toeval: het strafrecht gaat over wat de wet "
+                "strafbaar stelt.",
+                "Noem de vechtpartij in beide takken én de burgerlijke partijstelling. Dat laatste "
+                "is het praktische stuk: het spaart het slachtoffer een tweede procedure.",
+            ],
+        ),
+        dict(
+            aanpak="Een burgerlijke procedure heeft vijf stappen: inleiden, stukken uitwisselen, "
+                   "pleiten, vonnis, uitvoering. Onthoud dat de laatste stap erbij hoort, want een "
+                   "vonnis dat niet uitgevoerd wordt, helpt niemand.",
+            waarom=[
+                "Vul de vijf stappen in. Let erop dat de uitvoering de laatste is en niet "
+                "vanzelfsprekend: daarvoor is soms opnieuw een deurwaarder nodig.",
+                "Hoor en wederhoor: elke partij mag op de argumenten van de andere antwoorden. Dat "
+                "is hetzelfde principe als in het hoofdstuk over de rechtspraak.",
+                "Noem dat de partijen met elkaar verder moeten. Dat is dezelfde reden als bij de "
+                "buren uit het hoofdstuk over bemiddeling.",
+                "Niet waar. Veel zaken eindigen met een akkoord tussen de partijen, soms tijdens de "
+                "procedure zelf, en dan komt er geen vonnis.",
+            ],
+        ),
+        dict(
+            aanpak="Volg de weg van een strafzaak in de orde waarin ze loopt: een feit, een "
+                   "proces-verbaal, een vooronderzoek, een beslissing van het parket, en pas "
+                   "daarna een proces. Dan vallen alle termen op hun plaats.",
+            waarom=[
+                "Noem dat de wet het strafbaar moet stellen. Zonder strafwet is er geen misdrijf, "
+                "hoe verwerpelijk het gedrag ook is, en dat is het legaliteitsbeginsel.",
+                "Een proces-verbaal, kortweg pv. Het is geen vonnis en geen beschuldiging, enkel "
+                "een vaststelling op papier.",
+                "Vul beide rijen in: wie leidt het en wanneer. De kern van de laatste kolom: een "
+                "huiszoeking of een aanhouding snijdt diep in iemands rechten, dus moet een "
+                "onafhankelijke rechter beslissen.",
+                "Noem alle drie. Dat seponeren erbij hoort, verklaart waarom veel aangiftes nooit "
+                "bij een rechter komen.",
+                "Noem dat een vrijspraak van een rechter komt. Dat verschil is belangrijk voor een "
+                "slachtoffer: bij een sepot is er geen uitspraak over schuld, in geen van beide "
+                "richtingen.",
+                "De raadkamer beslist, de kamer van inbeschuldigingstelling behandelt het beroep. "
+                "Een steuntje: de tweede naam hoort bij het hof van beroep, en klinkt ook "
+                "zwaarder.",
+                "Het onderzoek ter terechtzitting. Let op het verschil met het vooronderzoek: dat "
+                "is niet openbaar, dit wel, en dat is precies het moment waarop de openbaarheid "
+                "speelt.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-juridische-termen-en-actoren-beyond-doorstroom"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De naam van een partij hangt af van twee dingen: in welke tak je zit, en hoe "
+                   "ver de zaak staat. Eiser en verweerder horen bij een burgerlijke zaak, "
+                   "verdachte en beklaagde bij een strafzaak.",
+            waarom=[
+                "Let op het verschil tussen verdachte en beklaagde: dezelfde persoon, een andere "
+                "fase. Verdachte tijdens het vooronderzoek, beklaagde zodra hij voor de rechter "
+                "staat.",
+                "De burgerlijke partij. Zo hoeft het slachtoffer geen tweede, burgerlijke "
+                "procedure te starten, en dat is wat in het vorige hoofdstuk met de vechtpartij "
+                "werd uitgelegd.",
+                "De beschuldigde. Drie namen voor dezelfde rol dus, elk in een andere fase of voor "
+                "een ander rechtscollege: verdachte, beklaagde, beschuldigde.",
+                "Noem het vermoeden van onschuld. Dat is niet alleen een juridisch punt maar ook "
+                "een taalkundig: wie in de krant dader schrijft waar verdachte hoort, velt het "
+                "oordeel zelf.",
+            ],
+        ),
+        dict(
+            aanpak="Zet de mensen van justitie op een rij naar hun rol: vervolgen, onderzoeken, "
+                   "optekenen, betekenen en uitvoeren, verdedigen, en oordelen. Elk heeft precies "
+                   "één rol, en die rollen mogen niet door elkaar lopen.",
+            waarom=[
+                "Let op de gerechtsdeurwaarder: hij staat aan het begin én het einde van een zaak, "
+                "want hij betekent de dagvaarding en voert het vonnis uit.",
+                "De procureur, met zijn substituten. Bij een hof van beroep heet hij de "
+                "procureur-generaal.",
+                "Noem dat hij rechter is en geen vervolger. Dat hij ook het ontlastende bewijs moet "
+                "zoeken, is het stuk dat men vergeet, en net dat maakt zijn rol bijzonder.",
+                "Waar. De griffier maakt de zitting rechtsgeldig en houdt het dossier bij; zonder "
+                "hem kan een zaak niet doorgaan. Zijn werk valt niet op en is onmisbaar.",
+                "Noem het beroepsgeheim en de deontologie van de balie. Dat sluit aan bij het "
+                "hoofdstuk over deontologie: een code naast de wet, met de orde als tuchtinstantie.",
+            ],
+        ),
+        dict(
+            aanpak="Deze woorden komen allemaal in een brief of een dossier voor. Leer ze aan wat "
+                   "ze met je dóen: je uitnodigen, je zaak opnieuw laten bekijken, je zaak zonder "
+                   "gevolg laten.",
+            waarom=[
+                "Let op het verschil tussen beroep en cassatie: opnieuw behandelen tegenover enkel "
+                "nakijken of het recht juist is toegepast. Dat is dezelfde grens als in het "
+                "hoofdstuk over de piramide.",
+                "Let op seponeren en de minnelijke schikking: in beide gevallen komt er geen "
+                "vonnis, maar bij een schikking is er wel een afspraak en meestal een betaling.",
+                "Noem de brief en de termijn. Dat moeilijke taal meespeelt in de kloof tussen "
+                "burger en justitie, is hetzelfde punt als in het hoofdstuk over actuele thema's.",
+            ],
+        ),
     ],
 )
