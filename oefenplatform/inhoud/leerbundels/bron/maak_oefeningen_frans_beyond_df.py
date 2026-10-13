@@ -677,3 +677,845 @@ _ORDE = ["een-franse-tekst-lezen", "tekstsoorten-en-de-bedoeling-van-een-tekst",
 assert sorted(_ORDE) == sorted(s[len(VOOR):-len(NIVEAU)] for s in OEFENBUNDELS), \
     "orde klopt niet met de bundels"
 OEFENBUNDELS = {VOOR + s + NIVEAU: OEFENBUNDELS[VOOR + s + NIVEAU] for s in _ORDE}
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-een-franse-tekst-lezen-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Lees de tekst eerst één keer helemaal door zonder woordenboek, en onderstreep "
+                   "daarna de cijfers en de namen. Daar gaan de vragen over.",
+            waarom=[],
+        ),
+        dict(
+            aanpak="Elk antwoord staat in de tekst. Zoek de alinea terug en antwoord met wat daar "
+                   "staat; een korte volledige zin is genoeg.",
+            waarom=[
+                "In Namen, dus Namur in het Frans. Let op de Franse namen van onze steden: Namur, "
+                "Liège, Anvers, Gand, Bruges, Louvain.",
+                "Noem beide redenen, want ze geeft er twee: sneller in de stad, en geen "
+                "parkeerplaats zoeken. Eén van de twee is maar de helft.",
+                None,
+                "Noem ook wat ze niet doen, want dat is uitdrukkelijk gevraagd. Dat ze het werk "
+                "niet in jouw plaats doen, is het hele idee van zo'n café.",
+                "Een cake, un gâteau. Dat detail zegt iets over de sfeer: je betaalt er niet, je "
+                "brengt iets mee.",
+                "Noem beide: een knoop aanzetten en een broek korter maken. Zo zie je dat ze van "
+                "iemand die geholpen werd, iemand is geworden die helpt.",
+            ],
+        ),
+        dict(
+            aanpak="Zoek het Franse woord in de tekst zelf terug in plaats van het uit je hoofd te "
+                   "vertalen. Zo leer je het in zijn context, en dat blijft beter hangen.",
+            waarom=[
+                "Let op un bénévole: een vrijwilliger, van bene en volo, goed willen. En se garer "
+                "is wederkerend, dus met se, terwijl wij gewoon parkeren zeggen.",
+                "Stuk vallen of niet meer werken. Het is een vaste uitdrukking, dus niet woord voor "
+                "woord te vertalen, en ze geldt voor een auto, een fiets en een machine.",
+            ],
+        ),
+        dict(
+            aanpak="Bij waar of niet waar moet je de plaats in de tekst aanwijzen. Let op de kleine "
+                   "woordjes: chaque matin, une fois par semaine, encore. Daar zit het verschil.",
+            waarom=[
+                "Niet waar: chaque matin, dus elke ochtend en niet één keer per week. Zulke vragen "
+                "testen of je het bijwoord van tijd gelezen hebt.",
+                None,
+                "Niet waar: de winkel vroeg tachtig euro, en dat is precies de reden dat ze naar "
+                "het Repair Café ging. Let op wie wat vroeg.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Hier staat het antwoord niet in de tekst. Lees het citaat nog eens en vraag je "
+                   "af waarom zij dat zegt, met wat je over haar weet.",
+            waarom=[
+                "Noem dat ze iets over haar leeftijd en haar nut zegt. Elk antwoord dat je met de "
+                "tekst kan verdedigen is goed, zolang je erbij zegt waaruit je het haalt.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-tekstsoorten-en-de-bedoeling-van-een-tekst-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vraag je telkens af wat de tekst van jou wil: iets weten, iets doen, iets "
+                   "vinden, of meegaan in een verhaal. Dat doel bepaalt de soort, niet het "
+                   "onderwerp.",
+            waarom=[
+                "Let op het verschil tussen prescriptif en persuasif: een recept zegt stap voor "
+                "stap wat je moet doen, een advertentie wil je overtuigen. En tussen informatif en "
+                "argumentatif: een artikel brengt feiten, een open brief verdedigt een standpunt.",
+                "Aan de imperatief en de genummerde stappen: mélangez, ajoutez, laissez cuire. Dat "
+                "is de snelste herkenning van alle zes.",
+            ],
+        ),
+        dict(
+            aanpak="Een feit kan je nakijken, een mening niet. Zoek dus naar woorden die een "
+                   "waardering uitdrukken: een overtreffende trap, à mon avis, clairement.",
+            waarom=[
+                "De eerste, derde en vijfde noemen een jaartal, een verhouding en een bedrag: alle "
+                "drie na te kijken. Let op: een feit hoeft niet juist te zijn om een feit te zijn, "
+                "het moet enkel te controleren zijn.",
+                "Le plus beau is een overtreffende trap van een smaakoordeel, en à mon avis zegt "
+                "zelf dat het een mening is. Juist dat soort woorden zoek je.",
+            ],
+        ),
+        dict(
+            aanpak="Een verbindingswoord moet passen bij de verhouding tussen de twee delen: "
+                   "tegenstelling, gevolg, voorwaarde of reden. Lees de zin dus eerst zonder het "
+                   "woord en bepaal welke van de vier het is.",
+            waarom=[
+                "Let op pourtant en cependant: beide betekenen nochtans of toch, en ze staan bij "
+                "een tegenstelling. Donc en c'est pourquoi staan bij een gevolg, en parce que bij "
+                "een reden.",
+                "Let op en revanche: daarentegen, dus een tegenstelling, terwijl en outre erbij "
+                "optelt. Deze vier woorden staan vooraan in de zin en maken je tekst "
+                "overzichtelijk.",
+            ],
+        ),
+        dict(
+            aanpak="Elke tekstsoort heeft haar eigen plaats. Vraag je af waar zoiets fysiek "
+                   "terechtkomt: in een doosje, in een brievenbus, op een bord in het station.",
+            waarom=[
+                "Let op un faire-part: een kaartje bij een geboorte, een huwelijk of een "
+                "overlijden. En un mode d'emploi is de handleiding, letterlijk de manier van "
+                "gebruiken.",
+                "Iets kopen of ergens naartoe gaan. Een advertentie wil dus niet dat je iets weet "
+                "maar dat je iets doet, en dat is wat ze persuasif maakt.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-franstalige-wereld-gewoontes-en-reizen-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Twee vragen beslissen: ken ik deze persoon, en is hij van mijn leeftijd? Twee "
+                   "keer ja geeft tu, voor de rest neem je vous. In twijfel is vous altijd de "
+                   "veilige keuze.",
+            waarom=[
+                "Let op de moeder van een vriend: ouder dan jij en niet echt bekend, dus vous. En "
+                "in elke werkrelatie begin je met vous, ook bij iemand van je eigen leeftijd.",
+            ],
+        ),
+        dict(
+            aanpak="Deze woorden hoor je in elk gesprek en in elke film, maar ze hebben geen "
+                   "letterlijke Nederlandse tegenhanger. Leer ze met het moment of het gebruik "
+                   "erbij.",
+            waarom=[
+                "Let op la rentrée: niet enkel de eerste schooldag maar de hele terugkeer na de "
+                "zomer, ook op het werk. En le bac is het Franse eindexamen van het secundair; "
+                "Belgie heeft dat niet.",
+                "De veertiende juli, de bestorming van de Bastille in 1789. In Belgie is het 21 "
+                "juli, en dat is een handige vergelijking.",
+                "Bonjour. In Frankrijk is een vraag zonder bonjour onbeleefd, ook aan een loket of "
+                "in een winkel. Het is het woord dat de deur opent.",
+            ],
+        ),
+        dict(
+            aanpak="Frans is niet van Frankrijk alleen. Leer bij elk gebied één voorbeeld, en leer "
+                   "de varianten als paar: de Belgische of Canadese vorm naast de Franse.",
+            waarom=[
+                "Let op Marokko: Frans is daar geen officiële taal, want dat zijn het Arabisch en "
+                "het Amazigh, maar het wordt veel gebruikt in het onderwijs en het bestuur. Senegal "
+                "en de Democratische Republiek Congo hebben het wel als officiële taal.",
+                "Let op septante en nonante: die gebruiken wij en de Zwitsers, Frankrijk zegt "
+                "soixante-dix en quatre-vingt-dix. La fin de semaine is Quebecs, want daar vermijdt "
+                "men Engelse woorden veel meer.",
+            ],
+        ),
+        dict(
+            aanpak="Op reis heb je een handvol vaste zinnen nodig. Begin met pardon of excusez-moi, "
+                   "eindig met s'il vous plaît, en je komt er in elke situatie.",
+            waarom=[
+                "Let op combien ça coûte: in de spreektaal met ça, terwijl combien est-ce que cela "
+                "coûte formeler is. En j'ai raté mon train: rater is missen, van een trein of een "
+                "afspraak.",
+                "Let op le quai: het perron, en ook de kade aan het water. En la douane is de "
+                "douane, met un douanier als beambte.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-schrijven-en-spreken-in-het-frans-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Een tekst zonder opbouw leest als een lijst. Weet dus voor je begint wat je "
+                   "eerste en wat je laatste zin wordt.",
+            waarom=[
+                None,
+                "Un paragraphe, met een ph. Let op dat une phrase een zin is en geen alinea; die "
+                "twee worden het vaakst verward.",
+            ],
+        ),
+        dict(
+            aanpak="Een formele mail in het Frans ligt veel vaster dan bij ons. Leer de aanspreking "
+                   "en de slotformule letterlijk vanbuiten, dan hoef je enkel het midden te "
+                   "bedenken.",
+            waarom=[
+                "Let op Madame, Monsieur zonder naam als je niet weet wie het leest, met een komma "
+                "erachter. En de slotformule staat altijd apart op haar eigen regel, vóór je naam.",
+                "Begin met de aanspreking en dan onmiddellijk je reden. In een Franse mail val je "
+                "niet met de deur in huis, maar je draait er ook niet drie zinnen omheen.",
+            ],
+        ),
+        dict(
+            aanpak="De conditionnel maakt een vraag hoffelijk: je voudrais in plaats van je veux, "
+                   "pourriez-vous in plaats van vous pouvez. Herken hem aan de uitgang -rais of "
+                   "-riez.",
+            waarom=[
+                "Let op j'aimerais: dat is de conditionnel van aimer en niet de tegenwoordige tijd "
+                "j'aime. En een gebiedende wijs zoals donnez-moi klinkt in het Frans erg direct, "
+                "dus die vervang je het best helemaal door een vraag.",
+            ],
+        ),
+        dict(
+            aanpak="Telefoneren is het moeilijkste deel, want je ziet de ander niet. Zorg dat je de "
+                   "zin om iets te laten herhalen klaar hebt voor je belt.",
+            waarom=[
+                "Let op c'est ... à l'appareil: letterlijk aan het toestel, en dat is de vaste "
+                "manier om je naam te zeggen. Pardon vooraan maakt je vraag om te herhalen "
+                "vriendelijk.",
+                "Noem dat je blijft praten in plaats van stil te vallen. Comment dit-on ... en "
+                "français is de zin die je uit elke blokkade haalt, en een goede spreker gebruikt "
+                "hem zonder schaamte.",
+            ],
+        ),
+        dict(
+            aanpak="Lees je tekst een laatste keer met één vraag per keer: staan alle werkwoorden "
+                   "juist, en komt alles overeen in getal en geslacht. Twee korte rondes vinden meer "
+                   "dan één algemene.",
+            waarom=[
+                "Let op elle est allée: aller hoort bij de werkwoorden met être, en dan gaat het "
+                "deelwoord mee met het onderwerp. En nous mangeons krijgt een e, want zonder die e "
+                "zou de g hard klinken.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordvelden-dagelijks-leven-eten-en-wonen-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Leer de woorden van je eigen dag in de orde waarin je ze doet. Zo heb je een "
+                   "ketting in plaats van een lijst.",
+            waarom=[
+                "Let op dat se lever, se laver, s'habiller en se coucher wederkerend zijn: in de "
+                "passé composé nemen ze être, dus je me suis levé. Prendre le petit déjeuner is "
+                "ontbijten; déjeuner alleen is in Frankrijk middagmalen.",
+                "Let op jamais en parfois: die zetten de hele zin in een ander licht, en ze staan "
+                "meestal na het werkwoord. Hier is gisteren en niet hier zoals in het Nederlands.",
+                "Schrijf in de passé composé, want het gaat over vanmorgen. Zet er een verbindings"
+                "woord tussen, bijvoorbeeld puis of ensuite, dan is het al een tekst in plaats van "
+                "drie losse zinnen.",
+            ],
+        ),
+        dict(
+            aanpak="Een bijvoeglijk naamwoord over een persoon moet mee met die persoon: gentil "
+                   "wordt gentille, content wordt contente. Leer dus telkens beide vormen.",
+            waarom=[
+                "Let op un cousin en une cousine: het Frans maakt onderscheid tussen een neef en "
+                "een nicht, wij niet. En timide is zowel mannelijk als vrouwelijk, want het eindigt "
+                "al op een e.",
+            ],
+        ),
+        dict(
+            aanpak="Leer de maaltijden en het bestek samen met het werkwoord dat erbij hoort: "
+                   "mettre la table, débarrasser, faire la vaisselle.",
+            waarom=[
+                "Let op à emporter: dat lees je op elke Franse winkelruit, naast sur place voor ter "
+                "plaatse eten. Une entrée is een voorgerecht en niet de ingang, al is dat hetzelfde "
+                "woord.",
+                "Noem beide, want juist dat verschil levert misverstanden op. Bij ons is le dîner "
+                "het middagmaal, in Frankrijk het avondmaal, en daar heet het middagmaal le "
+                "déjeuner.",
+            ],
+        ),
+        dict(
+            aanpak="In een winkel gaat bijna elke zin over een hoeveelheid. Leer de maten en het "
+                   "woordje dat erbij hoort als één geheel.",
+            waarom=[
+                "Let op une boîte d'œufs met d' omdat œufs met een klinker begint. En la monnaie is "
+                "het wisselgeld of de munt, terwijl l'argent het geld in het algemeen is.",
+                "De of d' voor een klinker. Dus un kilo de pommes zonder lidwoord, nooit un kilo "
+                "des pommes: dat is de fout die iedereen één keer maakt.",
+            ],
+        ),
+        dict(
+            aanpak="Wonen heeft zijn eigen woordenlijst. Leer de twee rollen samen, want ze komen "
+                   "altijd in paar voor: le locataire en le propriétaire.",
+            waarom=[
+                "Let op le rez-de-chaussée: het gelijkvloers, en de verdieping erboven is le "
+                "premier étage. Wat wij de eerste verdieping noemen, is dus hetzelfde, maar het "
+                "gelijkvloers telt niet mee.",
+                "Let op une tâche met een accent: een taak of klusje, terwijl une tache zonder "
+                "accent een vlek is. Eén streepje verschil geeft een heel andere zin.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordvelden-gezondheid-natuur-en-milieu-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Bij de dokter draait bijna alles om één bouwsteen: avoir mal à. Zet die vast en "
+                   "je kan elke klacht zeggen.",
+            waarom=[
+                "Let op une ordonnance: het voorschrift van de dokter, en daarmee ga je naar la "
+                "pharmacie. Un médecin généraliste is de huisarts, un spécialiste de specialist.",
+                "Noem de juiste vorm erbij. Het Frans zegt waar je pijn hebt met avoir mal à, dus "
+                "j'ai mal à la tête, j'ai mal au dos, j'ai mal aux dents, en niet met een bezittend "
+                "woord zoals wij.",
+            ],
+        ),
+        dict(
+            aanpak="Leer bij elk lichaamsdeel ook het lidwoord, want dat beslist of het à la, au of "
+                   "aux wordt in de klachtzin.",
+            waarom=[
+                "Let op l'œil met het meervoud les yeux: dat is onregelmatig en het staat in elk "
+                "examen. En la dent is vrouwelijk, dus j'ai mal aux dents in het meervoud.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Het weer heeft in het Frans zijn eigen vorm: il fait, il y a of één werkwoord "
+                   "alleen. Leer de drie soorten apart.",
+            waarom=[
+                "Let op une rivière en un fleuve: een fleuve mondt uit in de zee, een rivière in "
+                "een andere rivier. De Maas is un fleuve, de Demer une rivière.",
+                "Let op il gèle en il pleut: die hebben geen faire nodig, want het werkwoord zegt "
+                "zelf al wat het weer doet. Il y a du vent gebruikt dan weer il y a.",
+                "Faire, in de vorm il fait. Il fait beau, il fait froid, il fait du soleil: met die "
+                "ene bouwsteen kan je het grootste deel van een weerbericht zeggen.",
+            ],
+        ),
+        dict(
+            aanpak="De milieuwoorden lijken op onze eigen woorden, maar let op het geslacht en op "
+                   "het meervoud: les déchets staat altijd in het meervoud.",
+            waarom=[
+                "Let op la consommation: het verbruik, en consommer verbruiken. Trier is sorteren, "
+                "en dat woord staat op elke Franse vuilnisbak.",
+                "Gebruik on of nous als je over het gezin spreekt, en je als je over jezelf "
+                "spreekt. Drie zinnen met een werkwoord in de tegenwoordige tijd volstaan; het gaat "
+                "om wat je gewoonlijk doet.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordvelden-school-werk-geld-en-verkeer-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="School en werk gebruiken dezelfde soort woorden: een vak, een uurrooster, een "
+                   "gesprek, een papier dat bewijst wat je kan. Leer ze naast elkaar.",
+            waarom=[
+                "Let op une matière: een vak op school, en ook een stof of materiaal. En la "
+                "récréation is de pauze op school; een pauze op het werk is une pause.",
+                "Let op postuler pour un emploi: solliciteren, en un entretien is het gesprek dat "
+                "erop volgt. Au chômage is werkloos, en être licencié is ontslagen worden, dus het "
+                "overkomt je.",
+            ],
+        ),
+        dict(
+            aanpak="Rond geld hangen vaste zinnetjes die je aan een kassa hoort. Leer de vraag en "
+                   "het antwoord samen, dan kan je echt afrekenen.",
+            waarom=[
+                "Let op emprunter en prêter: emprunter is lenen van iemand, prêter is uitlenen aan "
+                "iemand. En l'addition is de rekening in een restaurant, la facture een factuur.",
+                "Let op Vous avez la monnaie: dat vraagt of je het gepast hebt of klein geld hebt, "
+                "niet of je geld hebt. Ça coûte combien is de spreektaalvorm van combien est-ce que "
+                "cela coûte.",
+            ],
+        ),
+        dict(
+            aanpak="Een weg uitleggen vraagt maar een handvol werkwoorden. Leer tourner, aller tout "
+                   "droit en traverser, en zet er jusqu'à bij om te zeggen tot waar.",
+            waarom=[
+                "Let op le feu: het verkeerslicht, en ook het vuur. En l'embouteillage is de file, "
+                "van une bouteille, dus letterlijk het flessenhals-effect.",
+                "Let op tout droit en à droite: tout droit is rechtdoor, à droite is naar rechts. "
+                "Dat is de verwarring die iemand letterlijk de verkeerde kant op stuurt.",
+                "Gebruik tu met het werkwoord in de tegenwoordige tijd, dat is de gewone manier om "
+                "een weg uit te leggen. Zet er jusqu'au feu of jusqu'à l'église bij, dan weet de "
+                "ander waar hij moet stoppen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordvelden-kunst-geschiedenis-en-de-samenleving-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Over kunst spreken is vooral zeggen wat je ervan vindt. Leer naast de woorden "
+                   "voor de dingen ook de vier zinnen om je mening te geven.",
+            waarom=[
+                "Let op un tableau: een schilderij, en ook het bord in de klas. Une pièce de "
+                "théâtre is een toneelstuk; une pièce alleen is een kamer of een stuk.",
+                "Let op Ça me plaît: letterlijk het bevalt mij, dus het ding is het onderwerp en "
+                "niet jij. En Ça ne me dit rien is een vaste uitdrukking: het zegt mij niets, het "
+                "trekt mij niet aan.",
+            ],
+        ),
+        dict(
+            aanpak="Geschiedenis vraagt jaartallen, en die zeg je in het Frans met de volle "
+                   "honderden. Oefen er een paar luidop, want geschreven lijken ze makkelijker dan "
+                   "ze klinken.",
+            waarom=[
+                "Let op un siècle: een eeuw, en le dix-neuvième siècle is de negentiende eeuw, dus "
+                "van 1801 tot 1900. Un événement heeft twee accenten, beide naar rechts.",
+                "Mille neuf cent quatorze, dus duizend negenhonderd veertien. Je kan ook dix-neuf "
+                "cent quatorze horen, maar de eerste vorm is de veiligste om te schrijven.",
+            ],
+        ),
+        dict(
+            aanpak="De woorden over de samenleving staan in elke krant. Leer er telkens het "
+                   "werkwoord bij: une élection en élire, une manifestation en manifester.",
+            waarom=[
+                "Let op la commune: de gemeente, en le conseil communal de gemeenteraad. Faire du "
+                "bénévolat is vrijwilligerswerk doen, van un bénévole, een vrijwilliger.",
+                "Gebruik à mon avis vooraan en parce que in de tweede of derde zin, want dat is "
+                "precies wat gevraagd is. Welk onderwerp je kiest maakt niet uit, zolang je je "
+                "mening onderbouwt.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordvelden-wetenschap-techniek-en-taal-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Techniek bestaat vooral uit werkwoorden in de gebiedende wijs: aanzetten, "
+                   "uitdoen, insteken. Leer de paren samen, dan ken je er twee tegelijk.",
+            waarom=[
+                "Let op le mot de passe: letterlijk het woord om te passeren. En la batterie is de "
+                "batterij van een toestel; une pile is een losse batterij die je koopt.",
+                "Let op allumer en éteindre: aanzetten en uitdoen, en die twee gelden voor een licht "
+                "en voor een toestel. Ça ne marche pas betekent het werkt niet, al betekent marcher "
+                "ook stappen.",
+            ],
+        ),
+        dict(
+            aanpak="De wetenschapswoorden lijken op onze eigen, maar de werkwoorden zijn anders: "
+                   "mesurer, peser, calculer. Leer bij elk het zelfstandig naamwoord: la mesure, le "
+                   "poids, le calcul.",
+            waarom=[
+                "Let op le poids: met een d die je niet hoort, van peser. En la température heeft "
+                "twee accenten, allebei naar rechts.",
+                "Noem beide betekenissen, want dat is de hele vraag. Une expérience is een proef in "
+                "het labo en ook ervaring, en enkel de zin eromheen maakt duidelijk welke van de "
+                "twee bedoeld is.",
+            ],
+        ),
+        dict(
+            aanpak="Dit zijn de woorden waarmee je over de taal zelf spreekt. Je hebt ze nodig in "
+                   "de klas, en vooral om een gesprek verder te zetten als je iets niet begrijpt.",
+            waarom=[
+                "Let op une phrase: een zin, en niet een frase of een alinea. En une faute is een "
+                "fout; une erreur kan ook een vergissing in een berekening zijn.",
+                "Let op Comment ça s'écrit: met het wederkerende s', want het Frans zegt hoe schrijft "
+                "dat zich. En Qu'est-ce que ça veut dire is letterlijk wat wil dat zeggen.",
+                "Noem dat je met die vier in het Frans kan blijven. Dat is precies wat een "
+                "taalexamen spreken beoordeelt: niet of je alles kent, maar of je verder kan zonder "
+                "over te schakelen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-lidwoorden-aanwijzers-bezitters-en-getallen-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Het geslacht van een Frans woord zit vaak in zijn uitgang. Leer de vier "
+                   "grootste groepen, dan hoef je veel minder vanbuiten te leren.",
+            waarom=[
+                "Let op le problème: ondanks de e op het einde is het mannelijk, net als le système "
+                "en le programme. En l'eau is vrouwelijk, wat je enkel ziet aan de la belle eau, "
+                "want het lidwoord verdwijnt voor de klinker.",
+                "De uitgang -tion, zoals la nation, la question, la solution. Daartegenover zijn "
+                "-age en -ment bijna altijd mannelijk: le voyage, le silence hoort bij een derde "
+                "groep op -ence, die vrouwelijk is behalve enkele uitzonderingen zoals le silence.",
+            ],
+        ),
+        dict(
+            aanpak="De gewone regel is een s erbij, maar een handvol uitgangen doen iets anders. "
+                   "Leer die apart, want ze komen heel vaak voor.",
+            waarom=[
+                "Let op de drie groepen: -al wordt -aux (un journal, un cheval), -ail wordt soms "
+                "-aux (un travail), en -eau wordt -eaux. Un oeil wordt des yeux, en dat is volledig "
+                "onregelmatig.",
+                "Het blijft hetzelfde. Un prix, des prix; un nez, des nez. Alleen het lidwoord "
+                "verraadt dan het meervoud, dus lees dat goed.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je per zin af welk van de drie je nodig hebt: de hele soort (le), een "
+                   "ervan (un), of een deel ervan (du). Het werkwoord helpt: aimer vraagt le, "
+                   "manger en boire vragen du.",
+            waarom=[
+                "Let op J'aime le fromage: bij aimer gebruik je het bepaald lidwoord, want je houdt "
+                "van de kaas in het algemeen. Bij boire en acheter neem je het delend lidwoord: je "
+                "bois de l'eau, il achète du pain.",
+                "Du, de la en des worden de of d' in een ontkenning. Dus je ne mange pas de viande, "
+                "en niet pas de la viande. Het bepaald lidwoord verandert wel niet: je n'aime pas "
+                "le fromage blijft.",
+            ],
+        ),
+        dict(
+            aanpak="Een aanwijzer en een bezitter komen altijd vooraan en gaan mee met het woord "
+                   "erachter, niet met de persoon. Kijk dus naar het naamwoord.",
+            waarom=[
+                "Let op cet arbre: voor een mannelijk woord dat met een klinker begint neem je cet, "
+                "niet ce en niet cette. En leur décision heeft geen s, want er is maar één "
+                "beslissing; leurs décisions zou meerdere zijn.",
+            ],
+        ),
+        dict(
+            aanpak="De Franse getallen boven zestig rekenen. Schrijf er een paar voluit tot je de "
+                   "koppeltekens en de s automatisch zet.",
+            waarom=[
+                "Let op de s: quatre-vingts en deux cents krijgen een s omdat er niets achter komt, "
+                "maar quatre-vingt-quinze verliest hem weer. Mille krijgt nooit een s. En soixante "
+                "et onze schrijft et, net als vingt et un.",
+                "Let op le premier met zijn vrouwelijke vorm la première; de andere rangtelwoorden "
+                "maken gewoon -ième. La moitié is de helft als hoeveelheid, un demi is een half in "
+                "een berekening.",
+                "Septante en nonante, net als in Zwitserland. Frankrijk zegt soixante-dix en "
+                "quatre-vingt-dix, en beide vormen zijn juist Frans; in een examen schrijf je het "
+                "best de Franse vorm.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-voornaamwoorden-en-betrekkelijke-bijzinnen-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Het Frans heeft twee reeksen: de korte vormen bij het werkwoord (je, tu, il) en "
+                   "de lange vormen die alleen kunnen staan (moi, toi, lui). Vraag je af of het "
+                   "voornaamwoord tegen een werkwoord aan staat.",
+            waarom=[
+                "Let op Moi et ma soeur, nous habitons ici: de lange vorm vooraan, en daarna nog "
+                "eens nous bij het werkwoord. Dat dubbele is in het Frans juist en bij ons niet.",
+                "Noem alle drie de gevallen. Na een voorzetsel (pour moi, chez eux), na c'est "
+                "(c'est moi) en bij nadruk (moi, je pense que...). In alle andere gevallen staat de "
+                "korte vorm bij het werkwoord.",
+            ],
+        ),
+        dict(
+            aanpak="Het verschil tussen COD en COI zit in één woordje: staat er à voor het "
+                   "voorwerp. Zonder à is het een COD, met à een COI.",
+            waarom=[
+                "Let op téléphoner à en répondre à: in het Frans met à, bij ons zonder voorzetsel. "
+                "Juist bij die werkwoorden kies je dan lui of leur en niet le of la.",
+                "Noem beide vragen. Je vois qui of je vois quoi geeft het COD, je parle à qui geeft "
+                "het COI. Die ene toets beslist later of je le of lui schrijft.",
+            ],
+        ),
+        dict(
+            aanpak="Het voornaamwoord komt vóór het werkwoord, ook in een ontkenning en in de passé "
+                   "composé. Kijk eerst of het voorwerp een COD of een COI was.",
+            waarom=[
+                "Let op Je l'ai vu: het voornaamwoord staat voor de hulpwerkwoordsvorm ai en niet "
+                "voor vu. En bij een ontkenning gaat het ertussen: elle ne le connaît pas.",
+            ],
+        ),
+        dict(
+            aanpak="Y en en nemen elk hun eigen soort voorwerp over. Kijk naar het voorzetsel in de "
+                   "oorspronkelijke zin: à geeft y, de geeft en.",
+            waarom=[
+                "Let op Elle en a trois: en vervangt ook een hoeveelheid, en dan blijft het getal "
+                "staan. En avoir besoin de wordt en as besoin, want het voorzetsel is de.",
+                "Noem het voorzetsel bij elk. Y hoort bij à en bij een plaats, en hoort bij de, du, "
+                "de la, des en bij hoeveelheden. Dat is de hele regel, en met die ene toets kan je "
+                "altijd kiezen.",
+            ],
+        ),
+        dict(
+            aanpak="Zoek bij elk betrekkelijk woord wat er onmiddellijk achter komt. Volgt er een "
+                   "werkwoord, dan is het qui; volgt er een onderwerp, dan is het que.",
+            waarom=[
+                "Let op dont: dat staat waar het Nederlands waarover of waarvan zegt, dus bij een "
+                "werkwoord of een naamwoord met de. Parler de iets wordt dont tout le monde parle.",
+                "Noem de toets zelf. Qui als er geen onderwerp volgt, want qui is dan het "
+                "onderwerp; que als er wel een onderwerp volgt, want que is dan het voorwerp. Voor "
+                "een klinker wordt que qu'.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-bijvoeglijke-naamwoorden-bijwoorden-en-voorzetsels-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Maak eerst de vrouwelijke vorm, en zet daarna pas de s voor het meervoud. In "
+                   "die orde maak je veel minder fouten.",
+            waarom=[
+                "Let op de groepen: -eux wordt -euse (heureux, heureuse), -il verdubbelt de l "
+                "(gentil, gentille), en blanc wordt blanche. Vieux en frais zijn apart: vieille en "
+                "fraîche. Des murs vieux blijft vieux, want het meervoud mannelijk verandert niet.",
+            ],
+        ),
+        dict(
+            aanpak="De meeste Franse bijvoeglijke naamwoorden komen achter het naamwoord. Enkel een "
+                   "kleine groep korte, veelgebruikte woorden gaat ervoor.",
+            waarom=[
+                "Let op une belle histoire: beau wordt belle voor een vrouwelijk woord, en het "
+                "staat vooraan. Een kleur en een nationaliteit staan altijd achteraan: une voiture "
+                "rouge, un plat italien.",
+                "Noem de groep en geef er voorbeelden bij. Het zijn de korte, veelgebruikte: beau, "
+                "bon, grand, petit, jeune, vieux, nouveau, joli, mauvais. Alle andere komen "
+                "achteraan.",
+            ],
+        ),
+        dict(
+            aanpak="Een bijwoord maak je uit de vrouwelijke vorm plus -ment. Twee uitgangen doen "
+                   "iets anders, en twee woorden zijn volledig onregelmatig.",
+            waarom=[
+                "Let op évidemment en couramment: bij -ent en -ant wordt het -emment en -amment, en "
+                "die klinken allebei als -amment. En vraiment verliest de e van vraie.",
+                "De vrouwelijke vorm. Lente geeft lentement, heureuse geeft heureusement. Bon en "
+                "mauvais vallen buiten de regel: die geven bien en mal.",
+            ],
+        ),
+        dict(
+            aanpak="Vergelijken gaat met plus, moins of aussi, en daarna que. Drie woorden hebben "
+                   "een eigen vorm en die moet je kennen.",
+            waarom=[
+                "Let op de drie onregelmatige: bon wordt meilleur, bien wordt mieux, mauvais wordt "
+                "pire. Meilleur hoort bij een naamwoord, mieux bij een werkwoord: un meilleur livre, "
+                "il travaille mieux.",
+                "Plus bon bestaat niet, en plus meilleur is dubbel. Meilleur is zelf al de "
+                "vergrotende trap van bon, dus er mag geen plus bij.",
+                "Que. Plus grand que, moins cher que, aussi cher que. Bij een overtreffende trap "
+                "neem je de: le plus grand de la classe.",
+            ],
+        ),
+        dict(
+            aanpak="Bij een stad hoort à, bij een land hangt het van het geslacht af. Leer de drie "
+                   "vormen als een rijtje: à Paris, en France, au Portugal.",
+            waarom=[
+                "Let op de drie reeksen: à bij een stad, en bij een vrouwelijk land, au bij een "
+                "mannelijk land en aux bij een meervoud (aux Pays-Bas). Komen uit een land is de of "
+                "du: je viens de Belgique, je viens du Portugal.",
+                "Noem beide met een voorbeeld. En bij een vrouwelijk land, dus en France en en "
+                "Belgique, en au bij een mannelijk land, dus au Portugal en au Canada. Een land dat "
+                "op een e eindigt is bijna altijd vrouwelijk; le Mexique is de bekende uitzondering.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-tegenwoordige-tijd-en-de-gebiedende-wijs-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Kijk eerst naar de uitgang van het hele werkwoord: -er, -ir of -re. Die bepaalt "
+                   "welk rijtje uitgangen je neemt.",
+            waarom=[
+                "Let op tu finis en ils finissent: de werkwoorden op -ir schuiven een -iss- in bij "
+                "de meervoudsvormen. En il vend eindigt op een d die je niet hoort, zonder uitgang.",
+                "De uitgang -ons. Nous parlons, nous finissons, nous vendons; en zelfs bij de "
+                "onregelmatige werkwoorden blijft het -ons, met être als enige uitzondering (nous "
+                "sommes).",
+            ],
+        ),
+        dict(
+            aanpak="Deze tien werkwoorden komen in bijna elke zin voor. Leer ze volledig vanbuiten, "
+                   "want regels helpen hier niet.",
+            waarom=[
+                "Let op elles peuvent, tu veux en ils savent: pouvoir, vouloir en savoir veranderen "
+                "van klank in het meervoud. En on vient staat in het enkelvoud, ook al betekent on "
+                "vaak wij.",
+                "Faire hoort bij de drie werkwoorden met een vous-vorm op -tes: vous faites, vous "
+                "dites, vous êtes. Alle andere werkwoorden hebben -ez.",
+            ],
+        ),
+        dict(
+            aanpak="Een wederkerend werkwoord heeft twee delen: het voornaamwoord en het werkwoord. "
+                   "Vervoeg beide, want het voornaamwoord verandert mee met de persoon.",
+            waarom=[
+                "Let op nous nous dépêchons: twee keer nous, en dat is juist. En ils s'appellent "
+                "verdubbelt de l, net als je m'appelle.",
+                "Tussen ne en het werkwoord, dus je ne me lève pas. Het voornaamwoord blijft altijd "
+                "tegen het werkwoord aan plakken, ook in een ontkenning.",
+            ],
+        ),
+        dict(
+            aanpak="De gebiedende wijs is de vervoegde vorm zonder het voornaamwoord ervoor. Enkel "
+                   "être en avoir hebben een eigen vorm.",
+            waarom=[
+                "Let op Lève-toi: in een bevel komt het voornaamwoord erachter met een streepje, en "
+                "te wordt toi. In een ontkenning gaat het weer vooraan: ne te lève pas.",
+                "Noem beide. Het woordje tu valt weg en bij een werkwoord op -er valt ook de s weg: "
+                "tu écoutes wordt écoute. Bij finir blijft de s wel staan, dus finis.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-verleden-tijden-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De deelwoorden van de -er werkwoorden zijn makkelijk (-é), maar de "
+                   "onregelmatige moet je stuk per stuk kennen. Leer ze in groepjes met dezelfde "
+                   "uitgang.",
+            waarom=[
+                "Let op de groepen: pris, mis en écrit eindigen op een letter die je niet hoort; "
+                "ouvert en mort op -t; venu, vécu en dû op -u. Dû draagt een accent om hem van het "
+                "lidwoord du te onderscheiden.",
+            ],
+        ),
+        dict(
+            aanpak="Bijna alles neemt avoir. Alleen de werkwoorden van beweging en verandering van "
+                   "toestand nemen être, en alle wederkerende werkwoorden ook.",
+            waarom=[
+                "Let op il a descendu l'escalier: descendre neemt normaal être, maar met een lijdend "
+                "voorwerp erachter neemt het avoir. Hetzelfde geldt voor monter, sortir en passer.",
+            ],
+        ),
+        dict(
+            aanpak="Eén vraag beslist alles: welk hulpwerkwoord staat er. Bij être gaat het "
+                   "deelwoord mee met het onderwerp, bij avoir niet.",
+            waarom=[
+                "Let op Elle a mangé la pomme: geen e aan mangé, ook al is elle vrouwelijk, want "
+                "het hulpwerkwoord is avoir. Dat voelt fout en is juist het punt van de oefening.",
+                "Être. Elle est partie, ils sont restés, elles sont arrivées. Bij avoir blijft het "
+                "deelwoord onveranderd, behalve als het lijdend voorwerp ervoor staat.",
+            ],
+        ),
+        dict(
+            aanpak="De imparfait maak je uit de nous-vorm van de tegenwoordige tijd: haal de -ons "
+                   "weg en zet -ais, -ais, -ait, -ions, -iez, -aient. Eén werkwoord valt buiten de "
+                   "regel.",
+            waarom=[
+                "Let op elles faisaient: de stam komt van nous faisons, dus fais-. En on prenait "
+                "komt van nous prenons, niet van il prend.",
+                "Être, met de stam ét-: j'étais, tu étais, il était. Alle andere werkwoorden, ook "
+                "avoir en aller, halen hun stam netjes uit de nous-vorm.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je af of het gaat over hoe het was of over wat er gebeurde. Woorden als "
+                   "hier en soudain wijzen naar de passé composé, chaque en quand j'étais petit naar "
+                   "de imparfait.",
+            waarom=[
+                "Let op de twee zinnen met quand: il pleuvait quand je suis sorti en elle lisait "
+                "quand il est entré. Het decor staat in de imparfait, en wat er dan plots gebeurt in "
+                "de passé composé.",
+                "Noem beide. De imparfait geeft het decor, dus hoe het was en wat gewoonte was; de "
+                "passé composé geeft de gebeurtenis, dus wat er op dat moment gebeurde en afgelopen "
+                "is.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-toekomende-tijd-en-de-conditionnel-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De futur proche is de makkelijkste toekomst: vervoeg aller en zet het hele "
+                   "werkwoord erachter. Enkel aller verandert.",
+            waarom=[
+                "Let op tu ne vas pas travailler: de ontkenning gaat rond aller, niet rond het hele "
+                "werkwoord. Dus nooit tu ne vas travailler pas.",
+                "Noem beide. Je vais partir voelt dichtbij en bijna beslist, je partirai staat "
+                "verder weg en klinkt formeler. In spreektaal hoor je bijna altijd de eerste.",
+            ],
+        ),
+        dict(
+            aanpak="Voor de futur simple neem je het hele werkwoord en plak je er de vormen van "
+                   "avoir achter. Een twintigtal werkwoorden heeft een eigen stam, en die moet je "
+                   "kennen.",
+            waarom=[
+                "Let op de eigen stammen: être geeft ser-, avoir aur-, aller ir-, faire fer-, venir "
+                "viendr-, pouvoir pourr- en voir verr-. Ze eindigen allemaal op een r, en daarna "
+                "komen gewoon de uitgangen.",
+                "De vormen van avoir: -ai, -as, -a, -ons, -ez, -ont. Je hoort j'ai, tu as, il a "
+                "terug in je parlerai, tu parleras, il parlera, en dat is het handigste "
+                "steuntje van de hele tijd.",
+            ],
+        ),
+        dict(
+            aanpak="De conditionnel heeft dezelfde stam als de futur, maar de uitgangen van de "
+                   "imparfait. Ken je de futur, dan ken je de conditionnel er gratis bij.",
+            waarom=[
+                "Let op dat de stam dezelfde blijft: je serai wordt je serais, je pourrai wordt je "
+                "pourrais. Enkel de uitgang verschilt, en in de ik-vorm hoor je dat verschil bijna "
+                "niet, dus let op het schrijven.",
+                "Let op dat de si-zin in de imparfait staat en de hoofdzin in de conditionnel. Dus "
+                "si j'avais en nooit si j'aurais; die laatste vorm bestaat niet in deze combinatie.",
+                "De imparfait. Si + imparfait in het eerste deel, conditionnel in het tweede: si "
+                "tu étudiais, tu réussirais. Dat is het vaste paar voor iets dat je je enkel "
+                "voorstelt.",
+            ],
+        ),
+        dict(
+            aanpak="Kijk naar de tijd in de si-zin, want die beslist de tijd van de hoofdzin. "
+                   "Présent geeft futur, imparfait geeft conditionnel.",
+            waarom=[
+                "Let op S'il fait beau, nous sortirons: de si-zin blijft in de tegenwoordige tijd, "
+                "ook al gaat de zin over morgen. Een futur na si bestaat niet.",
+                "Noem beide paren. Si + présent met de futur voor iets dat echt kan gebeuren, en si "
+                "+ imparfait met de conditionnel voor iets dat je je voorstelt. Die twee combinaties "
+                "dekken zowat alles.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-zinsbouw-zinsdelen-en-congruentie-beyond-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zoek altijd eerst het werkwoord, en vraag dan wie of wat het doet. Zo vind je "
+                   "het onderwerp, ook als er een bijzin tussen staat.",
+            waarom=[
+                "Let op Ma soeur, qui habite à Gand, vient ce soir: het onderwerp is ma soeur, en de "
+                "bijzin tussen de komma's heeft zijn eigen werkwoord habite. En bij il y a is il "
+                "een vast onderwerp dat niets aanduidt.",
+                "Onderwerp, werkwoord, voorwerp, dan de rest. Het Frans wijkt daar veel minder van "
+                "af dan het Nederlands, dat zijn werkwoord vaak achteraan zet.",
+            ],
+        ),
+        dict(
+            aanpak="Een vraag kan op drie manieren: met de stem alleen, met est-ce que, of met "
+                   "omkering. De eerste hoort in spreektaal, de derde in een schrijfopdracht.",
+            waarom=[
+                "Let op Que fais-tu: bij omkering wordt qu'est-ce que gewoon que. En het streepje "
+                "tussen werkwoord en voornaamwoord is verplicht.",
+                "Om twee klinkers te scheiden. Habite eindigt op een e en il begint met een i, dus "
+                "schuift er een t tussen: habite-t-il. Hetzelfde bij a-t-il en va-t-elle.",
+            ],
+        ),
+        dict(
+            aanpak="Een Franse ontkenning heeft twee delen: ne voor het werkwoord en het tweede "
+                   "woord erachter. In de passé composé staat dat tweede woord tussen het "
+                   "hulpwerkwoord en het deelwoord.",
+            waarom=[
+                "Let op Je n'ai vu personne: personne staat achter het deelwoord omdat het hier het "
+                "voorwerp is, terwijl pas encore in il n'est pas encore parti wel tussen est en "
+                "parti komt. En ne wordt n' voor een klinker.",
+            ],
+        ),
+        dict(
+            aanpak="Overeenkomst is de fout die het vaakst punten kost, want je hoort hem niet. "
+                   "Lees je zin dus een keer met enkel die vraag in je hoofd.",
+            waarom=[
+                "Let op Mon frère et moi: twee personen samen geven nous, dus nous sommes arrivés "
+                "met een s. En elle a des yeux bleus krijgt een s, want bleu gaat mee met yeux en "
+                "niet met elle.",
+                "Noem de drie na elkaar. Past het werkwoord bij het onderwerp, gaat het bijvoeglijk "
+                "naamwoord mee in geslacht en getal, en gaat het deelwoord na être mee met het "
+                "onderwerp. Dat zijn de drie controles die bijna al je fouten vinden.",
+            ],
+        ),
+    ],
+)
