@@ -56,12 +56,14 @@
             "feet",
             "teeth",
             "mice",
-            "books"
+            "books",
+            "children"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Foot wordt feet, tooth wordt teeth en mouse wordt mice. Book krijgt gewoon een s.",
           "varianten": [
@@ -70,28 +72,29 @@
                 "men",
                 "women",
                 "children",
-                "tables"
+                "tables",
+                "teeth"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Man wordt men, woman wordt women en child wordt children. Table krijgt gewoon een s."
             },
             {
               "opties": [
                 "geese",
-                "oxen",
+                "books",
                 "people",
                 "chairs"
               ],
               "antwoord": [
                 0,
-                1,
                 2
               ],
-              "uitleg": "Goose wordt geese, ox wordt oxen en person wordt people. Chair krijgt gewoon een s."
+              "uitleg": "Geese en people zijn onregelmatig: goose wordt geese, person wordt people. Chairs en books krijgen gewoon een -s."
             },
             {
               "opties": [
@@ -254,27 +257,28 @@
           "opties": [
             "sheep",
             "fish",
-            "series",
+            "houses",
             "horse"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "One sheep, two sheep. Horse wordt gewoon horses.",
+          "uitleg": "One sheep, two sheep; one fish, two fish. Horse en house worden gewoon horses en houses.",
           "varianten": [
             {
               "opties": [
                 "deer",
                 "aircraft",
                 "species",
-                "dog"
+                "dog",
+                "fish"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "One deer, two deer. Dog wordt gewoon dogs."
             },
@@ -282,15 +286,14 @@
               "opties": [
                 "sheep",
                 "salmon",
-                "means",
+                "cats",
                 "cat"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "One sheep, two sheep. Cat wordt gewoon cats."
+              "uitleg": "Sheep en salmon blijven in het meervoud hetzelfde. Cat en cats krijgen gewoon een -s."
             },
             {
               "opties": [
@@ -352,12 +355,14 @@
             "advice",
             "furniture",
             "money",
-            "chair"
+            "chair",
+            "information"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Bij deze drie gebruik je much en little. Chair is telbaar: one chair, two chairs.",
           "varianten": [
@@ -366,12 +371,14 @@
                 "luggage",
                 "information",
                 "bread",
-                "table"
+                "table",
+                "advice"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Bij deze drie gebruik je much en little. Table is telbaar: one table, two tables."
             },
@@ -379,15 +386,14 @@
               "opties": [
                 "music",
                 "water",
-                "homework",
+                "books",
                 "book"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Bij deze drie gebruik je much en little. Book is telbaar: one book, two books."
+              "uitleg": "Music en water zijn ontelbaar: je zegt niet 'two musics'. Book en books kan je wel tellen."
             },
             {
               "opties": [
@@ -614,27 +620,28 @@
           "opties": [
             "apple",
             "umbrella",
-            "honest man",
+            "European",
             "university"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "University begint met de klank you, dus a university. Honest begint met een klinkerklank, dus an honest man.",
+          "uitleg": "Apple en umbrella beginnen met een klinkerklank, dus 'an'. University en European beginnen met de klank you, dus 'a'.",
           "varianten": [
             {
               "opties": [
                 "egg",
                 "hour",
                 "old car",
-                "European city"
+                "European city",
+                "honest man"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "European begint met de klank you, dus a European city. Hour begint met een klinkerklank, dus an hour."
             },
@@ -642,15 +649,14 @@
               "opties": [
                 "idea",
                 "honest answer",
-                "engineer",
+                "house",
                 "uniform"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Uniform begint met de klank you, dus a uniform. Honest begint met een klinkerklank, dus an honest answer."
+              "uitleg": "Idea en honest answer beginnen met een klinkerklank, dus 'an'. Uniform klinkt als 'you-niform' en house begint met een h-klank, dus 'a'."
             },
             {
               "opties": [
@@ -799,12 +805,14 @@
             "many",
             "a few",
             "several",
-            "much"
+            "much",
+            "both"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Much hoort bij ontelbare woorden: much time, much money. A lot of past bij allebei.",
           "varianten": [
@@ -813,12 +821,14 @@
                 "many",
                 "both",
                 "several",
-                "little"
+                "little",
+                "a few"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Little hoort bij ontelbare woorden: little time, little money. A lot of past bij allebei."
             },
@@ -826,15 +836,14 @@
               "opties": [
                 "a few",
                 "several",
-                "fewer",
+                "a little",
                 "much"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Much hoort bij ontelbare woorden: much time, much money. A lot of past bij allebei."
+              "uitleg": "A few en several horen bij telbare woorden in het meervoud. Much en a little horen bij ontelbare woorden."
             },
             {
               "opties": [
@@ -1032,27 +1041,28 @@
           "opties": [
             "ninth",
             "fortieth",
-            "twenty-first",
+            "twoth",
             "fiveth"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Five wordt fifth, niet fiveth. Bij nine valt de e weg: ninth.",
+          "uitleg": "Ninth en fortieth zijn juist. 'Fiveth' en 'twoth' bestaan niet: dat zijn fifth en second.",
           "varianten": [
             {
               "opties": [
                 "fifth",
                 "twentieth",
                 "thirty-second",
-                "nineth"
+                "nineth",
+                "eighth"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Nine wordt ninth, niet nineth. Bij twenty wordt de y een ie: twentieth."
             },
@@ -1060,15 +1070,14 @@
               "opties": [
                 "twelfth",
                 "thirtieth",
-                "forty-third",
+                "fiveth",
                 "twoth"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Two wordt second, niet twoth. Twelve wordt twelfth, met een f."
+              "uitleg": "Twelfth en thirtieth zijn juist. 'Twoth' en 'fiveth' bestaan niet: dat zijn second en fifth."
             },
             {
               "opties": [
@@ -1167,27 +1176,28 @@
           "opties": [
             "quickly",
             "carefully",
-            "easily",
+            "easy",
             "careful"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Careful is het bijvoeglijk naamwoord, carefully het bijwoord. Een y na een medeklinker wordt ily: easy wordt easily.",
+          "uitleg": "Careful en easy zijn bijvoeglijke naamwoorden, quickly en carefully bijwoorden.",
           "varianten": [
             {
               "opties": [
                 "slowly",
                 "happily",
                 "badly",
-                "slow"
+                "slow",
+                "carefully"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Slow is het bijvoeglijk naamwoord, slowly het bijwoord. Een y na een medeklinker wordt ily: happy wordt happily."
             },
@@ -1195,15 +1205,14 @@
               "opties": [
                 "loudly",
                 "angrily",
-                "politely",
+                "angry",
                 "polite"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Polite is het bijvoeglijk naamwoord, politely het bijwoord. Een y na een medeklinker wordt ily: angry wordt angrily."
+              "uitleg": "Loudly en angrily eindigen op -ly en zeggen hoe iets gebeurt. Polite en angry zijn bijvoeglijke naamwoorden."
             },
             {
               "opties": [
@@ -1586,12 +1595,14 @@
                 "really",
                 "rather",
                 "incredibly",
-                "much"
+                "much",
+                "quite"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Much versterkt geen bijvoeglijk naamwoord in een gewone zin. Bij een vergrotende trap kan het wel: much better."
             },
@@ -1599,15 +1610,14 @@
               "opties": [
                 "very",
                 "fairly",
-                "terribly",
+                "many",
                 "much"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Much versterkt geen bijvoeglijk naamwoord in een gewone zin. Bij een vergrotende trap kan het wel: much better."
+              "uitleg": "Very en fairly versterken een bijvoeglijk naamwoord. Much en many horen bij een naamwoord."
             },
             {
               "opties": [
@@ -1741,12 +1751,14 @@
                 "difficult",
                 "important",
                 "comfortable",
-                "tall"
+                "tall",
+                "expensive"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Woorden van twee of meer lettergrepen krijgen more. Korte woorden krijgen -er: taller."
             },
@@ -1754,15 +1766,14 @@
               "opties": [
                 "dangerous",
                 "popular",
-                "surprising",
+                "small",
                 "old"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Woorden van twee of meer lettergrepen krijgen more. Korte woorden krijgen -er: older."
+              "uitleg": "Dangerous en popular zijn lang en krijgen more. Old en small zijn kort en krijgen -er."
             },
             {
               "opties": [
@@ -2056,12 +2067,14 @@
                 "March",
                 "the evening",
                 "summer",
-                "Friday"
+                "Friday",
+                "2026"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Bij een dag hoort on: on Friday. En on Friday evening, want de dag wint."
             },
@@ -2069,15 +2082,14 @@
               "opties": [
                 "2030",
                 "the afternoon",
-                "winter",
+                "Monday",
                 "Sunday"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Bij een dag hoort on: on Sunday. En on Sunday afternoon, want de dag wint."
+              "uitleg": "Bij een jaar en bij een deel van de dag hoort 'in': in 2030, in the afternoon. Bij een dag hoort 'on': on Sunday, on Monday."
             },
             {
               "opties": [
@@ -2142,12 +2154,14 @@
                 "listen",
                 "reply",
                 "apologise",
-                "enter"
+                "enter",
+                "belong"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Enter neemt niets: we entered the room. Listen to music, reply to a letter, apologise to someone."
             },
@@ -2155,15 +2169,14 @@
               "opties": [
                 "belong",
                 "explain",
-                "speak",
+                "visit",
                 "marry"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Marry neemt niets: he married her. Belong to someone, explain something to someone, speak to someone."
+              "uitleg": "Belong en explain nemen 'to': it belongs to me, explain it to me. Marry en visit nemen geen voorzetsel: marry someone, visit someone."
             },
             {
               "opties": [
@@ -2406,12 +2419,14 @@
                 "She teaches maths.",
                 "He watches the news.",
                 "They work in Brussels.",
-                "He play football."
+                "He play football.",
+                "We study English."
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "He plays football. De s van de derde persoon vergeten is de meest gemaakte fout in het Engels."
             },
@@ -2419,15 +2434,14 @@
               "opties": [
                 "He carries the bags.",
                 "She goes by bus.",
-                "We live in Hasselt.",
+                "They lives here.",
                 "She want a dog."
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "She wants a dog. De s van de derde persoon vergeten is de meest gemaakte fout in het Engels."
+              "uitleg": "He carries en she goes zijn juist: bij he en she komt er een -s bij. 'She want' en 'they lives' zetten die -s op de verkeerde plaats."
             },
             {
               "opties": [
@@ -2605,12 +2619,14 @@
                 "making",
                 "dying",
                 "running",
-                "runing"
+                "runing",
+                "writing"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Bij make valt de stomme e weg: making. Bij die wordt ie een y: dying. Bij run verdubbelt de n."
             },
@@ -2618,15 +2634,14 @@
               "opties": [
                 "coming",
                 "tying",
-                "swimming",
+                "swiming",
                 "comming"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Bij come valt de stomme e weg: coming. Bij tie wordt ie een y: tying."
+              "uitleg": "Coming en tying zijn juist. 'Comming' en 'swiming' niet: coming verliest de e, swimming verdubbelt de m."
             },
             {
               "opties": [
@@ -2951,12 +2966,14 @@
                 "three days",
                 "a month",
                 "a long time",
-                "yesterday"
+                "yesterday",
+                "two years"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "For zegt hoe lang, since zegt vanaf wanneer. Yesterday is een moment, dus since."
             },
@@ -2964,15 +2981,14 @@
               "opties": [
                 "ten minutes",
                 "a year",
-                "ages",
+                "last year",
                 "2020"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "For zegt hoe lang, since zegt vanaf wanneer. 2020 is een moment, dus since."
+              "uitleg": "Bij een duur hoort 'for': for ten minutes, for a year. Bij een beginpunt hoort 'since': since 2020, since last year."
             },
             {
               "opties": [
@@ -3182,12 +3198,14 @@
                 "I met him last week.",
                 "They arrived in 2018.",
                 "She left an hour ago.",
-                "I have lived here for years."
+                "I have lived here for years.",
+                "We watched the film yesterday."
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Last week, in 2018 en ago noemen een afgesloten moment. For years loopt door tot nu."
             },
@@ -3195,15 +3213,14 @@
               "opties": [
                 "We visited Rome in 2021.",
                 "He called me yesterday.",
-                "She finished two days ago.",
+                "They have just arrived.",
                 "They have worked here since May."
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "In 2021, yesterday en ago noemen een afgesloten moment. Since May loopt door tot nu."
+              "uitleg": "Een afgesloten moment in het verleden krijgt de past simple: visited in 2021, called yesterday. 'Have worked since May' en 'have just arrived' blijven present perfect."
             },
             {
               "opties": [

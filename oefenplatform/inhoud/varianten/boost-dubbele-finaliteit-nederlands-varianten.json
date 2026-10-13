@@ -38,12 +38,14 @@
             "de",
             "een",
             "geen",
-            "die"
+            "die",
+            "het"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het Nederlands heeft er drie soorten: bepaald (de, het), onbepaald (een) en ontkennend (geen). 'Die' is een aanwijzend voornaamwoord.",
           "varianten": [
@@ -209,15 +211,14 @@
           "opties": [
             "op",
             "onder",
-            "tussen",
+            "graag",
             "snel"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "'Snel' is een bijwoord: het zegt hoe iets gebeurt, niet waar iets zich bevindt.",
+          "uitleg": "'Snel' en 'graag' zijn bijwoorden: ze zeggen hoe iets gebeurt, niet waar iets zich bevindt.",
           "varianten": [
             {
               "opties": [
@@ -412,12 +413,14 @@
             "gisteren",
             "daar",
             "nauwelijks",
-            "groen"
+            "groen",
+            "amper"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Bijwoorden zeggen iets over tijd, plaats, mate of manier. 'Groen' hoort bij een naamwoord en is bijvoeglijk.",
           "varianten": [
@@ -656,15 +659,14 @@
           "opties": [
             "ik",
             "hem",
-            "wij",
+            "onze",
             "mijn"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "'Mijn' zegt van wie iets is en is dus bezittelijk. De andere vervangen een persoon.",
+          "uitleg": "'Mijn' en 'onze' zeggen van wie iets is en zijn dus bezittelijk. Ik en hem vervangen een persoon.",
           "varianten": [
             {
               "opties": [
@@ -785,14 +787,16 @@
             "wederkerend",
             "wederkerig",
             "betrekkelijk",
-            "bijwoordelijk"
+            "bijwoordelijk",
+            "onbepaald"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Er zijn er acht: wederkerend, wederkerig, onbepaald, persoonlijk, bezittelijk, betrekkelijk, aanwijzend en vragend. Bijwoordelijk hoort er niet bij."
+          "uitleg": "Bijwoordelijk hoort er niet bij."
         },
         {
           "type": "waarofniet",
@@ -915,15 +919,14 @@
           "opties": [
             "Dat huis staat al jaren te koop.",
             "Deze wil ik graag hebben.",
-            "Zulke schoenen zijn veel te duur.",
+            "Welk boek lees jij?",
             "Wie belt er zo laat nog aan?"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Dat, deze en zulke wijzen aan. 'Wie' stelt een vraag en is dus vragend.",
+          "uitleg": "Dat en deze wijzen aan. 'Wie' en 'welk' stellen een vraag en zijn dus vragend.",
           "varianten": [
             {
               "opties": [
@@ -1060,12 +1063,14 @@
             "onvoltooid tegenwoordige tijd",
             "voltooid verleden tijd",
             "onvoltooid toekomende tijd",
-            "gebiedende toekomende tijd"
+            "gebiedende toekomende tijd",
+            "voltooid tegenwoordige tijd"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Er zijn zes tijden, plus de imperatief. Een gebiedende toekomende tijd bestaat niet."
         },
@@ -1173,12 +1178,14 @@
             "zijn",
             "worden",
             "blijven",
-            "lopen"
+            "lopen",
+            "lijken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De koppelwerkwoorden zijn zijn, worden, blijven, blijken, lijken, schijnen, heten, dunken en voorkomen. 'Lopen' hoort er niet bij."
         },
@@ -1313,15 +1320,14 @@
           "opties": [
             "gewerkt",
             "gelopen",
-            "gezien",
+            "zien",
             "werken"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "'Werken' is de infinitief. De andere beginnen met ge- en horen bij een voltooide tijd.",
+          "uitleg": "'Werken' en 'zien' zijn infinitieven. Gewerkt en gelopen beginnen met ge- en horen bij een voltooide tijd.",
           "varianten": [
             {
               "opties": [
@@ -1590,12 +1596,14 @@
             "tafelpoot",
             "voetbalveld",
             "regenjas",
-            "vriendelijk"
+            "vriendelijk",
+            "keukendeur"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "'Vriendelijk' is gevormd met het achtervoegsel -lijk en is dus een afleiding.",
           "varianten": [
@@ -1724,15 +1732,14 @@
           "opties": [
             "kinderen",
             "paden",
-            "leden",
+            "padens",
             "stoelens"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het meervoud van stoel is stoelen. Een meervoud op -s krijgt nooit nog eens -en erbij.",
+          "uitleg": "Het meervoud van stoel is stoelen en van pad is paden. Een meervoud op -s krijgt nooit nog eens -en erbij.",
           "varianten": [
             {
               "opties": [
@@ -1917,12 +1924,14 @@
             "schoonheid",
             "leesbaar",
             "ontdekken",
-            "deurklink"
+            "deurklink",
+            "onduidelijk"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Deurklink is een samenstelling van twee echte woorden. De andere gebruiken een voor- of achtervoegsel.",
           "varianten": [
@@ -2197,14 +2206,16 @@
             "lijdend voorwerp",
             "meewerkend voorwerp",
             "voorzetselvoorwerp",
-            "rijmend voorwerp"
+            "rijmend voorwerp",
+            "handelend voorwerp"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Daarnaast bestaan ook het handelend voorwerp en de bijwoordelijke bepaling. Een rijmend voorwerp bestaat niet."
+          "uitleg": "Daarnaast bestaat ook de bijwoordelijke bepaling. Een rijmend voorwerp bestaat niet."
         },
         {
           "type": "meerkeuze",
@@ -2417,16 +2428,15 @@
           "vraag": "Welke woordgroepen zijn bijwoordelijke bepalingen in 'Morgen ga ik met de fiets naar de markt'?",
           "opties": [
             "morgen",
-            "met de fiets",
+            "ga",
             "naar de markt",
             "ik"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "'Ik' is het onderwerp. De andere zeggen wanneer, hoe en waarheen.",
+          "uitleg": "'Ik' is het onderwerp en 'ga' de persoonsvorm. Morgen en naar de markt zeggen wanneer en waarheen.",
           "varianten": [
             {
               "vraag": "Welke woordgroepen zijn bijwoordelijke bepalingen in 'Straks rijdt hij met de auto naar het station'?",
@@ -2655,14 +2665,16 @@
             "mededelende",
             "bevelende",
             "uitroepende",
-            "rijmende"
+            "rijmende",
+            "vragende"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Daarnaast bestaan ook vragende zinnen, en het onderscheid bevestigend of ontkennend. Rijmende zinnen zijn geen zinssoort."
+          "uitleg": "Daarnaast bestaat nog het onderscheid tussen bevestigend en ontkennend. Rijmende zinnen zijn geen zinssoort."
         },
         {
           "type": "meerkeuze",
@@ -2736,12 +2748,14 @@
             "en",
             "maar",
             "want",
-            "omdat"
+            "omdat",
+            "dus"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "'Omdat' is onderschikkend. Een geheugensteun voor de nevenschikkende: en, maar, of, want, dus.",
           "varianten": [
@@ -2911,15 +2925,14 @@
           "opties": [
             "Ik blijf thuis omdat het regent.",
             "Hij belde aan en zij deed open.",
-            "Toen ik binnenkwam, was iedereen al weg.",
+            "Het boek op de tafel is van mij.",
             "De hond van de buren blaft de hele nacht."
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De juiste antwoorden hebben twee persoonsvormen. Het foute antwoord heeft er maar één en is dus enkelvoudig.",
+          "uitleg": "Een samengestelde zin heeft meer dan één persoonsvorm. De zin over de hond van de buren en die over het boek op de tafel hebben er maar één en zijn dus enkelvoudig.",
           "varianten": [
             {
               "opties": [
@@ -3067,15 +3080,14 @@
           "opties": [
             "huis",
             "brief",
-            "graf",
+            "raam",
             "boek"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Huizen, brieven, graven. Bij boeken blijft de k gewoon staan.",
+          "uitleg": "Huizen, brieven: de s wordt een z en de f een v. Bij boeken en ramen verandert er niets.",
           "varianten": [
             {
               "opties": [
@@ -3282,12 +3294,14 @@
             "ruïne",
             "reünie",
             "zeeën",
-            "zee-eend"
+            "zee-eend",
+            "coördinatie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Binnen één woorddeel gebruik je een trema. Tussen twee delen van een samenstelling een koppelteken.",
           "varianten": [
@@ -3484,15 +3498,14 @@
           "opties": [
             "Nederlands",
             "België",
-            "Kerstmis",
+            "zondag",
             "woensdag"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Talen, landen en feestdagen wel; dagen van de week niet.",
+          "uitleg": "Talen en landen krijgen een hoofdletter, dagen van de week niet.",
           "varianten": [
             {
               "opties": [

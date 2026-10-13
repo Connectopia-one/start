@@ -116,14 +116,16 @@
             "een opera",
             "een roman",
             "een museumstuk",
-            "een bushalte"
+            "een bushalte",
+            "een klassiek concert"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Drie uitingen uit de wereld van kunst en erfgoed. Een bushalte is wel cultuur, maar in de brede zin."
+          "uitleg": "Uitingen uit de wereld van kunst en erfgoed horen bij cultuur in de enge zin. Een bushalte is wel cultuur, maar in de brede zin."
         },
         {
           "type": "meerkeuze",
@@ -170,15 +172,14 @@
           "opties": [
             "een vulkaanuitbarsting",
             "een zonsverduistering",
-            "een getijdenwerking",
+            "een processie door het dorp",
             "een volkslied van een land"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie natuurverschijnselen waar geen mens aan te pas kwam. Een volkslied is wel cultuur."
+          "uitleg": "Een vulkaanuitbarsting en een zonsverduistering zijn natuurverschijnselen waar geen mens aan te pas kwam. Een volkslied en een processie zijn wel cultuur."
         },
         {
           "type": "meerkeuze",
@@ -248,12 +249,14 @@
             "originaliteit",
             "vakmanschap",
             "emotionele lading",
-            "ouderdom"
+            "ouderdom",
+            "economische waarde"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Ouderdom staat niet bij de criteria. Een nieuw werk kan evengoed kunst zijn."
         },
@@ -303,15 +306,14 @@
           "opties": [
             "de economische waarde",
             "het vakmanschap",
-            "de originaliteit",
+            "de gevoelswaarde",
             "de esthetische waarde"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Prijs, techniek en vernieuwing zijn deels na te gaan. Of iets mooi is, blijft een smaakoordeel."
+          "uitleg": "Prijs en techniek zijn na te gaan, en vernieuwing deels ook. Of iets mooi is, en wat het bij jou losmaakt, blijft een smaakoordeel."
         },
         {
           "type": "invultekst",
@@ -378,14 +380,16 @@
             "welke techniek gebruikte hij",
             "hoe lang werkte hij eraan",
             "hoe moeilijk is het na te maken",
-            "hoeveel bracht het op"
+            "hoeveel bracht het op",
+            "hoeveel oefening die techniek vraagt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Drie vragen over het ambacht. De opbrengst hoort bij de economische waarde."
+          "uitleg": "Vragen over het ambacht horen bij vakmanschap. De opbrengst hoort bij de economische waarde."
         },
         {
           "type": "meerkeuze",
@@ -477,12 +481,14 @@
             "schilderkunst",
             "beeldhouwkunst",
             "tekenkunst",
-            "danskunst"
+            "danskunst",
+            "grafiek"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De beeldende kunsten maken een blijvend beeld. Dans hoort bij de podiumkunsten."
         },
@@ -502,15 +508,14 @@
           "opties": [
             "dans",
             "theater",
-            "muziek",
+            "de bouwkunst",
             "fotografie"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie kunsten die zich voor een publiek voltrekken. Fotografie is audiovisueel."
+          "uitleg": "Dans en theater voltrekken zich voor een publiek, en muziek ook. Fotografie is audiovisueel en de bouwkunst laat een gebouw na."
         },
         {
           "type": "waarofniet",
@@ -532,19 +537,21 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke drie horen bij de audiovisuele kunsten?",
+          "vraag": "Welke horen bij de audiovisuele kunsten?",
           "opties": [
             "film",
             "fotografie",
             "videokunst",
-            "beeldhouwkunst"
+            "beeldhouwkunst",
+            "animatie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De fiche noemt die drie. Beeldhouwkunst hoort bij de beeldende kunsten."
+          "uitleg": "Film, fotografie, videokunst en animatie werken met beeld. Beeldhouwkunst hoort bij de beeldende kunsten."
         },
         {
           "type": "waarofniet",
@@ -597,15 +604,14 @@
           "opties": [
             "de beeldende kunsten",
             "de architectuur",
-            "het design",
+            "de dans",
             "de podiumkunsten"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie vormen maken iets wat blijft staan. Een voorstelling is na het applaus voorbij."
+          "uitleg": "De beeldende kunsten en de architectuur maken iets wat blijft staan, en het design ook. Een voorstelling en een dans zijn na het applaus voorbij."
         },
         {
           "type": "meerkeuze",
@@ -665,15 +671,14 @@
           "opties": [
             "ze overlappen soms",
             "elke vorm heeft eigen middelen",
-            "de fiche noemt er vijf",
+            "er is één vorm die boven de andere staat",
             "ze staan in een rangorde"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Er is geen rangorde: geen enkele vorm staat boven een andere."
+          "uitleg": "De vormen overlappen soms en elke vorm heeft eigen middelen. Er is geen rangorde: geen enkele vorm staat boven een andere."
         },
         {
           "type": "meerkeuze",
@@ -734,14 +739,16 @@
             "een kortfilm",
             "een fotoreeks",
             "een videoinstallatie",
-            "een gedichtenbundel"
+            "een gedichtenbundel",
+            "een documentaire"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Drie werken met beeld en vaak geluid. Een bundel is literatuur."
+          "uitleg": "Werken met beeld en vaak geluid. Een bundel is literatuur."
         },
         {
           "type": "waarofniet",
@@ -767,15 +774,14 @@
           "opties": [
             "een concert",
             "een toneelstuk",
-            "een dansvoorstelling",
+            "een fotoreeks",
             "een schilderij"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie kunsten die voor een publiek plaatsvinden. Een schilderij hangt stil aan een muur."
+          "uitleg": "Een concert en een toneelstuk vinden voor een publiek plaats, en een dansvoorstelling ook. Een schilderij hangt stil aan een muur en een fotoreeks is audiovisueel."
         },
         {
           "type": "waarofniet",
@@ -841,14 +847,16 @@
             "een olieverfdoek",
             "een marmeren buste",
             "een houtsnede",
-            "een filmscenario"
+            "een filmscenario",
+            "een ets"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Drie werken die je als beeld ziet. Een scenario is een tekst en dus literatuur."
+          "uitleg": "Werken die je als beeld ziet. Een scenario is een tekst en dus literatuur."
         },
         {
           "type": "waarofniet",
@@ -957,15 +965,14 @@
           "opties": [
             "steen",
             "been",
-            "ivoor",
+            "ijzer",
             "brons"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie materialen uit de directe omgeving. Brons komt pas veel later, in de bronstijd."
+          "uitleg": "Steen en been komen uit de directe omgeving, en ivoor ook. Brons en ijzer komen pas veel later, in de brons- en de ijzertijd."
         },
         {
           "type": "invultekst",
@@ -996,12 +1003,14 @@
             "strakke vaste regels",
             "veel aandacht voor het hiernamaals",
             "figuren in een vast schema",
-            "veel wisseling per eeuw"
+            "veel wisseling per eeuw",
+            "een vaste maatverhouding voor het lichaam"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De Egyptische kunst bleef duizenden jaren opvallend gelijk. Dat is net haar kenmerk."
         },
@@ -1057,15 +1066,14 @@
           "opties": [
             "reliëfs van paleizen",
             "zegels in steen",
-            "beelden van heersers",
+            "tempels met zuilenrijen",
             "grotschilderingen van dieren"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Mesopotamië, Assyrië en Perzië lieten reliëfs, zegels en standbeelden na. Grotkunst is prehistorisch."
+          "uitleg": "Mesopotamië, Assyrië en Perzië lieten reliëfs, zegels en standbeelden na. Grotkunst is prehistorisch en de zuilentempel is Grieks."
         },
         {
           "type": "meerkeuze",
@@ -1104,12 +1112,14 @@
             "welk materiaal is gebruikt",
             "welk onderwerp is afgebeeld",
             "welke techniek is gebruikt",
-            "welke prijs is betaald"
+            "welke prijs is betaald",
+            "welke stijl de vormen verraden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Materiaal, onderwerp en techniek brengen een werk thuis. De prijs zegt daar niets over."
         },
@@ -1195,15 +1205,14 @@
           "opties": [
             "de rondboog",
             "de koepel",
-            "het beton",
+            "het kruisribgewelf",
             "de spitsboog"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Rondboog, koepel en Romeins beton. De spitsboog komt pas in de gotiek."
+          "uitleg": "De rondboog en de koepel zijn Romeins, en het Romeinse beton ook. De spitsboog en het kruisribgewelf komen pas in de gotiek."
         },
         {
           "type": "invultekst",
@@ -1234,12 +1243,14 @@
             "dikke muren",
             "kleine vensters",
             "een zware en gesloten indruk",
-            "heel grote glasramen"
+            "heel grote glasramen",
+            "rondbogen boven de vensters"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De rondboog vraagt dikke muren, dus bleven de vensters klein. Grote glasramen komen met de gotiek."
         },
@@ -1296,15 +1307,14 @@
           "opties": [
             "de tempel met zuilen",
             "het marmeren atletenbeeld",
-            "de beschilderde vaas",
+            "het mozaïek in een villa",
             "het portret met rimpels"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Tempels, idealiserende beelden en vaasschilderkunst. Het realistische portret is Romeins."
+          "uitleg": "De zuilentempel en het idealiserende atletenbeeld zijn Grieks, en de vaasschilderkunst ook. Het realistische portret en het villamozaïek zijn Romeins."
         },
         {
           "type": "meerkeuze",
@@ -1343,12 +1353,14 @@
             "een rondboog",
             "een koepel",
             "een aquaduct",
-            "een kruisribgewelf"
+            "een kruisribgewelf",
+            "een triomfboog"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Rondboog, koepel en aquaduct zijn Romeins. Het kruisribgewelf hoort bij de gotiek."
         },
@@ -1429,15 +1441,14 @@
           "opties": [
             "evenwicht en rust",
             "lijnperspectief",
-            "aandacht voor de mens",
+            "een gouden achtergrond zonder diepte",
             "sterke beweging en drama"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Rust, perspectief en de mens. Beweging en drama zijn juist de kenmerken van de barok."
+          "uitleg": "Evenwicht, rust en het lijnperspectief horen bij de renaissance, net als de aandacht voor de mens. Beweging en drama zijn barok, en de gouden vlakke achtergrond is middeleeuws."
         },
         {
           "type": "invultekst",
@@ -1468,14 +1479,16 @@
             "sterk licht-donkercontrast",
             "diagonale composities",
             "overvloed en pracht",
-            "een vlakke achtergrond"
+            "een vlakke achtergrond",
+            "sterke emotie in de gezichten"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Drie barokke kenmerken. De vlakke achtergrond hoort eerder bij de middeleeuwen."
+          "uitleg": "Barokke kenmerken. De vlakke achtergrond hoort eerder bij de middeleeuwen."
         },
         {
           "type": "waarofniet",
@@ -1528,15 +1541,14 @@
           "opties": [
             "licht en schaduw",
             "beweging in de compositie",
-            "rijke stoffen en kleur",
+            "een vlakke, gelijkmatige verlichting",
             "een strakke symmetrie"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie barokke middelen. Strakke symmetrie hoort bij de renaissance."
+          "uitleg": "Licht en schaduw en beweging in de compositie wekken emotie op, en rijke stoffen en kleur ook. Strakke symmetrie en een vlakke verlichting horen bij de renaissance."
         },
         {
           "type": "meerkeuze",
@@ -1575,14 +1587,16 @@
             "Leonardo da Vinci",
             "Michelangelo",
             "Rafaël",
-            "Rubens"
+            "Rubens",
+            "Donatello"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Drie Italiaanse renaissancemeesters. Rubens is de barok."
+          "uitleg": "Italiaanse renaissancemeesters. Rubens is de barok."
         },
         {
           "type": "meerkeuze",
@@ -1660,15 +1674,14 @@
           "opties": [
             "losse toetsen",
             "licht en kleur",
-            "werken in de open lucht",
+            "werken naar vaste academieregels",
             "een strakke lijn"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De impressionisten wilden de indruk van een ogenblik vastleggen. Een strakke lijn stoorde daarbij."
+          "uitleg": "De impressionisten wilden de indruk van een ogenblik vastleggen, met losse toetsen en veel licht en kleur, vaak in de open lucht. Een strakke lijn en de academieregels stoorden daarbij."
         },
         {
           "type": "invultekst",
@@ -1717,12 +1730,14 @@
             "popart",
             "installatiekunst",
             "conceptuele kunst",
-            "impressionisme"
+            "impressionisme",
+            "multimediale kunst"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche noemt popart, installatiekunst, multimediale kunst en conceptuele kunst. Het impressionisme is modern."
         },
@@ -1772,15 +1787,14 @@
           "opties": [
             "beeld",
             "geluid",
-            "computer en licht",
+            "enkel marmer",
             "enkel olieverf"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Ze combineert dragers. Juist het combineren is haar kenmerk."
+          "uitleg": "Ze combineert dragers: beeld, geluid, computer en licht door elkaar. Juist dat combineren is haar kenmerk, dus niet één materiaal alleen."
         },
         {
           "type": "waarofniet",
@@ -1807,12 +1821,14 @@
             "ze rekken het begrip kunst op",
             "ze gebruiken nieuwe dragers",
             "ze vragen uitleg bij het werk",
-            "ze volgen strakke vaste regels"
+            "ze volgen strakke vaste regels",
+            "ze stellen vragen aan de kijker"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Vaste regels zijn er juist niet meer. Elke kunstenaar kiest zijn eigen middelen."
         },
@@ -1875,15 +1891,14 @@
           "opties": [
             "Arabische kunst",
             "Afrikaanse kunst",
-            "japonisme",
+            "de gotiek",
             "Romaanse kunst"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie niet-westerse richtingen van de fiche. Romaanse kunst is westers en middeleeuws."
+          "uitleg": "Arabische en Afrikaanse kunst zijn niet-westers, en het japonisme verwijst naar Japan. Romaanse kunst en de gotiek zijn westers en middeleeuws."
         },
         {
           "type": "waarofniet",
@@ -1943,12 +1958,14 @@
             "de decoratieve",
             "de narratieve",
             "de politieke",
-            "de wetenschappelijke"
+            "de wetenschappelijke",
+            "de economische"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een wetenschappelijke functie staat niet op de lijst van zeven."
         },
@@ -2016,15 +2033,14 @@
           "opties": [
             "de economische",
             "de politieke",
-            "de decoratieve",
+            "de narratieve",
             "de filosofische"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Geld, macht en verfraaiing zijn belangen van buiten het werk. De filosofische functie stelt juist een vraag."
+          "uitleg": "Geld en macht zijn belangen van buiten het werk, en verfraaiing ook. De filosofische functie stelt een vraag en de narratieve vertelt een verhaal."
         },
         {
           "type": "waarofniet",
@@ -2117,17 +2133,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vier elementen vormen de context volgens de fiche?",
+          "vraag": "Welke elementen vormen de context volgens de fiche?",
           "opties": [
             "tijd",
             "ruimte",
             "de maatschappij",
-            "het materiaal"
+            "het materiaal",
+            "de persoonlijke context van de kunstenaar"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Tijd, ruimte, de maatschappelijke context en de persoonlijke context van de kunstenaar. Materiaal hoort bij de vormgeving."
         },
@@ -2176,15 +2194,14 @@
           "opties": [
             "wie maakte het",
             "waar werd het gemaakt",
-            "wanneer werd het gemaakt",
+            "hoe werd het gemaakt",
             "waarmee werd het gemaakt"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Wie, waar en wanneer zijn de contextvragen. Waarmee hoort bij de vormgeving."
+          "uitleg": "Wie, waar en wanneer zijn de contextvragen. Waarmee en hoe horen bij de vormgeving."
         },
         {
           "type": "meerkeuze",
@@ -2232,12 +2249,14 @@
             "het onderwerp is wat je ziet",
             "de functie is waarvoor het diende",
             "beide samen vormen de inhoud",
-            "de inhoud staat in de titel"
+            "de inhoud staat in de titel",
+            "de functie kan in de tijd veranderen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De titel kan helpen maar is niet de inhoud. Soms heeft een werk zelfs geen titel."
         },
@@ -2331,12 +2350,14 @@
             "vorm",
             "compositie",
             "kleur",
-            "olieverf"
+            "olieverf",
+            "licht"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Vorm, compositie, symmetrie, kleur, licht en ruimte zijn bouwstenen. Olieverf is materiaal."
         },
@@ -2374,15 +2395,14 @@
           "opties": [
             "licht-donker",
             "warm-koud",
-            "complementair",
+            "symbolisch",
             "primair-secundair"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie contrasten van de bijlage. Primair en secundair zijn soorten kleuren, geen contrast."
+          "uitleg": "Licht-donker en warm-koud zijn contrasten van de bijlage, en complementair ook. Primair en secundair zijn soorten kleuren en symbolisch is een kleurgebruik."
         },
         {
           "type": "waarofniet",
@@ -2437,12 +2457,14 @@
             "steen",
             "klei",
             "brons",
-            "olieverf"
+            "olieverf",
+            "hout"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Steen, klei, brons, hout, ivoor en moderne materialen. Olieverf hoort bij de schilderkunst."
         },
@@ -2470,15 +2492,14 @@
           "opties": [
             "expressief",
             "symbolisch",
-            "impressief",
+            "warm-koud",
             "complementair"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Cerebraal, impressief, expressief en symbolisch. Complementair is een contrast."
+          "uitleg": "Cerebraal, impressief, expressief en symbolisch zijn de kleurgebruiken. Complementair en warm-koud zijn contrasten."
         },
         {
           "type": "meerkeuze",
@@ -2509,12 +2530,14 @@
             "hoekig",
             "rond",
             "hol en bol",
-            "warm"
+            "warm",
+            "vierkant"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Hoekig, rond, vierkant, kegel, hol, bol, tweedimensionaal en driedimensionaal. Warm hoort bij kleur."
         },
@@ -2567,15 +2590,14 @@
           "opties": [
             "symmetrisch",
             "asymmetrisch",
-            "statisch en dynamisch",
+            "licht en donker",
             "verspreid en overall"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Verspreid en overall staan bij de beeldende kunst, niet bij architectuur."
+          "uitleg": "Symmetrisch en asymmetrisch staan bij architectuur, en statisch en dynamisch ook. Verspreid en overall staan bij de beeldende kunst en licht-donker bij de kleur."
         },
         {
           "type": "invultekst",
@@ -2611,14 +2633,16 @@
             "dragende constructie",
             "hangende constructie",
             "skeletbouw",
-            "boetseren"
+            "boetseren",
+            "een gewelf"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Drie technieken van de architectuur. Boetseren hoort bij de beeldhouwkunst."
+          "uitleg": "Technieken van de architectuur. Boetseren hoort bij de beeldhouwkunst."
         },
         {
           "type": "meerkeuze",
@@ -2668,19 +2692,18 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vier richtvragen noemt de fiche?",
+          "vraag": "Welke richtvragen noemt de fiche?",
           "opties": [
             "hoe en waarmee",
             "wat",
-            "waarvoor",
+            "hoeveel keer",
             "hoeveel"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Hoe en waarmee, wat, waarvoor, en wie waar en wanneer. Hoeveel staat er niet bij."
+          "uitleg": "Hoe en waarmee, wat, waarvoor, en wie waar en wanneer zijn de richtvragen. Hoeveel en hoeveel keer staan er niet bij."
         },
         {
           "type": "meerkeuze",
@@ -2751,12 +2774,14 @@
             "ze geven de woorden voor je analyse",
             "er is een lijst per kunstvorm",
             "je gebruikt ze bij hoe en waarmee",
-            "ze geven de periode van het werk"
+            "ze geven de periode van het werk",
+            "je gebruikt ze ook bij wat en waarvoor"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De bijlagen zeggen niets over periodes. Daarvoor kijk je naar de stromingen."
         },
@@ -2815,15 +2840,14 @@
           "opties": [
             "mijn oma zegt dat het gaat regenen",
             "iedereen weet dat katten eigenwijs zijn",
-            "ik voel dat die les lang duurt",
+            "de meting toont dat de les vijftig minuten duurde",
             "uit onderzoek bij duizend mensen blijkt dat"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie uitspraken uit ervaring en van horen zeggen. De vierde verwijst naar onderzoek."
+          "uitleg": "Uitspraken uit ervaring en van horen zeggen zijn dagdagelijkse kennis. Onderzoek en een meting horen bij de wetenschap."
         },
         {
           "type": "invultekst",
@@ -2854,12 +2878,14 @@
             "fysica",
             "chemie",
             "biologie",
-            "sociologie"
+            "sociologie",
+            "sterrenkunde"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Drie wetenschappen die de natuur onderzoeken. Sociologie is een menswetenschap."
         },
@@ -2915,15 +2941,14 @@
           "opties": [
             "ze volgt een methode",
             "ze is na te gaan door anderen",
-            "ze wordt bijgesteld bij nieuw bewijs",
+            "ze stoort zich niet aan nieuw bewijs",
             "ze staat voor altijd vast"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Juist niet voor altijd vast. Een theorie die niets kan weerleggen, is geen wetenschap."
+          "uitleg": "Wetenschap volgt een methode en anderen kunnen haar nagaan. Ze stelt haar besluiten bij als er nieuw bewijs komt, en staat dus niet voor altijd vast."
         },
         {
           "type": "meerkeuze",
@@ -2984,12 +3009,14 @@
             "waarom mensen zich zo gedragen",
             "hoe groepen samenleven",
             "hoe culturen verschillen",
-            "hoe een molecule reageert"
+            "hoe een molecule reageert",
+            "hoe mensen keuzes maken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Drie vragen over mensen. De vierde is chemie, dus natuurwetenschap."
         },
@@ -3031,12 +3058,14 @@
             "ze stelt fundamentele vragen",
             "ze werkt met argumenten",
             "ze hoort bij de menswetenschappen",
-            "ze lost haar vragen in een labo op"
+            "ze lost haar vragen in een labo op",
+            "ze vraagt naar wat vanzelfsprekend lijkt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een filosofische vraag is net niet empirisch op te lossen. Daar is geen labo voor."
         },
@@ -3093,12 +3122,14 @@
             "doorvragen",
             "twijfelen aan het vanzelfsprekende",
             "je mening laten tegenspreken",
-            "snel een antwoord willen"
+            "snel een antwoord willen",
+            "luisteren naar een ander argument"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Drie houdingen die het denken openhouden. Snel willen afsluiten doet het tegenovergestelde."
         },
@@ -3160,15 +3191,14 @@
           "opties": [
             "ze zet het denken in gang",
             "ze richt zich op het gewone",
-            "ze is nodig voor filosofie",
+            "ze sluit het gesprek af",
             "ze geeft meteen een antwoord"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Verwondering levert geen antwoorden maar vragen. Dat is net haar rol."
+          "uitleg": "Verwondering zet het denken in gang en richt zich op het gewone, en ze is nodig voor filosofie. Antwoorden geeft ze niet, en afsluiten doet ze zeker niet."
         },
         {
           "type": "waarofniet",
@@ -3300,12 +3330,14 @@
             "ze gebruikt goden",
             "ze is niet te weerleggen",
             "ze wordt verteld en doorgegeven",
-            "ze wordt in een proef nagegaan"
+            "ze wordt in een proef nagegaan",
+            "ze geeft een beeld in plaats van een bewijs"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een mythe laat zich niet testen. Juist daarom is ze geen filosofie en geen wetenschap."
         },
@@ -3373,15 +3405,14 @@
           "opties": [
             "ze zochten een oerstof",
             "ze redeneerden over de natuur",
-            "ze gaven verschillende antwoorden",
+            "ze gaven allemaal hetzelfde antwoord",
             "ze deden proeven in een labo"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een labo bestond nog niet. Ze kwamen tot hun antwoord door kijken en redeneren."
+          "uitleg": "Ze zochten een oerstof en redeneerden over de natuur, elk met een ander antwoord. Een labo bestond nog niet: ze kwamen tot hun besluit door kijken en redeneren."
         },
         {
           "type": "meerkeuze",
@@ -3420,14 +3451,16 @@
             "van verhaal naar argument",
             "van god naar natuur",
             "van geloven naar onderzoeken",
-            "van weten naar vertellen"
+            "van weten naar vertellen",
+            "van gezag naar reden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Drie manieren om dezelfde stap te zeggen. De vierde loopt net de verkeerde kant op."
+          "uitleg": "Manieren om dezelfde stap te zeggen. De omgekeerde richting loopt net verkeerd."
         },
         {
           "type": "invultekst",
@@ -3559,15 +3592,14 @@
           "opties": [
             "de muziek",
             "de meetkunde",
-            "de verhoudingen",
+            "de geneeskunde",
             "de mythologie"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Muziek, meetkunde en verhoudingen horen bij zijn getallenleer. Juist de mythe laat hij achter."
+          "uitleg": "Muziek en meetkunde horen bij zijn getallenleer, en de verhoudingen ook. De mythe laat hij achter, en met geneeskunde heeft hij niets te maken."
         },
         {
           "type": "waarofniet",
@@ -3577,17 +3609,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vier natuurfilosofen noemt de fiche?",
+          "vraag": "Welke natuurfilosofen noemt de fiche?",
           "opties": [
             "Thales",
             "Parmenides",
             "Heraclitus",
-            "Aristoteles"
+            "Aristoteles",
+            "Pythagoras"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Thales, Parmenides, Heraclitus en Pythagoras. Aristoteles komt veel later en staat bij de mensvisies."
         },
@@ -3647,15 +3681,14 @@
           "opties": [
             "ze zijn Grieks",
             "ze zochten één grondbeginsel",
-            "ze lieten de mythe achter",
+            "ze schreven samen één boek",
             "ze werkten samen in één school"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Ze werkten niet samen en spraken elkaar grondig tegen. Dat gesprek is net het begin van de filosofie."
+          "uitleg": "Ze zijn Grieks, zochten één grondbeginsel en lieten de mythe achter. Samenwerken deden ze niet: ze spraken elkaar grondig tegen, en dat gesprek is net het begin van de filosofie."
         },
         {
           "type": "meerkeuze",
@@ -3731,12 +3764,14 @@
             "hoe hoog is de Everest",
             "wanneer begon de oorlog",
             "hoeveel inwoners heeft Gent",
-            "wat is rechtvaardigheid"
+            "wat is rechtvaardigheid",
+            "hoe diep is de Noordzee"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Drie vragen met één opzoekbaar antwoord. De vierde is filosofisch."
         },
@@ -3767,16 +3802,15 @@
           "vraag": "Welke zijn meningsvragen?",
           "opties": [
             "wat is de leukste sport",
-            "welk boek vind je het mooist",
+            "hoeveel boeken staan er in de kast",
             "welke film koos jij",
             "wat is geluk eigenlijk"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Drie keer wordt een smaak gevraagd. De laatste vraag gaat over het begrip zelf en is filosofisch."
+          "uitleg": "Bij de leukste sport en bij het mooiste boek wordt een smaak gevraagd. 'Wat is geluk' gaat over het begrip zelf en is filosofisch, en het aantal boeken is een weetvraag."
         },
         {
           "type": "waarofniet",
@@ -3855,12 +3889,14 @@
             "wat is vrijheid",
             "mag je altijd liegen",
             "bestaat er een ziel",
-            "hoeveel dagen heeft maart"
+            "hoeveel dagen heeft maart",
+            "wat is waarheid"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Drie vragen die je niet kan opzoeken en die om argumenten vragen. De vierde is een weetvraag."
         },
@@ -3960,12 +3996,14 @@
             "open",
             "universeel",
             "meerduidig",
-            "meetbaar"
+            "meetbaar",
+            "fundamenteel"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Meetbaar is net het tegendeel: een filosofische vraag is niet-empirisch op te lossen."
         },
@@ -4026,15 +4064,14 @@
           "opties": [
             "niet-empirisch op te lossen",
             "open",
-            "meerduidig",
+            "meetbaar",
             "universeel"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Die drie houden de vraag open voor discussie. Universeel zegt enkel dat ze overal geldt."
+          "uitleg": "Niet-empirisch op te lossen, open en meerduidig houden de vraag open voor discussie. Universeel zegt enkel dat ze overal geldt, en meetbaar is net het tegendeel."
         },
         {
           "type": "invultekst",
@@ -4070,12 +4107,14 @@
             "fundamenteel",
             "niet-empirisch",
             "open",
-            "meetbaar"
+            "meetbaar",
+            "universeel"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Ze raakt de grond van rechtvaardigheid, is niet te meten en blijft open. Meetbaar is ze zeker niet."
         },
@@ -4120,19 +4159,18 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke uitspraken over de vijf kenmerken kloppen?",
+          "vraag": "Welke uitspraken over de kenmerken van een filosofische vraag kloppen?",
           "opties": [
             "ze horen samen bij één vraag",
             "ze helpen vragen te herkennen",
-            "ze staan alle vijf op de fiche",
+            "ze staan los van elkaar",
             "één kenmerk volstaat altijd"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Eén kenmerk volstaat niet: een meningsvraag is ook open, maar niet fundamenteel of universeel."
+          "uitleg": "De kenmerken horen samen bij één vraag en helpen je zo'n vraag herkennen. Eén kenmerk volstaat niet: een meningsvraag is ook open, maar niet fundamenteel of universeel."
         },
         {
           "type": "meerkeuze",
@@ -4224,12 +4262,14 @@
             "bestaat er iets na de dood",
             "bestaat er een god",
             "wat is het zijnde",
-            "wat is een goede daad"
+            "wat is een goede daad",
+            "is er meer dan wat je kan zien"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De metafysica vraagt naar wat achter of boven het zichtbare ligt. De laatste vraag is ethiek."
         },
@@ -4266,15 +4306,14 @@
           "opties": [
             "wat maakt een mens mens",
             "verschilt hij van een dier",
-            "heeft hij een ziel",
+            "wat is tijd eigenlijk",
             "bestaat er een god"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie vragen over de mens. De laatste vraag hoort bij de metafysica."
+          "uitleg": "Vragen over de mens horen bij de antropologie, de vraag naar de ziel ook. De vraag naar god hoort bij de metafysica en de vraag naar tijd bij de natuurfilosofie."
         },
         {
           "type": "meerkeuze",
@@ -4300,15 +4339,14 @@
           "opties": [
             "de ethiek",
             "de esthetica",
-            "deels de antropologie",
+            "de kennisleer",
             "de logica"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Ethiek en esthetica geven waardeoordelen. De logica onderzoekt enkel of een redenering geldt."
+          "uitleg": "Ethiek en esthetica geven waardeoordelen. De logica onderzoekt of een redenering geldt en de kennisleer wat weten is: die gaan over wat is, niet over wat zou moeten."
         },
         {
           "type": "invultekst",
@@ -4368,12 +4406,14 @@
             "ze ordenen de vragen",
             "ze overlappen soms",
             "de fiche noemt er zes",
-            "ze staan in een rangorde"
+            "ze staan in een rangorde",
+            "een vraag kan er meer dan één raken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Er is geen rangorde. Geen enkel domein is belangrijker dan de andere."
         }
@@ -4442,15 +4482,14 @@
           "opties": [
             "mag je dierproeven doen",
             "moet je altijd de waarheid zeggen",
-            "is straf rechtvaardig",
+            "wat is ruimte",
             "wat is tijd eigenlijk"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie vragen over goed en kwaad. De vraag naar tijd hoort bij de natuurfilosofie."
+          "uitleg": "Vragen over goed en kwaad horen bij de ethiek, die over straf ook. De vraag naar tijd en naar ruimte hoort bij de natuurfilosofie."
         },
         {
           "type": "meerkeuze",
@@ -4477,12 +4516,14 @@
             "wat is kennis",
             "hoe weet je iets zeker",
             "bedriegen je zintuigen je",
-            "wat is een goede daad"
+            "wat is een goede daad",
+            "kan je iets weten zonder het te zien"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Drie vragen over weten. De laatste is ethiek."
         },
@@ -4531,15 +4572,14 @@
           "opties": [
             "wat is ruimte",
             "wat is tijd",
-            "waaruit bestaat materie",
+            "wat is een goede daad",
             "wat is rechtvaardigheid"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie vragen over de wereld zelf. Rechtvaardigheid hoort bij de ethiek."
+          "uitleg": "Vragen over de wereld zelf horen bij de natuurfilosofie, die naar materie ook. Rechtvaardigheid en de goede daad horen bij de ethiek."
         },
         {
           "type": "waarofniet",
@@ -4565,15 +4605,14 @@
           "opties": [
             "de antropologie",
             "de metafysica",
-            "de ethiek",
+            "de logica",
             "de esthetica"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Wat de mens is, of er meer is dan oorzaak en gevolg, en of je verantwoordelijk bent. Drie domeinen tegelijk."
+          "uitleg": "De vraag raakt wat de mens is en of er meer is dan oorzaak en gevolg, en ook of je verantwoordelijk bent. De esthetica en de logica staan erbuiten."
         },
         {
           "type": "invultekst",
@@ -4686,12 +4725,14 @@
             "stel je voor",
             "het is onderzocht dat",
             "een voorbeeld hiervan is",
-            "mijn argument is dat"
+            "mijn argument is dat",
+            "neem nu het geval van"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Drie manieren om een voorbeeld aan te brengen. De laatste hoort bij de A."
         },
@@ -4760,12 +4801,14 @@
             "de bewering",
             "de reden erachter",
             "een voorbeeld erbij",
-            "de naam van een filosoof"
+            "de naam van een filosoof",
+            "de uitleg waarom die reden klopt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Bewering, reden en voorbeeld. Een filosofennaam mag erbij, maar hoort niet in de methode."
         },
@@ -4814,15 +4857,14 @@
           "opties": [
             "maakt geld gelukkig",
             "mag rijkdom onbeperkt zijn",
-            "is armoede onrechtvaardig",
+            "hoeveel mensen leven in armoede",
             "wanneer kwam de euro er"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Drie vragen die fundamenteel en open zijn. De laatste is een weetvraag."
+          "uitleg": "Vragen die fundamenteel en open zijn, zijn filosofisch; of armoede onrechtvaardig is, hoort daarbij. Wanneer de euro er kwam en hoeveel mensen arm zijn, kan je opzoeken."
         },
         {
           "type": "meerkeuze",
@@ -4884,12 +4926,14 @@
             "de indeling in alinea's",
             "de signaalwoorden",
             "de kernbegrippen die terugkomen",
-            "de prijs van het boek"
+            "de prijs van het boek",
+            "de titel en de tussentitels"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Drie aanwijzingen voor de structuur. De prijs van het boek staat er niet bij."
         },
