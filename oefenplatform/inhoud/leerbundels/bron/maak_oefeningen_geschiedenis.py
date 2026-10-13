@@ -250,3 +250,100 @@ OEFENBUNDELS["oefenbundel-van-de-middeleeuwen-tot-nu"] = dict(
              ]),
     ],
 )
+
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-tijd-en-tijdlijn"] = dict(
+    reeksen=[
+        dict(aanpak="Reken met jaartallen zoals met gewone getallen: het jongste min het oudste. Voor "
+                    "de eeuw tel je bij de eerste twee cijfers één op, behalve bij een jaar dat op 00 "
+                    "eindigt.",
+             waarom=[
+                 None,
+                 "Trek gewoon af: 1914 min 1815 is 99. Van 100 v.Chr. naar 100 n.Chr. is het 200 jaar, "
+                 "want er bestaat geen jaar 0.",
+                 "Bij 1492 tel je er één bij de 14 op: de 15de eeuw. Bij 999 wordt dat de 10de eeuw. "
+                 "Een jaar dat op 00 eindigt, hoort nog bij de eeuw ervoor.",
+                 None,
+             ]),
+        dict(aanpak="Vóór Christus tellen de jaartallen omgekeerd: hoe groter het getal, hoe langer "
+                    "geleden. Teken bij twijfel een lijn met het jaar 1 in het midden.",
+             waarom=[
+                 "Bij v.Chr. is het grootste getal het oudste: 800 v.Chr. ligt verder terug dan 200 "
+                 "v.Chr.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Vraag je bij elke bron drie dingen af: wie heeft dit gemaakt, wanneer, en waarom? "
+                    "Een bron van toen zelf is primair; iets dat later over die tijd gemaakt is, is "
+                    "secundair.",
+             waarom=[
+                 "Een dagboek en een munt komen uit die tijd zelf, dus primair. Een boek of een film "
+                 "van nu kijkt erop terug, dus secundair.",
+                 None,
+                 None,
+                 "Een geschiedenisboek is geschreven door mensen die kiezen wat ze vertellen, met de "
+                 "bronnen die ze hadden. Nieuwe vondsten kunnen het beeld bijstellen.",
+             ]),
+        dict(aanpak="De periodes zijn afspraken om overzicht te houden. Elke grens hangt aan één grote "
+                    "verandering: het schrift, de val van Rome, de ontdekkingsreizen, de Franse "
+                    "Revolutie.",
+             waarom=[None, None, None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-van-de-prehistorie-tot-de-romeinen"] = dict(
+    reeksen=[
+        dict(aanpak="Denk bij de prehistorie telkens aan twee vragen: waarvan maakte men gereedschap, "
+                    "en hoe kwam men aan eten? Die twee verklaren bijna alle veranderingen.",
+             waarom=[
+                 "De tijdperken zijn genoemd naar het materiaal van het gereedschap. Brons is een "
+                 "mengsel van koper en tin, en kwam vóór ijzer, dat moeilijker te bewerken is.",
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Twee beschavingen waar wij nog altijd iets van merken. Vraag je bij elk antwoord "
+                    "af: wat zie je daar vandaag nog van?",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "De boekdrukkunst komt uit de 15de eeuw, en het aquaduct van de Romeinen. Het theater "
+                 "met toneelstukken is wel Grieks.",
+             ]),
+        dict(aanpak="Bij de Romeinen gaat het vaak over wat er nog van overblijft: in onze taal, onze "
+                    "wegen en onze gebouwen. Zoek dus telkens het spoor naar vandaag.",
+             waarom=[None, None, None, None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-van-de-middeleeuwen-tot-nu"] = dict(
+    reeksen=[
+        dict(aanpak="Denk bij de middeleeuwen aan twee dingen: bijna iedereen was boer, en het leven "
+                    "draaide om grond. Wie grond had, had macht.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Lezen en schrijven was het werk van monniken en van enkele geleerden. De meeste "
+                 "mensen werkten op het land en leerden alles mondeling.",
+             ]),
+        dict(aanpak="Deze jaartallen keren steeds terug. Hang er telkens één beeld aan, dan onthoud je "
+                    "ze beter dan als los getal.",
+             waarom=[None, None, None]),
+        dict(aanpak="De industriële revolutie veranderde niet alleen hóe men werkte, maar vooral wáár: "
+                    "van het land naar de fabriek, en dus van het dorp naar de stad.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Veel van wat vandaag gewoon lijkt, is er pas na lange strijd gekomen. Vraag je bij "
+                    "elk recht af: wie had het eerst niet, en wie vocht ervoor?",
+             waarom=[None, None, None, None]),
+    ],
+)

@@ -248,3 +248,103 @@ OEFENBUNDELS["oefenbundel-europa-en-de-wereld"] = dict(
              ]),
     ],
 )
+
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-kaartlezen-en-orientatie"] = dict(
+    reeksen=[
+        dict(aanpak="Zet in je hoofd altijd eerst het noorden bovenaan. Dan ligt het oosten rechts, het "
+                    "zuiden onderaan en het westen links, en vind je de tussenliggende richtingen "
+                    "vanzelf.",
+             waarom=[
+                 None,
+                 "Een tussenwindstreek draagt de namen van de twee waartussen ze ligt, met noord of "
+                 "zuid eerst: noordwest, zuidwest.",
+                 "De zon komt op in het oosten, dus staat het westen achter je. Links is dan het "
+                 "noorden en rechts het zuiden.",
+                 None,
+             ]),
+        dict(aanpak="De schaal zegt hoeveel keer de werkelijkheid verkleind is. Reken altijd eerst in "
+                    "centimeter en zet pas achteraf om naar meter of kilometer.",
+             waarom=[
+                 "Bij 1 : 25 000 is 1 cm gelijk aan 25 000 cm, en dat is 250 m. Delen door 100 geeft "
+                 "meter, delen door 100 000 geeft kilometer.",
+                 None,
+                 "Hoe kleiner het tweede getal, hoe minder de werkelijkheid verkleind is, en dus hoe "
+                 "meer detail je ziet. Een kaart 1 : 10 000 toont dus meer dan 1 : 1 000 000.",
+             ]),
+        dict(aanpak="Zonder legende is een kaart alleen maar een prentje. Zoek dus altijd eerst de "
+                    "legende, en lees daarna pas de kaart.",
+             waarom=[
+                 "De kleuren tonen de hoogte: groen is laag, geel en bruin steeds hoger. Groen betekent "
+                 "dus niet dat er bos staat.",
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="De lijnen op de aardbol zijn denkbeeldig: ze bestaan niet in het echt, maar ze "
+                    "laten je elke plaats precies aanduiden. Meridianen lopen van pool tot pool, "
+                    "breedtecirkels evenwijdig met de evenaar.",
+             waarom=[None, None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-belgie"] = dict(
+    reeksen=[
+        dict(aanpak="Teken België in je hoofd van west naar oost: West-Vlaanderen aan de zee, dan "
+                    "Oost-Vlaanderen, Antwerpen en Vlaams-Brabant, en Limburg helemaal rechts.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Drie gewesten (Vlaanderen, Wallonië en Brussel) en daarnaast drie gemeenschappen. "
+                 "Gewesten gaan over het grondgebied, gemeenschappen over de taal.",
+             ]),
+        dict(aanpak="Grote steden liggen bijna altijd aan water. Vraag je bij elke stad af welke rivier "
+                    "er stroomt, dan ligt het antwoord er vaak al.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Vier buurlanden en drie landstalen. Zet de buurlanden in je hoofd met de klok mee, "
+                    "te beginnen bij Nederland in het noorden.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Waar mensen wonen en werken, hangt samen met het landschap: vlak en centraal "
+                    "gelegen land trekt mensen aan, bergachtig en afgelegen land veel minder.",
+             waarom=[None, None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-europa-en-de-wereld"] = dict(
+    reeksen=[
+        dict(aanpak="Zes bewoonde werelddelen en Antarctica erbij. Overloop ze op een wereldkaart van "
+                    "links naar rechts, dan vergeet je er geen.",
+             waarom=[
+                 None,
+                 None,
+                 "Oceanië is kleiner dan Europa. Europa is wel het op één na kleinste werelddeel, en "
+                 "dat is net de valstrik in deze vraag.",
+                 None,
+             ]),
+        dict(aanpak="Leer een hoofdstad altijd samen met zijn land en zijn ligging. Een naam alleen "
+                    "blijft veel minder goed hangen dan een plaats op de kaart.",
+             waarom=[None, None, None]),
+        dict(aanpak="De hoogte en de ligging bepalen het klimaat: hoe hoger, hoe kouder, en hoe verder "
+                    "van de evenaar, hoe schuiner de zon invalt.",
+             waarom=[
+                 None,
+                 None,
+                 "De aarde staat schuin op haar baan. Daarom is het noorden en het zuiden nooit "
+                 "tegelijk naar de zon gekeerd, en zijn de seizoenen er omgekeerd.",
+                 "De aarde draait in 24 uur één keer rond, dus is ze in 24 tijdzones verdeeld, één per "
+                 "uur. In het echt lopen de grenzen grillig, langs de landsgrenzen.",
+             ]),
+        dict(aanpak="Hier gaat het over oppervlakte, niet over het aantal inwoners. Een groot land kan "
+                    "weinig mensen tellen, en een klein land heel veel.",
+             waarom=[None, None, None]),
+    ],
+)
