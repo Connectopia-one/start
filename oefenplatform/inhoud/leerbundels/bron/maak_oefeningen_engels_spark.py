@@ -820,3 +820,383 @@ if __name__ == "__main__":
     for naam, b in OEFENBUNDELS.items():
         oefenbundel.schrijf(b, naam)
         print("  ", naam)
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-een-engelse-tekst-lezen-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Lees de tekst eerst één keer helemaal, zonder te stoppen bij woorden die je niet "
+                    "kent. Pas daarna lees je met de vragen ernaast.",
+             waarom=[]),
+        dict(aanpak="De antwoorden staan in de tekst. Zoek de zin, en schrijf in het Nederlands wat er "
+                    "staat; je hoeft de tekst niet woord voor woord te vertalen.",
+             waarom=[None, None, None, None, None, None]),
+        dict(aanpak="Raad een onbekend woord eerst uit de zin eromheen: wat zou er logisch kunnen "
+                    "staan? Zoek het pas op als je er echt niet uit komt.",
+             waarom=[
+                 None,
+                 "It verwijst terug naar iets wat er net stond. Zoek dus naar het laatste ding waar de "
+                 "zin ervoor over ging.",
+                 "One in five is één op vijf. Twintig van de honderd, dus twintig procent.",
+                 "Pas op met valse vrienden: eventually betekent uiteindelijk en niet eventueel, actually "
+                 "betekent eigenlijk en niet actueel.",
+             ]),
+        dict(aanpak="Een leesstrategie is kiezen hoe je leest. Zoek je één gegeven, dan scan je; wil je "
+                    "de hoofdgedachte, dan lees je de inleiding en het slot.",
+             waarom=[
+                 None,
+                 None,
+                 "A.m. komt van ante meridiem, vóór de middag; p.m. van post meridiem, ná de middag. "
+                 "7 a.m. is zeven uur 's ochtends.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-tekstsoorten-signaalwoorden-en-verwijswoorden-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je bij elke tekst af wat hij van je wil: iets laten doen, iets laten weten, "
+                    "je overtuigen, of je meenemen in een verhaal.",
+             waarom=[
+                 "Let op de werkwoordsvorm: een gebiedende wijs (peel, boil) wijst op een instructie, "
+                 "I think op een mening, en een verleden tijd met personages op een verhaal.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Het communicatiemodel is drie vragen: wie zegt het, waarom, en tegen wie? Het "
+                    "antwoord op die drie staat zelden letterlijk in de tekst, je leidt het af.",
+             waarom=[
+                 None,
+                 None,
+                 "Het aantal bladzijden zegt niets over zender, doel of ontvanger. Dat is een kenmerk "
+                 "van het boek, niet van de boodschap.",
+             ]),
+        dict(aanpak="Een signaalwoord zegt wat er gaat komen. Leer ze per verband: volgorde, reden, "
+                    "gevolg, tegenstelling, voorbeeld, toevoeging.",
+             waarom=[
+                 None,
+                 "Because geeft de reden, so het gevolg. In Engels staat because vóór de oorzaak en so "
+                 "vóór het gevolg, net zoals omdat en dus.",
+                 None,
+                 "Very versterkt alleen een woord; het legt geen verband tussen twee stukken tekst. Dat "
+                 "is wat een signaalwoord wel doet.",
+             ]),
+        dict(aanpak="Zoek bij een verwijswoord altijd terug: naar welk woord of welke zin verwijst het? "
+                    "Meestal staat dat vlak ervoor.",
+             waarom=[
+                 "He en she zijn voor personen, it voor dingen en dieren, they voor meervoud, en there "
+                 "verwijst naar een plaats.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Veel Engelse woorden kan je zelf uitrekenen: zoek het woord dat erin zit en kijk "
+                    "wat het voorvoegsel of achtervoegsel ermee doet.",
+             waarom=[None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-schrijven-berichten-uitnodigingen-en-mails-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Vaste zinnen leer je als één geheel, niet woord per woord. Zeg ze hardop, dan "
+                    "blijven ze beter hangen.",
+             waarom=[None, None, None]),
+        dict(aanpak="Kijk eerst wie de ontvanger is. Daaruit volgt de aanhef, de slotgroet én de "
+                    "woordkeuze; die drie horen bij elkaar te passen.",
+             waarom=[
+                 None,
+                 "Beleefd vragen doe je in het Engels met could, would of please. Een gebiedende wijs "
+                 "zonder please klinkt er harder dan in het Nederlands.",
+                 "Mate is Brits vriendentaal, zoals maat of gast. In een formele mail schrijf je Dear "
+                 "Mr Jones of Dear Sir or Madam.",
+             ]),
+        dict(aanpak="Vink af wat gevraagd wordt (wat, wanneer, waar, hoe laat) voor je begint, en "
+                    "schrijf dan pas. Een korte juiste zin is beter dan een lange met fouten.",
+             waarom=[None, None, None]),
+        dict(aanpak="Nakijken is deel van de opdracht. Lees je tekst nog één keer met de opgave "
+                    "ernaast, niet alleen op spelling.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Let op de klassiekers: I krijgt altijd een hoofdletter, net als landen en talen "
+                 "(London, English).",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-engelstalige-landen-en-literaire-teksten-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Een nationaliteit krijgt in het Engels altijd een hoofdletter, ook midden in de "
+                    "zin. Let op de uitgangen: -ish, -ian, -ese.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Ierland betaalt met de euro. Het pond is van het Verenigd Koninkrijk, waar "
+                 "Noord-Ierland wel bij hoort.",
+             ]),
+        dict(aanpak="Let bij elk verschil op wat het voor jou als lezer betekent: een datum, een maat "
+                    "of een verdieping kan iets anders zijn dan je denkt.",
+             waarom=[
+                 None,
+                 "Australië ligt op het zuidelijk halfrond, dus de seizoenen liggen omgekeerd. Kerstmis "
+                 "valt er midden in de zomervakantie.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Brits en Amerikaans verschillen in woorden én in spelling. Beide zijn juist; "
+                    "houd binnen één tekst wel één van de twee aan.",
+             waarom=[
+                 None,
+                 None,
+                 "Color is de gewone Amerikaanse spelling. Fout is het pas als je in dezelfde tekst door "
+                 "elkaar colour en color schrijft.",
+             ]),
+        dict(aanpak="Bij een literaire tekst wordt niet naar één juist antwoord gevraagd maar naar wat "
+                    "jij erin leest. Zeg er daarom altijd bij waaruit je het haalt.",
+             waarom=[
+                 None,
+                 None,
+                 "Geloofwaardig betekent: het past bij wat er al gebeurd is in het verhaal. Een einde "
+                 "dat uit het niets komt, telt niet.",
+                 "Een schoolrapport wil enkel iets meedelen. Een gedicht, een lied en een kortverhaal "
+                 "gebruiken taal ook om iets te laten voelen.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordenschat-mensen-familie-gevoelens-en-gezondheid-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Teken bij familiewoorden gerust een stamboompje. Je ziet dan meteen wie langs "
+                    "welke kant hoort.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Hou die twee uit elkaar: cousin gaat opzij in de stamboom (het kind van je tante of "
+                 "oom), nephew en niece gaan een trapje omlaag (het kind van je broer of zus).",
+             ]),
+        dict(aanpak="Let bij gevoelswoorden op de uitgang: -ed zegt hoe jij je voelt, -ing zegt hoe "
+                    "iets ís.",
+             waarom=[
+                 None,
+                 "I am bored betekent ik verveel me. I am boring betekent ik ben saai. Daar zit het "
+                 "verschil tussen -ed en -ing.",
+                 "Veel Engelse gevoelswoorden hebben een vast voorzetsel: afraid of, proud of, worried "
+                 "about, good at. Leer die er meteen bij.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Pijn zeg je in het Engels met ache of sore, niet met pain. En let op de "
+                    "onregelmatige meervouden van lichaamsdelen.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Hair is in het Engels een ontelbaar woord, net als water of bread. Daarom staat er is "
+                 "en niet are.",
+                 "Once, twice, three times: bij twee keer bestaat er een eigen woord, vanaf drie keer "
+                 "gebruik je times.",
+             ]),
+        dict(aanpak="De woorden van een formulier leer je als groep, want je vindt ze op elk formulier "
+                    "terug.",
+             waarom=[
+                 "Surname is je achternaam, al lijkt sur op het Franse sur. First name en surname staan "
+                 "vaak in die volgorde op een formulier.",
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordenschat-eten-wonen-kleding-en-dagelijkse-dingen-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Let bij eten op twee dingen: de valse vrienden, en het feit dat je sommige "
+                    "woorden niet kan tellen (water, rijst, brood).",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Een ontelbaar woord tel je met een maat ervoor: a slice of, a glass of, a bowl of. "
+                 "Two breads bestaat niet.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Woonwoorden zijn vaak Brits-Amerikaans verschillend. Leer de Britse vorm, want de "
+                    "examens werken met Brits Engels.",
+             waarom=[None, None, None]),
+        dict(aanpak="Let op de kledingstukken die in het Engels altijd meervoud zijn: trousers, jeans, "
+                    "glasses, shorts.",
+             waarom=[
+                 None,
+                 "Trousers bestaat alleen in het meervoud, net als glasses en jeans. Dus are en niet "
+                 "is. Wil je er één bedoelen, dan schrijf je a pair of trousers.",
+                 None,
+                 "Aanhebben is to wear. To put on is aantrekken, de beweging zelf.",
+             ]),
+        dict(aanpak="Een winkel eindigt in het Brits vaak op 's: a baker's, a butcher's. Het is "
+                    "eigenlijk de winkel ván de bakker.",
+             waarom=[None, None, None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordenschat-school-beroepen-sport-en-vrije-tijd-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Instructietaal is de taal van de opgave zelf. Ken je die niet, dan verlies je "
+                    "punten op een oefening die je eigenlijk kon.",
+             waarom=[None, None, None]),
+        dict(aanpak="Schoolwoorden verschillen tussen Brits en Amerikaans. Leer de Britse vorm, en let "
+                    "op de woorden die geen meervoud hebben.",
+             waarom=[
+                 None,
+                 None,
+                 "Homework, information en advice zijn ontelbaar in het Engels: nooit een -s. Wil je er "
+                 "één bedoelen, dan schrijf je a piece of homework.",
+                 "Getallen van 21 tot 99 krijgen een koppelteken: twenty-four, thirty-seven.",
+             ]),
+        dict(aanpak="Een beroep krijgt in het Engels altijd een lidwoord: she is a nurse, niet she is "
+                    "nurse.",
+             waarom=[None, None]),
+        dict(aanpak="Onthoud de drie vaste combinaties: play bij een balsport of een instrument, go bij "
+                    "een sport op -ing, do bij de rest.",
+             waarom=[
+                 "Bij een instrument staat er the (I play the piano), bij een sport niet (I play "
+                 "tennis).",
+                 None,
+                 None,
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordenschat-getallen-tijd-weer-reizen-en-landen-spark"] = dict(
+    reeksen=[
+        dict(aanpak="In het Engels zeg je het uur vanuit het hele uur: past als de wijzer erover is, to "
+                    "als hij er nog voor staat.",
+             waarom=[
+                 None,
+                 None,
+                 "Opletten: half past seven is half acht, niet half zeven. De Engelsen tellen vanaf het "
+                 "uur dat geweest is.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Dagen, maanden en nationaliteiten krijgen in het Engels altijd een hoofdletter. "
+                    "Rangtelwoorden eindigen op -th, op een handvol na.",
+             waarom=[
+                 None,
+                 "Drie onregelmatige: first, second, third. Daarna -th, met de spellingsknikken fifth, "
+                 "ninth, twelfth en twentieth.",
+                 "A few en many horen bij wat je kan tellen, a little en much bij wat je niet kan "
+                 "tellen.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Weerwoorden eindigen vaak op -y: rainy, windy, cloudy, foggy. Let op of de vraag "
+                    "naar nu vraagt of naar gewoonlijk.",
+             waarom=[None, None, None]),
+        dict(aanpak="Vervoermiddelen gaan met by, behalve te voet: on foot. Leer de stationswoorden als "
+                    "groep, je vindt ze op elk bord terug.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 None,
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-grammatica-naamwoorden-lidwoorden-en-voornaamwoorden-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Het meervoud is meestal -s, maar let op vier groepen: woorden op s/sh/ch krijgen "
+                    "-es, een medeklinker plus y wordt -ies, f wordt ves, en een handvol is "
+                    "onregelmatig.",
+             waarom=[
+                 None,
+                 None,
+                 "Advice, information, news en furniture zijn ontelbaar: nooit een -s. Eén ervan noem je "
+                 "met a piece of.",
+             ]),
+        dict(aanpak="A of an kies je op de klánk van het volgende woord, niet op de letter. Spreek het "
+                    "woord hardop uit en luister.",
+             waarom=[
+                 None,
+                 None,
+                 "Een beroep krijgt in het Engels altijd a of an: she is a teacher. Zonder lidwoord "
+                 "klinkt het fout.",
+             ]),
+        dict(aanpak="This en these zijn dichtbij, that en those veraf. En denk aan de apostrof: it's is "
+                    "it is, its is van hem of haar.",
+             waarom=[
+                 None,
+                 None,
+                 "Een ezelsbruggetje: kan je het uitspreken als it is, dan schrijf je it's. Anders its, "
+                 "zonder apostrof.",
+             ]),
+        dict(aanpak="Een voornaamwoord verandert van vorm naargelang het vooraan of achteraan de zin "
+                    "staat. En vergelijken doe je met -er bij korte woorden, met more bij lange.",
+             waarom=[
+                 None,
+                 None,
+                 "Tot twee lettergrepen: -er en -est. Langer: more en the most. Good, bad en far zijn "
+                 "onregelmatig.",
+                 "Good wordt better, en dan staat more er nooit meer bij. More better is dubbelop.",
+                 "As … as zegt dat twee dingen gelijk zijn. Than gebruik je als er een verschil is: "
+                 "taller than her brother.",
+             ]),
+        dict(aanpak="De tijdsvoorzetsels gaan van groot naar klein: in voor een jaar of een maand, on "
+                    "voor een dag of een datum, at voor een uur.",
+             waarom=[None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-grammatica-werkwoorden-tijden-en-zinsbouw-spark"] = dict(
+    reeksen=[
+        dict(aanpak="Zoek eerst het onderwerp. Is het he, she of it, dan komt er een -s bij. Dat ene "
+                    "lettertje is de meest gemaakte fout van heel het jaar.",
+             waarom=[
+                 None,
+                 "Die -s zit al in does. Daarom staat het andere werkwoord in de grondvorm: does she "
+                 "live, niet does she lives.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Vraag je af of het nú bezig is (continuous) of altijd zo is (simple). Een "
+                    "signaalwoord als now, look of at the moment wijst op continuous.",
+             waarom=[
+                 None,
+                 "Werkwoorden van weten, vinden en voelen (know, like, want, believe) staan nooit in de "
+                 "continuous. Je zegt I know the answer.",
+                 None,
+             ]),
+        dict(aanpak="De onregelmatige werkwoorden moet je gewoon kennen; oefen ze in drie kolommen. En "
+                    "let op het verschil tussen de past simple en de voltooide tijd.",
+             waarom=[
+                 None,
+                 "Na have komt de derde vorm, het voltooid deelwoord: gone. Went is de tweede vorm en "
+                 "staat alleen, zonder have.",
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Je herkent de zinssoort aan wat de zin doet en aan het leesteken: een punt, een "
+                    "vraagteken of een uitroepteken.",
+             waarom=[None, None, None]),
+        dict(aanpak="Tel de persoonsvormen: één is enkelvoudig, meer dan één is samengesteld. Een "
+                    "voegwoord verbindt de deelzinnen.",
+             waarom=[
+                 None,
+                 None,
+                 "Very versterkt alleen een woord, het verbindt geen twee deelzinnen. And, but, because "
+                 "en so doen dat wel.",
+             ]),
+    ],
+)
