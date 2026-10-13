@@ -1389,3 +1389,1284 @@ OEFENBUNDELS["oefenbundel-spreken-en-gesprekken-voeren-beyond"] = dict(
              ]),
     ],
 )
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-tekstsoorten-en-teksttypes-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vraag je bij elke tekst af wat de zender van je wil: iets laten weten, iets laten "
+                   "doen, je overtuigen, je iets laten voelen, of een verhaal vertellen.",
+            waarom=[
+                "Let op prescriptief: dat is de soort die je zegt wat je moet doen, zoals een "
+                "bijsluiter of een recept. Een handleiding is dus geen informatieve tekst.",
+                "Let op het verschil tussen informatief en opiniërend: een dossier legt uit, een "
+                "lezersbrief vindt iets. Het woordje ik of een waardering verraadt het tweede.",
+            ],
+        ),
+        dict(
+            aanpak="Eén tekst kan meerdere doelen hebben. Lees ze in stukken en zet bij elk stuk het "
+                   "doel, en zeg daarna wat het hoofddoel is.",
+            waarom=[
+                "Noem alle drie de doelen, want de tekst heeft drie delen. Let erop dat de oproep op "
+                "het einde het hoofddoel verraadt: daar komt de podcast op uit.",
+                "Noem ook welk doel het hoofddoel is, zoals het antwoord doet. De feiten in een "
+                "recensie staan er om het oordeel te dragen, en dus niet omgekeerd.",
+            ],
+        ),
+        dict(
+            aanpak="De zender is niet altijd wie je ziet of hoort. Vraag je af wie betaalt en wie "
+                   "beslist wat erin komt.",
+            waarom=[
+                "Noem beide delen: wie de echte zender is, en wat je daarmee doet. Dat tweede, een "
+                "bron zoeken zonder belang, is wat de vraag uitdrukkelijk vraagt.",
+                "Noem dat de soort je wel op je hoede zet. Zo zeg je niet dat de tekstsoort niets "
+                "uitmaakt, maar dat ze iets anders zegt dan of de tekst waar is.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: het examen, wat literair kan zijn, en de "
+                   "verwarring tussen feiten en tekstsoort.",
+            waarom=[
+                "Niet waar: ook een gesprek in de tussentaal of een tekst met dialect kan op het "
+                "examen staan. Je moet die net kunnen plaatsen.",
+                "Waar: literair gaat over de vorm en het effect, niet over de drager. Ook een strip, "
+                "een lied of een film kan literair zijn.",
+                "Niet waar: ook een persuasieve tekst kan vol feiten staan. Het doel beslist de "
+                "soort, niet het aantal feiten.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Bij zelf schrijven blijf je het best bij één onderwerp en verander je enkel het "
+                   "doel. Zo zie je zelf waar het verschil zit.",
+            waarom=[
+                "Noem ook waaraan men het verschil ziet, zoals gevraagd. De oproep, de toon en de "
+                "overdrijving zijn de drie dingen om te benoemen.",
+                "Noem beide soorten en zeg bij elk waarom. Dat de vorm zelf meedoet, is wat een tekst "
+                "literair maakt.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-onderwerp-hoofdgedachte-en-samenvatten-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Eén proef scheidt de twee: een onderwerp kan je in een paar woorden zeggen, een "
+                   "hoofdgedachte is een hele zin met een bewering erin.",
+            waarom=[
+                "Let erop dat een onderwerp geen werkwoord nodig heeft en een hoofdgedachte wel. Waar "
+                "je ja of nee op kan zeggen, is een hoofdgedachte.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Lees het stukje twee keer: eerst om te weten waarover het gaat, dan om te zien "
+                   "wat de schrijver erover beweert. Let op het woord dat de bocht aankondigt.",
+            waarom=[
+                None,
+                "Noem beide kanten in één zin: de voordelen en de reden om papier niet op te geven. "
+                "Een hoofdgedachte die maar één kant noemt, mist de kern van deze tekst.",
+                "Noem de twee punten apart, zoals gevraagd. Elk punt staat aan een kant van het "
+                "woord toch.",
+                "Let op het woord toch: dat kondigt de tegenstelling aan en zet de hoofdgedachte in "
+                "de tweede helft van de tekst. Zulke signaalwoorden zijn je snelste weg naar de kern.",
+            ],
+        ),
+        dict(
+            aanpak="Notities en een mindmap dienen niet om alles op te schrijven maar om het verband "
+                   "te zien. Hou dat bij beide vragen vast.",
+            waarom=[
+                "Noem alle drie de eisen, zoals gevraagd. Let erop dat afkortingen en telegramstijl "
+                "mogen: notities hoeven geen volle zinnen te zijn.",
+                "Noem dat je in een mindmap de verbanden ziet. Dat is het enige echte voordeel, en "
+                "het is er een groot.",
+            ],
+        ),
+        dict(
+            aanpak="Een samenvatting is korter, in eigen woorden, zonder je mening. Die drie regels "
+                   "beslissen alle vier de vragen van deze reeks.",
+            waarom=[
+                "Niet waar: in je eigen woorden is de kern van samenvatten. Letterlijk overnemen is "
+                "citeren, en dan hoort er een bronvermelding bij.",
+                "Waar: je mag hergroeperen, zolang de inhoud juist blijft. Soms wordt een "
+                "samenvatting daardoor zelfs duidelijker dan het origineel.",
+                "Niet waar: je mening hoort in een reactie of een bespreking, niet in een "
+                "samenvatting. Een lezer moet uit je samenvatting niet kunnen opmaken wat jij ervan "
+                "vindt.",
+                "Noem allebei: wat er misliep en wat hij moet doen. Voorbeelden, herhalingen en "
+                "anekdotes zijn het eerste dat eruit gaat.",
+            ],
+        ),
+        dict(
+            aanpak="Tel je woorden en schrijf eerst de hoofdgedachte op. Pas als die er staat, voeg je "
+                   "toe wat er nog bij past binnen de dertig woorden.",
+            waarom=[
+                "Let erop dat de tegenstelling in je samenvatting moet blijven. Zonder het woord maar "
+                "of toch staat er iets anders dan in de tekst.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-bronnen-beoordelen-betrouwbaarheid-nepnieuws-en-framing-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zes vragen, zes criteria. Hou ze in twee groepen: vragen over de bron zelf, en "
+                   "vragen over wat jij ermee wil doen.",
+            waarom=[
+                "Let erop dat wie betaalt de scherpste vraag van de zes is. Daarmee ontdek je een "
+                "belang, en een belang verklaart vaak wat er in de tekst staat.",
+                "Let op de relevantie: dat is het enige criterium dat over jou gaat en niet over de "
+                "bron. Een heel betrouwbare bron kan voor jouw opdracht toch onbruikbaar zijn.",
+            ],
+        ),
+        dict(
+            aanpak="Geef bij elke bron een oordeel én een reden. Vraag je telkens af wie belang heeft "
+                   "bij het antwoord, en of de bevestiging echt onafhankelijk is.",
+            waarom=[
+                "Noem zowel de pluspunten als wat je nog nagaat. Een auteursnaam en studies zijn "
+                "goede tekens, maar wie de studie betaalde, is de vraag die erbij hoort.",
+                "Noem dat dezelfde zinnen op één bron wijzen. Onafhankelijke bevestiging betekent dat "
+                "verschillende mensen het apart hebben nagegaan.",
+                "Noem beide delen: je eerste stap en het vermoedelijke doel. Dat advertenties per "
+                "bezoeker geld opleveren, verklaart waarom zulke berichten gemaakt worden.",
+            ],
+        ),
+        dict(
+            aanpak="Framing gaat over de woordkeuze bij hetzelfde feit. Zoek telkens het woord dat de "
+                   "andere kant opwijst, en let ook op beelden en grafieken.",
+            waarom=[
+                "Let erop dat beide woorden hetzelfde feit beschrijven. Besparing en "
+                "belastingverlaging gaan over dezelfde maatregel, enkel de kant verschilt.",
+                "Noem allebei: het effect en dat de grafiek niet onwaar is. Het woord misleidend is "
+                "hier scherper dan onwaar, en dat is precies wat deze vraag toetst.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: wat een mooie website bewijst, wanneer "
+                   "ouderdom telt, en het verschil tussen reclame en propaganda.",
+            waarom=[
+                "Niet waar: een vormgeving kost een paar uur. Juist nepsites zien er vaak heel "
+                "verzorgd uit, en dat is bewust.",
+                "Niet waar: voor een cijfer over dit jaar is ze onbruikbaar, voor een gebeurtenis uit "
+                "de geschiedenis niet. De actualiteit hangt van je vraag af.",
+                None,
+                "Niet waar, en het staat net omgekeerd: reclame stuurt je koopgedrag, propaganda je "
+                "denken over mensen en machthebbers. De twee gebruiken wel dezelfde technieken.",
+            ],
+        ),
+        dict(
+            aanpak="Deze twee vragen gaan over jou. Hou vast dat een echokamer over de groep gaat en "
+                   "een filterbubbel over het algoritme.",
+            waarom=[
+                "Noem het verschil uitdrukkelijk, zoals gevraagd. De groep tegenover de techniek is "
+                "de scherpste manier om het te zeggen.",
+                "Noem beide delen: waarom het gebeurt en wat je eraan doet. Dezelfde vragen stellen "
+                "bij wat je graag leest, is het hele antwoord.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-het-communicatiemodel-en-ruis-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vul het model altijd in dezelfde orde in: wie, aan wie, wat, waarmee en waarvoor. "
+                   "Het kanaal is het middel, het doel is het gewenste gevolg.",
+            waarom=[
+                "Let op het verschil tussen de boodschap en het doel: de boodschap is wat er staat, "
+                "het doel is wat de club wil bereiken. Die twee worden het vaakst verward.",
+            ],
+        ),
+        dict(
+            aanpak="Eén vraag beslist: zit het bij de zender (doel) of bij de ontvanger (effect)? "
+                   "Alles wat er bij jou gebeurt, is effect.",
+            waarom=[
+                "Let op de derde: de zender wilde waarschuwen en de mensen lachen. Dat is een effect, "
+                "en het toont dat een boodschap haar doel kan missen.",
+                "Noem van beide waar ze zitten, bij de zender of bij de ontvanger. Dat ze vaak maar "
+                "niet altijd samenvallen, hoort erbij.",
+            ],
+        ),
+        dict(
+            aanpak="Eén vraag: zit de storing buiten de personen (externe ruis) of in hun hoofd "
+                   "(interne ruis)? Geluid en techniek zijn buiten, gedachten en voorkennis zijn "
+                   "binnen.",
+            waarom=[
+                None,
+                "Let op het vakjargon: dat klinkt als iets in de tekst, maar het wordt ruis doordat de "
+                "lezer de woorden niet kent. Het zit dus bij de persoon, en daarom is het interne "
+                "ruis.",
+            ],
+        ),
+        dict(
+            aanpak="Zoek bij elke situatie het onderdeel van het model dat misliep: de zender, het "
+                   "kanaal of de context. Benoem het met zijn naam.",
+            waarom=[
+                "Noem dat het bij de zender ligt. Dat is het ongemakkelijke deel van het antwoord, en "
+                "net daarom vraagt de vraag ook bij wie.",
+                "Noem het kanaal met naam. Het gaat hier niet over de tekst zelf: die kan perfect "
+                "zijn en toch niemand bereiken.",
+                "Noem de context. Dezelfde boodschap werkt anders in een krant, in een klas of tussen "
+                "grappige filmpjes.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: waar ruis zit, wat bij de boodschap hoort, en "
+                   "waarvoor het model dient.",
+            waarom=[
+                "Niet waar: ruis kan ook bij de zender zitten, zoals bij de verpleegkundige met zijn "
+                "vaktaal, of in het kanaal.",
+                "Waar: emoji's, opmaak en toon horen bij de boodschap. Ze veranderen wat er gezegd "
+                "wordt, en dus ook het effect.",
+                "Niet waar: het model werkt bij een gesprek, een filmpje, een affiche en een lied. "
+                "Alles waarin iemand iets aan iemand wil overbrengen.",
+                "Waar: in een gesprek wisselen de rollen voortdurend. Dat is ook waarom een gesprek "
+                "minder ruis geeft dan een brief: je kan meteen bijvragen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-tekstopbouw-alineaverbanden-en-structuuraanduiders-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De eerste woorden van een alinea verraden het verband. Leer per verband één "
+                   "signaalwoord, dan herken je de rest erbij.",
+            waarom=[
+                "Let op doel-middel: het woordje om kondigt dat aan. Dat is een ander verband dan "
+                "oorzakelijk, ook al lijken ze op elkaar.",
+                "Let op het verschil tussen oorzakelijk en voorwaardelijk: doordat zegt dat het echt "
+                "gebeurd is, op voorwaarde dat zegt dat het nog moet gebeuren.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je bij elke tekst af welke vragen hij achtereenvolgens beantwoordt. Die "
+                   "reeks vragen is de structuur.",
+            waarom=[
+                "Let op het verschil tussen de probleem- en de onderzoeksstructuur: de eerste zoekt "
+                "oplossingen, de tweede antwoordt op een onderzoeksvraag met een methode.",
+                "Let op de handelingsstructuur: die geeft stappen in de orde waarin je ze uitvoert. "
+                "Een recept en een handleiding volgen ze allebei.",
+            ],
+        ),
+        dict(
+            aanpak="Structuuraanduiders zijn de wegwijzers van een tekst. Leer per verband zijn "
+                   "woorden, en let erop dat de inhoud het laatste woord heeft.",
+            waarom=[
+                None,
+                "Let erop dat want redengevend is en dus hetzelfde doet als omdat. Het verschil zit "
+                "enkel in de zinsbouw erna.",
+                None,
+                "Noem ook een voorbeeld, zoals de vraag vraagt. Dat het verband uit de inhoud volgt "
+                "en niet uit het woord, is de kern van deze bundel.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: wat een alinea is, hoeveel structuren een "
+                   "tekst kan hebben, en wat lay-out wel en niet zegt.",
+            waarom=[
+                None,
+                "Niet waar: een lange tekst kan een probleemstructuur hebben met daarin een "
+                "vergelijking en een stukje geschiedenis. Structuren kunnen in elkaar zitten.",
+                "Niet waar: een mooie vormgeving zegt niets over de juistheid. Dat is dezelfde fout "
+                "als bij een professioneel ogende website.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Bij zelf opbouwen hou je drie delen vast: de inleiding wekt interesse, het midden "
+                   "werkt uit met één deelonderwerp per alinea, en het slot besluit.",
+            waarom=[
+                "Noem bij elk deel wat er concreet in komt. Een inleiding die enkel het onderwerp "
+                "noemt, wekt nog geen interesse.",
+                "Noem drie dingen, zoals gevraagd, en noem zeker het slot. Daar staat waar de tekst "
+                "op uitdraait, en dat zegt je snel of hij nuttig is.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-argumentatie-en-drogredenen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Eén proef: kan iemand het nagaan en er ja of nee op antwoorden? Dan is het een "
+                   "feit. Staat er een waardering in, zoals beste of te weinig, dan is het een mening.",
+            waarom=[
+                None,
+                "Let op de derde: te veel of te weinig is altijd een mening, ook als er cijfers bij "
+                "staan. Het cijfer is een feit, het oordeel erover niet.",
+            ],
+        ),
+        dict(
+            aanpak="Ontleed een betoog in vier delen: de stelling, de argumenten, het tegenargument "
+                   "met de weerlegging, en de conclusie. Markeer ze in de tekst.",
+            waarom=[
+                None,
+                "Let erop dat een verwijzing naar een studie met een aantal deelnemers "
+                "wetenschappelijke argumentatie is. Een voorbeeld uit je eigen klas zou dat niet zijn.",
+                "Noem beide delen: het tegenargument en hoe het weerlegd wordt. Dat de schrijver het "
+                "zelf noemt, maakt zijn betoog juist sterker.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Zes drogredenen met elk een vorm. Vraag je af wat er mis is: gaat het over de "
+                   "persoon, over de massa, over een nep-keuze, of over een voorspelde ramp?",
+            waarom=[
+                "Let op het vals dilemma: er worden twee keuzes gegeven terwijl er meer zijn. Het "
+                "woordje ofwel is daar bijna altijd het teken van.",
+                "Let op het hellend vlak: er wordt een ramp voorspeld zonder te laten zien hoe je "
+                "daar zou komen. Een cirkelredenering gebruikt haar besluit als bewijs.",
+            ],
+        ),
+        dict(
+            aanpak="Drie vragen over wat een argument waard is. Hou vast dat samen stijgen nog geen "
+                   "oorzaak is.",
+            waarom=[
+                "Noem drie vragen, zoals gevraagd, en noem zeker wie het betaalde. Dat is dezelfde "
+                "vraag als bij het beoordelen van een bron.",
+                "Noem het verschil tussen samenhang en oorzaak. En noem dat er een derde oorzaak kan "
+                "zijn: hier bijvoorbeeld een groeiende bevolking in de gemeente.",
+                "Noem alle drie de eisen, zoals gevraagd. Waar zijn is niet genoeg: een waar argument "
+                "dat niets met de stelling te maken heeft, telt niet mee.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: cijfers in een betoog, de plaats van een "
+                   "mening, en wat een betoog sterk maakt.",
+            waarom=[
+                "Niet waar: cijfers kunnen uit een slecht onderzoek komen of misleidend gepresenteerd "
+                "zijn. Een cijfer is een argument en geen bewijs op zich.",
+                "Niet waar: in een opiniestuk of een recensie hoort een mening er juist. Ze moet wel "
+                "onderbouwd zijn, en in een samenvatting of een verslag hoort ze niet.",
+                None,
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-literaire-begrippen-en-genres-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Drie hoofdgroepen met drie vragen: wordt er verteld (epiek), spreekt er een ik "
+                   "over zijn binnenkant (lyriek), of wordt het gespeeld (dramatiek)?",
+            waarom=[
+                "Let op de klucht en de tragedie: beide zijn dramatiek, ook al is de ene om te lachen "
+                "en de andere niet. De hoofdgroep gaat over de vorm, niet over de toon.",
+            ],
+        ),
+        dict(
+            aanpak="Negen genres. Leer ze aan hun kenmerk: dieren met een les, een beeld met een "
+                   "waarheid, een held in verzen, brieven, een leven dat vormt.",
+            waarom=[
+                "Let op het verschil tussen de fabel en de parabel: in een fabel treden dieren op, in "
+                "een parabel mensen in een alledaags beeld. Beide eindigen in een les.",
+                "Let op de allegorie: daar staat alles voor iets anders, niet één ding zoals bij een "
+                "symbool. Het hele verhaal is dan een beeld.",
+                "Let op de sleutelroman: de lezer die de sleutel heeft, herkent echte personen. "
+                "Daarom is zo'n roman soms een rechtszaak waard geweest.",
+            ],
+        ),
+        dict(
+            aanpak="Drie soorten humor, drie doelen: ironie zegt het omgekeerde, sarcasme wil raken, "
+                   "satire wil een misstand aanklagen.",
+            waarom=[
+                "Noem dat sarcasme bedoeld is om te raken. Dat is het enige verschil met ironie, en "
+                "het is een verschil in bedoeling en niet in vorm.",
+                "Noem waar elk op mikt: de parodie op de vorm, de satire op de wereld. Met die twee "
+                "woorden is het verschil in één zin gezegd.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: de lengte van genres, wat literair kan zijn, "
+                   "en hoe streng een genre is.",
+            waarom=[
+                "Niet waar, en het is net omgekeerd: een novelle is korter dan een roman en langer "
+                "dan een kortverhaal. De orde is kortverhaal, novelle, roman.",
+                "Niet waar: ook een waargebeurd verhaal kan literair verteld zijn. Literair gaat over "
+                "de vorm, non-fictie over de inhoud.",
+                "Niet waar: een historische roman mag verzinnen, zolang de tijd geloofwaardig blijft. "
+                "Een schrijver is geen historicus.",
+                None,
+                "Waar: dat is precies wat een stadssage werkt. Ze wordt doorverteld als iets dat "
+                "iemands kennis is overkomen, en dat maakt haar geloofwaardig.",
+            ],
+        ),
+        dict(
+            aanpak="Twee open vragen over waarom je dit leert. Geef bij de eerste een voorbeeld, zoals "
+                   "gevraagd.",
+            waarom=[
+                "Noem beide delen: wat gelaagdheid is en hoe het kan werken. Zonder voorbeeld blijft "
+                "het een definitie.",
+                "Noem dat je in één woord zegt wat anders een alinea kost. Dat is het praktische "
+                "nut, en het geldt in elk vak met zijn eigen woorden.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-verhaalkenmerken-en-vertelperspectief-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Negen begrippen in drie groepen: over de personages, over de opbouw, en over wat "
+                   "er terugkeert of verwijst.",
+            waarom=[
+                "Let op de antagonist en de antiheld: de eerste werkt tegen, de tweede is de "
+                "hoofdpersoon zelf maar zonder heldhaftige kant. Ze beginnen met dezelfde letters en "
+                "betekenen iets anders.",
+                "Let op de pointe: die zit op het einde en keert je blik om. De climax is het "
+                "spanningshoogtepunt en kan er al eerder liggen.",
+                "Let op het verschil tussen een symbool en een motief: een symbool staat voor iets "
+                "anders, een motief keert gewoon terug. Een terugkerend symbool is dan beide.",
+            ],
+        ),
+        dict(
+            aanpak="Bij het perspectief stel je altijd dezelfde vraag: wie weet wat? Wie alles weet, "
+                   "is auctorieel; wie enkel binnen één hoofd kijkt, is personaal.",
+            waarom=[
+                "Let op de onbetrouwbare verteller: die bestaat enkel doordat je als lezer merkt dat "
+                "er iets niet klopt. Dat is een van de sterkste effecten in de literatuur.",
+                "Noem van beide wat ze weten over het einde. Dat is het onderscheid, en het verklaart "
+                "waarom een vertellende ik commentaar kan geven op zijn jongere zelf.",
+            ],
+        ),
+        dict(
+            aanpak="Hou twee tijden apart: de vertelde tijd is hoe lang het verhaal duurt, de "
+                   "verteltijd hoe veel bladzijden het krijgt. Hun verhouding geeft versnelling of "
+                   "vertraging.",
+            waarom=[
+                None,
+                "Let erop dat vertraging betekent dat er veel bladzijden over weinig tijd gaan. Een "
+                "hele roman over één dag is daar het bekendste voorbeeld van.",
+                "Noem van beide wat ze zijn, met een voorbeeld van een duur. Enkel het woord leestijd "
+                "noemen is te weinig.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Een ruimte doet in een verhaal altijd iets. Vraag je af of ze de sfeer zet, de "
+                   "klasse van de personages toont, of voor iets anders staat.",
+            waarom=[
+                "Noem beide delen: de functie en wat ze over de personages zegt. De ruimte als beeld "
+                "van hun leven is wat de vraag zoekt.",
+                "Noem alle vier met een voorbeeld, zoals gevraagd. Let erop dat sociale ruimte over "
+                "de omgeving en de klasse gaat, niet over een plaats op de kaart.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: wat een personage kan zijn, wat een verteller "
+                   "weet, en wat een niet-chronologische opbouw betekent.",
+            waarom=[
+                "Waar: ook een hoofdpersoon kan vlak zijn, zoals in veel spannende verhalen of "
+                "strips. Vlak betekent weinig uitgewerkt, niet onbelangrijk.",
+                "Niet waar: een ik-verteller kan enkel vermoeden wat anderen denken. Doet hij dat "
+                "alsof hij het weet, dan maakt de schrijver er bewust een onbetrouwbare verteller "
+                "van.",
+                "Niet waar: een flashback of een begin in medias res is een keuze, niet een fout. "
+                "Veel sterke romans zijn juist zo gebouwd.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-poezie-dichtvormen-strofen-en-rijm-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zes vormen, zes aantallen. Een hulpje bij de namen: distichon heeft di van twee, "
+                   "kwatrijn kwa van vier, octaaf oct van acht.",
+            waarom=[
+                "Let op het sonnet met veertien verzen: dat is acht plus zes, dus een octaaf en een "
+                "sextet. Precies op die grens zit de volta uit de vierde reeks.",
+            ],
+        ),
+        dict(
+            aanpak="Zes dichtvormen aan hun kenmerk: klagen, loven, vertellen met een refrein, een "
+                   "woord in de eerste letters, verzen die terugkomen, of de vorm zelf als beeld.",
+            waarom=[
+                "Let op het verschil tussen een elegie en een ode: de ene rouwt, de andere eert. "
+                "Beide zijn lyriek met een duidelijke toon.",
+                "Let op het rondeel: daar keren hele verzen letterlijk terug, en niet enkel een rijm. "
+                "Die herhaling is zijn hele werking.",
+            ],
+        ),
+        dict(
+            aanpak="Zet de rijmklanken als letters onder de verzen, dan zie je het schema meteen. "
+                   "Zelfde letter betekent zelfde rijmklank.",
+            waarom=[
+                "Let op omarmend rijm: abba betekent dat het eerste en het laatste vers rijmen, met "
+                "een paar erin omsloten. De naam zegt het zelf.",
+                "Let op het verschil tussen assonantie en alliteratie: de eerste zit in de klinkers "
+                "middenin de woorden, de tweede in de beginklank.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Bij vorm en klank kijk je naar waar de regels afbreken en waar het wit staat. Die "
+                   "keuzes zijn bij een dichter nooit toevallig.",
+            waarom=[
+                "Noem het woord enjambement. De regel breekt af terwijl de zin doorgaat, en daardoor "
+                "krijgt het laatste woord van de regel extra gewicht.",
+                "Noem beide effecten: de aandacht en het vertragen. Wit op een bladzijde werkt als "
+                "stilte in muziek.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: wie in een gedicht spreekt, of een gedicht "
+                   "moet rijmen, en de soorten rijm.",
+            waarom=[
+                "Niet waar: het lyrisch subject is de stem in het gedicht, en dat kan iemand anders "
+                "zijn dan de dichter. Een dichter kan een kind of een dode laten spreken.",
+                "Niet waar: dat heet vrije verzen, en een groot deel van de moderne poëzie is zo. "
+                "Klank en ritme blijven er wel in meespelen.",
+                None,
+                "Waar, en bij vrouwelijk rijm volgt er nog een onbeklemtoonde lettergreep na. Dat "
+                "verschil beslist hoe een vers eindigt: hard of zacht.",
+            ],
+        ),
+        dict(
+            aanpak="Twee opdrachten over de klank. Lees je eigen regels hardop, dan hoor je zelf of "
+                   "de alliteratie werkt.",
+            waarom=[
+                "Noem wat je enkel hoort en niet ziet: alliteratie, assonantie en het ritme. Dat is "
+                "waarom poëzie hardop gelezen hoort te worden.",
+                "Onderstreep de herhaalde beginklank, zoals gevraagd. Let erop dat het om de klank "
+                "gaat en niet om de letter: een c kan als een k of een s klinken.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-dramatiek-en-theatertekens-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Negen toneelvormen. Hou ze per tijd bij elkaar: de middeleeuwse spelen, de "
+                   "klassieke vormen, en het theater van de twintigste eeuw.",
+            waarom=[
+                "Let op de moraliteit: daar zijn de personages vaak geen mensen maar deugden en "
+                "ondeugden. De les is het hele punt van het stuk.",
+                "Let op het verschil tussen het mirakelspel en het abel spel: het eerste is "
+                "religieus, het tweede wereldlijk. Abel betekent trouwens edel of kunstig.",
+                "Let op het verschil tussen absurd en episch theater: het eerste toont een wereld "
+                "zonder logica, het tweede houdt je bewust op afstand om je te laten nadenken.",
+            ],
+        ),
+        dict(
+            aanpak="Theatertekens zijn alles wat je ziet en hoort naast de woorden. Vraag je af of het "
+                   "bij het lichaam, bij de ruimte of bij de techniek hoort.",
+            waarom=[
+                "Let op proxemiek: dat is de afstand tussen de spelers. Dat is een teken dat een "
+                "lezer van de tekst nooit ziet, en een toeschouwer meteen.",
+                "Let op de paraverbale tekens: toon, tempo, volume en stiltes. Dezelfde zin kan daarmee "
+                "het omgekeerde betekenen.",
+            ],
+        ),
+        dict(
+            aanpak="Bij een scène vraag je telkens: wat wordt hier getoond in plaats van gezegd? Noem "
+                   "het theaterteken met zijn naam.",
+            waarom=[
+                "Noem beide delen: wat het zegt en hoe het teken heet. Dat de vervreemding getoond "
+                "wordt en niet uitgesproken, is de kern.",
+                "Noem ook hoe je het beoordeelt, zoals de vraag vraagt. De maatstaf is of de keuzes de "
+                "tekst versterken, en niet of ze modern zijn.",
+                "Noem de laag tekens die de opvoering toevoegt. Dat is waarom een toneeltekst om een "
+                "voorstelling vraagt, zoals een partituur om muzikanten.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: de middeleeuwse spelen, wat episch theater "
+                   "wil, en wat een theaterteken is.",
+            waarom=[
+                None,
+                "Niet waar, en het is net omgekeerd: episch theater wil juist dat je niet wegzinkt in "
+                "het verhaal. Brecht liet daarom borden en liederen de illusie doorbreken.",
+                "Niet waar: muziek en geluid zijn theatertekens, net als licht en decor. Ze bepalen "
+                "mee hoe je een scène leest.",
+                None,
+                "Niet waar: bij een opvoering komen alle theatertekens erbij. Een tekst lezen is maar "
+                "een deel van de analyse.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-stijlfiguren-en-beeldspraak-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zoek bij elke zin wat er precies gebeurt: wordt iets vergeleken, vervangen, "
+                   "bezield, overdreven of herhaald?",
+            waarom=[
+                "Let op het verschil tussen de eerste twee: het woordje als of zoals maakt het een "
+                "vergelijking. Zonder dat woord vervangt het beeld de zaak, en dan is het een "
+                "metafoor.",
+                "Let op de litotes: die zegt minder dan ze bedoelt, met een ontkenning. Niet slecht "
+                "betekent in zo'n geval uitstekend.",
+                "Let op de anafoor: dezelfde woorden aan het begin van opeenvolgende delen. Het is een "
+                "klassieke truc in toespraken, want de herhaling bouwt kracht op.",
+            ],
+        ),
+        dict(
+            aanpak="Eén vraag: zegt de figuur meer of minder dan er bedoeld wordt? Enkel de hyperbool "
+                   "vergroot, de andere drie verzwakken.",
+            waarom=[
+                "Let erop dat een eufemisme verzwakt om een pijnlijke zaak te verzachten, zoals "
+                "heengaan voor sterven. Litotes en understatement verzwakken om een ander effect.",
+            ],
+        ),
+        dict(
+            aanpak="Drie open vragen over waarom beeldspraak werkt. Geef bij de eerste van elk een "
+                   "eigen voorbeeld, zoals gevraagd.",
+            waarom=[
+                "Noem het verschil en geef twee eigen voorbeelden, zoals gevraagd. Hetzelfde beeld in "
+                "beide vormen zetten is de duidelijkste manier.",
+                "Noem dat een beeld iets abstracts voelbaar maakt. Dat is het hele nut, en het is ook "
+                "waarom een goede uitleg vaak een beeld gebruikt.",
+                "Noem dat het beeld zijn kracht kwijt is. Een cliché is dus geen fout tegen de taal "
+                "maar een gemiste kans.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: waar beeldspraak voorkomt, wat een paradox is, "
+                   "en de betekenis van antropomorfisme.",
+            waarom=[
+                "Niet waar: ook in reclame, in de krant en in een gewoon gesprek zit beeldspraak. De "
+                "voet van een berg en het hart van de stad zijn metaforen.",
+                None,
+                None,
+                None,
+                "Niet waar, en het staat net omgekeerd: bij antropomorfisme krijgt een dier of een ding "
+                "menselijke eigenschappen. Dat is hetzelfde idee als een personificatie.",
+            ],
+        ),
+        dict(
+            aanpak="Twee eigen zinnen. Kies eerst de figuur, schrijf dan de zin, en lees na of de "
+                   "figuur er echt in zit.",
+            waarom=[
+                "Let erop dat een personificatie een werkwoord nodig heeft dat alleen een mens kan "
+                "doen, zoals beuken, fluisteren of klagen. Anders is het geen personificatie.",
+                "Let erop dat de anafoor het herhaalde begin is. Drie keer hetzelfde woord vooraan is "
+                "sterker dan twee, en meer dan drie wordt te veel.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-literaire-stromingen-van-de-middeleeuwen-tot-nu-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Twaalf stromingen, elk met één kernwoord. Hou de tegenstellingen vast: rede "
+                   "tegenover gevoel, werkelijkheid tegenover vervorming.",
+            waarom=[
+                "Let op de barok: overvloed en vergankelijkheid samen. Het leven moet gevierd worden "
+                "juist omdat het voorbijgaat.",
+                "Let erop dat de romantiek een antwoord is op de verlichting. Elke stroming zet zich af "
+                "tegen de vorige, en dat is de rode draad van de hele bundel.",
+                "Let op het verschil tussen realisme en naturalisme: het naturalisme voegt een theorie "
+                "toe, namelijk dat afkomst en omgeving het lot bepalen.",
+                "Let op het magisch-realisme: het wonderlijke wordt er heel gewoon gebracht, zonder "
+                "uitleg. Dat is het verschil met fantasie.",
+            ],
+        ),
+        dict(
+            aanpak="Zet de stromingen op een tijdlijn van de zestiende eeuw tot vandaag. Een anker: de "
+                   "verlichting is de achttiende eeuw, het naturalisme het einde van de negentiende.",
+            waarom=[
+                "Let erop dat de romantiek tussen de verlichting en het naturalisme zit. Wie de "
+                "romantiek te laat zet, haalt de hele rij door elkaar.",
+            ],
+        ),
+        dict(
+            aanpak="Zeg bij elke tekst de stroming en de reden. De reden is wat de kenmerken van die "
+                   "stroming in de tekst zelf zijn.",
+            waarom=[
+                "Noem de kenmerken die je ziet: erfelijkheid, milieu en de taboeonderwerpen. Enkel de "
+                "naam geven is maar de helft van het antwoord.",
+                "Noem dat de illusie doorbroken wordt. Een verteller die toegeeft dat hij verzint, is "
+                "het schoolvoorbeeld van het postmodernisme.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: hoe scherp een stroming begint, het verschil "
+                   "tussen realisme en naturalisme, en of een schrijver bij één stroming hoort.",
+            waarom=[
+                "Niet waar: stromingen lopen in elkaar over, en de jaartallen in een handboek zijn "
+                "hulplijnen. Vaak loopt de ene al terwijl de andere nog bezig is.",
+                "Niet waar: het naturalisme is een scherpere vorm met een theorie erachter. Het "
+                "realisme beschrijft, het naturalisme verklaart.",
+                None,
+                "Niet waar: het neorealisme richt zich juist wel op het alledaagse, op gewone mensen en "
+                "gewone dingen.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Eén open vraag over het nut van dit alles. Noem zowel de eigen tijd van de tekst "
+                   "als waartegen hij zich afzet.",
+            waarom=[
+                "Noem beide delen: de tekst in zijn tijd plaatsen, en zien waartegen hij reageert. Dat "
+                "tweede is wat een stroming begrijpelijk maakt.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-taalvarieteiten-registers-en-beleefdheid-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Drie soorten variatie met drie vragen: hangt ze samen met de streek (regionaal), "
+                   "met de groep waartoe je hoort (sociaal), of met de situatie (situationeel)?",
+            waarom=[
+                "Let op ambtelijke taal: die hangt aan de situatie en niet aan een streek of een "
+                "groep. Dezelfde ambtenaar spreekt thuis heel anders.",
+                "Let op medisch jargon: dat hoort bij een beroepsgroep, dus sociaal. Het wordt pas "
+                "situationeel wanneer je kijkt waar het gebruikt wordt.",
+            ],
+        ),
+        dict(
+            aanpak="Eén vraag: ken je de ontvanger persoonlijk, en hoe is de verhouding? Onbekend of "
+                   "hoger in rang betekent formeel.",
+            waarom=[
+                None,
+                "Let erop dat een mail aan de directie formeel blijft, ook als je die persoon dagelijks "
+                "ziet. De rol beslist en niet de bekendheid.",
+            ],
+        ),
+        dict(
+            aanpak="Bij herschrijven verander je vier dingen: de aanspreking, de voornaamwoorden, de "
+                   "volledige zinnen en de afsluiting. Doe ze één na één.",
+            waarom=[
+                "Let erop dat ook de aanspreking en de afsluiting erbij horen. Een formele zin met hey "
+                "ervoor is nog niet formeel.",
+                "Noem drie keuzes, zoals gevraagd. Afkortingen en emoji's weglaten is de makkelijkste "
+                "winst, u gebruiken de belangrijkste.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je bij elke situatie af of het register bij de verhouding past. Te formeel "
+                   "klinkt kil, te informeel klinkt slordig.",
+            waarom=[
+                "Noem beide delen: het effect en hoe het verschijnsel heet. Dat jargon hier als ruis "
+                "werkt, verbindt dit met het communicatiemodel.",
+                "Noem dat de aanspreking met de verhouding botst. Het gaat niet om een fout tegen de "
+                "taal maar om een misser tegen de situatie.",
+                "Noem dat precisie er zwaarder weegt dan leesbaarheid. Dat is de reden, en het is ook "
+                "waarom er naast een contract vaak een uitleg in gewone taal staat.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: wat standaardtaal wel en niet oplevert, of "
+                   "beleefdheid overal gelijk is, en wat je doet bij twijfel.",
+            waarom=[
+                "Niet waar: standaardtaal is breder verstaanbaar, maar iemand kan er even onduidelijk "
+                "mee zijn. Duidelijkheid hangt van de woordkeuze en de opbouw af.",
+                "Niet waar: wat beleefd is, verschilt per taal en per cultuur. Hoe direct je mag zijn "
+                "of hoe lang een aanspreking hoort te zijn, is nergens hetzelfde.",
+                None,
+                "Waar: te formeel valt veel minder op dan te informeel. Je kan daarna altijd nog "
+                "losser worden als de ander dat doet.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-taal-en-identiteit-stereotypering-inclusie-en-non-verbale-communicatie-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Eén vraag beslist: kan iedereen die erbij staat het volgen? Zo niet, dan sluit de "
+                   "taal uit, ook als dat niet de bedoeling was.",
+            waarom=[
+                "Let erop dat uitsluiten niet hetzelfde is als kwaad bedoelen. Twee collega's in "
+                "dialect doen niets verkeerd en sluiten toch iemand buiten.",
+                "Let erop dat afkortingen uitleggen een kleine ingreep is met een groot effect. Inclusie "
+                "zit vaak in zulke details.",
+            ],
+        ),
+        dict(
+            aanpak="Hou bij stereotypen drie woorden vast: versimpelen, overdrijven en veralgemenen. "
+                   "Daaruit volgt waarom ze bijna altijd mislopen.",
+            waarom=[
+                "Noem alle drie de mechanismen en noem het veralgemenen. Daar zit de fout: van sommigen "
+                "naar allen.",
+                "Noem beide delen: wat er gebeurt en waarom het een probleem is. Dat kijkers de koppeling "
+                "meenemen naar echte mensen, is de kern.",
+                "Noem dat je op de inhoud afgaat in plaats van op de klank. Jezelf betrappen is de "
+                "eerste stap, bijstellen de tweede.",
+            ],
+        ),
+        dict(
+            aanpak="Eén grens: paraverbaal is alles aan de stem, non-verbaal alles aan het lichaam en "
+                   "het uiterlijk. De woorden zelf horen bij geen van de twee.",
+            waarom=[
+                "Let op kleding: dat is non-verbaal, want het zit niet in je stem. Alles wat je hoort "
+                "zonder de woorden te verstaan, is paraverbaal.",
+            ],
+        ),
+        dict(
+            aanpak="Bij deze vragen weeg je de woorden tegen de signalen af. Spreken ze elkaar tegen, "
+                   "dan vraag je door.",
+            waarom=[
+                "Noem dat je doorvraagt. Zeggen dat de signalen de woorden tegenspreken is de "
+                "vaststelling; wat je ermee doet, is het antwoord.",
+                "Noem dat toon en gezicht ontbreken. Dat is ook waarom emoji's ontstaan zijn: ze doen "
+                "het werk van de intonatie.",
+                "Noem drie signalen, zoals gevraagd, en denk aan je hele lichaam: ogen, armen en "
+                "richting.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: wat een stereotype waard is, hoe schrijven "
+                   "overkomt, en of non-verbaal ook buiten een gesprek speelt.",
+            waarom=[
+                "Niet waar: een stereotype is geen samenvatting maar een veralgemening. Het lijkt handig "
+                "en het klopt juist voor de persoon voor je meestal niet.",
+                None,
+                "Niet waar: ook in een appje of een mail werken opmaak, hoofdletters, emoji's en zelfs "
+                "de snelheid van antwoorden als signalen.",
+                "Niet waar: kleding is non-verbale communicatie. Daarom denk je er bij een sollicitatie "
+                "of een presentatie over na.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-klanken-spelling-diakritische-tekens-en-interpunctie-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zoek altijd eerst de stam: ik-vorm van de tegenwoordige tijd. Bij hij komt er een t "
+                   "bij, ook als de stam al op een d eindigt.",
+            waarom=[
+                "Let op hij antwoordt met dt: de stam is antwoord en de t van hij komt erbij. Bij ik "
+                "verwacht staat er geen t, want de stam eindigt al op t.",
+                "Let op verbrand en gebeurd: met het verlengingstrucje weet je of het een d of een t "
+                "is. Verbrande met een d, gebeurde met een d, dus beide een d.",
+                "Let erop dat de verleden tijd van werken op te gaat, want de stam eindigt op een k en "
+                "die hoort bij het rijtje van 't kofschip.",
+            ],
+        ),
+        dict(
+            aanpak="Eén regel: talen en landen krijgen een hoofdletter, dagen en maanden niet. Dat is "
+                   "anders dan in het Engels, en dat verklaart de meeste fouten.",
+            waarom=[
+                "Let erop dat Frans en Duits een hoofdletter krijgen omdat ze van een landnaam komen. "
+                "December en dinsdag niet, hoe vaak je ze ook met een hoofdletter ziet staan.",
+            ],
+        ),
+        dict(
+            aanpak="Hou de diakritische tekens en de leestekens apart: een trema, een accent en een "
+                   "apostrof horen bij het woord, een punt en een komma bij de zin.",
+            waarom=[
+                "Let op het trema: dat scheidt twee klinkers die anders samen gelezen worden, zoals in "
+                "ruïne. Een koppelteken doet hetzelfde werk tussen twee woorddelen.",
+                "Let op de dubbele punt: die kondigt aan wat volgt, een opsomming of een uitleg. De "
+                "puntkomma scheidt twee zinnen die bij elkaar horen.",
+            ],
+        ),
+        dict(
+            aanpak="Verbeter in drie rondes: eerst de werkwoorden, dan de hoofdletters en de "
+                   "apostroffen, en als laatste de komma's en de punt.",
+            waarom=[
+                "Let op twee dingen in deze zin: hij wordt met dt, en twintig met een kleine letter. "
+                "Een getal in letters is een gewoon woord en krijgt geen hoofdletter.",
+                "Let op de komma's: één na de bijzin vooraan, en één voor want. Voor een voegwoord als "
+                "want of maar hoort een komma.",
+                "Let op auto's met een apostrof en op 's morgens met een kleine m. En let op de orde: "
+                "de tijdsbepaling staat beter vooraan dan achteraan.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: hoe spelling en uitspraak samenhangen, wat "
+                   "meetelt als leesteken, en wat leestekens doen.",
+            waarom=[
+                "Niet waar: wordt klinkt als wort en toch staat er dt. De spelling volgt ook regels over "
+                "de vorm van het woord, en niet enkel de klank.",
+                "Waar: zonder spaties wordt een tekst onleesbaar, dus de spatie is wel degelijk een "
+                "leesteken. Ze scheidt de woorden zoals een punt de zinnen.",
+                "Niet waar: maanden en dagen blijven klein. Dat is dezelfde regel als in de tweede "
+                "reeks.",
+                "Waar, en een komma kan de betekenis omkeren. We eten, opa is iets heel anders dan we "
+                "eten opa.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-woordsoorten-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Kijk niet naar het woord alleen maar naar wat het in die zin doet: iets benoemen, "
+                   "iets beschrijven, een plaats aangeven of twee delen verbinden.",
+            waarom=[
+                "Let op het voorzetsel: dat staat voor een woordgroep en geeft een plaats of een "
+                "verhouding. Onder, boven en van zijn de typische.",
+                "Let op het bijwoord morgen: het zegt iets over het werkwoord en niet over een "
+                "zelfstandig naamwoord. Dat is het verschil met een bijvoeglijk naamwoord.",
+                "Let op erg in het is erg koud: het hoort bij koud en niet bij een zelfstandig "
+                "naamwoord, dus is het een bijwoord. Erg koud weer zou het ook blijven.",
+            ],
+        ),
+        dict(
+            aanpak="Zes soorten voornaamwoorden. Vraag je af wat het woord doet: bezit aangeven, "
+                   "terugwijzen naar het onderwerp, een bijzin inleiden, vragen of aanwijzen.",
+            waarom=[
+                "Let op het betrekkelijk voornaamwoord: dat begint een bijzin die iets zegt over het "
+                "woord ervoor. Die en dat zijn de gewone vormen.",
+                "Let op deze in de laatste: zonder zelfstandig naamwoord erachter blijft het een "
+                "aanwijzend voornaamwoord. Het verwijst naar iets wat eerder genoemd is.",
+            ],
+        ),
+        dict(
+            aanpak="Drie soorten werkwoorden met drie vragen: zegt het zelf wat er gebeurt "
+                   "(zelfstandig), helpt het een ander werkwoord (hulp), of verbindt het het onderwerp "
+                   "met een eigenschap (koppel)?",
+            waarom=[
+                "Let op is in hij is leraar: daar verbindt het enkel, dus is het een koppelwerkwoord. "
+                "In hij is gevallen helpt het, en dan is het een hulpwerkwoord.",
+                "Let op worden en blijven: die horen bij de koppelwerkwoorden, net als zijn, lijken, "
+                "schijnen, heten en dunken. Dat rijtje is de moeite om vanbuiten te kennen.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: waar woorden kunnen staan, of een woord altijd "
+                   "dezelfde soort is, en of een hulpwerkwoord alleen kan.",
+            waarom=[
+                None,
+                "Waar: in de man, groot en sterk, of in een uitdrukking als de prins waardig. Minder "
+                "gewoon, maar het bestaat.",
+                "Niet waar: het kan ook een persoonlijk voornaamwoord zijn, zoals in het regent of ik "
+                "zie het. De zin beslist.",
+                "Niet waar: een hulpwerkwoord helpt altijd een ander werkwoord. Hij heeft zonder meer "
+                "is geen zin, tenzij heeft daar zelfstandig gebruikt wordt.",
+            ],
+        ),
+        dict(
+            aanpak="Twee open vragen over het nut. Hou vast dat de woordsoort uit de zin volgt en niet "
+                   "uit het woordenboek.",
+            waarom=[
+                "Noem dat de zin beslist, met een voorbeeld. Dat is het hele antwoord, en het sluit "
+                "aan bij de derde bewering van de vorige reeks.",
+                "Noem het naamwoordelijk gezegde. Dat is waarom je dit nodig hebt, en de volgende "
+                "bundel over zinsontleding bouwt er verder op.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-morfologie-samenstellingen-afleidingen-en-werkwoordstijden-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Eén vraag: bestaan beide delen zelf als woord (samenstelling), of is er een "
+                   "voor- of achtervoegsel aan vast gezet (afleiding)?",
+            waarom=[
+                "Let op vriendelijk en werker: -elijk en -er bestaan niet als woord, dus zijn het "
+                "afleidingen. Bij boekenkast en zonnebloem staan er twee echte woorden.",
+            ],
+        ),
+        dict(
+            aanpak="Splits van buiten naar binnen: eerst het voorvoegsel eraf, dan de achtervoegsels, "
+                   "en wat overblijft is het grondwoord.",
+            waarom=[
+                "Let op de orde van de achtervoegsels: eerst -baar, dan -heid. Elk achtervoegsel "
+                "verandert de woordsoort, en dat is waarom die orde telt.",
+                "Noem dat er zowel een voorvoegsel als achtervoegsels in zitten. Zo'n woord heet een "
+                "afleiding met meerdere lagen.",
+            ],
+        ),
+        dict(
+            aanpak="Meervouden en verkleinwoorden volgen de klank. Zeg het woord hardop, dan hoor je "
+                   "welke uitgang past.",
+            waarom=[
+                "Let op kinderen en auto's: het eerste krijgt een onregelmatig -eren, het tweede een "
+                "apostrof omdat het op een losse klinker eindigt.",
+                "Let op bloempje: na een m komt -pje, want bloemje is niet te zeggen. De klank voor de "
+                "uitgang beslist tussen -je, -tje, -pje en -kje.",
+            ],
+        ),
+        dict(
+            aanpak="Elke tijd heeft twee vragen: is ze voltooid of onvoltooid, en speelt ze in het "
+                   "verleden, het heden of de toekomst. Die twee samen geven de naam.",
+            waarom=[
+                "Let op het verschil tussen had gewerkt en heeft gewerkt: het hulpwerkwoord staat in de "
+                "verleden of de tegenwoordige tijd, en dat beslist de naam.",
+                "Let erop dat loop! geen tijd is maar een wijs. De gebiedende wijs staat buiten het "
+                "rijtje van de acht tijden.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: de woorden verbuiging en vervoeging, "
+                   "onregelmatige werkwoorden, en de meervouden.",
+            waarom=[
+                "Niet waar, en het staat omgekeerd: vervoegen doe je met werkwoorden, verbuigen met "
+                "naamwoorden. Die twee woorden worden vaak verwisseld.",
+                "Niet waar: zijn is het meest onregelmatige werkwoord van de taal. Ben, bent, is, was, "
+                "waren en geweest komen van verschillende stammen.",
+                "Waar: bij een scheidbaar werkwoord gaat het eerste deel naar achteren, zoals ik sta "
+                "om zeven uur op. Dat is de reden dat je de persoonsvorm soms ver van de rest vindt.",
+                "Niet waar: er zijn ook meervouden op -eren en op -a, zoals kinderen, eieren en musea. "
+                "En sommige woorden veranderen van klank, zoals stad en steden.",
+            ],
+        ),
+        dict(
+            aanpak="Twee open vragen: één over de vorm en één over het effect. Noem bij de eerste "
+                   "zowel sterk als zwak.",
+            waarom=[
+                "Noem beide delen: de klankverandering bij sterke werkwoorden, en de laatste klank van "
+                "de stam bij zwakke. Het rijtje van 't kofschip hoort bij dat tweede.",
+                "Noem dat de tijd de lezer helpt plaatsen. Het gaat dus niet om afwisseling voor de "
+                "sier maar om duidelijkheid.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-zinsontleding-en-zinsbouw-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zoek altijd eerst de persoonsvorm, dan het onderwerp met wie of wat plus die "
+                   "persoonsvorm. De rest van de zinsdelen volgt daarna.",
+            waarom=[
+                "Let op het meewerkend voorwerp: het antwoordt op aan wie of voor wie. Staat er aan "
+                "voor, dan is het meteen duidelijk; zonder dat woordje moet je het zelf aanvullen.",
+                "Let op het handelend voorwerp: dat komt enkel in een lijdende zin voor en begint met "
+                "door. In de bedrijvende zin zou die postbode het onderwerp zijn.",
+            ],
+        ),
+        dict(
+            aanpak="Elk zinsdeel heeft zijn eigen vraag. Leer die vragen, dan hoef je niet te gokken.",
+            waarom=[
+                "Let erop dat je bij het onderwerp de persoonsvorm in je vraag meeneemt. Zonder dat "
+                "kom je bij een lijdend voorwerp uit.",
+            ],
+        ),
+        dict(
+            aanpak="Tel de persoonsvormen: één betekent enkelvoudig, meer dan één betekent "
+                   "samengesteld. Kijk dan naar het verbindingswoord om neven- of onderschikking te "
+                   "zien.",
+            waarom=[
+                "Let op het verbindingswoord: en, maar en want schikken naast elkaar, omdat, als en "
+                "dat schikken onder. Bij onderschikking staat de persoonsvorm van de bijzin achteraan.",
+            ],
+        ),
+        dict(
+            aanpak="Drie vragen over de volgorde. Geef bij de eerste een eigen voorbeeld, zoals "
+                   "gevraagd.",
+            waarom=[
+                "Noem beide zinnen, met en zonder de bepaling vooraan. Zo zie je de omkering, en dat "
+                "is wat inversie betekent.",
+                "Noem het werkgeheugen van de lezer. Daar zit de reden, en het is ook waarom je bij "
+                "nalezen lange tangconstructies opsplitst.",
+                "Noem beide uitersten: te korte en te lange zinnen. Variatie is dus geen sier maar "
+                "leesbaarheid.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: waar de persoonsvorm staat, welke zinsdelen "
+                   "verplicht zijn, en waaruit het gezegde bestaat.",
+            waarom=[
+                None,
+                "Niet waar: veel werkwoorden hebben er geen, zoals slapen of vallen. Een onderwerp en "
+                "een persoonsvorm zijn de enige die altijd nodig zijn.",
+                "Niet waar: er kunnen ook deelwoorden en infinitieven bij horen, zoals in hij heeft "
+                "willen komen. Alles wat werkwoord is, hoort bij het gezegde.",
+                "Waar: zoals gisteren of ik. Een zinsdeel wordt bepaald door zijn rol en niet door "
+                "zijn lengte.",
+                "Niet waar: een uitroepende zin eindigt met een uitroepteken. Een vraagteken hoort bij "
+                "een vragende zin.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-semantiek-betekenisrelaties-gevoelswaarde-en-herkomst-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vijf relaties met vijf vragen: hetzelfde, het tegengestelde, dezelfde vorm met een "
+                   "andere betekenis, de bovenliggende groep, of een voorbeeld uit die groep.",
+            waarom=[
+                "Let op de homoniemen: dezelfde vorm, twee betekenissen die niets met elkaar te maken "
+                "hebben. Bij een bank om op te zitten en een bank voor je geld is er geen verband.",
+                "Let op het verschil tussen hyperoniem en hyponiem: hyper is boven, hypo is onder. "
+                "Meubel staat boven stoel, appel staat onder fruit.",
+            ],
+        ),
+        dict(
+            aanpak="Bij een contaminatie zijn twee uitdrukkingen door elkaar geschoven. Zoek de twee "
+                   "die erin zitten, en kies er dan één.",
+            waarom=[
+                "Let erop dat je ook de juiste vorm moet geven. Uitprinten is printen of uitdraaien, "
+                "en duur kosten is veel kosten of duur zijn.",
+                "Noem van beide een voorbeeld, zoals gevraagd. Een pleonasme voegt een eigenschap toe "
+                "die er al in zit, een tautologie herhaalt het hele woord met een ander woord.",
+            ],
+        ),
+        dict(
+            aanpak="Hou twee lagen apart: de denotatie is de kale betekenis, de connotatie is de "
+                   "bijklank. Bij een woordkeuze gaat het bijna altijd over die tweede.",
+            waarom=[
+                "Noem beide lagen met hun naam. Dat de bijklank het oordeel stuurt nog voor de rest "
+                "van de zin gelezen is, verbindt dit met framing.",
+                "Let op herstructurering: dat is een eufemisme voor ontslagen. Zulke woorden komen "
+                "vooral uit de taal van bedrijven en de politiek.",
+                "Noem dat ze elkaars tegenpool zijn. Een dysfemisme is dus niet gewoon een grof woord "
+                "maar een bewuste keuze om harder te klinken.",
+            ],
+        ),
+        dict(
+            aanpak="Zes begrippen over waar een woord vandaan komt. Let op de uitgangen: -isme wijst "
+                   "op een invloed van buiten, neo op iets nieuws.",
+            waarom=[
+                "Let op het verschil tussen een anglicisme en een belgicisme: het eerste komt uit het "
+                "Engels, het tweede bestaat enkel bij ons. Een bureelstoel is een belgicisme.",
+                "Let op een purisme: dat is een zelfgemaakt woord om een leenwoord te vermijden, zoals "
+                "beeldbrief voor foto. De meeste purismen hebben het nooit gehaald.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: of synoniemen echt uitwisselbaar zijn, of een "
+                   "pleonasme fout is, en wat een bastaardwoord is.",
+            waarom=[
+                "Niet waar: de connotatie en het register verschillen vaak. Sterven, heengaan en de "
+                "pijp uitgaan betekenen hetzelfde en passen in heel andere teksten.",
+                "Niet waar: soms is het bewust, voor nadruk of ritme. In een goede tekst is het een "
+                "keuze, in een slordige tekst een vergetelheid.",
+                "Niet waar, en het is net omgekeerd: een bastaardwoord komt uit een andere taal en is "
+                "aan onze spelling aangepast, zoals bureau of fabriek.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-schrijven-en-schriftelijke-interactie-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vraag je bij elke opdracht af wat de lezer erna moet hebben: iets weten, iets "
+                   "kunnen, jouw mening kennen, overtuigd zijn, of iets gevoeld hebben.",
+            waarom=[
+                "Let op het verschil tussen informatie geven en iets uitleggen: een brochure zegt wat "
+                "er is, een stappenplan leert je iets doen.",
+                "Let op de flyer: daar ligt de nadruk op de vorm en de aantrekkingskracht, dus op "
+                "creatief zijn met taal. Overtuigen zit erin, maar de vorm doet het werk.",
+            ],
+        ),
+        dict(
+            aanpak="Zes criteria. Vraag je bij elke opmerking af waarover ze gaat: de opdracht, de "
+                   "woorden, de zinnen, de toon, de spelling of de opbouw.",
+            waarom=[
+                "Let op taakvoltooiing: dat is het zwaarste criterium. Een prachtige tekst over het "
+                "verkeerde onderwerp haalt het niet.",
+                "Let erop dat register een apart criterium is. Een correcte tekst in de verkeerde toon "
+                "verliest punten, en dat gaat over beleefdheid en niet over fouten.",
+            ],
+        ),
+        dict(
+            aanpak="Plan voor je schrijft. Drie vragen vooraf en een paar strategieën onderweg sparen "
+                   "achteraf veel herschrijfwerk.",
+            waarom=[
+                "Noem alle drie en noem dat het de vragen van het communicatiemodel zijn. Zo zie je "
+                "dat die theorie hier praktisch wordt.",
+                "Noem drie strategieën, zoals gevraagd. Een schrijfplan met kernwoorden is de "
+                "eenvoudigste en helpt het meest.",
+                "Noem allebei: de fouten die een spellingcontrole niet vindt, en wat ze helemaal niet "
+                "beoordeelt. Word in plaats van wordt is het klassieke voorbeeld.",
+            ],
+        ),
+        dict(
+            aanpak="Bij een formele mail staan vier dingen vast: het onderwerp, de aanspreking, de "
+                   "inleiding met de feiten, en de slotgroet met je volledige naam.",
+            waarom=[
+                "Let erop dat je onderwerpregel kort en concreet is. Geachte mevrouw, meneer is de "
+                "aanspreking als je niet weet wie het leest.",
+                "Noem eerst de feiten en pas daarna je vraag, zoals het antwoord doet. Een datum en "
+                "een bestelnummer maken een klacht meteen behandelbaar.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: of spelling apart telt, of één goed criterium "
+                   "genoeg is, en wat er van je woordenschat verwacht wordt.",
+            waarom=[
+                None,
+                "Niet waar: de criteria worden elk apart beoordeeld. Je doel bereiken is belangrijk en "
+                "het dekt de spelling en de zinsbouw niet.",
+                "Niet waar: men verwacht woorden die bij het onderwerp en het register passen. Dat "
+                "betekent soms juist een precies, minder alledaags woord.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-spreken-en-gesprekken-voeren-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Eén vraag: kan de ander het zien of horen (spreken), staat het op papier "
+                   "(schrijven), of geldt het voor beide?",
+            waarom=[
+                "Let op taakvoltooiing: dat geldt bij allebei. Antwoorden op de gestelde opdracht is "
+                "altijd het eerste criterium.",
+                "Let erop dat register bij beide hoort. Je kiest je toon zowel in een mail als in een "
+                "gesprek, en in beide gevallen beslist de verhouding.",
+            ],
+        ),
+        dict(
+            aanpak="Hou drie dingen apart aan je stem en je lichaam: de klanken (uitspraak), de "
+                   "melodie (intonatie), en alles wat je laat zien (lichaamstaal).",
+            waarom=[
+                "Let op het verschil tussen uitspraak en intonatie: de eerste gaat over losse klanken, "
+                "de tweede over de lijn van je zin. Een vraag hoor je aan de intonatie.",
+                "Let erop dat een spreekplan met kernwoorden werkt en niet met volle zinnen. Wie zijn "
+                "tekst voorleest, kijkt niemand aan.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Vier situaties die echt gebeuren. Bij elk is het antwoord hetzelfde soort: doe iets "
+                   "zichtbaar, en doe niet alsof er niets aan de hand is.",
+            waarom=[
+                "Noem allebei, zoals gevraagd: wat je doet en wat je zeker niet doet. Sneller praten "
+                "is de reflex, en juist de verkeerde.",
+                "Noem drie strategieën, zoals gevraagd. Samenvatten wat je wel begreep, is de sterkste "
+                "van de drie: de ander kan dan zelf aanvullen.",
+                "Noem dat een korte denkpauze mag. Stilte voelt langer aan voor jou dan voor je "
+                "gesprekspartner.",
+                "Noem alle drie de stappen: bedanken, samenvatten en een afscheidsformule. Dat "
+                "samenvatten is wat een afsluiting afrondt.",
+            ],
+        ),
+        dict(
+            aanpak="Een leeservaring is geen samenvatting. Noem wat het boek bij je deed en hang dat "
+                   "op aan iets concreets uit het boek.",
+            waarom=[
+                "Let erop dat je je reactie onderbouwt met een personage, een scène of de "
+                "verteltrant. Zonder dat anker klinkt elke leeservaring hetzelfde.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: wat vlotheid is, wat pauzes doen, en waar "
+                   "beleefdheid geldt.",
+            waarom=[
+                "Niet waar: vlotheid is zonder haperen spreken, niet snel spreken. Te snel praten "
+                "maakt je juist moeilijker te volgen.",
+                None,
+                None,
+                "Niet waar: doorvragen en voortbouwen op wat de ander zegt, is precies wat het "
+                "hoogste niveau van interactie kenmerkt. Enkel antwoorden blijft op het laagste "
+                "niveau.",
+                "Niet waar: ook in een gesprek gelden conventies, zoals iemand laten uitspreken en de "
+                "juiste aanspreking kiezen.",
+            ],
+        ),
+    ],
+)
