@@ -69,8 +69,9 @@ DEEL1 = [
             "Het totale nut na vier glazen is 22",
             "Het totale nut stijgt nog altijd",
             "Het totale nut daalt vanaf het tweede glas",
+            "Het grensnut blijft positief",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="10 plus 7 plus 4 plus 1 is 22. Het grensnut daalt, maar zolang het positief blijft, blijft het totale nut stijgen.",
     ),
     dict(
@@ -127,11 +128,11 @@ DEEL1 = [
         opties=[
             "Hij kan zijn voorkeuren rangschikken",
             "Hij streeft naar een zo hoog mogelijk nut",
-            "Hij houdt rekening met zijn budget",
+            "Hij kent de winstmarge van de winkel",
             "Hij kent de productiekost van elk product",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De consument rangschikt, maximaliseert en blijft binnen zijn budget. Wat een product de producent kost, weet hij niet en hoeft hij ook niet te weten.",
+        antwoord=[0, 1],
+        uitleg="De consument rangschikt zijn voorkeuren, maximaliseert zijn nut en blijft binnen zijn budget. Wat een product de producent kost of opbrengt, weet hij niet en hoeft hij ook niet te weten.",
     ),
     dict(
         type="waarofniet",
@@ -201,8 +202,9 @@ DEEL1 = [
             "Het kan negatief worden",
             "Het is nul wanneer het totale nut op zijn hoogst is",
             "Het is altijd gelijk aan de prijs van het goed",
+            "Het is het nut van één eenheid extra",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Het grensnut daalt, kan negatief worden en is nul in het toppunt van het totale nut. Met de prijs heeft het niets te maken.",
     ),
     dict(
@@ -292,11 +294,11 @@ DEEL2 = [
         opties=[
             "Ze geven deze consument evenveel nut",
             "De consument is indifferent tussen de twee",
-            "Van het ene is er meer en van het andere minder",
+            "Ze bevatten precies dezelfde hoeveelheden",
             "Ze kosten allebei precies evenveel geld voor deze consument",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Gelijk nut, dus indifferent, en de ene hoeveelheid compenseert de andere. Of ze evenveel kosten, hangt van de prijzen af en lees je niet uit deze curve af.",
+        antwoord=[0, 1],
+        uitleg="Gelijk nut, dus indifferent, en de ene hoeveelheid compenseert de andere: dezelfde hoeveelheden zijn het dus net niet. Of ze evenveel kosten, hangt van de prijzen af.",
     ),
     dict(
         type="meerkeuze",
@@ -342,8 +344,9 @@ DEEL2 = [
             "Curven die verder van de oorsprong liggen, geven meer nut",
             "De curven snijden elkaar nooit",
             "Elke map geldt voor alle consumenten samen",
+            "Elke map geldt voor één consument",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een map toont de voorkeuren van één consument. Een andere persoon heeft een andere map, want nut is persoonlijk.",
     ),
     dict(

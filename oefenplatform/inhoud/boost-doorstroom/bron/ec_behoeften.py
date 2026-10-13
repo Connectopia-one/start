@@ -76,8 +76,9 @@ DEEL1 = [
             "Naar de kapper gaan",
             "Met het openbaar vervoer naar school gaan",
             "Buiten de lucht inademen",
+            "Een jas kopen voor de winter",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Brood, een knipbeurt en een busrit kosten schaarse middelen. Lucht is er gewoon, dus die behoefte is niet-economisch.",
     ),
     dict(
@@ -104,11 +105,11 @@ DEEL1 = [
         opties=[
             "Primaire behoeften zijn nodig om te overleven",
             "Secundaire behoeften maken het leven comfortabeler",
-            "Tertiaire behoeften gaan over luxe en zijn niet noodzakelijk",
+            "De drie trappen liggen voor altijd vast",
             "De indeling is voor iedereen in elk land precies dezelfde",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De drie trappen gaan van overleven over comfort naar luxe. Waar de grens ligt, verschilt wel van tijd tot tijd en van land tot land: een gsm was ooit luxe.",
+        antwoord=[0, 1],
+        uitleg="De drie trappen gaan van overleven over comfort naar luxe. Waar de grens ligt, verschilt van tijd tot tijd en van land tot land: een gsm was ooit luxe.",
     ),
     dict(
         type="waarofniet",
@@ -154,8 +155,9 @@ DEEL1 = [
             "Het budget van een gezin",
             "De grond waarop je kan bouwen",
             "Het daglicht op een zomerdag",
+            "De grondstoffen in de bodem",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Tijd, geld en grond zijn beperkt en hebben alternatieve aanwendingen. Daglicht kost niets en is voor iedereen beschikbaar.",
     ),
     dict(
@@ -239,11 +241,11 @@ DEEL2 = [
         opties=[
             "De straatverlichting in een gemeente",
             "De dijken aan de kust",
-            "Het leger van een land",
+            "Een fitnessabonnement",
             "Een abonnement op een streamingdienst",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Verlichting, dijken en defensie gebruikt iedereen samen en niemand kan je ervan uitsluiten. Een abonnement is net wél individueel: wie niet betaalt, kijkt niet.",
+        antwoord=[0, 1],
+        uitleg="Verlichting en dijken gebruikt iedereen samen, en defensie ook: niemand kan je ervan uitsluiten. Een abonnement is net wél individueel: wie niet betaalt, doet niet mee.",
     ),
     dict(
         type="meerkeuze",
@@ -295,8 +297,9 @@ DEEL2 = [
             "Een brood",
             "Tandpasta",
             "Een wasmachine",
+            "Een pak koffie",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Benzine, brood en tandpasta gaan op bij het gebruik. Een wasmachine blijft bestaan en is dus een gebruiksgoed.",
     ),
     dict(
@@ -347,11 +350,11 @@ DEEL2 = [
         opties=[
             "Een individueel goed",
             "Een tastbaar goed",
-            "Een gebruiksgoed",
+            "Een verbruiksgoed",
             "Een collectief goed",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De auto is van dit gezin, je kan hem vastnemen, en hij gaat jaren mee. Collectief is hij niet: anderen kunnen er niet zomaar mee rijden.",
+        antwoord=[0, 1],
+        uitleg="De auto is van dit gezin en je kan hem vastnemen. Hij gaat jaren mee, dus is hij een gebruiksgoed en geen verbruiksgoed, en collectief is hij ook niet.",
     ),
     dict(
         type="waarofniet",

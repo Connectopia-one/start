@@ -37,11 +37,11 @@ DEEL1 = [
         opties=[
             "De huur van de werkplaats",
             "De verzekering van het gebouw",
-            "De afschrijving van een machine",
+            "Het loon per gemaakt stuk",
             "De grondstoffen voor elk stuk",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Huur, verzekering en afschrijving lopen door, ook bij nul productie. Grondstoffen heb je alleen nodig als je produceert: dat zijn variabele kosten.",
+        antwoord=[0, 1],
+        uitleg="Huur, verzekering en afschrijving lopen door, ook bij nul productie. Grondstoffen en een loon per stuk heb je alleen nodig als je produceert: dat zijn variabele kosten.",
     ),
     dict(
         type="meerkeuze",
@@ -51,8 +51,9 @@ DEEL1 = [
             "De energie die een machine per stuk verbruikt",
             "De uurlonen van wie per gemaakt stuk betaald wordt",
             "De brandverzekering van de werkplaats",
+            "De verpakking per verkocht stuk",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Variabele kosten stijgen mee met de hoeveelheid: grondstoffen, energie per stuk en uurlonen. Produceer je niets, dan zijn ze nul. De verzekering loopt wel gewoon door.",
     ),
     dict(
@@ -157,11 +158,11 @@ DEEL1 = [
         opties=[
             "MK hangt alleen af van de variabele kosten",
             "MK daalt eerst en stijgt daarna",
-            "MK snijdt GK in het laagste punt van GK",
+            "MK snijdt GK in het hoogste punt van GK",
             "MK is altijd gelijk aan GK",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Constante kosten veranderen niet bij een stuk meer, dus ze zitten niet in MK. En de curve van MK snijdt die van GK precies waar GK het laagst is.",
+        antwoord=[0, 1],
+        uitleg="Constante kosten veranderen niet bij een stuk meer, dus zitten ze niet in MK. MK daalt eerst en stijgt daarna, en de curve van MK snijdt die van GK precies waar GK het laagst is, niet waar GK het hoogst is.",
     ),
     dict(
         type="waarofniet",
@@ -201,8 +202,9 @@ DEEL1 = [
             "De grondstof is een variabele kost",
             "Bij 3 000 broden bedraagt de gemiddelde constante kost 0,50 euro",
             "Bij 3 000 broden bedraagt de gemiddelde kost 0,80 euro",
+            "Bij 3 000 broden bedraagt de gemiddelde kost 1,30 euro",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="1 500 gedeeld door 3 000 is 0,50 euro constante kost per brood. Samen met 0,80 euro grondstof is de gemiddelde kost 1,30 euro, niet 0,80 euro.",
     ),
     dict(
@@ -322,11 +324,11 @@ DEEL2 = [
         opties=[
             "TO stijgt rechtlijnig met de hoeveelheid",
             "GO is gelijk aan de prijs",
-            "MO is gelijk aan de prijs",
+            "MO stijgt naarmate je meer verkoopt",
             "MO daalt naarmate je meer verkoopt",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Bij volkomen concurrentie blijft de prijs voor dit bedrijf dezelfde. Een dalende MO hoort bij een bedrijf dat zijn prijs moet laten zakken om meer te verkopen, en dat is hier niet zo.",
+        antwoord=[0, 1],
+        uitleg="Bij volkomen concurrentie blijft de prijs voor dit bedrijf dezelfde, dus zijn GO en MO gelijk aan die prijs: MO stijgt noch daalt. Een dalende MO hoort bij een bedrijf dat zijn prijs moet laten zakken om meer te verkopen.",
     ),
     dict(
         type="meerkeuze",

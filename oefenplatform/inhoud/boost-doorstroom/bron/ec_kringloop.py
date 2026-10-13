@@ -90,8 +90,9 @@ DEEL1 = [
             "Ze levert diensten, zoals onderwijs en veiligheid",
             "Ze betaalt uitkeringen en lonen van ambtenaren uit",
             "Ze bepaalt het loon dat elk bedrijf aan elke werknemer betaalt",
+            "Ze investeert in wegen en gebouwen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De overheid int belastingen, levert collectieve diensten en betaalt uitkeringen en ambtenarenlonen. Lonen in de privésector worden niet door de overheid vastgelegd, maar afgesproken tussen werkgevers en werknemers.",
     ),
     dict(
@@ -283,11 +284,11 @@ DEEL2 = [
         opties=[
             "Het loon van een arbeider",
             "De btw die een winkel doorstort",
-            "Een werkloosheidsuitkering",
+            "De bus die een reiziger vervoert",
             "Het brood dat de bakker aan een klant geeft",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Loon, belastingen en uitkeringen zijn allemaal geld dat van de ene actor naar de andere gaat. Het brood zelf hoort bij de goederenstroom.",
+        antwoord=[0, 1],
+        uitleg="Loon, belastingen en uitkeringen zijn geld dat van de ene actor naar de andere gaat. Het brood en de busrit horen bij de goederen- en dienstenstroom.",
     ),
     dict(
         type="waarofniet",
@@ -315,8 +316,9 @@ DEEL2 = [
             "Uitvoer: goederen en diensten die het land verlaten",
             "Geldstromen van en naar het buitenland",
             "Een vierde soort productiefactor, naast arbeid en kapitaal",
+            "Een handelsbalans die in evenwicht of uit evenwicht kan zijn",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Het buitenland brengt invoer, uitvoer en de bijbehorende geldstromen mee. De productiefactoren blijven dezelfde vier: arbeid, kapitaal, natuur en ondernemerschap.",
     ),
     dict(
@@ -379,11 +381,11 @@ DEEL2 = [
         opties=[
             "Sparen door de gezinnen",
             "Belastingen aan de overheid",
-            "Invoer uit het buitenland",
+            "Uitvoer naar het buitenland",
             "Investeringen door de bedrijven",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Sparen, belastingen en invoer halen bestedingen uit de binnenlandse kringloop. Investeringen zijn net een injectie: ze brengen bestedingen binnen.",
+        antwoord=[0, 1],
+        uitleg="Sparen, belastingen en invoer halen bestedingen uit de binnenlandse kringloop. Investeringen en uitvoer zijn net injecties: ze brengen bestedingen binnen.",
     ),
     dict(
         type="waarofniet",

@@ -94,8 +94,9 @@ DEEL1 = [
             "De gevraagde hoeveelheid is groter dan de aangeboden",
             "De prijs komt onder opwaartse druk",
             "De bedrijven bieden meer aan dan daarvoor",
+            "Kopers vinden niet alles wat ze willen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Goedkoop lokt kopers en ontmoedigt aanbieders. Het tekort dat zo ontstaat, duwt de prijs weer omhoog naar het evenwicht.",
     ),
     dict(
@@ -130,8 +131,9 @@ DEEL1 = [
             "Een verandering van de smaak of de mode",
             "Een verandering van de prijs van een vervangend product",
             "Een verandering van de prijs van het product zelf",
+            "Een verandering van de prijs van een aanvullend product",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Alles behalve de eigen prijs verschuift de curve. De eigen prijs laat je net over de curve bewegen.",
     ),
     dict(
@@ -182,11 +184,11 @@ DEEL1 = [
         opties=[
             "De vraagcurve schuift naar rechts",
             "De evenwichtsprijs stijgt",
-            "De verkochte hoeveelheid stijgt",
+            "De verkochte hoeveelheid daalt",
             "De aanbodcurve schuift naar links",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Alleen de vraag verandert; het aanbod blijft waar het was. Het snijpunt schuift dus langs de aanbodcurve naar boven: duurder én meer.",
+        antwoord=[0, 1],
+        uitleg="Alleen de vraag verandert; het aanbod blijft waar het was. Het snijpunt schuift langs de aanbodcurve naar boven: duurder én meer, dus de hoeveelheid daalt niet.",
     ),
     dict(
         type="meerkeuze",
@@ -235,8 +237,9 @@ DEEL2 = [
             "Een homogeen product",
             "Vrije toe- en uittreding",
             "Eén aanbieder met een beschermde positie",
+            "Volledige informatie voor iedereen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Veel aanbieders, een product dat overal hetzelfde is, vrije toetreding en volledige informatie. Eén beschermde aanbieder is net het tegenovergestelde: een monopolie.",
     ),
     dict(
@@ -299,11 +302,11 @@ DEEL2 = [
         opties=[
             "Er ontstaat een tekort",
             "De gevraagde hoeveelheid stijgt",
-            "De aangeboden hoeveelheid daalt",
+            "De aangeboden hoeveelheid stijgt",
             "Er ontstaat een overschot",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Goedkoper lokt kopers en ontmoedigt aanbieders. Er wordt meer gevraagd dan aangeboden, en dat verschil is een blijvend tekort.",
+        antwoord=[0, 1],
+        uitleg="Goedkoper lokt kopers en ontmoedigt aanbieders, dus daalt het aanbod. Er wordt meer gevraagd dan aangeboden, en dat verschil is een blijvend tekort, geen overschot.",
     ),
     dict(
         type="meerkeuze",
@@ -361,8 +364,9 @@ DEEL2 = [
             "Een zwarte markt met hogere prijzen",
             "Minder nieuw aanbod op langere termijn",
             "Een stijging van de officiële prijs",
+            "Kwaliteit die achteruitgaat",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Wat op prijs niet verdeeld raakt, wordt op een andere manier verdeeld: door te wachten, door een bon of buiten de wet om. De officiële prijs blijft net vastgepind.",
     ),
     dict(

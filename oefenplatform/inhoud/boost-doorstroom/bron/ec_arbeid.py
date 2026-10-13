@@ -80,11 +80,11 @@ DEEL1 = [
         opties=[
             "Er is meer aanbod dan vraag",
             "Er ontstaat werkloosheid",
-            "Bedrijven werven minder mensen aan",
+            "Bedrijven werven meer mensen aan",
             "Er ontstaat een tekort aan arbeidskrachten",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een te hoog loon maakt werken aantrekkelijk en aanwerven duur. Het overschot aan aanbod heet op deze markt werkloosheid.",
+        antwoord=[0, 1],
+        uitleg="Een te hoog loon maakt werken aantrekkelijk en aanwerven duur, dus werven bedrijven juist minder aan. Het overschot aan aanbod heet op deze markt werkloosheid, niet een tekort.",
     ),
     dict(
         type="meerkeuze",
@@ -124,8 +124,9 @@ DEEL1 = [
             "Migratie",
             "De groei van de totale bevolking",
             "De vraag van de consument naar een bepaald product",
+            "De leeftijd waarop men op pensioen gaat",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Alles wat het aantal mensen op arbeidsleeftijd verandert, verschuift het aanbod. De vraag naar een product werkt net op de vraagzijde in.",
     ),
     dict(
@@ -263,11 +264,11 @@ DEEL2 = [
         opties=[
             "Het loon in een sector",
             "De arbeidsduur",
-            "Extra voordelen zoals een vergoeding voor woon-werkverkeer",
+            "De winstverdeling onder de aandeelhouders",
             "De verkoopprijs van de producten",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een cao gaat over de arbeidsvoorwaarden: loon, uren, verlof en vergoedingen. Over verkoopprijzen gaat ze niet, dat zou zelfs verboden overleg zijn.",
+        antwoord=[0, 1],
+        uitleg="Een cao gaat over de arbeidsvoorwaarden: loon, uren, verlof en vergoedingen. Over verkoopprijzen of over de winst voor de aandeelhouders gaat ze niet.",
     ),
     dict(
         type="meerkeuze",
@@ -289,8 +290,9 @@ DEEL2 = [
             "Er wordt minder arbeid gevraagd",
             "Er ontstaat werkloosheid",
             "Er ontstaat een tekort aan arbeidskrachten",
+            "Er is een overschot aan arbeidsaanbod",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Het is een minimumprijs boven het evenwicht, en dat geeft een overschot. Op de arbeidsmarkt heet dat overschot werkloosheid.",
     ),
     dict(
@@ -359,11 +361,11 @@ DEEL2 = [
         opties=[
             "Bedrijven werven minder laaggeschoolden aan",
             "Sommige banen verdwijnen naar het buitenland",
-            "Automatisering wordt aantrekkelijker dan mensen inzetten",
+            "De werkgeversbijdragen dalen erdoor",
             "De koopkracht van de laagste lonen daalt erdoor",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De juiste antwoorden zijn de gebruikelijke bezwaren. De koopkracht van wie het minimumloon krijgt, stijgt er juist door: dat is net het doel.",
+        antwoord=[0, 1],
+        uitleg="Minder aanwervingen van laaggeschoolden en banen die naar het buitenland verdwijnen zijn de gebruikelijke bezwaren. De koopkracht van wie het minimumloon krijgt stijgt er juist door, en de bijdragen van de werkgever dalen niet als het loon stijgt.",
     ),
     dict(
         type="waarofniet",

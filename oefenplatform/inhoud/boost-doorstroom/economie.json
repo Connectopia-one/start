@@ -82,12 +82,14 @@
             "Ze int belastingen bij de gezinnen en de bedrijven",
             "Ze levert diensten, zoals onderwijs en veiligheid",
             "Ze betaalt uitkeringen en lonen van ambtenaren uit",
-            "Ze bepaalt het loon dat elk bedrijf aan elke werknemer betaalt"
+            "Ze bepaalt het loon dat elk bedrijf aan elke werknemer betaalt",
+            "Ze investeert in wegen en gebouwen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De overheid int belastingen, levert collectieve diensten en betaalt uitkeringen en ambtenarenlonen. Lonen in de privésector worden niet door de overheid vastgelegd, maar afgesproken tussen werkgevers en werknemers."
         },
@@ -299,15 +301,14 @@
           "opties": [
             "Het loon van een arbeider",
             "De btw die een winkel doorstort",
-            "Een werkloosheidsuitkering",
+            "De bus die een reiziger vervoert",
             "Het brood dat de bakker aan een klant geeft"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Loon, belastingen en uitkeringen zijn allemaal geld dat van de ene actor naar de andere gaat. Het brood zelf hoort bij de goederenstroom."
+          "uitleg": "Loon, belastingen en uitkeringen zijn geld dat van de ene actor naar de andere gaat. Het brood en de busrit horen bij de goederen- en dienstenstroom."
         },
         {
           "type": "waarofniet",
@@ -334,12 +335,14 @@
             "Invoer: goederen en diensten die binnenkomen",
             "Uitvoer: goederen en diensten die het land verlaten",
             "Geldstromen van en naar het buitenland",
-            "Een vierde soort productiefactor, naast arbeid en kapitaal"
+            "Een vierde soort productiefactor, naast arbeid en kapitaal",
+            "Een handelsbalans die in evenwicht of uit evenwicht kan zijn"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het buitenland brengt invoer, uitvoer en de bijbehorende geldstromen mee. De productiefactoren blijven dezelfde vier: arbeid, kapitaal, natuur en ondernemerschap."
         },
@@ -409,15 +412,14 @@
           "opties": [
             "Sparen door de gezinnen",
             "Belastingen aan de overheid",
-            "Invoer uit het buitenland",
+            "Uitvoer naar het buitenland",
             "Investeringen door de bedrijven"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Sparen, belastingen en invoer halen bestedingen uit de binnenlandse kringloop. Investeringen zijn net een injectie: ze brengen bestedingen binnen."
+          "uitleg": "Sparen, belastingen en invoer halen bestedingen uit de binnenlandse kringloop. Investeringen en uitvoer zijn net injecties: ze brengen bestedingen binnen."
         },
         {
           "type": "waarofniet",
@@ -562,12 +564,14 @@
             "In het Belgische bbp, want ze gebeurt op Belgisch grondgebied",
             "Niet in het Duitse bbp, want ze gebeurt niet in Duitsland",
             "In de Belgische statistieken van Statbel",
-            "In het Duitse bbp, want het bedrijf is Duits"
+            "In het Duitse bbp, want het bedrijf is Duits",
+            "In het bbp van de eurozone"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het woord binnenlands slaat op de plaats van de productie, niet op de eigenaar. Alles wat op Belgisch grondgebied geproduceerd wordt, telt mee in het Belgische bbp."
         },
@@ -591,15 +595,14 @@
           "opties": [
             "Ze wordt verdeeld onder de productiefactoren, als loon, intrest, pacht en winst",
             "Ze is de omzet min de aankopen bij andere bedrijven",
-            "Ze wordt opgeteld om tot het bbp te komen",
+            "Ze is de omzet van het bedrijf",
             "Ze is altijd gelijk aan de winst van het bedrijf"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De toegevoegde waarde is wat er te verdelen valt over wie meewerkte: lonen, intresten, pacht en winst. De winst is dus maar een deel ervan."
+          "uitleg": "De toegevoegde waarde is de omzet min de aankopen bij andere bedrijven, en dus wat er te verdelen valt over wie meewerkte: lonen, intresten, pacht en winst. De omzet zelf is ze niet, en de winst is maar een deel ervan."
         },
         {
           "type": "waarofniet",
@@ -770,12 +773,14 @@
             "Je rekent de bbp-cijfers om naar de prijzen van hetzelfde basisjaar",
             "Je berekent daarna de procentuele verandering tussen de twee jaren",
             "Je zet dat cijfer naast de nominale groei om het prijseffect te zien",
-            "Je deelt het bbp van beide jaren eerst door het aantal inwoners"
+            "Je deelt het bbp van beide jaren eerst door het aantal inwoners",
+            "Je vermeldt welk basisjaar je gebruikt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Reële groei vraagt dezelfde prijzen in beide jaren. Delen door het aantal inwoners geeft het bbp per capita, en dat is een andere berekening."
         },
@@ -850,15 +855,14 @@
           "opties": [
             "Het telt onbetaald werk niet mee",
             "Het zegt niets over hoe de welvaart verdeeld is",
-            "Het houdt geen rekening met schade aan het milieu",
+            "Het kan niet per inwoner berekend worden",
             "Het is te moeilijk om van jaar tot jaar te vergelijken"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het bbp meet productie, niet geluk of rechtvaardigheid. Vergelijken over de jaren heen gaat net wél, zolang je het reële bbp gebruikt."
+          "uitleg": "Het bbp meet productie, niet geluk of rechtvaardigheid, en ook de schade aan het milieu zit er niet in. Per inwoner rekenen kan juist wel, en vergelijken over de jaren heen ook, zolang je het reële bbp gebruikt."
         },
         {
           "type": "meerkeuze",
@@ -916,12 +920,14 @@
             "Productiviteit en technologische ontwikkeling",
             "Kapitaalvorming",
             "Bevolkingsgroei en onderwijs",
-            "Een stijging van de prijzen"
+            "Een stijging van de prijzen",
+            "Meer mensen aan het werk"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Vier oorzaken: productiviteit en technologie, kapitaalvorming, bevolkingsgroei en onderwijs. Een prijsstijging maakt de economie niet groter, alleen duurder."
         },
@@ -1033,15 +1039,14 @@
           "opties": [
             "Ze laat toe om met dezelfde middelen meer te maken",
             "Ze kan nieuwe producten mogelijk maken die er eerst niet waren",
-            "Ze kan bepaalde taken overbodig maken",
+            "Ze maakt elke werknemer overbodig",
             "Ze zorgt er altijd voor dat iedereen meer gaat verdienen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Technologie verhoogt de productiviteit, brengt nieuwe producten en laat taken verdwijnen. Of iedereen er ook op vooruitgaat, hangt af van hoe de opbrengst verdeeld wordt."
+          "uitleg": "Technologie verhoogt de productiviteit, brengt nieuwe producten en kan taken doen verdwijnen. Alle werknemers overbodig maken doet ze niet, en of iedereen erop vooruitgaat hangt af van hoe de opbrengst verdeeld wordt."
         },
         {
           "type": "meerkeuze",
@@ -1157,12 +1162,14 @@
             "Meer werkgelegenheid",
             "Meer middelen voor onderwijs en gezondheidszorg",
             "Een hogere levensstandaard",
-            "Minder druk op grondstoffen en milieu"
+            "Minder druk op grondstoffen en milieu",
+            "Meer belastinginkomsten voor de overheid"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Groei brengt werk, belastinginkomsten en koopkracht mee. De druk op grondstoffen en milieu neemt bij groei meestal net toe."
         },
@@ -1222,15 +1229,14 @@
           "opties": [
             "Vrijwilligerswerk in een jeugdbeweging",
             "Zorgen voor een familielid zonder vergoeding",
-            "Een propere lucht en veel groen in de buurt",
+            "Het loon van een verpleegkundige",
             "De bouw van een nieuw ziekenhuis"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Alles wat niet via een markt verloopt, blijft buiten het bbp. De bouw van een ziekenhuis wordt wél betaald en telt dus mee."
+          "uitleg": "Alles wat niet via een markt verloopt, blijft buiten het bbp: vrijwilligerswerk, onbetaalde zorg en een propere lucht. De bouw van een ziekenhuis en een loon worden wél betaald en tellen dus mee."
         },
         {
           "type": "meerkeuze",
@@ -1266,12 +1272,14 @@
             "Met belastingen die stijgen naarmate het inkomen hoger is",
             "Met uitkeringen en toelagen aan wie weinig inkomen heeft",
             "Met diensten die voor iedereen toegankelijk zijn, zoals onderwijs",
-            "Met het vastleggen van de prijs van elk product in de winkel"
+            "Met het vastleggen van de prijs van elk product in de winkel",
+            "Met een minimumpensioen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Belastingen, uitkeringen en collectieve diensten zijn de drie manieren van herverdeling. Prijzen in de winkel legt de overheid niet vast, op enkele uitzonderingen na."
         },
@@ -1401,12 +1409,14 @@
             "Een brood kopen voor het avondeten",
             "Naar de kapper gaan",
             "Met het openbaar vervoer naar school gaan",
-            "Buiten de lucht inademen"
+            "Buiten de lucht inademen",
+            "Een jas kopen voor de winter"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Brood, een knipbeurt en een busrit kosten schaarse middelen. Lucht is er gewoon, dus die behoefte is niet-economisch."
         },
@@ -1437,15 +1447,14 @@
           "opties": [
             "Primaire behoeften zijn nodig om te overleven",
             "Secundaire behoeften maken het leven comfortabeler",
-            "Tertiaire behoeften gaan over luxe en zijn niet noodzakelijk",
+            "De drie trappen liggen voor altijd vast",
             "De indeling is voor iedereen in elk land precies dezelfde"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De drie trappen gaan van overleven over comfort naar luxe. Waar de grens ligt, verschilt wel van tijd tot tijd en van land tot land: een gsm was ooit luxe."
+          "uitleg": "De drie trappen gaan van overleven over comfort naar luxe. Waar de grens ligt, verschilt van tijd tot tijd en van land tot land: een gsm was ooit luxe."
         },
         {
           "type": "waarofniet",
@@ -1494,12 +1503,14 @@
             "De tijd die je per dag hebt",
             "Het budget van een gezin",
             "De grond waarop je kan bouwen",
-            "Het daglicht op een zomerdag"
+            "Het daglicht op een zomerdag",
+            "De grondstoffen in de bodem"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Tijd, geld en grond zijn beperkt en hebben alternatieve aanwendingen. Daglicht kost niets en is voor iedereen beschikbaar."
         },
@@ -1591,15 +1602,14 @@
           "opties": [
             "De straatverlichting in een gemeente",
             "De dijken aan de kust",
-            "Het leger van een land",
+            "Een fitnessabonnement",
             "Een abonnement op een streamingdienst"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Verlichting, dijken en defensie gebruikt iedereen samen en niemand kan je ervan uitsluiten. Een abonnement is net wél individueel: wie niet betaalt, kijkt niet."
+          "uitleg": "Verlichting en dijken gebruikt iedereen samen, en defensie ook: niemand kan je ervan uitsluiten. Een abonnement is net wél individueel: wie niet betaalt, doet niet mee."
         },
         {
           "type": "meerkeuze",
@@ -1653,12 +1663,14 @@
             "Een liter benzine",
             "Een brood",
             "Tandpasta",
-            "Een wasmachine"
+            "Een wasmachine",
+            "Een pak koffie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Benzine, brood en tandpasta gaan op bij het gebruik. Een wasmachine blijft bestaan en is dus een gebruiksgoed."
         },
@@ -1714,15 +1726,14 @@
           "opties": [
             "Een individueel goed",
             "Een tastbaar goed",
-            "Een gebruiksgoed",
+            "Een verbruiksgoed",
             "Een collectief goed"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De auto is van dit gezin, je kan hem vastnemen, en hij gaat jaren mee. Collectief is hij niet: anderen kunnen er niet zomaar mee rijden."
+          "uitleg": "De auto is van dit gezin en je kan hem vastnemen. Hij gaat jaren mee, dus is hij een gebruiksgoed en geen verbruiksgoed, en collectief is hij ook niet."
         },
         {
           "type": "waarofniet",
@@ -1854,12 +1865,14 @@
             "Het grensnut daalt bij elk glas",
             "Het totale nut na vier glazen is 22",
             "Het totale nut stijgt nog altijd",
-            "Het totale nut daalt vanaf het tweede glas"
+            "Het totale nut daalt vanaf het tweede glas",
+            "Het grensnut blijft positief"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "10 plus 7 plus 4 plus 1 is 22. Het grensnut daalt, maar zolang het positief blijft, blijft het totale nut stijgen."
         },
@@ -1920,15 +1933,14 @@
           "opties": [
             "Hij kan zijn voorkeuren rangschikken",
             "Hij streeft naar een zo hoog mogelijk nut",
-            "Hij houdt rekening met zijn budget",
+            "Hij kent de winstmarge van de winkel",
             "Hij kent de productiekost van elk product"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De consument rangschikt, maximaliseert en blijft binnen zijn budget. Wat een product de producent kost, weet hij niet en hoeft hij ook niet te weten."
+          "uitleg": "De consument rangschikt zijn voorkeuren, maximaliseert zijn nut en blijft binnen zijn budget. Wat een product de producent kost of opbrengt, weet hij niet en hoeft hij ook niet te weten."
         },
         {
           "type": "waarofniet",
@@ -2000,12 +2012,14 @@
             "Het daalt naarmate je meer van hetzelfde goed hebt",
             "Het kan negatief worden",
             "Het is nul wanneer het totale nut op zijn hoogst is",
-            "Het is altijd gelijk aan de prijs van het goed"
+            "Het is altijd gelijk aan de prijs van het goed",
+            "Het is het nut van één eenheid extra"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het grensnut daalt, kan negatief worden en is nul in het toppunt van het totale nut. Met de prijs heeft het niets te maken."
         },
@@ -2103,15 +2117,14 @@
           "opties": [
             "Ze geven deze consument evenveel nut",
             "De consument is indifferent tussen de twee",
-            "Van het ene is er meer en van het andere minder",
+            "Ze bevatten precies dezelfde hoeveelheden",
             "Ze kosten allebei precies evenveel geld voor deze consument"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Gelijk nut, dus indifferent, en de ene hoeveelheid compenseert de andere. Of ze evenveel kosten, hangt van de prijzen af en lees je niet uit deze curve af."
+          "uitleg": "Gelijk nut, dus indifferent, en de ene hoeveelheid compenseert de andere: dezelfde hoeveelheden zijn het dus net niet. Of ze evenveel kosten, hangt van de prijzen af."
         },
         {
           "type": "meerkeuze",
@@ -2160,12 +2173,14 @@
             "Elke curve hoort bij één nutsniveau",
             "Curven die verder van de oorsprong liggen, geven meer nut",
             "De curven snijden elkaar nooit",
-            "Elke map geldt voor alle consumenten samen"
+            "Elke map geldt voor alle consumenten samen",
+            "Elke map geldt voor één consument"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een map toont de voorkeuren van één consument. Een andere persoon heeft een andere map, want nut is persoonlijk."
         },
@@ -2305,13 +2320,12 @@
           "opties": [
             "De consument kan die combinatie betalen",
             "Hij houdt er geld van zijn budget over",
-            "Hij kan met dat geld nog meer nut halen",
+            "Hij haalt er het hoogst mogelijke nut uit",
             "Die combinatie is onbereikbaar voor hem"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
           "uitleg": "Onder de lijn blijft er budget over. Zo'n punt is haalbaar maar niet optimaal: met het restje kan hij nog iets kopen en dus nog nut winnen."
         },
@@ -2462,12 +2476,14 @@
             "Ze toont welke combinaties haalbaar zijn",
             "Ze toont welke combinaties onbereikbaar zijn",
             "Ze toont de ruilverhouding die de markt oplegt",
-            "Ze toont welke combinatie de consument het liefst heeft"
+            "Ze toont welke combinatie de consument het liefst heeft",
+            "Ze toont hoeveel y je moet laten voor één x meer"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De budgetlijn zegt alleen wat kán. Wat hij het liefst heeft, lees je af uit zijn indifferentiecurven."
         }
@@ -2527,12 +2543,14 @@
             "Het budget stijgt",
             "Het budget daalt",
             "Beide prijzen stijgen met hetzelfde percentage",
-            "Alleen de prijs van goed y stijgt"
+            "Alleen de prijs van goed y stijgt",
+            "Beide prijzen dalen met hetzelfde percentage"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De helling hangt alleen af van de verhouding tussen de twee prijzen. Verandert één prijs apart, dan kantelt de lijn wel."
         },
@@ -2594,15 +2612,14 @@
           "opties": [
             "De consument koopt meer van goed x",
             "Zijn koopkracht stijgt, want zijn budget reikt verder",
-            "Zijn optimum verschuift naar een andere combinatie",
+            "Hij kan minder van goed y kopen dan voordien",
             "Zijn budget in euro stijgt mee"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een lagere prijs maakt x aantrekkelijker en maakt de consument rijker in wat hij kan kopen. Zijn budget in euro verandert daardoor niet."
+          "uitleg": "Een lagere prijs maakt x aantrekkelijker, maakt de consument rijker in wat hij kan kopen en verschuift zijn optimum. Zijn budget in euro verandert niet, en van y kan hij er ook niet minder kopen."
         },
         {
           "type": "meerkeuze",
@@ -2675,12 +2692,14 @@
             "Een toelage uitkeren",
             "De belasting op het inkomen verlagen",
             "De btw op producten verlagen",
-            "Een maximumprijs instellen boven de marktprijs"
+            "Een maximumprijs instellen boven de marktprijs",
+            "Een korting op het openbaar vervoer geven"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een toelage en een lagere inkomstenbelasting vergroten het budget; een lagere btw verlaagt de prijzen. Een maximumprijs bóven de marktprijs verandert niets, want die prijs wordt toch niet gevraagd."
         },
@@ -2727,15 +2746,14 @@
           "opties": [
             "De machines in een werkplaats",
             "De bedrijfsgebouwen",
-            "De vrachtwagens van een transporteur",
+            "De lening bij de bank",
             "Het spaargeld op de rekening van de zaakvoerder"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Kapitaal zijn de geproduceerde productiemiddelen: machines, gebouwen, voertuigen en gereedschap. Geld op een rekening is financieel kapitaal, geen kapitaalgoed."
+          "uitleg": "Kapitaal zijn de geproduceerde productiemiddelen: machines, gebouwen, voertuigen en gereedschap. Geld op een rekening of een lening is financieel kapitaal, geen kapitaalgoed."
         },
         {
           "type": "waarofniet",
@@ -2760,12 +2778,14 @@
             "Arbeid wordt vergoed met loon",
             "Kapitaal wordt vergoed met intrest",
             "Natuur wordt vergoed met pacht",
-            "Ondernemerschap wordt vergoed met intrest"
+            "Ondernemerschap wordt vergoed met intrest",
+            "Ondernemerschap wordt vergoed met winst"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Loon, intrest, pacht en winst: samen vormen ze de verdeling van de toegevoegde waarde onder wie meewerkte."
         },
@@ -2833,15 +2853,14 @@
           "opties": [
             "Ze omvat zowel lichamelijk als geestelijk werk",
             "Haar vergoeding is het loon",
-            "Haar opbrengst stijgt met opleiding en ervaring",
+            "Ze is op korte termijn de enige variabele factor",
             "Ze is op lange termijn de enige vaste factor"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Arbeid is al het menselijke werk, betaald met loon, en productiever naarmate het menselijk kapitaal groeit. Op lange termijn is géén enkele factor vast."
+          "uitleg": "Arbeid is al het menselijke werk, betaald met loon, en productiever naarmate het menselijk kapitaal groeit. Op lange termijn is géén enkele factor vast, en op korte termijn is arbeid niet de enige variabele."
         },
         {
           "type": "meerkeuze",
@@ -2892,12 +2911,14 @@
             "Beslissen wat er geproduceerd wordt",
             "Beslissen hoeveel er geproduceerd wordt",
             "Het risico dragen als het misloopt",
-            "Het loon bepalen dat elke sector in het land betaalt"
+            "Het loon bepalen dat elke sector in het land betaalt",
+            "Beslissen hoe er geproduceerd wordt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De ondernemer beslist wat, hoeveel en hoe, en draagt het risico. Loonafspraken voor een hele sector worden in overleg gemaakt, niet door één ondernemer."
         },
@@ -3015,16 +3036,15 @@
           "vraag": "MP van vijf werknemers is 12, 20, 25, 18 en 9. Wat kan je besluiten? Duid alles aan wat juist is.",
           "opties": [
             "De toenemende meeropbrengsten lopen tot de derde werknemer",
-            "Vanaf de vierde werknemer zijn er afnemende meeropbrengsten",
+            "De totale productie bij vijf werknemers is 74",
             "De totale productie bij vijf werknemers is 84",
             "De totale productie daalt vanaf de vierde werknemer"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "12 plus 20 plus 25 plus 18 plus 9 is 84. Zolang MP positief blijft, blijft TP stijgen, ook als MP zelf daalt."
+          "uitleg": "12 plus 20 plus 25 plus 18 plus 9 is 84, niet 74. De toenemende meeropbrengsten lopen tot de derde werknemer en daarna nemen ze af, maar zolang MP positief blijft, blijft TP stijgen."
         },
         {
           "type": "waarofniet",
@@ -3096,12 +3116,14 @@
             "MP is het verschil tussen twee opeenvolgende TP-waarden",
             "TP is de som van alle MP-waarden tot dan toe",
             "TP bereikt zijn top waar MP nul is",
-            "MP is altijd groter dan TP"
+            "MP is altijd groter dan TP",
+            "MP kan negatief worden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "MP en TP horen bij elkaar als verschil en som. MP is bijna altijd veel kleiner dan TP, want TP telt alles op."
         },
@@ -3184,15 +3206,14 @@
           "opties": [
             "De huur van de werkplaats",
             "De verzekering van het gebouw",
-            "De afschrijving van een machine",
+            "Het loon per gemaakt stuk",
             "De grondstoffen voor elk stuk"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Huur, verzekering en afschrijving lopen door, ook bij nul productie. Grondstoffen heb je alleen nodig als je produceert: dat zijn variabele kosten."
+          "uitleg": "Huur, verzekering en afschrijving lopen door, ook bij nul productie. Grondstoffen en een loon per stuk heb je alleen nodig als je produceert: dat zijn variabele kosten."
         },
         {
           "type": "meerkeuze",
@@ -3201,12 +3222,14 @@
             "De grondstoffen voor elk stuk",
             "De energie die een machine per stuk verbruikt",
             "De uurlonen van wie per gemaakt stuk betaald wordt",
-            "De brandverzekering van de werkplaats"
+            "De brandverzekering van de werkplaats",
+            "De verpakking per verkocht stuk"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Variabele kosten stijgen mee met de hoeveelheid: grondstoffen, energie per stuk en uurlonen. Produceer je niets, dan zijn ze nul. De verzekering loopt wel gewoon door."
         },
@@ -3318,15 +3341,14 @@
           "opties": [
             "MK hangt alleen af van de variabele kosten",
             "MK daalt eerst en stijgt daarna",
-            "MK snijdt GK in het laagste punt van GK",
+            "MK snijdt GK in het hoogste punt van GK",
             "MK is altijd gelijk aan GK"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Constante kosten veranderen niet bij een stuk meer, dus ze zitten niet in MK. En de curve van MK snijdt die van GK precies waar GK het laagst is."
+          "uitleg": "Constante kosten veranderen niet bij een stuk meer, dus zitten ze niet in MK. MK daalt eerst en stijgt daarna, en de curve van MK snijdt die van GK precies waar GK het laagst is, niet waar GK het hoogst is."
         },
         {
           "type": "waarofniet",
@@ -3368,12 +3390,14 @@
             "De huur is een constante kost",
             "De grondstof is een variabele kost",
             "Bij 3 000 broden bedraagt de gemiddelde constante kost 0,50 euro",
-            "Bij 3 000 broden bedraagt de gemiddelde kost 0,80 euro"
+            "Bij 3 000 broden bedraagt de gemiddelde kost 0,80 euro",
+            "Bij 3 000 broden bedraagt de gemiddelde kost 1,30 euro"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "1 500 gedeeld door 3 000 is 0,50 euro constante kost per brood. Samen met 0,80 euro grondstof is de gemiddelde kost 1,30 euro, niet 0,80 euro."
         },
@@ -3501,15 +3525,14 @@
           "opties": [
             "TO stijgt rechtlijnig met de hoeveelheid",
             "GO is gelijk aan de prijs",
-            "MO is gelijk aan de prijs",
+            "MO stijgt naarmate je meer verkoopt",
             "MO daalt naarmate je meer verkoopt"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bij volkomen concurrentie blijft de prijs voor dit bedrijf dezelfde. Een dalende MO hoort bij een bedrijf dat zijn prijs moet laten zakken om meer te verkopen, en dat is hier niet zo."
+          "uitleg": "Bij volkomen concurrentie blijft de prijs voor dit bedrijf dezelfde, dus zijn GO en MO gelijk aan die prijs: MO stijgt noch daalt. Een dalende MO hoort bij een bedrijf dat zijn prijs moet laten zakken om meer te verkopen."
         },
         {
           "type": "meerkeuze",
@@ -3664,12 +3687,14 @@
             "Dat extra stuk brengt meer op dan het kost",
             "Het bedrijf verhoogt zijn winst door meer te produceren",
             "Het zit nog niet in zijn optimum",
-            "Het produceert al meer dan zijn optimum"
+            "Het produceert al meer dan zijn optimum",
+            "Het produceert nog te weinig"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Zolang MO boven MK ligt, groeit de winst met elk extra stuk en ligt het optimum dus verderop. Te veel produceren herken je net aan het omgekeerde: MK boven MO."
         },
@@ -3694,15 +3719,14 @@
           "opties": [
             "De curve van de marginale kost",
             "De lijn van de marginale opbrengst",
-            "De hoeveelheid op de horizontale as",
+            "De prijs op de horizontale as",
             "De indifferentiecurven van de consument"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Je zoekt het snijpunt van MK en MO en leest daaronder de hoeveelheid af. De indifferentiecurven horen bij de consument, niet bij de producent."
+          "uitleg": "Je zoekt het snijpunt van MK en MO en leest daaronder de hoeveelheid af: die staat op de horizontale as, niet de prijs. De indifferentiecurven horen bij de consument, niet bij de producent."
         },
         {
           "type": "meerkeuze",
@@ -3741,12 +3765,14 @@
             "Ze ligt waar MK de lijn van MO snijdt in het stijgende deel van MK",
             "Ze geeft de hoogste totale winst",
             "Bij volkomen concurrentie ligt ze waar MK gelijk is aan de prijs",
-            "Ze ligt altijd in het laagste punt van de gemiddelde kost"
+            "Ze ligt altijd in het laagste punt van de gemiddelde kost",
+            "Ze geeft het kleinste verlies als er verlies is"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het laagste punt van GK is het break-evenpunt bij die prijs, niet het winstmaximum. Alleen toevallig vallen die twee samen."
         },
@@ -3890,15 +3916,14 @@
           "opties": [
             "De constante kosten zijn gedekt",
             "Elk extra stuk levert zijn dekkingsbijdrage als winst op",
-            "De totale opbrengst ligt boven de totale kosten",
+            "De totale kosten liggen boven de totale opbrengst",
             "De marginale kost is daar altijd nul"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Voorbij break-even is alles gedekt en wordt elke bijkomende marge winst. De marginale kost blijft gewoon positief."
+          "uitleg": "Voorbij break-even is alles gedekt, ligt de totale opbrengst boven de totale kosten en wordt elke bijkomende marge winst. De marginale kost blijft gewoon positief."
         },
         {
           "type": "meerkeuze",
@@ -3989,12 +4014,14 @@
             "Ligt de prijs boven GK, dan is er winst",
             "Ligt de prijs onder GK, dan is er verlies",
             "Ligt de prijs precies op GK, dan is de winst nul",
-            "Ligt de prijs boven MK, dan is er altijd winst"
+            "Ligt de prijs boven MK, dan is er altijd winst",
+            "Hoeveel winst er is, zie je aan het verschil tussen prijs en GK"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De vergelijking met GK beslist over winst of verlies. MK zegt alleen iets over de beste hoeveelheid, niet over het resultaat."
         },
@@ -4028,15 +4055,14 @@
           "opties": [
             "Hoeveel het produceert bij een gegeven prijs",
             "Of het bij een lage prijs blijft doorproduceren",
-            "Vanaf welke verkoop het break-even draait",
+            "Welk loon het aan zijn werknemers betaalt",
             "Welke prijs het aan zijn klanten vraagt"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bij volkomen concurrentie ligt de prijs vast op de markt. Het bedrijf kiest alleen zijn hoeveelheid en beslist of het blijft produceren."
+          "uitleg": "Bij volkomen concurrentie ligt de prijs vast op de markt. Het bedrijf kiest zijn hoeveelheid, berekent zijn break-evenpunt en beslist of het blijft produceren; de prijs en het sectorloon liggen buiten zijn beslissing."
         },
         {
           "type": "invultekst",
@@ -4152,12 +4178,14 @@
             "Er ontstaat een tekort",
             "De gevraagde hoeveelheid is groter dan de aangeboden",
             "De prijs komt onder opwaartse druk",
-            "De bedrijven bieden meer aan dan daarvoor"
+            "De bedrijven bieden meer aan dan daarvoor",
+            "Kopers vinden niet alles wat ze willen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Goedkoop lokt kopers en ontmoedigt aanbieders. Het tekort dat zo ontstaat, duwt de prijs weer omhoog naar het evenwicht."
         },
@@ -4195,12 +4223,14 @@
             "Een verandering van het inkomen",
             "Een verandering van de smaak of de mode",
             "Een verandering van de prijs van een vervangend product",
-            "Een verandering van de prijs van het product zelf"
+            "Een verandering van de prijs van het product zelf",
+            "Een verandering van de prijs van een aanvullend product"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Alles behalve de eigen prijs verschuift de curve. De eigen prijs laat je net over de curve bewegen."
         },
@@ -4255,15 +4285,14 @@
           "opties": [
             "De vraagcurve schuift naar rechts",
             "De evenwichtsprijs stijgt",
-            "De verkochte hoeveelheid stijgt",
+            "De verkochte hoeveelheid daalt",
             "De aanbodcurve schuift naar links"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Alleen de vraag verandert; het aanbod blijft waar het was. Het snijpunt schuift dus langs de aanbodcurve naar boven: duurder én meer."
+          "uitleg": "Alleen de vraag verandert; het aanbod blijft waar het was. Het snijpunt schuift langs de aanbodcurve naar boven: duurder én meer, dus de hoeveelheid daalt niet."
         },
         {
           "type": "meerkeuze",
@@ -4315,12 +4344,14 @@
             "Heel veel kopers en verkopers",
             "Een homogeen product",
             "Vrije toe- en uittreding",
-            "Eén aanbieder met een beschermde positie"
+            "Eén aanbieder met een beschermde positie",
+            "Volledige informatie voor iedereen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Veel aanbieders, een product dat overal hetzelfde is, vrije toetreding en volledige informatie. Eén beschermde aanbieder is net het tegenovergestelde: een monopolie."
         },
@@ -4387,15 +4418,14 @@
           "opties": [
             "Er ontstaat een tekort",
             "De gevraagde hoeveelheid stijgt",
-            "De aangeboden hoeveelheid daalt",
+            "De aangeboden hoeveelheid stijgt",
             "Er ontstaat een overschot"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Goedkoper lokt kopers en ontmoedigt aanbieders. Er wordt meer gevraagd dan aangeboden, en dat verschil is een blijvend tekort."
+          "uitleg": "Goedkoper lokt kopers en ontmoedigt aanbieders, dus daalt het aanbod. Er wordt meer gevraagd dan aangeboden, en dat verschil is een blijvend tekort, geen overschot."
         },
         {
           "type": "meerkeuze",
@@ -4455,12 +4485,14 @@
             "Wachtlijsten of rantsoenering",
             "Een zwarte markt met hogere prijzen",
             "Minder nieuw aanbod op langere termijn",
-            "Een stijging van de officiële prijs"
+            "Een stijging van de officiële prijs",
+            "Kwaliteit die achteruitgaat"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Wat op prijs niet verdeeld raakt, wordt op een andere manier verdeeld: door te wachten, door een bon of buiten de wet om. De officiële prijs blijft net vastgepind."
         },
@@ -4597,15 +4629,14 @@
           "opties": [
             "Er is meer aanbod dan vraag",
             "Er ontstaat werkloosheid",
-            "Bedrijven werven minder mensen aan",
+            "Bedrijven werven meer mensen aan",
             "Er ontstaat een tekort aan arbeidskrachten"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een te hoog loon maakt werken aantrekkelijk en aanwerven duur. Het overschot aan aanbod heet op deze markt werkloosheid."
+          "uitleg": "Een te hoog loon maakt werken aantrekkelijk en aanwerven duur, dus werven bedrijven juist minder aan. Het overschot aan aanbod heet op deze markt werkloosheid, niet een tekort."
         },
         {
           "type": "meerkeuze",
@@ -4647,12 +4678,14 @@
             "De samenstelling van de bevolking, zoals vergrijzing",
             "Migratie",
             "De groei van de totale bevolking",
-            "De vraag van de consument naar een bepaald product"
+            "De vraag van de consument naar een bepaald product",
+            "De leeftijd waarop men op pensioen gaat"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Alles wat het aantal mensen op arbeidsleeftijd verandert, verschuift het aanbod. De vraag naar een product werkt net op de vraagzijde in."
         },
@@ -4798,15 +4831,14 @@
           "opties": [
             "Het loon in een sector",
             "De arbeidsduur",
-            "Extra voordelen zoals een vergoeding voor woon-werkverkeer",
+            "De winstverdeling onder de aandeelhouders",
             "De verkoopprijs van de producten"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een cao gaat over de arbeidsvoorwaarden: loon, uren, verlof en vergoedingen. Over verkoopprijzen gaat ze niet, dat zou zelfs verboden overleg zijn."
+          "uitleg": "Een cao gaat over de arbeidsvoorwaarden: loon, uren, verlof en vergoedingen. Over verkoopprijzen of over de winst voor de aandeelhouders gaat ze niet."
         },
         {
           "type": "meerkeuze",
@@ -4827,12 +4859,14 @@
             "Er wordt meer arbeid aangeboden",
             "Er wordt minder arbeid gevraagd",
             "Er ontstaat werkloosheid",
-            "Er ontstaat een tekort aan arbeidskrachten"
+            "Er ontstaat een tekort aan arbeidskrachten",
+            "Er is een overschot aan arbeidsaanbod"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het is een minimumprijs boven het evenwicht, en dat geeft een overschot. Op de arbeidsmarkt heet dat overschot werkloosheid."
         },
@@ -4905,15 +4939,14 @@
           "opties": [
             "Bedrijven werven minder laaggeschoolden aan",
             "Sommige banen verdwijnen naar het buitenland",
-            "Automatisering wordt aantrekkelijker dan mensen inzetten",
+            "De werkgeversbijdragen dalen erdoor",
             "De koopkracht van de laagste lonen daalt erdoor"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De juiste antwoorden zijn de gebruikelijke bezwaren. De koopkracht van wie het minimumloon krijgt, stijgt er juist door: dat is net het doel."
+          "uitleg": "Minder aanwervingen van laaggeschoolden en banen die naar het buitenland verdwijnen zijn de gebruikelijke bezwaren. De koopkracht van wie het minimumloon krijgt stijgt er juist door, en de bijdragen van de werkgever dalen niet als het loon stijgt."
         },
         {
           "type": "waarofniet",
@@ -5061,12 +5094,14 @@
             "Grondstoffen die hier niet voorkomen",
             "Een groter afzetgebied",
             "Verschillen in loonkosten",
-            "Elk land maakt alles liefst zelf"
+            "Elk land maakt alles liefst zelf",
+            "Verschillen in kennis en technologie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Landen handelen omdat ze niet alles zelf hebben of kunnen, omdat een groter afzetgebied meer verkoop betekent, en omdat produceren elders soms goedkoper is. Alles zelf willen maken is juist het omgekeerde van handel."
         },
@@ -5087,16 +5122,15 @@
           "vraag": "Welke voordelen kan uitvoer een bedrijf opleveren? Duid alles aan wat juist is.",
           "opties": [
             "Meer klanten",
-            "Schaalvoordelen",
+            "Een gegarandeerde winst",
             "Minder afhankelijk van één markt",
             "Nooit meer concurrentie van anderen"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Wie uitvoert bereikt meer klanten, kan daardoor grotere reeksen maken tegen een lagere kost per stuk, en staat minder zwak als het in het eigen land slecht gaat. Concurrentie verdwijnt er juist niet door."
+          "uitleg": "Wie uitvoert bereikt meer klanten en staat minder zwak als het in het eigen land slecht gaat. Een winst is nooit gegarandeerd, en concurrentie verdwijnt er juist niet door."
         },
         {
           "type": "meerkeuze",
@@ -5149,15 +5183,14 @@
           "opties": [
             "Duitsland",
             "Nederland",
-            "Frankrijk",
+            "Noorwegen",
             "Nieuw-Zeeland"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Onze drie buurlanden Duitsland, Nederland en Frankrijk nemen samen een groot deel van de Belgische in- en uitvoer op. Afstand speelt dus een grote rol in handel."
+          "uitleg": "Duitsland en Nederland zijn samen met Frankrijk onze grootste partners, en dat is geen toeval: afstand speelt een grote rol in handel. Noorwegen en Nieuw-Zeeland liggen veel verder en wegen veel minder."
         },
         {
           "type": "meerkeuze",
@@ -5178,12 +5211,14 @@
             "De handelsbalans per jaar",
             "De groei van de uitvoer",
             "Of de invoer sneller stijgt",
-            "De winst van elk bedrijf apart"
+            "De winst van elk bedrijf apart",
+            "Het jaar met het grootste overschot"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Met de invoer en de uitvoer van elk jaar bereken je de balans, de groei en de vergelijking tussen beide. Over de winst van een afzonderlijk bedrijf zegt zo'n tabel niets."
         },
@@ -5294,15 +5329,14 @@
           "opties": [
             "Een invoerquotum",
             "Een importheffing",
-            "Een uitvoersubsidie",
+            "Een douaneformulier dat is afgeschaft",
             "Een akkoord dat heffingen afschaft"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Quota, heffingen, subsidies en niet-tarifaire regels storen alle vier de vrije handel. Een akkoord dat heffingen afschaft doet juist het omgekeerde."
+          "uitleg": "Een quotum beperkt de hoeveelheid en een heffing maakt invoer duurder; beide storen de vrije handel. Een akkoord dat heffingen afschaft en papierwerk dat wegvalt doen juist het omgekeerde."
         },
         {
           "type": "meerkeuze",
@@ -5335,12 +5369,14 @@
             "Minder aanbod",
             "Een hogere prijs",
             "Binnenlandse producenten verkopen meer",
-            "De invoer stijgt boven het quotum uit"
+            "De invoer stijgt boven het quotum uit",
+            "Minder keuze voor de koper"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het quotum snijdt een stuk van het aanbod weg, dus de prijs stijgt en de binnenlandse producenten nemen een groter deel van de markt. Boven het quotum uit mag er net niets meer binnen."
         },
@@ -5386,15 +5422,14 @@
           "opties": [
             "Lagere invoerheffingen",
             "Dezelfde normen",
-            "Ruimere quota",
+            "Een verbod op uitvoer naar derde landen",
             "Een verbod op alle onderlinge handel"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Landen maken afspraken die handel makkelijker maken: minder heffingen, dezelfde technische normen zodat een keuring volstaat, en ruimere of afgeschafte quota."
+          "uitleg": "Landen maken afspraken die handel makkelijker maken: lagere heffingen en dezelfde technische normen, zodat één keuring volstaat. Verboden op onderlinge handel of op uitvoer naar andere landen horen daar niet bij."
         },
         {
           "type": "invultekst",
@@ -5412,15 +5447,14 @@
           "opties": [
             "De binnenlandse producent",
             "De overheid",
-            "De arbeiders van die producent",
+            "De buitenlandse producent",
             "De koper in het eigen land"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De binnenlandse producent krijgt minder concurrentie en verkoopt meer, zijn personeel heeft daar werk aan, en de overheid haalt de heffing binnen. De koper betaalt een hogere prijs."
+          "uitleg": "De binnenlandse producent krijgt minder concurrentie en verkoopt meer, en de overheid haalt de heffing binnen. De koper in het eigen land en de buitenlandse producent verliezen juist."
         },
         {
           "type": "meerkeuze",
@@ -5530,12 +5564,14 @@
             "Geen minimumkapitaal",
             "Eén oprichter",
             "Onbeperkte aansprakelijkheid",
-            "Aandelen die vrij overgaan"
+            "Aandelen die vrij overgaan",
+            "Winst die als personenbelasting wordt belast"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een eenmanszaak start zonder kapitaalvereiste, met één persoon, die wel onbeperkt aansprakelijk is. Aandelen zijn er niet, want er is geen vennootschap."
         },
@@ -5581,15 +5617,14 @@
           "opties": [
             "Beperkte aansprakelijkheid",
             "Makkelijker geld ophalen",
-            "Ze blijft bestaan na een overlijden",
+            "Er is geen notaris bij nodig",
             "Er is geen boekhouding nodig"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het privévermogen blijft beschermd, nieuwe aandeelhouders kunnen instappen, en de vennootschap leeft verder als een oprichter wegvalt. Een boekhouding blijft wel nodig, zelfs een strengere."
+          "uitleg": "Het privévermogen blijft beschermd en nieuwe aandeelhouders kunnen instappen om geld op te halen. Een boekhouding blijft nodig, zelfs een strengere, en voor een bv of een nv moet je net wel naar de notaris."
         },
         {
           "type": "meerkeuze",
@@ -5621,12 +5656,14 @@
             "De bv",
             "De nv",
             "De cv",
-            "De eenmanszaak"
+            "De eenmanszaak",
+            "De vzw"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De bv, de nv en de cv zijn vennootschappen en dus rechtspersonen. Een eenmanszaak is dat niet: daar handelt een natuurlijk persoon in eigen naam."
         },
@@ -5649,12 +5686,14 @@
             "Een financieel plan",
             "Een notariële akte",
             "Genoeg aanvangsvermogen",
-            "Een kapitaal van 61 500 euro"
+            "Een kapitaal van 61 500 euro",
+            "Een bijzondere rekening voor de inbreng in geld"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een bv heeft geen vast minimumkapitaal meer, maar wel een toereikend aanvangsvermogen dat de oprichters in een financieel plan verantwoorden, en een notariële akte. De 61 500 euro is de regel bij een nv."
         },
@@ -5753,15 +5792,14 @@
           "opties": [
             "Ze zijn rechtspersoon",
             "Ze hebben een notariële akte",
-            "Ze betalen vennootschapsbelasting",
+            "Hun aandelen staan op de beurs",
             "Hun aandelen gaan vrij over"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Beide zijn rechtspersonen met beperkte aansprakelijkheid, met een notariële oprichtingsakte, een dubbele boekhouding en vennootschapsbelasting. Vrij overdraagbare aandelen zijn er enkel bij de nv."
+          "uitleg": "Beide zijn rechtspersonen met beperkte aansprakelijkheid en een notariële oprichtingsakte, met een dubbele boekhouding en vennootschapsbelasting. Vrij overdraagbare aandelen zijn er enkel bij de nv, en op de beurs staat maar een kleine minderheid van de nv's."
         },
         {
           "type": "meerkeuze",
@@ -5805,15 +5843,14 @@
           "opties": [
             "Het minimumkapitaal",
             "De overdracht van aandelen",
-            "Het besloten karakter",
+            "De vennootschapsbelasting",
             "De soort aansprakelijkheid"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een nv heeft 61 500 euro kapitaal en vrij overdraagbare aandelen, een bv geen vast kapitaal en een besloten karakter. De aansprakelijkheid is bij beide beperkt."
+          "uitleg": "Een nv heeft 61 500 euro kapitaal en vrij overdraagbare aandelen, een bv geen vast kapitaal en een besloten karakter. De aansprakelijkheid is bij beide beperkt en beide betalen vennootschapsbelasting."
         },
         {
           "type": "meerkeuze",
@@ -5867,12 +5904,14 @@
             "De aansprakelijkheid",
             "De administratie",
             "De fiscaliteit",
-            "Het aantal klanten"
+            "Het aantal klanten",
+            "Het aantal oprichters"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Aansprakelijkheid, administratie en belastingen zijn de drie grote vergelijkingspunten, naast kapitaal, aantal oprichters en de overdracht van aandelen. Hoeveel klanten je hebt, hangt niet van de vorm af."
         },
@@ -5974,15 +6013,14 @@
           "opties": [
             "Een gebouw",
             "Een machine",
-            "Een bestelwagen",
+            "Het geld in de kassa",
             "De voorraad handelsgoederen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Vaste activa blijven langer dan een jaar in de onderneming. De voorraad is er juist om snel verkocht te worden en hoort bij de vlottende activa."
+          "uitleg": "Vaste activa blijven langer dan een jaar in de onderneming: gebouwen, machines en voertuigen. De voorraad en het geld in de kassa wisselen juist snel en horen bij de vlottende activa."
         },
         {
           "type": "meerkeuze",
@@ -5991,12 +6029,14 @@
             "De voorraad",
             "De handelsvorderingen",
             "Het geld op de rekening",
-            "Het gebouw van de zaak"
+            "Het gebouw van de zaak",
+            "Het geld in de kassa"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Vlottende activa veranderen snel: goederen worden verkocht, klanten betalen, geld gaat eruit en erin. Een gebouw blijft staan en is een vast actief."
         },
@@ -6054,15 +6094,14 @@
           "opties": [
             "Het eigen vermogen",
             "De schulden op lange termijn",
-            "De schulden op korte termijn",
+            "De handelsvorderingen",
             "De voorraden in het magazijn"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het passief toont eigen vermogen en schulden, opgesplitst volgens looptijd. Voorraden zijn een bezit en staan links."
+          "uitleg": "Het passief toont waar het geld vandaan komt: eigen vermogen en schulden, opgesplitst volgens looptijd. Voorraden en vorderingen op klanten zijn bezittingen en staan links."
         },
         {
           "type": "meerkeuze",
@@ -6105,12 +6144,14 @@
             "Te betalen leveranciers",
             "Te betalen btw",
             "Te betalen lonen",
-            "Een lening op twintig jaar"
+            "Een lening op twintig jaar",
+            "Te betalen bedrijfsvoorheffing"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Leveranciers, btw en lonen zijn binnen weken of maanden te betalen. Een lening op twintig jaar hoort bij de schulden op meer dan één jaar."
         },
@@ -6208,15 +6249,14 @@
           "opties": [
             "De aankoop van handelsgoederen",
             "De lonen van het personeel",
-            "De afschrijvingen",
+            "Een dividend aan de aandeelhouders",
             "De intrest op een lening"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Aankopen, lonen en afschrijvingen horen bij de gewone werking. Intrest is een financiële kost."
+          "uitleg": "Aankopen en lonen horen bij de gewone werking, net als de afschrijvingen. Intrest is een financiële kost en een dividend is geen kost maar een verdeling van de winst."
         },
         {
           "type": "meerkeuze",
@@ -6225,12 +6265,14 @@
             "De intrest die je betaalt",
             "De intrest die je ontvangt",
             "Een dividend dat je ontvangt",
-            "Het loon van het personeel"
+            "Het loon van het personeel",
+            "Een meerwaarde op een belegging"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Alles wat met geld lenen en geld beleggen te maken heeft, komt in het financieel resultaat. Lonen zijn een bedrijfskost."
         },

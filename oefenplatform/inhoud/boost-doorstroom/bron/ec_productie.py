@@ -37,11 +37,11 @@ DEEL1 = [
         opties=[
             "De machines in een werkplaats",
             "De bedrijfsgebouwen",
-            "De vrachtwagens van een transporteur",
+            "De lening bij de bank",
             "Het spaargeld op de rekening van de zaakvoerder",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Kapitaal zijn de geproduceerde productiemiddelen: machines, gebouwen, voertuigen en gereedschap. Geld op een rekening is financieel kapitaal, geen kapitaalgoed.",
+        antwoord=[0, 1],
+        uitleg="Kapitaal zijn de geproduceerde productiemiddelen: machines, gebouwen, voertuigen en gereedschap. Geld op een rekening of een lening is financieel kapitaal, geen kapitaalgoed.",
     ),
     dict(
         type="waarofniet",
@@ -63,8 +63,9 @@ DEEL1 = [
             "Kapitaal wordt vergoed met intrest",
             "Natuur wordt vergoed met pacht",
             "Ondernemerschap wordt vergoed met intrest",
+            "Ondernemerschap wordt vergoed met winst",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Loon, intrest, pacht en winst: samen vormen ze de verdeling van de toegevoegde waarde onder wie meewerkte.",
     ),
     dict(
@@ -127,11 +128,11 @@ DEEL1 = [
         opties=[
             "Ze omvat zowel lichamelijk als geestelijk werk",
             "Haar vergoeding is het loon",
-            "Haar opbrengst stijgt met opleiding en ervaring",
+            "Ze is op korte termijn de enige variabele factor",
             "Ze is op lange termijn de enige vaste factor",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Arbeid is al het menselijke werk, betaald met loon, en productiever naarmate het menselijk kapitaal groeit. Op lange termijn is géén enkele factor vast.",
+        antwoord=[0, 1],
+        uitleg="Arbeid is al het menselijke werk, betaald met loon, en productiever naarmate het menselijk kapitaal groeit. Op lange termijn is géén enkele factor vast, en op korte termijn is arbeid niet de enige variabele.",
     ),
     dict(
         type="meerkeuze",
@@ -183,8 +184,9 @@ DEEL1 = [
             "Beslissen hoeveel er geproduceerd wordt",
             "Het risico dragen als het misloopt",
             "Het loon bepalen dat elke sector in het land betaalt",
+            "Beslissen hoe er geproduceerd wordt",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De ondernemer beslist wat, hoeveel en hoe, en draagt het risico. Loonafspraken voor een hele sector worden in overleg gemaakt, niet door één ondernemer.",
     ),
     dict(
@@ -291,12 +293,12 @@ DEEL2 = [
         vraag="MP van vijf werknemers is 12, 20, 25, 18 en 9. Wat kan je besluiten? Duid alles aan wat juist is.",
         opties=[
             "De toenemende meeropbrengsten lopen tot de derde werknemer",
-            "Vanaf de vierde werknemer zijn er afnemende meeropbrengsten",
+            "De totale productie bij vijf werknemers is 74",
             "De totale productie bij vijf werknemers is 84",
             "De totale productie daalt vanaf de vierde werknemer",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="12 plus 20 plus 25 plus 18 plus 9 is 84. Zolang MP positief blijft, blijft TP stijgen, ook als MP zelf daalt.",
+        antwoord=[0, 2],
+        uitleg="12 plus 20 plus 25 plus 18 plus 9 is 84, niet 74. De toenemende meeropbrengsten lopen tot de derde werknemer en daarna nemen ze af, maar zolang MP positief blijft, blijft TP stijgen.",
     ),
     dict(
         type="waarofniet",
@@ -366,8 +368,9 @@ DEEL2 = [
             "TP is de som van alle MP-waarden tot dan toe",
             "TP bereikt zijn top waar MP nul is",
             "MP is altijd groter dan TP",
+            "MP kan negatief worden",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="MP en TP horen bij elkaar als verschil en som. MP is bijna altijd veel kleiner dan TP, want TP telt alles op.",
     ),
     dict(

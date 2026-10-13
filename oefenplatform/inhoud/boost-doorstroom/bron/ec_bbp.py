@@ -124,8 +124,9 @@ DEEL1 = [
             "Niet in het Duitse bbp, want ze gebeurt niet in Duitsland",
             "In de Belgische statistieken van Statbel",
             "In het Duitse bbp, want het bedrijf is Duits",
+            "In het bbp van de eurozone",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Het woord binnenlands slaat op de plaats van de productie, niet op de eigenaar. Alles wat op Belgisch grondgebied geproduceerd wordt, telt mee in het Belgische bbp.",
     ),
     dict(
@@ -146,11 +147,11 @@ DEEL1 = [
         opties=[
             "Ze wordt verdeeld onder de productiefactoren, als loon, intrest, pacht en winst",
             "Ze is de omzet min de aankopen bij andere bedrijven",
-            "Ze wordt opgeteld om tot het bbp te komen",
+            "Ze is de omzet van het bedrijf",
             "Ze is altijd gelijk aan de winst van het bedrijf",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De toegevoegde waarde is wat er te verdelen valt over wie meewerkte: lonen, intresten, pacht en winst. De winst is dus maar een deel ervan.",
+        antwoord=[0, 1],
+        uitleg="De toegevoegde waarde is de omzet min de aankopen bij andere bedrijven, en dus wat er te verdelen valt over wie meewerkte: lonen, intresten, pacht en winst. De omzet zelf is ze niet, en de winst is maar een deel ervan.",
     ),
     dict(
         type="waarofniet",
@@ -313,8 +314,9 @@ DEEL2 = [
             "Je berekent daarna de procentuele verandering tussen de twee jaren",
             "Je zet dat cijfer naast de nominale groei om het prijseffect te zien",
             "Je deelt het bbp van beide jaren eerst door het aantal inwoners",
+            "Je vermeldt welk basisjaar je gebruikt",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Reële groei vraagt dezelfde prijzen in beide jaren. Delen door het aantal inwoners geeft het bbp per capita, en dat is een andere berekening.",
     ),
     dict(
@@ -383,11 +385,11 @@ DEEL2 = [
         opties=[
             "Het telt onbetaald werk niet mee",
             "Het zegt niets over hoe de welvaart verdeeld is",
-            "Het houdt geen rekening met schade aan het milieu",
+            "Het kan niet per inwoner berekend worden",
             "Het is te moeilijk om van jaar tot jaar te vergelijken",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Het bbp meet productie, niet geluk of rechtvaardigheid. Vergelijken over de jaren heen gaat net wél, zolang je het reële bbp gebruikt.",
+        antwoord=[0, 1],
+        uitleg="Het bbp meet productie, niet geluk of rechtvaardigheid, en ook de schade aan het milieu zit er niet in. Per inwoner rekenen kan juist wel, en vergelijken over de jaren heen ook, zolang je het reële bbp gebruikt.",
     ),
     dict(
         type="meerkeuze",

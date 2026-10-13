@@ -94,8 +94,9 @@ DEEL1 = [
             "Eén oprichter",
             "Onbeperkte aansprakelijkheid",
             "Aandelen die vrij overgaan",
+            "Winst die als personenbelasting wordt belast",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een eenmanszaak start zonder kapitaalvereiste, met één persoon, die wel onbeperkt aansprakelijk is. Aandelen zijn er niet, want er is geen vennootschap.",
     ),
     dict(
@@ -140,11 +141,11 @@ DEEL1 = [
         opties=[
             "Beperkte aansprakelijkheid",
             "Makkelijker geld ophalen",
-            "Ze blijft bestaan na een overlijden",
+            "Er is geen notaris bij nodig",
             "Er is geen boekhouding nodig",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Het privévermogen blijft beschermd, nieuwe aandeelhouders kunnen instappen, en de vennootschap leeft verder als een oprichter wegvalt. Een boekhouding blijft wel nodig, zelfs een strengere.",
+        antwoord=[0, 1],
+        uitleg="Het privévermogen blijft beschermd en nieuwe aandeelhouders kunnen instappen om geld op te halen. Een boekhouding blijft nodig, zelfs een strengere, en voor een bv of een nv moet je net wel naar de notaris.",
     ),
     dict(
         type="meerkeuze",
@@ -172,8 +173,9 @@ DEEL1 = [
             "De nv",
             "De cv",
             "De eenmanszaak",
+            "De vzw",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De bv, de nv en de cv zijn vennootschappen en dus rechtspersonen. Een eenmanszaak is dat niet: daar handelt een natuurlijk persoon in eigen naam.",
     ),
     dict(
@@ -196,8 +198,9 @@ DEEL1 = [
             "Een notariële akte",
             "Genoeg aanvangsvermogen",
             "Een kapitaal van 61 500 euro",
+            "Een bijzondere rekening voor de inbreng in geld",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een bv heeft geen vast minimumkapitaal meer, maar wel een toereikend aanvangsvermogen dat de oprichters in een financieel plan verantwoorden, en een notariële akte. De 61 500 euro is de regel bij een nv.",
     ),
     dict(
@@ -287,11 +290,11 @@ DEEL2 = [
         opties=[
             "Ze zijn rechtspersoon",
             "Ze hebben een notariële akte",
-            "Ze betalen vennootschapsbelasting",
+            "Hun aandelen staan op de beurs",
             "Hun aandelen gaan vrij over",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Beide zijn rechtspersonen met beperkte aansprakelijkheid, met een notariële oprichtingsakte, een dubbele boekhouding en vennootschapsbelasting. Vrij overdraagbare aandelen zijn er enkel bij de nv.",
+        antwoord=[0, 1],
+        uitleg="Beide zijn rechtspersonen met beperkte aansprakelijkheid en een notariële oprichtingsakte, met een dubbele boekhouding en vennootschapsbelasting. Vrij overdraagbare aandelen zijn er enkel bij de nv, en op de beurs staat maar een kleine minderheid van de nv's.",
     ),
     dict(
         type="meerkeuze",
@@ -335,11 +338,11 @@ DEEL2 = [
         opties=[
             "Het minimumkapitaal",
             "De overdracht van aandelen",
-            "Het besloten karakter",
+            "De vennootschapsbelasting",
             "De soort aansprakelijkheid",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een nv heeft 61 500 euro kapitaal en vrij overdraagbare aandelen, een bv geen vast kapitaal en een besloten karakter. De aansprakelijkheid is bij beide beperkt.",
+        antwoord=[0, 1],
+        uitleg="Een nv heeft 61 500 euro kapitaal en vrij overdraagbare aandelen, een bv geen vast kapitaal en een besloten karakter. De aansprakelijkheid is bij beide beperkt en beide betalen vennootschapsbelasting.",
     ),
     dict(
         type="meerkeuze",
@@ -391,8 +394,9 @@ DEEL2 = [
             "De administratie",
             "De fiscaliteit",
             "Het aantal klanten",
+            "Het aantal oprichters",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Aansprakelijkheid, administratie en belastingen zijn de drie grote vergelijkingspunten, naast kapitaal, aantal oprichters en de overdracht van aandelen. Hoeveel klanten je hebt, hangt niet van de vorm af.",
     ),
     dict(

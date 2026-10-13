@@ -62,8 +62,9 @@ DEEL1 = [
             "Het bedrijf verhoogt zijn winst door meer te produceren",
             "Het zit nog niet in zijn optimum",
             "Het produceert al meer dan zijn optimum",
+            "Het produceert nog te weinig",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Zolang MO boven MK ligt, groeit de winst met elk extra stuk en ligt het optimum dus verderop. Te veel produceren herken je net aan het omgekeerde: MK boven MO.",
     ),
     dict(
@@ -84,11 +85,11 @@ DEEL1 = [
         opties=[
             "De curve van de marginale kost",
             "De lijn van de marginale opbrengst",
-            "De hoeveelheid op de horizontale as",
+            "De prijs op de horizontale as",
             "De indifferentiecurven van de consument",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Je zoekt het snijpunt van MK en MO en leest daaronder de hoeveelheid af. De indifferentiecurven horen bij de consument, niet bij de producent.",
+        antwoord=[0, 1],
+        uitleg="Je zoekt het snijpunt van MK en MO en leest daaronder de hoeveelheid af: die staat op de horizontale as, niet de prijs. De indifferentiecurven horen bij de consument, niet bij de producent.",
     ),
     dict(
         type="meerkeuze",
@@ -128,8 +129,9 @@ DEEL1 = [
             "Ze geeft de hoogste totale winst",
             "Bij volkomen concurrentie ligt ze waar MK gelijk is aan de prijs",
             "Ze ligt altijd in het laagste punt van de gemiddelde kost",
+            "Ze geeft het kleinste verlies als er verlies is",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Het laagste punt van GK is het break-evenpunt bij die prijs, niet het winstmaximum. Alleen toevallig vallen die twee samen.",
     ),
     dict(
@@ -261,11 +263,11 @@ DEEL2 = [
         opties=[
             "De constante kosten zijn gedekt",
             "Elk extra stuk levert zijn dekkingsbijdrage als winst op",
-            "De totale opbrengst ligt boven de totale kosten",
+            "De totale kosten liggen boven de totale opbrengst",
             "De marginale kost is daar altijd nul",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Voorbij break-even is alles gedekt en wordt elke bijkomende marge winst. De marginale kost blijft gewoon positief.",
+        antwoord=[0, 1],
+        uitleg="Voorbij break-even is alles gedekt, ligt de totale opbrengst boven de totale kosten en wordt elke bijkomende marge winst. De marginale kost blijft gewoon positief.",
     ),
     dict(
         type="meerkeuze",
@@ -353,8 +355,9 @@ DEEL2 = [
             "Ligt de prijs onder GK, dan is er verlies",
             "Ligt de prijs precies op GK, dan is de winst nul",
             "Ligt de prijs boven MK, dan is er altijd winst",
+            "Hoeveel winst er is, zie je aan het verschil tussen prijs en GK",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De vergelijking met GK beslist over winst of verlies. MK zegt alleen iets over de beste hoeveelheid, niet over het resultaat.",
     ),
     dict(
@@ -387,11 +390,11 @@ DEEL2 = [
         opties=[
             "Hoeveel het produceert bij een gegeven prijs",
             "Of het bij een lage prijs blijft doorproduceren",
-            "Vanaf welke verkoop het break-even draait",
+            "Welk loon het aan zijn werknemers betaalt",
             "Welke prijs het aan zijn klanten vraagt",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Bij volkomen concurrentie ligt de prijs vast op de markt. Het bedrijf kiest alleen zijn hoeveelheid en beslist of het blijft produceren.",
+        antwoord=[0, 1],
+        uitleg="Bij volkomen concurrentie ligt de prijs vast op de markt. Het bedrijf kiest zijn hoeveelheid, berekent zijn break-evenpunt en beslist of het blijft produceren; de prijs en het sectorloon liggen buiten zijn beslissing.",
     ),
     dict(
         type="invultekst",

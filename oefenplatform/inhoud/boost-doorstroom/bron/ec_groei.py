@@ -37,8 +37,9 @@ DEEL1 = [
             "Kapitaalvorming",
             "Bevolkingsgroei en onderwijs",
             "Een stijging van de prijzen",
+            "Meer mensen aan het werk",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Vier oorzaken: productiviteit en technologie, kapitaalvorming, bevolkingsgroei en onderwijs. Een prijsstijging maakt de economie niet groter, alleen duurder.",
     ),
     dict(
@@ -143,11 +144,11 @@ DEEL1 = [
         opties=[
             "Ze laat toe om met dezelfde middelen meer te maken",
             "Ze kan nieuwe producten mogelijk maken die er eerst niet waren",
-            "Ze kan bepaalde taken overbodig maken",
+            "Ze maakt elke werknemer overbodig",
             "Ze zorgt er altijd voor dat iedereen meer gaat verdienen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Technologie verhoogt de productiviteit, brengt nieuwe producten en laat taken verdwijnen. Of iedereen er ook op vooruitgaat, hangt af van hoe de opbrengst verdeeld wordt.",
+        antwoord=[0, 1],
+        uitleg="Technologie verhoogt de productiviteit, brengt nieuwe producten en kan taken doen verdwijnen. Alle werknemers overbodig maken doet ze niet, en of iedereen erop vooruitgaat hangt af van hoe de opbrengst verdeeld wordt.",
     ),
     dict(
         type="meerkeuze",
@@ -256,8 +257,9 @@ DEEL2 = [
             "Meer middelen voor onderwijs en gezondheidszorg",
             "Een hogere levensstandaard",
             "Minder druk op grondstoffen en milieu",
+            "Meer belastinginkomsten voor de overheid",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Groei brengt werk, belastinginkomsten en koopkracht mee. De druk op grondstoffen en milieu neemt bij groei meestal net toe.",
     ),
     dict(
@@ -314,11 +316,11 @@ DEEL2 = [
         opties=[
             "Vrijwilligerswerk in een jeugdbeweging",
             "Zorgen voor een familielid zonder vergoeding",
-            "Een propere lucht en veel groen in de buurt",
+            "Het loon van een verpleegkundige",
             "De bouw van een nieuw ziekenhuis",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Alles wat niet via een markt verloopt, blijft buiten het bbp. De bouw van een ziekenhuis wordt wél betaald en telt dus mee.",
+        antwoord=[0, 1],
+        uitleg="Alles wat niet via een markt verloopt, blijft buiten het bbp: vrijwilligerswerk, onbetaalde zorg en een propere lucht. De bouw van een ziekenhuis en een loon worden wél betaald en tellen dus mee.",
     ),
     dict(
         type="meerkeuze",
@@ -352,8 +354,9 @@ DEEL2 = [
             "Met uitkeringen en toelagen aan wie weinig inkomen heeft",
             "Met diensten die voor iedereen toegankelijk zijn, zoals onderwijs",
             "Met het vastleggen van de prijs van elk product in de winkel",
+            "Met een minimumpensioen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Belastingen, uitkeringen en collectieve diensten zijn de drie manieren van herverdeling. Prijzen in de winkel legt de overheid niet vast, op enkele uitzonderingen na.",
     ),
     dict(

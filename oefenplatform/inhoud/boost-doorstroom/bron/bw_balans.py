@@ -65,11 +65,11 @@ DEEL1 = [
         opties=[
             "Een gebouw",
             "Een machine",
-            "Een bestelwagen",
+            "Het geld in de kassa",
             "De voorraad handelsgoederen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Vaste activa blijven langer dan een jaar in de onderneming. De voorraad is er juist om snel verkocht te worden en hoort bij de vlottende activa.",
+        antwoord=[0, 1],
+        uitleg="Vaste activa blijven langer dan een jaar in de onderneming: gebouwen, machines en voertuigen. De voorraad en het geld in de kassa wisselen juist snel en horen bij de vlottende activa.",
     ),
     dict(
         type="meerkeuze",
@@ -79,8 +79,9 @@ DEEL1 = [
             "De handelsvorderingen",
             "Het geld op de rekening",
             "Het gebouw van de zaak",
+            "Het geld in de kassa",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Vlottende activa veranderen snel: goederen worden verkocht, klanten betalen, geld gaat eruit en erin. Een gebouw blijft staan en is een vast actief.",
     ),
     dict(
@@ -137,11 +138,11 @@ DEEL1 = [
         opties=[
             "Het eigen vermogen",
             "De schulden op lange termijn",
-            "De schulden op korte termijn",
+            "De handelsvorderingen",
             "De voorraden in het magazijn",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Het passief toont eigen vermogen en schulden, opgesplitst volgens looptijd. Voorraden zijn een bezit en staan links.",
+        antwoord=[0, 1],
+        uitleg="Het passief toont waar het geld vandaan komt: eigen vermogen en schulden, opgesplitst volgens looptijd. Voorraden en vorderingen op klanten zijn bezittingen en staan links.",
     ),
     dict(
         type="meerkeuze",
@@ -181,8 +182,9 @@ DEEL1 = [
             "Te betalen btw",
             "Te betalen lonen",
             "Een lening op twintig jaar",
+            "Te betalen bedrijfsvoorheffing",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Leveranciers, btw en lonen zijn binnen weken of maanden te betalen. Een lening op twintig jaar hoort bij de schulden op meer dan één jaar.",
     ),
     dict(
@@ -272,11 +274,11 @@ DEEL2 = [
         opties=[
             "De aankoop van handelsgoederen",
             "De lonen van het personeel",
-            "De afschrijvingen",
+            "Een dividend aan de aandeelhouders",
             "De intrest op een lening",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Aankopen, lonen en afschrijvingen horen bij de gewone werking. Intrest is een financiële kost.",
+        antwoord=[0, 1],
+        uitleg="Aankopen en lonen horen bij de gewone werking, net als de afschrijvingen. Intrest is een financiële kost en een dividend is geen kost maar een verdeling van de winst.",
     ),
     dict(
         type="meerkeuze",
@@ -286,8 +288,9 @@ DEEL2 = [
             "De intrest die je ontvangt",
             "Een dividend dat je ontvangt",
             "Het loon van het personeel",
+            "Een meerwaarde op een belegging",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Alles wat met geld lenen en geld beleggen te maken heeft, komt in het financieel resultaat. Lonen zijn een bedrijfskost.",
     ),
     dict(

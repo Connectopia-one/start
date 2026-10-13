@@ -93,8 +93,9 @@ DEEL1 = [
             "Een groter afzetgebied",
             "Verschillen in loonkosten",
             "Elk land maakt alles liefst zelf",
+            "Verschillen in kennis en technologie",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Landen handelen omdat ze niet alles zelf hebben of kunnen, omdat een groter afzetgebied meer verkoop betekent, en omdat produceren elders soms goedkoper is. Alles zelf willen maken is juist het omgekeerde van handel.",
     ),
     dict(
@@ -114,12 +115,12 @@ DEEL1 = [
         vraag="Welke voordelen kan uitvoer een bedrijf opleveren? Duid alles aan wat juist is.",
         opties=[
             "Meer klanten",
-            "Schaalvoordelen",
+            "Een gegarandeerde winst",
             "Minder afhankelijk van één markt",
             "Nooit meer concurrentie van anderen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Wie uitvoert bereikt meer klanten, kan daardoor grotere reeksen maken tegen een lagere kost per stuk, en staat minder zwak als het in het eigen land slecht gaat. Concurrentie verdwijnt er juist niet door.",
+        antwoord=[0, 2],
+        uitleg="Wie uitvoert bereikt meer klanten en staat minder zwak als het in het eigen land slecht gaat. Een winst is nooit gegarandeerd, en concurrentie verdwijnt er juist niet door.",
     ),
     dict(
         type="meerkeuze",
@@ -169,11 +170,11 @@ DEEL1 = [
         opties=[
             "Duitsland",
             "Nederland",
-            "Frankrijk",
+            "Noorwegen",
             "Nieuw-Zeeland",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Onze drie buurlanden Duitsland, Nederland en Frankrijk nemen samen een groot deel van de Belgische in- en uitvoer op. Afstand speelt dus een grote rol in handel.",
+        antwoord=[0, 1],
+        uitleg="Duitsland en Nederland zijn samen met Frankrijk onze grootste partners, en dat is geen toeval: afstand speelt een grote rol in handel. Noorwegen en Nieuw-Zeeland liggen veel verder en wegen veel minder.",
     ),
     dict(
         type="meerkeuze",
@@ -195,8 +196,9 @@ DEEL1 = [
             "De groei van de uitvoer",
             "Of de invoer sneller stijgt",
             "De winst van elk bedrijf apart",
+            "Het jaar met het grootste overschot",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Met de invoer en de uitvoer van elk jaar bereken je de balans, de groei en de vergelijking tussen beide. Over de winst van een afzonderlijk bedrijf zegt zo'n tabel niets.",
     ),
     dict(
@@ -298,11 +300,11 @@ DEEL2 = [
         opties=[
             "Een invoerquotum",
             "Een importheffing",
-            "Een uitvoersubsidie",
+            "Een douaneformulier dat is afgeschaft",
             "Een akkoord dat heffingen afschaft",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Quota, heffingen, subsidies en niet-tarifaire regels storen alle vier de vrije handel. Een akkoord dat heffingen afschaft doet juist het omgekeerde.",
+        antwoord=[0, 1],
+        uitleg="Een quotum beperkt de hoeveelheid en een heffing maakt invoer duurder; beide storen de vrije handel. Een akkoord dat heffingen afschaft en papierwerk dat wegvalt doen juist het omgekeerde.",
     ),
     dict(
         type="meerkeuze",
@@ -336,8 +338,9 @@ DEEL2 = [
             "Een hogere prijs",
             "Binnenlandse producenten verkopen meer",
             "De invoer stijgt boven het quotum uit",
+            "Minder keuze voor de koper",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Het quotum snijdt een stuk van het aanbod weg, dus de prijs stijgt en de binnenlandse producenten nemen een groter deel van de markt. Boven het quotum uit mag er net niets meer binnen.",
     ),
     dict(
@@ -382,11 +385,11 @@ DEEL2 = [
         opties=[
             "Lagere invoerheffingen",
             "Dezelfde normen",
-            "Ruimere quota",
+            "Een verbod op uitvoer naar derde landen",
             "Een verbod op alle onderlinge handel",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Landen maken afspraken die handel makkelijker maken: minder heffingen, dezelfde technische normen zodat een keuring volstaat, en ruimere of afgeschafte quota.",
+        antwoord=[0, 1],
+        uitleg="Landen maken afspraken die handel makkelijker maken: lagere heffingen en dezelfde technische normen, zodat één keuring volstaat. Verboden op onderlinge handel of op uitvoer naar andere landen horen daar niet bij.",
     ),
     dict(
         type="invultekst",
@@ -400,11 +403,11 @@ DEEL2 = [
         opties=[
             "De binnenlandse producent",
             "De overheid",
-            "De arbeiders van die producent",
+            "De buitenlandse producent",
             "De koper in het eigen land",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De binnenlandse producent krijgt minder concurrentie en verkoopt meer, zijn personeel heeft daar werk aan, en de overheid haalt de heffing binnen. De koper betaalt een hogere prijs.",
+        antwoord=[0, 1],
+        uitleg="De binnenlandse producent krijgt minder concurrentie en verkoopt meer, en de overheid haalt de heffing binnen. De koper in het eigen land en de buitenlandse producent verliezen juist.",
     ),
     dict(
         type="meerkeuze",

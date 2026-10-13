@@ -73,10 +73,10 @@ DEEL1 = [
         opties=[
             "De consument kan die combinatie betalen",
             "Hij houdt er geld van zijn budget over",
-            "Hij kan met dat geld nog meer nut halen",
+            "Hij haalt er het hoogst mogelijke nut uit",
             "Die combinatie is onbereikbaar voor hem",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1],
         uitleg="Onder de lijn blijft er budget over. Zo'n punt is haalbaar maar niet optimaal: met het restje kan hij nog iets kopen en dus nog nut winnen.",
     ),
     dict(
@@ -213,8 +213,9 @@ DEEL1 = [
             "Ze toont welke combinaties onbereikbaar zijn",
             "Ze toont de ruilverhouding die de markt oplegt",
             "Ze toont welke combinatie de consument het liefst heeft",
+            "Ze toont hoeveel y je moet laten voor één x meer",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De budgetlijn zegt alleen wat kán. Wat hij het liefst heeft, lees je af uit zijn indifferentiecurven.",
     ),
 ]
@@ -270,8 +271,9 @@ DEEL2 = [
             "Het budget daalt",
             "Beide prijzen stijgen met hetzelfde percentage",
             "Alleen de prijs van goed y stijgt",
+            "Beide prijzen dalen met hetzelfde percentage",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De helling hangt alleen af van de verhouding tussen de twee prijzen. Verandert één prijs apart, dan kantelt de lijn wel.",
     ),
     dict(
@@ -328,11 +330,11 @@ DEEL2 = [
         opties=[
             "De consument koopt meer van goed x",
             "Zijn koopkracht stijgt, want zijn budget reikt verder",
-            "Zijn optimum verschuift naar een andere combinatie",
+            "Hij kan minder van goed y kopen dan voordien",
             "Zijn budget in euro stijgt mee",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een lagere prijs maakt x aantrekkelijker en maakt de consument rijker in wat hij kan kopen. Zijn budget in euro verandert daardoor niet.",
+        antwoord=[0, 1],
+        uitleg="Een lagere prijs maakt x aantrekkelijker, maakt de consument rijker in wat hij kan kopen en verschuift zijn optimum. Zijn budget in euro verandert niet, en van y kan hij er ook niet minder kopen.",
     ),
     dict(
         type="meerkeuze",
@@ -402,8 +404,9 @@ DEEL2 = [
             "De belasting op het inkomen verlagen",
             "De btw op producten verlagen",
             "Een maximumprijs instellen boven de marktprijs",
+            "Een korting op het openbaar vervoer geven",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een toelage en een lagere inkomstenbelasting vergroten het budget; een lagere btw verlaagt de prijzen. Een maximumprijs bóven de marktprijs verandert niets, want die prijs wordt toch niet gevraagd.",
     ),
     dict(
