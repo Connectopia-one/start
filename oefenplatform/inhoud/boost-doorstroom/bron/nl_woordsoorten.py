@@ -27,8 +27,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke woorden zijn lidwoorden?",
-        opties=["de", "een", "geen", "die"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "de",
+            "een",
+            "geen",
+            "die",
+            "het",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Het Nederlands heeft er drie soorten: bepaald (de, het), onbepaald (een) en ontkennend (geen). 'Die' is een aanwijzend voornaamwoord.",
     ),
     dict(
@@ -72,9 +78,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke woorden zijn voorzetsels?",
-        opties=["op", "onder", "tussen", "snel"],
-        antwoord=[0, 1, 2],
-        uitleg="'Snel' is een bijwoord: het zegt hoe iets gebeurt, niet waar iets zich bevindt.",
+        opties=[
+            "op",
+            "onder",
+            "graag",
+            "snel",
+        ],
+        antwoord=[0, 1],
+        uitleg="'Snel' en 'graag' zijn bijwoorden: ze zeggen hoe iets gebeurt, niet waar iets zich bevindt.",
     ),
     dict(
         type="meerkeuze",
@@ -140,8 +151,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke van deze woorden zijn bijwoorden?",
-        opties=["gisteren", "daar", "nauwelijks", "groen"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "gisteren",
+            "daar",
+            "nauwelijks",
+            "groen",
+            "amper",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Bijwoorden zeggen iets over tijd, plaats, mate of manier. 'Groen' hoort bij een naamwoord en is bijvoeglijk.",
     ),
     dict(
@@ -217,9 +234,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke woorden zijn persoonlijke voornaamwoorden?",
-        opties=["ik", "hem", "wij", "mijn"],
-        antwoord=[0, 1, 2],
-        uitleg="'Mijn' zegt van wie iets is en is dus bezittelijk. De andere vervangen een persoon.",
+        opties=[
+            "ik",
+            "hem",
+            "onze",
+            "mijn",
+        ],
+        antwoord=[0, 1],
+        uitleg="'Mijn' en 'onze' zeggen van wie iets is en zijn dus bezittelijk. Ik en hem vervangen een persoon.",
     ),
     dict(
         type="meerkeuze",
@@ -260,9 +282,15 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke van deze namen bestaan echt als soort voornaamwoord?",
-        opties=["wederkerend", "wederkerig", "betrekkelijk", "bijwoordelijk"],
-        antwoord=[0, 1, 2],
-        uitleg="Er zijn er acht: wederkerend, wederkerig, onbepaald, persoonlijk, bezittelijk, betrekkelijk, aanwijzend en vragend. Bijwoordelijk hoort er niet bij.",
+        opties=[
+            "wederkerend",
+            "wederkerig",
+            "betrekkelijk",
+            "bijwoordelijk",
+            "onbepaald",
+        ],
+        antwoord=[0, 1, 2, 4],
+        uitleg="Bijwoordelijk hoort er niet bij.",
     ),
     dict(
         type="waarofniet",
@@ -324,11 +352,11 @@ DEEL2 = [
         opties=[
             "Dat huis staat al jaren te koop.",
             "Deze wil ik graag hebben.",
-            "Zulke schoenen zijn veel te duur.",
+            "Welk boek lees jij?",
             "Wie belt er zo laat nog aan?",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Dat, deze en zulke wijzen aan. 'Wie' stelt een vraag en is dus vragend.",
+        antwoord=[0, 1],
+        uitleg="Dat en deze wijzen aan. 'Wie' en 'welk' stellen een vraag en zijn dus vragend.",
     ),
     dict(
         type="meerkeuze",

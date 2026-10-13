@@ -31,8 +31,9 @@ DEEL1 = [
             "voltooid verleden tijd",
             "onvoltooid toekomende tijd",
             "gebiedende toekomende tijd",
+            "voltooid tegenwoordige tijd",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Er zijn zes tijden, plus de imperatief. Een gebiedende toekomende tijd bestaat niet.",
     ),
     dict(
@@ -86,8 +87,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke van deze werkwoorden kunnen koppelwerkwoord zijn?",
-        opties=["zijn", "worden", "blijven", "lopen"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "zijn",
+            "worden",
+            "blijven",
+            "lopen",
+            "lijken",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="De koppelwerkwoorden zijn zijn, worden, blijven, blijken, lijken, schijnen, heten, dunken en voorkomen. 'Lopen' hoort er niet bij.",
     ),
     dict(
@@ -159,9 +166,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke vormen zijn voltooide deelwoorden?",
-        opties=["gewerkt", "gelopen", "gezien", "werken"],
-        antwoord=[0, 1, 2],
-        uitleg="'Werken' is de infinitief. De andere beginnen met ge- en horen bij een voltooide tijd.",
+        opties=[
+            "gewerkt",
+            "gelopen",
+            "zien",
+            "werken",
+        ],
+        antwoord=[0, 1],
+        uitleg="'Werken' en 'zien' zijn infinitieven. Gewerkt en gelopen beginnen met ge- en horen bij een voltooide tijd.",
     ),
     dict(
         type="meerkeuze",
@@ -236,8 +248,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke woorden zijn samenstellingen?",
-        opties=["tafelpoot", "voetbalveld", "regenjas", "vriendelijk"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "tafelpoot",
+            "voetbalveld",
+            "regenjas",
+            "vriendelijk",
+            "keukendeur",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="'Vriendelijk' is gevormd met het achtervoegsel -lijk en is dus een afleiding.",
     ),
     dict(
@@ -262,9 +280,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke meervouden zijn correct?",
-        opties=["kinderen", "paden", "leden", "stoelens"],
-        antwoord=[0, 1, 2],
-        uitleg="Het meervoud van stoel is stoelen. Een meervoud op -s krijgt nooit nog eens -en erbij.",
+        opties=[
+            "kinderen",
+            "paden",
+            "padens",
+            "stoelens",
+        ],
+        antwoord=[0, 1],
+        uitleg="Het meervoud van stoel is stoelen en van pad is paden. Een meervoud op -s krijgt nooit nog eens -en erbij.",
     ),
     dict(
         type="meerkeuze",
@@ -325,8 +348,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke woorden zijn afleidingen?",
-        opties=["schoonheid", "leesbaar", "ontdekken", "deurklink"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "schoonheid",
+            "leesbaar",
+            "ontdekken",
+            "deurklink",
+            "onduidelijk",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Deurklink is een samenstelling van twee echte woorden. De andere gebruiken een voor- of achtervoegsel.",
     ),
     dict(

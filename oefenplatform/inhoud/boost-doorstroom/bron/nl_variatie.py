@@ -24,11 +24,11 @@ DEEL1 = [
         opties=[
             "de ontvanger aanspreken met u",
             "volledige zinnen zonder afkortingen",
-            "een afsluiting als 'Met vriendelijke groeten'",
+            "een afsluiting als 'Tot gauw!'",
             "een rij smileys onder je naam",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Smileys horen bij informele communicatie. De andere horen bij het formele register.",
+        antwoord=[0, 1],
+        uitleg="Smileys en 'Tot gauw!' horen bij informele communicatie. U gebruiken en volledige zinnen schrijven horen bij het formele register.",
     ),
     dict(
         type="invultekst",
@@ -86,8 +86,9 @@ DEEL1 = [
             "afkortingen zoals 'ff' gebruiken",
             "emoji's in je bericht zetten",
             "beginnen met 'Geachte mevrouw'",
+            "korte, losse zinnen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="'Geachte mevrouw' is de formele aanspreking bij uitstek.",
     ),
     dict(
@@ -162,11 +163,11 @@ DEEL1 = [
         opties=[
             "weten wie die ontvanger is",
             "weten welke relatie je met hem hebt",
-            "weten via welk kanaal je schrijft",
+            "weten hoe lang je over de tekst doet",
             "weten hoeveel alinea's je zal nodig hebben",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Het aantal alinea's volgt uit je inhoud. De andere bepalen je toon.",
+        antwoord=[0, 1],
+        uitleg="Het aantal alinea's volgt uit je inhoud, en hoe lang je erover doet, verandert je toon niet. Wie je ontvanger is en welke relatie je met hem hebt, bepalen die wel, net als het kanaal.",
     ),
     dict(
         type="meerkeuze",
@@ -246,9 +247,15 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke soorten taalvariëteiten noemt de vakfiche naast de standaardtaal?",
-        opties=["nationale", "regionale", "sociale", "alfabetische"],
-        antwoord=[0, 1, 2],
-        uitleg="De fiche noemt nationale, regionale, sociale en situationele variëteiten. Alfabetisch bestaat niet als variëteit.",
+        opties=[
+            "nationale",
+            "regionale",
+            "sociale",
+            "alfabetische",
+            "situationele",
+        ],
+        antwoord=[0, 1, 2, 4],
+        uitleg="Alfabetisch bestaat niet als variëteit.",
     ),
     dict(
         type="meerkeuze",
@@ -284,9 +291,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Wat hoort bij de non-verbale communicatie?",
-        opties=["lichaamstaal", "oogcontact", "intonatie en tempo", "spelling"],
-        antwoord=[0, 1, 2],
-        uitleg="Spelling is verbaal, en dan nog schriftelijk. De andere zijn alles wat je overbrengt zonder woorden.",
+        opties=[
+            "lichaamstaal",
+            "oogcontact",
+            "interpunctie",
+            "spelling",
+        ],
+        antwoord=[0, 1],
+        uitleg="Spelling en interpunctie zijn verbaal, en dan nog schriftelijk. Lichaamstaal en oogcontact brengen wel iets over zonder woorden.",
     ),
     dict(
         type="waarofniet",
@@ -345,9 +357,10 @@ DEEL2 = [
             "houding en afstand",
             "tempo en volume van het spreken",
             "het rijmschema van de zinnen",
+            "kleding en uiterlijk",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De fiche noemt ook kleding en uiterlijk, en voor schriftelijke communicatie zelfs emoji's.",
+        antwoord=[0, 1, 2, 4],
+        uitleg="Een rijmschema hoort bij poëzie. De fiche noemt voor schriftelijke communicatie zelfs emoji's.",
     ),
     dict(
         type="meerkeuze",

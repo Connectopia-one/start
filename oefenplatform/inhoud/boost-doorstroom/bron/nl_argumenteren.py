@@ -53,11 +53,11 @@ DEEL1 = [
         opties=[
             "Die nieuwe brug is lelijk.",
             "Volgens mij komt het niet goed.",
-            "Het is schandalig dat dit mag.",
+            "De brug is in 2019 geopend.",
             "De brug is honderd meter lang.",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De laatste zin geeft een meetbaar gegeven. De andere bevatten een oordeel of een waardewoord.",
+        antwoord=[0, 1],
+        uitleg="Een lengte en een openingsjaar zijn meetbare gegevens. De andere zinnen bevatten een oordeel of een waardewoord.",
     ),
     dict(
         type="meerkeuze",
@@ -121,8 +121,9 @@ DEEL1 = [
             "argumenten die de stelling steunen",
             "een weerlegging van tegenargumenten",
             "een regelmatig rijmschema",
+            "een conclusie die uit de argumenten volgt",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een rijmschema hoort bij poëzie. De andere elementen maken samen een betoog.",
     ),
     dict(
@@ -176,8 +177,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke woorden verraden meestal dat er een mening volgt?",
-        opties=["volgens mij", "prachtig", "zou moeten", "in 2024"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "volgens mij",
+            "prachtig",
+            "zou moeten",
+            "in 2024",
+            "het is onaanvaardbaar dat",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een jaartal is een gegeven. De andere kondigen een oordeel of een wens aan.",
     ),
     dict(
@@ -243,11 +250,11 @@ DEEL2 = [
         opties=[
             "argumentatie op basis van vergelijking",
             "argumentatie op basis van oorzaak en gevolg",
-            "argumentatie op basis van een autoriteit",
+            "argumentatie op basis van een rijmwoord",
             "argumentatie op basis van alliteratie",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Alliteratie is een stijlfiguur uit de poëzie. De fiche noemt ook nog onderzoek en cijfers als basis.",
+        antwoord=[0, 1],
+        uitleg="Alliteratie en rijm zijn stijlfiguren uit de poëzie, geen argumenten. De fiche noemt naast vergelijking en oorzaak-gevolg ook een autoriteit, onderzoek en cijfers.",
     ),
     dict(
         type="meerkeuze",
@@ -305,8 +312,9 @@ DEEL2 = [
             "twee uitersten voorstellen alsof er niets tussen ligt",
             "de stelling herhalen als argument voor zichzelf",
             "een gevolg afleiden uit een aangetoonde oorzaak",
+            "beweren dat iets waar is omdat iedereen het zegt",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De laatste is een gewone, geldige oorzaak-gevolgredenering, zolang het verband echt aangetoond is.",
     ),
     dict(
@@ -369,11 +377,11 @@ DEEL2 = [
         opties=[
             "je noemt erbij waar je gegeven vandaan komt",
             "je maakt je cijfers controleerbaar",
-            "je weerlegt het sterkste tegenargument",
+            "je herhaalt je stelling een paar keer",
             "je zet je tekst in een groter lettertype",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Het lettertype verandert niets aan de redenering. De andere maken je argument navolgbaar.",
+        antwoord=[0, 1],
+        uitleg="Het lettertype en herhaling veranderen niets aan de redenering. Je bron noemen, je cijfers controleerbaar maken en het sterkste tegenargument weerleggen maken je argument wel navolgbaar.",
     ),
     dict(
         type="meerkeuze",

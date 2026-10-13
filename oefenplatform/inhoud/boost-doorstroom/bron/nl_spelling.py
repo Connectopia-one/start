@@ -26,9 +26,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="In welke woorden verandert het woordbeeld als je er een meervoud van maakt?",
-        opties=["huis", "brief", "graf", "boek"],
-        antwoord=[0, 1, 2],
-        uitleg="Huizen, brieven, graven. Bij boeken blijft de k gewoon staan.",
+        opties=[
+            "huis",
+            "brief",
+            "raam",
+            "boek",
+        ],
+        antwoord=[0, 1],
+        uitleg="Huizen, brieven: de s wordt een z en de f een v. Bij boeken en ramen verandert er niets.",
     ),
     dict(
         type="invultekst",
@@ -81,8 +86,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="In welke woorden staat terecht een trema?",
-        opties=["ruïne", "reünie", "zeeën", "zee-eend"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "ruïne",
+            "reünie",
+            "zeeën",
+            "zee-eend",
+            "coördinatie",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Binnen één woorddeel gebruik je een trema. Tussen twee delen van een samenstelling een koppelteken.",
     ),
     dict(
@@ -149,9 +160,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke woorden krijgen een hoofdletter?",
-        opties=["Nederlands", "België", "Kerstmis", "woensdag"],
-        antwoord=[0, 1, 2],
-        uitleg="Talen, landen en feestdagen wel; dagen van de week niet.",
+        opties=[
+            "Nederlands",
+            "België",
+            "zondag",
+            "woensdag",
+        ],
+        antwoord=[0, 1],
+        uitleg="Talen en landen krijgen een hoofdletter, dagen van de week niet.",
     ),
     dict(
         type="meerkeuze",

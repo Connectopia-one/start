@@ -54,11 +54,11 @@ DEEL1 = [
         opties=[
             "de titel en de tussentitels",
             "de vetgedrukte woorden",
-            "de foto of de grafiek erbij",
+            "het lettertype van de voetnoten",
             "de marge rond de bladspiegel",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Titel, tussentitels, benadrukte woorden en beeldmateriaal sturen je lezen. De breedte van de marge zegt niets over de inhoud.",
+        antwoord=[0, 1],
+        uitleg="Titel, tussentitels, benadrukte woorden en beeldmateriaal sturen je lezen. De breedte van de marge en het lettertype van een voetnoot zeggen niets over de inhoud.",
     ),
     dict(
         type="meerkeuze",
@@ -112,8 +112,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="In welke vormen kan je notities ordenen?",
-        opties=["in een schema", "in een tabel", "in een mindmap", "in een rijmschema"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "in een schema",
+            "in een tabel",
+            "in een mindmap",
+            "in een rijmschema",
+            "in een tijdlijn",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een rijmschema beschrijft hoe de rijmklanken in een gedicht lopen. Dat is geen manier om notities te ordenen.",
     ),
     dict(
@@ -170,11 +176,11 @@ DEEL1 = [
         opties=[
             "de indeling in alinea's",
             "het gebruik van tussentitels",
-            "de witruimte op de bladzijde",
+            "de kernboodschap in de laatste alinea",
             "de hoofdgedachte van de tekst",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Lay-out gaat over hoe de tekst eruitziet. De hoofdgedachte is inhoud, geen vormgeving.",
+        antwoord=[0, 1],
+        uitleg="Lay-out gaat over hoe de tekst eruitziet: alinea's, tussentitels en witruimte. De hoofdgedachte en de kernboodschap zijn inhoud, geen vormgeving.",
     ),
     dict(
         type="meerkeuze",
@@ -236,8 +242,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke woorden kondigen een tegenstelling aan?",
-        opties=["maar", "daarentegen", "echter", "bovendien"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "maar",
+            "daarentegen",
+            "echter",
+            "bovendien",
+            "toch",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="'Bovendien' voegt iets toe in dezelfde richting. De andere draaien de richting om.",
     ),
     dict(
@@ -276,9 +288,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke woorden kondigen een samenvatting of een besluit aan?",
-        opties=["kortom", "samengevat", "al met al", "bovendien"],
-        antwoord=[0, 1, 2],
-        uitleg="'Bovendien' voegt nog een argument toe. De andere sluiten de reeks af.",
+        opties=[
+            "kortom",
+            "samengevat",
+            "daarom",
+            "bovendien",
+        ],
+        antwoord=[0, 1],
+        uitleg="'Bovendien' voegt nog een argument toe en 'daarom' kondigt een gevolg aan. 'Kortom' en 'samengevat' sluiten de reeks af, net als 'al met al'.",
     ),
     dict(
         type="waarofniet",
@@ -332,8 +349,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke van deze woorden zijn verwijswoorden?",
-        opties=["deze", "hun", "die", "hoewel"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "deze",
+            "hun",
+            "die",
+            "hoewel",
+            "zij",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="'Hoewel' is een signaalwoord: het legt een verband. De andere wijzen naar iets in de tekst.",
     ),
     dict(

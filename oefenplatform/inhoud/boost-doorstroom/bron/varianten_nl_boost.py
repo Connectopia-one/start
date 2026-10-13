@@ -34,14 +34,14 @@ HOOFDSTUKKEN = {
         ],
         "Welke woorden zijn lidwoorden?": [
             {
-                "opties": ["het", "een", "geen", "deze"],
-                "antwoord": [0, 1, 2],
+                "opties": ["het", "een", "geen", "deze", "de"],
+                "antwoord": [0, 1, 2, 4],
                 "uitleg": "Het Nederlands heeft er drie soorten: bepaald (de, het), onbepaald (een) en ontkennend (geen). 'Deze' is een aanwijzend voornaamwoord.",
             },
             {
-                "opties": ["de", "het", "geen", "dat"],
-                "antwoord": [0, 1, 2],
-                "uitleg": "De en het zijn bepaald, geen is ontkennend. 'Dat' wijst iets aan en is dus een aanwijzend voornaamwoord.",
+                "opties": ["de", "het", "die", "dat"],
+                "antwoord": [0, 1],
+                "uitleg": "De en het zijn bepaalde lidwoorden. 'Dat' en 'die' wijzen iets aan en zijn dus aanwijzende voornaamwoorden.",
             },
             {
                 "opties": ["een", "het", "geen", "zulke"],
@@ -101,14 +101,14 @@ HOOFDSTUKKEN = {
         ],
         "Welke woorden zijn voorzetsels?": [
             {
-                "opties": ["in", "naast", "achter", "graag"],
-                "antwoord": [0, 1, 2],
+                "opties": ["in", "naast", "achter", "graag", "onder"],
+                "antwoord": [0, 1, 2, 4],
                 "uitleg": "'Graag' is een bijwoord: het zegt hoe iets gebeurt, niet waar iets zich bevindt.",
             },
             {
-                "opties": ["door", "tegen", "boven", "vaak"],
-                "antwoord": [0, 1, 2],
-                "uitleg": "'Vaak' is een bijwoord van tijd. Een voorzetsel geeft een verhouding aan in plaats, tijd of richting.",
+                "opties": ["door", "tegen", "snel", "vaak"],
+                "antwoord": [0, 1],
+                "uitleg": "'Vaak' en 'snel' zijn bijwoorden: ze zeggen wanneer of hoe iets gebeurt. Een voorzetsel geeft een verhouding aan in plaats, tijd of richting, zoals door en tegen.",
             },
             {
                 "opties": ["voor", "achter", "naast", "traag"],
@@ -160,14 +160,14 @@ HOOFDSTUKKEN = {
         ],
         "Welke van deze woorden zijn bijwoorden?": [
             {
-                "opties": ["straks", "hier", "nauwelijks", "rood"],
-                "antwoord": [0, 1, 2],
+                "opties": ["straks", "hier", "nauwelijks", "rood", "graag"],
+                "antwoord": [0, 1, 2, 4],
                 "uitleg": "Bijwoorden zeggen iets over tijd, plaats, mate of manier. 'Rood' hoort bij een naamwoord en is bijvoeglijk.",
             },
             {
-                "opties": ["morgen", "ginder", "amper", "blauw"],
-                "antwoord": [0, 1, 2],
-                "uitleg": "Bijwoorden zeggen iets over tijd, plaats, mate of manier. 'Blauw' hoort bij een naamwoord en is bijvoeglijk.",
+                "opties": ["morgen", "ginder", "groen", "blauw"],
+                "antwoord": [0, 1],
+                "uitleg": "Bijwoorden zeggen iets over tijd, plaats, mate of manier. 'Blauw' en 'groen' horen bij een naamwoord en zijn bijvoeglijk.",
             },
             {
                 "opties": ["vaak", "overal", "erg", "geel"],
@@ -266,19 +266,19 @@ HOOFDSTUKKEN = {
         ],
         "Welke woorden zijn persoonlijke voornaamwoorden?": [
             {
-                "opties": ["jij", "hem", "zij", "jouw"],
-                "antwoord": [0, 1, 2],
-                "uitleg": "'Jouw' zegt van wie iets is en is dus bezittelijk. De drie andere vervangen een persoon.",
+                "opties": ["jij", "hem", "zij", "jouw", "wij"],
+                "antwoord": [0, 1, 2, 4],
+                "uitleg": "'Jouw' zegt van wie iets is en is dus bezittelijk. De andere vervangen een persoon.",
             },
             {
-                "opties": ["wij", "hen", "u", "onze"],
-                "antwoord": [0, 1, 2],
-                "uitleg": "'Onze' zegt van wie iets is en is dus bezittelijk. De drie andere vervangen een persoon.",
+                "opties": ["wij", "hen", "uw", "onze"],
+                "antwoord": [0, 1],
+                "uitleg": "'Onze' en 'uw' zeggen van wie iets is en zijn dus bezittelijk. Wij en hen vervangen een persoon.",
             },
             {
                 "opties": ["ik", "mij", "hij", "mijn"],
                 "antwoord": [0, 1, 2],
-                "uitleg": "'Mijn' zegt van wie iets is en is dus bezittelijk. De drie andere vervangen een persoon.",
+                "uitleg": "'Mijn' zegt van wie iets is en is dus bezittelijk. De andere vervangen een persoon.",
             },
         ],
         "In 'Het boek dat ik gisteren las, was spannend', wat is 'dat'?": [
@@ -368,24 +368,14 @@ HOOFDSTUKKEN = {
         ],
         "In welke zinnen staat een aanwijzend voornaamwoord?": [
             {
-                "opties": [
-                    "Dit boek lees ik al een week.",
-                    "Die daar wil ik graag hebben.",
-                    "Zulke verhalen geloof ik niet.",
-                    "Wat doe jij hier zo laat?",
-                ],
-                "antwoord": [0, 1, 2],
+                "opties": ["Dit boek lees ik al een week.", "Die daar wil ik graag hebben.", "Zulke verhalen geloof ik niet.", "Wat doe jij hier zo laat?", "Deze twee neem ik mee."],
+                "antwoord": [0, 1, 2, 4],
                 "uitleg": "Dit, die en zulke wijzen aan. 'Wat' stelt een vraag en is dus vragend.",
             },
             {
-                "opties": [
-                    "Dat gebouw staat er al eeuwen.",
-                    "Deze neem ik mee naar huis.",
-                    "Zulke dagen vergeet je niet.",
-                    "Welke wil jij hebben?",
-                ],
-                "antwoord": [0, 1, 2],
-                "uitleg": "Dat, deze en zulke wijzen aan. 'Welke' stelt een vraag en is dus vragend.",
+                "opties": ["Dat gebouw staat er al eeuwen.", "Deze neem ik mee naar huis.", "Wiens jas is dit?", "Welke wil jij hebben?"],
+                "antwoord": [0, 1],
+                "uitleg": "'Welke' en 'wiens' zijn vragende voornaamwoorden. 'Dat' en 'deze' wijzen wel iets aan.",
             },
             {
                 "opties": [
@@ -528,19 +518,19 @@ HOOFDSTUKKEN = {
         ],
         "Welke vormen zijn voltooide deelwoorden?": [
             {
-                "opties": ["gehoord", "gezongen", "gevonden", "horen"],
-                "antwoord": [0, 1, 2],
-                "uitleg": "'Horen' is de infinitief. De drie andere beginnen met ge- en horen bij een voltooide tijd.",
+                "opties": ["gehoord", "gezongen", "gevonden", "horen", "gelopen"],
+                "antwoord": [0, 1, 2, 4],
+                "uitleg": "'Horen' is de infinitief. De andere beginnen met ge- en horen bij een voltooide tijd.",
             },
             {
-                "opties": ["gebeld", "geschreven", "gedronken", "bellen"],
-                "antwoord": [0, 1, 2],
-                "uitleg": "'Bellen' is de infinitief. De drie andere beginnen met ge- en horen bij een voltooide tijd.",
+                "opties": ["gebeld", "geschreven", "schrijven", "bellen"],
+                "antwoord": [0, 1],
+                "uitleg": "'Bellen' en 'schrijven' zijn infinitieven, de vorm uit het woordenboek. Een voltooid deelwoord gebruik je met hebben of zijn: ik heb gebeld, ik heb geschreven.",
             },
             {
                 "opties": ["gemaakt", "gekregen", "geweest", "maken"],
                 "antwoord": [0, 1, 2],
-                "uitleg": "'Maken' is de infinitief. De drie andere beginnen met ge- en horen bij een voltooide tijd.",
+                "uitleg": "'Maken' is de infinitief. De andere beginnen met ge- en horen bij een voltooide tijd.",
             },
         ],
         "Welke zin is correct gespeld?": [
@@ -664,14 +654,14 @@ HOOFDSTUKKEN = {
         ],
         "Welke woorden zijn samenstellingen?": [
             {
-                "opties": ["schoolbord", "deurklink", "raamkozijn", "leesbaar"],
-                "antwoord": [0, 1, 2],
+                "opties": ["schoolbord", "deurklink", "raamkozijn", "leesbaar", "tuinpad"],
+                "antwoord": [0, 1, 2, 4],
                 "uitleg": "'Leesbaar' is gevormd met het achtervoegsel -baar en is dus een afleiding.",
             },
             {
-                "opties": ["boekenkast", "pannenkoek", "fietspad", "schoonheid"],
-                "antwoord": [0, 1, 2],
-                "uitleg": "'Schoonheid' is gevormd met het achtervoegsel -heid en is dus een afleiding.",
+                "opties": ["boekenkast", "pannenkoek", "vriendelijk", "schoonheid"],
+                "antwoord": [0, 1],
+                "uitleg": "'Schoonheid' en 'vriendelijk' zijn afleidingen: daar hangt een stukje aan een woord dat zelf geen woord is. Een samenstelling plakt twee hele woorden aan elkaar, zoals boekenkast en pannenkoek.",
             },
             {
                 "opties": ["tandarts", "keukentafel", "krantenwinkel", "onmogelijk"],
@@ -712,14 +702,14 @@ HOOFDSTUKKEN = {
         ],
         "Welke meervouden zijn correct?": [
             {
-                "opties": ["schepen", "steden", "eieren", "tafelens"],
-                "antwoord": [0, 1, 2],
+                "opties": ["schepen", "steden", "eieren", "tafelens", "kinderen"],
+                "antwoord": [0, 1, 2, 4],
                 "uitleg": "Het meervoud van tafel is tafels. Een meervoud krijgt nooit twee uitgangen tegelijk.",
             },
             {
-                "opties": ["musea", "koeien", "bladeren", "ramens"],
-                "antwoord": [0, 1, 2],
-                "uitleg": "Het meervoud van raam is ramen. Een meervoud krijgt nooit twee uitgangen tegelijk.",
+                "opties": ["musea", "koeien", "eiers", "ramens"],
+                "antwoord": [0, 1],
+                "uitleg": "'Ramens' en 'eiers' bestaan niet: het is ramen en eieren. Musea en koeien zijn wel juist.",
             },
             {
                 "opties": ["runderen", "kalveren", "liederen", "deurens"],
@@ -760,19 +750,19 @@ HOOFDSTUKKEN = {
         ],
         "Welke woorden zijn afleidingen?": [
             {
-                "opties": ["vriendelijk", "onmogelijk", "verdwalen", "tafelpoot"],
-                "antwoord": [0, 1, 2],
-                "uitleg": "Tafelpoot is een samenstelling van twee echte woorden. De drie andere gebruiken een voor- of achtervoegsel.",
+                "opties": ["vriendelijk", "onmogelijk", "verdwalen", "tafelpoot", "schoonheid"],
+                "antwoord": [0, 1, 2, 4],
+                "uitleg": "Tafelpoot is een samenstelling van twee echte woorden. De andere gebruiken een voor- of achtervoegsel.",
             },
             {
-                "opties": ["bruikbaar", "onduidelijk", "herlezen", "schoolbord"],
-                "antwoord": [0, 1, 2],
-                "uitleg": "Schoolbord is een samenstelling van twee echte woorden. De drie andere gebruiken een voor- of achtervoegsel.",
+                "opties": ["bruikbaar", "onduidelijk", "deurklink", "schoolbord"],
+                "antwoord": [0, 1],
+                "uitleg": "'Schoolbord' en 'deurklink' zijn samenstellingen: twee hele woorden aan elkaar. Een afleiding hangt een voor- of achtervoegsel aan een woord, zoals bruikbaar en onduidelijk.",
             },
             {
                 "opties": ["duidelijkheid", "bespreken", "ongeduldig", "fietspad"],
                 "antwoord": [0, 1, 2],
-                "uitleg": "Fietspad is een samenstelling van twee echte woorden. De drie andere gebruiken een voor- of achtervoegsel.",
+                "uitleg": "Fietspad is een samenstelling van twee echte woorden. De andere gebruiken een voor- of achtervoegsel.",
             },
         ],
         "Wat is het meervoud van 'lid'?": [
@@ -969,21 +959,21 @@ HOOFDSTUKKEN = {
         "Welke woordgroepen zijn bijwoordelijke bepalingen in 'Morgen ga ik met de fiets naar de markt'?": [
             {
                 "vraag": "Welke woordgroepen zijn bijwoordelijke bepalingen in 'Straks rijdt hij met de auto naar het station'?",
-                "opties": ["straks", "met de auto", "naar het station", "hij"],
-                "antwoord": [0, 1, 2],
-                "uitleg": "'Hij' is het onderwerp. De drie andere zeggen wanneer, hoe en waarheen.",
+                "opties": ["straks", "met de auto", "naar het station", "hij", "heel snel"],
+                "antwoord": [0, 1, 2, 4],
+                "uitleg": "'Hij' is het onderwerp. De andere zeggen wanneer, hoe en waarheen.",
             },
             {
                 "vraag": "Welke woordgroepen zijn bijwoordelijke bepalingen in 'Vanavond loop ik met mijn hond door het park'?",
-                "opties": ["vanavond", "met mijn hond", "door het park", "ik"],
-                "antwoord": [0, 1, 2],
-                "uitleg": "'Ik' is het onderwerp. De drie andere zeggen wanneer, hoe en waarheen.",
+                "opties": ["vanavond", "met mijn hond", "mijn zus", "ik"],
+                "antwoord": [0, 1],
+                "uitleg": "'Ik' en 'mijn zus' zijn onderwerp of lijdend voorwerp, geen bijwoordelijke bepaling. Vanavond en met mijn hond zeggen wel wanneer en hoe.",
             },
             {
                 "vraag": "Welke woordgroepen zijn bijwoordelijke bepalingen in 'Morgen vertrekken wij met de trein naar zee'?",
                 "opties": ["morgen", "met de trein", "naar zee", "wij"],
                 "antwoord": [0, 1, 2],
-                "uitleg": "'Wij' is het onderwerp. De drie andere zeggen wanneer, hoe en waarheen.",
+                "uitleg": "'Wij' is het onderwerp. De andere zeggen wanneer, hoe en waarheen.",
             },
         ],
         "In 'De hond van de buren blaft de hele nacht', wat is het onderwerp?": [
@@ -1077,14 +1067,14 @@ HOOFDSTUKKEN = {
         ],
         "Welke woorden zijn nevenschikkende voegwoorden?": [
             {
-                "opties": ["en", "of", "dus", "hoewel"],
-                "antwoord": [0, 1, 2],
+                "opties": ["en", "of", "dus", "hoewel", "maar"],
+                "antwoord": [0, 1, 2, 4],
                 "uitleg": "'Hoewel' is onderschikkend. Een geheugensteun voor de nevenschikkende: en, maar, of, want, dus.",
             },
             {
-                "opties": ["maar", "of", "want", "als"],
-                "antwoord": [0, 1, 2],
-                "uitleg": "'Als' is onderschikkend. Een geheugensteun voor de nevenschikkende: en, maar, of, want, dus.",
+                "opties": ["maar", "of", "omdat", "als"],
+                "antwoord": [0, 1],
+                "uitleg": "'Als' en 'omdat' zijn onderschikkend: ze maken een bijzin. Maar en of verbinden twee gelijkwaardige delen.",
             },
             {
                 "opties": ["en", "want", "dus", "dat"],
@@ -1151,24 +1141,14 @@ HOOFDSTUKKEN = {
         ],
         "Welke van deze zinnen zijn samengesteld?": [
             {
-                "opties": [
-                    "Hij kwam te laat omdat de trein vertraging had.",
-                    "Zij belde aan en ik deed open.",
-                    "Toen de film begon, was de zaal vol.",
-                    "De fiets van mijn zus staat buiten.",
-                ],
-                "antwoord": [0, 1, 2],
+                "opties": ["Hij kwam te laat omdat de trein vertraging had.", "Zij belde aan en ik deed open.", "Toen de film begon, was de zaal vol.", "De fiets van mijn zus staat buiten.", "Ik weet niet of hij komt."],
+                "antwoord": [0, 1, 2, 4],
                 "uitleg": "De juiste antwoorden hebben twee persoonsvormen. Het foute antwoord heeft er maar één en is dus enkelvoudig.",
             },
             {
-                "opties": [
-                    "Wij wachten tot iedereen er is.",
-                    "Hij zwijgt maar zij praat door.",
-                    "Hoewel het goot, gingen we buiten spelen.",
-                    "Het boek van de bibliotheek ligt op tafel.",
-                ],
-                "antwoord": [0, 1, 2],
-                "uitleg": "De juiste antwoorden hebben twee persoonsvormen. Het foute antwoord heeft er maar één en is dus enkelvoudig.",
+                "opties": ["Wij wachten tot iedereen er is.", "Hij zwijgt maar zij praat door.", "De hond van de buren blaft de hele dag.", "Het boek van de bibliotheek ligt op tafel."],
+                "antwoord": [0, 1],
+                "uitleg": "Een samengestelde zin heeft meer dan één persoonsvorm. In de zin over het boek van de bibliotheek en in die over de hond van de buren staat er maar één.",
             },
             {
                 "opties": [
@@ -1204,14 +1184,14 @@ HOOFDSTUKKEN = {
     "Spelling, leestekens en klanken — deel 1": {
         "In welke woorden verandert het woordbeeld als je er een meervoud van maakt?": [
             {
-                "opties": ["muis", "duif", "wolf", "stoel"],
-                "antwoord": [0, 1, 2],
+                "opties": ["muis", "duif", "wolf", "stoel", "huis"],
+                "antwoord": [0, 1, 2, 4],
                 "uitleg": "Muizen, duiven, wolven. Bij stoelen blijft de l gewoon staan.",
             },
             {
-                "opties": ["hoes", "neef", "druif", "fiets"],
-                "antwoord": [0, 1, 2],
-                "uitleg": "Hoezen, neven, druiven. Bij fietsen blijft de s gewoon staan.",
+                "opties": ["hoes", "neef", "boek", "fiets"],
+                "antwoord": [0, 1],
+                "uitleg": "Bij hoes en neef wordt de s een z en de f een v: hoezen, neven. Bij fiets en boek verandert er niets: fietsen, boeken.",
             },
             {
                 "opties": ["gans", "wolf", "graf", "deur"],
@@ -1318,14 +1298,14 @@ HOOFDSTUKKEN = {
         ],
         "In welke woorden staat terecht een trema?": [
             {
-                "opties": ["knieën", "geëerd", "coördinatie", "na-apen"],
-                "antwoord": [0, 1, 2],
+                "opties": ["knieën", "geëerd", "coördinatie", "na-apen", "vacuüm"],
+                "antwoord": [0, 1, 2, 4],
                 "uitleg": "Binnen één woorddeel gebruik je een trema. Tussen twee delen van een samenstelling een koppelteken.",
             },
             {
-                "opties": ["ideeën", "beëindigen", "ruïne", "auto-ongeval"],
-                "antwoord": [0, 1, 2],
-                "uitleg": "Binnen één woorddeel gebruik je een trema. Tussen twee delen van een samenstelling een koppelteken.",
+                "opties": ["ideeën", "beëindigen", "zee-egel", "auto-ongeval"],
+                "antwoord": [0, 1],
+                "uitleg": "Bij auto-ongeval en zee-egel komt er een streepje, geen trema: dat gebruik je in samenstellingen. Binnen één woord schrijf je wel een trema, zoals in ideeën en beëindigen.",
             },
             {
                 "opties": ["zeeën", "reünie", "geïnteresseerd", "zo-even"],
@@ -1392,14 +1372,14 @@ HOOFDSTUKKEN = {
         ],
         "Welke woorden krijgen een hoofdletter?": [
             {
-                "opties": ["Frans", "Frankrijk", "Pasen", "januari"],
-                "antwoord": [0, 1, 2],
+                "opties": ["Frans", "Frankrijk", "Pasen", "januari", "Kerstmis"],
+                "antwoord": [0, 1, 2, 4],
                 "uitleg": "Talen, landen en feestdagen wel; maanden niet.",
             },
             {
-                "opties": ["Duits", "Italië", "Nieuwjaar", "maandag"],
-                "antwoord": [0, 1, 2],
-                "uitleg": "Talen, landen en feestdagen wel; dagen van de week niet.",
+                "opties": ["Duits", "Italië", "dinsdag", "maandag"],
+                "antwoord": [0, 1],
+                "uitleg": "Weekdagen schrijf je in het Nederlands klein, anders dan in het Engels. Talen en landen krijgen wel een hoofdletter.",
             },
             {
                 "opties": ["Engels", "Spanje", "Pinksteren", "augustus"],
@@ -1428,14 +1408,14 @@ HOOFDSTUKKEN = {
     "Spelling, leestekens en klanken — deel 2": {
         "Welke van deze tekens zijn interpunctietekens?": [
             {
-                "opties": ["de komma", "de dubbele punt", "het vraagteken", "het trema"],
-                "antwoord": [0, 1, 2],
+                "opties": ["de komma", "de dubbele punt", "het vraagteken", "het trema", "de punt"],
+                "antwoord": [0, 1, 2, 4],
                 "uitleg": "Een trema is een uitspraakteken, geen leesteken. Die twee horen in aparte lijstjes.",
             },
             {
-                "opties": ["de punt", "de puntkomma", "het uitroepteken", "het accentteken"],
-                "antwoord": [0, 1, 2],
-                "uitleg": "Een accentteken is een uitspraakteken, geen leesteken. Die twee horen in aparte lijstjes.",
+                "opties": ["de punt", "het trema", "het uitroepteken", "het accentteken"],
+                "antwoord": [0, 2],
+                "uitleg": "Het accentteken en het trema staan op een letter en horen bij de spelling, niet bij de interpunctie. De punt en het uitroepteken sluiten wel een zin af.",
             },
             {
                 "opties": ["het aanhalingsteken", "de komma", "het gedachtestreepje", "het trema"],
@@ -1485,14 +1465,14 @@ HOOFDSTUKKEN = {
         ],
         "Welke van deze letters zijn klinkers?": [
             {
-                "opties": ["a", "i", "o", "m"],
-                "antwoord": [0, 1, 2],
+                "opties": ["a", "i", "o", "m", "e"],
+                "antwoord": [0, 1, 2, 4],
                 "uitleg": "Het Nederlands heeft zes klinkerletters: a, e, i, o, u en y. Alle andere zijn medeklinkers.",
             },
             {
-                "opties": ["e", "o", "y", "k"],
-                "antwoord": [0, 1, 2],
-                "uitleg": "Het Nederlands heeft zes klinkerletters: a, e, i, o, u en y. Alle andere zijn medeklinkers.",
+                "opties": ["s", "o", "y", "k"],
+                "antwoord": [1, 2],
+                "uitleg": "O en y zijn klinkers. De k en de s zijn consonanten.",
             },
             {
                 "opties": ["i", "u", "y", "t"],
@@ -1570,24 +1550,14 @@ HOOFDSTUKKEN = {
         ],
         "Waarvoor kan je een dubbele punt gebruiken?": [
             {
-                "opties": [
-                    "een lijstje aankondigen",
-                    "een uitleg inleiden",
-                    "de woorden van iemand aankondigen",
-                    "een vraag stellen",
-                ],
-                "antwoord": [0, 1, 2],
+                "opties": ["een lijstje aankondigen", "een uitleg inleiden", "de woorden van iemand aankondigen", "een vraag stellen", "een conclusie aankondigen"],
+                "antwoord": [0, 1, 2, 4],
                 "uitleg": "Vragen doet een vraagteken. De dubbele punt kondigt aan wat er volgt.",
             },
             {
-                "opties": [
-                    "een opsomming aankondigen",
-                    "een reden inleiden",
-                    "een letterlijk citaat aankondigen",
-                    "een tussenzin afbakenen",
-                ],
-                "antwoord": [0, 1, 2],
-                "uitleg": "Een tussenzin baken je af met komma's, haakjes of gedachtestreepjes.",
+                "opties": ["een opsomming aankondigen", "een woord in tweeën splitsen", "een letterlijk citaat aankondigen", "een tussenzin afbakenen"],
+                "antwoord": [0, 2],
+                "uitleg": "Een tussenzin afbakenen doe je met komma's of gedachtestreepjes, en een woord splitsen met een afbreekstreepje. Een dubbele punt kondigt een opsomming, een uitleg of een citaat aan.",
             },
             {
                 "opties": [

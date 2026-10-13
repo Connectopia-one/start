@@ -51,9 +51,10 @@ DEEL1 = [
             "meewerkend voorwerp",
             "voorzetselvoorwerp",
             "rijmend voorwerp",
+            "handelend voorwerp",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Daarnaast bestaan ook het handelend voorwerp en de bijwoordelijke bepaling. Een rijmend voorwerp bestaat niet.",
+        antwoord=[0, 1, 2, 4],
+        uitleg="Daarnaast bestaat ook de bijwoordelijke bepaling. Een rijmend voorwerp bestaat niet.",
     ),
     dict(
         type="meerkeuze",
@@ -155,9 +156,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke woordgroepen zijn bijwoordelijke bepalingen in 'Morgen ga ik met de fiets naar de markt'?",
-        opties=["morgen", "met de fiets", "naar de markt", "ik"],
-        antwoord=[0, 1, 2],
-        uitleg="'Ik' is het onderwerp. De andere zeggen wanneer, hoe en waarheen.",
+        opties=[
+            "morgen",
+            "ga",
+            "naar de markt",
+            "ik",
+        ],
+        antwoord=[0, 2],
+        uitleg="'Ik' is het onderwerp en 'ga' de persoonsvorm. Morgen en naar de markt zeggen wanneer en waarheen.",
     ),
     dict(
         type="meerkeuze",
@@ -237,9 +243,15 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke van deze zinssoorten bestaan?",
-        opties=["mededelende", "bevelende", "uitroepende", "rijmende"],
-        antwoord=[0, 1, 2],
-        uitleg="Daarnaast bestaan ook vragende zinnen, en het onderscheid bevestigend of ontkennend. Rijmende zinnen zijn geen zinssoort.",
+        opties=[
+            "mededelende",
+            "bevelende",
+            "uitroepende",
+            "rijmende",
+            "vragende",
+        ],
+        antwoord=[0, 1, 2, 4],
+        uitleg="Daarnaast bestaat nog het onderscheid tussen bevestigend en ontkennend. Rijmende zinnen zijn geen zinssoort.",
     ),
     dict(
         type="meerkeuze",
@@ -280,8 +292,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke woorden zijn nevenschikkende voegwoorden?",
-        opties=["en", "maar", "want", "omdat"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "en",
+            "maar",
+            "want",
+            "omdat",
+            "dus",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="'Omdat' is onderschikkend. Een geheugensteun voor de nevenschikkende: en, maar, of, want, dus.",
     ),
     dict(
@@ -344,11 +362,11 @@ DEEL2 = [
         opties=[
             "Ik blijf thuis omdat het regent.",
             "Hij belde aan en zij deed open.",
-            "Toen ik binnenkwam, was iedereen al weg.",
+            "Het boek op de tafel is van mij.",
             "De hond van de buren blaft de hele nacht.",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De juiste antwoorden hebben twee persoonsvormen. Het foute antwoord heeft er maar één en is dus enkelvoudig.",
+        antwoord=[0, 1],
+        uitleg="Een samengestelde zin heeft meer dan één persoonsvorm. De zin over de hond van de buren en die over het boek op de tafel hebben er maar één en zijn dus enkelvoudig.",
     ),
     dict(
         type="meerkeuze",

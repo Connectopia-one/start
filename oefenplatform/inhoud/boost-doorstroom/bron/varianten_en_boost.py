@@ -252,7 +252,7 @@ HOOFDSTUKKEN = {
             {
                 "opties": ["orange", "island", "hour", "user"],
                 "antwoord": [0, 1, 2],
-                "uitleg": "User begint met de klank you, dus a user. De drie andere beginnen met een klinkerklank.",
+                "uitleg": "User begint met de klank you, dus a user. De andere beginnen met een klinkerklank.",
             },
         ],
         "Vul het juiste lidwoord in: she is … engineer.": [

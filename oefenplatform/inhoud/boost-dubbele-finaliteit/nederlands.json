@@ -85,12 +85,14 @@
             "lawaai op straat tijdens een gesprek",
             "een slechte verbinding bij een videogesprek",
             "een vlek over de tekst van een brief",
-            "je gedachten die alsmaar afdwalen"
+            "je gedachten die alsmaar afdwalen",
+            "een telefoon die rinkelt tijdens de uitleg"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Externe ruis komt van buiten de zender en de ontvanger. Afdwalende gedachten zitten in de ontvanger zelf en zijn dus interne ruis."
         },
@@ -157,15 +159,14 @@
           "opties": [
             "Wie is de zender van deze tekst?",
             "Voor wie is de tekst bedoeld?",
-            "Via welk kanaal is de tekst verspreid?",
+            "Hoeveel woorden telt elke alinea?",
             "Hoeveel strofen telt de tekst?"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het aantal strofen hoort bij een gedicht analyseren, niet bij het communicatiemodel."
+          "uitleg": "Het aantal strofen en het aantal woorden per alinea horen bij het bekijken van de vorm, niet bij het communicatiemodel. Zender, ontvanger, kanaal, boodschap en doel: dat zijn de vragen."
         },
         {
           "type": "waarofniet",
@@ -232,12 +233,14 @@
             "een bijsluiter bij een geneesmiddel",
             "de veiligheidsvoorschriften in een bedrijf",
             "het schoolreglement",
-            "een reisverslag van drie weken Peru"
+            "een reisverslag van drie weken Peru",
+            "een recept uit een kookboek"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Prescriptieve teksten schrijven voor hoe je iets doet of moet doen. Een reisverslag vertelt een verhaal en is narratief."
         },
@@ -313,15 +316,14 @@
           "opties": [
             "een gedicht over de zee",
             "een kortverhaal in een tijdschrift",
-            "een stand-upcomedyvoorstelling",
+            "een nieuwsbericht over een storm",
             "de handleiding bij een wasmachine"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Literaire teksten hebben een esthetische waarde en spelen in op emoties. Een handleiding is prescriptief."
+          "uitleg": "Literaire teksten hebben een esthetische waarde en spelen in op emoties. Een handleiding is prescriptief en een nieuwsbericht informatief."
         },
         {
           "type": "meerkeuze",
@@ -366,12 +368,14 @@
             "een videoblog over een verhuis",
             "een reisverslag uit Noorwegen",
             "een verhalend gedicht",
-            "een bijsluiter bij een zalf"
+            "een bijsluiter bij een zalf",
+            "een dagboekfragment"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Alle drie vertellen ze iets wat gebeurd is. Een bijsluiter geeft instructies en is prescriptief."
         },
@@ -490,15 +494,14 @@
           "opties": [
             "de titel en de tussentitels",
             "de vetgedrukte woorden",
-            "de foto of de grafiek erbij",
+            "het lettertype van de voetnoten",
             "de marge rond de bladspiegel"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Titel, tussentitels, benadrukte woorden en beeldmateriaal sturen je lezen. De breedte van de marge zegt niets over de inhoud."
+          "uitleg": "Titel, tussentitels, benadrukte woorden en beeldmateriaal sturen je lezen. De breedte van de marge en het lettertype van een voetnoot zeggen niets over de inhoud."
         },
         {
           "type": "meerkeuze",
@@ -564,12 +567,14 @@
             "in een schema",
             "in een tabel",
             "in een mindmap",
-            "in een rijmschema"
+            "in een rijmschema",
+            "in een tijdlijn"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een rijmschema beschrijft hoe de rijmklanken in een gedicht lopen. Dat is geen manier om notities te ordenen."
         },
@@ -630,15 +635,14 @@
           "opties": [
             "de indeling in alinea's",
             "het gebruik van tussentitels",
-            "de witruimte op de bladzijde",
+            "de kernboodschap in de laatste alinea",
             "de hoofdgedachte van de tekst"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Lay-out gaat over hoe de tekst eruitziet. De hoofdgedachte is inhoud, geen vormgeving."
+          "uitleg": "Lay-out gaat over hoe de tekst eruitziet: alinea's, tussentitels en witruimte. De hoofdgedachte en de kernboodschap zijn inhoud, geen vormgeving."
         },
         {
           "type": "meerkeuze",
@@ -714,12 +718,14 @@
             "maar",
             "daarentegen",
             "echter",
-            "bovendien"
+            "bovendien",
+            "toch"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "'Bovendien' voegt iets toe in dezelfde richting. De andere draaien de richting om."
         },
@@ -781,15 +787,14 @@
           "opties": [
             "kortom",
             "samengevat",
-            "al met al",
+            "daarom",
             "bovendien"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "'Bovendien' voegt nog een argument toe. De andere sluiten de reeks af."
+          "uitleg": "'Bovendien' voegt nog een argument toe en 'daarom' kondigt een gevolg aan. 'Kortom' en 'samengevat' sluiten de reeks af, net als 'al met al'."
         },
         {
           "type": "waarofniet",
@@ -856,12 +861,14 @@
             "deze",
             "hun",
             "die",
-            "hoewel"
+            "hoewel",
+            "zij"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "'Hoewel' is een signaalwoord: het legt een verband. De andere wijzen naar iets in de tekst."
         },
@@ -1356,12 +1363,14 @@
             "Is de zender deskundig in dit onderwerp?",
             "Welke bronnen gebruikt de tekst zelf?",
             "Wat wil de zender met deze tekst bereiken?",
-            "Hoeveel tussentitels staan er in de tekst?"
+            "Hoeveel tussentitels staan er in de tekst?",
+            "Wanneer is de tekst gepubliceerd?"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het aantal tussentitels zegt iets over de opbouw, niet over de betrouwbaarheid."
         },
@@ -1424,15 +1433,14 @@
           "opties": [
             "waardewoorden zoals schandalig of geniaal",
             "uitroeptekens middenin de lopende tekst",
-            "zinnen die beginnen met 'ik vind'",
+            "cijfers met een bronvermelding erbij",
             "voetnoten met bronvermeldingen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bronvermeldingen wijzen net op een poging tot onderbouwing. De andere verraden het oordeel van de schrijver."
+          "uitleg": "Bronvermeldingen en cijfers met een bron wijzen net op een poging tot onderbouwing. Waardewoorden en uitroeptekens verraden het oordeel van de schrijver."
         },
         {
           "type": "meerkeuze",
@@ -1510,14 +1518,16 @@
             "een publireportage",
             "een satirisch nieuwsbericht",
             "een verzonnen bericht op sociale media",
-            "een artikel met bronvermelding en auteursnaam"
+            "een artikel met bronvermelding en auteursnaam",
+            "een advertentie die als tip is opgemaakt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Alle drie lenen ze de vorm van het nieuws. Alleen het laatste presenteert zich als wat het is."
+          "uitleg": "Ze lenen allemaal de vorm van het nieuws of van een goede raad. Alleen het artikel met bronvermelding en auteursnaam presenteert zich als wat het is."
         },
         {
           "type": "meerkeuze",
@@ -1605,12 +1615,14 @@
             "beeldspraak",
             "de connotatie van woorden",
             "modaliteit",
-            "de bladspiegel"
+            "de bladspiegel",
+            "overdrijving"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De bladspiegel is vormgeving. De andere sturen hoe de lezer het bericht voelt."
         },
@@ -1667,15 +1679,14 @@
           "opties": [
             "er wordt geen auteur vermeld",
             "het circuleert alleen via sociale media",
-            "de kop belooft veel meer dan de tekst waarmaakt",
+            "er staat een datum en een plaats bij het bericht",
             "er wordt verwezen naar een studie met naam en jaartal"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De laatste is juist een teken van onderbouwing, al moet je die studie nog altijd nagaan."
+          "uitleg": "Een verwijzing naar een studie met naam en jaartal, en een datum en een plaats, zijn juist tekens van onderbouwing, al moet je ze nog altijd nagaan. Geen auteur en enkel verspreiding via sociale media zijn wel verdacht."
         },
         {
           "type": "waarofniet",
@@ -1732,12 +1743,14 @@
             "schandalig",
             "eindelijk",
             "zogenaamd",
-            "dinsdag"
+            "dinsdag",
+            "dramatisch"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "'Dinsdag' is een gegeven. De andere leggen er een oordeel bovenop."
         },
@@ -1802,15 +1815,14 @@
           "opties": [
             "de ontvanger aanspreken met u",
             "volledige zinnen zonder afkortingen",
-            "een afsluiting als 'Met vriendelijke groeten'",
+            "een afsluiting als 'Tot gauw!'",
             "een rij smileys onder je naam"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Smileys horen bij informele communicatie. De andere horen bij het formele register."
+          "uitleg": "Smileys en 'Tot gauw!' horen bij informele communicatie. U gebruiken en volledige zinnen schrijven horen bij het formele register."
         },
         {
           "type": "invultekst",
@@ -1873,12 +1885,14 @@
             "de ontvanger aanspreken met je",
             "afkortingen zoals 'ff' gebruiken",
             "emoji's in je bericht zetten",
-            "beginnen met 'Geachte mevrouw'"
+            "beginnen met 'Geachte mevrouw'",
+            "korte, losse zinnen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "'Geachte mevrouw' is de formele aanspreking bij uitstek."
         },
@@ -1957,15 +1971,14 @@
           "opties": [
             "weten wie die ontvanger is",
             "weten welke relatie je met hem hebt",
-            "weten via welk kanaal je schrijft",
+            "weten hoe lang je over de tekst doet",
             "weten hoeveel alinea's je zal nodig hebben"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het aantal alinea's volgt uit je inhoud. De andere bepalen je toon."
+          "uitleg": "Het aantal alinea's volgt uit je inhoud, en hoe lang je erover doet, verandert je toon niet. Wie je ontvanger is en welke relatie je met hem hebt, bepalen die wel, net als het kanaal."
         },
         {
           "type": "meerkeuze",
@@ -2056,14 +2069,16 @@
             "nationale",
             "regionale",
             "sociale",
-            "alfabetische"
+            "alfabetische",
+            "situationele"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De fiche noemt nationale, regionale, sociale en situationele variëteiten. Alfabetisch bestaat niet als variëteit."
+          "uitleg": "Alfabetisch bestaat niet als variëteit."
         },
         {
           "type": "meerkeuze",
@@ -2111,15 +2126,14 @@
           "opties": [
             "lichaamstaal",
             "oogcontact",
-            "intonatie en tempo",
+            "interpunctie",
             "spelling"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Spelling is verbaal, en dan nog schriftelijk. De andere zijn alles wat je overbrengt zonder woorden."
+          "uitleg": "Spelling en interpunctie zijn verbaal, en dan nog schriftelijk. Lichaamstaal en oogcontact brengen wel iets over zonder woorden."
         },
         {
           "type": "waarofniet",
@@ -2185,14 +2199,16 @@
             "mimiek en gebaren",
             "houding en afstand",
             "tempo en volume van het spreken",
-            "het rijmschema van de zinnen"
+            "het rijmschema van de zinnen",
+            "kleding en uiterlijk"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De fiche noemt ook kleding en uiterlijk, en voor schriftelijke communicatie zelfs emoji's."
+          "uitleg": "Een rijmschema hoort bij poëzie. De fiche noemt voor schriftelijke communicatie zelfs emoji's."
         },
         {
           "type": "meerkeuze",
@@ -2270,12 +2286,14 @@
             "de",
             "een",
             "geen",
-            "die"
+            "die",
+            "het"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het Nederlands heeft er drie soorten: bepaald (de, het), onbepaald (een) en ontkennend (geen). 'Die' is een aanwijzend voornaamwoord.",
           "varianten": [
@@ -2284,12 +2302,14 @@
                 "het",
                 "een",
                 "geen",
-                "deze"
+                "deze",
+                "de"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Het Nederlands heeft er drie soorten: bepaald (de, het), onbepaald (een) en ontkennend (geen). 'Deze' is een aanwijzend voornaamwoord."
             },
@@ -2297,15 +2317,14 @@
               "opties": [
                 "de",
                 "het",
-                "geen",
+                "die",
                 "dat"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "De en het zijn bepaald, geen is ontkennend. 'Dat' wijst iets aan en is dus een aanwijzend voornaamwoord."
+              "uitleg": "De en het zijn bepaalde lidwoorden. 'Dat' en 'die' wijzen iets aan en zijn dus aanwijzende voornaamwoorden."
             },
             {
               "opties": [
@@ -2440,27 +2459,28 @@
           "opties": [
             "op",
             "onder",
-            "tussen",
+            "graag",
             "snel"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "'Snel' is een bijwoord: het zegt hoe iets gebeurt, niet waar iets zich bevindt.",
+          "uitleg": "'Snel' en 'graag' zijn bijwoorden: ze zeggen hoe iets gebeurt, niet waar iets zich bevindt.",
           "varianten": [
             {
               "opties": [
                 "in",
                 "naast",
                 "achter",
-                "graag"
+                "graag",
+                "onder"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "'Graag' is een bijwoord: het zegt hoe iets gebeurt, niet waar iets zich bevindt."
             },
@@ -2468,15 +2488,14 @@
               "opties": [
                 "door",
                 "tegen",
-                "boven",
+                "snel",
                 "vaak"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "'Vaak' is een bijwoord van tijd. Een voorzetsel geeft een verhouding aan in plaats, tijd of richting."
+              "uitleg": "'Vaak' en 'snel' zijn bijwoorden: ze zeggen wanneer of hoe iets gebeurt. Een voorzetsel geeft een verhouding aan in plaats, tijd of richting, zoals door en tegen."
             },
             {
               "opties": [
@@ -2642,12 +2661,14 @@
             "gisteren",
             "daar",
             "nauwelijks",
-            "groen"
+            "groen",
+            "amper"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Bijwoorden zeggen iets over tijd, plaats, mate of manier. 'Groen' hoort bij een naamwoord en is bijvoeglijk.",
           "varianten": [
@@ -2656,12 +2677,14 @@
                 "straks",
                 "hier",
                 "nauwelijks",
-                "rood"
+                "rood",
+                "graag"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Bijwoorden zeggen iets over tijd, plaats, mate of manier. 'Rood' hoort bij een naamwoord en is bijvoeglijk."
             },
@@ -2669,15 +2692,14 @@
               "opties": [
                 "morgen",
                 "ginder",
-                "amper",
+                "groen",
                 "blauw"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Bijwoorden zeggen iets over tijd, plaats, mate of manier. 'Blauw' hoort bij een naamwoord en is bijvoeglijk."
+              "uitleg": "Bijwoorden zeggen iets over tijd, plaats, mate of manier. 'Blauw' en 'groen' horen bij een naamwoord en zijn bijvoeglijk."
             },
             {
               "opties": [
@@ -2885,43 +2907,43 @@
           "opties": [
             "ik",
             "hem",
-            "wij",
+            "onze",
             "mijn"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "'Mijn' zegt van wie iets is en is dus bezittelijk. De andere vervangen een persoon.",
+          "uitleg": "'Mijn' en 'onze' zeggen van wie iets is en zijn dus bezittelijk. Ik en hem vervangen een persoon.",
           "varianten": [
             {
               "opties": [
                 "jij",
                 "hem",
                 "zij",
-                "jouw"
+                "jouw",
+                "wij"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
-              "uitleg": "'Jouw' zegt van wie iets is en is dus bezittelijk. De drie andere vervangen een persoon."
+              "uitleg": "'Jouw' zegt van wie iets is en is dus bezittelijk. De andere vervangen een persoon."
             },
             {
               "opties": [
                 "wij",
                 "hen",
-                "u",
+                "uw",
                 "onze"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "'Onze' zegt van wie iets is en is dus bezittelijk. De drie andere vervangen een persoon."
+              "uitleg": "'Onze' en 'uw' zeggen van wie iets is en zijn dus bezittelijk. Wij en hen vervangen een persoon."
             },
             {
               "opties": [
@@ -2935,7 +2957,7 @@
                 1,
                 2
               ],
-              "uitleg": "'Mijn' zegt van wie iets is en is dus bezittelijk. De drie andere vervangen een persoon."
+              "uitleg": "'Mijn' zegt van wie iets is en is dus bezittelijk. De andere vervangen een persoon."
             }
           ]
         },
@@ -3013,14 +3035,16 @@
             "wederkerend",
             "wederkerig",
             "betrekkelijk",
-            "bijwoordelijk"
+            "bijwoordelijk",
+            "onbepaald"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Er zijn er acht: wederkerend, wederkerig, onbepaald, persoonlijk, bezittelijk, betrekkelijk, aanwijzend en vragend. Bijwoordelijk hoort er niet bij."
+          "uitleg": "Bijwoordelijk hoort er niet bij."
         },
         {
           "type": "waarofniet",
@@ -3143,27 +3167,28 @@
           "opties": [
             "Dat huis staat al jaren te koop.",
             "Deze wil ik graag hebben.",
-            "Zulke schoenen zijn veel te duur.",
+            "Welk boek lees jij?",
             "Wie belt er zo laat nog aan?"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Dat, deze en zulke wijzen aan. 'Wie' stelt een vraag en is dus vragend.",
+          "uitleg": "Dat en deze wijzen aan. 'Wie' en 'welk' stellen een vraag en zijn dus vragend.",
           "varianten": [
             {
               "opties": [
                 "Dit boek lees ik al een week.",
                 "Die daar wil ik graag hebben.",
                 "Zulke verhalen geloof ik niet.",
-                "Wat doe jij hier zo laat?"
+                "Wat doe jij hier zo laat?",
+                "Deze twee neem ik mee."
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Dit, die en zulke wijzen aan. 'Wat' stelt een vraag en is dus vragend."
             },
@@ -3171,15 +3196,14 @@
               "opties": [
                 "Dat gebouw staat er al eeuwen.",
                 "Deze neem ik mee naar huis.",
-                "Zulke dagen vergeet je niet.",
+                "Wiens jas is dit?",
                 "Welke wil jij hebben?"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Dat, deze en zulke wijzen aan. 'Welke' stelt een vraag en is dus vragend."
+              "uitleg": "'Welke' en 'wiens' zijn vragende voornaamwoorden. 'Dat' en 'deze' wijzen wel iets aan."
             },
             {
               "opties": [
@@ -3287,12 +3311,14 @@
             "onvoltooid tegenwoordige tijd",
             "voltooid verleden tijd",
             "onvoltooid toekomende tijd",
-            "gebiedende toekomende tijd"
+            "gebiedende toekomende tijd",
+            "voltooid tegenwoordige tijd"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Er zijn zes tijden, plus de imperatief. Een gebiedende toekomende tijd bestaat niet."
         },
@@ -3400,12 +3426,14 @@
             "zijn",
             "worden",
             "blijven",
-            "lopen"
+            "lopen",
+            "lijken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De koppelwerkwoorden zijn zijn, worden, blijven, blijken, lijken, schijnen, heten, dunken en voorkomen. 'Lopen' hoort er niet bij."
         },
@@ -3540,43 +3568,43 @@
           "opties": [
             "gewerkt",
             "gelopen",
-            "gezien",
+            "zien",
             "werken"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "'Werken' is de infinitief. De andere beginnen met ge- en horen bij een voltooide tijd.",
+          "uitleg": "'Werken' en 'zien' zijn infinitieven. Gewerkt en gelopen beginnen met ge- en horen bij een voltooide tijd.",
           "varianten": [
             {
               "opties": [
                 "gehoord",
                 "gezongen",
                 "gevonden",
-                "horen"
+                "horen",
+                "gelopen"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
-              "uitleg": "'Horen' is de infinitief. De drie andere beginnen met ge- en horen bij een voltooide tijd."
+              "uitleg": "'Horen' is de infinitief. De andere beginnen met ge- en horen bij een voltooide tijd."
             },
             {
               "opties": [
                 "gebeld",
                 "geschreven",
-                "gedronken",
+                "schrijven",
                 "bellen"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "'Bellen' is de infinitief. De drie andere beginnen met ge- en horen bij een voltooide tijd."
+              "uitleg": "'Bellen' en 'schrijven' zijn infinitieven, de vorm uit het woordenboek. Een voltooid deelwoord gebruik je met hebben of zijn: ik heb gebeld, ik heb geschreven."
             },
             {
               "opties": [
@@ -3590,7 +3618,7 @@
                 1,
                 2
               ],
-              "uitleg": "'Maken' is de infinitief. De drie andere beginnen met ge- en horen bij een voltooide tijd."
+              "uitleg": "'Maken' is de infinitief. De andere beginnen met ge- en horen bij een voltooide tijd."
             }
           ]
         },
@@ -3816,12 +3844,14 @@
             "tafelpoot",
             "voetbalveld",
             "regenjas",
-            "vriendelijk"
+            "vriendelijk",
+            "keukendeur"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "'Vriendelijk' is gevormd met het achtervoegsel -lijk en is dus een afleiding.",
           "varianten": [
@@ -3830,12 +3860,14 @@
                 "schoolbord",
                 "deurklink",
                 "raamkozijn",
-                "leesbaar"
+                "leesbaar",
+                "tuinpad"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "'Leesbaar' is gevormd met het achtervoegsel -baar en is dus een afleiding."
             },
@@ -3843,15 +3875,14 @@
               "opties": [
                 "boekenkast",
                 "pannenkoek",
-                "fietspad",
+                "vriendelijk",
                 "schoonheid"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "'Schoonheid' is gevormd met het achtervoegsel -heid en is dus een afleiding."
+              "uitleg": "'Schoonheid' en 'vriendelijk' zijn afleidingen: daar hangt een stukje aan een woord dat zelf geen woord is. Een samenstelling plakt twee hele woorden aan elkaar, zoals boekenkast en pannenkoek."
             },
             {
               "opties": [
@@ -3949,27 +3980,28 @@
           "opties": [
             "kinderen",
             "paden",
-            "leden",
+            "padens",
             "stoelens"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het meervoud van stoel is stoelen. Een meervoud op -s krijgt nooit nog eens -en erbij.",
+          "uitleg": "Het meervoud van stoel is stoelen en van pad is paden. Een meervoud op -s krijgt nooit nog eens -en erbij.",
           "varianten": [
             {
               "opties": [
                 "schepen",
                 "steden",
                 "eieren",
-                "tafelens"
+                "tafelens",
+                "kinderen"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Het meervoud van tafel is tafels. Een meervoud krijgt nooit twee uitgangen tegelijk."
             },
@@ -3977,15 +4009,14 @@
               "opties": [
                 "musea",
                 "koeien",
-                "bladeren",
+                "eiers",
                 "ramens"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Het meervoud van raam is ramen. Een meervoud krijgt nooit twee uitgangen tegelijk."
+              "uitleg": "'Ramens' en 'eiers' bestaan niet: het is ramen en eieren. Musea en koeien zijn wel juist."
             },
             {
               "opties": [
@@ -4141,12 +4172,14 @@
             "schoonheid",
             "leesbaar",
             "ontdekken",
-            "deurklink"
+            "deurklink",
+            "onduidelijk"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Deurklink is een samenstelling van twee echte woorden. De andere gebruiken een voor- of achtervoegsel.",
           "varianten": [
@@ -4155,28 +4188,29 @@
                 "vriendelijk",
                 "onmogelijk",
                 "verdwalen",
-                "tafelpoot"
+                "tafelpoot",
+                "schoonheid"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
-              "uitleg": "Tafelpoot is een samenstelling van twee echte woorden. De drie andere gebruiken een voor- of achtervoegsel."
+              "uitleg": "Tafelpoot is een samenstelling van twee echte woorden. De andere gebruiken een voor- of achtervoegsel."
             },
             {
               "opties": [
                 "bruikbaar",
                 "onduidelijk",
-                "herlezen",
+                "deurklink",
                 "schoolbord"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Schoolbord is een samenstelling van twee echte woorden. De drie andere gebruiken een voor- of achtervoegsel."
+              "uitleg": "'Schoolbord' en 'deurklink' zijn samenstellingen: twee hele woorden aan elkaar. Een afleiding hangt een voor- of achtervoegsel aan een woord, zoals bruikbaar en onduidelijk."
             },
             {
               "opties": [
@@ -4190,7 +4224,7 @@
                 1,
                 2
               ],
-              "uitleg": "Fietspad is een samenstelling van twee echte woorden. De drie andere gebruiken een voor- of achtervoegsel."
+              "uitleg": "Fietspad is een samenstelling van twee echte woorden. De andere gebruiken een voor- of achtervoegsel."
             }
           ]
         },
@@ -4420,14 +4454,16 @@
             "lijdend voorwerp",
             "meewerkend voorwerp",
             "voorzetselvoorwerp",
-            "rijmend voorwerp"
+            "rijmend voorwerp",
+            "handelend voorwerp"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Daarnaast bestaan ook het handelend voorwerp en de bijwoordelijke bepaling. Een rijmend voorwerp bestaat niet."
+          "uitleg": "Daarnaast bestaat ook de bijwoordelijke bepaling. Een rijmend voorwerp bestaat niet."
         },
         {
           "type": "meerkeuze",
@@ -4640,16 +4676,15 @@
           "vraag": "Welke woordgroepen zijn bijwoordelijke bepalingen in 'Morgen ga ik met de fiets naar de markt'?",
           "opties": [
             "morgen",
-            "met de fiets",
+            "ga",
             "naar de markt",
             "ik"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "'Ik' is het onderwerp. De andere zeggen wanneer, hoe en waarheen.",
+          "uitleg": "'Ik' is het onderwerp en 'ga' de persoonsvorm. Morgen en naar de markt zeggen wanneer en waarheen.",
           "varianten": [
             {
               "vraag": "Welke woordgroepen zijn bijwoordelijke bepalingen in 'Straks rijdt hij met de auto naar het station'?",
@@ -4657,29 +4692,30 @@
                 "straks",
                 "met de auto",
                 "naar het station",
-                "hij"
+                "hij",
+                "heel snel"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
-              "uitleg": "'Hij' is het onderwerp. De drie andere zeggen wanneer, hoe en waarheen."
+              "uitleg": "'Hij' is het onderwerp. De andere zeggen wanneer, hoe en waarheen."
             },
             {
               "vraag": "Welke woordgroepen zijn bijwoordelijke bepalingen in 'Vanavond loop ik met mijn hond door het park'?",
               "opties": [
                 "vanavond",
                 "met mijn hond",
-                "door het park",
+                "mijn zus",
                 "ik"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "'Ik' is het onderwerp. De drie andere zeggen wanneer, hoe en waarheen."
+              "uitleg": "'Ik' en 'mijn zus' zijn onderwerp of lijdend voorwerp, geen bijwoordelijke bepaling. Vanavond en met mijn hond zeggen wel wanneer en hoe."
             },
             {
               "vraag": "Welke woordgroepen zijn bijwoordelijke bepalingen in 'Morgen vertrekken wij met de trein naar zee'?",
@@ -4694,7 +4730,7 @@
                 1,
                 2
               ],
-              "uitleg": "'Wij' is het onderwerp. De drie andere zeggen wanneer, hoe en waarheen."
+              "uitleg": "'Wij' is het onderwerp. De andere zeggen wanneer, hoe en waarheen."
             }
           ]
         },
@@ -4877,14 +4913,16 @@
             "mededelende",
             "bevelende",
             "uitroepende",
-            "rijmende"
+            "rijmende",
+            "vragende"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Daarnaast bestaan ook vragende zinnen, en het onderscheid bevestigend of ontkennend. Rijmende zinnen zijn geen zinssoort."
+          "uitleg": "Daarnaast bestaat nog het onderscheid tussen bevestigend en ontkennend. Rijmende zinnen zijn geen zinssoort."
         },
         {
           "type": "meerkeuze",
@@ -4958,12 +4996,14 @@
             "en",
             "maar",
             "want",
-            "omdat"
+            "omdat",
+            "dus"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "'Omdat' is onderschikkend. Een geheugensteun voor de nevenschikkende: en, maar, of, want, dus.",
           "varianten": [
@@ -4972,12 +5012,14 @@
                 "en",
                 "of",
                 "dus",
-                "hoewel"
+                "hoewel",
+                "maar"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "'Hoewel' is onderschikkend. Een geheugensteun voor de nevenschikkende: en, maar, of, want, dus."
             },
@@ -4985,15 +5027,14 @@
               "opties": [
                 "maar",
                 "of",
-                "want",
+                "omdat",
                 "als"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "'Als' is onderschikkend. Een geheugensteun voor de nevenschikkende: en, maar, of, want, dus."
+              "uitleg": "'Als' en 'omdat' zijn onderschikkend: ze maken een bijzin. Maar en of verbinden twee gelijkwaardige delen."
             },
             {
               "opties": [
@@ -5132,27 +5173,28 @@
           "opties": [
             "Ik blijf thuis omdat het regent.",
             "Hij belde aan en zij deed open.",
-            "Toen ik binnenkwam, was iedereen al weg.",
+            "Het boek op de tafel is van mij.",
             "De hond van de buren blaft de hele nacht."
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De juiste antwoorden hebben twee persoonsvormen. Het foute antwoord heeft er maar één en is dus enkelvoudig.",
+          "uitleg": "Een samengestelde zin heeft meer dan één persoonsvorm. De zin over de hond van de buren en die over het boek op de tafel hebben er maar één en zijn dus enkelvoudig.",
           "varianten": [
             {
               "opties": [
                 "Hij kwam te laat omdat de trein vertraging had.",
                 "Zij belde aan en ik deed open.",
                 "Toen de film begon, was de zaal vol.",
-                "De fiets van mijn zus staat buiten."
+                "De fiets van mijn zus staat buiten.",
+                "Ik weet niet of hij komt."
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "De juiste antwoorden hebben twee persoonsvormen. Het foute antwoord heeft er maar één en is dus enkelvoudig."
             },
@@ -5160,15 +5202,14 @@
               "opties": [
                 "Wij wachten tot iedereen er is.",
                 "Hij zwijgt maar zij praat door.",
-                "Hoewel het goot, gingen we buiten spelen.",
+                "De hond van de buren blaft de hele dag.",
                 "Het boek van de bibliotheek ligt op tafel."
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "De juiste antwoorden hebben twee persoonsvormen. Het foute antwoord heeft er maar één en is dus enkelvoudig."
+              "uitleg": "Een samengestelde zin heeft meer dan één persoonsvorm. In de zin over het boek van de bibliotheek en in die over de hond van de buren staat er maar één."
             },
             {
               "opties": [
@@ -5287,27 +5328,28 @@
           "opties": [
             "huis",
             "brief",
-            "graf",
+            "raam",
             "boek"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Huizen, brieven, graven. Bij boeken blijft de k gewoon staan.",
+          "uitleg": "Huizen, brieven: de s wordt een z en de f een v. Bij boeken en ramen verandert er niets.",
           "varianten": [
             {
               "opties": [
                 "muis",
                 "duif",
                 "wolf",
-                "stoel"
+                "stoel",
+                "huis"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Muizen, duiven, wolven. Bij stoelen blijft de l gewoon staan."
             },
@@ -5315,15 +5357,14 @@
               "opties": [
                 "hoes",
                 "neef",
-                "druif",
+                "boek",
                 "fiets"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Hoezen, neven, druiven. Bij fietsen blijft de s gewoon staan."
+              "uitleg": "Bij hoes en neef wordt de s een z en de f een v: hoezen, neven. Bij fiets en boek verandert er niets: fietsen, boeken."
             },
             {
               "opties": [
@@ -5501,12 +5542,14 @@
             "ruïne",
             "reünie",
             "zeeën",
-            "zee-eend"
+            "zee-eend",
+            "coördinatie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Binnen één woorddeel gebruik je een trema. Tussen twee delen van een samenstelling een koppelteken.",
           "varianten": [
@@ -5515,12 +5558,14 @@
                 "knieën",
                 "geëerd",
                 "coördinatie",
-                "na-apen"
+                "na-apen",
+                "vacuüm"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Binnen één woorddeel gebruik je een trema. Tussen twee delen van een samenstelling een koppelteken."
             },
@@ -5528,15 +5573,14 @@
               "opties": [
                 "ideeën",
                 "beëindigen",
-                "ruïne",
+                "zee-egel",
                 "auto-ongeval"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Binnen één woorddeel gebruik je een trema. Tussen twee delen van een samenstelling een koppelteken."
+              "uitleg": "Bij auto-ongeval en zee-egel komt er een streepje, geen trema: dat gebruik je in samenstellingen. Binnen één woord schrijf je wel een trema, zoals in ideeën en beëindigen."
             },
             {
               "opties": [
@@ -5702,27 +5746,28 @@
           "opties": [
             "Nederlands",
             "België",
-            "Kerstmis",
+            "zondag",
             "woensdag"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Talen, landen en feestdagen wel; dagen van de week niet.",
+          "uitleg": "Talen en landen krijgen een hoofdletter, dagen van de week niet.",
           "varianten": [
             {
               "opties": [
                 "Frans",
                 "Frankrijk",
                 "Pasen",
-                "januari"
+                "januari",
+                "Kerstmis"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Talen, landen en feestdagen wel; maanden niet."
             },
@@ -5730,15 +5775,14 @@
               "opties": [
                 "Duits",
                 "Italië",
-                "Nieuwjaar",
+                "dinsdag",
                 "maandag"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Talen, landen en feestdagen wel; dagen van de week niet."
+              "uitleg": "Weekdagen schrijf je in het Nederlands klein, anders dan in het Engels. Talen en landen krijgen wel een hoofdletter."
             },
             {
               "opties": [
@@ -5864,28 +5908,29 @@
                 "de komma",
                 "de dubbele punt",
                 "het vraagteken",
-                "het trema"
+                "het trema",
+                "de punt"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Een trema is een uitspraakteken, geen leesteken. Die twee horen in aparte lijstjes."
             },
             {
               "opties": [
                 "de punt",
-                "de puntkomma",
+                "het trema",
                 "het uitroepteken",
                 "het accentteken"
               ],
               "antwoord": [
                 0,
-                1,
                 2
               ],
-              "uitleg": "Een accentteken is een uitspraakteken, geen leesteken. Die twee horen in aparte lijstjes."
+              "uitleg": "Het accentteken en het trema staan op een letter en horen bij de spelling, niet bij de interpunctie. De punt en het uitroepteken sluiten wel een zin af."
             },
             {
               "opties": [
@@ -6019,28 +6064,29 @@
                 "a",
                 "i",
                 "o",
-                "m"
+                "m",
+                "e"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Het Nederlands heeft zes klinkerletters: a, e, i, o, u en y. Alle andere zijn medeklinkers."
             },
             {
               "opties": [
-                "e",
+                "s",
                 "o",
                 "y",
                 "k"
               ],
               "antwoord": [
-                0,
                 1,
                 2
               ],
-              "uitleg": "Het Nederlands heeft zes klinkerletters: a, e, i, o, u en y. Alle andere zijn medeklinkers."
+              "uitleg": "O en y zijn klinkers. De k en de s zijn consonanten."
             },
             {
               "opties": [
@@ -6217,28 +6263,29 @@
                 "een lijstje aankondigen",
                 "een uitleg inleiden",
                 "de woorden van iemand aankondigen",
-                "een vraag stellen"
+                "een vraag stellen",
+                "een conclusie aankondigen"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Vragen doet een vraagteken. De dubbele punt kondigt aan wat er volgt."
             },
             {
               "opties": [
                 "een opsomming aankondigen",
-                "een reden inleiden",
+                "een woord in tweeën splitsen",
                 "een letterlijk citaat aankondigen",
                 "een tussenzin afbakenen"
               ],
               "antwoord": [
                 0,
-                1,
                 2
               ],
-              "uitleg": "Een tussenzin baken je af met komma's, haakjes of gedachtestreepjes."
+              "uitleg": "Een tussenzin afbakenen doe je met komma's of gedachtestreepjes, en een woord splitsen met een afbreekstreepje. Een dubbele punt kondigt een opsomming, een uitleg of een citaat aan."
             },
             {
               "opties": [

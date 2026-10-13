@@ -80,8 +80,9 @@ DEEL1 = [
             "een slechte verbinding bij een videogesprek",
             "een vlek over de tekst van een brief",
             "je gedachten die alsmaar afdwalen",
+            "een telefoon die rinkelt tijdens de uitleg",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Externe ruis komt van buiten de zender en de ontvanger. Afdwalende gedachten zitten in de ontvanger zelf en zijn dus interne ruis.",
     ),
     dict(
@@ -144,11 +145,11 @@ DEEL1 = [
         opties=[
             "Wie is de zender van deze tekst?",
             "Voor wie is de tekst bedoeld?",
-            "Via welk kanaal is de tekst verspreid?",
+            "Hoeveel woorden telt elke alinea?",
             "Hoeveel strofen telt de tekst?",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Het aantal strofen hoort bij een gedicht analyseren, niet bij het communicatiemodel.",
+        antwoord=[0, 1],
+        uitleg="Het aantal strofen en het aantal woorden per alinea horen bij het bekijken van de vorm, niet bij het communicatiemodel. Zender, ontvanger, kanaal, boodschap en doel: dat zijn de vragen.",
     ),
     dict(
         type="waarofniet",
@@ -209,8 +210,9 @@ DEEL2 = [
             "de veiligheidsvoorschriften in een bedrijf",
             "het schoolreglement",
             "een reisverslag van drie weken Peru",
+            "een recept uit een kookboek",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Prescriptieve teksten schrijven voor hoe je iets doet of moet doen. Een reisverslag vertelt een verhaal en is narratief.",
     ),
     dict(
@@ -269,11 +271,11 @@ DEEL2 = [
         opties=[
             "een gedicht over de zee",
             "een kortverhaal in een tijdschrift",
-            "een stand-upcomedyvoorstelling",
+            "een nieuwsbericht over een storm",
             "de handleiding bij een wasmachine",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Literaire teksten hebben een esthetische waarde en spelen in op emoties. Een handleiding is prescriptief.",
+        antwoord=[0, 1],
+        uitleg="Literaire teksten hebben een esthetische waarde en spelen in op emoties. Een handleiding is prescriptief en een nieuwsbericht informatief.",
     ),
     dict(
         type="meerkeuze",
@@ -314,8 +316,9 @@ DEEL2 = [
             "een reisverslag uit Noorwegen",
             "een verhalend gedicht",
             "een bijsluiter bij een zalf",
+            "een dagboekfragment",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Alle drie vertellen ze iets wat gebeurd is. Een bijsluiter geeft instructies en is prescriptief.",
     ),
     dict(

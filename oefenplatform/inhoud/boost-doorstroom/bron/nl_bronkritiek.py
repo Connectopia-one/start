@@ -32,8 +32,9 @@ DEEL1 = [
             "Welke bronnen gebruikt de tekst zelf?",
             "Wat wil de zender met deze tekst bereiken?",
             "Hoeveel tussentitels staan er in de tekst?",
+            "Wanneer is de tekst gepubliceerd?",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Het aantal tussentitels zegt iets over de opbouw, niet over de betrouwbaarheid.",
     ),
     dict(
@@ -90,11 +91,11 @@ DEEL1 = [
         opties=[
             "waardewoorden zoals schandalig of geniaal",
             "uitroeptekens middenin de lopende tekst",
-            "zinnen die beginnen met 'ik vind'",
+            "cijfers met een bronvermelding erbij",
             "voetnoten met bronvermeldingen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Bronvermeldingen wijzen net op een poging tot onderbouwing. De andere verraden het oordeel van de schrijver.",
+        antwoord=[0, 1],
+        uitleg="Bronvermeldingen en cijfers met een bron wijzen net op een poging tot onderbouwing. Waardewoorden en uitroeptekens verraden het oordeel van de schrijver.",
     ),
     dict(
         type="meerkeuze",
@@ -170,9 +171,10 @@ DEEL1 = [
             "een satirisch nieuwsbericht",
             "een verzonnen bericht op sociale media",
             "een artikel met bronvermelding en auteursnaam",
+            "een advertentie die als tip is opgemaakt",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Alle drie lenen ze de vorm van het nieuws. Alleen het laatste presenteert zich als wat het is.",
+        antwoord=[0, 1, 2, 4],
+        uitleg="Ze lenen allemaal de vorm van het nieuws of van een goede raad. Alleen het artikel met bronvermelding en auteursnaam presenteert zich als wat het is.",
     ),
     dict(
         type="meerkeuze",
@@ -251,8 +253,9 @@ DEEL2 = [
             "de connotatie van woorden",
             "modaliteit",
             "de bladspiegel",
+            "overdrijving",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De bladspiegel is vormgeving. De andere sturen hoe de lezer het bericht voelt.",
     ),
     dict(
@@ -303,11 +306,11 @@ DEEL2 = [
         opties=[
             "er wordt geen auteur vermeld",
             "het circuleert alleen via sociale media",
-            "de kop belooft veel meer dan de tekst waarmaakt",
+            "er staat een datum en een plaats bij het bericht",
             "er wordt verwezen naar een studie met naam en jaartal",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De laatste is juist een teken van onderbouwing, al moet je die studie nog altijd nagaan.",
+        antwoord=[0, 1],
+        uitleg="Een verwijzing naar een studie met naam en jaartal, en een datum en een plaats, zijn juist tekens van onderbouwing, al moet je ze nog altijd nagaan. Geen auteur en enkel verspreiding via sociale media zijn wel verdacht.",
     ),
     dict(
         type="waarofniet",
@@ -360,8 +363,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke woorden in een krantenkop kleuren het bericht?",
-        opties=["schandalig", "eindelijk", "zogenaamd", "dinsdag"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "schandalig",
+            "eindelijk",
+            "zogenaamd",
+            "dinsdag",
+            "dramatisch",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="'Dinsdag' is een gegeven. De andere leggen er een oordeel bovenop.",
     ),
     dict(
