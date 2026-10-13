@@ -263,7 +263,7 @@ DEEL2 = [
             "aaaa is omarmend rijm",
         ],
         antwoord=[0, 1],
-        uitleg="Bij abba omarmt het eerste rijm het tweede, en abab heet gekruist rijm, geen slagrijm. Vier dezelfde klanken na elkaar is geen omarmend rijm.",
+        uitleg="Bij abba omarmt het ene rijm het andere. abab heet gekruist rijm, geen slagrijm, en vier dezelfde klanken na elkaar is geen omarmend rijm.",
     ),
     dict(
         type="waarofniet",

@@ -344,8 +344,7 @@ DEEL2 = [
             "een passagier die vooruit schiet bij het remmen",
         ],
         antwoord=[0, 1],
-        uitleg="De derde situatie hoort bij de tweede wet en de vierde bij de eerste. Zo "
-        "kan je de drie wetten in het dagelijks leven herkennen.",
+        uitleg="Een auto die trager versnelt als hij volgeladen is, hoort bij de tweede wet, en een passagier die vooruit schiet bij het remmen bij de eerste wet. Zo kan je de drie wetten in het dagelijks leven herkennen.",
     ),
     dict(
         type="waarofniet",

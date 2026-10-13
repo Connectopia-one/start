@@ -51,7 +51,7 @@ DEEL1 = [
             "onafhankelijkheid",
         ],
         antwoord=[0, 1],
-        uitleg="Conformisme en inwilliging zijn twee vormen van toegeven, gehoorzaamheid is de derde. Assertiviteit en onafhankelijkheid horen bij de andere kant: weerstand bieden.",
+        uitleg="Conformisme, inwilliging en gehoorzaamheid zijn de drie vormen van toegeven. Assertiviteit en onafhankelijkheid horen bij de andere kant: weerstand bieden.",
     ),
     dict(
         type="meerkeuze",

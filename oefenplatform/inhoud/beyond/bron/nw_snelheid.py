@@ -86,7 +86,7 @@ DEEL1 = [
             "een katalysator toevoegen",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="Temperatuur, concentratie en verdelingsgraad zijn drie van de vier factoren; de vierde is de katalysator. Het vat zelf doet niet mee aan de reactie.",
+        uitleg="De vier factoren zijn de temperatuur, de concentratie, de verdelingsgraad en een katalysator. Het vat zelf doet niet mee aan de reactie.",
     ),
     dict(
         type="meerkeuze",

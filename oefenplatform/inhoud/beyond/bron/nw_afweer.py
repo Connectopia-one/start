@@ -31,7 +31,7 @@ DEEL1 = [
             "het trilhaarepitheel in de luchtwegen",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="De eerste lijn houdt ziekteverwekkers buiten met fysische en chemische barrières. Antistoffen horen bij de derde, specifieke lijn.",
+        uitleg="De eerste lijn houdt ziekteverwekkers buiten met fysische en chemische barrières. Antistoffen horen bij de specifieke derde lijn.",
     ),
     dict(
         type="invultekst",

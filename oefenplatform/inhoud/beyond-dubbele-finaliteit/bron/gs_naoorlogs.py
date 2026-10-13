@@ -20,7 +20,7 @@ DEEL1 = [
             "de breuklijn tussen jong en oud",
         ],
         antwoord=[0, 1],
-        uitleg="De derde is de communautaire breuklijn, tussen Nederlandstaligen en Franstaligen.",
+        uitleg="De derde breuklijn is de communautaire, tussen Nederlandstaligen en Franstaligen. Stad tegen platteland en jong tegen oud waren geen breuklijn in de Belgische politiek.",
     ),
     dict(
         type="meerkeuze",

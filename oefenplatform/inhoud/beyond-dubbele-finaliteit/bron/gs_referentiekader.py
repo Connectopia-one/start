@@ -237,7 +237,7 @@ DEEL2 = [
             "een periode duurt in elke beschaving precies even lang",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De laatste optie klopt niet: periodes verschillen sterk in lengte, en elders ligt de indeling anders.",
+        uitleg="Dat een periode in elke beschaving precies even lang duurt, klopt niet: periodes verschillen sterk in lengte, en elders ligt de indeling anders.",
     ),
     dict(
         type="meerkeuze",

@@ -240,9 +240,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke uitspraken over het verband tussen snelheid, verplaatsing en tijdsduur kloppen?",
-        opties=["Bij een vaste snelheid is de verplaatsing recht evenredig met de tijdsduur", "Bij een vaste afstand is de snelheid omgekeerd evenredig met de tijdsduur", "Bij een vaste tijdsduur is de verplaatsing recht evenredig met de snelheid", "Bij een vaste verplaatsing zijn snelheid en tijdsduur recht evenredig"],
+        opties=[
+            "Bij een vaste snelheid is de verplaatsing recht evenredig met de tijdsduur",
+            "Bij een vaste afstand is de snelheid omgekeerd evenredig met de tijdsduur",
+            "Bij een vaste tijdsduur is de verplaatsing recht evenredig met de snelheid",
+            "Bij een vaste verplaatsing zijn snelheid en tijdsduur recht evenredig",
+        ],
         antwoord=[0, 1, 2],
-        uitleg=r"Uit \(v = \Delta x / \Delta t\) volgen de eerste. De laatste klopt niet: langer onderweg zijn maakt je niet sneller.",
+        uitleg=r"Uit \(v = \Delta x / \Delta t\) volgen de drie juiste uitspraken. Dat snelheid en tijdsduur bij een vaste verplaatsing recht evenredig zijn, klopt niet: langer onderweg zijn maakt je niet sneller.",
     ),
     dict(
         type="meerkeuze",
@@ -289,7 +294,7 @@ DEEL2 = [
             "Licht wordt bewegingsenergie",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De ketting van omzettingen loopt van je voedsel tot het licht, en bij elke stap gaat er een deel verloren als warmte. De laatste optie loopt de verkeerde kant op.",
+        uitleg="De ketting van omzettingen loopt van je voedsel tot het licht, en bij elke stap gaat er een deel verloren als warmte. Licht dat bewegingsenergie wordt, loopt de verkeerde kant op.",
     ),
     dict(
         type="invultekst",

@@ -213,7 +213,7 @@ DEEL2 = [
             "de voltooid toekomende verleden tijd",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De zes zijn: imperatief, ott, vtt, ovt, vvt en ottt. De vierde optie bestaat niet in die rij.",
+        uitleg="De zes zijn: imperatief, ott, vtt, ovt, vvt en ottt. De voltooid toekomende verleden tijd staat niet in die rij.",
     ),
     dict(
         type="meerkeuze",
@@ -279,7 +279,7 @@ DEEL2 = [
             "hij heeft gelopen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De laatste is voltooid tegenwoordige tijd. De andere zijn onvoltooide verleden vormen.",
+        uitleg="Hij heeft gelopen is voltooid tegenwoordige tijd. De andere zijn onvoltooide verleden vormen.",
     ),
     dict(
         type="meerkeuze",

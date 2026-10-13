@@ -187,7 +187,7 @@ DEEL2 = [
              "whomst",
          ],
          antwoord=[0, 2],
-         uitleg="Who, whom, whose, which en what bestaan. Whomst en whoms bestaan niet, het eerste is een grap op het internet."),
+         uitleg="Who, whom, whose, which en what bestaan. Whomst en whoms bestaan niet; whomst is een grap op het internet."),
     dict(type="waarofniet",
          vraag="Who's betekent who is of who has, en whose betekent van wie.",
          antwoord=True,

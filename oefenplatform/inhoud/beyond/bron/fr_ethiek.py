@@ -280,8 +280,7 @@ DEEL2 = [
              "van een beschrijving kan je niet zomaar naar een voorschrift oversteken",
          ],
          antwoord=[0, 1, 4],
-         uitleg="Het is-ought probleem zegt juist dat je van de eerste niet "
-                "zomaar naar de tweede kan oversteken."),
+         uitleg="Het is-ought probleem zegt juist dat je van een beschrijving niet zomaar naar een voorschrift kan oversteken."),
     dict(type="waarofniet",
          vraag="De descriptieve ethiek beschrijft welke morele opvattingen mensen hebben.",
          antwoord=True,

@@ -123,8 +123,7 @@ DEEL1 = [
             "moleculen zichzelf laten ordenen tot een structuur",
         ],
         antwoord=[0, 1],
-        uitleg="De laatste gaan van klein naar groot en zijn dus bottom-up. Welke "
-        "methode je kiest, hangt af van de precisie die je nodig hebt.",
+        uitleg="Atomen laten neerslaan en moleculen zichzelf laten ordenen gaan van klein naar groot en zijn dus bottom-up. Welke methode je kiest, hangt af van de precisie die je nodig hebt.",
     ),
     dict(
         type="waarofniet",

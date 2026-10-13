@@ -300,7 +300,7 @@
             1,
             2
           ],
-          "uitleg": "\\(\\sqrt{3} \\cdot \\sqrt{12} = \\sqrt{36}\\) en \\(6^{3} = 216\\). De laatste is \\(3 + 4 = 7\\)."
+          "uitleg": "\\(\\sqrt{3} \\cdot \\sqrt{12} = \\sqrt{36}\\) en \\(6^{3} = 216\\). \\(\\sqrt{9} + \\sqrt{16}\\) is \\(3 + 4 = 7\\)."
         },
         {
           "type": "meerkeuze",
@@ -5335,7 +5335,7 @@
             1,
             2
           ],
-          "uitleg": "De laatste is van de tweede graad: haar grafiek is een parabool."
+          "uitleg": "\\(f(x) = x^{2} + 1\\) is van de tweede graad: haar grafiek is een parabool."
         },
         {
           "type": "meerkeuze",
@@ -5550,7 +5550,7 @@
             1,
             2
           ],
-          "uitleg": "De laatste is van de eerste graad en geeft een rechte."
+          "uitleg": "\\(f(x) = 3x - 1\\) is van de eerste graad en geeft een rechte."
         },
         {
           "type": "meerkeuze",
@@ -6461,7 +6461,7 @@
             1,
             2
           ],
-          "uitleg": "De laatste hoort bij categorische gegevens."
+          "uitleg": "Een cirkeldiagram van haarkleur hoort bij categorische gegevens."
         },
         {
           "type": "meerkeuze",

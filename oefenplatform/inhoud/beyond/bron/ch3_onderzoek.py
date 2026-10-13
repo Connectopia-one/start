@@ -176,8 +176,7 @@ DEEL1 = [
             "de metingen aanpassen aan de hypothese",
         ],
         antwoord=[0, 1],
-        uitleg="De laatste draaien de zaak om. Het besluit volgt uit de metingen, "
-        "niet omgekeerd.",
+        uitleg="Het besluit vooraf vastleggen en de metingen aanpassen aan de hypothese draaien de zaak om. Het besluit volgt uit de metingen, niet omgekeerd.",
     ),
     dict(
         type="meerkeuze",

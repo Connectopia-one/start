@@ -138,7 +138,7 @@ DEEL1 = [
              "Je avec moi viens.",
          ],
          antwoord=[0, 2],
-         uitleg="Na een voorzetsel en ter beklemtoning staat de tonique: pour toi, niet pour je. De laatste zin heeft een onmogelijke woordorde."),
+         uitleg="Na een voorzetsel en ter beklemtoning staat de tonique: pour toi, niet pour je. Je avec moi viens heeft een onmogelijke woordorde."),
     dict(type="waarofniet",
          vraag="Na een voorzetsel zoals avec of pour gebruik je in het Frans de tonique.",
          antwoord=True,

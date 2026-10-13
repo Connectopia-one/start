@@ -183,7 +183,7 @@ DEEL2 = [
              "I saw ___ film you mentioned.",
          ],
          antwoord=[0, 1],
-         uitleg="Bij een algemeen begrip en bij school of work staat er niets. In de laatste zinnen hoort the: het is een bepaalde film, en je zegt to play the guitar."),
+         uitleg="Bij een algemeen begrip en bij school of work staat er niets. Bij I play ___ guitar en bij I saw ___ film you mentioned hoort the: je zegt to play the guitar, en het gaat om een bepaalde film."),
     dict(type="waarofniet",
          vraag="Voor a university staat a en niet an, hoewel het met een u begint.",
          antwoord=True,

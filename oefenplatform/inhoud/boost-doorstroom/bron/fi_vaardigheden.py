@@ -60,7 +60,7 @@ DEEL1 = [
              "neem nu het geval van",
          ],
          antwoord=[0, 1, 2, 4],
-         uitleg="Drie manieren om een voorbeeld aan te brengen. De laatste hoort bij de A."),
+         uitleg="Drie manieren om een voorbeeld aan te brengen. Mijn argument is dat hoort bij de A."),
     dict(type="invultekst",
          vraag="Welk woord past bij de U van AUB? Eén woord.",
          antwoord=["omdat", "want", "uitleg"],

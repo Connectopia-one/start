@@ -359,7 +359,7 @@ DEEL2 = [
             "De huurprijzen voor de panden bleven te hoog",
         ],
         antwoord=[0, 1, 2, 5],
-        uitleg="Concurrentie aan de rand, online kopen en bereikbaarheid zijn de klassieke oorzaken van leegstand. De laatste opties slaan nergens op.",
+        uitleg="Concurrentie aan de rand, online kopen en bereikbaarheid zijn de klassieke oorzaken van leegstand. Een gehalveerde bevolking en de breedtegraad van de straat slaan nergens op.",
     ),
     dict(
         type="waarofniet",

@@ -131,7 +131,7 @@ DEEL1 = [
              "Does she live here?",
          ],
          antwoord=[0, 1, 2, 4],
-         uitleg="Een gewoonte krijgt de present simple, met een s bij he en she en met do of does in een vraag of een ontkenning. De laatste zin bestaat niet."),
+         uitleg="Een gewoonte krijgt de present simple, met een s bij he en she en met do of does in een vraag of een ontkenning. He is arrive late bestaat niet."),
     dict(type="waarofniet",
          vraag="Een werkwoord op een -y na een consonant krijgt -ies in de derde persoon: he studies.",
          antwoord=True,

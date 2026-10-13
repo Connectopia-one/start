@@ -144,7 +144,7 @@ DEEL1 = [
              "hoe mensen keuzes maken",
          ],
          antwoord=[0, 1, 2, 4],
-         uitleg="Drie vragen over mensen. De vierde is chemie, dus natuurwetenschap."),
+         uitleg="Drie vragen over mensen. Hoe een molecule reageert is chemie, dus natuurwetenschap."),
     dict(type="meerkeuze",
          vraag="Waarom staat dit onderscheid vooraan in het deel filosofie?",
          opties=["zo vind je de plaats van filosofie",

@@ -360,7 +360,7 @@ DEEL2 = [
             "de motivatie",
         ],
         antwoord=[0, 1],
-        uitleg="De locus van controle en de stabiliteit zijn er twee van, de controleerbaarheid is de derde. De attitude en de motivatie horen niet bij Weiner.",
+        uitleg="Weiner werkt met drie dimensies: de locus van controle, de stabiliteit en de controleerbaarheid. De attitude en de motivatie horen niet bij Weiner.",
     ),
     dict(
         type="meerkeuze",

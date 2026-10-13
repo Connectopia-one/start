@@ -28,7 +28,7 @@ DEEL1 = [
              "kunstmest en kleurstoffen uit de chemie",
          ],
          antwoord=[0, 1, 2, 4],
-         uitleg="De stoommachine hoort bij de eerste golf. De tweede draait rond elektriciteit, olie, staal en chemie, vanaf ongeveer 1870."),
+         uitleg="De eerste stoommachines in de mijnen horen bij de eerste golf. De tweede industriële revolutie draait rond elektriciteit, olie, staal en chemie, vanaf ongeveer 1870."),
     dict(type="meerkeuze",
          vraag="In welk land kwam de eerste industriële revolutie als eerste op gang?",
          opties=["Engeland", "Frankrijk", "Duitsland", "de Verenigde Staten"],

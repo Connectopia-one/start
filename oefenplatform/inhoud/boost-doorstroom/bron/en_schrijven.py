@@ -34,7 +34,7 @@ DEEL1 = [
              "Congratulations on your new job!",
          ],
          antwoord=[0, 1, 2, 4],
-         uitleg="Belangstelling tonen, bedanken en je waardering uiten staan alle drie in de leerstof. De laatste zin geeft gewoon informatie."),
+         uitleg="Belangstelling tonen, bedanken en je waardering uiten staan alle drie in de leerstof. The train leaves at 7.15 geeft gewoon informatie."),
     dict(type="meerkeuze",
          vraag="Je schrijft een verslag over een uitstap. Welke schrijfopdracht is dat?",
          opties=["iets vertellen", "iemand overtuigen", "iets uitleggen", "je mening geven"],

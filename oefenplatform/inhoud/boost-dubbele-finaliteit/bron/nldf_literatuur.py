@@ -40,7 +40,7 @@ DEEL1 = [
             "een fantasyroman over een school voor tovenaars",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Non-fictie gaat over wat echt bestaat of gebeurd is. De laatste is verzonnen en dus fictie.",
+        uitleg="Non-fictie gaat over wat echt bestaat of gebeurd is. Een fantasyroman over een school voor tovenaars is verzonnen en dus fictie.",
     ),
     dict(
         type="waarofniet",

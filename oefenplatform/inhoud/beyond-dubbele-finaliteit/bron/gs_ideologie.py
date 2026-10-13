@@ -65,7 +65,7 @@ DEEL1 = [
             "de arbeiders moeten zich over de grenzen heen verenigen",
         ],
         antwoord=[0, 1, 4, 5],
-        uitleg="Het laatste is juist de liberale stelling, en het marxisme verwachtte niets van de kleine ondernemer.",
+        uitleg="Dat de staat de fabrieken aan hun eigenaars moet laten, is juist de liberale stelling, en het marxisme verwachtte niets van de kleine ondernemer.",
     ),
     dict(
         type="meerkeuze",

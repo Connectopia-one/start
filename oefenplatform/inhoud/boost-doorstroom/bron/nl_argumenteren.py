@@ -315,7 +315,7 @@ DEEL2 = [
             "beweren dat iets waar is omdat iedereen het zegt",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="De laatste is een gewone, geldige oorzaak-gevolgredenering, zolang het verband echt aangetoond is.",
+        uitleg="Een gevolg afleiden uit een aangetoonde oorzaak is een gewone, geldige oorzaak-gevolgredenering, zolang het verband echt aangetoond is.",
     ),
     dict(
         type="waarofniet",

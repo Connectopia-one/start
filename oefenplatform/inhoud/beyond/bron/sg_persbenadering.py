@@ -258,7 +258,7 @@ DEEL2 = [
             "de erfelijke aanleg van het individu",
         ],
         antwoord=[0, 1],
-        uitleg="De cognities en eigenschappen van het individu en zijn omgeving zijn er twee van, zijn gedrag is de derde. Het onbewuste is een begrip van Freud, niet van Bandura.",
+        uitleg="Het wederzijds determinisme van Bandura verbindt drie dingen: de cognities en eigenschappen van het individu, zijn omgeving en zijn gedrag. Het onbewuste is een begrip van Freud, niet van Bandura.",
     ),
     dict(
         type="meerkeuze",

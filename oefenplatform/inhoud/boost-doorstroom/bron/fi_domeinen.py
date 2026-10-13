@@ -219,7 +219,7 @@ DEEL2 = [
              "kan je iets weten zonder het te zien",
          ],
          antwoord=[0, 1, 2, 4],
-         uitleg="Drie vragen over weten. De laatste is ethiek."),
+         uitleg="Drie vragen over weten. Wat een goede daad is, hoort bij de ethiek."),
     dict(type="invultekst",
          vraag="Bij welk domein hoort de vraag wat een mens is? Eén woord.",
          antwoord=["antropologie", "de antropologie"],

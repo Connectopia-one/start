@@ -429,8 +429,7 @@ DEEL2 = [
             "een radio die enkel de zender oppikt waarop je hem afstemt",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="De laatste is demping, het omgekeerde verhaal. Soldaten mogen daarom op een "
-        "brug niet in de maat stappen.",
+        uitleg="Een slinger die van zelf tot stilstand komt, is demping: het omgekeerde verhaal. Soldaten mogen daarom op een brug niet in de maat stappen.",
     ),
     dict(
         type="meerkeuze",

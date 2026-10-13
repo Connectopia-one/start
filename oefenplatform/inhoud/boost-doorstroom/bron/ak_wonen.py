@@ -103,7 +103,7 @@ DEEL1 = [
             "Een dicht net van wegen en spoorlijnen",
         ],
         antwoord=[0, 1, 2, 5],
-        uitleg="Vlak land, een zacht klimaat, goede grond en water om over te varen: dat zijn samen sterke redenen om er te gaan wonen. De laatste opties beschrijven juist het omgekeerde.",
+        uitleg="Vlak land, een zacht klimaat, goede grond en water om over te varen: dat zijn samen sterke redenen om er te gaan wonen. Een ligging ver van elke haven en een bodem van kaal rotsgesteente beschrijven juist het omgekeerde.",
     ),
     dict(
         type="invultekst",

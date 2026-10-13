@@ -366,8 +366,7 @@ DEEL2 = [
             r"\(R_{v}=R_{1}+R_{2}\)",
         ],
         antwoord=[0, 1],
-        uitleg="De laatste gelden juist voor een serieschakeling. Elke tak die je "
-        "bijzet, maakt de totale weerstand kleiner.",
+        uitleg=r"\(U=U_{1}+U_{2}\) en \(R_{v}=R_{1}+R_{2}\) gelden juist voor een serieschakeling. Elke tak die je bijzet, maakt de totale weerstand kleiner.",
     ),
     dict(
         type="meerkeuze",

@@ -48,7 +48,7 @@ DEEL1 = [
             "De hond blafte luid naar de postbode.",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De laatste zin bedoelt precies wat er staat. De andere gebruiken een beeld.",
+        uitleg="De hond blafte luid naar de postbode bedoelt precies wat er staat. De andere gebruiken een beeld.",
     ),
     dict(
         type="meerkeuze",

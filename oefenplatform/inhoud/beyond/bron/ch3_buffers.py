@@ -57,8 +57,7 @@ DEEL1 = [
             "zoutzuur met natriumhydroxide",
         ],
         antwoord=[0, 1],
-        uitleg="Het eerste is een zure buffer, het tweede een basische. Een sterk zuur "
-        "met zijn zout buffert niet, want het chloride-ion neemt geen protonen op.",
+        uitleg="Azijnzuur met natriumacetaat is een zure buffer, ammoniak met ammoniumchloride een basische. Een sterk zuur met zijn zout buffert niet, want het chloride-ion neemt geen protonen op.",
     ),
     dict(
         type="waarofniet",

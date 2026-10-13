@@ -281,7 +281,7 @@ DEEL2 = [
             "De rij wachtenden staan tot aan de hoek.",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Het onderwerp is telkens 'een', 'de groep' en 'mijn ouders'. In de laatste zin is het onderwerp 'de rij', dus moet het 'staat' zijn.",
+        uitleg="Het onderwerp is telkens 'een', 'de groep' en 'mijn ouders'. In De rij wachtenden staan tot aan de hoek is het onderwerp 'de rij', dus moet het 'staat' zijn.",
     ),
     dict(
         type="meerkeuze",
