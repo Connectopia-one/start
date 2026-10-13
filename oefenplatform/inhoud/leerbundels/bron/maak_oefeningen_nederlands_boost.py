@@ -1030,3 +1030,369 @@ OEFENBUNDELS["oefenbundel-poezie-drama-en-literaire-stromingen-boost-doorstroom"
             "halen er bijna nooit precies hetzelfde thema uit.", 8),
     ],
 )
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-zender-ruis-en-de-zeven-tekstsoorten-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je bij elke tekst af wat hij met je wil doen: iets laten weten, je iets laten "
+                    "doen, je overtuigen, je meenemen of je iets laten voelen.",
+             waarom=[None, None]),
+        dict(aanpak="Allebei willen ze je overtuigen, maar langs een andere weg: persuasief speelt op "
+                    "je gevoel, argumentatief bouwt met redenen en bewijs.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Loop het schema altijd in dezelfde volgorde af: wie, aan wie, wat, waarlangs, "
+                    "waarom.",
+             waarom=[None]),
+        dict(aanpak="Ruis is alles wat de boodschap onderweg stoort. Zoek telkens of ze bij het "
+                    "versturen, bij het kanaal of bij het ontvangen zit.",
+             waarom=[None, None]),
+        dict(aanpak="Let op de woorden maar en altijd. Een tekst heeft meestal één hoofddoel en "
+                    "daarnaast nog nevenbedoelingen.",
+             waarom=[
+                 "Een tekst heeft één hoofdbedoeling, maar vaak nog andere ernaast: een reportage kan "
+                 "informeren én ontroeren.",
+                 None,
+                 None,
+                 "Een handleiding zegt wat je moet dóen, dus ze is prescriptief. Narratief is een tekst "
+                 "die een verhaal vertelt.",
+             ]),
+        dict(aanpak="Schrijf dezelfde feiten twee keer en kijk wat er verandert: bij opiniëren komt er "
+                    "een oordeel bij, de feiten blijven dezelfde.",
+             waarom=[None, None]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. Schrijf vooraf op wat je "
+                    "wil bereiken, en achteraf wat er anders liep.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-hoofdgedachte-alinea-en-structuuraanduiders-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Leer de signaalwoorden per verband, niet per woord. Zo herken je ook een woord dat "
+                    "je nog nooit zag.",
+             waarom=[None, None]),
+        dict(aanpak="Lees de hele zin voor je invult, en kijk welk verband er tussen de twee delen "
+                    "ligt. Vaak passen er meerdere woorden.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="De hoofdgedachte is de zin die de hele alinea samenvat. Een detail is een "
+                    "voorbeeld, een cijfer of een naam die de hoofdgedachte steunt.",
+             waarom=[None, None, None]),
+        dict(aanpak="Elke tekst heeft drie delen met elk een eigen taak. Vraag je bij elk deel af wat "
+                    "het voor de lezer doet.",
+             waarom=[None, None]),
+        dict(aanpak="Let op de woorden altijd en nooit: die maken een stelling snel te sterk.",
+             waarom=[
+                 None,
+                 "Een korte alinea kan net nadruk geven, bijvoorbeeld in een column of een betoog.",
+                 "Ze staat er vaak, maar ze kan ook achteraan staan als besluit, of pas blijken uit de "
+                 "hele alinea.",
+                 None,
+             ]),
+        dict(aanpak="Samenvatten is schrappen én herformuleren. Een samenvatting van losse zinnen uit "
+                    "de tekst is geen samenvatting.",
+             waarom=[None, None]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. Schrijf je structuur "
+                    "vooraf uit, en noteer achteraf waar de ander vragen stelde.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-argumenteren-stelling-argumentsoort-en-drogreden-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Eén vraag beslist: kan je het nakijken? Dan is het een feit. Kan je het betwisten, "
+                    "dan is het een stelling.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Zoek bij elk argument waar de kracht vandaan komt: uit een getal, uit een persoon, "
+                    "uit een studie, uit een vergelijking of uit een verband.",
+             waarom=[None, None]),
+        dict(aanpak="Een drogreden ziet eruit als een argument maar bewijst niets. Kijk of de redenering "
+                    "over de zaak gaat of over iets anders.",
+             waarom=[None, None]),
+        dict(aanpak="Weerleggen doe je in twee stappen: zeg wat er mis is met de redenering, en zeg dan "
+                    "hoe het wel zou moeten.",
+             waarom=[None, None]),
+        dict(aanpak="Let op de woorden altijd en nooit. Een goede regel gaat meestal over de "
+                    "voorwaarden waaronder iets telt.",
+             waarom=[
+                 None,
+                 "Een deskundige citeren is een gewoon argument. Het wordt pas een drogreden als die "
+                 "persoon niets met het onderwerp te maken heeft.",
+                 None,
+                 "Eén sterk argument weegt zwaarder dan vijf zwakke. Een zwak argument verzwakt zelfs je "
+                 "hele betoog.",
+             ]),
+        dict(aanpak="Schrijf bij elk argument op welke soort het is. Dan zie je zelf of je betoog op "
+                    "meer dan één been staat.",
+             waarom=[None]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. Let vooral op het verschil "
+                    "tussen de zaak en de persoon.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-bronnen-wegen-objectief-gekleurd-of-nep-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Zoek de woorden die een oordeel meedragen: peperduur, eindelijk, vlotjes, golf. "
+                    "Een objectieve zin zegt wat er gebeurde, met cijfers en namen.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Haal de oordeelwoorden eruit en zet er feiten voor in de plaats. Wat je niet weet, "
+                    "laat je gewoon weg.",
+             waarom=[None, None]),
+        dict(aanpak="Kijk niet naar één kenmerk maar naar het geheel: auteur, datum, bron van de "
+                    "cijfers, adres en verzorging.",
+             waarom=[None, None]),
+        dict(aanpak="Een belang maakt een bron niet waardeloos, maar wel partij. Kijk dan naar de "
+                    "methode en naar wat anderen vinden.",
+             waarom=[None, None]),
+        dict(aanpak="Drie dingen om uit elkaar te houden: een feit kan je nakijken, een mening is een "
+                    "oordeel, en een aanname wordt stilzwijgend verondersteld.",
+             waarom=[
+                 None,
+                 "Het gaat erom wélke bronnen, en of ze echt zeggen wat de tekst beweert. Een bronnenlijst "
+                 "kan ook schijnzekerheid geven.",
+                 None,
+             ]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. Let erop dat je over de "
+                    "bron spreekt en niet over de persoon die hem doorstuurde.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-standaardtaal-tussentaal-en-register-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Luister naar de vormen: standaardtaal volgt de schrijftaal, tussentaal laat "
+                    "klanken vallen, dialect heeft eigen woorden en klanken van één streek.",
+             waarom=[None]),
+        dict(aanpak="Het register volgt uit de ontvanger en de situatie, niet uit je humeur of uit hoe "
+                    "goed je iemand mag.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Vervang eerst de vormen (gij, kunde, ne keer), dan de woorden, en lees je zin "
+                    "daarna hardop na.",
+             waarom=[None, None, None]),
+        dict(aanpak="Let op het verschil tussen fout en ongepast. Een variëteit is niet fout, ze past "
+                    "wel of niet bij de situatie.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "In een gesprek met vrienden klinkt strakke standaardtaal afstandelijk. Het beste "
+                 "register is dat wat bij de situatie past.",
+             ]),
+        dict(aanpak="Een verzorgde mail heeft een vaste vorm: aanspreking, de reden in de eerste zin, "
+                    "een concrete vraag, een slotgroet en je naam.",
+             waarom=[None]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. Let niet alleen op je "
+                    "woorden maar ook op je toon en je tempo.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-woordsoorten-op-een-rij-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Een woordsoort bepaal je niet aan het woord maar aan wat het in díe zin doet. Kijk "
+                    "dus altijd naar de zin errond.",
+             waarom=[None, None]),
+        dict(aanpak="Vraag je af waarover het woord iets zegt: over een zelfstandig naamwoord "
+                    "(bijvoeglijk) of over het werkwoord (bijwoord).",
+             waarom=[None, None, None, None]),
+        dict(aanpak="De soorten voornaamwoorden herken je aan hun taak: bezitten, aanwijzen, vragen, "
+                    "terugverwijzen, of onbepaald laten.",
+             waarom=[
+                 "Let op het woord die: vóór een naamwoord wijst het aan, na een naamwoord verwijst het "
+                 "terug en is het betrekkelijk.",
+                 None,
+             ]),
+        dict(aanpak="Een lidwoord staat vóór een naamwoord en is bepaald of onbepaald. Een telwoord "
+                    "zegt hoeveel of de hoeveelste.",
+             waarom=[None, None]),
+        dict(aanpak="Werk de zin woord voor woord af en schrijf bij elk woord op waarover het iets "
+                    "zegt. Dan rolt de soort er vanzelf uit.",
+             waarom=[
+                 None,
+                 "Hetzelfde woord kan van soort wisselen: snel is bijvoeglijk in de snelle loper en "
+                 "bijwoord in hij loopt snel.",
+             ]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. Uitleggen aan iemand "
+                    "anders is de beste manier om te merken of je het zelf vastheeft.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-werkwoorden-tijden-en-woordvorming-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Lees de naam van een tijd in drie stukken: voltooid of onvoltooid, tegenwoordig of "
+                    "verleden, en al dan niet toekomend.",
+             waarom=[None, None]),
+        dict(aanpak="Zoek eerst het onderwerp en de stam. Staat jij áchter het werkwoord, dan valt de t "
+                    "weg. Een voltooid deelwoord eindigt nooit op dt.",
+             waarom=[
+                 None,
+                 "Hier staat jij achter de persoonsvorm, dus geen t: vind jij.",
+                 None,
+                 None,
+                 r"'t Kofschip: de stam brand eindigt op een d, dus -d. Je hoort een t, maar je schrijft "
+                 r"wat de stam vraagt.",
+                 "Een werkwoord op -ven of -zen heeft een v of een z als klank, niet een f of een s: dan "
+                 "krijg je -d. Dus geverfd, en ook gereisd.",
+             ]),
+        dict(aanpak="Een zwak werkwoord houdt zijn klinker en krijgt -te of -de. Een sterk werkwoord "
+                    "verandert van klinker en eindigt op -en.",
+             waarom=[None]),
+        dict(aanpak="Een samenstelling plakt twee bestaande woorden samen. Een afleiding gebruikt een "
+                    "voor- of achtervoegsel dat niet apart bestaat.",
+             waarom=[None, None]),
+        dict(aanpak="In de bedrijvende vorm doet het onderwerp de handeling; in de lijdende vorm "
+                    "ondergaat het ze. Let op worden en door.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 r"Dat hangt van 't kofschip af: na een klank uit 't kofschip krijg je -t (gewerkt), "
+                 r"anders -d (geleerd).",
+             ]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. Let op het moment waarop je "
+                    "ongemerkt van tijd wisselt.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-zinsdelen-en-samengestelde-zinnen-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Werk altijd in dezelfde volgorde: eerst de persoonsvorm, dan het onderwerp, dan de "
+                    "voorwerpen, dan de bepalingen.",
+             waarom=[None, None]),
+        dict(aanpak="Vraag: wie of wat plus de persoonsvorm? Het onderwerp staat niet altijd vooraan in "
+                    "de zin.",
+             waarom=[None]),
+        dict(aanpak="Een hoofdzin kan op zichzelf staan, een bijzin niet. Kijk ook naar de plaats van "
+                    "de persoonsvorm.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Nevenschikking zet twee gelijkwaardige zinnen naast elkaar (en, maar, of, want). "
+                    "Onderschikking hangt er een bijzin aan (omdat, toen, dat, die).",
+             waarom=[None, None]),
+        dict(aanpak="Zoek bij het ombouwen eerst welk verband je wil leggen, en kies dan het voegwoord "
+                    "of het betrekkelijk voornaamwoord dat erbij hoort.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Een bijzin is afhankelijk: hij hangt aan een hoofdzin. Alleen klinkt hij onaf.",
+             ]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. Ontleden wordt pas "
+                    "makkelijk als je het hardop doet.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-spelling-leestekens-en-klanken-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="In het Nederlands krijgen eigennamen, landen, talen en volkeren een hoofdletter. "
+                    "Dagen, maanden en seizoenen niet.",
+             waarom=[None, None, None]),
+        dict(aanpak="Twijfel je, zeg het dan hardop: ligt de klemtoon op één geheel, dan schrijf je "
+                    "vast. Een streepje komt erbij als twee klinkers tegen elkaar botsen.",
+             waarom=[None, None]),
+        dict(aanpak="Lees de zin hardop. Waar je pauzeert, staat meestal een komma; waar iets "
+                    "aangekondigd wordt, een dubbelpunt.",
+             waarom=[None, None, None]),
+        dict(aanpak="Twee leestekens die op elkaar lijken: de puntkomma bindt twee hele zinnen, de "
+                    "dubbelpunt kondigt aan wat er komt.",
+             waarom=[None, None]),
+        dict(aanpak="Elke lettergreep heeft precies één klinkerklank. Tel dus de klanken, niet de "
+                    "letters.",
+             waarom=[None, None, None]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. Leestekens hoor je aan de "
+                    "pauzes, dus doe het hardop.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-betekenis-beeldspraak-en-gevoelswaarde-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Zoek het woordje als of zoals. Staat het er, dan is het een vergelijking; staat er "
+                    "is, dan wordt het ene het andere genoemd en is het een metafoor.",
+             waarom=[None]),
+        dict(aanpak="Vraag je bij elke zin af wat er precies gebeurt: krijgt iets levenloos menselijke "
+                    "trekken, wordt er overdreven, of wordt het omgekeerde bedoeld?",
+             waarom=[None, None]),
+        dict(aanpak="Een uitdrukking kan vaak ook letterlijk kloppen. Lees de zin dan twee keer: eerst "
+                    "woord voor woord, dan als beeld.",
+             waarom=[None, None, None]),
+        dict(aanpak="Woorden met bijna dezelfde betekenis kunnen een heel ander gevoel meedragen. Vraag "
+                    "je af of het woord prijst of afkeurt.",
+             waarom=[None, None]),
+        dict(aanpak="Raad een onbekend woord uit twee dingen: de rest van de zin, en de bouw van het "
+                    "woord zelf.",
+             waarom=[
+                 None,
+                 None,
+                 "Synoniemen verschillen in gevoelswaarde en in register. Spaarzaam en gierig betekenen "
+                 "ongeveer hetzelfde en toch zou je ze nooit verwisselen.",
+             ]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. Uitleggen zonder de "
+                    "uitdrukking zelf te gebruiken, is de test.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-verhalen-ontleden-verteller-tijd-en-ruimte-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je af door wiens ogen je kijkt, en hoeveel die verteller weet: alleen wat "
+                    "één personage weet, of alles, ook wat elders gebeurt.",
+             waarom=[None, None]),
+        dict(aanpak="Een rond personage heeft meerdere kanten en verandert; een vlak personage heeft "
+                    "één eigenschap en blijft gelijk.",
+             waarom=[None, None, None]),
+        dict(aanpak="Let op de richting: een flashback gaat terug, een flashforward vooruit, en een "
+                    "tijdsprong slaat gewoon een stuk over.",
+             waarom=[None, None]),
+        dict(aanpak="De ruimte doet meer dan een plaats aangeven: ze zegt iets over de personages, over "
+                    "de sfeer, of ze staat voor iets anders.",
+             waarom=[
+                 None,
+                 None,
+                 "Ook een waargebeurd verhaal kan spannend opgebouwd worden, met een cliffhanger of een "
+                 "vertraging. Spanning zit in de vertelling, niet in de verzinsels.",
+             ]),
+        dict(aanpak="Fictie is verzonnen, non-fictie claimt dat het echt gebeurd is. Kijk naar wat de "
+                    "tekst van zichzelf beweert.",
+             waarom=[None, None]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. Let op waar de ander "
+                    "doorvraagt: daar zit een gat in je vertelling.",
+             waarom=[None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-poezie-drama-en-literaire-stromingen-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Leer de bouwstenen van een gedicht als rijtje: versregel, strofe, rijmschema, "
+                    "refrein. Die woorden heb je bij elke analyse nodig.",
+             waarom=[None, None]),
+        dict(aanpak="Let op waar de klank terugkomt: achteraan de regel (eindrijm), vooraan de woorden "
+                    "(alliteratie), of in de klinkers (assonantie).",
+             waarom=[None, None]),
+        dict(aanpak="Bij toneel kijk je naar alles wat de tekst niet is: wat je ziet, hoort en wat de "
+                    "spelers aanhebben of vasthebben.",
+             waarom=[None, None, None]),
+        dict(aanpak="Zet de stromingen op een tijdlijn met hun kernwoord: rede, gevoel, werkelijkheid. "
+                    "Elke stroming reageert op de vorige.",
+             waarom=[None, None]),
+        dict(aanpak="Let op de woorden altijd en nooit. Bij poëzie is bijna niets verplicht.",
+             waarom=[
+                 "Vrije verzen hebben geen rijm en geen vast metrum. Rijm is een middel, geen "
+                 "voorwaarde.",
+                 "Het lyrisch ik is een rol, net als een verteller in een verhaal. Een dichter kan ik "
+                 "zeggen als een kind, een dier of iemand anders.",
+                 None,
+             ]),
+        dict(aanpak="Deze oefening is pas af als je ze ook echt gedaan hebt. Hardop lezen laat het "
+                    "metrum en de enjambementen zelf horen.",
+             waarom=[None]),
+    ],
+)
