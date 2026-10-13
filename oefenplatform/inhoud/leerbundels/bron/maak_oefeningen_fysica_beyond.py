@@ -2549,3 +2549,2308 @@ OEFENBUNDELS["oefenbundel-wetenschappelijk-onderzoek-ontwerpen-en-stem-beyond"] 
              ]),
     ],
 )
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-elektrische-lading-geleiders-en-influentie-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Stel bij elke stof één vraag: kan er lading in bewegen. Metalen hebben vrije "
+                   "elektronen, een zoutoplossing heeft vrije ionen, en al de rest houdt zijn "
+                   "lading vast.",
+            waarom=[
+                "Let op zout water: dat geleidt niet door elektronen maar door ionen die zelf "
+                "verplaatsen. Zuiver water geleidt bijna niet, dus het zout doet het werk.",
+                None,
+                "Noem waar de ladingdrager zit. In een metaal horen de buitenste elektronen bij het "
+                "hele stuk en niet bij één atoom, dus kunnen ze door het rooster lopen. In glas zit "
+                "elk elektron vast aan zijn eigen atoom.",
+            ],
+        ),
+        dict(
+            aanpak="Gelijknamig stoot af, ongelijknamig trekt aan. Twee keer hetzelfde teken geeft "
+                   "dus altijd afstoting, wat de grootte ook is.",
+            waarom=[
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Leer de voorvoegsels als machten van tien: m is tien tot de min drie, micro min "
+                   "zes, n min negen en p min twaalf. Zet daarna het getal in de vorm met één cijfer "
+                   "voor de komma.",
+            waarom=[
+                "Let op 40 pC: dat wordt niet 40 maal tien tot de min twaalf maar 4,0 maal tien tot "
+                "de min elf, want in de wetenschappelijke notatie staat er één cijfer voor de komma.",
+            ],
+        ),
+        dict(
+            aanpak="Elke lading is een geheel aantal elementaire ladingen. Schrijf Q is n maal e op "
+                   "en vorm om naar wat gevraagd wordt; let daarna op het teken.",
+            waarom=[
+                "Let op het teken: elektronen missen betekent dat het negatieve deel weg is, dus "
+                "blijft er positieve lading over. Het getal zelf verandert niet, enkel het teken.",
+                "Let op dat een aantal elektronen altijd een geheel getal is. Kom je op 199,75 uit, "
+                "dan rond je af op 200, want een deel van een elektron bestaat niet.",
+                None,
+                "Noem dat de uitkomst geen geheel getal is. Lading is gekwantiseerd, dus ze komt in "
+                "hele pakjes e; dat is net de reden dat de waarde van e met zo veel cijfers gekend "
+                "is.",
+            ],
+        ),
+        dict(
+            aanpak="Bij aanraken geldt maar één regel: de totale lading blijft gelijk, en twee even "
+                   "grote bollen verdelen ze gelijk. Tel dus eerst de som en deel die daarna.",
+            waarom=[
+                "Let op dat de som genomen wordt met de tekens erbij: plus vier en min twee geven "
+                "plus twee, en gedeeld door twee geeft dat plus één nanocoulomb elk.",
+                "Let op dat A niet meer verandert nadat ze gescheiden zijn. Elke keer deel je enkel "
+                "wat de twee bollen die elkaar nú aanraken samen dragen, en de som van de drie "
+                "blijft plus negen nanocoulomb.",
+                "Let op de tweede kolom: twee bollen die al evenveel dragen, wisselen bij een nieuw "
+                "contact niets meer uit. Een tweede aanraking verandert dus niets.",
+            ],
+        ),
+        dict(
+            aanpak="Bij elke bewering gaat het over hetzelfde onderscheid: lading verschuiven is "
+                   "niet hetzelfde als lading maken. Vraag je af of er iets nieuw ontstaat of enkel "
+                   "verhuist.",
+            waarom=[
+                "Niet waar: bij wrijven verhuizen elektronen van de ene stof naar de andere. De ene "
+                "wordt even negatief als de andere positief, dus de totale lading blijft nul.",
+                None,
+                "Niet waar: influentie werkt juist op afstand, zonder contact. Raak je aan, dan heet "
+                "het laden door contact en krijg je hetzelfde teken.",
+                None,
+                "Niet waar: neutraal betekent even veel positieve als negatieve lading, niet geen "
+                "lading. Juist daarom kan een neutraal voorwerp gepolariseerd worden.",
+            ],
+        ),
+        dict(
+            aanpak="Volg bij influentie de elektronen stap voor stap, en vraag je bij elke stap af "
+                   "of er lading weg kan. Zonder aarding verschuift ze enkel; met aarding verdwijnt "
+                   "ze echt.",
+            waarom=[
+                "Let op de tweede stap: de bol is nog altijd neutraal, ook al is de lading nu "
+                "ongelijk verdeeld. Pas bij de aarding gaat er echt lading weg.",
+                "Noem het verschil in één zin per geval. Bij contact vloeit lading over, dus "
+                "hetzelfde teken; bij influentie met aarding wordt de gelijknamige lading "
+                "weggeduwd, dus blijft het tegengestelde teken achter.",
+                "Let op dat de blaadjes weer samenvallen: zonder aanraken is er niets weggevloeid, "
+                "dus was de bol nooit echt geladen. De blaadjes blijven enkel uitstaan als je "
+                "tussendoor geaard hebt.",
+            ],
+        ),
+        dict(
+            aanpak="Een goede uitleg heeft twee stappen: eerst hoe het voorwerp geladen raakt, dan "
+                   "wat die lading met zijn omgeving doet. Schrijf ze apart, want er staan vaak twee "
+                   "punten op.",
+            waarom=[
+                "Noem beide stappen. Eerst het wrijven dat elektronen verplaatst, dan de "
+                "polarisatie van de muur: die wordt niet geladen, zijn moleculen draaien enkel, en "
+                "de dichtste kant wordt lichtpositief.",
+                None,
+                "Noem dat het de stromende brandstof zelf is die laadt, door wrijving tegen de "
+                "leiding. Zonder aarding kan die lading enkel weg via een vonk, en dampen van "
+                "brandstof ontsteken daarmee.",
+                "Noem ook de oplossing, want die is uitdrukkelijk gevraagd. Vochtige lucht geleidt, "
+                "dus lekt de lading weg; droger maken of een betere isolatie helpt.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-wet-van-coulomb-en-het-elektrisch-veld-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Kijk waar de grootheid in de formule staat. De afstand staat in het kwadraat "
+                   "onder de breuk, de ladingen staan gewoon boven, dus gedragen ze zich anders.",
+            waarom=[
+                "Let op de derde: de afstand drie keer zo groot geeft negen keer kleiner, dus twaalf "
+                "gedeeld door negen is ongeveer 1,3 newton. Niet drie keer kleiner.",
+                "Let op de tweede: verdubbelen beide ladingen, dan gaat de kracht maal twee en nog "
+                "eens maal twee, dus maal vier.",
+                "Noem het kwadraat uitdrukkelijk. De halve afstand in het kwadraat is een kwart van "
+                "de afstand in het kwadraat, en een kwart in de noemer geeft maal vier.",
+            ],
+        ),
+        dict(
+            aanpak="Werk altijd in dezelfde orde: formule opschrijven, ladingen in coulomb zetten, "
+                   "de afstand in meter kwadrateren, dan pas rekenen. Het teken van de ladingen "
+                   "gebruik je enkel om te zeggen of ze aantrekken of afstoten.",
+            waarom=[
+                "Let op dat je met de absolute waarden rekent. De tekens zeggen enkel dat het hier "
+                "om aantrekking gaat; ze mogen niet in de breuk terechtkomen, anders krijg je een "
+                "negatieve kracht die niets betekent.",
+                "Let op de wortel op het einde: je vindt eerst q in het kwadraat, en dan nog de "
+                "wortel. Uit afstoting volgt dat de ladingen gelijknamig zijn, maar niet of ze beide "
+                "positief of beide negatief zijn.",
+                "Let op de richting. Voor de grootte neem je de absolute waarde van q, en het teken "
+                "beslist pas daarna waar het veld naartoe wijst: naar een negatieve lading toe, van "
+                "een positieve weg.",
+            ],
+        ),
+        dict(
+            aanpak="Twee ladingen tegelijk betekent twee krachten die je als pijlen optelt. Teken "
+                   "dus eerst, want daaruit zie je of je de getallen moet aftrekken of optellen.",
+            waarom=[
+                "Let op dat de twee krachten hier tegengesteld gericht zijn, dus trek je ze af. De "
+                "dichtste lading levert veel meer dan de verste, want de afstand staat in het "
+                "kwadraat.",
+                "Let op dat de k en de q wegvallen: je houdt enkel de verhouding van de kwadraten "
+                "over. Het nulpunt ligt altijd dichter bij de kleinste lading, en dat is een goede "
+                "controle op je uitkomst.",
+                "Krachten zijn vectoren: staan ze niet op één lijn, dan moet je ontbinden in "
+                "componenten. Enkel op één rechte mag je de getallen gewoon optellen of aftrekken.",
+            ],
+        ),
+        dict(
+            aanpak="E is de kracht per eenheid lading. Met F is E maal q kan je in beide richtingen "
+                   "werken; zet de lading eerst in coulomb.",
+            waarom=[
+                "Let op de omzetting: 2 mC is twee maal tien tot de min drie coulomb. Vergeet je "
+                "die, dan zit je er duizend keer naast.",
+                None,
+                "Noem beide schrijfwijzen. Newton per coulomb en volt per meter zijn dezelfde "
+                "eenheid; de tweede gebruik je bij platen en spanning, de eerste bij een kracht op "
+                "een lading.",
+            ],
+        ),
+        dict(
+            aanpak="Veldlijnen zijn een tekening van de richting van de kracht op een positieve "
+                   "proeflading. Uit die ene afspraak volgen alle regels in deze reeks.",
+            waarom=[
+                "Let op het homogene veld tussen twee platen: daar lopen de lijnen parallel en op "
+                "gelijke afstand, dus is het veld overal even sterk. Rond één puntlading lopen ze "
+                "radiaal en wordt het veld zwakker naar buiten.",
+                "Niet waar: in één punt heeft het veld maar één richting. Zouden twee lijnen er "
+                "snijden, dan zou het veld daar twee richtingen hebben, en dat kan niet.",
+                None,
+                None,
+                None,
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Deze vragen vragen een reden, niet een getal. Zeg telkens welke eigenschap van "
+                   "het veld of van de formule je gebruikt.",
+            waarom=[
+                "Noem de kooi van Faraday. De lading blijft aan de buitenkant van het metaal en "
+                "binnenin is het veld nul; dat je in een vliegtuig zit, verandert daar niets aan.",
+                "Let op dat het antwoord nul is omdat de twee krachten even groot en tegengesteld "
+                "zijn, niet omdat er geen kracht werkt. De middelste lading voelt beide buren wel.",
+                "Noem één van elk, zoals gevraagd. Beide krachten nemen af met het kwadraat van de "
+                "afstand, maar gravitatie kent enkel aantrekking en de coulombkracht beide tekens.",
+                "Zoek beide fouten, want er staan er twee. De centimeter die niet omgezet werd, en "
+                "de afstand die niet gekwadrateerd werd; samen verklaren die het verschil tussen "
+                "zijn uitkomst en ongeveer twee newton.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-elektrische-energie-potentiaal-en-spanning-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Hou de symbolen uit elkaar voor je begint te rekenen: V is de potentiaal in één "
+                   "punt, U het verschil tussen twee punten, en E is hier de veldsterkte en niet de "
+                   "energie.",
+            waarom=[
+                "Let op de dubbele betekenis van E: in deze tabel staat E voor de veldsterkte in "
+                "newton per coulomb, maar in andere formules staat E voor energie in joule. Enkel de "
+                "eenheid maakt duidelijk welke van de twee bedoeld is.",
+            ],
+        ),
+        dict(
+            aanpak="W is q maal U, met de lading in coulomb en de spanning in volt. Vorm de formule "
+                   "eerst om naar de gevraagde grootheid, en vul dan pas in.",
+            waarom=[
+                None,
+                None,
+                None,
+                "Let op de omzetting: 250 microcoulomb is 250 maal tien tot de min zes coulomb. Zet "
+                "die stap apart op papier, want dat is de fout die hier het vaakst gemaakt wordt.",
+                "Let op het verschil tussen deze vraag en de vorige. Met een potentiaal in één punt "
+                "reken je de energie in dat punt, dus Ep is q maal V; met een spanning reken je de "
+                "energie die vrijkomt op de weg tussen twee punten.",
+            ],
+        ),
+        dict(
+            aanpak="Elke grootheid is hier per eenheid van lading: de potentiaal is de energie per "
+                   "lading, de veldsterkte de kracht per lading. Zeg bij elke definitie dus ook per "
+                   "wat.",
+            waarom=[
+                None,
+                "Let op het dubbele minteken: tachtig min min twintig is honderd. Een negatieve "
+                "potentiaal is gewoon een getal onder nul en geen fout.",
+                "Let op de centimeters: vijf centimeter is 0,050 meter. U gedeeld door d geeft volt "
+                "per meter, en dat is dezelfde eenheid als newton per coulomb.",
+                None,
+                "Niet waar: een positieve lading beweegt vanzelf van hoge naar lage potentiaal, net "
+                "zoals een steen vanzelf naar beneden valt. Een negatieve lading doet het omgekeerde.",
+                None,
+                "Niet waar: de potentiaal in een punt is een eigenschap van het veld, niet van de "
+                "lading die je erin zet. Wat wel groter wordt, is de energie van die lading.",
+            ],
+        ),
+        dict(
+            aanpak="De energie die het deeltje wint, wordt kinetische energie: q maal U is een half "
+                   "m v kwadraat. Vorm om naar v en reken pas op het einde de wortel.",
+            waarom=[
+                "Let op de factor twee die uit het een half komt: v is de wortel uit twee q U "
+                "gedeeld door m. Vergeet je die twee, dan zit je er een factor 1,4 naast.",
+                "Noem dat de energie dezelfde is en enkel de massa verschilt. Een proton is ongeveer "
+                "1836 keer zwaarder, en de snelheid gaat met de wortel daarvan, dus ongeveer 43 keer "
+                "trager.",
+                "Let op dat de lading van een alfadeeltje twee keer de elementaire lading is, dus "
+                "wint het bij dezelfde spanning dubbel zo veel energie. In elektronvolt kan je het "
+                "zonder rekenen zien: twee keer duizend volt is tweeduizend elektronvolt.",
+            ],
+        ),
+        dict(
+            aanpak="Schrijf bij een vraagstuk eerst op wat gegeven is en welke formule de twee "
+                   "verbindt. Vaak heb je er twee nodig: eerst het veld, dan de kracht.",
+            waarom=[
+                "Let op de twee stappen: eerst E is U gedeeld door d, dan F is E maal q met de "
+                "elementaire lading. Die tweede stap vergeten is de klassieke fout hier.",
+                "Let op dat de potentiaal als een gewoon getal optelt, met zijn teken erbij. Plus en "
+                "min heffen elkaar op, dus V is nul, terwijl het veld daar juist maximaal is: dat "
+                "zijn twee verschillende dingen.",
+                "Let op de voorwaarde die in het woord stil zit: zweeft het deeltje stil, dan is de "
+                "elektrische kracht precies gelijk aan het gewicht. Die ene gelijkheid geeft je de "
+                "hele oplossing.",
+            ],
+        ),
+        dict(
+            aanpak="Deze vier vragen gaan over het verschil tussen een potentiaalverschil en een "
+                   "potentiaal, en tussen een getal en een vector. Zeg telkens welk van de twee je "
+                   "gebruikt.",
+            waarom=[
+                "Noem dat V niet verandert. Op een equipotentiaallijn is het potentiaalverschil nul, "
+                "dus is de arbeid nul; de kracht staat er loodrecht op, en loodrecht op de "
+                "verplaatsing levert geen arbeid.",
+                "Noem dat het om het verschil tussen zijn pootjes gaat. Dat de draad zelf op "
+                "duizenden volt staat, maakt niets uit; zou de vogel ook de grond of een tweede "
+                "draad raken, dan was er wel een groot verschil.",
+                "Noem dat het verlies met de stroom in het kwadraat gaat. Bij hetzelfde vermogen "
+                "geeft een hoge spanning een kleine stroom, en de helft minder stroom betekent vier "
+                "keer minder verlies.",
+                "Noem dat V een getal is en E een vector. Twee tegengestelde potentialen tellen weg "
+                "tot nul, maar twee velden die dezelfde kant op wijzen tellen op.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-elektrodynamica-stroom-weerstand-en-schakelingen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="U is R maal I, en I is de lading per seconde. Zet de tijd altijd in seconden en "
+                   "de stroom in ampère voor je invult.",
+            waarom=[
+                None,
+                None,
+                "Let op dat de stroom de lading per seconde is, dus coulomb gedeeld door seconden. "
+                "Eén ampère is precies één coulomb per seconde, en dat is de hele definitie.",
+                "Let op de minuten: vijf minuten is 300 seconden. Werk je met minuten, dan is je "
+                "antwoord zestig keer te klein.",
+            ],
+        ),
+        dict(
+            aanpak="In serie tel je de weerstanden gewoon op. Parallel tel je de omgekeerden op, en "
+                   "bij twee weerstanden mag je het product gedeeld door de som gebruiken.",
+            waarom=[
+                None,
+                "Let op dat het product gedeeld door de som enkel bij twee weerstanden mag. Bij drie "
+                "moet je met de omgekeerden werken.",
+                "Let op de snelle regel: n gelijke weerstanden parallel geven de weerstand gedeeld "
+                "door n. Dat is hetzelfde als drie keer een dertigste optellen.",
+                "Let op dat je hier met de omgekeerden moet werken en niet gewoon aftrekken. Eén "
+                "gedeeld door acht min één gedeeld door vierentwintig geeft twee vierentwintigsten, "
+                "en dan nog omkeren.",
+                "Noem dat elke tak een extra weg is. Bij dezelfde spanning loopt er in totaal meer "
+                "stroom dan door de kleinste tak alleen, en meer stroom bij dezelfde spanning "
+                "betekent een kleinere weerstand.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je bij elke eigenschap af wat dezelfde blijft: in serie de stroom, "
+                   "parallel de spanning. Uit die twee volgen alle andere kenmerken.",
+            waarom=[
+                None,
+                "Let op het verschil tussen de twee laatste: in serie onderbreekt één stuk de hele "
+                "kring, parallel heeft elke tak zijn eigen weg. Dat is precies waarom een huis "
+                "parallel geschakeld is.",
+            ],
+        ),
+        dict(
+            aanpak="Reken altijd in dezelfde orde: eerst de vervangingsweerstand, dan de "
+                   "hoofdstroom, dan pas de deelspanningen. Controleer op het einde of de "
+                   "deelspanningen samen de bronspanning geven.",
+            waarom=[
+                "Let op de controle op het einde: acht plus twaalf plus twintig is veertig volt, dus "
+                "precies de bronspanning. In serie moet die som altijd kloppen.",
+                "Let op de controle: de twee takstromen samen geven de hoofdstroom, en de "
+                "vervangingsweerstand uit die hoofdstroom moet kloppen met het product gedeeld door "
+                "de som.",
+                "Let op de orde: eerst het parallelle stuk tot één weerstand herleiden, en dan pas "
+                "optellen bij de weerstand in serie. Over het parallelle stuk staat de spanning die "
+                "bij diezelfde hoofdstroom hoort.",
+            ],
+        ),
+        dict(
+            aanpak="P is U maal I, en met de wet van Ohm erbij ook R maal I kwadraat of U kwadraat "
+                   "gedeeld door R. Kies de vorm waarvan je de twee grootheden hebt.",
+            waarom=[
+                None,
+                None,
+                "Let op dat een kilowattuur een eenheid van energie is en geen vermogen. Reken het "
+                "vermogen in kilowatt en de tijd in uren, dan valt de omzetting weg.",
+                "Let op dat je hier R maal I kwadraat neemt, want je kent de spanning niet. En "
+                "vermogen in watt is al joule per seconde, dus het antwoord staat er meteen.",
+            ],
+        ),
+        dict(
+            aanpak="Zeg bij elke vraag eerst of het om een serie- of een parallelschakeling gaat, en "
+                   "welke formule daaruit volgt. Dan schrijft het antwoord zich bijna zelf.",
+            waarom=[
+                "Noem beide gevolgen: de totale weerstand stijgt dus de stroom daalt, en diezelfde "
+                "bronspanning moet nu over meer lampjes verdeeld worden. Daarom branden ze alle "
+                "zwakker, niet enkel het nieuwe.",
+                "Noem beide redenen, want er zijn er twee. Elk toestel krijgt de volle 230 volt, en "
+                "een toestel dat uitvalt onderbreekt de rest niet.",
+                "Noem de twee formules samen. Het verlies gaat met de stroom in het kwadraat, en een "
+                "dikkere kabel heeft een grotere doorsnede en dus een kleinere weerstand.",
+                "Noem waar elk toestel staat. Een ampèremeter staat in serie en mag de stroom niet "
+                "verkleinen; een voltmeter staat parallel en mag geen stroom wegtrekken van het "
+                "onderdeel dat ze meet.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-magneten-en-het-magnetisch-veld-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Twee regels dekken deze hele reeks: gelijke polen stoten af, en enkel ijzer, "
+                   "nikkel en kobalt worden aangetrokken. Alle andere metalen niet.",
+            waarom=[
+                None,
+                "Let op dat een spoel met stroom zich net als een staafmagneet gedraagt, met een "
+                "noord- en een zuidkant. Dezelfde regel over polen geldt dus ook voor twee spoelen.",
+                "Let op koper: het is een uitstekende geleider van elektriciteit maar wordt niet "
+                "aangetrokken. Goed geleiden en magnetisch zijn hebben niets met elkaar te maken.",
+                "Let op aluminium: ook een metaal, en ook niet magnetisch. De drie die wel werken "
+                "zijn ijzer, nikkel en kobalt, en dat rijtje is het waard om vanbuiten te kennen.",
+            ],
+        ),
+        dict(
+            aanpak="Zet de voorvoegsels om naar machten van tien, en hou de twee eenheden uit "
+                   "elkaar: de tesla is de officiële eenheid, de gauss een oudere die tienduizend "
+                   "keer kleiner is.",
+            waarom=[
+                None,
+                "Let op dat gauss de kleinere eenheid is, dus wordt het getal groter: 1,5 tesla is "
+                "15 000 gauss. Vermenigvuldig met tien tot de vierde, niet delen.",
+                "Let op de weissgebieden: dat zijn hele gebiedjes waarin de magneetjes al gelijk "
+                "staan, niet de magneetjes zelf. Magnetiseren betekent die gebiedjes gelijk richten.",
+                "Let op het verschil tussen de twee: de rechterhandregel geeft de zin van het veld, "
+                "de flux is een hoeveelheid veldlijnen door een oppervlak.",
+                "Let op de curietemperatuur: boven die temperatuur schudt de warmte de "
+                "weissgebieden door elkaar, dus verliest ijzer zijn magnetisme. Voor ijzer ligt ze "
+                "rond 770 graden celsius.",
+            ],
+        ),
+        dict(
+            aanpak="Reken met mu nul gedeeld door twee pi als twee maal tien tot de min zeven, dan "
+                   "blijft er enkel I gedeeld door r over. Zet de afstand altijd in meter.",
+            waarom=[
+                None,
+                None,
+                "Let op de twee centimeter: dat is 0,020 meter. Vorm de formule eerst om naar I en "
+                "vul dan pas in.",
+                "Let op wat de vraag betekent: je zoekt de afstand waarop het veld van de draad even "
+                "sterk is als dat van de aarde. Het aardveld is dus de gegeven B, en je vormt om "
+                "naar r.",
+                "Let op dat de afstand hier gewoon in de noemer staat, dus vier keer verder geeft "
+                "vier keer zwakker. Niet zestien keer: dat zou gelden bij een kwadraat.",
+                "Let op dat de twee veranderingen elkaar hier opheffen. Stroom en afstand beide maal "
+                "twee laat de verhouding I op r gelijk, dus blijft B dezelfde.",
+                "Reken met de verhouding, zoals gevraagd: maal drie door de stroom en gedeeld door "
+                "zes door de afstand geeft samen de helft. Dat is sneller en veiliger dan opnieuw "
+                "invullen.",
+            ],
+        ),
+        dict(
+            aanpak="In een spoel telt enkel het aantal windingen per meter, niet het aantal "
+                   "windingen alleen. Reken dus eerst N gedeeld door de lengte uit, en vul dat in.",
+            waarom=[
+                "Let op dat je eerst N gedeeld door de lengte neemt: 500 windingen op 0,25 meter is "
+                "2000 per meter. Vul je 500 in, dan zit je er een factor vier naast.",
+                None,
+                None,
+                "Let op dat hier naar windingen per meter gevraagd wordt en niet naar een aantal "
+                "windingen. Je antwoord is dus een getal per meter, en de lengte van de spoel speelt "
+                "geen rol.",
+                "Noem dat enkel de windingdichtheid verschilt. Even veel windingen op de halve "
+                "lengte geeft dubbel zo veel per meter, dus een twee keer zo sterk veld.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je bij elke bewering af of ze over een magneet, een rechte draad of een "
+                   "spoel gaat. De drie gedragen zich anders, en juist dat wordt hier getoetst.",
+            waarom=[
+                "Niet waar: je krijgt twee kleinere magneten, elk met een noord- en een zuidpool. "
+                "Een losse pool bestaat niet, en daarin verschilt magnetisme van elektrische lading.",
+                None,
+                "Waar, en dat verrast vaak. De noordpool van een kompasnaald wijst naar het "
+                "geografische noorden, dus moet daar een magnetische zuidpool liggen, want "
+                "ongelijke polen trekken aan.",
+                "Niet waar: de veldlijnen van een rechte draad zijn cirkels rond de draad. Zet je "
+                "duim in de zin van de stroom, dan geven je vingers de zin van die cirkels.",
+                None,
+                "Niet waar: bij een rechte draad daalt het veld met de afstand zelf, dus met één op "
+                "r. Het kwadraat hoort bij een puntlading of een puntmassa.",
+                None,
+                "Niet waar: de tesla is een heel grote eenheid. Een koelkastmagneet zit rond enkele "
+                "millitesla, een MRI-toestel rond anderhalf tot drie tesla.",
+            ],
+        ),
+        dict(
+            aanpak="Deze vragen vragen een reden. Zeg telkens welk beeld je gebruikt: de "
+                   "weissgebieden, het aardveld of de manier waarop het veld zich in de ruimte "
+                   "spreidt.",
+            waarom=[
+                "Noem de weissgebieden. In ijzer staan er magneetjes die je gelijk kan richten, in "
+                "koper zijn er geen, dus valt er niets te richten.",
+                "Noem beide delen van de vraag. De naald draait zich in het aardveld, en een magneet "
+                "dichtbij maakt een veel sterker veld ter plaatse, dus wint die het van de aarde.",
+                "Noem er drie, zoals gevraagd: meer stroom, meer windingen per meter, en een kern "
+                "van zacht ijzer. Zacht ijzer, want dat laat zijn magnetisme weer los als de stroom "
+                "wegvalt.",
+                "Noem hoe het veld zich spreidt. Rond een punt spreidt het over een bol, en de "
+                "oppervlakte van een bol gaat met r in het kwadraat; rond een lange draad spreidt "
+                "het enkel over een cilinder, en de omtrek gaat met r. Eén richting minder geeft één "
+                "macht minder.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-magnetische-kracht-op-een-stroom-en-op-een-lading-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="F is B maal I maal de lengte, en de sinus van de hoek erbij. Staat er geen hoek, "
+                   "dan is de sinus één en valt hij weg.",
+            waarom=[
+                None,
+                None,
+                None,
+                "Let op de 25 centimeter: dat is 0,25 meter. Een lengte in centimeter laten staan "
+                "geeft een antwoord dat honderd keer te klein is.",
+                "Let op de sinus van dertig graden: die is precies een half, dus halveert de kracht. "
+                "Dat is een waarde die het waard is vanbuiten te kennen.",
+                "Let op de sinus van vijfenveertig graden: ongeveer 0,71, dus iets meer dan twee "
+                "derde van de volle kracht. Reken eerst de kracht zonder hoek en vermenigvuldig dan.",
+            ],
+        ),
+        dict(
+            aanpak="De lorentzkracht is q maal v maal B, met de sinus van de hoek tussen de snelheid "
+                   "en het veld. Werk met machten van tien en tel de exponenten op.",
+            waarom=[
+                None,
+                "Let op dat je voor een elektron de elementaire lading neemt, zonder het minteken. "
+                "Het teken bepaalt enkel de kant waar de kracht naartoe wijst, niet de grootte.",
+                "Let op dat de massa hier geen rol speelt: in de formule voor de kracht staat enkel "
+                "de lading. Een proton en een elektron met dezelfde snelheid voelen dezelfde kracht, "
+                "maar het elektron buigt veel sterker af.",
+                None,
+                "Noem de sinus van nul. Beweegt de lading langs de veldlijnen, dan is er geen "
+                "component dwars op het veld, dus geen kracht. Dat is het enige geval waarin een "
+                "bewegende lading in een magnetisch veld niets voelt.",
+            ],
+        ),
+        dict(
+            aanpak="De magnetische kracht is hier de middelpuntzoekende kracht, en daaruit volgt r "
+                   "is m v gedeeld door q B. Let erop dat in de omlooptijd geen snelheid staat.",
+            waarom=[
+                None,
+                "Let op dat een elektron een veel kleinere bocht maakt dan een proton, ook al is het "
+                "sneller: zijn massa is bijna tweeduizend keer kleiner, en de straal gaat met de "
+                "massa.",
+                "Let op dat je hier de omlooptijd neemt en niet de omtrek gedeeld door de snelheid. "
+                "Beide geven hetzelfde, maar de formule met T is korter en je hebt de snelheid niet "
+                "nodig.",
+                "Let op dat bij dezelfde lading en snelheid de straal gewoon met de massa gaat. De "
+                "verhouding van de stralen is dus de verhouding van de massa's, en dat is precies "
+                "waarop een massaspectrometer werkt.",
+                "Noem beide stukken van de snelheid. Het deel langs het veld gaat onveranderd door, "
+                "het deel dwars erop maakt een cirkel, en samen geeft dat een schroeflijn.",
+            ],
+        ),
+        dict(
+            aanpak="Kijk waar de grootheid in de formule staat: boven de breuk geeft recht "
+                   "proportioneel, onder de breuk omgekeerd. Veranderen er twee, dan combineer je de "
+                   "twee effecten.",
+            waarom=[
+                "Let op de sinus: van negentig naar dertig graden gaat de sinus van één naar een "
+                "half, dus halveert de kracht. De hoek zelf delen door drie zou een heel ander "
+                "antwoord geven.",
+                "Let op het laatste geval: ligt de draad evenwijdig met het veld, dan is de hoek nul "
+                "en de sinus ook, dus is er geen kracht.",
+                None,
+                "Let op dat snelheid en veld beide verdubbelen: de een staat boven en de ander onder "
+                "de breuk, dus heffen ze elkaar op en blijft de straal gelijk.",
+            ],
+        ),
+        dict(
+            aanpak="Alle beweringen hier draaien om één eigenschap: de magnetische kracht staat "
+                   "loodrecht op de snelheid. Uit die ene eigenschap volgen de meeste antwoorden.",
+            waarom=[
+                None,
+                "Niet waar: in de formule staat de snelheid, dus zonder beweging is er geen "
+                "magnetische kracht. Een stilstaande lading voelt wel een elektrische kracht als er "
+                "een elektrisch veld is.",
+                "Niet waar: de kracht staat loodrecht op de snelheid, dus levert ze geen arbeid en "
+                "verandert de kinetische energie niet. Enkel de richting draait.",
+                None,
+                "Waar, en dat verrast vaak. Twee draden met stroom in dezelfde zin trekken elkaar "
+                "aan; staat de stroom in tegengestelde zin, dan stoten ze af. Juist het omgekeerde "
+                "van wat je bij twee gelijke ladingen verwacht.",
+                "Niet waar: de weerstand staat niet in deze formule. Ze bepaalt wel hoe groot de "
+                "stroom bij een gegeven spanning wordt, maar voor de kracht gebruik je enkel de "
+                "stroom zelf.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Zeg bij elke toepassing welke formule erachter zit. De massaspectrometer leeft "
+                   "van de straal, het cyclotron van de omlooptijd, de motor van het koppel.",
+            waarom=[
+                "Let op het verschil in richting: een massaspectrometer meet en scheidt, een "
+                "elektromotor zet energie om in beweging. Beide gebruiken wel dezelfde kracht.",
+                "Let op de hallsensor: die meet een veld door de spanning die dwars over een "
+                "stroomvoerend plaatje ontstaat. Hij zit in elke fietscomputer en in elk toestel dat "
+                "weet of de klep dicht is.",
+                "Noem de arbeid. Een kracht loodrecht op de verplaatsing levert geen arbeid, dus "
+                "blijft de kinetische energie en daarmee de grootte van de snelheid gelijk.",
+                "Noem het koppel en de collector. Op de twee zijden van de lus werken krachten in "
+                "tegengestelde zin, dus draait de as; zonder omkeren van de stroom zou ze na een "
+                "halve ronde stilvallen.",
+                "Noem dat de omlooptijd niet van de snelheid afhangt. Een sneller deeltje maakt een "
+                "ruimere bocht en legt dus een langere weg af in dezelfde tijd, waardoor het ritme "
+                "van de duwtjes mag blijven zoals het is.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-elektromagnetische-inductie-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Eén vraag beslist alles: verandert de flux door de spoel. Verandert ze niet, dan "
+                   "is er geen inductiespanning, hoe sterk het veld ook is.",
+            waarom=[
+                "Let op de eerste: een magneet stilhouden geeft niets, ook al zit hij middenin de "
+                "spoel. Enkel de verandering telt, niet de aanwezigheid van het veld.",
+                "Let op de laatste: de twee spoelen raken elkaar niet aan, maar de stroom in de ene "
+                "verandert het veld door de andere. Dat is precies hoe een transformator werkt.",
+            ],
+        ),
+        dict(
+            aanpak="De flux is B maal de oppervlakte maal de cosinus van de hoek met de normaal. "
+                   "Let goed op: de hoek wordt gemeten met de normaal op het vlak, niet met het vlak "
+                   "zelf.",
+            waarom=[
+                None,
+                "Let op de cosinus van zestig graden: die is een half. Bij flux werk je met de "
+                "cosinus, bij de kracht op een draad met de sinus, en die twee verwisselen is de "
+                "fout die het vaakst gemaakt wordt.",
+                None,
+                None,
+                "Noem de hoek met de normaal. Ligt de winding plat in het veld, dan staat de normaal "
+                "dwars op de veldlijnen, dus is de hoek negentig graden en de cosinus nul: geen "
+                "enkele veldlijn gaat erdoor.",
+            ],
+        ),
+        dict(
+            aanpak="De inductiespanning is het aantal windingen maal de fluxverandering per "
+                   "seconde. Reken dus eerst de verandering van de flux uit, en deel dan pas door de "
+                   "tijd.",
+            waarom=[
+                None,
+                "Let op dat het aantal windingen gewoon als factor vooraan staat. Vijftig windingen "
+                "geven vijftig keer meer spanning bij dezelfde fluxverandering.",
+                None,
+                None,
+                "Let op de twee stappen: eerst de flux uit B maal de oppervlakte, en dan pas de wet "
+                "van Faraday. Met het veld rechtstreeks in de formule van Faraday invullen kan niet.",
+                "Let op dat beide veranderingen hetzelfde effect hebben: tweemaal zoveel windingen "
+                "en dezelfde verandering in de halve tijd geven allebei een dubbele spanning.",
+                "Let op het laatste geval: blijft de flux een tijdlang gelijk, dan is de verandering "
+                "nul en dus ook de spanning, hoe groot die flux ook is.",
+            ],
+        ),
+        dict(
+            aanpak="Een transformator verdeelt de spanning in verhouding tot de windingen. Is hij "
+                   "ideaal, dan blijft het vermogen gelijk, dus gaat de stroom juist de andere kant "
+                   "op.",
+            waarom=[
+                None,
+                None,
+                None,
+                "Let op dat je hier via het vermogen werkt en niet via de windingen. Minder spanning "
+                "primair bestaat niet: de spanning gaat naar beneden en de stroom dus naar boven aan "
+                "de secundaire kant, en primair loopt er juist minder.",
+                "Noem beide formules, zoals gevraagd. Hetzelfde vermogen bij hogere spanning geeft "
+                "een kleinere stroom, en het verlies gaat met die stroom in het kwadraat.",
+            ],
+        ),
+        dict(
+            aanpak="Hou de drie namen uit elkaar: de wet van Faraday zegt hoe groot de spanning is, "
+                   "de wet van Lenz welke kant de stroom op loopt, en de weber is de eenheid van de "
+                   "flux.",
+            waarom=[
+                "Let op de wet van Lenz: die gaat over de zin van de inductiestroom, en daarom staat "
+                "er een minteken in de formule van Faraday.",
+                None,
+                None,
+                None,
+                None,
+                "Niet waar: op gelijkspanning verandert de flux niet, dus komt er aan de secundaire "
+                "kant niets uit. Een transformator heeft wisselspanning nodig.",
+                "Waar, en dat is de reden achter het minteken: zou de stroom de verandering "
+                "versterken, dan kwam er energie uit het niets.",
+                "Niet waar: in de formule staat enkel de verandering van de flux, niet de flux zelf. "
+                "Een grote flux die niet verandert, geeft geen spanning.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Elk van deze drie vragen leeft van de wet van Lenz: de inductiestroom werkt de "
+                   "verandering tegen. Zeg dat uitdrukkelijk in je antwoord.",
+            waarom=[
+                "Noem de wervelstromen en de wet van Lenz samen. De vallende magneet wekt in het "
+                "koper kringstromen op, en die maken een veld dat de val tegenwerkt; het koper zelf "
+                "is niet magnetisch.",
+                "Noem het behoud van energie. Een stroom die de verandering versterkt, zou zichzelf "
+                "blijven aandrijven, en dan kwam er energie uit het niets.",
+                "Noem waarom het glas koel blijft. De wervelstromen ontstaan enkel in metaal dat "
+                "stroom geleidt, dus in de bodem van de pan; het glas geleidt niet en wordt enkel "
+                "warm door de pan erop.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-statica-krachten-moment-en-evenwicht-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zet bij elke vraag eerst de juiste formule neer en reken in SI-eenheden: meter, "
+                   "kilogram, newton. Let op welke waarde van g gevraagd wordt.",
+            waarom=[
+                None,
+                "Let op de twee stappen: eerst de normaalkracht, die hier gelijk is aan het gewicht, "
+                "en dan pas de wrijving. De massa rechtstreeks met de wrijvingscoëfficiënt "
+                "vermenigvuldigen geeft een getal zonder betekenis.",
+                "Let op de centimeters: vijftien centimeter is 0,15 meter. De veerconstante staat in "
+                "newton per meter, dus moet de uitrekking ook in meter.",
+                None,
+                "Let op de sinus bij een helling: de component langs het vlak is het gewicht maal de "
+                "sinus, de component dwars erop maal de cosinus. Bij dertig graden is de sinus "
+                "precies een half.",
+            ],
+        ),
+        dict(
+            aanpak="Liggen twee krachten op één lijn, dan tel je op of trek je af. Staan ze "
+                   "loodrecht, dan gebruik je Pythagoras; in alle andere gevallen ontbind je in "
+                   "componenten.",
+            waarom=[
+                "Let op het derde geval: dertig en veertig loodrecht geven vijftig, en dat is "
+                "minder dan de som maar meer dan het verschil. De drie uitkomsten samen laten mooi "
+                "zien hoe de hoek het antwoord bepaalt.",
+                "Let op dat dit twee bekende pythagorasdrietallen zijn: negen, twaalf, vijftien en "
+                "vijf, twaalf, dertien. Herken je die, dan reken je ze zonder rekenmachine.",
+                "Noem dat een kracht een vector is. Ze heeft een grootte en een richting, dus stel "
+                "je ze samen met de parallellogramregel of met Pythagoras en niet met een gewone "
+                "som.",
+            ],
+        ),
+        dict(
+            aanpak="Het moment is de kracht maal de arm, met de sinus van de hoek tussen de kracht "
+                   "en de stang. De arm is de afstand tot het draaipunt, in meter.",
+            waarom=[
+                None,
+                None,
+                None,
+                "Let op de sinus van dertig graden: een half, dus het halve moment. Vergelijk dit "
+                "met de volgende oefening, waar dezelfde kracht loodrecht werkt.",
+                "Let op dat het moment hier het dubbele is van de vorige oefening, met precies "
+                "dezelfde kracht en arm. Loodrecht duwen levert altijd het grootste moment.",
+                "Noem de werklijn. Werkt de kracht langs de stang, dan gaat haar werklijn door het "
+                "draaipunt en is de arm nul, dus het moment ook. Duw je een deur naar de scharnieren "
+                "toe, dan draait ze niet.",
+            ],
+        ),
+        dict(
+            aanpak="In rotatie-evenwicht zijn de momenten aan beide zijden even groot: kracht links "
+                   "maal arm links is kracht rechts maal arm rechts. Vorm die ene gelijkheid om naar "
+                   "wat gevraagd wordt.",
+            waarom=[
+                None,
+                None,
+                "Let op dat je hier met massa's mag rekenen in plaats van met gewichten: de g valt "
+                "aan beide kanten weg. Het zwaardere kind zit altijd dichter bij het draaipunt.",
+                "Let op de keuze van het draaipunt: neem je de rechtersteun, dan valt die onbekende "
+                "kracht weg omdat haar arm nul is. Daarna vind je de tweede steun met de som van de "
+                "krachten.",
+            ],
+        ),
+        dict(
+            aanpak="Evenwicht heeft twee voorwaarden: de som van de krachten nul en de som van de "
+                   "momenten nul. Vraag je bij elke bewering af over welke van de twee ze gaat.",
+            waarom=[
+                "Niet waar: ook een voorwerp dat met een constante snelheid beweegt is in evenwicht. "
+                "Evenwicht betekent geen versnelling, niet geen beweging.",
+                None,
+                None,
+                "Niet waar: er werkt ook de normaalkracht van de tafel, en die is precies even groot "
+                "en tegengesteld. Zonder die tweede kracht zou het voorwerp vallen.",
+                None,
+                "Niet waar, het is net omgekeerd: zolang het zwaartepunt bóven het steunvlak blijft, "
+                "kantelt het voorwerp niet. Komt het erbuiten, dan valt het om.",
+            ],
+        ),
+        dict(
+            aanpak="Deze drie vragen vragen een reden. Noem telkens of het om de arm, het "
+                   "zwaartepunt of het evenwicht van momenten gaat.",
+            waarom=[
+                "Noem de arm. Aan de kruk is de afstand tot de scharnieren veel groter, dus volstaat "
+                "een kleinere kracht voor hetzelfde moment.",
+                "Noem beide: een laag zwaartepunt en een breed steunvlak. Juist de combinatie van de "
+                "twee maakt dat je ver moet kantelen voor het zwaartepunt buiten het steunvlak komt.",
+                "Noem het evenwicht van momenten rond de mast. Het blok achteraan levert een moment "
+                "in de andere zin dan de last vooraan, en daarom blijft de kraan staan.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-wetten-van-newton-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vraag je af waar de uitspraak over gaat. Over een lichaam zonder resultante is "
+                   "de eerste, over een verband tussen kracht en versnelling de tweede, over twee "
+                   "lichamen die op elkaar duwen de derde.",
+            waarom=[
+                None,
+                "Let op de tweede: een raket is de derde wet, want er zijn twee lichamen in het "
+                "spel, de raket en het gas. De laatste is de tweede wet, want dezelfde kracht geeft "
+                "een lichtere kar een grotere versnelling.",
+            ],
+        ),
+        dict(
+            aanpak="Reken altijd met de resulterende kracht, dus met alles samen wat op het voorwerp "
+                   "werkt. Vorm F is m maal a om naar wat gevraagd wordt.",
+            waarom=[
+                None,
+                None,
+                "Let op dat een gewicht een kracht is, dus in newton. Vijftien kilogram is de massa, "
+                "en 147 newton het gewicht op aarde.",
+                "Let op dat je eerst de resultante moet nemen: negentig newton trekken min vijftien "
+                "newton wrijving is vijfenzeventig newton. Met de volle negentig rekenen geeft een te "
+                "grote versnelling.",
+                "Let op de twee stappen: eerst de versnelling uit de snelheidsverandering per "
+                "seconde, dan de kracht. De snelheid rechtstreeks in F is m maal a invullen kan niet.",
+                "Let op het teken: de versnelling is negatief omdat de snelheid daalt, maar de "
+                "grootte van de remkracht is gewoon 4800 newton. Zeg erbij dat ze tegen de "
+                "rijrichting in werkt.",
+            ],
+        ),
+        dict(
+            aanpak="In a is F gedeeld door m staat de kracht boven en de massa onder. Dus meer "
+                   "kracht geeft meer versnelling, meer massa minder.",
+            waarom=[
+                None,
+                "Let op het eerste geval: kracht maal vier en massa maal twee geeft samen maal twee. "
+                "Reken de twee effecten na elkaar en je kan ze niet verwisselen.",
+            ],
+        ),
+        dict(
+            aanpak="Massa en gewicht zijn twee verschillende dingen: massa is hoeveel stof er is en "
+                   "staat in kilogram, gewicht is een kracht en staat in newton.",
+            waarom=[
+                None,
+                "Let op de traagheid: dat is precies wat massa betekent, namelijk hoe moeilijk het "
+                "is om iets van snelheid te doen veranderen. Op de maan is je massa dezelfde en je "
+                "gewicht ongeveer zes keer kleiner.",
+            ],
+        ),
+        dict(
+            aanpak="Alle beweringen hier draaien om twee dingen: zonder resultante verandert de "
+                   "snelheid niet, en actie en reactie werken op verschillende lichamen.",
+            waarom=[
+                "Niet waar: zonder resultante blijft de snelheid gelijk, en die kan ook een andere "
+                "waarde dan nul hebben. Stilstaan en met een constante snelheid bewegen zijn voor "
+                "Newton hetzelfde geval.",
+                None,
+                "Niet waar: ze werken op twee verschillende lichamen, dus kunnen ze elkaar niet "
+                "opheffen. Opheffen kan enkel bij twee krachten op hetzelfde lichaam.",
+                None,
+                "Niet waar: de massa staat in de noemer. Juist daarom versnelt een zwaarder voorwerp "
+                "minder bij dezelfde kracht.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Zeg bij elke uitleg welke wet je gebruikt, en bij de derde wet ook op welke twee "
+                   "lichamen de krachten werken. Dat is wat deze vragen echt toetsen.",
+            waarom=[
+                "Noem de eerste wet. Jij houdt je snelheid, de bus vertraagt, en daarom schuif je "
+                "naar voren ten opzichte van de bus. Er duwt je dus niets naar voren.",
+                "Noem dat de twee krachten op verschillende lichamen werken. Op de raket zelf blijft "
+                "één kracht over, namelijk die van het gas, en die versnelt hem.",
+                "Noem dat de vloer harder duwt dan je gewicht. Ze moet je gewicht dragen en je "
+                "bovendien versnellen, en die extra kracht voel je.",
+                "Noem dat de massa wegvalt. Uit m g is m a volgt a is g, en dat is dezelfde "
+                "versnelling voor elk voorwerp, licht of zwaar. In lucht verstoort de wrijving dat "
+                "beeld.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-rechtlijnige-beweging-erb-en-evrb-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Eén vraag beslist: verandert de snelheid. Blijft ze gelijk, dan is het een ERB; "
+                   "verandert ze gelijkmatig, dan is het een EVRB.",
+            waarom=[
+                "Let op dat ook een vrije val en een gelijkmatige vertraging EVRB zijn. Het woord "
+                "versneld in de naam sluit vertragen niet uit.",
+                None,
+                "Let op het verschil tussen de grafieken: bij een EVRB stijgt of daalt de v,t-"
+                "grafiek schuin, bij een ERB loopt ze horizontaal. Een rechte in een x,t-grafiek "
+                "hoort juist bij een ERB.",
+            ],
+        ),
+        dict(
+            aanpak="Bij een ERB is de afstand gewoon de snelheid maal de tijd. Zet km per uur eerst "
+                   "om naar meter per seconde door te delen door 3,6.",
+            waarom=[
+                None,
+                None,
+                "Let op de richting van de omzetting: van meter per seconde naar kilometer per uur "
+                "vermenigvuldig je met 3,6, omgekeerd deel je erdoor. Twijfel je, denk dan aan "
+                "wandelen: ongeveer 1 meter per seconde is ongeveer 4 kilometer per uur.",
+                "Let op het verschil tussen de afgelegde weg en de verplaatsing. De weg is 2,4 "
+                "kilometer, maar de verplaatsing is nul, want de wandelaar staat weer op zijn "
+                "vertrekpunt.",
+            ],
+        ),
+        dict(
+            aanpak="Kies de formule naar wat je mist. Heb je de tijd, neem dan de vormen met t; heb "
+                   "je de tijd niet maar wel de afstand, neem dan de formule met v kwadraat.",
+            waarom=[
+                None,
+                "Let op het kwadraat van de tijd: zes seconden geeft zesendertig, en daarna nog de "
+                "helft van de versnelling. Niet de snelheid maal de tijd, want die snelheid "
+                "verandert voortdurend.",
+                None,
+                "Let op dat je hier de formule zonder tijd neemt, want de tijd is niet gegeven. De "
+                "remweg is het kwadraat van de snelheid gedeeld door twee keer de vertraging.",
+                "Let op dat je met het kwadraat van beide snelheden rekent: 64 min 4 en niet 8 min "
+                "2. Dat is de meest gemaakte fout bij deze formule.",
+            ],
+        ),
+        dict(
+            aanpak="Een vrije val is een EVRB met a gelijk aan g. Een bal die je omhoog gooit, "
+                   "vertraagt met dezelfde g, dus kan je dezelfde formules gebruiken.",
+            waarom=[
+                None,
+                None,
+                "Let op dat je hier de formule zonder tijd nodig hebt: de hoogte is het kwadraat van "
+                "de snelheid gedeeld door twee keer g.",
+                "Let op dat dit dezelfde formule is als de vorige, maar omgekeerd gebruikt: bovenaan "
+                "is de snelheid nul, dus wordt de beginsnelheid helemaal hoogte.",
+                "Noem dat de tijd in het kwadraat staat. Dubbel zo lang vallen is dus vier keer zo "
+                "diep, en dat is ook de reden dat een val van tien meter zo veel gevaarlijker is dan "
+                "een val van twee en een halve meter.",
+            ],
+        ),
+        dict(
+            aanpak="Een grafiek lees je met twee vragen: wat is de helling, en wat is de oppervlakte "
+                   "eronder. Die twee geven telkens een andere grootheid.",
+            waarom=[
+                "Let op dat de helling van een x,t-grafiek de snelheid geeft en de helling van een "
+                "v,t-grafiek de versnelling. De oppervlakte onder een v,t-grafiek geeft dan weer de "
+                "verplaatsing.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Let bij elke bewering op het verschil tussen de grootte en het teken van een "
+                   "grootheid. Een teken zegt iets over de zin, niet over sneller of trager.",
+            waarom=[
+                "Niet waar: rijd je achteruit en word je sneller, dan is de versnelling ook "
+                "negatief. Het teken zegt enkel in welke zin de verandering gaat.",
+                None,
+                "Niet waar: bij een vrije val is de versnelling g voor elk voorwerp, want de massa "
+                "valt weg uit m g is m a. Enkel luchtweerstand maakt verschil.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Deze twee vragen vragen een reden en geen getal. Zeg telkens welke zin je "
+                   "positief rekent, of welke formule de massa doet wegvallen.",
+            waarom=[
+                "Noem dat het van de gekozen zin afhangt. Reken je vooruit positief, dan zijn hier "
+                "zowel de snelheid als de versnelling negatief, en toch gaat de auto sneller.",
+                "Noem dat de massa wegvalt. Uit m g is m a volgt a is g voor allebei, dus komen ze "
+                "samen aan; in lucht verstoort de wrijving dat.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-horizontale-worp-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Hou de twee richtingen streng apart. Horizontaal gebeurt er niets met de "
+                   "snelheid, verticaal is het een gewone vrije val, en enkel de tijd hebben ze "
+                   "samen.",
+            waarom=[
+                "Let op dat de valtijd uit de verticale beweging komt. De horizontale snelheid heeft "
+                "er niets mee te maken, en dat is de kern van dit hele hoofdstuk.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Werk altijd in dezelfde orde: eerst de valtijd uit de hoogte, dan de dracht uit "
+                   "die tijd en de horizontale snelheid. Nooit omgekeerd.",
+            waarom=[
+                None,
+                None,
+                None,
+                None,
+                "Let op dat je hier Pythagoras nodig hebt: de snelheid bij het neerkomen is de "
+                "samenstelling van de horizontale en de verticale snelheid. Die twee gewoon optellen "
+                "geeft een te groot antwoord.",
+                "Let op dat je hier met 9,81 moet rekenen en niet met 10, want dat staat er "
+                "uitdrukkelijk bij. Reken de valtijd eerst apart uit en hou er genoeg cijfers in "
+                "voor je vermenigvuldigt.",
+            ],
+        ),
+        dict(
+            aanpak="Ook omgekeerd blijft de orde dezelfde: haal eerst de valtijd uit de hoogte of "
+                   "uit de dracht, en reken daarna de onbekende.",
+            waarom=[
+                None,
+                None,
+                "Let op dat de hoogte hier gevraagd wordt uit de tijd alleen. De horizontale "
+                "snelheid speelt geen rol, want ze beïnvloedt de valtijd niet.",
+            ],
+        ),
+        dict(
+            aanpak="Elke bewering gaat over dezelfde onafhankelijkheid van de twee richtingen. "
+                   "Vraag je af of de uitspraak de twee door elkaar haalt.",
+            waarom=[
+                "Niet waar: de valtijd komt enkel uit de hoogte. Een bal die je heel hard weggooit, "
+                "valt even lang als een bal die je gewoon laat vallen.",
+                None,
+                None,
+                "Niet waar: de zwaartekracht werkt verticaal, dus verandert ze enkel de verticale "
+                "snelheid. Zonder luchtweerstand blijft de horizontale snelheid de hele worp "
+                "dezelfde.",
+            ],
+        ),
+        dict(
+            aanpak="Vergelijkingsvragen los je op met de formules in plaats van met je gevoel. Kijk "
+                   "welke grootheid in welke formule staat, en of ze onder een wortel zit.",
+            waarom=[
+                "Let op dat beide paren samen landen. De valtijd hangt enkel van de hoogte af, dus "
+                "harder gooien verandert waar ze landen, niet wanneer.",
+                "Let op dat de hoogte onder een wortel staat: dubbel zo hoog geeft wortel twee keer "
+                "zo lang vallen. Samen met de dubbele snelheid is dat twee keer wortel twee, dus "
+                "ongeveer 2,8 keer.",
+            ],
+        ),
+        dict(
+            aanpak="Deze drie vragen vragen een uitleg met een formule erbij. Zeg telkens welke "
+                   "grootheid wél en welke níet in die formule staat.",
+            waarom=[
+                "Noem dat de beginsnelheid niet in de formule voor de valtijd staat. Verticaal "
+                "begint de worp met snelheid nul, dus hangt de tijd enkel van de hoogte en van g af.",
+                "Noem de wortel. Dubbel zo hoog geeft wortel twee keer zo ver, dus ongeveer 1,4 "
+                "keer; recht evenredig is enkel de beginsnelheid.",
+                "Noem dat het pakket de snelheid van het vliegtuig meeneemt. Het beschrijft een "
+                "parabool en landt verderop, dus moet de piloot vroeger lossen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-gravitatiekracht-en-de-cirkelbeweging-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Kijk waar de grootheid staat: de massa's staan boven de breuk en werken recht "
+                   "evenredig, de afstand staat in het kwadraat onder de breuk.",
+            waarom=[
+                "Let op de derde: drie keer verder geeft negen keer kleiner, dus zestig gedeeld door "
+                "negen is ongeveer 6,7 newton. Niet drie keer kleiner.",
+                "Let op dat de eerste twee hetzelfde antwoord geven, langs twee verschillende wegen: "
+                "beide massa's verdubbelen geeft maal vier, en de afstand halveren ook.",
+            ],
+        ),
+        dict(
+            aanpak="Bij een cirkelbeweging heb je altijd dezelfde keten: snelheid uit de omtrek en "
+                   "de omlooptijd, dan de middelpuntzoekende versnelling, dan de kracht.",
+            waarom=[
+                "Let op dat pi hier wegvalt: twee pi maal een half gedeeld door pi geeft precies "
+                "één. Vul een getal voor pi pas in als het echt nodig is.",
+                None,
+                None,
+                "Let op het verschil tussen de twee grootheden: de omlooptijd is de tijd voor één "
+                "ronde, de hoeksnelheid is twee pi gedeeld door die tijd. Twee ronden per seconde "
+                "geeft dus een halve seconde en vier pi radiaal per seconde.",
+                "Let op dat je hier de vorm met de hoeksnelheid gebruikt, want de snelheid in meter "
+                "per seconde is niet gegeven. Omega staat in het kwadraat.",
+            ],
+        ),
+        dict(
+            aanpak="Vul in de gravitatiewet alles in SI-eenheden in en reken met machten van tien. "
+                   "Voor g aan een oppervlak neem je de straal van de planeet, voor een baan de "
+                   "baanstraal.",
+            waarom=[
+                "Let op dat de uitkomst heel klein is: twee massa's van duizend kilogram trekken "
+                "elkaar met honderdduizendsten van een newton aan. Gravitatie is pas merkbaar bij "
+                "hemellichamen.",
+                "Let op dat je hier de straal van de planeet gebruikt en niet de afstand van de "
+                "maan. De uitkomst van bijna 9,8 verraadt dat deze planeet onze aarde is.",
+                "Let op dat de baansnelheid uit de gelijkstelling van de gravitatiekracht met de "
+                "middelpuntzoekende kracht volgt. De massa van de maan valt daarbij weg, dus telt "
+                "enkel de massa van de planeet.",
+                "Let op dat je de omlooptijd uit de omtrek gedeeld door de snelheid haalt. "
+                "Vijfentwintig honderdduizend seconden omzetten naar dagen maakt het antwoord pas "
+                "leesbaar, en die 29 dagen kloppen mooi met onze eigen maan.",
+            ],
+        ),
+        dict(
+            aanpak="Hou bij elke bewering in het oog dat versnelling over de verandering van de "
+                   "vector gaat, niet enkel over de grootte van de snelheid.",
+            waarom=[
+                None,
+                "Niet waar: de richting van de snelheid verandert voortdurend, dus is er wel een "
+                "versnelling. Ze is naar het middelpunt gericht en verandert enkel de richting.",
+                None,
+                "Niet waar: de zwaartekracht is daar bijna even groot als op aarde, en ze is precies "
+                "wat de satelliet in zijn baan houdt. Gewichtloos voelen is iets anders dan geen "
+                "zwaartekracht ondervinden.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="De middelpuntzoekende kracht is geen nieuwe kracht: het is de rol die een "
+                   "bestaande kracht speelt. Zoek dus telkens welke echte kracht die rol opneemt.",
+            waarom=[
+                "Let op dat de wrijving van de wielen in een bocht naar het midden van de bocht "
+                "wijst. Daarom heeft die kracht een bovengrens, en daarom kan een auto slippen.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Elk van deze drie vragen leeft van het verschil tussen een kracht en een gevoel, "
+                   "of tussen grootte en richting. Zeg dat verschil uitdrukkelijk.",
+            waarom=[
+                "Noem dat versnelling over de vector gaat. De grootte blijft gelijk, de richting "
+                "draait, en juist die draai is de versnelling naar het middelpunt.",
+                "Noem dat er geen tegenkracht van een vloer is. Wat je normaal als gewicht voelt, is "
+                "de vloer die tegen je duwt; valt het hele station mee, dan is er niets dat duwt.",
+                "Noem dat de bocht een bepaalde kracht vraagt en de wrijving die moet leveren. Bij "
+                "regen is de beschikbare wrijving kleiner, dus moet de snelheid naar beneden of de "
+                "bocht ruimer.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-arbeid-energie-en-vermogen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Arbeid is kracht maal weg, maar enkel het stuk van de kracht langs de "
+                   "verplaatsing telt. Vraag je dus altijd af welke hoek de kracht met de weg maakt.",
+            waarom=[
+                None,
+                None,
+                "Let op dat er geen arbeid is zonder verplaatsing. Je spieren werken wel, maar het "
+                "boek verplaatst niet, dus is de arbeid nul.",
+                "Let op de cosinus van zestig graden: die is een half, dus de helft van de arbeid. "
+                "Bij arbeid werk je met de cosinus, bij een moment met de sinus.",
+                "Let op het minteken. Wrijving werkt tegen de verplaatsing in, dus is haar arbeid "
+                "negatief; ze haalt energie uit de beweging.",
+            ],
+        ),
+        dict(
+            aanpak="Elke energievorm heeft zijn eigen formule. Let erop welke grootheid in het "
+                   "kwadraat staat: de snelheid bij kinetische energie, de uitrekking bij een veer.",
+            waarom=[
+                None,
+                None,
+                "Let op dat de uitrekking in het kwadraat staat: 0,10 meter geeft 0,010. Die stap "
+                "overslaan is de klassieke fout bij een veer.",
+                None,
+                "Noem het kwadraat. Twee keer zo snel is vier keer zo veel energie, en daarom groeit "
+                "een remweg zo snel met de snelheid.",
+            ],
+        ),
+        dict(
+            aanpak="Bij behoud van energie stel je de ene vorm gelijk aan de andere. De massa valt "
+                   "vaak weg, en dat is een goede controle op je werk.",
+            waarom=[
+                None,
+                "Let op dat de massa wegvalt uit de gelijkheid: de snelheid beneden hangt enkel van "
+                "de hoogte af. Een zware en een lichte slee komen even snel beneden.",
+                "Let op dat dit dezelfde formule is als de vorige, maar omgekeerd: hier zet "
+                "kinetische energie om in hoogte.",
+                "Noem waar elke vorm maximaal is. In de uiterste standen is alles potentieel, in het "
+                "laagste punt alles kinetisch, en de som blijft gelijk zolang er geen wrijving is.",
+            ],
+        ),
+        dict(
+            aanpak="De totale arbeid is gelijk aan de verandering van de kinetische energie. Reken "
+                   "dus eerst het verschil in energie, en haal daar de gevraagde grootheid uit.",
+            waarom=[
+                None,
+                "Let op het minteken: de kinetische energie daalt tot nul, dus is de totale arbeid "
+                "negatief. De remmen halen energie uit de auto.",
+                "Let op dat je de arbeid hier door de weg deelt om de kracht te vinden. Het teken "
+                "laat je weg als je enkel naar de grootte van de remkracht vraagt.",
+            ],
+        ),
+        dict(
+            aanpak="Vermogen is arbeid per seconde. Let op de eenheden van tijd: minuten en uren "
+                   "moet je omzetten, behalve als je in kilowattuur rekent.",
+            waarom=[
+                None,
+                "Let op de twee stappen: eerst de arbeid uit kracht maal weg, dan het vermogen door "
+                "de tijd. De kracht rechtstreeks door de tijd delen heeft geen betekenis.",
+                None,
+                "Let op dat een kilowattuur een energie is: duizend watt gedurende 3600 seconden. "
+                "Daarom staat je elektriciteitsrekening in kilowattuur en niet in kilowatt.",
+                "Let op de tien minuten: dat is 600 seconden. In een formule met joule en watt hoort "
+                "de tijd in seconden.",
+                "Let op dat je hier juist niet omzet naar seconden: in kilowattuur reken je met "
+                "kilowatt en uren, dus 0,060 maal 5,0.",
+            ],
+        ),
+        dict(
+            aanpak="Let bij elke bewering op het verschil tussen arbeid en vermogen, en tussen een "
+                   "conservatieve en een niet-conservatieve kracht.",
+            waarom=[
+                None,
+                "Niet waar: in een echte machine gaat er altijd energie naar wrijving en warmte, dus "
+                "blijft het rendement onder honderd procent.",
+                None,
+                "Niet waar: juist bij wrijving hangt de arbeid wel van de weg af, want een langere "
+                "weg geeft meer wrijvingsarbeid. Daarom is wrijving niet conservatief.",
+                None,
+                "Niet waar: even hoog tillen is dezelfde arbeid, want kracht en weg zijn dezelfde. "
+                "Sneller tillen betekent een groter vermogen, niet meer arbeid.",
+                None,
+                "Niet waar: een kilowattuur is een energie en geen vermogen. De kilowatt alleen is "
+                "het vermogen.",
+            ],
+        ),
+        dict(
+            aanpak="Zoek bij elk geval één van de twee redenen waarom de arbeid nul kan zijn: de "
+                   "kracht staat loodrecht op de weg, of er is geen verplaatsing.",
+            waarom=[
+                "Let op dat de drie gevallen twee verschillende redenen hebben. Bij het blad en bij "
+                "de normaalkracht staat de kracht loodrecht op de beweging; bij de muur is er "
+                "gewoon geen verplaatsing.",
+            ],
+        ),
+        dict(
+            aanpak="Deze drie vragen vragen een reden met een formule erbij. Noem telkens welke hoek "
+                   "of welke grootheid de uitkomst bepaalt.",
+            waarom=[
+                "Noem dat de hoek negentig graden is. Je draagkracht wijst naar boven en de weg is "
+                "horizontaal, dus is de arbeid op de tas nul; dat je spieren moe worden, is een "
+                "ander verhaal.",
+                "Noem ook een voorbeeld, zoals gevraagd. Een conservatieve kracht levert een arbeid "
+                "die enkel van begin- en eindpunt afhangt, en de zwaartekracht is er een.",
+                "Noem dat de kracht onderweg verandert. Bij een veer groeit de kracht met de "
+                "uitrekking, dus is er geen vaste kracht om mee te vermenigvuldigen en neem je de "
+                "oppervlakte onder de grafiek.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-gaswetten-en-de-algemene-gaswet-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De naam van het proces zegt wat gelijk blijft: iso-therm de temperatuur, "
+                   "iso-baar de druk, iso-choor het volume. Zoek dus eerst wat vastgehouden wordt.",
+            waarom=[
+                None,
+                "Let op de ballon in de zon: die kan uitzetten, dus blijft de druk gelijk en is het "
+                "proces isobaar. Een gesloten metalen vat kan niet uitzetten, dus is dat isochoor.",
+                "Let op het verschil tussen de drie formules: bij isotherm staat het product, bij de "
+                "twee andere een quotiënt. Welke twee grootheden in dat quotiënt staan, verraadt "
+                "welke de derde constant is.",
+            ],
+        ),
+        dict(
+            aanpak="Zet de temperatuur altijd eerst om naar kelvin, voor je iets anders doet. Bij "
+                   "kelvin tel je 273 op, bij celsius trek je 273 af.",
+            waarom=[
+                "Let op min 73 graden: dat is 200 kelvin. Een negatieve celsiuswaarde geeft nog "
+                "altijd een positieve kelvinwaarde, zolang je boven min 273 blijft.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Kies de wet die bij het proces hoort en vul de temperatuur in kelvin in. Reken "
+                   "met verhoudingen, dan hoef je de eenheden van druk en volume niet om te zetten.",
+            waarom=[
+                None,
+                "Let op dat je de temperaturen in kelvin gebruikt. In celsius zou de verhouding van "
+                "27 op 177 staan en dat geeft een heel ander getal.",
+                None,
+                "Let op dat je hier kan rekenen zonder formule: de druk verdubbelt, dus halveert het "
+                "volume. Een omgekeerde evenredigheid zie je vaak sneller dan je ze berekent.",
+                "Let op de omzetting naar kelvin: 27 graden is 300 kelvin en 127 graden is 400 "
+                "kelvin. Dan staat er netjes een verhouding van vier op drie.",
+            ],
+        ),
+        dict(
+            aanpak="De algemene gaswet is de drie wetten in één: p maal V gedeeld door T blijft "
+                   "gelijk. Werk je met mol, dan neem je de ideale gaswet, met alles in SI-"
+                   "eenheden.",
+            waarom=[
+                None,
+                None,
+                "Let op dat je hier in SI-eenheden moet werken: kubieke meter en pascal. Honderd "
+                "kilopascal is tien tot de vijfde pascal, en de uitkomst van ongeveer één mol "
+                "controleert zichzelf.",
+                "Let op dat het antwoord in kubieke meter uitkomt, dus zet het nog om naar liter: "
+                "0,050 kubieke meter is vijftig liter.",
+                "Let op dat normomstandigheden nul graden celsius en 101,3 kilopascal zijn. Die 22,4 "
+                "liter is het waard om vanbuiten te kennen; bij kamertemperatuur is het ongeveer 24 "
+                "liter.",
+            ],
+        ),
+        dict(
+            aanpak="Kijk of de twee grootheden omgekeerd of recht evenredig zijn. Omgekeerd geeft "
+                   "een hyperbool, recht evenredig een rechte door de oorsprong.",
+            waarom=[
+                "Let op dat de rechte door de oorsprong gaat omdat je in kelvin werkt. In celsius "
+                "zou ze de as bij min 273 snijden, en juist dat heeft men ooit gebruikt om het "
+                "absolute nulpunt te vinden.",
+            ],
+        ),
+        dict(
+            aanpak="Hou één grootheid vast en volg de twee andere. Zijn ze omgekeerd evenredig, dan "
+                   "doet de ene het omgekeerde van de andere.",
+            waarom=[
+                None,
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: de eenheden, het deeltjesmodel, en waar een "
+                   "echt gas van het ideale afwijkt. Vraag je bij elke af welke van de drie.",
+            waarom=[
+                "Niet waar: de gaswetten zijn verhoudingen, dus moet de temperatuur in kelvin. In "
+                "celsius kloppen de verhoudingen niet, want die schaal heeft geen echt nulpunt.",
+                None,
+                None,
+                None,
+                "Niet waar: bij het absolute nulpunt is de beweging van de deeltjes minimaal. Juist "
+                "daarom ligt het nulpunt van de kelvinschaal daar.",
+                None,
+                "Niet waar, het is net omgekeerd: bij hoge druk en lage temperatuur zitten de "
+                "moleculen dicht bij elkaar, en dan tellen hun eigen volume en hun onderlinge "
+                "aantrekking mee. Bij lage druk en hoge temperatuur gedraagt een gas zich bijna "
+                "ideaal.",
+                None,
+                "Niet waar: bij een isobaar proces blijft de druk constant, zoals de baar in de naam "
+                "zegt. Het volume blijft gelijk bij een isochoor proces.",
+                "Niet waar: één mol van elk gas neemt bij dezelfde druk en temperatuur hetzelfde "
+                "volume in, namelijk 22,4 liter. In de gaswet staat het aantal mol en niet de massa.",
+            ],
+        ),
+        dict(
+            aanpak="Deze drie vragen vragen een uitleg met het deeltjesmodel of met de schaal van de "
+                   "temperatuur. Noem telkens wat de deeltjes doen.",
+            waarom=[
+                "Noem beide gevolgen: de moleculen botsen vaker én harder. Samen geven die "
+                "botsingen de druk, en daarom stijgt ze bij hetzelfde volume.",
+                "Noem dat het volume vast staat. Stijgt de temperatuur, dan stijgt de druk mee, en "
+                "boven een zekere druk begeeft de bus het.",
+                "Noem dat het om verhoudingen gaat. Verhoudingen gelden enkel vanaf een echt "
+                "nulpunt, en de nul van de celsiusschaal is willekeurig gekozen bij het smeltpunt "
+                "van water.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-warmteleer-temperatuur-warmte-en-faseovergangen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Leer de zes overgangen als drie paren: smelten en stollen, verdampen en "
+                   "condenseren, sublimeren en rijpen. Van elk paar ken je dan de twee richtingen.",
+            waarom=[
+                "Let op sublimeren: dat is van vast rechtstreeks naar gas, zoals droogijs of sneeuw "
+                "die verdwijnt zonder te smelten.",
+                "Let op rijpen: gas rechtstreeks naar vast, zoals de witte laag op een koude ruit. "
+                "Dat is de omgekeerde weg van sublimeren.",
+            ],
+        ),
+        dict(
+            aanpak="Één regel volstaat: naar een losser geheel toe kost warmte, naar een vaster "
+                   "geheel geeft warmte af. Vast is het vastste, gas het losste.",
+            waarom=[
+                None,
+                "Let op dat condenseren en rijpen warmte afgeven. Juist daarom voelt een "
+                "vochtige, warme lucht zo warm aan: de damp die op je huid condenseert, geeft "
+                "haar warmte af.",
+            ],
+        ),
+        dict(
+            aanpak="Q is c maal m maal het temperatuurverschil. Vorm de formule eerst om naar de "
+                   "gevraagde grootheid, en reken in joule en kilogram.",
+            waarom=[
+                None,
+                None,
+                "Let op dat ijzer een veel kleinere soortelijke warmtecapaciteit heeft dan water. "
+                "Daarom warmt een pan veel sneller op dan het water erin.",
+                "Let op de kilojoule: 36 kJ is 36 000 joule. Een eenheid met een voorvoegsel laten "
+                "staan geeft hier een antwoord dat duizend keer te klein is.",
+                "Let op dat de soortelijke warmtecapaciteit in joule per kilogram en per kelvin "
+                "staat. Je antwoord moet dus die eenheid krijgen, niet gewoon joule.",
+            ],
+        ),
+        dict(
+            aanpak="Bij een faseovergang is Q de latente warmte maal de massa, zonder "
+                   "temperatuurverschil. De temperatuur verandert daar immers niet.",
+            waarom=[
+                None,
+                "Let op hoe groot verdampen is tegenover smelten: verdampen vraagt bijna zeven keer "
+                "meer warmte per kilogram. Daarom duurt een pot water droogkoken zo veel langer dan "
+                "aan de kook brengen.",
+                None,
+                "Let op dat stollen even veel warmte afgeeft als smelten opneemt. De latente warmte "
+                "is dezelfde, enkel de richting verschilt.",
+            ],
+        ),
+        dict(
+            aanpak="Splits het probleem in stukken: elk stuk opwarmen apart, elke faseovergang "
+                   "apart, en tel de warmtes op het einde op. Reken nooit een faseovergang en een "
+                   "opwarming in één formule.",
+            waarom=[
+                "Let op hoe klein het opwarmen is tegenover het verdampen: 84 kilojoule tegen 2256. "
+                "Het grootste deel van de energie gaat naar de faseovergang.",
+                "Let op de orde van de twee stappen: eerst smelten op nul graden, dan het "
+                "gesmolten water opwarmen. Draai je ze om, dan reken je met de verkeerde stof.",
+            ],
+        ),
+        dict(
+            aanpak="Op een verwarmingscurve betekent een stijgend stuk opwarmen en een vlak stuk een "
+                   "faseovergang. Twee vlakke stukken betekenen dus twee overgangen.",
+            waarom=[
+                "Let op dat een vlak stuk niet betekent dat er niets gebeurt: er gaat juist veel "
+                "warmte in, maar die wordt gebruikt om de deeltjes los te maken en niet om ze "
+                "sneller te doen bewegen.",
+            ],
+        ),
+        dict(
+            aanpak="Hou warmte en temperatuur streng uit elkaar: warmte is energie die stroomt, "
+                   "temperatuur is hoe snel de deeltjes gemiddeld bewegen.",
+            waarom=[
+                "Niet waar: temperatuur is een maat voor de beweging van de deeltjes, warmte is "
+                "energie die van warm naar koud stroomt. Een badkuip lauw water bevat meer energie "
+                "dan een kop kokend water.",
+                None,
+                None,
+                "Niet waar, net omgekeerd: bij een lagere druk kookt water bij een lagere "
+                "temperatuur. Hoog in de bergen kookt het rond negentig graden, en daarom gaart eten "
+                "er trager.",
+                None,
+                "Niet waar: hoeveel energie een voorwerp bevat, hangt ook van zijn massa en zijn "
+                "soortelijke warmtecapaciteit af. Een vonk van duizend kelvin bevat minder energie "
+                "dan een bad van driehonderd kelvin.",
+                None,
+                "Niet waar: een mengsel smelt over een traject in plaats van bij één temperatuur. "
+                "Een scherp smeltpunt is juist een aanwijzing dat een stof zuiver is.",
+                None,
+                "Niet waar: sublimeren gaat van vast naar gas. De omgekeerde weg, van gas naar vast, "
+                "heet rijpen.",
+            ],
+        ),
+        dict(
+            aanpak="Deze vier vragen vragen een uitleg met het deeltjesmodel of met de drie manieren "
+                   "van warmtetransport. Noem telkens waar de energie naartoe gaat.",
+            waarom=[
+                "Noem waar de warmte naartoe gaat. Ze wordt gebruikt om de deeltjes uit hun rooster "
+                "los te maken, dus gaat ze niet naar hun snelheid en stijgt de temperatuur niet.",
+                "Noem dat verdampen warmte vraagt en dat die uit je huid komt. Daarom koelt zweten "
+                "beter af in droge lucht, waar het water sneller verdampt.",
+                "Noem beide, zoals gevraagd. Het vacuüm sluit geleiding en stroming uit, de "
+                "spiegelende wand kaatst de straling terug; dat zijn precies de drie manieren waarop "
+                "warmte zich verplaatst.",
+                "Noem dat zout het smeltpunt verlaagt. Bij strenge vorst ligt de temperatuur onder "
+                "dat verlaagde smeltpunt, en dan bevriest de pekel toch.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-harmonische-trillingen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De frequentie is één gedeeld door de periode, en omgekeerd. Zet de tijd altijd "
+                   "in seconden, dan komt de frequentie in hertz.",
+            waarom=[
+                None,
+                None,
+            ],
+        ),
+        dict(
+            aanpak="De pulsatie is twee pi gedeeld door de periode, of twee pi maal de frequentie. "
+                   "Ze is dus de frequentie uitgedrukt in radiaal per seconde.",
+            waarom=[
+                "Let op dat de pulsatie altijd ongeveer zes keer groter is dan de frequentie, want "
+                "twee pi is ongeveer 6,28. Dat is een handige controle op je antwoord.",
+            ],
+        ),
+        dict(
+            aanpak="Vergelijk de gegeven vergelijking met de algemene vorm y is A maal de sinus van "
+                   "omega t plus de beginfase. Dan lees je elke grootheid rechtstreeks af.",
+            waarom=[
+                None,
+                None,
+                "Let op dat de beginfase nul is omdat er niets achter de t staat. Dat betekent dat "
+                "de trilling in het evenwicht begint; stond er een cosinus, dan begon ze in een "
+                "uiterste stand.",
+                None,
+                "Let op dat de uitwijking na een halve periode weer nul is, niet min de amplitude. "
+                "De sinus van pi is nul; min de amplitude bereik je na drie kwart periode.",
+            ],
+        ),
+        dict(
+            aanpak="De eigenfrequentie van een veer hangt af van de stijfheid en de massa, die van "
+                   "een slinger van de lengte en van g. De amplitude speelt bij geen van beide een "
+                   "rol.",
+            waarom=[
+                "Let op de laatste: een grotere amplitude verandert de frequentie niet. Dat is net "
+                "wat een harmonische trilling bijzonder maakt.",
+                "Let op de slinger: de massa van de bol doet niets, want ze valt weg uit de formule. "
+                "Op de maan is g kleiner, dus trilt dezelfde slinger langzamer.",
+                "Let op dat massa en stijfheid onder een wortel staan: vier keer zo zwaar geeft twee "
+                "keer zo traag, en twee keer zo zwaar geeft een factor wortel twee.",
+            ],
+        ),
+        dict(
+            aanpak="Hou in je hoofd dat uitwijking en versnelling samen maximaal zijn in de uiterste "
+                   "stand, en de snelheid in het evenwicht. De drie zitten nooit samen op hun "
+                   "maximum.",
+            waarom=[
+                "Let op dat snelheid en versnelling hier elkaars tegengestelde volgen: waar de "
+                "snelheid maximaal is, is de versnelling nul, en omgekeerd.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Het faseverschil zegt hoe de twee trillingen tegenover elkaar lopen: nul is "
+                   "samen, pi is precies tegengesteld, en alles ertussen heeft geen eigen naam.",
+            waarom=[
+                "Let op dat een faseverschil van een halve pi geen naam heeft: de ene is dan "
+                "maximaal terwijl de andere door het evenwicht gaat. Enkel nul en pi heten in fase "
+                "en in tegenfase.",
+            ],
+        ),
+        dict(
+            aanpak="Elke grootheid heeft haar eigen eenheid. Let erop dat de beginfase en de "
+                   "pulsatie in radiaal gerekend worden en niet in meter of in seconden.",
+            waarom=[
+                None,
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: wat een amplitude is, waarvan de periode "
+                   "afhangt, en wat demping en resonantie doen. Vraag je bij elke af welk van de "
+                   "drie.",
+            waarom=[
+                "Niet waar: de amplitude is de grootste uitwijking, dus een afstand, en die kan niet "
+                "negatief zijn. De uitwijking zelf kan dat wel.",
+                None,
+                "Niet waar: bij demping neemt vooral de amplitude af. De frequentie verandert maar "
+                "heel licht.",
+                None,
+                "Niet waar: de periode hangt niet van de amplitude af. Juist daarom kan een slinger "
+                "een uurwerk aandrijven.",
+                None,
+                "Niet waar: de massa van de bol valt weg uit de formule van een slinger. Enkel de "
+                "lengte en g bepalen haar periode.",
+                None,
+                None,
+                "Niet waar: de beginfase staat in radiaal. Ze zegt waar in de trilling je begint, "
+                "niet hoe ver iets uitwijkt.",
+            ],
+        ),
+        dict(
+            aanpak="Deze vier vragen gaan over resonantie en demping. Noem telkens de "
+                   "eigenfrequentie of waar de energie naartoe gaat.",
+            waarom=[
+                "Noem ook een voorbeeld, zoals gevraagd. Resonantie is het samenvallen van de "
+                "aandrijvende frequentie met de eigenfrequentie, en de schommel is het "
+                "duidelijkste voorbeeld.",
+                "Noem beide: de aardbeving kan het gebouw op zijn eigenfrequentie aandrijven, en "
+                "dempers halen energie uit de trilling. Daarom staat of valt zo'n ontwerp met de "
+                "eigenfrequentie van het gebouw.",
+                "Noem dat de periode niet van de amplitude afhangt. Bij een kleine uitslag hangt ze "
+                "enkel van de lengte en van g af, en dat maakt een slinger geschikt als uurwerk.",
+                "Noem dat de energie niet verdwijnt maar warmte wordt. Wrijving en luchtweerstand "
+                "voeren ze af naar de omgeving, en het behoud van energie blijft dus gelden.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-golven-en-hun-eigenschappen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De snelheid is de golflengte maal de frequentie. Vorm die ene formule om naar "
+                   "wat gevraagd wordt, en let op de voorvoegsels bij licht.",
+            waarom=[
+                None,
+                None,
+                "Let op de nanometers: 600 nanometer is 6,0 maal tien tot de min zeven meter. Dat is "
+                "de stap die hier het vaakst misloopt.",
+                "Let op dat je hier de periode krijgt en niet de frequentie. De snelheid is dan de "
+                "golflengte gedeeld door de periode, wat op hetzelfde neerkomt.",
+            ],
+        ),
+        dict(
+            aanpak="Het golfgetal is voor de ruimte wat de pulsatie voor de tijd is: twee pi gedeeld "
+                   "door de golflengte, respectievelijk door de periode.",
+            waarom=[
+                None,
+                "Let op dat je de drie grootheden rechtstreeks afleest: de factor vooraan is de "
+                "amplitude, het getal bij t is de pulsatie en het getal bij x het golfgetal. Reken "
+                "er niets aan.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je af of de deeltjes dwars op de golf of in de looprichting bewegen. "
+                   "Dwars is transversaal, in de looprichting longitudinaal.",
+            waarom=[
+                "Let op dat geluid longitudinaal is: de lucht wordt samengeperst en weer uitgerekt in "
+                "de looprichting. Licht is transversaal, en daarom kan je het polariseren en geluid "
+                "niet.",
+            ],
+        ),
+        dict(
+            aanpak="Leer de vier woorden met hun kern: terugkaatsen, van richting veranderen in een "
+                   "andere stof, afbuigen rond een hindernis, en twee golven die samenkomen.",
+            waarom=[
+                "Let op het verschil tussen diffractie en refractie: diffractie is afbuigen rond een "
+                "hoek of door een opening, refractie is breken bij de overgang naar een andere stof.",
+                "Let op de staande golf: dat is interferentie van een golf met haar eigen "
+                "weerkaatsing, dus geen apart verschijnsel.",
+            ],
+        ),
+        dict(
+            aanpak="Bij breking blijft de frequentie gelijk, want de bron blijft dezelfde. De "
+                   "snelheid verandert, en dus moet de golflengte mee veranderen.",
+            waarom=[
+                "Let op dat juist de frequentie gelijk blijft: de golf wordt niet trager omdat de "
+                "bron anders trilt, maar omdat de stof anders is. Daarom verandert de golflengte.",
+                None,
+                "Let op de regel: naar een stof met een grotere brekingsindex buigt de straal naar "
+                "de normaal toe, naar een kleinere ervan weg. Bij de overgang glas naar lucht kan "
+                "dat zelfs totale weerkaatsing geven.",
+                "Let op dat de brekingsindex de verhouding van de snelheid in vacuüm tot die in de "
+                "stof is. De snelheid in stof 1 heb je hier niet nodig.",
+                "Noem dat de sinus kleiner wordt. Water heeft een grotere brekingsindex dan lucht, "
+                "dus is de brekingshoek kleiner dan de invalshoek.",
+            ],
+        ),
+        dict(
+            aanpak="Bij interferentie beslist het faseverschil: top op top versterkt, top op dal "
+                   "dooft uit. Bij een staande golf ligt tussen twee knopen altijd een halve "
+                   "golflengte.",
+            waarom=[
+                None,
+                "Let op dat een snaar in haar grondtoon een halve golflengte lang is. De golflengte "
+                "is dus het dubbele van de snaarlengte, niet de snaarlengte zelf.",
+                "Let op dat de twee vaste uiteinden zelf de knopen zijn. In de grondtoon zijn er dus "
+                "twee knopen en één buik ertussen.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: wat een golf wel en niet vervoert, wat bij "
+                   "breking verandert, en wat een knoop is. Vraag je bij elke af welk van de drie.",
+            waarom=[
+                None,
+                "Niet waar: de snelheid van een golf hangt van de stof af, niet van de amplitude. "
+                "Hard roepen maakt je stem luider, niet sneller.",
+                None,
+                "Niet waar: elk deeltje begint later te trillen dan het vorige, want de golf heeft "
+                "tijd nodig om er te komen. Juist dat verschil maakt het golfbeeld.",
+                None,
+                "Niet waar: de frequentie blijft gelijk bij breking. Enkel de snelheid en de "
+                "golflengte veranderen.",
+                None,
+                "Niet waar: geluid heeft een stof nodig om zich voort te planten, dus loopt het niet "
+                "door het vacuüm. Licht wel, want dat heeft geen middenstof nodig.",
+                None,
+                "Niet waar: tussen twee knopen ligt een halve golflengte. Een hele golflengte beslaat "
+                "drie knopen.",
+            ],
+        ),
+        dict(
+            aanpak="Deze vier vragen vragen een uitleg. Noem telkens de golflengte, het beginsel van "
+                   "Huygens of de interferentie die erachter zit.",
+            waarom=[
+                "Let op dat je twee tijden van elkaar moet aftrekken: de bron trilde vijf seconden, "
+                "maar de golf had er drie nodig om ter plaatse te komen.",
+                "Noem dat lage tonen een grote golflengte hebben. Buiging rond hoeken lukt beter bij "
+                "een grote golflengte, en daarom blijft juist het gebrom over.",
+                "Noem ook wat je ermee verklaart, zoals gevraagd. Elk punt van een golffront is zelf "
+                "een bron, en daarmee verklaar je weerkaatsing, breking en buiging in één keer.",
+                "Noem beide delen van de vraag. Een staande golf ontstaat uit interferentie met de "
+                "eigen weerkaatsing, en een knoop is een punt waar de twee golven elkaar altijd "
+                "opheffen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-licht-geluid-en-het-elektromagnetisch-spectrum-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Leer het spectrum als één rij van lage naar hoge frequentie. Hoe hoger de "
+                   "frequentie, hoe korter de golflengte en hoe meer energie per foton.",
+            waarom=[
+                "Let op dat de golflengte juist de andere kant op loopt: radiogolven hebben de "
+                "laagste frequentie en de grootste golflengte, gammastraling de hoogste frequentie "
+                "en de kleinste golflengte.",
+            ],
+        ),
+        dict(
+            aanpak="Ioniserend betekent dat één foton genoeg energie heeft om een elektron uit een "
+                   "atoom te slaan. Dat begint pas bij harde uv-straling en geldt dus enkel voor het "
+                   "bovenste stuk van het spectrum.",
+            waarom=[
+                None,
+                "Let op dat de grens bij uv ligt: alles daaronder, dus licht, infrarood, microgolven "
+                "en radiogolven, is niet ioniserend. Microgolven verwarmen wel, maar dat is iets "
+                "anders dan ioniseren.",
+            ],
+        ),
+        dict(
+            aanpak="Twee formules volstaan: de snelheid is golflengte maal frequentie, en de energie "
+                   "van een foton is h maal de frequentie. Werk met machten van tien.",
+            waarom=[
+                None,
+                None,
+                "Let op de megahertz: 100 MHz is tien tot de achtste hertz. Dat geeft netjes drie "
+                "meter, en dat is waarom een FM-antenne ongeveer die lengte heeft.",
+                "Noem dat de energie met de frequentie gaat. Röntgenstraling heeft een veel hogere "
+                "frequentie dan infrarood, dus veel meer energie per foton.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je bij elk beeld twee dingen: kan je het op een scherm opvangen, en staat "
+                   "het rechtop. Reëel en omgekeerd horen samen, virtueel en rechtop ook.",
+            waarom=[
+                "Let op het verschil tussen de twee gevallen bij de bolle lens. Buiten het dubbele "
+                "van de brandpuntsafstand krijg je een reëel en kleiner beeld, binnen de "
+                "brandpuntsafstand een virtueel en groter beeld.",
+                None,
+                "Let op dat een vergrootglas net daarom een virtueel beeld geeft: het voorwerp zit "
+                "binnen de brandpuntsafstand, dus kan je dat beeld niet op een scherm opvangen.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over de snelheid van elektromagnetische golven, over het "
+                   "verschil tussen reëel en virtueel, en over wat de proef van Young aantoont.",
+            waarom=[
+                None,
+                "Niet waar: een virtueel beeld bestaat enkel voor je oog, want de stralen komen daar "
+                "niet echt samen. Enkel een reëel beeld kan je op een scherm opvangen.",
+                None,
+                None,
+                "Niet waar: de proef van Young geeft interferentiestreepjes, en die horen bij een "
+                "golf. Dat licht zich ook als deeltjes gedraagt, blijkt uit het foto-elektrisch "
+                "effect.",
+            ],
+        ),
+        dict(
+            aanpak="Bij geluid reken je met 340 meter per seconde in lucht. Let bij een echo op dat "
+                   "het geluid de afstand twee keer aflegt.",
+            waarom=[
+                None,
+                "Let op het heen en terug: het geluid legde 680 meter af, dus staat de wand op de "
+                "helft daarvan. Die deling vergeten is de klassieke fout bij een echo.",
+                None,
+                None,
+                "Let op dat de harmonischen gewoon veelvouden van de grondtoon zijn. De vierde is "
+                "dus vier keer de eerste, en dat is wat een toon zijn klankkleur geeft.",
+            ],
+        ),
+        dict(
+            aanpak="De decibelschaal is logaritmisch: elke tien decibel is een factor tien in "
+                   "intensiteit. Reken dus met stappen van tien en niet met gewone verhoudingen.",
+            waarom=[
+                "Let op dat nul decibel niet geen geluid betekent, maar het zwakste geluid dat een "
+                "mens nog hoort. Het is dus een gekozen nulpunt.",
+                "Let op dat dertig decibel erbij een factor duizend is, niet een factor drie. Drie "
+                "stappen van tien geven tien tot de derde.",
+                None,
+                "Let op dat de intensiteit met het kwadraat van de afstand gaat. Drie keer dichter "
+                "geeft dus negen keer zo intens, en dat verklaart waarom vooraan op een concert zo "
+                "schadelijk is.",
+            ],
+        ),
+        dict(
+            aanpak="Deze vier vragen vragen een uitleg. Noem telkens de haarcellen, de golflengte of "
+                   "de harmonischen die erachter zitten.",
+            waarom=[
+                "Noem dat de trilhaartjes niet terug groeien. Daarom is gehoorschade blijvend, en "
+                "daarom helpt enkel voorkomen.",
+                "Noem uitdrukkelijk dat de bron niets verandert, want dat is de kern van de vraag. "
+                "De golven komen enkel dichter op elkaar of verder uiteen bij de waarnemer.",
+                "Noem de harmonischen. De grondtoon is dezelfde, maar de sterkte van de boventonen "
+                "verschilt, en die verdeling heet de klankkleur.",
+                "Noem de golflengte. Radiogolven hebben een veel grotere golflengte, dus buigen ze "
+                "beter af rond gebouwen; microgolven worden tegengehouden.",
+            ],
+        ),
+        dict(
+            aanpak="Let bij deze drie op het verschil tussen de bron en de waarnemer, en op de "
+                   "grenzen van wat een mens hoort.",
+            waarom=[
+                "Let op dat geluid sneller loopt in een vastere stof: in staal rond vijfduizend "
+                "meter per seconde, in water rond vijftienhonderd, in lucht 340.",
+                "Niet waar: de bron zendt onveranderd dezelfde frequentie uit. Enkel de waarnemer "
+                "meet een andere, en dat is precies het dopplereffect.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-kwantumfysica-het-foto-elektrisch-effect-en-dualiteit-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Eén vraag beslist: zit de frequentie boven de drempelfrequentie. Zo niet, dan "
+                   "komt er niets los, hoe fel het licht ook is.",
+            waarom=[
+                "Let op het derde geval: fel licht van een te lage frequentie geeft nog altijd "
+                "niets. Meer fotonen van te weinig energie blijven fotonen van te weinig energie.",
+                "Let op dat zwak licht van een hoge frequentie wel werkt. Er komen dan weinig "
+                "elektronen los, maar ze komen onmiddellijk los.",
+            ],
+        ),
+        dict(
+            aanpak="De energie van een foton is h maal de frequentie. De uittree-arbeid is diezelfde "
+                   "formule met de drempelfrequentie, en wat overblijft is kinetische energie.",
+            waarom=[
+                None,
+                None,
+                "Let op dat de uittree-arbeid gewoon h maal de drempelfrequentie is. Dat is de "
+                "energie die het elektron nodig heeft om net los te komen.",
+                "Let op dat je hier twee energieën van elkaar aftrekt: de energie van het foton min "
+                "de uittree-arbeid. Dat is de vergelijking van Einstein voor dit effect.",
+                "Noem dat de energie met de frequentie gaat. Blauw heeft een hogere frequentie en "
+                "dus een kleinere golflengte, en daarom meer energie per foton.",
+            ],
+        ),
+        dict(
+            aanpak="Hou de twee rollen streng uit elkaar: de frequentie bepaalt de energie per "
+                   "foton, de intensiteit het aantal fotonen.",
+            waarom=[
+                "Let op dat de intensiteit enkel het aantal elektronen beïnvloedt en nooit hun "
+                "energie. Juist dat kon het oude golfmodel niet verklaren.",
+            ],
+        ),
+        dict(
+            aanpak="Verschijnselen waarbij golven samenkomen of afbuigen vragen het golfmodel; "
+                   "verschijnselen met een drempel of met één pakketje energie vragen het "
+                   "deeltjesmodel.",
+            waarom=[
+                None,
+                "Let op dat licht beide kanten heeft en dat daar niets fout aan is. Welk model je "
+                "nodig hebt, hangt af van de proef die je doet.",
+            ],
+        ),
+        dict(
+            aanpak="De golflengte van de materie is h gedeeld door massa maal snelheid. Omdat h zo "
+                   "klein is, speelt ze enkel bij heel lichte deeltjes een rol.",
+            waarom=[
+                None,
+                "Let op hoe klein dit getal is: tien tot de min vierendertig meter, tegen tien tot "
+                "de min tien voor een elektron. Dat verschil van vierentwintig machten is de hele "
+                "reden dat we het golfkarakter van een bal niet zien.",
+                "Noem de vergelijking met een atoom. De golflengte is zo veel kleiner dan elke "
+                "structuur die bestaat, dat er niets is waaraan ze zich zou kunnen verraden.",
+            ],
+        ),
+        dict(
+            aanpak="Leer de drie begrippen met wat ze beschrijven: een gebied met kans, een "
+                   "ondergrens in frequentie, en de vergelijking achter de golffunctie.",
+            waarom=[
+                "Let op dat een orbitaal geen baan is maar een gebied met een grote kans. Dat is "
+                "precies het verschil met het oude beeld van een elektron dat rondjes draait.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: één foton per elektron, wat het "
+                   "onzekerheidsbeginsel wel en niet is, en hoe de grafiek van de kinetische energie "
+                   "loopt.",
+            waarom=[
+                "Niet waar: één elektron neemt de energie van één foton op. Energie van meerdere "
+                "fotonen sparen kan niet, en daarom helpt fel licht van een te lage frequentie "
+                "niet.",
+                None,
+                "Niet waar: het is geen gebrek aan goede toestellen maar een eigenschap van de "
+                "natuur zelf. Betere meettoestellen veranderen er niets aan.",
+                None,
+                "Niet waar: een elektron heeft geen baan zoals een planeet. Je kan enkel een gebied "
+                "met een grote kans tekenen, en dat is een orbitaal.",
+                None,
+                "Niet waar: een kleinere golflengte betekent een hogere frequentie en dus meer "
+                "energie. Gammastraling heeft de kleinste golflengte en de meeste energie.",
+                "Waar, en dat is hoe men h gemeten heeft. Zet je de kinetische energie uit tegen de "
+                "frequentie, dan is de helling de constante van Planck en het snijpunt de uittree-"
+                "arbeid.",
+            ],
+        ),
+        dict(
+            aanpak="Deze drie vragen vragen een uitleg. Noem telkens of je het golfmodel of het "
+                   "deeltjesmodel nodig hebt, en waarom het andere tekortkomt.",
+            waarom=[
+                "Noem wat het golfmodel zou voorspellen en wat je werkelijk ziet. Volgens dat model "
+                "zou wachten helpen, en in werkelijkheid helpt wachten nooit.",
+                "Noem dat de massa in de noemer staat. Daardoor is de golflengte van een bal "
+                "onmeetbaar klein, terwijl die van een elektron van de orde van een atoom is.",
+                "Noem beide kanten, want dat is de kern van de vraag. Elk elektron komt als één stip "
+                "aan, dus als deeltje, en samen vormen ze toch het strepenpatroon van een golf.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-atoomkern-radioactief-verval-en-halveringstijd-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Het getal in de naam is het massagetal A, dus het aantal protonen plus neutronen. "
+                   "Zoek het aantal protonen Z op en trek dat af.",
+            waarom=[
+                "Let op dat je Z uit de naam van het element haalt en niet uit het getal erachter. "
+                "Natrium heeft altijd elf protonen, lood tweeëntachtig, koolstof zes.",
+            ],
+        ),
+        dict(
+            aanpak="Leer de vier soorten aan wat er wegvliegt: een heliumkern, een elektron, een "
+                   "positron, of enkel energie. Daaruit volgt meteen wat A en Z doen.",
+            waarom=[
+                None,
+                "Let op bèta-plus: daar wordt een proton een neutron en vertrekt er een positron, "
+                "dus daalt Z met één. Bij bèta-min is het net omgekeerd.",
+            ],
+        ),
+        dict(
+            aanpak="Bij alfa daalt A met vier en Z met twee, bij bèta-min blijft A gelijk en stijgt "
+                   "Z met één, bij gamma verandert geen van de twee.",
+            waarom=[
+                None,
+                "Let op het gammaverval: daar blijven A en Z precies gelijk, want er vertrekt enkel "
+                "energie. De kern is daarna dezelfde, maar wel minder aangeslagen.",
+                "Let op dat je hier ook de naam moet geven. Twee protonen minder dan radium brengt "
+                "je bij radon, en die stap is net waarom radon in kelders opduikt.",
+            ],
+        ),
+        dict(
+            aanpak="Reken in halveringen in plaats van met formules: na elke halveringstijd blijft "
+                   "er de helft over. Tel dus hoeveel keer de helft je nodig hebt.",
+            waarom=[
+                None,
+                "Let op dat een zestiende vier halveringen is, want een half tot de vierde is een "
+                "zestiende. Vier maal vier jaar geeft zestien jaar.",
+                None,
+                "Let op dat een kwart twee halveringstijden is, dus twee keer 5730 jaar. Die methode "
+                "werkt tot ongeveer vijftigduizend jaar; daarna is er te weinig koolstof-14 over om "
+                "te meten.",
+            ],
+        ),
+        dict(
+            aanpak="De activiteit is de vervalconstante maal het aantal kernen, en die constante is "
+                   "0,693 gedeeld door de halveringstijd. Let op de eenheid van tijd die gevraagd "
+                   "wordt.",
+            waarom=[
+                "Let op dat de activiteit even snel daalt als het aantal kernen: negen uur is drie "
+                "halveringen, dus gedeeld door acht.",
+                "Let op dat de vervalconstante de eenheid van je halveringstijd overneemt. Staat de "
+                "halveringstijd in dagen, dan staat lambda per dag.",
+                None,
+                "Noem dat de kortste halveringstijd de grootste vervalconstante geeft. Bij hetzelfde "
+                "aantal kernen is die bron dus het actiefst, en ook het snelst uitgewerkt.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: wat een halveringstijd wel en niet betekent, "
+                   "dat verval niet te beïnvloeden is, en het verband tussen activiteit en aantal "
+                   "kernen.",
+            waarom=[
+                "Niet waar: na twee halveringstijden is er nog een kwart over. Volledig vervallen "
+                "gebeurt in theorie nooit, want er blijft telkens de helft over.",
+                "Niet waar: verval is een eigenschap van de kern zelf. Temperatuur, druk en "
+                "scheikundige verbindingen veranderen de halveringstijd niet, en juist daarom is ze "
+                "zo betrouwbaar als klok.",
+                None,
+                "Niet waar: bij gammaverval blijven A en Z gelijk, dus blijft het hetzelfde element. "
+                "Enkel alfa en bèta veranderen het element.",
+                None,
+                None,
+                "Niet waar, het is net omgekeerd: een kortere halveringstijd geeft een grotere "
+                "vervalconstante. Lambda is 0,693 gedeeld door de halveringstijd.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Deze drie vragen vragen een uitleg. Noem telkens de twee krachten in de kern, of "
+                   "de formule die het verband legt.",
+            waarom=[
+                "Noem beide krachten. De afstoting tussen protonen werkt over de hele kern, de "
+                "kernkracht enkel tussen naburen, en extra neutronen voegen kernkracht toe zonder "
+                "afstoting.",
+                "Noem dat de aanvulling stopt bij de dood. Zolang een organisme leeft, blijft het "
+                "gehalte gelijk; daarna daalt het met een vaste halveringstijd, en dat geeft de "
+                "ouderdom.",
+                "Noem de formule. De activiteit is lambda maal het aantal kernen, en lambda "
+                "verandert niet, dus zijn de twee recht evenredig.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-kernenergie-straling-en-haar-effecten-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Leer de drie soorten met hun tegenstelling: alfa ioniseert het sterkst maar "
+                   "dringt het minst door, gamma net omgekeerd. Bèta zit in het midden.",
+            waarom=[
+                None,
+                "Let op dat gamma niet afbuigt in een magnetisch veld: het is straling zonder "
+                "lading. Alfa en bèta hebben wel een lading en buigen dus af, in tegengestelde zin.",
+            ],
+        ),
+        dict(
+            aanpak="E is m maal c kwadraat, met de massa in kilogram. Omdat c kwadraat negen maal "
+                   "tien tot de zestiende is, levert elke gram een enorme energie.",
+            waarom=[
+                "Let op de omzetting: twee gram is 0,002 kilogram. En dat kleine beetje massa geeft "
+                "al tien tot de veertiende joule, ongeveer wat een grote stad op een paar uur "
+                "verbruikt.",
+                None,
+                None,
+                "Noem de twee stappen. De bindingsenergie volgt uit het massadefect maal c kwadraat, "
+                "en pas daarna deel je door het massagetal om de energie per kerndeeltje te "
+                "krijgen.",
+            ],
+        ),
+        dict(
+            aanpak="Hou de drie dosissen uit elkaar: de geabsorbeerde dosis in gray, de equivalente "
+                   "dosis met de weegfactor van de stralingssoort, en de effectieve dosis met de "
+                   "weegfactor van het weefsel.",
+            waarom=[
+                None,
+                "Let op het verschil tussen de twee weegfactoren: de ene hoort bij de soort "
+                "straling, de andere bij het bestraalde weefsel. Beide staan in sievert.",
+                None,
+                "Let op dat de geabsorbeerde dosis dezelfde is en toch de schade twintig keer groter. "
+                "Juist dat verschil is waarom men met sievert en niet met gray naar risico kijkt.",
+            ],
+        ),
+        dict(
+            aanpak="Splijting gaat van zwaar naar middelzwaar, fusie van licht naar middelzwaar. "
+                   "Beide bewegen naar ijzer toe, en dat is waarom er energie vrijkomt.",
+            waarom=[
+                None,
+                None,
+                "Noem de top van de curve. Ijzer-56 heeft de grootste bindingsenergie per "
+                "kerndeeltje, dus is er geen weg meer omhoog, niet van links en niet van rechts.",
+                "Let op het verschil tussen de moderator en de regelstaven: de moderator vertraagt "
+                "de neutronen zodat ze beter splijten, de regelstaven slorpen ze op om de reactie te "
+                "temperen.",
+                None,
+                "Let op dat een rendement van een derde betekent dat twee derde als warmte "
+                "verdwijnt. Dat is waarom een centrale aan een rivier of aan de zee staat.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: wat een centrale wel en niet uitstoot, hoe "
+                   "gevaarlijk een soort straling is binnen of buiten het lichaam, en wat de "
+                   "eenheden betekenen.",
+            waarom=[
+                "Niet waar: bij het opwekken zelf komt er geen koolstofdioxide vrij. Bij het bouwen "
+                "van de centrale en het winnen van het uranium wel, dus volledig nul is het niet.",
+                "Niet waar: doorstraald voedsel wordt niet radioactief. De straling doodt enkel de "
+                "micro-organismen en gaat er dan door, zoals licht door glas.",
+                "Niet waar: België heeft nog geen definitieve bergingsplaats voor hoogactief afval "
+                "van categorie C. Dat is precies waarom dat afval nu bovengronds bewaard wordt.",
+                "Niet waar: bij een kernproces verdwijnt er een beetje massa, en die wordt energie. "
+                "Dat massadefect is net waar de energie uit komt.",
+                None,
+                None,
+                None,
+                "Niet waar, het is net omgekeerd: van buiten houdt je huid alfastraling al tegen. "
+                "Binnen in het lichaam is ze juist het gevaarlijkst, want daar geeft ze al haar "
+                "energie aan weefsel af.",
+                None,
+                None,
+                "Niet waar: gammastraling heeft geen lading, dus buigt ze niet af, niet in een "
+                "elektrisch en niet in een magnetisch veld.",
+            ],
+        ),
+        dict(
+            aanpak="Deze vier vragen vragen een uitleg. Noem telkens de drie beschermingsmaatregelen, "
+                   "het orgaan dat het stofje opneemt, of het verschil tussen buiten en binnen het "
+                   "lichaam.",
+            waarom=[
+                "Noem er drie, zoals gevraagd, en zeg bij elk waarom het werkt: afstand, tijd en "
+                "afscherming. Dat rijtje is het waard om vanbuiten te kennen.",
+                "Noem dat de schildklier jodium opneemt. Vul je ze met gewoon jodium, dan is er geen "
+                "plaats meer voor de radioactieve soort.",
+                "Noem dat alfastraling haar energie in een klein gebied afgeeft. Dezelfde energie "
+                "geconcentreerd op enkele cellen doet veel meer schade dan verspreid over een groot "
+                "volume.",
+                "Noem van elk waar de bron zit. Bij bestraling blijft de bron buiten je en stopt het "
+                "als je weggaat; bij besmetting zit de stof op of in je lichaam en gaat ze mee.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-veilig-werken-meetinstrumenten-en-meetonzekerheid-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zoek bij elke grootheid het toestel met de passende eenheid. Een multimeter "
+                   "doet er meerdere, maar dan moet je wel de juiste stand kiezen.",
+            waarom=[
+                None,
+                "Let op waar je de meter zet: een voltmeter parallel over het onderdeel, een "
+                "ampèremeter in serie in de kring. Een ampèremeter parallel aansluiten is de "
+                "klassieke manier om er een te verbranden.",
+            ],
+        ),
+        dict(
+            aanpak="Zet alles om via de macht van tien van het voorvoegsel. Voor km per uur naar "
+                   "meter per seconde deel je door 3,6, omgekeerd vermenigvuldig je.",
+            waarom=[
+                None,
+                "Let op de microfarad: 470 microfarad is 470 maal tien tot de min zes farad. De "
+                "farad is zo groot dat je in de praktijk altijd met micro of nano werkt.",
+            ],
+        ),
+        dict(
+            aanpak="Leer de voorvoegsels als een rij van machten van drie: kilo, mega, giga naar "
+                   "boven, en milli, micro, nano naar beneden. Centi en deci vallen daarbuiten.",
+            waarom=[
+                None,
+                "Let op dat centi tien tot de min twee is en dus niet in de rij van drie past. "
+                "Hetzelfde geldt voor deci, tien tot de min één.",
+            ],
+        ),
+        dict(
+            aanpak="Beduidende cijfers zeggen hoe fijn er gemeten is. Nullen vooraan tellen niet "
+                   "mee, nullen achteraan na een komma wel.",
+            waarom=[
+                "Let op 0,0340: de nul vooraan telt niet mee, de nul achteraan wel, dus drie "
+                "beduidende cijfers. Bij 1200 zonder komma zijn er maar twee.",
+                "Let op dat de slechtste meting het antwoord bepaalt. Bij optellen gaat het om het "
+                "aantal cijfers na de komma, bij vermenigvuldigen om het aantal beduidende cijfers.",
+                "Noem dat je niet fijner mag noteren dan je meet. Een lat tot op de millimeter geeft "
+                "hoogstens één cijfer na de komma in centimeter.",
+                None,
+                "Noem het aantal beduidende cijfers. Die extra nul is geen opsmuk maar een "
+                "mededeling: er is tot op drie cijfers gemeten.",
+            ],
+        ),
+        dict(
+            aanpak="Kies een bereik dat net boven je verwachte waarde ligt en een nauwkeurigheid die "
+                   "bij de grootte van je meting past. Te grof en te fijn zijn beide fout.",
+            waarom=[
+                "Let op de twee soorten fout: de eerste meting gaat buiten het bereik van de meter, "
+                "de tweede is binnen het bereik maar veel te grof. Drie gram op een weegschaal van "
+                "één gram geeft maar één cijfer.",
+                "Let op dat de nauwkeurigheid altijd tegenover de grootte van je meting staat. Een "
+                "tiende seconde op een halve seconde is twintig procent, een centimeter op zes meter "
+                "bijna niets.",
+            ],
+        ),
+        dict(
+            aanpak="Een grafiek verraadt het verband: een rechte door de oorsprong is recht "
+                   "evenredig, een rechte met een snijpunt is lineair, een dalende kromme is "
+                   "omgekeerd evenredig.",
+            waarom=[
+                None,
+                "Let op het verschil tussen recht evenredig en lineair: bij recht evenredig gaat de "
+                "rechte door de oorsprong, bij lineair hoeft dat niet. Dat kleine getal q maakt het "
+                "verschil.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over het kiezen van een instrument, over eenheden, en over "
+                   "veilig werken. Vraag je bij elke af welk van de drie.",
+            waarom=[
+                "Niet waar: een te nauwkeurig toestel is vaak trager, duurder en gevoeliger. Je kiest "
+                "een nauwkeurigheid die bij je meting past.",
+                "Niet waar: zonder eenheid betekent een getal niets. Dat is in de fysica geen "
+                "vormfout maar een echte fout.",
+                None,
+                None,
+                "Niet waar: water geleidt, en een natte hand verlaagt de weerstand van je lichaam "
+                "sterk. Ook bij een lage spanning blijf je met droge handen werken.",
+            ],
+        ),
+        dict(
+            aanpak="Let bij deze drie op het aflezen zelf en op wat er na de proef gebeurt. Opruimen "
+                   "hoort bij het werk, niet erna.",
+            waarom=[
+                "Niet waar: van opzij lees je een analoge meter fout af, want de naald hangt boven de "
+                "schaal. Dat is de parallaxfout, en je vermijdt ze door recht van boven te kijken.",
+                None,
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Zoek bij elk geval welke van de drie klassieke fouten het is: een voorvoegsel "
+                   "kwijt, te veel cijfers, of geen eenheid.",
+            waarom=[
+                "Noem het voorvoegsel. Vijfhonderd milliampère is een halve ampère, dus zit er een "
+                "factor duizend verschil tussen de twee notaties.",
+                "Noem dat de slechtste meting het aantal cijfers bepaalt. Twee komma vijf heeft één "
+                "cijfer na de komma, dus het antwoord ook.",
+                "Noem dat de eenheid ontbreekt. Tweehonderddertig kan volt, ohm of milliampère zijn, "
+                "en dat zijn drie heel verschillende metingen.",
+            ],
+        ),
+        dict(
+            aanpak="Deze vier vragen vragen een reden. Noem telkens wat er kan mislopen en hoe je "
+                   "dat voorkomt.",
+            waarom=[
+                "Noem dat je zo rustig kan opdrijven. Bij een verkeerde schakeling merk je het bij "
+                "een lage spanning nog voor er iets doorbrandt.",
+                "Noem je reactietijd en vergelijk ze met de meting. Een tiende seconde op een halve "
+                "seconde is twintig procent, en dat is veel te veel.",
+                "Noem dat je de waarde niet overneemt. Eerst bereik, aansluiting en stand nagaan, "
+                "dan opnieuw meten; een onmogelijke waarde opschrijven is nooit het antwoord.",
+                "Noem ook hoe je ze vermijdt, zoals gevraagd. De naald hangt boven de schaal, dus "
+                "kijk je recht van boven en niet schuin.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-wetenschappelijk-onderzoek-ontwerpen-en-stem-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De zes stappen staan in een vaste orde: eerst denken, dan meten, dan verwerken, "
+                   "dan besluiten. De hypothese komt altijd vóór de metingen.",
+            waarom=[
+                "Let op dat de hypothese op de derde plaats staat, dus voor het meten. Een "
+                "verwachting die je achteraf opschrijft, is geen hypothese meer.",
+            ],
+        ),
+        dict(
+            aanpak="Een bruikbare onderzoeksvraag noemt twee grootheden en een verband ertussen. "
+                   "Staat er geen meetbare grootheid in, dan is ze te breed.",
+            waarom=[
+                None,
+                "Let op dat een bruikbare vraag altijd de vorm heeft hoe hangt A af van B. Daarin "
+                "zitten je twee variabelen al.",
+            ],
+        ),
+        dict(
+            aanpak="Drie soorten variabelen: die jij instelt, die je meet, en die je gelijk houdt. "
+                   "Zonder die derde soort is je proef niets waard.",
+            waarom=[
+                None,
+                None,
+                "Let op de afspraak voor de assen: wat jij instelt komt op de horizontale as, wat je "
+                "meet op de verticale. Dus de valtijd in functie van de hoogte en niet omgekeerd.",
+            ],
+        ),
+        dict(
+            aanpak="In een verslag staat alles wat iemand anders nodig heeft om je proef over te "
+                   "doen. Alles wat daar niets aan bijdraagt, mag weg.",
+            waarom=[
+                None,
+                "Let op dat ook een weggelaten meting in het verslag hoort, mét de reden. Een "
+                "meting stil laten verdwijnen is niet eerlijk; ze vermelden en verantwoorden wel.",
+            ],
+        ),
+        dict(
+            aanpak="De beweringen gaan over drie dingen: wat een geldig resultaat is, hoever een "
+                   "conclusie mag gaan, en hoe je een proef opzet.",
+            waarom=[
+                None,
+                "Niet waar: een conclusie blijft binnen wat je gemeten hebt. Meet je tot twee meter "
+                "hoog, dan zeg je niets over tien meter.",
+                "Niet waar: verander er één per keer, anders weet je niet welke voor het verschil "
+                "zorgde. Juist dat is wat een proef van een losse observatie onderscheidt.",
+                None,
+                "Niet waar: STEM betekent net dat je de disciplines samenbrengt. Eén vak grondig "
+                "inzetten is geen STEM-opdracht.",
+            ],
+        ),
+        dict(
+            aanpak="Let bij deze drie op de orde van de stappen en op wat een criterium "
+                   "bruikbaar maakt. Een criterium moet je kunnen nameten.",
+            waarom=[
+                "Niet waar: de hypothese komt vóór de metingen. Anders heb je geen verwachting maar "
+                "een beschrijving van wat je al weet.",
+                None,
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Een criterium is een eis die je kan nameten, met een getal en een eenheid. Een "
+                   "mening kan je niet nameten, en hoort dus niet in je lijst.",
+            waarom=[
+                None,
+                "Let op dat de tweede een mening is: sportief uitzien kan niemand nameten. Met een "
+                "getal en een eenheid wordt een eis een criterium.",
+                "Schrijf er twee, zoals gevraagd, en geef elk een getal en een eenheid. Eén over het "
+                "resultaat en één over de middelen is een goede combinatie.",
+            ],
+        ),
+        dict(
+            aanpak="Deze vier vragen vragen een uitleg. Noem telkens de toevallige fout, de "
+                   "weerlegbaarheid, of wat elk vak aan de oplossing bijdraagt.",
+            waarom=[
+                "Noem de toevallige afwijking. Door te herhalen en het gemiddelde te nemen vallen die "
+                "afwijkingen grotendeels weg; een systematische fout verdwijnt er wel niet mee.",
+                "Noem dat een onweerlegbare verwachting niets te onderzoeken geeft. Juist doordat de "
+                "meting je hypothese kan tegenspreken, leer je er iets uit.",
+                "Noem de vier letters en geef bij elk zijn bijdrage, zoals gevraagd. Wetenschappen, "
+                "technologie, techniek en wiskunde.",
+                "Noem dat de keuzes ieders energie en kosten raken. Een technische vraag is zo ook "
+                "een maatschappelijke keuze, en dat is net wat STEM bedoelt.",
+            ],
+        ),
+    ],
+)
