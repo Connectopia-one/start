@@ -1022,3 +1022,800 @@ zet("linnenzorg-sorteren-wassen-en-strijken",
                   "Hoe strijk je het?", WL),
              ]),
     ])
+
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-waarnemen-van-prikkel-tot-reactie-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De weg van prikkel tot reactie is altijd dezelfde keten van zes schakels. "
+                   "Onthoud ze aan de richting: naar binnen met de gevoelszenuw, beslissen in "
+                   "het midden, naar buiten met de bewegingszenuw. Noemt een vraag een spier of "
+                   "een klier, dan zit je aan het einde van de keten.",
+            waarom=[
+                "Merk op dat schakel 4 twee mogelijkheden heeft. Bij een reflex beslist het "
+                "ruggemerg, en dan gaat het sneller omdat de prikkel niet eerst naar de hersenen "
+                "moet. Daarom trek je je hand terug voor je de pijn voelt.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Elk zintuig heeft één prikkel waarvoor het gebouwd is, en dat heet de "
+                   "adequate prikkel. Let op het oor: het bevat twee zintuigen, een voor geluid "
+                   "en een voor evenwicht. De huid is er ook een met meerdere soorten receptoren "
+                   "in zich.",
+            waarom=[
+                None,
+                "De laatste twee lijnen zijn het belangrijkste van deze bundel: je zintuig geeft "
+                "enkel impulsen door, en de waarneming zelf gebeurt in de hersenen. Daarom kan je "
+                "iets zien dat er niet is, en kan iemand nog pijn voelen in een been dat er niet "
+                "meer is.",
+            ],
+        ),
+        dict(
+            aanpak="De drie oefeningen gaan over waarnemen dat tekortschiet: wennen, aanpassen, "
+                   "en het verlies van een zintuig. Bij de laatste wordt om zorg gevraagd, niet "
+                   "om biologie: antwoord dus met wat je doet, niet met wat er stuk is.",
+            waarom=[
+                "Adaptatie is geen gebrek maar een nuttige eigenschap. Je receptoren melden "
+                "veranderingen, en wat niet verandert, hoef je niet te blijven voelen; anders zou "
+                "je je kleren de hele dag voelen.",
+                "Let op de orde: eerst de pupil, die in een seconde vernauwt, en daarna de "
+                "overgang van staafjes naar kegeltjes. Omgekeerd, van licht naar donker, duurt "
+                "het veel langer, tot twintig minuten, omdat de staafjes zich moeten herstellen.",
+                "Dit is de kern van zorgzaam omgaan met slechthorendheid. Roepen vervormt de "
+                "klanken en overstemt de lipbeweging die de persoon net gebruikt. Zorg dus eerst "
+                "voor stilte en zicht op je gezicht, en spreek dan gewoon.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-het-oog-en-het-oor-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Volg het licht van buiten naar binnen: hoornvlies, pupil met de iris errond, "
+                   "lens, netvlies, oogzenuw. Zo staat de eerste rij ook geordend. In de tweede "
+                   "rij zitten de cellen en de plekken op dat netvlies.",
+            waarom=[
+                None,
+                "Houd de gele en de blinde vlek goed uit elkaar. In de gele vlek zitten de "
+                "kegeltjes het dichtst op elkaar, in de blinde vlek zit geen enkele cel omdat "
+                "daar de oogzenuw vertrekt. Je merkt die blinde vlek niet, want je hersenen "
+                "vullen hem op.",
+                "Reken het aan jezelf na in een donkere kamer: je ziet vormen maar geen kleuren, "
+                "en in je ooghoeken zie je beweging beter dan in het midden. Dat komt doordat de "
+                "staafjes vooral buiten de gele vlek zitten.",
+            ],
+        ),
+        dict(
+            aanpak="Ook het oor volg je van buiten naar binnen: oorschelp, trommelvel, de drie "
+                   "beentjes, het slakkenhuis. Daarnaast twee onderdelen die niets met horen te "
+                   "maken hebben: de halfcirkelvormige kanalen voor je evenwicht en de buis van "
+                   "Eustachius voor de druk.",
+            waarom=[
+                None,
+                "De buis van Eustachius is dus geen onderdeel van het horen maar van de "
+                "drukregeling. Bij kinderen is die buis korter en vlakker, en daarom krijgen zij "
+                "veel vaker een middenoorontsteking.",
+                "Het oor ruimt zichzelf op: het oorsmeer schuift met de huid naar buiten. Een "
+                "wattenstaafje werkt dus tegen die beweging in, en bij harde oorsmeer is een "
+                "huisarts of een spoeling de juiste weg.",
+            ],
+        ),
+        dict(
+            aanpak="Zes uitspraken over bescherming. Eén regel geeft de meeste antwoorden: "
+                   "schade aan het oog en het oor is zelden omkeerbaar. Alles wat suggereert dat "
+                   "het van zelf goed komt, is dus bijna altijd niet waar.",
+            waarom=[
+                "Niet waar, en dit is de belangrijkste van de zes. De haarcellen in het "
+                "slakkenhuis groeien niet terug. Dat gepiep na een fuif verdwijnt wel, maar een "
+                "deel van de schade blijft en stapelt op over de jaren.",
+                "Waar, en dat is de grens die ook in de wet staat voor werk. Let op dat decibel "
+                "niet gewoon optelt: tien decibel meer klinkt ongeveer dubbel zo luid en is tien "
+                "keer zo veel geluidsenergie, dus boven 100 decibel gaat het snel.",
+                "Niet waar. Ook bij slijpen, zagen, hameren en werken met warme vloeistoffen kan "
+                "er iets in je oog komen. Het gevaar hangt af van wat je doet, niet van het vak "
+                "waarin je zit.",
+                "Waar, en dat verrast de meesten. Een donker glas laat je pupil opengaan terwijl "
+                "het uv doorlaat, dus komt er meer schadelijk licht binnen dan zonder bril. Kijk "
+                "dus naar het label en niet naar de donkerte van het glas.",
+                None,
+                "Waar. De vuistregel is twintig seconden in de verte kijken na twintig minuten "
+                "scherm. Het gaat om de spier die je lens bolt: die staat bij dichtbij kijken "
+                "voortdurend aangespannen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-spieren-beenderen-en-gewrichten-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De botten van de ledematen zitten in een vast patroon: één bot in het "
+                   "bovenste deel, twee in het onderste. Dat geldt voor de arm en voor het been, "
+                   "en daarmee heb je de eerste vier lijnen al. De tweede rij gaat over de taken "
+                   "van het skelet, en dat zijn er vijf.",
+            waarom=[
+                None,
+                "Dat een bot bloed aanmaakt en kalk opslaat, wordt het vaakst vergeten. Een "
+                "skelet is geen dood geraamte maar levend weefsel dat voortdurend afbreekt en "
+                "opbouwt; daarom kan een bot genezen en daarom kan het ook brozer worden.",
+            ],
+        ),
+        dict(
+            aanpak="Houd de soorten gewrichten uit elkaar aan hun beweging: een kogelgewricht "
+                   "draait alle kanten op, een scharnier maar één richting, een rolgewricht "
+                   "draait om zijn as, een zadelgewricht twee richtingen. In de tweede rij staan "
+                   "de delen errond en de twee kwetsuren.",
+            waarom=[
+                "Bij de nek is er een nuance: het draaien van je hoofd om nee te zeggen gebeurt "
+                "in het rolgewricht tussen de eerste twee wervels, terwijl het ja-knikken "
+                "gebeurt tussen je schedel en de eerste wervel. Twee gewrichten dus, en het "
+                "rolgewricht is dat van de nee-beweging.",
+                "Houd band en pees uit elkaar met wat ze verbinden: band is bot aan bot, pees is "
+                "spier aan bot. Daarom is een verstuiking een bandletsel en voelt ze anders dan "
+                "een spierscheur.",
+            ],
+        ),
+        dict(
+            aanpak="De laatste reeks gaat over spieren en over wat ze kunnen. Onthoud één "
+                   "eigenschap waaruit bijna alles volgt: een spier kan enkel trekken. Daarom "
+                   "komen ze in paren, en daarom hef je zwaar gewicht met de spieren die het "
+                   "kunnen trekken en niet met je rug.",
+            waarom=[
+                "De laatste zin is het hele antwoord: een spier kan niet duwen. Elk gewricht dat "
+                "in twee richtingen beweegt, heeft dus minstens twee spieren nodig, en terwijl de "
+                "ene trekt, laat de andere los.",
+                "Let op de drie soorten spieren. Enkel de skeletspieren spreek je bewust aan; de "
+                "gladde spieren en de hartspier werken zonder dat je eraan denkt, en dat is ook "
+                "de reden dat je je hart niet kan stilleggen.",
+                "Reken het mechanisch na: met een gebogen rug werkt je wervelkolom als een hefboom "
+                "met een heel korte arm, en dan wordt de kracht op je tussenwervelschijven veel "
+                "groter dan het gewicht van de doos. Recht blijven en plooien in je knieën haalt "
+                "die hefboom weg.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-het-zenuwstelsel-en-de-reflexen-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Het zenuwstelsel wordt twee keer ingedeeld, en dat is wat verwarring geeft. "
+                   "De eerste indeling is naar plaats: centraal tegenover perifeer. De tweede is "
+                   "naar sturing: willekeurig tegenover autonoom, en dat autonome deel valt nog "
+                   "eens uiteen in sympathicus en parasympathicus.",
+            waarom=[
+                "Onthoud de sympathicus als het gaspedaal en de parasympathicus als de rem: de "
+                "eerste maakt je klaar om te vluchten of te vechten, de tweede om te rusten en te "
+                "verteren. Ze werken allebei altijd, en het evenwicht tussen de twee verschuift.",
+                "Let op de synaps. Dat is geen onderdeel van een cel maar de ruimte ertussen, en "
+                "het signaal steekt die over met stoffen en niet met elektriciteit. Daarom werken "
+                "veel medicijnen juist op die plaats in.",
+            ],
+        ),
+        dict(
+            aanpak="Leer de hersendelen aan hun soort taak: de grote hersenen doen wat je bewust "
+                   "doet, de kleine hersenen de fijne afstemming van beweging, de hersenstam wat "
+                   "nooit mag stoppen. De hypothalamus regelt het innerlijke evenwicht en de "
+                   "thalamus geeft door.",
+            waarom=[
+                "Merk op waarom de hersenstam zo kwetsbaar is: daar zit wat je nooit bewust "
+                "stuurt en wat ook nooit mag uitvallen. Een letsel daar is daardoor veel "
+                "gevaarlijker dan hetzelfde letsel in de grote hersenen.",
+                "Het punt van deze vraag is de vertraging. Een bloeding in de schedel geeft "
+                "soms urenlang geen klachten, en daarom beoordeel je een hersenschudding niet "
+                "aan hoe iemand er onmiddellijk na de val uitziet.",
+            ],
+        ),
+        dict(
+            aanpak="Een reflexboog heeft dezelfde schakels als de gewone weg van prikkel tot "
+                   "reactie, maar met het ruggemerg in het midden in plaats van de hersenen. "
+                   "Daarom zijn het er vijf en niet zes, en daarom komt de bewuste gedachte pas "
+                   "achteraf.",
+            waarom=[
+                "Let op de laatste lijn: je merkt de reflex pas als hij al gebeurd is. De "
+                "hersenen krijgen het signaal wel, maar langs een andere weg en dus later.",
+                None,
+                "Twee voorbeelden volstaan. Ze hebben alle hetzelfde kenmerk: ze beschermen iets "
+                "wat niet kan wachten op een beslissing, namelijk je huid, je oog of je luchtweg.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-gezondheid-in-kaart-gordon-en-het-icf-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De patronen van Gordon zijn een lijst om een mens volledig in kaart te "
+                   "brengen. Zoek bij elke vraag naar het werkwoord: eten hoort bij voeding, "
+                   "slapen bij slaap en rust, zich wassen bij activiteit. Een vraag over andere "
+                   "mensen hoort bij rollen en relaties.",
+            waarom=[
+                "Let erop dat zich kunnen wassen en kleden bij activiteit en beweging hoort en "
+                "niet bij hygiëne. Gordon kijkt naar wat iemand kan, niet naar wat hij doet.",
+                "Dit is de kern van zo'n lijst. Hij bestaat juist om te verhinderen dat je alleen "
+                "vraagt naar wat de persoon zelf vermeldt. Wie over zijn knie klaagt, vertelt "
+                "niet spontaan dat hij daardoor niemand meer ziet.",
+            ],
+        ),
+        dict(
+            aanpak="Het ICF kijkt naar drie lagen van hetzelfde probleem: het lichaam (functies "
+                   "en structuren), de persoon (activiteiten) en zijn leven met anderen "
+                   "(participatie). Errond staan twee soorten factoren: externe, buiten de "
+                   "persoon, en persoonlijke, in de persoon.",
+            waarom=[
+                "Vergelijk de eerste drie lijnen: het is drie keer dezelfde heup. Het versleten "
+                "gewricht is de structuur, het niet kunnen traplopen de activiteit, en het "
+                "wegblijven van de kaartclub de participatie. Zo hoort het ICF gelezen.",
+                "Let op wat hier niet gezegd wordt: de knie is niet erger bij de tweede persoon. "
+                "Wat verschilt, is de omgeving, en net daarom kan je aan zo'n situatie iets doen "
+                "zonder de knie te genezen.",
+                "Dit is het nuttigste verschil van het hele hoofdstuk. Zelfstandigheid is kunnen "
+                "zonder hulp; participatie is meedoen. De eerste kan heel hoog zijn terwijl de "
+                "tweede bijna nul is, en dan is er nog altijd een probleem.",
+            ],
+        ),
+        dict(
+            aanpak="De twee laatste oefeningen vragen om een omschrijving én een houding. Ken de "
+                   "definitie van de Wereldgezondheidsorganisatie woordelijk genoeg om ze op te "
+                   "schrijven, en ken er één kritiek bij; dat tweede is wat het verschil maakt op "
+                   "een examen.",
+            waarom=[
+                "De kritiek is scherper dan ze lijkt. Met die definitie is iemand met diabetes "
+                "of met een beperking nooit gezond, wat niet klopt met hoe die mensen zelf "
+                "leven. Daarom zoekt men al jaren naar een andere omschrijving.",
+                "Positieve gezondheid is het antwoord op die kritiek, van Machteld Huber. In de "
+                "zorg verandert dat de eerste vraag: niet wat is er mis, maar wat wil u opnieuw "
+                "kunnen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-ziek-zijn-en-eerste-hulp-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vier soorten ziekteverwekkers, en één regel die telt: antibiotica werken "
+                   "enkel tegen bacteriën. Leer bij elke ziekte dus eerst de verwekker en pas "
+                   "daarna de behandeling. De begrippen in de derde rij gaan over het verloop "
+                   "van een ziekte en niet over de oorzaak.",
+            waarom=[
+                None,
+                "Noem in je antwoord beide delen. Het eerste is dat het niet helpt, het tweede "
+                "dat het schaadt: elke nodeloze kuur geeft bacteriën een kans om er ongevoelig "
+                "voor te worden. Daarom is antibioticaresistentie een probleem van iedereen.",
+                "Let op de incubatietijd, want die verklaart waarom besmettelijke ziekten zich "
+                "zo snel verspreiden: je bent al besmettelijk voor je weet dat je ziek bent.",
+            ],
+        ),
+        dict(
+            aanpak="De eerste stappen van eerste hulp staan in een vaste orde, en die orde is er "
+                   "om een reden: eerst jezelf, want een tweede slachtoffer helpt niemand, dan "
+                   "het bewustzijn, dan hulp, dan de ademhaling. Leer ook de nummers en de "
+                   "cijfers van de reanimatie uit het hoofd.",
+            waarom=[
+                "Let op de laatste lijn: iemand die niet goed bij bewustzijn is, mag niets te "
+                "drinken krijgen, want hij kan zich verslikken. In de eigenlijke richtlijn roep "
+                "je meteen om hulp van omstaanders en laat je 112 bellen zodra je weet dat de "
+                "ademhaling niet normaal is; ben je alleen, dan bel je zelf eerst.",
+                "Ken deze cijfers uit het hoofd, want in een noodgeval zoek je ze niet op: 30 op "
+                "2, honderd tot honderdtwintig per minuut, midden op het borstbeen. En onthoud "
+                "dat de 112-operator je door de reanimatie praat als je het niet meer weet.",
+            ],
+        ),
+        dict(
+            aanpak="Vier situaties, en bij elk hetzelfde patroon: wat doe je, wat doe je niet, "
+                   "en wanneer ga je naar een arts. Dat tweede deel is waar de punten zitten, "
+                   "want bij elk van deze vier bestaat er een oude gewoonte die juist schaadt.",
+            waarom=[
+                "Tien minuten is lang, en dat is net het punt: de meeste mensen koelen te kort. "
+                "Zalf, ijs en tandpasta houden de warmte vast of beschadigen de huid, en een "
+                "blaar is een steriel verband dat je niet opent.",
+                "Het hoofd achterover is de oude gewoonte die hier fout is: het bloed loopt dan "
+                "naar je maag en je kan er misselijk van worden. Knijp de zachte punt van de "
+                "neus dicht en niet het harde bot erboven.",
+                "Zijligging dient om de luchtweg vrij te houden als iemand zou braken. Blijf de "
+                "ademhaling volgen, want stopt ze, dan begin je te reanimeren.",
+                "Dit is de regel van rust, ijs, druk en hoog, met het ijs altijd in een doek: "
+                "rechtstreeks op de huid geeft koudeschade. Niet kunnen stappen is het teken dat "
+                "er meer dan een verstuiking kan zijn.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-gezondheid-bevorderen-preventie-voeding-en-beweging-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De drie soorten preventie volgen de tijdlijn van een ziekte: primair voor ze "
+                   "er is, secundair terwijl ze er al is maar nog niet voelbaar, tertiair als ze "
+                   "er is en blijft. Vraag je dus bij elk voorbeeld af waar de persoon op die "
+                   "tijdlijn staat.",
+            waarom=[
+                "Let op het rookverbod. Dat is primaire preventie, al is het geen medische "
+                "handeling: een maatregel voor een hele bevolking kan evengoed preventie zijn als "
+                "een inenting. Vaak is ze zelfs doeltreffender.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="De voedingsdriehoek werkt met verhoudingen: hoe breder de laag, hoe meer je "
+                   "er best van eet. Alles van plantaardige oorsprong zit in de groene lagen, "
+                   "dierlijke producten in de oranje, en wat buiten de driehoek staat hoort "
+                   "nergens in een dagmenu thuis.",
+            waarom=[
+                "Merk op dat de rode bol buiten de driehoek staat en niet onderaan. Dat is geen "
+                "tekenfout: die producten horen niet in een evenwichtig menu en zijn een "
+                "uitzondering, niet de kleinste laag.",
+                "Dit is het verschil met de oude voedingsdriehoek. De nieuwe zet water bovenaan "
+                "omdat het breedste deel het meeste is; de driehoek zegt dus niets over hoe "
+                "belangrijk een voedingsstof is.",
+                "Toets je eigen menu aan drie dingen: staat er bij elke maaltijd iets uit de "
+                "groene lagen, is water de drank, en komt de rode bol er maar één keer of niet "
+                "in voor? Dan is het goed, welke gerechten je ook koos.",
+            ],
+        ),
+        dict(
+            aanpak="Ken de richtlijnen met hun getallen: zestig minuten per dag voor een jongere, "
+                   "honderdvijftig minuten per week voor een volwassene, twee keer per week "
+                   "spierversterkend. En onthoud de praattoets, want die is handiger dan een "
+                   "hartslagmeter.",
+            waarom=[
+                "De praattoets is iets wat je in elke les sport kan gebruiken: kan je nog praten "
+                "maar niet zingen, dan beweeg je matig; gaat praten moeizaam, dan is het "
+                "intensief. Daarvoor heb je geen toestel nodig.",
+                None,
+                "Dit is de belangrijkste nuance van de bundel. Lang stilzitten is een eigen "
+                "risico, naast te weinig bewegen. Daarom luidt de richtlijn ook: sta elk uur "
+                "even op, ook op een dag dat je gesport hebt.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-kwaliteitsbewust-handelen-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De begrippen van deze reeks gaan alle over dezelfde vraag: van wie is dit "
+                   "leven? Autonomie en waardigheid zijn van de persoon, het beroepsgeheim en de "
+                   "deontologische code zijn jouw plichten. Bij een weigering is dus niet de "
+                   "vraag hoe je overtuigt, maar hoe je de keuze eerbiedigt.",
+            waarom=[
+                None,
+                "Let op de twee dingen die je zeker niet doet, want daar zitten de punten. Niet "
+                "dwingen is het ene; het ook niet gewoon laten vallen is het andere. Een "
+                "weigering is informatie: ze gaat het dossier in, zodat het team ernaar kan "
+                "zoeken.",
+            ],
+        ),
+        dict(
+            aanpak="PDCA is een cirkel van vier Engelse woorden: plan, do, check, act. Onthoud "
+                   "vooral de derde en de vierde, want die worden in de praktijk het vaakst "
+                   "overgeslagen: nagaan of het werkte, en dan echt bijsturen.",
+            waarom=[
+                "Dat het een cirkel is en geen lijstje, is het hele punt. Na act begin je opnieuw "
+                "bij plan, want wat je bijstuurde moet je ook weer nagaan.",
+                "Let op de check in dit voorbeeld: de valincidenten tellen. Zonder dat cijfer "
+                "weet je niet of de lampjes hielpen, en dan is act gokwerk. Noem bij een "
+                "PDCA-oefening dus altijd wát je gaat meten.",
+            ],
+        ),
+        dict(
+            aanpak="De laatste reeks gaat over jezelf in je werk: fouten, reflectie en grenzen. "
+                   "Bij alle drie wordt niet naar een regel gevraagd maar naar een houding, dus "
+                   "antwoord met wat je doet en waarom het voor de bewoner uitmaakt.",
+            waarom=[
+                "Het punt is niet eerlijkheid om de eerlijkheid. Een gemelde fout maakt een "
+                "oorzaak zichtbaar, en daarom spreekt men in de zorg van een veilige meldcultuur: "
+                "melden mag geen straf opleveren, anders meldt niemand nog iets.",
+                None,
+                "Drie van de genoemde volstaan. Merk op dat ze alle buiten de zorgtaken liggen: "
+                "je merkt het eerst aan je slaap, je humeur en je weg naar het werk. Zulke "
+                "signalen melden is geen zwakte maar deel van kwaliteitsvol werk.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-voedingsstoffen-en-een-evenwichtig-dagmenu-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zes voedingsstoffen met elk hun rol, en drie getallen die je uit het hoofd "
+                   "moet kennen: koolhydraten en eiwitten geven 4 kcal per gram, vet 9 en alcohol "
+                   "7. Met die drie cijfers kan je elke energieberekening van dit hoofdstuk maken.",
+            waarom=[
+                None,
+                "Merk op dat vet meer dan dubbel zo veel energie geeft als koolhydraten. Daarom "
+                "weegt een beetje boter of saus zwaarder door in een dagmenu dan een flinke "
+                "portie pasta, en daarom staat alcohol met zijn 7 kcal ook niet voor niets in dit "
+                "rijtje.",
+            ],
+        ),
+        dict(
+            aanpak="Leer de vitaminen aan hun taak en niet aan hun letter alleen. Twee groepen "
+                   "om uit elkaar te houden: A, D, E en K lossen op in vet, B en C in water. Dat "
+                   "verschil verklaart waarom je de ene kan opslaan en de andere elke dag nodig "
+                   "hebt.",
+            waarom=[
+                None,
+                "Let op de laatste twee lijnen, want die zijn praktisch. IJzer uit planten wordt "
+                "slecht opgenomen, maar vitamine C erbij helpt: spinazie met een partje citroen "
+                "of linzen met paprika. Dat is iets wat je in een keuken echt gebruikt.",
+            ],
+        ),
+        dict(
+            aanpak="Reken altijd in twee stappen. Eerst de energie per voedingsstof, dus de "
+                   "grammen maal 4, 4 en 9, en dan optellen. Voor een percentage deel je de "
+                   "energie uit die stof door het totaal, en nooit de grammen door de grammen.",
+            waarom=[
+                "60 × 4 = 240, 10 × 4 = 40 en 5 × 9 = 45, samen 325 kcal.",
+                "45 gedeeld door 325 = 0,138, dus ongeveer 13,8 procent. Reken dus met de "
+                "kilocalorieën en niet met de grammen: op gewicht is dat vet maar 7 procent van "
+                "de voedingsstoffen in die portie, en dat zou een heel ander beeld geven.",
+                "325 gedeeld door 2 400 = 0,135, dus ongeveer 13,5 procent van de dagbehoefte.",
+                "Noem in je antwoord de richtlijn, want daarmee toon je waaraan je het afmeet: "
+                "ongeveer 30 tot 35 procent van de energie uit vet. En let op dat je niet gewoon "
+                "minder gaat eten: je vervangt vet door volkoren en groenten.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-voedselveiligheid-en-voedselhygiene-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Bacteriën hebben vier dingen nodig: warmte, vocht, voedsel en tijd. Haal er "
+                   "één weg en ze groeien niet. Daar komen alle regels van dit hoofdstuk uit, en "
+                   "ook de getallen: koel houden haalt de warmte weg, snel verwerken haalt de "
+                   "tijd weg, verhitten doodt wat er al is.",
+            waarom=[
+                "Let op listeria. Die is bijzonder omdat ze zich ook in de koelkast nog "
+                "vermeerdert, dus koelen volstaat er niet. Daarom wordt rauwmelkse kaas en "
+                "voorverpakte vis afgeraden aan zwangere vrouwen.",
+                "Onthoud de vier getallen: 4 tot 7 graden in de koelkast, −18 in de diepvries, "
+                "75 graden kerntemperatuur voor gevogelte, 20 seconden handen wassen. Dat zijn "
+                "ook precies de cijfers die in een keukeninspectie nagekeken worden. Ontdooid "
+                "vlees mag je wel opnieuw invriezen nadat je het bereid hebt.",
+            ],
+        ),
+        dict(
+            aanpak="Houd de twee datums goed uit elkaar: te gebruiken tot is een veiligheidsgrens "
+                   "en ten minste houdbaar tot een kwaliteitsgrens. De eerste staat op wat snel "
+                   "bederft, zoals verse vis en gehakt; de tweede op droge en lang bewaarbare "
+                   "waren.",
+            waarom=[
+                None,
+                "Bij een ten minste houdbaar tot mag je dus zelf oordelen met je ogen, je neus "
+                "en een beetje smaak. Bij een te gebruiken tot nooit: daar kan het bederf er niet "
+                "aan te zien zijn.",
+                "Noem in je antwoord beide redenen. De koelkast zelf opwarmen is er één, maar het "
+                "tweede is belangrijker: warm eten dat langzaam afkoelt, staat uren in de zone "
+                "tussen 4 en 60 graden, en net daar groeien bacteriën het snelst.",
+            ],
+        ),
+        dict(
+            aanpak="Zes uitspraken over werken in een keuken. Toets ze aan de vier "
+                   "groeivoorwaarden en aan één extra vraag: kan hier iets van de ene plaats naar "
+                   "de andere overgaan? Alles wat vocht vasthoudt of wat je niet kan "
+                   "schoonmaken, is in een keuken verdacht.",
+            waarom=[
+                "HACCP is een werkwijze en geen lijst regels: je zoekt zelf de gevaren in jouw "
+                "keuken en legt vast op welke punten je ze beheerst en nagaat. Daarom ziet een "
+                "HACCP-plan in elke zaak anders uit.",
+                "Niet waar. Een keukenhanddoek blijft vochtig en wordt tientallen keren gebruikt, "
+                "dus hij is een ideale plaats voor bacteriën. Papier gebruik je één keer en gooi "
+                "je weg.",
+                None,
+                "Niet waar. Onder een ring of een uurwerk blijft vuil en vocht zitten, je kan er "
+                "niet onder wassen, en een steentje of een bandje kan in het eten vallen.",
+                "Waar. Dat dagelijkse briefje is geen papierwerk om het papierwerk: zonder "
+                "meting weet niemand dat de koelkast al drie dagen op 12 graden staat.",
+                "Waar, en dit is de belangrijkste van de zes. Wie maagdarmklachten heeft, kan de "
+                "verwekker doorgeven aan alles wat hij aanraakt. Dat melden is een plicht en geen "
+                "keuze.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-voedsel-bewaren-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Elke bewaartechniek haalt een van de vier groeivoorwaarden weg. Koelen en "
+                   "diepvriezen halen de warmte weg, drogen en zouten het water, inmaken "
+                   "verandert de zuurtegraad, en steriliseren doodt wat er al is. Zoek bij elke "
+                   "techniek dus welke voorwaarde verdwijnt.",
+            waarom=[
+                "Let op het verschil tussen diepvriezen en steriliseren. Diepvriezen doodt niets: "
+                "het legt de bacteriën stil doordat het water bevroren is. Daarom zijn ze na het "
+                "ontdooien weer actief, en moet je ontdooid voedsel snel verwerken.",
+                "Pasteuriseren en steriliseren verschillen in temperatuur en in gevolg. "
+                "Gepasteuriseerde melk moet in de koelkast en blijft enkele dagen goed; "
+                "gesteriliseerde of UHT-melk kan maanden in de kast, maar smaakt anders omdat de "
+                "hitte ook de eiwitten verandert.",
+            ],
+        ),
+        dict(
+            aanpak="Waar iets bewaard wordt, hangt af van twee dingen: hoe snel het bederft en "
+                   "of koude de kwaliteit schaadt. Bij vlees, vis en zuivel beslist de "
+                   "veiligheid; bij aardappelen, tomaten en bananen beslist de smaak, en die "
+                   "worden door de koelkast juist slechter.",
+            waarom=[
+                None,
+                "Dit is zetmeel dat in suiker omgezet wordt, en het is omkeerbaar: laat je "
+                "koude aardappelen enkele dagen op kamertemperatuur staan, dan verdwijnt die "
+                "zoete smaak weer grotendeels.",
+                "Vetten nemen geuren het makkelijkst op, en dat is de reden dat juist boter en "
+                "melk naar meloen of naar kaas gaan smaken. Afdekken is dus niet alleen tegen "
+                "uitdrogen.",
+            ],
+        ),
+        dict(
+            aanpak="De laatste reeks gaat over verspilling. Bij de eerste oefening worden er vier "
+                   "manieren gevraagd, dus geef er echt vier en maak ze concreet: zeggen dat je "
+                   "minder moet weggooien is geen manier.",
+            waarom=[
+                "Vier van de genoemde volstaan. Merk op dat ze alle vier voor het weggooien "
+                "ingrijpen: bij het kopen, bij het opbergen, bij het opscheppen en bij het "
+                "bewaren. Dat is ook waarom een boodschappenlijst het meeste oplevert.",
+                "Dit verschil is belangrijk voor wat eraan te doen is. Bij de producent gaat het "
+                "om normen en om de vraag van de winkel, dus daar helpt het veranderen van die "
+                "normen; bij de consument gaat het om gewoonten in huis.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-boodschappen-doen-en-de-tafel-dekken-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De eenheidsprijs is de prijs per kilo of per liter, en je berekent ze door de "
+                   "prijs te delen door het gewicht in kilo. Zet beide pakken om naar dezelfde "
+                   "eenheid voor je vergelijkt; dat is de enige manier om twee verschillende "
+                   "groottes naast elkaar te leggen.",
+            waarom=[
+                None,
+                "2,45 gedeeld door 0,5 kg = 4,90 euro per kilo. Deel dus door het gewicht in "
+                "kilo en niet in gram, of zet je uitkomst maal duizend.",
+                "3,45 gedeeld door 0,75 kg = 4,60 euro per kilo. Het grote pak is hier dus 30 "
+                "cent per kilo goedkoper.",
+                "Let op het tweede deel van het antwoord, want dat vergeten de meesten: een groot "
+                "pak dat je weggooit, is per opgegeten kilo het duurste van de twee. De "
+                "eenheidsprijs is dus niet het enige dat telt.",
+            ],
+        ),
+        dict(
+            aanpak="Een etiket lees je op drie plaatsen: de ingrediëntenlijst zegt wat erin zit "
+                   "en in welke verhouding, de voedingswaardetabel zegt hoeveel energie en "
+                   "voedingsstoffen, en de allergenen staan er verplicht in het vet. De orde van "
+                   "de ingrediënten is de sleutel.",
+            waarom=[
+                None,
+                "Reken het zelf om, want daar gaat het mis. Weegt een koekje 25 gram, dan is de "
+                "tabel vier keer te veel; is je portie 150 gram pasta, dan anderhalve keer te "
+                "weinig. Veel producten vermelden daarom ook een kolom per portie.",
+                "Het voorbeeld E300 is het punt van deze vraag: dat is ascorbinezuur, dus gewoon "
+                "vitamine C. Een E-nummer betekent enkel dat de stof toegelaten en onderzocht is, "
+                "niet dat ze kunstmatig of schadelijk is.",
+            ],
+        ),
+        dict(
+            aanpak="Het dekken volgt twee regels. Mes en lepel rechts, vork links, en alles in de "
+                   "orde van de gangen van buiten naar binnen. De snijkant van het mes kijkt "
+                   "altijd naar het bord. Met die twee regels kan je elk couvert zelf opbouwen.",
+            waarom=[
+                "Het glas staat bij de punt van het mes, dus rechtsboven, en het broodbordje aan "
+                "de andere kant, linksboven. Dat is geen willekeur: je neemt je glas met je "
+                "rechterhand en je brood met je linker.",
+                "Let bij je tekening op de orde van buiten naar binnen: de vis komt eerst, dus "
+                "liggen het vismes en de visvork aan de buitenkant. Zet je het omgekeerd, dan "
+                "pakt de gast bij de eerste gang het verkeerde stuk.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-interieurzorg-ruimtes-vuil-en-technieken-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Soort vuil en soort middel horen bij elkaar. Vet vraagt een alkalisch middel, "
+                   "kalk een zuur, bacteriën een desinfecterend middel. Zoek dus eerst wat het "
+                   "vuil ís, en kies dan het middel; omgekeerd werken met één fles voor alles "
+                   "haalt bij kalk en bij vet niets uit.",
+            waarom=[
+                "Let op de laatste twee lijnen: ze zijn geen vuil zoals de andere. Bacteriën zie "
+                "je niet en zijn er toch, en een kras is schade die met geen enkel middel weggaat. "
+                "Wie dat laatste blijft wrijven, maakt het erger.",
+                "Op marmer en op natuursteen nooit een zuur middel, en dat is de ene lijn uit dit "
+                "rijtje die echt geld kost: azijn of ontkalker bijt de steen aan en laat matte "
+                "vlekken na die niet meer weggaan.",
+                "Chloorgas, en dat is geen theorie: dat gebeurt elk jaar in gewone badkamers. "
+                "Spoel dus goed tussen twee middelen, en zet nooit een tweede product op een "
+                "oppervlak dat nog van het eerste nat is.",
+            ],
+        ),
+        dict(
+            aanpak="De technieken staan in opklimmende orde: droog, vochtig, nat, en als het "
+                   "nodig is desinfecteren. Kies altijd de lichtste techniek die het vuil "
+                   "wegneemt, want elke stap verder kost meer water, meer middel en meer tijd, "
+                   "en kan het materiaal beschadigen.",
+            waarom=[
+                None,
+                "Dit is de belangrijkste regel van het hoofdstuk, en ze wordt het vaakst "
+                "overtreden. Reinigen en desinfecteren zijn twee aparte stappen in die orde; "
+                "spuiten op een vuile plank doet niets dan het etiket geloven.",
+                "Noem beide redenen. Van boven naar onder is logisch, maar van droog naar nat "
+                "wordt vergeten: eerst stoffen en stofzuigen, dan dweilen. Omgekeerd maak je van "
+                "het stof slijk en veeg je het uit over de vloer.",
+            ],
+        ),
+        dict(
+            aanpak="Elke ruimte heeft zijn eigen vuil en zijn eigen gevaar: de keuken vet en "
+                   "kruisbesmetting, de badkamer kalk en vocht, het toilet bacteriën, de "
+                   "slaapkamer stof. De trap is een buitenbeentje: daar gaat het niet om vuil "
+                   "maar om vallen.",
+            waarom=[
+                None,
+                "Kleurcodes zijn hier de praktische oplossing: in de zorg heeft het toilet "
+                "bijvoorbeeld rood en de keuken geel. Zo kan niemand zich vergissen, ook niet "
+                "wie de taal niet goed kent of nieuw is.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-methodisch-veilig-en-duurzaam-schoonmaken-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Methodisch werken is zes stappen, met het eigenlijke schoonmaken pas op de "
+                   "vierde plaats. De drie stappen ervoor bepalen of het werk lukt, en de twee "
+                   "erna horen er even hard bij. Begin je bij stap vier, dan sta je halverwege "
+                   "zonder het juiste middel.",
+            waarom=[
+                None,
+                "Een natte dweil die in de emmer blijft, is na een dag een bron van bacteriën en "
+                "van geur. Daarom hoort het uitwassen en drogen bij het werk; de volgende "
+                "schoonmaak begint anders met vuil materiaal.",
+                "Let op de laatste zin van het antwoord: je meldt wat je niet gedaan hebt. Dat is "
+                "het verschil tussen kiezen en overslaan, en het is precies wat een goede "
+                "zorgkundige onderscheidt.",
+            ],
+        ),
+        dict(
+            aanpak="Veilig werken met middelen gaat over drie dingen: lezen wat erop staat, de "
+                   "juiste bescherming dragen, en weten wat je doet als het misgaat. Ken de "
+                   "eerste hulp per ongeval uit het hoofd, en ook het nummer van het "
+                   "Antigifcentrum.",
+            waarom=[
+                "Nooit overgieten in een andere fles: dat is de regel waar ongelukken met "
+                "kinderen vandaan komen. Zonder het juiste etiket weet niemand wat erin zit, ook "
+                "de arts niet.",
+                "Let op het verschil tussen huid en oog: spoelen doe je in beide gevallen, maar "
+                "bij een oog minstens tien minuten en daarna altijd naar een arts. En bij "
+                "inslikken nooit doen braken, want een bijtend middel beschadigt bij het "
+                "opkomen een tweede keer.",
+            ],
+        ),
+        dict(
+            aanpak="Duurzaam schoonmaken gaat niet over een ander product kopen maar over minder "
+                   "en juister gebruiken. De vier manieren die gevraagd worden, moeten dus "
+                   "concreet zijn: doseren, microvezel, navullen, koud water, herbruikbare "
+                   "doeken.",
+            waarom=[
+                "Vier van de genoemde volstaan. Doseren is daarbij het eerste, want het kost "
+                "niets en levert meteen op: de dop van een fles is bijna altijd ruimer dan de "
+                "aanbevolen dosis.",
+                "Noem beide gevolgen, want het tweede verbaast: overdoseren maakt vuiler. De film "
+                "die achterblijft, is plakkerig en houdt nieuw stof vast, zodat je sneller "
+                "opnieuw moet poetsen.",
+                "Het woord mechanisch is hier de kern. Microvezel neemt het vuil mee door de "
+                "vorm van de vezels, dus niet door een middel. Daarom werkt ze met water alleen "
+                "al, en daarom moet je ze ook niet met wasverzachter wassen: dat verstopt de "
+                "vezels.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-zorg-voor-de-woon-en-leefomgeving-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Bij elk risico hoort een maatregel die het risico wegneemt en niet enkel "
+                   "waarschuwt. Zeg dus niet opletten maar wegnemen, vastleggen, bijlichten of "
+                   "wegzetten. De meeste ongevallen in huis zijn vallen, en de meeste vallen "
+                   "gebeuren op een gelijkvloers.",
+            waarom=[
+                "Let op de trap: twee schakelaars, boven en onder. Eén schakelaar betekent dat "
+                "iemand de trap in het donker op of af moet, en dat is net wat je wil vermijden.",
+                "Het antwoord moet die zwaarte noemen: na een heupbreuk komt een groot deel van de "
+                "ouderen niet meer terug naar de eigen woning. Daarom is een antislipmat van "
+                "tien euro een van de nuttigste dingen in de thuiszorg.",
+            ],
+        ),
+        dict(
+            aanpak="Comfort in huis heeft vaste getallen: ongeveer 20 graden in de leefruimte, 16 "
+                   "tot 18 in de slaapkamer, en elke dag kort en flink verluchten. Onthoud ook "
+                   "waarom je verlucht: vocht, CO2 en geuren weg, en niet om af te koelen.",
+            waarom=[
+                None,
+                "Reken het aan het vocht af: een kier laat de muren afkoelen, en op een koude "
+                "muur slaat vocht neer. Een kwartier wijd open wisselt de lucht terwijl de muren "
+                "hun warmte houden, en dat is precies het omgekeerde effect.",
+                "Merk op dat het antwoord met de oorzaak begint en niet met het middel. Schimmel "
+                "wegpoetsen zonder de kast te verzetten, betekent dat ze binnen de maand "
+                "terugkomt.",
+            ],
+        ),
+        dict(
+            aanpak="De laatste reeks is tweeledig: afval sorteren en hulpmiddelen kennen. Bij het "
+                   "afval beslist het materiaal en niet wat er in zat; bij de hulpmiddelen hoort "
+                   "bij elke handeling één toestel, en die namen moet je kunnen gebruiken in een "
+                   "gesprek met een ergotherapeut.",
+            waarom=[
+                "Let op de laatste twee: een batterij en een restje verf mogen nooit bij het "
+                "restafval. Die horen bij het klein gevaarlijk afval, want de stoffen erin komen "
+                "anders in de bodem en in het water terecht.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-linnenzorg-sorteren-wassen-en-strijken-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Sorteren gebeurt in die orde: eerst op kleur, dan op temperatuur en "
+                   "textielsoort. En lees altijd het etiket, want de symbolen beslissen. Vier "
+                   "vormen om te kennen: teil is wassen, driehoek is bleken, vierkant is drogen, "
+                   "strijkijzer is strijken, en een kruis betekent niet doen.",
+            waarom=[
+                None,
+                "De punten in het strijkijzer en in de teil geven de temperatuur: één punt is "
+                "lauw, drie punten is heet. Ken je enkel die twee uitersten, dan kan je al bijna "
+                "elk etiket lezen.",
+            ],
+        ),
+        dict(
+            aanpak="De temperatuur hangt van twee dingen af: hoe vuil het is en welk textiel het "
+                   "is. Stevig wit katoen kan 60 graden, gekleurd katoen en synthetisch 30 of 40, "
+                   "wol enkel het wolprogramma. Vul de trommel losjes, want water en wasmiddel "
+                   "moeten overal bij kunnen.",
+            waarom=[
+                None,
+                "Twee oorzaken volstaan. Merk op dat te veel wasmiddel ook grauw maakt: de resten "
+                "blijven in de vezel zitten. Grauw is dus niet altijd te weinig gewassen; het is "
+                "vaak te veel product.",
+                "Dit is de reden waarom zestig graden in de zorg bestaat. Bij dertig graden "
+                "overleven veel verwekkers de was, en ze kunnen dan ook in de machine zelf "
+                "blijven zitten. Draai daarom af en toe een warm programma leeg.",
+            ],
+        ),
+        dict(
+            aanpak="Bij vlekken geldt één regel die bijna alles verklaart: behandelen voor je "
+                   "wast, en bij eiwitvlekken altijd koud. Bij het strijken geldt de temperatuur "
+                   "van het etiket, en voor een hemd een vaste orde: eerst de kraag, dan de "
+                   "manchetten, dan de rug.",
+            waarom=[
+                "Let op het verschil tussen de twee soorten vlekken. Bloed, ei en melk zijn "
+                "eiwitten en moeten koud; vet en olie hebben juist warmte nodig. Doe je het "
+                "omgekeerd, dan zet je de vlek vast.",
+                "De eiwitten stollen, net zoals een ei in de pan. Dat is onomkeerbaar, en daarom "
+                "staat deze regel apart in het blad: koud water is bij bloed geen voorkeur maar "
+                "een voorwaarde.",
+                "Wol en zijde met één punt, en bij wol een doek ertussen; katoen en linnen met "
+                "drie punten. Strijk zijde langs de binnenkant, want warm ijzer op de goede kant "
+                "geeft glanzende plekken die er niet meer uitgaan.",
+            ],
+        ),
+    ],
+)
