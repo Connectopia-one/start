@@ -1726,3 +1726,1697 @@ OEFENBUNDELS["oefenbundel-wetenschappelijk-onderzoek-ontwerpen-en-stem-beyond"] 
              ]),
     ],
 )
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-de-cel-de-organellen-en-de-biologische-membranen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Elk organel heeft één kerntaak, en die taak zit meestal in de omschrijving "
+                   "verstopt. Zie je het woord eiwit, denk aan ribosoom of golgi; zie je afbreken, "
+                   "denk aan lysosoom; zie je energie, denk aan mitochondrion.",
+            waarom=[
+                "Zet de drie op een rij als een fabriek: het ribosoom maakt het eiwit, het golgi "
+                "werkt het af en verpakt het, het lysosoom ruimt op. Zo zijn ze makkelijker uit "
+                "elkaar te houden dan los uit het hoofd.",
+                "Let op het kernlichaampje: het zit in de kern en maakt de ribosomen, dus het "
+                "maakt zelf geen eiwit. Dat verschil wordt graag gevraagd.",
+            ],
+        ),
+        dict(
+            aanpak="Eén onderscheid beslist alles: een prokaryoot heeft geen echte kern en geen "
+                   "membraanorganellen, een eukaryoot wel. Wat beide nodig hebben om te leven "
+                   "(DNA, ribosomen, een celmembraan) is dus altijd beide.",
+            waarom=[
+                "Ribosomen zijn het antwoord beide, en dat is geen uitzondering: elke cel moet "
+                "eiwitten maken, en een ribosoom heeft geen membraan nodig.",
+                "Plasmiden zijn kleine losse ringen DNA naast het hoofd-DNA. Bacteriën wisselen ze "
+                "onderling uit, en net daardoor kan resistentie tegen antibiotica zich zo snel "
+                "verspreiden.",
+            ],
+        ),
+        dict(
+            aanpak="Een plantencel heeft drie dingen extra: de chloroplast, de celwand van "
+                   "cellulose en de grote vacuole. Een dierlijke cel heeft het centrosoom. Al de "
+                   "rest hebben ze samen.",
+            waarom=[
+                "Die drie horen bij elkaar in één verhaal: de chloroplast maakt het voedsel, de "
+                "vacuole houdt het water vast en de celwand vangt de druk op die dat water geeft. "
+                "Zo blijft een plant rechtstaan zonder skelet.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Een membraan is een dubbellaag fosfolipiden met eiwitten erin. Onthoud de "
+                   "rolverdeling: de fosfolipiden maken de laag, cholesterol regelt de soepelheid, "
+                   "en de glycoproteïnen zorgen voor de herkenning.",
+            waarom=[
+                "Dat de glycoproteïnen voor herkenning dienen, is geen detail: op die suikerketens "
+                "staan onder meer de bloedgroepen, en daarop ziet je afweersysteem wat lichaamseigen "
+                "is.",
+                "Noem de twee woorden die het verklaren: hydrofiel en hydrofoob. Daarom vormt zo'n "
+                "laag zich ook spontaan in water, zonder dat er iets aan vastgehouden moet worden.",
+                "Niet waar, en dit is het vloeibaar-mozaïekmodel. De fosfolipiden en de eiwitten "
+                "schuiven voortdurend langs elkaar, en net daardoor kan een membraan dichtgroeien "
+                "na een scheurtje en kunnen cellen van vorm veranderen.",
+            ],
+        ),
+        dict(
+            aanpak="De endosymbiosetheorie zegt dat een mitochondrion ooit een vrijlevende "
+                   "bacterie was die werd opgenomen. Elk argument is dus iets wat het organel nog "
+                   "met een bacterie gemeen heeft: eigen DNA, eigen ribosomen, een eigen deling.",
+            waarom=[
+                "Noem er drie en let erop dat ze alle drie in dezelfde richting wijzen: dit "
+                "organel gedraagt zich als een zelfstandig organisme. Het dubbele membraan is het "
+                "spoor van het opslokken zelf, want de buitenste laag is van de opnemende cel.",
+                "De chloroplast heeft dezelfde kenmerken, en in dat geval was de opgenomen "
+                "bacterie een cyanobacterie. Alle zuurstof in onze lucht komt daar uiteindelijk "
+                "van.",
+            ],
+        ),
+        dict(
+            aanpak="Wat buiten het membraan ligt, verschilt per groep: plant cellulose, schimmel "
+                   "chitine, bacterie een eigen celwand. En de slotvraag gaat over oppervlak "
+                   "tegenover volume, het terugkerende idee van dit hoofdstuk.",
+            waarom=[
+                None,
+                "Chitine is dezelfde stof als in het schild van een insect. Dat een schimmel die "
+                "stof gebruikt en geen cellulose, is een van de redenen dat schimmels bij de "
+                "dieren horen en niet bij de planten.",
+                "Microvilli zijn het antwoord, en het is dezelfde truc als bij een wortelhaar of "
+                "een longblaasje: meer oppervlak op dezelfde plaats. Een flagel en een pseudopode "
+                "dienen om te bewegen, een plasmodesma om twee plantencellen te verbinden.",
+                "Dit is de kernvraag van de hele bundel. Noem het verband: het volume groeit met "
+                "de derde macht en het oppervlak maar met de tweede, dus zakt de verhouding en "
+                "raakt de uitwisseling te traag. Daarom bestaat een olifant uit meer cellen en "
+                "niet uit grotere.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-celdifferentiatie-weefsels-en-celtypes-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Differentiatie betekent specialiseren. De sleutel is dat elke cel hetzelfde "
+                   "DNA heeft maar niet dezelfde genen gebruikt. Hoe meer een cel gespecialiseerd "
+                   "is, hoe minder ze nog iets anders kan worden.",
+            waarom=[
+                None,
+                "Dit is het hart van het hoofdstuk. Noem de keten: welke genen aan staan bepaalt "
+                "welke eiwitten er gemaakt worden, en de eiwitten bepalen wat een cel kan. "
+                "Hetzelfde kookboek, een andere bladzijde.",
+                "Een stamcel is dus het omgekeerde van een gedifferentieerde cel: ze heeft nog "
+                "keuzes open. Daarom staat dit woord ook in de laatste reeks terug.",
+            ],
+        ),
+        dict(
+            aanpak="Hang elk plantenweefsel aan zijn taak. Xyleem en floëem zijn de twee "
+                   "transportbanen, het meristeem is de groeiplaats, de epidermis de buitenkant "
+                   "en het palissadeparenchym de fotosyntheselaag van het blad.",
+            waarom=[
+                "Houd de twee transportweefsels uit elkaar aan de richting: xyleem brengt water "
+                "van de wortel naar boven, floëem brengt suiker van het blad naar waar ze nodig "
+                "is, dus in beide richtingen.",
+                "Dat het palissadeparenchym rechtop onder de bovenkant staat, is geen toeval: zo "
+                "vangen die cellen het meeste licht en zitten ze vol chloroplasten.",
+                "Dit is hetzelfde idee als bij de microvilli van een darmcel: een lange dunne vorm "
+                "geeft veel oppervlak voor weinig volume. Vorm volgt functie, en dat komt in deze "
+                "bundel nog twee keer terug.",
+            ],
+        ),
+        dict(
+            aanpak="Vier dierlijke weefsels, elk met een eigen werkwoord: epitheel bedekt, spier "
+                   "beweegt, zenuw geleidt, bindweefsel verbindt en steunt. Zet in de tabel "
+                   "telkens een plaats én dat werkwoord.",
+            waarom=[
+                "Merk op dat bindweefsel het breedste van de vier is: ook bot, pezen en vet horen "
+                "erbij. Daarom is het ook het weefsel dat in bijna elk orgaan meezit.",
+            ],
+        ),
+        dict(
+            aanpak="Bij elke bijzondere cel hoort dezelfde vraag: welke vorm heeft ze, en wat "
+                   "levert die vorm op? Zeg bij een voordeel ook altijd wat het kost, want net "
+                   "die afweging wordt gevraagd.",
+            waarom=[
+                "Noem beide kanten, want de vraag vraagt er twee. Zonder kern geen deling en geen "
+                "herstel, en dat is precies waarom je elke seconde miljoenen nieuwe rode "
+                "bloedcellen moet aanmaken.",
+                "23 is de helft van 46, en dat moet ook: bij de bevruchting komen twee gameten "
+                "samen tot een cel met 46 chromosomen.",
+                "Vorm volgt functie, nu voor een zenuwcel: één lange uitloper geeft minder "
+                "vertraging dan een rij cellen die elkaar moeten doorgeven. De langste cel in je "
+                "lichaam loopt van je onderrug tot je grote teen.",
+                "Niet waar, en dat is net het verschil met een stamcel. Een gedifferentieerde cel "
+                "heeft haar keuze gemaakt; enkel in het labo kan men haar met veel kunstgrepen "
+                "terugzetten.",
+            ],
+        ),
+        dict(
+            aanpak="De organisatieniveaus gaan van klein naar groot: cel, weefsel, orgaan, "
+                   "orgaanstelsel, organisme. Elk niveau is een groep van het vorige, en dat is "
+                   "ook het antwoord op de laatste vraag.",
+            waarom=[
+                None,
+                None,
+                "Noem het verschil met het woord verschillende erin: een weefsel is één soort "
+                "cellen, een orgaan bundelt meerdere weefsels. De darm is daarvoor het beste "
+                "voorbeeld, want je kan er vier weefsels in aanwijzen.",
+            ],
+        ),
+        dict(
+            aanpak="Twee soorten stamcellen, en het verschil zit in hoeveel ze nog kunnen worden. "
+                   "Embryonaal is alles, adult een beperkte groep. Daaruit volgt meteen waarom "
+                   "ze medisch interessant zijn.",
+            waarom=[
+                "Zet het verschil in één woord: hoeveel keuzes blijven er open. Een adulte "
+                "stamcel in het beenmerg maakt bloedcellen en geen zenuwcellen.",
+                "Noem een echt voorbeeld, want dat maakt het antwoord sterk: een "
+                "beenmergtransplantatie bij leukemie is stamceltherapie die al tientallen jaren "
+                "bestaat.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-enzymen-transport-door-membranen-en-osmose-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Een enzym is een eiwit dat een reactie versnelt zonder zelf op te geraken. "
+                   "Drie woorden horen bij elkaar: het substraat is de stof, de actieve plaats is "
+                   "de holte waar ze in past, en de activeringsenergie is de drempel die het enzym "
+                   "verlaagt.",
+            waarom=[
+                "Let erop dat een enzym de reactie niet mogelijk maakt maar enkel versnelt: de "
+                "drempel wordt lager, het eindresultaat blijft hetzelfde.",
+                None,
+                None,
+                "Noem het woord substraatspecificiteit, want daar vraagt de oefening naar. Het "
+                "beeld van een slot en een sleutel helpt: enkel de juiste vorm past, en daarom "
+                "heeft je lichaam duizenden verschillende enzymen nodig.",
+            ],
+        ),
+        dict(
+            aanpak="Vier knoppen bepalen de snelheid: de temperatuur, de pH, de hoeveelheid "
+                   "substraat en de hoeveelheid enzym. Bij temperatuur en pH is er een optimum, "
+                   "dus te veel is even slecht als te weinig. Bij de hoeveelheden geldt: bijzetten "
+                   "helpt zolang het andere niet beperkend is.",
+            waarom=[
+                "Let op het verschil tussen a en b. Van 20 naar 37 graden gaat het sneller, want "
+                "je gaat naar het optimum toe; van 37 naar 70 gaat het trager, want het enzym valt "
+                "uiteen. Dezelfde ingreep, twee uitkomsten.",
+                "Een competitieve remmer gaat zelf op de actieve plaats zitten en houdt het "
+                "substraat buiten. Veel geneesmiddelen en gifstoffen werken precies zo.",
+                "Noem het woord denatureren en zeg erbij dat het onomkeerbaar is. Vergelijk het "
+                "met een gebakken ei: afkoelen maakt het niet opnieuw vloeibaar.",
+            ],
+        ),
+        dict(
+            aanpak="Vier soorten transport, en twee vragen beslissen alles. Gaat het mee met de "
+                   "gradiënt of tegen? Is er een eiwit nodig? Mee zonder eiwit is diffusie, mee "
+                   "met een eiwit gefaciliteerde diffusie, tegen de gradiënt in met ATP actief "
+                   "transport, en gaat het over water, dan heet het osmose.",
+            waarom=[
+                "Merk op dat enkel kleine en vetachtige stoffen zomaar door het membraan kunnen. "
+                "Glucose is te groot en te waterminnend, dus heeft ze een kanaal nodig, ook al "
+                "gaat ze de gemakkelijke kant op.",
+                "Jodium in de schildklier is het mooiste voorbeeld van actief transport: de "
+                "concentratie binnen is tientallen keren hoger dan buiten, en dat kan enkel met "
+                "een pomp die energie verbruikt.",
+                "Niet waar, en dat is net de betekenis van passief: het gaat van hoog naar laag en "
+                "kost de cel niets. Enkel transport tegen de gradiënt in vraagt ATP.",
+            ],
+        ),
+        dict(
+            aanpak="Bij osmose gaat het water altijd naar de kant met het meeste opgeloste stof. "
+                   "Bepaal dus eerst waar dat is, en kijk dan of er een celwand is: zonder "
+                   "celwand barst de cel, met celwand wordt ze stevig.",
+            waarom=[
+                "Houd de drie woorden bij elkaar: hypertoon is meer opgeloste stof buiten, "
+                "hypotoon minder, isotoon gelijk. Daarom wordt een patiënt met een isotone "
+                "oplossing ingespoten en nooit met zuiver water.",
+                "Noem de naam, want die wordt gevraagd: lyse, en bij een rode bloedcel "
+                "hemolyse. Het water gaat naar binnen omdat binnen de concentratie hoger is.",
+                "Plasmolyse is het spiegelbeeld: het water gaat naar buiten en het membraan trekt "
+                "zich van de wand los. Dat is ook wat er gebeurt als je een plant bemest met te "
+                "veel kunstmest, of als strooizout in de bodem komt.",
+                "Dit is de kernvraag van de reeks. Noem de celwand en het woord turgescent: de "
+                "wand vangt de druk op, en juist die druk houdt een plant rechtop. Daarom gaat een "
+                "plant zonder water slap hangen.",
+            ],
+        ),
+        dict(
+            aanpak="Wat te groot is voor een kanaal, gaat in een blaasje. Naar binnen is "
+                   "endocytose, naar buiten exocytose. Fagocytose en pinocytose zijn twee soorten "
+                   "endocytose: vast tegenover vloeibaar.",
+            waarom=[
+                "Onthoud de woorddelen: fago betekent eten en pino drinken. Zo zijn de twee "
+                "soorten endocytose niet meer te verwarren.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-fotosynthese-celademhaling-en-gisting-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De twee vergelijkingen zijn elkaars omkering. Leer er één goed en draai ze "
+                   "om voor de andere: zes keer koolstofdioxide en water aan de ene kant, glucose "
+                   "en zes keer zuurstof aan de andere.",
+            waarom=[
+                "Controleer je vergelijking altijd op het aantal atomen: zes koolstof links, zes "
+                "in de glucose rechts. Dat is de snelste manier om te zien of je de coëfficiënten "
+                "juist hebt.",
+                None,
+                "Noem het woord kringloop: de producten van de ene zijn de grondstoffen van de "
+                "andere. Dat is ook de reden dat beide processen samen de koolstofkringloop van de "
+                "hele aarde dragen.",
+            ],
+        ),
+        dict(
+            aanpak="Elke stap heeft een vaste plaats, en de ordening volgt het membraan. Wat met "
+                   "licht of met een elektronentransport te maken heeft, gebeurt op een membraan; "
+                   "de cycli gebeuren in de vloeistof erbinnen; de glycolyse gebeurt buiten de "
+                   "organellen, in het cytoplasma.",
+            waarom=[
+                "Dat de lichtreacties op het thylakoïdmembraan gebeuren en de Calvincyclus in het "
+                "stroma, is niet willekeurig: de lichtreacties hebben een membraan nodig om een "
+                "protonengradiënt over op te bouwen.",
+                "Merk op dat de glycolyse in het cytoplasma gebeurt, bij de melkzuurgisting. Dat "
+                "verklaart waarom ook een cel zonder mitochondriën, en een cel zonder zuurstof, "
+                "nog altijd die eerste stap kan zetten.",
+            ],
+        ),
+        dict(
+            aanpak="Vier uitspraken waarin telkens iets net te absoluut staat. Zoek dus naar het "
+                   "woord dat de bewering te sterk maakt: alleen, nooit, meer dan alles.",
+            waarom=[
+                "Niet waar. De Calvincyclus heeft zelf geen licht nodig, maar wel de ATP en de "
+                "NADPH uit de lichtreacties. Daarom heet ze de lichtonafhankelijke reactie en niet "
+                "de donkerreactie.",
+                "Waar, en dat is met gemerkt water bewezen: de zuurstof komt uit het H2O en niet "
+                "uit de CO2.",
+                "Niet waar, en dit is de meest voorkomende misvatting. Een plant ademt dag en nacht, "
+                "en overdag levert de fotosynthese enkel meer op dan de ademhaling verbruikt.",
+                "Niet waar, en het verschil is groot: de glycolyse levert maar een paar ATP, "
+                "terwijl de citroenzuurcyclus en de eindoxidaties samen het grootste deel leveren. "
+                "Daarom hebben spier- en zenuwcellen zoveel mitochondriën.",
+            ],
+        ),
+        dict(
+            aanpak="Gisting is afbreken zonder zuurstof, en er zijn twee soorten met elk hun "
+                   "eindproduct: melkzuur of ethanol met koolstofdioxide. Zet in de tabel het "
+                   "product, het organisme en de toepassing.",
+            waarom=[
+                "Merk op dat het bij alcoholische gisting de koolstofdioxide is die het deeg doet "
+                "rijzen, niet de alcohol: die verdampt in de oven.",
+                "Noem waar de energie blijft: in het melkzuur of de ethanol zit nog veel energie "
+                "opgeslagen. Dat alcohol brandt, bewijst het.",
+                "Noem de hele keten: te weinig zuurstof, dus pyrodruivenzuur naar melkzuur, dus "
+                "opstapeling. Het melkzuur zelf wordt nadien weer afgebroken, en daarom is de "
+                "verzuring na een tijdje rust weg.",
+            ],
+        ),
+        dict(
+            aanpak="Bij een proef over fotosynthese gaat het telkens om één vraag: hoe weet je "
+                   "dat het resultaat van je proef komt? Daarom eerst het zetmeel wegwerken, dan "
+                   "één factor veranderen, en dan kijken waar het effect stopt.",
+            waarom=[
+                "Dit is het idee van een nulmeting: zonder die nacht in het donker weet je niet of "
+                "het zetmeel oud of nieuw is. Elke goede proef begint met een gekende "
+                "beginsituatie.",
+                None,
+                "Noem beide delen van het antwoord: meer belletjes, en een punt waar het stopt. "
+                "Dat tweede is het begrip beperkende factor, en het geldt overal in de biologie: "
+                "een proces gaat maar zo snel als zijn krapste schakel.",
+            ],
+        ),
+        dict(
+            aanpak="ATP is de kleine munt van de cel: ze geeft één fosfaatgroep af en wordt ADP. "
+                   "Reacties die energie vrijgeven heten exo-energetisch, reacties die energie "
+                   "vragen endo-energetisch.",
+            waarom=[
+                None,
+                "Het voorvoegsel zegt het: exo is naar buiten, endo naar binnen. De celademhaling "
+                "is exo-energetisch, de fotosynthese endo-energetisch.",
+                "Noem er drie van verschillende soort: iets met beweging, iets met transport en "
+                "iets met opbouw. Zo laat je zien dat ATP niet enkel voor spieren dient.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-niet-specifieke-en-specifieke-afweer-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Drie lijnen, en je herkent ze aan wat er gebeurt. De eerste lijn houdt buiten "
+                   "en maakt geen onderscheid (huid, maagsap, slijm). De tweede lijn valt aan "
+                   "zonder te weten wat het is (macrofaag, koorts, ontsteking). De derde lijn "
+                   "richt zich op één bepaald antigen (B-cellen, T-cellen).",
+            waarom=[
+                "Houd het verschil tussen de tweede en de derde lijn vast: een macrofaag eet alles "
+                "wat vreemd is, een plasmacel maakt antilichamen tegen één enkel antigen. "
+                "Niet-specifiek tegenover specifiek, dat is het hele onderscheid.",
+                "Koorts hoort bij de tweede lijn, ook al voelt het als een algemeen ziek zijn. Het "
+                "is namelijk een reactie van het hele lichaam die geen onderscheid maakt tussen "
+                "ziekteverwekkers.",
+            ],
+        ),
+        dict(
+            aanpak="Vier woorden die vaak door elkaar lopen. Een antigen is wat de reactie "
+                   "uitlokt, een antilichaam is wat het lichaam ertegen maakt, een pathogeen is de "
+                   "ziekteverwekker zelf. De tegenstelling antigen-antilichaam is de belangrijkste.",
+            waarom=[
+                None,
+                "Let op de i tegenover de o: een antigen komt van buiten, een antilichaam maak je "
+                "zelf. Wie die twee verwisselt, krijgt in bijna elke vraag van dit hoofdstuk een "
+                "fout antwoord.",
+                None,
+                "Een bacterie is het antwoord, want ze is een eigen cel en kan zich buiten een "
+                "gastheer vermeerderen. Een virus en een prion hebben de machinerie van een "
+                "levende cel nodig, en dat is precies de reden dat antibiotica niet tegen een "
+                "virus werken.",
+            ],
+        ),
+        dict(
+            aanpak="Vijf cellen, en elk heeft één rol in hetzelfde verhaal: de macrofaag meldt, "
+                   "de T-helpercel dirigeert, de cytotoxische T-cel doodt, de plasmacel schiet met "
+                   "antilichamen en de geheugencel blijft achter. Zet in de tabel telkens dat ene "
+                   "werkwoord.",
+            waarom=[
+                "De T-helpercel is de belangrijkste van de vijf, want zonder haar doet geen van de "
+                "andere iets. Precies daarom is hiv zo gevaarlijk, en dat komt in de volgende "
+                "bundel terug.",
+            ],
+        ),
+        dict(
+            aanpak="Vier uitspraken over afweer die alle vier de verkeerde kant op lijken te "
+                   "wijzen. Vraag je bij elke: is dit een fout van het lichaam of een werkende "
+                   "verdediging? Koorts en ontsteking zijn verdediging, geen schade.",
+            waarom=[
+                "Niet waar. Lichte koorts helpt, en ze onderdrukken kan de afweer zelfs trager "
+                "maken. Enkel hoge koorts, lang aanhoudende koorts of koorts bij een baby vraagt "
+                "een arts.",
+                None,
+                "Niet waar, het is net omgekeerd: roodheid, warmte, zwelling en pijn zijn de "
+                "tekenen dat er bloed en afweercellen naar de plaats toestromen. Een ontsteking is "
+                "de afweer aan het werk.",
+                "Niet waar, en dit is het belangrijkste punt van de hele bundel. Antibiotica "
+                "grijpen aan op iets wat enkel een bacterie heeft, bijvoorbeeld haar celwand. Een "
+                "virus heeft dat niet, dus helpen ze niet bij griep of een verkoudheid.",
+            ],
+        ),
+        dict(
+            aanpak="Drie vragen die naar een verklaring vragen, niet naar een woord. Noem telkens "
+                   "welke lijn of welke cel er in het spel is, en wat die precies doet. Dat is wat "
+                   "een open vraag in dit hoofdstuk beoordeelt.",
+            waarom=[
+                "Noem beide kanten: slechter voor de indringer en beter voor de afweercellen. Eén "
+                "van de twee is maar de helft van het antwoord.",
+                "Noem het woord geheugencellen en zeg wat ze winnen: tijd. De eerste reactie duurt "
+                "dagen, de tweede uren, en daarom merk je er niets meer van. Dit is ook precies "
+                "waarop een vaccin steunt.",
+                "Dit sluit aan bij de eerste reeks: een brandwond haalt de eerste verdedigingslijn "
+                "weg. Daarom is infectie, en niet de wond zelf, bij grote brandwonden het "
+                "grootste gevaar.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-immunisatie-bloedgroepen-en-falende-afweer-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Twee vragen beslissen de vier soorten. Maakt het lichaam de antilichamen zelf "
+                   "(actief) of krijgt het ze kant-en-klaar (passief)? En gebeurt dat door de "
+                   "natuur of door een arts (natuurlijk of kunstmatig)? Alles met een prik of een "
+                   "vaccin is kunstmatig.",
+            waarom=[
+                "Moedermelk en placenta zijn de twee natuurlijke manieren om antilichamen te "
+                "krijgen, en ze zijn dus passief: de baby maakt ze niet zelf en is daardoor maar "
+                "enkele maanden beschermd.",
+                None,
+                "Noem beide kanten van de afweging: een inspuiting werkt meteen maar kort, een "
+                "vaccin werkt traag maar lang. Daarom krijg je na een risicowond een inspuiting "
+                "én soms een vaccin, elk met een eigen doel.",
+            ],
+        ),
+        dict(
+            aanpak="Bij bloedgroepen draait alles om één regel: je hebt nooit antilichamen tegen "
+                   "je eigen antigen. Zet dus eerst het antigen in de tabel, en zet er dan het "
+                   "andere antilichaam bij. Groep O heeft geen antigen en dus beide antilichamen.",
+            waarom=[
+                "Vul de tabel in die orde in en je kan nooit fout zitten: eerst het antigen van de "
+                "naam, dan de antilichamen tegen wat je zelf niet hebt.",
+                "O is universele donor omdat er op die bloedcellen geen antigen staat waarop de "
+                "ontvanger kan reageren. Bij grote hoeveelheden speelt het plasma wel mee, en "
+                "daarom werkt men in de praktijk met gewassen bloedcellen.",
+                "AB is universele ontvanger omdat die persoon geen anti-A en geen anti-B heeft. "
+                "Let op dat donor en ontvanger dus net omgekeerd liggen.",
+                "Noem het antilichaam bij naam en zeg wat het doet: anti-B klontert de cellen "
+                "samen. Die klontering heet agglutinatie en kan dodelijk zijn.",
+                "Noem de D-factor en het gevaar voor een volgend kind. Daarom krijgt een "
+                "resusnegatieve moeder vandaag een inspuiting met anti-D, zodat haar lichaam de "
+                "antilichamen niet zelf aanmaakt.",
+            ],
+        ),
+        dict(
+            aanpak="Drie manieren waarop de afweer kan mislopen, en elk heeft een eigen fout. Een "
+                   "allergie reageert te sterk op iets onschuldigs, een auto-immuunziekte valt het "
+                   "eigen lichaam aan, een immuundeficiëntie doet te weinig. Vraag je dus: te veel, "
+                   "verkeerd gericht, of te weinig?",
+            waarom=[
+                "Type 1 diabetes staat er bewust bij, want veel mensen weten niet dat het een "
+                "auto-immuunziekte is: de afweer vernietigt de cellen in de pancreas die insuline "
+                "maken.",
+                None,
+                "Zet het verschil in één woord: bij een allergie komt de dader van buiten, bij een "
+                "auto-immuunziekte van binnen. In beide gevallen is het de reactie die het "
+                "probleem is, niet de stof.",
+                "Noem de T-helpercel, want dat is het hele antwoord. Hiv doodt de dirigent van de "
+                "afweer, en daarna zijn het de gewone infecties die een patiënt doen sterven.",
+                "Waar, en het laat zien dat afstoting geen fout van de afweer is maar haar normale "
+                "werk. Daarom moet men na een transplantatie de afweer levenslang onderdrukken, "
+                "met een hoger risico op infecties als prijs.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-gametogenese-en-de-hormonale-regeling-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zet de twee processen naast elkaar op vier punten: waar, hoeveel bruikbare "
+                   "cellen, wanneer het begint en wanneer het stopt. Op elk van die vier punten "
+                   "verschillen ze, en net daarop wordt gevraagd.",
+            waarom=[
+                "Het grootste verschil is het aantal: vier zaadcellen tegenover één eicel uit "
+                "dezelfde meiose. Dat de oögenese al voor de geboorte begint, verklaart ook waarom "
+                "de leeftijd van de moeder meespeelt: die cellen liggen er al tientallen jaren.",
+                "Noem het cytoplasma, want daar gaat het om. Een zaadcel moet enkel zwemmen, een "
+                "eicel moet de eerste dagen van een embryo voeden, en daarom krijgt zij alles mee "
+                "en de poollichaampjes niets.",
+            ],
+        ),
+        dict(
+            aanpak="Zes hormonen, en de ordening zit in de keten: de hypofyse stuurt FSH en LH, "
+                   "de eierstok antwoordt met oestrogeen en progesteron, de teelbal met "
+                   "testosteron, en hCG komt enkel bij een zwangerschap. Zoek dus eerst wie het "
+                   "hormoon maakt.",
+            waarom=[
+                "FSH en LH staan in de juiste orde van de cyclus: FSH laat rijpen, LH laat "
+                "springen. De letters helpen: F van follikel, L van loslaten.",
+                "hCG is het hormoon waarop een zwangerschapstest reageert. Dat het het geel "
+                "lichaam in stand houdt, is precies waarom de menstruatie dan uitblijft.",
+            ],
+        ),
+        dict(
+            aanpak="De cyclus van 28 dagen heeft twee helften met de ovulatie in het midden. Voor "
+                   "dag 14 rijpt de follikel, na dag 14 houdt het geel lichaam het slijmvlies in "
+                   "stand. Valt dat weg, dan komt de menstruatie.",
+            waarom=[
+                "Dag 14 is een gemiddelde, niet een wet: de tweede helft is vrij vast rond "
+                "veertien dagen, de eerste helft wisselt sterk van vrouw tot vrouw en van maand "
+                "tot maand.",
+                "Noem de keten: geel lichaam valt uiteen, progesteron zakt, slijmvlies laat los. "
+                "De menstruatie is dus geen aparte gebeurtenis maar het gevolg van een hormoon "
+                "dat wegvalt.",
+                "Geef een echt voorbeeld, want de vraag vraagt erom. Negatieve feedback is overal "
+                "in het lichaam hetzelfde idee als een thermostaat: het resultaat remt zijn eigen "
+                "oorzaak af.",
+                "Niet waar. De voorraad eicellen is bij de geboorte al vastgelegd en raakt op; "
+                "daarom is de menopauze onomkeerbaar, terwijl de spermatogenese levenslang "
+                "doorgaat.",
+            ],
+        ),
+        dict(
+            aanpak="Elk deel van een zaadcel hoort bij één taak: binnendringen, erfelijk "
+                   "materiaal, energie, voortbeweging. Zet in de tabel dus niet wat het is maar "
+                   "waarvoor het dient.",
+            waarom=[
+                "Dat het middenstuk vol mitochondriën zit, past bij de vorige bundel: zwemmen "
+                "kost ATP. En het acrosoom laat zien waarom er veel zaadcellen nodig zijn, want "
+                "hun enzymen helpen samen de omhulling open te maken.",
+            ],
+        ),
+        dict(
+            aanpak="Vier uitspraken die je kan nakijken met de tabel van de eerste reeks. Twee "
+                   "gaan over het verschil man-vrouw en twee over begrippen die vaak verwisseld "
+                   "worden: follikel en geel lichaam, haploïd en diploïd.",
+            waarom=[
+                "Niet waar, en dit is de klassieke misvatting. Er komt geen nieuwe eicel bij; er "
+                "rijpt elke maand één van de voorraad die er al voor de geboorte was.",
+                None,
+                None,
+                "Niet waar, en het is net omgekeerd gesteld dan het hoort: beide gameten zijn "
+                "haploïd, met 23 chromosomen. Pas na de bevruchting is de cel diploïd.",
+            ],
+        ),
+        dict(
+            aanpak="Drie begrippen en twee feiten over de man. Onthoud de bijbal als de plaats "
+                   "waar de zaadcellen rijpen en bewaard worden, en de twee cijfers: ongeveer "
+                   "zeventig dagen rijping, en een paar graden onder de lichaamstemperatuur.",
+            waarom=[
+                None,
+                "Zeventig dagen is ook de reden dat een man die zijn levensstijl verandert, pas "
+                "na twee tot drie maanden een ander resultaat ziet.",
+                "Noem de temperatuur, want dat is het hele antwoord. Het verklaart ook waarom een "
+                "warm bad, een laptop op de schoot of een te nauwe broek de vruchtbaarheid "
+                "tijdelijk kan verlagen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-bevruchting-embryo-en-foetus-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De eerste week verloopt in een vaste orde, en de plaats verandert mee: de "
+                   "bevruchting gebeurt in de eileider, en terwijl de kiem naar de baarmoeder "
+                   "zakt, deelt ze zich tot morula en blastula. Pas daar nestelt ze zich in.",
+            waarom=[
+                "Zet de namen op grootte van de celgroep: één cel, dan een klompje (morula), dan "
+                "een bolletje met een holte (blastula). De namen zeggen zelf wat je ziet, want "
+                "morula betekent moerbei.",
+                "De innesteling en de placenta komen helemaal achteraan, en dat moet ook: eerst "
+                "moet de kiem de baarmoeder bereiken.",
+                None,
+                "Zes tot zeven dagen is ongeveer de tijd die de kiem nodig heeft om door de "
+                "eileider te reizen. Gebeurt de innesteling toch in de eileider, dan heet dat een "
+                "buitenbaarmoederlijke zwangerschap.",
+            ],
+        ),
+        dict(
+            aanpak="Vier vragen over de eerste dagen. Houd twee dingen vast: de zygote is de "
+                   "bevruchte eicel, en bij de klievingsdelingen worden de cellen kleiner in "
+                   "plaats van het geheel groter.",
+            waarom=[
+                None,
+                "Dit is het punt dat vaak misgaat. Een gewone celdeling wordt voorafgegaan door "
+                "groei; bij de klieving wordt enkel verdeeld. Daarom is een morula van zestien "
+                "cellen niet groter dan de eicel waaruit ze komt.",
+                "Niet waar. Zodra de eerste zaadcel binnen is, verandert de omhulling zodat er "
+                "geen tweede meer door kan. Zonder dat slot zou de cel te veel chromosomen "
+                "krijgen.",
+                "Noem beide kanten: één eicel die splitst tegenover twee eicellen. Daaruit volgt "
+                "ook het genetische gevolg, en dat is waarop de vraag mikt.",
+            ],
+        ),
+        dict(
+            aanpak="Drie kiembladen, drie groepen organen. Onthoud de buitenste als buitenkant en "
+                   "zenuwstelsel, de binnenste als binnenkant van darm en longen, en het midden "
+                   "als alles ertussen: spieren, skelet, bloed, nieren.",
+            waarom=[
+                "Dat huid en zenuwstelsel uit hetzelfde kiemblad komen, is het verrassendste van "
+                "de drie en wordt daarom graag gevraagd. Het klopt ook met de ontwikkeling: de "
+                "neurale buis ontstaat door een instulping van de buitenste laag.",
+            ],
+        ),
+        dict(
+            aanpak="De placenta is een uitwisselingsorgaan zonder vermenging: het bloed van moeder "
+                   "en kind komt niet samen. Houd daarnaast de twee feiten over de geboorte vast: "
+                   "de navelstreng verbindt, oxytocine zet de weeën in gang.",
+            waarom=[
+                "Noem het woord diffusie en het dunne membraan. Precies omdat het bloed niet "
+                "vermengt, kan een moeder een andere bloedgroep hebben dan haar kind, en toch is "
+                "er bij de resusfactor een risico omdat er bij de geboorte wel wat bloed overgaat.",
+                None,
+                "Oxytocine werkt met positieve feedback: de weeën maken meer oxytocine en dat "
+                "maakt sterkere weeën. Dat is een van de weinige plaatsen in het lichaam waar de "
+                "feedback niet remt maar versterkt.",
+                "Noem de week én de reden. De grens valt daar omdat het soort ontwikkeling "
+                "verandert: eerst aanleggen, dan groeien. Dat verklaart ook waarom de eerste "
+                "weken de gevoeligste zijn, zoals in de laatste reeks.",
+            ],
+        ),
+        dict(
+            aanpak="Een teratogeen is een stof die de ontwikkeling schaadt, en het gevaar hangt "
+                   "vooral af van het tijdstip. Zet bij elk advies dus de reden, want zonder reden "
+                   "is het geen antwoord op deze vragen.",
+            waarom=[
+                None,
+                "Dit sluit aan bij de vorige reeks: in de eerste acht weken worden de organen "
+                "aangelegd, en wat dan fout gaat, kan niet meer hersteld worden. Juist in die "
+                "weken weet een vrouw soms nog niet dat ze zwanger is.",
+                "Noem er drie met telkens een reden, en kies er drie van verschillende soort: iets "
+                "dat de hersenen schaadt, iets dat de zuurstof vermindert, en iets met een "
+                "ziekteverwekker. Zonder de reden erbij levert zo'n opsomming geen punten op.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-vruchtbaarheid-regelen-en-behandelen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vier soorten, en de naam zegt waar ze ingrijpen. Een barrière houdt de "
+                   "zaadcellen fysiek tegen, een hormonale methode grijpt in op de cyclus, een "
+                   "natuurlijke methode berekent of meet, een chirurgische ingreep sluit de "
+                   "banen af.",
+            waarom=[
+                None,
+                None,
+                "Dit is het belangrijkste punt van de hele bundel, en het komt in de laatste reeks "
+                "terug: enkel een barrière houdt ook ziekteverwekkers tegen. Een hormonale methode "
+                "doet dat niet, hoe betrouwbaar ze ook is tegen zwangerschap.",
+            ],
+        ),
+        dict(
+            aanpak="Zet bij elk middel op welk moment het ingrijpt: voor de ovulatie, voor de "
+                   "bevruchting of voor de innesteling. Daarmee kan je ook het verschil tussen de "
+                   "morning-afterpil en de abortuspil uitleggen.",
+            waarom=[
+                "Merk op dat de meeste middelen vóór de bevruchting werken: de pil houdt de "
+                "ovulatie tegen, het condoom de zaadcellen. Het spiraaltje is het enige dat op "
+                "twee plaatsen in de keten werkt.",
+                "Zet het verschil in de tijd: voorkomen tegenover beëindigen. Dat onderscheid is "
+                "ook wettelijk en medisch van belang, want het zijn twee verschillende "
+                "geneesmiddelen met een verschillend tijdsvenster.",
+            ],
+        ),
+        dict(
+            aanpak="De pearlindex zegt hoeveel zwangerschappen er optreden bij honderd vrouwen die "
+                   "een jaar lang hetzelfde middel gebruiken. Hoe lager dat getal, hoe "
+                   "betrouwbaarder. En een methode die op meten berust, is altijd gevoeliger voor "
+                   "toeval dan een methode die iets tegenhoudt.",
+            waarom=[
+                None,
+                "Noem beide zwakke plekken: de meting zelf en de wisselende cyclus. Daarbij komt "
+                "nog dat zaadcellen enkele dagen in het lichaam kunnen overleven, zodat de "
+                "vruchtbare periode breder is dan één dag.",
+                "Waar, en let op de richting: laag is goed. Dat is tegen de intuïtie, want bij de "
+                "meeste cijfers is hoger beter.",
+            ],
+        ),
+        dict(
+            aanpak="Drie behandelingen op een lijn van weinig naar veel ingrijpen: inseminatie "
+                   "brengt zaadcellen binnen, IVF laat de bevruchting buiten het lichaam gebeuren, "
+                   "ICSI spuit één zaadcel in de eicel. Hoe groter het probleem met de zaadcellen, "
+                   "hoe verder je op die lijn gaat.",
+            waarom=[
+                None,
+                "Noem het probleem bij naam: te weinig of te weinig beweeglijke zaadcellen. Bij "
+                "ICSI hoeft de zaadcel zelf niets meer te doen, en daarom is het de methode voor "
+                "juist dat geval.",
+                "Noem er vier en zeg erbij dat het voor beide partners geldt, want dat is de hele "
+                "pointe van deze reeks. Dat ook de leeftijd van de man meespeelt, is minder "
+                "bekend en wel waar.",
+            ],
+        ),
+        dict(
+            aanpak="Vier uitspraken die je met de vorige reeksen kan nakijken. Twee ervan gaan "
+                   "over een verwarring die vaak voorkomt: de pil en soa's, en waar de bevruchting "
+                   "bij IVF gebeurt.",
+            waarom=[
+                "Niet waar, en het is de belangrijkste misvatting uit deze bundel. Dit is ook de "
+                "vraag die in de laatste reeks als gesprek terugkomt.",
+                "Waar, en dat is net de reden dat er een gesprek met een arts aan voorafgaat: een "
+                "sterilisatie is soms nog om te keren, maar dat lukt lang niet altijd.",
+                None,
+                "Niet waar: in vitro betekent letterlijk in glas. De bevruchting gebeurt in het "
+                "labo, en daarna wordt de kiem in de baarmoeder geplaatst.",
+            ],
+        ),
+        dict(
+            aanpak="Twee vragen waarin je de leerstof moet gebruiken in een gesprek. Antwoord dus "
+                   "niet met een term maar met het argument, en zeg wat er ontbreekt in wat de "
+                   "ander zegt.",
+            waarom=[
+                "Dit is dezelfde inhoud als vraag 12, nu in een gesprek. Een goed antwoord geeft "
+                "de ander gelijk op het punt waar hij gelijk heeft en vult aan waar het mis gaat: "
+                "de pil voorkomt een zwangerschap, niet een besmetting.",
+                "Noem het cijfer achter het advies: de oorzaak ligt ongeveer even vaak bij de man "
+                "als bij de vrouw, en vaak bij beiden samen. Daarom is eenzijdig onderzoek "
+                "verloren tijd.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-dna-rna-en-de-replicatie-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Twee paren om vast te houden: A hoort bij T en C hoort bij G. Schrijf de "
+                   "streng onder elkaar en vervang base per base, van links naar rechts. Bij RNA "
+                   "vervang je de T door een U.",
+            waarom=[
+                "Controleer je antwoord door de twee strengen onder elkaar te leggen: elke A moet "
+                "een T onder zich hebben en elke C een G. Eén verschoven letter zie je zo meteen.",
+                None,
+                "Let op het verschil met de vorige oefeningen: bij mRNA komt er U waar je T zou "
+                "schrijven. Al de rest blijft hetzelfde paren.",
+            ],
+        ),
+        dict(
+            aanpak="Drie verschillen tussen DNA en RNA: de suiker (deoxyribose tegenover ribose), "
+                   "de base (thymine tegenover uracil) en het aantal strengen. Alles wat beide "
+                   "nodig hebben om nucleïnezuur te zijn (fosfaat, de andere basen) is dus beide.",
+            waarom=[
+                "Thymine en uracil zijn het snelste kenmerk: zie je een U, dan is het RNA, zie je "
+                "een T, dan is het DNA. Guanine en cytosine zitten in beide.",
+                "De naam zegt het verschil in de suiker: deoxy betekent zonder zuurstof, en dat "
+                "ene zuurstofatoom minder maakt DNA stabieler. Daarom bewaart de cel haar "
+                "erfelijke informatie in DNA en niet in RNA.",
+            ],
+        ),
+        dict(
+            aanpak="De regel van Chargaff: A is gelijk aan T en C is gelijk aan G, en samen is "
+                   "alles 100 procent. Zet dus eerst de twee die je kent, trek de som van 100 af, "
+                   "en deel de rest in twee gelijke helften.",
+            waarom=[
+                None,
+                "Reken na: A en T zijn samen 60 procent, dus blijft er 40 procent voor C en G "
+                "samen, en dat is 20 procent elk.",
+                "Schrijf je stappen op zoals in het antwoord, want de vraag vraagt de reden en "
+                "niet het getal. De hele berekening steunt op het paren van de basen, en dat is "
+                "ook het bewijs dat ze paren.",
+            ],
+        ),
+        dict(
+            aanpak="Van dun naar dik: DNA rond histonen geeft chromatine, en dat opgewonden geeft "
+                   "een chromosoom met twee chromatiden die aan het centromeer samenhangen. Leer "
+                   "die vier woorden in die orde.",
+            waarom=[
+                None,
+                None,
+                None,
+                "Noem het getal, want dat maakt het concreet: ongeveer twee meter DNA in een kern "
+                "van enkele micrometer. Dat is ongeveer alsof je dertig kilometer draad in een "
+                "tennisbal moet krijgen, en toch nog netjes in twee kan verdelen.",
+            ],
+        ),
+        dict(
+            aanpak="Vijf enzymen, elk met één taak, en de orde is die van de werf: eerst "
+                   "openwinden, dan spanning wegnemen, dan een beginstukje leggen, dan bouwen, dan "
+                   "de stukken aan elkaar plakken. De uitgang -ase verraadt telkens dat het om een "
+                   "enzym gaat.",
+            waarom=[
+                "De namen helpen: helicase van helix, polymerase van polymeer, ligase van "
+                "verbinden. Wie de naam uitpakt, hoeft de taak niet los uit het hoofd te leren.",
+                None,
+                "Semiconservatief betekent half bewaard: elke dochterhelix houdt één oude streng "
+                "bij. Dat is ook experimenteel bewezen, met zwaar stikstof in het klassieke "
+                "experiment van Meselson en Stahl.",
+                "Dit is de moeilijkste vraag van de bundel. Noem de twee feiten die het "
+                "verklaren: polymerase bouwt maar in één richting, en de strengen lopen "
+                "tegengesteld. Daaruit volgt de leidende streng in één stuk en de volgende streng "
+                "in okazakifragmenten.",
+                "Niet waar, en dit is dezelfde inhoud als vraag 15. Elke nieuwe dubbele helix "
+                "bevat één oude streng; wie hier waar antwoordt, heeft het woord semiconservatief "
+                "nog niet door.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-celcyclus-mitose-en-meiose-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De celcyclus bestaat uit vier stukken: G1 groeien, S kopiëren, G2 nakijken, M "
+                   "delen. De letters helpen: S van synthese, M van mitose, en de twee G's zijn de "
+                   "tussenpauzes.",
+            waarom=[
+                "Houd de S-fase goed vast, want daar verdubbelt het DNA. Alles wat je nadien over "
+                "chromatiden berekent, hangt af van de vraag of de S-fase al gebeurd is.",
+                None,
+                None,
+                "Noem wat er gecontroleerd wordt, want daar vraagt de oefening naar. Juist het "
+                "wegvallen van die controle is wat een cel tot een tumorcel maakt: ze blijft delen "
+                "ondanks de fouten.",
+            ],
+        ),
+        dict(
+            aanpak="Vier fasen in een vaste orde, en elke fase heeft één beeld. Profase: "
+                   "chromosomen worden zichtbaar. Metafase: alles op één lijn. Anafase: "
+                   "uiteentrekken. Telofase: twee nieuwe kernen. De voorvoegsels zeggen het: pro "
+                   "is voor, meta is midden, ana is omhoog of uiteen, telo is einde.",
+            waarom=[
+                "Metafase is de fase die je op een foto het makkelijkst herkent: alle chromosomen "
+                "netjes op een rij in het midden. Daarom gebruikt men net dat beeld om "
+                "chromosomen te tellen.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Zet mitose en meiose naast elkaar op vijf punten: aantal delingen, aantal "
+                   "dochtercellen, aantal chromosomen, of ze gelijk zijn, en waarvoor ze dienen. "
+                   "Op alle vijf verschillen ze, en dat maakt de tabel makkelijk te onthouden.",
+            waarom=[
+                "Het kortste houvast: mitose is kopiëren, meiose is halveren en mengen. Daaruit "
+                "volgen alle vijf de rijen van de tabel.",
+            ],
+        ),
+        dict(
+            aanpak="Houd twee regels vast. Mitose houdt het aantal gelijk, meiose halveert het. En "
+                   "na de S-fase heeft elk chromosoom twee chromatiden, dus verdubbel je dan het "
+                   "aantal chromatiden en niet het aantal chromosomen.",
+            waarom=[
+                None,
+                None,
+                "Dit is de strikvraag van de reeks: nog altijd 46 chromosomen, maar elk met twee "
+                "chromatiden, dus 92 chromatiden. Het aantal chromosomen verandert pas bij de "
+                "deling zelf.",
+                "Noem het woord haploïd en de reden. 2n is 18, dus n is 9, en een stuifmeelkorrel "
+                "is bij een plant het mannelijke gametenstadium.",
+            ],
+        ),
+        dict(
+            aanpak="Twee mechanismen maken elke gameet anders: crossing-over wisselt stukken uit "
+                   "binnen een paar, en de onafhankelijke verdeling gooit de paren toevallig door "
+                   "elkaar. Beide gebeuren enkel bij de meiose.",
+            waarom=[
+                None,
+                "Reken even mee met de orde van grootte: met 23 paren die elk twee kanten op "
+                "kunnen, zijn er al meer dan acht miljoen combinaties, en dan komt crossing-over "
+                "daar nog bij.",
+                "Noem het woord variatie en wat het oplevert bij verandering. Dit is het verband "
+                "tussen dit hoofdstuk en de evolutieleer: zonder variatie valt er niets te "
+                "selecteren.",
+                "Niet waar. Bij de mitose liggen de homologe chromosomen niet tegen elkaar en "
+                "wisselen ze dus niets uit; dat is precies waarom de dochtercellen van een mitose "
+                "identiek zijn.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-overerving-en-de-wetten-van-mendel-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zes woorden die elkaar paarsgewijs verklaren: genotype tegenover fenotype, "
+                   "homozygoot tegenover heterozygoot, dominant tegenover recessief. Leer ze per "
+                   "paar en niet los.",
+            waarom=[
+                "Houd genotype en fenotype uit elkaar met de g van genen en de f van wat je kan "
+                "fotograferen. Twee dieren met hetzelfde fenotype kunnen een verschillend genotype "
+                "hebben, en dat is de kern van vraag 7.",
+                "Let op de formulering bij recessief: het toont zich enkel als het dominante allel "
+                "er niet is, dus enkel bij homozygoot recessief.",
+            ],
+        ),
+        dict(
+            aanpak="Werk elke kruising in drie stappen: eerst de gameten van elke ouder, dan het "
+                   "schema met vier vakjes, dan de verhoudingen. Schrijf de genotypes en de "
+                   "fenotypes apart, want dat zijn twee verschillende verhoudingen.",
+            waarom=[
+                None,
+                None,
+                "Dit is de klassieke 1 op 2 op 1 en 3 op 1. Let op dat de genotypeverhouding drie "
+                "groepen heeft en de fenotypeverhouding maar twee, omdat BB en Bb hetzelfde "
+                "ogen.",
+                "Een kruising met een homozygoot recessieve partner geeft altijd 1 op 1. Daarom "
+                "gebruikt men net zo'n kruising om een genotype te testen, en dat is wat de "
+                "volgende vraag doet.",
+                "Noem de reden erbij, want die maakt het antwoord: één wit jong bewijst dat het "
+                "zwarte dier een b-allel heeft. Eén nakomeling volstaat als bewijs, en dat is het "
+                "mooie van een testkruising.",
+            ],
+        ),
+        dict(
+            aanpak="Bij twee genen vermenigvuldigt alles: twee soorten gameten per gen geeft vier "
+                   "combinaties, en een schema van vier bij vier geeft zestien vakjes. De "
+                   "verhouding 9 op 3 op 3 op 1 volgt daar rechtstreeks uit.",
+            waarom=[
+                "Reken het na met de formule 2 tot de macht van het aantal heterozygote genen: "
+                "twee heterozygote genen geven 2 maal 2, dus vier soorten gameten.",
+                "Schrijf ze systematisch op en niet door elkaar: eerst AB en Ab, dan aB en ab. Zo "
+                "vergeet je er geen.",
+                None,
+                "Reken na: de kans op aa is een vierde en de kans op bb ook, dus samen een "
+                "zestiende. Dat is ook het enige vakje van de zestien dat volledig recessief is.",
+            ],
+        ),
+        dict(
+            aanpak="Vier uitzonderingen op het eenvoudige schema. Intermediair geeft een "
+                   "tussenvorm, codominant toont beide, multipele allelie betekent meer dan twee "
+                   "allelen, X-gebonden betekent dat het gen op het X-chromosoom ligt. Dat "
+                   "laatste herken je aan een verschil tussen mannen en vrouwen.",
+            waarom=[
+                "Houd intermediair en codominant uit elkaar: bij intermediair krijg je iets nieuws "
+                "ertussen (roze), bij codominant zie je beide volledig naast elkaar (groep AB).",
+                "Het kenmerk van X-gebonden in een stamboom is dat de aandoening van grootvader "
+                "via een dochter naar een kleinzoon springt. Die dochter is draagster en toont "
+                "niets.",
+                "Noem het verschil in aantal X-chromosomen, want dat is het hele antwoord. Een man "
+                "heeft geen tweede X om het op te vangen, en daarom volstaat één allel bij hem.",
+                "Niet waar, en dit is de logische vervolgvraag. Een vader geeft zijn zoon een Y en "
+                "zijn dochter een X, dus kan een X-gebonden allel nooit rechtstreeks van vader naar "
+                "zoon gaan.",
+            ],
+        ),
+        dict(
+            aanpak="In een stamboom lees je het allel uit het patroon. Slaat de aandoening "
+                   "generaties over, dan is ze recessief. Komt ze in elke generatie voor, dan is "
+                   "ze dominant. Zit ze bijna enkel bij mannen, dan is ze X-gebonden.",
+            waarom=[
+                "Noem het woord drager, want daar draait het om: iemand kan het allel doorgeven "
+                "zonder het te tonen. Dat kan enkel bij een recessief allel.",
+                "Reken de kans na: beide ouders zijn Bb, dus is de kans op bb een vierde. Let op "
+                "dat die kans voor elk kind opnieuw geldt en niet opgebruikt raakt: na één ziek "
+                "kind is de kans bij het volgende weer één op vier.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-genexpressie-transcriptie-en-translatie-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Werk in vaste stappen: eerst het mRNA uit de DNA-streng (A bij U, T bij A, C "
+                   "bij G, G bij C), dan de codons per drie afsplitsen, dan tellen. Negen "
+                   "nucleotiden zijn dus altijd drie codons.",
+            waarom=[
+                "Controleer je antwoord op de start: T A C in het DNA geeft A U G in het mRNA, en "
+                "dat is net het startcodon. Dat is geen toeval maar een geheugensteun.",
+                "Reken na: 9 gedeeld door 3 is 3 codons, dus drie aminozuren. Eén codon is altijd "
+                "drie nucleotiden, en dat getal drie is de sleutel van heel dit hoofdstuk.",
+                None,
+                "De drie stopcodons zijn de enige codons die geen aminozuur aanduiden. Daarom "
+                "zijn er 64 codons voor 20 aminozuren en niet 61 die allemaal iets coderen.",
+            ],
+        ),
+        dict(
+            aanpak="Reken met de getallen: vier basen op drie plaatsen geeft 4 maal 4 maal 4, dus "
+                   "64 codons, voor maar 20 aminozuren. Daaruit volgt dat de code gedegenereerd "
+                   "is, en dat ze bij bijna alle organismen dezelfde is.",
+            waarom=[
+                "Reken na waarom het drie moet zijn: met twee basen zou je 16 combinaties hebben, "
+                "en dat is te weinig voor 20 aminozuren.",
+                "Noem het woord gedegenereerd en het gevolg: een mutatie in de derde base "
+                "verandert vaak niets. Dat is een ingebouwde veiligheid in de code zelf.",
+                "Dit is de basis van de hele biotechnologie: omdat de code universeel is, kan een "
+                "bacterie menselijke insuline maken. Noem het woord universeel in je antwoord.",
+            ],
+        ),
+        dict(
+            aanpak="Zet de twee processen naast elkaar op vier punten: waar, door welk enzym of "
+                   "organel, wat erin gaat en wat eruit komt. Transcriptie is DNA naar RNA in de "
+                   "kern, translatie is RNA naar eiwit in het cytoplasma.",
+            waarom=[
+                "De namen zeggen het verschil: transcriptie is overschrijven in dezelfde taal "
+                "(nucleïnezuur naar nucleïnezuur), translatie is vertalen naar een andere taal "
+                "(nucleotiden naar aminozuren).",
+            ],
+        ),
+        dict(
+            aanpak="Het pre-mRNA moet eerst rijpen: de introns eruit, de exons aan elkaar, en een "
+                   "cap en een staart erbij. Onthoud de letters: in-trons gaan erin blijven zitten "
+                   "als afval, ex-ons gaan eruit naar het ribosoom.",
+            waarom=[
+                None,
+                "Noem beide en zeg waarvoor ze dienen, want de vraag vraagt de functie. Zonder "
+                "cap en staart wordt het mRNA in de cel snel afgebroken.",
+                "Alternatieve splicing is het antwoord op een raadsel: de mens heeft ongeveer "
+                "20 000 genen en veel meer verschillende eiwitten. Eén gen kan dus meerdere "
+                "eiwitten leveren.",
+            ],
+        ),
+        dict(
+            aanpak="Op het ribosoom komen drie moleculen samen: het mRNA met de boodschap, het "
+                   "tRNA met het aminozuur, en het ribosoom zelf als werkbank. Het anticodon van "
+                   "het tRNA is het complement van het codon, dus pas je dezelfde paringsregels "
+                   "toe als bij het DNA, met U in plaats van T.",
+            waarom=[
+                None,
+                None,
+                "Reken na met de paringsregels: G hoort bij C, C bij G, A bij U. GCA geeft dus "
+                "CGU. Let erop dat je bij RNA nooit een T schrijft.",
+                "Beschrijf het in de drie stappen van het antwoord: starten, verlengen, stoppen. "
+                "Dat is ook de indeling waarmee het in bijna elk handboek staat: initiatie, "
+                "elongatie, terminatie.",
+                "Niet waar. Meerdere ribosomen kunnen achter elkaar op hetzelfde mRNA zitten, en "
+                "dat heet een polysoom. Zo maakt een cel in één keer veel kopieën van hetzelfde "
+                "eiwit.",
+            ],
+        ),
+        dict(
+            aanpak="Een keten aminozuren is nog geen werkend eiwit. Er moet eerst gevouwen worden, "
+                   "en vaak nog bijgewerkt in het ER en het golgi. En de vouw volgt uit de "
+                   "volgorde, dus hangt de werking uiteindelijk aan die volgorde.",
+            waarom=[
+                "Dit sluit aan bij de eerste bundel: het golgi-apparaat werkt eiwitten af. Wat op "
+                "het ribosoom gemaakt wordt, is dus een halffabricaat.",
+                "Noem de keten van drie: volgorde bepaalt vouw, vouw bepaalt vorm, vorm bepaalt "
+                "werking. Daarom kan één verkeerd aminozuur, zoals bij sikkelcelanemie, een heel "
+                "eiwit onbruikbaar maken.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-genregulatie-epigenetica-en-nature-of-nurture-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Beide vragen hebben hetzelfde antwoord in andere woorden: niet het DNA "
+                   "verschilt tussen cellen, maar welke genen aan staan. Noem in je antwoord dus "
+                   "altijd de kost van een eiwit maken en de keuze die de cel maakt.",
+            waarom=[
+                "Noem de kost, want dat is het argument: een eiwit maken vraagt aminozuren en "
+                "ATP. Een bacterie die enzymen voor lactose maakt terwijl er geen lactose is, "
+                "verspilt energie, en dat is precies wat het lac-operon vermijdt.",
+                "Dit is dezelfde vraag als in de bundel over celdifferentiatie. Hetzelfde "
+                "kookboek, een andere bladzijde open.",
+            ],
+        ),
+        dict(
+            aanpak="Het lac-operon heeft drie onderdelen: de promotor waar het polymerase aanhecht, "
+                   "de operator als slagboom, en de repressor als slot op die slagboom. Lactose is "
+                   "de sleutel die het slot wegneemt. Vertel het dus als een verhaal in die orde.",
+            waarom=[
+                "Houd promotor en operator uit elkaar: de promotor is de startplaats, de operator "
+                "de slagboom er net achter. Beide zijn stukken DNA; de repressor is een eiwit.",
+                "Noem de hele keten: repressor op de operator, polymerase geblokkeerd, geen "
+                "enzymen. Zeg het in die richting, want de volgende vraag is net het omgekeerde.",
+                "Let op hoe de regeling werkt: de lactose schakelt niets aan maar haalt een rem "
+                "weg. Dat heet inductie, en het is zuiniger dan voortdurend aansturen.",
+                "Noem het voordeel: één schakelaar voor alle genen van dezelfde taak. Daarom "
+                "werken bacteriën met operons en wij met afzonderlijke regeling per gen.",
+            ],
+        ),
+        dict(
+            aanpak="Twee merktekens met een tegengesteld gevolg: methylgroepen op het DNA leggen "
+                   "een gen stil, acetylgroepen op de histonen maken het leesbaar. Onthoud dat "
+                   "acetylering het chromatine losser maakt, zodat het polymerase erbij kan.",
+            waarom=[
+                "De logica zit in de verpakking: losser opgewonden DNA is leesbaar, strak "
+                "opgewonden DNA niet. Methylering trekt aan, acetylering laat los.",
+                "Zet het verschil in de letters: een mutatie verandert de tekst, een epigenetische "
+                "verandering zet er een markering bij of haalt die weg. De tekst zelf blijft.",
+                "Dit is het bekendste bewijs dat epigenetica meespeelt. Noem de omgevingsfactoren "
+                "bij naam: voeding, stress, roken, slaap. De tweeling begint met hetzelfde "
+                "DNA en niet met dezelfde markeringen.",
+                "Waar, en dat is het verrassendste van het hoofdstuk: sommige merktekens overleven "
+                "de gametenvorming. Bij de mens is dat nog een onderzoeksgebied, bij planten en "
+                "dieren zijn er duidelijke voorbeelden.",
+            ],
+        ),
+        dict(
+            aanpak="Vraag je bij elk kenmerk: ligt het vast in het DNA, komt het van de omgeving, "
+                   "of werken ze samen? Zuivere nature-kenmerken zijn er weinig (bloedgroep, "
+                   "oogkleur); bij bijna alles wat met gedrag of gezondheid te maken heeft, is het "
+                   "antwoord beide.",
+            waarom=[
+                "Gewicht is het schoolvoorbeeld van beide: er is een erfelijke neiging én een "
+                "omgeving van voeding en beweging. Wie hier één kant kiest, mist het punt.",
+                "Lengte lijkt zuiver erfelijk en is het niet: de gemiddelde lengte in Vlaanderen "
+                "steeg in honderd jaar met meer dan tien centimeter, en het DNA van de bevolking "
+                "veranderde in die tijd niet.",
+                "Noem beide soorten tweelingonderzoek, want samen maken ze het argument: "
+                "verschillen tussen eeneiige tweelingen wijzen naar de omgeving, gelijkenissen bij "
+                "apart opgegroeide tweelingen naar het DNA.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-mutaties-mutagenen-en-kanker-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vergelijk de twee rijen letter per letter en kijk wat er met het aantal "
+                   "gebeurt. Evenveel letters met één andere is een substitutie, een letter minder "
+                   "een deletie, een letter meer een insertie, en evenveel letters in een andere "
+                   "orde een inversie.",
+            waarom=[
+                "Tel altijd eerst het aantal basen, want dat scheidt de vier soorten meteen in "
+                "twee groepen. Pas daarna kijk je welke letter precies veranderd is.",
+                "Bij a blijven alle letters dezelfde en staan ze enkel omgekeerd: T G C wordt C G "
+                "T. Dat is het kenmerk van een inversie.",
+                "Noem het woord leesraam, want dat is het hele antwoord. Het is hetzelfde als een "
+                "letter weglaten in een zin die je per drie leest: alles erna verschuift en wordt "
+                "onleesbaar.",
+            ],
+        ),
+        dict(
+            aanpak="Hier gaat het niet over de verandering in het DNA maar over het gevolg voor "
+                   "het eiwit. Stil betekent geen verschil, missense betekent een ander aminozuur, "
+                   "nonsense betekent een te vroeg stopcodon en dus een afgebroken eiwit.",
+            waarom=[
+                "Nonsense is de ernstigste van de drie, want het eiwit stopt halverwege en is "
+                "bijna altijd onbruikbaar.",
+                "Dit sluit aan bij de gedegenereerde code uit de vorige bundel. Vooral de derde "
+                "letter van een codon is vaak vrij, en daarom blijft een mutatie daar zonder "
+                "gevolg.",
+                "Noem de keten: ander aminozuur, andere vouw, ander gedrag van het eiwit. Dit is "
+                "het beste voorbeeld dat één letter in drie miljard al genoeg kan zijn.",
+            ],
+        ),
+        dict(
+            aanpak="Drie niveaus van klein naar groot: een genmutatie zit in één gen, een "
+                   "chromosoommutatie verandert de bouw van een chromosoom, een genoommutatie "
+                   "verandert het aantal chromosomen. Vraag je dus: letters, stukken of hele "
+                   "chromosomen?",
+            waarom=[
+                None,
+                "Trisomie 21 is het bekendste voorbeeld van een genoommutatie: er is één "
+                "chromosoom 21 te veel, en dat is het downsyndroom. Het voorbeeld van chromosoom "
+                "9 en 22 is de philadelphiatranslocatie, die bij een vorm van leukemie voorkomt.",
+                "Non-disjunctie is de oorzaak achter een trisomie: bij de meiose gaan twee "
+                "chromosomen van hetzelfde paar samen naar één cel.",
+            ],
+        ),
+        dict(
+            aanpak="Eén vraag beslist: zit de mutatie in een geslachtscel of in een lichaamscel? "
+                   "Alleen een geslachtscel geeft haar DNA aan een volgende generatie door. Zet "
+                   "dus bij elk antwoord die reden.",
+            waarom=[
+                "Merk op dat a en c de meest voorkomende mutaties van allemaal zijn en toch niet "
+                "erfelijk. Dat ze niet erfelijk zijn, betekent dus niet dat ze onschuldig zijn: "
+                "het zijn juist die mutaties die kanker veroorzaken.",
+                "Noem het verschil tussen een lichaamscel en een geslachtscel. Daarom spreekt men "
+                "ook van somatische tegenover germinale mutaties.",
+            ],
+        ),
+        dict(
+            aanpak="Kanker ontstaat niet uit één fout. Onthoud het tweetal oncogen en "
+                   "tumorsuppressorgen: het ene is een gaspedaal dat blijft hangen, het andere een "
+                   "rem die uitvalt. Pas met beide samen gaat een cel ongeremd delen.",
+            waarom=[
+                None,
+                "Noem er drie van verschillende soort, want de vraag vraagt soorten en niet drie "
+                "keer hetzelfde: straling, een chemische stof en een virus. Dat ook een virus een "
+                "mutageen kan zijn, is minder bekend en de reden dat er een vaccin tegen HPV "
+                "bestaat.",
+                "Het beeld van de auto helpt: een oncogen is een gaspedaal dat vast zit, een "
+                "tumorsuppressorgen een rem die niet meer werkt. Een auto rijdt pas echt op hol "
+                "als beide mislopen.",
+                "Dit is het meertrapsmodel van kanker, en het verklaart twee dingen: waarom kanker "
+                "vooral op latere leeftijd voorkomt, en waarom iemand die een mutatie erft, er "
+                "vroeger en vaker ziek van wordt.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-dna-technologie-en-gentechnologie-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zet het gereedschap in de orde van het werk: knippen met een restrictie-enzym, "
+                   "plakken met ligase, binnenbrengen met een vector, vermenigvuldigen met PCR, "
+                   "scheiden met een gel, uitlezen met sequencing. Elk woord hoort bij precies één "
+                   "handeling.",
+            waarom=[
+                "Dat een restrictie-enzym op een vaste plaats in de sequentie knipt, is wat de "
+                "hele techniek mogelijk maakt: twee stukken DNA die met hetzelfde enzym geknipt "
+                "zijn, passen op elkaar.",
+                "Houd PCR en sequencing uit elkaar: PCR maakt meer van hetzelfde, sequencing leest "
+                "wat er staat. Ze worden vaak na elkaar gebruikt en doen iets heel verschillends.",
+                "CRISPR-Cas werkt als een zoek-en-vervangfunctie: een stukje RNA wijst de plaats "
+                "aan en het enzym knipt daar. Dat precieze aanwijzen is wat het verschilt van de "
+                "oudere technieken.",
+            ],
+        ),
+        dict(
+            aanpak="Drie manieren waarop bacteriën van nature DNA uitwisselen. De namen zeggen "
+                   "het: transformatie is opnemen van buiten, conjugatie is een brug tussen twee "
+                   "bacteriën, transductie is overbrengen door een virus.",
+            waarom=[
+                None,
+                "Noem het plasmide, want dat is de kern van het antwoord. Het verklaart ook waarom "
+                "resistentie zelfs tussen verschillende soorten bacteriën overgaat, en waarom "
+                "antibiotica alleen gebruiken als het nodig is zo belangrijk is.",
+            ],
+        ),
+        dict(
+            aanpak="Een PCR-cyclus heeft drie stappen die aan de temperatuur hangen: heet maakt "
+                   "los, koeler laat de primers binden, lauwwarm laat het polymerase bouwen. En "
+                   "elke cyclus verdubbelt, dus reken met machten van twee.",
+            waarom=[
+                "De drie stappen heten denaturatie, annealing en extensie, en ze gebeuren in een "
+                "toestel dat enkel de temperatuur regelt. Daarom kan één machine miljoenen kopieën "
+                "maken zonder dat er iemand bij moet.",
+                "Reken na: 2 tot de tiende is 1024, dus tien cyclussen. Omdat het verdubbelt, "
+                "volstaan twintig cyclussen al voor meer dan een miljoen kopieën.",
+            ],
+        ),
+        dict(
+            aanpak="Twee eigenschappen verklaren een gel: DNA is negatief geladen, dus wandelt het "
+                   "naar de pluspool, en kleine stukken schuiven sneller door de gel dan grote. "
+                   "Daarmee kan je elke vraag over een bandenpatroon beantwoorden.",
+            waarom=[
+                "Noem de fosfaatgroepen, want dat is de reden van de lading. Zonder die lading zou "
+                "elektroforese niet werken.",
+                "Het beeld van een zeef helpt: kleine korrels raken er sneller door dan grote. "
+                "Daarom staan de kleine fragmenten onderaan de gel, het verst van de start.",
+                "Noem de herhalingen, want daar zit het verschil tussen mensen. Dit is de basis "
+                "van forensisch onderzoek en van een vaderschapstest.",
+            ],
+        ),
+        dict(
+            aanpak="Drie soorten klonen, elk met een ander doel: een heel individu, een stuk DNA, "
+                   "of weefsel voor een patiënt. En bij de toepassingen hoort altijd een afweging, "
+                   "dus noem bij een voordeel ook een bezorgdheid.",
+            waarom=[
+                "Moleculair klonen is het meest gebruikte van de drie en haalt nooit het nieuws; "
+                "reproductief klonen haalt altijd het nieuws en gebeurt bijna nooit.",
+                "Beschrijf het in de drie stappen van het antwoord, met het gereedschap van de "
+                "eerste reeks erin: knippen, plakken, binnenbrengen. Zo laat je zien dat je de "
+                "techniek en niet enkel het verhaal kent.",
+                "Zet het verschil in de grens: cisgeen blijft binnen wat ook door kruisen kon, "
+                "transgeen gaat die grens over. Dat onderscheid speelt een rol in de discussie over "
+                "de regels voor ggo's.",
+                "Geef er echt één van elk, want de vraag vraagt een afweging. Een antwoord dat "
+                "enkel voordelen of enkel bezwaren noemt, is geen afweging.",
+                "Niet waar. Een kloon heeft hetzelfde DNA maar niet dezelfde omgeving, en zelfs "
+                "niet dezelfde epigenetische merktekens. Dat is dezelfde les als bij de eeneiige "
+                "tweeling uit de vorige bundel.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-argumenten-voor-evolutie-en-de-evolutietheorieen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vijf vakgebieden, vijf soorten bewijs. Zoek in de zin naar het soort "
+                   "waarneming: een bouwplan is anatomie, een embryo embryologie, een fossiel "
+                   "paleontologie, een molecule of een code moleculaire biologie, een verspreiding "
+                   "over de aarde biogeografie.",
+            waarom=[
+                "Merk op dat de vijf argumenten elkaar onafhankelijk bevestigen. Dat is wat een "
+                "theorie sterk maakt: vijf heel verschillende vakken komen bij dezelfde conclusie "
+                "uit.",
+                "Dat alle organismen dezelfde genetische code gebruiken, is het sterkste "
+                "moleculaire argument: het wijst op één gemeenschappelijke voorouder van al het "
+                "leven.",
+            ],
+        ),
+        dict(
+            aanpak="Houd twee woorden uit elkaar aan hun oorsprong. Homoloog betekent dezelfde "
+                   "bouw en dezelfde afkomst, ook als de functie verschilt. Analoog betekent "
+                   "dezelfde functie maar een andere bouw en afkomst. Kijk dus niet naar waar het "
+                   "voor dient maar naar hoe het gebouwd is.",
+            waarom=[
+                "De vin van een haai en die van een dolfijn is het mooiste paar: allebei om te "
+                "zwemmen, maar de ene is een visvin en de andere een omgebouwde poot. Dat heet "
+                "convergente evolutie.",
+                "Noem de twee woorden bouw en oorsprong, want daar hangt het verschil aan. "
+                "Dezelfde functie in dezelfde omgeving geeft gelijkenis zonder verwantschap.",
+                "Rudimentaire organen zijn een argument op zich: ze hebben enkel zin als restant "
+                "van iets wat bij een voorouder wel werkte. De staartwervels en de "
+                "oorspiertjes van de mens zijn voorbeelden.",
+            ],
+        ),
+        dict(
+            aanpak="Fossielen lezen steunt op twee regels: wat dieper ligt is ouder, en een "
+                   "overgangsfossiel heeft kenmerken van twee groepen. Zoek bij zo'n fossiel dus "
+                   "altijd beide groepen kenmerken.",
+            waarom=[
+                None,
+                "Noem de kenmerken van beide groepen bij naam, want dat is waarom hij zo "
+                "belangrijk is. Eén fossiel met veren én tanden laat zien dat die groepen niet "
+                "altijd gescheiden waren.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Houd de twee theorieën uit elkaar aan de richting van de verandering. Bij "
+                   "Lamarck verandert het individu eerst en wordt dat doorgegeven; bij Darwin is "
+                   "de variatie er al en kiest de omgeving eruit. Zie je de woorden rekken, "
+                   "oefenen of verworven, dan is het Lamarck.",
+            waarom=[
+                None,
+                "Noem de geslachtscellen, want daar zit het antwoord. Dit is dezelfde logica als "
+                "in de bundel over mutaties: wat in een lichaamscel verandert, gaat nergens heen.",
+                "Noem alle drie, want Darwins theorie staat of valt met de drie samen: variatie, "
+                "selectie en erfelijkheid. Valt er één weg, dan werkt het mechanisme niet.",
+                "Zeg uitdrukkelijk wat fit niet betekent, want dat is de valkuil. Fit is passend "
+                "bij de omgeving, en in een andere omgeving is dus iets anders fit.",
+            ],
+        ),
+        dict(
+            aanpak="De moderne theorie denkt in populaties en niet in individuen. Een populatie "
+                   "evolueert doordat de allelfrequenties verschuiven; een individu doet dat niet. "
+                   "Houd dat onderscheid vast, want de laatste vraag test precies dat.",
+            waarom=[
+                None,
+                "Noem beide bronnen en het verschil: mutaties maken iets nieuw, de meiose "
+                "herschikt wat er al is. Zonder mutaties zou de variatie uiteindelijk uitgeput "
+                "raken.",
+                "Dit is de kernvraag van de reeks. Zeg uitdrukkelijk dat het antibioticum "
+                "selecteert en niet veroorzaakt, want juist die verwarring zit achter het "
+                "misverstand dat bacteriën zich aanpassen aan een kuur.",
+                "Niet waar, en dit is het verschil tussen een individu en een populatie. Een "
+                "individu kan zich aanpassen (sterker worden, bruiner worden), maar evolueren doen "
+                "enkel populaties over generaties heen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-selectie-soortvorming-en-de-menswording-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vijf mechanismen, en de vraag die ze scheidt is: wie of wat kiest? De "
+                   "omgeving is natuurlijke selectie, een partner seksuele selectie, een mens "
+                   "kunstmatige selectie, en niemand genetische drift. Gene flow is geen keuze "
+                   "maar verhuizing.",
+            waarom=[
+                "Let op a: er kiest niemand, het is enkel toeval. Dat is het kenmerk van "
+                "genetische drift, en in dit geval heet het een bottleneck of flessenhals.",
+                None,
+                "Het stichterseffect is een vorm van drift: de kleine groep die vertrekt, heeft "
+                "toevallig niet dezelfde allelverhoudingen als de grote groep. Daarom hebben "
+                "eilandpopulaties vaak bijzondere eigenschappen.",
+            ],
+        ),
+        dict(
+            aanpak="Vier vragen over begrippen die vaak verkeerd begrepen worden. Fitness gaat "
+                   "over nakomelingen en niet over kracht, drift gaat over toeval en niet over "
+                   "aanpassing. Zeg bij elke open vraag ook wat het niet is.",
+            waarom=[
+                "Zeg uitdrukkelijk wat het niet is, want dat is het punt van de vraag. Een "
+                "onopvallend diertje met veel nakomelingen is fitter dan een sterk dier zonder.",
+                "Het beeld van munten gooien helpt: tien keer kop op tien worpen gebeurt wel eens, "
+                "duizend keer kop op duizend worpen nooit. Toeval weegt dus zwaarder in een kleine "
+                "groep.",
+                "Noem het woord drager, want dat is de reden. Dit is hetzelfde idee als bij een "
+                "recessieve aandoening in een stamboom: wat niet te zien is, kan niet weggeselecteerd "
+                "worden.",
+                "Niet waar, en dat is net het verschil met selectie. Drift werkt zonder richting: "
+                "ook een nuttig allel kan erdoor verdwijnen.",
+            ],
+        ),
+        dict(
+            aanpak="Zes vormen van isolatie, en ze vallen in twee groepen. Alles wat de "
+                   "bevruchting verhindert, is prezygotisch (plaats, tijd, gedrag, gameten); wat "
+                   "erna misloopt, is postzygotisch. Zoek dus eerst of er een bevruchting is "
+                   "geweest.",
+            waarom=[
+                "Houd geografisch en ecologisch uit elkaar: bij geografisch is er een hindernis "
+                "zoals een gebergte of een zee, bij ecologisch wonen ze op dezelfde plaats maar in "
+                "een andere laag of op een andere ondergrond.",
+                "Het muildier is het vaste voorbeeld van postzygotisch: de bevruchting lukt, het "
+                "dier leeft, maar er komt geen volgende generatie.",
+                "Zet de grens bij de bevruchting, want dat is de scheidslijn tussen de twee "
+                "woorden. Zygote zit in de naam en wijst precies dat moment aan.",
+                "Houd de twee woorden uit elkaar met hun voorvoegsel: allo betekent elders, sym "
+                "betekent samen. Allopatrisch is dus met een hindernis ertussen, sympatrisch "
+                "zonder.",
+            ],
+        ),
+        dict(
+            aanpak="Het soortbegrip hangt aan vruchtbare nakomelingen, niet aan uiterlijk. Reken "
+                   "het antwoord dus altijd uit via die ene toets: komt er een volgende generatie "
+                   "uit?",
+            waarom=[
+                "Het woord vruchtbaar is het sleutelwoord. Zonder dat woord is de definitie fout, "
+                "want paard en ezel krijgen wel samen nakomelingen.",
+                "Dit is de toepassing van de vorige vraag. Noem het woord onvruchtbaar, want daar "
+                "hangt alles aan: de genen van de twee groepen komen niet duurzaam samen.",
+                "Noem alle drie, en vergeet de tijd niet: isolatie zonder genoeg generaties geeft "
+                "nog geen nieuwe soort.",
+            ],
+        ),
+        dict(
+            aanpak="Bij de menswording hangt bijna alles aan één verandering: rechtop lopen. Zoek "
+                   "bij elke lichamelijke aanpassing dus het verband met die ene stap, en weeg bij "
+                   "de hersenen de winst tegen de kost af.",
+            waarom=[
+                None,
+                "Noem de drie aanpassingen en het verband met rechtop lopen, want dat is wat de "
+                "vraag beoordeelt. Door rechtop te lopen kwamen de handen ook vrij, en dat maakte "
+                "gereedschap mogelijk.",
+                "Noem er twee van verschillende soort: iets over energie en iets over de geboorte. "
+                "De bevalling bij de mens is door die combinatie van een breed hoofd en een smal "
+                "bekken veel moeilijker dan bij andere zoogdieren.",
+                "Niet waar, en dit is de bekendste misvatting van het hoofdstuk. Mens en chimpansee "
+                "zijn neven met een gemeenschappelijke voorouder, en die voorouder was geen van "
+                "beide.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-biomoleculen-sachariden-lipiden-en-proteinen-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Drie groepen, en je herkent ze aan de uitgang of aan de bekendste leden. "
+                   "Namen op -ose en -een van opslagstoffen zijn sachariden; vetten, oliën, "
+                   "cholesterol en fosfolipiden zijn lipiden; namen op -ine die een taak uitvoeren "
+                   "of een structuur vormen zijn proteïnen.",
+            waarom=[
+                "Glycogeen is de verrassing in de rij: het klinkt niet als een suiker en het is de "
+                "opslagvorm van glucose in lever en spieren. Cholesterol klinkt niet als een vet "
+                "en is er wel een.",
+                None,
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Elke groep heeft haar bouwsteen: monosachariden voor de sachariden, glycerol "
+                   "met vetzuren voor een triglyceride, aminozuren voor de proteïnen. En er zijn "
+                   "maar twee reacties: aan elkaar zetten met waterverlies, of splitsen met "
+                   "water.",
+            waarom=[
+                None,
+                "De naam zegt het: condensatie laat water ontstaan. Daarom heet de omgekeerde "
+                "reactie hydrolyse, letterlijk splitsen met water, en dat is precies wat er in je "
+                "spijsvertering gebeurt.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Hier gaat het om twee suikerringen aan elkaar. Leer de drie disachariden met "
+                   "hun bouwstenen: lactose is glucose met galactose, sacharose glucose met "
+                   "fructose, maltose glucose met glucose. En let bij de lange ketens op de vorm, "
+                   "want die bepaalt de functie.",
+            waarom=[
+                None,
+                "Noem de vorm, want daar hangt alles aan: recht en naast elkaar geeft vezels, "
+                "opgerold geeft een voorraad. Dezelfde bouwsteen, een andere binding, een heel "
+                "andere stof.",
+                "Noem het enzym, want dat is de reden. Een koe verteert cellulose niet zelf maar "
+                "laat bacteriën in haar voormagen het werk doen, en daarom herkauwt ze.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Bij lipiden verklaart de vorm van de staart bijna alles. Een rechte, "
+                   "verzadigde staart stapelt dicht en geeft een vaste stof; een geknikte, "
+                   "onverzadigde staart stapelt los en geeft een olie. En een fosfolipide heeft "
+                   "twee gezichten: een waterminnende kop en waterafstotende staarten.",
+            waarom=[
+                "Noem de dubbele binding en de knik, want dat is de oorzaak. Dit verklaart ook "
+                "waarom men olie hardt om margarine te maken: men haalt de dubbele bindingen eruit.",
+                "Dit is dezelfde uitleg als bij het celmembraan in de eerste bundel. Het "
+                "belangrijkste woord is vanzelf: zo'n dubbellaag vormt zich spontaan in water, "
+                "zonder dat er iets aan vastgehouden wordt.",
+                "Noem er drie van verschillende soort, want vier keer energie is één antwoord. "
+                "Dat lipiden ook grondstof zijn voor hormonen, wordt vaak vergeten.",
+                "Noem de waterstof, want daar zit de energie. Vet levert ongeveer 9 kcal per gram "
+                "tegenover 4 voor suiker, en daarom slaat het lichaam zijn reserve als vet op en "
+                "niet als glycogeen.",
+            ],
+        ),
+        dict(
+            aanpak="Een eiwit heeft vier niveaus van structuur, en ze bouwen op elkaar: de "
+                   "volgorde, de plaatselijke vorm (helix of plaat), de vouw van de hele keten, en "
+                   "het samengaan van meerdere ketens. Alles wat die vouw stuk maakt, maakt het "
+                   "eiwit onbruikbaar.",
+            waarom=[
+                "Onthoud de vier in die orde, want ze volgen uit elkaar: de primaire structuur "
+                "bepaalt de secundaire, die de tertiaire, en die eventueel de quaternaire.",
+                "Hemoglobine is het vaste voorbeeld van een quaternaire structuur: vier ketens "
+                "samen. Daarom heeft één fout aminozuur er zulke grote gevolgen.",
+                None,
+                "Noem beide groepen bij naam en zeg wat verschilt: de restgroep. Juist die "
+                "restgroep maakt het verschil tussen de twintig aminozuren, en dus tussen alle "
+                "eiwitten.",
+                "Dit sluit aan bij de bundel over enzymen: denatureren is de vouw verliezen, en de "
+                "actieve plaats bestaat dan niet meer. De volgorde van de aminozuren is nog wel "
+                "intact, en dat laat zien dat de volgorde alleen niet volstaat.",
+                "Noem de keten van drie: volgorde, vouw, werking. Sikkelcelanemie is er het "
+                "bekendste voorbeeld van.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-veilig-en-duurzaam-werken-in-het-labo-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De pictogrammen zijn beelden die zeggen wat er kan gebeuren. Vlam is brand, "
+                   "doodshoofd is giftig, de inwerkende vloeistof is bijtend, het uitroepteken is "
+                   "de lichtste waarschuwing, boom en vis gaan over het milieu, en een vlam boven "
+                   "een cirkel betekent dat de stof brand aanwakkert.",
+            waarom=[
+                None,
+                "Houd de vlam en de vlam boven een cirkel uit elkaar: het eerste brandt zelf, het "
+                "tweede brandt niet maar laat iets anders veel heviger branden. Zuurstof en "
+                "waterstofperoxide zijn oxiderend.",
+                "Niet waar. Een pictogram staat er pas vanaf een bepaalde drempel, en ook stoffen "
+                "zonder teken lees je eerst op het etiket. Er staat ook niets op over wat er "
+                "gebeurt als je twee producten mengt.",
+            ],
+        ),
+        dict(
+            aanpak="Twee begrippen die bij een instrument horen: het meetbereik is van waar tot "
+                   "waar het meet, de resolutie is het kleinste verschil dat het nog ziet. Kies "
+                   "altijd het instrument waarvan het bereik net groot genoeg is, want dan is de "
+                   "verdeling het fijnst.",
+            waarom=[
+                None,
+                None,
+                "Dit is de kernvraag van de reeks. Noem de fijnere verdeling als reden: 2 ml "
+                "afmeten in een beker van 500 ml is onmogelijk nauwkeurig, want één streepje is "
+                "daar al tientallen milliliter.",
+                "Noem er drie van verschillende soort: iets over hoe je kijkt, iets over wat je "
+                "opschrijft, en iets over herhalen. Recht van voren aflezen voorkomt een "
+                "parallaxfout, en herhalen maakt een toevallige afwijking zichtbaar.",
+            ],
+        ),
+        dict(
+            aanpak="Bij elke handeling hoort dezelfde vraag: wat kan hier misgaan, en wie of wat "
+                   "loopt er schade op? Zeg bij goed of fout dus altijd kort waarom, want dat is "
+                   "wat de oefening vraagt.",
+            waarom=[
+                "Met de mond pipetteren is de ernstigste fout van de drie, want je kan het product "
+                "zo binnenkrijgen. Daar bestaat een pipetballon voor, en die gebruik je altijd.",
+                "De grove stelschroef bij de grootste vergroting is de klassieke fout waarmee elk "
+                "jaar preparaten en lenzen sneuvelen, en de volgende vraag legt uit waarom.",
+                "Noem het voordeel van het overzicht: met het kleinste objectief zoek je eerst wat "
+                "je wil zien, en dan zoom je in. Omgekeerd beginnen kost veel meer tijd.",
+                "Noem de afstand tussen de lens en het glaasje, want dat is de reden. Bij de "
+                "grootste vergroting is die afstand kleiner dan een millimeter.",
+            ],
+        ),
+        dict(
+            aanpak="Vier situaties die om een handeling vragen. Houd overal dezelfde orde aan: "
+                   "eerst het gevaar wegnemen of jezelf veilig stellen, dan verwittigen, dan "
+                   "opruimen. Alleen bij een spat in het oog komt het spoelen altijd eerst.",
+            waarom=[
+                "Noem de drie stappen in die orde. Scherven met de handen oppakken is de fout die "
+                "het vaakst gemaakt wordt, en glas met een chemisch product erop hoort in de "
+                "scherfbak en niet bij het gewone afval.",
+                "Bij het oog gaat spoelen vóór verwittigen, want elke seconde telt. Spoel lang, "
+                "minstens een kwartier, en hou het oog daarbij open.",
+                "Noem de besmetting van de voorraadfles, want dat is de reden. Een fles waar iets "
+                "in teruggegoten is, is voor iedereen na jou onbruikbaar.",
+                "Noem de weg waarlangs het binnenkomt: via je handen of een spat op je eten. "
+                "Daarom is handen wassen bij het verlaten van een labo even belangrijk als bij het "
+                "binnenkomen.",
+            ],
+        ),
+        dict(
+            aanpak="Duurzaam en veilig werken komen in deze reeks samen: minder product betekent "
+                   "minder afval en minder risico. Houd daarnaast de twee woorden rond kiemvrij "
+                   "maken vast: steriliseren is wat je doet, de autoclaaf is het toestel.",
+            waarom=[
+                None,
+                "Een autoclaaf werkt met stoom onder druk, zodat de temperatuur boven 120 graden "
+                "komt. Daarom doodt hij ook sporen, en dat lukt met koken alleen niet.",
+                "Noem beide gevolgen: het milieu en de buizen. Chemisch afval hoort in de daarvoor "
+                "bestemde recipiënten, met het etiket erop.",
+                "Noem er drie van verschillende soort: iets over afmeten, iets over energie en iets "
+                "over afval. Niet meer afmeten dan nodig is de goedkoopste en de effectiefste.",
+                "Dit is het besluit van de hele bundel. Noem het verband: minder stof in huis is "
+                "minder stof dat kan morsen of ontsnappen. Veilig en duurzaam zijn hier geen twee "
+                "doelen maar één.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-wetenschappelijk-onderzoek-ontwerpen-en-stem-beyond"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De zes stappen staan altijd in dezelfde orde: vraag, hypothese, plan, "
+                   "uitvoeren, verwerken, besluiten. Onthoud dat de hypothese vóór de proef komt, "
+                   "want een verwachting die je achteraf opschrijft, is geen hypothese.",
+            waarom=[
+                "De hypothese komt op plaats twee en niet later. Dat is geen formaliteit: wie "
+                "pas na de meting een verwachting formuleert, kan zijn eigen resultaat niet meer "
+                "toetsen.",
+                "Let op het verschil tussen stap 5 en 6: verwerken is wat de cijfers zeggen, "
+                "besluiten is wat dat betekent voor je vraag. Een grafiek is nog geen besluit.",
+            ],
+        ),
+        dict(
+            aanpak="Bij elke proef zijn er drie soorten variabelen. De onafhankelijke verander je "
+                   "zelf, de afhankelijke meet je, en de constante houd je opzettelijk gelijk. "
+                   "Vraag je dus: verander ik dit, meet ik dit, of hou ik dit gelijk?",
+            waarom=[
+                "Onthoud de twee met hun rol: de onafhankelijke is je oorzaak, de afhankelijke je "
+                "gevolg. In een grafiek staat de onafhankelijke altijd op de horizontale as.",
+                "Merk op dat er maar één onafhankelijke variabele mag zijn. Alles wat je niet "
+                "onderzoekt, moet constant blijven, en dat is precies wat er in de volgende reeks "
+                "misgaat.",
+                "De controlegroep is nodig om te weten wat er zou gebeuren zonder je ingreep. "
+                "Zonder vergelijkingspunt zegt een resultaat niets.",
+            ],
+        ),
+        dict(
+            aanpak="Zoek bij elke opstelling de fout in de methode, niet in het resultaat. De drie "
+                   "klassieke fouten zijn: twee factoren tegelijk veranderen, te weinig metingen "
+                   "doen, en een meting weglaten die niet past.",
+            waarom=[
+                "Noem allebei de factoren die verschillen, want daar zit de fout. De oplossing "
+                "staat in het antwoord: beide reeksen op dezelfde plaats, en enkel de meststof "
+                "verschilt.",
+                "Noem het woord herhalen en het gemiddelde. Eén meting kan een uitzondering zijn, "
+                "en je hebt geen manier om dat te weten.",
+                "Dit is geen methodefout maar een eerlijkheidsfout, en die is de ernstigste. Een "
+                "afwijkende meting noteer je en bespreek je; weglaten wat niet past, is het "
+                "resultaat maken in plaats van meten.",
+            ],
+        ),
+        dict(
+            aanpak="Een grafiek heeft vaste regels: wat je zelf veranderde op de horizontale as, "
+                   "elke as met grootheid, eenheid en een regelmatige verdeling, en een assenstelsel "
+                   "dat het beeld niet vertekent. Kies de soort grafiek bij het soort gegeven.",
+            waarom=[
+                "Dit sluit aan bij de vorige reeks: op de horizontale as staat de onafhankelijke "
+                "variabele, op de verticale de afhankelijke.",
+                "Noem alle drie, want twee ervan vergeet men bijna altijd: de eenheid en de "
+                "regelmatige verdeling. Een as met ongelijke stappen maakt elke lijn onbruikbaar.",
+                "Een lijngrafiek past bij iets dat vloeiend in de tijd verandert; een staafdiagram "
+                "bij losse categorieën en een cirkeldiagram bij delen van een geheel.",
+                "Noem het woord vertekenen. Dit is ook de reden dat je een grafiek in het nieuws "
+                "altijd eerst op zijn assen bekijkt.",
+            ],
+        ),
+        dict(
+            aanpak="Een besluit moet drie dingen bevatten: een antwoord op de vraag, iets over de "
+                   "hypothese, en waarop je dat baseert. En let op twee valkuilen: een gemiddelde "
+                   "zonder spreiding, en verband dat je voor oorzaak houdt.",
+            waarom=[
+                "Noem het woord spreiding. Twee reeksen met hetzelfde gemiddelde kunnen heel "
+                "verschillend zijn, en daarom hoort er bij een gemiddelde altijd een idee van hoe "
+                "ver de metingen uiteen liggen.",
+                "Dit is het verschil tussen correlatie en oorzakelijkheid, en de derde factor is "
+                "hier het warme weer. Noem die factor bij naam, want enkel zeggen dat het geen "
+                "oorzaak is, verklaart niets.",
+                "Noem alle drie, en vergeet het derde niet: waarop je je besluit baseert. Een "
+                "besluit zonder verwijzing naar je eigen metingen is een mening.",
+                "Niet waar, en dit is het belangrijkste punt van de hele bundel. Een weerlegde "
+                "hypothese is een geslaagd onderzoek: je weet nu iets dat je eerst niet wist.",
+            ],
+        ),
+        dict(
+            aanpak="Ontwerpen werkt in een lus: eisen opstellen, prototype bouwen, testen, "
+                   "aanpassen, opnieuw testen. Het verschil met onderzoeken zit in het doel: "
+                   "onderzoek levert kennis op, een ontwerp levert iets dat werkt.",
+            waarom=[
+                "Beginnen met de eisen is wat ontwerpen van knutselen onderscheidt. Zonder eisen "
+                "kan je achteraf niet zeggen of je oplossing goed is.",
+                None,
+                None,
+                "Zet het verschil in het resultaat: kennis tegenover iets dat werkt. In een "
+                "STEM-project zitten meestal beide, want je moet eerst iets uitzoeken voor je iets "
+                "kan bouwen.",
+                "Noem beide redenen: zonder beginmeting weet je niet waar de winst zit, en kan je "
+                "achteraf niet bewijzen dat je iets verbeterd hebt. Dat heet een nulmeting.",
+                "Noem de hele lus: aanpassen, opnieuw testen, en opnieuw naast alle eisen leggen. "
+                "Een prototype dat niet voldoet, is geen mislukking maar de normale tussenstap.",
+            ],
+        ),
+    ],
+)
