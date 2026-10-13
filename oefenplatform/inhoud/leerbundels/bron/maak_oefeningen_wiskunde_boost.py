@@ -2108,3 +2108,880 @@ OEFENBUNDELS["oefenbundel-misleiding-met-cijfers-en-verbanden-in-een-puntenwolk-
              ]),
     ],
 )
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-een-opgave-aanpakken-van-context-naar-wiskunde-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Kijk in welke richting je vertaalt: van de werkelijkheid naar wiskunde is "
+                    "mathematiseren, van je uitkomst terug naar de werkelijkheid is demathematiseren.",
+             waarom=[None]),
+        dict(aanpak="Bij een vraagstuk weet je meteen welke bewerking je nodig hebt. Bij een probleem "
+                    "moet je zelf nog uitzoeken welke leerstof erbij komt kijken.",
+             waarom=[None]),
+        dict(aanpak="Een heuristiek is een manier om vooruit te komen als je het antwoord nog niet "
+                    "ziet. Zoek bij elke zin welke stap daar gezet wordt.",
+             waarom=[None]),
+        dict(aanpak="Zelfde werkwijze. Let erop dat terugrekenen bij het einde begint, en dat patronen "
+                    "zoeken naar de verschillen tussen de getallen kijkt.",
+             waarom=[None]),
+        dict(aanpak="De vier stappen van Polya volgen altijd dezelfde volgorde. Leer ze als rijtje, dan "
+                    "weet je bij een moeilijke opgave waar je staat.",
+             waarom=[None]),
+        dict(aanpak="Vraag je bij elke handeling af wat je op dat moment aan het doen bent: lezen, "
+                    "kiezen, rekenen of nakijken.",
+             waarom=[None]),
+        dict(aanpak="Reflecteren is nagaan of je uitkomst kán kloppen. Kijk naar de grootteorde, naar "
+                    "het teken en naar de eenheid.",
+             waarom=[
+                 r"De fout zit in de eenheid: \(1\) m\(^{3}\) is \(1000\) liter. Die controle doe je "
+                 r"altijd voor je je antwoord opschrijft.",
+                 r"Een tijd in minuten moet eerst naar uren. Delen door \(45\) geeft km per minuut, niet "
+                 r"km per uur.",
+                 None,
+             ]),
+        dict(aanpak="Schat eerst met ronde getallen. Je schatting is je controle: ligt je exacte "
+                    "antwoord er ver vandaan, dan zit er een fout in.",
+             waarom=[None]),
+        dict(aanpak="Vraag je bij elke uitkomst af welke grens ze overschrijdt: kan een gemiddelde zo "
+                    "laag zijn, kan een korting de prijs doen stijgen?",
+             waarom=[
+                 None,
+                 r"Een korting van \(30\%\) betekent dat je nog \(70\%\) betaalt, dus "
+                 r"\(\cdot\, 0{,}7\). Wie \(\cdot\, 1{,}3\) rekent, telt de korting er net bij.",
+             ]),
+        dict(aanpak="Zelfde werkwijze: eerst ronden, dan exact. Let op de getallen die net onder of net "
+                    "boven een rond getal liggen.",
+             waarom=[None]),
+        dict(aanpak="Werk de vier stappen af en schrijf zeker je plan en je controle op. De controle is "
+                    "op het examen punten waard.",
+             waarom=[
+                 r"Let op de valkuil: \(25\%\) van \(60\) erbij tellen geeft \(75\) en niet \(80\). Je "
+                 r"moet rekenen met het percentage van de óude prijs.",
+                 None,
+             ]),
+        dict(aanpak="Mathematiseren betekent: geef het onbekende een letter, schrijf erbij waarvoor ze "
+                    "staat, en zet de zin dan pas om.",
+             waarom=[None]),
+        dict(aanpak="Lees de opgave twee keer: eerst om te weten wat gevraagd wordt, dan om de "
+                    "gegevens eruit te halen.",
+             waarom=[
+                 r"Let op welke zijde de schuine is: de ladder zelf. Dus trek je af, je telt niet op.",
+                 None,
+             ]),
+        dict(aanpak="De vier vaardigheden lopen door elke opgave heen: lezen, rekenen, meten en "
+                    "tekenen, en het juiste gereedschap gebruiken.",
+             waarom=[None]),
+        dict(aanpak="Let bij deze uitspraken op de woorden altijd, enkel en volstaat. Daar zit meestal "
+                    "het verschil tussen waar en niet waar.",
+             waarom=[
+                 None,
+                 "Een schatting is een controle, geen antwoord. Ze zegt je of je uitkomst in de juiste "
+                 "grootteorde ligt.",
+                 None,
+                 "Voorbeelden illustreren, ze bewijzen niet. Het geval dat je niet bekeek, kan nog "
+                 "altijd tegenspreken.",
+                 None,
+                 "Er komen ook zuiver wiskundige opgaven voor, zonder verhaal eromheen.",
+             ]),
+        dict(aanpak="Schrijf in volle zinnen. Een antwoord dat enkel zegt wat je deed, zonder waarom, "
+                    "levert maar de helft van de punten op.",
+             waarom=[None, None]),
+        dict(aanpak="Hier gaat het om het verschil tussen tonen en bewijzen. Eén tegenvoorbeeld breekt "
+                    "een uitspraak; honderd voorbeelden bewijzen er geen.",
+             waarom=[None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-logica-symbolen-waarheidstabellen-en-poorten-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Een uitspraak is een zin waarvan je kan zeggen of ze waar of vals is. Een vraag of "
+                    "een bevel kan dat niet.",
+             waarom=[
+                 "Negen is geen priemgetal, maar dat doet er niet toe: de zin is wel waar of vals, dus "
+                 "ze is een uitspraak.",
+                 None,
+                 "De zin is vals, en net daarom is het een uitspraak.",
+                 None,
+             ]),
+        dict(aanpak="Vertaal woord voor woord: en wordt de wig naar beneden, of de wig naar boven, als "
+                    "… dan de dubbele pijl naar rechts, niet het haakje.",
+             waarom=[None, None]),
+        dict(aanpak="Vul een waarheidstabel kolom per kolom in, niet rij per rij. Eerst de losse "
+                    "variabelen, dan de samengestelde vormen.",
+             waarom=[None]),
+        dict(aanpak="Elke variabele verdubbelt het aantal rijen: twee tot de macht het aantal "
+                    "variabelen.",
+             waarom=[None]),
+        dict(aanpak="Een tautologie is in elke rij waar, een contradictie in elke rij vals. Alles "
+                    "daartussen is geen van beide.",
+             waarom=[None]),
+        dict(aanpak="De negatie van alle is minstens één niet, en de negatie van er bestaat is geen "
+                    "enkele. Draai de kwantor om, niet alleen het werkwoord.",
+             waarom=[None, None, None]),
+        dict(aanpak="Nodig betekent: zonder dat lukt het niet. Voldoende betekent: daarmee is het al "
+                    "zeker.",
+             waarom=[
+                 r"Deelbaar door \(3\) moet, maar volstaat niet: \(9\) is deelbaar door \(3\) en niet "
+                 r"door \(6\).",
+                 None,
+             ]),
+        dict(aanpak="Zoek bij een tegenvoorbeeld het geval dat net buiten de regel valt. Vaak is dat "
+                    "het kleinste getal, nul, of een getal tussen nul en één.",
+             waarom=[
+                 None,
+                 r"\(2\) is het enige even priemgetal, en daarmee het tegenvoorbeeld.",
+                 None,
+             ]),
+        dict(aanpak="Vertaal de zin eerst naar en of of: moeten beide voorwaarden kloppen, of volstaat "
+                    "er één?",
+             waarom=[None]),
+        dict(aanpak="Let op waar de negatie staat: vóór de haakjes slaat ze op het geheel, erbinnen op "
+                    "elk deel apart.",
+             waarom=[None]),
+        dict(aanpak="Er zijn drie varianten van een implicatie, en maar één ervan zegt hetzelfde: de "
+                    "contrapositie, waar je allebei ontkent én omdraait.",
+             waarom=[None]),
+        dict(aanpak="De Morgan in één zin: haal de negatie binnen de haakjes en wissel en met of.",
+             waarom=[None]),
+        dict(aanpak="Een N vooraan betekent dat de uitkomst van de poort omgekeerd wordt.",
+             waarom=[None]),
+        dict(aanpak="Schrijf in volle zinnen en gebruik de vaktermen. Een uitleg met alleen een "
+                    "voorbeeld erin telt niet als uitleg.",
+             waarom=[None, None]),
+        dict(aanpak="Neem je tijd en vul bij twijfel de tabel echt in. Je ziet dan zelf in welke rij "
+                    "twee vormen uit elkaar gaan.",
+             waarom=[None, None]),
+        dict(aanpak="Kijk na wat er precies in bijlage 1 staat en wat niet; dat scheelt op het examen "
+                    "veel uit het hoofd leren.",
+             waarom=[
+                 None,
+                 "De bewijzen moet je zelf kennen. Enkel het formularium mag mee.",
+                 None,
+                 "De hoekensom van een vierhoek leid je zelf af uit die van een driehoek.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-reele-getallen-wortels-en-machten-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="De verzamelingen zitten in elkaar: elk natuurlijk getal is ook geheel, elk geheel "
+                    "getal is ook rationaal. Gevraagd wordt telkens de kléinste.",
+             waarom=[
+                 None,
+                 r"Let op \(\sqrt{49}\): dat is gewoon \(7\), dus een natuurlijk getal. Een wortel maakt "
+                 r"een getal niet automatisch irrationaal.",
+             ]),
+        dict(aanpak="Een getal is rationaal als je het als breuk kan schrijven. Aan de decimale vorm "
+                    "zie je het: stopt ze of herhaalt ze zich, dan is ze rationaal.",
+             waarom=[
+                 r"Een repeterende decimale vorm is altijd een breuk: hier \(\tfrac{27}{99} = \tfrac{3}{11}\).",
+                 None,
+                 r"\(\sqrt{64} = 8\), dus een geheel getal en zeker rationaal.",
+                 None,
+             ]),
+        dict(aanpak="Werk altijd via het kommagetal: een breuk wordt een kommagetal door te delen, en "
+                    "een kommagetal wordt een procent door honderd te vermenigvuldigen.",
+             waarom=[None]),
+        dict(aanpak="Zoek het grootste volkomen kwadraat dat in het getal past, haal dat eruit en laat "
+                    "de rest onder de wortel staan.",
+             waarom=[None]),
+        dict(aanpak="Zelfde werkwijze. Ga de kwadraten af van groot naar klein: 100, 81, 64, 49, 36, "
+                    "25, 16, 9, 4.",
+             waarom=[None]),
+        dict(aanpak="Zoek het getal dat je drie keer met zichzelf moet vermenigvuldigen. Leer de "
+                    "derdemachten van 1 tot 10 uit het hoofd.",
+             waarom=[None]),
+        dict(aanpak="Vermenigvuldigen onder de wortel mag, optellen niet. Twee gelijke wortels tel je "
+                    "op zoals je gelijke letters optelt.",
+             waarom=[
+                 r"\(\sqrt{16+9}\) is \(\sqrt{25} = 5\): eerst optellen onder de wortel, niet de wortels "
+                 r"apart nemen.",
+                 r"\(\sqrt{a^{2}}\) is de absolute waarde van \(a\), dus \(4\) en niet \(-4\).",
+             ]),
+        dict(aanpak="Vermenigvuldig teller en noemer met dezelfde wortel. Je verandert de schrijfwijze, "
+                    "niet de waarde.",
+             waarom=[None]),
+        dict(aanpak="Vier regels: bij vermenigvuldigen tel je de exponenten op, bij delen trek je ze "
+                    "af, bij een macht van een macht vermenigvuldig je ze, en bij een product krijgt "
+                    "elke factor de exponent.",
+             waarom=[None]),
+        dict(aanpak="Exponent nul geeft altijd één. Een negatieve exponent keert het getal om, ze maakt "
+                    "het niet negatief.",
+             waarom=[None]),
+        dict(aanpak="Zelfde regels, nu met letters erbij. Werk stap voor stap en schrijf nooit meteen "
+                    "het eindantwoord neer.",
+             waarom=[None]),
+        dict(aanpak="Drie namen om uit elkaar te houden: distributiviteit verdeelt, associativiteit "
+                    "verplaatst de haakjes, commutativiteit wisselt de volgorde.",
+             waarom=[None]),
+        dict(aanpak="Bij een foutenzoeker schrijf je altijd ook het juiste antwoord op. Enkel fout "
+                    "zeggen is het halve werk.",
+             waarom=[None, None]),
+        dict(aanpak="Let op de twee klassiekers: een exponent buiten de haakjes geldt voor élke factor, "
+                    "en een minteken in de exponent is geen minteken voor het getal.",
+             waarom=[None, None]),
+        dict(aanpak="Deze vier uitspraken gaan over de regels die je net gebruikte. Zoek bij elke "
+                    "uitspraak een voorbeeld of een tegenvoorbeeld.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Schrijf je uitleg in volle zinnen en met een voorbeeld erbij. De vraag is niet wat "
+                    "de regel is, maar waarom ze geldt.",
+             waarom=[None, None]),
+        dict(aanpak="Deze twee vragen draaien om hetzelfde idee: dezelfde waarde kan er anders "
+                    "uitzien, en een regel kan een uitzondering hebben bij negatieve getallen.",
+             waarom=[None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-ordenen-afronden-intervallen-en-wetenschappelijke-notatie-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Zet de getallen eerst in dezelfde vorm, meestal als kommagetal. Bij negatieve "
+                    "getallen is het grootste cijfer net het kleinste getal.",
+             waarom=[None]),
+        dict(aanpak="Schrijf alles als kommagetal met evenveel cijfers na de komma. Dan zie je de "
+                    "volgorde in één oogopslag.",
+             waarom=[None, None]),
+        dict(aanpak="Kijk alleen naar het eerste cijfer dat wegvalt: vijf of meer naar boven, vier of "
+                    "minder naar beneden. Rond nooit in twee stappen af.",
+             waarom=[None]),
+        dict(aanpak="Vervang elk getal door het dichtste ronde getal en reken dan pas. De schatting is "
+                    "je controle, niet je antwoord.",
+             waarom=[None]),
+        dict(aanpak="Een vierkant haakje neemt de grens mee, een haakje dat naar buiten wijst laat ze "
+                    "weg.",
+             waarom=[None]),
+        dict(aanpak="Vertaal woord voor woord: groter dan geeft een open haakje, groter dan of gelijk "
+                    "aan een vierkant haakje. Bij oneindig wijst het haakje altijd naar buiten.",
+             waarom=[None]),
+        dict(aanpak="Wetenschappelijke notatie is altijd één cijfer vóór de komma, maal een macht van "
+                    "tien. De exponent telt hoeveel plaatsen de komma schuift.",
+             waarom=[None]),
+        dict(aanpak="Controleer één ding: staat er precies één cijfer van 1 tot 9 vóór de komma?",
+             waarom=[
+                 r"\(34{,}2\) heeft twee cijfers vóór de komma. Correct is \(3{,}42 \cdot 10^{4}\).",
+                 None,
+                 r"\(0{,}5\) heeft een nul vóór de komma. Correct is \(5 \cdot 10^{5}\).",
+                 None,
+             ]),
+        dict(aanpak="Zelfde werkwijze als daarnet, nu met het isgelijkteken erbij. Een breuk en een "
+                    "kommagetal kunnen precies hetzelfde getal zijn.",
+             waarom=[None]),
+        dict(aanpak="Zelfde regel, nu op één cijfer na de komma. Bij een negatief getal rond je naar "
+                    "het getal dat verder van nul ligt als het cijfer vijf of meer is.",
+             waarom=[None]),
+        dict(aanpak="Zet opnieuw alles in dezelfde vorm. Bij negatieve getallen keert de volgorde om.",
+             waarom=[None]),
+        dict(aanpak="Een positieve exponent schuift de komma naar rechts, een negatieve naar links. Het "
+                    "getal in de exponent is het aantal plaatsen.",
+             waarom=[None]),
+        dict(aanpak="Twee open haakjes maken een open interval, twee vierkante een gesloten, en één van "
+                    "elk een halfopen.",
+             waarom=[None]),
+        dict(aanpak="Zoek bij elke fout welke regel precies geschonden wordt, en schrijf daarna het "
+                    "juiste antwoord op.",
+             waarom=[None, None]),
+        dict(aanpak="Antwoord in volle zinnen. Beide vragen gaan over hetzelfde: afronden kost "
+                    "nauwkeurigheid, dus doe je het zo laat mogelijk.",
+             waarom=[None, None]),
+        dict(aanpak="Deze twee vragen gaan over de dichtheid van de reële getallen: tussen twee "
+                    "getallen ligt er altijd nog een.",
+             waarom=[None, None]),
+        dict(aanpak="Loop bij elke uitspraak de regel na die je net gebruikte, en zoek desnoods een "
+                    "tegenvoorbeeld.",
+             waarom=[
+                 None,
+                 r"Het interval \(\left[5, 5\right]\) bevat precies één getal, namelijk \(5\). Leeg is "
+                 r"\(\left]5, 5\right[\).",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Schrijf je redenering uit. Bij afronden hoort een bereik, en bij een macht van "
+                    "tien hoort de grootteorde.",
+             waarom=[None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-rechten-vlakken-en-gelijkvormigheid-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Tel bij elk paar de gemeenschappelijke punten: geen, één, of allemaal. Daarbij "
+                    "komt in de ruimte nog de vraag of ze in één vlak liggen.",
+             waarom=[None]),
+        dict(aanpak="Tel bij een ruimtefiguur systematisch: eerst de vlakken, dan de ribben, dan de "
+                    "hoekpunten.",
+             waarom=[None]),
+        dict(aanpak="Een ontwikkeling is het platte patroon, een aanzicht is wat je uit één richting "
+                    "ziet, en een perspectief is een ruimtelijke tekening.",
+             waarom=[None, None, None]),
+        dict(aanpak="De doorsnede houdt wat in allebei zit, de unie alles samen, en het verschil wat in "
+                    "de eerste zit en niet in de tweede.",
+             waarom=[None]),
+        dict(aanpak="Zelfde werkwijze. Let op het verschil tussen A zonder B en B zonder A: die twee "
+                    "zijn niet hetzelfde.",
+             waarom=[None]),
+        dict(aanpak="Drie kenmerken: twee gelijke hoeken (HH), drie zijden in dezelfde verhouding "
+                    "(ZZZ), of twee zijden in verhouding met de hoek ertussen (ZHZ).",
+             waarom=[None]),
+        dict(aanpak="Onthoud de drie machten: lengte maal k, oppervlakte maal k kwadraat, volume maal k "
+                    "tot de derde.",
+             waarom=[None]),
+        dict(aanpak="Zet de schaal eerst om naar dezelfde eenheid, reken dan pas. Schrijf de eenheid "
+                    "altijd bij je antwoord.",
+             waarom=[None]),
+        dict(aanpak="Zoek eerst de factor k, en kijk dan of de vraag over lengte, oppervlakte of "
+                    "volume gaat.",
+             waarom=[
+                 None,
+                 "Gewicht volgt het volume, dus de factor gaat tot de derde macht. Dat is waarom een "
+                 "schaalmodel zo licht aanvoelt.",
+                 None,
+             ]),
+        dict(aanpak="Zelfde werkwijze als in de eerste reeks. Let op dat samenvallend en evenwijdig "
+                    "niet hetzelfde zijn.",
+             waarom=[None]),
+        dict(aanpak="Een vlakke figuur ligt helemaal in één vlak; een ruimtefiguur heeft dikte.",
+             waarom=[None]),
+        dict(aanpak="De factor k is de nieuwe lengte gedeeld door de oude. Kleiner dan één betekent "
+                    "verkleinen.",
+             waarom=[None]),
+        dict(aanpak="Nu de andere richting: deel de echte maat door de schaal. Zet eerst alles in "
+                    "dezelfde eenheid.",
+             waarom=[None]),
+        dict(aanpak="Zoek bij elke fout de regel die geschonden wordt. De twee klassiekers zijn de "
+                    "richting van een schaal en de macht bij volume.",
+             waarom=[None, None]),
+        dict(aanpak="Antwoord in volle zinnen. Deze twee vragen draaien om hetzelfde idee: wat met de "
+                    "macht meegaat, groeit veel sneller.",
+             waarom=[None, None]),
+        dict(aanpak="Dezelfde drie machten, nu bij een bol en bij gelijke hoeken. Vraag je telkens af "
+                    "of het om lengte, oppervlakte of volume gaat.",
+             waarom=[None, None]),
+        dict(aanpak="Loop bij elke uitspraak na welke regel ze gebruikt, en zoek bij twijfel een "
+                    "tegenvoorbeeld of een tekening.",
+             waarom=[
+                 None,
+                 None,
+                 "Gelijkvormig betekent dezelfde vorm, niet dezelfde grootte. Gelijk zijn ze pas als de "
+                 "factor één is.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-pythagoras-en-de-rechthoekige-driehoek-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Zoek eerst welke zijde de schuine is: altijd die tegenover de rechte hoek. Die "
+                    "staat alleen aan de andere kant van het isgelijkteken.",
+             waarom=[None]),
+        dict(aanpak="Ken je de schuine zijde al, dan trek je af in plaats van op te tellen. Vergeet "
+                    "achteraan de wortel niet.",
+             waarom=[None]),
+        dict(aanpak="Tel de kwadraten van de twee kortste zijden op en vergelijk met het kwadraat van "
+                    "de langste. Gelijk betekent rechthoekig.",
+             waarom=[None, None, None, None, None]),
+        dict(aanpak="Teken het verschil in x en in y als twee rechthoekszijden. De afstand is dan de "
+                    "schuine zijde.",
+             waarom=[None]),
+        dict(aanpak="Noteer eerst welke twee zijden in het spel zijn ten opzichte van de hoek: "
+                    "overstaand, aanliggend of schuin. Daaruit volgt het goniometrisch getal.",
+             waarom=[None]),
+        dict(aanpak="Deze vier formules moet je uit het hoofd kennen; ze staan niet in het "
+                    "formularium.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Leer deze tabel als één geheel. De sinus loopt op van nul naar één, de cosinus "
+                    "net omgekeerd.",
+             waarom=[None]),
+        dict(aanpak="Vul in de grondformule in wat je kent en los op naar het andere. Bij een scherpe "
+                    "hoek neem je de positieve wortel.",
+             waarom=[None]),
+        dict(aanpak="Loop bij elke uitspraak na welke voorwaarde erbij hoort, en zoek bij twijfel een "
+                    "tegenvoorbeeld.",
+             waarom=[
+                 "Pythagoras geldt alleen in een rechthoekige driehoek. In een andere driehoek gebruik je "
+                 "de cosinusregel.",
+                 None,
+                 r"Sinus en cosinus van een scherpe hoek liggen altijd tussen \(0\) en \(1\): het is een "
+                 r"verhouding van een rechthoekszijde tot de langste zijde.",
+                 None,
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Een exact antwoord laat de wortel of de breuk staan. Een benaderd antwoord heeft "
+                    "al een afronding ondergaan.",
+             waarom=[None, None, None]),
+        dict(aanpak="Maak eerst een schets met de gegevens erop. Bij een ruimtefiguur werk je in twee "
+                    "stappen: eerst de diagonaal van het grondvlak, dan de ruimtediagonaal.",
+             waarom=[None, None]),
+        dict(aanpak="Schrijf hier vooral je werkwijze op. Welke formule je kiest en waarom, is de helft "
+                    "van de punten.",
+             waarom=[None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-sinusregel-cosinusregel-en-vectoren-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="De drie hoeken van een driehoek zijn samen honderdtachtig graden. Trek de twee "
+                    "gekende hoeken daarvan af.",
+             waarom=[None]),
+        dict(aanpak="De vuistregel: zit de hoek tússen de twee gekende zijden, of ken je alle drie de "
+                    "zijden, dan de cosinusregel. In alle andere gevallen de sinusregel.",
+             waarom=[None]),
+        dict(aanpak="De driehoeksongelijkheid: de twee kortste zijden samen moeten langer zijn dan de "
+                    "langste. Precies gelijk volstaat niet.",
+             waarom=[
+                 r"\(3 + 4 = 7\), en dat is korter dan \(9\). De twee zijden raken elkaar dan nooit.",
+                 None,
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Deze formules staan in het formularium, maar je moet weten wat elke letter "
+                    "voorstelt. Oefen ze toch uit het hoofd.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Schrijf eerst je plan op: welke regel eerst, en wat je daarmee vindt. Pas daarna "
+                    "reken je.",
+             waarom=[None, None]),
+        dict(aanpak="Een vector heeft drie kenmerken samen. Twee vectoren zijn pas gelijk als alle "
+                    "drie overeenkomen.",
+             waarom=[None]),
+        dict(aanpak="De norm is gewoon Pythagoras op de twee coördinaten. Ze is nooit negatief.",
+             waarom=[None]),
+        dict(aanpak="Trek de coördinaten van het beginpunt af van die van het eindpunt: eindpunt min "
+                    "beginpunt.",
+             waarom=[None]),
+        dict(aanpak="Optellen doe je per coördinaat. Vermenigvuldigen met een getal doet dat met beide "
+                    "coördinaten.",
+             waarom=[None]),
+        dict(aanpak="Maak eerst een schets met de vectoren kop aan staart. Dan zie je welke driehoek er "
+                    "ontstaat.",
+             waarom=[None, None]),
+        dict(aanpak="Loop bij elke uitspraak na of ze altijd geldt. Eén tegenvoorbeeld is genoeg om ze "
+                    "te breken.",
+             waarom=[
+                 "Een norm is een lengte, en een lengte is nooit negatief.",
+                 None,
+                 "Wijzen twee vectoren tegen elkaar in, dan is de som juist korter, en bij elkaars "
+                 "tegengestelde zelfs de nulvector.",
+                 None,
+                 "De sinusregel geldt in élke driehoek. Pythagoras is degene die een rechte hoek "
+                 "vraagt.",
+                 None,
+                 r"\(\cos 90^\circ = 0\). Het is \(\sin 90^\circ\) dat \(1\) is.",
+             ]),
+        dict(aanpak="Drie vaktermen om uit elkaar te houden: de norm is de lengte, de eenheidsvector "
+                    "heeft lengte één, en de nulvector heeft lengte nul.",
+             waarom=[None, None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-formules-omvormen-en-eerstegraadsvergelijkingen-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Werk elk haakje apart uit en let op het teken ervoor. Neem daarna pas gelijksoortige "
+                    "termen samen.",
+             waarom=[
+                 "De drie merkwaardige producten herken je aan hun vorm: een som in het kwadraat, een "
+                 "verschil in het kwadraat, en een som maal een verschil.",
+                 "Een minteken vóór een haakje keert élke term binnen dat haakje om.",
+             ]),
+        dict(aanpak="Zoek altijd eerst een gemeenschappelijke factor. Blijft er dan nog iets staan, kijk "
+                    "dan of het een merkwaardig product is.",
+             waarom=[None]),
+        dict(aanpak="Breng alles met x naar de ene kant en alle getallen naar de andere. Wat je links "
+                    "doet, doe je ook rechts.",
+             waarom=[None]),
+        dict(aanpak="Er is vaak meer dan één weg, maar één ervan is korter. Kijk of je kan delen vóór "
+                    "je haakjes uitwerkt.",
+             waarom=[
+                 r"Hier mag je ook meteen delen door \(3\); dat gaat sneller. Allebei kloppen ze.",
+                 None,
+                 "Vermenigvuldigen of delen door een negatief getal draait het ongelijkheidsteken om. "
+                 "Dat is de klassieke valkuil.",
+                 None,
+             ]),
+        dict(aanpak="Vermenigvuldig elke term met de kleinste gemene veelvoud van de noemers. Dan ben "
+                    "je de breuken in één keer kwijt.",
+             waarom=[None]),
+        dict(aanpak="Vallen alle onbekenden weg, kijk dan wat er overblijft: iets dat altijd klopt, of "
+                    "iets dat nooit klopt.",
+             waarom=[None, None]),
+        dict(aanpak="Los op zoals een vergelijking, met één uitzondering: bij delen door een negatief "
+                    "getal draait het teken om.",
+             waarom=[None]),
+        dict(aanpak="Omvormen is dezelfde bewerking op beide leden. Breng de gevraagde letter alleen te "
+                    "staan.",
+             waarom=[None, None]),
+        dict(aanpak="Vul eerst in, reken dan pas, en zet de eenheid bij je antwoord. Die eenheid is op "
+                    "het examen punten waard.",
+             waarom=[None]),
+        dict(aanpak="Schrijf eerst op waar je letter voor staat. Vergeet de controle niet: vul je "
+                    "antwoord terug in het verhaal in.",
+             waarom=[None, None, None]),
+        dict(aanpak="Een vergelijking oplossen is grafisch het snijpunt zoeken; een ongelijkheid "
+                    "oplossen is kijken waar de grafiek boven of onder de as ligt.",
+             waarom=[None, None]),
+        dict(aanpak="Loop bij elke uitspraak na welke regel ze gebruikt. Let vooral op de tekens en op "
+                    "de machten.",
+             waarom=[
+                 "Het teken draait alleen om bij een negatief getal.",
+                 None,
+                 "Die letter kan nul zijn, en delen door nul mag niet. Je zou dan oplossingen "
+                 "verliezen.",
+                 r"Verdubbel je \(v\), dan wordt \(E_{k}\) vier keer zo groot. De energie is evenredig "
+                 r"met het kwadraat van de snelheid.",
+                 None,
+                 r"Het minteken geldt voor élke term: \(-2x + 10\).",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-stelsels-en-tweedegraadsvergelijkingen-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Kijk naar de vorm: staat er al een letter alleen, dan substitutie; staan er twee "
+                    "letters alleen, dan gelijkstelling; zijn de coëfficiënten gelijk of tegengesteld, "
+                    "dan combinatie.",
+             waarom=[None]),
+        dict(aanpak="Vul de uitdrukking voor de ene letter in de andere vergelijking in. Je houdt dan "
+                    "één vergelijking met één onbekende over.",
+             waarom=[None]),
+        dict(aanpak="Tel de twee vergelijkingen op of trek ze van elkaar af, zodat één letter wegvalt. "
+                    "Vermenigvuldig er eerst eentje mee als dat nodig is.",
+             waarom=[None]),
+        dict(aanpak="Vallen beide letters weg, lees dan wat er overblijft: altijd waar betekent "
+                    "onbepaald, nooit waar betekent strijdig.",
+             waarom=[None, None]),
+        dict(aanpak="Vertaal de ligging van de rechten naar het soort stelsel: snijdend is bepaald, "
+                    "evenwijdig is strijdig, samenvallend is onbepaald.",
+             waarom=[None]),
+        dict(aanpak="Zelfde werkwijze. Schrijf er altijd bij hoe de rechten liggen; dat is de helft van "
+                    "het antwoord.",
+             waarom=[None]),
+        dict(aanpak="Staat er geen term met x alleen, dan heb je de formule niet nodig: haal x buiten "
+                    "haakjes, of neem de wortel aan beide kanten.",
+             waarom=[None]),
+        dict(aanpak="Zelfde werkwijze. Let op het teken: het kwadraat van een reëel getal is nooit "
+                    "negatief.",
+             waarom=[None]),
+        dict(aanpak="Noteer eerst waar elke letter voor staat. Twee onbekenden vragen twee "
+                    "vergelijkingen.",
+             waarom=[None, None]),
+        dict(aanpak="Haal eerst a, b en c uit de vergelijking, met hun teken. Reken dan pas de "
+                    "discriminant uit.",
+             waarom=[None]),
+        dict(aanpak="Zelfde werkwijze: letters kiezen, twee vergelijkingen opstellen, oplossen, en "
+                    "terugvertalen naar het verhaal.",
+             waarom=[None, None]),
+        dict(aanpak="De discriminant vertelt je hoe de parabool tegenover de x-as ligt, nog voor je een "
+                    "oplossing berekent.",
+             waarom=[None]),
+        dict(aanpak="Schrijf a, b en c eerst apart op. De fout zit bijna altijd in een vergeten "
+                    "minteken.",
+             waarom=[None]),
+        dict(aanpak="Zoek twee getallen met het product c en de som b. Dat gaat vaak sneller dan de "
+                    "formule.",
+             waarom=[None]),
+        dict(aanpak="Zelfde werkwijze. Een kwadraat van een tweeterm geeft maar één nulwaarde, een "
+                    "verschil van kwadraten geeft er twee.",
+             waarom=[None]),
+        dict(aanpak="Zoek bij elke fout welke regel geschonden wordt, en schrijf het juiste antwoord "
+                    "op.",
+             waarom=[None, None]),
+        dict(aanpak="Teken de parabool erbij. Bij kleiner dan zoek je het stuk onder de as, bij groter "
+                    "dan de twee stukken erbuiten.",
+             waarom=[None]),
+        dict(aanpak="Stel de vergelijking op, los op, en kijk daarna of elke oplossing in het verhaal "
+                    "kan. Een lengte of een aantal kan niet negatief zijn.",
+             waarom=[None, None]),
+        dict(aanpak="Antwoord in volle zinnen. Deze twee vragen draaien om de betekenis achter de "
+                    "techniek.",
+             waarom=[None, None]),
+        dict(aanpak="Loop bij elke uitspraak na of ze altijd geldt, en zoek bij twijfel een "
+                    "tegenvoorbeeld of een tekening.",
+             waarom=[
+                 None,
+                 "Strijdig hoort bij evenwijdige rechten die níet samenvallen. Samenvallende rechten "
+                 "geven een onbepaald stelsel.",
+                 r"Bij \(D < 0\) is er geen enkele reële oplossing, bij \(D = 0\) juist één.",
+                 r"Uitgewerkt geeft dat \(x^{2} - 4\). Een som van twee kwadraten ontbindt niet in "
+                 r"\(\mathbb{R}\).",
+                 "Grafisch lees je af, en aflezen is bij benadering. Voor een exact antwoord moet je "
+                 "rekenen.",
+                 None,
+             ]),
+        dict(aanpak="Deze twee vragen draaien om de discriminant en om de meetkundige betekenis van een "
+                    "stelsel. Neem je tijd.",
+             waarom=[None, None]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-functies-en-de-rechte-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="De verticalelijntest: leg je potlood verticaal op de grafiek en schuif. Raakt hij "
+                    "ergens twee punten tegelijk, dan is het geen functie.",
+             waarom=[
+                 None,
+                 r"Bij \(x = 3\) horen alle \(y\)-waarden tegelijk, dus hoort er geen één antwoord bij "
+                 r"één invoer.",
+                 None,
+                 r"Een verticale lijn snijdt een cirkel in twee punten, dus horen er bij één \(x\) twee "
+                 r"\(y\)-waarden.",
+                 "Hier hoort bij elke x hetzelfde antwoord, en dat mag: één antwoord per invoer is de "
+                 "enige eis.",
+             ]),
+        dict(aanpak="Vervang x door het getal en reken uit. Wordt de functiewaarde gegeven, dan los je "
+                    "net omgekeerd een vergelijking op.",
+             waarom=[None]),
+        dict(aanpak="Kijk naar de verschillen tussen opeenvolgende waarden. Blijven die gelijk, dan is "
+                    "de groei lineair.",
+             waarom=[None]),
+        dict(aanpak="De rico is het verschil in y gedeeld door het verschil in x. Let op de volgorde: "
+                    "allebei van hetzelfde punt vertrekken.",
+             waarom=[None]),
+        dict(aanpak="Het teken van de rico beslist: positief stijgt, negatief daalt, nul blijft "
+                    "horizontaal.",
+             waarom=[None, None]),
+        dict(aanpak="Zoek eerst de rico, vul dan een punt in om b te vinden. Twee punten geven je "
+                    "allebei.",
+             waarom=[None]),
+        dict(aanpak="De waarde bij nul is b, en het verschil per stap is a. Daarmee heb je het "
+                    "voorschrift al.",
+             waarom=[None]),
+        dict(aanpak="Voor het snijpunt met de y-as vul je nul in voor x; voor het snijpunt met de x-as "
+                    "stel je y gelijk aan nul.",
+             waarom=[None]),
+        dict(aanpak="Recht evenredig is lineair mét b gelijk aan nul: de grafiek gaat door de "
+                    "oorsprong.",
+             waarom=[None, None, None, None]),
+        dict(aanpak="Schrijf bij elk model wat a en b in het verhaal betekenen: a is het tempo per "
+                    "eenheid, b is de beginwaarde.",
+             waarom=[None, None, None]),
+        dict(aanpak="Antwoord in één of twee zinnen. Deze vragen gaan over wat een grafiek nog zegt als "
+                    "je de getallen weglaat.",
+             waarom=[None, None]),
+        dict(aanpak="Loop bij elke uitspraak na of ze uit de definitie volgt, en zoek bij twijfel een "
+                    "tegenvoorbeeld.",
+             waarom=[
+                 "Dat is net de definitie van een functie: bij elke invoer hoort precies één uitvoer.",
+                 None,
+                 None,
+                 "Delen door nul mag niet, dus nul valt uit het domein.",
+                 r"\(2\) en \(-2\) geven allebei \(4\). Dat mag: wat niet mag, is twee uitvoerwaarden "
+                 r"bij één invoer.",
+                 "De afhankelijke variabele staat op de verticale as; de onafhankelijke op de "
+                 "horizontale.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-parabool-transformaties-en-functiekenmerken-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="In de topvorm lees je alles af: het teken vóór het kwadraat geeft de opening, en "
+                    "de twee getallen geven de top. Let op: het getal in de haakjes keert van teken om.",
+             waarom=[None]),
+        dict(aanpak="Nulwaarden zoek je door de functiewaarde nul te stellen. Ontbind of neem de wortel "
+                    "aan beide kanten.",
+             waarom=[None]),
+        dict(aanpak="De symmetrieas loopt door de top, dus precies in het midden tussen de twee "
+                    "nulwaarden.",
+             waarom=[None]),
+        dict(aanpak="Vul nul in voor x. Wat overblijft is de constante term, en dat is meteen het "
+                    "snijpunt met de verticale as.",
+             waarom=[None]),
+        dict(aanpak="Het bereik begint of eindigt bij de y-waarde van de top, naargelang de parabool "
+                    "naar boven of naar beneden opent.",
+             waarom=[None]),
+        dict(aanpak="Een getal buiten het kwadraat verschuift verticaal, een getal binnen de haakjes "
+                    "horizontaal en in de omgekeerde richting.",
+             waarom=[None, None]),
+        dict(aanpak="Opent de parabool naar boven, dan is de top het laagste punt en dus een minimum. "
+                    "Naar beneden geeft een maximum.",
+             waarom=[None]),
+        dict(aanpak="De parabool keert om in de top. Links en rechts van de symmetrieas doet ze het "
+                    "omgekeerde.",
+             waarom=[None, None]),
+        dict(aanpak="Het domein van een veelterm is heel R. Het bereik lees je af uit de top en de "
+                    "opening.",
+             waarom=[None]),
+        dict(aanpak="Elke vorm van hetzelfde voorschrift toont iets anders. Kies de vorm waarin het "
+                    "gevraagde al zichtbaar is.",
+             waarom=[None]),
+        dict(aanpak="Vertrek van de vorm die bij de gegevens past: de productvorm bij nulwaarden, de "
+                    "topvorm bij een top.",
+             waarom=[None]),
+        dict(aanpak="Vul in en reken stap voor stap uit. Let bij een negatief getal op dat het kwadraat "
+                    "positief wordt.",
+             waarom=[None]),
+        dict(aanpak="Bij een hyperbool deel je telkens. Let op wat er gebeurt als x heel klein of heel "
+                    "groot wordt.",
+             waarom=[None, None]),
+        dict(aanpak="Lees eerst wat er precies verschuift of wegvalt, en kies dan pas.",
+             waarom=[None, None]),
+        dict(aanpak="Schrijf je uitleg in volle zinnen en vertrek van een eigenschap, niet van een "
+                    "voorbeeld.",
+             waarom=[None]),
+        dict(aanpak="Loop bij elke uitspraak na of ze altijd geldt. Een tekening erbij helpt.",
+             waarom=[
+                 r"Bij \(D < 0\) snijdt de parabool de as niet, en bij \(D = 0\) raakt ze hem in één "
+                 r"punt.",
+                 None,
+                 "Het tekenverloop toont waar de functie positief of negatief is. Stijgen en dalen lees "
+                 "je af in het verloopschema.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-telproblemen-met-boom-en-venndiagram-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Bij opeenvolgende keuzes vermenigvuldig je het aantal mogelijkheden per stap. Tel "
+                    "eerst de stappen, dan de keuzes per stap.",
+             waarom=[None, None]),
+        dict(aanpak="Blijft het aantal keuzes elke stap gelijk, dan is het een macht: het aantal keuzes "
+                    "tot de macht het aantal stappen.",
+             waarom=[None]),
+        dict(aanpak="Teken van links naar rechts één laag per keuze. Het aantal eindpunten is het "
+                    "antwoord.",
+             waarom=[None]),
+        dict(aanpak="Vraag je af of wat je koos opnieuw gekozen kan worden. Zo niet, dan daalt het "
+                    "aantal keuzes bij elke stap met één.",
+             waarom=[None]),
+        dict(aanpak="Wie bij allebei hoort, is twee keer geteld. Tel de twee groepen op en trek de "
+                    "overlap er één keer af.",
+             waarom=[None]),
+        dict(aanpak="Trek van het totaal af hoeveel er aan minstens één voorwaarde voldoen. Wat "
+                    "overblijft, voldoet aan geen van beide.",
+             waarom=[None]),
+        dict(aanpak="Enkel de ene groep is die groep min de overlap. Teken desnoods het venndiagram "
+                    "erbij.",
+             waarom=[None]),
+        dict(aanpak="Begin altijd bij het middenstuk, de overlap. Daarna vul je de buitenste delen in "
+                    "door af te trekken.",
+             waarom=[None]),
+        dict(aanpak="Leer de tekens als woorden: de doorsnede is en, de vereniging is of, de "
+                    "verticale strepen tellen.",
+             waarom=[None]),
+        dict(aanpak="De somregel werkt ook de andere kant op: uit drie van de vier getallen volgt het "
+                    "vierde.",
+             waarom=[None]),
+        dict(aanpak="Zoek bij elk telprobleem of je beter het gevraagde telt of net het tegendeel. "
+                    "Minstens één wijst bijna altijd op het tegendeel tellen.",
+             waarom=[None, None]),
+        dict(aanpak="Twee soorten problemen, twee gereedschappen: opeenvolgende keuzes vragen een "
+                    "boomdiagram, overlappende groepen een venndiagram.",
+             waarom=[None, None, None]),
+        dict(aanpak="Loop bij elke uitspraak na welke regel ze gebruikt, en teken bij twijfel een klein "
+                    "voorbeeld.",
+             waarom=[
+                 "Dan tel je de overlap twee keer. Trek ze één keer af.",
+                 None,
+                 None,
+                 "Een venndiagram is net voor overlappende groepen. Opeenvolgende keuzes teken je in een "
+                 "boomdiagram.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-statistiek-voorstellingen-centrum-en-spreiding-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je af of je met de gegevens kan rekenen (numeriek), en zo niet, of er een "
+                    "volgorde in zit (geordend) of niet.",
+             waarom=[None]),
+        dict(aanpak="Een relatieve frequentie is het deel op het geheel. Vereenvoudig de breuk en "
+                    "vermenigvuldig met honderd voor het percentage.",
+             waarom=[None]),
+        dict(aanpak="Controleer altijd je totaal: alle relatieve frequenties samen moeten honderd "
+                    "procent geven.",
+             waarom=[None]),
+        dict(aanpak="Het klassenmidden is het gemiddelde van de twee grenzen: optellen en delen door "
+                    "twee.",
+             waarom=[None]),
+        dict(aanpak="Kies je diagram naar de vraag: een verloop in de tijd is een lijn, een verdeling "
+                    "van het geheel is een cirkel, klassen zijn een histogram.",
+             waarom=[None]),
+        dict(aanpak="Leer de symbolen samen met hun naam; op het examen staat vaak alleen het teken in "
+                    "de vraag.",
+             waarom=[None]),
+        dict(aanpak="Rangschik de reeks altijd eerst. Het gemiddelde rekent met alle waarden, de "
+                    "mediaan kijkt alleen naar het midden.",
+             waarom=[None]),
+        dict(aanpak="Zelfde werkwijze. Hier vallen mediaan en modus toevallig samen; dat hoeft niet.",
+             waarom=[None]),
+        dict(aanpak="Bij een oneven aantal is de mediaan de middelste waarde; bij een even aantal het "
+                    "gemiddelde van de twee middelste.",
+             waarom=[None]),
+        dict(aanpak="Deel de gerangschikte reeks in vier gelijke stukken. Q2 is de mediaan, Q1 en Q3 "
+                    "zijn de medianen van de helften.",
+             waarom=[None]),
+        dict(aanpak="De vuistregel: bij uitschieters kies je de mediaan, want die laat zich niet "
+                    "meetrekken.",
+             waarom=[None, None]),
+        dict(aanpak="Spreiding zegt hoe ver de waarden van het centrum liggen. Twee reeksen met "
+                    "hetzelfde gemiddelde kunnen er heel anders uitzien.",
+             waarom=[None, None]),
+        dict(aanpak="Loop bij elke uitspraak na wat de maat precies meet, en of ze ook bij woorden "
+                    "werkt of enkel bij getallen.",
+             waarom=[
+                 None,
+                 "Komen twee waarden even vaak voor en vaker dan de rest, dan zijn er twee modi.",
+                 "Net niet: de interkwartielafstand kijkt alleen naar de middelste helft, en een "
+                 "uitschieter valt daarbuiten.",
+                 None,
+                 None,
+                 "De modus is de meest voorkomende waarde, en dat werkt ook bij kleuren of merken. "
+                 "Gemiddelde en mediaan vragen wel getallen.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-misleiding-met-cijfers-en-verbanden-in-een-puntenwolk-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Procentpunt is het verschil tussen twee percentages; procent is de groei ten "
+                    "opzichte van de beginwaarde. Reken ze allebei apart uit.",
+             waarom=[None]),
+        dict(aanpak="Zet het percentage om naar een kommagetal en vermenigvuldig. Boven honderd procent "
+                    "wordt het getal groter.",
+             waarom=[None]),
+        dict(aanpak="Vermenigvuldig de factoren na elkaar. Opslag en korting van evenveel procent "
+                    "heffen elkaar niet op, want ze rekenen op een ander bedrag.",
+             waarom=[None]),
+        dict(aanpak="Kijk bij elke grafiek eerst naar de assen: waar begint de as, en staan de stappen "
+                    "op gelijke afstand?",
+             waarom=[None, None]),
+        dict(aanpak="Kijk ook naar wat er ontbreekt en naar het soort beeld dat gebruikt wordt. Een "
+                    "tekening in drie dimensies overdrijft altijd.",
+             waarom=[None, None]),
+        dict(aanpak="Vraag bij elk cijfer twee dingen: hoeveel mensen of gevallen zitten erachter, en "
+                    "van welke beginwaarde vertrekt de groei?",
+             waarom=[None, None]),
+        dict(aanpak="De correlatiecoëfficiënt zegt twee dingen tegelijk: het teken geeft de richting, "
+                    "de grootte geeft hoe dicht de punten bij de rechte liggen.",
+             waarom=[None]),
+        dict(aanpak="Let bij elke vraag op het verschil tussen een beschrijving en een belofte. Een "
+                    "trendlijn beschrijft, ze voorspelt geen enkel punt.",
+             waarom=[None, None, None]),
+        dict(aanpak="Zoek bij elk verband naar een derde factor die allebei verklaart, of naar een "
+                    "omgekeerde richting.",
+             waarom=[None, None, None]),
+        dict(aanpak="Schrijf enkel op wat gemeten is, in welke groep, en zonder een oorzaak te "
+                    "beweren.",
+             waarom=[None]),
+        dict(aanpak="Loop bij elke uitspraak na of ze over de cijfers zelf gaat of over de voorstelling "
+                    "ervan.",
+             waarom=[
+                 None,
+                 "Procentpunt is het verschil tussen twee percentages, procent is de relatieve groei. "
+                 "Van 30 naar 33 is 3 procentpunt en 10 procent.",
+                 None,
+                 None,
+                 None,
+                 None,
+             ]),
+    ],
+)
