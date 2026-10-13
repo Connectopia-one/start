@@ -189,8 +189,9 @@ DEEL1 = [
             "continentaal en maritiem",
             "evolutie en revolutie",
             "chronologie en tijdrekening",
+            "lokaal, regionaal en mondiaal",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Evolutie, revolutie, chronologie en tijdrekening horen bij tijd, niet bij ruimte.",
     ),
     dict(
@@ -354,8 +355,9 @@ DEEL2 = [
             "1945, aan het begin van de hedendaagse tijd",
             "1517, want toen begon de hedendaagse tijd",
             "geen enkel, want scharnierpunten hebben geen jaartal",
+            "een scharnierpunt is een afspraak, geen natuurwet",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="1517 hoort in de vroegmoderne tijd en begint geen nieuwe periode. Scharnierpunten krijgen wel een symbolisch jaartal.",
     ),
     dict(
@@ -366,8 +368,10 @@ DEEL2 = [
             "het politieke domein, want het is een beslissing van de staat",
             "het culturele domein, want het gaat over kunst en geloof",
             "geen enkel domein, want een wet staat erbuiten",
+            "het economische domein, want het raakt de fabrieken",
+            "meer dan één domein, want de domeinen hangen samen",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="Veel gebeurtenissen horen in meer dan één domein. Dat de domeinen samenhangen, is net de reden: een economische verandering brengt sociale en politieke eisen mee.",
     ),
     dict(

@@ -180,8 +180,10 @@ DEEL1 = [
             "het verloor oorlogen tegen technisch sterkere legers",
             "het bleef volledig buiten de wereldhandel staan",
             "het bezette zelf gebieden in Europa en in Afrika",
+            "het werd door opstanden van binnenuit verzwakt",
+            "het moest gebieden zoals Hongkong afstaan",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="Die ervaring verklaart waarom China vandaag zo nadrukkelijk op zijn soevereiniteit staat.",
     ),
     dict(
@@ -393,8 +395,9 @@ DEEL2 = [
             "na 1978 kwamen er markt en buitenlandse bedrijven bij",
             "de communistische partij verloor na 1978 haar machtspositie",
             "China bleef tot vandaag buiten de wereldhandel",
+            "de partij bleef na 1978 alle politieke macht houden",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Economische koerswijziging zonder politieke koerswijziging: dat is het kenmerk van dit land.",
     ),
     dict(

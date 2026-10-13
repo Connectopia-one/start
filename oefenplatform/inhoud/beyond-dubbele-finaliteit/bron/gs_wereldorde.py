@@ -339,8 +339,10 @@ DEEL2 = [
             "landen uit het Oostblok sloten later bij de Europese Unie aan",
             "het ijzeren gordijn werd nog dertig jaar langer gehandhaafd",
             "het Warschaupact werd uitgebreid met westerse landen",
+            "het Warschaupact verdween",
+            "het ijzeren gordijn verdween",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="Het Warschaupact verdween juist. De uitbreiding van de Europese Unie naar het oosten volgde na 2004.",
     ),
     dict(

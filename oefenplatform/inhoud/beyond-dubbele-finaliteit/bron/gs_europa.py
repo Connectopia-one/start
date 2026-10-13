@@ -18,8 +18,9 @@ DEEL1 = [
             "de economie van het verwoeste werelddeel heropbouwen",
             "de kolonies van Europa in Afrika behouden",
             "een eigen Europees leger tegen de Verenigde Naties",
+            "gewicht zoeken tussen de Verenigde Staten en de Sovjet-Unie",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Daar komt het zoeken naar gewicht tussen de Verenigde Staten en de Sovjet-Unie bij.",
     ),
     dict(
