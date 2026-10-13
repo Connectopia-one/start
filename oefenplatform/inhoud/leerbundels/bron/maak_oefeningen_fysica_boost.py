@@ -1013,3 +1013,683 @@ OEFENBUNDELS["oefenbundel-veilig-werken-meten-en-onderzoek-fysica-boost-doorstro
              ]),
     ],
 )
+
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-grootheden-eenheden-en-nauwkeurig-meten-fysica-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Zet bij elke grootheid de eenheid én haar symbool. Veel eenheden dragen de naam van "
+                    "een natuurkundige, en die schrijf je met een kleine letter, het symbool met een "
+                    "hoofdletter.",
+             waarom=[
+                 None, None,
+                 "Let op het laatste: een moment is een kracht maal een arm, dus staat het in newtonmeter. "
+                 "Dezelfde eenheid als arbeid, maar een heel andere grootheid.",
+             ]),
+        dict(aanpak="Leer de voorvoegsels als machten van tien. Van mega tot nano is het hetzelfde rijtje "
+                    "dat in elke omrekening terugkomt.",
+             waarom=[None, None]),
+        dict(aanpak="Zet eerst om naar de SI-eenheid en reken daarna. Voor km/h naar m/s deel je door "
+                    "\\(3{,}6\\), omgekeerd vermenigvuldig je ermee.",
+             waarom=[
+                 None, None,
+                 "Voor kelvin tel je \\(273\\) bij de graden Celsius op, of je trekt ze er weer af. Een "
+                 "temperatuurverschil is in beide eenheden hetzelfde getal.",
+             ]),
+        dict(aanpak="In de wetenschappelijke notatie staat er één cijfer voor de komma. Beduidende cijfers "
+                    "tel je van het eerste cijfer dat niet nul is tot het laatste opgeschreven cijfer.",
+             waarom=[
+                 None,
+                 "Let op het verschil tussen \\(12{,}50\\) en \\(7000\\): de nullen na de komma zijn "
+                 "gemeten, de nullen voor de komma niet. Wil je zeggen dat \\(7000\\) kg nauwkeurig is, "
+                 "dan schrijf je \\(7{,}000 \\times 10^{3}\\) kg.",
+             ]),
+        dict(aanpak="Een vector heeft een grootte én een richting en zin. Kan je het antwoord met één getal "
+                    "geven, dan is het geen vector.",
+             waarom=[
+                 None, None, None,
+                 "Druk werkt in alle richtingen even hard, dus heeft ze geen zin. Daarom is ze een scalair, "
+                 "ook al wordt ze door een kracht veroorzaakt.",
+             ]),
+        dict(aanpak="Kijk naar de grafiek of naar wat er met y gebeurt als x verdubbelt. Een rechte door de "
+                    "oorsprong is recht evenredig, een rechte ernaast is enkel lineair.",
+             waarom=[
+                 None, None,
+                 "Dit onderscheid wordt vaak over het hoofd gezien: lineair is het ruimere geval, recht "
+                 "evenredig het bijzondere geval dat door de oorsprong gaat.",
+                 None,
+             ]),
+        dict(aanpak="Omvormen is op elke stap hetzelfde doen aan beide kanten van het gelijkheidsteken. "
+                    "Controleer je antwoord altijd met een schatting en met de eenheden.",
+             waarom=[
+                 None, None,
+                 "Zo'n schatting kost je drie seconden en vindt juist de fouten die een rekenmachine niet "
+                 "ziet: een komma of een factor duizend verkeerd.",
+                 "Meetbereik komt vóór nauwkeurigheid. Een fijne schaalverdeling helpt je niets als je "
+                 "volume er niet in past.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-eenparig-rechtlijnige-beweging-fysica-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="De afgelegde weg is alles wat je stapte, de verplaatsing enkel het verschil tussen "
+                    "begin en eind. Daarom kan de verplaatsing negatief of nul zijn en de weg nooit.",
+             waarom=[
+                 "Twee ronden brengen je terug waar je begon, dus is de verplaatsing nul terwijl je "
+                 "\\(800\\) m liep. Dat is het duidelijkste voorbeeld van het verschil.",
+                 None,
+                 "Het minteken zegt enkel dat de beweging tegen de positieve zin in gaat, niet dat er "
+                 "minder afstand is afgelegd.",
+                 None,
+             ]),
+        dict(aanpak="Eén formule in drie gedaanten: v = Δx : Δt, Δx = v · Δt en Δt = Δx : v. Zet de tijd "
+                    "altijd eerst in dezelfde eenheid als de snelheid.",
+             waarom=[
+                 "Een kwartier is \\(0{,}25\\) h, dus \\(45 : 0{,}25 = 180\\) km/h. Reken je met minuten, "
+                 "dan zit je er zestig keer naast.",
+                 None,
+             ]),
+        dict(aanpak="Lees een positiefunctie als x = beginpositie + snelheid · t. Het getal vooraan is waar "
+                    "het voorwerp vertrok, het getal bij t hoe snel het gaat.",
+             waarom=[
+                 "Een minteken bij t betekent dat het voorwerp naar de oorsprong toe beweegt. De snelheid "
+                 "is dan negatief, niet de positie.",
+                 None, None,
+             ]),
+        dict(aanpak="Twee grafieken, twee betekenissen: in een x(t)-grafiek lees je de snelheid uit de "
+                    "steilheid, in een v(t)-grafiek de verplaatsing uit de oppervlakte.",
+             waarom=[
+                 None, None, None, None,
+                 "Een oppervlakte onder de tijdas telt negatief, dus is de verplaatsing hier \\(-20\\) m. "
+                 "Het voorwerp is dus twintig meter achteruitgegaan.",
+             ]),
+        dict(aanpak="Elke uitspraak gaat over één eigenschap van een ERB. Vraag je af of je het uit de "
+                    "grafiek of uit de formule kan nagaan.",
+             waarom=[
+                 None,
+                 "Een afgelegde weg telt elke meter mee, welke kant je ook op gaat. Enkel de verplaatsing "
+                 "kan negatief zijn.",
+                 "Een v(t)-grafiek zegt enkel hoe snel het voorwerp gaat, niet waar het vertrok. Twee "
+                 "voorwerpen met een heel andere beginpositie hebben dezelfde v(t)-grafiek.",
+                 None,
+             ]),
+        dict(aanpak="Werk met de nadersnelheid: dezelfde zin geeft het verschil, naar elkaar toe de som. "
+                    "Reken daarna de afstand gedeeld door die snelheid.",
+             waarom=[
+                 "Let op de voorsprong: de wandelaar is al een uur onderweg, dus reken je eerst uit "
+                 "hoeveel kilometer dat is.",
+                 None,
+                 "Deze gedachte spaart je het opstellen van twee positiefuncties. Werkt een vraagstuk niet, "
+                 "dan kan je altijd nog terugvallen op de twee functies gelijkstellen.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-versnelde-beweging-vrije-val-en-verticale-worp-fysica-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Versnelling is de verandering van de snelheid per seconde: a = Δv : Δt. Wordt de "
+                    "snelheid kleiner, dan is Δv negatief en dus ook a.",
+             waarom=[
+                 None,
+                 "De laatste is leerrijk: een snelheid die niet verandert geeft een versnelling van nul, "
+                 "ook al beweegt het voorwerp wel degelijk.",
+             ]),
+        dict(aanpak="Kijk naar de v(t)-grafiek: horizontaal is ERB, stijgend is versneld, dalend is "
+                    "vertraagd. Een x(t)-grafiek die vlakker wordt, hoort bij een snelheid die daalt.",
+             waarom=[
+                 None, None, None,
+                 "Hier moet je de twee samen lezen: een negatieve versnelling bij een positieve snelheid "
+                 "vertraagt. Het teken van a alleen zegt het niet.",
+             ]),
+        dict(aanpak="Een vrije val is een eenparig versnelde beweging met a = g. Elke seconde komt er "
+                    "\\(9{,}81\\) m/s bij, ongeacht de massa.",
+             waarom=[
+                 None, None,
+                 "Op het hoogste punt is de snelheid nul, maar de versnelling niet. Dat is de vraag die "
+                 "hierover het vaakst fout gaat.",
+                 "Je rekent \\(20 : 9{,}81\\), dus ongeveer twee seconden. Naar beneden duurt het weer even "
+                 "lang.",
+             ]),
+        dict(aanpak="Let bij elke uitspraak op het verschil tussen snelheid en versnelling. Het zijn twee "
+                    "verschillende grootheden die onafhankelijk van elkaar nul kunnen zijn.",
+             waarom=[
+                 "Een negatieve versnelling vertraagt enkel een voorwerp dat vooruit gaat. Beweegt het al "
+                 "in de negatieve zin, dan gaat het juist sneller.",
+                 None,
+                 "De snelheid groeit elke seconde, dus leg je elke seconde méér weg af. De afgelegde weg "
+                 "groeit met het kwadraat van de tijd.",
+                 None,
+                 "De zwaartekracht wijst heel de worp door naar beneden, dus blijft de versnelling "
+                 "dezelfde. Enkel de zin van de snelheid keert om.",
+             ]),
+        dict(aanpak="Antwoord met de krachten of met de twee grootheden apart. Een goede uitleg zegt wat er "
+                    "gelijk blijft en wat er verandert.",
+             waarom=[
+                 None, None,
+                 "De fout zit in het verwarren van snelheid met kracht. Zonder snelheid kan er nog altijd "
+                 "een kracht en dus een versnelling zijn.",
+                 "De sleutel is de verhouding van luchtweerstand tot gewicht, niet de massa zelf. In vacuüm "
+                 "valt een pluim even snel als een steen.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-krachten-krachtenbalans-en-zwaartekracht-fysica-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Liggen twee krachten op dezelfde rechte, dan tel je op bij dezelfde zin en trek je af "
+                    "bij tegengestelde zin. Zeg er altijd bij welke kant de resultante op wijst.",
+             waarom=[
+                 "Bij twee gelijke en tegengestelde krachten is de resultante nul. Dat is precies de "
+                 "voorwaarde voor evenwicht.",
+                 None,
+             ]),
+        dict(aanpak="De zwaartekracht is massa maal g. Zoek je de massa, dan deel je de kracht door g.",
+             waarom=[
+                 None, None,
+                 "Dezelfde massa, een andere g, dus een andere kracht. De massa zelf verandert niet door "
+                 "van plaats te veranderen.",
+             ]),
+        dict(aanpak="De veerkracht is k maal de uitrekking, met Δl in meter. Een veerconstante in newton "
+                    "per meter zegt hoeveel newton je nodig hebt voor één meter uitrekking.",
+             waarom=[
+                 "Vijf centimeter is \\(0{,}05\\) m, dus \\(20 : 0{,}05 = 400\\) N/m. Vergeet je de "
+                 "omrekening, dan zit je er honderd keer naast.",
+                 None,
+                 "Een stijvere veer rekt minder uit bij dezelfde kracht. Een grote k betekent dus een "
+                 "harde veer, niet een lange uitrekking.",
+             ]),
+        dict(aanpak="De wrijvingskracht is de coëfficiënt maal de normaalkracht. Op een horizontale vloer "
+                    "is die normaalkracht gelijk aan de zwaartekracht, dus reken je eerst m maal g.",
+             waarom=[
+                 None, None,
+                 "De coëfficiënt is een verhouding van twee krachten, dus vallen de newtons weg. Daarom "
+                 "staat er nooit een eenheid bij.",
+             ]),
+        dict(aanpak="Let bij elke uitspraak op het verschil tussen massa en kracht, en tussen snelheid en "
+                    "versnelling.",
+             waarom=[
+                 "Enkel het gewicht wordt kleiner, want g is er kleiner. Je massa neem je overal mee.",
+                 None,
+                 "Bij een ring of een hoefijzer ligt het zwaartepunt in de lege ruimte ernaast. Het is een "
+                 "rekenpunt, geen stukje materie.",
+                 "In de formule staat de massa niet; die zit al in de normaalkracht. De coëfficiënt hangt "
+                 "enkel af van welke twee materialen over elkaar schuiven.",
+             ]),
+        dict(aanpak="Noem bij elke uitleg de krachten met hun naam, zeg waar ze op aangrijpen en welke kant "
+                    "ze op wijzen. Zeg daarna wat de resultante doet.",
+             waarom=[
+                 None,
+                 "Die twee krachten zijn even groot, maar het zijn geen reactiekrachten van elkaar: ze "
+                 "grijpen allebei op het boek aan. De reactie op de normaalkracht is de kracht van het boek "
+                 "op de tafel.",
+                 "Hier zit het mooie detail: trekken onder een hoek vermindert de wrijving. Een slee "
+                 "optillen helpt dus ook al trek je hem daarmee niet vooruit.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-archimedeskracht-moment-en-evenwicht-fysica-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="De archimedeskracht hangt enkel af van het weggeduwde volume, niet van het voorwerp "
+                    "zelf. Voor water is \\(\\rho \\cdot g\\) ongeveer \\(9810\\) N per kubieke meter.",
+             waarom=[
+                 None,
+                 "Drijft het voorwerp maar half, dan reken je met de helft van het volume. Enkel het deel "
+                 "onder water duwt water weg.",
+                 "Dit is de tweede manier om \\(F_{A}\\) te vinden: het schijnbare gewichtsverlies. Beide "
+                 "wegen moeten hetzelfde getal geven.",
+             ]),
+        dict(aanpak="Vergelijk de massadichtheid van het voorwerp met die van de vloeistof. Groter betekent "
+                    "zinken, gelijk zweven, kleiner drijven.",
+             waarom=[
+                 None,
+                 "IJs is net iets lichter dan water, en daarom drijft het. Zonder dat kleine verschil zou "
+                 "een vijver van onderaf dichtvriezen.",
+             ]),
+        dict(aanpak="Een moment is kracht maal arm maal de sinus van de hoek. Staat de kracht loodrecht, "
+                    "dan is de sinus één en valt hij weg.",
+             waarom=[
+                 "Bij \\(30^{\\circ}\\) is de sinus \\(0{,}5\\), dus blijft er van \\(80 \\cdot 0{,}50\\) "
+                 "maar de helft over: \\(20\\) Nm.",
+                 None, None,
+                 "Gaat de kracht door het draaipunt, dan is de arm nul. Duwen op de scharnierkant van een "
+                 "deur doet ze dus niet opengaan.",
+             ]),
+        dict(aanpak="Een wip is in evenwicht als het moment links gelijk is aan het moment rechts. Je mag "
+                    "met de massa's rekenen, want g staat aan beide kanten.",
+             waarom=[
+                 "Reken \\(20 \\cdot 1{,}5 = 30\\), dus \\(30 : 30 = 1{,}0\\) m. De zwaarste moet altijd "
+                 "dichter bij het draaipunt.",
+                 None, None,
+             ]),
+        dict(aanpak="Let op het onderscheid tussen een kracht en een moment, en op wat er wel en niet van "
+                    "de diepte afhangt.",
+             waarom=[
+                 "De archimedeskracht hangt enkel af van het weggeduwde volume, dus blijft ze onderaan even "
+                 "groot. De druk in de vloeistof stijgt wel met de diepte.",
+                 None,
+                 "Een moment staat in newtonmeter. Joule is dezelfde combinatie van eenheden, maar hoort "
+                 "bij arbeid en energie, en dat is een andere grootheid.",
+                 "Dat is net waarom er twee voorwaarden zijn. Twee tegengestelde krachten op een andere "
+                 "plaats laten het voorwerp draaien zonder het te verplaatsen.",
+             ]),
+        dict(aanpak="Werk in je uitleg telkens met de twee krachten of met de twee evenwichten. Zeg wat "
+                    "gelijk blijft en wat verandert.",
+             waarom=[
+                 None,
+                 "Let op wat er niet verandert: het volume en dus de archimedeskracht. Enkel de massa "
+                 "verandert, en dat volstaat om te zinken.",
+                 None,
+                 "Dit verklaart ook waarom een rallywagen laag ligt en een verhuiswagen traag door een "
+                 "bocht moet. Stabiliteit is een zaak van zwaartepunt en steunvlak.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-druk-bij-vaste-stoffen-en-in-vloeistoffen-fysica-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Druk is kracht per oppervlakte: p = F : A. Zorg dat A in vierkante meter staat, anders "
+                    "klopt je pascal niet.",
+             waarom=[
+                 None,
+                 "Reken eerst de oppervlakte uit: \\(0{,}30 \\cdot 0{,}30 = 0{,}09\\,\\text{m}^{2}\\). Dat "
+                 "is de stap die hier vaak vergeten wordt.",
+                 None, None,
+             ]),
+        dict(aanpak="Leg de drie eenheden naast elkaar: \\(1\\) bar is \\(100\\,000\\) Pa, \\(1\\) hPa is "
+                    "\\(100\\) Pa, \\(1\\) kPa is \\(1000\\) Pa.",
+             waarom=[
+                 "De normale luchtdruk van \\(1013\\) hPa is dus ongeveer \\(1\\) bar. Dat is een handig "
+                 "houvast bij elke drukvraag.",
+                 None,
+             ]),
+        dict(aanpak="De hydrostatische druk is \\(\\rho \\cdot g \\cdot h\\) en hangt enkel af van de "
+                    "diepte en de vloeistof, niet van de vorm van het vat.",
+             waarom=[
+                 "Tien meter water geeft ongeveer \\(1\\) bar. Daarmee kan je elke diepte in je hoofd "
+                 "schatten.",
+                 None,
+                 "Een manometer meet de óverdruk, dus boven op de luchtdruk van ongeveer \\(1\\) bar. "
+                 "Daarom staat er bij een autopneu altijd overdruk bedoeld.",
+             ]),
+        dict(aanpak="In p = F : A staat de oppervlakte in de noemer. Wil je veel druk, maak het oppervlak "
+                    "klein; wil je weinig druk, maak het groot.",
+             waarom=[None, None]),
+        dict(aanpak="Let op het verschil tussen druk en kracht, en op de richting waarin druk werkt.",
+             waarom=[
+                 "Druk werkt in alle richtingen even hard, dus heeft ze geen zin en is ze een scalair. De "
+                 "kracht die ze op een wand uitoefent, is wel een vector.",
+                 None,
+                 "Enkel de diepte telt, niet de hoeveelheid water. Dat is de hydrostatische paradox.",
+                 "Hoger betekent minder lucht boven je, dus een lagere druk. Daarom koken aardappelen in de "
+                 "bergen trager.",
+                 "Een pers vergroot de kracht, niet de energie. De grote zuiger komt even veel minder ver, "
+                 "dus blijft de arbeid gelijk.",
+             ]),
+        dict(aanpak="Zeg in je uitleg welke grootheid gelijk blijft en welke verandert, en noem de formule "
+                    "waarin dat zichtbaar wordt.",
+             waarom=[
+                 None, None,
+                 "Dit is de kern van elke hefboom of pers: je wint kracht en verliest weg. Energie maak je "
+                 "nooit bij.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-gassen-temperatuur-en-de-gaswetten-fysica-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Van Celsius naar kelvin tel je \\(273\\) op, omgekeerd trek je \\(273\\) af. In de "
+                    "gaswetten reken je altijd in kelvin.",
+             waarom=[
+                 None,
+                 "Onder \\(0\\) K kan je niet gaan, want \\(0\\) K is het absolute nulpunt. Daarom bestaan "
+                 "er geen negatieve kelvins.",
+             ]),
+        dict(aanpak="De naam van het proces zegt welke grootheid gelijk blijft: iso-therm de temperatuur, "
+                    "iso-baar de druk, iso-choor het volume. De wet volgt uit wat er dan nog kan veranderen.",
+             waarom=[None, None, None]),
+        dict(aanpak="Zet de gegevens in twee kolommen, voor en na, en gebruik de wet waarin de gelijke "
+                    "grootheid wegvalt. Weet je er drie van de vier, dan vind je de vierde.",
+             waarom=[
+                 "Isotherm betekent dat het product gelijk blijft: halveert het volume, dan verdubbelt de "
+                 "druk.",
+                 None,
+                 "Hier verandert er niets gelijk, dus gebruik je de algemene wet \\(pV/T\\) = constant. "
+                 "Volume en druk gaan beide maal drie en maal twee, dus ook T.",
+             ]),
+        dict(aanpak="Een omgekeerd evenredig verband geeft een dalende kromme, een recht evenredig verband "
+                    "een rechte door de oorsprong. Daarom is de kelvin zo handig.",
+             waarom=[
+                 None, None,
+                 "Juist die twee rechten gaan door de oorsprong omdat de kelvin bij het absolute nulpunt "
+                 "begint. In graden Celsius zou de rechte de as elders snijden.",
+             ]),
+        dict(aanpak="Kijk bij elke uitspraak welke grootheid er bedoeld wordt en of ze een nulpunt heeft "
+                    "dat echt nul betekent.",
+             waarom=[
+                 "In een verhouding mag je geen Celsius invullen, want \\(0^{\\circ}\\text{C}\\) is niet "
+                 "nul graden warmte. Dat is de fout die hier het vaakst gemaakt wordt.",
+                 "Een verschil is in beide schalen hetzelfde getal, want de graden zijn even groot. Enkel "
+                 "het nulpunt ligt anders.",
+                 "R is voor alle ideale gassen \\(8{,}31\\) J/(mol.K). Dat is net wat ideaal betekent.",
+                 None,
+                 "Meer deeltjes in hetzelfde vat betekent meer botsingen tegen de wand en dus meer druk. "
+                 "Daarom staat n in de ideale gaswet.",
+             ]),
+        dict(aanpak="Vertaal elke vraag naar deeltjes: hoe snel ze bewegen, hoe vaak ze botsen en hoe hard. "
+                    "Noem daarna de wet die het in formulevorm zegt.",
+             waarom=[
+                 None, None,
+                 "Stilstaande deeltjes is de ondergrens van het model. Daarom is \\(0\\) K niet gewoon "
+                 "koud maar echt het laagste punt.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-arbeid-energie-vermogen-en-rendement-fysica-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Kijk naar de hoek tussen de kracht en de verplaatsing: dezelfde zin geeft positieve "
+                    "arbeid, tegengestelde zin negatieve, en loodrecht geen arbeid.",
+             waarom=[
+                 None, None,
+                 "De normaalkracht staat loodrecht op de beweging, dus verricht ze nooit arbeid op een "
+                 "vlakke vloer.",
+                 "De zwaartekracht wijst naar beneden en de verplaatsing naar boven, dus is haar arbeid "
+                 "negatief. De potentiële energie neemt juist daardoor toe.",
+             ]),
+        dict(aanpak="Arbeid is kracht maal weg maal de cosinus van de hoek. Staat de kracht in de zin van "
+                    "de beweging, dan is de cosinus één.",
+             waarom=[
+                 "Bij \\(60^{\\circ}\\) is de cosinus \\(0{,}5\\), dus blijft er van \\(100 \\cdot 3{,}0\\) "
+                 "de helft over.",
+                 None,
+                 "De cosinus van \\(90^{\\circ}\\) is nul, dus is de arbeid nul hoe groot de kracht ook is.",
+             ]),
+        dict(aanpak="Drie formules, elk met hun eigen afhankelijkheid: \\(E_{k}\\) met het kwadraat van de "
+                    "snelheid, \\(E_{p,gr}\\) met de hoogte, \\(E_{p,el}\\) met het kwadraat van de "
+                    "indrukking.",
+             waarom=[
+                 "Let op het kwadraat: \\(1000\\) kg aan \\(30\\) m/s geeft \\(450\\) kJ. Snelheid weegt "
+                 "veel zwaarder door dan massa.",
+                 None,
+                 "Voor een veer geldt \\(E_{p,el} = k \\cdot \\Delta l^{2} / 2\\), dus \\(400 \\cdot "
+                 "0{,}01 : 2 = 2{,}0\\) J.",
+             ]),
+        dict(aanpak="Vermogen is energie per seconde, rendement is nuttige energie gedeeld door de "
+                    "toegevoerde. Een rendement zet je om in procent.",
+             waarom=[
+                 None,
+                 "Bij de tweede moet je eerst de nuttige energie vinden: \\(500 - 400 = 100\\) J, dus "
+                 "\\(20\\,\\%\\). Wat niet nuttig is, is verlies.",
+                 None,
+             ]),
+        dict(aanpak="Zeg bij een omzetting telkens van welke vorm naar welke. Vaak zijn er meerdere "
+                    "tegelijk, en dan is het verlies de warmte.",
+             waarom=[None, None]),
+        dict(aanpak="Let op het verschil tussen energie en vermogen, en op de kwadraten in de formules.",
+             waarom=[
+                 "Vier keer, niet twee keer, want de snelheid staat in het kwadraat. Dat is de belangrijkste "
+                 "formule van heel dit hoofdstuk.",
+                 "Een kilowattuur is een vermogen maal een tijd, dus een energie. Daarom staat het op je "
+                 "elektriciteitsfactuur.",
+                 None, None,
+             ]),
+        dict(aanpak="Noem in je uitleg de formule waarin je het ziet, en zeg welke grootheid gelijk blijft.",
+             waarom=[
+                 None, None,
+                 "Dit is de reden achter elke snelheidscampagne. Tien kilometer per uur sneller betekent "
+                 "niet een beetje maar veel meer energie om kwijt te raken.",
+                 "Hetzelfde verschijnsel is de ene keer het doel en de andere keer verlies. Dat onderscheid "
+                 "maakt de toepassing, niet de fysica.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-warmte-faseovergangen-en-de-warmtebalans-fysica-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Zes namen op een rij: smelten en stollen, verdampen en condenseren, sublimeren en "
+                    "desublimeren. Ga je naar een lossere fase, dan is er warmte nodig; omgekeerd komt ze vrij.",
+             waarom=[
+                 None,
+                 "Sublimeren zie je bij droogijs en bij rijp dat verdwijnt zonder te smelten. Desublimeren "
+                 "is net het ontstaan van die rijp.",
+             ]),
+        dict(aanpak="Drie manieren: geleiding door een vaste stof, convectie door een stromende vloeistof "
+                    "of gas, straling zonder tussenstof.",
+             waarom=[
+                 "Straling is de enige die door het vacuüm van de ruimte kan. Daarom is dat hier het "
+                 "antwoord.",
+                 None,
+             ]),
+        dict(aanpak="Merkbare warmte is \\(c \\cdot m \\cdot \\Delta T\\): de temperatuur verandert wel. "
+                    "Voor water is c \\(4186\\) J per kilogram per kelvin.",
+             waarom=[
+                 None, None,
+                 "De warmtecapaciteit C is al c maal m, dus hoef je de massa niet meer te kennen: "
+                 "\\(800 \\cdot 15 = 12\\) kJ.",
+             ]),
+        dict(aanpak="Latente warmte is \\(l \\cdot m\\), zonder temperatuurverschil: hier verandert de fase "
+                    "en niet de temperatuur.",
+             waarom=[
+                 "Vergelijk de twee getallen: één kilogram water verdampen kost \\(2260\\) kJ, veel meer "
+                 "dan ijs smelten. Daarom is stoom zo gevaarlijk.",
+                 None,
+             ]),
+        dict(aanpak="In een geïsoleerd vat geldt dat de warmte die het ene water afgeeft gelijk is aan wat "
+                    "het andere opneemt. Bij gelijke massa's ligt de eindtemperatuur juist in het midden.",
+             waarom=[
+                 None,
+                 "Hier zijn de massa's niet gelijk, dus ligt de eindtemperatuur dichter bij de grootste "
+                 "massa. Reken met de verhouding van de massa's.",
+             ]),
+        dict(aanpak="Let op het verschil tussen temperatuur en warmte, en tussen opwarmen en een "
+                    "faseovergang.",
+             waarom=[
+                 None,
+                 "Water verdampt bij elke temperatuur aan het oppervlak, maar kóókt pas bij "
+                 "\\(100^{\\circ}\\text{C}\\). Daarom droogt de was ook in de winter.",
+                 "Een kleine c betekent dat er weinig warmte nodig is per kelvin, dus warmt de stof juist "
+                 "snel op. Een metalen pan is zo.",
+                 None,
+                 "Temperatuur en hoeveelheid warmte zijn twee verschillende dingen. Een bad van "
+                 "\\(40^{\\circ}\\text{C}\\) bevat veel meer warmte dan een vlam, maar is niet warmer.",
+             ]),
+        dict(aanpak="Vertaal elke vraag naar de deeltjes: hun gemiddelde snelheid is de temperatuur, hun "
+                    "onderlinge verband de potentiële energie.",
+             waarom=[
+                 None,
+                 "Dit is een goed voorbeeld van hoe je gevoel je bedriegt: je voelt hoe snel warmte "
+                 "wegstroomt, niet de temperatuur zelf.",
+                 None,
+                 "Dezelfde grote c van water verklaart ook waarom de kust een zachter klimaat heeft dan het "
+                 "binnenland.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-elektrische-stroom-spanning-en-weerstand-fysica-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Eén formule in drie gedaanten: R = U : I, I = U : R en U = R · I. Schrijf telkens op "
+                    "wat je kent en wat je zoekt.",
+             waarom=[None, None]),
+        dict(aanpak="In serie tel je de weerstanden gewoon op. Parallel tel je de omgekeerden op, en het "
+                    "resultaat is altijd kleiner dan de kleinste weerstand.",
+             waarom=[
+                 "Bij \\(20\\) en \\(40\\) parallel reken je \\(1/20 + 1/40 = 3/40\\), dus \\(40/3 = "
+                 "13{,}3\\ \\Omega\\). Twee gelijke weerstanden parallel geven altijd precies de helft.",
+                 "Drie gelijke weerstanden parallel geven een derde: \\(90 : 3 = 30\\ \\Omega\\). Dat is een "
+                 "snelle controle op je rekenwerk.",
+                 "Werk van binnen naar buiten: eerst de twee parallel tot \\(5{,}0\\ \\Omega\\), dan de "
+                 "serie erbij. Zo pak je elke samengestelde schakeling aan.",
+             ]),
+        dict(aanpak="Werk in stappen: eerst de substitutieweerstand, dan de stroom uit de bron, dan per "
+                    "weerstand de spanning. In serie is de stroom overal gelijk, parallel de spanning.",
+             waarom=[
+                 None,
+                 "Over de grootste weerstand staat de grootste spanning: \\(60 \\cdot 0{,}20 = 12\\) V. "
+                 "Samen met de \\(6\\) V over de andere is dat de \\(18\\) V van de bron.",
+                 "Elke lamp trekt \\(2{,}3\\) A, dus samen \\(4{,}6\\) A. Parallel tel je de stromen op.",
+                 "Vermogen is spanning maal stroom. Daarmee kan je nagaan of een kring een zekering van "
+                 "\\(16\\) A aankan.",
+             ]),
+        dict(aanpak="Een ampèremeter meet de stroom die er door gaat en staat dus in serie; een voltmeter "
+                    "meet een verschil tussen twee punten en staat dus parallel.",
+             waarom=[
+                 None, None, None,
+                 "Een zekering beschermt de leiding tegen een te grote stroom, dus tegen brand.",
+                 "Een verliesstroomschakelaar beschermt de mens: loopt er stroom door een lichaam naar de "
+                 "aarde, dan komt er minder terug dan er vertrok en slaat hij af.",
+             ]),
+        dict(aanpak="Let bij elke uitspraak op het verschil tussen stroom, spanning en weerstand, en tussen "
+                    "serie en parallel.",
+             waarom=[
+                 "De afgesproken stroomzin loopt van plus naar min, de elektronen juist omgekeerd. Dat is "
+                 "een historische afspraak van voor men de elektronen kende.",
+                 None, None,
+                 "Een isolator laat de stroom net niet door, dus heeft hij een hele grote weerstand.",
+                 "Stopcontacten staan parallel, elk op \\(230\\) V. Stonden ze in serie, dan zou één "
+                 "uitgetrokken stekker heel het huis uitschakelen.",
+             ]),
+        dict(aanpak="Noem in je uitleg de weg die de stroom neemt en de formule waarin je het ziet. Bij een "
+                    "veiligheidsvraag zeg je ook wat er beschermd wordt.",
+             waarom=[
+                 None, None,
+                 "Dezelfde spanning, een veel kleinere weerstand, dus veel meer stroom. Het is de stroom "
+                 "door je lichaam die gevaarlijk is, niet de spanning zelf.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-licht-weerkaatsing-breking-en-lenzen-fysica-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Drie woorden met een scherp onderscheid: doorzichtig laat het beeld door, "
+                    "doorschijnend enkel het licht, ondoorschijnend niets.",
+             waarom=[
+                 None,
+                 "Papier is doorschijnend: hou het voor een lamp en je ziet licht maar geen vorm. Dat is "
+                 "precies het verschil met glas.",
+             ]),
+        dict(aanpak="De invalshoek en de weerkaatsingshoek zijn gelijk, en je meet ze altijd vanaf de "
+                    "normaal, de loodlijn op het oppervlak.",
+             waarom=[
+                 None,
+                 "Hier staat de hoek met het oppervlak gegeven, dus reken je \\(90 - 25 = 65^{\\circ}\\). "
+                 "Dat is de klassieke valkuil van deze reeks.",
+                 None, None, None,
+             ]),
+        dict(aanpak="Het beeld in een vlakke spiegel staat even ver achter de spiegel als het voorwerp "
+                    "ervoor, is even groot en virtueel.",
+             waarom=[
+                 "Virtueel betekent dat de stralen daar niet echt samenkomen; ze lijken er enkel uit te "
+                 "komen. Daarom kan je het niet op een scherm vangen.",
+                 None,
+                 "Je staat \\(1{,}5\\) m voor de spiegel en je beeld \\(1{,}5\\) m erachter, dus samen "
+                 "\\(3{,}0\\) m. Daarom moet je scherpstellen op drie meter.",
+                 None,
+             ]),
+        dict(aanpak="Schaduw ontstaat omdat licht rechtdoor gaat. Een kleine bron geeft enkel kernschaduw, "
+                    "een grote bron ook een halfschaduw.",
+             waarom=[
+                 None, None, None,
+                 "Hoe kleiner de bron, hoe smaller de halfschaduw. Daarom geeft een laserpunt een "
+                 "vlijmscherpe schaduw en een bewolkte hemel bijna geen.",
+             ]),
+        dict(aanpak="Naar een dichtere stof buigt de straal naar de normaal toe, naar een ijlere stof van "
+                    "de normaal weg. Loodrecht invallen geeft geen breking.",
+             waarom=[
+                 None, None,
+                 "Bij loodrechte inval is er geen hoek om te veranderen. De straal gaat gewoon rechtdoor, "
+                 "al wordt hij wel trager.",
+             ]),
+        dict(aanpak="Drie hoofdstralen: parallel gaat door het brandpunt, door het middelpunt gaat "
+                    "rechtdoor, door het brandpunt gaat parallel verder. Met twee ervan vind je het beeld.",
+             waarom=[
+                 None, None,
+                 "Dit is het geval van de loep: binnen het brandpunt wordt het beeld virtueel, "
+                 "rechtopstaand en groter.",
+                 "De vergrotingsfactor is de beeldgrootte gedeeld door de voorwerpgrootte, dus \\(6{,}0 : "
+                 "2{,}0 = 3\\). Ze heeft geen eenheid.",
+             ]),
+        dict(aanpak="Zeg in je uitleg wat er met de stralen gebeurt en waar ze samenkomen of schijnen "
+                    "samen te komen. Dat laatste bepaalt of het beeld reëel of virtueel is.",
+             waarom=[
+                 None,
+                 "Dit is dezelfde breking als bij het geknikte potlood in een glas water. Je oog gaat er "
+                 "altijd van uit dat licht rechtdoor kwam.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-veilig-werken-meten-en-onderzoek-fysica-boost-doorstroom"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je bij elke werkwijze af wat er in het slechtste geval stukgaat: het toestel, de "
+                    "meting of jij.",
+             waarom=[
+                 "Op de weerstandsstand loopt er stroom uit het eigen batterijtje, dus is die leeg voor je "
+                 "hem weer nodig hebt.",
+                 None, None,
+                 "Begin altijd op het grootste bereik en ga dan fijner. Een te klein bereik kan het "
+                 "instrument beschadigen.",
+                 None,
+             ]),
+        dict(aanpak="Zet bij elke grootheid het instrument. Let op het paar barometer en manometer: de ene "
+                    "meet de luchtdruk, de andere een druk in een vat.",
+             waarom=[None, None, None]),
+        dict(aanpak="Nauwkeurig aflezen is vooral goed kijken: recht op de schaal, en bij een vloeistof "
+                    "onderaan de meniscus.",
+             waarom=[
+                 None, None, None,
+                 "Boven het maximum rekt de veer blijvend uit, en dan wijst het toestel voorgoed fout aan. "
+                 "Dat heet overrekking.",
+             ]),
+        dict(aanpak="De zes stappen hebben een vaste orde: eerst het probleem, dan de vraag en de "
+                    "hypothese, dan het plan, dan meten, dan besluiten, en ten slotte terugkijken.",
+             waarom=[
+                 None,
+                 "De hypothese komt vóór het plan, want je plan moet net die hypothese kunnen toetsen.",
+             ]),
+        dict(aanpak="Loop de vijf criteria af: kan je er ja of nee op antwoorden (open), gaat ze over één "
+                    "ding (enkelvoudig), zit er een oordeel in (objectief), kan jij ze uitvoeren "
+                    "(haalbaar), en moet je ervoor meten of enkel opzoeken (onderzoekbaar).",
+             waarom=[
+                 None,
+                 "Dit getal kan je opzoeken, dus is er niets te onderzoeken. Een onderzoeksvraag vraagt om "
+                 "een meting of een verband.",
+                 "Het woord beste legt een oordeel vast. Vervang het door iets wat je kan meten.",
+                 "Niemand kan in de kern van de zon meten, dus is de vraag niet haalbaar in een schoollabo.",
+                 "Hier zitten twee onderzoeken in één vraag. Splits ze, anders weet je achteraf niet "
+                 "waardoor het verschil komt.",
+             ]),
+        dict(aanpak="Let bij elke uitspraak op het verschil tussen een resultaat dat je niet verwachtte en "
+                    "een fout in je werk.",
+             waarom=[
+                 None,
+                 "Een meting weglaten omdat ze je niet past, is vervalsing. Een afwijkende meting mag je "
+                 "enkel weglaten als je weet wat er misliep, en dan schrijf je dat op.",
+                 None,
+                 "Fijnere streepjes helpen niets als je waarde buiten het bereik valt. Meetbereik komt "
+                 "eerst, nauwkeurigheid daarna.",
+                 None,
+             ]),
+        dict(aanpak="Antwoord in volle zinnen en noem telkens wat je gelijk houdt en wat je laat variëren.",
+             waarom=[
+                 "Dit is de kern van elk experiment: één variabele veranderen en de rest constant houden. "
+                 "Anders kan je het verschil niet toeschrijven.",
+                 None, None,
+                 "Herhalen helpt enkel tegen toevallige fouten. Een systematische fout, zoals een "
+                 "verkeerd genulde balans, blijft ook na honderd metingen bestaan.",
+             ]),
+    ],
+)
