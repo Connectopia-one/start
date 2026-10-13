@@ -126,11 +126,13 @@
             "het onderwerp is de huurprijzen in de stad",
             "de titel geeft hier wel de hoofdgedachte weer",
             "de titel is enkel bedoeld om clicks te krijgen",
-            "het onderwerp is in deze titel niet te vinden"
+            "het onderwerp is in deze titel niet te vinden",
+            "een titel kan het onderwerp en de hoofdgedachte samen bevatten"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De titel bevat zowel waarover het gaat als wat erover beweerd wordt. Dat gebeurt, maar niet altijd."
         },
@@ -150,11 +152,15 @@
             "ze ondersteunen de hoofdgedachte",
             "je vindt er vaak één per alinea",
             "ze staan altijd in de inleiding",
-            "ze zijn samen even lang als de tekst"
+            "ze zijn samen even lang als de tekst",
+            "ze zijn samen korter dan de tekst",
+            "je kan ze in een schema zetten"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Een goed opgebouwde tekst behandelt per alinea één deelonderwerp, en dat levert je de hoofdpunten."
         },
@@ -271,11 +277,13 @@
             "je notities sluiten aan bij de inhoud van de tekst",
             "afkortingen, symbolen en telegramstijl mogen",
             "je schrijft de tekst woord voor woord mee",
-            "notities zijn enkel nuttig bij een leestekst"
+            "notities zijn enkel nuttig bij een leestekst",
+            "je notities moeten later nog bruikbaar zijn voor jou"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Notities moeten later nog bruikbaar zijn voor jou: duidelijk genoeg om een samenvatting te maken of een vraag te beantwoorden."
         },
@@ -343,11 +351,15 @@
             "je mag informatie uit verschillende teksten combineren",
             "je vermeldt uit welke tekst je iets haalt",
             "je mag enkel uit de eerste tekst citeren",
-            "teksten die elkaar tegenspreken laat je allebei vallen"
+            "teksten die elkaar tegenspreken laat je allebei vallen",
+            "spreken twee teksten elkaar tegen, dan meld je dat",
+            "je kijkt eerst na of de teksten wel over hetzelfde gaan"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Combineren is net de bedoeling. Spreken twee teksten elkaar tegen, dan meld je dat in plaats van het weg te laten."
         },
@@ -550,11 +562,13 @@
             "een interview in de krant",
             "een stuk uit een leerboek",
             "een folder van een politieke partij",
-            "een handleiding bij je telefoon"
+            "een handleiding bij je telefoon",
+            "een nieuwsbericht over de begroting"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De folder wil overtuigen (persuasief), de handleiding wil je iets laten doen (prescriptief)."
         },
@@ -565,11 +579,15 @@
             "een hotelbeoordeling op een reissite",
             "een productreview op een webwinkel",
             "een recept voor pompoensoep",
-            "een reisverslag van een fietstocht"
+            "een reisverslag van een fietstocht",
+            "een opiniestuk in de krant",
+            "een filmkritiek"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Het recept is prescriptief, het reisverslag narratief."
         },
@@ -677,11 +695,13 @@
             "ze kan zowel informatief als opiniërend zijn",
             "ze zegt zowel waarover iets gaat als wat de schrijver vindt",
             "ze is altijd een zuiver informatieve tekst",
-            "ze mag geen enkel feit bevatten"
+            "ze mag geen enkel feit bevatten",
+            "ze bevat zowel feiten als een waardering"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De recensie is het schoolvoorbeeld van een tekst die twee soorten combineert."
         },
@@ -738,11 +758,15 @@
             "een kortverhaal",
             "stand-upcomedy",
             "een handleiding",
-            "een persbericht"
+            "een persbericht",
+            "een gedicht",
+            "een songtekst"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Beide spelen met taal en met emotie. De handleiding en het persbericht hebben een praktisch doel."
         },
@@ -817,11 +841,13 @@
             "het verdedigt een standpunt met argumenten",
             "het hoort bij de argumentatieve teksten",
             "het geeft enkel neutrale informatie",
-            "het is altijd een literaire tekst"
+            "het is altijd een literaire tekst",
+            "een pleidooi en een debat horen bij dezelfde soort"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een betoog, een pleidooi en een debat staan samen bij de argumentatieve teksten."
         },
@@ -953,11 +979,13 @@
             "wordt de auteur vermeld?",
             "welke bronnen worden in de tekst gebruikt?",
             "hoeveel lezersreacties staan eronder?",
-            "hoe lang is de tekst in totaal?"
+            "hoe lang is de tekst in totaal?",
+            "is de informatie ook elders terug te vinden?"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Reacties en lengte zeggen niets. Auteur en bronvermelding wel, want ze maken controleren mogelijk."
         },
@@ -968,11 +996,15 @@
             "is het bericht reclame, nepnieuws of propaganda?",
             "is de titel neutraal of dient hij om clicks te krijgen?",
             "is de informatie ook elders terug te vinden?",
-            "is de informatie recent of verouderd?"
+            "is de informatie recent of verouderd?",
+            "wie betaalt voor de verspreiding?",
+            "welke woorden kiest de zender?"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "De juiste antwoorden gaan over wat de zender met je wil. De andere over de inhoud zelf."
         },
@@ -1025,11 +1057,13 @@
             "framing kan werken zonder dat er iets onwaar is",
             "de woordkeuze van een bericht is al een vorm van framing",
             "framing is enkel mogelijk met verzonnen cijfers",
-            "framing komt enkel in reclame voor"
+            "framing komt enkel in reclame voor",
+            "dezelfde maatregel kan met twee namen heel anders klinken"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Belastingverlaging of besparing op de zorg kan hetzelfde besluit zijn. Het frame zit in wat je benoemt."
         },
@@ -1122,11 +1156,15 @@
             "geen auteur en geen bronvermelding",
             "enkel verspreid via sociale media, met een schreeuwende titel",
             "een lange tekst met tussentitels",
-            "een datum bovenaan het artikel"
+            "een datum bovenaan het artikel",
+            "een adres dat op een bekende nieuwssite lijkt",
+            "cijfers zonder bron en zonder datum"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "De naam en het uitzicht zijn gratis. Lengte, tussentitels en een datum zeggen op zichzelf ook niets."
         },
@@ -1176,11 +1214,13 @@
             "dezelfde feiten kunnen met verschillende bedoelingen gebracht worden",
             "de bedoeling bepaalt hoe kritisch je moet lezen",
             "de bedoeling staat altijd bovenaan de tekst vermeld",
-            "een zender met een bedoeling liegt altijd"
+            "een zender met een bedoeling liegt altijd",
+            "je leidt de bedoeling af uit de tekstsoort en het kanaal"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Zelden staat er wat men met je wil. Je leidt het af uit de tekstsoort, het kanaal en de woordkeuze."
         },
@@ -1359,11 +1399,13 @@
             "zender, boodschap en ontvanger",
             "kanaal, context, doel en effect",
             "inleiding, midden en slot",
-            "onderwerp, hoofdgedachte en hoofdpunten"
+            "onderwerp, hoofdgedachte en hoofdpunten",
+            "de ruis die de boodschap kan verstoren"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De laatste bestaan ook, maar ze horen bij de opbouw en bij de inhoud van een tekst."
         },
@@ -1413,11 +1455,15 @@
             "wie is de zender van de boodschap?",
             "via welk kanaal wordt de boodschap verspreid?",
             "hoeveel woorden bevat de boodschap?",
-            "in welke bibliotheek staat de tekst?"
+            "in welke bibliotheek staat de tekst?",
+            "wat is het doel van de boodschap?",
+            "wie is de ontvanger?"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Daarbij hoort ook: wat is het doel van de boodschap? De andere vragen leveren niets op."
         },
@@ -1531,11 +1577,13 @@
             "het kanaal bepaalt mee hoe formeel je schrijft",
             "hetzelfde bericht kan via meer dan één kanaal gaan",
             "het kanaal bepaalt of een bericht waar is",
-            "elk kanaal heeft precies één publiek"
+            "elk kanaal heeft precies één publiek",
+            "het kanaal bepaalt mee wie je bereikt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "In een mail aan een dienst schrijf je anders dan in een bericht aan een vriend, met dezelfde inhoud."
         },
@@ -1602,11 +1650,15 @@
             "de zender blijft bewust onbekend",
             "het kanaal is meestal sociale media",
             "het doel is de lezer correct informeren",
-            "de context doet er bij nepnieuws niet toe"
+            "de context doet er bij nepnieuws niet toe",
+            "het doel is bezoekers en advertentie-inkomsten",
+            "de boodschap speelt in op emoties"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Geen auteur, verspreid via sociale media, met bezoekers en advertenties als doel."
         },
@@ -1780,11 +1832,15 @@
             "chronologisch en oorzakelijk",
             "tegenstellend en vergelijkend",
             "alfabetisch en numeriek",
-            "letterlijk en figuurlijk"
+            "letterlijk en figuurlijk",
+            "opsommend en samenvattend",
+            "redengevend en concluderend"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Verder nog opsommend, redengevend, samenvattend, voorwaardelijk, concluderend, doel-middel en voordelen-nadelen."
         },
@@ -1865,11 +1921,13 @@
             "ze kondigt het onderwerp aan",
             "ze kan de aandacht van de lezer trekken",
             "ze bevat altijd het volledige besluit",
-            "ze is altijd de langste alinea"
+            "ze is altijd de langste alinea",
+            "ze kan met een vraag of een anekdote beginnen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een anekdote, een vraag of een opvallend cijfer in de inleiding werkt als een deur die opengaat."
         },
@@ -2004,11 +2062,15 @@
             "ze helpen je de opbouw van een tekst sneller te zien",
             "je kan ze ook zelf gebruiken als je schrijft",
             "ze zijn enkel bruikbaar bij literaire teksten",
-            "ze vervangen de IMS-structuur van een tekst"
+            "ze vervangen de IMS-structuur van een tekst",
+            "ze liggen in de inleiding, het midden en het slot",
+            "een probleemtekst is er een van"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Ze liggen ín de IMS-structuur: ook een probleemtekst heeft een inleiding, een midden en een slot."
         },
@@ -2046,11 +2108,13 @@
             "je weet dan waar je welke informatie mag verwachten",
             "je kan je notities dan meteen in de juiste vorm zetten",
             "je hoeft de tekst dan niet meer helemaal te lezen",
-            "je kent dan al de mening van de schrijver van de tekst"
+            "je kent dan al de mening van de schrijver van de tekst",
+            "je kan sneller beslissen wat je grondig leest"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Bij een probleemtekst zoek je de oplossing achteraan, bij een onderzoekstekst de resultaten, en je schema staat al klaar."
         },
@@ -2061,11 +2125,15 @@
             "daar staat vaak het besluit",
             "daar wordt de hoofdgedachte vaak herhaald",
             "daar staan altijd de bronnen",
-            "daar begint het nieuwe onderwerp"
+            "daar begint het nieuwe onderwerp",
+            "daar laat de schrijver de lezer met de kern achter",
+            "daar kan een oproep of een advies staan"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Een goed slot herhaalt niet alles, maar laat de lezer met de kern achter."
         },
@@ -2182,11 +2250,13 @@
             "deze en die",
             "hun en zij",
             "hoewel en dus",
-            "ten eerste en tot slot"
+            "ten eerste en tot slot",
+            "het en ze"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De laatste rijen zijn signaalwoorden: ze verwijzen niet, ze kondigen aan."
         },
@@ -2248,11 +2318,15 @@
             "ze moeten in getal passen bij waarnaar ze verwijzen",
             "ze maken een tekst korter en vlotter",
             "ze geven het verband tussen twee alinea's",
-            "ze staan altijd aan het begin van een alinea"
+            "ze staan altijd aan het begin van een alinea",
+            "ze moeten ook in geslacht passen bij waarnaar ze verwijzen",
+            "een verkeerd verwijswoord maakt een zin onduidelijk"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Het verband tussen alinea's is het werk van de signaalwoorden."
         },
@@ -2375,11 +2449,13 @@
             "ten eerste, ten tweede, ten derde",
             "tot slot, ten slotte",
             "daardoor, bijgevolg",
-            "hoewel, ondanks"
+            "hoewel, ondanks",
+            "verder, ook, daarnaast"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "In een instructie vind je die opsommende aanduiders bijna altijd terug."
         },
@@ -2432,11 +2508,15 @@
             "dus en daarom",
             "daardoor en bijgevolg",
             "want en omdat",
-            "als en mits"
+            "als en mits",
+            "zodat en waardoor",
+            "met als gevolg dat"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Want en omdat geven de reden, als en mits de voorwaarde."
         },
@@ -2487,11 +2567,13 @@
             "ze maken de gedachtegang van een tekst zichtbaar",
             "ze helpen je ook bij een luisteropdracht",
             "ze zijn nooit nodig in een zakelijke tekst",
-            "ze vervangen de inhoud van een alinea"
+            "ze vervangen de inhoud van een alinea",
+            "in een zakelijke tekst zijn ze juist het hardst nodig"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "In een zakelijke tekst zijn ze juist het hardst nodig, want daar moet de lezer niets gokken."
         },
@@ -2602,11 +2684,15 @@
             "de nieuwe brug is veel te duur geweest",
             "de stad had het geld beter aan scholen besteed",
             "de brug kostte achttien miljoen euro",
-            "de brug werd in maart geopend"
+            "de brug werd in maart geopend",
+            "het was een verstandige beslissing van de stad",
+            "zo'n brug hoort niet midden in een stad"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Te duur en beter besteed zijn waarderingen. Het bedrag en de datum zijn na te gaan."
         },
@@ -2647,11 +2733,15 @@
             "argumentatie op basis van vergelijking",
             "argumentatie op basis van cijfers en statistieken",
             "argumentatie op basis van spelling",
-            "argumentatie op basis van tekstlengte"
+            "argumentatie op basis van tekstlengte",
+            "argumentatie op basis van oorzaak en gevolg",
+            "argumentatie met een beroep op een autoriteit"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Verder nog: oorzaak en gevolg, wetenschappelijk onderzoek, en een beroep op een autoriteit."
         },
@@ -2832,11 +2922,13 @@
             "ze pleiten tegen de stelling van de schrijver",
             "een schrijver kan ze noemen om ze te weerleggen",
             "ze maken een betoog altijd zwakker",
-            "ze mogen alleen in het slot staan"
+            "ze mogen alleen in het slot staan",
+            "ze maken een betoog juist sterker als je ze weerlegt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een betoog dat de tegenkant verzwijgt, valt om zodra de lezer er zelf aan denkt."
         },
@@ -2887,11 +2979,15 @@
             "je bepaalt eerst de stelling van de schrijver",
             "je zoekt de argumenten en de tegenargumenten",
             "je telt de woorden en de alinea's",
-            "je verbetert de spelling van de tekst"
+            "je verbetert de spelling van de tekst",
+            "je geeft de conclusie van de schrijver weer",
+            "je kijkt of de argumenten die conclusie dragen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Daarna geef je de conclusie weer en kijk je of de argumenten die conclusie dragen."
         },
@@ -3068,11 +3164,13 @@
             "een kernwoord per alinea",
             "een vraagteken waar je iets niet begrijpt",
             "de volledige alinea in je eigen woorden",
-            "elk woord dat je al kende"
+            "elk woord dat je al kende",
+            "een pijl naar de zin waar het bij hoort"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Kort en zichtbaar. Een hele alinea herschrijven in de marge kost meer dan het opbrengt."
         },
@@ -3134,11 +3232,15 @@
             "je vat hem samen zonder ernaar te kijken",
             "je legt de hoofdpunten uit aan iemand anders",
             "je telt hoeveel woorden van de tekst je al kende",
-            "je kijkt hoe snel je hem uitgelezen hebt"
+            "je kijkt hoe snel je hem uitgelezen hebt",
+            "je stelt zelf vragen bij de tekst en antwoordt erop",
+            "je zet de hoofdpunten in een schema"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Wat je niet kan navertellen, heb je gelezen maar niet begrepen. Snelheid en bekende woorden zeggen daar niets over."
         },
@@ -3192,11 +3294,13 @@
             "de titel en de tussenkoppen",
             "de eerste zin van elke alinea",
             "elke voetnoot in de tekst",
-            "elk cijfer in de tabellen"
+            "elk cijfer in de tabellen",
+            "het slot van de tekst"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Plus het slot. Voetnoten en tabellen komen pas als je echt binnengaat."
         },
@@ -3270,11 +3374,15 @@
             "vaste afkortingen die je zelf altijd gebruikt",
             "witruimte laten om later aan te vullen",
             "alles letterlijk opschrijven wat de spreker zegt",
-            "wachten tot het einde en dan beginnen"
+            "wachten tot het einde en dan beginnen",
+            "van het begin af meeschrijven in telegramstijl",
+            "een kernwoord per gedachte in plaats van hele zinnen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Letterlijk meeschrijven lukt niet en denken doe je dan ook niet meer."
         },
@@ -3367,11 +3475,15 @@
             "eerst overlopen, dan intensief lezen",
             "achteraf nagaan of je de tekst kan navertellen",
             "de tekst meteen van voor naar achter uit het hoofd leren",
-            "alle voorbeelden uit de tekst onthouden"
+            "alle voorbeelden uit de tekst onthouden",
+            "tussendoor samenvatten in je eigen woorden",
+            "vooraf bepalen waarvoor je de tekst leest"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Overlopen, lezen, samenvatten, controleren. Dat is de volle cyclus."
         },
@@ -3407,11 +3519,13 @@
             "de lezer naar de tekst toe trekken",
             "een gevoel bij het bericht meegeven",
             "de spelling van de tekst verbeteren",
-            "de tekst korter maken dan hij is"
+            "de tekst korter maken dan hij is",
+            "laten zien waarover het bericht gaat"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een foto trekt de blik en zet meteen een toon, nog voor de eerste zin gelezen is."
         },
@@ -3457,11 +3571,15 @@
             "de kijker in een bepaalde stemming brengen",
             "aangeven dat er een nieuw deel begint",
             "de gesproken tekst beter verstaanbaar maken",
-            "de feiten in de reportage controleren"
+            "de feiten in de reportage controleren",
+            "een overgang tussen twee beelden vlotter maken",
+            "de stilte erna extra laten opvallen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Diezelfde beelden klinken onder zware strijkers heel anders dan onder lichte piano."
         },
@@ -3502,11 +3620,13 @@
             "tussenkoppen boven de delen van de tekst",
             "witruimte tussen de alinea's",
             "de lengte van de langste zin",
-            "het aantal woorden in de titel"
+            "het aantal woorden in de titel",
+            "een kader met de kerncijfers naast de tekst"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Koppen en wit maken de structuur zichtbaar voor je één zin gelezen hebt."
         },
@@ -3529,11 +3649,15 @@
             "lichaamshouding en mimiek",
             "oogcontact en afstand tot de ander",
             "de spelling van je bericht",
-            "het aantal woorden dat je gebruikt"
+            "het aantal woorden dat je gebruikt",
+            "stemvolume en tempo",
+            "de stiltes die je laat vallen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Ook stemvolume, tempo en stiltes horen erbij: alles wat meespreekt zonder woord te zijn."
         },
@@ -3639,11 +3763,13 @@
             "de muziek onder de beelden",
             "de camerahoek waaruit gefilmd wordt",
             "de lengte van de aftiteling",
-            "het aantal medewerkers in het team"
+            "het aantal medewerkers in het team",
+            "de montage en het licht"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Ook de montage en het licht doen mee. De kijker ziet die keuzes niet, maar voelt ze wel."
         },
@@ -3717,11 +3843,15 @@
             "de zaal rondkijken in plaats van naar één punt",
             "spreken met een rustig tempo en hoorbare pauzes",
             "de hele tijd in beweging blijven over het podium",
-            "de handen in de zakken houden tijdens het spreken"
+            "de handen in de zakken houden tijdens het spreken",
+            "een open houding naar het publiek",
+            "gebaren die bij je woorden passen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Een open houding en een rustig tempo geven het publiek de tijd om mee te gaan."
         },
@@ -3732,11 +3862,13 @@
             "het geeft aan welk woord het zwaarst weegt",
             "het laat horen hoe de spreker zich voelt",
             "het verandert de betekenis van de woorden zelf",
-            "het bepaalt de spelling van de woorden"
+            "het bepaalt de spelling van de woorden",
+            "het houdt de aandacht van de luisteraar vast"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Volume, tempo en toonhoogte zijn de opmaak van het gesproken woord."
         },
@@ -3888,11 +4020,15 @@
             "je komt dicht bij de gevoelens van dat personage",
             "je weet niet wat de andere personages denken",
             "je weet zeker dat alles wat hij zegt waar is",
-            "je kent het einde van het verhaal al vanaf de eerste bladzijde"
+            "je kent het einde van het verhaal al vanaf de eerste bladzijde",
+            "hij kan zich vergissen of iets verzwijgen",
+            "je ziet alles door zijn ogen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Een ik-verteller kan zich vergissen, liegen of iets verzwijgen. Dat is net de spanning."
         },
@@ -3933,11 +4069,13 @@
             "door wat het personage doet en zegt",
             "door wat andere personages erover zeggen",
             "door het aantal keren dat de naam voorkomt",
-            "door de plaats van het personage in de inhoudstafel"
+            "door de plaats van het personage in de inhoudstafel",
+            "door de gedachten die de verteller weergeeft"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Ook door de gedachten die de verteller weergeeft, en door wat het personage juist niet zegt."
         },
@@ -4077,11 +4215,15 @@
             "wat wil dit personage, en wat staat in de weg?",
             "verandert dit personage in de loop van het verhaal?",
             "hoeveel bladzijden komt dit personage voor?",
-            "lijkt dit personage op de schrijver zelf?"
+            "lijkt dit personage op de schrijver zelf?",
+            "hoe reageert dit personage op tegenslag?",
+            "wat verliest dit personage onderweg?"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Verlangen en verandering: daarmee heb je het skelet van elk personage te pakken."
         },
@@ -4146,11 +4288,13 @@
             "wat het personage doet op moeilijke momenten",
             "hoe andere personages op hem reageren",
             "het aantal keren dat zijn naam valt",
-            "de plaats van zijn naam op de kaft"
+            "de plaats van zijn naam op de kaft",
+            "de gedachten die de verteller laat lezen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een personage in een keuze zien staan, zegt meer dan een bladzijde beschrijving."
         },
@@ -4231,11 +4375,15 @@
             "welk personage bleef je het meest bij, en waarom?",
             "welk moment in het verhaal veranderde alles?",
             "hoeveel bladzijden had het boek precies?",
-            "in welk jaar werd het boek uitgegeven?"
+            "in welk jaar werd het boek uitgegeven?",
+            "welke zin bleef je bij, en waarom?",
+            "wat zou je zelf anders gewild hebben?"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Een leeservaring verwoorden begint bij wat bleef hangen, niet bij de gegevens van de uitgever."
         },
@@ -4271,11 +4419,13 @@
             "een gesloten ruimte kan beklemmend werken",
             "een weidse ruimte kan vrijheid of eenzaamheid oproepen",
             "de ruimte bepaalt hoeveel personages er zijn",
-            "de ruimte bepaalt welk perspectief de schrijver kiest"
+            "de ruimte bepaalt welk perspectief de schrijver kiest",
+            "een ruimte kan een gevoel van dreiging geven"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De plaats is zelden toeval. Een schrijver kiest ze zoals een filmmaker een decor kiest."
         },
@@ -4319,11 +4469,15 @@
             "door informatie achter te houden voor de lezer",
             "door een gevaar aan te kondigen dat nog niet toeslaat",
             "door elk hoofdstuk even lang te maken als het vorige",
-            "door alle personages in één hoofdstuk te beschrijven"
+            "door alle personages in één hoofdstuk te beschrijven",
+            "door een hoofdstuk af te breken op het spannendste moment",
+            "door de tijd te laten dringen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Spanning zit in wat de lezer nog niet weet en wel vreest."
         },
@@ -4376,11 +4530,13 @@
             "een gedachte van een personage die een bladzijde beslaat",
             "een gedetailleerde beschrijving van één moment",
             "een sprong van tien jaar in één zin",
-            "een opsomming van wat er dat jaar gebeurde"
+            "een opsomming van wat er dat jaar gebeurde",
+            "een dialoog die woord voor woord weergegeven wordt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Wie versnelt, slaat over. Wie vertraagt, zoomt in."
         },
@@ -4506,11 +4662,15 @@
             "welke plaatsen komen terug, en wat gebeurt daar steeds?",
             "is de ruimte open of gesloten, en wat doet dat met de personages?",
             "hoeveel plaatsen worden er in het boek genoemd?",
-            "in welke stad werd het boek gedrukt en uitgegeven?"
+            "in welke stad werd het boek gedrukt en uitgegeven?",
+            "hoe wordt de plaats beschreven: warm, koud, nauw of wijd?",
+            "verandert de ruimte in de loop van het verhaal?"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Het gaat niet om een lijst plaatsen, maar om wat die plaatsen met het verhaal doen."
         },
@@ -4575,11 +4735,13 @@
             "een gevaar dat zich aankondigt maar nog wacht",
             "een hoofdstuk dat op het spannendste moment afbreekt",
             "een lange beschrijving van de hoofdstad",
-            "een lijst van alle personages vooraan het boek"
+            "een lijst van alle personages vooraan het boek",
+            "een tegenstander die sterker blijkt dan gedacht"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Ook een tegenstander die sterker blijkt dan gedacht, en tijd die begint te dringen."
         },
@@ -4660,11 +4822,15 @@
             "welke vraag moet het hoofdpersonage steeds opnieuw beantwoorden?",
             "welke scène zou je aanwijzen als het hart van het boek?",
             "hoeveel hoofdstukken en bladzijden heeft het boek in totaal?",
-            "in welk jaar schreef de auteur dit boek?"
+            "in welk jaar schreef de auteur dit boek?",
+            "welke woorden of beelden komen steeds terug?",
+            "wat wil het boek bij jou in beweging brengen?"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Het thema zit in de terugkerende vraag, niet in de gegevens van de uitgever."
         },
@@ -4712,11 +4878,13 @@
             "de roman en de novelle",
             "het kortverhaal en de jeugdroman",
             "de biografie en het handboek",
-            "het jaarverslag en het nieuwsbericht"
+            "het jaarverslag en het nieuwsbericht",
+            "de strip en de graphic novel"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Ook toneel, poezie, de strip en de graphic novel kunnen fictie zijn."
         },
@@ -4790,11 +4958,15 @@
             "tekstballonnen en de indeling in kaders",
             "het wit tussen de kaders, waarin tijd verstrijkt",
             "een verteller die de gedachten weergeeft",
-            "een opbouw in hoofdstukken met tussenkoppen"
+            "een opbouw in hoofdstukken met tussenkoppen",
+            "de grootte van een kader als nadruk",
+            "klanken die als tekening in beeld staan"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "De lezer vult zelf in wat er tussen twee kaders gebeurde. Dat is het eigenste middel van de strip."
         },
@@ -4932,11 +5104,13 @@
             "is dit bedacht of wil het de werkelijkheid weergeven?",
             "hoe wordt het verhaal gebracht: in tekst, in beeld of op een toneel?",
             "hoeveel exemplaren werden er van het boek verkocht?",
-            "in welke taal werd het boek oorspronkelijk uitgegeven?"
+            "in welke taal werd het boek oorspronkelijk uitgegeven?",
+            "wil de tekst vermaken, informeren of overtuigen?"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Met die twee vragen zit je er bijna altijd dicht bij."
         },
@@ -5001,11 +5175,15 @@
             "de biografie en de autobiografie",
             "het reisverhaal en het journalistieke boek",
             "de novelle en het kortverhaal",
-            "het toneelstuk en het gedicht"
+            "het toneelstuk en het gedicht",
+            "het essay",
+            "het handboek en het historisch overzicht"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Ook een handboek, een essay en een historisch overzicht horen erbij."
         },
@@ -5086,11 +5264,13 @@
             "het slot liet me onvoldaan, omdat één vraag open bleef",
             "ik herkende mezelf in het hoofdpersonage, vooral in zijn twijfel",
             "ik heb het boek in drie dagen uitgelezen",
-            "het boek stond in de kast van mijn grootmoeder"
+            "het boek stond in de kast van mijn grootmoeder",
+            "de stijl hield me op afstand, want de zinnen waren erg lang"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een bruikbare uitspraak zegt iets over het boek, niet enkel over de omstandigheden."
         },
@@ -5172,11 +5352,15 @@
             "volledige zinnen en standaardtaal",
             "u of een beroepstitel om iemand aan te spreken",
             "afkortingen en emoji in de tekst",
-            "woorden uit het dialect van de streek"
+            "woorden uit het dialect van de streek",
+            "geen spreektaalwendingen",
+            "een nette aanhef en afsluiting"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Ook: geen spreektaalwendingen en geen woorden die enkel in een vriendengroep gelden."
         },
@@ -5217,11 +5401,13 @@
             "de vraag als vraag stellen in plaats van als bevel",
             "een woordje als misschien of eventueel toevoegen",
             "de vraag in het dialect van de streek stellen",
-            "de vraag in hoofdletters zetten voor de nadruk"
+            "de vraag in hoofdletters zetten voor de nadruk",
+            "er graag of alstublieft bij zetten"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "'Zou je dit kunnen nakijken?' klinkt anders dan 'Kijk dit na.'"
         },
@@ -5283,11 +5469,15 @@
             "wie je gesprekspartner is en hoe goed je die kent",
             "wat je met je boodschap wil bereiken",
             "hoeveel woorden je boodschap mag hebben",
-            "welk lettertype je voor je tekst gebruikt"
+            "welk lettertype je voor je tekst gebruikt",
+            "de plaats en het moment van het gesprek",
+            "of je mondeling of schriftelijk spreekt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Ook de plaats en het moment doen mee: een mondeling verzoek in een gang is iets anders dan een brief."
         },
@@ -5362,11 +5552,13 @@
             "jij in plaats van u gebruiken",
             "korte zinnen en spreektaalwendingen toelaten",
             "de alinea's genummerd weergeven",
-            "de bronnen achteraan de tekst zetten"
+            "de bronnen achteraan de tekst zetten",
+            "iemand met zijn voornaam aanspreken"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Informeel is niet slordig. Het is een andere toon, met evenveel zorg."
         },
@@ -5419,11 +5611,15 @@
             "een dialect heeft zijn eigen klanken en woorden",
             "iemand kan meerdere varieteiten vlot beheersen",
             "tussentaal is een gebrekkige vorm van dialect",
-            "jongerentaal blijft decennia lang hetzelfde"
+            "jongerentaal blijft decennia lang hetzelfde",
+            "tussentaal zit tussen dialect en standaardtaal",
+            "jongerentaal verandert heel snel"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Tussentaal zit tussen dialect en standaardtaal, en jongerentaal verandert juist heel snel."
         },
@@ -5498,11 +5694,13 @@
             "eerst zeggen wat je begrijpt van de andere kant",
             "de boodschap zelf duidelijk en zonder omhaal brengen",
             "de boodschap verstoppen in een lange inleiding",
-            "de boodschap door iemand anders laten doorgeven"
+            "de boodschap door iemand anders laten doorgeven",
+            "zelf een voorstel of een uitweg aanbieden"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Zacht in de vorm, helder in de inhoud. Dat is de hele kunst."
         },
@@ -5568,11 +5766,15 @@
             "altijd en nooit",
             "iedereen en niemand",
             "soms en vaak",
-            "ongeveer en meestal"
+            "ongeveer en meestal",
+            "alle en geen enkele",
+            "overal en nergens"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Soms, vaak en meestal nuanceren juist. Altijd en nooit laten geen uitzondering toe."
         },
@@ -5647,11 +5849,13 @@
             "moeilijke vaktermen uitleggen bij het eerste gebruik",
             "aanspreken op een manier die iedereen insluit",
             "zo veel mogelijk afkortingen in de tekst zetten",
-            "de tekst in een kleiner lettertype afdrukken"
+            "de tekst in een kleiner lettertype afdrukken",
+            "korte zinnen en een duidelijke opbouw"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Toegankelijkheid zit in de woorden en in de vorm, niet in één van de twee alleen."
         },
@@ -5769,11 +5973,15 @@
             "veel jongeren in dit onderzoek lezen minder dan vroeger",
             "een deel van de ondervraagden zegt dat het niet weet",
             "jongeren lezen vandaag helemaal geen boeken meer",
-            "niemand van die generatie heeft nog belangstelling"
+            "niemand van die generatie heeft nog belangstelling",
+            "in deze klas leest ongeveer de helft elke dag",
+            "volgens dit onderzoek leest een deel van de jongeren minder"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Je zegt over wie je spreekt en hoeveel. Dat kost vier woorden en het houdt stand."
         },
@@ -5860,11 +6068,13 @@
             "wie komt hier aan het woord en wie niet?",
             "op welke gegevens steunen de uitspraken over die groep?",
             "hoeveel alinea's besteedt de tekst aan het onderwerp?",
-            "in welk lettertype werd de tekst gezet?"
+            "in welk lettertype werd de tekst gezet?",
+            "wordt de groep als één geheel voorgesteld?"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Wie mag spreken en op welke grond: daarmee heb je het meeste al gezien."
         },
@@ -5945,11 +6155,15 @@
             "mensen uit die groep zelf aan het woord laten",
             "meerdere verhalen naast elkaar zetten in plaats van één",
             "een woordenlijst met vaktermen toevoegen",
-            "de tekst korter maken dan oorspronkelijk gepland"
+            "de tekst korter maken dan oorspronkelijk gepland",
+            "de groep niet als één geheel voorstellen",
+            "nagaan wie in de tekst niet aan het woord komt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Eén verhaal wordt al snel het verhaal. Meerdere verhalen laten de verschillen zien."
         },
