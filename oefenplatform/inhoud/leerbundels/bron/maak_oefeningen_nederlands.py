@@ -308,7 +308,7 @@ OEFENBUNDELS["oefenbundel-taalsysteem-en-taalgebruik"] = dict(
                  ("rij", [("voetbal", "samenstelling"), ("vriendelijk", "geen samenstelling"),
                           ("boekentas", "samenstelling"), ("snelheid", "geen samenstelling")],
                   "Samenstelling of niet?", WW),
-                 ("rij", [("regenjas", "2"), ("computer", "3"),
+                 ("rij", [("regenjas", "3"), ("computer", "3"),
                           ("aardappel", "3"), ("school", "1")],
                   "Hoeveel lettergrepen?", "70px"),
                  ("kies", "Welk woord is een verkleinwoord?",
@@ -484,6 +484,282 @@ OEFENBUNDELS["oefenbundel-spelling"] = dict(
                  ("open", "Schrijf juist over: \"volgende week dinsdag gaan sofie en ik naar "
                           "antwerpen\"",
                   "Volgende week dinsdag gaan Sofie en ik naar Antwerpen.", 2),
+             ]),
+    ],
+)
+
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-lezen"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je bij elke tekst af wat de schrijver ermee wil: iets uitleggen, iets laten "
+                    "doen, iets vertellen, of je iets laten kopen. Dat doel bepaalt de soort tekst.",
+             waarom=[
+                 None,
+                 "De woorden verraden het: een reclametekst prijst, overdrijft en spreekt je "
+                 "rechtstreeks aan. Een verslag vertelt gewoon wat er gebeurd is.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Een signaalwoord staat tussen twee stukken tekst en zegt hoe ze samenhangen. Lees "
+                    "de zin ervoor en de zin erna, en vraag je af: komt er een reden, een gevolg, een "
+                    "tegenstelling of een voorbeeld?",
+             waarom=[
+                 None,
+                 "Let op het verschil met want: want geeft de reden, daarom het gevolg. De honger is de "
+                 "reden, het broodje kopen is het gevolg.",
+                 "De twee stukken spreken elkaar tegen, dus hoort er een tegenstellend woord tussen.",
+             ]),
+        dict(aanpak="Een feit kan je nakijken, en iedereen komt dan tot hetzelfde antwoord. Een mening "
+                    "kan je niet nakijken: iemand anders kan er iets anders over denken.",
+             waarom=[
+                 "De proef: kan je het opzoeken, en is het dan voor iedereen hetzelfde? Mooi en saai "
+                 "zijn woorden waarover je nu eenmaal van mening kan verschillen.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Bij een uitdrukking betekent de zin niet wat er letterlijk staat. Zoek het beeld "
+                    "erachter, en lees de zin eromheen: die geeft bijna altijd de richting aan.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Wie één gegeven zoekt, laat zijn ogen over de tekst gaan tot hij het woord ziet "
+                 "staan. Woord voor woord lezen doe je pas als je de hele tekst wil begrijpen.",
+             ]),
+        dict(aanpak="Lees eerst de hele tekst, en zoek dan pas per vraag terug. Staat het antwoord er "
+                    "nergens, dan is dát het antwoord: wat niet in de tekst staat, kan je er ook niet "
+                    "uit halen.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "De hoofdgedachte is waar de hele tekst over gaat, niet één detail eruit. De strips en "
+                 "het bouwen komen wel voor, maar ze dragen de tekst niet.",
+                 "Het staat nergens in de tekst. Hoe logisch iets ook lijkt, als het er niet staat kan "
+                 "je het niet uit de tekst afleiden.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-schrijven"] = dict(
+    reeksen=[
+        dict(aanpak="De meeste meervouden krijgen -en of -s. Een handvol oude woorden gaat anders; die "
+                    "moet je gewoon kennen.",
+             waarom=[
+                 "Schip wordt schepen en lied wordt liederen: dat zijn oude vormen die je niet kan "
+                 "afleiden. Bij lade mag je kiezen tussen laden en lades.",
+                 None,
+                 "Museum komt uit het Latijn en houdt zijn Latijnse meervoud: musea. Datzelfde geldt "
+                 "voor podium → podia.",
+             ]),
+        dict(aanpak="Zoek eerst wie of wat er iets doet, en kijk pas daarna naar de tijd. Bij ik komt "
+                    "er niets bij, bij hij, zij of het een t, en bij wij, jullie of zij de vorm op -en.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Zij is hier één persoon: zij loopt. Alleen aan het werkwoord zie je of zij enkelvoud "
+                 "of meervoud is (zij loopt, zij lopen).",
+             ]),
+        dict(aanpak="Een zin begint met een hoofdletter en eindigt op een punt, een vraagteken of een "
+                    "uitroepteken. Namen van personen, steden en landen krijgen altijd een hoofdletter.",
+             waarom=[
+                 None,
+                 "Bij een vraag tussen aanhalingstekens staat het vraagteken bínnen de aanhalingstekens, "
+                 "en daarna volgt nog wie het zei.",
+                 "Voor en in een opsomming komt geen komma. De komma's staan alleen tussen de delen "
+                 "ervoor.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Denk eerst na over de volgorde en schrijf dan pas. Een verhaal heeft een begin, "
+                    "een midden en een einde; een verslag begint met wie, waar en wanneer.",
+             waarom=[
+                 None,
+                 None,
+                 "Aan een directeur schrijf je formeel: geachte mevrouw of geachte heer. Hey en dag jij "
+                 "horen bij vrienden.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-spreken-en-luisteren"] = dict(
+    reeksen=[
+        dict(aanpak="Luisteren is iets dat je doet: je laat de ander uitspreken, je kijkt hem aan, en "
+                    "je vraagt na wat je niet begrepen hebt.",
+             waarom=[
+                 "Wie onderbreekt, hoort de helft niet. Ben je bang je idee te vergeten, schrijf dan "
+                 "één woord op en wacht tot de ander klaar is.",
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Denk aan je publiek: zij horen het voor de eerste keer. Alles wat je doet, doe je "
+                    "zodat zij kunnen volgen.",
+             waarom=[
+                 None,
+                 "Je publiek kan niet lezen en luisteren tegelijk. Daarom staan er op een dia enkel "
+                 "kernwoorden en een beeld, en vertel jij de rest.",
+                 None,
+                 "Snel praten lijkt vlot, maar je publiek krijgt geen tijd om mee te denken. Rustig "
+                 "praten, met stiltes ertussen, volgt veel makkelijker.",
+             ]),
+        dict(aanpak="Een mening zonder reden overtuigt niemand. Zeg wat je vindt, en zeg er met want of "
+                    "omdat bij waarom je dat vindt.",
+             waarom=[
+                 None,
+                 None,
+                 "Door het te vrágen geef je hem de ruimte, zonder hem voor de groep te zetten. Zeggen "
+                 "dat hij moet meedoen, doet net het omgekeerde.",
+                 "Het verschil zit niet in wát je vindt maar in hoe je het zegt: je spreekt over het "
+                 "idee, niet over de persoon.",
+             ]),
+        dict(aanpak="Aan de telefoon ziet de ander je niet. Daarom zeg je eerst wie je bent en waarvoor "
+                    "je belt, en spreek je trager dan gewoonlijk.",
+             waarom=[
+                 None,
+                 "Op een vraag met wat of hoe kan je niet met ja of nee antwoorden. Daarom houdt zo'n "
+                 "open vraag het gesprek op gang.",
+                 "Jij belt, dus jij zegt eerst wie je bent. Anders moet de ander het vragen.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-taalsysteem-en-taalgebruik"] = dict(
+    reeksen=[
+        dict(aanpak="Vraag je bij elk woord af wat het doet in de zin: iets doen (werkwoord), iets "
+                    "benoemen (zelfstandig naamwoord), iets beschrijven (bijvoeglijk naamwoord) of de "
+                    "plaats aangeven (voorzetsel).",
+             waarom=[
+                 None,
+                 "Een voorzetsel kan je bijna altijd invullen in de zin “de kat zit … de doos”: tussen, "
+                 "onder, op, naast. Lopen, mooi en hij passen daar niet in.",
+                 None,
+             ]),
+        dict(aanpak="Zoek eerst het werkwoord. Vraag dan: wie of wat doet dat? Dat is het onderwerp. "
+                    "Vraag daarna: wie of wat ondergaat het? Dat is het lijdend voorwerp.",
+             waarom=[
+                 "Het onderwerp staat niet altijd vooraan. In “Gisteren vertrok de trein te laat” begint "
+                 "de zin met een tijd; wie vertrok er? De trein.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Bij een samenstelling kan je het woord knippen in twee hele woorden die elk op "
+                    "zichzelf bestaan: voet en bal. Een stukje als -heid of -lijk is geen woord op zich.",
+             waarom=[
+                 None,
+                 "Klap in je handen bij elke lettergreep: re-gen-jas, com-pu-ter, aard-ap-pel, school. "
+                 "Elke lettergreep heeft één klinkerklank.",
+                 None,
+                 "Snelheid is snel plus heid, en heid is geen woord op zich. Daarom is het een "
+                 "afleiding en geen samenstelling.",
+             ]),
+        dict(aanpak="Een uitdrukking betekent niet wat er letterlijk staat. Zoek het beeld erachter: "
+                    "wie de kat uit de boom kijkt, wacht af tot hij ziet hoe het afloopt.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Lepel, vork en mes zijn bestek: daarmee eet je. Een stoel hoort ook bij de tafel, "
+                 "maar niet in die groep.",
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-literatuur"] = dict(
+    reeksen=[
+        dict(aanpak="Kijk naar twee dingen: kan het in het echt gebeuren, en wat wil het verhaal? Een "
+                    "fabel wil een les geven, een mythe wil iets verklaren, een sprookje wil vooral "
+                    "vertellen.",
+             waarom=[
+                 "Een fabel en een sprookje lijken op elkaar. Het verschil: in een fabel zijn het dieren "
+                 "die zich als mensen gedragen, en staat er een les op het einde.",
+                 None,
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Hou de mensen rond een boek uit elkaar: de schrijver bedenkt het, de illustrator "
+                    "tekent, de verteller vertelt binnen het verhaal, en de hoofdpersoon is wie het "
+                    "meemaakt.",
+             waarom=[
+                 None,
+                 "De verteller is een rol in het boek. Een schrijver kan een kind, een dier of net de "
+                 "slechterik laten vertellen, en dat is hij zelf niet.",
+                 None,
+             ]),
+        dict(aanpak="Een gedicht zegt veel in weinig woorden. Rijm mag, maar moet niet: de korte regels "
+                    "onder elkaar en de zorgvuldig gekozen woorden maken het een gedicht.",
+             waarom=[
+                 None,
+                 "Veel gedichten van vandaag rijmen niet. Wat ze wel altijd hebben, is de vorm: korte "
+                 "regels, en elk woord met zorg gekozen.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Spanning komt van niet weten hoe het afloopt. De hoofdgedachte is waar het verhaal "
+                    "eigenlijk over gaat, onder de gebeurtenissen door.",
+             waarom=[
+                 None,
+                 None,
+                 "Spanning komt van de vraag “hoe loopt dit af?”. Lengte, moeilijke woorden en "
+                 "tekeningen maken een verhaal niet spannender.",
+                 None,
+             ]),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-spelling"] = dict(
+    reeksen=[
+        dict(aanpak="Verdeel het woord in lettergrepen en kijk naar de eerste. Eindigt ze op een "
+                    "klinker (bo-men), dan is ze open en schrijf je één medeklinker. Eindigt ze op een "
+                    "medeklinker (bom-men), dan is ze gesloten en verdubbelt die.",
+             waarom=[
+                 "Luister naar de klank: poot heeft een lange oo (po-ten), pot een korte o (pot-ten). "
+                 "Dezelfde regel ligt onder zaken en zakken, neuzen en huizen.",
+                 None,
+                 None,
+             ]),
+        dict(aanpak="Haal -en weg van het hele werkwoord, en pas de spelling aan waar het moet: leven "
+                    "wordt leef, razen wordt raas.",
+             waarom=[
+                 None,
+                 "Een Nederlands woord eindigt nooit op een v of een z. Daarom wordt lev tot leef, en "
+                 "raaz tot raas.",
+             ]),
+        dict(aanpak="Bij ik komt er niets bij. Bij jij, hij, zij of het komt er een t bij, behalve als "
+                    "jij áchter het werkwoord staat: dan valt de t weg.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Vergelijk de twee: “Jij wordt boos” (jij staat voor) en “Word jij boos?” (jij staat "
+                 "achter). Alleen in de tweede valt de t weg.",
+             ]),
+        dict(aanpak="Zoek de stam, en luister naar de laatste klánk. Hoor je er een van 't kofschip "
+                    "(t, k, f, s, ch, p), dan schrijf je -te of -t. In alle andere gevallen -de of -d.",
+             waarom=[
+                 None,
+                 None,
+                 None,
+                 "Veel voltooide deelwoorden eindigen op -t of -d: gehoopt, geleerd, gebouwd. Op -en "
+                 "eindigen vooral de sterke werkwoorden, zoals gelopen.",
+             ]),
+        dict(aanpak="Een verkleinwoord is altijd het: het stoeltje, het boompje. Welke uitgang je "
+                    "neemt (-je, -tje, -pje, -kje), hoor je aan de klank die ervoor staat.",
+             waarom=[
+                 None,
+                 "In het Nederlands krijgen maanden en dagen géén hoofdletter: januari, maandag. In het "
+                 "Engels wel, en daar komt de verwarring vandaan.",
+                 "Sofie en Antwerpen zijn namen en krijgen een hoofdletter, dinsdag niet.",
              ]),
     ],
 )
