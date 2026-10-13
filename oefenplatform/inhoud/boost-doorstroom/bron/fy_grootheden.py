@@ -74,8 +74,9 @@ DEEL1 = [
             r"tijdsduur met \(\Delta t\)",
             "kracht met k",
             "druk met d",
+            "snelheid met v",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg=r"De massa krijgt m en een tijdsduur krijgt \(\Delta t\). Kracht krijgt F, en k is het symbool van de veerconstante. Druk krijgt p.",
     ),
     dict(
@@ -93,8 +94,9 @@ DEEL1 = [
             "warmte en joule",
             "massadichtheid en kilogram",
             "versnelling en meter per seconde",
+            "kracht en newton",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg=r"De ohm hoort bij weerstand en de joule bij warmte. De massadichtheid heeft kg/\(\text{m}^{3}\) als eenheid, en een versnelling \(\text{m/s}^{2}\).",
     ),
     dict(
@@ -176,8 +178,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke grootheden zijn vectoriële grootheden? Kruis alles aan wat juist is.",
-        opties=["verplaatsing", "kracht", "massa", "temperatuur"],
-        antwoord=[0, 1],
+        opties=[
+            "verplaatsing",
+            "kracht",
+            "massa",
+            "temperatuur",
+            "versnelling",
+        ],
+        antwoord=[0, 1, 4],
         uitleg="Een verplaatsing en een kracht hebben een richting en een zin, dus zijn het vectoren. Massa en temperatuur zijn getallen met een eenheid, zonder richting.",
     ),
     dict(
@@ -188,8 +196,9 @@ DEEL2 = [
             "de verhouding van de twee grootheden blijft gelijk",
             "het product van de twee grootheden blijft gelijk",
             "de grafiek van het verband is een parabool",
+            "als de ene verdubbelt, verdubbelt de andere",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Recht evenredig betekent dat de verhouding gelijk blijft, en dat geeft een rechte door de oorsprong. Blijft het product gelijk, dan is het verband omgekeerd evenredig.",
     ),
     dict(
@@ -226,8 +235,9 @@ DEEL2 = [
             "je zet de eenheid bij je antwoord",
             "je rondt elk tussenresultaat af voor je verder rekent",
             "je mag de eenheid weglaten als de opgave ze al noemt",
+            "je rekent zo lang mogelijk met de volledige waarden",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Je antwoord kan niet nauwkeuriger zijn dan je gegevens, en zonder eenheid betekent een getal in de fysica niets. Afronden doe je pas op het einde, anders sleep je een afrondingsfout mee.",
     ),
     dict(

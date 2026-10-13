@@ -26,8 +26,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke namen horen bij de SI-eenheid van druk? Kruis alles aan wat juist is.",
-        opties=["de pascal", "de newton per vierkante meter", "de bar", "de newtonmeter"],
-        antwoord=[0, 1],
+        opties=[
+            "de pascal",
+            "de newton per vierkante meter",
+            "de bar",
+            "de newtonmeter",
+            "het symbool Pa",
+        ],
+        antwoord=[0, 1, 4],
         uitleg="Eén pascal is per afspraak één newton per vierkante meter, dus zijn dat twee namen voor dezelfde eenheid. De bar mag je gebruiken maar is geen SI-eenheid, en de newtonmeter hoort bij het moment van een kracht.",
     ),
     dict(
@@ -76,8 +82,9 @@ DEEL1 = [
             "een punaise",
             "een brede ski",
             "een plank onder een kraanpoot",
+            "een naald",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Een mes en een punaise hebben een klein contactoppervlak, dus veel druk bij weinig kracht. Een ski en een plank spreiden de kracht juist uit.",
     ),
     dict(
@@ -107,8 +114,10 @@ DEEL1 = [
             "de druk op het wegdek wordt kleiner",
             "de zwaartekracht op de vrachtwagen wordt kleiner",
             "de massa van de lading wordt kleiner",
+            "de kracht op het wegdek blijft dezelfde",
+            "het wegdek beschadigt minder",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="Meer wielen betekent meer contactoppervlak, en dezelfde kracht over een grotere A geeft minder druk. Zo beschadigt de vrachtwagen het wegdek minder, maar hij wordt er niet lichter van.",
     ),
     dict(
@@ -195,8 +204,10 @@ DEEL2 = [
             "de massadichtheid van de vloeistof",
             "de vorm van het vat",
             "de totale hoeveelheid vloeistof in het vat",
+            "de zwaarteveldsterkte g",
+            "het gewicht van het water boven je",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg=r"Enkel \(\rho\), g en h staan in de formule. Op dezelfde diepte is de druk in een smal buisje even groot als in een breed bad.",
     ),
     dict(
@@ -274,8 +285,10 @@ DEEL2 = [
             "de massadichtheid van het water is groter",
             "de diepte telt niet meer mee",
             "de luchtdruk boven het water is groter",
+            "de druk neemt nog altijd toe met de diepte",
+            "op dubbele diepte is de hydrostatische druk dubbel zo groot",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg=r"Zeewater heeft een grotere \(\rho\), en \(\rho\) staat in de formule. De diepte telt nog altijd mee, en de luchtdruk boven de zee is dezelfde.",
     ),
     dict(

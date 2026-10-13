@@ -47,8 +47,10 @@ DEEL1 = [
             "hexaan",
             "water",
             "natriumchloride",
+            "CH₄",
+            "Br₂",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4, 5],
         uitleg="CCl₄ is symmetrisch, dus vallen de polaire bindingen tegen elkaar weg. Alkanen zoals hexaan zijn de klassieke apolaire stoffen.",
     ),
     dict(

@@ -63,11 +63,13 @@
             "slagroom",
             "badschuim",
             "messing",
-            "mist boven een weide"
+            "mist boven een weide",
+            "een matras van schuimrubber"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "In een schuim zit een gas verdeeld in een vloeistof of in een vaste stof. Messing is een legering en mist is een aerosol."
         },
@@ -90,11 +92,13 @@
             "het kookpunt",
             "de massadichtheid",
             "de massa van het staal",
-            "het volume van het staal"
+            "het volume van het staal",
+            "het smeltpunt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een stofeigenschap hangt niet af van hoeveel je ervan hebt. Massa en volume veranderen wel met de hoeveelheid, dus die zeggen niets over welke stof het is."
         },
@@ -228,11 +232,13 @@
             "filtreren",
             "decanteren",
             "destilleren",
-            "chromatografie"
+            "chromatografie",
+            "centrifugeren"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Het zand is grover dan de poriën van een filter, dus houdt het filter het tegen. Het zakt ook naar de bodem, dus kan je het water eraf gieten."
         },
@@ -255,13 +261,15 @@
             "indampen",
             "kristalliseren",
             "filtreren",
-            "zeven"
+            "zeven",
+            "destilleren"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
-          "uitleg": "Bij indampen en kristalliseren laat je het water weggaan en blijft het zout achter. Een filter of een zeef houdt opgeloste stoffen niet tegen."
+          "uitleg": "Bij indampen, kristalliseren en destilleren laat je het water weggaan en blijft het zout achter. Een filter of een zeef houdt opgeloste stoffen niet tegen."
         },
         {
           "type": "meerkeuze",
@@ -330,11 +338,13 @@
             "ze heeft een vast kookpunt",
             "ze heeft een vast smeltpunt",
             "ze heeft een kooktraject",
-            "ze heeft altijd twee bestanddelen"
+            "ze heeft altijd twee bestanddelen",
+            "ze bestaat uit één soort deeltjes"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een zuivere stof kookt en smelt bij één temperatuur. Een traject, dus een gebied van temperaturen, hoort juist bij een mengsel."
         },
@@ -466,11 +476,13 @@
             "Cu",
             "Zn",
             "S",
-            "Ne"
+            "Ne",
+            "Fe"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Cu is koper en Zn is zink, allebei metalen. S is zwavel, een niet-metaal, en Ne is neon, een edelgas."
         },
@@ -529,11 +541,13 @@
             "O₂",
             "Fe",
             "H₂O",
-            "NaCl"
+            "NaCl",
+            "N₂"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een enkelvoudige stof bevat maar één element. O₂ bestaat enkel uit zuurstof, ijzer enkel uit ijzer. Water en keukenzout bevatten meerdere elementen."
         },
@@ -677,11 +691,13 @@
             "ze geleiden elektriciteit goed",
             "ze zijn vervormbaar",
             "ze zijn bij kamertemperatuur altijd een gas",
-            "ze hebben geen glans"
+            "ze hebben geen glans",
+            "ze geleiden warmte goed"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Metalen geleiden elektriciteit en warmte, zijn vervormbaar en hebben glans. Op kwik na zijn ze bij kamertemperatuur vast."
         },
@@ -704,11 +720,13 @@
             "neon in lichtreclame",
             "helium in een ballon",
             "chloorgas in een zwembad",
-            "zuurstofgas in een ziekenhuis"
+            "zuurstofgas in een ziekenhuis",
+            "argon bij het lassen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Neon en helium zijn edelgassen en dus inert. Chloorgas en zuurstofgas worden juist gebruikt omdát ze reageren."
         },
@@ -743,11 +761,13 @@
             "He",
             "Ar",
             "N₂",
-            "Cl₂"
+            "Cl₂",
+            "Ne"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Helium en argon staan in de laatste groep van het periodiek systeem en reageren met vrijwel niets. Stikstofgas en chloorgas zijn niet-metalen."
         },
@@ -905,11 +925,13 @@
             "je past enkel de coëfficiënten aan",
             "het aantal atomen van elk element is links en rechts gelijk",
             "je mag een index in een formule aanpassen",
-            "je mag een stof bijschrijven die er niet in staat"
+            "je mag een stof bijschrijven die er niet in staat",
+            "je controleert elk element apart"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een index aanpassen maakt er een andere stof van, en een stof bijschrijven verzint een reactie. Enkel de coëfficiënten mag je kiezen."
         },
@@ -968,11 +990,13 @@
             "er ontstaan nieuwe stoffen",
             "het aantal atomen van elk element blijft gelijk",
             "er verdwijnen atomen",
-            "er ontstaan nieuwe elementen"
+            "er ontstaan nieuwe elementen",
+            "de totale massa blijft gelijk"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De atomen worden anders gegroepeerd, dus krijg je andere stoffen. Hun aantal en hun soort veranderen niet."
         },
@@ -983,11 +1007,13 @@
             "er ontstaat een neerslag",
             "er komt een gas vrij",
             "het mengsel wordt troebel door zand",
-            "de vloeistof wordt dunner"
+            "de vloeistof wordt dunner",
+            "er komt warmte vrij"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een neerslag of een gas betekent dat er een nieuwe stof is. Zand dat troebel maakt, blijft gewoon zand."
         },
@@ -1098,11 +1124,13 @@
             "het verbranden van aardgas",
             "een handwarmer die warm wordt",
             "een koudepakje dat koud wordt",
-            "het ontleden van water met elektriciteit"
+            "het ontleden van water met elektriciteit",
+            "het roesten van ijzer"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Bij een verbranding en bij een handwarmer komt energie vrij. Een koudepakje en het ontleden van water nemen energie op."
         },
@@ -1325,11 +1353,13 @@
             "het zit in de kern",
             "het heeft geen lading",
             "het draait rond de kern",
-            "het is lichter dan een elektron"
+            "het is lichter dan een elektron",
+            "het weegt ongeveer evenveel als een proton"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een neutron is een nucleon, dus zit het in de kern, en het is ongeladen. Het weegt ongeveer hetzelfde als een proton en dus veel meer dan een elektron."
         },
@@ -1376,11 +1406,13 @@
             "het heeft evenveel elektronen als protonen",
             "zijn atoomnummer geeft het aantal elektronen",
             "het heeft evenveel neutronen als protonen",
-            "zijn massagetal geeft het aantal elektronen"
+            "zijn massagetal geeft het aantal elektronen",
+            "de som van alle ladingen is nul"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Neutraal betekent dat de plus- en de minladingen elkaar opheffen. Het aantal neutronen staat daar los van, en het massagetal telt de nucleonen."
         },
@@ -1562,11 +1594,13 @@
             "de eerste schil bevat maximaal twee elektronen",
             "de schillen worden van binnen naar buiten gevuld",
             "elke schil bevat maximaal acht elektronen",
-            "de elektronen zitten mee in de atoomkern"
+            "de elektronen zitten mee in de atoomkern",
+            "de tweede schil bevat maximaal acht elektronen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De eerste schil is met twee elektronen vol, dus is helium al een edelgas. De tweede en de derde gaan tot acht, maar niet elke schil blijft daarbij."
         },
@@ -1601,11 +1635,13 @@
             "helium",
             "argon",
             "natrium",
-            "chloor"
+            "chloor",
+            "neon"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Helium en argon zijn edelgassen en hebben een volle buitenste schil. Natrium heeft er één te veel en chloor één te weinig."
         },
@@ -1786,11 +1822,13 @@
             "magnesium",
             "calcium",
             "natrium",
-            "chloor"
+            "chloor",
+            "barium"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De aardalkalimetalen zijn groep IIA en hebben twee valentie-elektronen. Natrium staat in groep IA en chloor in groep VIIA."
         },
@@ -1837,11 +1875,13 @@
             "ze staan in de laatste groep",
             "hun buitenste schil is volledig gevuld",
             "ze vormen graag ionen",
-            "ze zijn allemaal metalen"
+            "ze zijn allemaal metalen",
+            "ze reageren met vrijwel niets"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Omdat hun buitenste schil al vol is, hebben ze niets te winnen bij een binding. Ze vormen dus geen ionen en zijn niet-metalen."
         },
@@ -2027,11 +2067,15 @@
             "fluor",
             "zuurstof",
             "natrium",
-            "calcium"
+            "calcium",
+            "stikstof",
+            "chloor"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Fluor en zuurstof staan rechtsboven, de hoek met de hoogste waarden. Natrium en calcium zijn metalen en geven hun elektronen juist af."
         },
@@ -2054,11 +2098,15 @@
             "het geeft makkelijk elektronen af",
             "het heeft een metaalkarakter",
             "het heeft een hoge elektronegativiteit",
-            "het vormt een negatief ion"
+            "het vormt een negatief ion",
+            "het vormt een positief ion",
+            "het heeft een lage elektronegativiteit"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Links staan de metalen: lage elektronegativiteit, elektronen afgeven, en dus een positief ion vormen."
         },
@@ -2192,11 +2240,15 @@
             "NaCl",
             "MgO",
             "CO₂",
-            "Cl₂"
+            "Cl₂",
+            "CaCl₂",
+            "KBr"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Natriumchloride en magnesiumoxide bestaan elk uit een metaal en een niet-metaal. CO₂ en Cl₂ bevatten enkel niet-metalen."
         },
@@ -2279,11 +2331,15 @@
             "er worden elektronen overgedragen",
             "er ontstaan geladen deeltjes",
             "er wordt een elektronenpaar gedeeld",
-            "de binding komt enkel tussen metalen voor"
+            "de binding komt enkel tussen metalen voor",
+            "de binding komt tussen een metaal en een niet-metaal voor",
+            "de stof vormt een ionrooster"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Bij een ionbinding gaan elektronen over van het ene atoom naar het andere, en daardoor krijgen beide een lading. Delen hoort bij de atoombinding."
         },
@@ -2370,11 +2426,15 @@
             "natriumchloride",
             "magnesiumoxide",
             "diamant",
-            "ijzer"
+            "ijzer",
+            "calciumchloride",
+            "kaliumbromide"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Bij een metaal met een niet-metaal liggen positieve en negatieve ionen afwisselend in een rooster. Diamant heeft een atoomrooster en ijzer een metaalrooster."
         },
@@ -2433,11 +2493,13 @@
             "als het opgelost is in water",
             "als het gesmolten is",
             "als het als vaste stof in de pot zit",
-            "als het in de koelkast staat"
+            "als het in de koelkast staat",
+            "als het in water uiteengevallen is in ionen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Er moeten vrij bewegende ladingen zijn. In het vaste rooster zitten de ionen vast; opgelost of gesmolten kunnen ze bewegen."
         },
@@ -2484,11 +2546,15 @@
             "glans",
             "goede elektrische geleiding",
             "breekbaarheid bij een kleine stoot",
-            "een laag smeltpunt bij elk metaal"
+            "een laag smeltpunt bij elk metaal",
+            "goede warmtegeleiding",
+            "vervormbaarheid"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Glans en geleiding komen allebei van de vrije elektronen. Metalen zijn juist vervormbaar, en de meeste hebben een hoog smeltpunt."
         },
@@ -2587,11 +2653,15 @@
             "CaO",
             "CO₂",
             "NaOH",
-            "HCl"
+            "HCl",
+            "MgO",
+            "Fe₂O₃"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Een oxide is een verbinding van een element met zuurstof alleen. NaOH is een hydroxide en HCl een zuur."
         },
@@ -2626,11 +2696,15 @@
             "HCl",
             "H₂SO₄",
             "NaOH",
-            "NaCl"
+            "NaCl",
+            "HNO₃",
+            "H₃PO₄"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Bij een zuur staat de waterstof vooraan. NaOH is een hydroxide en NaCl is een zout."
         },
@@ -2701,11 +2775,15 @@
             "Cl¹⁻",
             "S²⁻",
             "CO₃²⁻",
-            "PO₄³⁻"
+            "PO₄³⁻",
+            "Br¹⁻",
+            "F¹⁻"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Het chloride-ion en het sulfide-ion horen bij een binair zuur en bevatten geen zuurstof. Carbonaat en fosfaat wel."
         },
@@ -2829,11 +2907,13 @@
             "CaO, ongebluste kalk",
             "Ca(OH)₂, gebluste kalk",
             "NaOH, bijtende soda",
-            "NaHCO₃, bakpoeder"
+            "NaHCO₃, bakpoeder",
+            "CaCO₃, kalksteen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Ongebluste kalk is het oxide, gebluste kalk het hydroxide. Je maakt gebluste kalk door water bij ongebluste kalk te doen."
         },
@@ -3090,11 +3170,15 @@
             "butaan",
             "octaan",
             "etheen",
-            "ethanol"
+            "ethanol",
+            "propaan",
+            "methaan"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "De uitgang -aan hoort bij de alkanen. Etheen is een alkeen en ethanol is een alcohol."
         },
@@ -3141,13 +3225,17 @@
             "propaan",
             "butaan",
             "decaan",
-            "hexaan"
+            "hexaan",
+            "een mengsel van propaan en butaan",
+            "isobutaan"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
-          "uitleg": "Propaan en butaan zijn bij lichte druk al vloeibaar, dus krijg je er veel van in een kleine fles. Decaan en hexaan zijn bij kamertemperatuur vloeistoffen."
+          "uitleg": "Propaan, butaan en isobutaan zijn bij lichte druk al vloeibaar, apart of gemengd, dus krijg je er veel van in een kleine fles. Decaan en hexaan zijn bij kamertemperatuur vloeistoffen."
         },
         {
           "type": "waarofniet",
@@ -3289,11 +3377,15 @@
             "methaanzuur",
             "ethaanzuur",
             "methanol",
-            "etheen"
+            "etheen",
+            "propaanzuur",
+            "butaanzuur"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Een carbonzuur heeft een COOH-groep. Methanol is een alcohol en etheen een alkeen."
         },
@@ -3304,11 +3396,15 @@
             "methanol",
             "ethanol",
             "methaanzuur",
-            "etheen"
+            "etheen",
+            "propanol",
+            "butanol"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "De uitgang -ol hoort bij de alcoholen. Methaanzuur is een carbonzuur en etheen een alkeen."
         },
@@ -3466,11 +3562,15 @@
             "CCl₄",
             "hexaan",
             "water",
-            "natriumchloride"
+            "natriumchloride",
+            "CH₄",
+            "Br₂"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "CCl₄ is symmetrisch, dus vallen de polaire bindingen tegen elkaar weg. Alkanen zoals hexaan zijn de klassieke apolaire stoffen."
         },

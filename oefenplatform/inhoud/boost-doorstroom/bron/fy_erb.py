@@ -49,8 +49,9 @@ DEEL1 = [
             "de versnelling is nul",
             "de positie van het voorwerp blijft gelijk",
             "de snelheid neemt gelijkmatig toe",
+            "de x(t)-grafiek is een schuine rechte",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Bij een ERB blijft de snelheid gelijk in grootte, richting en zin, en dus is de versnelling nul. De positie verandert juist wel, anders zou het voorwerp stilstaan.",
     ),
     dict(
@@ -61,8 +62,9 @@ DEEL1 = [
             "de zin blijft gelijk",
             "het aangrijpingspunt blijft gelijk",
             "de richting verandert gelijkmatig",
+            "de richting blijft gelijk",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Bij een ERB blijven grootte, richting en zin gelijk. Het aangrijpingspunt schuift juist mee met het voorwerp, want dat verplaatst zich.",
     ),
     dict(
@@ -111,8 +113,9 @@ DEEL1 = [
             "het is een model dat het rekenen eenvoudiger maakt",
             "een puntmassa heeft geen massa",
             "enkel heel kleine voorwerpen mag je als puntmassa bekijken",
+            "ook een trein mag je zo bekijken als enkel zijn plaats telt",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Een puntmassa is een model: je vergeet de vorm en de grootte van het voorwerp. Een trein kan je als puntmassa bekijken als je enkel naar zijn plaats op het traject kijkt.",
     ),
     dict(
@@ -270,8 +273,9 @@ DEEL2 = [
             "A legt in dezelfde tijd een grotere weg af",
             "A versnelt meer dan B",
             "A en B blijven naast elkaar",
+            "de oppervlakte onder de lijn van A is groter",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Een hogere lijn in een v(t)-grafiek betekent een grotere snelheid, en dus een grotere oppervlakte eronder. Van versnellen is geen sprake: beide lijnen zijn horizontaal.",
     ),
     dict(

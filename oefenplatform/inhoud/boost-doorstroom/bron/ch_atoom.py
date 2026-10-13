@@ -47,8 +47,9 @@ DEEL1 = [
             "het heeft geen lading",
             "het draait rond de kern",
             "het is lichter dan een elektron",
+            "het weegt ongeveer evenveel als een proton",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Een neutron is een nucleon, dus zit het in de kern, en het is ongeladen. Het weegt ongeveer hetzelfde als een proton en dus veel meer dan een elektron.",
     ),
     dict(
@@ -95,8 +96,9 @@ DEEL1 = [
             "zijn atoomnummer geeft het aantal elektronen",
             "het heeft evenveel neutronen als protonen",
             "zijn massagetal geeft het aantal elektronen",
+            "de som van alle ladingen is nul",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Neutraal betekent dat de plus- en de minladingen elkaar opheffen. Het aantal neutronen staat daar los van, en het massagetal telt de nucleonen.",
     ),
     dict(
@@ -260,8 +262,9 @@ DEEL2 = [
             "de schillen worden van binnen naar buiten gevuld",
             "elke schil bevat maximaal acht elektronen",
             "de elektronen zitten mee in de atoomkern",
+            "de tweede schil bevat maximaal acht elektronen",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="De eerste schil is met twee elektronen vol, dus is helium al een edelgas. De tweede en de derde gaan tot acht, maar niet elke schil blijft daarbij.",
     ),
     dict(
@@ -296,8 +299,9 @@ DEEL2 = [
             "argon",
             "natrium",
             "chloor",
+            "neon",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Helium en argon zijn edelgassen en hebben een volle buitenste schil. Natrium heeft er één te veel en chloor één te weinig.",
     ),
     dict(

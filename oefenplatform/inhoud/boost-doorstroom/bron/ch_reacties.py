@@ -54,8 +54,9 @@ DEEL1 = [
             "het aantal atomen van elk element is links en rechts gelijk",
             "je mag een index in een formule aanpassen",
             "je mag een stof bijschrijven die er niet in staat",
+            "je controleert elk element apart",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Een index aanpassen maakt er een andere stof van, en een stof bijschrijven verzint een reactie. Enkel de coëfficiënten mag je kiezen.",
     ),
     dict(
@@ -114,8 +115,9 @@ DEEL1 = [
             "het aantal atomen van elk element blijft gelijk",
             "er verdwijnen atomen",
             "er ontstaan nieuwe elementen",
+            "de totale massa blijft gelijk",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="De atomen worden anders gegroepeerd, dus krijg je andere stoffen. Hun aantal en hun soort veranderen niet.",
     ),
     dict(
@@ -126,8 +128,9 @@ DEEL1 = [
             "er komt een gas vrij",
             "het mengsel wordt troebel door zand",
             "de vloeistof wordt dunner",
+            "er komt warmte vrij",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Een neerslag of een gas betekent dat er een nieuwe stof is. Zand dat troebel maakt, blijft gewoon zand.",
     ),
     dict(
@@ -219,8 +222,9 @@ DEEL2 = [
             "een handwarmer die warm wordt",
             "een koudepakje dat koud wordt",
             "het ontleden van water met elektriciteit",
+            "het roesten van ijzer",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Bij een verbranding en bij een handwarmer komt energie vrij. Een koudepakje en het ontleden van water nemen energie op.",
     ),
     dict(

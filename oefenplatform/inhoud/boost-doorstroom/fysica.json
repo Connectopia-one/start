@@ -99,11 +99,13 @@
             "massa met m",
             "tijdsduur met \\(\\Delta t\\)",
             "kracht met k",
-            "druk met d"
+            "druk met d",
+            "snelheid met v"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De massa krijgt m en een tijdsduur krijgt \\(\\Delta t\\). Kracht krijgt F, en k is het symbool van de veerconstante. Druk krijgt p."
         },
@@ -126,11 +128,13 @@
             "weerstand en ohm",
             "warmte en joule",
             "massadichtheid en kilogram",
-            "versnelling en meter per seconde"
+            "versnelling en meter per seconde",
+            "kracht en newton"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De ohm hoort bij weerstand en de joule bij warmte. De massadichtheid heeft kg/\\(\\text{m}^{3}\\) als eenheid, en een versnelling \\(\\text{m/s}^{2}\\)."
         },
@@ -239,11 +243,13 @@
             "verplaatsing",
             "kracht",
             "massa",
-            "temperatuur"
+            "temperatuur",
+            "versnelling"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een verplaatsing en een kracht hebben een richting en een zin, dus zijn het vectoren. Massa en temperatuur zijn getallen met een eenheid, zonder richting."
         },
@@ -254,11 +260,13 @@
             "de grafiek is een rechte door de oorsprong",
             "de verhouding van de twee grootheden blijft gelijk",
             "het product van de twee grootheden blijft gelijk",
-            "de grafiek van het verband is een parabool"
+            "de grafiek van het verband is een parabool",
+            "als de ene verdubbelt, verdubbelt de andere"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Recht evenredig betekent dat de verhouding gelijk blijft, en dat geeft een rechte door de oorsprong. Blijft het product gelijk, dan is het verband omgekeerd evenredig."
         },
@@ -305,11 +313,13 @@
             "je antwoord heeft niet meer beduidende cijfers dan het minst nauwkeurige gegeven",
             "je zet de eenheid bij je antwoord",
             "je rondt elk tussenresultaat af voor je verder rekent",
-            "je mag de eenheid weglaten als de opgave ze al noemt"
+            "je mag de eenheid weglaten als de opgave ze al noemt",
+            "je rekent zo lang mogelijk met de volledige waarden"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Je antwoord kan niet nauwkeuriger zijn dan je gegevens, en zonder eenheid betekent een getal in de fysica niets. Afronden doe je pas op het einde, anders sleep je een afrondingsfout mee."
         },
@@ -469,11 +479,13 @@
             "de snelheid blijft gelijk",
             "de versnelling is nul",
             "de positie van het voorwerp blijft gelijk",
-            "de snelheid neemt gelijkmatig toe"
+            "de snelheid neemt gelijkmatig toe",
+            "de x(t)-grafiek is een schuine rechte"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Bij een ERB blijft de snelheid gelijk in grootte, richting en zin, en dus is de versnelling nul. De positie verandert juist wel, anders zou het voorwerp stilstaan."
         },
@@ -484,11 +496,13 @@
             "de grootte blijft gelijk",
             "de zin blijft gelijk",
             "het aangrijpingspunt blijft gelijk",
-            "de richting verandert gelijkmatig"
+            "de richting verandert gelijkmatig",
+            "de richting blijft gelijk"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Bij een ERB blijven grootte, richting en zin gelijk. Het aangrijpingspunt schuift juist mee met het voorwerp, want dat verplaatst zich."
         },
@@ -547,11 +561,13 @@
             "je doet alsof de hele massa in één punt zit",
             "het is een model dat het rekenen eenvoudiger maakt",
             "een puntmassa heeft geen massa",
-            "enkel heel kleine voorwerpen mag je als puntmassa bekijken"
+            "enkel heel kleine voorwerpen mag je als puntmassa bekijken",
+            "ook een trein mag je zo bekijken als enkel zijn plaats telt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een puntmassa is een model: je vergeet de vorm en de grootte van het voorwerp. Een trein kan je als puntmassa bekijken als je enkel naar zijn plaats op het traject kijkt."
         },
@@ -760,11 +776,13 @@
             "A loopt sneller dan B",
             "A legt in dezelfde tijd een grotere weg af",
             "A versnelt meer dan B",
-            "A en B blijven naast elkaar"
+            "A en B blijven naast elkaar",
+            "de oppervlakte onder de lijn van A is groter"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een hogere lijn in een v(t)-grafiek betekent een grotere snelheid, en dus een grotere oppervlakte eronder. Van versnellen is geen sprake: beide lijnen zijn horizontaal."
         },
@@ -934,11 +952,13 @@
             "de versnelling blijft gelijk",
             "de snelheid neemt toe",
             "de snelheid blijft gelijk",
-            "het voorwerp staat stil"
+            "het voorwerp staat stil",
+            "de v(t)-grafiek is een schuine rechte die stijgt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De versnelling is constant en positief, dus de snelheid groeit gelijkmatig. Een voorwerp in rust zou een versnelling van nul hebben."
         },
@@ -985,11 +1005,13 @@
             "hij heeft dezelfde richting als de snelheid",
             "hij heeft de tegengestelde zin van de snelheid",
             "hij heeft dezelfde zin als de snelheid",
-            "hij is nul"
+            "hij is nul",
+            "de snelheid wordt kleiner"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Bij vertragen liggen snelheid en versnelling op dezelfde rechte, dus dezelfde richting, maar met tegengestelde zin. Daarom wordt de snelheid kleiner."
         },
@@ -1089,11 +1111,13 @@
             "een val waarbij enkel de zwaartekracht werkt",
             "een val waarbij je de luchtweerstand buiten beschouwing laat",
             "elke beweging die naar beneden gaat",
-            "een val met een snelheid die gelijk blijft"
+            "een val met een snelheid die gelijk blijft",
+            "een val met een versnelling van \\(9{,}81\\ \\text{m/s}^{2}\\)"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Enkel de zwaartekracht werkt, dus laat je de luchtweerstand weg. Het is een model: in het echt is er altijd wat lucht."
         },
@@ -1128,11 +1152,13 @@
             "de snelheid is daar nul",
             "de versnelling is daar \\(9{,}81\\ \\text{m/s}^{2}\\) naar beneden",
             "de versnelling is daar nul",
-            "de zwaartekracht werkt daar niet"
+            "de zwaartekracht werkt daar niet",
+            "de zwaartekracht blijft daar werken"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Op het hoogste punt keert de beweging om, dus is de snelheid één ogenblik nul. De zwaartekracht blijft wel werken, dus ook de valversnelling."
         },
@@ -1203,11 +1229,13 @@
             "de luchtweerstand is dan even groot als de zwaartekracht",
             "de resulterende kracht is dan nul",
             "de zwaartekracht is dan verdwenen",
-            "de versnelling is dan \\(9{,}81\\ \\text{m/s}^{2}\\)"
+            "de versnelling is dan \\(9{,}81\\ \\text{m/s}^{2}\\)",
+            "de versnelling is dan nul"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Zodra de luchtweerstand even groot is als de zwaartekracht, heffen de twee krachten elkaar op. De resulterende kracht is dan nul en de snelheid verandert niet meer."
         },
@@ -1353,11 +1381,13 @@
             "een grootte in newton",
             "een aangrijpingspunt op het voorwerp",
             "een massa in kilogram",
-            "een eenheid in joule"
+            "een eenheid in joule",
+            "een zin langs die richting"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een kracht heeft een grootte, een richting, een zin en een aangrijpingspunt. De massa en de joule horen bij andere grootheden."
         },
@@ -1404,11 +1434,13 @@
             "ze staan loodrecht op elkaar",
             "de wrijvingskracht ligt langs het oppervlak",
             "ze hebben dezelfde richting",
-            "ze zijn altijd even groot"
+            "ze zijn altijd even groot",
+            "de normaalkracht staat loodrecht op het oppervlak"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De normaalkracht staat loodrecht op het oppervlak en de wrijvingskracht ligt erlangs, dus de twee staan loodrecht op elkaar. Hun grootte heeft niets met elkaar te maken behalve via de wrijvingscoëfficiënt."
         },
@@ -1553,11 +1585,13 @@
             "zijn massa blijft dezelfde als op aarde",
             "hij lijkt gewichtloos",
             "zijn massa is nul",
-            "de aarde trekt niet meer aan hem"
+            "de aarde trekt niet meer aan hem",
+            "de aarde trekt nog altijd aan hem"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De massa verandert nooit van plaats tot plaats. De astronaut voelt zich gewichtloos omdat hij samen met het station in een vrije val rond de aarde beweegt, niet omdat de zwaartekracht verdwenen is."
         },
@@ -1628,11 +1662,13 @@
             "ze heeft geen eenheid",
             "ze hangt af van de twee materialen die over elkaar schuiven",
             "ze wordt in newton uitgedrukt",
-            "ze hangt af van de massa van het voorwerp"
+            "ze hangt af van de massa van het voorwerp",
+            "ze is een verhouding van twee krachten"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "\\(\\mu\\) is een verhouding van twee krachten, dus een getal zonder eenheid. Ze hangt af van het soort oppervlakken, niet van de massa: die zit al in de normaalkracht."
         },
@@ -1643,11 +1679,15 @@
             "de zwaarteveldsterkte",
             "de massa van het voorwerp",
             "de grootte van de zwaartekracht",
-            "de eenheid waarin je de kracht meet"
+            "de eenheid waarin je de kracht meet",
+            "de valversnelling ter plaatse",
+            "hoe zwaar het voorwerp aanvoelt"
           ],
           "antwoord": [
             0,
-            2
+            2,
+            4,
+            5
           ],
           "uitleg": "De zwaarteveldsterkte op de maan is ongeveer \\(1{,}62\\) N/kg in plaats van \\(9{,}81\\) N/kg, dus is de zwaartekracht er ongeveer zes keer kleiner. De massa blijft dezelfde en de newton blijft de newton."
         },
@@ -1745,11 +1785,13 @@
             "de massadichtheid van de vloeistof",
             "het ondergedompelde volume",
             "de massa van het voorwerp",
-            "de vorm van het voorwerp"
+            "de vorm van het voorwerp",
+            "de zwaarteveldsterkte"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Enkel de vloeistof, de zwaarteveldsterkte en het volume dat onder water zit, tellen mee. Twee voorwerpen van hetzelfde volume ondervinden dezelfde archimedeskracht, ook als de ene veel zwaarder is."
         },
@@ -1832,11 +1874,15 @@
             "bij hetzelfde ondergedompelde volume is de archimedeskracht groter",
             "er zit een kleiner deel van het voorwerp onder water",
             "de zwaartekracht op het voorwerp wordt eveneens groter",
-            "het voorwerp wordt in zout water zelf ook zwaarder"
+            "het voorwerp wordt in zout water zelf ook zwaarder",
+            "het voorwerp drijft hoger",
+            "elke liter verplaatst water duwt harder omhoog"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Een grotere \\(\\rho\\) geeft bij hetzelfde volume meer archimedeskracht, dus het voorwerp hoeft minder diep te zakken om zijn gewicht te dragen. De zwaartekracht hangt enkel van de massa af en verandert niet."
         },
@@ -2007,11 +2053,13 @@
             "de som van alle krachten is nul",
             "de som van alle krachtmomenten is nul",
             "er werkt geen enkele kracht",
-            "de krachtarmen zijn allemaal even lang"
+            "de krachtarmen zijn allemaal even lang",
+            "de krachten mogen werken, zolang ze elkaar opheffen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De eerste voorwaarde is het translatie-evenwicht, de tweede het rotatie-evenwicht. Er mogen wel krachten werken, zolang ze elkaar opheffen."
         },
@@ -2058,11 +2106,15 @@
             "de zwaartekracht op de balk",
             "de twee steunkrachten van de steunpunten",
             "de momenten van de krachten",
-            "de massa van de balk in kilogram"
+            "de massa van de balk in kilogram",
+            "de zwaartekracht op wat er bovenop ligt",
+            "de kracht die iemand op de balk uitoefent"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Een krachtenbalans telt enkel krachten in newton. De momenten horen in de krachtmomentenbalans, en een massa is geen kracht."
         },
@@ -2171,11 +2223,13 @@
             "de pascal",
             "de newton per vierkante meter",
             "de bar",
-            "de newtonmeter"
+            "de newtonmeter",
+            "het symbool Pa"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Eén pascal is per afspraak één newton per vierkante meter, dus zijn dat twee namen voor dezelfde eenheid. De bar mag je gebruiken maar is geen SI-eenheid, en de newtonmeter hoort bij het moment van een kracht."
         },
@@ -2234,11 +2288,13 @@
             "een scherp mes",
             "een punaise",
             "een brede ski",
-            "een plank onder een kraanpoot"
+            "een plank onder een kraanpoot",
+            "een naald"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een mes en een punaise hebben een klein contactoppervlak, dus veel druk bij weinig kracht. Een ski en een plank spreiden de kracht juist uit."
         },
@@ -2273,11 +2329,15 @@
             "het contactoppervlak met de weg wordt groter",
             "de druk op het wegdek wordt kleiner",
             "de zwaartekracht op de vrachtwagen wordt kleiner",
-            "de massa van de lading wordt kleiner"
+            "de massa van de lading wordt kleiner",
+            "de kracht op het wegdek blijft dezelfde",
+            "het wegdek beschadigt minder"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Meer wielen betekent meer contactoppervlak, en dezelfde kracht over een grotere A geeft minder druk. Zo beschadigt de vrachtwagen het wegdek minder, maar hij wordt er niet lichter van."
         },
@@ -2383,11 +2443,15 @@
             "de diepte in de vloeistof",
             "de massadichtheid van de vloeistof",
             "de vorm van het vat",
-            "de totale hoeveelheid vloeistof in het vat"
+            "de totale hoeveelheid vloeistof in het vat",
+            "de zwaarteveldsterkte g",
+            "het gewicht van het water boven je"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Enkel \\(\\rho\\), g en h staan in de formule. Op dezelfde diepte is de druk in een smal buisje even groot als in een breed bad."
         },
@@ -2470,11 +2534,15 @@
             "de hydrostatische druk is groter",
             "de massadichtheid van het water is groter",
             "de diepte telt niet meer mee",
-            "de luchtdruk boven het water is groter"
+            "de luchtdruk boven het water is groter",
+            "de druk neemt nog altijd toe met de diepte",
+            "op dubbele diepte is de hydrostatische druk dubbel zo groot"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Zeewater heeft een grotere \\(\\rho\\), en \\(\\rho\\) staat in de formule. De diepte telt nog altijd mee, en de luchtdruk boven de zee is dezelfde."
         },
@@ -2585,11 +2653,15 @@
             "de deeltjes botsen tegen de wand",
             "het gewicht van het gas drukt op de wand",
             "hoe sneller de deeltjes gaan, hoe groter de druk",
-            "de wand duwt het gas zelf samen"
+            "de wand duwt het gas zelf samen",
+            "hoe vaker de deeltjes botsen, hoe groter de druk",
+            "bij een hogere temperatuur stijgt de druk"
           ],
           "antwoord": [
             0,
-            2
+            2,
+            4,
+            5
           ],
           "uitleg": "Elk deeltje dat tegen de wand botst, duwt er even tegen, en samen geeft dat een constante druk. Snellere deeltjes botsen harder en vaker, dus stijgt de druk met de temperatuur."
         },
@@ -2636,11 +2708,15 @@
             "de kinetische energie van de deeltjes is nul",
             "de druk van het gas is nul",
             "de massa van de deeltjes is nul",
-            "het gas weegt niets meer"
+            "het gas weegt niets meer",
+            "het volume van een ideaal gas zou nul zijn",
+            "de deeltjes staan stil in het model"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Bij \\(0\\) K staan de deeltjes stil in het model, dus botsen ze niet meer: geen kinetische energie en geen druk. Ook het volume van een ideaal gas zou nul zijn. Hun massa blijft wel bestaan."
         },
@@ -2675,11 +2751,15 @@
             "de deeltjes hebben zelf geen volume in het model",
             "de deeltjes trekken elkaar niet aan in het model",
             "een ideaal gas bestaat in het echt niet",
-            "een ideaal gas kan niet van druk veranderen"
+            "een ideaal gas kan niet van druk veranderen",
+            "geen enkel echt gas is precies ideaal",
+            "echte gassen volgen het model goed bij lage druk"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Het model vergeet het eigen volume en de aantrekking tussen de deeltjes. Echte gassen volgen het goed bij lage druk en hoge temperatuur, maar geen enkel gas is precies ideaal."
         },
@@ -2908,11 +2988,15 @@
             "ze geldt voor een vaste hoeveelheid gas",
             "de temperatuur moet in kelvin staan",
             "ze geldt enkel bij constante druk",
-            "ze geldt enkel bij constante temperatuur"
+            "ze geldt enkel bij constante temperatuur",
+            "p, V en T mogen alle drie veranderen",
+            "de afzonderlijke gaswetten zijn er gevallen van"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Zolang er geen gas bij komt of weggaat, mogen p, V en T alle drie veranderen. De afzonderlijke gaswetten zijn gevallen waarin één ervan gelijk blijft."
         },
@@ -3123,11 +3207,15 @@
             "stralingsenergie",
             "chemische energie",
             "wrijvingsenergie",
-            "drukenergie"
+            "drukenergie",
+            "kernenergie",
+            "thermische energie"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Stralingsenergie en chemische energie horen bij de energievormen, naast de kinetische, de twee potentiële, de thermische, de elektrische en de kernenergie. Wrijving is een kracht en druk een grootheid, geen van beide een energievorm."
         },
@@ -3138,11 +3226,15 @@
             "er gaat geen energie in of uit",
             "er gaat geen materie in of uit",
             "de energie erin kan niet van vorm veranderen",
-            "het is hetzelfde als een open systeem"
+            "het is hetzelfde als een open systeem",
+            "binnenin mag de energie van vorm veranderen",
+            "een gesloten systeem houdt enkel de materie binnen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Een geïsoleerd systeem wisselt noch materie noch energie uit. Binnenin mag de energie wel van vorm veranderen, zolang de som gelijk blijft. Een gesloten systeem houdt enkel de materie binnen."
         },
@@ -3323,11 +3415,15 @@
             "elektrische energie wordt thermische energie",
             "een deel van de warmte gaat naar de omgeving",
             "thermische energie wordt elektrische energie",
-            "chemische energie wordt kinetische energie"
+            "chemische energie wordt kinetische energie",
+            "de weerstand in het element wordt warm",
+            "een deel van de energie gaat mee met de damp"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "De weerstand zet elektrische energie om in warmte voor het water, en een deel ontsnapt via de wand en de damp. Het omgekeerde gebeurt niet in een waterkoker."
         },
@@ -3338,11 +3434,15 @@
             "de breedte van een pijl hoort bij de hoeveelheid energie",
             "alle uitgaande energie samen is zoveel als de ingaande",
             "de ongewenste energie laat je er gewoon buiten",
-            "het diagram toont enkel de nuttige energie erin"
+            "het diagram toont enkel de nuttige energie erin",
+            "ook de ongewenste energie staat erin",
+            "het diagram laat zien waar de energie naartoe gaat"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Een stroomdiagram laat zien waar de energie naartoe gaat, nuttig én ongewenst. Door de wet van behoud van energie moet alles wat ingaat er ook weer uit."
         },
@@ -3454,11 +3554,15 @@
             "ze gaat van het warme naar het koude voorwerp",
             "ze gaat van het koude naar het warme voorwerp",
             "ze stopt zodra beide dezelfde temperatuur hebben",
-            "ze gaat van het zware naar het lichte voorwerp"
+            "ze gaat van het zware naar het lichte voorwerp",
+            "ze stroomt zolang er een temperatuurverschil is",
+            "ze hangt niet af van de massa van de voorwerpen"
           ],
           "antwoord": [
             0,
-            2
+            2,
+            4,
+            5
           ],
           "uitleg": "Warmte stroomt altijd van hoge naar lage temperatuur, en stopt bij het thermisch evenwicht. De massa van de voorwerpen beslist daar niets over."
         },
@@ -3541,11 +3645,15 @@
             "ze bestaat uit een kinetisch en een potentieel deel",
             "ze stijgt als de absolute temperatuur stijgt",
             "ze is gelijk aan nul bij een temperatuur van \\(0^{\\circ}\\text{C}\\)",
-            "ze hangt enkel van het volume van het voorwerp af"
+            "ze hangt enkel van het volume van het voorwerp af",
+            "bij \\(0\\) K zou de beweging van de deeltjes stoppen",
+            "ze hangt af van de massa en van de soort stof"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "De deeltjes bewegen en trekken aan elkaar, dus zijn er twee delen. Een hogere absolute temperatuur betekent meer inwendige kinetische energie. Bij \\(0^{\\circ}\\text{C}\\) is er nog altijd beweging, pas bij \\(0\\) K zou die stoppen."
         },
@@ -3556,11 +3664,15 @@
             "de warme stof beweegt zelf naar een andere plaats",
             "ze komt voor in vloeistoffen en gassen",
             "ze komt vooral voor in vaste stoffen",
-            "ze heeft geen stof nodig"
+            "ze heeft geen stof nodig",
+            "warme lucht stijgt en koude lucht zakt",
+            "in een vaste stof werkt geleiding in haar plaats"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Warme lucht of warm water is lichter en stijgt, koude stof zakt. In een vaste stof kan de stof niet stromen, daar werkt geleiding."
         },
@@ -3742,11 +3854,15 @@
             "de cohesiekrachten tussen de deeltjes worden losser",
             "de inwendige potentiële energie stijgt",
             "de deeltjes gaan sneller bewegen",
-            "de temperatuur stijgt gelijkmatig"
+            "de temperatuur stijgt gelijkmatig",
+            "de temperatuur blijft tijdens het smelten gelijk",
+            "de warmte gaat naar het losmaken van de deeltjes"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "De energie gaat naar het losmaken van de deeltjes uit hun vast verband, dus naar de inwendige potentiële energie. Hun gemiddelde snelheid, en dus de temperatuur, blijft gelijk."
         },
@@ -3757,11 +3873,15 @@
             "stollen",
             "condenseren",
             "smelten",
-            "verdampen"
+            "verdampen",
+            "desublimeren",
+            "het bevriezen van water"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4,
+            5
           ],
           "uitleg": "Stollen en condenseren gaan naar een meer gebonden toestand, dus komt er energie vrij. Smelten en verdampen hebben juist warmte nodig."
         },
