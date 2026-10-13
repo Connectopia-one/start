@@ -959,3 +959,837 @@ zet("presenteren-en-gegevens-in-een-databank",
                   "voorwaarde.", 3),
              ]),
     ])
+
+
+# ============================================================
+# De uitlegbladen: één los blad per oefenbundel, met dezelfde nummers.
+# Per reeks een aanpak, en per oefening een waarom waar het antwoord op zich
+# niet genoeg zegt. Een None laat het blad die oefening overslaan.
+# ============================================================
+
+UITLEGBLADEN = {}
+
+UITLEGBLADEN["oefenbundel-waarom-boekhouden-en-hoe-het-werkt-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vraag je bij elke reden af wie de informatie nodig heeft om een beslissing "
+                   "te nemen. Dat is telkens iemand anders, en daarom moet een boekhouding meer "
+                   "dan één publiek dienen. Zoek dus niet wie er iets mee te maken heeft, maar "
+                   "wie er iets mee beslist.",
+            waarom=[
+                "De leveranciers en de bank lijken op elkaar, maar hun beslissing is niet "
+                "dezelfde. De bank vraagt zich af of je een lening over jaren kan afbetalen, de "
+                "leverancier of je de factuur binnen dertig dagen betaalt.",
+                "Let op dat het twee verschillende doelen zijn en niet twee keer hetzelfde. "
+                "Intern mag een cijfer een vermoeden zijn waarmee je stuurt; extern moet het "
+                "volgens vaste regels opgemaakt zijn, want anderen rekenen erop.",
+            ],
+        ),
+        dict(
+            aanpak="Zes woorden die je door elkaar kan halen. Houd de drie boeken uit elkaar met "
+                   "hun ordening: het dagboek staat op datum, het grootboek per rekening, de "
+                   "proefbalans is enkel de eindstand van elke rekening. Het is dus drie keer "
+                   "dezelfde informatie, anders geordend.",
+            waarom=[
+                "Activa en passiva zijn geen bezit en schuld. De passiva bevatten ook het "
+                "kapitaal, en dat is geen schuld aan een vreemde maar aan de eigenaars. Daarom "
+                "zegt men beter: alles wat ze bezit en waarmee ze dat betaald heeft.",
+                "Dat er bewezen moet kunnen worden, is niet alleen een eis van de fiscus. Zonder "
+                "stuk kan je ook zelf achteraf niet meer nagaan wat er precies gebeurd is.",
+                "Waar, en dat is belangrijker dan het lijkt. Een bewijsstuk hoeft geen factuur "
+                "te zijn: een kasticket, een bankuittreksel of een creditnota doet hetzelfde "
+                "werk. Het bedrag beslist niet of iets een bewijsstuk is.",
+            ],
+        ),
+        dict(
+            aanpak="Dubbel boekhouden betekent niet dat je twee keer hetzelfde schrijft, maar dat "
+                   "je elke verrichting van twee kanten bekijkt: waar komt het geld terecht en "
+                   "waar komt het van. Voor elke oefening: zoek eerst welke twee rekeningen "
+                   "bewegen, dan in welke richting, en pas daarna debet of credit.",
+            waarom=[
+                None,
+                "Hier wordt de onderneming niet rijker. Ze had al een vordering van 1 210 euro, "
+                "en die wordt nu geld. Er verschuift dus alleen iets binnen de activa, en het "
+                "balanstotaal blijft hetzelfde.",
+                "Je kan het ook omgekeerd zeggen: de balans is niet in evenwicht omdat ze goed "
+                "ingevuld is, maar omdat ze niet anders kan. Loopt ze niet gelijk, dan is er "
+                "ergens maar één kant van een boeking opgeschreven.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-balans-en-de-resultatenrekening-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Eén vraag beslist alles: is dit iets wat de onderneming heeft, of iets "
+                   "waarmee ze het betaald heeft? Het eerste staat links bij de activa, het "
+                   "tweede rechts bij de passiva. Let op de twee facturen in deze rij: een "
+                   "factuur die een klant nog moet betalen is bezit, een factuur die jij nog "
+                   "moet betalen is herkomst.",
+            waarom=[
+                "Die twee facturen zijn het klassieke struikelpunt. Hetzelfde woord factuur "
+                "staat één keer links en één keer rechts; wat beslist, is wie wie nog moet "
+                "betalen.",
+                "Let erop dat dit geen regel is die men ooit zo afgesproken heeft. Het evenwicht "
+                "is een gevolg van wat de twee zijden betekenen, en daarom kan je er altijd een "
+                "ontbrekend bedrag mee berekenen.",
+            ],
+        ),
+        dict(
+            aanpak="Een ontbrekend bedrag op een balans bereken je altijd op dezelfde manier: "
+                   "tel de zijde op die je volledig kent, en haal daar de gekende posten van de "
+                   "andere zijde van af. Werk met een vaste orde, van boven naar beneden, zodat "
+                   "je geen post vergeet.",
+            waarom=[
+                None,
+                "Reken mee: de activa tellen op tot 214 000. De gekende passiva zijn 134 000, "
+                "dus blijft er 80 000 over voor de lening. Het totaal van de passiva is dus "
+                "geen uitkomst die je berekent maar iets wat je van de activa overneemt.",
+            ],
+        ),
+        dict(
+            aanpak="Een kost gaat weg en komt niet terug, een opbrengst komt binnen. Pas op met "
+                   "de aankoop van handelsgoederen: dat is een kost, ook al heb je er nog "
+                   "voorraad voor in huis. En reken intresten die je ontvangt bij de "
+                   "opbrengsten, ook als het maar een paar euro is.",
+            waarom=[
+                "De eerste twee lijnen staan er bewust naast elkaar: dezelfde goederen zijn een "
+                "kost bij de aankoop en een opbrengst bij de verkoop. Het verschil tussen die "
+                "twee is waar de onderneming van leeft.",
+                "480 000 − 415 000 = 65 000 euro winst. Let op het tweede deel van de vraag, "
+                "want daar gaat het echt om: de resultatenrekening vertelt hoe het jaar liep, "
+                "en haar uitkomst belandt op de balans.",
+                "Het helpt om het van de eigenaars uit te bekijken: de winst is geld dat in de "
+                "zaak zit en dat aan hen toekomt. Dat is dus een herkomst, net als het kapitaal "
+                "dat ze er zelf in staken.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-het-mar-en-het-redeneerschema-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Het MAR is geordend op looptijd en op soort, niet op belangrijkheid. De "
+                   "klassen 1 tot 5 zijn de balans, de klassen 6 en 7 zijn de "
+                   "resultatenrekening. Onthoud dat 4 over ten hoogste één jaar gaat en 1 over "
+                   "meer dan één jaar; met dat ene onderscheid plaats je de meeste rekeningen al.",
+            waarom=[
+                "Merk op dat klasse 1 en klasse 4 beide schulden bevatten. Het enige verschil is "
+                "de looptijd: een lening op vijf jaar staat in 1, een leverancier die je deze "
+                "maand betaalt in 4.",
+                "Het eerste cijfer van het rekeningnummer is de klasse. Dat is geen toeval maar "
+                "de hele opzet van het MAR, en het is het snelste hulpmiddel dat je hebt: 604 "
+                "begint met een 6, dus is het een kost.",
+            ],
+        ),
+        dict(
+            aanpak="Het redeneerschema werkt altijd in vier stappen, in deze orde: welke "
+                   "rekeningen, welk soort, stijgt of daalt, en dan pas debet of credit. Sla de "
+                   "derde stap nooit over, want debet of credit volgt uit het soort én de "
+                   "richting samen, niet uit het soort alleen.",
+            waarom=[
+                "Let erop dat de goederen hier nog niet betaald zijn. De kost staat er wel al, "
+                "want de onderneming heeft de goederen gekregen; de betaling is een tweede, "
+                "latere verrichting.",
+                "Hier dalen noch stijgen de activa in totaal. Een vordering wordt geld, dus 550 "
+                "stijgt en 400 daalt met hetzelfde bedrag.",
+                "Vergelijk deze met de vorige: ook hier verdwijnt er geld van de bank, maar nu "
+                "komt er geen bezit in de plaats. Daarom staat er tegenover de daling van 550 "
+                "een kost en geen actief.",
+            ],
+        ),
+        dict(
+            aanpak="Deze tabel is de kern van het hele vak. Hij staat in twee kolommen: welke "
+                   "kant een toename neemt, en welke kant een afname. Activa en kosten nemen toe "
+                   "aan de debetzijde, passiva en opbrengsten aan de creditzijde. Ken je dat "
+                   "rijtje, dan hoef je nooit meer te raden.",
+            waarom=[
+                None,
+                "Je kan het ook via de balans zien: een kost maakt het eigen vermogen kleiner, "
+                "en het eigen vermogen staat aan de creditzijde. Kleiner worden aan de "
+                "creditzijde is boeken aan de debetzijde, en daar staat de kost dus.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-aankopen-documenten-kortingen-en-btw-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De zes documenten volgen de twee vragen die een handel altijd stelt: eerst "
+                   "wat kost het, dan geef mij dat. Vraag en aanbod vooraan, dan de bestelling, "
+                   "dan de goederen, en pas achteraan het geld. Een document dat over geld gaat, "
+                   "komt dus nooit voor de levering.",
+            waarom=[
+                None,
+                "Het verschil is niet dat het ene document goederen vermeldt en het andere geld. "
+                "Beide noemen de goederen; het verschil is dat de factuur een vraag tot betaling "
+                "is, met de btw erop, en daarmee ook een stuk voor de fiscus.",
+            ],
+        ),
+        dict(
+            aanpak="Kortingen tellen altijd na elkaar, nooit samen opgeteld. Eerst de "
+                   "handelskorting op de brutoprijs, dan de korting contant op wat er overblijft. "
+                   "En onthoud de twee richtingen van de btw: erbij doe je met × 1,21, eruit "
+                   "haal je met ÷ 1,21. Nooit 21 % van een bedrag dat de btw al bevat.",
+            waarom=[
+                "Let op de volgorde: 10 % en dan 2 % is niet hetzelfde als 12 % in één keer. "
+                "Reken mee: 1 200 − 120 = 1 080, en 2 % daarvan is 21,60. Twaalf procent van "
+                "1 200 zou 144 zijn, dus je zou 2,40 euro te veel aftrekken.",
+                "Het bedrag na alle kortingen is de maatstaf van heffing: op dat bedrag en geen "
+                "ander wordt de btw berekend. 21 % van 1 058,40 is 222,264, afgerond 222,26.",
+                "Kijk naar de twee laatste lijnen: daar wordt teruggerekend. 242 / 1,21 = 200 en "
+                "318 / 1,06 = 300. Wie daar 21 % of 6 % van het totaal neemt, komt bij 191,18 en "
+                "298,92 uit, en dat is telkens te laag.",
+                "Dat je met 21 / 121 in één stap tot de btw komt, is dezelfde rekening in het "
+                "kort: het bedrag inclusief btw bestaat uit 121 delen, waarvan 21 belasting zijn.",
+            ],
+        ),
+        dict(
+            aanpak="Een factuur controleer je van boven naar beneden en je rekent elke lijn "
+                   "zelf na: eerst de lijnen, dan het totaal, dan de korting, dan de maatstaf, "
+                   "dan de btw, dan het te betalen bedrag. Elke lijn hangt aan de vorige, dus "
+                   "een fout bovenaan loopt door tot onderaan.",
+            waarom=[
+                "20 × 35 = 700 en 30 × 18 = 540, samen 1 240 euro. Reken de lijnen zelf na en "
+                "neem het bedrag niet over: een fout in een eenheidsprijs is het vaakst "
+                "voorkomende probleem op een factuur.",
+                None,
+                "1 240 − 124 = 1 116. Dat is de maatstaf van heffing, dus het bedrag waarop de "
+                "btw gerekend wordt, en niet het te betalen bedrag.",
+                "21 % van 1 116 = 234,36 euro.",
+                "1 116 + 234,36 = 1 350,36 euro. Toets je uitkomst: ze moet tussen de maatstaf en "
+                "de maatstaf plus een vijfde liggen, anders heb je de btw op het verkeerde bedrag "
+                "gerekend.",
+                "Drie van de opgesomde vermeldingen volstaan. Het btw-nummer van beide partijen "
+                "is daarbij het belangrijkste: zonder dat nummer kan de koper de btw niet "
+                "aftrekken, en dan is de factuur voor hem veel geld waard.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-verkopen-en-de-verkoopfactuur-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De verkoopkant is de spiegel van de aankoopkant. Waar bij een aankoop 604 en "
+                   "440 bewegen, bewegen bij een verkoop 700 en 400. Onthoud de nummers aan hun "
+                   "klasse: 7 is een opbrengst, 4 is een vordering of een schuld op korte termijn.",
+            waarom=[
+                "Let op het verschil tussen een creditnota en een korting contant. Een creditnota "
+                "haalt een verkoop gedeeltelijk terug, een korting contant verlaagt ze bij de "
+                "betaling. Het eerste is een nieuw document, het tweede staat al op de factuur.",
+                "Dit is het hele idee achter de btw. Je bent een doorgeefluik: je int geld dat "
+                "nooit het jouwe was. Daarom staat 451 bij de schulden en niet bij de "
+                "opbrengsten, en daarom mag je dat geld ook niet als winst beschouwen.",
+            ],
+        ),
+        dict(
+            aanpak="Een verkoopfactuur maak je in vaste orde: eerst de lijnen, dan de som, dan "
+                   "de korting, dan de maatstaf van heffing, dan de btw, dan het totaal. Reken "
+                   "elke lijn als aantal maal eenheidsprijs en pas de korting op de som toe, "
+                   "niet per lijn.",
+            waarom=[
+                "Reken mee: 1 160 + 474 = 1 634; 5 % daarvan is 81,70; blijft 1 552,30 als "
+                "maatstaf; 21 % daarvan is 325,98; samen 1 878,28 euro.",
+                "Let op de drie stappen in deze vraag. Eerst de goederen terug, dan dezelfde "
+                "korting als op de factuur, en pas dan de btw. 290 − 5 % = 275,50 en 21 % "
+                "daarvan is 57,86. Vergeet je de korting, dan krijgt de klant 17,54 euro te veel "
+                "terug.",
+            ],
+        ),
+        dict(
+            aanpak="Elke boeking in deze reeks heeft drie of twee rekeningen, en debet moet "
+                   "altijd gelijk zijn aan credit. Werk zo: schrijf eerst de bedragen op, dan "
+                   "de rekeningen, en tel daarna de twee kolommen na. Kloppen ze niet, dan is er "
+                   "een rekening vergeten.",
+            waarom=[
+                "Merk op dat de klant 1 210 euro moet betalen terwijl de opbrengst maar 1 000 "
+                "euro is. Die 210 euro is de btw en gaat naar de staat, niet naar de "
+                "onderneming. Daarom staat de vordering hoger dan de verkoop.",
+                None,
+                "Deze boeking is de eerste in spiegelbeeld: wat bij de verkoop credit stond, "
+                "staat nu debet. Dat is de vaste manier om iets terug te draaien, en het is ook "
+                "een goede controle op je eerste boeking.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-de-btw-en-de-btw-aangifte-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Vier tarieven in België, en de regel erachter: hoe noodzakelijker, hoe lager. "
+                   "Voeding, boeken en geneesmiddelen aan 6 procent, sociale woningbouw en "
+                   "bepaalde werken aan 12, al de rest aan 21. Dagbladen zitten op 0 procent, "
+                   "een uitzondering die je apart moet onthouden.",
+            waarom=[
+                "Een boek staat op 6 procent en een krant op 0, en dat lijkt vreemd. De "
+                "gedachte erachter is de persvrijheid: een dagblad dat minstens achtenveertig "
+                "keer per jaar verschijnt, is vrijgesteld. Een tijdschrift valt daar niet onder.",
+                "Dit is het punt achter de verlaagde tarieven. Iedereen betaalt op brood "
+                "hetzelfde percentage, maar wie weinig verdient, geeft een veel groter deel van "
+                "zijn inkomen aan eten uit. Daarom weegt een vlakke belasting zwaarder op de "
+                "lage inkomens.",
+            ],
+        ),
+        dict(
+            aanpak="Twee richtingen, en je moet altijd weten in welke je zit. Van een bedrag "
+                   "zonder btw naar het totaal: × 1,21 of × 1,06. Van een totaal terug: ÷ 1,21 "
+                   "of ÷ 1,06. Staat er inclusief in de opgave, dan deel je; staat er niets, "
+                   "dan is het bedrag zonder btw.",
+            waarom=[
+                "Vergelijk de vierde lijn met de eerste. Uit 605 euro inclusief btw komt 105 euro "
+                "btw, niet 127,05. Wie 21 % van 605 neemt, rekent de btw over de btw mee, en dat "
+                "is de meest gemaakte fout van dit hoofdstuk.",
+                "De korte weg × 21 / 121 geeft hetzelfde: van de 121 delen van een bedrag "
+                "inclusief btw zijn er 21 belasting. Voor 6 procent wordt dat × 6 / 106.",
+            ],
+        ),
+        dict(
+            aanpak="Een aangifte is één aftrekking: de btw die je op je verkopen inde, min de "
+                   "btw die je op je aankopen betaalde. Reken dus eerst de twee bedragen apart "
+                   "uit en trek ze dan af. Let erop dat je de btw neemt en niet de omzet.",
+            waarom=[
+                "21 % van 84 000 = 17 640 euro. Dat is de btw die de onderneming van haar "
+                "klanten kreeg, en dus voor de staat in handen heeft.",
+                "21 % van 52 000 = 10 920 euro. Dat is btw die ze zelf betaalde en mag "
+                "terugvragen.",
+                "17 640 − 10 920 = 6 720 euro. Merk op dat dit 21 % is van de toegevoegde waarde "
+                "van 32 000 euro: daar komt de naam belasting over de toegevoegde waarde van.",
+                "Een tegoed is niets uitzonderlijks. Een onderneming die veel investeert of veel "
+                "uitvoert, heeft het bijna elk kwartaal.",
+                "Dit is het hele systeem in één antwoord. Elke schakel betaalt enkel over wat zij "
+                "toevoegde; de keten schuift de belasting door tot bij wie niet meer kan "
+                "aftrekken.",
+                "Niet waar. Veel kleinere ondernemingen dienen per kwartaal in; per maand is "
+                "verplicht vanaf een hoge omzet of in bijzondere gevallen. De casus hierboven "
+                "ging ook over een kwartaal.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-aankopen-verkopen-en-bankverrichtingen-boeken-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zes rekeningen die in bijna elke boeking van dit hoofdstuk terugkomen. Let "
+                   "op het paar 411 en 451: 411 is btw die je terugvraagt bij een aankoop, 451 "
+                   "is btw die je moet doorstorten bij een verkoop. Het eerste is een vordering, "
+                   "het tweede een schuld.",
+            waarom=[
+                "Houd de twee kanten uit elkaar met het rekeningnummer: bij een aankoop 604, 411 "
+                "en 440, bij een verkoop 700, 451 en 400. Ken je die twee rijtjes van drie, dan "
+                "heb je de helft van dit hoofdstuk al.",
+            ],
+        ),
+        dict(
+            aanpak="Elke boeking volgt hetzelfde patroon. Bij een factuur bewegen drie "
+                   "rekeningen, want de btw hoort erbij. Bij een betaling bewegen er twee, want "
+                   "de btw is al geboekt bij de factuur. Controleer altijd of debet en credit "
+                   "even groot zijn.",
+            waarom=[
+                "Let op het bedrag van 440: dat is 3 630 euro en niet 3 000. De leverancier "
+                "vraagt de btw mee, dus de schuld is het bedrag inclusief btw, terwijl de kost "
+                "enkel 3 000 euro is.",
+                None,
+                "Hier staat geen btw bij, en dat is geen vergetelheid. De btw zat al in de "
+                "factuur van hierboven; bij de betaling verdwijnt alleen de schuld.",
+                None,
+                "Bankkosten zijn een kost en gaan dus bij de klasse 6 horen. Merk op dat de bank "
+                "het geld zelf afhoudt: je ziet zo'n verrichting enkel op het uittreksel en "
+                "krijgt er geen factuur voor.",
+                "De lonen staan hier vereenvoudigd als één bedrag. In werkelijkheid splitst een "
+                "loonboeking in brutoloon, bedrijfsvoorheffing en sociale bijdragen, en dat komt "
+                "in een later hoofdstuk.",
+            ],
+        ),
+        dict(
+            aanpak="Een rekeninguittreksel lees je van boven naar beneden: begin bij het "
+                   "beginsaldo en tel elke lijn erbij of eraf. Let erop dat het uittreksel van "
+                   "de bank gezien is: wat voor jou een inkomst is, staat er bij credit.",
+            waarom=[
+                "Reken mee: 8 400 + 2 420 = 10 820; − 1 815 = 9 005; − 18,50 = 8 986,50; − 950 = "
+                "8 036,50 euro. Werk lijn per lijn met een tussensaldo, niet met twee grote "
+                "sommen, want dan vind je bij een fout ook waar ze zit.",
+                "De andere drie lijnen raken geen kost: het beginsaldo is geen verrichting, en "
+                "de twee betalingen vereffenen enkel een vordering of een schuld die er al stond.",
+                "Dit is de kern van het hoofdstuk. De onderneming wordt niet rijker als een klant "
+                "betaalt: ze had dat geld al staan, alleen als vordering. Pas bij de verkoop "
+                "zelf werd ze rijker.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-van-proefbalans-tot-eindbalans-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Zes stappen van een boekjaar, en de orde is logisch: eerst alles opschrijven, "
+                   "dan ordenen, dan controleren, dan de eindejaarsverrichtingen, dan het "
+                   "resultaat, dan de balans. Het resultaat komt pas op de vijfde plaats, want "
+                   "zonder afschrijvingen en voorraad is het nog niet juist.",
+            waarom=[
+                None,
+                "De proefbalans is enkel een rekenkundige controle. Ze telt bewegingen op, geen "
+                "saldo's, en zegt dus alleen of elke boeking twee even grote kanten had.",
+                "Dit is de belangrijkste nuance van het hoofdstuk. Een proefbalans vangt een "
+                "half geboekte verrichting, maar niet een verkeerde rekening: huur die je op "
+                "elektriciteit boekt, houdt het evenwicht perfect in stand en is toch fout.",
+            ],
+        ),
+        dict(
+            aanpak="Een saldo is het verschil tussen de debet- en de creditzijde van één "
+                   "rekening, en het staat aan de kant die het grootste is. Reken dus eerst het "
+                   "verschil en kijk dan welke kolom zwaarder was. Een actief- of kostenrekening "
+                   "eindigt normaal debet, een passief- of opbrengstenrekening credit.",
+            waarom=[
+                "Toets elk saldo aan het soort rekening. 440 Leveranciers eindigt credit, en dat "
+                "hoort: het is een schuld. Zou je daar een debetsaldo vinden, dan heb je meer "
+                "betaald dan je moest of staat er een boeking scheef.",
+            ],
+        ),
+        dict(
+            aanpak="Het resultaat is opbrengsten min kosten, en het komt daarna bij het eigen "
+                   "vermogen. Winst erbij, verlies eraf. Werk telkens in twee stappen en reken "
+                   "het eigen vermogen pas uit als je het resultaat hebt.",
+            waarom=[
+                "96 000 − 78 400 = 17 600 euro winst. Let op de richting: opbrengsten min "
+                "kosten, en niet omgekeerd.",
+                "50 000 + 17 600 = 67 600 euro. Zo komt de resultatenrekening in de balans "
+                "terecht: het hele jaar aan kosten en opbrengsten eindigt als één bedrag bij het "
+                "eigen vermogen.",
+                "Reken mee: 50 000 − 9 000 = 41 000 euro. Bij verlies gaat het eigen vermogen "
+                "dus achteruit, en als dat jaar na jaar gebeurt, kan het negatief worden. Dan is "
+                "de onderneming meer verschuldigd dan ze bezit.",
+                "Twee van deze volstaan. Beide hebben hetzelfde doel: de cijfers laten kloppen "
+                "met de werkelijkheid op de laatste dag van het jaar. Een bestelwagen is minder "
+                "waard geworden, en de voorraad in het rek is zelden precies wat de boeken zeggen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-tekstverwerking-klavier-opmaak-en-stijlen-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="De meeste sneltoetsen zijn de eerste letter van het Engelse woord: copy, "
+                   "paste, find, bold, italic, underline, print, save. Alleen knippen en "
+                   "ongedaan maken volgen dat niet; die liggen links onderaan op het klavier, "
+                   "naast elkaar, zodat je ze met één hand haalt.",
+            waarom=[
+                None,
+                "Let op ctrl + enter: dat is een pagina-einde en niet gewoon een nieuwe regel. "
+                "Het is de toets die de derde reeks van deze bundel nodig heeft.",
+            ],
+        ),
+        dict(
+            aanpak="Eén vraag beslist: kan dit op één letter gelden? Vet, kleur en lettergrootte "
+                   "kunnen dat, dus zijn het tekenopmaak. Regelafstand, uitlijnen en inspringen "
+                   "gelden nooit op één letter maar op het hele blok, dus zijn het alineaopmaak.",
+            waarom=[
+                None,
+                "Dat is ook de snelste manier om de twee uit elkaar te houden in de praktijk: "
+                "lukt het zonder te selecteren, dan was het alineaopmaak.",
+            ],
+        ),
+        dict(
+            aanpak="De laatste reeks gaat over documenten die blijven kloppen als je ze "
+                   "aanpast. De rode draad: laat het programma het werk doen in plaats van het "
+                   "met de hand na te bootsen. Stijlen in plaats van vet, een pagina-einde in "
+                   "plaats van enters, een automatische inhoudstafel in plaats van een getypte.",
+            waarom=[
+                "Er is nog een derde voordeel dat je mag noemen: een document met kopstijlen is "
+                "voor een blinde lezer en voor een zoekprogramma leesbaar als structuur, en niet "
+                "alleen als grote letters.",
+                "Je ziet het verschil pas als je iets toevoegt. Een titel die met tien enters op "
+                "zijn plaats staat, schuift met de eerste bijgevoegde alinea naar de verkeerde "
+                "bladzijde.",
+                None,
+                "Merk op waarom dit werkt: een inhoudstafel leest geen opmaak maar stijlen. Vet "
+                "en groot zeggen het programma niets; Kop 1 zegt dit is een titel van het eerste "
+                "niveau.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-illustraties-schema-s-en-tabellen-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Een tabel bewerk je bijna altijd door eerst te selecteren wat je wil "
+                   "veranderen: een cel, een rij of een kolom. Twee bewerkingen hebben een eigen "
+                   "naam die je moet kennen: samenvoegen maakt van meerdere cellen één, splitsen "
+                   "doet het omgekeerde.",
+            waarom=[
+                "De eerste is de nuttigste om te onthouden: tab in de laatste cel maakt een "
+                "nieuwe rij. Zo kan je een tabel aanvullen zonder je handen van het klavier te "
+                "halen.",
+                "Dit is geen opmaak die je met de hand nabootst door de kopregel een tweede keer "
+                "te typen. Zodra er een rij bij komt, schuift zo'n getypte kopregel mee naar het "
+                "midden van de tabel.",
+            ],
+        ),
+        dict(
+            aanpak="Bij afbeeldingen gaat het telkens over de verhouding tot de tekst en over "
+                   "het bestand zelf. Houd de twee bestandstypes uit elkaar met één kenmerk: png "
+                   "kan doorzichtig zijn en is geschikt voor logo's en tekeningen, jpg kan dat "
+                   "niet en is geschikt voor foto's.",
+            waarom=[
+                "Het verschil tussen verankeren en tekstterugloop is dat het ene over de plaats "
+                "gaat en het andere over de tekst eromheen. Een afbeelding die ongewild door een "
+                "document springt, heeft bijna altijd een probleem met de verankering.",
+                "Dat alleen een hoekgreep de verhouding bewaart, is de ene regel die je hier "
+                "echt moet onthouden. Een uitgerekt logo is meteen zichtbaar en staat slordig op "
+                "een brief die naar een klant gaat.",
+                "Comprimeren is niet hetzelfde als kleiner slepen op het blad. Een foto die je "
+                "visueel klein maakt, blijft in het bestand even zwaar; comprimeren haalt de "
+                "overtollige pixels er echt uit.",
+            ],
+        ),
+        dict(
+            aanpak="Kies je schema naar wat je wil tonen: een rangorde of een verloop. Een "
+                   "organogram toont wie boven wie staat, een stroomschema toont wat na wat komt. "
+                   "Teken altijd eerst de blokken en pas daarna de lijnen, zodat je ruimte goed "
+                   "verdeeld is.",
+            waarom=[
+                None,
+                "Let bij je tekening op de onderlinge afstand: de drie onderste blokken horen "
+                "even groot te zijn en op dezelfde hoogte te staan, want ze staan ook in het "
+                "bedrijf op hetzelfde niveau. Een schema dat dat niet toont, zegt iets anders dan "
+                "je bedoelt.",
+                "Je herkent het verschil aan de lijnen: in een organogram betekent een lijn geeft "
+                "leiding aan, in een stroomschema betekent ze komt daarna. Hetzelfde plaatje met "
+                "een andere betekenis van de pijlen is dus een ander schema.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-het-rekenblad-cellen-bereiken-en-opmaak-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Een bereik tel je uit met kolommen maal rijen. Reken de kolommen in letters "
+                   "en de rijen in cijfers apart uit, en vermenigvuldig dan. Let op: van rij 2 "
+                   "tot rij 5 zijn het vier rijen en geen drie, want je telt de eerste mee.",
+            waarom=[
+                None,
+                "B2:D5 is drie kolommen (B, C, D) maal vier rijen (2, 3, 4, 5) en dus twaalf "
+                "cellen. Dat is de fout die iedereen één keer maakt: 5 − 2 = 3 geeft het aantal "
+                "stappen, niet het aantal rijen.",
+            ],
+        ),
+        dict(
+            aanpak="De notatie verandert alleen hoe een getal eruitziet, niet wat er in de cel "
+                   "staat. Daarom zijn er twee gevallen om goed te kennen: 0,25 als 25 procent "
+                   "tonen is opmaak, maar een artikelnummer met voorloopnullen moet als tekst "
+                   "opgeslagen worden, anders is de nul echt weg.",
+            waarom=[
+                "Merk op dat percentage een vermenigvuldiging met honderd laat zien. In de cel "
+                "blijft 0,25 staan, en daarmee rekent het blad verder; wie 25 typt en percentage "
+                "kiest, krijgt 2 500 procent.",
+                "Dit is de reden waarom een artikelnummer of een rekeningnummer geen getal is. "
+                "Je rekent er nooit mee, en de nullen vooraan horen erbij.",
+                "Dat ##### geen fout in je formule is, is hier het punt: het getal is er wel, de "
+                "kolom is enkel te smal. Dubbelklik op de scheidingslijn en de kolom past zich "
+                "aan.",
+            ],
+        ),
+        dict(
+            aanpak="De laatste reeks gaat over werk dat het blad voor je doet. De vulgreep vult "
+                   "reeksen aan, voorwaardelijke opmaak kleurt op voorwaarde, en samenvoegen en "
+                   "centreren zet een titel over meerdere kolommen.",
+            waarom=[
+                "Let op dat je twee cellen moet selecteren. Sleep je alleen de 1 naar beneden, "
+                "dan krijg je tien keer een 1: het blad kan uit één getal niet raden welke reeks "
+                "je bedoelt.",
+                "Voorwaardelijke opmaak is sterker dan met de hand kleuren omdat ze mee verandert "
+                "met de cijfers. Verbeter je een score van 48 naar 55, dan verdwijnt het rood van "
+                "zelf.",
+                None,
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-formules-en-functies-in-een-rekenblad-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Een formule begint altijd met een gelijkteken, en daarna verwijs je naar "
+                   "cellen in plaats van naar getallen te typen. Dat is de hele winst van een "
+                   "rekenblad: verandert de cel, dan verandert de uitkomst mee. Ken de vier "
+                   "basisfuncties SOM, GEMIDDELDE, MAX en MIN met een bereik ertussen.",
+            waarom=[
+                "Merk op dat een functie met een bereik werkt en een gewone formule met losse "
+                "cellen. =SOM(A1:A20) blijft juist als er een rij bij komt binnen dat bereik; "
+                "=A1+A2+A3 moet je dan zelf aanvullen.",
+                "Reken het na met getallen: staat er 2 in A1 en 3 in B1, dan geeft =(A1+B1)*2 "
+                "tien en =A1+B1*2 acht. De rekenregels van de wiskunde gelden hier gewoon.",
+            ],
+        ),
+        dict(
+            aanpak="Een adres zonder dollarteken schuift mee als je de formule kopieert, een "
+                   "adres met dollartekens blijft staan. Het dollarteken staat telkens voor wat "
+                   "het vasthoudt: $D voor de kolom, $1 voor de rij. Vraag je dus bij elke "
+                   "formule af wat mee moet schuiven en wat niet.",
+            waarom=[
+                "Reken mee wat er verschuift: je kopieert één rij naar beneden, dus A2 wordt A3. "
+                "$D$1 heeft twee dollartekens en blijft volledig staan.",
+                "Het btw-tarief in één cel zetten en er absoluut naar verwijzen is ook gewoon "
+                "beter werk: verandert het tarief, dan pas je één cel aan in plaats van vijftig "
+                "formules.",
+                "Let op de derde en de vierde lijn, waar maar één helft vastgezet is. A$1 naar "
+                "beneden kopiëren verandert niets, want enkel de rij staat vast en de kolom "
+                "schuift niet mee naar beneden. Sleep je hem naar rechts, dan wordt het wel B$1.",
+            ],
+        ),
+        dict(
+            aanpak="ALS heeft drie delen, in deze orde: de voorwaarde, wat er moet gebeuren als "
+                   "ze waar is, en wat er moet gebeuren als ze niet waar is. Tekst tussen "
+                   "aanhalingstekens, getallen zonder. VERT.ZOEKEN heeft vier delen: wat je "
+                   "zoekt, waar je zoekt, de hoeveelste kolom, en of het exact moet zijn.",
+            waarom=[
+                "Let op >= en niet >: met 50 als grens is precies 50 geslaagd. Dat is de fout "
+                "die bij puntenlijsten het vaakst voorkomt, en ze treft net de leerling die het "
+                "nodig heeft.",
+                "Deze formule geeft het kortingsbedrag, niet de te betalen prijs. Wil je dat "
+                "laatste, dan wordt het =ALS(C2>=500;C2*0,9;C2). Lees dus goed wat er gevraagd "
+                "wordt.",
+                None,
+                "Let op de twee dollartekens rond het bereik. Kopieer je deze formule naar "
+                "beneden zonder die, dan schuift de prijslijst mee en zoekt de laatste rij in "
+                "een bereik dat al voorbij de tabel ligt. De 3 is de kolom binnen het bereik, "
+                "dus kolom C.",
+                "Benaderend zoeken werkt alleen als de eerste kolom gesorteerd is, en het geeft "
+                "dan de dichtstbijzijnde lagere waarde. Bij een artikelnummer betekent dat de "
+                "prijs van een ander artikel, zonder enige foutmelding.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-grafieken-maken-en-lezen-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Kies je grafiek naar de vraag die je stelt. Een verloop in de tijd wordt een "
+                   "lijn, een vergelijking tussen groepen een staaf, een aandeel in een geheel "
+                   "een cirkel, en een verband tussen twee getallen een spreidingsdiagram. Zoek "
+                   "in de opgave dus naar de woorden per maand, per filiaal, aandeel of verband.",
+            waarom=[
+                "Let op het verschil tussen de laatste twee. Gegroepeerd zet de staven naast "
+                "elkaar, zodat je ze onderling kan vergelijken; gestapeld zet ze op elkaar, "
+                "zodat je het totaal ziet. De vraag beslist: vergelijken of optellen.",
+                "Dat maximum van vijf of zes is geen smaak maar iets wat je kan nagaan: een stuk "
+                "van vijf procent is op een cirkel nauwelijks van een stuk van zeven te "
+                "onderscheiden, terwijl twee staafjes dat verschil meteen tonen.",
+            ],
+        ),
+        dict(
+            aanpak="Een grafiek is pas afgewerkt als iemand ze kan lezen zonder jouw uitleg. "
+                   "Dat betekent minstens een titel, de eenheden bij de assen, en een legende "
+                   "zodra er meer dan één reeks is. Alles wat niets toevoegt, laat je weg.",
+            waarom=[
+                None,
+                "Dit is de regel achter de hele reeks: een element dat geen informatie toevoegt, "
+                "haalt informatie weg, want het publiek moet het eerst lezen om te zien dat het "
+                "niets zegt.",
+                "Let op het tweede geval, want dat is het nuttigste. Staat er één staaf van "
+                "duizend naast vier van vijftig, dan zijn die vier onleesbaar klein; de getallen "
+                "erbij zetten maakt de grafiek weer bruikbaar.",
+            ],
+        ),
+        dict(
+            aanpak="Een grafiek kan kloppen en toch een verkeerd beeld geven. Controleer altijd "
+                   "drie dingen: begint de as bij nul, zijn de afstanden op de as gelijk, en telt "
+                   "een cirkel op tot honderd procent. Op die drie punten gaat bijna elke "
+                   "misleidende grafiek de mist in.",
+            waarom=[
+                "Reken het na met getallen: 96 en 100 lijken op een as vanaf 95 een verschil van "
+                "een op vijf, terwijl het er in werkelijkheid een op vijfentwintig is. De "
+                "oppervlakte van een staaf moet de grootte tonen, en daarvoor moet ze bij nul "
+                "beginnen.",
+                "Dit is de nuance die vaak ontbreekt: wat bij een staafgrafiek fout is, mag bij "
+                "een lijngrafiek wel. Een lijn toont een beweging, en bij een temperatuur of een "
+                "beurskoers zou je vanaf nul niets meer zien.",
+                "Dat is een goede controle die je altijd kan doen: tel de percentages op. Komt "
+                "er meer dan honderd uit, dan zaten de delen niet in één geheel, bijvoorbeeld "
+                "omdat mensen meer dan één antwoord mochten geven.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-afdrukken-kopieren-en-scannen-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Bij afdrukken gaat het over het blad: de stand, de marges, hoeveel "
+                   "bladzijden per vel, en of de bladzijden per exemplaar gesorteerd worden. Het "
+                   "afdrukvoorbeeld is de stap die je nooit overslaat, want daar zie je alles "
+                   "samen voor er papier door de machine gaat.",
+            waarom=[
+                "Let op sorteren. Druk je drie exemplaren van tien bladzijden zonder sorteren, "
+                "dan komen er drie keer blad één, drie keer blad twee, en moet je ze zelf "
+                "schikken.",
+                "Dit is de meest voorkomende afdrukergernis bij een rekenblad. De instelling "
+                "één bladzijde breed houdt de kolommen samen en laat het blad in de hoogte "
+                "verder lopen, wat bij een lange lijst precies is wat je wil.",
+                None,
+            ],
+        ),
+        dict(
+            aanpak="Drie richtingen om uit elkaar te houden: kopiëren is papier naar papier, "
+                   "scannen is papier naar bestand, afdrukken is bestand naar papier. Bij "
+                   "scannen beslist de resolutie in dpi over de scherpte, en voor tekst is 300 "
+                   "dpi de gewoonte.",
+            waarom=[
+                None,
+                "Reken even mee waarom dat oploopt: vier keer meer dpi betekent zestien keer "
+                "meer pixels, want het geldt in de breedte en in de hoogte. Een brief van een "
+                "halve megabyte wordt zo acht megabyte.",
+                "Tekstherkenning heet ook ocr. Het verschil is groot in de praktijk: zonder ocr "
+                "is een gescande factuur een foto waarin je niets kan zoeken, met ocr kan je er "
+                "een bedrag of een naam in terugvinden.",
+            ],
+        ),
+        dict(
+            aanpak="Zes uitspraken, en bij elk dezelfde vraag: klopt dit altijd? Een uitspraak "
+                   "met gewoon, altijd of hoeft geen erin is bijna nooit waar. Lees ook goed wat "
+                   "er precies vergeleken wordt, zoals bij de scan in kleur tegenover "
+                   "grijswaarden.",
+            waarom=[
+                None,
+                "Waar, en dat is precies waarvoor pdf gemaakt is: de opmaak en de lettertypes "
+                "zitten in het bestand zelf. Een docx verschuift wel als de andere computer het "
+                "lettertype niet heeft.",
+                "Niet waar. Kleur bewaart drie waarden per pixel, grijswaarden maar één, dus is "
+                "een kleurenscan ongeveer drie keer zo zwaar. Voor een zwart-witte brief is dat "
+                "verspilde ruimte.",
+                "Waar in de praktijk, met één nuance: bij een oneven aantal bladzijden blijft de "
+                "laatste zijde leeg, dus bij elf bladzijden heb je zes bladen en niet vijf en "
+                "een half.",
+                "Niet waar. Dat het voor de les is, maakt het niet vrij: een volledig handboek "
+                "kopiëren valt niet onder wat het auteursrecht toestaat, ook niet op school. Een "
+                "beperkt deel voor eigen gebruik kan wel.",
+                "Waar, en de reden is boekhoudkundig. Zo komt de kost van het kopiëren bij de "
+                "juiste dienst terecht, en dat is precies wat een kostenverdeling in een "
+                "onderneming moet doen.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-bestanden-beheren-en-bewaren-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Een bestand vind je terug aan drie dingen: waar het staat (het pad), hoe het "
+                   "heet, en wat het is (de extensie). Een goede naam maakt het pad bijna "
+                   "overbodig, en daarom gaan de laatste twee oefeningen over het benoemen zelf.",
+            waarom=[
+                None,
+                "Let op csv tegenover xlsx. Een csv is een tabel als platte tekst, zonder "
+                "formules en zonder opmaak. Daarom is het de gewone manier om gegevens tussen "
+                "twee programma's door te geven, en niet om je werk in te bewaren.",
+                "Een goede naam heeft een vaste orde: eerst de datum, dan wat het is, dan het "
+                "nummer of de naam van de tegenpartij. Zo sorteert de map zich van zelf en kan "
+                "je zoeken op elk van die drie.",
+                "Reken het na met een lijstje: 14-03-2027 en 02-11-2026 sorteren op dag en "
+                "komen dus in de verkeerde orde. Met het jaar vooraan valt de tijdsorde samen "
+                "met de alfabetische orde, en dat is de hele truc.",
+            ],
+        ),
+        dict(
+            aanpak="Bewaren gaat over twee vragen: hoe hou je het juiste bestand, en hoe hou je "
+                   "het als er iets misloopt. Onthoud de regel van drie kopieën met haar drie "
+                   "getallen: drie kopieën, twee dragers, één elders.",
+            waarom=[
+                "Merk op waar het misgaat: wie opslaan gebruikt waar hij opslaan als bedoelde, "
+                "heeft het origineel overschreven. Werk je aan een versie van iemand anders, "
+                "begin dan altijd met opslaan als.",
+                None,
+                "Het woord elders in de regel van drie kopieën is net het belangrijkste woord. "
+                "Een tweede schijf naast je computer beschermt tegen een kapotte schijf, niet "
+                "tegen brand of diefstal.",
+                "Dit is de val van synchroniseren: een cloudmap is geen back-up maar een "
+                "spiegel. Wat je wist, wist je overal. De versiegeschiedenis is wel een echte "
+                "bescherming, en daarom moet je weten dat ze bestaat.",
+            ],
+        ),
+        dict(
+            aanpak="Zes uitspraken over veilig en ordelijk werken. Twee ervan gaan over "
+                   "persoonsgegevens en de wet, de andere over afspraken in een team. Toets ze "
+                   "aan dezelfde vraag als altijd: geldt dit ook als er iets misgaat of als "
+                   "iemand anders het bestand nodig heeft?",
+            waarom=[
+                "Niet waar, en dit is de belangrijkste van de zes. Een usb-stick raakt kwijt, en "
+                "met persoonsgegevens erop is dat een datalek dat de onderneming moet melden. "
+                "Versleutel de stick, of werk op een beveiligde netwerkschijf.",
+                None,
+                "Niet waar. Een bestand in de prullenbak staat er nog, en zelfs na het legen "
+                "blijft het vaak terug te halen. Dat is goed nieuws als je je vergist, en slecht "
+                "nieuws als je een computer weggeeft.",
+                "Waar volgens de boekhoudwet, maar met een nuance die je in de praktijk nodig "
+                "hebt: de fiscale bewaartermijn werd verlengd en bedraagt voor recente "
+                "boekjaren tien jaar. Wie boekhoudstukken bewaart, houdt dus beter tien jaar aan.",
+                "Niet waar. Een zoekfunctie vindt wat jij geformuleerd hebt, maar niet wat je "
+                "collega anders noemde. Afspraken over namen zijn juist nodig omdat er meerdere "
+                "mensen in dezelfde map werken.",
+                "Waar, en het werkt enkel als iedereen zich eraan houdt. Zet het nummer dan "
+                "achteraan en met een vast aantal cijfers, zoals -v03, want anders komt -v10 bij "
+                "sorteren voor -v3 te staan.",
+            ],
+        ),
+    ],
+)
+
+UITLEGBLADEN["oefenbundel-presenteren-en-gegevens-in-een-databank-boost-dubbele-finaliteit"] = dict(
+    reeksen=[
+        dict(
+            aanpak="Bij een presentatie hoort alles wat het publiek niet mag zien in de notities "
+                   "en niet op de dia. Houd overgang en animatie uit elkaar: een overgang zit "
+                   "tussen twee dia's, een animatie binnen één dia.",
+            waarom=[
+                None,
+                "Dit is de reden waarom een volle dia erger is dan een lege: je publiek kan niet "
+                "tegelijk lezen en luisteren, en lezen gaat sneller. Ze zijn dus al bij je "
+                "laatste punt terwijl jij nog bij het eerste bent.",
+                "Twee redenen zijn gevraagd, en de tweede is de minst bekende: een beamer "
+                "verliest contrast door het omgevingslicht. Wat op je scherm nog net leesbaar "
+                "is, is in een zaal met de gordijnen open onleesbaar.",
+            ],
+        ),
+        dict(
+            aanpak="De woorden van een databank hebben een vaste verhouding: een veld is een "
+                   "kolom, een record is een rij, en een tabel is alles samen. Een query is een "
+                   "vraag aan die tabel, een formulier is een scherm om erin te typen. Vergelijk "
+                   "het met een rekenblad, dan zie je record en veld meteen terug.",
+            waarom=[
+                None,
+                "Let op de eerste en de laatste. Een klantnummer waarmee je nooit rekent, mag "
+                "tekst zijn, en dat is zelfs beter als er voorloopnullen in staan. En een lange "
+                "opmerking hoort in een memoveld, want een gewoon tekstveld is in lengte beperkt.",
+                "De eis aan een sleutel is dubbel: uniek én blijvend. Een naam faalt op beide, "
+                "een e-mailadres is uniek maar verandert, en daarom gebruikt men meestal een "
+                "nummer dat verder niets betekent.",
+            ],
+        ),
+        dict(
+            aanpak="De laatste reeks is de brug tussen de twee programma's. De rode draad: "
+                   "gegevens die je op meer dan één plaats herhaalt, gaan vroeg of laat uit "
+                   "elkaar lopen. De oplossing is altijd dezelfde: elk gegeven één keer bewaren "
+                   "en er elders naar verwijzen.",
+            waarom=[
+                None,
+                "Dat je het meerdere keren moet typen is het kleinste bezwaar. Het echte "
+                "probleem is het tweede: na een verhuis staan er twee verschillende adressen van "
+                "dezelfde klant in je bestand, en niemand weet nog welk het juiste is.",
+                "Dit heet een relatie tussen twee tabellen, met het klantnummer als sleutel. Het "
+                "adres staat dan één keer, en een verhuis is één aanpassing.",
+                "Merk op dat de vraag over twee tabellen gaat: de gemeente staat bij de klanten, "
+                "het jaartal bij de verkopen. Net daarom heb je een query nodig die de twee "
+                "tabellen samen leest.",
+            ],
+        ),
+    ],
+)
