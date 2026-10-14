@@ -8,6 +8,7 @@ import { NotitieForm } from "./NotitieForm";
 import { WerkForm } from "./WerkForm";
 import { haalCodes } from "@/lib/begeleidingsgroepen";
 import { verwijderNotitie, verwijderWerk, zetGroep } from "./actions";
+import { alleRijen } from "@/lib/allerijen";
 
 type VoortgangRij = {
   correct: boolean;
@@ -70,7 +71,9 @@ export default async function FichePage({
 
   const { data: kind } = await supabase
     .from("kinderen")
-    .select("id, naam, created_at, profiles(full_name, is_plusklas, plusklas_code)")
+    .select(
+      "id, naam, created_at, profiles(full_name, is_plusklas, plusklas_code)",
+    )
     .eq("id", kindId)
     .single();
 
@@ -95,42 +98,44 @@ export default async function FichePage({
   const huidigeCode = gezin.plusklas_code ?? "";
   const huidigeGroep = codes.find((c) => c.code === huidigeCode);
 
-  const [
-    { data: rijen },
-    { data: stickers },
-    { data: notities },
-    { data: documenten },
-  ] = await Promise.all([
-    supabase
-      .from("voortgang")
-      .select(
-        "correct, beantwoord_op, hoofdstukken(id, titel, vakken(id, naam))",
-      )
-      .eq("kind_id", kindId)
-      .order("beantwoord_op", { ascending: false }),
-    supabase
-      .from("stickers")
-      .select("id, verdiend_op, hoofdstukken(titel, vakken(naam))")
-      .eq("kind_id", kindId)
-      .order("verdiend_op", { ascending: false }),
-    supabase
-      .from("kind_notities")
-      .select("id, datum, soort, tekst, auteur_naam")
-      .eq("kind_id", kindId)
-      .order("datum", { ascending: false })
-      .order("created_at", { ascending: false }),
-    supabase
-      .from("kind_documenten")
-      .select("id, datum, titel, omschrijving, bestandspad, auteur_naam")
-      .eq("kind_id", kindId)
-      .order("datum", { ascending: false }),
-  ]);
+  const [ruwe, { data: stickers }, { data: notities }, { data: documenten }] =
+    await Promise.all([
+      // Blok per blok, want de databank geeft niet alle antwoorden van een kind
+      // in één keer terug. Zie lib/allerijen.ts.
+      alleRijen((van, tot) =>
+        supabase
+          .from("voortgang")
+          .select(
+            "correct, beantwoord_op, hoofdstukken(id, titel, vakken(id, naam))",
+          )
+          .eq("kind_id", kindId)
+          .order("beantwoord_op", { ascending: false })
+          .order("id")
+          .range(van, tot),
+      ),
+      supabase
+        .from("stickers")
+        .select("id, verdiend_op, hoofdstukken(titel, vakken(naam))")
+        .eq("kind_id", kindId)
+        .order("verdiend_op", { ascending: false }),
+      supabase
+        .from("kind_notities")
+        .select("id, datum, soort, tekst, auteur_naam")
+        .eq("kind_id", kindId)
+        .order("datum", { ascending: false })
+        .order("created_at", { ascending: false }),
+      supabase
+        .from("kind_documenten")
+        .select("id, datum, titel, omschrijving, bestandspad, auteur_naam")
+        .eq("kind_id", kindId)
+        .order("datum", { ascending: false }),
+    ]);
 
   /* Voortgang samenvatten per vak en per hoofdstuk. */
   const vakken = new Map<string, VakStat>();
   let totaal = 0;
   let juist = 0;
-  for (const rij of (rijen ?? []) as unknown as VoortgangRij[]) {
+  for (const rij of ruwe as unknown as VoortgangRij[]) {
     const hoofdstuk = rij.hoofdstukken;
     const vak = hoofdstuk?.vakken;
     if (!hoofdstuk || !vak) continue;
@@ -291,11 +296,17 @@ export default async function FichePage({
                                   {h.titel}
                                 </Link>
                               </td>
-                              <td data-label="Score" className="px-3 py-2 text-ink">
+                              <td
+                                data-label="Score"
+                                className="px-3 py-2 text-ink"
+                              >
                                 {h.correct}/{h.aantal} (
                                 {Math.round((h.correct / h.aantal) * 100)}%)
                               </td>
-                              <td data-label="Laatst geoefend" className="px-3 py-2 text-ink-dim">
+                              <td
+                                data-label="Laatst geoefend"
+                                className="px-3 py-2 text-ink-dim"
+                              >
                                 {datum(h.laatst)}
                               </td>
                               <td className="niet-afdrukken px-3 py-2">

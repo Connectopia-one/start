@@ -7,6 +7,7 @@ import { createClient } from "@/lib/supabase/server";
 import { VraagTekst } from "@/components/Figuren";
 import { Formule } from "@/components/Formule";
 import { variantVoorBeurt } from "@/lib/spellingvariant";
+import { alleRijen } from "@/lib/allerijen";
 
 type Vraag = {
   id: string;
@@ -72,7 +73,7 @@ export default async function HoofdstukAntwoordenPage({
     .single<{ id: string; titel: string; vakken: { naam: string } }>();
   if (!hoofdstuk) notFound();
 
-  const [{ data: vragen }, { data: voortgang }] = await Promise.all([
+  const [{ data: vragen }, voortgang] = await Promise.all([
     // "*" en niet de kolommen apart: zolang spellingvarianten.sql nog niet
     // gedraaid is, bestaan "varianten" en "variant" nog niet, en een select op
     // die namen zou dit scherm dan helemaal leeg laten.
@@ -81,15 +82,22 @@ export default async function HoofdstukAntwoordenPage({
       .select("*")
       .eq("hoofdstuk_id", hoofdstukId)
       .order("volgnummer", { ascending: true }),
-    supabase
-      .from("voortgang")
-      .select("*")
-      .eq("kind_id", kindId)
-      .order("beantwoord_op", { ascending: false }),
+    // Blok per blok, want de databank geeft niet alle antwoorden van een kind
+    // in één keer terug en dan bleef dit scherm leeg voor een hoofdstuk van
+    // weken geleden. Zie lib/allerijen.ts.
+    alleRijen((van, tot) =>
+      supabase
+        .from("voortgang")
+        .select("*")
+        .eq("kind_id", kindId)
+        .order("beantwoord_op", { ascending: false })
+        .order("id")
+        .range(van, tot),
+    ),
   ]);
 
   const laatsteAntwoordPerVraag = new Map<string, VoortgangRij>();
-  for (const rij of (voortgang ?? []) as VoortgangRij[]) {
+  for (const rij of voortgang as VoortgangRij[]) {
     if (!laatsteAntwoordPerVraag.has(rij.vraag_id))
       laatsteAntwoordPerVraag.set(rij.vraag_id, rij);
   }

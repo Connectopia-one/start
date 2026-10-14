@@ -4,6 +4,7 @@ import { Header } from "@/components/Header";
 import { requireIngelogd } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { genereerTip } from "@/lib/inzicht";
+import { alleRijen } from "@/lib/allerijen";
 
 type Rij = {
   id: string;
@@ -22,7 +23,12 @@ type StickerRij = {
   hoofdstukken: { titel: string; vakken: { naam: string } };
 };
 
-type HoofdstukStat = { titel: string; aantal: number; correct: number; laatst: string };
+type HoofdstukStat = {
+  titel: string;
+  aantal: number;
+  correct: number;
+  laatst: string;
+};
 type VakStat = { naam: string; hoofdstukken: Map<string, HoofdstukStat> };
 
 export default async function KindVoortgangPage({
@@ -34,15 +40,33 @@ export default async function KindVoortgangPage({
   const { kindId } = await params;
   const supabase = await createClient();
 
-  const { data: kind } = await supabase.from("kinderen").select("id, naam, profile_id").eq("id", kindId).single();
-  if (!kind || (kind.profile_id !== session.userId && session.profile?.role !== "beheerder")) notFound();
+  const { data: kind } = await supabase
+    .from("kinderen")
+    .select("id, naam, profile_id")
+    .eq("id", kindId)
+    .single();
+  if (
+    !kind ||
+    (kind.profile_id !== session.userId &&
+      session.profile?.role !== "beheerder")
+  )
+    notFound();
 
-  const [{ data: rijen }, { data: stickers }] = await Promise.all([
-    supabase
-      .from("voortgang")
-      .select("id, correct, beantwoord_op, hoofdstukken(id, titel, vakken(id, naam))")
-      .eq("kind_id", kindId)
-      .order("beantwoord_op", { ascending: false }),
+  const [ruwe, { data: stickers }] = await Promise.all([
+    // Blok per blok. Een kind dat veel oefent heeft meer antwoorden dan de
+    // databank in één keer teruggeeft, en dan viel het oudste werk stilletjes
+    // uit dit rapport. Zie lib/allerijen.ts.
+    alleRijen((van, tot) =>
+      supabase
+        .from("voortgang")
+        .select(
+          "id, correct, beantwoord_op, hoofdstukken(id, titel, vakken(id, naam))",
+        )
+        .eq("kind_id", kindId)
+        .order("beantwoord_op", { ascending: false })
+        .order("id")
+        .range(van, tot),
+    ),
     supabase
       .from("stickers")
       .select("id, verdiend_op, hoofdstukken(titel, vakken(naam))")
@@ -50,11 +74,12 @@ export default async function KindVoortgangPage({
       .order("verdiend_op", { ascending: false }),
   ]);
 
+  const rijen = ruwe as unknown as Rij[];
   const vakken = new Map<string, VakStat>();
   let totaalAantal = 0;
   let totaalCorrect = 0;
 
-  for (const rij of (rijen ?? []) as unknown as Rij[]) {
+  for (const rij of rijen) {
     const hoofdstuk = rij.hoofdstukken;
     const vak = hoofdstuk?.vakken;
     if (!hoofdstuk || !vak) continue;
@@ -62,10 +87,16 @@ export default async function KindVoortgangPage({
     totaalAantal += 1;
     if (rij.correct) totaalCorrect += 1;
 
-    if (!vakken.has(vak.id)) vakken.set(vak.id, { naam: vak.naam, hoofdstukken: new Map() });
+    if (!vakken.has(vak.id))
+      vakken.set(vak.id, { naam: vak.naam, hoofdstukken: new Map() });
     const vakStat = vakken.get(vak.id)!;
     if (!vakStat.hoofdstukken.has(hoofdstuk.id)) {
-      vakStat.hoofdstukken.set(hoofdstuk.id, { titel: hoofdstuk.titel, aantal: 0, correct: 0, laatst: rij.beantwoord_op });
+      vakStat.hoofdstukken.set(hoofdstuk.id, {
+        titel: hoofdstuk.titel,
+        aantal: 0,
+        correct: 0,
+        laatst: rij.beantwoord_op,
+      });
     }
     const hStat = vakStat.hoofdstukken.get(hoofdstuk.id)!;
     hStat.aantal += 1;
@@ -82,7 +113,7 @@ export default async function KindVoortgangPage({
         aantal: hoofdstukken.reduce((s, h) => s + h.aantal, 0),
         correct: hoofdstukken.reduce((s, h) => s + h.correct, 0),
       };
-    })
+    }),
   );
 
   return (
@@ -92,15 +123,20 @@ export default async function KindVoortgangPage({
         <Link href="/account" className="text-sm text-ink-dim hover:text-ink">
           &larr; Mijn account
         </Link>
-        <h1 className="mt-2 font-display text-2xl font-semibold text-ink">Voortgang — {kind.naam}</h1>
+        <h1 className="mt-2 font-display text-2xl font-semibold text-ink">
+          Voortgang — {kind.naam}
+        </h1>
 
         {totaalAantal > 0 ? (
           <p className="mt-1 text-sm text-ink-dim">
-            In totaal {totaalAantal} {totaalAantal === 1 ? "vraag" : "vragen"} beantwoord, waarvan{" "}
-            {totaalCorrect} juist ({Math.round((totaalCorrect / totaalAantal) * 100)}%).
+            In totaal {totaalAantal} {totaalAantal === 1 ? "vraag" : "vragen"}{" "}
+            beantwoord, waarvan {totaalCorrect} juist (
+            {Math.round((totaalCorrect / totaalAantal) * 100)}%).
           </p>
         ) : (
-          <p className="mt-1 text-sm text-ink-dim">Nog geen vragen beantwoord.</p>
+          <p className="mt-1 text-sm text-ink-dim">
+            Nog geen vragen beantwoord.
+          </p>
         )}
 
         {tip && (
@@ -118,7 +154,11 @@ export default async function KindVoortgangPage({
               {((stickers ?? []) as unknown as StickerRij[]).map((s) => (
                 <span
                   key={s.id}
-                  title={new Date(s.verdiend_op).toLocaleDateString("nl-BE", { day: "numeric", month: "short", year: "numeric" })}
+                  title={new Date(s.verdiend_op).toLocaleDateString("nl-BE", {
+                    day: "numeric",
+                    month: "short",
+                    year: "numeric",
+                  })}
                   className="flex items-center gap-1.5 rounded-full border border-amber/40 bg-amber/10 px-3 py-1.5 text-xs font-medium text-amber"
                 >
                   🌟 {s.hoofdstukken.vakken.naam} — {s.hoofdstukken.titel}
@@ -131,7 +171,9 @@ export default async function KindVoortgangPage({
         <div className="mt-6 space-y-6">
           {[...vakken.entries()].map(([vakId, vak]) => (
             <section key={vakId}>
-              <h2 className="font-display text-lg font-semibold text-forest-dark">{vak.naam}</h2>
+              <h2 className="font-display text-lg font-semibold text-forest-dark">
+                {vak.naam}
+              </h2>
               <div className="mt-2 overflow-x-auto rounded-lg border border-border">
                 <table className="kaartjes w-full text-sm">
                   <thead className="bg-paper text-left text-xs text-ink-dim">
@@ -153,10 +195,18 @@ export default async function KindVoortgangPage({
                           </Link>
                         </td>
                         <td data-label="Score" className="px-3 py-2 text-ink">
-                          {h.correct}/{h.aantal} ({Math.round((h.correct / h.aantal) * 100)}%)
+                          {h.correct}/{h.aantal} (
+                          {Math.round((h.correct / h.aantal) * 100)}%)
                         </td>
-                        <td data-label="Laatst geoefend" className="px-3 py-2 text-ink-dim">
-                          {new Date(h.laatst).toLocaleDateString("nl-BE", { day: "numeric", month: "short", year: "numeric" })}
+                        <td
+                          data-label="Laatst geoefend"
+                          className="px-3 py-2 text-ink-dim"
+                        >
+                          {new Date(h.laatst).toLocaleDateString("nl-BE", {
+                            day: "numeric",
+                            month: "short",
+                            year: "numeric",
+                          })}
                         </td>
                       </tr>
                     ))}

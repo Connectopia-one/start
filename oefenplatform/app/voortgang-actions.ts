@@ -4,6 +4,7 @@ import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import type { SupabaseClient } from "@supabase/supabase-js";
 import { LEGE_TELLING, type Telling } from "@/lib/badges";
+import { alleRijen } from "@/lib/allerijen";
 
 /** Geeft de admin client terug enkel als de ingelogde gebruiker dit kind mag beheren, anders null. */
 async function kindEigenaarOfNull(
@@ -71,16 +72,24 @@ export async function registreerAntwoord(
  * Kent een "sticker" toe voor een hoofdstuk dat volledig correct afgewerkt werd.
  * De unique-regel op (kind_id, hoofdstuk_id) zorgt dat dit maar één keer telt,
  * ook al maakt het kind het hoofdstuk later nog eens perfect.
+ *
+ * Geeft terug of de ster ook echt bewaard is. De quiz probeert het anders nog
+ * een paar keer: een ster die een kind verdiend heeft, mag niet wegvallen
+ * omdat de verbinding net even wegviel.
  */
-export async function registreerSticker(kindId: string, hoofdstukId: string) {
+export async function registreerSticker(
+  kindId: string,
+  hoofdstukId: string,
+): Promise<boolean> {
   const admin = await kindEigenaarOfNull(kindId);
-  if (!admin) return;
-  await admin
+  if (!admin) return false;
+  const { error } = await admin
     .from("stickers")
     .upsert(
       { kind_id: kindId, hoofdstuk_id: hoofdstukId },
       { onConflict: "kind_id,hoofdstuk_id", ignoreDuplicates: true },
     );
+  return !error;
 }
 
 /** Wat een kind met één hoofdstuk al gedaan heeft. */
@@ -93,6 +102,59 @@ export type HoofdstukStatus = {
   /** Wanneer het kind hier voor het laatst aan werkte. */
   laatst: string | null;
 };
+
+/**
+ * Per hoofdstuk wanneer dit kind er voor het laatst aan werkte.
+ *
+ * Dit mag nooit afhangen van hoeveel antwoorden een kind al gaf. Eerst laten
+ * we de databank zelf groeperen: dat geeft één rij per hoofdstuk in plaats van
+ * één rij per beantwoorde vraag. Staat die functie er nog niet, dan halen we
+ * de antwoorden zelf op, blok per blok, zodat er ook dan niets wegvalt. Zie
+ * supabase/voortgang-per-hoofdstuk.sql en lib/allerijen.ts.
+ */
+async function laatsteKeerPerHoofdstuk(
+  admin: SupabaseClient,
+  kindId: string,
+  ids: string[],
+): Promise<Map<string, string>> {
+  const laatste = new Map<string, string>();
+
+  const { data: gegroepeerd, error } = await admin.rpc(
+    "voortgang_per_hoofdstuk",
+    { p_kind: kindId, p_hoofdstukken: ids },
+  );
+  if (!error && Array.isArray(gegroepeerd)) {
+    for (const rij of gegroepeerd as {
+      hoofdstuk_id: string | null;
+      laatst: string | null;
+    }[])
+      if (rij.hoofdstuk_id && rij.laatst)
+        laatste.set(rij.hoofdstuk_id, rij.laatst);
+    return laatste;
+  }
+
+  const rijen = await alleRijen<{
+    beantwoord_op: string;
+    hoofdstuk_id: string | null;
+  }>((van, tot) =>
+    admin
+      .from("voortgang")
+      .select("beantwoord_op, hoofdstuk_id")
+      .eq("kind_id", kindId)
+      .in("hoofdstuk_id", ids)
+      // Een vaste volgorde, anders kan dezelfde rij in twee blokken komen.
+      .order("id")
+      .range(van, tot),
+  );
+  for (const rij of rijen) {
+    const id = rij.hoofdstuk_id;
+    if (!id) continue;
+    const huidige = laatste.get(id);
+    if (!huidige || rij.beantwoord_op > huidige)
+      laatste.set(id, rij.beantwoord_op);
+  }
+  return laatste;
+}
 
 /**
  * Haalt voor één kind op welke van deze hoofdstukken het al gemaakt heeft.
@@ -113,33 +175,18 @@ export async function haalHoofdstukStatus(
   // is nooit een echte pagina en zou alleen het webadres opblazen.
   const ids = hoofdstukIds.slice(0, 200);
 
-  const [{ data: stickers }, { data: rijen }] = await Promise.all([
+  const [{ data: stickers }, laatste] = await Promise.all([
     admin
       .from("stickers")
       .select("hoofdstuk_id")
       .eq("kind_id", kindId)
       .in("hoofdstuk_id", ids),
-    admin
-      .from("voortgang")
-      .select("beantwoord_op, hoofdstuk_id")
-      .eq("kind_id", kindId)
-      .in("hoofdstuk_id", ids),
+    laatsteKeerPerHoofdstuk(admin, kindId, ids),
   ]);
 
   const perfect = new Set(
     (stickers ?? []).map((s) => s.hoofdstuk_id as string),
   );
-  const laatste = new Map<string, string>();
-  for (const rij of (rijen ?? []) as unknown as {
-    beantwoord_op: string;
-    hoofdstuk_id: string | null;
-  }[]) {
-    const id = rij.hoofdstuk_id;
-    if (!id) continue;
-    const huidige = laatste.get(id);
-    if (!huidige || rij.beantwoord_op > huidige)
-      laatste.set(id, rij.beantwoord_op);
-  }
 
   return ids.map((id) => ({
     hoofdstukId: id,
@@ -235,18 +282,20 @@ export async function haalOefenstand(
   const admin = await kindEigenaarOfNull(kindId);
   if (!admin) return { juist: [], beurten: {} };
 
-  const { data } = await admin
-    .from("voortgang")
-    .select("vraag_id, correct")
-    .eq("kind_id", kindId)
-    .eq("hoofdstuk_id", hoofdstukId);
+  const data = await alleRijen<{ vraag_id: string | null; correct: boolean }>(
+    (van, tot) =>
+      admin
+        .from("voortgang")
+        .select("vraag_id, correct")
+        .eq("kind_id", kindId)
+        .eq("hoofdstuk_id", hoofdstukId)
+        .order("id")
+        .range(van, tot),
+  );
 
   const juist = new Set<string>();
   const beurten: Record<string, number> = {};
-  for (const rij of (data ?? []) as unknown as {
-    vraag_id: string | null;
-    correct: boolean;
-  }[]) {
+  for (const rij of data) {
     if (!rij.vraag_id) continue;
     if (rij.correct) juist.add(rij.vraag_id);
     beurten[rij.vraag_id] = (beurten[rij.vraag_id] ?? 0) + 1;

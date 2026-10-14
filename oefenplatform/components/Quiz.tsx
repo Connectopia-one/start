@@ -831,16 +831,29 @@ export function Quiz({
 
   const stickerGegeven = useRef(false);
   useEffect(() => {
-    if (
-      perfect &&
-      lijstDektAlles &&
-      actiefKindId &&
-      hoofdstukId &&
-      !stickerGegeven.current
-    ) {
-      stickerGegeven.current = true;
-      registreerSticker(actiefKindId, hoofdstukId).catch(() => {});
-    }
+    if (!perfect || !lijstDektAlles || !actiefKindId || !hoofdstukId) return;
+    if (stickerGegeven.current) return;
+    stickerGegeven.current = true;
+    let geannuleerd = false;
+    /* Lukt het bewaren niet, dan proberen we het nog twee keer, en daarna mag
+       een volgende ronde in dit hoofdstuk het opnieuw proberen. Een ster die
+       een kind verdiend heeft, mag niet wegvallen omdat de verbinding net even
+       wegviel. */
+    const bewaar = async () => {
+      for (const wacht of [0, 2000, 8000]) {
+        if (wacht) await new Promise((klaar) => setTimeout(klaar, wacht));
+        if (geannuleerd) return;
+        const gelukt = await registreerSticker(actiefKindId, hoofdstukId).catch(
+          () => false,
+        );
+        if (gelukt) return;
+      }
+      if (!geannuleerd) stickerGegeven.current = false;
+    };
+    void bewaar();
+    return () => {
+      geannuleerd = true;
+    };
   }, [perfect, lijstDektAlles, actiefKindId, hoofdstukId]);
 
   const opnieuw = () => {

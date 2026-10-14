@@ -4,6 +4,7 @@ import { Header } from "@/components/Header";
 import { requireBegeleider } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { Antwoorden, type Poging, type Vraag } from "../Antwoorden";
+import { alleRijen } from "@/lib/allerijen";
 
 /*
   Alle opgeloste testen van één kind, achter elkaar in één document. Bedoeld om
@@ -38,21 +39,27 @@ export default async function TestenPage({
   )?.profiles;
   if (!kind || !gezin?.is_plusklas) notFound();
 
-  const { data: voortgang } = await supabase
-    .from("voortgang")
-    // "*" bij de kolommen van voortgang zelf: zolang spellingvarianten.sql nog
-    // niet gedraaid is, bestaat "variant" nog niet, en een select op die naam
-    // zou dit scherm dan helemaal leeg laten.
-    .select("*, hoofdstukken(id, titel, vakken(naam))")
-    .eq("kind_id", kindId)
-    .order("beantwoord_op", { ascending: false });
+  // Blok per blok, want de databank geeft niet alle antwoorden van een kind in
+  // één keer terug. Zie lib/allerijen.ts.
+  const voortgang = await alleRijen((van, tot) =>
+    supabase
+      .from("voortgang")
+      // "*" bij de kolommen van voortgang zelf: zolang spellingvarianten.sql
+      // nog niet gedraaid is, bestaat "variant" nog niet, en een select op die
+      // naam zou dit scherm dan helemaal leeg laten.
+      .select("*, hoofdstukken(id, titel, vakken(naam))")
+      .eq("kind_id", kindId)
+      .order("beantwoord_op", { ascending: false })
+      .order("id")
+      .range(van, tot),
+  );
 
   /* Welke hoofdstukken heeft dit kind aangeraakt, en in welke volgorde tonen we ze? */
   const hoofdstukken = new Map<
     string,
     { titel: string; vak: string; pogingen: Poging[] }
   >();
-  for (const rij of (voortgang ?? []) as unknown as VoortgangRij[]) {
+  for (const rij of voortgang as unknown as VoortgangRij[]) {
     const h = rij.hoofdstukken;
     if (!h) continue;
     if (enkelHoofdstuk && h.id !== enkelHoofdstuk) continue;
