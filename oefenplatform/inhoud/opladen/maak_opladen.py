@@ -460,6 +460,39 @@ PAGINAS = [
                      "spark-geschiedenis-uitdaging": EEN})),
         ],
     ),
+    dict(
+        bestand="opladen-geschiedenis-van-belgie.html",
+        titel="Plakpagina — Geschiedenis van België terugzetten",
+        sleutel="connectopia-plakpagina-geschiedenis-van-belgie",
+        voet="Bijgewerkt op 14 oktober 2026",
+        intro="""<p>Je vroeg of de vragen van <strong>Geschiedenis van België</strong> terug
+      kunnen. Ze staan hier allemaal: de vier hoofdstukken met hun tachtig vragen, woord
+      voor woord zoals ze gemaakt zijn.</p>
+      <p><strong>Wat er kan gebeurd zijn.</strong> Een import vervangt enkel de vragen van
+      een hoofdstuk met exact dezelfde titel in exact dezelfde categorie. Het bestand van
+      ✨ Spark draagt de titel <em>Uitdaging — alles door elkaar</em> en de categorie
+      ✨ Spark, en die bestond nog niet in dit vak. Het heeft er dus een hoofdstuk bíj
+      gezet in plaats van iets te overschrijven. Dat nieuwe hoofdstuk zit ook in een
+      andere categorie, en in Beheer, Vakken zie je altijd enkel de hoofdstukken van de
+      categorie die je bovenaan koos: sta je in ✨ Spark, dan zie je in dit vak enkel dat
+      ene hoofdstuk en lijken de vier andere weg.</p>
+      <p>Toch terugzetten kan geen kwaad. Laad het bestand hieronder in met vervangen aan:
+      de vier hoofdstukken krijgen opnieuw precies deze tachtig vragen, en de voortgang
+      van de kinderen blijft staan.</p>""",
+        secties=[
+            dict(
+                kop=HOEK + " — Geschiedenis van België",
+                uitleg=(WEG % HOEK) + " Kies het vak Geschiedenis van België.",
+                kaarten=vraagkaarten([(
+                    "hoekje-geschiedenis-van-belgie",
+                    "Geschiedenis van België — alle vier de hoofdstukken",
+                    HOEK, "hoekje", "geschiedenis-van-belgie",
+                    "Van 1830 tot de Eerste Wereldoorlog, Van de Koningskwestie tot vandaag, "
+                    "Legendes, uitvinders en oude tijden, en Van de Romeinen tot de jaren "
+                    "tachtig: vier hoofdstukken van twintig vragen. " + AL,
+                )])),
+        ],
+    ),
 ]
 
 
