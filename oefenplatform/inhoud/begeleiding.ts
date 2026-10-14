@@ -66,6 +66,9 @@ export const begeleidingTekst = {
   fiche: {
     /* Staat deze groep op "enkel de voortgang", dan blijft de fiche bij de
        tabel: geen opgeloste testen, geen opmerkingen, geen werk van thuis. */
+    examensKop: "Afgelegde examens",
+    examensUitleg:
+      "De examens over een heel vak. Die staan los van de voortgang hierboven: een examen kleurt geen vinkjes in. Drie keer feilloos geeft de examenster van dat vak.",
     lichtKop: "Enkel de voortgang",
     lichtUitleg:
       "Dit gezin hoort bij een groep die je niet in detail opvolgt, dus hieronder staat enkel wat het kind al maakte. Wil je er opmerkingen, werk van thuis en de opgeloste testen bij, zet dan het vinkje Volle opvolging bij Beheer, Plusklas-codes, of zet dit gezin hierboven bij de plusklasgroep.",

@@ -20,6 +20,7 @@ import type { VraagContext } from "@/components/Quiz";
 import type { Woord } from "@/components/Leestekst";
 import { vakIcoon } from "@/lib/vakbeeld";
 import { maakVraag } from "@/lib/vraagrij";
+import { EXAMENS_VOOR_STER } from "@/lib/examen";
 
 /*
   Een examen over een heel vak binnen één niveau.
@@ -202,6 +203,11 @@ export default async function ExamenPage({
             proberen als je wil.
           </p>
           <p className="mt-2">
+            Leg dit examen {EXAMENS_VOOR_STER} keer zonder fouten af en je
+            verdient de examenster van dit vak. Een examen dat je met Opnieuw
+            proberen overdoet, telt niet mee: dan krijg je dezelfde vragen.
+          </p>
+          <p className="mt-2">
             Elke keer dat je dit examen opnieuw opent, krijg je andere vragen.{" "}
             <Link
               href={`${terug}/examen`}
@@ -228,6 +234,11 @@ export default async function ExamenPage({
               taalvak={isTaalvak(vak.slug)}
               rekenmachine={isRekenvak(vak.slug as string)}
               contexten={contexten}
+              /* Daarmee telt een feilloos examen mee voor de examenster van dit
+                 vak. Het examen blijft buiten de voortgang; zie
+                 supabase/examens.sql. */
+              examenVakId={vak.id as string}
+              examenNiveau={niveau.slug}
               examen
             />
           )}

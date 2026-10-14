@@ -40,6 +40,15 @@ type Document = {
   auteur_naam: string | null;
 };
 
+type ExamenRij = {
+  id: string;
+  niveau: string;
+  aantal: number;
+  juist: number;
+  afgelegd_op: string;
+  vakken: { naam: string } | null;
+};
+
 type HoofdstukStat = {
   titel: string;
   aantal: number;
@@ -111,38 +120,52 @@ export default async function FichePage({
   */
   const volleOpvolging = Boolean(huidigeGroep?.volledige_opvolging);
 
-  const [ruwe, { data: stickers }, { data: notities }, { data: documenten }] =
-    await Promise.all([
-      // Blok per blok, want de databank geeft niet alle antwoorden van een kind
-      // in één keer terug. Zie lib/allerijen.ts.
-      alleRijen((van, tot) =>
-        supabase
-          .from("voortgang")
-          .select(
-            "correct, beantwoord_op, hoofdstukken(id, titel, vakken(id, naam))",
-          )
-          .eq("kind_id", kindId)
-          .order("beantwoord_op", { ascending: false })
-          .order("id")
-          .range(van, tot),
-      ),
+  const [
+    ruwe,
+    { data: stickers },
+    { data: notities },
+    { data: documenten },
+    { data: examens },
+  ] = await Promise.all([
+    // Blok per blok, want de databank geeft niet alle antwoorden van een kind
+    // in één keer terug. Zie lib/allerijen.ts.
+    alleRijen((van, tot) =>
       supabase
-        .from("stickers")
-        .select("id, verdiend_op, hoofdstukken(titel, vakken(naam))")
+        .from("voortgang")
+        .select(
+          "correct, beantwoord_op, hoofdstukken(id, titel, vakken(id, naam))",
+        )
         .eq("kind_id", kindId)
-        .order("verdiend_op", { ascending: false }),
-      supabase
-        .from("kind_notities")
-        .select("id, datum, soort, tekst, auteur_naam")
-        .eq("kind_id", kindId)
-        .order("datum", { ascending: false })
-        .order("created_at", { ascending: false }),
-      supabase
-        .from("kind_documenten")
-        .select("id, datum, titel, omschrijving, bestandspad, auteur_naam")
-        .eq("kind_id", kindId)
-        .order("datum", { ascending: false }),
-    ]);
+        .order("beantwoord_op", { ascending: false })
+        .order("id")
+        .range(van, tot),
+    ),
+    supabase
+      .from("stickers")
+      .select("id, verdiend_op, hoofdstukken(titel, vakken(naam))")
+      .eq("kind_id", kindId)
+      .order("verdiend_op", { ascending: false }),
+    supabase
+      .from("kind_notities")
+      .select("id, datum, soort, tekst, auteur_naam")
+      .eq("kind_id", kindId)
+      .order("datum", { ascending: false })
+      .order("created_at", { ascending: false }),
+    supabase
+      .from("kind_documenten")
+      .select("id, datum, titel, omschrijving, bestandspad, auteur_naam")
+      .eq("kind_id", kindId)
+      .order("datum", { ascending: false }),
+    /* De afgelegde examens. Die staan los van de voortgang hierboven: een
+         examen kleurt bewust geen vinkjes in. Bestaat de tabel nog niet, dan
+         komt er gewoon niets terug. Zie supabase/examens.sql. */
+    supabase
+      .from("examens")
+      .select("id, niveau, aantal, juist, afgelegd_op, vakken(naam)")
+      .eq("kind_id", kindId)
+      .order("afgelegd_op", { ascending: false })
+      .limit(50),
+  ]);
 
   /* Voortgang samenvatten per vak en per hoofdstuk. */
   const vakken = new Map<string, VakStat>();
@@ -372,6 +395,48 @@ export default async function FichePage({
                   🌟 {s.hoofdstukken.vakken.naam} — {s.hoofdstukken.titel}
                 </span>
               ))}
+            </div>
+          </section>
+        )}
+
+        {/* De afgelegde examens */}
+        {volleOpvolging && !!examens?.length && (
+          <section className="mt-8">
+            <h2 className="font-display text-lg font-semibold text-ink">
+              {t.fiche.examensKop}
+            </h2>
+            <p className="mt-1 text-sm text-ink-dim">{t.fiche.examensUitleg}</p>
+            <div className="mt-2 overflow-x-auto rounded-lg border border-border">
+              <table className="kaartjes w-full text-sm">
+                <thead className="bg-paper text-left text-xs text-ink-dim">
+                  <tr>
+                    <th className="px-3 py-2">Vak</th>
+                    <th className="px-3 py-2">Score</th>
+                    <th className="px-3 py-2">Wanneer</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {(examens as unknown as ExamenRij[]).map((e) => (
+                    <tr key={e.id} className="border-t border-border">
+                      <td data-label="Vak" className="px-3 py-2 text-ink">
+                        {e.vakken?.naam ?? "—"}
+                      </td>
+                      <td data-label="Score" className="px-3 py-2 text-ink">
+                        {e.juist}/{e.aantal}
+                        {e.aantal > 0 && e.juist === e.aantal
+                          ? " 🏅 feilloos"
+                          : ""}
+                      </td>
+                      <td
+                        data-label="Wanneer"
+                        className="px-3 py-2 text-ink-dim"
+                      >
+                        {datum(e.afgelegd_op)}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           </section>
         )}

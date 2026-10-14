@@ -25,6 +25,11 @@ export type Telling = {
   basisSter: boolean;
   /** Al een vraag uit 🔭 de uitdagingshoek juist? */
   hoekjeJuist: boolean;
+  /**
+   * Het hoogste aantal feilloze examens binnen één vak. Drie daarvan geven de
+   * examenster van dat vak; zie EXAMENS_VOOR_STER in app/voortgang-actions.ts.
+   */
+  examensFeilloos: number;
 };
 
 export type Badge = {
@@ -44,6 +49,7 @@ export const LEGE_TELLING: Telling = {
   vakkenMetSter: 0,
   basisSter: false,
   hoekjeJuist: false,
+  examensFeilloos: 0,
 };
 
 /** De hele verzameling, in de volgorde waarin ze getoond wordt. */
@@ -120,6 +126,15 @@ export function badges(t: Telling): Badge[] {
       uitleg: "Een hoofdstuk van 🧱 Basis foutloos afgewerkt.",
       nu: t.basisSter ? 1 : 0,
       doel: 1,
+    },
+    {
+      sleutel: "examenster",
+      emoji: "🎓",
+      naam: "Examenster",
+      uitleg:
+        "Drie keer een examen van hetzelfde vak zonder één fout. Kim vroeg deze op 14 oktober 2026.",
+      nu: t.examensFeilloos,
+      doel: 3,
     },
     {
       sleutel: "verre-denker",

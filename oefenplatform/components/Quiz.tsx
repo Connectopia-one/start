@@ -8,9 +8,12 @@ import { Prent } from "@/components/Prent";
 import { Rekenmachine } from "@/components/Rekenmachine";
 import type { Prent as PrentGegevens } from "@/lib/prent";
 import { Formule } from "@/components/Formule";
+import { EXAMENS_VOOR_STER } from "@/lib/examen";
 import {
+  haalExamenstand,
   haalOefenstand,
   registreerAntwoord,
+  registreerExamen,
   registreerSticker,
 } from "@/app/voortgang-actions";
 import {
@@ -83,6 +86,24 @@ export type VraagContext = {
   woorden?: Woord[];
   prent?: PrentGegevens | null;
 };
+
+/** "derde" in plaats van "3de", voor de zin onder een feilloos examen. */
+const RANG = [
+  "",
+  "eerste",
+  "tweede",
+  "derde",
+  "vierde",
+  "vijfde",
+  "zesde",
+  "zevende",
+  "achtste",
+  "negende",
+  "tiende",
+];
+function rangwoord(n: number) {
+  return RANG[n] ?? `${n}de`;
+}
 
 /** De vraag zoals dit kind ze nu voor zich krijgt, met het nummer van de beurt. */
 function metBeurt(
@@ -617,6 +638,8 @@ export function Quiz({
   hoofdstukId,
   taalvak = false,
   examen = false,
+  examenVakId,
+  examenNiveau,
   rekenmachine = false,
   contexten,
 }: {
@@ -640,6 +663,15 @@ export function Quiz({
    * Gevraagd door een tester van de Examencommissie op 12 oktober 2026.
    */
   examen?: boolean;
+  /**
+   * Bij een examen: om welk vak en welk niveau het gaat. Daarmee telt een
+   * feilloos examen mee voor de examenster van dat vak. Het afgelegde examen
+   * komt in een eigen tabel terecht (zie supabase/examens.sql) en laat de
+   * vinkjes en de sterren van de hoofdstukken onaangeroerd, want dat was de
+   * hele reden waarom een examen niets bijhield.
+   */
+  examenVakId?: string;
+  examenNiveau?: string;
   /**
    * Een rekenmachine onder de vraag. Alleen bij het examen van een rekenvak
    * (zie lib/rekenvak.ts), want bij Frans staat ze enkel in de weg.
@@ -856,6 +888,55 @@ export function Quiz({
     };
   }, [perfect, lijstDektAlles, actiefKindId, hoofdstukId]);
 
+  /*
+    De examenster: drie keer een examen zonder fouten. Kim op 14 oktober 2026:
+    "misschien moeten ze als ze minstens 3 x feilloos, dus zonder fouten, een
+    examen afleggen toch een examensticker krijgen?"
+
+    null betekent: nog niet opgehaald, of er valt niets op te halen.
+  */
+  const [feilloosExamens, setFeilloosExamens] = useState<number | null>(null);
+  useEffect(() => {
+    if (!examen || !examenVakId || !examenNiveau || !actiefKindId) return;
+    let geannuleerd = false;
+    haalExamenstand(actiefKindId, examenVakId, examenNiveau)
+      .then((n) => {
+        if (!geannuleerd) setFeilloosExamens(n);
+      })
+      .catch(() => {});
+    return () => {
+      geannuleerd = true;
+    };
+  }, [examen, examenVakId, examenNiveau, actiefKindId]);
+
+  /* Eén keer per geopend examen bewaren. "Opnieuw proberen" neemt dezelfde
+     veertig vragen, dus dat telt niet als een tweede examen: anders had een
+     kind de ster na drie keer dezelfde vragen. Wie een nieuw examen wil, klikt
+     op Nieuw examen en krijgt andere vragen. */
+  const examenBewaard = useRef(false);
+  useEffect(() => {
+    if (!examen || !examenVakId || !examenNiveau || !actiefKindId) return;
+    if (!klaar || examenBewaard.current) return;
+    examenBewaard.current = true;
+    registreerExamen(
+      actiefKindId,
+      examenVakId,
+      examenNiveau,
+      vragen.length,
+      aantalCorrect,
+    )
+      .then(setFeilloosExamens)
+      .catch(() => {});
+  }, [
+    examen,
+    examenVakId,
+    examenNiveau,
+    actiefKindId,
+    klaar,
+    vragen.length,
+    aantalCorrect,
+  ]);
+
   const opnieuw = () => {
     stickerGegeven.current = false;
     setRonde((r) => r + 1);
@@ -918,6 +999,19 @@ export function Quiz({
   const perVragen = vragen.length
     ? Math.round((aantalGecontroleerd / vragen.length) * 100)
     : 0;
+
+  /* Wat er onder een feilloos examen komt te staan. Zolang de stand niet
+     opgehaald of bewaard is, blijft het bij de score zelf. */
+  const examenZin = (() => {
+    const alles = `Alle ${vragen.length} vragen juist.`;
+    if (feilloosExamens === null) return alles;
+    if (feilloosExamens === EXAMENS_VOOR_STER)
+      return `${alles} Dat is je ${rangwoord(feilloosExamens)} feilloze examen van dit vak: de examenster is binnen!`;
+    if (feilloosExamens > EXAMENS_VOOR_STER)
+      return `${alles} Dat is je ${rangwoord(feilloosExamens)} feilloze examen van dit vak, en de examenster staat al op je naam.`;
+    const nog = EXAMENS_VOOR_STER - feilloosExamens;
+    return `${alles} Nog ${nog} ${nog === 1 ? "keer" : "keer"} zonder fouten en je verdient de examenster van dit vak.`;
+  })();
 
   /* Nakijken en verdergaan staan hier apart, want de knoppen én de entertoets
      doen allebei net hetzelfde. */
@@ -1143,6 +1237,20 @@ export function Quiz({
         </div>
       )}
 
+      {examen && feilloosExamens !== null && !klaar && (
+        <p className="rounded-md border border-amber/40 bg-amber/10 px-3 py-2 text-xs text-ink">
+          {feilloosExamens >= EXAMENS_VOOR_STER
+            ? `🏅 Je hebt de examenster van dit vak, met ${feilloosExamens} ${
+                feilloosExamens === 1 ? "feilloos examen" : "feilloze examens"
+              }.`
+            : feilloosExamens === 0
+              ? `Leg dit examen ${EXAMENS_VOOR_STER} keer zonder fouten af en je verdient de examenster van dit vak.`
+              : `Je legde dit examen al ${feilloosExamens} keer zonder fouten af. Nog ${
+                  EXAMENS_VOOR_STER - feilloosExamens
+                } keer en de examenster is binnen.`}
+        </p>
+      )}
+
       {alsVakjes && (
         <p className="rounded-md bg-amber/10 px-3 py-2 text-xs text-ink">
           Let op: bij de keuzevragen in dit {examen ? "examen" : "hoofdstuk"}{" "}
@@ -1299,13 +1407,14 @@ export function Quiz({
         >
           {perfect ? (
             <>
-              <p className="text-3xl">🌟</p>
+              <p className="text-3xl">{examen ? "🏅" : "🌟"}</p>
               <p className="mt-1 font-display text-lg font-semibold text-amber">
-                Sticker verdiend!
+                {examen ? "Examen zonder fouten!" : "Sticker verdiend!"}
               </p>
               <p className="mt-1 text-sm text-ink">
-                Alle {vragen.length} vragen juist — helemaal correct, knap
-                gedaan!
+                {examen ? examenZin : null}
+                {!examen &&
+                  `Alle ${vragen.length} vragen juist — helemaal correct, knap gedaan!`}
               </p>
             </>
           ) : (

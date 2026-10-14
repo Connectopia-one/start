@@ -92,6 +92,62 @@ export async function registreerSticker(
   return !error;
 }
 
+/**
+ * Bewaart één afgelegd examen en geeft terug hoeveel feilloze examens dit kind
+ * nu heeft voor dit vak binnen dit niveau.
+ *
+ * Een examen blijft buiten de voortgang: het komt in een eigen tabel terecht
+ * (zie supabase/examens.sql) en raakt geen enkel vinkje of sterretje van een
+ * hoofdstuk aan. Dat was de hele reden waarom het examen eerst niets bijhield;
+ * de examenster verandert daar niets aan.
+ *
+ * Lukt het bewaren niet, dan komt de vorige stand terug: liever geen ster dan
+ * een foutmelding midden in een examen.
+ */
+export async function registreerExamen(
+  kindId: string,
+  vakId: string,
+  niveau: string,
+  aantal: number,
+  juist: number,
+): Promise<number> {
+  const admin = await kindEigenaarOfNull(kindId);
+  if (!admin) return 0;
+  await admin
+    .from("examens")
+    .insert({ kind_id: kindId, vak_id: vakId, niveau, aantal, juist });
+  return telFeilloos(admin, kindId, vakId, niveau);
+}
+
+/** Hoeveel examens dit kind van dit vak al feilloos aflegde. */
+export async function haalExamenstand(
+  kindId: string,
+  vakId: string,
+  niveau: string,
+): Promise<number> {
+  const admin = await kindEigenaarOfNull(kindId);
+  if (!admin) return 0;
+  return telFeilloos(admin, kindId, vakId, niveau);
+}
+
+async function telFeilloos(
+  admin: SupabaseClient,
+  kindId: string,
+  vakId: string,
+  niveau: string,
+): Promise<number> {
+  /* Tellen in de databank zelf, niet de rijen ophalen en er de lengte van
+     nemen: dat is de les van 14 oktober 2026, zie lib/allerijen.ts. */
+  const { count } = await admin
+    .from("examens")
+    .select("id", { count: "exact", head: true })
+    .eq("kind_id", kindId)
+    .eq("vak_id", vakId)
+    .eq("niveau", niveau)
+    .eq("feilloos", true);
+  return count ?? 0;
+}
+
 /** Wat een kind met één hoofdstuk al gedaan heeft. */
 export type HoofdstukStatus = {
   hoofdstukId: string;
@@ -237,6 +293,23 @@ export async function haalTelling(kindId: string): Promise<Telling> {
     hoofdstukken: { vak_id: string; niveau: string };
   }[];
 
+  /* De feilloze examens, per vak geteld: het hoogste aantal binnen één vak
+     telt voor de badge. Bestaat de tabel nog niet (supabase/examens.sql is dan
+     nog niet gedraaid), dan blijft het gewoon op nul staan. */
+  const { data: examenRijen } = await admin
+    .from("examens")
+    .select("vak_id, niveau")
+    .eq("kind_id", kindId)
+    .eq("feilloos", true);
+  const perVak = new Map<string, number>();
+  for (const rij of (examenRijen ?? []) as unknown as {
+    vak_id: string;
+    niveau: string;
+  }[]) {
+    const sleutel = `${rij.vak_id}|${rij.niveau}`;
+    perVak.set(sleutel, (perVak.get(sleutel) ?? 0) + 1);
+  }
+
   return {
     gemaakt: gemaakt.count ?? 0,
     juist: juist.count ?? 0,
@@ -244,6 +317,7 @@ export async function haalTelling(kindId: string): Promise<Telling> {
     vakkenMetSter: new Set(sterren.map((s) => s.hoofdstukken.vak_id)).size,
     basisSter: sterren.some((s) => s.hoofdstukken.niveau === "basis"),
     hoekjeJuist: (hoekje.count ?? 0) > 0,
+    examensFeilloos: Math.max(0, ...perVak.values()),
   };
 }
 

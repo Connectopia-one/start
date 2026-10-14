@@ -155,6 +155,9 @@ HOEK = "🔭 Uitdagingshoek"
 
 AL = ("Alle hoofdstukken van dit vak zitten in dit ene bestand, dus vervangen moet aan. "
       "De voortgang van de kinderen blijft staan.")
+EEN = ("In dit bestand zit enkel het hoofdstuk Uitdaging — alles door elkaar van dit vak. "
+       "De andere hoofdstukken blijven gewoon staan; vervangen moet toch aan, anders komen "
+       "die twintig vragen dubbel.")
 WISSEL = ("De wisselende woorden van de grammaticahoofdstukken zitten er al in, dus je hoeft "
           "het aparte variantenbestand er niet meer bij te doen. " + AL)
 
@@ -173,8 +176,8 @@ NAMEN = {
     "wiskunde-basis": "Wiskunde basis",
     "nederlands-begrijpend-lezen": "Nederlands — begrijpend lezen",
     "nederlands-spelling-varianten": "Nederlands — spelling",
-    "spark-nederlands-uitdaging": "Nederlands",
-    "spark-geschiedenis-uitdaging": "Geschiedenis",
+    "spark-nederlands-uitdaging": "Nederlands — Uitdaging, alles door elkaar",
+    "spark-geschiedenis-uitdaging": "Geschiedenis — Uitdaging, alles door elkaar",
 }
 
 
@@ -324,9 +327,18 @@ PAGINAS = [
                  "engels", "frans", "geschiedenis", "aardrijkskunde", "samenleving-en-economie",
                  "techniek", "natuurwetenschappen", "wiskunde"],
                 {"nederlands": WISSEL, "engels": WISSEL})),
-            dict(kop=HOEK, uitleg=WEG % HOEK, kaarten=kaarten_van(
-                "uitdaging", HOEK,
-                ["spark-nederlands-uitdaging", "spark-geschiedenis-uitdaging"])),
+            # Dit zijn de uitdagingshoofdstukken van twee gewone vakken van
+            # ✨ Spark, niet de 🔭 Uitdagingshoek. Kim merkte op 14 oktober 2026
+            # dat hier "Uitdagingshoek" boven stond: "de uitdagingshoek heeft
+            # toch geen nederlands?" Klopt, die heeft vier eigen vakken. 
+            dict(kop=SPARK + " — het uitdagingshoofdstuk",
+                 uitleg=(WEG % SPARK) + " Dit is niet de 🔭 Uitdagingshoek: het gaat om het "
+                        "hoofdstuk Uitdaging — alles door elkaar, dat bij het gewone vak hoort.",
+                 kaarten=kaarten_van(
+                     "uitdaging", SPARK,
+                     ["spark-nederlands-uitdaging", "spark-geschiedenis-uitdaging"],
+                     {"spark-nederlands-uitdaging": EEN,
+                      "spark-geschiedenis-uitdaging": EEN})),
         ],
     ),
     dict(
