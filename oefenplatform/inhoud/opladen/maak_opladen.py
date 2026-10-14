@@ -387,15 +387,19 @@ PAGINAS = [
       zonder dat je iets hoeft te doen. Het eerste sql-bestand laat de databank het werk
       zelf samenvatten, één rij per hoofdstuk: dat is lichter en het kan niet meer
       afgekapt worden.</p>
+      <p>Het derde maakt de examenster: wie een examen van een vak drie keer zonder
+      fouten aflegt, verdient de ster van dat vak. Een afgelegd examen komt in een eigen
+      tabel, dus de vinkjes en de sterren van de hoofdstukken blijven onaangeroerd.</p>
       <p>Het tweede hoort bij je vraag over de opvolging: enkel de groep
       PLUSKLAS26HASSELT krijgt nog de volle fiche met de opgeloste testen, de
       opmerkingen en het werk van thuis. Bij de andere groepen blijft het bij de tabel
       met hun voortgang.</p>""",
         secties=[
             dict(
-                kop="Twee sql-bestanden",
+                kop="Drie sql-bestanden",
                 uitleg="Plak ze een na een in de sql-editor van Supabase, op het "
-                       "project van het oefenplatform, en klik telkens op Run.",
+                       "project van het oefenplatform, en klik telkens op Run. De eerste "
+                       "twee heb je al gedaan; enkel het derde is nieuw.",
                 kaarten=sqlkaarten([
                     (
                         "vinkjes",
@@ -416,8 +420,44 @@ PAGINAS = [
                         "lijstje van je codes met dat vinkje erbij; verzetten kan je "
                         "daarna zelf bij Beheer, Plusklas-codes.",
                     ),
+                    (
+                        "examens",
+                        "De examenster na drie feilloze examens",
+                        "oefenplatform — sql-editor",
+                        "examens.sql",
+                        "Dit maakt de tabel waarin een afgelegd examen terechtkomt, los "
+                        "van de voortgang. Vinkjes en sterren van de hoofdstukken blijven "
+                        "dus onaangeroerd. Onderaan komt er een nul uit: er is nog geen "
+                        "examen bewaard.",
+                    ),
                 ]),
             ),
+        ],
+    ),
+    dict(
+        bestand="opladen-uitdagingshoofdstuk.html",
+        titel="Plakpagina — het uitdagingshoofdstuk van ✨ Spark",
+        sleutel="connectopia-plakpagina-uitdagingshoofdstuk",
+        voet="Bijgewerkt op 14 oktober 2026",
+        intro="""<p>Op de vorige plakpagina stond boven deze twee bestanden
+      <strong>🔭 Uitdagingshoek</strong>. Dat was fout van mij. Het gaat om het hoofdstuk
+      <em>Uitdaging — alles door elkaar</em> van twee gewone vakken van ✨ Spark: het ene
+      hoort bij <strong>Nederlands</strong>, het andere bij <strong>Geschiedenis</strong>.
+      De uitdagingshoek heeft zijn eigen vier vakken en geen Nederlands.</p>
+      <p><strong>Laadde je er al een in bij de uitdagingshoek?</strong> Ga dan eerst naar
+      Beheer, Vakken, categorie 🔭 Uitdagingshoek, open het vak waar je het inlaadde, en
+      verwijder daar het hoofdstuk <em>Uitdaging — alles door elkaar</em>. Daarna laad je
+      het hieronder opnieuw in, bij het juiste vak.</p>""",
+        secties=[
+            dict(
+                kop=SPARK + " — het uitdagingshoofdstuk",
+                uitleg=(WEG % SPARK) + " Kies dus het vak Nederlands of Geschiedenis van "
+                       "✨ Spark, niet een vak van de uitdagingshoek.",
+                kaarten=kaarten_van(
+                    "uitdaging", SPARK,
+                    ["spark-nederlands-uitdaging", "spark-geschiedenis-uitdaging"],
+                    {"spark-nederlands-uitdaging": EEN,
+                     "spark-geschiedenis-uitdaging": EEN})),
         ],
     ),
 ]
