@@ -109,7 +109,6 @@ export const trajecten: Traject[] = [
     prijsWas: "€60",
     regels: [
       { label: "Wanneer", waarde: "Dinsdag, 9u – 15u" },
-      { label: "Start", waarde: "Dinsdag 15 september 2026" },
       {
         label: "Waar",
         waarde: "Atheneum Hasselt, Kleine-Breemstraat 33, 3500 Hasselt",
@@ -131,8 +130,8 @@ export const trajecten: Traject[] = [
       "Regelmatig overleg met de school van je kind",
     ],
     instappen: {
-      tekst: "Later instappen kan, ook in oktober is er nog plaats.",
-      data: ["Dinsdag 6 oktober 2026"],
+      tekst:
+        "Instappen kan altijd. Je kind kan op eender welke dinsdag starten.",
     },
   },
   {
@@ -146,7 +145,6 @@ export const trajecten: Traject[] = [
     prijsWas: "€30",
     regels: [
       { label: "Wanneer", waarde: "Woensdagvoormiddag, 9u – 12u" },
-      { label: "Start", waarde: "Woensdag 16 september 2026" },
       { label: "Waar", waarde: "Genk T2 Campus, Thor Park 8040, 3600 Genk" },
     ],
     foto: {
@@ -162,8 +160,8 @@ export const trajecten: Traject[] = [
       "Voorbereiden, oefenen en begrijpen",
     ],
     instappen: {
-      tekst: "Later instappen kan, ook in oktober is er nog plaats.",
-      data: ["Woensdag 7 oktober 2026"],
+      tekst:
+        "Instappen kan altijd. Je kind kan op eender welke woensdag starten.",
     },
   },
   {
@@ -177,7 +175,6 @@ export const trajecten: Traject[] = [
     prijsWas: "€30",
     regels: [
       { label: "Wanneer", waarde: "Zaterdagvoormiddag, 9u – 12u" },
-      { label: "Start", waarde: "Zaterdag 12 september 2026" },
       { label: "Waar", waarde: "Vilderstraat 28, 3500 Hasselt" },
     ],
     foto: {
@@ -192,8 +189,8 @@ export const trajecten: Traject[] = [
       "Experimenteren, bouwen en ontwerpen",
     ],
     instappen: {
-      tekst: "Later instappen kan, ook in oktober is er nog plaats.",
-      data: ["Zaterdag 3 oktober 2026"],
+      tekst:
+        "Instappen kan altijd. Je kind kan op eender welke zaterdag starten.",
     },
   },
   {
@@ -225,7 +222,8 @@ export const trajecten: Traject[] = [
     tekst:
       "Ontdekken, experimenteren, bouwen en vooral plezier maken. Met LEGO® en techniek echte uitdagingen aangaan, samenwerken en trots zijn op je werk.",
     instappen: {
-      tekst: "Je kan het hele jaar door instappen, ook in oktober.",
+      tekst:
+        "Instappen kan altijd. Je kiest zelf of je op dinsdag, woensdag of zaterdag start.",
     },
   },
   {
@@ -249,9 +247,9 @@ export const trajecten: Traject[] = [
           "Woensdag 4 en donderdag 5 november 2026 op T2 Campus, thema Creatieve duizendpoot: van techniek tot design",
       },
       {
-        label: "Kerstvakantie",
+        label: "Kerstvakantie, Hasselt",
         waarde:
-          "Maandag 21 tot en met woensdag 23 december 2026 en maandag 28 tot en met woensdag 30 december 2026, in Hasselt of in Genk. Deze kampen gaan door als er genoeg inschrijvingen zijn, dus laat gerust nu al weten waar je interesse in hebt.",
+          "Maandag 21 tot en met woensdag 23 december 2026 en maandag 28 tot en met woensdag 30 december 2026, in de Vilderstraat 28. Deze kampen gaan door als er genoeg inschrijvingen zijn, dus laat gerust nu al weten welke dagen je zou willen.",
       },
       {
         label: "Daarna",
@@ -293,7 +291,7 @@ export const trajecten: Traject[] = [
         naam: "Kerstvakantie welke dagen",
         label: "Kerstvakantie — welke dagen zou je willen?",
         soort: "keuzes",
-        hulp: "Deze kampen gaan door als er genoeg inschrijvingen zijn. Kruis gerust nu al aan wat jullie zou passen, dan weten we of we ze kunnen laten doorgaan.",
+        hulp: "Deze kampen gaan door in Hasselt, in de Vilderstraat 28, als er genoeg inschrijvingen zijn. Kruis gerust nu al aan wat jullie zou passen, dan weten we of we ze kunnen laten doorgaan.",
         keuzes: [
           { naam: "Kerst maandag 21 december", label: "Maandag 21 december" },
           { naam: "Kerst dinsdag 22 december", label: "Dinsdag 22 december" },
@@ -301,23 +299,6 @@ export const trajecten: Traject[] = [
           { naam: "Kerst maandag 28 december", label: "Maandag 28 december" },
           { naam: "Kerst dinsdag 29 december", label: "Dinsdag 29 december" },
           { naam: "Kerst woensdag 30 december", label: "Woensdag 30 december" },
-        ],
-      },
-      {
-        naam: "Kerstvakantie welke locatie",
-        label: "Kerstvakantie — waar zou je het liefst komen?",
-        soort: "keuzes",
-        hulp: "In de kerstvakantie kunnen we in Hasselt of in Genk terecht. Waar we het kamp geven, hangt af van waar de meeste kinderen vandaan komen.",
-        keuzes: [
-          { naam: "Kerst liefst Hasselt", label: "Hasselt, Vilderstraat 28" },
-          {
-            naam: "Kerst liefst Genk",
-            label: "Genk, T2 Campus, Thor Park 8040",
-          },
-          {
-            naam: "Kerst maakt niet uit",
-            label: "Allebei goed, we komen naar waar het doorgaat",
-          },
         ],
       },
       {

@@ -136,8 +136,10 @@ export default function AanbodPagina() {
 
             {traject.instappen ? (
               <div className="mt-4 rounded-2xl border border-dashed border-orange/50 bg-orange-soft/50 px-5 py-4">
+                {/* Kopje "Instappen" en niet "Later instappen": bij ons kan
+                    starten altijd, niet alleen bij een volgende ronde. */}
                 <p className="text-[13px] font-extrabold text-orange">
-                  Later instappen
+                  Instappen
                 </p>
                 <p className="mt-1 text-[16px] text-ink">
                   {traject.instappen.tekst}
