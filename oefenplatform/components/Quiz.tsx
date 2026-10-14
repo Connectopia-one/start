@@ -5,6 +5,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { MeldingKnop } from "@/components/MeldingKnop";
 import { Leestekst, type Woord } from "@/components/Leestekst";
 import { Prent } from "@/components/Prent";
+import { Rekenmachine } from "@/components/Rekenmachine";
 import type { Prent as PrentGegevens } from "@/lib/prent";
 import { Formule } from "@/components/Formule";
 import {
@@ -549,9 +550,10 @@ function VraagKaart({
               de uitleg begon met "Niet juist." over de stelling. Febe meldde
               dat dat verwarring geeft, dus staat het er nu met zoveel woorden,
               en haalt zonderOordeel het dubbele woordje weg. */}
-          {vraag.type === "waarofniet" && typeof vraag.antwoord === "boolean" && (
-            <p className="mt-1 text-ink">{stellingZin(vraag.antwoord)}</p>
-          )}
+          {vraag.type === "waarofniet" &&
+            typeof vraag.antwoord === "boolean" && (
+              <p className="mt-1 text-ink">{stellingZin(vraag.antwoord)}</p>
+            )}
           {vraag.uitleg && (
             <p className="mt-1 text-ink">
               <Formule tekst={zonderOordeel(vraag.uitleg)} />
@@ -615,6 +617,7 @@ export function Quiz({
   hoofdstukId,
   taalvak = false,
   examen = false,
+  rekenmachine = false,
   contexten,
 }: {
   vragen: Vraag[];
@@ -637,6 +640,11 @@ export function Quiz({
    * Gevraagd door een tester van de Examencommissie op 12 oktober 2026.
    */
   examen?: boolean;
+  /**
+   * Een rekenmachine onder de vraag. Alleen bij het examen van een rekenvak
+   * (zie lib/rekenvak.ts), want bij Frans staat ze enkel in de weg.
+   */
+  rekenmachine?: boolean;
 }) {
   const [statussen, setStatussen] = useState<Record<string, Status>>(() =>
     Object.fromEntries(
@@ -694,7 +702,6 @@ export function Quiz({
   const vraagKop = useRef<HTMLDivElement>(null);
   const volgendeKnop = useRef<HTMLButtonElement>(null);
   const eersteKeer = useRef(true);
-
 
   // Na "Volgende" begint de nieuwe vraag bovenaan, anders sta je midden in de
   // vorige te kijken. Bij het openen van het hoofdstuk niet scrollen.
@@ -890,7 +897,8 @@ export function Quiz({
     openVooruit >= 0 ? openVooruit : dezeNagekeken ? openTerug : -1;
   // Springt de knop naar een vraag die eerder in de reeks staat, dan zegt de
   // regel eronder dat erbij. Zonder die uitleg lijkt het platform te herbeginnen.
-  const springtTerug = laatsteVanDeReeks && nogOpenElders >= 0 && nogOpenElders < huidige;
+  const springtTerug =
+    laatsteVanDeReeks && nogOpenElders >= 0 && nogOpenElders < huidige;
   const toonBalk = Boolean(
     kinderen.find((k) => k.id === actiefKindId)?.toonVoortgang,
   );
@@ -1124,9 +1132,10 @@ export function Quiz({
 
       {alsVakjes && (
         <p className="rounded-md bg-amber/10 px-3 py-2 text-xs text-ink">
-          Let op: bij de keuzevragen in dit hoofdstuk kan er méér dan één
-          antwoord juist zijn. Duid alles aan wat klopt — net als op het examen
-          krijg je de vraag maar goed als je ze allemaal hebt, niet de helft.
+          Let op: bij de keuzevragen in dit {examen ? "examen" : "hoofdstuk"}{" "}
+          kan er méér dan één antwoord juist zijn. Duid alles aan wat klopt —
+          net als op het examen krijg je de vraag maar goed als je ze allemaal
+          hebt, niet de helft.
         </p>
       )}
 
@@ -1169,6 +1178,8 @@ export function Quiz({
             onControleer={controleerHuidige}
           />
         )}
+
+        {rekenmachine && <Rekenmachine />}
 
         {/* Melden bij de vraag zelf: je staat erop, dus je hoeft ze niet meer
             uit een lijst te kiezen. */}

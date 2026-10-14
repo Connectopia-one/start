@@ -14,6 +14,7 @@ import {
 import { schooljaarEindeLabel } from "@/lib/schooljaar";
 import { vindNiveau } from "@/lib/niveaus";
 import { isTaalvak } from "@/lib/taalvak";
+import { isRekenvak } from "@/lib/rekenvak";
 import { vindPrent } from "@/lib/prent";
 import type { VraagContext } from "@/components/Quiz";
 import type { Woord } from "@/components/Leestekst";
@@ -225,6 +226,7 @@ export default async function ExamenPage({
                 toonVoortgang: Boolean(k.toon_voortgang),
               }))}
               taalvak={isTaalvak(vak.slug)}
+              rekenmachine={isRekenvak(vak.slug as string)}
               contexten={contexten}
               examen
             />
