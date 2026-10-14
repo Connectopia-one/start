@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
-import { Kaart, NaarLink, PaginaKop, Sectie, icoonKleur } from "@/components/ui";
+import {
+  Kaart,
+  NaarLink,
+  PaginaKop,
+  Sectie,
+  icoonKleur,
+} from "@/components/ui";
 import { oefenplatform } from "@/content/oefenplatform";
 import { site } from "@/content/site";
 
@@ -167,6 +173,29 @@ export default function OefenplatformPagina() {
               <p className="mt-1 text-[15px] text-ink-dim">{extra.tekst}</p>
             </Kaart>
           ))}
+        </div>
+      </Sectie>
+
+      {/* De uitdagingshoek, vroeger een band op de startpagina. */}
+      <Sectie className="py-4">
+        <div className="grid items-center gap-5 rounded-[20px] bg-purple-soft px-6 py-7 sm:grid-cols-[1fr_auto] sm:px-8">
+          <div>
+            <span className="text-[14px] font-bold text-purple">
+              {oefenplatform.hoekLabel}
+            </span>
+            <h2 className="mt-1.5 text-2xl text-green">
+              {oefenplatform.hoekTitel}
+            </h2>
+            <p className="mt-2 max-w-[60ch] text-[16px] text-ink-dim">
+              {oefenplatform.hoekTekst}
+            </p>
+          </div>
+          <a
+            href={oefenplatform.hoekLink}
+            className="inline-block justify-self-start rounded-full bg-purple px-6 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5 sm:justify-self-end"
+          >
+            {oefenplatform.hoekKnop} →
+          </a>
         </div>
       </Sectie>
 

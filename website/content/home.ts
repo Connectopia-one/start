@@ -38,6 +38,15 @@ export const home = {
         knop: "Naar hulp en advies",
         link: "/hulp-en-advies",
       },
+      {
+        icoon: "🌱",
+        kleur: "blue",
+        titel: "Wie is Connectopia",
+        tekst:
+          "Ons verhaal, onze kernwaarden en het team achter de werking. Ervaringsdeskundigen met een netwerk van wél-specialisten.",
+        knop: "Lees ons verhaal",
+        link: "/over-ons",
+      },
     ] as const,
   },
 
@@ -83,12 +92,6 @@ export const home = {
   },
 
   blokken: {
-    watwedoen: {
-      label: "Wat we doen",
-      titel: "Drie wegen, elk één klik van hier",
-      tekst:
-        "Wie we zijn, wat we zelf organiseren, en waar je terecht kan als je verder wil zoeken.",
-    },
     platform: {
       label: "Voor onze gezinnen",
       titel: "Direct naar jouw plek",
@@ -111,19 +114,6 @@ export const home = {
     link: "/professionals",
   },
 
-  /*
-    De band voor professionals, onderaan de startpagina.
-    Hij nodigt uit, hij houdt niemand tegen: wie gewoon de site wil
-    bekijken, scrolt er voorbij.
-  */
-  hoekjeBand: {
-    label: "Nieuw in het oefenplatform",
-    titel: "Een uitdagingshoek voor wie meer wil",
-    tekst:
-      "Vragen die naast de leerstof liggen: de ruimte, hoe een computer denkt, de geschiedenis van ons land en paradoxen die je hoofd kraken. Gemaakt voor kinderen die de gewone oefeningen vlot afwerken, en inbegrepen in de toegang tot het oefenplatform.",
-    knop: "Naar de uitdagingshoek",
-    link: "https://oefenplatform.connectopia.one/niveaus/hoekje",
-  },
   /*
     In de kijker: filmpjes, artikels en berichten die we delen over
     hoogbegaafdheid, autisme en ADHD. De band staat er vooral om mensen te

@@ -18,7 +18,6 @@ import type { Sponsor } from "@/content/sponsors";
 import { sponsorsPerSoort, sponsorsTekst } from "@/content/sponsors";
 
 export default function Startpagina() {
-  const watwedoen = onderdeelPerGroep("watwedoen");
   const platform = onderdeelPerGroep("platform");
   const kennis = onderdeelPerGroep("kennis");
 
@@ -41,7 +40,7 @@ export default function Startpagina() {
             {home.hero.tekst}
           </p>
 
-          <div className="mt-7 grid gap-4 md:grid-cols-2">
+          <div className="mt-7 grid gap-4 md:grid-cols-3">
             {home.hero.deuren.map((deur) => (
               <Link
                 key={deur.link}
@@ -109,23 +108,6 @@ export default function Startpagina() {
         </section>
       ) : null}
 
-      {/* Wat we doen */}
-      <section className="mx-auto w-full max-w-5xl px-5 py-14">
-        <Label>{home.blokken.watwedoen.label}</Label>
-        <h2 className="mt-1.5 text-3xl text-green">
-          {home.blokken.watwedoen.titel}
-        </h2>
-        <p className="mt-2 max-w-[62ch] text-ink-dim">
-          {home.blokken.watwedoen.tekst}
-        </p>
-
-        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {watwedoen.map((onderdeel) => (
-            <Tegel key={onderdeel.slug} onderdeel={onderdeel} />
-          ))}
-        </div>
-      </section>
-
       {/* Direct naar jouw plek */}
       <section className="mx-auto w-full max-w-5xl px-5 pb-14">
         <Label>{home.blokken.platform.label}</Label>
@@ -167,31 +149,6 @@ export default function Startpagina() {
               {home.partnerBlok.linkTekst} →
             </span>
           </Link>
-        </div>
-      </section>
-
-      {/* De uitdagingshoek: wat de website aan hoogbegaafde kinderen trekt,
-          heeft ook iets nodig om op te bijten. Die hoek staat gratis open,
-          dus hij mag hier vooraan staan. */}
-      <section className="mx-auto w-full max-w-5xl px-5 pb-8">
-        <div className="grid items-center gap-5 rounded-[20px] bg-purple-soft px-6 py-7 sm:grid-cols-[1fr_auto] sm:px-8">
-          <div>
-            <span className="text-[14px] font-bold text-purple">
-              {home.hoekjeBand.label}
-            </span>
-            <h2 className="mt-1.5 text-2xl text-green">
-              {home.hoekjeBand.titel}
-            </h2>
-            <p className="mt-2 max-w-[60ch] text-[16px] text-ink-dim">
-              {home.hoekjeBand.tekst}
-            </p>
-          </div>
-          <a
-            href={home.hoekjeBand.link}
-            className="inline-block justify-self-start rounded-full bg-purple px-6 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5 sm:justify-self-end"
-          >
-            {home.hoekjeBand.knop} →
-          </a>
         </div>
       </section>
 

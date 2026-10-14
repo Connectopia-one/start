@@ -21,7 +21,8 @@
 export const oefenplatform = {
   label: "Oefenplatform",
   titel: "Ons oefenplatform",
-  handgeschreven: "Oefenen op het niveau van je kind, niet op dat van zijn leeftijd",
+  handgeschreven:
+    "Oefenen op het niveau van je kind, niet op dat van zijn leeftijd",
   tekst:
     "Interactieve oefeningen van het 5de leerjaar tot het 6de middelbaar, met bij elk hoofdstuk een leerbundel met de theorie en een oefenbundel om af te drukken. Je kind kiest zelf waar het begint, en je ziet per kind wat het al maakte.",
 
@@ -35,9 +36,16 @@ export const oefenplatform = {
     "Zolang het platform nog volop in opbouw is, kost een heel schooljaar €20 in plaats van €50. Dat is voor het hele gezin, niet per kind. Met die bijdrage kunnen we blijven verder ontwikkelen. Zodra het platform volledig is, wordt het €50 per schooljaar per gezin.",
 
   /* De twee knoppen bovenaan. */
-  startKnop: { tekst: "Een hoofdstuk gratis proberen", href: "https://oefenplatform.connectopia.one" },
-  accountKnop: { tekst: "Een account aanmaken", href: "https://oefenplatform.connectopia.one/registreren" },
-  gratisZin: "Bij bijna elk vak staat een hoofdstuk open om uit te proberen, zonder account en zonder je gegevens achter te laten.",
+  startKnop: {
+    tekst: "Een hoofdstuk gratis proberen",
+    href: "https://oefenplatform.connectopia.one",
+  },
+  accountKnop: {
+    tekst: "Een account aanmaken",
+    href: "https://oefenplatform.connectopia.one/registreren",
+  },
+  gratisZin:
+    "Bij bijna elk vak staat een hoofdstuk open om uit te proberen, zonder account en zonder je gegevens achter te laten.",
 
   voorWieTitel: "Voor wie het gemaakt is",
   voorWie: [
@@ -113,7 +121,8 @@ export const oefenplatform = {
       emoji: "🔭",
       naam: "Uitdagingshoek",
       wat: "Verder dan de leerstof, voor wie graag ver doordenkt",
-      vakken: "De ruimte, coderen en computers, de geschiedenis van België, paradoxen en weetjes",
+      vakken:
+        "De ruimte, coderen en computers, de geschiedenis van België, paradoxen en weetjes",
     },
   ],
   niveausSlot:
@@ -146,7 +155,12 @@ export const oefenplatform = {
   manierTitel: "Hoe we de vragen maken",
   manierTekst:
     "Wij schrijven de vragen zelf, op basis van de minimumdoelen van de Vlaamse overheid en de vakfiches van de examencommissie. Er komt geen AI aan te pas. We kijken ze ook na op raadbaarheid: het juiste antwoord mag niet opvallen omdat het langer is dan de andere, en waar mag niet vaker voorkomen dan niet waar.",
-  manierWoorden: ["Geen AI in de oefeningen", "Geen afleidende animaties", "Rustig opgebouwd", "Zonder reclame"],
+  manierWoorden: [
+    "Geen AI in de oefeningen",
+    "Geen afleidende animaties",
+    "Rustig opgebouwd",
+    "Zonder reclame",
+  ],
   manierMelden:
     "Klopt er toch iets niet, dan kan je het onderaan elk hoofdstuk melden. Wij kijken het na en schrijven terug.",
 
@@ -154,16 +168,57 @@ export const oefenplatform = {
   extrasTekst:
     "Dingen die erbij horen voor het plezier. Ze tellen niet mee voor een rapport en er is geen ranglijst.",
   extras: [
-    { icoon: "❓", titel: "De vraag van de dag", tekst: "Eén vraag per dag per categorie, met een weekdoel van drie. Geen dagelijkse reeks die je kan breken." },
-    { icoon: "🏅", titel: "Verzamelbadges", tekst: "Badges die je kind verzamelt op zijn eigen tempo, zonder vergelijking met anderen." },
-    { icoon: "💡", titel: "Het weetjesprikbord", tekst: "Kinderen sturen hun eigen weetje in. Wij kijken het na voor het verschijnt." },
+    {
+      icoon: "❓",
+      titel: "De vraag van de dag",
+      tekst:
+        "Eén vraag per dag per categorie, met een weekdoel van drie. Geen dagelijkse reeks die je kan breken.",
+    },
+    {
+      icoon: "🏅",
+      titel: "Verzamelbadges",
+      tekst:
+        "Badges die je kind verzamelt op zijn eigen tempo, zonder vergelijking met anderen.",
+    },
+    {
+      icoon: "💡",
+      titel: "Het weetjesprikbord",
+      tekst:
+        "Kinderen sturen hun eigen weetje in. Wij kijken het na voor het verschijnt.",
+    },
   ],
+
+  /*
+    De uitdagingshoek stond als paarse band op de startpagina. Kim op 14
+    oktober 2026: "de uitdagingshoek kan beter op de uitlegpagina van
+    oefenplatform staan". Hier staat ze naast de uitleg waar ze bij hoort.
+  */
+  hoekLabel: "Naast de leerstof",
+  hoekTitel: "Een uitdagingshoek voor wie meer wil",
+  hoekTekst:
+    "Vragen die naast de leerstof liggen: de ruimte, hoe een computer denkt, de geschiedenis van ons land en paradoxen die je hoofd kraken. Gemaakt voor kinderen die de gewone oefeningen vlot afwerken, en inbegrepen in de toegang.",
+  hoekKnop: "Naar de uitdagingshoek",
+  hoekLink: "https://oefenplatform.connectopia.one/niveaus/hoekje",
 
   stappenTitel: "Zo begin je",
   stappen: [
-    { nummer: "1", titel: "Maak een account", tekst: "Eén account per gezin, met je e-mailadres en een wachtwoord." },
-    { nummer: "2", titel: "Voeg je kinderen toe", tekst: "Elk kind krijgt zijn eigen voortgang, zijn eigen badges en zijn eigen vraag van de dag." },
-    { nummer: "3", titel: "Breng de toegang in orde", tekst: "Betaal de bijdrage voor een heel schooljaar, of vul je toegangscode in als je er een kreeg." },
+    {
+      nummer: "1",
+      titel: "Maak een account",
+      tekst: "Eén account per gezin, met je e-mailadres en een wachtwoord.",
+    },
+    {
+      nummer: "2",
+      titel: "Voeg je kinderen toe",
+      tekst:
+        "Elk kind krijgt zijn eigen voortgang, zijn eigen badges en zijn eigen vraag van de dag.",
+    },
+    {
+      nummer: "3",
+      titel: "Breng de toegang in orde",
+      tekst:
+        "Betaal de bijdrage voor een heel schooljaar, of vul je toegangscode in als je er een kreeg.",
+    },
   ],
 
   vragenTitel: "Nog een vraag?",
