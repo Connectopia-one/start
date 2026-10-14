@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Pakt de pdf's samen in zips: één per vak en per categorie, en één met alles.
+"""Pakt de pdf's samen in zips: één per vak en één per richting.
 
     python3 maak_zips.py
 
@@ -32,12 +32,19 @@ WORTEL = HIER.parent.parent                      # inhoud/
 sys.path.insert(0, str(HIER))
 
 # De laatste kolom: ook één zip per categorie, met alle vakken van die
-# categorie samen. Enkel bij de uitlegbladen, want die worden per categorie
-# afgewerkt en Kim haalt ze dan in één keer binnen in plaats van elf keer.
+# categorie samen, elk vak in zijn eigen map. Kim vroeg dat op 14 oktober 2026
+# voor alle drie de soorten: "van elke richting alle vakken (...) zodat ik
+# gewoon kan uitpakken per richting en dan per vak, want zo moet ik ze
+# uploaden." Zo past één download precies op één avond opladen.
+#
+# De kolom ervoor is de naam van de zip met álles erin. Die staat op None:
+# alle-leerbundels.zip woog 92 MB, en zo'n zip is niet bruikbaar om mee op te
+# laden (je moet er dan zelf per vak uit gaan vissen). De zips per richting
+# hebben ze vervangen.
 SOORTEN = [
-    ("leerbundels", WORTEL / "leerbundels", "BUNDELS", "alle-leerbundels.zip", False),
-    ("oefenbundels", WORTEL / "oefenbundels", "OEFENBUNDELS", "alle-oefenbundels.zip", False),
-    ("uitlegbladen", WORTEL / "uitlegbladen", "UITLEGBLADEN", "alle-uitlegbladen.zip", True),
+    ("leerbundels", WORTEL / "leerbundels", "BUNDELS", None, True),
+    ("oefenbundels", WORTEL / "oefenbundels", "OEFENBUNDELS", None, True),
+    ("uitlegbladen", WORTEL / "uitlegbladen", "UITLEGBLADEN", None, True),
 ]
 
 # De sleutel `niveau` is een hele zin ("✨ Spark — 1ste en 2de middelbaar").
@@ -53,7 +60,13 @@ NIVEAUWOORDEN = [
     ("basis", "basis"),
     ("start", "start"),
     ("spark", "spark"),
-    ("beyond", "beyond"),
+    # De oudste bundels van 🌍 Beyond zeggen enkel "Beyond" in hun
+    # niveauzin, zonder "doorstroom". Toch horen ze daar: het oefenplatform
+    # kent geen categorie "beyond", enkel beyond-doorstroom en
+    # beyond-dubbele-finaliteit (lib/niveaus.ts). Zonder deze regel viel
+    # doorstroom uiteen in twee zips, een met elf vakken en een met drie, en
+    # moest Kim per document gaan zoeken bij welke richting het hoorde.
+    ("beyond", "beyond-doorstroom"),
 ]
 
 
@@ -136,7 +149,7 @@ def maak(map_, sleutel, zipnaam, samen_per_niveau=False):
             gemaakt.add(doel.name)
             regels.append(f"{map_.name}/{doel.name}: {len(lijst)} pdf, {mb:.1f} MB")
 
-    if alles:
+    if alles and zipnaam:
         mb = _schrijf(map_ / zipnaam, alles)
         gemaakt.add(zipnaam)
         regels.append(f"{map_.name}/{zipnaam}: {len(alles)} pdf, {mb:.1f} MB")
