@@ -50,7 +50,9 @@ grant execute on function public.voortgang_per_hoofdstuk(uuid, uuid[]) to servic
 create index if not exists voortgang_kind_hoofdstuk_idx
   on public.voortgang (kind_id, hoofdstuk_id);
 
-select count(*) as hoofdstukken_met_werk
+-- Tot slot één getal: hoeveel antwoorden het ijverigste kind al gaf. Staat daar
+-- meer dan duizend, dan is dat de bevestiging van wat er misliep.
+select max(aantal) as meeste_antwoorden_bij_een_kind
 from (
-  select distinct hoofdstuk_id from public.voortgang where hoofdstuk_id is not null
+  select kind_id, count(*) as aantal from public.voortgang group by kind_id
 ) t;

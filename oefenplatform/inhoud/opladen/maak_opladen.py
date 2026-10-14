@@ -360,6 +360,40 @@ PAGINAS = [
             ),
         ],
     ),
+    dict(
+        bestand="opladen-vinkjes.html",
+        titel="Plakpagina — de vinkjes en de sterren",
+        sleutel="connectopia-plakpagina-vinkjes",
+        voet="Bijgewerkt op 14 oktober 2026",
+        intro="""<p>Een ouder meldde op 14 oktober 2026 dat haar dochters vanaf een bepaalde
+      reeks geen vinkje en geen ster meer kregen. Dat lag niet aan die hoofdstukken: om
+      de vinkjes te zetten vroeg de pagina élk antwoord op dat dat kind ooit gaf, en de
+      databank geeft op zo'n vraag hoogstens duizend rijen terug, zonder iets te
+      melden. Wie veel oefent, zit daarboven, en wat erna kwam viel buiten het
+      antwoord.</p>
+      <p>Het platform haalt de rijen nu blok per blok op, dus de vinkjes staan er al
+      zonder dat je iets hoeft te doen. Dit sql-bestand laat de databank het werk zelf
+      samenvatten, één rij per hoofdstuk: dat is lichter en het kan niet meer
+      afgekapt worden.</p>""",
+        secties=[
+            dict(
+                kop="Eén sql-bestand",
+                uitleg="Plak het in de sql-editor van Supabase, op het project van "
+                       "het oefenplatform, en klik op Run.",
+                kaarten=sqlkaarten([
+                    (
+                        "vinkjes",
+                        "De databank vat de voortgang zelf samen",
+                        "oefenplatform — sql-editor",
+                        "voortgang-per-hoofdstuk.sql",
+                        "Onderaan komt er één getal uit: hoeveel antwoorden het "
+                        "ijverigste kind al gaf. Zeg me welk getal er staat, dan weet "
+                        "ik zeker dat dit de oorzaak was.",
+                    ),
+                ]),
+            ),
+        ],
+    ),
 ]
 
 
