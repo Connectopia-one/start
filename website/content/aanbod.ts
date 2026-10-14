@@ -45,6 +45,25 @@ export const proefles = {
   knopTekst: "Schrijf in voor een gratis proefles",
 };
 
+/*
+  De voorbehouden plaatsen voor gezinnen met een verhoogde tegemoetkoming.
+
+  Kim op 14 oktober 2026: "we zouden bij de kampen en de lessen die we
+  aanbieden ergens een stukje moeten inzetten dat we een paar plaatsjes vrij
+  houden voor personen met een VT statuut (korting 50%)". Op 11 oktober zei ze
+  nog dat dit enkel in gesprek ging; op 14 oktober mag het wel op de website,
+  maar bewust niet op de posters en de flyers, want die verwijzen toch naar
+  de site.
+
+  Het bedrag staat er niet in cijfers bij, zodat deze tekst klopt blijft als
+  een tarief verandert. Eén papier is er wel nodig: het attest.
+*/
+export const voorbehouden = {
+  titel: "Een paar plaatsen houden we vrij",
+  tekst:
+    "Bij elk kamp en elke werking houden we een aantal plaatsen vrij voor gezinnen met een verhoogde tegemoetkoming. Die plaatsen kosten de helft. Vraag er gerust naar bij je aanvraag, dan kijken we samen of er nog een vrij is. Het enige wat we nodig hebben is je attest van de verhoogde tegemoetkoming.",
+};
+
 export const aanbodTekst = {
   label: "Ons aanbod",
   titel: "Samen ontdekken, leren, creëren en groeien",

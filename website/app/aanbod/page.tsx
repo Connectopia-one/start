@@ -10,7 +10,13 @@ import {
   Sectie,
   tekstKleur,
 } from "@/components/ui";
-import { aanbodTekst, inbegrepen, proefles, trajecten } from "@/content/aanbod";
+import {
+  aanbodTekst,
+  inbegrepen,
+  proefles,
+  trajecten,
+  voorbehouden,
+} from "@/content/aanbod";
 import { aanvraagLink, soorten } from "@/content/formulier";
 
 export const metadata: Metadata = {
@@ -61,6 +67,16 @@ export default function AanbodPagina() {
               </li>
             ))}
           </ul>
+        </div>
+      </Sectie>
+
+      {/* Voorbehouden plaatsen, zie de uitleg in content/aanbod.ts */}
+      <Sectie className="py-4">
+        <div className="rounded-[20px] border border-border bg-surface px-7 py-6">
+          <h2 className="text-2xl text-green">{voorbehouden.titel}</h2>
+          <p className="mt-2 max-w-[68ch] text-[16px] text-ink-dim">
+            {voorbehouden.tekst}
+          </p>
         </div>
       </Sectie>
 

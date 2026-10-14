@@ -59,7 +59,8 @@ export const volgOns = [
   De volgorde hier is de volgorde op de startpagina.
 
   groep:  "watwedoen"  = het blok "Wat we doen"
-          "uitgelicht" = het grote uitgelichte blok eronder
+          "uitgelicht" = staat niet op de startpagina, enkel in de
+                         voettekst en op /hulp-en-advies
           "platform"   = het blok "Direct naar jouw plek"
           "kennis"     = het blok "Lezen en bijleren"
   kleur:  "green" | "orange" | "purple" | "blue"
@@ -105,6 +106,16 @@ export const onderdelen: Onderdeel[] = [
     label: "Gratis proefles",
   },
   {
+    slug: "/hulp-en-advies",
+    titel: "Hulp, advies en tips",
+    menuTitel: "Hulp en advies",
+    icoon: "🧭",
+    omschrijving:
+      "De wegwijzer, de observatielijst, thuisonderwijs en de Examencommissie, de gids met begeleiders, de blog, het prikbord en wat we delen. Alles naast elkaar, kies maar waar je nu nood aan hebt.",
+    groep: "watwedoen",
+    kleur: "purple",
+  },
+  {
     slug: "/wegwijzer",
     titel: "Wegwijzer voor ouders",
     menuTitel: "Wegwijzer",
@@ -113,6 +124,8 @@ export const onderdelen: Onderdeel[] = [
       "Een echte roadmap bij ASS, ADHD, HB en UHB. Van het eerste vermoeden tot ver na de diagnose.",
     groep: "uitgelicht",
     kleur: "blue",
+    /* Staat sinds 14 oktober 2026 op /hulp-en-advies, niet meer in het menu. */
+    inMenu: false,
   },
   {
     slug: "/waar-kan-je-terecht",
@@ -121,8 +134,10 @@ export const onderdelen: Onderdeel[] = [
     icoon: "🧭",
     omschrijving:
       "Diensten en organisaties die we kennen en vertrouwen: van psycholoog en logopedist tot bijlesleerkracht met kennis van hoogbegaafdheid, ook bij dubbele diagnoses.",
-    groep: "watwedoen",
+    groep: "uitgelicht",
     kleur: "purple",
+    /* Staat op /hulp-en-advies; het menu blijft zo kort. */
+    inMenu: false,
   },
   {
     slug: "/ouderportaal",
@@ -194,6 +209,7 @@ export const extraLinks: {
   menuTitel: string;
   inMenu?: boolean;
 }[] = [
+  { slug: "/thuisonderwijs", menuTitel: "Thuisonderwijs" },
   { slug: "/observatielijst", menuTitel: "Observatielijst" },
   { slug: "/kijkje", menuTitel: "Kijkje in de werking" },
   { slug: "/in-de-kijker", menuTitel: "In de kijker" },

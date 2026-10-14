@@ -4,7 +4,7 @@ import {
   Blad,
   Foto,
   Icoon,
-  Knop,
+  knopKleur,
   Label,
   NaarLink,
   Penseel,
@@ -16,66 +16,67 @@ import { echteLink, onderdeelPerGroep, site } from "@/content/site";
 import { Quotes } from "@/components/Quotes";
 import type { Sponsor } from "@/content/sponsors";
 import { sponsorsPerSoort, sponsorsTekst } from "@/content/sponsors";
-import { stappen, wegwijzerTekst } from "@/content/wegwijzer";
 
 export default function Startpagina() {
   const watwedoen = onderdeelPerGroep("watwedoen");
   const platform = onderdeelPerGroep("platform");
   const kennis = onderdeelPerGroep("kennis");
-  const wegwijzer = onderdeelPerGroep("uitgelicht")[0];
 
   return (
     <>
-      {/* Hero */}
+      {/* Hero: twee deuren, zie de uitleg in content/home.ts */}
       <section className="relative overflow-hidden">
         <Blad className="-top-5 -left-10 w-44 -rotate-12" />
         <Blad className="-right-8 -bottom-10 w-36 rotate-[150deg]" />
 
-        <div className="relative mx-auto grid w-full max-w-5xl gap-9 px-5 py-14 md:grid-cols-[1.2fr_0.85fr] md:items-center">
-          <div>
-            <Penseel>{site.baseline}</Penseel>
-            <h1 className="mt-4 text-4xl font-black text-green sm:text-5xl">
-              {home.hero.titel}{" "}
-              <span className="text-purple">{home.hero.titelAccent}</span>.
-            </h1>
-            <p className="font-hand mt-2 text-2xl text-orange sm:text-3xl">
-              {home.hero.handgeschreven}
-            </p>
-            <p className="mt-4 max-w-[48ch] text-[18px] text-ink-dim">
-              {home.hero.tekst}
-            </p>
-            <div className="mt-7 flex flex-wrap gap-3">
-              <Knop href={home.hero.knopPrimair.link}>
-                {home.hero.knopPrimair.tekst}
-              </Knop>
-              <Knop href={home.hero.knopTweede.link} variant="tweede">
-                {home.hero.knopTweede.tekst}
-              </Knop>
-            </div>
+        <div className="relative mx-auto w-full max-w-5xl px-5 py-12">
+          <Penseel>{site.baseline}</Penseel>
+          <h1 className="mt-4 text-4xl font-black text-balance text-green sm:text-5xl">
+            {home.hero.titel}
+          </h1>
+          <p className="font-hand mt-2 text-2xl text-orange sm:text-3xl">
+            {home.hero.handgeschreven}
+          </p>
+          <p className="mt-3 max-w-[54ch] text-[18px] text-ink-dim">
+            {home.hero.tekst}
+          </p>
+
+          <div className="mt-7 grid gap-4 md:grid-cols-2">
+            {home.hero.deuren.map((deur) => (
+              <Link
+                key={deur.link}
+                href={deur.link}
+                className="flex flex-col gap-3 rounded-[20px] border border-border bg-surface p-6 shadow-[0_2px_10px_rgba(47,74,34,0.07)] transition hover:-translate-y-1 hover:shadow-[0_8px_20px_rgba(47,74,34,0.12)]"
+              >
+                <Icoon kleur={deur.kleur}>{deur.icoon}</Icoon>
+                <h2 className={`text-2xl ${tekstKleur[deur.kleur]}`}>
+                  {deur.titel}
+                </h2>
+                <p className="text-[16px] text-ink-dim">{deur.tekst}</p>
+                <span
+                  className={`mt-auto inline-block self-start rounded-full px-6 py-3 text-[16px] font-extrabold text-cream ${knopKleur[deur.kleur]}`}
+                >
+                  {deur.knop} →
+                </span>
+              </Link>
+            ))}
           </div>
 
-          <aside className="rounded-[20px] border border-border bg-surface p-6 shadow-[0_2px_10px_rgba(47,74,34,0.07)]">
-            <Label>Kies je richting</Label>
-            <h2 className="mt-1.5 text-lg text-green">
-              {home.kiesJeRichting.titel}
-            </h2>
-            <ul className="mt-3 grid gap-0.5">
-              {home.kiesJeRichting.keuzes.map((keuze) => (
-                <li key={keuze.link}>
-                  <NaarLink
-                    href={echteLink(keuze.link)}
-                    className="flex items-center gap-2.5 rounded-xl px-2.5 py-2.5 text-[16px] font-semibold hover:bg-sage-soft hover:text-green"
-                  >
-                    <span
-                      aria-hidden
-                      className={`h-2.5 w-2.5 shrink-0 rounded-full ${stipKleur[keuze.kleur]}`}
-                    />
-                    {keuze.tekst}
-                  </NaarLink>
-                </li>
-              ))}
-            </ul>
-          </aside>
+          <div className="mt-5 flex flex-wrap gap-2.5">
+            {home.kleineLinks.map((kleine) => (
+              <NaarLink
+                key={kleine.link}
+                href={echteLink(kleine.link)}
+                className="flex items-center gap-2.5 rounded-full border border-border bg-surface px-4 py-2.5 text-[15px] font-bold hover:bg-sage-soft hover:text-green"
+              >
+                <span
+                  aria-hidden
+                  className={`h-2.5 w-2.5 shrink-0 rounded-full ${stipKleur[kleine.kleur]}`}
+                />
+                {kleine.tekst}
+              </NaarLink>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -123,44 +124,6 @@ export default function Startpagina() {
             <Tegel key={onderdeel.slug} onderdeel={onderdeel} />
           ))}
         </div>
-
-        {/* De wegwijzer, uitgelicht */}
-        {wegwijzer ? (
-          <Link
-            href={wegwijzer.slug}
-            className="mt-4 block rounded-[20px] border border-border bg-surface p-7 shadow-[0_2px_10px_rgba(47,74,34,0.07)] transition hover:-translate-y-1"
-          >
-            <div className="grid gap-6 md:grid-cols-[1.1fr_0.9fr] md:items-center">
-              <div>
-                <Penseel>{wegwijzerTekst.label}</Penseel>
-                <h3 className="mt-3 text-2xl text-green">
-                  {wegwijzerTekst.titel}
-                </h3>
-                <p className="font-hand mt-1 text-xl text-purple">
-                  {wegwijzerTekst.handgeschreven}
-                </p>
-              </div>
-              <p className="text-[16px] text-ink-dim">{wegwijzerTekst.tekst}</p>
-            </div>
-
-            <div className="mt-6 grid gap-4 border-t border-dashed border-border pt-5 sm:grid-cols-2 lg:grid-cols-5">
-              {stappen.map((stap) => (
-                <div
-                  key={stap.nummer}
-                  className="flex flex-col items-start gap-2"
-                >
-                  <Icoon kleur={stap.kleur}>{stap.icoon}</Icoon>
-                  <h4 className={`text-[15.5px] ${tekstKleur[stap.kleur]}`}>
-                    {stap.nummer}. {stap.titel}
-                  </h4>
-                  <p className="text-[14.5px] text-ink-dim">
-                    {stap.samenvatting}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </Link>
-        ) : null}
       </section>
 
       {/* Direct naar jouw plek */}
@@ -341,7 +304,9 @@ function SponsorVak({ sponsor }: { sponsor: Sponsor }) {
     <img
       src={`/sponsors/${sponsor.logo}`}
       alt={sponsor.naam}
-      className="max-h-20 w-auto object-contain"
+      /* max-w-full erbij sinds het brede logo van Technologiebende: zonder
+         die regel liep een liggend logo uit zijn vakje. */
+      className="max-h-20 w-auto max-w-full object-contain"
     />
   ) : (
     <span className="px-2 text-center">

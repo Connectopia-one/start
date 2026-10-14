@@ -25,6 +25,14 @@ export const vlakKleur: Record<Kleur, string> = {
   blue: "bg-blue-soft",
 };
 
+/* Een volle knop in de kleur van het blok, met crèmekleurige letters. */
+export const knopKleur: Record<Kleur, string> = {
+  green: "bg-green hover:bg-green-mid",
+  orange: "bg-orange hover:bg-green-mid",
+  purple: "bg-purple hover:bg-green-mid",
+  blue: "bg-blue hover:bg-green-mid",
+};
+
 export const stipKleur: Record<Kleur, string> = {
   green: "bg-green",
   orange: "bg-orange",

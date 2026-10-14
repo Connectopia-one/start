@@ -1,15 +1,64 @@
 /* De teksten van de startpagina. */
 
 export const home = {
+  /*
+    De bovenkant van de startpagina: twee deuren.
+
+    Kim op 14 oktober 2026: "ik denk dat we de gewone kinderen afschrikken en
+    hun ouders om naar de kampen en hobby's te komen omdat het eerste wat ze
+    zien is ass en adhd en hoogbegaafdheid. (...) net dat is wat niet de
+    bedoeling is, we maken gewoon iets wat voor iedereen past, anders ben je
+    nog steeds een apart aanbod te creeren en kinderen op te splitsen."
+
+    Daarom staat er geen omschrijving meer bovenaan waarin een bezoeker zich
+    moet herkennen, maar een vraag met twee deuren. De diagnoses staan achter
+    de tweede deur, als aanbod en niet als toegangsvoorwaarde.
+  */
   hero: {
-    titel: "Jouw kompas bij hoogbegaafdheid,",
-    titelAccent: "ASS & ADHD",
-    handgeschreven: "Iedereen is welkom, wij denken graag met je mee.",
+    titel: "Waar ben je naar op zoek?",
+    handgeschreven: "Iedereen is welkom, met of zonder diagnose.",
     tekst:
-      "We verbinden kinderen aan peers en ouders aan de juiste experts. Van naschoolse activiteiten tot pluswerkingen, alles op maat en in kleine groepjes.",
-    knopPrimair: { tekst: "Start de wegwijzer", link: "/wegwijzer" },
-    knopTweede: { tekst: "Bekijk ons aanbod", link: "/aanbod" },
+      "Connectopia vzw brengt kinderen samen in kleine groepjes en helpt ouders hun weg vinden, in Hasselt en Genk.",
+    deuren: [
+      {
+        icoon: "🔧",
+        kleur: "green",
+        titel: "Een activiteit voor mijn kind",
+        tekst:
+          "Kampen in elke vakantie, de plusklas, de pluswerkingen, Young Engineers en naschoolse activiteiten. Voor élk kind, in kleine groepjes, prikkelarm en op maat.",
+        knop: "Bekijk ons aanbod",
+        link: "/aanbod",
+      },
+      {
+        icoon: "🧭",
+        kleur: "purple",
+        titel: "Hulp, advies en tips",
+        tekst:
+          "Over hoogbegaafdheid, UHB, ASS, ADHD, thuisonderwijs en de Examencommissie. De wegwijzer, de observatielijst, tips van andere ouders en wat we delen, alles bij elkaar.",
+        knop: "Naar hulp en advies",
+        link: "/hulp-en-advies",
+      },
+    ] as const,
   },
+
+  /* De kleine lijntjes onder de twee deuren: wie gewoon binnen wil. */
+  kleineLinks: [
+    {
+      tekst: "Ik zoek een psycholoog of begeleider",
+      link: "/waar-kan-je-terecht",
+      kleur: "purple",
+    },
+    {
+      tekst: "Ik wil naar het ouderportaal",
+      link: "/ouderportaal",
+      kleur: "blue",
+    },
+    {
+      tekst: "Naar het oefenplatform",
+      link: "/oefenplatform",
+      kleur: "orange",
+    },
+  ] as const,
 
   /*
     De brede foto onder de titel bovenaan.
@@ -20,33 +69,6 @@ export const home = {
     bestand: "startpagina.jpg",
     beschrijving:
       "Kinderen werken aan een lange tafel met laptops en boeken, een begeleidster kijkt mee.",
-  },
-
-  /* Het kaartje rechts in de hero: vier snelle ingangen. */
-  kiesJeRichting: {
-    titel: "Waar wil je naartoe?",
-    keuzes: [
-      {
-        tekst: "Ik vermoed iets bij mijn kind",
-        link: "/wegwijzer",
-        kleur: "green",
-      },
-      {
-        tekst: "Ik zoek een kamp of traject",
-        link: "/aanbod",
-        kleur: "orange",
-      },
-      {
-        tekst: "Ik zoek een psycholoog of begeleider",
-        link: "/waar-kan-je-terecht",
-        kleur: "purple",
-      },
-      {
-        tekst: "Ik wil naar het ouderportaal",
-        link: "/ouderportaal",
-        kleur: "blue",
-      },
-    ] as const,
   },
 
   /*
