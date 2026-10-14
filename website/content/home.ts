@@ -132,7 +132,7 @@ export const home = {
     label: "Voor professionals",
     titel: "Ben je een professional?",
     tekst:
-      "Kinesist, logopedist, coach, auticoach, arts of begeleider: we bezorgen je graag folders, een poster voor je wachtzaal of flyers om uit te delen. En wie met deze kinderen werkt, mag in onze wegwijzer staan.",
+      "Kinesist, logopedist, coach, auticoach, arts of begeleider: we bezorgen je graag folders, een poster voor je wachtzaal of flyers om uit te delen. En wie met deze kinderen werkt, mag in onze gids Waar kan je terecht staan.",
     knop: "Ik werk met deze kinderen",
     link: "/professionals",
   },
