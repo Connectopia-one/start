@@ -19,7 +19,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hetzelfde tekstje over Namen. Wat is de hoofdgedachte, dus de belangrijkste boodschap?",
+          "vraag": "Lees nog eens: 'Depuis trois ans, la ville de Namur prête des vélos électriques aux habitants qui travaillent à plus de cinq kilomètres de chez eux. Le prêt dure six semaines et ne coûte rien. L'idée n'est pas de donner un vélo à tout le monde, mais de laisser les gens essayer. Après l'essai, un habitant sur trois achète son propre vélo.' Wat is de hoofdgedachte, dus de belangrijkste boodschap?",
           "opties": [
             "Wie een fiets mag proberen, koopt er vaak zelf een.",
             "Elektrische fietsen zijn te duur voor veel mensen.",
@@ -31,7 +31,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Nog altijd het tekstje over Namen. Hoeveel weken mag je de fiets houden? Schrijf het cijfer.",
+          "vraag": "Lees nog eens: 'Depuis trois ans, la ville de Namur prête des vélos électriques aux habitants qui travaillent à plus de cinq kilomètres de chez eux. Le prêt dure six semaines et ne coûte rien. L'idée n'est pas de donner un vélo à tout le monde, mais de laisser les gens essayer. Après l'essai, un habitant sur trois achète son propre vélo.' Hoeveel weken mag je de fiets houden? Schrijf het cijfer.",
           "antwoord": [
             "6"
           ],
@@ -39,13 +39,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "In het tekstje over Namen kost het niets om de fiets zes weken te mogen proberen.",
+          "vraag": "Lees nog eens: 'Depuis trois ans, la ville de Namur prête des vélos électriques aux habitants qui travaillent à plus de cinq kilomètres de chez eux. Le prêt dure six semaines et ne coûte rien. L'idée n'est pas de donner un vélo à tout le monde, mais de laisser les gens essayer. Après l'essai, un habitant sur trois achète son propre vélo.' In het tekstje over Namen kost het niets om de fiets zes weken te mogen proberen.",
           "antwoord": true,
           "uitleg": "Le prêt dure six semaines et ne coûte rien: het lenen duurt zes weken en kost niets."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke dingen staan er letterlijk in het tekstje over Namen?",
+          "vraag": "Lees nog eens: 'Depuis trois ans, la ville de Namur prête des vélos électriques aux habitants qui travaillent à plus de cinq kilomètres de chez eux. Le prêt dure six semaines et ne coûte rien. L'idée n'est pas de donner un vélo à tout le monde, mais de laisser les gens essayer. Après l'essai, un habitant sur trois achète son propre vélo.' Welke dingen staan er letterlijk in het tekstje over Namen?",
           "opties": [
             "De stad leent fietsen uit sinds drie jaar.",
             "Je moet verder dan vijf kilometer van je werk wonen.",
@@ -85,7 +85,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hetzelfde tekstje over de kantine. Wat is de hoofdgedachte?",
+          "vraag": "Lees nog eens: 'Notre école a changé le menu de la cantine en septembre. Il y a maintenant un plat végétarien tous les jours et moins de viande. Au début, beaucoup d'élèves se sont plaints. Trois mois plus tard, la cantine sert deux fois plus de repas qu'avant. Le cuisinier explique que le secret n'est pas le menu, mais le goût.' Wat is de hoofdgedachte?",
           "opties": [
             "Het menu werkte pas toen het eten lekker was.",
             "Leerlingen eten liever vlees dan groenten.",
@@ -97,13 +97,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "In het tekstje over de kantine waren de leerlingen vanaf het begin tevreden.",
+          "vraag": "Lees nog eens: 'Notre école a changé le menu de la cantine en septembre. Il y a maintenant un plat végétarien tous les jours et moins de viande. Au début, beaucoup d'élèves se sont plaints. Trois mois plus tard, la cantine sert deux fois plus de repas qu'avant. Le cuisinier explique que le secret n'est pas le menu, mais le goût.' In het tekstje over de kantine waren de leerlingen vanaf het begin tevreden.",
           "antwoord": false,
           "uitleg": "Au début, beaucoup d'élèves se sont plaints: in het begin klaagden veel leerlingen."
         },
         {
           "type": "invultekst",
-          "vraag": "Nog het tekstje over de kantine. Hoeveel maanden later serveert de kantine dubbel zoveel maaltijden? Schrijf het cijfer.",
+          "vraag": "Lees nog eens: 'Notre école a changé le menu de la cantine en septembre. Il y a maintenant un plat végétarien tous les jours et moins de viande. Au début, beaucoup d'élèves se sont plaints. Trois mois plus tard, la cantine sert deux fois plus de repas qu'avant. Le cuisinier explique que le secret n'est pas le menu, mais le goût.' Hoeveel maanden later serveert de kantine dubbel zoveel maaltijden? Schrijf het cijfer.",
           "antwoord": [
             "3"
           ],
@@ -135,7 +135,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke gevolgen van dat onweer worden in het bericht genoemd?",
+          "vraag": "Lees nog eens: 'Hier soir, un orage violent a traversé le sud du pays. Plusieurs routes ont été fermées pendant deux heures. Il n'y a pas de blessés, mais une centaine de maisons sont restées sans électricité jusqu'à ce matin.' Welke gevolgen van dat onweer worden in het bericht genoemd?",
           "opties": [
             "wegen die een tijd dicht waren",
             "huizen zonder elektriciteit",
@@ -150,13 +150,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "In het nieuwsbericht over het onweer vielen er gewonden.",
+          "vraag": "Lees nog eens: 'Hier soir, un orage violent a traversé le sud du pays. Plusieurs routes ont été fermées pendant deux heures. Il n'y a pas de blessés, mais une centaine de maisons sont restées sans électricité jusqu'à ce matin.' In het nieuwsbericht over het onweer vielen er gewonden.",
           "antwoord": false,
           "uitleg": "Il n'y a pas de blessés: er zijn geen gewonden. Let op die ontkenning, ze draait de hele zin om."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel huizen zaten er volgens het nieuwsbericht ongeveer zonder stroom? Antwoord in cijfers.",
+          "vraag": "Lees nog eens: 'Hier soir, un orage violent a traversé le sud du pays. Plusieurs routes ont été fermées pendant deux heures. Il n'y a pas de blessés, mais une centaine de maisons sont restées sans électricité jusqu'à ce matin.' Hoeveel huizen zaten er volgens het nieuwsbericht ongeveer zonder stroom? Antwoord in cijfers.",
           "antwoord": [
             "100"
           ],
@@ -176,13 +176,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De schrijver van die brief laat weten wanneer hij of zij beschikbaar is.",
+          "vraag": "Lees nog eens: 'Madame, Monsieur, Je suis élève en quatrième année et je cherche un stage de deux semaines au mois de février. Je m'intéresse beaucoup au travail de votre laboratoire. Je suis libre tous les jours et je peux venir me présenter quand vous voulez. Je vous remercie d'avance pour votre réponse.' De schrijver van die brief laat weten wanneer hij of zij beschikbaar is.",
           "antwoord": true,
           "uitleg": "Je suis libre tous les jours: ik ben elke dag vrij. Dat is precies wat een stageplaats wil weten."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In welke maand wil de schrijver van die brief stage lopen?",
+          "vraag": "Lees nog eens: 'Madame, Monsieur, Je suis élève en quatrième année et je cherche un stage de deux semaines au mois de février. Je m'intéresse beaucoup au travail de votre laboratoire. Je suis libre tous les jours et je peux venir me présenter quand vous voulez. Je vous remercie d'avance pour votre réponse.' In welke maand wil de schrijver van die brief stage lopen?",
           "opties": [
             "februari",
             "januari",
@@ -212,7 +212,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Op de markt uit dat tekstje liggen de prijzen hoger dan in de supermarkt.",
+          "vraag": "Lees nog eens: 'Le samedi matin, la place est pleine. On y vend des légumes, du fromage et des fleurs. Les prix sont plus élevés qu'au supermarché, mais les clients reviennent chaque semaine. « Ici, je sais qui a cultivé mes tomates », dit une dame de soixante ans.' Op de markt uit dat tekstje liggen de prijzen hoger dan in de supermarkt.",
           "antwoord": true,
           "uitleg": "Les prix sont plus élevés qu'au supermarché. Plus élevé is hoger, niet lager, en dat is net wat de tekst merkwaardig vindt."
         }
@@ -249,7 +249,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Uit het tekstje over Namen kan je afleiden dat twee op de drie inwoners na de proef geen eigen fiets kopen.",
+          "vraag": "Lees nog eens: 'Depuis trois ans, la ville de Namur prête des vélos électriques aux habitants qui travaillent à plus de cinq kilomètres de chez eux. Le prêt dure six semaines et ne coûte rien. L'idée n'est pas de donner un vélo à tout le monde, mais de laisser les gens essayer. Après l'essai, un habitant sur trois achète son propre vélo.' Uit het tekstje over Namen kan je afleiden dat twee op de drie inwoners na de proef geen eigen fiets kopen.",
           "antwoord": true,
           "uitleg": "Un habitant sur trois achète: een op de drie koopt. De andere twee dus niet. Dat staat er niet letterlijk, maar je kan het berekenen."
         },
@@ -279,7 +279,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke woorden in het tekstje over de kantine wijzen op een tijdsverloop?",
+          "vraag": "Lees nog eens: 'Notre école a changé le menu de la cantine en septembre. Il y a maintenant un plat végétarien tous les jours et moins de viande. Au début, beaucoup d'élèves se sont plaints. Trois mois plus tard, la cantine sert deux fois plus de repas qu'avant. Le cuisinier explique que le secret n'est pas le menu, mais le goût.' Welke woorden in het tekstje over de kantine wijzen op een tijdsverloop?",
           "opties": [
             "en septembre",
             "la cantine",
@@ -294,7 +294,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "In het tekstje over de kantine is het een leerling die uitlegt waarom het nu wel lukt.",
+          "vraag": "Lees nog eens: 'Notre école a changé le menu de la cantine en septembre. Il y a maintenant un plat végétarien tous les jours et moins de viande. Au début, beaucoup d'élèves se sont plaints. Trois mois plus tard, la cantine sert deux fois plus de repas qu'avant. Le cuisinier explique que le secret n'est pas le menu, mais le goût.' In het tekstje over de kantine is het een leerling die uitlegt waarom het nu wel lukt.",
           "antwoord": false,
           "uitleg": "Le cuisinier explique que…: de kok legt het uit. De leerlingen komen in die tekst alleen voor als wie klaagde."
         },
@@ -345,7 +345,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke zinnen uit die stagebrief zijn beleefdheidsformules?",
+          "vraag": "Lees nog eens: 'Madame, Monsieur, Je suis élève en quatrième année et je cherche un stage de deux semaines au mois de février. Je m'intéresse beaucoup au travail de votre laboratoire. Je suis libre tous les jours et je peux venir me présenter quand vous voulez. Je vous remercie d'avance pour votre réponse.' Welke zinnen uit die stagebrief zijn beleefdheidsformules?",
           "opties": [
             "Madame, Monsieur",
             "Je vous remercie d'avance pour votre réponse.",
@@ -360,7 +360,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De schrijver van de stagebrief zegt waarom juist dat labo hem of haar interesseert.",
+          "vraag": "Lees nog eens: 'Madame, Monsieur, Je suis élève en quatrième année et je cherche un stage de deux semaines au mois de février. Je m'intéresse beaucoup au travail de votre laboratoire. Je suis libre tous les jours et je peux venir me présenter quand vous voulez. Je vous remercie d'avance pour votre réponse.' De schrijver van de stagebrief zegt waarom juist dat labo hem of haar interesseert.",
           "antwoord": true,
           "uitleg": "Je m'intéresse beaucoup au travail de votre laboratoire. Dat is kort, maar het is wel degelijk een reden."
         },
@@ -378,7 +378,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Uit het tekstje over de markt blijkt dat de dame van zestig haar tomaten zelf kweekt.",
+          "vraag": "Lees nog eens: 'Le samedi matin, la place est pleine. On y vend des légumes, du fromage et des fleurs. Les prix sont plus élevés qu'au supermarché, mais les clients reviennent chaque semaine. « Ici, je sais qui a cultivé mes tomates », dit une dame de soixante ans.' Uit het tekstje over de markt blijkt dat de dame van zestig haar tomaten zelf kweekt.",
           "antwoord": false,
           "uitleg": "Je sais qui a cultivé mes tomates: ik weet wie mijn tomaten gekweekt heeft. Ze weet dus wie het deed, maar zij is het niet."
         },
@@ -396,7 +396,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke oplossingen stellen de anderen op dat forum voor?",
+          "vraag": "Lees nog eens: 'Marie : J'ai acheté ce casque il y a deux mois et le son est déjà mauvais d'un côté. Quelqu'un a le même problème ? — Yacine : Chez moi, c'était le câble. Je l'ai remplacé pour douze euros et tout fonctionne. — Lila : Moi, j'ai renvoyé le mien. La garantie dure deux ans, profites-en.' Welke oplossingen stellen de anderen op dat forum voor?",
           "opties": [
             "de kabel vervangen",
             "een beroep doen op de garantie",
@@ -411,13 +411,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Op dat forum heeft Yacine zijn koptelefoon teruggestuurd.",
+          "vraag": "Lees nog eens: 'Marie : J'ai acheté ce casque il y a deux mois et le son est déjà mauvais d'un côté. Quelqu'un a le même problème ? — Yacine : Chez moi, c'était le câble. Je l'ai remplacé pour douze euros et tout fonctionne. — Lila : Moi, j'ai renvoyé le mien. La garantie dure deux ans, profites-en.' Op dat forum heeft Yacine zijn koptelefoon teruggestuurd.",
           "antwoord": false,
           "uitleg": "Yacine verving de kabel voor twaalf euro. Lila is diegene die het hare terugstuurde. Lees goed wie wat zegt."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Het tekstje over de markt en het stukje forum gaan allebei over kopen. Wat is het grootste verschil?",
+          "vraag": "Lees nog eens de twee tekstjes. Over de markt: 'Le samedi matin, la place est pleine. On y vend des légumes, du fromage et des fleurs. Les prix sont plus élevés qu'au supermarché, mais les clients reviennent chaque semaine. « Ici, je sais qui a cultivé mes tomates », dit une dame de soixante ans.' En het forum: 'Marie : J'ai acheté ce casque il y a deux mois et le son est déjà mauvais d'un côté. Quelqu'un a le même problème ? — Yacine : Chez moi, c'était le câble. Je l'ai remplacé pour douze euros et tout fonctionne. — Lila : Moi, j'ai renvoyé le mien. La garantie dure deux ans, profites-en.' Ze gaan allebei over kopen. Wat is het grootste verschil?",
           "opties": [
             "het ene beschrijft, het andere geeft raad",
             "het ene is formeel, het andere informeel",
@@ -456,7 +456,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waaraan zie je in dat recept meteen dat het een prescriptieve tekst is?",
+          "vraag": "Lees nog eens: 'Épluchez quatre pommes de terre et coupez-les en morceaux. Faites-les cuire vingt minutes dans l'eau bouillante. Égouttez, puis écrasez-les avec un peu de lait chaud. Salez et servez tout de suite.' Waaraan zie je in dat recept meteen dat het een prescriptieve tekst is?",
           "opties": [
             "aan de bevelende werkwoordsvormen épluchez, coupez, salez",
             "aan de vele bijvoeglijke naamwoorden in de tekst",

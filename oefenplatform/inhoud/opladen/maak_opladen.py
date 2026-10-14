@@ -24,7 +24,7 @@ Alles van één ronde staat in de drie blokken onderaan: `VAKKEN`, `VRAGEN` en
 sjabloon al helemaal niet: kop, secties, voettekst en de sleutel waarin de
 vinkjes bewaard worden, komen alle vier uit dit bestand.
 """
-import html, json, pathlib, zipfile
+import html, json, pathlib, sys, zipfile
 
 WORTEL = pathlib.Path("/home/claude/start/oefenplatform/inhoud")
 TAK = "claude/drie-projecten-planning-87h9wg"
@@ -329,13 +329,46 @@ PAGINAS = [
                 ["spark-nederlands-uitdaging", "spark-geschiedenis-uitdaging"])),
         ],
     ),
+    dict(
+        bestand="opladen-examenvragen.html",
+        titel="Plakpagina — de vragen van de examens",
+        sleutel="connectopia-plakpagina-examenvragen",
+        voet="Bijgewerkt op 14 oktober 2026",
+        intro="""<p>Kim merkte op 14 oktober 2026 dat een vraag op het examen naar een tekst
+      verwees die er niet bij stond: <em>Dezelfde tekst over de schoolyard. Welke
+      hoofdpunten staan erin?</em> Die tekst stond in de vraag ervoor, en op een examen
+      lopen de vragen van alle hoofdstukken door elkaar.</p>
+      <p>116 vragen van Engels en Frans (✨ Spark, 🚀 Boost doorstroom en
+      🚀 Boost dubbele finaliteit) dragen hun tekst nu zelf. Dat gebeurt met één
+      sql-bestand, zodat je die zes vragenbestanden niet opnieuw moet importeren.</p>""",
+        secties=[
+            dict(
+                kop="Eén sql-bestand",
+                uitleg="Plak het in de sql-editor van Supabase, op het project van "
+                       "het oefenplatform, en klik op Run.",
+                kaarten=sqlkaarten([
+                    (
+                        "vraagtekst",
+                        "De vragen dragen hun eigen tekst",
+                        "oefenplatform — sql-editor",
+                        "vraag-draagt-haar-tekst.sql",
+                        "Onderaan komt er een getal uit: dat hoort 116 te zijn. "
+                        "Staat er een lager getal, zeg het dan, dan kijk ik welke "
+                        "vraag niet meer woord voor woord dezelfde was.",
+                    ),
+                ]),
+            ),
+        ],
+    ),
 ]
 
 
-def bouw():
+def bouw(enkel=()):
     hier = pathlib.Path(__file__).parent
     sjabloon = (hier / "sjabloon.html").read_text(encoding="utf-8")
     for pag in PAGINAS:
+        if enkel and pag["bestand"] not in enkel:
+            continue
         stukken = []
         for nr, s in enumerate(pag["secties"], 1):
             stukken.append(f'''  <section>
@@ -359,4 +392,7 @@ def bouw():
 
 
 if __name__ == "__main__":
-    bouw()
+    # Zonder argument bouwt het alle plakpagina's opnieuw; met een bestandsnaam
+    # enkel die ene. Geef dus de pagina van déze ronde mee, anders schrijven de
+    # oudere pagina's zich opnieuw met de inhoud van vandaag erin.
+    bouw(sys.argv[1:])
