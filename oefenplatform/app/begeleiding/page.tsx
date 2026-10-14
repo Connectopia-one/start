@@ -78,7 +78,9 @@ export default async function BegeleidingPage({
                   >
                     {g.label || g.naam}
                     <span
-                      className={aan ? "ml-2 text-white/70" : "ml-2 text-ink-dim"}
+                      className={
+                        aan ? "ml-2 text-white/70" : "ml-2 text-ink-dim"
+                      }
                     >
                       {g.kinderen.length}
                     </span>
@@ -111,6 +113,24 @@ export default async function BegeleidingPage({
                   )}
                 </div>
 
+                {/* Welke soort opvolging deze groep krijgt. */}
+                <p
+                  className={`mt-3 rounded-xl border px-5 py-4 text-sm ${
+                    gekozen.volledigeOpvolging
+                      ? "border-forest/30 bg-forest/5 text-ink"
+                      : "border-border bg-surface text-ink-dim"
+                  }`}
+                >
+                  <span className="font-medium text-ink">
+                    {gekozen.volledigeOpvolging
+                      ? t.groepen.volleOpvolging
+                      : t.groepen.enkelTabel}
+                  </span>{" "}
+                  {gekozen.volledigeOpvolging
+                    ? t.groepen.volleOpvolgingUitleg
+                    : t.groepen.enkelTabelUitleg}
+                </p>
+
                 {gekozen.sleutel === ZONDER_GROEP && (
                   <p className="mt-3 rounded-xl border border-amber/40 bg-amber/10 px-5 py-4 text-sm text-ink">
                     {t.groepen.zonderGroepUitleg}
@@ -130,45 +150,77 @@ export default async function BegeleidingPage({
                           <th className="px-3 py-2">Gezin</th>
                           <th className="px-3 py-2">Vragen</th>
                           <th className="px-3 py-2">Score</th>
-                          <th className="px-3 py-2">Stickers</th>
-                          <th className="px-3 py-2"></th>
+                          <th className="px-3 py-2">Sterren</th>
+                          <th className="px-3 py-2">{t.groepen.laatstKop}</th>
+                          {gekozen.volledigeOpvolging && (
+                            <th className="px-3 py-2"></th>
+                          )}
                         </tr>
                       </thead>
                       <tbody>
                         {gekozen.kinderen.map((k) => {
-                          const aantal = k.voortgang.length;
-                          const correct = k.voortgang.filter(
-                            (v) => v.correct,
-                          ).length;
+                          const aantal = k.aantal;
+                          const correct = k.juist;
                           return (
                             <tr key={k.id} className="border-t border-border">
-                              <td data-label="Kind" className="px-3 py-2 font-medium text-ink">
+                              <td
+                                data-label="Kind"
+                                className="px-3 py-2 font-medium text-ink"
+                              >
                                 {k.naam}
                               </td>
-                              <td data-label="Gezin" className="px-3 py-2 text-ink-dim">
+                              <td
+                                data-label="Gezin"
+                                className="px-3 py-2 text-ink-dim"
+                              >
                                 {k.profiles?.full_name ?? "—"}
                               </td>
-                              <td data-label="Vragen" className="px-3 py-2 text-ink">
+                              <td
+                                data-label="Vragen"
+                                className="px-3 py-2 text-ink"
+                              >
                                 {aantal || "—"}
                               </td>
-                              <td data-label="Score" className="px-3 py-2 text-ink">
+                              <td
+                                data-label="Score"
+                                className="px-3 py-2 text-ink"
+                              >
                                 {aantal > 0
                                   ? `${correct}/${aantal} (${Math.round((correct / aantal) * 100)}%)`
                                   : "—"}
                               </td>
-                              <td data-label="Stickers" className="px-3 py-2 text-ink">
-                                {k.stickers.length
-                                  ? `🌟 ${k.stickers.length}`
-                                  : "—"}
+                              <td
+                                data-label="Sterren"
+                                className="px-3 py-2 text-ink"
+                              >
+                                {k.sterren ? `🌟 ${k.sterren}` : "—"}
                               </td>
-                              <td className="px-3 py-2">
-                                <Link
-                                  href={`/begeleiding/${k.id}?groep=${encodeURIComponent(gekozen.sleutel)}`}
-                                  className="font-medium text-forest-dark hover:underline"
-                                >
-                                  Fiche &rarr;
-                                </Link>
+                              <td
+                                data-label={t.groepen.laatstKop}
+                                className="px-3 py-2 text-ink-dim"
+                              >
+                                {k.laatst
+                                  ? new Date(k.laatst).toLocaleDateString(
+                                      "nl-BE",
+                                      {
+                                        day: "numeric",
+                                        month: "long",
+                                      },
+                                    )
+                                  : t.groepen.nooit}
                               </td>
+                              {/* Enkel de groepen die je in detail opvolgt
+                                  hebben een fiche. */}
+                              {gekozen.volledigeOpvolging && (
+                                <td className="px-3 py-2">
+                                  <Link
+                                    href={`/begeleiding/${k.id}?groep=${encodeURIComponent(gekozen.sleutel)}`}
+                                    className="font-medium text-forest-dark hover:underline"
+                                  >
+                                    Fiche &rarr;
+                                  </Link>
+                                </td>
+                              )}
                             </tr>
                           );
                         })}

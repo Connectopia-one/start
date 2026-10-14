@@ -1,9 +1,15 @@
 import Link from "next/link";
 import { requireBeheerder } from "@/lib/auth";
-import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { Header } from "@/components/Header";
-import { maakCode, wisselActief, verwijderCode, zetGroepToegangUit } from "./actions";
+import {
+  maakCode,
+  wisselActief,
+  verwijderCode,
+  zetGroepToegangUit,
+  wisselOpvolging,
+} from "./actions";
+import { haalCodes } from "@/lib/begeleidingsgroepen";
 
 export default async function BeheerCodesPage({
   searchParams,
@@ -12,12 +18,9 @@ export default async function BeheerCodesPage({
 }) {
   const session = await requireBeheerder();
   const { fout, melding } = await searchParams;
-  const supabase = await createClient();
 
-  const { data: codes } = await supabase
-    .from("plusklas_codes")
-    .select("code, label, actief, created_at")
-    .order("created_at", { ascending: false });
+  /* Met het vinkje voor de volle opvolging erbij; zie lib/begeleidingsgroepen.ts. */
+  const codes = await haalCodes();
 
   /* Hoeveel accounts met deze code nu nog gratis toegang hebben. Met de
      service-sleutel, zodat ook accounts zonder kind meetellen. */
@@ -40,80 +43,132 @@ export default async function BeheerCodesPage({
         <Link href="/beheer" className="text-sm text-ink-dim hover:text-ink">
           &larr; Beheer
         </Link>
-        <h1 className="mt-2 font-display text-2xl font-semibold text-ink">Plusklas-codes</h1>
+        <h1 className="mt-2 font-display text-2xl font-semibold text-ink">
+          Plusklas-codes
+        </h1>
         <p className="mt-2 text-sm text-ink-dim">
-          Deel een actieve code met plusklas-gezinnen. Wie zich registreert met deze code krijgt
-          automatisch gratis volledige toegang. Een code inactief zetten houdt enkel nieuwe mensen
-          tegen: wie ze al gebruikte, houdt zijn toegang tot je ze hieronder uitzet.
+          Deel een actieve code met plusklas-gezinnen. Wie zich registreert met
+          deze code krijgt automatisch gratis volledige toegang. Een code
+          inactief zetten houdt enkel nieuwe mensen tegen: wie ze al gebruikte,
+          houdt zijn toegang tot je ze hieronder uitzet.
         </p>
 
-        {fout && <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">{fout}</p>}
+        {fout && (
+          <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">
+            {fout}
+          </p>
+        )}
         {melding && (
-          <p className="mt-4 rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">{melding}</p>
+          <p className="mt-4 rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">
+            {melding}
+          </p>
         )}
 
         <ul className="mt-6 space-y-2">
-          {(codes ?? []).map((c) => {
+          {codes.map((c) => {
             const aantal = aantalPerCode.get(c.code) ?? 0;
             return (
-            <li
-              key={c.code}
-              className="rounded-lg border border-border bg-surface p-3 text-sm"
-            >
-              <div className="flex items-center justify-between gap-3">
-              <div>
-                <p className="font-mono font-medium text-ink">{c.code}</p>
-                {c.label && <p className="text-xs text-ink-dim">{c.label}</p>}
-              </div>
-              <div className="flex items-center gap-3">
-                <form action={wisselActief}>
-                  <input type="hidden" name="code" value={c.code} />
-                  <input type="hidden" name="actief" value={String(c.actief)} />
-                  <button
-                    type="submit"
-                    className={`rounded-full px-2.5 py-0.5 text-xs font-medium ${
-                      c.actief ? "bg-forest/10 text-forest-dark" : "bg-ink-dim/10 text-ink-dim"
-                    }`}
-                  >
-                    {c.actief ? "Actief" : "Inactief"}
-                  </button>
-                </form>
-                <form action={verwijderCode}>
-                  <input type="hidden" name="code" value={c.code} />
-                  <button type="submit" className="text-xs text-danger hover:underline">
-                    Verwijderen
-                  </button>
-                </form>
-              </div>
-              </div>
+              <li
+                key={c.code}
+                className="rounded-lg border border-border bg-surface p-3 text-sm"
+              >
+                <div className="flex items-center justify-between gap-3">
+                  <div>
+                    <p className="font-mono font-medium text-ink">{c.code}</p>
+                    {c.label && (
+                      <p className="text-xs text-ink-dim">{c.label}</p>
+                    )}
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <form action={wisselActief}>
+                      <input type="hidden" name="code" value={c.code} />
+                      <input
+                        type="hidden"
+                        name="actief"
+                        value={String(c.actief)}
+                      />
+                      <button
+                        type="submit"
+                        className={`rounded-full px-2.5 py-0.5 text-xs font-medium ${
+                          c.actief
+                            ? "bg-forest/10 text-forest-dark"
+                            : "bg-ink-dim/10 text-ink-dim"
+                        }`}
+                      >
+                        {c.actief ? "Actief" : "Inactief"}
+                      </button>
+                    </form>
+                    <form action={verwijderCode}>
+                      <input type="hidden" name="code" value={c.code} />
+                      <button
+                        type="submit"
+                        className="text-xs text-danger hover:underline"
+                      >
+                        Verwijderen
+                      </button>
+                    </form>
+                  </div>
+                </div>
 
-              {/* Einde van een testperiode: alle gezinnen van deze code in één
-                  keer terug op de gratis hoofdstukken. */}
-              <div className="mt-2 flex flex-wrap items-center justify-between gap-2 border-t border-border pt-2">
-                <span className="text-xs text-ink-dim">
-                  {aantal === 0
-                    ? "Niemand met deze code heeft nu gratis toegang."
-                    : `${aantal} ${aantal === 1 ? "account heeft" : "accounts hebben"} gratis toegang via deze code.`}
-                </span>
-                {aantal > 0 && (
-                  <form action={zetGroepToegangUit}>
+                {/* Welke soort opvolging deze groep krijgt. Kim volgt enkel de
+                  plusklas van Hasselt in detail op; bij de andere groepen
+                  blijft het bij de tabel met de voortgang. */}
+                <div className="mt-2 flex flex-wrap items-center justify-between gap-2 border-t border-border pt-2">
+                  <span className="text-xs text-ink-dim">
+                    {c.volledige_opvolging
+                      ? "Volle opvolging: elk kind van deze groep heeft een fiche met de opgeloste testen, opmerkingen en werk van thuis."
+                      : "Enkel de voortgang: deze groep staat in de tabel op de opvolging, zonder fiche."}
+                  </span>
+                  <form action={wisselOpvolging}>
                     <input type="hidden" name="code" value={c.code} />
+                    <input
+                      type="hidden"
+                      name="volledig"
+                      value={String(c.volledige_opvolging)}
+                    />
                     <button
                       type="submit"
-                      className="rounded-full border border-border px-3 py-1 text-xs font-medium text-ink hover:border-danger hover:text-danger"
+                      className="rounded-full border border-border px-3 py-1 text-xs font-medium text-ink hover:border-forest hover:text-forest-dark"
                     >
-                      Toegang van deze {aantal} uitzetten
+                      {c.volledige_opvolging
+                        ? "Enkel de voortgang"
+                        : "Volle opvolging aanzetten"}
                     </button>
                   </form>
-                )}
-              </div>
-            </li>
+                </div>
+
+                {/* Einde van een testperiode: alle gezinnen van deze code in één
+                  keer terug op de gratis hoofdstukken. */}
+                <div className="mt-2 flex flex-wrap items-center justify-between gap-2 border-t border-border pt-2">
+                  <span className="text-xs text-ink-dim">
+                    {aantal === 0
+                      ? "Niemand met deze code heeft nu gratis toegang."
+                      : `${aantal} ${aantal === 1 ? "account heeft" : "accounts hebben"} gratis toegang via deze code.`}
+                  </span>
+                  {aantal > 0 && (
+                    <form action={zetGroepToegangUit}>
+                      <input type="hidden" name="code" value={c.code} />
+                      <button
+                        type="submit"
+                        className="rounded-full border border-border px-3 py-1 text-xs font-medium text-ink hover:border-danger hover:text-danger"
+                      >
+                        Toegang van deze {aantal} uitzetten
+                      </button>
+                    </form>
+                  )}
+                </div>
+              </li>
             );
           })}
-          {!codes?.length && <li className="text-sm text-ink-dim">Nog geen codes aangemaakt.</li>}
+          {!codes.length && (
+            <li className="text-sm text-ink-dim">Nog geen codes aangemaakt.</li>
+          )}
         </ul>
 
-        <form action={maakCode} className="mt-6 space-y-3 rounded-xl border border-border bg-surface p-5">
+        <form
+          action={maakCode}
+          className="mt-6 space-y-3 rounded-xl border border-border bg-surface p-5"
+        >
           <div className="space-y-1.5">
             <label className="text-sm font-medium text-ink">Code</label>
             <input
@@ -125,7 +180,10 @@ export default async function BeheerCodesPage({
           </div>
           <div className="space-y-1.5">
             <label className="text-sm font-medium text-ink">
-              Label <span className="font-normal text-ink-dim">(optioneel, enkel voor jezelf)</span>
+              Label{" "}
+              <span className="font-normal text-ink-dim">
+                (optioneel, enkel voor jezelf)
+              </span>
             </label>
             <input
               name="label"

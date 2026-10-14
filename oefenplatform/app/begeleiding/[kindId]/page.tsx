@@ -94,9 +94,22 @@ export default async function FichePage({
     een begeleider leest het gewoon mee. Zie supabase/groepen.sql.
   */
   const magGroepZetten = session.profile?.role === "beheerder";
-  const codes = magGroepZetten ? await haalCodes() : [];
+  const codes = await haalCodes();
   const huidigeCode = gezin.plusklas_code ?? "";
   const huidigeGroep = codes.find((c) => c.code === huidigeCode);
+  /*
+    Volgt Kim deze groep in detail op? Zo niet, dan blijft deze fiche bij de
+    voortgang: geen opgeloste testen, geen opmerkingen, geen werk van thuis.
+    Kim op 14 oktober 2026: "enkel van de kindjes van de plusklas code
+    PLUSKLAS26HASSELT moet ik in detail kunnen opvolgen ... de andere is het
+    leuk om zo in een tabel de voortgang te zien maar daar moet geen zware
+    opvolging bij zitten." Het vinkje staat op de code, bij Beheer,
+    Plusklas-codes; een gezin zonder groep houden we licht.
+
+    Wat er al genoteerd stond, blijft wel staan: anders zou een gezin dat van
+    groep verandert zijn opmerkingen uit het zicht zien verdwijnen.
+  */
+  const volleOpvolging = Boolean(huidigeGroep?.volledige_opvolging);
 
   const [ruwe, { data: stickers }, { data: notities }, { data: documenten }] =
     await Promise.all([
@@ -246,13 +259,20 @@ export default async function FichePage({
           )}
         </section>
 
+        {!volleOpvolging && (
+          <p className="mt-4 rounded-xl border border-border bg-surface px-5 py-4 text-sm text-ink-dim">
+            <span className="font-medium text-ink">{t.fiche.lichtKop}</span>{" "}
+            {t.fiche.lichtUitleg}
+          </p>
+        )}
+
         {/* Voortgang */}
         <section className="mt-8">
           <div className="flex flex-wrap items-baseline justify-between gap-3">
             <h2 className="font-display text-lg font-semibold text-ink">
               {t.fiche.voortgangKop}
             </h2>
-            {totaal > 0 && (
+            {totaal > 0 && volleOpvolging && (
               <Link
                 href={`/begeleiding/${kindId}/testen`}
                 className="niet-afdrukken text-sm font-medium text-forest-dark hover:underline"
@@ -282,19 +302,25 @@ export default async function FichePage({
                             <th className="px-3 py-2">Hoofdstuk</th>
                             <th className="px-3 py-2">Score</th>
                             <th className="px-3 py-2">Laatst geoefend</th>
-                            <th className="niet-afdrukken px-3 py-2"></th>
+                            {volleOpvolging && (
+                              <th className="niet-afdrukken px-3 py-2"></th>
+                            )}
                           </tr>
                         </thead>
                         <tbody>
                           {[...vak.hoofdstukken.entries()].map(([id, h]) => (
                             <tr key={id} className="border-t border-border">
                               <td data-label="Hoofdstuk" className="px-3 py-2">
-                                <Link
-                                  href={`/begeleiding/${kindId}/testen?hoofdstuk=${id}`}
-                                  className="text-forest-dark hover:underline"
-                                >
-                                  {h.titel}
-                                </Link>
+                                {volleOpvolging ? (
+                                  <Link
+                                    href={`/begeleiding/${kindId}/testen?hoofdstuk=${id}`}
+                                    className="text-forest-dark hover:underline"
+                                  >
+                                    {h.titel}
+                                  </Link>
+                                ) : (
+                                  <span className="text-ink">{h.titel}</span>
+                                )}
                               </td>
                               <td
                                 data-label="Score"
@@ -309,14 +335,16 @@ export default async function FichePage({
                               >
                                 {datum(h.laatst)}
                               </td>
-                              <td className="niet-afdrukken px-3 py-2">
-                                <a
-                                  href={`/begeleiding/${kindId}/testen/${id}/pdf`}
-                                  className="text-forest-dark hover:underline"
-                                >
-                                  pdf
-                                </a>
-                              </td>
+                              {volleOpvolging && (
+                                <td className="niet-afdrukken px-3 py-2">
+                                  <a
+                                    href={`/begeleiding/${kindId}/testen/${id}/pdf`}
+                                    className="text-forest-dark hover:underline"
+                                  >
+                                    pdf
+                                  </a>
+                                </td>
+                              )}
                             </tr>
                           ))}
                         </tbody>
@@ -349,109 +377,46 @@ export default async function FichePage({
         )}
 
         {/* Opmerkingen */}
-        <section className="mt-10">
-          <h2 className="font-display text-lg font-semibold text-ink">
-            {t.fiche.notitiesKop}
-          </h2>
-          <p className="mt-1 text-sm text-ink-dim">{t.fiche.notitiesUitleg}</p>
-
-          <NotitieForm kindId={kindId} />
-
-          {!notities?.length ? (
-            <p className="mt-4 text-sm text-ink-dim">{t.fiche.notitiesLeeg}</p>
-          ) : (
-            <ul className="mt-4 space-y-3">
-              {(notities as Notitie[]).map((n) => (
-                <li
-                  key={n.id}
-                  className="rounded-lg border border-border bg-surface p-4"
-                >
-                  <div className="flex flex-wrap items-baseline justify-between gap-2">
-                    <span className="text-xs font-medium uppercase tracking-wide text-forest">
-                      {soortLabel.get(n.soort) ?? n.soort}
-                    </span>
-                    <span className="text-xs text-ink-dim">
-                      {datum(n.datum)}
-                      {n.auteur_naam ? ` · ${n.auteur_naam}` : ""}
-                    </span>
-                  </div>
-                  <p className="mt-2 whitespace-pre-wrap text-sm text-ink">
-                    {n.tekst}
-                  </p>
-                  <form
-                    action={verwijderNotitie}
-                    className="niet-afdrukken mt-2"
-                  >
-                    <input type="hidden" name="kindId" value={kindId} />
-                    <input type="hidden" name="id" value={n.id} />
-                    <button
-                      type="submit"
-                      className="text-xs text-ink-dim underline-offset-2 hover:text-danger hover:underline"
-                    >
-                      Verwijderen
-                    </button>
-                  </form>
-                </li>
-              ))}
-            </ul>
-          )}
-        </section>
-
-        {/* Werk van thuis */}
-        <section className="mt-10">
-          <h2 className="font-display text-lg font-semibold text-ink">
-            {t.fiche.documentenKop}
-          </h2>
-          <p className="mt-1 text-sm text-ink-dim">
-            {t.fiche.documentenUitleg}
-          </p>
-
-          <WerkForm kindId={kindId} />
-
-          {!documenten?.length ? (
-            <p className="mt-4 text-sm text-ink-dim">
-              {t.fiche.documentenLeeg}
+        {(volleOpvolging || !!notities?.length) && (
+          <section className="mt-10">
+            <h2 className="font-display text-lg font-semibold text-ink">
+              {t.fiche.notitiesKop}
+            </h2>
+            <p className="mt-1 text-sm text-ink-dim">
+              {t.fiche.notitiesUitleg}
             </p>
-          ) : (
-            <ul className="mt-4 space-y-2">
-              {(documenten as Document[]).map((d) => {
-                const href = linkPerPad.get(d.bestandspad);
-                return (
+
+            {volleOpvolging && <NotitieForm kindId={kindId} />}
+
+            {!notities?.length ? (
+              <p className="mt-4 text-sm text-ink-dim">
+                {t.fiche.notitiesLeeg}
+              </p>
+            ) : (
+              <ul className="mt-4 space-y-3">
+                {(notities as Notitie[]).map((n) => (
                   <li
-                    key={d.id}
-                    className="flex flex-wrap items-baseline justify-between gap-2 rounded-lg border border-border bg-surface p-4"
+                    key={n.id}
+                    className="rounded-lg border border-border bg-surface p-4"
                   >
-                    <div>
-                      {href ? (
-                        <a
-                          href={href}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="font-medium text-forest-dark hover:underline"
-                        >
-                          {d.titel} ↗
-                        </a>
-                      ) : (
-                        <span className="font-medium text-ink">{d.titel}</span>
-                      )}
-                      {d.omschrijving && (
-                        <span className="mt-1 block text-sm text-ink-dim">
-                          {d.omschrijving}
-                        </span>
-                      )}
-                      <span className="mt-1 block text-xs text-ink-dim">
-                        {datum(d.datum)}
-                        {d.auteur_naam ? ` · ${d.auteur_naam}` : ""}
+                    <div className="flex flex-wrap items-baseline justify-between gap-2">
+                      <span className="text-xs font-medium uppercase tracking-wide text-forest">
+                        {soortLabel.get(n.soort) ?? n.soort}
+                      </span>
+                      <span className="text-xs text-ink-dim">
+                        {datum(n.datum)}
+                        {n.auteur_naam ? ` · ${n.auteur_naam}` : ""}
                       </span>
                     </div>
-                    <form action={verwijderWerk} className="niet-afdrukken">
+                    <p className="mt-2 whitespace-pre-wrap text-sm text-ink">
+                      {n.tekst}
+                    </p>
+                    <form
+                      action={verwijderNotitie}
+                      className="niet-afdrukken mt-2"
+                    >
                       <input type="hidden" name="kindId" value={kindId} />
-                      <input type="hidden" name="id" value={d.id} />
-                      <input
-                        type="hidden"
-                        name="bestandspad"
-                        value={d.bestandspad}
-                      />
+                      <input type="hidden" name="id" value={n.id} />
                       <button
                         type="submit"
                         className="text-xs text-ink-dim underline-offset-2 hover:text-danger hover:underline"
@@ -460,11 +425,84 @@ export default async function FichePage({
                       </button>
                     </form>
                   </li>
-                );
-              })}
-            </ul>
-          )}
-        </section>
+                ))}
+              </ul>
+            )}
+          </section>
+        )}
+
+        {/* Werk van thuis */}
+        {(volleOpvolging || !!documenten?.length) && (
+          <section className="mt-10">
+            <h2 className="font-display text-lg font-semibold text-ink">
+              {t.fiche.documentenKop}
+            </h2>
+            <p className="mt-1 text-sm text-ink-dim">
+              {t.fiche.documentenUitleg}
+            </p>
+
+            {volleOpvolging && <WerkForm kindId={kindId} />}
+
+            {!documenten?.length ? (
+              <p className="mt-4 text-sm text-ink-dim">
+                {t.fiche.documentenLeeg}
+              </p>
+            ) : (
+              <ul className="mt-4 space-y-2">
+                {(documenten as Document[]).map((d) => {
+                  const href = linkPerPad.get(d.bestandspad);
+                  return (
+                    <li
+                      key={d.id}
+                      className="flex flex-wrap items-baseline justify-between gap-2 rounded-lg border border-border bg-surface p-4"
+                    >
+                      <div>
+                        {href ? (
+                          <a
+                            href={href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="font-medium text-forest-dark hover:underline"
+                          >
+                            {d.titel} ↗
+                          </a>
+                        ) : (
+                          <span className="font-medium text-ink">
+                            {d.titel}
+                          </span>
+                        )}
+                        {d.omschrijving && (
+                          <span className="mt-1 block text-sm text-ink-dim">
+                            {d.omschrijving}
+                          </span>
+                        )}
+                        <span className="mt-1 block text-xs text-ink-dim">
+                          {datum(d.datum)}
+                          {d.auteur_naam ? ` · ${d.auteur_naam}` : ""}
+                        </span>
+                      </div>
+                      <form action={verwijderWerk} className="niet-afdrukken">
+                        <input type="hidden" name="kindId" value={kindId} />
+                        <input type="hidden" name="id" value={d.id} />
+                        <input
+                          type="hidden"
+                          name="bestandspad"
+                          value={d.bestandspad}
+                        />
+                        <button
+                          type="submit"
+                          className="text-xs text-ink-dim underline-offset-2 hover:text-danger hover:underline"
+                        >
+                          Verwijderen
+                        </button>
+                      </form>
+                    </li>
+                  );
+                })}
+              </ul>
+            )}
+          </section>
+        )}
       </main>
     </>
   );

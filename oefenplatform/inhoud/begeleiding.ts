@@ -27,8 +27,7 @@ export const begeleidingTekst = {
     titel: "Opvolging",
     intro:
       "Elke code is een eigen groep. Klik bovenaan op een groep en je ziet alleen de kinderen die met die code registreerden.",
-    leeg:
-      "Er zijn nog geen codes. Maak er een aan bij Beheer, Plusklas-codes, en deel ze met de gezinnen.",
+    leeg: "Er zijn nog geen codes. Maak er een aan bij Beheer, Plusklas-codes, en deel ze met de gezinnen.",
     filterLabel: "Kies een groep",
     zonderGroepTitel: "Nog geen groep",
     zonderGroepUitleg:
@@ -36,6 +35,20 @@ export const begeleidingTekst = {
     terug: "Terug naar de opvolging",
     groepLeeg: "Nog geen kinderen in deze groep.",
     inactief: "Niet meer actief",
+    /*
+      Welke soort opvolging deze groep krijgt. Kim op 14 oktober 2026: enkel de
+      kindjes van de plusklas van Hasselt volgt ze in detail op; van de andere
+      groepen wil ze de voortgang in een tabel zien, zonder zware opvolging.
+      Het vinkje per code staat bij Beheer, Plusklas-codes.
+    */
+    volleOpvolging: "Volle opvolging",
+    volleOpvolgingUitleg:
+      "Van deze groep houd je alles bij: per kind een fiche met de voortgang per hoofdstuk, de opgeloste testen, jullie opmerkingen en het werk van thuis.",
+    enkelTabel: "Enkel de voortgang",
+    enkelTabelUitleg:
+      "Van deze groep houd je enkel de voortgang bij, in de tabel hieronder. Geen fiche, geen opmerkingen en geen werk van thuis. Wil je een groep toch in detail opvolgen, zet dan het vinkje bij Beheer, Plusklas-codes.",
+    laatstKop: "Laatst geoefend",
+    nooit: "nog niet gestart",
   },
 
   /* Het keuzelijstje op de fiche waarmee je een gezin naar een groep zet. */
@@ -45,11 +58,17 @@ export const begeleidingTekst = {
       "Bij welke groep hoort dit gezin? Verandert dit, dan schuiven alle kinderen van het gezin mee.",
     geen: "Nog geen groep",
     bewaren: "Bewaren",
-    alleenBeheerder: "Alleen de beheerder kan een gezin naar een andere groep zetten.",
+    alleenBeheerder:
+      "Alleen de beheerder kan een gezin naar een andere groep zetten.",
   },
 
   /* Het scherm van één kind. */
   fiche: {
+    /* Staat deze groep op "enkel de voortgang", dan blijft de fiche bij de
+       tabel: geen opgeloste testen, geen opmerkingen, geen werk van thuis. */
+    lichtKop: "Enkel de voortgang",
+    lichtUitleg:
+      "Dit gezin hoort bij een groep die je niet in detail opvolgt, dus hieronder staat enkel wat het kind al maakte. Wil je er opmerkingen, werk van thuis en de opgeloste testen bij, zet dan het vinkje Volle opvolging bij Beheer, Plusklas-codes, of zet dit gezin hierboven bij de plusklasgroep.",
     notitiesKop: "Opmerkingen",
     notitiesUitleg:
       "Wat jullie opvalt tijdens een sessie, een afspraak die je maakte, of wat je op een oudercontact wil zeggen. Ouders lezen dit niet mee.",
