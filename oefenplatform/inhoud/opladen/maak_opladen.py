@@ -362,7 +362,7 @@ PAGINAS = [
     ),
     dict(
         bestand="opladen-vinkjes.html",
-        titel="Plakpagina — de vinkjes en de sterren",
+        titel="Plakpagina — de vinkjes en de opvolging",
         sleutel="connectopia-plakpagina-vinkjes",
         voet="Bijgewerkt op 14 oktober 2026",
         intro="""<p>Een ouder meldde op 14 oktober 2026 dat haar dochters vanaf een bepaalde
@@ -372,14 +372,18 @@ PAGINAS = [
       melden. Wie veel oefent, zit daarboven, en wat erna kwam viel buiten het
       antwoord.</p>
       <p>Het platform haalt de rijen nu blok per blok op, dus de vinkjes staan er al
-      zonder dat je iets hoeft te doen. Dit sql-bestand laat de databank het werk zelf
-      samenvatten, één rij per hoofdstuk: dat is lichter en het kan niet meer
-      afgekapt worden.</p>""",
+      zonder dat je iets hoeft te doen. Het eerste sql-bestand laat de databank het werk
+      zelf samenvatten, één rij per hoofdstuk: dat is lichter en het kan niet meer
+      afgekapt worden.</p>
+      <p>Het tweede hoort bij je vraag over de opvolging: enkel de groep
+      PLUSKLAS26HASSELT krijgt nog de volle fiche met de opgeloste testen, de
+      opmerkingen en het werk van thuis. Bij de andere groepen blijft het bij de tabel
+      met hun voortgang.</p>""",
         secties=[
             dict(
-                kop="Eén sql-bestand",
-                uitleg="Plak het in de sql-editor van Supabase, op het project van "
-                       "het oefenplatform, en klik op Run.",
+                kop="Twee sql-bestanden",
+                uitleg="Plak ze een na een in de sql-editor van Supabase, op het "
+                       "project van het oefenplatform, en klik telkens op Run.",
                 kaarten=sqlkaarten([
                     (
                         "vinkjes",
@@ -389,6 +393,16 @@ PAGINAS = [
                         "Onderaan komt er één getal uit: hoeveel antwoorden het "
                         "ijverigste kind al gaf. Zeg me welk getal er staat, dan weet "
                         "ik zeker dat dit de oorzaak was.",
+                    ),
+                    (
+                        "opvolging",
+                        "Volle opvolging enkel voor PLUSKLAS26HASSELT",
+                        "oefenplatform — sql-editor",
+                        "volledige-opvolging.sql",
+                        "Dit zet het vinkje volle opvolging op de code "
+                        "PLUSKLAS26HASSELT en op geen enkele andere. Onderaan komt het "
+                        "lijstje van je codes met dat vinkje erbij; verzetten kan je "
+                        "daarna zelf bij Beheer, Plusklas-codes.",
                     ),
                 ]),
             ),
