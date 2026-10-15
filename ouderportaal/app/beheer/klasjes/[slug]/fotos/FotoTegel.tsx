@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
-import { dngNaarJpeg, heicNaarJpeg, soortVanInhoud } from "@/lib/beeldOmzetten";
+import { dngNaarJpeg, draaiFoto, heicNaarJpeg, soortVanInhoud } from "@/lib/beeldOmzetten";
 import { maakFotoUploadUrl, vervangFotoBestand } from "./actions";
 
 /*
@@ -39,6 +39,34 @@ export function FotoTegel({
     if (img && img.complete && img.naturalWidth === 0) setGebroken(true);
   }, []);
 
+  /* Laadt het nieuwe bestand op en zet het in de plaats van het oude. */
+  async function vervang(jpeg: File) {
+    const klasjeId = bestandspad.split("/")[0];
+    const { path, token } = await maakFotoUploadUrl(klasjeId, jpeg.name);
+    const supabase = createClient();
+    const { error } = await supabase.storage.from("fotos").uploadToSignedUrl(path, token, jpeg);
+    if (error) throw new Error(`Opladen mislukt: ${error.message}`);
+
+    const uitkomst = await vervangFotoBestand({ id, slug, oudPad: bestandspad, nieuwPad: path });
+    if (!uitkomst.gelukt) throw new Error(uitkomst.bericht);
+    router.refresh();
+  }
+
+  async function draai(richting: "links" | "rechts") {
+    setBezig(true);
+    setMelding(null);
+    try {
+      const antwoord = await fetch(url);
+      if (!antwoord.ok) throw new Error(`De opslag gaf fout ${antwoord.status}.`);
+      const naam = bestandspad.split("/").pop() ?? "foto";
+      await vervang(await draaiFoto(await antwoord.blob(), naam, richting));
+    } catch (err) {
+      setMelding(err instanceof Error ? err.message : "Er ging iets mis.");
+    } finally {
+      setBezig(false);
+    }
+  }
+
   async function herstel() {
     setBezig(true);
     setMelding(null);
@@ -60,15 +88,7 @@ export function FotoTegel({
 
       const naam = bestandspad.split("/").pop() ?? "foto";
       const jpeg = soort === "dng" ? await dngNaarJpeg(blob, naam) : await heicNaarJpeg(blob, naam);
-      const klasjeId = bestandspad.split("/")[0];
-      const { path, token } = await maakFotoUploadUrl(klasjeId, jpeg.name);
-      const supabase = createClient();
-      const { error } = await supabase.storage.from("fotos").uploadToSignedUrl(path, token, jpeg);
-      if (error) throw new Error(`Opladen mislukt: ${error.message}`);
-
-      const uitkomst = await vervangFotoBestand({ id, slug, oudPad: bestandspad, nieuwPad: path });
-      if (!uitkomst.gelukt) throw new Error(uitkomst.bericht);
-      router.refresh();
+      await vervang(jpeg);
     } catch (err) {
       setMelding(err instanceof Error ? err.message : "Er ging iets mis.");
     } finally {
@@ -84,6 +104,7 @@ export function FotoTegel({
         src={url}
         alt={bijschrift ?? ""}
         onError={() => setGebroken(true)}
+        onLoad={() => setGebroken(false)}
         className="aspect-square w-full object-cover"
       />
       {gebroken && (
@@ -98,6 +119,31 @@ export function FotoTegel({
             {bezig ? "Bezig…" : "Nakijken en herstellen"}
           </button>
           {melding && <p className="text-danger">{melding}</p>}
+        </div>
+      )}
+      {!gebroken && (
+        <div className="flex items-center gap-2 px-2 pt-2 text-xs">
+          <span className="text-ink-dim">Draaien:</span>
+          <button
+            type="button"
+            onClick={() => draai("links")}
+            disabled={bezig}
+            aria-label="Een kwartslag naar links draaien"
+            className="rounded-md border border-border px-2 py-0.5 text-ink hover:bg-paper disabled:opacity-60"
+          >
+            ↺
+          </button>
+          <button
+            type="button"
+            onClick={() => draai("rechts")}
+            disabled={bezig}
+            aria-label="Een kwartslag naar rechts draaien"
+            className="rounded-md border border-border px-2 py-0.5 text-ink hover:bg-paper disabled:opacity-60"
+          >
+            ↻
+          </button>
+          {bezig && <span className="text-ink-dim">Bezig…</span>}
+          {melding && <span className="text-danger">{melding}</span>}
         </div>
       )}
       {children}

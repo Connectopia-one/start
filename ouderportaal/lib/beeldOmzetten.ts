@@ -66,7 +66,7 @@ export async function heicNaarJpeg(blob: Blob, naam: string): Promise<File> {
 */
 export async function dngNaarJpeg(blob: Blob, naam: string): Promise<File> {
   const buf = await blob.arrayBuffer();
-  const { kandidaten, stand } = jpegsInTiff(buf);
+  const { kandidaten, stand, sensor } = jpegsInTiff(buf);
 
   let beste: ImageBitmap | null = null;
   for (const [begin, lengte] of kandidaten) {
@@ -84,7 +84,15 @@ export async function dngNaarJpeg(blob: Blob, naam: string): Promise<File> {
   }
   if (!beste) throw new Error(`In de RAW-foto "${naam}" zit geen voorvertoning die de browser kan lezen.`);
 
-  const jpeg = await tekenAlsJpeg(beste, stand);
+  /*
+    Een iPhone legt de voorvertoning vaak al rechtop, terwijl de DNG nog zegt
+    dat er gedraaid moet worden. Draaien deed de foto dan op zijn zij vallen.
+    Daarom draaien we enkel een kwartslag als de voorvertoning nog dezelfde
+    vorm heeft als de sensor (allebei liggend), en nooit voor de andere standen.
+  */
+  const nogLiggend = sensor.w > 0 && beste.width > beste.height === sensor.w > sensor.h;
+  const echteStand = stand >= 5 && stand <= 8 && nogLiggend ? stand : 1;
+  const jpeg = await tekenAlsJpeg(beste, echteStand);
   beste.close();
   return new File([jpeg], jpegNaam(naam), { type: "image/jpeg" });
 }
@@ -97,6 +105,7 @@ function jpegsInTiff(buf: ArrayBuffer) {
   const u32 = (o: number) => v.getUint32(o, le);
   const kandidaten: [number, number][] = [];
   let stand = 1;
+  const sensor = { w: 0, h: 0 };
   const gezien = new Set<number>();
 
   function waarden(o: number): number[] {
@@ -124,6 +133,8 @@ function jpegsInTiff(buf: ArrayBuffer) {
         tags.set(u16(o), waarden(o));
       }
       if (eerste && tags.get(0x0112)) stand = tags.get(0x0112)![0];
+      const [w, h] = [tags.get(0x0100)?.[0] ?? 0, tags.get(0x0101)?.[0] ?? 0];
+      if (w * h > sensor.w * sensor.h) Object.assign(sensor, { w, h });
       const stukken: [number[] | undefined, number[] | undefined][] = [
         [tags.get(0x0111), tags.get(0x0117)],
         [tags.get(0x0144), tags.get(0x0145)],
@@ -145,7 +156,15 @@ function jpegsInTiff(buf: ArrayBuffer) {
 
   leesIfd(u32(4), true);
   kandidaten.sort((a, b) => b[1] - a[1]);
-  return { kandidaten, stand };
+  return { kandidaten, stand, sensor };
+}
+
+/** Draait een foto een kwartslag naar links of naar rechts. */
+export async function draaiFoto(blob: Blob, naam: string, richting: "links" | "rechts"): Promise<File> {
+  const bmp = await createImageBitmap(blob);
+  const jpeg = await tekenAlsJpeg(bmp, richting === "rechts" ? 6 : 8);
+  bmp.close();
+  return new File([jpeg], jpegNaam(naam), { type: "image/jpeg" });
 }
 
 async function tekenAlsJpeg(bmp: ImageBitmap, stand: number): Promise<Blob> {

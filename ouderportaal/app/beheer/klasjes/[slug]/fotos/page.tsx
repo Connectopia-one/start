@@ -62,7 +62,7 @@ export default async function BeheerFotosPage({
           {metUrl.map((f) =>
             f.url ? (
               <FotoTegel
-                key={f.id}
+                key={f.bestandspad}
                 id={f.id}
                 url={f.url}
                 bestandspad={f.bestandspad}
