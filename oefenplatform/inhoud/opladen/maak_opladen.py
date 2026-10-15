@@ -276,6 +276,36 @@ SAMEN = """<p>Alle vragen van een ronde samen zijn te veel tekst voor één pagi
 
 PAGINAS = [
     dict(
+        bestand="opladen-pittig-techniek-spark.html",
+        titel="Plakpagina — pittige hoofdstukken techniek ✨ Spark",
+        sleutel="connectopia-plakpagina-pittig-techniek-spark",
+        voet="Bijgewerkt op 15 oktober 2026",
+        intro="""<p>Een kind meldde dat de vragen van ✨ Spark te makkelijk zijn, vooral bij
+      techniek. Daarom staat er nu bij elk van de elf thema's van techniek een hoofdstuk
+      <em>— pittig</em> met twintig moeilijkere vragen, naast deel 1 en deel 2.</p>
+      <p>Er komt geen nieuwe leerstof bij, dus de leerbundels blijven kloppen. Moeilijker zit
+      in de vraag: twee stappen na elkaar, terugredeneren van gevolg naar oorzaak, een fout
+      die juist lijkt, of de leerstof toepassen op iets nieuws. Geen enkele vraag stond al
+      ergens in ✨ Spark.</p>
+      <p>In het oefenplatform komt elk pittig hoofdstuk vanzelf meteen na deel 2 van zijn
+      thema te staan, met een oranje randje en het woord Moeilijker. Daar is geen sql voor
+      nodig.</p>""",
+        secties=[
+            dict(
+                kop=SPARK + " — Techniek, de elf pittige hoofdstukken",
+                uitleg=(WEG % SPARK) + " Kies het vak Techniek.",
+                kaarten=vraagkaarten([(
+                    "pittig-spark-techniek",
+                    "Techniek — elf pittige hoofdstukken",
+                    SPARK, "pittig", "spark-techniek-pittig",
+                    "In dit bestand zitten enkel de elf nieuwe hoofdstukken. Deel 1 en deel 2 van "
+                    "elk thema blijven gewoon staan, met de voortgang van de kinderen erop. "
+                    "Vervangen moet toch aan: laad je het per ongeluk twee keer in, dan blijven "
+                    "het twintig vragen per hoofdstuk in plaats van veertig.",
+                )])),
+        ],
+    ),
+    dict(
         bestand="opladen-meldingen-15-oktober.html",
         titel="Plakpagina — de meldingen van 15 oktober",
         sleutel="connectopia-plakpagina-meldingen-15-oktober",

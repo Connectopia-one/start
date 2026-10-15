@@ -1,0 +1,212 @@
+# -*- coding: utf-8 -*-
+"""Pittige vragen bij "Informatieverwerkende systemen" (✨ Spark, techniek).
+
+Dezelfde leerstof als deel 1 en deel 2, maar met poorten die je na elkaar zet,
+waarheidstabellen die je terug moet herkennen en redeneringen die je moet nakijken.
+"""
+
+VRAGEN = [
+    dict(
+        type="meerkeuze",
+        vraag=r"Een alarm moet afgaan als het donker is én er beweging is. De lichtsensor geeft een \(1\) als het licht is, de bewegingssensor een \(1\) bij beweging. Hoe schakel je de poorten?",
+        opties=[
+            "Lichtsensor door een NIET-poort, dan samen met de bewegingssensor in een EN-poort",
+            "Lichtsensor en bewegingssensor rechtstreeks samen in één enkele EN-poort",
+            "Lichtsensor door een NIET-poort, dan samen met de bewegingssensor in een OF-poort",
+            "Bewegingssensor door een NIET-poort, dan samen met de lichtsensor in een EN-poort",
+        ],
+        antwoord=0,
+        uitleg=r"De sensor geeft \(1\) bij licht, maar jij hebt een \(1\) nodig bij donker: dus eerst omkeren met een NIET-poort. Daarna moeten donker én beweging tegelijk waar zijn, en dat is een EN-poort. Zonder de NIET-poort zou het alarm overdag afgaan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Je zet een NIET-poort achter een OF-poort. De ingangen van de OF-poort zijn \(1\) en \(0\). Wat komt er helemaal aan het einde uit?",
+        opties=[
+            r"\(0\)",
+            r"\(1\)",
+            r"Eerst \(1\) en daarna \(0\)",
+            r"Dat hangt af van welke ingang \(1\) is",
+        ],
+        antwoord=0,
+        reken="int(not (1 or 0))",
+        uitleg=r"Stap één: de OF-poort met \(1\) en \(0\) geeft \(1\), want één ingang volstaat. Stap twee: de NIET-poort keert die \(1\) om tot \(0\). Wie alleen naar de OF-poort kijkt, antwoordt te snel \(1\).",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"De uitgang van een EN-poort is \(1\). Wat weet je dan zeker over de twee ingangen?",
+        opties=[
+            r"Ze zijn allebei \(1\)",
+            r"Minstens één is \(1\), van de andere weet je niets",
+            r"Ze zijn allebei \(0\)",
+            "Ze zijn verschillend van elkaar",
+        ],
+        antwoord=0,
+        uitleg=r"Een EN-poort geeft alleen een \(1\) als álle ingangen \(1\) zijn. Zie je dus een \(1\) aan de uitgang, dan moeten beide ingangen \(1\) geweest zijn. 'Minstens één' is de regel van de OF-poort.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Je test een onbekende poort met twee ingangen. Bij \(0\) en \(0\) komt er \(0\) uit, bij \(0\) en \(1\) een \(1\), bij \(1\) en \(0\) een \(1\), en bij \(1\) en \(1\) een \(1\). Welke poort is het?",
+        opties=[
+            "Een OF-poort",
+            "Een EN-poort",
+            "Een NIET-poort",
+            "Het kan zowel een EN- als een OF-poort zijn",
+        ],
+        antwoord=0,
+        uitleg=r"Zodra één ingang \(1\) is, komt er \(1\) uit: dat is een OF-poort. Een EN-poort zou bij \(0\) en \(1\) een \(0\) geven, en een NIET-poort heeft maar één ingang.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Je test een poort met twee ingangen. Met de ingangen \(1\) en \(0\) komt er een \(0\) uit. Welke poort van de fiche is het?",
+        opties=[
+            "Een EN-poort",
+            "Een OF-poort",
+            "Een NIET-poort",
+            "Je kunt niet kiezen tussen een EN- en een OF-poort",
+        ],
+        antwoord=0,
+        uitleg=r"Een OF-poort zou met \(1\) en \(0\) een \(1\) geven, dus die valt af. Een NIET-poort heeft maar één ingang. Blijft over: de EN-poort, die met \(1\) en \(0\) inderdaad \(0\) geeft.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Een OF-poort geeft een \(1\) aan de uitgang. Welke ingangen kunnen dat geweest zijn? (meerdere antwoorden mogelijk)",
+        opties=[
+            r"\(0\) en \(1\)",
+            r"\(1\) en \(0\)",
+            r"\(1\) en \(1\)",
+            r"\(0\) en \(0\)",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg=r"Bij een OF-poort volstaat één ingang op \(1\), en twee keer \(1\) mag natuurlijk ook. Alleen \(0\) en \(0\) geeft een \(0\), dus die combinatie kan het niet geweest zijn.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een automatische winkeldeur heeft een bewegingssensor boven de deur, een processor, een motor die de deur openschuift, een druktoets om de deur met de hand te openen en een zoemer. Welke onderdelen horen bij de invoer? (meerdere antwoorden mogelijk)",
+        opties=[
+            "De bewegingssensor",
+            "De druktoets",
+            "De processor die beslist",
+            "De motor van de deur",
+            "De zoemer die piept",
+        ],
+        antwoord=[0, 1],
+        uitleg="Invoer is wat informatie in het systeem brengt: de sensor en de druktoets. De processor hoort bij de verwerking, en de motor en de zoemer doen iets, dus horen ze bij de uitvoer.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een klasgenoot zegt: 'Een microfoon en een luidspreker werken allebei met geluid, dus zijn het allebei actuatoren.' Waar zit de fout?",
+        opties=[
+            "Een microfoon meet geluid, dus is hij een sensor",
+            "Een luidspreker meet geluid, dus is hij ook een sensor",
+            "Ze zijn allebei sensoren, omdat ze met geluid werken",
+            "Er is geen fout: allebei zijn het echt actuatoren",
+        ],
+        antwoord=0,
+        uitleg="Of iets een sensor of een actuator is, hangt niet af van waarmee het werkt, maar van wat het doet. De microfoon meet geluid en is een sensor; de luidspreker maakt geluid en is een actuator.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Bij een verwarming gebeuren drie dingen: (a) de ketel slaat aan, (b) een temperatuursensor meet hoe warm het is, (c) de regelaar vergelijkt dat met 20 graden. In welke volgorde horen ze bij invoer, verwerking en uitvoer?",
+        opties=[
+            "b, c, a",
+            "c, b, a",
+            "b, a, c",
+            "a, c, b",
+        ],
+        antwoord=0,
+        uitleg="De sensor meet eerst (invoer), dan beslist de regelaar (verwerking), en pas daarna doet de ketel iets (uitvoer). Sensoren staan vooraan, actuatoren achteraan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Een tuinlamp moet branden als het donker is of als iemand op een knop drukt. De lichtsensor geeft een \(1\) als het licht is, de knop een \(1\) als je erop drukt. Hoe schakel je de poorten?",
+        opties=[
+            "Lichtsensor door een NIET-poort, dan samen met de knop in een OF-poort",
+            "Lichtsensor door een NIET-poort, dan samen met de knop in een EN-poort",
+            "Lichtsensor en knop rechtstreeks samen in één enkele OF-poort zonder meer",
+            "De knop door een NIET-poort, dan samen met de lichtsensor in een OF-poort",
+        ],
+        antwoord=0,
+        uitleg=r"Donker betekent dat de sensor \(0\) geeft, dus keer je dat eerst om met een NIET-poort. Eén van de twee voorwaarden volstaat, dus komt er een OF-poort achter. Met een EN-poort zou je in het donker nog op de knop moeten drukken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een spel heeft het leeftijdspictogram 12 en een pictogram voor geweld. Welke uitspraken kloppen? (meerdere antwoorden mogelijk)",
+        opties=[
+            "Het spel is volgens het pictogram geschikt vanaf 12 jaar",
+            "Er zit geweld in het spel",
+            "Het geweldpictogram zegt iets over de inhoud, niet over hoe moeilijk het is",
+            "Een kind van 10 is jonger dan de leeftijd op het pictogram",
+            "Het spel duurt ongeveer 12 uur om helemaal uit te spelen",
+        ],
+        antwoord=[0, 1, 2, 3],
+        uitleg="Het leeftijdspictogram zegt vanaf welke leeftijd de inhoud geschikt is, en het geweldpictogram zegt welke inhoud erin zit. Over hoe lang of hoe moeilijk het spel is, zeggen die pictogrammen niets.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraak over een EN-poort met de ingangen A en B is NIET juist?",
+        opties=[
+            r"De uitgang is \(1\) zodra A \(1\) is, wat B ook is",
+            r"De uitgang is \(0\) zodra één van de ingangen \(0\) is",
+            r"De uitgang is alleen \(1\) als A en B allebei \(1\) zijn",
+            "De poort heeft precies één uitgang, hoeveel ingangen ook",
+        ],
+        antwoord=0,
+        uitleg=r"Als A \(1\) is en B \(0\), geeft een EN-poort \(0\). De uitspraak 'wat B ook is' klopt dus niet. De rest is juist: één nul volstaat om de uitgang \(0\) te maken, alleen twee keer \(1\) geeft \(1\), en een poort heeft altijd één uitgang.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Iemand wil een bel die rinkelt als er op de voordeur óf op de achterdeur gedrukt wordt, maar zet per vergissing een EN-poort. Wat merk je?",
+        opties=[
+            "De bel rinkelt alleen als er op beide knoppen tegelijk gedrukt wordt",
+            "De bel rinkelt zoals bedoeld bij elke druk op één van de twee knoppen",
+            "De bel rinkelt juist wanneer er op geen enkele knop wordt gedrukt",
+            "De bel rinkelt de hele tijd, ook zonder dat er iemand aan de deur staat",
+        ],
+        antwoord=0,
+        uitleg=r"Een EN-poort geeft pas een \(1\) als beide ingangen \(1\) zijn. Wie op één knop drukt, hoort dus niets. Daarom had er een OF-poort moeten staan.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Een OF-poort met beide ingangen op \(1\) geeft een \(0\), want bij een OF-poort mag maar één ingang \(1\) zijn.",
+        antwoord=False,
+        uitleg=r"Bij een OF-poort is één ingang op \(1\) genoeg, maar twee mag ook. Met \(1\) en \(1\) is de uitgang dus \(1\). De fout zit in 'maar één': dat staat nergens in de regel.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Zet je twee NIET-poorten na elkaar, dan komt er aan het einde hetzelfde uit als wat er aan het begin in ging.",
+        antwoord=True,
+        uitleg=r"De eerste NIET-poort maakt van \(1\) een \(0\), de tweede maakt van die \(0\) weer een \(1\). Twee keer omkeren brengt je terug bij het begin. Met een \(0\) aan het begin werkt het net zo.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Geeft een poort met twee ingangen een \(1\) bij de ingangen \(1\) en \(0\), dan kan het geen EN-poort zijn.",
+        antwoord=True,
+        uitleg=r"Een EN-poort met \(1\) en \(0\) geeft altijd \(0\). Komt er toch \(1\) uit, dan is het geen EN-poort. Bij de poorten van de fiche blijft dan de OF-poort over.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De bewegingssensor van een automatische deur hoort bij de uitvoer, want door hem gaat de deur open.",
+        antwoord=False,
+        uitleg="De sensor meet alleen dat er iemand aankomt: dat is invoer. Wat de deur echt openschuift, is een actuator achteraan in het systeem. Een sensor staat altijd vooraan.",
+    ),
+    dict(
+        type="invultekst",
+        vraag=r"In hoeveel rijen van de waarheidstabel van een OF-poort met twee ingangen staat er een \(1\) aan de uitgang? Antwoord met een getal.",
+        antwoord="3",
+        reken="sum(1 for a in (0, 1) for b in (0, 1) if a or b)",
+        uitleg=r"De tabel heeft vier rijen. Alleen bij \(0\) en \(0\) geeft een OF-poort een \(0\); in de drie andere rijen staat er minstens één \(1\) aan de ingang en dus een \(1\) aan de uitgang.",
+    ),
+    dict(
+        type="invultekst",
+        vraag=r"Je zet een NIET-poort achter een EN-poort met twee ingangen. Bij hoeveel van de vier ingangscombinaties komt er aan het einde een \(1\) uit? Antwoord met een getal.",
+        antwoord="3",
+        reken="sum(1 for a in (0, 1) for b in (0, 1) if not (a and b))",
+        uitleg=r"De EN-poort geeft maar in één rij een \(1\): bij \(1\) en \(1\). De NIET-poort keert alles om, dus komt er nu in die ene rij een \(0\) en in de drie andere een \(1\).",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Op je tablet staat een wolkje bij je foto's. Ze staan dan niet alleen op je toestel, maar ook op een server. Hoe heet die plek? Antwoord met één woord.",
+        antwoord="cloud",
+        uitleg="Het wolkje betekent dat je bestanden in de cloud staan, op een server. Het zegt niets over je batterij: daarvoor is er het batterijpictogram.",
+    ),
+]

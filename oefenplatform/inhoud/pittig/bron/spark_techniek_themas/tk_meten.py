@@ -1,0 +1,202 @@
+# -*- coding: utf-8 -*-
+"""Pittige vragen bij "Meten, eenheden en modelvoorstellingen" (✨ Spark, techniek).
+
+Dezelfde leerstof als deel 1 en 2, maar met omzettingen in twee stappen, schaal
+toegepast op lengte en oppervlakte, en tekeningen kiezen voor een concrete opdracht.
+"""
+
+VRAGEN = [
+    dict(
+        type="meerkeuze",
+        vraag=r"Een kartonnen doos in de vorm van een balk is \(20\) cm lang, \(10\) cm breed en \(5\) cm hoog. Hoeveel liter past erin?",
+        opties=[r"\(1\) liter", r"\(1000\) liter", r"\(10\) liter", r"\(0{,}1\) liter"],
+        antwoord=0,
+        reken="2 * 1 * 0.5",
+        uitleg=r"Zet eerst alles om naar decimeter: \(2\) dm, \(1\) dm en \(0{,}5\) dm. Lengte maal breedte maal hoogte geeft \(1\) kubieke decimeter, en dat is precies \(1\) liter. Wie in centimeter rekent, krijgt \(1000\), maar dat zijn kubieke centimeter, geen liter.",
+    ),
+    dict(
+        type="invultekst",
+        vraag=r"Een aquarium is \(50\) cm lang, \(30\) cm breed en \(40\) cm hoog. Hoeveel liter water past er tot aan de rand in? Antwoord met een getal.",
+        antwoord="60",
+        reken="5 * 3 * 4",
+        uitleg=r"Reken eerst om naar decimeter: \(5\) dm, \(3\) dm en \(4\) dm. Het volume van een balk is lengte maal breedte maal hoogte, dus \(60\) kubieke decimeter. Eén kubieke decimeter is één liter, dus \(60\) liter.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Op een werktekening met schaal \(1\):\(2\) is een plank \(150\) mm lang getekend. Hoe lang is de echte plank?",
+        opties=[r"\(300\) mm", r"\(75\) mm", r"\(150\) mm", r"\(1500\) mm"],
+        antwoord=0,
+        reken="150 * 2",
+        uitleg=r"Bij \(1\):\(2\) is de tekening half zo groot als het voorwerp. Het echte voorwerp is dus twee keer zo lang als op papier. Wie \(75\) kiest, heeft de schaal verkeerd om gelezen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Een schroefje is in het echt \(8\) mm lang. Op de tekening is het \(16\) mm lang. Op welke schaal is het getekend?",
+        opties=[r"\(2\):\(1\)", r"\(1\):\(2\)", r"\(1\):\(1\)", r"\(1\):\(16\)"],
+        antwoord=0,
+        uitleg=r"De tekening is twee keer zo groot als het schroefje. Het eerste getal hoort bij de tekening, het tweede bij het voorwerp, dus \(2\):\(1\). Met \(1\):\(2\) zou de tekening net kleiner zijn.",
+    ),
+    dict(
+        type="invultekst",
+        vraag=r"Op een tekening met schaal \(1\):\(2\) is een rechthoekig plaatje \(100\) mm lang en \(50\) mm breed. Hoeveel vierkante centimeter is de oppervlakte van het echte plaatje? Antwoord met een getal.",
+        antwoord="200",
+        reken="20 * 10",
+        uitleg=r"Het echte plaatje is twee keer zo lang en twee keer zo breed: \(200\) mm op \(100\) mm, of \(20\) cm op \(10\) cm. Basis maal hoogte geeft \(200\) vierkante centimeter. Let op: de oppervlakte is dus vier keer zo groot als op de tekening, niet twee keer.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Een vierkante tegel heeft een omtrek van \(1{,}2\) meter. Hoe groot is de oppervlakte van de tegel?",
+        opties=[
+            r"\(900\) vierkante centimeter",
+            r"\(144\) vierkante centimeter",
+            r"\(3600\) vierkante centimeter",
+            r"\(90\) vierkante centimeter",
+        ],
+        antwoord=0,
+        reken="30 * 30",
+        uitleg=r"Omtrek van een vierkant is \(4\) maal z, dus z is \(1{,}2\) m gedeeld door \(4\): \(0{,}3\) m of \(30\) cm. De oppervlakte is z maal z, dus \(30\) maal \(30\) is \(900\) vierkante centimeter. Je mag niet de omtrek zelf in het kwadraat nemen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"In een kubus met een ribbe van \(1\) meter passen precies tien kubussen met een ribbe van \(1\) decimeter.",
+        antwoord=False,
+        uitleg=r"In elke richting passen er tien: tien op een rij, tien rijen, en tien lagen. Dat zijn er \(10\) maal \(10\) maal \(10\), dus \(1000\). Daarom is een kubieke meter ook \(1000\) liter.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Op een tekening met schaal \(1\):\(2\) heeft een vierkant een zijde van \(5\) cm. Het echte vierkant heeft dan een oppervlakte die vier keer zo groot is als die op de tekening.",
+        antwoord=True,
+        uitleg=r"Op papier is de oppervlakte \(5\) maal \(5\), dus \(25\) vierkante centimeter. In het echt is de zijde \(10\) cm en de oppervlakte \(100\) vierkante centimeter: vier keer zoveel, omdat zowel de lengte als de breedte verdubbelt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke van deze grootheden druk je uit in meter, zonder vierkant of kubiek erbij? (meerdere antwoorden mogelijk)",
+        opties=[
+            "De omtrek van een fietswiel",
+            "De lengte van een plank",
+            "De straal van een cirkel",
+            "De oppervlakte van een tafelblad",
+            "Het volume van een doos",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Omtrek, lengte en straal zijn allemaal afstanden, dus meter. Een oppervlakte druk je uit in vierkante meter en een volume in kubieke meter. Dat de omtrek een eigen symbool P heeft, verandert niets aan de eenheid.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Op een werkblad staat 'm = 3 kg' en een eind verder 'l = 2 m'. Wat betekent de letter m telkens?",
+        opties=[
+            "Eerst de grootheid massa, daarna de eenheid meter",
+            "Beide keren het symbool van de grootheid massa",
+            "Beide keren de eenheid meter, de eenheid van lengte",
+            "Eerst de eenheid meter, daarna de grootheid massa",
+        ],
+        antwoord=0,
+        uitleg="Links van het gelijkheidsteken staat de grootheid, rechts het getal met de eenheid. In 'm = 3 kg' is m dus de massa, in 'l = 2 m' is m de meter. Dezelfde letter kan zo twee rollen hebben.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Je wilt nagaan of er echt \(330\) milliliter in een flesje zit, en hoe dik het dopje precies is. Welke meetinstrumenten heb je nodig? (meerdere antwoorden mogelijk)",
+        opties=[
+            "Een maatbeker",
+            "Een schuifmaat",
+            "Een meetlat",
+            "Een weegschaal",
+            "Een multimeter",
+        ],
+        antwoord=[0, 1],
+        uitleg="Een hoeveelheid vloeistof meet je met een maatbeker, en een kleine dikte nauwkeurig met een schuifmaat. Een meetlat is voor zo'n dun dopje niet nauwkeurig genoeg, en een weegschaal geeft een massa, geen volume.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke van deze lengtes is de grootste?",
+        opties=[
+            r"\(0{,}3\) hectometer",
+            r"\(250\) decimeter",
+            r"\(2800\) centimeter",
+            r"\(29\,000\) millimeter",
+            r"\(2\) decameter",
+        ],
+        antwoord=0,
+        uitleg=r"Zet alles om naar meter: \(0{,}3\) hm is \(30\) m, \(250\) dm is \(25\) m, \(2800\) cm is \(28\) m, \(29\,000\) mm is \(29\) m en \(2\) dam is \(20\) m. Het grootste getal is dus niet de grootste lengte.",
+    ),
+    dict(
+        type="invultekst",
+        vraag=r"Een plank is \(2{,}4\) meter lang. Je zaagt er stukken van \(30\) cm uit en rekent geen zaagsnede mee. Hoeveel stukken krijg je? Antwoord met een getal.",
+        antwoord="8",
+        reken="240 / 30",
+        uitleg=r"Zet eerst om naar dezelfde eenheid: \(2{,}4\) m is \(240\) cm. Dan deel je \(240\) door \(30\) en krijg je \(8\) stukken. Wie \(2{,}4\) door \(30\) deelt zonder om te zetten, komt op een onzinnig getal uit.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een fabrikant maakt een broodplank voortaan uit kunststof in plaats van uit hout. De plank dient nog altijd om brood op te snijden. Wat klopt er over de functiedriehoek?",
+        opties=[
+            "Het materiaal verandert, de functie blijft dezelfde",
+            "De functie verandert, het materiaal blijft hetzelfde",
+            "Het materiaal en de functie veranderen allebei mee",
+            "Het materiaal en de functie blijven allebei hetzelfde",
+        ],
+        antwoord=0,
+        uitleg="De functie is waarvoor iets dient, en dat is nog altijd brood snijden. Het materiaal is waarvan het gemaakt is, en dat is nu kunststof in plaats van hout. Het een verandert dus zonder het ander.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Voor een schoolproject wil je de wanden en het dak van een vogelhuisje uit één stuk karton snijden en dan dichtplooien. Welke tekening heb je daarvoor nodig?",
+        opties=[
+            "Een ontvouwing",
+            "Een isometrisch perspectief",
+            "Een detailontwerp van het dak",
+            "Een conceptschets van het idee",
+        ],
+        antwoord=0,
+        uitleg="Een ontvouwing is het platte patroon dat je dichtvouwt tot het voorwerp. Een isometrisch perspectief toont het huisje wel ruimtelijk, maar daarmee kun je niet in één stuk uitsnijden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je ontwerpt een nieuw pennenbakje. In welke volgorde maak je de tekeningen meestal?",
+        opties=[
+            "Eerst een conceptschets, daarna de werktekening",
+            "Eerst de werktekening, daarna een conceptschets",
+            "Eerst een detailontwerp, daarna een conceptschets",
+            "Alleen een werktekening, een schets is te veel werk",
+        ],
+        antwoord=0,
+        uitleg="De conceptschets is het eerste ruwe idee: zo zie je of het klopt voor er materiaal verloren gaat. Pas daarna teken je de werktekening met maten, aanzichten en schaal.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een blikje frisdrank staat rechtop op tafel. Welke uitspraken over de aanzichten kloppen? (meerdere antwoorden mogelijk)",
+        opties=[
+            "Het bovenaanzicht is een cirkel",
+            "Het vooraanzicht is een rechthoek",
+            "Het zijaanzicht is een rechthoek",
+            "Het onderaanzicht is een cirkel",
+            "Het vooraanzicht is een cirkel",
+        ],
+        antwoord=[0, 1, 2, 3],
+        uitleg="Kijk je recht van boven of van onderen, dan zie je de ronde bodem: een cirkel. Kijk je recht van voren of van opzij, dan zie je het blikje als een rechthoek. Het vooraanzicht is dus geen cirkel.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Een detailontwerp van een klein scharnier teken je meestal op schaal \(1\):\(2\).",
+        antwoord=False,
+        uitleg=r"Een detailontwerp toont één onderdeel groter getekend. Bij \(1\):\(2\) is de tekening juist half zo groot. Voor een klein scharnier past eerder \(2\):\(1\).",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Als je de zijde van een vierkant verdubbelt, wordt de omtrek ook twee keer zo groot.",
+        antwoord=True,
+        uitleg=r"De omtrek is \(4\) maal z: neem je z twee keer zo groot, dan wordt de omtrek ook twee keer zo groot. Bij de oppervlakte, z maal z, is dat anders: die wordt vier keer zo groot.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een klant wil in één beeld zien hoe een kastje er ruimtelijk uitziet. De maker in de werkplaats wil alle maten. Welke tekeningen geef je aan wie?",
+        opties=[
+            "De klant een isometrisch perspectief, de maker een werktekening",
+            "De klant een werktekening, de maker een isometrisch perspectief",
+            "De klant een ontvouwing, de maker een conceptschets van het kastje",
+            "Allebei een conceptschets, want die toont alles wat ze willen weten",
+        ],
+        antwoord=0,
+        uitleg="Een isometrisch perspectief toont het voorwerp ruimtelijk, in één beeld. Een werktekening heeft de aanzichten, de maten en de schaal waarmee je kunt maken. Een conceptschets is nog maar een ruw idee.",
+    ),
+]

@@ -1,0 +1,2422 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Materialen en grondstoffen — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je test een grijs staafje. In een stroomkring laat het een lampje branden, maar een magneet trekt het niet aan. Wat weet je nu over het staafje?",
+          "opties": [
+            "Het is een non-ferrometaal",
+            "Het is een ferrometaal dat niet kan roesten",
+            "Het is een niet-metaal dat toch stroom geleidt",
+            "Het is een niet-metaal, want de magneet trekt niet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het lampje brandt, dus de geleidingsproef zegt: metaal. De magneet trekt niet, dus de magneetproef zegt: geen ijzer erin, non-ferro. Dat de magneet niet trekt, betekent niet dat het geen metaal is: aluminium en koper worden ook niet aangetrokken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als een magneet een voorwerp niet aantrekt, weet je zeker dat het voorwerp van een niet-metaal gemaakt is.",
+          "antwoord": false,
+          "uitleg": "De magneetproef zegt alleen of een metaal ijzer bevat. Een aluminium of koperen voorwerp wordt ook niet aangetrokken en is toch een metaal. Om metaal of niet-metaal te kennen, heb je de geleidingsproef nodig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een lepel geleidt de stroom, maar een magneet trekt hem niet aan. Van welke materialen kan die lepel gemaakt zijn? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Aluminium",
+            "Koper",
+            "Glas",
+            "Hout",
+            "Staal"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De lepel geleidt, dus het is een metaal, en de magneet trekt niet, dus het is een non-ferrometaal: aluminium of koper. Staal is een ferrometaal en zou aangetrokken worden. Hout en glas zijn niet-metalen en geleiden de stroom niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rij loopt in de juiste volgorde van grondstof naar materiaal naar product?",
+          "opties": [
+            "IJzererts, staal, spijker",
+            "Staal, ijzererts, spijker",
+            "IJzererts, spijker, staal",
+            "Glas, zand, drinkglas op tafel"
+          ],
+          "antwoord": 0,
+          "uitleg": "IJzererts komt uit de grond en is de grondstof. Daar maak je staal van, het materiaal, en van staal maak je een spijker, het product. Staal staat dus nooit vooraan, en bij glas en zand is zand de grondstof en niet glas."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling maakt een lijstje met alleen grondstoffen. Welke woorden staan daar terecht op? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Wol",
+            "Aardolie",
+            "Zand",
+            "Staal",
+            "Baksteen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Wol, aardolie en zand haal je zo uit de natuur, dus het zijn grondstoffen. Staal is al een materiaal dat uit ijzererts gemaakt is, en baksteen is een materiaal dat uit klei gebakken is. Die twee horen dus niet op het lijstje."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Voor een gootsteen kiest men inox en geen gewoon staal. Waarom?",
+          "opties": [
+            "Gewoon staal is een ferrometaal en dat kan roesten",
+            "Gewoon staal geleidt de elektrische stroom helemaal niet",
+            "Inox is een grondstof en daarom een stuk goedkoper",
+            "Inox is een enkelvoudig metaal en dus veel zuiverder"
+          ],
+          "antwoord": 0,
+          "uitleg": "Staal bevat ijzer, en ferrometalen kunnen roesten. Inox is roestvrij staal, en dat wil je bij een gootsteen die altijd nat wordt. Inox is geen grondstof en geen enkelvoudig metaal: het is een legering."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Zet je een stof in een stroomkring en blijft het lampje uit, dan is die stof geen metaal.",
+          "antwoord": true,
+          "uitleg": "Metalen geleiden de stroom, dus met een metaal in de kring zou het lampje branden. Blijft het uit, dan heb je een niet-metaal, zoals hout, glas of kunststof."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een glazen plaatje breekt bij een kleine tik. Een stalen plaatje van dezelfde grootte deukt, maar blijft heel. Welke eigenschap verschilt hier, en bij welke groep hoort ze?",
+          "opties": [
+            "De broosheid, een mechanische eigenschap",
+            "De broosheid, een fysische eigenschap",
+            "De hardheid, een technologische eigenschap",
+            "Het smeltpunt, een mechanische eigenschap"
+          ],
+          "antwoord": 0,
+          "uitleg": "Glas breekt makkelijk, dus glas is broos, en het staal verdraagt veel voor het breekt. Broosheid gaat over hoe een materiaal zich houdt onder een kracht, en dat is mechanisch. Het smeltpunt is fysisch en heeft met deze tik niets te maken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Drie van deze eigenschappen horen in dezelfde groep. Welke hoort er niet bij?",
+          "opties": [
+            "Warmtegeleiding",
+            "Hardheid",
+            "Treksterkte",
+            "Taaiheid"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hardheid, treksterkte en taaiheid zijn mechanische eigenschappen: ze hebben met kracht te maken. Warmtegeleiding is een fysische eigenschap, samen met het smeltpunt en de massadichtheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil de massadichtheid van een steen kennen. Wat moet je daarvoor allemaal meten?",
+          "opties": [
+            "De massa, en het volume met de onderdompelingsmethode",
+            "Alleen de massa, want die vind je met een gewone weegschaal",
+            "Het volume, en daarna of een magneet de steen kan aantrekken",
+            "De hardheid, en daarna hoe ver je de steen kan uitrekken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Massadichtheid is de massa gedeeld door het volume, dus je hebt die twee nodig. Het volume vind je door de steen onder te dompelen en te kijken hoeveel water hij verplaatst. Alleen de massa is niet genoeg: een grote lichte steen en een kleine zware steen kunnen even veel wegen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een leerling onderzoekt van een materiaal de hardheid, de treksterkte, het smeltpunt en de watervastheid. Hoeveel van die vier eigenschappen zijn mechanische eigenschappen? Antwoord met een getal.",
+          "antwoord": "2",
+          "uitleg": "Hardheid en treksterkte zijn mechanisch. Het smeltpunt is een fysische eigenschap en de watervastheid een technologische. Wie alles wat je met een proef onderzoekt mechanisch noemt, komt op vier uit, en dat klopt niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil weten of soldeertin al smelt bij de temperatuur van je soldeerbout. Naar welke eigenschap kijk je, en bij welke groep hoort ze?",
+          "opties": [
+            "Het smeltpunt, een fysische eigenschap",
+            "Het smeltpunt, een mechanische eigenschap",
+            "De hardheid, een mechanische eigenschap",
+            "De verwerkingstijd, een technologische eigenschap"
+          ],
+          "antwoord": 0,
+          "uitleg": "Of iets smelt bij een bepaalde temperatuur, lees je af aan het smeltpunt. Het smeltpunt is een fysische eigenschap, net als de warmtegeleiding en de massadichtheid, en geen mechanische: het heeft niets met kracht te maken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een vork van aluminium en een vork van hout kan je uit elkaar houden met de geleidingsproef, maar niet met de magneetproef.",
+          "antwoord": true,
+          "uitleg": "Aluminium geleidt de stroom en hout niet, dus bij de geleidingsproef zie je een verschil. Een magneet trekt geen van beide aan: aluminium is non-ferro en hout is geen metaal. Bij de magneetproef zie je dus geen verschil."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je kiest een materiaal voor een tuinbank die het hele jaar buiten in de regen staat. Naar welke groep eigenschappen kijk je vooral?",
+          "opties": [
+            "Naar de technologische eigenschappen",
+            "Naar de fysische eigenschappen",
+            "Naar de magnetische eigenschappen",
+            "Naar de elektrische eigenschappen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tegen regen kunnen heet watervastheid, en dat is een technologische eigenschap. Of een magneet de bank aantrekt of of ze stroom geleidt, maakt voor een tuinbank niets uit."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Elasticiteit onderzoek je door een materiaal uit te rekken, en daarom is elasticiteit een technologische eigenschap.",
+          "antwoord": false,
+          "uitleg": "De proef klopt: je rekt het materiaal uit en kijkt of het terugveert. Maar elasticiteit is een mechanische eigenschap, net als hardheid en treksterkte. Technologisch zijn vervormbaarheid, watervastheid, bewerkbaarheid en de verwerkingstijd van een lijm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze materialen komen niet kant-en-klaar in de natuur voor, maar worden door de mens gemaakt? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Kunststof",
+            "Composiet",
+            "Brons",
+            "Soldeertin",
+            "Leder"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Kunststof en composiet zijn kunstmatige materialen. Brons en soldeertin zijn legeringen, en die worden gemaakt door metalen samen te smelten. Leder komt van de huid van een dier en is een natuurlijk materiaal."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een staafje laat een lampje in een stroomkring branden en wordt door een magneet aangetrokken. Het staafje is dus van een ___ gemaakt. Antwoord met één woord.",
+          "antwoord": "ferrometaal",
+          "uitleg": "Het lampje brandt, dus het is een metaal. De magneet trekt het aan, dus er zit ijzer in. Een metaal met ijzer erin is een ferrometaal."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een stof in het lokaal vat zelf niet zomaar vlam, maar kan een brand veroorzaken of een vuurtje in de buurt erger maken. Welk woord staat bij het gevaarpictogram op de fles? Antwoord met één woord.",
+          "antwoord": "oxiderend",
+          "uitleg": "Een oxiderende stof kan brand veroorzaken of erger maken. Ontvlambaar is iets anders: dan vat de stof zelf vlam."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een ontstopper voor de gootsteen kan je huid en je ogen aantasten. Welk gevaarpictogram verwacht je op de fles?",
+          "opties": [
+            "Bijtend of corrosief",
+            "Oxiderend, want de stof kan brand erger maken",
+            "Gassen onder druk, want de fles kan openbarsten",
+            "Ontvlambaar, want de stof kan vlam vatten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een stof die brandwonden aan je huid of je ogen geeft, draagt het pictogram voor bijtend of corrosief. De andere pictogrammen waarschuwen voor vuur of voor een fles die kan openbarsten, en daar gaat het hier niet over."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over de geleidingsproef en de magneetproef kloppen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Brandt het lampje, dan is de stof een metaal",
+            "Trekt de magneet aan, dan bevat het metaal ijzer",
+            "Brandt het lampje, dan is de stof een ferrometaal",
+            "Trekt de magneet niet aan, dan is de stof geen metaal"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De geleidingsproef beantwoordt de vraag metaal of niet-metaal, de magneetproef de vraag ferro of non-ferro. Een brandend lampje zegt dus niets over ijzer, en een magneet die niet trekt, zegt niets over metaal of niet-metaal: koper wordt ook niet aangetrokken."
+        }
+      ]
+    },
+    {
+      "titel": "Energie in een technisch systeem — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je trapt op je fiets en een klein generatortje tegen het wiel laat je fietslamp branden. Welke reeks omzettingen klopt van begin tot einde?",
+          "opties": [
+            "Chemische energie uit je voedsel, dan beweging, dan elektrische energie, dan licht en warmte",
+            "Elektrische energie uit je voedsel, dan beweging, dan chemische energie, dan licht",
+            "Stralingsenergie uit de lamp, dan beweging van het wiel, dan chemische energie",
+            "Chemische energie uit je voedsel, dan elektrische energie, dan beweging, dan licht"
+          ],
+          "antwoord": 0,
+          "uitleg": "In voedsel zit chemische energie, en daarmee beweeg je de trappers. Het generatortje zet die beweging om in elektrische energie, en de lamp maakt daar licht en warmte van. Een reeks waarin de elektrische energie vóór de beweging komt, klopt niet: dan zou er een motor in je fiets zitten in plaats van een generator."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het water achter een stuwdam staat nog helemaal stil. Toch zit er al energie in die later stroom wordt. Welke energievorm is dat?",
+          "opties": [
+            "Potentiële energie",
+            "Bewegingsenergie",
+            "Chemische energie",
+            "Elektrische energie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het water staat hoog, en de energie van de plaats waar iets zich bevindt, is potentiële energie. Pas als het water naar beneden stroomt, wordt dat bewegingsenergie, en de centrale maakt daar elektrische energie van."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een speelgoedauto op batterijen zet de batterij elektrische energie om in chemische energie, en de motor maakt daar beweging van.",
+          "antwoord": false,
+          "uitleg": "Het is net omgekeerd bij de batterij: daarin zit chemische energie, en die wordt bij gebruik elektrische energie. De motor zet die elektrische energie dan om in beweging."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een broodrooster gloeien de draadjes rood, net zoals de draad in een gloeilamp. Wat is bij de broodrooster de nuttige energie?",
+          "opties": [
+            "De warmte",
+            "Het rode licht van de draadjes",
+            "De beweging van de hendel",
+            "Het geluid als het brood omhoogspringt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Welke energie nuttig is, hangt af van wat je met het toestel wil. Een broodrooster koop je om te roosteren, dus de warmte is nuttig en het licht is verlies. Bij een gloeilamp is dat net andersom."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij welke toestellen is de warmte die vrijkomt niet-nuttige energie? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een gloeilamp boven de tafel",
+            "Een elektrische boormachine",
+            "De motor van een speelgoedauto",
+            "Een waterkoker",
+            "Een elektrische verwarming"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Bij een lamp wil je licht, bij een boormachine en een motor wil je beweging, dus daar is de warmte verlies. Bij een waterkoker en een verwarming is warmte net wat je wilt, en dan is ze de nuttige energie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een uitvinder beweert: \"Mijn toestel geeft meer energie af dan er elektrische energie in gaat.\" Wat is er mis met die bewering?",
+          "opties": [
+            "Een toestel kan geen energie uit het niets maken",
+            "Niets: dat kan, als het toestel genoeg warmte verliest",
+            "Niets: dat kan, als het toestel een generator is",
+            "Niets: er komt altijd niet-nuttige energie bij"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een technisch systeem zet energie om, het maakt er geen bij. Wat eruit komt, moest er eerst in. De niet-nuttige energie komt niet extra bij: ze is een deel van wat erin ging en dat je niet kan gebruiken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat hebben een windmolen en een waterkrachtcentrale met elkaar gemeen?",
+          "opties": [
+            "Beide zetten beweging om in elektrische energie zonder iets te verbranden",
+            "Beide werken op een fossiele brandstof die na een tijd opraakt",
+            "Beide zetten elektrische energie om in de beweging van wind of water",
+            "Beide leveren altijd precies evenveel stroom, dag en nacht"
+          ],
+          "antwoord": 0,
+          "uitleg": "De wind of het stromende water laat iets draaien, en een generator maakt daar stroom van. Er wordt niets verbrand, dus er komt geen CO₂ vrij. Ze leveren niet altijd evenveel: zonder wind staat een molen stil."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In een windmolen zit achter de wieken een toestel dat de draaiende beweging omzet in elektrische energie. Het werkt net omgekeerd als een elektrische motor. Hoe heet dat toestel? Antwoord met één woord.",
+          "antwoord": "generator",
+          "uitleg": "Een elektrische motor maakt van elektrische energie beweging. Een generator doet het omgekeerde: van beweging maakt hij elektrische energie."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een windmolen levert op een windstille avond geen stroom, maar dat betekent niet dat wind een bron is die opraakt.",
+          "antwoord": true,
+          "uitleg": "Dat wind niet altijd evenveel levert, is een nadeel van wind. Maar de bron raakt niet op: morgen waait het weer. Niet altijd evenveel leveren en opraken zijn twee verschillende dingen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom stoot een auto met een verbrandingsmotor CO₂ uit en een windmolen niet?",
+          "opties": [
+            "In de motor wordt brandstof verbrand, in de windmolen niets",
+            "De windmolen zet zijn CO₂ meteen om in elektrische energie",
+            "Bij elke beweging komt CO₂ vrij, en de molen beweegt trager",
+            "Wind is zelf een broeikasgas dat alle CO₂ opslorpt"
+          ],
+          "antwoord": 0,
+          "uitleg": "CO₂ komt vrij bij het verbranden van fossiele brandstoffen. De motor verbrandt brandstof, de windmolen verbrandt niets. Bewegen op zich geeft geen CO₂: de molen draait ook, maar stoot niets uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze bronnen leveren niet altijd evenveel energie, ook al raken ze niet op? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De zon",
+            "De wind",
+            "Steenkool",
+            "Aardgas"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Zon en wind raken niet op, maar 's nachts schijnt er geen zon en op een windstille dag draait geen molen. Steenkool en aardgas kan je opstoken wanneer je wil, maar die raken wel op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraak over het broeikaseffect klopt?",
+          "opties": [
+            "Het is natuurlijk, maar wij versterken het met extra CO₂",
+            "De mens heeft het veroorzaakt door steenkool te stoken",
+            "Het zou het best zijn als het er helemaal niet was",
+            "Het ontstaat doordat windmolens de lucht opwarmen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het broeikaseffect bestond al lang voor de mens fossiele brandstoffen gebruikte, en zonder dat effect zou het op aarde veel te koud zijn. Het probleem is dat wij er met het verbranden van fossiele brandstoffen CO₂ bij doen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Aardgas wordt een hernieuwbare bron als je er maar spaarzaam genoeg mee omgaat.",
+          "antwoord": false,
+          "uitleg": "Hernieuwbaar betekent dat de bron niet opraakt. Aardgas is miljoenen jaren geleden ontstaan en groeit niet aan. Spaarzaam zijn helpt om er langer mee te doen, maar het blijft een fossiele brandstof die opraakt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een huis wordt verwarmd met warmte die uit de diepe ondergrond naar boven gehaald wordt. Welke uitspraak klopt?",
+          "opties": [
+            "Dat is aardwarmte, een hernieuwbare bron",
+            "Dat is aardgas, een fossiele brandstof uit de grond",
+            "Dat is aardwarmte, maar die raakt op zoals steenkool",
+            "Dat is stralingsenergie die van de zon komt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Warmte uit de diepe ondergrond is aardwarmte, en de fiche noemt die hernieuwbaar. Aardgas komt ook uit de grond, maar dat is een brandstof die je verbrandt, en die raakt op. Dat iets uit de grond komt, maakt het dus nog niet fossiel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Zonnepanelen laden overdag een batterij op, en 's avonds laat die batterij een lamp branden. In welke energievorm zit de energie terwijl ze in de batterij wacht? Antwoord met één woord.",
+          "antwoord": "chemische",
+          "uitleg": "Een batterij bewaart chemische energie. Overdag gaat er elektrische energie in en wordt ze opgeslagen, 's avonds wordt ze weer elektrische energie voor de lamp."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een zonnepaneel zet stralingsenergie om. De energievorm die er bij een zonnepaneel uitkomt, gaat er bij een gloeilamp net in. Welke energievorm is dat? Antwoord met één woord.",
+          "antwoord": "elektrische",
+          "uitleg": "Een zonnepaneel zet stralingsenergie om in elektrische energie. Een gloeilamp krijgt elektrische energie binnen en maakt er licht en warmte van. Wie licht antwoordt, haalt in en uit door elkaar: licht komt bij de gloeilamp eruit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze toestellen zetten elektrische energie om in een andere energievorm? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een gloeilamp",
+            "Een waterkoker",
+            "Een elektrische motor",
+            "Een broodrooster",
+            "Een windmolen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Een gloeilamp, een waterkoker, een elektrische motor en een broodrooster krijgen allemaal elektrische energie binnen. Een windmolen werkt omgekeerd: daar gaat beweging in en komt elektrische energie uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling zegt: \"Een zonnepaneel werkt op een hernieuwbare bron, dus het levert ook 's nachts stroom.\" Wat is er mis met die redenering?",
+          "opties": [
+            "Hernieuwbaar zegt dat de bron niet opraakt, niet dat ze altijd evenveel levert",
+            "Een zonnepaneel werkt niet op een hernieuwbare bron, maar op fossiele brandstof",
+            "Niets: een zonnepaneel levert 's nachts net zo veel, maar dan met het licht van de maan",
+            "Een zonnepaneel zet warmte om, en 's nachts is het daarvoor gewoon te koud"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een zonnepaneel zet het licht van de zon om in elektrische energie. 's Nachts is er geen zonlicht, dus levert het niets. De zon raakt daarom nog niet op: het is wel een hernieuwbare bron die niet altijd evenveel levert."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een stad vervangt een centrale die steenkool verbrandt door een groot windmolenpark. Welk gevolg mag de stad verwachten?",
+          "opties": [
+            "Er komt minder CO₂ vrij, maar hoeveel stroom er is, hangt af van het weer",
+            "Er komt meer CO₂ vrij, want windmolens draaien dag en nacht zonder pauze",
+            "De wind raakt na een paar jaar op, en dan valt het hele park stil",
+            "Het broeikaseffect verdwijnt dan helemaal uit de dampkring van de aarde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Windmolens verbranden niets, dus er komt minder CO₂ vrij dan bij steenkool. Hun nadeel is dat ze niet altijd evenveel leveren. Het broeikaseffect verdwijnt niet: het is natuurlijk, alleen wordt het minder versterkt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een waterkoker en een gloeilamp maken allebei warmte, maar alleen bij de waterkoker is die warmte de nuttige energie.",
+          "antwoord": true,
+          "uitleg": "Bij een waterkoker wil je warm water, dus de warmte is nuttig. Bij een gloeilamp wil je licht, en dan is de warmte niet-nuttige energie. Dezelfde energievorm kan dus nuttig of niet-nuttig zijn, afhankelijk van het toestel."
+        }
+      ]
+    },
+    {
+      "titel": "De elektrische stroomkring — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Een batterij, een gesloten schakelaar en lampje A staan in serie. Na lampje A splitst de kring in twee takken: in de ene tak zit lampje B, in de andere lampje C. Daarna komen de takken weer samen en gaat de draad terug naar de batterij. Lampje B gaat stuk. Welke lampjes branden nog?",
+          "opties": [
+            "Lampje A en lampje C",
+            "Geen enkel lampje meer",
+            "Alleen lampje A",
+            "Alleen lampje C"
+          ],
+          "antwoord": 0,
+          "uitleg": "Lampje B zit in een eigen tak. Valt die tak weg, dan kan de stroom nog altijd door A en daarna door de tak met C. Was het lampje A geweest, dan was alles uitgegaan, want alle stroom moet door A."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een batterij voedt twee takken die in parallel staan. In de ene tak zitten schakelaar S en lampje L1, in de andere tak alleen lampje L2. Je opent schakelaar S. Wat zie je?",
+          "opties": [
+            "L1 gaat uit en L2 blijft branden",
+            "L1 en L2 gaan allebei uit",
+            "L2 gaat uit en L1 blijft branden",
+            "L1 en L2 blijven allebei branden"
+          ],
+          "antwoord": 0,
+          "uitleg": "De schakelaar zit alleen in de tak van L1, dus alleen die tak wordt onderbroken. De tak van L2 blijft gesloten. Een schakelaar werkt alleen op de tak waarin hij staat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een zaagmachine mag alleen draaien als het beschermkapje dicht is én de startknop ingedrukt is. Aan het kapje zit een schakelaar die sluit als het kapje dicht is. Hoe schakel je de kapschakelaar en de startknop?",
+          "opties": [
+            "In serie met elkaar",
+            "In parallel met elkaar",
+            "Elk in een eigen kring met een eigen batterij",
+            "De kapschakelaar in parallel met de motor zelf"
+          ],
+          "antwoord": 0,
+          "uitleg": "Net als bij de heggenschaar moeten beide schakelaars dicht zijn voor de kring gesloten is, en dat krijg je in serie. In parallel zou de machine al draaien als één van de twee gesloten is, dus ook met het kapje open."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een zoemer moet afgaan als iemand op de knop aan de voordeur of op de knop aan de achterdeur drukt. Eén knop indrukken moet volstaan. Hoe schakel je de twee knoppen?",
+          "opties": [
+            "In parallel met elkaar",
+            "In serie met elkaar",
+            "Allebei in serie met een open schakelaar",
+            "Elk aan een andere kant van de batterij"
+          ],
+          "antwoord": 0,
+          "uitleg": "In parallel heeft elke knop een eigen tak, en één gesloten tak is genoeg om de kring rond te maken. In serie zou de zoemer pas afgaan als iemand aan beide deuren tegelijk drukt, zoals bij de heggenschaar."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een serieschakeling met drie lampjes kan je met een schakelaar één lampje uitzetten terwijl de andere twee blijven branden.",
+          "antwoord": false,
+          "uitleg": "In serie is er maar één weg voor de stroom. Open je ergens een schakelaar, dan is de hele kring onderbroken en gaan alle drie de lampjes uit. Wil je één lampje apart uitzetten, dan moet het in een eigen tak staan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een LED zit in een gesloten kring met een nieuwe batterij en goede draden, maar ze blijft donker. Wat is de meest waarschijnlijke oorzaak?",
+          "opties": [
+            "De LED zit omgekeerd in de kring",
+            "Een batterij levert gelijkspanning, en een LED werkt enkel op wisselspanning",
+            "De schakelaar in de kring staat gesloten in plaats van open",
+            "De draden zijn van koper, en koper geleidt de stroom te slecht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een LED laat de stroom maar in één richting door. Zit ze omgekeerd, dan blijft ze donker, ook in een gesloten kring. Een gesloten schakelaar is net goed, en koper is een goede geleider."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil met een multimeter nagaan of een batterij nog genoeg spanning heeft. Hoe gebruik je de multimeter, en in welke eenheid lees je af?",
+          "opties": [
+            "Als voltmeter, en je leest af in volt",
+            "Als ampèremeter, en je leest af in volt",
+            "Als voltmeter, en je leest af in ampère",
+            "Als ampèremeter, en je leest af in ohm"
+          ],
+          "antwoord": 0,
+          "uitleg": "Spanning meet je met de multimeter als voltmeter, en spanning druk je uit in volt. Als ampèremeter meet je de stroomsterkte, in ampère. De ohm is de eenheid van weerstand."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke combinaties van grootheid, symbool en eenheid kloppen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Stroomsterkte, symbool I, in ampère",
+            "Spanning, symbool U, in volt",
+            "Weerstand, symbool R, in ohm",
+            "Vermogen, symbool P, in volt",
+            "Spanning, symbool U, in ampère"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Stroomsterkte I in ampère, spanning U in volt, weerstand R in ohm en vermogen P in watt. Vermogen in volt klopt dus niet, en spanning in ampère haalt spanning en stroomsterkte door elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand raakt een beschadigd snoer aan, en er lekt stroom weg door zijn lichaam. Welke veiligheidsvoorziening is net gemaakt om dan meteen uit te schakelen?",
+          "opties": [
+            "De verliesstroomschakelaar",
+            "De automatische zekering",
+            "De dubbele isolatie",
+            "Het kroonsteentje"
+          ],
+          "antwoord": 0,
+          "uitleg": "De verliesstroomschakelaar schakelt uit zodra er stroom weglekt, bijvoorbeeld door een mens. De automatische zekering reageert op te veel stroom in de kring, en dat is iets anders. Dubbele isolatie is een bouwwijze en een kroonsteentje verbindt alleen draden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Er loopt al een tijd meer stroom door een snoer dan het aankan, en plots valt de stroom uit. Welk gevaar was er, en welke voorziening greep in?",
+          "opties": [
+            "Overbelasting, en de automatische zekering onderbrak de kring",
+            "Kortsluiting, en de aardingsdraad leidde de stroom naar de grond",
+            "Elektrocutie, en de dubbele isolatie schakelde het snoer uit",
+            "Overbelasting, en de aardingsdraad onderbrak meteen de kring"
+          ],
+          "antwoord": 0,
+          "uitleg": "Meer stroom door een draad dan hij aankan, is overbelasting. De automatische zekering onderbreekt de kring bij te veel stroom. De aardingsdraad onderbreekt niets: hij leidt stroom naar de grond weg."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een batterij en een generator zijn allebei spanningsbronnen, maar alleen de batterij levert gelijkspanning.",
+          "antwoord": true,
+          "uitleg": "Allebei leveren ze de spanning voor een kring. Een batterij is een gelijkspanningsbron, een generator levert wisselspanning."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een heggenschaar met twee schakelaars in serie stopt de motor zodra je één van de twee schakelaars loslaat.",
+          "antwoord": true,
+          "uitleg": "In serie moeten beide schakelaars gesloten zijn voor de kring rond is. Laat je er één los, dan is de kring open en stopt de motor. Zo kan je hand nooit bij het mes als de schaar draait."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een striptang en een zijsnijtang doen hetzelfde: met allebei knip je een draad door.",
+          "antwoord": false,
+          "uitleg": "Met een zijsnijtang knip je een draad door. Met een striptang haal je alleen het kunststof laagje van de draad, zonder het koper te beschadigen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je haalt eerst met een striptang het kunststof laagje van twee draden. Daarna wil je die twee draden met tin aan elkaar vastmaken. Welk gereedschap gebruik je voor die tweede stap? Antwoord met één woord.",
+          "antwoord": "soldeerbout",
+          "uitleg": "Een soldeerbout verbindt twee draden met tin. Een kroonsteentje verbindt ook twee draden, maar met schroefjes en zonder tin."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een toestel heeft een extra draad die bij een defect de stroom veilig naar de grond wegleidt, zodat de stroom niet door jou loopt. Hoe heet die veiligheidsvoorziening? Antwoord met één woord.",
+          "antwoord": "aarding",
+          "uitleg": "Dat is de aarding: de aardingsdraad leidt de stroom veilig naar de grond weg. De verliesstroomschakelaar en de automatische zekering schakelen uit, maar leiden zelf geen stroom weg."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Mila heeft twee slingers van elk 20 lampjes. In de ene slinger staan de lampjes in serie, in de andere in parallel. In elke slinger gaan er 2 lampjes stuk. Hoeveel lampjes branden er dan nog in totaal? Antwoord met een getal.",
+          "antwoord": "18",
+          "uitleg": "In de serieslinger is de kring onderbroken, dus daar brandt niets meer. In de parallelslinger blijven de andere 18 lampjes branden. Wie bij beide slingers 18 rekent, komt op 36, maar vergeet dat serie maar één weg heeft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je legt telkens één voorwerp in de opening van een kring met een batterij en een lampje. Bij welke voorwerpen gaat het lampje branden? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een stalen paperclip",
+            "Een stuk koperdraad zonder isolatie",
+            "Een glazen knikker",
+            "Een houten ijsstokje",
+            "Een kunststof liniaal"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Staal en koper zijn metalen en dus goede geleiders: de kring wordt gesloten en het lampje brandt. Glas, hout en kunststof zijn niet-metalen en laten de stroom niet door."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze dingen teken je in een elektrisch schema met een eigen symbool? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een spanningsbron",
+            "Een schakelaar",
+            "Een LED",
+            "Een zoemer",
+            "Een striptang"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Een spanningsbron, een schakelaar, een LED en een zoemer zijn componenten die in de kring zelf zitten, en elk heeft een eigen symbool. Een striptang is gereedschap waarmee je een draad bewerkt: die zit niet in de kring."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een lampje in een kring met een nieuwe batterij en een gesloten schakelaar brandt toch niet. Het lampje zelf is in orde. Welke verklaring past?",
+          "opties": [
+            "Er zit ergens een draad los, zodat de kring toch open is",
+            "De kring is gesloten, en in een gesloten kring brandt geen lampje",
+            "De schakelaar moet open staan om de stroom door te laten",
+            "Een batterij levert gelijkspanning en een lampje heeft wisselspanning nodig"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een lampje brandt alleen in een gesloten kring. Is de schakelaar dicht en brandt het toch niet, dan is de kring ergens anders onderbroken, bijvoorbeeld door een losse draad. Een open schakelaar onderbreekt de kring net."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zou het gevaarlijk zijn om de twee schakelaars van een heggenschaar in parallel te zetten in plaats van in serie?",
+          "opties": [
+            "Dan draait de motor al als je maar één knop indrukt",
+            "Dan werkt de schaar helemaal niet meer, wat je ook doet",
+            "Dan heb je drie handen nodig om de schaar te starten",
+            "Dan loopt er nooit nog stroom door de motor van de schaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "In parallel heeft elke schakelaar een eigen tak, en één gesloten tak volstaat. Je kan de schaar dan met één hand starten, terwijl je andere hand bij het mes kan. Daarom staan ze juist in serie."
+        }
+      ]
+    },
+    {
+      "titel": "Informatieverwerkende systemen — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Een alarm moet afgaan als het donker is én er beweging is. De lichtsensor geeft een \\(1\\) als het licht is, de bewegingssensor een \\(1\\) bij beweging. Hoe schakel je de poorten?",
+          "opties": [
+            "Lichtsensor door een NIET-poort, dan samen met de bewegingssensor in een EN-poort",
+            "Lichtsensor en bewegingssensor rechtstreeks samen in één enkele EN-poort",
+            "Lichtsensor door een NIET-poort, dan samen met de bewegingssensor in een OF-poort",
+            "Bewegingssensor door een NIET-poort, dan samen met de lichtsensor in een EN-poort"
+          ],
+          "antwoord": 0,
+          "uitleg": "De sensor geeft \\(1\\) bij licht, maar jij hebt een \\(1\\) nodig bij donker: dus eerst omkeren met een NIET-poort. Daarna moeten donker én beweging tegelijk waar zijn, en dat is een EN-poort. Zonder de NIET-poort zou het alarm overdag afgaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je zet een NIET-poort achter een OF-poort. De ingangen van de OF-poort zijn \\(1\\) en \\(0\\). Wat komt er helemaal aan het einde uit?",
+          "opties": [
+            "\\(0\\)",
+            "\\(1\\)",
+            "Eerst \\(1\\) en daarna \\(0\\)",
+            "Dat hangt af van welke ingang \\(1\\) is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Stap één: de OF-poort met \\(1\\) en \\(0\\) geeft \\(1\\), want één ingang volstaat. Stap twee: de NIET-poort keert die \\(1\\) om tot \\(0\\). Wie alleen naar de OF-poort kijkt, antwoordt te snel \\(1\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De uitgang van een EN-poort is \\(1\\). Wat weet je dan zeker over de twee ingangen?",
+          "opties": [
+            "Ze zijn allebei \\(1\\)",
+            "Minstens één is \\(1\\), van de andere weet je niets",
+            "Ze zijn allebei \\(0\\)",
+            "Ze zijn verschillend van elkaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een EN-poort geeft alleen een \\(1\\) als álle ingangen \\(1\\) zijn. Zie je dus een \\(1\\) aan de uitgang, dan moeten beide ingangen \\(1\\) geweest zijn. 'Minstens één' is de regel van de OF-poort."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je test een onbekende poort met twee ingangen. Bij \\(0\\) en \\(0\\) komt er \\(0\\) uit, bij \\(0\\) en \\(1\\) een \\(1\\), bij \\(1\\) en \\(0\\) een \\(1\\), en bij \\(1\\) en \\(1\\) een \\(1\\). Welke poort is het?",
+          "opties": [
+            "Een OF-poort",
+            "Een EN-poort",
+            "Een NIET-poort",
+            "Het kan zowel een EN- als een OF-poort zijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zodra één ingang \\(1\\) is, komt er \\(1\\) uit: dat is een OF-poort. Een EN-poort zou bij \\(0\\) en \\(1\\) een \\(0\\) geven, en een NIET-poort heeft maar één ingang."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je test een poort met twee ingangen. Met de ingangen \\(1\\) en \\(0\\) komt er een \\(0\\) uit. Welke poort van de fiche is het?",
+          "opties": [
+            "Een EN-poort",
+            "Een OF-poort",
+            "Een NIET-poort",
+            "Je kunt niet kiezen tussen een EN- en een OF-poort"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een OF-poort zou met \\(1\\) en \\(0\\) een \\(1\\) geven, dus die valt af. Een NIET-poort heeft maar één ingang. Blijft over: de EN-poort, die met \\(1\\) en \\(0\\) inderdaad \\(0\\) geeft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een OF-poort geeft een \\(1\\) aan de uitgang. Welke ingangen kunnen dat geweest zijn? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "\\(0\\) en \\(1\\)",
+            "\\(1\\) en \\(0\\)",
+            "\\(1\\) en \\(1\\)",
+            "\\(0\\) en \\(0\\)"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Bij een OF-poort volstaat één ingang op \\(1\\), en twee keer \\(1\\) mag natuurlijk ook. Alleen \\(0\\) en \\(0\\) geeft een \\(0\\), dus die combinatie kan het niet geweest zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een automatische winkeldeur heeft een bewegingssensor boven de deur, een processor, een motor die de deur openschuift, een druktoets om de deur met de hand te openen en een zoemer. Welke onderdelen horen bij de invoer? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De bewegingssensor",
+            "De druktoets",
+            "De processor die beslist",
+            "De motor van de deur",
+            "De zoemer die piept"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Invoer is wat informatie in het systeem brengt: de sensor en de druktoets. De processor hoort bij de verwerking, en de motor en de zoemer doen iets, dus horen ze bij de uitvoer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een klasgenoot zegt: 'Een microfoon en een luidspreker werken allebei met geluid, dus zijn het allebei actuatoren.' Waar zit de fout?",
+          "opties": [
+            "Een microfoon meet geluid, dus is hij een sensor",
+            "Een luidspreker meet geluid, dus is hij ook een sensor",
+            "Ze zijn allebei sensoren, omdat ze met geluid werken",
+            "Er is geen fout: allebei zijn het echt actuatoren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Of iets een sensor of een actuator is, hangt niet af van waarmee het werkt, maar van wat het doet. De microfoon meet geluid en is een sensor; de luidspreker maakt geluid en is een actuator."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij een verwarming gebeuren drie dingen: (a) de ketel slaat aan, (b) een temperatuursensor meet hoe warm het is, (c) de regelaar vergelijkt dat met 20 graden. In welke volgorde horen ze bij invoer, verwerking en uitvoer?",
+          "opties": [
+            "b, c, a",
+            "c, b, a",
+            "b, a, c",
+            "a, c, b"
+          ],
+          "antwoord": 0,
+          "uitleg": "De sensor meet eerst (invoer), dan beslist de regelaar (verwerking), en pas daarna doet de ketel iets (uitvoer). Sensoren staan vooraan, actuatoren achteraan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een tuinlamp moet branden als het donker is of als iemand op een knop drukt. De lichtsensor geeft een \\(1\\) als het licht is, de knop een \\(1\\) als je erop drukt. Hoe schakel je de poorten?",
+          "opties": [
+            "Lichtsensor door een NIET-poort, dan samen met de knop in een OF-poort",
+            "Lichtsensor door een NIET-poort, dan samen met de knop in een EN-poort",
+            "Lichtsensor en knop rechtstreeks samen in één enkele OF-poort zonder meer",
+            "De knop door een NIET-poort, dan samen met de lichtsensor in een OF-poort"
+          ],
+          "antwoord": 0,
+          "uitleg": "Donker betekent dat de sensor \\(0\\) geeft, dus keer je dat eerst om met een NIET-poort. Eén van de twee voorwaarden volstaat, dus komt er een OF-poort achter. Met een EN-poort zou je in het donker nog op de knop moeten drukken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een spel heeft het leeftijdspictogram 12 en een pictogram voor geweld. Welke uitspraken kloppen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Het spel is volgens het pictogram geschikt vanaf 12 jaar",
+            "Er zit geweld in het spel",
+            "Het geweldpictogram zegt iets over de inhoud, niet over hoe moeilijk het is",
+            "Een kind van 10 is jonger dan de leeftijd op het pictogram",
+            "Het spel duurt ongeveer 12 uur om helemaal uit te spelen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Het leeftijdspictogram zegt vanaf welke leeftijd de inhoud geschikt is, en het geweldpictogram zegt welke inhoud erin zit. Over hoe lang of hoe moeilijk het spel is, zeggen die pictogrammen niets."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraak over een EN-poort met de ingangen A en B is NIET juist?",
+          "opties": [
+            "De uitgang is \\(1\\) zodra A \\(1\\) is, wat B ook is",
+            "De uitgang is \\(0\\) zodra één van de ingangen \\(0\\) is",
+            "De uitgang is alleen \\(1\\) als A en B allebei \\(1\\) zijn",
+            "De poort heeft precies één uitgang, hoeveel ingangen ook"
+          ],
+          "antwoord": 0,
+          "uitleg": "Als A \\(1\\) is en B \\(0\\), geeft een EN-poort \\(0\\). De uitspraak 'wat B ook is' klopt dus niet. De rest is juist: één nul volstaat om de uitgang \\(0\\) te maken, alleen twee keer \\(1\\) geeft \\(1\\), en een poort heeft altijd één uitgang."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand wil een bel die rinkelt als er op de voordeur óf op de achterdeur gedrukt wordt, maar zet per vergissing een EN-poort. Wat merk je?",
+          "opties": [
+            "De bel rinkelt alleen als er op beide knoppen tegelijk gedrukt wordt",
+            "De bel rinkelt zoals bedoeld bij elke druk op één van de twee knoppen",
+            "De bel rinkelt juist wanneer er op geen enkele knop wordt gedrukt",
+            "De bel rinkelt de hele tijd, ook zonder dat er iemand aan de deur staat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een EN-poort geeft pas een \\(1\\) als beide ingangen \\(1\\) zijn. Wie op één knop drukt, hoort dus niets. Daarom had er een OF-poort moeten staan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een OF-poort met beide ingangen op \\(1\\) geeft een \\(0\\), want bij een OF-poort mag maar één ingang \\(1\\) zijn.",
+          "antwoord": false,
+          "uitleg": "Bij een OF-poort is één ingang op \\(1\\) genoeg, maar twee mag ook. Met \\(1\\) en \\(1\\) is de uitgang dus \\(1\\). De fout zit in 'maar één': dat staat nergens in de regel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Zet je twee NIET-poorten na elkaar, dan komt er aan het einde hetzelfde uit als wat er aan het begin in ging.",
+          "antwoord": true,
+          "uitleg": "De eerste NIET-poort maakt van \\(1\\) een \\(0\\), de tweede maakt van die \\(0\\) weer een \\(1\\). Twee keer omkeren brengt je terug bij het begin. Met een \\(0\\) aan het begin werkt het net zo."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Geeft een poort met twee ingangen een \\(1\\) bij de ingangen \\(1\\) en \\(0\\), dan kan het geen EN-poort zijn.",
+          "antwoord": true,
+          "uitleg": "Een EN-poort met \\(1\\) en \\(0\\) geeft altijd \\(0\\). Komt er toch \\(1\\) uit, dan is het geen EN-poort. Bij de poorten van de fiche blijft dan de OF-poort over."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De bewegingssensor van een automatische deur hoort bij de uitvoer, want door hem gaat de deur open.",
+          "antwoord": false,
+          "uitleg": "De sensor meet alleen dat er iemand aankomt: dat is invoer. Wat de deur echt openschuift, is een actuator achteraan in het systeem. Een sensor staat altijd vooraan."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In hoeveel rijen van de waarheidstabel van een OF-poort met twee ingangen staat er een \\(1\\) aan de uitgang? Antwoord met een getal.",
+          "antwoord": "3",
+          "uitleg": "De tabel heeft vier rijen. Alleen bij \\(0\\) en \\(0\\) geeft een OF-poort een \\(0\\); in de drie andere rijen staat er minstens één \\(1\\) aan de ingang en dus een \\(1\\) aan de uitgang."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je zet een NIET-poort achter een EN-poort met twee ingangen. Bij hoeveel van de vier ingangscombinaties komt er aan het einde een \\(1\\) uit? Antwoord met een getal.",
+          "antwoord": "3",
+          "uitleg": "De EN-poort geeft maar in één rij een \\(1\\): bij \\(1\\) en \\(1\\). De NIET-poort keert alles om, dus komt er nu in die ene rij een \\(0\\) en in de drie andere een \\(1\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Op je tablet staat een wolkje bij je foto's. Ze staan dan niet alleen op je toestel, maar ook op een server. Hoe heet die plek? Antwoord met één woord.",
+          "antwoord": "cloud",
+          "uitleg": "Het wolkje betekent dat je bestanden in de cloud staan, op een server. Het zegt niets over je batterij: daarvoor is er het batterijpictogram."
+        }
+      ]
+    },
+    {
+      "titel": "Krachten en stevigheid in een constructie — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij een hangbrug hangt het wegdek aan kabels, en die kabels hangen aan hoge torens. Welke kracht werkt er vooral in de kabels en welke in de torens?",
+          "opties": [
+            "Trek in de kabels, druk in de torens",
+            "Druk in de kabels, trek in de torens",
+            "Trek in de kabels en ook trek in de torens",
+            "Torsie in de kabels, buiging in de torens"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het wegdek hangt aan de kabels en trekt ze uit elkaar: trekkracht. De torens dragen dat gewicht van boven, net als de pilaren van een brug: drukkracht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je kiest materialen voor een speeltuin: de kettingen van een schommel en de zuilen die een klimrek dragen. Welke keuze is het best?",
+          "opties": [
+            "Staal voor de kettingen, beton of steen voor de zuilen",
+            "Beton voor de kettingen, glas voor de zuilen van het rek",
+            "Glas voor de kettingen, staal voor de zuilen van het rek",
+            "Steen voor de kettingen, glas voor de zuilen van het rek"
+          ],
+          "antwoord": 0,
+          "uitleg": "De kettingen krijgen trekkracht, en daarvoor is staal goed. De zuilen krijgen drukkracht, en daar kunnen beton en steen veel van verdragen. Beton en glas zijn slecht in trek, dus die horen niet in een ketting."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een klasgenoot zegt: 'Mijn toren van blokken is heel sterk, er breekt niets aan, dus kan hij ook niet omvallen.' Wat is er fout aan die redenering?",
+          "opties": [
+            "Sterk en stabiel zijn twee verschillende dingen",
+            "Een toren van blokken kan nooit sterk zijn, wat je ook doet",
+            "Stabiel betekent dat er niets breekt, dus hij heeft gelijk",
+            "Een sterke toren valt juist altijd sneller om dan een zwakke"
+          ],
+          "antwoord": 0,
+          "uitleg": "Sterkte zegt dat er niets breekt, stabiliteit zegt dat het niet omvalt. Een constructie kan sterk zijn en toch omvallen, bijvoorbeeld als ze hoog en smal is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een tafel staat stevig en wiebelt niet. Leg je er een stapel boeken op, dan buigt het tafelblad flink door, maar het breekt niet. Welke eigenschap schiet tekort?",
+          "opties": [
+            "De stijfheid",
+            "De stabiliteit",
+            "De sterkte",
+            "Geen enkele, de tafel is in orde"
+          ],
+          "antwoord": 0,
+          "uitleg": "De tafel valt niet om, dus de stabiliteit is in orde. Het blad breekt niet, dus het is sterk genoeg. Maar het vervormt veel onder belasting, en dat betekent dat de stijfheid tekortschiet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je bouwt voor een schoolproject een brug uit rietjes, met vierkante vakken. Als je er zijwaarts tegen duwt, trekt elk vak scheef. Wat helpt het best?",
+          "opties": [
+            "In elk vak een schuin rietje tussen twee hoeken zetten",
+            "Dikkere rietjes nemen en de vierkante vakken zo laten",
+            "De vierkante vakken nog een stuk groter maken dan nu",
+            "Extra plakband rond elke hoek van de vakken draaien"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een rechthoek of vierkant van losse staven trekt makkelijk scheef. Met een schuine staaf tussen twee hoeken maak je er twee driehoeken van, en een driehoek vervormt niet. Dikkere rietjes veranderen niets aan de vorm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wringt een natte handdoek uit door de twee uiteinden in tegengestelde richting te draaien. Welke kracht werkt er op de handdoek?",
+          "opties": [
+            "Een torsiekracht",
+            "Een drukkracht",
+            "Een buigkracht",
+            "Alleen een trekkracht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je verdraait de handdoek om zijn as, en verdraaien is torsie. Het lijkt misschien op samendrukken omdat er water uit komt, maar samendrukken is druk, en dat doe je hier niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij welke situaties gaat het vooral om een trekkracht? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een sleepkabel tussen een auto en een wagen met pech",
+            "De ketting van een schommel waarop iemand zit",
+            "De poten van een stoel waarop iemand zit",
+            "Een sleutel die je in het slot omdraait",
+            "Een duikplank met iemand op het uiteinde"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De sleepkabel en de schommelketting worden uit elkaar getrokken: trekkracht. De stoelpoten worden samengedrukt (druk), de sleutel wordt verdraaid (torsie) en de duikplank buigt door (buiging)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een hoge, smalle kast kiept makkelijk om. Wat maakt haar stabieler? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De voet van de kast breder maken",
+            "De zwaarste spullen onderaan zetten",
+            "Een schuine lat achteraan tussen twee hoeken zetten",
+            "De zwaarste dozen op de bovenste plank zetten",
+            "Er bovenop nog een extra plank met spullen bijzetten"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een brede voet, een laag zwaartepunt en schuine balken tussen de hoeken maken een constructie stabieler. Zware spullen of een extra plank bovenaan brengen het zwaartepunt omhoog, en dat maakt ze juist minder stabiel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over gewapend beton kloppen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Het staal erin vangt de trekkracht op",
+            "Het beton zelf kan veel drukkracht verdragen",
+            "Het verdraagt meer trekkracht dan gewoon beton",
+            "Het is beton met staven staal erin",
+            "Het staal zit erin om het beton lichter te maken"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Beton kan veel druk aan maar weinig trek. Daarom steekt er staal in, dat de trekkracht opvangt; zo verdraagt gewapend beton meer trek dan gewoon beton. Lichter wordt het er niet van."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je moet met één blad papier een brug maken tussen twee boeken, en die brug moet een potlood dragen. Wat doe je het best met het blad?",
+          "opties": [
+            "Het tot een harmonica plooien",
+            "Het zo plat en strak mogelijk leggen",
+            "Het eerst nat maken zodat het zwaarder wordt",
+            "Het in vier stukken scheuren en die op elkaar leggen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Plooien maken een plaat stijver, net zoals bij een golfplaat. Een vlak blad buigt meteen door, maar een geplooid blad van hetzelfde papier draagt ineens wel iets."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een oude brug van steen overspant met een boog een brede rivier. Waarom lukt dat?",
+          "opties": [
+            "De boog leidt het gewicht naar de zijkanten weg",
+            "Steen kan heel veel trekkracht verdragen",
+            "De boog brengt het zwaartepunt van de brug hoger",
+            "In een boog werkt er helemaal geen enkele kracht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een boog leidt het gewicht naar de zijkanten weg en kan zo een grote opening overspannen. Dat steen goed is in trek, is een misvatting: net als beton is steen vooral goed in druk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De arm van een bouwkraan tilt een last op. Welke kracht werkt er vooral op die arm, en uit welke vorm is hij meestal opgebouwd?",
+          "opties": [
+            "Buigkracht, en hij is opgebouwd uit driehoeken",
+            "Torsiekracht, en hij is opgebouwd uit rechthoeken",
+            "Drukkracht, en hij is opgebouwd uit grote bogen",
+            "Buigkracht, en hij is opgebouwd uit losse rechthoeken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een kraanarm met een last eraan buigt door: buigkracht. Om niet te vervormen is hij opgebouwd uit driehoeken. Losse rechthoeken zouden juist scheeftrekken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je draait de dop van een fles los. Welke kracht oefen je vooral uit op die dop?",
+          "opties": [
+            "Een torsiekracht",
+            "Een trekkracht",
+            "Een buigkracht",
+            "Een drukkracht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je draait de dop rond om zijn as, net zoals een schroef met een schroevendraaier. Verdraaien is torsie. Je trekt de dop er niet af en je drukt hem niet samen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een boekenrek dat bijna niet doorbuigt, kan ook niet omvallen.",
+          "antwoord": false,
+          "uitleg": "Bijna niet doorbuigen is stijfheid, niet omvallen is stabiliteit. Dat zijn twee verschillende dingen: een stijf maar hoog en smal rek kan nog altijd omkiepen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een plank die je over een beekje legt en waarop je in het midden gaat staan, krijgt een buigkracht te verwerken.",
+          "antwoord": true,
+          "uitleg": "Dat is dezelfde situatie als een plank op twee steunen met iets zwaars in het midden. De plank buigt door, dus werkt er een buigkracht."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een staaf van glas is een goede keuze om een zware lamp aan het plafond op te hangen.",
+          "antwoord": false,
+          "uitleg": "Een lamp die aan iets hangt, trekt eraan: trekkracht. Glas is broos en dus een slechte keuze voor trek. Staal past daar veel beter."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Zet je in een rechthoekig frame één schuine balk van de ene hoek naar de overstaande hoek, dan bestaat het frame uit twee driehoeken.",
+          "antwoord": true,
+          "uitleg": "De schuine balk deelt de rechthoek in twee driehoeken. Daarom trekt het frame daarna niet meer scheef: een driehoek houdt zijn vorm."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je draait met een sleutel een slot open. De kracht op de sleutel is een ___kracht. Antwoord met één woord.",
+          "antwoord": "torsie",
+          "uitleg": "De sleutel wordt om zijn as verdraaid, en verdraaien heet torsie. Het is dus een torsiekracht, net zoals bij een schroevendraaier."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een tent scheurt bij storm nergens en buigt nauwelijks door, maar waait toch helemaal om. Welke eigenschap schiet tekort? Antwoord met één woord.",
+          "antwoord": "stabiliteit",
+          "uitleg": "Niets scheurt, dus de sterkte is in orde. Ze buigt nauwelijks, dus de stijfheid ook. Omvallen gaat over stabiliteit."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een balk van gewoon beton scheurt als er een grote trekkracht op komt. Welk materiaal stop je erin om dat op te vangen? Antwoord met één woord.",
+          "antwoord": "staal",
+          "uitleg": "Beton kan veel druk aan maar weinig trek. Met staven staal erin wordt het gewapend beton: het staal vangt de trekkracht op."
+        }
+      ]
+    },
+    {
+      "titel": "Verbinden, afwerken en veilig werken — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je maakt een houten kist met een deksel dat open en dicht moet, en je wilt de kist later nog uit elkaar kunnen halen. Welke combinatie kies je?",
+          "opties": [
+            "Een scharnier voor het deksel, schroeven voor de wanden",
+            "Een scharnier voor het deksel, houtlijm voor de wanden",
+            "Houtlijm voor het deksel, schroeven voor de wanden",
+            "Nagels voor het deksel, houtlijm voor de wanden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het deksel moet draaien, dus is er een scharnier nodig. De wanden moeten later weer los kunnen, dus kies je schroeven: die draai je eruit. Lijm en nagels zijn voor een verbinding die voorgoed vast mag zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In de hoeken van een fotokader komen twee schuin afgezaagde stukken tegen elkaar, en ze zitten vast met houten pinnetjes. Welke twee verbindingen herken je?",
+          "opties": [
+            "Een verstekverbinding en een deuvelverbinding",
+            "Een boutverbinding en een lasverbinding",
+            "Een deuvelverbinding en een soldeerverbinding",
+            "Een verstekverbinding en een lasverbinding"
+          ],
+          "antwoord": 0,
+          "uitleg": "Schuin afgezaagd tegen elkaar is een verstekverbinding. Houten pinnetjes zijn deuvels. Lassen en solderen zijn voor metaal en draden, niet voor een houten kader."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij welke voorwerpen kan je de verbinding losmaken zonder iets kapot te maken? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De rits van je jas",
+            "Het klittenband van je schoen",
+            "De magneetsluiting van een etui",
+            "De bout en moer van een fietsbel",
+            "Een gelast hekje van metaal"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Een rits, klittenband, een magneet en een bout met moer kan je openmaken zonder schade. Een lasverbinding niet: de metalen delen zijn samengesmolten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je lijmt een houten vogelhuisje dat buiten komt te hangen, en je hebt veel tijd nodig om alle stukjes goed te schikken. Waar let je op bij de keuze van de lijm? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Dat de lijm tegen nat kan",
+            "Dat de verwerkingstijd lang genoeg is",
+            "Dat de lijm geschikt is om hout aan hout te lijmen",
+            "Dat de lijm zo snel mogelijk vastpakt",
+            "Dat de tube van de lijm zo licht mogelijk is"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Het huisje komt buiten, dus kan het nat worden. Je wilt tijd om te schikken, dus heb je een lange verwerkingstijd nodig; een lijm die meteen pakt, is daar net het omgekeerde van. En de lijm moet passen bij de materialen, hier hout."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke werkwijzen zijn NIET veilig? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Met een ring aan je vinger aan de zaagmachine werken",
+            "Even het meetbereik overschrijden omdat het maar kort is",
+            "De stekker uittrekken voor je het zaagblad vervangt",
+            "Gemorste olie op de vloer meteen opkuisen",
+            "Je lange haar samenbinden voor je aan de boor begint"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Een ring kan blijven haken aan een zaagmachine, en het meetbereik mag je nooit overschrijden, ook niet even. De stekker uittrekken, gemorste olie meteen opkuisen en lang haar samenbinden zijn juist wat je hoort te doen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wilt een houten tafel een donkerdere kleur geven, maar de nerf van het hout moet zichtbaar blijven. Welke afwerking kies je?",
+          "opties": [
+            "Beitsen",
+            "Verven met dekkende verf",
+            "Alleen goed schuren",
+            "Twee lagen dekkende verf"
+          ],
+          "antwoord": 0,
+          "uitleg": "Beits kleurt het hout en trekt erin, zodat je de nerf nog ziet. Verf legt een dekkende laag over het hout en verbergt de nerf. Schuren maakt glad, maar geeft geen kleur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een houten bankje komt buiten in de tuin te staan. In welke volgorde werk je het af?",
+          "opties": [
+            "Eerst schuren, dan vernissen",
+            "Eerst vernissen, dan schuren",
+            "Alleen schuren, vernis is overbodig",
+            "Eerst beitsen, dan schuren tot de kleur weg is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Schuren maakt het hout glad, en daarna komt de afwerking. Buiten krijgt het bankje vocht en slijtage te verwerken, en daar beschermt vernis tegen. Na het vernissen schuren zou die beschermlaag weer wegnemen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een klasgenoot zegt: 'Ik beits mijn plank, dan ligt er een dekkende laag over het hout en zie je de nerf niet meer.' Wat klopt er niet?",
+          "opties": [
+            "Beitsen kleurt het hout en legt geen dekkende laag",
+            "Beitsen is geen afwerkingstechniek maar een verbinding",
+            "Beitsen maakt het hout glad, net zoals schuren dat doet",
+            "Er klopt niets niet, beitsen en verven zijn hetzelfde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Beits trekt in het hout en kleurt het, zodat je de nerf nog ziet. Een dekkende laag die de nerf verbergt, is wat verf doet. Glad maken is het werk van schuren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand vervangt het zaagblad van een figuurzaag. De schakelaar staat uit, maar de stekker zit nog in het stopcontact. Wat is het gevaar?",
+          "opties": [
+            "De machine kan aanslaan terwijl je eraan zit",
+            "De stroom loopt langs het zaagblad naar de vloer",
+            "Het zaagblad wordt magnetisch en trekt aan je ring",
+            "Er is geen gevaar zolang de schakelaar uit staat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zolang de stekker erin zit, kan de machine aanslaan, bijvoorbeeld als iemand per ongeluk tegen de schakelaar stoot. Daarom trek je eerst de stekker uit voor je iets aan een machine doet. Een uitgezette schakelaar is niet genoeg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op de deur van de werkplaats hangt een blauw rond pictogram met een masker. Wat betekent dat?",
+          "opties": [
+            "Een mondmasker is hier verplicht, want er is stof of damp",
+            "Een mondmasker is hier verboden, want je moet goed praten",
+            "Een mondmasker mag hier, maar je kiest het zelf",
+            "Hier hangt de doos met mondmaskers voor de klas"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een blauw rond pictogram betekent altijd dat iets verplicht is. Met een masker erop gaat het om een mondmasker, dat je draagt bij stof of damp. Toegelaten of verboden is iets anders dan verplicht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is een botte zaag gevaarlijker dan een goed onderhouden zaag?",
+          "opties": [
+            "Een botte zaag glijdt makkelijker weg",
+            "Een botte zaag maakt meer lawaai in de klas",
+            "Een botte zaag is zwaarder om op te tillen",
+            "Een botte zaag geeft een andere kleur zaagsel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Onderhouden gereedschap blijft veilig en nauwkeurig werken. Een botte zaag pakt niet goed en glijdt weg, en dan kan je je verwonden. Zwaarder of luider wordt hij er niet van."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wilt een fietsbel op je stuur zetten, en hem later naar je nieuwe fiets verhuizen. Welke verbinding kies je?",
+          "opties": [
+            "Een boutverbinding",
+            "Een lasverbinding",
+            "Een lijmverbinding",
+            "Een soldeerverbinding"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een bout met een moer kan je losdraaien zonder iets kapot te maken. Lassen, lijmen en solderen geven een verbinding die je niet zonder schade losmaakt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een smid zet twee metalen buizen van een hek voorgoed aan elkaar door ze samen te smelten. Welke verbinding is dat?",
+          "opties": [
+            "Een lasverbinding",
+            "Een soldeerverbinding",
+            "Een lijmverbinding",
+            "Een deuvelverbinding"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij lassen smelten de twee metalen delen zelf samen. Bij solderen verbind je draden met gesmolten tin, dus daar smelt het tin en niet de draad. Een deuvel is een houten pinnetje."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Voor een kast die je later nog wilt demonteren, kies je beter nagels dan schroeven.",
+          "antwoord": false,
+          "uitleg": "Een nagel gebruik je als het voorgoed vast mag. Wil je de kast later uit elkaar halen, dan kies je schroeven, want die draai je er gewoon weer uit."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een soldeerverbinding en een lasverbinding hebben gemeen dat je ze niet zomaar weer losmaakt.",
+          "antwoord": true,
+          "uitleg": "Bij allebei wordt er iets gesmolten: bij lassen het metaal zelf, bij solderen het tin. Zulke verbindingen krijg je niet los zoals een bout of een schroef."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een meetinstrument laat je best aanstaan tot de volgende les, dan hoef je het niet opnieuw aan te zetten.",
+          "antwoord": false,
+          "uitleg": "Een meetinstrument schakel je uit als je klaar bent, anders loopt de batterij leeg. De volgende les werkt het dan misschien niet meer."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Ook als je de stofafzuiging van de figuurzaag gebruikt, draag je nog oogbescherming.",
+          "antwoord": true,
+          "uitleg": "De stofafzuiging is er tegen het zaagstof dat je zou inademen. De oogbescherming is er tegen de spaanders die wegspringen. Het zijn twee aparte maatregelen op de veiligheidsinstructiekaart, en de ene vervangt de andere niet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Twee draadjes in een zaklamp zijn aan elkaar gezet met een gesmolten metaal dat daarna weer hard werd. Welk metaal is dat? Antwoord met één woord.",
+          "antwoord": "tin",
+          "uitleg": "Dat is een soldeerverbinding: twee draden verbonden met gesmolten tin. Bij lassen smelt het metaal van de stukken zelf."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In het magazijn van de werkplaats kan er iets zwaars op je voeten vallen. Welke persoonlijke beschermingsmiddelen draag je daar? Antwoord met één woord.",
+          "antwoord": "veiligheidsschoenen",
+          "uitleg": "Waar iets zwaars kan vallen, zijn veiligheidsschoenen verplicht. Het pictogram is een blauw rond teken met een schoen erop."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je hebt twee stukken gelijmd en wil ze nog een beetje verschuiven. Hoe heet de tijd waarin dat nog kan? Antwoord met één woord.",
+          "antwoord": "verwerkingstijd",
+          "uitleg": "De verwerkingstijd zegt hoe lang je de stukken nog kunt verschuiven voor de lijm pakt. Daarom let je er bij het kiezen van een lijm op."
+        }
+      ]
+    },
+    {
+      "titel": "Meten, eenheden en modelvoorstellingen — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kartonnen doos in de vorm van een balk is \\(20\\) cm lang, \\(10\\) cm breed en \\(5\\) cm hoog. Hoeveel liter past erin?",
+          "opties": [
+            "\\(1\\) liter",
+            "\\(1000\\) liter",
+            "\\(10\\) liter",
+            "\\(0{,}1\\) liter"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zet eerst alles om naar decimeter: \\(2\\) dm, \\(1\\) dm en \\(0{,}5\\) dm. Lengte maal breedte maal hoogte geeft \\(1\\) kubieke decimeter, en dat is precies \\(1\\) liter. Wie in centimeter rekent, krijgt \\(1000\\), maar dat zijn kubieke centimeter, geen liter."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een aquarium is \\(50\\) cm lang, \\(30\\) cm breed en \\(40\\) cm hoog. Hoeveel liter water past er tot aan de rand in? Antwoord met een getal.",
+          "antwoord": "60",
+          "uitleg": "Reken eerst om naar decimeter: \\(5\\) dm, \\(3\\) dm en \\(4\\) dm. Het volume van een balk is lengte maal breedte maal hoogte, dus \\(60\\) kubieke decimeter. Eén kubieke decimeter is één liter, dus \\(60\\) liter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een werktekening met schaal \\(1\\):\\(2\\) is een plank \\(150\\) mm lang getekend. Hoe lang is de echte plank?",
+          "opties": [
+            "\\(300\\) mm",
+            "\\(75\\) mm",
+            "\\(150\\) mm",
+            "\\(1500\\) mm"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij \\(1\\):\\(2\\) is de tekening half zo groot als het voorwerp. Het echte voorwerp is dus twee keer zo lang als op papier. Wie \\(75\\) kiest, heeft de schaal verkeerd om gelezen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een schroefje is in het echt \\(8\\) mm lang. Op de tekening is het \\(16\\) mm lang. Op welke schaal is het getekend?",
+          "opties": [
+            "\\(2\\):\\(1\\)",
+            "\\(1\\):\\(2\\)",
+            "\\(1\\):\\(1\\)",
+            "\\(1\\):\\(16\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De tekening is twee keer zo groot als het schroefje. Het eerste getal hoort bij de tekening, het tweede bij het voorwerp, dus \\(2\\):\\(1\\). Met \\(1\\):\\(2\\) zou de tekening net kleiner zijn."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Op een tekening met schaal \\(1\\):\\(2\\) is een rechthoekig plaatje \\(100\\) mm lang en \\(50\\) mm breed. Hoeveel vierkante centimeter is de oppervlakte van het echte plaatje? Antwoord met een getal.",
+          "antwoord": "200",
+          "uitleg": "Het echte plaatje is twee keer zo lang en twee keer zo breed: \\(200\\) mm op \\(100\\) mm, of \\(20\\) cm op \\(10\\) cm. Basis maal hoogte geeft \\(200\\) vierkante centimeter. Let op: de oppervlakte is dus vier keer zo groot als op de tekening, niet twee keer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een vierkante tegel heeft een omtrek van \\(1{,}2\\) meter. Hoe groot is de oppervlakte van de tegel?",
+          "opties": [
+            "\\(900\\) vierkante centimeter",
+            "\\(144\\) vierkante centimeter",
+            "\\(3600\\) vierkante centimeter",
+            "\\(90\\) vierkante centimeter"
+          ],
+          "antwoord": 0,
+          "uitleg": "Omtrek van een vierkant is \\(4\\) maal z, dus z is \\(1{,}2\\) m gedeeld door \\(4\\): \\(0{,}3\\) m of \\(30\\) cm. De oppervlakte is z maal z, dus \\(30\\) maal \\(30\\) is \\(900\\) vierkante centimeter. Je mag niet de omtrek zelf in het kwadraat nemen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een kubus met een ribbe van \\(1\\) meter passen precies tien kubussen met een ribbe van \\(1\\) decimeter.",
+          "antwoord": false,
+          "uitleg": "In elke richting passen er tien: tien op een rij, tien rijen, en tien lagen. Dat zijn er \\(10\\) maal \\(10\\) maal \\(10\\), dus \\(1000\\). Daarom is een kubieke meter ook \\(1000\\) liter."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Op een tekening met schaal \\(1\\):\\(2\\) heeft een vierkant een zijde van \\(5\\) cm. Het echte vierkant heeft dan een oppervlakte die vier keer zo groot is als die op de tekening.",
+          "antwoord": true,
+          "uitleg": "Op papier is de oppervlakte \\(5\\) maal \\(5\\), dus \\(25\\) vierkante centimeter. In het echt is de zijde \\(10\\) cm en de oppervlakte \\(100\\) vierkante centimeter: vier keer zoveel, omdat zowel de lengte als de breedte verdubbelt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze grootheden druk je uit in meter, zonder vierkant of kubiek erbij? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De omtrek van een fietswiel",
+            "De lengte van een plank",
+            "De straal van een cirkel",
+            "De oppervlakte van een tafelblad",
+            "Het volume van een doos"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Omtrek, lengte en straal zijn allemaal afstanden, dus meter. Een oppervlakte druk je uit in vierkante meter en een volume in kubieke meter. Dat de omtrek een eigen symbool P heeft, verandert niets aan de eenheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een werkblad staat 'm = 3 kg' en een eind verder 'l = 2 m'. Wat betekent de letter m telkens?",
+          "opties": [
+            "Eerst de grootheid massa, daarna de eenheid meter",
+            "Beide keren het symbool van de grootheid massa",
+            "Beide keren de eenheid meter, de eenheid van lengte",
+            "Eerst de eenheid meter, daarna de grootheid massa"
+          ],
+          "antwoord": 0,
+          "uitleg": "Links van het gelijkheidsteken staat de grootheid, rechts het getal met de eenheid. In 'm = 3 kg' is m dus de massa, in 'l = 2 m' is m de meter. Dezelfde letter kan zo twee rollen hebben."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wilt nagaan of er echt \\(330\\) milliliter in een flesje zit, en hoe dik het dopje precies is. Welke meetinstrumenten heb je nodig? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een maatbeker",
+            "Een schuifmaat",
+            "Een meetlat",
+            "Een weegschaal",
+            "Een multimeter"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Een hoeveelheid vloeistof meet je met een maatbeker, en een kleine dikte nauwkeurig met een schuifmaat. Een meetlat is voor zo'n dun dopje niet nauwkeurig genoeg, en een weegschaal geeft een massa, geen volume."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze lengtes is de grootste?",
+          "opties": [
+            "\\(0{,}3\\) hectometer",
+            "\\(250\\) decimeter",
+            "\\(2800\\) centimeter",
+            "\\(29\\,000\\) millimeter",
+            "\\(2\\) decameter"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zet alles om naar meter: \\(0{,}3\\) hm is \\(30\\) m, \\(250\\) dm is \\(25\\) m, \\(2800\\) cm is \\(28\\) m, \\(29\\,000\\) mm is \\(29\\) m en \\(2\\) dam is \\(20\\) m. Het grootste getal is dus niet de grootste lengte."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een plank is \\(2{,}4\\) meter lang. Je zaagt er stukken van \\(30\\) cm uit en rekent geen zaagsnede mee. Hoeveel stukken krijg je? Antwoord met een getal.",
+          "antwoord": "8",
+          "uitleg": "Zet eerst om naar dezelfde eenheid: \\(2{,}4\\) m is \\(240\\) cm. Dan deel je \\(240\\) door \\(30\\) en krijg je \\(8\\) stukken. Wie \\(2{,}4\\) door \\(30\\) deelt zonder om te zetten, komt op een onzinnig getal uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een fabrikant maakt een broodplank voortaan uit kunststof in plaats van uit hout. De plank dient nog altijd om brood op te snijden. Wat klopt er over de functiedriehoek?",
+          "opties": [
+            "Het materiaal verandert, de functie blijft dezelfde",
+            "De functie verandert, het materiaal blijft hetzelfde",
+            "Het materiaal en de functie veranderen allebei mee",
+            "Het materiaal en de functie blijven allebei hetzelfde"
+          ],
+          "antwoord": 0,
+          "uitleg": "De functie is waarvoor iets dient, en dat is nog altijd brood snijden. Het materiaal is waarvan het gemaakt is, en dat is nu kunststof in plaats van hout. Het een verandert dus zonder het ander."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Voor een schoolproject wil je de wanden en het dak van een vogelhuisje uit één stuk karton snijden en dan dichtplooien. Welke tekening heb je daarvoor nodig?",
+          "opties": [
+            "Een ontvouwing",
+            "Een isometrisch perspectief",
+            "Een detailontwerp van het dak",
+            "Een conceptschets van het idee"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een ontvouwing is het platte patroon dat je dichtvouwt tot het voorwerp. Een isometrisch perspectief toont het huisje wel ruimtelijk, maar daarmee kun je niet in één stuk uitsnijden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je ontwerpt een nieuw pennenbakje. In welke volgorde maak je de tekeningen meestal?",
+          "opties": [
+            "Eerst een conceptschets, daarna de werktekening",
+            "Eerst de werktekening, daarna een conceptschets",
+            "Eerst een detailontwerp, daarna een conceptschets",
+            "Alleen een werktekening, een schets is te veel werk"
+          ],
+          "antwoord": 0,
+          "uitleg": "De conceptschets is het eerste ruwe idee: zo zie je of het klopt voor er materiaal verloren gaat. Pas daarna teken je de werktekening met maten, aanzichten en schaal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een blikje frisdrank staat rechtop op tafel. Welke uitspraken over de aanzichten kloppen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Het bovenaanzicht is een cirkel",
+            "Het vooraanzicht is een rechthoek",
+            "Het zijaanzicht is een rechthoek",
+            "Het onderaanzicht is een cirkel",
+            "Het vooraanzicht is een cirkel"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Kijk je recht van boven of van onderen, dan zie je de ronde bodem: een cirkel. Kijk je recht van voren of van opzij, dan zie je het blikje als een rechthoek. Het vooraanzicht is dus geen cirkel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een detailontwerp van een klein scharnier teken je meestal op schaal \\(1\\):\\(2\\).",
+          "antwoord": false,
+          "uitleg": "Een detailontwerp toont één onderdeel groter getekend. Bij \\(1\\):\\(2\\) is de tekening juist half zo groot. Voor een klein scharnier past eerder \\(2\\):\\(1\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je de zijde van een vierkant verdubbelt, wordt de omtrek ook twee keer zo groot.",
+          "antwoord": true,
+          "uitleg": "De omtrek is \\(4\\) maal z: neem je z twee keer zo groot, dan wordt de omtrek ook twee keer zo groot. Bij de oppervlakte, z maal z, is dat anders: die wordt vier keer zo groot."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een klant wil in één beeld zien hoe een kastje er ruimtelijk uitziet. De maker in de werkplaats wil alle maten. Welke tekeningen geef je aan wie?",
+          "opties": [
+            "De klant een isometrisch perspectief, de maker een werktekening",
+            "De klant een werktekening, de maker een isometrisch perspectief",
+            "De klant een ontvouwing, de maker een conceptschets van het kastje",
+            "Allebei een conceptschets, want die toont alles wat ze willen weten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een isometrisch perspectief toont het voorwerp ruimtelijk, in één beeld. Een werktekening heeft de aanzichten, de maten en de schaal waarmee je kunt maken. Een conceptschets is nog maar een ruw idee."
+        }
+      ]
+    },
+    {
+      "titel": "Transport en overbrengingen — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Een tandwiel met \\(12\\) tanden drijft een tandwiel met \\(36\\) tanden aan. Het kleine wiel draait \\(6\\) keer rond. Hoe vaak draait het grote wiel rond?",
+          "opties": [
+            "\\(2\\) keer",
+            "\\(18\\) keer",
+            "\\(3\\) keer",
+            "\\(6\\) keer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zes toeren van het kleine wiel laten \\(6\\) maal \\(12\\), dus \\(72\\) tanden passeren. Het grote wiel is na \\(36\\) tanden rond, dus het draait \\(2\\) keer. Wie \\(18\\) kiest, heeft vermenigvuldigd in plaats van gedeeld: het grote wiel draait juist trager."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Op een fiets heeft het tandwiel bij de trappers \\(48\\) tanden en het tandwiel aan het achterwiel \\(16\\) tanden. Het achterwiel zit vast aan dat kleine tandwiel. Hoe vaak draait het achterwiel rond als je de trappers één keer rond draait? Antwoord met een getal.",
+          "antwoord": "3",
+          "uitleg": "Eén keer rondtrappen trekt \\(48\\) schakels van de ketting langs het kleine tandwiel. Dat is na \\(16\\) tanden rond, dus het draait \\(48\\) gedeeld door \\(16\\), of \\(3\\) keer. Groot drijft klein: het kleine wiel draait sneller."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De drijver van een tandwieloverbrenging heeft \\(50\\) tanden. Telkens als de drijver één keer rondgaat, draait de volger \\(5\\) keer. Hoeveel tanden heeft de volger?",
+          "opties": [
+            "\\(10\\) tanden",
+            "\\(250\\) tanden",
+            "\\(55\\) tanden",
+            "\\(45\\) tanden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eén toer van de drijver laat \\(50\\) tanden passeren, en daarmee gaat de volger \\(5\\) keer rond. Per toer zijn dat dus \\(50\\) gedeeld door \\(5\\), of \\(10\\) tanden. De volger draait sneller, dus hij moet kleiner zijn dan de drijver, en \\(250\\) kan niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Drie tandwielen staan op een rij: A grijpt in B, en B grijpt in C. A draait in wijzerzin. In welke zin draait C?",
+          "opties": [
+            "In wijzerzin, net als A",
+            "Tegen de wijzerzin in, net als B",
+            "C kan niet draaien, B blokkeert alles",
+            "Nu eens in wijzerzin, dan weer niet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee tandwielen die in elkaar grijpen, draaien tegengesteld. A in wijzerzin geeft B tegen de wijzerzin, en B keert het nog eens om, dus C draait weer in wijzerzin."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een tandwiel met \\(10\\) tanden dat een tandwiel met \\(40\\) tanden aandrijft, laat de volger trager maar krachtiger draaien.",
+          "antwoord": true,
+          "uitleg": "Klein drijft groot, dus de volger draait trager: vier keer trager zelfs, want hij heeft vier keer zoveel tanden. Wat je aan snelheid inlevert, win je aan kracht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een motorwiel draait in wijzerzin en drijft met een gekruiste riem wiel B aan. Wiel B is een tandwiel dat rechtstreeks in tandwiel C grijpt. In welke zin draait C?",
+          "opties": [
+            "In wijzerzin, net als de motor",
+            "Tegen de wijzerzin in, net als B",
+            "C staat stil, want de riem slipt",
+            "In wijzerzin, maar tegengesteld aan de motor"
+          ],
+          "antwoord": 0,
+          "uitleg": "De gekruiste riem keert de zin om: B draait tegen de wijzerzin in. B en C grijpen in elkaar en draaien dus weer tegengesteld: C draait in wijzerzin, dezelfde zin als de motor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bouwvakker hijst een emmer cement van \\(20\\) kg naar boven. Eerst gebruikt hij één katrol, daarna een stel van meerdere katrollen. Wat klopt er over het stel katrollen?",
+          "opties": [
+            "Hij heeft minder kracht nodig dan met één katrol",
+            "Het verandert alleen de richting van het touw",
+            "Hij heeft meer kracht nodig, want er is meer touw",
+            "Hij heeft precies even veel kracht nodig als eerst"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eén katrol verandert de richting van de kracht. Met meerdere katrollen samen hef je bovendien met minder kracht. Een stel katrollen doet dus meer dan alleen de richting van het touw veranderen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wilt een zware steen optillen met een lange houten stok die over een blok hout ligt. Het blok is het steunpunt, de steen ligt aan het korte eind. Waar duw je best?",
+          "opties": [
+            "Zo ver mogelijk van het blok, aan het andere eind",
+            "Zo dicht mogelijk bij het blok, vlak naast het steunpunt",
+            "Recht boven het blok, op het steunpunt zelf",
+            "Vlak naast de steen, zo dicht mogelijk bij de last"
+          ],
+          "antwoord": 0,
+          "uitleg": "De stok is een hefboom die om het steunpunt draait. Hoe verder van het steunpunt je duwt, hoe langer de arm en hoe minder kracht je nodig hebt. Op het steunpunt zelf duwen doet de stok helemaal niet draaien."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Hoe korter de arm waaraan je duwt bij een hefboom, hoe minder kracht je nodig hebt om dezelfde last op te tillen.",
+          "antwoord": false,
+          "uitleg": "Net omgekeerd. Een langere arm vraagt minder kracht; met een kortere arm moet je harder duwen om dezelfde last op te tillen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij welke van deze overbrengingen kan de volger doorslippen als de kracht te groot wordt? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een riem over twee wielen",
+            "Twee wrijvingswielen die elkaar raken",
+            "Een ketting over twee tandwielen",
+            "Twee tandwielen die in elkaar grijpen"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Wrijvingswielen en een riem houden alleen met wrijving vast, dus die kunnen slippen. Bij een ketting haken de schakels in de tanden, en tandwielen grijpen rechtstreeks in elkaar: daar kan niets doorglijden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze aandrijvingen zijn onrechtstreeks? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De ketting van een fiets",
+            "Een riem tussen een motor en een trommel",
+            "Een gekruiste riem tussen twee wielen",
+            "Een ketting tussen twee tandwielen van een brommer",
+            "Twee tandwielen in een handmixer die in elkaar grijpen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Bij elke riem en elke ketting raken de twee wielen elkaar niet: dat is onrechtstreeks, ook als de riem gekruist is. Alleen de tandwielen die rechtstreeks in elkaar grijpen, vormen een rechtstreekse aandrijving."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een fietser schakelt en merkt dat hij plots zwaarder moet trappen, maar bij elke trap verder komt. Wat heeft hij gedaan?",
+          "opties": [
+            "Hij wint snelheid, en dat kost hem meer kracht",
+            "Hij wint kracht, en dat kost hem wat snelheid",
+            "Hij wint kracht én snelheid tegelijk",
+            "Hij heeft naar een licht verzet geschakeld"
+          ],
+          "antwoord": 0,
+          "uitleg": "Verder komen per trap betekent dat het achterwiel sneller draait. Meer snelheid gaat ten koste van kracht, dus het trappen voelt zwaarder. Een licht verzet doet net het omgekeerde."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Met een slimme keuze van tandwielen kan de volger tegelijk sneller draaien én meer kracht leveren dan de drijver.",
+          "antwoord": false,
+          "uitleg": "Dat kan geen enkele overbrenging. Draait de volger sneller, dan levert hij minder kracht; draait hij trager, dan levert hij meer kracht. Je ruilt het ene in voor het andere."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De motor van een handmixer draait heel snel, maar de kloppers moeten trager en krachtiger draaien. Hoe zijn de tandwielen geplaatst?",
+          "opties": [
+            "Een klein tandwiel op de motor drijft een groot bij de kloppers aan",
+            "Een groot tandwiel op de motor drijft een klein bij de kloppers aan",
+            "Twee even grote tandwielen, zodat er niets aan de snelheid verandert",
+            "Een gekruiste riem tussen de motor en de kloppers, zonder tandwielen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een klein tandwiel dat een groot aandrijft, maakt de beweging trager, en trager betekent meer kracht. Groot op klein zou de kloppers nog sneller laten draaien. Een gekruiste riem keert alleen de zin om."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een groot tandwiel drijft een klein tandwiel aan. Is die overbrenging een versnelling of een vertraging? Antwoord met één woord.",
+          "antwoord": "versnelling",
+          "uitleg": "Groot drijft klein: het kleine wiel is met minder tanden al rond en draait dus sneller. Dat is een versnelling, en die levert minder kracht. Klein op groot zou een vertraging zijn."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Twee even grote wielen met een gekruiste riem draaien even snel, maar in tegengestelde zin.",
+          "antwoord": true,
+          "uitleg": "Even grote wielen draaien even snel, met of zonder kruising. Het kruisen van de riem verandert alleen de zin: de volger draait de andere kant op."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een tandwiel met \\(20\\) tanden drijft een tandwiel met \\(60\\) tanden aan. Het grote wiel moet \\(4\\) keer rondgaan. Hoe vaak moet het kleine wiel daarvoor rondgaan? Antwoord met een getal.",
+          "antwoord": "12",
+          "uitleg": "Vier toeren van het grote wiel zijn \\(4\\) maal \\(60\\), dus \\(240\\) tanden. Het kleine wiel is na \\(20\\) tanden rond, dus het moet \\(240\\) gedeeld door \\(20\\), of \\(12\\) keer draaien."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je ziet dat de volger trager draait dan de drijver, en dat de twee in tegengestelde zin draaien. Welke overbrenging is het?",
+          "opties": [
+            "Een klein tandwiel dat in een groot tandwiel grijpt",
+            "Een groot tandwiel dat in een klein tandwiel grijpt",
+            "Een gewone riem van een klein naar een groot wiel",
+            "Twee even grote tandwielen die in elkaar grijpen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tegengesteld draaien doen tandwielen die in elkaar grijpen; een gewone riem houdt dezelfde zin. Trager draaien betekent dat de volger het grootste wiel is. Dus een klein tandwiel dat een groot aandrijft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tandwiel A heeft \\(15\\) tanden en drijft tandwiel B met \\(45\\) tanden rechtstreeks aan. Welke uitspraken kloppen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "B draait drie keer trager dan A",
+            "B draait in de andere zin dan A",
+            "B kan meer kracht leveren dan A",
+            "B draait drie keer sneller dan A",
+            "A en B draaien in dezelfde zin"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "B heeft drie keer zoveel tanden, dus het draait drie keer trager, en trager betekent meer kracht. Omdat de twee rechtstreeks in elkaar grijpen, draaien ze tegengesteld."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee wielen staan een halve meter uit elkaar. De overbrenging tussen beide mag nooit slippen, ook niet bij een grote kracht. Welke kies je?",
+          "opties": [
+            "Een ketting over twee tandwielen",
+            "Een riem over twee gladde wielen",
+            "Twee tandwielen die in elkaar grijpen",
+            "Twee wrijvingswielen die elkaar raken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een halve meter overbrug je alleen onrechtstreeks, met een riem of een ketting, want rechtstreekse wielen moeten elkaar raken. Van die twee kan alleen de ketting niet slippen."
+        }
+      ]
+    },
+    {
+      "titel": "Biotechnische systemen — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je oma doet groenten in een glazen bokaal, sluit die goed af en verhit de gesloten bokaal. Zolang de bokaal dicht blijft, blijven de groenten maanden goed. Welke bewaartechniek gebruikt ze?",
+          "opties": [
+            "Wecken",
+            "Pekelen",
+            "Koelen",
+            "Fermenteren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voedsel in een gesloten pot verhitten heet wecken. Pekelen gebeurt in een zoute oplossing zonder verhitten, en bij fermenteren laat je juist micro-organismen het werk doen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je ontdooit kipfilet die drie maanden in de diepvries lag. Wat klopt er?",
+          "opties": [
+            "De bacteriën gaan weer groeien, dus de kip kan weer bederven",
+            "De vrieskou heeft alle bacteriën gedood, dus de kip blijft goed",
+            "Ontdooide kip kan niet meer bederven door de kou van daarvoor",
+            "Alleen de schimmels overleven het invriezen, de bacteriën niet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Invriezen legt de groei van bacteriën zo goed als stil, maar het doodt ze niet. Na het ontdooien gaan ze gewoon verder, dus ontdooid voedsel bederft weer zoals vers voedsel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een allergeen is een stof waar iedereen ziek van wordt als hij ze eet.",
+          "antwoord": false,
+          "uitleg": "Een allergeen is een stof waar sommige mensen op reageren. De meeste mensen eten ze zonder probleem; daarom moeten de allergenen apart op het etiket staan, voor wie er wel op reageert."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een pak koekjes staat 'ten minste houdbaar tot' de datum van gisteren. Op een pak gehakt staat 'te gebruiken tot' dezelfde datum. Wat doe je best?",
+          "opties": [
+            "De koekjes mag je nog eten, het gehakt eet je niet meer",
+            "Het gehakt mag je nog eten, de koekjes gooi je weg",
+            "Je gooit allebei weg, want de datum is voorbij",
+            "Je eet allebei op, want één dag te laat is niet erg"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Ten minste houdbaar tot' gaat over kwaliteit: de koekjes zijn misschien minder lekker, maar je mag ze nog eten. 'Te gebruiken tot' gaat over veiligheid: na die datum kan het gehakt onveilig zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze bewaartechnieken werken zonder koude en zonder warmte? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Drogen",
+            "Pekelen",
+            "Vacuüm verpakken",
+            "Fermenteren",
+            "Wecken"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Drogen haalt het water weg, pekelen gebruikt een zoute oplossing, vacuüm verpakken haalt de lucht eruit en bij fermenteren doen micro-organismen het werk. Bij wecken wordt de gesloten pot verhit, dus daar komt wel warmte aan te pas."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij welke van deze bewerkingen laat je micro-organismen met opzet hun werk doen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Zuurkool maken",
+            "Brooddeeg laten rijzen",
+            "Melk pasteuriseren",
+            "Vlees invriezen",
+            "Fruit drogen"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Bij zuurkool fermenteren bacteriën de kool, en bij brooddeeg doet gist het werk. Pasteuriseren, invriezen en drogen doen net het omgekeerde: die moeten de micro-organismen tegenhouden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraak over koelen en invriezen klopt?",
+          "opties": [
+            "In de diepvries ligt de groei van bacteriën zo goed als stil",
+            "In de koelkast ligt de groei van bacteriën helemaal stil",
+            "Koelen en invriezen doden allebei de bacteriën in het voedsel",
+            "Koelen legt de groei stil, invriezen remt ze alleen een beetje af"
+          ],
+          "antwoord": 0,
+          "uitleg": "Koelen remt de groei af, invriezen legt ze zo goed als stil. Geen van beide doodt de bacteriën. Wie de twee verwisselt, denkt dat de koelkast meer doet dan de diepvries."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een gesloten pak UHT-melk hoeft niet in de koelkast, maar een geopend pak wel.",
+          "antwoord": true,
+          "uitleg": "UHT-melk is heel kort heel sterk verhit en blijft daardoor maanden goed zonder koelkast. Dat geldt wel maar tot je het pak opent: daarna gaat het in de koelkast."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een meisje met een notenallergie wil een koek kopen. Waar op de verpakking kijkt ze best?",
+          "opties": [
+            "Bij de allergenen en in de ingrediëntenlijst",
+            "Bij de voedingswaarde en de hoeveelheid energie",
+            "Bij de houdbaarheidsdatum op de achterkant",
+            "Bij het pictogram met een glas en een vork"
+          ],
+          "antwoord": 0,
+          "uitleg": "De ingrediëntenlijst somt alle bestanddelen op, en de allergenen moeten apart vermeld zijn. De voedingswaarde zegt hoeveel energie en stoffen erin zitten, niet of er noten in zitten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een plastic bakje staat het Groenpuntlogo. Wat mag je daaruit besluiten?",
+          "opties": [
+            "Het bedrijf betaalt mee voor de inzameling en verwerking",
+            "Het bakje is van gerecycleerd materiaal gemaakt",
+            "Het bakje is van een materiaal dat veilig is voor voedsel",
+            "Het bakje mag niet bij het huisvuil, je levert het apart in"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het Groenpuntlogo zegt dat het bedrijf meebetaalt voor de inzameling en verwerking van verpakkingen. Het zegt niet dat de verpakking van gerecycleerd materiaal is; dat is net de misvatting."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je zoekt een bakje voor je boterhammen dat je daarna ook kunt laten recycleren. Welke pictogrammen wil je daarvoor op het bakje zien? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een glas en een vork",
+            "Pijlen die een driehoek vormen",
+            "Het Groenpuntlogo",
+            "Een doorstreepte vuilnisbak"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Het glas en de vork zeggen dat het materiaal veilig is voor voedsel, en de driehoek van pijlen dat de verpakking recycleerbaar is. Het Groenpuntlogo gaat over wie meebetaalt, en de doorstreepte vuilnisbak zegt alleen dat iets niet bij het huisvuil mag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een winkel twijfelt tussen glazen en plastic flessen voor water. Welke uitspraken kloppen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Plastic weegt minder, dus het vervoer kost minder",
+            "Plastic flessen geven meer afval in het milieu",
+            "Een fles met statiegeld breng je terug naar de winkel",
+            "Plastic is in alle opzichten beter voor het milieu",
+            "Glazen flessen zijn lichter om te vervoeren"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Plastic is lichter en dus goedkoper te vervoeren, maar het geeft meer afval in het milieu. Je moet dus afwegen; geen van beide is in alle opzichten beter."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Zuurkool is tegelijk een product van micro-organismen en een manier om kool langer te bewaren.",
+          "antwoord": true,
+          "uitleg": "Bacteriën fermenteren de kool tot zuurkool, en fermenteren is meteen ook een bewaartechniek. De micro-organismen doen het werk en maken het product tegelijk langer houdbaar."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een bakje met het pictogram van een glas en een vork is daardoor ook recycleerbaar.",
+          "antwoord": false,
+          "uitleg": "Het glas en de vork zeggen alleen dat het materiaal veilig is voor voedsel. Of het recycleerbaar is, zegt een ander pictogram: de pijlen die een driehoek vormen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Op een beker yoghurt staat bij de voedingswaarde: \\(5\\) gram suiker per \\(100\\) gram. De beker bevat \\(300\\) gram yoghurt. Hoeveel gram suiker zit er in de hele beker? Antwoord met een getal.",
+          "antwoord": "15",
+          "uitleg": "In de beker zit drie keer \\(100\\) gram yoghurt. Dan zit er ook drie keer zoveel suiker in: \\(3\\) maal \\(5\\) gram is \\(15\\) gram. Met de voedingswaarde kun je zo uitrekenen wat je echt binnenkrijgt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een fabrikant verhit melk heel kort heel sterk, zodat een gesloten pak maanden goed blijft zonder koelkast. Welke drie letters staan dan op het pak? Antwoord met één woord.",
+          "antwoord": "UHT",
+          "uitleg": "UHT betekent dat de melk heel kort heel sterk verhit is. Gewoon pasteuriseren verhit tot onder het kookpunt; zo'n melk blijft niet maanden goed buiten de koelkast."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een inspecteur komt onaangekondigd de keuken van een frituur controleren op voedselveiligheid. Voor welke instelling werkt hij? Geef de afkorting.",
+          "antwoord": "FAVV",
+          "uitleg": "Het FAVV waakt over de veiligheid van ons voedsel en controleert daarvoor winkels, restaurants en voedingsbedrijven. Een frituur hoort daar ook bij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bakker merkt dat zijn brooddeeg helemaal niet gerezen is. Wat is hij waarschijnlijk vergeten toe te voegen?",
+          "opties": [
+            "Gist",
+            "Schimmel",
+            "Melkzuurbacteriën",
+            "Een zoute pekel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gist is het micro-organisme dat brooddeeg doet rijzen. Bacteriën zorgen voor yoghurt en zuurkool, niet voor gerezen deeg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Eieren worden verkocht in een kartonnen doos met een apart vakje voor elk ei. Welke taak van een verpakking staat daar vooral voorop?",
+          "opties": [
+            "Het product beschermen bij het vervoer",
+            "Het product langer houdbaar maken door koude",
+            "De klant informeren over de allergenen in het ei",
+            "Het product laten fermenteren tijdens het vervoer"
+          ],
+          "antwoord": 0,
+          "uitleg": "De vakjes houden de eieren apart, zodat ze niet tegen elkaar botsen en breken onderweg. Een kartonnen doos koelt niet, en informatie geven doet het etiket."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke manier van boodschappen doen is het duurzaamst?",
+          "opties": [
+            "Kopen wat je echt nodig hebt, in herbruikbare zakken",
+            "Elke koek apart verpakt kopen, dat is netter en hygiënischer",
+            "Veel meer kopen dan nodig, dan hoef je minder vaak te gaan",
+            "Alles in plastic kopen, want plastic is lichter om te dragen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kopen wat je echt nodig hebt en herbruikbare verpakkingen gebruiken zijn twee manieren om duurzaam met voedsel en verpakkingen om te gaan. Alles apart verpakken of te veel kopen levert juist extra afval op."
+        }
+      ]
+    },
+    {
+      "titel": "Het technisch proces — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij de test van een vogelhuisje regent het binnen. Het ontwerp was goed, maar bij het in elkaar zetten werd de lijmnaad van het dak slordig gezet. Naar welke fase keer je terug?",
+          "opties": [
+            "Naar fase \\(3\\), want de uitvoering liep fout",
+            "Naar fase \\(1\\), want de behoefte moet opnieuw onderzocht worden",
+            "Naar fase \\(2\\), want elke fout begint altijd bij het ontwerp",
+            "Naar fase \\(4\\), want je moet het gewoon nog een keer testen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De fout zit in het maken, niet in de tekening, dus keer je terug naar fase \\(3\\). Terug naar fase \\(1\\) is niet nodig: de behoefte en de criteria staan al vast."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een pennenbak uit dun karton zakt in elkaar als je er een schaar en een lat in zet. Hij is precies gemaakt volgens de tekening en met het gekozen materiaal. Waar zat de fout?",
+          "opties": [
+            "In het ontwerp, dus je keert terug naar fase \\(2\\)",
+            "In het maken, dus je keert terug naar fase \\(3\\)",
+            "In de behoefte, dus je keert terug naar fase \\(1\\)",
+            "Nergens: je past het criterium aan het resultaat aan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het materiaal kies je in de ontwerpfase. Werd alles netjes volgens de tekening gemaakt, dan lag het niet aan het maken maar aan de keuze in fase \\(2\\). Een criterium aanpassen aan het resultaat doe je nooit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je ontwerpt een fietslicht. Welke zinnen zijn echte criteria voor dat fietslicht (meerdere antwoorden mogelijk)?",
+          "opties": [
+            "Het fietslicht moet tegen regen kunnen",
+            "Het fietslicht mag niet meer dan een kilo wegen",
+            "We zagen de stukken van de behuizing met een figuurzaag",
+            "We beginnen er volgende maandag in de klas aan",
+            "We maken eerst een schets op ruitjespapier"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Een criterium is een eis waaraan het systeem zelf moet voldoen. Met welk gereedschap je werkt, wanneer je begint of hoe je schetst, zegt iets over je werkwijze en niet over wat het fietslicht moet kunnen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een klas maakt een fietsenrek voor de school. A: een ontwerptekening maken. B: klasgenoten vragen hoeveel fietsen erin moeten. C: het rek uitproberen met echte fietsen. D: de buizen op maat zagen. Welke volgorde klopt?",
+          "opties": [
+            "B - A - D - C",
+            "A - B - D - C",
+            "B - D - A - C",
+            "B - A - C - D"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst onderzoek je de behoefte (B, fase \\(1\\)), dan ontwerp je (A, fase \\(2\\)), dan maak je (D, fase \\(3\\)) en pas dan test je (C, fase \\(4\\)). Wie eerst tekent en pas daarna vraagt wat nodig is, tekent misschien iets wat niemand vroeg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het criterium was dat het fietsenrek \\(10\\) fietsen houdt, maar er passen er maar \\(6\\) in. Een leerling zegt: 'We veranderen het criterium in \\(6\\), dan is het in orde.' Wat is daar fout aan?",
+          "opties": [
+            "Criteria liggen vast voor je maakt; je stuurt het rek bij",
+            "Niets, criteria mag je achteraf altijd vrij aanpassen",
+            "Je moet het criterium dan op \\(8\\) zetten, als compromis tussen beide",
+            "Je moet helemaal opnieuw beginnen bij het behoefteonderzoek in fase \\(1\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Criteria leg je vast in fase \\(1\\), vóór het maken, en ze komen uit wat de gebruikers nodig hebben. Voldoet het rek niet, dan pas je het ontwerp of de uitvoering aan, niet de eis."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een systeem dat bij de eerste test niet aan alle criteria voldoet, bewijst dat het technisch proces slecht gevolgd werd.",
+          "antwoord": false,
+          "uitleg": "Evalueren en bijsturen is zelf een fase van het proces. Dat je na een test iets moet aanpassen, is dus net een teken dat je het proces goed volgt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wie zonder criteria aan een werkstuk begint, kan bij de evaluatie niet eerlijk beoordelen of het gelukt is.",
+          "antwoord": true,
+          "uitleg": "In fase \\(5\\) leg je het resultaat naast de criteria van fase \\(1\\). Zijn er geen criteria, dan heb je niets om het resultaat mee te vergelijken."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een groep merkt bij de evaluatie dat hun ontwerp niet klopt. Ze keren terug naar de juiste fase en doorlopen vanaf daar opnieuw alle fasen tot en met de evaluatie. Hoeveel fasen doorlopen ze opnieuw, de fase waarnaar ze terugkeren meegeteld? Antwoord met een getal.",
+          "antwoord": "4",
+          "uitleg": "Klopt het ontwerp niet, dan keer je terug naar fase \\(2\\). Daarna volgen fase \\(2\\), \\(3\\), \\(4\\) en \\(5\\): vier fasen. Wie vijf antwoordt, ging ten onrechte terug naar fase \\(1\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je maakt een plantenbak voor je oma. Je meet hoe breed haar vensterbank is en vraagt hoeveel plantjes erin moeten. In welke fase zit je?",
+          "opties": [
+            "In de fase waarin je het probleem en de behoefte onderzoekt",
+            "In de fase waarin je het systeem ontwerpt en tekent",
+            "In de fase waarin je het systeem in gebruik neemt en test",
+            "In de fase waarin je evalueert en bijstuurt waar nodig"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je zoekt uit wat oma echt nodig heeft en welke eisen er gelden: dat is het behoefteonderzoek van de eerste fase. Meten lijkt op ontwerpen, maar je tekent hier nog niets."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je twijfelt of je de zijkanten van een plantenbak zult schroeven of lijmen, en je beslist het op papier. In welke fase van het technisch proces zit je?",
+          "opties": [
+            "In de ontwerpfase",
+            "In de maakfase met het gereedschap",
+            "In de fase van het behoefteonderzoek",
+            "In de fase van het testen in gebruik"
+          ],
+          "antwoord": 0,
+          "uitleg": "Welke verbindingstechniek je gebruikt, bepaal je in de ontwerpfase. In de maakfase voer je die keuze pas uit: dan schroef of lijm je echt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een groep maakt een nachtlampje dat vanzelf aangaat als het donker wordt. Welke beslissingen horen in de ontwerpfase (meerdere antwoorden mogelijk)?",
+          "opties": [
+            "Welke sensor het donker zal meten",
+            "Uit welk materiaal de kap gemaakt wordt",
+            "Of de kap geschroefd of gelijmd wordt",
+            "Of het lampje echt aangaat in een donkere kamer",
+            "Hoe je tijdens het zagen veilig met de figuurzaag werkt"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Sensoren, materiaal en verbindingen kies je in de ontwerpfase. Nagaan of het lampje echt aangaat is testen in fase \\(4\\), en veilig werken met gereedschap licht je toe in de maakfase."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over het technisch proces kloppen (meerdere antwoorden mogelijk)?",
+          "opties": [
+            "Het begint bij een behoefte of een probleem",
+            "Je kan het ook voor een transportsysteem gebruiken",
+            "De criteria leg je vast voor je iets maakt",
+            "Het stappenplan stel je op voor je begint te maken",
+            "Voldoet het systeem niet, dan begin je terug bij fase \\(1\\)"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Beginnen bij een behoefte, het proces gebruiken voor elk systeem, en criteria en stappenplan vastleggen vóór het maken: dat klopt allemaal. Terugkeren naar fase \\(1\\) is de bekende fout: je keert terug naar fase \\(2\\) of \\(3\\), want het probleem en de criteria staan al vast."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tijdens de coronacrisis werkten de STEM-disciplines samen. Welke koppeling tussen een discipline en een taak klopt NIET?",
+          "opties": [
+            "Wiskunde: het vaccin koel houden tijdens het vervoer",
+            "Wetenschappen: het vaccin zelf ontwikkelen",
+            "Wiskunde: de verspreiding van het virus in kaart brengen",
+            "Technologie: het vaccin koel houden en vervoeren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het vaccin koel houden en vervoeren vroeg technologische kennis. Wiskunde was nodig om de verspreiding van het virus te volgen; die twee taken haal je makkelijk door elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Leerlingen klagen: 'Het fietsenrek van de school is slecht.' Wat doe je als allereerste stap van probleemoplossend ontwerpen?",
+          "opties": [
+            "Duidelijk omschrijven wat er precies mis is",
+            "Meteen een groter en steviger rek gaan tekenen",
+            "Het probleem opsplitsen in kleinere deelproblemen",
+            "Het materiaal voor een nieuw rek al bestellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Slecht' is geen duidelijk probleem: is het te klein, te zwak of passen de banden niet? Pas als je dat weet, kan je criteria opstellen en opsplitsen. Meteen tekenen lost misschien het verkeerde probleem op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Brede fietsbanden passen niet in het fietsenrek omdat de gleuven te smal zijn. Het rek is verder stevig en groot genoeg. Welke aanpak past hier het best?",
+          "opties": [
+            "De gleuven van het bestaande rek verbreden",
+            "Een volledig nieuw rek ontwerpen, van nul af",
+            "Het criterium aanpassen zodat smalle gleuven volstaan",
+            "Niets doen, want het rek is stevig genoeg voor gewone fietsen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Soms volstaat het een bestaand systeem aan te passen in plaats van een nieuw te ontwerpen. Hier is alleen de breedte van de gleuven het probleem, dus is een helemaal nieuw rek overbodig werk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een groep bouwt een robotje dat rijdt, piept en licht geeft. Elk lid werkt apart aan één onderdeel, maar op het einde passen de onderdelen niet op elkaar. Welke stap van probleemoplossend ontwerpen liep mis?",
+          "opties": [
+            "De oplossingen samenvoegen tot één totaaloplossing",
+            "Het probleem opsplitsen in kleinere deelproblemen",
+            "De criteria opstellen voordat er iets gemaakt wordt",
+            "Het probleem helemaal in het begin duidelijk bepalen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het opsplitsen is net gelukt: elk deel werkt apart. Wat ontbreekt, is het integreren: de deeloplossingen moeten samen het hele probleem oplossen en dus op elkaar passen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een behoefteonderzoek voor een speelgoedauto voor je kleine broer doe je het best door zelf te bedenken wat jij het leukst zou vinden.",
+          "antwoord": false,
+          "uitleg": "Een behoefteonderzoek gaat na wat de gebruiker echt nodig heeft, niet wat jij leuk vindt. Hier is je broer de gebruiker, dus moet je bij hem nagaan wat hij nodig heeft."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In fase \\(4\\) kijk je of het systeem werkt in gebruik; pas in fase \\(5\\) leg je het resultaat naast de criteria.",
+          "antwoord": true,
+          "uitleg": "Testen en evalueren zijn twee aparte fasen. Eerst probeer je het systeem uit, daarna beoordeel je of het voldoet aan de eisen uit fase \\(1\\) en stuur je bij."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een leerling schilderde haar werkstuk eerst en boorde er pas daarna de gaten in, waardoor de verf beschadigd raakte. Welk plan, dat je vóór het maken opstelt, had dat moeten voorkomen? Antwoord met één woord.",
+          "antwoord": "stappenplan",
+          "uitleg": "Een stappenplan maak je vóór je begint, zodat je weet in welke volgorde je moet werken. Dan had boren vóór schilderen gestaan."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een pennenzak blijkt bij de test lek, terwijl er als eis stond: 'Hij moet tegen water kunnen.' In welke fase werd die eis vastgelegd? Antwoord met een getal.",
+          "antwoord": "1",
+          "uitleg": "'Moet tegen water kunnen' is een criterium, en criteria leg je vast in fase \\(1\\). Bij de evaluatie in fase \\(5\\) controleer je ze alleen."
+        }
+      ]
+    },
+    {
+      "titel": "Algoritmen en computationeel denken — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "In een flowchart staat de stap 'Vraag de gebruiker om een getal'. In welke vorm teken je die stap?",
+          "opties": [
+            "In een parallellogram",
+            "In een rechthoek, want het is een instructie",
+            "In een ruit, want er wordt iets gevraagd",
+            "In een afgeronde rechthoek"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een getal vragen is invoer, en invoer of uitvoer teken je in een parallellogram. Een ruit is voor een keuze met ja of nee, niet voor elke zin met 'vraag' erin."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Volg deze flowchart. Start. Invoer: de temperatuur in de klas. Ruit: is het kouder dan \\(18\\) graden? Bij ja: toon 'verwarming aan' en einde. Bij nee volgt een tweede ruit: is het warmer dan \\(25\\) graden? Bij ja: toon 'raam open'. Bij nee: toon 'niets doen'. Einde. Wat wordt er getoond bij \\(22\\) graden?",
+          "opties": [
+            "Niets doen",
+            "Verwarming aan",
+            "Raam open",
+            "Eerst verwarming aan en daarna raam open"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij de eerste ruit is het antwoord nee, want 22 graden is niet kouder dan 18. Bij de tweede ruit is het ook nee, want 22 is niet warmer dan 25. Je volgt telkens één pijl, dus er kan maar één uitvoer verschijnen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een groep maakt een spel. Ze verdelen het werk in de beweging, de punten en het geluid. Bij het plannen laten ze de kleur van de figuurtjes nog buiten beschouwing. Daarna schrijven ze voor elk deel de stappen in een vaste volgorde. Welk principe van computationeel denken gebruiken ze in dit verhaal NIET?",
+          "opties": [
+            "Patroonherkenning",
+            "Decompositie",
+            "Abstractie",
+            "Het algoritme"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het werk verdelen is decompositie, de kleur weglaten is abstractie, en stappen in een vaste volgorde schrijven is het algoritme zelf. Nergens zoeken ze gelijkenissen met een probleem dat ze al kennen, dus patroonherkenning ontbreekt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je maakt een quiz in Scratch. Je merkt dat elke vraag op dezelfde manier werkt: vraag stellen, antwoord vergelijken, punt geven. Daarom schrijf je dat één keer en gebruik je het voor alle twintig vragen. Welk principe pas je toe?",
+          "opties": [
+            "Patroonherkenning",
+            "Decompositie van het spel",
+            "Abstractie van de vragen",
+            "Debuggen van de quiz"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je ziet een gelijkenis tussen de twintig vragen en hergebruikt dezelfde oplossing: dat is patroonherkenning. Bij decompositie zou je de quiz juist in verschillende soorten delen opsplitsen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling zegt: 'Abstractie en decompositie zijn eigenlijk hetzelfde, want bij allebei hou je minder over.' Wat is er fout aan die redenering?",
+          "opties": [
+            "Bij decompositie laat je niets weg, je verdeelt alleen",
+            "Niets, de twee woorden betekenen hetzelfde",
+            "Bij abstractie voeg je net extra details toe aan het probleem",
+            "Bij decompositie zoek je gelijkenissen met eerdere problemen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Abstractie laat details weg die er niet toe doen. Decompositie splitst het probleem op in kleinere delen, maar alle delen blijven nodig. Gelijkenissen zoeken is weer een derde principe: patroonherkenning."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je ontwerpt een algoritme dat nagaat of een getal een priemgetal is. Welke IPO-analyse klopt?",
+          "opties": [
+            "Input: het getal; output: ja of nee",
+            "Input: ja of nee; output: het getal",
+            "Input: het controleren; output: het getal zelf",
+            "Input: het getal; output: het controleren ervan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wat erin gaat, is het getal. Wat eruit moet komen, is het antwoord: ja, het is een priemgetal, of nee. Het controleren zelf is het process, de P in het midden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn digitale algoritmen (meerdere antwoorden mogelijk)?",
+          "opties": [
+            "Een programma dat getallen van klein naar groot sorteert",
+            "Een programma dat een lampje laat flikkeren",
+            "Een recept dat je oma je voorleest uit een kookboek",
+            "Een handleiding op papier om een kast in elkaar te zetten",
+            "Een stappenplan op een briefje om je fiets te poetsen"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Alle vijf zijn algoritmen, maar alleen de programma's worden door een computer uitgevoerd. Een recept, een handleiding of een stappenplan voer je zelf uit: dat zijn niet-digitale algoritmen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een programma moet een rechthoek tekenen, maar er verschijnt een rare figuur. Welke aanpakken helpen om de bug te vinden (meerdere antwoorden mogelijk)?",
+          "opties": [
+            "Het programma stap voor stap uitvoeren en kijken waar het afwijkt",
+            "Vergelijken wat je verwachtte met wat er echt gebeurt",
+            "Nagaan of een stap ontbreekt of in de verkeerde volgorde staat",
+            "Het programma helemaal wissen en aan iets anders beginnen",
+            "Alleen naar de code kijken, zonder ze ooit uit te voeren"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Debuggen is de fout opsporen en oplossen. Vaak zie je ze pas door het algoritme uit te voeren en te vergelijken met wat je verwachtte. Alles wissen lost niets op, en alleen kijken is vaak niet genoeg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een algoritme om een boterham met choco te smeren staat de stap 'Smeer choco op de boterham'. Welke stappen moeten daar zeker vóór komen (meerdere antwoorden mogelijk)?",
+          "opties": [
+            "Haal een boterham uit de zak",
+            "Leg de boterham op je bord",
+            "Open de chocopot",
+            "Neem een mes",
+            "Eet de boterham op"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Zonder boterham, zonder open pot of zonder mes kan je niet smeren: die stappen moeten ervoor staan. Opeten komt pas daarna. Daarom ligt de volgorde in een algoritme vast."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een stappenplan om thee te zetten luidt: 1. Zet de waterkoker aan. 2. Vul de waterkoker met water. 3. Giet het water in de tas. Wat is de bug?",
+          "opties": [
+            "Stap \\(1\\) en stap \\(2\\) staan in de verkeerde volgorde",
+            "Er ontbreekt een ruit om een keuze te maken",
+            "Een stappenplan zonder computer kan geen bug bevatten",
+            "Stap \\(3\\) hoort helemaal vooraan te staan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je zet de waterkoker pas aan als er water in zit. Alle stappen zijn er, maar de volgorde klopt niet, en in een algoritme ligt de volgorde vast. Ook een niet-digitaal algoritme kan zo'n fout hebben."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lotte schrijft meteen een Scratch-programma voor een rekenmachine, zonder eerst na te gaan welke getallen erin gaan en wat eruit moet komen. Welke ontwerpstap sloeg ze over?",
+          "opties": [
+            "Het analyseren met IPO",
+            "Het testen en bijsturen achteraf",
+            "Het vertalen van het algoritme in Scratch",
+            "Het tekenen van een metrokaart van het probleem"
+          ],
+          "antwoord": 0,
+          "uitleg": "Nagaan wat erin gaat en wat eruit moet komen, is de IPO-analyse. Vertalen in Scratch deed ze wel, en testen komt pas op het einde. Zonder IPO weet ze straks niet eens wanneer het resultaat juist is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een flowchart staat 'Is de deur open?' in een rechthoek met maar één pijl eruit. Wat is er fout?",
+          "opties": [
+            "Een keuze hoort in een ruit, met een pijl voor ja en een voor nee",
+            "Een vraag hoort in een afgeronde rechthoek, want daar begint alles",
+            "Er is niets fout, want elke stap in een flowchart is een rechthoek",
+            "Een vraag hoort in een parallellogram, want het is altijd uitvoer"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Is de deur open?' is een keuze met ja of nee, en een keuze teken je in een ruit. Uit die ruit vertrekken twee pijlen, één voor elk antwoord. Een rechthoek is voor een gewone bewerking of instructie."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een algoritme met meer stappen dat hetzelfde resultaat geeft, is efficiënter omdat het grondiger werkt.",
+          "antwoord": false,
+          "uitleg": "Efficiënt betekent juist zo weinig mogelijk stappen. Bij dezelfde uitkomst is het kortere algoritme beter, omdat er minder fouten in kunnen sluipen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een flowchart op papier en een programma in Scratch kunnen hetzelfde algoritme voorstellen.",
+          "antwoord": true,
+          "uitleg": "Met een flowchart stel je de oplossing visueel voor, en daarna vertaal je hetzelfde algoritme in Scratch. Het stappenplan blijft hetzelfde, alleen de vorm verschilt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een flowchart duidt een parallellogram een keuze aan waarbij je ja of nee volgt.",
+          "antwoord": false,
+          "uitleg": "Een parallellogram is voor invoer of uitvoer. Een keuze met ja of nee teken je in een ruit."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je kan een probleem eerst met decompositie opsplitsen en daarna bij twee deelproblemen die op elkaar lijken patroonherkenning gebruiken.",
+          "antwoord": true,
+          "uitleg": "De principes van computationeel denken werken samen. Eerst knip je het probleem in delen, en lijken twee delen op elkaar, dan hergebruik je de oplossing van het ene voor het andere."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Volg deze flowchart. Start. Invoer: een getal. Ruit: is het getal groter dan 10? Bij ja: trek er 10 van af. Bij nee: tel er 5 bij op. Uitvoer: toon het getal. Einde. Welk getal wordt getoond als de invoer 10 is? Antwoord met een getal.",
+          "antwoord": "15",
+          "uitleg": "10 is niet groter dan 10, dus volg je de pijl bij nee en tel je er 5 bij op: 15. Wie 0 antwoordt, las 'groter dan' als 'groter dan of gelijk aan'."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een algoritme sorteert getallen van klein naar groot. De input is 8, 3 en 5. Welk getal staat als tweede in de output? Antwoord met een getal.",
+          "antwoord": "5",
+          "uitleg": "De output is 3, 5, 8. Wie gewoon het tweede getal van de input neemt, antwoordt 3, maar dat is de volgorde vóór het sorteren."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een stappenplan om je klaar te maken luidt: 1. Doe je schoenen aan. 2. Trek je sokken aan. 3. Strik je veters. Het resultaat klopt niet. Welke stap moet als eerste komen? Antwoord met een getal.",
+          "antwoord": "2",
+          "uitleg": "Sokken moeten aan vóór je schoenen, dus stap 2 hoort vooraan. Alle stappen zijn er, alleen de volgorde is fout: zo'n bug vind je door het stappenplan in gedachten uit te voeren."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je legt in een stappenplan de weg naar het station uit en laat de merken van de geparkeerde auto's onderweg weg. Welk principe van computationeel denken gebruik je? Antwoord met één woord.",
+          "antwoord": "abstractie",
+          "uitleg": "Je laat details weg die niet helpen om er te geraken: dat is abstractie. Decompositie zou betekenen dat je de route in stukken opsplitst."
+        }
+      ]
+    }
+  ]
+}
