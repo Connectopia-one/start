@@ -45,6 +45,47 @@ export default async function SteunPagina() {
         </div>
       </Sectie>
 
+      {/* Wat er met je steun gebeurt, in echte foto's uit de werking. */}
+      <Sectie className="py-4">
+        <ul className="grid grid-cols-3 gap-3 sm:gap-4">
+          {[
+            {
+              bestand: "het-knutselmagazijn.jpg",
+              beschrijving:
+                "Rekken vol doorzichtige bakken met knutselmateriaal, elk met een etiket.",
+              bijschrift:
+                "Ons knutselmagazijn: alles in een bak, met een etiket erop.",
+            },
+            {
+              bestand: "bruggen-van-karton.jpg",
+              beschrijving: "Drie kinderen bouwen bruggen van karton.",
+              bijschrift: "Bruggen bouwen met karton, kokers en bekers.",
+            },
+            {
+              bestand: "flessenraket-vullen.jpg",
+              beschrijving:
+                "Kinderen en een begeleider vullen een zelfgemaakte flessenraket.",
+              bijschrift: "Een flessenraket vullen, met veel geduld.",
+            },
+          ].map((foto) => (
+            <li key={foto.bestand}>
+              <figure>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={`/kijkje/${foto.bestand}`}
+                  alt={foto.beschrijving}
+                  loading="lazy"
+                  className="aspect-square w-full rounded-2xl object-cover"
+                />
+                <figcaption className="mt-1.5 text-[12.5px] leading-snug text-ink-dim sm:text-[14px]">
+                  {foto.bijschrift}
+                </figcaption>
+              </figure>
+            </li>
+          ))}
+        </ul>
+      </Sectie>
+
       {/* Waar het geld naartoe gaat, en hoe je een gift doet. */}
       <Sectie className="py-4">
         <div className="rounded-[20px] bg-orange-soft px-6 py-5">
@@ -129,7 +170,9 @@ export default async function SteunPagina() {
         </Kaart>
 
         <Kaart>
-          <h2 className="text-xl text-green">Liever gewoon bellen of mailen?</h2>
+          <h2 className="text-xl text-green">
+            Liever gewoon bellen of mailen?
+          </h2>
           <p className="mt-2 text-[16px] text-ink-dim">
             Mail ons op{" "}
             <a
