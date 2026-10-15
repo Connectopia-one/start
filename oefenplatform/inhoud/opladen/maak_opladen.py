@@ -276,6 +276,53 @@ SAMEN = """<p>Alle vragen van een ronde samen zijn te veel tekst voor één pagi
 
 PAGINAS = [
     dict(
+        bestand="opladen-meldingen-15-oktober.html",
+        titel="Plakpagina — de meldingen van 15 oktober",
+        sleutel="connectopia-plakpagina-meldingen-15-oktober",
+        voet="Bijgewerkt op 15 oktober 2026",
+        intro="""<p>Drie meldingen uit het oefenplatform zijn rechtgezet. Twee kleine
+      bestanden volstaan: ze bevatten enkel de hoofdstukken waarin iets veranderde, dus
+      je hoeft geen heel vak opnieuw in te laden.</p>
+      <p><strong>Eén.</strong> De Tweede Wereldoorlog stond bij 🚀 Boost in de
+      hedendaagse tijd. Dat klopt niet: de moderne tijd loopt tot 1945 en pas daarna
+      begint de hedendaagse tijd. De leerbundel van Boost zei 1914, terwijl ✨ Spark en
+      🌍 Beyond overal 1945 aanhouden. Alles staat nu op 1945.</p>
+      <p><strong>Twee.</strong> In De prehistorie (✨ Spark) stonden Homo sapiens en
+      Homo erectus met een kleine letter, terwijl natuurwetenschappen ze wel met een
+      hoofdletter schrijft.</p>
+      <p><strong>Drie.</strong> Vijf uitlegteksten bij filosofie en recht toonden een
+      opmaakteken als gewone tekst op het scherm. Dat teken is weg.</p>
+      <p>De codetaal onder de tekeningen van de tocht is ook hersteld, maar daar hoef je
+      niets voor te doen: dat zat in het platform zelf en staat al online.</p>""",
+        secties=[
+            dict(
+                kop="Twee kleine bestanden",
+                uitleg="Elk hoofdstuk draagt zijn categorie zelf mee, dus je kiest enkel "
+                       "het vak. " + WEG % "de categorie maakt hier niet uit",
+                kaarten=vraagkaarten([
+                    (
+                        "herstel-geschiedenis",
+                        "Geschiedenis",
+                        "✨ Spark en 🚀 Boost, drie hoofdstukken",
+                        "herstel",
+                        "geschiedenis-herstel",
+                        "Hierin zitten De prehistorie — deel 1 van ✨ Spark en Het "
+                        "historisch referentiekader — deel 1 van allebei de "
+                        "Boost-richtingen. De rest van het vak blijft zoals het is.",
+                    ),
+                    (
+                        "herstel-filosofie",
+                        "Filosofie en recht",
+                        "🌍 Beyond doorstroom, drie hoofdstukken",
+                        "herstel",
+                        "filosofie-en-recht-herstel",
+                        "Enkel de drie hoofdstukken waarin een uitlegtekst veranderde.",
+                    ),
+                ]),
+            ),
+        ],
+    ),
+    dict(
         bestand="opladen-inhoudsronde.html",
         titel="Plakpagina inhoudsronde — 🌍 Beyond",
         sleutel="connectopia-plakpagina-inhoudsronde-beyond",
