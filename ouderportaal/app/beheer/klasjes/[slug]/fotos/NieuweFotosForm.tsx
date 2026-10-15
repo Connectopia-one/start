@@ -3,6 +3,7 @@
 import { useState, type FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
+import { maakWebgeschikt } from "@/lib/beeldOmzetten";
 import { maakFotoUploadUrl, registreerFoto } from "./actions";
 
 export function NieuweFotosForm({ klasjeId, slug }: { klasjeId: string; slug: string }) {
@@ -31,8 +32,8 @@ export function NieuweFotosForm({ klasjeId, slug }: { klasjeId: string; slug: st
 
     try {
       for (let i = 0; i < bestanden.length; i++) {
-        const bestand = bestanden[i];
         setVoortgang(`Bezig met foto ${i + 1} van ${bestanden.length}…`);
+        const bestand = await maakWebgeschikt(bestanden[i]);
 
         const { path, token } = await maakFotoUploadUrl(klasjeId, bestand.name);
         const { error: uploadError } = await supabase.storage.from("fotos").uploadToSignedUrl(path, token, bestand);
@@ -63,7 +64,7 @@ export function NieuweFotosForm({ klasjeId, slug }: { klasjeId: string; slug: st
         <label htmlFor="bestanden" className="text-sm font-medium text-ink">
           Foto&apos;s (je kan er meerdere tegelijk kiezen)
         </label>
-        <input id="bestanden" name="bestanden" type="file" accept="image/*" multiple className="w-full text-sm" />
+        <input id="bestanden" name="bestanden" type="file" accept="image/*,.heic,.heif" multiple className="w-full text-sm" />
       </div>
       <div className="space-y-1.5">
         <label htmlFor="bijschrift" className="text-sm font-medium text-ink">

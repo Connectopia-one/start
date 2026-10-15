@@ -56,3 +56,28 @@ export async function verwijderFoto(formData: FormData) {
 
   revalidatePath(`/beheer/klasjes/${slug}/fotos`);
 }
+
+/**
+ * Zet een foto die als HEIC opgeladen werd om naar de JPEG die de browser
+ * net maakte. Geeft een antwoord terug in plaats van te gooien, zodat de
+ * melding leesbaar blijft.
+ */
+export async function vervangFotoBestand(input: {
+  id: string;
+  slug: string;
+  oudPad: string;
+  nieuwPad: string;
+}): Promise<{ gelukt: true } | { gelukt: false; bericht: string }> {
+  await requireStaff();
+  const admin = createAdminClient();
+
+  const { error } = await admin
+    .from("fotos")
+    .update({ bestandspad: input.nieuwPad })
+    .eq("id", input.id);
+  if (error) return { gelukt: false, bericht: error.message };
+
+  await admin.storage.from("fotos").remove([input.oudPad]);
+  revalidatePath(`/beheer/klasjes/${input.slug}/fotos`);
+  return { gelukt: true };
+}

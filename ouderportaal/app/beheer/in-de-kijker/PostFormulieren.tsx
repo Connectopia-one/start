@@ -3,6 +3,7 @@
 import { useRef, useState, type FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
+import { maakWebgeschikt } from "@/lib/beeldOmzetten";
 import {
   bewaarNieuwePost,
   haalLinkGegevens,
@@ -45,7 +46,8 @@ const veld =
   melding blijft gewoon leesbaar. Gooit een server action, dan vervangt Next
   de melding door een nummer, en daar heeft niemand iets aan.
 */
-async function laadBeeldOp(bestand: File) {
+async function laadBeeldOp(origineel: File) {
+  const bestand = await maakWebgeschikt(origineel);
   const plek = await maakBeeldUploadUrl(bestand.name);
   if (!plek.gelukt) throw new Error(plek.bericht);
 
@@ -324,7 +326,7 @@ export function NieuwePostForm() {
           id="beeld"
           name="beeld"
           type="file"
-          accept="image/*"
+          accept="image/*,.heic,.heif"
           className="w-full text-sm"
         />
         <p className="text-xs text-ink-dim">
@@ -404,7 +406,7 @@ export function BeeldForm({
         <input
           name="beeld"
           type="file"
-          accept="image/*"
+          accept="image/*,.heic,.heif"
           aria-label={heeftBeeld ? "Ander beeld kiezen" : "Een beeld kiezen"}
           className="text-sm"
         />

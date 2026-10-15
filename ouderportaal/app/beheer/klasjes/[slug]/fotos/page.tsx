@@ -4,6 +4,8 @@ import { createClient } from "@/lib/supabase/server";
 import { Header } from "@/components/Header";
 import { verwijderFoto } from "./actions";
 import { NieuweFotosForm } from "./NieuweFotosForm";
+import { HeicOmzetten } from "./HeicOmzetten";
+import { isHeic } from "@/lib/beeldOmzetten";
 
 export default async function BeheerFotosPage({
   params,
@@ -36,6 +38,9 @@ export default async function BeheerFotosPage({
       return { ...f, url: data?.signedUrl ?? null };
     })
   );
+  const heicFotos = metUrl.flatMap((f) =>
+    f.url && isHeic(f.bestandspad) ? [{ id: f.id, bestandspad: f.bestandspad, url: f.url }] : []
+  );
 
   return (
     <>
@@ -56,6 +61,8 @@ export default async function BeheerFotosPage({
         {succes && (
           <p className="mt-4 rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">{succes}</p>
         )}
+
+        {heicFotos.length > 0 && <HeicOmzetten fotos={heicFotos} slug={slug} />}
 
         <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
           {metUrl.map((f) =>
