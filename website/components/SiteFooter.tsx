@@ -6,12 +6,76 @@ import { extraLinks, onderdelen, site, volgOns } from "@/content/site";
   overzichtelijker maken? mss ook in kleine knoppen? dus dat er overal een
   kadertje rond staat. nu lijkt het gewoon veel tekst bij elkaar."
 
-  Daarom is elke link een pilletje met een eigen randje, zoals de knoppen
-  elders op de site. Zo zie je meteen waar de ene link eindigt en de volgende
-  begint, ook op een gsm waar ze over meerdere regels vallen.
+  Kim op 15 oktober 2026: de knoppen door elkaar "lijkt me nog heel druk,
+  mss moet dat toch al mooi uitgelijnd zijn per categorie".
+
+  Daarom staan de links nu in vier kolommen met een kopje, elk met een
+  eigen kadertje, netjes onder elkaar. Een nieuwe pagina in content/site.ts
+  die hieronder nog in geen enkele groep staat, komt vanzelf bij de laatste
+  groep terecht, zodat er nooit een link verdwijnt.
 */
+const groepen: { titel: string; links: string[] }[] = [
+  {
+    titel: "Voor je kind",
+    links: [
+      "/aanbod",
+      "/kijkje",
+      "/ouderportaal",
+      "/oefenplatform",
+      "/meetesten",
+    ],
+  },
+  {
+    titel: "Hulp en advies",
+    links: [
+      "/hulp-en-advies",
+      "/wegwijzer",
+      "/waar-kan-je-terecht",
+      "/observatielijst",
+      "/thuisonderwijs",
+    ],
+  },
+  {
+    titel: "Lezen en delen",
+    links: ["/blog", "/in-de-kijker", "/prikbord"],
+  },
+  {
+    titel: "Over Connectopia",
+    links: ["/over-ons", "/professionals", "/steun-ons", "/contact"],
+  },
+];
+
+const alleLinks = [
+  ...onderdelen.map((o) => ({
+    slug: o.slug,
+    href: o.extern ?? o.slug,
+    titel: o.menuTitel,
+  })),
+  ...extraLinks.map((e) => ({
+    slug: e.slug,
+    href: e.slug,
+    titel: e.menuTitel,
+  })),
+];
+
+const ingedeeld = new Set(groepen.flatMap((g) => g.links));
+const kolommen = groepen.map((groep, i) => ({
+  titel: groep.titel,
+  links: [
+    ...groep.links
+      .map((slug) => alleLinks.find((l) => l.slug === slug))
+      .filter((l) => l !== undefined),
+    ...(i === groepen.length - 1
+      ? alleLinks.filter((l) => !ingedeeld.has(l.slug))
+      : []),
+  ],
+}));
+
 const pil =
   "rounded-full border border-cream/30 bg-cream/5 px-3.5 py-1.5 text-[15px] font-bold text-cream/90 transition hover:border-cream/60 hover:bg-cream/15 hover:text-cream";
+
+const kadertje =
+  "block rounded-xl border border-cream/25 bg-cream/5 px-3 py-1.5 text-[15px] font-bold text-cream/90 transition hover:border-cream/60 hover:bg-cream/15 hover:text-cream";
 
 export function SiteFooter() {
   return (
@@ -30,20 +94,22 @@ export function SiteFooter() {
           />
         </div>
 
-        <nav className="mt-7 flex flex-wrap gap-2">
-          {onderdelen.map((onderdeel) => (
-            <NaarLink
-              key={onderdeel.slug}
-              href={onderdeel.extern ?? onderdeel.slug}
-              className={pil}
-            >
-              {onderdeel.menuTitel}
-            </NaarLink>
-          ))}
-          {extraLinks.map((extra) => (
-            <NaarLink key={extra.slug} href={extra.slug} className={pil}>
-              {extra.menuTitel}
-            </NaarLink>
+        <nav className="mt-8 grid grid-cols-2 gap-x-5 gap-y-7 lg:grid-cols-4">
+          {kolommen.map((kolom) => (
+            <div key={kolom.titel}>
+              <h2 className="text-[13px] font-extrabold uppercase tracking-wider text-[#f3c98a]">
+                {kolom.titel}
+              </h2>
+              <ul className="mt-3 grid gap-2">
+                {kolom.links.map((link) => (
+                  <li key={link.slug}>
+                    <NaarLink href={link.href} className={kadertje}>
+                      {link.titel}
+                    </NaarLink>
+                  </li>
+                ))}
+              </ul>
+            </div>
           ))}
         </nav>
 

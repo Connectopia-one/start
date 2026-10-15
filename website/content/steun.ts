@@ -39,16 +39,16 @@ export const steun = {
       kleur: "orange" as const,
     },
     {
-      titel: "Met schoolmateriaal",
+      titel: "Met materiaal",
       tekst:
-        "Heb je nog materiaal liggen dat niet meer gebruikt wordt en nog in goede staat is? Wij geven het een tweede leven in onze werkingen en op onze kampen.",
+        "Schoolmateriaal, knutselspullen, gezelschapsspellen, puzzels, bouwdozen of materiaal voor proefjes: heb je iets liggen dat niet meer gebruikt wordt en nog in goede staat is? Wij geven het een tweede leven in onze werkingen en op onze kampen.",
       icoon: "✂️",
       kleur: "green" as const,
     },
     {
       titel: "Met boeken",
       tekst:
-        "Schoolboeken, naslagwerken, leesboeken, strips: wij houden van alle soorten boeken. Zolang ze nog in goede staat zijn, zijn ze welkom.",
+        "Leesboeken, strips, naslagwerken, en ook oude leerboeken, werkboeken en leermaterialen: wij houden van alle soorten. Zolang ze nog in goede staat zijn, zijn ze welkom.",
       icoon: "📚",
       kleur: "purple" as const,
     },
@@ -109,17 +109,27 @@ export const steun = {
       "Een document voor je boekhouding",
       "In overleg: zichtbaarheid op een kamp of een evenement",
     ],
+    /* De sponsors komen uit content/sponsors.ts, net als op de startpagina. */
+    voorgangers: "Zij steunen ons al",
+    knop: "Ik wil sponsoren",
   },
 
   /*
-    Eerlijk zijn over wat een particulier er fiscaal aan heeft: niets, en dat
-    verandert pas als de erkenning er is. Zet er geen jaartal bij zolang dat
-    niet zeker is.
+    Voor particulieren. Kim op 15 oktober 2026: de tekst was "niet echt
+    aantrekkelijk", met als kern "vele beetjes en vele handen maken een groot
+    geheel". De eerlijke uitleg over het fiscaal attest blijft, maar als
+    kleine noot onderaan in plaats van als hoofdboodschap. Zet er geen
+    jaartal bij zolang de erkenning niet zeker is.
   */
-  attesten: {
-    titel: "En als particulier?",
+  particulier: {
+    label: "Voor iedereen",
+    titel: "Elke bijdrage telt",
+    handgeschreven: "Vele beetjes en vele handen maken een groot geheel",
     tekst:
-      "Doneren mag natuurlijk altijd, en we zijn er heel blij mee. Alleen kunnen we je er voorlopig geen fiscaal attest voor geven: daar is een erkenning voor nodig die we aanvragen, maar die laat nog een hele tijd op zich wachten. Je gift is dus niet fiscaal aftrekbaar. We zeggen het liever meteen dan dat je er achteraf achterkomt.",
+      "Je hoeft geen bedrijf te zijn om een verschil te maken. Een doos stiften, een spel dat thuis niet meer gespeeld wordt, een uurtje van je tijd of een klein bedrag: samen wordt het een plusklas vol materiaal, een kamp vol proefjes en een plek waar kinderen zichzelf mogen zijn.",
+    knop: "Laat weten waarmee je helpt",
+    attest:
+      "Goed om te weten: voorlopig kunnen we nog geen fiscaal attest geven. Daar is een erkenning voor nodig die we aanvragen, maar die laat nog even op zich wachten. Je gift is dus nog niet fiscaal aftrekbaar.",
   },
 
   formulierTitel: "Laat het ons weten",
@@ -172,8 +182,23 @@ export const steunVelden: Veld[] = [
         naam: "Sponsoring als bedrijf",
         label: "Als bedrijf, in ruil voor zichtbaarheid",
       },
-      { naam: "Schoolmateriaal", label: "Met schoolmateriaal" },
-      { naam: "Boeken", label: "Met boeken" },
+      {
+        naam: "Schoolmateriaal",
+        label: "Met schoolmateriaal of knutselmateriaal",
+      },
+      {
+        naam: "Spelmateriaal",
+        label: "Met spelmateriaal: gezelschapsspellen, puzzels, bouwdozen",
+      },
+      {
+        naam: "Proefjesmateriaal",
+        label: "Met materiaal voor proefjes en techniek",
+      },
+      { naam: "Boeken", label: "Met leesboeken, strips of naslagwerken" },
+      {
+        naam: "Leerboeken",
+        label: "Met oude leerboeken, werkboeken of leermateriaal",
+      },
       { naam: "Vrijwilliger", label: "Als vrijwilliger bij onze werkingen" },
       { naam: "Vrijwilliger op kamp", label: "Als vrijwilliger mee op kamp" },
       {

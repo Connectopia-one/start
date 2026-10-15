@@ -3,6 +3,7 @@ import { Aanvraagformulier } from "@/components/Aanvraagformulier";
 import { Kaart, PaginaKop, Sectie } from "@/components/ui";
 import { site } from "@/content/site";
 import { steun, steunVelden } from "@/content/steun";
+import { sponsorsPerSoort } from "@/content/sponsors";
 
 export const metadata: Metadata = {
   title: steun.titel,
@@ -97,15 +98,6 @@ export default async function SteunPagina() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-[16px] font-bold text-green">
-            {/*
-              Staat het rekeningnummer er nog niet, dan beloven we het niet
-              half: we zeggen gewoon dat we de gegevens bezorgen.
-            */}
-            {steun.rekening
-              ? `Een gift doe je op ${steun.rekening}, op naam van Connectopia vzw.`
-              : "Wil je een gift doen? Vul hieronder het formulier in of bel ons, dan bezorgen we je onze gegevens."}
-          </p>
         </div>
       </Sectie>
 
@@ -129,15 +121,93 @@ export default async function SteunPagina() {
               </li>
             ))}
           </ul>
+          <div className="mt-5 flex flex-wrap items-end justify-between gap-4 border-t border-border pt-4">
+            <div>
+              <p className="text-[14px] font-bold text-ink-dim">
+                {steun.bedrijven.voorgangers}
+              </p>
+              <ul className="mt-2 flex flex-wrap items-center gap-3">
+                {sponsorsPerSoort("sponsor").map((sponsor) => (
+                  <li
+                    key={sponsor.naam}
+                    className="flex h-20 w-36 items-center justify-center rounded-xl border border-border bg-white p-2"
+                  >
+                    {sponsor.logo ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={`/sponsors/${sponsor.logo}`}
+                        alt={sponsor.naam}
+                        className="max-h-full w-auto max-w-full object-contain"
+                      />
+                    ) : (
+                      <span className="text-center text-[14px] font-extrabold text-green">
+                        {sponsor.naam}
+                      </span>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <a
+              href="#aanbod"
+              className="inline-block rounded-full bg-purple px-6 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5"
+            >
+              {steun.bedrijven.knop} →
+            </a>
+          </div>
         </div>
       </Sectie>
 
-      {/* Wat een particulier er fiscaal aan heeft: niets, en dat zeggen we. */}
+      {/* Voor iedereen: vele beetjes maken een groot geheel. */}
       <Sectie className="py-4">
-        <div className="rounded-[20px] border border-border bg-surface px-6 py-5">
-          <h2 className="text-xl text-green">{steun.attesten.titel}</h2>
-          <p className="mt-2 max-w-[68ch] text-[16px] text-ink-dim">
-            {steun.attesten.tekst}
+        <div className="rounded-[20px] border border-border bg-surface px-6 py-6">
+          <div className="grid gap-6 md:grid-cols-[1fr_minmax(0,300px)] md:items-center">
+            <div>
+              <span className="text-[14px] font-bold text-orange">
+                {steun.particulier.label}
+              </span>
+              <h2 className="mt-1 text-2xl text-green">
+                {steun.particulier.titel}
+              </h2>
+              <p className="font-hand mt-1 text-2xl text-orange">
+                {steun.particulier.handgeschreven}
+              </p>
+              <p className="mt-2 max-w-[60ch] text-[16px] text-ink-dim">
+                {steun.particulier.tekst}
+              </p>
+              <a
+                href="#aanbod"
+                className="mt-4 inline-block rounded-full bg-green px-6 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5"
+              >
+                {steun.particulier.knop} →
+              </a>
+            </div>
+            <div className="rounded-2xl bg-orange-soft px-5 py-5 text-center">
+              <p className="text-3xl" aria-hidden="true">
+                💛
+              </p>
+              {steun.rekening ? (
+                <>
+                  <p className="mt-2 text-[15px] font-bold text-ink-dim">
+                    Een gift doe je op
+                  </p>
+                  <p className="mt-1 select-all text-xl font-extrabold tracking-wide text-green">
+                    {steun.rekening}
+                  </p>
+                  <p className="mt-1 text-[15px] text-ink-dim">
+                    op naam van Connectopia vzw
+                  </p>
+                </>
+              ) : (
+                <p className="mt-2 text-[15px] font-bold text-green">
+                  Wil je een gift doen? Vul hieronder het formulier in of bel
+                  ons, dan bezorgen we je onze gegevens.
+                </p>
+              )}
+            </div>
+          </div>
+          <p className="mt-5 border-t border-border pt-3 text-[13.5px] text-ink-dim">
+            {steun.particulier.attest}
           </p>
         </div>
       </Sectie>
