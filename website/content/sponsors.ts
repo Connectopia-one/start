@@ -42,7 +42,7 @@ export const sponsors: Sponsor[] = [
   {
     naam: "Velleman",
     soort: "sponsor",
-    logo: "velleman.jpg",
+    logo: "velleman-breed.jpg",
     link: "https://www.velleman.eu",
   },
   {

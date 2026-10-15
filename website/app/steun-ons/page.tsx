@@ -121,18 +121,27 @@ export default async function SteunPagina() {
               </li>
             ))}
           </ul>
-          <div className="mt-5 flex flex-wrap items-end justify-between gap-4 border-t border-border pt-4">
-            <div>
-              <p className="text-[14px] font-bold text-ink-dim">
-                {steun.bedrijven.voorgangers}
-              </p>
-              <ul className="mt-2 flex flex-wrap items-center gap-3">
-                {sponsorsPerSoort("sponsor").map((sponsor) => (
-                  <li
-                    key={sponsor.naam}
-                    className="flex h-20 w-36 items-center justify-center rounded-xl border border-border bg-white p-2"
-                  >
-                    {sponsor.logo ? (
+          <div className="mt-5 border-t border-border pt-4">
+            <p className="text-[16px] font-extrabold text-green">
+              {steun.bedrijven.voorgangers}
+            </p>
+            {[
+              {
+                kop: steun.bedrijven.kopSponsors,
+                lijst: sponsorsPerSoort("sponsor"),
+              },
+              {
+                kop: steun.bedrijven.kopPartners,
+                lijst: sponsorsPerSoort("partner"),
+              },
+            ].map((groep) => (
+              <div key={groep.kop} className="mt-3">
+                <p className="text-[14px] font-bold text-ink-dim">
+                  {groep.kop}
+                </p>
+                <ul className="mt-2 grid grid-cols-2 gap-3 sm:flex sm:flex-wrap sm:items-center">
+                  {groep.lijst.map((sponsor) => {
+                    const logo = sponsor.logo ? (
                       // eslint-disable-next-line @next/next/no-img-element
                       <img
                         src={`/sponsors/${sponsor.logo}`}
@@ -143,14 +152,32 @@ export default async function SteunPagina() {
                       <span className="text-center text-[14px] font-extrabold text-green">
                         {sponsor.naam}
                       </span>
-                    )}
-                  </li>
-                ))}
-              </ul>
-            </div>
+                    );
+                    const vak =
+                      "flex h-20 w-full items-center justify-center rounded-xl border border-border bg-white p-2.5 sm:w-40";
+                    return (
+                      <li key={sponsor.naam}>
+                        {sponsor.link ? (
+                          <a
+                            href={sponsor.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={`${vak} transition hover:-translate-y-0.5`}
+                          >
+                            {logo}
+                          </a>
+                        ) : (
+                          <div className={vak}>{logo}</div>
+                        )}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            ))}
             <a
               href="#aanbod"
-              className="inline-block rounded-full bg-purple px-6 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5"
+              className="mt-5 inline-block rounded-full bg-purple px-6 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5"
             >
               {steun.bedrijven.knop} →
             </a>

@@ -111,6 +111,8 @@ export const steun = {
     ],
     /* De sponsors komen uit content/sponsors.ts, net als op de startpagina. */
     voorgangers: "Zij steunen ons al",
+    kopSponsors: "Sponsors",
+    kopPartners: "Partners die ons onder meer met lokalen steunen",
     knop: "Ik wil sponsoren",
   },
 
