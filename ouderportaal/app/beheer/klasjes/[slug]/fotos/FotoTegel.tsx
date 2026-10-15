@@ -3,13 +3,13 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
-import { heicNaarJpeg, soortVanInhoud } from "@/lib/beeldOmzetten";
+import { dngNaarJpeg, heicNaarJpeg, soortVanInhoud } from "@/lib/beeldOmzetten";
 import { maakFotoUploadUrl, vervangFotoBestand } from "./actions";
 
 /*
   Eén foto in het beheer. Toont de browser hem niet, dan verschijnt er een
   knop die het bestand ophaalt en nakijkt. Is het een HEIC-foto van een
-  iPhone, dan wordt hij omgezet naar JPEG en vervangen. Is het iets anders,
+  iPhone of een RAW-foto (DNG), dan wordt hij omgezet naar JPEG en vervangen. Is het iets anders,
   dan zegt de tegel wat er in het bestand zit, zodat we verder kunnen zoeken.
 */
 export function FotoTegel({
@@ -51,15 +51,15 @@ export function FotoTegel({
       const blob = await antwoord.blob();
       const soort = await soortVanInhoud(blob);
 
-      if (soort !== "heic") {
+      if (soort !== "heic" && soort !== "dng") {
         const kb = Math.round(blob.size / 1024);
         throw new Error(
-          `Dit is geen iPhone-foto. Formaat: ${soort}, ${kb} kB, opgegeven als "${blob.type || "leeg"}", bestand ${bestandspad.split("/").pop()}.`,
+          `Dit formaat kan ik niet omzetten. Formaat: ${soort}, ${kb} kB, opgegeven als "${blob.type || "leeg"}", bestand ${bestandspad.split("/").pop()}.`,
         );
       }
 
       const naam = bestandspad.split("/").pop() ?? "foto";
-      const jpeg = await heicNaarJpeg(blob, naam);
+      const jpeg = soort === "dng" ? await dngNaarJpeg(blob, naam) : await heicNaarJpeg(blob, naam);
       const klasjeId = bestandspad.split("/")[0];
       const { path, token } = await maakFotoUploadUrl(klasjeId, jpeg.name);
       const supabase = createClient();

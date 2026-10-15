@@ -64,7 +64,7 @@ export function NieuweFotosForm({ klasjeId, slug }: { klasjeId: string; slug: st
         <label htmlFor="bestanden" className="text-sm font-medium text-ink">
           Foto&apos;s (je kan er meerdere tegelijk kiezen)
         </label>
-        <input id="bestanden" name="bestanden" type="file" accept="image/*,.heic,.heif" multiple className="w-full text-sm" />
+        <input id="bestanden" name="bestanden" type="file" accept="image/*,.heic,.heif,.dng" multiple className="w-full text-sm" />
       </div>
       <div className="space-y-1.5">
         <label htmlFor="bijschrift" className="text-sm font-medium text-ink">

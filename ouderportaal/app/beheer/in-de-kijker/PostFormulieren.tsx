@@ -326,7 +326,7 @@ export function NieuwePostForm() {
           id="beeld"
           name="beeld"
           type="file"
-          accept="image/*,.heic,.heif"
+          accept="image/*,.heic,.heif,.dng"
           className="w-full text-sm"
         />
         <p className="text-xs text-ink-dim">
@@ -406,7 +406,7 @@ export function BeeldForm({
         <input
           name="beeld"
           type="file"
-          accept="image/*,.heic,.heif"
+          accept="image/*,.heic,.heif,.dng"
           aria-label={heeftBeeld ? "Ander beeld kiezen" : "Een beeld kiezen"}
           className="text-sm"
         />
