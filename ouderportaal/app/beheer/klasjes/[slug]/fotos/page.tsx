@@ -4,8 +4,7 @@ import { createClient } from "@/lib/supabase/server";
 import { Header } from "@/components/Header";
 import { verwijderFoto } from "./actions";
 import { NieuweFotosForm } from "./NieuweFotosForm";
-import { HeicOmzetten } from "./HeicOmzetten";
-import { isHeic } from "@/lib/beeldOmzetten";
+import { FotoTegel } from "./FotoTegel";
 
 export default async function BeheerFotosPage({
   params,
@@ -38,9 +37,6 @@ export default async function BeheerFotosPage({
       return { ...f, url: data?.signedUrl ?? null };
     })
   );
-  const heicFotos = metUrl.flatMap((f) =>
-    f.url && isHeic(f.bestandspad) ? [{ id: f.id, bestandspad: f.bestandspad, url: f.url }] : []
-  );
 
   return (
     <>
@@ -62,14 +58,17 @@ export default async function BeheerFotosPage({
           <p className="mt-4 rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">{succes}</p>
         )}
 
-        {heicFotos.length > 0 && <HeicOmzetten fotos={heicFotos} slug={slug} />}
-
         <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
           {metUrl.map((f) =>
             f.url ? (
-              <div key={f.id} className="overflow-hidden rounded-lg border border-border bg-surface">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={f.url} alt={f.bijschrift ?? ""} className="aspect-square w-full object-cover" />
+              <FotoTegel
+                key={f.id}
+                id={f.id}
+                url={f.url}
+                bestandspad={f.bestandspad}
+                bijschrift={f.bijschrift}
+                slug={slug}
+              >
                 {isBeheerder && (
                   <form action={verwijderFoto} className="p-2">
                     <input type="hidden" name="id" value={f.id} />
@@ -80,7 +79,7 @@ export default async function BeheerFotosPage({
                     </button>
                   </form>
                 )}
-              </div>
+              </FotoTegel>
             ) : null
           )}
           {metUrl.length === 0 && (
