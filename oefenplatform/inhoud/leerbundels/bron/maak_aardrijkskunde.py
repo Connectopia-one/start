@@ -255,6 +255,13 @@ BUNDELS["europa-en-de-wereld"] = dict(
             ("p", "Hoe hoger je klimt, hoe kouder het wordt: ongeveer een halve graad per honderd meter. "
                   "Daardoor verandert op een berg het landschap terwijl je stijgt, net alsof je naar "
                   "het noorden reist."),
+            ("kader", "<strong>Waarom is het boven kouder, als je toch dichter bij de zon bent?</strong> "
+                      "Die paar kilometer maken voor de zon niets uit. De zon verwarmt eerst de "
+                      "<strong>grond</strong>, en de warme grond verwarmt dan de lucht erboven. Hoe verder "
+                      "je van de lage, warme grond weg bent, hoe minder warmte er bij de lucht komt. "
+                      "Bovendien is de lucht hoog op een berg <strong>ijler</strong>: er zit minder lucht "
+                      "rond je, en die houdt minder warmte vast. Daarom ligt er op een hoge berg sneeuw, "
+                      "zelfs in de zomer."),
             ("fig", svg.bergprofiel(),
              "Onderaan weiden en loofbos, daarboven naaldbos, dan alpenweide, en bovenaan sneeuw die "
              "nooit smelt."),
