@@ -1,0 +1,2198 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Een kaart lezen — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een kaart met schaal 1 : 50 000 meet je 7 centimeter tussen twee dorpen. Hoe ver liggen ze in het echt uit elkaar?",
+          "opties": [
+            "3,5 kilometer",
+            "35 kilometer",
+            "350 meter",
+            "7 kilometer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op 1 : 50 000 is één centimeter 500 meter. Zeven centimeter is dan 3500 meter, en dat is 3,5 kilometer."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Twee dorpen liggen in het echt 2 kilometer uit elkaar. Hoeveel centimeter liggen ze uit elkaar op een kaart met schaal 1 : 25 000? Antwoord met een getal.",
+          "antwoord": "8",
+          "uitleg": "Hier reken je terug. Op 1 : 25 000 is één centimeter 250 meter. In 2000 meter past 250 meter acht keer, dus meet je 8 centimeter op de kaart."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op welke kaarten stelt één centimeter meer dan 750 meter in het echt voor? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "1 : 100 000",
+            "1 : 250 000",
+            "1 : 50 000",
+            "1 : 25 000",
+            "1 : 10 000"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Schrap je twee nullen, dan heb je meters per centimeter: 1 : 100 000 geeft 1000 meter en 1 : 250 000 geeft 2500 meter. Bij 1 : 50 000 is het maar 500 meter, bij 1 : 25 000 250 meter en bij 1 : 10 000 100 meter."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je kopieert een kaart twee keer zo groot. Op de kopie klopt de lijnschaal nog, maar de breukschaal die erop gedrukt staat niet meer.",
+          "antwoord": true,
+          "uitleg": "Het balkje van de lijnschaal wordt mee vergroot, dus het past nog bij de vergrote kaart. Het getal van de breukschaal blijft gewoon hetzelfde staan, terwijl alles op de kaart groter werd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Jonas meet 6 centimeter op een kaart 1 : 25 000. Hij rekent: 6 × 25 000 = 150 000, dus de afstand is 150 kilometer. Wat is er mis?",
+          "opties": [
+            "Die 150 000 zijn centimeter, dus het is 1,5 kilometer",
+            "Hij moest 25 000 delen door 6 in plaats van vermenigvuldigen",
+            "Die 150 000 zijn meter, dus het is 15 kilometer",
+            "Er is niets mis, de afstand is echt 150 kilometer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een breukschaal rekent links en rechts in dezelfde eenheid, hier centimeter. 150 000 centimeter is 1500 meter, dus 1,5 kilometer. Met 250 meter per centimeter kom je ook op 6 × 250 = 1500 meter uit."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Op een kaart met schaal 1 : 250 000 zie je meer details van een dorp dan op een kaart met schaal 1 : 100 000.",
+          "antwoord": false,
+          "uitleg": "Hoe groter het getal achter de dubbele punt, hoe sterker de kaart verkleint en hoe minder details er passen. 1 : 250 000 verkleint sterker dan 1 : 100 000, dus je ziet er net minder op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je staat met je gezicht naar het oosten. Aan welke kant van jou ligt het noorden?",
+          "opties": [
+            "Links van je",
+            "Rechts van je",
+            "Achter je",
+            "Recht voor je"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kijk je naar het noorden, dan ligt het oosten rechts. Draai je een kwartslag naar rechts om naar het oosten te kijken, dan draait het noorden mee naar je linkerkant."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wandelt naar het noordoosten en draait je dan helemaal om. In welke richting kijk je nu?",
+          "opties": [
+            "Naar het zuidwesten",
+            "Naar het noordwesten",
+            "Naar het zuidoosten",
+            "Nog altijd naar het noordoosten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Draai je je helemaal om, dan kijk je in de tegenovergestelde richting. Het tegenovergestelde van noord is zuid en dat van oost is west, dus noordoost wordt zuidwest."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een kaart wijst de noordpijl naar de rechterrand van het blad. De kerk staat op die kaart recht boven het station. In welke richting ligt de kerk vanaf het station?",
+          "opties": [
+            "Naar het westen",
+            "Naar het noorden",
+            "Naar het oosten",
+            "Naar het zuiden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ligt het noorden rechts op het blad, dan is de hele windroos een kwartslag gedraaid: het oosten ligt nu onderaan, het zuiden links en het westen bovenaan. Daarom kijk je altijd eerst naar de noordpijl voor je zegt wat waar ligt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Mira wil weten wat de paarse vlekjes op haar kaart betekenen en hoe ver haar school van haar huis ligt. Welke onderdelen van de kaart heeft ze daarvoor nodig? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De legende",
+            "De schaal",
+            "De noordpijl",
+            "De titel",
+            "De naam van wie de kaart maakte"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Wat een kleur betekent, staat in de legende. Hoe ver iets is, reken je uit met de schaal en een meetlat. De noordpijl helpt met de richting en de titel zegt waarover de kaart gaat, maar dat vroeg Mira niet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het hoogtepunt van een heuvel ligt op 210 meter. Het dorp aan de voet ervan ligt op 85 meter. Hoeveel meter is het hoogteverschil? Antwoord met een getal.",
+          "antwoord": "125",
+          "uitleg": "Het hoogteverschil is het verschil tussen de twee hoogtes boven de zeespiegel. Je trekt dus af: 210 min 85 is 125 meter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vertrekt op de hoogtelijn van 70 meter en je klimt 45 meter. Op welke hoogte boven de zeespiegel sta je nu?",
+          "opties": [
+            "115 meter",
+            "45 meter",
+            "25 meter",
+            "70 meter"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hier is het hoogteverschil gegeven en zoek je de nieuwe hoogte. Je telt het verschil bij de vertrekhoogte: 70 plus 45 is 115 meter boven de zeespiegel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee paden lopen naar dezelfde top. Op de kaart kruist pad A op één centimeter vijf hoogtelijnen, pad B kruist op één centimeter maar twee hoogtelijnen. Welk pad is het steilst?",
+          "opties": [
+            "Pad A, want daar liggen de hoogtelijnen dicht bijeen",
+            "Pad B, want daar liggen de hoogtelijnen ver uit elkaar",
+            "Allebei even steil, want ze gaan naar dezelfde top",
+            "Dat kan je niet weten zonder de schaal van de kaart"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op pad A stijg je over dezelfde korte afstand veel meer hoogtelijnen, dus veel meer meter. Dicht bijeen liggende hoogtelijnen betekenen een steile helling. Dat ze naar dezelfde top gaan, zegt niets over hoe steil de weg ernaartoe is."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wandel je op het terrein precies langs één en dezelfde hoogtelijn, dan ga je onderweg niet omhoog en niet omlaag.",
+          "antwoord": true,
+          "uitleg": "Een hoogtelijn gaat door punten die allemaal even hoog liggen. Blijf je op die lijn, dan blijf je dus op dezelfde hoogte, ook al maakt de lijn bochten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraak over een kaart, een luchtfoto en een satellietbeeld klopt NIET?",
+          "opties": [
+            "Een luchtfoto toont een rivier als een blauwe lijn",
+            "Een satellietbeeld is van veel hoger genomen dan een luchtfoto",
+            "Alle drie tonen ze een gebied van bovenaf gezien",
+            "Een kaart heeft een legende nodig, een luchtfoto niet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een blauwe lijn voor een rivier is een teken, en tekens horen bij een kaart. Op een luchtfoto zie je de rivier zoals ze er echt uitziet. Daarom heeft een luchtfoto ook geen legende nodig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een kaart met schaal 1 : 100 000 meet je in rechte lijn 4 centimeter tussen twee dorpen. Met een touwtje over alle bochten van de weg meet je 6 centimeter. Hoeveel kilometer is de weg langer dan de afstand in vogelvlucht?",
+          "opties": [
+            "2 kilometer",
+            "6 kilometer",
+            "10 kilometer",
+            "200 meter"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op 1 : 100 000 is één centimeter één kilometer. In vogelvlucht is het dus 4 kilometer en langs de weg 6 kilometer. Het verschil is 2 kilometer."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een echte afstand van 1 kilometer is op een kaart 1 : 50 000 langer dan op een kaart 1 : 25 000.",
+          "antwoord": false,
+          "uitleg": "Op 1 : 25 000 is één centimeter 250 meter, dus 1 kilometer wordt 4 centimeter. Op 1 : 50 000 is één centimeter 500 meter, dus 1 kilometer wordt maar 2 centimeter. Hoe sterker verkleind, hoe korter alles op papier."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee gebieden zijn allebei vlak. Het ene ligt laag, het andere ligt hoog boven de zeespiegel. Hoe noem je die twee reliëfvormen?",
+          "opties": [
+            "Het lage is een vlakte, het hoge een plateau",
+            "Het lage is een plateau, het hoge een vlakte",
+            "Het zijn allebei vlaktes, want ze zijn allebei vlak",
+            "Het lage is een heuvelland, het hoge een gebergte"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een vlakte ligt laag én vlak. Een plateau ligt hoog, maar is bovenaan ook vlak. Vlak zijn ze dus allebei; het verschil zit in hoe hoog ze liggen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Op een kaart met schaal 1 : 50 000 meet je 9 centimeter. Hoeveel kilometer is dat in het echt? Antwoord met een getal.",
+          "antwoord": "4,5",
+          "uitleg": "Op 1 : 50 000 is één centimeter 500 meter. Negen centimeter is dan 4500 meter, en dat is 4,5 kilometer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een kaart staan een titel, een legende en een schaal, maar geen noordpijl. Wat kan je met die kaart nog wel doen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Weten waarover de kaart gaat",
+            "Uitrekenen hoe ver twee dorpen uit elkaar liggen",
+            "Opzoeken wat een kleur op de kaart betekent",
+            "Zeker zeggen welk dorp het noordelijkst ligt",
+            "Zeker zeggen welke kant je uit moet stappen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De titel, de legende en de schaal doen hun werk gewoon. Maar het noorden ligt niet op élke kaart bovenaan, dus zonder noordpijl weet je niet zeker welke kant noord is of welke kant je uit moet."
+        }
+      ]
+    },
+    {
+      "titel": "Waar op aarde ben je? — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze plaatsen ligt het dichtst bij de evenaar?",
+          "opties": [
+            "5° zuiderbreedte, 60° westerlengte",
+            "12° noorderbreedte, 10° oosterlengte",
+            "30° noorderbreedte, 1° oosterlengte",
+            "45° zuiderbreedte, 170° oosterlengte"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hoe ver een plaats van de evenaar ligt, lees je af aan de breedte, niet aan de lengte. Vijf graden is de kleinste breedte, of dat nu noorder- of zuiderbreedte is. Die 1° oosterlengte zegt alleen dat de plaats dicht bij de nulmeridiaan ligt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze coördinaten kunnen niet bestaan? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "95° noorderbreedte, 20° oosterlengte",
+            "40° zuiderbreedte, 200° westerlengte",
+            "10° zuiderbreedte, 170° westerlengte",
+            "60° noorderbreedte, 0° lengte",
+            "0° breedte, 100° oosterlengte"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De breedte gaat maar tot 90° aan een pool, dus 95° breedte bestaat niet. De lengte gaat tot 180° aan elke kant van Greenwich, dus 200° lengte bestaat ook niet. Een breedte of lengte van 0° kan wel: dan lig je op de evenaar of op de nulmeridiaan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een plaats op 70° noorderbreedte ligt dichter bij de noordpool dan de noordpoolcirkel.",
+          "antwoord": true,
+          "uitleg": "De noordpoolcirkel ligt op 66,5° noorderbreedte en de noordpool op 90°. Met 70° zit je daartussen, dus voorbij de poolcirkel en dichter bij de pool."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een stad ligt op 20° noorderbreedte. Tussen welke twee lijnen van het gradennet ligt ze?",
+          "opties": [
+            "Tussen de evenaar en de keerkring op noorderbreedte",
+            "Tussen de keerkring en de poolcirkel op noorderbreedte",
+            "Tussen de poolcirkel op noorderbreedte en de noordpool",
+            "Tussen de evenaar en de keerkring op zuiderbreedte"
+          ],
+          "antwoord": 0,
+          "uitleg": "De evenaar ligt op 0° en de keerkring op 23,5° noorderbreedte. Twintig graden ligt daartussen. De poolcirkel ligt pas op 66,5°, veel noordelijker."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel graden breedte liggen er tussen de keerkring op noorderbreedte en de noordpoolcirkel? Antwoord met een getal.",
+          "antwoord": "43",
+          "uitleg": "De noordpoolcirkel ligt op 66,5° en de keerkring op 23,5° noorderbreedte. Ze liggen aan dezelfde kant van de evenaar, dus je trekt af: 66,5 min 23,5 is 43 graden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een plaats ligt onder de evenaar en ten oosten van Greenwich. Welke coördinaten kunnen kloppen?",
+          "opties": [
+            "25° zuiderbreedte, 30° oosterlengte",
+            "25° noorderbreedte, 30° oosterlengte",
+            "25° zuiderbreedte, 30° westerlengte",
+            "25° noorderbreedte, 30° westerlengte"
+          ],
+          "antwoord": 0,
+          "uitleg": "Onder de evenaar betekent zuiderbreedte, ten oosten van Greenwich betekent oosterlengte. Je hebt dus allebei nodig, en dat heeft maar één paar coördinaten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leider beschrijft het kamp zo: 'Het ligt in de provincie Luxemburg, aan de rivier de Ourthe, op 50° noorderbreedte en 6° oosterlengte.' Welke uitspraken over die beschrijving kloppen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De provincie is een staatkundig referentiepunt",
+            "De rivier is een topografisch referentiepunt",
+            "Met de breedte en de lengte situeert ze het kamp absoluut",
+            "De rivier is een staatkundig referentiepunt",
+            "De provincie is een sterrenkundig referentiepunt"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een provincie is een grens die mensen getrokken hebben, dus staatkundig. Een rivier ligt in het landschap zelf, dus topografisch. Met coördinaten situeer je absoluut; met de provincie en de rivier situeer je relatief, en die twee vullen elkaar aan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De keerkringen en de poolcirkels zijn staatkundige referentiepunten, want het zijn lijnen die mensen op de kaart getekend hebben.",
+          "antwoord": false,
+          "uitleg": "Staatkundig gaat over grenzen die mensen getrokken hebben, zoals een gemeente of een land. De keerkringen en de poolcirkels hebben te maken met de stand van de aarde, en zijn dus sterrenkundige referentiepunten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een wereldkaart lijkt Groenland reusachtig, maar op een globe is het veel kleiner. Hoe komt dat?",
+          "opties": [
+            "Een bol plat op papier leggen lukt niet zonder ergens te rekken of te knijpen",
+            "Groenland is sinds de wereldkaart gemaakt werd veel kleiner geworden",
+            "Een globe is altijd kleiner dan een wereldkaart, dus alles lijkt er kleiner",
+            "Op een globe worden de gebieden rond de polen met opzet kleiner getekend"
+          ],
+          "antwoord": 0,
+          "uitleg": "De aarde is een bol, en alleen een globe heeft die juiste vorm. Leg je ze plat, dan moet er vervormd worden, en daardoor kloppen de afmetingen op een wereldkaart niet overal. Op de globe zie je de echte verhoudingen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze breedtecirkels is het langst?",
+          "opties": [
+            "De keerkring op 23,5° noorderbreedte",
+            "De breedtecirkel op 50° noorderbreedte",
+            "De poolcirkel op 66,5° noorderbreedte",
+            "Ze zijn alle drie precies even lang"
+          ],
+          "antwoord": 0,
+          "uitleg": "Breedtecirkels worden korter naarmate je dichter bij een pool komt. De evenaar is de langste, en van deze drie ligt de keerkring het dichtst bij de evenaar. Het zijn de meridianen die allemaal even lang zijn, niet de breedtecirkels."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De meridiaan die door België loopt, is korter dan de nulmeridiaan.",
+          "antwoord": false,
+          "uitleg": "Elke meridiaan loopt van de noordpool naar de zuidpool, dus alle meridianen zijn even lang. Korter worden doen alleen de breedtecirkels, naarmate je dichter bij een pool komt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een plaats ligt op 30° zuiderbreedte en 25° oosterlengte. In welk van deze werelddelen ligt ze?",
+          "opties": [
+            "In Afrika",
+            "In Zuid-Amerika",
+            "In Noord-Amerika",
+            "In Europa"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zuiderbreedte betekent onder de evenaar, en dat sluit Europa en Noord-Amerika uit. Oosterlengte betekent ten oosten van Greenwich, en Zuid-Amerika ligt ten westen ervan. Blijft Afrika over, dat de evenaar dwars doorsnijdt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een schip op de Grote Oceaan steekt de lijn op ongeveer 180° lengte over. Daar verspringt de datum.",
+          "antwoord": true,
+          "uitleg": "De lijn ongeveer tegenover de nulmeridiaan, op 180° lengte, is de datumlijn. Daar verspringt de datum. Dat 180° lengte bestaat, klopt ook: de lengte loopt tot 180° aan elke kant."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het is middag en je staat in België met de zon recht voor je. Welke richting ligt dan rechts van je?",
+          "opties": [
+            "Het westen",
+            "Het oosten",
+            "Het noorden",
+            "Het zuiden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij ons staat de zon rond de middag in het zuiden, dus je kijkt naar het zuiden. Kijk je naar het zuiden, dan ligt het noorden achter je, het oosten links en het westen rechts."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraak over hulpmiddelen om je te oriënteren of te situeren klopt NIET?",
+          "opties": [
+            "Een kompas vertelt je op welke plek je staat",
+            "Een satellietnavigatiesysteem rekent je positie uit met signalen van satellieten",
+            "De naald van een kompas wijst naar het noorden",
+            "Bij ons staat de zon rond de middag in het zuiden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een kompas geeft je een richting, het noorden, maar niet je plaats. Wil je weten waar je staat midden in een bos, dan heb je een satellietnavigatiesysteem nodig."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Plaats A ligt op 30° westerlengte, plaats B op 20° oosterlengte. Hoeveel graden lengte liggen ertussen? Antwoord met een getal.",
+          "antwoord": "50",
+          "uitleg": "De twee plaatsen liggen aan weerskanten van de nulmeridiaan. Van A naar Greenwich is 30 graden, van Greenwich naar B nog 20 graden. Samen is dat 50 graden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Plaats C ligt op 12° zuiderbreedte, plaats D op 51° noorderbreedte. Hoeveel graden breedte liggen ertussen? Antwoord met een getal.",
+          "antwoord": "63",
+          "uitleg": "De ene plaats ligt onder de evenaar, de andere erboven. Je telt dus de afstand tot de evenaar aan beide kanten op: 12 plus 51 is 63 graden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een plaats op 90° noorderbreedte is de noordpool.",
+          "antwoord": true,
+          "uitleg": "De breedte loopt van 0° aan de evenaar tot 90° aan een pool. Verder noordelijk dan 90° noorderbreedte kan je niet, en dat punt is de noordpool."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze lijnen liggen volledig ten noorden van de evenaar? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De noordpoolcirkel",
+            "De keerkring op 23,5° noorderbreedte",
+            "De breedtecirkel op 50° noorderbreedte",
+            "De breedtecirkel op 80° noorderbreedte",
+            "De nulmeridiaan",
+            "De zuidpoolcirkel"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Alles op noorderbreedte ligt boven de evenaar, dus die vier breedtecirkels ook. De nulmeridiaan loopt van pool tot pool en snijdt de evenaar dus. De zuidpoolcirkel ligt op 66,5° zuiderbreedte, onder de evenaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een stad ligt op 51° noorderbreedte en 4° oosterlengte. Op je toets schrijf je 52° noorderbreedte en 4° oosterlengte. Is dat goed als je op 1 graad nauwkeurig moet situeren?",
+          "opties": [
+            "Ja, want je zit er hoogstens één graad naast",
+            "Nee, want de breedte moet altijd precies kloppen",
+            "Nee, want alleen de lengte mag een graad afwijken",
+            "Nee, want je moest ook de minuten erbij schrijven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op 1 graad nauwkeurig betekent dat je antwoord hoogstens één graad naast de juiste ligging mag liggen. Hier verschilt de breedte één graad en de lengte niets, dus je antwoord is goed."
+        }
+      ]
+    },
+    {
+      "titel": "De lagen van een landschap — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een foto van een streek zie je een heuvel, een zandbodem, een loofbos dat er vanzelf gegroeid is, een spoorlijn, een groeve en een rij huizen langs de weg. Welke daarvan horen bij de natuurlijke lagen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De heuvel",
+            "De zandbodem",
+            "Het loofbos dat er vanzelf gegroeid is",
+            "De spoorlijn",
+            "De groeve",
+            "De rij huizen langs de weg"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De heuvel hoort bij het reliëf, het zand bij de bodem en het bos dat vanzelf groeit bij de natuurlijke vegetatie. De spoorlijn, de groeve en de huizen zijn door de mens gemaakt: transportwegen, ontginning en bebouwing."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Na een regenbui blijft er op akker A nog dagen water staan. Op akker B ernaast is het water na een uur weggezakt. Welke bodem ligt waar het waarschijnlijkst?",
+          "opties": [
+            "Klei op akker A en zand op akker B",
+            "Zand op akker A en klei op akker B",
+            "Leem op akker A en klei op akker B",
+            "Op beide akkers precies dezelfde bodem"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hier redeneer je van het gevolg naar de oorzaak. Klei heeft de fijnste korrels en laat water moeilijk door, dus daar blijft het staan. Door zand, met grove korrels, zakt het water snel weg."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een groeve hoort bij een menselijke laag, ook al gaat het om steen uit de natuurlijke ondergrond.",
+          "antwoord": true,
+          "uitleg": "De steen zelf hoort bij de ondergrond, maar het weghalen ervan is ontginning, en ontginning doet de mens. De groeve is dus het spoor van een menselijke laag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze hoort NIET bij de natuurlijke vegetatie?",
+          "opties": [
+            "Een maïsakker",
+            "Een naaldbos dat er vanzelf gegroeid is",
+            "Mossen en heel lage planten in een koude streek",
+            "Grassen die er vanzelf groeien"
+          ],
+          "antwoord": 0,
+          "uitleg": "Natuurlijke vegetatie is wat er vanzelf zou groeien. Maïs wordt door een boer ingezaaid, en een akker hoort dus bij het landgebruik, niet bij de natuurlijke vegetatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een teler kweekt tomaten in serres en aardbeien op een klein perceel. Bij welke tak van de landbouw hoort zijn bedrijf?",
+          "opties": [
+            "Tuinbouw",
+            "Akkerbouw",
+            "Veeteelt",
+            "Gemengde landbouw"
+          ],
+          "antwoord": 0,
+          "uitleg": "Serreteelt en fruitteelt op kleinere percelen horen allebei bij de tuinbouw. Gemengde landbouw is iets anders: dat is akkerbouw en veeteelt samen, en deze teler houdt geen dieren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze bedrijven doen aan gemengde landbouw? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een boer met varkens die ook graan teelt",
+            "Een boer met melkkoeien die ook maïs teelt",
+            "Een boer die enkel kippen houdt voor de eieren",
+            "Een teler die enkel paprika's kweekt in serres",
+            "Een boer die enkel graan en suikerbieten teelt"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Gemengde landbouw combineert veeteelt met akkerbouw. Alleen kippen is enkel veeteelt, alleen graan en bieten is enkel akkerbouw, en paprika's in serres is tuinbouw."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lotte zegt: 'Gisteren was het 30 graden in Ukkel, dus België heeft een warm klimaat.' Wat is er mis met haar redenering?",
+          "opties": [
+            "Eén warme dag is weer, het klimaat is het gemiddelde over jaren",
+            "Ukkel ligt te hoog om iets over België te zeggen",
+            "Het klimaat meet je niet in graden, alleen in regen",
+            "Er is niets mis, 30 graden betekent een warm klimaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het weer is van nu, het klimaat is het gemiddelde over jaren. Uit één hete dag kan je dus niets over het klimaat besluiten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een arbeider graaft eerst door een losse laag vol plantenwortels en stoot dan op kalksteen. Door welke lagen gaat hij?",
+          "opties": [
+            "Eerst de bodem, daarna de ondergrond",
+            "Eerst de ondergrond, daarna de bodem",
+            "Eerst de vegetatie, daarna het reliëf",
+            "Alleen door de bodem, want kalksteen is ook bodem"
+          ],
+          "antwoord": 0,
+          "uitleg": "De bodem is de bovenste losse laag waarin planten hun wortels zetten. Daaronder ligt de ondergrond, en die kan uit vast gesteente zoals kalksteen bestaan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Op een luchtfoto genomen in januari kan je een loofbos en een naaldbos van elkaar onderscheiden.",
+          "antwoord": true,
+          "uitleg": "Loofbomen verliezen hun blad in de winter, naaldbomen meestal niet. In januari staat het loofbos dus kaal en blijft het naaldbos groen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraak gaat over de bebouwing, en niet over het woongebied?",
+          "opties": [
+            "De huizen staan er dicht tegen elkaar aan",
+            "Dit deel van de gemeente is de zone waar gewoond wordt",
+            "De zone waar mensen wonen ligt ten noorden van het centrum",
+            "Het gebied waar gewoond wordt is twee kilometer lang"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het woongebied is het gebied zelf. De bebouwing is wat erin staat, en ook hoe dicht of verspreid die gebouwen staan. Hoe dicht de huizen staan, gaat dus over de bebouwing."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze situaties is lintbebouwing?",
+          "opties": [
+            "Huizen in één rij aan beide kanten van een gewestweg, kilometers ver",
+            "Huizen die dicht bijeen rond een kerk en een plein staan",
+            "Boerderijen die elk apart tussen de velden verspreid liggen",
+            "Hoge flatgebouwen die samen in het centrum van een stad staan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij lintbebouwing volgen de huizen de weg, als een lint. Rond een kerk staan ze in een kern bijeen, en verspreide boerderijen staan net niet langs één lijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bedrijf dat zware bouwmaterialen maakt, zoekt een nieuwe plaats voor zijn fabriek. Welke plek past het best?",
+          "opties": [
+            "Langs een kanaal en vlak bij een autosnelweg",
+            "Midden in een woonwijk, dicht bij de werknemers",
+            "In een rustig natuurgebied, ver van alle wegen",
+            "Bovenop een heuvel met alleen een smal wandelpad"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zware grondstoffen en producten moeten vlot aankomen en weggaan, en dat lukt over water en over de autosnelweg. Ligging is zelden toeval: daarom vind je fabrieken langs kanalen en snelwegen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke bodemsoort heeft grovere korrels dan leem en laat het regenwater snel wegzakken? Antwoord met één woord.",
+          "antwoord": "zand",
+          "uitleg": "Van fijn naar grof gaat het van klei over leem naar zand. Zand heeft de grofste korrels van de drie, en het water zakt er snel doorheen, zoals in de Kempen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een tuinbouwer kweekt groenten onder glas, zodat hij zelf de temperatuur en het licht kiest en vroeger kan oogsten. Hoe heet die teelt? Antwoord met één woord.",
+          "antwoord": "serreteelt",
+          "uitleg": "Teelt onder glas heet serreteelt en hoort bij de tuinbouw. In een serre is de teler minder afhankelijk van het weer buiten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke natuurlijke laag slijt het reliëf uit, voert bodemdeeltjes aan en af, en bepaalt mee wat er kan groeien? Antwoord met één woord.",
+          "antwoord": "water",
+          "uitleg": "Water is een aparte laag omdat het de andere lagen mee vormt: het reliëf, de bodem en de vegetatie. Een natte en een droge bodem laten niet dezelfde planten groeien."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Klei laat het water sneller door dan leem, omdat klei de fijnste korrels heeft.",
+          "antwoord": false,
+          "uitleg": "Het is net omgekeerd. Hoe fijner de korrels, hoe moeilijker het water erdoor raakt. Klei heeft de fijnste korrels en houdt het water dus het langst vast."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een gebied dat hoog ligt en een sterk golvend oppervlak heeft, noem je een plateau.",
+          "antwoord": false,
+          "uitleg": "Een plateau ligt wel hoog, maar het is bovenaan vlak en niet sterk golvend. Hoog liggen alleen is dus niet genoeg om van een plateau te spreken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een koude streek groeien van nature bijna geen bomen, wel mossen en heel lage planten. Wat is daarvan de oorzaak?",
+          "opties": [
+            "De zomer is er te kort, dus het groeiseizoen is te kort voor een boom",
+            "De bodem bestaat er overal uit klei, en daarin kan geen boom wortelen",
+            "De mensen hebben er alle bomen gekapt voor landbouw en wegen",
+            "Er valt te veel regen, en bomen kunnen niet tegen natte voeten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het klimaat bepaalt hier de vegetatie. In koude streken is de zomer kort, en voor een boom is het groeiseizoen dan te kort. Mossen en lage planten redden het wel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraak over de lagen van een landschap klopt NIET?",
+          "opties": [
+            "De menselijke lagen liggen er het langst, de natuurlijke veranderen snel",
+            "Een weiland kan op enkele jaren een woonwijk worden",
+            "Toerisme laat campings en parkings achter die blijven staan",
+            "Landgebruik is het geheel van wat de mens met de grond doet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het is omgekeerd: de natuurlijke lagen liggen er het langst, en de menselijke kunnen op enkele jaren sterk veranderen. De andere uitspraken kloppen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze dingen in een landschap horen bij de menselijke lagen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een camping",
+            "Een groeve",
+            "Een spoorlijn",
+            "Een lint huizen langs een gewestweg",
+            "Kalksteen in de ondergrond",
+            "Mossen in een koude streek"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Een camping hoort bij recreatie en toerisme, een groeve bij de ontginning, een spoorlijn bij de transportwegen en een lint huizen bij de bebouwing. Kalksteen in de ondergrond en mossen die vanzelf groeien zijn natuurlijke lagen."
+        }
+      ]
+    },
+    {
+      "titel": "Waarom landschappen verschillen — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rij reliëfeenheden gaat van laag naar hoog?",
+          "opties": [
+            "Vlaamse Laagvlakte, Brabants Laagplateau, Plateau van de Ardennen",
+            "Brabants Laagplateau, Vlaamse Laagvlakte, Plateau van de Ardennen",
+            "Vlaamse Laagvlakte, Plateau van de Ardennen, Brabants Laagplateau",
+            "Plateau van de Ardennen, Brabants Laagplateau, Vlaamse Laagvlakte"
+          ],
+          "antwoord": 0,
+          "uitleg": "België klimt in drie trappen: eerst de laagvlaktes, dan de laagplateaus en dan de plateaus. De Vlaamse Laagvlakte zit op de onderste trap, het Brabants Laagplateau op de middelste en het Plateau van de Ardennen op de bovenste."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze eenheden horen bij de bovenste trap, de plateaus en de eenheden van het zuiden? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Het Plateau van Herve",
+            "De Fagne-Famennedepressie",
+            "Het Kempens Laagplateau",
+            "De Kempense Laagvlakte",
+            "Het Haspengouws Laagplateau"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Het Plateau van Herve en de Fagne-Famennedepressie horen bij de eenheden van het zuiden. Let op de Kempen: het Kempens Laagplateau zit op de middelste trap en de Kempense Laagvlakte op de onderste. Haspengouw is ook een laagplateau."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het Signaal van Botrange, het hoogste punt van België, ligt op het Plateau van de Ardennen.",
+          "antwoord": false,
+          "uitleg": "Het Plateau van de Ardennen is de hoogst gelegen eenheid, maar het hoogste punt zelf, het Signaal van Botrange op 694 meter, ligt op het Plateau van de Hoge Venen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je reist van het noorden naar de evenaar. In welke volgorde kom je deze vegetatiezones tegen?",
+          "opties": [
+            "Taiga, loofwoud, savanne, tropisch regenwoud",
+            "Loofwoud, taiga, savanne, tropisch regenwoud",
+            "Taiga, loofwoud, tropisch regenwoud, savanne",
+            "Taiga, savanne, loofwoud, tropisch regenwoud"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van de pool naar de evenaar gaat het van toendra over taiga en loofwoud naar steppe, woestijn, savanne en tropisch regenwoud. Het regenwoud ligt rond de evenaar zelf, dus dat komt als laatste."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op de Engelse legende van een vegetatiekaart staat 'dry forest and woodland savanna'. Bij welke vegetatiezone van de fiche hoort dat gebied?",
+          "opties": [
+            "De savanne",
+            "De woestijn",
+            "De steppe",
+            "Het loofwoud"
+          ],
+          "antwoord": 0,
+          "uitleg": "In de sleutel bij de kaart valt 'dry forest and woodland savanna' onder de savanne. Laat je niet vangen door het woord 'dry': de woestijn heet op die legende 'desert' en de steppe 'steppe'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een klimaatkaart met vijf zones staat ook een oranje droge zone. In welke van de drie klimaatzones van de fiche ligt die grotendeels?",
+          "opties": [
+            "In de warme zone",
+            "In de gematigde zone",
+            "In de koude zone",
+            "Ze is een vierde zone naast de drie"
+          ],
+          "antwoord": 0,
+          "uitleg": "De droge zone is niet uitgehaald om haar temperatuur maar om haar neerslag. Ze ligt grotendeels in de warme zone, met haar rand tegen de gematigde aan. Een vierde trap naast warm, gematigd en koud is ze dus niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is het rond de polen veel kouder dan rond de evenaar?",
+          "opties": [
+            "Omdat het zonlicht er veel schuiner invalt",
+            "Omdat de polen veel verder van de zon af liggen",
+            "Omdat er rond de polen geen bossen groeien om warmte vast te houden",
+            "Omdat er rond de polen veel minder mensen wonen die warmte maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rond de evenaar valt het zonlicht het steilst in, en naar de polen toe steeds schuiner, waardoor het kouder wordt. Dat de polen veel verder van de zon liggen, is een veelgemaakte fout. Dat er weinig groeit en weinig mensen wonen, is een gevolg van de kou, geen oorzaak."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke combinatie van een dunbevolkt gebied en de reden ervoor klopt NIET?",
+          "opties": [
+            "Hooggebergte: te droog",
+            "Woestijn: te droog",
+            "Poolgebied: te koud",
+            "Hooggebergte: te koud en te steil"
+          ],
+          "antwoord": 0,
+          "uitleg": "Woestijnen zijn te droog, poolgebieden te koud, en hooggebergten te koud en te steil. Droogte is dus niet de reden waarom er weinig mensen in het hooggebergte wonen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een gebied van 50 km² telt 15 000 inwoners. Hoeveel inwoners per km² is de bevolkingsdichtheid? Antwoord met een getal.",
+          "antwoord": "300",
+          "uitleg": "De bevolkingsdichtheid is het aantal inwoners per vierkante kilometer. Je deelt dus het aantal inwoners door de oppervlakte: 15 000 gedeeld door 50 is 300."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een eiland van 6 km² heeft een bevolkingsdichtheid van 150 inwoners per km². Hoeveel inwoners telt het eiland? Antwoord met een getal.",
+          "antwoord": "900",
+          "uitleg": "Hier reken je terug. Op elke vierkante kilometer wonen 150 mensen, en het eiland telt 6 vierkante kilometer. Zes keer 150 is 900 inwoners."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je klimt in een gebergte steeds hoger. Wat zie je gebeuren met de begroeiing?",
+          "opties": [
+            "Eerst bomen, en boven een bepaalde hoogte geen bomen meer",
+            "Eerst lage planten, en hoger op de berg steeds meer bomen",
+            "Overal evenveel bomen, want de bodem blijft dezelfde",
+            "Eerst bomen, en hoger op de berg het dichtste regenwoud"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hoger is kouder, en boven een bepaalde hoogte, de boomgrens, is het te koud voor bomen. Hier zie je het samenspel van reliëf, klimaat en vegetatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een boer heeft een perceel met natte grond en een perceel met leemgrond. Wat doet hij er het best mee?",
+          "opties": [
+            "Weiland op de natte grond, akkers op de leemgrond",
+            "Akkers op de natte grond, weiland op de leemgrond",
+            "Op allebei akkers, want elke bodem levert evenveel op",
+            "Op allebei niets, want geen van die bodems is bruikbaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Leem is vruchtbaar en goed voor akkerbouw. Natte grond leent zich eerder voor weiland. Zo liggen akkers en weiden niet zomaar ergens, maar waar de bodem erbij past."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee buurlanden en een paar verenigingen richten samen een overleggroep op om hun plannen op elkaar af te stemmen. Onder welke P van het 5P-model valt dat vooral?",
+          "opties": [
+            "Partnership",
+            "People",
+            "Planet",
+            "Peace"
+          ],
+          "antwoord": 0,
+          "uitleg": "De P die over samenwerkingsverbanden gaat, is Partnership. Hier staat het samenwerken zelf centraal, niet de natuur of het loon van mensen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een nieuwe fabriek geeft 500 mensen werk, maar loost vuil water in de beek. Wat zegt het 5P-model daarover?",
+          "opties": [
+            "Ze helpt Prosperity vooruit, maar schaadt Planet",
+            "Ze helpt Planet vooruit, maar schaadt Prosperity",
+            "Ze helpt alle vijf de P's tegelijk vooruit",
+            "Ze heeft met geen enkele van de vijf P's iets te maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Werk en inkomen horen bij Prosperity, de natuur en het water bij Planet. De vijf P's hangen samen, en wat de ene vooruithelpt kan de andere schaden. Daarom blijft duurzaamheid een afweging."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het Kempens Laagplateau en de Kempense Laagvlakte zijn twee namen voor dezelfde reliëfeenheid.",
+          "antwoord": false,
+          "uitleg": "Het zijn twee verschillende eenheden op twee verschillende trappen. De Kempense Laagvlakte hoort bij de laagvlaktes, het Kempens Laagplateau bij de laagplateaus."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Twee dorpen met hetzelfde klimaat en dezelfde bodem kunnen toch heel verschillend groeien.",
+          "antwoord": true,
+          "uitleg": "Klimaat en bodem zijn maar twee lagen. Ligt het ene dorp aan een spoorlijn en het andere niet, dan kan het ene veel sterker groeien. De andere lagen maken het verschil."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over Haspengouw en de Ardennen kloppen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Haspengouw is een laagplateau",
+            "Het Plateau van de Ardennen ligt hoger dan Haspengouw",
+            "Het verschil tussen bossen en akkers komt door het samenspel van reliëf, bodem en klimaat",
+            "Haspengouw hoort bij de laagvlaktes",
+            "Het verschil tussen bossen en akkers komt alleen door de bodem"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Haspengouw zit op de middelste trap, de laagplateaus, en de Ardennen op de bovenste. Dat er in de Ardennen bossen staan en in Haspengouw akkers en boomgaarden, komt niet door één ding maar door het samenspel van de lagen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een plateau is bovenaan vlak, en daarom heten de Heuvelruggen van de Condroz geen plateau.",
+          "antwoord": true,
+          "uitleg": "In de Condroz wisselen ruggen en dalen elkaar af, dus is hij bovenaan niet vlak. Precies daarom heet hij heuvelruggen en geen plateau."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het Signaal van Botrange ligt op 694 meter. Hoeveel meter ligt het hoger dan een veld in Haspengouw op 94 meter? Antwoord met een getal.",
+          "antwoord": "600",
+          "uitleg": "Het hoogteverschil is het verschil tussen de twee hoogtes: 694 min 94 is 600 meter. Zo zie je hoeveel België klimt van een laagplateau naar de Hoge Venen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze eenheden liggen op een hogere trap dan de Vlaamse Laagvlakte? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Het Brabants Laagplateau",
+            "Het Plateau van de Ardennen",
+            "Het Haspengouws Laagplateau",
+            "Het Plateau van Herve",
+            "De Laagvlakte van de Kust",
+            "De Kempense Laagvlakte"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "De Vlaamse Laagvlakte zit op de onderste trap. De twee laagplateaus zitten een trap hoger en de twee plateaus nog een trap hoger. De Laagvlakte van de Kust en de Kempense Laagvlakte zitten op dezelfde trap als de Vlaamse."
+        }
+      ]
+    },
+    {
+      "titel": "De aarde beweegt en slijt — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoog in de bergen springt een rots door de vorst in stukken. Een rivier neemt de brokjes mee en laat ze aan haar monding vallen. Welke drie processen zie je hier, in de juiste volgorde?",
+          "opties": [
+            "Verwering, erosie, sedimentatie",
+            "Erosie, verwering, sedimentatie",
+            "Verwering, sedimentatie, erosie",
+            "Sedimentatie, erosie, verwering"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst breekt de rots ter plaatse af: dat is verwering. Dan voert de rivier de brokjes weg: erosie. Aan de monding valt het materiaal neer: sedimentatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze situaties is verwering, en geen erosie?",
+          "opties": [
+            "Een stenen muur waarvan de stenen ter plaatse afbrokkelen",
+            "De wind die zand van het strand naar achteren blaast",
+            "Een rivier die zand en slib met zich meevoert",
+            "Een gletsjer die een breed dal uitschuurt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij verwering wordt het gesteente afgebroken op de plaats zelf, zonder weggevoerd te worden. Wind, een rivier en een gletsjer voeren materiaal weg, en dat is erosie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een aardbeving begint diep in de aarde, recht onder dorp A. Dorp B ligt 50 kilometer verderop. Waar is de schade meestal het grootst, en hoe heet die plek?",
+          "opties": [
+            "In dorp A, want dat ligt op het epicentrum",
+            "In dorp B, want dat ligt op het epicentrum",
+            "In dorp A, want dat ligt in de haard",
+            "In beide dorpen even groot, want de beving is overal even sterk"
+          ],
+          "antwoord": 0,
+          "uitleg": "De plek in de diepte waar de beving begint, is de haard. Het punt aan het oppervlak recht daarboven is het epicentrum, en daar is de schade meestal het grootst. Dorp A ligt dus op het epicentrum, niet in de haard."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De haard van een aardbeving ligt aan het aardoppervlak, en het epicentrum ligt recht daaronder in de diepte.",
+          "antwoord": false,
+          "uitleg": "Het is net omgekeerd. De beving begint in de diepte, in de haard. Het epicentrum is het punt aan het aardoppervlak recht boven de haard."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Diep onder een vulkaan zit gesmolten gesteente. Een dag later stroomt datzelfde gesteente uit de krater de helling af. Hoe heet het op die twee momenten?",
+          "opties": [
+            "Eerst magma, daarna lava",
+            "Eerst lava, daarna magma",
+            "Allebei de keren lava",
+            "Eerst as, daarna magma"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het is hetzelfde gesmolten gesteente, maar de naam hangt af van waar het zit. Onder de grond heet het magma, en zodra het naar buiten komt, noemen we het lava."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Op lange termijn kan een vulkaanuitbarsting de landbouw in de streek ook iets goeds opleveren.",
+          "antwoord": true,
+          "uitleg": "Op korte termijn is een uitbarsting een ramp, maar op lange termijn wordt de bodem er bijzonder vruchtbaar. Daarom gaan mensen tóch in de buurt van een actieve vulkaan wonen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een rivier stroomt eerst snel door een smal dal in de bergen en daarna traag door een vlakte naar zee. Waar ontstaat het waarschijnlijkst een delta?",
+          "opties": [
+            "Bij de monding, waar ze traag stroomt",
+            "In het smalle bergdal, waar ze snel stroomt",
+            "Halverwege, precies waar de bergen ophouden",
+            "Nergens, want een rivier zet nooit iets af"
+          ],
+          "antwoord": 0,
+          "uitleg": "Snel water houdt alles in beweging, traag water laat het vallen. Bij de monding stroomt de rivier traag en zet ze haar zand en slib af in een waaier: de delta."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Dal A is smal en heeft een V-vorm. Dal B heeft een brede bodem en steile wanden. Welke uitspraak klopt?",
+          "opties": [
+            "Dal A is door een rivier uitgesneden, dal B door een gletsjer uitgeschuurd",
+            "Dal A is door een gletsjer uitgeschuurd, dal B door een rivier uitgesneden",
+            "Beide dalen zijn door een rivier uitgesneden, alleen de ene is ouder",
+            "Beide dalen zijn ontstaan door sedimentatie van zand en slib"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een rivier snijdt zich in en maakt een smal V-dal. Een gletsjer schuurt breed uit en laat een U-dal achter, met een brede bodem en steile wanden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een boer wil niet dat de grond van zijn akker op een helling wegspoelt bij zware regen. Wat helpt? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Langs de helling ploegen in plaats van van boven naar beneden",
+            "Planten en struiken op de helling laten groeien",
+            "Van boven naar beneden ploegen, zodat het water snel weg kan",
+            "Na de oogst alle planten weghalen, zodat de grond kaal ligt"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Voren langs de helling houden het water tegen, terwijl voren van boven naar beneden het water met grond en al laten wegspoelen. Wortels van planten houden de grond vast, dus kale grond spoelt net sneller weg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom springt een rots uiteen bij vorstverwering?",
+          "opties": [
+            "IJs neemt meer plaats in dan water, dus het duwt de barst open",
+            "IJs is harder dan steen en snijdt zo de rots in stukken",
+            "Koude maakt de steen zelf zachter, zodat hij uiteenvalt",
+            "Het water lost de steen op voor het bevriest"
+          ],
+          "antwoord": 0,
+          "uitleg": "Water dringt in een barst en bevriest. IJs neemt meer plaats in dan water, dus de barst wordt opengeduwd tot de rots uiteenspringt. Oplossen is iets anders: zo verweert kalksteen door regenwater."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De grotten in kalkstreken zoals de Condroz zijn vooral ontstaan doordat de vorst de kalksteen uitholde.",
+          "antwoord": false,
+          "uitleg": "Die grotten ontstonden doordat regenwater de kalksteen langzaam oploste. Vorstverwering laat rotsen uiteenspringen, maar holt geen gangen uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze voorbeelden zijn erosie? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De wind blaast zand weg in een woestijn",
+            "Een rivier voert zand mee naar zee",
+            "Een gletsjer schuurt een dal uit",
+            "Een rivier laat zand vallen aan haar monding",
+            "De steen van een oude kerk brokkelt ter plaatse af"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Erosie is het wegvoeren, door wind, stromend water of bewegend ijs. Zand laten vallen is sedimentatie, en steen die ter plaatse afbrokkelt is verwering."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kustdorp wordt plots door een reusachtige golf overspoeld, terwijl er die dag geen storm was. Wat was waarschijnlijk de oorzaak?",
+          "opties": [
+            "Een zware aardbeving op zee",
+            "Een vulkaan die ver landinwaarts uitbarstte",
+            "Vorstverwering van de rotsen langs de kust",
+            "Een rivier die een delta vormde aan haar monding"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een zware beving op zee kan het water in beweging zetten, en die vloedgolf overspoelt dan de kust. Zo'n golf heet een tsunami. Daar is geen storm voor nodig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraak over aardbevingen klopt NIET?",
+          "opties": [
+            "Een stijf gebouw dat niet meegeeft, blijft het best staan",
+            "Een aardbeving duurt meestal maar enkele seconden",
+            "Aardbevingen komen vaker voor langs de randen van platen",
+            "Ook in België komen af en toe lichte aardbevingen voor"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een stijf gebouw scheurt, een gebouw dat meegeeft blijft staan. Daarom bouwt men in gebieden met aardbevingen zo dat gebouwen mee kunnen bewegen. De andere uitspraken kloppen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een woestijn verplaatsen de duinen zich over de jaren heen. Waarom gebeurt dat daar zo gemakkelijk?",
+          "opties": [
+            "Er groeien nauwelijks planten die het zand vasthouden",
+            "Woestijnzand is veel lichter dan ander zand",
+            "Er zijn in de woestijn geen rivieren die het zand afzetten",
+            "Het zand verweert er elke nacht door de vorst"
+          ],
+          "antwoord": 0,
+          "uitleg": "Planten houden met hun wortels de grond vast. In een woestijn groeit er nauwelijks iets, dus heeft de wind er vrij spel om het zand op te nemen en te verplaatsen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het epicentrum ligt aan het oppervlak, recht boven de plek in de diepte waar de aardkorst schiet. Hoe heet die plek in de diepte? Antwoord met één woord.",
+          "antwoord": "haard",
+          "uitleg": "De beving begint in de haard, diep in de aarde. Het epicentrum is alleen het punt aan het oppervlak daar recht boven."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Aan de monding van een rivier groeit een zandbank. Dat zand werd eerst stroomopwaarts meegevoerd door het water. Hoe heet dat meevoeren? Antwoord met één woord.",
+          "antwoord": "erosie",
+          "uitleg": "Het wegvoeren van materiaal door water, wind of ijs is erosie. Het afzetten aan de monding, waar de zandbank groeit, is daarna sedimentatie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Op een kaart zie je waar een rivier in zee uitmondt een vertakte waaier van zand en slib. Hoe heet die landvorm? Antwoord met één woord.",
+          "antwoord": "delta",
+          "uitleg": "Waar een rivier uitmondt, stroomt ze traag en laat ze haar materiaal vallen. Zo ontstaat door sedimentatie een waaier van afzettingen: een delta."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Na één zware slagregen kan je soms al met het blote oog zien dat er grond van een akker is weggespoeld.",
+          "antwoord": true,
+          "uitleg": "Erosie werkt meestal traag, maar niet zó traag dat je ze nooit ziet. Na één zware storm of één slagregen kan het verschil al duidelijk zichtbaar zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze dingen kunnen een landschap in enkele uren of dagen sterk veranderen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een vulkaanuitbarsting",
+            "Een zware aardbeving",
+            "Een tsunami",
+            "Een zware storm aan de kust",
+            "Regenwater dat kalksteen tot grotten oplost",
+            "De wind die een dikke leemlaag aanvoert"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "De aarde verandert op twee snelheden. Een uitbarsting, een beving, een tsunami of een zware storm doen het met een schok. Grotten in kalksteen en de leemlaag van Haspengouw hebben duizenden jaren nodig gehad."
+        }
+      ]
+    },
+    {
+      "titel": "Het weer en zijn uitschieters — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "invultekst",
+          "vraag": "Op een tuin van 20 m² valt 15 millimeter regen. Hoeveel liter water valt er op die hele tuin? Antwoord met een getal.",
+          "antwoord": "300",
+          "uitleg": "Eén millimeter neerslag is één liter per vierkante meter. 15 millimeter is dus 15 liter op elke vierkante meter, en op 20 vierkante meter is dat 20 keer 15 liter, of 300 liter."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Op een plat dak van 10 m² is tijdens een bui 45 liter regen gevallen. Hoeveel millimeter neerslag viel er? Antwoord met een getal.",
+          "antwoord": "4,5",
+          "uitleg": "Hier reken je terug. Verdeel de 45 liter over de 10 vierkante meter: dat is 4,5 liter per vierkante meter. En één liter per vierkante meter is één millimeter, dus viel er 4,5 millimeter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De wind blaast de rook van een schoorsteen naar het oosten. Welke wind waait er?",
+          "opties": [
+            "Een westenwind",
+            "Een oostenwind",
+            "Een noordenwind",
+            "Een zuidenwind"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een wind wordt genoemd naar waar hij vandaan komt, niet naar waar hij heen gaat. Gaat de rook naar het oosten, dan komt de wind uit het westen: een westenwind."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Er waait een noordoostenwind. In welke richting drijft een ballon die je loslaat?",
+          "opties": [
+            "Naar het zuidwesten",
+            "Naar het noordoosten",
+            "Naar het noordwesten",
+            "Naar het zuidoosten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een noordoostenwind komt uit het noordoosten. Hij blaast dus alles naar de tegenovergestelde kant, en het tegenovergestelde van noordoost is zuidwest."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom brengt een depressie meestal wolken en regen?",
+          "opties": [
+            "De lucht stijgt er op, koelt af, en zo vormen zich wolken",
+            "De lucht zakt er naar beneden, en dan lossen de wolken op",
+            "De luchtdruk is er hoog, en die duwt de wolken samen",
+            "De lucht is er warmer dan elders, en warme lucht is altijd nat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een depressie is een gebied met lage luchtdruk. Daar stijgt de lucht, koelt af en vormen zich wolken, en die brengen regen. Zakkende lucht hoort bij hoge druk, en daar lossen de wolken net op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een klimatogram staat de temperatuurlijn het hoogst in januari en het laagst in juli. Waar ligt die plaats?",
+          "opties": [
+            "Op het zuidelijk halfrond",
+            "Op het noordelijk halfrond",
+            "Precies op de evenaar",
+            "Dat kan je uit een klimatogram niet afleiden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Is het warmst in juli, dan ligt de plaats op het noordelijk halfrond. Is het warmst in januari, zoals hier, dan ligt ze op het zuidelijk halfrond."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tom kijkt naar een klimatogram en zegt: 'De staafjes zijn in augustus het hoogst, dus augustus is de warmste maand.' Wat is er mis met zijn redenering?",
+          "opties": [
+            "De staafjes tonen de neerslag, de temperatuur lees je af aan de lijn",
+            "De staafjes tonen de temperatuur van het vorige jaar",
+            "De warmste maand is op elk klimatogram altijd juli",
+            "Er is niets mis, hoge staafjes betekenen warm weer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op een klimatogram zijn de staafjes de neerslag en is de lijn de temperatuur. Hoge staafjes in augustus betekenen dus dat er dan veel neerslag valt, niet dat het warm is."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Op een uitgedroogde, harde bodem stroomt hevige regen eerder over de grond weg dan dat hij erin zakt.",
+          "antwoord": true,
+          "uitleg": "Valt er in korte tijd heel veel regen op een droge, harde bodem, dan zakt het water niet weg maar stroomt het over de grond weg. Dat geeft wateroverlast lager in de streek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke combinaties van wat je meet, het toestel en de eenheid kloppen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Luchtdruk, barometer, hectopascal",
+            "Windsnelheid, anemometer, Beaufort",
+            "Neerslag, regenmeter, graden Celsius",
+            "Temperatuur, barometer, graden Celsius",
+            "Luchtdruk, anemometer, hectopascal"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De luchtdruk meet je met een barometer in hectopascal, de windsnelheid met een anemometer in kilometer per uur of Beaufort. Neerslag meet je in millimeter, de temperatuur met een thermometer, en een anemometer meet geen luchtdruk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over orkanen en tornado's kloppen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een orkaan ontstaat enkel boven warm zeewater",
+            "Een tornado ontstaat meestal uit een zware onweersbui",
+            "Een orkaan bestrijkt een veel breder gebied dan een tornado",
+            "Het oog is het stormachtigste deel van een orkaan",
+            "Een tornado ontstaat enkel boven warm zeewater"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Orkanen hebben warm zeewater nodig voor damp en energie, tornado's ontstaan uit zware onweersbuien. Een orkaan is breed, een tornado smal maar hevig. Het oog is net het rustige midden van de orkaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een gemeente verandert een groot weiland op een helling in een parking. Bij de volgende hevige bui loopt de straat onderaan de helling vol water. Waarom?",
+          "opties": [
+            "Het regenwater kan niet meer insijpelen en stroomt meteen naar beneden",
+            "Een parking trekt meer regen aan dan een weiland",
+            "Het weiland hield vroeger alle regen tegen met een dijk",
+            "Op een parking verdampt het water trager dan op gras"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op verharde oppervlakken zakt het water niet weg, dus vloeit het meteen af. En water stroomt van de helling naar beneden, dus komt het onderaan samen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke maatregel past NIET bij het idee 'water plaats en tijd geven'?",
+          "opties": [
+            "Een kronkelende beek rechttrekken, zodat het water sneller wegstroomt",
+            "Een overstromingsgebied naast de rivier aanleggen",
+            "Regenwater laten insijpelen in plaats van het meteen af te voeren",
+            "Beken meer ruimte geven om te kronkelen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het idee is het water te laten staan, insijpelen of trager stromen, zodat het minder piekt. Een beek rechttrekken jaagt het water net sneller weg, en dat is het omgekeerde."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij windkracht 7 op de schaal van Beaufort spreekt men al van storm.",
+          "antwoord": false,
+          "uitleg": "Van storm spreekt men vanaf windkracht 9 op de schaal van Beaufort. Windkracht 7 is wel stevig, maar nog geen storm."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Op een bergtop is het meestal kouder dan in het dal eronder, ook al zit je op de top een beetje dichter bij de zon.",
+          "antwoord": true,
+          "uitleg": "Hoger is de lucht dunner en houdt ze minder warmte vast. Dat weegt veel zwaarder dan die paar honderd meter dichter bij de zon."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een weerbericht dat regen voorspelt over tien dagen, is even zeker als een voorspelling voor morgen.",
+          "antwoord": false,
+          "uitleg": "Een weerbericht geeft kansen, geen zekerheden. Hoe verder vooruit, hoe minder zeker de voorspelling wordt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het weerbericht gaat 's ochtends van code geel naar code rood. Wat betekent die verandering?",
+          "opties": [
+            "Van opletten naar zeer gevaarlijk weer",
+            "Van gevaarlijk naar opletten",
+            "Van zeer gevaarlijk naar gevaarlijk weer",
+            "Van opletten naar gevaarlijk, maar nog niet zeer gevaarlijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Geel is opletten, oranje is gevaarlijk en rood is zeer gevaarlijk. Van geel naar rood sla je oranje over: de verwachting is dus sterk verslechterd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin beschrijft het weer, en niet het klimaat?",
+          "opties": [
+            "Gisteren viel er in Gent 30 millimeter regen",
+            "In België valt de neerslag gespreid over het hele jaar",
+            "In Ukkel is juli gemiddeld de warmste maand",
+            "In België is het gemiddeld over jaren zacht en vochtig"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het weer gaat over één moment of één dag. Het klimaat is het gemiddelde over jaren. Alleen de regen van gisteren in Gent gaat over één dag."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Op maandag valt er 7 millimeter regen, op dinsdag 3 millimeter en op woensdag 12 millimeter. Hoeveel liter regen viel er die drie dagen samen op één vierkante meter? Antwoord met een getal.",
+          "antwoord": "22",
+          "uitleg": "Samen viel er 7 plus 3 plus 12, dus 22 millimeter. Eén millimeter is één liter per vierkante meter, dus kwam er 22 liter op elke vierkante meter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Dorp A ligt bovenop een plateau met een zandbodem. Dorp B ligt in het dal onderaan een helling vol wegen en parkings. Na een hevige bui loopt één dorp onder. Welk, en waarom?",
+          "opties": [
+            "Dorp B, want het water stroomt van de verharde helling naar beneden",
+            "Dorp A, want op een plateau blijft het regenwater staan",
+            "Dorp A, want zand houdt het water het langst vast",
+            "Dorp B, want in een dal valt altijd meer regen dan bovenop"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op de verharde helling zakt het water niet weg en het stroomt naar beneden, naar dorp B. Bovenop, op het zand van dorp A, kan het water wegzakken en het stroomt er niet naartoe."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen uit een weerbericht gaan over een weerelement? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Het wordt vanmiddag 18 graden",
+            "De luchtdruk daalt naar 990 hectopascal",
+            "Er valt tot 5 millimeter regen",
+            "Er waait een westenwind van 4 Beaufort",
+            "De Ardennen liggen hoger dan de kust",
+            "In de Kempen ligt een zandbodem"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Temperatuur, luchtdruk, neerslag en wind zijn weerelementen. Hoe hoog een streek ligt en welke bodem er ligt, zijn lagen van het landschap en geen weer."
+        }
+      ]
+    },
+    {
+      "titel": "Het klimaat verandert — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zegt men dat je bij het kappen van een bos twee keer verliest in de strijd tegen het versterkt broeikaseffect?",
+          "opties": [
+            "De koolstof in het bos komt vrij, en het bos neemt daarna niets meer op",
+            "Het bos stoot na het kappen methaan uit, en het hout wordt duurder",
+            "Er valt daarna minder regen, en de zon schijnt harder op de grond",
+            "De bodem wordt er minder vruchtbaar, en de zeespiegel stijgt erdoor"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een bos is een koolstofput: het neemt koolstofdioxide uit de lucht op. Kap je het, dan komt de koolstof die erin zat vrij, en tegelijk verdwijnt de put die nieuwe koolstofdioxide opnam."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Sara legt uit: 'Een auto verbrandt benzine. Daarbij komt koolstofdioxide vrij. Dat gas houdt het zonlicht tegen voor het de aarde bereikt. Zo wordt het warmer.' Welke stap in haar uitleg klopt NIET?",
+          "opties": [
+            "Dat koolstofdioxide het zonlicht tegenhoudt voor het de aarde bereikt",
+            "Dat er bij het verbranden van benzine koolstofdioxide vrijkomt",
+            "Dat een auto met een benzinemotor benzine verbrandt",
+            "Dat het daardoor uiteindelijk warmer wordt op aarde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het zonlicht komt gewoon binnen en warmt de aarde op. Het is de warmte die de aarde terugstraalt, die door broeikasgassen deels wordt vastgehouden. Als het licht zou worden tegengehouden, zou het net kouder worden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het broeikaseffect is ontstaan door wat de mensen doen.",
+          "antwoord": false,
+          "uitleg": "Het broeikaseffect bestond al lang voor er mensen waren, en zonder zou het op aarde gemiddeld ver onder nul zijn. Wat de mens veroorzaakt, is het versterkt broeikaseffect."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk smeltend ijs doet de zeespiegel stijgen?",
+          "opties": [
+            "Een ijskap die op het land ligt",
+            "Drijvend zee-ijs rond de noordpool",
+            "Een ijsschots die op de oceaan drijft",
+            "Ze doen de zeespiegel allemaal evenveel stijgen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Drijvend ijs verplaatst al evenveel water als het zelf weegt, dus als het smelt, stijgt de zee daardoor niet sterk. Alleen ijs dat op land ligt, voegt nieuw water aan de zee toe."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke maatregelen zijn adaptatie, en geen vermindering van de uitstoot? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een stenen plein ontharden zodat water in de grond kan",
+            "Een dijk verhogen omdat de zee hoger komt",
+            "Woningen beter isoleren",
+            "Stroom opwekken met windmolens",
+            "Vaker de fiets nemen in plaats van de auto"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Adaptatie is je aanpassen aan een klimaat dat al veranderd is: ontharden tegen wateroverlast en hitte, een hogere dijk tegen de stijgende zee. Isoleren, windstroom en fietsen zorgen dat er minder broeikasgassen in de lucht komen, en dat is de uitstoot verminderen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een land stoot heel weinig broeikasgassen uit, maar het heeft een lange, laaggelegen kust en een al droog klimaat. Wat kan je daarover besluiten?",
+          "opties": [
+            "Het kan toch zwaar getroffen worden door klimaatverandering",
+            "Het blijft gespaard, want het stoot zelf bijna niets uit",
+            "Het wordt alleen getroffen als het zelf meer gaat uitstoten",
+            "Het krijgt vooral last van strengere winters met veel sneeuw"
+          ],
+          "antwoord": 0,
+          "uitleg": "Landen met veel laagliggende kust of met een al droog klimaat krijgen de zwaarste klappen, en dat zijn vaak niet de landen die het meest uitstoten. De dampkring is gedeeld, dus de gevolgen houden zich niet aan wie uitstoot."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een week met strenge vorst in België bewijst dat de aarde niet aan het opwarmen is.",
+          "antwoord": false,
+          "uitleg": "Eén koude week is weer, en zegt niets over het klimaat. Klimaat gaat over gemiddelden over jaren, dus één koude week bewijst evenmin iets als één warme dag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het Amazonewoud ligt duizenden kilometers van België. Waarom zou het ons hier toch iets kosten als het verdwijnt?",
+          "opties": [
+            "Het neemt veel koolstofdioxide op, en de dampkring is gedeeld",
+            "Het levert het meeste hout voor de Belgische huizen",
+            "Het houdt de wind tegen die anders naar België zou waaien",
+            "Het zorgt voor de regen die in de Belgische polders valt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het Amazonewoud is een koolstofput. Verdwijnt het, dan blijft er meer koolstofdioxide in de lucht hangen, en die lucht waait niet netjes binnen landsgrenzen: de dampkring van de hele wereld is gedeeld."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een duiker ziet dat een groot stuk koraalrif wit verbleekt is en afsterft. Wat is daarvan de waarschijnlijkste oorzaak?",
+          "opties": [
+            "Het zeewater is te warm geworden",
+            "Het zeewater is te koud geworden",
+            "De zeespiegel is gezakt door droogte",
+            "Er drijft te veel zee-ijs boven het rif"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hier redeneer je van het gevolg naar de oorzaak. Een koraalrif is gevoelig voor opwarming: warm water doet het koraal verbleken en afsterven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze dingen zorgen ervoor dat er meer broeikasgassen in de lucht komen of blijven? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een bos kappen en verbranden",
+            "Een stortplaats vol afval",
+            "Een huis verwarmen met stookolie",
+            "Veeteelt",
+            "Een windmolen die stroom maakt",
+            "Een dak vol zonnepanelen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Bij het verbranden van bos en stookolie komt koolstofdioxide vrij, en een gekapt bos neemt er ook niets meer van op. Stortplaatsen en veeteelt leveren methaan. Wind en zon zijn hernieuwbaar: er wordt niets verbrand."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bossen en oceanen nemen koolstofdioxide uit de lucht op. Hoe noemt men ze daarom? Antwoord met één woord.",
+          "antwoord": "koolstofputten",
+          "uitleg": "Bossen en oceanen heten koolstofputten omdat ze koolstofdioxide uit de lucht opnemen. Daardoor halen ze een deel van de uitstoot weer uit de dampkring."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een gemeente breekt de tegels van een plein uit en legt er gras en bomen, zodat de regen in de grond kan. Hoe heet die maatregel? Antwoord met één woord.",
+          "antwoord": "ontharding",
+          "uitleg": "Verharding wegnemen zodat water in de grond kan, heet ontharding. Het is een vorm van adaptatie, en het helpt meteen ook tegen hitte in de stad."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk broeikasgas komt vooral uit veeteelt, rijstvelden en stortplaatsen? Antwoord met één woord.",
+          "antwoord": "methaan",
+          "uitleg": "Methaan is een ander broeikasgas dan koolstofdioxide. Het komt vooral uit veeteelt, rijstvelden en stortplaatsen, niet uit het verbranden van brandstof."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een stad haalt de tegels van een plein weg en plant er bomen. Welke voordelen levert dat op? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Regenwater kan weer in de grond zakken",
+            "Het wordt er op een zomerse dag minder warm",
+            "De bomen nemen koolstofdioxide op",
+            "De zeespiegel aan de kust daalt erdoor",
+            "Er valt boven de stad minder regen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Zonder verharding kan het water insijpelen, en zonder steen en asfalt die de warmte vasthouden wordt het minder heet. Bomen nemen ook koolstofdioxide op. De zeespiegel en de hoeveelheid regen verander je met één plein niet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een windmolen stoot tijdens het draaien geen koolstofdioxide uit, maar een centrale die aardgas verbrandt wel.",
+          "antwoord": true,
+          "uitleg": "Bij een windmolen wordt niets verbrand om stroom te maken. Aardgas is een fossiele brandstof, en bij het verbranden ervan komt koolstofdioxide vrij."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Door de opwarming schuiven plant- en diersoorten in Europa op naar het zuiden.",
+          "antwoord": false,
+          "uitleg": "Ze schuiven op naar het noorden. Hun leefgebied schuift mee met de warmte, en als het warmer wordt, ligt het temperatuurbereik dat bij hen past verder naar het noorden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Ook een oceaan helpt tegen het versterkt broeikaseffect, omdat hij koolstofdioxide uit de lucht opneemt.",
+          "antwoord": true,
+          "uitleg": "Niet alleen bossen, ook oceanen zijn koolstofputten. Ze nemen koolstofdioxide uit de lucht op, zodat er minder in de dampkring blijft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke reden voor de stijgende zeespiegel heeft niets met smeltend ijs te maken?",
+          "opties": [
+            "Water zet uit als het warmer wordt",
+            "IJs op het land smelt en loopt naar zee",
+            "De gletsjers in de bergen worden kleiner",
+            "Ijskappen op het land worden elk jaar dunner"
+          ],
+          "antwoord": 0,
+          "uitleg": "De zeespiegel stijgt om drie redenen. Twee daarvan gaan over ijs op het land dat smelt. De derde is dat het zeewater zelf uitzet als het warmer wordt, en daar komt geen ijs aan te pas."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het klimaat van de aarde is vroeger ook al veranderd, zonder mensen. Wat is er volgens wetenschappers nu anders?",
+          "opties": [
+            "De snelheid waarmee het verandert",
+            "Dat het klimaat nu voor het eerst verandert",
+            "Dat de zon nu veel sterker schijnt dan vroeger",
+            "Dat er nu voor het eerst ijs op aarde ligt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Uit luchtbelletjes in diepe ijslagen weten wetenschappers dat het klimaat vroeger ook veranderde. Wat nu anders is, is de snelheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Steenkool, aardolie en aardgas ontstaan uit resten van planten en dieren. Waarom raken ze toch op?",
+          "opties": [
+            "We verbruiken ze veel sneller dan er nieuwe bij komen",
+            "Er leven vandaag geen planten en dieren meer die resten nalaten",
+            "Ze verdampen vanzelf als ze lang onder de grond zitten",
+            "Ze worden door de opwarming in de ondergrond vernietigd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Fossiele brandstoffen zijn ontstaan uit resten van miljoenen jaren geleden. Er wordt er veel sneller van verbruikt dan er bij komt, en daarom raken ze op."
+        }
+      ]
+    },
+    {
+      "titel": "De mens verandert het landschap — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke ingreep hoort NIET bij de transportinfrastructuur?",
+          "opties": [
+            "Een hoogspanningslijn bouwen",
+            "Een kanaal graven",
+            "Een spoorlijn verdubbelen",
+            "Een autosnelweg aanleggen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een hoogspanningslijn loopt ook als een lijn door het landschap, maar ze vervoert stroom en geen mensen of goederen. Ze hoort dus bij de energie-infrastructuur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een gemeente maakt van een maïsakker een verkaveling met twintig huizen. Welke uitspraken kloppen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Het landgebruik verandert",
+            "De bebouwing neemt toe",
+            "Er komt verharding bij",
+            "Het reliëf van de streek verandert",
+            "De ondergrond wordt een ander gesteente"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Van landbouw naar wonen is een verandering in landgebruik, en er komen huizen bij, dus meer bebouwing. Landbouwgebied omzetten in bebouwing is ook een vorm van verharding. Het reliëf en de ondergrond blijven wat ze waren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een dorp telt 1200 inwoners, in gezinnen van gemiddeld 3 personen. Tien jaar later wonen er nog altijd 1200 mensen, maar nu in gezinnen van gemiddeld 2 personen. Elk gezin woont in een eigen woning. Hoeveel woningen zijn er bij nodig?",
+          "opties": [
+            "200",
+            "0",
+            "400",
+            "600"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst waren er 1200 gedeeld door 3, dus 400 gezinnen. Nu zijn het er 1200 gedeeld door 2, dus 600. Bij evenveel mensen zijn er dus 200 woningen meer nodig: meer en kleinere gezinnen betekent meer woningen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In België neemt de bebouwde oppervlakte alleen toe als er meer mensen komen wonen.",
+          "antwoord": false,
+          "uitleg": "De bebouwing neemt toe terwijl de bevolking maar traag groeit. Er zijn steeds meer en kleinere gezinnen, en meer gezinnen betekent meer woningen, ook bij evenveel mensen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een helling is een bos gekapt voor akkers. Sindsdien ligt er na elke zware bui modder op de weg onderaan. Wat is de oorzaak?",
+          "opties": [
+            "Zonder bomen spoelt de bodem van de helling sneller weg",
+            "De akkers trekken meer regen aan dan het bos",
+            "De weg onderaan is door het kappen lager komen te liggen",
+            "De boer heeft modder op de helling aangevoerd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hier ga je van het gevolg naar de oorzaak. Bomen houden met hun wortels de grond vast. Ontbossing op een helling laat de bodem dus sneller wegspoelen, en die modder komt onderaan terecht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Boeren stroomopwaarts pompen veel water uit de rivier om hun akkers te besproeien. Wie merkt daar het meest van?",
+          "opties": [
+            "De mensen verderop langs de rivier",
+            "Alleen de boeren zelf, want het is hun akker",
+            "Niemand, want een rivier raakt nooit leeg",
+            "De mensen aan de bron van de rivier"
+          ],
+          "antwoord": 0,
+          "uitleg": "Irrigatie haalt water uit de rivier of het grondwater. Wat de boeren oppompen, stroomt niet meer verder, dus blijft er verderop minder water over voor wie daar woont."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Er komt een nieuwe spoorlijn. Mensen raken vlotter naar hun werk, maar er moet een stuk bos voor wijken. Welke beoordeling klopt?",
+          "opties": [
+            "De spoorlijn heeft voordelen én nadelen, en die moet je tegen elkaar afwegen",
+            "De spoorlijn heeft alleen nadelen, want er verdwijnt bos",
+            "De spoorlijn heeft alleen voordelen, want treinen zijn goed voor iedereen",
+            "Een ingreep met nadelen kan je met het 5P-model niet beschrijven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een menselijke ingreep heeft niet enkel nadelen: een spoorlijn brengt ook werk en verplaatsing. Het bos dat verdwijnt is wel een nadeel. Het 5P-model is er net om zo'n afweging zichtbaar te maken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een oude groeve kan na de ontginning uitgroeien tot een natuurgebied.",
+          "antwoord": true,
+          "uitleg": "Een veranderd landschap kan wel degelijk hersteld worden, zoals een oude groeve die een natuurgebied wordt. Het duurt alleen langer dan het afbreken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraak klopt NIET?",
+          "opties": [
+            "Ontharding sluit de bodem af",
+            "Landbouwgebied omzetten in bebouwing is een vorm van verharding",
+            "In een wadi kan regenwater in de grond zakken",
+            "Door percelen samen te voegen verdwijnen hagen en houtkanten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het is verharding die de bodem afsluit. Ontharding doet net het omgekeerde: beton of tegels weghalen, zodat de bodem weer open ligt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je zoekt in een Vlaamse streek met een natte vallei naar de plek waar het oudste dorp waarschijnlijk lag. Waar kijk je het eerst?",
+          "opties": [
+            "Op een lichte hoogte naast de vallei",
+            "Midden in de natte vallei, vlak bij het water",
+            "Op de laagste plek van de hele streek",
+            "Langs de autosnelweg die er later kwam"
+          ],
+          "antwoord": 0,
+          "uitleg": "De oudste dorpskernen van Vlaanderen liggen vaak op een lichte hoogte, omdat het daar droger was dan in de vallei. Wie kon kiezen, bouwde niet met zijn voeten in het water."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een bedrijf graaft op zijn terrein een ondiepe kom waar regenwater in kan zakken. Hoe heet zo'n kom? Antwoord met één woord.",
+          "antwoord": "wadi",
+          "uitleg": "Zo'n ondiepe kom heet een wadi. Het regenwater kan erin wegzakken in plaats van af te stromen, en dat valt vooral onder Planet van het 5P-model."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een vereniging teelt tomaten en sla op het dak van een gebouw midden in de stad. Hoe heet die vorm van landbouw? Antwoord met één woord.",
+          "antwoord": "stadslandbouw",
+          "uitleg": "Voedsel telen in of vlak bij de stad heet stadslandbouw. Het scheelt transport en het groen maakt de stad koeler bij hitte."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bij irrigatie kan er zout in de bodem achterblijven, waardoor de grond onbruikbaar wordt. Hoe noem je wat er dan met de bodem gebeurt? Vul aan: de bodem gaat ___. Antwoord met één woord.",
+          "antwoord": "verzilten",
+          "uitleg": "Een van de nadelen van irrigatie is dat de bodem kan verzilten. De andere zijn dat de rivier of het grondwater uitgeput raakt en dat er verderop minder water overblijft."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een windmolenpark hoort bij de transportinfrastructuur, omdat de stroom ervan over lange afstanden vervoerd wordt.",
+          "antwoord": false,
+          "uitleg": "Een windmolenpark wekt stroom op en hoort bij de energie-infrastructuur. Ook de hoogspanningslijn die de stroom vervoert, is energie-infrastructuur. Transportinfrastructuur verplaatst mensen en goederen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Stadslandbouw scheelt transport, omdat het voedsel dicht bij de mensen geteeld wordt die het opeten.",
+          "antwoord": true,
+          "uitleg": "Bij stadslandbouw wordt het voedsel in of vlak bij de stad geteeld. Het hoeft dus niet van ver aangevoerd te worden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tijdens een hittegolf is het boven een groen dak met planten koeler dan boven een betonnen dak. Waarom?",
+          "opties": [
+            "Groen verdampt water, beton niet",
+            "Beton trekt de zon minder aan dan planten",
+            "Planten maken zelf koude lucht aan",
+            "Op een groen dak waait het altijd harder"
+          ],
+          "antwoord": 0,
+          "uitleg": "Groen verdampt water, en dat koelt af. Beton doet dat niet en houdt de warmte net vast. Daarom kan stadslandbouw een stad koeler maken tijdens een hittegolf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een energiebedrijf zoekt een plek voor een nieuw windmolenpark. Welke plek is het best?",
+          "opties": [
+            "Een open vlakte vlak bij de kust",
+            "Een open plek midden in een dicht bos",
+            "Een smalle straat tussen hoge gebouwen",
+            "De bodem van een diep, smal dal"
+          ],
+          "antwoord": 0,
+          "uitleg": "Windmolens staan vaak aan de kust of op open vlakten, omdat het daar harder en gelijkmatiger waait. Bomen, gebouwen en dalwanden houden de wind tegen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze ingrepen herstellen een veranderd landschap gedeeltelijk? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een rechtgetrokken beek weer laten kronkelen",
+            "Een oude groeve een natuurgebied laten worden",
+            "Een weiland verkavelen tot bouwgrond",
+            "Een houtkant rooien om een perceel groter te maken",
+            "Een nieuwe parking aanleggen naast het station"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Een beek die weer mag kronkelen en een groeve die natuur wordt, zijn voorbeelden van herstel. Verkavelen, houtkanten rooien en een parking aanleggen veranderen het landschap net verder."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze ingrepen zijn een vorm van verharding? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een parking aanleggen op een weiland",
+            "Een akker omzetten in een verkaveling",
+            "Een tuin volledig met tegels beleggen",
+            "Een nieuwe autosnelweg aanleggen",
+            "Een betonnen schoolplein opbreken",
+            "Een wadi graven voor regenwater"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Verharding is grond bedekken met beton, asfalt of tegels, en landbouwgebied omzetten in bebouwing hoort daar ook bij. Een schoolplein opbreken is ontharding, en een wadi laat het water net in de grond zakken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je koopt in België een gsm met metalen die in België niet gedolven worden. Waar laat die aankoop een spoor na in het landschap?",
+          "opties": [
+            "Elders in de wereld, waar die metalen gedolven worden",
+            "Nergens, want je koopt de gsm gewoon in een winkel",
+            "Alleen in België, in de winkelstraat waar je hem kocht",
+            "Alleen in de zee, want de gsm komt per schip"
+          ],
+          "antwoord": 0,
+          "uitleg": "De gevolgen stoppen niet aan de grens. Wat wij hier invoeren, wordt elders geteeld of gedolven, en daar verandert het landschap."
+        }
+      ]
+    },
+    {
+      "titel": "Onderzoeken met kaartlagen — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je hypothese luidt: in deze gemeente is er sinds 1990 meer verhard. Welke bron heb je nodig om dat na te gaan?",
+          "opties": [
+            "Twee luchtfoto's van verschillende jaren",
+            "Eén scherpe luchtfoto van vandaag van de hele gemeente",
+            "De bodemkaart van de gemeente",
+            "De hoogtelaag van de gemeente"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je wil een verandering zien, en daarvoor heb je twee tijdstippen nodig. Eén luchtfoto toont alleen de toestand van vandaag. De bodem en de hoogte zeggen niets over verharding."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling ziet op de kaart dat de wijken met veel bomen ook de wijken met de grootste tuinen zijn. Hij besluit: 'Bomen zorgen voor grote tuinen.' Wat is er mis met dat besluit?",
+          "opties": [
+            "Samenvallen op de kaart is een aanwijzing, geen bewijs van oorzaak",
+            "Bomen en tuinen kunnen nooit samen op dezelfde kaartlaag staan",
+            "Hij had eerst een hypothese moeten hebben die klopt",
+            "Er is niets mis, wat samenvalt heeft altijd een oorzaak"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee patronen die op de kaart samenvallen, bewijzen niet dat het ene het andere veroorzaakt. Ze kunnen allebei door iets derds komen, of toevallig samenvallen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Jens zet in de viewer meteen alle lagen tegelijk aan, kijkt rond en bedenkt pas daarna een onderzoeksvraag. Wat loopt er mis? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Hij begint niet met een duidelijke onderzoeksvraag",
+            "Zonder vraag weet hij niet welke lagen hij nodig heeft",
+            "Met alle lagen tegelijk wordt de kaart onleesbaar",
+            "Hij werkt in een viewer in plaats van op een papieren kaart",
+            "Hij heeft geen meetlat om de afstanden te meten"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een onderzoek gaat van vraag naar lagen naar analyse naar besluit, want anders zoek je naar iets wat je nog niet gevraagd hebt. Te veel lagen tegelijk maken de kaart onleesbaar. Een viewer is net handig, en meten doet hij zonder meetlat."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Met het meetgereedschap meet je een perceel van 4500 vierkante meter. Hoeveel hectare is dat? Antwoord met een getal.",
+          "antwoord": "0,45",
+          "uitleg": "Eén hectare is 10 000 vierkante meter. Je deelt dus 4500 door 10 000, en dat geeft 0,45 hectare."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In de viewer zie je op een luchtfoto een leeg weiland. Je vriend zegt: 'Daar staat dus vandaag nog geen enkel huis.' Wat doe je best eerst?",
+          "opties": [
+            "Nakijken van wanneer die luchtfoto dateert",
+            "De legende van de luchtfoto opzoeken",
+            "De luchtfoto transparant maken",
+            "De afstand tot het dichtste huis meten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een luchtfoto in een viewer is niet automatisch van vandaag, en het landschap kan intussen veranderd zijn. Daarom kijk je bij elke laag eerst van wanneer ze dateert."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wordt je hypothese weerlegd, dan mag je ze achteraf aanpassen aan wat je zag, zodat ze toch klopt.",
+          "antwoord": false,
+          "uitleg": "Een hypothese schrijf je vooraf op en toets je daarna. Wordt ze weerlegd, dan schrijf je op wat je wél ziet en zeg je in je besluit dat ze niet klopte. Ook dat levert kennis op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk besluit van een kaartonderzoek is het meest volledig?",
+          "opties": [
+            "De wijk ligt lager dan de rest, dat zie ik op de hoogtelaag, dus mijn hypothese klopte",
+            "De wijk ligt lager dan de rest, en ik heb er heel lang aan gewerkt",
+            "Ik heb de hoogtelaag gebruikt, en die was mooi gekleurd in blauw en groen",
+            "Mijn hypothese klopte, ik heb vijf lagen aangezet en ik heb er heel lang aan gewerkt"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een besluit staan drie dingen: het antwoord op de onderzoeksvraag, waarop je dat baseert, en of je hypothese klopte. Hoelang je werkte of hoe de lagen eruitzagen, hoort er niet in."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil midden in een bos zonder adres een vijver vinden en meten hoe lang de oever rondom is. Welke gereedschappen van de viewer heb je daarvoor vooral nodig? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De zoekbalk, om er coördinaten in te geven",
+            "Het meetgereedschap",
+            "De transparantie van een laag",
+            "De legende van de bodemkaart"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Een plek zonder adres vind je door coördinaten in de zoekbalk te geven. De lengte van de oever meet je met het meetgereedschap. Transparantie en legende helpen bij andere vragen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lien zet twaalf kaartlagen tegelijk aan, om zeker niets te missen. Wat is het gevolg?",
+          "opties": [
+            "De kaart wordt onleesbaar, en ze kiest beter alleen de lagen bij haar vraag",
+            "Haar onderzoek wordt er beter van, want hoe meer gegevens ze ziet, hoe beter",
+            "De viewer meet de afstanden dan nauwkeuriger",
+            "Ze heeft daarna geen onderzoeksvraag meer nodig"
+          ],
+          "antwoord": 0,
+          "uitleg": "Meer lagen tegelijk aanzetten maakt je onderzoek niet beter, het maakt de kaart onleesbaar. Je kiest de lagen die bij je vraag horen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze onderzoeksvragen is het best geschikt voor een kaartonderzoek?",
+          "opties": [
+            "Ligt het nieuwe bedrijventerrein van onze gemeente op vroegere landbouwgrond?",
+            "Is onze gemeente een aangename en gezellige plek om in op te groeien en te wonen?",
+            "Hoe zien alle landschappen op de hele wereld eruit?",
+            "Wat vinden de inwoners van de nieuwe straatverlichting?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een goede onderzoeksvraag is nauwkeurig, gaat over een afgebakend gebied en is met de bronnen te beantwoorden. Met luchtfoto's van vroeger en nu zie je of daar landbouwgrond lag. Wat mensen vinden of wat aangenaam is, staat op geen kaart."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil onderzoeken of er in een gemeente vlak bij het water gebouwd is. Welke lagen zet je aan?",
+          "opties": [
+            "De laag met de waterlopen en de laag met de bebouwing",
+            "De hoogtelaag en de bodemkaart",
+            "De laag met de bebouwing en de laag met de gemeentegrenzen",
+            "De bodemkaart en de laag met het landgebruik"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je vraag gaat over twee dingen: het water en de gebouwen. Zet je die twee lagen samen aan, dan zie je meteen waar ze dicht bij elkaar liggen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een satellietbeeld in een kaartportaal toont iets wat op een gewone kaart niet staat: hoe het gebied er in werkelijkheid uitziet.",
+          "antwoord": true,
+          "uitleg": "Op een kaart staan tekens, op een satellietbeeld zie je het gebied zoals het echt is. Daarom vullen ze elkaar aan in een kaartportaal."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Vallen in de viewer laaggelegen plekken samen met straten die vaak onderlopen, dan is dat een aanwijzing en nog geen bewijs.",
+          "antwoord": true,
+          "uitleg": "Samenvallen is een aanwijzing, geen bewijs. Het kan ook door iets derds komen of toeval zijn, en soms moet je ter plaatse gaan kijken om zeker te zijn."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Klopte je hypothese niet, dan laat je in je besluit beter weg of ze klopte of niet.",
+          "antwoord": false,
+          "uitleg": "Of je hypothese klopte of niet, hoort altijd in je besluit. Een weerlegde hypothese maakt je onderzoek niet waardeloos: je weet nu iets wat je daarvoor niet wist."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je hebt je onderzoeksvraag gesteld en je lagen gekozen. Welke stap komt daarna, nog vóór het besluit? Antwoord met één woord.",
+          "antwoord": "analyseren",
+          "uitleg": "De vier stappen zijn: de vraag stellen, lagen kiezen, analyseren en besluiten. Na het kiezen van de lagen bekijk je dus eerst wat ze samen tonen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je legt een oude kaart over een luchtfoto van vandaag en maakt de bovenste laag doorzichtig, zodat je ziet wat eronder ligt. Welk gereedschap van de viewer gebruik je? Antwoord met één woord.",
+          "antwoord": "transparantie",
+          "uitleg": "Met de transparantie maak je een laag doorzichtig om te zien wat eronder ligt. Zo zie je een oude toestand en de toestand van vandaag tegelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil weten of een straat die nu vaak onderloopt, aangelegd is waar vroeger een beek liep. Wat helpt je het meest?",
+          "opties": [
+            "Een oude kaart en een kaart van vandaag over elkaar leggen",
+            "Alleen een luchtfoto van vandaag bekijken en die goed inzoomen",
+            "Het meetgereedschap op de straat zetten",
+            "De zoekbalk gebruiken om de straatnaam te vinden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op een kaart of luchtfoto van vandaag zie je de beek niet meer. Leg je een oude kaart naast of over een nieuwe, dan zie je waar de beek vroeger liep en of de straat daar nu ligt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je kaartonderzoek toont dat langs een akker een gracht zou moeten liggen. Je wil weten of die gracht vandaag nog water afvoert of dichtgeslibd is. Wat doe je?",
+          "opties": [
+            "Ter plaatse gaan kijken",
+            "Nog meer kaartlagen tegelijk aanzetten",
+            "De transparantie van de laag verhogen",
+            "Je hypothese aanpassen tot ze klopt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Niet alles komt op een kaart terecht. Hoe een gracht er vandaag bij ligt, zie je het best ter plaatse. Soms volstaat een kaartonderzoek dus niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke koppels van een gereedschap van de viewer en wat je ermee doet, kloppen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De zoekbalk: naar een gemeente springen",
+            "Het lagenpaneel: lagen op elkaar stapelen",
+            "De transparantie: zien wat onder een laag ligt",
+            "Het meetgereedschap: de oppervlakte van een perceel meten",
+            "De legende: een laag doorzichtig maken",
+            "De zoekbalk: de lengte van een weg meten"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Met de zoekbalk vind je een plek, met het lagenpaneel zet je lagen aan en stapel je ze, met de transparantie kijk je door een laag en met het meetgereedschap meet je. De legende vertelt wat de kleuren betekenen, en meten doe je niet met de zoekbalk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraak over een hypothese klopt NIET?",
+          "opties": [
+            "Een hypothese schrijf je pas op nadat je de lagen geanalyseerd hebt",
+            "Een hypothese is een verwacht antwoord dat je nog moet nakijken",
+            "Een hypothese kan door je onderzoek weerlegd worden",
+            "Een hypothese helpt je kiezen welke lagen je aanzet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een hypothese is een vermoeden dat je vooraf opschrijft en daarna toetst. Pas je ze aan na de analyse, dan toets je niets meer."
+        }
+      ]
+    },
+    {
+      "titel": "Het landschap op het terrein — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je komt met de klas aan in je onderzoeksgebied. In welke volgorde werk je?",
+          "opties": [
+            "Eerst lokaliseren, dan oriënteren, dan het landschap beschrijven",
+            "Eerst oriënteren, dan lokaliseren, dan het landschap beschrijven",
+            "Eerst het landschap beschrijven, dan lokaliseren, dan oriënteren",
+            "Eerst lokaliseren, dan het landschap beschrijven, dan oriënteren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst stel je vast waar je staat, dan welke kant je uit kijkt. Lokaliseren en oriënteren heb je allebei nodig, en in die volgorde. Pas daarna kan je wat je ziet goed beschrijven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je staat naast een geparkeerde auto en je kompas wijst een richting aan die niet klopt met de stand van de middagzon. Wat doe je het best?",
+          "opties": [
+            "Enkele meters van de auto weggaan en opnieuw kijken",
+            "De naald van het kompas blijven volgen, want die wijst altijd juist",
+            "Je kaart zo draaien dat ze bij de rare richting van het kompas past",
+            "Wachten tot de zon ondergaat en dan opnieuw kijken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een kompas werkt niet betrouwbaar vlak naast een auto of een ijzeren hek, want metaal trekt de naald scheef. Ga dus een eind van de auto weg en kijk opnieuw."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het is middag en de zon schijnt. Op je kaart wijst de noordpijl naar de bovenrand. Hoe leg je de kaart in de juiste richting?",
+          "opties": [
+            "Met de onderrand van de kaart naar de zon toe",
+            "Met de bovenrand van de kaart naar de zon toe",
+            "Met de linkerrand van de kaart naar de zon toe",
+            "Met de rechterrand van de kaart naar de zon toe"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rond de middag staat de zon bij ons in het zuiden. Wijst de noordpijl naar de bovenrand, dan ligt het zuiden aan de onderrand. Die onderrand moet dus naar de zon wijzen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Lokaliseren is bepalen welke kant je uit kijkt.",
+          "antwoord": false,
+          "uitleg": "Dat is oriënteren. Lokaliseren is vaststellen waar je precies staat, bijvoorbeeld met een satellietnavigatiesysteem, een kaart en coördinaten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wrijft wat grond tussen je vingers: het knerpt niet en voelt zacht en melig aan. Een dun draadje rollen lukt niet. Welk los gesteente is dit?",
+          "opties": [
+            "Leem",
+            "Zand",
+            "Klei",
+            "Grind"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zand zou knerpen, en klei zou een heel draadje geven. Grind herken je aan korrels die je gewoon ziet liggen. Zacht en melig, bijna als bloem, past bij leem."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In je kuiltje zie je een donkere bovenlaag en daaronder een grijzige, gevlekte laag. Wat vertellen die kleuren?",
+          "opties": [
+            "Bovenaan zitten veel plantenresten, en de laag eronder is lang nat",
+            "Bovenaan is de grond nat, en de laag eronder zit vol plantenresten",
+            "Beide lagen zijn kurkdroog en bestaan uit grind",
+            "De kleuren zeggen niets, ze hangen alleen van het licht af"
+          ],
+          "antwoord": 0,
+          "uitleg": "De kleur zegt iets over het vocht en de humus. Donker betekent veel plantenresten, grijzig en gevlekt betekent nat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke waarnemingen in een weide wijzen erop dat het grondwater er hoog staat? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een grijzige bodem",
+            "Riet dat errond groeit",
+            "Grond die knerpt tussen je vingers",
+            "Een donkere bovenlaag vol plantenresten",
+            "Een kerktoren die in het zuiden staat"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Riet groeit niet op droge grond, en een grijzige kleur krijgt een bodem door langdurige natheid. Knerpen wijst op zand, en een donkere bovenlaag op plantenresten, niet op hoog grondwater."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Amir staat bovenop een heuvel, Lotte staat onderaan dezelfde heuvel. Wie ziet de horizonlijn het verst weg, en waarom?",
+          "opties": [
+            "Amir, want bovenop neemt geen helling zijn zicht weg",
+            "Lotte, want onderaan ligt de horizonlijn altijd verder",
+            "Allebei even ver, want de horizonlijn ligt overal even ver",
+            "Lotte, want zij staat dichter bij de zeespiegel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Onderaan een helling ligt de horizonlijn dichtbij, want de helling neemt je zicht weg. Bovenop kijk je veel verder. De horizonlijn verschuift mee als je zelf verschuift."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil in je verslag tonen waar de helling en de horizonlijn liggen, maar de geparkeerde auto's en de vuilnisbakken doen voor je vraag niet ter zake. Wat maak je het best?",
+          "opties": [
+            "Een schets van het landschap",
+            "Een foto van het landschap",
+            "Een lijst van alle dingen die je zag",
+            "Een foto van je kuiltje in de grond"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op een schets kies je zelf wat belangrijk is: je laat weg wat niet ter zake doet en zet groot wat wel telt. Een foto neemt alles even hard mee, ook de auto's."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke notitie situeert een bomenrij het best ten opzichte van de kerktoren?",
+          "opties": [
+            "De bomenrij staat 300 meter ten oosten van de kerktoren",
+            "De bomenrij staat ergens in de buurt van de kerktoren",
+            "De bomenrij staat ten oosten van de grote kerktoren",
+            "De bomenrij staat 300 meter van de kerktoren vandaan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Situeer je ten opzichte van een kerktoren, dan noteer je de richting én de afstand. Zonder richting of zonder afstand zegt de notitie weinig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke waarnemingen horen bij de beschrijving van het reliëf of van de bodem, en niet bij de vegetatie, de bebouwing of het landgebruik? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De helling van het terrein",
+            "Waar de horizonlijn ligt",
+            "De kleur van de lagen in je kuiltje",
+            "Hoe vochtig de grond is",
+            "Een rij knotwilgen langs de gracht",
+            "Een loods met een parking ernaast"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "De helling en de horizonlijn horen bij het reliëf, de kleur en de vochtigheid bij het bodemonderzoek. Knotwilgen zijn vegetatie die de mens geplant heeft, en een loods met een parking hoort bij de bebouwing en het landgebruik."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op je kaart staat een weide, maar ter plaatse zie je een nieuwe woonwijk. Wat is de beste verklaring?",
+          "opties": [
+            "De kaart is ouder dan het landschap",
+            "Je hebt je zeker vergist van gebied",
+            "Woonwijken worden nooit op een kaart getekend",
+            "De woonwijk staat er maar tijdelijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Klopt wat je ziet niet met de kaart, dan is dat op zich al een vondst: misschien is de kaart ouder dan het landschap. Daarom vergelijk je je waarnemingen achteraf met een kaart."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het laagste punt van je onderzoeksgebied ligt op 35 meter, het hoogste op 82 meter. Hoeveel meter is het hoogteverschil? Antwoord met een getal.",
+          "antwoord": "47",
+          "uitleg": "Het hoogteverschil is het verschil tussen het laagste en het hoogste punt van je gebied. 82 min 35 is 47 meter."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Met een satellietnavigatiesysteem, een kaart en de coördinaten stel je vast waar je precies staat. Hoe heet dat? Antwoord met één woord.",
+          "antwoord": "lokaliseren",
+          "uitleg": "Vaststellen waar je precies staat, heet lokaliseren. Bepalen welke kant je uit kijkt, is oriënteren, en dat komt daarna."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In je onderzoeksgebied zie je grote loodsen, parkings en vrachtwagens. Welk landgebruik herken je daaraan? Antwoord met één woord.",
+          "antwoord": "industrie",
+          "uitleg": "Aan de bebouwing zie je vaak meteen hoe de grond gebruikt wordt. Loodsen en parkings horen bij industrie, een rij huizen bij wonen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het is middag en je kijkt recht naar de zon. De kerktoren staat links van je. In welke richting ligt de kerktoren?",
+          "opties": [
+            "In het oosten",
+            "In het westen",
+            "In het noorden",
+            "In het zuiden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rond de middag staat de zon bij ons in het zuiden, dus je kijkt naar het zuiden. Kijk je naar het zuiden, dan ligt het oosten links en het westen rechts."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Onder dicht bladerdek is een kompas betrouwbaarder dan een satellietnavigatiesysteem.",
+          "antwoord": true,
+          "uitleg": "Onder dicht bladerdek verliest een satellietnavigatiesysteem de satellieten uit het oog. Een kompas heeft daar geen last van; het wordt alleen scheefgetrokken door metaal vlakbij."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een kuiltje dat je gegraven hebt om de bodem te bekijken, laat je het best open, zodat anderen de lagen ook kunnen zien.",
+          "antwoord": false,
+          "uitleg": "Je vraagt eerst toestemming aan wie de grond beheert, en daarna leg je het kuiltje weer dicht. Openlaten hoort er niet bij."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een bovenlaag die donkerder is dan de laag eronder, wijst op veel plantenresten in die bovenlaag.",
+          "antwoord": true,
+          "uitleg": "De bovenste laag is meestal donkerder door de plantenresten erin. Donker betekent veel plantenresten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke dingen kan je alleen ter plaatse vaststellen, en niet van een kaart aflezen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Hoe het gebied ruikt",
+            "Welke geluiden je er hoort",
+            "Hoe zwaar het stapt om de helling op te gaan",
+            "Hoe hoog een plaats boven de zeespiegel ligt",
+            "Waar de wegen door het gebied lopen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Kleur, geur, geluid en hoe zwaar een helling stapt, staan op geen enkele kaart. De hoogte boven de zeespiegel en de ligging van de wegen kan je wel van een kaart aflezen."
+        }
+      ]
+    }
+  ]
+}

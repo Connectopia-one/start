@@ -26,8 +26,9 @@ Klaar: **heel 🌱 Start**, alle zes de vakken, 31 hoofdstukken en 620 vragen.
 Sinds 15 oktober 2026 ook bij **✨ Spark**, na een melding dat die vragen te
 makkelijk zijn, vooral bij techniek. Daar hoort het pittige hoofdstuk bij een
 heel thema en niet bij een deel: "Transport en overbrengingen — pittig" komt
-achter "— deel 2" te staan. Klaar: **techniek**, elf hoofdstukken en 220
-vragen, met de vragen per thema in `bron/spark_techniek_themas/`.
+achter "— deel 2" te staan. Klaar: **alle negen vakken van Spark**, 86
+hoofdstukken en 1720 vragen (techniek 220, wiskunde 180, geschiedenis 120, de
+zes andere elk 200). De vragen staan per thema in `bron/spark_<vak>_themas/`.
 
 Nederlands laat twee hoofdstukken bewust liggen: spelling, dat al een eigen
 bestand heeft, en begrijpend lezen, waar een pittige versie eerst een eigen
@@ -82,6 +83,14 @@ met het label **Moeilijker**. Geen kolom in de databank, dus **geen SQL**.
 | `start-engels-pittig.json` | Engels | 🌱 Start | **aan** |
 | `start-wetenschap-en-techniek-pittig.json` | Wetenschap en techniek | 🌱 Start | **aan** |
 | `spark-techniek-pittig.json` | Techniek | ✨ Spark | **aan** |
+| `spark-wiskunde-pittig.json` | Wiskunde | ✨ Spark | **aan** |
+| `spark-nederlands-pittig.json` | Nederlands | ✨ Spark | **aan** |
+| `spark-frans-pittig.json` | Frans | ✨ Spark | **aan** |
+| `spark-engels-pittig.json` | Engels | ✨ Spark | **aan** |
+| `spark-natuurwetenschappen-pittig.json` | Natuurwetenschappen | ✨ Spark | **aan** |
+| `spark-geschiedenis-pittig.json` | Geschiedenis | ✨ Spark | **aan** |
+| `spark-aardrijkskunde-pittig.json` | Aardrijkskunde | ✨ Spark | **aan** |
+| `spark-samenleving-en-economie-pittig.json` | Samenleving en economie | ✨ Spark | **aan** |
 
 Telkens via **Beheer → Vakken → het vak → vragen importeren**, met het vinkje
 **"Bestaande vragen vervangen" aan**. Een bestand raakt alleen zijn eigen nieuwe

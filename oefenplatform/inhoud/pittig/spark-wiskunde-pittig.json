@@ -1,0 +1,1843 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Negatieve getallen en procenten — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is \\(-2 \\cdot (-3) \\cdot (-5)\\)?",
+          "opties": [
+            "\\(-30\\)",
+            "\\(30\\)",
+            "\\(-10\\)",
+            "\\(10\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Reken eerst zonder tekens: \\(2 \\cdot 3 \\cdot 5 = 30\\). Daarna het teken: \\(-2 \\cdot -3\\) geeft plus \\(6\\), en \\(6 \\cdot -5\\) geeft weer min. Drie mintekens houden dus de min."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is \\((-1)^{7} + (-1)^{8}\\)?",
+          "opties": [
+            "\\(0\\)",
+            "\\(-2\\)",
+            "\\(2\\)",
+            "\\(1\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een oneven exponent houdt de min, dus \\((-1)^{7} = -1\\). Een even exponent geeft plus, dus \\((-1)^{8} = 1\\). Samen geeft dat \\(-1 + 1 = 0\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "'s Ochtends is het \\(-4^{\\circ}\\text{C}\\). Tegen de middag wordt het \\(9\\) graden warmer, en 's avonds koelt het \\(12\\) graden af. Hoeveel graden Celsius is het 's avonds? Antwoord met een getal.",
+          "antwoord": "-7",
+          "uitleg": "Eerst \\(-4 + 9 = 5\\), dus 's middags is het \\(5^{\\circ}\\text{C}\\). Daarna \\(5 - 12\\): vijf stappen tot aan nul en nog zeven verder, dus \\(-7^{\\circ}\\text{C}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Van welk getal moet je \\(-8\\) aftrekken om \\(3\\) uit te komen?",
+          "opties": [
+            "\\(-5\\)",
+            "\\(11\\)",
+            "\\(5\\)",
+            "\\(-11\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een tegengestelde aftrekken is optellen, dus je zoekt een getal waarbij \\(+ 8\\) uitkomt op \\(3\\). Dat is \\(3 - 8 = -5\\). Controle: \\(-5 - (-8) = -5 + 8 = 3\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lies rekent \\(-3 \\cdot (2 - 6) + (-2)^{2}\\) uit in vier stappen. Stap 1: \\(2 - 6 = -4\\). Stap 2: \\(-3 \\cdot -4 = -12\\). Stap 3: \\((-2)^{2} = 4\\). Stap 4: \\(-12 + 4 = -8\\). Waar zit haar fout?",
+          "opties": [
+            "In stap 2, want \\(-3 \\cdot -4\\) is \\(12\\)",
+            "In stap 1, want \\(2 - 6\\) is \\(4\\)",
+            "In stap 3, want \\((-2)^{2}\\) is \\(-4\\)",
+            "In stap 4, want \\(-12 + 4\\) is \\(-16\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Min maal min geeft plus, dus \\(-3 \\cdot -4 = 12\\). Met die verbetering wordt het \\(12 + 4 = 16\\). De andere stappen kloppen: \\(2 - 6\\) is wel degelijk \\(-4\\), en een even exponent geeft plus."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\\((-3)^{4}\\) en \\(3^{4}\\) hebben dezelfde uitkomst.",
+          "antwoord": true,
+          "uitleg": "Allebei \\(81\\). Bij een even exponent vallen de mintekens twee aan twee weg. Bij \\((-3)^{3}\\) zou dat niet zo zijn: dat is \\(-27\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\\(-6 - (-6)\\) is gelijk aan \\(-12\\).",
+          "antwoord": false,
+          "uitleg": "Een tegengestelde aftrekken is optellen: \\(-6 - (-6) = -6 + 6 = 0\\). Wie \\(-12\\) uitkomt, heeft de tweede min als bewerking gelezen en het teken van \\(-6\\) vergeten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een spel kost \\(50\\) euro. De prijs gaat eerst \\(20\\,\\%\\) omhoog en daarna \\(20\\,\\%\\) omlaag. Wat kost het spel dan?",
+          "opties": [
+            "\\(48\\) euro",
+            "\\(50\\) euro",
+            "\\(52\\) euro",
+            "\\(46\\) euro"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst \\(1{,}20 \\cdot 50 = 60\\). De daling rekent op die \\(60\\): \\(0{,}80 \\cdot 60 = 48\\). De tweede \\(20\\,\\%\\) wordt van een groter bedrag genomen, daardoor kom je niet terug op \\(50\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Na \\(25\\,\\%\\) korting betaal je \\(36\\) euro voor een paar schoenen. Wat was de prijs vóór de korting?",
+          "opties": [
+            "\\(48\\) euro",
+            "\\(45\\) euro",
+            "\\(27\\) euro",
+            "\\(44\\) euro"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na \\(25\\,\\%\\) korting betaal je nog \\(75\\,\\%\\), dus \\(36\\) euro is \\(75\\,\\%\\) van de oude prijs. Terug naar de oude prijs ga je door te delen: \\(36 : 0{,}75 = 48\\). Wie \\(25\\,\\%\\) van \\(36\\) bij \\(36\\) optelt, komt verkeerd uit op \\(45\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een abonnement zakt van \\(50\\) euro naar \\(40\\) euro. Met hoeveel procent is de prijs gedaald?",
+          "opties": [
+            "\\(20\\,\\%\\)",
+            "\\(25\\,\\%\\)",
+            "\\(10\\,\\%\\)",
+            "\\(80\\,\\%\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het verschil is \\(10\\) euro, en dat deel je door waar je vandaan komt: \\(10 : 50 = 0{,}20\\), dus \\(20\\,\\%\\). Wie door \\(40\\) deelt, krijgt \\(25\\,\\%\\), maar dat is het antwoord op een andere vraag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "\\(12\\,\\%\\) van \\(50\\) is evenveel als hoeveel procent van \\(12\\)?",
+          "opties": [
+            "\\(50\\,\\%\\)",
+            "\\(12\\,\\%\\)",
+            "\\(6\\,\\%\\)",
+            "\\(25\\,\\%\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een percentage nemen is vermenigvuldigen, dus je mag de getallen omwisselen. \\(12\\,\\%\\) van \\(50\\) is \\(6\\), en \\(50\\,\\%\\) van \\(12\\) is ook \\(6\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Op een school dragen \\(45\\) leerlingen een bril. Dat is \\(15\\,\\%\\) van alle leerlingen. Hoeveel leerlingen telt de school? Antwoord met een getal.",
+          "antwoord": "300",
+          "uitleg": "Je kent het deel en het percentage, dus je deelt door het percentage: \\(45 : 0{,}15 = 300\\). Controle: \\(15\\,\\%\\) van \\(300\\) is \\(0{,}15 \\cdot 300 = 45\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een jas kost overal \\(120\\) euro. Winkel A geeft \\(15\\,\\%\\) korting, winkel B geeft \\(20\\) euro korting. Hoeveel betaal je in de goedkoopste winkel?",
+          "opties": [
+            "\\(100\\) euro, in winkel B",
+            "\\(102\\) euro, in winkel A",
+            "\\(105\\) euro, in winkel A",
+            "\\(96\\) euro, in winkel B"
+          ],
+          "antwoord": 0,
+          "uitleg": "In winkel A is de korting \\(0{,}15 \\cdot 120 = 18\\) euro, dus je betaalt \\(102\\) euro. In winkel B betaal je \\(120 - 20 = 100\\) euro. Reken altijd allebei de eindprijzen uit, want een percentage klinkt soms voordeliger dan het is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Na een verhoging van \\(10\\,\\%\\) kost een ticket \\(66\\) euro. Hoeveel kostte het vóór de verhoging?",
+          "opties": [
+            "\\(60\\) euro",
+            "\\(59{,}40\\) euro",
+            "\\(56\\) euro",
+            "\\(72{,}60\\) euro"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(66\\) euro is \\(110\\,\\%\\) van de oude prijs, dus je deelt door \\(1{,}10\\): \\(66 : 1{,}10 = 60\\). Wie \\(10\\,\\%\\) van \\(66\\) aftrekt, komt op \\(59{,}40\\) uit, maar dan reken je het percentage op het verkeerde bedrag."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een prijs die eerst \\(10\\,\\%\\) daalt en daarna \\(10\\,\\%\\) stijgt, komt op hetzelfde bedrag uit als een prijs die eerst \\(10\\,\\%\\) stijgt en daarna \\(10\\,\\%\\) daalt.",
+          "antwoord": true,
+          "uitleg": "Neem \\(100\\) euro. Eerst omlaag: \\(90\\), dan \\(10\\,\\%\\) erbij geeft \\(99\\). Eerst omhoog: \\(110\\), dan \\(10\\,\\%\\) eraf geeft ook \\(99\\). Het zijn twee vermenigvuldigingen, met \\(0{,}90\\) en \\(1{,}10\\), en de volgorde maakt dan niet uit."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als de temperatuur van \\(-8^{\\circ}\\text{C}\\) naar \\(-2^{\\circ}\\text{C}\\) gaat, is ze met \\(10\\) graden gestegen.",
+          "antwoord": false,
+          "uitleg": "Van \\(-8\\) naar \\(-2\\) zet je zes stappen naar rechts, dus het is \\(6\\) graden warmer. De nul wordt hier niet overschreden, dus je mag de getallen niet optellen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke berekening heeft een positieve uitkomst?",
+          "opties": [
+            "\\((-3)^{3} \\cdot (-2)\\)",
+            "\\(-4 \\cdot 5 : (-2) \\cdot (-1)\\)",
+            "\\((-2)^{5}\\)",
+            "\\(-1 \\cdot (-1) \\cdot (-1)\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\((-3)^{3} = -27\\), en \\(-27 \\cdot -2 = 54\\): positief. Tel bij de andere de mintekens: \\(-4 \\cdot 5 : (-2) \\cdot (-1)\\) heeft er drie en geeft \\(-10\\), en \\((-2)^{5}\\) en \\(-1 \\cdot (-1) \\cdot (-1)\\) hebben er een oneven aantal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is \\(-24 : (-6) - (-3) \\cdot 2\\)?",
+          "opties": [
+            "\\(10\\)",
+            "\\(-2\\)",
+            "\\(14\\)",
+            "\\(2\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst maal en gedeeld: \\(-24 : (-6) = 4\\) en \\(-3 \\cdot 2 = -6\\). Dan blijft \\(4 - (-6) = 4 + 6 = 10\\). Wie de min voor de \\(-6\\) vergeet, komt op \\(-2\\) uit."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een duiker zit op \\(-18\\) m. Hij stijgt \\(7\\) m en zakt daarna \\(4\\) m. Hoeveel meter moet hij nu nog stijgen om aan de oppervlakte (\\(0\\) m) te komen? Antwoord met een getal.",
+          "antwoord": "15",
+          "uitleg": "Zijn plaats is \\(-18 + 7 - 4 = -15\\), dus vijftien meter onder water. Om aan nul te komen moet hij nog \\(15\\) m stijgen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een fiets kostte \\(80\\) euro en kost nu \\(92\\) euro. Met hoeveel procent is de prijs gestegen? Antwoord met een getal.",
+          "antwoord": "15",
+          "uitleg": "De stijging is \\(12\\) euro. Die deel je door de oude prijs: \\(12 : 80 = 0{,}15\\), dus \\(15\\,\\%\\). Delen door \\(92\\) zou fout zijn, want je vergelijkt met waar je vandaan komt."
+        }
+      ]
+    },
+    {
+      "titel": "Getallenleer — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "In welk kleinste hokje past het getal \\(-\\tfrac{12}{4}\\)?",
+          "opties": [
+            "Bij de gehele getallen",
+            "Bij de rationale getallen",
+            "Bij de natuurlijke getallen",
+            "In geen van deze drie hokjes"
+          ],
+          "antwoord": 0,
+          "uitleg": "Reken de breuk eerst uit: \\(-\\tfrac{12}{4} = -3\\). Dat is een negatief getal zonder komma, dus het kleinste hokje is dat van de gehele getallen. Het past ook bij de rationale getallen, maar dat is een groter hokje."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is \\(\\tfrac{1}{6} + \\tfrac{3}{8}\\)?",
+          "opties": [
+            "\\(\\tfrac{13}{24}\\)",
+            "\\(\\tfrac{4}{14}\\)",
+            "\\(\\tfrac{13}{48}\\)",
+            "\\(\\tfrac{4}{48}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Maak de breuken eerst gelijknamig met het kgv van \\(6\\) en \\(8\\), dat is \\(24\\). Dan wordt het \\(\\tfrac{4}{24} + \\tfrac{9}{24} = \\tfrac{13}{24}\\). Tellers en noemers gewoon optellen, zoals bij \\(\\tfrac{4}{14}\\), mag niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de grootste gemeenschappelijke deler van \\(24\\) en \\(36\\)?",
+          "opties": [
+            "\\(12\\)",
+            "\\(6\\)",
+            "\\(72\\)",
+            "\\(4\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(24 = 2 \\cdot 2 \\cdot 2 \\cdot 3\\) en \\(36 = 2 \\cdot 2 \\cdot 3 \\cdot 3\\). Gemeenschappelijk zijn twee keer een \\(2\\) en één keer een \\(3\\), dus de ggd is \\(2 \\cdot 2 \\cdot 3 = 12\\). \\(72\\) is het kgv, niet de ggd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het kleinste gemeenschappelijk veelvoud van \\(8\\) en \\(12\\)?",
+          "opties": [
+            "\\(24\\)",
+            "\\(96\\)",
+            "\\(48\\)",
+            "\\(4\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(8 = 2 \\cdot 2 \\cdot 2\\) en \\(12 = 2 \\cdot 2 \\cdot 3\\). Neem elke factor zo vaak als hij het meest voorkomt: drie keer \\(2\\) en één keer \\(3\\), dus \\(24\\). Het product \\(8 \\cdot 12 = 96\\) is wel een veelvoud, maar niet het kleinste."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Door welk getal deel je teller en noemer van \\(\\tfrac{36}{48}\\) om in één keer een onvereenvoudigbare breuk te krijgen? Antwoord met een getal.",
+          "antwoord": "12",
+          "uitleg": "In één keer lukt het met de ggd. \\(36 = 2 \\cdot 2 \\cdot 3 \\cdot 3\\) en \\(48 = 2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 3\\), gemeenschappelijk is \\(2 \\cdot 2 \\cdot 3 = 12\\). Zo wordt het \\(\\tfrac{3}{4}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is \\(2^{5} \\cdot 2^{3} : 2^{6}\\)?",
+          "opties": [
+            "\\(4\\)",
+            "\\(2\\)",
+            "\\(8\\)",
+            "\\(16\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hetzelfde grondtal: bij maal tel je de exponenten op, \\(5 + 3 = 8\\). Bij gedeeld trek je ze af, \\(8 - 6 = 2\\). Je houdt \\(2^{2} = 4\\) over."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is \\((3^{2})^{3} : 3^{4}\\)?",
+          "opties": [
+            "\\(9\\)",
+            "\\(3\\)",
+            "\\(27\\)",
+            "\\(81\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een macht van een macht: exponenten vermenigvuldigen, dus \\((3^{2})^{3} = 3^{6}\\). Dan delen: \\(6 - 4 = 2\\), en \\(3^{2} = 9\\). Wie de exponenten \\(2\\) en \\(3\\) optelt in plaats van vermenigvuldigt, komt op \\(3\\) uit."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het omgekeerde van een getal is altijd kleiner dan het getal zelf.",
+          "antwoord": false,
+          "uitleg": "Het omgekeerde van \\(\\tfrac{2}{3}\\) is \\(\\tfrac{3}{2}\\), en dat is groter. Bij een getal kleiner dan \\(1\\) is het omgekeerde net groter. Eén tegenvoorbeeld volstaat om de uitspraak onderuit te halen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een getal en zijn tegengestelde hebben altijd dezelfde absolute waarde.",
+          "antwoord": true,
+          "uitleg": "Het tegengestelde ligt even ver van nul, alleen aan de andere kant. \\(-7\\) en \\(7\\) liggen allebei zeven stappen van nul, dus hun absolute waarde is \\(7\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is \\(20 - 2 \\cdot (3 + 1)^{2}\\)?",
+          "opties": [
+            "\\(-12\\)",
+            "\\(288\\)",
+            "\\(-44\\)",
+            "\\(12\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Haakjes eerst: \\(3 + 1 = 4\\). Dan de macht: \\(4^{2} = 16\\). Dan maal: \\(2 \\cdot 16 = 32\\). Pas op het einde \\(20 - 32 = -12\\). Wie eerst \\(20 - 2\\) doet, komt op \\(288\\) uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tom rekent \\(36 : 6 \\cdot 2\\) uit en schrijft \\(3\\) op. Wat ging er mis?",
+          "opties": [
+            "Hij deed maal vóór gedeeld, terwijl je die van links naar rechts rekent",
+            "Niets: maal gaat altijd vóór gedeeld, dus \\(3\\) klopt",
+            "Hij had eerst \\(6 \\cdot 2\\) en dan pas de deling moeten doen",
+            "Hij vergat haakjes rond \\(36 : 6\\), zonder die haakjes is het \\(3\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Maal en gedeeld zitten in dezelfde stap, en binnen dezelfde stap reken je van links naar rechts. Dus eerst \\(36 : 6 = 6\\), dan \\(6 \\cdot 2 = 12\\). Tom rekende \\(36 : 12\\), en dat mag alleen met haakjes rond \\(6 \\cdot 2\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke gelijkheid klopt NIET?",
+          "opties": [
+            "\\(12 : (6 : 2) = (12 : 6) : 2\\)",
+            "\\(7 \\cdot 8 = 8 \\cdot 7\\)",
+            "\\(5 \\cdot (10 - 2) = 5 \\cdot 10 - 5 \\cdot 2\\)",
+            "\\((4 + 9) + 6 = 4 + (9 + 6)\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Links staat \\(12 : 3 = 4\\), rechts \\(2 : 2 = 1\\). De associatieve eigenschap geldt niet bij delen. De andere drie kloppen: wisselen bij maal, verdelen over de haakjes (\\(40 = 50 - 10\\)) en haakjes verschuiven bij plus."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\\(51\\) is een priemgetal.",
+          "antwoord": false,
+          "uitleg": "\\(51 = 3 \\cdot 17\\), dus \\(51\\) heeft meer dan twee delers. Het lijkt een priemgetal omdat het oneven is en niet in de tafels zit die je uit het hoofd kent."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het kleinste gemeenschappelijk veelvoud van twee verschillende priemgetallen is altijd hun product.",
+          "antwoord": true,
+          "uitleg": "Twee verschillende priemgetallen hebben geen enkele priemfactor gemeen. Voor het kgv neem je dus allebei één keer: bij \\(3\\) en \\(5\\) is dat \\(3 \\cdot 5 = 15\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bij een deling is de deler \\(8\\), het quotiënt \\(12\\) en de rest \\(5\\). Hoeveel is het deeltal? Antwoord met een getal.",
+          "antwoord": "101",
+          "uitleg": "Reken terug: \\(12\\) keer de deler is \\(8 \\cdot 12 = 96\\), en daar komt de rest nog bij: \\(96 + 5 = 101\\). Controle: \\(101 : 8\\) is \\(12\\) met rest \\(5\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lien rondt \\(2{,}449\\) eerst af op twee decimalen en krijgt \\(2{,}45\\). Die rondt ze daarna af op één decimaal. Wat is het juiste antwoord als je \\(2{,}449\\) op één decimaal afrondt?",
+          "opties": [
+            "\\(2{,}4\\)",
+            "\\(2{,}5\\)",
+            "\\(2{,}45\\)",
+            "\\(2{,}0\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op één decimaal kijk je naar het eerste cijfer dat wegvalt, en dat is de \\(4\\). Dus blijft het \\(2{,}4\\). Lien rondde tussendoor af en sleepte die fout mee naar \\(2{,}5\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een plan met schaal \\(1 : 200\\) is een kamer \\(2{,}5\\) cm breed. Hoe breed is die kamer in het echt?",
+          "opties": [
+            "\\(5\\) m",
+            "\\(50\\) cm",
+            "\\(0{,}5\\) m",
+            "\\(50\\) m"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elke centimeter op het plan is \\(200\\) cm in het echt. \\(2{,}5 \\cdot 200 = 500\\) cm, en dat is \\(5\\) m."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Voor \\(6\\) pannenkoeken heb je \\(90\\) g bloem nodig. Hoeveel gram bloem heb je nodig voor \\(10\\) pannenkoeken?",
+          "opties": [
+            "\\(150\\) g",
+            "\\(94\\) g",
+            "\\(135\\) g",
+            "\\(160\\) g"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ga eerst naar één pannenkoek: \\(90 : 6 = 15\\) g. Dan naar tien: \\(10 \\cdot 15 = 150\\) g. Er gewoon \\(4\\) bij tellen omdat er vier pannenkoeken bij komen, werkt bij een verhouding niet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf \\(5^{-2}\\) als kommagetal. Antwoord met een getal.",
+          "antwoord": "0,04",
+          "uitleg": "Een negatieve exponent betekent het omgekeerde: \\(5^{-2} = \\left(\\tfrac{1}{5}\\right)^{2} = \\tfrac{1}{25}\\). En \\(1 : 25 = 0{,}04\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je rekenmachine geeft \\(39 \\cdot 41 = 15\\,990\\). Wat besluit je na een schatting?",
+          "opties": [
+            "Fout, want het moet rond \\(40 \\cdot 40 = 1\\,600\\) liggen",
+            "Juist, want \\(40 \\cdot 40\\) is ongeveer \\(16\\,000\\)",
+            "Juist, want het eindigt net als \\(39\\) op een \\(9\\)",
+            "Fout, want het moet rond \\(40 \\cdot 4 = 160\\) liggen"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(40 \\cdot 40 = 1\\,600\\), dus \\(15\\,990\\) is ongeveer tien keer te groot. Er ging iets mis bij het intypen. De echte uitkomst is \\(1\\,599\\)."
+        }
+      ]
+    },
+    {
+      "titel": "Probleemoplossend denken — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Ik denk aan een getal. Ik vermenigvuldig het met \\(4\\), trek er \\(6\\) af en deel het resultaat door \\(2\\). Ik krijg \\(15\\). Aan welk getal dacht ik?",
+          "opties": [
+            "\\(9\\)",
+            "\\(6\\)",
+            "\\(12\\)",
+            "\\(4\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Reken terug en draai elke bewerking om: \\(15 \\cdot 2 = 30\\), dan \\(30 + 6 = 36\\), dan \\(36 : 4 = 9\\). Controleer vooruit: \\(9 \\cdot 4 = 36\\), min \\(6\\) is \\(30\\), gedeeld door \\(2\\) is \\(15\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een stal staan kippen en konijnen: samen \\(15\\) dieren met \\(46\\) poten. Hoeveel konijnen zijn er?",
+          "opties": [
+            "\\(8\\)",
+            "\\(7\\)",
+            "\\(11\\)",
+            "\\(16\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Stel dat het allemaal kippen zijn: \\(15 \\cdot 2 = 30\\) poten, dat is er \\(16\\) te weinig. Elk konijn heeft \\(2\\) poten meer, dus \\(16 : 2 = 8\\) konijnen. Controle: \\(8 \\cdot 4 + 7 \\cdot 2 = 32 + 14 = 46\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vijf opeenvolgende getallen geven samen \\(85\\). Wat is het grootste van de vijf? Antwoord met een getal.",
+          "antwoord": "19",
+          "uitleg": "Net als bij drie opeenvolgende getallen is het middelste de som gedeeld door het aantal: \\(85 : 5 = 17\\). De getallen zijn dus \\(15\\), \\(16\\), \\(17\\), \\(18\\) en \\(19\\). Controle: samen \\(85\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee kranen vullen samen een bad in \\(4\\) minuten. Kraan A doet het alleen in \\(6\\) minuten. Hoeveel minuten doet kraan B er alleen over?",
+          "opties": [
+            "\\(12\\) minuten",
+            "\\(2\\) minuten",
+            "\\(10\\) minuten",
+            "\\(5\\) minuten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kijk naar \\(12\\) minuten, dat komt voor allebei uit. Samen vullen ze dan \\(3\\) baden, kraan A alleen \\(2\\). Kraan B vult dus \\(1\\) bad in \\(12\\) minuten. Een antwoord onder de \\(6\\) kon niet, want dan zou B sneller zijn dan beide samen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tim is \\(6\\) jaar en zijn papa \\(36\\). Over hoeveel jaar is papa precies vier keer zo oud als Tim?",
+          "opties": [
+            "\\(4\\) jaar",
+            "\\(3\\) jaar",
+            "\\(10\\) jaar",
+            "\\(6\\) jaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het verschil van \\(30\\) jaar blijft altijd gelijk. Is papa vier keer zo oud, dan is dat verschil drie keer Tims leeftijd, dus Tim is dan \\(30 : 3 = 10\\). Dat is over \\(4\\) jaar: Tim \\(10\\), papa \\(40\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het is maandag 10.00 u. Welke dag en welk uur is het \\(75\\) uur later?",
+          "opties": [
+            "Donderdag om 13.00 u",
+            "Woensdag om 13.00 u",
+            "Donderdag om 10.00 u",
+            "Vrijdag om 1.00 u"
+          ],
+          "antwoord": 0,
+          "uitleg": "Deel door \\(24\\): \\(75 = 3 \\cdot 24 + 3\\). Drie volle dagen later is het donderdag 10.00 u, en nog \\(3\\) uur erbij geeft 13.00 u."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je verdeelt \\(50\\) knikkers eerlijk over een groep kinderen en er blijven er \\(2\\) over. Er zijn meer dan \\(10\\) en minder dan \\(15\\) kinderen. Hoeveel kinderen zijn er? Antwoord met een getal.",
+          "antwoord": "12",
+          "uitleg": "Er werden \\(50 - 2 = 48\\) knikkers verdeeld, dus het aantal kinderen is een deler van \\(48\\). Tussen \\(10\\) en \\(15\\) is dat alleen \\(12\\). Controle: \\(12 \\cdot 4 = 48\\), en \\(2\\) over."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Langs een pad staan \\(11\\) lantaarnpalen, om de \\(15\\) m één, ook aan het begin en aan het einde. Hoe lang is het pad?",
+          "opties": [
+            "\\(150\\) m",
+            "\\(165\\) m",
+            "\\(135\\) m",
+            "\\(180\\) m"
+          ],
+          "antwoord": 0,
+          "uitleg": "De palen staan op de grenzen. Tussen \\(11\\) palen liggen \\(10\\) stukken van \\(15\\) m, dus het pad is \\(10 \\cdot 15 = 150\\) m. Wie \\(11 \\cdot 15\\) rekent, maakt de paalfout in omgekeerde richting."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Rond een vierkant veld met zijden van \\(20\\) m komt om de \\(5\\) m een paal, ook op elke hoek. Hoeveel palen zijn er nodig?",
+          "opties": [
+            "\\(16\\)",
+            "\\(17\\)",
+            "\\(20\\)",
+            "\\(15\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De omtrek is \\(4 \\cdot 20 = 80\\) m, en dat zijn \\(80 : 5 = 16\\) stukken. Omdat je rondgaat, valt het einde samen met het begin: daar staat maar één paal. Er zijn dus evenveel palen als stukken, \\(16\\). Een tekening maakt het duidelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een klas van \\(27\\) leerlingen gaat op uitstap. In een minibus passen \\(8\\) leerlingen, en een minibus huren kost \\(45\\) euro. Hoeveel betaalt de klas voor de minibussen?",
+          "opties": [
+            "\\(180\\) euro",
+            "\\(135\\) euro",
+            "\\(152\\) euro",
+            "\\(225\\) euro"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(27 : 8 = 3\\) met \\(3\\) over. Die drie leerlingen moeten ook mee, dus er zijn \\(4\\) minibussen nodig. Dat kost \\(4 \\cdot 45 = 180\\) euro."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een film begint om 19.50 u en duurt \\(135\\) minuten. Hoe laat is hij gedaan?",
+          "opties": [
+            "22.05 u",
+            "21.25 u",
+            "21.05 u",
+            "22.25 u"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(135\\) minuten is \\(2\\) u \\(15\\) min, want \\(2 \\cdot 60 = 120\\). Eerst de volle uren: 21.50 u. Dan \\(15\\) minuten erbij: 22.05 u. Wie \\(135\\) minuten leest als \\(1\\) u \\(35\\) min, komt op 21.25 u uit."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een busrit duurt \\(1{,}25\\) uur. Hoeveel minuten is dat? Antwoord met een getal.",
+          "antwoord": "75",
+          "uitleg": "Een uur heeft \\(60\\) minuten, geen \\(100\\). \\(0{,}25\\) uur is een kwart van \\(60\\), dus \\(15\\) minuten. Samen \\(60 + 15 = 75\\) minuten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een rechthoekige tuin is \\(15\\) m lang en \\(6\\) m breed. Je plant er een haag rond, behalve op een plaats waar een poort van \\(2\\) m komt. Hoeveel meter haag heb je nodig?",
+          "opties": [
+            "\\(40\\) m",
+            "\\(42\\) m",
+            "\\(88\\) m",
+            "\\(90\\) m"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rond de tuin is de omtrek: \\(2 \\cdot (15 + 6) = 42\\) m. Daar gaat de poort nog af: \\(42 - 2 = 40\\) m. \\(15 \\cdot 6 = 90\\) is de oppervlakte, en die staat in \\(\\text{m}^{2}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij een ijsjeskraam kies je een hoorntje of een potje, daarna één van \\(5\\) smaken, en ten slotte wel of geen slagroom. Hoeveel verschillende ijsjes kan je kiezen?",
+          "opties": [
+            "\\(20\\)",
+            "\\(9\\)",
+            "\\(10\\)",
+            "\\(12\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vermenigvuldig het aantal keuzes per stap: \\(2\\) voor de verpakking, \\(5\\) smaken en \\(2\\) voor de slagroom, samen \\(2 \\cdot 5 \\cdot 2 = 20\\). Optellen geeft \\(9\\), maar dat telt de combinaties niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Zes spelers van een team geven elkaar voor de match elk één keer een hand. Hoeveel handdrukken zijn er in totaal?",
+          "opties": [
+            "\\(15\\)",
+            "\\(30\\)",
+            "\\(36\\)",
+            "\\(12\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elke speler geeft \\(5\\) anderen een hand, dat lijkt \\(6 \\cdot 5 = 30\\). Maar zo tel je elke handdruk twee keer, want AB en BA is dezelfde. Dus \\(30 : 2 = 15\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel getallen van drie cijfers kan je maken met de cijfers \\(1\\), \\(2\\), \\(3\\) en \\(4\\), als elk cijfer hoogstens één keer mag voorkomen?",
+          "opties": [
+            "\\(24\\)",
+            "\\(64\\)",
+            "\\(12\\)",
+            "\\(4\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voor het eerste cijfer heb je \\(4\\) keuzes, voor het tweede nog \\(3\\) en voor het derde nog \\(2\\). Samen \\(4 \\cdot 3 \\cdot 2 = 24\\). Bij \\(64\\) mag elk cijfer meer dan één keer, en dat was niet toegelaten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een klas van \\(30\\) leerlingen is \\(\\tfrac{2}{5}\\) afwezig. Dan zijn er \\(12\\) leerlingen aanwezig.",
+          "antwoord": false,
+          "uitleg": "\\(\\tfrac{2}{5}\\) van \\(30\\) is \\(12\\), maar dat zijn de afwezigen. Aanwezig zijn er \\(30 - 12 = 18\\). Een juist getal bij de verkeerde vraag is ook fout."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de rij \\(3,\\ 7,\\ 15,\\ 31,\\ \\ldots\\) komt na \\(31\\) het getal \\(63\\).",
+          "antwoord": true,
+          "uitleg": "Van het ene getal naar het volgende is het telkens maal \\(2\\) plus \\(1\\): \\(3 \\cdot 2 + 1 = 7\\), \\(7 \\cdot 2 + 1 = 15\\), \\(15 \\cdot 2 + 1 = 31\\). Dus daarna \\(31 \\cdot 2 + 1 = 63\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Kraan A vult een vat alleen in \\(5\\) uur. Iemand rekent uit dat kraan A en kraan B samen er \\(6\\) uur over doen. Die uitkomst kan niet kloppen.",
+          "antwoord": true,
+          "uitleg": "Samen gaat het altijd sneller dan de snelste kraan alleen. Als A alleen al \\(5\\) uur nodig heeft, moet het samen minder dan \\(5\\) uur zijn. Reflecteren vangt deze fout zonder te rekenen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een grote kubus van \\(4\\) bij \\(4\\) bij \\(4\\) bestaat uit \\(48\\) kleine kubusjes.",
+          "antwoord": false,
+          "uitleg": "Eén laag is \\(4 \\cdot 4 = 16\\) kubusjes, en er zijn \\(4\\) lagen. Dat geeft \\(16 \\cdot 4 = 64\\). Wie \\(48\\) uitkomt, telde maar drie lagen."
+        }
+      ]
+    },
+    {
+      "titel": "Wiskundige redeneringen en uitspraken — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "„Als een getal deelbaar is door \\(3\\), dan is het deelbaar door \\(6\\).” Welk getal is een tegenvoorbeeld?",
+          "opties": [
+            "\\(15\\)",
+            "\\(12\\)",
+            "\\(10\\)",
+            "\\(18\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(15\\) is deelbaar door \\(3\\), maar niet door \\(6\\), dus daar gaat de uitspraak onderuit. \\(12\\) en \\(18\\) zijn door allebei deelbaar. \\(10\\) is niet deelbaar door \\(3\\), dus de uitspraak zegt er niets over."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "„Als een getal even is, dan is het deelbaar door \\(4\\).” Waarom is \\(9\\) géén tegenvoorbeeld voor deze uitspraak?",
+          "opties": [
+            "Omdat \\(9\\) niet even is, zodat de uitspraak er niets over zegt",
+            "Omdat \\(9\\) wel deelbaar is door \\(4\\), zodat de uitspraak klopt",
+            "Omdat \\(9\\) een priemgetal is, en priemgetallen tellen niet mee",
+            "Omdat de uitspraak altijd klopt, zodat er geen tegenvoorbeeld bestaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een tegenvoorbeeld moet aan de voorwaarde voldoen, hier: even zijn. \\(9\\) is oneven, dus het telt niet. Een echt tegenvoorbeeld bestaat wel: \\(6\\) is even en niet deelbaar door \\(4\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij welke uitspraak mag de dubbele pijl \\(\\Leftrightarrow\\) staan?",
+          "opties": [
+            "\\(a + 2 > b + 2 \\Leftrightarrow a > b\\)",
+            "\\(a = b \\Leftrightarrow a^{2} = b^{2}\\)",
+            "Een getal is deelbaar door \\(6\\) \\(\\Leftrightarrow\\) het is deelbaar door \\(3\\)",
+            "Een vierhoek is een vierkant \\(\\Leftrightarrow\\) hij heeft vier rechte hoeken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aan beide kanten hetzelfde getal optellen of aftrekken laat een ongelijkheid kloppen, dus dat werkt heen en terug. Bij de andere drie gaat de terugweg mis: \\(3\\) en \\(-3\\) hebben hetzelfde kwadraat, \\(9\\) is deelbaar door \\(3\\) maar niet door \\(6\\), en een rechthoek van \\(3\\) bij \\(5\\) is geen vierkant."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Uit \\(x \\leq 5\\) volgt \\(x < 5\\).",
+          "antwoord": false,
+          "uitleg": "\\(x = 5\\) is een tegenvoorbeeld: \\(5 \\leq 5\\) klopt, maar \\(5 < 5\\) niet. Omgekeerd gaat het wel: wie kleiner is dan \\(5\\), is zeker kleiner dan of gelijk aan \\(5\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Uit \\(a > b\\) volgt \\(-a < -b\\).",
+          "antwoord": true,
+          "uitleg": "Het tegengestelde nemen is vermenigvuldigen met \\(-1\\), en maal een negatief getal draait de ongelijkheid om. Zo volgt uit \\(5 > 3\\) dat \\(-5 < -3\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als \\(a \\cdot b = 0\\) en \\(a = 4\\), dan is zeker \\(b = 0\\).",
+          "antwoord": true,
+          "uitleg": "Uit \\(a \\cdot b = 0\\) volgt: \\(a = 0\\) of \\(b = 0\\). Hier is \\(a\\) niet nul, dus moet \\(b\\) nul zijn. Inderdaad: \\(4 \\cdot 0 = 0\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als \\(a > b\\), dan is ook altijd \\(a^{2} > b^{2}\\).",
+          "antwoord": false,
+          "uitleg": "Neem \\(a = 1\\) en \\(b = -3\\). Dan is \\(1 > -3\\), maar \\(1^{2} = 1\\) en \\((-3)^{2} = 9\\), en \\(1\\) is niet groter dan \\(9\\). Dat ene tegenvoorbeeld volstaat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is \\(48 : 8 : 2 : 3\\)?",
+          "opties": [
+            "\\(1\\)",
+            "\\(4\\)",
+            "\\(9\\)",
+            "\\(36\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Delen is niet associatief, dus je rekent van links naar rechts: \\(48 : 8 = 6\\), \\(6 : 2 = 3\\) en \\(3 : 3 = 1\\). Wie eerst \\(8 : 2\\) doet, krijgt \\(4\\) en heeft stilzwijgend de opgave veranderd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is \\(\\sqrt{36 + 64}\\)?",
+          "opties": [
+            "\\(10\\)",
+            "\\(14\\)",
+            "\\(50\\)",
+            "\\(100\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst wat onder de wortel staat: \\(36 + 64 = 100\\), en \\(\\sqrt{100} = 10\\). Een wortel mag je niet over een som verdelen: \\(\\sqrt{36} + \\sqrt{64} = 6 + 8 = 14\\) is fout."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand zegt: „Eerst \\(20\\,\\%\\) korting en daarna nog eens \\(10\\,\\%\\) korting is samen \\(30\\,\\%\\) korting.” Hoeveel procent korting is het in werkelijkheid?",
+          "opties": [
+            "\\(28\\,\\%\\)",
+            "\\(30\\,\\%\\)",
+            "\\(32\\,\\%\\)",
+            "\\(25\\,\\%\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Neem \\(100\\) euro. Na \\(20\\,\\%\\) korting blijft \\(80\\) over, en \\(10\\,\\%\\) daarvan is \\(8\\). Je betaalt \\(72\\), dus de korting is \\(28\\,\\%\\). De tweede korting rekent op een kleiner bedrag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "„De som van drie even getallen is altijd even.” Welke redenering bewijst dat voor alle even getallen?",
+          "opties": [
+            "\\(2a + 2b + 2c = 2(a + b + c)\\), en dat is een veelvoud van \\(2\\)",
+            "\\(2 + 4 + 6 = 12\\), en \\(12\\) is even, dus het klopt altijd",
+            "Ik probeerde tien keer drie even getallen, en de som was telkens even",
+            "\\(2a + 2b + 2c = 6abc\\), en dat is een veelvoud van \\(2\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met letters dek je alle gevallen in één keer: elk even getal is \\(2\\) maal iets, en de \\(2\\) kan je buiten haakjes brengen. Voorbeelden illustreren alleen. En \\(2a + 2b + 2c\\) is niet hetzelfde als \\(6abc\\): neem \\(a = b = c = 1\\), dan is het \\(6\\) tegenover \\(6\\), maar bij \\(a = b = c = 2\\) is het \\(12\\) tegenover \\(48\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "„Als een vierhoek vier rechte hoeken heeft, dan is het een vierkant.” Welke figuur is een tegenvoorbeeld?",
+          "opties": [
+            "Een rechthoek van \\(3\\) bij \\(5\\)",
+            "Een vierkant van \\(4\\) bij \\(4\\)",
+            "Een ruit die scheef staat",
+            "Een driehoek met een rechte hoek"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het tegenvoorbeeld moet vier rechte hoeken hebben en toch geen vierkant zijn. Dat doet de rechthoek van \\(3\\) bij \\(5\\). Een scheve ruit heeft geen rechte hoeken, en een driehoek is geen vierhoek, dus die voldoen niet aan de voorwaarde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Uit welk gegeven volgt zeker dat \\(a = 0\\)?",
+          "opties": [
+            "\\(a \\cdot 7 = 0\\)",
+            "\\(a \\cdot b = 0\\)",
+            "\\(a \\cdot 0 = 0\\)",
+            "\\(a^{2} = b^{2}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Is een product nul, dan is minstens één factor nul. \\(7\\) is niet nul, dus moet \\(a\\) het zijn. Bij \\(a \\cdot b = 0\\) kan ook \\(b\\) nul zijn, en \\(a \\cdot 0 = 0\\) klopt voor elk getal \\(a\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Sam schrijft: „\\(3 > -4\\), dus \\(3 \\cdot (-2) > -4 \\cdot (-2)\\), dus \\(-6 > 8\\).” Wat is er fout?",
+          "opties": [
+            "Bij maal \\(-2\\) moest het teken omdraaien: \\(-6 < 8\\)",
+            "\\(3 > -4\\) klopt al niet, want \\(4\\) is groter dan \\(3\\)",
+            "\\(-4 \\cdot (-2)\\) is \\(-8\\), en niet \\(8\\)",
+            "Er is niets fout, want \\(-6 > 8\\) volgt correct"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vermenigvuldigen met een negatief getal draait de ongelijkheid om. Uit \\(3 > -4\\) volgt dus \\(-6 < 8\\), en dat klopt ook. \\(3 > -4\\) is juist, want \\(3\\) ligt rechts van \\(-4\\), en min maal min geeft plus."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Voor welk getal is het kwadraat kleiner dan het getal zelf?",
+          "opties": [
+            "\\(0{,}3\\)",
+            "\\(1\\)",
+            "\\(2\\)",
+            "\\(-3\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(0{,}3 \\cdot 0{,}3 = 0{,}09\\), en dat is kleiner dan \\(0{,}3\\). Tussen \\(0\\) en \\(1\\) wordt een kwadraat kleiner. Bij \\(1\\) blijft het gelijk, en \\(2^{2} = 4\\) en \\((-3)^{2} = 9\\) zijn groter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "„Als een getal op \\(5\\) eindigt, dan is het deelbaar door \\(5\\).” Wat is de omgekeerde uitspraak, en klopt die?",
+          "opties": [
+            "Deelbaar door \\(5\\) \\(\\Rightarrow\\) eindigt op \\(5\\); klopt niet, want \\(20\\) is een tegenvoorbeeld",
+            "Deelbaar door \\(5\\) \\(\\Rightarrow\\) eindigt op \\(5\\); klopt, want \\(15\\) en \\(25\\) eindigen op \\(5\\)",
+            "Eindigt niet op \\(5\\) \\(\\Rightarrow\\) niet deelbaar door \\(5\\); die klopt altijd",
+            "Deelbaar door \\(5\\) \\(\\Rightarrow\\) eindigt op \\(5\\); klopt niet, want \\(7\\) is een tegenvoorbeeld"
+          ],
+          "antwoord": 0,
+          "uitleg": "Omkeren wisselt voorwaarde en besluit: deelbaar door \\(5\\) \\(\\Rightarrow\\) eindigt op \\(5\\). \\(20\\) is deelbaar door \\(5\\) en eindigt op \\(0\\), dus die klopt niet. \\(7\\) is niet deelbaar door \\(5\\) en kan dus geen tegenvoorbeeld zijn, en twee voorbeelden bewijzen niets."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Twee driehoeken hebben dezelfde oppervlakte. De eerste heeft basis \\(8\\) cm en hoogte \\(3\\) cm. De tweede heeft basis \\(4\\) cm. Hoeveel cm is de hoogte van de tweede? Antwoord met een getal.",
+          "antwoord": "6",
+          "uitleg": "De eerste heeft oppervlakte \\((8 \\cdot 3) : 2 = 12\\,\\text{cm}^{2}\\). Voor de tweede moet \\((4 \\cdot h) : 2 = 12\\), dus \\(4 \\cdot h = 24\\) en \\(h = 6\\). Zelfde oppervlakte, toch een heel andere driehoek."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een winkel geeft eerst \\(50\\,\\%\\) korting en daarna op de nieuwe prijs nog eens \\(50\\,\\%\\). Hoeveel procent korting krijg je in totaal? Antwoord met een getal.",
+          "antwoord": "75",
+          "uitleg": "Van \\(100\\) euro blijft na de eerste korting \\(50\\) over, en na de tweede de helft daarvan: \\(25\\). Je betaalt \\(25\\), dus de korting is \\(75\\,\\%\\), niet \\(100\\,\\%\\). Percentages die bij een ander bedrag horen, tel je niet op."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Neem \\(a = 5\\). Welk getal \\(b\\), verschillend van \\(5\\), maakt \\(a^{2} = b^{2}\\) waar? Antwoord met een getal.",
+          "antwoord": "-5",
+          "uitleg": "\\(5^{2} = 25\\), en ook \\((-5)^{2} = -5 \\cdot -5 = 25\\). Daarom volgt uit \\(a^{2} = b^{2}\\) niet dat \\(a = b\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lotte test „elk getal dat deelbaar is door \\(4\\), is ook deelbaar door \\(8\\)” met \\(8\\), \\(16\\) en \\(24\\). Het klopt telkens, dus ze besluit dat de uitspraak waar is. Wat vind je van haar besluit?",
+          "opties": [
+            "Fout: \\(12\\) is deelbaar door \\(4\\) maar niet door \\(8\\)",
+            "Juist: drie voorbeelden die kloppen is genoeg als bewijs",
+            "Fout: \\(10\\) is deelbaar door \\(4\\) maar niet door \\(8\\)",
+            "Juist: \\(8\\) is een veelvoud van \\(4\\), dus het klopt altijd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voorbeelden bewijzen niets, en één tegenvoorbeeld is beslissend. \\(12 : 4 = 3\\), maar \\(12\\) is niet deelbaar door \\(8\\). \\(10\\) is niet deelbaar door \\(4\\), dus dat getal voldoet niet aan de voorwaarde."
+        }
+      ]
+    },
+    {
+      "titel": "Meetkunde — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "In een gelijkbenige driehoek is de tophoek drie keer zo groot als een basishoek. Hoe groot is de tophoek?",
+          "opties": [
+            "\\(108^{\\circ}\\)",
+            "\\(36^{\\circ}\\)",
+            "\\(60^{\\circ}\\)",
+            "\\(90^{\\circ}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De twee basishoeken zijn gelijk, dus samen tel je vijf keer een basishoek: \\(180 : 5 = 36^{\\circ}\\). De tophoek is drie keer zoveel: \\(108^{\\circ}\\). Controle: \\(36 + 36 + 108 = 180\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een gelijkbenige driehoek heeft een hoek van \\(100^{\\circ}\\). Hoe groot is elk van de twee andere hoeken?",
+          "opties": [
+            "\\(40^{\\circ}\\)",
+            "\\(80^{\\circ}\\)",
+            "\\(100^{\\circ}\\)",
+            "Dat hangt ervan af of \\(100^{\\circ}\\) een basishoek of de tophoek is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een basishoek kan geen \\(100^{\\circ}\\) zijn, want dan was de andere basishoek ook \\(100^{\\circ}\\) en zat je al boven \\(180^{\\circ}\\). Dus is \\(100^{\\circ}\\) de tophoek, en de basishoeken zijn elk \\((180 - 100) : 2 = 40^{\\circ}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een vierhoek zijn drie hoeken even groot. De vierde hoek is \\(120^{\\circ}\\). Hoe groot is elk van de drie andere hoeken?",
+          "opties": [
+            "\\(80^{\\circ}\\)",
+            "\\(60^{\\circ}\\)",
+            "\\(120^{\\circ}\\)",
+            "\\(70^{\\circ}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De hoekensom van een vierhoek is \\(360^{\\circ}\\). Voor de drie gelijke hoeken blijft \\(360 - 120 = 240^{\\circ}\\) over, dus elk \\(240 : 3 = 80^{\\circ}\\). Wie met \\(180^{\\circ}\\) rekent, komt op \\(20^{\\circ}\\) en zit fout."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een parallellogram is één hoek vier keer zo groot als de hoek ernaast. Hoe groot is de grootste hoek van het parallellogram?",
+          "opties": [
+            "\\(144^{\\circ}\\)",
+            "\\(36^{\\circ}\\)",
+            "\\(72^{\\circ}\\)",
+            "\\(288^{\\circ}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee hoeken naast elkaar zijn samen \\(180^{\\circ}\\). Samen zijn dat vijf keer de kleine hoek, dus die is \\(180 : 5 = 36^{\\circ}\\) en de grote \\(4 \\cdot 36 = 144^{\\circ}\\). Controle: \\(36 + 144 = 180\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee evenwijdige rechten worden gesneden door een derde rechte. Een binnenhoek is \\(72^{\\circ}\\). Hoe groot is de nevenhoek van de verwisselende binnenhoek van die hoek?",
+          "opties": [
+            "\\(108^{\\circ}\\)",
+            "\\(72^{\\circ}\\)",
+            "\\(18^{\\circ}\\)",
+            "\\(144^{\\circ}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Verwisselende binnenhoeken zijn gelijk, dus die is ook \\(72^{\\circ}\\). Een nevenhoek vult aan tot \\(180^{\\circ}\\): \\(180 - 72 = 108^{\\circ}\\). Werk zo stap voor stap vanuit de hoek die je kent."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Twee rechten snijden elkaar. Twee nevenhoeken verschillen \\(40^{\\circ}\\) van elkaar. Hoeveel graden is de grootste van de twee? Antwoord met een getal.",
+          "antwoord": "110",
+          "uitleg": "Nevenhoeken zijn samen \\(180^{\\circ}\\). Twee hoeken die samen \\(180\\) zijn en \\(40\\) verschillen, zijn \\(110^{\\circ}\\) en \\(70^{\\circ}\\). Controle: \\(110 + 70 = 180\\) en \\(110 - 70 = 40\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Twee rechten snijden elkaar. Twee overstaande hoeken zijn samen \\(100^{\\circ}\\). Hoeveel graden is elk van de twee andere hoeken? Antwoord met een getal.",
+          "antwoord": "130",
+          "uitleg": "Overstaande hoeken zijn even groot, dus elk is \\(100 : 2 = 50^{\\circ}\\). De twee andere hoeken zijn er nevenhoeken van: \\(180 - 50 = 130^{\\circ}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een driehoek heeft een hoek van \\(95^{\\circ}\\). Welke naam kan deze driehoek zeker NIET krijgen?",
+          "opties": [
+            "Rechthoekig",
+            "Stomphoekig",
+            "Gelijkbenig",
+            "Ongelijkbenig"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een rechte hoek erbij zou samen al \\(185^{\\circ}\\) zijn, meer dan de hoekensom. Stomphoekig is hij zeker. Naar de zijden kan hij gelijkbenig zijn (met \\(95^{\\circ}\\) als tophoek) of ongelijkbenig, want die naam staat los van de hoeken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een driehoek kan twee stompe hoeken hebben.",
+          "antwoord": false,
+          "uitleg": "Twee stompe hoeken zijn elk meer dan \\(90^{\\circ}\\), samen dus meer dan \\(180^{\\circ}\\). Dan blijft er niets over voor de derde hoek, want de hoekensom is precies \\(180^{\\circ}\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Elk vierkant is ook een ruit.",
+          "antwoord": true,
+          "uitleg": "Een ruit is een parallellogram met vier gelijke zijden, en een vierkant heeft die. Daarbovenop heeft een vierkant vier rechte hoeken. Omgekeerd is niet elke ruit een vierkant."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een rechthoekige driehoek kan ook gelijkzijdig zijn.",
+          "antwoord": false,
+          "uitleg": "In een gelijkzijdige driehoek is elke hoek \\(60^{\\circ}\\). Er is dus nooit een hoek van \\(90^{\\circ}\\), en zo'n driehoek kan niet rechthoekig zijn. Rechthoekig en gelijkbenig gaat wel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In elke ruit delen de diagonalen elkaar middendoor.",
+          "antwoord": true,
+          "uitleg": "Een ruit is een parallellogram, en in elk parallellogram delen de diagonalen elkaar middendoor. Bij een ruit staan ze daarbovenop loodrecht op elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vierhoek heeft diagonalen die elkaar middendoor delen, even lang zijn én loodrecht op elkaar staan?",
+          "opties": [
+            "Een vierkant",
+            "Een ruit",
+            "Een rechthoek",
+            "Een parallellogram"
+          ],
+          "antwoord": 0,
+          "uitleg": "Middendoor delen doen ze in elk parallellogram. Loodrecht hoort bij de ruit, even lang bij de rechthoek. Een vierkant is allebei, dus alleen daar gelden de drie samen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een vierhoek heeft twee paar evenwijdige zijden, en zijn diagonalen zijn even lang. Wat weet je dan zeker?",
+          "opties": [
+            "Het is een rechthoek",
+            "Het is een vierkant",
+            "Het is een ruit",
+            "Het is een trapezium, maar geen parallellogram"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee paar evenwijdige zijden maakt een parallellogram, en even lange diagonalen horen bij de rechthoek. Een vierkant kan het zijn, maar zeker is dat niet: de zijden hoeven niet even lang te zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Driehoek ABC heeft \\(|AB| = 5\\) cm, \\(|BC| = 7\\) cm en hoek B van \\(40^{\\circ}\\). Driehoek PQR heeft \\(|PQ| = 5\\) cm, \\(|QR| = 7\\) cm en hoek P van \\(40^{\\circ}\\). Zijn ze zeker congruent?",
+          "opties": [
+            "Niet zeker: bij PQR ligt de hoek van \\(40^{\\circ}\\) niet tussen de twee zijden",
+            "Ja, volgens het kenmerk ZHZ, want twee zijden en een hoek zijn gelijk",
+            "Ja, volgens het kenmerk ZZZ, want twee zijden zijn al gelijk",
+            "Nee, twee driehoeken met een hoek van \\(40^{\\circ}\\) zijn nooit congruent"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij ZHZ moet de hoek tussen de twee zijden liggen, in de volgorde zijde, hoek, zijde. In ABC ligt hoek B tussen AB en BC, maar in PQR ligt hoek P niet tussen PQ en QR: dat zou hoek Q zijn. Dus ZHZ geldt hier niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee rechthoekige driehoeken hebben allebei een schuine zijde van \\(10\\) cm en een zijde van \\(6\\) cm aan de rechte hoek. Welk kenmerk toont aan dat ze congruent zijn?",
+          "opties": [
+            "ZZ\\(90^{\\circ}\\)",
+            "ZHZ",
+            "ZZZ",
+            "HZH"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je kent twee zijden en weet dat er een rechte hoek is: dat is ZZ\\(90^{\\circ}\\). Voor ZHZ moet de hoek tussen de twee gegeven zijden liggen, en de schuine zijde ligt net tegenover de rechte hoek. De derde zijde is niet gegeven, dus ZZZ kan je niet gebruiken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke figuur heeft een symmetrieas, maar géén symmetriemiddelpunt?",
+          "opties": [
+            "Een gelijkbenige driehoek die niet gelijkzijdig is",
+            "Een parallellogram dat geen ruit of rechthoek is",
+            "Een rechthoek die geen vierkant is",
+            "Een vierkant"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een gelijkbenige driehoek kan je dubbelvouwen langs de lijn door de tophoek, maar na een halve draai staat hij op zijn kop. Het parallellogram heeft het omgekeerde: wel een middelpunt, geen as. Rechthoek en vierkant hebben allebei."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je draait een figuur twee keer na elkaar een kwartslag rond hetzelfde centrum, telkens in dezelfde richting. Met welke transformatie komt dat overeen?",
+          "opties": [
+            "Een spiegeling om dat centrum",
+            "Een spiegeling om een rechte",
+            "Een translatie over een vector",
+            "Een rotatie over \\(45^{\\circ}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee kwartslagen van \\(90^{\\circ}\\) maken samen een halve draai van \\(180^{\\circ}\\), en die komt neer op een spiegeling om het middelpunt. Een spiegeling om een rechte keert de draairichting om, een draai doet dat niet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een cirkel heeft een straal van \\(7{,}5\\) cm. Hoeveel cm is de langste koorde die je in die cirkel kan tekenen? Antwoord met een getal.",
+          "antwoord": "15",
+          "uitleg": "De langste koorde is de middellijn, want die gaat door het middelpunt. De middellijn is twee keer de straal: \\(2 \\cdot 7{,}5 = 15\\) cm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In driehoek ABC staat de lijn vanuit A loodrecht op BC, en ze gaat door het midden van BC. Wat weet je dan zeker?",
+          "opties": [
+            "Zijde AB en zijde AC zijn even lang",
+            "Hoek A is een rechte hoek",
+            "Zijde BC is de langste zijde",
+            "De driehoek is zeker gelijkzijdig"
+          ],
+          "antwoord": 0,
+          "uitleg": "Die lijn is tegelijk de hoogtelijn uit A en de middelloodlijn van BC. Die twee vallen alleen samen in een gelijkbenige of gelijkzijdige driehoek, met A als top, dus AB en AC zijn even lang. Gelijkzijdig mag, maar hoeft niet."
+        }
+      ]
+    },
+    {
+      "titel": "Metend rekenen — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel \\(\\text{cm}^{2}\\) is \\(0{,}4\\,\\text{m}^{2}\\)?",
+          "opties": [
+            "\\(4\\,000\\)",
+            "\\(40\\)",
+            "\\(400\\)",
+            "\\(40\\,000\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van m naar cm zijn het twee stappen, en bij oppervlakte is elke stap maal \\(100\\). Dus maal \\(10\\,000\\): \\(0{,}4 \\cdot 10\\,000 = 4\\,000\\,\\text{cm}^{2}\\). Wie maal \\(100\\) doet zoals bij lengte, komt op \\(40\\) uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een akker is \\(250\\) m lang en \\(120\\) m breed. Hoeveel hectare is dat?",
+          "opties": [
+            "\\(3\\)",
+            "\\(30\\)",
+            "\\(300\\)",
+            "\\(0{,}3\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De oppervlakte is \\(250 \\cdot 120 = 30\\,000\\,\\text{m}^{2}\\). Eén hectare is \\(10\\,000\\,\\text{m}^{2}\\), dus dat is \\(3\\) hectare. \\(300\\) is het aantal are."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een aquarium heeft de vorm van een balk: \\(60\\) cm lang, \\(30\\) cm breed en \\(40\\) cm hoog. Je vult het tot \\(5\\) cm onder de rand. Hoeveel liter water zit erin? Antwoord met een getal.",
+          "antwoord": "63",
+          "uitleg": "Het water staat \\(40 - 5 = 35\\) cm hoog. Het volume is \\(60 \\cdot 30 \\cdot 35 = 63\\,000\\,\\text{cm}^{3}\\). Eén liter is \\(1\\,000\\,\\text{cm}^{3}\\), dus \\(63\\) liter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een blik heeft de vorm van een cilinder met een straal van \\(5\\) cm en een hoogte van \\(10\\) cm. Hoeveel liter past erin? Neem \\(\\pi = 3{,}14\\).",
+          "opties": [
+            "\\(0{,}785\\)",
+            "\\(7{,}85\\)",
+            "\\(78{,}5\\)",
+            "\\(785\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Volume \\(= \\pi \\cdot \\text{straal}^{2} \\cdot \\text{hoogte} = 3{,}14 \\cdot 25 \\cdot 10 = 785\\,\\text{cm}^{3}\\). Dat is \\(785\\) ml, en \\(1\\) liter is \\(1\\,000\\) ml, dus \\(0{,}785\\) liter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een cirkel heeft een omtrek van \\(62{,}8\\) cm. Hoeveel \\(\\text{cm}^{2}\\) is zijn oppervlakte? Neem \\(\\pi = 3{,}14\\).",
+          "opties": [
+            "\\(314\\)",
+            "\\(1\\,256\\)",
+            "\\(31{,}4\\)",
+            "\\(628\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Reken eerst de straal terug: \\(62{,}8 : (2 \\cdot 3{,}14) = 10\\) cm. Dan de oppervlakte: \\(3{,}14 \\cdot 10^{2} = 314\\,\\text{cm}^{2}\\). Wie \\(62{,}8 : 3{,}14 = 20\\) als straal neemt, vergeet dat dat de diameter is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kubus heeft een totale oppervlakte van \\(150\\,\\text{cm}^{2}\\). Hoeveel \\(\\text{cm}^{3}\\) is zijn volume?",
+          "opties": [
+            "\\(125\\)",
+            "\\(25\\)",
+            "\\(150\\)",
+            "\\(625\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een kubus heeft zes gelijke vierkanten, dus één vlak is \\(150 : 6 = 25\\,\\text{cm}^{2}\\). De ribbe is dan \\(\\sqrt{25} = 5\\) cm, en het volume \\(5 \\cdot 5 \\cdot 5 = 125\\,\\text{cm}^{3}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een rechthoek is \\(12\\) cm lang en \\(3\\) cm breed. Een vierkant heeft dezelfde omtrek. Hoeveel \\(\\text{cm}^{2}\\) is de oppervlakte van het vierkant?",
+          "opties": [
+            "\\(56{,}25\\)",
+            "\\(36\\)",
+            "\\(30\\)",
+            "\\(225\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De omtrek is \\(2 \\cdot (12 + 3) = 30\\) cm, dus het vierkant heeft zijden van \\(30 : 4 = 7{,}5\\) cm. Oppervlakte: \\(7{,}5 \\cdot 7{,}5 = 56{,}25\\,\\text{cm}^{2}\\). Dat is meer dan de \\(36\\,\\text{cm}^{2}\\) van de rechthoek: dezelfde omtrek geeft niet dezelfde oppervlakte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De zijde van een vierkant wordt drie keer zo lang. Hoeveel keer zo groot wordt de oppervlakte?",
+          "opties": [
+            "\\(9\\)",
+            "\\(3\\)",
+            "\\(6\\)",
+            "\\(12\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Lengte én breedte worden drie keer zo groot, dus de oppervlakte \\(3 \\cdot 3 = 9\\) keer. Neem een zijde van \\(4\\) cm: \\(16\\,\\text{cm}^{2}\\). Met \\(12\\) cm wordt het \\(144\\,\\text{cm}^{2}\\), en dat is \\(9\\) keer zoveel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een driehoek heeft een oppervlakte van \\(30\\,\\text{cm}^{2}\\) en een basis van \\(12\\) cm. Hoeveel cm is de hoogte?",
+          "opties": [
+            "\\(5\\)",
+            "\\(2{,}5\\)",
+            "\\(18\\)",
+            "\\(10\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\((\\text{basis} \\cdot \\text{hoogte}) : 2 = 30\\), dus \\(\\text{basis} \\cdot \\text{hoogte} = 60\\). Dan is de hoogte \\(60 : 12 = 5\\) cm. Wie de deling door \\(2\\) vergeet terug te draaien, komt op \\(2{,}5\\) uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een trapezium heeft een oppervlakte van \\(45\\,\\text{cm}^{2}\\) en een hoogte van \\(6\\) cm. Eén evenwijdige zijde is \\(8\\) cm. Hoeveel cm is de andere evenwijdige zijde?",
+          "opties": [
+            "\\(7\\)",
+            "\\(15\\)",
+            "\\(3{,}5\\)",
+            "\\(11\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\((8 + x) \\cdot 6 : 2 = 45\\), dus \\((8 + x) \\cdot 6 = 90\\) en \\(8 + x = 15\\). De andere zijde is \\(15 - 8 = 7\\) cm. Controle: \\((8 + 7) \\cdot 6 : 2 = 45\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een parallellogram heeft zijden van \\(10\\) cm en \\(6\\) cm. De hoogte op de zijde van \\(10\\) cm is \\(5\\) cm. Hoeveel \\(\\text{cm}^{2}\\) is de oppervlakte?",
+          "opties": [
+            "\\(50\\)",
+            "\\(60\\)",
+            "\\(25\\)",
+            "\\(30\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Parallellogram: basis maal hoogte, zonder delen door \\(2\\): \\(10 \\cdot 5 = 50\\,\\text{cm}^{2}\\). De zijde van \\(6\\) cm staat schuin en is geen hoogte, dus \\(10 \\cdot 6 = 60\\) is fout."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een kubus met een ribbe van \\(6\\) cm is het volume in \\(\\text{cm}^{3}\\) hetzelfde getal als de oppervlakte in \\(\\text{cm}^{2}\\).",
+          "antwoord": true,
+          "uitleg": "Volume: \\(6 \\cdot 6 \\cdot 6 = 216\\,\\text{cm}^{3}\\). Oppervlakte: zes vierkanten van \\(36\\,\\text{cm}^{2}\\), samen \\(216\\,\\text{cm}^{2}\\). Hetzelfde getal, al is het een andere eenheid."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je de straal van een cirkel verdubbelt, wordt de oppervlakte ook dubbel zo groot.",
+          "antwoord": false,
+          "uitleg": "In de formule \\(\\pi \\cdot \\text{straal}^{2}\\) staat de straal in het kwadraat. Twee keer zo lange straal geeft dus \\(2 \\cdot 2 = 4\\) keer zo veel oppervlakte. Met straal \\(1\\) is het \\(3{,}14\\), met straal \\(2\\) is het \\(12{,}56\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Eén hectare is groter dan een vierkant veld met zijden van \\(90\\) m.",
+          "antwoord": true,
+          "uitleg": "Het veld is \\(90 \\cdot 90 = 8\\,100\\,\\text{m}^{2}\\). Eén hectare is \\(10\\,000\\,\\text{m}^{2}\\), dus de hectare is groter. Een hectare is zo groot als een vierkant van \\(100\\) m bij \\(100\\) m."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\\(0{,}3\\) liter is meer dan \\(350\\,\\text{cm}^{3}\\).",
+          "antwoord": false,
+          "uitleg": "\\(0{,}3\\) liter is \\(300\\) ml, en \\(1\\) ml is \\(1\\,\\text{cm}^{3}\\). Dus \\(0{,}3\\) liter is \\(300\\,\\text{cm}^{3}\\), en dat is minder dan \\(350\\,\\text{cm}^{3}\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een fietser rijdt \\(18\\) km in \\(45\\) minuten. Hoeveel meter legt hij gemiddeld af per minuut? Antwoord met een getal.",
+          "antwoord": "400",
+          "uitleg": "Zet eerst alles in dezelfde eenheid: \\(18\\) km is \\(18\\,000\\) m. Dan \\(18\\,000 : 45 = 400\\) meter per minuut."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een rond zwembadje heeft een diameter van \\(4\\) m. Hoeveel \\(\\text{m}^{2}\\) is de bodem? Neem \\(\\pi = 3{,}14\\). Antwoord met een getal.",
+          "antwoord": "12,56",
+          "uitleg": "In de formule staat de straal, en die is de helft van de diameter: \\(2\\) m. Dus \\(3{,}14 \\cdot 2^{2} = 3{,}14 \\cdot 4 = 12{,}56\\,\\text{m}^{2}\\). Wie met de diameter rekent, krijgt vier keer te veel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Uit een rechthoek van \\(10\\) cm bij \\(6\\) cm knip je aan een korte zijde een halve cirkel met een diameter van \\(6\\) cm. Hoeveel \\(\\text{cm}^{2}\\) blijft er over? Neem \\(\\pi = 3{,}14\\).",
+          "opties": [
+            "\\(45{,}87\\)",
+            "\\(31{,}74\\)",
+            "\\(74{,}13\\)",
+            "\\(41{,}16\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De rechthoek is \\(60\\,\\text{cm}^{2}\\). De halve cirkel heeft straal \\(3\\): \\((3{,}14 \\cdot 9) : 2 = 14{,}13\\,\\text{cm}^{2}\\). Wat eruit gaat, trek je af: \\(60 - 14{,}13 = 45{,}87\\,\\text{cm}^{2}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een figuur bestaat uit een vierkant met zijden van \\(6\\) cm, met op één zijde een halve cirkel met diameter \\(6\\) cm. Hoeveel cm is de omtrek van de hele figuur? Neem \\(\\pi = 3{,}14\\).",
+          "opties": [
+            "\\(27{,}42\\)",
+            "\\(33{,}42\\)",
+            "\\(42{,}84\\)",
+            "\\(18{,}84\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Loop één keer rond: drie zijden van het vierkant, \\(3 \\cdot 6 = 18\\) cm, en de boog van de halve cirkel, \\((3{,}14 \\cdot 6) : 2 = 9{,}42\\) cm. Samen \\(27{,}42\\) cm. De zijde waar de halve cirkel op staat, ligt binnenin en telt niet mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een film duurt \\(2\\) u \\(15\\) min. Hoeveel seconden is dat?",
+          "opties": [
+            "\\(8\\,100\\)",
+            "\\(7\\,740\\)",
+            "\\(12\\,900\\)",
+            "\\(1\\,350\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst naar minuten: \\(2 \\cdot 60 + 15 = 135\\) minuten. Dan naar seconden: \\(135 \\cdot 60 = 8\\,100\\). Wie \\(2{,}15\\) uur rekent, gebruikt de maatladder bij tijd, en dat gaat fout."
+        }
+      ]
+    },
+    {
+      "titel": "Relaties en verandering — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "invultekst",
+          "vraag": "Los op: \\(7x - 4 = 3x + 10\\). Hoeveel is \\(x\\)? Antwoord met een getal.",
+          "antwoord": "3,5",
+          "uitleg": "Breng de \\(x\\)'en samen: \\(7x - 3x = 10 + 4\\), dus \\(4x = 14\\) en \\(x = 14 : 4 = 3{,}5\\). Controle: \\(7 \\cdot 3{,}5 - 4 = 20{,}5\\) en \\(3 \\cdot 3{,}5 + 10 = 20{,}5\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(2(x + 3) = 5x - 9\\). Hoeveel is \\(x\\)?",
+          "opties": [
+            "\\(5\\)",
+            "\\(4\\)",
+            "\\(1\\)",
+            "\\(-5\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Werk eerst de haakjes weg: \\(2x + 6 = 5x - 9\\). Dan \\(6 + 9 = 5x - 2x\\), dus \\(3x = 15\\) en \\(x = 5\\). Wie de \\(2\\) alleen met \\(x\\) vermenigvuldigt, krijgt \\(2x + 3\\) en komt op \\(4\\) uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Werk uit: \\((x - 3)^{2}\\). Tip: schrijf het als \\((x + (-3))^{2}\\).",
+          "opties": [
+            "\\(x^{2} - 6x + 9\\)",
+            "\\(x^{2} - 9\\)",
+            "\\(x^{2} + 9\\)",
+            "\\(x^{2} - 6x - 9\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met \\((a + b)^{2} = a^{2} + 2ab + b^{2}\\) en \\(b = -3\\): \\(x^{2} + 2 \\cdot x \\cdot (-3) + (-3)^{2} = x^{2} - 6x + 9\\). Het kwadraat van \\(-3\\) is \\(+9\\). Controle met \\(x = 5\\): \\(2^{2} = 4\\) en \\(25 - 30 + 9 = 4\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Werk uit: \\((2x + 5)^{2}\\).",
+          "opties": [
+            "\\(4x^{2} + 20x + 25\\)",
+            "\\(4x^{2} + 25\\)",
+            "\\(2x^{2} + 20x + 25\\)",
+            "\\(4x^{2} + 10x + 25\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hier is \\(a = 2x\\) en \\(b = 5\\). Dan \\(a^{2} = 4x^{2}\\), \\(2ab = 2 \\cdot 2x \\cdot 5 = 20x\\) en \\(b^{2} = 25\\). Controle met \\(x = 1\\): \\(7^{2} = 49\\) en \\(4 + 20 + 25 = 49\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Met een merkwaardig product kan je \\(51 \\cdot 49\\) uit het hoofd uitrekenen. Hoeveel is het?",
+          "opties": [
+            "\\(2\\,499\\)",
+            "\\(2\\,501\\)",
+            "\\(2\\,500\\)",
+            "\\(2\\,401\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(51 \\cdot 49 = (50 + 1)(50 - 1) = 50^{2} - 1^{2} = 2\\,500 - 1 = 2\\,499\\). De middelste termen vallen weg, daarom gaat het zo snel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Voor elk getal \\(x\\) geldt \\((x + 3)^{2} = x^{2} + 9\\).",
+          "antwoord": false,
+          "uitleg": "De middelste term ontbreekt: het is \\(x^{2} + 6x + 9\\). Toets met \\(x = 1\\): \\((1 + 3)^{2} = 16\\), maar \\(1 + 9 = 10\\). Eén tegenvoorbeeld volstaat."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij \\(x = -2\\) is de getalwaarde van \\(x^{2} + 3x\\) gelijk aan \\(-2\\).",
+          "antwoord": true,
+          "uitleg": "\\((-2)^{2} = 4\\) en \\(3 \\cdot (-2) = -6\\). Samen \\(4 - 6 = -2\\). Let op dat het kwadraat van een negatief getal positief is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bereken de getalwaarde van \\(3a^{2} - 2b\\) als \\(a = -2\\) en \\(b = -5\\).",
+          "opties": [
+            "\\(22\\)",
+            "\\(2\\)",
+            "\\(46\\)",
+            "\\(-2\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst de macht: \\((-2)^{2} = 4\\), dus \\(3 \\cdot 4 = 12\\). Dan \\(2 \\cdot (-5) = -10\\), en \\(12 - (-10) = 22\\). Wie eerst \\(3 \\cdot (-2)\\) en dan het kwadraat neemt, komt op \\(46\\) uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Herleid: \\(3(2x - 1) - 2(x - 4)\\).",
+          "opties": [
+            "\\(4x + 5\\)",
+            "\\(4x - 11\\)",
+            "\\(4x + 1\\)",
+            "\\(8x + 5\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(3(2x - 1) = 6x - 3\\) en \\(-2(x - 4) = -2x + 8\\), want \\(-2 \\cdot -4 = 8\\). Samen \\(6x - 2x - 3 + 8 = 4x + 5\\). Controle met \\(x = 1\\): \\(3 \\cdot 1 - 2 \\cdot (-3) = 9\\), en \\(4 + 5 = 9\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Met lucifers leg je driehoekjes naast elkaar op een rij: \\(1\\) driehoekje kost \\(3\\) lucifers, \\(2\\) kosten er \\(5\\), \\(3\\) kosten er \\(7\\). Hoeveel driehoekjes kan je zo leggen met precies \\(51\\) lucifers?",
+          "opties": [
+            "\\(25\\)",
+            "\\(17\\)",
+            "\\(26\\)",
+            "\\(24\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er komen telkens \\(2\\) lucifers bij, en voor nul driehoekjes zou je er \\(1\\) hebben: de formule is \\(2n + 1\\). Uit \\(2n + 1 = 51\\) volgt \\(2n = 50\\), dus \\(n = 25\\). Delen door \\(3\\) geeft \\(17\\), maar dan vergeet je dat de driehoekjes zijden delen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een voorraad voer is genoeg voor \\(12\\) konijnen gedurende \\(10\\) dagen. Hoeveel dagen is dezelfde voorraad genoeg voor \\(15\\) konijnen?",
+          "opties": [
+            "\\(8\\)",
+            "\\(12{,}5\\)",
+            "\\(13\\)",
+            "\\(7\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Meer konijnen, minder dagen: dat is omgekeerd evenredig, dus het product blijft gelijk. \\(12 \\cdot 10 = 120\\), en \\(120 : 15 = 8\\) dagen. Recht evenredig rekenen geeft \\(12{,}5\\), en dat kan niet: met meer konijnen raakt het voer net sneller op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een tabel hoort bij \\(x = 2\\) de waarde \\(y = 9\\), bij \\(x = 3\\) hoort \\(y = 6\\) en bij \\(x = 6\\) hoort \\(y = 3\\). Wat voor verband is dat?",
+          "opties": [
+            "Omgekeerd evenredig, met \\(y = 18 : x\\)",
+            "Recht evenredig, met \\(y = 4{,}5x\\)",
+            "Geen van beide, want \\(y\\) daalt telkens met \\(3\\)",
+            "Recht evenredig, met \\(y = 18x\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kijk naar het product: \\(2 \\cdot 9 = 18\\), \\(3 \\cdot 6 = 18\\) en \\(6 \\cdot 3 = 18\\). Het product blijft gelijk, dus omgekeerd evenredig met \\(y = 18 : x\\). Dat \\(y\\) telkens met \\(3\\) daalt, zegt niets, want \\(x\\) stijgt niet telkens evenveel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee grootheden zijn recht evenredig. Bij \\(4\\) hoort \\(10\\). Wat hoort bij \\(14\\)?",
+          "opties": [
+            "\\(35\\)",
+            "\\(20\\)",
+            "\\(56\\)",
+            "\\(24\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het quotiënt blijft gelijk: \\(10 : 4 = 2{,}5\\). Bij \\(14\\) hoort dus \\(2{,}5 \\cdot 14 = 35\\). Wie \\(10\\) bijtelt omdat \\(x\\) met \\(10\\) stijgt, denkt aan optellen in plaats van vermenigvuldigen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een rechthoek is \\(3\\) cm langer dan breed. De omtrek is \\(34\\) cm. Hoeveel cm is de breedte? Antwoord met een getal.",
+          "antwoord": "7",
+          "uitleg": "Noem de breedte \\(b\\), dan is de lengte \\(b + 3\\). De omtrek: \\(2(b + 3 + b) = 34\\), dus \\(2b + 3 = 17\\) en \\(2b = 14\\), \\(b = 7\\). Controle: \\(7\\) en \\(10\\) geeft omtrek \\(2 \\cdot 17 = 34\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ik denk aan een getal. De helft ervan min \\(4\\) is \\(6\\). Aan welk getal denk ik?",
+          "opties": [
+            "\\(20\\)",
+            "\\(5\\)",
+            "\\(12\\)",
+            "\\(4\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De vergelijking is \\(x : 2 - 4 = 6\\). Tel \\(4\\) op: \\(x : 2 = 10\\). Vermenigvuldig met \\(2\\): \\(x = 20\\). Wie op het einde deelt in plaats van vermenigvuldigt, komt op \\(5\\) uit."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Anna is drie keer zo oud als haar broer. Samen zijn ze \\(32\\) jaar. Hoeveel jaar is Anna? Antwoord met een getal.",
+          "antwoord": "24",
+          "uitleg": "Noem de leeftijd van de broer \\(x\\). Dan is Anna \\(3x\\), en samen \\(x + 3x = 4x = 32\\). Dus \\(x = 8\\), en Anna is \\(3 \\cdot 8 = 24\\) jaar."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het punt \\((0, -4)\\) ligt op de \\(x\\)-as.",
+          "antwoord": false,
+          "uitleg": "De \\(x\\)-coördinaat is \\(0\\), en dat betekent dat het punt op de \\(y\\)-as ligt, vier onder de oorsprong. Op de \\(x\\)-as zou de \\(y\\)-coördinaat \\(0\\) moeten zijn."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De veelterm \\(5x^{2} + 2x^{4} - x\\) heeft graad \\(4\\).",
+          "antwoord": true,
+          "uitleg": "De graad van een veelterm is de hoogste exponent die erin voorkomt, en dat is de \\(4\\) van \\(2x^{4}\\). Dat die term niet vooraan staat, maakt niet uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een taxi vraagt \\(4\\) euro opstapgeld en \\(1{,}50\\) euro per kilometer. Een rit kost \\(22\\) euro. Hoeveel kilometer was de rit?",
+          "opties": [
+            "\\(12\\)",
+            "\\(18\\)",
+            "\\(14\\)",
+            "\\(9\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De vergelijking is \\(4 + 1{,}50x = 22\\). Dan \\(1{,}50x = 18\\), en \\(x = 18 : 1{,}50 = 12\\) kilometer. \\(18\\) is wat je betaalt voor de kilometers, niet het aantal kilometers."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een rechthoek heeft als hoekpunten \\((1, 1)\\), \\((6, 1)\\), \\((6, 4)\\) en \\((1, 4)\\). Hoe groot is zijn oppervlakte?",
+          "opties": [
+            "\\(15\\)",
+            "\\(16\\)",
+            "\\(24\\)",
+            "\\(10\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Langs de \\(x\\)-as gaat de rechthoek van \\(1\\) tot \\(6\\), dat is \\(5\\) lang. Langs de \\(y\\)-as van \\(1\\) tot \\(4\\), dat is \\(3\\) hoog. Oppervlakte: \\(5 \\cdot 3 = 15\\). Wie \\(6 \\cdot 4\\) neemt, vergeet dat de rechthoek niet in de oorsprong begint."
+        }
+      ]
+    },
+    {
+      "titel": "Data en onzekerheid — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Vijf getallen hebben samen een gemiddelde van \\(8\\). Eén van de getallen is \\(12\\), en dat haal je weg. Wat is het gemiddelde van de vier getallen die overblijven?",
+          "opties": [
+            "\\(7\\)",
+            "\\(8\\)",
+            "\\(6\\)",
+            "\\(9\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Reken eerst terug naar de som: \\(5 \\cdot 8 = 40\\). Zonder de \\(12\\) blijft \\(28\\) over, verdeeld over vier getallen: \\(28 : 4 = 7\\). Dat het gemiddelde daalt, klopt: je haalde een waarde boven het gemiddelde weg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een klas van \\(20\\) leerlingen haalt gemiddeld \\(12\\) op een toets, een klas van \\(30\\) leerlingen gemiddeld \\(15\\). Wat is het gemiddelde van alle \\(50\\) leerlingen samen?",
+          "opties": [
+            "\\(13{,}8\\)",
+            "\\(13{,}5\\)",
+            "\\(14\\)",
+            "\\(27\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Reken de sommen uit: \\(20 \\cdot 12 = 240\\) en \\(30 \\cdot 15 = 450\\), samen \\(690\\) punten. Gedeeld door \\(50\\) leerlingen geeft \\(13{,}8\\). Het gemiddelde van \\(12\\) en \\(15\\) nemen, \\(13{,}5\\), is fout: de grote klas telt zwaarder."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je haalde \\(14\\), \\(11\\), \\(17\\) en \\(12\\) op vier toetsen. Hoeveel moet je halen op de vijfde toets om gemiddeld \\(14\\) te hebben? Antwoord met een getal.",
+          "antwoord": "16",
+          "uitleg": "Voor een gemiddelde van \\(14\\) over vijf toetsen heb je \\(14 \\cdot 5 = 70\\) punten nodig. Je hebt er al \\(14 + 11 + 17 + 12 = 54\\). Dus nog \\(70 - 54 = 16\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de mediaan van \\(8\\), \\(3\\), \\(12\\), \\(5\\), \\(9\\) en \\(4\\)?",
+          "opties": [
+            "\\(6{,}5\\)",
+            "\\(8{,}5\\)",
+            "\\(8\\)",
+            "\\(5\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst op volgorde: \\(3\\), \\(4\\), \\(5\\), \\(8\\), \\(9\\), \\(12\\). Bij zes getallen neem je het gemiddelde van de twee middelste: \\((5 + 8) : 2 = 6{,}5\\). Wie niet sorteert, neemt \\(12\\) en \\(5\\) en komt op \\(8{,}5\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In de reeks \\(4\\), \\(7\\), \\(10\\), \\(15\\), \\(30\\) vervang je de \\(30\\) door \\(90\\). Wat blijft zeker hetzelfde?",
+          "opties": [
+            "De mediaan",
+            "Het gemiddelde",
+            "De variatiebreedte",
+            "De som van alle waarden"
+          ],
+          "antwoord": 0,
+          "uitleg": "De mediaan kijkt naar het middelste getal op volgorde, en dat blijft \\(10\\). De som, en dus het gemiddelde, stijgt met \\(60\\), en de variatiebreedte gaat van \\(26\\) naar \\(86\\). Zo zie je hoe een uitschieter het gemiddelde meetrekt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een klas telde je het aantal huisdieren. \\(6\\) leerlingen hebben er \\(0\\), \\(8\\) leerlingen hebben er \\(1\\), \\(4\\) leerlingen hebben er \\(2\\) en \\(2\\) leerlingen hebben er \\(3\\). Hoeveel huisdieren heeft een leerling gemiddeld?",
+          "opties": [
+            "\\(1{,}1\\)",
+            "\\(1{,}5\\)",
+            "\\(5\\)",
+            "\\(2{,}2\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Doe elke waarde maal haar frequentie: \\(0 + 8 + 8 + 6 = 22\\) huisdieren. Het aantal metingen is \\(6 + 8 + 4 + 2 = 20\\). Gemiddeld \\(22 : 20 = 1{,}1\\). Het gemiddelde van de waarden \\(0\\), \\(1\\), \\(2\\) en \\(3\\) is \\(1{,}5\\), maar dan tel je elke waarde maar één keer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een frequentietabel komt waarde \\(1\\) drie keer voor, waarde \\(2\\) vijf keer, waarde \\(3\\) zeven keer en waarde \\(4\\) vijf keer. Wat is de mediaan?",
+          "opties": [
+            "\\(3\\)",
+            "\\(2{,}5\\)",
+            "\\(7\\)",
+            "\\(5\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er zijn \\(3 + 5 + 7 + 5 = 20\\) metingen, dus de mediaan ligt tussen de tiende en de elfde. Op volgorde zijn de eerste \\(3\\) metingen een \\(1\\), de vierde tot en met de achtste een \\(2\\), en de negende tot en met de vijftiende een \\(3\\). De tiende en elfde zijn dus allebei \\(3\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een cirkeldiagram over \\(60\\) leerlingen krijgt de groep die met de bus komt een sector van \\(48^{\\circ}\\). Hoeveel leerlingen komen met de bus?",
+          "opties": [
+            "\\(8\\)",
+            "\\(48\\)",
+            "\\(13\\)",
+            "\\(12\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De hele cirkel is \\(360^{\\circ}\\) en staat voor alle \\(60\\) leerlingen, dus één leerling krijgt \\(360 : 60 = 6^{\\circ}\\). Een sector van \\(48^{\\circ}\\) is dan \\(48 : 6 = 8\\) leerlingen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een cirkeldiagram heeft drie sectoren. Groep A is \\(25\\,\\%\\), groep B is \\(40\\,\\%\\) en groep C is de rest. Hoeveel graden is de sector van groep C?",
+          "opties": [
+            "\\(126^{\\circ}\\)",
+            "\\(35^{\\circ}\\)",
+            "\\(144^{\\circ}\\)",
+            "\\(90^{\\circ}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Samen moet het \\(100\\,\\%\\) zijn, dus groep C is \\(100 - 25 - 40 = 35\\,\\%\\). Dat is \\(0{,}35 \\cdot 360 = 126^{\\circ}\\). Het percentage zelf is geen aantal graden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Van \\(24\\) leerlingen kiezen er \\(7\\) voor zwemmen. Hoeveel graden krijgt die groep in een cirkeldiagram? Antwoord met een getal.",
+          "antwoord": "105",
+          "uitleg": "Eén leerling krijgt \\(360 : 24 = 15^{\\circ}\\). Voor \\(7\\) leerlingen is dat \\(7 \\cdot 15 = 105^{\\circ}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In klas A komen \\(12\\) van de \\(30\\) leerlingen met de fiets, in klas B \\(9\\) van de \\(20\\). In welke klas komt verhoudingsgewijs het grootste deel met de fiets?",
+          "opties": [
+            "In klas B, met \\(45\\,\\%\\)",
+            "In klas A, met \\(40\\,\\%\\)",
+            "In klas A, want \\(12\\) is meer dan \\(9\\)",
+            "Ze zijn gelijk, want in allebei komt minder dan de helft met de fiets"
+          ],
+          "antwoord": 0,
+          "uitleg": "Klassen van verschillende grootte vergelijk je met percentages. Klas A: \\(12 : 30 = 0{,}40\\), dus \\(40\\,\\%\\). Klas B: \\(9 : 20 = 0{,}45\\), dus \\(45\\,\\%\\). Klas B heeft dus het grootste deel fietsers, ook al zijn het er minder."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je bij elke waarde van een reeks \\(5\\) optelt, wordt het gemiddelde \\(5\\) groter.",
+          "antwoord": true,
+          "uitleg": "Bij \\(n\\) waarden wordt de som \\(5 \\cdot n\\) groter, en die deel je weer door \\(n\\). Het gemiddelde stijgt dus precies met \\(5\\). Bijvoorbeeld \\(4\\), \\(6\\), \\(8\\) heeft gemiddelde \\(6\\), en \\(9\\), \\(11\\), \\(13\\) heeft gemiddelde \\(11\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je aan een reeks een waarde toevoegt die gelijk is aan de mediaan, blijft het gemiddelde altijd gelijk.",
+          "antwoord": false,
+          "uitleg": "Het gemiddelde blijft alleen gelijk als je een waarde toevoegt die gelijk is aan het gemiddelde. Neem \\(1\\), \\(2\\), \\(9\\): de mediaan is \\(2\\) en het gemiddelde \\(4\\). Voeg je \\(2\\) toe, dan wordt het gemiddelde \\(14 : 4 = 3{,}5\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het gemiddelde van een reeks ligt nooit lager dan de kleinste waarde en nooit hoger dan de grootste waarde.",
+          "antwoord": true,
+          "uitleg": "Zouden alle waarden gelijk zijn aan de kleinste, dan was het gemiddelde die kleinste waarde. Elke grotere waarde trekt het gemiddelde alleen maar omhoog, en net zo omgekeerd voor de grootste. Daarom ligt het altijd ertussen, of is het gelijk aan de waarden als die allemaal hetzelfde zijn."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je de lievelingssport van je klasgenoten noteert, kan je daarvan de mediaan berekenen.",
+          "antwoord": false,
+          "uitleg": "Lievelingssport is een categorische variabele. Sporten kan je niet op volgorde van klein naar groot zetten, dus er is geen middelste. Je kan wel de modus geven: de sport die het vaakst gekozen werd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je bevraagt de \\(24\\) leerlingen van je klas, en \\(18\\) van hen spelen een muziekinstrument. Welk besluit mag je trekken?",
+          "opties": [
+            "In mijn klas speelt \\(75\\,\\%\\) een muziekinstrument",
+            "In België speelt \\(75\\,\\%\\) van de kinderen een instrument",
+            "In mijn klas speelt \\(18\\,\\%\\) een muziekinstrument",
+            "Alle kinderen van mijn leeftijd spelen graag muziek"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(18 : 24 = 0{,}75\\), dus \\(75\\,\\%\\). Je onderzocht alleen je eigen klas, dus je besluit gaat over je klas en niet over alle kinderen van het land. \\(18\\) is een aantal, geen percentage."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een reeks van vijf getallen heeft mediaan \\(10\\), modus \\(12\\) en gemiddelde \\(9\\). Welke reeks is het?",
+          "opties": [
+            "\\(4\\), \\(7\\), \\(10\\), \\(12\\), \\(12\\)",
+            "\\(5\\), \\(8\\), \\(10\\), \\(12\\), \\(12\\)",
+            "\\(3\\), \\(10\\), \\(10\\), \\(12\\), \\(12\\)",
+            "\\(6\\), \\(6\\), \\(10\\), \\(11\\), \\(12\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij \\(4\\), \\(7\\), \\(10\\), \\(12\\), \\(12\\) is het middelste \\(10\\), komt \\(12\\) het vaakst voor en is de som \\(45\\), dus het gemiddelde \\(9\\). De reeks met \\(5\\) en \\(8\\) heeft som \\(47\\). Die met twee keer \\(10\\) heeft twee modi, en die met twee keer \\(6\\) heeft modus \\(6\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De temperatuur wordt elk uur gemeten: om 10 u is het \\(8^{\\circ}\\text{C}\\), om 11 u \\(11^{\\circ}\\text{C}\\), om 12 u \\(17^{\\circ}\\text{C}\\), om 13 u \\(19^{\\circ}\\text{C}\\) en om 14 u \\(20^{\\circ}\\text{C}\\). Tussen welke twee uren loopt de lijn in een lijndiagram het steilst?",
+          "opties": [
+            "Tussen 11 u en 12 u",
+            "Tussen 13 u en 14 u",
+            "Tussen 10 u en 11 u",
+            "Tussen 12 u en 13 u"
+          ],
+          "antwoord": 0,
+          "uitleg": "De steilheid toont hoe snel het verandert. Van 11 u naar 12 u stijgt het \\(6\\) graden, meer dan in elk ander uur. Om 14 u is het wel het warmst, maar daar stijgt het nog maar \\(1\\) graad."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Zes getallen hebben gemiddelde \\(10\\). Er komt een zevende getal bij, en het gemiddelde wordt \\(11\\). Welk getal kwam erbij?",
+          "opties": [
+            "\\(17\\)",
+            "\\(11\\)",
+            "\\(12\\)",
+            "\\(21\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst was de som \\(6 \\cdot 10 = 60\\), daarna \\(7 \\cdot 11 = 77\\). Het nieuwe getal is het verschil: \\(77 - 60 = 17\\). Dat ligt boven het oude gemiddelde, en dus stijgt het gemiddelde."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vier getallen hebben gemiddelde \\(12\\). Drie ervan zijn \\(6\\), \\(9\\) en \\(14\\). Wat is de variatiebreedte van de vier getallen? Antwoord met een getal.",
+          "antwoord": "13",
+          "uitleg": "De som is \\(4 \\cdot 12 = 48\\), dus het vierde getal is \\(48 - 29 = 19\\). Het grootste is dan \\(19\\) en het kleinste \\(6\\). Variatiebreedte: \\(19 - 6 = 13\\)."
+        }
+      ]
+    },
+    {
+      "titel": "Verzamelingen — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "invultekst",
+          "vraag": "In een klas van \\(28\\) leerlingen bespelen er \\(15\\) een instrument en doen er \\(12\\) aan sport. \\(6\\) leerlingen doen geen van beide. Hoeveel leerlingen doen allebei? Antwoord met een getal.",
+          "antwoord": "5",
+          "uitleg": "Minstens één van de twee doen er \\(28 - 6 = 22\\). Tel je \\(15 + 12 = 27\\), dan tel je wie allebei doet twee keer. Het verschil is dus de overlap: \\(27 - 22 = 5\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "\\(A\\) heeft \\(9\\) elementen. \\(A \\cup B\\) heeft \\(14\\) elementen en \\(A \\cap B\\) heeft er \\(3\\). Hoeveel elementen heeft \\(B\\)?",
+          "opties": [
+            "\\(8\\)",
+            "\\(5\\)",
+            "\\(11\\)",
+            "\\(2\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het aantal in de unie is \\(A + B\\) min de overlap: \\(9 + B - 3 = 14\\). Dus \\(B = 14 - 9 + 3 = 8\\). Wie de overlap vergeet, komt op \\(5\\) uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel elementen heeft \\(\\{2, 4, 4, 6\\} \\cup \\{4, 6, 8, 8\\}\\)?",
+          "opties": [
+            "\\(4\\)",
+            "\\(8\\)",
+            "\\(6\\)",
+            "\\(2\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een verzameling telt elk element maar één keer, en in een unie schrijf je niets dubbel. Alles samen is dat \\(\\{2, 4, 6, 8\\}\\): vier elementen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "\\(A = \\{1, 2, 3, 4, 5, 6\\}\\), \\(B = \\{2, 4, 6, 8\\}\\) en \\(C = \\{3, 6, 9\\}\\). Wat is \\((A \\cap B) \\setminus C\\)?",
+          "opties": [
+            "\\(\\{2, 4\\}\\)",
+            "\\(\\{2, 4, 6\\}\\)",
+            "\\(\\{6\\}\\)",
+            "\\(\\{2, 4, 8\\}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst de haakjes: \\(A \\cap B = \\{2, 4, 6\\}\\). Dan haal je eruit wat in \\(C\\) zit, en dat is de \\(6\\). Er blijft \\(\\{2, 4\\}\\) over."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "\\(A = \\{1, 2, 3, 4\\}\\) en \\(B = \\{3, 4, 5\\}\\). Wat is \\((A \\setminus B) \\cup (B \\setminus A)\\)?",
+          "opties": [
+            "\\(\\{1, 2, 5\\}\\)",
+            "\\(\\{3, 4\\}\\)",
+            "\\(\\{1, 2, 3, 4, 5\\}\\)",
+            "\\(\\{1, 2\\}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(A \\setminus B = \\{1, 2\\}\\) en \\(B \\setminus A = \\{5\\}\\). Samen geeft dat \\(\\{1, 2, 5\\}\\): alles wat in precies één van de twee zit. De \\(3\\) en \\(4\\) zitten in allebei en vallen dus weg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "\\(A = \\{2, 4, 6\\}\\). Welke uitspraak is FOUT?",
+          "opties": [
+            "\\(\\{4\\} \\in A\\)",
+            "\\(4 \\in A\\)",
+            "\\(\\{4\\} \\subset A\\)",
+            "\\(\\emptyset \\subset A\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\{4\\}\\) is een verzameling, en tussen twee verzamelingen hoort \\(\\subset\\), niet \\(\\in\\). Het getal \\(4\\) is een element van \\(A\\), de verzameling \\(\\{4\\}\\) is een deelverzameling. En de lege verzameling is een deel van elke verzameling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel deelverzamelingen heeft \\(\\{a, b, c\\}\\)?",
+          "opties": [
+            "\\(8\\)",
+            "\\(6\\)",
+            "\\(7\\)",
+            "\\(3\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Schrijf ze allemaal op: \\(\\emptyset\\), \\(\\{a\\}\\), \\(\\{b\\}\\), \\(\\{c\\}\\), \\(\\{a, b\\}\\), \\(\\{a, c\\}\\), \\(\\{b, c\\}\\) en \\(\\{a, b, c\\}\\). Dat zijn er \\(8\\). Vergeet de lege verzameling en de verzameling zelf niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel deelverzamelingen van \\(\\{1, 2, 3, 4\\}\\) hebben precies twee elementen?",
+          "opties": [
+            "\\(6\\)",
+            "\\(4\\)",
+            "\\(8\\)",
+            "\\(12\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze zijn \\(\\{1, 2\\}\\), \\(\\{1, 3\\}\\), \\(\\{1, 4\\}\\), \\(\\{2, 3\\}\\), \\(\\{2, 4\\}\\) en \\(\\{3, 4\\}\\). Net als bij handdrukken is \\(\\{1, 2\\}\\) hetzelfde als \\(\\{2, 1\\}\\), dus \\(4 \\cdot 3 = 12\\) moet nog gedeeld worden door \\(2\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als \\(A \\cap B = A\\), dan is \\(A \\subset B\\).",
+          "antwoord": true,
+          "uitleg": "Is wat ze gemeen hebben heel \\(A\\), dan zit elk element van \\(A\\) ook in \\(B\\). Dat is precies wat \\(A \\subset B\\) betekent."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als \\(A \\cup B = A\\), dan is \\(A \\subset B\\).",
+          "antwoord": false,
+          "uitleg": "Het is net omgekeerd: er komt niets bij, dus alles van \\(B\\) zat al in \\(A\\), en dan is \\(B \\subset A\\). Tegenvoorbeeld: \\(A = \\{1, 2\\}\\) en \\(B = \\{1\\}\\) geeft \\(A \\cup B = A\\), maar \\(A\\) zit niet in \\(B\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\\(\\emptyset \\in \\{1, 2, 3\\}\\)",
+          "antwoord": false,
+          "uitleg": "De elementen van \\(\\{1, 2, 3\\}\\) zijn \\(1\\), \\(2\\) en \\(3\\), en de lege verzameling is daar niet bij. Wat wél klopt, is \\(\\emptyset \\subset \\{1, 2, 3\\}\\): de lege verzameling is een deelverzameling van elke verzameling."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als \\(A \\cap B = \\emptyset\\), dan is \\(A \\setminus B = A\\).",
+          "antwoord": true,
+          "uitleg": "Hebben ze niets gemeen, dan zit geen enkel element van \\(A\\) in \\(B\\). Er valt dus niets weg uit \\(A\\). Bijvoorbeeld \\(\\{1, 3\\} \\setminus \\{2, 4\\} = \\{1, 3\\}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "\\(D\\) is de verzameling delers van \\(18\\) en \\(E\\) die van de delers van \\(24\\). Wat is \\(D \\cap E\\)?",
+          "opties": [
+            "\\(\\{1, 2, 3, 6\\}\\)",
+            "\\(\\{6\\}\\)",
+            "\\(\\{2, 3\\}\\)",
+            "\\(\\{1, 2, 3, 4, 6, 8, 9, 12, 18, 24\\}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Delers van \\(18\\): \\(1\\), \\(2\\), \\(3\\), \\(6\\), \\(9\\), \\(18\\). Delers van \\(24\\): \\(1\\), \\(2\\), \\(3\\), \\(4\\), \\(6\\), \\(8\\), \\(12\\), \\(24\\). Gemeenschappelijk zijn \\(1\\), \\(2\\), \\(3\\) en \\(6\\). De grootste daarvan, \\(6\\), is de ggd; de lange verzameling is de unie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de doorsnede van de veelvouden van \\(4\\) en de veelvouden van \\(6\\)?",
+          "opties": [
+            "De veelvouden van \\(12\\)",
+            "De veelvouden van \\(24\\)",
+            "De veelvouden van \\(2\\)",
+            "De veelvouden van \\(10\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Veelvouden van \\(4\\): \\(4\\), \\(8\\), \\(12\\), \\(16\\), \\(20\\), \\(24\\) … Van \\(6\\): \\(6\\), \\(12\\), \\(18\\), \\(24\\) … Gemeenschappelijk zijn \\(12\\), \\(24\\), \\(36\\) …: de veelvouden van het kgv, \\(12\\). Het product \\(4 \\cdot 6 = 24\\) slaat de \\(12\\) over."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Van \\(40\\) leerlingen lezen er \\(25\\) graag. \\(10\\) leerlingen lezen graag én gamen graag, en \\(8\\) leerlingen doen geen van beide graag. Hoeveel leerlingen gamen graag?",
+          "opties": [
+            "\\(17\\)",
+            "\\(7\\)",
+            "\\(15\\)",
+            "\\(22\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Begin in het midden: \\(10\\) doen allebei. In de unie zitten \\(40 - 8 = 32\\) leerlingen, en daarvan lezen er \\(25\\) graag. De overige \\(32 - 25 = 7\\) gamen alleen. Samen met de \\(10\\) uit het midden gamen er \\(17\\) graag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je kleurt in een venndiagram van \\(A\\) en \\(B\\) alles in wat in precies één van de twee verzamelingen zit. Welke verzameling heb je ingekleurd?",
+          "opties": [
+            "\\((A \\cup B) \\setminus (A \\cap B)\\)",
+            "\\(A \\cup B\\)",
+            "\\(A \\setminus B\\)",
+            "\\((A \\cap B) \\setminus (A \\cup B)\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je neemt alles samen, de unie, maar laat het overlappende deel wit: daarvan haal je de doorsnede af. \\(A \\setminus B\\) is maar de linkerkant. Omgekeerd, de doorsnede min de unie, is leeg."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "\\(A\\) is de verzameling even getallen van \\(1\\) tot en met \\(20\\), \\(B\\) die van de veelvouden van \\(3\\) van \\(1\\) tot en met \\(20\\). Hoeveel elementen heeft \\(A \\cap B\\)? Antwoord met een getal.",
+          "antwoord": "3",
+          "uitleg": "Even én een veelvoud van \\(3\\) betekent een veelvoud van \\(6\\). Tot en met \\(20\\) zijn dat \\(6\\), \\(12\\) en \\(18\\): drie elementen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "\\(A\\) heeft \\(5\\) elementen en \\(B\\) heeft \\(3\\) elementen, en \\(B \\subset A\\). Hoeveel elementen heeft \\(A \\cup B\\)? Antwoord met een getal.",
+          "antwoord": "5",
+          "uitleg": "Alles van \\(B\\) zit al in \\(A\\), dus er komt niets bij: \\(A \\cup B = A\\), met \\(5\\) elementen. Met de formule: \\(5 + 3\\) min de overlap \\(3\\) is ook \\(5\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "\\(R\\) is de verzameling ruiten en \\(P\\) die van de parallellogrammen. Wat is \\(R \\cup P\\)?",
+          "opties": [
+            "De parallellogrammen",
+            "De ruiten",
+            "De vierkanten",
+            "De rechthoeken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een ruit is een parallellogram met vier gelijke zijden, dus \\(R \\subset P\\). Zit \\(A\\) helemaal in \\(B\\), dan is \\(A \\cup B = B\\). De unie is dus de verzameling parallellogrammen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke verzameling is gelijk aan \\(\\{1, 2, 3\\}\\)?",
+          "opties": [
+            "\\(\\{3, 2, 1, 1\\}\\)",
+            "\\(\\{0, 1, 2, 3\\}\\)",
+            "\\(\\{1, 2\\}\\)",
+            "\\(\\{1, 2, 3\\} \\cup \\{4\\}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Volgorde maakt niet uit en een element dat twee keer staat, telt maar één keer. Dus \\(\\{3, 2, 1, 1\\}\\) heeft dezelfde elementen. Met \\(0\\) of \\(4\\) erbij is er een element te veel, en \\(\\{1, 2\\}\\) mist de \\(3\\)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2193 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Een Engelse tekst lezen — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The museum is closed on Mondays. The garden is open every day. Tickets for the museum cost 8 euros, but the garden is for free.' Je wil op een maandag iets bezoeken zonder te betalen. Wat kan je doen?",
+          "opties": [
+            "De tuin bezoeken, en dat kost niets.",
+            "Het museum bezoeken, en dat kost 8 euro.",
+            "Het museum bezoeken, en dat kost niets.",
+            "Niets: op maandag is alles daar dicht."
+          ],
+          "antwoord": 0,
+          "uitleg": "Je moet twee dingen combineren. Op maandag is alleen het museum dicht, de tuin is elke dag open. En for free betekent gratis, terwijl het museum 8 euro kost."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een affiche staat: 'School party! Friday, 7 p.m. on the playground. Tickets: 5 euros.' Welke uitspraak over dat feest klopt NIET?",
+          "opties": [
+            "Het feest begint om zeven uur 's ochtends.",
+            "Het feest vindt plaats op de speelplaats.",
+            "Een ticket voor het feest kost vijf euro.",
+            "Het feest is op een vrijdag, niet in het weekend."
+          ],
+          "antwoord": 0,
+          "uitleg": "P.m. betekent na de middag, dus het feest begint om zeven uur 's avonds. A.m. zou 's ochtends zijn. Playground is de speelplaats, Friday is vrijdag en de tickets kosten 5 euros."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je leest: 'The school trip to London costs 180 euros. Please pay before 15 March.' Tim heeft al 95 euro betaald. Hoeveel euro moet hij nog betalen? Antwoord met een getal.",
+          "antwoord": "85",
+          "uitleg": "Gericht lezen: je zoekt het bedrag, 180 euros. Daarna reken je: 180 min 95 is 85 euro, en dat moet hij nog betalen vóór 15 maart."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Our city has a new park. Children can play there for free. The park is open from 8 a.m. until 8 p.m.' Een klasgenoot schrijft als ONDERWERP: 'De stad heeft een nieuw park voor kinderen.' Wat is daar mis mee?",
+          "opties": [
+            "Het is een hele zin, en dat is de hoofdgedachte.",
+            "Het park staat niet in de tekst, dus het klopt niet.",
+            "De openingsuren van het park ontbreken nog in die zin.",
+            "Er staat niets over kinderen in die korte tekst."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een onderwerp zeg je in één of enkele woorden, zoals 'het nieuwe park'. Een hele zin met de belangrijkste boodschap is de hoofdgedachte. De openingsuren zijn een hoofdpunt, geen onderwerp."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je leest: 'Our city has a new park. Children can play there for free. The park is open from 8 a.m. until 8 p.m.' Een hoofdpunt van die tekst is dat spelen in het park gezond is voor kinderen.",
+          "antwoord": false,
+          "uitleg": "Over gezondheid staat er niets in de tekst. Hoe logisch het ook klinkt: wat er niet staat, is geen hoofdpunt. De hoofdpunten zijn gratis spelen en de openingsuren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Tom and Lucy missed the bus. They were late again, so the teacher was unhappy.' Welke uitspraken over die zinnen kloppen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "They verwijst naar Tom en Lucy.",
+            "So kondigt een gevolg aan.",
+            "Unhappy betekent niet blij.",
+            "They verwijst naar de bus en de leraar.",
+            "So kondigt hier een oorzaak aan."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "They wijst terug naar meerdere mensen uit de vorige zin: Tom en Lucy. So geeft het gevolg (de leraar was niet blij), de oorzaak is dat ze te laat waren. Unhappy is happy met un- ervoor, dus niet blij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke Engelse zin is NIET logisch, omdat het signaalwoord oorzaak en gevolg omdraait?",
+          "opties": [
+            "We stayed at home, so the weather was terrible.",
+            "The weather was terrible, so we stayed at home.",
+            "She was tired because she had worked all night.",
+            "It rained every day, but the mountains were beautiful."
+          ],
+          "antwoord": 0,
+          "uitleg": "So kondigt het gevolg aan. Thuisblijven kan het slechte weer niet veroorzaken, dus 'we stayed at home, so the weather was terrible' draait de zaken om. In de andere zinnen staat because voor de oorzaak, so voor het gevolg en but voor een tegenstelling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil in het Engels zeggen dat jullie thuisbleven OMDAT het regende. Welke zin zegt precies dat?",
+          "opties": [
+            "We stayed at home because it rained.",
+            "It rained because we stayed at home.",
+            "We stayed at home, but it rained.",
+            "It rained, but we stayed at home."
+          ],
+          "antwoord": 0,
+          "uitleg": "Because zet de oorzaak achter zich: het regende, en daarom bleven jullie thuis. Met but krijg je een tegenstelling, en 'it rained because we stayed at home' maakt van het thuisblijven de oorzaak van de regen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Nobody was unhappy at the party.' Wat betekent die zin?",
+          "opties": [
+            "Iedereen was tevreden op het feest.",
+            "Niemand was blij op het feest.",
+            "Er was niemand op het feest.",
+            "Eén persoon was niet blij op het feest."
+          ],
+          "antwoord": 0,
+          "uitleg": "Hier zitten twee ontkenningen in. Nobody is niemand, en unhappy is niet blij. Als niemand niet blij was, dan was iedereen tevreden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een filmreview: 'The costumes look amazing, but the story is boring and the actors are not great. I will not see it again.' Wat is de hoofdgedachte?",
+          "opties": [
+            "De schrijver vond de film niet goed.",
+            "De kostuums in de film zien er prachtig uit.",
+            "De schrijver vond de film prachtig, door de kostuums.",
+            "De acteurs zijn het beste deel van de film."
+          ],
+          "antwoord": 0,
+          "uitleg": "Let op but: na de mooie kostuums komt wat de schrijver niet goed vindt, een saai verhaal en acteurs die niet goed zijn. 'I will not see it again' geeft het eindoordeel. De kostuums zijn maar één hoofdpunt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest in een krant: 'Teenagers who look at screens late at night sleep less well.' Welk besluit mag je uit die zin trekken?",
+          "opties": [
+            "Tieners die laat naar een scherm kijken, slapen minder goed.",
+            "Tieners halen slechtere punten als ze naar schermen kijken.",
+            "Alle tieners slapen te weinig, ook zonder een scherm.",
+            "Overdag naar een scherm kijken is ook slecht voor de slaap."
+          ],
+          "antwoord": 0,
+          "uitleg": "De zin gaat over tieners, schermen laat in de nacht en slaap. Over punten op school, over overdag of over tieners zonder scherm staat er niets. Meer staat er niet, dus meer mag je er ook niet uit afleiden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Keep your bike in the bike shed. Do not park it on the playground.' Wat voor soort tekst is dat, en waaraan zie je het?",
+          "opties": [
+            "Prescriptief: de zinnen zeggen wat je moet doen.",
+            "Opiniërend: de schrijver vindt fietsen gevaarlijk.",
+            "Narratief: er gebeurt iets met een fiets op school.",
+            "Informatief: de tekst vertelt hoeveel fietsen er zijn."
+          ],
+          "antwoord": 0,
+          "uitleg": "Keep en do not park zijn bevelen: ze zeggen wat je wel en niet mag doen. Zo'n tekst is prescriptief, net als 'Please do not feed the animals'. Er staat geen mening en geen verhaal in."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een blog: 'We arrived in London on Friday. It rained all week, but we loved the old bridge.' Welke uitspraken mag je uit die tekst halen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Ze kwamen op een vrijdag aan in Londen.",
+            "Het regende de hele week dat ze er waren.",
+            "Door de regen vonden ze de reis niet leuk.",
+            "Het regende alleen op de dag dat ze aankwamen."
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Friday is vrijdag, en 'it rained all week' is: het regende de hele week. Na but staat dat ze de oude brug prachtig vonden, dus de regen bedierf de reis niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Structuuraanduiders helpen je zien hoe een tekst in elkaar zit. Welke van deze woorden zijn structuuraanduiders? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "they",
+            "there",
+            "first",
+            "finally",
+            "amazing"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Er zijn twee soorten structuuraanduiders: verwijswoorden zoals they en there, en signaalwoorden zoals first en finally. Amazing is een woord dat een mening geeft, het zegt niets over hoe de tekst opgebouwd is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je moet alleen weten hoe laat de bus vertrekt. Je leest: 'The school trip to London costs 180 euros. The bus leaves at 6 a.m. from the station, near the old bridge.' Stel dat je al die woorden niet kent. Welk woord hoef je zeker niet op te zoeken?",
+          "opties": [
+            "bridge",
+            "leaves",
+            "a.m.",
+            "bus"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je beslist zelf welk woord ertoe doet. Om het vertrekuur te vinden heb je bus, leaves en a.m. nodig. Waar het station ligt, bij de oude brug, verandert niets aan het uur."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'The shop is closed on Sunday' en 'The shop is closed on Sundays' betekenen precies hetzelfde.",
+          "antwoord": false,
+          "uitleg": "On Sundays met een -s betekent élke zondag: de winkel is altijd op zondag dicht. Zonder -s gaat het over één zondag."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je leest: 'The story is not very original, but I loved it.' Het oordeel van de schrijver over het geheel is toch positief.",
+          "antwoord": true,
+          "uitleg": "But draait de zin om. Eerst komt iets negatiefs over het verhaal, maar daarna 'I loved it'. Een mening is zelden helemaal positief, en hier weegt het positieve het zwaarst."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Er staat 'The bus leaves at 6 a.m.' Wie om 18 uur bij de bus staat, komt twaalf uur te laat.",
+          "antwoord": true,
+          "uitleg": "6 a.m. is zes uur 's ochtends. Om 18 uur, zes uur 's avonds, is de bus al twaalf uur weg. Wie a.m. en p.m. verwart, staat twaalf uur naast de afspraak."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een film begint om kwart over acht 's avonds. Hoe staat dat uur in een Engelse bioscoopgids?",
+          "opties": [
+            "8.15 p.m.",
+            "8.15 a.m.",
+            "20.15 p.m.",
+            "8.45 p.m."
+          ],
+          "antwoord": 0,
+          "uitleg": "Na de middag schrijf je p.m. en tel je opnieuw vanaf 1, dus 20.15 uur wordt 8.15 p.m. 20.15 p.m. telt twee keer de middag mee, en 8.15 a.m. is kwart over acht 's ochtends."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je kent het woord 'possible' (mogelijk). Met een voorvoegsel maak je er 'onmogelijk' van. Welk Engels woord krijg je? Antwoord met één woord.",
+          "antwoord": "impossible",
+          "uitleg": "Het voorvoegsel im- draait de betekenis om, net zoals un- in unhappy en dis- in dislike. Possible wordt zo impossible."
+        }
+      ]
+    },
+    {
+      "titel": "Tekstsoorten, signaalwoorden en verwijswoorden — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk paar van tekst en tekstsoort klopt NIET?",
+          "opties": [
+            "een interview — narratief",
+            "een reisverslag — narratief",
+            "een schoolreglement — prescriptief",
+            "een reactie op sociale media — opiniërend"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een interview hoort bij de informatieve teksten, samen met een krantenartikel en een stukje uit een leerboek. Een reisverslag is wel narratief, een schoolreglement prescriptief en een reactie op sociale media opiniërend."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: 'Our town has only one swimming pool, and it is small. ___, it is often closed.' Welk signaalwoord past?",
+          "opties": [
+            "In addition",
+            "However",
+            "Because",
+            "Finally"
+          ],
+          "antwoord": 0,
+          "uitleg": "Beide zinnen zeggen iets negatiefs over het zwembad, dus de tweede zin telt er een nadeel bij. Dat is een opsomming, en daarvoor gebruik je in addition. However zou een tegenstelling aankondigen, en die is er hier niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: 'Our town has only one swimming pool, and it is small. ___, it is open every day.' Welk signaalwoord past?",
+          "opties": [
+            "However",
+            "In addition",
+            "So",
+            "First of all"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst staat er een nadeel (klein), daarna een voordeel (elke dag open). Die twee staan tegenover elkaar, dus je hebt een tegenstelling nodig: however. In addition zou er nog een nadeel bij tellen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The teacher read the students a story. They found it boring.' Waarnaar verwijzen 'they' en 'it'?",
+          "opties": [
+            "they naar de leerlingen, it naar het verhaal",
+            "they naar de leraar, it naar het verhaal",
+            "they naar het verhaal, it naar de leerlingen",
+            "they naar de leerlingen, it naar de leraar"
+          ],
+          "antwoord": 0,
+          "uitleg": "They staat voor meerdere mensen: de leerlingen, want de leraar is maar één persoon. It staat voor een ding: het verhaal. Saai vinden kan alleen iemand die het verhaal hoorde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zin staat een bijzin, ingeleid door een onderschikkend voegwoord?",
+          "opties": [
+            "I stayed at home because I was tired.",
+            "I was tired, so I stayed at home.",
+            "I was tired and I stayed at home.",
+            "I was tired, but I went out with Tom."
+          ],
+          "antwoord": 0,
+          "uitleg": "Because is onderschikkend: het maakt van 'I was tired' een bijzin die de oorzaak geeft. So, and en but zijn nevenschikkend en verbinden twee delen die even belangrijk zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke voegwoorden verbinden twee delen die even belangrijk zijn? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "and",
+            "but",
+            "so",
+            "when",
+            "because"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "And, but en so zijn nevenschikkend: de twee delen staan naast elkaar. When en because zijn onderschikkend en maken van het tweede deel een bijzin."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een brief begint zo: 'Dear parents, the school trip to London costs 180 euros. Please pay before 15 March.' Welke antwoorden op de drie vragen van het communicatiemodel kloppen?",
+          "opties": [
+            "van de school — voor de ouders — om te zeggen wat en wanneer ze moeten betalen",
+            "van de ouders — voor de school — om te vragen hoeveel de reis kost",
+            "van de school — voor de leerlingen — om hen te overtuigen mee te gaan",
+            "van een leerling — voor de ouders — om een verhaal over Londen te vertellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dear parents zegt voor wie de brief is: de ouders. Wie de schoolreis regelt en om betaling vraagt, is de school. De bedoeling is informatie geven: hoeveel en vóór wanneer betalen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord heeft GEEN voorvoegsel of achtervoegsel dat de betekenis ontkent?",
+          "opties": [
+            "useful",
+            "unfair",
+            "disagree",
+            "incorrect"
+          ],
+          "antwoord": 0,
+          "uitleg": "Un-, dis- en in- draaien de betekenis om: oneerlijk, het oneens zijn, onjuist. Het achtervoegsel -ful doet net het omgekeerde: useful betekent nuttig, dat is positief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft een reactie op een kortverhaal. Welke zin is GEEN reactie zoals de vakfiche die vraagt?",
+          "opties": [
+            "The story has six pages and 340 words.",
+            "The main character is just like me.",
+            "I think the story is a bit boring.",
+            "I loved the end of the story very much."
+          ],
+          "antwoord": 0,
+          "uitleg": "De vakfiche vraagt je eigen beleving: herken je je in het hoofdpersonage, wat vind je ervan, welk gevoel roept het op. Bladzijden en woorden tellen zegt niets over je beleving, net zoals verzen tellen bij een gedicht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke twee teksten horen bij dezelfde tekstsoort?",
+          "opties": [
+            "een recept en een schoolreglement",
+            "een interview en een podcast over een reis",
+            "een gedicht en een krantenartikel over de zee",
+            "een reisverslag en een reactie op sociale media"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een recept en een schoolreglement zeggen allebei wat of hoe je iets moet doen: ze zijn prescriptief. Een interview is informatief en een podcast over een reis narratief. Een gedicht is literair, een krantenartikel informatief, en een reactie op sociale media is opiniërend."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke signaalwoorden zetten twee dingen tegenover elkaar? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "but",
+            "however",
+            "in addition",
+            "so",
+            "finally"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "But en however geven een tegenstelling. In addition telt er iets bij, so kondigt een gevolg aan en finally sluit een rij stappen in de tijd af."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest in de schoolkrant: 'Our town has only one small swimming pool, and it is often closed. A young swimmer from our school has to train in another town. We need a new pool.' Waarom heeft de schrijver dit gemaakt?",
+          "opties": [
+            "om de lezer te overtuigen dat er een nieuw zwembad nodig is",
+            "om uit te leggen hoe je in een klein zwembad moet trainen",
+            "om een spannend verhaal over een jonge zwemster te vertellen",
+            "om te zeggen op welke dagen het zwembad nog open is"
+          ],
+          "antwoord": 0,
+          "uitleg": "We need a new pool is een mening, en de zinnen ervoor zijn de argumenten: klein, vaak dicht, een zwemster moet elders trainen. Het is een opiniërende tekst, en die wil de lezer overtuigen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Agree betekent het eens zijn. Met een voorvoegsel maak je er 'het oneens zijn' van. Welk Engels woord krijg je? Antwoord met één woord.",
+          "antwoord": "disagree",
+          "uitleg": "Het voorvoegsel dis- ontkent het woord, net als in dislike. Agree wordt zo disagree."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Sarah and her brother Tom live in Wales. She has a farm there, and he works in a shop.' Welke uitspraken kloppen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "She verwijst naar Sarah.",
+            "There verwijst naar Wales.",
+            "He verwijst naar Tom.",
+            "There verwijst naar de boerderij.",
+            "She verwijst naar de boerderij."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Neem telkens het dichtstbijzijnde passende woord ervóór. Een meisje is she, een jongen is he, en een plaats is there. De boerderij is een ding dat Sarah heeft; there wijst naar de plaats waar ze wonen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 'I was tired, so I stayed at home' is so een onderschikkend voegwoord.",
+          "antwoord": false,
+          "uitleg": "So is nevenschikkend, net als and en but. Het verbindt twee even belangrijke delen en kondigt het gevolg aan. Onderschikkend zijn when en because."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het Engelse woord hopeful betekent hopeloos.",
+          "antwoord": false,
+          "uitleg": "Het achtervoegsel -ful maakt een woord net positief: hopeful is hoopvol, useful is nuttig. Het ontkent niets, zoals un-, im- en dis- dat wel doen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een tekst die begint met 'Add two spoons of sugar. Mix well.' is prescriptief, omdat hij begint met een werkwoord in de bevelende vorm.",
+          "antwoord": true,
+          "uitleg": "Add en mix zijn bevelen: ze zeggen wat je moet doen. Een prescriptieve tekst begint bijna altijd met zo'n werkwoord."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een cartoon en een gedicht horen bij dezelfde tekstsoort.",
+          "antwoord": true,
+          "uitleg": "Allebei zijn ze literair: ze hebben esthetische waarde en spelen in op emoties. Bij die soort horen ook een lied, een strip en een kortverhaal."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'First we bought the tickets. ___ that, we took the train.' Welk Engels woord past op de open plek? Antwoord met één woord.",
+          "antwoord": "after",
+          "uitleg": "After that betekent daarna. Het is een signaalwoord voor een chronologisch verloop, net als first, then, next en finally."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Correct betekent juist. Met een voorvoegsel maak je er 'onjuist' van. Welk Engels woord krijg je? Antwoord met één woord.",
+          "antwoord": "incorrect",
+          "uitleg": "Het voorvoegsel in- ontkent het woord, zoals im- in impossible. Correct wordt dus incorrect."
+        }
+      ]
+    },
+    {
+      "titel": "Schrijven: berichten, uitnodigingen en mails — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft een mail aan meneer Jones, de directeur van de school. Welke mail past NIET bij die lezer?",
+          "opties": [
+            "Dear Mr Jones, send me the form now. Kind regards, Sam",
+            "Dear Mr Jones, could you please send me the form? Kind regards, Sam",
+            "Dear Mr Jones, could you help me, please? Kind regards, Sam",
+            "Dear Mr Jones, thank you so much for your help. Kind regards, Sam"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aanhef en groet zijn overal goed, maar 'send me the form now' is een bevel. Dat klinkt onvriendelijk tegenover een directeur. De beleefde vorm is 'could you please send me the form?'"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest deze uitnodiging: 'Hi Emma, would you like to come to my birthday party on Saturday at four? Bye, Lisa' Wat ontbreekt er nog?",
+          "opties": [
+            "waar het feest is",
+            "wanneer het feest is",
+            "waarvoor ze Emma uitnodigt",
+            "een groet op het einde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een uitnodiging zegt wanneer, waar en waarvoor. Wanneer staat er (on Saturday at four), waarvoor ook (my birthday party), en Bye, Lisa is de groet. Alleen de plaats, zoals 'at my house', ontbreekt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest deze uitnodiging: 'Hi Tom, would you like to come to my house on Saturday at four? Sam' Wat ontbreekt er nog?",
+          "opties": [
+            "waarvoor Sam hem uitnodigt",
+            "op welke dag hij moet komen",
+            "hoe laat hij moet komen",
+            "waar hij precies moet zijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "Saturday zegt de dag, at four het uur en my house de plaats. Maar Tom weet niet waarvoor hij komt: een feest, een film, samen leren? Zonder het waarvoor is de uitnodiging niet volledig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Dear Sir or Madam, I would like to book a room from 3 to 7 July. Kind regards, Sam Peeters' Wat moet Sam nog toevoegen om te reserveren?",
+          "opties": [
+            "voor hoeveel personen de kamer is",
+            "de data van zijn verblijf in juli",
+            "zijn naam onder aan de mail",
+            "een formele aanhef bovenaan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een reservatie horen de data van je verblijf, het aantal personen en je naam. De data (3 to 7 July) en de naam (Sam Peeters) staan er al, net als een formele aanhef. Het aantal personen ontbreekt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft een klacht met deze drie zinnen. (1) Could I have a new pair? (2) I bought these headphones last week. (3) But the left one does not work. In welke volgorde zet je ze?",
+          "opties": [
+            "2 – 3 – 1",
+            "1 – 2 – 3",
+            "3 – 2 – 1",
+            "2 – 1 – 3"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een klacht zeg je eerst wat je kocht en wanneer (zin 2), dan wat er scheelt (zin 3), en pas dan wat je wil (zin 1). Zo volgt je lezer je redenering."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je antwoordt op een bericht van een vriendin met 'Congratulations!'. Wat schreef zij waarschijnlijk?",
+          "opties": [
+            "It's my birthday today!",
+            "I'm sorry I'm late again.",
+            "Could you help me, please?",
+            "Thank you so much for the present!"
+          ],
+          "antwoord": 0,
+          "uitleg": "Congratulations is gefeliciteerd: dat zeg je tegen iemand die iets te vieren heeft, zoals een verjaardag. Op een excuus reageer je met 'That's all right', en op een bedanking feliciteer je niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zinnen staat een spelfout? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Congratulation on your birthday!",
+            "I will come becouse I like parties.",
+            "My best friend lives in Londen.",
+            "We stayed at home last weekend."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Congratulations staat altijd in het meervoud, because schrijf je met -au- en de stad is London. Weekend ziet er Nederlands uit, maar is wel juist gespeld."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je mail aan je leraar begint met 'Hi mate,'. Op welk punt van de beoordeling verlies je daardoor punten?",
+          "opties": [
+            "register en beleefdheid",
+            "spelling en leestekengebruik",
+            "taakvoltooiing en lengte",
+            "woordenschat en vaste uitdrukkingen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Mate is vriendentaal. Tegenover een leraar is dat geen gepast register. Er staat geen spelfout in en het woord zelf bestaat, maar je kiest de verkeerde toon voor deze lezer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De opdracht is: nodig een vriend uit voor je feest en schrijf ongeveer 60 woorden ('write about 60 words'). Je schrijft 60 correcte woorden over je hobby, zonder uitnodiging. Welke vereiste haal je niet?",
+          "opties": [
+            "taakvoltooiing",
+            "spelling en leestekens",
+            "grammatica en zinsbouw",
+            "woordenschat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Taakvoltooiing betekent dat het doel bereikt is en je boodschap overkomt. De lengte klopt en de woorden zijn juist, maar er staat geen uitnodiging in, dus het doel is niet bereikt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft een mail aan een hotel. Je kent de naam van de lezer niet. Welke delen passen erin? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Dear Sir or Madam,",
+            "Yours faithfully,",
+            "Hi mate,",
+            "See you soon!"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Dear Sir or Madam gebruik je als je de naam niet kent, en Yours faithfully is de formele groet die daarbij past. Hi mate en See you soon horen in een bericht aan een vriend."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen zijn beleefd genoeg voor een mail aan de directeur? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Could you please send me the form?",
+            "Would you like to come to our party?",
+            "Could you help me, please?",
+            "Thank you so much for your help.",
+            "Send me the form before Friday."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Could you please, would you like en thank you zijn de beleefde vormen. 'Send me the form before Friday' blijft een bevel, ook al staat er een dag bij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vertelt in een mail wat je vorig weekend deed. Welke zin staat in de juiste tijd?",
+          "opties": [
+            "Last weekend I went to London.",
+            "Last weekend I go to London.",
+            "Last weekend I am going to London.",
+            "Last weekend I will go to London."
+          ],
+          "antwoord": 0,
+          "uitleg": "Last weekend is voorbij, dus vertel je in de past simple: I went. Go is de tegenwoordige tijd, en will go of am going gaan over iets dat nog moet komen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft een mail van 80 woorden zonder alinea's: aanhef, inhoud en groet staan allemaal in één blok. Welke vereiste haal je dan het minst?",
+          "opties": [
+            "tekstopbouw en lay-out",
+            "woordenschat",
+            "taakvoltooiing",
+            "spelling en leestekens"
+          ],
+          "antwoord": 0,
+          "uitleg": "De lengte kan kloppen en elk woord kan juist zijn, maar een lap tekst leest slecht. Een aanhef, alinea's met één gedachte en een groet apart maken de opbouw en de lay-out duidelijk."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een mail met een paar kleine grammaticafouten kan toch het doel bereiken en een goede taakvoltooiing halen.",
+          "antwoord": true,
+          "uitleg": "Kleine fouten die de boodschap niet in de weg staan, zijn op dit niveau aanvaardbaar. Taakvoltooiing gaat over het doel en de lengte, niet over perfecte grammatica."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Dear Mrs Clarke,' is de gepaste aanhef als je de naam van de lezer niet kent.",
+          "antwoord": false,
+          "uitleg": "Mrs Clarke is net een naam. Ken je de naam niet, dan schrijf je Dear Sir or Madam, en sluit je af met Yours faithfully."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Shall we go to the cinema?' en 'Why don't we go to the cinema?' doen allebei een voorstel.",
+          "antwoord": true,
+          "uitleg": "Shall we en why don't we zijn de twee vaste manieren om iets voor te stellen. Ze vragen niets en ze bevelen niets."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Feliciteer je maar één persoon, dan schrijf je 'Congratulation!' zonder s.",
+          "antwoord": false,
+          "uitleg": "Congratulations staat altijd in het meervoud, hoeveel mensen je ook feliciteert. Er staat ook geen d in."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In deze zin staat één woord fout gespeld: 'I like it becouse it is fun.' Schrijf dat woord juist. Antwoord met één woord.",
+          "antwoord": "because",
+          "uitleg": "Because schrijf je met -au-. Het ezelsbruggetje: Big Elephants Can Always Understand Small Elephants."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan in een formele mail: 'Could you ___ confirm the price?' Welk beleefdheidswoord past op de open plek? Antwoord met één woord.",
+          "antwoord": "please",
+          "uitleg": "Could you please is de beleefde vorm om iets te vragen. Vergeet please en thank you niet: dat hoort bij de beleefdheidsconventies."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul de formele aanhef aan voor een lezer van wie je de naam niet kent: 'Dear Sir or ___,' Antwoord met één woord.",
+          "antwoord": "Madam",
+          "uitleg": "Dear Sir or Madam spreekt een man of een vrouw aan, omdat je niet weet wie je mail leest. Daarbij past de groet Yours faithfully."
+        }
+      ]
+    },
+    {
+      "titel": "Engelstalige landen en literaire teksten — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest '06/04/2027' in een Amerikaanse tekst. Welke datum is dat?",
+          "opties": [
+            "4 juni 2027",
+            "6 april 2027",
+            "6 juni 2027",
+            "4 april 2027"
+          ],
+          "antwoord": 0,
+          "uitleg": "In de Verenigde Staten staat de maand eerst: 06 is juni en 04 is de dag. In een Britse tekst zou dezelfde notatie 6 april betekenen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een Amerikaan noteert de datum van Bonfire Night in 2027 met cijfers. Wat schrijft hij?",
+          "opties": [
+            "11/05/2027",
+            "05/11/2027",
+            "05/05/2027",
+            "11/11/2027"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bonfire Night valt op 5 november. Een Amerikaan zet de maand vooraan: 11 voor november, dan 05 voor de dag. Een Brit zou 05/11/2027 schrijven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een Amerikaan schrijft: 'My apartment is on the first floor.' Hoe schrijft een Brit precies hetzelfde?",
+          "opties": [
+            "My flat is on the ground floor.",
+            "My flat is on the first floor.",
+            "My apartment is on the ground floor.",
+            "My apartment is on the first floor."
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee verschillen tegelijk. Een apartment heet in het Brits a flat. En de Amerikaanse first floor is de begane grond, die de Brit the ground floor noemt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een Amerikaans weerbericht staat: 'Today: 70°F.' Wat betekent dat voor jou?",
+          "opties": [
+            "Het is ongeveer 21 °C: zacht weer.",
+            "Het is 70 °C: gevaarlijk heet weer.",
+            "Het is ongeveer 7 °C: frisjes weer.",
+            "Het vriest: 70 graden onder nul."
+          ],
+          "antwoord": 0,
+          "uitleg": "De Verenigde Staten meten in graden Fahrenheit, niet in Celsius. 70°F is ongeveer 21°C. Wie het getal als Celsius leest, denkt aan een hittegolf."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel dagen na Halloween valt Bonfire Night? Antwoord met een getal.",
+          "antwoord": "5",
+          "uitleg": "Halloween is op 31 oktober, de laatste dag van die maand. Bonfire Night is op 5 november, en dat is vijf dagen later."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je reist met euro's op zak van Ierland naar het Verenigd Koninkrijk. Wat moet je doen?",
+          "opties": [
+            "Je euro's wisselen voor pond.",
+            "Niets: in beide landen betaal je met euro.",
+            "Je pond wisselen voor euro's.",
+            "Je euro's wisselen voor dollars."
+          ],
+          "antwoord": 0,
+          "uitleg": "In Ierland betaal je met euro, maar in het Verenigd Koninkrijk met pond (pounds). Je euro's zijn daar dus niet bruikbaar, je moet ze omwisselen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk feest valt het laatst in het jaar, als je Christmas niet meetelt?",
+          "opties": [
+            "Thanksgiving in de Verenigde Staten",
+            "Bonfire Night in het Verenigd Koninkrijk",
+            "Halloween in veel Engelstalige landen",
+            "Thanksgiving in Canada"
+          ],
+          "antwoord": 0,
+          "uitleg": "Halloween valt op 31 oktober en Thanksgiving in Canada op de tweede maandag van oktober. Bonfire Night is op 5 november. De Amerikaanse Thanksgiving valt op de vierde donderdag van november, dus pas tegen het einde van die maand."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat klopt er over Thanksgiving? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De Verenigde Staten vieren het op de vierde donderdag van november.",
+            "Canada viert het op de tweede maandag van oktober.",
+            "Er staat traditioneel turkey op tafel.",
+            "Het Verenigd Koninkrijk viert het op 5 november.",
+            "Het valt elk jaar op 31 oktober."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Thanksgiving is een feest van de Verenigde Staten en Canada, elk op een eigen dag, met kalkoen op tafel. Op 5 november viert het Verenigd Koninkrijk Bonfire Night, en 31 oktober is Halloween."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is helemaal juist geschreven?",
+          "opties": [
+            "My Belgian friend learns English every Monday.",
+            "My belgian friend learns English every Monday.",
+            "My Belgian friend learns english every Monday.",
+            "My Belgian friend learns English every monday."
+          ],
+          "antwoord": 0,
+          "uitleg": "In het Engels krijgen nationaliteiten, talen en dagen een hoofdletter: Belgian, English en Monday. In het Nederlands schrijf je Belgische, Engels en maandag anders, maar in het Engels mag er geen kleine letter staan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden schrijf je in het Engels met een hoofdletter, terwijl je dat in het Nederlands niet doet? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Belgian",
+            "English",
+            "July",
+            "Monday",
+            "people"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Nationaliteiten, talen, maanden en dagen krijgen in het Engels een hoofdletter: Belgian, English, July, Monday. People (mensen) is een gewoon woord en krijgt alleen vooraan een zin een hoofdletter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zin worden Brits en Amerikaans Engels door elkaar gebruikt?",
+          "opties": [
+            "In the fall we stayed in a flat in London.",
+            "In autumn we stayed in a flat in London.",
+            "In the fall we stayed in an apartment.",
+            "We ate cookies and french fries on vacation."
+          ],
+          "antwoord": 0,
+          "uitleg": "Fall is Amerikaans voor herfst, maar a flat is Brits; een Amerikaan zegt an apartment. In de andere zinnen blijft alles Brits of alles Amerikaans, en dat is de regel: niet wisselen binnen één tekst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden staan in Amerikaanse spelling? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "color",
+            "traveling",
+            "theatre",
+            "colour",
+            "travelling"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Amerikaans schrijf je color, theater en traveling. Theatre, colour en travelling zijn de Britse vormen. Allebei zijn juist, zolang je niet wisselt in één tekst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een verhaal stopt zo: 'Tom waited at the station all day, but his brother did not come.' Welk einde is NIET geloofwaardig?",
+          "opties": [
+            "Tom kon plots vliegen en zocht zijn broer vanuit de lucht.",
+            "Tom ging verdrietig naar huis en wachtte daar op nieuws.",
+            "Tom belde zijn broer om te vragen waar hij toch bleef.",
+            "Zijn broer kwam 's avonds toch nog, met de laatste trein."
+          ],
+          "antwoord": 0,
+          "uitleg": "Geloofwaardig betekent dat het einde past bij wat er al gebeurd is. Naar huis gaan, bellen of de broer die toch nog komt, kan allemaal. Plots kunnen vliegen komt uit het niets, net als een draak, en breekt het verhaal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zin geeft de schrijver een ding menselijke trekken?",
+          "opties": [
+            "The old door was crying in the wind.",
+            "The old door was broken and empty.",
+            "The rain keeps falling on the door.",
+            "The street is empty and dark tonight."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een deur kan niet huilen; to cry is iets wat mensen doen. Net zoals het huis dat 'kijkt' met zijn kapotte ramen, maakt dat de sfeer droevig. Een kapotte deur, vallende regen of een lege straat zijn gewone beschrijvingen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'I liked the poem, because the rain made me think of my own rainy holiday' is een reactie waarin je ook je interpretatie geeft.",
+          "antwoord": true,
+          "uitleg": "Je zegt niet alleen dat je het gedicht goed vond, je zegt ook waarom: het doet je denken aan iets wat je zelf meemaakte. Dat waarom is je interpretatie."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In Australië valt Kerstmis in juli, omdat het daar dan zomer is.",
+          "antwoord": false,
+          "uitleg": "Kerstmis valt ook in Australië op 25 december. Omdat het land op het zuidelijk halfrond ligt, is december daar midden in de zomer."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een tekst over het dagelijkse leven in Canada kan je ook in het Frans tegenkomen, want Frans is daar een officiële taal naast het Engels.",
+          "antwoord": true,
+          "uitleg": "Canada heeft Engels én Frans als officiële talen. Het is een Engelstalig land, maar niet alleen Engelstalig."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een Brit schrijft colour en een Amerikaan schrijft color, dus één van de twee maakt een schrijffout.",
+          "antwoord": false,
+          "uitleg": "Allebei zijn juist: colour is Britse spelling, color Amerikaanse. Fout is het pas als je de twee door elkaar gebruikt in één tekst."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Op een Brits verkeersbord staat dat de stad nog 10 miles ver is. Hoeveel kilometer is dat ongeveer? Antwoord met een getal.",
+          "antwoord": "16",
+          "uitleg": "Eén mile is ongeveer 1,6 kilometer. Tien miles is dus ongeveer 10 keer 1,6, en dat is 16 kilometer."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een Amerikaan vraagt in een restaurant om 'french fries'. Welk woord gebruikt een Brit daarvoor? Antwoord met één Engels woord.",
+          "antwoord": "chips",
+          "uitleg": "Frieten heten in het Brits chips en in het Amerikaans french fries. Allebei zijn juist, maar wissel niet binnen één tekst."
+        }
+      ]
+    },
+    {
+      "titel": "Woordenschat: mensen, familie, gevoelens en gezondheid — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'My mother's sister's daughter is my ___.' Antwoord met één Engels woord.",
+          "antwoord": "cousin",
+          "uitleg": "De zus van je moeder is je aunt. Haar dochter is het kind van je tante, en dat is je cousin. Een cousin kan een neef of een nicht zijn."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'My sister's son is my ___.' Antwoord met één Engels woord.",
+          "antwoord": "nephew",
+          "uitleg": "Het kind van je broer of zus is een nephew (jongen) of een niece (meisje). Een cousin is het kind van je tante of oom, dat is hier niet zo."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Emma zegt: 'Tom is my nephew.' Wie kan Tom zijn?",
+          "opties": [
+            "de zoon van Emma's zus",
+            "de zoon van Emma's tante",
+            "de zoon van Emma's oom",
+            "de jongere broer van Emma"
+          ],
+          "antwoord": 0,
+          "uitleg": "A nephew is het zoontje van je broer of zus. De zoon van je tante of oom is een cousin, en je broer is gewoon your brother."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je verveelde je tijdens een saaie les. Welke zin zegt dat juist?",
+          "opties": [
+            "The lesson was boring, so I was bored.",
+            "The lesson was bored, so I was boring.",
+            "The lesson was boring, so I was boring.",
+            "The lesson was bored, so I was bored."
+          ],
+          "antwoord": 0,
+          "uitleg": "Iets is boring (saai), en jij bent bored (je verveelt je). Een les kan zich niet vervelen, en wie 'I was boring' zegt, noemt zichzelf saai."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zin staat een fout?",
+          "opties": [
+            "My little sister is afraid from dogs.",
+            "My little sister is afraid of the dark.",
+            "He is looking forward to the holiday.",
+            "I was bored, so I went to bed early."
+          ],
+          "antwoord": 0,
+          "uitleg": "Bang van is altijd afraid of, nooit afraid from. De andere zinnen zijn juist: looking forward to is uitkijken naar, en bored is je vervelen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil in het Engels zeggen dat je nieuwe buurman sympathiek is. Welke zin kies je?",
+          "opties": [
+            "My new neighbour is very nice.",
+            "My new neighbour is very sympathetic.",
+            "My new neighbour is very jealous.",
+            "My new neighbour is very worried."
+          ],
+          "antwoord": 0,
+          "uitleg": "Sympathetic is een valse vriend: het betekent meelevend of begripvol. Voor sympathiek gebruik je nice of likeable. Jealous is jaloers en worried is bezorgd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Sam was afraid of the test, but in the end he got a good mark. Hoe voelde Sam zich na de toets?",
+          "opties": [
+            "relieved",
+            "jealous",
+            "disappointed",
+            "angry"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hij was bang, en daarna bleek het goed te zijn: dan ben je opgelucht, relieved. Disappointed (teleurgesteld) past bij een slecht punt, en jealous en angry zijn jaloers en boos."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vriendin heeft een nieuwe gsm en jij wil er ook zo een, maar je krijgt hem niet. Welk Engels woord past bij wat je voelt?",
+          "opties": [
+            "jealous",
+            "proud",
+            "sympathetic",
+            "relieved"
+          ],
+          "antwoord": 0,
+          "uitleg": "Iets willen wat een ander heeft, is jaloers zijn: jealous. Proud is trots, relieved is opgelucht, en sympathetic betekent meelevend."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke pijnwoorden zijn juist vertaald? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "a headache — hoofdpijn",
+            "a stomach ache — buikpijn",
+            "a backache — rugpijn",
+            "a sore throat — keelpijn",
+            "a toothache — oorpijn"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Met -ache maak je pijnwoorden: head (hoofd), stomach (buik), back (rug) en tooth (tand). Toothache is dus tandpijn, geen oorpijn. Keelpijn heet a sore throat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je beschrijft het lange, donkere haar van je zus. Welke zin is juist?",
+          "opties": [
+            "Her hair is long and dark.",
+            "Her hairs are long and dark.",
+            "Her hair are long and dark.",
+            "Her hairs is long and dark."
+          ],
+          "antwoord": 0,
+          "uitleg": "Hair als kapsel is ontelbaar en staat in het enkelvoud, dus ook het werkwoord: her hair is. Alleen losse haren tel je, zoals two hairs on my plate."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'My aunt is in her late twenties.' Welke leeftijd past daarbij?",
+          "opties": [
+            "28 jaar",
+            "22 jaar",
+            "25 jaar",
+            "32 jaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "In her twenties betekent tussen 20 en 29. Early is het begin van dat tiental (rond 21), mid het midden (rond 25) en late het einde (rond 28). 32 valt al buiten de twintig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lien Peeters is geboren in Gent en woont in België. Wat vult ze in op een Engels formulier bij 'first name' en bij 'nationality'?",
+          "opties": [
+            "Lien — Belgian",
+            "Peeters — Belgian",
+            "Lien — Belgium",
+            "Peeters — Belgium"
+          ],
+          "antwoord": 0,
+          "uitleg": "First name is je voornaam, dus Lien; Peeters is de surname. Bij nationality hoort de nationaliteit Belgian, met een hoofdletter. Belgium is de naam van het land."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen zeggen dat je koorts hebt? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "I have a fever.",
+            "I have a temperature.",
+            "I have a sore throat.",
+            "I feel better now."
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "A fever is koorts, en 'to have a temperature' betekent ook koorts hebben, al lijkt het of het over gewoon een temperatuur gaat. A sore throat is keelpijn, en I feel better now zegt dat het beter gaat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen gaan over het karakter van iemand, niet over het uiterlijk? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "She is very shy.",
+            "He is very patient.",
+            "She is always friendly.",
+            "He is quite tall.",
+            "She wears glasses."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Shy (verlegen), patient (geduldig) en friendly (vriendelijk) zeggen hoe iemand is. Tall zegt hoe groot iemand is, en een bril dragen is ook iets wat je ziet: dat is uiterlijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil zeggen: 'Ik ben in 2014 geboren.' Welke zin is juist?",
+          "opties": [
+            "I was born in 2014.",
+            "I am born in 2014.",
+            "I born in 2014.",
+            "I have born in 2014."
+          ],
+          "antwoord": 0,
+          "uitleg": "Geboren worden is to be born, en omdat het voorbij is, staat het in de verleden tijd: I was born. Het Nederlandse 'ik ben geboren' mag je niet woord voor woord vertalen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wie an only child is, heeft geen cousins.",
+          "antwoord": false,
+          "uitleg": "An only child is een enig kind: je hebt geen broers of zussen. Je ouders kunnen wel broers of zussen hebben, en hun kinderen zijn je cousins."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een enig kind kan geen eigen nephew of niece hebben, als je aanhuwen niet meetelt.",
+          "antwoord": true,
+          "uitleg": "Een nephew of niece is het kind van je broer of zus. Een enig kind heeft geen broers of zussen, dus ook geen neefjes of nichtjes langs die weg."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 'There were two hairs on my plate' staat hairs fout, want hair staat altijd in het enkelvoud.",
+          "antwoord": false,
+          "uitleg": "Hair als kapsel staat in het enkelvoud. Maar losse haren kan je tellen, en dan mag het meervoud wel: two hairs on my plate is juist."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wie 'Take this medicine twice a day, before you eat' volgt, kan het innemen vóór het ontbijt en vóór het avondmaal.",
+          "antwoord": true,
+          "uitleg": "Twice a day is twee keer per dag, en before you eat is vóór het eten. Twee keer, telkens vóór een maaltijd, klopt dus."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'I brush my ___ twice a day.' Welk Engels woord voor 'tanden' past op de open plek? Antwoord met één woord.",
+          "antwoord": "teeth",
+          "uitleg": "Tooth heeft een onregelmatig meervoud: teeth, niet tooths. Zo wordt foot ook feet."
+        }
+      ]
+    },
+    {
+      "titel": "Woordenschat: eten, wonen, kleding en dagelijkse dingen — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Een Amerikaan in Londen wil chips uit een zakje. Hij bestelt in een Brits restaurant 'chips'. Wat krijgt hij?",
+          "opties": [
+            "frieten, want dat zijn chips in het Brits",
+            "chips uit een zakje, zoals hij wou",
+            "een stuk vis, want dat hoort bij chips",
+            "niets, want chips bestaat niet in het Brits"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een Brit verstaat onder chips frieten, zoals in fish and chips. Een Amerikaan zegt daarvoor french fries, en bedoelt met chips wat wij chips noemen. Hetzelfde woord, twee betekenissen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je zit in een restaurant in de Verenigde Staten en je wil Amerikaans Engels gebruiken. Hoe vraag je om de rekening?",
+          "opties": [
+            "Could we have the check, please?",
+            "Could we have the bill, please?",
+            "Could we have the menu, please?",
+            "Could we have the waiter, please?"
+          ],
+          "antwoord": 0,
+          "uitleg": "De rekening heet in het Brits the bill en in het Amerikaans the check. The menu is de kaart, en a waiter is een ober, geen rekening."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil vragen om twee sneden brood. Welke zin is juist?",
+          "opties": [
+            "Can I have two slices of bread, please?",
+            "Can I have two breads, please?",
+            "Can I have two slice of breads, please?",
+            "Can I have two slices of breads, please?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bread is ontelbaar en blijft in het enkelvoud. Je telt het met een maat erbij, en die maat krijgt wel een meervoud: two slices of bread."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen over kleding en eten zijn juist? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "My trousers are new.",
+            "Her glasses are on the table.",
+            "I would like three glasses of water.",
+            "My jeans is blue.",
+            "We need two rices."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Trousers, jeans en glasses (een bril) staan altijd in het meervoud, dus my jeans are blue. Water en rice zijn ontelbaar: je telt ze met een maat, zoals three glasses of water of two bowls of rice."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn valse vrienden: ze lijken op een Nederlands woord, maar betekenen iets anders? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "a grape",
+            "a magazine",
+            "a garage",
+            "a supermarket",
+            "a pizza"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "A grape is een druif en geen grapefruit, en a magazine is een tijdschrift en geen magazijn. A garage, a supermarket en a pizza betekenen wel wat je denkt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil een boek kopen om te houden, niet ontlenen. Waar ga je naartoe?",
+          "opties": [
+            "to the bookshop",
+            "to the library",
+            "to the newsagent's",
+            "to the post office"
+          ],
+          "antwoord": 0,
+          "uitleg": "A bookshop is een boekhandel, waar je boeken koopt. A library is een bibliotheek, waar je ze ontleent: dat is de valse vriend. In een newsagent's koop je kranten en tijdschriften."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil een tijdschrift kopen. Welke zin klopt?",
+          "opties": [
+            "I buy a magazine at the newsagent's.",
+            "I buy a magazine at the butcher's.",
+            "I buy a magazine at the library.",
+            "I buy a magazine at the chemist's."
+          ],
+          "antwoord": 0,
+          "uitleg": "A magazine is een tijdschrift, en dat koop je in een krantenwinkel, a newsagent's. Bij de butcher's koop je vlees, bij de chemist's medicijnen, en in de library koop je niets."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke volgorde gebeurt dit 's ochtends meestal?",
+          "opties": [
+            "wake up – get up – have a shower – get dressed",
+            "get up – wake up – have a shower – get dressed",
+            "wake up – get dressed – have a shower – get up",
+            "get dressed – wake up – get up – have a shower"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst word je wakker (wake up), dan sta je op (get up). Na de douche (have a shower) kleed je je aan (get dressed). Wie get up en wake up verwisselt, staat op voor hij wakker is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het is warm geworden binnen. Wat doe je met je jas?",
+          "opties": [
+            "I take off my coat.",
+            "I wear my coat.",
+            "I turn off my coat.",
+            "I switch off my coat."
+          ],
+          "antwoord": 0,
+          "uitleg": "Kleding uitdoen is to take off. To turn off en to switch off gebruik je voor licht of toestellen, en to wear betekent dat je de jas net aanhoudt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke materialen zijn juist vertaald? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "wool — wol",
+            "leather — leder",
+            "wood — hout",
+            "glass — glas",
+            "cotton — wol"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Wool is wol, leather leder, wood hout en glass glas. Cotton is katoen, geen wol: dat is de verwarring die je hier moest zien."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft in het Brits Engels: 'We live in an apartment and I wear sneakers.' Welke twee woorden moet je veranderen om alles Brits te maken?",
+          "opties": [
+            "apartment wordt flat, sneakers wordt trainers",
+            "apartment wordt flat, sneakers wordt jumper",
+            "apartment wordt hall, sneakers wordt trainers",
+            "apartment wordt garage, sneakers wordt sweater"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een appartement heet in het Brits a flat, in het Amerikaans an apartment. Sportschoenen zijn Brits trainers en Amerikaans sneakers. A jumper is een trui, geen schoen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je moet brood en kip kopen. Naar welke twee winkels ga je?",
+          "opties": [
+            "the baker's en the butcher's",
+            "the baker's en the chemist's",
+            "the newsagent's en the butcher's",
+            "the bookshop en the baker's"
+          ],
+          "antwoord": 0,
+          "uitleg": "Brood haal je in een bakkerij, the baker's. Kip is vlees, en dat haal je bij de slager, the butcher's. In een chemist's koop je medicijnen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een fruitsla zitten 'grapes and pears'. Wat zit er dus in?",
+          "opties": [
+            "druiven en peren",
+            "grapefruit en erwten",
+            "druiven en erwten",
+            "grapefruit en peren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee valkuilen in één zin. A grape is een druif, geen grapefruit. En a pear is een peer, terwijl a pea een erwt is."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een Amerikaan die een sweater en sneakers draagt, heeft een trui en sportschoenen aan.",
+          "antwoord": true,
+          "uitleg": "Sweater is het Amerikaanse woord voor trui (Brits: jumper), en sneakers voor sportschoenen (Brits: trainers)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'My glasses is broken' is juist, want het gaat maar over één bril.",
+          "antwoord": false,
+          "uitleg": "Glasses staat altijd in het meervoud, ook voor één bril. Het werkwoord volgt dat meervoud: my glasses are broken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wie in een Britse tekst 'the bill' leest en in een Amerikaanse 'the check', leest over twee verschillende dingen.",
+          "antwoord": false,
+          "uitleg": "Allebei betekenen ze de rekening. The bill is het Britse woord, the check het Amerikaanse."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "A wardrobe is een meubel, maar a curtain niet.",
+          "antwoord": true,
+          "uitleg": "A wardrobe is een kleerkast, en dat is een meubel. A curtain is een gordijn: het hoort bij de inrichting, maar het is geen meubel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Na het eten was je de borden af. Vul aan: 'After dinner I do the ___.' Schrijf het Engelse woord met een koppelteken.",
+          "antwoord": "washing-up",
+          "uitleg": "To do the washing-up is de afwas doen. To do the washing zonder -up is de was doen, met de wasmachine."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je komt een donkere kamer binnen. Vul aan: 'Turn ___ the light, please.' Antwoord met één Engels woord.",
+          "antwoord": "on",
+          "uitleg": "In een donkere kamer wil je licht: to turn on is aanzetten. To turn off is uitzetten, dat doe je als je de kamer verlaat."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Op de deur staat: 'The baker's is open from 7 a.m. to 1 p.m.' Hoeveel uur is de bakkerij open? Antwoord met een getal.",
+          "antwoord": "6",
+          "uitleg": "7 a.m. is zeven uur 's ochtends, 1 p.m. is één uur 's middags, dus 13 uur. Van 7 tot 13 uur is zes uur."
+        }
+      ]
+    },
+    {
+      "titel": "Woordenschat: school, beroepen, sport en vrije tijd — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "In een opdracht staat: 'Cross out the wrong word and circle the right word.' Wat doe je met het JUISTE woord?",
+          "opties": [
+            "Je zet er een cirkel rond.",
+            "Je streept het door.",
+            "Je onderstreept het.",
+            "Je kruist het vakje ernaast aan."
+          ],
+          "antwoord": 0,
+          "uitleg": "De opdracht vraagt twee dingen. Het foute woord (wrong) streep je door: to cross out. Het juiste woord (right) omcirkel je: to circle. Onderstrepen is to underline en aankruisen to tick."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De vraag is 'Do you like Maths?' en de opdracht zegt: 'Answer in full sentences.' Welke antwoorden volgen die opdracht? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Yes, I do.",
+            "No, I don't.",
+            "Yes.",
+            "Maths.",
+            "Not Maths."
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "In full sentences betekent: niet alleen yes of no, maar een volledige zin zoals Yes, I do of No, I don't. Losse woorden zoals Yes of Maths zijn geen volledige zin."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een opdracht staat: 'Write about 80 words.' Welke tekst volgt die opdracht het best?",
+          "opties": [
+            "een tekst van 78 woorden",
+            "een tekst van 25 woorden",
+            "een tekst van 200 woorden",
+            "een tekst van precies 80 zinnen"
+          ],
+          "antwoord": 0,
+          "uitleg": "About betekent ongeveer, dus 78 woorden is goed. Veel korter of veel langer kost punten bij de taakvoltooiing, en 80 zinnen is iets heel anders dan 80 woorden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je zus speelt piano en ook tennis. Hoe zeg je dat in het Engels?",
+          "opties": [
+            "She plays the piano and tennis.",
+            "She plays piano and the tennis.",
+            "She plays the piano and the tennis.",
+            "She plays the piano and plays the tennis."
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee regels in één zin. Bij een instrument staat er the: the piano. Bij een sport valt het lidwoord weg: tennis, zonder the."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen over school zijn juist? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "My homework is difficult.",
+            "I need some information.",
+            "He gave me good advice.",
+            "I have three homeworks.",
+            "Can you give me some informations?"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Homework, information en advice zijn ontelbaar en krijgen nooit een meervouds-s. Homeworks en informations bestaan dus niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Onder je lavabo lekt water. Wie roep je erbij?",
+          "opties": [
+            "a plumber",
+            "a lawyer",
+            "an engineer",
+            "a firefighter"
+          ],
+          "antwoord": 0,
+          "uitleg": "A plumber is een loodgieter, en die herstelt leidingen. A lawyer is een advocaat, an engineer een ingenieur en a firefighter blust branden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke beroepen zijn juist vertaald? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "a lawyer — een advocaat",
+            "a plumber — een loodgieter",
+            "an engineer — een ingenieur",
+            "a shop assistant — een winkelbediende",
+            "a nurse — een dokter"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Eén koppeling klopt niet: a nurse is een verpleegkundige, die de dokters helpt; een dokter is a doctor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een Amerikaanse leerling schrijft: 'The principal gave me a good grade in Math.' Hoe zegt een Brit hetzelfde?",
+          "opties": [
+            "The headteacher gave me a good mark in Maths.",
+            "The headteacher gave me a good grade in Maths.",
+            "The teacher gave me a good mark in PE.",
+            "The principal gave me a good mark in Maths."
+          ],
+          "antwoord": 0,
+          "uitleg": "Drie woorden veranderen. A principal is in het Brits a headteacher, a grade is a mark, en Math wordt Maths. Een Brit gebruikt ze alle drie in Britse vorm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je gaat elke zondag fietsen. Hoe zeg je dat juist in het Engels?",
+          "opties": [
+            "I go cycling every Sunday.",
+            "I go to cycle every Sunday.",
+            "I play cycling every Sunday.",
+            "I go cycle every Sunday."
+          ],
+          "antwoord": 0,
+          "uitleg": "Na go komt bij een sport de -ing-vorm: go cycling, go swimming, go skating. Play gebruik je bij sporten als tennis, niet bij fietsen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vriend zet een foto van zijn computer op het internet, en jij haalt die foto binnen op je gsm. Welke zin klopt?",
+          "opties": [
+            "He uploads the photo and I download it.",
+            "He downloads the photo and I upload it.",
+            "He downloads the photo and I download it.",
+            "He uploads the photo and I upload it."
+          ],
+          "antwoord": 0,
+          "uitleg": "Up is omhoog: iets naar het internet sturen is to upload. Down is omlaag: iets binnenhalen is to download."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je krijgt een rij woorden en een rij prenten, en je moet bij elk woord de juiste prent zoeken. Welke opdracht staat erboven?",
+          "opties": [
+            "Match the words with the pictures.",
+            "Fill in the gaps under the pictures.",
+            "Cross out the wrong pictures.",
+            "Underline the words in the pictures."
+          ],
+          "antwoord": 0,
+          "uitleg": "To match is koppelen: elk woord bij een prent. Fill in the gaps is leegtes invullen, cross out is doorstrepen en underline is onderstrepen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil zeggen dat de directeur gisteren met de hele school sprak. Welke zin is juist?",
+          "opties": [
+            "Yesterday the headteacher spoke to the whole school.",
+            "Yesterday the headteacher speaked to the whole school.",
+            "Yesterday the headteacher speak to the whole school.",
+            "Yesterday the headteacher speaks to the whole school."
+          ],
+          "antwoord": 0,
+          "uitleg": "Yesterday vraagt de verleden tijd, en to speak is onregelmatig: spoke. Speaked bestaat niet, en speak of speaks is de tegenwoordige tijd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil dat je vrienden je foto op sociale media doorgeven aan hun eigen vrienden. Wat vraag je?",
+          "opties": [
+            "Please share my photo.",
+            "Please follow my photo.",
+            "Please download my photo.",
+            "Please switch off my photo."
+          ],
+          "antwoord": 0,
+          "uitleg": "To share is delen: je foto gaat dan verder naar anderen. To follow is iemand volgen, to download binnenhalen, en to switch off uitzetten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'The match ended in a draw' betekent dat geen van beide ploegen won.",
+          "antwoord": true,
+          "uitleg": "A draw is een gelijkspel: niemand wint en niemand verliest. Een match is een wedstrijd."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In Brits Engels noem je een leerling van het eerste middelbaar meestal a student.",
+          "antwoord": false,
+          "uitleg": "In Brits Engels is a pupil een leerling op school, en a student eerder iemand aan de universiteit. Amerikanen zeggen wel bijna altijd student."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wie op 'Decide if the sentence is correct' antwoordt met een nieuwe zin over hetzelfde onderwerp, volgt de opdracht.",
+          "antwoord": false,
+          "uitleg": "To decide is beslissen. De opdracht vraagt alleen of de zin juist is of niet, dus waar of niet waar. Een eigen zin schrijven is een antwoord op een andere vraag."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "PE en Maths zijn allebei korte vormen van een langere naam voor een vak.",
+          "antwoord": true,
+          "uitleg": "PE staat voor physical education (lichamelijke opvoeding), en Maths is de korte vorm van mathematics (wiskunde)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je gaat elke zaterdag schaatsen. Vul aan: 'Every Saturday we go ___.' Antwoord met één Engels woord.",
+          "antwoord": "skating",
+          "uitleg": "Na go komt bij een sport de -ing-vorm: go skating, net als go swimming en go cycling."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een Brit schrijft 'favourite'. Hoe schrijft een Amerikaan dat woord? Antwoord met één woord.",
+          "antwoord": "favorite",
+          "uitleg": "Brits Engels schrijft -our-, Amerikaans Engels alleen -or-: favourite wordt favorite."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een Brit noemt de directeur van de school a headteacher. Hoe noemt een Amerikaan die persoon? Vul aan: 'a ___'. Antwoord met één woord.",
+          "antwoord": "principal",
+          "uitleg": "A headteacher is Brits, a principal is Amerikaans. Allebei betekenen ze de directeur van een school."
+        }
+      ]
+    },
+    {
+      "titel": "Woordenschat: getallen, tijd, weer, reizen en landen — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "invultekst",
+          "vraag": "Je leest: 'The train leaves at half past seven and arrives at a quarter past nine.' Hoeveel minuten duurt de rit? Antwoord met een getal.",
+          "antwoord": "105",
+          "uitleg": "Half past seven is 7.30 uur, niet 6.30 uur, en a quarter past nine is 9.15 uur. Van 7.30 tot 9.15 uur is een uur en drie kwartier, en dat is 105 minuten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je moet 'at a quarter to eight' op school zijn. Je komt om 7.50 uur aan. Hoe zit het?",
+          "opties": [
+            "Je bent vijf minuten te laat.",
+            "Je bent tien minuten te vroeg.",
+            "Je bent vijfentwintig minuten te vroeg.",
+            "Je bent precies op tijd."
+          ],
+          "antwoord": 0,
+          "uitleg": "To is ervoor: a quarter to eight is kwart voor acht, dus 7.45 uur. Om 7.50 uur ben je vijf minuten te laat. Wie to met past verwart, denkt aan 8.15 uur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je spreekt af om 'half past six'. Je staat er om half zes. Hoe zit het?",
+          "opties": [
+            "Je bent een uur te vroeg.",
+            "Je bent precies op tijd.",
+            "Je bent een uur te laat.",
+            "Je bent een half uur te vroeg."
+          ],
+          "antwoord": 0,
+          "uitleg": "Half past six is half zeven, dus 6.30 uur. Half zes is 5.30 uur, en dat is een uur vroeger. Het Engels telt vanaf het uur dat geweest is, het Nederlands naar het uur dat komt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je 9.40 uur in het Engels?",
+          "opties": [
+            "twenty to ten",
+            "twenty past nine",
+            "twenty to nine",
+            "forty to ten"
+          ],
+          "antwoord": 0,
+          "uitleg": "9.40 uur is twintig minuten vóór tien uur. Voor is to, en je noemt het uur dat komt: twenty to ten. Twenty past nine is 9.20 uur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The train leaves at 8.15. It is two hours delayed.' Wanneer vertrekt de trein nu?",
+          "opties": [
+            "at a quarter past ten",
+            "at a quarter to ten",
+            "at a quarter past six",
+            "at half past ten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Delayed is vertraagd, dus de trein vertrekt twee uur later. 8.15 uur plus twee uur is 10.15 uur, en dat is a quarter past ten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen met een hoeveelheid zijn juist? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "We need a few eggs.",
+            "I have a little time.",
+            "There are many books.",
+            "There is a lot of water.",
+            "We need a little eggs."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "A few en many gebruik je bij dingen die je kan tellen, zoals eggs en books. A little hoort bij ontelbare dingen zoals time. A lot of past bij allebei. A little eggs is fout, want eieren kan je tellen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The match is on the twentieth of March.' Welke datum is dat?",
+          "opties": [
+            "20 maart",
+            "2 maart",
+            "12 maart",
+            "20 mei"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twentieth is het rangtelwoord bij twenty: de twintigste. March is maart; mei is May. Twelfth zou de twaalfde zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je kijkt nu door het raam en ziet dat het regent. Welke zin past?",
+          "opties": [
+            "It is raining.",
+            "It rains.",
+            "It will rain.",
+            "It was raining."
+          ],
+          "antwoord": 0,
+          "uitleg": "Weer dat op dit moment bezig is, zet je in de present continuous: it is raining. It rains gebruik je voor weer dat vaak gebeurt, zoals it often rains here."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe ga je naar school? Welke zinnen zijn juist? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "I go to school by bike.",
+            "I go to school on foot.",
+            "I go to school by foot.",
+            "I go to school by the bike.",
+            "I go to the school by bike."
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Bij vervoermiddelen gebruik je by zonder lidwoord: by bike. Alleen te voet is on foot. En voor school staat er geen lidwoord: I go to school."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je neemt 's ochtends de trein naar de kust en wil 's avonds met de trein terug. Welk ticket koop je?",
+          "opties": [
+            "a return ticket",
+            "a single ticket",
+            "a one-way ticket",
+            "a boarding pass"
+          ],
+          "antwoord": 0,
+          "uitleg": "A return ticket is heen en terug. A single ticket (Brits) of a one-way ticket (Amerikaans) is alleen heen. A boarding pass is een instapkaart voor het vliegtuig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op het scherm van de luchthaven staat bij jouw vlucht: 'cancelled'. Wat betekent dat voor jou?",
+          "opties": [
+            "Die vlucht gaat niet door.",
+            "Die vlucht vertrekt wat later.",
+            "Die vlucht vertrekt wat vroeger.",
+            "Die vlucht vertrekt aan een andere gate."
+          ],
+          "antwoord": 0,
+          "uitleg": "Cancelled is geannuleerd: de vlucht vertrekt helemaal niet. Delayed zou betekenen dat ze later vertrekt. Lees dus goed welk van de twee woorden er staat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand vraagt je de weg naar het museum. Je moet rechtdoor gaan en daarna bij de kerk naar rechts. Wat zeg je?",
+          "opties": [
+            "Go straight on and then turn right at the church.",
+            "Go straight on and then turn left at the church.",
+            "Turn right and then go straight on to the church.",
+            "Turn left at the church and then go straight on."
+          ],
+          "antwoord": 0,
+          "uitleg": "Straight on is rechtdoor en turn right is rechts afslaan. De volgorde telt ook: eerst rechtdoor, dan bij de kerk naar rechts. Turn left zou links zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke paren van land en nationaliteit kloppen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Spain — Spanish",
+            "Ireland — Irish",
+            "France — French",
+            "the United Kingdom — English",
+            "Belgium — Belgium"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Wie uit het Verenigd Koninkrijk komt, is British. En Belgium is het land: de nationaliteit is Belgian."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wie om 'half past seven' moet vertrekken, moet om half zeven klaarstaan.",
+          "antwoord": false,
+          "uitleg": "Half past seven is half acht, 7.30 uur. Wie om half zeven klaarstaat, is een uur te vroeg."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'A quarter to eight' valt vroeger op de dag dan 'a quarter past seven'.",
+          "antwoord": false,
+          "uitleg": "A quarter to eight is 7.45 uur en a quarter past seven is 7.15 uur. Kwart over zeven komt dus eerst."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een Amerikaan die 'on vacation' gaat, doet hetzelfde als een Brit die 'on holiday' gaat.",
+          "antwoord": true,
+          "uitleg": "Allebei gaan ze op vakantie. Vacation is het Amerikaanse woord, holiday het Britse."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het station ligt 'about two miles from here'. Dat is iets meer dan drie kilometer.",
+          "antwoord": true,
+          "uitleg": "Eén mile is ongeveer 1,6 kilometer. Twee miles is dus ongeveer 3,2 kilometer, iets meer dan drie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je 6.45 uur in het Engels? Vul aan: 'a quarter to ___'. Antwoord met één Engels woord.",
+          "antwoord": "seven",
+          "uitleg": "6.45 uur is kwart voor zeven. To is ervoor, en je noemt het uur dat komt: a quarter to seven."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je verjaardag is op 2 april. Vul aan: 'My birthday is on the ___ of April.' Antwoord met één Engels woord.",
+          "antwoord": "second",
+          "uitleg": "Bij een datum gebruik je een rangtelwoord: first, second, third. Twee wordt dus second, niet two."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je leest in een recept: 'You need two dozen eggs.' Hoeveel eieren heb je nodig? Antwoord met een getal.",
+          "antwoord": "24",
+          "uitleg": "A dozen is twaalf. Twee keer twaalf is 24 eieren."
+        }
+      ]
+    },
+    {
+      "titel": "Grammatica: naamwoorden, lidwoorden en voornaamwoorden — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke meervouden zijn FOUT? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "boxs",
+            "babys",
+            "mouses",
+            "boys",
+            "dishes"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Na x komt -es: boxes. Een -y na een medeklinker wordt -ies: babies. Mouse is onregelmatig: mice. Boys is juist, want na een klinker blijft de y, en dishes is juist, want na sh komt -es."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden krijgen -es in het meervoud? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "box",
+            "watch",
+            "dish",
+            "bus",
+            "boy"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Na s, x, ch en sh komt -es: buses, boxes, watches, dishes. Boy eindigt op een y na een klinker en krijgt gewoon -s: boys."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil zeggen: 'Ik zag twee muizen en een olifant.' Welke zin is juist?",
+          "opties": [
+            "I saw two mice and an elephant.",
+            "I saw two mouses and an elephant.",
+            "I saw two mice and a elephant.",
+            "I saw two mouses and a elephant."
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee regels tegelijk. Mouse heeft een onregelmatig meervoud: mice. En voor de klinkerklank van elephant komt an, niet a."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rij is helemaal juist?",
+          "opties": [
+            "an hour, a university, an apple",
+            "a hour, an university, an apple",
+            "an hour, an university, an apple",
+            "a hour, a university, a apple"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het gaat om de klank, niet om de letter. In hour zwijgt de h, dus an hour. University begint met een joe-klank, dus a university. Apple begint met een klinkerklank: an apple."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil zeggen: 'Zij is ingenieur.' Welke zin is juist?",
+          "opties": [
+            "She is an engineer.",
+            "She is engineer.",
+            "She is a engineer.",
+            "She is the engineer."
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een beroep staat in het Engels altijd een lidwoord, ook al laten we het in het Nederlands weg. Engineer begint met een klinkerklank, dus wordt het an engineer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin over de hond is juist geschreven?",
+          "opties": [
+            "It's a nice dog, and its name is Max.",
+            "Its a nice dog, and it's name is Max.",
+            "It's a nice dog, and it's name is Max.",
+            "Its a nice dog, and its name is Max."
+          ],
+          "antwoord": 0,
+          "uitleg": "Vooraan staat it is, en dat kort je af als it's, met apostrof. Bij de naam gaat het om iets van de hond, en dat bezittelijke woord is its, zonder apostrof."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: '___ coming to the party? And ___ bag is this?' Welke woorden passen, in die volgorde?",
+          "opties": [
+            "Who's … whose",
+            "Whose … who's",
+            "Whose … whose",
+            "Who's … who's"
+          ],
+          "antwoord": 0,
+          "uitleg": "In de eerste vraag bedoel je who is coming, en dat kort je af tot who's. In de tweede vraag je naar de eigenaar van de tas: whose, van wie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil zeggen: 'Tom gaf haar een boek, en zij las het.' Vul aan: 'Tom gave ___ a book, and ___ read it.'",
+          "opties": [
+            "her … she",
+            "she … her",
+            "her … her",
+            "she … she"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na het werkwoord gave staat het voorwerp: her. Vóór het werkwoord read staat het onderwerp: she. Zelfde persoon, maar twee verschillende vormen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zin staat een fout tegen een bezittelijk woord?",
+          "opties": [
+            "Is this bag your?",
+            "This is my book, and that one is yours.",
+            "These shoes are hers.",
+            "Our house is bigger than theirs."
+          ],
+          "antwoord": 0,
+          "uitleg": "Your heeft altijd een naamwoord nodig (your bag). Staat het woord alleen, dan wordt het yours: Is this bag yours? Mine, yours, hers en theirs staan alleen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil zeggen: 'Dit is de slechtste film die ik ooit zag.' Welke vorm past? 'This is ___ film I have ever seen.'",
+          "opties": [
+            "the worst",
+            "the baddest",
+            "the most bad",
+            "the worse"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bad is onregelmatig: bad, worse, the worst. Baddest en most bad bestaan niet, en worse is de vergrotende trap, niet de overtreffende."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tom is 1,60 meter groot, en zijn zus ook. Welke zin klopt?",
+          "opties": [
+            "Tom is as tall as his sister.",
+            "Tom is taller than his sister.",
+            "Tom is as tall than his sister.",
+            "Tom is more tall as his sister."
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze zijn even groot, dus je hebt een gelijkheid nodig: as … as. Taller than zou zeggen dat Tom groter is, en as … than of more tall bestaan niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: 'We arrive ___ Monday, ___ nine o'clock, and we stay ___ London ___ July.' Welke voorzetsels passen, in die volgorde?",
+          "opties": [
+            "on – at – in – in",
+            "on – on – in – in",
+            "in – at – in – on",
+            "at – on – at – in"
+          ],
+          "antwoord": 0,
+          "uitleg": "On hoort bij een dag (on Monday), at bij een uur (at nine o'clock), en in bij een stad en bij een maand (in London, in July)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden staan altijd alleen, zonder naamwoord erachter? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "mine",
+            "theirs",
+            "my",
+            "their",
+            "our"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Mine en theirs zijn bezittelijke voornaamwoorden: this book is mine. My, their en our staan altijd vóór een naamwoord: my book, their house, our class."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 'these red cars' staat red juist, ook al is cars een meervoud.",
+          "antwoord": true,
+          "uitleg": "Een bijvoeglijk naamwoord verandert in het Engels nooit van vorm. Het staat vóór het naamwoord en krijgt geen -s: red cars, niet reds cars."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Which gebruik je bij een open keuze, en what bij een keuze uit een beperkte groep.",
+          "antwoord": false,
+          "uitleg": "Het is omgekeerd. Which hoort bij een beperkte keuze (which colour, red or blue?), what bij een open keuze (what is your favourite subject?)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 'an hour' staat an, omdat je de h niet uitspreekt en het woord dus met een klinkerklank begint.",
+          "antwoord": true,
+          "uitleg": "Bij a of an telt de klank, niet de letter. De h van hour zwijgt, dus hoor je eerst een klinker."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'The most expensive' is de comparative van expensive.",
+          "antwoord": false,
+          "uitleg": "De comparative is de vergrotende trap: more expensive. The most expensive is de overtreffende trap, de superlative."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is het meervoud van 'city'? Antwoord met één Engels woord.",
+          "antwoord": "cities",
+          "uitleg": "Voor de y staat een medeklinker (t), dus wordt de y -ies: cities. Na een klinker blijft de y wel staan, zoals bij days."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de vergrotende trap (comparative) van 'hot'? Antwoord met één Engels woord.",
+          "antwoord": "hotter",
+          "uitleg": "Hot is kort en krijgt -er. Omdat er één korte klinker voor de t staat, verdubbelt die medeklinker: hotter, net als big en bigger."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is het rangtelwoord bij 'nine'? Antwoord met één Engels woord.",
+          "antwoord": "ninth",
+          "uitleg": "Nine verliest zijn e: ninth, zonder e. Het is een van de lastige rangtelwoorden, samen met fifth en twelfth."
+        }
+      ]
+    },
+    {
+      "titel": "Grammatica: werkwoorden, tijden en zinsbouw — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zinnen staat een fout tegen de -s? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Does she lives in Ghent?",
+            "He doesn't likes tea.",
+            "My brother watch TV every evening.",
+            "She goes to school by bike.",
+            "They play tennis on Sundays."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "In een vraag of ontkenning verhuist de -s naar does, dus does she live en doesn't like. Zonder hulpwerkwoord krijgt het werkwoord bij he, she en it zelf de -s: my brother watches. She goes en they play zijn juist."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: 'The keys in my bag ___ new.' Welke vorm hoort hier?",
+          "opties": [
+            "are",
+            "is",
+            "am",
+            "be"
+          ],
+          "antwoord": 0,
+          "uitleg": "De persoonsvorm volgt het onderwerp, en dat is the keys, een meervoud. My bag staat er vlak voor, maar is niet het onderwerp. Dus: the keys are."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: 'Tom and his sister ___ to school by bus every day.' Welke vorm hoort hier?",
+          "opties": [
+            "go",
+            "goes",
+            "are going",
+            "went"
+          ],
+          "antwoord": 0,
+          "uitleg": "Every day wijst op een gewoonte, dus de present simple. Tom en zijn zus samen zijn meervoud, net als they, en dan komt er geen -s: they go."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: 'Two days ago she ___ her homework.' Welke vorm hoort hier?",
+          "opties": [
+            "finished",
+            "finishes",
+            "is finishing",
+            "will finish"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ago is een signaalwoord voor de past simple: het is gebeurd en afgelopen. Finish is regelmatig en krijgt -ed: finished."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: 'Listen! My sister ___ the piano.' Welke vorm hoort hier?",
+          "opties": [
+            "is playing",
+            "plays",
+            "played",
+            "will play"
+          ],
+          "antwoord": 0,
+          "uitleg": "Listen! zegt dat het nu gebeurt, dus heb je de present continuous nodig: to be + -ing. She plays the piano zou zeggen dat ze dat gewoonlijk doet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je weet nu het antwoord op een vraag. Welke zin is juist?",
+          "opties": [
+            "I know the answer.",
+            "I am knowing the answer.",
+            "I knows the answer.",
+            "I am know the answer."
+          ],
+          "antwoord": 0,
+          "uitleg": "To know is een werkwoord van weten, en zulke werkwoorden zet je normaal niet in de continuous, ook al gaat het over nu. Bij I komt er geen -s."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin met have is juist?",
+          "opties": [
+            "I have seen that film.",
+            "I have saw that film.",
+            "I have see that film.",
+            "I have seed that film."
+          ],
+          "antwoord": 0,
+          "uitleg": "Na have komt het voltooid deelwoord. Van to see is dat seen: see, saw, seen. Saw is de past simple en staat alleen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is tegelijk vragend en ontkennend?",
+          "opties": [
+            "Don't you like fish?",
+            "Don't forget your keys!",
+            "I don't like fish at all.",
+            "What a beautiful day!"
+          ],
+          "antwoord": 0,
+          "uitleg": "Don't you like fish? stelt een vraag met do en een ontkenning. Don't forget your keys! is bevelend en ontkennend, I don't like fish is mededelend en ontkennend, en What a beautiful day! is uitroepend."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin heeft geen onderwerp?",
+          "opties": [
+            "Close the window, please.",
+            "She closes the window.",
+            "Do you close the window?",
+            "We never close the window."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een bevelende zin (imperative) heeft geen onderwerp: het werkwoord staat vooraan. In de andere zinnen doet iemand iets: she, you of we."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel persoonsvormen staan er in 'When I came home, my sister was cooking'?",
+          "opties": [
+            "twee",
+            "één",
+            "drie",
+            "geen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Came hoort bij I en was hoort bij my sister: twee persoonsvormen. Cooking is geen persoonsvorm, het hoort bij was. Twee persoonsvormen maken er een samengestelde zin van."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen zijn samengestelde zinnen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "We stayed at home because it rained.",
+            "She plays tennis and he plays the piano.",
+            "I was tired, so I went to bed.",
+            "When I came home, the door was open.",
+            "My sister and I are going to the cinema."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Een samengestelde zin heeft twee of meer persoonsvormen, verbonden door een voegwoord zoals because, and, so of when. My sister and I are going heeft maar één persoonsvorm (are), ook al zijn er twee personen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen staan in de past simple? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "We went to Spain.",
+            "She bought a new bag.",
+            "I have gone home.",
+            "They are going home.",
+            "He will go home."
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Went en bought zijn past simple-vormen van go en buy. Have gone gebruikt het voltooid deelwoord, are going is de present continuous en will go de future simple."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Very is een voegwoord dat twee delen van een zin verbindt.",
+          "antwoord": false,
+          "uitleg": "Very verbindt niets: het versterkt alleen een bijvoeglijk naamwoord, zoals very tired. Voegwoorden zijn and, but, so, when en because."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 'Tomorrow she will goes to school' staat een fout.",
+          "antwoord": true,
+          "uitleg": "Na will komt het werkwoord zonder to en zonder -s: she will go. Will zelf verandert ook nooit."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'I was' en 'they were' zijn allebei de past simple van to be.",
+          "antwoord": true,
+          "uitleg": "To be heeft twee vormen in de past simple: was bij I, he, she en it, en were bij you, we en they."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Staat er 'every day' in een zin, dan gebruik je de present continuous.",
+          "antwoord": false,
+          "uitleg": "Every day wijst op een gewoonte, en daarvoor gebruik je de present simple: she goes to school every day. De present continuous is voor wat nu bezig is."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'Yesterday he ___ his friend to the party.' Wat is de past simple van 'to bring'? Antwoord met één Engels woord.",
+          "antwoord": "brought",
+          "uitleg": "To bring is onregelmatig: bring, brought, brought. Let op de spelling met -ough-, net als bought en thought."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'Last week we ___ the train to London.' Wat is de past simple van 'to take'? Antwoord met één Engels woord.",
+          "antwoord": "took",
+          "uitleg": "Last week vraagt de past simple, en to take is onregelmatig: take, took, taken."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'Next year she ___ fifteen.' Zet 'to be' in de future simple. Antwoord met twee woorden.",
+          "antwoord": "will be",
+          "uitleg": "De toekomst maak je met will en het werkwoord zonder to: she will be fifteen. Will krijgt geen -s, ook niet bij she."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'Look, they are ___ the bus right now.' Zet 'to take' in de -ing-vorm. Antwoord met één woord.",
+          "antwoord": "taking",
+          "uitleg": "Right now vraagt de present continuous, met are + -ing. De -e van take valt weg voor -ing, net zoals write writing wordt."
+        }
+      ]
+    }
+  ]
+}

@@ -274,7 +274,49 @@ SAMEN = """<p>Alle vragen van een ronde samen zijn te veel tekst voor één pagi
       dan gewoon opnieuw met vervangen aan. Twee keer inladen met dat vinkje aan kan geen
       kwaad.</p>"""
 
+PIT = ("In dit bestand zitten enkel de nieuwe pittige hoofdstukken. Deel 1 en deel 2 van "
+       "elk thema blijven gewoon staan, met de voortgang van de kinderen erop. Vervangen moet "
+       "toch aan: laad je het per ongeluk twee keer in, dan blijven het twintig vragen per "
+       "hoofdstuk in plaats van veertig.")
+
 PAGINAS = [
+    dict(
+        bestand="opladen-pittig-spark-andere-vakken.html",
+        titel="Plakpagina — pittige hoofdstukken voor de andere vakken van ✨ Spark",
+        sleutel="connectopia-plakpagina-pittig-spark-andere-vakken",
+        voet="Bijgewerkt op 15 oktober 2026",
+        intro="""<p>Na techniek hebben nu ook de acht andere vakken van ✨ Spark bij elk thema
+      een hoofdstuk <em>— pittig</em> met twintig moeilijkere vragen: 75 hoofdstukken en
+      1500 vragen. Techniek staat op zijn eigen pagina en hoort hier niet bij.</p>
+      <p>Er komt geen nieuwe leerstof bij, dus de leerbundels blijven kloppen. Moeilijker zit
+      in de vraag: twee stappen na elkaar, terugredeneren, een fout die juist lijkt, of de
+      leerstof toepassen op iets nieuws. Geen enkele vraag stond al ergens in ✨ Spark.</p>
+      <p>Elk pittig hoofdstuk komt in het oefenplatform vanzelf na deel 2 van zijn thema te
+      staan, met een oranje randje en het woord Moeilijker. Er is geen sql voor nodig.</p>""",
+        secties=[
+            dict(
+                kop=SPARK + " — acht vakken, één bestand per vak",
+                uitleg=(WEG % SPARK) + " Kies telkens het vak dat op de kaart staat.",
+                kaarten=vraagkaarten([
+                    ("pittig-spark-wiskunde", "Wiskunde — 9 pittige hoofdstukken", SPARK, "pittig", "spark-wiskunde-pittig",
+                     "Kies het vak Wiskunde. " + PIT),
+                    ("pittig-spark-nederlands", "Nederlands — 10 pittige hoofdstukken", SPARK, "pittig", "spark-nederlands-pittig",
+                     "Kies het vak Nederlands. " + PIT),
+                    ("pittig-spark-frans", "Frans — 10 pittige hoofdstukken", SPARK, "pittig", "spark-frans-pittig",
+                     "Kies het vak Frans. " + PIT),
+                    ("pittig-spark-engels", "Engels — 10 pittige hoofdstukken", SPARK, "pittig", "spark-engels-pittig",
+                     "Kies het vak Engels. " + PIT),
+                    ("pittig-spark-natuurwetenschappen", "Natuurwetenschappen — 10 pittige hoofdstukken", SPARK, "pittig", "spark-natuurwetenschappen-pittig",
+                     "Kies het vak Natuurwetenschappen. " + PIT),
+                    ("pittig-spark-geschiedenis", "Geschiedenis — 6 pittige hoofdstukken", SPARK, "pittig", "spark-geschiedenis-pittig",
+                     "Kies het vak Geschiedenis. " + PIT),
+                    ("pittig-spark-aardrijkskunde", "Aardrijkskunde — 10 pittige hoofdstukken", SPARK, "pittig", "spark-aardrijkskunde-pittig",
+                     "Kies het vak Aardrijkskunde. " + PIT),
+                    ("pittig-spark-samenleving-en-economie", "Samenleving en economie — 10 pittige hoofdstukken", SPARK, "pittig", "spark-samenleving-en-economie-pittig",
+                     "Kies het vak Samenleving en economie. " + PIT),
+                ])),
+        ],
+    ),
     dict(
         bestand="opladen-pittig-techniek-spark.html",
         titel="Plakpagina — pittige hoofdstukken techniek ✨ Spark",

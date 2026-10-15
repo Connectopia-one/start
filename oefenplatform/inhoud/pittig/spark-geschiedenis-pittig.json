@@ -1,0 +1,1318 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Het historisch referentiekader — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Een archeoloog vindt een Romeinse munt uit het jaar 300 n.C. en een kroniek uit het jaar 1300. Bij welke periodes horen ze?",
+          "opties": [
+            "De munt bij de klassieke oudheid, de kroniek bij de middeleeuwen",
+            "De munt en de kroniek allebei bij de klassieke oudheid",
+            "De munt bij de middeleeuwen, de kroniek bij de klassieke oudheid",
+            "De munt bij het oude nabije oosten, de kroniek bij de klassieke oudheid"
+          ],
+          "antwoord": 0,
+          "uitleg": "De klassieke oudheid eindigt met de val van het West-Romeinse Rijk in 476. Het jaar 300 ligt daarvóór, dus de munt hoort bij de klassieke oudheid. Het jaar 1300 ligt erna, in de middeleeuwen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een gebeurtenis vond plaats in het jaar 1500. In welke eeuw ligt dat jaar?",
+          "opties": [
+            "De 15de eeuw",
+            "De 16de eeuw",
+            "De 14de eeuw",
+            "De 5de eeuw"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een eeuw loopt van 01 tot en met 00. De 15de eeuw loopt dus van 1401 tot en met 1500. Bij een rond honderdtal tel je niet één eeuw hoger, en dat is precies waar veel mensen zich vergissen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke eeuw viel het West-Romeinse Rijk?",
+          "opties": [
+            "De 5de eeuw",
+            "De 4de eeuw",
+            "De 6de eeuw",
+            "De 47ste eeuw"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het West-Romeinse Rijk viel in 476. De jaren 401 tot en met 500 vormen de 5de eeuw. Je moet hier dus eerst het jaartal kennen en het daarna nog omzetten naar een eeuw."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het West-Romeinse Rijk viel in 476, de Franse Revolutie begon in 1789. Hoeveel jaar later dan de val van het West-Romeinse Rijk begon de Franse Revolutie? Antwoord met een getal.",
+          "antwoord": "1313",
+          "uitleg": "Beide jaartallen liggen na Christus, dus je trekt gewoon af: 1789 min 476 is 1313. Op een tijdlijn zie je dat als de afstand tussen de twee punten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rij zet deze jaartallen in de juiste volgorde, van vroeg naar laat: 300 v.C., 50 n.C., 800 v.C., 50 v.C.?",
+          "opties": [
+            "800 v.C. – 300 v.C. – 50 v.C. – 50 n.C.",
+            "50 v.C. – 300 v.C. – 800 v.C. – 50 n.C.",
+            "50 n.C. – 50 v.C. – 300 v.C. – 800 v.C.",
+            "800 v.C. – 300 v.C. – 50 n.C. – 50 v.C."
+          ],
+          "antwoord": 0,
+          "uitleg": "Vóór Christus tel je achterwaarts: hoe groter het getal, hoe vroeger. Dus eerst 800 v.C., dan 300 v.C., dan 50 v.C. Pas na het jaar 0 komt 50 n.C."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een klasgenoot zegt: \"De middeleeuwen begonnen in 476, en vanaf dat jaar leefde iedereen op de wereld plots anders.\" Welke opmerkingen over die uitspraak zijn terecht? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een scharnierpunt is een afspraak onder historici, geen dag waarop alles plots anders werd",
+            "In China of Amerika veranderde er door de val van het West-Romeinse Rijk niets",
+            "Het jaartal klopt niet: de middeleeuwen beginnen met de uitvinding van het schrift",
+            "Het jaartal klopt niet: het West-Romeinse Rijk bleef nog duizend jaar langer bestaan"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Het jaartal 476 klopt wel, maar het is een afspraak en geen dag waarop alles omsloeg. Bovendien is de indeling plaatsgebonden: buiten Europa betekende 476 niets. Het schrift sluit de prehistorie af, en het was het oosten dat nog duizend jaar bleef bestaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een koning laat een kanaal graven. De boeren oogsten daardoor meer, de stad groeit en er ontstaat een groep rijke handelaars. Welke maatschappelijke domeinen komen in die ene ketting voor? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Het politieke domein",
+            "Het economische domein",
+            "Het sociale domein",
+            "Het culturele domein"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De koning die beslist, is politiek. Meer oogst en handel is economisch. Een groeiende stad en een nieuwe groep rijken gaan over groepen in de samenleving, en dat is sociaal. Over kunst, religie of wetenschap gaat het hier niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een vissersdorp aan de kust leeft van de visvangst en van handel over zee, en ligt ver van elke stad. Welke twee structuurbegrippen passen?",
+          "opties": [
+            "Maritiem en ruraal",
+            "Continentaal en stedelijk",
+            "Maritiem en stedelijk",
+            "Continentaal en ruraal"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gericht op de zee is maritiem. Ver van de stad, op het platteland, is ruraal. Je moet dus twee dingen tegelijk beoordelen: de zee en de stad."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze woorden zijn structuurbegrippen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "chronologie",
+            "continuïteit",
+            "ruraal",
+            "maritiem",
+            "Parthenon"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Structuurbegrippen zijn vaste woorden waarmee je elke samenleving kan beschrijven, in welke periode ook. Het Parthenon is één bepaald gebouw in Athene, en dus geen begrip dat je overal kan toepassen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een uitvinding verandert op enkele jaren tijd het leven van bijna iedereen grondig. Een andere verandering verloopt over vele eeuwen, stap voor stap. Hoe noem je die twee?",
+          "opties": [
+            "De eerste een revolutie, de tweede een evolutie",
+            "De eerste een evolutie, de tweede een revolutie",
+            "Allebei een revolutie, want ze veranderen allebei veel",
+            "Allebei een evolutie, want alles verandert uiteindelijk geleidelijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het verschil zit in het tempo. Snel en grondig is een revolutie, traag en stap voor stap een evolutie. Dat beide veel veranderen, maakt ze nog niet allebei een revolutie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling zegt: \"Een revolutie is altijd iets slechts en een evolutie altijd iets goeds.\" Wat is de beste reactie?",
+          "opties": [
+            "Het verschil zit in het tempo, niet in goed of slecht",
+            "Dat klopt, want een revolutie gaat altijd samen met geweld en oorlog",
+            "Net omgekeerd: een evolutie is slecht, omdat ze zo traag verloopt",
+            "Dat klopt, want historici gebruiken die woorden om een periode te beoordelen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Evolutie en revolutie zeggen hoe snel iets verandert, niet of het goed of slecht is. De agrarische revolutie bracht bijvoorbeeld overschot én ongelijkheid mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het spijkerschrift ontstond rond 3300 v.C. in Mesopotamië. In onze streken schreef men pas duizenden jaren later. In welke periode zaten onze streken dus rond 2000 v.C.?",
+          "opties": [
+            "Nog in de prehistorie",
+            "Al in de klassieke oudheid",
+            "Al in de middeleeuwen",
+            "Al lang voorbij de prehistorie, net als Mesopotamië"
+          ],
+          "antwoord": 0,
+          "uitleg": "De prehistorie eindigt waar het schrift begint. Rond 2000 v.C. schreef men in onze streken nog niet, dus daar was het nog prehistorie, terwijl Mesopotamië al geschreven bronnen had. De grens ligt niet overal gelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Na de val van het West-Romeinse Rijk bleven veel mensen in het westen gewoon dezelfde taal spreken en dezelfde gewoonten houden. Welke grens van de westerse periodisering toont dat het best?",
+          "opties": [
+            "Ze is gebonden aan domeinen",
+            "Ze is plaatsgebonden, want in China veranderde er in 476 niets",
+            "Ze is tijdsgebonden, want nieuwe inzichten kunnen de grenzen nog verschuiven",
+            "Ze is helemaal fout, want er veranderde in 476 eigenlijk niets"
+          ],
+          "antwoord": 0,
+          "uitleg": "Politiek kwam er een einde aan het rijk, maar cultureel deden de mensen verder zoals vroeger. Dat bedoelt men met domeingebonden. Het voorbeeld van China gaat over een ander werelddeel en dus over plaatsgebondenheid, en een afspraak is niet fout omdat ze grenzen heeft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een tempelmuur staat een farao afgebeeld die een vijand verslaat. In welke maatschappelijke domeinen hoort die afbeelding thuis? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Het culturele domein",
+            "Het politieke domein",
+            "Het economische domein",
+            "Het sociale domein"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Een kunstwerk op een tempel is cultureel. De heerser die een vijand verslaat, toont macht en oorlog, en dat is politiek. Net als bij het beeld van Aulus Metellus zitten er twee domeinen in één afbeelding."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het jaar 2000 hoort nog bij de 20ste eeuw.",
+          "antwoord": true,
+          "uitleg": "Een eeuw loopt van 01 tot en met 00. De 20ste eeuw loopt dus van 1901 tot en met 2000, en de 21ste begint pas in 2001."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het jaar 1801 hoort bij de 18de eeuw.",
+          "antwoord": false,
+          "uitleg": "De 18de eeuw loopt van 1701 tot en met 1800. Het jaar 1801 is het eerste jaar van de 19de eeuw."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een gebeurtenis in 400 v.C. ligt dichter bij het jaar 0 dan een gebeurtenis in 300 v.C.",
+          "antwoord": false,
+          "uitleg": "Vóór Christus tel je achterwaarts. 300 v.C. ligt 300 jaar vóór het jaar 0, 400 v.C. 400 jaar. Het kleinere getal ligt dus het dichtst bij het jaar 0."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je de prehistorie op een tijdlijn op schaal tekent, wordt ze langer dan alle andere periodes samen.",
+          "antwoord": true,
+          "uitleg": "De prehistorie duurde honderdduizenden jaren. Alle andere periodes samen passen in een paar duizend jaar. Op de meeste tijdlijnen staat ze daarom veel te kort getekend."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het jaar 1945 is het begin van de hedendaagse tijd. In welke eeuw ligt dat jaar? Antwoord met een getal, zonder \"ste\".",
+          "antwoord": "20",
+          "uitleg": "De 20ste eeuw loopt van 1901 tot en met 2000. Het jaar 1945 ligt daartussen. Je telt dus één hoger dan de eerste twee cijfers."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De Franse Revolutie begon in 1789, in de 18de eeuw. Met welk jaar begint die 18de eeuw? Antwoord met een getal.",
+          "antwoord": "1701",
+          "uitleg": "Een eeuw loopt van 01 tot en met 00. De 18de eeuw begint dus in 1701 en eindigt in 1800. Het jaar 1700 hoort nog bij de 17de eeuw."
+        }
+      ]
+    },
+    {
+      "titel": "De prehistorie — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rij zet deze stappen in de juiste volgorde, van vroeg naar laat?",
+          "opties": [
+            "aaseter-verzamelaars – jager-verzamelaars – eerste boeren – eerste steden",
+            "jager-verzamelaars – aaseter-verzamelaars – eerste boeren – eerste steden",
+            "aaseter-verzamelaars – eerste boeren – jager-verzamelaars – eerste steden",
+            "jager-verzamelaars – eerste boeren – eerste steden – aaseter-verzamelaars"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst aten mensachtigen vlees van dieren die al dood waren, pas later gingen ze zelf jagen. Daarna kwam de landbouw, en pas met een voedseloverschot konden er steden groeien."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Archeologen vinden op één plek resten van huizen, voorraadpotten met graan, gepolijste stenen bijlen en botten van tamme geiten. Wat besluiten ze?",
+          "opties": [
+            "Hier woonden sedentaire boeren uit het neolithicum",
+            "Hier kampeerde een groep nomaden enkele dagen lang",
+            "Hier leefden aaseter-verzamelaars zonder vaste woonplaats",
+            "Hier woonde de Homo erectus na zijn tocht uit Afrika"
+          ],
+          "antwoord": 0,
+          "uitleg": "Huizen en voorraden wijzen op een vaste woonplaats, graan en tamme dieren op landbouw en veeteelt. Gepolijste bijlen horen bij het neolithicum. Nomaden sleepten geen zware voorraadpotten mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom leefden jagers en verzamelaars in groepen van enkele tientallen mensen en niet van duizenden?",
+          "opties": [
+            "In de natuur vind je op één plek niet genoeg eten voor zoveel monden",
+            "Ze konden met niet meer dan enkele tientallen mensen samen praten",
+            "Grotere groepen werden verboden door de leider van de groep",
+            "Ze hadden geen vuur om voor zoveel mensen te koken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie van jacht en verzamelen leeft, eet wat de natuur in de buurt geeft. Dat is te weinig voor een grote groep. Pas met landbouw en een overschot konden veel mensen op één plek samenwonen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom verzamelden nomaden zelden veel zware spullen?",
+          "opties": [
+            "Alles moest mee op de rug als de groep verder trok",
+            "Ze kenden nog geen werktuigen om spullen mee te maken",
+            "Bezit was bij hen verboden door de oudsten van de groep",
+            "Ze ruilden alles meteen weg op de markt in de stad"
+          ],
+          "antwoord": 0,
+          "uitleg": "Nomaden trokken mee met het voedsel. Wat je bezit, moet je dan dragen, dus bezit had weinig zin. Markten en steden kwamen er pas veel later, met de landbouw."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een vriend zegt: \"De mens stamt af van de aap.\" Welke verbeteringen zijn juist? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Mens en aap hebben een gemeenschappelijke voorouder",
+            "Een soort verandert langzaam, over heel veel generaties",
+            "De mens is niet in Afrika ontstaan, maar in Europa",
+            "Een soort verandert telkens volledig in één enkele generatie"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De mens is niet uit de aap ontstaan, maar mens en aap delen een voorouder. Volgens de evolutieleer gaat zo'n verandering heel traag, over veel generaties. En de mens ontstond wel degelijk in Afrika."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat moest er eerst zijn voordat er specialisatie kon ontstaan?",
+          "opties": [
+            "Een voedseloverschot",
+            "Steden",
+            "Ongelijkheid",
+            "Het schrift"
+          ],
+          "antwoord": 0,
+          "uitleg": "Pas als niet iedereen meer voedsel hoeft te maken, kunnen sommigen een ander beroep uitoefenen. De ketting is: overschot, specialisatie, dorpen en steden, ongelijkheid. Steden en ongelijkheid komen dus pas daarna."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een neolithisch dorp wonen een pottenbakker, een smid en een priester, die geen van drieën zelf boeren. Wat zegt dat over de boeren van dat dorp?",
+          "opties": [
+            "Ze oogstten meer dan ze zelf nodig hadden",
+            "Ze waren met te weinig om alle akkers te bewerken",
+            "Ze leefden nog half als jagers en verzamelaars",
+            "Ze moesten hun hele oogst aan de priester afgeven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie zelf niet boert, moet eten van iemand anders. Dat kan alleen als de boeren een overschot hebben. Je redeneert hier van het gevolg, de specialisatie, terug naar de oorzaak."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een strip toont prehistorische mensen die alleen mammoeten jagen en alleen vlees eten. Wat klopt daar niet aan?",
+          "opties": [
+            "Verzameld plantaardig voedsel leverde vaak meer op dan de jacht",
+            "Prehistorische mensen aten helemaal geen vlees, alleen planten",
+            "Op mammoeten werd pas gejaagd nadat de landbouw ontstaan was",
+            "Prehistorische mensen leefden alleen van vis uit de rivieren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze jaagden wel, maar het verzamelde plantaardige voedsel leverde vaak het grootste deel. Het beeld van de mens die alleen mammoeten eet, is te eenzijdig. Vlees aten ze wel degelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke voordelen van het vuur hadden niets met eten te maken? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Het gaf warmte",
+            "Het hield roofdieren op afstand",
+            "Het hardde houten speerpunten",
+            "Het gaf licht",
+            "Het maakte vlees beter verteerbaar"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Warmte, licht, bescherming tegen roofdieren en hardere speerpunten hebben niets met de maaltijd te maken. Alleen het beter verteerbaar maken van voedsel gaat over eten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom denken onderzoekers dat grotschilderingen geen versiering van de woonplaats waren?",
+          "opties": [
+            "Ze zitten op plekken waar niemand woonde, soms honderden meters diep",
+            "Ze tonen alleen dieren en geen mensen die in de grot woonden",
+            "Ze zijn gemaakt met oker en houtskool, en dat gebruikte niemand thuis",
+            "Ze zijn pas gemaakt nadat de mensen de grot al verlaten hadden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie zijn woonplaats versiert, schildert waar hij leeft. De schilderingen zitten net diep in de grot, waar niemand woonde. Waarom ze gemaakt zijn, weten we daardoor nog altijd niet zeker."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vindt twee stenen bijlen. De ene is alleen ruw afgeslagen, de andere is glad geslepen en gepolijst. Wat besluit je het best?",
+          "opties": [
+            "De gepolijste is vermoedelijk jonger en komt uit het neolithicum",
+            "De gepolijste is vermoedelijk ouder, want polijsten is eenvoudiger",
+            "Ze komen zeker uit dezelfde tijd, want ze zijn allebei van steen",
+            "De ruwe bijl is van metaal en dus jonger dan de gepolijste"
+          ],
+          "antwoord": 0,
+          "uitleg": "Werktuigen uit het neolithicum, de nieuwe steentijd, herken je aan het slijpen en polijsten. Daarvóór sloeg men stenen alleen af. Metaal speelt in de prehistorie die je bestudeert geen rol."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom begon de landbouw net in de Vruchtbare Halve Maan?",
+          "opties": [
+            "Daar groeiden wilde tarwe en gerst en leefden dieren die je kon temmen",
+            "Daar woonden al steden, die veel voedsel nodig hadden voor hun inwoners",
+            "Daar kwam de Homo erectus als eerste aan na zijn tocht uit Afrika",
+            "Daar was de grond het hele jaar bevroren, zodat voedsel lang goed bleef"
+          ],
+          "antwoord": 0,
+          "uitleg": "Om te zaaien en te temmen heb je wilde planten en dieren nodig die daarvoor geschikt zijn. Die waren er. Steden kwamen pas ná de landbouw, niet ervoor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een groep jagers en verzamelaars wordt een dorp van boeren. Wat verandert er daardoor? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Ze wonen op een vaste plaats",
+            "Bezit, zoals grond en voorraden, krijgt meer zin",
+            "Eén misoogst kan hongersnood betekenen",
+            "Ze leven voortaan in kleinere groepen",
+            "Ziektes springen minder makkelijk over"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Wie zaait, blijft tot de oogst, en wie blijft, kan bezit opstapelen. De keerzijde is dat één misoogst meteen honger betekent. Groepen worden juist groter, en ziektes springen makkelijker over omdat mensen dicht op elkaar en tussen hun vee leven."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De Homo sapiens was de eerste mensachtige die Afrika verliet.",
+          "antwoord": false,
+          "uitleg": "Dat was de Homo erectus, de rechtopgaande mens. De Homo sapiens volgde pas later."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het verschil tussen rijk en arm werd groter toen mensen op een vaste plaats gingen wonen en landbouw bedreven.",
+          "antwoord": true,
+          "uitleg": "Wie grond en voorraden bezat, stond sterker dan wie niets had. Bij nomaden had bezit weinig zin, bij boeren wel. Zo ontstond ongelijkheid."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Omdat er uit de prehistorie geen geschreven bronnen zijn, weten we er zo goed als niets over.",
+          "antwoord": false,
+          "uitleg": "We weten er wel veel over, maar alles komt uit de grond: botten, werktuigen, resten van vuur en grotschilderingen. Geen geschreven bronnen betekent niet geen bronnen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De bekendste grotschilderingen liggen in twee verschillende landen.",
+          "antwoord": true,
+          "uitleg": "Lascaux ligt in Frankrijk en Altamira in Spanje. Dat zijn de twee bekendste voorbeelden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De grotschilderingen van Lascaux zijn zo'n 17 000 jaar oud. De landbouw begon ongeveer 10 000 jaar geleden. Hoeveel jaar later dan de schilderingen van Lascaux begon de landbouw ongeveer? Antwoord met een getal.",
+          "antwoord": "7000",
+          "uitleg": "Hoe groter het aantal jaren geleden, hoe vroeger. De schilderingen zijn dus ouder dan de landbouw. Het verschil is 17 000 min 10 000, of 7000 jaar."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een groep stopt met rondtrekken, omdat ze gezaaid heeft en op de oogst moet wachten. Ze wordt zo het tegenovergestelde van nomadisch. Hoe noem je die manier van leven? Antwoord met één woord.",
+          "antwoord": "sedentair",
+          "uitleg": "Wie zaait, moet blijven tot de oogst. Wonen op een vaste plaats heet sedentair. Zo ontstonden de eerste dorpen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De Vruchtbare Halve Maan loopt van twee rivieren tot aan de Middellandse Zee. De ene rivier is de Eufraat. Hoe heet de andere? Antwoord met één woord.",
+          "antwoord": "Tigris",
+          "uitleg": "De Vruchtbare Halve Maan loopt van Tigris en Eufraat tot aan de Middellandse Zee. Tussen die twee rivieren ligt later ook Mesopotamië."
+        }
+      ]
+    },
+    {
+      "titel": "Mesopotamië en Egypte — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rij geeft de ketting van dit thema in de juiste volgorde?",
+          "opties": [
+            "rivier – irrigatie – overschot – stad en staat – schrift",
+            "rivier – schrift – irrigatie – overschot – stad en staat",
+            "schrift – rivier – stad en staat – irrigatie – overschot",
+            "rivier – stad en staat – schrift – irrigatie – overschot"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het water van de rivier maakt irrigatie mogelijk, irrigatie levert een overschot op, en rond het bestuur van dat overschot groeien stad en staat. Het schrift komt pas als die staat te veel moet bijhouden om te onthouden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Archeologen vinden in Uruk een heel oud kleitablet met alleen getallen en namen van boeren. Wat is het het meest waarschijnlijk?",
+          "opties": [
+            "Een lijst van graanleveringen, een stuk boekhouding",
+            "Een gedicht over de goden van de stad Uruk",
+            "Een brief van de koning van Uruk aan de farao",
+            "Een verzameling spreuken voor het hiernamaals"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het schrift werd uitgevonden om te tellen en te boekhouden. Getallen naast namen van boeren wijzen op leveringen of schulden. De spreuken voor het hiernamaals horen bovendien bij Egypte, in het Dodenboek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraak over het bestuur in Mesopotamië en Egypte klopt?",
+          "opties": [
+            "Mesopotamië had stadstaten met elk een eigen bestuur, Egypte één rijk onder de farao",
+            "Mesopotamië had één koning over alle steden, Egypte bestond uit losse stadstaten",
+            "Beide gebieden werden door één farao bestuurd, die als een god op aarde gold",
+            "Beide gebieden bestonden uit stadstaten die voortdurend oorlog voerden met elkaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ur, Uruk en Babylon hadden elk een eigen bestuur en een eigen god, en voerden ook oorlog met elkaar. Langs de Nijl smolten de gebieden samen tot één rijk onder één heerser: één rivier, één land."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Stel dat op de Steen van Rosetta alleen hiërogliefen en demotisch hadden gestaan, zonder Grieks. Wat was dan het probleem geweest?",
+          "opties": [
+            "Niemand kon die twee schriften lezen, dus er was geen vertrekpunt",
+            "De steen was dan te klein geweest om de hele tekst op te zetten",
+            "Champollion had dan eerst het spijkerschrift moeten ontcijferen",
+            "Er was dan geen probleem, want demotisch werd nog overal gelezen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De sleutel was dat dezelfde tekst ook in het Grieks stond, en Grieks kon men wel lezen. Zonder een schrift dat je al kent, heb je niets om de onbekende tekens mee te vergelijken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een Mesopotamische wet straft dezelfde daad zwaarder of lichter naargelang wie het slachtoffer is. Wat leer je daaruit over die samenleving?",
+          "opties": [
+            "Het was een standenmaatschappij met ongelijke rechten voor de groepen",
+            "Iedereen was gelijk voor de wet, alleen de straffen verschilden wat",
+            "De rechters mochten zelf kiezen, omdat er nog geen geschreven wetten waren",
+            "Slaven hadden meer rechten dan boeren, omdat ze bezit van iemand waren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Als de straf afhangt van wie het slachtoffer is, tellen niet alle mensen even zwaar mee. Dat is ongelijkheid die letterlijk in de wet staat. Slaven hadden juist geen rechten, en de wet was wel degelijk opgeschreven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze dingen hebben wij uit Mesopotamië of Egypte overgehouden? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "het wiel",
+            "de ploeg",
+            "geschreven wetten",
+            "de sterrenkunde",
+            "munten om mee te betalen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Wiel, ploeg, geschreven wetten en sterrenkunde komen allemaal uit die rijken. Munten bestonden er nog niet: men ruilde en rekende af in gewogen graan of zilver."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Van waar komt ons uur van zestig minuten, en van waar onze kalender met twaalf maanden?",
+          "opties": [
+            "Zestig minuten uit Mesopotamië, twaalf maanden uit Egypte",
+            "Zestig minuten uit Egypte, twaalf maanden uit Mesopotamië",
+            "Allebei uit Mesopotamië, waar men met zestigtallen rekende",
+            "Allebei uit Egypte, waar men een zonnekalender gebruikte"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het rekenen met zestigtallen is Mesopotamisch, en daar komen de zestig minuten van. De twaalf maanden gaan terug op de Egyptische zonnekalender. Je moet dus twee dingen aan twee verschillende rijken koppelen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke groepen konden leven van het voedseloverschot zonder zelf te boeren? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "priesters",
+            "soldaten",
+            "ambtenaren",
+            "boeren met een eigen akker"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Het overschot voedde mensen die iets anders deden: ambachtslieden, priesters, soldaten en ambtenaren. Een boer met een eigen akker leeft van zijn eigen oogst en levert net dat overschot."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een handelaar in Ur verkoopt hout dat hij van ver gehaald heeft. Munten bestaan nog niet. Hoe rekent hij af?",
+          "opties": [
+            "In een vaste maat graan of zilver, gewogen op een weegschaal",
+            "Met munten die de koning van Ur voor zijn stad liet slaan",
+            "Met kleitabletten die de tempel als papiergeld uitgaf",
+            "Hij krijgt niets, want handel mocht alleen tussen tempels"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder munten ruilt men, en het verschil wordt in gewogen graan of zilver betaald. Kleitabletten dienden om de ruil op te schrijven, niet als geld."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Toetanchamon was een onbelangrijke farao. Waarom weten we toch meer over zijn graf dan over de graven van machtige farao's?",
+          "opties": [
+            "De graven van de anderen waren al in de oudheid leeggeroofd",
+            "Hij liet als enige farao zijn graf beschrijven in het Dodenboek",
+            "Machtige farao's kregen geen graf, alleen een piramide zonder kamer",
+            "Zijn graf is het grootste en het oudste van heel Egypte"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zijn graf is als enige vrijwel ongeschonden teruggevonden. Bij de andere was alles al lang weg. Beroemd worden in de geschiedenis hangt dus soms af van wat er toevallig bewaard bleef."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een Egyptisch graf liggen een mummie, eten en een exemplaar van het Dodenboek. Wat leer je daaruit over het geloof van de Egyptenaren? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Het leven ging volgens hen verder na de dood",
+            "De dode had zijn lichaam nog nodig",
+            "Elke dode werd na zijn dood een farao",
+            "Ze geloofden maar in één enkele god"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Eten en spreuken mee in het graf wijzen op een tocht en een leven daarna, en mummificeren doe je alleen als het lichaam bewaard moet blijven. De Egyptenaren waren polytheïstisch, en farao werd je niet door te sterven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom maakte het schrift de machtigen nog machtiger?",
+          "opties": [
+            "Weinigen konden schrijven, en wie het kon, legde wetten en bezit vast",
+            "Iedereen kon schrijven, waardoor de koning alle brieven kon lezen en controleren",
+            "Het schrift werd gebruikt om verhalen over de koning door het hele land te sturen",
+            "De machtigen verboden het schrift, zodat niemand kon klagen over hun bestuur"
+          ],
+          "antwoord": 0,
+          "uitleg": "Schrijven leren duurde jaren, dus maar een kleine groep kon het. Wie kan schrijven, kan wetten opstellen, afspraken vastleggen en bezit bewijzen. Dat versterkt wie al aan de top staat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom groeide uit irrigatielandbouw vanzelf een bestuur met macht?",
+          "opties": [
+            "Iemand moest het graafwerk organiseren en beslissen wie eerst water kreeg",
+            "De rivier was eigendom van de farao, die er belasting op vroeg",
+            "Boeren kozen elk jaar een koning om voor de regen te bidden",
+            "De priesters hadden de kanalen gegraven en vroegen er geld voor"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een kanalenstelsel graven en onderhouden kan niemand alleen. Wie het werk verdeelt, het water toewijst en de voorraad bewaart, heeft macht. Uit de nood aan samenwerking groeit zo een bestuur."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een ziggurat en een piramide hadden dezelfde functie.",
+          "antwoord": false,
+          "uitleg": "Een ziggurat is een tempeltoren midden in de stad, gewijd aan de stadsgod. Een piramide is een graf. Ze lijken allebei op een berg van steen, maar dienden voor iets anders."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Zonder irrigatie was er in Mesopotamië te weinig water geweest om te boeren.",
+          "antwoord": true,
+          "uitleg": "Het is er droog, het regent er te weinig. Daarom leidde men rivierwater via kanalen en dijken naar de akkers."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Slaven in Mesopotamië en Egypte waren vaak krijgsgevangenen of mensen die zich door schulden hadden moeten verkopen.",
+          "antwoord": true,
+          "uitleg": "Zo kwam je onderaan de piramide terecht. Slaven hadden geen rechten en golden als bezit."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het spijkerschrift heet zo omdat men met een metalen spijker tekens in steen kraste.",
+          "antwoord": false,
+          "uitleg": "Men drukte met een rietstengel tekens in natte klei. De afdrukken hebben de vorm van wiggen of spijkers, en daar komt de naam vandaan."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Op de Steen van Rosetta staat één boodschap drie keer, in drie verschillende schriften: in hiërogliefen, in het Grieks en in nog een derde schrift. Hoe heet dat derde schrift? Antwoord met één woord.",
+          "antwoord": "demotisch",
+          "uitleg": "De drie schriften zijn hiërogliefen, demotisch en Grieks. Omdat men het Grieks kon lezen, kreeg men ook greep op de andere twee."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je iemand die in dienst van de heerser akkers opmeet, belastingen int en de voorraad bijhoudt? Antwoord met één woord.",
+          "antwoord": "ambtenaar",
+          "uitleg": "Een ambtenaar bestuurt in naam van de heerser. Zonder ambtenaren is een staat van die omvang onmogelijk."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Mesopotamië ligt tussen de Tigris en de Eufraat. In welk land van vandaag ligt het grotendeels? Antwoord met één woord.",
+          "antwoord": "Irak",
+          "uitleg": "Het land tussen de rivieren ligt vandaag grotendeels in Irak. Egypte ligt nog altijd langs de Nijl."
+        }
+      ]
+    },
+    {
+      "titel": "Het oude Griekenland — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rij zet deze gebeurtenissen in de juiste volgorde, van vroeg naar laat?",
+          "opties": [
+            "Perzische oorlogen – bouw van het Parthenon – Peloponnesische oorlog – Alexander de Grote",
+            "Peloponnesische oorlog – Perzische oorlogen – bouw van het Parthenon – Alexander de Grote",
+            "Perzische oorlogen – Peloponnesische oorlog – Alexander de Grote – bouw van het Parthenon",
+            "Alexander de Grote – Perzische oorlogen – bouw van het Parthenon – Peloponnesische oorlog"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na de Perzische oorlogen werd Athene machtig en bouwde het met het geld van zijn bondgenoten het Parthenon. De wrevel daarover leidde tot de Peloponnesische oorlog. Pas toen alle stadstaten verzwakt waren, kwam Macedonië met Alexander."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar haalde Athene onder meer het geld om het Parthenon te bouwen?",
+          "opties": [
+            "Uit de kas van het bondgenootschap dat het na de Perzische oorlogen leidde",
+            "Uit de buit die het na de Peloponnesische oorlog van Sparta had meegenomen",
+            "Uit de belastingen die Alexander de Grote in het Perzische Rijk liet innen",
+            "Uit de opbrengst van de eerste Olympische Spelen in Olympia"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na de Perzische oorlogen leidde Athene een bondgenootschap en gebruikte het geld daarvan onder meer voor het Parthenon. De Peloponnesische oorlog kwam pas daarna, en Athene verloor die."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Stel dat Athene in een bepaald jaar ongeveer 300 000 inwoners telde. Hoeveel van hen mochten er dan ongeveer stemmen?",
+          "opties": [
+            "30 000",
+            "150 000",
+            "3 000",
+            "300 000"
+          ],
+          "antwoord": 0,
+          "uitleg": "Alleen vrije mannen met burgerrecht stemden, ongeveer één op tien van de bevolking. Een tiende van 300 000 is 30 000. Vrouwen, slaven en vreemdelingen telden niet mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In Sparta waren de heloten veruit in de meerderheid. Welk gevolg had dat voor de Spartanen?",
+          "opties": [
+            "Ze vreesden een opstand en bleven daarom alles op het leger richten",
+            "Ze gaven de heloten stemrecht om een opstand te voorkomen",
+            "Ze moesten zelf het land bewerken, want de heloten weigerden dat",
+            "Ze werden een maritieme samenleving die leefde van haar vloot"
+          ],
+          "antwoord": 0,
+          "uitleg": "De heloten deden al het werk op het land, zodat de Spartanen soldaat konden zijn. Maar omdat ze met zoveel meer waren, was de angst voor een opstand groot. Die angst hield Sparta mee in zijn strenge leefwijze."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een oude tekst zegt dat een Griekse tiran erg geliefd was bij het gewone volk. Kan dat kloppen?",
+          "opties": [
+            "Ja, een tiran was een alleenheerser die de macht gegrepen had, niet vanzelf een wreed iemand",
+            "Nee, een tiran was per definitie wreed, dus de tekst moet verkeerd zijn",
+            "Nee, want tirannen werden door het volk verkozen en dus nooit geliefd",
+            "Ja, want een tiran was een priester van Zeus en dus altijd geliefd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij de Grieken betekende tiran: iemand die alleen heerste nadat hij de macht gegrepen had. Het woord betekende nog niet vanzelf wreed. Je mag dus niet de betekenis van vandaag in de oude tekst lezen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat kan je zien aan een hellenistisch beeld? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "pijn",
+            "ouderdom",
+            "beweging",
+            "een stijve houding met beide voeten naast elkaar",
+            "een starre glimlach"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Na Alexander tonen beelden niet alleen het ideaal, maar ook pijn, ouderdom en beweging. De stijve houding en de starre glimlach horen bij de archaïsche beelden, de oudste stijl."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een tempel heeft zuilen met krullen bovenaan het kapiteel. Welke stijl is dat, en hoe oud is die stijl tegenover de andere twee?",
+          "opties": [
+            "Ionisch, jonger dan de Dorische en ouder dan de Korintische",
+            "Korintisch, de jongste en de rijkst versierde van de drie",
+            "Dorisch, de oudste en de meest sobere van de drie stijlen",
+            "Ionisch, de oudste van de drie, nog vóór de Dorische"
+          ],
+          "antwoord": 0,
+          "uitleg": "Krullen zijn Ionisch. Dorisch is het oudst en het soberst, Korintisch het jongst, met bladeren. Ionisch zit daar dus tussenin."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over de democratie in Athene kloppen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De burgers stemden zelf op de volksvergadering",
+            "Ongeveer één op tien inwoners mocht stemmen",
+            "Vreemdelingen die er hun hele leven woonden, mochten mee stemmen",
+            "De burgers kozen vertegenwoordigers die voor hen stemden",
+            "Rijke vrouwen met veel bezit mochten wel stemmen"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Het was een directe democratie: de burgers stemden zelf, zonder vertegenwoordigers. Alleen vrije mannen met burgerrecht mochten dat, ongeveer één op tien. Vrouwen en vreemdelingen stemden niet, hoe rijk of hoe lang ze er ook woonden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe kwamen de Romeinen al vroeg in aanraking met de Griekse cultuur?",
+          "opties": [
+            "Via Griekse kolonies in Zuid-Italië",
+            "Via Alexander de Grote, die Rome veroverde",
+            "Via Sparta, dat een kolonie stichtte in Rome",
+            "Via de Perzen, die Grieks spraken aan het hof"
+          ],
+          "antwoord": 0,
+          "uitleg": "Omdat er te weinig grond was, stichtten Grieken nieuwe steden, onder meer in Zuid-Italië. Zo zaten ze vlak bij Rome. Alexander trok naar het oosten, niet naar Rome."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een Griekse arts zegt: \"Deze koorts komt door iets in het lichaam, niet door een vloek van de goden.\" Bij welke ontwikkeling past die uitspraak?",
+          "opties": [
+            "Verklaringen zoeken in de natuur zelf",
+            "Het polytheïsme met Zeus als oppergod",
+            "Het raadplegen van het orakel van Delphi",
+            "De mythologie over de Trojaanse oorlog"
+          ],
+          "antwoord": 0,
+          "uitleg": "De Griekse denkers zochten verklaringen in de natuur in plaats van bij de goden, en dat noemt men het begin van de wetenschap. Ook de geneeskunde maakte die wending: ziekte werd een zaak van het lichaam."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie was de leraar van de leraar van Alexander de Grote?",
+          "opties": [
+            "Plato",
+            "Socrates",
+            "Aristoteles",
+            "Homeros"
+          ],
+          "antwoord": 0,
+          "uitleg": "Alexander kreeg les van Aristoteles, en Aristoteles was de leerling van Plato. De leraar van zijn leraar is dus Plato. Socrates zit nog een stap verder terug."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom bleken de antwoorden van het orakel van Delphi achteraf bijna altijd te kloppen?",
+          "opties": [
+            "Ze waren vaak dubbelzinnig, zodat ze op meer dan één manier uitkwamen",
+            "De priesters wachtten met antwoorden tot de gebeurtenis voorbij was",
+            "Zeus zelf sprak er en wist alles wat er ging gebeuren",
+            "Wie een fout antwoord kreeg, mocht het nooit aan iemand vertellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een antwoord dat je op twee manieren kan lezen, past achteraf bij bijna elke afloop. Zo leek het orakel altijd gelijk te hebben."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bleef er over na de dood van Alexander de Grote? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Grieks als taal van handel en studie in het oosten",
+            "Een vermenging van Griekse en oosterse cultuur",
+            "Eén groot rijk onder één Macedonische koning",
+            "Een directe democratie in het hele Perzische gebied"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Zijn generaals verdeelden het rijk, dus één rijk bleef er niet over. Wat wel bleef, is het hellenisme: Griekse cultuur gemengd met die van het oosten, met het Grieks als gemeenschappelijke taal, eeuwenlang."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een Spartaanse vrouw had meer vrijheid dan een Atheense, en mocht daarom ook meebeslissen over het bestuur.",
+          "antwoord": false,
+          "uitleg": "Het eerste deel klopt: ze mocht sporten, bezit hebben en zich vrij bewegen. Maar meebeslissen deed een vrouw op geen van beide plaatsen. Meer vrijheid is nog geen stemrecht."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De verhalen over de Trojaanse oorlog zeggen meer over hoe de Grieken zichzelf zagen dan over wat er echt gebeurde.",
+          "antwoord": true,
+          "uitleg": "Het is mythologie, geen verslag. Zulke verhalen verwijzen soms naar echte gebeurtenissen, maar vertellen vooral hoe de Grieken zichzelf zagen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Athene ging van oligarchie over tirannie naar democratie, terwijl Sparta een oligarchie bleef.",
+          "antwoord": true,
+          "uitleg": "Athene en Sparta begonnen allebei met een kleine groep die besliste. Athene ging verder, via de tirannen naar de democratie. In Sparta bleef het bij een oligarchie."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De Korintische zuilstijl is ouder dan de Dorische.",
+          "antwoord": false,
+          "uitleg": "Net omgekeerd. Dorisch is de oudste en soberste stijl, Korintisch de jongste en rijkst versierde."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De eerste Olympische Spelen vonden plaats in 776 v.C. Hoeveel jaar later dan die eerste Spelen valt het jaar 476 v.C.? Antwoord met een getal.",
+          "antwoord": "300",
+          "uitleg": "Allebei vóór Christus, dus het kleinere getal ligt later. Het verschil is 776 min 476, of 300 jaar."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de burchtheuvel van Athene waarop de tempel voor Athena staat? Antwoord met één woord.",
+          "antwoord": "Akropolis",
+          "uitleg": "Op de Akropolis staat het Parthenon, gewijd aan Athena, de beschermgodin naar wie Athene genoemd is."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heette de harde militaire opvoeding die Spartaanse jongens vanaf hun zevende kregen? Antwoord met één woord.",
+          "antwoord": "agoge",
+          "uitleg": "Op hun zevende verlieten de jongens het gezin voor de agoge, die jaren duurde. Alles in Sparta stond in dienst van het leger."
+        }
+      ]
+    },
+    {
+      "titel": "Het Romeinse Rijk — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rij zet deze stappen in de geschiedenis van Rome in de juiste volgorde?",
+          "opties": [
+            "koningstijd – republiek – keizerrijk – splitsing – val van het westen",
+            "republiek – koningstijd – keizerrijk – val van het westen – splitsing",
+            "koningstijd – keizerrijk – republiek – splitsing – val van het westen",
+            "koningstijd – republiek – splitsing – keizerrijk – val van het westen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst regeerden koningen, daarna kwam de republiek, en met Augustus het keizerrijk. Na de crisis van de 3de eeuw werd het rijk gesplitst, en in 476 viel het westelijke deel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In uiterste nood benoemde de republiek tijdelijk een dictator. Waarom maakte het dan zo'n verschil dat Caesar dictator voor het leven werd?",
+          "opties": [
+            "Zijn tegenstanders zagen er een nieuwe koning in, en dat wilden de Romeinen nooit meer",
+            "Een dictator mocht volgens de wet nooit uit de familie van een generaal komen",
+            "Caesar was geen Romein, en een vreemdeling mocht nooit dictator worden",
+            "Een dictator voor het leven moest elk jaar opnieuw door de plebejers verkozen worden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tijdelijk en in nood was aanvaardbaar. Maar voor het leven betekende één alleenheerser, zoals de koningen die Rome had weggejaagd. Daarom vermoordden zijn tegenstanders hem in de senaat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom liet Augustus de senaat en de oude ambten gewoon bestaan?",
+          "opties": [
+            "Zo leek de republiek te blijven bestaan, terwijl hij zelf de macht had",
+            "Hij was zelf een overtuigd republikein en wilde zijn macht met hen delen",
+            "De senaat had hem verkozen en kon hem op elk moment weer afzetten",
+            "Hij had de senaat nodig om de christenen in het rijk te vervolgen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat was berekening, geen bescheidenheid. Hij noemde zich princeps en geen koning, zodat Rome een alleenheerser kreeg zonder het zo te moeten noemen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In de stad Rome groeide een grote groep arme burgers. Wat was daarvan een belangrijke oorzaak?",
+          "opties": [
+            "Kleine boeren konden niet op tegen latifundia met slaven en trokken naar de stad",
+            "De senaat verbood boeren om nog graan te telen in de buurt van de stad",
+            "Na de val van Carthago kwamen alle Carthagers in Rome wonen",
+            "De keizers lieten alle akkers in Italië ombouwen tot amfitheaters"
+          ],
+          "antwoord": 0,
+          "uitleg": "De oorlogen leverden zoveel slaven op dat grootgrondbezit met slavenarbeid spotgoedkoop werd. De kleine boer verkocht zijn grond en trok verarmd naar de stad. Je redeneert hier van het gevolg terug naar de oorzaak."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom was het gevaarlijk voor de republiek dat soldaten hun stuk land van hun generaal kregen en niet van de staat?",
+          "opties": [
+            "Ze werden trouw aan hun generaal en volgden hem desnoods tegen Rome in",
+            "Ze hadden dan geen tijd meer om te vechten, omdat ze moesten boeren",
+            "Ze werden daardoor patriciërs en kregen een plaats in de senaat",
+            "Het land lag altijd buiten Italië, zodat Rome onbewaakt achterbleef"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie zijn beloning van de generaal krijgt, voelt zich aan hem verbonden en niet aan de staat. Zo konden generaals met hun leger tegen elkaar en tegen Rome optrekken, en dat werden de burgeroorlogen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over de twee triumviraten kloppen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Caesar zat in het eerste triumviraat",
+            "Allebei eindigden ze in een oorlog tussen de partners",
+            "Pompeius zat in het tweede triumviraat",
+            "Het tweede ontstond nog vóór de moord op Caesar",
+            "Augustus zat in het eerste triumviraat"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Het eerste bestond uit Caesar, Pompeius en Crassus. Het tweede ontstond pas na de moord op Caesar, met Augustus, Marcus Antonius en Lepidus. Allebei eindigden ze in een oorlog tussen de partners."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vanaf wanneer konden de Romeinen de Middellandse Zee echt mare nostrum noemen?",
+          "opties": [
+            "Nadat ze Carthago verslagen hadden en geen tegenstander meer hadden in het westen",
+            "Zodra Romulus de stad gesticht had aan de oever van de Tiber",
+            "Nadat Augustus keizer werd en de Pax Romana begon",
+            "Pas nadat het rijk in een westelijk en een oostelijk deel gesplitst was"
+          ],
+          "antwoord": 0,
+          "uitleg": "Pas na de Punische oorlogen was Carthago, de grote handelsmacht in het westen, uitgeschakeld. Toen werd de Middellandse Zee onze zee. Dat gebeurde in de republiek, nog vóór Augustus."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling zegt: \"Tijdens de Pax Romana werd er nergens meer gevochten.\" Wat klopt er wel?",
+          "opties": [
+            "Binnen het rijk was het rustig, maar aan de grenzen werd nog gevochten",
+            "Er werd nergens gevochten, want het leger was volledig afgeschaft",
+            "De Pax Romana duurde maar één jaar, daarna kwam de crisis",
+            "Het was oorlog in heel het rijk, de naam was alleen propaganda"
+          ],
+          "antwoord": 0,
+          "uitleg": "De Pax Romana was ongeveer twee eeuwen rust binnen het rijk. Aan de grenzen werd wel nog gevochten. Die rust maakte handel over het hele rijk mogelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom loopt een aquaduct over vele kilometers heel licht bergaf?",
+          "opties": [
+            "Zo blijft het water vanzelf stromen tot in de stad",
+            "Zo kunnen er ook karren over het aquaduct rijden",
+            "Zo kan het regenwater onderweg van de weg aflopen",
+            "Zo kunnen vijanden het water niet vergiftigen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Water stroomt alleen vanzelf als het een beetje kan dalen. Door het aquaduct over de hele lengte licht te laten zakken, kwam het water zonder pompen tot in de stad. Het regenwater dat afloopt, hoort bij de bolle bovenkant van een Romeinse weg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De Romeinen aanvaardden de goden van veel volkeren. Waarom werden de christenen dan toch vervolgd?",
+          "opties": [
+            "Ze weigerden de keizer te vereren, en die keizerscultus hield het rijk samen",
+            "Ze weigerden Latijn te spreken en gebruikten alleen het Grieks",
+            "Ze wilden de senaat afschaffen en de republiek herstellen",
+            "Ze vereerden Jupiter onder een andere naam, en dat was verboden"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een rijk vol volkeren en goden was de verering van de keizer het bindmiddel. Wie daar niet aan meedeed, leek het rijk zelf te verwerpen. Later werd het christendom toegelaten onder Constantijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke paren van een Griekse god en zijn Romeinse naam kloppen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Zeus en Jupiter",
+            "Ares en Mars",
+            "Aphrodite en Venus",
+            "Zeus en Mars",
+            "Athena en Jupiter"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De Romeinen namen de Griekse goden over en gaven ze eigen namen: Zeus werd Jupiter, Ares werd Mars en Aphrodite werd Venus."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze bestonden in de Romeinse republiek? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "twee consuls per jaar",
+            "de senaat",
+            "de volksvergadering",
+            "een dictator in uiterste nood",
+            "een keizer die zich princeps noemde"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Consuls, senaat en volksvergadering vormden het bestuur, en in uiterste nood benoemde men tijdelijk een dictator. De keizer die zich princeps noemde, was Augustus, en die komt pas na de republiek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een marmeren portret toont een Romeinse senator met diepe rimpels en een kale kruin. Wat leer je daaruit over Romeinse portretten tegenover Griekse beelden?",
+          "opties": [
+            "Romeinen toonden de persoon zoals hij was, Grieken eerder het ideaal",
+            "Romeinen toonden het ideaal, Grieken eerder de persoon zoals hij was",
+            "Romeinen beeldden alleen oude mannen af, Grieken alleen jonge goden",
+            "Er is geen verschil: Romeinen kopieerden de Griekse beelden letterlijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Griekse beelden tonen het ideaal, Romeinse portretten de mens met rimpels en al. Pas later lieten keizers zich weer jonger en goddelijker afbeelden dan ze waren."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 476 merkten de meeste mensen in het westen meteen dat er een nieuwe periode begonnen was.",
+          "antwoord": false,
+          "uitleg": "Voor de meeste mensen veranderde er dat jaar niets. 476 is een afspraak onder historici, een scharnierpunt, geen dag waarop alles plots anders was."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De plebejers dwongen hun rechten onder meer af door massaal het werk neer te leggen en de stad te verlaten.",
+          "antwoord": true,
+          "uitleg": "Zo konden de patriciërs niet om hen heen. Stap voor stap kreeg het gewone volk zo meer rechten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de volksvergadering van de republiek woog de stem van een arme burger even zwaar als die van een rijke.",
+          "antwoord": false,
+          "uitleg": "De rijkste groepen stemden eerst en wogen het zwaarst. De volksvergadering bestond wel, maar gelijk was ze niet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Twee van onze maandnamen verwijzen naar Romeinen die in een triumviraat zaten.",
+          "antwoord": true,
+          "uitleg": "Juli is genoemd naar Julius Caesar, die in het eerste triumviraat zat, en augustus naar Augustus, die in het tweede zat. Je moet hier dus twee weetjes combineren."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het oosten van het Romeinse Rijk leefde na 476 nog duizend jaar voort, met Constantinopel als hoofdstad. Vul aan: het ... Rijk. Antwoord met één woord.",
+          "antwoord": "Byzantijnse",
+          "uitleg": "Het Oost-Romeinse Rijk heet ook het Byzantijnse Rijk. Het westen viel in 476, het oosten hield nog duizend jaar stand."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Onder welke keizer werd het christendom toegelaten? Antwoord met één woord.",
+          "antwoord": "Constantijn",
+          "uitleg": "De christenen werden eerst vervolgd omdat ze de keizer niet wilden vereren. Onder Constantijn werden ze toegelaten, en later werd het christendom zelfs staatsgodsdienst."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In de republiek werden elk jaar twee consuls verkozen, elk voor één jaar. Hoeveel consuls had Rome in totaal over een periode van 10 jaar, als niemand twee keer consul werd? Antwoord met een getal.",
+          "antwoord": "20",
+          "uitleg": "Elk jaar twee nieuwe consuls, tien jaar lang: 2 keer 10 is 20. Zo zie je meteen hoe snel de macht van hand tot hand ging, en dat was precies de bedoeling."
+        }
+      ]
+    },
+    {
+      "titel": "Bronnen, kunst en beeldvorming — pittig",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Een historicus schrijft vandaag een boek over Romeinse soldaten, op basis van brieven die zij zelf schreven. Wat voor bron is dat boek?",
+          "opties": [
+            "Een secundaire bron, want het is later gemaakt op basis van andere bronnen",
+            "Een primaire bron, want het steunt volledig op primaire bronnen",
+            "Een primaire bron, want een historicus schrijft alleen betrouwbare boeken",
+            "Geen bron, want alleen voorwerpen uit de grond tellen als bron"
+          ],
+          "antwoord": 0,
+          "uitleg": "Primair of secundair gaat over de tijd waarin de bron gemaakt is. De brieven komen uit de tijd zelf en zijn primair. Het boek is later gemaakt op basis van die brieven, dus secundair, hoe goed het ook is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling zegt: \"Een primaire bron is altijd betrouwbaarder dan een secundaire.\" Wat klopt er?",
+          "opties": [
+            "Primair en secundair gaat over tijd, niet over kwaliteit",
+            "Dat klopt, want de maker van een primaire bron was er altijd zelf bij",
+            "Net omgekeerd: een secundaire bron is altijd betrouwbaarder, want ze is nieuwer",
+            "Dat klopt, want secundaire bronnen zijn per definitie verzonnen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ook een bron uit de tijd zelf kan overdrijven of liegen, zoals Ramses over Kadesj. Of een bron betrouwbaar is, moet je apart nagaan. Primair zegt alleen dat ze uit de tijd zelf komt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een oudere vrouw vertelt over haar jeugd, en dat gesprek wordt gefilmd. Welke vormen van bronnen zijn dat? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een mondelinge bron",
+            "Een audiovisuele bron",
+            "Een materiële bron",
+            "Een geschreven bron"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Het gaat om het gesproken woord, dus mondeling. Omdat het gefilmd is, is het ook audiovisueel. Iets om vast te nemen of een geschreven tekst is het niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een Romein schrijft over een veldslag die in zijn tijd gebeurde. Hij was er zelf niet bij, maar hoorde het van soldaten. Wat is hij?",
+          "opties": [
+            "Een tijdgenoot, maar geen ooggetuige",
+            "Een ooggetuige, want hij leefde in die tijd",
+            "Een ooggetuige én een tijdgenoot",
+            "Geen van beide, want hij was er niet bij"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een tijdgenoot leefde in dezelfde tijd, een ooggetuige zag het zelf. Deze schrijver leefde toen, maar had het van horen zeggen. Hij is dus wel tijdgenoot, maar geen ooggetuige."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bron is betrouwbaar, maar voor jouw onderzoek niet bruikbaar. Wat betekent dat?",
+          "opties": [
+            "Wat erin staat klopt, maar het geeft geen antwoord op jouw vraag",
+            "Ze geeft antwoord op jouw vraag, maar wat erin staat klopt niet",
+            "Ze is te oud om nog te gebruiken, ook al klopt alles wat erin staat",
+            "Ze is in een vreemde taal geschreven en dus voor niemand bruikbaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Betrouwbaar gaat over de vraag of het klopt, bruikbaar over de vraag of het iets zegt over jouw onderwerp. Een kloppende lijst van Egyptische graanvoorraden helpt je niet bij een vraag over Griekse tempels."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat vraag je je bij een bron af, nog voor je de inhoud bekijkt? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Wie heeft ze gemaakt?",
+            "Voor wie is ze gemaakt?",
+            "Met welke bedoeling is ze gemaakt?",
+            "Wie heeft ervoor betaald?",
+            "Hoeveel woorden staan erin?"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Eerst de maker, het publiek en de bedoeling, en ook wie de opdrachtgever was. Pas daarna kijk je naar de inhoud. Het aantal woorden zegt niets over wie er aan het woord is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was vermoedelijk de echte uitkomst van de slag bij Kadesj, en waarop steunt dat vermoeden?",
+          "opties": [
+            "Onbeslist: beide partijen claimden de zege en sloten kort daarna vrede",
+            "Een zege voor Ramses, want hij liet het op tempelmuren uithouwen",
+            "Een zege voor de Hettieten, want hun bronnen zijn betrouwbaarder",
+            "Dat weten we helemaal niet, want er bestaan geen bronnen over"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ramses en de Hettieten claimden allebei de overwinning. Leg je die bronnen naast elkaar en zie je dat ze kort daarna een vredesverdrag sloten, dan wijst dat op een onbesliste slag. Eén kant geloven zou je op het verkeerde been zetten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een Romeinse schrijver beschrijft een volk buiten het rijk als wild en ongeregeld. Wat doe je als historicus het best?",
+          "opties": [
+            "Rekening houden met zijn standplaats en de tekst naast andere bronnen leggen",
+            "Hem geloven, want hij leefde in die tijd en kende dat volk dus goed",
+            "De tekst weggooien, want een bron die overdrijft is waardeloos",
+            "Besluiten dat dat volk echt wild was, want hij is een tijdgenoot"
+          ],
+          "antwoord": 0,
+          "uitleg": "De schrijver kijkt vanuit zijn eigen tijd, plaats en positie, net als Herodotos met zijn barbaren. Zo'n tekst zegt veel over hoe Romeinen naar anderen keken. Of het klopt, ga je na door andere bronnen ernaast te leggen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een historicus merkt op dat Egyptische boeren duizenden jaren lang op ongeveer dezelfde manier hun akkers bewerkten, terwijl de ene farao na de andere kwam. Welke redeneerwijze gebruikt hij?",
+          "opties": [
+            "Continuïteit en verandering benoemen",
+            "Meerdere perspectieven hanteren",
+            "Oorzaak en gevolg benoemen",
+            "Bewijs gebruiken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hij kijkt naar wat hetzelfde bleef, de manier van boeren, naast wat veranderde, de heerser. Wat gelijk blijft, valt minder op, maar is even veelzeggend."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een historicus beschrijft de bouw van een piramide zowel vanuit de farao als vanuit de arbeiders die de stenen versleepten. Welke redeneerwijze gebruikt hij?",
+          "opties": [
+            "Meerdere perspectieven hanteren",
+            "Continuïteit en verandering benoemen",
+            "Oorzaak en gevolg benoemen",
+            "Verbanden leggen tussen domeinen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hij bekijkt dezelfde gebeurtenis vanuit verschillende betrokkenen. De farao en de arbeiders beleefden diezelfde bouw heel anders."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling begint bij een schilderij meteen met: \"Hiermee wil de schilder ons zeggen dat...\". Welke stappen heeft hij overgeslagen?",
+          "opties": [
+            "Info verzamelen en beschrijven wat je ziet",
+            "Alleen het beschrijven van de kleuren",
+            "Geen enkele, interpreteren is de eerste stap",
+            "Alleen het opzoeken van de prijs van het werk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je leest een kunstwerk in drie stappen: eerst info verzamelen, dan beschrijven wat je ziet, en pas dan interpreteren. De leerling begon meteen met interpreteren en sloeg de twee stappen daarvoor over."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vondsten spreken het beeld van de domme, lompe neanderthaler tegen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Ze begroeven hun doden",
+            "Ze verzorgden zieken en gewonden",
+            "Ze beheersten het vuur",
+            "Ze waren sterker dan de Homo sapiens",
+            "Ze woonden soms in grotten"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Doden begraven, zieken verzorgen en vuur beheersen vraagt zorg, samenwerking en kennis. Sterk zijn of in een grot wonen past net in het beeld van de lompe holbewoner, en spreekt het dus niet tegen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een historicus in het jaar 2500 vindt een game uit onze tijd over de Romeinen. Waarover vertelt die game hem het meest?",
+          "opties": [
+            "Over wat mensen in onze tijd spannend vonden aan Rome",
+            "Over hoe de Romeinen echt leefden en vochten",
+            "Over niets, want een game is nooit een bron",
+            "Over de Romeinse keizers die de game lieten maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een game over Rome vertelt weinig over Rome zelf, maar veel over de tijd waarin ze gemaakt is. Voor die historicus is het dus een bron over ons."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een ooggetuige is altijd betrouwbaarder dan iemand die het van horen zeggen heeft.",
+          "antwoord": false,
+          "uitleg": "Een ooggetuige ziet maar één hoek van wat er gebeurt, kan partij kiezen en vergist zich net zo goed als een ander. Dichtbij staan maakt iemand niet vanzelf betrouwbaar."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een bron die niet betrouwbaar is, kan toch bruikbaar zijn.",
+          "antwoord": true,
+          "uitleg": "Als jouw vraag is wat de maker wilde laten geloven, is een overdreven bron net heel bruikbaar. Bruikbaar en betrouwbaar zijn twee aparte vragen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "DNA-onderzoek kan de geschiedenis veranderen, maar niet het verleden.",
+          "antwoord": true,
+          "uitleg": "Het verleden ligt vast. Geschiedenis is het verhaal erover, en dat kan herschreven worden als er nieuwe onderzoekstechnieken komen, zoals DNA-onderzoek of koolstofdatering."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een secundaire bron is een bron die minder belangrijk is dan een primaire.",
+          "antwoord": false,
+          "uitleg": "Secundair zegt alleen dat de bron later gemaakt is op basis van andere bronnen. Het gaat over tijd, niet over belang of kwaliteit."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet het begrip dat iedereen, ook jij als lezer, kijkt vanuit zijn eigen tijd, plaats en positie in de samenleving? Antwoord met één woord.",
+          "antwoord": "standplaatsgebondenheid",
+          "uitleg": "Niemand kijkt van nergens. Dat geldt voor de maker van een bron én voor jou. Je kan het niet uitschakelen, maar wel weten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je degene die voor een bron betaalde en zo kon bepalen wat erin kwam? Antwoord met één woord.",
+          "antwoord": "opdrachtgever",
+          "uitleg": "Naast de maker kijk je ook naar de opdrachtgever. Wie betaalt, kan sturen wat er in de bron komt te staan."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een kunstwerk geeft betekenis door twee dingen samen: wat er getoond wordt en hoe het getoond wordt. Vul aan: vorm en ... Antwoord met één woord.",
+          "antwoord": "inhoud",
+          "uitleg": "Een keizer te paard, groter dan alle anderen, met licht op zijn gezicht: de vorm zegt evenveel als de inhoud. Samen geven ze het werk betekenis."
+        }
+      ]
+    }
+  ]
+}
