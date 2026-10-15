@@ -84,23 +84,37 @@ export default async function ProfessionalsPagina() {
 
       {/* Wat we bezorgen. */}
       <Sectie className="py-6">
-        <div className="rounded-[20px] bg-orange-soft px-6 py-5">
-          <h2 className="text-2xl text-orange">
-            {professionals.bezorgenTitel}
-          </h2>
-          <ul className="mt-3 grid gap-3 sm:grid-cols-3">
-            {professionals.bezorgen.map((ding) => (
-              <li key={ding.titel}>
-                <p className="text-[16px] font-extrabold text-green">
-                  {ding.titel}
-                </p>
-                <p className="text-[15px] text-ink-dim">{ding.tekst}</p>
-              </li>
-            ))}
-          </ul>
-          <p className="mt-4 text-[16px] font-bold text-green">
-            {professionals.bezorgenSlot}
-          </p>
+        <div className="rounded-[20px] bg-orange-soft px-6 py-5 sm:flex sm:items-start sm:gap-6">
+          <div className="min-w-0 flex-1">
+            <h2 className="text-2xl text-orange">
+              {professionals.bezorgenTitel}
+            </h2>
+            <ul className="mt-3 grid gap-3 sm:grid-cols-3">
+              {professionals.bezorgen.map((ding) => (
+                <li key={ding.titel}>
+                  <p className="text-[16px] font-extrabold text-green">
+                    {ding.titel}
+                  </p>
+                  <p className="text-[15px] text-ink-dim">{ding.tekst}</p>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-4 text-[16px] font-bold text-green">
+              {professionals.bezorgenSlot}
+            </p>
+          </div>
+          <figure className="mx-auto mt-5 w-full max-w-[260px] shrink-0 sm:mt-1 sm:w-56">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/fotos/poster-afgeven.jpg"
+              alt="Een medewerker van Connectopia geeft aan de balie van een praktijk een poster en flyers af aan een lachende therapeute."
+              loading="lazy"
+              className="w-full rounded-2xl"
+            />
+            <figcaption className="mt-1.5 text-[12.5px] text-ink-dim">
+              Illustratie, gemaakt met AI.
+            </figcaption>
+          </figure>
         </div>
       </Sectie>
 
