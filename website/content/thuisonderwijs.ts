@@ -25,6 +25,16 @@ export const waarden = [
   "Bij die zoektocht helpen we graag mee denken, zonder je in een richting te duwen.",
 ];
 
+/*
+  De foto in het groene kader bovenaan: thuis leren naast een klas, om te tonen
+  dat het allebei kan. Zet het bestand in  public/fotos/  of laat weg.
+*/
+export const waardenFoto: { bestand: string; beschrijving: string } | null = {
+  bestand: "thuis-en-in-de-klas.jpg",
+  beschrijving:
+    "Links leert een jongen thuis aan tafel met een ouder naast zich, rechts zit een jongen in de klas terwijl de juf aan het bord uitleg geeft.",
+};
+
 export type Blok = {
   titel: string;
   inleiding?: string;
