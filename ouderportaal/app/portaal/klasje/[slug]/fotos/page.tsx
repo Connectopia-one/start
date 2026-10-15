@@ -3,6 +3,7 @@ import { requirePortaalSessie } from "@/lib/auth";
 import { MeekijkBalk } from "@/components/MeekijkBalk";
 import { createClient } from "@/lib/supabase/server";
 import { Header } from "@/components/Header";
+import { FotoGalerij } from "./FotoGalerij";
 
 type Foto = {
   id: string;
@@ -83,28 +84,9 @@ export default async function FotosPage({
           </p>
         )}
 
-        <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
-          {metUrl.map((f) =>
-            f.url ? (
-              <figure
-                key={f.id}
-                className="overflow-hidden rounded-lg border border-border bg-surface"
-              >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={f.url}
-                  alt={f.bijschrift ?? ""}
-                  className="aspect-square w-full object-cover"
-                />
-                {f.bijschrift && (
-                  <figcaption className="px-2 py-1.5 text-xs text-ink-dim">
-                    {f.bijschrift}
-                  </figcaption>
-                )}
-              </figure>
-            ) : null,
-          )}
-        </div>
+        <FotoGalerij
+          fotos={metUrl.flatMap((f) => (f.url ? [{ id: f.id, url: f.url, bijschrift: f.bijschrift }] : []))}
+        />
       </main>
     </>
   );
