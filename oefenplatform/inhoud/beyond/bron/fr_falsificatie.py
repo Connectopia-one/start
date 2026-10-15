@@ -77,7 +77,7 @@ DEEL1 = [
                  "omdat je dan geen waarnemingen meer nodig hebt",
                  "omdat elke onderzoeker dan hetzelfde zal vinden, wat er ook gebeurt"],
          antwoord=0,
-         uitleg="Een methode maakt je werk <em>navolgbaar</em>: iemand anders kan het overdoen. "
+         uitleg="Een methode maakt je werk navolgbaar: iemand anders kan het overdoen. "
                 "Zonder dat is het een mening."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over de overgang van natuurfilosofie naar wetenschap kloppen?",
@@ -249,7 +249,7 @@ DEEL2 = [
                  "ja, het betekent dat ze binnenkort weerlegd zal worden",
                  "nee, het betekent dat ze voor altijd bewezen is"],
          antwoord=0,
-         uitleg="Falsifieerbaar is een eigenschap van de <em>vorm</em> van de uitspraak: ze loopt "
+         uitleg="Falsifieerbaar is een eigenschap van de vorm van de uitspraak: ze loopt "
                 "een risico. Dat is een pluspunt, geen fout."),
     dict(type="meerkeuze",
          vraag="Wat doe je in stap 1 van het stappenplan om een filosofische tekst te analyseren?",

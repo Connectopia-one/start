@@ -98,6 +98,7 @@ BUNDELS["het-historisch-referentiekader-boost-doorstroom"] = dict(
                   "graven, beenderen, rotstekeningen. Zodra er geschreven bronnen zijn, spreekt men van "
                   "geschiedenis. Meteen ná de <strong>klassieke oudheid</strong> komen de "
                   "<strong>middeleeuwen</strong>, en de <strong>Tweede Wereldoorlog</strong> situeer je in de "
+                  "<strong>moderne tijd</strong>: die loopt tot 1945, en pas daarna begint de "
                   "<strong>hedendaagse tijd</strong>."),
             ("p", tabel(["Periode", "Ruw van wanneer tot wanneer"], [
                 ["prehistorie", "tot de uitvinding van het schrift"],
@@ -105,8 +106,11 @@ BUNDELS["het-historisch-referentiekader-boost-doorstroom"] = dict(
                 ["de klassieke oudheid", "± 800 v.C. tot 476"],
                 ["de middeleeuwen", "476 tot 1453 of 1492"],
                 ["de vroegmoderne tijd", "1453/1492 tot 1789"],
-                ["de moderne tijd", "1789 tot 1914"],
-                ["de hedendaagse tijd", "1914 tot nu"],
+                # 1945 en niet 1914: de moderne tijd loopt tot het einde van de
+                # Tweede Wereldoorlog, de hedendaagse tijd begint daarna. Zo staat
+                # het ook in de andere niveaus. Rechtgezet op 15 oktober 2026.
+                ["de moderne tijd", "1789 tot 1945"],
+                ["de hedendaagse tijd", "1945 tot nu"],
             ])),
             ("kader", "Voor dit vak zijn het de <strong>middeleeuwen</strong> en de <strong>vroegmoderne "
                       "tijd</strong> die je grondig moet kennen. De andere vijf periodes moet je kunnen "

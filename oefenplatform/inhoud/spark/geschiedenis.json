@@ -431,22 +431,22 @@
             "Geen van deze antwoorden"
           ],
           "antwoord": 1,
-          "uitleg": "De homo sapiens ontstond in Afrika en verspreidde zich van daaruit over de wereld."
+          "uitleg": "De Homo sapiens ontstond in Afrika en verspreidde zich van daaruit over de wereld."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke mensachtige trok als eerste weg uit Afrika?",
           "opties": [
-            "De homo erectus",
-            "De homo sapiens",
+            "De Homo erectus",
+            "De Homo sapiens",
             "De neanderthaler"
           ],
           "antwoord": 0,
-          "uitleg": "De homo erectus, de rechtopgaande mens, was de eerste die Afrika verliet en Azië en Europa bereikte."
+          "uitleg": "De Homo erectus, de rechtopgaande mens, was de eerste die Afrika verliet en Azië en Europa bereikte."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent de naam homo sapiens?",
+          "vraag": "Wat betekent de naam Homo sapiens?",
           "opties": [
             "De rechtopgaande mens",
             "De verstandige mens",
@@ -612,9 +612,9 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke mensachtige verliet als eerste Afrika? Vul aan: homo ... (één woord)",
+          "vraag": "Welke mensachtige verliet als eerste Afrika? Vul aan: Homo ... (één woord)",
           "antwoord": "erectus",
-          "uitleg": "De homo erectus bereikte als eerste Azië en Europa."
+          "uitleg": "De Homo erectus bereikte als eerste Azië en Europa."
         },
         {
           "type": "waarofniet",

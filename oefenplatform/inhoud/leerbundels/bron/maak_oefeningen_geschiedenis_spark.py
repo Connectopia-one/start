@@ -154,14 +154,14 @@ OEFENBUNDELS["oefenbundel-prehistorie-spark"] = dict(
              opdracht="Vul aan met één woord, of met de naam die in de bundel staat.",
              oefeningen=[
                  ("kort", "Op welk werelddeel ontstond de moderne mens?", "Afrika", W),
-                 ("kort", "Wat betekent <i>homo sapiens</i> letterlijk?", "de wijze mens", WW),
+                 ("kort", "Wat betekent <i>Homo sapiens</i> letterlijk?", "de wijze mens", WW),
                  ("kort", "Wat betekent het woord prehistorie letterlijk: de tijd vóór het …?",
                   "schrift", W),
-                 ("rij", [("homo erectus", "de rechtopstaande mens"),
-                          ("homo habilis", "de handige mens"),
-                          ("homo sapiens", "de wijze mens")],
+                 ("rij", [("Homo erectus", "de rechtopstaande mens"),
+                          ("Homo habilis", "de handige mens"),
+                          ("Homo sapiens", "de wijze mens")],
                   "Wat betekent deze naam?", WW),
-                 ("waar", "De homo sapiens was de eerste mensachtige die Afrika verliet.", False),
+                 ("waar", "De Homo sapiens was de eerste mensachtige die Afrika verliet.", False),
              ]),
 
         dict(kop="Jagers en verzamelaars",
@@ -620,7 +620,7 @@ UITLEGBLADEN["oefenbundel-prehistorie-spark"] = dict(
                  None,
                  None,
                  None,
-                 "De homo erectus verliet Afrika al veel eerder. De homo sapiens kwam later, en trof "
+                 "De Homo erectus verliet Afrika al veel eerder. De Homo sapiens kwam later, en trof "
                  "onderweg andere mensachtigen aan, zoals de neanderthaler.",
              ]),
         dict(aanpak="Vraag je bij elke oefening af wat je niet kon bewaren, en wat dat betekende voor "

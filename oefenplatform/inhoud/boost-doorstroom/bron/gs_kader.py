@@ -143,8 +143,13 @@ DEEL1 = [
             "de vroegmoderne tijd",
             "de middeleeuwen",
         ],
-        antwoord=0,
-        uitleg="De hedendaagse tijd begint in de westerse periodisering rond het einde van de 18de eeuw en loopt tot vandaag.",
+        antwoord=1,
+        # Rechtgezet op 15 oktober 2026 na een melding van een kind: de
+        # moderne tijd loopt van 1789 tot 1945, de hedendaagse tijd begint
+        # pas daarna. Het eind van de 18de eeuw is het begin van de moderne
+        # tijd, niet van de hedendaagse. In de oude indeling heetten die twee
+        # de nieuwste tijd en de eigen tijd.
+        uitleg="De moderne tijd loopt van het einde van de 18de eeuw tot het einde van de Tweede Wereldoorlog in 1945. De hedendaagse tijd begint pas daarna, in 1945, en loopt tot vandaag.",
     ),
     dict(
         type="waarofniet",

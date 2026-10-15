@@ -1,0 +1,655 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "De eigenheid van de filosofie — deel 2",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat kenmerkt een verklaring uit de mythologie?",
+     "opties": [
+      "ze verklaart de wereld met verhalen over goden en bovennatuurlijke krachten",
+      "ze verklaart de wereld met oorzaken die je in de natuur zelf kan nagaan",
+      "ze verklaart de wereld met redeneringen die je kan nakijken",
+      "ze verklaart de wereld met gegevens uit een experiment"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een mythe geeft een verhaal: de bliksem komt van een god die kwaad is. Dat verhaal valt niet na te gaan en vraagt geen argument."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat deden de natuurfilosofen anders dan de mythologie?",
+     "opties": [
+      "zij zochten een verklaring in de natuur zelf, zonder goden erbij te halen",
+      "zij schreven hun verklaringen op in verhalen over helden",
+      "zij deden hun uitspraken enkel over goed en kwaad",
+      "zij weigerden iedere uitspraak over de natuur te doen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dat is de stap die de fiche aanwijst: van een verhaal over goden naar een verklaring binnen de natuur zelf, waarover je kan redetwisten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom ziet de fiche de overgang van mythologie naar natuurfilosofie als het begin van de westerse filosofie?",
+     "opties": [
+      "omdat een verklaring vanaf dan met argumenten verdedigd en betwist kon worden",
+      "omdat de mythen vanaf dan niet meer verteld werden",
+      "omdat de natuurfilosofen al met een laboratorium werkten",
+      "omdat de goden vanaf dan uit de verhalen verdwenen waren"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het beslissende is niet dat de goden wegvielen maar dat er een argument kwam: een verklaring die je kan tegenspreken en verbeteren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke kenmerken heeft een filosofische vraag?",
+     "opties": [
+      "ze is niet met een meting of een opzoeking te beslechten",
+      "ze raakt aan de begrippen en de veronderstellingen zelf",
+      "ze heeft precies één antwoord waar iedereen het over eens is",
+      "ze gaat altijd over een gebeurtenis uit het verleden",
+      "ze vraagt ook naar wat zou moeten gelden, niet enkel naar wat het geval is"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4
+     ],
+     "uitleg": "Een filosofische vraag valt niet met een meting te beslechten, raakt aan de begrippen zelf en kan ook naar wat zou moeten gelden vragen. Eén antwoord waar iedereen het over eens is, is er net niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze vragen zijn filosofische vragen?",
+     "opties": [
+      "wat maakt een straf rechtvaardig?",
+      "mag een samenleving iemand straffen om anderen af te schrikken?",
+      "hoeveel gevangenen zitten er vandaag in België?",
+      "welke rechtbank behandelt een diefstal van een fiets?",
+      "wanneer is een straf te zwaar?"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4
+     ],
+     "uitleg": "Die vragen raken aan een begrip en zijn met geen enkele opzoeking te beslechten. Het aantal gevangenen en de bevoegde rechtbank zijn gewoon op te zoeken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze vragen is géén filosofische vraag?",
+     "opties": [
+      "op welke leeftijd mag je in België stemmen?",
+      "bestaat er iets als een vrije wil?",
+      "mag je iemand pijn doen om een ander te sparen?",
+      "kan een machine bewustzijn hebben?"
+     ],
+     "antwoord": 0,
+     "uitleg": "De stemleeftijd staat in de wet: dat is een opzoeking. De drie andere zijn met geen enkel gegeven te beslechten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een vriend zegt: dat is gewoon een kwestie van smaak, daar valt niets over te zeggen. Wat is het filosofische bezwaar?",
+     "opties": [
+      "ook over een smaakoordeel kan je argumenten geven en die wegen",
+      "een smaakoordeel bestaat niet, er is altijd één juist antwoord",
+      "smaak hoort niet bij de filosofie maar bij de natuurwetenschappen",
+      "over smaak kan enkel een wetenschapper een uitspraak doen"
+     ],
+     "antwoord": 0,
+     "uitleg": "De filosofie zegt niet dat er één juist antwoord is, maar wel dat er betere en slechtere argumenten zijn. Daarmee valt er wel iets te zeggen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk filosofisch domein onderzoekt wat goed handelen is?",
+     "opties": [
+      "de ethiek",
+      "de kennisleer",
+      "de logica",
+      "de wijsgerige antropologie"
+     ],
+     "antwoord": 0,
+     "uitleg": "De ethiek onderzoekt goed handelen en rechtvaardig samenleven. Dat is in deze fiche het grootste filosofische onderdeel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk filosofisch domein onderzoekt wat de mens is?",
+     "opties": [
+      "de wijsgerige antropologie",
+      "de ethiek",
+      "de logica",
+      "de kennisleer of epistemologie"
+     ],
+     "antwoord": 0,
+     "uitleg": "De wijsgerige antropologie vraagt wat een mens is: lichaam en geest, mens en dier, vrijheid en determinisme."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk filosofisch domein onderzoekt wanneer een redenering geldig is?",
+     "opties": [
+      "de logica",
+      "de ethiek",
+      "de wijsgerige antropologie",
+      "de wetenschapsfilosofie"
+     ],
+     "antwoord": 0,
+     "uitleg": "De logica onderzoekt de vorm van een redenering: de argumentatieleer van deze fiche hoort daar thuis."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk filosofisch domein onderzoekt hoe wij aan kennis komen?",
+     "opties": [
+      "de kennisleer",
+      "de ethiek",
+      "de esthetica",
+      "de wijsgerige antropologie"
+     ],
+     "antwoord": 0,
+     "uitleg": "De kennisleer vraagt waar kennis vandaan komt. Het rationalisme en het empirisme van deze fiche horen daar thuis."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat maakt van een reeks vragen een filosofisch domein?",
+     "opties": [
+      "de vragen gaan over hetzelfde soort onderwerp en hangen met elkaar samen",
+      "de vragen zijn alle door een en dezelfde filosoof gesteld en beantwoord",
+      "de vragen hebben alle een antwoord gekregen",
+      "de vragen komen alle uit dezelfde eeuw"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een domein bundelt vragen die over hetzelfde soort onderwerp gaan: over kennis, over goed handelen, over de mens, over geldige redeneringen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De natuurfilosofen zochten hun verklaringen in de natuur zelf in plaats van bij de goden.",
+     "antwoord": true,
+     "uitleg": "Waar. Dat is precies de stap die de fiche als de oorsprong van de westerse filosofie aanwijst."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een vraag is filosofisch zodra niemand het antwoord kent.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Hoeveel sterren er zijn, weet niemand precies, en dat is geen filosofische vraag. Het gaat erom dat een meting de vraag niet kan beslechten."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De wetenschapsfilosofie onderzoekt de methode en de grenzen van de wetenschap.",
+     "antwoord": true,
+     "uitleg": "Waar. Dat is het domein waarin de falsificatie en het demarcatievraagstuk van deze fiche thuishoren."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Omdat filosofische vragen geen vast antwoord hebben, is het ene antwoord even goed als het andere.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Er zijn wel betere en slechtere argumenten, en daarover valt wel te beslissen. Dat is waarom de fiche de argumentatieleer vraagt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet een verklaring van de wereld met verhalen over goden?",
+     "antwoord": [
+      "mythologie",
+      "een mythe"
+     ],
+     "uitleg": "De westerse filosofie onderscheidt zich van de mythologie doordat ze met argumenten werkt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet de denkers die als eersten een verklaring in de natuur zelf zochten? De ...",
+     "antwoord": [
+      "natuurfilosofen"
+     ],
+     "uitleg": "De natuurfilosofie staat tussen de mythologie en de latere wetenschap in."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk filosofisch domein onderzoekt goed handelen en rechtvaardig samenleven?",
+     "antwoord": [
+      "de ethiek",
+      "ethiek"
+     ],
+     "uitleg": "De ethiek is in deze fiche het grootste filosofische onderdeel."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk filosofisch domein onderzoekt of een redenering geldig is?",
+     "antwoord": [
+      "de logica",
+      "logica"
+     ],
+     "uitleg": "De argumentatieleer van deze fiche hoort bij de logica."
+    }
+   ]
+  },
+  {
+   "titel": "Van natuurfilosofie naar wetenschap: falsificatie en demarcatie — deel 1",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat deed de natuurfilosofie al wat de mythologie niet deed?",
+     "opties": [
+      "een verklaring in de natuur zelf zoeken, waarover te redetwisten valt",
+      "haar verklaringen vastleggen in verhalen over goden en helden",
+      "haar uitspraken altijd eerst in een proefopstelling nameten",
+      "zich beperken tot vragen over goed en kwaad en niets anders"
+     ],
+     "antwoord": 0,
+     "uitleg": "De natuurfilosofie legt de oorzaak binnen de natuur, en haar verklaring valt daardoor te betwisten. Dat is de eerste stap naar wetenschap."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat kwam er in de stap van natuurfilosofie naar wetenschap bij?",
+     "opties": [
+      "een vaste methode, met systematische waarneming",
+      "de proef, waarmee je een verklaring kan toetsen",
+      "de overtuiging dat alleen het denken tot kennis kan leiden",
+      "de gewoonte om elke verklaring in een verhaal te gieten",
+      "de eis dat anderen je uitspraak kunnen nagaan"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4
+     ],
+     "uitleg": "Natuurfilosofie redeneerde over de natuur; wetenschap voegt daar een methode, een proef en de eis toe dat anderen je uitspraak kunnen nagaan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke rol speelt Aristoteles volgens de fiche in het ontstaan van de wetenschappelijke methode?",
+     "opties": [
+      "hij nam de natuur systematisch waar en bracht ze in soorten onder",
+      "hij verwierp de waarneming en vertrouwde alleen op het denken",
+      "hij vond het experiment uit zoals wij het vandaag kennen",
+      "hij bedacht het begrip falsificatie als maatstaf voor wetenschap"
+     ],
+     "antwoord": 0,
+     "uitleg": "Aristoteles kijkt naar de natuur en ordent wat hij ziet. Daarmee zet hij waarneming en indeling als werkwijze neer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke rol speelt Francis Bacon volgens de fiche?",
+     "opties": [
+      "hij maakte van de proef en de geordende waarneming een echte methode",
+      "hij bewees dat kennis enkel uit het denken kan komen",
+      "hij toonde aan dat een theorie nooit weerlegd kan worden",
+      "hij schreef de eerste verhalen over de goden van de natuur"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bacon legt het gewicht bij het stelselmatig verzamelen en bij de proef, en waarschuwt tegen het aannemen van wat men altijd al geloofd heeft."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is een vaste methode zo belangrijk voor een wetenschap?",
+     "opties": [
+      "omdat een ander je werk dan kan overdoen en kan nagaan",
+      "omdat een theorie daardoor niet meer tegengesproken kan worden",
+      "omdat je dan geen waarnemingen meer nodig hebt",
+      "omdat elke onderzoeker dan hetzelfde zal vinden, wat er ook gebeurt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een methode maakt je werk navolgbaar: iemand anders kan het overdoen. Zonder dat is het een mening."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over de overgang van natuurfilosofie naar wetenschap kloppen?",
+     "opties": [
+      "wetenschap werkt met een methode die anderen kunnen nagaan",
+      "de natuurfilosofie zocht de oorzaak al binnen de natuur zelf",
+      "de wetenschap heeft de filosofie overbodig gemaakt",
+      "de natuurfilosofie werkte al met gecontroleerde proeven",
+      "de vraag wanneer iets wetenschap is, is zelf een filosofische vraag"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4
+     ],
+     "uitleg": "Wetenschap werkt met een methode die anderen kunnen nagaan, en de natuurfilosofie zocht de oorzaak al binnen de natuur zelf. De filosofie is daarmee niet overbodig geworden: de vraag wanneer iets wetenschap is, is zelf een filosofische vraag."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het demarcatievraagstuk?",
+     "opties": [
+      "de vraag waar de grens ligt tussen wetenschap en wat dat niet is",
+      "de vraag of de natuurwetenschappen beter zijn dan de menswetenschappen",
+      "de vraag of een onderzoeker zijn eigen mening mag geven",
+      "de vraag of de wetenschap ooit af zal zijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "Demarcatie betekent afbakening. Het vraagstuk zoekt een maatstaf om wetenschap van niet-wetenschap te onderscheiden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is verificatie?",
+     "opties": [
+      "een theorie bevestigd zien door waarnemingen die erbij passen",
+      "een theorie onderuithalen met één waarneming die er niet bij past",
+      "een theorie zo opschrijven dat ze niet te weerleggen valt",
+      "een theorie vergelijken met een oudere theorie over hetzelfde"
+     ],
+     "antwoord": 0,
+     "uitleg": "Verifiëren is waarmaken: je zoekt gevallen die je theorie bevestigen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is falsificatie?",
+     "opties": [
+      "een theorie weerleggen met een waarneming die er niet bij past",
+      "een theorie bevestigen met zoveel mogelijk voorbeelden",
+      "een theorie omschrijven zodat ze op meer gevallen past",
+      "een theorie opzij zetten omdat ze te oud is"
+     ],
+     "antwoord": 0,
+     "uitleg": "Falsifiëren is onderuithalen. Eén tegenvoorbeeld is genoeg om een algemene uitspraak te weerleggen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je hebt duizend witte zwanen gezien. Wat bewijst dat over de uitspraak dat alle zwanen wit zijn?",
+     "opties": [
+      "niets met zekerheid, want de volgende zwaan kan zwart zijn",
+      "dat de uitspraak nu bewezen is en niet meer kan sneuvelen",
+      "dat de uitspraak onmiddellijk weerlegd is door die duizend",
+      "dat de uitspraak geen wetenschappelijke uitspraak kan zijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dit is het beroemde voorbeeld bij de falsificatie: geen enkel aantal bevestigingen maakt een algemene uitspraak zeker, en één zwarte zwaan haalt ze onderuit."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is bevestiging zoeken zwakker dan tegenspraak zoeken?",
+     "opties": [
+      "bevestiging vind je makkelijk, ook voor een theorie die niet klopt",
+      "bevestiging is verboden binnen de wetenschappelijke methode",
+      "bevestiging kan enkel in de menswetenschappen gevonden worden",
+      "bevestiging kost meer tijd dan het zoeken van een tegenvoorbeeld"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wie zoekt, vindt: voor zowat elke theorie vind je wel passende gevallen. De echte toets is of je er ook naar hebt gezocht wat haar zou breken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een onderzoeker stelt zijn proef zo op dat ze zijn stelling onderuit kán halen. Wat doet hij?",
+     "opties": [
+      "hij stelt zijn theorie bloot aan falsificatie",
+      "hij verifieert zijn theorie zo sterk mogelijk",
+      "hij maakt zijn theorie onweerlegbaar",
+      "hij verlaat de wetenschappelijke methode"
+     ],
+     "antwoord": 0,
+     "uitleg": "Juist dat is wat een wetenschappelijke houding volgens Popper kenmerkt: je zoekt zelf naar wat je ongelijk zou geven."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Volgens de fiche droegen Aristoteles, Francis Bacon en Karl Popper elk bij aan de ontwikkeling van de wetenschappelijke methode.",
+     "antwoord": true,
+     "uitleg": "Waar. De fiche noemt die drie namen bij de wetenschappelijke methode."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Demarcatie betekent het bevestigen van een theorie met zoveel mogelijk voorbeelden.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Demarcatie betekent afbakening: waar ligt de grens tussen wetenschap en wat dat niet is. Bevestigen met voorbeelden is verificatie."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Eén tegenvoorbeeld kan een algemene uitspraak weerleggen.",
+     "antwoord": true,
+     "uitleg": "Waar. Dat is de kracht van de falsificatie, en het verschil met verificatie: geen enkel aantal bevestigingen maakt een algemene uitspraak zeker."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De natuurfilosofie werkte al met een vaste methode en met proeven.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Ze zocht de oorzaak wel al in de natuur zelf, maar de methode en de proef kwamen pas met de wetenschap."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet het vraagstuk over de grens tussen wetenschap en niet-wetenschap? Het ...",
+     "antwoord": [
+      "demarcatievraagstuk",
+      "demarcatieprobleem"
+     ],
+     "uitleg": "Demarcatie betekent afbakening."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet het bevestigen van een theorie met waarnemingen die erbij passen?",
+     "antwoord": [
+      "verificatie"
+     ],
+     "uitleg": "Verifiëren is waarmaken; falsifiëren is onderuithalen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet het weerleggen van een theorie met een waarneming die er niet bij past?",
+     "antwoord": [
+      "falsificatie"
+     ],
+     "uitleg": "Eén tegenvoorbeeld volstaat om een algemene uitspraak te falsifiëren."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke filosoof uit de oudheid nam volgens de fiche de natuur systematisch waar en bracht ze in soorten onder?",
+     "antwoord": [
+      "Aristoteles"
+     ],
+     "uitleg": "De fiche noemt Aristoteles, Francis Bacon en Karl Popper bij de wetenschappelijke methode."
+    }
+   ]
+  },
+  {
+   "titel": "Van natuurfilosofie naar wetenschap: falsificatie en demarcatie — deel 2",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk antwoord geeft Karl Popper op het demarcatievraagstuk?",
+     "opties": [
+      "een uitspraak is wetenschappelijk als ze weerlegd kan worden",
+      "een uitspraak is wetenschappelijk als ze bevestigd is door veel gevallen",
+      "een uitspraak is wetenschappelijk als een deskundige ze onderschrijft",
+      "een uitspraak is wetenschappelijk als ze nergens tegenspraak vindt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Falsifieerbaarheid is bij Popper de maatstaf: een theorie die niets uitsluit, is geen wetenschap."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is er mis met een theorie die alles kan verklaren?",
+     "opties": [
+      "ze sluit niets uit, en dus kan geen enkele waarneming haar weerleggen",
+      "ze is te moeilijk om door gewone mensen begrepen te worden",
+      "ze verklaart te veel om nuttig te kunnen zijn in de praktijk",
+      "ze is nooit door genoeg onderzoekers bevestigd geraakt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hoe meer een theorie verklaart, hoe minder ze zegt. Wat met elke uitkomst te rijmen valt, loopt geen enkel risico."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een pseudowetenschap?",
+     "opties": [
+      "iets wat zich als wetenschap voordoet zonder de methode te volgen",
+      "een wetenschap die nog niet genoeg onderzoek heeft gedaan",
+      "een wetenschap die haar theorie ooit heeft moeten bijstellen",
+      "een wetenschap die over de mens gaat in plaats van over de natuur"
+     ],
+     "antwoord": 0,
+     "uitleg": "Pseudo betekent vals of schijn. Een pseudowetenschap leent de taal van de wetenschap maar niet haar methode."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke kenmerken wijzen op een pseudowetenschap?",
+     "opties": [
+      "de uitspraken zijn zo vaag dat geen enkele uitkomst ze kan tegenspreken",
+      "tegenspraak wordt weggeredeneerd in plaats van onderzocht",
+      "de theorie is in de loop van de jaren bijgesteld na nieuw onderzoek",
+      "de uitspraken zijn met een meting te toetsen"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Een theorie bijstellen na nieuw onderzoek is net wél wetenschappelijk, en toetsbare uitspraken ook."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een voorspelling luidt: er komt binnenkort een belangrijke verandering in je leven. Waarom is dat volgens Popper niet wetenschappelijk?",
+     "opties": [
+      "ze sluit niets uit, dus geen enkele gebeurtenis kan haar weerleggen",
+      "ze gaat over de toekomst, en daarover kan je niets weten",
+      "ze is te kort om een echte theorie te kunnen zijn",
+      "ze is nog door niemand bevestigd"
+     ],
+     "antwoord": 0,
+     "uitleg": "Elke uitkomst past erbij. Een voorspelling die niet kan sneuvelen, zegt niets."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een arts zegt: als dit middel werkt, zakt de koorts binnen drie dagen bij minstens zeven op de tien patiënten. Wat is daaraan wetenschappelijk?",
+     "opties": [
+      "de uitspraak sluit uitkomsten uit en kan dus weerlegd worden",
+      "de uitspraak is door een deskundige gedaan",
+      "de uitspraak gaat over iets wat je kan waarnemen",
+      "de uitspraak klinkt redelijk en voorzichtig"
+     ],
+     "antwoord": 0,
+     "uitleg": "Precies dit maakt het verschil: de uitspraak zegt op voorhand welke uitkomst haar ongelijk zou geven."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Betekent falsifieerbaar dat een theorie fout is?",
+     "opties": [
+      "nee, het betekent dat ze fout zou kúnnen blijken",
+      "ja, het betekent dat ze al weerlegd is",
+      "ja, het betekent dat ze binnenkort weerlegd zal worden",
+      "nee, het betekent dat ze voor altijd bewezen is"
+     ],
+     "antwoord": 0,
+     "uitleg": "Falsifieerbaar is een eigenschap van de vorm van de uitspraak: ze loopt een risico. Dat is een pluspunt, geen fout."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je in stap 1 van het stappenplan om een filosofische tekst te analyseren?",
+     "opties": [
+      "de tekst in zijn geheel lezen en zicht krijgen op de structuur",
+      "elke onbekende uitdrukking opzoeken en moeilijke zinnen ontleden",
+      "bedenken welke kritiek je zelf op de auteur hebt",
+      "meteen een samenvatting van enkele zinnen schrijven"
+     ],
+     "antwoord": 0,
+     "uitleg": "Stap 1 is globaal en oriënterend lezen: de indeling, de signaalwoorden en de kernbegrippen, met in elke alinea een kernzin."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je in stap 2 van dat stappenplan?",
+     "opties": [
+      "grondig herlezen, woorden opzoeken en verbanden aanduiden",
+      "de tekst snel doorbladeren om de structuur te zien",
+      "nadenken over wat je er zelf van vindt",
+      "de tekst vergelijken met een tekst van een andere auteur"
+     ],
+     "antwoord": 0,
+     "uitleg": "Stap 2 is grondig lezen. De maatstaf die de fiche geeft: je moet het daarna met eigen woorden aan een vriend kunnen uitleggen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vraag hoort bij stap 3, de reflectie?",
+     "opties": [
+      "welke tegenvoorbeelden kan ik vinden voor deze conclusie?",
+      "waar staan de alinea's en de signaalwoorden?",
+      "wat betekent dit onbekende woord precies?",
+      "hoeveel hoofdstukken heeft deze tekst?"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij de reflectie zoek je tegenvoorbeelden, formuleer je je kritiek en vraag je je af hoe de auteur daarop zou antwoorden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is het volgens dat stappenplan nuttig om te bedenken hoe de auteur op jouw kritiek zou antwoorden?",
+     "opties": [
+      "omdat je zo nagaat of je kritiek wel standhoudt",
+      "omdat je de auteur daarmee kan overtuigen van je gelijk",
+      "omdat je anders de tekst niet mag samenvatten",
+      "omdat elke kritiek beantwoord moet zijn voor ze telt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je kritiek is pas sterk als ze het antwoord van de auteur overleeft. Daarom staat die vraag in het stappenplan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom hoort de vraag wanneer iets wetenschap is bij de filosofie en niet bij de wetenschap zelf?",
+     "opties": [
+      "omdat geen enkele meting die vraag kan beslechten",
+      "omdat wetenschappers zich nooit met die vraag bezighouden",
+      "omdat de wetenschap geen methode heeft om iets te onderzoeken",
+      "omdat filosofen beter kunnen meten dan wetenschappers"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het is een vraag over de maatstaf zelf, en een maatstaf kan je niet met diezelfde maatstaf afmeten. Dat is wetenschapsfilosofie."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Voor Popper is een theorie wetenschappelijk als ze weerlegd kan worden.",
+     "antwoord": true,
+     "uitleg": "Waar. Falsifieerbaarheid is zijn antwoord op het demarcatievraagstuk."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een theorie die alles kan verklaren, staat juist heel sterk.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Ze sluit niets uit en loopt dus geen risico. Volgens Popper is dat precies de zwakte."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een theorie bijstellen na nieuw onderzoek is een teken van pseudowetenschap.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Dat is net wetenschappelijk. Pseudowetenschap redeneert de tegenspraak weg in plaats van haar theorie aan te passen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het stappenplan voor een filosofische tekst telt drie stappen: oriënterend lezen, grondig lezen en reflectie.",
+     "antwoord": true,
+     "uitleg": "Waar. Dat zijn de drie stappen van bijlage 2."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke filosoof koppelt de fiche aan de falsificatie?",
+     "antwoord": [
+      "Karl Popper",
+      "Popper"
+     ],
+     "uitleg": "Popper stelt falsifieerbaarheid voor als maatstaf voor wetenschap."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je iets dat zich als wetenschap voordoet zonder de methode te volgen? Een ...",
+     "antwoord": [
+      "pseudowetenschap"
+     ],
+     "uitleg": "Pseudo betekent vals of schijn."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel stappen telt het stappenplan om een filosofische tekst te analyseren?",
+     "antwoord": [
+      "drie",
+      "3"
+     ],
+     "uitleg": "Oriënterend lezen, grondig lezen en reflectie."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In welke stap van dat stappenplan zoek je tegenvoorbeelden en formuleer je je kritiek? In de ...",
+     "antwoord": [
+      "reflectie",
+      "derde stap"
+     ],
+     "uitleg": "Stap 3 is de reflectie."
+    }
+   ]
+  }
+ ]
+}

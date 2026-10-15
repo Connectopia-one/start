@@ -151,8 +151,8 @@ BUNDELS["prehistorie"] = dict(
         dict(kop="De evolutie van de mens", blokken=[
             ("p", "De mens ontstond in <strong>Afrika</strong>. Van daaruit trokken verschillende soorten "
                   "mensachtigen de wereld in, de ene na de andere."),
-            ("fig", svg.stappen(["mensachtigen|in Afrika", "homo erectus|trekt weg", "homo sapiens|over de wereld"]),
-             "De homo erectus, de rechtopgaande mens, was de eerste die Afrika verliet. De homo sapiens, de verstandige mens, volgde later."),
+            ("fig", svg.stappen(["mensachtigen|in Afrika", "Homo erectus|trekt weg", "Homo sapiens|over de wereld"]),
+             "De Homo erectus, de rechtopgaande mens, was de eerste die Afrika verliet. De Homo sapiens, de verstandige mens, volgde later."),
             ("p", "De eerste mensachtigen waren <strong>aaseter-verzamelaars</strong>: ze verzamelden planten "
                   "en aten vlees van dieren die al dood waren. Pas later gingen ze zelf jagen, en werden ze "
                   "<strong>jager-verzamelaars</strong>."),
@@ -237,7 +237,7 @@ BUNDELS["prehistorie"] = dict(
     ],
     onthoud=[
         "Prehistorie = de tijd zonder geschreven bronnen, veruit de langste periode.",
-        "De mens ontstond in Afrika; de homo erectus trok als eerste weg.",
+        "De mens ontstond in Afrika; de Homo erectus trok als eerste weg.",
         "Jagers en verzamelaars leefden nomadisch, in kleine groepen; verzamelen leverde vaak het meeste op.",
         "Vuur gaf warmte, licht, bescherming en beter verteerbaar voedsel.",
         "Grotschilderingen tonen vooral dieren; Lascaux en Altamira zijn de bekendste.",

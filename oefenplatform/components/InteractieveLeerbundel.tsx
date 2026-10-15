@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Formule, formulesInHtml } from "@/components/Formule";
+import { formulesInHtml } from "@/components/Formule";
 import { useEffect, useRef, useState } from "react";
 import { Legpuzzel } from "@/components/Legpuzzel";
 import { Volgordespel } from "@/components/Volgordespel";
@@ -376,9 +376,18 @@ function Blok({ blok }: { blok: BundelBlok }) {
           dangerouslySetInnerHTML={{ __html: formulesInHtml(blok.html) }}
         />
         {blok.onderschrift && (
-          <figcaption className="mt-2 text-center text-xs text-ink-dim">
-            <Formule tekst={blok.onderschrift} />
-          </figcaption>
+          /*
+            Het onderschrift komt uit onze eigen bronbestanden en mag dus net
+            als de rest van de tocht opmaak bevatten. Stond hier <Formule>,
+            dan las een kind letterlijk <strong> in het onderschrift staan.
+            Gemeld op 15 oktober 2026 door een ouder uit de testgroep.
+          */
+          <figcaption
+            className="mt-2 text-center text-xs text-ink-dim"
+            dangerouslySetInnerHTML={{
+              __html: formulesInHtml(blok.onderschrift),
+            }}
+          />
         )}
       </figure>
     );

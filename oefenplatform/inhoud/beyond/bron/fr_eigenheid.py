@@ -211,7 +211,7 @@ DEEL2 = [
                  "omdat de goden vanaf dan uit de verhalen verdwenen waren"],
          antwoord=0,
          uitleg="Het beslissende is niet dat de goden wegvielen maar dat er een "
-                "<em>argument</em> kwam: een verklaring die je kan tegenspreken en verbeteren."),
+                "argument kwam: een verklaring die je kan tegenspreken en verbeteren."),
     dict(type="meerkeuze",
          vraag="Welke kenmerken heeft een filosofische vraag?",
          opties=[
@@ -252,7 +252,7 @@ DEEL2 = [
                  "over smaak kan enkel een wetenschapper een uitspraak doen"],
          antwoord=0,
          uitleg="De filosofie zegt niet dat er één juist antwoord is, maar wel dat er "
-                "<em>betere en slechtere argumenten</em> zijn. Daarmee valt er wel iets te zeggen."),
+                "betere en slechtere argumenten zijn. Daarmee valt er wel iets te zeggen."),
     dict(type="meerkeuze",
          vraag="Welk filosofisch domein onderzoekt wat goed handelen is?",
          opties=["de ethiek", "de kennisleer", "de logica", "de wijsgerige antropologie"],
@@ -308,7 +308,7 @@ DEEL2 = [
          vraag="Omdat filosofische vragen geen vast antwoord hebben, is het ene antwoord even goed "
                "als het andere.",
          antwoord=False,
-         uitleg="Niet waar. Er zijn wel betere en slechtere <em>argumenten</em>, en daarover valt "
+         uitleg="Niet waar. Er zijn wel betere en slechtere argumenten, en daarover valt "
                 "wel te beslissen. Dat is waarom de fiche de argumentatieleer vraagt."),
     dict(type="invultekst",
          vraag="Hoe heet een verklaring van de wereld met verhalen over goden?",
