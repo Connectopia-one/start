@@ -33,6 +33,11 @@ export type Blok = {
   /* Een tussentitel met eigen punten, voor lager en secundair apart. */
   delen?: { titel: string; punten: { dik: string; tekst: string }[] }[];
   slot?: string;
+  /*
+    Een foto bovenaan de kaart. Zet het bestand in  public/fotos/  en vul hier
+    alleen de bestandsnaam in. Laat weg als je geen foto wil.
+  */
+  foto?: { bestand: string; beschrijving: string };
 };
 
 export const blokken: Blok[] = [
@@ -71,6 +76,11 @@ export const blokken: Blok[] = [
   },
   {
     titel: "De examens horen erbij",
+    foto: {
+      bestand: "examencommissie-examenzaal.jpg",
+      beschrijving:
+        "Jongeren leggen een examen af in een zaal van de Examencommissie, elk aan een eigen computer tussen houten schotten.",
+    },
     inleiding:
       "Een kind in huisonderwijs haalt zijn getuigschriften bij de Examencommissie. Daar hangen leeftijden aan vast, en dat is het stuk dat ouders het vaakst verrast.",
     delen: [
@@ -153,6 +163,11 @@ export const blokken: Blok[] = [
   },
   {
     titel: "School en toch je eigen tempo",
+    foto: {
+      bestand: "examencommissie-examen.jpg",
+      beschrijving:
+        "Een jongen met een koptelefoon op typt zijn antwoorden op de computer in een afgeschermd examenhokje.",
+    },
     inleiding:
       "Hier bestaat veel verwarring over, dus even helder. Het statuut huisonderwijs kan je niet combineren met gewoon onderwijs: het is het een of het ander. Maar dat is iets anders dan de vraag of je kind thuis mag bijleren.",
     punten: [

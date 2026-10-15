@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Kaart, PaginaKop, Sectie } from "@/components/ui";
+import { Foto, Kaart, PaginaKop, Sectie } from "@/components/ui";
 import {
   blokken,
   bronnen,
@@ -59,6 +59,13 @@ export default function ThuisonderwijsPagina() {
         <div className="mt-5 grid gap-5">
           {blokken.map((blok) => (
             <Kaart key={blok.titel}>
+              {blok.foto ? (
+                <Foto
+                  bestand={blok.foto.bestand}
+                  beschrijving={blok.foto.beschrijving}
+                  className="mb-5"
+                />
+              ) : null}
               <h2 className="text-2xl text-green">{blok.titel}</h2>
               {blok.inleiding ? (
                 <p className="mt-2 max-w-[62ch] text-ink-dim">
