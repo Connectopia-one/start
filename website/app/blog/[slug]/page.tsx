@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Blok } from "@/content/blog";
-import { berichten } from "@/content/blog";
+import { berichten, kaartfotoVan } from "@/content/blog";
 import { datumInWoorden } from "@/lib/datum";
 
 export function generateStaticParams() {
@@ -17,7 +17,25 @@ export async function generateMetadata({
   const { slug } = await params;
   const bericht = berichten.find((b) => b.slug === slug);
   if (!bericht) return {};
-  return { title: bericht.titel, description: bericht.samenvatting };
+  const foto = kaartfotoVan(bericht);
+  const afbeeldingen = foto ? [`/blog/${foto}`] : undefined;
+  return {
+    title: bericht.titel,
+    description: bericht.samenvatting,
+    openGraph: {
+      type: "article",
+      title: bericht.titel,
+      description: bericht.samenvatting,
+      url: `/blog/${bericht.slug}`,
+      ...(afbeeldingen ? { images: afbeeldingen } : {}),
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: bericht.titel,
+      description: bericht.samenvatting,
+      ...(afbeeldingen ? { images: afbeeldingen } : {}),
+    },
+  };
 }
 
 function BlokWeergave({ blok }: { blok: Blok }) {

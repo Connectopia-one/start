@@ -7,6 +7,10 @@
   datum:  schrijf als "2026-06-18" (jaar-maand-dag)
   auteur: "Connectopia" of de naam van de partner die het schreef
   labels: korte woorden waar het bericht over gaat, bv. ["kampen", "zorgen"]
+  kaartfoto: (mag weg) de foto op het kaartje in het blogoverzicht en bij
+          het delen op Facebook of LinkedIn. Laat je het weg, dan nemen we
+          vanzelf de eerste foto uit het bericht. Zet je een andere naam,
+          bv. "eigen-interesse.jpg", dan wordt die gebruikt.
 
   De tekst bouw je op uit blokken. Er zijn er zes:
     { soort: "tekst",   tekst: "..." }                     een gewone alinea
@@ -46,9 +50,20 @@ export type Bericht = {
   datum: string;
   auteur: string;
   labels?: string[];
+  kaartfoto?: string;
   samenvatting: string;
   blokken: Blok[];
 };
+
+/* De foto voor het kaartje en het delen: de gekozen kaartfoto, anders de
+   eerste foto uit het bericht. Geen foto? Dan krijg je null. */
+export function kaartfotoVan(bericht: Bericht): string | null {
+  if (bericht.kaartfoto) return bericht.kaartfoto;
+  for (const blok of bericht.blokken) {
+    if (blok.soort === "afbeelding") return blok.bestand;
+  }
+  return null;
+}
 
 export const blogTekst = {
   label: "Blog, tips en meer",
@@ -433,6 +448,13 @@ export const berichten: Bericht[] = [
         tekst: "Het potentieel is er. Maar benutten we het voldoende?",
       },
       {
+        soort: "afbeelding",
+        bestand: "investeren-brug.jpg",
+        beschrijving:
+          "Getekende kinderen bouwen samen een brug van houten planken over gebarsten stenen met tekeningen van een euro, een klok, een brein, een wolk en een puzzelstuk, naar een lichte leerruimte.",
+        bijschrift: "Illustratie, gemaakt met AI.",
+      },
+      {
         soort: "kop",
         tekst: "Wanneer talent en ondersteuningsnoden samenkomen",
       },
@@ -478,6 +500,13 @@ export const berichten: Bericht[] = [
           "Talent en ondersteuningsnood kunnen perfect naast elkaar bestaan.",
       },
       {
+        soort: "afbeelding",
+        bestand: "investeren-van-klas-tot-toekomst.jpg",
+        beschrijving:
+          "Links werken kinderen samen aan tafel met boeken en begeleiders, rechts bedenken volwassenen aan een whiteboard oplossingen voor duurzame energie.",
+        bijschrift: "Illustratie, gemaakt met AI.",
+      },
+      {
         soort: "kop",
         tekst: "Van onbenut potentieel naar maatschappelijke meerwaarde",
       },
@@ -501,6 +530,13 @@ export const berichten: Bericht[] = [
         soort: "citaat",
         tekst:
           "Investeren in deze kinderen is dus geen luxe. Het is investeren in menselijk kapitaal.",
+      },
+      {
+        soort: "afbeelding",
+        bestand: "investeren-robotica.jpg",
+        beschrijving:
+          "Een begeleider toont een groepje kinderen een onderdeel van een robotopstelling in een technieklokaal.",
+        bijschrift: "Illustratie, gemaakt met AI.",
       },
       {
         soort: "kop",
@@ -584,6 +620,12 @@ export const berichten: Bericht[] = [
       "Vanaf schooljaar 2026–2027 zijn we niet alleen officieel een vzw, we verlagen ook onze prijzen.",
     blokken: [
       {
+        soort: "afbeelding",
+        bestand: "vzw-bord.jpg",
+        beschrijving:
+          "Een kind houdt een groot bord met VZW!!! voor zijn gezicht op een grasveld, een ander kind wijst ernaar.",
+      },
+      {
         soort: "tekst",
         tekst:
           "Vanaf schooljaar 2026–2027 zijn we niet alleen officieel een vzw, we verlagen ook onze prijzen. Zo maken we plaats voor nog meer nieuwsgierige kinderen die net dat beetje extra uitdaging, begrip of ruimte nodig hebben.",
@@ -592,6 +634,13 @@ export const berichten: Bericht[] = [
         soort: "tekst",
         tekst:
           "De plusklas kost voortaan 50 euro per dag in plaats van 60, een pluswerking 25 euro per drie uur in plaats van 30, en een les Young Engineers 20 euro in plaats van 25.",
+      },
+      {
+        soort: "afbeelding",
+        bestand: "vzw-duimen-omhoog.jpg",
+        beschrijving:
+          "Een lachende jongen met rugzak steekt twee duimen op, naast tekstballonnen: eindelijk uitdaging, hier mag ik mezelf zijn, vriendschappen, ondersteuning wanneer ik het nodig heb, aangepast aan mij, traject op maat en prikkelarm.",
+        bijschrift: "Wat kinderen bij ons vinden.",
       },
       {
         soort: "tekst",
@@ -607,6 +656,7 @@ export const berichten: Bericht[] = [
     datum: "2026-02-28",
     auteur: "Kim",
     labels: ["persoonlijk"],
+    kaartfoto: "eigen-interesse.jpg",
     samenvatting:
       "De snelle rekenaar, de jonge schaker, het kind dat zich verveelt in de klas. Die bestaan. Maar er zijn net zoveel verschillen tussen hoogbegaafde kinderen als tussen alle andere kinderen.",
     blokken: [
@@ -1369,6 +1419,13 @@ export const berichten: Bericht[] = [
       "AI hoeft geen reden tot paniek te zijn, wel een reden om onze kinderen goed voor te bereiden. Over wat AI goed kan, wat de zorgen zijn, en waarom leren omgaan met AI op leren fietsen lijkt.",
     blokken: [
       {
+        soort: "afbeelding",
+        bestand: "ai-wegwijzers.jpg",
+        beschrijving:
+          "Een ouder leert een kind fietsen naast wegwijzers met verkeersregels leren, oefenen en fouten maken; verderop wijzen borden naar AI verantwoord gebruiken: vragen stellen, controleren, kritisch nadenken, grenzen kennen en respectvol samenwerken.",
+        bijschrift: "Illustratie, gemaakt met AI.",
+      },
+      {
         soort: "citaat",
         tekst:
           "Net zoals we onze kinderen leren fietsen en hen de verkeersregels leren, moeten we hen leren hoe ze verstandig, kritisch en respectvol omgaan met AI. En eigenlijk met iedereen en alles: mensen, dieren, technologie en materialen.",
@@ -1514,6 +1571,13 @@ export const berichten: Bericht[] = [
         soort: "tekst",
         tekst:
           "Daarna zoeken we samen verder, in een boek of op de website van een ruimtevaartorganisatie. Zo leert een kind niet alleen iets over de ruimte, maar ook dat je een antwoord altijd mag nakijken.",
+      },
+      {
+        soort: "afbeelding",
+        bestand: "ai-nakijken-in-boek.jpg",
+        beschrijving:
+          "Een jongen werkt op een laptop terwijl een meisje naast hem iets nakijkt in een opengeslagen boek over Jupiter; een begeleidster kijkt mee.",
+        bijschrift: "Illustratie, gemaakt met AI.",
       },
       {
         soort: "tekst",
