@@ -6,7 +6,6 @@ import {
   thuisonderwijsTekst,
   verhaal,
   waarden,
-  waardenFoto,
   watWijDoen,
 } from "@/content/thuisonderwijs";
 
@@ -47,13 +46,6 @@ export default function ThuisonderwijsPagina() {
       <Sectie>
         {/* De lijn van Kim staat bewust bovenaan, voor alle regelgeving. */}
         <div className="rounded-[20px] border border-sage bg-sage-soft p-6">
-          {waardenFoto ? (
-            <Foto
-              bestand={waardenFoto.bestand}
-              beschrijving={waardenFoto.beschrijving}
-              className="mb-5"
-            />
-          ) : null}
           {waarden.map((regel) => (
             <p
               key={regel}

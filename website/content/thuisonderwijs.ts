@@ -25,16 +25,6 @@ export const waarden = [
   "Bij die zoektocht helpen we graag mee denken, zonder je in een richting te duwen.",
 ];
 
-/*
-  De foto in het groene kader bovenaan: thuis leren naast een klas, om te tonen
-  dat het allebei kan. Zet het bestand in  public/fotos/  of laat weg.
-*/
-export const waardenFoto: { bestand: string; beschrijving: string } | null = {
-  bestand: "thuis-en-in-de-klas.jpg",
-  beschrijving:
-    "Links leert een jongen thuis aan tafel met een ouder naast zich, rechts zit een jongen in de klas terwijl de juf aan het bord uitleg geeft.",
-};
-
 export type Blok = {
   titel: string;
   inleiding?: string;
@@ -138,6 +128,11 @@ export const blokken: Blok[] = [
   },
   {
     titel: "Hoe werkt de Examencommissie secundair?",
+    foto: {
+      bestand: "examencommissie-examen.jpg",
+      beschrijving:
+        "Een jongen met een koptelefoon op typt zijn antwoorden op de computer in een afgeschermd examenhokje.",
+    },
     punten: [
       {
         dik: "Iedereen mag meedoen.",
@@ -174,9 +169,9 @@ export const blokken: Blok[] = [
   {
     titel: "School en toch je eigen tempo",
     foto: {
-      bestand: "examencommissie-examen.jpg",
+      bestand: "thuis-en-in-de-klas.jpg",
       beschrijving:
-        "Een jongen met een koptelefoon op typt zijn antwoorden op de computer in een afgeschermd examenhokje.",
+        "Links leert een jongen thuis aan tafel met een ouder naast zich, rechts zit een jongen in de klas terwijl de juf aan het bord uitleg geeft.",
     },
     inleiding:
       "Hier bestaat veel verwarring over, dus even helder. Het statuut huisonderwijs kan je niet combineren met gewoon onderwijs: het is het een of het ander. Maar dat is iets anders dan de vraag of je kind thuis mag bijleren.",
