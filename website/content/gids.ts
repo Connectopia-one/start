@@ -182,6 +182,14 @@ export const organisaties: Organisatie[] = [
     link: "https://www.hetlampje.be",
   },
   {
+    naam: "Snelle Hoofdjes",
+    categorie: "Partners die we kennen",
+    omschrijving:
+      "Plusgroepen vanaf de derde kleuterklas, mindsettraining in groep en individueel, en advies voor ouders en scholen, door een mama die ervaringsdeskundige is.",
+    regio: "Oostakker",
+    link: "https://www.snellehoofdjes.be",
+  },
+  {
     naam: "De Groeitrap",
     categorie: "Partners die we kennen",
     omschrijving:
