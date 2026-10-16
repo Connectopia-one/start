@@ -148,9 +148,9 @@ export const trajecten: Traject[] = [
       { label: "Waar", waarde: "Genk T2 Campus, Thor Park 8040, 3600 Genk" },
     ],
     foto: {
-      bestand: "pluswerking-woensdag.jpg",
+      bestand: "pluswerking-woensdag-oefenplatform.jpg",
       beschrijving:
-        "Twee kinderen spelen samen een zelfgebouwd schaakspel in de lichte hal van T2 Campus.",
+        "Kinderen van de pluswerking op woensdag in een klaslokaal van T2 Campus, met een vraag uit het oefenplatform op het grote scherm.",
     },
     tekst:
       "Meer schoolse uitdaging en voorbereiding op de examencommissie, zowel voor kinderen die schoolgaand zijn als voor kinderen in thuisonderwijs.",
