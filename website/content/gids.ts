@@ -32,10 +32,45 @@ export const gidsTekst = {
   /* Deze zin staat bovenaan de lijst, in een gekleurd kader. */
   geenVoorkeur:
     "We trekken hier niemand voor. Elke organisatie op deze lijst doet goed werk, en welke bij jouw kind en jouw gezin past is een heel persoonlijke keuze. De lijst staat dan ook op alfabetische volgorde en is geen rangschikking. Neem gerust bij meerdere een kijkje en voel zelf waar het klikt.",
-  nota:
-    "Deze gids groeit mee. Ken je iemand die hier hoort, of wil je er zelf in staan? Laat het ons weten.",
-  oproepTekst: "Een organisatie aanbrengen",
-  oproepLink: "/contact",
+  /*
+    Onder welk kopje een organisatie komt die iemand via het formulier
+    aanbracht en die jij in het ouderportaal goedkeurde.
+  */
+  categorieAangebracht: "Partners die we kennen",
+  /* Het formulier onderaan de gids. Teksten op het formulier zelf. */
+  formulier: {
+    titel: "Een organisatie aanbrengen",
+    tekst:
+      "Ken je iemand die hier hoort, of wil je er zelf in staan? Vul het hieronder in. We bekijken het eerst, dus het staat er niet meteen op.",
+    wieLabel: "Wie breng je aan?",
+    wieZelf: "Mezelf of mijn eigen praktijk",
+    wieIemand: "Iemand anders",
+    naamLabel: "Naam van de organisatie of de persoon",
+    omschrijvingLabel: "Wat doen ze?",
+    omschrijvingUitleg:
+      "Een of twee zinnen, zoals bij de andere kaartjes. We passen ze zo nodig aan, zodat elke omschrijving even lang is.",
+    regioLabel: "Waar?",
+    regioUitleg: "Een gemeente, een provincie, of online.",
+    linkLabel: "Website",
+    linkUitleg: "Mag leeg blijven.",
+    jouwNaamLabel: "Jouw volledige naam",
+    mailLabel: "Jouw e-mailadres",
+    privacy:
+      "Je naam en je e-mailadres komen niet op de website. Ze blijven bij ons, zodat we je kunnen bereiken als we iets willen vragen.",
+    knopTekst: "Insturen",
+    nogNiet:
+      "Aanbrengen kan hier binnenkort. Laat het ons tot dan weten via de contactpagina.",
+    /* Wat er boven het formulier staat nadat iemand op Insturen klikte. */
+    gelukt:
+      "Bedankt! We bekijken het en zetten het erbij, meestal binnen een paar dagen.",
+    mislukt:
+      "Dat is niet gelukt. Probeer het later nog eens, of laat het ons weten via de contactpagina.",
+    foutNaam: "Vul de naam van de organisatie of de persoon in.",
+    foutOmschrijving: "Schrijf in een of twee zinnen wat ze doen.",
+    foutLink: "Die website lijkt niet te kloppen.",
+    foutJouwNaam: "Vul je eigen volledige naam in.",
+    foutMail: "Vul een e-mailadres in waarop we je kunnen bereiken.",
+  },
   linkTekstStandaard: "Naar hun website",
   leegTekst:
     "We zijn deze lijst nog aan het opbouwen. Heb je een concrete vraag? Stel ze gerust, dan verwijzen we je persoonlijk door.",
@@ -129,11 +164,39 @@ export const organisaties: Organisatie[] = [
       "Oudercoach bij neurodiversiteit, met expertise in gecamoufleerd autisme bij cognitieve begaafdheid en in PDA. Geeft ook webinars, lezingen en workshops.",
     link: "https://www.katrienvolckaert.be",
   },
+  /* Doorgegeven door Kim op 16 oktober 2026. */
+  {
+    naam: "Lore Dewulf",
+    categorie: "Partners die we kennen",
+    omschrijving:
+      "Begaafdheidsonderzoek dat verder gaat dan een IQ-test, met advies op maat, voor kinderen vanaf 4 jaar en volwassenen. Ook een online opleiding en lezingen.",
+    regio: "Gent",
+    link: "https://loredewulf.be/begaafdheidsonderzoek/",
+  },
+  {
+    naam: "Het Lampje",
+    categorie: "Partners die we kennen",
+    omschrijving:
+      "Begeleiding bij autisme en hoogbegaafdheid, ook bij dubbel bijzondere kinderen. Onderzoek naar autistisch denken van 7 tot 17 jaar, opleidingen en webinars.",
+    regio: "Heverlee en online",
+    link: "https://www.hetlampje.be",
+  },
+  {
+    naam: "De Groeitrap",
+    categorie: "Partners die we kennen",
+    omschrijving:
+      "Kindercentrum met IQ-testing door een psycholoog of orthopedagoog, van 0 tot 21 jaar. Ook logopedie, kinesitherapie, psychologie en coaching.",
+    regio: "Wilsele en Bertem",
+    link: "https://www.degroeitrap.be/nl/iq-test-leuven",
+  },
 ];
 
 /* Alfabetisch, zodat de volgorde geen rangschikking is. */
-export function organisatiesPerCategorie(categorie: string) {
-  return organisaties
+export function organisatiesPerCategorie(
+  categorie: string,
+  lijst: Organisatie[] = organisaties,
+) {
+  return lijst
     .filter((o) => o.categorie === categorie)
     .sort((a, b) => a.naam.localeCompare(b.naam, "nl"));
 }

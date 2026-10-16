@@ -26,6 +26,7 @@ export default async function BeheerPage({
     { count: nieuweBriefjes },
     { count: nieuweAanvragen },
     { count: nieuweKijkerposts },
+    { count: nieuweGids },
   ] = await Promise.all([
     supabase.from("klasjes").select("id, naam, slug").order("naam"),
     supabase
@@ -43,6 +44,10 @@ export default async function BeheerPage({
       .eq("gezien", false),
     beheerDb
       .from("kijker_posts")
+      .select("id", { count: "exact", head: true })
+      .eq("gezien", false),
+    beheerDb
+      .from("gids_aanmeldingen")
       .select("id", { count: "exact", head: true })
       .eq("gezien", false),
   ]);
@@ -292,6 +297,25 @@ export default async function BeheerPage({
               className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
             >
               In de kijker beheren &rarr;
+            </Link>
+
+            <h2 className="mt-8 font-display text-lg font-semibold text-ink">
+              Gids &ldquo;Waar kan je terecht&rdquo;
+              {(nieuweGids ?? 0) > 0 && (
+                <span className="ml-2 rounded-full bg-forest px-2 py-0.5 align-middle text-xs font-semibold text-white">
+                  {nieuweGids} nieuw
+                </span>
+              )}
+            </h2>
+            <p className="mt-3 text-sm text-ink-dim">
+              Organisaties die iemand via de website aanbracht. Ze staan pas in
+              de gids als jij ze goedkeurt.
+            </p>
+            <Link
+              href="/beheer/gids"
+              className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+            >
+              Aanmeldingen nakijken &rarr;
             </Link>
           </section>
         </div>

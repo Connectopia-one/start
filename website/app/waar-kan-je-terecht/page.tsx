@@ -1,20 +1,60 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { Kaart, PaginaKop, Sectie } from "@/components/ui";
+import { Gidsformulier } from "@/components/Gidsformulier";
 import {
   gidsTekst,
   organisaties,
   organisatiesPerCategorie,
   type Organisatie,
 } from "@/content/gids";
+import { gidsDbKlaar, haalGoedgekeurde } from "@/lib/gids-db";
+
+/*
+  Een organisatie die in het ouderportaal goedgekeurd wordt, moet er meteen
+  in staan, dus geen opgeslagen versie van deze pagina.
+*/
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Waar kan je terecht",
   description: gidsTekst.tekst,
 };
 
-export default function GidsPagina() {
-  const categorieen = [...new Set(organisaties.map((o) => o.categorie))];
+/*
+  Welk bericht er boven het formulier staat nadat iemand iets instuurde. De
+  codes komen uit app/waar-kan-je-terecht/acties.ts.
+*/
+function melding(code: string | undefined) {
+  const t = gidsTekst.formulier;
+  const berichten: Record<string, string> = {
+    gelukt: t.gelukt,
+    mislukt: t.mislukt,
+    naam: t.foutNaam,
+    omschrijving: t.foutOmschrijving,
+    link: t.foutLink,
+    jouwnaam: t.foutJouwNaam,
+    mail: t.foutMail,
+  };
+  if (!code || !(code in berichten)) return null;
+  return { tekst: berichten[code], goed: code === "gelukt" };
+}
+
+export default async function GidsPagina({
+  searchParams,
+}: {
+  searchParams: Promise<{ melding?: string }>;
+}) {
+  const { melding: code } = await searchParams;
+  const bericht = melding(code);
+  const klaar = gidsDbKlaar();
+
+  /* De vaste lijst, plus wie iemand aanbracht en in het ouderportaal goedgekeurd werd. */
+  const vasteNamen = new Set(organisaties.map((o) => o.naam.toLowerCase()));
+  const aangebracht = (klaar ? await haalGoedgekeurde() : []).filter(
+    (o) => !vasteNamen.has(o.naam.toLowerCase()),
+  );
+  const alle = [...organisaties, ...aangebracht];
+  const categorieen = [...new Set(alle.map((o) => o.categorie))];
 
   return (
     <>
@@ -35,7 +75,7 @@ export default function GidsPagina() {
           <p className="text-ink-dim">{gidsTekst.leegTekst}</p>
         ) : (
           categorieen.map((categorie) => {
-            const lijst = organisatiesPerCategorie(categorie);
+            const lijst = organisatiesPerCategorie(categorie, alle);
             /*
               Staat er in deze groep niemand met een logo, dan laten we de
               logobalk helemaal weg. Zo komt er geen lege strook te staan.
@@ -89,15 +129,34 @@ export default function GidsPagina() {
         )}
       </Sectie>
 
-      <Sectie className="pb-16">
+      <Sectie className="pb-16" id="aanbrengen">
         <div className="rounded-[20px] bg-purple-soft px-7 py-7">
-          <p className="max-w-[60ch] text-ink">{gidsTekst.nota}</p>
-          <Link
-            href={gidsTekst.oproepLink}
-            className="mt-5 inline-block rounded-full bg-purple px-6 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5"
-          >
-            {gidsTekst.oproepTekst} →
-          </Link>
+          <h2 className="text-2xl text-purple">
+            {gidsTekst.formulier.titel}
+          </h2>
+          <p className="mt-2 max-w-[60ch] text-ink">
+            {gidsTekst.formulier.tekst}
+          </p>
+          {bericht ? (
+            <p
+              className={`mt-5 rounded-[14px] px-5 py-4 text-[16px] ${
+                bericht.goed
+                  ? "bg-sage-soft text-green"
+                  : "bg-orange-soft text-ink"
+              }`}
+            >
+              {bericht.tekst}
+            </p>
+          ) : null}
+          <div className="mt-5">
+            {klaar ? (
+              <Gidsformulier />
+            ) : (
+              <p className="text-[16px] text-ink-dim">
+                {gidsTekst.formulier.nogNiet}
+              </p>
+            )}
+          </div>
         </div>
       </Sectie>
     </>
