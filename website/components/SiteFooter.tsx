@@ -13,6 +13,9 @@ import { extraLinks, onderdelen, site, volgOns } from "@/content/site";
   eigen kadertje, netjes onder elkaar. Een nieuwe pagina in content/site.ts
   die hieronder nog in geen enkele groep staat, komt vanzelf bij de laatste
   groep terecht, zodat er nooit een link verdwijnt.
+
+  Kim op 16 oktober 2026: de knop Meetesten mag weg. De pagina /meetesten
+  bestaat nog, maar staat niet meer in content/site.ts en dus niet hier.
 */
 const groepen: { titel: string; links: string[] }[] = [
   {
@@ -22,7 +25,6 @@ const groepen: { titel: string; links: string[] }[] = [
       "/kijkje",
       "/ouderportaal",
       "/oefenplatform",
-      "/meetesten",
     ],
   },
   {

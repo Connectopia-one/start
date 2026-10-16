@@ -214,7 +214,6 @@ export const extraLinks: {
   { slug: "/kijkje", menuTitel: "Kijkje in de werking" },
   { slug: "/in-de-kijker", menuTitel: "In de kijker" },
   { slug: "/professionals", menuTitel: "Voor professionals" },
-  { slug: "/meetesten", menuTitel: "Meetesten" },
   { slug: "/steun-ons", menuTitel: "Steun ons" },
   { slug: "/contact", menuTitel: "Contact", inMenu: true },
 ];
