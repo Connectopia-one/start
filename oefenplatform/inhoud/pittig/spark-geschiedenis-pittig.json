@@ -1078,7 +1078,10 @@
         {
           "type": "invultekst",
           "vraag": "Het oosten van het Romeinse Rijk leefde na 476 nog duizend jaar voort, met Constantinopel als hoofdstad. Vul aan: het ... Rijk. Antwoord met één woord.",
-          "antwoord": "Byzantijnse",
+          "antwoord": [
+            "Byzantijnse",
+            "Oost-Romeinse"
+          ],
           "uitleg": "Het Oost-Romeinse Rijk heet ook het Byzantijnse Rijk. Het westen viel in 476, het oosten hield nog duizend jaar stand."
         },
         {

@@ -38,7 +38,7 @@ DEEL1 = [
     dict(
         type="invultekst",
         vraag="Hoe noem je een factor die twee variabelen allebei beïnvloedt, zodat ze samen bewegen zonder elkaar te veroorzaken?",
-        antwoord=["een verborgen variabele", "verborgen variabele", "derde variabele"],
+        antwoord=["een verborgen variabele", "verborgen variabele", "derde variabele", "storende variabele"],
         uitleg="Soms heet ze ook een storende variabele. Ze zit niet in je gegevens, maar wel in de werkelijkheid.",
     ),
     dict(

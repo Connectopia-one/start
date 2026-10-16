@@ -1064,7 +1064,13 @@
         {
           "type": "invultekst",
           "vraag": "Hoe begin je een informele mail aan een vriendin die Emma heet? Twee woorden.",
-          "antwoord": "hi emma",
+          "antwoord": [
+            "hi emma",
+            "hello emma",
+            "hey emma",
+            "hi, emma",
+            "hello, emma"
+          ],
           "uitleg": "Hi Emma, met een komma erachter. 'Hello Emma' kan ook. 'Dear Emma' klinkt al wat plechtiger."
         },
         {
@@ -2640,7 +2646,10 @@
         {
           "type": "invultekst",
           "vraag": "In een opdracht staat: 'Choose the ___ answer.' Welk Engels woord betekent 'juiste'?",
-          "antwoord": "correct",
+          "antwoord": [
+            "correct",
+            "right"
+          ],
           "uitleg": "Correct = juist. 'Right' kan ook: choose the right answer."
         },
         {

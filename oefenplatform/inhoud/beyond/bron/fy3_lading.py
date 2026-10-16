@@ -283,7 +283,7 @@ DEEL2 = [
     dict(
         type="invultekst",
         vraag="Hoe noem je het verschijnsel waarbij een geladen voorwerp de lading in een ander voorwerp verschuift zonder het aan te raken?",
-        antwoord=["influentie", "elektrostatische influentie", "inductie"],
+        antwoord=["influentie", "elektrostatische influentie", "inductie", "elektrostatische inductie"],
         uitleg="Men spreekt ook van elektrostatische inductie. Bij een isolator heet de "
         "kleinere versie ervan polarisatie.",
     ),

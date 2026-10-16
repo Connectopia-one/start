@@ -283,7 +283,7 @@ DEEL2 = [
     dict(
         type="invultekst",
         vraag="Welke techniek gebruik je om keukenzout uit zout water terug te winnen, als het water zelf niet hoeft?",
-        antwoord="indampen",
+        antwoord=["indampen", "kristalliseren", "uitkristalliseren", "verdampen"],
         uitleg="Je laat het water verdampen en het zout kristalliseert uit. Daarom spreekt men ook van kristalliseren.",
     ),
     dict(

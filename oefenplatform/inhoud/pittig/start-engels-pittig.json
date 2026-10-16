@@ -744,7 +744,10 @@
         {
           "type": "invultekst",
           "vraag": "Vul in: the book ... I read was great. Antwoord met één Engels woord.",
-          "antwoord": "that",
+          "antwoord": [
+            "that",
+            "which"
+          ],
           "uitleg": "Bij dingen gebruik je that of which, bij mensen who. Which kan ook, maar that is het gewoonste."
         },
         {

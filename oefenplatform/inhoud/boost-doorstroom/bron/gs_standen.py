@@ -231,7 +231,7 @@ DEEL2 = [
     dict(
         type="invultekst",
         vraag="Hoe noem je de vereniging van ambachtslui van hetzelfde beroep in een middeleeuwse stad?",
-        antwoord="het ambacht",
+        antwoord=["het ambacht", "ambacht", "het gilde", "de gilde", "gilde", "gilden", "ambachten"],
         uitleg="Ze bepaalde wie het beroep mocht uitoefenen, hoe goed het werk moest zijn en soms ook wat het mocht kosten. Men spreekt ook van een gilde.",
     ),
     dict(
@@ -285,7 +285,7 @@ DEEL2 = [
     dict(
         type="invultekst",
         vraag="Hoe noem je het document waarin een vorst de rechten van een stad vastlegde?",
-        antwoord="een keure",
+        antwoord=["een keure", "keure", "keur", "privilege", "stadsprivilege", "stadskeure"],
         uitleg="Zo'n oorkonde met stadsrechten legde zwart op wit vast wat de stad zelf mocht regelen. Men spreekt ook van een privilege.",
     ),
     dict(

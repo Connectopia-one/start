@@ -370,7 +370,14 @@
         {
           "type": "invultekst",
           "vraag": "Welke oceaan is de grootste van de wereld?",
-          "antwoord": "de Stille Oceaan",
+          "antwoord": [
+            "de Stille Oceaan",
+            "Stille",
+            "de Grote Oceaan",
+            "Grote Oceaan",
+            "Pacifische Oceaan",
+            "Pacific"
+          ],
           "uitleg": "De Stille Oceaan ligt tussen Azië en Amerika en is groter dan alle landmassa's samen. Hij heet ook wel de Grote Oceaan."
         },
         {

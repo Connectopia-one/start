@@ -551,7 +551,7 @@ KRACHTEN = [
     {
         "type": "invultekst",
         "vraag": "Hoe noem je de energie die een voorwerp heeft omdat het hoog ligt? Antwoord met twee woorden.",
-        "antwoord": "potentiële energie",
+        "antwoord": ["potentiële energie", "hoogte-energie", "zwaarte-energie"],
         "uitleg": "Potentiële energie, ook wel hoogte-energie. Valt het voorwerp, dan wordt dat bewegingsenergie.",
     },
     {

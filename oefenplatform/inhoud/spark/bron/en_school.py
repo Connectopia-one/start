@@ -31,7 +31,7 @@ DEEL1 = [
          uitleg="To match = koppelen, to complete = aanvullen, a gap = een leeg vakje. 'Read aloud' is luidop lezen en koppelt niets."),
     dict(type="invultekst",
          vraag="In een opdracht staat: 'Choose the ___ answer.' Welk Engels woord betekent 'juiste'?",
-         antwoord="correct",
+         antwoord=["correct", "right"],
          uitleg="Correct = juist. 'Right' kan ook: choose the right answer."),
     dict(type="waarofniet",
          vraag="'Put the sentences in the right order' betekent dat je de zinnen in de juiste volgorde moet zetten.",
