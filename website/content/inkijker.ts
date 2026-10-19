@@ -140,5 +140,15 @@ export const inkijker = {
     boven wat uit de databank komt. Laat je deze lijst leeg, dan staan er
     alleen de berichten uit het ouderportaal.
   */
-  vastePosts: [] as Post[],
+  vastePosts: [
+    {
+      titel: "Groeiruimte vzw: ruimte om te groeien, samen",
+      tekst:
+        "Een warme vzw in Bertem met groepstrajecten voor kinderen, jongeren en gezinnen. Met Het Groeipad krijgen cognitief sterke en hoogbegaafde kinderen een plek om zichzelf beter te begrijpen en om te leren omgaan met perfectionisme, emoties en uitdagingen, samen met kinderen die denken zoals zij. Daarnaast lezingen en workshops voor ouders, leerkrachten en begeleiders.",
+      van: "Groeiruimte vzw",
+      kanaal: "anders",
+      link: "https://www.groeiruimte.be/",
+      datum: "2026-10-19",
+    },
+  ] as Post[],
 };
