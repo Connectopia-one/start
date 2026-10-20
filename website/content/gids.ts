@@ -151,10 +151,12 @@ export const organisaties: Organisatie[] = [
   },
   {
     naam: "Charlotte Vanneste",
+    logo: "charlotte-vanneste.png",
     categorie: "Partners die we kennen",
     omschrijving:
       "Psychotherapie en coaching, diagnostisch onderzoek, kerntalentenanalyse en supervisie. Voor kinderen, jongeren en volwassenen.",
     regio: "Alken",
+    link: "https://www.charlottevanneste.com",
   },
   {
     naam: "Katrien Volckaert",
@@ -167,6 +169,7 @@ export const organisaties: Organisatie[] = [
   /* Doorgegeven door Kim op 16 oktober 2026. */
   {
     naam: "Lore Dewulf",
+    logo: "lore-dewulf.png",
     categorie: "Partners die we kennen",
     omschrijving:
       "Begaafdheidsonderzoek dat verder gaat dan een IQ-test, met advies op maat, voor kinderen vanaf 4 jaar en volwassenen. Ook een online opleiding en lezingen.",
@@ -175,6 +178,7 @@ export const organisaties: Organisatie[] = [
   },
   {
     naam: "Het Lampje",
+    logo: "het-lampje.png",
     categorie: "Partners die we kennen",
     omschrijving:
       "Begeleiding bij autisme en hoogbegaafdheid, ook bij dubbel bijzondere kinderen. Onderzoek naar autistisch denken van 7 tot 17 jaar, opleidingen en webinars.",
@@ -183,6 +187,7 @@ export const organisaties: Organisatie[] = [
   },
   {
     naam: "Snelle Hoofdjes",
+    logo: "snelle-hoofdjes.png",
     categorie: "Partners die we kennen",
     omschrijving:
       "Plusgroepen vanaf de derde kleuterklas, mindsettraining in groep en individueel, en advies voor ouders en scholen, door een mama die ervaringsdeskundige is.",
@@ -191,6 +196,7 @@ export const organisaties: Organisatie[] = [
   },
   {
     naam: "De Groeitrap",
+    logo: "de-groeitrap.png",
     categorie: "Partners die we kennen",
     omschrijving:
       "Kindercentrum met IQ-testing door een psycholoog of orthopedagoog, van 0 tot 21 jaar. Ook logopedie, kinesitherapie, psychologie en coaching.",
