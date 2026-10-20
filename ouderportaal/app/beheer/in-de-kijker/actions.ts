@@ -226,9 +226,37 @@ export async function zetZichtbaar(formData: FormData) {
   const id = String(formData.get("id") || "");
   const zichtbaar = String(formData.get("zichtbaar") || "") === "ja";
 
+  /*
+    Een bericht dat een bezoeker instuurde, heeft nooit een beeld: het
+    formulier op de website haalt er geen op. Kim op 20 oktober 2026: "er
+    komen geen foto's bij de prenten van in de kijker". Zet je zo'n bericht
+    op de site, dan halen we nu het beeld van de link erbij, net zoals bij
+    een bericht dat je zelf toevoegt. Facebook en Instagram geven dat niet
+    vrij; daar laad je zelf een beeld op met "Beeld toevoegen".
+  */
+  let beeld: string | null = null;
+  if (zichtbaar) {
+    const { data: rij } = await db
+      .from("kijker_posts")
+      .select("beeld, link")
+      .eq("id", id)
+      .maybeSingle();
+    const huidig = rij as { beeld: string | null; link: string } | null;
+    if (huidig && !huidig.beeld && huidig.link) {
+      try {
+        const gevonden = await leesLink(schoonLink(huidig.link));
+        if (gevonden.beeldUrl) {
+          beeld = await beeldVanLinkBewaren(db, gevonden.beeldUrl);
+        }
+      } catch {
+        /* Geen beeld is geen reden om het bericht niet op de site te zetten. */
+      }
+    }
+  }
+
   const { error } = await db
     .from("kijker_posts")
-    .update({ zichtbaar, gezien: true })
+    .update(beeld ? { zichtbaar, gezien: true, beeld } : { zichtbaar, gezien: true })
     .eq("id", id);
 
   if (error) {

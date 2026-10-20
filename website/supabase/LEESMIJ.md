@@ -13,6 +13,7 @@ gaat niets verloren en er komt niets dubbel bij.
 | `prikbord.sql` | Het prikbord waar ouders zelf een briefje ophangen, en de meldknop daarbij. | Het prikbord blijft leeg en een nieuw briefje raakt niet weg. |
 | `social.sql` | De pagina In de kijker: de berichten van sociale media die op de site komen, en het bakje waar hun beelden in gaan. | De pagina toont enkel de berichten die in `content/inkijker.ts` staan, en insturen kan niet. |
 | `gids.sql` | Het formulier onderaan Waar kan je terecht, waarmee iemand een organisatie of zichzelf aanbrengt. Je keurt ze goed in het ouderportaal bij Beheer, Gids. | Het formulier zegt dat aanbrengen nog niet kan, en de gids toont enkel wat in `content/gids.ts` staat. |
+| `gids-logo.sql` | Een logo bij een organisatie die iemand aanbracht. Je laadt het op in het ouderportaal bij Beheer, Gids. | De gids werkt gewoon, maar die organisaties staan er zonder logo, met hun naam in het vakje. |
 
 ## Waarom dat zo gescheiden is
 

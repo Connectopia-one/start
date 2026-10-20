@@ -21,6 +21,7 @@ import { sorteerHoofdstukken } from "@/lib/hoofdstukvolgorde";
 import { vakIcoon } from "@/lib/vakbeeld";
 import { vindCategorienoot } from "@/inhoud/categorienoten";
 import { Categorienoot } from "@/components/Categorienoot";
+import { Zoekvak } from "@/components/Zoekvak";
 
 type Hoofdstuk = {
   id: string;
@@ -112,6 +113,9 @@ export default async function NiveauPage({
         {/* Voor wie deze vakken zijn. De tekst staat in
             inhoud/categorienoten.ts, zodat aanpassen geen code vraagt. */}
         {noot && <Categorienoot noot={noot} />}
+
+        {/* Zoeken in alle vakken van dit niveau, ook in de vragen. */}
+        {tegels.length > 0 && <Zoekvak niveau={niveau.slug} />}
 
         {!volledigeToegang && (
           <div className="mt-6 rounded-xl border border-amber/40 bg-amber/10 px-5 py-4 text-sm text-ink">

@@ -176,7 +176,13 @@ function LogoBalk({ organisatie }: { organisatie: Organisatie }) {
       {organisatie.logo ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img
-          src={`/gids/${organisatie.logo}`}
+          src={
+            /* Een aangebrachte organisatie heeft een volledig webadres uit de
+               databank, de vaste lijst een bestand in public/gids/. */
+            organisatie.logo.startsWith("https://")
+              ? organisatie.logo
+              : `/gids/${organisatie.logo}`
+          }
           alt={`Logo van ${organisatie.naam}`}
           className="max-h-14 w-auto max-w-[80%] object-contain object-left"
         />

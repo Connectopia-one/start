@@ -7,6 +7,7 @@ import {
   verwijderAanmelding,
   zetZichtbaar,
 } from "./actions";
+import { LogoForm } from "./LogoForm";
 
 /* De aanmeldingen komen binnen terwijl je kijkt, dus niets bewaren. */
 export const dynamic = "force-dynamic";
@@ -23,6 +24,7 @@ type Aanmelding = {
   volledige_naam: string | null;
   contact: string | null;
   created_at: string;
+  logo?: string | null;
 };
 
 function tijdstip(waarde: string) {
@@ -47,13 +49,24 @@ export default async function GidsBeheer({
   const naam = session.profile?.full_name ?? session.email ?? "";
 
   const db = createAdminClient();
-  const { data, error } = await db
+  const kolommen =
+    "id, naam, omschrijving, regio, link, wie, zichtbaar, gezien, volledige_naam, contact, created_at";
+
+  /* Eerst met het logo. Draaide website/supabase/gids-logo.sql nog niet, dan
+     bestaat die kolom niet: dan lezen we zonder, en zegt het logovak wat er
+     nog moet gebeuren. */
+  const metLogo = await db
     .from("gids_aanmeldingen")
-    .select(
-      "id, naam, omschrijving, regio, link, wie, zichtbaar, gezien, volledige_naam, contact, created_at",
-    )
+    .select(`${kolommen}, logo`)
     .order("created_at", { ascending: false })
     .limit(200);
+  const { data, error } = metLogo.error
+    ? await db
+        .from("gids_aanmeldingen")
+        .select(kolommen)
+        .order("created_at", { ascending: false })
+        .limit(200)
+    : metLogo;
 
   const leesfout = error
     ? tabelOntbreekt(error, "voor de gids", "website/supabase/gids.sql") ??
@@ -200,6 +213,15 @@ export default async function GidsBeheer({
                   </button>
                 </div>
               </form>
+
+              <LogoForm
+                id={a.id}
+                logoAdres={
+                  a.logo
+                    ? db.storage.from("social").getPublicUrl(a.logo).data.publicUrl
+                    : null
+                }
+              />
 
               {a.link && (
                 <a

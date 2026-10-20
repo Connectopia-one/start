@@ -19,6 +19,7 @@ import { vindNiveau } from "@/lib/niveaus";
 import { sorteerHoofdstukken } from "@/lib/hoofdstukvolgorde";
 import { vakIcoon } from "@/lib/vakbeeld";
 import { vindVaknoot } from "@/inhoud/vaknoten";
+import { Zoekvak } from "@/components/Zoekvak";
 
 /*
   De hoofdstukken van één vak binnen één niveau. Dit is de tweede laag knoppen:
@@ -121,6 +122,10 @@ export default async function NiveauVakPage({
             </Link>
           </div>
         )}
+
+        {/* Onze titels volgen de vakfiche, niet het boek van het kind. Het
+            zoekvak zoekt ook in de vragen, zie app/zoeken/page.tsx. */}
+        <Zoekvak niveau={niveau.slug} vak={vak.slug} vakNaam={vak.naam} />
 
         <HoofdstukTegels
           vakSlug={vak.slug}

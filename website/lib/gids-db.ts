@@ -29,10 +29,20 @@ export function gidsDbKlaar() {
 export async function haalGoedgekeurde(): Promise<Organisatie[]> {
   const db = verbinding();
   if (!db) return [];
-  const { data, error } = await db
+
+  /* Eerst met het logo. Draaide supabase/gids-logo.sql nog niet, dan bestaat
+     die kolom niet en lezen we gewoon zonder: dan staan ze er zonder logo,
+     in plaats van helemaal niet. */
+  const metLogo = await db
     .from("gids_aanmeldingen")
-    .select("naam, omschrijving, regio, link")
+    .select("naam, omschrijving, regio, link, logo")
     .limit(200);
+  const { data, error } = metLogo.error
+    ? await db
+        .from("gids_aanmeldingen")
+        .select("naam, omschrijving, regio, link")
+        .limit(200)
+    : metLogo;
   if (error) {
     /* Bestaat de tabel nog niet, dan staat gewoon de vaste lijst er. */
     console.error("Gids lezen mislukt:", error.message);
@@ -44,6 +54,7 @@ export async function haalGoedgekeurde(): Promise<Organisatie[]> {
       omschrijving: string;
       regio: string | null;
       link: string | null;
+      logo?: string | null;
     }[]
   ).map((rij) => ({
     naam: rij.naam,
@@ -51,6 +62,11 @@ export async function haalGoedgekeurde(): Promise<Organisatie[]> {
     omschrijving: rij.omschrijving,
     regio: rij.regio ?? undefined,
     link: rij.link ?? undefined,
+    /* Het logo staat in de open bak "social"; daar maken we een volledig
+       webadres van. */
+    logo: rij.logo
+      ? db.storage.from("social").getPublicUrl(rij.logo).data.publicUrl
+      : undefined,
   }));
 }
 

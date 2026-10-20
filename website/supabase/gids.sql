@@ -31,6 +31,8 @@ create table if not exists public.gids_aanmeldingen (
   gezien boolean not null default false,
   volledige_naam text check (char_length(volledige_naam) <= 120),
   contact text check (char_length(contact) <= 120),
+  -- Een logo in de open bak "social", map gids/. Zie gids-logo.sql.
+  logo text check (char_length(logo) <= 300),
   created_at timestamptz not null default now()
 );
 
@@ -63,7 +65,7 @@ create policy "iedereen brengt een organisatie aan"
   with check (true);
 
 revoke all on public.gids_aanmeldingen from anon, authenticated;
-grant select (id, naam, omschrijving, regio, link)
+grant select (id, naam, omschrijving, regio, link, logo)
   on public.gids_aanmeldingen to anon, authenticated;
 grant insert (naam, omschrijving, regio, link, wie, volledige_naam, contact)
   on public.gids_aanmeldingen to anon, authenticated;

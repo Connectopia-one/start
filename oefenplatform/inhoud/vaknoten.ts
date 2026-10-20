@@ -15,6 +15,21 @@
   zeker in de tijd dat kinderen sneller in aanraking komen met Engels."
 */
 
+
+/*
+  Kelly, een mama uit de testgroep, op 20 oktober 2026: haar zoon is niet
+  sterk in Frans en begon bij de eerste oefening, een tekst. Die was te hoog
+  gegrepen, en omdat ze bovenaan stond dacht hij dat het daarna nog moeilijker
+  werd. De volgorde volgt de vakfiche van de Examencommissie, niet de
+  moeilijkheid. Dat zeggen we nu boven Frans.
+*/
+const fransVolgorde =
+  "De hoofdstukken staan in de volgorde van de vakfiche van de " +
+  "Examencommissie, niet van makkelijk naar moeilijk. Een tekst lezen staat " +
+  "bovenaan, maar is voor veel jongeren net het moeilijkste. Is Frans niet " +
+  "je sterkste vak, begin dan gerust bij de woordenschat of de grammatica, " +
+  "en kom later terug naar de teksten.";
+
 export const vaknoten: Record<string, string> = {
   "start/engels":
     "Engels hoort niet bij de minimumdoelen van het lager onderwijs. Wij zetten " +
@@ -74,6 +89,16 @@ export const vaknoten: Record<string, string> = {
     "examens afleggen: biologie, chemie en fysica. Volg je een richting met één " +
     "examen wetenschappen, dan heb je het vak natuurwetenschappen nodig in " +
     "plaats van dit vak.",
+
+  "spark/frans": fransVolgorde,
+
+  "boost-doorstroom/frans": fransVolgorde,
+
+  "boost-dubbele-finaliteit/frans": fransVolgorde,
+
+  "beyond-doorstroom/frans": fransVolgorde,
+
+  "beyond-dubbele-finaliteit/frans": fransVolgorde,
 };
 
 /** De noot bij dit vak in deze categorie, of niets. */
