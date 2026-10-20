@@ -195,7 +195,7 @@ export const organisaties: Organisatie[] = [
     omschrijving:
       "Kindercentrum met IQ-testing door een psycholoog of orthopedagoog, van 0 tot 21 jaar. Ook logopedie, kinesitherapie, psychologie en coaching.",
     regio: "Wilsele en Bertem",
-    link: "https://www.degroeitrap.be/nl/iq-test-leuven",
+    link: "https://www.degroeitrap.be",
   },
 ];
 
