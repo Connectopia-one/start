@@ -205,6 +205,37 @@ export const organisaties: Organisatie[] = [
   },
 ];
 
+/*
+  Logo's voor organisaties die zich via het formulier aanmeldden. Die staan in
+  de databank, niet in de lijst hierboven. Je kan hun logo ook in het
+  ouderportaal opladen (Beheer, Gids); staat het daar, dan gaat dat voor.
+
+  De sleutel is hun website zonder https:// en www., zodat het logo blijft
+  kloppen als de naam in het beheer nog wat aangepast wordt. Het bestand
+  staat in  public/gids/
+*/
+export const logosAangebracht: Record<string, string> = {
+  "agapei.be": "agapei.png",
+  "brightstarcoaching.be": "bright-star-coaching.png",
+  "claro.nu": "claro.png",
+  "itoswetteren.be": "itos.png",
+  "nelevervaeck.be": "nele-vervaeck.png",
+  "praktijkdeboomhut.be": "praktijk-de-boomhut.png",
+  "spring-stof.be": "spring-stof.png",
+  "talentvol.be": "talentvol.png",
+};
+
+/* "https://Www.nelevervaeck.be/x" wordt "nelevervaeck.be". */
+export function logoVoorLink(link?: string | null): string | undefined {
+  if (!link) return undefined;
+  try {
+    const host = new URL(link).hostname.toLowerCase().replace(/^www\./, "");
+    return logosAangebracht[host];
+  } catch {
+    return undefined;
+  }
+}
+
 /* Alfabetisch, zodat de volgorde geen rangschikking is. */
 export function organisatiesPerCategorie(
   categorie: string,

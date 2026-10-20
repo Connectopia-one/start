@@ -1,7 +1,7 @@
 import "server-only";
 import { createClient } from "@supabase/supabase-js";
 import type { Organisatie } from "@/content/gids";
-import { gidsTekst } from "@/content/gids";
+import { gidsTekst, logoVoorLink } from "@/content/gids";
 
 /*
   De organisaties die iemand via het formulier onderaan de gids aanbracht.
@@ -66,7 +66,7 @@ export async function haalGoedgekeurde(): Promise<Organisatie[]> {
        webadres van. */
     logo: rij.logo
       ? db.storage.from("social").getPublicUrl(rij.logo).data.publicUrl
-      : undefined,
+      : logoVoorLink(rij.link),
   }));
 }
 
