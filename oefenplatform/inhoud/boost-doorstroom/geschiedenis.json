@@ -2601,7 +2601,12 @@
         {
           "type": "invultekst",
           "vraag": "Welke Franse koning noemde men de Zonnekoning?",
-          "antwoord": "Lodewijk XIV",
+          "antwoord": [
+            "Lodewijk XIV",
+            "Lodewijk 14",
+            "Lodewijk de Veertiende",
+            "Louis XIV"
+          ],
           "uitleg": "Hij regeerde tweeënzeventig jaar en bouwde Versailles. De zon in het midden, en alles eromheen dat draait: dat was het beeld."
         },
         {
@@ -3526,7 +3531,15 @@
         {
           "type": "invultekst",
           "vraag": "Welke Ottomaanse sultan noemde men in het Westen 'de Prachtlievende'?",
-          "antwoord": "Suleyman",
+          "antwoord": [
+            "Suleyman I",
+            "Suleyman",
+            "Suleiman I",
+            "Suleiman",
+            "Soliman I",
+            "Soliman",
+            "Suleyman de Eerste"
+          ],
           "uitleg": "Suleyman I regeerde van 1520 tot 1566. In eigen land noemde men hem vooral de Wetgever."
         },
         {

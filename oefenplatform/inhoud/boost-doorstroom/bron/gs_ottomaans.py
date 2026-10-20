@@ -111,7 +111,7 @@ DEEL1 = [
     dict(
         type="invultekst",
         vraag="Welke Ottomaanse sultan noemde men in het Westen 'de Prachtlievende'?",
-        antwoord="Suleyman",
+        antwoord=["Suleyman I", "Suleyman", "Suleiman I", "Suleiman", "Soliman I", "Soliman", "Suleyman de Eerste"],
         uitleg="Suleyman I regeerde van 1520 tot 1566. In eigen land noemde men hem vooral de Wetgever.",
     ),
     dict(

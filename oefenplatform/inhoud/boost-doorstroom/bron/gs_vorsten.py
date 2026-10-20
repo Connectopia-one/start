@@ -45,7 +45,7 @@ DEEL1 = [
     dict(
         type="invultekst",
         vraag="Welke Franse koning noemde men de Zonnekoning?",
-        antwoord="Lodewijk XIV",
+        antwoord=["Lodewijk XIV", "Lodewijk 14", "Lodewijk de Veertiende", "Louis XIV"],
         uitleg="Hij regeerde tweeënzeventig jaar en bouwde Versailles. De zon in het midden, en alles eromheen dat draait: dat was het beeld.",
     ),
     dict(
