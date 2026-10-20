@@ -281,12 +281,23 @@ export default async function HomePage() {
 async function gevuldeNiveaus(): Promise<Set<string>> {
   const alles = new Set(NIVEAUS.map((n) => n.slug));
   try {
+    /* Per categorie één rij, tegelijk opgevraagd. Alle hoofdstukken ophalen
+       kan niet meer: het zijn er bijna tweeduizend, en de databank geeft er
+       hoogstens duizend terug, dus een categorie achteraan viel soms weg. */
     const supabase = await createClient();
-    const { data, error } = await supabase
-      .from("hoofdstukken")
-      .select("niveau");
-    if (error || !data || data.length === 0) return alles;
-    return new Set((data as { niveau: string }[]).map((h) => h.niveau));
+    const gevonden = await Promise.all(
+      NIVEAUS.map(async (n) => {
+        const { data, error } = await supabase
+          .from("hoofdstukken")
+          .select("id")
+          .eq("niveau", n.slug)
+          .limit(1);
+        if (error) throw error;
+        return data?.length ? (n.slug as string) : null;
+      }),
+    );
+    const gevuld = gevonden.filter((slug): slug is string => slug !== null);
+    return gevuld.length ? new Set(gevuld) : alles;
   } catch {
     return alles;
   }

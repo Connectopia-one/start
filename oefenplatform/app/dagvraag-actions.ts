@@ -80,23 +80,44 @@ export async function haalDagvraag(niveauSlug: string | null): Promise<DagvraagA
   // een leeg kader.
   const niveau = niveauSlug && niveaus.includes(niveauSlug) ? niveauSlug : null;
 
-  // Eerst tellen hoeveel vragen in aanmerking komen, dan er precies één
-  // ophalen met de dag als plaatsnummer. Zo hoeft er nooit een lijst van
-  // duizenden vragen over de lijn, en toch is de keuze voor iedereen dezelfde.
+  /* Eerst een hoofdstuk kiezen, dan een vraag daaruit. Vroeger telden en
+     doorzochten we alle vragen samen, maar dat zijn er intussen bijna veertig
+     duizend, en de leesregel van de databank kijkt bij elke vraag na of het
+     hoofdstuk gratis is. Dat duurde seconden, en zolang die vraag liep, bleef
+     het hele oefenplatform hangen: Next voert de acties van een pagina één
+     voor één uit, ook een klik op een link wacht tot de vorige klaar is.
+     Een hoofdstuk kiezen gaat over een paar duizend rijen, en daarna blijven
+     er hoogstens een veertigtal vragen over. De keuze ligt nog altijd vast
+     per dag en per categorie. */
   let tellen = supabase
-    .from("vragen")
-    .select(VELDEN, { count: "exact", head: true })
-    .in("type", SOORTEN);
-  if (!volledig) tellen = tellen.eq("hoofdstukken.gratis", true);
-  if (niveau) tellen = tellen.eq("hoofdstukken.niveau", niveau);
+    .from("hoofdstukken")
+    .select("id", { count: "exact", head: true });
+  if (!volledig) tellen = tellen.eq("gratis", true);
+  if (niveau) tellen = tellen.in("niveau", [niveau]);
+  else tellen = tellen.in("niveau", niveaus);
   const { count } = await tellen;
   if (!count) return { vraag: null, niveaus, achterSlot: !volledig };
 
-  const plek = zaad(`${vandaagSleutel()}|${niveau ?? "alles"}`) % count;
-  let halen = supabase.from("vragen").select(VELDEN).in("type", SOORTEN).order("id");
-  if (!volledig) halen = halen.eq("hoofdstukken.gratis", true);
-  if (niveau) halen = halen.eq("hoofdstukken.niveau", niveau);
-  const { data } = await halen.range(plek, plek);
+  const dag = zaad(`${vandaagSleutel()}|${niveau ?? "alles"}`);
+  let data: unknown[] | null = null;
+  // Een hoofdstuk met enkel invulvragen levert niets op; dan het volgende.
+  for (let poging = 0; poging < 5 && !data?.length; poging++) {
+    let hoofdstuk = supabase.from("hoofdstukken").select("id").order("id");
+    if (!volledig) hoofdstuk = hoofdstuk.eq("gratis", true);
+    if (niveau) hoofdstuk = hoofdstuk.in("niveau", [niveau]);
+    else hoofdstuk = hoofdstuk.in("niveau", niveaus);
+    const plek = (dag + poging) % count;
+    const { data: gekozen } = await hoofdstuk.range(plek, plek);
+    const id = (gekozen ?? [])[0]?.id as string | undefined;
+    if (!id) break;
+    const { data: vragen } = await supabase
+      .from("vragen")
+      .select(VELDEN)
+      .eq("hoofdstuk_id", id)
+      .in("type", SOORTEN)
+      .order("id");
+    data = vragen?.length ? [vragen[dag % vragen.length]] : null;
+  }
 
   const rij = ((data ?? [])[0] as unknown as RuweVraag) ?? null;
   if (!rij) return { vraag: null, niveaus, achterSlot: !volledig };
@@ -141,11 +162,17 @@ async function afbeelding(pad: string | null): Promise<string | null> {
 
 /** In welke categorieën deze bezoeker iets te zien krijgt, in de vaste volgorde. */
 async function beschikbareNiveaus(volledig: boolean): Promise<string[]> {
+  /* Per categorie één rij opvragen. Alle hoofdstukken ophalen ging niet meer:
+     het zijn er bijna tweeduizend, en de databank geeft er hoogstens duizend
+     terug, zodat een categorie achteraan soms gewoon ontbrak. */
   const supabase = await createClient();
-  let zoek = supabase.from("hoofdstukken").select("niveau");
-  if (!volledig) zoek = zoek.eq("gratis", true);
-  const { data } = await zoek;
-
-  const gevonden = new Set((data ?? []).map((h) => h.niveau as string));
-  return NIVEAUS.filter((n) => gevonden.has(n.slug)).map((n) => n.slug);
+  const gevonden = await Promise.all(
+    NIVEAUS.map(async (n) => {
+      let zoek = supabase.from("hoofdstukken").select("id").eq("niveau", n.slug);
+      if (!volledig) zoek = zoek.eq("gratis", true);
+      const { data } = await zoek.limit(1);
+      return data?.length ? (n.slug as string) : null;
+    }),
+  );
+  return gevonden.filter((slug): slug is string => slug !== null);
 }
