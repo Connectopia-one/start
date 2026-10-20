@@ -64,13 +64,24 @@ export const kijkje = {
       "Een tafel vol karton, een bord vol planeten en kinderen die er zelf iets van maken.",
     knop: "Bekijk alle foto's",
     bestanden: [
-      "wat-zou-jij-hiermee-creeren.jpg",
+      "samen-aan-de-laptop.jpg",
+      "boeken-over-geschiedenis.jpg",
       "van-tekening-naar-maquette.jpg",
-      "plusklas-tafel.jpg",
     ],
   },
 
   fotos: [
+    {
+      bestand: "boeken-over-geschiedenis.jpg",
+      bijschrift: "Plusklas op dinsdag: van grotschilderingen tot het oude Rome, met een tafel vol boeken om in te bladeren.",
+      alt: "Klaslokaal met geschiedenisboeken op de tafels vooraan en grotschilderingen op het grote scherm",
+    },
+    {
+      bestand: "samen-aan-de-laptop.jpg",
+      bijschrift: "De grote helpt de kleine: samen iets opzoeken op de laptop.",
+      alt: "Een oudere en een jongere jongen werken samen op een laptop, een meisje zit naast hen aan tafel",
+      gezichten: true,
+    },
     {
       bestand: "wat-zou-jij-hiermee-creeren.jpg",
       bijschrift:

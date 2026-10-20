@@ -115,9 +115,9 @@ export const trajecten: Traject[] = [
       },
     ],
     foto: {
-      bestand: "externe-plusklas.jpg",
+      bestand: "externe-plusklas-geschiedenis.jpg",
       beschrijving:
-        "Drie kinderen in de plusklas tonen trots hun zelfgemaakte schaakspel en kartonnen molen.",
+        "Een dinsdag in de plusklas: op de tafels liggen boeken over geschiedenis, op het grote scherm staan grotschilderingen en de kinderen werken in kleine groepjes.",
     },
     tekst:
       "Onze plusklas is meer dan extra uitdaging. Het is een veilige haven waar gelijkgestemde kinderen samen een diepgaand leertraject aangaan, met aandacht voor het proces, de samenwerking en het plezier in leren.",

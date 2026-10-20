@@ -114,6 +114,7 @@ export default function AanbodPagina() {
               <Foto
                 bestand={traject.foto.bestand}
                 beschrijving={traject.foto.beschrijving}
+                verhouding="vrij"
                 className="mt-5"
               />
             ) : null}

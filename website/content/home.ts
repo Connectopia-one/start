@@ -75,9 +75,9 @@ export const home = {
     Wil je even geen foto?  foto: null,
   */
   foto: {
-    bestand: "startpagina.jpg",
+    bestand: "startpagina-plusklas.jpg",
     beschrijving:
-      "Kinderen werken aan een lange tafel met laptops en boeken, een begeleidster kijkt mee.",
+      "Drie kinderen van de plusklas aan een tafel met een laptop en een open boek; twee jongens werken samen op de laptop.",
   },
 
   /*
