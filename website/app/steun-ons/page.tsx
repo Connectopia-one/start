@@ -46,6 +46,40 @@ export default async function SteunPagina() {
         </div>
       </Sectie>
 
+      {/* De verlanglijst, enkel als er een link is ingevuld. */}
+      {steun.verlanglijst.link ? (
+        <Sectie className="py-4">
+          <div className="rounded-[20px] bg-purple-soft px-6 py-5">
+            <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+              <div>
+                <span className="text-[14px] font-bold text-purple">
+                  {steun.verlanglijst.label}
+                </span>
+                <h2 className="mt-1 text-2xl text-green">
+                  {steun.verlanglijst.titel}
+                </h2>
+                <p className="mt-2 max-w-[60ch] text-[16px] text-ink">
+                  {steun.verlanglijst.tekst}
+                </p>
+              </div>
+              <div className="shrink-0">
+                <a
+                  href={steun.verlanglijst.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block rounded-full bg-purple px-6 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5"
+                >
+                  🎁 {steun.verlanglijst.knop} →
+                </a>
+                <p className="mt-1.5 text-[13.5px] text-ink-dim">
+                  {steun.verlanglijst.noot}
+                </p>
+              </div>
+            </div>
+          </div>
+        </Sectie>
+      ) : null}
+
       {/* Wat er met je steun gebeurt, in echte foto's uit de werking. */}
       <Sectie className="py-4">
         <ul className="grid grid-cols-3 gap-3 sm:gap-4">

@@ -9,6 +9,8 @@
     steun         alle teksten op de pagina
     steun.rekening  het rekeningnummer; zolang dat leeg is, zegt de pagina
                   dat we de gegevens op vraag bezorgen
+    steun.verlanglijst  de knop naar onze verlanglijst; zolang de link leeg
+                  is, staat het blok niet op de pagina
     steunVelden   de vragen op het formulier onderaan
 */
 
@@ -74,6 +76,23 @@ export const steun = {
       kleur: "purple" as const,
     },
   ],
+
+  /*
+    De verlanglijst. Kim op 20 oktober 2026: een gedeelde lijst (bijvoorbeeld
+    op Amazon) met materiaal en boeken die we nog graag voor de klas willen,
+    zodat iemand gericht iets kan geven. Plak de deellink van de lijst tussen
+    de aanhalingstekens bij "link". Zolang die leeg is, toont de pagina het
+    blok niet.
+  */
+  verlanglijst: {
+    link: "",
+    label: "Onze verlanglijst",
+    titel: "Weet je niet goed wat je kan geven?",
+    tekst:
+      "Op onze verlanglijst staan materialen en boeken die we nog graag voor de klas zouden hebben. Kies er iets uit, dan wordt het rechtstreeks naar ons gestuurd. Zo weet je zeker dat het gebruikt wordt.",
+    knop: "Bekijk onze verlanglijst",
+    noot: "De lijst opent in een nieuw venster.",
+  },
 
   /* Het kader onderaan, voor wie twijfelt of zijn idee wel meetelt. */
   breed: {
