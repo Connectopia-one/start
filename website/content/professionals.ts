@@ -43,7 +43,7 @@ export const professionals = {
     {
       titel: "Een plek om naar door te verwijzen",
       tekst:
-        "Kleine groepjes met gelijkgestemde kinderen van 6 tot 15 jaar, in Hasselt en Genk. Voor het kind dat op school alleen staat met zijn interesses, of dat vastloopt op verveling. Een gratis proefles kan altijd.",
+        "Kleine groepjes met gelijkgestemde kinderen van 6 tot 15 jaar, in Hasselt en Genk. Voor het kind dat op school alleen staat met zijn interesses, of dat vastloopt op verveling. Een keertje gratis meedoen kan altijd.",
       icoon: "🚀",
       kleur: "green" as const,
       link: { tekst: "Bekijk ons aanbod", href: "/aanbod" },

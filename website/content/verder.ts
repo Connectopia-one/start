@@ -24,7 +24,7 @@ export const verder = {
     {
       titel: "Ons aanbod",
       tekst:
-        "De externe plusklas, de pluswerkingen in Hasselt en Genk, Young Engineers en een kamp in elke schoolvakantie.",
+        "Een kamp in elke schoolvakantie, de Ontdekclub in Hasselt en Genk, Young Engineers, de externe plusklas en de pluswerking.",
       link: "/aanbod",
       knop: "Bekijk het aanbod",
     },

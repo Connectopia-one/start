@@ -25,6 +25,22 @@ const nextConfig: NextConfig = {
     return [
       { source: "/blog-en-tips", destination: "/blog", permanent: true },
       { source: "/blog-en-tips/:pad*", destination: "/blog", permanent: true },
+      /* De pluswerking op zaterdag heet sinds 19-10-2026 de Ontdekclub. */
+      {
+        source: "/aanvraag/info-pluswerking-zaterdag",
+        destination: "/aanvraag/info-ontdekclub",
+        permanent: true,
+      },
+      {
+        source: "/aanvraag/inschrijven-pluswerking-zaterdag",
+        destination: "/aanvraag/inschrijven-ontdekclub",
+        permanent: true,
+      },
+      {
+        source: "/aanvraag/proefles-pluswerking-zaterdag",
+        destination: "/aanvraag/proefles-ontdekclub",
+        permanent: true,
+      },
     ];
   },
 };

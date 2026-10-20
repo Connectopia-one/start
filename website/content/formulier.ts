@@ -73,12 +73,12 @@ export const soorten: Record<
     zonderAanbod: "Schrijf je in en maak kennis met ons en met ons aanbod.",
   },
   proefles: {
-    knop: "Gratis proefles",
-    titel: "Inschrijven voor een gratis proefles",
+    knop: "Gratis meedoen",
+    titel: "Kom een keertje gratis meedoen",
     label: "Gratis en vrijblijvend",
     tekst:
       "Je kind mag vrijblijvend een keer meedoen. Laat je gegevens achter, dan spreken we samen een datum af.",
-    onderwerp: "Aanvraag gratis proefles via de website",
+    onderwerp: "Aanvraag om gratis mee te doen via de website",
     zonderAanbod: "Schrijf je in en maak kennis met ons en met ons aanbod.",
   },
 };

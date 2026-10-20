@@ -39,10 +39,10 @@ export type Traject = {
 
 /* Het blok over de gratis proefles, bovenaan de aanbodpagina. */
 export const proefles = {
-  titel: "Eerst eens komen proeven?",
+  titel: "Kom gerust eerst een keertje gratis meedoen",
   tekst:
-    "Je kind mag vrijblijvend een gratis proefles meedoen. Zo voelt het zelf of de groep en de manier van werken passen, voor je iets vastlegt.",
-  knopTekst: "Schrijf in voor een gratis proefles",
+    "Je kind mag vrijblijvend een keertje gratis meedoen. Zo voelt het zelf of de groep en de manier van werken passen, voor je iets vastlegt.",
+  knopTekst: "Kom een keertje gratis meedoen",
 };
 
 /*
@@ -81,19 +81,19 @@ export const aanbodTekst = {
   dagtarief zit. Het stond nergens op de site, en wie het niet weet,
   vergelijkt enkel bedragen.
 
-  Dit gaat over de plusklas en de pluswerkingen; bij een kamp of een les
-  Young Engineers hoort geen schooloverleg. Klopt dat niet, pas dan de
-  titel hieronder aan.
+  Dit gaat over de plusklas en de pluswerking; bij een kamp, de Ontdekclub
+  of een les Young Engineers hoort geen schooloverleg. Titel zoals op het
+  drukwerk van 19 oktober 2026.
 */
 export const inbegrepen = {
-  titel: "Dit zit er bij de plusklas en de pluswerkingen altijd bij",
+  titel: "Bij de plusklas en de pluswerking zit ook inbegrepen:",
   tekst:
     "Je betaalt bij ons het dagtarief, en verder niets. Wat andere organisaties apart aanrekenen, zit bij ons in de prijs.",
   punten: [
     "Al het materiaal waarmee de kinderen werken",
     "Gesprekken met de school van je kind, gratis",
     "Verschillende overlegmomenten met jou als ouder",
-    "Een gratis proefles voor je iets vastlegt",
+    "Een keertje gratis meedoen voor je iets vastlegt",
   ],
 };
 
@@ -113,7 +113,6 @@ export const trajecten: Traject[] = [
         label: "Waar",
         waarde: "Atheneum Hasselt, Kleine-Breemstraat 33, 3500 Hasselt",
       },
-      { label: "Opbouw", waarde: "3 trajecten van telkens 10 dagen" },
     ],
     foto: {
       bestand: "externe-plusklas.jpg",
@@ -164,18 +163,31 @@ export const trajecten: Traject[] = [
         "Instappen kan altijd. Je kind kan op eender welke woensdag starten.",
     },
   },
+  /*
+    De Ontdekclub vervangt sinds 19 oktober 2026 de pluswerking op zaterdag.
+    Young Engineers is er één van de hoeken; de aparte les Young Engineers
+    loopt op hetzelfde moment in een eigen lokaal (zie hieronder).
+    Oude links naar pluswerking-zaterdag sturen door, zie next.config.ts.
+  */
   {
-    slug: "pluswerking-zaterdag",
-    naam: "Pluswerking zaterdag",
-    ondertitel: "Creativiteit en techniek laten samenkomen",
+    slug: "ontdekclub",
+    naam: "De Ontdekclub",
+    ondertitel: "Bouwen, knutselen, spelen en elkaar ontmoeten",
     kleur: "orange",
-    icoon: "🎨",
+    icoon: "🧩",
     leeftijd: "6 tot 15 jaar",
-    prijs: "€25 per 3 uur",
+    prijs: "€25 per keer",
     prijsWas: "€30",
     regels: [
-      { label: "Wanneer", waarde: "Zaterdagvoormiddag, 9u – 12u" },
-      { label: "Waar", waarde: "Vilderstraat 28, 3500 Hasselt" },
+      {
+        label: "Zaterdag",
+        waarde: "9u – 12u, Level X 28, Vilderstraat 28, 3500 Hasselt",
+      },
+      {
+        label: "Woensdag",
+        waarde: "13u – 16u, T2 Campus, Thor Park 8040, 3600 Genk",
+      },
+      { label: "Ouders", waarde: "Je mag gratis blijven, in onze ouderruimte" },
     ],
     foto: {
       bestand: "pluswerking-zaterdag.jpg",
@@ -183,36 +195,40 @@ export const trajecten: Traject[] = [
         "Een kind houdt een groene ballon boven een tekening tijdens een proefje met statische elektriciteit.",
     },
     tekst:
-      "Voor kinderen die extra uitdaging zoeken en een creatieve uitlaatklep nodig hebben. Verbeelding aanzetten, vaardigheden ontdekken en vooral: plezier beleven.",
+      "In de Ontdekclub kiest je kind zelf waar het aan werkt. Er is ruimte voor wie graag praat en voor wie liever stil bezig is. De groep is klein, de ruimte is prikkelarm, en elk kind vindt er kinderen die op dezelfde golflengte zitten. En jij mag blijven: drink een koffie met andere ouders, doe mee aan een spel of werk rustig aan je laptop. Thuiswerken mag hier ook.",
     punten: [
-      "Creatief denken en techniek ontdekken",
-      "Experimenteren, bouwen en ontwerpen",
+      "Bouwen en techniek, samen met Young Engineers: robots, proefjes en bouwpakketten",
+      "Crea: verven, knippen, plakken en bouwen met karton",
+      "Spellen: schaken en gezelschapsspellen, ook voor twee",
+      "Een stille hoek om even rustig te lezen of te puzzelen",
     ],
     instappen: {
       tekst:
-        "Instappen kan altijd. Je kind kan op eender welke zaterdag starten.",
+        "Instappen kan altijd. Je kind kan op eender welke zaterdag of woensdag starten.",
     },
   },
   {
     slug: "young-engineers",
     naam: "Young Engineers",
-    ondertitel: "Naschoolse activiteiten rond STEM en techniek",
+    ondertitel: "Bouwen, programmeren en uitvinden",
     kleur: "blue",
     icoon: "⚙️",
     leeftijd: "6 tot 15 jaar",
     prijs: "€20 per les",
     prijsWas: "€25",
     regels: [
-      { label: "Dinsdag", waarde: "15u20 – 16u35, Atheneum Hasselt" },
-      {
-        label: "Woensdag",
-        waarde: "13u – 14u15 of 14u15 – 15u30, Genk T2 Campus",
-      },
       {
         label: "Zaterdag",
-        waarde: "13u – 14u15 of 14u15 – 15u30, Vilderstraat 28 Hasselt",
+        waarde: "10u – 11u30, Level X 28, Vilderstraat 28, Hasselt",
       },
-      { label: "Duur", waarde: "Eén les duurt 1u15" },
+      {
+        label: "Woensdag",
+        waarde: "13u30 – 14u45, T2 Campus, Thor Park 8040, Genk",
+      },
+      {
+        label: "Samen met",
+        waarde: "Op hetzelfde moment als de Ontdekclub, in een eigen lokaal",
+      },
     ],
     foto: {
       bestand: "young-engineers.jpg",
@@ -220,10 +236,10 @@ export const trajecten: Traject[] = [
         "Een zelfgebouwde constructie van lego met een motor, een tandwiel en twee bakjes die op en neer gaan.",
     },
     tekst:
-      "Ontdekken, experimenteren, bouwen en vooral plezier maken. Met LEGO® en techniek echte uitdagingen aangaan, samenwerken en trots zijn op je werk.",
+      "Ontdekken, experimenteren, bouwen en vooral plezier maken. Met LEGO® en techniek echte uitdagingen aangaan, samenwerken en trots zijn op je werk. De les loopt tegelijk met de Ontdekclub, dus broers en zussen kunnen op hetzelfde moment komen.",
     instappen: {
       tekst:
-        "Instappen kan altijd. Je kiest zelf of je op dinsdag, woensdag of zaterdag start.",
+        "Instappen kan altijd. Je kiest zelf of je op zaterdag of woensdag start.",
     },
   },
   {
@@ -232,7 +248,7 @@ export const trajecten: Traject[] = [
     ondertitel: "Tijdens elke schoolvakantie",
     kleur: "green",
     icoon: "🏕️",
-    leeftijd: "6 tot 13 jaar",
+    leeftijd: "6 tot 15 jaar",
     prijs: "€40 per dag",
     regels: [
       { label: "Uren", waarde: "Elke dag van 9u tot 15u" },

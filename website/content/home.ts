@@ -25,7 +25,7 @@ export const home = {
         kleur: "green",
         titel: "Een activiteit voor mijn kind",
         tekst:
-          "Kampen in elke vakantie, de plusklas, de pluswerkingen, Young Engineers en naschoolse activiteiten. Voor élk kind, in kleine groepjes, prikkelarm en op maat.",
+          "Kampen in elke vakantie, de Ontdekclub, Young Engineers, de plusklas en de pluswerking. Voor élk kind, in kleine groepjes, prikkelarm en op maat.",
         knop: "Bekijk ons aanbod",
         link: "/aanbod",
       },

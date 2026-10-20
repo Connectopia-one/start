@@ -9,7 +9,7 @@ export const site = {
   vzw: "vzw",
   baseline: "Ruimte voor nieuwsgierigheid, talent en uitdaging",
   omschrijving:
-    "Connectopia vzw verbindt kinderen aan peers en ouders aan de juiste experts. Plusklas, pluswerkingen, Young Engineers en kampen voor nieuwsgierige kinderen.",
+    "Connectopia vzw verbindt kinderen aan peers en ouders aan de juiste experts. Kampen, de Ontdekclub, Young Engineers, plusklas en pluswerking voor nieuwsgierige kinderen.",
   afsluiter: "Samen bouwen we aan een toekomst vol mogelijkheden",
   socials: "@connectopia.one",
   /*
@@ -103,7 +103,7 @@ export const onderdelen: Onderdeel[] = [
       "Alles wat we zelf organiseren, met data, locaties, leeftijden en inschrijving op één pagina.",
     groep: "watwedoen",
     kleur: "orange",
-    label: "Gratis proefles",
+    label: "Gratis meedoen",
   },
   {
     slug: "/hulp-en-advies",
