@@ -85,7 +85,7 @@ export const steun = {
     blok niet.
   */
   verlanglijst: {
-    link: "",
+    link: "https://www.amazon.com.be/hz/wishlist/ls/3IOBVB3E26B1P",
     label: "Onze verlanglijst",
     titel: "Weet je niet goed wat je kan geven?",
     tekst:
