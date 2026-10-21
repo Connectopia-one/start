@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Quotes } from "@/components/Quotes";
 import {
   Foto,
+  Handjes,
   Icoon,
   Kaart,
   PaginaKop,
@@ -56,11 +57,7 @@ export default function AanbodPagina() {
 
       <Sectie className="grid gap-5 pb-8">
         {trajecten.map((traject) => (
-          <Kaart
-            key={traject.naam}
-            id={traject.slug}
-            className="scroll-mt-24"
-          >
+          <Kaart key={traject.naam} id={traject.slug} className="scroll-mt-24">
             <div className="flex flex-wrap items-start gap-4">
               <Icoon kleur={traject.kleur}>{traject.icoon}</Icoon>
               <div className="min-w-[14rem] flex-1">
@@ -189,11 +186,12 @@ export default function AanbodPagina() {
               ))}
             </ul>
           </div>
-          <div className="rounded-[20px] border border-border bg-surface px-7 py-6">
+          <div className="flex flex-col rounded-[20px] border border-border bg-surface px-7 py-6">
             <h2 className="text-2xl text-green">{voorbehouden.titel}</h2>
             <p className="mt-2 text-[16px] text-ink-dim">
               {voorbehouden.tekst}
             </p>
+            <Handjes className="mt-4 w-40 self-center md:mt-auto" />
           </div>
         </div>
 

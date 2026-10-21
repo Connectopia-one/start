@@ -170,6 +170,60 @@ export function Blad({ className = "" }: { className?: string }) {
 }
 
 /*
+  Twee handjes rond een hartje, bij de vrijgehouden plaatsen op /aanbod.
+  Kim op 21 oktober 2026: "een leuke tekening van helpende handjes of zoiets ?
+  of handen rond een hartje".
+*/
+export function Handjes({ className = "" }: { className?: string }) {
+  return (
+    <svg aria-hidden viewBox="0 0 160 140" className={className}>
+      <path
+        d="M80 94C54 78 48 52 62 44c9-5 16 1 18 8 2-7 9-13 18-8 14 8 8 34-18 50z"
+        fill="var(--orange)"
+        stroke="var(--green)"
+        strokeWidth="2.5"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M66 53c-3 4-3 10 0 14"
+        fill="none"
+        stroke="var(--cream)"
+        strokeWidth="3"
+        strokeLinecap="round"
+        opacity=".8"
+      />
+      {[false, true].map((rechts) => (
+        <g
+          key={String(rechts)}
+          transform={rechts ? "translate(160 0) scale(-1 1)" : undefined}
+          fill="var(--sage-soft)"
+          stroke="var(--green)"
+          strokeWidth="2.5"
+          strokeLinejoin="round"
+          strokeLinecap="round"
+        >
+          <path d="M26 136c-6-24 0-52 16-72 3-4 9-3 8 2-2 8 0 22 10 30 6 4 12 5 19 5-5 11-17 23-23 35z" />
+          <path
+            d="M33 92c1-10 5-18 10-24M30 106c1-10 4-18 8-24"
+            fill="none"
+            strokeWidth="1.8"
+            opacity=".6"
+          />
+        </g>
+      ))}
+      <g fill="var(--orange)" opacity=".7">
+        <path d="m24 30 2 6 6 2-6 2-2 6-2-6-6-2 6-2z" />
+        <path d="m132 22 1.5 4.5 4.5 1.5-4.5 1.5-1.5 4.5-1.5-4.5-4.5-1.5 4.5-1.5z" />
+      </g>
+      <g fill="var(--sage)">
+        <path d="M136 58c-5-4-6-9-3-10 2-1 3 1 3 2 0-1 1-3 3-2 3 1 2 6-3 10z" />
+        <path d="M80 26c-4-3-5-7-2.5-8 1.5-.6 2.5.8 2.5 1.6 0-.8 1-2.2 2.5-1.6 2.5 1 1.5 5-2.5 8z" />
+      </g>
+    </svg>
+  );
+}
+
+/*
   Eén link die zowel naar een pagina van deze site als naar een ander
   webadres kan wijzen. Externe adressen openen in een nieuw tabblad.
 */
