@@ -190,7 +190,7 @@ export const organisaties: Organisatie[] = [
     logo: "snelle-hoofdjes.png",
     categorie: "Partners die we kennen",
     omschrijving:
-      "Plusgroepen vanaf de derde kleuterklas, mindsettraining in groep en individueel, en advies voor ouders en scholen, door een mama die ervaringsdeskundige is.",
+      "Plusgroepen vanaf de eerste kleuterklas, mindsettraining in groep en individueel, en advies voor ouders en scholen, door een coach die ervaringsdeskundige is.",
     regio: "Oostakker",
     link: "https://www.snellehoofdjes.be",
   },
