@@ -153,18 +153,40 @@ export default function AanbodPagina() {
 
             {/* Info vragen of meteen inschrijven, allebei met een eigen formulier. */}
             <div className="mt-6 flex flex-wrap gap-3 border-t border-dashed border-border pt-5">
-              <Link
-                href={aanvraagLink("inschrijven", traject.slug)}
-                className="inline-block rounded-full bg-green px-6 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5 hover:bg-green-mid"
-              >
-                {soorten.inschrijven.knop} →
-              </Link>
+              {traject.inschrijvenLink ? (
+                <a
+                  href={traject.inschrijvenLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block rounded-full bg-green px-6 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5 hover:bg-green-mid"
+                >
+                  {soorten.inschrijven.knop} →
+                </a>
+              ) : (
+                <Link
+                  href={aanvraagLink("inschrijven", traject.slug)}
+                  className="inline-block rounded-full bg-green px-6 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5 hover:bg-green-mid"
+                >
+                  {soorten.inschrijven.knop} →
+                </Link>
+              )}
               <Link
                 href={aanvraagLink("info", traject.slug)}
                 className="inline-block rounded-full border-2 border-green px-6 py-3 text-[16px] font-extrabold text-green transition hover:-translate-y-0.5 hover:bg-sage-soft"
               >
                 {soorten.info.knop}
               </Link>
+              {traject.links?.map((l) => (
+                <a
+                  key={l.link}
+                  href={l.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block rounded-full border-2 border-green px-6 py-3 text-[16px] font-extrabold text-green transition hover:-translate-y-0.5 hover:bg-sage-soft"
+                >
+                  {l.tekst} ↗
+                </a>
+              ))}
             </div>
           </Kaart>
         ))}

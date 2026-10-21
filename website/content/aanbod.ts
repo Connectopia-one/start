@@ -35,6 +35,26 @@ export type Traject = {
     navragen. Dezelfde vorm als de gewone vragen in content/formulier.ts.
   */
   extraVragen?: Veld[];
+  /*
+    Knoppen naar een andere website, onderaan het traject naast de gewone
+    knoppen. Ze openen in een nieuw tabblad.
+  */
+  links?: { tekst: string; link: string }[];
+  /*
+    Schrijf je voor dit traject in op een andere website, zet dat adres dan
+    hier. De knop "Inschrijven" gaat dan daarheen in plaats van naar ons
+    eigen formulier.
+  */
+  inschrijvenLink?: string;
+};
+
+/*
+  Onze eigen Young Engineers-site (Demerland), aangepast aan Connectopia.
+  Kim gaf beide adressen door op 21 oktober 2026.
+*/
+export const youngEngineers = {
+  site: "https://www.demerland.e2youngengineers.com/",
+  inschrijven: "https://www.demerland.e2youngengineers.com/inschrijven/",
 };
 
 /* Het blok over de gratis proefles, bovenaan de aanbodpagina. */
@@ -206,6 +226,9 @@ export const trajecten: Traject[] = [
       tekst:
         "Instappen kan altijd. Je kind kan op eender welke zaterdag of woensdag starten.",
     },
+    links: [
+      { tekst: "Meer over Young Engineers", link: youngEngineers.site },
+    ],
   },
   {
     slug: "young-engineers",
@@ -241,6 +264,8 @@ export const trajecten: Traject[] = [
       tekst:
         "Instappen kan altijd. Je kiest zelf of je op zaterdag of woensdag start.",
     },
+    inschrijvenLink: youngEngineers.inschrijven,
+    links: [{ tekst: "Naar onze Young Engineers-site", link: youngEngineers.site }],
   },
   {
     slug: "vakantiekampen",

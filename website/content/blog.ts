@@ -636,6 +636,11 @@ export const berichten: Bericht[] = [
           "De plusklas kost voortaan 50 euro per dag in plaats van 60, een pluswerking 25 euro per drie uur in plaats van 30, en een les Young Engineers 20 euro in plaats van 25.",
       },
       {
+        soort: "knop",
+        tekst: "Meer over Young Engineers",
+        link: "https://www.demerland.e2youngengineers.com/",
+      },
+      {
         soort: "afbeelding",
         bestand: "vzw-duimen-omhoog.jpg",
         beschrijving:
@@ -1357,6 +1362,16 @@ export const berichten: Bericht[] = [
           },
           { tekst: "Eén les duurt 1u15. Instappen kan het hele jaar door." },
         ],
+      },
+      {
+        soort: "knop",
+        tekst: "Naar onze Young Engineers-site",
+        link: "https://www.demerland.e2youngengineers.com/",
+      },
+      {
+        soort: "knop",
+        tekst: "Rechtstreeks inschrijven",
+        link: "https://www.demerland.e2youngengineers.com/inschrijven/",
       },
       {
         soort: "afbeelding",
