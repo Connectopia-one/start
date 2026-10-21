@@ -1350,17 +1350,16 @@ export const berichten: Bericht[] = [
         soort: "lijst",
         punten: [
           {
-            tekst: "Dinsdag van 15u20 tot 16u35 in Atheneum Hasselt.",
+            tekst:
+              "Zaterdag van 10u tot 11u30 bij Level X 28, Vilderstraat 28 in Hasselt.",
+          },
+          {
+            tekst: "Woensdag van 13u30 tot 14u45 op T2 Campus in Genk.",
           },
           {
             tekst:
-              "Woensdag van 13u tot 14u15 of van 14u15 tot 15u30 in Genk T2 Campus.",
+              "De les loopt tegelijk met de Ontdekclub, in een eigen lokaal. Instappen kan het hele jaar door.",
           },
-          {
-            tekst:
-              "Zaterdag van 13u tot 14u15 of van 14u15 tot 15u30 in de Vilderstraat 28 in Hasselt.",
-          },
-          { tekst: "Eén les duurt 1u15. Instappen kan het hele jaar door." },
         ],
       },
       {
