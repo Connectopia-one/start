@@ -104,7 +104,7 @@ export function Antwoorden({
                 >
                   {poging.correct ? "Juist" : "Fout"} — {kindNaam} antwoordde:{" "}
                   <strong>
-                    {schrijfAntwoord(vraag, poging.gegeven_antwoord)}
+                    <Formule tekst={schrijfAntwoord(vraag, poging.gegeven_antwoord)} />
                   </strong>
                 </div>
 
@@ -112,7 +112,7 @@ export function Antwoorden({
                   <p className="mt-2 text-sm text-ink-dim">
                     Het juiste antwoord was:{" "}
                     <strong className="text-ink">
-                      {schrijfAntwoord(vraag, vraag.antwoord)}
+                      <Formule tekst={schrijfAntwoord(vraag, vraag.antwoord)} />
                     </strong>
                   </p>
                 )}

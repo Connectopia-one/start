@@ -553,7 +553,10 @@ function VraagKaart({
             })()}
           {!status.correct && vraag.type === "invultekst" && (
             <p className="mt-1 text-ink">
-              Juist was: <strong>{schrijfInvul(vraag.antwoord)}</strong>
+              Juist was:{" "}
+              <strong>
+                <Formule tekst={schrijfInvul(vraag.antwoord)} />
+              </strong>
             </p>
           )}
           {!status.correct && alsVakjes && vraag.opties && (
@@ -562,7 +565,16 @@ function VraagKaart({
                 ? `Er waren ${juisteKeuzes(vraag.antwoord).length} juiste antwoorden: `
                 : "Juist was: "}
               <strong>
-                {schrijfKeuzes(vraag.opties, juisteKeuzes(vraag.antwoord))}
+                {/* Een optie kan een formule zijn, zoals \(1\) liter. Zonder
+                    <Formule> stonden de schuine strepen van die markering hier
+                    gewoon in de verbetering. Sandy meldde dat op 21 oktober
+                    2026 bij "Hoeveel liter is een kubieke decimeter?". */}
+                <Formule
+                  tekst={schrijfKeuzes(
+                    vraag.opties,
+                    juisteKeuzes(vraag.antwoord),
+                  )}
+                />
               </strong>
             </p>
           )}

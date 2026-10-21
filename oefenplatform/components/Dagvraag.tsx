@@ -296,7 +296,9 @@ export function Dagvraag() {
                     : "Niet helemaal juist."}
               </p>
               {!correct && (
-                <p className="mt-1 text-ink">{juisteAntwoord(vraag)}</p>
+                <p className="mt-1 text-ink">
+                  <Formule tekst={juisteAntwoord(vraag)} />
+                </p>
               )}
               {vraag.uitleg && (
                 <p className="mt-1 text-ink">

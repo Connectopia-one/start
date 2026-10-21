@@ -150,14 +150,14 @@ export default async function HoofdstukAntwoordenPage({
                     >
                       Antwoord van {kind.naam}:{" "}
                       <strong>
-                        {formatAntwoord(vraag, laatste.gegeven_antwoord)}
+                        <Formule tekst={formatAntwoord(vraag, laatste.gegeven_antwoord)} />
                       </strong>
                     </div>
                     {!laatste.correct && (
                       <p className="mt-2 text-sm text-ink-dim">
                         Juiste antwoord:{" "}
                         <strong className="text-ink">
-                          {formatAntwoord(vraag, vraag.antwoord)}
+                          <Formule tekst={formatAntwoord(vraag, vraag.antwoord)} />
                         </strong>
                       </p>
                     )}

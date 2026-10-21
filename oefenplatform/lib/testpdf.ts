@@ -65,6 +65,11 @@ export type PdfGegevens = {
 */
 function leesbaar(tekst: string): string {
   return tekst
+    /* Een pdf kan geen formules tekenen. Zonder dit stond "\(1\) liter"
+       met schuine strepen in het verslag; nu staat er "1 liter". */
+    .replace(/\\\[([\s\S]+?)\\\]|\\\(([\s\S]+?)\\\)/g, (_, blok, lijn) =>
+      (blok ?? lijn).trim(),
+    )
     .replace(
       /\{\{\s*figuur\s+(\S+)\s+(\d+)\/(\d+)\s*\}\}/g,
       "($1: $2 van de $3 gekleurd)",
@@ -285,7 +290,7 @@ export async function maakTestPdf(g: PdfGegevens): Promise<Uint8Array> {
 
     const gegeven = schrijfAntwoord(vraag, poging.gegeven_antwoord);
     schrijf(
-      `${poging.correct ? "Juist" : "Fout"} — ${g.kindNaam} antwoordde: ${gegeven}`,
+      `${poging.correct ? "Juist" : "Fout"} — ${g.kindNaam} antwoordde: ${leesbaar(gegeven)}`,
       {
         grootte: 10,
         vetjes: true,
@@ -296,7 +301,7 @@ export async function maakTestPdf(g: PdfGegevens): Promise<Uint8Array> {
 
     if (!poging.correct) {
       schrijf(
-        `Het juiste antwoord was: ${schrijfAntwoord(vraag, vraag.antwoord)}`,
+        `Het juiste antwoord was: ${leesbaar(schrijfAntwoord(vraag, vraag.antwoord))}`,
         {
           grootte: 10,
           inspringen: 12,
@@ -305,7 +310,7 @@ export async function maakTestPdf(g: PdfGegevens): Promise<Uint8Array> {
     }
 
     if (vraag.uitleg) {
-      schrijf(vraag.uitleg, { grootte: 9, kleur: GRIJS, inspringen: 12 });
+      schrijf(leesbaar(vraag.uitleg), { grootte: 9, kleur: GRIJS, inspringen: 12 });
     }
 
     const aantal = keer.get(vraag.id) ?? 1;
