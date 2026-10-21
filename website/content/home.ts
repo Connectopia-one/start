@@ -81,6 +81,14 @@ export const home = {
   },
 
   /*
+    Het ronde knopje rechtsboven op de startpagina.
+    Kim op 21 oktober 2026: "kan er vanvoor op de homepagina 1 klein rond
+    knopje met Wil je ons steunen ? dat linkt naar de steun ons pagina."
+    Zet op null als je het knopje even niet wil tonen:  steunKnop: null,
+  */
+  steunKnop: { tekst: "Wil je ons steunen?", link: "/steun-ons" },
+
+  /*
     De groene balk onder de hero.
     Zet op null als je even geen aankondiging wil tonen:  aankondiging: null,
   */
