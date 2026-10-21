@@ -33,56 +33,34 @@ export default function AanbodPagina() {
         tekst={aanbodTekst.tekst}
       />
 
+      {/* Kim op 21 oktober 2026: je moest te ver scrollen voor je zag wat we
+          aanbieden. Daarom komen de trajecten nu meteen, met bovenaan een rij
+          knopjes om er direct naartoe te springen. De uitleg over wat er
+          inbegrepen is en de vrijgehouden plaatsen staat onder de trajecten. */}
       <Sectie className="py-6">
         <Penseel>{aanbodTekst.tariefNota}</Penseel>
-
-        <div className="mt-6 flex flex-wrap items-center gap-5 rounded-[20px] bg-orange-soft px-7 py-6">
-          <div className="min-w-[18rem] flex-1">
-            <h2 className="text-2xl text-orange">{proefles.titel}</h2>
-            <p className="mt-2 max-w-[56ch] text-ink">{proefles.tekst}</p>
-          </div>
-          <Link
-            href={aanvraagLink("proefles")}
-            className="inline-block rounded-full bg-orange px-6 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5"
-          >
-            {proefles.knopTekst} →
-          </Link>
-        </div>
-      </Sectie>
-
-      {/* Wat er in de prijs zit. Staat bewust vóór de tarieven. */}
-      <Sectie className="py-4">
-        <div className="rounded-[20px] bg-sage-soft px-7 py-6">
-          <h2 className="text-2xl text-green">{inbegrepen.titel}</h2>
-          <p className="mt-2 max-w-[68ch] text-[16px] text-ink">
-            {inbegrepen.tekst}
-          </p>
-          <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-            {inbegrepen.punten.map((punt) => (
-              <li
-                key={punt}
-                className="rounded-[14px] bg-cream px-4 py-2.5 text-[16px] font-bold text-green"
+        <ul className="mt-5 flex flex-wrap gap-2.5">
+          {trajecten.map((traject) => (
+            <li key={traject.slug}>
+              <a
+                href={`#${traject.slug}`}
+                className="flex items-center gap-2 rounded-full border border-border bg-surface px-4 py-2 text-[15px] font-bold text-green hover:bg-sage-soft"
               >
-                {punt}
-              </li>
-            ))}
-          </ul>
-        </div>
-      </Sectie>
-
-      {/* Voorbehouden plaatsen, zie de uitleg in content/aanbod.ts */}
-      <Sectie className="py-4">
-        <div className="rounded-[20px] border border-border bg-surface px-7 py-6">
-          <h2 className="text-2xl text-green">{voorbehouden.titel}</h2>
-          <p className="mt-2 max-w-[68ch] text-[16px] text-ink-dim">
-            {voorbehouden.tekst}
-          </p>
-        </div>
+                <span aria-hidden>{traject.icoon}</span>
+                {traject.naam}
+              </a>
+            </li>
+          ))}
+        </ul>
       </Sectie>
 
       <Sectie className="grid gap-5 pb-8">
         {trajecten.map((traject) => (
-          <Kaart key={traject.naam} className="scroll-mt-24">
+          <Kaart
+            key={traject.naam}
+            id={traject.slug}
+            className="scroll-mt-24"
+          >
             <div className="flex flex-wrap items-start gap-4">
               <Icoon kleur={traject.kleur}>{traject.icoon}</Icoon>
               <div className="min-w-[14rem] flex-1">
@@ -193,6 +171,44 @@ export default function AanbodPagina() {
             </div>
           </Kaart>
         ))}
+
+        {/* Goed om te weten: wat er inbegrepen is en de vrijgehouden
+            plaatsen (zie de uitleg in content/aanbod.ts), naast elkaar. */}
+        <div className="grid gap-5 md:grid-cols-2">
+          <div className="rounded-[20px] bg-sage-soft px-7 py-6">
+            <h2 className="text-2xl text-green">{inbegrepen.titel}</h2>
+            <p className="mt-2 text-[16px] text-ink">{inbegrepen.tekst}</p>
+            <ul className="mt-4 grid gap-2">
+              {inbegrepen.punten.map((punt) => (
+                <li
+                  key={punt}
+                  className="rounded-[14px] bg-cream px-4 py-2.5 text-[16px] font-bold text-green"
+                >
+                  {punt}
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="rounded-[20px] border border-border bg-surface px-7 py-6">
+            <h2 className="text-2xl text-green">{voorbehouden.titel}</h2>
+            <p className="mt-2 text-[16px] text-ink-dim">
+              {voorbehouden.tekst}
+            </p>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap items-center gap-5 rounded-[20px] bg-orange-soft px-7 py-6">
+          <div className="min-w-[18rem] flex-1">
+            <h2 className="text-2xl text-orange">{proefles.titel}</h2>
+            <p className="mt-2 max-w-[56ch] text-ink">{proefles.tekst}</p>
+          </div>
+          <Link
+            href={aanvraagLink("proefles")}
+            className="inline-block rounded-full bg-orange px-6 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5"
+          >
+            {proefles.knopTekst} →
+          </Link>
+        </div>
 
         <div className="rounded-[20px] bg-green px-7 py-8 text-cream">
           <h2 className="text-2xl text-cream">

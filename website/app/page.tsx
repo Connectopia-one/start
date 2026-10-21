@@ -29,7 +29,17 @@ export default function Startpagina() {
         <Blad className="-right-8 -bottom-10 w-36 rotate-[150deg]" />
 
         <div className="relative mx-auto w-full max-w-5xl px-5 py-12">
-          <Penseel>{site.baseline}</Penseel>
+          <div className="flex items-start justify-between gap-4">
+            <Penseel>{site.baseline}</Penseel>
+            {home.steunKnop ? (
+              <Link
+                href={home.steunKnop.link}
+                className="font-hand flex h-20 w-20 shrink-0 rotate-6 items-center justify-center rounded-full bg-orange p-2.5 text-center text-[15px] sm:h-24 sm:w-24 sm:p-3 sm:text-[17px] leading-tight text-cream shadow-[0_4px_14px_rgba(47,74,34,0.18)] transition hover:-translate-y-0.5 hover:rotate-0"
+              >
+                {home.steunKnop.tekst}
+              </Link>
+            ) : null}
+          </div>
           <h1 className="mt-4 text-4xl font-black text-balance text-green sm:text-5xl">
             {home.hero.titel}
           </h1>
