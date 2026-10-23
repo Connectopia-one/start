@@ -21,8 +21,9 @@ import {
 import { aanvraagLink, soorten } from "@/content/formulier";
 
 export const metadata: Metadata = {
-  title: "Ons aanbod",
-  description: aanbodTekst.tekst,
+  title: "Kampen, Young Engineers en plusklas in Hasselt en Genk",
+  description:
+    "Kampen in elke vakantie, Young Engineers, de Ontdekclub, plusklas en pluswerking in Hasselt (Level X 28) en Genk (T2 Campus). Kleine groepjes, prikkelarm, ook voor HB en UHB.",
 };
 
 export default function AanbodPagina() {

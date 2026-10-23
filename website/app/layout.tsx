@@ -4,7 +4,9 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Spreuk } from "@/components/Spreuk";
 import { Bezoekersteller } from "@/components/Bezoekersteller";
+import { OverOnsVoorGoogle } from "@/components/OverOnsVoorGoogle";
 import { site } from "@/content/site";
+import { vindbaarheid } from "@/content/vindbaarheid";
 import "./globals.css";
 
 const body = Nunito({
@@ -24,19 +26,20 @@ const hand = Caveat({
   link van de site doorstuurt of opslaat. Het tabbladicoon en die afbeelding
   zijn de bestanden  app/icon.png  en  app/opengraph-image.png  —
   vervang gewoon het bestand als het logo ooit verandert.
+  De titel en omschrijving voor Google staan in content/vindbaarheid.ts.
 */
 export const metadata: Metadata = {
   metadataBase: new URL(site.webadres),
   title: {
-    default: `${site.naam} — ${site.baseline}`,
-    template: `%s — ${site.naam}`,
+    default: vindbaarheid.titel,
+    template: `%s | ${vindbaarheid.naam}`,
   },
-  description: site.omschrijving,
+  description: vindbaarheid.omschrijving,
   openGraph: {
     type: "website",
     locale: "nl_BE",
     url: site.webadres,
-    siteName: `${site.naam} ${site.vzw}`,
+    siteName: vindbaarheid.naam,
     title: `${site.naam} — ${site.baseline}`,
     description: site.omschrijving,
   },
@@ -60,6 +63,7 @@ export default function RootLayout({
         <Spreuk />
         <SiteFooter />
         <Bezoekersteller />
+        <OverOnsVoorGoogle />
       </body>
     </html>
   );
