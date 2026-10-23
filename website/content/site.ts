@@ -9,7 +9,7 @@ export const site = {
   vzw: "vzw",
   baseline: "Ruimte voor nieuwsgierigheid, talent en uitdaging",
   omschrijving:
-    "Connectopia vzw verbindt kinderen aan peers en ouders aan de juiste experts. Kampen, de Ontdekclub, Young Engineers, plusklas en pluswerking voor nieuwsgierige kinderen.",
+    "Connectopia vzw verbindt kinderen aan peers en ouders aan de juiste experts. Kampen, de Ontdekclub, Young Engineers Hasselt-Genk, plusklas en pluswerking voor nieuwsgierige kinderen.",
   afsluiter: "Samen bouwen we aan een toekomst vol mogelijkheden",
   socials: "@connectopia.one",
   /*

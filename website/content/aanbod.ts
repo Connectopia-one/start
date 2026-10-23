@@ -50,7 +50,9 @@ export type Traject = {
 
 /*
   Onze eigen Young Engineers-site (Demerland), aangepast aan Connectopia.
-  Kim gaf beide adressen door op 21 oktober 2026.
+  Kim gaf beide adressen door op 21 oktober 2026. Onze vestiging heet sinds
+  23 oktober 2026 op de site Young Engineers Hasselt-Genk; het adres van de
+  site zelf blijft voorlopig demerland tot het hoofdkantoor het aanpast.
 */
 export const youngEngineers = {
   site: "https://www.demerland.e2youngengineers.com/",
@@ -217,7 +219,7 @@ export const trajecten: Traject[] = [
     tekst:
       "In de Ontdekclub kiest je kind zelf waar het aan werkt. Er is ruimte voor wie graag praat en voor wie liever stil bezig is. De groep is klein, de ruimte is prikkelarm, en elk kind vindt er kinderen die op dezelfde golflengte zitten. En jij mag blijven: drink een koffie met andere ouders, doe mee aan een spel of werk rustig aan je laptop. Thuiswerken mag hier ook.",
     punten: [
-      "Bouwen en techniek, samen met Young Engineers: robots, proefjes en bouwpakketten",
+      "Bouwen en techniek, samen met Young Engineers Hasselt-Genk: robots, proefjes en bouwpakketten",
       "Crea: verven, knippen, plakken en bouwen met karton",
       "Spellen: schaken en gezelschapsspellen, ook voor twee",
       "Een stille hoek om even rustig te lezen of te puzzelen",
@@ -227,12 +229,12 @@ export const trajecten: Traject[] = [
         "Instappen kan altijd. Je kind kan op eender welke zaterdag of woensdag starten.",
     },
     links: [
-      { tekst: "Meer over Young Engineers", link: youngEngineers.site },
+      { tekst: "Meer over Young Engineers Hasselt-Genk", link: youngEngineers.site },
     ],
   },
   {
     slug: "young-engineers",
-    naam: "Young Engineers",
+    naam: "Young Engineers Hasselt-Genk",
     ondertitel: "Bouwen, programmeren en uitvinden",
     kleur: "blue",
     icoon: "⚙️",
@@ -265,7 +267,7 @@ export const trajecten: Traject[] = [
         "Instappen kan altijd. Je kiest zelf of je op zaterdag of woensdag start.",
     },
     inschrijvenLink: youngEngineers.inschrijven,
-    links: [{ tekst: "Naar onze Young Engineers-site", link: youngEngineers.site }],
+    links: [{ tekst: "Naar de site van Young Engineers Hasselt-Genk", link: youngEngineers.site }],
   },
   {
     slug: "vakantiekampen",

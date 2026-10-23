@@ -16,14 +16,14 @@ export const vindbaarheid = {
   naam: "Connectopia vzw",
 
   /* Andere namen waaronder mensen ons zoeken. */
-  alternatieveNamen: ["Connectopia", "connectopia.one"],
+  alternatieveNamen: ["Connectopia", "connectopia.one", "Young Engineers Hasselt-Genk"],
 
   /* De titel van de startpagina in Google. */
-  titel: "Connectopia vzw | Kampen en Young Engineers in Hasselt en Genk",
+  titel: "Connectopia vzw | Kampen en Young Engineers Hasselt-Genk",
 
   /* De omschrijving onder die titel. */
   omschrijving:
-    "Kampen, de Ontdekclub, Young Engineers, plusklas en pluswerking in Hasselt en Genk. Voor nieuwsgierige kinderen, ook HB en UHB, in kleine groepjes en prikkelarm.",
+    "Kampen, de Ontdekclub, Young Engineers Hasselt-Genk, plusklas en pluswerking in Hasselt en Genk. Voor nieuwsgierige kinderen, ook HB en UHB, in kleine groepjes en prikkelarm.",
 
   /* De gemeenten en de streek waar we werken. */
   regio: ["Hasselt", "Genk", "Limburg"],

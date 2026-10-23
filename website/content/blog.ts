@@ -637,7 +637,7 @@ export const berichten: Bericht[] = [
       },
       {
         soort: "knop",
-        tekst: "Meer over Young Engineers",
+        tekst: "Meer over Young Engineers Hasselt-Genk",
         link: "https://www.demerland.e2youngengineers.com/",
       },
       {
@@ -1340,11 +1340,11 @@ export const berichten: Bericht[] = [
         bijschrift:
           "“Wat zou jij hiermee creëren?” De vraag staat letterlijk op de muur.",
       },
-      { soort: "kop", tekst: "Young Engineers, samen met ons" },
+      { soort: "kop", tekst: "Young Engineers Hasselt-Genk, samen met ons" },
       {
         soort: "tekst",
         tekst:
-          "Voor onze naschoolse activiteiten rond STEM en techniek werken we samen met Young Engineers. Ontdekken, experimenteren, bouwen en vooral plezier maken: met LEGO® echte uitdagingen aangaan, samenwerken en trots zijn op je werk.",
+          "Voor onze naschoolse activiteiten rond STEM en techniek werken we samen met Young Engineers Hasselt-Genk. Ontdekken, experimenteren, bouwen en vooral plezier maken: met LEGO® echte uitdagingen aangaan, samenwerken en trots zijn op je werk.",
       },
       {
         soort: "lijst",
@@ -1364,7 +1364,7 @@ export const berichten: Bericht[] = [
       },
       {
         soort: "knop",
-        tekst: "Naar onze Young Engineers-site",
+        tekst: "Naar de site van Young Engineers Hasselt-Genk",
         link: "https://www.demerland.e2youngengineers.com/",
       },
       {

@@ -73,7 +73,7 @@ export const sponsors: Sponsor[] = [
     logo: "educathor.png",
   },
   {
-    naam: "Young Engineers",
+    naam: "Young Engineers Hasselt-Genk",
     soort: "partner",
     logo: "young-engineers.png",
     link: "https://www.demerland.e2youngengineers.com/",
