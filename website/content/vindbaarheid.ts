@@ -29,14 +29,14 @@ export const vindbaarheid = {
   regio: ["Hasselt", "Genk", "Limburg"],
 
   /*
-    Het officiële adres van de vzw (de maatschappelijke zetel). Nog niet
-    ingevuld: zolang het leeg is, geven we Google enkel de regio en de twee
-    plaatsen waar we les geven. Vul je het in, dan komt het mee.
+    Het officiële adres van de vzw (de maatschappelijke zetel), door Kim
+    doorgegeven op 23 oktober 2026. Maak je het leeg, dan geven we Google
+    enkel de regio en de plaatsen waar we les geven.
   */
   adres: {
-    straat: "",
-    postcode: "",
-    gemeente: "",
+    straat: "Kluisstraat 16",
+    postcode: "3570",
+    gemeente: "Alken",
   },
 
   /* De plaatsen waar de lessen en kampen doorgaan. */
