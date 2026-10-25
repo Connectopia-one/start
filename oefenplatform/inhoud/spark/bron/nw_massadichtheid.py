@@ -138,7 +138,7 @@ DEEL1 = [
         vraag="Wat is de SI-eenheid van massadichtheid?",
         opties=[r"kg/\(\text{m}^{3}\)", r"g/\(\text{cm}^{3}\)", "kg"],
         antwoord=0,
-        uitleg=r"De SI-eenheid is kilogram per kubieke meter. g/\(\text{cm}^{3}\) mag ook, maar dat is geen SI-eenheid.",
+        uitleg=r"SI staat voor het internationale stelsel van eenheden: de eenheden die wetenschappers over de hele wereld afspraken, zoals de kilogram en de meter. Massadichtheid is massa gedeeld door volume, dus de SI-eenheid is kilogram per kubieke meter (kg/\(\text{m}^{3}\)). g/\(\text{cm}^{3}\) mag ook, maar dat is geen SI-eenheid.",
     ),
     dict(
         type="meerkeuze",

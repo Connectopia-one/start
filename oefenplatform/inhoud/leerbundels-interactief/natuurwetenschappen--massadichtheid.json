@@ -17,6 +17,10 @@
     },
     {
      "soort": "kader",
+     "html": "<strong>Wat is een SI-eenheid?</strong> SI is de afkorting van <em>Système International</em>, Frans voor het internationale stelsel van eenheden. Wetenschappers over de hele wereld spraken af om voor elke grootheid dezelfde eenheid te gebruiken, zodat iedereen elkaars metingen kan vergelijken zonder om te rekenen. Zo is de SI-eenheid van massa de kilogram, van lengte de meter en van tijd de seconde.<br>Massadichtheid is massa gedeeld door volume. Daarom is haar SI-eenheid kilogram gedeeld door kubieke meter: <strong>kg/\\(\\text{m}^{3}\\)</strong>. Eenheden zoals g/\\(\\text{cm}^{3}\\) of g/L mag je ook gebruiken, maar dat zijn geen SI-eenheden."
+    },
+    {
+     "soort": "kader",
      "html": "<strong>\\(\\rho = m / V\\)</strong> — je deelt de massa door het volume.<br>Daaruit volgt <strong>\\(m = \\rho \\times V\\)</strong> en <strong>\\(V = m / \\rho\\)</strong>. Met dezelfde formule kan je dus alle drie de grootheden berekenen."
     },
     {
@@ -126,6 +130,7 @@
   "Onregelmatig voorwerp: volume bepalen door onderdompeling; \\(1\\) mL = \\(1\\,\\text{cm}^{3}\\).",
   "\\(1\\,\\text{m}^{3} = 1000\\) L; van g/\\(\\text{cm}^{3}\\) naar kg/\\(\\text{m}^{3} \\cdot 1000\\). Water is \\(1\\) g/\\(\\text{cm}^{3} = 1000\\) kg/\\(\\text{m}^{3}\\).",
   "Massa en volume van dezelfde stof zijn recht evenredig: een rechte door de oorsprong.",
-  "Kleinere massadichtheid dan de vloeistof = drijven; gelijk = zweven; groter = zinken."
+  "Kleinere massadichtheid dan de vloeistof = drijven; gelijk = zweven; groter = zinken.",
+  "SI = het internationale stelsel van eenheden. De SI-eenheid van massadichtheid is kg/\\(\\text{m}^{3}\\)."
  ]
 }

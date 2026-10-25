@@ -747,6 +747,16 @@ BUNDELS["massadichtheid"] = dict(
                 ["volume", "V", r"kubieke meter (\(\text{m}^{3}\))", r"liter (L), \(\text{cm}^{3}\)"],
                 ["massadichtheid", r"\(\rho\) (rho)", r"kilogram per kubieke meter (kg/\(\text{m}^{3}\))", r"g/\(\text{cm}^{3}\)"],
             ]), r"\(\rho\) is de Griekse letter rho. Let op het verschil tussen de kleine v (snelheid) en de hoofdletter V (volume)."),
+            # Een kind meldde op 23 oktober 2026 bij vraag 16 ("Wat is de
+            # SI-eenheid van massadichtheid?") dat nergens stond wat SI is.
+            ("kader", "<strong>Wat is een SI-eenheid?</strong> SI is de afkorting van <em>Système "
+                      "International</em>, Frans voor het internationale stelsel van eenheden. Wetenschappers "
+                      "over de hele wereld spraken af om voor elke grootheid dezelfde eenheid te gebruiken, "
+                      "zodat iedereen elkaars metingen kan vergelijken zonder om te rekenen. Zo is de "
+                      "SI-eenheid van massa de kilogram, van lengte de meter en van tijd de seconde.<br>"
+                      r"Massadichtheid is massa gedeeld door volume. Daarom is haar SI-eenheid kilogram gedeeld "
+                      r"door kubieke meter: <strong>kg/\(\text{m}^{3}\)</strong>. Eenheden zoals g/\(\text{cm}^{3}\) of g/L mag je "
+                      "ook gebruiken, maar dat zijn geen SI-eenheden."),
             ("kader", r"<strong>\(\rho = m / V\)</strong> — je deelt de massa door het volume.<br>"
                       r"Daaruit volgt <strong>\(m = \rho \times V\)</strong> en <strong>\(V = m / \rho\)</strong>. "
                       "Met dezelfde formule kan je dus alle drie de grootheden berekenen."),
@@ -831,6 +841,7 @@ BUNDELS["massadichtheid"] = dict(
         r"\(1\,\text{m}^{3} = 1000\) L; van g/\(\text{cm}^{3}\) naar kg/\(\text{m}^{3} \cdot 1000\). Water is \(1\) g/\(\text{cm}^{3} = 1000\) kg/\(\text{m}^{3}\).",
         "Massa en volume van dezelfde stof zijn recht evenredig: een rechte door de oorsprong.",
         "Kleinere massadichtheid dan de vloeistof = drijven; gelijk = zweven; groter = zinken.",
+        r"SI = het internationale stelsel van eenheden. De SI-eenheid van massadichtheid is kg/\(\text{m}^{3}\).",
     ],
 )
 
