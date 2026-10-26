@@ -63,8 +63,9 @@ export const tips: Tip[] = [
   {
     titel: "Geef structuur, maar maak ze vloeiend",
     tekst: [
-      "Een vaste omkadering is heel belangrijk, zeker bij autisme. Maar hoe strakker het regime, hoe moeilijker een kind zich aanpast als het toch anders loopt. Een agenda die tot op de minuut vastligt, botst hard terug wanneer de planning door omstandigheden moet wijzigen.",
-      "Werk daarom met een planning die je kan verhangen, zoals post-its op een bord. Het kind ziet nog altijd duidelijk wat er komt, en leert tegelijk dat een stap van plaats kan veranderen zonder dat alles instort. Dat is ook structuur en duidelijke omkadering, alleen vloeiend.",
+      "Duidelijke omkadering en afspraken zijn nodig, zeker bij autisme. Maar hoe strakker het regime, hoe moeilijker een kind zich aanpast als het toch anders loopt. Een agenda die tot op de minuut vastligt, botst hard terug zodra de planning moet wijzigen.",
+      "Leer een kind daarom zijn planning te zien als post-its. Maak ze eerst echt, op een bord of in een schrift, en verhang ze samen wanneer er iets verandert. Na een tijd doet het kind dat vanzelf in zijn hoofd. Het blijft duidelijk wat er komt, maar een stap mag van plaats veranderen zonder dat alles instort.",
+      "Het gaat dus om meer dan de planning van vandaag: het kind leert omgaan met verandering. Hoe verder het studeert, hoe meer het zelf moet plannen en hoe vaker dingen wijzigen. Een les die niet doorgaat, een proefwerk dat erbij komt, elk trimester een nieuw lesrooster, werk dat je thuis zelf moet inplannen. Wie daar vroeg mee leert omgaan, heeft het later een stuk makkelijker. Ook wij gebruiken die post-its in ons hoofd nog elke dag.",
     ],
   },
   {
