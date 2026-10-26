@@ -70,6 +70,14 @@ export const hulpTegels: HulpTegel[] = [
     link: "/blog",
   },
   {
+    titel: "Tips voor de klas",
+    tekst:
+      "Voor leerkrachten, leerondersteuners en zorgcoördinatoren: HB, UHB, autisme en ADHD in het kort, met wat in de klas echt werkt.",
+    icoon: "🏫",
+    kleur: "purple",
+    link: "/voor-leerkrachten",
+  },
+  {
     titel: "Boekentips",
     tekst:
       "Boeken die bij ons in de kast staan en echt gebruikt worden, per onderwerp. Zonder leeftijd: hier kies je op interesse.",

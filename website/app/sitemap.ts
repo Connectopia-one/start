@@ -28,6 +28,7 @@ const paginas = [
   "/thuisonderwijs",
   "/observatielijst",
   "/professionals",
+  "/voor-leerkrachten",
   "/steun-ons",
   "/meetesten",
   "/winactie",

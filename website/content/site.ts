@@ -215,6 +215,7 @@ export const extraLinks: {
   { slug: "/in-de-kijker", menuTitel: "In de kijker" },
   { slug: "/boekentips", menuTitel: "Boekentips" },
   { slug: "/professionals", menuTitel: "Voor professionals" },
+  { slug: "/voor-leerkrachten", menuTitel: "Tips voor de klas" },
   { slug: "/steun-ons", menuTitel: "Steun ons" },
   { slug: "/contact", menuTitel: "Contact", inMenu: true },
 ];
