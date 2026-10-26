@@ -63,9 +63,10 @@ function schud<T>(lijst: T[]): T[] {
   Examencommissie (een tabel, een keuzelijst, volgorde, koppelen, slepen,
   klikken, open of tekenen), zodat het niet van het toeval afhangt of een kind
   ze tegenkomt. Heeft een vak er minder, dan komen ze er allemaal in.
-  Gevraagd door Kim op 26 oktober 2026.
+  Gevraagd door Kim op 26 oktober 2026, eerst tien van de veertig en dezelfde
+  avond de helft, "zodat het examen echt lijkt".
 */
-const EXAMENVORMEN_MINSTENS = 10;
+const EXAMENVORMEN_MINSTENS = 20;
 const GEWONE_VORMEN = new Set(["meerkeuze", "invultekst", "waarofniet"]);
 
 function kiesExamenvragen(lijst: { id: string; type: string }[]): string[] {
