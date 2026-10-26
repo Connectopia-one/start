@@ -1,0 +1,235 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Examenvormen — tabellen en keuzelijsten",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "tabel",
+          "vraag": "Lees elke uitspraak over de tijdrekening. Is ze juist of fout?",
+          "rijen": [
+            "Het jaar 500 v.C. ligt verder in het verleden dan het jaar 200 v.C.",
+            "De 5de eeuw na Christus loopt van 401 tot en met 500.",
+            "Na het jaar 1 v.C. komt het jaar 0.",
+            "Het jaar 1453 ligt in de 14de eeuw."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Er bestaat geen jaar 0: na 1 v.C. komt meteen 1 n.C. Het jaar 1453 ligt in de 15de eeuw, want die loopt van 1401 tot en met 1500."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees elke uitspraak over de grote periodes. Is ze juist of fout?",
+          "rijen": [
+            "De prehistorie eindigt met de uitvinding van het schrift.",
+            "De oudheid begint rond 3000 v.C.",
+            "De middeleeuwen komen vóór de oudheid.",
+            "De nieuwe tijd begint rond het jaar 1000."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "De volgorde is prehistorie, oudheid, middeleeuwen, nieuwe tijd. De nieuwe tijd begint rond 1500, niet rond 1000."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees elke uitspraak over de prehistorie. Is ze juist of fout?",
+          "rijen": [
+            "Jagers-verzamelaars trokken rond op zoek naar voedsel.",
+            "De landbouw ontstond voor het eerst in West-Europa.",
+            "Door de landbouw gingen mensen in vaste nederzettingen wonen.",
+            "In het paleolithicum gebruikten mensen al bronzen werktuigen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "De landbouw ontstond eerst in de Vruchtbare Sikkel, in het Midden-Oosten. In het paleolithicum gebruikten mensen werktuigen van steen, bot en hout; brons kwam veel later."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees elke uitspraak over het oude Egypte. Is ze juist of fout?",
+          "rijen": [
+            "De Nijl overstroomde elk jaar en liet vruchtbaar slib achter.",
+            "De farao werd gezien als een god of als een zoon van de goden.",
+            "Hiërogliefen zijn spijkervormige tekens die in klei gedrukt werden.",
+            "Egypte lag aan de rivieren Eufraat en Tigris."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Spijkerschrift en de Eufraat en de Tigris horen bij Mesopotamië. Egypte had de Nijl en schreef in hiërogliefen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees elke uitspraak over Mesopotamië. Is ze juist of fout?",
+          "rijen": [
+            "Mesopotamië betekent land tussen de rivieren.",
+            "Het spijkerschrift werd op papyrus geschreven.",
+            "De wetten van Hammurabi zijn een van de oudste geschreven wetten.",
+            "Mesopotamië lag in wat nu Egypte is."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Het spijkerschrift werd met een rietstift in natte klei gedrukt. Mesopotamië lag grotendeels in wat nu Irak is."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees elke uitspraak over het oude Griekenland. Is ze juist of fout?",
+          "rijen": [
+            "Athene was een stadstaat, een polis.",
+            "In de Atheense democratie mochten vrouwen en slaven mee stemmen.",
+            "Sparta stond bekend om zijn strenge militaire opvoeding.",
+            "De Olympische Spelen werden gehouden in Athene."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "In Athene mochten enkel vrije mannen die burger waren stemmen. De Olympische Spelen vonden plaats in Olympia, ter ere van Zeus."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees elke uitspraak over het Romeinse Rijk. Is ze juist of fout?",
+          "rijen": [
+            "Volgens de legende werd Rome gesticht door Romulus.",
+            "Julius Caesar was de eerste keizer van Rome.",
+            "De Romeinen spraken Latijn.",
+            "Een aquaduct is een Romeins theater."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Augustus was de eerste keizer; Julius Caesar werd nooit keizer. Een aquaduct is een waterleiding."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees elke uitspraak over de Romeinen in onze streken. Is ze juist of fout?",
+          "rijen": [
+            "Tongeren was een Romeinse stad.",
+            "Julius Caesar veroverde onze streken.",
+            "De Romeinen noemden een deel van onze streken Gallia Belgica.",
+            "Ambiorix was een Romeinse veldheer."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Ambiorix was een leider van de Eburonen die tegen de Romeinen vocht."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees elke uitspraak over historische bronnen. Is ze juist of fout?",
+          "rijen": [
+            "Een geschreven bron is altijd betrouwbaarder dan een voorwerp.",
+            "Een primaire bron komt uit de tijd die je onderzoekt.",
+            "Een schoolboek van nu is een primaire bron over de Romeinen.",
+            "Een archeoloog bestudeert overblijfselen die in de grond bewaard bleven."
+          ],
+          "antwoord": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Elke bron moet je kritisch bekijken, geschreven of niet. Een schoolboek van nu is een secundaire bron: het is later over die tijd geschreven."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort elk van deze dingen bij de prehistorie of bij de oudheid?",
+          "kolommen": [
+            "Prehistorie",
+            "Oudheid"
+          ],
+          "rijen": [
+            "De grotschilderingen van Lascaux",
+            "De bouw van de piramiden van Gizeh",
+            "De eerste landbouwers in de Vruchtbare Sikkel",
+            "De wetten van Hammurabi"
+          ],
+          "antwoord": [
+            "prehistorie",
+            "oudheid",
+            "prehistorie",
+            "oudheid"
+          ],
+          "uitleg": "Lascaux en de eerste landbouw zijn van vóór het schrift, dus prehistorie. De piramiden en Hammurabi komen na de uitvinding van het schrift."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het jaar 476 ligt in de [[*5de|4de|6de]] eeuw na Christus. In dat jaar kwam er een einde aan het [[*West-Romeinse|Oost-Romeinse|Griekse]] Rijk.",
+          "uitleg": "De 5de eeuw loopt van 401 tot en met 500. In 476 werd de laatste West-Romeinse keizer afgezet; dat is ook het begin van de middeleeuwen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De overgang van rondtrekken naar vaste woonplaatsen met landbouw heet de [[*neolithische revolutie|industriële revolutie|Franse revolutie]].",
+          "uitleg": "Met de landbouw begint het neolithicum, de jonge steentijd."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In Egypte was de [[*Nijl|Eufraat|Tigris]] de levensader, en het schrift van de Egyptenaren heet [[*hiërogliefen|spijkerschrift|runen]].",
+          "uitleg": "De Eufraat, de Tigris en het spijkerschrift horen bij Mesopotamië."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het spijkerschrift, een van de oudste schriften, ontstond in [[*Mesopotamië|Griekenland|Rome]].",
+          "uitleg": "De Soemeriërs in Mesopotamië drukten tekens in klei, al rond 3000 v.C."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In Athene ontstond de [[*democratie|monarchie|dictatuur]]. Dat woord betekent letterlijk bestuur door [[*het volk|de koning|het leger]].",
+          "uitleg": "Demos is volk en kratos is macht of bestuur."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De eerste keizer van het Romeinse Rijk was [[*Augustus|Julius Caesar|Nero]].",
+          "uitleg": "Julius Caesar had veel macht, maar werd vermoord voor hij keizer kon worden. Zijn opvolger Augustus werd in 27 v.C. de eerste keizer."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een versterkte grens van het Romeinse Rijk, met wachttorens en forten, heette een [[*limes|forum|aquaduct]].",
+          "uitleg": "Een forum is een marktplein en een aquaduct een waterleiding."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een bron die gemaakt werd in de tijd die je onderzoekt, is een [[*primaire|secundaire]] bron. Een boek dat een historicus nu over die tijd schrijft, is een [[*secundaire|primaire]] bron.",
+          "uitleg": "Primair betekent: uit die tijd zelf. Secundair: later gemaakt, over die tijd."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het jaar 30 v.C. ligt [[*meer|minder]] dan 2000 jaar geleden.",
+          "uitleg": "Van 30 v.C. tot 2026 is 30 + 2026 - 1 = 2055 jaar, want er is geen jaar 0. Dat is meer dan 2000."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Griekse tempels hadden zuilen. De eenvoudigste, zonder versiering bovenaan, is de [[*Dorische|Ionische|Korinthische]] zuil.",
+          "uitleg": "De Ionische zuil heeft krullen bovenaan, de Korinthische bladeren."
+        }
+      ]
+    }
+  ]
+}
