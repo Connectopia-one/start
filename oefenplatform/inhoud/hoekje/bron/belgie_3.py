@@ -59,7 +59,7 @@ VRAGEN = [
         "type": "meerkeuze",
         "vraag": "Wat staat er te lezen op de IJzertoren in Diksmuide?",
         "opties": [
-            "Nooit meer oorlog, in vier talen",
+            "Nooit meer oorlog, in vier verschillende talen",
             "Voor koning en vaderland, in twee talen",
             "De namen van alle gesneuvelden van het IJzerfront",
             "Hier stond het front van 1914 tot 1918",
@@ -190,7 +190,7 @@ VRAGEN = [
     },
     {
         "type": "meerkeuze",
-        "vraag": "Wat gebeurde er in 1830 met de gewesten die nu Luxemburg en Nederlands-Limburg heten?",
+        "vraag": "De gewesten die nu het groothertogdom Luxemburg en Nederlands-Limburg zijn, deden in 1830 mee met de opstand. Wat gebeurde er daarna mee?",
         "opties": [
             "Ze werden bij het verdrag van 1839 grotendeels van België afgesplitst",
             "Ze hoorden nooit bij het gebied dat in 1830 in opstand kwam",

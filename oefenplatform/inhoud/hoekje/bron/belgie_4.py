@@ -17,7 +17,7 @@ VRAGEN = [
         "type": "meerkeuze",
         "vraag": "Wie lokte in 54 voor Christus een Romeins legioen in de val en versloeg het?",
         "opties": [
-            "Ambiorix, leider van de Eburonen",
+            "Ambiorix, de leider van de Eburonen",
             "Vercingetorix, leider van de Arverni in Gallië",
             "Julius Caesar, de Romeinse veldheer zelf",
             "Boudica, de koningin van de Iceni in Brittannië",
@@ -53,7 +53,7 @@ VRAGEN = [
         "type": "meerkeuze",
         "vraag": "Bij Ieper werd in april 1915 voor het eerst op grote schaal gifgas ingezet. Welk gas was dat?",
         "opties": [
-            "Chloorgas",
+            "Chloorgas, dat als een groengele wolk aanwoei",
             "Mosterdgas, ook yperiet genoemd",
             "Koolstofmonoxide uit de loopgraafkachels",
             "Blauwzuurgas in granaten van de artillerie",
@@ -149,7 +149,7 @@ VRAGEN = [
         "type": "meerkeuze",
         "vraag": "Welke Belgische tekenaar bedacht Kuifje?",
         "opties": [
-            "Hergé",
+            "Hergé, die eigenlijk Georges Remi heette",
             "Peyo, die ook de Smurfen tekende",
             "Willy Vandersteen van Suske en Wiske",
             "Morris, de tekenaar van Lucky Luke",
@@ -173,7 +173,7 @@ VRAGEN = [
         "type": "meerkeuze",
         "vraag": "Brugge was in de middeleeuwen een wereldhaven. Waardoor verloor de stad die positie?",
         "opties": [
-            "De zeearm naar de stad slibde dicht",
+            "De zeearm naar de stad slibde langzaam dicht",
             "Een brand legde de hele havenwijk in de as",
             "De koning verbood er nog handel te drijven",
             "De haven werd door Engelse schepen geblokkeerd",

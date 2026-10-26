@@ -147,13 +147,13 @@ VRAGEN = [
         "type": "meerkeuze",
         "vraag": "Welke bijnaam kreeg koning Albert I tijdens de Eerste Wereldoorlog?",
         "opties": [
-            "De koning-ridder",
+            "De koning-soldaat",
             "De koning-bouwer",
-            "De koning-soldaat van Congo",
-            "De laatste koning der Belgen",
+            "De koning-diplomaat",
+            "De koning-ontdekker",
         ],
         "antwoord": 0,
-        "uitleg": "Hij bleef bij zijn leger achter de IJzer in plaats van naar het buitenland te vertrekken, en dat maakte hem erg geliefd. Koning-bouwer was de bijnaam van Leopold II, vanwege zijn vele grote bouwwerken.",
+        "uitleg": "Hij bleef bij zijn leger achter de IJzer in plaats van naar het buitenland te vertrekken, en dat maakte hem erg geliefd. In het Frans heet hij ook le Roi-Chevalier, de koning-ridder. Koning-bouwer was de bijnaam van Leopold II, vanwege zijn vele grote bouwwerken.",
     },
     {
         "type": "invultekst",

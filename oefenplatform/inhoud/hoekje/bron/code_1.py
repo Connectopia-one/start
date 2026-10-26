@@ -99,7 +99,7 @@ VRAGEN = [
         "opties": [
             "Tien keer zoveel gegevens kost ongeveer honderd keer zoveel werk",
             "Het algoritme doet er altijd precies twee seconden over",
-            "Het algoritme heeft twee keer zoveel geheugen nodig dan gewoonlijk",
+            "Het algoritme heeft twee keer zoveel geheugen nodig als gewoonlijk",
             "Het programma bestaat uit twee lussen die na elkaar draaien",
         ],
         "antwoord": 0,
@@ -125,9 +125,9 @@ VRAGEN = [
     },
     {
         "type": "waarofniet",
-        "vraag": "Het woord bug komt van een echte insect dat ooit in een computer vastzat.",
-        "antwoord": True,
-        "uitleg": r"In \(1947\) haalde het team van Grace Hopper een mot uit de Harvard Mark II. Ze plakten het beestje in het logboek met de notitie dat dit de eerste echte bug was. Het woord bestond in de techniek al langer, maar dit maakte het beroemd.",
+        "vraag": "Het woord bug voor een fout ontstond toen er een echt insect in een computer vastzat.",
+        "antwoord": False,
+        "uitleg": r"Thomas Edison schreef in de jaren \(1870\) al over bugs in zijn uitvindingen. In \(1947\) haalde het team van Grace Hopper wel een echte mot uit de Harvard Mark II en plakte die in het logboek, met de grap dat dit het eerste echte geval van een bug was. Die grap werkt net omdat het woord toen al bestond, maar het verhaal heeft het wel beroemd gemaakt.",
     },
     {
         "type": "meerkeuze",
@@ -155,9 +155,9 @@ VRAGEN = [
     },
     {
         "type": "waarofniet",
-        "vraag": "Een computer kan uit zichzelf echt toevallige getallen bedenken.",
+        "vraag": "Een processor met meer gigahertz voert elk programma sneller uit dan een processor met minder.",
         "antwoord": False,
-        "uitleg": "Een gewoon programma rekent een reeks uit die willekeurig lijkt maar vastligt zodra je het startgetal kent: pseudotoeval. Voor echt toeval heb je iets uit de buitenwereld nodig, zoals de ruis van een sensor of radioactief verval.",
+        "uitleg": "Gigahertz zegt hoeveel keer per seconde de klok van de processor tikt, niet hoeveel werk hij bij elke tik doet. Een nieuwere chip haalt vaak meer uit één tik, heeft meer kernen of een grotere cache, en wacht minder op het geheugen. Daarom kan een processor van \\(3\\) gigahertz een oudere van \\(4\\) gigahertz gewoon voorbijsteken.",
     },
     {
         "type": "meerkeuze",

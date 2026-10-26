@@ -19,14 +19,17 @@ de leerbundels. Dit hoekje doet juist het tegenovergestelde: het stapt eruit.
 
 | Vak | Hoofdstukken | Vragen |
 |-----|--------------|--------|
-| De ruimte | Sterren, planeten en afstanden · Zwaartekracht, licht en het heelal · Verder dan de planeten | 60 |
-| Coderen en computers | Hoe een computer denkt · Algoritmes, netwerken en geheimschrift · Poorten, netwerken en veiligheid | 60 |
-| Geschiedenis van België | Van 1830 tot de Eerste Wereldoorlog · Van de Koningskwestie tot vandaag · Legendes, uitvinders en oude tijden | 60 |
-| Paradoxen en weetjes | Paradoxen die je hoofd kraken · Wonderlijke weetjes · Getallen, natuur en toeval | 60 |
+| De ruimte | Sterren, planeten en afstanden · Zwaartekracht, licht en het heelal · Verder dan de planeten · Tijd, licht en reizen door de ruimte · Zonnestormen, kometen en verre manen | 100 |
+| Coderen en computers | Hoe een computer denkt · Algoritmes, netwerken en geheimschrift · Poorten, netwerken en veiligheid · Beelden, netwerken en slimme machines · Geheimschrift, kleurcodes en slimme trucs | 100 |
+| Geschiedenis van België | Van 1830 tot de Eerste Wereldoorlog · Van de Koningskwestie tot vandaag · Legendes, uitvinders en oude tijden · Van de Romeinen tot de jaren tachtig · Graven, geleerden en wereldtentoonstellingen | 100 |
+| Paradoxen en weetjes | Paradoxen die je hoofd kraken · Wonderlijke weetjes · Getallen, natuur en toeval · Levende wonderen en hardnekkige mythes · Raadsels, raven en rare proefjes | 100 |
 
-Het derde hoofdstuk van elk vak komt grotendeels van Kim zelf (26 september
-2026). Twaalf van haar veertig vragen stonden inhoudelijk al in deel 1 of 2 en
-zijn vervangen door nieuwe over hetzelfde thema, zodat er niets dubbel staat.
+Het derde, vierde en vijfde hoofdstuk van elk vak komen grotendeels van Kim
+zelf (26 september, 8 oktober en 26 oktober 2026, de laatste uit haar
+Gemini-reeksen). Wat inhoudelijk al in een vorig deel stond, is telkens
+vervangen door iets nieuws over hetzelfde thema, zodat er niets dubbel staat.
+Kijk bij het aanvullen dus altijd naar het onderwerp, niet naar de letterlijke
+vraagtekst.
 
 Elk hoofdstuk telt twintig vragen. Er hoort **geen leerbundel** bij: de uitleg
 onder elke vraag doet hier het werk, en die is daarom bewust langer dan
@@ -47,7 +50,7 @@ gewoonlijk. Wie het antwoord fout had, leert het in die paar zinnen alsnog.
 | `paradoxen-en-weetjes.json` | Paradoxen en weetjes |
 
 Er staat nog niets in die vakken, dus er gaat bij deze import geen enkele
-voortgang verloren. En omdat elk bestand alleen zijn eigen twee hoofdstukken
+voortgang verloren. En omdat elk bestand alleen de hoofdstukken van zijn eigen vak
 aanraakt, is een tweede import met dat vinkje aan onschadelijk.
 
 ## De vragen aanpassen

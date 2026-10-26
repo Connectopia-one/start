@@ -182,9 +182,9 @@ VRAGEN = [
     },
     {
         "type": "waarofniet",
-        "vraag": "Een unittest is een stukje code dat controleert of een ander stukje code doet wat het moet doen.",
+        "vraag": "Testen kan aantonen dat er fouten in een programma zitten, maar nooit bewijzen dat er geen enkele fout meer in zit.",
         "antwoord": True,
-        "uitleg": "Je schrijft op: met deze invoer moet er dit uitkomen. Bij elke wijziging draaien al die tests opnieuw, vaak honderden tegelijk, en ze klagen meteen als er iets stuk is dat vorige week nog werkte. Zonder tests durft niemand nog iets te veranderen aan een groot programma, en dan verroest het.",
+        "uitleg": "Dat zei de Nederlandse informaticus Edsger Dijkstra al in \\(1969\\). Een test kijkt alleen de gevallen na die iemand bedacht heeft; een fout in een geval waar niemand aan dacht, glipt erdoor. Wie echt zeker wil zijn, moet wiskundig bewijzen dat de code klopt, en dat gebeurt enkel bij software waar levens van afhangen, zoals in vliegtuigen.",
     },
     {
         "type": "waarofniet",
@@ -194,9 +194,9 @@ VRAGEN = [
     },
     {
         "type": "waarofniet",
-        "vraag": "Met https erbij kan niemand nog zien wélke website je bezoekt.",
+        "vraag": "Een wachtwoord van zes tekens vol cijfers en leestekens is moeilijker te kraken dan een van twaalf gewone kleine letters.",
         "antwoord": False,
-        "uitleg": "De inhoud van de pagina's is versleuteld, maar de naam van de website lekt onderweg nog altijd: je computer moet ze opvragen om er te geraken. Je internetleverancier ziet dus wel dát je op een bepaalde site was, niet welke pagina's je daar las of wat je typte.",
+        "uitleg": "Reken mee: zes tekens uit zowat \\(95\\) mogelijke geven ongeveer \\(7 \\cdot 10^{11}\\) combinaties. Twaalf tekens uit \\(26\\) letters geven er ongeveer \\(10^{17}\\), honderdduizend keer meer. Lengte wint het dus van moeilijke tekens. Daarom raden kenners vier of vijf willekeurige woorden achter elkaar aan: lang, en toch makkelijk te onthouden.",
     },
     {
         "type": "waarofniet",

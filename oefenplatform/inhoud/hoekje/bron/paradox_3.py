@@ -208,14 +208,14 @@ VRAGEN = [
     },
     {
         "type": "meerkeuze",
-        "vraag": "Je gooit twintig keer kop en het is twintig keer munt. Wat is de kans op munt bij de eenentwintigste worp?",
+        "vraag": r"Eén op de \(1000\) mensen heeft een zeldzame ziekte. Een test zit er maar in \(1\) op de \(100\) gevallen naast. Je test positief. Hoe groot is de kans dat je de ziekte echt hebt?",
         "opties": [
-            "Nog altijd de helft, want de munt onthoudt niets",
-            "Kleiner dan de helft, want kop moet stilaan eens vallen",
-            "Groter dan de helft, want blijkbaar valt deze munt zo",
-            "Dat hangt af van hoe hard je de munt opgooit",
+            "Minder dan één op tien, want de meeste positieve testen zijn vals alarm",
+            "Ongeveer negenennegentig op honderd, want zo betrouwbaar is de test",
+            "Ongeveer de helft, want je hebt het of je hebt het niet",
+            "Ongeveer negen op tien, want één procent valt er telkens af",
         ],
         "antwoord": 0,
-        "uitleg": "De munt heeft geen geheugen: elke worp begint opnieuw. Wel is de kans op twintig keer munt op voorhand piepklein, ongeveer één op een miljoen. Wie dat achteraf verwart met de kans op de volgende worp, maakt de gokkersmisvatting. Al is er nog een derde mogelijkheid: misschien is de munt vals.",
+        "uitleg": r"Denk aan \(1000\) mensen. Eén van hen is ziek en test positief. Van de \(999\) gezonde mensen test toch één procent positief, dat zijn er zowat \(10\). Van de \(11\) positieve testen is er dus maar één echt: ongeveer \(9\) procent. Dokters doen daarom bij een positieve test bijna altijd een tweede, andere test.",
     },
 ]

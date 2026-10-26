@@ -147,7 +147,7 @@ VRAGEN = [
     },
     {
         "type": "invultekst",
-        "vraag": r"Hoeveel kilometer per seconde legt licht ongeveer af? Geef het getal in duizendtallen, bijvoorbeeld \(300000\).",
+        "vraag": r"Hoeveel kilometer per seconde legt licht ongeveer af? Rond af op honderdduizendtallen en schrijf het getal voluit, zonder punten of spaties.",
         "antwoord": "300000",
         "uitleg": r"Precies \(299\,792\,458\) meter per seconde. Dat is zeven keer rond de aarde in één tel, en toch doet licht van de dichtstbijzijnde ster er ruim vier jaar over om hier te raken.",
     },

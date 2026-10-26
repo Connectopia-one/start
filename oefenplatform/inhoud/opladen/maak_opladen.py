@@ -26,7 +26,8 @@ vinkjes bewaard worden, komen alle vier uit dit bestand.
 """
 import html, json, pathlib, sys, zipfile
 
-WORTEL = pathlib.Path("/home/claude/start/oefenplatform/inhoud")
+# Naast dit script, zodat het in elke kloon werkt en niet enkel in /home/claude.
+WORTEL = pathlib.Path(__file__).resolve().parents[1]
 TAK = "claude/drie-projecten-planning-87h9wg"
 BASIS = f"https://raw.githubusercontent.com/Connectopia-one/start/{TAK}/oefenplatform/inhoud/"
 
@@ -280,6 +281,37 @@ PIT = ("In dit bestand zitten enkel de nieuwe pittige hoofdstukken. Deel 1 en de
        "hoofdstuk in plaats van veertig.")
 
 PAGINAS = [
+    dict(
+        bestand="opladen-uitdagingshoek-reeks4.html",
+        titel="Plakpagina — de uitdagingshoek nagekeken en aangevuld",
+        sleutel="connectopia-plakpagina-uitdagingshoek-reeks4",
+        voet="Bijgewerkt op 26 oktober 2026",
+        intro="""<p>Elk vak van de uitdagingshoek heeft er een vijfde hoofdstuk van twintig
+      vragen bij, samen 400 vragen. Daarin zitten de zeventien vragen uit je vierde
+      Gemini-reeks die nog niet in de hoek stonden, aangevuld met eigen vragen. Reeks 1 tot 3
+      stonden er inderdaad al in.</p>
+      <p>Alle bestaande vragen zijn ook nagekeken. Zes fouten zijn rechtgezet (onder meer de
+      bijnaam van Albert I, Uranus en het woord bug), vijf vragen die twee keer in de hoek
+      stonden zijn vervangen, en bij een tiental vragen was het juiste antwoord opvallend het
+      kortste. Dat is nu ook weg.</p>
+      <p>Het examen van veertig vragen per vak neemt de nieuwe hoofdstukken vanzelf mee. Er is
+      geen sql voor nodig.</p>""",
+        secties=[
+            dict(
+                kop=HOEK + " — vier vakken, één bestand per vak",
+                uitleg=(WEG % HOEK) + " Kies telkens het vak dat op de kaart staat.",
+                kaarten=vraagkaarten([
+                    ("hoek5-de-ruimte", "De ruimte — vijf hoofdstukken", HOEK, "hoekje", "de-ruimte",
+                     "Nieuw: Zonnestormen, kometen en verre manen. " + AL),
+                    ("hoek5-coderen", "Coderen en computers — vijf hoofdstukken", HOEK, "hoekje", "coderen-en-computers",
+                     "Nieuw: Geheimschrift, kleurcodes en slimme trucs. " + AL),
+                    ("hoek5-belgie", "Geschiedenis van België — vijf hoofdstukken", HOEK, "hoekje", "geschiedenis-van-belgie",
+                     "Nieuw: Graven, geleerden en wereldtentoonstellingen. " + AL),
+                    ("hoek5-paradoxen", "Paradoxen en weetjes — vijf hoofdstukken", HOEK, "hoekje", "paradoxen-en-weetjes",
+                     "Nieuw: Raadsels, raven en rare proefjes. " + AL),
+                ])),
+        ],
+    ),
     dict(
         bestand="opladen-pittig-spark-andere-vakken.html",
         titel="Plakpagina — pittige hoofdstukken voor de andere vakken van ✨ Spark",

@@ -52,7 +52,10 @@ def nakijken(naam, vragen):
             if len(set(opties)) != len(opties):
                 meldingen.append(f"{kop}: twee keer dezelfde optie")
         elif v["type"] == "invultekst":
-            if not isinstance(v["antwoord"], str) or not v["antwoord"].strip():
+            # Een lijstje mag ook: elk woord erin telt als juist, het eerste
+            # wordt getoond. Zie invulAntwoorden in lib/antwoord.ts.
+            antw = v["antwoord"] if isinstance(v["antwoord"], list) else [v["antwoord"]]
+            if not antw or any(not isinstance(a, str) or not a.strip() for a in antw):
                 meldingen.append(f"{kop}: invulantwoord ontbreekt")
             if v.get("opties"):
                 meldingen.append(f"{kop}: een invulvraag heeft geen opties")

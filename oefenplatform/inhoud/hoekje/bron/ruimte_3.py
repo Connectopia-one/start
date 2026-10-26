@@ -167,13 +167,13 @@ VRAGEN = [
         "type": "meerkeuze",
         "vraag": "Uranus draait zowat liggend rond de zon, met zijn as bijna in zijn baanvlak. Wat is daarvan het gevolg?",
         "opties": [
-            "Elke pool krijgt om beurten ruim twintig jaar zon en daarna twintig jaar nacht",
+            "Elke pool krijgt om beurten ruim veertig jaar zon en daarna veertig jaar nacht",
             "De planeet heeft helemaal geen seizoenen, want de zon staat altijd gelijk",
             "Een dag op Uranus duurt precies even lang als een jaar",
             "De zon komt er elke dag in een andere richting op",
         ],
         "antwoord": 0,
-        "uitleg": r"Uranus doet \(84\) jaar over één rondje, en ligt daarbij op zijn kant. Waarschijnlijk heeft een enorme botsing hem ooit omvergekegeld. Zijn manen en ringen draaien netjes mee in dat gekantelde vlak.",
+        "uitleg": r"Uranus doet \(84\) jaar over één rondje, en ligt daarbij op zijn kant: de helft van die tijd wijst de ene pool naar de zon, de andere helft de andere. Waarschijnlijk heeft een enorme botsing hem ooit omvergekegeld. Zijn manen en ringen draaien netjes mee in dat gekantelde vlak.",
     },
     {
         "type": "meerkeuze",

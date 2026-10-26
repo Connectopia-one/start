@@ -42,7 +42,7 @@ VRAGEN = [
         "vraag": "De bidsprinkhaankreeft heeft twaalf tot zestien soorten kleurcellen in zijn ogen; wij hebben er drie. Wat volgt daaruit?",
         "opties": [
             "Niet noodzakelijk dat hij kleuren beter onderscheidt dan wij",
-            "Dat hij vijf keer zoveel kleuren kan onderscheiden dan wij",
+            "Dat hij vijf keer zoveel kleuren kan onderscheiden als wij",
             "Dat hij enkel in zwart-wit ziet maar heel scherp",
             "Dat hij kleuren ziet die voor ons niet bestaan, en wij niets van de zijne",
         ],

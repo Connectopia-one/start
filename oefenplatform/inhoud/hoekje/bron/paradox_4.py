@@ -28,7 +28,7 @@ VRAGEN = [
         "type": "meerkeuze",
         "vraag": "Waarom zijn flamingo's roze?",
         "opties": [
-            "Door kleurstoffen uit hun voedsel",
+            "Door kleurstoffen uit de garnalen en algen die ze eten",
             "Door een rode kleurstof in hun bloed die doorschijnt",
             "Ze worden roze geboren en verbleken daarna in de zon",
             "Door het zonlicht dat op hun witte veren weerkaatst",
@@ -40,7 +40,7 @@ VRAGEN = [
         "type": "meerkeuze",
         "vraag": "Wat kan de kwal Turritopsis dohrnii, die daarom de onsterfelijke kwal heet?",
         "opties": [
-            "Hij kan terugkeren naar zijn jeugdvorm",
+            "Hij kan als volwassen kwal terugkeren naar zijn jeugdvorm",
             "Hij kan zonder zuurstof onder water blijven ademen",
             "Hij kan zichzelf eindeloos in twee helften splitsen",
             "Hij kan zijn hele lichaam na een verwonding opnieuw laten groeien",
@@ -64,7 +64,7 @@ VRAGEN = [
         "type": "meerkeuze",
         "vraag": "Hoe kunnen bomen in een bos voedingsstoffen en waarschuwingen uitwisselen?",
         "opties": [
-            "Via draden van schimmels tussen hun wortels",
+            "Via fijne draden van schimmels tussen hun wortels",
             "Via radiogolven die ze met hun bladeren uitzenden",
             "Door hun wortels aan elkaar vast te laten groeien tot één boom",
             "Via stoffen in de lucht die alleen bij windstil weer werken",
@@ -76,7 +76,7 @@ VRAGEN = [
         "type": "meerkeuze",
         "vraag": "In de oorlog onderzocht men waar teruggekeerde vliegtuigen kogelgaten hadden, om net daar pantser te zetten. Wat was er mis met dat plan?",
         "opties": [
-            "Die vliegtuigen waren net wél teruggekomen",
+            "Juist de vliegtuigen die níét terugkwamen, waren elders geraakt",
             "Pantser maakt een vliegtuig te zwaar om te kunnen opstijgen",
             "Kogelgaten zeggen niets, want ze ontstaan ook bij de landing",
             "Men had veel meer vliegtuigen moeten tellen voor een besluit",
@@ -112,7 +112,7 @@ VRAGEN = [
         "type": "meerkeuze",
         "vraag": "Een tafel van metaal en een tafel van hout staan in dezelfde kamer. Waarom voelt het metaal kouder aan?",
         "opties": [
-            "Metaal trekt de warmte sneller uit je hand",
+            "Metaal trekt de warmte veel sneller uit je hand",
             "Metaal is in werkelijkheid altijd een paar graden kouder",
             "Hout geeft zelf een beetje warmte af aan je hand",
             "Je huid voelt gladde dingen altijd kouder aan dan ruwe",
@@ -172,7 +172,7 @@ VRAGEN = [
         "type": "meerkeuze",
         "vraag": "Op de maan liet een astronaut een hamer en een veer samen vallen. Wat gebeurde er?",
         "opties": [
-            "Ze raakten de grond op hetzelfde moment",
+            "Ze raakten de grond op precies hetzelfde moment",
             "De hamer kwam duidelijk eerder neer dan de veer",
             "De veer bleef zweven omdat er geen zwaartekracht is",
             "De veer dwarrelde weg, net zoals hier op aarde",
