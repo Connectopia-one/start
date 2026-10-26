@@ -20,6 +20,7 @@ const paginas = [
   "/wegwijzer",
   "/waar-kan-je-terecht",
   "/hulp-en-advies",
+  "/boekentips",
   "/blog",
   "/prikbord",
   "/kijkje",

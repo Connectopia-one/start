@@ -70,6 +70,14 @@ export const hulpTegels: HulpTegel[] = [
     link: "/blog",
   },
   {
+    titel: "Boekentips",
+    tekst:
+      "Boeken die bij ons in de kast staan en echt gebruikt worden, per onderwerp. Zonder leeftijd: hier kies je op interesse.",
+    icoon: "📚",
+    kleur: "orange",
+    link: "/boekentips",
+  },
+  {
     titel: "Prikbord voor ouders",
     tekst:
       "Zoekertjes, samenkomsten, aanraders en mooie momenten van andere ouders. Je mag er zelf een briefje ophangen.",
