@@ -487,4 +487,55 @@ module.exports = [
       klein: "Van het 5de leerjaar tot het 6de middelbaar",
     },
   },
+
+  /* Tips voor de klas (26-10-2026): een overzicht en elke tip apart. */
+  {
+    bestand: "klas-overzicht",
+    kleur: "paars",
+    pil: "Tips voor de klas",
+    hand: "Voor leerkrachten en zorg",
+    titel: "HB, UHB, autisme of ADHD<br><span>in je klas?</span>",
+    titelKlein: true,
+    woorden: [
+      { ic: "🗂️", tekst: "Structuur die vloeiend is" },
+      { ic: "💬", tekst: "Zeg ook waarom" },
+      { ic: "🚄", tekst: "Parkeer de sneltreinvraag" },
+    ],
+    voet: { hand: "Alle tips op", url: "connectopia.one/voor-leerkrachten"},
+  },
+
+  {
+    bestand: "klas-tip-1-post-its",
+    kleur: "groen",
+    pil: "Tip voor de klas 1",
+    hand: "Structuur mag vloeiend zijn",
+    titel: "Een planning<br><span>van post-its</span>",
+    tekst:
+      "Maak ze eerst echt en verhang ze samen als er iets wijzigt. Na een tijd verplaatst het kind ze vanzelf in zijn hoofd.",
+    nadruk: "Duidelijke afspraken blijven, maar een stap mag van plaats veranderen.",
+    voet: { hand: "Lees de tip op", url: "connectopia.one/voor-leerkrachten"},
+  },
+
+  {
+    bestand: "klas-tip-2-waarom",
+    kleur: "oranje",
+    pil: "Tip voor de klas 2",
+    hand: "Een daarom volstaat niet",
+    titel: "Zeg wat je verwacht<br><span>en ook waarom</span>",
+    tekst:
+      "Kort en duidelijk: wat verwacht je en wat gaat er gebeuren? Laat daarna ruimte voor de waarom-vraag en antwoord eerlijk.",
+    voet: { hand: "Lees de tip op", url: "connectopia.one/voor-leerkrachten"},
+  },
+
+  {
+    bestand: "klas-tip-3-sneltrein",
+    kleur: "paars",
+    pil: "Tip voor de klas 3",
+    hand: "Al een paar stations verder",
+    titel: "Parkeer de vraag<br><span>van het sneltreinhoofd</span>",
+    titelKlein: true,
+    citaat:
+      "Topvraag! Maar dit is even niet waar we nu mee bezig zijn. Ik schrijf hem op en we komen er tijdens de pauze op terug.",
+    voet: { hand: "Lees de tip op", url: "connectopia.one/voor-leerkrachten"},
+  },
 ];
