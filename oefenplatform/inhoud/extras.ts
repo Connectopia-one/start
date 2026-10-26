@@ -43,6 +43,15 @@ export const spellen: Spel[] = [
     tekst:
       "De begrippen uit de leerbundels van geschiedenis, in zes spellen: een quiz, memory, raad het begrip, tempeltje (galgje met een Griekse tempel), flitskaarten en begrippenbingo. Kies een hoofdstuk, speel alleen of in teams.",
   },
+  {
+    slug: "wiskunde-dimensie",
+    icoon: "🤖",
+    titel: "De Wiskunde-dimensie",
+    vak: "Wiskunde",
+    voorWie: "vier niveaus, van starter tot genie",
+    tekst:
+      "Een game van Mats. Robothond Tollie en kat Majol verslaan de monsters uit de anti-wiskunde-dimensie met plus en min, maal en delen en getallenreeksen. Wie veel goed heeft na elkaar, krijgt vanzelf moeilijkere sommen. Geen tijdslimiet.",
+  },
 ];
 
 export function vindSpel(slug: string) {

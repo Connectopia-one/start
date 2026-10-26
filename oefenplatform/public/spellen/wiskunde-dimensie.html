@@ -1,0 +1,668 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><title>De Wiskunde-dimensie</title><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<style>
+/* Layout: één spelscherm op ruitjespapier (de wiskunde-dimensie); rechts scheurt de anti-wiskunde-dimensie erdoor. */
+:root {
+  --paper: #eef4fb;
+  --grid: #cfdef1;
+  --ink: #18284a;
+  --ink-soft: #4a5b7c;
+  --robot: #2f6fdb;
+  --dog: #d99a12;
+  --cat: #e0662a;
+  --anti: #c2185b;
+  --anti-deep: #4b0f2e;
+  --good: #1f9d55;
+  --panel: #ffffff;
+  --line: #b9cbe3;
+  --font-display: "Fredoka", "Trebuchet MS", system-ui, sans-serif;
+  --font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { height: 100%; }
+body {
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 24px 24px;
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.5;
+}
+.wrap {
+  max-width: 880px;
+  margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+h1, h2, h3 { font-family: var(--font-display); line-height: 1.15; margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(2rem, 6vw, 3.2rem); font-weight: 700; }
+h2 { font-size: 1.6rem; font-weight: 600; }
+p { margin: 0; }
+.screen { display: flex; flex-direction: column; gap: 16px; }
+.card {
+  background: var(--panel);
+  border: 2px solid var(--ink);
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 4px 4px 0 var(--ink);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.eyebrow { font-family: var(--font-display); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; font-size: .8rem; color: var(--ink-soft); }
+.btn {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: 2px solid var(--ink);
+  border-radius: 12px;
+  padding: 12px 18px;
+  background: var(--panel);
+  color: var(--ink);
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--ink);
+  transition: transform .08s, box-shadow .08s;
+}
+.btn:hover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--ink); }
+.btn:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--ink); }
+.btn:focus-visible, input:focus-visible { outline: 3px solid var(--robot); outline-offset: 2px; }
+.btn.primary { background: var(--robot); color: #fff; }
+.btn.small { font-size: .95rem; padding: 8px 12px; }
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.hero-row { display: flex; gap: 12px; align-items: flex-end; justify-content: center; flex-wrap: wrap; }
+.hero-row svg { width: 90px; height: auto; }
+
+/* niveaukeuze */
+.levels { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+.level {
+  text-align: left; display: flex; flex-direction: column; gap: 2px;
+  font-family: var(--font-body); font-size: .9rem; font-weight: 400; box-shadow: 2px 2px 0 var(--ink);
+}
+.level b { font-family: var(--font-display); font-size: 1.1rem; font-weight: 600; }
+.level[aria-pressed="true"] { background: var(--ink); color: #fff; }
+
+/* namen */
+.names { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.names label { display: flex; flex-direction: column; gap: 4px; font-weight: 700; }
+.names input {
+  font: inherit; font-weight: 400; padding: 10px 12px; border: 2px solid var(--ink); border-radius: 10px; background: var(--paper); color: var(--ink);
+}
+
+/* gevecht */
+.hud { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.stages { display: flex; gap: 6px; }
+.stage-dot { width: 30px; height: 30px; border-radius: 50%; border: 2px solid var(--ink); display: grid; place-items: center; font-family: var(--font-display); font-weight: 600; font-size: .85rem; background: var(--panel); }
+.stage-dot.done { background: var(--good); color: #fff; }
+.stage-dot.now { background: var(--anti); color: #fff; }
+.arena {
+  position: relative;
+  border: 2px solid var(--ink);
+  border-radius: 14px;
+  overflow: hidden;
+  min-height: 260px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+  background: var(--paper);
+  box-shadow: 4px 4px 0 var(--ink);
+}
+.arena::after {
+  /* de scheur naar de anti-wiskunde-dimensie */
+  content: "";
+  position: absolute; inset: 0 0 0 52%;
+  background:
+    repeating-linear-gradient(115deg, rgba(255,255,255,.05) 0 10px, transparent 10px 24px),
+    radial-gradient(circle at 70% 40%, var(--anti) 0%, var(--anti-deep) 75%);
+  clip-path: polygon(14% 0, 100% 0, 100% 100%, 6% 100%, 16% 84%, 2% 70%, 18% 55%, 4% 40%, 20% 26%, 8% 12%);
+  z-index: 0;
+}
+.side { position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 14px 10px; }
+.party { display: flex; align-items: flex-end; justify-content: center; gap: 4px; }
+.party .h { display: flex; flex-direction: column; align-items: center; transition: transform .2s; }
+.party .h svg { width: clamp(72px, 16vw, 130px); height: auto; }
+.party .h span { font-family: var(--font-display); font-size: .85rem; font-weight: 600; }
+.monster svg { width: clamp(120px, 26vw, 200px); height: auto; }
+.mname { font-family: var(--font-display); font-weight: 600; color: #fff; text-shadow: 0 1px 2px rgba(0,0,0,.5); font-size: 1.05rem; text-align: center; }
+.bar { width: min(220px, 90%); height: 14px; border: 2px solid var(--ink); border-radius: 8px; background: #fff; overflow: hidden; }
+.bar > i { display: block; height: 100%; transition: width .4s; }
+.bar.hp > i { background: var(--anti); }
+.bar.energy > i { background: var(--good); }
+.barlabel { font-size: .8rem; font-weight: 700; }
+.side.right .barlabel { color: #fff; }
+.float {
+  position: absolute; z-index: 3; font-family: var(--font-display); font-weight: 700; font-size: 2rem; color: #fff;
+  text-shadow: 2px 2px 0 var(--ink); pointer-events: none; animation: rise 1s ease-out forwards;
+}
+@keyframes rise { from { transform: translateY(0); opacity: 1; } to { transform: translateY(-60px); opacity: 0; } }
+@keyframes shake { 0%,100% { transform: translateX(0); } 25% { transform: translateX(-8px); } 75% { transform: translateX(8px); } }
+@keyframes lunge { 50% { transform: translateX(28px) scale(1.1); } }
+@keyframes flash { 50% { filter: brightness(2.2) saturate(0); } }
+.shake { animation: shake .35s; }
+.lunge { animation: lunge .4s; }
+.flash { animation: flash .3s 2; }
+@keyframes vortex { to { transform: rotate(720deg) scale(0); opacity: 0; } }
+.vortex { animation: vortex 1.6s ease-in forwards; }
+
+.panel { display: flex; flex-direction: column; gap: 12px; }
+.attacks { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.attack { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; text-align: left; }
+.attack small { font-family: var(--font-body); font-weight: 400; font-size: .85rem; }
+.attack.robot { background: var(--robot); color: #fff; }
+.attack.dog { background: var(--dog); }
+.attack.cat { background: var(--cat); color: #fff; }
+.question {
+  font-family: var(--font-display); font-weight: 600; font-size: clamp(1.6rem, 6vw, 2.4rem);
+  text-align: center; font-variant-numeric: tabular-nums; overflow-wrap: anywhere;
+}
+.answer {
+  font-family: var(--font-display); font-size: 2rem; font-weight: 600; text-align: center;
+  width: 100%; padding: 8px; border: 2px solid var(--ink); border-radius: 12px; background: var(--paper); color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+.keypad { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.keypad .btn { padding: 12px 0; font-size: 1.4rem; }
+.keypad .ok { background: var(--good); color: #fff; grid-row: span 2; }
+.feedback { min-height: 1.5em; font-weight: 700; text-align: center; }
+.feedback.good { color: var(--good); }
+.feedback.bad { color: var(--anti); }
+.combo { font-family: var(--font-display); font-weight: 600; color: var(--anti); }
+.note { font-size: .9rem; color: var(--ink-soft); }
+.stats { display: flex; gap: 12px; flex-wrap: wrap; }
+.stat { border: 2px solid var(--ink); border-radius: 10px; padding: 8px 14px; background: var(--paper); }
+.stat b { font-family: var(--font-display); font-size: 1.5rem; display: block; font-variant-numeric: tabular-nums; }
+
+@media (max-width: 520px) {
+  .attacks { grid-template-columns: 1fr; }
+  .attack { flex-direction: row; align-items: baseline; gap: 8px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .shake, .lunge, .flash, .float { animation: none; }
+  .vortex { animation: none; opacity: 0; }
+}
+</style>
+
+<div class="wrap">
+
+  <!-- START -->
+  <section class="screen" id="s-start">
+    <div class="card">
+      <span class="eyebrow">Een game van Mats</span>
+      <h1 id="gameTitle">De Wiskunde-dimensie</h1>
+      <div class="hero-row" id="startHeroes"></div>
+      <p id="introText"></p>
+      <p class="note">Er is geen tijdslimiet. Neem rustig de tijd om te rekenen.</p>
+    </div>
+    <div class="card">
+      <h2>Kies je niveau</h2>
+      <div class="levels" id="levels"></div>
+      <p class="note">Geef je veel goede antwoorden na elkaar, dan worden de sommen vanzelf moeilijker.</p>
+    </div>
+    <div class="row">
+      <button class="btn primary" id="btnStart">Start het gevecht</button>
+      <button class="btn" id="btnNames">Namen bedenken</button>
+      <button class="btn small" id="btnSound" aria-pressed="false">Geluid: uit</button>
+    </div>
+  </section>
+
+  <!-- NAMEN -->
+  <section class="screen" id="s-names" hidden>
+    <div class="card">
+      <span class="eyebrow">Mats bedenkt het</span>
+      <h2>Helden en namen</h2>
+      <p>Verzin zelf de namen. Ze worden overal in de game gebruikt en blijven bewaard op deze computer.</p>
+      <div class="names">
+        <label for="n-game">Naam van de game<input id="n-game" maxlength="40"></label>
+        <label for="n-dog">De robothond<input id="n-dog" maxlength="20"></label>
+        <label for="n-cat">De kat<input id="n-cat" maxlength="20"></label>
+        <label for="n-villain">De slechterik<input id="n-villain" maxlength="24"></label>
+      </div>
+    </div>
+    <div class="row">
+      <button class="btn primary" id="btnSaveNames">Bewaren</button>
+      <button class="btn" id="btnBackNames">Terug</button>
+    </div>
+  </section>
+
+  <!-- GEVECHT -->
+  <section class="screen" id="s-battle" hidden>
+    <div class="hud">
+      <div class="stages" id="stageDots" aria-label="Voortgang"></div>
+      <div class="row">
+        <span class="combo" id="combo"></span>
+        <button class="btn small" id="btnQuit">Stoppen</button>
+      </div>
+    </div>
+    <div class="arena" id="arena">
+      <div class="side left">
+        <div class="party" id="party"></div>
+        <div class="barlabel">Energie</div>
+        <div class="bar energy"><i id="energyBar"></i></div>
+      </div>
+      <div class="side right">
+        <div class="mname" id="mName"></div>
+        <div class="monster" id="monster"></div>
+        <div class="barlabel">Kracht van het monster</div>
+        <div class="bar hp"><i id="hpBar"></i></div>
+      </div>
+    </div>
+    <div class="card panel" id="pChoose">
+      <p class="feedback" id="feedback1"></p>
+      <h3>Wie valt aan?</h3>
+      <div class="attacks">
+        <button class="btn attack robot" data-attack="laser"><span class="aDogName">Tollie</span><small>Rekenlaser: plus en min</small></button>
+        <button class="btn attack dog" data-attack="blaf"><span class="aDogName">Tollie</span><small>Maal-blaf: keer en delen</small></button>
+        <button class="btn attack cat" data-attack="poot"><span class="aCatName">Majol</span><small>Patroonpoot: welk getal komt erna?</small></button>
+      </div>
+    </div>
+    <div class="card panel" id="pQuestion" hidden>
+      <span class="eyebrow" id="qWho"></span>
+      <div class="question" id="qText"></div>
+      <input class="answer" id="answer" inputmode="none" autocomplete="off" aria-label="Jouw antwoord">
+      <div class="keypad" id="keypad"></div>
+      <button class="btn small" id="btnBackQ">Andere held kiezen</button>
+    </div>
+  </section>
+
+  <!-- TUSSENSCHERM -->
+  <section class="screen" id="s-story" hidden>
+    <div class="card">
+      <span class="eyebrow" id="storyEyebrow"></span>
+      <h2 id="storyTitle"></h2>
+      <p id="storyText"></p>
+      <div class="hero-row" id="storyArt"></div>
+    </div>
+    <div class="row"><button class="btn primary" id="btnStory">Verder</button></div>
+  </section>
+
+  <!-- GEWONNEN -->
+  <section class="screen" id="s-win" hidden>
+    <div class="card">
+      <span class="eyebrow">Gewonnen</span>
+      <h1>De wiskunde-dimensie is gered!</h1>
+      <div class="hero-row" id="winArt"></div>
+      <p id="winText"></p>
+      <div class="stats" id="stats"></div>
+    </div>
+    <div class="row">
+      <button class="btn primary" id="btnAgain">Nog eens spelen</button>
+      <button class="btn" id="btnHome">Naar het begin</button>
+    </div>
+  </section>
+</div>
+
+<script>
+(() => {
+  // ---------- tekeningen (voorlopig: Mats tekent later zijn eigen versies) ----------
+  const ART = {
+    robot: () => `<svg viewBox="0 0 100 130" aria-hidden="true">
+      <line x1="50" y1="4" x2="50" y2="20" stroke="#18284a" stroke-width="4"/>
+      <circle cx="50" cy="6" r="6" fill="#d99a12" stroke="#18284a" stroke-width="3"/>
+      <rect x="20" y="18" width="60" height="42" rx="10" fill="#2f6fdb" stroke="#18284a" stroke-width="4"/>
+      <rect x="28" y="26" width="44" height="26" rx="6" fill="#bfe3ff" stroke="#18284a" stroke-width="3"/>
+      <circle cx="40" cy="38" r="5" fill="#18284a"/><circle cx="60" cy="38" r="5" fill="#18284a"/>
+      <path d="M40 46 q10 6 20 0" stroke="#18284a" stroke-width="3" fill="none"/>
+      <rect x="24" y="64" width="52" height="40" rx="8" fill="#2f6fdb" stroke="#18284a" stroke-width="4"/>
+      <text x="50" y="94" text-anchor="middle" font-family="Fredoka, sans-serif" font-weight="700" font-size="26" fill="#fff">π</text>
+      <rect x="6" y="68" width="14" height="28" rx="6" fill="#8fb4ee" stroke="#18284a" stroke-width="3"/>
+      <rect x="80" y="68" width="14" height="28" rx="6" fill="#8fb4ee" stroke="#18284a" stroke-width="3"/>
+      <rect x="30" y="104" width="14" height="22" rx="4" fill="#8fb4ee" stroke="#18284a" stroke-width="3"/>
+      <rect x="56" y="104" width="14" height="22" rx="4" fill="#8fb4ee" stroke="#18284a" stroke-width="3"/>
+    </svg>`,
+    dog: () => `<svg viewBox="0 0 130 100" aria-hidden="true">
+      <path d="M18 44 L6 22" stroke="#18284a" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="6" cy="20" r="5" fill="#2f6fdb" stroke="#18284a" stroke-width="3"/>
+      <rect x="16" y="40" width="70" height="34" rx="10" fill="#d99a12" stroke="#18284a" stroke-width="4"/>
+      <text x="50" y="65" text-anchor="middle" font-family="Fredoka, sans-serif" font-weight="700" font-size="18" fill="#18284a">×</text>
+      <rect x="74" y="16" width="44" height="36" rx="9" fill="#d99a12" stroke="#18284a" stroke-width="4"/>
+      <path d="M80 18 L84 2 L94 16 Z" fill="#b07c08" stroke="#18284a" stroke-width="3" stroke-linejoin="round"/>
+      <rect x="104" y="30" width="20" height="14" rx="5" fill="#f6d27a" stroke="#18284a" stroke-width="3"/>
+      <circle cx="122" cy="34" r="3" fill="#18284a"/>
+      <circle cx="92" cy="30" r="5" fill="#bfe3ff" stroke="#18284a" stroke-width="3"/>
+      <rect x="22" y="72" width="12" height="22" rx="4" fill="#f6d27a" stroke="#18284a" stroke-width="3"/>
+      <rect x="40" y="72" width="12" height="22" rx="4" fill="#f6d27a" stroke="#18284a" stroke-width="3"/>
+      <rect x="58" y="72" width="12" height="22" rx="4" fill="#f6d27a" stroke="#18284a" stroke-width="3"/>
+      <rect x="74" y="72" width="12" height="22" rx="4" fill="#f6d27a" stroke="#18284a" stroke-width="3"/>
+    </svg>`,
+    cat: () => `<svg viewBox="0 0 100 100" aria-hidden="true">
+      <path d="M72 88 C98 86 98 56 84 50" stroke="#18284a" stroke-width="10" fill="none" stroke-linecap="round"/>
+      <path d="M72 88 C98 86 98 56 84 50" stroke="#e0662a" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <ellipse cx="50" cy="72" rx="26" ry="22" fill="#e0662a" stroke="#18284a" stroke-width="4"/>
+      <path d="M38 70 h24 M40 78 h20" stroke="#b44a16" stroke-width="3"/>
+      <path d="M28 30 L30 6 L46 22 Z M72 30 L70 6 L54 22 Z" fill="#e0662a" stroke="#18284a" stroke-width="4" stroke-linejoin="round"/>
+      <circle cx="50" cy="36" r="22" fill="#e0662a" stroke="#18284a" stroke-width="4"/>
+      <ellipse cx="41" cy="34" rx="4" ry="6" fill="#18284a"/><ellipse cx="59" cy="34" rx="4" ry="6" fill="#18284a"/>
+      <circle cx="42" cy="32" r="1.5" fill="#fff"/><circle cx="60" cy="32" r="1.5" fill="#fff"/>
+      <path d="M47 43 L53 43 L50 47 Z" fill="#f7a6b6" stroke="#18284a" stroke-width="2"/>
+      <path d="M26 42 h12 M26 47 l12 -2 M62 42 h12 M62 45 l12 2" stroke="#18284a" stroke-width="2"/>
+    </svg>`,
+    nul: () => `<svg viewBox="0 0 160 160" aria-hidden="true">
+      <circle cx="80" cy="84" r="64" fill="#7a2d91" stroke="#18284a" stroke-width="5"/>
+      <circle cx="56" cy="52" r="12" fill="#fff" stroke="#18284a" stroke-width="4"/><circle cx="58" cy="54" r="5" fill="#18284a"/>
+      <circle cx="104" cy="52" r="12" fill="#fff" stroke="#18284a" stroke-width="4"/><circle cx="102" cy="54" r="5" fill="#18284a"/>
+      <ellipse cx="80" cy="102" rx="36" ry="30" fill="#2a0b2f" stroke="#18284a" stroke-width="4"/>
+      <path d="M50 88 l8 12 l8 -12 l8 12 l6 -12 l8 12 l8 -12 l8 12 l6 -12" fill="#fff" stroke="#18284a" stroke-width="2"/>
+      <text x="80" y="124" text-anchor="middle" font-family="Fredoka, sans-serif" font-weight="700" font-size="22" fill="#e9c4ff">7 3 9</text>
+    </svg>`,
+    breuk: () => `<svg viewBox="0 0 160 160" aria-hidden="true">
+      <path d="M24 30 L136 22 L130 140 L30 134 Z" fill="#1c7a74" stroke="#18284a" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M80 24 L70 60 L92 78 L74 110 L86 138" stroke="#18284a" stroke-width="5" fill="none" stroke-linejoin="round"/>
+      <path d="M46 58 l18 8 M116 54 l-18 10" stroke="#18284a" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="54" cy="74" r="7" fill="#ffe14d" stroke="#18284a" stroke-width="3"/>
+      <circle cx="108" cy="74" r="7" fill="#ffe14d" stroke="#18284a" stroke-width="3"/>
+      <path d="M50 108 q12 -14 24 0 q12 14 30 -4" stroke="#18284a" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <text x="28" y="20" font-family="Fredoka, sans-serif" font-weight="700" font-size="22" fill="#fff">½</text>
+    </svg>`,
+    kronkel: () => `<svg viewBox="0 0 160 160" aria-hidden="true">
+      <path d="M20 130 C40 90 70 150 90 110 S130 60 120 30" stroke="#18284a" stroke-width="34" fill="none" stroke-linecap="round"/>
+      <path d="M20 130 C40 90 70 150 90 110 S130 60 120 30" stroke="#e05a8a" stroke-width="26" fill="none" stroke-linecap="round"/>
+      <circle cx="112" cy="26" r="6" fill="#fff" stroke="#18284a" stroke-width="3"/><circle cx="113" cy="27" r="2.5" fill="#18284a"/>
+      <circle cx="128" cy="32" r="6" fill="#fff" stroke="#18284a" stroke-width="3"/><circle cx="127" cy="33" r="2.5" fill="#18284a"/>
+      <text x="34" y="60" font-family="Fredoka, sans-serif" font-weight="700" font-size="30" fill="#fff">1,2,7?</text>
+    </svg>`,
+    villain: () => `<svg viewBox="0 0 180 180" aria-hidden="true">
+      <path d="M40 40 L60 26 L58 6 L78 24 L120 18 L150 50 L168 70 L150 120 L132 170 L70 160 L30 150 L14 96 L26 60 Z" fill="#2a0b2f" stroke="#18284a" stroke-width="5" stroke-linejoin="round"/>
+      <circle cx="66" cy="70" r="22" fill="#ffe14d" stroke="#18284a" stroke-width="4"/>
+      <circle cx="72" cy="74" r="9" fill="#c2185b"/>
+      <circle cx="122" cy="62" r="9" fill="#ffe14d" stroke="#18284a" stroke-width="4"/>
+      <circle cx="124" cy="63" r="3.5" fill="#c2185b"/>
+      <path d="M44 46 l40 10 M110 50 l24 -4" stroke="#ffe14d" stroke-width="5" stroke-linecap="round"/>
+      <path d="M50 118 L72 106 L90 124 L108 104 L130 128 L146 110" stroke="#ffe14d" stroke-width="5" fill="none" stroke-linejoin="round"/>
+      <path d="M150 80 L176 70 L172 40" stroke="#18284a" stroke-width="8" fill="none" stroke-linecap="round"/>
+      <path d="M22 110 L6 124" stroke="#18284a" stroke-width="8" stroke-linecap="round"/>
+      <text x="8" y="40" font-family="Fredoka, sans-serif" font-weight="700" font-size="28" fill="#c2185b">÷</text>
+      <text x="146" y="166" font-family="Fredoka, sans-serif" font-weight="700" font-size="26" fill="#c2185b">≠</text>
+    </svg>`
+  };
+
+  // ---------- namen ----------
+  const DEFAULT_NAMES = { game: "", dog: "Tollie", cat: "Majol", villain: "De Asymmetrische" };
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+  };
+  const S = {
+    names: Object.assign({}, DEFAULT_NAMES, store.get("wd-names-v2", {})),
+    level: store.get("wd-level", 2),
+    sound: false,
+    stage: 0, energy: 100, hp: 0, streak: 0, bestStreak: 0, correct: 0, wrong: 0,
+    hero: null, q: null, busy: false
+  };
+  const N = k => S.names[k] || DEFAULT_NAMES[k];
+  const gameName = () => S.names.game || "De Wiskunde-dimensie";
+
+  const STAGES = [
+    { art: "nul", name: () => "Nul-vreter", hp: 60, intro: () => `Een Nul-vreter kruipt door de scheur. Hij eet getallen op tot er alleen nullen over zijn!` },
+    { art: "breuk", name: () => "Breukbreker", hp: 80, intro: () => `De Breukbreker slaat alles in stukken en wil dat niets meer klopt.` },
+    { art: "kronkel", name: () => "Kronkelteller", hp: 100, intro: () => `De Kronkelteller telt expres verkeerd: 1, 2, 7, 4… Help de wiskunde-wereld!` },
+    { art: "villain", name: () => N("villain"), hp: 160, boss: true, intro: () => `Daar is hij: ${N("villain")}! Hij haat wiskunde en niets aan hem is symmetrisch. Duw hem terug naar de anti-wiskunde-dimensie!` }
+  ];
+
+  // ---------- sommen ----------
+  const r = (a, b) => a + Math.floor(Math.random() * (b - a + 1));
+  const pick = arr => arr[r(0, arr.length - 1)];
+  const sup = n => `<sup>${n}</sup>`;
+
+  function genAddSub(L) {
+    if (L >= 3 && Math.random() < 0.3) {
+      const a = L >= 4 ? r(100, 999) : r(10, 99), b = L >= 4 ? r(100, 999) : r(10, 99);
+      return { q: `? + ${b} = ${a + b}`, a, ex: `${a + b} − ${b} = ${a}` };
+    }
+    if (L === 3 && Math.random() < 0.3) {
+      const a = r(20, 99), b = r(10, 60), c = r(5, Math.min(a + b - 1, 80));
+      return { q: `${a} + ${b} − ${c}`, a: a + b - c, ex: `${a} + ${b} = ${a + b}, en ${a + b} − ${c} = ${a + b - c}` };
+    }
+    const max = [0, 20, 100, 999, 9999][L];
+    let a = r(1, max), b = r(1, max);
+    if (Math.random() < 0.5) return { q: `${a} + ${b}`, a: a + b, ex: `${a} + ${b} = ${a + b}` };
+    if (b > a) [a, b] = [b, a];
+    return { q: `${a} − ${b}`, a: a - b, ex: `${a} − ${b} = ${a - b}` };
+  }
+
+  function genMulDiv(L) {
+    if (L >= 4) {
+      const t = r(1, 4);
+      if (t === 1) { const a = r(12, 49), b = r(3, 9); return { q: `${a} × ${b}`, a: a * b, ex: `${a} × ${b} = ${a * b}` }; }
+      if (t === 2) { const n = r(4, 10); return { q: `2${sup(n)}`, a: 2 ** n, ex: `2${sup(n)} betekent ${n} keer 2 met zichzelf vermenigvuldigen = ${2 ** n}` }; }
+      if (t === 3) { const a = r(2, 9), b = r(2, 9), c = r(2, 9); return { q: `(${a} + ${b}) × ${c}`, a: (a + b) * c, ex: `Eerst de haakjes: ${a} + ${b} = ${a + b}, dan × ${c} = ${(a + b) * c}` }; }
+      const a = r(11, 15); return { q: `${a}${sup(2)}`, a: a * a, ex: `${a} × ${a} = ${a * a}` };
+    }
+    const tables = L === 1 ? [1, 2, 3, 4, 5, 10] : L === 2 ? [2, 3, 4, 5, 6, 7, 8, 9, 10] : [3, 4, 6, 7, 8, 9, 11, 12];
+    const a = pick(tables), b = r(L === 3 ? 3 : 1, L === 3 ? 12 : 10);
+    if (L === 3 && Math.random() < 0.25) { const n = r(4, 12); return { q: `${n}${sup(2)}`, a: n * n, ex: `${n} × ${n} = ${n * n}` }; }
+    if (L >= 2 && Math.random() < 0.35) return { q: `${a * b} ÷ ${a}`, a: b, ex: `${a} × ${b} = ${a * b}, dus ${a * b} ÷ ${a} = ${b}` };
+    return { q: `${b} × ${a}`, a: a * b, ex: `${b} × ${a} = ${a * b}` };
+  }
+
+  function genPattern(L) {
+    const seq = (arr, ex) => ({ q: arr.slice(0, -1).join(", ") + ", ?", a: arr[arr.length - 1], ex: `${ex} Het volgende getal is ${arr[arr.length - 1]}.` });
+    const arith = (s, d, n = 5) => Array.from({ length: n }, (_, i) => s + i * d);
+    if (L === 1) { const d = pick([1, 2, 5, 10]); return seq(arith(r(0, 10), d), `Elke keer +${d}.`); }
+    if (L === 2) {
+      const t = r(1, 3);
+      if (t === 1) { const d = r(3, 9); return seq(arith(r(1, 20), d), `Elke keer +${d}.`); }
+      if (t === 2) { const d = r(2, 9); return seq(arith(r(40, 90), -d), `Elke keer −${d}.`); }
+      const s = r(1, 3); return seq([s, s * 2, s * 4, s * 8, s * 16], `Elke keer ×2.`);
+    }
+    if (L === 3) {
+      const t = r(1, 4);
+      if (t === 1) { const k = r(1, 5); return seq([k, k + 1, k + 2, k + 3, k + 4].map(n => n * n), `Het zijn kwadraten: ${k}×${k}, ${k + 1}×${k + 1}, …`); }
+      if (t === 2) { const s = r(1, 10); const a = [s]; for (let i = 1; i < 6; i++) a.push(a[i - 1] + i); return seq(a, `Het verschil wordt elke keer 1 groter: +1, +2, +3, …`); }
+      if (t === 3) { const s = r(1, 3); return seq([s, s * 3, s * 9, s * 27, s * 81], `Elke keer ×3.`); }
+      const d = r(11, 25); return seq(arith(r(10, 50), d), `Elke keer +${d}.`);
+    }
+    const t = r(1, 4);
+    if (t === 1) { const a = [r(1, 5), r(2, 6)]; for (let i = 2; i < 7; i++) a.push(a[i - 1] + a[i - 2]); return seq(a, `Elk getal is de som van de twee getallen ervoor (zoals Fibonacci).`); }
+    if (t === 2) return seq([2, 3, 5, 7, 11, 13, 17, 19].slice(0, r(5, 8)), `Het zijn priemgetallen: ze zijn alleen deelbaar door 1 en zichzelf.`);
+    if (t === 3) { const k = r(1, 4); return seq([k, k + 1, k + 2, k + 3, k + 4].map(n => n * n + 1), `Kwadraat plus 1: ${k}×${k}+1, ${k + 1}×${k + 1}+1, …`); }
+    const p = r(5, 12), m = r(2, 4), s = r(10, 30); const a = [s];
+    for (let i = 1; i < 7; i++) a.push(i % 2 ? a[i - 1] + p : a[i - 1] - m);
+    return seq(a, `Om de beurt +${p} en −${m}.`);
+  }
+
+  const ATTACKS = {
+    laser: { hero: "dog", name: "Rekenlaser", gen: genAddSub },
+    blaf: { hero: "dog", name: "Maal-blaf", gen: genMulDiv },
+    poot: { hero: "cat", name: "Patroonpoot", gen: genPattern }
+  };
+  const team = () => ART.dog() + ART.cat();
+
+  // ---------- geluid (standaard uit) ----------
+  let ac = null;
+  function beep(freq, dur = 0.12, type = "triangle") {
+    if (!S.sound) return;
+    try {
+      ac = ac || new (window.AudioContext || window.webkitAudioContext)();
+      const o = ac.createOscillator(), g = ac.createGain();
+      o.type = type; o.frequency.value = freq;
+      g.gain.setValueAtTime(0.08, ac.currentTime);
+      g.gain.exponentialRampToValueAtTime(0.001, ac.currentTime + dur);
+      o.connect(g).connect(ac.destination); o.start(); o.stop(ac.currentTime + dur);
+    } catch {}
+  }
+
+  // ---------- helpers ----------
+  const $ = id => document.getElementById(id);
+  const screens = ["s-start", "s-names", "s-battle", "s-story", "s-win"];
+  function show(id) { screens.forEach(s => $(s).hidden = s !== id); window.scrollTo(0, 0); }
+  function anim(el, cls) { el.classList.remove(cls); void el.offsetWidth; el.classList.add(cls); }
+  function floatText(txt, side) {
+    const f = document.createElement("div");
+    f.className = "float"; f.textContent = txt;
+    f.style.left = side === "right" ? "68%" : "18%"; f.style.top = "30%";
+    $("arena").appendChild(f); setTimeout(() => f.remove(), 1000);
+  }
+  const levelNow = () => Math.min(4, S.level + (S.streak >= 5 ? 1 : 0));
+
+  // ---------- startscherm ----------
+  const LEVELS = [
+    [1, "Starter", "Plus en min tot 20, tafels van 1 tot 5"],
+    [2, "Rekenaar", "Tot 100, alle tafels, delen"],
+    [3, "Wiskundige", "Tot 1000, kwadraten, lastige reeksen"],
+    [4, "Genie", "Machten, haakjes, priemgetallen, Fibonacci"]
+  ];
+  function renderStart() {
+    $("gameTitle").textContent = gameName();
+    $("startHeroes").innerHTML = team();
+    $("introText").textContent = `${N("villain")} haat wiskunde en wil de wiskunde-dimensie breken. Door scheuren komen monsters uit de anti-wiskunde-dimensie binnen. ${N("dog")} de robothond en ${N("cat")} de kat verslaan ze met slimme berekeningen.`;
+    $("levels").innerHTML = LEVELS.map(([n, t, d]) =>
+      `<button class="btn level" data-level="${n}" aria-pressed="${S.level === n}"><b>${n}. ${t}</b>${d}</button>`).join("");
+  }
+  $("levels").addEventListener("click", e => {
+    const b = e.target.closest("[data-level]"); if (!b) return;
+    S.level = +b.dataset.level; store.set("wd-level", S.level); renderStart();
+  });
+  $("btnSound").addEventListener("click", () => {
+    S.sound = !S.sound;
+    $("btnSound").textContent = `Geluid: ${S.sound ? "aan" : "uit"}`;
+    $("btnSound").setAttribute("aria-pressed", S.sound);
+    beep(660);
+  });
+
+  // ---------- namen ----------
+  const nameKeys = ["game", "dog", "cat", "villain"];
+  $("btnNames").addEventListener("click", () => {
+    nameKeys.forEach(k => { $("n-" + k).value = S.names[k]; $("n-" + k).placeholder = DEFAULT_NAMES[k] || "Nog geen naam"; });
+    show("s-names");
+  });
+  $("btnSaveNames").addEventListener("click", () => {
+    nameKeys.forEach(k => S.names[k] = $("n-" + k).value.trim());
+    store.set("wd-names-v2", S.names); renderStart(); show("s-start");
+  });
+  $("btnBackNames").addEventListener("click", () => show("s-start"));
+
+  // ---------- gevecht ----------
+  function story(eyebrow, title, text, art, next) {
+    $("storyEyebrow").textContent = eyebrow; $("storyTitle").textContent = title;
+    $("storyText").textContent = text; $("storyArt").innerHTML = art;
+    $("btnStory").onclick = next; show("s-story");
+  }
+  function startGame() {
+    Object.assign(S, { stage: 0, streak: 0, bestStreak: 0, correct: 0, wrong: 0 });
+    introStage();
+  }
+  function introStage() {
+    const st = STAGES[S.stage];
+    story(st.boss ? "Eindbaas" : `Monster ${S.stage + 1} van ${STAGES.length - 1}`, st.name(), st.intro(), ART[st.art](), startStage);
+  }
+  function startStage() {
+    const st = STAGES[S.stage];
+    S.energy = 100; S.hp = st.hp; S.busy = false;
+    $("party").innerHTML = ["dog", "cat"].map(h => `<div class="h" id="h-${h}">${ART[h]()}<span>${N(h)}</span></div>`).join("");
+    $("monster").innerHTML = ART[st.art](); $("monster").classList.remove("vortex");
+    $("mName").textContent = st.name();
+    document.querySelectorAll(".aDogName").forEach(el => el.textContent = N("dog"));
+    document.querySelectorAll(".aCatName").forEach(el => el.textContent = N("cat"));
+    $("feedback1").textContent = ""; $("feedback1").className = "feedback";
+    $("stageDots").innerHTML = STAGES.map((s, i) =>
+      `<div class="stage-dot ${i < S.stage ? "done" : i === S.stage ? "now" : ""}" title="${s.boss ? "Eindbaas" : "Monster " + (i + 1)}">${s.boss ? "B" : i + 1}</div>`).join("");
+    updateBars(); showChoose(); show("s-battle");
+  }
+  function updateBars() {
+    $("energyBar").style.width = Math.max(0, S.energy) + "%";
+    $("hpBar").style.width = Math.max(0, S.hp / STAGES[S.stage].hp * 100) + "%";
+    $("combo").textContent = S.streak >= 2 ? `Combo ×${S.streak}` : "";
+  }
+  function showChoose() { $("pChoose").hidden = false; $("pQuestion").hidden = true; }
+
+  document.querySelector(".attacks").addEventListener("click", e => {
+    const b = e.target.closest("[data-attack]"); if (!b || S.busy) return;
+    const at = ATTACKS[b.dataset.attack];
+    S.hero = at.hero; S.q = at.gen(levelNow());
+    $("qWho").textContent = `${N(S.hero)} gebruikt ${at.name}`;
+    $("qText").innerHTML = S.q.q;
+    $("answer").value = "";
+    $("pChoose").hidden = true; $("pQuestion").hidden = false;
+    $("answer").focus({ preventScroll: true });
+  });
+  $("btnBackQ").addEventListener("click", showChoose);
+
+  const KEYS = ["7", "8", "9", "⌫", "4", "5", "6", "OK", "1", "2", "3", "−", "0"];
+  $("keypad").innerHTML = KEYS.map(k => `<button class="btn ${k === "OK" ? "ok" : ""}" data-k="${k}" aria-label="${k === "⌫" ? "Wissen" : k === "−" ? "Min" : k}">${k}</button>`).join("");
+  $("keypad").addEventListener("click", e => {
+    const b = e.target.closest("[data-k]"); if (!b) return;
+    const k = b.dataset.k, inp = $("answer");
+    if (k === "OK") return submit();
+    if (k === "⌫") inp.value = inp.value.slice(0, -1);
+    else if (k === "−") inp.value = inp.value.startsWith("-") ? inp.value.slice(1) : "-" + inp.value;
+    else if (inp.value.length < 7) inp.value += k;
+    beep(440, 0.04);
+  });
+  $("answer").addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); submit(); } });
+  $("answer").addEventListener("input", () => { $("answer").value = $("answer").value.replace(/[^\d-]/g, "").slice(0, 7); });
+
+  function submit() {
+    if (S.busy) return;
+    const raw = $("answer").value.trim(); if (raw === "" || raw === "-") return;
+    S.busy = true;
+    const ok = parseInt(raw, 10) === S.q.a;
+    const st = STAGES[S.stage];
+    showChoose();
+    const fb = $("feedback1");
+    if (ok) {
+      S.streak++; S.correct++; S.bestStreak = Math.max(S.bestStreak, S.streak);
+      const dmg = S.streak >= 3 ? 30 : 20;
+      S.hp -= dmg;
+      anim($("h-" + S.hero), "lunge"); anim($("monster"), "flash");
+      floatText(`−${dmg}`, "right"); beep(880); setTimeout(() => beep(1175), 90);
+      fb.className = "feedback good";
+      fb.textContent = S.streak >= 3 ? `Juist! Combo-aanval: dubbel zo sterk!` : pick(["Juist!", "Super berekend!", "Precies goed!", "Raak!"]);
+      if (S.streak === 5) fb.textContent += " De sommen worden nu moeilijker.";
+      updateBars();
+      if (S.hp <= 0) return setTimeout(stageCleared, 900);
+    } else {
+      S.streak = 0; S.wrong++; S.energy -= 20;
+      anim($("monster"), "lunge"); anim($("party"), "shake");
+      floatText("−20", "left"); beep(180, 0.25, "sawtooth");
+      fb.className = "feedback bad";
+      fb.innerHTML = `Bijna! ${S.q.ex}`;
+      updateBars();
+      if (S.energy <= 0) return setTimeout(recharge, 900);
+    }
+    setTimeout(() => { S.busy = false; }, 450);
+  }
+
+  function stageCleared() {
+    const st = STAGES[S.stage];
+    if (st.boss) {
+      $("monster").classList.add("vortex"); beep(300, 0.6, "sine");
+      return setTimeout(win, 1700);
+    }
+    S.stage++;
+    story("Monster verslagen", `${st.name()} is terug door de scheur!`,
+      `${N("dog")} en ${N("cat")} hebben goed gerekend. De energie is weer helemaal opgeladen.`,
+      team(), introStage);
+  }
+  function recharge() {
+    story("Even opladen", "Terug naar de eigen dimensie",
+      `De helden springen even terug naar hun eigen wetenschappelijke dimensie om op te laden. Dat kan altijd. Daarna gaan ze terug om ${STAGES[S.stage].name()} te verslaan.`,
+      team(), startStage);
+    $("btnStory").textContent = "Opgeladen! Terug naar het gevecht";
+  }
+  function win() {
+    $("winArt").innerHTML = team();
+    $("winText").textContent = `${N("villain")} is teruggedreven naar de anti-wiskunde-dimensie en de scheur is dicht. Dankzij ${N("dog")} en ${N("cat")} klopt alles weer.`;
+    $("stats").innerHTML = `<div class="stat"><b>${S.correct}</b>goede antwoorden</div><div class="stat"><b>${S.bestStreak}</b>langste combo</div><div class="stat"><b>${LEVELS[S.level - 1][1]}</b>niveau</div>`;
+    show("s-win");
+  }
+  $("btnStory").addEventListener("click", () => { $("btnStory").textContent = "Verder"; });
+  $("btnStart").addEventListener("click", startGame);
+  $("btnAgain").addEventListener("click", startGame);
+  $("btnHome").addEventListener("click", () => { renderStart(); show("s-start"); });
+  $("btnQuit").addEventListener("click", () => { renderStart(); show("s-start"); });
+
+  renderStart();
+})();
+</script>
+
+</body></html>
