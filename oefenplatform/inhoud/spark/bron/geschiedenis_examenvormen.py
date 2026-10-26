@@ -732,6 +732,206 @@ H["Bronnen, kunst en beeldvorming — deel 2"] = [
 ]
 
 
+# ---------------------------------------------------------------------------
+# Vragen bij de prenten van Kim ("Geschiedenis in beeld", 26-10-2026).
+# Die prenten zijn met AI nagemaakt, geen echte foto's en geen bronnen. Elke
+# vraag zegt dat ("nagemaakte prent"), en geen vraag doet alsof je er iets uit
+# kan bewijzen. Ze staan in public/examenvormen/beeld/; de twee prenten met
+# nummers (prenten-steentijd, prenten-periodes) zijn er samengezet.
+# ---------------------------------------------------------------------------
+
+
+def met(prent, vraag):
+    """Zet een prent boven een vraag."""
+    vraag["afbeelding_url"] = f"/examenvormen/beeld/{prent}"
+    return vraag
+
+
+H["Het historisch referentiekader — deel 2"] += [
+    met("prenten-periodes.webp", koppel(
+        "Bekijk de zes nagemaakte prenten. Bij welke periode hoort elke prent?",
+        [
+            ["Prent 1", "Oude nabije oosten"],
+            ["Prent 2", "Klassieke oudheid"],
+            ["Prent 3", "Middeleeuwen"],
+            ["Prent 4", "Vroegmoderne tijd"],
+            ["Prent 5", "Moderne tijd"],
+            ["Prent 6", "Hedendaagse tijd"],
+        ],
+        ["Prehistorie"],
+        "1 is een ziggurat, een tempeltoren uit Mesopotamië. 2 is het Colosseum in Rome. 3 is een burcht met een gracht. 4 is een zeilschip zoals bij de ontdekkingsreizen rond 1500. 5 is een stoomlocomotief uit de 19de eeuw. 6 zijn de vlaggen van de Europese Unie, die na de Tweede Wereldoorlog ontstond. Bij de prehistorie hoort geen enkele prent.",
+    )),
+]
+
+H["De prehistorie — deel 1"] += [
+    met("grotschildering.webp", keuze(
+        "Bekijk de nagemaakte prent. Op deze rotstekening staan [[*dieren|akkers|huizen]]. Zulke tekeningen maakten de jagers-verzamelaars van het [[*paleolithicum|neolithicum]].",
+        "Op de wanden van grotten schilderden jagers-verzamelaars de dieren die ze kenden en waarop ze jaagden, zoals paarden en runderen. Akkers en vaste huizen komen pas in het neolithicum.",
+    )),
+    met("vuistbijl.webp", tabel(
+        "Bekijk de nagemaakte prent van een vuistbijl. Is elke uitspraak juist of fout?",
+        [
+            ("Een vuistbijl is gemaakt van steen, meestal vuursteen.", J),
+            ("Een vuistbijl had een lange houten steel.", F),
+            ("Je hield een vuistbijl in je hand om mee te hakken, snijden en schrapen.", J),
+            ("Een vuistbijl werd gegoten uit brons.", F),
+            ("De vuistbijl hoort bij het paleolithicum.", J),
+        ],
+        "Een vuistbijl is een stuk vuursteen dat aan beide kanten bijgeslagen werd. Je hield hem in je vuist, vandaar de naam; een steel had hij niet. Brons kwam pas veel later.",
+    )),
+]
+
+H["De prehistorie — deel 2"] += [
+    met("prenten-steentijd.webp", sorteer(
+        "Bekijk de vier nagemaakte prenten. Hoort elke prent bij het paleolithicum of bij het neolithicum?",
+        ["Paleolithicum", "Neolithicum"],
+        [
+            ["Prent 1, een rotstekening", "Paleolithicum"],
+            ["Prent 2, een vuistbijl", "Paleolithicum"],
+            ["Prent 3, een pot van gebakken klei", "Neolithicum"],
+            ["Prent 4, een graf van grote stenen", "Neolithicum"],
+        ],
+        "Rotstekeningen en vuistbijlen zijn van de jagers-verzamelaars van het paleolithicum. Potten van gebakken klei en hunebedden horen bij het neolithicum: wie op een vaste plaats woont, kan voorraden bewaren en grote graven bouwen.",
+    )),
+    casus(
+        "Archeologen vonden de sporen van een dorp uit het neolithicum: paalgaten, resten van wanden en scherven. Daarop is deze prent gebaseerd. Ze is nagemaakt, geen echte foto.",
+        [
+            klik(
+                "De wanden van deze huizen zijn gemaakt van gevlochten takken met leem erop. Klik op zo'n wand van leem.",
+                "beeld/neolithisch-dorp.webp",
+                [[33, 36, 18, 38], [10, 59, 24, 15], [77, 37, 21, 31]],
+                "De lichte, gladde wanden onder de daken zijn van leem. De daken zijn van riet, de omheining vooraan is van gevlochten takken.",
+            ),
+            met("neolithisch-dorp.webp", tabel(
+                "Wat zegt zo'n dorp over het leven in het neolithicum? Is elke uitspraak juist of fout?",
+                [
+                    ("De mensen bleven op een vaste plaats wonen.", J),
+                    ("De huizen waren gebouwd met bakstenen en dakpannen.", F),
+                    ("De mensen bouwden met hout, leem en riet uit hun omgeving.", J),
+                    ("De bewoners trokken elke paar weken verder om te jagen.", F),
+                ],
+                "In het neolithicum gingen de mensen aan landbouw en veeteelt doen. Daarom bleven ze op één plaats wonen, in huizen van hout, leem en riet. Bakstenen en dakpannen kwamen veel later.",
+            )),
+        ],
+    ),
+]
+
+H["Mesopotamië en Egypte — deel 1"] += [
+    met("kleitablet.webp", sleep(
+        "Bekijk de nagemaakte prent. Op dit tablet staat [[spijkerschrift]]. Met een [[rietstengel]] drukte men wigvormige tekens in natte [[klei]].",
+        ["hiërogliefen", "papyrus", "beitel"],
+        "Het spijkerschrift ontstond in Mesopotamië. Met een rietstengel drukte men tekens in natte klei. Hiërogliefen en papyrus horen bij Egypte.",
+    )),
+    met("ziggurat.webp", tabel(
+        "Bekijk de nagemaakte prent van een ziggurat. Is elke uitspraak juist of fout?",
+        [
+            ("Een ziggurat is een tempeltoren in trappen.", J),
+            ("Een ziggurat was het graf van een farao.", F),
+            ("Een ziggurat stond in een stad in Mesopotamië.", J),
+            ("Ziggurats werden gebouwd uit wit marmer.", F),
+            ("Bovenaan stond een tempel voor de god van de stad.", J),
+        ],
+        "Een ziggurat is een tempeltoren in trappen uit Mesopotamië, gebouwd uit gedroogde en gebakken kleitegels. Bovenaan stond een tempel voor de god van de stad. Het graf van een farao is een piramide, in Egypte.",
+    )),
+]
+
+H["Mesopotamië en Egypte — deel 2"] += [
+    klik(
+        "Bekijk de nagemaakte prent. Klik op het bouwwerk dat gebouwd werd als graf voor een farao.",
+        "beeld/piramide-sfinx.webp",
+        [[16, 4, 54, 56]],
+        "De piramide is het graf van een farao. Het beeld ervoor, met het lichaam van een leeuw en het hoofd van een mens, is de sfinx. Die bewaakte het graf.",
+    ),
+    met("dodenmasker.webp", keuze(
+        "Bekijk de nagemaakte prent. Zo'n gouden masker lag op het gezicht van de [[*mummie|beeltenis|sfinx]] van een farao. De Egyptenaren balsemden hun doden omdat ze geloofden in [[*een leven na de dood|een nieuw leven als dier|een einde zonder hiernamaals]].",
+        "De Egyptenaren geloofden dat het leven na de dood verderging. Het lichaam moest daarvoor bewaard blijven, en daarom maakten ze er een mummie van. Een farao kreeg een kostbaar masker en grafgiften mee.",
+    )),
+]
+
+H["Het oude Griekenland — deel 1"] += [
+    met("parthenon.webp", keuze(
+        "Bekijk de nagemaakte prent. Dit is het [[*Parthenon|Colosseum|Pantheon]]. Het staat op de Akropolis van [[*Athene|Sparta|Rome]] en was gewijd aan [[*Athena|Zeus|Poseidon]]. De zuilen zijn [[*Dorisch|Ionisch|Korintisch]].",
+        "Het Parthenon op de Akropolis van Athene was gewijd aan Athena, de beschermgodin van de stad. De zuilen zijn Dorisch: eenvoudig, zonder voet en met een vlak kapiteel. Het Colosseum en het Pantheon staan in Rome.",
+    )),
+]
+
+H["Het oude Griekenland — deel 2"] += [
+    casus(
+        "Op Griekse vazen en in Griekse beelden zie je vaak sporters. De twee prenten bij deze vragen zijn nagemaakt, geen foto's van echte vazen of beelden.",
+        [
+            met("griekse-vaas.webp", tabel(
+                "Bekijk de prent van de vaas. Is elke uitspraak juist of fout?",
+                [
+                    ("De figuren zijn zwart geschilderd op een oranje ondergrond.", J),
+                    ("Op de vaas zie je mensen die lopen.", J),
+                    ("Op de vaas staan Romeinse gladiatoren.", F),
+                    ("Zulke vazen vertellen iets over wat de Grieken belangrijk vonden.", J),
+                    ("Op Griekse vazen staan nooit goden of verhalen.", F),
+                ],
+                "Op Griekse vazen staan sporters, mythologische verhalen en scènes uit het dagelijkse leven. Hier zijn het lopers, zwart op de oranje klei. Gladiatoren zijn Romeins.",
+            )),
+            met("discuswerper.webp", open_(
+                "Bekijk de prent van het beeld. Welke sport beoefent deze man? Bij welk groot feest van de Grieken hoorde die sport, en ter ere van welke god?",
+                "Hij gooit een discus. Discuswerpen hoorde bij de Olympische Spelen in Olympia, die ter ere van Zeus gehouden werden.",
+            )),
+        ],
+    ),
+]
+
+H["Het Romeinse Rijk — deel 1"] += [
+    met("colosseum.webp", sleep(
+        "Bekijk de nagemaakte prent. Het Colosseum in [[Rome]] is een [[amfitheater]]. Het publiek keek er naar gevechten van [[gladiatoren]].",
+        ["Athene", "tempel", "filosofen"],
+        "Het Colosseum staat in Rome. Een amfitheater is rondom gebouwd, zodat iedereen zicht had op het midden, waar gladiatoren vochten.",
+    )),
+]
+
+H["Het Romeinse Rijk — deel 2"] += [
+    casus(
+        "Rijke Romeinen woonden in een groot huis met in het midden een atrium, een open ruimte waar bezoekers ontvangen werden. De prent is nagemaakt, geen echte foto.",
+        [
+            klik(
+                "Door een opening in het dak viel licht en regenwater in het atrium. Klik op die opening.",
+                "beeld/romeins-atrium.webp",
+                [[39, 4, 27, 13]],
+                "Bovenaan in het midden zit het dak open. Het regenwater viel in het bekken eronder.",
+            ),
+            met("romeins-atrium.webp", tabel(
+                "Wat leer je uit deze prent over het huis van een rijke Romein? Is elke uitspraak juist of fout?",
+                [
+                    ("Het huis had zuilen rond een open ruimte.", J),
+                    ("De vloer was versierd met een mozaïek.", J),
+                    ("Alle Romeinen woonden in zo'n huis.", F),
+                    ("In het midden stond een bekken met water.", J),
+                    ("Het huis was gebouwd uit riet en leem.", F),
+                ],
+                "Zuilen, een mozaïekvloer en een waterbekken passen bij het huis van een rijke familie. De meeste Romeinen woonden in een klein appartement in een huurblok.",
+            )),
+        ],
+    ),
+]
+
+H["Bronnen, kunst en beeldvorming — deel 1"] += [
+    met("hunebed.webp", tabel(
+        "Onder deze prent van een hunebed staat: AI-reconstructie, geen echte foto. Is elke uitspraak juist of fout?",
+        [
+            ("De prent is een primaire bron over het neolithicum.", F),
+            ("De prent is gemaakt in onze tijd.", J),
+            ("Uit de prent weet je zeker hoe dit graf er toen uitzag.", F),
+            ("De prent kan helpen om je een voorstelling te maken.", J),
+        ],
+        "Een primaire bron komt uit de tijd zelf. Deze prent is in onze tijd met een computer gemaakt, en kan fouten bevatten. Ze helpt je om je iets voor te stellen, maar ze bewijst niets.",
+    )),
+]
+
+H["Bronnen, kunst en beeldvorming — deel 2"] += [
+    met("stoomlocomotief.webp", open_(
+        "Een klasgenoot gebruikt deze nagemaakte prent in een spreekbeurt als bewijs dat de eerste treinen er zo uitzagen. Wat zeg je tegen hem? Waar zoek je beter?",
+        "Het is een prent die met AI gemaakt is, geen foto uit die tijd, dus ze kan fouten bevatten en bewijst niets. Beter zoek je echte foto's, tekeningen of beschrijvingen uit de 19de eeuw, of een trein in een museum. Kijk ook na wie de bron maakte en wanneer.",
+    )),
+]
+
+
 def tel(vragen):
     """Telt de vragen, ook die in een casus."""
     n = 0
