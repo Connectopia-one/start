@@ -8,6 +8,28 @@ import { maakFotoUploadUrl, vervangFotoBestand } from "./actions";
 
 type Foto = { id: string; url: string; bestandspad: string };
 
+const wacht = (ms: number) => new Promise((klaar) => setTimeout(klaar, ms));
+
+/*
+  Het gratis plan van Supabase weigert als er te veel verzoeken vlak na
+  elkaar komen: fout 429 of "Too many connections". Bij het eerste klasje
+  van 53 foto's liep de helft daarop vast. Daarom een korte pauze tussen twee
+  foto's, en bij zo'n weigering nog twee pogingen met een langere pauze.
+*/
+async function metGeduld<T>(doe: () => Promise<T>): Promise<T> {
+  for (const pauze of [0, 5000, 15000]) {
+    if (pauze) await wacht(pauze);
+    try {
+      return await doe();
+    } catch (err) {
+      const tekst = err instanceof Error ? err.message : "";
+      const teDruk = /429|too many|500|#441/i.test(tekst);
+      if (!teDruk || pauze === 15000) throw err;
+    }
+  }
+  throw new Error("Het lukte niet.");
+}
+
 /*
   Eén knop die de foto's van dit klasje die er al staan kleiner maakt.
 
@@ -35,21 +57,31 @@ export function AllesVerkleinen({ fotos, slug }: { fotos: Foto[]; slug: string }
     const mis: string[] = [];
     for (let i = 0; i < fotos.length; i++) {
       const f = fotos[i];
-      const naam = f.bestandspad.split("/").pop() ?? "foto";
+      // Elke vervanging zet er een tijdstempel voor; die van vroeger halen we
+      // eraf, anders groeit de naam bij elke keer verkleinen of draaien.
+      const naam = (f.bestandspad.split("/").pop() ?? "foto").replace(/^(\d{13}-[a-z0-9]{6}-)+/, "") || "foto.jpg";
       setStand(`Foto ${i + 1} van ${fotos.length} nakijken…`);
+      if (i > 0) await wacht(700);
       try {
-        const antwoord = await fetch(f.url);
-        if (!antwoord.ok) throw new Error(`de opslag gaf fout ${antwoord.status}`);
-        const blob = await antwoord.blob();
+        const blob = await metGeduld(async () => {
+          const antwoord = await fetch(f.url);
+          if (!antwoord.ok) throw new Error(`de opslag gaf fout ${antwoord.status}`);
+          return antwoord.blob();
+        });
         if (!(await moetKleiner(blob))) continue;
         const klein = await verklein(new File([blob], naam, { type: blob.type }));
         if (klein.size >= blob.size) continue;
 
         const klasjeId = f.bestandspad.split("/")[0];
-        const { path, token } = await maakFotoUploadUrl(klasjeId, klein.name);
-        const { error } = await supabase.storage.from("fotos").uploadToSignedUrl(path, token, klein);
-        if (error) throw new Error(`opladen mislukt: ${error.message}`);
-        const uitkomst = await vervangFotoBestand({ id: f.id, slug, oudPad: f.bestandspad, nieuwPad: path });
+        const path = await metGeduld(async () => {
+          const { path, token } = await maakFotoUploadUrl(klasjeId, klein.name);
+          const { error } = await supabase.storage.from("fotos").uploadToSignedUrl(path, token, klein);
+          if (error) throw new Error(`opladen mislukt: ${error.message}`);
+          return path;
+        });
+        const uitkomst = await metGeduld(() =>
+          vervangFotoBestand({ id: f.id, slug, oudPad: f.bestandspad, nieuwPad: path }),
+        );
         if (!uitkomst.gelukt) throw new Error(uitkomst.bericht);
         kleiner++;
         bespaard += blob.size - klein.size;

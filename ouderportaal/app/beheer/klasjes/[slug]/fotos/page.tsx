@@ -6,6 +6,7 @@ import { verwijderFoto } from "./actions";
 import { NieuweFotosForm } from "./NieuweFotosForm";
 import { FotoTegel } from "./FotoTegel";
 import { AllesVerkleinen } from "./AllesVerkleinen";
+import { AllesDownloaden } from "./AllesDownloaden";
 
 export default async function BeheerFotosPage({
   params,
@@ -62,6 +63,11 @@ export default async function BeheerFotosPage({
         <AllesVerkleinen
           slug={slug}
           fotos={metUrl.flatMap((f) => (f.url ? [{ id: f.id, url: f.url, bestandspad: f.bestandspad }] : []))}
+        />
+        <AllesDownloaden
+          klasjeNaam={klasje.naam}
+          slug={slug}
+          fotos={metUrl.flatMap((f) => (f.url ? [{ id: f.id, url: f.url, aangemaakt: f.created_at }] : []))}
         />
 
         <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
