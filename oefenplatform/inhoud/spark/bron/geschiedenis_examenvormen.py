@@ -337,8 +337,8 @@ H["Mesopotamië en Egypte — deel 1"] = [
         "Klei voor het spijkerschrift, papyrus voor de hiërogliefen. Papyrus groeide langs de Nijl.",
     ),
     open_(
-        "Waarom mummificeerden de Egyptenaren hun doden?",
-        "Ze geloofden in een leven na de dood. Het lichaam moest daarvoor bewaard blijven, zodat de ziel het kon terugvinden. Daarom balsemden ze het en legden ze voorwerpen in het graf.",
+        "Een archeoloog vindt in een Egyptisch graf een mummie, met voedsel, meubels en juwelen erbij. Wat vertelt die vondst over hoe de Egyptenaren over de dood dachten?",
+        "Ze geloofden dat het leven na de dood verderging. De dode kreeg voedsel en spullen mee, omdat hij die in het hiernamaals nodig zou hebben. Het lichaam werd gebalsemd, zodat het bewaard bleef.",
     ),
 ]
 
@@ -668,8 +668,8 @@ H["Bronnen, kunst en beeldvorming — deel 1"] = [
         "Een historicus en een archeoloog bestuderen het verleden later; ze waren er zelf niet bij.",
     ),
     open_(
-        "Waarom wil een historicus weten wie een bron gemaakt heeft?",
-        "Wie de bron maakte, bepaalt mee wat erin staat. Die persoon had een eigen mening, belang of opdrachtgever. Als je dat weet, kan je beter inschatten hoe betrouwbaar de bron is.",
+        "Een Romeinse schrijver beschrijft de Germanen als wilde barbaren. Waarom moet je weten wie die tekst schreef, voor je hem gelooft?",
+        "De schrijver was een Romein, en de Romeinen vochten tegen de Germanen. Hij kan hen slechter voorgesteld hebben dan ze waren, zodat Rome beter leek. Daarom zoek je ook andere bronnen, zoals wat archeologen bij de Germanen zelf vonden.",
     ),
 ]
 
@@ -1071,7 +1071,8 @@ H["Het Romeinse Rijk — deel 1"] += [
         "De Romeinen noemden de zee rond hun rijk mare nostrum, onze zee. Klik op die zee.",
         "kaarten/romeinse-rijk.svg",
         [[28.1, 50.0, 6.5, 13.1], [39.4, 51.5, 8.3, 5.4], [52.9, 59.6, 5.8, 11.5], [43.3, 68.4, 16.3, 10.0],
-         [59.6, 73.4, 9.6, 5.8], [20.2, 59.2, 7.5, 5.0], [69.2, 75.3, 13.5, 8.1], [74.0, 69.6, 6.7, 5.4]],
+         [59.6, 73.4, 9.6, 5.8], [20.2, 59.2, 7.5, 5.0], [69.2, 75.3, 13.5, 8.1], [74.0, 69.6, 6.7, 5.4],
+         [21.2, 50.3, 5.4, 3.5], [11.5, 67.6, 5.8, 2.7], [47.1, 39.2, 2.9, 5.0], [65.4, 53.8, 3.8, 5.8]],
         "Mare nostrum is de Middellandse Zee. Alle steden op de kaart liggen eraan, en het Romeinse Rijk lag er helemaal rond.",
     ),
     stelling(

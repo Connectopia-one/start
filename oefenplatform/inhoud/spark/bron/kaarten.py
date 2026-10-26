@@ -136,7 +136,8 @@ def main():
     # Vijf vakken die samen het grootste deel van de zee dekken, zonder land:
     # van de kust van Spanje tot voorbij Kreta.
     zee = [(4.6, 8, 37.6, 41), (10.5, 14.8, 39.2, 40.6), (17.5, 20.5, 35.5, 38.5), (12.5, 21, 33.6, 36.2), (21, 26, 33.4, 34.9),
-           (0.5, 4.4, 37.3, 38.6), (26, 33, 32.3, 34.4), (28.5, 32, 34.5, 35.9)]
+           (0.5, 4.4, 37.3, 38.6), (26, 33, 32.3, 34.4), (28.5, 32, 34.5, 35.9),
+           (1, 3.8, 40, 40.9), (-4, -1, 35.7, 36.4), (14.5, 16, 42.5, 43.8), (24, 26, 38.5, 40)]
     print("  Middellandse Zee:", [rome.procent(*v) for v in zee])
 
 
