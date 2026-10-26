@@ -55,6 +55,18 @@ const VOORBEELD_JSON = `[
     "opties": ["Scherpe hoek", "Rechte hoek", "Stompe hoek"],
     "antwoord": 1,
     "afbeelding_url": "https://voorbeeld.com/rechte-hoek.png"
+  },
+  {
+    "type": "tabel",
+    "vraag": "Zijn deze uitspraken over Romeinen juist of fout?",
+    "rijen": ["Julius Caesar was keizer.", "De Romeinen bouwden aquaducten.", "Latijn was hun taal."],
+    "antwoord": [false, true, true],
+    "uitleg": "Caesar was dictator, geen keizer. Augustus was de eerste keizer."
+  },
+  {
+    "type": "keuzelijst",
+    "vraag": "Een rechte met richtingscoefficient 0 is een [[*horizontale|stijgende|dalende]] rechte, en ze snijdt de y-as in [[*één punt|twee punten|geen enkel punt]].",
+    "uitleg": "Bij richtingscoefficient 0 loopt de rechte evenwijdig met de x-as."
   }
 ]`;
 

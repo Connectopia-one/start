@@ -30,6 +30,7 @@
 import { useEffect, useMemo, useRef, useState, type PointerEvent as ReactPointerEvent } from "react";
 import { TEKENINGEN, Tekening } from "@/components/Tekeningen";
 import { Formule } from "@/components/Formule";
+import { keuzezinAlsTekst } from "@/lib/vraagvorm";
 
 export type Vorm = "cirkel" | "strook" | "raster";
 
@@ -86,7 +87,9 @@ export function leesVraag(vraag: string): { stukken: Stuk[]; interactie: Interac
 
 /** De vraagtekst met eventuele tekeningen erin, zonder de markeringen. */
 export function VraagTekst({ tekst }: { tekst: string }) {
-  const { stukken } = leesVraag(tekst);
+  // Een zin met keuzelijsten (zie lib/vraagvorm.ts) leest buiten de quiz als
+  // "een [stijgende / dalende] rechte", bijvoorbeeld op het rapport.
+  const { stukken } = leesVraag(tekst.includes("[[") ? keuzezinAlsTekst(tekst) : tekst);
   const woorden = stukken
     .filter((s) => s.soort === "tekst")
     .map((s) => (s as { tekst: string }).tekst)

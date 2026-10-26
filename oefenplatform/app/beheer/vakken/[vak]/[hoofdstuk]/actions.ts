@@ -6,12 +6,16 @@ import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { volgendVolgnummer, vrijeVolgnummers } from "@/lib/volgnummer";
 import { leesWoordenlijst } from "@/lib/woordenlijst";
+import { maakKeuzelijst, maakTabelAntwoord, zetVormKlaar } from "@/lib/vraagvorm";
 
 type NieuweVraag = {
-  type: "meerkeuze" | "invultekst" | "waarofniet";
+  type: "meerkeuze" | "invultekst" | "waarofniet" | "tabel" | "keuzelijst";
   vraag: string;
   opties?: string[] | null;
-  antwoord: number | string | boolean | number[] | string[];
+  antwoord: number | string | boolean | number[] | string[] | { kolommen: string[]; juist: number[] };
+  /** Enkel bij een tabel in een importbestand; zie lib/vraagvorm.ts. */
+  rijen?: string[];
+  kolommen?: string[];
   uitleg?: string | null;
   /** Optioneel: een volledige externe URL naar een afbeelding (bv. na bulk-import). */
   afbeelding_url?: string | null;
@@ -22,7 +26,8 @@ function terugPad(vakSlug: string, volgnummer: string) {
 }
 
 function leesOpties(type: NieuweVraag["type"], optiesRaw: string): string[] | null {
-  if (type !== "meerkeuze") return null;
+  // Bij een tabel staan hier de uitspraken, één per rij.
+  if (type !== "meerkeuze" && type !== "tabel") return null;
   return optiesRaw.split("\n").map((r) => r.trim()).filter(Boolean);
 }
 
@@ -62,29 +67,66 @@ function leesAntwoord(
 }
 
 /**
+ * Vraag, opties en antwoord samen, zoals ze uit het formulier komen. Een tabel
+ * en een keuzelijst hebben de drie velden samen nodig: het antwoord van een
+ * tabel hoort bij haar rijen, en het antwoord van een keuzelijst staat met een
+ * sterretje in de zin zelf. Zie lib/vraagvorm.ts.
+ *
+ * Een tabel: bij Opties de uitspraken, één per regel. Bij Antwoord per rij de
+ * juiste kolom, met een komma ertussen: "juist, fout, juist". Andere kolommen
+ * dan juist en fout zet je ervoor, met een dubbelpunt erachter:
+ * "Ja | Nee | Soms: ja, soms, nee".
+ */
+function leesVelden(type: NieuweVraag["type"], vraagRaw: string, optiesRaw: string, antwoordRaw: string) {
+  if (type === "keuzelijst") {
+    const { vraag, antwoord } = maakKeuzelijst(vraagRaw, antwoordRaw ? antwoordRaw.split(",").map((a) => a.trim()) : []);
+    return { vraag, opties: null, antwoord };
+  }
+  if (!antwoordRaw) throw new Error("Vul minstens de vraag en het antwoord in.");
+  if (type === "tabel") {
+    const rijen = leesOpties(type, optiesRaw) ?? [];
+    const dubbelpunt = antwoordRaw.indexOf(":");
+    const kolommen = dubbelpunt >= 0 ? antwoordRaw.slice(0, dubbelpunt).split("|").map((k) => k.trim()) : null;
+    const perRij = (dubbelpunt >= 0 ? antwoordRaw.slice(dubbelpunt + 1) : antwoordRaw).split(",").map((a) => a.trim());
+    return { vraag: vraagRaw, opties: rijen, antwoord: maakTabelAntwoord(rijen, kolommen, perRij) };
+  }
+  return { vraag: vraagRaw, opties: leesOpties(type, optiesRaw), antwoord: leesAntwoord(type, antwoordRaw) };
+}
+
+/** Wat het formulier terugkrijgt: niets als het gelukt is, anders de reden. */
+type Uitkomst = { fout: string } | undefined;
+
+/**
  * Wordt rechtstreeks aangeroepen vanuit NieuwVraagForm (een client component),
  * niet als een `<form action>` — gooit daarom een gewone Error in plaats van
  * te redirecten, zodat het formulier zelf de foutmelding kan tonen (dezelfde
  * aanpak als registreerLeerstof hieronder).
  */
-export async function maakVraag(formData: FormData) {
+export async function maakVraag(formData: FormData): Promise<Uitkomst> {
+  /* Een fout die hier gegooid wordt, verbergt Next in productie achter
+     "Minified React error #441". Daarom gaat de reden als antwoord terug. */
+  try {
+    await maakVraagOf(formData);
+  } catch (e) {
+    return { fout: e instanceof Error ? e.message : "Er ging iets mis." };
+  }
+}
+
+async function maakVraagOf(formData: FormData) {
   await requireBeheerder();
   const hoofdstukId = String(formData.get("hoofdstuk_id") || "");
   const vakSlug = String(formData.get("vak_slug") || "");
   const volgnummer = String(formData.get("volgnummer") || "");
   const type = String(formData.get("type") || "meerkeuze") as NieuweVraag["type"];
-  const vraag = String(formData.get("vraag") || "").trim();
+  const vraagRaw = String(formData.get("vraag") || "").trim();
   const optiesRaw = String(formData.get("opties") || "").trim();
   const antwoordRaw = String(formData.get("antwoord") || "").trim();
   const uitleg = String(formData.get("uitleg") || "").trim() || null;
   const afbeeldingPad = String(formData.get("afbeelding_pad") || "").trim() || null;
 
-  if (!vraag || !antwoordRaw) {
-    throw new Error("Vul minstens de vraag en het antwoord in.");
-  }
+  if (!vraagRaw) throw new Error("Vul minstens de vraag en het antwoord in.");
 
-  const opties = leesOpties(type, optiesRaw);
-  const antwoord = leesAntwoord(type, antwoordRaw);
+  const { vraag, opties, antwoord } = leesVelden(type, vraagRaw, optiesRaw, antwoordRaw);
 
   const admin = createAdminClient();
 
@@ -119,24 +161,29 @@ export async function maakVraag(formData: FormData) {
  * Wordt net als maakVraag rechtstreeks aangeroepen vanuit een client
  * component, dus met een gewone Error in plaats van een redirect.
  */
-export async function bewerkVraag(formData: FormData) {
+export async function bewerkVraag(formData: FormData): Promise<Uitkomst> {
+  try {
+    await bewerkVraagOf(formData);
+  } catch (e) {
+    return { fout: e instanceof Error ? e.message : "Er ging iets mis." };
+  }
+}
+
+async function bewerkVraagOf(formData: FormData) {
   await requireBeheerder();
   const id = String(formData.get("id") || "");
   const vakSlug = String(formData.get("vak_slug") || "");
   const volgnummer = String(formData.get("volgnummer") || "");
   const type = String(formData.get("type") || "meerkeuze") as NieuweVraag["type"];
-  const vraag = String(formData.get("vraag") || "").trim();
+  const vraagRaw = String(formData.get("vraag") || "").trim();
   const optiesRaw = String(formData.get("opties") || "").trim();
   const antwoordRaw = String(formData.get("antwoord") || "").trim();
   const uitleg = String(formData.get("uitleg") || "").trim() || null;
 
   if (!id) throw new Error("Welke vraag het is, is onderweg verloren gegaan. Herlaad de pagina.");
-  if (!vraag || !antwoordRaw) {
-    throw new Error("Vul minstens de vraag en het antwoord in.");
-  }
+  if (!vraagRaw) throw new Error("Vul minstens de vraag en het antwoord in.");
 
-  const opties = leesOpties(type, optiesRaw);
-  const antwoord = leesAntwoord(type, antwoordRaw);
+  const { vraag, opties, antwoord } = leesVelden(type, vraagRaw, optiesRaw, antwoordRaw);
 
   const admin = createAdminClient();
   const { error } = await admin
@@ -193,6 +240,18 @@ export async function bulkImportVragen(formData: FormData) {
       terugPad(vakSlug, volgnummer) +
         "?fout=" +
         encodeURIComponent("Ongeldige JSON: " + (e instanceof Error ? e.message : "onbekende fout"))
+    );
+  }
+
+  // Een tabel of een keuzelijst die niet klopt, houdt het hele bestand tegen,
+  // vóór er iets bewaard is. Zo staat er nooit een half hoofdstuk.
+  try {
+    vragen = vragen!.map((v, i) => zetVormKlaar(v, `Vraag ${i + 1}`));
+  } catch (e) {
+    redirect(
+      terugPad(vakSlug, volgnummer) +
+        "?fout=" +
+        encodeURIComponent("Bulk-import mislukt: " + (e instanceof Error ? e.message : "onbekende fout"))
     );
   }
 

@@ -7,6 +7,7 @@ import { createAdminClient } from "@/lib/supabase/admin";
 import { slugify } from "@/lib/slug";
 import { NIVEAUS, vindNiveau, heeftProefhoofdstuk } from "@/lib/niveaus";
 import { volgendVolgnummer, vrijeVolgnummers } from "@/lib/volgnummer";
+import { zetVormKlaar } from "@/lib/vraagvorm";
 
 /**
  * Waar een knop van de vakkenpagina naar terugkeert.
@@ -400,15 +401,18 @@ export async function verwijderHoofdstuk(formData: FormData) {
 }
 
 type BulkVraag = {
-  type: "meerkeuze" | "invultekst" | "waarofniet";
+  /* tabel en keuzelijst: zie lib/vraagvorm.ts voor hoe ze in een bestand staan. */
+  type: "meerkeuze" | "invultekst" | "waarofniet" | "tabel" | "keuzelijst";
   vraag: string;
   opties?: string[] | null;
+  rijen?: string[];
+  kolommen?: string[];
   /**
    * Bij meerkeuze het nummer van de juiste optie, of een lijstje nummers als
    * er meer dan één juist is (zie lib/antwoord.ts). Bij waarofniet true of
    * false, bij invultekst de tekst.
    */
-  antwoord: number | string | boolean | number[] | string[];
+  antwoord: number | string | boolean | number[] | string[] | { kolommen: string[]; juist: number[] };
   uitleg?: string | null;
   /**
    * Wisselende woorden, enkel bij spelling: een lijstje met per beurt de velden
@@ -560,6 +564,26 @@ export async function bulkImportVakInhoud(formData: FormData) {
         "fout",
         "Ongeldige JSON: " +
           (e instanceof Error ? e.message : "onbekende fout"),
+      ),
+    );
+  }
+
+  /* Een tabel of een keuzelijst die niet klopt, houdt het hele bestand
+     tegen, vóór er iets bewaard is. Zo staat er nooit een half vak. */
+  try {
+    for (const hfst of payload!.hoofdstukken) {
+      if (!Array.isArray(hfst.vragen)) continue;
+      hfst.vragen = hfst.vragen.map((v, i) =>
+        zetVormKlaar(v, `"${hfst.titel}", vraag ${i + 1}`),
+      );
+    }
+  } catch (e) {
+    redirect(
+      vakkenPagina(
+        formData,
+        "fout",
+        (e instanceof Error ? e.message : "onbekende fout") +
+          " Er is niets ingelezen.",
       ),
     );
   }

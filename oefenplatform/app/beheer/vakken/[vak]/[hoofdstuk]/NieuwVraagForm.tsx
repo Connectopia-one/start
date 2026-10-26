@@ -4,6 +4,7 @@ import { useState, type FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 import { maakVraag, maakVraagAfbeeldingUploadUrl } from "./actions";
+import { VormHulp } from "./VormHulp";
 
 export function NieuwVraagForm({
   hoofdstukId,
@@ -39,7 +40,8 @@ export function NieuwVraagForm({
       }
       data.delete("afbeelding");
 
-      await maakVraag(data);
+      const uitkomst = await maakVraag(data);
+      if (uitkomst?.fout) throw new Error(uitkomst.fout);
       form.reset();
       setStatus("idle");
       router.refresh();
@@ -66,6 +68,8 @@ export function NieuwVraagForm({
           <option value="meerkeuze">Meerkeuze</option>
           <option value="waarofniet">Waar of niet waar</option>
           <option value="invultekst">Invultekst</option>
+          <option value="tabel">Tabel: per rij juist of fout</option>
+          <option value="keuzelijst">Keuzelijst in een zin</option>
         </select>
       </div>
 
@@ -81,7 +85,7 @@ export function NieuwVraagForm({
 
       <div className="space-y-1.5">
         <label className="text-sm font-medium text-ink">
-          Opties <span className="font-normal text-ink-dim">(enkel bij meerkeuze, één per regel)</span>
+          Opties <span className="font-normal text-ink-dim">(bij meerkeuze de keuzes, bij een tabel de uitspraken, één per regel)</span>
         </label>
         <textarea
           name="opties"
@@ -94,11 +98,12 @@ export function NieuwVraagForm({
         <label className="text-sm font-medium text-ink">Antwoord</label>
         <input
           name="antwoord"
-          required
           placeholder='Meerkeuze: nummer (0, 1, 2...), of meerdere met een komma: 0,2 · Waar/niet: "waar" of "niet waar" · Invultekst: het juiste woord, of meerdere met een streep ertussen: planteneters | herbivoren'
           className="w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
         />
       </div>
+
+      <VormHulp />
 
       <div className="space-y-1.5">
         <label className="text-sm font-medium text-ink">

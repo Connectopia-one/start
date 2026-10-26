@@ -1,4 +1,5 @@
 import { schrijfInvul, schrijfKeuzes } from "@/lib/antwoord";
+import { schrijfVorm } from "@/lib/vraagvorm";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/Header";
@@ -12,7 +13,7 @@ import { alleRijen } from "@/lib/allerijen";
 type Vraag = {
   id: string;
   volgnummer: number;
-  type: "meerkeuze" | "invultekst" | "waarofniet";
+  type: "meerkeuze" | "invultekst" | "waarofniet" | "tabel" | "keuzelijst";
   // antwoord kan een lijstje nummers zijn: dan is er meer dan één juist.
   vraag: string;
   opties: string[] | null;
@@ -36,6 +37,9 @@ function formatAntwoord(
   waarde: number | string | boolean | number[] | string[] | null,
 ): string {
   if (waarde === null || waarde === undefined || waarde === "") return "—";
+  // Een tabel of een keuzelijst, zie lib/vraagvorm.ts.
+  const vorm = schrijfVorm(vraag, waarde);
+  if (vorm !== null) return vorm;
   if (vraag.type === "meerkeuze") return schrijfKeuzes(vraag.opties, waarde);
   if (vraag.type === "waarofniet") {
     return waarde === true ? "Waar" : "Niet waar";

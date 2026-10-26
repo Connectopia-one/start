@@ -23,7 +23,7 @@ export async function maakVraag(supabase: SupabaseClient, rij: VraagRij) {
   // daar niets te zoeken hebben.
   const v = {
     id: rij.id as string,
-    type: rij.type as "meerkeuze" | "invultekst" | "waarofniet",
+    type: rij.type as "meerkeuze" | "invultekst" | "waarofniet" | "tabel" | "keuzelijst",
     vraag: rij.vraag as string,
     opties: (rij.opties ?? null) as string[] | null,
     antwoord: rij.antwoord as number | string | boolean | number[] | string[],

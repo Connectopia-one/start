@@ -3,8 +3,10 @@
 import { useState, type FormEvent, type ReactNode } from "react";
 import { useRouter } from "next/navigation";
 import { bewerkVraag } from "./actions";
+import { VormHulp } from "./VormHulp";
+import { STANDAARD_KOLOMMEN, keuzelijstJuist, metSterretjes } from "@/lib/vraagvorm";
 
-type Antwoord = number | string | boolean | number[] | string[];
+type Antwoord = number | string | boolean | number[] | string[] | { kolommen: string[]; juist: number[] };
 
 const VELD =
   "w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest";
@@ -15,6 +17,15 @@ const VELD =
  * terug staat in actions.ts (leesAntwoord); die twee horen bij elkaar.
  */
 function antwoordAlsTekst(type: string, antwoord: Antwoord): string {
+  // Een keuzelijst draagt haar antwoord als sterretje in de zin, zie vraagAlsTekst.
+  if (type === "keuzelijst") return "";
+  if (type === "tabel") {
+    const a = antwoord as { kolommen?: string[]; juist?: number[] };
+    const kolommen = Array.isArray(a?.kolommen) ? a.kolommen : STANDAARD_KOLOMMEN;
+    const perRij = (a?.juist ?? []).map((k) => (kolommen[k] ?? "").toLowerCase()).join(", ");
+    const standaard = kolommen.join("|") === STANDAARD_KOLOMMEN.join("|");
+    return standaard ? perRij : `${kolommen.join(" | ")}: ${perRij}`;
+  }
   if (type === "waarofniet") return antwoord === true || antwoord === "waar" ? "waar" : "niet waar";
   if (Array.isArray(antwoord)) return antwoord.join(type === "meerkeuze" ? ", " : " | ");
   return String(antwoord);
@@ -51,7 +62,8 @@ export function VraagBewerken({
     setBezig(true);
     setFout(null);
     try {
-      await bewerkVraag(new FormData(e.currentTarget));
+      const uitkomst = await bewerkVraag(new FormData(e.currentTarget));
+      if (uitkomst?.fout) throw new Error(uitkomst.fout);
       setOpen(false);
       router.refresh();
     } catch (err) {
@@ -89,17 +101,27 @@ export function VraagBewerken({
           <option value="meerkeuze">Meerkeuze</option>
           <option value="waarofniet">Waar of niet waar</option>
           <option value="invultekst">Invultekst</option>
+          <option value="tabel">Tabel: per rij juist of fout</option>
+          <option value="keuzelijst">Keuzelijst in een zin</option>
         </select>
       </div>
 
       <div className="space-y-1.5">
         <label className="text-sm font-medium text-ink">Vraag</label>
-        <textarea name="vraag" required rows={2} defaultValue={vraag.vraag} className={VELD} />
+        <textarea
+          name="vraag"
+          required
+          rows={2}
+          defaultValue={
+            vraag.type === "keuzelijst" ? metSterretjes(vraag.vraag, keuzelijstJuist(vraag.antwoord)) : vraag.vraag
+          }
+          className={VELD}
+        />
       </div>
 
       <div className="space-y-1.5">
         <label className="text-sm font-medium text-ink">
-          Opties <span className="font-normal text-ink-dim">(enkel bij meerkeuze, één per regel)</span>
+          Opties <span className="font-normal text-ink-dim">(bij meerkeuze de keuzes, bij een tabel de uitspraken, één per regel)</span>
         </label>
         <textarea name="opties" rows={3} defaultValue={(vraag.opties ?? []).join("\n")} className={VELD} />
       </div>
@@ -113,11 +135,12 @@ export function VraagBewerken({
         </label>
         <input
           name="antwoord"
-          required
           defaultValue={antwoordAlsTekst(vraag.type, vraag.antwoord)}
           className={VELD}
         />
       </div>
+
+      <VormHulp />
 
       <div className="space-y-1.5">
         <label className="text-sm font-medium text-ink">

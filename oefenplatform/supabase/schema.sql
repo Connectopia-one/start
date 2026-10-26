@@ -87,7 +87,8 @@ begin
 end $$;
 
 -- Interactieve vragen per hoofdstuk.
--- type: 'meerkeuze' | 'invultekst' | 'waarofniet'
+-- type: 'meerkeuze' | 'invultekst' | 'waarofniet' | 'tabel' | 'keuzelijst'
+--   (tabel en keuzelijst: zie lib/vraagvorm.ts en supabase/vraagvormen.sql)
 -- opties: bij meerkeuze een array van keuzeteksten, bv. ["12", "14", "16"]
 -- antwoord: bij meerkeuze de index (bv. 1) of tekst; bij invultekst het juiste
 --           antwoord als tekst; bij waarofniet true/false.
@@ -98,7 +99,7 @@ create table if not exists public.vragen (
   id uuid primary key default gen_random_uuid(),
   hoofdstuk_id uuid not null references public.hoofdstukken(id) on delete cascade,
   volgnummer int not null default 0,
-  type text not null check (type in ('meerkeuze', 'invultekst', 'waarofniet')),
+  type text not null check (type in ('meerkeuze', 'invultekst', 'waarofniet', 'tabel', 'keuzelijst')),
   vraag text not null,
   opties jsonb,
   antwoord jsonb not null,

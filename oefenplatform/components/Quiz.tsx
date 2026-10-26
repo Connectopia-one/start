@@ -35,6 +35,15 @@ import {
 import { bewaarActiefKind, leesActiefKind } from "@/lib/actiefkind";
 import { beurtnummer, type GetoondeVariant } from "@/lib/spellingvariant";
 import { stellingZin, zonderOordeel } from "@/lib/uitleg";
+import {
+  alleJuist,
+  instructie,
+  keuzelijstJuist,
+  keuzezinAlsTekst,
+  leesKeuzezin,
+  leesTabel,
+  lijstVolgorde,
+} from "@/lib/vraagvorm";
 
 /*
   toonVoortgang: staat er een voortgangsbalk bij de vragen van dit kind?
@@ -49,11 +58,13 @@ type Kind = { id: string; naam: string; toonVoortgang?: boolean };
 
 type Vraag = {
   id: string;
-  type: "meerkeuze" | "invultekst" | "waarofniet";
+  /* tabel en keuzelijst: de vormen van het examen van de Examencommissie,
+     zie lib/vraagvorm.ts. */
+  type: "meerkeuze" | "invultekst" | "waarofniet" | "tabel" | "keuzelijst";
   vraag: string;
   opties: string[] | null;
   /** Een lijstje nummers betekent: er is meer dan één juist antwoord. */
-  antwoord: number | string | boolean | number[] | string[];
+  antwoord: number | string | boolean | number[] | string[] | Record<string, unknown>;
   uitleg: string | null;
   volgnummer: number;
   afbeeldingUrl?: string | null;
@@ -349,13 +360,22 @@ function isCorrect(vraag: Vraag, gegeven: Gegeven, soepel = false): boolean {
   if (vraag.type === "meerkeuze") {
     return zelfdeKeuzes(gegevenKeuzes(gegeven), juisteKeuzes(vraag.antwoord));
   }
+  // Een tabel en een keuzelijst: alles of niets, net als op het examen.
+  if (vraag.type === "tabel") {
+    const tabel = leesTabel(vraag.opties, vraag.antwoord);
+    return Boolean(tabel) && alleJuist(gegeven, tabel!.juist);
+  }
+  if (vraag.type === "keuzelijst") {
+    return alleJuist(gegeven, keuzelijstJuist(vraag.antwoord));
+  }
   return gegeven === vraag.antwoord;
 }
 
 /** Heeft het kind al iets aangeduid of ingevuld? */
 function isIngevuld(gegeven: Gegeven): boolean {
   if (gegeven === null || gegeven === "") return false;
-  return !Array.isArray(gegeven) || gegeven.length > 0;
+  // Bij een tabel of een keuzelijst staat -1 waar nog niets gekozen is.
+  return !Array.isArray(gegeven) || gegeven.some((n) => n >= 0);
 }
 
 function VraagKaart({
@@ -378,10 +398,40 @@ function VraagKaart({
   const gegeven = status.gegevenAntwoord;
   // Een invulvraag kan ook een kleur- of sleepoefening zijn, zie Figuren.tsx.
   const { interactie } = leesVraag(vraag.vraag);
+  /* De vaste zin van het examen boven de vraag, zie lib/vraagvorm.ts. */
+  const opdracht = instructie(vraag.type, {
+    vakjes: alsVakjes,
+    interactie: Boolean(interactie),
+  });
+  const tabel = vraag.type === "tabel" ? leesTabel(vraag.opties, vraag.antwoord) : null;
+  /* Bij een tabel en een keuzelijst is het antwoord een lijstje met per rij of
+     per keuzelijst een nummer; -1 is: nog niets gekozen. */
+  const perPlaats = Array.isArray(gegeven) ? (gegeven as number[]) : [];
+  const kiesOp = (plaats: number, aantal: number, keuze: number) => {
+    const nu = Array.from({ length: aantal }, (_, i) => perPlaats[i] ?? -1);
+    nu[plaats] = keuze;
+    onAntwoord(nu);
+  };
 
   return (
     <div className="rounded-xl border border-border bg-surface p-5">
-      <VraagTekst tekst={vraag.vraag} />
+      {opdracht && (
+        <p className="mb-2 text-xs text-ink-dim">
+          {opdracht.zin}
+          {opdracht.punten && <span className="block">{opdracht.punten}</span>}
+        </p>
+      )}
+
+      {vraag.type === "keuzelijst" ? (
+        <KeuzeZin
+          vraag={vraag}
+          gekozen={perPlaats}
+          uitgeschakeld={status.gecontroleerd}
+          onKies={kiesOp}
+        />
+      ) : (
+        <VraagTekst tekst={vraag.vraag} />
+      )}
 
       {vraag.afbeeldingUrl && (
         // eslint-disable-next-line @next/next/no-img-element
@@ -446,6 +496,16 @@ function VraagKaart({
             </button>
           ))}
         </div>
+      )}
+
+      {vraag.type === "tabel" && tabel && (
+        <JuistFoutTabel
+          vraag={vraag}
+          tabel={tabel}
+          gekozen={perPlaats}
+          nagekeken={status.gecontroleerd}
+          onKies={(rij, kolom) => kiesOp(rij, tabel.rijen.length, kolom)}
+        />
       )}
 
       {vraag.type === "invultekst" && interactie?.soort === "kleur" && (
@@ -583,6 +643,24 @@ function VraagKaart({
               de uitleg begon met "Niet juist." over de stelling. Febe meldde
               dat dat verwarring geeft, dus staat het er nu met zoveel woorden,
               en haalt zonderOordeel het dubbele woordje weg. */}
+          {!status.correct && vraag.type === "keuzelijst" && (
+            <p className="mt-1 text-ink">
+              Juist was:{" "}
+              <strong>
+                <Formule
+                  tekst={keuzezinAlsTekst(
+                    vraag.vraag,
+                    keuzelijstJuist(vraag.antwoord),
+                  )}
+                />
+              </strong>
+            </p>
+          )}
+          {!status.correct && tabel && (
+            <p className="mt-1 text-ink">
+              In de tabel zie je bij elke rij met een vinkje wat juist was.
+            </p>
+          )}
           {vraag.type === "waarofniet" &&
             typeof vraag.antwoord === "boolean" && (
               <p className="mt-1 text-ink">{stellingZin(vraag.antwoord)}</p>
@@ -595,6 +673,134 @@ function VraagKaart({
         </div>
       )}
     </div>
+  );
+}
+
+/*
+  Een tabel met per rij een uitspraak en per kolom een keuze, meestal juist of
+  fout. Zo vraagt het examen van de Examencommissie waar of niet waar: nooit
+  één losse uitspraak, altijd een rijtje. Zie lib/vraagvorm.ts.
+
+  Na het nakijken krijgt de juiste kolom van elke rij een vinkje, en een rij
+  die het kind fout had een rode rand, zodat je ziet wáár het misliep.
+*/
+function JuistFoutTabel({
+  vraag,
+  tabel,
+  gekozen,
+  nagekeken,
+  onKies,
+}: {
+  vraag: Vraag;
+  tabel: { rijen: string[]; kolommen: string[]; juist: number[] };
+  gekozen: number[];
+  nagekeken: boolean;
+  onKies: (rij: number, kolom: number) => void;
+}) {
+  return (
+    <div className="mt-3 overflow-x-auto">
+      <table className="w-full border-collapse text-sm">
+        <thead>
+          <tr>
+            <th className="border-b border-border px-2 py-1.5 text-left font-normal text-ink-dim">
+              <span className="sr-only">Uitspraak</span>
+            </th>
+            {tabel.kolommen.map((k) => (
+              <th
+                key={k}
+                className="w-16 border-b border-border px-2 py-1.5 text-center font-medium text-ink"
+              >
+                {k}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {tabel.rijen.map((rij, r) => {
+            const fout = nagekeken && gekozen[r] !== tabel.juist[r];
+            return (
+              <tr
+                key={r}
+                className={fout ? "bg-danger/5" : undefined}
+              >
+                <td className="border-b border-border px-2 py-2 text-ink">
+                  <Formule tekst={rij} />
+                </td>
+                {tabel.kolommen.map((k, c) => (
+                  <td
+                    key={k}
+                    className="border-b border-border px-2 py-2 text-center"
+                  >
+                    <label className="inline-flex cursor-pointer items-center gap-1">
+                      <input
+                        type="radio"
+                        name={`${vraag.id}-rij-${r}`}
+                        checked={gekozen[r] === c}
+                        disabled={nagekeken}
+                        onChange={() => onKies(r, c)}
+                        className="accent-forest"
+                        aria-label={`${k} bij rij ${r + 1}`}
+                      />
+                      {nagekeken && tabel.juist[r] === c && (
+                        <span className="text-forest-dark" aria-label="juist">
+                          ✓
+                        </span>
+                      )}
+                    </label>
+                  </td>
+                ))}
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+/*
+  Een zin met een keuzelijst waar een woord ontbreekt, zoals op het examen:
+  "De raaklijn is een [lijst] rechte." Er kunnen er meerdere in één zin staan.
+  De opties worden per lijst geschud, want wie de zin schrijft, zet het juiste
+  woord bijna altijd vooraan. Bewaard wordt het nummer uit de databank.
+*/
+function KeuzeZin({
+  vraag,
+  gekozen,
+  uitgeschakeld,
+  onKies,
+}: {
+  vraag: Vraag;
+  gekozen: number[];
+  uitgeschakeld: boolean;
+  onKies: (plaats: number, aantal: number, keuze: number) => void;
+}) {
+  const stukken = leesKeuzezin(vraag.vraag);
+  const aantal = stukken.filter((s) => s.soort === "lijst").length;
+  return (
+    <p className="font-medium leading-loose text-ink">
+      {stukken.map((s, i) =>
+        s.soort === "tekst" ? (
+          <Formule key={i} tekst={s.tekst} />
+        ) : (
+          <select
+            key={i}
+            value={gekozen[s.nummer] ?? -1}
+            disabled={uitgeschakeld}
+            onChange={(e) => onKies(s.nummer, aantal, Number(e.target.value))}
+            aria-label={`Keuzelijst ${s.nummer + 1}`}
+            className="mx-1 rounded-md border border-border bg-paper px-2 py-1 text-sm font-normal text-ink outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+          >
+            <option value={-1}>kies...</option>
+            {lijstVolgorde(vraag.id, s.nummer, s.opties.length).map((k) => (
+              <option key={k} value={k}>
+                {s.opties[k]}
+              </option>
+            ))}
+          </select>
+        ),
+      )}
+    </p>
   );
 }
 
