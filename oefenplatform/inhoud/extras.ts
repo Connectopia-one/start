@@ -44,6 +44,15 @@ export const spellen: Spel[] = [
       "De begrippen uit de leerbundels van geschiedenis, in zes spellen: een quiz, memory, raad het begrip, tempeltje (galgje met een Griekse tempel), flitskaarten en begrippenbingo. Kies een hoofdstuk, speel alleen of in teams.",
   },
   {
+    slug: "woordenarena-engels",
+    icoon: "💂",
+    titel: "Woordenarena Engels",
+    vak: "Engels",
+    voorWie: "✨ Spark",
+    tekst:
+      "Bijna tweehonderd Engelse woorden uit de leerbundels van Spark, in zes spellen: een quiz, memory, raad het woord, museumgalgje, flitskaarten en woordenbingo. Met de valse vrienden, Brits tegenover Amerikaans en de onregelmatige werkwoorden.",
+  },
+  {
     slug: "wiskunde-dimensie",
     icoon: "🤖",
     titel: "De Wiskunde-dimensie",
