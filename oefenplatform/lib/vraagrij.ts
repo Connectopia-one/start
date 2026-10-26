@@ -1,4 +1,5 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
+import type { VraagType } from "@/lib/vraagvorm";
 import { schikOpties } from "@/lib/optievolgorde";
 import { bouwVarianten } from "@/lib/spellingvariant";
 
@@ -23,11 +24,14 @@ export async function maakVraag(supabase: SupabaseClient, rij: VraagRij) {
   // daar niets te zoeken hebben.
   const v = {
     id: rij.id as string,
-    type: rij.type as "meerkeuze" | "invultekst" | "waarofniet" | "tabel" | "keuzelijst",
+    type: rij.type as VraagType,
     vraag: rij.vraag as string,
     opties: (rij.opties ?? null) as string[] | null,
     antwoord: rij.antwoord as number | string | boolean | number[] | string[],
     uitleg: (rij.uitleg ?? null) as string | null,
+    // Een casus staat bij elke vraag zelf, zodat ze ook op het examen, tussen
+    // vragen van andere hoofdstukken, op zichzelf te beantwoorden is.
+    casus: (rij.casus ?? null) as string | null,
     volgnummer: rij.volgnummer as number,
     // Op het examen lopen de vragen van alle hoofdstukken door elkaar. Dan moet
     // de browser nog kunnen zien uit welk hoofdstuk een vraag komt, want een
@@ -45,7 +49,9 @@ export async function maakVraag(supabase: SupabaseClient, rij: VraagRij) {
 
   const pad = (rij.afbeelding_pad ?? null) as string | null;
   if (!pad) return { ...kern, afbeeldingUrl: null as string | null };
-  if (pad.startsWith("http")) return { ...kern, afbeeldingUrl: pad };
+  // Een pad dat met een schuine streep begint, is een prent die mee met het
+  // platform staat, zoals /puzzels/... of /examenvormen/...
+  if (pad.startsWith("http") || pad.startsWith("/")) return { ...kern, afbeeldingUrl: pad };
   const { data } = await supabase.storage
     .from("vraagafbeeldingen")
     .createSignedUrl(pad, 3600);

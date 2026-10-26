@@ -31,6 +31,14 @@
  */
 
 import { zaad } from "@/lib/optievolgorde";
+import { instructieNieuw, schrijfNieuw, zetNieuweVormKlaar } from "@/lib/examenvormen";
+
+/** Alle soorten vragen die het platform kent. Zie ook lib/examenvormen.ts. */
+export const VRAAGTYPES = [
+  "meerkeuze", "invultekst", "waarofniet", "tabel", "keuzelijst",
+  "volgorde", "koppelen", "sorteren", "sleepzin", "hotspot", "open", "tekenen",
+] as const;
+export type VraagType = (typeof VRAAGTYPES)[number];
 
 export const STANDAARD_KOLOMMEN = ["Juist", "Fout"];
 
@@ -118,6 +126,8 @@ export function keuzezinAlsTekst(vraag: string, juist?: number[]): string {
     .map((s) => {
       if (s.soort === "tekst") return s.tekst;
       if (juist) return s.opties[juist[s.nummer]] ?? "…";
+      // Een leeg vak van een sleepzin (zie lib/examenvormen.ts).
+      if (s.opties.length === 1 && s.opties[0] === "_") return "____";
       return `[${s.opties.join(" / ")}]`;
     })
     .join("");
@@ -170,7 +180,7 @@ export function schrijfVorm(
   vraag: { type: string; vraag: string; opties: string[] | null; antwoord: unknown },
   waarde: unknown,
 ): string | null {
-  if (vraag.type !== "tabel" && vraag.type !== "keuzelijst") return null;
+  if (vraag.type !== "tabel" && vraag.type !== "keuzelijst") return schrijfNieuw(vraag, waarde);
   // Het juiste antwoord van een tabel komt hier binnen zoals het bewaard
   // staat, met de kolommen erbij; wat een kind koos is een gewoon lijstje.
   const binnen = waarde as { juist?: unknown } | null;
@@ -210,8 +220,14 @@ export function schrijfVorm(
  */
 export function instructie(
   type: string,
-  { vakjes = false, interactie = false }: { vakjes?: boolean; interactie?: boolean } = {},
+  {
+    vakjes = false,
+    interactie = false,
+    vraag,
+  }: { vakjes?: boolean; interactie?: boolean; vraag?: { opties: unknown; antwoord: unknown } } = {},
 ): { zin: string; punten: string | null } | null {
+  const nieuw = instructieNieuw(type, vraag ?? { opties: null, antwoord: null });
+  if (nieuw) return nieuw;
   if (type === "meerkeuze") {
     return vakjes
       ? { zin: "Duid alle juiste antwoorden aan.", punten: "Je krijgt alleen punten als je alle juiste antwoorden aanduidt." }
@@ -345,6 +361,12 @@ export function zetVormKlaar<
     if (v.type === "keuzelijst") {
       const { vraag, antwoord } = maakKeuzelijst(v.vraag, v.antwoord);
       return { ...v, vraag, opties: null, antwoord };
+    }
+    if (v.type !== "meerkeuze" && v.type !== "invultekst" && v.type !== "waarofniet") {
+      if (!(VRAAGTYPES as readonly string[]).includes(v.type)) {
+        throw new Error(`"${v.type}" is geen soort vraag die het platform kent.`);
+      }
+      return zetNieuweVormKlaar(v as unknown as Record<string, unknown>) as unknown as T;
     }
   } catch (e) {
     throw new Error(`${waar}: ${e instanceof Error ? e.message : String(e)}`);

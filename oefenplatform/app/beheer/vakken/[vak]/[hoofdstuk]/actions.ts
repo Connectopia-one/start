@@ -6,13 +6,16 @@ import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { volgendVolgnummer, vrijeVolgnummers } from "@/lib/volgnummer";
 import { leesWoordenlijst } from "@/lib/woordenlijst";
-import { maakKeuzelijst, maakTabelAntwoord, zetVormKlaar } from "@/lib/vraagvorm";
+import { maakKeuzelijst, maakTabelAntwoord, zetVormKlaar, type VraagType } from "@/lib/vraagvorm";
+import { pakCasussenUit, vanFormulier } from "@/lib/examenvormen";
 
 type NieuweVraag = {
-  type: "meerkeuze" | "invultekst" | "waarofniet" | "tabel" | "keuzelijst";
+  type: VraagType;
   vraag: string;
   opties?: string[] | null;
-  antwoord: number | string | boolean | number[] | string[] | { kolommen: string[]; juist: number[] };
+  antwoord: unknown;
+  /** Een casus: de situatie boven de vraag. Zie lib/examenvormen.ts. */
+  casus?: string | null;
   /** Enkel bij een tabel in een importbestand; zie lib/vraagvorm.ts. */
   rijen?: string[];
   kolommen?: string[];
@@ -78,6 +81,16 @@ function leesAntwoord(
  * "Ja | Nee | Soms: ja, soms, nee".
  */
 function leesVelden(type: NieuweVraag["type"], vraagRaw: string, optiesRaw: string, antwoordRaw: string) {
+  // Volgorde, koppelen, sorteren, slepen, klikken, open en tekenen: zie
+  // vanFormulier in lib/examenvormen.ts voor wat er in welk veld staat.
+  const nieuw = vanFormulier(type, vraagRaw, optiesRaw, antwoordRaw);
+  if (nieuw) {
+    return {
+      vraag: String(nieuw.vraag),
+      opties: (nieuw.opties ?? null) as string[] | null,
+      antwoord: nieuw.antwoord,
+    };
+  }
   if (type === "keuzelijst") {
     const { vraag, antwoord } = maakKeuzelijst(vraagRaw, antwoordRaw ? antwoordRaw.split(",").map((a) => a.trim()) : []);
     return { vraag, opties: null, antwoord };
@@ -122,6 +135,7 @@ async function maakVraagOf(formData: FormData) {
   const optiesRaw = String(formData.get("opties") || "").trim();
   const antwoordRaw = String(formData.get("antwoord") || "").trim();
   const uitleg = String(formData.get("uitleg") || "").trim() || null;
+  const casus = String(formData.get("casus") || "").trim() || null;
   const afbeeldingPad = String(formData.get("afbeelding_pad") || "").trim() || null;
 
   if (!vraagRaw) throw new Error("Vul minstens de vraag en het antwoord in.");
@@ -139,6 +153,9 @@ async function maakVraagOf(formData: FormData) {
     antwoord,
     uitleg,
     afbeelding_pad: afbeeldingPad,
+    // Zo gaat een vraag zonder casus ook in als supabase/examenvormen.sql nog
+    // niet gedraaid is.
+    ...(casus ? { casus } : {}),
   });
 
   if (error) throw new Error("Vraag toevoegen is niet gelukt: " + error.message);
@@ -179,6 +196,9 @@ async function bewerkVraagOf(formData: FormData) {
   const optiesRaw = String(formData.get("opties") || "").trim();
   const antwoordRaw = String(formData.get("antwoord") || "").trim();
   const uitleg = String(formData.get("uitleg") || "").trim() || null;
+  const casus = String(formData.get("casus") || "").trim() || null;
+  // Het veld staat er pas als de kolom bestaat, zie de pagina.
+  const metCasus = formData.has("casus");
 
   if (!id) throw new Error("Welke vraag het is, is onderweg verloren gegaan. Herlaad de pagina.");
   if (!vraagRaw) throw new Error("Vul minstens de vraag en het antwoord in.");
@@ -188,7 +208,7 @@ async function bewerkVraagOf(formData: FormData) {
   const admin = createAdminClient();
   const { error } = await admin
     .from("vragen")
-    .update({ type, vraag, opties, antwoord, uitleg })
+    .update({ type, vraag, opties, antwoord, uitleg, ...(metCasus ? { casus } : {}) })
     .eq("id", id);
 
   if (error) throw new Error("Aanpassen is niet gelukt: " + error.message);
@@ -246,7 +266,7 @@ export async function bulkImportVragen(formData: FormData) {
   // Een tabel of een keuzelijst die niet klopt, houdt het hele bestand tegen,
   // vóór er iets bewaard is. Zo staat er nooit een half hoofdstuk.
   try {
-    vragen = vragen!.map((v, i) => zetVormKlaar(v, `Vraag ${i + 1}`));
+    vragen = (pakCasussenUit(vragen!) as NieuweVraag[]).map((v, i) => zetVormKlaar(v, `Vraag ${i + 1}`));
   } catch (e) {
     redirect(
       terugPad(vakSlug, volgnummer) +
@@ -267,6 +287,7 @@ export async function bulkImportVragen(formData: FormData) {
     antwoord: v.antwoord,
     uitleg: v.uitleg ?? null,
     afbeelding_pad: v.afbeelding_url ?? null,
+    ...(v.casus ? { casus: v.casus } : {}),
   }));
 
   const { error } = await admin.from("vragen").insert(rijen);

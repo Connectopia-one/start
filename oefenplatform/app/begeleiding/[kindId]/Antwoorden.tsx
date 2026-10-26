@@ -1,5 +1,5 @@
 import { schrijfInvul, schrijfKeuzes } from "@/lib/antwoord";
-import { schrijfVorm } from "@/lib/vraagvorm";
+import { schrijfVorm, type VraagType } from "@/lib/vraagvorm";
 import { VraagTekst } from "@/components/Figuren";
 import { Formule } from "@/components/Formule";
 import { variantVoorBeurt } from "@/lib/spellingvariant";
@@ -18,7 +18,7 @@ import { variantVoorBeurt } from "@/lib/spellingvariant";
 export type Vraag = {
   id: string;
   volgnummer: number;
-  type: "meerkeuze" | "invultekst" | "waarofniet" | "tabel" | "keuzelijst";
+  type: VraagType;
   vraag: string;
   opties: string[] | null;
   antwoord: number | string | boolean | number[] | string[];

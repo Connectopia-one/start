@@ -7,7 +7,8 @@ import { createAdminClient } from "@/lib/supabase/admin";
 import { slugify } from "@/lib/slug";
 import { NIVEAUS, vindNiveau, heeftProefhoofdstuk } from "@/lib/niveaus";
 import { volgendVolgnummer, vrijeVolgnummers } from "@/lib/volgnummer";
-import { zetVormKlaar } from "@/lib/vraagvorm";
+import { zetVormKlaar, type VraagType } from "@/lib/vraagvorm";
+import { pakCasussenUit } from "@/lib/examenvormen";
 
 /**
  * Waar een knop van de vakkenpagina naar terugkeert.
@@ -402,7 +403,7 @@ export async function verwijderHoofdstuk(formData: FormData) {
 
 type BulkVraag = {
   /* tabel en keuzelijst: zie lib/vraagvorm.ts voor hoe ze in een bestand staan. */
-  type: "meerkeuze" | "invultekst" | "waarofniet" | "tabel" | "keuzelijst";
+  type: VraagType;
   vraag: string;
   opties?: string[] | null;
   rijen?: string[];
@@ -414,6 +415,10 @@ type BulkVraag = {
    */
   antwoord: number | string | boolean | number[] | string[] | { kolommen: string[]; juist: number[] };
   uitleg?: string | null;
+  /** Een casus: de situatie boven de vraag. Zie lib/examenvormen.ts. */
+  casus?: string | null;
+  /** Een prent bij de vraag: een volledige URL of een pad zoals /examenvormen/kaart.png. */
+  afbeelding_url?: string | null;
   /**
    * Wisselende woorden, enkel bij spelling: een lijstje met per beurt de velden
    * die anders zijn dan hierboven. Zie lib/spellingvariant.ts.
@@ -573,6 +578,7 @@ export async function bulkImportVakInhoud(formData: FormData) {
   try {
     for (const hfst of payload!.hoofdstukken) {
       if (!Array.isArray(hfst.vragen)) continue;
+      hfst.vragen = pakCasussenUit(hfst.vragen as unknown[]) as BulkVraag[];
       hfst.vragen = hfst.vragen.map((v, i) =>
         zetVormKlaar(v, `"${hfst.titel}", vraag ${i + 1}`),
       );
@@ -840,6 +846,10 @@ export async function bulkImportVakInhoud(formData: FormData) {
       uitleg: v.uitleg ?? null,
       varianten:
         Array.isArray(v.varianten) && v.varianten.length ? v.varianten : null,
+      afbeelding_pad: v.afbeelding_url ?? null,
+      // Enkel als er een casus in het bestand staat, zodat een bestand zonder
+      // casus ook ingaat zolang supabase/examenvormen.sql niet gedraaid is.
+      ...(v.casus ? { casus: v.casus } : {}),
     }));
 
     let { error: vragenFout } = await admin.from("vragen").insert(rijen);

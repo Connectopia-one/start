@@ -43,7 +43,20 @@ import {
   leesKeuzezin,
   leesTabel,
   lijstVolgorde,
+  type VraagType,
 } from "@/lib/vraagvorm";
+import { isJuistNieuw, sleepzinAlsTekst, zelfNakijken } from "@/lib/examenvormen";
+import {
+  Casus,
+  HotspotVraag,
+  KoppelVraag,
+  OpenVraag,
+  SleepZin,
+  SorteerVraag,
+  TekenVraag,
+  VolgordeVraag,
+  ZelfNakijken,
+} from "@/components/Examenvormen";
 
 /*
   toonVoortgang: staat er een voortgangsbalk bij de vragen van dit kind?
@@ -60,8 +73,11 @@ type Vraag = {
   id: string;
   /* tabel en keuzelijst: de vormen van het examen van de Examencommissie,
      zie lib/vraagvorm.ts. */
-  type: "meerkeuze" | "invultekst" | "waarofniet" | "tabel" | "keuzelijst";
+  type: VraagType;
   vraag: string;
+  /** Een casus: de situatie die boven deze vraag staat, en boven de andere
+   *  vragen van dezelfde casus. Zie lib/examenvormen.ts. */
+  casus?: string | null;
   opties: string[] | null;
   /** Een lijstje nummers betekent: er is meer dan één juist antwoord. */
   antwoord: number | string | boolean | number[] | string[] | Record<string, unknown>;
@@ -150,6 +166,9 @@ type Status = {
      fout, maar de zin erboven mag niet "Niet helemaal juist" zeggen: er was
      geen antwoord om juist of fout te zijn. Zie slaOver in Quiz. */
   overgeslagen?: boolean;
+  /* Bij een open vraag of een tekening: het voorbeeldantwoord staat open en
+     het kind moet nog zeggen of het juist was. */
+  voorbeeld?: boolean;
 };
 
 /**
@@ -368,6 +387,9 @@ function isCorrect(vraag: Vraag, gegeven: Gegeven, soepel = false): boolean {
   if (vraag.type === "keuzelijst") {
     return alleJuist(gegeven, keuzelijstJuist(vraag.antwoord));
   }
+  // Volgorde, koppelen, sorteren, slepen en klikken: zie lib/examenvormen.ts.
+  const nieuw = isJuistNieuw(vraag, gegeven);
+  if (nieuw !== null) return nieuw;
   return gegeven === vraag.antwoord;
 }
 
@@ -385,6 +407,7 @@ function VraagKaart({
   soepel,
   onAntwoord,
   onControleer,
+  onOordeel,
 }: {
   vraag: Vraag;
   status: Status;
@@ -394,6 +417,8 @@ function VraagKaart({
   soepel: boolean;
   onAntwoord: (v: string | number | boolean | number[]) => void;
   onControleer: (vanToetsenbord?: boolean) => void;
+  /** Bij een open vraag of een tekening: wat het kind zelf zegt na het voorbeeld. */
+  onOordeel: (juist: boolean) => void;
 }) {
   const gegeven = status.gegevenAntwoord;
   // Een invulvraag kan ook een kleur- of sleepoefening zijn, zie Figuren.tsx.
@@ -402,7 +427,9 @@ function VraagKaart({
   const opdracht = instructie(vraag.type, {
     vakjes: alsVakjes,
     interactie: Boolean(interactie),
+    vraag,
   });
+  const zelf = zelfNakijken(vraag.type);
   const tabel = vraag.type === "tabel" ? leesTabel(vraag.opties, vraag.antwoord) : null;
   /* Bij een tabel en een keuzelijst is het antwoord een lijstje met per rij of
      per keuzelijst een nummer; -1 is: nog niets gekozen. */
@@ -422,6 +449,8 @@ function VraagKaart({
         </p>
       )}
 
+      {vraag.casus && <Casus tekst={vraag.casus} />}
+
       {vraag.type === "keuzelijst" ? (
         <KeuzeZin
           vraag={vraag}
@@ -429,11 +458,20 @@ function VraagKaart({
           uitgeschakeld={status.gecontroleerd}
           onKies={kiesOp}
         />
+      ) : vraag.type === "sleepzin" ? (
+        <SleepZin
+          vraag={vraag}
+          gekozen={perPlaats}
+          nagekeken={status.gecontroleerd}
+          onKies={onAntwoord}
+        />
       ) : (
         <VraagTekst tekst={vraag.vraag} />
       )}
 
-      {vraag.afbeeldingUrl && (
+      {/* Bij klikken op de prent en bij tekenen is de afbeelding zelf de
+          plaats waar je antwoordt; die staat dan hieronder, niet hier. */}
+      {vraag.afbeeldingUrl && vraag.type !== "hotspot" && vraag.type !== "tekenen" && (
         // eslint-disable-next-line @next/next/no-img-element
         <img
           src={vraag.afbeeldingUrl}
@@ -508,6 +546,60 @@ function VraagKaart({
         />
       )}
 
+      {vraag.type === "volgorde" && (
+        <VolgordeVraag
+          vraag={vraag}
+          gekozen={Array.isArray(gegeven) ? (gegeven as number[]) : null}
+          nagekeken={status.gecontroleerd}
+          onKies={onAntwoord}
+        />
+      )}
+
+      {vraag.type === "koppelen" && (
+        <KoppelVraag
+          vraag={vraag}
+          gekozen={perPlaats}
+          nagekeken={status.gecontroleerd}
+          onKies={(rij, keuze) => kiesOp(rij, vraag.opties?.length ?? 0, keuze)}
+        />
+      )}
+
+      {vraag.type === "sorteren" && (
+        <SorteerVraag
+          vraag={vraag}
+          gekozen={perPlaats}
+          nagekeken={status.gecontroleerd}
+          onKies={(kaartje, kolom) => kiesOp(kaartje, vraag.opties?.length ?? 0, kolom)}
+        />
+      )}
+
+      {vraag.type === "hotspot" && (
+        <HotspotVraag
+          vraag={vraag}
+          afbeeldingUrl={vraag.afbeeldingUrl}
+          gekozen={Array.isArray(gegeven) ? (gegeven as number[]) : null}
+          nagekeken={status.gecontroleerd}
+          onKies={onAntwoord}
+        />
+      )}
+
+      {vraag.type === "open" && (
+        <OpenVraag
+          vraag={vraag}
+          gekozen={typeof gegeven === "string" ? gegeven : null}
+          nagekeken={status.gecontroleerd || Boolean(status.voorbeeld)}
+          onKies={onAntwoord}
+        />
+      )}
+
+      {vraag.type === "tekenen" && (
+        <TekenVraag
+          afbeeldingUrl={vraag.afbeeldingUrl}
+          nagekeken={status.gecontroleerd || Boolean(status.voorbeeld)}
+          onKies={onAntwoord}
+        />
+      )}
+
       {vraag.type === "invultekst" && interactie?.soort === "kleur" && (
         <KleurVraag
           vorm={interactie.vorm}
@@ -568,14 +660,16 @@ function VraagKaart({
         />
       )}
 
-      {!status.gecontroleerd ? (
+      {!status.gecontroleerd && zelf && status.voorbeeld ? (
+        <ZelfNakijken voorbeeld={String(vraag.antwoord ?? "")} onOordeel={onOordeel} />
+      ) : !status.gecontroleerd ? (
         <button
           type="button"
           onClick={() => onControleer()}
           disabled={!isIngevuld(gegeven)}
           className="mt-4 rounded-md bg-forest px-4 py-2 text-sm font-medium text-white transition hover:bg-forest-dark disabled:cursor-not-allowed disabled:opacity-40"
         >
-          Controleer
+          {zelf ? "Toon het voorbeeldantwoord" : "Controleer"}
         </button>
       ) : (
         <div
@@ -653,6 +747,24 @@ function VraagKaart({
                     keuzelijstJuist(vraag.antwoord),
                   )}
                 />
+              </strong>
+            </p>
+          )}
+          {zelf && !status.overgeslagen && (
+            <p className="mt-1 text-ink">
+              {status.correct ? "Je keek jezelf na en vond het juist." : "Je keek jezelf na: nog niet helemaal."}
+            </p>
+          )}
+          {zelf && (
+            <p className="mt-1 whitespace-pre-line text-ink">
+              Voorbeeldantwoord: <Formule tekst={String(vraag.antwoord ?? "")} />
+            </p>
+          )}
+          {!status.correct && vraag.type === "sleepzin" && (
+            <p className="mt-1 text-ink">
+              Juist was:{" "}
+              <strong>
+                <Formule tekst={sleepzinAlsTekst(vraag.vraag, vraag.opties, vraag.antwoord as number[])} />
               </strong>
             </p>
           )}
@@ -1233,12 +1345,20 @@ export function Quiz({
 
   /* Nakijken en verdergaan staan hier apart, want de knoppen én de entertoets
      doen allebei net hetzelfde. */
-  const controleerHuidige = (vanToetsenbord?: boolean) => {
-    const correct = isCorrect(
-      vraag,
-      statussen[vraag.id].gegevenAntwoord,
-      !taalvak,
-    );
+  const controleerHuidige = (vanToetsenbord?: boolean, oordeel?: boolean) => {
+    /* Een open vraag of een tekening kijkt een computer niet na. Eerst komt
+       het voorbeeldantwoord; pas als het kind zelf zegt of het juist was, is
+       de vraag nagekeken. Zie lib/examenvormen.ts. */
+    if (zelfNakijken(vraag.type) && oordeel === undefined) {
+      setStatussen((s) => ({
+        ...s,
+        [vraag.id]: { ...s[vraag.id], voorbeeld: true },
+      }));
+      return;
+    }
+    const correct =
+      oordeel ??
+      isCorrect(vraag, statussen[vraag.id].gegevenAntwoord, !taalvak);
     setStatussen((s) => ({
       ...s,
       [vraag.id]: { ...s[vraag.id], gecontroleerd: true, correct },
@@ -1326,6 +1446,8 @@ export function Quiz({
       gaVerder();
       return;
     }
+    // Bij het voorbeeldantwoord kiest het kind zelf een knop.
+    if (statussen[vraag.id]?.voorbeeld) return;
     if (isIngevuld(statussen[vraag.id]?.gegevenAntwoord ?? null)) {
       controleerHuidige(true);
     }
@@ -1515,6 +1637,7 @@ export function Quiz({
               }))
             }
             onControleer={controleerHuidige}
+            onOordeel={(juist) => controleerHuidige(false, juist)}
           />
         )}
 
@@ -1561,7 +1684,11 @@ export function Quiz({
           ref={volgendeKnop}
           type="button"
           onClick={() => volgendeKnopActie()}
-          disabled={dezeNagekeken && laatsteVanDeReeks && nogOpenElders < 0}
+          disabled={
+            (dezeNagekeken && laatsteVanDeReeks && nogOpenElders < 0) ||
+            // Het voorbeeldantwoord staat open: eerst zelf nakijken.
+            Boolean(!dezeNagekeken && statussen[vraag.id]?.voorbeeld)
+          }
           className={`rounded-md px-4 py-2 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-40 ${
             statussen[vraag.id]?.gecontroleerd
               ? "bg-forest text-white hover:bg-forest-dark"
@@ -1569,8 +1696,10 @@ export function Quiz({
           }`}
         >
           {!dezeNagekeken ? (
-            huidigeIsIngevuld ? (
-              "Controleer"
+            statussen[vraag.id]?.voorbeeld ? (
+              "Kijk eerst jezelf na"
+            ) : huidigeIsIngevuld ? (
+              zelfNakijken(vraag.type) ? "Toon het voorbeeld" : "Controleer"
             ) : (
               "Overslaan"
             )

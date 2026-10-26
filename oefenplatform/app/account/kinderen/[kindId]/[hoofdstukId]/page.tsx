@@ -1,5 +1,5 @@
 import { schrijfInvul, schrijfKeuzes } from "@/lib/antwoord";
-import { schrijfVorm } from "@/lib/vraagvorm";
+import { schrijfVorm, type VraagType } from "@/lib/vraagvorm";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/Header";
@@ -13,7 +13,7 @@ import { alleRijen } from "@/lib/allerijen";
 type Vraag = {
   id: string;
   volgnummer: number;
-  type: "meerkeuze" | "invultekst" | "waarofniet" | "tabel" | "keuzelijst";
+  type: VraagType;
   // antwoord kan een lijstje nummers zijn: dan is er meer dan één juist.
   vraag: string;
   opties: string[] | null;

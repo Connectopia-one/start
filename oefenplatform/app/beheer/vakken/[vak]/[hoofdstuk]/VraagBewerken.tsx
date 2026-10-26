@@ -3,10 +3,11 @@
 import { useState, type FormEvent, type ReactNode } from "react";
 import { useRouter } from "next/navigation";
 import { bewerkVraag } from "./actions";
-import { VormHulp } from "./VormHulp";
+import { TypeOpties, VormHulp, ZonePrikker } from "./VormHulp";
+import { naarFormulier } from "@/lib/examenvormen";
 import { STANDAARD_KOLOMMEN, keuzelijstJuist, metSterretjes } from "@/lib/vraagvorm";
 
-type Antwoord = number | string | boolean | number[] | string[] | { kolommen: string[]; juist: number[] };
+type Antwoord = unknown;
 
 const VELD =
   "w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest";
@@ -45,8 +46,22 @@ export function VraagBewerken({
   volgnummer,
   verwijderen,
   children,
+  afbeeldingUrl,
+  metCasus = false,
 }: {
-  vraag: { id: string; type: string; vraag: string; opties: string[] | null; antwoord: Antwoord; uitleg: string | null };
+  vraag: {
+    id: string;
+    type: string;
+    vraag: string;
+    opties: string[] | null;
+    antwoord: Antwoord;
+    uitleg: string | null;
+    casus?: string | null;
+  };
+  /** De prent bij de vraag, voor een klikvraag. */
+  afbeeldingUrl?: string | null;
+  /** Bestaat de kolom casus al? Zie supabase/examenvormen.sql. */
+  metCasus?: boolean;
   vakSlug: string;
   volgnummer: string;
   verwijderen: ReactNode;
@@ -56,6 +71,10 @@ export function VraagBewerken({
   const [open, setOpen] = useState(false);
   const [bezig, setBezig] = useState(false);
   const [fout, setFout] = useState<string | null>(null);
+  // De vormen van lib/examenvormen.ts hebben hun eigen weg terug naar de velden.
+  const velden = naarFormulier(vraag);
+  const [type, setType] = useState(vraag.type);
+  const [antwoord, setAntwoord] = useState(() => velden?.antwoord ?? antwoordAlsTekst(vraag.type, vraag.antwoord));
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -97,12 +116,8 @@ export function VraagBewerken({
 
       <div className="space-y-1.5">
         <label className="text-sm font-medium text-ink">Type</label>
-        <select name="type" defaultValue={vraag.type} className={VELD}>
-          <option value="meerkeuze">Meerkeuze</option>
-          <option value="waarofniet">Waar of niet waar</option>
-          <option value="invultekst">Invultekst</option>
-          <option value="tabel">Tabel: per rij juist of fout</option>
-          <option value="keuzelijst">Keuzelijst in een zin</option>
+        <select name="type" value={type} onChange={(e) => setType(e.target.value)} className={VELD}>
+          <TypeOpties />
         </select>
       </div>
 
@@ -113,7 +128,8 @@ export function VraagBewerken({
           required
           rows={2}
           defaultValue={
-            vraag.type === "keuzelijst" ? metSterretjes(vraag.vraag, keuzelijstJuist(vraag.antwoord)) : vraag.vraag
+            velden?.vraag ??
+            (vraag.type === "keuzelijst" ? metSterretjes(vraag.vraag, keuzelijstJuist(vraag.antwoord)) : vraag.vraag)
           }
           className={VELD}
         />
@@ -123,7 +139,7 @@ export function VraagBewerken({
         <label className="text-sm font-medium text-ink">
           Opties <span className="font-normal text-ink-dim">(bij meerkeuze de keuzes, bij een tabel de uitspraken, één per regel)</span>
         </label>
-        <textarea name="opties" rows={3} defaultValue={(vraag.opties ?? []).join("\n")} className={VELD} />
+        <textarea name="opties" rows={3} defaultValue={velden?.opties ?? (vraag.opties ?? []).join("\n")} className={VELD} />
       </div>
 
       <div className="space-y-1.5">
@@ -135,12 +151,26 @@ export function VraagBewerken({
         </label>
         <input
           name="antwoord"
-          defaultValue={antwoordAlsTekst(vraag.type, vraag.antwoord)}
+          value={antwoord}
+          onChange={(e) => setAntwoord(e.target.value)}
           className={VELD}
         />
       </div>
 
+      {type === "hotspot" && afbeeldingUrl && (
+        <ZonePrikker src={afbeeldingUrl} waarde={antwoord} onWaarde={setAntwoord} />
+      )}
+
       <VormHulp />
+
+      {metCasus && (
+        <div className="space-y-1.5">
+          <label className="text-sm font-medium text-ink">
+            Casus <span className="font-normal text-ink-dim">(optioneel)</span>
+          </label>
+          <textarea name="casus" rows={2} defaultValue={vraag.casus ?? ""} className={VELD} />
+        </div>
+      )}
 
       <div className="space-y-1.5">
         <label className="text-sm font-medium text-ink">

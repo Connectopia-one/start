@@ -58,6 +58,47 @@ function schud<T>(lijst: T[]): T[] {
   return kopie;
 }
 
+/*
+  Zoals op het echte examen: een vast deel van de vragen in de vormen van de
+  Examencommissie (een tabel, een keuzelijst, volgorde, koppelen, slepen,
+  klikken, open of tekenen), zodat het niet van het toeval afhangt of een kind
+  ze tegenkomt. Heeft een vak er minder, dan komen ze er allemaal in.
+  Gevraagd door Kim op 26 oktober 2026.
+*/
+const EXAMENVORMEN_MINSTENS = 10;
+const GEWONE_VORMEN = new Set(["meerkeuze", "invultekst", "waarofniet"]);
+
+function kiesExamenvragen(lijst: { id: string; type: string }[]): string[] {
+  const vormen = schud(lijst.filter((v) => !GEWONE_VORMEN.has(v.type)));
+  const vast = vormen.slice(0, EXAMENVORMEN_MINSTENS);
+  const gekozen = new Set(vast.map((v) => v.id));
+  const rest = schud(lijst.filter((v) => !gekozen.has(v.id))).slice(
+    0,
+    AANTAL_VRAGEN - vast.length,
+  );
+  return [...vast, ...rest].map((v) => v.id);
+}
+
+/*
+  De vragen van één casus komen na elkaar, op de plaats van de eerste, zoals
+  op het examen. Elke vraag draagt haar casus zelf, dus ook een losse vraag uit
+  een casus is te beantwoorden; samen leest het wel rustiger.
+*/
+function casussenSamen<T extends { casus?: string | null }>(lijst: T[]): T[] {
+  const uit: T[] = [];
+  const gedaan = new Set<string>();
+  for (const v of lijst) {
+    if (!v.casus) {
+      uit.push(v);
+      continue;
+    }
+    if (gedaan.has(v.casus)) continue;
+    gedaan.add(v.casus);
+    uit.push(...lijst.filter((w) => w.casus === v.casus));
+  }
+  return uit;
+}
+
 export default async function ExamenPage({
   params,
 }: {
@@ -139,20 +180,23 @@ export default async function ExamenPage({
   const hoofdstukIds = hoofdstukken.map((h) => h.id);
   const { data: nummers } = await supabase
     .from("vragen")
-    .select("id")
+    .select("id, type")
     .in("hoofdstuk_id", hoofdstukIds);
 
-  const gekozen = schud((nummers ?? []).map((n) => n.id as string)).slice(
-    0,
-    AANTAL_VRAGEN,
+  const gekozen = kiesExamenvragen(
+    (nummers ?? []) as { id: string; type: string }[],
   );
 
   const { data: vragenRuw } = gekozen.length
     ? await supabase.from("vragen").select("*").in("id", gekozen)
     : { data: [] };
 
-  const vragen = schud(
-    await Promise.all((vragenRuw ?? []).map((rij) => maakVraag(supabase, rij))),
+  const vragen = casussenSamen(
+    schud(
+      await Promise.all(
+        (vragenRuw ?? []).map((rij) => maakVraag(supabase, rij)),
+      ),
+    ),
   );
 
   /*

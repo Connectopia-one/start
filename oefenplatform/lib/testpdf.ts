@@ -3,7 +3,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import fontkit from "@pdf-lib/fontkit";
 import { schrijfInvul, schrijfKeuzes } from "@/lib/antwoord";
-import { schrijfVorm } from "@/lib/vraagvorm";
+import { schrijfVorm, type VraagType } from "@/lib/vraagvorm";
 import { PDFDocument, rgb, type PDFFont, type PDFPage } from "pdf-lib";
 import { variantVoorBeurt } from "@/lib/spellingvariant";
 
@@ -28,7 +28,7 @@ const ROOD = rgb(0.65, 0.16, 0.16);
 
 export type PdfVraag = {
   id: string;
-  type: "meerkeuze" | "invultekst" | "waarofniet" | "tabel" | "keuzelijst";
+  type: VraagType;
   vraag: string;
   opties: string[] | null;
   antwoord: number | string | boolean | number[] | string[];
@@ -88,6 +88,8 @@ function leesbaar(tekst: string): string {
       "(op volgorde zetten, groot naar klein)",
     )
     .replace(/\{\{[^}]*\}\}/g, "")
+    /* Een leeg vak om een woord in te slepen, zie lib/examenvormen.ts. */
+    .replace(/\[\[\s*_?\s*\]\]/g, "______")
     /* Een zin met keuzelijsten, zie lib/vraagvorm.ts. */
     .replace(/\[\[([^\]]+?)\]\]/g, (_, binnen: string) =>
       `[${binnen.split("|").map((o) => o.trim()).join(" / ")}]`,

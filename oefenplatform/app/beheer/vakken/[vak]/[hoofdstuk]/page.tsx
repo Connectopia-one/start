@@ -16,6 +16,7 @@ import { NieuwLeerstofForm } from "./NieuwLeerstofForm";
 import { NieuwLeerbundelForm } from "./NieuwLeerbundelForm";
 import { schrijfWoordenlijst, type Woord } from "@/lib/woordenlijst";
 import { NieuwVraagForm } from "./NieuwVraagForm";
+import { vraagAlsTekst } from "@/lib/examenvormen";
 import { VraagBewerken } from "./VraagBewerken";
 
 const VOORBEELD_JSON = `[
@@ -100,9 +101,9 @@ export default async function BeheerVragenPage({
 
   const { data: vragenRuw } = await supabase
     .from("vragen")
-    .select(
-      "id, volgnummer, type, vraag, opties, antwoord, uitleg, afbeelding_pad",
-    )
+    // "*" en niet bij naam: zo blijft de lijst staan zolang de kolom casus
+    // nog niet bestaat (supabase/examenvormen.sql).
+    .select("*")
     .eq("hoofdstuk_id", hoofdstuk.id)
     .order("volgnummer", { ascending: true });
 
@@ -110,7 +111,7 @@ export default async function BeheerVragenPage({
     (vragenRuw ?? []).map(async (v) => {
       if (!v.afbeelding_pad)
         return { ...v, afbeeldingUrl: null as string | null };
-      if (v.afbeelding_pad.startsWith("http"))
+      if (v.afbeelding_pad.startsWith("http") || v.afbeelding_pad.startsWith("/"))
         return { ...v, afbeeldingUrl: v.afbeelding_pad };
       const { data } = await supabase.storage
         .from("vraagafbeeldingen")
@@ -178,7 +179,10 @@ export default async function BeheerVragenPage({
                   opties: v.opties as string[] | null,
                   antwoord: v.antwoord,
                   uitleg: v.uitleg,
+                  casus: v.casus ?? null,
                 }}
+                afbeeldingUrl={v.afbeeldingUrl}
+                metCasus={"casus" in v}
                 vakSlug={vakSlug}
                 volgnummer={volgnummerStr}
                 verwijderen={
@@ -201,7 +205,7 @@ export default async function BeheerVragenPage({
               >
                 <div>
                   <p className="font-medium text-ink">
-                    {v.volgnummer}. {v.vraag}
+                    {v.volgnummer}. {vraagAlsTekst(v)}
                   </p>
                   <p className="mt-1 text-xs text-ink-dim">
                     {v.type}

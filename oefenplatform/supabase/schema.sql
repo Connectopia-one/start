@@ -99,7 +99,10 @@ create table if not exists public.vragen (
   id uuid primary key default gen_random_uuid(),
   hoofdstuk_id uuid not null references public.hoofdstukken(id) on delete cascade,
   volgnummer int not null default 0,
-  type text not null check (type in ('meerkeuze', 'invultekst', 'waarofniet', 'tabel', 'keuzelijst')),
+  type text not null check (type in (
+    'meerkeuze', 'invultekst', 'waarofniet', 'tabel', 'keuzelijst',
+    'volgorde', 'koppelen', 'sorteren', 'sleepzin', 'hotspot', 'open', 'tekenen'
+  )),
   vraag text not null,
   opties jsonb,
   antwoord jsonb not null,
@@ -113,6 +116,9 @@ create table if not exists public.vragen (
 -- bestond. Bevat ofwel een pad in de "vraagafbeeldingen"-storage-bucket, ofwel
 -- een volledige externe URL (herkenbaar aan http(s)://) — zie ook verderop.
 alter table public.vragen add column if not exists afbeelding_pad text;
+
+-- Een casus: de situatie die boven de vraag staat (supabase/examenvormen.sql).
+alter table public.vragen add column if not exists casus text;
 
 -- Opkuis + migratie voor databases die dit bestand al eerder draaiden vóór de
 -- unique-regel hierboven bestond: dat liet dubbele voorbeeldvragen ontstaan bij

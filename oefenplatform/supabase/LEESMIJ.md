@@ -32,6 +32,7 @@ importeren mag je wél maar één keer doen, tenzij je "vervangen" aanvinkt.
 | 16  | `melding-antwoord.sql` | Laat je bij "Afgehandeld" een woordje terugschrijven; de melder ziet dat bovenaan het platform. Ná `meldingen.sql`. |
 | 17  | `groepen.sql`          | Splitst de opvolging op per plusklascode: de plusklas en de testgroepen in een eigen lijst. Ná `plusklasfiche.sql`. |
 | 18  | `vraagvormen.sql`      | Twee vraagvormen van het examen erbij: een tabel met juist of fout per rij, en een keuzelijst in een zin.            |
+| 19  | `examenvormen.sql`     | De overige vormen van het examen: volgorde, koppelen, kolommen, woorden slepen, klikken op een prent, open, tekenen, en een casus. |
 
 De volgorde telt maar op vier plaatsen: `schema.sql` moet eerst,
 `weetjes-bericht.sql` moet ná `weetjes.sql`, `melding-antwoord.sql` ná
