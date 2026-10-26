@@ -1,154 +1,147 @@
 {
   "hoofdstukken": [
     {
-      "titel": "Examenvormen — tabellen en keuzelijsten",
+      "titel": "Het historisch referentiekader — deel 1",
       "niveau": "spark",
-      "gratis": false,
       "vragen": [
+        {
+          "type": "volgorde",
+          "vraag": "Zet de zeven periodes van het westerse historisch referentiekader in de juiste volgorde, van de oudste naar de jongste.",
+          "opties": [
+            "Prehistorie",
+            "Oude nabije oosten",
+            "Klassieke oudheid",
+            "Middeleeuwen",
+            "Vroegmoderne tijd",
+            "Moderne tijd",
+            "Hedendaagse tijd"
+          ],
+          "uitleg": "Prehistorie, oude nabije oosten, klassieke oudheid, middeleeuwen, vroegmoderne tijd, moderne tijd, hedendaagse tijd."
+        },
         {
           "type": "tabel",
           "vraag": "Lees elke uitspraak over de tijdrekening. Is ze juist of fout?",
           "rijen": [
             "Het jaar 500 v.C. ligt verder in het verleden dan het jaar 200 v.C.",
-            "De 5de eeuw na Christus loopt van 401 tot en met 500.",
             "Na het jaar 1 v.C. komt het jaar 0.",
+            "De 5de eeuw na Christus loopt van 401 tot en met 500.",
             "Het jaar 1453 ligt in de 14de eeuw."
           ],
           "antwoord": [
             true,
-            true,
-            false,
-            false
-          ],
-          "uitleg": "Er bestaat geen jaar 0: na 1 v.C. komt meteen 1 n.C. Het jaar 1453 ligt in de 15de eeuw, want die loopt van 1401 tot en met 1500."
-        },
-        {
-          "type": "tabel",
-          "vraag": "Lees elke uitspraak over de grote periodes. Is ze juist of fout?",
-          "rijen": [
-            "De prehistorie eindigt met de uitvinding van het schrift.",
-            "De oudheid begint rond 3000 v.C.",
-            "De middeleeuwen komen vóór de oudheid.",
-            "De nieuwe tijd begint rond het jaar 1000."
-          ],
-          "antwoord": [
-            true,
-            true,
-            false,
-            false
-          ],
-          "uitleg": "De volgorde is prehistorie, oudheid, middeleeuwen, nieuwe tijd. De nieuwe tijd begint rond 1500, niet rond 1000."
-        },
-        {
-          "type": "tabel",
-          "vraag": "Lees elke uitspraak over de prehistorie. Is ze juist of fout?",
-          "rijen": [
-            "Jagers-verzamelaars trokken rond op zoek naar voedsel.",
-            "De landbouw ontstond voor het eerst in West-Europa.",
-            "Door de landbouw gingen mensen in vaste nederzettingen wonen.",
-            "In het paleolithicum gebruikten mensen al bronzen werktuigen."
-          ],
-          "antwoord": [
-            true,
             false,
             true,
             false
           ],
-          "uitleg": "De landbouw ontstond eerst in de Vruchtbare Sikkel, in het Midden-Oosten. In het paleolithicum gebruikten mensen werktuigen van steen, bot en hout; brons kwam veel later."
+          "uitleg": "Voor Christus tel je terug: 500 v.C. is ouder dan 200 v.C. Een jaar 0 bestaat niet, na 1 v.C. komt meteen 1 n.C. En 1453 ligt in de 15de eeuw, die loopt van 1401 tot en met 1500."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "In welk maatschappelijk domein hoort elke gebeurtenis?",
+          "kolommen": [
+            "Politiek",
+            "Economisch",
+            "Sociaal",
+            "Cultureel"
+          ],
+          "items": [
+            [
+              "Een koning vaardigt een nieuwe wet uit",
+              "Politiek"
+            ],
+            [
+              "Boeren verkopen hun graan op de markt",
+              "Economisch"
+            ],
+            [
+              "Slaven hebben minder rechten dan vrije burgers",
+              "Sociaal"
+            ],
+            [
+              "Een beeldhouwer maakt een beeld van een god",
+              "Cultureel"
+            ],
+            [
+              "Twee steden voeren oorlog",
+              "Politiek"
+            ],
+            [
+              "Er wordt een kanaal naar de akkers gegraven",
+              "Economisch"
+            ]
+          ],
+          "uitleg": "Macht, wetten en oorlog zijn politiek. Handel, landbouw en geld zijn economisch. Groepen in de samenleving en hun verhoudingen zijn sociaal. Religie, kunst, wetenschap en taal zijn cultureel."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het jaar 1492 ligt in de [[*15de|14de|16de]] eeuw en in het [[*2de|1ste|3de]] millennium na Christus.",
+          "uitleg": "De 15de eeuw loopt van 1401 tot en met 1500. Het 2de millennium loopt van 1001 tot en met 2000."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Honderd jaar is een [[eeuw]] en duizend jaar is een [[millennium]]. Gebeurtenissen in de juiste volgorde zetten, heet [[chronologie]].",
+          "extra": [
+            "decennium",
+            "generatie",
+            "periodisering"
+          ],
+          "uitleg": "Een decennium is tien jaar. Periodisering is de tijd in periodes indelen, niet de volgorde van gebeurtenissen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op de plaats van het jaar 476 n.C., het einde van het West-Romeinse Rijk.",
+          "afbeelding_url": "/examenvormen/tijdlijn.svg",
+          "zones": [
+            [
+              63.6,
+              25,
+              7.9,
+              55
+            ]
+          ],
+          "uitleg": "476 ligt vlak vóór het middelste streepje tussen Christus en 1000 n.C.; dat streepje is 500 n.C. Dat jaar is het scharnierpunt tussen de klassieke oudheid en de middeleeuwen."
+        },
+        {
+          "type": "tekenen",
+          "vraag": "Teken een tijdlijn van 1000 v.C. tot 1000 n.C. Zet een streepje om de honderd jaar, en duid de plaats van Christus aan.",
+          "antwoord": "Een rechte lijn met een pijl naar rechts. Links staat 1000 v.C., rechts 1000 n.C., en in het midden de geboorte van Christus. Ertussen staan twintig gelijke stukjes van honderd jaar, tien aan elke kant."
+        }
+      ]
+    },
+    {
+      "titel": "Het historisch referentiekader — deel 2",
+      "niveau": "spark",
+      "vragen": [
+        {
+          "type": "koppelen",
+          "vraag": "Welke periode begint met elk scharnierpunt?",
+          "paren": [
+            [
+              "De uitvinding van het schrift",
+              "Oude nabije oosten"
+            ],
+            [
+              "De machtsverschuiving naar de Middellandse Zee",
+              "Klassieke oudheid"
+            ],
+            [
+              "De ondergang van het West-Romeinse Rijk in 476",
+              "Middeleeuwen"
+            ]
+          ],
+          "extra": [
+            "Prehistorie"
+          ],
+          "uitleg": "Het schrift sluit de prehistorie af. Als Griekenland en Rome de macht overnemen van het nabije oosten, begint de klassieke oudheid. Met 476 beginnen de middeleeuwen. De prehistorie begint met geen van deze drie."
         },
         {
           "type": "tabel",
-          "vraag": "Lees elke uitspraak over het oude Egypte. Is ze juist of fout?",
+          "vraag": "Lees elke uitspraak over de periodisering. Is ze juist of fout?",
           "rijen": [
-            "De Nijl overstroomde elk jaar en liet vruchtbaar slib achter.",
-            "De farao werd gezien als een god of als een zoon van de goden.",
-            "Hiërogliefen zijn spijkervormige tekens die in klei gedrukt werden.",
-            "Egypte lag aan de rivieren Eufraat en Tigris."
-          ],
-          "antwoord": [
-            true,
-            true,
-            false,
-            false
-          ],
-          "uitleg": "Spijkerschrift en de Eufraat en de Tigris horen bij Mesopotamië. Egypte had de Nijl en schreef in hiërogliefen."
-        },
-        {
-          "type": "tabel",
-          "vraag": "Lees elke uitspraak over Mesopotamië. Is ze juist of fout?",
-          "rijen": [
-            "Mesopotamië betekent land tussen de rivieren.",
-            "Het spijkerschrift werd op papyrus geschreven.",
-            "De wetten van Hammurabi zijn een van de oudste geschreven wetten.",
-            "Mesopotamië lag in wat nu Egypte is."
-          ],
-          "antwoord": [
-            true,
-            false,
-            true,
-            false
-          ],
-          "uitleg": "Het spijkerschrift werd met een rietstift in natte klei gedrukt. Mesopotamië lag grotendeels in wat nu Irak is."
-        },
-        {
-          "type": "tabel",
-          "vraag": "Lees elke uitspraak over het oude Griekenland. Is ze juist of fout?",
-          "rijen": [
-            "Athene was een stadstaat, een polis.",
-            "In de Atheense democratie mochten vrouwen en slaven mee stemmen.",
-            "Sparta stond bekend om zijn strenge militaire opvoeding.",
-            "De Olympische Spelen werden gehouden in Athene."
-          ],
-          "antwoord": [
-            true,
-            false,
-            true,
-            false
-          ],
-          "uitleg": "In Athene mochten enkel vrije mannen die burger waren stemmen. De Olympische Spelen vonden plaats in Olympia, ter ere van Zeus."
-        },
-        {
-          "type": "tabel",
-          "vraag": "Lees elke uitspraak over het Romeinse Rijk. Is ze juist of fout?",
-          "rijen": [
-            "Volgens de legende werd Rome gesticht door Romulus.",
-            "Julius Caesar was de eerste keizer van Rome.",
-            "De Romeinen spraken Latijn.",
-            "Een aquaduct is een Romeins theater."
-          ],
-          "antwoord": [
-            true,
-            false,
-            true,
-            false
-          ],
-          "uitleg": "Augustus was de eerste keizer; Julius Caesar werd nooit keizer. Een aquaduct is een waterleiding."
-        },
-        {
-          "type": "tabel",
-          "vraag": "Lees elke uitspraak over de Romeinen in onze streken. Is ze juist of fout?",
-          "rijen": [
-            "Tongeren was een Romeinse stad.",
-            "Julius Caesar veroverde onze streken.",
-            "De Romeinen noemden een deel van onze streken Gallia Belgica.",
-            "Ambiorix was een Romeinse veldheer."
-          ],
-          "antwoord": [
-            true,
-            true,
-            true,
-            false
-          ],
-          "uitleg": "Ambiorix was een leider van de Eburonen die tegen de Romeinen vocht."
-        },
-        {
-          "type": "tabel",
-          "vraag": "Lees elke uitspraak over historische bronnen. Is ze juist of fout?",
-          "rijen": [
-            "Een geschreven bron is altijd betrouwbaarder dan een voorwerp.",
-            "Een primaire bron komt uit de tijd die je onderzoekt.",
-            "Een schoolboek van nu is een primaire bron over de Romeinen.",
-            "Een archeoloog bestudeert overblijfselen die in de grond bewaard bleven."
+            "Een scharnierpunt geldt voor de hele wereld tegelijk.",
+            "De indeling in zeven periodes is een afspraak onder historici.",
+            "Het jaar 476 betekende voor China het begin van de middeleeuwen.",
+            "De westerse periodisering is gemaakt vanuit de geschiedenis van Europa."
           ],
           "antwoord": [
             false,
@@ -156,78 +149,1042 @@
             false,
             true
           ],
-          "uitleg": "Elke bron moet je kritisch bekijken, geschreven of niet. Een schoolboek van nu is een secundaire bron: het is later over die tijd geschreven."
+          "uitleg": "Scharnierpunten zijn plaatsgebonden: in 476 veranderde er voor China niets. De indeling is een afspraak, gemaakt vanuit Europa, en geen natuurwet."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een verandering die traag en stap voor stap verloopt, is een [[*evolutie|revolutie]]. Een snelle en ingrijpende verandering is een [[*revolutie|evolutie]].",
+          "uitleg": "Daarom noemen historici de overgang naar de landbouw soms allebei: ze veranderde alles, maar het duurde wel duizenden jaren."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op de plaats waar het spijkerschrift ontstond, rond 3300 v.C.",
+          "afbeelding_url": "/examenvormen/tijdlijn.svg",
+          "zones": [
+            [
+              3.5,
+              25,
+              7.9,
+              55
+            ]
+          ],
+          "uitleg": "3300 v.C. ligt helemaal links, twee kleine streepjes na het begin van de lijn en nog vóór 3000 v.C. Daar eindigt de prehistorie in Mesopotamië."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Het spijkerschrift ontstond rond [[3300]] v.C. in [[Mesopotamië]]. Daarmee eindigt daar de [[prehistorie]].",
+          "extra": [
+            "476",
+            "Griekenland",
+            "klassieke oudheid"
+          ],
+          "uitleg": "Het schrift is het scharnierpunt tussen de prehistorie en het oude nabije oosten. Mesopotamië was een van de eerste plaatsen waar men schreef."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom de westerse indeling in zeven periodes niet op de hele wereld past. Geef een voorbeeld.",
+          "antwoord": "De indeling is gemaakt vanuit de geschiedenis van Europa. De scharnierpunten zijn gebeurtenissen die in Europa alles veranderden, maar elders niet. Een voorbeeld: in 476 ging het West-Romeinse Rijk ten onder, maar voor China of Amerika veranderde er toen niets."
+        }
+      ]
+    },
+    {
+      "titel": "De prehistorie — deel 1",
+      "niveau": "spark",
+      "vragen": [
+        {
+          "type": "tabel",
+          "vraag": "Lees elke uitspraak over de jagers en verzamelaars. Is ze juist of fout?",
+          "rijen": [
+            "Ze trokken rond, achter de dieren en de seizoenen aan.",
+            "Ze aten uitsluitend vlees.",
+            "Ze maakten scherpe werktuigen uit vuursteen.",
+            "Ze woonden in grote steden.",
+            "De mens leefde het grootste deel van zijn bestaan zo."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Jagers en verzamelaars aten ook vruchten, noten en wortels. Steden kwamen pas veel later, na de landbouw. Maar het grootste deel van zijn bestaan leefde de mens wel zo."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De moderne mens ontstond in [[*Afrika|Europa|Azië]]. De eerste mensachtige die dat werelddeel verliet, was de Homo [[*erectus|sapiens|habilis]].",
+          "uitleg": "De Homo erectus, de rechtopgaande mens, trok als eerste uit Afrika naar Azië en Europa. Homo sapiens, de verstandige mens, ontstond ook in Afrika, maar veel later."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk woord aan wat het betekent.",
+          "paren": [
+            [
+              "Nomade",
+              "Iemand die rondtrekt en nergens vast woont"
+            ],
+            [
+              "Vuistbijl",
+              "Een stenen werktuig dat je in je hand houdt om te hakken en te snijden"
+            ],
+            [
+              "Vuursteen",
+              "Een harde steen die scherpe randen geeft als je hem slaat"
+            ],
+            [
+              "Lascaux",
+              "Een grot in Frankrijk met prehistorische schilderingen"
+            ]
+          ],
+          "extra": [
+            "Een dorp op een vaste plaats met akkers errond"
+          ],
+          "uitleg": "Een dorp op een vaste plaats hoort bij de landbouwers, niet bij de jagers en verzamelaars."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze gebeurtenissen in de juiste volgorde, van lang geleden naar minder lang geleden.",
+          "opties": [
+            "De eerste mensachtigen leven in Afrika",
+            "De Homo erectus trekt weg uit Afrika",
+            "Mensen schilderen dieren op de wanden van de grot van Lascaux",
+            "In het Midden-Oosten beginnen de eerste mensen met landbouw"
+          ],
+          "uitleg": "De Homo erectus verliet Afrika bijna twee miljoen jaar geleden. De schilderingen van Lascaux zijn ongeveer 17.000 jaar oud, de eerste landbouw ongeveer 10.000 jaar."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Met het [[vuur]] konden mensen zich warmen, wilde dieren wegjagen en hun voedsel [[koken]]. Gekookt voedsel is makkelijker te [[verteren]].",
+          "extra": [
+            "water",
+            "verkopen",
+            "bewaren in de koelkast"
+          ],
+          "uitleg": "Gekookt of geroosterd voedsel is zachter en makkelijker te verteren. Zo kreeg de mens meer energie uit zijn eten."
+        },
+        {
+          "type": "open",
+          "vraag": "Waarom trokken jagers en verzamelaars steeds rond? Leg uit in één of twee zinnen.",
+          "antwoord": "Ze leefden van wat de natuur hun gaf. Als de dieren wegtrokken of de planten op een plaats op waren, moesten ze verder trekken om nieuw voedsel te vinden."
+        }
+      ]
+    },
+    {
+      "titel": "De prehistorie — deel 2",
+      "niveau": "spark",
+      "vragen": [
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij de jagers en verzamelaars of bij de eerste landbouwers?",
+          "kolommen": [
+            "Jagers en verzamelaars",
+            "Eerste landbouwers"
+          ],
+          "items": [
+            [
+              "Rondtrekken met de seizoenen",
+              "Jagers en verzamelaars"
+            ],
+            [
+              "Een voedseloverschot",
+              "Eerste landbouwers"
+            ],
+            [
+              "Een vaste woonplaats",
+              "Eerste landbouwers"
+            ],
+            [
+              "Een vuistbijl uit geslagen vuursteen",
+              "Jagers en verzamelaars"
+            ],
+            [
+              "Een gepolijste stenen bijl",
+              "Eerste landbouwers"
+            ],
+            [
+              "Tamme geiten en schapen",
+              "Eerste landbouwers"
+            ]
+          ],
+          "uitleg": "Jagers en verzamelaars trokken rond en sloegen hun werktuigen uit vuursteen. De landbouwers woonden vast, hielden dieren, kenden een overschot en polijsten hun stenen bijlen in het neolithicum."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze stappen in de juiste volgorde, van oorzaak naar gevolg.",
+          "opties": [
+            "Mensen beginnen met landbouw",
+            "Er is meer voedsel dan nodig: een overschot",
+            "Niet iedereen moet nog boer zijn, mensen leggen zich toe op één beroep",
+            "Er ontstaan handel en de eerste steden"
+          ],
+          "uitleg": "Zonder landbouw geen overschot, zonder overschot geen specialisatie, en zonder specialisatie geen steden."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het leven op een vaste woonplaats heet [[*sedentair|nomadisch]] leven. De periode waarin de landbouw ontstaat, heet het [[*neolithicum|paleolithicum]], de nieuwe steentijd.",
+          "uitleg": "Nomaden trekken rond. Het paleolithicum is de oude steentijd, de tijd van de jagers en verzamelaars."
         },
         {
           "type": "tabel",
-          "vraag": "Hoort elk van deze dingen bij de prehistorie of bij de oudheid?",
-          "kolommen": [
-            "Prehistorie",
-            "Oudheid"
-          ],
+          "vraag": "Lees elke uitspraak over de agrarische revolutie. Is ze juist of fout?",
           "rijen": [
-            "De grotschilderingen van Lascaux",
-            "De bouw van de piramiden van Gizeh",
-            "De eerste landbouwers in de Vruchtbare Sikkel",
-            "De wetten van Hammurabi"
+            "De landbouw begon het eerst in de Vruchtbare Sikkel, in het Midden-Oosten.",
+            "De landbouw ontstond overal op de wereld op hetzelfde moment.",
+            "Door de landbouw werden alle mensen even rijk.",
+            "Met het vaste wonen kwamen er ook nieuwe ziektes en meer ruzie over bezit."
           ],
           "antwoord": [
-            "prehistorie",
-            "oudheid",
-            "prehistorie",
-            "oudheid"
+            true,
+            false,
+            false,
+            true
           ],
-          "uitleg": "Lascaux en de eerste landbouw zijn van vóór het schrift, dus prehistorie. De piramiden en Hammurabi komen na de uitvinding van het schrift."
+          "uitleg": "De landbouw ontstond op verschillende plaatsen op verschillende momenten. Ze bracht ook ongelijkheid: wie meer land of vee had, werd rijker."
+        },
+        {
+          "casus": "Een archeologe graaft in de Vruchtbare Sikkel een dorp op. Ze vindt huizen van leem, voorraadpotten met graankorrels, botten van geiten en een gepolijste stenen bijl.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Welke besluiten mag ze uit deze vondsten trekken?",
+              "rijen": [
+                "De bewoners woonden op een vaste plaats.",
+                "De bewoners hielden graan in voorraad.",
+                "De bewoners leefden enkel van de jacht.",
+                "Het dorp is ouder dan de eerste landbouw."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false,
+                false
+              ],
+              "uitleg": "Leemhuizen en voorraadpotten wijzen op vast wonen en een overschot. Graan en geiten wijzen op landbouw en veeteelt, dus het dorp is niet ouder dan de landbouw."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "De gepolijste bijl wijst op het [[*neolithicum|paleolithicum]]. De voorraadpotten tonen dat er een [[*overschot|tekort]] aan voedsel was.",
+              "uitleg": "Gepolijste werktuigen horen bij de nieuwe steentijd. Je bewaart enkel voedsel dat je niet meteen nodig hebt."
+            }
+          ]
+        },
+        {
+          "type": "open",
+          "vraag": "Waarom noemen historici de overgang naar de landbouw een revolutie, en tegelijk een evolutie?",
+          "antwoord": "Een revolutie, omdat ze de manier van leven helemaal veranderde: mensen gingen vast wonen, er kwam een overschot, steden en ongelijkheid. Een evolutie, omdat die verandering traag ging, over duizenden jaren."
+        }
+      ]
+    },
+    {
+      "titel": "Mesopotamië en Egypte — deel 1",
+      "niveau": "spark",
+      "vragen": [
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij Mesopotamië, bij Egypte, of bij allebei?",
+          "kolommen": [
+            "Mesopotamië",
+            "Egypte",
+            "Allebei"
+          ],
+          "items": [
+            [
+              "Spijkerschrift",
+              "Mesopotamië"
+            ],
+            [
+              "Hiërogliefen",
+              "Egypte"
+            ],
+            [
+              "Ziggurat",
+              "Mesopotamië"
+            ],
+            [
+              "Piramide",
+              "Egypte"
+            ],
+            [
+              "Farao",
+              "Egypte"
+            ],
+            [
+              "Irrigatielandbouw",
+              "Allebei"
+            ],
+            [
+              "Eufraat en Tigris",
+              "Mesopotamië"
+            ],
+            [
+              "Een rijk langs een rivier",
+              "Allebei"
+            ]
+          ],
+          "uitleg": "Allebei lagen ze aan een rivier en bevloeiden ze hun akkers. Het spijkerschrift, de ziggurat en de Eufraat en de Tigris horen bij Mesopotamië; de hiërogliefen, de piramides en de farao bij Egypte."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees elke uitspraak over het oude Egypte. Is ze juist of fout?",
+          "rijen": [
+            "De Nijl overstroomde elk jaar en liet vruchtbaar slib achter.",
+            "De farao werd gezien als een god of als een zoon van de goden.",
+            "De Egyptenaren schreven met spijkerschrift.",
+            "Egypte lag aan de Eufraat."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Het spijkerschrift en de Eufraat horen bij Mesopotamië. Egypte schreef in hiërogliefen en leefde van de Nijl."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk woord aan wat het betekent.",
+          "paren": [
+            [
+              "Farao",
+              "De heerser van Egypte"
+            ],
+            [
+              "Ziggurat",
+              "Een trapvormige tempeltoren in Mesopotamië"
+            ],
+            [
+              "Kleitablet",
+              "Waarop men in Mesopotamië schreef"
+            ],
+            [
+              "Mummie",
+              "Een lichaam dat bewaard werd voor het leven na de dood"
+            ]
+          ],
+          "extra": [
+            "Een marktplein in een Romeinse stad"
+          ],
+          "uitleg": "Een marktplein in een Romeinse stad is een forum. Dat hoort bij de Romeinen, niet bij Mesopotamië of Egypte."
         },
         {
           "type": "keuzelijst",
-          "vraag": "Het jaar 476 ligt in de [[*5de|4de|6de]] eeuw na Christus. In dat jaar kwam er een einde aan het [[*West-Romeinse|Oost-Romeinse|Griekse]] Rijk.",
-          "uitleg": "De 5de eeuw loopt van 401 tot en met 500. In 476 werd de laatste West-Romeinse keizer afgezet; dat is ook het begin van de middeleeuwen."
+          "vraag": "Mesopotamië betekent het land tussen de [[*rivieren|bergen|zeeën]]. Het lag in wat nu [[*Irak|Egypte|Griekenland]] is.",
+          "uitleg": "Meso is tussen, potamos is rivier. Het land tussen de Eufraat en de Tigris ligt grotendeels in het huidige Irak."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "In Mesopotamië drukte men tekens in natte [[klei]]. In Egypte schreef men hiërogliefen op [[papyrus]], gemaakt van een plant die langs de [[Nijl]] groeide.",
+          "extra": [
+            "perkament",
+            "Tigris",
+            "steen"
+          ],
+          "uitleg": "Klei voor het spijkerschrift, papyrus voor de hiërogliefen. Papyrus groeide langs de Nijl."
+        },
+        {
+          "type": "open",
+          "vraag": "Waarom mummificeerden de Egyptenaren hun doden?",
+          "antwoord": "Ze geloofden in een leven na de dood. Het lichaam moest daarvoor bewaard blijven, zodat de ziel het kon terugvinden. Daarom balsemden ze het en legden ze voorwerpen in het graf."
+        }
+      ]
+    },
+    {
+      "titel": "Mesopotamië en Egypte — deel 2",
+      "niveau": "spark",
+      "vragen": [
+        {
+          "type": "volgorde",
+          "vraag": "Zet de groepen van de Egyptische standenmaatschappij in de juiste volgorde, van bovenaan naar onderaan.",
+          "opties": [
+            "De farao",
+            "Priesters en hoge ambtenaren",
+            "Schrijvers en ambachtslieden",
+            "Boeren en slaven"
+          ],
+          "uitleg": "Bovenaan stond de farao, onderaan de boeren en slaven. Die laatste groep was veruit de grootste."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees elke uitspraak over het schrift. Is ze juist of fout?",
+          "rijen": [
+            "Het schrift werd in de eerste plaats uitgevonden om verhalen te bewaren.",
+            "De oudste kleitabletten zijn vooral boekhouding: graan, vee en wie wat bezat.",
+            "In deze rijken kon bijna iedereen lezen en schrijven.",
+            "Schrijvers hadden een gewaardeerd beroep."
+          ],
+          "antwoord": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Het schrift ontstond om bezit en voorraden bij te houden. Lezen en schrijven was iets voor een kleine groep schrijvers, en dat gaf aanzien."
+        },
+        {
+          "casus": "In 1799 vinden Franse soldaten bij de Egyptische stad Rosetta een steen. Er staat drie keer dezelfde tekst op: in hiërogliefen, in een ander Egyptisch schrift en in het Grieks.",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Omdat geleerden het [[*Grieks|Egyptisch|spijkerschrift]] konden lezen, konden ze de [[*hiërogliefen|Griekse tekst|kleitabletten]] ontcijferen.",
+              "uitleg": "De Griekse tekst kon men al lezen. Door de drie versies naast elkaar te leggen, vond men stap voor stap uit wat de hiërogliefen betekenden."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Is elke uitspraak over de Steen van Rosetta juist of fout?",
+              "rijen": [
+                "De steen is een primaire bron over het oude Egypte.",
+                "Op de steen staat drie keer een andere tekst.",
+                "Zonder de Griekse tekst was het veel moeilijker geweest om de hiërogliefen te lezen."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Het is drie keer dezelfde tekst, in drie schriften. Net daarom was hij zo bruikbaar."
+            }
+          ]
         },
         {
           "type": "keuzelijst",
-          "vraag": "De overgang van rondtrekken naar vaste woonplaatsen met landbouw heet de [[*neolithische revolutie|industriële revolutie|Franse revolutie]].",
-          "uitleg": "Met de landbouw begint het neolithicum, de jonge steentijd."
+          "vraag": "Handel zonder munten heet [[*ruilhandel|groothandel|wereldhandel]]. Mesopotamië kon niet zonder handel, omdat er weinig [[*hout en metaal|graan|water]] was.",
+          "uitleg": "Mesopotamië had vruchtbare grond, maar nauwelijks bomen, steen of metaal. Die ruilde men voor graan en textiel."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "In een [[tempeleconomie]] zamelt de tempel de oogst in, slaat ze op en verdeelt ze weer. Zo zaten de economische en de [[religieuze]] macht in dezelfde handen.",
+          "extra": [
+            "ruilhandel",
+            "militaire"
+          ],
+          "uitleg": "De tempel was pakhuis en verdeelcentrum tegelijk. Daardoor hadden de priesters ook economische macht."
+        },
+        {
+          "type": "open",
+          "vraag": "Waarom vroeg irrigatielandbouw om samenwerking en een sterk bestuur?",
+          "antwoord": "Kanalen en dijken graven en onderhouden kan één boer niet alleen. Veel mensen moesten samenwerken, en iemand moest dat werk regelen, het water verdelen en ruzies beslechten. Zo groeide er een bestuur."
+        }
+      ]
+    },
+    {
+      "titel": "Het oude Griekenland — deel 1",
+      "niveau": "spark",
+      "vragen": [
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij Athene of bij Sparta?",
+          "kolommen": [
+            "Athene",
+            "Sparta"
+          ],
+          "items": [
+            [
+              "Democratie",
+              "Athene"
+            ],
+            [
+              "Een strenge militaire opvoeding vanaf je zevende",
+              "Sparta"
+            ],
+            [
+              "Een grote vloot en handel over zee",
+              "Athene"
+            ],
+            [
+              "Heloten die het land bewerken",
+              "Sparta"
+            ],
+            [
+              "Het Parthenon op de Akropolis",
+              "Athene"
+            ],
+            [
+              "Een stadstaat in het binnenland die van landbouw leeft",
+              "Sparta"
+            ]
+          ],
+          "uitleg": "Athene was maritiem en stedelijk, met een vloot, handel en de eerste democratie. Sparta lag in het binnenland, leefde van landbouw door heloten en voedde zijn jongens op tot soldaat."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees elke uitspraak over het oude Griekenland. Is ze juist of fout?",
+          "rijen": [
+            "Alle Griekse stadstaten werden samen door één koning bestuurd.",
+            "De Grieken deelden dezelfde taal en dezelfde goden.",
+            "De Olympische Spelen werden gehouden in Athene.",
+            "In Athene mochten vrouwen en slaven niet meestemmen."
+          ],
+          "antwoord": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Elke polis had haar eigen bestuur. De Spelen vonden plaats in Olympia, ter ere van Zeus. Meestemmen mochten in Athene enkel de vrije mannen die burger waren."
         },
         {
           "type": "keuzelijst",
-          "vraag": "In Egypte was de [[*Nijl|Eufraat|Tigris]] de levensader, en het schrift van de Egyptenaren heet [[*hiërogliefen|spijkerschrift|runen]].",
-          "uitleg": "De Eufraat, de Tigris en het spijkerschrift horen bij Mesopotamië."
+          "vraag": "Een Griekse stadstaat heet een [[*polis|forum|ziggurat]]. In Athene groeide de [[*democratie|monarchie|tirannie]], een bestuur waarin de burgers zelf beslisten.",
+          "uitleg": "Demos is volk, kratos is macht. Een forum is Romeins en een ziggurat hoort bij Mesopotamië."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk woord aan wat het betekent.",
+          "paren": [
+            [
+              "Zeus",
+              "De oppergod van de Grieken"
+            ],
+            [
+              "Olympus",
+              "De berg waarop de goden woonden"
+            ],
+            [
+              "Parthenon",
+              "De tempel op de Akropolis van Athene"
+            ],
+            [
+              "Orakel",
+              "Een plaats waar je de goden om raad vroeg"
+            ]
+          ],
+          "extra": [
+            "Een raad van rijke en ervaren Romeinen"
+          ],
+          "uitleg": "Een raad van rijke en ervaren Romeinen is de senaat. Die hoort bij Rome, niet bij Griekenland."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de Ionische zuil.",
+          "afbeelding_url": "/examenvormen/zuilen.svg",
+          "zones": [
+            [
+              64,
+              10,
+              28,
+              85
+            ]
+          ],
+          "uitleg": "De Ionische zuil herken je aan de twee grote krullen bovenaan. De Dorische is sober en heeft geen voet. De Korintische heeft bladeren."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Griekenland heeft veel [[bergen]] en eilanden. Daardoor ontstonden er veel aparte [[stadstaten]] in plaats van één groot rijk.",
+          "extra": [
+            "woestijnen",
+            "keizerrijken"
+          ],
+          "uitleg": "Bergen en zee scheidden de steden van elkaar. Elke stad groeide zo uit tot een eigen staatje."
+        }
+      ]
+    },
+    {
+      "titel": "Het oude Griekenland — deel 2",
+      "niveau": "spark",
+      "vragen": [
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze vormen van bestuur in de volgorde waarin ze elkaar in Athene opvolgden.",
+          "opties": [
+            "Koningschap",
+            "Oligarchie",
+            "Tirannie",
+            "Democratie"
+          ],
+          "uitleg": "Eerst een koning, dan een kleine groep rijken, dan tirannen die alleen de macht grepen, en ten slotte de democratie."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Wie vocht tegen wie?",
+          "paren": [
+            [
+              "De Perzische oorlogen",
+              "De Griekse stadstaten tegen het Perzische Rijk"
+            ],
+            [
+              "De Peloponnesische oorlog",
+              "Athene tegen Sparta"
+            ]
+          ],
+          "extra": [
+            "Rome tegen Carthago"
+          ],
+          "uitleg": "Rome tegen Carthago, dat zijn de Punische oorlogen. Die horen bij het Romeinse Rijk."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Wie was de leraar van wie? Zet ze in volgorde, van de leraar naar de leerling.",
+          "opties": [
+            "Socrates",
+            "Plato",
+            "Aristoteles",
+            "Alexander de Grote"
+          ],
+          "uitleg": "Socrates was de leraar van Plato, Plato die van Aristoteles, en Aristoteles was de leraar van de jonge Alexander de Grote."
         },
         {
           "type": "keuzelijst",
-          "vraag": "Het spijkerschrift, een van de oudste schriften, ontstond in [[*Mesopotamië|Griekenland|Rome]].",
-          "uitleg": "De Soemeriërs in Mesopotamië drukten tekens in klei, al rond 3000 v.C."
+          "vraag": "De Dorische zuil is [[*sober|met krullen|met bladeren]]. De Korintische zuil heeft een kapiteel met [[*bladeren|krullen]].",
+          "uitleg": "Dorisch is sober, Ionisch heeft krullen en Korintisch bladeren."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees elke uitspraak. Is ze juist of fout?",
+          "rijen": [
+            "Athene was een directe democratie: de burgers stemden zelf, niet via verkozenen.",
+            "Na de Peloponnesische oorlog was Athene sterker dan ooit.",
+            "Een Spartaanse vrouw had meer vrijheid dan een Atheense vrouw.",
+            "Na de veroveringen van Alexander verdween de Griekse cultuur uit het oosten."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Athene verloor de Peloponnesische oorlog en verzwakte. Na Alexander verspreidde de Griekse cultuur zich juist en vermengde ze zich met die van het oosten: het hellenisme."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Alexander de Grote veroverde een rijk tot in [[India]]. De vermenging van de Griekse cultuur met die van het oosten heet het [[hellenisme]].",
+          "extra": [
+            "Rome",
+            "christendom"
+          ],
+          "uitleg": "Hellas is Griekenland. Het hellenisme verspreidde Griekse taal, kunst en wetenschap tot ver in Azië."
+        },
+        {
+          "type": "open",
+          "vraag": "Waarom stichtten Grieken kolonies rond de Middellandse Zee? Geef twee redenen.",
+          "antwoord": "Er was te weinig vruchtbare grond voor een groeiende bevolking. Daarnaast zochten ze nieuwe plaatsen om handel te drijven. Soms trokken ook mensen weg na ruzie of armoede in hun stad.",
+          "opties": [
+            "Reden 1:",
+            "Reden 2:"
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Het Romeinse Rijk — deel 1",
+      "niveau": "spark",
+      "vragen": [
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze periodes van Rome in de juiste volgorde.",
+          "opties": [
+            "Rome wordt bestuurd door koningen",
+            "Rome is een republiek met een senaat en consuls",
+            "Augustus wordt de eerste keizer",
+            "Het West-Romeinse Rijk gaat ten onder"
+          ],
+          "uitleg": "Eerst de koningstijd, dan de republiek, dan het keizerrijk vanaf Augustus, en in 476 het einde van het West-Romeinse Rijk."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees elke uitspraak over Rome. Is ze juist of fout?",
+          "rijen": [
+            "Rome ligt aan de Tiber.",
+            "Julius Caesar was de eerste keizer van Rome.",
+            "De Romeinen spraken Latijn.",
+            "De Romeinen namen niets over van de Griekse cultuur."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Julius Caesar werd vermoord voor hij keizer kon worden; Augustus was de eerste keizer. De Romeinen namen veel over van de Grieken: goden, bouwkunst en kunst."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk Romeins woord aan wat het betekent.",
+          "paren": [
+            [
+              "Aquaduct",
+              "Een waterleiding tot in de stad"
+            ],
+            [
+              "Forum",
+              "Het marktplein en centrum van de stad"
+            ],
+            [
+              "Amfitheater",
+              "De plaats waar gladiatoren vochten"
+            ],
+            [
+              "Senaat",
+              "Een raad van rijke en ervaren mannen"
+            ]
+          ],
+          "extra": [
+            "Een trapvormige tempeltoren"
+          ],
+          "uitleg": "Een trapvormige tempeltoren is een ziggurat, uit Mesopotamië."
         },
         {
           "type": "keuzelijst",
-          "vraag": "In Athene ontstond de [[*democratie|monarchie|dictatuur]]. Dat woord betekent letterlijk bestuur door [[*het volk|de koning|het leger]].",
-          "uitleg": "Demos is volk en kratos is macht of bestuur."
+          "vraag": "Volgens de sage werd Rome gesticht door [[*Romulus|Augustus|Caesar]], die samen met zijn broer Remus door een [[*wolvin|adelaar|beer]] gezoogd werd.",
+          "uitleg": "Romulus en Remus werden als baby in de Tiber gelegd. Een wolvin zou hen gered hebben. Rome is naar Romulus genoemd."
         },
         {
-          "type": "keuzelijst",
-          "vraag": "De eerste keizer van het Romeinse Rijk was [[*Augustus|Julius Caesar|Nero]].",
-          "uitleg": "Julius Caesar had veel macht, maar werd vermoord voor hij keizer kon worden. Zijn opvolger Augustus werd in 27 v.C. de eerste keizer."
+          "type": "hotspot",
+          "vraag": "Volgens de sage werd Rome gesticht in 753 v.C. Klik op die plaats op de tijdlijn.",
+          "afbeelding_url": "/examenvormen/tijdlijn.svg",
+          "zones": [
+            [
+              44.3,
+              25,
+              7.9,
+              55
+            ]
+          ],
+          "uitleg": "753 v.C. ligt tussen het lange streepje van 1000 v.C. en het middelste streepje van 500 v.C., ongeveer halfweg."
         },
         {
-          "type": "keuzelijst",
-          "vraag": "Een versterkte grens van het Romeinse Rijk, met wachttorens en forten, heette een [[*limes|forum|aquaduct]].",
-          "uitleg": "Een forum is een marktplein en een aquaduct een waterleiding."
+          "type": "sleepzin",
+          "vraag": "De Romeinen noemden de Middellandse Zee [[mare nostrum]], onze zee. Over die zee en over hun [[wegen]] dreven ze handel in het hele rijk.",
+          "extra": [
+            "mare magnum",
+            "kanalen"
+          ],
+          "uitleg": "Mare nostrum toont hoe groot het rijk was: de Middellandse Zee lag er helemaal in."
+        }
+      ]
+    },
+    {
+      "titel": "Het Romeinse Rijk — deel 2",
+      "niveau": "spark",
+      "vragen": [
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij de Romeinse republiek of bij het keizerrijk?",
+          "kolommen": [
+            "Republiek",
+            "Keizerrijk"
+          ],
+          "items": [
+            [
+              "Twee consuls, elk voor één jaar",
+              "Republiek"
+            ],
+            [
+              "De Pax Romana",
+              "Keizerrijk"
+            ],
+            [
+              "Augustus noemt zichzelf princeps",
+              "Keizerrijk"
+            ],
+            [
+              "De volksvergadering kiest de bestuurders",
+              "Republiek"
+            ],
+            [
+              "De keizerscultus",
+              "Keizerrijk"
+            ],
+            [
+              "De Punische oorlogen tegen Carthago",
+              "Republiek"
+            ]
+          ],
+          "uitleg": "De consuls, de volksvergadering en de Punische oorlogen horen bij de republiek. Met Augustus begint het keizerrijk, met de Pax Romana en de keizerscultus."
         },
         {
-          "type": "keuzelijst",
-          "vraag": "Een bron die gemaakt werd in de tijd die je onderzoekt, is een [[*primaire|secundaire]] bron. Een boek dat een historicus nu over die tijd schrijft, is een [[*secundaire|primaire]] bron.",
-          "uitleg": "Primair betekent: uit die tijd zelf. Secundair: later gemaakt, over die tijd."
+          "casus": "Na de Punische oorlogen komen er duizenden krijgsgevangenen als slaven naar Italië. Rijke Romeinen kopen het land van kleine boeren op en laten het door slaven bewerken.",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Zo'n groot landgoed dat met slaven bewerkt werd, heet een [[*latifundium|forum|triumviraat]]. De kleine boeren trokken arm naar de [[*stad|kolonies|bergen]].",
+              "uitleg": "De kleine boer kon niet op tegen gratis slavenarbeid. Velen trokken naar Rome en hadden daar geen werk."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Is elk gevolg juist of fout?",
+              "rijen": [
+                "De kloof tussen rijk en arm werd groter.",
+                "De kleine boeren werden rijker door de slaven.",
+                "De onrust in Rome nam toe."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "De rijken werden rijker en de kleine boeren armer. Die spanning hielp mee om de republiek te doen wankelen."
+            }
+          ]
         },
         {
-          "type": "keuzelijst",
-          "vraag": "Het jaar 30 v.C. ligt [[*meer|minder]] dan 2000 jaar geleden.",
-          "uitleg": "Van 30 v.C. tot 2026 is 30 + 2026 - 1 = 2055 jaar, want er is geen jaar 0. Dat is meer dan 2000."
+          "type": "koppelen",
+          "vraag": "Koppel elk begrip aan wat het betekent.",
+          "paren": [
+            [
+              "Pax Romana",
+              "Een lange periode van vrede in het rijk"
+            ],
+            [
+              "Triumviraat",
+              "Een bondgenootschap van drie machtige mannen"
+            ],
+            [
+              "Keizerscultus",
+              "De keizer vereren als een god"
+            ],
+            [
+              "Princeps",
+              "De eerste burger, zo noemde Augustus zichzelf"
+            ]
+          ],
+          "extra": [
+            "Een groot landgoed dat met slaven bewerkt werd"
+          ],
+          "uitleg": "Een groot landgoed met slaven is een latifundium."
         },
         {
-          "type": "keuzelijst",
-          "vraag": "Griekse tempels hadden zuilen. De eenvoudigste, zonder versiering bovenaan, is de [[*Dorische|Ionische|Korinthische]] zuil.",
-          "uitleg": "De Ionische zuil heeft krullen bovenaan, de Korinthische bladeren."
+          "type": "tabel",
+          "vraag": "Lees elke uitspraak over het einde van het rijk. Is ze juist of fout?",
+          "rijen": [
+            "In de 3de eeuw waren er invallen aan de grenzen en keizers die elkaar snel opvolgden.",
+            "Het rijk werd verdeeld in een West-Romeins en een Oost-Romeins Rijk.",
+            "Het Oost-Romeinse Rijk verdween samen met het West-Romeinse Rijk in 476.",
+            "De crisis van de 3de eeuw kwam door de verwoesting van Carthago."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Het Oost-Romeinse Rijk bestond nog bijna duizend jaar, tot 1453. Carthago was al eeuwen eerder verwoest, in de Punische oorlogen."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Het christendom werd eerst [[vervolgd]], maar groeide later uit tot de [[staatsgodsdienst]] van het rijk.",
+          "extra": [
+            "beloond",
+            "keizerscultus"
+          ],
+          "uitleg": "Christenen weigerden de keizer als god te vereren en werden daarom vervolgd. Aan het einde van de 4de eeuw werd het christendom de godsdienst van het rijk."
+        },
+        {
+          "type": "open",
+          "vraag": "Waarom ging de Romeinse republiek uiteindelijk ten onder? Geef twee oorzaken.",
+          "antwoord": "De kloof tussen rijk en arm werd groot, onder meer door de latifundia, en dat gaf onrust. Machtige generaals met hun eigen leger vochten onderling om de macht, zoals Caesar. Uiteindelijk nam Augustus alle macht in handen.",
+          "opties": [
+            "Oorzaak 1:",
+            "Oorzaak 2:"
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Bronnen, kunst en beeldvorming — deel 1",
+      "niveau": "spark",
+      "vragen": [
+        {
+          "type": "sorteren",
+          "vraag": "Is elke bron over de Romeinen een primaire of een secundaire bron?",
+          "kolommen": [
+            "Primaire bron",
+            "Secundaire bron"
+          ],
+          "items": [
+            [
+              "Een brief van een Romeinse soldaat aan zijn familie",
+              "Primaire bron"
+            ],
+            [
+              "Je schoolboek over de Romeinen",
+              "Secundaire bron"
+            ],
+            [
+              "Een Romeinse munt uit een opgraving",
+              "Primaire bron"
+            ],
+            [
+              "Een documentaire van vorig jaar over Rome",
+              "Secundaire bron"
+            ],
+            [
+              "Een grafsteen van een Romeinse burger",
+              "Primaire bron"
+            ]
+          ],
+          "uitleg": "Een primaire bron komt uit de tijd zelf. Een secundaire bron is later gemaakt, over die tijd."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke soort bron is het, naar haar vorm?",
+          "paren": [
+            [
+              "Een potscherf uit een opgraving",
+              "Materiële bron"
+            ],
+            [
+              "Een opgenomen gesprek met iemand die de oorlog meemaakte",
+              "Mondelinge bron"
+            ],
+            [
+              "Een kleitablet met spijkerschrift",
+              "Geschreven bron"
+            ],
+            [
+              "Een oude filmopname",
+              "Audiovisuele bron"
+            ]
+          ],
+          "extra": [
+            "Secundaire bron"
+          ],
+          "uitleg": "Naar hun vorm zijn bronnen geschreven, mondeling, materieel of audiovisueel. Secundair zegt iets over wanneer de bron gemaakt is, niet over haar vorm."
+        },
+        {
+          "casus": "Lien vindt bij het spitten in de tuin een oude munt. Er staat de kop van keizer Augustus op en een Latijnse tekst.",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "De munt is een [[*primaire|secundaire]] bron, en naar haar vorm een [[*materiële|mondelinge|audiovisuele]] bron.",
+              "uitleg": "De munt komt uit de tijd van Augustus zelf en is een voorwerp."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Wat mag Lien uit de munt besluiten?",
+              "rijen": [
+                "De munt is gemaakt toen Augustus keizer was, of later.",
+                "De Romeinen kwamen ooit tot in de streek van Lien, of hun munten wel.",
+                "Augustus heeft zelf in die tuin gestaan."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Een munt reist met handelaars en soldaten mee. Ze toont dat Romeinse munten tot daar kwamen, niet dat de keizer er zelf was."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees elke uitspraak. Is ze juist of fout?",
+          "rijen": [
+            "Een game kan nooit een bron zijn voor een historicus.",
+            "Wie een bron betaalt, kan invloed hebben op wat erin staat.",
+            "Het verleden en de geschiedenis zijn precies hetzelfde.",
+            "Een kunstwerk kan tonen wat mensen belangrijk vonden."
+          ],
+          "antwoord": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Alles wat mensen maken, ook een game, kan iets vertellen over hun tijd. Het verleden is wat er gebeurde; de geschiedenis is het verhaal dat historici er met bronnen over maken."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Iemand die een gebeurtenis met eigen ogen zag, is een [[ooggetuige]]. Iemand die in dezelfde tijd leefde maar er niet bij was, is een [[tijdgenoot]].",
+          "extra": [
+            "historicus",
+            "archeoloog"
+          ],
+          "uitleg": "Een historicus en een archeoloog bestuderen het verleden later; ze waren er zelf niet bij."
+        },
+        {
+          "type": "open",
+          "vraag": "Waarom wil een historicus weten wie een bron gemaakt heeft?",
+          "antwoord": "Wie de bron maakte, bepaalt mee wat erin staat. Die persoon had een eigen mening, belang of opdrachtgever. Als je dat weet, kan je beter inschatten hoe betrouwbaar de bron is."
+        }
+      ]
+    },
+    {
+      "titel": "Bronnen, kunst en beeldvorming — deel 2",
+      "niveau": "spark",
+      "vragen": [
+        {
+          "casus": "In 1274 v.C. vechten de Egyptenaren van farao Ramses II en de Hettieten bij Kadesj. Ramses laat op de muren van zijn tempels uithouwen dat hij een grote overwinning behaalde. In de teksten van de Hettieten staat dat zij gewonnen hebben.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Is elke uitspraak juist of fout?",
+              "rijen": [
+                "Beide bronnen kunnen overdrijven.",
+                "Omdat de bronnen elkaar tegenspreken, zijn ze waardeloos.",
+                "Ramses liet zijn overwinning uithouwen om zijn macht te tonen.",
+                "Een tempelmuur is altijd betrouwbaarder dan een kleitablet."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true,
+                false
+              ],
+              "uitleg": "Een bron die overdrijft, vertelt nog altijd veel: over hoe een heerser gezien wilde worden. Of een bron betrouwbaar is, hangt niet af van het materiaal."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Dat beide partijen de overwinning claimen, is een voorbeeld van [[*meerdere perspectieven|continuïteit en verandering|oorzaak en gevolg]].",
+              "uitleg": "Hetzelfde voorval, bekeken door twee betrokkenen, geeft twee heel verschillende verhalen."
+            },
+            {
+              "type": "open",
+              "vraag": "Wat zou jij als historicus doen om te weten te komen wie de slag bij Kadesj echt gewonnen heeft?",
+              "antwoord": "Andere bronnen zoeken die niet van Ramses of van de Hettieten komen, en kijken wat er na de slag gebeurde: wie hield het gebied, werd er een verdrag gesloten? Zo vergelijk je de bronnen en gebruik je bewijs in plaats van de claims van één kant."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke historische redeneerwijze aan een voorbeeld.",
+          "paren": [
+            [
+              "Oorzaak en gevolg",
+              "Door de landbouw ontstond een voedseloverschot"
+            ],
+            [
+              "Continuïteit en verandering",
+              "De Romeinen namen de Griekse goden over, maar gaven ze andere namen"
+            ],
+            [
+              "Meerdere perspectieven",
+              "Een slaaf en een keizer beleefden hetzelfde rijk heel anders"
+            ],
+            [
+              "Bewijs gebruiken",
+              "Je steunt je besluit op wat in de bronnen staat"
+            ]
+          ],
+          "extra": [
+            "Afgaan op je gevoel"
+          ],
+          "uitleg": "Afgaan op je gevoel is geen historische redeneerwijze."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees elke uitspraak. Is ze juist of fout?",
+          "rijen": [
+            "Een bron kan bruikbaar zijn en toch onbetrouwbaar.",
+            "Een onbetrouwbare bron is waardeloos voor een historicus.",
+            "Een bron die volledig klopt, kan toch onbruikbaar zijn voor jouw vraag.",
+            "Het beeld dat historici van het verleden hebben, verandert nooit."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Bruikbaar gaat over je onderzoeksvraag, betrouwbaar over of de bron klopt. Nieuwe vondsten en nieuwe vragen kunnen het beeld van het verleden veranderen."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "De Griekse schrijver Herodotos noemde de Perzen [[barbaren]]: mensen die geen Grieks spraken. Dat hij zo keek, omdat hij een Griek was, heet [[standplaatsgebondenheid]].",
+          "extra": [
+            "burgers",
+            "mythevorming"
+          ],
+          "uitleg": "Iedereen kijkt vanuit zijn eigen tijd, plaats en groep. Daar moet je als historicus rekening mee houden, ook bij jezelf."
         }
       ]
     }

@@ -157,19 +157,21 @@ export function KoppelVraag({
         return (
           <div
             key={r}
-            className={`flex flex-wrap items-center gap-2 rounded-md border px-3 py-2 text-sm ${
+            className={`flex flex-col gap-2 rounded-md border px-3 py-2 text-sm ${
               fout ? "border-danger bg-danger/5" : "border-border"
             }`}
           >
-            <span className="min-w-0 flex-1 text-ink">
+            <span className="min-w-0 text-ink">
               <Formule tekst={rij} />
             </span>
+            {/* w-full en min-w-0: een lang antwoord rechts mag de pagina op
+                een gsm niet breder maken dan het scherm. */}
             <select
               value={gekozen[r] ?? -1}
               disabled={nagekeken}
               onChange={(e) => onKies(r, Number(e.target.value))}
               aria-label={`Wat hoort bij ${rij}`}
-              className="max-w-full rounded-md border border-border bg-paper px-2 py-1 text-sm text-ink outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+              className="w-full min-w-0 max-w-full truncate rounded-md border border-border bg-paper px-2 py-1 text-sm text-ink outline-none focus:border-forest focus:ring-1 focus:ring-forest"
             >
               <option value={-1}>kies...</option>
               {volgorde.map((k) => (
@@ -179,7 +181,7 @@ export function KoppelVraag({
               ))}
             </select>
             {fout && (
-              <span className="w-full text-xs text-ink">
+              <span className="text-xs text-ink">
                 Juist was: <strong>{t.kolommen[t.juist[r]]}</strong>
               </span>
             )}
@@ -418,7 +420,11 @@ export function HotspotVraag({
   const juist = gekozen ? inZone(gekozen, zones) : false;
   return (
     <div className="mt-3">
-      <div className="relative inline-block max-w-full">
+      {/* Op een gsm wordt een brede prent zoals de tijdlijn anders zo klein dat
+          je de jaartallen niet meer leest en niet juist kan tikken. Ze krijgt
+          daarom een vaste minimumbreedte, en je schuift ze opzij. */}
+      <div className="overflow-x-auto rounded-md">
+      <div className="relative inline-block min-w-[36rem] sm:min-w-0 sm:max-w-full">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={afbeeldingUrl}
@@ -432,7 +438,7 @@ export function HotspotVraag({
               Math.round(((e.clientY - r.top) / r.height) * 1000) / 10,
             ]);
           }}
-          className={`block max-h-[28rem] max-w-full rounded-md border border-border ${nagekeken ? "" : "cursor-crosshair"}`}
+          className={`block w-full rounded-md border border-border sm:max-h-[28rem] sm:w-auto sm:max-w-full ${nagekeken ? "" : "cursor-crosshair"}`}
         />
         {nagekeken &&
           zones.map(([x, y, b, h], i) => (
@@ -452,7 +458,13 @@ export function HotspotVraag({
           />
         )}
       </div>
-      {!nagekeken && <p className="mt-1 text-xs text-ink-dim">Klik op de plaats in de prent. Een tweede klik verzet je stip.</p>}
+      </div>
+      {!nagekeken && (
+        <p className="mt-1 text-xs text-ink-dim">
+          Klik op de plaats in de prent. Een tweede klik verzet je stip.
+          <span className="sm:hidden"> Is de prent breder dan je scherm, schuif ze dan opzij.</span>
+        </p>
+      )}
       {nagekeken && !juist && <p className="mt-1 text-xs text-ink">Het groene vak is de juiste plaats.</p>}
     </div>
   );
