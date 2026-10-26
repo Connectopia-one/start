@@ -654,6 +654,84 @@
           ],
           "uitleg": "Een ziggurat is een tempeltoren in trappen uit Mesopotamië, gebouwd uit gedroogde en gebakken kleitegels. Bovenaan stond een tempel voor de god van de stad. Het graf van een farao is een piramide, in Egypte.",
           "afbeelding_url": "/examenvormen/beeld/ziggurat.webp"
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Bekijk de kaart. Welke rivier draagt elk nummer?",
+          "paren": [
+            [
+              "Rivier 1",
+              "Nijl"
+            ],
+            [
+              "Rivier 2",
+              "Eufraat"
+            ],
+            [
+              "Rivier 3",
+              "Tigris"
+            ]
+          ],
+          "extra": [
+            "Jordaan",
+            "Tiber"
+          ],
+          "uitleg": "De Nijl stroomt door Egypte naar de Middellandse Zee. De Eufraat ligt in het westen van Mesopotamië, de Tigris in het oosten. Samen monden ze uit in de Perzische Golf.",
+          "afbeelding_url": "/examenvormen/kaarten/oude-nabije-oosten.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de kaart op het gebied dat Mesopotamië heette.",
+          "afbeelding_url": "/examenvormen/kaarten/oude-nabije-oosten.svg",
+          "zones": [
+            [
+              60.0,
+              14.1,
+              18.7,
+              35.3
+            ]
+          ],
+          "uitleg": "Mesopotamië betekent het land tussen de rivieren: het ligt tussen de Eufraat en de Tigris, in het huidige Irak."
+        },
+        {
+          "casus": "Stelling: In Mesopotamië schreef men vooral verhalen op.\n\nBron 1. De oudste kleitabletten uit de stad Uruk, van rond 3200 v.C., zijn lijsten met hoeveelheden graan, schapen en arbeiders.\n\nBron 2. Tempels hielden met tekens op klei bij wie hoeveel graan of vee had binnengebracht.\n\nBron 3. Later schreef men in spijkerschrift ook het lange verhaal van Gilgamesj op, een koning die op zoek gaat naar het eeuwige leven.\n\nBron 4. Koning Hammurabi van Babylon liet rond 1750 v.C. zijn wetten op een grote stenen zuil uithouwen.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Bevestigt of nuanceert elke bron de stelling?",
+              "rijen": [
+                "Bron 1",
+                "Bron 2",
+                "Bron 3",
+                "Bron 4"
+              ],
+              "antwoord": [
+                "Nuanceert",
+                "Nuanceert",
+                "Bevestigt",
+                "Nuanceert"
+              ],
+              "uitleg": "Alleen bron 3 gaat over een verhaal. De bronnen 1 en 2 tonen dat het schrift vooral diende om bij te houden wat er binnenkwam, en bron 4 gaat over wetten.",
+              "kolommen": [
+                "Bevestigt",
+                "Nuanceert"
+              ]
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Het duidelijkste tegenvoorbeeld voor de stelling staat in bron [[*1|2|3|4]].",
+              "uitleg": "Bron 1 toont dat de oudste teksten helemaal geen verhalen waren, maar lijsten van graan, schapen en arbeiders."
+            },
+            {
+              "type": "open",
+              "vraag": "Bevestig of nuanceer de stelling. Geef een argument en verwijs naar minstens twee bronnen.",
+              "antwoord": "Ik nuanceer de stelling. Er werden wel verhalen opgeschreven, zoals dat van Gilgamesj in bron 3. Maar de oudste tabletten in bron 1 en de tempels in bron 2 tonen dat men vooral bijhield hoeveel graan en vee er was. Ook wetten werden opgeschreven, zoals in bron 4.",
+              "opties": [
+                "Ik bevestig / nuanceer de stelling, want",
+                "Dat zie je in bron"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -752,6 +830,41 @@
           "vraag": "Bekijk de nagemaakte prent. Zo'n gouden masker lag op het gezicht van de [[*mummie|beeltenis|sfinx]] van een farao. De Egyptenaren balsemden hun doden omdat ze geloofden in [[*een leven na de dood|een nieuw leven als dier|een einde zonder hiernamaals]].",
           "uitleg": "De Egyptenaren geloofden dat het leven na de dood verderging. Het lichaam moest daarvoor bewaard blijven, en daarom maakten ze er een mummie van. Een farao kreeg een kostbaar masker en grafgiften mee.",
           "afbeelding_url": "/examenvormen/beeld/dodenmasker.webp"
+        },
+        {
+          "casus": "Stelling: De farao had alle macht in Egypte.\n\nBron 1. Op de muren van tempels staat de farao veel groter afgebeeld dan alle andere mensen.\n\nBron 2. De Egyptenaren zagen de farao als een zoon van de zonnegod Ra.\n\nBron 3. Een papyrus vertelt dat de arbeiders die de graven van de farao bouwden, rond 1157 v.C. het werk neerlegden omdat hun graan te laat kwam.\n\nBron 4. De priesters van de god Amon in Thebe werden zo rijk en machtig dat ze later zelf over het zuiden van Egypte heersten.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Bevestigt of nuanceert elke bron de stelling?",
+              "rijen": [
+                "Bron 1",
+                "Bron 2",
+                "Bron 3",
+                "Bron 4"
+              ],
+              "antwoord": [
+                "Bevestigt",
+                "Bevestigt",
+                "Nuanceert",
+                "Nuanceert"
+              ],
+              "uitleg": "De bronnen 1 en 2 tonen hoe groot de farao gezien werd. Bron 3 toont dat zelfs gewone arbeiders druk konden zetten, en bron 4 dat de priesters macht naar zich toe trokken.",
+              "kolommen": [
+                "Bevestigt",
+                "Nuanceert"
+              ]
+            },
+            {
+              "type": "open",
+              "vraag": "Bevestig of nuanceer de stelling. Geef een argument en verwijs naar minstens twee bronnen.",
+              "antwoord": "Ik nuanceer de stelling. De farao had veel macht en werd als zoon van een god gezien, dat zie je in bron 1 en 2. Maar alle macht had hij niet: de arbeiders in bron 3 legden het werk neer, en de priesters in bron 4 werden zelf heersers.",
+              "opties": [
+                "Ik bevestig / nuanceer de stelling, want",
+                "Dat zie je in bron"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -870,6 +983,79 @@
           "vraag": "Bekijk de nagemaakte prent. Dit is het [[*Parthenon|Colosseum|Pantheon]]. Het staat op de Akropolis van [[*Athene|Sparta|Rome]] en was gewijd aan [[*Athena|Zeus|Poseidon]]. De zuilen zijn [[*Dorisch|Ionisch|Korintisch]].",
           "uitleg": "Het Parthenon op de Akropolis van Athene was gewijd aan Athena, de beschermgodin van de stad. De zuilen zijn Dorisch: eenvoudig, zonder voet en met een vlak kapiteel. Het Colosseum en het Pantheon staan in Rome.",
           "afbeelding_url": "/examenvormen/beeld/parthenon.webp"
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Bekijk de kaart. Welke plaats staat bij elke letter?",
+          "paren": [
+            [
+              "Plaats A",
+              "Athene"
+            ],
+            [
+              "Plaats B",
+              "Sparta"
+            ],
+            [
+              "Plaats C",
+              "Olympia"
+            ]
+          ],
+          "extra": [
+            "Troje",
+            "Rome"
+          ],
+          "uitleg": "Athene ligt in Attika, aan de Egeïsche Zee. Sparta en Olympia liggen allebei op de Peloponnesos: Sparta in het zuiden, Olympia in het westen.",
+          "afbeelding_url": "/examenvormen/kaarten/griekse-wereld.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de kaart op de Peloponnesos, het schiereiland in het zuiden van Griekenland.",
+          "afbeelding_url": "/examenvormen/kaarten/griekse-wereld-leeg.svg",
+          "zones": [
+            [
+              13.5,
+              33.3,
+              40.4,
+              60.0
+            ]
+          ],
+          "uitleg": "De Peloponnesos is het grote schiereiland onderaan, met Sparta en Olympia. Het is alleen met een smalle strook land met de rest van Griekenland verbonden."
+        },
+        {
+          "casus": "Stelling: In Athene mocht iedereen mee beslissen over de stad.\n\nBron 1. In de volksvergadering kon elke burger het woord nemen en mee stemmen over wetten en oorlog.\n\nBron 2. Veel ambten werden door loting verdeeld, zodat elke burger eens aan de beurt kon komen.\n\nBron 3. Alleen volwassen mannen van wie de ouders Atheners waren, waren burger. Vrouwen mochten niet stemmen.\n\nBron 4. Slaven en vreemdelingen die in Athene woonden, mochten niet naar de volksvergadering.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Bevestigt of nuanceert elke bron de stelling?",
+              "rijen": [
+                "Bron 1",
+                "Bron 2",
+                "Bron 3",
+                "Bron 4"
+              ],
+              "antwoord": [
+                "Bevestigt",
+                "Bevestigt",
+                "Nuanceert",
+                "Nuanceert"
+              ],
+              "uitleg": "De bronnen 1 en 2 tonen hoe burgers mee beslisten. De bronnen 3 en 4 tonen dat lang niet iedereen burger was.",
+              "kolommen": [
+                "Bevestigt",
+                "Nuanceert"
+              ]
+            },
+            {
+              "type": "open",
+              "vraag": "Bevestig of nuanceer de stelling. Geef een argument en verwijs naar minstens twee bronnen.",
+              "antwoord": "Ik nuanceer de stelling. Burgers konden wel echt mee beslissen in de volksvergadering en via loting, zoals bron 1 en 2 tonen. Maar vrouwen, slaven en vreemdelingen waren geen burger en mochten niet stemmen, dat zie je in bron 3 en 4. Het grootste deel van de inwoners deed dus niet mee.",
+              "opties": [
+                "Ik bevestig / nuanceer de stelling, want",
+                "Dat zie je in bron"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -987,6 +1173,46 @@
               "afbeelding_url": "/examenvormen/beeld/discuswerper.webp"
             }
           ]
+        },
+        {
+          "casus": "Stelling: Athene en Sparta waren altijd vijanden.\n\nBron 1. Van 431 tot 404 v.C. vochten Athene en Sparta tegen elkaar in de Peloponnesische Oorlog.\n\nBron 2. In 480 v.C. vochten Atheners en Spartanen samen tegen de Perzen. Bij Salamis versloeg hun vloot de Perzische.\n\nBron 3. Op de Olympische Spelen kwamen sporters uit alle Griekse stadstaten samen, ook uit Athene en Sparta. Tijdens de Spelen mocht er niet gevochten worden.\n\nBron 4. De Atheense geschiedschrijver Thucydides schreef dat Sparta bang werd van de groeiende macht van Athene.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Bevestigt of nuanceert elke bron de stelling?",
+              "rijen": [
+                "Bron 1",
+                "Bron 2",
+                "Bron 3",
+                "Bron 4"
+              ],
+              "antwoord": [
+                "Bevestigt",
+                "Nuanceert",
+                "Nuanceert",
+                "Bevestigt"
+              ],
+              "uitleg": "De bronnen 1 en 4 gaan over de strijd tussen beide steden. De bronnen 2 en 3 tonen momenten waarop ze samenwerkten of vrede hielden.",
+              "kolommen": [
+                "Bevestigt",
+                "Nuanceert"
+              ]
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Het duidelijkste tegenvoorbeeld voor de stelling staat in bron [[*2|1|3|4]].",
+              "uitleg": "Bron 2 toont een moment waarop Athene en Sparta samen tegen een gemeenschappelijke vijand vochten."
+            },
+            {
+              "type": "open",
+              "vraag": "Bevestig of nuanceer de stelling. Geef een argument en verwijs naar minstens twee bronnen.",
+              "antwoord": "Ik nuanceer de stelling. Ze waren vaak rivalen en voerden lang oorlog, dat zie je in bron 1 en 4. Maar tegen de Perzen vochten ze samen, zoals in bron 2, en op de Olympische Spelen kwamen ze vreedzaam samen, zoals in bron 3. Ze waren dus niet altijd vijanden.",
+              "opties": [
+                "Ik bevestig / nuanceer de stelling, want",
+                "Dat zie je in bron"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1086,6 +1312,129 @@
           ],
           "uitleg": "Het Colosseum staat in Rome. Een amfitheater is rondom gebouwd, zodat iedereen zicht had op het midden, waar gladiatoren vochten.",
           "afbeelding_url": "/examenvormen/beeld/colosseum.webp"
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Bekijk de kaart. Welke stad staat bij elke letter?",
+          "paren": [
+            [
+              "Stad A",
+              "Rome"
+            ],
+            [
+              "Stad B",
+              "Carthago"
+            ],
+            [
+              "Stad C",
+              "Constantinopel"
+            ],
+            [
+              "Stad D",
+              "Alexandrië"
+            ]
+          ],
+          "extra": [
+            "Athene"
+          ],
+          "uitleg": "Rome ligt in het midden van Italië. Carthago lag in Noord-Afrika, recht tegenover Sicilië. Constantinopel ligt tussen Europa en Azië, en Alexandrië aan de monding van de Nijl.",
+          "afbeelding_url": "/examenvormen/kaarten/romeinse-rijk.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "De Romeinen noemden de zee rond hun rijk mare nostrum, onze zee. Klik op die zee.",
+          "afbeelding_url": "/examenvormen/kaarten/romeinse-rijk.svg",
+          "zones": [
+            [
+              28.1,
+              50.0,
+              6.5,
+              13.1
+            ],
+            [
+              39.4,
+              51.5,
+              8.3,
+              5.4
+            ],
+            [
+              52.9,
+              59.6,
+              5.8,
+              11.5
+            ],
+            [
+              43.3,
+              68.4,
+              16.3,
+              10.0
+            ],
+            [
+              59.6,
+              73.4,
+              9.6,
+              5.8
+            ],
+            [
+              20.2,
+              59.2,
+              7.5,
+              5.0
+            ],
+            [
+              69.2,
+              75.3,
+              13.5,
+              8.1
+            ],
+            [
+              74.0,
+              69.6,
+              6.7,
+              5.4
+            ]
+          ],
+          "uitleg": "Mare nostrum is de Middellandse Zee. Alle steden op de kaart liggen eraan, en het Romeinse Rijk lag er helemaal rond."
+        },
+        {
+          "casus": "Stelling: Het Romeinse Rijk werd groot alleen door oorlog.\n\nBron 1. Julius Caesar veroverde met zijn legioenen tussen 58 en 50 v.C. heel Gallië.\n\nBron 2. In drie Punische oorlogen versloeg Rome Carthago en nam het zijn gebieden over.\n\nBron 3. In 133 v.C. liet de koning van Pergamon, in het huidige Turkije, zijn rijk bij testament na aan Rome.\n\nBron 4. Steden en volken die zich aansloten, mochten vaak hun eigen bestuur houden en konden Romeins burger worden.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Bevestigt of nuanceert elke bron de stelling?",
+              "rijen": [
+                "Bron 1",
+                "Bron 2",
+                "Bron 3",
+                "Bron 4"
+              ],
+              "antwoord": [
+                "Bevestigt",
+                "Bevestigt",
+                "Nuanceert",
+                "Nuanceert"
+              ],
+              "uitleg": "De bronnen 1 en 2 gaan over veroveringen. Bron 3 toont een gebied dat zonder oorlog bij Rome kwam, en bron 4 hoe Rome volken aan zich bond.",
+              "kolommen": [
+                "Bevestigt",
+                "Nuanceert"
+              ]
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Het duidelijkste tegenvoorbeeld voor de stelling staat in bron [[*3|1|2|4]].",
+              "uitleg": "Bron 3 toont een rijk dat zonder enige oorlog bij Rome kwam: de koning liet het na in zijn testament."
+            },
+            {
+              "type": "open",
+              "vraag": "Bevestig of nuanceer de stelling. Geef een argument en verwijs naar minstens twee bronnen.",
+              "antwoord": "Ik nuanceer de stelling. Rome veroverde veel met oorlog, zoals Gallië in bron 1 en Carthago in bron 2. Maar Pergamon kwam er zonder strijd bij, door een testament, zoals bron 3 toont. En volgens bron 4 konden volken burger worden, waardoor ze bij Rome wilden horen.",
+              "opties": [
+                "Ik bevestig / nuanceer de stelling, want",
+                "Dat zie je in bron"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1250,6 +1599,46 @@
               ],
               "uitleg": "Zuilen, een mozaïekvloer en een waterbekken passen bij het huis van een rijke familie. De meeste Romeinen woonden in een klein appartement in een huurblok.",
               "afbeelding_url": "/examenvormen/beeld/romeins-atrium.webp"
+            }
+          ]
+        },
+        {
+          "casus": "Stelling: In 476 hield het Romeinse Rijk op te bestaan.\n\nBron 1. In 476 zette de Germaanse legeraanvoerder Odoaker de laatste keizer in het westen af.\n\nBron 2. Het Oost-Romeinse Rijk, met Constantinopel als hoofdstad, bleef bestaan tot 1453.\n\nBron 3. Het Latijn bleef nog eeuwenlang de taal van de Kerk en van geleerden. Het Frans, het Italiaans en het Spaans komen eruit voort.\n\nBron 4. Het westen was al lang voor 476 verzwakt. In 410 plunderden de Visigoten de stad Rome.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Bevestigt of nuanceert elke bron de stelling?",
+              "rijen": [
+                "Bron 1",
+                "Bron 2",
+                "Bron 3",
+                "Bron 4"
+              ],
+              "antwoord": [
+                "Bevestigt",
+                "Nuanceert",
+                "Nuanceert",
+                "Nuanceert"
+              ],
+              "uitleg": "Bron 1 geeft het jaar 476. Bron 2 toont dat het rijk in het oosten nog bijna duizend jaar bleef, bron 3 dat de Romeinse taal bleef, en bron 4 dat het einde in het westen al veel vroeger begon.",
+              "kolommen": [
+                "Bevestigt",
+                "Nuanceert"
+              ]
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Het duidelijkste tegenvoorbeeld voor de stelling staat in bron [[*2|1|3|4]].",
+              "uitleg": "Bron 2 toont dat een deel van het Romeinse Rijk nog bijna duizend jaar na 476 bleef bestaan."
+            },
+            {
+              "type": "open",
+              "vraag": "Bevestig of nuanceer de stelling. Geef een argument en verwijs naar minstens twee bronnen.",
+              "antwoord": "Ik nuanceer de stelling. In het westen kwam in 476 wel een einde aan het rijk, zoals bron 1 toont. Maar in het oosten bleef het bestaan tot 1453, volgens bron 2. En veel van Rome leefde voort, zoals het Latijn in bron 3.",
+              "opties": [
+                "Ik bevestig / nuanceer de stelling, want",
+                "Dat zie je in bron"
+              ]
             }
           ]
         }

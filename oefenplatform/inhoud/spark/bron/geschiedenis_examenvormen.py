@@ -932,6 +932,178 @@ H["Bronnen, kunst en beeldvorming — deel 2"] += [
 ]
 
 
+# ---------------------------------------------------------------------------
+# Stellingen met bronnen en kaarten (26-10-2026). Ouders van wie het echte
+# examen geschiedenis aflegde, vonden dit het zwaarst: een stelling met een
+# reeks bronnen, en per bron zeggen of ze de stelling bevestigt of nuanceert,
+# met een argument. En kaarten herkennen. De bronnen zijn korte, eenvoudige
+# beschrijvingen, geen letterlijke citaten. De kaarten tekent kaarten.py.
+# ---------------------------------------------------------------------------
+
+BN = ["Bevestigt", "Nuanceert"]
+
+
+def stelling(tekst, bronnen, uitleg, argument, tegenvoorbeeld=None):
+    """
+    Een casus met een stelling en genummerde bronnen. bronnen is een lijst van
+    (tekst, "Bevestigt" of "Nuanceert"). Daarop volgen een tabel per bron, een
+    keuzelijst voor het tegenvoorbeeld als dat gegeven is, en een open vraag.
+    """
+    casustekst = f"Stelling: {tekst}\n\n" + "\n\n".join(f"Bron {i}. {b}" for i, (b, _) in enumerate(bronnen, 1))
+    vragen = [
+        tabel(
+            "Bevestigt of nuanceert elke bron de stelling?",
+            [(f"Bron {i}", oordeel) for i, (_, oordeel) in enumerate(bronnen, 1)],
+            uitleg,
+            kolommen=BN,
+        )
+    ]
+    if tegenvoorbeeld:
+        nummer, waarom = tegenvoorbeeld
+        andere = [str(i) for i in range(1, len(bronnen) + 1) if i != nummer]
+        vragen.append(keuze(
+            f"Het duidelijkste tegenvoorbeeld voor de stelling staat in bron [[*{nummer}|{'|'.join(andere)}]].",
+            waarom,
+        ))
+    vragen.append(open_(
+        "Bevestig of nuanceer de stelling. Geef een argument en verwijs naar minstens twee bronnen.",
+        argument,
+        ["Ik bevestig / nuanceer de stelling, want", "Dat zie je in bron"],
+    ))
+    return casus(casustekst, vragen)
+
+
+def kaart(prent, vraag):
+    vraag["afbeelding_url"] = f"/examenvormen/kaarten/{prent}"
+    return vraag
+
+
+H["Mesopotamië en Egypte — deel 1"] += [
+    kaart("oude-nabije-oosten.svg", koppel(
+        "Bekijk de kaart. Welke rivier draagt elk nummer?",
+        [["Rivier 1", "Nijl"], ["Rivier 2", "Eufraat"], ["Rivier 3", "Tigris"]],
+        ["Jordaan", "Tiber"],
+        "De Nijl stroomt door Egypte naar de Middellandse Zee. De Eufraat ligt in het westen van Mesopotamië, de Tigris in het oosten. Samen monden ze uit in de Perzische Golf.",
+    )),
+    klik(
+        "Klik op de kaart op het gebied dat Mesopotamië heette.",
+        "kaarten/oude-nabije-oosten.svg",
+        [[60.0, 14.1, 18.7, 35.3]],
+        "Mesopotamië betekent het land tussen de rivieren: het ligt tussen de Eufraat en de Tigris, in het huidige Irak.",
+    ),
+    stelling(
+        "In Mesopotamië schreef men vooral verhalen op.",
+        [
+            ("De oudste kleitabletten uit de stad Uruk, van rond 3200 v.C., zijn lijsten met hoeveelheden graan, schapen en arbeiders.", "Nuanceert"),
+            ("Tempels hielden met tekens op klei bij wie hoeveel graan of vee had binnengebracht.", "Nuanceert"),
+            ("Later schreef men in spijkerschrift ook het lange verhaal van Gilgamesj op, een koning die op zoek gaat naar het eeuwige leven.", "Bevestigt"),
+            ("Koning Hammurabi van Babylon liet rond 1750 v.C. zijn wetten op een grote stenen zuil uithouwen.", "Nuanceert"),
+        ],
+        "Alleen bron 3 gaat over een verhaal. De bronnen 1 en 2 tonen dat het schrift vooral diende om bij te houden wat er binnenkwam, en bron 4 gaat over wetten.",
+        "Ik nuanceer de stelling. Er werden wel verhalen opgeschreven, zoals dat van Gilgamesj in bron 3. Maar de oudste tabletten in bron 1 en de tempels in bron 2 tonen dat men vooral bijhield hoeveel graan en vee er was. Ook wetten werden opgeschreven, zoals in bron 4.",
+        (1, "Bron 1 toont dat de oudste teksten helemaal geen verhalen waren, maar lijsten van graan, schapen en arbeiders."),
+    ),
+]
+
+H["Mesopotamië en Egypte — deel 2"] += [
+    stelling(
+        "De farao had alle macht in Egypte.",
+        [
+            ("Op de muren van tempels staat de farao veel groter afgebeeld dan alle andere mensen.", "Bevestigt"),
+            ("De Egyptenaren zagen de farao als een zoon van de zonnegod Ra.", "Bevestigt"),
+            ("Een papyrus vertelt dat de arbeiders die de graven van de farao bouwden, rond 1157 v.C. het werk neerlegden omdat hun graan te laat kwam.", "Nuanceert"),
+            ("De priesters van de god Amon in Thebe werden zo rijk en machtig dat ze later zelf over het zuiden van Egypte heersten.", "Nuanceert"),
+        ],
+        "De bronnen 1 en 2 tonen hoe groot de farao gezien werd. Bron 3 toont dat zelfs gewone arbeiders druk konden zetten, en bron 4 dat de priesters macht naar zich toe trokken.",
+        "Ik nuanceer de stelling. De farao had veel macht en werd als zoon van een god gezien, dat zie je in bron 1 en 2. Maar alle macht had hij niet: de arbeiders in bron 3 legden het werk neer, en de priesters in bron 4 werden zelf heersers.",
+    ),
+]
+
+H["Het oude Griekenland — deel 1"] += [
+    kaart("griekse-wereld.svg", koppel(
+        "Bekijk de kaart. Welke plaats staat bij elke letter?",
+        [["Plaats A", "Athene"], ["Plaats B", "Sparta"], ["Plaats C", "Olympia"]],
+        ["Troje", "Rome"],
+        "Athene ligt in Attika, aan de Egeïsche Zee. Sparta en Olympia liggen allebei op de Peloponnesos: Sparta in het zuiden, Olympia in het westen.",
+    )),
+    klik(
+        "Klik op de kaart op de Peloponnesos, het schiereiland in het zuiden van Griekenland.",
+        "kaarten/griekse-wereld-leeg.svg",
+        [[13.5, 33.3, 40.4, 60.0]],
+        "De Peloponnesos is het grote schiereiland onderaan, met Sparta en Olympia. Het is alleen met een smalle strook land met de rest van Griekenland verbonden.",
+    ),
+    stelling(
+        "In Athene mocht iedereen mee beslissen over de stad.",
+        [
+            ("In de volksvergadering kon elke burger het woord nemen en mee stemmen over wetten en oorlog.", "Bevestigt"),
+            ("Veel ambten werden door loting verdeeld, zodat elke burger eens aan de beurt kon komen.", "Bevestigt"),
+            ("Alleen volwassen mannen van wie de ouders Atheners waren, waren burger. Vrouwen mochten niet stemmen.", "Nuanceert"),
+            ("Slaven en vreemdelingen die in Athene woonden, mochten niet naar de volksvergadering.", "Nuanceert"),
+        ],
+        "De bronnen 1 en 2 tonen hoe burgers mee beslisten. De bronnen 3 en 4 tonen dat lang niet iedereen burger was.",
+        "Ik nuanceer de stelling. Burgers konden wel echt mee beslissen in de volksvergadering en via loting, zoals bron 1 en 2 tonen. Maar vrouwen, slaven en vreemdelingen waren geen burger en mochten niet stemmen, dat zie je in bron 3 en 4. Het grootste deel van de inwoners deed dus niet mee.",
+    ),
+]
+
+H["Het oude Griekenland — deel 2"] += [
+    stelling(
+        "Athene en Sparta waren altijd vijanden.",
+        [
+            ("Van 431 tot 404 v.C. vochten Athene en Sparta tegen elkaar in de Peloponnesische Oorlog.", "Bevestigt"),
+            ("In 480 v.C. vochten Atheners en Spartanen samen tegen de Perzen. Bij Salamis versloeg hun vloot de Perzische.", "Nuanceert"),
+            ("Op de Olympische Spelen kwamen sporters uit alle Griekse stadstaten samen, ook uit Athene en Sparta. Tijdens de Spelen mocht er niet gevochten worden.", "Nuanceert"),
+            ("De Atheense geschiedschrijver Thucydides schreef dat Sparta bang werd van de groeiende macht van Athene.", "Bevestigt"),
+        ],
+        "De bronnen 1 en 4 gaan over de strijd tussen beide steden. De bronnen 2 en 3 tonen momenten waarop ze samenwerkten of vrede hielden.",
+        "Ik nuanceer de stelling. Ze waren vaak rivalen en voerden lang oorlog, dat zie je in bron 1 en 4. Maar tegen de Perzen vochten ze samen, zoals in bron 2, en op de Olympische Spelen kwamen ze vreedzaam samen, zoals in bron 3. Ze waren dus niet altijd vijanden.",
+        (2, "Bron 2 toont een moment waarop Athene en Sparta samen tegen een gemeenschappelijke vijand vochten."),
+    ),
+]
+
+H["Het Romeinse Rijk — deel 1"] += [
+    kaart("romeinse-rijk.svg", koppel(
+        "Bekijk de kaart. Welke stad staat bij elke letter?",
+        [["Stad A", "Rome"], ["Stad B", "Carthago"], ["Stad C", "Constantinopel"], ["Stad D", "Alexandrië"]],
+        ["Athene"],
+        "Rome ligt in het midden van Italië. Carthago lag in Noord-Afrika, recht tegenover Sicilië. Constantinopel ligt tussen Europa en Azië, en Alexandrië aan de monding van de Nijl.",
+    )),
+    klik(
+        "De Romeinen noemden de zee rond hun rijk mare nostrum, onze zee. Klik op die zee.",
+        "kaarten/romeinse-rijk.svg",
+        [[28.1, 50.0, 6.5, 13.1], [39.4, 51.5, 8.3, 5.4], [52.9, 59.6, 5.8, 11.5], [43.3, 68.4, 16.3, 10.0],
+         [59.6, 73.4, 9.6, 5.8], [20.2, 59.2, 7.5, 5.0], [69.2, 75.3, 13.5, 8.1], [74.0, 69.6, 6.7, 5.4]],
+        "Mare nostrum is de Middellandse Zee. Alle steden op de kaart liggen eraan, en het Romeinse Rijk lag er helemaal rond.",
+    ),
+    stelling(
+        "Het Romeinse Rijk werd groot alleen door oorlog.",
+        [
+            ("Julius Caesar veroverde met zijn legioenen tussen 58 en 50 v.C. heel Gallië.", "Bevestigt"),
+            ("In drie Punische oorlogen versloeg Rome Carthago en nam het zijn gebieden over.", "Bevestigt"),
+            ("In 133 v.C. liet de koning van Pergamon, in het huidige Turkije, zijn rijk bij testament na aan Rome.", "Nuanceert"),
+            ("Steden en volken die zich aansloten, mochten vaak hun eigen bestuur houden en konden Romeins burger worden.", "Nuanceert"),
+        ],
+        "De bronnen 1 en 2 gaan over veroveringen. Bron 3 toont een gebied dat zonder oorlog bij Rome kwam, en bron 4 hoe Rome volken aan zich bond.",
+        "Ik nuanceer de stelling. Rome veroverde veel met oorlog, zoals Gallië in bron 1 en Carthago in bron 2. Maar Pergamon kwam er zonder strijd bij, door een testament, zoals bron 3 toont. En volgens bron 4 konden volken burger worden, waardoor ze bij Rome wilden horen.",
+        (3, "Bron 3 toont een rijk dat zonder enige oorlog bij Rome kwam: de koning liet het na in zijn testament."),
+    ),
+]
+
+H["Het Romeinse Rijk — deel 2"] += [
+    stelling(
+        "In 476 hield het Romeinse Rijk op te bestaan.",
+        [
+            ("In 476 zette de Germaanse legeraanvoerder Odoaker de laatste keizer in het westen af.", "Bevestigt"),
+            ("Het Oost-Romeinse Rijk, met Constantinopel als hoofdstad, bleef bestaan tot 1453.", "Nuanceert"),
+            ("Het Latijn bleef nog eeuwenlang de taal van de Kerk en van geleerden. Het Frans, het Italiaans en het Spaans komen eruit voort.", "Nuanceert"),
+            ("Het westen was al lang voor 476 verzwakt. In 410 plunderden de Visigoten de stad Rome.", "Nuanceert"),
+        ],
+        "Bron 1 geeft het jaar 476. Bron 2 toont dat het rijk in het oosten nog bijna duizend jaar bleef, bron 3 dat de Romeinse taal bleef, en bron 4 dat het einde in het westen al veel vroeger begon.",
+        "Ik nuanceer de stelling. In het westen kwam in 476 wel een einde aan het rijk, zoals bron 1 toont. Maar in het oosten bleef het bestaan tot 1453, volgens bron 2. En veel van Rome leefde voort, zoals het Latijn in bron 3.",
+        (2, "Bron 2 toont dat een deel van het Romeinse Rijk nog bijna duizend jaar na 476 bleef bestaan."),
+    ),
+]
+
+
 def tel(vragen):
     """Telt de vragen, ook die in een casus."""
     n = 0
