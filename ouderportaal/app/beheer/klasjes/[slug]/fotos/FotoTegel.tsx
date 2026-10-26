@@ -100,6 +100,7 @@ export function FotoTegel({
     <div className="overflow-hidden rounded-lg border border-border bg-surface">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
+        loading="lazy"
         ref={beeld}
         src={url}
         alt={bijschrift ?? ""}

@@ -48,8 +48,16 @@ export function FotoGalerij({ fotos }: { fotos: Foto[] }) {
               className="block w-full cursor-zoom-in"
               aria-label={f.bijschrift ? `${f.bijschrift}, groot bekijken` : "Foto groot bekijken"}
             >
+              {/* Pas laden als het vakje in beeld komt: zo haalt een ouder die enkel
+                  de bovenste rij bekijkt niet het hele album binnen. */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={f.url} alt={f.bijschrift ?? ""} className="aspect-square w-full object-cover" />
+              <img
+                src={f.url}
+                alt={f.bijschrift ?? ""}
+                loading="lazy"
+                decoding="async"
+                className="aspect-square w-full object-cover"
+              />
             </button>
             {f.bijschrift && (
               <figcaption className="px-2 py-1.5 text-xs text-ink-dim">{f.bijschrift}</figcaption>

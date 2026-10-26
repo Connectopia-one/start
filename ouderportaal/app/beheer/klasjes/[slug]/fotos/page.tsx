@@ -5,6 +5,7 @@ import { Header } from "@/components/Header";
 import { verwijderFoto } from "./actions";
 import { NieuweFotosForm } from "./NieuweFotosForm";
 import { FotoTegel } from "./FotoTegel";
+import { AllesVerkleinen } from "./AllesVerkleinen";
 
 export default async function BeheerFotosPage({
   params,
@@ -57,6 +58,11 @@ export default async function BeheerFotosPage({
         {succes && (
           <p className="mt-4 rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">{succes}</p>
         )}
+
+        <AllesVerkleinen
+          slug={slug}
+          fotos={metUrl.flatMap((f) => (f.url ? [{ id: f.id, url: f.url, bestandspad: f.bestandspad }] : []))}
+        />
 
         <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
           {metUrl.map((f) =>

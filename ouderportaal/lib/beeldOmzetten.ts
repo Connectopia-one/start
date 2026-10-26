@@ -33,12 +33,58 @@ export async function soortVanInhoud(blob: Blob): Promise<string> {
   return "onbekend";
 }
 
-/** Geeft een JPEG terug als het een HEIC- of RAW-foto is, anders het bestand zelf. */
+/**
+ * Geeft een JPEG terug als het een HEIC- of RAW-foto is, anders het bestand
+ * zelf, en in beide gevallen hoogstens 1600 pixels breed of hoog.
+ */
 export async function maakWebgeschikt(bestand: File): Promise<File> {
   const soort = await soortVanInhoud(bestand);
-  if (soort === "dng" || /\.dng$/i.test(bestand.name)) return dngNaarJpeg(bestand, bestand.name);
-  if (soort === "heic" || isHeic(bestand.name, bestand.type)) return heicNaarJpeg(bestand, bestand.name);
-  return bestand;
+  if (soort === "dng" || /\.dng$/i.test(bestand.name)) return verklein(await dngNaarJpeg(bestand, bestand.name));
+  if (soort === "heic" || isHeic(bestand.name, bestand.type)) return verklein(await heicNaarJpeg(bestand, bestand.name));
+  return verklein(bestand);
+}
+
+/*
+  Hoe groot een foto hoogstens mag zijn.
+
+  Op 26 oktober 2026 zat Supabase over zijn gratis verkeer (5 GB per maand),
+  en 4,4 GB daarvan kwam van het ouderportaal. De fotopagina van een klasje
+  stuurde elke foto zoals hij van de gsm kwam, al gauw 3 tot 5 MB, en dat bij
+  elk bezoek opnieuw. Op een scherm zie je geen verschil tussen zo'n foto en
+  een van 1600 pixels, die nog geen 400 kB weegt.
+*/
+const MAX_ZIJDE = 1600;
+const MAX_BYTES = 450 * 1024;
+
+/** Is deze foto groter dan nodig? Dan komt er een kleinere JPEG in de plaats. */
+export async function moetKleiner(blob: Blob): Promise<boolean> {
+  if (blob.size > MAX_BYTES) return true;
+  try {
+    const bmp = await createImageBitmap(blob);
+    const groot = Math.max(bmp.width, bmp.height) > MAX_ZIJDE;
+    bmp.close();
+    return groot;
+  } catch {
+    return false;
+  }
+}
+
+/** Maakt een foto hoogstens 1600 pixels groot. Een kleine foto blijft zoals hij is. */
+export async function verklein(bestand: File): Promise<File> {
+  /* Een gif kan bewegen; die laten we met rust. */
+  if ((await soortVanInhoud(bestand)) === "gif") return bestand;
+  if (!(await moetKleiner(bestand))) return bestand;
+  let bmp: ImageBitmap;
+  try {
+    bmp = await createImageBitmap(bestand);
+  } catch {
+    return bestand;
+  }
+  const jpeg = await tekenAlsJpeg(bmp, 1, MAX_ZIJDE, 0.82);
+  bmp.close();
+  /* Werd hij toch niet kleiner, dan houden we het origineel. */
+  if (jpeg.size >= bestand.size) return bestand;
+  return new File([jpeg], jpegNaam(bestand.name), { type: "image/jpeg" });
 }
 
 function jpegNaam(naam: string) {
@@ -167,8 +213,8 @@ export async function draaiFoto(blob: Blob, naam: string, richting: "links" | "r
   return new File([jpeg], jpegNaam(naam), { type: "image/jpeg" });
 }
 
-async function tekenAlsJpeg(bmp: ImageBitmap, stand: number): Promise<Blob> {
-  const schaal = Math.min(1, 2560 / Math.max(bmp.width, bmp.height));
+async function tekenAlsJpeg(bmp: ImageBitmap, stand: number, maxZijde = 2560, kwaliteit = 0.85): Promise<Blob> {
+  const schaal = Math.min(1, maxZijde / Math.max(bmp.width, bmp.height));
   const w = Math.round(bmp.width * schaal);
   const h = Math.round(bmp.height * schaal);
   const gedraaid = stand >= 5 && stand <= 8;
@@ -190,6 +236,6 @@ async function tekenAlsJpeg(bmp: ImageBitmap, stand: number): Promise<Blob> {
   if (vorm) ctx.setTransform(...vorm);
   ctx.drawImage(bmp, 0, 0, w, h);
   return new Promise((klaar, mis) =>
-    doek.toBlob((b) => (b ? klaar(b) : mis(new Error("Omzetten mislukt."))), "image/jpeg", 0.85),
+    doek.toBlob((b) => (b ? klaar(b) : mis(new Error("Omzetten mislukt."))), "image/jpeg", kwaliteit),
   );
 }
