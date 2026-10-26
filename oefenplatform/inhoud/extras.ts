@@ -53,6 +53,15 @@ export const spellen: Spel[] = [
       "Bijna tweehonderd Engelse woorden uit de leerbundels van Spark, in zes spellen: een quiz, memory, raad het woord, museumgalgje, flitskaarten en woordenbingo. Met de valse vrienden, Brits tegenover Amerikaans en de onregelmatige werkwoorden.",
   },
   {
+    slug: "begrippenarena-natuur",
+    icoon: "🔬",
+    titel: "Begrippenarena Natuurwetenschappen",
+    vak: "Natuurwetenschappen",
+    voorWie: "✨ Spark",
+    tekst:
+      "Honderdzestig begrippen uit de tien leerbundels natuurwetenschappen van Spark, van de cel tot wetenschappelijk onderzoek, in zes spellen: een quiz, memory, raad het begrip, microscoopgalgje, flitskaarten en begrippenbingo.",
+  },
+  {
     slug: "wiskunde-dimensie",
     icoon: "🤖",
     titel: "De Wiskunde-dimensie",

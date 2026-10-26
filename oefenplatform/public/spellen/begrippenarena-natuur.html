@@ -1,0 +1,847 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><title>Begrippenarena Natuurwetenschappen</title><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Young+Serif&display=swap">
+<style>
+/* Layout: één scherm voor het digibord. Menu (niveau → hoofdstuk → spel) en een speelvlak met vaste scorebalk bovenaan. */
+:root {
+  --bg: #eceee9;
+  --surface: #ffffff;
+  --sunk: #e1e4de;
+  --ink: #1d2330;
+  --muted: #586070;
+  --line: #cfd4cc;
+  --oker: #a8650f;
+  --oker-soft: #f3e3c7;
+  --lapis: #274a8c;
+  --lapis-soft: #dbe4f5;
+  --ok: #23774a;
+  --ok-soft: #d6efe0;
+  --bad: #b23a33;
+  --bad-soft: #f6dcd9;
+  --t1: #274a8c; --t2: #a8650f; --t3: #7a3f99; --t4: #1f7a6a;
+  --font-display: "Young Serif", Georgia, "Times New Roman", serif;
+  --font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --radius: 14px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12161d; --surface: #1c222c; --sunk: #252c38; --ink: #ecebe6; --muted: #a2a9b6; --line: #333b49;
+    --oker: #e6a54f; --oker-soft: #3b2f1c; --lapis: #94b3ef; --lapis-soft: #22304b;
+    --ok: #63c98f; --ok-soft: #1c3a2a; --bad: #f08a80; --bad-soft: #43231f;
+    --t1: #94b3ef; --t2: #e6a54f; --t3: #c99be3; --t4: #6fd1bd;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12161d; --surface: #1c222c; --sunk: #252c38; --ink: #ecebe6; --muted: #a2a9b6; --line: #333b49;
+  --oker: #e6a54f; --oker-soft: #3b2f1c; --lapis: #94b3ef; --lapis-soft: #22304b;
+  --ok: #63c98f; --ok-soft: #1c3a2a; --bad: #f08a80; --bad-soft: #43231f;
+  --t1: #94b3ef; --t2: #e6a54f; --t3: #c99be3; --t4: #6fd1bd;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: var(--font-body); font-size: 17px; line-height: 1.45;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 20px 48px;
+}
+.wrap { max-width: 1180px; margin: 0 auto; display: flex; flex-direction: column; gap: 22px; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 400; margin: 0; text-wrap: balance; }
+button { font: inherit; color: inherit; cursor: pointer; }
+button:focus-visible, input:focus-visible { outline: 3px solid var(--oker); outline-offset: 2px; }
+.label { font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+
+/* header */
+.top { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 14px 24px; }
+.brand h1 { font-size: clamp(1.9rem, 4vw, 2.8rem); line-height: 1.05; }
+.brand h1 span { color: var(--oker); }
+.brand p { margin: 6px 0 0; color: var(--muted); max-width: 60ch; }
+.seg { display: inline-flex; background: var(--sunk); border-radius: 999px; padding: 4px; gap: 4px; flex-wrap: wrap; }
+.seg button { border: 0; background: transparent; padding: 9px 16px; border-radius: 999px; font-weight: 700; color: var(--muted); }
+.seg button[aria-pressed="true"] { background: var(--surface); color: var(--ink); box-shadow: 0 1px 3px rgba(0,0,0,.15); }
+
+/* chapters */
+.chapters { display: flex; flex-wrap: wrap; gap: 10px; }
+.chip { border: 2px solid var(--line); background: var(--surface); border-radius: 999px; padding: 9px 16px; font-weight: 700; display: inline-flex; gap: 8px; align-items: center; }
+.chip small { font-weight: 400; color: var(--muted); font-variant-numeric: tabular-nums; }
+.chip[aria-pressed="true"] { border-color: var(--lapis); background: var(--lapis-soft); }
+
+/* game cards */
+.games { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+@media (max-width: 860px) { .games { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 520px) { .games { grid-template-columns: 1fr; } }
+.game-card { text-align: left; border: 2px solid var(--line); background: var(--surface); border-radius: var(--radius); padding: 18px 18px 16px; display: grid; grid-template-columns: 56px 1fr; gap: 4px 14px; align-items: start; transition: transform .12s, border-color .12s; }
+.game-card:hover { border-color: var(--oker); transform: translateY(-2px); }
+.game-card svg { grid-row: span 2; width: 56px; height: 56px; }
+.game-card h3 { font-size: 1.3rem; }
+.game-card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+.ic-a { fill: var(--oker); } .ic-b { fill: var(--lapis); } .ic-s { fill: none; stroke: var(--ink); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; } .ic-bg { fill: var(--sunk); }
+
+/* teams */
+.panel { background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); padding: 16px 18px; display: flex; flex-direction: column; gap: 12px; }
+.team-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.team-input { display: flex; align-items: center; gap: 8px; background: var(--sunk); border-radius: 10px; padding: 6px 10px; min-width: 0; }
+.team-input i { width: 14px; height: 14px; border-radius: 50%; flex: none; }
+.team-input input { border: 0; background: transparent; font: inherit; font-weight: 700; width: 9.5em; min-width: 0; color: var(--ink); }
+.linkbtn { border: 0; background: none; color: var(--lapis); font-weight: 700; padding: 6px 4px; text-decoration: underline; text-underline-offset: 3px; }
+
+/* game screen */
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 8px; display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; justify-content: space-between; border-bottom: 2px solid var(--line); }
+.bar .where { display: flex; flex-direction: column; min-width: 0; }
+.bar .where strong { font-family: var(--font-display); font-weight: 400; font-size: 1.35rem; line-height: 1.1; }
+.btn { border: 2px solid var(--ink); background: var(--surface); border-radius: 12px; padding: 10px 18px; font-weight: 700; }
+.btn.primary { background: var(--ink); color: var(--bg); }
+.btn.oker { background: var(--oker); border-color: var(--oker); color: var(--bg); }
+.btn.ghost { border-color: var(--line); }
+.btn:disabled { opacity: .4; cursor: default; }
+.scores { display: flex; flex-wrap: wrap; gap: 8px; }
+.score { display: flex; align-items: center; gap: 6px; border: 2px solid var(--line); background: var(--surface); border-radius: 12px; padding: 4px 6px 4px 12px; font-weight: 700; }
+.score .n { font-family: var(--font-display); font-size: 1.4rem; min-width: 1.6ch; text-align: center; font-variant-numeric: tabular-nums; }
+.score.turn { border-color: var(--tc); box-shadow: 0 0 0 3px color-mix(in srgb, var(--tc) 30%, transparent); }
+.score .dot { width: 12px; height: 12px; border-radius: 50%; background: var(--tc); }
+.score .pm { border: 0; background: var(--sunk); border-radius: 8px; width: 28px; height: 28px; font-weight: 700; }
+.stage { display: flex; flex-direction: column; gap: 18px; align-items: stretch; }
+.turnline { font-weight: 700; color: var(--muted); }
+.turnline b { color: var(--tc, var(--ink)); }
+.prompt { background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); padding: clamp(18px, 3vw, 34px); font-size: clamp(1.3rem, 2.8vw, 2.1rem); line-height: 1.3; font-family: var(--font-display); text-wrap: balance; min-height: 4.5em; display: flex; align-items: center; }
+.prompt.term { justify-content: center; text-align: center; font-size: clamp(2rem, 5.5vw, 3.8rem); }
+.options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+@media (max-width: 620px) { .options { grid-template-columns: 1fr; } }
+.opt { border: 2px solid var(--line); background: var(--surface); border-radius: var(--radius); padding: 16px 18px; text-align: left; font-size: clamp(1.05rem, 2vw, 1.4rem); font-weight: 700; display: flex; gap: 14px; align-items: center; min-width: 0; }
+.opt .k { flex: none; width: 2em; height: 2em; border-radius: 50%; display: grid; place-items: center; background: var(--sunk); font-size: .85em; }
+.opt.long { font-weight: 400; font-size: clamp(0.98rem, 1.6vw, 1.15rem); }
+.opt:hover:not(:disabled) { border-color: var(--lapis); }
+.opt.right { border-color: var(--ok); background: var(--ok-soft); }
+.opt.wrong { border-color: var(--bad); background: var(--bad-soft); }
+.opt:disabled { cursor: default; }
+.feedback { font-size: 1.15rem; font-weight: 700; min-height: 1.5em; }
+.feedback.good { color: var(--ok); } .feedback.badc { color: var(--bad); }
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.row.end { justify-content: flex-end; }
+.progress { font-variant-numeric: tabular-nums; color: var(--muted); font-weight: 700; }
+
+/* memory */
+.mem { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.mcard { position: relative; border: 2px solid var(--line); border-radius: 12px; min-height: 120px; padding: 10px; background: var(--lapis); color: var(--bg); display: grid; place-items: center; text-align: center; font-weight: 700; overflow-wrap: anywhere; }
+.mcard .back { font-family: var(--font-display); font-size: 2rem; opacity: .55; }
+.mcard.open { background: var(--surface); color: var(--ink); }
+.mcard.open.w { font-family: var(--font-display); font-weight: 400; font-size: clamp(1.05rem, 2vw, 1.5rem); }
+.mcard.open.d { font-weight: 400; font-size: clamp(.8rem, 1.3vw, 1rem); background: var(--oker-soft); }
+.mcard.done { border-color: var(--tc); box-shadow: inset 0 0 0 3px var(--tc); }
+.mcard.miss { border-color: var(--bad); }
+@media (max-width: 520px) { .mem { gap: 6px; } .mcard { min-height: 92px; padding: 6px; } }
+
+/* raad */
+.hints { display: flex; flex-direction: column; gap: 10px; }
+.hint { display: grid; grid-template-columns: 2.4em 1fr; gap: 12px; align-items: center; background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); padding: 14px 16px; font-size: clamp(1.1rem, 2.2vw, 1.6rem); }
+.hint .num { width: 2.2em; height: 2.2em; border-radius: 50%; display: grid; place-items: center; background: var(--oker); color: var(--bg); font-weight: 700; font-size: .8em; }
+.hint.hidden-h { color: var(--muted); border-style: dashed; background: transparent; }
+.pattern { font-family: ui-monospace, "Cascadia Mono", Menlo, monospace; letter-spacing: .25em; }
+.answer { text-align: center; font-family: var(--font-display); font-size: clamp(2rem, 5vw, 3.4rem); color: var(--ok); }
+
+/* galgje */
+.hang { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 20px; align-items: start; }
+@media (max-width: 760px) { .hang { grid-template-columns: 1fr; } .hang svg { max-width: 220px; margin: 0 auto; } }
+.slots { display: flex; flex-wrap: wrap; gap: 8px 6px; justify-content: center; font-family: var(--font-display); font-size: clamp(1.6rem, 4vw, 2.8rem); }
+.slot { min-width: 1.05em; text-align: center; border-bottom: 4px solid var(--ink); line-height: 1.2; }
+.slot.gap { border-bottom-color: transparent; min-width: .5em; }
+.slot.lost { color: var(--bad); }
+.keys { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }
+.key { width: 2.6em; height: 2.6em; border: 2px solid var(--line); background: var(--surface); border-radius: 10px; font-weight: 700; font-size: 1.05rem; }
+.key.hit { background: var(--ok-soft); border-color: var(--ok); }
+.key.miss { background: var(--bad-soft); border-color: var(--bad); opacity: .6; }
+.temple .piece { fill: var(--oker); transition: opacity .3s; }
+.temple .ghost { fill: none; stroke: var(--line); stroke-width: 2; stroke-dasharray: 4 4; }
+.lives { text-align: center; font-weight: 700; color: var(--muted); }
+
+/* flitskaarten */
+.flash { perspective: 1400px; }
+.flash-inner { position: relative; min-height: 300px; transition: transform .5s; transform-style: preserve-3d; cursor: pointer; }
+.flash.flipped .flash-inner { transform: rotateY(180deg); }
+.face { position: absolute; inset: 0; backface-visibility: hidden; border-radius: 20px; border: 2px solid var(--line); background: var(--surface); padding: 28px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; gap: 14px; }
+.face.back-f { transform: rotateY(180deg); background: var(--oker-soft); }
+.face .big { font-family: var(--font-display); font-size: clamp(2rem, 6vw, 4rem); line-height: 1.1; }
+.face .def { font-size: clamp(1.2rem, 2.6vw, 1.9rem); line-height: 1.35; max-width: 34ch; }
+.face .tip { color: var(--muted); font-size: clamp(1rem, 1.8vw, 1.25rem); }
+
+/* bingo */
+.wall { display: flex; flex-wrap: wrap; gap: 8px; }
+.wall span { background: var(--surface); border: 2px solid var(--line); border-radius: 10px; padding: 6px 12px; font-weight: 700; font-size: clamp(1rem, 1.8vw, 1.3rem); }
+.wall span.called { background: var(--ok-soft); border-color: var(--ok); }
+.howto { margin: 0; padding-left: 1.2em; color: var(--muted); }
+.howto li + li { margin-top: 4px; }
+
+/* lijst */
+.tablewrap { overflow-x: auto; background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); }
+table { border-collapse: collapse; width: 100%; min-width: 560px; }
+th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+td:first-child { font-weight: 700; white-space: nowrap; }
+td.x { color: var(--muted); }
+
+.endbox { background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); padding: 28px; text-align: center; display: flex; flex-direction: column; gap: 14px; align-items: center; }
+.endbox h2 { font-size: clamp(1.8rem, 4vw, 2.6rem); }
+.note { color: var(--muted); font-size: .92rem; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap" id="app"></div>
+
+<script>
+// Begrippen per hoofdstuk: [begrip, uitleg, extra tip]. Gehaald uit de leerbundels natuurwetenschappen ✨ Spark van Connectopia.
+const DATA = {
+  spark: { label: "SPARK · 1ste en 2de middelbaar", chapters: [
+    { id: "n-cel", title: "Cellen, weefsels en organen", terms: [
+      ["cel","De kleinste bouwsteen van elk levend wezen.","Een bacterie bestaat er uit één, een mens uit miljarden."],
+      ["eencellig","Een organisme dat uit één enkele cel bestaat.","Een bacterie is zo."],
+      ["meercellig","Een organisme dat uit heel veel cellen bestaat.","Een mens, een boom, een kat."],
+      ["celkern","Het celonderdeel dat de erfelijke informatie bewaart en de cel aanstuurt.","Het stuurcentrum van de cel."],
+      ["celmembraan","Het dunne vlies rond de cel dat regelt wat er in en uit gaat.","Elke cel heeft er een, ook een plantencel."],
+      ["cytoplasma","De gelei-achtige vloeistof in de cel waarin de celonderdelen liggen.","Alles binnen het vlies, behalve de kern."],
+      ["mitochondrium","Het celonderdeel dat energie vrijmaakt uit glucose.","Hier gebeurt de celademhaling. Meervoud: mitochondriën."],
+      ["celwand","Een stevige laag rond de cel die alleen planten hebben.","Ligt nog buiten het celmembraan."],
+      ["bladgroenkorrel","Het groene celonderdeel dat zonlicht opvangt voor de fotosynthese.","Alleen in plantencellen."],
+      ["vacuole","Een blaasje dat water en voedingsstoffen opslaat en de plantencel stevig houdt.","Bij planten is ze heel groot."],
+      ["weefsel","Een groep gelijke cellen die samen dezelfde taak doen.","Spierweefsel, zenuwweefsel."],
+      ["orgaan","Een lichaamsdeel dat uit verschillende weefsels bestaat en een eigen taak heeft.","Het hart, de maag, een blad."],
+      ["stelsel","Een groep organen die samenwerken.","Het spijsverterings- of ademhalingsstelsel."],
+      ["organisme","Een volledig levend wezen.","De hoogste trap: van cel tot dit."],
+      ["lichtmicroscoop","Toestel waarmee je cellen vergroot bekijkt.","Een loep vergroot daarvoor niet genoeg."],
+      ["preparaat","Een dun plakje materiaal op een glaasje, klaar om te bekijken.","Bijvoorbeeld een vliesje van een ui."]
+    ]},
+    { id: "n-foto", title: "Fotosynthese en de plant", terms: [
+      ["fotosynthese","Het proces waarbij een plant met licht van koolstofdioxide en water glucose en zuurstofgas maakt.","Lichtenergie wordt chemische energie."],
+      ["glucose","De suiker die een plant maakt en die cellen als brandstof gebruiken.","Ook in jouw bloed."],
+      ["koolstofdioxide","Het gas dat een plant opneemt voor de fotosynthese.","CO₂. Jij ademt het uit."],
+      ["zuurstofgas","Het gas dat een plant afgeeft bij de fotosynthese.","Jij hebt het nodig om te ademen."],
+      ["huidmondjes","Kleine openingen onderaan een blad waarlangs gassen in en uit gaan.","Ze gaan open en dicht."],
+      ["bladgroen","De groene kleurstof die het licht opvangt.","Ook chlorofyl genoemd."],
+      ["wortels","Plantendelen die water en mineralen uit de bodem opnemen.","Ze houden de plant ook vast."],
+      ["stengel","Het plantendeel dat water naar boven brengt en de plant rechtop houdt.","Bij een boom is dat de stam."],
+      ["zetmeel","De vorm waarin een plant de glucose die ze over heeft opslaat.","Zit veel in een aardappel."],
+      ["celademhaling","Het proces waarbij een cel met zuurstofgas energie vrijmaakt uit glucose.","Dag en nacht, bij planten, dieren en mensen."],
+      ["autotroof","Een organisme dat zelf zijn voedsel maakt.","Planten zijn zo."],
+      ["heterotroof","Een organisme dat zijn voedsel moet eten.","Dieren, schimmels en de mens."],
+      ["brandstof","Een stof die energie levert.","De plant gebruikt glucose als brandstof"],
+      ["bouwstof","Een stof waarmee een organisme groeit en zich herstelt.","De plant maakt er onder meer cellulose van."]
+    ]},
+    { id: "n-mens", title: "Het menselijk lichaam", terms: [
+      ["eiwitten","Voedingsstoffen die vooral als bouwstof dienen.","Ze worden afgebroken tot aminozuren."],
+      ["aminozuren","De kleine stukjes waarin eiwitten bij de vertering worden afgebroken.","Vooral in maag en dunne darm."],
+      ["vetten","Voedingsstoffen die afgebroken worden tot glycerol en drie vetzuren.","Gal helpt daarbij."],
+      ["vitaminen","Beschermstoffen die je in kleine hoeveelheden nodig hebt.","Samen met mineralen."],
+      ["vertering","Het afbreken van voedsel tot kleine stoffen die je lichaam kan opnemen.","Begint al in de mond."],
+      ["absorptie","Het opnemen van verteerde voedingsstoffen in het bloed.","Gebeurt in de dunne darm."],
+      ["dunne darm","Het orgaan waar de voedingsstoffen in het bloed worden opgenomen.","Een paar meter lang."],
+      ["gal","Vloeistof van de lever die helpt om vetten te verteren.","Wordt bewaard in de galblaas."],
+      ["boezem","Een van de twee bovenste ruimtes van het hart.","Het hart heeft er twee, plus twee kamers."],
+      ["kamer","Een van de twee onderste ruimtes van het hart, die het bloed wegpompen.","Hun wand is dikker."],
+      ["slagader","Bloedvat dat bloed van het hart weg brengt.","Hier voel je je hartslag."],
+      ["ader","Bloedvat dat bloed naar het hart terug brengt.","Hierin stroomt het bloed terug naar het hart."],
+      ["haarvaten","De heel fijne bloedvaatjes waar stoffen uitgewisseld worden.","Tussen slagaders en aders."],
+      ["plasma","Het vloeibare deel van het bloed dat opgeloste stoffen vervoert.","Meer dan de helft van je bloed."],
+      ["rode bloedcellen","Bloedcellen die zuurstof vervoeren.","Ze geven het bloed zijn kleur."],
+      ["witte bloedcellen","Bloedcellen die ziektekiemen bestrijden.","Je afweer."],
+      ["bloedplaatjes","Deeltjes in het bloed die een wonde laten stollen.","Zo vormt zich een korstje."],
+      ["longblaasjes","De kleine blaasjes in de longen waar zuurstofgas in het bloed komt.","Daar gaat koolstofdioxide er ook uit."]
+    ]},
+    { id: "n-voort", title: "Voortplanting", terms: [
+      ["aseksuele voortplanting","Voortplanting met één ouder, waarbij de nakomelingen erfelijk gelijk zijn.","Stekken, uitlopers, bollen."],
+      ["seksuele voortplanting","Voortplanting waarbij twee geslachtscellen versmelten.","Zorgt voor variatie."],
+      ["stek","Een afgeknipt stukje plant dat zelf wortels maakt.","Zo kweek je een nieuwe plant zonder zaad."],
+      ["uitloper","Een zijstengel die over de grond kruipt en verderop een nieuwe plant maakt.","Aardbeiplanten doen dat."],
+      ["meeldraad","Het mannelijke deel van een bloem: helmdraad plus helmknop.","Maakt het stuifmeel."],
+      ["stamper","Het vrouwelijke deel van een bloem: stempel, stijl en vruchtbeginsel.","Staat meestal in het midden."],
+      ["stuifmeel","Het poeder met de mannelijke geslachtscellen van een plant.","Bijen nemen het mee."],
+      ["bestuiving","Het terechtkomen van stuifmeel op de stempel.","Door de wind of door insecten."],
+      ["bevruchting","Het versmelten van een zaadcel met een eicel.","Bij de mens gebeurt het in de eileider."],
+      ["eicel","De vrouwelijke geslachtscel.","Rijpt in de eierstokken."],
+      ["zaadcel","De mannelijke geslachtscel.","Wordt gemaakt in de teelballen."],
+      ["eisprong","Het moment waarop een rijpe eicel uit de eierstok vrijkomt.","Ongeveer één keer per maand."],
+      ["innesteling","Het vastzetten van de bevruchte eicel in de wand van de baarmoeder.","Daarna begint de zwangerschap."],
+      ["baarmoeder","Het orgaan waarin een baby groeit.","Peervormig, met een dikke spierwand."],
+      ["eierstokken","De organen waarin de eicellen rijpen.","Een vrouw heeft er twee."],
+      ["teelballen","De organen die de zaadcellen maken.","Ze hangen in de balzak."],
+      ["condoom","Het enige voorbehoedmiddel dat ook beschermt tegen soa's.","Soa: seksueel overdraagbare aandoening."]
+    ]},
+    { id: "n-eco", title: "Ecologie en biodiversiteit", terms: [
+      ["ecosysteem","Alle organismen in een gebied samen met hun niet-levende omgeving.","Een bos, een vijver."],
+      ["abiotisch","Niet-levend: licht, temperatuur, water, bodem.","Het omgekeerde van biotisch."],
+      ["biotisch","Te maken met de levende organismen zelf.","Planten, dieren, schimmels."],
+      ["producenten","Organismen die zelf energierijke stoffen maken met fotosynthese.","Planten en algen."],
+      ["consumenten","Organismen die andere organismen eten.","Een konijn, een vos."],
+      ["detrivoren","Dieren die dood organisch materiaal eten.","Regenworm, pissebed."],
+      ["reducenten","Organismen die dode resten helemaal afbreken tot voedingsstoffen.","Bacteriën en schimmels."],
+      ["voedselketen","Eén rij van wie wie opeet.","Gras → konijn → vos."],
+      ["voedselweb","Alle voedselketens van een ecosysteem samen.","Veel pijlen kriskras door elkaar."],
+      ["voedselpiramide","Een tekening die toont hoeveel organismen er op elk niveau van een keten zijn.","Onderaan de meeste: de producenten."],
+      ["kringloop","Het rondgaan van stoffen in de natuur, zodat ze opnieuw gebruikt worden.","Energie gaat níet rond, die stroomt."],
+      ["biodiversiteit","De rijkdom aan verschillende soorten in een gebied.","Maakt een ecosysteem sterker."],
+      ["monocultuur","Een groot veld met maar één gewas.","Slecht voor de biodiversiteit."],
+      ["invasieve exoot","Een soort van elders die zich hier snel verspreidt en inheemse soorten verdringt.","Bijvoorbeeld de Japanse duizendknoop."],
+      ["ecoduct","Een brug of tunnel waarlangs dieren veilig een weg oversteken.","Goed voor de biodiversiteit."],
+      ["aanpassing","Een kenmerk dat de overlevingskansen in een bepaalde omgeving vergroot.","De dikke vetlaag van een ijsbeer."],
+      ["schutkleur","Een kleur waardoor een dier minder opvalt in zijn omgeving.","De witte wintervacht in de sneeuw."],
+      ["anemometer","Toestel dat de windsnelheid meet.","In m/s."],
+      ["hygrometer","Toestel dat de luchtvochtigheid meet.","In procent."]
+    ]},
+    { id: "n-mat", title: "Materie, stoffen en mengsels", terms: [
+      ["materie","Alles wat massa heeft en plaats inneemt.","Vast, vloeibaar of gasvormig."],
+      ["deeltjesmodel","Een voorstelling waarin elke stof uit kleine bewegende deeltjes bestaat.","Daarmee leg je de drie aggregatietoestanden uit."],
+      ["vast","Aggregatietoestand waarin een stof een eigen vorm en een eigen volume heeft.","De deeltjes trillen alleen ter plaatse."],
+      ["vloeibaar","Aggregatietoestand zonder vaste vorm maar met een vast volume.","De deeltjes schuiven langs elkaar."],
+      ["gasvormig","Aggregatietoestand zonder vaste vorm en zonder vast volume.","De deeltjes vliegen ver uit elkaar."],
+      ["smelten","Van vast naar vloeibaar.","IJs wordt water."],
+      ["stollen","Van vloeibaar naar vast.","Het omgekeerde van smelten."],
+      ["verdampen","Van vloeibaar naar gasvormig.","Water dat kookt."],
+      ["condenseren","Van gasvormig naar vloeibaar.","Druppels op een koude spiegel."],
+      ["sublimeren","Rechtstreeks van vast naar gasvormig.","Droogijs doet dat."],
+      ["rijpen","Rechtstreeks van gasvormig naar vast.","Zo ontstaat rijp op het gras."],
+      ["uitzetten","Meer plaats innemen bij opwarmen.","De deeltjes trillen heviger."],
+      ["fysisch verschijnsel","Een verandering waarbij geen nieuwe stof ontstaat.","Een glas dat breekt, boter die smelt."],
+      ["chemisch verschijnsel","Een verandering waarbij een nieuwe stof ontstaat.","IJzer dat roest, hout dat verbrandt."],
+      ["zuivere stof","Een stof die uit één soort deeltjes bestaat.","Gedestilleerd water."],
+      ["mengsel","Verschillende soorten deeltjes door elkaar.","Limonade, lucht, zeewater."],
+      ["neerslag","Een vaste stof die zich vormt in een vloeistof: een teken van een chemische reactie.","Samen met een kleur-, geur- of gasverandering."],
+      ["atoom","Het kleinste deeltje van een element.","C, O, H en Fe moet je kennen."]
+    ]},
+    { id: "n-dicht", title: "Massadichtheid", terms: [
+      ["massa","Hoeveel stof iets bevat, gemeten in kilogram.","Symbool m. Je meet het met een weegschaal."],
+      ["volume","Hoeveel plaats iets inneemt.","Symbool V, in kubieke meter of liter."],
+      ["massadichtheid","De massa per volume-eenheid van een stof.","Symbool ρ (rho). ρ = m / V."],
+      ["maatcilinder","Een glazen buis met streepjes om het volume van een vloeistof te meten.","1 mL = 1 cm³."],
+      ["onderdompeling","Een manier om het volume van een onregelmatig voorwerp te bepalen.","Kijk hoeveel het waterpeil stijgt."],
+      ["drijven","Wat een voorwerp doet als zijn massadichtheid kleiner is dan die van de vloeistof.","Hout op water."],
+      ["zweven","Wat een voorwerp doet als zijn massadichtheid gelijk is aan die van de vloeistof.","Het blijft op elke hoogte hangen."],
+      ["zinken","Wat een voorwerp doet als zijn massadichtheid groter is dan die van de vloeistof.","Een steen in water."],
+      ["recht evenredig","Als de ene grootheid verdubbelt, verdubbelt de andere ook.","In een grafiek: een rechte door de oorsprong."],
+      ["SI-eenheid","De eenheid uit het internationale stelsel van eenheden.","Voor massadichtheid is dat kg/m³."],
+      ["kubieke meter","De SI-eenheid van volume.","Gelijk aan 1000 liter."],
+      ["liter","Een volume-eenheid die gelijk is aan een kubieke decimeter.","1 dm³."],
+      ["kilogram","De SI-eenheid van massa.","1000 gram."]
+    ]},
+    { id: "n-energie", title: "Energie, kracht en snelheid", terms: [
+      ["kinetische energie","De energie die een voorwerp heeft omdat het beweegt.","Ook bewegingsenergie. Een fietser die snel rijdt."],
+      ["potentiële energie","De energie die een voorwerp heeft omdat het hoog ligt.","Een steen bovenop een muur."],
+      ["chemische energie","De energie die opgeslagen zit in voedsel, brandstof of een batterij.","Je lichaam haalt ze uit je eten."],
+      ["stralingsenergie","Energie die door straling wordt overgedragen, zoals licht.","De zon, een lamp."],
+      ["thermische energie","Een ander woord voor warmte.","Bij elke omzetting gaat er wat van verloren."],
+      ["energieomzetting","Het veranderen van de ene energievorm in een andere.","Een lamp zet elektrische energie om in licht en warmte."],
+      ["kracht","Iets wat een voorwerp kan vervormen of zijn beweging kan veranderen.","Symbool F, eenheid newton."],
+      ["newton","De eenheid van kracht.","Symbool N. Genoemd naar Isaac Newton."],
+      ["dynamometer","Toestel om een kracht te meten.","Een veer met een schaalverdeling."],
+      ["aangrijpingspunt","Het punt waar een kracht op een voorwerp inwerkt.","Een van de vier kenmerken van een kracht."],
+      ["statische uitwerking","Een kracht die de vorm van een voorwerp verandert.","Een spons die indeukt."],
+      ["dynamische uitwerking","Een kracht die de beweging van een voorwerp verandert.","Versnellen, vertragen of van richting veranderen."],
+      ["snelheid","De verplaatsing gedeeld door de tijdsduur.","v = Δx / Δt."],
+      ["verplaatsing","De afstand die een voorwerp aflegt.","Symbool Δx."],
+      ["omgekeerd evenredig","Als de ene grootheid verdubbelt, halveert de andere.","Twee keer zo snel is half zo lang onderweg."],
+      ["wrijving","Een kracht die een beweging afremt en warmte maakt.","Wrijf je handen maar eens tegen elkaar."]
+    ]},
+    { id: "n-meten", title: "Veilig werken, meten en eenheden", terms: [
+      ["grootheid","Een eigenschap die je kan meten.","Lengte, massa, tijd, temperatuur."],
+      ["eenheid","De maat waarin je een grootheid uitdrukt.","Meter, kilogram, seconde."],
+      ["meetresultaat","Een getal samen met een eenheid.","Zonder het tweede deel zegt het getal niets."],
+      ["nauwkeurigheid","Hoe fijn een meetinstrument kan meten.","Een schuifmaat meet fijner dan een meetlat."],
+      ["schuifmaat","Meetinstrument om kleine lengtes heel precies te meten.","Tot op een tiende millimeter."],
+      ["chronometer","Meetinstrument voor de tijdsduur.","Een stopwatch."],
+      ["thermometer","Meetinstrument voor de temperatuur.","In °C of in kelvin."],
+      ["kelvin","De SI-eenheid van temperatuur.","Symbool K."],
+      ["seconde","De SI-eenheid van tijd.","Symbool s."],
+      ["lichtmeter","Meetinstrument voor de verlichtingssterkte.","In lux."],
+      ["decibel","De eenheid van geluidssterkte.","Symbool dB."],
+      ["milli","Voorvoegsel dat een duizendste betekent.","250 mL = 0,25 L."],
+      ["centi","Voorvoegsel dat een honderdste betekent.","75 cm = 0,75 m."],
+      ["kilo","Voorvoegsel dat duizend betekent.","1 km = 1000 m."],
+      ["gemiddelde","De som van een reeks metingen gedeeld door het aantal metingen.","Meet daarom meerdere keren."],
+      ["veiligheidsbril","Beschermt je ogen tijdens een proef.","Altijd op bij chemische stoffen."]
+    ]},
+    { id: "n-onderz", title: "Wetenschappelijk onderzoek", terms: [
+      ["onderzoeksvraag","Een open, haalbare vraag die je met een proef kan beantwoorden.","Ze is enkelvoudig, objectief en relevant."],
+      ["hypothese","Een voorspelling van wat je denkt dat de uitkomst zal zijn.","Je controleert ze met een proef."],
+      ["variabele","Een factor die kan veranderen tijdens een proef.","Verander er maar één tegelijk."],
+      ["onafhankelijke variabele","De factor die jij bewust verandert.","Bijvoorbeeld de hoeveelheid licht."],
+      ["afhankelijke variabele","De factor die je meet om te zien wat er verandert.","Bijvoorbeeld hoe hoog de plant groeit."],
+      ["constante","Een factor die je tijdens de proef hetzelfde houdt.","Zo is de proef eerlijk."],
+      ["data","De gegevens die je bij een proef verzamelt.","Een conclusie steunt daarop, niet op een gevoel."],
+      ["conclusie","Het antwoord op de onderzoeksvraag, op basis van de data.","Klopt de hypothese of niet?"],
+      ["reflectie","Terugkijken: wat ging goed, wat kan beter aan het onderzoek?","De laatste stap."],
+      ["herhalen","Een meting meerdere keren uitvoeren om toevalligheden uit te sluiten.","Daarna neem je het gemiddelde."],
+      ["grafiek","Een tekening die het verband tussen twee grootheden toont.","Een rechte door de oorsprong: recht evenredig."],
+      ["objectief","Zonder eigen mening of gevoel, gebaseerd op feiten.","Een goede onderzoeksvraag is zo."],
+      ["STEM","Science, Technology, Engineering en Mathematics.","Wetenschap, techniek, ingenieurswerk en wiskunde."]
+    ]}
+  ]}
+};
+
+const GAMES = [
+  { id: "quiz", name: "Quiz", desc: "Lees de uitleg en kies het juiste begrip uit vier. Teams spelen om beurten.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><rect class="ic-b" x="10" y="12" width="36" height="8" rx="3"/><rect class="ic-s" x="10" y="26" width="16" height="9" rx="3"/><rect class="ic-a" x="30" y="26" width="16" height="9" rx="3"/><rect class="ic-s" x="10" y="39" width="16" height="9" rx="3"/><rect class="ic-s" x="30" y="39" width="16" height="9" rx="3"/>' },
+  { id: "memory", name: "Memory", desc: "Zoek het begrip en zijn uitleg. Wie een paar vindt, mag nog eens.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><rect class="ic-b" x="9" y="10" width="17" height="22" rx="3"/><rect class="ic-a" x="30" y="10" width="17" height="22" rx="3"/><rect class="ic-s" x="9" y="36" width="17" height="12" rx="3"/><rect class="ic-s" x="30" y="36" width="17" height="12" rx="3"/>' },
+  { id: "raad", name: "Raad het begrip", desc: "Tot drie hints na elkaar. Hoe sneller je het raadt, hoe meer punten.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><circle class="ic-a" cx="28" cy="24" r="12"/><path class="ic-s" d="M24 21a4 4 0 1 1 5 4v3"/><circle cx="29" cy="32" r="1.6" class="ic-b"/><path class="ic-s" d="M14 46h28"/>' },
+  { id: "galgje", name: "Microscoopgalgje", desc: "Galgje met een microscoop: raad de letters voor de microscoop af is.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><rect class="ic-a" x="12" y="44" width="32" height="5" rx="2"/><rect class="ic-b" x="34" y="30" width="5" height="14"/><rect class="ic-a" x="14" y="31" width="24" height="4" rx="1"/><path class="ic-s" d="M37 30c3-8 0-14-8-17"/><rect class="ic-b" x="20" y="10" width="8" height="16" rx="2"/><rect class="ic-a" x="21" y="5" width="6" height="6" rx="1"/>' },
+  { id: "flits", name: "Flitskaarten", desc: "Toon een begrip, laat de klas uitleggen en draai de kaart om.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><rect class="ic-s" x="14" y="10" width="30" height="22" rx="4" transform="rotate(8 29 21)"/><rect class="ic-a" x="10" y="18" width="30" height="22" rx="4"/><path class="ic-s" d="M17 29h16" style="stroke:#fff"/>' },
+  { id: "bingo", name: "Begrippenbingo", desc: "Leerlingen kiezen woorden voor hun rooster. Jij leest de uitleg voor.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><path class="ic-s" d="M10 10h36v36H10zM22 10v36M34 10v36M10 22h36M10 34h36"/><circle class="ic-a" cx="16" cy="16" r="4"/><circle class="ic-a" cx="28" cy="28" r="4"/><circle class="ic-b" cx="40" cy="40" r="4"/>' }
+];
+
+// ---------- state ----------
+const S = {
+  level: "spark",
+  chapter: "n-cel",
+  teams: [ { name: "Team 1", score: 0 }, { name: "Team 2", score: 0 } ],
+  turn: 0,
+  view: "menu",
+  game: null
+};
+try {
+  const saved = JSON.parse(localStorage.getItem("begrippenarena-natuur") || "null");
+  if (saved && DATA[saved.level]) {
+    S.level = saved.level;
+    if (DATA[saved.level].chapters.some(c => c.id === saved.chapter) || saved.chapter === "mix") S.chapter = saved.chapter;
+    if (Array.isArray(saved.teams) && saved.teams.length) S.teams = saved.teams.slice(0, 4).map(t => ({ name: String(t.name || "Team").slice(0, 24), score: 0 }));
+  }
+} catch (e) {}
+function save() {
+  try { localStorage.setItem("begrippenarena-natuur", JSON.stringify({ level: S.level, chapter: S.chapter, teams: S.teams.map(t => ({ name: t.name })) })); } catch (e) {}
+}
+
+const $app = document.getElementById("app");
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const fold = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toUpperCase();
+const teamColor = i => `var(--t${i + 1})`;
+
+function chapterTitle() {
+  if (S.chapter === "mix") return "Alle hoofdstukken";
+  return DATA[S.level].chapters.find(c => c.id === S.chapter).title;
+}
+function currentTerms(raw) {
+  const chs = S.chapter === "mix" ? DATA[S.level].chapters : DATA[S.level].chapters.filter(c => c.id === S.chapter);
+  const seen = new Set(), out = [];
+  chs.forEach(c => c.terms.forEach(([w, d, x]) => {
+    const k = w.toLowerCase();
+    if (seen.has(k)) return;
+    seen.add(k);
+    out.push(raw ? { w, d, x: x || "" } : { w, d: mask(d, w), x: x ? mask(x, w) : "" });
+  }));
+  return out;
+}
+// Verberg het begrip zelf als het in de uitleg of tip staat.
+function mask(text, w) {
+  const re = new RegExp(w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi");
+  return text.replace(re, "…");
+}
+
+// ---------- teams ----------
+function award(i, pts) { if (S.teams[i]) { S.teams[i].score = Math.max(0, S.teams[i].score + pts); } }
+function nextTurn() { if (S.teams.length) S.turn = (S.turn + 1) % S.teams.length; }
+function scoresHTML(showTurn) {
+  return `<div class="scores" aria-label="Scores">${S.teams.map((t, i) => `
+    <div class="score ${showTurn && i === S.turn ? "turn" : ""}" style="--tc:${teamColor(i)}">
+      <span class="dot"></span><span>${esc(t.name)}</span><span class="n" aria-live="polite">${t.score}</span>
+      <button class="pm" data-pm="${i}" data-d="-1" aria-label="Punt eraf voor ${esc(t.name)}">−</button>
+      <button class="pm" data-pm="${i}" data-d="1" aria-label="Punt erbij voor ${esc(t.name)}">+</button>
+    </div>`).join("")}</div>`;
+}
+function turnHTML() {
+  if (S.teams.length < 2) return "";
+  return `<div class="turnline" style="--tc:${teamColor(S.turn)}">Aan de beurt: <b>${esc(S.teams[S.turn].name)}</b></div>`;
+}
+function awardRow(label, pts, onDone) {
+  const id = "aw" + Math.random().toString(36).slice(2, 7);
+  setTimeout(() => {
+    document.querySelectorAll(`[data-aw="${id}"]`).forEach(b => b.onclick = () => {
+      const i = +b.dataset.i;
+      if (i >= 0) award(i, pts);
+      onDone(i);
+    });
+  });
+  const btns = S.teams.map((t, i) => `<button class="btn" data-aw="${id}" data-i="${i}" style="border-color:${teamColor(i)}">${esc(t.name)} +${pts}</button>`).join("");
+  return `<div class="row"><span class="label">${label}</span>${btns}<button class="btn ghost" data-aw="${id}" data-i="-1">Niemand</button></div>`;
+}
+
+// ---------- menu ----------
+function renderMenu() {
+  S.view = "menu";
+  const lvl = DATA[S.level];
+  const chips = lvl.chapters.map(c => `<button class="chip" data-ch="${c.id}" aria-pressed="${S.chapter === c.id}">${esc(c.title)} <small>${c.terms.length}</small></button>`).join("")
+    + `<button class="chip" data-ch="mix" aria-pressed="${S.chapter === "mix"}">Alle hoofdstukken door elkaar</button>`;
+  const games = GAMES.map(g => `<button class="game-card" data-game="${g.id}"><svg viewBox="0 0 56 56" aria-hidden="true">${g.icon}</svg><h3>${g.name}</h3><p>${g.desc}</p></button>`).join("");
+  const teams = S.teams.map((t, i) => `<label class="team-input"><i style="background:${teamColor(i)}"></i><input id="team-${i}" value="${esc(t.name)}" maxlength="24" aria-label="Naam team ${i + 1}"></label>`).join("");
+  $app.innerHTML = `
+    <header class="top">
+      <div class="brand">
+        <div class="label">Natuurwetenschappen · begrippen inoefenen</div>
+        <h1>Begrippen<span>arena</span></h1>
+        <p>Kies een hoofdstuk en een spel. Alle spellen gebruiken de begrippen uit de leerbundels van ✨ Spark, dus je kan ze vrij afwisselen.</p>
+      </div>
+      <div class="label">${esc(lvl.label)}</div>
+    </header>
+    <section style="display:flex;flex-direction:column;gap:10px">
+      <div class="label">1 · Hoofdstuk</div>
+      <div class="chapters">${chips}</div>
+    </section>
+    <section style="display:flex;flex-direction:column;gap:10px">
+      <div class="row" style="justify-content:space-between"><div class="label">2 · Spel</div><button class="linkbtn" data-list>Bekijk de begrippenlijst (${currentTerms().length})</button></div>
+      <div class="games">${games}</div>
+    </section>
+    <section class="panel">
+      <div class="row" style="justify-content:space-between">
+        <div class="label">Teams</div>
+        <div class="seg" role="group" aria-label="Aantal teams">${[1, 2, 3, 4].map(n => `<button data-nt="${n}" aria-pressed="${S.teams.length === n}">${n === 1 ? "Hele klas" : n + " teams"}</button>`).join("")}</div>
+      </div>
+      <div class="team-row">${teams}</div>
+      <div class="row" style="justify-content:space-between">
+        ${scoresHTML(false)}
+        <button class="linkbtn" data-reset>Scores op nul</button>
+      </div>
+    </section>`;
+  $app.querySelectorAll("[data-lvl]").forEach(b => b.onclick = () => { S.level = b.dataset.lvl; S.chapter = DATA[S.level].chapters[0].id; save(); renderMenu(); });
+  $app.querySelectorAll("[data-ch]").forEach(b => b.onclick = () => { S.chapter = b.dataset.ch; save(); renderMenu(); });
+  $app.querySelectorAll("[data-game]").forEach(b => b.onclick = () => startGame(b.dataset.game));
+  $app.querySelector("[data-list]").onclick = () => startGame("lijst");
+  $app.querySelectorAll("[data-nt]").forEach(b => b.onclick = () => {
+    const n = +b.dataset.nt;
+    while (S.teams.length < n) S.teams.push({ name: "Team " + (S.teams.length + 1), score: 0 });
+    S.teams = S.teams.slice(0, n);
+    if (n === 1 && /^Team \d$/.test(S.teams[0].name)) S.teams[0].name = "Klas";
+    if (n > 1 && S.teams[0].name === "Klas") S.teams[0].name = "Team 1";
+    S.turn = 0; save(); renderMenu();
+  });
+  S.teams.forEach((t, i) => { const inp = document.getElementById("team-" + i); inp.oninput = () => { t.name = inp.value || "Team " + (i + 1); save(); }; inp.onchange = renderMenu; });
+  $app.querySelector("[data-reset]").onclick = () => { S.teams.forEach(t => t.score = 0); renderMenu(); };
+  bindPM();
+}
+function bindPM() {
+  $app.querySelectorAll("[data-pm]").forEach(b => b.onclick = () => { award(+b.dataset.pm, +b.dataset.d); refreshScores(); });
+}
+function refreshScores() {
+  const el = $app.querySelector(".scores");
+  if (!el) return;
+  el.outerHTML = scoresHTML(S.view === "game" && S.game && S.game.turnBased);
+  bindPM();
+}
+
+// ---------- game shell ----------
+function shell(gameName, inner) {
+  return `
+    <div class="bar">
+      <div class="where"><span class="label">${esc(DATA[S.level].label)} · ${esc(chapterTitle())}</span><strong>${gameName}</strong></div>
+      ${scoresHTML(S.game && S.game.turnBased)}
+      <button class="btn ghost" data-back>← Menu</button>
+    </div>
+    <div class="stage">${inner}</div>`;
+}
+function mount(gameName, inner) {
+  $app.innerHTML = shell(gameName, inner);
+  $app.querySelector("[data-back]").onclick = () => { document.onkeydown = null; renderMenu(); };
+  bindPM();
+}
+function startGame(id) {
+  S.view = "game";
+  document.onkeydown = null;
+  const terms = currentTerms(id === "lijst");
+  ({ quiz: Quiz, memory: Memory, raad: Raad, galgje: Galgje, flits: Flits, bingo: Bingo, lijst: Lijst })[id](terms);
+  window.scrollTo(0, 0);
+}
+function endScreen(title, sub, again) {
+  S.game.turnBased = false;
+  const best = Math.max(...S.teams.map(t => t.score));
+  const winners = S.teams.filter(t => t.score === best && best > 0).map(t => t.name);
+  const line = S.teams.length > 1 && winners.length ? (winners.length > 1 ? "Gelijkspel tussen " + winners.join(" en ") : winners[0] + " staat voor") : "";
+  mount(title, `<div class="endbox"><div class="label">Klaar</div><h2>${esc(sub)}</h2>${line ? `<p style="font-size:1.2rem;margin:0">${esc(line)}</p>` : ""}<div class="row" style="justify-content:center"><button class="btn primary" data-again>Nog een ronde</button><button class="btn ghost" data-menu>Ander spel kiezen</button></div></div>`);
+  $app.querySelector("[data-again]").onclick = again;
+  $app.querySelector("[data-menu]").onclick = renderMenu;
+}
+
+// ---------- quiz ----------
+function Quiz(terms, opts) {
+  const reverse = opts && opts.reverse || false;
+  const qs = shuffle(terms).slice(0, Math.min(10, terms.length));
+  S.game = { turnBased: S.teams.length > 1 };
+  let i = 0;
+  function q() {
+    const t = qs[i];
+    const others = shuffle(terms.filter(o => o.w !== t.w)).slice(0, 3);
+    const options = shuffle([t, ...others]);
+    const prompt = reverse ? `<div class="prompt term">${esc(t.w)}</div>` : `<div class="prompt">${esc(t.d)}</div>`;
+    mount("Quiz", `
+      <div class="row" style="justify-content:space-between">
+        <span class="progress">Vraag ${i + 1} van ${qs.length}</span>
+        ${turnHTML()}
+        <button class="linkbtn" data-rev>${reverse ? "Speel: uitleg → begrip" : "Speel omgekeerd: begrip → uitleg"}</button>
+      </div>
+      <div class="label">${reverse ? "Welke uitleg past bij dit begrip?" : "Welk begrip past bij deze uitleg?"}</div>
+      ${prompt}
+      <div class="options">${options.map((o, k) => `<button class="opt ${reverse ? "long" : ""}" data-o="${k}"><span class="k">${"ABCD"[k]}</span><span>${esc(reverse ? o.d : o.w)}</span></button>`).join("")}</div>
+      <div class="row" style="justify-content:space-between"><div class="feedback" aria-live="polite"></div><button class="btn primary" data-next hidden>${i + 1 < qs.length ? "Volgende vraag →" : "Bekijk de uitslag"}</button></div>`);
+    $app.querySelector("[data-rev]").onclick = () => Quiz(terms, { reverse: !reverse });
+    const btns = [...$app.querySelectorAll(".opt")];
+    const answer = k => {
+      if (btns[0].disabled) return;
+      const ok = options[k] === t;
+      btns.forEach((b, j) => { b.disabled = true; if (options[j] === t) b.classList.add("right"); });
+      const fb = $app.querySelector(".feedback");
+      if (ok) { award(S.turn, 1); fb.textContent = S.teams.length > 1 ? `Juist! +1 voor ${S.teams[S.turn].name}` : "Juist!"; fb.className = "feedback good"; }
+      else { btns[k].classList.add("wrong"); fb.textContent = `Helaas. Het juiste antwoord is: ${t.w}`; fb.className = "feedback badc"; }
+      refreshScores();
+      const nx = $app.querySelector("[data-next]"); nx.hidden = false; nx.focus();
+    };
+    btns.forEach((b, k) => b.onclick = () => answer(k));
+    $app.querySelector("[data-next]").onclick = () => { nextTurn(); i++; if (i < qs.length) q(); else endScreen("Quiz", "De quiz is gedaan", () => Quiz(terms, { reverse })); };
+    document.onkeydown = e => {
+      const k = "abcd".indexOf(e.key.toLowerCase()); const n = "1234".indexOf(e.key);
+      if (k >= 0 && k < btns.length) answer(k); else if (n >= 0 && n < btns.length) answer(n);
+    };
+  }
+  q();
+}
+
+// ---------- memory ----------
+function Memory(terms, opts) {
+  const pairs = Math.min(opts && opts.pairs || 8, terms.length);
+  const pick = shuffle(terms).slice(0, pairs);
+  const cards = shuffle(pick.flatMap((t, p) => [{ p, kind: "w", text: t.w }, { p, kind: "d", text: t.d }]));
+  S.game = { turnBased: S.teams.length > 1 };
+  let open = [], found = 0, owner = {}, waiting = false;
+  function draw() {
+    mount("Memory", `
+      <div class="row" style="justify-content:space-between">
+        <span class="progress">${found} van ${pairs} paren gevonden</span>
+        ${turnHTML()}
+        <div class="row"><span class="label">Paren</span>${[6, 8].map(n => `<button class="btn ${n === pairs ? "primary" : "ghost"}" data-pairs="${n}">${n}</button>`).join("")}</div>
+      </div>
+      <div class="mem">${cards.map((c, k) => {
+        const isOpen = open.includes(k) || owner[c.p] !== undefined;
+        const cls = ["mcard", isOpen ? "open " + c.kind : "", owner[c.p] !== undefined ? "done" : "", waiting && open.includes(k) ? "miss" : ""].join(" ");
+        const style = owner[c.p] !== undefined && owner[c.p] >= 0 ? `style="--tc:${teamColor(owner[c.p])}"` : `style="--tc:var(--ok)"`;
+        return `<button class="${cls}" ${style} data-c="${k}" aria-label="${isOpen ? esc(c.text) : "Gesloten kaart " + (k + 1)}">${isOpen ? esc(c.text) : '<span class="back">?</span>'}</button>`;
+      }).join("")}</div>
+      <div class="row" style="justify-content:space-between"><div class="feedback" aria-live="polite">${waiting ? "Geen paar." : ""}</div><button class="btn primary" data-flip ${waiting ? "" : "hidden"}>Kaarten omdraaien${S.teams.length > 1 ? " · volgend team" : ""}</button></div>
+      <p class="note">Blauwe kaarten zijn nog dicht. Een begrip hoort bij de uitleg op een oranje kaart.</p>`);
+    $app.querySelectorAll("[data-pairs]").forEach(b => b.onclick = () => Memory(terms, { pairs: +b.dataset.pairs }));
+    $app.querySelectorAll("[data-c]").forEach(b => b.onclick = () => flip(+b.dataset.c));
+    const fl = $app.querySelector("[data-flip]"); if (fl) fl.onclick = () => { open = []; waiting = false; nextTurn(); draw(); };
+  }
+  function flip(k) {
+    if (waiting || open.includes(k) || owner[cards[k].p] !== undefined) return;
+    open.push(k);
+    if (open.length === 2) {
+      const [a, b] = open.map(n => cards[n]);
+      if (a.p === b.p) {
+        owner[a.p] = S.teams.length ? S.turn : -1; award(S.turn, 1); found++; open = [];
+        if (found === pairs) { draw(); setTimeout(() => endScreen("Memory", "Alle paren zijn gevonden", () => Memory(terms, { pairs })), 900); return; }
+      } else waiting = true;
+    }
+    draw();
+  }
+  draw();
+}
+
+// ---------- raad het begrip ----------
+function Raad(terms) {
+  const rounds = shuffle(terms).slice(0, Math.min(10, terms.length));
+  S.game = { turnBased: false };
+  let i = 0;
+  function pattern(w) { return [...w].map((ch, k) => k === 0 ? ch.toUpperCase() : (/\p{L}/u.test(ch) ? "_" : (ch === " " ? "  " : ch))).join(" "); }
+  function round() {
+    const t = rounds[i];
+    const hints = [{ txt: t.d, lab: "Uitleg" }];
+    if (t.x) hints.push({ txt: t.x, lab: "Extra tip" });
+    const letters = [...t.w].filter(c => /\p{L}/u.test(c)).length;
+    hints.push({ txt: `<span class="pattern">${esc(pattern(t.w))}</span><br><small class="note">${letters} letters</small>`, lab: "Letters", raw: true });
+    let shown = 1, revealed = false;
+    function draw() {
+      const pts = Math.max(1, hints.length - shown + 1);
+      mount("Raad het begrip", `
+        <div class="row" style="justify-content:space-between"><span class="progress">Begrip ${i + 1} van ${rounds.length}</span><span class="label">Nu raden = ${pts} ${pts === 1 ? "punt" : "punten"}</span></div>
+        <div class="hints">${hints.map((h, k) => k < shown || revealed
+          ? `<div class="hint"><span class="num">${k + 1}</span><div><div class="label">${h.lab}</div>${h.raw ? h.txt : esc(h.txt)}</div></div>`
+          : `<div class="hint hidden-h"><span class="num" style="background:var(--line)">${k + 1}</span><div>Hint ${k + 1} is nog verborgen</div></div>`).join("")}</div>
+        ${revealed ? `<div class="answer">${esc(t.w)}</div>` : ""}
+        ${revealed ? `<div class="row end"><button class="btn primary" data-nextr>${i + 1 < rounds.length ? "Volgend begrip →" : "Bekijk de uitslag"}</button></div>`
+          : `<div class="row"><button class="btn oker" data-hint ${shown >= hints.length ? "disabled" : ""}>Volgende hint</button><button class="btn" data-show>Toon antwoord</button></div>
+             ${awardRow("Goed geraden door", pts, () => { revealed = true; refreshAfter(); })}`}`);
+      const h = $app.querySelector("[data-hint]"); if (h) h.onclick = () => { shown++; draw(); };
+      const s = $app.querySelector("[data-show]"); if (s) s.onclick = () => { revealed = true; draw(); };
+      const n = $app.querySelector("[data-nextr]"); if (n) n.onclick = () => { i++; if (i < rounds.length) round(); else endScreen("Raad het begrip", "Alle begrippen zijn geraden", () => Raad(terms)); };
+    }
+    function refreshAfter() { draw(); }
+    draw();
+  }
+  round();
+}
+
+// ---------- galgje / microscoop ----------
+function Galgje(terms, used) {
+  used = used || new Set();
+  const pool = terms.filter(t => !used.has(t.w) && [...t.w].filter(c => /\p{L}/u.test(c)).length >= 3);
+  if (!pool.length) { used.clear(); return Galgje(terms, used); }
+  const t = shuffle(pool)[0]; used.add(t.w);
+  const MAX = 8;
+  const target = [...t.w];
+  const guessed = new Set(); let wrong = 0, done = false, won = false;
+  S.game = { turnBased: S.teams.length > 1 };
+  const isLetter = c => /\p{L}/u.test(c);
+  const allFound = () => target.every(c => !isLetter(c) || guessed.has(fold(c)));
+  function temple() {
+    // 8 stukken: voet, statief, tafel, arm, tubus, oculair, objectief, lamp
+    const p = [
+      `<rect x="50" y="196" width="140" height="14" rx="4"/>`,
+      `<rect x="140" y="146" width="20" height="50"/>`,
+      `<rect x="56" y="138" width="114" height="10" rx="2"/>`,
+      `<path d="M160 146 L140 146 C148 112 138 84 112 72 L112 54 C152 68 172 108 160 146 Z"/>`,
+      `<rect x="84" y="44" width="28" height="66" rx="3"/>`,
+      `<rect x="88" y="16" width="20" height="28" rx="3"/>`,
+      `<rect x="92" y="110" width="12" height="22" rx="2"/>`,
+      `<path d="M82 184 L114 184 L106 166 L90 166 Z"/>`
+    ];
+    return `<svg class="temple" viewBox="0 0 240 216" role="img" aria-label="${wrong} van ${MAX} stukken van de microscoop staan er">
+      ${p.map((s, k) => k < wrong ? s.replace("<rect", '<rect class="piece"').replace("<path", '<path class="piece"') : s.replace("<rect", '<rect class="ghost"').replace("<path", '<path class="ghost"')).join("")}
+    </svg>`;
+  }
+  function draw() {
+    const slots = target.map(c => {
+      if (c === " ") return `<span class="slot gap"> </span>`;
+      if (!isLetter(c)) return `<span class="slot">${esc(c)}</span>`;
+      const show = guessed.has(fold(c)) || done;
+      return `<span class="slot ${done && !guessed.has(fold(c)) ? "lost" : ""}">${show ? esc(c.toUpperCase()) : "&nbsp;"}</span>`;
+    }).join("");
+    const keys = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").map(L => {
+      const inWord = target.some(c => fold(c) === L);
+      const cls = guessed.has(L) ? (inWord ? "hit" : "miss") : "";
+      return `<button class="key ${cls}" data-k="${L}" ${guessed.has(L) || done ? "disabled" : ""}>${L}</button>`;
+    }).join("");
+    mount("Microscoopgalgje", `
+      ${done ? "" : `<div class="row" style="justify-content:space-between">${turnHTML()}<span class="label">Raad letter per letter, of zeg het hele begrip</span></div>`}
+      <div class="hang">
+        <div class="stage">
+          <div class="prompt" style="min-height:0;font-size:clamp(1.1rem,2.2vw,1.6rem)"><div><div class="label" style="font-family:var(--font-body)">Uitleg</div>${esc(t.d)}</div></div>
+          <div class="slots" aria-live="polite">${slots}</div>
+          ${done ? `<div class="feedback ${won ? "good" : "badc"}" style="text-align:center;font-size:1.4rem">${won ? "Geraden!" : "De microscoop staat er. Het begrip was: " + esc(t.w)}</div>` : `<div class="keys">${keys}</div>`}
+          ${done ? (won && S.teams.length ? awardRow("Punt voor", 2, () => next()) : `<div class="row end"><button class="btn primary" data-nw>Nieuw begrip →</button></div>`)
+                 : `<div class="row end"><button class="btn" data-solve>Iemand weet het hele begrip</button></div>`}
+        </div>
+        <div>${temple()}<div class="lives">${MAX - wrong} foute letters over</div></div>
+      </div>`);
+    $app.querySelectorAll("[data-k]").forEach(b => b.onclick = () => guess(b.dataset.k));
+    const sv = $app.querySelector("[data-solve]"); if (sv) sv.onclick = () => { target.forEach(c => isLetter(c) && guessed.add(fold(c))); done = true; won = true; draw(); };
+    const nw = $app.querySelector("[data-nw]"); if (nw) nw.onclick = next;
+  }
+  function next() { nextTurn(); Galgje(terms, used); }
+  function guess(L) {
+    if (done || guessed.has(L)) return;
+    guessed.add(L);
+    if (!target.some(c => fold(c) === L)) { wrong++; nextTurn(); }
+    if (allFound()) { done = true; won = true; }
+    else if (wrong >= MAX) { done = true; }
+    draw();
+  }
+  document.onkeydown = e => { if (/^[a-z]$/i.test(e.key) && !e.ctrlKey && !e.metaKey && document.activeElement.tagName !== "INPUT") guess(e.key.toUpperCase()); };
+  draw();
+}
+
+// ---------- flitskaarten ----------
+function Flits(terms, opts) {
+  const defFirst = opts && opts.defFirst || false;
+  let deck = shuffle(terms), i = 0, flipped = false;
+  S.game = { turnBased: false };
+  function draw() {
+    const t = deck[i];
+    const front = defFirst ? `<div class="def">${esc(t.d)}</div>` : `<div class="big">${esc(t.w)}</div>`;
+    const back = defFirst ? `<div class="big">${esc(t.w)}</div>${t.x ? `<div class="tip">${esc(t.x)}</div>` : ""}` : `<div class="def">${esc(t.d)}</div>${t.x ? `<div class="tip">Tip: ${esc(t.x)}</div>` : ""}`;
+    mount("Flitskaarten", `
+      <div class="row" style="justify-content:space-between"><span class="progress">Kaart ${i + 1} van ${deck.length}</span>
+        <button class="linkbtn" data-mode>${defFirst ? "Toon eerst het begrip" : "Toon eerst de uitleg"}</button></div>
+      <div class="flash ${flipped ? "flipped" : ""}"><div class="flash-inner" data-turn role="button" tabindex="0" aria-label="Kaart omdraaien">
+        <div class="face"><div class="label">${defFirst ? "Welk begrip is dit?" : "Wat betekent dit?"}</div>${front}</div>
+        <div class="face back-f"><div class="label">${defFirst ? "Begrip" : "Uitleg"}</div>${back}</div>
+      </div></div>
+      <div class="row" style="justify-content:center">
+        <button class="btn ghost" data-prev ${i === 0 ? "disabled" : ""}>← Vorige</button>
+        <button class="btn oker" data-flipc>Draai om</button>
+        <button class="btn primary" data-nextc ${i + 1 >= deck.length ? "disabled" : ""}>Volgende →</button>
+        <button class="btn ghost" data-shuf>Schudden</button>
+      </div>
+      <p class="note" style="text-align:center">Spatiebalk draait de kaart, pijltjes gaan naar de vorige of volgende.</p>`);
+    const turn = () => { flipped = !flipped; $app.querySelector(".flash").classList.toggle("flipped", flipped); };
+    $app.querySelector("[data-turn]").onclick = turn;
+    $app.querySelector("[data-flipc]").onclick = turn;
+    $app.querySelector("[data-prev]").onclick = () => { if (i > 0) { i--; flipped = false; draw(); } };
+    $app.querySelector("[data-nextc]").onclick = () => { if (i + 1 < deck.length) { i++; flipped = false; draw(); } };
+    $app.querySelector("[data-shuf]").onclick = () => { deck = shuffle(terms); i = 0; flipped = false; draw(); };
+    $app.querySelector("[data-mode]").onclick = () => Flits(terms, { defFirst: !defFirst });
+    document.onkeydown = e => {
+      if (e.key === " ") { e.preventDefault(); turn(); }
+      else if (e.key === "ArrowRight") $app.querySelector("[data-nextc]").click();
+      else if (e.key === "ArrowLeft") $app.querySelector("[data-prev]").click();
+    };
+  }
+  draw();
+}
+
+// ---------- bingo ----------
+function Bingo(terms, opts) {
+  const size = opts && opts.size || 3;
+  const max = size === 3 ? 18 : 28;
+  const set = opts && opts.set || shuffle(terms).slice(0, Math.min(max, terms.length));
+  S.game = { turnBased: false };
+  let order = null, i = -1, showCalled = false;
+  function setup() {
+    mount("Begrippenbingo", `
+      <div class="panel">
+        <div class="row" style="justify-content:space-between">
+          <div class="label">Stap 1 · Rooster maken</div>
+          <div class="seg" role="group" aria-label="Grootte">${[3, 4].map(n => `<button data-size="${n}" aria-pressed="${n === size}">${n} × ${n}</button>`).join("")}</div>
+        </div>
+        <ol class="howto">
+          <li>Iedereen tekent een rooster van ${size} bij ${size} vakjes.</li>
+          <li>Kies ${size * size} begrippen uit de lijst hieronder en schrijf er één in elk vakje.</li>
+          <li>Jij leest telkens een uitleg voor. Wie het begrip op zijn rooster heeft, kruist het aan.</li>
+          <li>Een volle rij, kolom of diagonaal? Roep BINGO en lees je begrippen voor.</li>
+        </ol>
+      </div>
+      <div class="wall">${set.map(t => `<span>${esc(t.w)}</span>`).join("")}</div>
+      <div class="row" style="justify-content:space-between">
+        <button class="btn ghost" data-newset>Andere begrippen kiezen</button>
+        <button class="btn primary" data-start>Start de bingo →</button>
+      </div>`);
+    $app.querySelectorAll("[data-size]").forEach(b => b.onclick = () => Bingo(terms, { size: +b.dataset.size }));
+    $app.querySelector("[data-newset]").onclick = () => Bingo(terms, { size });
+    $app.querySelector("[data-start]").onclick = () => { order = shuffle(set); i = 0; play(); };
+  }
+  function play() {
+    const t = order[i];
+    const called = order.slice(0, i + 1);
+    mount("Begrippenbingo", `
+      <div class="row" style="justify-content:space-between"><span class="progress">Uitleg ${i + 1} van ${order.length}</span><button class="linkbtn" data-setup>Terug naar de woordenlijst</button></div>
+      <div class="prompt">${esc(t.d)}</div>
+      <div class="row" style="justify-content:space-between">
+        <button class="btn" data-check>${showCalled ? "Verberg de afgeroepen begrippen" : "Controleer een bingo"}</button>
+        <button class="btn primary" data-nextb ${i + 1 >= order.length ? "disabled" : ""}>Volgende uitleg →</button>
+      </div>
+      ${showCalled ? `<div class="label">Al afgeroepen (groen)</div><div class="wall">${set.map(s => `<span class="${called.includes(s) ? "called" : ""}">${esc(s.w)}</span>`).join("")}</div>` : ""}`);
+    $app.querySelector("[data-nextb]").onclick = () => { if (i + 1 < order.length) { i++; play(); } };
+    $app.querySelector("[data-check]").onclick = () => { showCalled = !showCalled; play(); };
+    $app.querySelector("[data-setup]").onclick = setup;
+    document.onkeydown = e => { if (e.key === "ArrowRight") $app.querySelector("[data-nextb]").click(); };
+  }
+  setup();
+}
+
+// ---------- lijst ----------
+function Lijst(terms) {
+  S.game = { turnBased: false };
+  const sorted = terms.slice().sort((a, b) => a.w.localeCompare(b.w, "nl"));
+  mount("Begrippenlijst", `
+    <p class="note" style="margin:0">${terms.length} begrippen. In de spellen wordt het begrip zelf in de uitleg vervangen door “…”, zodat het antwoord niet verklapt wordt.</p>
+    <div class="tablewrap"><table><thead><tr><th>Begrip</th><th>Uitleg</th><th>Extra tip</th></tr></thead>
+    <tbody>${sorted.map(t => `<tr><td>${esc(t.w)}</td><td>${esc(t.d)}</td><td class="x">${esc(t.x)}</td></tr>`).join("")}</tbody></table></div>`);
+}
+
+renderMenu();
+</script>
+
+</body></html>
