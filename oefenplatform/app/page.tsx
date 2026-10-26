@@ -248,6 +248,26 @@ export default async function HomePage() {
           </Link>
         </div>
 
+        {/* Spelletjes naast de leerstof, zoals de begrippenarena van
+            geschiedenis. Ze tellen nergens voor mee. */}
+        <Link
+          href="/extras"
+          className="mt-4 flex items-center justify-between gap-4 rounded-xl border border-border bg-surface px-6 py-5 transition hover:border-forest hover:shadow-sm"
+        >
+          <span>
+            <span className="font-display text-lg font-semibold text-ink">
+              🎲 Leuke extra&apos;s
+            </span>
+            <span className="mt-1 block text-sm text-ink-dim">
+              Spelletjes om begrippen op een andere manier in te oefenen, alleen
+              of met de hele klas. Zonder account.
+            </span>
+          </span>
+          <span aria-hidden className="shrink-0 text-forest">
+            &rarr;
+          </span>
+        </Link>
+
         {/* Los van de vier categorieën, want het hoort niet bij het betalende
             aanbod: een gratis verzameling links naar bestaand materiaal. */}
         <Link

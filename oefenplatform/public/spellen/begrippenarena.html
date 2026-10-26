@@ -1,0 +1,976 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><title>Begrippenarena Geschiedenis</title><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Young+Serif&display=swap">
+<style>
+/* Layout: één scherm voor het digibord. Menu (niveau → hoofdstuk → spel) en een speelvlak met vaste scorebalk bovenaan. */
+:root {
+  --bg: #eceee9;
+  --surface: #ffffff;
+  --sunk: #e1e4de;
+  --ink: #1d2330;
+  --muted: #586070;
+  --line: #cfd4cc;
+  --oker: #a8650f;
+  --oker-soft: #f3e3c7;
+  --lapis: #274a8c;
+  --lapis-soft: #dbe4f5;
+  --ok: #23774a;
+  --ok-soft: #d6efe0;
+  --bad: #b23a33;
+  --bad-soft: #f6dcd9;
+  --t1: #274a8c; --t2: #a8650f; --t3: #7a3f99; --t4: #1f7a6a;
+  --font-display: "Young Serif", Georgia, "Times New Roman", serif;
+  --font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --radius: 14px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12161d; --surface: #1c222c; --sunk: #252c38; --ink: #ecebe6; --muted: #a2a9b6; --line: #333b49;
+    --oker: #e6a54f; --oker-soft: #3b2f1c; --lapis: #94b3ef; --lapis-soft: #22304b;
+    --ok: #63c98f; --ok-soft: #1c3a2a; --bad: #f08a80; --bad-soft: #43231f;
+    --t1: #94b3ef; --t2: #e6a54f; --t3: #c99be3; --t4: #6fd1bd;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12161d; --surface: #1c222c; --sunk: #252c38; --ink: #ecebe6; --muted: #a2a9b6; --line: #333b49;
+  --oker: #e6a54f; --oker-soft: #3b2f1c; --lapis: #94b3ef; --lapis-soft: #22304b;
+  --ok: #63c98f; --ok-soft: #1c3a2a; --bad: #f08a80; --bad-soft: #43231f;
+  --t1: #94b3ef; --t2: #e6a54f; --t3: #c99be3; --t4: #6fd1bd;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: var(--font-body); font-size: 17px; line-height: 1.45;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 20px 48px;
+}
+.wrap { max-width: 1180px; margin: 0 auto; display: flex; flex-direction: column; gap: 22px; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 400; margin: 0; text-wrap: balance; }
+button { font: inherit; color: inherit; cursor: pointer; }
+button:focus-visible, input:focus-visible { outline: 3px solid var(--oker); outline-offset: 2px; }
+.label { font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+
+/* header */
+.top { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 14px 24px; }
+.brand h1 { font-size: clamp(1.9rem, 4vw, 2.8rem); line-height: 1.05; }
+.brand h1 span { color: var(--oker); }
+.brand p { margin: 6px 0 0; color: var(--muted); max-width: 60ch; }
+.seg { display: inline-flex; background: var(--sunk); border-radius: 999px; padding: 4px; gap: 4px; flex-wrap: wrap; }
+.seg button { border: 0; background: transparent; padding: 9px 16px; border-radius: 999px; font-weight: 700; color: var(--muted); }
+.seg button[aria-pressed="true"] { background: var(--surface); color: var(--ink); box-shadow: 0 1px 3px rgba(0,0,0,.15); }
+
+/* chapters */
+.chapters { display: flex; flex-wrap: wrap; gap: 10px; }
+.chip { border: 2px solid var(--line); background: var(--surface); border-radius: 999px; padding: 9px 16px; font-weight: 700; display: inline-flex; gap: 8px; align-items: center; }
+.chip small { font-weight: 400; color: var(--muted); font-variant-numeric: tabular-nums; }
+.chip[aria-pressed="true"] { border-color: var(--lapis); background: var(--lapis-soft); }
+
+/* game cards */
+.games { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+@media (max-width: 860px) { .games { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 520px) { .games { grid-template-columns: 1fr; } }
+.game-card { text-align: left; border: 2px solid var(--line); background: var(--surface); border-radius: var(--radius); padding: 18px 18px 16px; display: grid; grid-template-columns: 56px 1fr; gap: 4px 14px; align-items: start; transition: transform .12s, border-color .12s; }
+.game-card:hover { border-color: var(--oker); transform: translateY(-2px); }
+.game-card svg { grid-row: span 2; width: 56px; height: 56px; }
+.game-card h3 { font-size: 1.3rem; }
+.game-card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+.ic-a { fill: var(--oker); } .ic-b { fill: var(--lapis); } .ic-s { fill: none; stroke: var(--ink); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; } .ic-bg { fill: var(--sunk); }
+
+/* teams */
+.panel { background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); padding: 16px 18px; display: flex; flex-direction: column; gap: 12px; }
+.team-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.team-input { display: flex; align-items: center; gap: 8px; background: var(--sunk); border-radius: 10px; padding: 6px 10px; min-width: 0; }
+.team-input i { width: 14px; height: 14px; border-radius: 50%; flex: none; }
+.team-input input { border: 0; background: transparent; font: inherit; font-weight: 700; width: 9.5em; min-width: 0; color: var(--ink); }
+.linkbtn { border: 0; background: none; color: var(--lapis); font-weight: 700; padding: 6px 4px; text-decoration: underline; text-underline-offset: 3px; }
+
+/* game screen */
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 8px; display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; justify-content: space-between; border-bottom: 2px solid var(--line); }
+.bar .where { display: flex; flex-direction: column; min-width: 0; }
+.bar .where strong { font-family: var(--font-display); font-weight: 400; font-size: 1.35rem; line-height: 1.1; }
+.btn { border: 2px solid var(--ink); background: var(--surface); border-radius: 12px; padding: 10px 18px; font-weight: 700; }
+.btn.primary { background: var(--ink); color: var(--bg); }
+.btn.oker { background: var(--oker); border-color: var(--oker); color: var(--bg); }
+.btn.ghost { border-color: var(--line); }
+.btn:disabled { opacity: .4; cursor: default; }
+.scores { display: flex; flex-wrap: wrap; gap: 8px; }
+.score { display: flex; align-items: center; gap: 6px; border: 2px solid var(--line); background: var(--surface); border-radius: 12px; padding: 4px 6px 4px 12px; font-weight: 700; }
+.score .n { font-family: var(--font-display); font-size: 1.4rem; min-width: 1.6ch; text-align: center; font-variant-numeric: tabular-nums; }
+.score.turn { border-color: var(--tc); box-shadow: 0 0 0 3px color-mix(in srgb, var(--tc) 30%, transparent); }
+.score .dot { width: 12px; height: 12px; border-radius: 50%; background: var(--tc); }
+.score .pm { border: 0; background: var(--sunk); border-radius: 8px; width: 28px; height: 28px; font-weight: 700; }
+.stage { display: flex; flex-direction: column; gap: 18px; align-items: stretch; }
+.turnline { font-weight: 700; color: var(--muted); }
+.turnline b { color: var(--tc, var(--ink)); }
+.prompt { background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); padding: clamp(18px, 3vw, 34px); font-size: clamp(1.3rem, 2.8vw, 2.1rem); line-height: 1.3; font-family: var(--font-display); text-wrap: balance; min-height: 4.5em; display: flex; align-items: center; }
+.prompt.term { justify-content: center; text-align: center; font-size: clamp(2rem, 5.5vw, 3.8rem); }
+.options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+@media (max-width: 620px) { .options { grid-template-columns: 1fr; } }
+.opt { border: 2px solid var(--line); background: var(--surface); border-radius: var(--radius); padding: 16px 18px; text-align: left; font-size: clamp(1.05rem, 2vw, 1.4rem); font-weight: 700; display: flex; gap: 14px; align-items: center; min-width: 0; }
+.opt .k { flex: none; width: 2em; height: 2em; border-radius: 50%; display: grid; place-items: center; background: var(--sunk); font-size: .85em; }
+.opt.long { font-weight: 400; font-size: clamp(0.98rem, 1.6vw, 1.15rem); }
+.opt:hover:not(:disabled) { border-color: var(--lapis); }
+.opt.right { border-color: var(--ok); background: var(--ok-soft); }
+.opt.wrong { border-color: var(--bad); background: var(--bad-soft); }
+.opt:disabled { cursor: default; }
+.feedback { font-size: 1.15rem; font-weight: 700; min-height: 1.5em; }
+.feedback.good { color: var(--ok); } .feedback.badc { color: var(--bad); }
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.row.end { justify-content: flex-end; }
+.progress { font-variant-numeric: tabular-nums; color: var(--muted); font-weight: 700; }
+
+/* memory */
+.mem { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.mcard { position: relative; border: 2px solid var(--line); border-radius: 12px; min-height: 120px; padding: 10px; background: var(--lapis); color: var(--bg); display: grid; place-items: center; text-align: center; font-weight: 700; overflow-wrap: anywhere; }
+.mcard .back { font-family: var(--font-display); font-size: 2rem; opacity: .55; }
+.mcard.open { background: var(--surface); color: var(--ink); }
+.mcard.open.w { font-family: var(--font-display); font-weight: 400; font-size: clamp(1.05rem, 2vw, 1.5rem); }
+.mcard.open.d { font-weight: 400; font-size: clamp(.8rem, 1.3vw, 1rem); background: var(--oker-soft); }
+.mcard.done { border-color: var(--tc); box-shadow: inset 0 0 0 3px var(--tc); }
+.mcard.miss { border-color: var(--bad); }
+@media (max-width: 520px) { .mem { gap: 6px; } .mcard { min-height: 92px; padding: 6px; } }
+
+/* raad */
+.hints { display: flex; flex-direction: column; gap: 10px; }
+.hint { display: grid; grid-template-columns: 2.4em 1fr; gap: 12px; align-items: center; background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); padding: 14px 16px; font-size: clamp(1.1rem, 2.2vw, 1.6rem); }
+.hint .num { width: 2.2em; height: 2.2em; border-radius: 50%; display: grid; place-items: center; background: var(--oker); color: var(--bg); font-weight: 700; font-size: .8em; }
+.hint.hidden-h { color: var(--muted); border-style: dashed; background: transparent; }
+.pattern { font-family: ui-monospace, "Cascadia Mono", Menlo, monospace; letter-spacing: .25em; }
+.answer { text-align: center; font-family: var(--font-display); font-size: clamp(2rem, 5vw, 3.4rem); color: var(--ok); }
+
+/* galgje */
+.hang { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 20px; align-items: start; }
+@media (max-width: 760px) { .hang { grid-template-columns: 1fr; } .hang svg { max-width: 220px; margin: 0 auto; } }
+.slots { display: flex; flex-wrap: wrap; gap: 8px 6px; justify-content: center; font-family: var(--font-display); font-size: clamp(1.6rem, 4vw, 2.8rem); }
+.slot { min-width: 1.05em; text-align: center; border-bottom: 4px solid var(--ink); line-height: 1.2; }
+.slot.gap { border-bottom-color: transparent; min-width: .5em; }
+.slot.lost { color: var(--bad); }
+.keys { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }
+.key { width: 2.6em; height: 2.6em; border: 2px solid var(--line); background: var(--surface); border-radius: 10px; font-weight: 700; font-size: 1.05rem; }
+.key.hit { background: var(--ok-soft); border-color: var(--ok); }
+.key.miss { background: var(--bad-soft); border-color: var(--bad); opacity: .6; }
+.temple .piece { fill: var(--oker); transition: opacity .3s; }
+.temple .ghost { fill: none; stroke: var(--line); stroke-width: 2; stroke-dasharray: 4 4; }
+.lives { text-align: center; font-weight: 700; color: var(--muted); }
+
+/* flitskaarten */
+.flash { perspective: 1400px; }
+.flash-inner { position: relative; min-height: 300px; transition: transform .5s; transform-style: preserve-3d; cursor: pointer; }
+.flash.flipped .flash-inner { transform: rotateY(180deg); }
+.face { position: absolute; inset: 0; backface-visibility: hidden; border-radius: 20px; border: 2px solid var(--line); background: var(--surface); padding: 28px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; gap: 14px; }
+.face.back-f { transform: rotateY(180deg); background: var(--oker-soft); }
+.face .big { font-family: var(--font-display); font-size: clamp(2rem, 6vw, 4rem); line-height: 1.1; }
+.face .def { font-size: clamp(1.2rem, 2.6vw, 1.9rem); line-height: 1.35; max-width: 34ch; }
+.face .tip { color: var(--muted); font-size: clamp(1rem, 1.8vw, 1.25rem); }
+
+/* bingo */
+.wall { display: flex; flex-wrap: wrap; gap: 8px; }
+.wall span { background: var(--surface); border: 2px solid var(--line); border-radius: 10px; padding: 6px 12px; font-weight: 700; font-size: clamp(1rem, 1.8vw, 1.3rem); }
+.wall span.called { background: var(--ok-soft); border-color: var(--ok); }
+.howto { margin: 0; padding-left: 1.2em; color: var(--muted); }
+.howto li + li { margin-top: 4px; }
+
+/* lijst */
+.tablewrap { overflow-x: auto; background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); }
+table { border-collapse: collapse; width: 100%; min-width: 560px; }
+th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+td:first-child { font-weight: 700; white-space: nowrap; }
+td.x { color: var(--muted); }
+
+.endbox { background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); padding: 28px; text-align: center; display: flex; flex-direction: column; gap: 14px; align-items: center; }
+.endbox h2 { font-size: clamp(1.8rem, 4vw, 2.6rem); }
+.note { color: var(--muted); font-size: .92rem; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap" id="app"></div>
+
+<script>
+// Begrippen per hoofdstuk: [begrip, uitleg, extra tip]. Gehaald uit de leerbundels van Connectopia.
+const DATA = {
+  start: { label: "START · 5de en 6de leerjaar", chapters: [
+    { id: "s-tijd", title: "Tijd en tijdlijn", terms: [
+      ["tijdlijn","Een lijn waarop je gebeurtenissen van vroeger naar later zet.","Hoe verder naar links, hoe langer geleden."],
+      ["prehistorie","De tijd vóór het schrift: er zijn nog geen geschreven bronnen.","Veruit de langste periode. Alles wat we weten, komt uit de grond."],
+      ["oudheid","Het tijdvak van beschavingen zoals Egypte, Griekenland en Rome.","Het eindigt met de val van Rome."],
+      ["middeleeuwen","Het tijdvak tussen de val van Rome en de reis van Columbus.","Denk aan ridders, burchten en kloosters."],
+      ["nieuwe tijd","Het tijdvak dat begint rond de reis van Columbus naar Amerika.","Het loopt tot België een land wordt."],
+      ["nieuwste tijd","Het tijdvak vanaf het ontstaan van België tot vandaag.","Het laatste tijdvak op de tijdlijn."],
+      ["tijdvak","Een stuk tijd met eigen kenmerken, geen vast aantal jaren.","Het ene duurt duizenden jaren, het andere een paar eeuwen."],
+      ["schrift","De uitvinding die de grens vormt tussen prehistorie en geschiedenis.","Vanaf dan zijn er geschreven bronnen."],
+      ["eeuw","Een periode van 100 jaar.","Het jaar 1302 ligt in de 14de."],
+      ["decennium","Een periode van 10 jaar.","Tien daarvan maken samen een eeuw."],
+      ["millennium","Een periode van 1 000 jaar.","Dat zijn tien eeuwen."],
+      ["generatie","De tijd tussen ouders en hun kinderen, ongeveer 25 tot 30 jaar.","In één eeuw passen er drie à vier."],
+      ["halve eeuw","Een periode van 50 jaar.","De helft van honderd jaar."],
+      ["kwart eeuw","Een periode van precies 25 jaar.","Een kwart van honderd jaar."],
+      ["jaartelling","De manier waarop we de jaren tellen, vanaf het jaar 1.","Er bestaat geen jaar 0."],
+      ["voor Christus","Jaren vóór het begin van onze jaartelling. Die tellen af.","Afgekort v.Chr. 500 ligt later dan 1000."],
+      ["na Christus","Jaren vanaf het begin van onze jaartelling.","Afgekort n.Chr."],
+      ["bron","Alles waaruit we iets over vroeger te weten komen.","Ze zijn niet allemaal even betrouwbaar."],
+      ["primaire bron","Een bron die gemaakt is in de tijd zelf.","Een dagboek, een munt, een gebouw."],
+      ["secundaire bron","Een bron die later gemaakt is, over die tijd.","Een geschiedenisboek of een documentaire."],
+      ["geschreven bron","Een bron met woorden.","Een brief of een kroniek."],
+      ["ongeschreven bron","Een bron zonder woorden.","Een pot, een wapen, een schilderij."],
+      ["mondelinge bron","Een bron die wordt doorverteld.","Het verhaal van je overgrootmoeder."],
+      ["anachronisme","Iets in een verhaal of film dat in die tijd nog niet bestond.","Een ridder die op zijn horloge kijkt."],
+      ["historicus","Iemand die het verleden onderzoekt met bronnen, vooral geschreven.","Vraagt bij elke bron: wie, wanneer, waarom?"],
+      ["archeoloog","Iemand die opgraaft en onderzoekt wat er in de grond zit.","Voor de prehistorie de enige getuige die we hebben."]
+    ]},
+    { id: "s-oud", title: "Van de prehistorie tot de Romeinen", terms: [
+      ["prehistorie","De tijd vóór de geschiedenis, toen er nog niets werd opgeschreven.","Alles wat we erover weten, komt uit de grond."],
+      ["archeoloog","Iemand die laagje per laagje opgraaft en noteert waar alles ligt.","Voor de prehistorie de enige getuige die we hebben."],
+      ["steentijd","Het tijdvak waarin gereedschap van steen, been, gewei en hout was.","Metaal kende men nog niet."],
+      ["bronstijd","Het tijdvak waarin men gereedschap goot uit koper gemengd met tin.","Komt na de steentijd en vóór de ijzertijd."],
+      ["ijzertijd","Het tijdvak waarin men gereedschap smeedde uit een metaal dat bijna overal in de grond zit.","Goed gereedschap werd betaalbaar voor gewone boeren."],
+      ["nomadisch","Rondtrekkend: de groep trekt mee met het voedsel.","Zo leefde men in de oude steentijd."],
+      ["sedentair","Op een vaste plaats wonend: het voedsel groeit waar men woont.","Zo leefde men in de nieuwe steentijd."],
+      ["vuursteen","Een steensoort die in scherpe schilfers splijt.","Aan de afslagvlakjes herken je een bewerkte steen."],
+      ["vuistbijl","Een stenen werktuig zonder steel dat je in je hand vasthoudt.","De naam zegt waar je hem vasthoudt."],
+      ["ijstijd","Een periode waarin het hier veel kouder was dan nu.","Toen leefde de mammoet hier."],
+      ["mammoet","Een uitgestorven harig dier met lange gekromde slagtanden.","Familie van de olifant."],
+      ["landbouw","Zelf graan zaaien en dieren houden.","Hiermee begon de nieuwe steentijd."],
+      ["aardewerk","Potten van gebakken klei om in te koken en te bewaren.","Kwam er met de vaste dorpen."],
+      ["hunebed","Een grafkamer van enorme staande stenen met platte dekstenen erop.","In Drenthe staan er nog tientallen."],
+      ["grafheuvel","Een heuvel van aarde die boven een graf werd opgeworpen.","Lage ronde bulten op de heide, vooral uit de bronstijd."],
+      ["brons","Een metaal dat je krijgt door koper met tin te mengen.","Harder dan zuiver koper, en je kan het gieten."],
+      ["ruilhandel","Spullen ruilen tegen andere spullen, zonder geld.","Nodig omdat koper en tin zelden in dezelfde streek liggen."],
+      ["oker","Kleurstof voor geel en rood in de grotschilderingen.","Voor zwart gebruikte men houtskool."],
+      ["grotschildering","Een tekening van dieren op de wand diep in een grot.","De bekendste in Lascaux, zo'n 17 000 jaar oud."],
+      ["Mesopotamië","Het land tussen de rivieren Eufraat en Tigris.","Hier ontstonden de eerste echte steden."],
+      ["spijkerschrift","Wigvormige tekens die met een rietstengel in natte klei werden gedrukt.","Het schrift van Mesopotamië."],
+      ["ziggurat","Een tempeltoren in trappen van in de zon gedroogde kleitegels.","Stond midden in een Mesopotamische stad."],
+      ["Nijl","De rivier die elk jaar overstroomde en vruchtbaar slib achterliet.","De snelweg van Egypte: alles ging per boot."],
+      ["farao","De koning van Egypte, die ook als een god werd vereerd.","Hij kreeg een piramide als graf."],
+      ["piramide","Een enorm graf van steenblokken voor een Egyptische koning.","De bekendste staan bij Gizeh."],
+      ["hiërogliefen","Het Egyptische schrift met kleine tekeningen.","Sommige tekens staan voor een klank, andere voor een woord."],
+      ["papyrus","Een soort papier gemaakt van rietstengels.","De Egyptenaren schreven erop."],
+      ["cartouche","Het ovale kader waarin de naam van een koning werd gezet.","Je ziet het tussen de hiërogliefen."],
+      ["stadstaat","Een stad met het land eromheen, met een eigen bestuur en leger.","Athene en Sparta zijn de bekendste."],
+      ["zuil","Een ronde pilaar waarop een Griekse tempel rust.","Je ziet ze nog aan gerechtsgebouwen en musea."],
+      ["fronton","Het driehoekige stuk bovenaan een Griekse tempel.","Je ziet het bovenaan het Parthenon."],
+      ["Olympische Spelen","Sportwedstrijden om de vier jaar in Olympia, ter ere van de goden.","Bedacht door de Grieken."],
+      ["theater","Toneelstukken in de open lucht, met tragedies en komedies.","De hele stad kwam kijken."],
+      ["mare nostrum","Zo noemden de Romeinen de Middellandse Zee: 'onze zee'.","Die zee lag midden in hun rijk."],
+      ["Latijn","De taal van de Romeinen.","Ons alfabet komt ervan."],
+      ["keizer","De man aan de top van het Romeinse Rijk.","Augustus was de eerste."],
+      ["slaaf","Iemand die eigendom is van een ander en verkocht kan worden.","Vaak een krijgsgevangene."],
+      ["forum","Het plein midden in een Romeinse stad met markt, tempels en bestuur.","Daar hoorde je het nieuws."],
+      ["aquaduct","Een waterleiding op bogen die vers water van ver aanvoerde.","Het water liep bovenin, in een goot met een heel lichte helling."],
+      ["thermen","Openbare badhuizen waar Romeinen baadden, sportten en praatten.","Iedereen mocht er komen."],
+      ["amfitheater","Een rond gebouw met oplopende zitrijen rond een arena.","Het Colosseum is het bekendste."],
+      ["insula","Een hoog Romeins huurblok met winkeltjes op de begane grond.","Hoe hoger je woonde, hoe goedkoper en gevaarlijker."],
+      ["villa","Een groot landbouwbedrijf van een rijke Romein, met een stenen woonhuis.","Graan en vlees gingen naar de steden en het leger."],
+      ["heirbaan","Een rechte stenen Romeinse weg voor het leger.","Opgebouwd uit vier lagen, bovenaan bol."],
+      ["Kelten","De volkeren die hier woonden vóór de Romeinen kwamen.","Ze bewerkten ijzer en woonden in versterkte dorpen."],
+      ["Gallia Belgica","De Romeinse naam voor onze streken.","Hier komt de naam van ons land vandaan."],
+      ["Julius Caesar","Beroemde Romeinse veldheer die onze streken veroverde, maar geen keizer was.","Hij schreef zelf een boek over zijn veroveringen."]
+    ]},
+    { id: "s-mid", title: "Van de middeleeuwen tot nu", terms: [
+      ["leenstelsel","Systeem waarin een heer grond gaf in ruil voor trouw en hulp in de oorlog.","Ontstond na de val van Rome."],
+      ["leenheer","Iemand die grond uitleent in ruil voor trouw en hulp.","Hij gaf grond aan een leenman."],
+      ["leenman","Iemand die grond krijgt en daarvoor trouw en hulp in de oorlog belooft.","Hij kon zelf ook weer stukken uitlenen."],
+      ["burcht","Een versterkt kasteel op een heuvel of aan een rivier.","Je ziet de vijand van ver aankomen."],
+      ["gracht","Een brede strook water rond een burcht.","Water is een extra muur."],
+      ["kantelen","De tanden bovenop de muur van een burcht.","Daarachter konden de verdedigers schuilen."],
+      ["lakenhandel","Handel in fijne geweven stof van Engelse wol.","Maakte Gent, Brugge en Ieper rijk."],
+      ["ambacht","Een beroep waarbij je met de hand iets maakt.","Smid, bakker, wever, schoenmaker."],
+      ["gilde","Vereniging van mensen met hetzelfde beroep die kwaliteit en prijzen bewaakte.","Hielp ook leden die ziek werden."],
+      ["Guldensporenslag","De slag bij Kortrijk in 1302, waar Vlaamse stedelingen te voet Franse ridders versloegen.","Voetvolk wint van ridders te paard."],
+      ["pest","Ziekte die in de 14de eeuw een derde van Europa doodde.","Reisde mee met schepen en karavanen."],
+      ["klooster","Gebouw waar monniken samen leven, bidden, werken en leren.","Hier lag ook het scriptorium."],
+      ["monnik","Een man die in een klooster leeft en er boeken overschreef.","Werkte soms een jaar aan één boek."],
+      ["scriptorium","De schrijfzaal van een klooster, waar boeken met de hand werden overgeschreven.","Letter voor letter."],
+      ["verlucht handschrift","Een met de hand geschreven boek met een grote, versierde beginletter.","Soms met bladgoud."],
+      ["kathedraal","De kerk waar een bisschop zetelt.","Er werd soms meer dan honderd jaar aan gebouwd."],
+      ["boekdrukkunst","Drukken met losse letters, waardoor boeken veel goedkoper werden.","Rond 1450 bekend gemaakt door Gutenberg."],
+      ["ontdekkingsreiziger","Iemand die nieuwe zeeroutes zocht en in kaart bracht.","Columbus en Magellaan."],
+      ["specerijen","Kostbare smaakmakers uit Azië waarvoor men een zeeweg zocht.","Daarom vertrok Columbus."],
+      ["Verlichting","Beweging in de 18de eeuw: zelf nadenken, vragen stellen en onderzoeken.","De rede kwam centraal te staan."],
+      ["industriële revolutie","De overgang naar werken met machines in fabrieken.","Begon in Engeland en kwam in de 19de eeuw naar hier."],
+      ["fabriek","Een groot gebouw waar machines het handwerk overnemen.","Rond deze gebouwen groeiden de steden snel."],
+      ["stoommachine","Machine waarin stoom een zuiger en een vliegwiel laat bewegen.","De motor achter de industriële revolutie."],
+      ["steenkool","Brandstof uit de grond voor fabrieken, treinen en kachels.","In Limburg werd ze bovengehaald."],
+      ["kinderarbeid","Kinderen die lange dagen in fabrieken en mijnen werkten.","Soms twaalf uur per dag voor weinig geld."],
+      ["leerplicht","De regel dat kinderen naar school moeten in plaats van te werken.","In België rond de Eerste Wereldoorlog geregeld."],
+      ["mijnwerker","Iemand die diep onder de grond steenkool haalt.","Daalde af met een kooi."],
+      ["schachtbok","Het hoge gestel boven een mijn met wielen die de kabel opwinden.","Aan de kabel hangt de kooi."],
+      ["cité","Een wijk die rond een mijn werd gebouwd voor de mijnwerkers.","Er woonden mensen uit heel Europa."],
+      ["onafhankelijk","Een eigen land zijn dat niet bij een ander land hoort.","België werd het in 1830."],
+      ["koninkrijk","Een land met een koning als staatshoofd.","België is het al sinds het begin."],
+      ["democratie","Bestuur waarbij het volk beslist en zelf zijn bestuur kiest.","Het woord komt uit het Grieks."],
+      ["stemrecht","Het recht om mee te stemmen bij verkiezingen.","Vrouwen kregen het in België pas in 1948 voor de nationale verkiezingen."],
+      ["loopgraaf","Een lange gegraven gang waarin soldaten tegenover elkaar lagen.","Aan de IJzer, in de Eerste Wereldoorlog."],
+      ["Holocaust","De vervolging en moord op miljoenen mensen, vooral Joden, door het naziregime.","Tijdens de Tweede Wereldoorlog."],
+      ["Berlijnse Muur","Muur die van 1961 tot 1989 een Duitse stad in twee deelde.","Viel in november 1989."],
+      ["Europese Unie","Samenwerking van Europese landen, onder meer om oorlog te voorkomen.","In veel van die landen betaal je met de euro."]
+    ]}
+  ]},
+  spark: { label: "SPARK · 1ste en 2de middelbaar", chapters: [
+    { id: "p-ref", title: "Het historisch referentiekader", terms: [
+      ["historicus","Iemand die het verleden onderzoekt en uitlegt op basis van bronnen.","Hij was er zelf niet bij."],
+      ["archeoloog","Iemand die bronnen uit de grond haalt.","Hij graaft op, de historicus legt uit."],
+      ["bron","Alles wat van vroeger overblijft en waaruit je het verleden afleidt.","Teksten, voorwerpen, gebouwen, afbeeldingen."],
+      ["verleden","Alles wat gebeurd is.","Niet hetzelfde als geschiedenis."],
+      ["geschiedenis","Het verhaal dat historici over het verleden vertellen op basis van bronnen.","Daarom kan er over gediscussieerd worden."],
+      ["eeuw","Een periode van honderd jaar, die loopt van 01 tot en met 00.","Het jaar 1492 hoort bij de 15de."],
+      ["millennium","Een periode van duizend jaar.","Tien eeuwen."],
+      ["chronologie","De volgorde van vroeger naar later.","Op een tijdlijn zie je ze in één oogopslag."],
+      ["voor Christus","Toevoeging bij jaartallen vóór het begin van onze jaartelling; je telt achterwaarts.","Afgekort v.C. 800 ligt vroeger dan 300."],
+      ["oude nabije oosten","De periode van de rijken bij Tigris, Eufraat en Nijl, direct na de prehistorie.","Begint met het schrift."],
+      ["klassieke oudheid","De periode waarin de steden rond de Middellandse Zee de macht hebben.","Grieken en Romeinen."],
+      ["middeleeuwen","De periode die begint met de val van het West-Romeinse Rijk in 476.","De vierde van de zeven periodes."],
+      ["vroegmoderne tijd","De periode die direct op de middeleeuwen volgt.","De vijfde van de zeven periodes."],
+      ["moderne tijd","De zesde van de zeven periodes, tussen vroegmoderne en hedendaagse tijd.","Een scharnierpunt hier is de Franse Revolutie."],
+      ["hedendaagse tijd","De laatste van de zeven periodes, die tot vandaag loopt.","De zevende periode."],
+      ["scharnierpunt","Een ingrijpende gebeurtenis waarmee historici een nieuwe periode laten beginnen.","Bijvoorbeeld het schrift of het jaar 476."],
+      ["lokaal","Op één plaats.","Kleiner dan regionaal."],
+      ["regionaal","In een streek.","Groter dan lokaal, kleiner dan continentaal."],
+      ["continentaal","Over een heel werelddeel, of gericht op het land in plaats van de zee.","Sparta lag in het binnenland en leefde van zijn land."],
+      ["stedelijk","Te maken met de stad.","Het tegenovergestelde van ruraal."],
+      ["ruraal","Te maken met het platteland.","Het tegenovergestelde van stedelijk."],
+      ["maritiem","Gericht op de zee.","Athene leefde van zijn vloot en handel overzee."],
+      ["structuurbegrip","Een vast begrip waarmee historici elke samenleving kunnen beschrijven.","Chronologie, ruraal, maritiem en evolutie zijn voorbeelden."],
+      ["politiek","Het domein van macht, bestuur, wetten en oorlog.","Alexander verovert een wereldrijk."],
+      ["sociaal","Het domein van bevolkingsgroepen, rechten en ongelijkheid.","Wie heeft welke rechten?"],
+      ["economisch","Het domein van landbouw, ambacht, handel en geld.","De handel die op gang komt."],
+      ["cultureel","Het domein van religie, kunst, wetenschap en taal.","De Griekse taal en kunst verspreiden zich."],
+      ["continuïteit","Wat gelijk blijft door de tijd heen.","Het tegenovergestelde van verandering."],
+      ["verandering","Wat anders wordt door de tijd heen.","Zit in elke periode, samen met wat gelijk blijft."],
+      ["evolutie","Verandering die traag en stap voor stap gaat.","Het verschil met een revolutie zit in het tempo."],
+      ["revolutie","Verandering die snel en grondig gaat.","Het verschil met een evolutie zit in het tempo."],
+      ["agrarische revolutie","De overgang naar de landbouw.","Naar gevolgen een omwenteling, naar tempo een evolutie."],
+      ["tijdsgebonden","De periode-indeling kan verschuiven als er nieuwe inzichten komen.","Een van de drie grenzen van de indeling."],
+      ["plaatsgebonden","De periode-indeling geldt niet overal: 476 betekende in China niets.","Een van de drie grenzen van de indeling."]
+    ]},
+    { id: "p-bron", title: "Bronnen, kunst en beeldvorming", terms: [
+      ["verleden","Alles wat gebeurd is; het ligt vast en verandert nooit meer.","Niet hetzelfde als geschiedenis."],
+      ["geschiedenis","Het verhaal dat historici over het verleden maken; het kan herschreven worden.","Het is een constructie."],
+      ["historische bron","Alles uit het verleden waaruit je iets over die tijd kan afleiden.","Ook een afvalhoop of een kinderspeeltje telt mee."],
+      ["primaire bron","Een bron uit de tijd zelf.","Een brief van een Romeinse soldaat, een grafsteen."],
+      ["secundaire bron","Een bron die later gemaakt is op basis van andere bronnen.","Je handboek bijvoorbeeld."],
+      ["materiële bron","Een bron die een voorwerp is.","Een opgegraven potscherf."],
+      ["mondelinge bron","Een bron die verteld of uitgesproken wordt.","Een opgenomen gesprek met een oudere."],
+      ["audiovisuele bron","Een bron met beeld en geluid.","Een film of een opname."],
+      ["ooggetuige","Iemand die het zelf zag gebeuren.","Ziet maar één hoek en kan zich vergissen."],
+      ["tijdgenoot","Iemand die in dezelfde tijd leefde, maar het van horen zeggen had.","Was er niet zelf bij."],
+      ["opdrachtgever","Degene die betaalde om de bron te laten maken.","Wie betaalt, bepaalt vaak wat er komt te staan."],
+      ["bruikbaar","Een bron die antwoord geeft op de vraag die jij onderzoekt.","Niet hetzelfde als betrouwbaar."],
+      ["betrouwbaar","Een bron waarvan klopt wat erin staat.","Kijk naar de maker, zijn belang en andere bronnen."],
+      ["standplaatsgebondenheid","Je kijkt altijd vanuit je eigen tijd, plaats en positie in de samenleving.","Geldt voor de maker én voor jou als lezer."],
+      ["barbaar","Voor de Grieken: iemand die geen Grieks spreekt.","Herodotos noemde de Perzen zo."],
+      ["Kadesj","Slag in 1274 v.C. waarvan zowel Ramses als de Hettieten beweerden dat ze wonnen.","Daarna volgde het oudste bekende vredesverdrag."],
+      ["redeneerwijze","Een manier van denken om van bronnen naar een antwoord te komen.","Er zijn er vijf."],
+      ["oorzaak en gevolg","Redeneerwijze: benoemen wat leidde waartoe.","Een van de vijf redeneerwijzen."],
+      ["meerdere perspectieven","Redeneerwijze: dezelfde gebeurtenis bekijken vanuit verschillende mensen.","De slaaf, de soldaat én de keizer."],
+      ["continuïteit","Wat hetzelfde blijft; het valt minder op dan verandering.","Staat daarom uitdrukkelijk in het rijtje."],
+      ["bewijs","Je antwoord steunen op wat in de bronnen staat, niet op wat je voelt.","Een van de vijf redeneerwijzen."],
+      ["verbanden leggen","Redeneerwijze: zien hoe stukken met elkaar samenhangen.","Een van de vijf redeneerwijzen."],
+      ["mythevorming","Een verhaal dat mooier of eenvoudiger wordt dan de werkelijkheid en zo het beeld vervormt.","Een goed verhaal wordt vaker doorverteld."],
+      ["neanderthaler","Vaak getoond als domme holbewoner, maar maakte werktuigen en begroef zijn doden.","Wij dragen nog een stukje van zijn erfelijk materiaal."],
+      ["koolstofdatering","Onderzoekstechniek om de ouderdom van vondsten te bepalen.","Samen met DNA-onderzoek stelde ze veel bij."],
+      ["interpreteren","De laatste stap bij kunst lezen: onderwerp, publiek en bedoeling bepalen.","Eerst info verzamelen, dan beschrijven, dan deze stap."],
+      ["vorm en inhoud","Wat samen de betekenis van een kunstwerk geeft.","Een keizer groter afgebeeld, met licht op zijn gezicht."]
+    ]},
+    { id: "p-pre", title: "De prehistorie", terms: [
+      ["prehistorie","De tijd vóór de geschiedenis, zonder geschreven bronnen.","Veruit de langste periode."],
+      ["mensachtige","Een vroege mensensoort die in Afrika ontstond.","Verschillende soorten trokken de wereld in."],
+      ["homo erectus","De rechtopgaande mens, de eerste die Afrika verliet.","Kwam vóór de verstandige mens."],
+      ["homo sapiens","De verstandige mens, die later uit Afrika vertrok.","Dat zijn wij."],
+      ["aaseter-verzamelaar","Iemand die planten verzamelt en vlees eet van dieren die al dood zijn.","Zo leefden de eerste mensachtigen."],
+      ["jager-verzamelaar","Iemand die zelf jaagt en planten verzamelt.","Leefde in kleine groepen van enkele tientallen."],
+      ["evolutieleer","De leer dat soorten langzaam veranderen over heel veel generaties.","Mens en aap hebben een gemeenschappelijke voorouder."],
+      ["nomade","Een rondtrekker die met het voedsel en de kudden meetrekt.","Bezit had weinig zin, alles moest mee op de rug."],
+      ["taakverdeling","Niet iedereen in de groep doet hetzelfde werk.","Jagen, verzamelen, werktuigen maken, het vuur bewaken."],
+      ["vuistbijl","Het oudste werktuig, zonder steel, om te snijden, hakken en schrapen.","Je houdt hem vast in je vuist."],
+      ["vuursteen","Steen die splijt in vlijmscherpe schilfers.","Aan de afslagvlakjes herken je een bewerkte steen."],
+      ["vuur","De belangrijkste vondst van de prehistorie: warmte, licht, bescherming en gekookt eten.","Eromheen werd verteld en geleerd."],
+      ["grotschildering","Dieren die diep in een grot op de wand geschilderd zijn.","Lascaux en Altamira zijn de bekendste."],
+      ["oker","Kleurstof voor geel en rood.","Voor zwart gebruikte men houtskool."],
+      ["agrarische revolutie","De overgang naar zelf gewassen telen en dieren houden, zo'n 10 000 jaar geleden.","Begon in de Vruchtbare Halve Maan."],
+      ["Vruchtbare Halve Maan","De streek van Tigris en Eufraat tot de Middellandse Zee waar de landbouw begon.","Hier groeiden wilde tarwe en gerst."],
+      ["sedentair","Op een vaste plaats wonen.","Wie zaait, moet blijven tot de oogst."],
+      ["nomadisch","Rondtrekkend: de groep trekt mee met het voedsel.","Het tegenovergestelde van sedentair."],
+      ["overschot","Wat een boer meer oogst dan hij zelf opeet.","Kan je bewaren of ruilen."],
+      ["specialisatie","Als sommigen geen voedsel meer maken maar een ander beroep uitoefenen.","Pottenbakker, smid, priester."],
+      ["ongelijkheid","Wie grond en voorraden bezit, staat sterker dan wie niets heeft.","Een keerzijde van de landbouw."],
+      ["neolithicum","De nieuwe steentijd, met geslepen en gepolijste werktuigen.","De periode van de agrarische revolutie."],
+      ["hunebed","Grote steenzetting boven een graf, vooral in Nederland.","Uit de nieuwe steentijd."],
+      ["grafheuvel","Een heuvel van aarde boven een graf in het landschap.","Je vindt ze ook bij ons."],
+      ["revolutie","Snelle, grondige verandering. Zo noem je de landbouw naar zijn gevolgen.","Wonen, werken, eten en bezit veranderden allemaal."],
+      ["evolutie","Trage verandering. Zo noem je de landbouw naar zijn tempo.","De landbouw deed er duizenden jaren over om zich te verspreiden."]
+    ]},
+    { id: "p-mes", title: "Mesopotamië en Egypte", terms: [
+      ["Mesopotamië","Het land tussen de rivieren Tigris en Eufraat.","Vandaag grotendeels Irak."],
+      ["Nijl","De rivier waarlangs Egypte in een smalle strook lag.","Overstroomde elk jaar."],
+      ["oude nabije oosten","De periode die begint met de uitvinding van het schrift, rond 3300 v.C.","Hier eindigt de prehistorie."],
+      ["irrigatielandbouw","Rivierwater via kanalen en dijken naar de akkers leiden.","Nodig in een droog land."],
+      ["slib","De vruchtbare laag die de Nijl na een overstroming achterliet.","Hielp de Egyptische boeren extra."],
+      ["stadstaat","Een stad met het land eromheen, met een eigen bestuur en een eigen god.","Ur, Uruk en Babylon."],
+      ["farao","De goddelijke heerser van heel Egypte.","De schakel tussen goden en mensen."],
+      ["ambtenaar","Iemand die in dienst van de heerser bestuurt: akkers opmeten, belastingen innen.","Zonder hen is een grote staat onmogelijk."],
+      ["kleitablet","Een plaatje klei waarop men schreef; de oudste zijn voorraadlijsten.","Het schrift was er om te boekhouden."],
+      ["beeldschrift","Schrift waarbij je het ding zelf tekent.","Een kop graan of een runderkop."],
+      ["spijkerschrift","Wigvormige tekens, met een rietstengel in natte klei gedrukt.","Het schrift van Mesopotamië."],
+      ["hiërogliefen","Egyptische tekens die op kleine afbeeldingen lijken.","Op steen en op papyrus."],
+      ["papyrus","Schrijfmateriaal uit Egypte, gemaakt van riet.","Hiërogliefen werden erop geschreven."],
+      ["schrijver","Een van de weinigen die kon lezen en schrijven.","Het leren duurde jaren."],
+      ["Steen van Rosetta","Steen met dezelfde tekst in drie schriften, waardoor hiërogliefen leesbaar werden.","Hiërogliefen, demotisch en Grieks."],
+      ["Champollion","De man die de hiërogliefen in 1822 ontcijferde.","Dankzij de Steen van Rosetta."],
+      ["standenmaatschappij","Samenleving in vaste lagen, waarbij je plaats vastligt bij je geboorte.","Opklimmen kan nauwelijks."],
+      ["slaaf","Iemand zonder rechten die als bezit geldt.","Krijgsgevangenen of mensen met schulden."],
+      ["polytheïsme","Het geloof in veel goden tegelijk.","Elk met een eigen taak."],
+      ["ziggurat","Een trapvormige tempeltoren in Mesopotamië.","Gebouwd uit in de zon gedroogde kleitegels."],
+      ["tempeleconomie","De tempel bezit grond, slaat graan op en betaalt werkers: godsdienst en economie lopen door elkaar.","Typisch voor Mesopotamië."],
+      ["hiernamaals","Het leven na de dood waarin de Egyptenaren geloofden.","De dode had daar zijn lichaam nodig."],
+      ["mummificeren","Een dood lichaam bewaren zodat het niet vergaat.","Het lichaam was nodig na de dood."],
+      ["Dodenboek","Een verzameling spreuken die de dode op zijn tocht moest helpen.","Werd in het graf gelegd."],
+      ["Toetanchamon","Jonge farao wiens graf als enige vrijwel ongeschonden werd teruggevonden.","Alle andere graven waren leeggeroofd."],
+      ["piramide","Een graf voor een farao.","De grootste is 147 m hoog."],
+      ["ruilhandel","Handel zonder munten, afgerekend in gewogen graan of zilver.","Munten bestonden nog niet."],
+      ["sterrenkunde","De wetenschap van de sterren, die we van deze rijken overhielden.","Net als het wiel en de ploeg."]
+    ]},
+    { id: "p-gr", title: "Het oude Griekenland", terms: [
+      ["polis","Een kleine, zelfstandige Griekse stadstaat.","Met eigen wetten, munten en een beschermgod."],
+      ["Hellas","Het gevoel van de Grieken één volk te zijn, door taal, goden en verhalen.","Politiek verdeeld, cultureel niet."],
+      ["kolonisatie","Groepen trekken weg om elders een nieuwe stad te stichten.","Tot in Zuid-Italië en rond de Zwarte Zee."],
+      ["oligarchie","Bestuur waarbij een kleine groep beslist.","Zo werd Sparta bestuurd."],
+      ["agoge","De harde militaire opvoeding van Spartaanse jongens.","Vanaf hun zevende."],
+      ["heloten","Onvrije landbouwers die in Sparta het werk op het land deden.","Ze waren veruit in de meerderheid."],
+      ["tiran","Een alleenheerser die de macht gegrepen had.","Niet altijd wreed: sommigen waren geliefd."],
+      ["directe democratie","De burgers stemmen zelf over de wetten op de volksvergadering.","Zo deed Athene het."],
+      ["volksvergadering","Samenkomst waar de burgers van Athene stemden over de wetten.","Alleen vrije mannen mochten komen."],
+      ["burgerrecht","Het recht om mee te beslissen, in Athene enkel voor vrije mannen.","Ongeveer één op tien had het."],
+      ["Perzische oorlogen","Oorlogen waarin de Griekse stadstaten samen het Perzische Rijk versloegen.","Athene werd er machtig door."],
+      ["Peloponnesische oorlog","Oorlog van bijna dertig jaar tussen Athene en Sparta.","Iedereen kwam er verzwakt uit."],
+      ["Akropolis","De burchtheuvel van Athene.","Hier staat het Parthenon."],
+      ["Parthenon","De tempel op de burchtheuvel van Athene, gewijd aan Athena.","Betaald met geld van de bondgenoten."],
+      ["Olympus","De berg waarop de Griekse goden volgens de verhalen woonden.","Zeus was de oppergod."],
+      ["orakel","Plaats waar je bij een moeilijke beslissing raad vroeg aan de goden.","Het bekendste in Delphi."],
+      ["Olympische Spelen","Feest ter ere van Zeus in Olympia, vanaf 776 v.C.","Er gold een wapenstilstand."],
+      ["mythologie","Verhalen over goden en helden die tonen hoe de Grieken zichzelf zagen.","Theseus en de Minotaurus."],
+      ["Socrates","Denker die zelf niets schreef maar vragen bleef stellen.","Werd ter dood veroordeeld."],
+      ["Plato","Leerling van Socrates die alles opschreef.","Leraar van Aristoteles."],
+      ["Aristoteles","Denker die zowat alles onderzocht en leraar was van Alexander.","Van sterren tot slakken."],
+      ["Homeros","Dichter van de Ilias en de Odyssee.","Staat vooraan in de Griekse literatuur."],
+      ["tragedie","Toneelstuk waarin een held ten onder gaat aan zijn eigen fout.","Speelde in het Griekse theater."],
+      ["kapiteel","Het bovenste stuk van een zuil, waaraan je de stijl herkent.","Sober kussen, krullen of bladeren."],
+      ["Dorisch","De oudste en meest sobere zuilstijl, met een sober kussen.","Een van de drie zuilstijlen."],
+      ["Ionisch","Zuilstijl met twee krullen opzij.","Een van de drie zuilstijlen."],
+      ["Korintisch","De jongste en rijkst versierde zuilstijl, met een kelk vol bladeren.","Een van de drie zuilstijlen."],
+      ["archaïsch","Beeldhouwstijl met stijve beelden, voeten naast elkaar en een starre glimlach.","De oudste stijl."],
+      ["klassiek","Beeldhouwstijl waarbij het gewicht op één been staat en het beeld lijkt te bewegen.","Komt na de stijve beelden."],
+      ["hellenistisch","Beeldhouwstijl die ook pijn, ouderdom en beweging toont.","Na Alexander de Grote."],
+      ["Alexander de Grote","Macedonische koning die het hele Perzische Rijk veroverde tot aan India.","Stierf op zijn tweeëndertigste."],
+      ["hellenisme","De vermenging van de Griekse cultuur met die van het oosten.","Grieks werd de taal van handel en studie."]
+    ]},
+    { id: "p-rom", title: "Het Romeinse Rijk", terms: [
+      ["Tiber","De rivier waaraan Rome ontstond.","Ver genoeg van zee om veilig te zijn."],
+      ["Romulus en Remus","Tweeling uit de sage, grootgebracht door een wolvin.","Een van de twee gaf de stad zijn naam."],
+      ["stichtingsmythe","Verhaal over het ontstaan van een stad dat geen geschiedenis is.","Toont hoe de Romeinen zichzelf wilden zien."],
+      ["Etrusken","Buren van wie het vroege Rome de boog en bestuursgewoonten leerde.","Woonden ook in Italië."],
+      ["republiek","Bestuur zonder koning: 'de zaak van iedereen'.","Van res publica."],
+      ["consul","Een van de twee hoogste bestuurders, telkens voor één jaar verkozen.","Zo konden ze elkaar tegenhouden."],
+      ["dictator","Eén bestuurder die alleen in uiterste nood tijdelijk werd benoemd.","Caesar werd het voor het leven."],
+      ["senaat","De raad van oud-bestuurders die in de praktijk over bijna alles besliste.","Officieel gaf hij enkel advies."],
+      ["patriciërs","De oude rijke families van Rome.","Stonden tegenover het gewone volk."],
+      ["plebejers","Het gewone volk van Rome.","Dwongen hun rechten stap voor stap af."],
+      ["Carthago","De grote handelsmacht in Noord-Afrika, tegenstander van Rome.","Werd volledig verwoest."],
+      ["Punische oorlogen","De oorlogen tussen Rome en Carthago.","Rome werd er baas over het westen door."],
+      ["mare nostrum","'Onze zee': de Romeinse naam voor de Middellandse Zee.","Na de overwinning op Carthago."],
+      ["latifundium","Een groot landbouwbedrijf met slavenarbeid.","De kleine boer kon er niet tegenop."],
+      ["triumviraat","Drie machtige mannen die samen de macht verdelen.","Caesar, Pompeius en Crassus."],
+      ["burgeroorlog","Oorlog tussen inwoners van hetzelfde land.","Marius tegen Sulla, Caesar tegen Pompeius."],
+      ["Julius Caesar","Veldheer die dictator voor het leven werd en in de senaat werd vermoord.","De maand juli is naar hem genoemd."],
+      ["Augustus","De eerste Romeinse keizer.","De aangenomen zoon van Caesar."],
+      ["princeps","'De eerste burger': zo noemde de eerste keizer zichzelf.","Hij wilde geen koning heten."],
+      ["Pax Romana","Twee eeuwen rust binnen het rijk onder de eerste keizers.","De Romeinse vrede."],
+      ["aquaduct","Waterleiding die kilometers lang heel licht bergaf loopt.","Bogen op bogen, met bovenaan de goot."],
+      ["boog","Wat de Romeinen aan de Griekse bouwkunst toevoegden, samen met gewelf, koepel en beton.","Daarmee overspan je grote ruimtes."],
+      ["amfitheater","Een rondom gebouwd theater zodat iedereen zicht heeft op het midden.","Het Colosseum."],
+      ["gladiator","Een vechter in het amfitheater.","Vocht in het Colosseum."],
+      ["keizerscultus","De verering van de keizer zelf.","Het bindmiddel van het rijk."],
+      ["christendom","Godsdienst die eerst vervolgd werd en later staatsgodsdienst werd.","Onder Constantijn toegelaten."],
+      ["staatsgodsdienst","De officiële godsdienst van een land of rijk.","Dat werd het christendom uiteindelijk."],
+      ["Byzantijnse Rijk","Het Oost-Romeinse Rijk, dat nog duizend jaar bleef bestaan.","Met Constantinopel als hoofdstad."],
+      ["Latijn","De taal van de Romeinen, die nog leeft in het Frans, Spaans en Italiaans.","Ook onze letters komen ervan."]
+    ]}
+  ]}
+};
+
+const GAMES = [
+  { id: "quiz", name: "Quiz", desc: "Lees de uitleg en kies het juiste begrip uit vier. Teams spelen om beurten.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><rect class="ic-b" x="10" y="12" width="36" height="8" rx="3"/><rect class="ic-s" x="10" y="26" width="16" height="9" rx="3"/><rect class="ic-a" x="30" y="26" width="16" height="9" rx="3"/><rect class="ic-s" x="10" y="39" width="16" height="9" rx="3"/><rect class="ic-s" x="30" y="39" width="16" height="9" rx="3"/>' },
+  { id: "memory", name: "Memory", desc: "Zoek het begrip en zijn uitleg. Wie een paar vindt, mag nog eens.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><rect class="ic-b" x="9" y="10" width="17" height="22" rx="3"/><rect class="ic-a" x="30" y="10" width="17" height="22" rx="3"/><rect class="ic-s" x="9" y="36" width="17" height="12" rx="3"/><rect class="ic-s" x="30" y="36" width="17" height="12" rx="3"/>' },
+  { id: "raad", name: "Raad het begrip", desc: "Tot drie hints na elkaar. Hoe sneller je het raadt, hoe meer punten.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><circle class="ic-a" cx="28" cy="24" r="12"/><path class="ic-s" d="M24 21a4 4 0 1 1 5 4v3"/><circle cx="29" cy="32" r="1.6" class="ic-b"/><path class="ic-s" d="M14 46h28"/>' },
+  { id: "galgje", name: "Tempeltje", desc: "Galgje met een Griekse tempel: raad letters voor de tempel af is.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><path class="ic-a" d="M10 20 28 9l18 11z"/><rect class="ic-b" x="12" y="22" width="5" height="18"/><rect class="ic-b" x="21" y="22" width="5" height="18"/><rect class="ic-b" x="30" y="22" width="5" height="18"/><rect class="ic-b" x="39" y="22" width="5" height="18"/><rect class="ic-a" x="8" y="42" width="40" height="5" rx="1"/>' },
+  { id: "flits", name: "Flitskaarten", desc: "Toon een begrip, laat de klas uitleggen en draai de kaart om.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><rect class="ic-s" x="14" y="10" width="30" height="22" rx="4" transform="rotate(8 29 21)"/><rect class="ic-a" x="10" y="18" width="30" height="22" rx="4"/><path class="ic-s" d="M17 29h16" style="stroke:#fff"/>' },
+  { id: "bingo", name: "Begrippenbingo", desc: "Leerlingen kiezen woorden voor hun rooster. Jij leest de uitleg voor.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><path class="ic-s" d="M10 10h36v36H10zM22 10v36M34 10v36M10 22h36M10 34h36"/><circle class="ic-a" cx="16" cy="16" r="4"/><circle class="ic-a" cx="28" cy="28" r="4"/><circle class="ic-b" cx="40" cy="40" r="4"/>' }
+];
+
+// ---------- state ----------
+const S = {
+  level: "start",
+  chapter: "s-tijd",
+  teams: [ { name: "Team 1", score: 0 }, { name: "Team 2", score: 0 } ],
+  turn: 0,
+  view: "menu",
+  game: null
+};
+try {
+  const saved = JSON.parse(localStorage.getItem("begrippenarena") || "null");
+  if (saved && DATA[saved.level]) {
+    S.level = saved.level;
+    if (DATA[saved.level].chapters.some(c => c.id === saved.chapter) || saved.chapter === "mix") S.chapter = saved.chapter;
+    if (Array.isArray(saved.teams) && saved.teams.length) S.teams = saved.teams.slice(0, 4).map(t => ({ name: String(t.name || "Team").slice(0, 24), score: 0 }));
+  }
+} catch (e) {}
+function save() {
+  try { localStorage.setItem("begrippenarena", JSON.stringify({ level: S.level, chapter: S.chapter, teams: S.teams.map(t => ({ name: t.name })) })); } catch (e) {}
+}
+
+const $app = document.getElementById("app");
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const fold = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toUpperCase();
+const teamColor = i => `var(--t${i + 1})`;
+
+function chapterTitle() {
+  if (S.chapter === "mix") return "Alle hoofdstukken";
+  return DATA[S.level].chapters.find(c => c.id === S.chapter).title;
+}
+function currentTerms(raw) {
+  const chs = S.chapter === "mix" ? DATA[S.level].chapters : DATA[S.level].chapters.filter(c => c.id === S.chapter);
+  const seen = new Set(), out = [];
+  chs.forEach(c => c.terms.forEach(([w, d, x]) => {
+    const k = w.toLowerCase();
+    if (seen.has(k)) return;
+    seen.add(k);
+    out.push(raw ? { w, d, x: x || "" } : { w, d: mask(d, w), x: x ? mask(x, w) : "" });
+  }));
+  return out;
+}
+// Verberg het begrip zelf als het in de uitleg of tip staat.
+function mask(text, w) {
+  const re = new RegExp(w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi");
+  return text.replace(re, "…");
+}
+
+// ---------- teams ----------
+function award(i, pts) { if (S.teams[i]) { S.teams[i].score = Math.max(0, S.teams[i].score + pts); } }
+function nextTurn() { if (S.teams.length) S.turn = (S.turn + 1) % S.teams.length; }
+function scoresHTML(showTurn) {
+  return `<div class="scores" aria-label="Scores">${S.teams.map((t, i) => `
+    <div class="score ${showTurn && i === S.turn ? "turn" : ""}" style="--tc:${teamColor(i)}">
+      <span class="dot"></span><span>${esc(t.name)}</span><span class="n" aria-live="polite">${t.score}</span>
+      <button class="pm" data-pm="${i}" data-d="-1" aria-label="Punt eraf voor ${esc(t.name)}">−</button>
+      <button class="pm" data-pm="${i}" data-d="1" aria-label="Punt erbij voor ${esc(t.name)}">+</button>
+    </div>`).join("")}</div>`;
+}
+function turnHTML() {
+  if (S.teams.length < 2) return "";
+  return `<div class="turnline" style="--tc:${teamColor(S.turn)}">Aan de beurt: <b>${esc(S.teams[S.turn].name)}</b></div>`;
+}
+function awardRow(label, pts, onDone) {
+  const id = "aw" + Math.random().toString(36).slice(2, 7);
+  setTimeout(() => {
+    document.querySelectorAll(`[data-aw="${id}"]`).forEach(b => b.onclick = () => {
+      const i = +b.dataset.i;
+      if (i >= 0) award(i, pts);
+      onDone(i);
+    });
+  });
+  const btns = S.teams.map((t, i) => `<button class="btn" data-aw="${id}" data-i="${i}" style="border-color:${teamColor(i)}">${esc(t.name)} +${pts}</button>`).join("");
+  return `<div class="row"><span class="label">${label}</span>${btns}<button class="btn ghost" data-aw="${id}" data-i="-1">Niemand</button></div>`;
+}
+
+// ---------- menu ----------
+function renderMenu() {
+  S.view = "menu";
+  const lvl = DATA[S.level];
+  const chips = lvl.chapters.map(c => `<button class="chip" data-ch="${c.id}" aria-pressed="${S.chapter === c.id}">${esc(c.title)} <small>${c.terms.length}</small></button>`).join("")
+    + `<button class="chip" data-ch="mix" aria-pressed="${S.chapter === "mix"}">Alle hoofdstukken door elkaar</button>`;
+  const games = GAMES.map(g => `<button class="game-card" data-game="${g.id}"><svg viewBox="0 0 56 56" aria-hidden="true">${g.icon}</svg><h3>${g.name}</h3><p>${g.desc}</p></button>`).join("");
+  const teams = S.teams.map((t, i) => `<label class="team-input"><i style="background:${teamColor(i)}"></i><input id="team-${i}" value="${esc(t.name)}" maxlength="24" aria-label="Naam team ${i + 1}"></label>`).join("");
+  $app.innerHTML = `
+    <header class="top">
+      <div class="brand">
+        <div class="label">Geschiedenis · begrippen inoefenen</div>
+        <h1>Begrippen<span>arena</span></h1>
+        <p>Kies een hoofdstuk en een spel. Alle spellen gebruiken de begrippen uit de leerbundel, dus je kan ze vrij afwisselen.</p>
+      </div>
+      <div class="seg" role="group" aria-label="Niveau">
+        <button data-lvl="start" aria-pressed="${S.level === "start"}">START · 5de–6de leerjaar</button>
+        <button data-lvl="spark" aria-pressed="${S.level === "spark"}">SPARK · 1ste–2de middelbaar</button>
+      </div>
+    </header>
+    <section style="display:flex;flex-direction:column;gap:10px">
+      <div class="label">1 · Hoofdstuk</div>
+      <div class="chapters">${chips}</div>
+    </section>
+    <section style="display:flex;flex-direction:column;gap:10px">
+      <div class="row" style="justify-content:space-between"><div class="label">2 · Spel</div><button class="linkbtn" data-list>Bekijk de begrippenlijst (${currentTerms().length})</button></div>
+      <div class="games">${games}</div>
+    </section>
+    <section class="panel">
+      <div class="row" style="justify-content:space-between">
+        <div class="label">Teams</div>
+        <div class="seg" role="group" aria-label="Aantal teams">${[1, 2, 3, 4].map(n => `<button data-nt="${n}" aria-pressed="${S.teams.length === n}">${n === 1 ? "Hele klas" : n + " teams"}</button>`).join("")}</div>
+      </div>
+      <div class="team-row">${teams}</div>
+      <div class="row" style="justify-content:space-between">
+        ${scoresHTML(false)}
+        <button class="linkbtn" data-reset>Scores op nul</button>
+      </div>
+    </section>`;
+  $app.querySelectorAll("[data-lvl]").forEach(b => b.onclick = () => { S.level = b.dataset.lvl; S.chapter = DATA[S.level].chapters[0].id; save(); renderMenu(); });
+  $app.querySelectorAll("[data-ch]").forEach(b => b.onclick = () => { S.chapter = b.dataset.ch; save(); renderMenu(); });
+  $app.querySelectorAll("[data-game]").forEach(b => b.onclick = () => startGame(b.dataset.game));
+  $app.querySelector("[data-list]").onclick = () => startGame("lijst");
+  $app.querySelectorAll("[data-nt]").forEach(b => b.onclick = () => {
+    const n = +b.dataset.nt;
+    while (S.teams.length < n) S.teams.push({ name: "Team " + (S.teams.length + 1), score: 0 });
+    S.teams = S.teams.slice(0, n);
+    if (n === 1 && /^Team \d$/.test(S.teams[0].name)) S.teams[0].name = "Klas";
+    if (n > 1 && S.teams[0].name === "Klas") S.teams[0].name = "Team 1";
+    S.turn = 0; save(); renderMenu();
+  });
+  S.teams.forEach((t, i) => { const inp = document.getElementById("team-" + i); inp.oninput = () => { t.name = inp.value || "Team " + (i + 1); save(); }; inp.onchange = renderMenu; });
+  $app.querySelector("[data-reset]").onclick = () => { S.teams.forEach(t => t.score = 0); renderMenu(); };
+  bindPM();
+}
+function bindPM() {
+  $app.querySelectorAll("[data-pm]").forEach(b => b.onclick = () => { award(+b.dataset.pm, +b.dataset.d); refreshScores(); });
+}
+function refreshScores() {
+  const el = $app.querySelector(".scores");
+  if (!el) return;
+  el.outerHTML = scoresHTML(S.view === "game" && S.game && S.game.turnBased);
+  bindPM();
+}
+
+// ---------- game shell ----------
+function shell(gameName, inner) {
+  return `
+    <div class="bar">
+      <div class="where"><span class="label">${esc(DATA[S.level].label)} · ${esc(chapterTitle())}</span><strong>${gameName}</strong></div>
+      ${scoresHTML(S.game && S.game.turnBased)}
+      <button class="btn ghost" data-back>← Menu</button>
+    </div>
+    <div class="stage">${inner}</div>`;
+}
+function mount(gameName, inner) {
+  $app.innerHTML = shell(gameName, inner);
+  $app.querySelector("[data-back]").onclick = () => { document.onkeydown = null; renderMenu(); };
+  bindPM();
+}
+function startGame(id) {
+  S.view = "game";
+  document.onkeydown = null;
+  const terms = currentTerms(id === "lijst");
+  ({ quiz: Quiz, memory: Memory, raad: Raad, galgje: Galgje, flits: Flits, bingo: Bingo, lijst: Lijst })[id](terms);
+  window.scrollTo(0, 0);
+}
+function endScreen(title, sub, again) {
+  S.game.turnBased = false;
+  const best = Math.max(...S.teams.map(t => t.score));
+  const winners = S.teams.filter(t => t.score === best && best > 0).map(t => t.name);
+  const line = S.teams.length > 1 && winners.length ? (winners.length > 1 ? "Gelijkspel tussen " + winners.join(" en ") : winners[0] + " staat voor") : "";
+  mount(title, `<div class="endbox"><div class="label">Klaar</div><h2>${esc(sub)}</h2>${line ? `<p style="font-size:1.2rem;margin:0">${esc(line)}</p>` : ""}<div class="row" style="justify-content:center"><button class="btn primary" data-again>Nog een ronde</button><button class="btn ghost" data-menu>Ander spel kiezen</button></div></div>`);
+  $app.querySelector("[data-again]").onclick = again;
+  $app.querySelector("[data-menu]").onclick = renderMenu;
+}
+
+// ---------- quiz ----------
+function Quiz(terms, opts) {
+  const reverse = opts && opts.reverse || false;
+  const qs = shuffle(terms).slice(0, Math.min(10, terms.length));
+  S.game = { turnBased: S.teams.length > 1 };
+  let i = 0;
+  function q() {
+    const t = qs[i];
+    const others = shuffle(terms.filter(o => o.w !== t.w)).slice(0, 3);
+    const options = shuffle([t, ...others]);
+    const prompt = reverse ? `<div class="prompt term">${esc(t.w)}</div>` : `<div class="prompt">${esc(t.d)}</div>`;
+    mount("Quiz", `
+      <div class="row" style="justify-content:space-between">
+        <span class="progress">Vraag ${i + 1} van ${qs.length}</span>
+        ${turnHTML()}
+        <button class="linkbtn" data-rev>${reverse ? "Speel: uitleg → begrip" : "Speel omgekeerd: begrip → uitleg"}</button>
+      </div>
+      <div class="label">${reverse ? "Welke uitleg past bij dit begrip?" : "Welk begrip past bij deze uitleg?"}</div>
+      ${prompt}
+      <div class="options">${options.map((o, k) => `<button class="opt ${reverse ? "long" : ""}" data-o="${k}"><span class="k">${"ABCD"[k]}</span><span>${esc(reverse ? o.d : o.w)}</span></button>`).join("")}</div>
+      <div class="row" style="justify-content:space-between"><div class="feedback" aria-live="polite"></div><button class="btn primary" data-next hidden>${i + 1 < qs.length ? "Volgende vraag →" : "Bekijk de uitslag"}</button></div>`);
+    $app.querySelector("[data-rev]").onclick = () => Quiz(terms, { reverse: !reverse });
+    const btns = [...$app.querySelectorAll(".opt")];
+    const answer = k => {
+      if (btns[0].disabled) return;
+      const ok = options[k] === t;
+      btns.forEach((b, j) => { b.disabled = true; if (options[j] === t) b.classList.add("right"); });
+      const fb = $app.querySelector(".feedback");
+      if (ok) { award(S.turn, 1); fb.textContent = S.teams.length > 1 ? `Juist! +1 voor ${S.teams[S.turn].name}` : "Juist!"; fb.className = "feedback good"; }
+      else { btns[k].classList.add("wrong"); fb.textContent = `Helaas. Het juiste antwoord is: ${t.w}`; fb.className = "feedback badc"; }
+      refreshScores();
+      const nx = $app.querySelector("[data-next]"); nx.hidden = false; nx.focus();
+    };
+    btns.forEach((b, k) => b.onclick = () => answer(k));
+    $app.querySelector("[data-next]").onclick = () => { nextTurn(); i++; if (i < qs.length) q(); else endScreen("Quiz", "De quiz is gedaan", () => Quiz(terms, { reverse })); };
+    document.onkeydown = e => {
+      const k = "abcd".indexOf(e.key.toLowerCase()); const n = "1234".indexOf(e.key);
+      if (k >= 0 && k < btns.length) answer(k); else if (n >= 0 && n < btns.length) answer(n);
+    };
+  }
+  q();
+}
+
+// ---------- memory ----------
+function Memory(terms, opts) {
+  const pairs = Math.min(opts && opts.pairs || 8, terms.length);
+  const pick = shuffle(terms).slice(0, pairs);
+  const cards = shuffle(pick.flatMap((t, p) => [{ p, kind: "w", text: t.w }, { p, kind: "d", text: t.d }]));
+  S.game = { turnBased: S.teams.length > 1 };
+  let open = [], found = 0, owner = {}, waiting = false;
+  function draw() {
+    mount("Memory", `
+      <div class="row" style="justify-content:space-between">
+        <span class="progress">${found} van ${pairs} paren gevonden</span>
+        ${turnHTML()}
+        <div class="row"><span class="label">Paren</span>${[6, 8].map(n => `<button class="btn ${n === pairs ? "primary" : "ghost"}" data-pairs="${n}">${n}</button>`).join("")}</div>
+      </div>
+      <div class="mem">${cards.map((c, k) => {
+        const isOpen = open.includes(k) || owner[c.p] !== undefined;
+        const cls = ["mcard", isOpen ? "open " + c.kind : "", owner[c.p] !== undefined ? "done" : "", waiting && open.includes(k) ? "miss" : ""].join(" ");
+        const style = owner[c.p] !== undefined && owner[c.p] >= 0 ? `style="--tc:${teamColor(owner[c.p])}"` : `style="--tc:var(--ok)"`;
+        return `<button class="${cls}" ${style} data-c="${k}" aria-label="${isOpen ? esc(c.text) : "Gesloten kaart " + (k + 1)}">${isOpen ? esc(c.text) : '<span class="back">?</span>'}</button>`;
+      }).join("")}</div>
+      <div class="row" style="justify-content:space-between"><div class="feedback" aria-live="polite">${waiting ? "Geen paar." : ""}</div><button class="btn primary" data-flip ${waiting ? "" : "hidden"}>Kaarten omdraaien${S.teams.length > 1 ? " · volgend team" : ""}</button></div>
+      <p class="note">Blauwe kaarten zijn nog dicht. Een begrip hoort bij de uitleg op een oranje kaart.</p>`);
+    $app.querySelectorAll("[data-pairs]").forEach(b => b.onclick = () => Memory(terms, { pairs: +b.dataset.pairs }));
+    $app.querySelectorAll("[data-c]").forEach(b => b.onclick = () => flip(+b.dataset.c));
+    const fl = $app.querySelector("[data-flip]"); if (fl) fl.onclick = () => { open = []; waiting = false; nextTurn(); draw(); };
+  }
+  function flip(k) {
+    if (waiting || open.includes(k) || owner[cards[k].p] !== undefined) return;
+    open.push(k);
+    if (open.length === 2) {
+      const [a, b] = open.map(n => cards[n]);
+      if (a.p === b.p) {
+        owner[a.p] = S.teams.length ? S.turn : -1; award(S.turn, 1); found++; open = [];
+        if (found === pairs) { draw(); setTimeout(() => endScreen("Memory", "Alle paren zijn gevonden", () => Memory(terms, { pairs })), 900); return; }
+      } else waiting = true;
+    }
+    draw();
+  }
+  draw();
+}
+
+// ---------- raad het begrip ----------
+function Raad(terms) {
+  const rounds = shuffle(terms).slice(0, Math.min(10, terms.length));
+  S.game = { turnBased: false };
+  let i = 0;
+  function pattern(w) { return [...w].map((ch, k) => k === 0 ? ch.toUpperCase() : (/\p{L}/u.test(ch) ? "_" : (ch === " " ? "  " : ch))).join(" "); }
+  function round() {
+    const t = rounds[i];
+    const hints = [{ txt: t.d, lab: "Uitleg" }];
+    if (t.x) hints.push({ txt: t.x, lab: "Extra tip" });
+    const letters = [...t.w].filter(c => /\p{L}/u.test(c)).length;
+    hints.push({ txt: `<span class="pattern">${esc(pattern(t.w))}</span><br><small class="note">${letters} letters</small>`, lab: "Letters", raw: true });
+    let shown = 1, revealed = false;
+    function draw() {
+      const pts = Math.max(1, hints.length - shown + 1);
+      mount("Raad het begrip", `
+        <div class="row" style="justify-content:space-between"><span class="progress">Begrip ${i + 1} van ${rounds.length}</span><span class="label">Nu raden = ${pts} ${pts === 1 ? "punt" : "punten"}</span></div>
+        <div class="hints">${hints.map((h, k) => k < shown || revealed
+          ? `<div class="hint"><span class="num">${k + 1}</span><div><div class="label">${h.lab}</div>${h.raw ? h.txt : esc(h.txt)}</div></div>`
+          : `<div class="hint hidden-h"><span class="num" style="background:var(--line)">${k + 1}</span><div>Hint ${k + 1} is nog verborgen</div></div>`).join("")}</div>
+        ${revealed ? `<div class="answer">${esc(t.w)}</div>` : ""}
+        ${revealed ? `<div class="row end"><button class="btn primary" data-nextr>${i + 1 < rounds.length ? "Volgend begrip →" : "Bekijk de uitslag"}</button></div>`
+          : `<div class="row"><button class="btn oker" data-hint ${shown >= hints.length ? "disabled" : ""}>Volgende hint</button><button class="btn" data-show>Toon antwoord</button></div>
+             ${awardRow("Goed geraden door", pts, () => { revealed = true; refreshAfter(); })}`}`);
+      const h = $app.querySelector("[data-hint]"); if (h) h.onclick = () => { shown++; draw(); };
+      const s = $app.querySelector("[data-show]"); if (s) s.onclick = () => { revealed = true; draw(); };
+      const n = $app.querySelector("[data-nextr]"); if (n) n.onclick = () => { i++; if (i < rounds.length) round(); else endScreen("Raad het begrip", "Alle begrippen zijn geraden", () => Raad(terms)); };
+    }
+    function refreshAfter() { draw(); }
+    draw();
+  }
+  round();
+}
+
+// ---------- galgje / tempeltje ----------
+function Galgje(terms, used) {
+  used = used || new Set();
+  const pool = terms.filter(t => !used.has(t.w) && [...t.w].filter(c => /\p{L}/u.test(c)).length >= 3);
+  if (!pool.length) { used.clear(); return Galgje(terms, used); }
+  const t = shuffle(pool)[0]; used.add(t.w);
+  const MAX = 8;
+  const target = [...t.w];
+  const guessed = new Set(); let wrong = 0, done = false, won = false;
+  S.game = { turnBased: S.teams.length > 1 };
+  const isLetter = c => /\p{L}/u.test(c);
+  const allFound = () => target.every(c => !isLetter(c) || guessed.has(fold(c)));
+  function temple() {
+    // 8 stukken: trede, trede, 4 zuilen, balk, fronton
+    const p = [
+      `<rect x="10" y="196" width="220" height="14" rx="2"/>`,
+      `<rect x="24" y="182" width="192" height="14" rx="2"/>`,
+      `<rect x="40" y="92" width="18" height="90"/>`,
+      `<rect x="88" y="92" width="18" height="90"/>`,
+      `<rect x="134" y="92" width="18" height="90"/>`,
+      `<rect x="182" y="92" width="18" height="90"/>`,
+      `<rect x="28" y="74" width="184" height="18" rx="2"/>`,
+      `<path d="M22 72 120 20 218 72z"/>`
+    ];
+    return `<svg class="temple" viewBox="0 0 240 216" role="img" aria-label="${wrong} van ${MAX} stukken van de tempel staan er">
+      ${p.map((s, k) => k < wrong ? s.replace("<rect", '<rect class="piece"').replace("<path", '<path class="piece"') : s.replace("<rect", '<rect class="ghost"').replace("<path", '<path class="ghost"')).join("")}
+    </svg>`;
+  }
+  function draw() {
+    const slots = target.map(c => {
+      if (c === " ") return `<span class="slot gap"> </span>`;
+      if (!isLetter(c)) return `<span class="slot">${esc(c)}</span>`;
+      const show = guessed.has(fold(c)) || done;
+      return `<span class="slot ${done && !guessed.has(fold(c)) ? "lost" : ""}">${show ? esc(c.toUpperCase()) : "&nbsp;"}</span>`;
+    }).join("");
+    const keys = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").map(L => {
+      const inWord = target.some(c => fold(c) === L);
+      const cls = guessed.has(L) ? (inWord ? "hit" : "miss") : "";
+      return `<button class="key ${cls}" data-k="${L}" ${guessed.has(L) || done ? "disabled" : ""}>${L}</button>`;
+    }).join("");
+    mount("Tempeltje", `
+      ${done ? "" : `<div class="row" style="justify-content:space-between">${turnHTML()}<span class="label">Raad letter per letter, of zeg het hele begrip</span></div>`}
+      <div class="hang">
+        <div class="stage">
+          <div class="prompt" style="min-height:0;font-size:clamp(1.1rem,2.2vw,1.6rem)"><div><div class="label" style="font-family:var(--font-body)">Uitleg</div>${esc(t.d)}</div></div>
+          <div class="slots" aria-live="polite">${slots}</div>
+          ${done ? `<div class="feedback ${won ? "good" : "badc"}" style="text-align:center;font-size:1.4rem">${won ? "Geraden!" : "De tempel staat er. Het begrip was: " + esc(t.w)}</div>` : `<div class="keys">${keys}</div>`}
+          ${done ? (won && S.teams.length ? awardRow("Punt voor", 2, () => next()) : `<div class="row end"><button class="btn primary" data-nw>Nieuw begrip →</button></div>`)
+                 : `<div class="row end"><button class="btn" data-solve>Iemand weet het hele begrip</button></div>`}
+        </div>
+        <div>${temple()}<div class="lives">${MAX - wrong} foute letters over</div></div>
+      </div>`);
+    $app.querySelectorAll("[data-k]").forEach(b => b.onclick = () => guess(b.dataset.k));
+    const sv = $app.querySelector("[data-solve]"); if (sv) sv.onclick = () => { target.forEach(c => isLetter(c) && guessed.add(fold(c))); done = true; won = true; draw(); };
+    const nw = $app.querySelector("[data-nw]"); if (nw) nw.onclick = next;
+  }
+  function next() { nextTurn(); Galgje(terms, used); }
+  function guess(L) {
+    if (done || guessed.has(L)) return;
+    guessed.add(L);
+    if (!target.some(c => fold(c) === L)) { wrong++; nextTurn(); }
+    if (allFound()) { done = true; won = true; }
+    else if (wrong >= MAX) { done = true; }
+    draw();
+  }
+  document.onkeydown = e => { if (/^[a-z]$/i.test(e.key) && !e.ctrlKey && !e.metaKey && document.activeElement.tagName !== "INPUT") guess(e.key.toUpperCase()); };
+  draw();
+}
+
+// ---------- flitskaarten ----------
+function Flits(terms, opts) {
+  const defFirst = opts && opts.defFirst || false;
+  let deck = shuffle(terms), i = 0, flipped = false;
+  S.game = { turnBased: false };
+  function draw() {
+    const t = deck[i];
+    const front = defFirst ? `<div class="def">${esc(t.d)}</div>` : `<div class="big">${esc(t.w)}</div>`;
+    const back = defFirst ? `<div class="big">${esc(t.w)}</div>${t.x ? `<div class="tip">${esc(t.x)}</div>` : ""}` : `<div class="def">${esc(t.d)}</div>${t.x ? `<div class="tip">Tip: ${esc(t.x)}</div>` : ""}`;
+    mount("Flitskaarten", `
+      <div class="row" style="justify-content:space-between"><span class="progress">Kaart ${i + 1} van ${deck.length}</span>
+        <button class="linkbtn" data-mode>${defFirst ? "Toon eerst het begrip" : "Toon eerst de uitleg"}</button></div>
+      <div class="flash ${flipped ? "flipped" : ""}"><div class="flash-inner" data-turn role="button" tabindex="0" aria-label="Kaart omdraaien">
+        <div class="face"><div class="label">${defFirst ? "Welk begrip is dit?" : "Wat betekent dit?"}</div>${front}</div>
+        <div class="face back-f"><div class="label">${defFirst ? "Begrip" : "Uitleg"}</div>${back}</div>
+      </div></div>
+      <div class="row" style="justify-content:center">
+        <button class="btn ghost" data-prev ${i === 0 ? "disabled" : ""}>← Vorige</button>
+        <button class="btn oker" data-flipc>Draai om</button>
+        <button class="btn primary" data-nextc ${i + 1 >= deck.length ? "disabled" : ""}>Volgende →</button>
+        <button class="btn ghost" data-shuf>Schudden</button>
+      </div>
+      <p class="note" style="text-align:center">Spatiebalk draait de kaart, pijltjes gaan naar de vorige of volgende.</p>`);
+    const turn = () => { flipped = !flipped; $app.querySelector(".flash").classList.toggle("flipped", flipped); };
+    $app.querySelector("[data-turn]").onclick = turn;
+    $app.querySelector("[data-flipc]").onclick = turn;
+    $app.querySelector("[data-prev]").onclick = () => { if (i > 0) { i--; flipped = false; draw(); } };
+    $app.querySelector("[data-nextc]").onclick = () => { if (i + 1 < deck.length) { i++; flipped = false; draw(); } };
+    $app.querySelector("[data-shuf]").onclick = () => { deck = shuffle(terms); i = 0; flipped = false; draw(); };
+    $app.querySelector("[data-mode]").onclick = () => Flits(terms, { defFirst: !defFirst });
+    document.onkeydown = e => {
+      if (e.key === " ") { e.preventDefault(); turn(); }
+      else if (e.key === "ArrowRight") $app.querySelector("[data-nextc]").click();
+      else if (e.key === "ArrowLeft") $app.querySelector("[data-prev]").click();
+    };
+  }
+  draw();
+}
+
+// ---------- bingo ----------
+function Bingo(terms, opts) {
+  const size = opts && opts.size || 3;
+  const max = size === 3 ? 18 : 28;
+  const set = opts && opts.set || shuffle(terms).slice(0, Math.min(max, terms.length));
+  S.game = { turnBased: false };
+  let order = null, i = -1, showCalled = false;
+  function setup() {
+    mount("Begrippenbingo", `
+      <div class="panel">
+        <div class="row" style="justify-content:space-between">
+          <div class="label">Stap 1 · Rooster maken</div>
+          <div class="seg" role="group" aria-label="Grootte">${[3, 4].map(n => `<button data-size="${n}" aria-pressed="${n === size}">${n} × ${n}</button>`).join("")}</div>
+        </div>
+        <ol class="howto">
+          <li>Iedereen tekent een rooster van ${size} bij ${size} vakjes.</li>
+          <li>Kies ${size * size} begrippen uit de lijst hieronder en schrijf er één in elk vakje.</li>
+          <li>Jij leest telkens een uitleg voor. Wie het begrip op zijn rooster heeft, kruist het aan.</li>
+          <li>Een volle rij, kolom of diagonaal? Roep BINGO en lees je begrippen voor.</li>
+        </ol>
+      </div>
+      <div class="wall">${set.map(t => `<span>${esc(t.w)}</span>`).join("")}</div>
+      <div class="row" style="justify-content:space-between">
+        <button class="btn ghost" data-newset>Andere begrippen kiezen</button>
+        <button class="btn primary" data-start>Start de bingo →</button>
+      </div>`);
+    $app.querySelectorAll("[data-size]").forEach(b => b.onclick = () => Bingo(terms, { size: +b.dataset.size }));
+    $app.querySelector("[data-newset]").onclick = () => Bingo(terms, { size });
+    $app.querySelector("[data-start]").onclick = () => { order = shuffle(set); i = 0; play(); };
+  }
+  function play() {
+    const t = order[i];
+    const called = order.slice(0, i + 1);
+    mount("Begrippenbingo", `
+      <div class="row" style="justify-content:space-between"><span class="progress">Uitleg ${i + 1} van ${order.length}</span><button class="linkbtn" data-setup>Terug naar de woordenlijst</button></div>
+      <div class="prompt">${esc(t.d)}</div>
+      <div class="row" style="justify-content:space-between">
+        <button class="btn" data-check>${showCalled ? "Verberg de afgeroepen begrippen" : "Controleer een bingo"}</button>
+        <button class="btn primary" data-nextb ${i + 1 >= order.length ? "disabled" : ""}>Volgende uitleg →</button>
+      </div>
+      ${showCalled ? `<div class="label">Al afgeroepen (groen)</div><div class="wall">${set.map(s => `<span class="${called.includes(s) ? "called" : ""}">${esc(s.w)}</span>`).join("")}</div>` : ""}`);
+    $app.querySelector("[data-nextb]").onclick = () => { if (i + 1 < order.length) { i++; play(); } };
+    $app.querySelector("[data-check]").onclick = () => { showCalled = !showCalled; play(); };
+    $app.querySelector("[data-setup]").onclick = setup;
+    document.onkeydown = e => { if (e.key === "ArrowRight") $app.querySelector("[data-nextb]").click(); };
+  }
+  setup();
+}
+
+// ---------- lijst ----------
+function Lijst(terms) {
+  S.game = { turnBased: false };
+  const sorted = terms.slice().sort((a, b) => a.w.localeCompare(b.w, "nl"));
+  mount("Begrippenlijst", `
+    <p class="note" style="margin:0">${terms.length} begrippen. In de spellen wordt het begrip zelf in de uitleg vervangen door “…”, zodat het antwoord niet verklapt wordt.</p>
+    <div class="tablewrap"><table><thead><tr><th>Begrip</th><th>Uitleg</th><th>Extra tip</th></tr></thead>
+    <tbody>${sorted.map(t => `<tr><td>${esc(t.w)}</td><td>${esc(t.d)}</td><td class="x">${esc(t.x)}</td></tr>`).join("")}</tbody></table></div>`);
+}
+
+renderMenu();
+</script>
+
+</body></html>

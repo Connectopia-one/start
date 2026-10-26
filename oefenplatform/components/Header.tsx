@@ -22,6 +22,7 @@ function menuLinks(rol?: Rol) {
     { href: "/", tekst: "Vakken" },
     { href: "/tips", tekst: "Tips" },
     { href: "/weetjes", tekst: "Weetjes" },
+    { href: "/extras", tekst: "Leuke extra's" },
     { href: "/materiaal", tekst: "Materiaal" },
     { href: "/over-ons", tekst: "Over ons" },
   ];
