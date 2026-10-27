@@ -943,11 +943,15 @@ H["Bronnen, kunst en beeldvorming — deel 2"] += [
 BN = ["Bevestigt", "Nuanceert"]
 
 
-def stelling(tekst, bronnen, uitleg, argument, tegenvoorbeeld=None):
+def stelling(tekst, bronnen, uitleg, argument, tegenvoorbeeld=None, zin=None):
     """
     Een casus met een stelling en genummerde bronnen. bronnen is een lijst van
     (tekst, "Bevestigt" of "Nuanceert"). Daarop volgen een tabel per bron, een
     keuzelijst voor het tegenvoorbeeld als dat gegeven is, en een open vraag.
+
+    Met zin = (zin met [[woorden]], extra woorden) wordt het argument een zin
+    om aan te vullen in plaats van een open vraag. Kim vond de open vraag op
+    27-10-2026 te moeilijk voor ✨ Spark.
     """
     casustekst = f"Stelling: {tekst}\n\n" + "\n\n".join(f"Bron {i}. {b}" for i, (b, _) in enumerate(bronnen, 1))
     vragen = [
@@ -965,6 +969,9 @@ def stelling(tekst, bronnen, uitleg, argument, tegenvoorbeeld=None):
             f"Het duidelijkste tegenvoorbeeld voor de stelling staat in bron [[*{nummer}|{'|'.join(andere)}]].",
             waarom,
         ))
+    if zin:
+        vragen.append(sleep(zin[0], zin[1], argument))
+        return casus(casustekst, vragen)
     vragen.append(open_(
         "Bevestig of nuanceer de stelling. Geef een argument en verwijs naar minstens twee bronnen.",
         argument,
@@ -1033,7 +1040,9 @@ H["Het oude Griekenland — deel 1"] += [
         "De Peloponnesos is het grote schiereiland onderaan, met Sparta en Olympia. Het is alleen met een smalle strook land met de rest van Griekenland verbonden.",
     ),
     stelling(
-        "In Athene mocht iedereen mee beslissen over de stad.",
+        # Eerst "In Athene mocht iedereen mee beslissen", maar dan bevestigen
+        # bron 1 en 2 een stelling die gewoon fout is (Kim, 27-10-2026).
+        "In Athene besliste het volk zelf over de stad.",
         [
             ("In de volksvergadering kon elke burger het woord nemen en mee stemmen over wetten en oorlog.", "Bevestigt"),
             ("Veel ambten werden door loting verdeeld, zodat elke burger eens aan de beurt kon komen.", "Bevestigt"),
@@ -1041,7 +1050,11 @@ H["Het oude Griekenland — deel 1"] += [
             ("Slaven en vreemdelingen die in Athene woonden, mochten niet naar de volksvergadering.", "Nuanceert"),
         ],
         "De bronnen 1 en 2 tonen hoe burgers mee beslisten. De bronnen 3 en 4 tonen dat lang niet iedereen burger was.",
-        "Ik nuanceer de stelling. Burgers konden wel echt mee beslissen in de volksvergadering en via loting, zoals bron 1 en 2 tonen. Maar vrouwen, slaven en vreemdelingen waren geen burger en mochten niet stemmen, dat zie je in bron 3 en 4. Het grootste deel van de inwoners deed dus niet mee.",
+        "Burgers konden echt mee beslissen in de volksvergadering en via loting, zoals bron 1 en 2 tonen. Maar vrouwen, slaven en vreemdelingen waren geen burger en mochten niet stemmen, dat zie je in bron 3 en 4. Het grootste deel van de inwoners deed dus niet mee. Daarom nuanceer je de stelling.",
+        zin=(
+            "Ik [[nuanceer]] de stelling. Volgens bron 1 en 2 konden de [[burgers]] zelf stemmen en een ambt krijgen. Maar bron 3 en 4 tonen dat [[vrouwen]], slaven en vreemdelingen niet mochten meedoen.",
+            ["bevestig", "koningen", "soldaten"],
+        ),
     ),
 ]
 
