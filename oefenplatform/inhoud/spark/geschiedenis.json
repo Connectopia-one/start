@@ -207,6 +207,36 @@
           "vraag": "Het jaar 50 v.C. ligt later in de tijd dan het jaar 200 v.C.",
           "antwoord": true,
           "uitleg": "Voor Christus tel je terug, dus 50 v.C. ligt dichter bij ons dan 200 v.C."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heet de periode die op de middeleeuwen volgt?",
+          "opties": [
+            "de vroegmoderne tijd",
+            "de moderne tijd",
+            "de nieuwste tijd",
+            "de hedendaagse of eigen tijd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na de middeleeuwen komt de vroegmoderne tijd, van ongeveer 1500 tot 1789. In oudere boeken heet die nog de nieuwe tijd."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Na het jaar 1 v.C. komt meteen het jaar 1 n.C.",
+          "antwoord": true,
+          "uitleg": "Klopt. Een jaar 0 bestaat niet in onze tijdrekening."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een samenleving waarin de man het hoofd van het gezin is en beslist, noem je...",
+          "opties": [
+            "een patriarchale samenleving",
+            "een aristocratie",
+            "een standenmaatschappij met vaste lagen",
+            "een monotheïsme"
+          ],
+          "antwoord": 0,
+          "uitleg": "Patriarchaal komt van pater, vader. In Rome had de pater familias het gezag over zijn hele gezin."
         }
       ]
     },
@@ -413,6 +443,39 @@
           "vraag": "Omdat de westerse periodisering uit Europa komt, past ze even goed op de geschiedenis van Afrika en Azië.",
           "antwoord": false,
           "uitleg": "Net omgekeerd: de indeling is gemaakt vanuit de Europese geschiedenis en past daarom vaak slecht op andere werelddelen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze begrippen horen bij het economische domein?",
+          "opties": [
+            "ruileconomie",
+            "geldeconomie",
+            "autocratie",
+            "polytheïsme"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Ruilen en betalen met munten gaan over hoe mensen aan goederen komen: economisch. Autocratie is politiek, polytheïsme cultureel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De farao en de Romeinse keizer hadden allebei alle macht in handen. Welk begrip past daarbij?",
+          "opties": [
+            "autocratie",
+            "aristocratie",
+            "democratie",
+            "republiek"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een autocratie heeft één persoon alle macht. Bij een aristocratie is dat de adel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Monotheïsme is het geloof in veel goden.",
+          "antwoord": false,
+          "uitleg": "Nee, dat is polytheïsme. Monotheïsme is het geloof in één god, zoals bij het christendom."
         }
       ]
     },
@@ -627,6 +690,30 @@
           "vraag": "De mens heeft het grootste deel van zijn bestaan als jager en verzamelaar geleefd.",
           "antwoord": true,
           "uitleg": "De landbouw bestaat pas zo'n tienduizend jaar. Daarvoor leefde de mens honderdduizenden jaren van jacht en verzameling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke mensachtige maakte de eerste eenvoudige stenen werktuigen?",
+          "opties": [
+            "Homo habilis",
+            "Homo sapiens",
+            "de neanderthaler",
+            "Australopithecus"
+          ],
+          "antwoord": 0,
+          "uitleg": "Habilis betekent handig. De Homo habilis leefde zo'n 2,4 tot 1,4 miljoen jaar geleden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De laatste ijstijd eindigde ongeveer 12 000 jaar geleden, en daarna werd het warmer.",
+          "antwoord": true,
+          "uitleg": "Klopt. In het warmere klimaat groeiden wilde granen in overvloed, en dat hielp de landbouw op gang."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet één grote, rechtopstaande steen uit de prehistorie? (één woord)",
+          "antwoord": "menhir",
+          "uitleg": "Een menhir staat alleen rechtop. Bij een dolmen of hunebed liggen grote stenen boven een graf. In Wéris staan ze allebei."
         }
       ]
     },
@@ -846,6 +933,36 @@
           "vraag": "Door de landbouw werden alle mensen even rijk.",
           "antwoord": false,
           "uitleg": "Integendeel: wie grond en voorraden bezat, werd rijker dan wie dat niet had. Zo ontstond juist ongelijkheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom begonnen mensen na de laatste ijstijd zelf te zaaien?",
+          "opties": [
+            "Het werd warmer, wilde granen groeiden en hun aantal nam toe",
+            "Ze hadden de ploeg uitgevonden en wilden die eindelijk eens gebruiken",
+            "De jacht was verboden geraakt",
+            "Ze wilden munten verdienen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een warmer klimaat, veel wilde granen en een groeiende groep: jagen en verzamelen alleen werd te weinig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar in België vind je prehistorische vuursteenmijnen die werelderfgoed zijn?",
+          "opties": [
+            "Spiennes",
+            "Tongeren",
+            "Wéris in de Ardennen",
+            "Lascaux"
+          ],
+          "antwoord": 0,
+          "uitleg": "In Spiennes bij Bergen groeven de eerste boeren schachten om vuursteen voor hun bijlen te halen. Lascaux ligt in Frankrijk."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De landbouw kwam in onze streken tegelijk aan als in het Midden-Oosten.",
+          "antwoord": false,
+          "uitleg": "Nee. De eerste boeren kwamen hier pas rond 5300 v.C., zo'n vijfduizend jaar later. De landbouw verspreidde zich heel traag."
         }
       ]
     },
@@ -1069,6 +1186,36 @@
           "vraag": "In Egypte schreef men met spijkerschrift.",
           "antwoord": false,
           "uitleg": "Spijkerschrift hoort bij Mesopotamië. Egypte gebruikte hiërogliefen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke Egyptische god heeft een jakhalskop en zorgt voor het balsemen?",
+          "opties": [
+            "Anoebis",
+            "Horus",
+            "Toth",
+            "de zonnegod Re"
+          ],
+          "antwoord": 0,
+          "uitleg": "Anoebis heeft een jakhalskop. Horus heeft een valkenkop, Toth een ibiskop, en Re een valkenkop met de zonneschijf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie was in Egypte de hoogste ambtenaar, de rechterhand van de farao?",
+          "opties": [
+            "de vizier",
+            "de priester",
+            "de schrijver",
+            "de gouwvorst"
+          ],
+          "antwoord": 0,
+          "uitleg": "De vizier bestuurde het land in naam van de farao. De gouwvorsten bestuurden elk een deel, de schrijvers hielden de boeken bij."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Howard Carter vond in 1922 het graf van Toetanchamon.",
+          "antwoord": true,
+          "uitleg": "Klopt. Het lag in de Vallei der Koningen en was als enige bijna ongeschonden."
         }
       ]
     },
@@ -1295,6 +1442,42 @@
           "vraag": "Het wiel en de sterrenkunde komen allebei uit Mesopotamië.",
           "antwoord": true,
           "uitleg": "Mesopotamië gaf ons onder meer het wiel en de astronomie. Onze zestig minuten en zestig seconden komen ook uit hun rekenstelsel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurde er volgens de Egyptenaren bij de hartweging?",
+          "opties": [
+            "Het hart werd gewogen tegen een veer",
+            "De farao woog het goud van het graf",
+            "De priesters wogen de oogst voor de goden",
+            "De mummie werd gewogen voor het balsemen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Anoebis legde het hart op een weegschaal tegen een veer, en Toth schreef de uitslag op. Een licht hart mocht naar het rijk van Osiris."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom spreken we bij de Egyptische godsdienst van een natuurgodsdienst?",
+          "opties": [
+            "Veel goden staan voor krachten van de natuur",
+            "Ze baden enkel buiten, in de vrije natuur, en nooit in een tempel",
+            "Ze kenden maar één god",
+            "De farao was geen god"
+          ],
+          "antwoord": 0,
+          "uitleg": "De zon (Re), het water van de Nijl (Sobek), de woestijn en de storm (Seth): de natuur bepaalde hun leven, en hun goden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke voorwerpen hield de farao vast als teken van zijn macht?",
+          "opties": [
+            "een kromstaf en een dorsvlegel",
+            "een lauwerkrans en een toga",
+            "een zwaard en een schild",
+            "een kleitablet en een rietstengel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Samen met de dubbele kroon, de valse baard en de cobra op zijn voorhoofd. De lauwerkrans hoort bij de Romeinse keizer."
         }
       ]
     },
@@ -1505,6 +1688,36 @@
           ],
           "antwoord": 0,
           "uitleg": "Socrates stelde vragen in plaats van antwoorden te geven. Zijn leerling Plato schreef het op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op welk eiland bloeide de Minoïsche beschaving?",
+          "opties": [
+            "Kreta",
+            "Sicilië",
+            "Cyprus",
+            "Rhodos"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op Kreta, ongeveer van 2000 tot 1450 v.C., met het paleis van Knossos. De naam komt van de sagenkoning Minos."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heetten de vreemdelingen in Athene die vrij waren, belasting betaalden, maar niet mochten stemmen?",
+          "opties": [
+            "metoiken",
+            "heloten",
+            "perioiken",
+            "Spartiaten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Metoiken woonden in Athene. Perioiken en heloten hoorden bij Sparta."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de Atheense democratie werden veel bestuurders door loting gekozen.",
+          "antwoord": true,
+          "uitleg": "Klopt. De leden van de Raad van 500 en de rechters werden geloot uit de burgers."
         }
       ]
     },
@@ -1734,6 +1947,36 @@
           "vraag": "Hoe noem je de vermenging van Griekse cultuur met die van het oosten na Alexander? (één woord)",
           "antwoord": "hellenisme",
           "uitleg": "Na zijn dood viel het rijk uiteen, maar de Griekse taal en cultuur bleven er eeuwenlang de toon aangeven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een paleiseconomie?",
+          "opties": [
+            "Het paleis verzamelt de oogst, bewaart ze en verdeelt ze",
+            "Iedereen ruilt vrij op de markt",
+            "Het paleis betaalt de boeren elke maand met zilveren munten voor hun werk",
+            "Elke familie houdt haar oogst zelf"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zo werkte het bij de Minoërs op Kreta en bij de Myceners: alles liep langs het paleis, met schrijvers die het bijhielden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat kon de Atheense volksvergadering met het schervengericht doen?",
+          "opties": [
+            "een te machtige politicus tien jaar verbannen",
+            "een nieuwe koning kiezen",
+            "een oorlog verklaren aan Sparta zonder dat de Raad van 500 meestemt",
+            "de goden een offer brengen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elke burger kraste een naam op een potscherf. Wie de meeste stemmen kreeg, moest de stad tien jaar verlaten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De Peloponnesische oorlog tussen Athene en Sparta duurde minder dan tien jaar.",
+          "antwoord": false,
+          "uitleg": "Nee. Ze duurde van 431 tot 404 v.C., dus 27 jaar."
         }
       ]
     },
@@ -1953,6 +2196,36 @@
             2
           ],
           "uitleg": "Onze cijfers niet: die komen uit India en kwamen via de Arabische wereld bij ons. De Romeinen schreven I, V, X."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke Romeinse magistraat beheerde de staatskas?",
+          "opties": [
+            "de quaestor",
+            "de praetor",
+            "de censor",
+            "de volkstribuun"
+          ],
+          "antwoord": 0,
+          "uitleg": "De quaestor beheerde het geld. De praetor sprak recht, de censor hield de volkstelling bij, de volkstribuun beschermde de plebejers."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke Carthaagse generaal trok met olifanten over de Alpen?",
+          "opties": [
+            "Hannibal",
+            "Odoaker",
+            "Spartacus",
+            "Pompeius"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat was in de tweede Punische oorlog. Hij versloeg de Romeinen in Italië zelf, maar Rome hield stand."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de oudste stad van België, uit de Romeinse tijd? (één woord)",
+          "antwoord": "Tongeren",
+          "uitleg": "Tongeren lag aan de heirbaan van Boulogne naar Keulen. Je ziet er nog resten van de Romeinse stadsmuur."
         }
       ]
     },
@@ -2200,6 +2473,36 @@
           ],
           "antwoord": 0,
           "uitleg": "Zo'n scharnierpunt is een afspraak onder historici, geen dag waarop alles plots anders was."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat deden Romeinse priesters om de wil van de goden te kennen?",
+          "opties": [
+            "Ze keken naar voortekens, zoals de vlucht van vogels",
+            "Ze lazen het Dodenboek",
+            "Ze vroegen het aan het orakel van Delphi",
+            "Ze telden de sterren in een ziggurat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voortekens lezen namen de Romeinen over van de Etrusken. Het Dodenboek hoort bij Egypte, de ziggurat bij Mesopotamië."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 380 werd het christendom de staatsgodsdienst van het Romeinse Rijk.",
+          "antwoord": true,
+          "uitleg": "Klopt, onder keizer Theodosius. Constantijn had het in 313 al toegelaten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat had de pater familias in een Romeins gezin?",
+          "opties": [
+            "het gezag over zijn vrouw, zijn kinderen en zijn slaven",
+            "enkel het recht om te stemmen",
+            "de taak om het huishouden te doen",
+            "geen enkele macht over zijn kinderen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rome was een patriarchale samenleving: de vader besliste, tot zelfs of een pasgeboren kind mocht blijven leven."
         }
       ]
     },
@@ -2426,6 +2729,36 @@
           "vraag": "Een game kan nooit een bron zijn voor een historicus.",
           "antwoord": false,
           "uitleg": "Toch wel. Een game vertelt weinig over de periode die ze uitbeeldt, maar veel over de tijd waarin ze gemaakt is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Uit hoeveel stappen bestaat het stappenplan om een kunstwerk te analyseren?",
+          "opties": [
+            "vier",
+            "drie",
+            "twee",
+            "vijf"
+          ],
+          "antwoord": 0,
+          "uitleg": "Info verzamelen, beschrijven wat je ziet of hoort, interpreteren, en je analyse toelichten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Informatie die je zelf uit een bron moet afleiden, heet onrechtstreekse informatie.",
+          "antwoord": true,
+          "uitleg": "Klopt. Rechtstreekse informatie staat er letterlijk in."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een mozaïek op de vloer van een Romeinse villa is vooral gemaakt om te...",
+          "opties": [
+            "decoreren",
+            "bekritiseren",
+            "informeren",
+            "entertainen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het versiert de ruimte. Een spotprent bekritiseert, een komedie entertaint."
         }
       ]
     },
@@ -2661,6 +2994,36 @@
           ],
           "antwoord": 0,
           "uitleg": "Een keizer te paard, groter dan iedereen, met het licht op zijn gezicht: de vorm zegt hier evenveel als het onderwerp."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Suetonius schreef meer dan honderd jaar na de dood van Julius Caesar over hem. Wat betekent dat voor zijn verslag?",
+          "opties": [
+            "Hij was geen ooggetuige en moest steunen op andere bronnen",
+            "Zijn verslag is daarom volledig betrouwbaar",
+            "Hij was een ooggetuige van de moord",
+            "Zijn tekst is daardoor geen historische bron"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hij leefde niet in Caesars tijd. Zijn boek blijft een bron, maar je vergelijkt het best met andere bronnen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke stap van de bronnenanalyse beoordeel je de bruikbaarheid en de betrouwbaarheid van een bron?",
+          "opties": [
+            "stap 3: de bron interpreteren",
+            "stap 1: de context verzamelen",
+            "stap 2: de inhoud bestuderen",
+            "stap 4: een antwoord geven"
+          ],
+          "antwoord": 0,
+          "uitleg": "In stap 3 interpreteer je: je kijkt hoe de context de inhoud kleurt, je beoordeelt bruikbaarheid en betrouwbaarheid en je vergelijkt de bronnen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een bron die maar een deel van je historische vraag beantwoordt, is niet bruikbaar.",
+          "antwoord": false,
+          "uitleg": "Nee. Een bron kan een volledig, een gedeeltelijk of geen antwoord geven. Een gedeeltelijk antwoord is ook bruikbaar."
         }
       ]
     }

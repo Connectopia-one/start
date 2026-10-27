@@ -57,7 +57,7 @@
             "800 v.C. – 300 v.C. – 50 n.C. – 50 v.C."
           ],
           "antwoord": 0,
-          "uitleg": "Vóór Christus tel je achterwaarts: hoe groter het getal, hoe vroeger. Dus eerst 800 v.C., dan 300 v.C., dan 50 v.C. Pas na het jaar 0 komt 50 n.C."
+          "uitleg": "Vóór Christus tel je achterwaarts: hoe groter het getal, hoe vroeger. Dus eerst 800 v.C., dan 300 v.C., dan 50 v.C. Pas na het begin van onze jaartelling komt 50 n.C. Een jaar 0 bestaat niet."
         },
         {
           "type": "meerkeuze",
@@ -197,9 +197,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een gebeurtenis in 400 v.C. ligt dichter bij het jaar 0 dan een gebeurtenis in 300 v.C.",
+          "vraag": "Een gebeurtenis in 400 v.C. ligt dichter bij het begin van onze jaartelling dan een gebeurtenis in 300 v.C.",
           "antwoord": false,
-          "uitleg": "Vóór Christus tel je achterwaarts. 300 v.C. ligt 300 jaar vóór het jaar 0, 400 v.C. 400 jaar. Het kleinere getal ligt dus het dichtst bij het jaar 0."
+          "uitleg": "Vóór Christus tel je achterwaarts. 300 v.C. ligt ongeveer 300 jaar vóór het begin van onze jaartelling, 400 v.C. ongeveer 400 jaar. Het kleinere getal ligt dus het dichtst bij dat begin. Een jaar 0 bestaat niet: na 1 v.C. komt meteen 1 n.C."
         },
         {
           "type": "waarofniet",

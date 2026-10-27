@@ -86,8 +86,10 @@ OEFENBUNDELS["oefenbundel-tijd-en-tijdlijn"] = dict(
              opdracht="Historici delen de tijd op om overzicht te houden.",
              oefeningen=[
                  ("open", "Zet deze periodes in de juiste volgorde: middeleeuwen &middot; "
-                          "nieuwste tijd &middot; prehistorie &middot; oudheid &middot; nieuwe tijd",
-                  "Prehistorie, oudheid, middeleeuwen, nieuwe tijd, nieuwste tijd.", 2),
+                          "moderne tijd &middot; prehistorie &middot; klassieke oudheid &middot; "
+                          "hedendaagse tijd &middot; oude nabije oosten &middot; vroegmoderne tijd",
+                  "Prehistorie, oude nabije oosten, klassieke oudheid, middeleeuwen, vroegmoderne tijd, "
+                  "moderne tijd, hedendaagse tijd.", 3),
                  ("open", "Wat is het grote verschil tussen de prehistorie en de geschiedenis?",
                   "In de prehistorie bestond er nog geen schrift. We weten er alleen iets over "
                   "door wat er opgegraven wordt. Vanaf het schrift spreken we van geschiedenis.", 3),

@@ -374,13 +374,14 @@ BUNDELS["van-de-middeleeuwen-tot-nu"] = dict(
                   "drijven en overleggen, vechten minder snel met elkaar. In veel van die landen betaal "
                   "je nu met de euro."),
             ("fig", svg.tijdlijn(
-                [("middeleeuwen", 1000, 1500, "#c17f2b"),
-                 ("nieuwe tijd", 1500, 1800, "#3b6ea5"),
-                 ("nieuwste tijd", 1800, 2030, "#7a5230")],
+                [("middeleeuwen", 1000, 1500, "#2f5d50"),
+                 ("vroegmoderne tijd", 1500, 1789, "#5b7f9c"),
+                 ("moderne tijd", 1789, 1945, "#7a5b8f"),
+                 ("hedendaagse tijd", 1945, 2030, "#3f7a46")],
                 [(1302, "Guldensporenslag", "boven"), (1492, "Columbus", "onder"),
                  (1830, "België", "boven"), (1945, "einde WO II", "onder")],
                 470),
-             "Let op de schaal: de middeleeuwen duurden veel langer dan de nieuwste tijd, maar er staan minder jaartallen op. Hoe dichter bij vandaag, hoe meer we weten."),
+             "Let op de schaal: de middeleeuwen duurden veel langer dan de moderne tijd, maar er staan minder jaartallen op. Hoe dichter bij vandaag, hoe meer we weten."),
             ("p", "In <strong>1969</strong> zette voor het eerst een mens voet op de maan. En met het "
                   "<strong>internet</strong> kan iedereen vandaag in een seconde informatie delen met "
                   "de hele wereld — iets waar een middeleeuwse monnik een jaar over deed voor één boek. "

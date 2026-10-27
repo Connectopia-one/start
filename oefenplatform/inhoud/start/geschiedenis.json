@@ -146,7 +146,7 @@
             "één eeuw altijd"
           ],
           "antwoord": 0,
-          "uitleg": "De middeleeuwen en de nieuwe tijd zijn tijdvakken."
+          "uitleg": "De middeleeuwen en de vroegmoderne tijd zijn tijdvakken."
         },
         {
           "type": "waarofniet",
@@ -270,15 +270,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat bedoelen historici met de oudheid?",
+          "vraag": "Wat bedoelen historici met de klassieke oudheid?",
           "opties": [
             "de tijd voor er mensen waren",
-            "de tijd van beschavingen zoals Egypte, Griekenland en Rome",
+            "de tijd van de Grieken en de Romeinen",
             "de tijd van de ridders en de kastelen",
             "de tijd van de eerste fabrieken"
           ],
           "antwoord": 1,
-          "uitleg": "De oudheid is de periode van de oude beschavingen, ruwweg vanaf het ontstaan van het schrift tot het einde van het Romeinse Rijk."
+          "uitleg": "De klassieke oudheid is de periode van de Grieken en de Romeinen, van ongeveer 800 v.Chr. tot het einde van het West-Romeinse Rijk in 476."
         },
         {
           "type": "meerkeuze",
@@ -320,7 +320,7 @@
           "type": "waarofniet",
           "vraag": "Historici delen de tijd in periodes op om het overzichtelijk te houden.",
           "antwoord": true,
-          "uitleg": "Klopt. Prehistorie, oudheid, middeleeuwen, nieuwe tijd en nieuwste tijd zijn zulke periodes. Ze zijn bedacht door mensen, de grenzen liggen niet overal precies gelijk."
+          "uitleg": "Klopt. Er zijn zeven periodes: prehistorie, oude nabije oosten, klassieke oudheid, middeleeuwen, vroegmoderne tijd, moderne tijd en hedendaagse tijd. Ze zijn bedacht door mensen, de grenzen liggen niet overal precies gelijk."
         },
         {
           "type": "meerkeuze",
@@ -329,7 +329,7 @@
             "in de prehistorie leefden er nog geen mensen",
             "in de prehistorie bestond het schrift nog niet, dus er zijn geen geschreven bronnen",
             "in de prehistorie schreven de mensen al, maar op steen in plaats van op papier of perkament",
-            "de prehistorie speelt zich af na de oudheid"
+            "de prehistorie speelt zich af na de klassieke oudheid"
           ],
           "antwoord": 1,
           "uitleg": "Pre betekent voor. De prehistorie is de tijd voor het schrift, dus we kennen ze enkel uit voorwerpen en resten."
@@ -362,13 +362,13 @@
           "type": "meerkeuze",
           "vraag": "In welke volgorde volgen deze periodes op elkaar?",
           "opties": [
-            "oudheid, prehistorie, middeleeuwen, nieuwe tijd",
-            "prehistorie, oudheid, middeleeuwen, nieuwe tijd",
-            "middeleeuwen, oudheid, prehistorie, nieuwe tijd",
-            "prehistorie, middeleeuwen, oudheid, nieuwe tijd"
+            "oude nabije oosten, prehistorie, klassieke oudheid, middeleeuwen",
+            "prehistorie, oude nabije oosten, klassieke oudheid, middeleeuwen",
+            "klassieke oudheid, oude nabije oosten, prehistorie, middeleeuwen",
+            "prehistorie, klassieke oudheid, middeleeuwen, oude nabije oosten"
           ],
           "antwoord": 1,
-          "uitleg": "Eerst de prehistorie zonder schrift, dan de oudheid, daarna de middeleeuwen en ten slotte de nieuwe tijd."
+          "uitleg": "Eerst de prehistorie zonder schrift, dan het oude nabije oosten met Mesopotamië en Egypte, dan de klassieke oudheid met de Grieken en de Romeinen, en daarna de middeleeuwen."
         }
       ]
     },
@@ -650,7 +650,7 @@
             "een leerling van een meester"
           ],
           "antwoord": 1,
-          "uitleg": "Slavernij was heel gewoon in de oudheid. Slaven werkten op het land, in huis of in de mijnen, en werden gekocht en verkocht."
+          "uitleg": "Slavernij was heel gewoon bij de Grieken en de Romeinen. Slaven werkten op het land, in huis of in de mijnen, en werden gekocht en verkocht."
         },
         {
           "type": "waarofniet",
