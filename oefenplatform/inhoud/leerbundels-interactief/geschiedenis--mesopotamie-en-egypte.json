@@ -51,7 +51,19 @@
     },
     {
      "soort": "tekst",
-     "html": "Egypte gaat een andere weg. Daar smelten de gebieden langs de Nijl samen tot één rijk onder één heerser: de <strong>farao</strong>. Eén rivier, één land."
+     "html": "Aan het hoofd van een stadstaat stond een <strong>koning</strong>, die zei dat hij regeerde in naam van de stadsgod. Hij liet kanalen graven, leidde het leger en sprak recht. De priesters en de ambtenaren hielpen hem. Koning <strong>Hammurabi</strong> van Babylon liet rond 1750 v.C. zijn wetten in een stenen zuil kappen, zodat iedereen ze kon zien."
+    },
+    {
+     "soort": "tekst",
+     "html": "Egypte gaat een andere weg. Daar smelten de gebieden langs de Nijl samen tot één rijk onder één heerser: de <strong>farao</strong>. Eén rivier, één land. Dat is een <strong>autocratie</strong>: één persoon heeft alle macht."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat hij doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de farao</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heeft het laatste woord over alles; leidt het leger, spreekt recht, laat tempels bouwen, brengt offers aan de goden en houdt de orde in het land</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vizier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hoogste ambtenaar, de rechterhand van de farao; bestuurt het land in zijn naam</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de gouwvorsten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">besturen elk een deel van het land, een gouw</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de schrijvers</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meten de akkers op na de overstroming, berekenen en innen de belasting, houden de voorraden bij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de priesters</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dienen de goden in de tempels en beheren de tempelgronden</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>plicht</strong> van de farao was de orde bewaren: zorgen dat de Nijl overstroomde, dat de oogst lukte en dat de goden tevreden bleven. Lukte dat niet, dan twijfelden de mensen aan hem."
     },
     {
      "soort": "kader",
@@ -116,7 +128,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Beide volkeren zijn <strong>polytheïstisch</strong>: ze geloven in veel goden tegelijk, elk met een eigen taak — de zon, de rivier, de oogst, de oorlog."
+     "html": "Beide volkeren zijn <strong>polytheïstisch</strong>: ze geloven in veel goden tegelijk, elk met een eigen taak — de zon, de rivier, de oogst, de oorlog. Veel van die goden staan voor een kracht uit de natuur. Dat heet een <strong>natuurgodsdienst</strong>."
     },
     {
      "soort": "figuur",
@@ -126,6 +138,18 @@
     {
      "soort": "tekst",
      "html": "De tempel is niet enkel een gebedshuis. Hij bezit grond, slaat graan op en betaalt werkers uit. Dat noemt men een <strong>tempeleconomie</strong>: godsdienst en economie lopen door elkaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dit zijn de Egyptische goden die je moet kennen. Je herkent ze op tekeningen aan hun kop."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">god</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarvan</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">herken je aan</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Amon/Re</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Re is de zonnegod; Amon de oppergod van Thebe; samen werden ze één: Amon-Re</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Re: een valkenkop met de zonneschijf; Amon: een kroon met twee hoge veren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Osiris</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">god van de doden en het hiernamaals, en van de vruchtbaarheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een mummie met een kroon, groene of zwarte huid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Isis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vrouw van Osiris, moeder van Horus, godin van de moeders en de magie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een troon op haar hoofd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Horus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zoon van Osiris en Isis, beschermer van de farao</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een valkenkop</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Seth</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">god van de woestijn, de storm en de chaos; broer van Osiris</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vreemd dier met lange snuit en rechte oren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Anoebis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">god van het balsemen en de begraafplaatsen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een jakhalskop</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Toth</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">god van het schrift en de wijsheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een ibiskop</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Sobek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">god van het water van de Nijl</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een krokodillenkop</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook de Egyptenaren hadden hun <strong>mythologie</strong>. De bekendste mythe: Seth doodt zijn broer Osiris uit jaloezie. Isis zoekt de stukken van zijn lichaam bij elkaar en brengt hem terug tot leven, en Osiris wordt koning van de doden. Hun zoon Horus verslaat Seth en wordt koning op aarde. Daarom gold elke farao als de levende Horus."
     },
     {
      "soort": "tekst",
@@ -141,8 +165,33 @@
      "html": "Zij geloofden dat het leven verderging in het <strong>hiernamaals</strong>, en dat de dode daarvoor zijn lichaam nodig had. Daarom <strong>mummificeerden</strong> ze hun doden: het lichaam moest bewaard blijven. In het graf legden ze voorwerpen, eten en het <strong>Dodenboek</strong>, een verzameling spreuken die de dode op die tocht moest helpen."
     },
     {
+     "soort": "tekst",
+     "html": "Het <strong>mummificeren</strong> duurde zeventig dagen. De organen werden eruit gehaald en apart bewaard, het lichaam werd met zout gedroogd, ingesmeerd en in linnen windsels gewikkeld. Dat vroeg veel kennis van het lichaam: godsdienst en wetenschap gingen hier samen."
+    },
+    {
+     "soort": "weetje",
+     "html": "In het hiernamaals wachtte de <strong>hartweging</strong>. Anoebis legde het hart van de dode op een weegschaal, met aan de andere kant een veer. Toth schreef de uitslag op. Was het hart zwaar van slechte daden, dan werd het opgegeten door een monster. Was het licht, dan mocht de dode naar het rijk van Osiris."
+    },
+    {
      "soort": "kader",
-     "html": "<strong>Toetanchamon</strong> was een onbelangrijke farao die jong stierf. Zijn graf is wereldberoemd om één reden: het is als enige vrijwel ongeschonden teruggevonden. Alle andere waren al in de oudheid leeggeroofd."
+     "html": "<strong>Toetanchamon</strong> was een onbelangrijke farao die jong stierf. Zijn graf is wereldberoemd om één reden: het is als enige vrijwel ongeschonden teruggevonden. Alle andere waren al in de oudheid leeggeroofd. De Britse archeoloog <strong>Howard Carter</strong> vond het in 1922 in de Vallei der Koningen. Er lagen meer dan vijfduizend voorwerpen in, en het beroemde gouden dodenmasker."
+    }
+   ]
+  },
+  {
+   "kop": "Egyptische kunst",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De Egyptische kunst diende vooral de goden, de farao en het leven na de dood. Ze bleef drieduizend jaar bijna hetzelfde: vaste regels, weinig vernieuwing."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">kunst</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">kenmerken</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bouwkunst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enorm en in steen, om eeuwig te blijven staan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de piramides van Gizeh, de tempels van Karnak en Luxor</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beeldhouwkunst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stijf, recht vooruit kijkend, de armen tegen het lichaam; de farao kalm en tijdloos</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de Grote Sfinx, beelden van farao's</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schilderkunst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoofd en benen van opzij, oog en schouders van voren; wie belangrijker is, wordt groter getekend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schilderingen in de graven</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De farao droeg vaste <strong>machtssymbolen</strong>: de dubbele kroon van Boven- en Neder-Egypte, de kromstaf en de dorsvlegel in zijn handen, een valse baard en een cobra op zijn voorhoofd. Zo zag iedereen meteen wie de macht had."
     }
    ]
   },
@@ -164,7 +213,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Uit deze twee rijken komt verrassend veel van wat wij vanzelfsprekend vinden: het <strong>wiel</strong>, de <strong>ploeg</strong>, geschreven <strong>wetten</strong>, en de <strong>sterrenkunde</strong>."
+     "html": "Uit deze twee rijken komt verrassend veel van wat wij vanzelfsprekend vinden: het <strong>wiel</strong>, de <strong>ploeg</strong>, geschreven <strong>wetten</strong>, en de <strong>sterrenkunde</strong> of astronomie. Priesters volgden de sterren en de maan om te weten wanneer ze moesten zaaien en wanneer de feesten voor de goden vielen."
     },
     {
      "soort": "tekst",
@@ -187,6 +236,8 @@
   "De Steen van Rosetta maakte hiërogliefen leesbaar, dankzij dezelfde tekst in het Grieks.",
   "Standenmaatschappij: je plaats ligt vast bij je geboorte; onderaan staan de slaven.",
   "Polytheïsme, ziggurat en tempeleconomie in Mesopotamië; goddelijke farao, mummies en piramides in Egypte.",
+  "Egyptische goden: Amon/Re, Osiris, Isis, Horus, Seth, Anoebis, Toth, Sobek. Een natuurgodsdienst.",
+  "De farao is een autocraat; de vizier en de schrijvers besturen voor hem.",
   "Handel ging per ruil, afgerekend in gewogen graan of zilver — munten bestonden nog niet.",
   "Van daar komen het wiel, de ploeg, geschreven wetten, de sterrenkunde, ons uur van 60 minuten en de 12 maanden."
  ]

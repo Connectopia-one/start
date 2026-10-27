@@ -12,7 +12,7 @@
     },
     {
      "soort": "tekst",
-     "html": "De Romeinen vertelden zelf het verhaal van <strong>Romulus en Remus</strong>, twee vondelingen die door een wolvin grootgebracht werden. Romulus doodde zijn broer en noemde de stad naar zichzelf."
+     "html": "De Romeinen vertelden zelf het verhaal van <strong>Romulus en Remus</strong>, twee vondelingen die door een wolvin grootgebracht werden. Romulus doodde zijn broer en noemde de stad naar zichzelf. Volgens de Romeinen gebeurde dat in 753 v.C."
     },
     {
      "soort": "kader",
@@ -25,11 +25,24 @@
    ]
   },
   {
+   "kop": "De koningstijd",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Eerst hadden <strong>koningen</strong> de macht, van 753 tot 509 v.C. De macht was toen verdeeld over drie instellingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">instelling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">bevoegdheden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de koning</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opperbevelhebber van het leger, hoogste rechter en hoogste priester</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de senaat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een raad van de hoofden van de oude families; gaf de koning advies</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de volksvergadering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de burgers; bekrachtigden de keuze van een nieuwe koning en beslisten mee over oorlog</td></tr></table>"
+    }
+   ]
+  },
+  {
    "kop": "De republiek",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Eerst hadden koningen de macht. Toen de Romeinen hun laatste koning wegjoegen, wilden ze nooit meer één alleenheerser. Zo ontstond de <strong>republiek</strong>, van <em>res publica</em>: de zaak van iedereen."
+     "html": "In 509 v.C. joegen de Romeinen hun laatste koning, Tarquinius de Hoogmoedige, weg. Ze wilden nooit meer één alleenheerser. Zo ontstond de <strong>republiek</strong>, van <em>res publica</em>: de zaak van iedereen."
     },
     {
      "soort": "tekst",
@@ -41,7 +54,15 @@
     },
     {
      "soort": "tekst",
-     "html": "Binnen de stad stonden twee groepen tegenover elkaar: de <strong>patriciërs</strong>, de oude rijke families, en de <strong>plebejers</strong>, het gewone volk. De plebejers dwongen hun rechten stap voor stap af, onder meer door massaal het werk neer te leggen en de stad te verlaten."
+     "html": "De bestuurders heten <strong>magistraten</strong>. Ze werden elk jaar verkozen, altijd met meer dan één tegelijk, en kregen geen loon. Wie carrière maakte, klom van ambt naar ambt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">magistraat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">bevoegdheden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">consul (2)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hoogste bestuurders; leiden het leger en roepen de senaat samen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">praetor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spreekt recht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">quaestor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beheert de staatskas</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aedilis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zorgt voor de markten, de straten en de spelen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">censor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">houdt de volkstelling bij en waakt over de goede zeden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volkstribuun</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beschermt de plebejers en kan met zijn veto een besluit tegenhouden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dictator</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkel in uiterste nood, voor hoogstens zes maanden, met alle macht</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Binnen de stad stonden twee groepen tegenover elkaar: de <strong>patriciërs</strong>, de oude rijke families, en de <strong>plebejers</strong>, het gewone volk. De plebejers dwongen hun rechten stap voor stap af, onder meer door massaal het werk neer te leggen en de stad te verlaten. Zo kregen ze hun eigen volkstribunen en geschreven wetten, de wet van de Twaalf Tafelen."
     }
    ]
   },
@@ -50,16 +71,24 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Eerst veroverde Rome het hele Italische schiereiland. Daarna botste het op <strong>Carthago</strong>, de grote handelsmacht in Noord-Afrika. Dat werden de <strong>Punische oorlogen</strong>."
+     "html": "Eerst veroverde Rome, stad na stad, het hele <strong>Italische schiereiland</strong>; rond 270 v.C. was dat rond. Daarna botste het op <strong>Carthago</strong>, de grote handelsmacht in Noord-Afrika. Dat werden de <strong>Punische oorlogen</strong>, van 264 tot 146 v.C."
     },
     {
      "soort": "tekst",
-     "html": "Rome won, Carthago werd uiteindelijk volledig verwoest, en Rome had geen tegenstander meer in het westen. De Middellandse Zee werd <strong>mare nostrum</strong>: onze zee."
+     "html": "De <strong>oorzaak</strong> was de strijd om Sicilië en om de handel op de Middellandse Zee. In de tweede oorlog trok de Carthaagse generaal <strong>Hannibal</strong> met olifanten over de Alpen en versloeg hij de Romeinen in Italië zelf, maar Rome hield stand. Het <strong>gevolg</strong>: in 146 v.C. werd Carthago volledig verwoest, Rome had geen tegenstander meer in het westen, en er stroomden rijkdom en slaven binnen. De Middellandse Zee werd <strong>mare nostrum</strong>: onze zee."
     },
     {
      "soort": "figuur",
      "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"36.6\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">stadstaat</text><path d=\"M78.2 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"99.2\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"135.8\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Italië</text><path d=\"M177.4 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"198.4\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Punische</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">oorlogen</text><path d=\"M276.6 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"297.6\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"334.2\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">mare</text><text x=\"334.2\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">nostrum</text><path d=\"M375.8 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"396.8\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"433.4\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">imperium</text><text x=\"433.4\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">Romanum</text></svg>",
      "onderschrift": "Elke verovering maakte de volgende mogelijk — en maakte tegelijk de republiek onbestuurbaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "Na de Middellandse Zee ging het verder, tot het <strong>imperium Romanum</strong>, het Romeinse wereldrijk. Caesar veroverde Gallië, waar ook onze streken bij hoorden. Onder keizer Trajanus, rond 117 n.C., was het rijk het grootst: van Brittannië tot Mesopotamië. Dat noem je <strong>imperialisme</strong>: een staat die zijn macht uitbreidt over andere volkeren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>leger</strong> speelde daarin de hoofdrol. De legioenen veroverden nieuwe gebieden, bewaakten de grens, de <strong>limes</strong>, en legden wegen, bruggen en forten aan. Gediende soldaten kregen land en gingen in de veroverde gebieden wonen. Zo verspreidden de Romeinse taal en gewoontes zich mee."
     },
     {
      "soort": "tekst",
@@ -76,19 +105,31 @@
     },
     {
      "soort": "tekst",
+     "html": "De generaal <strong>Marius</strong> nam als eerste arme burgers op in een beroepsleger. Die soldaten waren trouwer aan hun generaal dan aan de senaat. Zijn rivaal <strong>Sulla</strong> trok in 82 v.C. met zijn leger Rome binnen en liet zich dictator maken."
+    },
+    {
+     "soort": "tekst",
      "html": "Wie de top wilde bereiken, zocht bondgenoten. Drie machtige mannen die samen de macht verdeelden, noemt men een <strong>triumviraat</strong>. Het eerste bestond uit Caesar, Pompeius en Crassus; het tweede, na de moord op Caesar, uit Augustus, Marcus Antonius en Lepidus. Allebei eindigden ze in een oorlog tussen de partners."
     },
     {
      "soort": "tekst",
-     "html": "Dat leidde tot een eeuw van <strong>burgeroorlogen</strong>: Marius tegen Sulla, daarna Caesar tegen Pompeius. <strong>Julius Caesar</strong> won en liet zich dictator voor het leven benoemen. Zijn tegenstanders zagen daarin een nieuwe koning en vermoordden hem in de senaat."
+     "html": "Dat leidde tot een eeuw van <strong>burgeroorlogen</strong>: Marius tegen Sulla, daarna Caesar tegen Pompeius. <strong>Julius Caesar</strong> won en liet zich dictator voor het leven benoemen. Zijn tegenstanders zagen daarin een nieuwe koning en vermoordden hem in 44 v.C. in de senaat."
     },
     {
      "soort": "tekst",
-     "html": "Na nog een burgeroorlog bleef zijn aangenomen zoon over: <strong>Augustus</strong>, de eerste <strong>keizer</strong>. Hij noemde zich geen koning maar <em>princeps</em>, de eerste burger, en liet de senaat en de ambten gewoon bestaan."
+     "html": "Na nog een burgeroorlog bleef zijn aangenomen zoon over: <strong>Augustus</strong>, de eerste <strong>keizer</strong>. Hij noemde zich geen koning maar <em>princeps</em>, de eerste burger, en liet de senaat en de ambten gewoon bestaan. Dat was in 27 v.C., en daar begint het <strong>keizerrijk</strong>."
     },
     {
      "soort": "kader",
      "html": "Dat was geen bescheidenheid maar berekening. De vormen van de republiek bleven staan, terwijl de macht in één paar handen zat. Zo kreeg Rome het alleenbewind dat het vier eeuwen eerder had afgezworen, zonder het zo te moeten noemen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo werd het <strong>keizerrijk bestuurd</strong>:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">bevoegdheden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de keizer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opperbevelhebber van het leger, hoogste priester, kiest de gouverneurs, maakt de wetten; zijn wil is wet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de senaat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bleef bestaan, maar had weinig te zeggen; gaf vooral eer en advies</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de magistraten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bleven bestaan als ere-ambten; de keizer besliste wie ze kreeg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de gouverneurs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bestuurden elk een provincie, innen de belasting en leiden de troepen daar</td></tr></table>"
     }
    ]
   },
@@ -102,6 +143,14 @@
     {
      "soort": "tekst",
      "html": "Die rust was ook economie. Eén munt, één rechtssysteem, geen rovers en geen piraten: goederen konden van Britannië tot Egypte reizen. Daarvoor bouwden de Romeinen wegen die eeuwen meegingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Want de economie van Rome draaide voor een groot deel op <strong>uitbuiting</strong>. De veroverde provincies, de wingewesten, moesten belasting betalen en graan, metaal en slaven leveren. Slaven werkten in de mijnen, op de latifundia en in de huizen: het was een <strong>slaveneconomie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de steden werkten <strong>ambachtslieden</strong> in kleine werkplaatsen: bakkers, pottenbakkers, smeden, glasblazers. En er was een <strong>geldeconomie</strong>: men betaalde met munten, zoals de zilveren denarius, die overal in het rijk gold. Dat maakte handel over lange afstand veel makkelijker dan ruilen."
     },
     {
      "soort": "figuur",
@@ -137,11 +186,86 @@
     },
     {
      "soort": "tekst",
-     "html": "De Romeinen namen de Griekse goden over en gaven ze eigen namen: Zeus werd <strong>Jupiter</strong>, Ares werd Mars, Aphrodite werd Venus. Daarbovenop kwam de <strong>keizerscultus</strong>: de keizer zelf werd vereerd. In een rijk vol volkeren en goden was dat het bindmiddel."
+     "html": "Het <strong>theater</strong> namen ze ook van de Grieken over, maar de Romeinen bouwden hun theaters vrijstaand, in steen, in plaats van tegen een helling. Ze hielden vooral van komedies."
     },
     {
      "soort": "tekst",
-     "html": "Precies daarom botsten de <strong>christenen</strong>: zij weigerden de keizer te vereren. Ze werden vervolgd, maar het christendom groeide toch, werd onder Constantijn toegelaten en uiteindelijk zelfs staatsgodsdienst."
+     "html": "Nog geliefder waren de <strong>wagenrennen</strong> in het Circus Maximus, waar honderdduizenden toeschouwers juichten voor hun ploeg, en de <strong>gladiatorenspelen</strong> in het amfitheater. De keizers betaalden die spelen zelf, om het volk tevreden te houden: brood en spelen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De Romeinen waren <strong>polytheïstisch</strong>. Ze brachten de goden <strong>offers</strong>: een dier, wijn, koekjes. In ruil verwachtten ze hulp. Voor een belangrijke beslissing keken priesters naar <strong>voortekens</strong>: hoe vogels vlogen, of hoe de ingewanden van een offerdier eruitzagen. Dat gebruik kwam van de Etrusken. Thuis had elk gezin een huisaltaartje voor zijn eigen beschermgoden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ze namen de Griekse goden over en gaven ze eigen namen: Zeus werd <strong>Jupiter</strong>, Ares werd Mars, Aphrodite werd Venus. Het hele rijtje staat in de bundel over Griekenland. Daarbovenop kwam de <strong>keizerscultus</strong>: de keizer zelf werd vereerd. In een rijk vol volkeren en goden was dat het bindmiddel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Precies daarom botsten de <strong>christenen</strong>: zij geloofden in één god, dat is <strong>monotheïsme</strong>, en weigerden de keizer te vereren. Ze werden vervolgd, maar het christendom groeide toch. Keizer Constantijn liet het in 313 toe, en keizer Theodosius maakte het in 380 de <strong>staatsgodsdienst</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rome nam van overal iets over: van de Etrusken de boog en de voortekens, van de Grieken de goden, de kunst en het theater, uit het oosten nieuwe godsdiensten. Het rijk was een <strong>multiculturele samenleving</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Wie had welke rechten?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Ook Rome was een <strong>standenmaatschappij</strong>, en ook een <strong>patriarchale samenleving</strong>: de vader, de <em>pater familias</em>, had het gezag over zijn vrouw, zijn kinderen en zijn slaven. Hij mocht zelfs beslissen of een pasgeboren kind bleef leven."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">groep</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rechten en plichten</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">senatoren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rijkste families; zetelen in de senaat en worden magistraat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ridders</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rijk geworden door handel en geldzaken; vaak ambtenaar of officier</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gewone burgers</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stemrecht, betalen belasting en dienen in het leger; veel arme burgers in de stad</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vrijgelatenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voormalige slaven; vrij, maar met minder rechten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">slaven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen rechten, bezit van hun meester; konden wel vrijgekocht of vrijgelaten worden</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Vrouwen</strong> hadden geen stemrecht en mochten geen ambt bekleden. Toch hadden ze meer vrijheid dan in Athene: een Romeinse vrouw ging naar buiten, naar de spelen en de baden, en een rijke vrouw beheerde het huishouden en soms eigen bezit."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>slaven</strong> waren meestal krijgsgevangenen of kinderen van slaven. Hun lot hing af van hun werk: in de mijnen was het zwaar en kort, in een rijk huis soms beter. In 73 v.C. leidde de gladiator <strong>Spartacus</strong> een grote slavenopstand, die bloedig werd neergeslagen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het burgerrecht werd stilaan uitgebreid. In 212 n.C. kregen alle vrije inwoners van het rijk het Romeinse burgerrecht."
+    }
+   ]
+  },
+  {
+   "kop": "Farao en keizer vergeleken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op het examen kan je twee samenlevingen moeten vergelijken. Een voorbeeld: de <strong>machtssymbolen</strong> van de Egyptische farao en die van de Romeinse keizer."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de farao</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de Romeinse keizer</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoofd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de dubbele kroon van Boven- en Neder-Egypte, een cobra op het voorhoofd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een lauwerkrans</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kleren en voorwerpen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kromstaf en dorsvlegel, een valse baard</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een purperen toga of de wapenrusting van een veldheer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beelden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reusachtig en stijf, eeuwig jong en kalm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">standbeelden in elke stad, op de munten zijn portret</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">goddelijk?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geldt als een god op aarde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wordt vereerd in de keizerscultus, en na zijn dood soms tot god verklaard</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De gelijkenis: allebei lieten ze overal zien dat ze de macht hadden. Het verschil: de farao was meteen een god, de keizer noemde zich eerst de eerste burger."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een tweede voorbeeld is de <strong>bouwkunst</strong>. De Grieken bouwden met zuilen en balken, en hun tempels stonden vrij op een verhoog. De Romeinen namen de zuilen over, maar voegden de boog, het gewelf, de koepel en het beton toe, en bouwden ook voor het gewone leven: baden, aquaducten, amfitheaters."
+    }
+   ]
+  },
+  {
+   "kop": "Romeinse sporen bij ons",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Onze streken hoorden bijna vijfhonderd jaar bij het Romeinse Rijk. Dat zie je nog."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">spoor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">steden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tongeren, de oudste stad van België, met resten van de Romeinse stadsmuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wegen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de heirbaan van Boulogne via Bavay en Tongeren naar Keulen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">woorden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">muur (murus), straat (strata), venster (fenestra), kelder (cellarium), wijn (vinum)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kalender</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twaalf maanden; juli en augustus zijn genoemd naar Julius Caesar en Augustus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het recht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veel van ons recht gaat terug op het Romeinse recht</td></tr></table>"
     }
    ]
   },
@@ -154,7 +278,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Het rijk bleek te groot om vanuit één punt te besturen en werd gesplitst in een <strong>West-</strong> en een <strong>Oost-Romeins Rijk</strong>. Het westen viel in <strong>476</strong>; het oosten leefde als het Byzantijnse Rijk nog duizend jaar voort, met Constantinopel als hoofdstad."
+     "html": "Het rijk bleek te groot om vanuit één punt te besturen en werd in 395 gesplitst in een <strong>West-</strong> en een <strong>Oost-Romeins Rijk</strong>. In het westen vielen Germaanse volkeren binnen. Het westen viel in <strong>476</strong>, toen de Germaanse legeraanvoerder Odoaker de laatste keizer afzette; het oosten leefde als het Byzantijnse Rijk nog duizend jaar voort, met Constantinopel als hoofdstad."
     },
     {
      "soort": "kader",
@@ -168,7 +292,7 @@
   }
  ],
  "onthoud": [
-  "Rome ontstond aan de Tiber; de sage van Romulus en Remus is mythe, geen geschiedenis.",
+  "Rome ontstond aan de Tiber; de sage van Romulus en Remus (753 v.C.) is mythe, geen geschiedenis.",
   "Koningstijd → republiek → keizerrijk. De republiek had twee consuls per jaar, een senaat en een volksvergadering.",
   "Patriciërs tegen plebejers: het gewone volk dwong zijn rechten stap voor stap af.",
   "Punische oorlogen tegen Carthago maakten Rome baas over het westen: mare nostrum.",
@@ -177,6 +301,9 @@
   "Pax Romana: twee eeuwen rust, en daardoor handel over het hele rijk, over wegen en via aquaducten.",
   "De Romeinen voegden boog, gewelf, koepel en beton toe aan de Griekse bouwkunst.",
   "Portretbeelden tonen de mens zoals hij was; keizerscultus als bindmiddel, christendom van vervolgd tot staatsgodsdienst.",
-  "Crisis van de 3de eeuw, splitsing, val van het westen in 476 — het oosten hield nog duizend jaar stand."
+  "Magistraten: consuls, praetoren, quaestoren, aedielen, censoren, volkstribunen; in nood een dictator.",
+  "Patriarchaal: de pater familias besliste. Senatoren, ridders, burgers, vrijgelatenen, slaven.",
+  "Polytheïsme met offers en voortekens; christendom (monotheïsme) toegelaten in 313, staatsgodsdienst in 380.",
+  "Crisis van de 3de eeuw, splitsing in 395, val van het westen in 476 — het oosten hield nog duizend jaar stand."
  ]
 }

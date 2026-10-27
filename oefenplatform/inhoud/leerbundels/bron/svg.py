@@ -2633,7 +2633,9 @@ def jaartellijn(breedte=470):
     y = 58
     m = 30
     merken = [(-3000, "3000 v.C."), (-2000, "2000 v.C."), (-1000, "1000 v.C."),
-              (0, "0"), (1000, "1000 n.C."), (2000, "2000 n.C.")]
+              (0, "Christus"), (1000, "1000 n.C."), (2000, "2000 n.C.")]
+    # Bij het nulpunt staat bewust geen "0": een jaar 0 bestaat niet, na 1 v.C.
+    # komt meteen 1 n.C. Een "0" op de lijn leerde precies die fout aan.
     links, rechts = -3400, 2400
     def x(v):
         return m + (v - links) / (rechts - links) * (breedte - 2 * m)

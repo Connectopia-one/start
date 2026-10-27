@@ -51,7 +51,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Was die een <strong>ooggetuige</strong>, iemand die het zelf zag? Of een <strong>tijdgenoot</strong>, die in dezelfde tijd leefde maar het van horen zeggen had? En wie was de <strong>opdrachtgever</strong>, degene die betaalde?"
+     "html": "Wat was zijn naam, zijn beroep, zijn afkomst? Was die een <strong>ooggetuige</strong>, iemand die het zelf zag? Of een <strong>tijdgenoot</strong>, die in dezelfde tijd leefde maar het van horen zeggen had? Wie was de <strong>opdrachtgever</strong>, degene die betaalde? Welke plaats had de maker in de samenleving, en vanuit welk <strong>perspectief</strong> keek hij: als Griek of als Pers, als slaaf of als keizer?"
     },
     {
      "soort": "figuur",
@@ -77,6 +77,10 @@
     },
     {
      "soort": "tekst",
+     "html": "Bij bruikbaarheid stel je drie vragen. Geeft de bron <strong>rechtstreekse</strong> informatie, die er letterlijk in staat? Geeft ze <strong>onrechtstreekse</strong> informatie, die je zelf moet afleiden? En geeft ze een <strong>volledig</strong>, een <strong>gedeeltelijk</strong> of <strong>geen</strong> antwoord op je vraag?"
+    },
+    {
+     "soort": "tekst",
      "html": "<strong>Betrouwbaar</strong>: klopt wat erin staat? Daarvoor kijk je naar de maker, zijn belang, zijn afstand tot het voorval, en of andere bronnen hetzelfde zeggen."
     },
     {
@@ -94,6 +98,19 @@
    ]
   },
   {
+   "kop": "Het stappenplan van de bronnenanalyse",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op het examen krijg je een paar bronnen en een historische vraag, zoals \"Wie won de slag bij Kadesj in 1274 v.C.?\" Je werkt dan in vier stappen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">stap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1. de context verzamelen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je situeert elke bron in tijd, ruimte en domein; je bepaalt de soort bron (primair of secundair, geschreven, mondeling, materieel of audiovisueel); je zoekt wie de maker is; je bepaalt het doelpubliek, de inhoud en de bedoeling; en je noteert welke gegevens ontbreken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2. de inhoud bestuderen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je leest of bekijkt elke bron goed</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3. de bron interpreteren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je legt uit hoe de tijd en de standplaats van de maker de inhoud kleuren; je beoordeelt de bruikbaarheid en de betrouwbaarheid; je vergelijkt de bronnen en zoekt gelijkenissen en verschillen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4. een beargumenteerd antwoord geven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je kiest wat je uit de bronnen gebruikt en staaft je antwoord met argumenten uit die bronnen</td></tr></table>"
+    }
+   ]
+  },
+  {
    "kop": "Standplaatsgebondenheid",
    "blokken": [
     {
@@ -102,7 +119,7 @@
     },
     {
      "soort": "tekst",
-     "html": "De Griekse schrijver <strong>Herodotos</strong> noemt de Perzen <em>barbaren</em>. Voor hem betekende dat gewoon: mensen die geen Grieks spreken. Het woord klonk naar Griekse oren als onverstaanbaar gebrabbel."
+     "html": "De Griekse geschiedschrijver <strong>Herodotos</strong> schreef in zijn <em>Historiën</em> over de slag bij Marathon in 490 v.C. Hij noemt de Perzen <em>barbaren</em>. Voor hem betekende dat gewoon: mensen die geen Grieks spreken. Het woord klonk naar Griekse oren als onverstaanbaar gebrabbel."
     },
     {
      "soort": "tekst",
@@ -128,6 +145,10 @@
     {
      "soort": "tekst",
      "html": "<strong>Bewijs gebruiken</strong>: je antwoord steunen op wat er in de bronnen staat, niet op wat je voelt. En <strong>verbanden leggen</strong>: zien hoe stukken met elkaar samenhangen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een voorbeeld van zo'n historische vraag: <em>Was Julius Caesar een democraat?</em> Je krijgt dan een stuk uit het boek <em>Over de levens van de keizers</em> van de Romeinse geschiedschrijver <strong>Suetonius</strong>, en ander materiaal. Suetonius schreef meer dan honderd jaar na Caesars dood, dus hij was geen ooggetuige. Je zoekt bewijs, bekijkt het vanuit meerdere perspectieven (de senatoren die hem vermoordden, het volk dat hem aanbad) en legt verbanden."
     },
     {
      "soort": "kader",
@@ -165,11 +186,19 @@
     },
     {
      "soort": "tekst",
-     "html": "Je leest het in drie stappen. Eerst <strong>verzamel je info</strong>: wanneer, waar, door wie, in welke context, welke soort. Dan <strong>beschrijf je wat je ziet</strong>: materialen, figuren, kleuren, licht en schaduw, hoe alles geschikt is."
+     "html": "Je leest het met een stappenplan in vier stappen."
     },
     {
      "soort": "tekst",
-     "html": "Pas daarna <strong>interpreteer</strong> je: wat is het onderwerp, voor wie is het gemaakt, en met welke bedoeling — iets bevestigen, of juist bekritiseren?"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">stap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1. info verzamelen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wanneer en waar werd het gemaakt, in welke maatschappelijke context, door wie, wat is de titel, en welke soort is het: schilderij, beeldhouwwerk, bouwwerk, film, game, graffiti, theater, ritueel of uitdrukking</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2. beschrijven wat je ziet of hoort</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">materialen, figuren, vormen en rollen, de schikking, kleuren, licht en schaduw; bij muziek of film ook klanken, ritme, tempo, instrumenten en stemmen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3. interpreteren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het onderwerp (wat), het doelpubliek (voor wie) en de bedoeling (waarom); en hoe wat je ziet of hoort het onderwerp en de bedoeling ondersteunt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4. je analyse toelichten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je zet in je eigen woorden op een rij wat je zag en hoe je het uitlegt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>onderwerp</strong> kan bijvoorbeeld de dood zijn, het alledaagse leven, onrecht, liefde of gender. Voor de <strong>bedoeling</strong> zijn er vaste woorden:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">bedoeling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bekritiseren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een spotprent op een keizer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bevestigen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een standbeeld van Augustus dat zijn macht toont</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">decoreren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een mozaïek op de vloer van een Romeinse villa</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">entertainen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een komedie in het theater</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informeren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zuil van Trajanus, die zijn oorlog toont</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">praktisch gebruiken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een beschilderde Griekse vaas om wijn in te bewaren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schoonheid creëren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een Grieks beeld van een ideaal lichaam</td></tr></table>"
     },
     {
      "soort": "tekst",
@@ -193,6 +222,7 @@
   "Standplaatsgebondenheid geldt voor de maker én voor jou. Herodotos' 'barbaren' betekende: niet-Grieks.",
   "Vijf redeneerwijzen: oorzaak-gevolg, meerdere perspectieven, continuïteit en verandering, bewijs, verbanden.",
   "Mythevorming vervormt het beeld — zoals de neanderthaler, die in werkelijkheid werktuigen maakte en zijn doden begroef.",
-  "Kunst lees je in drie stappen, en ze betekent iets door vorm en inhoud samen."
+  "Bronnenanalyse in vier stappen: context, inhoud, interpreteren, beargumenteerd antwoord.",
+  "Kunst lees je in vier stappen: info, beschrijven, interpreteren, toelichten. Ze betekent iets door vorm en inhoud samen."
  ]
 }

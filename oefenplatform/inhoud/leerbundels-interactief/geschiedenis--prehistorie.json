@@ -30,6 +30,18 @@
     },
     {
      "soort": "tekst",
+     "html": "Er waren verschillende <strong>soorten mensachtigen</strong>. Ze leefden niet netjes na elkaar: sommige soorten leefden een tijd naast elkaar. De jaartallen zijn schattingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wanneer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">kenmerk</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Australopithecus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">± 4 tot 2 miljoen jaar geleden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">liep al rechtop, met een klein hersenvolume; de bekendste is Lucy</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Homo habilis, de handige mens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">± 2,4 tot 1,4 miljoen jaar geleden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maakte de eerste eenvoudige stenen werktuigen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Homo erectus, de rechtopgaande mens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">± 1,9 miljoen tot 100 000 jaar geleden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maakte vuistbijlen, leerde vuur gebruiken en verliet als eerste Afrika</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neanderthaler</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">± 400 000 tot 40 000 jaar geleden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leefde in Europa en het Midden-Oosten, aangepast aan de kou, begroef zijn doden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Homo sapiens, de verstandige mens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">± 300 000 jaar geleden tot nu</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dat zijn wij; trok over de hele wereld</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Die tochten uit Afrika noem je <strong>migraties</strong>. Eerst trok de Homo erectus naar Azië en Europa, veel later de Homo sapiens, die uiteindelijk elk werelddeel bereikte."
+    },
+    {
+     "soort": "tekst",
      "html": "De eerste mensachtigen waren <strong>aaseter-verzamelaars</strong>: ze verzamelden planten en aten vlees van dieren die al dood waren. Pas later gingen ze zelf jagen, en werden ze <strong>jager-verzamelaars</strong>."
     },
     {
@@ -52,6 +64,14 @@
     {
      "soort": "tekst",
      "html": "Binnen zo'n groep was er een <strong>taakverdeling</strong>: niet iedereen deed hetzelfde. De een ging op jacht, de ander verzamelde, maakte werktuigen of hield het vuur brandend. Wie wat deed, kunnen we uit de bronnen niet met zekerheid afleiden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De jacht</strong> gebeurde in groep. Samen dreven ze dieren in een hinderlaag of naar een afgrond, met speren en later met pijl en boog. Ze volgden de trek van de kudden. Van een dier gebruikten ze alles: vlees om te eten, huid voor kleren en tenten, botten en gewei voor werktuigen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De voedselverzameling</strong> bracht vruchten, noten, wortels, bessen, eieren en schelpdieren op. Je moest goed weten wat eetbaar was en in welk seizoen."
     },
     {
      "soort": "weetje",
@@ -100,6 +120,10 @@
     {
      "soort": "tekst",
      "html": "Waarom ze dat deden, weten we niet zeker. Het waren geen versieringen voor de woonplaats: de schilderingen zitten net op plekken waar niemand woonde, soms honderden meters diep."
+    },
+    {
+     "soort": "tekst",
+     "html": "Naast schilderingen maakten ze ook kleine beeldjes, zoals de <strong>Venus van Willendorf</strong>, een vrouwenfiguurtje van ongeveer 30 000 jaar oud. En ze droegen sieraden van schelpen, tanden en botjes. Ook dat zijn <strong>kunstuitingen</strong>."
     }
    ]
   },
@@ -109,6 +133,10 @@
     {
      "soort": "tekst",
      "html": "Ongeveer <strong>tienduizend jaar geleden</strong> gebeurde er iets wat alles veranderde: mensen begonnen zelf gewassen te telen en dieren te houden. Dat heet de <strong>agrarische revolutie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Waarom toen?</strong> Na de laatste ijstijd, zo'n 12 000 jaar geleden, werd het warmer. In sommige streken groeiden wilde granen in overvloed, en groepen bleven er langer op één plek. Hun aantal groeide, en jagen en verzamelen alleen werd te weinig. Zelf zaaien was een oplossing."
     },
     {
      "soort": "tekst",
@@ -164,13 +192,35 @@
     },
     {
      "soort": "tekst",
-     "html": "De periode waarin dit gebeurt, heet het <strong>neolithicum</strong> of de nieuwe steentijd. Je herkent de werktuigen eraan dat ze geslepen en gepolijst zijn in plaats van enkel afgeslagen. Uit die tijd liggen er nog <strong>hunebedden</strong> — grote steenzettingen boven een graf, vooral in Nederland — en bij ons <strong>grafheuvels</strong> in het landschap."
+     "html": "De periode waarin dit gebeurt, heet het <strong>neolithicum</strong> of de nieuwe steentijd. Je herkent de werktuigen eraan dat ze geslepen en gepolijst zijn in plaats van enkel afgeslagen. Boeren bakten ook <strong>aardewerk</strong>: potten om de oogst in te bewaren."
+    },
+    {
+     "soort": "tekst",
+     "html": "De landbouw <strong>verspreidde</strong> zich vanuit het Midden-Oosten heel traag over Europa. In onze streken kwamen de eerste boeren pas rond 5300 v.C., zo'n vijfduizend jaar nadat het allemaal begonnen was."
+    }
+   ]
+  },
+  {
+   "kop": "Prehistorische sporen bij ons",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De prehistorie is niet ver weg. Ook in onze streken liggen nog sporen, en veel ervan kan je gaan bekijken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">spoor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waar</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hunebed of dolmen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grote stenen boven een graf, uit het neolithicum</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wéris in de Ardennen, Drenthe in Nederland</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">menhir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één grote rechtopstaande steen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wéris</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grafheuvel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een heuvel die over een graf werd opgeworpen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in de Kempen en in Limburg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vuursteenmijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schachten waar boeren vuursteen voor hun bijlen uithaalden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Spiennes bij Bergen, werelderfgoed</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vuistbijl en pijlpunt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werktuigen die bij het ploegen of graven bovenkomen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in musea, zoals het Gallo-Romeins Museum in Tongeren</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "En ook in ons leven zit nog prehistorie: we telen dezelfde granen, houden dezelfde dieren en wonen, net als de eerste boeren, op een vaste plek."
     }
    ]
   }
  ],
  "onthoud": [
   "Prehistorie = de tijd zonder geschreven bronnen, veruit de langste periode.",
+  "Mensachtigen: Australopithecus, Homo habilis, Homo erectus, neanderthaler, Homo sapiens.",
   "De mens ontstond in Afrika; de Homo erectus trok als eerste weg.",
   "Jagers en verzamelaars leefden nomadisch, in kleine groepen; verzamelen leverde vaak het meeste op.",
   "Vuur gaf warmte, licht, bescherming en beter verteerbaar voedsel.",
