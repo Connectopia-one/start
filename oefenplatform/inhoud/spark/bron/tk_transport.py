@@ -248,8 +248,8 @@ DEEL2 = [
             "Beide wielen draaien even snel",
             "Het kleine wiel draait de andere kant op",
         ],
-        antwoord=0,
-        uitleg="Het kleine wiel is met minder tanden al rond, dus het draait vaker. Sneller draaien betekent minder kracht.",
+        antwoord=[0, 3],
+        uitleg="Twee dingen kloppen. Het kleine wiel is met minder tanden al rond, dus het draait vaker: sneller, maar met minder kracht. En twee tandwielen die in elkaar grijpen, draaien altijd tegengesteld.",
     ),
     dict(
         type="waarofniet",
