@@ -1341,84 +1341,10 @@
           "afbeelding_url": "/examenvormen/kaarten/romeinse-rijk.svg"
         },
         {
-          "type": "hotspot",
-          "vraag": "De Romeinen noemden de zee rond hun rijk mare nostrum, onze zee. Klik op die zee.",
-          "afbeelding_url": "/examenvormen/kaarten/romeinse-rijk.svg",
-          "zones": [
-            [
-              28.1,
-              50.0,
-              6.5,
-              13.1
-            ],
-            [
-              39.4,
-              51.5,
-              8.3,
-              5.4
-            ],
-            [
-              52.9,
-              59.6,
-              5.8,
-              11.5
-            ],
-            [
-              43.3,
-              68.4,
-              16.3,
-              10.0
-            ],
-            [
-              59.6,
-              73.4,
-              9.6,
-              5.8
-            ],
-            [
-              20.2,
-              59.2,
-              7.5,
-              5.0
-            ],
-            [
-              69.2,
-              75.3,
-              13.5,
-              8.1
-            ],
-            [
-              74.0,
-              69.6,
-              6.7,
-              5.4
-            ],
-            [
-              21.2,
-              50.3,
-              5.4,
-              3.5
-            ],
-            [
-              11.5,
-              67.6,
-              5.8,
-              2.7
-            ],
-            [
-              47.1,
-              39.2,
-              2.9,
-              5.0
-            ],
-            [
-              65.4,
-              53.8,
-              3.8,
-              5.8
-            ]
-          ],
-          "uitleg": "Mare nostrum is de Middellandse Zee. Alle steden op de kaart liggen eraan, en het Romeinse Rijk lag er helemaal rond."
+          "type": "keuzelijst",
+          "vraag": "Bekijk de kaart. Alle steden liggen aan dezelfde zee. De Romeinen noemden die [[*Middellandse Zee|Zwarte Zee|Noordzee]] mare nostrum, wat [[*onze zee|de grote zee|de vreemde zee]] betekent.",
+          "uitleg": "Mare nostrum is de Middellandse Zee. Alle steden op de kaart liggen eraan, en het Romeinse Rijk lag er helemaal rond.",
+          "afbeelding_url": "/examenvormen/kaarten/romeinse-rijk.svg"
         },
         {
           "casus": "Stelling: Het Romeinse Rijk werd groot alleen door oorlog.\n\nBron 1. Julius Caesar veroverde met zijn legioenen tussen 58 en 50 v.C. heel Gallië.\n\nBron 2. In drie Punische oorlogen versloeg Rome Carthago en nam het zijn gebieden over.\n\nBron 3. In 133 v.C. liet de koning van Pergamon, in het huidige Turkije, zijn rijk bij testament na aan Rome.\n\nBron 4. Steden en volken die zich aansloten, mochten vaak hun eigen bestuur houden en konden Romeins burger worden.",

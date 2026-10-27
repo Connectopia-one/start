@@ -1067,14 +1067,12 @@ H["Het Romeinse Rijk — deel 1"] += [
         ["Athene"],
         "Rome ligt in het midden van Italië. Carthago lag in Noord-Afrika, recht tegenover Sicilië. Constantinopel ligt tussen Europa en Azië, en Alexandrië aan de monding van de Nijl.",
     )),
-    klik(
-        "De Romeinen noemden de zee rond hun rijk mare nostrum, onze zee. Klik op die zee.",
-        "kaarten/romeinse-rijk.svg",
-        [[28.1, 50.0, 6.5, 13.1], [39.4, 51.5, 8.3, 5.4], [52.9, 59.6, 5.8, 11.5], [43.3, 68.4, 16.3, 10.0],
-         [59.6, 73.4, 9.6, 5.8], [20.2, 59.2, 7.5, 5.0], [69.2, 75.3, 13.5, 8.1], [74.0, 69.6, 6.7, 5.4],
-         [21.2, 50.3, 5.4, 3.5], [11.5, 67.6, 5.8, 2.7], [47.1, 39.2, 2.9, 5.0], [65.4, 53.8, 3.8, 5.8]],
+    # Eerst een klikvraag op de zee, maar die zee is te grillig voor rechthoekige
+    # klikvakken: Kim vond het lappendeken raar (27-10-2026). Nu een keuzelijst.
+    kaart("romeinse-rijk.svg", keuze(
+        "Bekijk de kaart. Alle steden liggen aan dezelfde zee. De Romeinen noemden die [[*Middellandse Zee|Zwarte Zee|Noordzee]] mare nostrum, wat [[*onze zee|de grote zee|de vreemde zee]] betekent.",
         "Mare nostrum is de Middellandse Zee. Alle steden op de kaart liggen eraan, en het Romeinse Rijk lag er helemaal rond.",
-    ),
+    )),
     stelling(
         "Het Romeinse Rijk werd groot alleen door oorlog.",
         [
