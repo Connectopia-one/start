@@ -78,10 +78,60 @@ export function datumRang(naam: string): number | null {
   return schoolmaand * 100 + nummer;
 }
 
+/*
+  Eén regel op een lijst is één kind, niet één aanvraag.
+
+  Kim op 28 oktober 2026: "als ouders hun kinderen in 1 aanvraag zetten telt
+  die dit als 1 kind ipv 2". Een gezin met twee kinderen vult het formulier
+  één keer in en typt "Olivia en Juliette", met als leeftijd "6 en 9". Die
+  aanvraag wordt hier twee regels, elk met de gegevens van dezelfde ouder.
+
+  We knippen op "en", een komma, "&", "+" en "/". Komt het aantal leeftijden
+  overeen met het aantal namen, dan krijgt elk kind zijn eigen leeftijd; zo
+  niet, dan staat de hele leeftijd bij elk kind, zodat er niets verloren gaat.
+*/
+export type Rij = {
+  sleutel: string;
+  kind: string;
+  leeftijd: string | null;
+  aanvraag: Aanvraag;
+};
+
+const SCHEIDING = /\s*(?:,|&|\+|\/|\ben\b)\s*/i;
+
+function knip(tekst: string) {
+  return tekst
+    .split(SCHEIDING)
+    .map((t) => t.trim())
+    .filter(Boolean);
+}
+
+export function kinderenVan(aanvraag: Aanvraag): Rij[] {
+  const naam = vindWaarde(aanvraag.gegevens, "naam van het kind")?.trim() ?? "";
+  const leeftijd = vindWaarde(aanvraag.gegevens, "leeftijd")?.trim() || null;
+  const namen = knip(naam);
+  if (namen.length <= 1) {
+    return [{ sleutel: aanvraag.id, kind: naam || "—", leeftijd, aanvraag }];
+  }
+  const leeftijden = leeftijd ? knip(leeftijd) : [];
+  return namen.map((kind, i) => ({
+    sleutel: `${aanvraag.id}-${i}`,
+    kind,
+    leeftijd:
+      leeftijden.length === namen.length ? leeftijden[i] : leeftijd,
+    aanvraag,
+  }));
+}
+
+/* Kinderen die Kim zelf op een lijst zette, zonder dat er een formulier
+   was. Ze staan ook in de tabel aanvragen, met deze soort. */
+export const MET_DE_HAND = "met de hand";
+
 export type Groep = {
   naam: string;
   onderwerpen: string[];
   aanvragen: Aanvraag[];
+  rijen: Rij[];
 };
 
 /*
@@ -101,13 +151,11 @@ export function maakGroepen(aanvragen: Aanvraag[]): Groep[] {
   const groepen: Groep[] = [...perNaam.entries()].map(([naam, lijst]) => ({
     naam,
     onderwerpen: [...new Set(lijst.map((a) => a.onderwerp))],
+    aanvragen: lijst,
     /* Binnen een groep op naam van het kind, want zo lees je een lijst af. */
-    aanvragen: [...lijst].sort((a, b) =>
-      (vindWaarde(a.gegevens, "naam van het kind") ?? "").localeCompare(
-        vindWaarde(b.gegevens, "naam van het kind") ?? "",
-        "nl",
-      ),
-    ),
+    rijen: lijst
+      .flatMap(kinderenVan)
+      .sort((a, b) => a.kind.localeCompare(b.kind, "nl")),
   }));
 
   return groepen.sort((a, b) => {
@@ -131,15 +179,23 @@ export const KOLOMMEN = [
   { kop: "Gemeente", woord: "gemeente" },
 ] as const;
 
+/* Wat er in een kolom komt: de naam en de leeftijd van dit ene kind, de
+   rest van de aanvraag waar het uit komt. */
+export function waardeVan(rij: Rij, woord: string) {
+  if (woord === "naam van het kind") return rij.kind;
+  if (woord === "leeftijd") return rij.leeftijd;
+  return vindWaarde(rij.aanvraag.gegevens, woord);
+}
+
 /* De hele groep als tabel met tabs ertussen, klaar om in een rekenblad of in
    een tekstverwerker te plakken. */
 export function alsTabel(groep: Groep) {
   const regels = [
     [...KOLOMMEN.map((k) => k.kop), "Boodschap"].join("\t"),
-    ...groep.aanvragen.map((a) =>
+    ...groep.rijen.map((rij) =>
       [
-        ...KOLOMMEN.map((k) => vindWaarde(a.gegevens, k.woord) ?? ""),
-        (vindWaarde(a.gegevens, "vraag of boodschap") ?? "").replace(/\s+/g, " "),
+        ...KOLOMMEN.map((k) => waardeVan(rij, k.woord) ?? ""),
+        (vindWaarde(rij.aanvraag.gegevens, "vraag of boodschap") ?? "").replace(/\s+/g, " "),
       ].join("\t"),
     ),
   ];

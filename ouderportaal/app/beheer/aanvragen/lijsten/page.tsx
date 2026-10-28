@@ -5,12 +5,15 @@ import { Header } from "@/components/Header";
 import { Kopieer } from "../Kopieer";
 import {
   KOLOMMEN,
+  MET_DE_HAND,
   adressenVan,
   alsTabel,
   maakGroepen,
   vindWaarde,
+  waardeVan,
   type Aanvraag,
 } from "@/lib/aanvraaglijsten";
+import { verwijderKind, voegKindToe } from "./actions";
 
 /* Er kan elk moment een inschrijving bijkomen, dus niets bewaren. */
 export const dynamic = "force-dynamic";
@@ -29,10 +32,10 @@ export const dynamic = "force-dynamic";
 export default async function LijstenBeheer({
   searchParams,
 }: {
-  searchParams: Promise<{ onderwerp?: string }>;
+  searchParams: Promise<{ onderwerp?: string; fout?: string; succes?: string }>;
 }) {
   const session = await requireBeheerder();
-  const { onderwerp: gekozen = "" } = await searchParams;
+  const { onderwerp: gekozen = "", fout, succes } = await searchParams;
   const naam = session.profile?.full_name ?? session.email ?? "";
 
   const db = createAdminClient();
@@ -50,6 +53,9 @@ export default async function LijstenBeheer({
     ? alles.filter((a) => a.onderwerp === gekozen)
     : alles;
   const groepen = maakGroepen(gefilterd);
+  /* Voor de vakjes van het formulier: elke dag die ooit aangekruist werd,
+     ook als er nu op een andere soort gefilterd is. */
+  const alleDagen = maakGroepen(alles);
 
   return (
     <>
@@ -64,8 +70,10 @@ export default async function LijstenBeheer({
           Lijsten uit de inschrijvingen
         </h1>
         <p className="mt-1 text-sm text-ink-dim">
-          Wie welke dag aankruiste op het inschrijfformulier. Een kind dat twee
-          dagen koos, staat op allebei de lijsten. Dit is dus wat ouders
+          Wie welke dag aankruiste op het inschrijfformulier, plus de kinderen
+          die je hieronder zelf toevoegt. Een kind dat twee dagen koos, staat op
+          allebei de lijsten, en broers en zussen uit één inschrijving tellen
+          elk apart. Dit is dus wat ouders
           vroegen; de lijst die je meeneemt, met de gegevens van de fiche,
           staat bij{" "}
           <Link
@@ -133,6 +141,91 @@ export default async function LijstenBeheer({
           </div>
         )}
 
+        {fout && (
+          <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">
+            {fout}
+          </p>
+        )}
+        {succes && (
+          <p className="mt-4 rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">
+            {succes}
+          </p>
+        )}
+
+        {!error && (
+          <details className="mt-6 rounded-lg border border-border bg-surface p-5 print:hidden">
+            <summary className="cursor-pointer font-medium text-ink">
+              Een kind met de hand toevoegen
+            </summary>
+            <p className="mt-2 text-sm text-ink-dim">
+              Voor een kind dat niet via het formulier kwam, of dat er een dag
+              bij wil. Het telt mee op elke dag die je aanvinkt. Enkel de naam
+              en minstens één dag zijn nodig.
+            </p>
+            <form action={voegKindToe} className="mt-4 space-y-4">
+              <div className="grid gap-3 sm:grid-cols-2">
+                {[
+                  ["kind", "Naam van het kind", true],
+                  ["leeftijd", "Leeftijd", false],
+                  ["ouder", "Ouder", false],
+                  ["gsm", "Gsm", false],
+                  ["mail", "E-mail", false],
+                  ["gemeente", "Gemeente", false],
+                ].map(([veld, label, nodig]) => (
+                  <label key={veld as string} className="block text-sm">
+                    <span className="text-ink-dim">{label}</span>
+                    <input
+                      name={veld as string}
+                      required={nodig as boolean}
+                      className="mt-1 w-full rounded-md border border-border bg-white px-3 py-1.5 text-ink"
+                    />
+                  </label>
+                ))}
+              </div>
+              <label className="block text-sm">
+                <span className="text-ink-dim">Opmerking (mag leeg)</span>
+                <input
+                  name="boodschap"
+                  placeholder="bijvoorbeeld: zit in de plusklas"
+                  className="mt-1 w-full rounded-md border border-border bg-white px-3 py-1.5 text-ink"
+                />
+              </label>
+              <fieldset>
+                <legend className="text-sm text-ink-dim">Welke dagen?</legend>
+                <div className="mt-1 grid gap-1 sm:grid-cols-2">
+                  {alleDagen.map((dag) => (
+                    <label key={dag.naam} className="flex items-center gap-2 text-sm text-ink">
+                      <input type="checkbox" name="dag" value={dag.naam} />
+                      {dag.naam}
+                      <input
+                        type="hidden"
+                        name={`onderwerp:${dag.naam}`}
+                        value={dag.onderwerpen[0] ?? ""}
+                      />
+                    </label>
+                  ))}
+                </div>
+                <label className="mt-2 block text-sm">
+                  <span className="text-ink-dim">
+                    Of een dag die hier nog niet staat
+                  </span>
+                  <input
+                    name="nieuwe_dag"
+                    placeholder="bijvoorbeeld: Hasselt maandag 21 december"
+                    className="mt-1 w-full rounded-md border border-border bg-white px-3 py-1.5 text-ink"
+                  />
+                </label>
+              </fieldset>
+              <button
+                type="submit"
+                className="rounded-md bg-forest px-4 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+              >
+                Zet op de lijst
+              </button>
+            </form>
+          </details>
+        )}
+
         {!error && groepen.length === 0 && (
           <p className="mt-6 text-sm text-ink-dim">
             Er is nog niemand die een dag aankruiste. Zodra er iemand inschrijft
@@ -148,7 +241,7 @@ export default async function LijstenBeheer({
         <div className="mt-4 space-y-6">
           {groepen.map((groep) => {
             const adressen = adressenVan(groep.aanvragen);
-            const open = groep.aanvragen.filter((a) => !a.afgehandeld).length;
+            const open = groep.rijen.filter((r) => !r.aanvraag.afgehandeld).length;
             return (
               <section
                 key={groep.naam}
@@ -159,8 +252,8 @@ export default async function LijstenBeheer({
                     {groep.naam}
                   </h2>
                   <p className="text-sm text-ink-dim">
-                    {groep.aanvragen.length}{" "}
-                    {groep.aanvragen.length === 1 ? "kind" : "kinderen"}
+                    {groep.rijen.length}{" "}
+                    {groep.rijen.length === 1 ? "kind" : "kinderen"}
                     {open > 0 && ` · ${open} nog niet afgehandeld`}
                   </p>
                 </div>
@@ -185,14 +278,16 @@ export default async function LijstenBeheer({
                       </tr>
                     </thead>
                     <tbody>
-                      {groep.aanvragen.map((aanvraag) => {
+                      {groep.rijen.map((rij) => {
+                        const aanvraag = rij.aanvraag;
+                        const zelf = aanvraag.soort === MET_DE_HAND;
                         const boodschap = vindWaarde(
                           aanvraag.gegevens,
                           "vraag of boodschap",
                         );
                         return (
                           <tr
-                            key={aanvraag.id}
+                            key={rij.sleutel}
                             className="border-b border-border/60 align-top last:border-0"
                           >
                             {KOLOMMEN.map((kolom, i) => (
@@ -202,16 +297,27 @@ export default async function LijstenBeheer({
                                   i === 0 ? "font-medium text-ink" : "text-ink-dim"
                                 }`}
                               >
-                                {vindWaarde(aanvraag.gegevens, kolom.woord) ?? "—"}
-                                {i === 0 && aanvraag.afgehandeld && (
+                                {waardeVan(rij, kolom.woord) ?? "—"}
+                                {i === 0 && (zelf || aanvraag.afgehandeld) && (
                                   <span className="ml-1.5 text-xs font-normal text-ink-dim">
-                                    afgehandeld
+                                    {zelf ? "met de hand" : "afgehandeld"}
                                   </span>
                                 )}
                                 {i === 0 && boodschap && (
                                   <p className="mt-0.5 text-xs font-normal text-ink-dim">
                                     {boodschap}
                                   </p>
+                                )}
+                                {i === 0 && zelf && (
+                                  <form action={verwijderKind} className="print:hidden">
+                                    <input type="hidden" name="id" value={aanvraag.id} />
+                                    <button
+                                      type="submit"
+                                      className="mt-0.5 text-xs font-normal text-danger underline underline-offset-2"
+                                    >
+                                      van alle lijsten halen
+                                    </button>
+                                  </form>
                                 )}
                               </td>
                             ))}
