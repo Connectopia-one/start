@@ -29,6 +29,11 @@ export function splitsDeel(titel: string): { thema: string; deel: number } {
   };
 }
 
+/** "Getallenleer — deel 2" → "Getallenleer", met de hoofdletters zoals ze staan. */
+export function themaNaam(titel: string): string {
+  return titel.replace(DEEL, "").trim();
+}
+
 export function sorteerHoofdstukken<T extends TeSorteren>(hoofdstukken: T[]): T[] {
   // Per thema het laagste volgnummer: daar komt de hele groep te staan.
   const plaatsVanThema = new Map<string, number>();
