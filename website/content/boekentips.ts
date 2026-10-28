@@ -347,4 +347,13 @@ export const boeken: Boek[] = [
       "Driehonderdeenentwintig verrassende weetjes over geschiedenis, in korte stukjes. Met prachtige prenten van Louize Perdieus.",
     onderwerpen: ["geschiedenis", "weetjes"],
   },
+  {
+    slug: "mijlpalen-van-de-wetenschap",
+    titel: "Mijlpalen van de wetenschap",
+    makers: "",
+    uitgeverij: "",
+    tekst:
+      "Een reeks waarin elk deel één periode uit de geschiedenis van de wetenschap volgt, van Galilei en Newton tot Darwin, Marie Curie en Einstein. Wetenschap en geschiedenis in één.",
+    onderwerpen: ["geschiedenis", "natuurkunde"],
+  },
 ];
