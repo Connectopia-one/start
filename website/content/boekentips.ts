@@ -18,9 +18,9 @@
 export const boekentipsTekst = {
   label: "Hulp, advies en tips",
   titel: "Boekentips",
-  handgeschreven: "Boeken zijn goud waard.",
+  handgeschreven: "Een kijkje in onze boekenkast.",
   tekst:
-    "Elk boek op deze pagina staat bij ons in de kast en wordt echt gebruikt in de werking. Een leeftijd zetten we er bewust niet bij: onze kinderen kiezen op interesse, niet op het getal op de achterkant.",
+    "Dit is een kijkje in de boekenkast van Connectopia. Elk boek dat we hier tippen, hebben we zelf en wordt echt gebruikt in onze werking. Een leeftijd zetten we er bewust niet bij: onze kinderen kiezen op interesse, niet op het getal op de achterkant.",
 };
 
 export const onderwerpen = [
