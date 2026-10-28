@@ -272,6 +272,8 @@ export const trajecten: Traject[] = [
   {
     slug: "vakantiekampen",
     naam: "Vakantiekampen",
+    /* De eigen kampinschrijving met kaartjes, sinds 28 oktober 2026. */
+    inschrijvenLink: "/kampen/inschrijven",
     ondertitel: "Tijdens elke schoolvakantie",
     kleur: "green",
     icoon: "🏕️",

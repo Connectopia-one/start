@@ -48,3 +48,16 @@ export async function bewaarAanvraag(aanvraag: NieuweAanvraag) {
   }
   return { fout: null };
 }
+
+/* Meerdere aanvragen in één keer, zoals een kampinschrijving met een rij per
+   kind. Eén insert: lukt het niet, dan staat er ook niets half. */
+export async function bewaarAanvragen(aanvragen: NieuweAanvraag[]) {
+  const db = verbinding();
+  if (!db) return { fout: "geen-databank" as const };
+  const { error } = await db.from("aanvragen").insert(aanvragen);
+  if (error) {
+    console.error("Aanvragen bewaren mislukt:", error.message);
+    return { fout: "mislukt" as const };
+  }
+  return { fout: null };
+}
