@@ -113,7 +113,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke basisbewerkingen op dia's noemt de fiche? Er zijn meerdere juiste antwoorden.",
+        vraag="Welke van deze zijn basisbewerkingen op dia's? Er zijn meerdere juiste antwoorden.",
         opties=[
             "een nieuwe dia invoegen",
             "de indeling en de opmaak van een dia aanpassen",
@@ -187,7 +187,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="De indeling van een dia kan je achteraf nog veranderen.",
         antwoord=True,
-        uitleg="De fiche noemt het letterlijk bij de basisbewerkingen: de indeling en de opmaak aanpassen.",
+        uitleg="Het hoort bij de basisbewerkingen: de indeling en de opmaak aanpassen.",
     ),
     dict(
         type="waarofniet",
@@ -215,7 +215,7 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoe heet het vaste patroon van vakken op een dia, in de woorden van de fiche?",
+        vraag="Hoe heet het vaste patroon van vakken op een dia?",
         antwoord=["indeling", "de indeling", "lay-out"],
         uitleg="De indeling, in het Engels de lay-out.",
     ),
@@ -302,7 +302,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke soorten afdrukken van een presentatie noemt de fiche? Er zijn meerdere juiste antwoorden.",
+        vraag="Welke van deze zijn soorten afdrukken van een presentatie? Er zijn meerdere juiste antwoorden.",
         opties=[
             "hand-outs",
             "overzichten",
@@ -382,7 +382,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Een presentatie kan je enkel als pptx bewaren.",
         antwoord=False,
-        uitleg="De fiche noemt zelf verschillende bestandsindelingen, zoals pptx en ppsm.",
+        uitleg="Er zijn verschillende bestandsindelingen, zoals pptx en ppsm.",
     ),
     dict(
         type="invultekst",
@@ -392,7 +392,7 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Welke bestandsindeling uit de fiche start bij het openen meteen als diavoorstelling?",
+        vraag="Welke bestandsindeling start bij het openen meteen als diavoorstelling?",
         antwoord=["ppsm", "een ppsm"],
         uitleg="Een ppsm. De s staat voor show.",
     ),

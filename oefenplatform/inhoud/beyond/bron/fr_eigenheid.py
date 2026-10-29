@@ -37,14 +37,13 @@ DEEL1 = [
          uitleg="Natuurwetenschappen zoals fysica, chemie en biologie onderzoeken de natuur. "
                 "Menswetenschappen onderzoeken de mens en de samenleving."),
     dict(type="meerkeuze",
-         vraag="Welke twee wetenschappen noemt de fiche bij de menswetenschappen?",
+         vraag="Welke twee wetenschappen horen bij de menswetenschappen?",
          opties=["de sociale wetenschappen en de gedragswetenschappen",
                  "de natuurkunde, de scheikunde en de sterrenkunde",
                  "de geneeskunde en de biologie",
                  "de rechtswetenschap, de economie en de geneeskunde"],
          antwoord=0,
-         uitleg="De fiche zet het er met zoveel woorden bij: menswetenschappen zijn de sociale en "
-                "de gedragswetenschappen."),
+         uitleg="Menswetenschappen zijn de sociale en de gedragswetenschappen."),
     dict(type="meerkeuze",
          vraag="Wat hebben de natuur- en de menswetenschappen met elkaar gemeen?",
          opties=["ze werken beide met onderzoek, met gegevens en met een methode",
@@ -140,11 +139,9 @@ DEEL1 = [
          uitleg="Mensen zijn geen stenen: ze verschillen, ze kiezen zelf mee, en ze passen hun "
                 "gedrag aan als ze weten wat er van hen verwacht wordt."),
     dict(type="waarofniet",
-         vraag="Volgens de fiche horen de sociale en de gedragswetenschappen bij de "
-               "menswetenschappen.",
+         vraag="De sociale en de gedragswetenschappen horen bij de menswetenschappen.",
          antwoord=True,
-         uitleg="Waar. De fiche noemt de menswetenschappen en zet er de sociale en de "
-                "gedragswetenschappen bij."),
+         uitleg="Waar. De sociale en de gedragswetenschappen zijn de menswetenschappen."),
     dict(type="waarofniet",
          vraag="Filosofie onderscheidt zich van de andere menswetenschappen doordat ze haar "
                "uitspraken met meetgegevens onderbouwt.",
@@ -168,10 +165,9 @@ DEEL1 = [
          antwoord=["verwondering"],
          uitleg="Filosofische verwondering is het vertrekpunt van elke filosofische vraag."),
     dict(type="invultekst",
-         vraag="Welke twee wetenschappen rekent de fiche tot de menswetenschappen? De sociale en "
-               "de ...",
+         vraag="Welke twee wetenschappen horen bij de menswetenschappen? De sociale en de ...",
          antwoord=["gedragswetenschappen"],
-         uitleg="De fiche noemt de sociale en de gedragswetenschappen als de menswetenschappen."),
+         uitleg="De sociale en de gedragswetenschappen zijn de menswetenschappen."),
     dict(type="invultekst",
          vraag="Fysica, chemie en biologie horen samen bij de ...",
          antwoord=["natuurwetenschappen"],
@@ -200,11 +196,9 @@ DEEL2 = [
                  "zij deden hun uitspraken enkel over goed en kwaad",
                  "zij weigerden iedere uitspraak over de natuur te doen"],
          antwoord=0,
-         uitleg="Dat is de stap die de fiche aanwijst: van een verhaal over goden naar een "
-                "verklaring binnen de natuur zelf, waarover je kan redetwisten."),
+         uitleg="Dat is de stap: van een verhaal over goden naar een verklaring binnen de natuur zelf, waarover je kan redetwisten."),
     dict(type="meerkeuze",
-         vraag="Waarom ziet de fiche de overgang van mythologie naar natuurfilosofie als het begin "
-               "van de westerse filosofie?",
+         vraag="Waarom zie je de overgang van mythologie naar natuurfilosofie als het begin van de westerse filosofie?",
          opties=["omdat een verklaring vanaf dan met argumenten verdedigd en betwist kon worden",
                  "omdat de mythen vanaf dan niet meer verteld werden",
                  "omdat de natuurfilosofen al met een laboratorium werkten",
@@ -257,8 +251,7 @@ DEEL2 = [
          vraag="Welk filosofisch domein onderzoekt wat goed handelen is?",
          opties=["de ethiek", "de kennisleer", "de logica", "de wijsgerige antropologie"],
          antwoord=0,
-         uitleg="De ethiek onderzoekt goed handelen en rechtvaardig samenleven. Dat is in deze "
-                "fiche het grootste filosofische onderdeel."),
+         uitleg="De ethiek onderzoekt goed handelen en rechtvaardig samenleven. Dat is hier het grootste filosofische onderdeel."),
     dict(type="meerkeuze",
          vraag="Welk filosofisch domein onderzoekt wat de mens is?",
          opties=["de wijsgerige antropologie", "de ethiek", "de logica",
@@ -271,14 +264,12 @@ DEEL2 = [
          opties=["de logica", "de ethiek", "de wijsgerige antropologie",
                  "de wetenschapsfilosofie"],
          antwoord=0,
-         uitleg="De logica onderzoekt de vorm van een redenering: de argumentatieleer van deze "
-                "fiche hoort daar thuis."),
+         uitleg="De logica onderzoekt de vorm van een redenering: de argumentatieleer hoort daar thuis."),
     dict(type="meerkeuze",
          vraag="Welk filosofisch domein onderzoekt hoe wij aan kennis komen?",
          opties=["de kennisleer", "de ethiek", "de esthetica", "de wijsgerige antropologie"],
          antwoord=0,
-         uitleg="De kennisleer vraagt waar kennis vandaan komt. Het rationalisme en het empirisme "
-                "van deze fiche horen daar thuis."),
+         uitleg="De kennisleer vraagt waar kennis vandaan komt. Het rationalisme en het empirisme horen daar thuis."),
     dict(type="meerkeuze",
          vraag="Wat maakt van een reeks vragen een filosofisch domein?",
          opties=["de vragen gaan over hetzelfde soort onderwerp en hangen met elkaar samen",
@@ -292,8 +283,7 @@ DEEL2 = [
          vraag="De natuurfilosofen zochten hun verklaringen in de natuur zelf in plaats van bij de "
                "goden.",
          antwoord=True,
-         uitleg="Waar. Dat is precies de stap die de fiche als de oorsprong van de westerse "
-                "filosofie aanwijst."),
+         uitleg="Waar. Dat is precies de stap die je als de oorsprong van de westerse filosofie ziet."),
     dict(type="waarofniet",
          vraag="Een vraag is filosofisch zodra niemand het antwoord kent.",
          antwoord=False,
@@ -302,14 +292,12 @@ DEEL2 = [
     dict(type="waarofniet",
          vraag="De wetenschapsfilosofie onderzoekt de methode en de grenzen van de wetenschap.",
          antwoord=True,
-         uitleg="Waar. Dat is het domein waarin de falsificatie en het demarcatievraagstuk van "
-                "deze fiche thuishoren."),
+         uitleg="Waar. Dat is het domein waarin de falsificatie en het demarcatievraagstuk thuishoren."),
     dict(type="waarofniet",
          vraag="Omdat filosofische vragen geen vast antwoord hebben, is het ene antwoord even goed "
                "als het andere.",
          antwoord=False,
-         uitleg="Niet waar. Er zijn wel betere en slechtere argumenten, en daarover valt "
-                "wel te beslissen. Dat is waarom de fiche de argumentatieleer vraagt."),
+         uitleg="Niet waar. Er zijn wel betere en slechtere argumenten, en daarover valt wel te beslissen. Daarom leer je argumentatieleer."),
     dict(type="invultekst",
          vraag="Hoe heet een verklaring van de wereld met verhalen over goden?",
          antwoord=["mythologie", "een mythe"],
@@ -322,9 +310,9 @@ DEEL2 = [
     dict(type="invultekst",
          vraag="Welk filosofisch domein onderzoekt goed handelen en rechtvaardig samenleven?",
          antwoord=["de ethiek", "ethiek"],
-         uitleg="De ethiek is in deze fiche het grootste filosofische onderdeel."),
+         uitleg="De ethiek is hier het grootste filosofische onderdeel."),
     dict(type="invultekst",
          vraag="Welk filosofisch domein onderzoekt of een redenering geldig is?",
          antwoord=["de logica", "logica"],
-         uitleg="De argumentatieleer van deze fiche hoort bij de logica."),
+         uitleg="De argumentatieleer hoort bij de logica."),
 ]

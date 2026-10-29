@@ -71,7 +71,7 @@ DEEL1 = [
                  "om te ontkennen",
                  "om een bevel te geven"],
          antwoord=0,
-         uitleg="I do like your new coat! De fiche noemt dit uitdrukkelijk: do om iets te benadrukken."),
+         uitleg="I do like your new coat! Met do benadruk je iets."),
     dict(type="waarofniet",
          vraag="Je zegt in het Engels I am knowing the answer.",
          antwoord=False,
@@ -143,7 +143,7 @@ DEEL1 = [
                  "have",
                  "will"],
          antwoord=0,
-         uitleg="I do think you are right legt nadruk op je instemming. Dat is de emphatic do uit de fiche."),
+         uitleg="I do think you are right legt nadruk op je instemming. Dat is de emphatic do."),
 ]
 
 DEEL2 = [
@@ -162,7 +162,7 @@ DEEL2 = [
                  "lived",
                  "am living"],
          antwoord=0,
-         uitleg="Dit is het voorbeeld uit de fiche zelf. Begint iets in het verleden en duurt het nog, dan staat er een present perfect."),
+         uitleg="Begint iets in het verleden en duurt het nog, dan staat er een present perfect."),
     dict(type="invultekst",
          vraag="Welk woord hoort bij een present perfect als je een beginpunt noemt: for of since? Eén woord.",
          antwoord=["since"],
@@ -226,7 +226,7 @@ DEEL2 = [
                  "am been plus -ing",
                  "had been plus -ing"],
          antwoord=0,
-         uitleg="I have been working, he has been working. Met had been wordt het een past perfect, en die staat niet in deze fiche."),
+         uitleg="I have been working, he has been working. Met had been wordt het een past perfect, en die hoort hier niet bij."),
     dict(type="waarofniet",
          vraag="Je zegt in het Engels I have seen him last week.",
          antwoord=False,

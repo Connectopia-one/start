@@ -16,6 +16,7 @@ van precies die hoofdstukken en laat de rest van het vak ongemoeid.
 | `filosofie-en-recht-herstel.json` | Filosofie en recht | Vijf uitlegteksten waarin `<em>` letterlijk op het scherm kwam. |
 | `geschiedenis-tijdvakken-herstel.json` | Geschiedenis | 27 oktober 2026, **vervangen AAN**. 🌱 Start gebruikt de zeven periodes van het nieuwe curriculum (Tijd en tijdlijn, Van de prehistorie tot de Romeinen), en twee pittige Spark-vragen spreken niet meer over "het jaar 0". |
 | `geschiedenis-spark-nieuw-2027.json` | Geschiedenis | 27 oktober 2026, **vervangen UIT**. 36 nieuwe ✨ Spark-vragen bij de leerstof die uit de vakfiche 2027 bijkwam. Uit, want in die hoofdstukken staan ook de vragen in de examenvormen; met vervangen aan zouden die verdwijnen. Gemaakt door `spark/bron/geschiedenis_vakfiche_2027.py`. |
+| `zonder-fiche/` | Alle vakken | 29 oktober 2026, **vervangen AAN**. Geen "fiche" of "vakfiche" meer in vragen, opties en uitleg. Eén bestand per vak en categorie, met een eigen LEESMIJ. |
 
 De vragen staan ook aangepast in de gewone vakbestanden, dus wie later het hele
 vak opnieuw inlaadt, krijgt dezelfde verbetering mee.

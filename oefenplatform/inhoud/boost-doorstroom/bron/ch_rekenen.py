@@ -169,7 +169,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Als je naar de stofhoeveelheid gevraagd wordt, bedoelt men de massa in gram.",
         antwoord=False,
-        uitleg="De fiche spreekt dat uitdrukkelijk af: met stofhoeveelheid wordt het aantal mol bedoeld. Anders staat er expliciet massa of aantal deeltjes.",
+        uitleg="Afspraak: met stofhoeveelheid wordt het aantal mol bedoeld. Anders staat er expliciet massa of aantal deeltjes.",
     ),
     dict(
         type="waarofniet",
@@ -364,7 +364,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Je antwoord op een berekening noteer je met het juiste aantal beduidende cijfers.",
         antwoord=True,
-        uitleg="Een meting is nooit exact, dus mag je antwoord niet nauwkeuriger lijken dan je gegevens. De fiche vraagt dat uitdrukkelijk.",
+        uitleg="Een meting is nooit exact, dus mag je antwoord niet nauwkeuriger lijken dan je gegevens.",
     ),
     dict(
         type="invultekst",

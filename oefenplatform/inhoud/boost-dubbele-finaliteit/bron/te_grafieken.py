@@ -116,7 +116,7 @@ DEEL1 = [
          antwoord=0,
          uitleg="Bijvoorbeeld de omzet van 2026; een tweede reeks is die van 2027."),
     dict(type="meerkeuze",
-         vraag="Welke grafiektypes noemt de vakfiche?",
+         vraag="Welke van deze zijn grafiektypes?",
          opties=["de kolomgrafiek",
                  "de lijngrafiek",
                  "het cirkeldiagram",

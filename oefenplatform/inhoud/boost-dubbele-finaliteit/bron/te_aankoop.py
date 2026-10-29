@@ -102,7 +102,7 @@ DEEL1 = [
     dict(type="waarofniet",
          vraag="De aankoop van diensten is een andere soort aankoop dan handelsgoederen.",
          antwoord=True,
-         uitleg="De fiche onderscheidt handelsgoederen, diensten en diverse goederen, en investeringen."),
+         uitleg="Je onderscheidt handelsgoederen, diensten en diverse goederen, en investeringen."),
     dict(type="waarofniet",
          vraag="De leverbon vermeldt altijd de prijs van de goederen.",
          antwoord=False,
@@ -112,7 +112,7 @@ DEEL1 = [
          antwoord=["bestelbon", "de bestelbon"],
          uitleg="De bestelbon."),
     dict(type="meerkeuze",
-         vraag="Welke soorten aankopen onderscheidt de vakfiche?",
+         vraag="Welke soorten aankopen onderscheid je?",
          opties=[
              "handelsgoederen",
              "diensten en diverse goederen",
@@ -136,7 +136,7 @@ DEEL1 = [
                  "om meer klanten te krijgen",
                  "om de voorraad te tellen"],
          antwoord=0,
-         uitleg="De fiche zegt het zo: je controleert met als doel kwaliteit af te leveren."),
+         uitleg="Je controleert met als doel kwaliteit af te leveren."),
     dict(type="meerkeuze",
          vraag="Wat vergelijk je met een aankoopfactuur?",
          opties=[

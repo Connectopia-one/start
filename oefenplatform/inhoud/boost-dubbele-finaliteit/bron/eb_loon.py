@@ -208,7 +208,7 @@ DEEL2 = [
                  "je ziekenfonds ervan",
                  "je bankrekening ervan"],
          antwoord=0,
-         uitleg="De bedragen van de fiche vul je in bij je personenbelasting."),
+         uitleg="De bedragen van die fiche vul je in bij je personenbelasting."),
     dict(type="meerkeuze",
          vraag="Wie bezorgt de fiche 281.10 aan de werknemer?",
          opties=["de werkgever",

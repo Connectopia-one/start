@@ -45,7 +45,7 @@ DEEL1 = [
          antwoord=0,
          uitleg="Hoe meer je maakt, hoe meer grondstof je nodig hebt."),
     dict(type="invultekst",
-         vraag="Welke afkorting gebruikt de vakfiche voor de totale kosten? Hoogstens drie woorden.",
+         vraag="Welke afkorting gebruik je voor de totale kosten? Hoogstens drie woorden.",
          antwoord=["tk", "de tk", "totale kosten"],
          uitleg="TK."),
     dict(type="waarofniet",
@@ -148,7 +148,7 @@ DEEL1 = [
          antwoord=[0, 1],
          uitleg="De curve start boven nul, want de constante kosten zijn er ook bij nul stuks, en ze stijgt altijd. Het verschil met de curve van de variabele kosten is precies die constante kost."),
     dict(type="invultekst",
-         vraag="Welke afkorting gebruikt de vakfiche voor de totale variabele kosten? Hoogstens drie woorden.",
+         vraag="Welke afkorting gebruik je voor de totale variabele kosten? Hoogstens drie woorden.",
          antwoord=["tvk", "de tvk", "totale variabele kosten"],
          uitleg="TVK."),
 ]
@@ -223,7 +223,7 @@ DEEL2 = [
          antwoord=0,
          uitleg="Bij dezelfde verkoopprijs blijft er per stuk meer over."),
     dict(type="meerkeuze",
-         vraag="Welke kostenbegrippen noemt de vakfiche?",
+         vraag="Welke van deze zijn kostenbegrippen?",
          opties=[
              "de gemiddelde constante kosten",
              "de gemiddelde variabele kosten",
@@ -291,7 +291,7 @@ DEEL2 = [
          antwoord=[0, 1, 2, 4],
          uitleg="De huur zelf verandert niet; enkel het deel per stuk wordt kleiner."),
     dict(type="invultekst",
-         vraag="Welke afkorting gebruikt de vakfiche voor de gemiddelde kosten? Hoogstens drie woorden.",
+         vraag="Welke afkorting gebruik je voor de gemiddelde kosten? Hoogstens drie woorden.",
          antwoord=["gk", "de gk", "gemiddelde kosten"],
          uitleg="GK."),
 ]

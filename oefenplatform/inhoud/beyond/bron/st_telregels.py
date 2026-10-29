@@ -292,7 +292,7 @@ DEEL2 = [
             "je rekent met alle drie de regels en neemt daarna het gemiddelde",
         ],
         antwoord=0,
-        uitleg="Opsplitsen in deelproblemen is een van de heuristieken die de fiche noemt.",
+        uitleg="Opsplitsen in deelproblemen is een van de heuristieken.",
     ),
     dict(
         type="waarofniet",

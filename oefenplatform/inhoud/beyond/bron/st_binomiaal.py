@@ -333,7 +333,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Een rekenapp kan de hele kansverdeling van een binomiale verdeling in één keer opstellen.",
         antwoord=True,
-        uitleg="De fiche vraagt dat ook letterlijk: je stelt de kansverdeling op met ICT.",
+        uitleg="Precies: je stelt de kansverdeling op met ICT.",
     ),
     dict(
         type="meerkeuze",

@@ -41,7 +41,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke elementen van persoonlijkheid noemt de fiche?",
+        vraag="Welke van deze zijn elementen van persoonlijkheid?",
         opties=[
             "karakter",
             "temperament",
@@ -51,7 +51,7 @@ DEEL1 = [
             "motivatie",
         ],
         antwoord=[0, 1, 2, 5],
-        uitleg="De fiche noemt karakter, motivatie, temperament, trekken of disposities en zelfbeeld. Attributie en conformisme horen bij de sociale psychologie.",
+        uitleg="De elementen zijn karakter, motivatie, temperament, trekken of disposities en zelfbeeld. Attributie en conformisme horen bij de sociale psychologie.",
     ),
     dict(
         type="meerkeuze",
@@ -97,13 +97,13 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Motivatie staat in de fiche als een element van persoonlijkheid.",
+        vraag="Motivatie is een element van persoonlijkheid.",
         antwoord=True,
         uitleg="Waar. De vijf elementen zijn karakter, motivatie, temperament, trekken of disposities en zelfbeeld.",
     ),
     dict(
         type="waarofniet",
-        vraag="Temperament en karakter betekenen volgens de fiche precies hetzelfde.",
+        vraag="Temperament en karakter betekenen precies hetzelfde.",
         antwoord=False,
         uitleg="Niet waar. Ze staan als twee aparte elementen. Temperament is aangeboren, karakter krijgt ook vorm door opvoeding en ervaring.",
     ),
@@ -133,7 +133,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat bedoelt de fiche met de invloed van culturele factoren op persoonlijkheid?",
+        vraag="Wat bedoel je met de invloed van culturele factoren op persoonlijkheid?",
         opties=[
             "welke eigenschappen gewaardeerd worden, verschilt per cultuur",
             "persoonlijkheid is in elke cultuur precies hetzelfde",
@@ -159,13 +159,13 @@ DEEL1 = [
         type="invultekst",
         vraag="Het beeld dat iemand van zichzelf heeft, heet het ...",
         antwoord=["zelfbeeld"],
-        uitleg="Het zelfbeeld. Het is een van de vijf elementen van persoonlijkheid in de fiche.",
+        uitleg="Het zelfbeeld. Het is een van de vijf elementen van persoonlijkheid.",
     ),
     dict(
         type="waarofniet",
-        vraag="Een persoonlijkheid ligt volgens de fiche al bij de geboorte helemaal vast.",
+        vraag="Een persoonlijkheid ligt al bij de geboorte helemaal vast.",
         antwoord=False,
-        uitleg="Niet waar. De fiche spreekt over de vorming en de ontwikkeling van persoonlijkheid, en noemt ook culturele factoren.",
+        uitleg="Niet waar. Persoonlijkheid wordt gevormd en ontwikkelt zich, ook onder invloed van culturele factoren.",
     ),
     dict(
         type="waarofniet",
@@ -175,7 +175,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe noemt de fiche de twee woorden die ze voor hetzelfde element gebruikt: trekken en ...?",
+        vraag="Welk woord gebruik je naast trekken voor hetzelfde element van persoonlijkheid?",
         opties=[
             "disposities",
             "attributies",
@@ -207,7 +207,7 @@ DEEL1 = [
             "de trekken",
         ],
         antwoord=0,
-        uitleg="De motivatie is wat iemand in beweging zet. Ze staat als een van de vijf elementen in de fiche.",
+        uitleg="De motivatie is wat iemand in beweging zet. Ze is een van de vijf elementen.",
     ),
     dict(
         type="invultekst",
@@ -244,7 +244,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wie hoort in de fiche bij de reinforcement sensitivity theory?",
+        vraag="Wie hoort bij de reinforcement sensitivity theory?",
         opties=[
             "Jeffrey Gray",
             "Hans Eysenck",
@@ -322,7 +322,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wie hoort in de fiche bij de biologische theorie van persoonlijkheid met de arousal?",
+        vraag="Wie hoort bij de biologische theorie van persoonlijkheid met de arousal?",
         opties=[
             "Hans Eysenck",
             "Jeffrey Gray",
@@ -432,6 +432,6 @@ DEEL2 = [
             "ze werkt niet met meetbare begrippen",
         ],
         antwoord=0,
-        uitleg="Wie alles in het brein legt, krijgt het moeilijk met de invloed van opvoeding en cultuur, en die staat ook in de fiche.",
+        uitleg="Wie alles in het brein legt, krijgt het moeilijk met de invloed van opvoeding en cultuur.",
     ),
 ]

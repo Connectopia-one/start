@@ -329,7 +329,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke gevolgen van mondialisering somt de vakfiche op? (meerdere antwoorden mogelijk)",
+        vraag="Welke van deze zijn gevolgen van mondialisering? (meerdere antwoorden mogelijk)",
         opties=[
             "Migratiebewegingen en ontvolking",
             "Landgrabbing en protectionisme",
@@ -339,7 +339,7 @@ DEEL2 = [
             "Samenwerkingsverbanden en spanningen tussen landen",
         ],
         antwoord=[0, 1, 2, 5],
-        uitleg="De fiche noemt samenwerkingsverbanden, spanningen, migratie en ontvolking, braindrain en braingain, landgrabbing, protectionisme en outsourcing. Erosie en klimaatzones horen bij andere rubrieken.",
+        uitleg="Gevolgen zijn samenwerkingsverbanden, spanningen, migratie en ontvolking, braindrain en braingain, landgrabbing, protectionisme en outsourcing. Erosie en klimaatzones horen bij andere onderwerpen.",
     ),
     dict(
         type="waarofniet",

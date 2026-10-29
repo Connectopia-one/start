@@ -93,7 +93,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel maatschappelijke domeinen onderscheidt de vakfiche?",
+        vraag="Hoeveel maatschappelijke domeinen onderscheid je in het historisch referentiekader?",
         opties=["vier", "drie", "vijf", "zeven"],
         antwoord=0,
         uitleg="Het culturele, het economische, het politieke en het sociale domein.",
@@ -155,7 +155,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="De middeleeuwen en de vroegmoderne tijd zijn de twee periodes die je voor dit vak grondig moet kennen.",
         antwoord=True,
-        uitleg="De fiche geeft voor die twee periodes afgebakende leerinhouden. De andere periodes komen enkel aan bod om mee te vergelijken, en die info krijg je op het examen.",
+        uitleg="Voor die twee periodes leer je de leerstof grondig. De andere periodes komen enkel aan bod om mee te vergelijken, en die info krijg je op het examen.",
     ),
     dict(
         type="meerkeuze",

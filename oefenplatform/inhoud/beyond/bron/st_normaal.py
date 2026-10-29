@@ -121,7 +121,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je moet beoordelen of de normale verdeling past bij een dataset. Wat doe je volgens de fiche?",
+        vraag="Je moet beoordelen of de normale verdeling past bij een dataset. Wat doe je?",
         opties=[
             "je maakt met ICT een grafische voorstelling en bekijkt de vorm",
             "je berekent het gemiddelde en kijkt of het een geheel getal is",
@@ -129,7 +129,7 @@ DEEL1 = [
             "je deelt de standaardafwijking door het gemiddelde",
         ],
         antwoord=0,
-        uitleg="De fiche vraagt letterlijk: je beoordeelt op basis van een grafische voorstelling. Een histogram is daar het geschiktst voor.",
+        uitleg="Je beoordeelt op basis van een grafische voorstelling. Een histogram is daar het geschiktst voor.",
     ),
     dict(
         type="invultekst",
@@ -296,7 +296,7 @@ DEEL2 = [
             "door het aantal waarden onder de grens te tellen",
         ],
         antwoord=0,
-        uitleg="De fiche vraagt het gebruik van de rekenapps. Je toont wel je werkwijze en je redenering.",
+        uitleg="Je gebruikt de rekenapps. Je toont wel je werkwijze en je redenering.",
     ),
     dict(
         type="waarofniet",

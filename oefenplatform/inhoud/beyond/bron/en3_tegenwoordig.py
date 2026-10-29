@@ -108,7 +108,7 @@ DEEL1 = [
                  "has left",
                  "will be leaving"],
          antwoord=0,
-         uitleg="Bij een vast uurrooster staat de present simple, ook voor iets dat nog komt. De fiche noemt dat present simple to talk about the future."),
+         uitleg="Bij een vast uurrooster staat de present simple, ook voor iets dat nog komt: present simple to talk about the future."),
     dict(type="waarofniet",
          vraag="In « I am seeing the doctor tomorrow » gaat het over iets dat nu gebeurt.",
          antwoord=False,

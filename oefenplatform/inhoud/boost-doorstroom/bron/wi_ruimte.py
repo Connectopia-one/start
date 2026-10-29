@@ -52,7 +52,7 @@ DEEL1 = [
             "de rechte staat altijd loodrecht op het vlak of valt ermee samen",
         ],
         antwoord=0,
-        uitleg="Die vier mogelijkheden staan zo in de vakfiche opgesomd.",
+        uitleg="Die vier mogelijkheden zijn er.",
     ),
     dict(
         type="meerkeuze",
@@ -75,7 +75,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke drie aanzichten noemt de vakfiche bij de projecties op drie vlakken?",
+        vraag="Welke drie aanzichten teken je bij de projecties op drie vlakken?",
         opties=[
             "zijaanzicht, vooraanzicht en bovenaanzicht",
             "zijaanzicht, achteraanzicht en onderaanzicht",

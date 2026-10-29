@@ -1,0 +1,5058 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Behoeften, schaarste en soorten goederen — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom moet een consument kiezen?",
+     "opties": [
+      "zijn budget is beperkt",
+      "hij houdt niet van kopen",
+      "er is te veel te koop",
+      "de winkels zijn gesloten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hij kan niet alles kopen wat hij nuttig vindt, dus hij moet kiezen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een behoefte?",
+     "opties": [
+      "een gevoel van gemis",
+      "een gekocht product",
+      "een som geld ervan",
+      "een soort winkel ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je mist iets en wil dat gemis wegnemen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is schaarste?",
+     "opties": [
+      "te weinig voor alles",
+      "te veel van alles ervan",
+      "een lege winkel ervan",
+      "een hoge prijs ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "De middelen zijn beperkt tegenover de behoeften. Daarom moet er gekozen worden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een economische behoefte?",
+     "opties": [
+      "ze kost geld",
+      "ze is gratis ervan",
+      "ze is verboden ervan",
+      "ze is onbelangrijk"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je hebt er een schaars goed of een dienst voor nodig."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het tekort aan middelen tegenover de behoeften? Eén woord.",
+     "antwoord": [
+      "schaarste",
+      "de schaarste"
+     ],
+     "uitleg": "Schaarste."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Vriendschap is een niet-economische behoefte.",
+     "antwoord": true,
+     "uitleg": "Je kan ze niet kopen, dus er is geen schaars goed voor nodig."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een primaire behoefte is een behoefte die je kan missen.",
+     "antwoord": false,
+     "uitleg": "Primair is wat je nodig hebt om te leven: eten, drinken, onderdak."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een secundaire behoefte?",
+     "opties": [
+      "ze kan gemist worden",
+      "ze is nodig om te leven",
+      "ze is altijd gratis ervan",
+      "ze geldt voor iedereen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een reis, een spelconsole, een tweede wagen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een collectieve behoefte?",
+     "opties": [
+      "voor iedereen samen",
+      "voor jou alleen ervan",
+      "enkel voor de staat",
+      "enkel voor de rijken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Veiligheid, wegen, een brandweer: niemand kan die alleen regelen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een individuele behoefte?",
+     "opties": [
+      "voor één persoon",
+      "voor de hele groep",
+      "voor de staat ervan",
+      "voor de winkel ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Jouw honger stil je met jouw brood; niemand anders heeft er iets aan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn soorten behoeften?",
+     "opties": [
+      "economische en niet-economische",
+      "primaire en secundaire",
+      "individuele en collectieve",
+      "goedkope en dure behoeften"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De prijs is geen indeling van behoeften."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is welvaart?",
+     "opties": [
+      "hoeveel je kan kopen",
+      "hoe gelukkig je bent",
+      "hoeveel je werkt ervan",
+      "hoe gezond je bent"
+     ],
+     "antwoord": 0,
+     "uitleg": "Welvaart gaat over materiële middelen, welzijn over hoe goed je je voelt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Welzijn is breder dan welvaart.",
+     "antwoord": true,
+     "uitleg": "Gezondheid, vrije tijd, veiligheid en relaties horen er ook bij."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Wie meer welvaart heeft, heeft automatisch meer welzijn.",
+     "antwoord": false,
+     "uitleg": "Meer kunnen kopen maakt iemand niet vanzelf gelukkiger of gezonder."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de behoefte die je nodig hebt om te leven? Eén woord.",
+     "antwoord": [
+      "primaire",
+      "primair",
+      "primaire behoefte"
+     ],
+     "uitleg": "Een primaire behoefte."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent het keuzeprobleem van de consument?",
+     "opties": [
+      "hij kan niet alles kopen",
+      "hij wil niets kopen ervan",
+      "hij vindt niets nuttig",
+      "hij heeft geld te veel"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zijn behoeften zijn groter dan zijn budget, dus hij moet afwegen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat maakt dat er gekozen moet worden?",
+     "opties": [
+      "de behoeften zijn onbeperkt",
+      "de middelen zijn beperkt",
+      "het budget is begrensd",
+      "de winkels zijn te klein",
+      "de tijd is beperkt"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Onbeperkte behoeften tegenover beperkte middelen: dat is het economisch probleem."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar kiest de consument volgens de economie voor?",
+     "opties": [
+      "het meeste nut",
+      "de laagste prijs",
+      "de grootste winkel",
+      "het mooiste merk"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hij kiest de combinatie die hem het meeste nut geeft binnen zijn budget."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is waar over schaarste?",
+     "opties": [
+      "ze dwingt tot kiezen",
+      "ze geldt ook voor tijd",
+      "ze geldt enkel in arme landen",
+      "ze verdwijnt als je rijk bent"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Schaarste geldt in elk land, ook het rijkste: ook wie veel geld heeft, heeft maar vierentwintig uur per dag."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk woord gebruikt de economie voor hoe goed iemand zich voelt? Eén woord.",
+     "antwoord": [
+      "welzijn",
+      "het welzijn"
+     ],
+     "uitleg": "Welzijn."
+    }
+   ]
+  },
+  {
+   "titel": "Behoeften, schaarste en soorten goederen — deel 2",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een economisch goed?",
+     "opties": [
+      "het kost geld",
+      "het is gratis ervan",
+      "het is verboden ervan",
+      "het is onzichtbaar"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het is schaars, dus er hangt een prijs aan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een vrij goed?",
+     "opties": [
+      "het is er gratis",
+      "het kost veel geld",
+      "het is zeldzaam ervan",
+      "het is verboden ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Er is zoveel van dat niemand ervoor moet betalen, zoals lucht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een collectief goed?",
+     "opties": [
+      "het is er voor allen",
+      "het is er voor jou",
+      "het is altijd duur",
+      "het is nooit nodig"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een straatlamp: dat jij ervan geniet, verhindert niemand anders."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een quasi-collectief goed?",
+     "opties": [
+      "de staat biedt het aan",
+      "niemand biedt het aan",
+      "enkel winkels verkopen het",
+      "het is altijd gratis ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je kan er individueel van genieten, maar de overheid zorgt ervoor: onderwijs, openbaar vervoer."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je een goed dat niets kost omdat het er in overvloed is? Hoogstens drie woorden.",
+     "antwoord": [
+      "vrij goed",
+      "een vrij goed",
+      "vrije goederen"
+     ],
+     "uitleg": "Een vrij goed."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een verbruiksgoed verdwijnt bij het gebruik.",
+     "antwoord": true,
+     "uitleg": "Brood, benzine, papier: eens gebruikt is het op."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een gebruiksgoed kan je maar één keer gebruiken.",
+     "antwoord": false,
+     "uitleg": "Juist niet: een fiets of een koelkast gebruik je keer op keer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een consumptiegoed?",
+     "opties": [
+      "voor de consument",
+      "voor de producent",
+      "voor de overheid",
+      "voor de export"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het dient om een behoefte te stillen, niet om mee te produceren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een investeringsgoed?",
+     "opties": [
+      "om mee te produceren",
+      "om op te eten ervan",
+      "om weg te geven ervan",
+      "om op te sparen ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een machine, een bestelwagen, een gebouw."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een duurzaam goed in de economie?",
+     "opties": [
+      "het blijft lang mee",
+      "het is snel op ervan",
+      "het is altijd groen",
+      "het is nooit nodig"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hier betekent duurzaam dat het lang meegaat. Een koelkast is duurzaam, brood niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn indelingen van goederen?",
+     "opties": [
+      "economisch en vrij",
+      "verbruiks- en gebruiksgoederen",
+      "consumptie- en investeringsgoederen",
+      "mooie en lelijke goederen",
+      "individuele en collectieve goederen"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "En individuele tegenover collectieve goederen. Mooi of lelijk is geen indeling."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil tussen een goed en een dienst?",
+     "opties": [
+      "een goed kan je vastnemen",
+      "een dienst kost meer geld",
+      "een goed is altijd gratis",
+      "een dienst is altijd nodig"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een goed is tastbaar, een dienst is werk dat iemand voor je doet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een knipbeurt bij de kapper is een dienst.",
+     "antwoord": true,
+     "uitleg": "Je krijgt geen voorwerp mee, wel het werk van de kapper."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Lucht is in de economie een economisch goed.",
+     "antwoord": false,
+     "uitleg": "Lucht is een vrij goed: er is genoeg voor iedereen en het kost niets."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je een goed waarmee een onderneming produceert? Hoogstens drie woorden.",
+     "antwoord": [
+      "investeringsgoed",
+      "een investeringsgoed",
+      "kapitaalgoed"
+     ],
+     "uitleg": "Een investeringsgoed."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Is brood een verbruiks- of een gebruiksgoed?",
+     "opties": [
+      "een verbruiksgoed",
+      "een gebruiksgoed",
+      "een vrij goed ervan",
+      "een collectief goed"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eens opgegeten is het weg."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zijn voorbeelden van een collectief goed?",
+     "opties": [
+      "een dijk",
+      "de straatverlichting",
+      "een fiets",
+      "een brood"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Een dijk en de straatverlichting gebruikt iedereen samen, net als het leger. Een brood en een fiets gebruikt één persoon; dat zijn individuele goederen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom betaalt de overheid een zuiver collectief goed?",
+     "opties": [
+      "niemand wil het betalen",
+      "het is te goedkoop ervan",
+      "het is altijd verboden",
+      "het brengt winst op ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je kan niemand uitsluiten, dus niemand zou het uit zichzelf betalen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is waar over een investeringsgoed?",
+     "opties": [
+      "het dient om te produceren",
+      "een machine is er een",
+      "het gaat meestal jaren mee",
+      "het wordt meteen opgegeten",
+      "een onderneming schrijft het af"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Daarom schrijft een onderneming het over meerdere jaren af."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het goed dat verdwijnt zodra je het gebruikt? Hoogstens drie woorden.",
+     "antwoord": [
+      "verbruiksgoed",
+      "een verbruiksgoed",
+      "verbruiksgoederen"
+     ],
+     "uitleg": "Een verbruiksgoed."
+    }
+   ]
+  },
+  {
+   "titel": "De productiefactoren en de productie — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een productiefactor?",
+     "opties": [
+      "wat nodig is om te produceren",
+      "iets wat de consument koopt",
+      "een prijs van de markt",
+      "een winst van de zaak"
+     ],
+     "antwoord": 0,
+     "uitleg": "Arbeid, kapitaal, natuur en ondernemerschap."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke productiefactor is arbeid?",
+     "opties": [
+      "het werk van mensen",
+      "het geld van de bank",
+      "de grond van de zaak",
+      "het risico van de baas"
+     ],
+     "antwoord": 0,
+     "uitleg": "Alle lichamelijke en geestelijke inspanning van mensen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke productiefactor is kapitaal?",
+     "opties": [
+      "machines en gebouwen",
+      "het werk van mensen",
+      "de grondstoffen ervan",
+      "het idee van de baas"
+     ],
+     "antwoord": 0,
+     "uitleg": "Alles wat zelf gemaakt is om mee te produceren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke productiefactor is natuur?",
+     "opties": [
+      "grond en grondstoffen",
+      "machines en gebouwen",
+      "werknemers en loon",
+      "winst en risico ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wat de natuur geeft: grond, water, delfstoffen, hout."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke productiefactor brengt de andere samen en neemt het risico? Eén woord.",
+     "antwoord": [
+      "ondernemerschap",
+      "ondernemer",
+      "de ondernemer"
+     ],
+     "uitleg": "Ondernemerschap."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een bestelwagen is voor een onderneming kapitaal.",
+     "antwoord": true,
+     "uitleg": "Hij is gemaakt om mee te werken, niet om op te gebruiken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Ondernemerschap is hetzelfde als arbeid.",
+     "antwoord": false,
+     "uitleg": "Een ondernemer combineert de factoren en draagt het risico; een werknemer levert arbeid tegen loon."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is toegevoegde waarde?",
+     "opties": [
+      "omzet min aankopen",
+      "omzet plus aankopen",
+      "omzet min de winst",
+      "omzet min het loon"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wat een onderneming zelf toevoegt aan wat ze inkocht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een bedrijfskolom?",
+     "opties": [
+      "de weg van grondstof tot klant",
+      "de lijst van alle afdelingen",
+      "de kolom in een rekenblad",
+      "de rij met de omzet ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Alle schakels die een product doorloopt, elk met hun eigen bewerking."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke schakel komt in een bedrijfskolom het eerst?",
+     "opties": [
+      "de oerproducent",
+      "de groothandel",
+      "de kleinhandel",
+      "de consument"
+     ],
+     "antwoord": 0,
+     "uitleg": "De landbouwer of de mijn levert de grondstof; daarna volgen de bewerking en de handel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn productiefactoren?",
+     "opties": [
+      "arbeid",
+      "kapitaal",
+      "natuur",
+      "de belasting",
+      "ondernemerschap"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "En ondernemerschap. Belastingen zijn geen productiefactor."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat krijgt de productiefactor arbeid als vergoeding?",
+     "opties": [
+      "loon",
+      "huur ervan",
+      "rente ervan",
+      "winst ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Kapitaal krijgt rente, natuur huur of pacht, de ondernemer de winst."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De toegevoegde waarde van alle schakels samen is de verkoopprijs voor de klant.",
+     "antwoord": true,
+     "uitleg": "Elke schakel legt zijn deel erbij tot de prijs in de winkel."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een onderneming die enkel doorverkoopt, voegt geen enkele waarde toe.",
+     "antwoord": false,
+     "uitleg": "Ze voegt waarde toe met het transport, de voorraad, de spreiding en het advies."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de weg van grondstof tot eindproduct met al zijn schakels? Eén woord.",
+     "antwoord": [
+      "bedrijfskolom",
+      "de bedrijfskolom",
+      "productiekolom"
+     ],
+     "uitleg": "De bedrijfskolom."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe bereken je de toegevoegde waarde van een schakel?",
+     "opties": [
+      "verkoopprijs min inkoopprijs",
+      "verkoopprijs plus inkoopprijs",
+      "verkoopprijs min de winst",
+      "inkoopprijs min het loon"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wat ze vraagt min wat ze zelf betaalde aan de vorige schakel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort bij de productiefactor kapitaal?",
+     "opties": [
+      "een machine",
+      "een bedrijfsgebouw",
+      "een lening bij de bank",
+      "een werknemer"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Machines, gebouwen en voertuigen zijn kapitaalgoederen. Een werknemer hoort bij arbeid en een lening is geld, geen kapitaalgoed."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet de ondernemer met de productiefactoren?",
+     "opties": [
+      "hij combineert ze",
+      "hij verkoopt ze ervan",
+      "hij verbiedt ze ervan",
+      "hij belast ze ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hij zet arbeid, kapitaal en natuur samen en neemt het risico van de uitkomst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is waar over de bedrijfskolom?",
+     "opties": [
+      "ze heeft meerdere schakels",
+      "elke schakel verkoopt aan de vorige",
+      "ze begint bij de grondstof",
+      "ze begint bij de consument"
+     ],
+     "antwoord": [
+      0,
+      2
+     ],
+     "uitleg": "De bedrijfskolom loopt van de grondstof naar de consument, langs schakels die elk waarde toevoegen en aan de volgende verkopen. De consument staat aan het einde, niet aan het begin."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke vergoeding krijgt de productiefactor natuur? Eén woord.",
+     "antwoord": [
+      "huur",
+      "pacht",
+      "grondrente"
+     ],
+     "uitleg": "Huur of pacht."
+    }
+   ]
+  },
+  {
+   "titel": "De productiefactoren en de productie — deel 2",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de totale productiecurve?",
+     "opties": [
+      "alles wat geproduceerd is",
+      "wat één werker maakt",
+      "de kosten van de productie",
+      "de prijs van het product"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ze toont hoeveel er in totaal gemaakt wordt bij een stijgend aantal werkers."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de marginale productie?",
+     "opties": [
+      "wat één werker erbij maakt",
+      "wat alle werkers maken",
+      "wat de machine maakt",
+      "wat de klant koopt ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "De extra productie door één extra eenheid van een productiefactor."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zegt de wet van de toenemende meeropbrengsten?",
+     "opties": [
+      "elke werker brengt meer bij",
+      "elke werker brengt minder bij",
+      "de productie blijft gelijk",
+      "de kosten dalen altijd ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "In het begin: door samen te werken en zich te specialiseren halen ze meer uit elke extra kracht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zegt de wet van de afnemende meeropbrengsten?",
+     "opties": [
+      "elke werker brengt minder bij",
+      "elke werker brengt meer bij",
+      "niemand brengt nog iets bij",
+      "de productie daalt meteen"
+     ],
+     "antwoord": 0,
+     "uitleg": "De machines en de ruimte blijven gelijk, dus men zit elkaar op den duur in de weg."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de productie die één extra werker erbij brengt? Hoogstens drie woorden.",
+     "antwoord": [
+      "marginale productie",
+      "marginaal product",
+      "marginale opbrengst"
+     ],
+     "uitleg": "De marginale productie."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De totale productie kan nog stijgen terwijl de marginale productie daalt.",
+     "antwoord": true,
+     "uitleg": "Elke extra werker brengt minder bij, maar hij brengt nog altijd iets bij."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De marginale productie kan nooit negatief worden.",
+     "antwoord": false,
+     "uitleg": "Met te veel mensen in een te kleine ruimte kan de totale productie zelfs dalen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar bereikt de totale productie haar hoogste punt?",
+     "opties": [
+      "waar het marginale nul is",
+      "waar het marginale hoogst is",
+      "waar de kosten nul zijn",
+      "waar de winst nul is"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zodra de marginale productie onder nul zakt, daalt de totale productie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom produceert een onderneming volgens de economie?",
+     "opties": [
+      "om winst te maken",
+      "om kosten te maken",
+      "om werk te geven",
+      "om belasting te betalen"
+     ],
+     "antwoord": 0,
+     "uitleg": "De winst bepaalt hoeveel ze wil aanbieden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is winstmaximalisatie?",
+     "opties": [
+      "de hoogste winst zoeken",
+      "de hoogste omzet zoeken",
+      "de laagste prijs zoeken",
+      "de meeste stuks maken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Niet de grootste productie en niet de hoogste omzet, wel de grootste winst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat blijft gelijk bij de wet van de afnemende meeropbrengsten?",
+     "opties": [
+      "het aantal machines",
+      "de grootte van het gebouw",
+      "de beschikbare ruimte",
+      "het aantal werkers",
+      "de hoeveelheid grond"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Het aantal werkers is net wat wel verandert."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent volkomen concurrentie?",
+     "opties": [
+      "veel kopers en verkopers",
+      "één grote verkoper",
+      "één grote koper ervan",
+      "geen enkele verkoper"
+     ],
+     "antwoord": 0,
+     "uitleg": "Niemand kan de prijs alleen bepalen; iedereen verkoopt hetzelfde aan de marktprijs."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In volkomen concurrentie kan één onderneming de prijs niet zelf bepalen.",
+     "antwoord": true,
+     "uitleg": "Ze is te klein tegenover de markt; ze moet de marktprijs aanvaarden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In volkomen concurrentie verkoopt elke onderneming een ander product.",
+     "antwoord": false,
+     "uitleg": "Juist niet: de producten zijn gelijk, dus de klant kiest op prijs."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke marktvorm bespreek je in dit hoofdstuk? Hoogstens drie woorden.",
+     "antwoord": [
+      "volkomen concurrentie",
+      "volledige concurrentie",
+      "perfecte concurrentie"
+     ],
+     "uitleg": "Volkomen concurrentie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebeurt er met de productie als er een werker bijkomt na het keerpunt?",
+     "opties": [
+      "ze stijgt minder snel",
+      "ze stijgt sneller ervan",
+      "ze blijft precies gelijk",
+      "ze daalt onmiddellijk"
+     ],
+     "antwoord": 0,
+     "uitleg": "De totale productie groeit nog, maar met kleinere stappen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is waar over de marginale productiecurve?",
+     "opties": [
+      "ze stijgt eerst",
+      "ze daalt daarna",
+      "ze blijft altijd boven nul",
+      "ze stijgt altijd verder"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Eerst toenemende, dan afnemende meeropbrengsten: de curve stijgt eerst en daalt daarna, en ze kan zelfs onder nul gaan als er te veel werkers bij komen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke productiefactor blijft vast bij de wet van de meeropbrengsten?",
+     "opties": [
+      "de machines",
+      "de werkers",
+      "de grondstof",
+      "de klanten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het kapitaal blijft gelijk terwijl de arbeid toeneemt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom daalt de meeropbrengst op een bepaald moment?",
+     "opties": [
+      "de ruimte raakt vol",
+      "de machines zijn bezet",
+      "men zit elkaar in de weg",
+      "de werkers kunnen minder",
+      "de vaste factoren groeien niet mee"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Niet omdat de nieuwe werkers slechter zijn, wel omdat de vaste factoren niet meegroeien."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het streven naar de grootste winst? Eén woord.",
+     "antwoord": [
+      "winstmaximalisatie",
+      "winstmaximalisering",
+      "winst maximaliseren"
+     ],
+     "uitleg": "Winstmaximalisatie."
+    }
+   ]
+  },
+  {
+   "titel": "De kosten van de producent — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zijn totale constante kosten?",
+     "opties": [
+      "ze blijven altijd gelijk",
+      "ze stijgen met de productie",
+      "ze dalen met de productie",
+      "ze zijn er nooit ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "De huur van een loods betaal je of je nu honderd of duizend stuks maakt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zijn totale variabele kosten?",
+     "opties": [
+      "ze volgen de productie",
+      "ze blijven altijd gelijk",
+      "ze zijn er nooit ervan",
+      "ze dalen bij meer stuks"
+     ],
+     "antwoord": 0,
+     "uitleg": "Meer stuks maken betekent meer grondstof, meer energie, meer verpakking."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een voorbeeld van een constante kost?",
+     "opties": [
+      "de huur",
+      "de grondstof",
+      "het uurloon",
+      "de verpakking"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ook de verzekering en de afschrijving van een machine."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een voorbeeld van een variabele kost?",
+     "opties": [
+      "de grondstof",
+      "de huur ervan",
+      "de verzekering",
+      "de afschrijving"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hoe meer je maakt, hoe meer grondstof je nodig hebt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke afkorting gebruik je voor de totale kosten? Hoogstens drie woorden.",
+     "antwoord": [
+      "tk",
+      "de tk",
+      "totale kosten"
+     ],
+     "uitleg": "TK."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De totale kosten zijn de constante plus de variabele kosten.",
+     "antwoord": true,
+     "uitleg": "TK is gelijk aan TCK plus TVK."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De totale constante kosten stijgen als je meer produceert.",
+     "antwoord": false,
+     "uitleg": "Ze blijven precies gelijk; dat is net wat constant betekent."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe loopt de curve van de totale constante kosten?",
+     "opties": [
+      "vlak",
+      "stijgend",
+      "dalend",
+      "golvend"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een horizontale lijn: hetzelfde bedrag bij elke hoeveelheid."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe loopt de curve van de totale variabele kosten?",
+     "opties": [
+      "stijgend",
+      "vlak ervan",
+      "dalend ervan",
+      "altijd nul"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ze begint in de oorsprong en klimt met de productie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar begint de curve van de totale kosten?",
+     "opties": [
+      "bij de constante kosten",
+      "bij nul euro ervan",
+      "bij de variabele kosten",
+      "bij de omzet ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zonder productie zijn de variabele kosten nul, maar de constante kosten lopen door."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke kosten blijven gelijk bij meer productie?",
+     "opties": [
+      "de huur van het gebouw",
+      "de verzekering",
+      "het loon per gemaakt stuk",
+      "de grondstoffen"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Huur en verzekering lopen door, ook bij nul productie, net als de afschrijving. Grondstoffen en een loon per stuk heb je enkel nodig als je produceert."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebeurt er met de totale kosten bij meer productie?",
+     "opties": [
+      "ze stijgen",
+      "ze dalen ervan",
+      "ze blijven gelijk",
+      "ze worden nul"
+     ],
+     "antwoord": 0,
+     "uitleg": "De variabele kosten lopen mee op, de constante blijven staan."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Zonder productie zijn de totale variabele kosten nul.",
+     "antwoord": true,
+     "uitleg": "Je koopt geen grondstof voor stuks die je niet maakt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij een productie van nul stuks zijn de totale kosten ook nul.",
+     "antwoord": false,
+     "uitleg": "De constante kosten blijven lopen: huur, verzekering, afschrijving."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke kost betaal je ook als je niets produceert? Hoogstens drie woorden.",
+     "antwoord": [
+      "constante kost",
+      "constante kosten",
+      "vaste kosten"
+     ],
+     "uitleg": "De constante kosten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom lopen de variabele kosten niet altijd even snel op?",
+     "opties": [
+      "de meeropbrengst wisselt",
+      "de huur verandert ervan",
+      "de prijs verandert ervan",
+      "de kosten zijn altijd gelijk"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zolang de meeropbrengst stijgt, stijgen de kosten per stuk minder snel; daarna omgekeerd."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort bij de variabele kosten?",
+     "opties": [
+      "de grondstoffen",
+      "de verpakking",
+      "de energie van de machine",
+      "de huur van de loods",
+      "het vervoer per levering"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "De huur verandert niet met het aantal stuks."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verband tussen TCK, TVK en TK?",
+     "opties": [
+      "TK is de som",
+      "TK is het verschil",
+      "TK is het product",
+      "TK is het quotiënt"
+     ],
+     "antwoord": 0,
+     "uitleg": "De totale kosten zijn de constante en de variabele kosten bij elkaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is waar over de curve van de totale kosten?",
+     "opties": [
+      "ze start boven nul",
+      "ze stijgt altijd",
+      "ze loopt door de oorsprong",
+      "ze daalt bij veel productie"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "De curve start boven nul, want de constante kosten zijn er ook bij nul stuks, en ze stijgt altijd. Het verschil met de curve van de variabele kosten is precies die constante kost."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke afkorting gebruik je voor de totale variabele kosten? Hoogstens drie woorden.",
+     "antwoord": [
+      "tvk",
+      "de tvk",
+      "totale variabele kosten"
+     ],
+     "uitleg": "TVK."
+    }
+   ]
+  },
+  {
+   "titel": "De kosten van de producent — deel 2",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zijn gemiddelde kosten?",
+     "opties": [
+      "de kosten per stuk",
+      "de kosten in totaal",
+      "de kosten van één extra",
+      "de kosten van de huur"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wat elk stuk gemiddeld kost."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe bereken je de gemiddelde kosten?",
+     "opties": [
+      "TK gedeeld door de stuks",
+      "TK maal het aantal stuks",
+      "TK min het aantal stuks",
+      "TK plus het aantal stuks"
+     ],
+     "antwoord": 0,
+     "uitleg": "De totale kosten verdeeld over het aantal stuks."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zijn marginale kosten?",
+     "opties": [
+      "de kost van één extra stuk",
+      "de kost van alle stukken",
+      "de kost van de huur ervan",
+      "de kost per werknemer"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hoeveel de totale kosten stijgen als je één stuk meer maakt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe verlopen de gemiddelde constante kosten bij meer productie?",
+     "opties": [
+      "ze dalen",
+      "ze stijgen ervan",
+      "ze blijven gelijk",
+      "ze worden negatief"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hetzelfde bedrag wordt over meer stuks verdeeld, dus per stuk wordt het minder."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de kosten van één extra eenheid? Hoogstens drie woorden.",
+     "antwoord": [
+      "marginale kosten",
+      "marginale kost",
+      "mk"
+     ],
+     "uitleg": "De marginale kosten."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De gemiddelde constante kosten dalen bij elke extra eenheid.",
+     "antwoord": true,
+     "uitleg": "De vaste kost wordt over meer stuks gespreid."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De gemiddelde kosten dalen altijd bij meer productie.",
+     "antwoord": false,
+     "uitleg": "Ze dalen eerst en stijgen daarna weer: de curve heeft de vorm van een u."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm heeft de curve van de gemiddelde kosten?",
+     "opties": [
+      "de vorm van een u",
+      "een rechte lijn ervan",
+      "een dalende lijn ervan",
+      "een vlakke lijn ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerst dalend door de spreiding van de vaste kosten, dan stijgend door de afnemende meeropbrengsten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar snijdt de curve van de marginale kosten die van de gemiddelde kosten?",
+     "opties": [
+      "in het laagste punt",
+      "in het hoogste punt",
+      "nergens ervan",
+      "in de oorsprong ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Precies in het minimum van de gemiddelde kosten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekenen dalende gemiddelde kosten voor een onderneming?",
+     "opties": [
+      "elk stuk kost minder",
+      "elk stuk kost meer",
+      "de winst is nul",
+      "de omzet daalt ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij dezelfde verkoopprijs blijft er per stuk meer over."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn kostenbegrippen?",
+     "opties": [
+      "de gemiddelde constante kosten",
+      "de gemiddelde variabele kosten",
+      "de marginale kosten",
+      "de gemiddelde omzet",
+      "de totale kosten"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "De gemiddelde opbrengst hoort bij de opbrengsten, niet bij de kosten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe bereken je de gemiddelde variabele kosten?",
+     "opties": [
+      "TVK door de stuks",
+      "TVK maal de stuks",
+      "TVK min de stuks",
+      "TK door de stuks"
+     ],
+     "antwoord": 0,
+     "uitleg": "De totale variabele kosten gedeeld door het aantal stuks."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De gemiddelde kosten zijn de som van de gemiddelde constante en variabele kosten.",
+     "antwoord": true,
+     "uitleg": "GK is gelijk aan GCK plus GVK."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De marginale kosten dalen altijd.",
+     "antwoord": false,
+     "uitleg": "Ze dalen eerst en stijgen weer zodra de meeropbrengsten afnemen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke letter beschrijft de vorm van de curve van de gemiddelde kosten? Eén woord.",
+     "antwoord": [
+      "u",
+      "de u"
+     ],
+     "uitleg": "De letter u."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom stijgen de gemiddelde kosten op een bepaald moment weer?",
+     "opties": [
+      "de meeropbrengst daalt",
+      "de huur stijgt ervan",
+      "de klanten dalen ervan",
+      "de prijs stijgt ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Door de afnemende meeropbrengsten kost elk extra stuk meer, en dat trekt het gemiddelde omhoog."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is waar over de marginale kostencurve?",
+     "opties": [
+      "ze daalt eerst",
+      "ze stijgt daarna",
+      "ze snijdt de gemiddelde kosten in hun maximum",
+      "ze loopt altijd vlak"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Ook zij heeft de vorm van een u: ze daalt eerst en stijgt daarna, en ze snijdt de gemiddelde kosten precies in hun laagste punt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zeggen de kostencurven aan een onderneming?",
+     "opties": [
+      "hoeveel produceren loont",
+      "hoeveel klanten er zijn",
+      "welke prijs de markt vraagt",
+      "wie de concurrenten zijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "Samen met de opbrengsten bepalen ze de optimale productiegrootte."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom dalen de gemiddelde constante kosten?",
+     "opties": [
+      "het bedrag blijft gelijk",
+      "het aantal stuks stijgt",
+      "de kost wordt verdeeld",
+      "de huur daalt mee",
+      "het deel per stuk wordt kleiner"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "De huur zelf verandert niet; enkel het deel per stuk wordt kleiner."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke afkorting gebruik je voor de gemiddelde kosten? Hoogstens drie woorden.",
+     "antwoord": [
+      "gk",
+      "de gk",
+      "gemiddelde kosten"
+     ],
+     "uitleg": "GK."
+    }
+   ]
+  },
+  {
+   "titel": "Opbrengsten, optimale productiegrootte en aanbod — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zijn totale opbrengsten?",
+     "opties": [
+      "prijs maal aantal",
+      "prijs min het aantal",
+      "prijs plus het aantal",
+      "prijs door het aantal"
+     ],
+     "antwoord": 0,
+     "uitleg": "De verkoopprijs vermenigvuldigd met het aantal verkochte stuks."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de gemiddelde opbrengst?",
+     "opties": [
+      "de opbrengst per stuk",
+      "de opbrengst in totaal",
+      "de opbrengst per jaar",
+      "de opbrengst per werker"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij volkomen concurrentie is dat gewoon de marktprijs."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de marginale opbrengst?",
+     "opties": [
+      "de opbrengst van één extra",
+      "de opbrengst van alles",
+      "de opbrengst van het jaar",
+      "de opbrengst van de huur"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hoeveel de totale opbrengst stijgt als je één stuk meer verkoopt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe loopt de curve van de totale opbrengsten bij een vaste prijs?",
+     "opties": [
+      "een stijgende rechte",
+      "een dalende rechte",
+      "een vlakke lijn ervan",
+      "de vorm van een u"
+     ],
+     "antwoord": 0,
+     "uitleg": "Elk extra stuk brengt hetzelfde bedrag op, dus de lijn klimt gelijkmatig."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe bereken je de totale opbrengst? Hoogstens drie woorden.",
+     "antwoord": [
+      "prijs maal aantal",
+      "prijs x aantal",
+      "prijs maal hoeveelheid"
+     ],
+     "uitleg": "Prijs maal hoeveelheid."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij volkomen concurrentie is de marginale opbrengst gelijk aan de prijs.",
+     "antwoord": true,
+     "uitleg": "Elk extra stuk gaat weg aan dezelfde marktprijs."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De gemiddelde opbrengst daalt bij volkomen concurrentie als je meer verkoopt.",
+     "antwoord": false,
+     "uitleg": "De prijs staat vast, dus de opbrengst per stuk blijft dezelfde."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar ligt de optimale productiegrootte?",
+     "opties": [
+      "waar MO gelijk is aan MK",
+      "waar TO het hoogst is",
+      "waar TK het laagst is",
+      "waar GK het hoogst is"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zolang een extra stuk meer opbrengt dan het kost, is het de moeite. Daarna niet meer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je als de marginale opbrengst hoger is dan de marginale kost?",
+     "opties": [
+      "meer produceren",
+      "minder produceren",
+      "stoppen ervan",
+      "de prijs verhogen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Elk extra stuk voegt nog winst toe."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je als de marginale kost hoger is dan de marginale opbrengst?",
+     "opties": [
+      "minder produceren",
+      "meer produceren",
+      "de prijs verlagen",
+      "een machine kopen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dat extra stuk kost meer dan het opbrengt en eet van de winst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn opbrengstbegrippen?",
+     "opties": [
+      "de totale opbrengsten",
+      "de gemiddelde opbrengsten",
+      "de marginale opbrengsten",
+      "de marginale kosten",
+      "de omzet"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "De marginale kosten horen bij de kosten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de winst van een onderneming?",
+     "opties": [
+      "opbrengst min kosten",
+      "opbrengst plus kosten",
+      "kosten min opbrengst",
+      "opbrengst door kosten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Is het verschil negatief, dan is er verlies."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De winst is het grootst waar het verschil tussen TO en TK het grootst is.",
+     "antwoord": true,
+     "uitleg": "En dat is precies waar de marginale opbrengst gelijk is aan de marginale kost."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De winst is het grootst waar de productie het grootst is.",
+     "antwoord": false,
+     "uitleg": "Voorbij het optimum kost elk extra stuk meer dan het opbrengt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke twee grootheden zijn gelijk in de optimale productiegrootte? Hoogstens drie woorden.",
+     "antwoord": [
+      "mo en mk",
+      "mk en mo",
+      "marginale opbrengst"
+     ],
+     "uitleg": "De marginale opbrengst en de marginale kost."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zet je op de assen bij een opbrengstencurve?",
+     "opties": [
+      "euro en hoeveelheid",
+      "arbeid en kapitaal",
+      "nut en voorkeur ervan",
+      "kosten en klanten"
+     ],
+     "antwoord": 0,
+     "uitleg": "De bedragen in euro verticaal, de hoeveelheid horizontaal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is waar bij volkomen concurrentie?",
+     "opties": [
+      "de prijs ligt vast",
+      "de gemiddelde opbrengst is de prijs",
+      "de verkoper bepaalt zijn omzet vrij",
+      "de verkoper kiest zijn prijs"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "De prijs ligt vast op de markt, dus zijn gemiddelde en zijn marginale opbrengst zijn beide gelijk aan die prijs. De verkoper is te klein om daar iets aan te veranderen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebeurt er met de winst voorbij de optimale productiegrootte?",
+     "opties": [
+      "ze daalt",
+      "ze stijgt ervan",
+      "ze blijft gelijk",
+      "ze verdubbelt ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Elk stuk erbij kost meer dan het opbrengt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe vind je de optimale productiegrootte?",
+     "opties": [
+      "grafisch waar MO en MK snijden",
+      "door de hoogste prijs te vragen",
+      "waar het verschil TO en TK het grootst is",
+      "waar de omzet het hoogst is"
+     ],
+     "antwoord": [
+      0,
+      2
+     ],
+     "uitleg": "Je zoekt het punt waar MO en MK snijden, grafisch of met een tabel, en dat is ook waar het verschil tussen TO en TK het grootst is. De hoogste omzet of de hoogste prijs is niet de hoogste winst."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de hoeveelheid waarbij de winst het grootst is? Hoogstens drie woorden.",
+     "antwoord": [
+      "optimale productiegrootte",
+      "optimum",
+      "optimale productie"
+     ],
+     "uitleg": "De optimale productiegrootte."
+    }
+   ]
+  },
+  {
+   "titel": "Soorten ondernemingen en hun verplichtingen — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een natuurlijk persoon?",
+     "opties": [
+      "een mens",
+      "een vennootschap",
+      "een vereniging",
+      "een gebouw ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een mens van vlees en bloed, met rechten en plichten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een rechtspersoon?",
+     "opties": [
+      "een eigen juridische figuur",
+      "een mens van vlees en bloed",
+      "een werknemer ervan",
+      "een klant van de zaak"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een vennootschap of een vzw: ze kan zelf eigenaar zijn, lenen en voor de rechter komen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is onbeperkte aansprakelijkheid?",
+     "opties": [
+      "ook je eigen bezit staat in",
+      "enkel de zaak staat in",
+      "niemand staat in ervan",
+      "de bank staat in ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een schuldeiser kan ook aan je woning of je spaargeld."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is beperkte aansprakelijkheid?",
+     "opties": [
+      "enkel je inbreng staat in",
+      "ook je huis staat in ervan",
+      "alles van je staat in",
+      "niets staat ooit in"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je verliest maximaal wat je in de vennootschap stopte."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke onderneming heeft geen eigen rechtspersoonlijkheid? Eén woord.",
+     "antwoord": [
+      "eenmanszaak",
+      "de eenmanszaak"
+     ],
+     "uitleg": "De eenmanszaak: de zaak en de persoon zijn één."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij een eenmanszaak kan een schuldeiser ook aan het privévermogen.",
+     "antwoord": true,
+     "uitleg": "Er is geen scheiding tussen de zaak en de persoon."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een bv is een natuurlijk persoon.",
+     "antwoord": false,
+     "uitleg": "Een bv is een rechtspersoon, met een eigen vermogen los van de oprichters."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent bv?",
+     "opties": [
+      "besloten vennootschap",
+      "beperkte vennootschap",
+      "bijzondere vennootschap",
+      "belastbare vennootschap"
+     ],
+     "antwoord": 0,
+     "uitleg": "Besloten, omdat de aandelen niet vrij verhandeld worden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent nv?",
+     "opties": [
+      "naamloze vennootschap",
+      "nieuwe vennootschap",
+      "nationale vennootschap",
+      "nuttige vennootschap"
+     ],
+     "antwoord": 0,
+     "uitleg": "Naamloos, omdat de aandeelhouders niet in de naam staan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het voordeel van een eenmanszaak?",
+     "opties": [
+      "ze is snel opgericht",
+      "je bezit staat veilig",
+      "je betaalt geen belasting",
+      "je bent nooit aansprakelijk"
+     ],
+     "antwoord": 0,
+     "uitleg": "Geen notaris, geen kapitaal, weinig formaliteiten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarop vergelijk je de ondernemingsvormen?",
+     "opties": [
+      "de aansprakelijkheid",
+      "de administratie",
+      "de fiscaliteit",
+      "de kleur van het logo",
+      "de oprichtingsakte"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "En ook op de oprichtingsakte, het kapitaal en de overdraagbaarheid van de aandelen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat heeft een bv of een nv nodig bij de oprichting?",
+     "opties": [
+      "een notariële akte",
+      "enkel een handtekening",
+      "een brief aan de bank",
+      "een mail aan de stad"
+     ],
+     "antwoord": 0,
+     "uitleg": "De notaris maakt de akte op en die wordt bekendgemaakt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een eenmanszaak kan zonder notaris opgericht worden.",
+     "antwoord": true,
+     "uitleg": "Je schrijft je in bij een ondernemingsloket en vraagt een ondernemingsnummer aan."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Voor een eenmanszaak is een notariële akte verplicht.",
+     "antwoord": false,
+     "uitleg": "Die is enkel nodig bij een vennootschap zoals een bv of een nv."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het bezit dat buiten de onderneming valt? Hoogstens drie woorden.",
+     "antwoord": [
+      "privévermogen",
+      "privevermogen",
+      "prive vermogen"
+     ],
+     "uitleg": "Het privévermogen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom kiest iemand voor een vennootschap met beperkte aansprakelijkheid?",
+     "opties": [
+      "om zijn bezit te beschermen",
+      "om minder te moeten werken",
+      "om geen boekhouding te doen",
+      "om sneller te starten ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Gaat de zaak slecht, dan blijft het privévermogen in principe buiten schot."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is waar over een rechtspersoon?",
+     "opties": [
+      "hij heeft eigen bezit",
+      "hij kan zelf schulden hebben",
+      "hij valt weg als een oprichter stopt",
+      "hij kan niet voor de rechter komen"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Een rechtspersoon heeft eigen bezit en eigen schulden en blijft bestaan los van zijn oprichters. Hij kan net wel dagvaarden en gedagvaard worden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wie betaalt personenbelasting op de winst?",
+     "opties": [
+      "de eenmanszaak",
+      "de bv ervan",
+      "de nv ervan",
+      "de vzw ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "De winst komt bij het inkomen van de zaakvoerder. Een bv en een nv betalen vennootschapsbelasting."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat geldt voor een eenmanszaak?",
+     "opties": [
+      "één eigenaar",
+      "onbeperkte aansprakelijkheid",
+      "geen rechtspersoonlijkheid",
+      "een minimumkapitaal",
+      "de winst valt in de personenbelasting"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Er is geen kapitaal vereist om te starten."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke belasting betaalt een bv op haar winst? Hoogstens drie woorden.",
+     "antwoord": [
+      "vennootschapsbelasting",
+      "de vennootschapsbelasting"
+     ],
+     "uitleg": "De vennootschapsbelasting."
+    }
+   ]
+  },
+  {
+   "titel": "De organisatiestructuur van een onderneming — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een organisatiestructuur?",
+     "opties": [
+      "hoe het werk verdeeld is",
+      "hoeveel de zaak verdient",
+      "waar de zaak gevestigd is",
+      "wie de klanten zijn ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wie wat doet, wie aan wie leiding geeft en hoe de afdelingen samenwerken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een functionele organisatie?",
+     "opties": [
+      "per taak ingedeeld",
+      "per klant ingedeeld",
+      "per land ingedeeld",
+      "per dag ingedeeld"
+     ],
+     "antwoord": 0,
+     "uitleg": "Aankoop, verkoop, boekhouding, elk met een eigen chef die er veel van kent."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat kenmerkt een lijnorganisatie?",
+     "opties": [
+      "één chef per persoon",
+      "veel chefs per persoon",
+      "geen chefs ervan",
+      "enkel adviseurs ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "De bevelen lopen in een rechte lijn van boven naar onder."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een lijnstaforganisatie?",
+     "opties": [
+      "lijn met adviseurs erbij",
+      "lijn zonder chefs ervan",
+      "enkel een staf ervan",
+      "een platte structuur"
+     ],
+     "antwoord": 0,
+     "uitleg": "De staf geeft advies maar geen bevelen; de lijn beslist."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de structuur waarin iedereen precies één chef heeft? Eén woord.",
+     "antwoord": [
+      "lijnorganisatie",
+      "lijnstructuur",
+      "een lijnorganisatie"
+     ],
+     "uitleg": "De lijnorganisatie."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In een horizontale organisatie zijn er weinig niveaus tussen boven en onder.",
+     "antwoord": true,
+     "uitleg": "Daarom heet ze ook een platte organisatie."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een staf in een lijnstaforganisatie geeft bevelen aan de werkvloer.",
+     "antwoord": false,
+     "uitleg": "De staf adviseert de lijn; de lijnchefs geven de bevelen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een horizontale organisatie?",
+     "opties": [
+      "weinig niveaus",
+      "veel niveaus ervan",
+      "één enkele chef",
+      "geen taken ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Medewerkers krijgen meer verantwoordelijkheid en beslissen meer zelf."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke structuur past bij een grote fabriek met specialisten?",
+     "opties": [
+      "de functionele",
+      "de horizontale",
+      "de platte ervan",
+      "geen ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Elke specialist leidt zijn eigen vakgebied."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het nadeel van veel niveaus in een organisatie?",
+     "opties": [
+      "beslissen duurt lang",
+      "er is te weinig werk",
+      "er zijn geen chefs",
+      "de lonen zijn hoger"
+     ],
+     "antwoord": 0,
+     "uitleg": "Elke vraag moet eerst de hele lijn omhoog en weer naar beneden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn organisatiestructuren?",
+     "opties": [
+      "de functionele organisatie",
+      "de horizontale organisatie",
+      "de lijnorganisatie",
+      "de alfabetische organisatie",
+      "de lijnstaforganisatie"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "En de lijnstaforganisatie. Alfabetisch bestaat niet als structuur."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het voordeel van een functionele organisatie?",
+     "opties": [
+      "veel vakkennis",
+      "weinig overleg",
+      "geen chefs nodig",
+      "een korte lijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "Elke chef kent zijn eigen vakgebied door en door."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In een functionele organisatie kan een medewerker meerdere chefs hebben.",
+     "antwoord": true,
+     "uitleg": "Elke functionele chef beslist over zijn vakgebied, wat verwarring kan geven."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een lijnorganisatie en een lijnstaforganisatie zijn hetzelfde.",
+     "antwoord": false,
+     "uitleg": "Bij de tweede komt er een adviserende staf naast de lijn."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de adviesgroep naast de lijn in een organisatie? Eén woord.",
+     "antwoord": [
+      "staf",
+      "de staf",
+      "stafdienst"
+     ],
+     "uitleg": "De staf."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het voordeel van een horizontale organisatie?",
+     "opties": [
+      "snel beslissen",
+      "veel controle ervan",
+      "lange lijnen ervan",
+      "meer chefs ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Er zitten weinig niveaus tussen een probleem en wie het mag oplossen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is waar over een lijnstaforganisatie?",
+     "opties": [
+      "de lijn beslist",
+      "de staf adviseert",
+      "de lijn moet het advies volgen",
+      "de staf geeft bevelen"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "De lijn beslist en de staf adviseert met zijn vakkennis, maar de lijn is niet verplicht dat advies te volgen. Juist het niet-bevelen van de staf is het kenmerk van deze vorm."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een nadeel van een functionele organisatie?",
+     "opties": [
+      "tegenstrijdige orders",
+      "te weinig vakkennis",
+      "geen specialisten",
+      "te korte lijnen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Twee chefs kunnen iets anders vragen aan dezelfde medewerker."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarop kies je een organisatiestructuur?",
+     "opties": [
+      "de grootte van de zaak",
+      "de aard van het werk",
+      "hoeveel specialisten nodig zijn",
+      "de kleur van het logo",
+      "hoeveel niveaus je wil"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Een kleine zaak heeft geen staf nodig, een fabriek met specialisten wel."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de structuur met weinig niveaus tussen de top en de werkvloer? Eén woord.",
+     "antwoord": [
+      "horizontale",
+      "horizontaal",
+      "platte"
+     ],
+     "uitleg": "Een horizontale of platte organisatie."
+    }
+   ]
+  },
+  {
+   "titel": "De afdelingen en hun samenwerking — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet de afdeling aankoop?",
+     "opties": [
+      "goederen inkopen",
+      "goederen verkopen",
+      "lonen berekenen",
+      "klanten bezoeken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Leveranciers zoeken, prijzen vergelijken en bestellen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet de afdeling verkoop?",
+     "opties": [
+      "klanten bedienen",
+      "leveranciers zoeken",
+      "lonen uitbetalen",
+      "machines herstellen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Offertes maken, bestellingen opnemen en klanten opvolgen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet de afdeling administratie en boekhouding?",
+     "opties": [
+      "de cijfers bijhouden",
+      "de goederen vervoeren",
+      "de reclame maken",
+      "de machines bouwen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Facturen boeken, de btw-aangifte opmaken en de jaarrekening voorbereiden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet de afdeling marketing?",
+     "opties": [
+      "de markt bewerken",
+      "de lonen berekenen",
+      "de goederen opslaan",
+      "de facturen boeken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Onderzoeken wat de klant wil, en het product, de prijs, de plaats en de promotie bepalen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke afdeling zorgt voor het personeel? Hoogstens drie woorden.",
+     "antwoord": [
+      "hr",
+      "human resources",
+      "personeelsdienst"
+     ],
+     "uitleg": "De HR-afdeling."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De afdeling expeditie en logistiek zorgt voor de goederenstroom.",
+     "antwoord": true,
+     "uitleg": "Ontvangen, opslaan, picken, verzenden en het transport plannen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De afdeling IT zorgt voor de boekhouding.",
+     "antwoord": false,
+     "uitleg": "IT zorgt voor de systemen; de boekhouding gebruikt ze."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet de afdeling IT?",
+     "opties": [
+      "de techniek verzorgen",
+      "de lonen berekenen",
+      "de klanten bellen",
+      "de goederen leveren"
+     ],
+     "antwoord": 0,
+     "uitleg": "Computers, netwerk, software en de beveiliging van de gegevens."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet de afdeling research and development?",
+     "opties": [
+      "nieuwe producten zoeken",
+      "oude producten verkopen",
+      "de lonen uitbetalen",
+      "de voorraad tellen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Onderzoek en ontwikkeling van nieuwe producten en betere werkwijzen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarvoor staat HR?",
+     "opties": [
+      "human resources",
+      "high return",
+      "huis en rekening",
+      "handel en recht"
+     ],
+     "antwoord": 0,
+     "uitleg": "De mensen van de onderneming."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn afdelingen van een onderneming?",
+     "opties": [
+      "aankoop en verkoop",
+      "marketing",
+      "expeditie en logistiek",
+      "de raad van bestuur",
+      "administratie en boekhouding"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "En administratie en boekhouding, HR, IT en R&D. De raad van bestuur is geen afdeling."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke afdeling maakt de facturen voor de klanten?",
+     "opties": [
+      "de boekhouding",
+      "de logistiek ervan",
+      "de IT-afdeling ervan",
+      "de afdeling R&D"
+     ],
+     "antwoord": 0,
+     "uitleg": "Met de gegevens die de verkoop doorgeeft."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een kleine zaak kan al die taken bij één of twee mensen leggen.",
+     "antwoord": true,
+     "uitleg": "De taken bestaan altijd; of er een aparte afdeling voor is, hangt van de grootte af."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Elke onderneming heeft alle acht afdelingen apart.",
+     "antwoord": false,
+     "uitleg": "Een zaak met drie werknemers heeft geen eigen IT- of R&D-afdeling."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke afdeling slaat de goederen op en verzendt ze? Hoogstens drie woorden.",
+     "antwoord": [
+      "logistiek",
+      "expeditie",
+      "expeditie en logistiek"
+     ],
+     "uitleg": "Expeditie en logistiek."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke afdeling zoekt nieuwe leveranciers?",
+     "opties": [
+      "de aankoop",
+      "de verkoop ervan",
+      "de marketing ervan",
+      "de boekhouding"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zij vergelijkt prijzen, levertijden en kwaliteit."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet de HR-afdeling?",
+     "opties": [
+      "personeel aanwerven",
+      "opleidingen regelen",
+      "de facturen boeken",
+      "de voorraad beheren"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "HR volgt de instroom, de doorstroom en de uitstroom van het personeel: aanwerven, opleiden en de loonadministratie. Facturen boeken en de voorraad beheren doen andere afdelingen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke afdeling bedenkt de reclamecampagne?",
+     "opties": [
+      "de marketing",
+      "de aankoop ervan",
+      "de logistiek ervan",
+      "de IT ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Promotie is een van de vier P's van de marketingmix."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort bij de taken van de boekhouding?",
+     "opties": [
+      "facturen boeken",
+      "de btw-aangifte opmaken",
+      "de jaarrekening voorbereiden",
+      "de vrachtwagens plannen",
+      "de betalingen opvolgen"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Het transport plannen is werk voor de logistiek."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke afdeling onderzoekt en ontwikkelt nieuwe producten? Hoogstens drie woorden.",
+     "antwoord": [
+      "r&d",
+      "research and development",
+      "onderzoek en ontwikkeling"
+     ],
+     "uitleg": "De afdeling research and development."
+    }
+   ]
+  },
+  {
+   "titel": "Werving, selectie en de werkplek — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een vacature?",
+     "opties": [
+      "een open functie",
+      "een werknemer ervan",
+      "een loonfiche ervan",
+      "een ontslag ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een plaats die vrij is en waarvoor de onderneming iemand zoekt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een cv?",
+     "opties": [
+      "een overzicht van iemand",
+      "een brief van de baas",
+      "een loonfiche ervan",
+      "een arbeidscontract"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een curriculum vitae: opleiding, ervaring en vaardigheden op één of twee bladzijden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een functiebeschrijving?",
+     "opties": [
+      "wat de job inhoudt",
+      "wie de job heeft",
+      "wat de job kost",
+      "waar de job is"
+     ],
+     "antwoord": 0,
+     "uitleg": "De taken, de verantwoordelijkheden en de plaats in de organisatie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een functieprofiel?",
+     "opties": [
+      "wie je ervoor zoekt",
+      "wat de taken zijn",
+      "wat het loon is",
+      "waar het werk is"
+     ],
+     "antwoord": 0,
+     "uitleg": "De beschrijving gaat over de job, het profiel over de persoon."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Waarvoor staat de afkorting cv? Hoogstens drie woorden.",
+     "antwoord": [
+      "curriculum vitae",
+      "levensloop",
+      "curriculum"
+     ],
+     "uitleg": "Curriculum vitae."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een cv hoort kort en overzichtelijk te zijn.",
+     "antwoord": true,
+     "uitleg": "Wie tientallen cv's doorneemt, heeft per cv maar een minuut."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In een vacature hoeft niet te staan wat de onderneming biedt.",
+     "antwoord": false,
+     "uitleg": "Het aanbod en de verloning horen er net wel in; anders solliciteert niemand."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de eerste stap in een selectieprocedure?",
+     "opties": [
+      "de vacature opstellen",
+      "het contract tekenen",
+      "het loon uitbetalen",
+      "de proeftijd starten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerst weten wie je zoekt, dan pas bekendmaken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebeurt er na het bekijken van de cv's?",
+     "opties": [
+      "de gesprekken volgen",
+      "het loon volgt ervan",
+      "het ontslag volgt ervan",
+      "de vacature volgt"
+     ],
+     "antwoord": 0,
+     "uitleg": "De geselecteerde kandidaten worden uitgenodigd voor een gesprek."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarop beoordeel je een cv?",
+     "opties": [
+      "op de vacature",
+      "op het handschrift",
+      "op de leeftijd ervan",
+      "op de woonplaats"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je legt het profiel van de vacature naast wat de kandidaat aanbiedt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort in een vacature?",
+     "opties": [
+      "de functiebeschrijving",
+      "het gevraagde opleidingsniveau",
+      "het aanbod en de verloning",
+      "het rijksregisternummer",
+      "de gevraagde ervaring"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "En de vaardigheden, de attitudes, de kennis en de gevraagde ervaring."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een attitude in een functieprofiel?",
+     "opties": [
+      "een houding",
+      "een diploma ervan",
+      "een vaardigheid",
+      "een ervaring ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Punctueel zijn, vriendelijk blijven, kunnen samenwerken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een vaardigheid is iets dat je kan, een attitude iets dat je bent.",
+     "antwoord": true,
+     "uitleg": "Een rekenblad gebruiken is een vaardigheid; nauwkeurig zijn is een attitude."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Ervaring en opleidingsniveau zijn hetzelfde.",
+     "antwoord": false,
+     "uitleg": "Ervaring is wat je al deed, opleidingsniveau is het diploma dat je haalde."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het gesprek waarin je jezelf voorstelt voor een job? Hoogstens drie woorden.",
+     "antwoord": [
+      "sollicitatiegesprek",
+      "een sollicitatiegesprek",
+      "selectiegesprek"
+     ],
+     "uitleg": "Een sollicitatiegesprek."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom stelt een onderneming een duidelijk profiel op?",
+     "opties": [
+      "om beter te kunnen kiezen",
+      "om minder te betalen ervan",
+      "om sneller te ontslaan",
+      "om reclame te maken ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Met een duidelijk profiel kan je elke kandidaat op dezelfde punten afwegen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat staat er in een goed cv?",
+     "opties": [
+      "je opleiding",
+      "je werkervaring",
+      "je rijksregisternummer",
+      "je rekeningnummer"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Je opleiding, je werkervaring en je vaardigheden horen in een cv. Je rekeningnummer en je rijksregisternummer geef je pas als je aangeworven bent."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een sollicitatiebrief?",
+     "opties": [
+      "je motivatie op papier",
+      "het contract van de job",
+      "de loonfiche van de job",
+      "het attest van de school"
+     ],
+     "antwoord": 0,
+     "uitleg": "Waarom jij de job wil en waarom je erbij past."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke stappen zitten in een eenvoudige selectieprocedure?",
+     "opties": [
+      "de vacature bekendmaken",
+      "de kandidaten screenen",
+      "gesprekken voeren",
+      "de loonfiche opmaken",
+      "een keuze maken en die laten weten"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "De loonfiche komt pas maanden later, als iemand al in dienst is."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het bericht waarin een onderneming een open job aankondigt? Eén woord.",
+     "antwoord": [
+      "vacature",
+      "een vacature",
+      "vacaturebericht"
+     ],
+     "uitleg": "Een vacature."
+    }
+   ]
+  },
+  {
+   "titel": "Werving, selectie en de werkplek — deel 2",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een ergonomische werkplek?",
+     "opties": [
+      "aangepast aan het lichaam",
+      "zo goedkoop mogelijk ervan",
+      "zo klein mogelijk ervan",
+      "altijd in het donker"
+     ],
+     "antwoord": 0,
+     "uitleg": "De werkplek past zich aan de mens aan, niet omgekeerd."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe hoort je scherm te staan op een bureau?",
+     "opties": [
+      "op ooghoogte",
+      "veel te laag",
+      "ver naar links",
+      "tegen het raam"
+     ],
+     "antwoord": 0,
+     "uitleg": "De bovenkant ongeveer ter hoogte van je ogen, op armlengte afstand."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe zit je goed op een bureaustoel?",
+     "opties": [
+      "voeten plat op de grond",
+      "benen gekruist ervan",
+      "ver voorovergebogen",
+      "op het puntje ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Voeten plat, knieën ongeveer in een rechte hoek, rug tegen de steun."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een hygiënische werkplek?",
+     "opties": [
+      "ze is schoon",
+      "ze is klein ervan",
+      "ze is donker ervan",
+      "ze is duur ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zeker waar met voeding of met mensen gewerkt wordt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het aanpassen van de werkplek aan de mens? Eén woord.",
+     "antwoord": [
+      "ergonomie",
+      "de ergonomie",
+      "ergonomisch"
+     ],
+     "uitleg": "Ergonomie."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Afwisselen tussen zitten en staan is beter voor je rug.",
+     "antwoord": true,
+     "uitleg": "Lang in dezelfde houding zitten is wat de klachten geeft."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een zware doos til je met een gebogen rug.",
+     "antwoord": false,
+     "uitleg": "Je zakt door je knieën, houdt je rug recht en de last dicht bij je lichaam."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe til je een zware doos veilig?",
+     "opties": [
+      "door je knieën zakken",
+      "met een ronde rug",
+      "met één hand ervan",
+      "met gestrekte armen"
+     ],
+     "antwoord": 0,
+     "uitleg": "En je draait met je voeten mee in plaats van met je rug."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarvoor dient een veiligheidsschoen in een loods?",
+     "opties": [
+      "je tenen beschermen",
+      "sneller stappen ervan",
+      "de vloer sparen ervan",
+      "mooier staan ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een stalen neus houdt een vallende doos of een rolwagen tegen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je bij een arbeidsongeval op het werk?",
+     "opties": [
+      "het meteen melden",
+      "het verzwijgen ervan",
+      "zelf herstellen ervan",
+      "een factuur maken"
+     ],
+     "antwoord": 0,
+     "uitleg": "De werkgever moet het aangeven bij de arbeidsongevallenverzekering."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarop beoordeel je een werkplek?",
+     "opties": [
+      "op veiligheid",
+      "op ergonomie",
+      "op het uitzicht",
+      "op de kleur van de muren"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Veiligheid, ergonomie en hygiëne bepalen samen of iemand er gezond kan werken. Het uitzicht of de kleur van de muren staat daarbuiten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is een goede verlichting belangrijk op het werk?",
+     "opties": [
+      "minder fouten en moeite",
+      "een lagere elektriciteit",
+      "een mooiere kantine",
+      "een snellere levering"
+     ],
+     "antwoord": 0,
+     "uitleg": "Slecht licht geeft vermoeide ogen, hoofdpijn en meer fouten."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een werkgever is verplicht zijn personeel te verzekeren tegen arbeidsongevallen.",
+     "antwoord": true,
+     "uitleg": "Die verzekering moet in orde zijn vóór de eerste werknemer begint."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Beschermingsmiddelen zijn vrijblijvend voor de werknemer.",
+     "antwoord": false,
+     "uitleg": "De werkgever moet ze geven en de werknemer moet ze gebruiken."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je een ongeval dat tijdens het werk gebeurt? Hoogstens drie woorden.",
+     "antwoord": [
+      "arbeidsongeval",
+      "een arbeidsongeval",
+      "werkongeval"
+     ],
+     "uitleg": "Een arbeidsongeval."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een risicoanalyse op het werk?",
+     "opties": [
+      "de gevaren opsporen",
+      "de winst berekenen",
+      "de klanten tellen",
+      "de voorraad meten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je gaat na wat er kan mislopen en neemt vooraf maatregelen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat maakt een werkplek ergonomisch?",
+     "opties": [
+      "een regelbare stoel",
+      "het scherm op ooghoogte",
+      "genoeg ruimte voor je benen",
+      "zo weinig mogelijk licht",
+      "genoeg licht om te werken"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Te weinig licht is juist slecht voor je ogen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom wissel je taken af op een werkdag?",
+     "opties": [
+      "om niet stijf te worden",
+      "om minder te verdienen",
+      "om langer te werken",
+      "om meer te betalen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Afwisseling spaart je rug, je nek en je ogen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort bij hygiëne op de werkplek?",
+     "opties": [
+      "een propere werktafel",
+      "handen wassen waar nodig",
+      "de stoel laag zetten",
+      "een hogere stoel zetten"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Een propere werktafel, handen wassen waar nodig en afval meteen opruimen horen bij de hygiëne. De stoel, hoog of laag, hoort bij de ergonomie."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke verzekering moet een werkgever afsluiten voor zijn personeel? Hoogstens drie woorden.",
+     "antwoord": [
+      "arbeidsongevallenverzekering",
+      "arbeidsongevallen",
+      "ongevallenverzekering"
+     ],
+     "uitleg": "De arbeidsongevallenverzekering."
+    }
+   ]
+  },
+  {
+   "titel": "Aanwerving en de arbeidsovereenkomst — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een DIMONA-aangifte?",
+     "opties": [
+      "melden wie begint",
+      "het loon berekenen",
+      "de btw aangeven",
+      "een factuur maken"
+     ],
+     "antwoord": 0,
+     "uitleg": "De werkgever meldt elektronisch aan de RSZ wie in dienst komt en wie uit dienst gaat."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wanneer moet de DIMONA-aangifte gebeuren?",
+     "opties": [
+      "voor het werk begint",
+      "een maand later ervan",
+      "bij het ontslag ervan",
+      "pas bij een controle"
+     ],
+     "antwoord": 0,
+     "uitleg": "Uiterlijk op het moment dat de werknemer begint, niet erna."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Bij wie doe je de DIMONA-aangifte?",
+     "opties": [
+      "bij de RSZ",
+      "bij de bank ervan",
+      "bij de notaris",
+      "bij de klant ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij de Rijksdienst voor Sociale Zekerheid."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een arbeidsovereenkomst?",
+     "opties": [
+      "een contract met de baas",
+      "een factuur van de zaak",
+      "een loonfiche per maand",
+      "een brief van de RSZ"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je werkt tegen loon en onder het gezag van de werkgever."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke aangifte doet een werkgever vóór iemand begint te werken? Eén woord.",
+     "antwoord": [
+      "dimona",
+      "de dimona",
+      "dimona-aangifte"
+     ],
+     "uitleg": "De DIMONA-aangifte."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een arbeidsovereenkomst voor bepaalde duur moet schriftelijk zijn.",
+     "antwoord": true,
+     "uitleg": "Staat ze niet op papier, dan geldt ze als een overeenkomst van onbepaalde duur."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een arbeidsovereenkomst van onbepaalde duur moet altijd schriftelijk zijn.",
+     "antwoord": false,
+     "uitleg": "Die kan ook mondeling, maar schriftelijk is veel veiliger voor beide partijen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een arbeidsovereenkomst voor bepaalde duur?",
+     "opties": [
+      "ze heeft een einddatum",
+      "ze loopt altijd door",
+      "ze is nooit schriftelijk",
+      "ze geldt enkel in de zomer"
+     ],
+     "antwoord": 0,
+     "uitleg": "Op die datum stopt ze, zonder dat iemand moet opzeggen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een voltijdse arbeidsovereenkomst?",
+     "opties": [
+      "de volle werkweek",
+      "de halve werkweek",
+      "enkel in de zomer",
+      "enkel op zaterdag"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het volledige aantal uren dat in die sector gebruikelijk is."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een deeltijdse arbeidsovereenkomst?",
+     "opties": [
+      "minder uren per week",
+      "meer uren per week",
+      "enkel in de nacht",
+      "enkel in het weekend"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bijvoorbeeld vier vijfde of de helft van een voltijdse week."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarop onderscheid je de soorten arbeidsovereenkomsten?",
+     "opties": [
+      "op de duur",
+      "op de omvang van de prestaties",
+      "op het loon",
+      "op de leeftijd van de werknemer"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Je deelt in volgens de duur, de omvang van de prestaties en het soort werk. De leeftijd en het loon bepalen de soort overeenkomst niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat moet er verplicht in een arbeidsovereenkomst staan?",
+     "opties": [
+      "de identiteit van beide",
+      "de kleur van het logo",
+      "het aantal klanten ervan",
+      "de naam van de bank"
+     ],
+     "antwoord": 0,
+     "uitleg": "En de begindatum, de functie, de arbeidsduur en het loon."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een overeenkomst voor studentenarbeid moet altijd schriftelijk zijn.",
+     "antwoord": true,
+     "uitleg": "En ze moet er zijn vóór de student begint te werken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Zonder DIMONA-aangifte mag iemand toch al beginnen werken.",
+     "antwoord": false,
+     "uitleg": "Dat is zwartwerk, met zware boetes voor de werkgever."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je een overeenkomst zonder einddatum? Hoogstens drie woorden.",
+     "antwoord": [
+      "onbepaalde duur",
+      "van onbepaalde duur",
+      "vast contract"
+     ],
+     "uitleg": "Een overeenkomst van onbepaalde duur."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil tussen een arbeider en een bediende?",
+     "opties": [
+      "het soort werk",
+      "het aantal uren",
+      "de leeftijd ervan",
+      "de woonplaats ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een arbeider doet vooral handenarbeid, een bediende vooral hoofdarbeid."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort verplicht in een schriftelijke arbeidsovereenkomst?",
+     "opties": [
+      "de identiteit van de partijen",
+      "de begindatum",
+      "het loon en de arbeidsduur",
+      "het rijbewijs van de chef",
+      "de functie van de werknemer"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "En de functie die de werknemer zal uitoefenen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebeurt er als de verplichte vermeldingen ontbreken?",
+     "opties": [
+      "de werknemer is beschermd",
+      "de overeenkomst vervalt",
+      "de werkgever krijgt loon",
+      "er verandert niets ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ontbreekt de einddatum, dan geldt de overeenkomst vaak als van onbepaalde duur."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat moet in orde zijn bij de aanwerving van personeel?",
+     "opties": [
+      "de DIMONA-aangifte",
+      "de arbeidsongevallenverzekering",
+      "een inschrijving bij de vakbond",
+      "een factuur aan de RSZ"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Een DIMONA-aangifte, een arbeidsongevallenverzekering en een arbeidsovereenkomst moeten in orde zijn. De RSZ stuurt een afrekening van de bijdragen, en lid worden van een vakbond is een vrije keuze van de werknemer."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de overeenkomst met een vaste einddatum? Hoogstens drie woorden.",
+     "antwoord": [
+      "bepaalde duur",
+      "van bepaalde duur",
+      "tijdelijk contract"
+     ],
+     "uitleg": "Een overeenkomst van bepaalde duur."
+    }
+   ]
+  },
+  {
+   "titel": "Schorsing en einde van de arbeidsovereenkomst — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een schorsing van de arbeidsovereenkomst?",
+     "opties": [
+      "ze loopt even niet",
+      "ze stopt voorgoed ervan",
+      "ze begint pas later",
+      "ze wordt verscheurd"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het contract blijft bestaan, maar de prestaties en soms het loon vallen tijdelijk weg."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een reden van schorsing?",
+     "opties": [
+      "ziekte",
+      "een nieuwe job",
+      "een opslag ervan",
+      "een promotie ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ziekte, een ongeval, bevallingsverlof, vakantie of overmacht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is klein verlet?",
+     "opties": [
+      "verlof voor een gebeurtenis",
+      "verlof voor een reis ervan",
+      "verlof zonder reden ervan",
+      "verlof voor altijd ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Betaald verlof voor een huwelijk, een geboorte of een begrafenis."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is bevallingsverlof?",
+     "opties": [
+      "verlof rond de geboorte",
+      "verlof na een ongeval",
+      "verlof bij ziekte ervan",
+      "verlof bij ontslag ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een periode voor en na de bevalling waarin niet gewerkt wordt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het betaalde verlof voor een huwelijk of een begrafenis? Hoogstens drie woorden.",
+     "antwoord": [
+      "klein verlet",
+      "het klein verlet",
+      "kort verzuim"
+     ],
+     "uitleg": "Klein verlet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Tijdens een schorsing blijft de arbeidsovereenkomst bestaan.",
+     "antwoord": true,
+     "uitleg": "Zodra de reden wegvalt, wordt het werk gewoon hervat."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een schorsing betekent dat de overeenkomst stopt.",
+     "antwoord": false,
+     "uitleg": "Ze wordt enkel opgeschort; stoppen gebeurt met een opzegging."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is overmacht als schorsingsgrond?",
+     "opties": [
+      "niemand kon het helpen",
+      "een eigen keuze ervan",
+      "een gewone vakantie",
+      "een late trein ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een brand, een overstroming: werken is onmogelijk buiten de wil van beide partijen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een dwingende reden van familiaal belang?",
+     "opties": [
+      "een noodgeval thuis",
+      "een verjaardag ervan",
+      "een feestje ervan",
+      "een reis ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je mag van het werk weg, maar dat verlof is onbetaald."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zijn verloren arbeidsuren?",
+     "opties": [
+      "uren die wegvallen",
+      "uren die je bijdoet",
+      "uren die je spaart",
+      "uren die je kiest"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bijvoorbeeld als het werk door panne of door het weer niet kan doorgaan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn schorsingsgronden?",
+     "opties": [
+      "ziekte en ongeval",
+      "zwangerschap en bevallingsverlof",
+      "een promotie bij een andere werkgever",
+      "een promotie binnen de zaak"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Ziekte en ongeval, zwangerschap en bevallingsverlof en de jaarlijkse vakantie schorsen de overeenkomst, net als klein verlet, overmacht en dwingende redenen. Een promotie doet dat niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat moet een werknemer doen als hij ziek wordt?",
+     "opties": [
+      "de werkgever verwittigen",
+      "gewoon komen werken",
+      "een factuur sturen",
+      "zijn loon opvragen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Meteen verwittigen en, als het reglement dat vraagt, een attest bezorgen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Jaarlijkse vakantie is een schorsing van de arbeidsovereenkomst.",
+     "antwoord": true,
+     "uitleg": "Er wordt niet gewerkt, maar het contract loopt door."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij ziekte krijgt een werknemer nooit loon.",
+     "antwoord": false,
+     "uitleg": "De eerste periode betaalt de werkgever gewaarborgd loon; daarna neemt het ziekenfonds over."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het loon dat de werkgever bij het begin van een ziekte doorbetaalt? Hoogstens drie woorden.",
+     "antwoord": [
+      "gewaarborgd loon",
+      "het gewaarborgd loon",
+      "gewaarborgd maandloon"
+     ],
+     "uitleg": "Het gewaarborgd loon."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat bewijst een werknemer met een doktersattest?",
+     "opties": [
+      "dat hij ziek is",
+      "dat hij werkt ervan",
+      "dat hij betaald is",
+      "dat hij verlof heeft"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het attest zegt dat hij arbeidsongeschikt is en voor hoe lang."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat geldt bij een schorsing wegens ziekte?",
+     "opties": [
+      "de werknemer moet verwittigen",
+      "er is gewaarborgd loon",
+      "het contract blijft bestaan",
+      "de werkgever mag meteen ontslaan",
+      "een attest kan gevraagd worden"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Ziekte is geen reden voor een ontslag op staande voet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wie betaalt na de periode van gewaarborgd loon?",
+     "opties": [
+      "het ziekenfonds",
+      "de werkgever ervan",
+      "de klant ervan",
+      "de bank ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "De mutualiteit betaalt dan een ziekte-uitkering."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is waar over klein verlet?",
+     "opties": [
+      "het is betaald",
+      "het geldt voor een gebeurtenis",
+      "het duurt een volle week",
+      "het duurt maanden"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Klein verlet is betaald verlof voor een bepaalde gebeurtenis en duurt meestal één tot enkele dagen, per gebeurtenis vastgelegd."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de oorzaak waar niemand iets aan kon doen? Eén woord.",
+     "antwoord": [
+      "overmacht",
+      "de overmacht",
+      "force majeure"
+     ],
+     "uitleg": "Overmacht."
+    }
+   ]
+  },
+  {
+   "titel": "De loonfiche en de loonberekening — deel 2",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de eerste stap in een eenvoudige loonberekening?",
+     "opties": [
+      "het brutoloon bepalen",
+      "het netto bepalen ervan",
+      "de belasting betalen",
+      "de loonfiche versturen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Uren maal uurloon, of het maandloon uit het contract."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat trek je eerst af van het brutoloon?",
+     "opties": [
+      "de RSZ-bijdrage",
+      "de bedrijfsvoorheffing",
+      "de vakantie ervan",
+      "de premie ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerst de RSZ, en op wat overblijft wordt de bedrijfsvoorheffing berekend."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het belastbaar loon?",
+     "opties": [
+      "bruto min RSZ",
+      "bruto plus RSZ",
+      "netto min RSZ",
+      "netto plus RSZ"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het brutoloon na aftrek van de werknemersbijdrage."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarop wordt de bedrijfsvoorheffing berekend?",
+     "opties": [
+      "op het belastbaar loon",
+      "op het brutoloon ervan",
+      "op het nettoloon ervan",
+      "op de patronale bijdrage"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dus op het brutoloon na aftrek van de RSZ-bijdrage."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het bedrag waarop de bedrijfsvoorheffing berekend wordt? Hoogstens drie woorden.",
+     "antwoord": [
+      "belastbaar loon",
+      "het belastbaar loon",
+      "belastbare loon"
+     ],
+     "uitleg": "Het belastbaar loon."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Twee werknemers met hetzelfde brutoloon kunnen een ander nettoloon hebben.",
+     "antwoord": true,
+     "uitleg": "De bedrijfsvoorheffing hangt ook af van de gezinssituatie en de kinderen ten laste."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het nettoloon volgt rechtstreeks uit het brutoloon, zonder tussenstap.",
+     "antwoord": false,
+     "uitleg": "Er zit het belastbaar loon tussen: eerst de RSZ eraf, dan de voorheffing."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de fiscale fiche 281.10?",
+     "opties": [
+      "het jaaroverzicht van je loon",
+      "de factuur van de zaak",
+      "het contract met de baas",
+      "de aangifte bij de RSZ"
+     ],
+     "antwoord": 0,
+     "uitleg": "Alles wat je dat jaar verdiende en wat er werd ingehouden, op één blad."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarvoor gebruik je de fiche 281.10?",
+     "opties": [
+      "je belastingaangifte",
+      "je arbeidscontract",
+      "je ziekenfonds ervan",
+      "je bankrekening ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "De bedragen van die fiche vul je in bij je personenbelasting."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wie bezorgt de fiche 281.10 aan de werknemer?",
+     "opties": [
+      "de werkgever",
+      "de klant ervan",
+      "de bank ervan",
+      "het ziekenfonds"
+     ],
+     "antwoord": 0,
+     "uitleg": "Of zijn sociaal secretariaat, in het begin van het volgende jaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke gegevens staan op de fiche 281.10?",
+     "opties": [
+      "het totale brutoloon van het jaar",
+      "de ingehouden bedrijfsvoorheffing",
+      "de identiteit van de werknemer",
+      "de omzet van de onderneming"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De omzet van de zaak staat er niet op; de fiche gaat over één werknemer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent het als de bedrijfsvoorheffing te hoog was?",
+     "opties": [
+      "je krijgt geld terug",
+      "je moet bijbetalen",
+      "er verandert niets",
+      "je loon wordt lager"
+     ],
+     "antwoord": 0,
+     "uitleg": "De voorheffing is een voorschot; bij de aangifte wordt de echte belasting berekend."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De bedrijfsvoorheffing is een voorschot, geen eindafrekening.",
+     "antwoord": true,
+     "uitleg": "De eindafrekening komt met het aanslagbiljet na je aangifte."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Wie bedrijfsvoorheffing betaalde, hoeft geen belastingaangifte te doen.",
+     "antwoord": false,
+     "uitleg": "De aangifte blijft nodig; daar wordt de voorheffing mee verrekend."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk nummer heeft de fiscale fiche van een werknemer? Hoogstens drie woorden.",
+     "antwoord": [
+      "281.10",
+      "281 10",
+      "28110"
+     ],
+     "uitleg": "De fiche 281.10."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is vakantiegeld?",
+     "opties": [
+      "een extra bij vakantie",
+      "een korting op het loon",
+      "een boete bij verlof",
+      "een bijdrage aan de RSZ"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een bedrag bovenop het gewone loon, meestal in mei of juni."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke stappen zitten in een eenvoudige loonberekening?",
+     "opties": [
+      "het brutoloon nemen",
+      "de RSZ-bijdrage aftrekken",
+      "de bedrijfsvoorheffing aftrekken",
+      "de omzet erbij tellen"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Wat dan overblijft is het nettoloon."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een eindejaarspremie?",
+     "opties": [
+      "een dertiende maand",
+      "een extra vakantie",
+      "een lening ervan",
+      "een korting ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een extra loon in december, in veel sectoren verplicht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarvan hangt de bedrijfsvoorheffing af?",
+     "opties": [
+      "de hoogte van het loon",
+      "je gezinssituatie",
+      "het aantal kinderen ten laste",
+      "de kleur van je wagen"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Daarom staan er officiële tabellen voor elke situatie."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het voorschot op de personenbelasting dat van je loon gaat? Eén woord.",
+     "antwoord": [
+      "bedrijfsvoorheffing",
+      "voorheffing",
+      "de bedrijfsvoorheffing"
+     ],
+     "uitleg": "De bedrijfsvoorheffing."
+    }
+   ]
+  },
+  {
+   "titel": "De marketingmix — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de marketingmix?",
+     "opties": [
+      "de keuzes rond verkopen",
+      "de lijst met klanten ervan",
+      "de winst van het product",
+      "de kosten van de zaak"
+     ],
+     "antwoord": 0,
+     "uitleg": "De keuzes over het product, de prijs, de plaats en de promotie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zijn de vier P's van de marketingmix?",
+     "opties": [
+      "product, prijs, plaats, promotie",
+      "product, personeel, plan, prijs",
+      "prijs, plaats, plan, premie",
+      "product, plaats, plan, premie"
+     ],
+     "antwoord": 0,
+     "uitleg": "De vier klassieke P's van de marketingmix."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort bij de P van product?",
+     "opties": [
+      "wat je verkoopt",
+      "hoeveel het kost",
+      "waar het ligt",
+      "hoe je het aanprijst"
+     ],
+     "antwoord": 0,
+     "uitleg": "De kwaliteit, de verpakking, het merk en de service erbij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort bij de P van prijs?",
+     "opties": [
+      "wat de klant betaalt",
+      "wat je verkoopt ervan",
+      "waar je verkoopt ervan",
+      "hoe je adverteert"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ook de kortingen, de betalingsvoorwaarden en de prijsstrategie."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke P staat voor waar de klant het product kan kopen? Eén woord.",
+     "antwoord": [
+      "plaats",
+      "distributie",
+      "de plaats"
+     ],
+     "uitleg": "De plaats, ook distributie genoemd."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Promotie gaat over hoe je het product bekendmaakt.",
+     "antwoord": true,
+     "uitleg": "Reclame, acties, beurzen en sociale media."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De vier P's staan los van elkaar.",
+     "antwoord": false,
+     "uitleg": "Ze horen samen: een duur product in een goedkope winkel met flauwe reclame verkoopt niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort bij de P van promotie?",
+     "opties": [
+      "de reclame",
+      "de winkel ervan",
+      "het product ervan",
+      "de levering ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Alles waarmee je het product onder de aandacht brengt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is distributie in de marketingmix?",
+     "opties": [
+      "de weg naar de klant",
+      "de prijs van het goed",
+      "de reclame ervan",
+      "het merk ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Via een eigen winkel, een groothandel, een webshop of een combinatie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een merk?",
+     "opties": [
+      "de naam van een product",
+      "de prijs van een product",
+      "de winkel van de zaak",
+      "de kost van de zaak"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een naam of teken waaraan de klant jouw product herkent."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort allemaal bij de P van product?",
+     "opties": [
+      "de kwaliteit",
+      "de verpakking",
+      "het merk",
+      "de reclamespot"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De reclamespot hoort bij de promotie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom moet een onderneming de markt onderzoeken?",
+     "opties": [
+      "om te weten wat men wil",
+      "om minder te betalen",
+      "om sneller te leveren",
+      "om de btw te berekenen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zonder te weten wat de doelgroep vraagt, is elke keuze een gok."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Dezelfde marketingmix past niet bij elke doelgroep.",
+     "antwoord": true,
+     "uitleg": "Een product voor jongeren vraagt een andere prijs, plaats en promotie dan een product voor zestigplussers."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een lage prijs is altijd de beste keuze.",
+     "antwoord": false,
+     "uitleg": "Een te lage prijs kan de klant doen twijfelen aan de kwaliteit."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel P's heeft de klassieke marketingmix? Eén woord.",
+     "antwoord": [
+      "vier",
+      "4"
+     ],
+     "uitleg": "Vier."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een doelgroep?",
+     "opties": [
+      "de klanten die je wil",
+      "alle mensen van het land",
+      "de leveranciers ervan",
+      "de werknemers ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "De groep mensen waar je product voor bedoeld is."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort allemaal bij de P van promotie?",
+     "opties": [
+      "een advertentie",
+      "een actie in de winkel",
+      "een post op sociale media",
+      "de verpakking van het goed"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De verpakking hoort bij het product."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort bij de P van plaats?",
+     "opties": [
+      "de webshop",
+      "de prijslijst",
+      "de spot ervan",
+      "het merk ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Elk kanaal waarlangs de klant bij het product komt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke keuzes maakt de marketingafdeling?",
+     "opties": [
+      "welk product",
+      "aan welke prijs",
+      "via welk kanaal",
+      "welke boekhouding"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De boekhouding is werk voor de administratie."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het geheel van de vier P's? Eén woord.",
+     "antwoord": [
+      "marketingmix",
+      "de marketingmix",
+      "mix"
+     ],
+     "uitleg": "De marketingmix."
+    }
+   ]
+  },
+  {
+   "titel": "De marketingmix — deel 2",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Van wie uit kijken de vier C's?",
+     "opties": [
+      "van de klant",
+      "van de zaak ervan",
+      "van de staat ervan",
+      "van de bank ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dezelfde mix, maar bekeken door de ogen van de klant."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarvoor staat de C van customer?",
+     "opties": [
+      "de klant",
+      "de kost ervan",
+      "het gemak ervan",
+      "de reclame ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Niet wat jij wil verkopen, maar wat de klant nodig heeft."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarvoor staat de C van cost?",
+     "opties": [
+      "wat het kost",
+      "de klant ervan",
+      "het gemak ervan",
+      "de boodschap ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Niet enkel de prijs: ook de tijd en de moeite die het de klant kost."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarvoor staat de C van convenience?",
+     "opties": [
+      "het gemak",
+      "de kost ervan",
+      "de klant ervan",
+      "de reclame ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hoe eenvoudig het voor de klant is om eraan te komen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Waarvoor staat de C van communication? Eén woord.",
+     "antwoord": [
+      "communicatie",
+      "gesprek",
+      "boodschap"
+     ],
+     "uitleg": "Communicatie met de klant."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De vier C's zijn de vier P's bekeken vanuit de klant.",
+     "antwoord": true,
+     "uitleg": "Elke P heeft een C die hetzelfde zegt van de andere kant."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De vier C's vervangen de vier P's volledig.",
+     "antwoord": false,
+     "uitleg": "Ze staan ernaast en helpen om de mix vanuit de klant te bekijken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke P hoort bij de C van cost?",
+     "opties": [
+      "de prijs",
+      "het product",
+      "de plaats",
+      "de promotie"
+     ],
+     "antwoord": 0,
+     "uitleg": "De prijs van de verkoper is de kost van de klant."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke P hoort bij de C van convenience?",
+     "opties": [
+      "de plaats",
+      "de prijs ervan",
+      "het product ervan",
+      "de promotie ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Waar en hoe makkelijk de klant eraan komt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke P hoort bij de C van communication?",
+     "opties": [
+      "de promotie",
+      "de prijs ervan",
+      "de plaats ervan",
+      "het product ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Promotie is zenden, communicatie is ook luisteren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zit er volgens de C van cost in de kost voor de klant?",
+     "opties": [
+      "de prijs",
+      "de tijd die het hem kost",
+      "de moeite om er te komen",
+      "de winst van de verkoper"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De winst van de verkoper is geen kost voor de klant."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent denken vanuit de klant voor de verkoper?",
+     "opties": [
+      "eerst zijn vraag kennen",
+      "eerst zijn winst nemen",
+      "eerst reclame maken",
+      "eerst de prijs zetten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je begint bij de behoefte en bouwt je aanbod daarrond."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Communicatie is tweerichtingsverkeer, promotie vooral eenrichting.",
+     "antwoord": true,
+     "uitleg": "Bij communicatie hoort ook wat de klant terugzegt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Convenience betekent dat het product goedkoop moet zijn.",
+     "antwoord": false,
+     "uitleg": "Convenience gaat over gemak; de prijs zit in cost."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke C staat voor het gemak voor de klant? Eén woord.",
+     "antwoord": [
+      "convenience",
+      "gemak",
+      "het gemak"
+     ],
+     "uitleg": "Convenience."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe herken je de onderdelen van een marketingmix in een voorbeeld?",
+     "opties": [
+      "je zoekt elke P erin",
+      "je telt de klanten",
+      "je rekent de winst",
+      "je kijkt naar de btw"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wat is het product, wat is de prijs, waar wordt het verkocht en hoe wordt het bekendgemaakt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort bij convenience voor een webshop?",
+     "opties": [
+      "een vlotte website",
+      "snelle levering",
+      "makkelijk terugsturen",
+      "een luide reclamespot"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De reclamespot hoort bij communicatie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom gebruikt men naast de P's ook de C's?",
+     "opties": [
+      "de klant staat centraal",
+      "het klinkt moderner ervan",
+      "het rekent sneller ervan",
+      "het is goedkoper ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "De P's kijken van de onderneming uit, de C's van de klant uit."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze horen bij de C's van de marketing?",
+     "opties": [
+      "customer",
+      "cost",
+      "communication",
+      "cash"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "En convenience. Cash hoort er niet bij."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke C staat voor de klant? Eén woord.",
+     "antwoord": [
+      "customer",
+      "klant",
+      "de klant"
+     ],
+     "uitleg": "Customer."
+    }
+   ]
+  },
+  {
+   "titel": "Soorten klanten en het verkoopgesprek — deel 2",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de eerste fase van een verkoopgesprek?",
+     "opties": [
+      "de aandacht krijgen",
+      "de aankoop afsluiten",
+      "de bezwaren weerleggen",
+      "de factuur maken"
+     ],
+     "antwoord": 0,
+     "uitleg": "De aandacht van de klant trekken, of hem aandacht geven."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat komt na het trekken van de aandacht?",
+     "opties": [
+      "de behoefte ontwikkelen",
+      "de aankoop afsluiten",
+      "de factuur versturen",
+      "de klant wegsturen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je zoekt samen met de klant wat hij echt nodig heeft."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je nadat je de behoefte kent?",
+     "opties": [
+      "argumenten geven",
+      "de aankoop afsluiten",
+      "de prijs verzwijgen",
+      "de winkel sluiten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Argumenten die passen bij die behoefte, niet bij alle producten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een bezwaar van een klant?",
+     "opties": [
+      "een tegenargument",
+      "een koopsignaal",
+      "een betaling ervan",
+      "een factuur ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Te duur, te groot, of hij wil er nog over nadenken."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het teken dat een klant wil kopen? Hoogstens drie woorden.",
+     "antwoord": [
+      "koopsignaal",
+      "een koopsignaal",
+      "koopsignalen"
+     ],
+     "uitleg": "Een koopsignaal."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een bezwaar betekent vaak dat de klant geïnteresseerd is.",
+     "antwoord": true,
+     "uitleg": "Wie helemaal niet wil kopen, neemt niet de moeite om tegen te spreken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een bezwaar hoor je te negeren.",
+     "antwoord": false,
+     "uitleg": "Je erkent het en geeft er een eerlijk antwoord op."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een koopsignaal?",
+     "opties": [
+      "de klant wil kopen",
+      "de klant gaat weg",
+      "de klant zwijgt ervan",
+      "de klant klaagt ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hij vraagt naar de levertijd, naar de garantie of naar de kleur die hij wil."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de laatste fase van een verkoopgesprek?",
+     "opties": [
+      "de aankoop afsluiten",
+      "de aandacht trekken",
+      "de behoefte zoeken",
+      "de bezwaren horen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je maakt de afspraak concreet en bevestigt wat er geleverd wordt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe weerleg je een bezwaar goed?",
+     "opties": [
+      "erkennen en antwoorden",
+      "meteen tegenspreken",
+      "er niet op ingaan",
+      "de klant uitlachen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je laat zien dat je het begrijpt en geeft er dan je antwoord op."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn fasen in een verkoopgesprek?",
+     "opties": [
+      "de aandacht van de klant trekken",
+      "een behoefte ontwikkelen",
+      "argumenten geven",
+      "de factuur boeken in het journaal"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "En bezwaren weerleggen, koopsignalen ontdekken en afsluiten. Boeken is werk voor de boekhouding."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je als je een koopsignaal ziet?",
+     "opties": [
+      "naar de afsluiting gaan",
+      "nog meer uitleggen",
+      "de prijs verhogen",
+      "een bezwaar maken"
+     ],
+     "antwoord": 0,
+     "uitleg": "De klant is er klaar voor; nog meer uitleg kan nieuwe twijfel wekken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Wie te lang doorpraat na een koopsignaal, kan de verkoop verliezen.",
+     "antwoord": true,
+     "uitleg": "Elke extra uitleg kan een nieuwe twijfel oproepen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Argumenten geef je best voor je de behoefte kent.",
+     "antwoord": false,
+     "uitleg": "Dan praat je over zaken waar de klant niets aan heeft."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het antwoorden op wat een klant tegen de aankoop inbrengt? Hoogstens drie woorden.",
+     "antwoord": [
+      "bezwaren weerleggen",
+      "weerleggen",
+      "bezwaar weerleggen"
+     ],
+     "uitleg": "Bezwaren weerleggen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een open vraag in een verkoopgesprek?",
+     "opties": [
+      "ze vraagt om uitleg",
+      "ze vraagt ja of nee",
+      "ze vraagt een prijs",
+      "ze vraagt niets ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Waarvoor gaat u het gebruiken? geeft meer terug dan Wil u dit?"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort bij een goede afsluiting?",
+     "opties": [
+      "de afspraak bevestigen",
+      "de levering regelen",
+      "de klant bedanken",
+      "de klant onder druk zetten"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Druk zetten levert een klant op die later afbelt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom stel je eerst vragen aan een klant?",
+     "opties": [
+      "om zijn behoefte te kennen",
+      "om tijd te winnen ervan",
+      "om de prijs te zetten",
+      "om de winkel te vullen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zonder behoefte is er niets om argumenten op te bouwen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je bij het bezwaar dat iets te duur is?",
+     "opties": [
+      "de waarde uitleggen",
+      "een alternatief tonen",
+      "vragen waarmee hij vergelijkt",
+      "de klant wegsturen"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Soms vergelijkt hij met iets dat veel minder biedt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het laatste deel van het gesprek waarin de klant beslist? Hoogstens drie woorden.",
+     "antwoord": [
+      "afsluiting",
+      "de afsluiting",
+      "afsluiten"
+     ],
+     "uitleg": "De afsluiting."
+    }
+   ]
+  },
+  {
+   "titel": "Commerciële documenten en de documentenstroom — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een prijsaanvraag?",
+     "opties": [
+      "vragen wat iets kost",
+      "zeggen wat iets kost",
+      "bestellen bij iemand",
+      "leveren aan iemand"
+     ],
+     "antwoord": 0,
+     "uitleg": "De klant vraagt aan een of meer leveranciers wat ze voor iets rekenen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een offerte?",
+     "opties": [
+      "een prijsvoorstel",
+      "een bestelling ervan",
+      "een levering ervan",
+      "een betaling ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het antwoord van de leverancier op een prijsaanvraag."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een bestelbon?",
+     "opties": [
+      "de klant bestelt",
+      "de leverancier levert",
+      "de klant betaalt",
+      "de bank schrijft"
+     ],
+     "antwoord": 0,
+     "uitleg": "De klant zet schriftelijk wat hij wil, in welke aantallen en aan welke prijs."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een orderbevestiging?",
+     "opties": [
+      "de leverancier bevestigt",
+      "de klant bestelt ervan",
+      "de bank betaalt ervan",
+      "de klant klaagt ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hij laat weten dat de bestelling binnen is en wanneer hij levert."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk document stuurt de leverancier als antwoord op een prijsaanvraag? Eén woord.",
+     "antwoord": [
+      "offerte",
+      "een offerte",
+      "prijsopgave"
+     ],
+     "uitleg": "Een offerte."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De leverbon gaat mee met de goederen.",
+     "antwoord": true,
+     "uitleg": "Zo kan de ontvanger meteen nagaan of alles er is."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een leverbon vermeldt altijd de prijzen.",
+     "antwoord": false,
+     "uitleg": "Een leverbon noemt vooral de aantallen; de bedragen staan op de factuur."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een leverbon?",
+     "opties": [
+      "wat er geleverd is",
+      "wat er betaald is",
+      "wat er bestelt is",
+      "wat er geboekt is"
+     ],
+     "antwoord": 0,
+     "uitleg": "De lijst van goederen die met de levering meekomt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een factuur?",
+     "opties": [
+      "de vraag om te betalen",
+      "de vraag om te leveren",
+      "de vraag om een prijs",
+      "de vraag om een offerte"
+     ],
+     "antwoord": 0,
+     "uitleg": "Met de bedragen, de btw en de betalingsvoorwaarden erop."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een creditnota?",
+     "opties": [
+      "een factuur rechtzetten",
+      "een bestelling plaatsen",
+      "een levering melden",
+      "een prijs opvragen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij een retour, een korting achteraf of een fout op de factuur."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn commerciële documenten?",
+     "opties": [
+      "de prijsaanvraag en de offerte",
+      "de bestelbon en de orderbevestiging",
+      "de leverbon en de factuur",
+      "de loonfiche van de werknemer"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "En de creditnota. De loonfiche is een personeelsdocument."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wie maakt de factuur?",
+     "opties": [
+      "de verkoper",
+      "de koper ervan",
+      "de bank ervan",
+      "de post ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Voor hem is het een verkoopfactuur, voor de koper een aankoopfactuur."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een offerte bindt de leverancier aan zijn prijs zolang ze geldig is.",
+     "antwoord": true,
+     "uitleg": "Daarom staat er een geldigheidsduur op."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een bestelbon en een factuur zijn hetzelfde document.",
+     "antwoord": false,
+     "uitleg": "De bestelbon komt van de koper, de factuur van de verkoper."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk document stuurt een verkoper om een fout op een factuur recht te zetten? Hoogstens drie woorden.",
+     "antwoord": [
+      "creditnota",
+      "een creditnota",
+      "kredietnota"
+     ],
+     "uitleg": "Een creditnota."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het doel van een orderbevestiging?",
+     "opties": [
+      "zekerheid geven",
+      "de prijs verhogen",
+      "de levering stoppen",
+      "de factuur boeken"
+     ],
+     "antwoord": 0,
+     "uitleg": "De klant weet dat zijn bestelling aangekomen is en wanneer ze komt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat staat er verplicht op een factuur?",
+     "opties": [
+      "de datum en het nummer",
+      "de gegevens van beide partijen",
+      "de btw en het totaal",
+      "de naam van de chauffeur"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "En de omschrijving van de goederen of diensten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk document vraagt de klant als hij eerst de prijs wil kennen?",
+     "opties": [
+      "een prijsaanvraag",
+      "een leverbon ervan",
+      "een creditnota ervan",
+      "een factuur ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vaak bij meerdere leveranciers, om te kunnen vergelijken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke documenten gaan van de klant naar de leverancier?",
+     "opties": [
+      "de prijsaanvraag",
+      "de bestelbon",
+      "de klacht bij een fout",
+      "de factuur"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De factuur komt de andere richting uit."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk document gaat mee met de goederen? Eén woord.",
+     "antwoord": [
+      "leverbon",
+      "een leverbon",
+      "leveringsbon"
+     ],
+     "uitleg": "De leverbon."
+    }
+   ]
+  },
+  {
+   "titel": "Commerciële documenten en de documentenstroom — deel 2",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de documentenstroom bij een aankoop?",
+     "opties": [
+      "de volgorde van papieren",
+      "de prijs van de goederen",
+      "de route van de wagen",
+      "de winst van de zaak"
+     ],
+     "antwoord": 0,
+     "uitleg": "Welk document wanneer gemaakt wordt, en door wie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk document komt eerst bij een aankoop?",
+     "opties": [
+      "de prijsaanvraag",
+      "de factuur ervan",
+      "de leverbon ervan",
+      "de creditnota ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerst weten wat het kost, dan pas bestellen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk document komt als laatste bij een aankoop?",
+     "opties": [
+      "de factuur",
+      "de offerte ervan",
+      "de bestelbon ervan",
+      "de prijsaanvraag"
+     ],
+     "antwoord": 0,
+     "uitleg": "Tenzij er nog een creditnota volgt omdat er iets terug moet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom vergelijk je de leverbon met de bestelbon?",
+     "opties": [
+      "om te zien of alles er is",
+      "om de prijs te verhogen",
+      "om de btw te berekenen",
+      "om reclame te maken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wat besteld werd, moet ook geleverd zijn, in dezelfde aantallen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het nagaan of twee documenten met elkaar kloppen? Eén woord.",
+     "antwoord": [
+      "controleren",
+      "nakijken",
+      "vergelijken"
+     ],
+     "uitleg": "Controleren op onderlinge overeenstemming."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een factuur controleer je tegen de bestelbon en de leverbon.",
+     "antwoord": true,
+     "uitleg": "Zo zie je of je betaalt voor wat je besteld hebt en ook gekregen hebt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een factuur mag je zonder controle boeken en betalen.",
+     "antwoord": false,
+     "uitleg": "Een fout die je niet opmerkt, betaal je zelf."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je als de factuur een hoger bedrag vermeldt dan de offerte?",
+     "opties": [
+      "de leverancier contacteren",
+      "gewoon betalen ervan",
+      "de factuur wissen ervan",
+      "de goederen houden"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je vraagt uitleg en zo nodig een creditnota."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent documenten narekenen?",
+     "opties": [
+      "de bedragen nagaan",
+      "de kleuren nagaan",
+      "de namen nagaan",
+      "de datums wissen"
+     ],
+     "antwoord": 0,
+     "uitleg": "De aantallen maal de prijzen, de kortingen, de btw en het totaal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke afdeling krijgt de factuur van de leverancier?",
+     "opties": [
+      "de boekhouding",
+      "de marketing ervan",
+      "de IT-afdeling ervan",
+      "de HR-afdeling ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zij boekt de factuur en volgt de betaling op."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat controleer je op een inkomende factuur?",
+     "opties": [
+      "de geleverde aantallen",
+      "de afgesproken prijzen",
+      "de berekening van de btw",
+      "de kleur van het logo"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "En of de kortingen uit de offerte er echt op staan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke afdelingen zijn betrokken bij de documentenstroom van een aankoop?",
+     "opties": [
+      "aankoop, logistiek, boekhouding",
+      "enkel de boekhouding ervan",
+      "enkel de marketing ervan",
+      "enkel de IT-afdeling ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "De aankoop bestelt, de logistiek ontvangt, de boekhouding boekt en betaalt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een goede controle van documenten voorkomt dat je te veel betaalt.",
+     "antwoord": true,
+     "uitleg": "En ze voorkomt dat je een levering betaalt die nooit is aangekomen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De documentenstroom bij een verkoop is helemaal anders dan bij een aankoop.",
+     "antwoord": false,
+     "uitleg": "Het zijn dezelfde documenten; enkel je rol wisselt van koper naar verkoper."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk document maakt de verkoper als de klant goederen terugstuurt? Hoogstens drie woorden.",
+     "antwoord": [
+      "creditnota",
+      "een creditnota",
+      "kredietnota"
+     ],
+     "uitleg": "Een creditnota."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het doel van documenten controleren?",
+     "opties": [
+      "kwaliteit afleveren",
+      "tijd verliezen ervan",
+      "papier sparen ervan",
+      "sneller verkopen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wie zijn documenten laat kloppen, levert werk af waarop de klant kan bouwen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort bij een correct opgesteld commercieel document?",
+     "opties": [
+      "de juiste gegevens",
+      "een duidelijke datum",
+      "een kloppende berekening",
+      "een mooie achtergrondkleur"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "En een nummer, zodat je het later terugvindt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zet je in een schema van de documentenstroom?",
+     "opties": [
+      "wie wat wanneer stuurt",
+      "hoeveel winst er is",
+      "wie het meest verdient",
+      "welke kleur elk heeft"
+     ],
+     "antwoord": 0,
+     "uitleg": "Met pijlen tussen de klant, de leverancier en de betrokken afdelingen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk verband bestaat er tussen de documenten?",
+     "opties": [
+      "de offerte volgt op de prijsaanvraag",
+      "de bestelbon volgt op de offerte",
+      "de factuur volgt op de levering",
+      "de prijsaanvraag volgt op de factuur"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De prijsaanvraag staat helemaal vooraan, niet achteraan."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het overzicht van welke documenten in welke orde gaan? Eén woord.",
+     "antwoord": [
+      "documentenstroom",
+      "de documentenstroom",
+      "documentstroom"
+     ],
+     "uitleg": "De documentenstroom."
+    }
+   ]
+  },
+  {
+   "titel": "Transport, expeditie en logistiek — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een transportmodus?",
+     "opties": [
+      "een manier van vervoeren",
+      "een soort vrachtwagen",
+      "een soort factuur ervan",
+      "een soort voorraad ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Over de weg, per spoor, over water, door de lucht of via een pijpleiding."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is wegvervoer?",
+     "opties": [
+      "vervoer met vrachtwagens",
+      "vervoer met treinen",
+      "vervoer met schepen",
+      "vervoer met vliegtuigen"
+     ],
+     "antwoord": 0,
+     "uitleg": "De meest gebruikte modus voor korte en middellange afstanden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het grote voordeel van wegvervoer?",
+     "opties": [
+      "tot aan de deur",
+      "het is altijd goedkoop",
+      "het is altijd snel",
+      "het is milieuvriendelijk"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een vrachtwagen kan tot bij de klant rijden; een trein of een schip niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een nadeel van wegvervoer?",
+     "opties": [
+      "de files",
+      "de hoge capaciteit",
+      "de lage prijs ervan",
+      "de grote snelheid"
+     ],
+     "antwoord": 0,
+     "uitleg": "En de uitstoot per ton is hoger dan bij spoor of water."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke transportmodus vervoert goederen over water in het binnenland? Hoogstens drie woorden.",
+     "antwoord": [
+      "binnenscheepvaart",
+      "binnenvaart",
+      "scheepvaart"
+     ],
+     "uitleg": "De binnenscheepvaart."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Luchtvracht is snel maar duur.",
+     "antwoord": true,
+     "uitleg": "Daarom gaat er vooral lichte, dringende of kostbare vracht mee."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Maritiem vervoer is de snelste manier om goederen te vervoeren.",
+     "antwoord": false,
+     "uitleg": "Een zeeschip is het traagst, maar het vervoert enorme volumes voor weinig geld."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat vervoert een pijpleiding?",
+     "opties": [
+      "vloeistof of gas",
+      "pakjes ervan",
+      "mensen ervan",
+      "wagens ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Aardgas, aardolie of water, dag en nacht door zonder chauffeur."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke modus heeft de grootste capaciteit?",
+     "opties": [
+      "maritiem vervoer",
+      "luchtvracht ervan",
+      "wegvervoer ervan",
+      "koerierdienst"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een groot containerschip neemt de lading van duizenden vrachtwagens mee."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke modus kies je voor een dringend klein pakje naar Japan?",
+     "opties": [
+      "luchtvracht",
+      "een zeeschip",
+      "een binnenschip",
+      "een pijpleiding"
+     ],
+     "antwoord": 0,
+     "uitleg": "Duur per kilo, maar in een dag ter plaatse."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn transportmodi?",
+     "opties": [
+      "wegvervoer en spoorvervoer",
+      "binnenscheepvaart en maritiem vervoer",
+      "luchtvracht en pijpleiding",
+      "vervoer met de fiets of te voet"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Zes modi in totaal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarop vergelijk je de transportmodi?",
+     "opties": [
+      "snelheid en kosten",
+      "kleur en vorm ervan",
+      "naam en nummer ervan",
+      "merk en bouwjaar ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "En op bereikbaarheid, capaciteit, de aard van het product en het milieueffect."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Spoorvervoer stoot per ton minder uit dan wegvervoer.",
+     "antwoord": true,
+     "uitleg": "Daarom kiezen ondernemingen voor het spoor waar het kan."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Elke transportmodus kan tot aan de deur van de klant leveren.",
+     "antwoord": false,
+     "uitleg": "Een schip en een trein stoppen bij een terminal; de laatste kilometers gaan over de weg."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke transportmodus is het snelst over grote afstand? Eén woord.",
+     "antwoord": [
+      "luchtvracht",
+      "vliegtuig",
+      "lucht"
+     ],
+     "uitleg": "Luchtvracht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom gebruikt men vaak meerdere modi na elkaar?",
+     "opties": [
+      "elk doet wat hij best kan",
+      "het is altijd goedkoper",
+      "de wet verplicht het ervan",
+      "het is altijd sneller"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een container komt per schip aan en gaat met de trein of de vrachtwagen verder."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarop baseer je de keuze van een transportmiddel?",
+     "opties": [
+      "hoe dringend het is",
+      "wat het product nodig heeft",
+      "wat het mag kosten",
+      "welke kleur de wagen heeft"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "En of de bestemming wel per spoor of over water bereikbaar is."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke modus past bij vers fruit uit Spanje?",
+     "opties": [
+      "gekoeld wegvervoer",
+      "een pijpleiding ervan",
+      "een zeeschip ervan",
+      "een sleepboot ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Snel genoeg en met koeling, zodat het fruit vers aankomt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is waar over maritiem vervoer?",
+     "opties": [
+      "het is traag",
+      "het is goedkoop per ton",
+      "het vervoert grote volumes",
+      "het rijdt tot aan de deur"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Tot aan de deur geraakt enkel het wegvervoer."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke transportmodus gebruikt het spoor? Eén woord.",
+     "antwoord": [
+      "spoorvervoer",
+      "trein",
+      "per trein"
+     ],
+     "uitleg": "Spoorvervoer."
+    }
+   ]
+  },
+  {
+   "titel": "Transport, expeditie en logistiek — deel 2",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een taak van de afdeling expeditie en logistiek?",
+     "opties": [
+      "goederen ontvangen",
+      "lonen berekenen",
+      "reclame maken",
+      "facturen boeken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ontvangen, opslaan, picken, verzenden, transport plannen en voorraad beheren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is picken in een loods?",
+     "opties": [
+      "goederen uithalen",
+      "goederen inladen",
+      "goederen wegen",
+      "goederen tellen"
+     ],
+     "antwoord": 0,
+     "uitleg": "De artikels van een order uit de rekken halen en samenbrengen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is voorraadbeheer?",
+     "opties": [
+      "weten wat je hebt",
+      "weten wat je verkoopt",
+      "weten wat je verdient",
+      "weten wie je klant is"
+     ],
+     "antwoord": 0,
+     "uitleg": "En op tijd bijbestellen, zonder te veel in de rekken te laten staan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een retour?",
+     "opties": [
+      "goederen die terugkomen",
+      "goederen die weggaan",
+      "goederen die verkocht zijn",
+      "goederen die geteld zijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "De klant stuurt terug wat hij niet houdt; de logistiek handelt dat af."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het uit de rekken halen van de goederen van een order? Eén woord.",
+     "antwoord": [
+      "picken",
+      "orderpicken",
+      "uithalen"
+     ],
+     "uitleg": "Picken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een te kleine voorraad kan een verkoop doen mislopen.",
+     "antwoord": true,
+     "uitleg": "Wat je niet in huis hebt, kan je niet leveren."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een zo groot mogelijke voorraad is altijd het beste.",
+     "antwoord": false,
+     "uitleg": "Voorraad kost plaats en geld en kan verouderen; te veel is even slecht als te weinig."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is invoer?",
+     "opties": [
+      "goederen binnenbrengen",
+      "goederen uitvoeren",
+      "goederen doorvoeren",
+      "goederen weggooien"
+     ],
+     "antwoord": 0,
+     "uitleg": "Goederen komen uit het buitenland het land binnen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is uitvoer?",
+     "opties": [
+      "goederen buitenbrengen",
+      "goederen binnenhalen",
+      "goederen doorlaten",
+      "goederen opslaan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Goederen gaan van hier naar een ander land."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is doorvoer?",
+     "opties": [
+      "enkel passeren",
+      "hier blijven ervan",
+      "hier verkopen ervan",
+      "hier maken ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "De goederen gaan door het land zonder er verhandeld te worden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke taken horen bij expeditie en logistiek?",
+     "opties": [
+      "goederen ontvangen en opslaan",
+      "goederen picken en verzenden",
+      "transport plannen en voorraad beheren",
+      "lonen berekenen en uitbetalen"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "En de retour van goederen. Lonen zijn werk voor HR en de boekhouding."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een pakbon?",
+     "opties": [
+      "wat in de zending zit",
+      "wat de zending kost",
+      "wie de klant is ervan",
+      "wie de wagen rijdt"
+     ],
+     "antwoord": 0,
+     "uitleg": "De lijst van de inhoud, zodat de ontvanger kan nakijken of alles er is."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een CMR is een vrachtbrief voor internationaal wegvervoer.",
+     "antwoord": true,
+     "uitleg": "Hij regelt wie waarvoor aansprakelijk is tijdens het transport."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een pakbon en een CMR zijn hetzelfde document.",
+     "antwoord": false,
+     "uitleg": "De pakbon zegt wat erin zit; de CMR is de vervoersovereenkomst tussen de drie partijen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de vrachtbrief bij internationaal wegvervoer? Eén woord.",
+     "antwoord": [
+      "cmr",
+      "de cmr",
+      "vrachtbrief"
+     ],
+     "uitleg": "De CMR."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wie ondertekent een CMR?",
+     "opties": [
+      "de drie partijen",
+      "enkel de klant ervan",
+      "enkel de bank ervan",
+      "enkel de vervoerder"
+     ],
+     "antwoord": 0,
+     "uitleg": "De afzender, de vervoerder en de bestemmeling."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat staat er op een CMR?",
+     "opties": [
+      "de afzender en de bestemmeling",
+      "de aard van de goederen",
+      "het gewicht van de zending",
+      "het loon van de chauffeur"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "En de plaats en datum van inlading en van levering."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een eenvoudige logistieke taak?",
+     "opties": [
+      "een route opstellen",
+      "een factuur boeken",
+      "een loon berekenen",
+      "een vacature maken"
+     ],
+     "antwoord": 0,
+     "uitleg": "En volumes en gewichten berekenen, of een retour afhandelen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is een goede logistiek belangrijk voor de hele onderneming?",
+     "opties": [
+      "de klant krijgt zijn levering op tijd",
+      "de voorraad kost niet te veel",
+      "de verkoop kan beloftes nakomen",
+      "de reclame wordt goedkoper"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De prijs van reclame heeft met de logistiek niets te maken."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk document gaat bij een zending mee en zegt wat erin zit? Eén woord.",
+     "antwoord": [
+      "pakbon",
+      "een pakbon",
+      "paklijst"
+     ],
+     "uitleg": "De pakbon."
+    }
+   ]
+  }
+ ]
+}

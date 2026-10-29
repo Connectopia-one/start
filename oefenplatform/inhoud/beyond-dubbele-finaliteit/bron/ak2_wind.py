@@ -42,7 +42,7 @@ DEEL1 = [
              "anticycloon",
          ],
          antwoord=[0, 1],
-         uitleg="De fiche noemt cycloon, anticycloon, depressie, minimum en maximum. Een depressie, een cycloon en een minimum zijn lage druk; de anticycloon en het maximum zijn juist hoge druk."),
+         uitleg="Een depressie, een cycloon en een minimum zijn lage druk; de anticycloon en het maximum zijn juist hoge druk."),
     dict(type="waarofniet",
          vraag="Wind waait altijd van hoge naar lage luchtdruk.",
          antwoord=True,
@@ -68,7 +68,7 @@ DEEL1 = [
          antwoord=["ITCZ", "itcz"],
          uitleg="De intertropische convergentiezone. Ze schuift met de zon mee naar het noorden en het zuiden."),
     dict(type="meerkeuze",
-         vraag="Welke drukgordels noemt de fiche?",
+         vraag="Welke van deze zijn drukgordels?",
          opties=[
              "het equatoriaal minimum",
              "het subtropisch maximum",
@@ -176,7 +176,7 @@ DEEL2 = [
          antwoord=["isobaren", "isobaar"],
          uitleg="Isobaren. Isothermen horen bij de temperatuur, isohyeten bij de neerslag."),
     dict(type="meerkeuze",
-         vraag="Welke winden noemt de fiche?",
+         vraag="Welke van deze zijn winden?",
          opties=[
              "de passaten",
              "de straalstroom",

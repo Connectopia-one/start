@@ -66,7 +66,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat betekent variabiliteit volgens de bijlage van de vakfiche?",
+        vraag="Wat betekent variabiliteit?",
         opties=[
             "verschillende steekproeven uit dezelfde populatie geven verschillende resultaten",
             "de waarden in een steekproef liggen ver van elkaar",
@@ -197,7 +197,7 @@ DEEL1 = [
             "dat is niet fout, de twee symbolen mogen door elkaar gebruikt worden",
         ],
         antwoord=0,
-        uitleg="De fiche zegt uitdrukkelijk dat andere notaties als foutief gelden. Dit onderscheid kost dus punten.",
+        uitleg="Andere notaties gelden op het examen als foutief. Dit onderscheid kost dus punten.",
     ),
 ]
 
@@ -334,7 +334,7 @@ DEEL2 = [
             "omdat je anders met de binomiale verdeling moet rekenen in plaats van met de normale",
         ],
         antwoord=0,
-        uitleg="De fiche vraagt het ook letterlijk als leerdoel: je controleert of de voorwaarden voldaan zijn.",
+        uitleg="Precies: je controleert of de voorwaarden voldaan zijn.",
     ),
     dict(
         type="invultekst",

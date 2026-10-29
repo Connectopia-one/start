@@ -35,7 +35,7 @@ Deel 2 is de herverdeling, fiscaal en sociaal.
 DEEL1 = [
     dict(
         type="meerkeuze",
-        vraag="Op welk principe steunt de sociale zekerheid volgens de fiche?",
+        vraag="Op welk principe steunt de sociale zekerheid?",
         opties=[
             "solidariteit",
             "winst",
@@ -59,7 +59,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Door wie wordt de RSZ volgens de fiche gefinancierd?",
+        vraag="Door wie wordt de RSZ gefinancierd?",
         opties=[
             "door de werkgevers, de werknemers en de overheid",
             "enkel door de werkgevers",
@@ -79,7 +79,7 @@ DEEL1 = [
             "een ziekte- en invaliditeitsuitkering",
         ],
         antwoord=0,
-        uitleg="Werkloosheid is een van de zes types in het rijtje van de fiche.",
+        uitleg="Werkloosheid is een van de zes types.",
     ),
     dict(
         type="meerkeuze",
@@ -115,7 +115,7 @@ DEEL1 = [
             "een ziekte- en invaliditeitsuitkering",
         ],
         antwoord=0,
-        uitleg="De fiche noemt rust- en overlevingspensioenen samen. Het overlevingspensioen is voor de partner na een overlijden.",
+        uitleg="Rust- en overlevingspensioenen horen samen. Het overlevingspensioen is voor de partner na een overlijden.",
     ),
     dict(
         type="meerkeuze",
@@ -167,19 +167,19 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Het jaarlijks vakantiegeld staat volgens de fiche bij de uitkeringen binnen de sociale zekerheid.",
+        vraag="Het jaarlijks vakantiegeld staat bij de uitkeringen binnen de sociale zekerheid.",
         antwoord=True,
         uitleg="Het staat in het rijtje van zes, al is het een aanvullend inkomen en geen vervangingsinkomen.",
     ),
     dict(
         type="waarofniet",
-        vraag="Een arbeidsongeval en een beroepsziekte zijn volgens de fiche hetzelfde.",
+        vraag="Een arbeidsongeval en een beroepsziekte zijn hetzelfde.",
         antwoord=False,
         uitleg="Twee verschillende types uitkering: het ene komt van een ongeval, het andere van het werk zelf over langere tijd.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke uitkeringen noemt de fiche binnen de sociale zekerheid?",
+        vraag="Welke van deze zijn uitkeringen binnen de sociale zekerheid?",
         opties=[
             "de werkloosheidsuitkering",
             "de ziekte- en invaliditeitsuitkering",
@@ -230,7 +230,7 @@ DEEL1 = [
             "een arbeidsongevallenuitkering",
         ],
         antwoord=0,
-        uitleg="De fiche noemt rust- en overlevingspensioenen samen als één type uitkering.",
+        uitleg="Rust- en overlevingspensioenen zijn samen één type uitkering.",
     ),
 ]
 
@@ -245,7 +245,7 @@ DEEL2 = [
             "de overheid verdeelt het werk over de bedrijven",
         ],
         antwoord=0,
-        uitleg="De fiche koppelt herverdeling aan het beperken van de sociale ongelijkheid.",
+        uitleg="Herverdeling dient om de sociale ongelijkheid te beperken.",
     ),
     dict(
         type="meerkeuze",
@@ -257,7 +257,7 @@ DEEL2 = [
             "tijdelijke en blijvende maatregelen",
         ],
         antwoord=0,
-        uitleg="De fiche deelt het rijtje in die twee groepen op.",
+        uitleg="Het rijtje valt in die twee groepen uiteen.",
     ),
     dict(
         type="meerkeuze",
@@ -273,7 +273,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe werkt de progressieve belasting volgens de fiche in de praktijk?",
+        vraag="Hoe werkt de progressieve belasting in de praktijk?",
         opties=[
             "via belastingschijven",
             "via een vast tarief voor iedereen",
@@ -281,7 +281,7 @@ DEEL2 = [
             "via de btw op aankopen",
         ],
         antwoord=0,
-        uitleg="Belastingschijven staan letterlijk in de fiche bij de progressieve personenbelasting.",
+        uitleg="Belastingschijven horen bij de progressieve personenbelasting.",
     ),
     dict(
         type="meerkeuze",
@@ -329,7 +329,7 @@ DEEL2 = [
             "een indirecte belasting",
         ],
         antwoord=0,
-        uitleg="Kansentarieven voor sport en cultuur staan in het sociale rijtje van de fiche.",
+        uitleg="Kansentarieven voor sport en cultuur zijn een sociale maatregel.",
     ),
     dict(
         type="meerkeuze",
@@ -353,7 +353,7 @@ DEEL2 = [
             "zodat dure producten vrijgesteld blijven",
         ],
         antwoord=0,
-        uitleg="Daarom staat deze maatregel in de fiche bij de fiscale herverdeling.",
+        uitleg="Daarom is deze maatregel een fiscale herverdeling.",
     ),
     dict(
         type="waarofniet",
@@ -363,7 +363,7 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Het leefloon is volgens de fiche een sociale bijstandsuitkering.",
+        vraag="Het leefloon is een sociale bijstandsuitkering.",
         antwoord=True,
         uitleg="Zo staat het er, in het rijtje van de sociale herverdelingsmaatregelen.",
     ),
@@ -375,13 +375,13 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Uitkeringen zoals pensioenen hebben volgens de fiche een herverdelingseffect.",
+        vraag="Uitkeringen zoals pensioenen hebben een herverdelingseffect.",
         antwoord=True,
         uitleg="Ze staan met zoveel woorden in het sociale rijtje als uitkeringen met herverdelingseffect.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze noemt de fiche als fiscale herverdelingsmaatregel?",
+        vraag="Welke van deze zijn fiscale herverdelingsmaatregelen?",
         opties=[
             "de progressieve personenbelasting via belastingschijven",
             "belastingvrijstellingen en -verminderingen",
@@ -394,7 +394,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze noemt de fiche als sociale herverdelingsmaatregel?",
+        vraag="Welke van deze zijn sociale herverdelingsmaatregelen?",
         opties=[
             "sociale woningen en huurpremies",
             "de accijnzen op brandstof",
@@ -412,7 +412,7 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Welke sociale bijstandsuitkering noemt de fiche voor wie geen inkomen heeft?",
+        vraag="Welke sociale bijstandsuitkering krijgt wie geen inkomen heeft?",
         antwoord=["leefloon", "het leefloon"],
         uitleg="Het staat vooraan in het rijtje van de sociale herverdelingsmaatregelen.",
     ),

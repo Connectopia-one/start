@@ -781,7 +781,7 @@
             "kleurloos"
           ],
           "antwoord": 0,
-          "uitleg": "Cl₂ is een geelgroen gas met een scherpe geur. Die kleur is een van de weinige die de fiche uitdrukkelijk vraagt."
+          "uitleg": "Cl₂ is een geelgroen gas met een scherpe geur. Die kleur moet je kennen."
         },
         {
           "type": "meerkeuze",
@@ -3695,7 +3695,7 @@
           "type": "waarofniet",
           "vraag": "Een binding met een verschil in elektronegativiteit van \\(0{,}2\\) is polair.",
           "antwoord": false,
-          "uitleg": "De afspraak van de fiche legt de grens op \\(0{,}4\\). Onder die waarde geldt de binding als apolair."
+          "uitleg": "De afspraak legt de grens op \\(0{,}4\\). Onder die waarde geldt de binding als apolair."
         },
         {
           "type": "waarofniet",
@@ -4301,7 +4301,7 @@
             "een hydroxide"
           ],
           "antwoord": 0,
-          "uitleg": "Dat is een van de reactiepatronen van de fiche. Roest is zo een metaaloxide van ijzer."
+          "uitleg": "Dat is een van de reactiepatronen. Roest is zo een metaaloxide van ijzer."
         },
         {
           "type": "meerkeuze",
@@ -4553,7 +4553,7 @@
           "type": "waarofniet",
           "vraag": "Als je naar de stofhoeveelheid gevraagd wordt, bedoelt men de massa in gram.",
           "antwoord": false,
-          "uitleg": "De fiche spreekt dat uitdrukkelijk af: met stofhoeveelheid wordt het aantal mol bedoeld. Anders staat er expliciet massa of aantal deeltjes."
+          "uitleg": "Afspraak: met stofhoeveelheid wordt het aantal mol bedoeld. Anders staat er expliciet massa of aantal deeltjes."
         },
         {
           "type": "waarofniet",
@@ -4774,7 +4774,7 @@
           "type": "waarofniet",
           "vraag": "Je antwoord op een berekening noteer je met het juiste aantal beduidende cijfers.",
           "antwoord": true,
-          "uitleg": "Een meting is nooit exact, dus mag je antwoord niet nauwkeuriger lijken dan je gegevens. De fiche vraagt dat uitdrukkelijk."
+          "uitleg": "Een meting is nooit exact, dus mag je antwoord niet nauwkeuriger lijken dan je gegevens."
         },
         {
           "type": "invultekst",

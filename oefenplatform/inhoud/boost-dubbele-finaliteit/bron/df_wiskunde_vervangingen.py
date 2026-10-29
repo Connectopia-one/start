@@ -24,7 +24,7 @@ waarheidswaarde, zodat het evenwicht per hoofdstuk blijft kloppen.
 
 VERVANGINGEN = {
     # ── Een opgave aanpakken — deel 1
-    "Welke vaardigheid noemt de fiche bij ICT-vaardigheid?": dict(
+    "Welke vaardigheid hoort bij ICT-vaardigheid in wiskunde?": dict(
         type="meerkeuze",
         vraag="Welk hulpmiddel mag je op het examen gebruiken bij ICT-vaardigheid?",
         opties=[

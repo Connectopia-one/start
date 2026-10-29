@@ -1,0 +1,231 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Ziek zijn en eerste hulp — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke symptomen wijzen erop dat een kind ziek is?",
+     "opties": [
+      "koorts",
+      "braken",
+      "veel honger hebben",
+      "een nieuwe jas"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Koorts, braken en geen zin om te spelen zijn symptomen van ziek zijn. Een nieuwe jas zegt niets over gezondheid, en veel honger hebben is juist een goed teken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is koorts?",
+     "opties": [
+      "een hoge temperatuur",
+      "een lage bloeddruk erbij",
+      "een snelle ademhaling erbij",
+      "een pijn in de buik erbij"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het lichaam zet zijn temperatuur hoger om ziektekiemen te bestrijden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je eerst als een kind zich ziek voelt?",
+     "opties": [
+      "je vraagt hoe het voelt",
+      "je laat het maar doorgaan",
+      "je geeft meteen een pil erbij",
+      "je stuurt het naar de school"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerst kijken en vragen wat er is. Zo weet je wat het kind nodig heeft."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe ondersteun je een kind met diarree?",
+     "opties": [
+      "je laat het veel drinken",
+      "je geeft het minder drinken",
+      "je laat het veel springen",
+      "je geeft het veel snoepjes"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij diarree verliest het lichaam veel vocht. Dat moet bijgevuld worden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is vermoeidheid een symptoom?",
+     "opties": [
+      "het lichaam vecht",
+      "het kind is enkel lui erbij",
+      "het is nooit belangrijk erbij",
+      "het hoort bij elke dag erbij"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het lichaam gebruikt zijn energie om beter te worden, dus er blijft minder over."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent beperkt zijn in het zelfstandig functioneren?",
+     "opties": [
+      "het lukt niet alleen",
+      "het lukt juist heel goed",
+      "het kind is heel actief",
+      "het kind slaapt heel diep"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wat iemand normaal zelf doet, zoals zich wassen of aankleden, lukt tijdelijk niet meer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke gezondheidsproblemen komen vaak voor bij jongeren?",
+     "opties": [
+      "slaaptekort",
+      "rugklachten",
+      "stress en faalangst",
+      "een gebroken arm",
+      "te weinig bewegen"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Een gebroken arm is een ongeval, geen vaak voorkomend gezondheidsprobleem."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat kan een allergie uitlokken?",
+     "opties": [
+      "huisstofmijt",
+      "een warme trui erbij",
+      "een koude kamer erbij",
+      "een lange wandeling erbij"
+     ],
+     "antwoord": 0,
+     "uitleg": "Pollen, huisstofmijt en dierenhaar zijn de bekendste uitlokkers."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe voorkom je gebitsproblemen?",
+     "opties": [
+      "twee keer per dag poetsen",
+      "elke dag veel snoep eten",
+      "nooit naar de tandarts gaan",
+      "enkel water op de tanden"
+     ],
+     "antwoord": 0,
+     "uitleg": "Twee keer per dag poetsen, weinig zoete dranken en jaarlijks naar de tandarts."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe voorkom je rugklachten op school?",
+     "opties": [
+      "een goede houding",
+      "de boekentas op één schouder",
+      "een stoel zonder rugleuning",
+      "heel de dag stil blijven zitten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Rechtop zitten, de tas op twee schouders en regelmatig even rechtstaan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat helpt tegen slaaptekort?",
+     "opties": [
+      "op tijd gaan slapen",
+      "langer op de gsm kijken",
+      "in de namiddag koffie drinken",
+      "laat nog een film beginnen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een vast uur en geen scherm het laatste uur voor het slapen helpen het meest."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat helpt tegen faalangst?",
+     "opties": [
+      "op tijd beginnen leren",
+      "de toets ontlopen erbij",
+      "er met niemand over praten",
+      "alles de avond voordien doen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Goed voorbereid zijn en erover praten nemen een groot deel van de spanning weg."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe voorkom je overgewicht?",
+     "opties": [
+      "genoeg bewegen",
+      "gezond eten",
+      "elke dag op de weegschaal staan",
+      "veel zitten"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Genoeg bewegen, gezond eten en water drinken in plaats van frisdrank helpen. Veel zitten werkt overgewicht in de hand, en elke dag wegen helpt niet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Misselijkheid is een symptoom van ziek zijn.",
+     "antwoord": true,
+     "uitleg": "Misselijkheid staat in het rijtje samen met braken, diarree, koorts en pijn."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een condoom helpt om een soa te voorkomen.",
+     "antwoord": true,
+     "uitleg": "Een condoom is de belangrijkste bescherming tegen seksueel overdraagbare aandoeningen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Stress hoort er bij jongeren gewoon bij en vraagt geen aandacht.",
+     "antwoord": false,
+     "uitleg": "Stress en faalangst zijn gezondheidsproblemen die je kan voorkomen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Wie koorts heeft, moet vooral veel bewegen.",
+     "antwoord": false,
+     "uitleg": "Bij koorts heeft het lichaam rust en vocht nodig."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je een verhoogde lichaamstemperatuur bij ziekte? Eén woord.",
+     "antwoord": [
+      "koorts",
+      "de koorts"
+     ],
+     "uitleg": "Koorts."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke allergie krijg je van stuifmeel in de lente? Hoogstens drie woorden.",
+     "antwoord": [
+      "hooikoorts",
+      "pollenallergie",
+      "allergie voor pollen"
+     ],
+     "uitleg": "Hooikoorts, een allergie voor pollen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Waar staat de afkorting soa voor? Hoogstens drie woorden.",
+     "antwoord": [
+      "seksueel overdraagbare aandoening",
+      "seksueel overdraagbare aandoeningen"
+     ],
+     "uitleg": "Een seksueel overdraagbare aandoening."
+    }
+   ]
+  }
+ ]
+}

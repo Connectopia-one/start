@@ -28,7 +28,7 @@ DEEL1 = [
                  "de hydrosfeer",
                  "de lithosfeer"],
          antwoord=0,
-         uitleg="Troposfeer, stratosfeer, mesosfeer: zo noemt de fiche ze. De hydrosfeer en de lithosfeer zijn geen lagen van de atmosfeer."),
+         uitleg="Troposfeer, stratosfeer, mesosfeer, thermosfeer. De hydrosfeer en de lithosfeer zijn geen lagen van de atmosfeer."),
     dict(type="invultekst",
          vraag="Welk gas maakt ongeveer 78 procent van de lucht uit? Eén woord.",
          antwoord=["stikstof"],
@@ -122,7 +122,7 @@ DEEL1 = [
          antwoord=0,
          uitleg="Het stukje dichter bij de zon is niets op honderdvijftig miljoen kilometer. Wat telt is dat de verwarmde grond ver onder je ligt."),
     dict(type="meerkeuze",
-         vraag="Welke lagen van de atmosfeer noemt de fiche?",
+         vraag="Welke van deze zijn lagen van de atmosfeer?",
          opties=[
              "de troposfeer",
              "de stratosfeer",
@@ -176,7 +176,7 @@ DEEL2 = [
          antwoord=["isothermen", "isotherm"],
          uitleg="Isothermen. Staan ze dicht bij elkaar, dan verandert de temperatuur snel over een korte afstand."),
     dict(type="meerkeuze",
-         vraag="Welke factoren noemt de fiche als geografisch?",
+         vraag="Welke van deze zijn geografische factoren voor de temperatuur?",
          opties=[
              "de hoogteligging",
              "de zeestromen",
@@ -211,7 +211,7 @@ DEEL2 = [
          antwoord=["maritiem", "zeeklimaat"],
          uitleg="Een maritiem klimaat of zeeklimaat. Ver van de zee krijg je een landklimaat of continentaal klimaat."),
     dict(type="meerkeuze",
-         vraag="Welke lokale factoren noemt de fiche?",
+         vraag="Welke van deze zijn lokale factoren voor de temperatuur?",
          opties=[
              "de vegetatie",
              "de bodem",

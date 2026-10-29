@@ -41,7 +41,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wie noemt de fiche de grondlegger van de trektheoretische benadering?",
+        vraag="Wie is de grondlegger van de trektheoretische benadering?",
         opties=[
             "Gordon Allport",
             "Hans Eysenck",
@@ -62,7 +62,7 @@ DEEL1 = [
             "secundaire trekken",
         ],
         antwoord=[0, 1, 4],
-        uitleg="Cardinale, centrale en secundaire trekken. Primaire en perifere trekken staan niet in de fiche.",
+        uitleg="Cardinale, centrale en secundaire trekken. Primaire en perifere trekken horen er niet bij.",
     ),
     dict(
         type="meerkeuze",
@@ -231,7 +231,7 @@ DEEL1 = [
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Wie staan in de fiche bij de Big Five?",
+        vraag="Wie horen bij de Big Five?",
         opties=[
             "Costa en McCrae",
             "Lee en Ashton",
@@ -293,7 +293,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe noemt de fiche de vijfde factor van de Big Five?",
+        vraag="Hoe heet de vijfde factor van de Big Five?",
         opties=[
             "emotionele stabiliteit versus neuroticisme",
             "integriteit versus volstrekte oneerlijkheid",
@@ -301,7 +301,7 @@ DEEL2 = [
             "openheid versus geslotenheid",
         ],
         antwoord=0,
-        uitleg="De fiche zet die factor met twee polen: emotionele stabiliteit aan de ene kant, neuroticisme aan de andere.",
+        uitleg="Die factor heeft twee polen: emotionele stabiliteit aan de ene kant, neuroticisme aan de andere.",
     ),
     dict(
         type="invultekst",
@@ -323,7 +323,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wie staan in de fiche bij het HEXACO-model?",
+        vraag="Wie horen bij het HEXACO-model?",
         opties=[
             "Kibeom Lee en Michael Ashton",
             "Costa en McCrae",
@@ -371,7 +371,7 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="De factor die HEXACO extra heeft tegenover de Big Five, heet in de fiche de ...",
+        vraag="De factor die HEXACO extra heeft tegenover de Big Five, heet de ...",
         antwoord=["integriteit"],
         uitleg="De integriteit. In het Engels staat er honesty-humility.",
     ),
@@ -392,7 +392,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="HEXACO gebruikt het woord emotionaliteit waar de Big Five over neuroticisme spreekt.",
         antwoord=True,
-        uitleg="Waar. De fiche noemt de HEXACO-factor Emotionality en vertaalt ze als emotionaliteit.",
+        uitleg="Waar. De HEXACO-factor Emotionality vertaal je als emotionaliteit.",
     ),
     dict(
         type="waarofniet",

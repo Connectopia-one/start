@@ -113,7 +113,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe stel je volgens de fiche een frequentietabel op bij een grote dataset?",
+        vraag="Hoe stel je een frequentietabel op bij een grote dataset?",
         opties=[
             "met ICT, dus met de rekenapps van de examencommissie",
             "met de hand, want tellen kan een rekenapp niet",
@@ -121,7 +121,7 @@ DEEL1 = [
             "door de dataset eerst te standaardiseren met de formule",
         ],
         antwoord=0,
-        uitleg="Bij duizenden gegevens is tellen met de hand onbegonnen werk. De fiche vraagt het dan ook met ICT.",
+        uitleg="Bij duizenden gegevens is tellen met de hand onbegonnen werk. Dat doe je dus met ICT.",
     ),
     dict(
         type="invultekst",

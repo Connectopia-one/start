@@ -26,6 +26,12 @@ antwoord, en tussen 35 en 65 procent van de waar-of-niet-vragen op waar. Een
 verschil van vijf letters of minder telt niet mee als "langer": dat ziet een
 kind toch niet, en bij getalantwoorden gaf dat vals alarm.
 
+Daarnaast mag het woord "fiche" of "vakfiche" niet in een vraag, optie of
+uitleg staan. Een kind kent de vakfiche niet, en een vraag als "welke X noemt
+de vakfiche?" toetst geen leerstof. Een testouder meldde dat op 29 oktober 2026.
+De fiscale fiche 281.10, de loonfiche en de veiligheidsfiche zijn echte
+documenten en mogen wel.
+
 De bouwscripts van de vakken met een bronbestand doen deze controle zelf. Dit
 script dient voor de vakken die rechtstreeks als JSON bijgehouden worden, en om
 alles in één keer na te tellen.
@@ -33,6 +39,7 @@ alles in één keer na te tellen.
 import glob
 import json
 import pathlib
+import re
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -106,9 +113,30 @@ def tel(hoofdstuk):
     return langst, len(mk), sum(1 for a in wn if a), len(wn), aantallen, sluit_juist, sluit_totaal
 
 
+FICHE = re.compile(r"(?<![a-zà-ü])(vak)?fiche", re.I)
+ECHTE_FICHE = re.compile(r"281|loonfiche|veiligheidsfiche|fiscale fiche", re.I)
+
+
+def fiche_meldingen(hoofdstuk):
+    """Vragen die naar de vakfiche verwijzen in plaats van naar de leerstof."""
+    uit = []
+    for v in hoofdstuk.get("vragen", []):
+        teksten = [v.get("vraag", ""), v.get("uitleg", "")] + [
+            o for o in (v.get("opties") or []) if isinstance(o, str)
+        ]
+        alles = " ".join(t for t in teksten if isinstance(t, str))
+        if FICHE.search(alles) and not ECHTE_FICHE.search(alles):
+            uit.append(
+                f"{hoofdstuk['titel']}: noemt de (vak)fiche: {v.get('vraag', '')[:70]}"
+            )
+    return uit
+
+
 def controleer(pad):
     data = json.loads(pathlib.Path(pad).read_text(encoding="utf-8"))
     meldingen = []
+    for h in data.get("hoofdstukken", []):
+        meldingen += fiche_meldingen(h)
     tl = tm = tw = tt = sj = st = 0
     totaal_aantallen = {}
     for h in data.get("hoofdstukken", []):

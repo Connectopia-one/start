@@ -16,7 +16,7 @@ werken betekent en wat je op het examen wel en niet bij je mag hebben.
 DEEL1 = [
     dict(
         type="meerkeuze",
-        vraag="Welke vier stappen doorloop je volgens de vakfiche bij een probleem?",
+        vraag="Welke vier stappen doorloop je bij een probleem?",
         opties=[
             "begrijp het probleem, maak een plan, voer het plan uit, reflecteer",
             "lees de vraag, zoek de formule, vul in, schrijf het antwoord netjes op",
@@ -52,7 +52,7 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een probleem is in de vakfiche iets anders dan een vraagstuk.",
+        vraag="Een probleem is iets anders dan een vraagstuk.",
         antwoord=True,
         uitleg="Een vraagstuk los je op met de leerstof van één hoofdstuk. Bij een probleem combineer je hoofdstukken.",
     ),
@@ -66,7 +66,7 @@ DEEL1 = [
             "een opgave waarvoor je de rekenapps van de examencommissie nodig hebt",
         ],
         antwoord=0,
-        uitleg="De fiche zegt bij elk leerdoel of je het met context, zonder context, of allebei moet kunnen.",
+        uitleg="Bij elk leerdoel staat of je het met context, zonder context, of allebei moet kunnen.",
     ),
     dict(
         type="invultekst",
@@ -90,7 +90,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Een schets of tabel maken telt niet mee als wiskundig werk.",
         antwoord=False,
-        uitleg="De fiche noemt een schets, tekening of tabel als eerste heuristiek. Het is wiskundig werk.",
+        uitleg="Een schets, tekening of tabel is de eerste heuristiek. Het is wiskundig werk.",
     ),
     dict(
         type="meerkeuze",
@@ -150,13 +150,13 @@ DEEL1 = [
             "omdat een gok even veel punten oplevert als een uitgewerkte berekening",
         ],
         antwoord=0,
-        uitleg="De fiche noemt het letterlijk: schatten, slim gissen en missen, testen, controleren.",
+        uitleg="Schatten, slim gissen en missen, testen, controleren.",
     ),
     dict(
         type="waarofniet",
-        vraag="Taalvaardigheid hoort niet bij de vaardigheden die de vakfiche statistiek noemt.",
+        vraag="Taalvaardigheid hoort niet bij de vaardigheden in statistiek.",
         antwoord=False,
-        uitleg="De fiche noemt taalvaardigheid, rekenvaardigheid en ICT-vaardigheid uitdrukkelijk samen.",
+        uitleg="Taalvaardigheid, rekenvaardigheid en ICT-vaardigheid horen samen.",
     ),
     dict(
         type="meerkeuze",
@@ -174,7 +174,7 @@ DEEL1 = [
         type="invultekst",
         vraag="Hoe noem je een opgave die abstract en zuiver wiskundig is? Vul aan: een opgave ... context.",
         antwoord=["zonder"],
-        uitleg="De fiche onderscheidt opgaven met context en opgaven zonder context, en zegt per leerdoel welke van de twee.",
+        uitleg="Er zijn opgaven met context en opgaven zonder context, en per leerdoel staat welke van de twee.",
     ),
     dict(
         type="meerkeuze",
@@ -192,7 +192,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Een opgave kan zowel met als zonder context gesteld worden, afhankelijk van het leerdoel.",
         antwoord=True,
-        uitleg="De fiche vermeldt bij elk leerdoel welke van de twee, en soms allebei.",
+        uitleg="Bij elk leerdoel staat welke van de twee, en soms allebei.",
     ),
     dict(
         type="meerkeuze",
@@ -211,7 +211,7 @@ DEEL1 = [
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Welke hulpmiddelen mag je volgens de vakfiche gebruiken tijdens het examen statistiek?",
+        vraag="Welke hulpmiddelen mag je gebruiken tijdens het examen statistiek?",
         opties=[
             "de rekenapps van de examencommissie en een online wetenschappelijk rekentoestel",
             "je eigen grafisch rekentoestel en een samenvatting van één bladzijde",
@@ -241,7 +241,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarvoor moet je volgens de fiche ICT kunnen gebruiken bij statistiek?",
+        vraag="Waarvoor moet je ICT kunnen gebruiken bij statistiek?",
         opties=[
             "grafische voorstellingen maken, kengetallen berekenen en een onderzoek uitvoeren",
             "enkel om de grafieken te tekenen, want rekenen moet altijd met de hand",
@@ -249,13 +249,13 @@ DEEL2 = [
             "voor alles, want bij statistiek hoef je niets meer zelf uit te rekenen",
         ],
         antwoord=0,
-        uitleg="De fiche zet die drie naast elkaar, en zegt per leerdoel waarvoor ICT nodig is.",
+        uitleg="Die drie staan naast elkaar, en per leerdoel staat waarvoor ICT nodig is.",
     ),
     dict(
         type="waarofniet",
         vraag="Bij functioneel gebruik van ICT moet je je tussenstappen nog altijd uitschrijven.",
         antwoord=True,
-        uitleg="De fiche zegt het bij allebei de iconen: je toont je werkwijze en je redenering, met of zonder ICT.",
+        uitleg="Je toont altijd je werkwijze en je redenering, met of zonder ICT.",
     ),
     dict(
         type="invultekst",
@@ -291,7 +291,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Er is giscorrectie op het examen statistiek.",
         antwoord=False,
-        uitleg="De fiche zegt het uitdrukkelijk: er is geen giscorrectie. Een vraag blanco laten levert dus niets op.",
+        uitleg="Er is geen giscorrectie op het examen. Een vraag blanco laten levert dus niets op.",
     ),
     dict(
         type="meerkeuze",
@@ -367,7 +367,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom staat er een bijlage met begrippen en notaties bij de vakfiche?",
+        vraag="Waarom is een lijst met begrippen en notaties handig?",
         opties=[
             "omdat handboeken en websites verschillende symbolen gebruiken voor hetzelfde",
             "omdat je die bijlage op het examen moet kunnen opzeggen uit het hoofd",

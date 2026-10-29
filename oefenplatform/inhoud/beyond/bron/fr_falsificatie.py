@@ -52,7 +52,7 @@ DEEL1 = [
          antwoord=[0, 1, 4],
          uitleg="Natuurfilosofie redeneerde over de natuur; wetenschap voegt daar een methode, een proef en de eis toe dat anderen je uitspraak kunnen nagaan."),
     dict(type="meerkeuze",
-         vraag="Welke rol speelt Aristoteles volgens de fiche in het ontstaan van de "
+         vraag="Welke rol speelt Aristoteles in het ontstaan van de "
                "wetenschappelijke methode?",
          opties=["hij nam de natuur systematisch waar en bracht ze in soorten onder",
                  "hij verwierp de waarneming en vertrouwde alleen op het denken",
@@ -62,7 +62,7 @@ DEEL1 = [
          uitleg="Aristoteles kijkt naar de natuur en ordent wat hij ziet. Daarmee zet hij "
                 "waarneming en indeling als werkwijze neer."),
     dict(type="meerkeuze",
-         vraag="Welke rol speelt Francis Bacon volgens de fiche?",
+         vraag="Welke rol speelt Francis Bacon?",
          opties=["hij maakte van de proef en de geordende waarneming een echte methode",
                  "hij bewees dat kennis enkel uit het denken kan komen",
                  "hij toonde aan dat een theorie nooit weerlegd kan worden",
@@ -146,10 +146,9 @@ DEEL1 = [
          uitleg="Juist dat is wat een wetenschappelijke houding volgens Popper kenmerkt: je zoekt "
                 "zelf naar wat je ongelijk zou geven."),
     dict(type="waarofniet",
-         vraag="Volgens de fiche droegen Aristoteles, Francis Bacon en Karl Popper elk bij aan de "
-               "ontwikkeling van de wetenschappelijke methode.",
+         vraag="Aristoteles, Francis Bacon en Karl Popper droegen elk bij aan de ontwikkeling van de wetenschappelijke methode.",
          antwoord=True,
-         uitleg="Waar. De fiche noemt die drie namen bij de wetenschappelijke methode."),
+         uitleg="Waar. Die drie namen horen bij de wetenschappelijke methode."),
     dict(type="waarofniet",
          vraag="Demarcatie betekent het bevestigen van een theorie met zoveel mogelijk "
                "voorbeelden.",
@@ -179,11 +178,10 @@ DEEL1 = [
          antwoord=["falsificatie"],
          uitleg="Eén tegenvoorbeeld volstaat om een algemene uitspraak te falsifiëren."),
     dict(type="invultekst",
-         vraag="Welke filosoof uit de oudheid nam volgens de fiche de natuur systematisch waar en "
+         vraag="Welke filosoof uit de oudheid nam de natuur systematisch waar en "
                "bracht ze in soorten onder?",
          antwoord=["Aristoteles"],
-         uitleg="De fiche noemt Aristoteles, Francis Bacon en Karl Popper bij de "
-                "wetenschappelijke methode."),
+         uitleg="Aristoteles, Francis Bacon en Karl Popper horen bij de wetenschappelijke methode."),
 ]
 
 DEEL2 = [
@@ -267,8 +265,7 @@ DEEL2 = [
                  "nadenken over wat je er zelf van vindt",
                  "de tekst vergelijken met een tekst van een andere auteur"],
          antwoord=0,
-         uitleg="Stap 2 is grondig lezen. De maatstaf die de fiche geeft: je moet het daarna met "
-                "eigen woorden aan een vriend kunnen uitleggen."),
+         uitleg="Stap 2 is grondig lezen. De maatstaf: je moet het daarna met eigen woorden aan een vriend kunnen uitleggen."),
     dict(type="meerkeuze",
          vraag="Welke vraag hoort bij stap 3, de reflectie?",
          opties=["welke tegenvoorbeelden kan ik vinden voor deze conclusie?",
@@ -318,7 +315,7 @@ DEEL2 = [
          antwoord=True,
          uitleg="Waar. Dat zijn de drie stappen van bijlage 2."),
     dict(type="invultekst",
-         vraag="Welke filosoof koppelt de fiche aan de falsificatie?",
+         vraag="Welke filosoof hoort bij de falsificatie?",
          antwoord=["Karl Popper", "Popper"],
          uitleg="Popper stelt falsifieerbaarheid voor als maatstaf voor wetenschap."),
     dict(type="invultekst",

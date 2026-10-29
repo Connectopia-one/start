@@ -61,7 +61,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "De vakfiche vraagt om plaatsen absoluut te situeren op één minuut nauwkeurig. Wat is één minuut?",
+          "vraag": "Je situeert plaatsen absoluut op één minuut nauwkeurig. Wat is één minuut?",
           "opties": [
             "een zestigste van een graad",
             "een tiende van een graad",
@@ -154,7 +154,7 @@
             "omdat je er de vragen zelf in terugvindt"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche raadt aan met de atlas te studeren: situeren en gegevens opzoeken is een vaardigheid, geen memoriseerwerk."
+          "uitleg": "Studeer met de atlas: situeren en gegevens opzoeken is een vaardigheid, geen memoriseerwerk."
         },
         {
           "type": "waarofniet",
@@ -197,7 +197,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke hulpbronnen noemt de vakfiche om ruimtelijke processen te onderzoeken?",
+          "vraag": "Welke hulpbronnen gebruik je om ruimtelijke processen te onderzoeken?",
           "opties": [
             "satellietbeelden",
             "klimatogrammen",
@@ -211,7 +211,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche somt onder meer atlas, kaarten, satellietbeelden, foto's, determineertabellen, klimatogrammen en leeftijdshistogrammen op. Een seismogram hoort bij het meten van aardbevingen."
+          "uitleg": "Hulpbronnen zijn onder meer de atlas, kaarten, satellietbeelden, foto's, determineertabellen, klimatogrammen en leeftijdshistogrammen. Een seismogram hoort bij het meten van aardbevingen."
         },
         {
           "type": "waarofniet",
@@ -315,7 +315,7 @@
             0,
             1
           ],
-          "uitleg": "De fiche noemt weersvoorspelling, communicatie, opvolging van bosbranden en observatie van planeten. Aardbevingen en de dikte van de korst meet je met toestellen op en in de grond."
+          "uitleg": "Satellieten dienen voor weersvoorspelling, communicatie, opvolging van bosbranden en observatie van planeten. Aardbevingen en de dikte van de korst meet je met toestellen op en in de grond."
         },
         {
           "type": "waarofniet",
@@ -346,7 +346,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke sferen onderscheidt de vakfiche in het systeem aarde?",
+          "vraag": "Welke sferen onderscheid je in het systeem aarde?",
           "opties": [
             "de geosfeer",
             "de atmosfeer",
@@ -635,18 +635,18 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke scenario's voor de toekomst van het heelal noemt de vakfiche?",
+          "vraag": "Welke van deze zijn scenario's voor de toekomst van het heelal?",
           "opties": [
             "de big crunch",
             "de big rip",
             "de big flash",
-            "de big bounce"
+            "de big splash"
           ],
           "antwoord": [
             0,
             1
           ],
-          "uitleg": "De fiche noemt big crunch, big rip en big chill. Een big bounce en een big flash staan er niet bij."
+          "uitleg": "De scenario's zijn big crunch, big rip en big chill. Een big splash en een big flash bestaan niet."
         },
         {
           "type": "invultekst",
@@ -2566,11 +2566,11 @@
             2,
             4
           ],
-          "uitleg": "Breedte, invalshoek, daglengte en het tijdstip volgen uit rotatie en revolutie. De hoogteligging is volgens de fiche een geografische factor."
+          "uitleg": "Breedte, invalshoek, daglengte en het tijdstip volgen uit rotatie en revolutie. De hoogteligging is een geografische factor."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke geografische factoren noemt de vakfiche bij de temperatuurverdeling?",
+          "vraag": "Welke geografische factoren bepalen de temperatuurverdeling?",
           "opties": [
             "de hoogteligging",
             "de zeestromen",
@@ -2585,7 +2585,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke lokale factoren noemt de vakfiche bij de temperatuur?",
+          "vraag": "Welke lokale factoren spelen mee bij de temperatuur?",
           "opties": [
             "de helling en de vegetatie",
             "de bodem en de bewolking",
@@ -3146,7 +3146,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke oorzaken geeft de vakfiche voor de luchtdrukverschillen en winden op aarde?",
+          "vraag": "Wat veroorzaakt de luchtdrukverschillen en winden op aarde?",
           "opties": [
             "de algemene luchtcirculatie",
             "de ITCZ en de straalstroom",
@@ -3157,7 +3157,7 @@
             0,
             1
           ],
-          "uitleg": "De fiche somt de algemene luchtcirculatie, de ITCZ, de straalstroom, het corioliseffect en de land- en zeewinden op. De getijden en de aantrekkingskracht van de zon spelen geen rol in de lucht."
+          "uitleg": "De oorzaken zijn de algemene luchtcirculatie, de ITCZ, de straalstroom, het corioliseffect en de land- en zeewinden. De getijden en de aantrekkingskracht van de zon spelen geen rol in de lucht."
         },
         {
           "type": "waarofniet",
@@ -3466,7 +3466,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke factoren bepalen volgens de vakfiche de neerslagverdeling op aarde?",
+          "vraag": "Welke factoren bepalen de neerslagverdeling op aarde?",
           "opties": [
             "hoge of lage luchtdruk",
             "de stand van de maan",
@@ -3477,7 +3477,7 @@
             0,
             2
           ],
-          "uitleg": "De fiche noemt drukgebieden, zeestromen, positie ten opzichte van de zee, reliëf, de ligging nabij de ITCZ en de fronten. Ozon en de stand van de maan staan er niet bij."
+          "uitleg": "Drukgebieden, zeestromen, de positie ten opzichte van de zee, reliëf, de ligging nabij de ITCZ en de fronten spelen mee. Ozon en de stand van de maan niet."
         },
         {
           "type": "meerkeuze",
@@ -3545,7 +3545,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten regen onderscheidt de vakfiche?",
+          "vraag": "Welke van deze zijn soorten regen?",
           "opties": [
             "convectieregens",
             "stijgingsregens",
@@ -3746,7 +3746,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke biomen noemt de vakfiche als voorbeeld?",
+          "vraag": "Welke van deze zijn biomen?",
           "opties": [
             "de taiga",
             "de poolwoestijn",
@@ -3760,7 +3760,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche noemt taiga, poolwoestijn, savanne en tropisch regenwoud. Mangrove groeit in de tropen, niet aan de Noordzee."
+          "uitleg": "Taiga, poolwoestijn, savanne en tropisch regenwoud zijn biomen. Mangrove groeit in de tropen, niet aan de Noordzee."
         },
         {
           "type": "meerkeuze",
@@ -3818,7 +3818,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke klimaatgordels noemt de vakfiche bij de culminatiehoogte en de daglengte?",
+          "vraag": "In welke klimaatgordels verschillen de culminatiehoogte en de daglengte sterk over het jaar?",
           "opties": [
             "de polaire klimaten",
             "de gematigde klimaten",
@@ -3829,7 +3829,7 @@
             0,
             1
           ],
-          "uitleg": "De fiche legt het verband tussen culminatiehoogte, daglengte, breedte en temperatuur voor de polaire, de gematigde en de tropische klimaten. Continentale en hooggebergteklimaten staan er niet bij."
+          "uitleg": "Culminatiehoogte, daglengte, breedte en temperatuur hangen samen bij de polaire, de gematigde en de tropische klimaten. Continentale en hooggebergteklimaten horen hier niet bij."
         },
         {
           "type": "meerkeuze",
@@ -3998,7 +3998,7 @@
             0,
             1
           ],
-          "uitleg": "De fiche vraagt naar de mogelijke gevolgen: afkoeling bij ons, verschoven regenpatronen en minder diepwaterzuurstof. De Golfstroom wordt juist zwakker, en de getijden hangen van de maan af, niet van de stromen."
+          "uitleg": "Mogelijke gevolgen zijn afkoeling bij ons, verschoven regenpatronen en minder diepwaterzuurstof. De Golfstroom wordt juist zwakker, en de getijden hangen van de maan af, niet van de stromen."
         },
         {
           "type": "waarofniet",
@@ -4170,7 +4170,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke luchtsoorten noemt de vakfiche?",
+          "vraag": "Welke twee luchtsoorten bepalen het weer in onze streken?",
           "opties": [
             "antarctisch",
             "polair",
@@ -4181,7 +4181,7 @@
             1,
             2
           ],
-          "uitleg": "De fiche noemt arctisch, polair en tropisch, elk in een maritieme en een continentale vorm. Equatoriale en antarctische lucht komt tot bij ons niet."
+          "uitleg": "Bij ons komt arctische, polaire en tropische lucht, elk in een maritieme en een continentale vorm. Equatoriale en antarctische lucht komt tot bij ons niet."
         },
         {
           "type": "meerkeuze",
@@ -4377,7 +4377,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke tekens duidt de fiche op een weerkaart aan?",
+          "vraag": "Wat duidt je aan op een weerkaart?",
           "opties": [
             "koufront en warmtefront",
             "occlusiefront en neerslagzones",
@@ -4391,7 +4391,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche vraagt koufront, warmtefront, occlusiefront, neerslagzones, windrichtingen, drukgebieden, drukkernen, isobaren en isothermen. Hoogtelijnen horen op een topografische kaart."
+          "uitleg": "Op een weerkaart staan koufront, warmtefront, occlusiefront, neerslagzones, windrichtingen, drukgebieden, drukkernen, isobaren en isothermen. Hoogtelijnen horen op een topografische kaart."
         },
         {
           "type": "meerkeuze",
@@ -4639,7 +4639,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke lagen noemt de vakfiche bij de opbouw van de geosfeer?",
+          "vraag": "Welke lagen horen bij de opbouw van de geosfeer?",
           "opties": [
             "lithosfeer en asthenosfeer",
             "korst, mantel en kern",
@@ -4653,7 +4653,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche somt lithosfeer, asthenosfeer, mesosfeer of ondermantel, binnen- en buitenkern, korst, mantel en kern op. Tropo- en stratosfeer horen bij de atmosfeer."
+          "uitleg": "Lithosfeer, asthenosfeer, mesosfeer of ondermantel, binnen- en buitenkern, korst, mantel en kern horen erbij. Tropo- en stratosfeer horen bij de atmosfeer."
         },
         {
           "type": "waarofniet",
@@ -4884,7 +4884,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Op welke punten vergelijkt de vakfiche de continentale met de oceanische korst?",
+          "vraag": "Op welke punten verschilt de continentale van de oceanische korst?",
           "opties": [
             "de dichtheid",
             "de dikte",
@@ -4895,7 +4895,7 @@
             0,
             1
           ],
-          "uitleg": "De fiche vraagt dichtheid, dikte, opbouw en samenstelling te vergelijken. Fossielen horen bij de datering van aardlagen, en bergtoppen zijn geen vergelijkingspunt."
+          "uitleg": "Je vergelijkt dichtheid, dikte, opbouw en samenstelling. Fossielen horen bij de datering van aardlagen, en bergtoppen zijn geen vergelijkingspunt."
         },
         {
           "type": "meerkeuze",
@@ -5151,7 +5151,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten plaatbewegingen noemt de vakfiche?",
+          "vraag": "Welke van deze zijn soorten plaatbewegingen?",
           "opties": [
             "divergentie",
             "convergentie",
@@ -5165,7 +5165,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche noemt divergentie, convergentie, de transforme beweging en, als verticale beweging, de isostasie."
+          "uitleg": "De bewegingen zijn divergentie, convergentie, de transforme beweging en, als verticale beweging, de isostasie."
         },
         {
           "type": "meerkeuze",
@@ -5193,7 +5193,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke begrippen noemt de vakfiche bij de plaatbewegingen?",
+          "vraag": "Welke begrippen horen bij de plaatbewegingen?",
           "opties": [
             "Pangea en Gondwana",
             "mantelpluim en hotspot",
@@ -5204,7 +5204,7 @@
             0,
             1
           ],
-          "uitleg": "De fiche somt Gondwana, Pangea, mantelpluim, hotspot, riftster en subductie op. Isohyeten, isobaren, isothermen en isohypsen horen bij kaarten van het weer en het reliëf."
+          "uitleg": "Gondwana, Pangea, mantelpluim, hotspot, riftster en subductie horen erbij. Isohyeten, isobaren, isothermen en isohypsen horen bij kaarten van het weer en het reliëf."
         },
         {
           "type": "meerkeuze",
@@ -5343,7 +5343,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke reliëfvormen noemt de vakfiche bij de gevolgen van platentektoniek?",
+          "vraag": "Welke reliëfvormen ontstaan door platentektoniek?",
           "opties": [
             "diepzeetrog en oceanische rug",
             "continentaal plat en continentale helling",
@@ -5357,7 +5357,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche noemt onder meer diepzeetrog, oceanische rug, continentaal plat en helling, abyssale vlakte, plooiings-, kust- en continentaal gebergte, slenk en rift. Dolines horen bij karst."
+          "uitleg": "Onder meer diepzeetrog, oceanische rug, continentaal plat en helling, abyssale vlakte, plooiings-, kust- en continentaal gebergte, slenk en rift. Dolines horen bij karst."
         },
         {
           "type": "meerkeuze",
@@ -5662,7 +5662,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke begrippen noemt de vakfiche bij de aardbevingen?",
+          "vraag": "Welke begrippen horen bij aardbevingen?",
           "opties": [
             "seismologie en seismogram",
             "seismograaf",
@@ -5676,7 +5676,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche noemt seismologie, seismogram, seismograaf, hypocentrum, epicentrum, Richter en de MMS. Dolines en resurgenties horen bij karst."
+          "uitleg": "Seismologie, seismogram, seismograaf, hypocentrum, epicentrum, Richter en de MMS horen erbij. Dolines en resurgenties horen bij karst."
         },
         {
           "type": "meerkeuze",
@@ -5850,7 +5850,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten vulkanen vergelijkt de vakfiche?",
+          "vraag": "Welke twee soorten vulkanen vergelijk je?",
           "opties": [
             "de stratovulkaan en de schildvulkaan",
             "de kegelvulkaan en de spleetvulkaan",
@@ -5858,11 +5858,11 @@
             "de hotspotvulkaan en de riftvulkaan"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt uitdrukkelijk om strato- en schildvulkanen te vergelijken: hun vorm, hun lava en hun manier van uitbarsten."
+          "uitleg": "Je vergelijkt strato- en schildvulkanen: hun vorm, hun lava en hun manier van uitbarsten."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vormen van uitgeworpen materiaal noemt de vakfiche?",
+          "vraag": "Welke van deze zijn vormen van uitgeworpen materiaal?",
           "opties": [
             "lapilli",
             "vulkanische bommen",
@@ -5873,7 +5873,7 @@
             0,
             1
           ],
-          "uitleg": "De fiche noemt lapilli, vulkanische bommen, vulkanische as, en daarnaast magma en lava. Druipstenen horen bij karst en duinen bij de wind."
+          "uitleg": "Lapilli, vulkanische bommen en vulkanische as komen eruit, en daarnaast magma en lava. Druipstenen horen bij karst en duinen bij de wind."
         },
         {
           "type": "waarofniet",
@@ -5996,7 +5996,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke losse sedimenten noemt de vakfiche, van grof naar fijn?",
+          "vraag": "Wat is de volgorde van de losse sedimenten, van grof naar fijn?",
           "opties": [
             "grind, zand, silt, klei",
             "klei, silt, zand, grind",
@@ -6101,7 +6101,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke mineralen staan in de bijlage van de vakfiche?",
+          "vraag": "Welke van deze zijn mineralen?",
           "opties": [
             "pyriet en grafiet",
             "diamant en kwarts",
@@ -6115,7 +6115,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche vraagt pyriet, grafiet, diamant, kwarts, veldspaat, biotiet en zout als mineralen. Marmer en gneiss zijn gesteenten, geen mineralen."
+          "uitleg": "Pyriet, grafiet, diamant, kwarts, veldspaat, biotiet en zout zijn mineralen. Marmer en gneiss zijn gesteenten, geen mineralen."
         },
         {
           "type": "waarofniet",
@@ -6334,7 +6334,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke gebergtevormingen noemt de vakfiche?",
+          "vraag": "Welke van deze zijn gebergtevormingen?",
           "opties": [
             "de Caledonische",
             "de Hercynische",
@@ -6345,7 +6345,7 @@
             0,
             1
           ],
-          "uitleg": "De fiche vraagt de Caledonische, de Hercynische en de Alpiene plooiing op de tijdschaal te situeren. Een Pangeïsche of Laurazische plooiing bestaat niet: dat zijn namen van oercontinenten."
+          "uitleg": "Je situeert de Caledonische, de Hercynische en de Alpiene plooiing op de tijdschaal. Een Pangeïsche of Laurazische plooiing bestaat niet: dat zijn namen van oercontinenten."
         },
         {
           "type": "meerkeuze",
@@ -6398,7 +6398,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vormen van verwering noemt de vakfiche?",
+          "vraag": "Welke van deze zijn vormen van verwering?",
           "opties": [
             "fysische verwering",
             "chemische verwering",
@@ -6409,7 +6409,7 @@
             0,
             1
           ],
-          "uitleg": "De fiche vraagt de fysische, chemische en biologische verwering in het landschap te herkennen. Tektoniek en vulkanisme zijn geen verwering maar bewegingen van de korst."
+          "uitleg": "Je herkent de fysische, chemische en biologische verwering in het landschap. Tektoniek en vulkanisme zijn geen verwering maar bewegingen van de korst."
         },
         {
           "type": "meerkeuze",
@@ -6463,7 +6463,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke karstverschijnselen noemt de vakfiche?",
+          "vraag": "Welke van deze zijn karstverschijnselen?",
           "opties": [
             "karren en diaklazen",
             "verdwijngat en resurgentie",
@@ -6475,7 +6475,7 @@
             1,
             2
           ],
-          "uitleg": "De fiche somt karren, diaklaas, verdwijngat, resurgentie, druipstenen, doline en grotten op. Morenen en zwerfkeien horen bij gletsjers."
+          "uitleg": "Karren, diaklaas, verdwijngat, resurgentie, druipstenen, doline en grotten zijn karstverschijnselen. Morenen en zwerfkeien horen bij gletsjers."
         },
         {
           "type": "meerkeuze",
@@ -6588,7 +6588,7 @@
             1,
             2
           ],
-          "uitleg": "De fiche vraagt uitdrukkelijk hoe atmosferische omstandigheden de verwering beïnvloeden: vorst in koude streken, oplossing in warme en vochtige streken, en temperatuurwisseling in een woestijn."
+          "uitleg": "Atmosferische omstandigheden beïnvloeden de verwering: vorst in koude streken, oplossing in warme en vochtige streken, en temperatuurwisseling in een woestijn."
         }
       ]
     },
@@ -6611,7 +6611,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welk paar hoort niet bij het massatransport van de vakfiche?",
+          "vraag": "Welk paar hoort niet bij het massatransport?",
           "opties": [
             "saltatie en suspensie",
             "aardverschuiving en verglijding",
@@ -6619,7 +6619,7 @@
             "bodemcreep en afstorting"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt aardverschuiving, verglijding, modderstroom, steenlawine, bodemcreep en afstorting. Saltatie en suspensie zijn transportwijzen in water en wind."
+          "uitleg": "Vormen zijn aardverschuiving, verglijding, modderstroom, steenlawine, bodemcreep en afstorting. Saltatie en suspensie zijn transportwijzen in water en wind."
         },
         {
           "type": "meerkeuze",
@@ -6675,7 +6675,7 @@
             1,
             2
           ],
-          "uitleg": "De fiche noemt de aard van het gesteente, de hellingsgraad en de hoeveelheid water. Op welke breedte je zit, maakt niet uit."
+          "uitleg": "De aard van het gesteente, de hellingsgraad en de hoeveelheid water spelen mee. Op welke breedte je zit, maakt niet uit."
         },
         {
           "type": "meerkeuze",
@@ -6787,7 +6787,7 @@
             1,
             2
           ],
-          "uitleg": "De fiche vraagt hoe atmosferische omstandigheden het massatransport beïnvloeden: regen, vriezen en dooien, en in het hooggebergte het smelten van permafrost."
+          "uitleg": "Atmosferische omstandigheden beïnvloeden het massatransport: regen, vriezen en dooien, en in het hooggebergte het smelten van permafrost."
         },
         {
           "type": "meerkeuze",
@@ -7115,7 +7115,7 @@
             1,
             2
           ],
-          "uitleg": "De fiche noemt zwerfkei, fjord, bergmeer, stuwwal, morene, gletsjerkras, gletsjerkloof, U-dal en cirque. Dolines en resurgenties horen bij karst."
+          "uitleg": "Zwerfkei, fjord, bergmeer, stuwwal, morene, gletsjerkras, gletsjerkloof, U-dal en cirque horen bij ijs. Dolines en resurgenties horen bij karst."
         },
         {
           "type": "invultekst",
@@ -7198,7 +7198,7 @@
             1,
             2
           ],
-          "uitleg": "De fiche noemt suspensie, saltatie en rollen. Oplossen gebeurt in water, niet in de wind."
+          "uitleg": "De wind vervoert door suspensie, saltatie en rollen. Oplossen gebeurt in water, niet in de wind."
         },
         {
           "type": "meerkeuze",
@@ -7434,7 +7434,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke perioden uit het verleden noemt de vakfiche om met vandaag te vergelijken?",
+          "vraag": "Welke perioden uit het verleden vergelijk je met het klimaat van vandaag?",
           "opties": [
             "het PETM",
             "de jonge dryas",
@@ -7446,7 +7446,7 @@
             1,
             2
           ],
-          "uitleg": "De fiche vraagt uitdrukkelijk de vergelijking met het PETM, de jonge dryas en de kleine ijstijd."
+          "uitleg": "Je vergelijkt met het PETM, de jonge dryas en de kleine ijstijd."
         },
         {
           "type": "waarofniet",
@@ -7527,7 +7527,7 @@
             1,
             2
           ],
-          "uitleg": "De fiche noemt excentriciteit, obliquiteit en precessie. De ozonlaag staat daar niet bij."
+          "uitleg": "De variabelen zijn excentriciteit, obliquiteit en precessie. De ozonlaag hoort daar niet bij."
         },
         {
           "type": "invultekst",
@@ -7610,7 +7610,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke natuurlijke oorzaken van klimaatverandering noemt de vakfiche?",
+          "vraag": "Welke van deze zijn natuurlijke oorzaken van klimaatverandering?",
           "opties": [
             "de Milanković-variabelen",
             "aërosolen en vulkanisme",
@@ -7622,7 +7622,7 @@
             1,
             2
           ],
-          "uitleg": "De fiche noemt de Milanković-variabelen, aërosolen, vulkaanuitbarstingen, de spreiding van de landmassa's en de invloed van Pangea. Steenkool verbranden is een menselijke oorzaak."
+          "uitleg": "Natuurlijke oorzaken zijn de Milanković-variabelen, aërosolen, vulkaanuitbarstingen, de spreiding van de landmassa's en de invloed van Pangea. Steenkool verbranden is een menselijke oorzaak."
         },
         {
           "type": "meerkeuze",

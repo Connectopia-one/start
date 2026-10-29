@@ -151,7 +151,7 @@ DEEL2 = [
                  "had plus -ing",
                  "have plus -ing"],
          antwoord=0,
-         uitleg="I was working, they were working. Met had krijg je de past perfect, en die hoort niet bij deze fiche."),
+         uitleg="I was working, they were working. Met had krijg je de past perfect, en die hoort hier niet bij."),
     dict(type="meerkeuze",
          vraag="Welke vorm past: At eight o'clock last night I ... dinner.",
          opties=["was cooking",

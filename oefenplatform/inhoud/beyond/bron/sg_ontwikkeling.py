@@ -26,7 +26,7 @@ Deel 2 zijn de vijf domeinen en de drie basisvragen.
 DEEL1 = [
     dict(
         type="meerkeuze",
-        vraag="Uit welke drie dingen samen bestaat ontwikkeling volgens de vakfiche?",
+        vraag="Uit welke drie dingen samen bestaat ontwikkeling?",
         opties=[
             "groeien, rijpen en leren",
             "groeien, oefenen en herhalen",
@@ -34,7 +34,7 @@ DEEL1 = [
             "leren, oefenen en onthouden",
         ],
         antwoord=0,
-        uitleg="De fiche vat ontwikkeling samen als een combinatie van groeien, rijpen en leren. Die drie woorden komen bij elke benadering terug.",
+        uitleg="Ontwikkeling is een combinatie van groeien, rijpen en leren. Die drie woorden komen bij elke benadering terug.",
     ),
     dict(
         type="meerkeuze",
@@ -86,15 +86,15 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Het Engelse woord uit de fiche voor de erfelijke kant van ontwikkeling, dus alles wat in je genen zit, is ...",
+        vraag="Het Engelse woord voor de erfelijke kant van ontwikkeling, dus alles wat in je genen zit, is ...",
         antwoord=["nature"],
         uitleg="Nature staat voor de genetische factoren. Nurture staat tegenover nature en betekent alles wat de omgeving aanbrengt.",
     ),
     dict(
         type="invultekst",
-        vraag="Het Engelse woord uit de fiche voor alles wat de omgeving aanbrengt, dus opvoeding, school en vrienden, is ...",
+        vraag="Het Engelse woord voor alles wat de omgeving aanbrengt, dus opvoeding, school en vrienden, is ...",
         antwoord=["nurture"],
-        uitleg="Nurture is de omgevingskant. De fiche zet nature en nurture altijd naast elkaar, nooit tegen elkaar alleen.",
+        uitleg="Nurture is de omgevingskant. Nature en nurture staan altijd naast elkaar, nooit tegen elkaar alleen.",
     ),
     dict(
         type="waarofniet",
@@ -106,11 +106,11 @@ DEEL1 = [
         type="waarofniet",
         vraag="Groeien en rijpen horen bij nature, leren hoort bij nurture.",
         antwoord=True,
-        uitleg="Waar. Dat is precies het verband dat de fiche vraagt: groeien en rijpen komen van binnenuit, leren komt van buitenaf.",
+        uitleg="Waar. Groeien en rijpen komen van binnenuit, leren komt van buitenaf.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel levensloopfasen noemt de vakfiche?",
+        vraag="In hoeveel fasen deel je de levensloop in?",
         opties=[
             "negen",
             "vijf",
@@ -122,7 +122,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke levensloopfase komt in de fiche vlak na de babytijd?",
+        vraag="Welke levensloopfase komt vlak na de babytijd?",
         opties=[
             "de peutertijd",
             "de kleutertijd",
@@ -134,7 +134,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Amira zit in het vierde leerjaar. In welke levensloopfase zit ze volgens de fiche?",
+        vraag="Amira zit in het vierde leerjaar. In welke levensloopfase zit ze?",
         opties=[
             "de midden kindertijd",
             "de vroege kindertijd",
@@ -142,11 +142,11 @@ DEEL1 = [
             "de peutertijd",
         ],
         antwoord=0,
-        uitleg="De midden kindertijd heet in de fiche ook de lagere schoolkindfase.",
+        uitleg="De midden kindertijd heet ook de lagere schoolkindfase.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke naam gebruikt de fiche nog voor de vroege kindertijd?",
+        vraag="Welke naam gebruik je nog voor de vroege kindertijd?",
         opties=[
             "de kleutertijd",
             "de peutertijd",
@@ -154,11 +154,11 @@ DEEL1 = [
             "de schooltijd",
         ],
         antwoord=0,
-        uitleg="De fiche zet er zelf twee namen bij: vroege kindertijd is de kleutertijd, midden kindertijd is de lagere schoolkindfase.",
+        uitleg="Er zijn twee andere namen: vroege kindertijd is de kleutertijd, midden kindertijd is de lagere schoolkindfase.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze fasen zitten volgens de fiche alle drie bij de volwassenheid?",
+        vraag="Welke van deze fasen zitten alle drie bij de volwassenheid?",
         opties=[
             "vroege volwassenheid",
             "midden volwassenheid",
@@ -167,29 +167,29 @@ DEEL1 = [
             "midden kindertijd",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De fiche splitst de volwassenheid in drie: vroege, midden en late volwassenheid. De adolescentie komt ervoor.",
+        uitleg="De volwassenheid valt in drie delen: vroege, midden en late volwassenheid. De adolescentie komt ervoor.",
     ),
     dict(
         type="invultekst",
-        vraag="De fase voor de geboorte heet in de fiche de ... fase.",
+        vraag="De fase voor de geboorte heet de ... fase.",
         antwoord=["prenatale", "prenatale fase"],
         uitleg="De prenatale fase is de eerste van de negen. Ontwikkeling begint dus al voor de geboorte.",
     ),
     dict(
         type="waarofniet",
-        vraag="De adolescentie komt in de fiche na de midden kindertijd en voor de vroege volwassenheid.",
+        vraag="De adolescentie komt na de midden kindertijd en voor de vroege volwassenheid.",
         antwoord=True,
         uitleg="Waar. De adolescentie zit precies tussen de lagere schoolkindfase en de vroege volwassenheid.",
     ),
     dict(
         type="waarofniet",
-        vraag="Volgens de fiche stopt de ontwikkeling van een mens bij het einde van de adolescentie.",
+        vraag="De ontwikkeling van een mens stopt bij het einde van de adolescentie.",
         antwoord=False,
         uitleg="Niet waar. Er komen nog drie fasen na: vroege, midden en late volwassenheid. Ontwikkeling loopt over de hele levensloop.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom spreekt de fiche van levensloopfasen en niet alleen van kinderfasen?",
+        vraag="Waarom spreek je van levensloopfasen en niet alleen van kinderfasen?",
         opties=[
             "omdat een mens zich tot het einde van zijn leven ontwikkelt",
             "omdat elke fase precies even lang duurt bij iedereen",
@@ -228,7 +228,7 @@ DEEL1 = [
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Hoeveel ontwikkelingsdomeinen noemt de vakfiche?",
+        vraag="Hoeveel ontwikkelingsdomeinen onderscheid je?",
         opties=[
             "vijf",
             "drie",
@@ -296,13 +296,13 @@ DEEL2 = [
         type="waarofniet",
         vraag="De vijf ontwikkelingsdomeinen staan los van elkaar: wat in het ene domein gebeurt, heeft geen gevolgen in een ander.",
         antwoord=False,
-        uitleg="Niet waar. De fiche vraagt juist naar de wisselwerking. Wie moeilijk stapt, speelt minder mee, en dat raakt het socio-emotionele domein.",
+        uitleg="Niet waar. Ze staan juist in wisselwerking. Wie moeilijk stapt, speelt minder mee, en dat raakt het socio-emotionele domein.",
     ),
     dict(
         type="waarofniet",
         vraag="Je kan één ontwikkelingsdomein door verschillende levensloopfasen heen volgen en de fasen zo met elkaar vergelijken.",
         antwoord=True,
-        uitleg="Waar. De fiche vraagt dat met zoveel woorden: vergelijk levensloopfasen met elkaar binnen één domein.",
+        uitleg="Waar. Je vergelijkt levensloopfasen met elkaar binnen één domein.",
     ),
     dict(
         type="meerkeuze",
@@ -318,7 +318,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel basisvragen stelt de ontwikkelingspsychologie volgens de fiche?",
+        vraag="Hoeveel basisvragen stelt de ontwikkelingspsychologie?",
         opties=[
             "drie",
             "twee",
@@ -362,7 +362,7 @@ DEEL2 = [
             "zelfstandigheid",
         ],
         antwoord=0,
-        uitleg="De fiche noemt drie dingen: genetische factoren, omgevingsfactoren en zelfbepaling. Een mens kiest ook zelf mee.",
+        uitleg="Er zijn drie dingen: genetische factoren, omgevingsfactoren en zelfbepaling. Een mens kiest ook zelf mee.",
     ),
     dict(
         type="meerkeuze",
@@ -402,7 +402,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom vraagt de fiche om elke benadering aan de drie basisvragen te toetsen?",
+        vraag="Waarom toets je elke benadering aan de drie basisvragen?",
         opties=[
             "omdat je theorieën zo met elkaar kan vergelijken",
             "omdat elke theorie op de drie vragen hetzelfde antwoordt",

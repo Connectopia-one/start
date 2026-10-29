@@ -273,7 +273,7 @@ DEEL2 = [
                  "alle genoemde filosofen vinden geluk de maatstaf van de moraal",
                  "alle genoemde filosofen zien geluk als een gevoel van de dag"],
          antwoord=[0, 1],
-         uitleg="Daarin zit het hele verschil dat de fiche je laat vergelijken."),
+         uitleg="Daarin zit het hele verschil."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over Schopenhauer en De Wachter kloppen?",
          opties=[

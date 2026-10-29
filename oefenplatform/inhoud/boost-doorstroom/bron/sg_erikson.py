@@ -283,7 +283,7 @@ DEEL2 = [
          antwoord=["zorg"],
          uitleg="Zorg: aandacht voor wie na jou komt."),
     dict(type="meerkeuze",
-         vraag="Wat vraagt de vakfiche te doen met een voorbeeld bij Erikson?",
+         vraag="Wat doe je met een voorbeeld bij Erikson?",
          opties=["de fase en de pool benoemen",
                  "de leeftijd exact bepalen",
                  "het gedrag beoordelen",

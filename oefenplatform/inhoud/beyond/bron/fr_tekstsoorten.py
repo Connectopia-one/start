@@ -19,7 +19,7 @@ DEEL1 = [
                  "een prescriptieve tekst",
                  "een narratieve tekst"],
          antwoord=0,
-         uitleg="Een informatieve tekst brengt je iets bij over een onderwerp. De fiche noemt als voorbeeld een krantenartikel, een interview of een aankondiging."),
+         uitleg="Een informatieve tekst brengt je iets bij over een onderwerp, zoals een krantenartikel, een interview of een aankondiging."),
     dict(type="meerkeuze",
          vraag="Lees: « Mélangez la farine et le beurre, puis laissez reposer la pâte 30 minutes. » Welke soort tekst is dit?",
          opties=["een prescriptieve tekst",
@@ -45,7 +45,7 @@ DEEL1 = [
          antwoord=True,
          uitleg="Dat is net het verschil met een opiniërende tekst: hier wordt het standpunt onderbouwd. Een betoog, een essay of een debat hoort erbij."),
     dict(type="meerkeuze",
-         vraag="Welke teksten zijn volgens de fiche narratief?",
+         vraag="Welke teksten zijn narratief?",
          opties=[
              "een reisverslag",
              "een getuigenis",
@@ -79,7 +79,7 @@ DEEL1 = [
          antwoord=False,
          uitleg="Hij geeft informatie, maar met de bedoeling je iets te doen kopen. De bedoeling bepaalt de soort, dus is hij persuasief."),
     dict(type="meerkeuze",
-         vraag="Welke teksten zijn volgens de fiche informatief?",
+         vraag="Welke teksten zijn informatief?",
          opties=[
              "een krantenartikel",
              "een interview",
@@ -110,9 +110,9 @@ DEEL1 = [
          antwoord=0,
          uitleg="À mon avis kondigt een mening aan, en de tweede zin geeft er een argument bij. Zo schuift de tekst van opiniërend naar argumentatief."),
     dict(type="waarofniet",
-         vraag="Een strip en een cartoon horen volgens de fiche bij de literaire teksten.",
+         vraag="Een strip en een cartoon horen bij de literaire teksten.",
          antwoord=True,
-         uitleg="De fiche noemt bij literaire teksten uitdrukkelijk een lied, een gedicht, een cartoon, een strip, een kortverhaal en een romanfragment."),
+         uitleg="Literaire teksten zijn onder meer een lied, een gedicht, een cartoon, een strip, een kortverhaal en een romanfragment."),
     dict(type="meerkeuze",
          vraag="Waaraan herken je snel een prescriptieve tekst?",
          opties=[
@@ -150,7 +150,7 @@ DEEL1 = [
                  "je stem vragen bij een verkiezing",
                  "je een oefening laten uitvoeren"],
          antwoord=0,
-         uitleg="Een documentaire informeert. De fiche noemt hem met zoveel woorden bij de informatieve teksten."),
+         uitleg="Een documentaire informeert: het is een informatieve tekst."),
 ]
 
 DEEL2 = [

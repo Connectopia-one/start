@@ -1,0 +1,3347 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Tekstsoorten, tekstverbanden en verwijswoorden — deel 1",
+   "niveau": "boost-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees dit tekstje: 'Épluchez quatre pommes de terre et coupez-les en morceaux. Faites-les cuire vingt minutes dans l'eau bouillante. Égouttez, puis écrasez-les avec un peu de lait chaud. Salez et servez tout de suite.' Welke soort tekst is dit?",
+     "opties": [
+      "een prescriptieve tekst",
+      "een narratieve tekst",
+      "een opiniërende tekst",
+      "een persuasieve tekst"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een prescriptieve tekst legt uit wat of hoe je iets moet doen. Een recept is er het schoolvoorbeeld van, net als een bijsluiter of een spelregel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees nog eens: 'Épluchez quatre pommes de terre et coupez-les en morceaux. Faites-les cuire vingt minutes dans l'eau bouillante. Égouttez, puis écrasez-les avec un peu de lait chaud. Salez et servez tout de suite.' Waaraan zie je in dat recept meteen dat het een prescriptieve tekst is?",
+     "opties": [
+      "aan de bevelende werkwoordsvormen épluchez, coupez, salez",
+      "aan de vele bijvoeglijke naamwoorden in de tekst",
+      "aan het feit dat er een mening in staat",
+      "aan de verleden tijd waarin alles verteld wordt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een tekst die zegt wat je moet doen, staat vol impératifs. Zie je rijen werkwoorden op -ez zonder vous ervoor, dan weet je het al."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees dit tekstje: 'J'ai passé deux nuits dans cet hôtel. La chambre était propre et le petit déjeuner correct, mais le bruit de la rue m'a réveillé chaque matin à cinq heures. Pour ce prix, je m'attendais à mieux. Je n'y retournerai pas.' Welke soort tekst is dit?",
+     "opties": [
+      "een opiniërende tekst",
+      "een informatieve tekst",
+      "een prescriptieve tekst",
+      "een literaire tekst"
+     ],
+     "antwoord": 0,
+     "uitleg": "Iemand geeft zijn mening over een hotel. Een beoordeling op een boekingssite is opiniërend, ook al staan er feiten in."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een opiniërende tekst mag geen feiten bevatten, want dan wordt het een informatieve tekst.",
+     "antwoord": false,
+     "uitleg": "Bijna elke mening steunt op feiten. Wat de soort bepaalt is de bedoeling van de schrijver: wil hij je informeren of wil hij vertellen wat hij ervan vindt?"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees dit tekstje: 'Ne jetez plus vos piles à la poubelle ! Une seule pile pollue des milliers de litres d'eau. Déposez-les gratuitement dans le bac vert de votre magasin. Un geste de trois secondes, un fleuve sauvé.' Welke soort tekst is dit?",
+     "opties": [
+      "een persuasieve tekst",
+      "een informatieve tekst",
+      "een narratieve tekst",
+      "een prescriptieve tekst"
+     ],
+     "antwoord": 0,
+     "uitleg": "De tekst wil je gedrag veranderen: breng je batterijen naar de groene bak. Een campagne of een reclameboodschap is persuasief."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke middelen gebruikt die affiche om je te overtuigen?",
+     "opties": [
+      "een uitroepteken en een rechtstreeks bevel aan de lezer",
+      "een groot getal dat de schade zichtbaar maakt",
+      "een lange uitleg met cijfers uit een studie",
+      "een opsomming van wetenschappelijke bronnen"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Ne jetez plus is een rechtstreeks bevel en des milliers de litres een groot getal. Bronnen en lange uitleg staan er net niet bij, en dat is typisch voor een affiche."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een krantenartikel dat uitlegt hoe de nieuwe treinkaart werkt, is welke soort tekst?",
+     "opties": [
+      "informatief",
+      "persuasief",
+      "literair",
+      "narratief"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een informatieve tekst geeft je informatie over een onderwerp: een artikel, een stukje uit een leerboek, een interview."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn narratieve teksten?",
+     "opties": [
+      "een reisverslag",
+      "een getuigenis",
+      "een videoblog",
+      "een bijsluiter",
+      "een dagboekfragment"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Narratief betekent verhalend: iemand vertelt wat er gebeurd is. Een bijsluiter zegt wat je moet doen en is dus prescriptief."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een gedicht, een lied en een strip horen alle drie bij de literaire teksten.",
+     "antwoord": true,
+     "uitleg": "Alle drie zijn literaire teksten, net als de cartoon, het kortverhaal en het fragment uit een roman. Literaire teksten spelen in op gevoelens."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je in het Nederlands een tekst die je probeert te overtuigen of te beïnvloeden? Eén woord.",
+     "antwoord": [
+      "persuasief",
+      "persuasieve"
+     ],
+     "uitleg": "Van het Franse persuader, overtuigen. Een reclamefilmpje en een snelheidscampagne zijn persuasieve teksten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je moet 'het onderwerp van een tekst' bepalen. Wat wordt er precies van je gevraagd?",
+     "opties": [
+      "in één of enkele woorden zeggen waarover de tekst gaat",
+      "in een hele zin de belangrijkste boodschap formuleren",
+      "alle inhoudelijke elementen van de tekst opsommen",
+      "de mening van de schrijver in je eigen woorden geven"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het onderwerp is kort: la pollution, le télétravail. De hoofdgedachte is een hele zin, en de hoofdpunten zijn wat die zin ondersteunt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil tussen de hoofdgedachte en de hoofdpunten van een tekst?",
+     "opties": [
+      "de hoofdgedachte is de boodschap zelf, de hoofdpunten dragen ze",
+      "de hoofdgedachte staat altijd vooraan, de hoofdpunten achteraan",
+      "de hoofdgedachte is een mening, de hoofdpunten zijn feiten",
+      "de hoofdgedachte is kort, de hoofdpunten staan in één woord"
+     ],
+     "antwoord": 0,
+     "uitleg": "De hoofdgedachte is de belangrijkste boodschap in één zin. De hoofdpunten zijn de oorzaken, gevolgen en voorbeelden die ze ondersteunen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Analyseren betekent dat je alle informatie letterlijk in de tekst moet kunnen aanwijzen.",
+     "antwoord": false,
+     "uitleg": "Net omgekeerd: analyseren is verbanden leggen tussen delen van een tekst, ook als het antwoord er niet letterlijk staat."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest een tekst en vraagt je af: van wie is deze tekst, waarom is hij geschreven en voor wie? Hoe heet dat hulpmiddel?",
+     "opties": [
+      "het communicatiemodel",
+      "het referentiekader",
+      "de tekstanalyse",
+      "de leesstrategie van het scannen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dat is een goede strategie: zender, bedoeling, ontvanger. Daarmee raad je vaak al half wat voor tekst je voor je hebt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke tekstsoort hoort bij een recept, een bijsluiter en een schoolreglement? Eén woord.",
+     "antwoord": [
+      "prescriptief",
+      "prescriptieve"
+     ],
+     "uitleg": "Prescriptieve teksten leggen uit wat of hoe je iets moet doen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een interview in een tijdschrift is een informatieve tekst.",
+     "antwoord": true,
+     "uitleg": "Een interview is een informatieve tekst, net als het krantenartikel en het nieuwsitem."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke hulpmiddelen in een tekst helpen je vooruit nog voor je de eerste zin gelezen hebt?",
+     "opties": [
+      "de titel en de tussentitels",
+      "een foto of een tekening erbij",
+      "woorden die vetgedrukt staan",
+      "de lengte van de laatste alinea",
+      "een grafiek bij de tekst"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Visuele hulpmiddelen: titel, tussentitels, benadrukte woorden, een foto of grafiek. Kijk daarnaar vooraleer je begint te lezen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een onbekend Frans woord staat in de tekst. Wat doe je best als eerste?",
+     "opties": [
+      "de betekenis afleiden uit de context of de woordvorm",
+      "het woord meteen opzoeken in het online woordenboek",
+      "de zin overslaan en verder lezen tot het einde",
+      "het woord vertalen met je kennis van het Engels"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerst afleiden uit de context, je voorkennis of de manier waarop het woord gevormd is. Pas als het woord echt nodig is, zoek je het op."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een tekstverband?",
+     "opties": [
+      "de functie van een alinea tegenover een andere alinea",
+      "het aantal zinnen dat een alinea telt in totaal",
+      "de volgorde waarin de alinea's op papier staan",
+      "het verband tussen de titel en de eerste zin"
+     ],
+     "antwoord": 0,
+     "uitleg": "Oorzaak, gevolg, toelichting, verklaring, tegenstelling, vergelijking, weerlegging. Dat is wat alinea 3 doet met wat in alinea 2 staat."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Drie van deze vier zijn tekstverbanden. Welke hoort er niet bij?",
+     "opties": [
+      "oorzaak en gevolg",
+      "tegenstelling",
+      "weerlegging",
+      "alfabetische volgorde"
+     ],
+     "antwoord": 3,
+     "uitleg": "Tekstverbanden zijn oorzaak, gevolg, toelichting, verklaring, tegenstelling, vergelijking en weerlegging. Een volgorde op letter is geen verband tussen gedachten."
+    }
+   ]
+  },
+  {
+   "titel": "Tekstsoorten, tekstverbanden en verwijswoorden — deel 2",
+   "niveau": "boost-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "'Il pleuvait, donc nous sommes restés à la maison.' Welk verband legt donc?",
+     "opties": [
+      "een gevolg",
+      "een oorzaak",
+      "een tegenstelling",
+      "een voorwaarde"
+     ],
+     "antwoord": 0,
+     "uitleg": "Donc betekent dus: wat erna komt volgt uit wat ervoor staat. Het omgekeerde zou zijn: nous sommes restés à la maison parce qu'il pleuvait."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Le train était en retard parce qu'un arbre bloquait la voie.' Welk verband legt parce que?",
+     "opties": [
+      "een oorzaak",
+      "een gevolg",
+      "een vergelijking",
+      "een opsomming"
+     ],
+     "antwoord": 0,
+     "uitleg": "Parce que geeft de reden. Let op de volgorde: bij donc staat het gevolg erachter, bij parce que staat de oorzaak erachter."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden kondigen in het Frans een tegenstelling aan?",
+     "opties": [
+      "mais",
+      "pourtant",
+      "par contre",
+      "ainsi",
+      "cependant"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Mais, pourtant, cependant, par contre en en revanche zetten iets tegenover elkaar. Ainsi betekent zo of dus en kondigt juist een gevolg aan."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul het signaalwoord in dat 'eerst' betekent: … , on coupe les légumes. Ensuite, on les fait cuire.",
+     "antwoord": [
+      "D'abord",
+      "d'abord"
+     ],
+     "uitleg": "D'abord, ensuite, puis, enfin: daarmee zet een tekst stappen op een rij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke rij signaalwoorden zet de stappen van een uitleg in de juiste volgorde?",
+     "opties": [
+      "d'abord, ensuite, enfin",
+      "enfin, d'abord, ensuite",
+      "ensuite, enfin, d'abord",
+      "enfin, ensuite, d'abord"
+     ],
+     "antwoord": 0,
+     "uitleg": "D'abord is eerst, ensuite of puis is daarna, enfin is ten slotte."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Par exemple' kondigt in een tekst een voorbeeld aan dat het vorige verduidelijkt.",
+     "antwoord": true,
+     "uitleg": "Par exemple hoort bij de toelichting, net als c'est-à-dire, dat wil zeggen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Grâce à son entraîneur, elle a gagné.' En: 'À cause de la pluie, le match est annulé.' Wat is het verschil tussen grâce à en à cause de?",
+     "opties": [
+      "grâce à noemt een goede oorzaak, à cause de een slechte",
+      "grâce à noemt een persoon, à cause de een ding",
+      "grâce à staat vooraan, à cause de altijd achteraan",
+      "grâce à hoort bij de verleden tijd, à cause de niet"
+     ],
+     "antwoord": 0,
+     "uitleg": "Allebei geven ze een oorzaak, maar grâce à is dankzij en à cause de is door toedoen van, met iets vervelends erachter."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul in: … la grève, il n'y a pas de bus aujourd'hui. De staking is iets vervelends. Twee woorden plus het lidwoord.",
+     "antwoord": [
+      "À cause de",
+      "à cause de"
+     ],
+     "uitleg": "Een staking is geen geluk, dus niet grâce à. Let op: à cause de la grève, met de voor het lidwoord."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Les élèves ont protesté. Ils voulaient garder leur local.' Waarnaar verwijst ils?",
+     "opties": [
+      "naar les élèves",
+      "naar le local",
+      "naar de schrijver",
+      "naar de lezer"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ils is mannelijk meervoud en les élèves is het enige meervoud in de vorige zin. Verwijswoorden vind je door terug te lezen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'J'aime cette ville. J'y habite depuis dix ans.' Waarvoor staat y?",
+     "opties": [
+      "voor een plaats die al genoemd is",
+      "voor een persoon",
+      "voor een lijdend voorwerp",
+      "voor een hoeveelheid"
+     ],
+     "antwoord": 0,
+     "uitleg": "Y vervangt een plaatsbepaling met à, en of dans: j'y habite is ik woon daar. Daarom is y zo'n sterk verwijswoord in een tekst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Tu as des frères ? — Oui, j'en ai deux.' Waarvoor staat en?",
+     "opties": [
+      "voor een hoeveelheid van iets dat al genoemd is",
+      "voor een plaats",
+      "voor de persoon met wie je praat",
+      "voor een bezit"
+     ],
+     "antwoord": 0,
+     "uitleg": "En vervangt een groep met de: des frères. Daarom hoort er een getal of een hoeveelheid bij: j'en ai deux, j'en veux un peu."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een persoonlijk voornaamwoord zoals elle verwijst altijd naar een persoon.",
+     "antwoord": false,
+     "uitleg": "Elle verwijst naar elk vrouwelijk woord: la voiture est vieille, elle ne démarre plus. In het Frans hebben ook dingen een geslacht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil tussen celui-ci en celui-là in een tekst?",
+     "opties": [
+      "celui-ci is het laatstgenoemde, celui-là het eerstgenoemde",
+      "celui-ci is mannelijk, celui-là is vrouwelijk",
+      "celui-ci staat in de tegenwoordige tijd, celui-là in de verleden",
+      "celui-ci is enkelvoud, celui-là is meervoud"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ci is dichtbij, là is verderaf. In een tekst slaat celui-ci dus terug op wat het dichtst staat, dus op het laatste dat genoemd werd."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden kondigen een gevolg aan?",
+     "opties": [
+      "donc",
+      "alors",
+      "car",
+      "parce que"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Donc en alors wijzen vooruit, naar wat eruit volgt. Parce que en car wijzen achteruit, naar de oorzaak."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul het voegwoord in dat 'maar' betekent: il fait froid … le soleil brille.",
+     "antwoord": [
+      "mais"
+     ],
+     "uitleg": "Mais is het gewoonste tegenstellingswoord. Pourtant en cependant zijn de wat deftigere broers ervan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'La bibliothèque ferme à dix-huit heures. Cependant, le mercredi, elle reste ouverte jusqu'à vingt heures.' Wat doet de tweede zin?",
+     "opties": [
+      "hij noemt een uitzondering op de eerste zin",
+      "hij herhaalt de eerste zin in andere woorden",
+      "hij geeft de reden voor de eerste zin",
+      "hij trekt een besluit uit de eerste zin"
+     ],
+     "antwoord": 0,
+     "uitleg": "Cependant betekent echter. Het woord kondigt aan dat wat volgt tegen de vorige zin in gaat, hier als uitzondering."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'En revanche' kondigt een voorbeeld aan, net zoals 'par exemple'.",
+     "antwoord": false,
+     "uitleg": "En revanche zet twee dingen tegenover elkaar, zoals daarentegen bij ons, en betekent hetzelfde als par contre. Par exemple leidt wel een voorbeeld in."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden hieronder wijzen op een opsomming of een toevoeging?",
+     "opties": [
+      "de plus",
+      "en outre",
+      "aussi",
+      "pourtant",
+      "également"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "De plus, en outre en aussi voegen iets toe aan wat er al stond. Pourtant draait de richting net om."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Signaalwoorden helpen je om de gedachtegang van een tekst te reconstrueren.",
+     "antwoord": true,
+     "uitleg": "Dat is een goede strategie. Lees in een moeilijke tekst eerst alleen de signaalwoorden en je ziet de structuur al."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Ce dernier' in een Franse tekst verwijst naar welk element?",
+     "opties": [
+      "naar de laatstgenoemde persoon of zaak",
+      "naar de schrijver zelf",
+      "naar het onderwerp van de hele tekst",
+      "naar het einde van de tekst"
+     ],
+     "antwoord": 0,
+     "uitleg": "Le directeur a reçu le journaliste; ce dernier posait beaucoup de questions. Ce dernier is de journalist, de laatstgenoemde."
+    }
+   ]
+  },
+  {
+   "titel": "De Franstalige wereld: omgangsvormen en gewoontes — deel 2",
+   "niveau": "boost-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Je stapt in Frankrijk een bakkerij binnen. Wat zeg je volgens de gewoonte eerst?",
+     "opties": [
+      "Bonjour",
+      "Une baguette, s'il vous plaît",
+      "Excusez-moi",
+      "Merci beaucoup"
+     ],
+     "antwoord": 0,
+     "uitleg": "Spreek je een verkoper of een agent aan, dan zeg je altijd eerst bonjour. Meteen bestellen komt onbeleefd over."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wanneer gebruik je in het Frans de vous-vorm?",
+     "opties": [
+      "bij een volwassene met wie je geen nauwe band hebt",
+      "bij een goede vriend van je eigen leeftijd",
+      "bij je broer of je zus",
+      "bij een huisdier"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vouvoyer bij onbekenden, ouderen en in een formele mail. Tutoyer bij vrienden, familie en meestal onder leeftijdsgenoten."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Tutoyer betekent iemand met tu aanspreken.",
+     "antwoord": true,
+     "uitleg": "Tutoyer is tu zeggen, vouvoyer is vous zeggen. On peut se tutoyer ? is de vraag of je over mag gaan op tu."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft een mail naar de gemeente en je kent de naam van de ontvanger niet. Hoe begin je?",
+     "opties": [
+      "Madame, Monsieur,",
+      "Salut,",
+      "Cher ami,",
+      "Bonjour toi,"
+     ],
+     "antwoord": 0,
+     "uitleg": "Madame, Monsieur, met een komma, is de vaste aanhef als je niet weet wie je aanschrijft. Salut hoort bij vrienden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke slotformules passen in een formele Franse mail?",
+     "opties": [
+      "Cordialement",
+      "Bien à vous",
+      "Veuillez agréer mes salutations distinguées",
+      "Bisous",
+      "Sincères salutations"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Bisous is voor familie en vrienden. Cordialement is het gewone formele slot, de lange formule is de deftigste."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is 'le conditionnel de politesse'?",
+     "opties": [
+      "je vraagt iets met je voudrais in plaats van je veux",
+      "je spreekt iemand aan met zijn titel erbij",
+      "je zegt bonjour voor je iets vraagt",
+      "je gebruikt de vous-vorm in plaats van tu"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je voudrais un café klinkt beleefd, je veux un café klinkt als een bevel. Ook pourriez-vous en j'aimerais horen daarbij."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Maak deze vraag beleefd met de conditionnel: … -vous m'aider, s'il vous plaît ? Eén werkwoordsvorm.",
+     "antwoord": [
+      "Pourriez",
+      "pourriez"
+     ],
+     "uitleg": "Pourriez-vous is de conditionnel van pouvoir. Pouvez-vous kan ook, maar pourriez-vous klinkt een trapje beleefder."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Enchanté' zeg je wanneer je iemand voor het eerst ontmoet.",
+     "antwoord": true,
+     "uitleg": "Enchanté, of enchantée als je zelf een vrouw bent. Letterlijk betoverd, in de praktijk aangenaam."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is 'la bise'?",
+     "opties": [
+      "een begroeting met kussen op de wang",
+      "een handdruk tussen collega's",
+      "een buiging bij een officiële gelegenheid",
+      "een afscheidsgroet aan de telefoon"
+     ],
+     "antwoord": 0,
+     "uitleg": "Faire la bise. Hoeveel kussen het zijn verschilt van streek tot streek, en sinds de pandemie is het op veel plaatsen minder vanzelfsprekend geworden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In Franstalig Canada gaan collega's op het werk minder formeel met elkaar om. Wat merk je daarvan in de taal?",
+     "opties": [
+      "men gaat sneller over op tu dan in Frankrijk",
+      "men gebruikt er helemaal geen beleefdheidsvormen",
+      "men spreekt elkaar aan met de familienaam",
+      "men schrijft mails zonder aanhef"
+     ],
+     "antwoord": 0,
+     "uitleg": "Minder formeel wil zeggen: sneller tutoyeren en sneller de voornaam gebruiken, niet dat beleefdheid wegvalt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In welke volgorde komen de gangen van een klassieke Franse maaltijd?",
+     "opties": [
+      "l'entrée, le plat, le fromage, le dessert",
+      "le plat, l'entrée, le dessert, le fromage",
+      "le dessert, l'entrée, le plat, le fromage",
+      "l'entrée, le fromage, le dessert, le plat"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het kaasbord komt in Frankrijk voor het nagerecht, niet erna. Vooraf staat er soms nog een apéritif."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Bon appétit' zeg je in het Frans pas na de maaltijd, als dank aan wie gekookt heeft.",
+     "antwoord": false,
+     "uitleg": "Bon appétit zeg je vóór je begint, net als smakelijk bij ons. Na de maaltijd bedank je met c'était délicieux of merci pour le repas."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitdrukkingen gebruik je om je te verontschuldigen?",
+     "opties": [
+      "Je suis désolé",
+      "Excusez-moi",
+      "S'il vous plaît",
+      "De rien"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Je suis désolé en excusez-moi zijn excuses. De rien is het antwoord op merci, en s'il vous plaît betekent alstublieft."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Iemand zegt 'merci beaucoup'. Antwoord in twee woorden dat het graag gedaan is.",
+     "antwoord": [
+      "De rien",
+      "de rien"
+     ],
+     "uitleg": "De rien of je vous en prie. Pas de problème hoor je ook, maar dat klinkt losser."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je nodigt een vriend uit om mee naar de film te gaan. Welke zin past het best?",
+     "opties": [
+      "Ça te dit d'aller au cinéma ?",
+      "Veuillez m'accompagner au cinéma.",
+      "Je vous prie de venir au cinéma.",
+      "Il est obligatoire d'aller au cinéma."
+     ],
+     "antwoord": 0,
+     "uitleg": "Ça te dit is de gewone, losse manier om iets voor te stellen aan iemand die je tutoyeert. De andere zinnen zijn veel te plechtig voor een vriend."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Lichaamstaal hoort bij de socioculturele aspecten die je op het examen kan tegenkomen.",
+     "antwoord": true,
+     "uitleg": "Ze horen bij een cultuur, net als de gewoontes, de sociale verhoudingen en de waarden en normen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent 'tu' zeggen tegen een onbekende volwassene in Frankrijk meestal?",
+     "opties": [
+      "het kan onbeleefd of te familiair overkomen",
+      "het is de normale manier van aanspreken",
+      "het is verboden door de wet",
+      "het is enkel in winkels gebruikelijk"
+     ],
+     "antwoord": 0,
+     "uitleg": "Geen regel maar een conventie: vouvoyer tot de ander voorstelt om te tutoyeren. In Québec ligt die drempel een stuk lager."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zinnen horen bij het afscheid nemen?",
+     "opties": [
+      "Au revoir",
+      "À bientôt",
+      "Bonne journée",
+      "Enchanté",
+      "Bonne soirée"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Enchanté hoort bij de kennismaking, aan het begin. De andere zeg je als je weggaat."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In een Franse winkel geef je bij het afrekenen altijd een fooi.",
+     "antwoord": false,
+     "uitleg": "In restaurants is het bedienen meestal in de prijs begrepen (service compris); een fooi mag maar moet niet. In een winkel geef je er geen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft een blogbericht voor leeftijdsgenoten over je stage. Welke toon past?",
+     "opties": [
+      "tu of vous naar de lezer, maar verzorgd en zonder sms-taal",
+      "de plechtige formules van een officiële brief",
+      "zo veel mogelijk afkortingen, want het is voor jongeren",
+      "enkel opsommingen zonder volledige zinnen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je past je taal aan de ontvanger aan. Losser dan een brief aan de gemeente, maar nog altijd geschreven taal."
+    }
+   ]
+  },
+  {
+   "titel": "Schrijven, schriftelijke interactie en leesbeleving — deel 1",
+   "niveau": "boost-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Je stuurt een mail naar de gemeente om te vragen hoe je vrijwilliger kan worden. Welke taalhandeling is dat?",
+     "opties": [
+      "informatie vragen",
+      "je mening geven",
+      "iets vertellen",
+      "iemand overtuigen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Informatie vragen en geven is een taalhandeling op zich."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zinnen vragen in het Frans om informatie?",
+     "opties": [
+      "Pourriez-vous me dire si …",
+      "Je voudrais savoir …",
+      "J'aimerais avoir des renseignements sur …",
+      "Je ne suis pas d'accord avec vous.",
+      "Je souhaiterais connaître …"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "De laatste geeft een mening. Des renseignements is het gewone woord voor inlichtingen, en dat woord is op een examen goud waard."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul het Franse woord voor inlichtingen in: je voudrais des … sur le stage.",
+     "antwoord": [
+      "renseignements",
+      "informations"
+     ],
+     "uitleg": "Un renseignement is een inlichting. Une information kan ook, maar renseignements klinkt in een aanvraag natuurlijker."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft een reactie onder een discussie op sociale media. Welke taalhandeling past daarbij?",
+     "opties": [
+      "je mening geven",
+      "iets uitleggen",
+      "informatie vragen",
+      "iemand begroeten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je reageert op een discussie op sociale media. Daar zeg je wat je ervan vindt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitdrukkingen leiden je mening in?",
+     "opties": [
+      "à mon avis",
+      "je trouve que",
+      "on dit que",
+      "il paraît que"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "À mon avis en je trouve que leiden je eigen mening in. Il paraît que en on dit que betekenen naar het schijnt: dat is horen zeggen, geen eigen mening."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Na 'je pense que' in een bevestigende zin komt in het Frans een subjonctif.",
+     "antwoord": false,
+     "uitleg": "Je pense qu'il a raison, met de indicatif: je stelt iets vast. Pas in de ontkenning komt de twijfel erbij: je ne pense pas qu'il ait raison."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je beschrijft in een mail hoe een ongeval gebeurd is. Welke taalhandeling is dat?",
+     "opties": [
+      "iets vertellen",
+      "iets uitleggen",
+      "iemand overtuigen",
+      "je verontschuldigen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dat is vertellen, net als het verslag van een reis of een activiteit."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In welke tijd vertel je in het Frans meestal wat er gebeurd is?",
+     "opties": [
+      "de passé composé, met de imparfait voor de achtergrond",
+      "de futur simple, met de présent voor de achtergrond",
+      "de présent, met de conditionnel voor de achtergrond",
+      "de subjonctif, met de impératif voor de achtergrond"
+     ],
+     "antwoord": 0,
+     "uitleg": "De passé composé geeft de gebeurtenissen die elkaar opvolgen, de imparfait het decor eromheen: il pleuvait quand la voiture a glissé."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan met het werkwoord dat 'uitleggen' betekent: je vais vous … comment ça marche.",
+     "antwoord": [
+      "expliquer"
+     ],
+     "uitleg": "Expliquer, une explication. Na vais komt de infinitief, dus geen vervoegde vorm."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je geeft in een blogbericht tips om vlotter in te slapen. Welke taalhandeling is dat?",
+     "opties": [
+      "iets uitleggen",
+      "informatie vragen",
+      "iemand begroeten",
+      "je waardering uiten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Uitleggen is: de ander aan het eind iets laten kunnen wat hij eerst niet kon."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je probeert een castingbureau te overtuigen om je inschrijving te aanvaarden. Wat hoort dan zeker in je tekst?",
+     "opties": [
+      "argumenten waarom zij er beter van worden",
+      "een opsomming van je gevoelens",
+      "een verhaal over je laatste vakantie",
+      "een vraag naar hun openingsuren"
+     ],
+     "antwoord": 0,
+     "uitleg": "Overtuigen is niet hetzelfde als vragen. Je neemt het standpunt van de ander in en toont waarom je voorstel voor hém interessant is."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden kondigen in een overtuigende tekst een argument aan?",
+     "opties": [
+      "d'abord",
+      "de plus",
+      "enfin",
+      "malheureusement",
+      "ensuite"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "D'abord, de plus, enfin zetten je argumenten op een rij. Malheureusement drukt spijt uit en is geen argument."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij de alledaagse sociale contacten hoort ook 'je waardering uiten'.",
+     "antwoord": true,
+     "uitleg": "Daarbij horen begroeten, aanspreken, afscheid nemen, iets voorstellen, bedanken, uitnodigen, je verontschuldigen, reageren op verontschuldigingen en je waardering uiten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin nodigt iemand uit op een formele manier?",
+     "opties": [
+      "Nous serions heureux de vous accueillir le 12 mai.",
+      "Viens donc, ça va être génial !",
+      "Tu passes samedi ou pas ?",
+      "On se voit là-bas, hein."
+     ],
+     "antwoord": 0,
+     "uitleg": "De conditionnel serions en de vous-vorm maken de zin formeel. De drie andere horen bij vrienden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul het werkwoord in dat 'bedanken' betekent: je vous … de votre réponse.",
+     "antwoord": [
+      "remercie"
+     ],
+     "uitleg": "Remercier quelqu'un de quelque chose. Je vous remercie d'avance is de vaste formule aan het eind van een vraag."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een schrijfopdracht van het examen beoordeelt alleen of je grammatica juist is.",
+     "antwoord": false,
+     "uitleg": "Kijk of de communicatie helder, gepast en vlot is. Een foutloze tekst die niet bij de ontvanger past, haalt zijn doel niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een schrijfplan?",
+     "opties": [
+      "een lijstje kernwoorden dat je vooraf maakt",
+      "de volledige tekst die je eerst in het Nederlands schrijft",
+      "het aantal woorden dat je moet halen",
+      "de lijst werkwoorden die je gaat gebruiken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Maak een schrijf- of spreekplan met kernwoorden, staat er. Twee minuten plannen scheelt tien minuten zoeken terwijl je schrijft."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Drie van deze vragen horen bij het communicatiemodel. Welke hoort er niet bij?",
+     "opties": [
+      "waarom schrijf ik",
+      "voor wie is mijn boodschap",
+      "welk kanaal gebruik ik",
+      "hoeveel tijd heb ik nog"
+     ],
+     "antwoord": 3,
+     "uitleg": "De vragen zijn: waarom, voor wie, met wie, wat precies, en via welk kanaal. De klok hoort daar niet bij."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Zit je vast bij het schrijven, dan probeer je je doel te bereiken met de woorden die je wél kent.",
+     "antwoord": true,
+     "uitleg": "Letterlijk: laat je niet ontmoedigen, maar probeer je doel te bereiken met de woorden en structuren die je wél al kent. Omschrijven is een vaardigheid, geen nederlaag."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je kent het woord 'une perceuse' niet, maar je moet het beschrijven. Wat doe je?",
+     "opties": [
+      "je omschrijft het: un outil pour faire des trous",
+      "je laat de hele zin weg uit je tekst",
+      "je schrijft het Nederlandse woord in je Franse tekst",
+      "je vervangt het door een woord met een andere betekenis"
+     ],
+     "antwoord": 0,
+     "uitleg": "Omschrijven met wat je kent is precies de goede strategie. Een Nederlands woord in je tekst telt als een gat."
+    }
+   ]
+  },
+  {
+   "titel": "Schrijven, schriftelijke interactie en leesbeleving — deel 2",
+   "niveau": "boost-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Uit welke delen bestaat een verzorgde Franse mail, in volgorde?",
+     "opties": [
+      "aanhef, reden van je bericht, inhoud, slotformule",
+      "inhoud, aanhef, slotformule, reden van je bericht",
+      "slotformule, aanhef, inhoud, reden van je bericht",
+      "reden van je bericht, slotformule, aanhef, inhoud"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerst de aanhef, dan één zin waarom je schrijft, dan de inhoud, dan het slot. Die ene zin met de reden vergeten mensen het vaakst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zinnen zeggen aan het begin van een mail waarom je schrijft?",
+     "opties": [
+      "Je vous écris au sujet de …",
+      "Je me permets de vous contacter pour …",
+      "En attendant votre réponse, …",
+      "Je vous remercie d'avance."
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Je vous écris au sujet de en je me permets de vous contacter kondigen je onderwerp aan. 'Je vous remercie d'avance' en 'en attendant votre réponse' horen aan het eind."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: je vous écris au … de votre annonce. Eén woord dat 'onderwerp' betekent.",
+     "antwoord": [
+      "sujet"
+     ],
+     "uitleg": "Au sujet de betekent in verband met. Let op het lidwoord dat erachter komt: au sujet de la formation, au sujet du stage."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In een formele Franse mail hou je de hele tekst in de vous-vorm aan, ook de werkwoorden in de laatste zin.",
+     "antwoord": true,
+     "uitleg": "Halfweg omslaan naar tu is een van de opvallendste fouten op een schrijfexamen. Kies vooraf en blijf erbij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft aan een vriendin dat je haar bericht hebt gelezen. Welke aanhef past?",
+     "opties": [
+      "Salut Léa,",
+      "Madame,",
+      "Chère Madame,",
+      "Monsieur le Directeur,"
+     ],
+     "antwoord": 0,
+     "uitleg": "Salut of Coucou bij vrienden, Cher of Chère plus de voornaam als het iets verzorgder mag. De drie andere horen bij onbekenden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent 'Cher Monsieur' tegenover 'Monsieur' in een brief?",
+     "opties": [
+      "Cher Monsieur veronderstelt dat je de persoon al kent",
+      "Cher Monsieur is altijd formeler dan Monsieur",
+      "Cher Monsieur gebruik je alleen bij vrouwen",
+      "Er is geen enkel verschil tussen de twee"
+     ],
+     "antwoord": 0,
+     "uitleg": "Cher is een nuance warmer en veronderstelt een band. Ken je de persoon niet, dan schrijf je gewoon Madame, Monsieur."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Je vous prie d'agréer, Madame, mes salutations distinguées' is de aanhef waarmee een formele brief begint.",
+     "antwoord": false,
+     "uitleg": "Het is net de lange, deftige afsluiting, helemaal onderaan. Opvallend: de aanhef komt er middenin terug, en dat hoort zo."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft over een gedicht dat je gelezen hebt. Wat doe je dan?",
+     "opties": [
+      "dat je in het Frans je eigen ervaring en gevoelens verwoordt",
+      "dat je het gedicht woord voor woord naar het Nederlands vertaalt",
+      "dat je de naam en het geboortejaar van de dichter noemt",
+      "dat je het rijmschema van elke strofe benoemt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het gaat om je leesbeleving: waarom iets je aanspreekt, of je je herkent in een personage, welk gevoel de tekst oproept."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zinnen verwoorden je gevoel bij een verhaal?",
+     "opties": [
+      "Ce personnage me ressemble beaucoup.",
+      "Cette histoire m'a beaucoup touché.",
+      "La fin m'a surpris parce que …",
+      "Le livre compte deux cent dix pages.",
+      "Je me suis ennuyé en lisant la fin."
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Het aantal bladzijden is een feit over het boek, geen beleving. De andere zeggen wat de tekst met jou deed."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: cette histoire m'a beaucoup … . Eén voltooid deelwoord dat 'geraakt' betekent.",
+     "antwoord": [
+      "touché",
+      "touchée"
+     ],
+     "uitleg": "Toucher betekent letterlijk aanraken en in deze zin ontroeren. Ook émue of ému kan, maar touché is het gewoonste."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom pas je je taal aan aan de ontvanger?",
+     "opties": [
+      "omdat een gepaste toon je boodschap beter laat aankomen",
+      "omdat de regels van de grammatica anders veranderen",
+      "omdat je anders te weinig woorden schrijft",
+      "omdat elke ontvanger een ander dialect spreekt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Respecteer de beleefdheidsconventies en gebruik de juiste toon, staat er. Dezelfde inhoud mist zijn doel als de toon ernaast zit."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je leest je tekst grondig na voor je hem indient.",
+     "antwoord": true,
+     "uitleg": "Lees je tekst grondig na: is de communicatie helder, gepast en vlot? Dat is de laatste strategie in de lijst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarop let je het best als je je Franse tekst naleest?",
+     "opties": [
+      "of de werkwoorden overeenkomen met hun onderwerp",
+      "of de bijvoeglijke naamwoorden het juiste geslacht hebben",
+      "of je overal dezelfde aanspreekvorm hebt aangehouden",
+      "of je tekst evenveel alinea's telt als de opdracht"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Accord van het werkwoord, accord van het bijvoeglijk naamwoord en de aanspreekvorm: daar gaan de meeste punten verloren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je mag op het examen een spellingcontrole gebruiken. Wat vindt die controle níét?",
+     "opties": [
+      "een woord dat juist gespeld is maar niet past",
+      "een woord met een ontbrekend accent",
+      "een dubbele medeklinker te veel",
+      "een letter die je vergeten bent"
+     ],
+     "antwoord": 0,
+     "uitleg": "Schrijf je mère waar je mer bedoelt, dan staat er een bestaand woord en zwijgt de controle. Daarom blijft nalezen nodig."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul de slotformule aan die letterlijk 'hartelijk' betekent en in de meeste mails past. Eén woord.",
+     "antwoord": [
+      "Cordialement",
+      "cordialement"
+     ],
+     "uitleg": "Cordialement is de veiligste keuze: niet te stijf, niet te familiair. Bien cordialement kan ook."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je mag in een Franse schrijfopdracht sms-afkortingen gebruiken als je aan een leeftijdsgenoot schrijft.",
+     "antwoord": false,
+     "uitleg": "Ook een losse tekst blijft geschreven taal op een examen. Je mag een losse toon aanslaan, maar bjr en koi29 kosten punten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft een mail om je te verontschuldigen dat je een afspraak gemist hebt. Welke zin past het best?",
+     "opties": [
+      "Je suis vraiment désolé de ne pas avoir pu venir.",
+      "Je ne suis pas venu, c'est comme ça.",
+      "Vous auriez dû me rappeler avant.",
+      "Ce n'était pas si important, finalement."
+     ],
+     "antwoord": 0,
+     "uitleg": "Een verontschuldiging neemt het zelf op zich. De drie andere schuiven het weg, en dat is net het omgekeerde van wat gevraagd wordt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe reageer je gepast als iemand zich bij jou verontschuldigt?",
+     "opties": [
+      "Ce n'est pas grave, ne vous inquiétez pas.",
+      "Je vous remercie d'avance.",
+      "Je voudrais des renseignements.",
+      "Veuillez agréer mes salutations."
+     ],
+     "antwoord": 0,
+     "uitleg": "Reageren op verontschuldigingen is een vaardigheid op zich. Ce n'est pas grave of il n'y a pas de mal."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een schrijfopdracht waarbij je op een bericht van iemand anders antwoordt, heet schriftelijke interactie.",
+     "antwoord": true,
+     "uitleg": "Interactie is reageren op wat de ander schrijft of zegt. Je gaat in op de ander en toont interesse."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je antwoordt op een mail met drie vragen erin. Wat is de veiligste aanpak?",
+     "opties": [
+      "alle drie de vragen beantwoorden, in dezelfde volgorde",
+      "alleen de vraag beantwoorden die je het best kent",
+      "de vragen samenvatten in één algemene zin",
+      "de vragen in je antwoord woord voor woord herhalen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Speel in op wat je gesprekspartner schrijft. Een vraag overslaan is op een examen een rechtstreeks puntenverlies."
+    }
+   ]
+  },
+  {
+   "titel": "Voornaamwoorden: COD, COI, y en en — deel 2",
+   "niveau": "boost-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zijn de vier betrekkelijke voornaamwoorden in het Frans?",
+     "opties": [
+      "qui, que, dont, où",
+      "qui, quoi, quel, quand",
+      "ce, cet, cette, ces",
+      "le, la, les, leur"
+     ],
+     "antwoord": 0,
+     "uitleg": "Qui, que, dont en où. Met die vier bouw je zowat elke betrekkelijke bijzin op B1-niveau."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wanneer gebruik je 'qui' in een betrekkelijke bijzin?",
+     "opties": [
+      "als het voornaamwoord het onderwerp van de bijzin is",
+      "als het voornaamwoord het lijdend voorwerp is",
+      "als er een plaats bedoeld wordt",
+      "als er bezit bedoeld wordt"
+     ],
+     "antwoord": 0,
+     "uitleg": "L'homme qui parle: qui doet de handeling. Direct na qui komt dus een vervoegd werkwoord."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: le livre … je lis est passionnant. Het voornaamwoord dat lijdend voorwerp is.",
+     "antwoord": [
+      "que",
+      "qu'"
+     ],
+     "uitleg": "Na que komt een onderwerp: le livre que je lis. Na qui komt meteen een werkwoord: le livre qui est sur la table."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Qui' verkort voor een klinker tot qu', net zoals 'que' dat doet.",
+     "antwoord": false,
+     "uitleg": "Qui blijft altijd qui: l'homme qui arrive. Alleen que verkort: le film qu'il regarde. Dat verschil helpt je de twee uit elkaar te houden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wanneer gebruik je 'dont'?",
+     "opties": [
+      "als er in de bijzin een de hoort bij het werkwoord of het naamwoord",
+      "als de bijzin een plaats aangeeft",
+      "als de bijzin een tijd aangeeft",
+      "als het voornaamwoord het onderwerp is"
+     ],
+     "antwoord": 0,
+     "uitleg": "Le film dont je parle, want parler de. La fille dont le père est médecin, want le père de la fille."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zinnen met dont zijn juist gebouwd?",
+     "opties": [
+      "C'est le livre dont j'ai besoin.",
+      "Voici l'ami dont je t'ai parlé.",
+      "C'est la ville dont il vient.",
+      "C'est la maison dont j'habite.",
+      "C'est le film dont tout le monde parle."
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Habiter gaat niet met de maar met à of dans, dus daar hoort où: la maison où j'habite. De andere werkwoorden vragen wel de."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarvoor gebruik je 'où' in een betrekkelijke bijzin?",
+     "opties": [
+      "voor een plaats en ook voor een tijdstip",
+      "alleen voor een plaats, nooit voor een tijd",
+      "alleen voor een persoon",
+      "alleen in een vraagzin"
+     ],
+     "antwoord": 0,
+     "uitleg": "Le pays où je suis né, maar ook le jour où il est parti. Dat tweede gebruik verrast veel lezers."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: c'est le jour … tout a changé. Eén woord.",
+     "antwoord": [
+      "où"
+     ],
+     "uitleg": "Bij een tijdstip gebruikt het Frans où en niet que. Le jour que is spreektaal en telt op een examen als fout."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Ce qui' en 'ce que' verwijzen naar een heel idee en niet naar één naamwoord.",
+     "antwoord": true,
+     "uitleg": "Je ne comprends pas ce qu'il veut. Il est parti, ce qui m'a surpris: ce qui slaat op de hele vorige zin."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vormen zijn zelfstandige bezittelijke voornaamwoorden?",
+     "opties": [
+      "le mien",
+      "la tienne",
+      "les leurs",
+      "leur",
+      "les nôtres"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Leur hoort voor een naamwoord: leur maison. Le mien, la tienne en les leurs staan alleen: ce livre est le mien."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe antwoord je op 'C'est ta voiture ?' met een bezittelijk voornaamwoord?",
+     "opties": [
+      "Oui, c'est la mienne.",
+      "Oui, c'est le mien.",
+      "Oui, c'est ma.",
+      "Oui, c'est mienne."
+     ],
+     "antwoord": 0,
+     "uitleg": "Voiture is vrouwelijk, dus la mienne. Het voornaamwoord volgt het geslacht van het ding, niet van de eigenaar."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: ce sac n'est pas le mien, c'est … , het is het zijne. Twee woorden.",
+     "antwoord": [
+      "le sien"
+     ],
+     "uitleg": "Le sien voor een mannelijk ding, la sienne voor een vrouwelijk. Ook hier beslist het ding, niet de eigenaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden zijn aanwijzende voornaamwoorden die alleen kunnen staan?",
+     "opties": [
+      "celui",
+      "celle",
+      "ces",
+      "cette"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Cette en ces horen voor een naamwoord: cette maison, ces livres. Celui en celle staan alleen: celui de Marie, celle que je préfère."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Quel est ton livre préféré ? — Celui de Camus.' Wat doet celui hier?",
+     "opties": [
+      "het vervangt het woord livre dat al genoemd is",
+      "het vervangt de naam Camus",
+      "het vraagt naar een keuze",
+      "het geeft een bevel"
+     ],
+     "antwoord": 0,
+     "uitleg": "Celui staat voor le livre en voorkomt dat je het woord herhaalt. Daarom komt er altijd iets achter: celui de, celui qui, celui-ci."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Ça' is de verzorgde schrijftaalvorm en 'cela' hoort in de spreektaal thuis.",
+     "antwoord": false,
+     "uitleg": "Het is net omgekeerd: ça va ? is ongedwongen, cela est vrai is verzorgde geschreven taal. In een examentekst kan je allebei tegenkomen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Drie van deze woorden zijn onbepaalde voornaamwoorden. Welk woord is vragend?",
+     "opties": [
+      "quelqu'un",
+      "personne",
+      "rien",
+      "lequel"
+     ],
+     "antwoord": 3,
+     "uitleg": "Lequel is vragend: lequel préfères-tu ? Quelqu'un is iemand, personne is niemand, rien is niets."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: il n'y a … dans la salle, er is niemand in de zaal. Eén woord.",
+     "antwoord": [
+      "personne"
+     ],
+     "uitleg": "Personne vervangt pas in de ontkenning: il n'y a personne, en niet il n'y a pas personne. Hetzelfde geldt voor rien en jamais."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vraag is correct gesteld met een vragend voornaamwoord?",
+     "opties": [
+      "Qui a téléphoné ?",
+      "Que a téléphoné ?",
+      "Quoi a téléphoné ?",
+      "Lequel a téléphoné des ?"
+     ],
+     "antwoord": 0,
+     "uitleg": "Qui vraagt naar een persoon en kan onderwerp zijn. Que en quoi vragen naar een ding: que fais-tu ? of tu fais quoi ?"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Lequel' past zich aan in geslacht en getal: laquelle, lesquels, lesquelles.",
+     "antwoord": true,
+     "uitleg": "J'hésite entre ces deux robes. Laquelle préfères-tu ? Met à en de wordt het auquel en duquel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'Sophie a rencontré Paul. Elle lui a tout raconté.' Wie vertelde wat aan wie?",
+     "opties": [
+      "Sophie vertelde alles aan Paul",
+      "Paul vertelde alles aan Sophie",
+      "Sophie vertelde alles aan zichzelf",
+      "iemand anders vertelde het aan hen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Elle is het onderwerp en slaat terug op Sophie. Lui is COI en slaat op Paul. Zo zoek je bij het lezen terug waarnaar een woord verwijst."
+    }
+   ]
+  },
+  {
+   "titel": "Bijvoeglijke naamwoorden, bijwoorden en de trappen — deel 1",
+   "niveau": "boost-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe maak je van 'grand' de gewone vrouwelijke vorm?",
+     "opties": [
+      "je zet er een e achter: grande",
+      "je verandert de d in een t",
+      "je zet er een s achter",
+      "de vorm blijft gelijk"
+     ],
+     "antwoord": 0,
+     "uitleg": "De e is de grondregel. Je hoort hem ook: in grand zwijgt de d, in grande klinkt ze."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vrouwelijke vormen zijn juist?",
+     "opties": [
+      "heureuse",
+      "sportive",
+      "blanche",
+      "beaus",
+      "belle"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Beau wordt belle, en het meervoud is beaux. Woorden op -eux worden -euse, op -f worden -ve, blanc wordt blanche."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul de vrouwelijke vorm in: une histoire … , een gelukkig verhaal, van heureux.",
+     "antwoord": [
+      "heureuse"
+     ],
+     "uitleg": "Eindigt het woord op -eux, dan wordt het -euse: sérieux wordt sérieuse, dangereux wordt dangereuse."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een bijvoeglijk naamwoord dat al op een -e eindigt, krijgt er in het vrouwelijk nog een tweede e bij.",
+     "antwoord": false,
+     "uitleg": "Het verandert gewoon niet: un garçon calme, une fille calme. Hetzelfde bij jeune, facile, rouge en timide."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: de nieuwe huizen?",
+     "opties": [
+      "les nouvelles maisons",
+      "les nouveaux maisons",
+      "les nouvelle maisons",
+      "les nouveau maisons"
+     ],
+     "antwoord": 0,
+     "uitleg": "Maison is vrouwelijk meervoud, dus nouvelles. Nouveau wordt nouvelle, en voor een klinker nouvel: un nouvel ami."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke bijvoeglijke naamwoorden hebben een aparte vorm voor een mannelijk woord dat met een klinker begint?",
+     "opties": [
+      "bon wordt bol",
+      "nouveau wordt nouvel",
+      "vieux wordt vieil",
+      "petit wordt petil"
+     ],
+     "antwoord": [
+      1,
+      2
+     ],
+     "uitleg": "Un nouvel appartement, un vieil arbre. Petit en bon veranderen niet: un petit arbre, un bon ami. Beau heeft wel zo'n vorm: un bel homme."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul in: un … homme, een mooie man, van beau. Eén woord.",
+     "antwoord": [
+      "bel"
+     ],
+     "uitleg": "Beau wordt bel voor een klinker of stomme h, om de twee klinkers uit elkaar te houden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar staat het bijvoeglijk naamwoord in het Frans meestal?",
+     "opties": [
+      "achter het naamwoord",
+      "voor het naamwoord",
+      "aan het einde van de zin",
+      "voor het werkwoord"
+     ],
+     "antwoord": 0,
+     "uitleg": "Une voiture rouge, un livre intéressant. Dat is net omgekeerd aan het Nederlands, en het is de gewoonste fout van beginnende schrijvers."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke bijvoeglijke naamwoorden staan in het Frans wél voor het naamwoord?",
+     "opties": [
+      "grand",
+      "petit",
+      "jeune",
+      "intéressant",
+      "bon"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Een klein groepje korte, veelgebruikte woorden gaat vooraan: beau, bon, grand, gros, jeune, joli, mauvais, nouveau, petit, vieux. De rest komt achteraan."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Un homme grand' en 'un grand homme' betekenen precies hetzelfde.",
+     "antwoord": false,
+     "uitleg": "Un homme grand is een lange man, un grand homme is een groot man in de zin van belangrijk. De plaats verandert de betekenis."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: oude boeken?",
+     "opties": [
+      "de vieux livres",
+      "des vieux livres",
+      "de vieuxs livres",
+      "des vieilles livres"
+     ],
+     "antwoord": 0,
+     "uitleg": "Staat het bijvoeglijk naamwoord voor het naamwoord in het meervoud, dan wordt des gewoon de. Vieux blijft vieux, ook in het meervoud."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Drie van deze meervoudsvormen zijn juist. Welke is fout gespeld?",
+     "opties": [
+      "beaux",
+      "nationaux",
+      "gentils",
+      "heureuxs"
+     ],
+     "antwoord": 3,
+     "uitleg": "Woorden die al op een x eindigen krijgen er geen bij: heureux blijft heureux. Woorden op -al worden -aux, op -eau worden -eaux."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul het meervoud in: des fêtes … , nationale feesten, van national.",
+     "antwoord": [
+      "nationales"
+     ],
+     "uitleg": "Hier is het vrouwelijk meervoud: nationale plus s. Het mannelijk meervoud zou nationaux zijn."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een bijvoeglijk naamwoord na 'être' komt overeen met het onderwerp van de zin.",
+     "antwoord": true,
+     "uitleg": "Elles sont contentes, ils sont contents. Dat heet accord de l'adjectif avec le sujet: het hoort bij de congruentie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Drie van deze zinnen hebben een juiste overeenkomst. In welke zin loopt het mis?",
+     "opties": [
+      "Les filles sont heureuses.",
+      "Marie semble fatiguée.",
+      "Les garçons sont grands.",
+      "Elles sont content."
+     ],
+     "antwoord": 3,
+     "uitleg": "De laatste moet contentes zijn. Ook na sembler, paraître en devenir komt het bijvoeglijk naamwoord overeen met het onderwerp."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een groep met een jongen en drie meisjes: welke vorm is juist?",
+     "opties": [
+      "Ils sont partis.",
+      "Elles sont parties.",
+      "Ils sont parties.",
+      "Elles sont partis."
+     ],
+     "antwoord": 0,
+     "uitleg": "Eén mannelijk element maakt de hele groep mannelijk in het Frans. Grammaticaal gezien, want het is een regel over woorden en niet over mensen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: la porte est … , de deur is open, van ouvert.",
+     "antwoord": [
+      "ouverte"
+     ],
+     "uitleg": "Porte is vrouwelijk, dus ouverte. Je hoort de t nu, en in ouvert niet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Kleuren die eigenlijk de naam van een vrucht of een steen zijn, blijven in het Frans onveranderd.",
+     "antwoord": true,
+     "uitleg": "Des yeux marron, des robes orange. Maar des yeux bleus en des robes vertes veranderen gewoon mee."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitgang krijgt 'sportif' in het vrouwelijk?",
+     "opties": [
+      "sportive",
+      "sportife",
+      "sportifs",
+      "sportieuse"
+     ],
+     "antwoord": 0,
+     "uitleg": "De f wordt een v: actif wordt active, neuf wordt neuve. In het meervoud: sportives."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom helpt de uitgang van een bijvoeglijk naamwoord je bij het lezen?",
+     "opties": [
+      "ze verraadt bij welk naamwoord het woord hoort",
+      "ze geeft de tijd van het werkwoord aan",
+      "ze toont of de zin een vraag is",
+      "ze bepaalt de klemtoon van de zin"
+     ],
+     "antwoord": 0,
+     "uitleg": "Staan er drie naamwoorden in een zin en eindigt het bijvoeglijk naamwoord op -es, dan weet je dat het bij het vrouwelijke meervoud hoort."
+    }
+   ]
+  },
+  {
+   "titel": "Bijvoeglijke naamwoorden, bijwoorden en de trappen — deel 2",
+   "niveau": "boost-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe maak je van een bijvoeglijk naamwoord meestal een bijwoord in het Frans?",
+     "opties": [
+      "je zet -ment achter de vrouwelijke vorm",
+      "je zet -ment achter de mannelijke vorm",
+      "je zet -ement achter de stam",
+      "je zet het woord gewoon achter het werkwoord"
+     ],
+     "antwoord": 0,
+     "uitleg": "Lent wordt lente wordt lentement. Heureux wordt heureuse wordt heureusement. Dat is de regel die bijna altijd werkt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Maak het bijwoord van 'doux': elle parle … . Eén woord.",
+     "antwoord": [
+      "doucement"
+     ],
+     "uitleg": "Doux wordt douce wordt doucement. Via de vrouwelijke vorm kom je er altijd."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke bijwoorden zijn juist gevormd?",
+     "opties": [
+      "rapidement",
+      "vraiment",
+      "facilemente",
+      "bonment"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Facile wordt facilement, niet facilemente. Het bijwoord van bon is bien, volledig onregelmatig. Vrai wordt vraiment zonder e, omdat de klinker al open is."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het bijwoord bij 'bon' is 'bien' en het bijwoord bij 'mauvais' is 'mal'.",
+     "antwoord": true,
+     "uitleg": "C'est un bon film tegenover il joue bien. Een bijvoeglijk naamwoord hoort bij een naamwoord, een bijwoord bij een werkwoord."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar staat een kort bijwoord zoals 'souvent' meestal in een zin met een samengestelde tijd?",
+     "opties": [
+      "tussen het hulpwerkwoord en het deelwoord",
+      "helemaal vooraan in de zin",
+      "helemaal achteraan in de zin",
+      "tussen het onderwerp en het hulpwerkwoord"
+     ],
+     "antwoord": 0,
+     "uitleg": "Il a souvent voyagé. Hetzelfde met toujours, déjà, bien, trop en beaucoup: j'ai beaucoup travaillé."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke bijwoorden zeggen iets over hoe vaak iets gebeurt?",
+     "opties": [
+      "toujours",
+      "parfois",
+      "rarement",
+      "lentement",
+      "souvent"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Lentement zegt hoe, niet hoe vaak. Toujours is altijd, parfois is soms, rarement is zelden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul het bijwoord in dat 'soms' betekent: je vais … au cinéma. Eén woord.",
+     "antwoord": [
+      "parfois",
+      "quelquefois"
+     ],
+     "uitleg": "Parfois of quelquefois. Parfois is een frequent bijwoord."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een bijwoord verandert in het Frans mee met het geslacht van het onderwerp.",
+     "antwoord": false,
+     "uitleg": "Een bijwoord verandert nooit. Elles parlent lentement, ils parlent lentement: dezelfde vorm."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe maak je de vergrotende trap met 'grand'?",
+     "opties": [
+      "plus grand que",
+      "grander que",
+      "le plus grand que",
+      "mieux grand que"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het Frans zet er een woordje voor: plus … que, moins … que, aussi … que. Een uitgang zoals het Nederlandse -er bestaat niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vergelijkingen zijn juist gebouwd?",
+     "opties": [
+      "Il est plus rapide que moi.",
+      "Elle est moins grande que lui.",
+      "Tu es aussi fort comme ton frère.",
+      "Je suis plus mieux que toi."
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Na aussi hoort que, niet comme. En plus mieux bestaat niet: mieux is al een vergrotende trap, dus je suis meilleur que toi."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: ce film est … intéressant que l'autre, deze film is minder interessant. Eén woord.",
+     "antwoord": [
+      "moins"
+     ],
+     "uitleg": "Plus is meer, moins is minder, aussi is even. Na alle drie komt que."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de overtreffende trap van 'intéressant'?",
+     "opties": [
+      "le plus intéressant",
+      "plus intéressant",
+      "très intéressant",
+      "aussi intéressant"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het lidwoord maakt het verschil tussen de vergrotende en de overtreffende trap: plus grand is groter, le plus grand is het grootst."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij de overtreffende trap past het lidwoord zich aan het naamwoord aan: la plus belle ville.",
+     "antwoord": true,
+     "uitleg": "Le, la of les volgens het naamwoord: le plus grand garçon, la plus grande fille, les plus grands arbres."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de onregelmatige vergrotende trap van 'bon'?",
+     "opties": [
+      "meilleur",
+      "plus bon",
+      "mieux",
+      "le bon"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bon wordt meilleur, en bien wordt mieux. Plus bon bestaat niet, net zoals wij niet goeder zeggen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin gebruikt 'mieux' correct?",
+     "opties": [
+      "Elle chante mieux que sa sœur.",
+      "Elle est mieux que sa sœur en chant.",
+      "C'est un mieux chanteur.",
+      "Elle a une mieux voix."
+     ],
+     "antwoord": 0,
+     "uitleg": "Mieux hoort bij een werkwoord: chanter mieux. Bij een naamwoord hoort meilleur: une meilleure voix."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: c'est le … restaurant de la ville, het beste restaurant. Twee woorden.",
+     "antwoord": [
+      "meilleur restaurant",
+      "meilleur"
+     ],
+     "uitleg": "Le meilleur restaurant. Hier staat het lidwoord al in de zin, dus je vult meilleur restaurant in."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Pire' is de onregelmatige vergrotende trap van 'bon'.",
+     "antwoord": false,
+     "uitleg": "Pire hoort bij mauvais: c'est pire que je pensais. De vergrotende trap van bon is meilleur."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe vergelijk je in het Frans twee hoeveelheden: ik heb meer boeken dan jij?",
+     "opties": [
+      "J'ai plus de livres que toi.",
+      "J'ai plus livres que toi.",
+      "J'ai plus des livres que toi.",
+      "J'ai plus que livres de toi."
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij een hoeveelheid komt er de bij: plus de, moins de, autant de. Het lidwoord valt weg, zoals na elke hoeveelheid."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Drie van deze uitdrukkingen vergelijken een hoeveelheid. Welke vergelijkt een eigenschap?",
+     "opties": [
+      "autant de",
+      "plus de",
+      "moins de",
+      "aussi de"
+     ],
+     "antwoord": 3,
+     "uitleg": "Aussi vergelijkt een eigenschap, niet een hoeveelheid: aussi grand que. Bij een hoeveelheid is het autant de."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Elle travaille le plus de toute la classe.' Wat betekent die zin?",
+     "opties": [
+      "zij werkt het hardst van de hele klas",
+      "zij werkt even hard als de klas",
+      "zij werkt minder dan de klas",
+      "zij werkt na de hele klas"
+     ],
+     "antwoord": 0,
+     "uitleg": "Le plus bij een werkwoord blijft altijd le, zonder aanpassing. Alleen bij een naamwoord past het lidwoord zich aan."
+    }
+   ]
+  },
+  {
+   "titel": "Présent, impératif en de wederkerende werkwoorden — deel 1",
+   "niveau": "boost-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitgangen krijgt een regelmatig werkwoord op -er in de présent?",
+     "opties": [
+      "-e, -es, -e, -ons, -ez, -ent",
+      "-s, -s, -t, -ons, -ez, -ent",
+      "-is, -is, -it, -issons, -issez, -issent",
+      "-e, -s, -t, -ons, -ez, -ont"
+     ],
+     "antwoord": 0,
+     "uitleg": "Parler: je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent. De tweede rij hoort bij -re, de derde bij -ir."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vervoeg: nous (parler) français à la maison. Eén werkwoordsvorm.",
+     "antwoord": [
+      "parlons"
+     ],
+     "uitleg": "Nous parlons. De -ons van nous is de uitgang die bij bijna elk werkwoord hetzelfde blijft, ook bij de onregelmatige."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vormen van de présent spreek je in het Frans allemaal hetzelfde uit?",
+     "opties": [
+      "je parle",
+      "tu parles",
+      "ils parlent",
+      "nous parlons",
+      "elle parle"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "De uitgangen -e, -es en -ent zwijgen allemaal. Daarom kan je bij het luisteren de persoon vaak alleen aan het voornaamwoord horen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De uitgang -ent van ils en elles hoor je in het Frans niet.",
+     "antwoord": true,
+     "uitleg": "Ils parlent klinkt als il parle. Bij het lezen zie je het verschil wel, en daarom is de uitgang bij een schrijfopdracht zo belangrijk."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke rij geeft de présent van 'être'?",
+     "opties": [
+      "suis, es, est, sommes, êtes, sont",
+      "ai, as, a, avons, avez, ont",
+      "vais, vas, va, allons, allez, vont",
+      "fais, fais, fait, faisons, faites, font"
+     ],
+     "antwoord": 0,
+     "uitleg": "De tweede rij is avoir, de derde aller, de vierde faire. Die vier zijn de werkwoorden die je het vaakst nodig hebt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vervoeg: vous (être) en retard. Eén werkwoordsvorm.",
+     "antwoord": [
+      "êtes"
+     ],
+     "uitleg": "Vous êtes, met een accent circonflexe. Samen met vous faites en vous dites is dat een van de drie vormen op -tes."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke werkwoorden hebben bij 'vous' de onregelmatige uitgang -tes in plaats van -ez?",
+     "opties": [
+      "être",
+      "faire",
+      "aller",
+      "avoir"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Vous êtes, vous faites. Aller en avoir zijn gewoon vous allez en vous avez. Dire hoort wél bij het groepje: vous dites."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Werkwoorden op -ir zoals 'finir' krijgen in het meervoud -iss- in hun stam.",
+     "antwoord": true,
+     "uitleg": "Je finis, tu finis, il finit, nous finissons, vous finissez, ils finissent. Choisir, réussir en grandir volgen dezelfde weg."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: ik ga naar school?",
+     "opties": [
+      "Je vais à l'école.",
+      "Je va à l'école.",
+      "J'alle à l'école.",
+      "Je allez à l'école."
+     ],
+     "antwoord": 0,
+     "uitleg": "Aller is volledig onregelmatig: vais, vas, va, allons, allez, vont. Alleen nous en vous houden de stam all-."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke werkwoorden veranderen van stam in de présent?",
+     "opties": [
+      "prendre",
+      "venir",
+      "pouvoir",
+      "chanter",
+      "boire"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Je prends tegenover nous prenons, je viens tegenover nous venons, je peux tegenover nous pouvons. Chanter blijft chant- in alle personen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vervoeg: ils (prendre) le bus tous les jours. Eén werkwoordsvorm.",
+     "antwoord": [
+      "prennent"
+     ],
+     "uitleg": "Ils prennent, met dubbele n. In het enkelvoud is het il prend met één n en zonder uitgang."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het Frans heeft een aparte vorm voor 'ik ben aan het lezen', zoals het Engels met I am reading.",
+     "antwoord": false,
+     "uitleg": "Je lis dekt allebei. Wil je het benadrukken, dan zeg je je suis en train de lire."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil tussen 'il parle' en 'parler'?",
+     "opties": [
+      "il parle is vervoegd, parler is de infinitief",
+      "il parle is de verleden tijd, parler het heden",
+      "il parle is meervoud, parler enkelvoud",
+      "er is alleen een verschil in de spelling"
+     ],
+     "antwoord": 0,
+     "uitleg": "Aan de vorm zie je of een werkwoord vervoegd is of niet, en dat bepaalt hoe je de zin leest."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Na drie van deze woorden staat altijd een infinitief. Na welk woord komt een vervoegd werkwoord?",
+     "opties": [
+      "pour",
+      "sans",
+      "il faut",
+      "que"
+     ],
+     "antwoord": 3,
+     "uitleg": "Pour comprendre, sans parler, il faut partir. Na que komt een vervoegd werkwoord: je pense qu'il part."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul de infinitief in: je veux … un livre, ik wil een boek lezen.",
+     "antwoord": [
+      "lire"
+     ],
+     "uitleg": "Na vouloir, pouvoir, devoir en aller komt altijd een infinitief, zonder woordje ertussen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Drie van deze werkwoorden zetten een 'de' of een 'à' voor de infinitief. Welk neemt de infinitief rechtstreeks?",
+     "opties": [
+      "essayer de",
+      "commencer à",
+      "oublier de",
+      "pouvoir"
+     ],
+     "antwoord": 3,
+     "uitleg": "J'essaie de comprendre, je commence à lire, j'ai oublié de téléphoner. Pouvoir, vouloir, devoir en aller nemen rechtstreeks de infinitief."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Je veux de partir' is correct Frans.",
+     "antwoord": false,
+     "uitleg": "Vouloir neemt de infinitief rechtstreeks: je veux partir. De de hoort daar niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin drukt een verplichting uit?",
+     "opties": [
+      "Il faut partir maintenant.",
+      "Il peut partir maintenant.",
+      "Il veut partir maintenant.",
+      "Il aime partir maintenant."
+     ],
+     "antwoord": 0,
+     "uitleg": "Il faut is moeten, pouvoir is kunnen, vouloir is willen. Devoir kan ook moeten: je dois partir."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil tussen 'il doit partir' en 'il faut partir'?",
+     "opties": [
+      "devoir zegt wie moet, il faut laat dat open",
+      "devoir is verleden tijd, il faut heden",
+      "devoir is een vraag, il faut een bevel",
+      "er is helemaal geen verschil"
+     ],
+     "antwoord": 0,
+     "uitleg": "Il faut is onpersoonlijk: men moet, er moet. Wil je zeggen wie, dan gebruik je devoir of il faut que plus de subjonctif."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Drie van deze werkwoorden zijn onpersoonlijk. Welk heeft een echt onderwerp?",
+     "opties": [
+      "il pleut",
+      "il neige",
+      "il faut",
+      "il part"
+     ],
+     "antwoord": 3,
+     "uitleg": "Il part heeft een echt onderwerp: hij vertrekt. Bij pleuvoir, neiger en falloir is il een loos woordje, net als het in het regent."
+    }
+   ]
+  },
+  {
+   "titel": "Présent, impératif en de wederkerende werkwoorden — deel 2",
+   "niveau": "boost-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe maak je de impératif van 'parler' voor tu, nous en vous?",
+     "opties": [
+      "parle, parlons, parlez",
+      "parles, parlons, parlez",
+      "parler, parlons, parlez",
+      "parle, parles, parlez"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je neemt de présent en laat het voornaamwoord weg. Bij een werkwoord op -er valt bovendien de s van tu weg: tu parles wordt parle."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Zet in de bevelende vorm voor tu: (regarder) ce film ! Eén werkwoordsvorm.",
+     "antwoord": [
+      "Regarde",
+      "regarde"
+     ],
+     "uitleg": "Zonder s, want het werkwoord eindigt op -er. Bij finir blijft de s wel staan: finis ton assiette."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De impératif heeft in het Frans maar drie vormen.",
+     "antwoord": true,
+     "uitleg": "Tu, nous en vous. Er bestaat geen bevelende vorm voor il of ils; daarvoor gebruik je qu'il parte, met de subjonctif."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke impératifs zijn onregelmatig gevormd?",
+     "opties": [
+      "sois (être)",
+      "aie (avoir)",
+      "veux (vouloir)",
+      "parle (parler)"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Être, avoir, savoir en vouloir hebben een eigen bevelende vorm, geleend van de subjonctif: sois, aie, sache, veuille. Veux en parle zijn de gewone vormen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe maak je een ontkennend bevel: ne … pas met 'parler' voor vous?",
+     "opties": [
+      "Ne parlez pas.",
+      "Parlez ne pas.",
+      "Ne pas parlez.",
+      "Parlez pas ne."
+     ],
+     "antwoord": 0,
+     "uitleg": "Ne en pas sluiten het vervoegde werkwoord in, ook in een bevel. In de spreektaal valt de ne vaak weg: parlez pas."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar staat het voornaamwoord in een bevestigend bevel?",
+     "opties": [
+      "achter het werkwoord, met een streepje",
+      "voor het werkwoord",
+      "helemaal achteraan in de zin",
+      "voor het onderwerp"
+     ],
+     "antwoord": 0,
+     "uitleg": "Regarde-moi, donne-le, lève-toi. In de ontkenning springt het weer naar voren: ne me regarde pas."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Zet in de bevelende vorm voor tu: (se lever) ! Twee woorden met een streepje.",
+     "antwoord": [
+      "Lève-toi",
+      "lève-toi"
+     ],
+     "uitleg": "Het wederkerende te wordt toi en komt erachter. In de ontkenning wordt het ne te lève pas."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een wederkerend werkwoord heeft in het Frans altijd een voornaamwoord bij zich dat naar het onderwerp verwijst.",
+     "antwoord": true,
+     "uitleg": "Je me lave, tu te laves, il se lave, nous nous lavons, vous vous lavez, ils se lavent. Dat voornaamwoord verandert mee met de persoon."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke werkwoorden zijn in het Frans wederkerend terwijl het Nederlands dat niet is?",
+     "opties": [
+      "se lever",
+      "se promener",
+      "se souvenir",
+      "regarder"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Opstaan, wandelen en zich herinneren: van die drie is enkel zich herinneren ook bij ons wederkerend. Regarder is nooit wederkerend, tenzij je in de spiegel kijkt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: wij haasten ons?",
+     "opties": [
+      "Nous nous dépêchons.",
+      "Nous dépêchons.",
+      "Nous se dépêchons.",
+      "Nous nous dépêcher."
+     ],
+     "antwoord": 0,
+     "uitleg": "Nous staat er twee keer: één keer als onderwerp en één keer als wederkerend voornaamwoord. Dat voelt dubbel maar het is juist."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vervoeg: elles (s'habiller) vite le matin. Twee woorden.",
+     "antwoord": [
+      "s'habillent"
+     ],
+     "uitleg": "Elles s'habillent. Het voornaamwoord se wordt s' voor een klinker."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een wederkerend werkwoord gaat in de passé composé altijd met 'avoir'.",
+     "antwoord": false,
+     "uitleg": "Wederkerende werkwoorden gaan altijd met être: je me suis levé, elle s'est levée. Dat is een van de weinige regels zonder uitzondering."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe maak je de futur proche, de tijd voor iets dat zo meteen gebeurt?",
+     "opties": [
+      "aller in de présent plus de infinitief",
+      "venir de plus de infinitief",
+      "être en train de plus de infinitief",
+      "avoir plus het voltooid deelwoord"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je vais partir, ik ga vertrekken. Het Nederlands bouwt die tijd op precies dezelfde manier."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Zet in de futur proche: nous … manger. Eén werkwoordsvorm.",
+     "antwoord": [
+      "allons"
+     ],
+     "uitleg": "Nous allons manger. Aller wordt hier hulpwerkwoord en verliest zijn betekenis van gaan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe maak je de passé récent, de tijd voor iets dat net gebeurd is?",
+     "opties": [
+      "venir de plus de infinitief",
+      "aller plus de infinitief",
+      "être plus het voltooid deelwoord",
+      "faire plus de infinitief"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je viens d'arriver, ik ben net aangekomen. Zonder die de zou de zin ik kom aankomen betekenen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zinnen gebruiken de passé récent correct?",
+     "opties": [
+      "Je viens de finir.",
+      "Elle vient de partir.",
+      "Nous venons d'arriver.",
+      "Il vient finir."
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Zonder de betekent il vient finir dat hij komt om af te maken. De de is het hele verschil."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Je viens de manger' betekent dat ik zo meteen ga eten.",
+     "antwoord": false,
+     "uitleg": "Het betekent net dat ik gegeten heb. Zo meteen gaan eten is je vais manger. Twee tijden die naast de présent liggen, elk aan een kant."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil tussen de wijzen en de tijden van een werkwoord?",
+     "opties": [
+      "de wijze zegt hoe je iets voorstelt, de tijd wanneer het gebeurt",
+      "de wijze zegt wanneer iets gebeurt, de tijd hoe zeker het is",
+      "de wijze geldt alleen voor onregelmatige werkwoorden",
+      "er is in het Frans geen verschil tussen de twee"
+     ],
+     "antwoord": 0,
+     "uitleg": "Indicatif, impératif, infinitif, subjonctif en conditionnel zijn wijzen. Présent, imparfait en futur zijn tijden binnen zo'n wijze."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Drie van deze namen zijn wijzen. Welke is een tijd?",
+     "opties": [
+      "l'impératif",
+      "le subjonctif",
+      "le conditionnel",
+      "l'imparfait"
+     ],
+     "antwoord": 3,
+     "uitleg": "L'imparfait is een tijd binnen de indicatif. De drie andere zijn wijzen, elk met hun eigen tijden erin."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest 'allez' in een tekst. Wat weet je zeker?",
+     "opties": [
+      "het werkwoord is vervoegd, bij vous of als bevel",
+      "het werkwoord staat in de infinitief",
+      "het werkwoord staat in de verleden tijd",
+      "het werkwoord hoort bij il of elle"
+     ],
+     "antwoord": 0,
+     "uitleg": "Aller is de infinitief, allez de persoonsvorm, allé het voltooid deelwoord. Drie vormen die hetzelfde klinken."
+    }
+   ]
+  },
+  {
+   "titel": "Passé composé, imparfait en plus-que-parfait — deel 2",
+   "niveau": "boost-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Van welke vorm vertrek je om de imparfait te maken?",
+     "opties": [
+      "de nous-vorm van de présent, zonder -ons",
+      "de infinitief, zonder de uitgang -er of -ir",
+      "het voltooid deelwoord van hetzelfde werkwoord",
+      "de je-vorm van de présent, zonder de uitgang"
+     ],
+     "antwoord": 0,
+     "uitleg": "Nous parlons geeft de stam parl-, en daar komt -ais, -ais, -ait, -ions, -iez, -aient bij. Nous finissons geeft finiss-, dus je finissais."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke rij geeft de uitgangen van de imparfait?",
+     "opties": [
+      "-ais, -ais, -ait, -ions, -iez, -aient",
+      "-e, -es, -e, -ons, -ez, -ent",
+      "-ai, -as, -a, -ons, -ez, -ont",
+      "-rais, -rais, -rait, -rions, -riez, -raient"
+     ],
+     "antwoord": 0,
+     "uitleg": "De laatste rij is de conditionnel, die de r van de infinitief behoudt. De derde is de futur simple."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Zet in de imparfait: quand j'étais petit, je (jouer) dehors. Eén werkwoordsvorm.",
+     "antwoord": [
+      "jouais"
+     ],
+     "uitleg": "Nous jouons geeft jou-, dus je jouais. Een gewoonte uit het verleden vraagt altijd de imparfait."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Avoir, aller en faire hebben in de imparfait alle drie een onregelmatige stam.",
+     "antwoord": false,
+     "uitleg": "Ze bouwen alle drie keurig op hun nous-vorm: j'avais, j'allais, je faisais. Être is het enige werkwoord met een echt onregelmatige stam: j'étais."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarvoor gebruik je de imparfait?",
+     "opties": [
+      "voor het decor, een gewoonte of een toestand in het verleden",
+      "voor een gebeurtenis die op één bepaald moment afliep",
+      "voor iets dat vandaag of morgen nog moet gebeuren",
+      "voor een bevel of een vraag aan iemand anders"
+     ],
+     "antwoord": 0,
+     "uitleg": "Il faisait beau, j'avais dix ans, nous allions souvent à la mer. Geen begin en geen einde: de tijd loopt gewoon door."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke tijdsbepalingen kondigen meestal een imparfait aan?",
+     "opties": [
+      "souvent",
+      "chaque été",
+      "d'habitude",
+      "tout à coup"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Tout à coup wijst op een plotse gebeurtenis en dus op de passé composé. De andere wijzen op herhaling of gewoonte."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Je lisais quand le téléphone a sonné.' Waarom staan er twee verschillende tijden in?",
+     "opties": [
+      "lezen was aan de gang, de telefoon ging op één moment",
+      "lezen gebeurde na het telefoontje",
+      "lezen is een gewoonte, bellen niet",
+      "het is een fout; beide moeten in dezelfde tijd staan"
+     ],
+     "antwoord": 0,
+     "uitleg": "De imparfait is de achtergrond, de passé composé de gebeurtenis die erin valt. Dat patroon komt in bijna elk verhaal voor."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul in de imparfait aan: il … beau ce jour-là, het was mooi weer. Eén werkwoordsvorm.",
+     "antwoord": [
+      "faisait"
+     ],
+     "uitleg": "Nous faisons geeft fais-, dus il faisait. Het weer in een verhaal staat bijna altijd in de imparfait."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het Nederlandse 'ik las' kan in het Frans zowel een imparfait als een passé composé zijn.",
+     "antwoord": true,
+     "uitleg": "Je lisais als het aan de gang was, j'ai lu als het af is. Het Nederlands dwingt je niet te kiezen, het Frans wel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zinnen zouden in het Frans in de imparfait staan?",
+     "opties": [
+      "Elke zomer gingen we naar zee.",
+      "Hij was tien jaar toen hij verhuisde.",
+      "Het regende de hele dag.",
+      "Gisteren ben ik naar de tandarts geweest."
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Gisteren ben ik naar de tandarts geweest is één afgerond feit op een bepaalde dag: hier, je suis allé chez le dentiste. De andere zijn gewoonte, leeftijd en decor."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe maak je de plus-que-parfait?",
+     "opties": [
+      "het hulpwerkwoord in de imparfait plus het voltooid deelwoord",
+      "het hulpwerkwoord in de présent plus het voltooid deelwoord",
+      "de stam plus de uitgangen van de futur",
+      "aller in de imparfait plus de infinitief"
+     ],
+     "antwoord": 0,
+     "uitleg": "J'avais mangé, j'étais parti. Wat de passé composé is voor het heden, is de plus-que-parfait voor het verleden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Zet in de plus-que-parfait: quand je suis arrivé, il … déjà parti. Eén woord.",
+     "antwoord": [
+      "était"
+     ],
+     "uitleg": "Partir gaat met être, en in de plus-que-parfait staat dat être in de imparfait: il était parti."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat drukt de plus-que-parfait uit?",
+     "opties": [
+      "iets dat al gebeurd was voor een ander moment in het verleden",
+      "iets dat net gebeurd is op het ogenblik dat je spreekt",
+      "iets dat straks zal gebeuren, kort na dit moment",
+      "een gewoonte die in het verleden bleef doorgaan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Twee lagen in het verleden: quand il est arrivé, le train était déjà parti. Het vertrek ligt vóór de aankomst."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de plus-que-parfait komt het deelwoord met être nog altijd overeen met het onderwerp.",
+     "antwoord": true,
+     "uitleg": "Elles étaient parties. De congruentieregel hangt aan être vast, niet aan de tijd waarin être staat."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke volgorde van gebeurtenissen klopt in 'Il m'a dit qu'il avait perdu ses clés'?",
+     "opties": [
+      "eerst de sleutels kwijt, daarna het zeggen",
+      "eerst het zeggen, daarna de sleutels kwijt",
+      "allebei tegelijk",
+      "allebei in de toekomst"
+     ],
+     "antwoord": 0,
+     "uitleg": "De plus-que-parfait zet de ene gebeurtenis een stap verder terug in de tijd. Dat is precies waarvoor hij dient."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zinnen gebruiken de plus-que-parfait correct?",
+     "opties": [
+      "Elle avait oublié son parapluie.",
+      "Nous étions déjà sortis de la salle.",
+      "Ils s'étaient levés très tôt ce matin-là.",
+      "J'ai avais mangé."
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De laatste stapelt twee hulpwerkwoorden op. Er mag er maar één staan, en het moet in de imparfait staan."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: nous … fini quand ils sont arrivés. Het hulpwerkwoord in de imparfait, één woord.",
+     "antwoord": [
+      "avions"
+     ],
+     "uitleg": "Finir gaat met avoir, dus nous avions fini. Wij waren al klaar toen zij aankwamen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Avait' en 'était' zijn allebei vormen van de futur simple.",
+     "antwoord": false,
+     "uitleg": "Het zijn vormen van de imparfait: il avait van avoir, il était van être. Zie je er een van voor een voltooid deelwoord staan, dan lees je een plus-que-parfait."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest in een verhaal: 'Il pleuvait. Soudain, une voiture a freiné.' Welk verband leggen de twee tijden?",
+     "opties": [
+      "de regen is het decor, het remmen de gebeurtenis",
+      "de regen begon pas na het remmen van de auto",
+      "de twee dingen staan helemaal los van elkaar",
+      "allebei zijn het gewoontes die zich herhaalden"
+     ],
+     "antwoord": 0,
+     "uitleg": "De imparfait schildert, de passé composé vertelt. Wie dat patroon herkent, leest een Frans verhaal veel sneller."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Drie van deze vormen zijn voltooide deelwoorden. Welke is een persoonsvorm?",
+     "opties": [
+      "allé",
+      "fait",
+      "venu",
+      "allez"
+     ],
+     "antwoord": 3,
+     "uitleg": "Allez is de vous-vorm van aller. Allé is het deelwoord. Let bij het lezen goed op dat onderscheid."
+    }
+   ]
+  },
+  {
+   "titel": "Futur, conditionnel en subjonctif — deel 1",
+   "niveau": "boost-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Van welke vorm vertrek je om de futur simple te maken?",
+     "opties": [
+      "de infinitief",
+      "de nous-vorm van de présent",
+      "het voltooid deelwoord",
+      "de je-vorm van de imparfait"
+     ],
+     "antwoord": 0,
+     "uitleg": "Parler geeft je parlerai. Bij werkwoorden op -re valt de e weg: vendre geeft je vendrai."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke rij geeft de uitgangen van de futur simple?",
+     "opties": [
+      "-ai, -as, -a, -ons, -ez, -ont",
+      "-ais, -ais, -ait, -ions, -iez, -aient",
+      "-e, -es, -e, -ons, -ez, -ent",
+      "-s, -s, -t, -ons, -ez, -ent"
+     ],
+     "antwoord": 0,
+     "uitleg": "Die uitgangen zijn de présent van avoir: ai, as, a, (av)ons, (av)ez, ont. Daar komt de futur vandaan."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Zet in de futur simple: demain, je (partir) à huit heures. Eén werkwoordsvorm.",
+     "antwoord": [
+      "partirai"
+     ],
+     "uitleg": "Partir plus -ai geeft je partirai. De r van de infinitief blijft altijd hoorbaar in de futur."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de futur simple en de imparfait hoor je allebei een r voor de uitgang.",
+     "antwoord": false,
+     "uitleg": "De imparfait heeft die r niet: je parlais. De r hoort bij de futur en de conditionnel: je parlerai, je parlerais, j'irai, je viendrai."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke werkwoorden hebben een onregelmatige stam in de futur?",
+     "opties": [
+      "aller geeft ir-",
+      "avoir geeft aur-",
+      "faire geeft fer-",
+      "parler geeft parl-"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Parler is regelmatig. Een kleine groep veelgebruikte werkwoorden heeft een eigen stam: j'irai, j'aurai, je ferai, je serai, je viendrai, je pourrai."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Zet in de futur simple: nous (être) là à midi. Eén werkwoordsvorm.",
+     "antwoord": [
+      "serons"
+     ],
+     "uitleg": "Être heeft de stam ser-: je serai, nous serons. Avoir heeft aur-: j'aurai, nous aurons."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil tussen 'je vais partir' en 'je partirai'?",
+     "opties": [
+      "de eerste ligt dichterbij en klinkt losser dan de tweede",
+      "de eerste is verleden tijd, de tweede toekomst",
+      "de eerste is een vraag, de tweede een bevestiging",
+      "er is helemaal geen verschil in gebruik"
+     ],
+     "antwoord": 0,
+     "uitleg": "De futur proche past bij de spreektaal en bij iets dat zo meteen gebeurt. De futur simple is afstandelijker en past beter in een geschreven tekst."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Na 'quand' gebruikt het Frans de futur als het over de toekomst gaat.",
+     "antwoord": true,
+     "uitleg": "Quand je serai grand, je voyagerai. Het Nederlands zet daar een tegenwoordige tijd: als ik groot ben. Dat verschil kost veel punten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin is juist Frans?",
+     "opties": [
+      "Quand il arrivera, nous mangerons.",
+      "Quand il arrive, nous mangerons.",
+      "Quand il arrivera, nous mangeons.",
+      "Quand il arriverait, nous mangerons."
+     ],
+     "antwoord": 0,
+     "uitleg": "Twee keer de futur, want allebei de handelingen liggen in de toekomst. Dit is een vaste valstrik op een taalexamen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe maak je de conditionnel présent?",
+     "opties": [
+      "de stam van de futur plus de uitgangen van de imparfait",
+      "de stam van de imparfait plus de uitgangen van de futur",
+      "de infinitief plus de uitgangen van de présent",
+      "aller plus de infinitief"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je parlerais: de r van de futur, de -ais van de imparfait. Daarom lijken je parlerai en je parlerais zo op elkaar."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Zet in de conditionnel: je (aimer) aller en France. Eén werkwoordsvorm.",
+     "antwoord": [
+      "aimerais"
+     ],
+     "uitleg": "J'aimerais is ik zou graag. Samen met je voudrais is dat de beleefdste manier om iets te vragen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Je parlerai' en 'je parlerais' klinken in het Frans bijna hetzelfde maar betekenen niet hetzelfde.",
+     "antwoord": true,
+     "uitleg": "Je parlerai is ik zal spreken, je parlerais is ik zou spreken. Eén letter verschil en een heel ander gewicht in de zin."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarvoor gebruik je de conditionnel?",
+     "opties": [
+      "om iets beleefd te vragen of iets voorwaardelijks te zeggen",
+      "om een afgeronde gebeurtenis uit het verleden te vertellen",
+      "om een bevel te geven aan iemand anders",
+      "om een gewoonte uit het verleden te beschrijven"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je voudrais un café, ik zou graag een koffie. En: si j'avais le temps, je viendrais."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zinnen gebruiken de conditionnel de politesse?",
+     "opties": [
+      "Je voudrais réserver une table.",
+      "Pourriez-vous m'aider ?",
+      "J'aimerais vous poser une question.",
+      "Je veux une table."
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De laatste staat in de présent en klinkt als een eis. Met de conditionnel de politesse vraag je het beleefd."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke stam gebruikt 'venir' in de futur en de conditionnel?",
+     "opties": [
+      "viendr-",
+      "venir-",
+      "vien-",
+      "ven-"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je viendrai, je viendrais. Tenir volgt hetzelfde patroon: je tiendrai."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Zet in de conditionnel: il (pouvoir) venir demain, hij zou kunnen komen. Eén werkwoordsvorm.",
+     "antwoord": [
+      "pourrait"
+     ],
+     "uitleg": "Pouvoir heeft de stam pourr- met dubbele r: je pourrai, je pourrais. Voir geeft verr-, en dat lijkt erop."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Nieuws dat nog niet bevestigd is, zet een Franse krant in de futur simple.",
+     "antwoord": false,
+     "uitleg": "Daarvoor dient net de conditionnel: l'accident aurait fait trois blessés, er zouden drie gewonden zijn. Lees je die vorm, dan staat het nog niet vast."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke werkwoorden hebben in de futur een stam met dubbele r?",
+     "opties": [
+      "pouvoir",
+      "voir",
+      "courir",
+      "finir"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Je pourrai, je verrai, je courrai. Finir is regelmatig: je finirai met één r."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest 'il faudrait partir'. Wat betekent dat?",
+     "opties": [
+      "we zouden moeten vertrekken",
+      "we moeten vertrekken",
+      "we hebben moeten vertrekken",
+      "we zullen moeten vertrekken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Il faut wordt in de conditionnel il faudrait, en dat klinkt meteen een stuk zachter dan il faut."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Drie van deze vormen staan in de futur simple. Welke staat in de imparfait?",
+     "opties": [
+      "nous irons",
+      "ils seront",
+      "tu auras",
+      "nous allions"
+     ],
+     "antwoord": 3,
+     "uitleg": "Nous allions is de imparfait van aller. De drie andere hebben de r en de uitgangen van avoir."
+    }
+   ]
+  },
+  {
+   "titel": "Futur, conditionnel en subjonctif — deel 2",
+   "niveau": "boost-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Van welke vorm vertrek je om de subjonctif présent te maken?",
+     "opties": [
+      "de ils-vorm van de présent, zonder -ent",
+      "de infinitief, zonder de uitgang",
+      "de nous-vorm van de imparfait",
+      "het voltooid deelwoord"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ils parlent geeft de stam parl-, en daar komt -e, -es, -e, -ions, -iez, -ent bij: que je parle, que nous parlions."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke werkwoorden hebben een volledig onregelmatige subjonctif?",
+     "opties": [
+      "être geeft que je sois",
+      "avoir geeft que j'aie",
+      "faire geeft que je fasse",
+      "parler geeft que je parle"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Parler is regelmatig. Naast être, avoir en faire zijn ook aller (que j'aille), pouvoir (que je puisse) en savoir (que je sache) onregelmatig."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul de subjonctif in: il faut que tu … attention. Eén werkwoordsvorm van faire.",
+     "antwoord": [
+      "fasses"
+     ],
+     "uitleg": "Que je fasse, que tu fasses. Faire heeft de stam fass- in de subjonctif, en die lijkt op niets anders."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De subjonctif staat in het Frans bijna altijd in een bijzin die met 'que' begint.",
+     "antwoord": true,
+     "uitleg": "Il faut que, je veux que, je suis content que. De subjonctif staat zelden alleen; hij hangt aan een hoofdzin vast."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Na welke uitdrukkingen volgt een subjonctif?",
+     "opties": [
+      "il faut que",
+      "je voudrais que",
+      "je suis content que",
+      "je pense que"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Je pense que gaat met de indicatif: je pense qu'il a raison. Ook il m'a dit que gaat met de indicatif."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom staat er na 'je suis content que' een subjonctif?",
+     "opties": [
+      "omdat de hoofdzin een gevoel uitdrukt",
+      "omdat de hoofdzin een feit vaststelt",
+      "omdat de bijzin in de toekomst ligt",
+      "omdat er twee werkwoorden in de zin staan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Gevoel, wil, twijfel en noodzaak vragen de subjonctif. Een vaststelling of een mededeling vraagt de indicatif."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul de subjonctif van être in: je suis content que tu … là. Eén werkwoordsvorm.",
+     "antwoord": [
+      "sois"
+     ],
+     "uitleg": "Que je sois, que tu sois, qu'il soit, que nous soyons, que vous soyez, qu'ils soient."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Na 'il m'a dit que' komt in het Frans een subjonctif.",
+     "antwoord": false,
+     "uitleg": "Dire geeft informatie door en vraagt de indicatif: il m'a dit qu'il viendrait."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke voegwoorden worden gevolgd door een subjonctif?",
+     "opties": [
+      "pour que",
+      "bien que",
+      "avant que",
+      "parce que"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Parce que geeft een feitelijke reden en gaat met de indicatif. Pour que, bien que en avant que vragen de subjonctif."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin is juist?",
+     "opties": [
+      "Je veux que tu viennes.",
+      "Je veux que tu viens.",
+      "Je veux que tu venir.",
+      "Je veux que tu es venu."
+     ],
+     "antwoord": 0,
+     "uitleg": "Vouloir que vraagt de subjonctif: que tu viennes. Wil je geen bijzin, dan gebruik je gewoon de infinitief: je veux venir."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul de subjonctif van aller in: il faut que j'… chez le médecin. Eén werkwoordsvorm.",
+     "antwoord": [
+      "aille"
+     ],
+     "uitleg": "Que j'aille, que tu ailles, qu'il aille, maar que nous allions. De stam verandert in de nous- en vous-vorm."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Heeft de hoofdzin en de bijzin hetzelfde onderwerp, dan gebruik je liever een infinitief dan een subjonctif.",
+     "antwoord": true,
+     "uitleg": "Je veux partir, en niet je veux que je parte. Pas als de twee onderwerpen verschillen, komt er que met een subjonctif."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin vermijdt terecht de subjonctif?",
+     "opties": [
+      "Je suis content de te voir.",
+      "Je suis content que je te voie.",
+      "Je veux que je parte.",
+      "Il faut que je dois partir."
+     ],
+     "antwoord": 0,
+     "uitleg": "Zelfde onderwerp, dus de plus de infinitief. De drie andere stapelen onnodig of fout."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Drie van deze namen zijn wijzen van het werkwoord. Welke naam is een tijd?",
+     "opties": [
+      "indicatif",
+      "impératif",
+      "subjonctif",
+      "imparfait"
+     ],
+     "antwoord": 3,
+     "uitleg": "L'imparfait is een tijd, geen wijze. Er zijn vijf wijzen: indicatif, impératif, infinitif, subjonctif en conditionnel."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Il est certain qu'il pleuve' staat terecht in de subjonctif.",
+     "antwoord": false,
+     "uitleg": "Zekerheid vraagt de indicatif: il est certain qu'il pleuvra. De subjonctif hoort bij twijfel: il est possible qu'il pleuve."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Drie van deze zinnen staan terecht in de indicatif. In welke zin moet een subjonctif staan?",
+     "opties": [
+      "Je sais qu'il est là.",
+      "Il est sûr que tu as raison.",
+      "Elle dit qu'elle viendra.",
+      "Il faut qu'il est là."
+     ],
+     "antwoord": 3,
+     "uitleg": "De laatste moet il faut qu'il soit là zijn. Zekerheid en mededeling gaan met de indicatif, noodzaak met de subjonctif."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebeurt er met 'je pense que' in de ontkenning?",
+     "opties": [
+      "er komt twijfel bij, en vaak een subjonctif",
+      "er verandert niets aan de wijze",
+      "de bijzin verdwijnt helemaal",
+      "de bijzin wordt een infinitief"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je ne pense pas qu'il ait raison. In de spreektaal hoor je ook de indicatif, maar op een examen schrijf je de subjonctif."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul de subjonctif van avoir in: il faut que tu … du courage. Eén werkwoordsvorm.",
+     "antwoord": [
+      "aies"
+     ],
+     "uitleg": "Que j'aie, que tu aies, qu'il ait, que nous ayons. Let op: qu'il ait zonder d, terwijl il a het in de présent zonder t stelt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest 'bien qu'il soit fatigué, il continue'. Wat betekent bien que hier?",
+     "opties": [
+      "hoewel",
+      "omdat",
+      "zodat",
+      "zodra"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bien que is hoewel, en het vraagt altijd de subjonctif. Parce que is omdat, pour que is zodat, dès que is zodra."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is de subjonctif voor een Nederlandstalige zo lastig?",
+     "opties": [
+      "ons eigen taalgevoel geeft er geen aanwijzing voor",
+      "de vormen zijn langer dan in andere tijden",
+      "hij bestaat alleen in geschreven Frans",
+      "hij heeft geen eigen uitgangen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het Nederlands kent die wijze niet meer, behalve in vaste uitdrukkingen zoals leve de koning. Daarom moet je in het Frans op de uitdrukking letten, niet op je gevoel."
+    }
+   ]
+  },
+  {
+   "titel": "Soorten zinnen, bijzinnen en si-zinnen — deel 1",
+   "niveau": "boost-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn soorten zinnen?",
+     "opties": [
+      "mededelend, vragend, bevelend",
+      "uitroepend, ontkennend, bevestigend",
+      "enkelvoudig en samengesteld",
+      "lang, kort en middellang"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De lijst noemt de zes soorten én het onderscheid tussen enkelvoudige en samengestelde zinnen. De lengte van een zin is geen soort."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel manieren heeft het Frans om een vraag te stellen?",
+     "opties": [
+      "drie: met de toon, met est-ce que, en met omkering",
+      "één: alleen met est-ce que",
+      "twee: met de toon en met een vraagwoord",
+      "vier, maar alleen in de spreektaal"
+     ],
+     "antwoord": 0,
+     "uitleg": "Tu viens ? Est-ce que tu viens ? Viens-tu ? De eerste is spreektaal, de derde de meest verzorgde."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vraagzinnen zijn juist gebouwd?",
+     "opties": [
+      "Est-ce que tu viens ?",
+      "Viens-tu ?",
+      "Tu viens ?",
+      "Est-ce que viens-tu ?"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De laatste stapelt est-ce que en de omkering op elkaar. Je kiest er één van de twee."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Maak een vraag met omkering van 'vous partez'. Twee woorden met een streepje.",
+     "antwoord": [
+      "Partez-vous",
+      "partez-vous"
+     ],
+     "uitleg": "Werkwoord eerst, dan het voornaamwoord, met een streepje ertussen. Dat heet l'inversion."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij de omkering komt er in het Frans nooit een extra letter tussen het werkwoord en het voornaamwoord.",
+     "antwoord": false,
+     "uitleg": "Eindigt het werkwoord op een klinker, dan komt er een t tussen om twee klinkers te scheiden: a-t-il raison, parle-t-elle, va-t-on."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vraagwoorden vragen naar een reden of een manier?",
+     "opties": [
+      "pourquoi",
+      "comment",
+      "de quelle façon",
+      "combien"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Combien vraagt naar een hoeveelheid. Pourquoi is waarom, comment is hoe."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe maak je van 'il parle' een ontkennende zin?",
+     "opties": [
+      "Il ne parle pas.",
+      "Il parle ne pas.",
+      "Il ne pas parle.",
+      "Il pas parle ne."
+     ],
+     "antwoord": 0,
+     "uitleg": "Ne en pas sluiten het vervoegde werkwoord in. In de spreektaal valt de ne vaak weg: il parle pas."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Drie van deze combinaties zijn echte Franse ontkenningen. Welke is dat niet?",
+     "opties": [
+      "ne … jamais",
+      "ne … plus",
+      "ne … rien",
+      "ne … toujours"
+     ],
+     "antwoord": 3,
+     "uitleg": "Toujours is net het tegenovergestelde van een ontkenning. Ne … jamais is nooit, ne … plus is niet meer, ne … rien is niets."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: je ne mange … de viande, ik eet geen vlees meer. Eén woord.",
+     "antwoord": [
+      "plus"
+     ],
+     "uitleg": "Ne … plus betekent niet meer. Let ook op de de: na een ontkenning verdwijnt het lidwoord."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Om te zeggen dat je niemand ziet, schrijf je in het Frans 'je ne vois pas personne'.",
+     "antwoord": false,
+     "uitleg": "Personne vervangt pas: je ne vois personne. Allebei zetten is een dubbele ontkenning. Hetzelfde met rien: je ne comprends rien."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar staan ne en pas in een samengestelde tijd?",
+     "opties": [
+      "rond het hulpwerkwoord",
+      "rond het voltooid deelwoord",
+      "rond de hele werkwoordsgroep",
+      "allebei achter het deelwoord"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je n'ai pas mangé. Het deelwoord staat erbuiten. Bij rien is dat ook zo: je n'ai rien vu."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Drie van deze zinnen zijn uitroepende zinnen. Welke is een vraag?",
+     "opties": [
+      "Quelle belle journée !",
+      "Comme c'est beau !",
+      "Que c'est gentil !",
+      "Est-ce que c'est beau ?"
+     ],
+     "antwoord": 3,
+     "uitleg": "De laatste is een vraag. Quel, comme en que leiden alle drie een uitroep in."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: … belle maison ! Eén uitroepwoord dat bij een naamwoord hoort.",
+     "antwoord": [
+      "Quelle",
+      "quelle"
+     ],
+     "uitleg": "Maison is vrouwelijk, dus quelle. Let op: in een uitroep komt er geen lidwoord bij: quelle belle maison, niet quelle une belle maison."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In het Frans staat er een spatie voor een uitroepteken en een vraagteken.",
+     "antwoord": true,
+     "uitleg": "Quelle idée ! Comment vas-tu ? Dat geldt ook voor de dubbele punt en de puntkomma. Het is een echte spellingregel, geen slordigheid."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil tussen een enkelvoudige en een samengestelde zin?",
+     "opties": [
+      "een samengestelde zin heeft meer dan één persoonsvorm",
+      "een samengestelde zin is langer dan tien woorden",
+      "een samengestelde zin heeft altijd een vraagteken",
+      "een samengestelde zin heeft geen onderwerp"
+     ],
+     "antwoord": 0,
+     "uitleg": "Elke persoonsvorm maakt een eigen zinsdeel. Il mange is enkelvoudig, il mange quand il a faim is samengesteld."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Drie van deze zinsdelen moet je in een Franse zin kunnen aanwijzen. Welk zinsdeel hoort er niet bij?",
+     "opties": [
+      "onderwerp (sujet)",
+      "persoonsvorm (verbe conjugué)",
+      "lijdend voorwerp (COD)",
+      "bijwoordelijke bepaling van plaats"
+     ],
+     "antwoord": 3,
+     "uitleg": "Je moet er vier kunnen aanwijzen: sujet, verbe conjugué, COD en COI. Bepalingen van plaats horen daar niet bij."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het werkwoord komt in het Frans overeen met het onderwerp van de zin.",
+     "antwoord": true,
+     "uitleg": "L'accord du verbe avec le sujet. Les élèves parlent, l'élève parle. Dat is de eerste regel in de rubriek congruentie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin heeft een juiste overeenkomst tussen onderwerp en werkwoord?",
+     "opties": [
+      "Les enfants jouent dans le jardin.",
+      "Les enfants joue dans le jardin.",
+      "L'enfant jouent dans le jardin.",
+      "Les enfant jouent dans le jardin."
+     ],
+     "antwoord": 0,
+     "uitleg": "Meervoudig onderwerp, meervoudig werkwoord, meervoudig naamwoord. Alles moet meebewegen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woordvolgorde is in het Frans de gewone?",
+     "opties": [
+      "onderwerp, werkwoord, voorwerp",
+      "werkwoord, onderwerp, voorwerp",
+      "voorwerp, onderwerp, werkwoord",
+      "onderwerp, voorwerp, werkwoord"
+     ],
+     "antwoord": 0,
+     "uitleg": "Marie mange une pomme. Het Frans houdt die volgorde veel strakker aan dan het Nederlands, dat het werkwoord achteraan kan zetten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom staat 'je le vois' met het voorwerp vóór het werkwoord?",
+     "opties": [
+      "omdat een voornaamwoord als voorwerp altijd vooraan komt",
+      "omdat de zin een vraag is",
+      "omdat het werkwoord onregelmatig is",
+      "omdat de zin in de verleden tijd staat"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een volledig voorwerp blijft achteraan: je vois Pierre. Zodra het een voornaamwoord wordt, springt het naar voren."
+    }
+   ]
+  },
+  {
+   "titel": "Soorten zinnen, bijzinnen en si-zinnen — deel 2",
+   "niveau": "boost-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil tussen een nevenschikkende en een onderschikkende bijzin?",
+     "opties": [
+      "een nevengeschikte zin kan alleen staan, een ondergeschikte niet",
+      "een nevengeschikte zin is korter dan een ondergeschikte",
+      "een nevengeschikte zin staat altijd vooraan",
+      "een nevengeschikte zin heeft geen werkwoord"
+     ],
+     "antwoord": 0,
+     "uitleg": "Il pleut et je reste: twee zinnen die elk op zichzelf kunnen bestaan. Je reste parce qu'il pleut: het tweede deel hangt aan het eerste vast."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke voegwoorden zijn nevenschikkend?",
+     "opties": [
+      "mais",
+      "et",
+      "donc",
+      "parce que"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Parce que maakt een ondergeschikte zin. Mais, ou, et, donc, or, ni en car zijn de zeven nevenschikkende voegwoorden van het Frans."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul het voegwoord in dat 'omdat' betekent: je reste … il pleut. Twee woorden.",
+     "antwoord": [
+      "parce que",
+      "parce qu'"
+     ],
+     "uitleg": "Parce que staat altijd in het midden van de zin. Wil je de reden vooropzetten, dan gebruik je comme: comme il pleut, je reste."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Comme' aan het begin van een zin kan in het Frans een reden aangeven.",
+     "antwoord": true,
+     "uitleg": "Comme il pleuvait, nous sommes restés. Comme is een frequent voegwoord."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke voegwoorden geven een tijd aan?",
+     "opties": [
+      "quand",
+      "dès que",
+      "pendant que",
+      "pour que"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Pour que geeft een doel en vraagt bovendien de subjonctif. Quand is wanneer, dès que is zodra, pendant que is terwijl."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: je travaille … gagner ma vie, om mijn brood te verdienen. Eén woord.",
+     "antwoord": [
+      "pour"
+     ],
+     "uitleg": "Pour plus infinitief als het onderwerp hetzelfde blijft. Verandert het onderwerp, dan wordt het pour que plus subjonctif."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil tussen 'pour' en 'pour que'?",
+     "opties": [
+      "pour gaat met een infinitief, pour que met een subjonctif",
+      "pour gaat met een subjonctif, pour que met een infinitief",
+      "pour is verleden tijd, pour que toekomst",
+      "er is helemaal geen verschil"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je travaille pour réussir, maar je travaille pour que mes enfants réussissent. Twee onderwerpen vragen pour que."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke betrekkelijke bijzinnen zijn juist gebouwd?",
+     "opties": [
+      "la fille qui chante",
+      "le film que j'ai vu",
+      "la ville où je suis né",
+      "le livre qui je lis"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De laatste moet le livre que je lis zijn: er komt een onderwerp achter, dus que en niet qui."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul het betrekkelijk voornaamwoord in: voilà la maison … j'ai grandi. Eén woord.",
+     "antwoord": [
+      "où"
+     ],
+     "uitleg": "Grandir dans une maison, dus een plaats, dus où. Dont zou alleen kunnen als het werkwoord de vroeg."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe ziet een si-zin eruit die over een echte mogelijkheid gaat?",
+     "opties": [
+      "si plus présent, dan futur in het andere deel",
+      "si plus imparfait, dan conditionnel in het andere deel",
+      "si plus futur, dan présent in het andere deel",
+      "si plus conditionnel, dan imparfait in het andere deel"
+     ],
+     "antwoord": 0,
+     "uitleg": "S'il fait beau, j'irai à la mer. Als het echt kan gebeuren, gebruik je présent plus futur."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe ziet een si-zin eruit die over iets onwerkelijks gaat?",
+     "opties": [
+      "si plus imparfait, dan conditionnel in het andere deel",
+      "si plus présent, dan futur in het andere deel",
+      "si plus conditionnel, dan conditionnel in het andere deel",
+      "si plus futur, dan conditionnel in het andere deel"
+     ],
+     "antwoord": 0,
+     "uitleg": "Si j'avais le temps, je viendrais. Ik heb de tijd niet, dus het blijft bij een gedachte."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: si j'avais de l'argent, je … une voiture, van acheter. Eén werkwoordsvorm.",
+     "antwoord": [
+      "achèterais",
+      "acheterais"
+     ],
+     "uitleg": "Na si plus imparfait komt de conditionnel in het andere deel. Nooit een conditionnel ná si zelf."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Na 'si' mag in het Frans nooit een futur of een conditionnel staan.",
+     "antwoord": true,
+     "uitleg": "Si je serais of si j'aurai is altijd fout. Na si staat een présent of een imparfait; de andere tijd komt in het tweede deel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Drie van deze si-zinnen zijn correct. Welke zin is fout?",
+     "opties": [
+      "Si tu veux, nous partirons.",
+      "Si tu voulais, nous partirions.",
+      "S'il pleut, je reste à la maison.",
+      "Si tu voudrais, nous partirions."
+     ],
+     "antwoord": 3,
+     "uitleg": "De laatste zet een conditionnel na si, en dat kan niet. Si tu voulais is de juiste vorm."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Drie van deze uitdrukkingen horen bij vervoer waar je in zit. Welke hoort er niet bij?",
+     "opties": [
+      "en voiture",
+      "en train",
+      "en avion",
+      "à pied"
+     ],
+     "antwoord": 3,
+     "uitleg": "À pied, à vélo en à cheval gaan met à, want je zit erop of je gaat op eigen kracht. De rest gaat met en."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: ils voyagent … Portugal cette année. Eén woord bij een mannelijk land.",
+     "antwoord": [
+      "au"
+     ],
+     "uitleg": "Bij mannelijke landen wordt à + le samen au: au Portugal, au Maroc, au Canada. Bij vrouwelijke blijft het en."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij steden gebruikt het Frans 'en': j'habite en Bruxelles.",
+     "antwoord": false,
+     "uitleg": "Bij steden is het altijd à: à Bruxelles, à Paris, à Liège, à Montréal. Alleen bij landen en streken hangt het van het geslacht af."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn voorzetselgroepen?",
+     "opties": [
+      "grâce à",
+      "à cause de",
+      "en face de",
+      "pour que"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Grâce à en à cause de zijn voorzetselgroepen. En face de is er ook een, maar pour que is een voegwoord."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Il pleut, donc je prends mon parapluie' is een onderschikking, want donc hangt het tweede deel aan het eerste vast.",
+     "antwoord": false,
+     "uitleg": "Het is een nevenschikking: allebei de delen kunnen op zichzelf staan. Donc is een nevenschikkend voegwoord, net als mais en et."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom helpt het bij het lezen om de persoonsvormen in een lange zin te tellen?",
+     "opties": [
+      "zo zie je hoeveel delen de zin heeft en waar ze beginnen",
+      "zo weet je in welke tijd de zin staat",
+      "zo vind je het onderwerp van de tekst",
+      "zo kan je de klemtoon bepalen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Elke persoonsvorm hoort bij een eigen onderwerp. Een zin van vier regels met drie persoonsvormen valt zo in drie leesbare stukken uiteen."
+    }
+   ]
+  }
+ ]
+}

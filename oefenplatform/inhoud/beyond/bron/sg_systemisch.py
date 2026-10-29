@@ -45,7 +45,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke twee theorieën horen volgens de fiche bij de humanistische benadering?",
+        vraag="Welke twee theorieën horen bij de humanistische benadering?",
         opties=[
             "de motivatietheorie",
             "de client centered therapy",
@@ -57,7 +57,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wie hoort in de fiche bij de motivatietheorie?",
+        vraag="Wie hoort bij de motivatietheorie?",
         opties=[
             "Abraham Maslow",
             "Carl Rogers",
@@ -69,7 +69,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wie hoort in de fiche bij de client centered therapy?",
+        vraag="Wie hoort bij de client centered therapy?",
         opties=[
             "Carl Rogers",
             "Abraham Maslow",
@@ -105,7 +105,7 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="De naam uit de fiche bij de motivatietheorie is Abraham ...",
+        vraag="De naam bij de motivatietheorie is Abraham ...",
         antwoord=["Maslow"],
         uitleg="Abraham Maslow. Zijn theorie wordt vaak als een piramide van behoeften getekend.",
     ),
@@ -180,13 +180,13 @@ DEEL1 = [
         type="waarofniet",
         vraag="Maslow en Rogers horen beide bij de humanistische benadering.",
         antwoord=True,
-        uitleg="Waar. De fiche zet precies die twee namen bij de humanistische benadering.",
+        uitleg="Waar. Precies die twee namen horen bij de humanistische benadering.",
     ),
     dict(
         type="invultekst",
-        vraag="De therapievorm van Rogers waarin de persoon zelf het midden is, heet in de fiche de client ... therapy.",
+        vraag="De therapievorm van Rogers waarin de persoon zelf het midden is, heet de client ... therapy.",
         antwoord=["centered"],
-        uitleg="Client centered therapy. De fiche gebruikt de Engelse naam.",
+        uitleg="Client centered therapy. Je gebruikt de Engelse naam.",
     ),
     dict(
         type="meerkeuze",
@@ -247,7 +247,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke twee theorieën horen volgens de fiche bij de systemische benadering?",
+        vraag="Welke twee theorieën horen bij de systemische benadering?",
         opties=[
             "het bio-ecologisch model",
             "de sociaal-culturele theorie",
@@ -339,7 +339,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="In het microsysteem zijn de interacties direct, in het exosysteem indirect.",
         antwoord=True,
-        uitleg="Waar. De fiche noemt directe en indirecte interacties apart. In het microsysteem zit het kind zelf, in het exosysteem niet.",
+        uitleg="Waar. Directe en indirecte interacties zijn verschillend. In het microsysteem zit het kind zelf, in het exosysteem niet.",
     ),
     dict(
         type="waarofniet",
@@ -349,7 +349,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wie hoort in de fiche bij de sociaal-culturele theorie?",
+        vraag="Wie hoort bij de sociaal-culturele theorie?",
         opties=[
             "Lev Vygotsky",
             "Urie Bronfenbrenner",

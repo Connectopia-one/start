@@ -170,9 +170,7 @@ DEEL1 = [
             "de formules gelden enkel voor zware voorwerpen",
         ],
         antwoord=0,
-        uitleg=r"De formules van de fiche rekenen met \(a_{x} = 0\), dus zonder "
-        r"luchtweerstand. Bij een licht voorwerp met veel oppervlak is dat verschil het "
-        r"grootst.",
+        uitleg=r"De formules rekenen met \(a_{x} = 0\), dus zonder luchtweerstand. Bij een licht voorwerp met veel oppervlak is dat verschil het grootst.",
     ),
     dict(
         type="meerkeuze",

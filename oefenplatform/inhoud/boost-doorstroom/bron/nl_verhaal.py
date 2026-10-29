@@ -252,7 +252,7 @@ DEEL2 = [
             "de sprekende verteller",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De fiche noemt ook de vertellende ik-verteller. Een 'sprekende verteller' bestaat niet als term.",
+        uitleg="Er is ook de vertellende ik-verteller. Een 'sprekende verteller' bestaat niet als term.",
     ),
     dict(
         type="meerkeuze",
@@ -295,7 +295,7 @@ DEEL2 = [
         vraag="Welke soorten ruimte onderscheid je in een verhaal?",
         opties=["geografisch", "symbolisch", "sociaal", "chronologisch"],
         antwoord=[0, 1, 2],
-        uitleg="De fiche noemt ook de sfeerscheppende ruimte. Chronologisch hoort bij tijd, niet bij ruimte.",
+        uitleg="Er is ook de sfeerscheppende ruimte. Chronologisch hoort bij tijd, niet bij ruimte.",
     ),
     dict(
         type="waarofniet",
@@ -356,7 +356,7 @@ DEEL2 = [
         vraag="Welke van deze zijn fictiegenres?",
         opties=["gothic novel", "dierenepiek", "graphic novel", "bijsluiter"],
         antwoord=[0, 1, 2],
-        uitleg="Een bijsluiter is prescriptieve non-fictie. De fiche noemt daarnaast onder meer de sage, de legende en de oorlogsroman.",
+        uitleg="Een bijsluiter is prescriptieve non-fictie. Fictiegenres zijn onder meer ook de sage, de legende en de oorlogsroman.",
     ),
     dict(
         type="meerkeuze",

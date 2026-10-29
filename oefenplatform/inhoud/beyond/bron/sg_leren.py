@@ -48,7 +48,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke twee vormen van conditionering horen volgens de fiche bij de behavioristische benadering?",
+        vraag="Welke twee vormen van conditionering horen bij de behavioristische benadering?",
         opties=[
             "de klassieke conditionering",
             "de operante conditionering",
@@ -60,7 +60,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke twee namen zet de fiche bij de klassieke conditionering?",
+        vraag="Welke twee namen horen bij de klassieke conditionering?",
         opties=[
             "Ivan Pavlov",
             "John B. Watson",
@@ -134,7 +134,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Het Little Albert-experiment zou vandaag zonder bezwaar opnieuw mogen worden uitgevoerd.",
         antwoord=False,
-        uitleg="Niet waar. Een kind opzettelijk bang maken komt nooit door een ethische commissie. De fiche noemt het experiment wel, als geschiedenis.",
+        uitleg="Niet waar. Een kind opzettelijk bang maken komt nooit door een ethische commissie. Je leert het experiment wel kennen, als geschiedenis.",
     ),
     dict(
         type="meerkeuze",
@@ -255,7 +255,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wie hoort in de fiche bij de sociaal-cognitieve leertheorie?",
+        vraag="Wie hoort bij de sociaal-cognitieve leertheorie?",
         opties=[
             "Albert Bandura",
             "Jean Piaget",
@@ -263,7 +263,7 @@ DEEL2 = [
             "Lev Vygotsky",
         ],
         antwoord=0,
-        uitleg="Bandura. De fiche noemt zijn theorie een voorloper van de cognitieve benadering.",
+        uitleg="Bandura. Zijn theorie is een voorloper van de cognitieve benadering.",
     ),
     dict(
         type="meerkeuze",
@@ -291,7 +291,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom noemt de fiche de theorie van Bandura een voorloper van de cognitieve benadering en geen zuiver behaviorisme?",
+        vraag="Waarom is de theorie van Bandura een voorloper van de cognitieve benadering en geen zuiver behaviorisme?",
         opties=[
             "omdat leren bij hem ook zonder bekrachtiging gebeurt",
             "omdat hij niet met proefpersonen werkte",
@@ -305,7 +305,7 @@ DEEL2 = [
         type="invultekst",
         vraag="Het woord van Bandura voor gedrag overnemen van iemand naar wie je kijkt, is ...",
         antwoord=["imitatieleren", "modelleren", "imitatie"],
-        uitleg="Imitatieleren, ook modelleren genoemd. De fiche zet beide woorden bij Bandura.",
+        uitleg="Imitatieleren, ook modelleren genoemd. Beide woorden horen bij Bandura.",
     ),
     dict(
         type="meerkeuze",

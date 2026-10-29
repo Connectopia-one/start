@@ -408,7 +408,7 @@ VERVANGINGEN.update(
 # multiculturaliteit, functiewijziging en het veranderende landschap.
 VERVANGINGEN.update(
     {
-        "Welke beïnvloedende factoren noemt de vakfiche bij de keuze tussen stad en platteland? (meerdere antwoorden mogelijk)": dict(
+        "Welke factoren spelen mee bij de keuze om in de stad of op het platteland te wonen? (meerdere antwoorden mogelijk)": dict(
             type="meerkeuze",
             vraag="Welke factoren spelen mee in de keuze tussen de stad en het platteland? Kruis alles aan wat juist is.",
             opties=[
@@ -571,7 +571,7 @@ VERVANGINGEN.update(
             antwoord=["fossiele brandstoffen", "fossiele brandstof", "fossiel"],
             uitleg="Steenkool, aardolie en aardgas zijn fossiele brandstoffen. Ze raken op en komen daarom bij de niet-hernieuwbare energiebronnen te staan.",
         ),
-        "Welke sociaaleconomische factoren noemt de vakfiche bij het industriële proces? (meerdere antwoorden mogelijk)": dict(
+        "Welke sociaaleconomische factoren spelen mee bij de keuze waar een fabriek komt? (meerdere antwoorden mogelijk)": dict(
             type="meerkeuze",
             vraag="Welke sociaaleconomische factoren beïnvloeden het industriële proces? Kruis alles aan wat juist is.",
             opties=[
@@ -609,7 +609,7 @@ VERVANGINGEN.update(
 # geen bodemdegradatie; wel ontbossing, schaalvergroting en de scholingsgraad.
 VERVANGINGEN.update(
     {
-        "Welke fysische factoren beïnvloeden volgens de vakfiche het landbouwproces? (meerdere antwoorden mogelijk)": dict(
+        "Welke fysische factoren beïnvloeden het landbouwproces? (meerdere antwoorden mogelijk)": dict(
             type="meerkeuze",
             vraag="Welke fysische factoren beïnvloeden het landbouwproces? Kruis alles aan wat juist is.",
             opties=[
@@ -734,7 +734,7 @@ VERVANGINGEN.update(
             antwoord=0,
             uitleg="Het land dat de opleiding betaalde, verliest de kennis; het land dat hen ontvangt, wint ze gratis. Daar staat tegenover dat die verpleegkundigen vaak geld naar huis sturen.",
         ),
-        "Welke gevolgen van mondialisering somt de vakfiche op? (meerdere antwoorden mogelijk)": dict(
+        "Welke van deze zijn gevolgen van mondialisering? (meerdere antwoorden mogelijk)": dict(
             type="meerkeuze",
             vraag="Welke gevolgen van mondialisering ken je? Kruis alles aan wat juist is.",
             opties=[
@@ -792,7 +792,7 @@ VERVANGINGEN.update(
             antwoord=True,
             uitleg="Hergebruik van een leegstaand gebouw, bouwen op een oud bedrijfsterrein, een terrein met meerdere functies: dat spaart open ruimte. Nieuwe grond aansnijden is altijd de duurste keuze voor de planeet.",
         ),
-        "Welke gevolgen van verstedelijking op het leefmilieu somt de vakfiche op? (meerdere antwoorden mogelijk)": dict(
+        "Welke van deze zijn gevolgen van verstedelijking op het leefmilieu? (meerdere antwoorden mogelijk)": dict(
             type="meerkeuze",
             vraag="Welke gevolgen heeft verstedelijking voor het leefmilieu? Kruis alles aan wat juist is.",
             opties=[
@@ -869,7 +869,7 @@ VERVANGINGEN.update(
 # en geen albedo; wel de koolstofcyclus tussen de vier sferen.
 VERVANGINGEN.update(
     {
-        "Welke van deze zijn broeikasgassen volgens de vakfiche? (meerdere antwoorden mogelijk)": dict(
+        "Welke van deze zijn broeikasgassen? (meerdere antwoorden mogelijk)": dict(
             type="meerkeuze",
             vraag="Welke van deze gassen werken als broeikasgas? Kruis alles aan wat juist is.",
             opties=[
@@ -949,7 +949,7 @@ VERVANGINGEN.update(
             antwoord=0,
             uitleg="Een gletsjer is een waterreservoir dat in de zomer traag leegloopt. Verdwijnt hij, dan valt dat zomerdebiet weg, net wanneer landbouw en drinkwater het hardst nodig zijn.",
         ),
-        "Welke gevolgen van het versterkte broeikaseffect noemt de vakfiche? (meerdere antwoorden mogelijk)": dict(
+        "Welke van deze zijn gevolgen van het versterkte broeikaseffect? (meerdere antwoorden mogelijk)": dict(
             type="meerkeuze",
             vraag="Welke gevolgen heeft het versterkte broeikaseffect? Kruis alles aan wat juist is.",
             opties=[
@@ -994,7 +994,7 @@ VERVANGINGEN.update(
 # inhoud niet; alleen de verwijzingen naar de fiche gaan uit de vraagtekst.
 VERVANGINGEN.update(
     {
-        "Over welke thema's kan je onderzoek volgens de vakfiche gaan? (meerdere antwoorden mogelijk)": dict(
+        "Over welke thema's kan je onderzoek gaan? (meerdere antwoorden mogelijk)": dict(
             type="meerkeuze",
             vraag="Over welke thema's kan je geografisch onderzoek gaan? Kruis alles aan wat juist is.",
             opties=[
@@ -1007,7 +1007,7 @@ VERVANGINGEN.update(
             antwoord=[0, 1, 2],
             uitleg="Er zijn er vier: mobiliteit, waterproblematieken, veranderend landgebruik en klimaatverandering. Telkens onderzoek je de oorzaken én de gevolgen in het landschap.",
         ),
-        "Welke van deze horen bij de geografische hulpbronnen uit de fiche? (meerdere antwoorden mogelijk)": dict(
+        "Welke van deze zijn geografische hulpbronnen? (meerdere antwoorden mogelijk)": dict(
             type="meerkeuze",
             vraag="Welke van deze horen bij de geografische hulpbronnen? Kruis alles aan wat juist is.",
             opties=[
@@ -1038,7 +1038,7 @@ VERVANGINGEN.update(
             antwoord=0,
             uitleg="Met het meetgereedschap teken je een lijn of een vlak en lees je de lengte of de oppervlakte af. Dat is precies waarvoor het bedoeld is.",
         ),
-        "Waarom vraagt de fiche om uit te leggen hoe de digitale kaart je geholpen heeft én wat haar beperkingen waren?": dict(
+        "Waarom leg je bij een onderzoek uit hoe de digitale kaart je geholpen heeft én wat haar beperkingen waren?": dict(
             type="meerkeuze",
             vraag="Waarom moet je ook uitleggen wat een digitale kaart je níet kon vertellen?",
             opties=[
@@ -1062,7 +1062,7 @@ VERVANGINGEN.update(
             antwoord=True,
             uitleg="Files, geluidsoverlast en luchtvervuiling horen bij hetzelfde thema. Ze zijn gevolgen van dezelfde verkeersstromen.",
         ),
-        "Elk onderdeel van de vakfiche kan in het onderzoeksdeel van het examen terugkomen.": dict(
+        "In het onderzoeksdeel van het examen kan alle leerstof van aardrijkskunde terugkomen.": dict(
             type="waarofniet",
             vraag="Elk onderdeel van je leerstof kan in het onderzoeksdeel van het examen terugkomen.",
             antwoord=True,

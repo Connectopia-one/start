@@ -19,7 +19,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke twee wetenschappen noemt de fiche bij de menswetenschappen?",
+          "vraag": "Welke twee wetenschappen horen bij de menswetenschappen?",
           "opties": [
             "de sociale wetenschappen en de gedragswetenschappen",
             "de natuurkunde, de scheikunde en de sterrenkunde",
@@ -27,7 +27,7 @@
             "de rechtswetenschap, de economie en de geneeskunde"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zet het er met zoveel woorden bij: menswetenschappen zijn de sociale en de gedragswetenschappen."
+          "uitleg": "Menswetenschappen zijn de sociale en de gedragswetenschappen."
         },
         {
           "type": "meerkeuze",
@@ -156,9 +156,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Volgens de fiche horen de sociale en de gedragswetenschappen bij de menswetenschappen.",
+          "vraag": "De sociale en de gedragswetenschappen horen bij de menswetenschappen.",
           "antwoord": true,
-          "uitleg": "Waar. De fiche noemt de menswetenschappen en zet er de sociale en de gedragswetenschappen bij."
+          "uitleg": "Waar. De sociale en de gedragswetenschappen zijn de menswetenschappen."
         },
         {
           "type": "waarofniet",
@@ -188,11 +188,11 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke twee wetenschappen rekent de fiche tot de menswetenschappen? De sociale en de ...",
+          "vraag": "Welke twee wetenschappen horen bij de menswetenschappen? De sociale en de ...",
           "antwoord": [
             "gedragswetenschappen"
           ],
-          "uitleg": "De fiche noemt de sociale en de gedragswetenschappen als de menswetenschappen."
+          "uitleg": "De sociale en de gedragswetenschappen zijn de menswetenschappen."
         },
         {
           "type": "invultekst",
@@ -240,11 +240,11 @@
             "zij weigerden iedere uitspraak over de natuur te doen"
           ],
           "antwoord": 0,
-          "uitleg": "Dat is de stap die de fiche aanwijst: van een verhaal over goden naar een verklaring binnen de natuur zelf, waarover je kan redetwisten."
+          "uitleg": "Dat is de stap: van een verhaal over goden naar een verklaring binnen de natuur zelf, waarover je kan redetwisten."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom ziet de fiche de overgang van mythologie naar natuurfilosofie als het begin van de westerse filosofie?",
+          "vraag": "Waarom zie je de overgang van mythologie naar natuurfilosofie als het begin van de westerse filosofie?",
           "opties": [
             "omdat een verklaring vanaf dan met argumenten verdedigd en betwist kon worden",
             "omdat de mythen vanaf dan niet meer verteld werden",
@@ -322,7 +322,7 @@
             "de wijsgerige antropologie"
           ],
           "antwoord": 0,
-          "uitleg": "De ethiek onderzoekt goed handelen en rechtvaardig samenleven. Dat is in deze fiche het grootste filosofische onderdeel."
+          "uitleg": "De ethiek onderzoekt goed handelen en rechtvaardig samenleven. Dat is hier het grootste filosofische onderdeel."
         },
         {
           "type": "meerkeuze",
@@ -346,7 +346,7 @@
             "de wetenschapsfilosofie"
           ],
           "antwoord": 0,
-          "uitleg": "De logica onderzoekt de vorm van een redenering: de argumentatieleer van deze fiche hoort daar thuis."
+          "uitleg": "De logica onderzoekt de vorm van een redenering: de argumentatieleer hoort daar thuis."
         },
         {
           "type": "meerkeuze",
@@ -358,7 +358,7 @@
             "de wijsgerige antropologie"
           ],
           "antwoord": 0,
-          "uitleg": "De kennisleer vraagt waar kennis vandaan komt. Het rationalisme en het empirisme van deze fiche horen daar thuis."
+          "uitleg": "De kennisleer vraagt waar kennis vandaan komt. Het rationalisme en het empirisme horen daar thuis."
         },
         {
           "type": "meerkeuze",
@@ -376,7 +376,7 @@
           "type": "waarofniet",
           "vraag": "De natuurfilosofen zochten hun verklaringen in de natuur zelf in plaats van bij de goden.",
           "antwoord": true,
-          "uitleg": "Waar. Dat is precies de stap die de fiche als de oorsprong van de westerse filosofie aanwijst."
+          "uitleg": "Waar. Dat is precies de stap die je als de oorsprong van de westerse filosofie ziet."
         },
         {
           "type": "waarofniet",
@@ -388,13 +388,13 @@
           "type": "waarofniet",
           "vraag": "De wetenschapsfilosofie onderzoekt de methode en de grenzen van de wetenschap.",
           "antwoord": true,
-          "uitleg": "Waar. Dat is het domein waarin de falsificatie en het demarcatievraagstuk van deze fiche thuishoren."
+          "uitleg": "Waar. Dat is het domein waarin de falsificatie en het demarcatievraagstuk thuishoren."
         },
         {
           "type": "waarofniet",
           "vraag": "Omdat filosofische vragen geen vast antwoord hebben, is het ene antwoord even goed als het andere.",
           "antwoord": false,
-          "uitleg": "Niet waar. Er zijn wel betere en slechtere argumenten, en daarover valt wel te beslissen. Dat is waarom de fiche de argumentatieleer vraagt."
+          "uitleg": "Niet waar. Er zijn wel betere en slechtere argumenten, en daarover valt wel te beslissen. Daarom leer je argumentatieleer."
         },
         {
           "type": "invultekst",
@@ -420,7 +420,7 @@
             "de ethiek",
             "ethiek"
           ],
-          "uitleg": "De ethiek is in deze fiche het grootste filosofische onderdeel."
+          "uitleg": "De ethiek is hier het grootste filosofische onderdeel."
         },
         {
           "type": "invultekst",
@@ -429,7 +429,7 @@
             "de logica",
             "logica"
           ],
-          "uitleg": "De argumentatieleer van deze fiche hoort bij de logica."
+          "uitleg": "De argumentatieleer hoort bij de logica."
         }
       ]
     },
@@ -440,7 +440,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke vijf bronnen van kennis noemt de fiche?",
+          "vraag": "Wat zijn de vijf bronnen van kennis?",
           "opties": [
             "afleiding, geheugen, introspectie, verhalen en zintuigen",
             "waarneming, meting, experiment, berekening en controle",
@@ -448,7 +448,7 @@
             "zien, horen, ruiken, proeven en voelen samen genomen"
           ],
           "antwoord": 0,
-          "uitleg": "Die vijf staan letterlijk in de fiche. Let op: de zintuigen zijn er maar één van."
+          "uitleg": "Die vijf zijn de bronnen van kennis. Let op: de zintuigen zijn er maar één van."
         },
         {
           "type": "meerkeuze",
@@ -496,7 +496,7 @@
             "de afleiding"
           ],
           "antwoord": 0,
-          "uitleg": "Je hebt het niet zelf meegemaakt: je weet het doordat iemand het je vertelde. Dat is de bron die de fiche verhalen noemt, en ze is zo sterk als haar verteller."
+          "uitleg": "Je hebt het niet zelf meegemaakt: je weet het doordat iemand het je vertelde. Die bron heet verhalen, en ze is zo sterk als haar verteller."
         },
         {
           "type": "meerkeuze",
@@ -589,7 +589,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De zintuigen zijn volgens de fiche één van de vijf bronnen van kennis.",
+          "vraag": "De zintuigen zijn één van de vijf bronnen van kennis.",
           "antwoord": true,
           "uitleg": "Waar. De vijf zijn: afleiding, geheugen, introspectie, verhalen en zintuigen."
         },
@@ -597,7 +597,7 @@
           "type": "waarofniet",
           "vraag": "Introspectie betekent dat je kennis haalt uit wat anderen je vertellen.",
           "antwoord": false,
-          "uitleg": "Niet waar. Introspectie is naar binnen kijken, bij jezelf. Wat anderen je vertellen, is de bron die de fiche verhalen noemt."
+          "uitleg": "Niet waar. Introspectie is naar binnen kijken, bij jezelf. Wat anderen je vertellen, is de bron die verhalen heet."
         },
         {
           "type": "waarofniet",
@@ -679,7 +679,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke filosoof koppelt de fiche aan het rationalisme?",
+          "vraag": "Welke filosoof hoort bij het rationalisme?",
           "opties": [
             "René Descartes",
             "John Locke",
@@ -687,11 +687,11 @@
             "Francis Bacon"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zet Descartes bij het rationalisme, en Locke en Hume bij het empirisme."
+          "uitleg": "Descartes hoort bij het rationalisme, Locke en Hume bij het empirisme."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke filosofen koppelt de fiche aan het empirisme?",
+          "vraag": "Welke filosofen horen bij het empirisme?",
           "opties": [
             "John Locke",
             "David Hume",
@@ -702,7 +702,7 @@
             0,
             1
           ],
-          "uitleg": "Locke en Hume staan in de fiche bij het empirisme en bij de inductieve aanpak."
+          "uitleg": "Locke en Hume horen bij het empirisme en bij de inductieve aanpak."
         },
         {
           "type": "meerkeuze",
@@ -807,9 +807,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Descartes hoort volgens de fiche bij het rationalisme en de deductieve aanpak.",
+          "vraag": "Descartes hoort bij het rationalisme en de deductieve aanpak.",
           "antwoord": true,
-          "uitleg": "Waar. De fiche zet de methodische twijfel en de deductieve aanpak bij hem."
+          "uitleg": "Waar. De methodische twijfel en de deductieve aanpak horen bij hem."
         },
         {
           "type": "waarofniet",
@@ -902,7 +902,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke rol speelt Aristoteles volgens de fiche in het ontstaan van de wetenschappelijke methode?",
+          "vraag": "Welke rol speelt Aristoteles in het ontstaan van de wetenschappelijke methode?",
           "opties": [
             "hij nam de natuur systematisch waar en bracht ze in soorten onder",
             "hij verwierp de waarneming en vertrouwde alleen op het denken",
@@ -914,7 +914,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke rol speelt Francis Bacon volgens de fiche?",
+          "vraag": "Welke rol speelt Francis Bacon?",
           "opties": [
             "hij maakte van de proef en de geordende waarneming een echte methode",
             "hij bewees dat kennis enkel uit het denken kan komen",
@@ -1027,9 +1027,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Volgens de fiche droegen Aristoteles, Francis Bacon en Karl Popper elk bij aan de ontwikkeling van de wetenschappelijke methode.",
+          "vraag": "Aristoteles, Francis Bacon en Karl Popper droegen elk bij aan de ontwikkeling van de wetenschappelijke methode.",
           "antwoord": true,
-          "uitleg": "Waar. De fiche noemt die drie namen bij de wetenschappelijke methode."
+          "uitleg": "Waar. Die drie namen horen bij de wetenschappelijke methode."
         },
         {
           "type": "waarofniet",
@@ -1076,11 +1076,11 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke filosoof uit de oudheid nam volgens de fiche de natuur systematisch waar en bracht ze in soorten onder?",
+          "vraag": "Welke filosoof uit de oudheid nam de natuur systematisch waar en bracht ze in soorten onder?",
           "antwoord": [
             "Aristoteles"
           ],
-          "uitleg": "De fiche noemt Aristoteles, Francis Bacon en Karl Popper bij de wetenschappelijke methode."
+          "uitleg": "Aristoteles, Francis Bacon en Karl Popper horen bij de wetenschappelijke methode."
         }
       ]
     },
@@ -1198,7 +1198,7 @@
             "de tekst vergelijken met een tekst van een andere auteur"
           ],
           "antwoord": 0,
-          "uitleg": "Stap 2 is grondig lezen. De maatstaf die de fiche geeft: je moet het daarna met eigen woorden aan een vriend kunnen uitleggen."
+          "uitleg": "Stap 2 is grondig lezen. De maatstaf: je moet het daarna met eigen woorden aan een vriend kunnen uitleggen."
         },
         {
           "type": "meerkeuze",
@@ -1262,7 +1262,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke filosoof koppelt de fiche aan de falsificatie?",
+          "vraag": "Welke filosoof hoort bij de falsificatie?",
           "antwoord": [
             "Karl Popper",
             "Popper"
@@ -1336,7 +1336,7 @@
             "kennis komt uitsluitend uit de zintuigen"
           ],
           "antwoord": 0,
-          "uitleg": "Parmenides staat in deze fiche voor het monisme in zijn strengste vorm: er is één zijn, en wat op verandering lijkt, misleidt ons."
+          "uitleg": "Parmenides staat voor het monisme in zijn strengste vorm: er is één zijn, en wat op verandering lijkt, misleidt ons."
         },
         {
           "type": "meerkeuze",
@@ -1348,7 +1348,7 @@
             "hij bedacht het woord dualisme"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zet hem in de rij van filosofen over lichaam en geest omdat hij de eenheid van het zijnde verdedigt."
+          "uitleg": "Hij hoort in de rij van filosofen over lichaam en geest omdat hij de eenheid van het zijnde verdedigt."
         },
         {
           "type": "meerkeuze",
@@ -1473,7 +1473,7 @@
           "type": "waarofniet",
           "vraag": "Parmenides verdedigt dat het zijnde één en onveranderlijk is.",
           "antwoord": true,
-          "uitleg": "Waar. Daarom staat hij in deze fiche als het vroege voorbeeld van het monisme."
+          "uitleg": "Waar. Daarom is hij het vroege voorbeeld van het monisme."
         },
         {
           "type": "invultekst",
@@ -1745,7 +1745,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke twee eigenschappen noemt de fiche als mogelijk exclusief menselijk?",
+          "vraag": "Welke twee eigenschappen worden vaak als exclusief menselijk gezien?",
           "opties": [
             "emoties en rede",
             "taal en techniek, net als bij de meeste gereedschapsmakers",
@@ -2052,7 +2052,7 @@
             "onze hersenen kunnen bewustzijn nooit voortbrengen of verklaren"
           ],
           "antwoord": 0,
-          "uitleg": "Swaab staat in deze fiche voor de visie dat bewustzijn hersenwerk is: wij zijn ons brein."
+          "uitleg": "Swaab staat voor de visie dat bewustzijn hersenwerk is: wij zijn ons brein."
         },
         {
           "type": "meerkeuze",
@@ -2331,7 +2331,7 @@
           "type": "waarofniet",
           "vraag": "Bij toeval hoort geen bedoeling; bij een lot hoort er wel een.",
           "antwoord": true,
-          "uitleg": "Waar. Dat is precies het verschil dat de fiche vraagt."
+          "uitleg": "Waar. Dat is precies het verschil."
         },
         {
           "type": "waarofniet",
@@ -3303,7 +3303,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vier richtingen horen bij de normatieve ethiek volgens deze fiche?",
+          "vraag": "Welke vier richtingen horen bij de normatieve ethiek?",
           "opties": [
             "gevolgenethiek, plichtethiek, deugdethiek en zorgethiek",
             "gevolgenethiek, plichtethiek, descriptieve ethiek en zorgethiek",
@@ -4720,7 +4720,7 @@
             0,
             1
           ],
-          "uitleg": "Daarin zit het hele verschil dat de fiche je laat vergelijken."
+          "uitleg": "Daarin zit het hele verschil."
         },
         {
           "type": "meerkeuze",
@@ -5319,7 +5319,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vijf principes noemt de fiche voor een democratische rechtsstaat?",
+          "vraag": "Welke vijf principes horen bij een democratische rechtsstaat?",
           "opties": [
             "meerderheid, grondwet, scheiding der machten, onafhankelijke rechtspraak en grondrechten",
             "meerderheid, grondwet, vrije markt, onafhankelijke pers en grondrechten",
@@ -5354,7 +5354,7 @@
             0,
             1
           ],
-          "uitleg": "Daarom staan de twee woorden in de fiche naast elkaar en niet door elkaar."
+          "uitleg": "Daarom staan de twee woorden naast elkaar en niet door elkaar."
         },
         {
           "type": "meerkeuze",
@@ -6095,7 +6095,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke vijf functies van justitie noemt de fiche?",
+          "vraag": "Wat zijn de vijf functies van justitie?",
           "opties": [
             "preventie, veiligheid, ordehandhaving, conflictbeslechting en bestraffing",
             "preventie, veiligheid, opvoeding, vergelding en schadeherstel voor het slachtoffer",
@@ -6175,7 +6175,7 @@
             "de territoriale bevoegdheid"
           ],
           "antwoord": 0,
-          "uitleg": "Dit is wat men trial by media noemt, en het staat in de fiche bij de actuele thema's."
+          "uitleg": "Dit is wat men trial by media noemt, en het is een actueel thema."
         },
         {
           "type": "meerkeuze",
@@ -6208,7 +6208,7 @@
             "bestraffen is maar één van de vijf functies",
             "preventie werkt al doordat de regel bestaat en gevolgen heeft",
             "conflictbeslechting komt enkel in strafzaken voor",
-            "veiligheid is de enige functie die de fiche noemt"
+            "veiligheid is de enige functie van justitie"
           ],
           "antwoord": [
             0,
@@ -6241,7 +6241,7 @@
             "ze laat elke burger zijn eigen rechter kiezen"
           ],
           "antwoord": 0,
-          "uitleg": "Gelijkheid voor de wet is de belofte. Dat die in de praktijk niet altijd uitkomt, is precies waarover de fiche je laat nadenken."
+          "uitleg": "Gelijkheid voor de wet is de belofte. Dat die in de praktijk niet altijd uitkomt, is precies iets om over na te denken."
         },
         {
           "type": "waarofniet",
@@ -7213,7 +7213,7 @@
             "het Grondwettelijk Hof, dat de wetten toetst"
           ],
           "antwoord": 0,
-          "uitleg": "Naast het CAW noemt de fiche de justitiehuizen, het OCMW en de wetswinkel."
+          "uitleg": "Naast het CAW kan je terecht bij de justitiehuizen, het OCMW en de wetswinkel."
         },
         {
           "type": "meerkeuze",
@@ -7300,7 +7300,7 @@
             0,
             1
           ],
-          "uitleg": "De fiche noemt ook gratis consulten bij advocaten als een vorm van eerstelijnsbijstand."
+          "uitleg": "Ook gratis consulten bij advocaten zijn een vorm van eerstelijnsbijstand."
         },
         {
           "type": "meerkeuze",

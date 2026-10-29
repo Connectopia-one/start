@@ -37,7 +37,7 @@ DEEL1 = [
             "de kleur die de bloemblaadjes van de plant hebben",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De fiche noemt licht, temperatuur en de vochtigheidsgraad van bodem en lucht. De kleur van de bloemblaadjes speelt geen rol in de waterhuishouding.",
+        uitleg="Licht, temperatuur en de vochtigheidsgraad van bodem en lucht spelen mee. De kleur van de bloemblaadjes speelt geen rol in de waterhuishouding.",
     ),
     dict(
         type="waarofniet",
@@ -209,7 +209,7 @@ DEEL2 = [
             "blad, nerf, steeltje en kiem",
         ],
         antwoord=0,
-        uitleg="De fiche noemt vier plantenorganen: de wortel, de stengel, het blad en de bloem. Elk heeft zijn eigen taak in de plant.",
+        uitleg="Er zijn vier plantenorganen: de wortel, de stengel, het blad en de bloem. Elk heeft zijn eigen taak in de plant.",
     ),
     dict(
         type="meerkeuze",

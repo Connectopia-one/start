@@ -87,7 +87,7 @@ DEEL1 = [
         type="invultekst",
         vraag="Het wegduwen van iets te pijnlijks naar het onbewuste heet bij Freud ...",
         antwoord=["verdringing", "verdringen"],
-        uitleg="Verdringing. De fiche zet dat begrip uitdrukkelijk bij het onbewuste.",
+        uitleg="Verdringing. Dat begrip hoort bij het onbewuste.",
     ),
     dict(
         type="meerkeuze",
@@ -231,7 +231,7 @@ DEEL1 = [
             "de drie delen zitten alle drie volledig in het bewuste",
         ],
         antwoord=0,
-        uitleg="Het Es werkt vooral onbewust, het Ich en het Über-ich werken deels bewust en deels onbewust. Dat verband vraagt de fiche uitdrukkelijk.",
+        uitleg="Het Es werkt vooral onbewust, het Ich en het Über-ich werken deels bewust en deels onbewust.",
     ),
 ]
 
@@ -292,7 +292,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wie hoort in de fiche bij de locus of control theory?",
+        vraag="Wie hoort bij de locus of control theory?",
         opties=[
             "Julian Rotter",
             "Albert Bandura",
@@ -346,7 +346,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke twee namen staan in de fiche bij de humanistische benadering van persoonlijkheid?",
+        vraag="Welke twee namen horen bij de humanistische benadering van persoonlijkheid?",
         opties=[
             "Abraham Maslow",
             "Carl Rogers",

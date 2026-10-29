@@ -81,7 +81,7 @@ DEEL1 = [
          antwoord=0,
          uitleg="De landbouwer of de mijn levert de grondstof; daarna volgen de bewerking en de handel."),
     dict(type="meerkeuze",
-         vraag="Welke productiefactoren noemt de vakfiche?",
+         vraag="Welke van deze zijn productiefactoren?",
          opties=[
              "arbeid",
              "kapitaal",
@@ -250,7 +250,7 @@ DEEL2 = [
          antwoord=False,
          uitleg="Juist niet: de producten zijn gelijk, dus de klant kiest op prijs."),
     dict(type="invultekst",
-         vraag="Welke marktvorm bespreekt deze vakfiche? Hoogstens drie woorden.",
+         vraag="Welke marktvorm bespreek je in dit hoofdstuk? Hoogstens drie woorden.",
          antwoord=["volkomen concurrentie", "volledige concurrentie", "perfecte concurrentie"],
          uitleg="Volkomen concurrentie."),
     dict(type="meerkeuze",

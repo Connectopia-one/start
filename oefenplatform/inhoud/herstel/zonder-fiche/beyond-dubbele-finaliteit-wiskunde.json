@@ -1,0 +1,202 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Exponentiële functies — deel 1",
+   "niveau": "beyond-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk voorschrift hoort bij een exponentiële functie?",
+     "opties": [
+      "\\(f(x) = b \\cdot a^{x}\\)",
+      "\\(f(x) = a \\cdot x + b\\)",
+      "\\(f(x) = x^{a}\\)",
+      "\\(f(x) = \\dfrac{a}{x}\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het kenmerk is dat de \\(x\\) in de exponent staat. Staat \\(x\\) in het grondtal, dan is het een machtsfunctie."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In \\(f(x) = b \\cdot a^{x}\\): hoe noem je het getal \\(a\\)?",
+     "antwoord": [
+      "de groeifactor",
+      "groeifactor",
+      "het grondtal"
+     ],
+     "uitleg": "De groeifactor zegt met hoeveel je vermenigvuldigt bij elke stap van één in \\(x\\)."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In \\(f(x) = b \\cdot a^{x}\\): hoe noem je het getal \\(b\\)?",
+     "antwoord": [
+      "de beginwaarde",
+      "beginwaarde",
+      "startwaarde"
+     ],
+     "uitleg": "Dat is de functiewaarde bij \\(x = 0\\), want \\(a^{0}\\) is \\(1\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Bij \\(f(x) = 200 \\cdot 1{,}05^{x}\\): wat is de functiewaarde bij \\(x = 0\\)?",
+     "opties": [
+      "\\(200\\)",
+      "\\(1{,}05\\)",
+      "\\(205\\)",
+      "\\(0\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Elk getal tot de macht nul is \\(1\\), dus je houdt de beginwaarde over."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij een groeifactor groter dan \\(1\\) stijgt de exponentiële functie.",
+     "antwoord": true,
+     "uitleg": "Elke stap vermenigvuldigt met meer dan één, dus de waarde wordt telkens groter."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij een groeifactor tussen \\(0\\) en \\(1\\) stijgt de exponentiële functie.",
+     "antwoord": false,
+     "uitleg": "Dan daalt ze: elke stap vermenigvuldigt met minder dan één, dus de waarde krimpt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke groeifactor hoort bij een dalende exponentiële functie?",
+     "opties": [
+      "\\(0{,}8\\)",
+      "\\(1{,}2\\)",
+      "\\(2\\)",
+      "\\(1\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Alles tussen \\(0\\) en \\(1\\) laat de waarde krimpen. Bij precies \\(1\\) blijft ze gelijk."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom mag de groeifactor niet gelijk zijn aan \\(1\\)?",
+     "opties": [
+      "dan blijft de functie constant",
+      "dan wordt de functie negatief",
+      "dan bestaat de functie niet",
+      "dan is de beginwaarde nul"
+     ],
+     "antwoord": 0,
+     "uitleg": "Met groeifactor \\(1\\) verandert er niets meer, en dan heb je geen exponentiële functie maar een rechte."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De groeifactor van een exponentiële functie mag negatief zijn.",
+     "antwoord": false,
+     "uitleg": "Dan zou de grafiek springen tussen positieve en negatieve waarden. De groeifactor is altijd positief."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "\\(f(x) = 3 \\cdot 2^{x}\\). Hoeveel is \\(f(3)\\)?",
+     "antwoord": [
+      "24",
+      "vierentwintig"
+     ],
+     "uitleg": "\\(2^{3}\\) is \\(8\\), en \\(3 \\cdot 8\\) is \\(24\\)."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "\\(f(x) = 5 \\cdot 2^{x}\\). Hoeveel is \\(f(0)\\)?",
+     "antwoord": [
+      "5",
+      "vijf"
+     ],
+     "uitleg": "Bij \\(x = 0\\) houd je altijd de beginwaarde over."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een exponentiële functie met groeifactor \\(3\\) en beginwaarde \\(2\\). Welke rij hoort erbij?",
+     "opties": [
+      "\\(2\\), \\(6\\), \\(18\\), \\(54\\)",
+      "\\(2\\), \\(5\\), \\(8\\), \\(11\\)",
+      "\\(3\\), \\(6\\), \\(9\\), \\(12\\)",
+      "\\(2\\), \\(4\\), \\(6\\), \\(8\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Elke stap vermenigvuldig je met \\(3\\). De tweede rij telt telkens op en is dus lineair."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke rij groeit lineair en niet exponentieel?",
+     "opties": [
+      "\\(4\\), \\(9\\), \\(14\\), \\(19\\)",
+      "\\(4\\), \\(8\\), \\(16\\), \\(32\\)",
+      "\\(4\\), \\(12\\), \\(36\\), \\(108\\)",
+      "\\(4\\), \\(2\\), \\(1\\), \\(0{,}5\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Daar komt telkens \\(5\\) bij. Bij exponentiële groei vermenigvuldig je telkens met hetzelfde getal."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De grafiek van een stijgende exponentiële functie heeft een toenemende stijging.",
+     "antwoord": true,
+     "uitleg": "Ze wordt steeds steiler, want elke stap levert meer op dan de vorige."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebeurt er met een dalende exponentiële functie als \\(x\\) heel groot wordt?",
+     "opties": [
+      "ze kruipt naar nul toe zonder die te bereiken",
+      "ze wordt negatief",
+      "ze bereikt nul en stopt",
+      "ze gaat weer stijgen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je blijft met een factor kleiner dan één vermenigvuldigen, dus je komt er heel dicht bij, maar nooit op."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De grafiek van een exponentiële functie met positieve beginwaarde zakt na een tijd onder de \\(x\\)-as.",
+     "antwoord": false,
+     "uitleg": "Een positief getal maal een positieve macht blijft positief, hoe ver je ook gaat. De grafiek blijft dus helemaal boven de \\(x\\)-as."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Twee exponentiële functies hebben dezelfde groeifactor, maar de ene heeft beginwaarde \\(10\\) en de andere \\(100\\). Wat is het verschil in hun grafiek?",
+     "opties": [
+      "de tweede ligt tien keer hoger",
+      "de tweede stijgt sneller per stap in procent",
+      "de tweede daalt",
+      "er is geen verschil"
+     ],
+     "antwoord": 0,
+     "uitleg": "De beginwaarde rekt de grafiek verticaal uit. Het groeipercentage per stap blijft hetzelfde."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Twee exponentiële functies hebben dezelfde beginwaarde, maar groeifactor \\(1{,}1\\) en \\(1{,}5\\). Welke stijgt het snelst?",
+     "opties": [
+      "die met groeifactor \\(1{,}5\\)",
+      "die met groeifactor \\(1{,}1\\)",
+      "ze stijgen even snel",
+      "dat hangt van \\(x\\) af"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een grotere groeifactor betekent elke stap een grotere vermenigvuldiging."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "\\(f(x) = 100 \\cdot 0{,}5^{x}\\). Hoeveel is \\(f(2)\\)?",
+     "antwoord": [
+      "25",
+      "vijfentwintig"
+     ],
+     "uitleg": "Na één stap \\(50\\), na twee stappen \\(25\\). Telkens de helft."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je mag een exponentiële grafiek met ICT tekenen en dan de kenmerken aflezen.",
+     "antwoord": true,
+     "uitleg": "Je doet juist allebei: schetsen zonder ICT en nauwkeurig tekenen met ICT."
+    }
+   ]
+  }
+ ]
+}

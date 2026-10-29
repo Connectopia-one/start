@@ -1,0 +1,3257 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "De eigenheid van de filosofie — deel 1",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat onderzoeken de natuurwetenschappen?",
+     "opties": [
+      "de natuur en haar verschijnselen, zoals stof, leven en beweging",
+      "de mens en zijn samenleven met anderen",
+      "de vragen waar geen enkel onderzoek ooit een antwoord op geeft",
+      "de geschiedenis van het denken over goed en kwaad"
+     ],
+     "antwoord": 0,
+     "uitleg": "Natuurwetenschappen zoals fysica, chemie en biologie onderzoeken de natuur. Menswetenschappen onderzoeken de mens en de samenleving."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke twee wetenschappen horen bij de menswetenschappen?",
+     "opties": [
+      "de sociale wetenschappen en de gedragswetenschappen",
+      "de natuurkunde, de scheikunde en de sterrenkunde",
+      "de geneeskunde en de biologie",
+      "de rechtswetenschap, de economie en de geneeskunde"
+     ],
+     "antwoord": 0,
+     "uitleg": "Menswetenschappen zijn de sociale en de gedragswetenschappen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hebben de natuur- en de menswetenschappen met elkaar gemeen?",
+     "opties": [
+      "ze werken beide met onderzoek, met gegevens en met een methode",
+      "ze zoeken beide naar de zin van het bestaan van de mens",
+      "ze kunnen beide hun uitkomsten in een laboratorium nameten",
+      "ze doen beide uitspraken over wat goed en kwaad is"
+     ],
+     "antwoord": 0,
+     "uitleg": "Beide zijn wetenschappen: ze onderbouwen hun uitspraken met gegevens die volgens een methode verzameld zijn, en ze laten zich nakijken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarin verschillen de menswetenschappen van de natuurwetenschappen?",
+     "opties": [
+      "hun onderwerp denkt zelf mee, en een experiment in een labo kan vaak niet",
+      "zij maken helemaal geen gebruik van cijfers of statistiek",
+      "zij hebben geen methode nodig om tot een uitspraak te komen",
+      "zij onderzoeken enkel wat vroeger gebeurd is en niet het heden"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het onderwerp van een menswetenschap is een mens: die weet dat hij onderzocht wordt en past zich aan. Een zuiver experiment is daardoor veel moeilijker."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de eigenheid van de filosofie binnen de menswetenschappen?",
+     "opties": [
+      "ze onderzoekt niet met gegevens maar met redeneren en met begrippen",
+      "ze onderzoekt de mens met vragenlijsten en met statistiek",
+      "ze onderzoekt uitsluitend teksten van filosofen uit de oudheid",
+      "ze onderzoekt het brein en zijn werking met beeldvorming"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een filosoof verzamelt geen gegevens maar denkt na: hij onderzoekt begrippen, veronderstellingen en redeneringen. Zijn gereedschap is het argument."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een socioloog en een filosoof werken beide over het begrip rechtvaardigheid. Wat doet de filosoof?",
+     "opties": [
+      "hij vraagt wat rechtvaardigheid betekent en waarop dat begrip steunt",
+      "hij meet hoeveel mensen hun loon rechtvaardig vinden",
+      "hij beschrijft hoe het begrip in de wetgeving staat",
+      "hij vergelijkt de lonen van twee groepen met elkaar"
+     ],
+     "antwoord": 0,
+     "uitleg": "De socioloog meet wat mensen vinden; de filosoof onderzoekt het begrip zelf en de argumenten eronder."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over de verhouding tussen filosofie en wetenschap kloppen?",
+     "opties": [
+      "filosofie onderzoekt ook de veronderstellingen waarop een wetenschap rust",
+      "filosofie kan vragen stellen die met geen enkele meting te beslechten zijn",
+      "filosofie vervangt de wetenschappen zodra die een vraag niet kunnen oplossen",
+      "filosofie levert zelf meetgegevens aan over de natuur",
+      "filosofie kan de vraag stellen wanneer iets wetenschap mag heten"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4
+     ],
+     "uitleg": "Ze onderzoekt de grond onder een wetenschap, ze stelt vragen die buiten het bereik van een meting liggen, en de vraag wanneer iets wetenschap mag heten is zelf zo een vraag. Ze vervangt geen wetenschap en ze meet zelf niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is filosofische verwondering?",
+     "opties": [
+      "je verbazen over iets dat zo gewoon is dat niemand er nog bij stilstaat",
+      "je verbazen over iets dat nog nooit eerder gebeurd is",
+      "het gevoel dat je iets helemaal niet kan begrijpen en het daarom maar opgeeft",
+      "de bewondering die je voelt bij een mooi kunstwerk"
+     ],
+     "antwoord": 0,
+     "uitleg": "Verwondering is niet schrikken van iets zeldzaams. Ze is het vreemd gaan vinden van het alledaagse: dat er iets is, dat ik besta, dat tijd verstrijkt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is filosofische verwondering noodzakelijk binnen de filosofie?",
+     "opties": [
+      "zonder verwondering komt er geen vraag, en zonder vraag geen filosofie",
+      "zonder verwondering kan je geen gegevens verzamelen",
+      "zonder verwondering kan je geen filosofen uit de oudheid lezen",
+      "zonder verwondering kan een redenering niet geldig zijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "Verwondering is het vertrekpunt: ze maakt het gewone weer een vraag. Wie zich nergens over verwondert, heeft niets om over na te denken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk van deze uitspraken wijst op filosofische verwondering?",
+     "opties": [
+      "waarom zou ik eigenlijk doen wat afgesproken is?",
+      "hoeveel leerlingen van onze school komen met de bus?",
+      "wanneer sluit de bibliotheek vandaag?",
+      "hoeveel graden is het buiten?"
+     ],
+     "antwoord": 0,
+     "uitleg": "De eerste vraag maakt iets alledaags tot een vraag en is met geen meting te beslechten. De drie andere zijn gewoon op te zoeken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een wetenschapper vraagt zich af of zijn vak wel echt objectief is. Wat doet hij?",
+     "opties": [
+      "hij filosofeert over zijn eigen wetenschap",
+      "hij doet een experiment binnen zijn eigen wetenschap",
+      "hij verlaat de wetenschap en kiest voor de mythologie",
+      "hij stelt een vraag die niemand mag stellen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een vraag over de veronderstellingen van een wetenschap is geen vraag ván die wetenschap maar een filosofische vraag: dat is wetenschapsfilosofie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is het moeilijk om in de menswetenschappen een wet te formuleren die altijd opgaat?",
+     "opties": [
+      "mensen verschillen van elkaar en veranderen hun gedrag als ze iets weten",
+      "menswetenschappers mogen geen statistiek gebruiken van hun vakgebied",
+      "er bestaat in de menswetenschappen geen enkele vorm van onderzoek",
+      "menswetenschappen bestaan nog te kort om wetten te hebben"
+     ],
+     "antwoord": 0,
+     "uitleg": "Mensen zijn geen stenen: ze verschillen, ze kiezen zelf mee, en ze passen hun gedrag aan als ze weten wat er van hen verwacht wordt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De sociale en de gedragswetenschappen horen bij de menswetenschappen.",
+     "antwoord": true,
+     "uitleg": "Waar. De sociale en de gedragswetenschappen zijn de menswetenschappen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Filosofie onderscheidt zich van de andere menswetenschappen doordat ze haar uitspraken met meetgegevens onderbouwt.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Juist niet: de filosofie werkt met redeneren en met begrippen. Het onderbouwen met meetgegevens is wat de andere menswetenschappen doen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Filosofische verwondering gaat over wat zeldzaam en spectaculair is.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Ze gaat juist over het alledaagse: dat er iets is, dat ik er ben, dat tijd verstrijkt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een vraag over de veronderstellingen van een wetenschap is zelf een filosofische vraag.",
+     "antwoord": true,
+     "uitleg": "Waar. Die vraag kan je met het onderzoek van die wetenschap niet beslechten; ze hoort bij de wetenschapsfilosofie."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet het je verbazen over wat zo gewoon is dat niemand er nog bij stilstaat? De filosofische ...",
+     "antwoord": [
+      "verwondering"
+     ],
+     "uitleg": "Filosofische verwondering is het vertrekpunt van elke filosofische vraag."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke twee wetenschappen horen bij de menswetenschappen? De sociale en de ...",
+     "antwoord": [
+      "gedragswetenschappen"
+     ],
+     "uitleg": "De sociale en de gedragswetenschappen zijn de menswetenschappen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Fysica, chemie en biologie horen samen bij de ...",
+     "antwoord": [
+      "natuurwetenschappen"
+     ],
+     "uitleg": "Die drie onderzoeken de natuur en haar verschijnselen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Met welk gereedschap onderbouwt een filosoof zijn uitspraak, in plaats van met meetgegevens? Met een ...",
+     "antwoord": [
+      "argument",
+      "redenering"
+     ],
+     "uitleg": "De filosofie werkt met argumenten en redeneringen, niet met metingen."
+    }
+   ]
+  },
+  {
+   "titel": "De eigenheid van de filosofie — deel 2",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat kenmerkt een verklaring uit de mythologie?",
+     "opties": [
+      "ze verklaart de wereld met verhalen over goden en bovennatuurlijke krachten",
+      "ze verklaart de wereld met oorzaken die je in de natuur zelf kan nagaan",
+      "ze verklaart de wereld met redeneringen die je kan nakijken",
+      "ze verklaart de wereld met gegevens uit een experiment"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een mythe geeft een verhaal: de bliksem komt van een god die kwaad is. Dat verhaal valt niet na te gaan en vraagt geen argument."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat deden de natuurfilosofen anders dan de mythologie?",
+     "opties": [
+      "zij zochten een verklaring in de natuur zelf, zonder goden erbij te halen",
+      "zij schreven hun verklaringen op in verhalen over helden",
+      "zij deden hun uitspraken enkel over goed en kwaad",
+      "zij weigerden iedere uitspraak over de natuur te doen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dat is de stap: van een verhaal over goden naar een verklaring binnen de natuur zelf, waarover je kan redetwisten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom zie je de overgang van mythologie naar natuurfilosofie als het begin van de westerse filosofie?",
+     "opties": [
+      "omdat een verklaring vanaf dan met argumenten verdedigd en betwist kon worden",
+      "omdat de mythen vanaf dan niet meer verteld werden",
+      "omdat de natuurfilosofen al met een laboratorium werkten",
+      "omdat de goden vanaf dan uit de verhalen verdwenen waren"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het beslissende is niet dat de goden wegvielen maar dat er een argument kwam: een verklaring die je kan tegenspreken en verbeteren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke kenmerken heeft een filosofische vraag?",
+     "opties": [
+      "ze is niet met een meting of een opzoeking te beslechten",
+      "ze raakt aan de begrippen en de veronderstellingen zelf",
+      "ze heeft precies één antwoord waar iedereen het over eens is",
+      "ze gaat altijd over een gebeurtenis uit het verleden",
+      "ze vraagt ook naar wat zou moeten gelden, niet enkel naar wat het geval is"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4
+     ],
+     "uitleg": "Een filosofische vraag valt niet met een meting te beslechten, raakt aan de begrippen zelf en kan ook naar wat zou moeten gelden vragen. Eén antwoord waar iedereen het over eens is, is er net niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze vragen zijn filosofische vragen?",
+     "opties": [
+      "wat maakt een straf rechtvaardig?",
+      "mag een samenleving iemand straffen om anderen af te schrikken?",
+      "hoeveel gevangenen zitten er vandaag in België?",
+      "welke rechtbank behandelt een diefstal van een fiets?",
+      "wanneer is een straf te zwaar?"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4
+     ],
+     "uitleg": "Die vragen raken aan een begrip en zijn met geen enkele opzoeking te beslechten. Het aantal gevangenen en de bevoegde rechtbank zijn gewoon op te zoeken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze vragen is géén filosofische vraag?",
+     "opties": [
+      "op welke leeftijd mag je in België stemmen?",
+      "bestaat er iets als een vrije wil?",
+      "mag je iemand pijn doen om een ander te sparen?",
+      "kan een machine bewustzijn hebben?"
+     ],
+     "antwoord": 0,
+     "uitleg": "De stemleeftijd staat in de wet: dat is een opzoeking. De drie andere zijn met geen enkel gegeven te beslechten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een vriend zegt: dat is gewoon een kwestie van smaak, daar valt niets over te zeggen. Wat is het filosofische bezwaar?",
+     "opties": [
+      "ook over een smaakoordeel kan je argumenten geven en die wegen",
+      "een smaakoordeel bestaat niet, er is altijd één juist antwoord",
+      "smaak hoort niet bij de filosofie maar bij de natuurwetenschappen",
+      "over smaak kan enkel een wetenschapper een uitspraak doen"
+     ],
+     "antwoord": 0,
+     "uitleg": "De filosofie zegt niet dat er één juist antwoord is, maar wel dat er betere en slechtere argumenten zijn. Daarmee valt er wel iets te zeggen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk filosofisch domein onderzoekt wat goed handelen is?",
+     "opties": [
+      "de ethiek",
+      "de kennisleer",
+      "de logica",
+      "de wijsgerige antropologie"
+     ],
+     "antwoord": 0,
+     "uitleg": "De ethiek onderzoekt goed handelen en rechtvaardig samenleven. Dat is hier het grootste filosofische onderdeel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk filosofisch domein onderzoekt wat de mens is?",
+     "opties": [
+      "de wijsgerige antropologie",
+      "de ethiek",
+      "de logica",
+      "de kennisleer of epistemologie"
+     ],
+     "antwoord": 0,
+     "uitleg": "De wijsgerige antropologie vraagt wat een mens is: lichaam en geest, mens en dier, vrijheid en determinisme."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk filosofisch domein onderzoekt wanneer een redenering geldig is?",
+     "opties": [
+      "de logica",
+      "de ethiek",
+      "de wijsgerige antropologie",
+      "de wetenschapsfilosofie"
+     ],
+     "antwoord": 0,
+     "uitleg": "De logica onderzoekt de vorm van een redenering: de argumentatieleer hoort daar thuis."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk filosofisch domein onderzoekt hoe wij aan kennis komen?",
+     "opties": [
+      "de kennisleer",
+      "de ethiek",
+      "de esthetica",
+      "de wijsgerige antropologie"
+     ],
+     "antwoord": 0,
+     "uitleg": "De kennisleer vraagt waar kennis vandaan komt. Het rationalisme en het empirisme horen daar thuis."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat maakt van een reeks vragen een filosofisch domein?",
+     "opties": [
+      "de vragen gaan over hetzelfde soort onderwerp en hangen met elkaar samen",
+      "de vragen zijn alle door een en dezelfde filosoof gesteld en beantwoord",
+      "de vragen hebben alle een antwoord gekregen",
+      "de vragen komen alle uit dezelfde eeuw"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een domein bundelt vragen die over hetzelfde soort onderwerp gaan: over kennis, over goed handelen, over de mens, over geldige redeneringen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De natuurfilosofen zochten hun verklaringen in de natuur zelf in plaats van bij de goden.",
+     "antwoord": true,
+     "uitleg": "Waar. Dat is precies de stap die je als de oorsprong van de westerse filosofie ziet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een vraag is filosofisch zodra niemand het antwoord kent.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Hoeveel sterren er zijn, weet niemand precies, en dat is geen filosofische vraag. Het gaat erom dat een meting de vraag niet kan beslechten."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De wetenschapsfilosofie onderzoekt de methode en de grenzen van de wetenschap.",
+     "antwoord": true,
+     "uitleg": "Waar. Dat is het domein waarin de falsificatie en het demarcatievraagstuk thuishoren."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Omdat filosofische vragen geen vast antwoord hebben, is het ene antwoord even goed als het andere.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Er zijn wel betere en slechtere argumenten, en daarover valt wel te beslissen. Daarom leer je argumentatieleer."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet een verklaring van de wereld met verhalen over goden?",
+     "antwoord": [
+      "mythologie",
+      "een mythe"
+     ],
+     "uitleg": "De westerse filosofie onderscheidt zich van de mythologie doordat ze met argumenten werkt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet de denkers die als eersten een verklaring in de natuur zelf zochten? De ...",
+     "antwoord": [
+      "natuurfilosofen"
+     ],
+     "uitleg": "De natuurfilosofie staat tussen de mythologie en de latere wetenschap in."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk filosofisch domein onderzoekt goed handelen en rechtvaardig samenleven?",
+     "antwoord": [
+      "de ethiek",
+      "ethiek"
+     ],
+     "uitleg": "De ethiek is hier het grootste filosofische onderdeel."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk filosofisch domein onderzoekt of een redenering geldig is?",
+     "antwoord": [
+      "de logica",
+      "logica"
+     ],
+     "uitleg": "De argumentatieleer hoort bij de logica."
+    }
+   ]
+  },
+  {
+   "titel": "Bronnen van kennis, rationalisme en empirisme — deel 1",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zijn de vijf bronnen van kennis?",
+     "opties": [
+      "afleiding, geheugen, introspectie, verhalen en zintuigen",
+      "waarneming, meting, experiment, berekening en controle",
+      "deductie, inductie, abductie, intuïtie en traditie",
+      "zien, horen, ruiken, proeven en voelen samen genomen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Die vijf zijn de bronnen van kennis. Let op: de zintuigen zijn er maar één van."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je weet dat je gisteren aan zee was. Welke bron van kennis is dat?",
+     "opties": [
+      "het geheugen",
+      "de zintuigen",
+      "de introspectie",
+      "een verhaal van iemand"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wat je zelf hebt meegemaakt en opgeslagen, komt uit je geheugen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je weet dat je je op dit moment zenuwachtig voelt. Welke bron van kennis is dat?",
+     "opties": [
+      "de introspectie",
+      "de zintuigen",
+      "het geheugen",
+      "de afleiding"
+     ],
+     "antwoord": 0,
+     "uitleg": "Introspectie is naar binnen kijken: wat je over je eigen gedachten en gevoelens te weten komt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "De straat is nat, dus het heeft geregend. Welke bron van kennis gebruik je hier?",
+     "opties": [
+      "de afleiding",
+      "de zintuigen alleen",
+      "het geheugen",
+      "een verhaal"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je neemt de natte straat waar, maar dat het geregend heeft zie je niet: dat leid je af. Afleiding bouwt verder op iets wat je al weet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je weet dat je overgrootmoeder in de oorlog een onderduiker verborg. Welke bron van kennis is dat?",
+     "opties": [
+      "een verhaal",
+      "het geheugen",
+      "de introspectie",
+      "de afleiding"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je hebt het niet zelf meegemaakt: je weet het doordat iemand het je vertelde. Die bron heet verhalen, en ze is zo sterk als haar verteller."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over de bronnen van kennis kloppen?",
+     "opties": [
+      "één overtuiging kan op verschillende bronnen tegelijk steunen",
+      "geen enkele bron geeft op zich een waarborg dat je het juist hebt",
+      "een verhaal is altijd minder betrouwbaar dan een zintuiglijke waarneming",
+      "introspectie geeft als enige bron altijd zekerheid",
+      "ook je geheugen kan je bedriegen"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4
+     ],
+     "uitleg": "Bronnen werken samen, en elk van de vijf kan je bedriegen: ook je geheugen, ook je ogen, ook je blik naar binnen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zien de gevangenen in de grotallegorie van Plato?",
+     "opties": [
+      "schaduwen op de wand van de grot",
+      "de voorwerpen zelf, vlak voor hun ogen",
+      "het daglicht buiten de grot, in de verte",
+      "elkaar, en verder helemaal niets"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ze zitten vastgebonden met hun gezicht naar de wand en zien enkel de schaduwen van wat er achter hen voorbijgedragen wordt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarvoor staan de schaduwen in de grotallegorie?",
+     "opties": [
+      "voor wat onze zintuigen ons tonen: een afbeeldsel, niet de zaak zelf",
+      "voor de waarheid die iedereen vanzelf al kent",
+      "voor de verhalen die mensen elkaar vertellen over vroeger",
+      "voor de gevoelens die ons denken in de weg zitten"
+     ],
+     "antwoord": 0,
+     "uitleg": "De schaduw lijkt op het ding maar is het ding niet. Zo staat de waarneming tegenover de werkelijkheid zelf."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebeurt er in de allegorie met de gevangene die naar buiten gaat?",
+     "opties": [
+      "hij wordt verblind door het licht en moet aan het kijken wennen",
+      "hij ziet meteen alles helder en begrijpt alles in één keer",
+      "hij merkt dat er buiten de grot niets te zien valt",
+      "hij blijft liever buiten en keert nooit naar de grot terug"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het licht doet eerst pijn. Plato laat daarmee zien dat inzicht niet vanzelf komt en in het begin onaangenaam is."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is volgens de grotallegorie het verschil tussen waarneming en kennis?",
+     "opties": [
+      "waarneming geeft hoe iets lijkt, kennis geeft hoe het werkelijk is",
+      "waarneming is wat je zelf ziet, kennis is wat anderen je vertellen",
+      "waarneming is zeker, kennis blijft altijd een vermoeden",
+      "waarneming is van nu, kennis gaat alleen over vroeger"
+     ],
+     "antwoord": 0,
+     "uitleg": "Waarnemen is de schaduw zien. Kennis is begrijpen wat de schaduw werpt, en daarvoor heb je je verstand nodig."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een stok in het water lijkt geknikt en is het niet. Wat toont dat volgens Plato?",
+     "opties": [
+      "dat de zintuigen ons kunnen bedriegen en het verstand moet nakijken",
+      "dat de zintuigen altijd de werkelijkheid juist weergeven",
+      "dat water geen deel uitmaakt van de werkelijke wereld",
+      "dat kennis onmogelijk is en we dus niets kunnen weten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Precies het punt van de grot: wat je ziet, is niet zomaar hoe het is. Plato besluit daaruit niet dat kennis onmogelijk is, wel dat je er je verstand bij nodig hebt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom gelooft de teruggekeerde gevangene in de allegorie niemand?",
+     "opties": [
+      "de anderen kennen alleen de schaduwen en houden die voor de werkelijkheid",
+      "de anderen hebben hem nooit gekend en vertrouwen hem daarom niet",
+      "hij kan niet meer praten na zijn verblijf in het daglicht",
+      "hij wil zelf niet vertellen wat hij buiten gezien heeft"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wie nooit iets anders zag dan schaduwen, vindt een verhaal over de zon ongeloofwaardig. Dat is het ongemakkelijke slot van de allegorie."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De zintuigen zijn één van de vijf bronnen van kennis.",
+     "antwoord": true,
+     "uitleg": "Waar. De vijf zijn: afleiding, geheugen, introspectie, verhalen en zintuigen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Introspectie betekent dat je kennis haalt uit wat anderen je vertellen.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Introspectie is naar binnen kijken, bij jezelf. Wat anderen je vertellen, is de bron die verhalen heet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de grotallegorie staan de schaduwen voor de werkelijkheid zoals ze echt is.",
+     "antwoord": false,
+     "uitleg": "Niet waar. De schaduwen staan voor wat onze zintuigen ons tonen: een afbeeldsel van de werkelijkheid, niet de werkelijkheid zelf."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Plato besluit uit de grotallegorie dat je je verstand nodig hebt om van waarneming naar kennis te komen.",
+     "antwoord": true,
+     "uitleg": "Waar. De waarneming geeft de schijn; het verstand brengt je bij het inzicht."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet de bron van kennis waarbij je naar je eigen gedachten en gevoelens kijkt?",
+     "antwoord": [
+      "introspectie",
+      "de introspectie"
+     ],
+     "uitleg": "Introspectie betekent letterlijk naar binnen kijken."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet de bron van kennis waarbij je uit iets wat je al weet iets nieuws besluit?",
+     "antwoord": [
+      "afleiding",
+      "de afleiding"
+     ],
+     "uitleg": "De straat is nat, dus het heeft geregend: dat is afleiding."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke allegorie van Plato gaat over gevangenen die naar schaduwen kijken? De ...",
+     "antwoord": [
+      "grotallegorie"
+     ],
+     "uitleg": "De grotallegorie laat het verschil zien tussen waarneming en kennis."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Wat geeft volgens Plato enkel de schijn van de dingen: de waarneming of de kennis?",
+     "antwoord": [
+      "de waarneming",
+      "waarneming"
+     ],
+     "uitleg": "De waarneming geeft hoe iets lijkt; kennis geeft hoe het werkelijk is."
+    }
+   ]
+  },
+  {
+   "titel": "Bronnen van kennis, rationalisme en empirisme — deel 2",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar komt kennis volgens het rationalisme vandaan?",
+     "opties": [
+      "uit de rede, uit het denken zelf",
+      "uit de ervaring en de zintuigen van de mens",
+      "uit de verhalen die een samenleving doorgeeft",
+      "uit de metingen die een onderzoeker verzamelt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ratio betekent rede. Voor een rationalist is het denken de betrouwbaarste weg naar kennis."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar komt kennis volgens het empirisme vandaan?",
+     "opties": [
+      "uit de ervaring, uit wat je waarneemt",
+      "uit de rede, die geen ervaring nodig heeft",
+      "uit de wiskunde, die altijd zeker is",
+      "uit de overlevering van vroegere generaties"
+     ],
+     "antwoord": 0,
+     "uitleg": "Empirie betekent ervaring. Voor een empirist begint alle kennis bij de waarneming."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke filosoof hoort bij het rationalisme?",
+     "opties": [
+      "René Descartes",
+      "John Locke",
+      "David Hume",
+      "Francis Bacon"
+     ],
+     "antwoord": 0,
+     "uitleg": "Descartes hoort bij het rationalisme, Locke en Hume bij het empirisme."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke filosofen horen bij het empirisme?",
+     "opties": [
+      "John Locke",
+      "David Hume",
+      "René Descartes",
+      "Plato"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Locke en Hume horen bij het empirisme en bij de inductieve aanpak."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de methodische twijfel van Descartes?",
+     "opties": [
+      "alles wat ook maar enigszins te betwijfelen valt voorlopig verwerpen",
+      "nooit iets geloven van wat een ander je vertelt over de wereld",
+      "aan alles twijfelen en daar ook nooit meer uit geraken",
+      "pas twijfelen als iemand je een tegenargument heeft gegeven"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het is een methode, geen levenshouding: hij twijfelt met opzet aan alles, om te zien wat er overblijft dat niet te betwijfelen valt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat blijft er bij Descartes na de methodische twijfel overeind?",
+     "opties": [
+      "dat hij denkt, en dus bestaat",
+      "dat zijn lichaam bestaat, want dat voelt hij",
+      "dat de wereld buiten hem bestaat zoals hij ze ziet",
+      "dat zijn herinneringen allemaal juist zijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ik kan aan alles twijfelen, maar niet aan het feit dat ik twijfel, en wie twijfelt denkt. Ik denk, dus ik ben."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een deductieve aanpak?",
+     "opties": [
+      "van een algemene regel naar een besluit over een afzonderlijk geval",
+      "van losse waarnemingen naar een algemene regel",
+      "van een vermoeden naar een experiment dat het bevestigt",
+      "van een verhaal naar de les die eruit te trekken valt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Deductie gaat van algemeen naar bijzonder. Alle mensen zijn sterfelijk, Socrates is een mens, dus Socrates is sterfelijk."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een inductieve aanpak?",
+     "opties": [
+      "van losse waarnemingen naar een algemene regel",
+      "van een algemene regel naar een afzonderlijk geval",
+      "van een besluit terug naar de veronderstelling erachter",
+      "van een begrip naar de definitie ervan in een woordenboek"
+     ],
+     "antwoord": 0,
+     "uitleg": "Inductie gaat van bijzonder naar algemeen. Ik zag duizend witte zwanen, dus alle zwanen zijn wit."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over deductie en inductie kloppen?",
+     "opties": [
+      "een geldige deductie met ware premissen geeft een zeker besluit",
+      "een inductie blijft altijd een besluit dat door nieuwe waarnemingen kan sneuvelen",
+      "inductie geeft meer zekerheid dan deductie, omdat ze op feiten steunt",
+      "deductie levert als enige nieuwe kennis over de wereld op",
+      "een deductie leert niets nieuws over de wereld"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4
+     ],
+     "uitleg": "Deductie is zeker maar leert niets nieuws over de wereld; inductie leert wel iets nieuws maar nooit met zekerheid."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een onderzoeker bekijkt duizend gevallen en besluit daaruit een regel. Welke stroming en welke aanpak herken je?",
+     "opties": [
+      "het empirisme, met een inductieve aanpak",
+      "het rationalisme, met een deductieve aanpak",
+      "het empirisme, met een deductieve aanpak",
+      "het rationalisme, met een inductieve aanpak"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hij vertrekt van ervaring (empirisme) en gaat van de gevallen naar de regel (inductie)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Iemand zet zich aan tafel, verwerpt alles waaraan te twijfelen valt en bouwt van daaruit stap voor stap verder. Welke stroming herken je?",
+     "opties": [
+      "het rationalisme",
+      "het empirisme",
+      "de mythologie",
+      "de natuurfilosofie"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hij gebruikt geen ervaring maar enkel zijn denken, en werkt van een zeker beginpunt naar besluiten toe. Dat is het rationalisme van Descartes."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de B van de AUB-methode?",
+     "opties": [
+      "bijvoorbeeld: een voorbeeld dat je argument duidelijk maakt",
+      "bewijs: het onderzoek waarop je argument steunt",
+      "besluit: de zin waarmee je je betoog afsluit",
+      "bezwaar: het tegenargument dat je eerst weerlegt"
+     ],
+     "antwoord": 0,
+     "uitleg": "AUB staat voor Argument, Uitleg en Bijvoorbeeld. Eerst noem je je argument, dan leg je het uit, dan maak je het met een voorbeeld duidelijk."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Descartes hoort bij het rationalisme en de deductieve aanpak.",
+     "antwoord": true,
+     "uitleg": "Waar. De methodische twijfel en de deductieve aanpak horen bij hem."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De methodische twijfel van Descartes is bedoeld om nooit meer iets zeker te weten.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Het omgekeerde: hij twijfelt met opzet aan alles om te vinden wat niet te betwijfelen valt, en daarop bouwt hij verder."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Inductie gaat van losse waarnemingen naar een algemene regel.",
+     "antwoord": true,
+     "uitleg": "Waar. Deductie gaat de andere kant op: van een algemene regel naar een afzonderlijk geval."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Volgens het empirisme kan je kennis opbouwen zonder ooit iets waar te nemen.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Voor een empirist begint alle kennis bij de ervaring. Dat kennis zonder ervaring kan, is juist de stelling van het rationalisme."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke stroming laat alle kennis bij de ervaring beginnen?",
+     "antwoord": [
+      "het empirisme",
+      "empirisme"
+     ],
+     "uitleg": "Empirie betekent ervaring. Locke en Hume horen erbij."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke stroming laat kennis uit de rede zelf komen?",
+     "antwoord": [
+      "het rationalisme",
+      "rationalisme"
+     ],
+     "uitleg": "Ratio betekent rede. Descartes hoort erbij."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet de redenering van een algemene regel naar een afzonderlijk geval?",
+     "antwoord": [
+      "deductie",
+      "een deductie"
+     ],
+     "uitleg": "Deductie gaat van algemeen naar bijzonder; inductie de andere kant op."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Waar staan de drie letters van de AUB-methode voor? Argument, uitleg en ...",
+     "antwoord": [
+      "bijvoorbeeld"
+     ],
+     "uitleg": "Eerst het argument, dan de uitleg, dan een voorbeeld."
+    }
+   ]
+  },
+  {
+   "titel": "Van natuurfilosofie naar wetenschap: falsificatie en demarcatie — deel 1",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat deed de natuurfilosofie al wat de mythologie niet deed?",
+     "opties": [
+      "een verklaring in de natuur zelf zoeken, waarover te redetwisten valt",
+      "haar verklaringen vastleggen in verhalen over goden en helden",
+      "haar uitspraken altijd eerst in een proefopstelling nameten",
+      "zich beperken tot vragen over goed en kwaad en niets anders"
+     ],
+     "antwoord": 0,
+     "uitleg": "De natuurfilosofie legt de oorzaak binnen de natuur, en haar verklaring valt daardoor te betwisten. Dat is de eerste stap naar wetenschap."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat kwam er in de stap van natuurfilosofie naar wetenschap bij?",
+     "opties": [
+      "een vaste methode, met systematische waarneming",
+      "de proef, waarmee je een verklaring kan toetsen",
+      "de overtuiging dat alleen het denken tot kennis kan leiden",
+      "de gewoonte om elke verklaring in een verhaal te gieten",
+      "de eis dat anderen je uitspraak kunnen nagaan"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4
+     ],
+     "uitleg": "Natuurfilosofie redeneerde over de natuur; wetenschap voegt daar een methode, een proef en de eis toe dat anderen je uitspraak kunnen nagaan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke rol speelt Aristoteles in het ontstaan van de wetenschappelijke methode?",
+     "opties": [
+      "hij nam de natuur systematisch waar en bracht ze in soorten onder",
+      "hij verwierp de waarneming en vertrouwde alleen op het denken",
+      "hij vond het experiment uit zoals wij het vandaag kennen",
+      "hij bedacht het begrip falsificatie als maatstaf voor wetenschap"
+     ],
+     "antwoord": 0,
+     "uitleg": "Aristoteles kijkt naar de natuur en ordent wat hij ziet. Daarmee zet hij waarneming en indeling als werkwijze neer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke rol speelt Francis Bacon?",
+     "opties": [
+      "hij maakte van de proef en de geordende waarneming een echte methode",
+      "hij bewees dat kennis enkel uit het denken kan komen",
+      "hij toonde aan dat een theorie nooit weerlegd kan worden",
+      "hij schreef de eerste verhalen over de goden van de natuur"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bacon legt het gewicht bij het stelselmatig verzamelen en bij de proef, en waarschuwt tegen het aannemen van wat men altijd al geloofd heeft."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is een vaste methode zo belangrijk voor een wetenschap?",
+     "opties": [
+      "omdat een ander je werk dan kan overdoen en kan nagaan",
+      "omdat een theorie daardoor niet meer tegengesproken kan worden",
+      "omdat je dan geen waarnemingen meer nodig hebt",
+      "omdat elke onderzoeker dan hetzelfde zal vinden, wat er ook gebeurt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een methode maakt je werk navolgbaar: iemand anders kan het overdoen. Zonder dat is het een mening."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over de overgang van natuurfilosofie naar wetenschap kloppen?",
+     "opties": [
+      "wetenschap werkt met een methode die anderen kunnen nagaan",
+      "de natuurfilosofie zocht de oorzaak al binnen de natuur zelf",
+      "de wetenschap heeft de filosofie overbodig gemaakt",
+      "de natuurfilosofie werkte al met gecontroleerde proeven",
+      "de vraag wanneer iets wetenschap is, is zelf een filosofische vraag"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4
+     ],
+     "uitleg": "Wetenschap werkt met een methode die anderen kunnen nagaan, en de natuurfilosofie zocht de oorzaak al binnen de natuur zelf. De filosofie is daarmee niet overbodig geworden: de vraag wanneer iets wetenschap is, is zelf een filosofische vraag."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het demarcatievraagstuk?",
+     "opties": [
+      "de vraag waar de grens ligt tussen wetenschap en wat dat niet is",
+      "de vraag of de natuurwetenschappen beter zijn dan de menswetenschappen",
+      "de vraag of een onderzoeker zijn eigen mening mag geven",
+      "de vraag of de wetenschap ooit af zal zijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "Demarcatie betekent afbakening. Het vraagstuk zoekt een maatstaf om wetenschap van niet-wetenschap te onderscheiden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is verificatie?",
+     "opties": [
+      "een theorie bevestigd zien door waarnemingen die erbij passen",
+      "een theorie onderuithalen met één waarneming die er niet bij past",
+      "een theorie zo opschrijven dat ze niet te weerleggen valt",
+      "een theorie vergelijken met een oudere theorie over hetzelfde"
+     ],
+     "antwoord": 0,
+     "uitleg": "Verifiëren is waarmaken: je zoekt gevallen die je theorie bevestigen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is falsificatie?",
+     "opties": [
+      "een theorie weerleggen met een waarneming die er niet bij past",
+      "een theorie bevestigen met zoveel mogelijk voorbeelden",
+      "een theorie omschrijven zodat ze op meer gevallen past",
+      "een theorie opzij zetten omdat ze te oud is"
+     ],
+     "antwoord": 0,
+     "uitleg": "Falsifiëren is onderuithalen. Eén tegenvoorbeeld is genoeg om een algemene uitspraak te weerleggen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je hebt duizend witte zwanen gezien. Wat bewijst dat over de uitspraak dat alle zwanen wit zijn?",
+     "opties": [
+      "niets met zekerheid, want de volgende zwaan kan zwart zijn",
+      "dat de uitspraak nu bewezen is en niet meer kan sneuvelen",
+      "dat de uitspraak onmiddellijk weerlegd is door die duizend",
+      "dat de uitspraak geen wetenschappelijke uitspraak kan zijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dit is het beroemde voorbeeld bij de falsificatie: geen enkel aantal bevestigingen maakt een algemene uitspraak zeker, en één zwarte zwaan haalt ze onderuit."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is bevestiging zoeken zwakker dan tegenspraak zoeken?",
+     "opties": [
+      "bevestiging vind je makkelijk, ook voor een theorie die niet klopt",
+      "bevestiging is verboden binnen de wetenschappelijke methode",
+      "bevestiging kan enkel in de menswetenschappen gevonden worden",
+      "bevestiging kost meer tijd dan het zoeken van een tegenvoorbeeld"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wie zoekt, vindt: voor zowat elke theorie vind je wel passende gevallen. De echte toets is of je er ook naar hebt gezocht wat haar zou breken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een onderzoeker stelt zijn proef zo op dat ze zijn stelling onderuit kán halen. Wat doet hij?",
+     "opties": [
+      "hij stelt zijn theorie bloot aan falsificatie",
+      "hij verifieert zijn theorie zo sterk mogelijk",
+      "hij maakt zijn theorie onweerlegbaar",
+      "hij verlaat de wetenschappelijke methode"
+     ],
+     "antwoord": 0,
+     "uitleg": "Juist dat is wat een wetenschappelijke houding volgens Popper kenmerkt: je zoekt zelf naar wat je ongelijk zou geven."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Aristoteles, Francis Bacon en Karl Popper droegen elk bij aan de ontwikkeling van de wetenschappelijke methode.",
+     "antwoord": true,
+     "uitleg": "Waar. Die drie namen horen bij de wetenschappelijke methode."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Demarcatie betekent het bevestigen van een theorie met zoveel mogelijk voorbeelden.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Demarcatie betekent afbakening: waar ligt de grens tussen wetenschap en wat dat niet is. Bevestigen met voorbeelden is verificatie."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Eén tegenvoorbeeld kan een algemene uitspraak weerleggen.",
+     "antwoord": true,
+     "uitleg": "Waar. Dat is de kracht van de falsificatie, en het verschil met verificatie: geen enkel aantal bevestigingen maakt een algemene uitspraak zeker."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De natuurfilosofie werkte al met een vaste methode en met proeven.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Ze zocht de oorzaak wel al in de natuur zelf, maar de methode en de proef kwamen pas met de wetenschap."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet het vraagstuk over de grens tussen wetenschap en niet-wetenschap? Het ...",
+     "antwoord": [
+      "demarcatievraagstuk",
+      "demarcatieprobleem"
+     ],
+     "uitleg": "Demarcatie betekent afbakening."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet het bevestigen van een theorie met waarnemingen die erbij passen?",
+     "antwoord": [
+      "verificatie"
+     ],
+     "uitleg": "Verifiëren is waarmaken; falsifiëren is onderuithalen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet het weerleggen van een theorie met een waarneming die er niet bij past?",
+     "antwoord": [
+      "falsificatie"
+     ],
+     "uitleg": "Eén tegenvoorbeeld volstaat om een algemene uitspraak te falsifiëren."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke filosoof uit de oudheid nam de natuur systematisch waar en bracht ze in soorten onder?",
+     "antwoord": [
+      "Aristoteles"
+     ],
+     "uitleg": "Aristoteles, Francis Bacon en Karl Popper horen bij de wetenschappelijke methode."
+    }
+   ]
+  },
+  {
+   "titel": "Van natuurfilosofie naar wetenschap: falsificatie en demarcatie — deel 2",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk antwoord geeft Karl Popper op het demarcatievraagstuk?",
+     "opties": [
+      "een uitspraak is wetenschappelijk als ze weerlegd kan worden",
+      "een uitspraak is wetenschappelijk als ze bevestigd is door veel gevallen",
+      "een uitspraak is wetenschappelijk als een deskundige ze onderschrijft",
+      "een uitspraak is wetenschappelijk als ze nergens tegenspraak vindt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Falsifieerbaarheid is bij Popper de maatstaf: een theorie die niets uitsluit, is geen wetenschap."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is er mis met een theorie die alles kan verklaren?",
+     "opties": [
+      "ze sluit niets uit, en dus kan geen enkele waarneming haar weerleggen",
+      "ze is te moeilijk om door gewone mensen begrepen te worden",
+      "ze verklaart te veel om nuttig te kunnen zijn in de praktijk",
+      "ze is nooit door genoeg onderzoekers bevestigd geraakt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hoe meer een theorie verklaart, hoe minder ze zegt. Wat met elke uitkomst te rijmen valt, loopt geen enkel risico."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een pseudowetenschap?",
+     "opties": [
+      "iets wat zich als wetenschap voordoet zonder de methode te volgen",
+      "een wetenschap die nog niet genoeg onderzoek heeft gedaan",
+      "een wetenschap die haar theorie ooit heeft moeten bijstellen",
+      "een wetenschap die over de mens gaat in plaats van over de natuur"
+     ],
+     "antwoord": 0,
+     "uitleg": "Pseudo betekent vals of schijn. Een pseudowetenschap leent de taal van de wetenschap maar niet haar methode."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke kenmerken wijzen op een pseudowetenschap?",
+     "opties": [
+      "de uitspraken zijn zo vaag dat geen enkele uitkomst ze kan tegenspreken",
+      "tegenspraak wordt weggeredeneerd in plaats van onderzocht",
+      "de theorie is in de loop van de jaren bijgesteld na nieuw onderzoek",
+      "de uitspraken zijn met een meting te toetsen"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Een theorie bijstellen na nieuw onderzoek is net wél wetenschappelijk, en toetsbare uitspraken ook."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een voorspelling luidt: er komt binnenkort een belangrijke verandering in je leven. Waarom is dat volgens Popper niet wetenschappelijk?",
+     "opties": [
+      "ze sluit niets uit, dus geen enkele gebeurtenis kan haar weerleggen",
+      "ze gaat over de toekomst, en daarover kan je niets weten",
+      "ze is te kort om een echte theorie te kunnen zijn",
+      "ze is nog door niemand bevestigd"
+     ],
+     "antwoord": 0,
+     "uitleg": "Elke uitkomst past erbij. Een voorspelling die niet kan sneuvelen, zegt niets."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een arts zegt: als dit middel werkt, zakt de koorts binnen drie dagen bij minstens zeven op de tien patiënten. Wat is daaraan wetenschappelijk?",
+     "opties": [
+      "de uitspraak sluit uitkomsten uit en kan dus weerlegd worden",
+      "de uitspraak is door een deskundige gedaan",
+      "de uitspraak gaat over iets wat je kan waarnemen",
+      "de uitspraak klinkt redelijk en voorzichtig"
+     ],
+     "antwoord": 0,
+     "uitleg": "Precies dit maakt het verschil: de uitspraak zegt op voorhand welke uitkomst haar ongelijk zou geven."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Betekent falsifieerbaar dat een theorie fout is?",
+     "opties": [
+      "nee, het betekent dat ze fout zou kúnnen blijken",
+      "ja, het betekent dat ze al weerlegd is",
+      "ja, het betekent dat ze binnenkort weerlegd zal worden",
+      "nee, het betekent dat ze voor altijd bewezen is"
+     ],
+     "antwoord": 0,
+     "uitleg": "Falsifieerbaar is een eigenschap van de vorm van de uitspraak: ze loopt een risico. Dat is een pluspunt, geen fout."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je in stap 1 van het stappenplan om een filosofische tekst te analyseren?",
+     "opties": [
+      "de tekst in zijn geheel lezen en zicht krijgen op de structuur",
+      "elke onbekende uitdrukking opzoeken en moeilijke zinnen ontleden",
+      "bedenken welke kritiek je zelf op de auteur hebt",
+      "meteen een samenvatting van enkele zinnen schrijven"
+     ],
+     "antwoord": 0,
+     "uitleg": "Stap 1 is globaal en oriënterend lezen: de indeling, de signaalwoorden en de kernbegrippen, met in elke alinea een kernzin."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je in stap 2 van dat stappenplan?",
+     "opties": [
+      "grondig herlezen, woorden opzoeken en verbanden aanduiden",
+      "de tekst snel doorbladeren om de structuur te zien",
+      "nadenken over wat je er zelf van vindt",
+      "de tekst vergelijken met een tekst van een andere auteur"
+     ],
+     "antwoord": 0,
+     "uitleg": "Stap 2 is grondig lezen. De maatstaf: je moet het daarna met eigen woorden aan een vriend kunnen uitleggen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vraag hoort bij stap 3, de reflectie?",
+     "opties": [
+      "welke tegenvoorbeelden kan ik vinden voor deze conclusie?",
+      "waar staan de alinea's en de signaalwoorden?",
+      "wat betekent dit onbekende woord precies?",
+      "hoeveel hoofdstukken heeft deze tekst?"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij de reflectie zoek je tegenvoorbeelden, formuleer je je kritiek en vraag je je af hoe de auteur daarop zou antwoorden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is het volgens dat stappenplan nuttig om te bedenken hoe de auteur op jouw kritiek zou antwoorden?",
+     "opties": [
+      "omdat je zo nagaat of je kritiek wel standhoudt",
+      "omdat je de auteur daarmee kan overtuigen van je gelijk",
+      "omdat je anders de tekst niet mag samenvatten",
+      "omdat elke kritiek beantwoord moet zijn voor ze telt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je kritiek is pas sterk als ze het antwoord van de auteur overleeft. Daarom staat die vraag in het stappenplan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom hoort de vraag wanneer iets wetenschap is bij de filosofie en niet bij de wetenschap zelf?",
+     "opties": [
+      "omdat geen enkele meting die vraag kan beslechten",
+      "omdat wetenschappers zich nooit met die vraag bezighouden",
+      "omdat de wetenschap geen methode heeft om iets te onderzoeken",
+      "omdat filosofen beter kunnen meten dan wetenschappers"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het is een vraag over de maatstaf zelf, en een maatstaf kan je niet met diezelfde maatstaf afmeten. Dat is wetenschapsfilosofie."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Voor Popper is een theorie wetenschappelijk als ze weerlegd kan worden.",
+     "antwoord": true,
+     "uitleg": "Waar. Falsifieerbaarheid is zijn antwoord op het demarcatievraagstuk."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een theorie die alles kan verklaren, staat juist heel sterk.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Ze sluit niets uit en loopt dus geen risico. Volgens Popper is dat precies de zwakte."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een theorie bijstellen na nieuw onderzoek is een teken van pseudowetenschap.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Dat is net wetenschappelijk. Pseudowetenschap redeneert de tegenspraak weg in plaats van haar theorie aan te passen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het stappenplan voor een filosofische tekst telt drie stappen: oriënterend lezen, grondig lezen en reflectie.",
+     "antwoord": true,
+     "uitleg": "Waar. Dat zijn de drie stappen van bijlage 2."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke filosoof hoort bij de falsificatie?",
+     "antwoord": [
+      "Karl Popper",
+      "Popper"
+     ],
+     "uitleg": "Popper stelt falsifieerbaarheid voor als maatstaf voor wetenschap."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je iets dat zich als wetenschap voordoet zonder de methode te volgen? Een ...",
+     "antwoord": [
+      "pseudowetenschap"
+     ],
+     "uitleg": "Pseudo betekent vals of schijn."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel stappen telt het stappenplan om een filosofische tekst te analyseren?",
+     "antwoord": [
+      "drie",
+      "3"
+     ],
+     "uitleg": "Oriënterend lezen, grondig lezen en reflectie."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In welke stap van dat stappenplan zoek je tegenvoorbeelden en formuleer je je kritiek? In de ...",
+     "antwoord": [
+      "reflectie",
+      "derde stap"
+     ],
+     "uitleg": "Stap 3 is de reflectie."
+    }
+   ]
+  },
+  {
+   "titel": "Lichaam en geest: monisme en dualisme — deel 1",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat houdt een dualistische mensvisie in?",
+     "opties": [
+      "de mens bestaat uit twee werkelijkheden: een lichaam en een geest",
+      "de mens bestaat uit één werkelijkheid, waarvan geest een kant is",
+      "de mens bestaat enkel uit materie en verder niets",
+      "de mens bestaat uit drie delen: lichaam, geest en ziel"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dualisme komt van duo: twee. Lichaam en geest zijn er twee soorten werkelijkheid, en de ene is niet tot de andere terug te brengen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat houdt een monistische mensvisie in?",
+     "opties": [
+      "er is maar één werkelijkheid, en lichaam en geest horen er beide bij",
+      "er zijn twee gescheiden werkelijkheden die op elkaar inwerken",
+      "de geest bestaat wel en het lichaam is een illusie",
+      "elke mens heeft één eigen werkelijkheid, verschillend van die van anderen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Monisme komt van monos: één. Er is één werkelijkheid; lichaam en geest zijn geen twee aparte soorten zijn."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de kern van het denken van Parmenides?",
+     "opties": [
+      "het zijnde is één en onveranderlijk; verandering is schijn",
+      "alles stroomt voortdurend, en niets blijft ooit hetzelfde",
+      "de ziel is onsterfelijk en het lichaam vergankelijk",
+      "kennis komt uitsluitend uit de zintuigen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Parmenides staat voor het monisme in zijn strengste vorm: er is één zijn, en wat op verandering lijkt, misleidt ons."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom hoort Parmenides in dit thema thuis?",
+     "opties": [
+      "hij is het vroege voorbeeld van een monistische visie",
+      "hij scheidde als eerste het lichaam van de geest",
+      "hij toonde aan dat de ziel sterfelijk is",
+      "hij bedacht het woord dualisme"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hij hoort in de rij van filosofen over lichaam en geest omdat hij de eenheid van het zijnde verdedigt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe ziet Plato de verhouding tussen lichaam en ziel?",
+     "opties": [
+      "de ziel staat los van het lichaam en is onsterfelijk",
+      "de ziel is de vorm van het lichaam en gaat er niet van los",
+      "de ziel en het lichaam zijn twee kanten van één werkelijkheid",
+      "de ziel bestaat niet; er is enkel een lichaam"
+     ],
+     "antwoord": 0,
+     "uitleg": "Plato is een dualist: de ziel is van een andere orde dan het lichaam en blijft bestaan als het lichaam vergaat."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vergelijking past bij de visie van Plato op het lichaam?",
+     "opties": [
+      "het lichaam als een gevangenis waarin de ziel verblijft",
+      "het lichaam als de vorm die de ziel in zich aanneemt",
+      "het lichaam als de enige werkelijkheid die er is",
+      "het lichaam als een machine zonder bestuurder"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij Plato hoort de ziel bij een hogere werkelijkheid en zit ze in het lichaam vast. Dat past bij de grotallegorie uit de kennisleer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe ziet Aristoteles de verhouding tussen lichaam en ziel?",
+     "opties": [
+      "de ziel is de vorm van het lichaam en bestaat er niet los van",
+      "de ziel is een aparte stof die in het lichaam gevangen zit",
+      "de ziel bestaat niet; alles is beweging van materie",
+      "de ziel is onsterfelijk en reist van lichaam naar lichaam"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij Aristoteles horen de twee samen zoals de vorm bij de stof: je kan ze onderscheiden maar niet scheiden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over Plato en Aristoteles kloppen?",
+     "opties": [
+      "Plato houdt de ziel los van het lichaam, Aristoteles niet",
+      "beiden spreken over een ziel, maar met een ander verband met het lichaam",
+      "beiden vinden dat de ziel het lichaam overleeft",
+      "Aristoteles ontkent dat er zoiets als een ziel is",
+      "bij Aristoteles is de ziel onlosmakelijk met het lichaam verbonden"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4
+     ],
+     "uitleg": "Aristoteles ontkent de ziel niet, hij maakt haar onlosmakelijk met het lichaam verbonden. Plato houdt de twee juist los van elkaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een vriend zegt: mijn lichaam is gewoon het voertuig waarin ik rondrijd. Welke visie hoor je?",
+     "opties": [
+      "een dualistische visie",
+      "een monistische visie",
+      "de visie van Aristoteles",
+      "de visie van Spinoza"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wie zichzelf van zijn lichaam onderscheidt als bestuurder van een voertuig, spreekt dualistisch."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een arts zegt: je sombere stemming komt van een tekort in je schildklier. Welke visie hoor je?",
+     "opties": [
+      "een monistische visie: het geestelijke is niet los van het lichamelijke",
+      "een dualistische visie: lichaam en geest staan volledig los van elkaar",
+      "de visie van Plato over de onsterfelijke ziel",
+      "een visie waarin de geest het lichaam bestuurt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hier wordt iets geestelijks verklaard uit iets lichamelijks. Dat kan alleen als de twee niet van elkaar gescheiden zijn."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hebben een monist en een dualist met elkaar gemeen?",
+     "opties": [
+      "beiden willen verklaren hoe denken en lichaam met elkaar samenhangen",
+      "beiden geloven in een onsterfelijke ziel",
+      "beiden vinden dat de geest belangrijker is dan het sterfelijke lichaam",
+      "beiden ontkennen dat de mens een lichaam heeft"
+     ],
+     "antwoord": 0,
+     "uitleg": "De vraag is dezelfde. Ze geven er een ander antwoord op: één werkelijkheid of twee."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is de vraag naar lichaam en geest een filosofische vraag en geen medische?",
+     "opties": [
+      "geen enkele meting kan beslissen of geest en lichaam één of twee zijn",
+      "artsen hebben er nog nooit onderzoek naar gedaan",
+      "de hersenen zijn veel te ingewikkeld om ooit volledig te onderzoeken",
+      "de vraag gaat over de toekomst en niet over het heden"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hersenonderzoek laat zien dát er samenhang is; of geest daarmee hetzelfde is als brein, is een vraag over begrippen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Monisme komt van het woord voor één, dualisme van het woord voor twee.",
+     "antwoord": true,
+     "uitleg": "Waar. Monos is één en duo is twee: dat is meteen het verschil tussen de twee mensvisies."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Volgens Plato gaat de ziel verloren zodra het lichaam sterft.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Bij Plato is de ziel juist onsterfelijk; ze staat los van het vergankelijke lichaam."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Volgens Aristoteles kan de ziel los van het lichaam bestaan.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Bij hem is de ziel de vorm van het lichaam: je kan ze onderscheiden, maar niet scheiden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Parmenides verdedigt dat het zijnde één en onveranderlijk is.",
+     "antwoord": true,
+     "uitleg": "Waar. Daarom is hij het vroege voorbeeld van het monisme."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet de mensvisie die lichaam en geest als twee werkelijkheden ziet?",
+     "antwoord": [
+      "dualisme",
+      "het dualisme"
+     ],
+     "uitleg": "Dualisme komt van duo: twee."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet de mensvisie die maar één werkelijkheid aanneemt?",
+     "antwoord": [
+      "monisme",
+      "het monisme"
+     ],
+     "uitleg": "Monisme komt van monos: één."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke filosoof noemt de ziel de vorm van het lichaam?",
+     "antwoord": [
+      "Aristoteles"
+     ],
+     "uitleg": "Bij Aristoteles horen vorm en stof samen; de ziel bestaat niet los van het lichaam."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke filosoof uit de oudheid ziet de ziel als onsterfelijk en het lichaam als haar gevangenis?",
+     "antwoord": [
+      "Plato"
+     ],
+     "uitleg": "Plato is in dit thema het voorbeeld van het dualisme."
+    }
+   ]
+  },
+  {
+   "titel": "Cultuur en natuur: mens, dier en machine — deel 1",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent het als je zegt dat een eigenschap exclusief menselijk is?",
+     "opties": [
+      "die eigenschap komt bij mensen voor en bij geen enkel ander wezen",
+      "die eigenschap komt bij alle mensen voor, en bij sommige dieren ook wel",
+      "die eigenschap komt bij mensen vaker voor dan bij de meeste dieren",
+      "die eigenschap is bij mensen beter ontwikkeld dan bij dieren en machines"
+     ],
+     "antwoord": 0,
+     "uitleg": "Exclusief wil zeggen: uitsluitend. Niet meer, niet beter, maar alleen bij ons."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke twee eigenschappen worden vaak als exclusief menselijk gezien?",
+     "opties": [
+      "emoties en rede",
+      "taal en techniek, net als bij de meeste gereedschapsmakers",
+      "pijn en plezier, de twee gevoelens die alles in beweging zetten",
+      "groei en voortplanting, twee kenmerken van alles wat leeft"
+     ],
+     "antwoord": 0,
+     "uitleg": "Emoties en rede. Let op het woordje mogelijk: juist of een van die twee écht alleen bij ons voorkomt, is de vraag van dit thema."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is het moeilijk om emoties exclusief menselijk te noemen?",
+     "opties": [
+      "ook dieren vertonen angst, woede en wat op rouw lijkt",
+      "emoties zijn bij mensen onderling te verschillend om te vergelijken",
+      "emoties zijn niet te meten en dus ook niet te bespreken in de filosofie",
+      "emoties komen bij mensen pas voor na de puberteit en bij dieren nooit"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wie een hond in paniek heeft gezien, kan moeilijk beweren dat emoties alleen bij mensen bestaan. Daarom schuift de discussie naar de vraag of wij ze anders ervaren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk argument wordt gebruikt om de rede wél exclusief menselijk te noemen?",
+     "opties": [
+      "mensen kunnen over hun eigen denken nadenken en redenen afwegen",
+      "mensen kunnen leren van wat hun vorige poging heeft opgeleverd",
+      "mensen kunnen werktuigen gebruiken om bij hun voedsel te komen",
+      "mensen kunnen samenwerken in groepen die groter zijn dan een gezin"
+     ],
+     "antwoord": 0,
+     "uitleg": "De andere drie kennen we ook bij dieren. Nadenken over je eigen denken en je redenen tegen elkaar afwegen is wat men typisch menselijk noemt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zegt de naturalistische benadering van emoties?",
+     "opties": [
+      "emoties zijn aangeboren en lichamelijk, en komen overal ter wereld voor",
+      "emoties worden geleerd en verschillen per cultuur en per tijdvak",
+      "emoties ontstaan uit het oordeel dat je over een situatie velt",
+      "emoties bestaan niet echt; het zijn namen die wij aan gedrag geven"
+     ],
+     "antwoord": 0,
+     "uitleg": "Natuur, dus: emoties horen bij ons lichaam, zijn er van bij de geboorte en zijn bij alle mensen in grote lijnen hetzelfde."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zegt de cultureel en historische benadering van emoties?",
+     "opties": [
+      "welke emoties je voelt en toont, leer je van je omgeving en je tijd",
+      "welke emoties je voelt, ligt vast in je lichaam en verandert niet",
+      "welke emoties je voelt, volgt uit hoe je een situatie beoordeelt",
+      "welke emoties je voelt, kan niemand ooit van buitenaf vaststellen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Deze benadering kijkt naar verschillen: wat in de ene cultuur of de ene eeuw gepast is om te voelen en te tonen, is dat elders niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zegt de cognitieve benadering van emoties?",
+     "opties": [
+      "een emotie hangt samen met wat je over een situatie denkt",
+      "een emotie hangt samen met wat je lichaam aangeboren meebrengt",
+      "een emotie hangt samen met wat je cultuur je heeft aangeleerd",
+      "een emotie hangt samen met hoeveel slaap je die nacht hebt gehad"
+     ],
+     "antwoord": 0,
+     "uitleg": "Cognitie is kennen en denken. Verander je oordeel over wat er gebeurt en de emotie verandert mee."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrikt van een harde knal, en je lacht als blijkt dat het een ballon was. Welke benadering verklaart dat omslaan het best?",
+     "opties": [
+      "de cognitieve benadering, want je oordeel over de situatie veranderde",
+      "de naturalistische benadering, want je schrik was aangeboren",
+      "de cultureel en historische benadering, want lachen is aangeleerd",
+      "geen van de drie, want schrikken is geen echte emotie"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het geluid bleef hetzelfde; wat veranderde, was wat je erover dacht. Dat is precies waar de cognitieve benadering op wijst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In het ene land huilen mensen luid op een begrafenis, in het andere hoort stilte. Welke benadering verklaart dat het best?",
+     "opties": [
+      "de cultureel en historische benadering",
+      "de naturalistische benadering",
+      "de cognitieve benadering",
+      "geen van de drie benaderingen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het verdriet is hetzelfde, de manier om het te laten zien is geleerd. Dat is het terrein van de cultureel en historische benadering."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over de drie benaderingen kloppen?",
+     "opties": [
+      "ze kunnen elkaar aanvullen in plaats van elkaar uit te sluiten",
+      "de naturalistische benadering legt het meeste gewicht bij het lichaam",
+      "alle drie ontkennen dat emoties met het lichaam te maken hebben",
+      "alle drie zeggen dat emoties volledig vastliggen bij de geboorte",
+      "een emotie kan lichamelijk beginnen en toch door je oordeel gekleurd worden"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4
+     ],
+     "uitleg": "Dat een emotie lichamelijk begint, dat je leert hoe je ze toont en dat je oordeel meespeelt, kan alle drie tegelijk waar zijn."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over de verhouding tussen natuur en cultuur kloppen?",
+     "opties": [
+      "ons lichaam legt grenzen vast waarbinnen cultuur van alles mogelijk maakt",
+      "wat natuur is en wat cultuur, valt bij mensen moeilijk uit elkaar te halen",
+      "cultuur bij mensen staat volledig los van alles wat lichamelijk is",
+      "alles wat mensen doen is natuur, want wij zijn nu eenmaal dieren",
+      "de scherpe tweedeling natuur tegenover cultuur houdt bij de mens nergens stand"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4
+     ],
+     "uitleg": "De scherpe tweedeling natuur tegenover cultuur houdt bij de mens nergens helemaal stand."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is de vraag naar exclusief menselijke eigenschappen een filosofische vraag?",
+     "opties": [
+      "ze gaat niet alleen over feiten maar ook over wat de mens tot mens maakt",
+      "ze is nog nooit onderzocht door iemand uit de natuurwetenschappen",
+      "ze kan enkel beantwoord worden door iemand die filosofie studeerde",
+      "ze hangt helemaal af van de mening die jij er zelf toevallig over hebt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vaststellen wat dieren kunnen, is onderzoek. Beslissen wat van die verschillen echt telt, is een vraag over begrippen en waarden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Exclusief menselijk wil zeggen: bij de mens sterker ontwikkeld dan bij dieren.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Exclusief is uitsluitend: bij de mens en bij geen enkel ander wezen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De naturalistische benadering ziet emoties als aangeboren en lichamelijk.",
+     "antwoord": true,
+     "uitleg": "Waar. Daarom verwacht ze dezelfde basisemoties bij mensen over de hele wereld."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Volgens de cognitieve benadering staat een emotie los van wat je denkt.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Juist omgekeerd: je oordeel over de situatie bepaalt mee welke emotie je voelt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De drie benaderingen van emoties kunnen elkaar aanvullen.",
+     "antwoord": true,
+     "uitleg": "Waar. Lichaam, cultuur en oordeel kunnen alle drie meespelen in één emotie."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke benadering ziet emoties als aangeboren en lichamelijk? De ...",
+     "antwoord": [
+      "naturalistische benadering",
+      "naturalistische"
+     ],
+     "uitleg": "Natuur: emoties horen bij ons lichaam en komen overal voor."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke benadering zegt dat je leert welke emoties je mag tonen? De ...",
+     "antwoord": [
+      "culturele benadering",
+      "cultureel-historische",
+      "culturele"
+     ],
+     "uitleg": "De cultureel en historische benadering kijkt naar verschillen tussen culturen en tijdvakken."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke benadering verbindt een emotie met je oordeel over de situatie? De ...",
+     "antwoord": [
+      "cognitieve benadering",
+      "cognitieve"
+     ],
+     "uitleg": "Cognitie is kennen en denken."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke eigenschap wordt naast emoties genoemd als mogelijk exclusief menselijk?",
+     "antwoord": [
+      "de rede",
+      "rede"
+     ],
+     "uitleg": "De rede: kunnen nadenken over je eigen denken en je redenen afwegen."
+    }
+   ]
+  },
+  {
+   "titel": "Cultuur en natuur: mens, dier en machine — deel 2",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe onderscheidt Aristoteles de mens van het dier?",
+     "opties": [
+      "de mens is een dier dat over rede beschikt",
+      "de mens is een dier dat zijn omgeving met werktuigen verandert",
+      "de mens is een dier zonder instincten en daarom vrij in zijn keuzes",
+      "de mens is geen dier, want hij heeft een onsterfelijke ziel gekregen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij Aristoteles hoort de mens volop bij de dieren, maar is hij het dier met rede. Het verschil is een verschil binnen de natuur, niet erbuiten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom past dat onderscheid bij zijn visie op lichaam en ziel?",
+     "opties": [
+      "de rede hoort bij wat de mens is, niet bij iets dat los van hem bestaat",
+      "de rede komt van buiten de natuur in het lichaam terecht",
+      "de rede is een aparte stof die in de hersenen van de mens zit",
+      "de rede bestaat enkel bij mensen die er zelf voor gekozen hebben"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij Aristoteles is de ziel de vorm van het lichaam. De rede is dus geen vreemde gast in het lichaam, maar een kenmerk van dit soort wezen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe ziet René Descartes het verschil tussen mens en dier?",
+     "opties": [
+      "een dier werkt als een machine, de mens heeft daarnaast een denkende geest",
+      "een dier en de mens zijn beide machines, zonder verschil tussen hen",
+      "een dier heeft net als de mens een denkende geest, maar een veel kleinere",
+      "een dier heeft een ziel en de mens niet, want de mens heeft de rede"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dat volgt uit zijn dualisme: wie geen denkende werkelijkheid heeft, blijft uitgebreide stof, en stof werkt mechanisch."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk bezwaar wordt tegen de visie van Descartes op dieren gemaakt?",
+     "opties": [
+      "wie een dier van pijn ziet kermen, kan het moeilijk een machine noemen",
+      "machines bestonden in zijn tijd nog niet, dus kon hij er niets over zeggen",
+      "hij had zelf geen huisdier en kon er dus niet over meespreken",
+      "dieren hebben wel hersenen, en hersenen heeft een machine nooit"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het klassieke bezwaar gaat over gevoel. Als een dier niets ervaart, waarom gedraagt het zich dan precies zoals een wezen dat pijn heeft?"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de inzet van Friedrich Nietzsche in dit debat?",
+     "opties": [
+      "hij weigert de mens een ereplaats boven de natuur te geven",
+      "hij bewijst dat de rede de mens boven elk dier verheft",
+      "hij toont aan dat dieren precies hetzelfde denken als mensen",
+      "hij laat zien dat de mens een machine is zonder bewustzijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "Nietzsche keert zich tegen het vleiende zelfbeeld waarin de mens door zijn rede buiten en boven de natuur staat. De mens hoort er helemaal bij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over Aristoteles, Descartes en Nietzsche kloppen?",
+     "opties": [
+      "Descartes zet de scherpste grens tussen mens en dier",
+      "Nietzsche zet de mens het dichtst bij de rest van de natuur",
+      "alle drie vinden dat dieren precies hetzelfde zijn als mensen",
+      "alle drie noemen de rede het enige verschil dat echt bestaat",
+      "Aristoteles ziet een verschil binnen de natuur, geen kloof"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4
+     ],
+     "uitleg": "Aristoteles staat ertussen: een verschil binnen de natuur, geen kloof."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de stelling van Julien Offray de La Mettrie?",
+     "opties": [
+      "de mens is een machine; voor zijn denken is geen aparte ziel nodig",
+      "de mens is geen machine, want zijn ziel bestuurt zijn lichaam",
+      "de mens is een machine, maar enkel zijn lichaam en niet zijn geest",
+      "de mens lijkt op een machine, maar bezit daarnaast een onsterfelijke ziel"
+     ],
+     "antwoord": 0,
+     "uitleg": "La Mettrie trekt het mechanische beeld dat Descartes voor dieren gebruikte, door tot bij de mens zelf. Dat is een materialistische visie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de stelling van Dick Swaab?",
+     "opties": [
+      "wat wij ons zelf noemen, is het werk van onze hersenen",
+      "onze hersenen zijn een werktuig dat onze geest gebruikt",
+      "ons bewustzijn bestaat los van ons lichaam en overleeft het",
+      "onze hersenen kunnen bewustzijn nooit voortbrengen of verklaren"
+     ],
+     "antwoord": 0,
+     "uitleg": "Swaab staat voor de visie dat bewustzijn hersenwerk is: wij zijn ons brein."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom staan La Mettrie en Swaab in hetzelfde rijtje?",
+     "opties": [
+      "beiden verklaren de mens vanuit stof, zonder een aparte geest aan te nemen",
+      "beiden verdedigen dat de mens een onsterfelijke ziel bezit",
+      "beiden vinden dat machines nooit bewustzijn kunnen hebben",
+      "beiden leefden in dezelfde eeuw en hebben elkaars boeken goed gekend"
+     ],
+     "antwoord": 0,
+     "uitleg": "De een spreekt over een machine, de ander over hersenen, maar de richting is dezelfde: geest hoeft niet van een andere orde te zijn. Ze leefden eeuwen apart."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom gebruikt men bewustzijn als maatstaf om mens en machine te onderscheiden?",
+     "opties": [
+      "een machine kan gedrag tonen, maar of ze iets ervaart is de echte vraag",
+      "een machine kan nooit sneller rekenen dan een mens dat kan",
+      "een machine heeft geen stroom nodig en een mens wel voedsel",
+      "een machine kan geen enkele taak overnemen van een mens"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wat een machine kán, schuift voortdurend op. Of er iets is dat het is om die machine te zijn, is de vraag die blijft."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over het debat mens en machine kloppen?",
+     "opties": [
+      "gedrag dat op bewustzijn lijkt, bewijst nog niet dat er bewustzijn is",
+      "de vraag of een machine iets ervaart is van buitenaf moeilijk te beslechten",
+      "zodra een machine een gesprek kan voeren, heeft ze bewustzijn",
+      "de vraag is al beslecht sinds er machines bestaan die kunnen praten",
+      "de vraag blijft filosofisch en is niet alleen technisch"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4
+     ],
+     "uitleg": "Dat is precies de reden waarom dit een filosofische vraag blijft en niet alleen een technische."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Iemand zegt: mijn keuze voor dit bericht zat al in mijn hersenen voor ik het wist. Bij welke denker uit dit thema sluit dat aan?",
+     "opties": [
+      "bij Dick Swaab",
+      "bij Aristoteles",
+      "bij Friedrich Nietzsche",
+      "bij geen van hen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wie zichzelf met zijn hersenen laat samenvallen, spreekt in de lijn van Swaab."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Volgens Aristoteles is de mens een dier dat over rede beschikt.",
+     "antwoord": true,
+     "uitleg": "Waar. Het verschil met het dier is bij hem een verschil binnen de natuur."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Volgens Descartes hebben dieren naast hun lichaam ook een denkende geest.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Bij Descartes werkt een dier mechanisch; de denkende geest houdt hij voor de mens."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Nietzsche wil de mens juist niet boven de natuur plaatsen.",
+     "antwoord": true,
+     "uitleg": "Waar. Hij keert zich tegen het zelfbeeld waarin de rede ons buiten de natuur zet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "La Mettrie heeft een aparte, onstoffelijke ziel nodig om de mens te verklaren.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Zijn stelling is net dat het zonder kan: de mens als machine."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke filosoof noemt de mens een dier met rede?",
+     "antwoord": [
+      "Aristoteles"
+     ],
+     "uitleg": "Bij hem hoort de mens bij de dieren, met de rede als zijn kenmerk."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke filosoof beschouwt een dier als een machine zonder denkende geest?",
+     "antwoord": [
+      "Descartes",
+      "René Descartes"
+     ],
+     "uitleg": "Dat volgt uit zijn dualisme: zonder denkende werkelijkheid blijft er stof over."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke denker verdedigt de mens als een machine?",
+     "antwoord": [
+      "La Mettrie",
+      "de La Mettrie"
+     ],
+     "uitleg": "La Mettrie trekt het mechanische beeld door tot bij de mens zelf."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke denker staat voor de stelling dat wij ons brein zijn?",
+     "antwoord": [
+      "Swaab",
+      "Dick Swaab"
+     ],
+     "uitleg": "Bij Swaab is bewustzijn het werk van de hersenen."
+    }
+   ]
+  },
+  {
+   "titel": "Vrijheid en determinisme van de oudheid tot de 19de eeuw — deel 1",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil tussen lot en toeval?",
+     "opties": [
+      "een lot ligt vast en heeft een richting, toeval had even goed anders kunnen zijn",
+      "een lot overkomt je plots, toeval is wat je zelf in de hand hebt gehad",
+      "een lot gaat over de toekomst, toeval gaat enkel over wat al voorbij is",
+      "een lot geldt voor een volk en toeval geldt altijd voor één enkel mens"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij een lot is er iets dat zo moest lopen. Bij toeval is er niets dat het zo gewild heeft: het had net zo goed anders kunnen uitvallen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je wint de lotto. Is dat lot of toeval?",
+     "opties": [
+      "toeval, want niets en niemand had dit voor jou bestemd",
+      "lot, want het stond al vast dat jij die cijfers zou kiezen",
+      "lot, want elke gebeurtenis heeft een bedoeling en dus ook deze",
+      "geen van beide, want winnen is nu eenmaal iets dat je zelf doet"
+     ],
+     "antwoord": 0,
+     "uitleg": "Juist het ontbreken van een bedoeling maakt het toeval. Wie er een bestemming in ziet, spreekt over lot."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke plaats heeft het lot in de Griekse mythologie?",
+     "opties": [
+      "het staat boven alles, en zelfs de goden kunnen het niet omkeren",
+      "het staat onder de goden, die het naar hun eigen wens bijsturen",
+      "het bestaat niet, want in de mythologie beslist elke mens voor zich",
+      "het geldt alleen voor helden en niet voor gewone sterfelijke mensen"
+     ],
+     "antwoord": 0,
+     "uitleg": "De Grieken zien het lot als de hoogste macht. De goden kennen het en kunnen het aankondigen, maar ook zij ontlopen het niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat laat een verhaal als dat van Oedipus over het lot zien?",
+     "opties": [
+      "wie zijn voorspelling probeert te ontlopen, vervult ze juist daardoor",
+      "wie zijn voorspelling kent, kan haar met genoeg moeite nog omkeren",
+      "wie zijn voorspelling niet kent, krijgt er ook geen last van",
+      "wie zijn voorspelling negeert, leeft daarna vrij van elke voorspelling"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dat is de wrange kern van zulke verhalen: de vlucht voor het lot is een deel van het lot geworden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de kern van het denken van Democritus?",
+     "opties": [
+      "alles bestaat uit atomen die volgens vaste wetten bewegen",
+      "alles bestaat uit vier elementen die elkaar afwisselend verdringen",
+      "alles bestaat uit één werkelijkheid waarin verandering onmogelijk is",
+      "alles bestaat uit geest, en de stoffelijke wereld is slechts schijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "Als alles atomen zijn die volgens vaste wetten bewegen, dan ligt ook jouw volgende beweging vast. Dat is determinisme avant la lettre."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom wordt Democritus een determinist genoemd?",
+     "opties": [
+      "in zijn wereld volgt elke gebeurtenis noodzakelijk uit haar oorzaken",
+      "in zijn wereld beslist het lot over alles, ook over de goden",
+      "in zijn wereld is de mens vrij en alle andere dingen niet",
+      "in zijn wereld gebeurt alles zonder oorzaak en volledig willekeurig"
+     ],
+     "antwoord": 0,
+     "uitleg": "Determinisme komt van determineren: vastleggen. Oorzaken leggen vast wat er volgt, zonder uitzondering voor de mens."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent determinisme?",
+     "opties": [
+      "alles wat gebeurt, ligt vast door wat eraan voorafging",
+      "alles wat gebeurt, is het werk van een bedoeling of een bestemming",
+      "alles wat gebeurt, gebeurt zonder oorzaak en dus volkomen willekeurig",
+      "alles wat gebeurt, kan door een mens met genoeg kennis gewijzigd worden"
+     ],
+     "antwoord": 0,
+     "uitleg": "Niet hetzelfde als lot: bij determinisme hoeft er geen bedoeling achter te zitten, alleen een keten van oorzaken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de visie van de Stoïcijnen op de loop van de wereld?",
+     "opties": [
+      "de wereld volgt een vaste orde die je niet kan veranderen",
+      "de wereld volgt geen enkele orde en valt elke dag anders uit",
+      "de wereld volgt de wensen van wie genoeg wil en moed heeft",
+      "de wereld volgt een orde die je met de juiste kennis kan omkeren"
+     ],
+     "antwoord": 0,
+     "uitleg": "Die vaste orde is hun vertrekpunt. Wat er daarna nog van vrijheid overblijft, is hun eigenlijke vraag."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarin ligt volgens de Stoïcijnen wél vrijheid?",
+     "opties": [
+      "in je houding tegenover wat je overkomt",
+      "in je macht om de loop van de dingen bij te sturen",
+      "in je recht om te doen wat je op dat moment het liefst wil",
+      "in je mogelijkheid om aan de vaste orde van de wereld te ontsnappen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het onderscheid dat ze maken, is dat tussen wat in je macht ligt en wat niet. Je oordeel en je houding liggen in je macht; de gebeurtenis zelf niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een stoïcijn verliest zijn bagage op reis. Wat is de stoïcijnse reactie?",
+     "opties": [
+      "het verlies zelf lag niet in zijn macht, zijn houding erover wel",
+      "het verlies was zijn lot, dus mag hij zich erover beklagen",
+      "het verlies was toeval, dus heeft hij er niets mee te maken",
+      "het verlies had hij kunnen voorkomen, dus is het volledig zijn fout"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dat is de stoïcijnse oefening in één beweging: scheiden wat je in de hand hebt van wat je niet in de hand hebt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over lot, toeval en determinisme kloppen?",
+     "opties": [
+      "bij een lot zit er een bedoeling achter, bij determinisme niet noodzakelijk",
+      "bij toeval ontbreekt zowel de bedoeling als de noodzaak",
+      "lot, toeval en determinisme betekenen in de filosofie precies hetzelfde",
+      "determinisme en toeval komen op hetzelfde neer, want beide gaan over kans",
+      "determinisme spreekt over oorzaken, zonder bestemming"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4
+     ],
+     "uitleg": "Determinisme is strenger dan toeval en kaler dan het lot: oorzaken, zonder bestemming."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over de Griekse mythologie en de Stoïcijnen kloppen?",
+     "opties": [
+      "in beide gevallen ligt de loop van de dingen niet in de hand van de mens",
+      "de Stoïcijnen leggen de vrijheid binnen de mens, de mythologie doet dat niet",
+      "in beide gevallen is de mens volledig vrij om zijn weg te kiezen",
+      "de mythologie verdedigt het determinisme en de Stoïcijnen bestrijden het",
+      "de Stoïcijnen zoeken binnen de vaste orde wat er toch nog aan jou toekomt"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4
+     ],
+     "uitleg": "De Stoïcijnen nemen de vaste orde over en zoeken daarbinnen wat er toch nog aan jou toekomt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij toeval hoort geen bedoeling; bij een lot hoort er wel een.",
+     "antwoord": true,
+     "uitleg": "Waar. Dat is precies het verschil."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de Griekse mythologie kunnen de goden het lot naar hun hand zetten.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Het lot staat boven de goden; ook zij moeten het ondergaan."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Volgens Democritus bewegen atomen volgens vaste wetten.",
+     "antwoord": true,
+     "uitleg": "Waar. En daarmee ligt ook alles wat uit die beweging volgt vast."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De Stoïcijnen vinden dat je de loop van de wereld kan bijsturen als je maar wil.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Hun vrijheid zit in je houding tegenover die loop, niet in het veranderen ervan."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet de opvatting dat alles vastligt door wat eraan voorafging?",
+     "antwoord": [
+      "determinisme",
+      "het determinisme"
+     ],
+     "uitleg": "Van determineren: vastleggen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke denker uit de oudheid verklaart alles uit atomen die volgens vaste wetten bewegen?",
+     "antwoord": [
+      "Democritus"
+     ],
+     "uitleg": "Zijn atoomleer maakt van hem de eerste determinist in de rij."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke school uit de oudheid legt de vrijheid in je houding tegenover wat je overkomt? De ...",
+     "antwoord": [
+      "Stoïcijnen",
+      "stoïcijnen",
+      "Stoa"
+     ],
+     "uitleg": "Zij scheiden wat in je macht ligt van wat niet in je macht ligt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je wat gebeurt zonder bedoeling en zonder noodzaak?",
+     "antwoord": [
+      "toeval",
+      "het toeval"
+     ],
+     "uitleg": "Het had even goed anders kunnen uitvallen."
+    }
+   ]
+  },
+  {
+   "titel": "Ethiek: basisbegrippen en vier benaderingen — deel 2",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet de descriptieve ethiek?",
+     "opties": [
+      "ze beschrijft welke morele opvattingen mensen er feitelijk op nahouden",
+      "ze bepaalt welke morele opvattingen mensen zouden moeten aanhouden",
+      "ze bewijst welke van alle morele opvattingen de enige juiste is",
+      "ze bestrijdt elke morele opvatting die niet wetenschappelijk is"
+     ],
+     "antwoord": 0,
+     "uitleg": "Beschrijven, niet voorschrijven. Welk deel van de bevolking abortus aanvaardt, is descriptieve ethiek."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet de normatieve ethiek?",
+     "opties": [
+      "ze zoekt een antwoord op de vraag wat je zou moeten doen",
+      "ze zoekt een antwoord op de vraag wat mensen feitelijk doen",
+      "ze zoekt een antwoord op de vraag hoe moraal is ontstaan",
+      "ze zoekt een antwoord op de vraag welke wetten een land heeft"
+     ],
+     "antwoord": 0,
+     "uitleg": "Normatief komt van norm: ze stelt de regel zelf ter discussie en niet alleen wat mensen erover denken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vier richtingen horen bij de normatieve ethiek?",
+     "opties": [
+      "gevolgenethiek, plichtethiek, deugdethiek en zorgethiek",
+      "gevolgenethiek, plichtethiek, descriptieve ethiek en zorgethiek",
+      "deugdethiek, zorgethiek, cultuurrelativisme en universalisme",
+      "plichtethiek, deugdethiek, rechtsethiek en beroepsethiek"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vier antwoorden op dezelfde vraag, elk met een ander aanknopingspunt: het gevolg, de plicht, de persoon, de relatie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarnaar kijkt de gevolgenethiek om te beslissen of een daad goed is?",
+     "opties": [
+      "naar wat de daad teweegbrengt",
+      "naar de regel die bij de daad hoort",
+      "naar het karakter van wie de daad stelt",
+      "naar de relatie tussen wie zorgt en wie zorg krijgt"
+     ],
+     "antwoord": 0,
+     "uitleg": "De uitkomst beslist. Daarom heet ze ook wel het utilitarisme: het gaat om het nut van wat volgt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarnaar kijkt de plichtethiek?",
+     "opties": [
+      "naar de regel of de plicht die je in deze situatie bindt",
+      "naar het gevolg dat je daad in de wereld zal hebben",
+      "naar de deugd die je door deze daad verder ontwikkelt",
+      "naar de zorg die deze ene mens op dit moment nodig heeft"
+     ],
+     "antwoord": 0,
+     "uitleg": "Sommige dingen doe je niet, hoe goed de uitkomst ook zou uitvallen. Dat is de kern van de plichtethiek."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarnaar kijkt de deugdethiek?",
+     "opties": [
+      "naar wat voor mens je door je handelen wordt",
+      "naar het gevolg dat je handelen voor anderen heeft",
+      "naar de regel die op dit geval van toepassing is",
+      "naar wat de wet in dit geval van je verlangt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Haar vraag is niet wat moet ik doen maar wat voor mens wil ik zijn. Het goede handelen volgt dan uit een goed karakter."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarnaar kijkt de zorgethiek?",
+     "opties": [
+      "naar de concrete mens die voor je staat en wat die nodig heeft",
+      "naar de algemene regel die voor alle mensen tegelijk geldt",
+      "naar de som van het geluk dat je daad in de wereld oplevert",
+      "naar de deugden die een mens in zijn leven moet ontwikkelen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ze vertrekt niet van een regel of een berekening maar van de band tussen mensen die van elkaar afhankelijk zijn."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een arts twijfelt over een zware behandeling. Welke vraag stelt de gevolgenethiek?",
+     "opties": [
+      "wat levert deze behandeling de patiënt per saldo op?",
+      "welke regel bindt mij hier, los van de uitkomst?",
+      "wat voor arts word ik als ik dit beslis?",
+      "wat heeft deze mens in deze relatie van mij nodig?"
+     ],
+     "antwoord": 0,
+     "uitleg": "Elke benadering stelt bij dezelfde beslissing een andere vraag. Dit is die van de gevolgen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het is-ought probleem van David Hume?",
+     "opties": [
+      "uit wat is, volgt niet zonder meer wat zou moeten",
+      "uit wat zou moeten, volgt niet zonder meer wat is",
+      "uit wat is, volgt altijd meteen wat zou moeten",
+      "uit wat is, valt niets over de werkelijkheid af te leiden"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een beschrijving en een voorschrift zijn twee soorten uitspraken. Tussen beide zit een stap die je apart moet verdedigen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraak maakt de sprong die Hume aanwijst?",
+     "opties": [
+      "mensen eten al duizenden jaren vlees, dus mogen we dat blijven doen",
+      "mensen eten al duizenden jaren vlees, en dat is in de meeste landen nog zo",
+      "wij zouden minder vlees moeten eten dan wij vandaag gewoon zijn",
+      "de helft van de bevolking eet volgens dat onderzoek minder vlees"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het woordje dus doet het werk. Dat iets zo is of zo was, zegt op zich niet dat het zo mag blijven."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe gebruikt men het is-ought probleem als kritiek op de gevolgenethiek?",
+     "opties": [
+      "dat mensen naar geluk streven, bewijst niet dat geluk de maatstaf moet zijn",
+      "dat mensen naar geluk streven, bewijst dat geluk de maatstaf moet zijn",
+      "dat geluk de maatstaf is, bewijst dat mensen naar geluk streven",
+      "dat mensen naar geluk streven, valt niet vast te stellen of te meten"
+     ],
+     "antwoord": 0,
+     "uitleg": "De gevolgenethiek vertrekt van een vaststelling over mensen en maakt daar een norm van. Precies daar wijst Hume de sprong aan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over de descriptieve en de normatieve ethiek kloppen?",
+     "opties": [
+      "de descriptieve beschrijft, de normatieve schrijft voor",
+      "de descriptieve kan onderzoek gebruiken, bijvoorbeeld een bevraging",
+      "de descriptieve beslist welke morele opvatting de juiste is",
+      "de normatieve beperkt zich tot het meten van wat mensen vinden",
+      "van een beschrijving kan je niet zomaar naar een voorschrift oversteken"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4
+     ],
+     "uitleg": "Het is-ought probleem zegt juist dat je van een beschrijving niet zomaar naar een voorschrift kan oversteken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De descriptieve ethiek beschrijft welke morele opvattingen mensen hebben.",
+     "antwoord": true,
+     "uitleg": "Waar. Ze velt zelf geen oordeel over die opvattingen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De gevolgenethiek beoordeelt een daad op de regel die erbij hoort.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Dat doet de plichtethiek. De gevolgenethiek kijkt naar de uitkomst."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De deugdethiek vraagt vooral wat voor mens je wil zijn.",
+     "antwoord": true,
+     "uitleg": "Waar. Het goede handelen volgt daar uit een goed karakter."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Volgens het is-ought probleem volgt uit wat is zonder meer wat zou moeten.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Juist omgekeerd: die stap is niet vanzelfsprekend en moet apart verdedigd worden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke benadering beschrijft enkel welke moraal mensen hebben? De ... ethiek",
+     "antwoord": [
+      "descriptieve"
+     ],
+     "uitleg": "Beschrijven, niet voorschrijven."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke benadering gaat over wat je zou moeten doen? De ... ethiek",
+     "antwoord": [
+      "normatieve"
+     ],
+     "uitleg": "Normatief komt van norm."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke filosoof wijst op de sprong van is naar ought?",
+     "antwoord": [
+      "Hume",
+      "David Hume"
+     ],
+     "uitleg": "Dezelfde Hume als bij het empirisme en de inductie."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke richting binnen de normatieve ethiek beoordeelt een daad op haar uitkomst? De ...",
+     "antwoord": [
+      "gevolgenethiek",
+      "gevolgethiek"
+     ],
+     "uitleg": "Ook het utilitarisme genoemd."
+    }
+   ]
+  },
+  {
+   "titel": "Ethiek en geluk — deel 2",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke plaats heeft geluk in de ethiek van Immanuel Kant?",
+     "opties": [
+      "geluk is geen maatstaf voor moraal; je plicht doe je om de plicht",
+      "geluk is de enige maatstaf voor moraal die telt",
+      "geluk is de maatstaf, zolang het om het geluk van allen gaat",
+      "geluk is de maatstaf, zolang je er zelf voor gewerkt hebt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een daad die je stelt omdat ze jou gelukkig maakt, is bij hem niet moreel. Wel verdient wie zijn plicht doet volgens hem geluk."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom kan geluk bij Kant geen grondslag voor de moraal zijn?",
+     "opties": [
+      "wat iemand gelukkig maakt, verschilt van mens tot mens",
+      "geluk komt bij mensen nu eenmaal zelden of nooit voor",
+      "geluk is iets dat je met een vragenlijst niet kan meten",
+      "geluk hoort bij het lichaam en moraal hoort bij de geest"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een moreel gebod moet voor allen gelden. Iets dat bij ieder anders uitvalt, kan die algemene wet niet dragen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke plaats heeft geluk bij Jeremy Bentham?",
+     "opties": [
+      "geluk is net wél de maatstaf, en het is in principe optelbaar",
+      "geluk is geen maatstaf, want de plicht gaat voor",
+      "geluk is een bijzaak naast de deugd van wie handelt",
+      "geluk is onbereikbaar, want elk verlangen komt terug"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hij staat daarmee recht tegenover Kant. Genot min pijn, voor zoveel mensen als mogelijk: dat is bij hem de hele rekening."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het bezwaar tegen geluk als optelsom?",
+     "opties": [
+      "een getal zegt niet wie van de betrokkenen de prijs betaalt",
+      "een getal zegt niets over hoeveel mensen er betrokken zijn",
+      "geluk valt bij niemand ooit in enige mate vast te stellen",
+      "geluk van anderen hoeft in de moraal nooit mee te tellen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hetzelfde bezwaar als bij de gevolgenethiek: de som verbergt de verdeling."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe kijkt Arthur Schopenhauer naar geluk?",
+     "opties": [
+      "geluk is hoogstens het tijdelijk ontbreken van gemis",
+      "geluk is het vaste resultaat van een deugdzaam leven",
+      "geluk is de som van genot min pijn in een mensenleven",
+      "geluk is de verantwoordelijkheid die je voor een ander opneemt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij hem drijft de wil ons van verlangen naar verlangen. Vervuld verlangen laat verveling achter, onvervuld verlangen pijn."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom noemt men de visie van Schopenhauer pessimistisch?",
+     "opties": [
+      "het verlangen komt bij hem altijd terug, dus blijft geluk kortstondig",
+      "het verlangen verdwijnt bij hem volledig zodra je het eenmaal stilt",
+      "hij ontkent dat mensen ooit iets kunnen verlangen",
+      "hij vindt dat geluk voor iedereen even gemakkelijk te bereiken is"
+     ],
+     "antwoord": 0,
+     "uitleg": "Niet dat er nooit iets goed is, maar dat het nooit blijft. Mededogen en kunst geven bij hem verlichting."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar ligt geluk volgens Emmanuel Levinas?",
+     "opties": [
+      "niet in jezelf, maar in de verantwoordelijkheid voor de ander",
+      "niet in de ander, maar in de rust die je bij jezelf vindt",
+      "in de som van het genot dat jij in je leven bijeenbrengt",
+      "in de deugden die je door jarenlange oefening opbouwt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zijn hele ethiek begint bij de ander. Een leven dat alleen om jezelf draait, loopt bij hem dood."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de boodschap van Dirk De Wachter over geluk?",
+     "opties": [
+      "verdriet en tegenslag horen bij een leven en mogen er zijn",
+      "verdriet is een ziekte die altijd behandeld moet worden",
+      "geluk is een plicht waaraan iedereen hard moet werken",
+      "geluk komt enkel voor bij wie het financieel goed heeft"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zijn kritiek richt zich op de druk om altijd gelukkig te moeten zijn. Die druk maakt volgens hem juist ongelukkig."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarin zoekt De Wachter wel geluk?",
+     "opties": [
+      "in verbondenheid met anderen en in kleine, gewone dingen",
+      "in prestaties waarmee je het ver kan brengen",
+      "in het volledig vermijden van elk verdriet",
+      "in de berekening van wat je het meeste oplevert"
+     ],
+     "antwoord": 0,
+     "uitleg": "Iemand die naar je vraagt en bij wie je terechtkan: daar legt hij het gewicht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke twee visies uit dit thema staan het verst van elkaar?",
+     "opties": [
+      "Bentham, voor wie geluk de maatstaf is, en Kant, voor wie dat niet zo is",
+      "Aristoteles en Epicurus, want beiden spreken over het goede leven",
+      "Levinas en De Wachter, want beiden spreken over de ander",
+      "het stoïcisme en de oosterse wijsheden, want beide spreken over rust"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij de andere drie paren liggen de visies juist dicht bij elkaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over de visies op geluk kloppen?",
+     "opties": [
+      "sommige filosofen zoeken geluk binnen de mens, andere bij de ander",
+      "voor de ene is geluk de maatstaf van moraal, voor de andere niet",
+      "alle genoemde filosofen vinden geluk de maatstaf van de moraal",
+      "alle genoemde filosofen zien geluk als een gevoel van de dag"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Daarin zit het hele verschil."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over Schopenhauer en De Wachter kloppen?",
+     "opties": [
+      "beiden nemen afstand van de belofte van een leven zonder verdriet",
+      "De Wachter zoekt een uitweg in verbondenheid, Schopenhauer niet daar",
+      "beiden vinden dat geluk eenvoudig te bereiken is",
+      "beiden rekenen geluk uit als genot min pijn",
+      "beiden zijn nuchter over het verdriet, maar geven er een ander antwoord op"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4
+     ],
+     "uitleg": "Dezelfde nuchterheid over het verdriet, een ander antwoord erop."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Volgens Kant is geluk de maatstaf waaraan je moraal moet afmeten.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Bij hem doe je je plicht om de plicht; geluk maakt een daad niet moreel."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Voor Bentham is geluk in principe optelbaar.",
+     "antwoord": true,
+     "uitleg": "Waar. Genot min pijn, voor zoveel mensen als mogelijk."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Schopenhauer ziet geluk als een blijvende toestand die je kan bereiken.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Bij hem is het hoogstens het tijdelijk ontbreken van gemis."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Dirk De Wachter vindt dat verdriet bij een mensenleven hoort.",
+     "antwoord": true,
+     "uitleg": "Waar. De druk om altijd gelukkig te zijn is volgens hem een deel van het probleem."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke filosoof vindt dat geluk geen grondslag voor de moraal kan zijn?",
+     "antwoord": [
+      "Kant",
+      "Immanuel Kant"
+     ],
+     "uitleg": "Je plicht doe je om de plicht, niet om wat ze je oplevert."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke filosoof wil geluk optellen als genot min pijn?",
+     "antwoord": [
+      "Bentham",
+      "Jeremy Bentham"
+     ],
+     "uitleg": "Hij staat daarmee recht tegenover Kant."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke filosoof noemt geluk hoogstens het tijdelijk ontbreken van gemis?",
+     "antwoord": [
+      "Schopenhauer",
+      "Arthur Schopenhauer"
+     ],
+     "uitleg": "De wil drijft ons bij hem van verlangen naar verlangen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke Vlaamse psychiater schrijft dat verdriet bij het leven hoort?",
+     "antwoord": [
+      "Dirk De Wachter",
+      "De Wachter"
+     ],
+     "uitleg": "Hij neemt het op tegen de druk om altijd gelukkig te moeten zijn."
+    }
+   ]
+  },
+  {
+   "titel": "De democratische rechtsstaat en haar principes — deel 1",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een rechtsstaat?",
+     "opties": [
+      "een staat waarin ook de overheid zelf aan het recht gebonden is",
+      "een staat waarin de overheid het recht mag veranderen zoals ze wil",
+      "een staat waarin enkel de burgers aan de wetten gebonden zijn",
+      "een staat waarin de rechters de wetten mogen schrijven"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dat is de kern: wie de macht uitoefent, staat niet boven de wet. Een burger kan zijn eigen overheid voor de rechter brengen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat voegt het woord democratisch daaraan toe?",
+     "opties": [
+      "de macht komt van het volk, dat zijn vertegenwoordigers verkiest",
+      "de macht komt van de rechters, die het volk vertegenwoordigen",
+      "de macht komt van de grondwet, die niemand nog kan wijzigen",
+      "de macht komt van de regering, die het volk moet gehoorzamen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Rechtsstaat en democratie zijn twee dingen. Een staat kan netjes wetten volgen zonder verkiezingen, en verkiezingen houden zonder zich aan het recht te houden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Met welke waarden van de westerse maatschappij hangt de democratische rechtsstaat samen?",
+     "opties": [
+      "vrijheid, gelijkheid en de waardigheid van elke mens",
+      "orde, gehoorzaamheid en de eenheid van het volk",
+      "welvaart, groei en de bescherming van ondernemingen",
+      "traditie, geloof en de autoriteit van wie regeert"
+     ],
+     "antwoord": 0,
+     "uitleg": "Die waarden komen uit de Verlichting en staan ook aan het begin van onze grondwet en van de mensenrechten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zegt het meerderheidsprincipe?",
+     "opties": [
+      "een beslissing geldt als de meerderheid ze steunt",
+      "een beslissing geldt enkel als iedereen ze steunt",
+      "een beslissing geldt als de regering ze goedkeurt",
+      "een beslissing geldt als een rechter ze aanvaardt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zo komt er een beslissing zonder dat iedereen het eens moet zijn. De keerzijde is dat een meerderheid een minderheid kan overstemmen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom mag een meerderheid niet alles beslissen?",
+     "opties": [
+      "grondrechten beschermen de minderheid tegen de wil van de meerderheid",
+      "een meerderheid vergist zich nu eenmaal altijd in haar keuzes",
+      "de regering mag elke beslissing van de meerderheid naast zich leggen",
+      "een rechter mag elke beslissing van de meerderheid overdoen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Daarom is het meerderheidsprincipe maar één van de vijf principes. Zonder grondrechten wordt een meerderheid een macht zonder grens."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een constitutie?",
+     "opties": [
+      "de grondwet: de hoogste wet, die de macht afbakent",
+      "de verzameling van alle wetten die een land ooit maakte",
+      "het reglement waarmee een regering haar werk organiseert",
+      "het verdrag waarmee landen afspraken met elkaar maken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Alle andere wetten moeten ermee in overeenstemming zijn. Ze zegt ook wie welke macht heeft en waar die stopt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom staat een grondwet boven de gewone wetten?",
+     "opties": [
+      "ze legt de spelregels vast waaraan de wetgever zelf gebonden is",
+      "ze is nu eenmaal het oudste wetboek van een land",
+      "ze is door de rechters geschreven in plaats van door het parlement",
+      "ze kan door een gewone meerderheid snel aangepast worden"
+     ],
+     "antwoord": 0,
+     "uitleg": "En precies daarom is ze moeilijker te wijzigen dan een gewone wet: een meerderheid van vandaag mag de spelregels niet in haar eigen voordeel omgooien."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vijf principes horen bij een democratische rechtsstaat?",
+     "opties": [
+      "meerderheid, grondwet, scheiding der machten, onafhankelijke rechtspraak en grondrechten",
+      "meerderheid, grondwet, vrije markt, onafhankelijke pers en grondrechten",
+      "verkiezingen, regering, parlement, politie en rechtbanken",
+      "vrijheid, gelijkheid, broederlijkheid, orde en veiligheid"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vijf principes die elkaar dragen. Valt er één weg, dan verzwakken de andere mee."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een land houdt verkiezingen, maar de winnaar kan rechters afzetten die hem tegenspreken. Wat mankeert daar?",
+     "opties": [
+      "de rechtsstaat, want de macht is niet meer aan het recht gebonden",
+      "de democratie, want er zijn geen verkiezingen gehouden",
+      "niets, want de meerderheid heeft nu eenmaal beslist",
+      "het meerderheidsprincipe, want de winnaar heeft de meerderheid"
+     ],
+     "antwoord": 0,
+     "uitleg": "Verkiezingen alleen maken geen rechtsstaat. Wie de rechter kan wegsturen, staat boven de wet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over rechtsstaat en democratie kloppen?",
+     "opties": [
+      "het zijn twee verschillende dingen die elkaar aanvullen",
+      "een staat kan democratisch zijn en toch de rechtsstaat uithollen",
+      "rechtsstaat en democratie betekenen precies hetzelfde",
+      "een rechtsstaat veronderstelt altijd verkiezingen"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Daarom staan de twee woorden naast elkaar en niet door elkaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over de grondwet kloppen?",
+     "opties": [
+      "ze is moeilijker te wijzigen dan een gewone wet",
+      "andere wetten moeten met haar in overeenstemming zijn",
+      "ze bevat alle wetten van een land bij elkaar",
+      "ze wordt door de regering alleen vastgelegd"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Haar taak is de macht afbakenen, niet alle regels van het land bevatten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom hoort een onafhankelijke rechtspraak bij een rechtsstaat?",
+     "opties": [
+      "enkel een rechter die niemand hoeft te plezieren, kan de overheid terechtwijzen",
+      "enkel een rechter die de regering volgt, kan haar wetten goed toepassen",
+      "enkel een rechter die verkozen is, kan namens het volk oordelen",
+      "enkel een rechter die snel beslist, kan het vertrouwen bewaren"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zonder onafhankelijkheid blijft van de regel dat de overheid aan het recht gebonden is niets over."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In een rechtsstaat is ook de overheid aan het recht gebonden.",
+     "antwoord": true,
+     "uitleg": "Waar. Dat is precies wat het woord rechtsstaat betekent."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een grondwet is gemakkelijker te wijzigen dan een gewone wet.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Juist moeilijker, zodat een meerderheid de spelregels niet zomaar kan omgooien."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Volgens het meerderheidsprincipe geldt een beslissing die de meerderheid steunt.",
+     "antwoord": true,
+     "uitleg": "Waar. En de grondrechten begrenzen wat die meerderheid mag beslissen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Rechtsstaat en democratie zijn twee woorden voor hetzelfde.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Het ene gaat over gebondenheid aan het recht, het andere over wie de macht geeft."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet de hoogste wet van een land, die de macht afbakent?",
+     "antwoord": [
+      "de grondwet",
+      "grondwet",
+      "de constitutie"
+     ],
+     "uitleg": "Alle andere wetten moeten ermee in overeenstemming zijn."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet het principe dat een beslissing geldt als de meerderheid ze steunt? Het ...",
+     "antwoord": [
+      "meerderheidsprincipe"
+     ],
+     "uitleg": "Eén van de vijf principes van een democratische rechtsstaat."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je een staat waarin ook de overheid aan het recht gebonden is?",
+     "antwoord": [
+      "een rechtsstaat",
+      "rechtsstaat",
+      "de rechtsstaat"
+     ],
+     "uitleg": "Zonder dat kan een burger zijn overheid nergens aanspreken."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Uit welke periode komen de waarden vrijheid en gelijkheid die onze rechtsstaat dragen? De ...",
+     "antwoord": [
+      "Verlichting",
+      "verlichting"
+     ],
+     "uitleg": "Dezelfde periode waarin de filosofie de rede centraal zette."
+    }
+   ]
+  },
+  {
+   "titel": "De functies van justitie, de rechtspraak en de deontologie — deel 1",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zijn de vijf functies van justitie?",
+     "opties": [
+      "preventie, veiligheid, ordehandhaving, conflictbeslechting en bestraffing",
+      "preventie, veiligheid, opvoeding, vergelding en schadeherstel voor het slachtoffer",
+      "wetgeving, bestuur, rechtspraak, controle en bemiddeling",
+      "politie, parket, rechtbank, gevangenis en reclassering"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vijf taken naast elkaar. Straffen is er maar één van, en zeker niet de eerste."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent de functie preventie?",
+     "opties": [
+      "voorkomen dat er misdrijven en conflicten ontstaan",
+      "een dader straffen zodat hij het niet opnieuw doet",
+      "een conflict tussen twee burgers beslechten",
+      "de orde op straat herstellen na een incident"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dat de wet bestaat en dat overtredingen gevolgen hebben, houdt al veel mensen tegen. Dat werk is onzichtbaar, maar het is er."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent de functie conflictbeslechting?",
+     "opties": [
+      "een geschil tussen partijen met een beslissing afsluiten",
+      "een dader een passende straf opleggen voor wat hij gedaan heeft",
+      "de orde op straat herstellen na een betoging",
+      "voorkomen dat er nieuwe geschillen ontstaan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zonder rechter zou een geschil blijven duren of met geweld eindigen. Daarom hoort beslechten bij de kerntaken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het vermoeden van onschuld?",
+     "opties": [
+      "je bent onschuldig tot een rechter je schuld heeft vastgesteld",
+      "je bent schuldig tot je je eigen onschuld hebt bewezen",
+      "je bent onschuldig zolang de politie je niet verhoord heeft",
+      "je bent onschuldig zolang de pers je naam niet genoemd heeft"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het bewijs moet van wie vervolgt komen, niet van wie beschuldigd wordt. Twijfel valt in het voordeel van de beklaagde uit."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent hoor en wederhoor?",
+     "opties": [
+      "elke partij krijgt de kans om op de argumenten van de andere te antwoorden",
+      "elke partij moet door twee verschillende rechters gehoord worden",
+      "elke getuige moet twee keer in de rechtszaal komen verklaren",
+      "elke beslissing moet door een hoger rechtscollege herhaald worden"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zonder dat kan een rechter maar één kant van een verhaal kennen, en dat is per definitie te weinig."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent openbaarheid van de rechtspraak?",
+     "opties": [
+      "een zitting en een uitspraak zijn in beginsel voor iedereen toegankelijk",
+      "elk dossier van het parket kan door iedereen worden opgevraagd",
+      "elke rechter moet zijn beslissing in de krant laten publiceren",
+      "elke burger mag bij de beraadslaging van de rechters aanwezig zijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wat in het openbaar gebeurt, is te controleren. In het belang van een kind of van de privacy kan een zitting wel met gesloten deuren plaatsvinden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een krant noemt een verdachte al een dader voor zijn proces. Welk principe staat onder druk?",
+     "opties": [
+      "het vermoeden van onschuld",
+      "de openbaarheid",
+      "het hoor en wederhoor",
+      "de territoriale bevoegdheid"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dit is wat men trial by media noemt, en het is een actueel thema."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke rol speelt justitie bij veranderende maatschappelijke normen?",
+     "opties": [
+      "ze volgt die veranderingen en legt ze geleidelijk in regels vast",
+      "ze houdt elke verandering in de samenleving tegen",
+      "ze beslist in de plaats van het parlement welke normen gelden",
+      "ze staat volledig buiten wat er in de samenleving verandert"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wat vroeger strafbaar was, is dat vandaag soms niet meer, en omgekeerd. Recht en samenleving bewegen samen, al loopt het recht meestal achter."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke rol speelt justitie in ons dagelijks leven?",
+     "opties": [
+      "ze regelt stil veel meer dan je merkt, van huren tot erven",
+      "ze komt enkel in beeld bij een misdrijf en nergens anders",
+      "ze bemoeit zich niet met afspraken tussen burgers onderling",
+      "ze geldt alleen voor wie ooit met de politie te maken heeft gehad"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een huurcontract, een aankoop, een scheiding, een nalatenschap: het recht zit in duizend gewone dingen zonder dat er een rechter aan te pas komt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over de functies van justitie kloppen?",
+     "opties": [
+      "bestraffen is maar één van de vijf functies",
+      "preventie werkt al doordat de regel bestaat en gevolgen heeft",
+      "conflictbeslechting komt enkel in strafzaken voor",
+      "veiligheid is de enige functie van justitie"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Conflictbeslechting is net typisch voor het burgerlijk recht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over de principes van de rechtspraak kloppen?",
+     "opties": [
+      "openbaarheid is de regel, met uitzonderingen voor bijzondere belangen",
+      "het vermoeden van onschuld legt de bewijslast bij wie vervolgt",
+      "hoor en wederhoor betekent dat elke zaak twee keer behandeld wordt",
+      "de onpartijdigheid van een rechter hangt af van het soort zaak"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Hoor en wederhoor gaat over antwoorden kunnen geven, niet over een tweede behandeling."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe draagt justitie bij aan meer rechtvaardigheid en gelijkheid?",
+     "opties": [
+      "ze behandelt iedereen volgens dezelfde regels, ongeacht wie hij is",
+      "ze geeft de zwakste partij in een geschil altijd gelijk",
+      "ze zorgt dat iedereen in de samenleving hetzelfde inkomen heeft",
+      "ze laat elke burger zijn eigen rechter kiezen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Gelijkheid voor de wet is de belofte. Dat die in de praktijk niet altijd uitkomt, is precies iets om over na te denken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bestraffen is maar een van de vijf functies van justitie.",
+     "antwoord": true,
+     "uitleg": "Waar. Preventie, veiligheid, ordehandhaving en conflictbeslechting staan er naast."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het vermoeden van onschuld betekent dat je je onschuld moet bewijzen.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Het bewijs moet komen van wie vervolgt; twijfel valt in jouw voordeel uit."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Hoor en wederhoor betekent dat elke partij op de andere kan antwoorden.",
+     "antwoord": true,
+     "uitleg": "Waar. Een rechter die maar één kant hoort, weet te weinig."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een zitting kan nooit met gesloten deuren plaatsvinden.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Openbaarheid is de regel, maar het belang van een kind of de privacy kan een uitzondering rechtvaardigen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk principe zegt dat je onschuldig bent tot een rechter anders beslist? Het vermoeden van ...",
+     "antwoord": [
+      "onschuld"
+     ],
+     "uitleg": "De bewijslast ligt bij wie vervolgt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk principe geeft elke partij de kans om op de andere te antwoorden? Hoor en ...",
+     "antwoord": [
+      "wederhoor"
+     ],
+     "uitleg": "Zonder dat kent een rechter maar één kant van het verhaal."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke functie van justitie wil misdrijven voorkomen? De ...",
+     "antwoord": [
+      "preventie"
+     ],
+     "uitleg": "Het werk dat je niet ziet omdat het lukt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke functie van justitie sluit een geschil tussen partijen af? De ...",
+     "antwoord": [
+      "conflictbeslechting"
+     ],
+     "uitleg": "Typisch voor het burgerlijk recht."
+    }
+   ]
+  },
+  {
+   "titel": "Buitengerechtelijke procedures en juridische bijstand — deel 2",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is juridische eerstelijnsbijstand?",
+     "opties": [
+      "een eerste, korte uitleg en advies over je rechten, gratis",
+      "een advocaat die je hele dossier voor je behandelt, gratis",
+      "een rechter die je vooraf zegt of je zaak kans maakt",
+      "een verzekering die je proceskosten terugbetaalt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerste lijn is oriënteren: waar sta je, wat kan je doen, en bij wie moet je zijn. Een dossier behandelen hoort bij de tweede lijn."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is juridische tweedelijnsbijstand?",
+     "opties": [
+      "een advocaat behandelt je dossier, gratis of gedeeltelijk gratis",
+      "een medewerker geeft je kort advies aan een loket in je gemeente",
+      "een bemiddelaar begeleidt het gesprek met de andere partij",
+      "een rechtbank behandelt je zaak zonder kosten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dit is het systeem dat men pro deo noemt. Of je er recht op hebt, hangt af van je inkomen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent pro deo?",
+     "opties": [
+      "je advocaat wordt door de overheid betaald in plaats van door jou",
+      "je advocaat werkt voor niets en krijgt daar van niemand iets voor",
+      "je hoeft geen advocaat te nemen en verdedigt jezelf",
+      "je betaalt je advocaat pas als je de zaak gewonnen hebt"
+     ],
+     "antwoord": 0,
+     "uitleg": "De advocaat werkt dus niet voor niets; de kosten komen van de overheid in plaats van van jou."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke instelling hoort bij de eerstelijnsbijstand?",
+     "opties": [
+      "het CAW, het centrum voor algemeen welzijnswerk",
+      "het Hof van Cassatie, dat over het recht waakt",
+      "de Raad van State, die het bestuur nakijkt",
+      "het Grondwettelijk Hof, dat de wetten toetst"
+     ],
+     "antwoord": 0,
+     "uitleg": "Naast het CAW kan je terecht bij de justitiehuizen, het OCMW en de wetswinkel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een wetswinkel?",
+     "opties": [
+      "een plaats waar je gratis terecht kan met een juridische vraag",
+      "een winkel waar je wetboeken en allerlei formulieren kan kopen",
+      "een dienst van de rechtbank die dossiers bijhoudt",
+      "een kantoor waar je een advocaat kan aanstellen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vrijwilligers met een juridische opleiding geven er eerste uitleg. Een winkel in de gewone zin is het niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een justitiehuis?",
+     "opties": [
+      "een dienst waar je terecht kan met vragen rond justitie en begeleiding",
+      "een gebouw waar de zittingen van de rechtbank doorgaan",
+      "een huis waar gedetineerden het laatste deel van hun straf uitzitten",
+      "een kantoor waar je een klacht bij de politie kan neerleggen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Let op het verschil met een transitiehuis, waar wél gedetineerden verblijven. Een justitiehuis is een dienst, geen woonplaats."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil tussen de eerste en de tweede lijn?",
+     "opties": [
+      "de eerste lijn oriënteert kort, de tweede lijn behandelt je dossier",
+      "de eerste lijn behandelt je dossier, de tweede lijn oriënteert kort",
+      "de eerste lijn is betalend en de tweede lijn is gratis",
+      "de eerste lijn is voor burgers en de tweede lijn voor ondernemingen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerst kijken waar je staat, dan pas iemand die het overneemt. Dat spaart jou en de samenleving tijd en geld."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Iemand met een klein inkomen krijgt een advocaat toegewezen die door de overheid betaald wordt. Wat is dit?",
+     "opties": [
+      "juridische tweedelijnsbijstand",
+      "juridische eerstelijnsbijstand",
+      "bemiddeling",
+      "arbitrage"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het systeem dat men pro deo noemt. De eerste lijn geeft enkel advies."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Iemand stelt zijn vraag over een huurcontract aan een medewerker van het OCMW en krijgt uitleg. Wat is dit?",
+     "opties": [
+      "juridische eerstelijnsbijstand",
+      "juridische tweedelijnsbijstand",
+      "een verzoening voor de vrederechter",
+      "een minnelijke schikking"
+     ],
+     "antwoord": 0,
+     "uitleg": "Kort advies dat je verder helpt: dat is precies waarvoor de eerste lijn bestaat."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom bestaat juridische bijstand?",
+     "opties": [
+      "zonder hulp zou je recht afhangen van je geld en je kennis",
+      "zonder hulp zou de rechtbank te weinig werk hebben",
+      "zonder hulp zouden er te veel advocaten werkloos zijn",
+      "zonder hulp zou niemand de wet nog willen volgen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Gelijkheid voor de wet betekent weinig als enkel wie het kan betalen zijn recht kan halen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over juridische bijstand kloppen?",
+     "opties": [
+      "de eerste lijn is kort en gratis, de tweede lijn hangt af van je inkomen",
+      "online informatie van overheidswebsites hoort bij de eerste lijn",
+      "de tweede lijn geeft enkel informatie en geen echte bijstand",
+      "de eerste lijn behandelt je zaak tot bij de rechter"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Ook gratis consulten bij advocaten zijn een vorm van eerstelijnsbijstand."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over conflictoplossing kloppen?",
+     "opties": [
+      "een geschil kan buiten de rechtbank en binnen de rechtbank opgelost worden",
+      "wie niet weet waar te beginnen, kan eerst bij de eerstelijnsbijstand terecht",
+      "elk geschil moet eerst bij een arbiter voorgelegd worden",
+      "wie naar een bemiddelaar gaat, geeft zijn rechten op"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Een bemiddeling die mislukt, sluit de weg naar de rechter niet af."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij juridische eerstelijnsbijstand krijg je kort advies en geen dossierbehandeling.",
+     "antwoord": true,
+     "uitleg": "Waar. Voor een dossier ga je naar de tweede lijn."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Pro deo betekent dat je advocaat voor niets werkt.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Hij wordt door de overheid betaald in plaats van door jou."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een wetswinkel is een plaats waar je gratis met een juridische vraag terecht kan.",
+     "antwoord": true,
+     "uitleg": "Waar. Je koopt er geen wetboeken; je krijgt er uitleg."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het recht op tweedelijnsbijstand staat volledig los van je inkomen.",
+     "antwoord": false,
+     "uitleg": "Niet waar. Je inkomen bepaalt of je er recht op hebt en of het volledig of gedeeltelijk gratis is."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noemt men het systeem waarbij de overheid je advocaat betaalt?",
+     "antwoord": [
+      "pro deo",
+      "prodeo"
+     ],
+     "uitleg": "De officiële naam is juridische tweedelijnsbijstand."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet het centrum voor algemeen welzijnswerk in drie letters?",
+     "antwoord": [
+      "CAW",
+      "caw"
+     ],
+     "uitleg": "Een van de plaatsen voor juridische eerstelijnsbijstand."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet de plaats waar vrijwilligers gratis juridische uitleg geven? De ...",
+     "antwoord": [
+      "wetswinkel"
+     ],
+     "uitleg": "Eerste lijn, geen dossierbehandeling."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke lijn van juridische bijstand behandelt je dossier? De ... lijn",
+     "antwoord": [
+      "tweede"
+     ],
+     "uitleg": "Met een advocaat, gratis of gedeeltelijk gratis."
+    }
+   ]
+  }
+ ]
+}

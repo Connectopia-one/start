@@ -27,7 +27,7 @@ Deel 2 is hoe die lagen elkaar beïnvloeden en hoe een identiteit verandert.
 DEEL1 = [
     dict(
         type="meerkeuze",
-        vraag="Wat bedoelt de vakfiche met identiteit?",
+        vraag="Wat bedoel je met identiteit?",
         opties=[
             "het geheel van wie iemand is, in verhouding tot anderen",
             "de gegevens die op iemands identiteitskaart staan afgedrukt",
@@ -35,11 +35,11 @@ DEEL1 = [
             "de rol die iemand opneemt in zijn of haar eigen gezin",
         ],
         antwoord=0,
-        uitleg="De fiche noemt identiteit relationeel: wie je bent, krijgt vorm in verhouding tot de mensen rond je.",
+        uitleg="Identiteit is relationeel: wie je bent, krijgt vorm in verhouding tot de mensen rond je.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke twee soorten identiteit onderscheidt de vakfiche?",
+        vraag="Welke twee soorten identiteit onderscheid je?",
         opties=[
             "persoonlijke identiteit en groepsidentiteit",
             "wettelijke identiteit en gevoelsidentiteit",
@@ -47,7 +47,7 @@ DEEL1 = [
             "binnenlandse identiteit en buitenlandse identiteit",
         ],
         antwoord=0,
-        uitleg="Alleen die twee staan in de fiche. De andere namen bestaan daar niet.",
+        uitleg="Alleen die twee kloppen. De andere namen bestaan niet als soort identiteit.",
     ),
     dict(
         type="meerkeuze",
@@ -59,7 +59,7 @@ DEEL1 = [
             "taal, geloofsovertuiging en de streek waar je woont",
         ],
         antwoord=0,
-        uitleg="De andere rijtjes horen bij de groepsidentiteit of staan helemaal niet in de fiche.",
+        uitleg="De andere rijtjes horen bij de groepsidentiteit of bestaan niet.",
     ),
     dict(
         type="meerkeuze",
@@ -87,7 +87,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke lagen horen volgens de fiche bij de groepsidentiteit?",
+        vraag="Welke lagen horen bij de groepsidentiteit?",
         opties=[
             "regionale, nationale en supranationale aspecten",
             "de groepen waar je deel van uitmaakt",
@@ -95,11 +95,11 @@ DEEL1 = [
             "de persoonlijkheidstrekken die je van jongs af hebt",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De fiche noemt er drie. Persoonlijkheidstrekken horen bij de persoonlijke identiteit.",
+        uitleg="Er zijn er drie. Persoonlijkheidstrekken horen bij de persoonlijke identiteit.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke groepen noemt de fiche als onderdeel van de groepsidentiteit?",
+        vraag="Welke groepen horen bij de groepsidentiteit?",
         opties=[
             "gendergerelateerde groepen",
             "sociaaleconomische groepen",
@@ -108,7 +108,7 @@ DEEL1 = [
             "subculturen",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="Die staan er met zoveel woorden. Over schoolresultaten zegt de fiche niets.",
+        uitleg="Die horen erbij. Schoolresultaten niet.",
     ),
     dict(
         type="meerkeuze",
@@ -138,11 +138,11 @@ DEEL1 = [
         type="waarofniet",
         vraag="Je persoonlijke identiteit en je groepsidentiteit staan volledig los van elkaar.",
         antwoord=False,
-        uitleg="Ze beïnvloeden elkaar. De fiche vraagt juist dat je over die wederzijdse invloed kan nadenken.",
+        uitleg="Ze beïnvloeden elkaar. Over die wederzijdse invloed moet je kunnen nadenken.",
     ),
     dict(
         type="waarofniet",
-        vraag="Je familiale achtergrond is volgens de fiche een laag van je persoonlijke identiteit.",
+        vraag="Je familiale achtergrond is een laag van je persoonlijke identiteit.",
         antwoord=True,
         uitleg="Ze staat in het rijtje naast de biologische aspecten en de persoonlijkheidstrekken.",
     ),
@@ -150,11 +150,11 @@ DEEL1 = [
         type="waarofniet",
         vraag="Een identiteit ligt vast vanaf je geboorte en verandert daarna niet meer.",
         antwoord=False,
-        uitleg="De fiche noemt identiteit dynamisch: ze kan veranderen in de loop van je leven.",
+        uitleg="Identiteit is dynamisch: ze kan veranderen in de loop van je leven.",
     ),
     dict(
         type="waarofniet",
-        vraag="Volgens de fiche bestaat je identiteit uit meerdere lagen samen.",
+        vraag="Je identiteit bestaat uit meerdere lagen samen.",
         antwoord=True,
         uitleg="Gelaagd is een van de drie woorden waarmee het leerdoel identiteit beschrijft.",
     ),
@@ -184,19 +184,19 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Vul aan: de drie woorden waarmee de fiche identiteit beschrijft zijn relationeel, dynamisch en ...",
+        vraag="Vul aan: identiteit is relationeel, dynamisch en ...",
         antwoord=["gelaagd"],
         uitleg="Relationeel, gelaagd en dynamisch: die drie samen vormen het leerdoel van dit blok.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoe noemt de fiche een kleinere groep met eigen gewoonten binnen een grotere cultuur?",
+        vraag="Hoe noem je een kleinere groep met eigen gewoonten binnen een grotere cultuur?",
         antwoord=["subcultuur", "een subcultuur"],
         uitleg="Subculturen horen bij de lagen van de groepsidentiteit.",
     ),
     dict(
         type="invultekst",
-        vraag="Welk woord gebruikt de fiche voor identiteit die hoger reikt dan één land, zoals Europees?",
+        vraag="Welk woord gebruik je voor identiteit die hoger reikt dan één land, zoals Europees?",
         antwoord=["supranationaal", "supranationale"],
         uitleg="Regionaal, nationaal en supranationaal: de drie niveaus in het rijtje van de groepsidentiteit.",
     ),
@@ -206,15 +206,15 @@ DEEL1 = [
         opties=[
             "om neutraliteit te bewaren en persoonsgegevens te beschermen",
             "omdat echte situaties te moeilijk zijn om kort te beschrijven",
-            "omdat de fiche elk jaar nieuwe voorbeelden moet verzinnen",
+            "omdat de examinatoren elk jaar nieuwe voorbeelden moeten verzinnen",
             "om te vermijden dat je de actualiteit moet opvolgen",
         ],
         antwoord=0,
-        uitleg="Die twee redenen staan letterlijk in de fiche. De actualiteit moet je trouwens wél opvolgen.",
+        uitleg="Die twee redenen kloppen. De actualiteit moet je trouwens wél opvolgen.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat vraagt de fiche je over de actualiteit?",
+        vraag="Wat doe je met de actualiteit?",
         opties=[
             "dat je ze opvolgt op lokaal, regionaal en nationaal vlak",
             "dat je er op het examen letterlijk uit kan citeren",
@@ -222,14 +222,14 @@ DEEL1 = [
             "dat je er niets van hoeft te weten voor dit vak",
         ],
         antwoord=0,
-        uitleg="Die drie niveaus staan bij Wat moet je leren, meteen vooraan in de fiche.",
+        uitleg="Die drie niveaus horen erbij: lokaal, regionaal en nationaal.",
     ),
 ]
 
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Welke drie factoren noemt de fiche als dingen die je identiteit vormen en beïnvloeden?",
+        vraag="Welke drie factoren vormen en beïnvloeden je identiteit?",
         opties=[
             "verbondenheid, discriminatie en wij-zij-denken",
             "opvoeding, onderwijs en vriendenkring",
@@ -237,7 +237,7 @@ DEEL2 = [
             "inkomen, beroep en woonplaats",
         ],
         antwoord=0,
-        uitleg="Precies die drie staan in de fiche, en over die drie moet je kunnen nadenken.",
+        uitleg="Precies die drie, en over die drie moet je kunnen nadenken.",
     ),
     dict(
         type="meerkeuze",
@@ -301,7 +301,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe staan het wereldbeeld en de identiteit volgens de fiche tot elkaar?",
+        vraag="Hoe staan het wereldbeeld en de identiteit tot elkaar?",
         opties=[
             "ze bepalen elkaar in twee richtingen",
             "het wereldbeeld bepaalt de identiteit, niet omgekeerd",
@@ -309,23 +309,23 @@ DEEL2 = [
             "ze hebben niets met elkaar te maken",
         ],
         antwoord=0,
-        uitleg="De fiche zegt letterlijk: hoe het mens- en wereldbeeld de identiteit bepaalt en andersom.",
+        uitleg="Het mens- en wereldbeeld bepaalt de identiteit, en andersom.",
     ),
     dict(
         type="meerkeuze",
         vraag="Kan iemands wereldbeeld veranderen?",
         opties=[
-            "ja, de fiche vraagt juist dat je over die verandering nadenkt",
+            "ja, een wereldbeeld kan in de loop van een leven veranderen",
             "nee, een wereldbeeld staat vast na de kindertijd",
             "enkel wanneer iemand van land verhuist",
             "enkel wanneer iemand van geloof verandert",
         ],
         antwoord=0,
-        uitleg="De fiche vraagt te reflecteren over hoe het wereldbeeld bij een persoon kan veranderen.",
+        uitleg="Denk na over hoe het wereldbeeld bij een persoon kan veranderen.",
     ),
     dict(
         type="waarofniet",
-        vraag="Verbondenheid, discriminatie en wij-zij-denken zijn de drie factoren die de fiche noemt.",
+        vraag="Verbondenheid, discriminatie en wij-zij-denken vormen en beïnvloeden je identiteit.",
         antwoord=True,
         uitleg="Precies die drie, en in die bewoordingen.",
     ),
@@ -339,17 +339,17 @@ DEEL2 = [
         type="waarofniet",
         vraag="De lagen van je identiteit kunnen elkaar onderling beïnvloeden.",
         antwoord=True,
-        uitleg="De fiche vraagt uit te leggen hoe de verschillende lagen elkaar beïnvloeden.",
+        uitleg="Leg uit hoe de verschillende lagen elkaar beïnvloeden.",
     ),
     dict(
         type="waarofniet",
-        vraag="Een mensbeeld en een wereldbeeld zijn in de fiche twee namen voor hetzelfde.",
+        vraag="Een mensbeeld en een wereldbeeld zijn twee namen voor hetzelfde.",
         antwoord=False,
         uitleg="Het mensbeeld gaat over de mens, het wereldbeeld over de wereld als geheel. Ze hangen samen maar zijn niet gelijk.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke lagen zijn volgens de fiche het meest bepalend voor iemands identiteit?",
+        vraag="Welke lagen zijn het meest bepalend voor iemands identiteit?",
         opties=[
             "dat verschilt van persoon tot persoon en vraagt reflectie",
             "altijd de biologische aspecten, want die liggen vast",
@@ -357,7 +357,7 @@ DEEL2 = [
             "altijd de familiale achtergrond, want die komt eerst",
         ],
         antwoord=0,
-        uitleg="De fiche vraagt te reflecteren over welke lagen het meest bepalend zijn, en geeft dus geen vast antwoord.",
+        uitleg="Denk na over welke lagen het meest bepalend zijn: daar is geen vast antwoord op.",
     ),
     dict(
         type="meerkeuze",
@@ -373,7 +373,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke uitspraken over discriminatie passen bij de fiche?",
+        vraag="Welke uitspraken over discriminatie kloppen?",
         opties=[
             "ze behandelt mensen anders om een kenmerk van hun identiteit",
             "ze kan het wij-zij-denken versterken",
@@ -397,25 +397,25 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Welke factor uit de fiche betekent dat je het gevoel hebt ergens bij te horen?",
+        vraag="Welke factor betekent dat je het gevoel hebt ergens bij te horen?",
         antwoord=["verbondenheid", "de verbondenheid"],
         uitleg="Verbondenheid staat naast discriminatie en wij-zij-denken in het rijtje van de drie factoren.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoe noem je het indelen van mensen in een eigen groep en een andere groep? Antwoord met één woord uit de fiche.",
+        vraag="Hoe noem je het indelen van mensen in een eigen groep en een andere groep? Antwoord met één woord.",
         antwoord=["wij-zij-denken", "wij zij denken"],
-        uitleg="De fiche schrijft het met streepjes: wij-zij-denken.",
+        uitleg="Je schrijft het met streepjes: wij-zij-denken.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoe noemt de fiche de manier waarop je naar de wereld als geheel kijkt?",
+        vraag="Hoe noem je de manier waarop je naar de wereld als geheel kijkt?",
         antwoord=["wereldbeeld", "het wereldbeeld"],
-        uitleg="Naast het mensbeeld, waarmee het in de fiche in één adem genoemd wordt.",
+        uitleg="Naast het mensbeeld, waarmee het vaak in één adem genoemd wordt.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarover moet je volgens de fiche kunnen reflecteren bij dit blok?",
+        vraag="Waarover moet je kunnen reflecteren bij dit blok?",
         opties=[
             "hoe persoonlijke identiteit en groepsidentiteit elkaar beïnvloeden",
             "hoe je een identiteitskaart aanvraagt bij de gemeente",

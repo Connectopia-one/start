@@ -50,8 +50,7 @@ DEEL1 = [
                  "de ziel is onsterfelijk en het lichaam vergankelijk",
                  "kennis komt uitsluitend uit de zintuigen"],
          antwoord=0,
-         uitleg="Parmenides staat in deze fiche voor het monisme in zijn strengste vorm: er is "
-                "één zijn, en wat op verandering lijkt, misleidt ons."),
+         uitleg="Parmenides staat voor het monisme in zijn strengste vorm: er is één zijn, en wat op verandering lijkt, misleidt ons."),
     dict(type="meerkeuze",
          vraag="Waarom hoort Parmenides in dit thema thuis?",
          opties=["hij is het vroege voorbeeld van een monistische visie",
@@ -59,8 +58,7 @@ DEEL1 = [
                  "hij toonde aan dat de ziel sterfelijk is",
                  "hij bedacht het woord dualisme"],
          antwoord=0,
-         uitleg="De fiche zet hem in de rij van filosofen over lichaam en geest omdat hij de "
-                "eenheid van het zijnde verdedigt."),
+         uitleg="Hij hoort in de rij van filosofen over lichaam en geest omdat hij de eenheid van het zijnde verdedigt."),
     dict(type="meerkeuze",
          vraag="Hoe ziet Plato de verhouding tussen lichaam en ziel?",
          opties=["de ziel staat los van het lichaam en is onsterfelijk",
@@ -153,7 +151,7 @@ DEEL1 = [
     dict(type="waarofniet",
          vraag="Parmenides verdedigt dat het zijnde één en onveranderlijk is.",
          antwoord=True,
-         uitleg="Waar. Daarom staat hij in deze fiche als het vroege voorbeeld van het monisme."),
+         uitleg="Waar. Daarom is hij het vroege voorbeeld van het monisme."),
     dict(type="invultekst",
          vraag="Hoe heet de mensvisie die lichaam en geest als twee werkelijkheden ziet?",
          antwoord=["dualisme", "het dualisme"],

@@ -252,7 +252,7 @@ DEEL2 = [
          antwoord=0,
          uitleg="Enkel de records die aan je voorwaarde voldoen blijven zichtbaar."),
     dict(type="meerkeuze",
-         vraag="Welke onderdelen heeft een databank volgens de vakfiche?",
+         vraag="Welke onderdelen heeft een databank?",
          opties=["tabellen",
                  "formulieren",
                  "rapporten",

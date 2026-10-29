@@ -47,7 +47,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke namen noemt de fiche bij de historische pedagogische visies?",
+        vraag="Welke namen horen bij de historische pedagogische visies?",
         opties=[
             "Confucius",
             "Plato",
@@ -97,7 +97,7 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="De vierde historische visie in de fiche, naast Confucius, Plato en Rousseau, is van Abu Hamid ibn Muhammad ...",
+        vraag="De vierde historische visie, naast Confucius, Plato en Rousseau, is van Abu Hamid ibn Muhammad ...",
         antwoord=["Al-Ghazali", "Al Ghazali", "Ghazali"],
         uitleg="Al-Ghazali. Zijn werk legt de nadruk op de vorming van het karakter, met gewoonte en voorbeeld als weg.",
     ),
@@ -127,9 +127,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Historische pedagogische visies hebben volgens de fiche nog invloed op de pedagogiek van vandaag.",
+        vraag="Historische pedagogische visies hebben nog invloed op de pedagogiek van vandaag.",
         antwoord=True,
-        uitleg="Waar. De fiche vraagt uitdrukkelijk uit te leggen waarom die oude visies vandaag nog doorwerken.",
+        uitleg="Waar. Leg uit waarom die oude visies vandaag nog doorwerken.",
     ),
     dict(
         type="waarofniet",
@@ -151,7 +151,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Op welke drie niveaus kunnen beïnvloedende factoren volgens de fiche spelen?",
+        vraag="Op welke drie niveaus kunnen beïnvloedende factoren spelen?",
         opties=[
             "microniveau",
             "mesoniveau",
@@ -175,7 +175,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom noemt de fiche opvoeding een multifactorieel proces?",
+        vraag="Waarom noem je opvoeding een multifactorieel proces?",
         opties=[
             "omdat er altijd meerdere factoren samen inwerken",
             "omdat er altijd precies drie factoren inwerken",
@@ -193,7 +193,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke twee pedagogische modellen noemt de fiche?",
+        vraag="Welke twee van deze zijn pedagogische modellen?",
         opties=[
             "het bio-ecologisch model van Bronfenbrenner",
             "het balansmodel van Bakker en anderen",
@@ -235,7 +235,7 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Het bio-ecologisch model komt in deze vakfiche maar één keer voor.",
+        vraag="Het bio-ecologisch model kom je in deze leerstof maar één keer tegen.",
         antwoord=False,
         uitleg="Niet waar. Het staat bij de systemische benadering van ontwikkeling en hier opnieuw als pedagogisch model. Dezelfde vijf systemen.",
     ),
@@ -256,20 +256,20 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke soorten handicap noemt de fiche?",
+        vraag="Welke van deze zijn soorten handicap?",
         opties=[
             "een fysieke handicap",
             "een zintuiglijke handicap",
             "een verstandelijke handicap",
-            "een tijdelijke handicap",
+            "een financiële handicap",
             "een meervoudige handicap",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="Een tijdelijke handicap staat niet in dat rijtje.",
+        uitleg="Een handicap is fysiek, zintuiglijk, verstandelijk of meervoudig. Een financiële handicap bestaat niet.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke twee ontwikkelingsstoornissen noemt de fiche bij naam?",
+        vraag="Welk paar bestaat uit twee ontwikkelingsstoornissen?",
         opties=[
             "ADHD en ASS",
             "dyslexie en dyscalculie",
@@ -281,7 +281,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke twee leerstoornissen noemt de fiche bij naam?",
+        vraag="Welk paar bestaat uit twee leerstoornissen?",
         opties=[
             "dyslexie en dyscalculie",
             "ADHD en ASS",
@@ -293,7 +293,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarvoor staat de afkorting VOS in de fiche?",
+        vraag="Waarvoor staat de afkorting VOS?",
         opties=[
             "verontrustende opvoedingssituatie",
             "veilige opvoedingssituatie",
@@ -305,7 +305,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat bedoelt de fiche met maatschappelijke kwetsbaarheid?",
+        vraag="Wat bedoel je met maatschappelijke kwetsbaarheid?",
         opties=[
             "een gezin botst telkens op nadeel in de samenleving",
             "een gezin wil geen hulp van buitenaf aanvaarden",
@@ -313,7 +313,7 @@ DEEL2 = [
             "een kind heeft een leerstoornis",
         ],
         antwoord=0,
-        uitleg="Bij maatschappelijke kwetsbaarheid, met kansarmoede als voorbeeld in de fiche, werken instellingen eerder tegen dan mee voor een gezin.",
+        uitleg="Bij maatschappelijke kwetsbaarheid, met kansarmoede als voorbeeld, werken instellingen eerder tegen dan mee voor een gezin.",
     ),
     dict(
         type="invultekst",
@@ -323,19 +323,19 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een bijzondere context raakt volgens de fiche niet alleen het kind, maar ook de opvoeders en de omgeving.",
+        vraag="Een bijzondere context raakt niet alleen het kind, maar ook de opvoeders en de omgeving.",
         antwoord=True,
-        uitleg="Waar. De fiche vraagt uitdrukkelijk naar de invloed op het kind, de opvoeders én de omgeving.",
+        uitleg="Waar. Je kijkt naar de invloed op het kind, de opvoeders én de omgeving.",
     ),
     dict(
         type="waarofniet",
-        vraag="Kansarmoede staat in de fiche bij de ontwikkelingsstoornissen.",
+        vraag="Kansarmoede is een ontwikkelingsstoornis.",
         antwoord=False,
         uitleg="Niet waar. Kansarmoede staat bij de maatschappelijke kwetsbaarheid. ADHD en ASS zijn de ontwikkelingsstoornissen.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke twee orthopedagogische modellen noemt de fiche?",
+        vraag="Welke twee van deze zijn orthopedagogische modellen?",
         opties=[
             "de kwaliteit van bestaan van Schalock en Verdugo",
             "het viervariabelenmodel van Jacobus E. Rink",
@@ -437,7 +437,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom vraagt de fiche om een opvoedingssituatie in een bijzondere context met een model te bekijken?",
+        vraag="Waarom bekijk je een opvoedingssituatie in een bijzondere context met een model?",
         opties=[
             "omdat een model je alle kanten laat nagaan in plaats van één",
             "omdat een model het probleem onmiddellijk oplost",

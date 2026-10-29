@@ -60,7 +60,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke aspecten horen volgens de fiche bij een empathische basishouding?",
+        vraag="Welke aspecten horen bij een empathische basishouding?",
         opties=[
             "actief luisteren",
             "echtheid",
@@ -124,11 +124,11 @@ DEEL1 = [
         type="waarofniet",
         vraag="Non-verbaal gedrag kan een gesprek evenveel richting geven als de woorden zelf.",
         antwoord=True,
-        uitleg="Waar. De fiche vraagt uitdrukkelijk naar de effecten van non-verbaal gedrag, want een blik of een houding verandert een gesprek.",
+        uitleg="Waar. Non-verbaal gedrag heeft effect, want een blik of een houding verandert een gesprek.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke drie interpersoonlijke communicatiekaders noemt de fiche?",
+        vraag="Wat zijn de drie interpersoonlijke communicatiekaders?",
         opties=[
             "verbindend communiceren",
             "de geen-verliesmethode",
@@ -140,7 +140,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wie hoort in de fiche bij verbindend communiceren?",
+        vraag="Wie hoort bij verbindend communiceren?",
         opties=[
             "Marshall B. Rosenberg",
             "Thomas Gordon",
@@ -194,7 +194,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wie hoort in de fiche bij de geen-verliesmethode?",
+        vraag="Wie hoort bij de geen-verliesmethode?",
         opties=[
             "Thomas Gordon",
             "Marshall B. Rosenberg",
@@ -218,7 +218,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke stappen horen volgens de fiche bij de geen-verliesmethode?",
+        vraag="Welke stappen horen bij de geen-verliesmethode?",
         opties=[
             "je behoeften zeggen met een ik-boodschap",
             "met actief luisteren de behoeften van de ander zoeken",
@@ -239,7 +239,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Geweldloze communicatie betekent dat je je gevoelens niet mag laten zien.",
         antwoord=False,
-        uitleg="Niet waar. De fiche noemt emotioneel juist een kenmerk van geweldloze communicatie. Je gevoel benoemen is een van de vier stappen.",
+        uitleg="Niet waar. Emotioneel is juist een kenmerk van geweldloze communicatie. Je gevoel benoemen is een van de vier stappen.",
     ),
 ]
 
@@ -278,11 +278,11 @@ DEEL2 = [
             "luisteren, steunen en doorverwijzen",
         ],
         antwoord=0,
-        uitleg="Luisteren, samenvatten, doorvragen. Dat is de methode van de fiche om actief te luisteren.",
+        uitleg="Luisteren, samenvatten, doorvragen. Zo luister je actief.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke zaken horen volgens de fiche bij non-verbaal actief luisteren?",
+        vraag="Welke zaken horen bij non-verbaal actief luisteren?",
         opties=[
             "een actieve lichaamshouding",
             "oogcontact",
@@ -295,7 +295,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke drie manieren van samenvatten noemt de fiche?",
+        vraag="Wat zijn de drie manieren van samenvatten?",
         opties=[
             "papegaaien, parafraseren en reflecteren",
             "herhalen, oordelen en besluiten",
@@ -349,9 +349,9 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een stilte laten vallen hoort volgens de fiche bij verbaal actief luisteren.",
+        vraag="Een stilte laten vallen hoort bij verbaal actief luisteren.",
         antwoord=True,
-        uitleg="Waar. De fiche zet kleine aanmoedigingen en stiltes bij het verbaal actief luisteren. Een stilte geeft de ander ruimte.",
+        uitleg="Waar. Kleine aanmoedigingen en stiltes horen bij het verbaal actief luisteren. Een stilte geeft de ander ruimte.",
     ),
     dict(
         type="waarofniet",
@@ -361,7 +361,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Uit welke delen bestaat een ik-boodschap volgens de fiche?",
+        vraag="Uit welke delen bestaat een ik-boodschap?",
         opties=[
             "het gedrag dat je ziet",
             "het gevolg van dat gedrag",
@@ -410,7 +410,7 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Het model om feedback in vier stappen te geven, heet in de fiche het ...-model.",
+        vraag="Het model om feedback in vier stappen te geven, heet het ...-model.",
         antwoord=["4G", "4g", "vier G"],
         uitleg="Het 4G-model: gedrag, gevoel, gevolg, gewenst gedrag.",
     ),
@@ -428,9 +428,9 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Feedback kan volgens de fiche zowel verbaal als non-verbaal en zowel positief als negatief zijn.",
+        vraag="Feedback kan zowel verbaal als non-verbaal en zowel positief als negatief zijn.",
         antwoord=True,
-        uitleg="Waar. De fiche vraagt uitdrukkelijk dat onderscheid te maken. Een zucht is ook feedback.",
+        uitleg="Waar. Dat onderscheid moet je kunnen maken. Een zucht is ook feedback.",
     ),
     dict(
         type="waarofniet",

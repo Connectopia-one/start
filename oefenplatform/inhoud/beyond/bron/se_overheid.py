@@ -78,7 +78,7 @@ DEEL1 = [
             "een sociale uitgave",
         ],
         antwoord=0,
-        uitleg="Ze wordt op jouw inkomen geheven, dus rechtstreeks. De fiche noemt ze als voorbeeld van een directe belasting.",
+        uitleg="Ze wordt op jouw inkomen geheven, dus rechtstreeks. Het is een directe belasting.",
     ),
     dict(
         type="meerkeuze",
@@ -94,7 +94,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een boete voor te snel rijden. Welke soort inkomst is dat volgens de fiche?",
+        vraag="Een boete voor te snel rijden. Welke soort inkomst is dat?",
         opties=[
             "een diverse inkomst",
             "een directe belasting",
@@ -102,7 +102,7 @@ DEEL1 = [
             "een inkomst uit het kapitaal dat de overheid zelf bezit",
         ],
         antwoord=0,
-        uitleg="Boetes en vergoedingen voor diensten staan in de fiche bij de diverse inkomsten.",
+        uitleg="Boetes en vergoedingen voor diensten horen bij de diverse inkomsten.",
     ),
     dict(
         type="meerkeuze",
@@ -114,7 +114,7 @@ DEEL1 = [
             "een indirecte belasting",
         ],
         antwoord=0,
-        uitleg="Verkoop of verhuur van gronden en gebouwen staat letterlijk in de fiche bij deze soort.",
+        uitleg="Verkoop of verhuur van gronden en gebouwen hoort bij deze soort.",
     ),
     dict(
         type="meerkeuze",
@@ -126,11 +126,11 @@ DEEL1 = [
             "een inkomst uit het kapitaal dat de overheid zelf bezit",
         ],
         antwoord=0,
-        uitleg="Ze zit in de prijs van het product. De fiche noemt ze naast de btw als voorbeeld.",
+        uitleg="Ze zit in de prijs van het product, net als de btw.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel soorten inkomsten van de overheid noemt de fiche?",
+        vraag="Hoeveel soorten inkomsten heeft de overheid?",
         opties=["vier", "twee", "drie", "vijf"],
         antwoord=0,
         uitleg="Directe belastingen, indirecte belastingen, diverse inkomsten en inkomsten uit overheidskapitaal.",
@@ -145,7 +145,7 @@ DEEL1 = [
             "een inkomst uit het kapitaal dat de overheid zelf bezit",
         ],
         antwoord=0,
-        uitleg="De fiche noemt vergoedingen voor diensten bij de diverse inkomsten, naast boetes.",
+        uitleg="Vergoedingen voor diensten horen bij de diverse inkomsten, naast boetes.",
     ),
     dict(
         type="waarofniet",
@@ -161,7 +161,7 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Boetes horen volgens de fiche bij de diverse inkomsten van de overheid.",
+        vraag="Boetes horen bij de diverse inkomsten van de overheid.",
         antwoord=True,
         uitleg="Ze staan er samen met de vergoedingen voor diensten.",
     ),
@@ -173,7 +173,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze noemt de fiche als soort inkomst van de overheid?",
+        vraag="Welke van deze zijn inkomsten van de overheid?",
         opties=[
             "directe belastingen",
             "indirecte belastingen",
@@ -182,11 +182,11 @@ DEEL1 = [
             "diverse inkomsten",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="Giften staan niet in de fiche. De diverse inkomsten horen er wel bij.",
+        uitleg="Giften zijn geen inkomsten van de overheid. De diverse inkomsten wel.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke voorbeelden geeft de fiche bij de indirecte belastingen?",
+        vraag="Welke van deze zijn indirecte belastingen?",
         opties=[
             "de btw",
             "de personenbelasting",
@@ -200,13 +200,13 @@ DEEL1 = [
         type="invultekst",
         vraag="Welke indirecte belasting zit in de prijs van bijna alles wat je koopt? Antwoord met de afkorting.",
         antwoord=["btw", "BTW"],
-        uitleg="De btw is het voorbeeld dat de fiche vooraan zet bij de indirecte belastingen.",
+        uitleg="De btw is het bekendste voorbeeld van een indirecte belasting.",
     ),
     dict(
         type="invultekst",
         vraag="Welke directe belasting houdt je werkgever op je loon in? Antwoord met één woord.",
         antwoord=["bedrijfsvoorheffing", "de bedrijfsvoorheffing"],
-        uitleg="Ze staat in de fiche als voorbeeld van een directe belasting.",
+        uitleg="Het is een directe belasting.",
     ),
     dict(
         type="invultekst",
@@ -216,7 +216,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom heft een overheid volgens de fiche belastingen?",
+        vraag="Waarom heft een overheid belastingen?",
         opties=[
             "om haar uitgaven voor de samenleving te kunnen betalen",
             "om de prijzen op de markt zo laag mogelijk te houden",
@@ -224,7 +224,7 @@ DEEL1 = [
             "om geld opzij te zetten voor economisch moeilijke jaren",
         ],
         antwoord=0,
-        uitleg="De fiche koppelt de inkomsten meteen aan de vier soorten uitgaven.",
+        uitleg="De inkomsten hangen meteen samen met de vier soorten uitgaven.",
     ),
 ]
 
@@ -239,11 +239,11 @@ DEEL2 = [
             "behoeften van verenigingen in plaats van personen",
         ],
         antwoord=0,
-        uitleg="Veiligheid, onderwijs en openbaar vervoer zijn de voorbeelden uit de fiche.",
+        uitleg="Veiligheid, onderwijs en openbaar vervoer zijn collectieve behoeften.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke voorbeelden geeft de fiche bij het voorzien in collectieve behoeften?",
+        vraag="Welke van deze reeksen zijn voorbeelden van collectieve behoeften?",
         opties=[
             "veiligheid, onderwijs en openbaar vervoer",
             "cultuur, sport en infocampagnes",
@@ -263,7 +263,7 @@ DEEL2 = [
             "sociale uitgaven en uitkeringen voor wie het nodig heeft",
         ],
         antwoord=0,
-        uitleg="Digitale infrastructuur staat in de fiche als voorbeeld bij economische groei.",
+        uitleg="Digitale infrastructuur is een voorbeeld bij economische groei.",
     ),
     dict(
         type="meerkeuze",
@@ -275,7 +275,7 @@ DEEL2 = [
             "sociale uitgaven en uitkeringen voor wie het nodig heeft",
         ],
         antwoord=0,
-        uitleg="Cultuur en sport staan in de fiche bij het maatschappelijk leven.",
+        uitleg="Cultuur en sport horen bij het maatschappelijk leven.",
     ),
     dict(
         type="meerkeuze",
@@ -287,7 +287,7 @@ DEEL2 = [
             "investeren in economische groei",
         ],
         antwoord=0,
-        uitleg="Sociale woningen staan in de fiche naast de sociale zekerheid en de projecten tegen armoede.",
+        uitleg="Sociale woningen staan naast de sociale zekerheid en de projecten tegen armoede.",
     ),
     dict(
         type="meerkeuze",
@@ -299,11 +299,11 @@ DEEL2 = [
             "investeren in economische groei",
         ],
         antwoord=0,
-        uitleg="Infocampagnes staan in de fiche bij het maatschappelijk leven, naast cultuur en sport.",
+        uitleg="Infocampagnes horen bij het maatschappelijk leven, naast cultuur en sport.",
     ),
     dict(
         type="meerkeuze",
-        vraag="De overheid investeert in duurzaamheid. Bij welke soort uitgave hoort dat volgens de fiche?",
+        vraag="De overheid investeert in duurzaamheid. Bij welke soort uitgave hoort dat?",
         opties=[
             "investeren in economische groei en ontwikkeling",
             "sociale uitgaven en uitkeringen voor wie het nodig heeft",
@@ -327,7 +327,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel soorten uitgaven van de overheid noemt de fiche?",
+        vraag="Hoeveel soorten uitgaven heeft de overheid?",
         opties=["vier", "drie", "vijf", "zes"],
         antwoord=0,
         uitleg="Collectieve behoeften, economische groei, maatschappelijk leven en sociale uitgaven.",
@@ -346,7 +346,7 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Onderwijs staat volgens de fiche bij de collectieve behoeften.",
+        vraag="Onderwijs staat bij de collectieve behoeften.",
         antwoord=True,
         uitleg="Samen met veiligheid en openbaar vervoer.",
     ),
@@ -358,19 +358,19 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Investeren in digitale infrastructuur hoort volgens de fiche bij de economische groei.",
+        vraag="Investeren in digitale infrastructuur hoort bij de economische groei.",
         antwoord=True,
         uitleg="Ze staat er naast handel en transport en duurzaamheid.",
     ),
     dict(
         type="waarofniet",
-        vraag="Cultuur en sport zijn volgens de fiche sociale uitgaven.",
+        vraag="Cultuur en sport zijn sociale uitgaven.",
         antwoord=False,
         uitleg="Ze horen bij het bijdragen aan het maatschappelijk leven.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze noemt de fiche als soort uitgave van de overheid?",
+        vraag="Welke van deze zijn uitgaven van de overheid?",
         opties=[
             "voorzien in de collectieve behoeften van de bevolking",
             "investeren in economische groei en ontwikkeling",
@@ -383,7 +383,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke voorbeelden geeft de fiche bij de sociale uitgaven?",
+        vraag="Welke van deze zijn sociale uitgaven van de overheid?",
         opties=[
             "de financiering van de sociale zekerheid",
             "sociale woningen",
@@ -395,7 +395,7 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoe noemt de fiche behoeften waar de hele samenleving van gebruikmaakt? Vul aan: ... behoeften.",
+        vraag="Hoe noem je behoeften waar de hele samenleving van gebruikmaakt? Vul aan: ... behoeften.",
         antwoord=["collectieve", "collectief"],
         uitleg="Veiligheid, onderwijs en openbaar vervoer zijn de voorbeelden.",
     ),
@@ -419,7 +419,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom vraagt de fiche naar de invloed van inkomsten én uitgaven samen?",
+        vraag="Waarom kijk je naar de invloed van inkomsten én uitgaven van de overheid samen?",
         opties=[
             "omdat de overheid met die twee de ongelijkheid probeert te beperken",
             "omdat de inkomsten en de uitgaven altijd exact gelijk moeten zijn",

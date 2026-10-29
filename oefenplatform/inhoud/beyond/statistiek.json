@@ -7,7 +7,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke vier stappen doorloop je volgens de vakfiche bij een probleem?",
+          "vraag": "Welke vier stappen doorloop je bij een probleem?",
           "opties": [
             "begrijp het probleem, maak een plan, voer het plan uit, reflecteer",
             "lees de vraag, zoek de formule, vul in, schrijf het antwoord netjes op",
@@ -43,7 +43,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een probleem is in de vakfiche iets anders dan een vraagstuk.",
+          "vraag": "Een probleem is iets anders dan een vraagstuk.",
           "antwoord": true,
           "uitleg": "Een vraagstuk los je op met de leerstof van één hoofdstuk. Bij een probleem combineer je hoofdstukken."
         },
@@ -57,7 +57,7 @@
             "een opgave waarvoor je de rekenapps van de examencommissie nodig hebt"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zegt bij elk leerdoel of je het met context, zonder context, of allebei moet kunnen."
+          "uitleg": "Bij elk leerdoel staat of je het met context, zonder context, of allebei moet kunnen."
         },
         {
           "type": "invultekst",
@@ -85,7 +85,7 @@
           "type": "waarofniet",
           "vraag": "Een schets of tabel maken telt niet mee als wiskundig werk.",
           "antwoord": false,
-          "uitleg": "De fiche noemt een schets, tekening of tabel als eerste heuristiek. Het is wiskundig werk."
+          "uitleg": "Een schets, tekening of tabel is de eerste heuristiek. Het is wiskundig werk."
         },
         {
           "type": "meerkeuze",
@@ -148,13 +148,13 @@
             "omdat een gok even veel punten oplevert als een uitgewerkte berekening"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt het letterlijk: schatten, slim gissen en missen, testen, controleren."
+          "uitleg": "Schatten, slim gissen en missen, testen, controleren."
         },
         {
           "type": "waarofniet",
-          "vraag": "Taalvaardigheid hoort niet bij de vaardigheden die de vakfiche statistiek noemt.",
+          "vraag": "Taalvaardigheid hoort niet bij de vaardigheden in statistiek.",
           "antwoord": false,
-          "uitleg": "De fiche noemt taalvaardigheid, rekenvaardigheid en ICT-vaardigheid uitdrukkelijk samen."
+          "uitleg": "Taalvaardigheid, rekenvaardigheid en ICT-vaardigheid horen samen."
         },
         {
           "type": "meerkeuze",
@@ -174,7 +174,7 @@
           "antwoord": [
             "zonder"
           ],
-          "uitleg": "De fiche onderscheidt opgaven met context en opgaven zonder context, en zegt per leerdoel welke van de twee."
+          "uitleg": "Er zijn opgaven met context en opgaven zonder context, en per leerdoel staat welke van de twee."
         },
         {
           "type": "meerkeuze",
@@ -192,7 +192,7 @@
           "type": "waarofniet",
           "vraag": "Een opgave kan zowel met als zonder context gesteld worden, afhankelijk van het leerdoel.",
           "antwoord": true,
-          "uitleg": "De fiche vermeldt bij elk leerdoel welke van de twee, en soms allebei."
+          "uitleg": "Bij elk leerdoel staat welke van de twee, en soms allebei."
         },
         {
           "type": "meerkeuze",
@@ -215,7 +215,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke hulpmiddelen mag je volgens de vakfiche gebruiken tijdens het examen statistiek?",
+          "vraag": "Welke hulpmiddelen mag je gebruiken tijdens het examen statistiek?",
           "opties": [
             "de rekenapps van de examencommissie en een online wetenschappelijk rekentoestel",
             "je eigen grafisch rekentoestel en een samenvatting van één bladzijde",
@@ -245,7 +245,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarvoor moet je volgens de fiche ICT kunnen gebruiken bij statistiek?",
+          "vraag": "Waarvoor moet je ICT kunnen gebruiken bij statistiek?",
           "opties": [
             "grafische voorstellingen maken, kengetallen berekenen en een onderzoek uitvoeren",
             "enkel om de grafieken te tekenen, want rekenen moet altijd met de hand",
@@ -253,13 +253,13 @@
             "voor alles, want bij statistiek hoef je niets meer zelf uit te rekenen"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zet die drie naast elkaar, en zegt per leerdoel waarvoor ICT nodig is."
+          "uitleg": "Die drie staan naast elkaar, en per leerdoel staat waarvoor ICT nodig is."
         },
         {
           "type": "waarofniet",
           "vraag": "Bij functioneel gebruik van ICT moet je je tussenstappen nog altijd uitschrijven.",
           "antwoord": true,
-          "uitleg": "De fiche zegt het bij allebei de iconen: je toont je werkwijze en je redenering, met of zonder ICT."
+          "uitleg": "Je toont altijd je werkwijze en je redenering, met of zonder ICT."
         },
         {
           "type": "invultekst",
@@ -298,7 +298,7 @@
           "type": "waarofniet",
           "vraag": "Er is giscorrectie op het examen statistiek.",
           "antwoord": false,
-          "uitleg": "De fiche zegt het uitdrukkelijk: er is geen giscorrectie. Een vraag blanco laten levert dus niets op."
+          "uitleg": "Er is geen giscorrectie op het examen. Een vraag blanco laten levert dus niets op."
         },
         {
           "type": "meerkeuze",
@@ -378,7 +378,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom staat er een bijlage met begrippen en notaties bij de vakfiche?",
+          "vraag": "Waarom is een lijst met begrippen en notaties handig?",
           "opties": [
             "omdat handboeken en websites verschillende symbolen gebruiken voor hetzelfde",
             "omdat je die bijlage op het examen moet kunnen opzeggen uit het hoofd",
@@ -790,7 +790,7 @@
             "je rekent met alle drie de regels en neemt daarna het gemiddelde"
           ],
           "antwoord": 0,
-          "uitleg": "Opsplitsen in deelproblemen is een van de heuristieken die de fiche noemt."
+          "uitleg": "Opsplitsen in deelproblemen is een van de heuristieken."
         },
         {
           "type": "waarofniet",
@@ -949,7 +949,7 @@
           "type": "waarofniet",
           "vraag": "Bij een telprobleem waarbij de volgorde belangrijk is, gebruik je een combinatie.",
           "antwoord": false,
-          "uitleg": "Dan tel je anders. De vakfiche vraagt enkel de gevallen waarbij de volgorde niet belangrijk is."
+          "uitleg": "Dan tel je anders. Hier gaat het enkel over gevallen waarbij de volgorde niet belangrijk is."
         },
         {
           "type": "meerkeuze",
@@ -1005,7 +1005,7 @@
           "type": "waarofniet",
           "vraag": "Op het examen volstaat het om bij een telprobleem enkel de uitkomst van \\(C(n, p)\\) te noteren.",
           "antwoord": false,
-          "uitleg": "De fiche vraagt dat je je werkwijze en je redenering noteert en alle tussenstappen uitschrijft."
+          "uitleg": "Noteer je werkwijze en je redenering, en schrijf alle tussenstappen uit."
         },
         {
           "type": "invultekst",
@@ -1101,7 +1101,7 @@
           "type": "waarofniet",
           "vraag": "Zodra herhaling toegelaten is, mag je de formule van de combinaties niet meer gebruiken.",
           "antwoord": true,
-          "uitleg": "\\(C(n, p)\\) is gemaakt voor keuzes zonder herhaling. De fiche vraagt enkel die gevallen."
+          "uitleg": "\\(C(n, p)\\) is gemaakt voor keuzes zonder herhaling. Hier gaat het enkel over die gevallen."
         },
         {
           "type": "meerkeuze",
@@ -1598,7 +1598,7 @@
           "type": "waarofniet",
           "vraag": "Een rekenapp kan de hele kansverdeling van een binomiale verdeling in één keer opstellen.",
           "antwoord": true,
-          "uitleg": "De fiche vraagt dat ook letterlijk: je stelt de kansverdeling op met ICT."
+          "uitleg": "Precies: je stelt de kansverdeling op met ICT."
         },
         {
           "type": "meerkeuze",
@@ -2188,7 +2188,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je moet beoordelen of de normale verdeling past bij een dataset. Wat doe je volgens de fiche?",
+          "vraag": "Je moet beoordelen of de normale verdeling past bij een dataset. Wat doe je?",
           "opties": [
             "je maakt met ICT een grafische voorstelling en bekijkt de vorm",
             "je berekent het gemiddelde en kijkt of het een geheel getal is",
@@ -2196,7 +2196,7 @@
             "je deelt de standaardafwijking door het gemiddelde"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt letterlijk: je beoordeelt op basis van een grafische voorstelling. Een histogram is daar het geschiktst voor."
+          "uitleg": "Je beoordeelt op basis van een grafische voorstelling. Een histogram is daar het geschiktst voor."
         },
         {
           "type": "invultekst",
@@ -2387,7 +2387,7 @@
             "door het aantal waarden onder de grens te tellen"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt het gebruik van de rekenapps. Je toont wel je werkwijze en je redenering."
+          "uitleg": "Je gebruikt de rekenapps. Je toont wel je werkwijze en je redenering."
         },
         {
           "type": "waarofniet",
@@ -2539,7 +2539,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent variabiliteit volgens de bijlage van de vakfiche?",
+          "vraag": "Wat betekent variabiliteit?",
           "opties": [
             "verschillende steekproeven uit dezelfde populatie geven verschillende resultaten",
             "de waarden in een steekproef liggen ver van elkaar",
@@ -2693,7 +2693,7 @@
             "dat is niet fout, de twee symbolen mogen door elkaar gebruikt worden"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zegt uitdrukkelijk dat andere notaties als foutief gelden. Dit onderscheid kost dus punten."
+          "uitleg": "Andere notaties gelden op het examen als foutief. Dit onderscheid kost dus punten."
         }
       ]
     },
@@ -2848,7 +2848,7 @@
             "omdat je anders met de binomiale verdeling moet rekenen in plaats van met de normale"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt het ook letterlijk als leerdoel: je controleert of de voorwaarden voldaan zijn."
+          "uitleg": "Precies: je controleert of de voorwaarden voldaan zijn."
         },
         {
           "type": "invultekst",
@@ -3173,7 +3173,7 @@
             "of de steekproef groter is dan de populatie"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt dat als een apart leerdoel. Zijn de voorwaarden niet voldaan, dan mag je niet verder rekenen."
+          "uitleg": "Dat is een stap op zich. Zijn de voorwaarden niet voldaan, dan mag je niet verder rekenen."
         },
         {
           "type": "meerkeuze",
@@ -3498,7 +3498,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe bereken je de \\(p\\)-waarde volgens de vakfiche?",
+          "vraag": "Hoe bereken je de \\(p\\)-waarde?",
           "opties": [
             "met de rekenapps, maar je noteert wel je werkwijze en je redenering",
             "met de hand, want ICT is bij dit leerdoel niet toegelaten",
@@ -3506,7 +3506,7 @@
             "door het aantal extreme waarden in je steekproef te tellen"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zegt: je berekent de \\(p\\)-waarde met ICT. Maar bij een open vraag moet je alle tussenstappen uitschrijven."
+          "uitleg": "Je berekent de \\(p\\)-waarde met ICT. Maar bij een open vraag moet je alle tussenstappen uitschrijven."
         },
         {
           "type": "waarofniet",
@@ -3576,7 +3576,7 @@
             "altijd \\(0{,}5\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Daarom vraagt de fiche: je berekent de kans op het onterecht verwerpen van de nulhypothese. Dat is \\(\\alpha\\)."
+          "uitleg": "Daarom bereken je de kans op het onterecht verwerpen van de nulhypothese. Dat is \\(\\alpha\\)."
         },
         {
           "type": "waarofniet",
@@ -3636,7 +3636,7 @@
             "dat zijn besluit met zekerheid klopt"
           ],
           "antwoord": 0,
-          "uitleg": "Zonder \\(\\alpha\\) is een besluit niet te beoordelen. De fiche vraagt ook dat je je keuze verklaart."
+          "uitleg": "Zonder \\(\\alpha\\) is een besluit niet te beoordelen. Verklaar ook je keuze."
         },
         {
           "type": "invultekst",
@@ -3837,7 +3837,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke drie dingen bepalen volgens de fiche de breedte van een betrouwbaarheidsinterval?",
+          "vraag": "Welke drie dingen bepalen de breedte van een betrouwbaarheidsinterval?",
           "opties": [
             "de steekproefgrootte, de standaardafwijking en het betrouwbaarheidsniveau",
             "de populatiegrootte, het gemiddelde en de mediaan",
@@ -3845,7 +3845,7 @@
             "het aantal variabelen, de eenheid en het aantal decimalen"
           ],
           "antwoord": 0,
-          "uitleg": "Die drie staan letterlijk in de fiche opgesomd. Het gemiddelde zelf bepaalt enkel waar het interval ligt."
+          "uitleg": "Die drie bepalen de breedte. Het gemiddelde zelf bepaalt enkel waar het interval ligt."
         },
         {
           "type": "meerkeuze",
@@ -3902,7 +3902,7 @@
           "type": "waarofniet",
           "vraag": "Een betrouwbaarheidsinterval kan zowel voor een populatiegemiddelde als voor een populatieproportie opgesteld worden.",
           "antwoord": true,
-          "uitleg": "De fiche noemt beide gevallen apart: een interval voor het populatiegemiddelde en een voor de populatieproportie."
+          "uitleg": "Er zijn twee gevallen: een interval voor het populatiegemiddelde en een voor de populatieproportie."
         },
         {
           "type": "meerkeuze",
@@ -4211,7 +4211,7 @@
           "type": "waarofniet",
           "vraag": "Met een ander woord heet een spreidingsdiagram ook een puntenwolk.",
           "antwoord": true,
-          "uitleg": "De fiche noemt drie namen voor hetzelfde: spreidingsdiagram, scatterdiagram en puntenwolk."
+          "uitleg": "Er zijn drie namen voor hetzelfde: spreidingsdiagram, scatterdiagram en puntenwolk."
         },
         {
           "type": "meerkeuze",
@@ -4245,7 +4245,7 @@
             "kwadratische",
             "kwadraat"
           ],
-          "uitleg": "De fiche noemt vier soorten verbanden: recht evenredig, omgekeerd evenredig, lineair en kwadratisch."
+          "uitleg": "Er zijn vier soorten verbanden: recht evenredig, omgekeerd evenredig, lineair en kwadratisch."
         },
         {
           "type": "waarofniet",
@@ -4267,7 +4267,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe maak je volgens de fiche een spreidingsdiagram?",
+          "vraag": "Hoe maak je een spreidingsdiagram?",
           "opties": [
             "met ICT, dus met de rekenapps van de examencommissie",
             "met de hand op millimeterpapier, want ICT mag niet",
@@ -4275,7 +4275,7 @@
             "door de twee variabelen eerst te standaardiseren"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zegt letterlijk: je tekent een spreidingsdiagram met ICT. Daarna interpreteer je het zelf."
+          "uitleg": "Je tekent een spreidingsdiagram met ICT. Daarna interpreteer je het zelf."
         },
         {
           "type": "waarofniet",
@@ -4506,7 +4506,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe bepaal je het voorschrift van de trendlijn volgens de fiche?",
+          "vraag": "Hoe bepaal je het voorschrift van de trendlijn?",
           "opties": [
             "met ICT, de rekenapp geeft je de vergelijking",
             "door twee punten uit de wolk te kiezen en de rechte erdoor te berekenen",
@@ -4514,7 +4514,7 @@
             "door de puntenwolk op ruitjespapier na te tekenen"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zegt: je bepaalt het voorschrift van een trendlijn met ICT. Daarna interpreteer je ze."
+          "uitleg": "Je bepaalt het voorschrift van een trendlijn met ICT. Daarna interpreteer je ze."
         },
         {
           "type": "invultekst",
@@ -5099,7 +5099,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe stel je volgens de fiche een frequentietabel op bij een grote dataset?",
+          "vraag": "Hoe stel je een frequentietabel op bij een grote dataset?",
           "opties": [
             "met ICT, dus met de rekenapps van de examencommissie",
             "met de hand, want tellen kan een rekenapp niet",
@@ -5107,7 +5107,7 @@
             "door de dataset eerst te standaardiseren met de formule"
           ],
           "antwoord": 0,
-          "uitleg": "Bij duizenden gegevens is tellen met de hand onbegonnen werk. De fiche vraagt het dan ook met ICT."
+          "uitleg": "Bij duizenden gegevens is tellen met de hand onbegonnen werk. Dat doe je dus met ICT."
         },
         {
           "type": "invultekst",
@@ -5486,7 +5486,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke zes voorstellingen noemt de vakfiche bij naam?",
+          "vraag": "Welke zes voorstellingen van data leer je in dit hoofdstuk maken?",
           "opties": [
             "staafdiagram, lijndiagram, dotplot, histogram, spreidingsdiagram en boxplot",
             "staafdiagram, cirkeldiagram, dotplot, histogram, puntenwolk en boxplot",
@@ -5494,7 +5494,7 @@
             "lijndiagram, cirkeldiagram, histogram, boxplot, dotplot en tabel"
           ],
           "antwoord": 0,
-          "uitleg": "Een cirkeldiagram of schijfdiagram staat niet in de lijst van deze fiche."
+          "uitleg": "Een cirkeldiagram of schijfdiagram hoort niet bij deze zes."
         },
         {
           "type": "meerkeuze",
@@ -5528,7 +5528,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe maak je volgens de fiche de grafische voorstellingen bij een grote dataset?",
+          "vraag": "Hoe maak je de grafische voorstellingen bij een grote dataset?",
           "opties": [
             "met ICT, dus met de rekenapps van de examencommissie",
             "met de hand, want een rekenapp tekent geen histogram",
@@ -5536,7 +5536,7 @@
             "door de gegevens eerst te standaardiseren"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt het ook zo: je maakt met ICT de nodige grafische voorstellingen. Het beoordelen doe je zelf."
+          "uitleg": "Je maakt met ICT de nodige grafische voorstellingen. Het beoordelen doe je zelf."
         },
         {
           "type": "invultekst",
@@ -5576,7 +5576,7 @@
             "een staafdiagram, want daar zie je de categorieën"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt dat je op basis van een grafische voorstelling beoordeelt of de normale verdeling past. Een histogram is daar het geschiktst voor."
+          "uitleg": "Je beoordeelt op basis van een grafische voorstelling of de normale verdeling past. Een histogram is daar het geschiktst voor."
         },
         {
           "type": "waarofniet",
@@ -6004,7 +6004,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe bereken je volgens de fiche de centrummaten bij een grote dataset? Eén woord.",
+          "vraag": "Hoe bereken je de centrummaten bij een grote dataset? Eén woord.",
           "antwoord": [
             "ICT",
             "rekenapps",
@@ -6600,7 +6600,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe bereken je volgens de fiche de spreidingsmaten bij een grote dataset?",
+          "vraag": "Hoe bereken je de spreidingsmaten bij een grote dataset?",
           "opties": [
             "met ICT, dus met de rekenapps van de examencommissie",
             "met de hand, want een rekenapp geeft geen kwartielen",
@@ -6608,7 +6608,7 @@
             "door de dataset eerst in klassen te groeperen"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zegt het letterlijk: je berekent met ICT centrummaten en spreidingsmaten."
+          "uitleg": "Je berekent met ICT centrummaten en spreidingsmaten."
         },
         {
           "type": "waarofniet",
@@ -7069,7 +7069,7 @@
             "de uitschieters verwijderen voor je begint te rekenen"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt dat verkennen: groeperen, een frequentietabel maken en een grafiek bekijken. Pas daarna reken je verder."
+          "uitleg": "Dat heet verkennen: groeperen, een frequentietabel maken en een grafiek bekijken. Pas daarna reken je verder."
         },
         {
           "type": "meerkeuze",
@@ -7081,13 +7081,13 @@
             "van beide variabelen de modus bepalen en vergelijken"
           ],
           "antwoord": 0,
-          "uitleg": "Eerst de vorm bekijken, dan het getal berekenen. De fiche vraagt uitdrukkelijk de trendlijn en de correlatiecoëfficiënt samen."
+          "uitleg": "Eerst de vorm bekijken, dan het getal berekenen. De trendlijn en de correlatiecoëfficiënt horen samen."
         },
         {
           "type": "waarofniet",
           "vraag": "Je beoordeelt met een grafische voorstelling of de normale verdeling bij je data past.",
           "antwoord": true,
-          "uitleg": "Dat staat letterlijk als leerdoel in de fiche. Een histogram is daar het geschiktst voor."
+          "uitleg": "Een histogram is daar het geschiktst voor."
         },
         {
           "type": "meerkeuze",
@@ -7103,7 +7103,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke handleiding raadt de fiche aan voor dit onderdeel? Geef het kernwoord in één woord.",
+          "vraag": "Welk hulpmiddel gebruik je bij dit onderdeel? Geef het kernwoord in één woord.",
           "antwoord": [
             "rekenapps",
             "rekenapp",
@@ -7143,7 +7143,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De fiche verwijst naar websites met datasets om een statistisch onderzoek op te oefenen.",
+          "vraag": "Op websites met datasets kan je een statistisch onderzoek oefenen.",
           "antwoord": true,
           "uitleg": "Ze noemt de geboortedatabank van de UHasselt, de open data van Statbel en de datasets van Kaggle."
         },
@@ -7154,7 +7154,7 @@
             "omdat een grafiek de vorm toont die een getal kan verbergen",
             "omdat een rekenapp zonder grafiek geen kengetallen geeft",
             "omdat een grafiek nauwkeuriger is dan een kengetal",
-            "omdat de fiche een grafiek verplicht bij elke berekening"
+            "omdat het examen een grafiek verplicht bij elke berekening"
           ],
           "antwoord": 0,
           "uitleg": "Twee toppen, een scheve staart of een uitschieter: dat zie je in een beeld en niet in een gemiddelde."
@@ -7219,7 +7219,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke stap hoort niet bij het verkennen van een dataset volgens de fiche?",
+          "vraag": "Welke stap hoort niet bij het verkennen van een dataset?",
           "opties": [
             "de nulhypothese verwerpen op basis van een eerste blik",
             "de gegevens groeperen in klassen",
@@ -7259,7 +7259,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent exact werken volgens de vakfiche?",
+          "vraag": "Wat betekent exact werken met een rekenapp?",
           "opties": [
             "een wiskundige uitdrukking niet benaderen of afronden",
             "met zoveel decimalen rekenen als je rekenapp toont",
@@ -7267,11 +7267,11 @@
             "alle antwoorden in breukvorm noteren"
           ],
           "antwoord": 0,
-          "uitleg": "Breuken, wortels en logaritmen laat je staan als ze niet mooi uitkomen. Dat staat letterlijk in de fiche."
+          "uitleg": "Breuken, wortels en logaritmen laat je staan als ze niet mooi uitkomen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom rekent de fiche met zo nauwkeurig mogelijke tussenresultaten?",
+          "vraag": "Waarom reken je met zo nauwkeurig mogelijke tussenresultaten?",
           "opties": [
             "omdat afrondingsfouten in de tussenstappen doorwerken in je eindantwoord",
             "omdat een rekenapp anders een foutmelding geeft",
@@ -7279,17 +7279,17 @@
             "omdat de verbetering alleen decimalen nakijkt"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zegt het zo: hoe onnauwkeuriger je tussenresultaten, hoe meer je eindresultaat kan afwijken."
+          "uitleg": "Hoe onnauwkeuriger je tussenresultaten, hoe meer je eindresultaat kan afwijken."
         },
         {
           "type": "waarofniet",
           "vraag": "Bij een vraag met het icoon voor functioneel ICT-gebruik moet je nog altijd je tussenstappen uitschrijven.",
           "antwoord": true,
-          "uitleg": "De fiche vraagt dat bij allebei de iconen: je toont je werkwijze en je redenering en schrijft alle berekeningen uit."
+          "uitleg": "Je toont je werkwijze en je redenering en schrijft alle berekeningen uit."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke hulpmiddelen mag je volgens de fiche tijdens het examen gebruiken?",
+          "vraag": "Welke hulpmiddelen mag je tijdens het examen gebruiken?",
           "opties": [
             "de rekenapps, een online rekentoestel, een spellingcontrole en een woordenboek",
             "je eigen grafische rekentoestel, een woordenboek en een samenvatting op papier",
@@ -7309,7 +7309,7 @@
             "een tweede toets op een ander significantieniveau"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt letterlijk dat je je resultaten interpreteert in functie van de gegeven probleemstelling."
+          "uitleg": "Je interpreteert je resultaten in functie van de gegeven probleemstelling."
         },
         {
           "type": "invultekst",
@@ -7347,13 +7347,13 @@
             "omdat een antwoord zonder uitleg niet leesbaar is"
           ],
           "antwoord": 0,
-          "uitleg": "Dat staat zo in de fiche, bij hoe het examen beoordeeld wordt. De begrippen uit de bijlage zijn de enige die gelden."
+          "uitleg": "Zo wordt het examen beoordeeld: alleen de afgesproken begrippen en notaties gelden."
         },
         {
           "type": "waarofniet",
           "vraag": "Bij sommige vragen van dit examen noteer je je antwoord op een schrijftablet met een digitale pen.",
           "antwoord": true,
-          "uitleg": "De fiche zegt dat erbij en verwijst naar de pagina over examens met een schrijftablet om te oefenen."
+          "uitleg": "Op de pagina over examens met een schrijftablet kan je oefenen."
         },
         {
           "type": "meerkeuze",
@@ -7390,9 +7390,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een opgave kan ook een probleem zijn dat je niet aan één hoofdstuk van de fiche kan koppelen.",
+          "vraag": "Een opgave kan ook een probleem zijn dat je niet aan één hoofdstuk kan koppelen.",
           "antwoord": true,
-          "uitleg": "De fiche onderscheidt een vraagstuk, dat bij één hoofdstuk hoort, van een probleem, waar je leerinhouden combineert."
+          "uitleg": "Een vraagstuk hoort bij één hoofdstuk; bij een probleem combineer je leerinhouden."
         },
         {
           "type": "meerkeuze",
@@ -7422,7 +7422,7 @@
           "type": "waarofniet",
           "vraag": "Een antwoord dat enkel uit het resultaat van een rekenapp bestaat, is op dit examen voldoende.",
           "antwoord": false,
-          "uitleg": "De fiche vraagt bij open vragen altijd je werkwijze, je redenering en alle tussenstappen."
+          "uitleg": "Bij open vragen toon je altijd je werkwijze, je redenering en alle tussenstappen."
         },
         {
           "type": "meerkeuze",
@@ -7434,7 +7434,7 @@
             "zonder context hoef je je werkwijze niet te noteren"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt je om op allebei voorbereid te zijn, en bij veel leerdoelen uitdrukkelijk op opgaven met context."
+          "uitleg": "Wees op allebei voorbereid, en bij veel leerdoelen uitdrukkelijk op opgaven met context."
         },
         {
           "type": "meerkeuze",
@@ -7453,7 +7453,7 @@
           "vraag": "Een leerling meldt een \\(p\\)-waarde met acht decimalen en noemt dat exact werken. Wat zeg je?",
           "opties": [
             "exact werken gaat over niet afronden, niet over veel decimalen",
-            "acht decimalen zijn te weinig, de fiche vraagt er tien",
+            "acht decimalen zijn te weinig, het moeten er tien zijn",
             "hij moet alle decimalen weglaten en afronden op een geheel getal",
             "hij heeft gelijk, hoe meer decimalen hoe exacter"
           ],

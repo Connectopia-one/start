@@ -69,7 +69,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Met een ander woord heet een spreidingsdiagram ook een puntenwolk.",
         antwoord=True,
-        uitleg="De fiche noemt drie namen voor hetzelfde: spreidingsdiagram, scatterdiagram en puntenwolk.",
+        uitleg="Er zijn drie namen voor hetzelfde: spreidingsdiagram, scatterdiagram en puntenwolk.",
     ),
     dict(
         type="meerkeuze",
@@ -99,7 +99,7 @@ DEEL1 = [
         type="invultekst",
         vraag="Welk soort verband hoort bij een puntenwolk in de vorm van een parabool? Eén woord.",
         antwoord=["kwadratisch", "kwadratische", "kwadraat"],
-        uitleg="De fiche noemt vier soorten verbanden: recht evenredig, omgekeerd evenredig, lineair en kwadratisch.",
+        uitleg="Er zijn vier soorten verbanden: recht evenredig, omgekeerd evenredig, lineair en kwadratisch.",
     ),
     dict(
         type="waarofniet",
@@ -121,7 +121,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe maak je volgens de fiche een spreidingsdiagram?",
+        vraag="Hoe maak je een spreidingsdiagram?",
         opties=[
             "met ICT, dus met de rekenapps van de examencommissie",
             "met de hand op millimeterpapier, want ICT mag niet",
@@ -129,7 +129,7 @@ DEEL1 = [
             "door de twee variabelen eerst te standaardiseren",
         ],
         antwoord=0,
-        uitleg="De fiche zegt letterlijk: je tekent een spreidingsdiagram met ICT. Daarna interpreteer je het zelf.",
+        uitleg="Je tekent een spreidingsdiagram met ICT. Daarna interpreteer je het zelf.",
     ),
     dict(
         type="waarofniet",
@@ -341,7 +341,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe bepaal je het voorschrift van de trendlijn volgens de fiche?",
+        vraag="Hoe bepaal je het voorschrift van de trendlijn?",
         opties=[
             "met ICT, de rekenapp geeft je de vergelijking",
             "door twee punten uit de wolk te kiezen en de rechte erdoor te berekenen",
@@ -349,7 +349,7 @@ DEEL2 = [
             "door de puntenwolk op ruitjespapier na te tekenen",
         ],
         antwoord=0,
-        uitleg="De fiche zegt: je bepaalt het voorschrift van een trendlijn met ICT. Daarna interpreteer je ze.",
+        uitleg="Je bepaalt het voorschrift van een trendlijn met ICT. Daarna interpreteer je ze.",
     ),
     dict(
         type="invultekst",

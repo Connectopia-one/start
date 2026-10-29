@@ -119,7 +119,7 @@ DEEL1 = [
             "de huid krijgt kippenvel zodra het koud wordt",
         ],
         antwoord=0,
-        uitleg="Het zuigen is de prikkel, de melkklier is de effector. De fiche noemt dit als voorbeeld van een reflex waarbij ook een hormoon meespeelt.",
+        uitleg="Het zuigen is de prikkel, de melkklier is de effector. Het is een voorbeeld van een reflex waarbij ook een hormoon meespeelt.",
     ),
     dict(
         type="waarofniet",
@@ -265,7 +265,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke delen onderscheidt de fiche bij een neuron? Kruis alles aan wat juist is.",
+        vraag="Welke delen heeft een neuron? Kruis alles aan wat juist is.",
         opties=[
             "het cellichaam met de kern",
             "de dendrieten",

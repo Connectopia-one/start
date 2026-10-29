@@ -109,7 +109,7 @@ DEEL1 = [
     dict(type="waarofniet",
          vraag="Het klimaat van een plaats kan je aflezen uit haar temperatuur en haar neerslag samen.",
          antwoord=True,
-         uitleg="Dat is precies wat de fiche vraagt: klimaten classificeren aan de hand van de verdeling van temperatuur en neerslag."),
+         uitleg="Precies: je classificeert klimaten aan de hand van de verdeling van temperatuur en neerslag."),
     dict(type="meerkeuze",
          vraag="Welke gebieden in Europa hebben een mediterraan klimaat?",
          opties=[
@@ -161,7 +161,7 @@ DEEL2 = [
                  "een gebied met dezelfde luchtdruk het hele jaar",
                  "een gebied dat door één land bestuurd wordt"],
          antwoord=0,
-         uitleg="Een bioom hoort bij een klimaat: taiga, savanne, regenwoud, toendra. De fiche vraagt dat je dat verband kan uitleggen."),
+         uitleg="Een bioom hoort bij een klimaat: taiga, savanne, regenwoud, toendra. Dat verband moet je kunnen uitleggen."),
     dict(type="meerkeuze",
          vraag="Welk bioom ligt in Siberië en Canada, net onder de toendra?",
          opties=["de taiga",
@@ -175,7 +175,7 @@ DEEL2 = [
          antwoord=["savanne"],
          uitleg="De savanne. Ze hoort bij een klimaat met een regenseizoen en een droog seizoen."),
     dict(type="meerkeuze",
-         vraag="Welke biomen noemt de fiche bij naam?",
+         vraag="Welke van deze zijn biomen?",
          opties=[
              "de taiga",
              "de poolwoestijn",

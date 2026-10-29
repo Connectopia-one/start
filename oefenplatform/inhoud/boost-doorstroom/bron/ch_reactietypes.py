@@ -319,7 +319,7 @@ DEEL2 = [
             "een hydroxide",
         ],
         antwoord=0,
-        uitleg="Dat is een van de reactiepatronen van de fiche. Roest is zo een metaaloxide van ijzer.",
+        uitleg="Dat is een van de reactiepatronen. Roest is zo een metaaloxide van ijzer.",
     ),
     dict(
         type="meerkeuze",

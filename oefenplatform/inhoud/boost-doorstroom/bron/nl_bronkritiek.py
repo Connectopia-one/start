@@ -190,7 +190,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat bedoelt de fiche met 'welke opvattingen en waardeoordelen bevat de tekst'?",
+        vraag="Wat bedoel je met 'welke opvattingen en waardeoordelen bevat de tekst'?",
         opties=[
             "welke overtuigingen de schrijver als vanzelfsprekend aanneemt",
             "hoeveel bronnen de schrijver onderaan vermeldt",
@@ -399,7 +399,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat betekent het als de fiche vraagt of een tekst 'bruikbaar' is?",
+        vraag="Wat betekent het als een tekst 'bruikbaar' is?",
         opties=[
             "of hij een antwoord geeft op de vraag die jij hebt",
             "of hij in een mooi lettertype gezet is",

@@ -173,7 +173,7 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoe bereken je volgens de fiche de centrummaten bij een grote dataset? Eén woord.",
+        vraag="Hoe bereken je de centrummaten bij een grote dataset? Eén woord.",
         antwoord=["ICT", "rekenapps", "rekenapp"],
         uitleg="Met ICT, dus met de rekenapps. Bij duizenden waarden is dat de enige werkbare manier.",
     ),

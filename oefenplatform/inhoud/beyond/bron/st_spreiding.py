@@ -332,7 +332,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe bereken je volgens de fiche de spreidingsmaten bij een grote dataset?",
+        vraag="Hoe bereken je de spreidingsmaten bij een grote dataset?",
         opties=[
             "met ICT, dus met de rekenapps van de examencommissie",
             "met de hand, want een rekenapp geeft geen kwartielen",
@@ -340,7 +340,7 @@ DEEL2 = [
             "door de dataset eerst in klassen te groeperen",
         ],
         antwoord=0,
-        uitleg="De fiche zegt het letterlijk: je berekent met ICT centrummaten en spreidingsmaten.",
+        uitleg="Je berekent met ICT centrummaten en spreidingsmaten.",
     ),
     dict(
         type="waarofniet",

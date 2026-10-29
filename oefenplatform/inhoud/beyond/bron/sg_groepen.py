@@ -31,7 +31,7 @@ Deel 2 zijn de groepsprocessen.
 DEEL1 = [
     dict(
         type="meerkeuze",
-        vraag="Wie hoort in de fiche bij de theorie van de cognitieve dissonantie?",
+        vraag="Wie hoort bij de theorie van de cognitieve dissonantie?",
         opties=[
             "Leon Festinger",
             "Fritz Heider",
@@ -67,7 +67,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke manieren noemt de fiche om cognitieve dissonantie te verminderen?",
+        vraag="Hoe kan je cognitieve dissonantie verminderen?",
         opties=[
             "je attitude veranderen",
             "je gedrag veranderen",
@@ -124,7 +124,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Cognitieve dissonantie is een spanning die mensen graag kwijt willen, en daarom verandert ze gedrag of houding.",
         antwoord=True,
-        uitleg="Waar. Dat is precies het verband met gedrag dat de fiche vraagt: de spanning drijft iemand tot een aanpassing.",
+        uitleg="Waar. Dat is het verband met gedrag: de spanning drijft iemand tot een aanpassing.",
     ),
     dict(
         type="waarofniet",
@@ -134,7 +134,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="In welke situaties uit het dagelijks leven speelt dissonantiereductie volgens de fiche?",
+        vraag="In welke situaties uit het dagelijks leven speelt dissonantiereductie?",
         opties=[
             "na het maken van een keuze",
             "na het instemmen met een verzoek",
@@ -178,11 +178,11 @@ DEEL1 = [
         type="waarofniet",
         vraag="Wie ja zegt op een verzoek waar hij eigenlijk niet achter staat, gaat het verzoek achteraf vaak redelijker vinden.",
         antwoord=True,
-        uitleg="Waar. De fiche noemt dat dissonantiereductie na het instemmen met een verzoek. Het is ook de reden dat beïnvloedingstechnieken werken.",
+        uitleg="Waar. Dat heet dissonantiereductie na het instemmen met een verzoek. Het is ook de reden dat beïnvloedingstechnieken werken.",
     ),
     dict(
         type="waarofniet",
-        vraag="Cognitieve dissonantie is het enige mentale proces dat de fiche bij de sociale cognitie rekent.",
+        vraag="Cognitieve dissonantie is het enige mentale proces dat bij de sociale cognitie hoort.",
         antwoord=False,
         uitleg="Niet waar. Er staan er drie: de attitude, de attributie en de cognitieve dissonantie.",
     ),
@@ -224,7 +224,7 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Een nieuwe gedachte toevoegen om de spanning te verzachten, heet in de fiche een ... toevoegen.",
+        vraag="Een nieuwe gedachte toevoegen om de spanning te verzachten, heet een ... toevoegen.",
         antwoord=["cognitie"],
         uitleg="Een cognitie toevoegen. Dat is de derde manier, naast de attitude en het gedrag veranderen.",
     ),
@@ -233,7 +233,7 @@ DEEL1 = [
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Wie hoort in de fiche bij de fasen in groepsvorming?",
+        vraag="Wie hoort bij de fasen in groepsvorming?",
         opties=[
             "Bruce Tuckman",
             "Leon Festinger",
@@ -245,7 +245,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel fasen in groepsvorming noemt de fiche?",
+        vraag="Hoeveel fasen in groepsvorming zijn er?",
         opties=[
             "vijf",
             "drie",
@@ -395,7 +395,7 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Het Nederlandse woord dat de fiche naast social loafing zet, is sociaal ...",
+        vraag="Het Nederlandse woord naast social loafing is sociaal ...",
         antwoord=["parasiteren"],
         uitleg="Sociaal parasiteren. Het is het tegendeel van sociale facilitatie: in een groep neemt de inzet af.",
     ),

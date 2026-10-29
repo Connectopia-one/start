@@ -101,7 +101,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel maatschappelijke domeinen onderscheidt de vakfiche?",
+          "vraag": "Hoeveel maatschappelijke domeinen onderscheid je in het historisch referentiekader?",
           "opties": [
             "vier",
             "drie",
@@ -166,7 +166,7 @@
           "type": "waarofniet",
           "vraag": "De middeleeuwen en de vroegmoderne tijd zijn de twee periodes die je voor dit vak grondig moet kennen.",
           "antwoord": true,
-          "uitleg": "De fiche geeft voor die twee periodes afgebakende leerinhouden. De andere periodes komen enkel aan bod om mee te vergelijken, en die info krijg je op het examen."
+          "uitleg": "Voor die twee periodes leer je de leerstof grondig. De andere periodes komen enkel aan bod om mee te vergelijken, en die info krijg je op het examen."
         },
         {
           "type": "meerkeuze",
@@ -3813,7 +3813,7 @@
             "met vaste punten vergelijk je hetzelfde met hetzelfde",
             "omdat het met een vaste lijst sneller gaat dan zonder",
             "omdat er over de meeste samenlevingen geen bronnen zijn",
-            "omdat de vakfiche dat voor elk examen zo verplicht"
+            "omdat elk examen dat zo verplicht"
           ],
           "antwoord": 0,
           "uitleg": "Wat opvalt, is vaak wat vreemd is aan ons. Vaste punten behoeden je ervoor enkel het exotische te zien."
@@ -3875,7 +3875,7 @@
             1,
             2
           ],
-          "uitleg": "Een vraag met maar één mogelijk antwoord is meestal geen onderzoeksvraag maar een weetje. De andere criteria komen uit de fiche zelf."
+          "uitleg": "Een vraag met maar één mogelijk antwoord is meestal geen onderzoeksvraag maar een weetje. De andere antwoorden zijn echte criteria."
         },
         {
           "type": "meerkeuze",
@@ -4098,7 +4098,7 @@
             1,
             2
           ],
-          "uitleg": "De prijs staat er los van. De andere vragen komen letterlijk uit het stappenplan van de fiche."
+          "uitleg": "De prijs staat er los van. De andere vragen horen bij het stappenplan."
         },
         {
           "type": "waarofniet",
@@ -4116,7 +4116,7 @@
             "vooroordeel en stereotypering"
           ],
           "antwoord": 0,
-          "uitleg": "Lengte zegt niets. De vijf criteria van de fiche zijn argumentatie, interpretatie, veralgemening, vooroordeel en stereotypering."
+          "uitleg": "Lengte zegt niets. De vijf criteria zijn argumentatie, interpretatie, veralgemening, vooroordeel en stereotypering."
         },
         {
           "type": "meerkeuze",
@@ -4190,7 +4190,7 @@
             1,
             2
           ],
-          "uitleg": "Gokken is geen redeneerwijze. De andere antwoorden bevatten samen bijna de hele lijst uit de fiche."
+          "uitleg": "Gokken is geen redeneerwijze. De andere antwoorden zijn echte manieren van redeneren."
         },
         {
           "type": "meerkeuze",
@@ -4375,7 +4375,7 @@
             "je begrijpt juist de andere kant van het conflict beter"
           ],
           "antwoord": 0,
-          "uitleg": "Daarom vraagt de fiche uitdrukkelijk om bronnen van beide kanten naast elkaar te leggen."
+          "uitleg": "Daarom leg je bronnen van beide kanten naast elkaar."
         },
         {
           "type": "invultekst",
@@ -4526,7 +4526,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke lagen van identiteit noemt de vakfiche?",
+          "vraag": "Welke van deze zijn lagen van identiteit?",
           "opties": [
             "de Vlaamse en de Belgische laag",
             "de westerse en niet-westerse laag",
@@ -4538,7 +4538,7 @@
             1,
             2
           ],
-          "uitleg": "Een sport hoort daar niet bij. De andere antwoorden geven samen de vijf lagen uit de fiche."
+          "uitleg": "Een sport hoort daar niet bij. De andere antwoorden zijn samen de vijf lagen."
         },
         {
           "type": "waarofniet",
@@ -4600,7 +4600,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat noemt de vakfiche géén kunst- of cultuuruiting?",
+          "vraag": "Wat is géén kunst- of cultuuruiting?",
           "opties": [
             "een rekening of een wetstekst",
             "een schilderij of een bouwwerk",
@@ -4608,13 +4608,13 @@
             "graffiti of een lied"
           ],
           "antwoord": 0,
-          "uitleg": "Een rekening is een bron, maar geen cultuuruiting in deze zin. De drie andere horen wel in de lijst van de fiche."
+          "uitleg": "Een rekening is een bron, maar geen cultuuruiting in deze zin. De drie andere wel."
         },
         {
           "type": "waarofniet",
           "vraag": "Ook een game of graffiti kan je als cultuuruiting analyseren.",
           "antwoord": true,
-          "uitleg": "De fiche noemt ze uitdrukkelijk. Dezelfde vragen gelden: wie maakte het, voor wie, en waarom?"
+          "uitleg": "Ook die horen erbij. Dezelfde vragen gelden: wie maakte het, voor wie, en waarom?"
         },
         {
           "type": "meerkeuze",
@@ -4648,7 +4648,7 @@
           "type": "waarofniet",
           "vraag": "Een kunstwerk kan bedoeld zijn om te bekritiseren, te bevestigen, te informeren of gewoon om schoonheid te maken.",
           "antwoord": true,
-          "uitleg": "De fiche somt die bedoelingen op. Vaak zijn er trouwens meerdere tegelijk."
+          "uitleg": "Dat zijn de mogelijke bedoelingen. Vaak zijn er trouwens meerdere tegelijk."
         },
         {
           "type": "meerkeuze",

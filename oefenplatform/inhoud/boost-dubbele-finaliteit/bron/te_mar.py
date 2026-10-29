@@ -268,7 +268,7 @@ DEEL2 = [
                  "met een regel per euro ervan",
                  "met twee boekingen per factuur"],
          antwoord=0,
-         uitleg="De fiche vraagt uitdrukkelijk een minimum aantal boekingsregels."),
+         uitleg="Er is een minimum aantal boekingsregels."),
     dict(type="meerkeuze",
          vraag="Welke verrichtingen raken de rekening 550 Kredietinstellingen?",
          opties=[

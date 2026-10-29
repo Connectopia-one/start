@@ -7,7 +7,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Uit welke drie dingen bestaat ontwikkeling volgens de vakfiche?",
+          "vraag": "Uit welke drie dingen bestaat ontwikkeling?",
           "opties": [
             "groeien, rijpen en leren",
             "groeien, leren en kiezen",
@@ -107,7 +107,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De vakfiche onderscheidt negen levensloopfasen.",
+          "vraag": "De levensloop wordt ingedeeld in negen fasen.",
           "antwoord": true,
           "uitleg": "Prenataal, baby, peuter, kleuter, lagereschoolkind, adolescentie, en de vroege, midden en late volwassenheid."
         },
@@ -137,9 +137,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Ontwikkeling stopt volgens de vakfiche bij de volwassenheid.",
+          "vraag": "Ontwikkeling stopt bij de volwassenheid.",
           "antwoord": false,
-          "uitleg": "Ze loopt door tot de late volwassenheid. Daarom spreekt de fiche van de hele levensloop."
+          "uitleg": "Ze loopt door tot de late volwassenheid. Daarom spreek je van de hele levensloop."
         },
         {
           "type": "meerkeuze",
@@ -284,7 +284,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Nature en nurture werken volgens de vakfiche samen in de ontwikkeling.",
+          "vraag": "Nature en nurture werken samen in de ontwikkeling.",
           "antwoord": true,
           "uitleg": "Het is nooit het een of het ander. Erfelijkheid geeft de mogelijkheden, de omgeving maakt er iets mee."
         },
@@ -302,7 +302,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke ontwikkelingsdomeinen noemt de vakfiche?",
+          "vraag": "Welke van deze zijn ontwikkelingsdomeinen?",
           "opties": [
             "de fysieke",
             "de politieke",
@@ -339,9 +339,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De vijf ontwikkelingsdomeinen gaan volgens de vakfiche los van elkaar vooruit.",
+          "vraag": "De vijf ontwikkelingsdomeinen gaan los van elkaar vooruit.",
           "antwoord": false,
-          "uitleg": "Ze staan juist in wisselwerking. Daarom vraagt de fiche die wisselwerking per levensfase uit te leggen."
+          "uitleg": "Ze staan juist in wisselwerking. Daarom leg je die wisselwerking per levensfase uit."
         },
         {
           "type": "meerkeuze",
@@ -393,7 +393,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat vraagt de vakfiche te doen met twee levensloopfasen binnen één domein?",
+          "vraag": "Wat doe je met twee levensloopfasen binnen één domein?",
           "opties": [
             "ze met elkaar vergelijken",
             "er één uitkiezen",
@@ -405,7 +405,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De persoonlijkheidsontwikkeling is in de fiche een eigen ontwikkelingsdomein.",
+          "vraag": "De persoonlijkheidsontwikkeling is een eigen ontwikkelingsdomein.",
           "antwoord": true,
           "uitleg": "Ze staat naast het fysieke, het cognitieve, het morele en het socio-emotionele domein. Erikson beschrijft ze."
         },
@@ -440,7 +440,7 @@
             "nature nurture",
             "nature en nurture"
           ],
-          "uitleg": "Het klassieke paar nature-nurture. De vakfiche zet daar zelfbepaling bij als derde factor."
+          "uitleg": "Het klassieke paar nature-nurture. Zelfbepaling komt erbij als derde factor."
         },
         {
           "type": "meerkeuze",
@@ -463,7 +463,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Waaruit bestaat de lichamelijke ontwikkeling volgens de vakfiche?",
+          "vraag": "Waaruit bestaat de lichamelijke ontwikkeling?",
           "opties": [
             "lengte, gewicht en verhoudingen",
             "lengte, kracht en uithouding",
@@ -563,7 +563,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De fysieke ontwikkeling loopt volgens de vakfiche enkel in de kindertijd.",
+          "vraag": "De fysieke ontwikkeling loopt enkel in de kindertijd.",
           "antwoord": false,
           "uitleg": "Ze loopt door de hele levensloop. In de late volwassenheid gaat ze achteruit, en dat is ook fysieke ontwikkeling."
         },
@@ -631,7 +631,7 @@
           "type": "waarofniet",
           "vraag": "De sensorische en de motorische ontwikkeling hangen samen.",
           "antwoord": true,
-          "uitleg": "Juist daarom spreekt de fiche van sensomotorische ontwikkeling: zien en grijpen werken samen."
+          "uitleg": "Daarom spreek je van sensomotorische ontwikkeling: zien en grijpen werken samen."
         },
         {
           "type": "meerkeuze",
@@ -880,7 +880,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke orde volgt de motorische ontwikkeling volgens de fiche?",
+          "vraag": "Welke orde volgt de motorische ontwikkeling?",
           "opties": [
             "van hoofd naar voeten",
             "van voeten naar hoofd",
@@ -1346,7 +1346,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom zijn de stadia van Piaget volgens de vakfiche nuttig?",
+          "vraag": "Waarom zijn de stadia van Piaget nuttig?",
           "opties": [
             "je weet wat een kind aankan",
             "je kan kinderen erop vergelijken",
@@ -1496,7 +1496,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De morele ontwikkeling staat volgens de vakfiche los van de cognitieve ontwikkeling.",
+          "vraag": "De morele ontwikkeling staat los van de cognitieve ontwikkeling.",
           "antwoord": false,
           "uitleg": "Ze hangen samen: je kan pas over een beginsel redeneren als je abstract kan denken."
         },
@@ -1748,7 +1748,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat leert de vakfiche over de orde van de stadia?",
+          "vraag": "Wat weet je over de volgorde van de stadia?",
           "opties": [
             "ze volgen elkaar vast op",
             "je kan er eentje overslaan",
@@ -2089,7 +2089,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De vakfiche onderscheidt drie vormen van onveilige hechting.",
+          "vraag": "Er zijn drie vormen van onveilige hechting.",
           "antwoord": true,
           "uitleg": "Angstig-vermijdend, angstig-ambivalent en gedesorganiseerd of gedesoriënteerd."
         },
@@ -2107,7 +2107,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vormen van onveilige hechting noemt de vakfiche?",
+          "vraag": "Welke van deze zijn vormen van onveilige hechting?",
           "opties": [
             "angstig-vermijdend",
             "angstig-ambivalent",
@@ -2161,7 +2161,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke gevolgen van hechting noemt de vakfiche?",
+          "vraag": "Welke van deze zijn gevolgen van hechting?",
           "opties": [
             "scheidingsangst",
             "angst voor vreemden",
@@ -2696,7 +2696,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat vraagt de vakfiche te doen met een voorbeeld bij Erikson?",
+          "vraag": "Wat doe je met een voorbeeld bij Erikson?",
           "opties": [
             "de fase en de pool benoemen",
             "de leeftijd exact bepalen",
@@ -2715,7 +2715,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Uit welke elementen bestaat persoonlijkheid volgens de vakfiche?",
+          "vraag": "Uit welke elementen bestaat persoonlijkheid?",
           "opties": [
             "identiteit, karakter en temperament",
             "identiteit, gevoel en gedrag samen",
@@ -2747,7 +2747,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke categorieën van identiteit noemt de vakfiche?",
+          "vraag": "Welke van deze zijn categorieën van identiteit?",
           "opties": [
             "persoonlijke identiteit",
             "culturele identiteit",
@@ -2819,7 +2819,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De persoonlijkheid ligt volgens de vakfiche volledig vast bij de geboorte.",
+          "vraag": "De persoonlijkheid ligt volledig vast bij de geboorte.",
           "antwoord": false,
           "uitleg": "Nature geeft een aanleg, maar nurture en zelfbepaling doen er evenveel toe."
         },
@@ -2885,7 +2885,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Persoonlijkheid en gedrag zijn volgens de vakfiche hetzelfde.",
+          "vraag": "Persoonlijkheid en gedrag zijn hetzelfde.",
           "antwoord": false,
           "uitleg": "Gedrag is wat je op één moment doet; persoonlijkheid is het patroon erachter."
         },
@@ -3047,7 +3047,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Temperament is volgens de vakfiche vooral aangeleerd.",
+          "vraag": "Temperament is vooral aangeleerd.",
           "antwoord": false,
           "uitleg": "Het is vooral aangeboren. Karakter en identiteit groeien wel in contact met de omgeving."
         },
@@ -3207,7 +3207,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten zelfbeeld noemt de vakfiche?",
+          "vraag": "Welke van deze zijn soorten zelfbeeld?",
           "opties": [
             "positief zelfbeeld",
             "negatief zelfbeeld",
@@ -3269,11 +3269,11 @@
             "de invloed op de regels"
           ],
           "antwoord": 0,
-          "uitleg": "Het zelfbeeld stuurt wat je durft proberen. Juist daarom vraagt de fiche naar die invloed."
+          "uitleg": "Het zelfbeeld stuurt wat je durft proberen. Daarom kijk je naar die invloed."
         },
         {
           "type": "waarofniet",
-          "vraag": "Het zelfconcept ligt volgens de vakfiche van jongs af vast.",
+          "vraag": "Het zelfconcept ligt van jongs af vast.",
           "antwoord": false,
           "uitleg": "Het groeit in contact met anderen en kan veranderen, al gaat dat traag."
         },
@@ -3323,7 +3323,7 @@
             2,
             4
           ],
-          "uitleg": "De juiste antwoorden staan in de fiche. Een vertekend zelfbeeld laat zien dat het foute antwoord niet klopt."
+          "uitleg": "De juiste antwoorden kloppen. Een vertekend zelfbeeld laat zien dat het foute antwoord niet klopt."
         },
         {
           "type": "meerkeuze",
@@ -3565,7 +3565,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Zelfwaardering en self-efficacy betekenen volgens de vakfiche hetzelfde.",
+          "vraag": "Zelfwaardering en self-efficacy betekenen hetzelfde.",
           "antwoord": false,
           "uitleg": "Zelfwaardering gaat over je waarde als persoon, self-efficacy over of je een taak aankan."
         },
@@ -3604,7 +3604,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom vraagt de vakfiche telkens naar de invloed op het gedrag?",
+          "vraag": "Waarom kijk je telkens naar de invloed op het gedrag?",
           "opties": [
             "het stuurt wat je doet",
             "het is heel goed meetbaar",
@@ -3635,7 +3635,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke componenten van een emotie noemt de vakfiche?",
+          "vraag": "Welke van deze zijn componenten van een emotie?",
           "opties": [
             "de fysiologische",
             "de gedragscomponent",
@@ -3725,7 +3725,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Alle emoties zijn volgens de vakfiche onaangenaam.",
+          "vraag": "Alle emoties zijn onaangenaam.",
           "antwoord": false,
           "uitleg": "Vreugde, verbazing en opluchting zijn ook emoties. Het gaat om de reactie, niet om of ze prettig is."
         },
@@ -3834,7 +3834,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom vraagt de vakfiche om de componenten in een voorbeeld te herkennen?",
+          "vraag": "Waarom herken je de componenten van een emotie in een voorbeeld?",
           "opties": [
             "zo zie je hoe een emotie werkt",
             "zo kan je ze een voor een tellen",
@@ -3853,7 +3853,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke functies van emoties noemt de vakfiche?",
+          "vraag": "Welke van deze zijn functies van emoties?",
           "opties": [
             "voorspellen",
             "communiceren",
@@ -3864,7 +3864,7 @@
             1,
             2
           ],
-          "uitleg": "Communiceren en waarschuwen zijn functies van een emotie, en je aanpassen aan de situatie ook. Vergelijken en voorspellen staan niet in de fiche."
+          "uitleg": "Communiceren en waarschuwen zijn functies van een emotie, en je aanpassen aan de situatie ook. Vergelijken en voorspellen niet."
         },
         {
           "type": "meerkeuze",
@@ -3901,7 +3901,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Emoties hebben volgens de vakfiche een nuttige functie.",
+          "vraag": "Emoties hebben een nuttige functie.",
           "antwoord": true,
           "uitleg": "Ze helpen je aanpassen, waarschuwen en communiceren. Ze zijn geen storing maar een systeem."
         },
@@ -4020,7 +4020,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Volgens de vakfiche bestaan er goede en slechte emoties.",
+          "vraag": "Er bestaan goede en slechte emoties.",
           "antwoord": false,
           "uitleg": "Emoties zijn aangenaam of onaangenaam, niet goed of slecht. Ze hebben allemaal een functie."
         },
@@ -4090,7 +4090,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vormen van motivatie noemt de vakfiche?",
+          "vraag": "Welke van deze zijn vormen van motivatie?",
           "opties": [
             "intrinsieke motivatie",
             "extrinsieke motivatie",
@@ -4144,7 +4144,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten doelgerichtheid noemt de vakfiche?",
+          "vraag": "Welke van deze zijn soorten doelgerichtheid?",
           "opties": [
             "vermijdingsgedrag",
             "toenaderingsgedrag",
@@ -4190,7 +4190,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke twee vormen heeft toenaderingsgedrag volgens de fiche?",
+          "vraag": "Welke twee vormen heeft toenaderingsgedrag?",
           "opties": [
             "nastreven en behouden",
             "passief en actief",
@@ -4214,7 +4214,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Extrinsieke motivatie is volgens de vakfiche altijd slecht.",
+          "vraag": "Extrinsieke motivatie is altijd slecht.",
           "antwoord": false,
           "uitleg": "Soms is ze nodig om te starten met iets dat je niet graag doet. Intrinsiek is wel duurzamer."
         },
@@ -4317,7 +4317,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten attributies noemt de vakfiche?",
+          "vraag": "Welke van deze zijn soorten attributies?",
           "opties": [
             "interne attributie",
             "externe attributie",
@@ -4410,9 +4410,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Attributies staan volgens de vakfiche los van de motivatie.",
+          "vraag": "Attributies staan los van de motivatie.",
           "antwoord": false,
-          "uitleg": "Ze staan juist bij motivatie in de fiche: hoe je een mislukking verklaart, bepaalt of je opnieuw probeert."
+          "uitleg": "Ze horen juist bij motivatie: hoe je een mislukking verklaart, bepaalt of je opnieuw probeert."
         },
         {
           "type": "meerkeuze",
@@ -4516,7 +4516,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat vraagt de vakfiche te doen met een voorbeeld over attributies?",
+          "vraag": "Wat doe je met een voorbeeld over attributies?",
           "opties": [
             "de attributie en haar invloed",
             "de leerling een cijfer geven",
@@ -4547,7 +4547,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke cultuuruitingen noemt de vakfiche?",
+          "vraag": "Welke van deze zijn cultuuruitingen?",
           "opties": [
             "rituelen",
             "symbolen",
@@ -4565,7 +4565,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel cultuuruitingen noemt de vakfiche? Eén getal.",
+          "vraag": "Hoeveel cultuuruitingen onderscheid je? Eén getal.",
           "antwoord": [
             "7",
             "zeven"
@@ -4586,7 +4586,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Taal is volgens de vakfiche een cultuuruiting.",
+          "vraag": "Taal is een cultuuruiting.",
           "antwoord": true,
           "uitleg": "Ze draagt de hele cultuur: wie de taal leert, leert ook de gewoontes en de waarden erachter."
         },
@@ -4638,7 +4638,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Cultuur is volgens de vakfiche aangeboren.",
+          "vraag": "Cultuur is aangeboren.",
           "antwoord": false,
           "uitleg": "Je leert ze, door socialisatie. Daarom kan ze ook veranderen en doorgegeven worden."
         },
@@ -4689,7 +4689,7 @@
             1,
             2
           ],
-          "uitleg": "De juiste antwoorden staan in de fiche. Culturen verschillen juist sterk van elkaar."
+          "uitleg": "De juiste antwoorden kloppen. Culturen verschillen juist sterk van elkaar."
         },
         {
           "type": "meerkeuze",
@@ -4705,7 +4705,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Waarden en normen horen volgens de vakfiche bij de cultuuruitingen.",
+          "vraag": "Waarden en normen horen bij de cultuuruitingen.",
           "antwoord": true,
           "uitleg": "Ze zijn er een van de zeven, en meteen de kern: ze sturen het gedrag van iedereen in de groep."
         },
@@ -4744,7 +4744,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom staat cultuur in de fiche onder socialisatie?",
+          "vraag": "Waarom hoort cultuur bij socialisatie?",
           "opties": [
             "cultuur wordt zo doorgegeven",
             "cultuur is daar een deel van",
@@ -4796,7 +4796,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vergelijkingen noemt de vakfiche?",
+          "vraag": "Welke vergelijkingen maak je tussen culturen?",
           "opties": [
             "westers en niet-westers",
             "dominant en subcultuur",
@@ -4808,11 +4808,11 @@
             1,
             2
           ],
-          "uitleg": "Drie manieren om culturen naast elkaar te zetten. Rijk en arm staat niet in de fiche."
+          "uitleg": "Drie manieren om culturen naast elkaar te zetten. Rijk en arm hoort er niet bij."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een subcultuur staat volgens de vakfiche altijd tegenover de dominante cultuur.",
+          "vraag": "Een subcultuur staat altijd tegenover de dominante cultuur.",
           "antwoord": false,
           "uitleg": "Ze kan ernaast bestaan zonder verzet. Alleen een tegencultuur zet zich uitdrukkelijk af."
         },
@@ -4886,7 +4886,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarmee vergelijk je volgens de fiche twee culturen?",
+          "vraag": "Waarmee vergelijk je twee culturen?",
           "opties": [
             "met de cultuuruitingen",
             "met het aantal inwoners",
@@ -5002,7 +5002,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat wordt er volgens de vakfiche doorgegeven bij socialisatie?",
+          "vraag": "Wat wordt er doorgegeven bij socialisatie?",
           "opties": [
             "waarden",
             "normen",
@@ -5039,7 +5039,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Socialisatie zorgt er volgens de vakfiche voor dat een cultuur blijft bestaan.",
+          "vraag": "Socialisatie zorgt er voor dat een cultuur blijft bestaan.",
           "antwoord": true,
           "uitleg": "Dat is het belang voor de samenleving: zonder doorgeven sterft een cultuur met haar dragers."
         },
@@ -5057,7 +5057,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke gevolgen van socialisatie voor het individu noemt de fiche?",
+          "vraag": "Welke van deze zijn gevolgen van socialisatie voor het individu?",
           "opties": [
             "aanpassing aan de omgeving",
             "prosociaal gedrag",
@@ -5094,7 +5094,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Socialisatie stopt volgens de vakfiche na de kindertijd.",
+          "vraag": "Socialisatie stopt na de kindertijd.",
           "antwoord": false,
           "uitleg": "Ze loopt door: een nieuwe job, een nieuw land of een nieuwe rol vraagt telkens nieuwe normen."
         },
@@ -5142,7 +5142,7 @@
             1,
             2
           ],
-          "uitleg": "De juiste antwoorden staan in de fiche. Socialisatie is juist het tegengestelde van erfelijk."
+          "uitleg": "De juiste antwoorden kloppen. Socialisatie is juist het tegengestelde van erfelijk."
         },
         {
           "type": "meerkeuze",
@@ -5158,7 +5158,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Prosociaal gedrag is volgens de vakfiche een gevolg van socialisatie.",
+          "vraag": "Prosociaal gedrag is een gevolg van socialisatie.",
           "antwoord": true,
           "uitleg": "Wie geleerd heeft wat de groep verwacht, helpt en deelt. Mislukt dat, dan ligt antisociaal gedrag dichterbij."
         },
@@ -5197,7 +5197,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom hoort cultuur in de fiche samen met socialisatie?",
+          "vraag": "Waarom horen cultuur en socialisatie samen?",
           "opties": [
             "socialisatie geeft cultuur door",
             "cultuur is een soort socialisatie",
@@ -5228,7 +5228,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke niveaus van socialisatie noemt de vakfiche?",
+          "vraag": "Welke van deze zijn niveaus van socialisatie?",
           "opties": [
             "primair",
             "secundair",
@@ -5265,7 +5265,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De primaire socialisatie is volgens de vakfiche de diepste.",
+          "vraag": "De primaire socialisatie is de diepste.",
           "antwoord": true,
           "uitleg": "Wat je in je eerste jaren leert, voelt later als vanzelfsprekend. Daarom weegt ze het zwaarst."
         },
@@ -5283,7 +5283,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vormen van socialisatie noemt de vakfiche?",
+          "vraag": "Welke van deze zijn vormen van socialisatie?",
           "opties": [
             "acculturatie",
             "anticiperende socialisatie",
@@ -5319,7 +5319,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Enculturatie en acculturatie betekenen volgens de vakfiche hetzelfde.",
+          "vraag": "Enculturatie en acculturatie betekenen hetzelfde.",
           "antwoord": false,
           "uitleg": "Enculturatie is je eigen cultuur binnenkrijgen, acculturatie is een andere cultuur overnemen."
         },
@@ -5409,7 +5409,7 @@
             "ze wordt wettelijk vastgelegd"
           ],
           "antwoord": 0,
-          "uitleg": "De kerk had vroeger veel meer invloed, de media veel minder. De fiche vraagt die verschuiving uit te leggen."
+          "uitleg": "De kerk had vroeger veel meer invloed, de media veel minder. Die verschuiving moet je kunnen uitleggen."
         },
         {
           "type": "invultekst",
@@ -5431,7 +5431,7 @@
             "de rijping is veranderd"
           ],
           "antwoord": 0,
-          "uitleg": "Media wegen zwaarder, de kerk minder, en school duurt langer. De fiche noemt dat verandering in tijd en ruimte."
+          "uitleg": "Media wegen zwaarder, de kerk minder, en school duurt langer. Dat is verandering in tijd en ruimte."
         }
       ]
     },
@@ -5454,7 +5454,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke instituties noemt de vakfiche?",
+          "vraag": "Welke van deze zijn instituties?",
           "opties": [
             "het gezin",
             "de school",
@@ -5491,7 +5491,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Gezin en familie zijn in de vakfiche twee aparte instituties.",
+          "vraag": "Gezin en familie zijn twee aparte instituties.",
           "antwoord": true,
           "uitleg": "Het gezin is wie samenwoont, de familie is de ruimere kring: grootouders, tantes, neven."
         },
@@ -5547,7 +5547,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De peergroep weegt volgens de vakfiche het zwaarst in de babytijd.",
+          "vraag": "De peergroep weegt het zwaarst in de babytijd.",
           "antwoord": false,
           "uitleg": "Ze weegt het zwaarst in de adolescentie. Een baby heeft nog geen leeftijdsgenoten om zich aan te spiegelen."
         },
@@ -5650,7 +5650,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom vraagt de fiche per institutie het niveau te bepalen?",
+          "vraag": "Waarom bepaal je per institutie het niveau van socialisatie?",
           "opties": [
             "elke institutie werkt anders door",
             "elke institutie is even sterk",
@@ -5737,7 +5737,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke instituties noemt de fiche naast gezin, familie en school?",
+          "vraag": "Welke instituties zijn er naast gezin, familie en school?",
           "opties": [
             "de buurt",
             "de verenigingen",
@@ -5775,13 +5775,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een buurt heeft volgens de vakfiche geen invloed op de socialisatie.",
+          "vraag": "Een buurt heeft geen invloed op de socialisatie.",
           "antwoord": false,
           "uitleg": "Ze staat uitdrukkelijk in de lijst. Waar je opgroeit bepaalt wie je tegenkomt en wat normaal lijkt."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat bedoelt de fiche met verandering in tijd en ruimte?",
+          "vraag": "Wat bedoel je met de verandering van instituties in tijd en ruimte?",
           "opties": [
             "de rol verschilt per periode en plaats",
             "instituties verhuizen mee",
@@ -5875,7 +5875,7 @@
             "een vereniging",
             "verenigingen"
           ],
-          "uitleg": "Verenigingen zijn een aparte institutie in de fiche, naast de school en de peergroep."
+          "uitleg": "Verenigingen zijn een aparte institutie, naast de school en de peergroep."
         },
         {
           "type": "meerkeuze",
@@ -6034,7 +6034,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een primaire groep heeft volgens de vakfiche veel leden.",
+          "vraag": "Een primaire groep heeft veel leden.",
           "antwoord": false,
           "uitleg": "Ze is net klein: zo blijft persoonlijk contact met iedereen mogelijk."
         },
@@ -6387,7 +6387,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke drie begrippen horen volgens de fiche samen?",
+          "vraag": "Welke drie begrippen horen samen?",
           "opties": [
             "positie",
             "rol",
@@ -6458,9 +6458,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een positie kan volgens de vakfiche tijdelijk of levenslang zijn.",
+          "vraag": "Een positie kan tijdelijk of levenslang zijn.",
           "antwoord": true,
-          "uitleg": "Leerling ben je tijdelijk, dochter blijf je levenslang. De fiche noemt beide paren."
+          "uitleg": "Leerling ben je tijdelijk, dochter blijf je levenslang. Beide paren horen erbij."
         },
         {
           "type": "meerkeuze",
@@ -6488,7 +6488,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Iedereen heeft volgens de vakfiche maar één sociale positie.",
+          "vraag": "Iedereen heeft maar één sociale positie.",
           "antwoord": false,
           "uitleg": "Je bent tegelijk dochter, leerling, collega en vriendin. Samen vormen die posities je plaats in de samenleving."
         },
@@ -6618,7 +6618,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten rollenconflicten noemt de vakfiche?",
+          "vraag": "Welke van deze zijn soorten rollenconflicten?",
           "opties": [
             "interne",
             "externe",
@@ -6754,7 +6754,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een positie staat volgens de vakfiche los van de rolverwachtingen.",
+          "vraag": "Een positie staat los van de rolverwachtingen.",
           "antwoord": false,
           "uitleg": "Bij elke positie horen juist wel verwachtingen van de mensen rond je. Samen vormen die de rol."
         },
@@ -6794,7 +6794,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom vraagt de fiche om in een voorbeeld het rollenconflict te benoemen?",
+          "vraag": "Waarom benoem je in een voorbeeld het rollenconflict?",
           "opties": [
             "zo zie je welke posities botsen",
             "zo kan je het oplossen",
@@ -6825,7 +6825,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke factoren bepalen volgens de vakfiche de sociale status?",
+          "vraag": "Welke factoren bepalen de sociale status?",
           "opties": [
             "afkomst",
             "beroep",
@@ -6837,11 +6837,11 @@
             1,
             2
           ],
-          "uitleg": "De fiche noemt zes factoren: afkomst, beroep, geslacht, inkomen en vermogen, kenniskring en opleiding."
+          "uitleg": "Er zijn zes factoren: afkomst, beroep, geslacht, inkomen en vermogen, kenniskring en opleiding."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel factoren bepalen volgens de fiche de sociale status? Een cijfer.",
+          "vraag": "Hoeveel factoren bepalen de sociale status? Een cijfer.",
           "antwoord": [
             "6",
             "zes"
@@ -6917,7 +6917,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Alle factoren wegen volgens de fiche overal even zwaar.",
+          "vraag": "Alle factoren wegen overal even zwaar.",
           "antwoord": false,
           "uitleg": "Het gewicht verschilt per samenleving en per tijd. In sommige culturen weegt afkomst veel zwaarder dan opleiding."
         },
@@ -6947,7 +6947,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Geslacht staat als statusfactor op de vakfiche.",
+          "vraag": "Geslacht is een statusfactor.",
           "antwoord": true,
           "uitleg": "Het staat er bij de zes factoren. In veel samenlevingen geeft het nog altijd verschil in aanzien en kansen."
         },
@@ -7039,7 +7039,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat bedoelt de fiche met de impact van een sociale positie?",
+          "vraag": "Wat bedoel je met de impact van een sociale positie?",
           "opties": [
             "ze beïnvloedt je kansen",
             "ze bepaalt je karakter",
@@ -7140,7 +7140,7 @@
             1,
             2
           ],
-          "uitleg": "Talent speelt mee, maar nooit alleen. Dat is de kern van wat de fiche over kansen vraagt."
+          "uitleg": "Talent speelt mee, maar nooit alleen. Dat is de kern van het verhaal over kansen."
         },
         {
           "type": "invultekst",
@@ -7154,7 +7154,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Sociale mobiliteit kan volgens de vakfiche enkel naar boven gaan.",
+          "vraag": "Sociale mobiliteit kan enkel naar boven gaan.",
           "antwoord": false,
           "uitleg": "Ook afzakken is mobiliteit: wie zijn werk verliest of ziek wordt, kan een positie verliezen."
         },
@@ -7214,7 +7214,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een positie bepaalt volgens de fiche volledig hoe een leven verloopt.",
+          "vraag": "Een positie bepaalt volledig hoe een leven verloopt.",
           "antwoord": false,
           "uitleg": "Ze beïnvloedt de kansen, ze beslist niet alles. Eigen keuzes, toeval en beleid spelen mee."
         },

@@ -74,7 +74,7 @@
             1,
             2
           ],
-          "uitleg": "Le repas de midi is het middagmaal, en de zin zegt welke plaats het in de dag inneemt. De fiche vraagt uitdrukkelijk dat je zulke eetgewoontes uit een tekst haalt."
+          "uitleg": "Le repas de midi is het middagmaal, en de zin zegt welke plaats het in de dag inneemt. Zulke eetgewoontes haal je uit een tekst."
         },
         {
           "type": "meerkeuze",
@@ -108,13 +108,13 @@
             "ze dragen een uniform"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche geeft dit voorbeeld zelf: in Franstalig Canada gaan collega's weinig formeel met elkaar om. In Frankrijk is vouvoyeren op het werk gewoner."
+          "uitleg": "In Franstalig Canada gaan collega's weinig formeel met elkaar om. In Frankrijk is vouvoyeren op het werk gewoner."
         },
         {
           "type": "waarofniet",
           "vraag": "De hoofdpunten van een tekst ondersteunen de hoofdgedachte.",
           "antwoord": true,
-          "uitleg": "Zo staat het in de fiche. Eerst zoek je de hoofdgedachte, en daarna wat haar schraagt."
+          "uitleg": "Eerst zoek je de hoofdgedachte, en daarna wat haar schraagt."
         },
         {
           "type": "meerkeuze",
@@ -144,7 +144,7 @@
             2,
             4
           ],
-          "uitleg": "Die drie horen bij de leesstrategieën van de fiche. Woorden tellen helpt je niet verder."
+          "uitleg": "Die drie zijn goede leesstrategieën. Woorden tellen helpt je niet verder."
         },
         {
           "type": "meerkeuze",
@@ -162,7 +162,7 @@
           "type": "waarofniet",
           "vraag": "Je mag bij het lezen de titel en de foto's overslaan.",
           "antwoord": false,
-          "uitleg": "De fiche noemt die visuele hulpmiddelen juist als een strategie. Ze zeggen vaak al waarover de tekst gaat."
+          "uitleg": "Die visuele hulpmiddelen zijn juist een goede strategie. Ze zeggen vaak al waarover de tekst gaat."
         },
         {
           "type": "meerkeuze",
@@ -256,7 +256,7 @@
             "de tijd"
           ],
           "antwoord": 0,
-          "uitleg": "Y vervangt een plaatsbepaling: en Provence. De fiche noemt y uitdrukkelijk als verwijswoord."
+          "uitleg": "Y vervangt een plaatsbepaling: en Provence. Y is een verwijswoord."
         },
         {
           "type": "invultekst",
@@ -285,7 +285,7 @@
           "type": "waarofniet",
           "vraag": "Signaalwoorden helpen je de gedachtegang van een Franse tekst te volgen.",
           "antwoord": true,
-          "uitleg": "Daarom noemt de fiche ze bij de leesstrategieën. Mais kondigt een tegenstelling aan, donc een gevolg, d'abord een eerste stap."
+          "uitleg": "Daarom zijn ze zo handig bij het lezen. Mais kondigt een tegenstelling aan, donc een gevolg, d'abord een eerste stap."
         },
         {
           "type": "meerkeuze",
@@ -339,7 +339,7 @@
           "type": "waarofniet",
           "vraag": "Je moet elk onbekend Frans woord in een tekst opzoeken.",
           "antwoord": false,
-          "uitleg": "De fiche zegt dat je eerst beslist of het woord echt nodig is. In 120 minuten heb je geen tijd voor meer."
+          "uitleg": "Beslis eerst of het woord echt nodig is. In 120 minuten heb je geen tijd voor meer."
         },
         {
           "type": "meerkeuze",
@@ -357,7 +357,7 @@
             2,
             4
           ],
-          "uitleg": "Zender, bedoeling en publiek: die drie vragen staan in de fiche."
+          "uitleg": "Zender, bedoeling en publiek: die drie vragen stel je bij elke tekst."
         },
         {
           "type": "meerkeuze",
@@ -369,7 +369,7 @@
             "het onderwerp"
           ],
           "antwoord": 0,
-          "uitleg": "De leeftijd van het gebouw is een detail. Hoofd- en bijzaken scheiden is een strategie uit de fiche."
+          "uitleg": "De leeftijd van het gebouw is een detail. Hoofd- en bijzaken scheiden is een leesstrategie."
         },
         {
           "type": "meerkeuze",
@@ -450,7 +450,7 @@
             "tegen"
           ],
           "antwoord": 0,
-          "uitleg": "Grâce à is positief, à cause de eerder negatief. De fiche noemt allebei bij de voorzetselgroepen."
+          "uitleg": "Grâce à is positief, à cause de eerder negatief. Het zijn allebei voorzetselgroepen."
         }
       ]
     },
@@ -469,7 +469,7 @@
             "een tekst die een verhaal vertelt"
           ],
           "antwoord": 0,
-          "uitleg": "Un article de journal, une interview, un journal télévisé of een mail aan een klant. De fiche noemt die vier als voorbeelden."
+          "uitleg": "Un article de journal, une interview, un journal télévisé of een mail aan een klant zijn voorbeelden."
         },
         {
           "type": "meerkeuze",
@@ -527,7 +527,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke Franse teksten noemt de fiche literair?",
+          "vraag": "Welke van deze Franse teksten zijn literair?",
           "opties": [
             "un poème",
             "une chanson",
@@ -569,7 +569,7 @@
           "type": "waarofniet",
           "vraag": "Un podcast kan een narratieve tekst zijn.",
           "antwoord": true,
-          "uitleg": "De fiche noemt un podcast, un vlog, un récit de voyage en een getuigenis over een eerste werkdag. Narratief gaat over de vorm, niet over het kanaal."
+          "uitleg": "Un podcast, un vlog, un récit de voyage en een getuigenis over een eerste werkdag zijn narratief. Narratief gaat over de vorm, niet over het kanaal."
         },
         {
           "type": "meerkeuze",
@@ -599,7 +599,7 @@
           "type": "waarofniet",
           "vraag": "Une bande dessinée hoort bij de informatieve teksten.",
           "antwoord": false,
-          "uitleg": "De fiche zet een strip bij de literaire teksten, samen met een lied, een gedicht en een cartoon. Ze spelen in op emoties."
+          "uitleg": "Een strip is een literaire tekst, net als een lied, een gedicht en een cartoon. Ze spelen in op emoties."
         },
         {
           "type": "meerkeuze",
@@ -630,7 +630,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Une interview is volgens de fiche een literaire tekst.",
+          "vraag": "Une interview is een literaire tekst.",
           "antwoord": false,
           "uitleg": "Een interview staat bij de informatieve teksten, net als een krantenartikel en het nieuws. Literair zijn een gedicht, een lied of een strip."
         },
@@ -755,7 +755,7 @@
             "een klasgenoot"
           ],
           "antwoord": 0,
-          "uitleg": "Madame, Monsieur en de vous-vorm wijzen op iemand met wie je geen nauwe band hebt. De fiche vraagt dat je dat publiek kan bepalen."
+          "uitleg": "Madame, Monsieur en de vous-vorm wijzen op iemand met wie je geen nauwe band hebt. Zo bepaal je het publiek."
         },
         {
           "type": "meerkeuze",
@@ -771,7 +771,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welk Frans woord zeg je volgens de fiche altijd eerst als je een onbekende iets vraagt? Eén woord.",
+          "vraag": "Welk Frans woord zeg je altijd eerst als je een onbekende iets vraagt? Eén woord.",
           "antwoord": [
             "bonjour"
           ],
@@ -790,11 +790,11 @@
             0,
             1
           ],
-          "uitleg": "Inleiding, midden en slot: zo staat het bij de vereisten in de fiche. Een voetnoot of een bibliografie hoort er niet verplicht bij."
+          "uitleg": "Inleiding, midden en slot. Een voetnoot of een bibliografie hoort er niet verplicht bij."
         },
         {
           "type": "waarofniet",
-          "vraag": "Volgens de fiche gebruik je de vous-vorm in een mail aan een volwassene die je niet goed kent.",
+          "vraag": "In een mail aan een volwassene die je niet goed kent, gebruik je de vous-vorm.",
           "antwoord": true,
           "uitleg": "Dat staat letterlijk bij de strategieën, samen met de conditionnel de politesse: je voudrais in plaats van je veux."
         },
@@ -826,7 +826,7 @@
           "type": "waarofniet",
           "vraag": "Een gepast register betekent dat je in het Frans altijd zo formeel mogelijk schrijft.",
           "antwoord": false,
-          "uitleg": "Gepast betekent passend bij de lezer: formeel of informeel, zegt de fiche. Aan een vriend schrijf je gewoon tu."
+          "uitleg": "Gepast betekent passend bij de lezer: formeel of informeel. Aan een vriend schrijf je gewoon tu."
         },
         {
           "type": "meerkeuze",
@@ -853,13 +853,13 @@
             "informatie vragen"
           ],
           "antwoord": 0,
-          "uitleg": "Désolé, nog versterkt met vraiment. De fiche noemt dat bij de alledaagse sociale contacten."
+          "uitleg": "Désolé, nog versterkt met vraiment. Dat is een alledaags sociaal contact."
         },
         {
           "type": "waarofniet",
           "vraag": "Je veux un café klinkt in het Frans hoffelijker dan je voudrais un café.",
           "antwoord": false,
-          "uitleg": "Net omgekeerd: je voudrais is de conditionnel de politesse en klinkt veel vriendelijker. De fiche noemt die vorm uitdrukkelijk."
+          "uitleg": "Net omgekeerd: je voudrais is de conditionnel de politesse en klinkt veel vriendelijker."
         },
         {
           "type": "meerkeuze",
@@ -895,7 +895,7 @@
             "de mening van de schrijver"
           ],
           "antwoord": 0,
-          "uitleg": "Het kanaal is de weg die je boodschap neemt: een mail, een blogbericht, een gesprek. De fiche vraagt die vraag bij het schrijfplan."
+          "uitleg": "Het kanaal is de weg die je boodschap neemt: een mail, een blogbericht, een gesprek. Die vraag stel je bij je schrijfplan."
         },
         {
           "type": "meerkeuze",
@@ -1023,7 +1023,7 @@
           "type": "waarofniet",
           "vraag": "In het Frans zeg je bonjour voor je iemand iets vraagt.",
           "antwoord": true,
-          "uitleg": "De fiche noemt dat uitdrukkelijk bij de strategieën. Zonder bonjour klinkt een vraag onbeschoft."
+          "uitleg": "Zonder bonjour klinkt een vraag onbeschoft."
         },
         {
           "type": "meerkeuze",
@@ -1138,7 +1138,7 @@
             "de taal van het land"
           ],
           "antwoord": 0,
-          "uitleg": "Je houding, je handen, je blik. De fiche noemt lichaamstaal uitdrukkelijk bij de socioculturele aspecten."
+          "uitleg": "Je houding, je handen, je blik. Ook lichaamstaal hoort bij de cultuur."
         }
       ]
     },
@@ -1386,7 +1386,7 @@
             "de tekst van iemand anders"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche raadt aan om eerst met kernwoorden te plannen. Zo vergeet je niets en loopt je tekst van zichzelf."
+          "uitleg": "Plan eerst met kernwoorden. Zo vergeet je niets en loopt je tekst van zichzelf."
         },
         {
           "type": "meerkeuze",
@@ -1404,7 +1404,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche vraagt dat de opbouw herkenbaar is: titel en alinea's. Kleur maakt een tekst niet duidelijker."
+          "uitleg": "De opbouw moet herkenbaar zijn: titel en alinea's. Kleur maakt een tekst niet duidelijker."
         },
         {
           "type": "invultekst",
@@ -1450,7 +1450,7 @@
             2,
             4
           ],
-          "uitleg": "Begroeten, bedanken en afscheid nemen staan alle drie in de lijst van de fiche. Il pleut is enkel een mededeling over het weer."
+          "uitleg": "Begroeten, bedanken en afscheid nemen zijn alle drie sociale contacten. Il pleut is enkel een mededeling over het weer."
         },
         {
           "type": "meerkeuze",
@@ -1489,13 +1489,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Volgens de fiche moet je Franse tekst helemaal foutloos zijn.",
+          "vraag": "Je Franse tekst moet helemaal foutloos zijn.",
           "antwoord": false,
           "uitleg": "De eis is dat spelfouten en fouten tegen leestekens het tekstbegrip niet in de weg staan. Foutloos hoeft dus niet, duidelijk wel."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke tekststructuur verwacht de fiche?",
+          "vraag": "Welke tekststructuur gebruik je?",
           "opties": [
             "inleiding, midden en slot",
             "enkel een inleiding",
@@ -1515,7 +1515,7 @@
             "alles in het net herschrijven"
           ],
           "antwoord": 0,
-          "uitleg": "Lees je tekst grondig na: is de communicatie helder, gepast en vlot? Dat staat als laatste strategie in de fiche."
+          "uitleg": "Lees je tekst grondig na: is de communicatie helder, gepast en vlot? Dat is de laatste stap."
         },
         {
           "type": "waarofniet",
@@ -1536,13 +1536,13 @@
             0,
             1
           ],
-          "uitleg": "Waarom, voor wie en via welk kanaal: dat is het communicatiemodel uit de fiche. De klok nakijken helpt bij je planning, maar hoort niet bij het model."
+          "uitleg": "Waarom, voor wie en via welk kanaal: dat is het communicatiemodel. De klok nakijken helpt bij je planning, maar hoort niet bij het model."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een gesprek moet je volgens de fiche altijd op voorhand kunnen voorbereiden.",
+          "vraag": "Een gesprek moet je altijd op voorhand kunnen voorbereiden.",
           "antwoord": false,
-          "uitleg": "De fiche zegt dat je zowel voorbereid als onvoorbereid aan een gesprek moet kunnen deelnemen. Je moet het ook kunnen beginnen, gaande houden en beëindigen."
+          "uitleg": "Je moet zowel voorbereid als onvoorbereid aan een gesprek kunnen deelnemen. Je moet het ook kunnen beginnen, gaande houden en beëindigen."
         },
         {
           "type": "meerkeuze",
@@ -1554,7 +1554,7 @@
             "Pouvez-vous répéter?"
           ],
           "antwoord": 0,
-          "uitleg": "Informatie geven over een vakantiehuisje is het voorbeeld van de fiche zelf. De drie andere zinnen vragen of verontschuldigen."
+          "uitleg": "Informatie geven over een vakantiehuisje doet de eerste zin. De drie andere zinnen vragen of verontschuldigen."
         },
         {
           "type": "meerkeuze",
@@ -1598,7 +1598,7 @@
           "antwoord": [
             "register"
           ],
-          "uitleg": "Het register. De fiche eist een gepast register en gepaste beleefdheidsconventies."
+          "uitleg": "Het register. Je kiest een gepast register en gepaste beleefdheidsconventies."
         }
       ]
     },
@@ -1617,7 +1617,7 @@
             "bij een klasgenoot"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt dat voorbeeld zelf: een mail aan een volwassene met wie je geen nauwe band hebt. Vrienden en familie krijgen tu."
+          "uitleg": "Een mail aan een volwassene met wie je geen nauwe band hebt, krijgt vous. Vrienden en familie krijgen tu."
         },
         {
           "type": "meerkeuze",
@@ -1643,7 +1643,7 @@
           "antwoord": [
             "voudrais"
           ],
-          "uitleg": "Je voudrais, de conditionnel van vouloir. Dat is de conditionnel de politesse uit de fiche."
+          "uitleg": "Je voudrais, de conditionnel van vouloir. Dat is de conditionnel de politesse."
         },
         {
           "type": "meerkeuze",
@@ -1659,7 +1659,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Volgens de fiche pas je je taal aan de ontvanger aan.",
+          "vraag": "Je past je taal aan de ontvanger aan.",
           "antwoord": true,
           "uitleg": "Dat staat letterlijk bij de strategieën: respecteer de beleefdheidsconventies en gebruik de juiste toon."
         },
@@ -1685,7 +1685,7 @@
             "Merci d'avance"
           ],
           "antwoord": 0,
-          "uitleg": "Ce n'est pas grave of pas de problème. De fiche noemt reageren op verontschuldigingen apart."
+          "uitleg": "Ce n'est pas grave of pas de problème. Zo reageer je op een verontschuldiging."
         },
         {
           "type": "invultekst",
@@ -1731,11 +1731,11 @@
             2,
             4
           ],
-          "uitleg": "Signaalwoorden maken de tekstverbanden zichtbaar. De fiche vraagt ze uitdrukkelijk bij tekststructuur en samenhang."
+          "uitleg": "Signaalwoorden maken de tekstverbanden zichtbaar. Ze zijn belangrijk voor tekststructuur en samenhang."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat doe je volgens de fiche als je niet weet hoe je iets in het Frans moet zeggen?",
+          "vraag": "Wat doe je als je niet weet hoe je iets in het Frans moet zeggen?",
           "opties": [
             "het zeggen met wat je kent",
             "de opdracht overslaan",
@@ -1747,9 +1747,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Volgens de fiche hoef je in een gesprek geen interesse in de ander te tonen.",
+          "vraag": "In een gesprek hoef je geen interesse in de ander te tonen.",
           "antwoord": false,
-          "uitleg": "De fiche vraagt juist het omgekeerde: speel in op wat de ander schrijft of zegt, toon interesse en toon respect."
+          "uitleg": "Net omgekeerd: speel in op wat de ander schrijft of zegt, toon interesse en toon respect."
         },
         {
           "type": "meerkeuze",
@@ -1776,11 +1776,11 @@
             "kunt u het opschrijven"
           ],
           "antwoord": 0,
-          "uitleg": "Lentement is traag. De fiche noemt deze vraag bij de strategieën voor een gesprek."
+          "uitleg": "Lentement is traag. Die vraag is een goede strategie in een gesprek."
         },
         {
           "type": "waarofniet",
-          "vraag": "Volgens de fiche herhaal je je boodschap of zeg je ze anders als je merkt dat de ander je niet begrijpt.",
+          "vraag": "Merk je dat de ander je niet begrijpt, dan herhaal je je boodschap of zeg je ze anders.",
           "antwoord": true,
           "uitleg": "Precies zo staat het er. Precies hetzelfde nog eens zeggen helpt zelden; het anders formuleren wel."
         },
@@ -1794,7 +1794,7 @@
             "Merci beaucoup."
           ],
           "antwoord": 0,
-          "uitleg": "Een getuigenis vertelt wat er gebeurde, in de verleden tijd. De fiche geeft als voorbeeld: getuigen over een diefstal."
+          "uitleg": "Een getuigenis vertelt wat er gebeurde, in de verleden tijd, bijvoorbeeld over een diefstal."
         },
         {
           "type": "meerkeuze",
@@ -1806,7 +1806,7 @@
             "Bonne journée!"
           ],
           "antwoord": 0,
-          "uitleg": "Instructies voor wandelaars in het bos is het voorbeeld uit de fiche. Een uitleg gebruikt vaak de imperatief."
+          "uitleg": "Instructies voor wandelaars in het bos zijn een uitleg. Een uitleg gebruikt vaak de imperatief."
         },
         {
           "type": "invultekst",
@@ -1816,7 +1816,7 @@
             "alinéa",
             "un paragraphe"
           ],
-          "uitleg": "Un paragraphe. De fiche vraagt een herkenbare opbouw met een titel en alinea's."
+          "uitleg": "Un paragraphe. Je tekst heeft een herkenbare opbouw met een titel en alinea's."
         },
         {
           "type": "meerkeuze",
@@ -2483,7 +2483,7 @@
           "type": "waarofniet",
           "vraag": "La santé mentale gaat in het Frans over je lichaam.",
           "antwoord": false,
-          "uitleg": "La santé mentale is je geestelijke gezondheid; je lichaam is la santé physique. De fiche zet psychologie uitdrukkelijk bij dit woordveld."
+          "uitleg": "La santé mentale is je geestelijke gezondheid; je lichaam is la santé physique. Psychologie hoort bij dit woordveld."
         },
         {
           "type": "meerkeuze",

@@ -41,7 +41,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke stratificatiesystemen noemt de fiche?",
+        vraag="Welke van deze zijn stratificatiesystemen?",
         opties=[
             "de slavenmaatschappij",
             "de kastenmaatschappij",
@@ -51,7 +51,7 @@ DEEL1 = [
             "de klassenmaatschappij",
         ],
         antwoord=[0, 1, 2, 5],
-        uitleg="De slaven-, kasten-, standen- en klassenmaatschappij staan in de fiche. De kennis- en de welvaartsmaatschappij niet.",
+        uitleg="De slaven-, kasten-, standen- en klassenmaatschappij zijn stratificatiesystemen. De kennis- en de welvaartsmaatschappij niet.",
     ),
     dict(
         type="meerkeuze",
@@ -133,7 +133,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom noemt de fiche de hedendaagse westerse samenleving een klassenmaatschappij?",
+        vraag="Waarom is de hedendaagse westerse samenleving een klassenmaatschappij?",
         opties=[
             "omdat de wet gelijk is maar de kansen verschillen",
             "omdat elke laag een eigen rechtspositie heeft",
@@ -145,7 +145,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke twee perspectieven onderscheidt de fiche om stratificatie in een klassenmaatschappij te verklaren?",
+        vraag="Welke twee perspectieven verklaren stratificatie in een klassenmaatschappij?",
         opties=[
             "het conflictsociologisch perspectief",
             "het functionalistisch perspectief",
@@ -193,13 +193,13 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="De vier conflictsociologische verklaringsmodellen van de fiche komen alle vier uit de negentiende eeuw.",
+        vraag="De vier conflictsociologische verklaringsmodellen komen alle vier uit de negentiende eeuw.",
         antwoord=False,
-        uitleg="Niet waar. Alleen Marx staat in de fiche bij de negentiende eeuw. Weber, Dahrendorf en Bourdieu staan in de twintigste.",
+        uitleg="Niet waar. Alleen Marx hoort bij de negentiende eeuw. Weber, Dahrendorf en Bourdieu horen bij de twintigste.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom zet de fiche bij elk verklaringsmodel de eeuw?",
+        vraag="Waarom is het handig om bij elk verklaringsmodel de eeuw te kennen?",
         opties=[
             "omdat je zo ziet hoe het denken over klasse verschoven is",
             "omdat de oudste modellen vandaag niet meer zouden gelden",
@@ -373,7 +373,7 @@ DEEL2 = [
         type="invultekst",
         vraag="De afkorting voor de maat die inkomen, opleiding en beroep samenvat, is ...",
         antwoord=["SES", "ses"],
-        uitleg="SES, de sociaal-economische status. De fiche noemt het belang ervan uitdrukkelijk.",
+        uitleg="SES, de sociaal-economische status. Het belang ervan is groot.",
     ),
     dict(
         type="waarofniet",
@@ -413,7 +413,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat vraagt de fiche om met de verklaringsmodellen te doen?",
+        vraag="Wat doe je met de verklaringsmodellen?",
         opties=[
             "ze vergelijken en de gelijkenissen en verschillen benoemen",
             "er een uitkiezen en de andere verwerpen",
@@ -421,12 +421,12 @@ DEEL2 = [
             "ze op één van de drie basisvragen toepassen",
         ],
         antwoord=0,
-        uitleg="De fiche vraagt vergelijken, en onderzoek vergelijken op de oorsprong, de mechanismen en de gevolgen van stratificatie.",
+        uitleg="Je vergelijkt ze en onderzoekt de oorsprong, de mechanismen en de gevolgen van stratificatie.",
     ),
     dict(
         type="invultekst",
         vraag="Het verklaringsmodel dat ongelijkheid nuttig vindt voor het geheel, is van Davis en ...",
         antwoord=["Moore"],
-        uitleg="Davis en Moore, het enige functionalistische model in de lijst van de fiche.",
+        uitleg="Davis en Moore, het enige functionalistische model in de lijst.",
     ),
 ]

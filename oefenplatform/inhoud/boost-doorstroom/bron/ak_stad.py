@@ -66,7 +66,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke beïnvloedende factoren noemt de vakfiche bij de keuze tussen stad en platteland? (meerdere antwoorden mogelijk)",
+        vraag="Welke factoren spelen mee bij de keuze om in de stad of op het platteland te wonen? (meerdere antwoorden mogelijk)",
         opties=[
             "Het klimaat en de klimaatverandering",
             "De politieke en de oorlogssituatie",
@@ -76,7 +76,7 @@ DEEL1 = [
             "Het reliëf en de bodemkwaliteit",
         ],
         antwoord=[0, 1, 2, 5],
-        uitleg="De fiche somt klimaat en klimaatverandering, reliëf, bodemkwaliteit, de politieke situatie, de oorlogssituatie, welvaart en welzijn, en armoede op.",
+        uitleg="Klimaat en klimaatverandering, reliëf, bodemkwaliteit, de politieke situatie, de oorlogssituatie, welvaart en welzijn, en armoede spelen allemaal mee.",
     ),
     dict(
         type="waarofniet",

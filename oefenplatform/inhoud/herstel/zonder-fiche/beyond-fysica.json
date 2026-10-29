@@ -1,0 +1,227 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "De horizontale worp — deel 1",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zegt het onafhankelijkheidsbeginsel bij een horizontale worp?",
+     "opties": [
+      "de horizontale en de verticale beweging beïnvloeden elkaar niet",
+      "de horizontale beweging wordt door de val afgeremd",
+      "de verticale beweging gaat sneller als je harder werpt",
+      "de twee bewegingen beginnen pas na elkaar te lopen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je mag ze dus apart uitrekenen: \\(x = v_{0}\\,t\\) horizontaal en \\(y = \\tfrac{1}{2}g\\,t^{2}\\) verticaal. De tijd \\(t\\) is het enige dat ze gemeen hebben."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat voor beweging is het horizontale deel van een horizontale worp?",
+     "opties": [
+      "een ERB, met \\(x = v_{0}\\,t\\)",
+      "een EVRB, met \\(x = \\tfrac{1}{2}a\\,t^{2}\\)",
+      "een vertraagde beweging, met \\(a < 0\\)",
+      "een cirkelbeweging, met constante \\(\\lvert v \\rvert\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zonder luchtweerstand werkt er horizontaal geen kracht, dus blijft \\(v_{x} = v_{0}\\) constant. Verticaal is het wel een vrije val."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat voor beweging is het verticale deel van een horizontale worp?",
+     "opties": [
+      "een vrije val met \\(v_{0y} = 0\\)",
+      "een vrije val met een grote \\(v_{0y}\\)",
+      "een ERB omlaag, met \\(v_{y}\\) constant",
+      "een beweging met een groeiende \\(a\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je werpt precies horizontaal, dus is de verticale beginsnelheid nul en geldt \\(v_{y} = g\\,t\\). De zwaartekracht doet de rest."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke vorm heeft de baan van een horizontale worp?",
+     "antwoord": [
+      "parabool",
+      "een parabool",
+      "parabolisch"
+     ],
+     "uitleg": "Vul \\(t = \\dfrac{x}{v_{0}}\\) in \\(y = \\tfrac{1}{2}g\\,t^{2}\\) in: dat geeft \\(y = \\dfrac{g}{2v_{0}^{2}}\\,x^{2}\\), de vergelijking van een parabool. Met luchtweerstand wordt de baan achteraan wat steiler."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Twee kogels vertrekken tegelijk van dezelfde hoogte: de ene valt gewoon, de andere wordt horizontaal weggeschoten. Welke raakt eerst de grond?",
+     "opties": [
+      "ze raken de grond op hetzelfde ogenblik",
+      "de kogel die gewoon valt, want die gaat recht omlaag",
+      "de weggeschoten kogel, want die heeft meer snelheid",
+      "dat hangt af van hoe zwaar elke kogel is"
+     ],
+     "antwoord": 0,
+     "uitleg": "De verticale beweging is bij allebei dezelfde vrije val, met dezelfde \\(t = \\sqrt{\\dfrac{2h}{g}}\\). De horizontale snelheid verandert daar niets aan."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De valtijd bij een horizontale worp hangt af van \\(v_{0}\\).",
+     "antwoord": false,
+     "uitleg": "Ze hangt enkel af van de hoogte en van \\(g\\): \\(t = \\sqrt{\\dfrac{2h}{g}}\\). Een grotere \\(v_{0}\\) maakt de worp wel verder, niet langer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarvan hangt de valtijd bij een horizontale worp af? Kruis alles aan wat juist is.",
+     "opties": [
+      "van de hoogte \\(h\\)",
+      "van de valversnelling \\(g\\)",
+      "van de beginsnelheid \\(v_{0}\\)",
+      "van de massa \\(m\\)"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "De valtijd volgt uit \\(h = \\tfrac{1}{2}g\\,t^{2}\\), dus \\(t = \\sqrt{\\dfrac{2h}{g}}\\). Noch \\(v_{0}\\) noch \\(m\\) staat daarin."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebeurt er met de horizontale snelheid tijdens de vlucht, zonder luchtweerstand?",
+     "opties": [
+      "ze blijft \\(v_{x} = v_{0}\\)",
+      "ze wordt steeds kleiner",
+      "ze wordt steeds groter",
+      "ze wordt nul op het einde"
+     ],
+     "antwoord": 0,
+     "uitleg": "Horizontaal werkt er geen kracht, dus \\(a_{x} = 0\\). De verticale snelheid \\(v_{y} = g\\,t\\) groeit ondertussen wel gestaag aan."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De verticale snelheid groeit elke seconde met ongeveer \\(9{,}81\\) m/s aan.",
+     "antwoord": true,
+     "uitleg": "Dat is precies \\(g\\), want \\(v_{y} = g\\,t\\). De horizontale snelheid blijft ondertussen onveranderd."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe vind je de snelheid van het voorwerp op een bepaald ogenblik tijdens de vlucht?",
+     "opties": [
+      "\\(v = \\sqrt{v_{x}^{2} + v_{y}^{2}}\\)",
+      "\\(v = v_{x} + v_{y}\\)",
+      "\\(v = \\max(v_{x},\\, v_{y})\\)",
+      "\\(v = v_{x} \\cdot v_{y}\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "De twee staan loodrecht op elkaar, dus gebruik je Pythagoras. Gewoon optellen mag enkel bij vectoren met dezelfde richting."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe staat de snelheidsvector van het voorwerp halverwege de vlucht?",
+     "opties": [
+      "schuin omlaag, raaklijnig aan de baan",
+      "recht omlaag, want de val overheerst",
+      "recht vooruit, want de worp was horizontaal",
+      "schuin omhoog, tot aan het hoogste punt"
+     ],
+     "antwoord": 0,
+     "uitleg": "De snelheid is altijd raaklijnig aan de baan. De hoek volgt uit \\(\\tan\\alpha = \\dfrac{v_{y}}{v_{x}}\\), en die wordt steiler naarmate \\(v_{y}\\) groeit."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de horizontale afstand die een voorwerp bij een worp aflegt?",
+     "antwoord": [
+      "dracht",
+      "de dracht",
+      "worpafstand"
+     ],
+     "uitleg": "Ze is \\(x = v_{0}\\,t = v_{0}\\sqrt{\\dfrac{2h}{g}}\\). Werp je van twee keer zo hoog, dan wordt ze maar \\(\\sqrt{2}\\) keer zo groot."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Zonder luchtweerstand komt een zwaarder voorwerp bij dezelfde worp even ver als een lichter voorwerp.",
+     "antwoord": true,
+     "uitleg": "De massa \\(m\\) staat in geen enkele formule van de worp. In het echt valt een pingpongbal wel korter dan een golfbal, en dat komt door de lucht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom valt een pingpongbal in het echt korter dan de formules voorspellen?",
+     "opties": [
+      "de luchtweerstand remt hem horizontaal af",
+      "zijn kleine massa maakt de zwaartekracht groter",
+      "hij draait rond zijn as en verliest zo hoogte",
+      "de formules gelden enkel voor zware voorwerpen"
+     ],
+     "antwoord": 0,
+     "uitleg": "De formules rekenen met \\(a_{x} = 0\\), dus zonder luchtweerstand. Bij een licht voorwerp met veel oppervlak is dat verschil het grootst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke kracht werkt er tijdens de vlucht op het voorwerp, zonder luchtweerstand?",
+     "opties": [
+      "enkel \\(F_{z} = m\\,g\\), recht omlaag",
+      "\\(F_{z}\\) en een kracht vooruit",
+      "enkel een kracht langs de baan",
+      "er werkt geen enkele kracht meer"
+     ],
+     "antwoord": 0,
+     "uitleg": "De hand die werpt, heeft het voorwerp al losgelaten. Er is dus geen kracht meer die het vooruit duwt; het blijft gewoon doorbewegen met \\(v_{0}\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke grootheid is bij de horizontale en de verticale beweging dezelfde?",
+     "opties": [
+      "de tijd \\(t\\)",
+      "de snelheid \\(v\\)",
+      "de versnelling \\(a\\)",
+      "de afgelegde weg \\(s\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Daarom haal je de valtijd uit \\(h = \\tfrac{1}{2}g\\,t^{2}\\) en gebruik je diezelfde \\(t\\) in \\(x = v_{0}\\,t\\). De tijd is de brug tussen de twee."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over een horizontale worp zijn juist? Kruis alles aan wat juist is.",
+     "opties": [
+      "de baan is de parabool \\(y = \\dfrac{g}{2v_{0}^{2}}x^{2}\\)",
+      "\\(v_{x}\\) blijft constant",
+      "\\(v_{y}\\) blijft constant",
+      "\\(\\vec{a}\\) wijst langs de baan"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "\\(\\vec{a}\\) wijst altijd recht omlaag, ook als het voorwerp schuin vooruit beweegt. En \\(v_{y} = g\\,t\\) groeit juist aan."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het voorwerp raakt bij een horizontale worp loodrecht de grond.",
+     "antwoord": false,
+     "uitleg": "Het heeft nog altijd zijn \\(v_{x}\\), dus komt het schuin aan onder een hoek met \\(\\tan\\alpha = \\dfrac{v_{y}}{v_{x}}\\). Enkel bij \\(v_{0} = 0\\) valt het recht omlaag."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een vliegtuig laat een pakket vallen. Waar komt het pakket terecht ten opzichte van het vliegtuig?",
+     "opties": [
+      "recht onder het vliegtuig, als dat zijn koers aanhoudt",
+      "ver achter het vliegtuig, want het verliest zijn snelheid",
+      "ver voor het vliegtuig, want het valt sneller vooruit",
+      "op de plaats waar het vliegtuig losliet, recht omlaag"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het pakket houdt \\(v_{x} = v_{0}\\) van het vliegtuig. Vanuit de piloot gezien valt het dus gewoon recht naar beneden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het beginsel dat de horizontale en de verticale beweging los van elkaar verlopen?",
+     "antwoord": [
+      "onafhankelijkheidsbeginsel",
+      "onafhankelijkheid",
+      "het onafhankelijkheidsbeginsel"
+     ],
+     "uitleg": "Daardoor mag je elke richting apart behandelen, met \\(x = v_{0}\\,t\\) en \\(y = \\tfrac{1}{2}g\\,t^{2}\\). De tijd is het enige dat ze delen."
+    }
+   ]
+  }
+ ]
+}

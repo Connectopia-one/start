@@ -28,7 +28,7 @@ Deel 2 zijn de stijlen en de middelen.
 DEEL1 = [
     dict(
         type="meerkeuze",
-        vraag="Wat bedoelt de fiche met opvoeding als een transactioneel proces?",
+        vraag="Wat bedoel je met opvoeding als een transactioneel proces?",
         opties=[
             "kind en opvoeder beïnvloeden elkaar voortdurend",
             "de opvoeder beïnvloedt het kind, niet omgekeerd",
@@ -40,7 +40,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke drie actoren zijn volgens de fiche bij opvoeding betrokken?",
+        vraag="Welke drie actoren zijn bij opvoeding betrokken?",
         opties=[
             "het kind",
             "de opvoeder of opvoeders",
@@ -96,17 +96,17 @@ DEEL1 = [
         type="waarofniet",
         vraag="De drie opvoedingsmilieus beïnvloeden elkaar: wat op school gebeurt, werkt thuis door en omgekeerd.",
         antwoord=True,
-        uitleg="Waar. De fiche vraagt uitdrukkelijk naar de samenhang tussen de milieus.",
+        uitleg="Waar. Het gaat juist om de samenhang tussen de milieus.",
     ),
     dict(
         type="waarofniet",
-        vraag="Het tertiaire opvoedingsmilieu heeft volgens de fiche geen invloed, omdat het geen opvoedingsopdracht heeft.",
+        vraag="Het tertiaire opvoedingsmilieu heeft geen invloed, omdat het geen opvoedingsopdracht heeft.",
         antwoord=False,
         uitleg="Niet waar. Het heeft geen opdracht, maar wel invloed. Een kind leert veel van wat het op een scherm of op straat ziet.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel opvoedingsdimensies noemt de fiche?",
+        vraag="Hoeveel opvoedingsdimensies onderscheid je?",
         opties=[
             "drie",
             "twee",
@@ -196,19 +196,19 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een opvoedingsstijl is volgens de fiche een combinatie van opvoedingsdimensies.",
+        vraag="Een opvoedingsstijl is een combinatie van opvoedingsdimensies.",
         antwoord=True,
-        uitleg="Waar. Dat staat met zoveel woorden in de fiche, en het is de sleutel om de vier stijlen uit elkaar te houden.",
+        uitleg="Waar. Dat is de sleutel om de vier stijlen uit elkaar te houden.",
     ),
     dict(
         type="waarofniet",
         vraag="Gedragsmatige en psychologische controle zijn twee woorden voor dezelfde dimensie.",
         antwoord=False,
-        uitleg="Niet waar. De eerste richt zich op het gedrag van een kind, de tweede op zijn gevoelens. Ze staan apart in de fiche.",
+        uitleg="Niet waar. De eerste richt zich op het gedrag van een kind, de tweede op zijn gevoelens. Het zijn twee aparte dingen.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom is de omgeving volgens de fiche een actor in de opvoeding en niet alleen een decor?",
+        vraag="Waarom is de omgeving een actor in de opvoeding en niet alleen een decor?",
         opties=[
             "omdat ze mee bepaalt wat een kind leert en meemaakt",
             "omdat ze het gedrag van het kind volledig vastlegt",
@@ -235,7 +235,7 @@ DEEL1 = [
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Hoeveel opvoedingsstijlen noemt de fiche?",
+        vraag="Hoeveel opvoedingsstijlen onderscheid je?",
         opties=[
             "vier",
             "drie",
@@ -349,7 +349,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze zaken noemt de fiche een opvoedingsmiddel?",
+        vraag="Welke van deze zaken zijn opvoedingsmiddelen?",
         opties=[
             "belonen",
             "negeren en time-out",
@@ -413,17 +413,17 @@ DEEL2 = [
         type="invultekst",
         vraag="Het opvoedingsmiddel waarbij een kind even uit de situatie gehaald wordt om af te koelen, heet een ...",
         antwoord=["time-out", "timeout", "time out"],
-        uitleg="Een time-out. De fiche zet negeren en time-out samen als één opvoedingsmiddel.",
+        uitleg="Een time-out. Negeren en time-out horen samen als één opvoedingsmiddel.",
     ),
     dict(
         type="waarofniet",
-        vraag="De fiche vraagt niet alleen welk opvoedingsmiddel iemand gebruikt, maar ook waarom dat middel in die situatie het meest geschikte is.",
+        vraag="Je benoemt niet alleen welk opvoedingsmiddel iemand gebruikt, maar ook waarom dat middel in die situatie het meest geschikte is.",
         antwoord=True,
-        uitleg="Waar. De fiche vraagt uitdrukkelijk om het meest geschikte middel te kiezen en de keuze te verantwoorden.",
+        uitleg="Waar. Je kiest het meest geschikte middel en verantwoordt die keuze.",
     ),
     dict(
         type="waarofniet",
-        vraag="Straffen is volgens de fiche geen opvoedingsmiddel.",
+        vraag="Straffen is geen opvoedingsmiddel.",
         antwoord=False,
         uitleg="Niet waar. Straffen staat in de lijst van negen opvoedingsmiddelen. De vraag is wanneer het geschikt is, niet of het bestaat.",
     ),

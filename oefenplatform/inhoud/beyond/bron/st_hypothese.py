@@ -262,7 +262,7 @@ DEEL2 = [
             "of de steekproef groter is dan de populatie",
         ],
         antwoord=0,
-        uitleg="De fiche vraagt dat als een apart leerdoel. Zijn de voorwaarden niet voldaan, dan mag je niet verder rekenen.",
+        uitleg="Dat is een stap op zich. Zijn de voorwaarden niet voldaan, dan mag je niet verder rekenen.",
     ),
     dict(
         type="meerkeuze",

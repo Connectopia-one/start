@@ -56,7 +56,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke namen zet de fiche bij de functionalistische mediatheorie?",
+        vraag="Welke namen horen bij de functionalistische mediatheorie?",
         opties=[
             "Lasswell",
             "Lazarsfeld",
@@ -81,7 +81,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wie staan in de fiche bij de agendasettingtheorie?",
+        vraag="Wie horen bij de agendasettingtheorie?",
         opties=[
             "McCombs en Shaw",
             "Gerbner",
@@ -105,7 +105,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wie hoort in de fiche bij de cultivatietheorie?",
+        vraag="Wie hoort bij de cultivatietheorie?",
         opties=[
             "Gerbner",
             "McCombs",
@@ -147,7 +147,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wie hoort in de fiche bij de mediatiseringstheorie?",
+        vraag="Wie hoort bij de mediatiseringstheorie?",
         opties=[
             "Stig Hjarvard",
             "George Gerbner",
@@ -213,7 +213,7 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="De vijf mediatheorieën van de fiche spreken elkaar niet volledig tegen: ze meten elk een ander soort invloed.",
+        vraag="De vijf mediatheorieën spreken elkaar niet volledig tegen: ze meten elk een ander soort invloed.",
         antwoord=True,
         uitleg="Waar. Een onderwerp op de agenda zetten, een wereldbeeld kweken en een samenleving doen schikken zijn drie verschillende dingen.",
     ),
@@ -412,7 +412,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="De vrijheid van meningsuiting en de persvrijheid zijn in de wereld niet overal even groot.",
         antwoord=True,
-        uitleg="Waar. De fiche vraagt uitdrukkelijk uit te leggen dat er verschillen in de wereld zijn. In sommige landen riskeert een journalist de gevangenis.",
+        uitleg="Waar. Er zijn verschillen in de wereld. In sommige landen riskeert een journalist de gevangenis.",
     ),
     dict(
         type="waarofniet",
@@ -430,7 +430,7 @@ DEEL2 = [
             "censuur tegenover de waakhondfunctie",
         ],
         antwoord=0,
-        uitleg="De fiche vraagt dat spanningsveld uitdrukkelijk: persvrijheid en vrije meningsuiting aan de ene kant, privacy aan de andere.",
+        uitleg="Dat is het spanningsveld: persvrijheid en vrije meningsuiting aan de ene kant, privacy aan de andere.",
     ),
     dict(
         type="meerkeuze",

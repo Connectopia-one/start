@@ -95,11 +95,11 @@ DEEL1 = [
             "de ambulance bellen",
         ],
         antwoord=0,
-        uitleg="De borstcompressies komen voor de beademing in het rijtje van de fiche.",
+        uitleg="De borstcompressies komen voor de beademing.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de laatste stap in het rijtje van de fiche?",
+        vraag="Wat is de laatste stap bij reanimatie?",
         opties=[
             "doorgaan tot de ambulancier het overneemt",
             "de persoon in een stabiele zijligging leggen",
@@ -161,7 +161,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Zodra de persoon weer een keer zucht, mag je stoppen met reanimeren.",
         antwoord=False,
-        uitleg="De fiche zegt: doorgaan tot de ambulance er is en de ambulancier het overneemt.",
+        uitleg="Je gaat door tot de ambulance er is en de ambulancier het overneemt.",
     ),
     dict(
         type="waarofniet",
@@ -190,7 +190,7 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel stappen bij reanimatie noemt de fiche? Antwoord met een cijfer.",
+        vraag="Hoeveel stappen zijn er bij reanimatie? Antwoord met een cijfer.",
         antwoord=["6", "zes"],
         uitleg="Zes stappen, van bewustzijn nagaan tot doorgaan tot de ambulancier het overneemt.",
     ),
@@ -345,7 +345,7 @@ DEEL2 = [
             "je legt het slachtoffer in zijligging en wacht",
         ],
         antwoord=0,
-        uitleg="De fiche zegt: doorgaan tot de ambulancier het overneemt. Wisselen met een omstaander houdt dat haalbaar.",
+        uitleg="Je gaat door tot de ambulancier het overneemt. Wisselen met een omstaander houdt dat haalbaar.",
     ),
     dict(
         type="waarofniet",

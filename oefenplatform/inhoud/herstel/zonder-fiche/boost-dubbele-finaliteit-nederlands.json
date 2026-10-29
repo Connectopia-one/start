@@ -1,0 +1,1581 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Feit en mening, stelling, argument en conclusie — deel 2",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Je moet je eigen standpunt bepalen over een maatschappelijk thema. Waarmee begin je?",
+     "opties": [
+      "uitzoeken wat je al weet en wat de bronnen erover zeggen",
+      "meteen opschrijven wat je erover voelt en dat verdedigen",
+      "kijken wat de meeste mensen in je klas ervan vinden",
+      "de langste bron kiezen en die woord voor woord overnemen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een standpunt dat je eerst onderzoekt, kan je ook verdedigen als iemand tegenwerpingen heeft."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat maakt een argument sterk?",
+     "opties": [
+      "het is te controleren",
+      "het gaat echt over de stelling",
+      "het geldt voor meer mensen dan jij alleen",
+      "het staat in hoofdletters getypt"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Hoofdletters typen wordt op een forum als schreeuwen gelezen en maakt je argument niet beter."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Eén sterk argument is meer waard dan vijf argumenten die niets met de stelling te maken hebben.",
+     "antwoord": true,
+     "uitleg": "Een lezer telt geen argumenten, die weegt ze. Vijf keer iets naast de kwestie overtuigt niemand."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft een opiniestuk. Waar hoort je conclusie?",
+     "opties": [
+      "in het slot, na de argumenten",
+      "in de inleiding, nog voor de argumenten",
+      "midden tussen de argumenten in",
+      "in de titel boven de tekst"
+     ],
+     "antwoord": 0,
+     "uitleg": "Inleiding, midden, slot. In het slot laat je zien wat er uit je argumenten volgt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je gaat in dialoog over een maatschappelijk thema. Wat hoort daarbij?",
+     "opties": [
+      "luisteren naar wat je gesprekspartner zegt en erop ingaan",
+      "respectvol reageren, ook als je het oneens bent",
+      "zoeken naar een oplossing in plaats van naar gelijk",
+      "je gesprekspartner onderbreken zodra hij fout zit"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Je reageert respectvol en oplossingsgericht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je gesprekspartner geeft een argument dat je nog niet kende en dat klopt. Wat doe je?",
+     "opties": [
+      "je erkent het en past zo nodig je standpunt aan",
+      "je doet alsof je het niet gehoord hebt",
+      "je wisselt snel van onderwerp voor hij doorgaat",
+      "je herhaalt je eigen argument luider dan daarnet"
+     ],
+     "antwoord": 0,
+     "uitleg": "Van mening veranderen als het argument goed is, is geen verlies. Dat is wat een gesprek voor heeft op een ruzie."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In een gesprek over een maatschappelijk thema mag je argumenten uit een bron halen.",
+     "antwoord": true,
+     "uitleg": "Dat kan juist: op basis van één of enkele bronnen kan je argumenten geven."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de kant die jij zelf kiest in een discussie?",
+     "antwoord": [
+      "je standpunt",
+      "standpunt",
+      "het standpunt"
+     ],
+     "uitleg": "De stelling is de uitspraak, je standpunt is of je voor of tegen bent."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Ik vind dat het skatepark er moet komen, want ik vind dat het er moet komen.' Wat is er mis?",
+     "opties": [
+      "het argument herhaalt enkel het standpunt",
+      "het standpunt is te kort geformuleerd",
+      "er staat geen bron bij het argument",
+      "de zin bevat een spelfout"
+     ],
+     "antwoord": 0,
+     "uitleg": "Na 'want' hoort een réden te staan, iets nieuws. Hetzelfde nog eens zeggen brengt de lezer niet verder."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft over de vraag of de gemeente gratis bussen moet inleggen. Welke zin is een feit?",
+     "opties": [
+      "een dagpas kost vandaag 7,50 euro",
+      "de bus is veel te duur voor jongeren",
+      "de gemeente denkt enkel aan auto's",
+      "gratis bussen zijn de beste oplossing"
+     ],
+     "antwoord": 0,
+     "uitleg": "Enkel de prijs kan je opzoeken. De drie andere zijn oordelen, hoe redelijk ze ook klinken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een goede conclusie voegt nog een nieuw argument toe dat nergens eerder stond.",
+     "antwoord": false,
+     "uitleg": "Een conclusie sluit af: ze laat zien wat er uit het voorgaande volgt. Een nieuw argument hoort in het midden thuis."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent oplossingsgericht reageren in een gesprek?",
+     "opties": [
+      "samen zoeken naar iets waar jullie allebei mee verder kunnen",
+      "de ander laten praten en zelf niets meer inbrengen",
+      "je eigen voorstel herhalen tot de ander het overneemt",
+      "het gesprek afbreken als jullie er niet uit geraken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het doel van zo'n gesprek is niet winnen, maar samen verder raken dan jullie afzonderlijk waren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest twee bronnen die elkaar tegenspreken over hetzelfde cijfer. Wat doe je?",
+     "opties": [
+      "nagaan wie de zender is, wanneer het geschreven is en welke bron hij gebruikt",
+      "de bron nemen die het best bij jouw standpunt past",
+      "allebei de bronnen weglaten en zonder cijfers schrijven",
+      "het gemiddelde van de twee cijfers nemen en dat vermelden"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dat zijn precies de criteria waarmee je beoordeelt of een tekst betrouwbaar, correct en bruikbaar is."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je mag in een opiniestuk je eigen ervaring gebruiken als argument.",
+     "antwoord": true,
+     "uitleg": "Het mag, en het maakt je tekst levendig. Alleen: één ervaring zegt nog niets over iedereen, dus zet er iets naast dat breder geldt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke opbouw hoort bij een argumentatieve tekst?",
+     "opties": [
+      "stelling, argumenten, conclusie",
+      "conclusie, titel, argumenten",
+      "argumenten, inleiding, stelling",
+      "titel, bronnenlijst, stelling"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerst weten waarover het gaat, dan waarom, dan wat eruit volgt. Die volgorde kan de lezer volgen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je een uitspraak die je kan nagaan en controleren?",
+     "antwoord": [
+      "een feit",
+      "feit"
+     ],
+     "uitleg": "Een feit kan je opzoeken of meten; een mening niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je wil iemand overtuigen in een mail. Welk register kies je bij een onbekende volwassene?",
+     "opties": [
+      "formeel, met u en een nette slotgroet",
+      "informeel, met jij en een paar smileys",
+      "dialect, want dat klinkt het eerlijkst",
+      "jongerentaal, want dat valt meer op"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een formele mail sluit je niet af met 'groetjes', en smileys horen er niet in."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vragen stel je jezelf als je je eigen argumentatieve tekst nog eens naleest?",
+     "opties": [
+      "staat mijn stelling er duidelijk in?",
+      "onderbouwt elk argument echt mijn standpunt?",
+      "volgt mijn conclusie uit wat ervoor staat?",
+      "heb ik meer woorden gebruikt dan gevraagd?"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Lengte is geen kwaliteit. De eerste vragen gaan over of je tekst doet wat hij moet doen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Wie in een gesprek de ander laat uitspreken, geeft daarmee toe dat de ander gelijk heeft.",
+     "antwoord": false,
+     "uitleg": "Laten uitspreken is een beleefdheidsconventie, geen toegeving. Je kan daarna nog altijd antwoorden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je wil je standpunt onderbouwen over afval in het park. Welk argument is het bruikbaarst?",
+     "opties": [
+      "de gemeente haalde er vorig jaar twaalf ton zwerfvuil weg",
+      "het is daar echt vreselijk vuil, dat ziet toch iedereen",
+      "ik vind vuil op straat gewoon niet kunnen",
+      "mijn buurman zegt ook al jaren hetzelfde"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een cijfer dat je kan nagaan, staat sterker dan drie keer hetzelfde oordeel in andere woorden."
+    }
+   ]
+  },
+  {
+   "titel": "Bronnen wegen: objectief, gekleurd of nep — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vraag stel je als eerste wanneer je de betrouwbaarheid van een tekst wil inschatten?",
+     "opties": [
+      "Wie is de zender van deze tekst?",
+      "Hoeveel alinea's telt deze tekst?",
+      "Welk lettertype is er gebruikt?",
+      "Hoe lang deed ik erover om te lezen?"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zonder zender kan je niets wegen: geen deskundigheid, geen bedoeling, geen belang."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vragen helpen je de betrouwbaarheid van een tekst te beoordelen?",
+     "opties": [
+      "Is de zender deskundig in dit onderwerp?",
+      "Welke bronnen gebruikt de tekst zelf?",
+      "Wat wil de zender met deze tekst bereiken?",
+      "Hoeveel tussentitels staan er in de tekst?",
+      "Wanneer is de tekst gepubliceerd?"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Het aantal tussentitels zegt iets over de opbouw, niet over de betrouwbaarheid."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een zender met echte kennis van zaken over het onderwerp noemen we ___.",
+     "antwoord": [
+      "deskundig",
+      "een deskundige"
+     ],
+     "uitleg": "Deskundigheid geldt per vakgebied. Buiten zijn terrein weegt het woord van een deskundige niet zwaarder dan dat van iemand anders."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Veel spelfouten in een tekst zijn een reden om voorzichtiger met de inhoud om te gaan.",
+     "antwoord": true,
+     "uitleg": "Ze wijzen erop dat er geen redactie overheen ging. Dat bewijst niets, maar het is wel een waarschuwingslicht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom kijk je of de informatie in een tekst nog actueel is?",
+     "opties": [
+      "omdat gegevens en regels ondertussen veranderd kunnen zijn",
+      "omdat oude teksten altijd slechter geschreven zijn",
+      "omdat een oude tekst nooit een deskundige zender heeft",
+      "omdat je dan weet hoeveel de tekst gekost heeft"
+     ],
+     "antwoord": 0,
+     "uitleg": "Cijfers over bevolking, prijzen of wetgeving verouderen snel. Een tekst uit 2012 kan correct geweest zijn en vandaag fout."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je vindt een artikel zonder auteur en zonder datum. Wat besluit je daaruit?",
+     "opties": [
+      "je kan twee belangrijke criteria niet nagaan",
+      "de tekst is zeker verzonnen",
+      "de tekst is zeker betrouwbaar",
+      "de tekst is zeker een publireportage"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het is geen bewijs van iets, maar je kan zender noch actualiteit wegen. Dan zoek je de informatie elders na."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je een eenzijdige, meestal politieke tekst die je met opzet maar één kant van een zaak toont?",
+     "antwoord": [
+      "propaganda"
+     ],
+     "uitleg": "Propaganda is persuasief: ze wil je beïnvloeden, niet informeren."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een tekst van een deskundige is daarom altijd objectief.",
+     "antwoord": false,
+     "uitleg": "Een deskundige kan ook een belang hebben, of maar één school binnen zijn vak vertegenwoordigen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke signalen wijzen erop dat een tekst subjectief is?",
+     "opties": [
+      "waardewoorden zoals schandalig of geniaal",
+      "uitroeptekens middenin de lopende tekst",
+      "cijfers met een bronvermelding erbij",
+      "voetnoten met bronvermeldingen"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Bronvermeldingen en cijfers met een bron wijzen net op een poging tot onderbouwing. Waardewoorden en uitroeptekens verraden het oordeel van de schrijver."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom vraag je je af wat de bedoeling van de zender is?",
+     "opties": [
+      "omdat het doel bepaalt wat er weggelaten wordt",
+      "omdat de bedoeling altijd bovenaan de tekst staat",
+      "omdat een zender zonder bedoeling niet bestaat",
+      "omdat je dan het kanaal kan achterhalen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wie iets wil verkopen, laat de nadelen weg. Wie wil informeren, zet ze erbij. Wat ontbreekt, zegt vaak evenveel als wat er staat."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Zodra een tekst bronnen vermeldt, is hij betrouwbaar.",
+     "antwoord": false,
+     "uitleg": "Je moet die bronnen ook wegen: bestaan ze, zijn ze recent, en zeggen ze werkelijk wat de schrijver beweert?"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom telt het kanaal mee als je betrouwbaarheid inschat?",
+     "opties": [
+      "omdat sommige kanalen redactionele controle hebben en andere niet",
+      "omdat een bericht op papier altijd waar is",
+      "omdat een bericht op een scherm sneller geschreven is",
+      "omdat het kanaal bepaalt wie de zender is"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een krantenartikel passeerde een eindredactie. Een doorgestuurd bericht in een groepschat passeerde niemand."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je een verborgen betekenis die onder de letterlijke tekst schuilgaat?",
+     "antwoord": [
+      "een dubbele bodem",
+      "dubbele bodem"
+     ],
+     "uitleg": "Wie een dubbele bodem mist, leest een tekst letterlijk terwijl hij ironisch of symbolisch bedoeld is."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een recensie eindigt met: 'Kortom, een meesterwerk, als je van drie uur stilstaande beelden houdt.' Wat gebeurt hier?",
+     "opties": [
+      "de schrijver is ironisch en bedoelt het omgekeerde",
+      "de schrijver prijst de film oprecht de hemel in",
+      "de schrijver geeft een neutrale samenvatting",
+      "de schrijver citeert een andere recensent"
+     ],
+     "antwoord": 0,
+     "uitleg": "De lof wordt in de tweede helft van de zin onderuitgehaald. Wie de ironie mist, leest het oordeel precies verkeerd."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een deskundige kan tegelijk een belang hebben bij wat hij vertelt.",
+     "antwoord": true,
+     "uitleg": "Een onderzoeker die betaald wordt door de sector waarover hij publiceert, is deskundig én partij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is het nuttig te weten wie een onderzoek betaald heeft?",
+     "opties": [
+      "omdat de opdrachtgever belang kan hebben bij de uitkomst",
+      "omdat onderzoek zonder geld nooit gebeurt",
+      "omdat de opdrachtgever de tekst geschreven heeft",
+      "omdat je dan weet hoe oud het onderzoek is"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het maakt het onderzoek niet meteen waardeloos, maar het is een reden om extra kritisch te lezen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke teksten doen zich voor als iets anders dan ze zijn?",
+     "opties": [
+      "een publireportage",
+      "een satirisch nieuwsbericht",
+      "een verzonnen bericht op sociale media",
+      "een artikel met bronvermelding en auteursnaam",
+      "een advertentie die als tip is opgemaakt"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Ze lenen allemaal de vorm van het nieuws of van een goede raad. Alleen het artikel met bronvermelding en auteursnaam presenteert zich als wat het is."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een frisdrankmerk publiceert een lange tekst over 'bewust bewegen'. Waarop let je?",
+     "opties": [
+      "op wat er níét in staat over suiker",
+      "op het aantal alinea's in de tekst",
+      "op de kleur van de afbeeldingen",
+      "op de lengte van de zinnen"
+     ],
+     "antwoord": 0,
+     "uitleg": "De zender heeft een belang. Wat hij weglaat, verraadt zijn doel duidelijker dan wat hij opschrijft."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat bedoel je met 'welke opvattingen en waardeoordelen bevat de tekst'?",
+     "opties": [
+      "welke overtuigingen de schrijver als vanzelfsprekend aanneemt",
+      "hoeveel bronnen de schrijver onderaan vermeldt",
+      "welk kanaal de schrijver gekozen heeft",
+      "hoe recent de gegevens in de tekst zijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "Achter elke tekst zitten aannames. Wie ze herkent, ziet waar de schrijver vertrekt zonder het te bewijzen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je verzonnen informatie die zich voordoet als echt nieuws?",
+     "antwoord": [
+      "nepnieuws",
+      "fake news"
+     ],
+     "uitleg": "Nepnieuws leunt op de vorm van een nieuwsbericht en op snelle verspreiding via sociale media."
+    }
+   ]
+  },
+  {
+   "titel": "Bronnen wegen: objectief, gekleurd of nep — deel 2",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is framing?",
+     "opties": [
+      "een onderwerp in een bepaald kader zetten door je woordkeuze en invalshoek",
+      "een tekst opdelen in duidelijke alinea's met tussentitels",
+      "een bron citeren die je zelf niet gelezen hebt",
+      "een tekst schrijven zonder enige spelfout erin"
+     ],
+     "antwoord": 0,
+     "uitleg": "Framing hoeft niet te liegen. Door te kiezen wát je belicht en met welke woorden, stuur je toch hoe de lezer het ziet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een bedrijf schrijft 'prijsaanpassing' waar 'prijsverhoging' bedoeld is. Wat gebeurt daar?",
+     "opties": [
+      "een onaangenaam feit krijgt een neutraler klinkend woord",
+      "een neutraal feit krijgt een negatiever klinkend woord",
+      "een feit wordt vervangen door een uitgesproken mening",
+      "een woord wordt letterlijk in plaats van figuurlijk gebruikt"
+     ],
+     "antwoord": 0,
+     "uitleg": "'Aanpassing' kan ook omlaag betekenen, en dat is precies waarom het gekozen wordt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je een verzachtend woord voor iets onaangenaams?",
+     "antwoord": [
+      "eufemisme",
+      "een eufemisme"
+     ],
+     "uitleg": "Heengaan voor sterven, prijsaanpassing voor prijsverhoging, herstructurering voor ontslagen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Framing zit vooral in de woordkeuze en in de invalshoek die gekozen wordt.",
+     "antwoord": true,
+     "uitleg": "Dezelfde feiten kunnen 'duizenden op straat' of 'verkeerschaos in het centrum' worden, zonder dat er iets onwaar is."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke talige middelen drukken subjectiviteit uit?",
+     "opties": [
+      "beeldspraak",
+      "de connotatie van woorden",
+      "modaliteit",
+      "de bladspiegel",
+      "overdrijving"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "De bladspiegel is vormgeving. De andere sturen hoe de lezer het bericht voelt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarin verschilt 'Zwijg eens even!' van 'Zwijg!'?",
+     "opties": [
+      "het woordje 'eens' maakt het bevel zachter",
+      "de eerste zin is een vraag geworden",
+      "de tweede zin staat in de verleden tijd",
+      "de eerste zin is in het meervoud gezet"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zulke kleine woordjes heten modale partikels. Ze veranderen de toon zonder de inhoud te veranderen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Twee kranten berichten over dezelfde betoging: 'Duizenden op straat voor het klimaat' en 'Klimaatbetoging legt centrum lam'. Wat toont dat aan?",
+     "opties": [
+      "dezelfde feiten kunnen heel verschillend geframed worden",
+      "een van de twee kranten heeft de feiten verzonnen",
+      "de eerste krant is betrouwbaar, de tweede niet",
+      "framing komt alleen in reclame voor"
+     ],
+     "antwoord": 0,
+     "uitleg": "Allebei kloppen ze. De ene kop kiest de deelnemers als invalshoek, de andere de hinder."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Wie framing gebruikt, liegt.",
+     "antwoord": false,
+     "uitleg": "Framing werkt net omdat alles wat er staat waar kan zijn. Het zit in de keuze van woorden en invalshoek."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de gevoelswaarde die aan een woord kleeft, naast zijn letterlijke betekenis?",
+     "antwoord": [
+      "connotatie",
+      "de connotatie"
+     ],
+     "uitleg": "'Goedkoop' en 'voordelig' betekenen hetzelfde, maar het eerste klinkt negatiever."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het bewust kiezen van een invalshoek die de lezer in een bepaalde richting duwt?",
+     "antwoord": [
+      "framing"
+     ],
+     "uitleg": "Het woord komt van frame, kader: je zet een kader rond de feiten en laat de rest buiten beeld."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waaraan herken je vaak een nepnieuwsbericht?",
+     "opties": [
+      "er wordt geen auteur vermeld",
+      "het circuleert alleen via sociale media",
+      "er staat een datum en een plaats bij het bericht",
+      "er wordt verwezen naar een studie met naam en jaartal"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Een verwijzing naar een studie met naam en jaartal, en een datum en een plaats, zijn juist tekens van onderbouwing, al moet je ze nog altijd nagaan. Geen auteur en enkel verspreiding via sociale media zijn wel verdacht."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Satire wil je misleiden.",
+     "antwoord": false,
+     "uitleg": "Satire wil je aan het lachen brengen en iets aan de kaak stellen. Het misverstand ontstaat pas als je het los van zijn bron leest."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een influencer toont een product zonder te zeggen dat hij ervoor betaald wordt. Welk criterium kan je daardoor niet toepassen?",
+     "opties": [
+      "de bedoeling van de zender",
+      "de actualiteit van de informatie",
+      "het kanaal van de boodschap",
+      "de spelling van de tekst"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je denkt een eerlijke mening te lezen terwijl het reclame is. Daarom bestaat de verplichting om zo'n samenwerking te vermelden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Dezelfde gebeurtenis kan in twee betrouwbare kranten heel verschillend geframed worden.",
+     "antwoord": true,
+     "uitleg": "Betrouwbaar betekent dat de feiten kloppen, niet dat de invalshoek dezelfde is. Daarom loont het om meerdere bronnen te lezen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Iemand schrijft over 'het verkwisten van belastinggeld' in plaats van over 'overheidsuitgaven'. Wat doet hij?",
+     "opties": [
+      "hij kiest een woord met een negatievere gevoelswaarde",
+      "hij kiest een woord met een zachtere gevoelswaarde",
+      "hij gebruikt een woord in zijn letterlijke betekenis",
+      "hij vervangt een mening door een controleerbaar feit"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dat heet een dysfemisme: het omgekeerde van een eufemisme. Het oordeel zit al in het woord."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is een publireportage lastiger te herkennen dan een gewone reclamespot?",
+     "opties": [
+      "omdat hij de vorm en de opmaak van een artikel leent",
+      "omdat hij altijd korter is dan een spot",
+      "omdat hij nooit een merknaam vermeldt",
+      "omdat hij enkel op papier verschijnt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij een spot weet je dat het reclame is. Bij een publireportage moet je op het kleine woordje 'advertorial' letten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden in een krantenkop kleuren het bericht?",
+     "opties": [
+      "schandalig",
+      "eindelijk",
+      "zogenaamd",
+      "dinsdag",
+      "dramatisch"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "'Dinsdag' is een gegeven. De andere leggen er een oordeel bovenop."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Twee betrouwbare bronnen spreken elkaar tegen. Wat doe je?",
+     "opties": [
+      "je zoekt een derde bron en vergelijkt hoe ze aan hun gegevens komen",
+      "je kiest de bron die het kortste artikel heeft",
+      "je gaat ervan uit dat allebei de bronnen onbetrouwbaar zijn",
+      "je neemt het gemiddelde van de twee cijfers"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vaak meten ze iets anders of over een andere periode. Dat zie je pas als je hun methode naast elkaar legt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet de metafoor in 'een golf van klachten overspoelde de dienst'?",
+     "opties": [
+      "ze laat de klachten aanvoelen als een natuurramp",
+      "ze geeft het precieze aantal klachten weer",
+      "ze maakt de zin objectiever dan zonder beeldspraak",
+      "ze noemt de zender van de klachten bij naam"
+     ],
+     "antwoord": 0,
+     "uitleg": "Beeldspraak is een van de talige middelen waarmee je subjectiviteit binnenbrengt zonder één cijfer te noemen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent het als een tekst 'bruikbaar' is?",
+     "opties": [
+      "of hij een antwoord geeft op de vraag die jij hebt",
+      "of hij in een mooi lettertype gezet is",
+      "of hij korter is dan twee bladzijden",
+      "of hij door een bekende schrijver geschreven is"
+     ],
+     "antwoord": 0,
+     "uitleg": "Betrouwbaar, correct en bruikbaar zijn drie verschillende dingen. Een perfect correcte tekst kan voor jouw opdracht volstrekt nutteloos zijn."
+    }
+   ]
+  },
+  {
+   "titel": "Standaardtaal, tussentaal en register — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft een mail om te solliciteren voor een vakantiejob. Welk register past?",
+     "opties": [
+      "formeel",
+      "informeel",
+      "jongerentaal",
+      "dialect"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je kent de ontvanger niet en er staat iets op het spel. Dan kies je de formele kant van het register."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort bij een formele mail?",
+     "opties": [
+      "de ontvanger aanspreken met u",
+      "volledige zinnen zonder afkortingen",
+      "een afsluiting als 'Tot gauw!'",
+      "een rij smileys onder je naam"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Smileys en 'Tot gauw!' horen bij informele communicatie. U gebruiken en volledige zinnen schrijven horen bij het formele register."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de toon en de woordkeuze die je aan de situatie aanpast?",
+     "antwoord": [
+      "register",
+      "het register"
+     ],
+     "uitleg": "Je hebt drie registers: formeel, neutraal en informeel. Ze zijn geen van drie beter dan de andere; ze passen elk bij een andere situatie."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een formele brief sluit je af met 'groetjes'.",
+     "antwoord": false,
+     "uitleg": "'Groetjes' hoort bij het informele register. In een formele brief schrijf je bijvoorbeeld 'Met vriendelijke groeten'."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wanneer spreek je iemand in het Nederlands met 'u' aan?",
+     "opties": [
+      "bij een volwassene met wie je geen nauwe band hebt",
+      "bij iedereen die ouder is dan achttien jaar",
+      "alleen bij mensen die je nog nooit gezien hebt",
+      "alleen in geschreven taal, nooit in een gesprek"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het gaat om de afstand in de relatie, niet louter om leeftijd. Een oom van veertig spreek je met je aan, een onbekende arts van dertig met u."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin staat in het neutrale register?",
+     "opties": [
+      "Kan je me laten weten wanneer de les begint?",
+      "Zou u mij vriendelijk willen meedelen wanneer de les aanvangt?",
+      "Hey, wanneer start die les eigenlijk?",
+      "Wanneer begint da ding nu weer?"
+     ],
+     "antwoord": 0,
+     "uitleg": "De tweede is uitgesproken formeel, de derde en vierde informeel. De eerste kan overal."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de ongeschreven omgangsregels die bepalen wat beleefd is in een gesprek?",
+     "antwoord": [
+      "beleefdheidsconventies",
+      "de beleefdheidsconventies"
+     ],
+     "uitleg": "Iemand laten uitspreken, groeten voor je iets vraagt, bedanken: dat zijn conventies, en ze verschillen per cultuur."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het register dat je kiest, hangt af van je ontvanger en van de situatie.",
+     "antwoord": true,
+     "uitleg": "Dezelfde boodschap schrijf je anders aan je beste vriendin dan aan de directeur van je school."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke keuzes horen bij informeel taalgebruik?",
+     "opties": [
+      "de ontvanger aanspreken met je",
+      "afkortingen zoals 'ff' gebruiken",
+      "emoji's in je bericht zetten",
+      "beginnen met 'Geachte mevrouw'",
+      "korte, losse zinnen"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "'Geachte mevrouw' is de formele aanspreking bij uitstek."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is er mis met: 'Beste directeur, ik kom morgen ni naar school want ik ben ziek. Ciao!'?",
+     "opties": [
+      "de aanspreking is formeel, de rest van het bericht niet",
+      "de boodschap is onduidelijk en te weinig uitgewerkt",
+      "er staat geen enkel signaalwoord in het bericht",
+      "de zender en de ontvanger zijn niet te achterhalen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een bericht moet in één register blijven. 'Ni' en 'Ciao' vallen uit de toon na 'Beste directeur'."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Informeel taalgebruik is altijd fout.",
+     "antwoord": false,
+     "uitleg": "In een gesprek met vrienden ondersteunt informele taal de boodschap net. Ze is pas ongepast in een formele situatie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom vermijd je jongerentaal in een sollicitatiegesprek?",
+     "opties": [
+      "omdat ze in die situatie ongepast overkomt",
+      "omdat ze grammaticaal altijd fout is",
+      "omdat volwassenen ze nooit begrijpen",
+      "omdat ze uit andere talen geleend is"
+     ],
+     "antwoord": 0,
+     "uitleg": "Jongerentaal is niet slecht Nederlands, ze hoort alleen in een andere context thuis."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "De drie registers zijn: formeel, ___ en informeel.",
+     "antwoord": [
+      "neutraal",
+      "het neutrale"
+     ],
+     "uitleg": "Het neutrale register is het veilige midden: niet stijf, niet familiair."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom zet je in een klachtenmail beter geen rij uitroeptekens?",
+     "opties": [
+      "omdat ze boos overkomen en de ontvanger in het defensief duwen",
+      "omdat uitroeptekens in het Nederlands niet bestaan",
+      "omdat een mail geen leestekens mag bevatten",
+      "omdat je klacht dan geen feiten meer bevat"
+     ],
+     "antwoord": 0,
+     "uitleg": "Leestekens zijn ook toon. Wie zakelijk en concreet blijft, krijgt meestal sneller een oplossing."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Wie het verkeerde register kiest, kan onbeleefd overkomen zonder dat te willen.",
+     "antwoord": true,
+     "uitleg": "Het gaat vaak niet om wat je zegt maar om hoe. Tutoyeren waar iemand 'u' verwacht, komt aan als gebrek aan respect."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je mailt een school waarvan je de naam van de contactpersoon niet kent. Welke aanspreking kies je?",
+     "opties": [
+      "Geachte heer of mevrouw",
+      "Hallo allemaal",
+      "Beste iedereen daar",
+      "Hey, met mij hier"
+     ],
+     "antwoord": 0,
+     "uitleg": "Als je de naam niet kent, gebruik je de neutrale formele aanspreking. De andere drie zijn te familiair."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat helpt je om je taal aan je ontvanger aan te passen?",
+     "opties": [
+      "weten wie die ontvanger is",
+      "weten welke relatie je met hem hebt",
+      "weten hoe lang je over de tekst doet",
+      "weten hoeveel alinea's je zal nodig hebben"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Het aantal alinea's volgt uit je inhoud, en hoe lang je erover doet, verandert je toon niet. Wie je ontvanger is en welke relatie je met hem hebt, bepalen die wel, net als het kanaal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je communicatie moet 'gepast' zijn. Wat betekent dat?",
+     "opties": [
+      "dat ze past bij de ontvanger en de situatie",
+      "dat ze zo kort mogelijk gehouden is",
+      "dat ze geen enkele spelfout bevat",
+      "dat ze altijd in de standaardtaal staat"
+     ],
+     "antwoord": 0,
+     "uitleg": "Helder, gepast, correct en vlot zijn vier aparte eisen. Correct gaat over spelling, gepast over register."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke afsluiting past bij een formele mail?",
+     "opties": [
+      "Met vriendelijke groeten",
+      "Dikke kus",
+      "Later nog",
+      "Ciao"
+     ],
+     "antwoord": 0,
+     "uitleg": "De drie andere horen thuis in een bericht aan iemand die je goed kent."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom let je in een sollicitatiemail zoveel meer op je spelling dan in een appje aan je vriend?",
+     "opties": [
+      "omdat de ontvanger er een beeld van jou uit opmaakt",
+      "omdat een mail technisch strengere regels heeft",
+      "omdat een appje geen echte tekst is",
+      "omdat spelling alleen op papier telt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je taalgebruik maakt deel uit van de indruk die je nalaat, zeker bij iemand die je verder niet kent."
+    }
+   ]
+  },
+  {
+   "titel": "Standaardtaal, tussentaal en register — deel 2",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is standaardtaal?",
+     "opties": [
+      "de variëteit die in het hele taalgebied als gepast geldt in formele situaties",
+      "de taal die de meeste mensen thuis met elkaar spreken",
+      "de oudste vorm van het Nederlands, uit de middeleeuwen",
+      "de taal die alleen in Nederland en niet in Vlaanderen geldt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Standaardtaal is een afspraak, geen natuurwet. Ze is bruikbaar over heel het taalgebied heen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Veel Vlamingen zeggen 'ge' en 'gij' waar de standaardtaal 'je' en 'jij' heeft. Wat is dat?",
+     "opties": [
+      "een tussentalige variant",
+      "een spelfout",
+      "een leenwoord uit het Engels",
+      "een vorm van vakjargon"
+     ],
+     "antwoord": 0,
+     "uitleg": "Tussentaal zit tussen dialect en standaardtaal in. Ze is niet fout, ze hoort alleen niet in een formele tekst."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de taalvorm tussen dialect en standaardtaal in, die veel Vlamingen dagelijks spreken?",
+     "antwoord": [
+      "tussentaal",
+      "de tussentaal"
+     ],
+     "uitleg": "Je hoort ze op televisie, op de speelplaats en aan de keukentafel. Op het examen wordt standaardtaal verwacht."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Dialect is een regionale taalvariëteit.",
+     "antwoord": true,
+     "uitleg": "Een dialect hoort bij een streek. Hoe verder twee streken uit elkaar liggen, hoe groter het verschil."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke soorten taalvariëteiten zijn er naast de standaardtaal?",
+     "opties": [
+      "nationale",
+      "regionale",
+      "sociale",
+      "alfabetische",
+      "situationele"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Alfabetisch bestaat niet als variëteit."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'De patiënt vertoont dyspneu bij inspanning.' Welke taalvariëteit is dat?",
+     "opties": [
+      "vakjargon",
+      "dialect",
+      "jongerentaal",
+      "tussentaal"
+     ],
+     "antwoord": 0,
+     "uitleg": "Jargon is de vaktaal van een beroepsgroep. Binnen de groep is ze efficiënt, erbuiten sluit ze mensen uit."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waardoor wordt jongerentaal sterk beïnvloed?",
+     "opties": [
+      "door andere talen, zoals het Engels",
+      "door de spellingregels van de Taalunie",
+      "door de literatuur uit de middeleeuwen",
+      "door de vaktaal van artsen en juristen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bronnen van jongerentaal zijn onder meer het Engels, het Marokkaans en het Surinaams."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Tussentaal en dialect zijn twee woorden voor hetzelfde.",
+     "antwoord": false,
+     "uitleg": "Een dialect hoort bij één streek en kan elders onverstaanbaar zijn. Tussentaal wordt over heel Vlaanderen begrepen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de vaktaal van een beroepsgroep?",
+     "antwoord": [
+      "jargon",
+      "vakjargon",
+      "het jargon"
+     ],
+     "uitleg": "Artsen, juristen en informatici hebben elk hun jargon. Voor een buitenstaander werkt het als een drempel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort bij de non-verbale communicatie?",
+     "opties": [
+      "lichaamstaal",
+      "oogcontact",
+      "interpunctie",
+      "spelling"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Spelling en interpunctie zijn verbaal, en dan nog schriftelijk. Lichaamstaal en oogcontact brengen wel iets over zonder woorden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In sommige culturen is je ogen neerslaan een teken van respect.",
+     "antwoord": true,
+     "uitleg": "In de Vlaamse cultuur leren kinderen net dat ze hun gesprekspartner moeten aankijken. Zulke verschillen leiden makkelijk tot misverstanden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is oogcontact een cultuurgebonden gewoonte?",
+     "opties": [
+      "omdat dezelfde blik in de ene cultuur respect en in de andere brutaliteit betekent",
+      "omdat niet iedereen even goed ziet",
+      "omdat oogcontact enkel in gesprekken van dichtbij mogelijk is",
+      "omdat oogcontact geen deel uitmaakt van communicatie"
+     ],
+     "antwoord": 0,
+     "uitleg": "Non-verbale signalen hebben geen vaste betekenis. Ze krijgen hun betekenis van de cultuur waarin je ze gebruikt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de taalvorm die in heel het taalgebied gepast is in formele situaties?",
+     "antwoord": [
+      "standaardtaal",
+      "de standaardtaal"
+     ],
+     "uitleg": "Op je examen, in een sollicitatiebrief en in een krantenartikel wordt standaardtaal verwacht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een West-Vlaming en een Limburger spreken elk hun dialect en verstaan elkaar nauwelijks. Wat toont dat?",
+     "opties": [
+      "hoe ver regionale variëteiten uit elkaar kunnen liggen",
+      "dat een van de twee geen Nederlands spreekt",
+      "dat dialect geen taalvariëteit is",
+      "dat standaardtaal in Vlaanderen niet bestaat"
+     ],
+     "antwoord": 0,
+     "uitleg": "Net daarvoor dient de standaardtaal: ze maakt communicatie mogelijk over de streken heen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Standaardtaal is de enige correcte vorm van het Nederlands; al de rest is fout.",
+     "antwoord": false,
+     "uitleg": "Variëteiten zijn niet fout, ze zijn gebonden aan een situatie. Op een examen of in een sollicitatie wordt wel standaardtaal verwacht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Dezelfde persoon praat anders op café dan op een begrafenis. Welke variëteit is dat?",
+     "opties": [
+      "een situationele",
+      "een nationale",
+      "een regionale",
+      "een sociale"
+     ],
+     "antwoord": 0,
+     "uitleg": "Situationele variatie hangt af van het moment en de gelegenheid, niet van waar je vandaan komt of tot welke groep je hoort."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn elementen van non-verbale communicatie?",
+     "opties": [
+      "mimiek en gebaren",
+      "houding en afstand",
+      "tempo en volume van het spreken",
+      "het rijmschema van de zinnen",
+      "kleding en uiterlijk"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Een rijmschema hoort bij poëzie. Bij schriftelijke communicatie horen zelfs emoji's."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is je taalgebruik een deel van je identiteit?",
+     "opties": [
+      "omdat anderen er een beeld van jou uit afleiden",
+      "omdat je taalgebruik vastligt bij je geboorte",
+      "omdat je maar één variëteit tegelijk kan gebruiken",
+      "omdat taal niets met cultuur te maken heeft"
+     ],
+     "antwoord": 0,
+     "uitleg": "En omgekeerd: jij oordeelt ook over anderen op basis van hoe ze praten. Inzicht daarin maakt je milder."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In Nederland zegt men 'pinpas' waar men in Vlaanderen 'bankkaart' zegt. Welke variëteit is dat?",
+     "opties": [
+      "een nationale",
+      "een regionale",
+      "een sociale",
+      "een situationele"
+     ],
+     "antwoord": 0,
+     "uitleg": "Nationale variatie loopt langs de landsgrens: twee varianten van dezelfde taal, allebei standaardtaal in hun eigen land."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is het nuttig taalvariatie te herkennen als je een tekst leest?",
+     "opties": [
+      "omdat de gekozen variëteit iets verraadt over zender en publiek",
+      "omdat je dan weet hoeveel de tekst gekost heeft",
+      "omdat variëteiten de spelling van een tekst bepalen",
+      "omdat je dan het aantal alinea's kan voorspellen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een tekst vol jongerentaal mikt op een ander publiek dan een tekst in strak formele standaardtaal. Dat hoort bij je analyse."
+    }
+   ]
+  },
+  {
+   "titel": "Betekenis, beeldspraak en gevoelswaarde — deel 2",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Iemand kijkt naar buiten waar het giet en zegt: 'Wat een prachtig weertje.' Welke vorm van humor is dat?",
+     "opties": [
+      "ironie",
+      "een woordspeling",
+      "een parodie",
+      "taalhumor"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij ironie zeg je het omgekeerde van wat je bedoelt, en reken je erop dat de ander dat doorheeft."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Ik heb je dat al duizend keer gezegd.' Welke stijlvorm gebruikt die spreker?",
+     "opties": [
+      "een overdrijving",
+      "een eufemisme",
+      "een personificatie",
+      "een homoniem"
+     ],
+     "antwoord": 0,
+     "uitleg": "Niemand telt echt tot duizend. Een overdrijving versterkt het gevoel, niet het feit."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je humor die speelt met de dubbele betekenis van een woord?",
+     "antwoord": [
+      "woordspeling",
+      "een woordspeling",
+      "woordspelingen"
+     ],
+     "uitleg": "Ze leunt vaak op homoniemen, en daarom werkt ze zelden in een andere taal."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij ironie zeg je het omgekeerde van wat je bedoelt.",
+     "antwoord": true,
+     "uitleg": "Dat maakt ze ook riskant: wie de toon of de context mist, leest precies het tegendeel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze horen bij de vormen van humor?",
+     "opties": [
+      "ironie",
+      "overdrijving",
+      "een woordspeling",
+      "een metafoor"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Een metafoor is beeldspraak, geen humor. Die twee horen in aparte lijstjes."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een bedrijf spreekt van 'een herstructurering' waar mensen ontslagen worden. Wat is dat?",
+     "opties": [
+      "een eufemisme",
+      "een dysfemisme",
+      "een homoniem",
+      "een personificatie"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een eufemisme verzacht. Het feit blijft hetzelfde, het gevoel bij het woord niet."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het omgekeerde van een eufemisme, een woord dat iets net erger doet klinken?",
+     "antwoord": [
+      "dysfemisme",
+      "een dysfemisme"
+     ],
+     "uitleg": "Van 'een graaicultuur' spreken in plaats van 'hoge lonen' is een dysfemisme. Het oordeel zit al in het woord."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Goedkoop' en 'voordelig' betekenen hetzelfde en klinken even neutraal.",
+     "antwoord": false,
+     "uitleg": "Ze betekenen ongeveer hetzelfde, maar 'goedkoop' suggereert ook slechte kwaliteit. Dat verschil is de gevoelswaarde."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een leenwoord?",
+     "opties": [
+      "een woord dat uit een andere taal is overgenomen",
+      "een woord dat maar tijdelijk in gebruik is",
+      "een woord dat twee betekenissen heeft",
+      "een woord dat je alleen in gesproken taal gebruikt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het Nederlands zit er vol mee: uit het Frans, het Latijn, het Duits en tegenwoordig vooral het Engels."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden zijn leenwoorden in het Nederlands?",
+     "opties": [
+      "computer",
+      "paraplu",
+      "sowieso",
+      "boom"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Computer komt uit het Engels, paraplu uit het Frans, sowieso uit het Duits. 'Boom' is een inheems woord."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een inheems woord hoort van oudsher bij de taal en komt niet uit een andere taal.",
+     "antwoord": true,
+     "uitleg": "Huis, water, moeder, geven. Ze zijn zo oud dat ze in verwante talen nog herkenbaar zijn."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest een woord dat je niet kent. Hoe leid je de betekenis af?",
+     "opties": [
+      "uit de context, je voorkennis en de bouw van het woord",
+      "door het aantal lettergrepen te tellen",
+      "door te kijken of het met een hoofdletter geschreven is",
+      "door het woord hardop uit te spreken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zie je bijvoorbeeld 'on-' vooraan of '-baar' achteraan, dan weet je al iets. En soms helpt je kennis van het Frans of het Engels."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je een grapje dat steunt op de dubbele betekenis van een woord?",
+     "antwoord": [
+      "een woordspeling",
+      "woordspeling"
+     ],
+     "uitleg": "Een woordspeling werkt enkel als de lezer allebei de betekenissen tegelijk hoort."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een krant schrijft over 'dat krot' waar gewoon een oud huis staat. Wat is dat?",
+     "opties": [
+      "een dysfemisme",
+      "een eufemisme",
+      "een synoniem",
+      "een antoniem"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een dysfemisme kiest een harder woord dan nodig. Een eufemisme doet het omgekeerde en verzacht."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een woordspeling werkt in elke taal even goed.",
+     "antwoord": false,
+     "uitleg": "Ze hangt vast aan de klank en de betekenissen van precies dat woord. Vertaal je ze, dan blijft er meestal niets van over."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een columnist noemt een nieuwe wet 'een gedrocht'. Wat doet hij?",
+     "opties": [
+      "hij kiest een woord met een sterk negatieve gevoelswaarde",
+      "hij gebruikt een woord in zijn letterlijke betekenis",
+      "hij maakt een woordspeling met een homoniem",
+      "hij verzacht zijn oordeel met een eufemisme"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het feit, een nieuwe wet, blijft staan. Het oordeel zit volledig in de woordkeuze."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden klinken negatiever dan hun neutrale tegenhanger?",
+     "opties": [
+      "bemoeial, naast betrokken burger",
+      "koppig, naast volhardend",
+      "spilzuchtig, naast gul",
+      "vriendelijk, naast beleefd"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Vriendelijk en beleefd zijn allebei positief. De andere paren beschrijven hetzelfde gedrag met een ander oordeel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe herken je ironie in een geschreven tekst, waar je de toon niet hoort?",
+     "opties": [
+      "aan het verschil tussen wat er staat en wat je uit de context weet",
+      "aan het aantal uitroeptekens in de zin",
+      "aan de lengte van de zinnen",
+      "aan het gebruik van hoofdletters"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wie de situatie niet kent, mist de ironie. Daarom loopt ze op sociale media zo vaak verkeerd af."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom kan je een uitdrukking meestal niet letterlijk vertalen?",
+     "opties": [
+      "omdat haar betekenis niet uit de losse woorden volgt",
+      "omdat uitdrukkingen altijd te lang zijn",
+      "omdat elke taal dezelfde uitdrukkingen heeft",
+      "omdat uitdrukkingen geen werkwoord bevatten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het Engels zegt 'it's raining cats and dogs' waar wij pijpenstelen zien. Elk beeld is in zijn eigen taal gegroeid."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het effect van een overdrijving in een tekst?",
+     "opties": [
+      "ze versterkt het gevoel, maar maakt de tekst subjectiever",
+      "ze maakt de tekst objectiever en controleerbaarder",
+      "ze vervangt een ontbrekend argument door een feit",
+      "ze verandert de woordsoort van het woord"
+     ],
+     "antwoord": 0,
+     "uitleg": "Daarom zie je overdrijvingen vaak in reclame en columns, en zelden in een informatieve tekst."
+    }
+   ]
+  },
+  {
+   "titel": "Lichaamstaal, beleefdheid en een tekst die werkt — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort bij non-verbale communicatie?",
+     "opties": [
+      "lichaamstaal en mimiek",
+      "oogcontact, houding en afstand",
+      "intonatie, tempo en volume",
+      "de spelling van je woorden"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Spelling is verbaal, en zelfs enkel schriftelijk. Alles wat je overbrengt náást de woorden, is non-verbaal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je typt op een forum een hele zin in hoofdletters. Hoe komt dat over?",
+     "opties": [
+      "als schreeuwerig en storend",
+      "als extra beleefd tegenover de lezer",
+      "als een teken dat je twijfelt",
+      "als een grapje dat iedereen begrijpt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hoofdletters zijn online een vorm van non-verbaal gedrag geworden. Ze lezen als roepen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Als je tijdens een presentatie alles afleest, verlies je de connectie met je luisteraar.",
+     "antwoord": true,
+     "uitleg": "Je kijkt dan naar je blad in plaats van naar de mensen. Daarom oefen je met kernwoorden in plaats van met een volledige tekst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is mimiek?",
+     "opties": [
+      "wat je gezicht laat zien terwijl je spreekt",
+      "de snelheid waarmee je woorden uitspreekt",
+      "de afstand die je tot je gesprekspartner houdt",
+      "de kleren die je kiest voor een gesprek"
+     ],
+     "antwoord": 0,
+     "uitleg": "Mimiek is de uitdrukking op je gezicht. Tempo, afstand en kleding zijn andere vormen van non-verbaal gedrag."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is articulatie?",
+     "opties": [
+      "hoe duidelijk je de klanken van je woorden vormt",
+      "hoe luid je spreekt in een grote ruimte",
+      "hoe je je zinnen laat stijgen en dalen",
+      "hoe snel je door je tekst heen gaat"
+     ],
+     "antwoord": 0,
+     "uitleg": "Articulatie gaat over duidelijkheid, intonatie over stijgen en dalen, volume over luidheid en tempo over snelheid."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Emoji's zijn een vorm van non-verbale communicatie.",
+     "antwoord": true,
+     "uitleg": "Ze doen schriftelijk wat je gezicht doet als je spreekt: ze geven de toon aan bij de woorden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft een formele mail om te solliciteren voor een vakantiejob. Wat doe je?",
+     "opties": [
+      "de ontvanger aanspreken met u en beleefd afsluiten",
+      "een paar smileys zetten om vriendelijk over te komen",
+      "afsluiten met groetjes, dat leest wat losser",
+      "in jongerentaal schrijven om jezelf te tonen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een formele mail sluit je niet af met groetjes en smileys horen er niet in. Die keuzes zeggen iets over jou."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de manier waarop je je stem laat stijgen en dalen?",
+     "antwoord": [
+      "intonatie",
+      "de intonatie"
+     ],
+     "uitleg": "Met intonatie hoor je of een zin een vraag is, of iemand twijfelt, of iemand iets ironisch bedoelt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wanneer spreek je iemand aan met u?",
+     "opties": [
+      "bij een volwassene met wie je geen nauwe band hebt",
+      "bij iedereen die ouder is dan zestien jaar",
+      "enkel bij mensen die jou eerst met u aanspreken",
+      "enkel als je iets van die persoon nodig hebt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het gaat niet om leeftijd alleen maar om afstand. Je oom van veertig blijf je gewoon tutoyeren."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een smiley is in elke soort bericht even gepast.",
+     "antwoord": false,
+     "uitleg": "In een WhatsAppbericht aan vrienden ondersteunt een smiley je boodschap; in een formele mail is hij ongepast."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort bij de beleefdheidsconventies in een gesprek?",
+     "opties": [
+      "je gesprekspartner laten uitspreken",
+      "een gepast register en een gepaste toon kiezen",
+      "interesse tonen in wat de ander zegt",
+      "zo veel mogelijk zelf aan het woord blijven"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Wie het gesprek volpraat, respecteert de conventies niet, hoe vriendelijk hij ook klinkt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom let je op de lichaamstaal van je gesprekspartner?",
+     "opties": [
+      "om in te schatten hoe je boodschap aankomt en daarop te reageren",
+      "om te kunnen zeggen of hij de waarheid spreekt",
+      "om te weten hoe lang het gesprek nog zal duren",
+      "om te bepalen of hij ouder of jonger is dan jij"
+     ],
+     "antwoord": 0,
+     "uitleg": "Fronsen, wegkijken of knikken vertelt je of je verder moet uitleggen. Of iemand liegt, lees je er niet aan af."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Kleding en uiterlijk horen niet bij communicatie, want je zegt er niets mee.",
+     "antwoord": false,
+     "uitleg": "Ze horen bij de non-verbale communicatie. Wie op een sollicitatie komt, kiest niet toevallig wat hij aantrekt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een gesprek correct voeren betekent dat je het kan:",
+     "opties": [
+      "beginnen",
+      "gaande houden",
+      "beëindigen",
+      "winnen"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Een gesprek is geen wedstrijd. Beginnen, gaande houden en beëindigen zijn drie aparte vaardigheden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je bus is te laat en je belt je leerkracht op om te zeggen dat je tien minuten later bent. Wie is hier de ontvanger?",
+     "opties": [
+      "je leerkracht",
+      "de busmaatschappij",
+      "jijzelf",
+      "je beste vriendin"
+     ],
+     "antwoord": 0,
+     "uitleg": "De zender ben jij, het kanaal is de telefoon, de boodschap is je vertraging en de ontvanger is wie je opbelt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je alles wat je overbrengt zonder woorden?",
+     "antwoord": [
+      "non-verbale communicatie",
+      "nonverbale communicatie"
+     ],
+     "uitleg": "Lichaamstaal, mimiek, oogcontact, intonatie, kleding en emoji's horen er allemaal bij."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Wie voldoende oogcontact maakt, komt doorgaans betrouwbaarder over bij zijn gesprekspartner.",
+     "antwoord": true,
+     "uitleg": "Daarom staat het ook bij de criteria voor spreken en gesprekken: gepaste, niet-storende lichaamstaal en voldoende oogcontact."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je spreekt heel snel omdat je zenuwachtig bent. Welk criterium komt daardoor in het gedrang?",
+     "opties": [
+      "je vlotheid en je verstaanbaarheid",
+      "je taakvoltooiing",
+      "je spelling",
+      "je lay-out"
+     ],
+     "antwoord": 0,
+     "uitleg": "Spelling en lay-out gelden enkel voor wat je schrijft. Bij spreken tellen vlotheid, uitspraak en intonatie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom pas je je taalgebruik aan je ontvanger aan?",
+     "opties": [
+      "omdat dezelfde boodschap anders aankomt bij een vriend dan bij een directeur",
+      "omdat je bij een directeur altijd minder mag vertellen",
+      "omdat je anders geen structuuraanduiders mag gebruiken",
+      "omdat een vriend geen formele taal zou verstaan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je verandert niet wát je zegt maar hóé je het zegt: de toon, het register, de aanspreking."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Tijdens een gesprek mag je je gesprekspartner onderbreken zodra je iets weet wat hij niet weet.",
+     "antwoord": false,
+     "uitleg": "Wachten tot iemand uitgesproken is, hoort bij de beleefdheidsconventies. Wat je weet, kan een zin later nog."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1807 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Een Engelse tekst analyseren — deel 2",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: « Sarah called her brother. He did not pick up. » Naar wie verwijst he?",
+     "opties": [
+      "naar de broer van Sarah",
+      "naar Sarah zelf",
+      "naar de telefoon",
+      "naar iemand anders in het verhaal"
+     ],
+     "antwoord": 0,
+     "uitleg": "He is mannelijk enkelvoud en verwijst naar her brother. Weet altijd waar een voornaamwoord naar verwijst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: « The council approved the plan. It will cost two million pounds. » Waar verwijst it naar?",
+     "opties": [
+      "naar het plan",
+      "naar de gemeenteraad",
+      "naar het geld",
+      "naar niets in de tekst"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het plan kost geld, niet de raad. Zo'n verwijzing volgen is de kern van samenhang zien tussen zinnen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Lees: « The students handed in their essays. They were late. » Naar welk woord uit de eerste zin verwijst they het meest logisch?",
+     "antwoord": [
+      "students",
+      "the students",
+      "essays"
+     ],
+     "uitleg": "Beide lezingen zijn mogelijk: de studenten waren laat, of de taken waren laat. Zo'n dubbelzinnige verwijzing herken je, en dan beslist de rest van de tekst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden zijn verwijswoorden die de samenhang van een tekst dragen?",
+     "opties": [
+      "he, she, it, they",
+      "this, that, these, those",
+      "very, quite, rather",
+      "and, but, or"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Persoonlijke en aanwijzende voornaamwoorden en uitdrukkingen als the latter verwijzen terug. And, but en or verbinden, en very of quite versterken alleen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In « the former » verwijst former naar het eerste van twee genoemde dingen.",
+     "antwoord": true,
+     "uitleg": "The former is het eerste, the latter het tweede. Verwissel je die twee, dan lees je de zin precies omgekeerd."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: « You must hand in your essay on Friday. » Wat zegt must hier?",
+     "opties": [
+      "het is verplicht",
+      "het is toegelaten",
+      "het is een goed idee",
+      "het is misschien mogelijk"
+     ],
+     "antwoord": 0,
+     "uitleg": "Must is een verplichting. Modale hulpwerkwoorden veranderen de hele betekenis van een zin."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: « You should hand in your essay on Friday. » Wat zegt should hier?",
+     "opties": [
+      "het is een advies",
+      "het is een strikte verplichting",
+      "het is verboden",
+      "het is al gebeurd"
+     ],
+     "antwoord": 0,
+     "uitleg": "Should is een raad of een verwachting, must een verplichting. Dat verschil is op een leesexamen vaak precies waar het om gaat."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk modaal hulpwerkwoord van vier letters gebruik je in het Engels voor een verplichting?",
+     "antwoord": [
+      "must"
+     ],
+     "uitleg": "Must. Have to kan ook, maar must klinkt sterker en komt van de spreker zelf."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn modale hulpwerkwoorden?",
+     "opties": [
+      "can en may",
+      "should en could",
+      "must",
+      "to be",
+      "will en would"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Can, may, should, could en must zijn modale hulpwerkwoorden, en will en would ook. To be is een hulpwerkwoord, maar geen modaal."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Lees: « The results may be wrong. » Volgens deze zin zijn de resultaten zeker verkeerd.",
+     "antwoord": false,
+     "uitleg": "May be geeft een mogelijkheid: ze kunnen verkeerd zijn. Zeker zou are wrong zijn, of must be wrong."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: « She can't have known about it. » Wat zegt deze zin?",
+     "opties": [
+      "ze kan het niet geweten hebben",
+      "ze mag het van niemand te weten komen",
+      "ze zal het nog wel te weten komen",
+      "ze wil er niets over horen zeggen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Can't have plus deelwoord is een conclusie over het verleden: het is onmogelijk dat ze het wist. Must have known zou het omgekeerde zeggen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk verband legt however?",
+     "opties": [
+      "een tegenstelling",
+      "een gevolg van iets",
+      "een opsomming van punten",
+      "een voorbeeld bij een regel"
+     ],
+     "antwoord": 0,
+     "uitleg": "However betekent echter. Andere woorden voor een tegenstelling zijn nevertheless, yet, on the other hand en whereas."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke signaalwoorden kondigen een gevolg aan?",
+     "opties": [
+      "therefore",
+      "as a result",
+      "consequently",
+      "nevertheless",
+      "so"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Therefore, as a result, consequently en so geven een gevolg. Nevertheless is toch, en dat is een tegenstelling."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk Engels signaalwoord van negen letters betekent daarom, en kondigt een gevolg aan?",
+     "antwoord": [
+      "therefore"
+     ],
+     "uitleg": "Therefore. Het staat vaak vooraan de zin, met een komma: Therefore, we decided to wait."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: « Young people read less than before. Indeed, a survey shows that… » Welke functie heeft de tweede zin?",
+     "opties": [
+      "ze onderbouwt de eerste",
+      "ze spreekt de eerste tegen",
+      "ze geeft een gevolg van de eerste",
+      "ze begint over een nieuw onderwerp"
+     ],
+     "antwoord": 0,
+     "uitleg": "Indeed versterkt en bewijst wat er net stond. A survey is een enquête."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het woord although kondigt in een Engelse tekst een toegeving aan.",
+     "antwoord": true,
+     "uitleg": "Although it was raining, we went out. Het geeft toe dat iets waar is en zegt dan dat het toch anders uitdraait. Though en even though doen hetzelfde."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: « This book is unreadable. » Hoe leid je de betekenis van unreadable af?",
+     "opties": [
+      "uit read plus un- en -able",
+      "uit het woord book in de zin",
+      "uit de uitgang -able alleen",
+      "uit het woord this voor het naamwoord"
+     ],
+     "antwoord": 0,
+     "uitleg": "Read plus -able geeft leesbaar, un- maakt er onleesbaar van. Zo'n woord bouw je uit zijn delen, en dat is een goede strategie."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De titel, de tussentitels en de foto bij een tekst mag je overslaan, want ze horen niet bij de tekst.",
+     "antwoord": false,
+     "uitleg": "Ze zijn juist je eerste hulp: visuele hulpmiddelen zeggen waarover een tekst gaat."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: « Whereas the north is suffering drought, the south is flooded. » Welk verband legt whereas?",
+     "opties": [
+      "een tegenstelling",
+      "een gevolg van de droogte",
+      "een voorwaarde voor de regen",
+      "een reden voor de overstroming"
+     ],
+     "antwoord": 0,
+     "uitleg": "Whereas betekent terwijl, in de zin van daarentegen. Het zet noord en zuid tegenover elkaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: « What I remember most is her courage. » Naar wat verwijst what?",
+     "opties": [
+      "naar de moed verder in de zin",
+      "naar de spreker van de zin",
+      "naar een persoon die eerder genoemd is",
+      "naar een plaats die eerder genoemd is"
+     ],
+     "antwoord": 0,
+     "uitleg": "What kondigt aan wat er na is komt. Je leest zo'n zin dus van achteren naar voren: her courage is wat de spreker bijblijft."
+    }
+   ]
+  },
+  {
+   "titel": "Woordvelden: wetenschap, techniek en taal — deel 2",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is a prefix?",
+     "opties": [
+      "een voorvoegsel",
+      "een achtervoegsel",
+      "een stam van een woord",
+      "een uitgang van een werkwoord"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een prefix staat vooraan: un-, re-, dis-, pre-. Achteraan staat a suffix."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet het voorvoegsel un- in unhappy?",
+     "opties": [
+      "het maakt het woord ontkennend",
+      "het maakt het woord sterker",
+      "het maakt er een werkwoord van",
+      "het maakt er een meervoud van"
+     ],
+     "antwoord": 0,
+     "uitleg": "Un- ontkent: happy wordt unhappy. Andere ontkennende voorvoegsels zijn in-, im-, dis- en non-."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk achtervoegsel maakt van het werkwoord to teach de persoon die het doet: teach__?",
+     "antwoord": [
+      "er",
+      "-er"
+     ],
+     "uitleg": "Het achtervoegsel -er: teacher, writer, worker. Soms is het -or, zoals in actor en inventor."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden zijn met een achtervoegsel gebouwd?",
+     "opties": [
+      "careless",
+      "happiness",
+      "unhappy",
+      "rewrite"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "De achtervoegsels -less en -ness staan achteraan. In rewrite en unhappy staan re- en un- vooraan, en dat zijn voorvoegsels."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het achtervoegsel -less maakt een woord ontkennend: careless is zonder zorg.",
+     "antwoord": true,
+     "uitleg": "Careless is onzorgvuldig, hopeless is hopeloos, useless is onbruikbaar. Het betekent zonder."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent unemployment, als je het in delen leest?",
+     "opties": [
+      "werkloosheid",
+      "een nieuwe baan",
+      "een opzegtermijn",
+      "een vaste benoeming"
+     ],
+     "antwoord": 0,
+     "uitleg": "Employ is in dienst nemen, -ment maakt er een naamwoord van en un- ontkent het. Zo bouw je een onbekend woord uit zijn delen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is a false friend in de taalkunde?",
+     "opties": [
+      "een woord dat bedriegt met zijn vorm",
+      "een woord dat in twee talen hetzelfde betekent",
+      "een woord dat je in een examen nooit mag gebruiken",
+      "een woord dat uit een andere taal overgenomen is"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een valse vriend: eventually betekent uiteindelijk, niet eventueel. Actually betekent eigenlijk, niet actueel."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk Engels woord betekent uiteindelijk, en wordt vaak verward met eventueel? Eén woord.",
+     "antwoord": [
+      "eventually"
+     ],
+     "uitleg": "Eventually is uiteindelijk. Eventueel is possibly of if necessary."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden zijn valse vrienden tussen het Nederlands en het Engels?",
+     "opties": [
+      "actually",
+      "eventually",
+      "library",
+      "table",
+      "sympathetic"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Actually is eigenlijk, eventually is uiteindelijk, a library is een bibliotheek en sympathetic is meelevend, niet sympathiek. A table is gewoon een tafel."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een synonym is een woord met de tegengestelde betekenis.",
+     "antwoord": false,
+     "uitleg": "Een synonym heeft dezelfde of bijna dezelfde betekenis. Het tegengestelde is an antonym."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is an idiom?",
+     "opties": [
+      "een vaste uitdrukking",
+      "een regel van de grammatica",
+      "een woord uit een andere taal",
+      "een manier van spreken in een streek"
+     ],
+     "antwoord": 0,
+     "uitleg": "An idiom is een uitdrukking die je niet woord per woord kan vertalen: it's raining cats and dogs. Een streektaal is a dialect."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent to raise cattle, als je weet dat to raise opheffen betekent?",
+     "opties": [
+      "vee houden",
+      "vee verkopen",
+      "vee verplaatsen",
+      "vee vervoeren met een wagen"
+     ],
+     "antwoord": 0,
+     "uitleg": "To raise heeft meer betekenissen: opheffen, grootbrengen, kweken. De context beslist welke."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk Engels woord van vijf letters betekent de klank waarmee je een woord uitspreekt, en rijmt op bound?",
+     "antwoord": [
+      "sound"
+     ],
+     "uitleg": "Sound. De uitspraak zelf is the pronunciation, van to pronounce."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil tussen its en it's?",
+     "opties": [
+      "its is bezittelijk, it's is it is",
+      "its is it is, it's is bezittelijk",
+      "ze betekenen precies hetzelfde",
+      "its hoort bij personen, it's bij dingen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Its betekent zijn of haar, zonder apostrof. It's is de samentrekking van it is of it has."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Brits en Amerikaans Engels spellen sommige woorden anders: colour en color.",
+     "antwoord": true,
+     "uitleg": "Brits -our en Amerikaans -or, en ook centre tegen center en travelled tegen traveled. Kies één van de twee en hou die aan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent a loanword?",
+     "opties": [
+      "een woord uit een andere taal",
+      "een woord dat verdwenen is",
+      "een woord met twee betekenissen",
+      "een woord uit de spreektaal"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een leenwoord: het Engels nam croissant uit het Frans, en het Nederlands nam computer uit het Engels."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden benoemen een manier van spreken?",
+     "opties": [
+      "formal",
+      "informal",
+      "handwritten",
+      "silent"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Formeel en informeel zijn manieren van spreken. Silent betekent stil, en handwritten gaat over schrijven met de hand."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In het Engels spreek je in know en write elke letter uit.",
+     "antwoord": false,
+     "uitleg": "De k van know en de w van write zijn silent letters. Ook de b van lamb en de h van hour zwijgen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een context clue?",
+     "opties": [
+      "een aanwijzing in de zin eromheen",
+      "een uitleg in het woordenboek",
+      "een voetnoot bij een tekst",
+      "een vertaling onder de tekst"
+     ],
+     "antwoord": 0,
+     "uitleg": "De zin eromheen verraadt vaak wat een onbekend woord betekent. Dat gaat sneller dan opzoeken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent the word is spelt with a double l?",
+     "opties": [
+      "het woord heeft twee l'en",
+      "het woord heeft een lange l",
+      "het woord begint met een l",
+      "het woord eindigt op een l"
+     ],
+     "antwoord": 0,
+     "uitleg": "To spell is spellen, en spelt is het Britse deelwoord ervan. In Amerika schrijft men spelled."
+    }
+   ]
+  },
+  {
+   "titel": "Voornaamwoorden en betrekkelijke bijzinnen — deel 1",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « ___ gave the book to me »?",
+     "opties": [
+      "She",
+      "Her",
+      "Hers",
+      "Herself"
+     ],
+     "antwoord": 0,
+     "uitleg": "Als onderwerp staat she. Her is het lijdend of meewerkend voorwerp: I gave the book to her."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « My parents sent ___ a card »?",
+     "opties": [
+      "us",
+      "we",
+      "ours",
+      "ourselves"
+     ],
+     "antwoord": 0,
+     "uitleg": "Us is de voorwerpsvorm bij we. Daarom they sent us a card, en niet they sent we."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul het bezittelijke voornaamwoord in: « This bike is not mine, it is ___ » (van hem).",
+     "antwoord": [
+      "his"
+     ],
+     "uitleg": "His is zowel mijn bezittelijke bepaling als mijn bezittelijk voornaamwoord: his bike, it is his."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vormen zijn bezittelijke voornaamwoorden die alleen staan?",
+     "opties": [
+      "mine",
+      "yours",
+      "theirs",
+      "their",
+      "hers"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Mine, yours, his, hers, ours en theirs staan alleen. Their hoort altijd bij een naamwoord: their house."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je schrijft het bezittelijke its zonder apostrof.",
+     "antwoord": true,
+     "uitleg": "Its betekent zijn of haar: the dog wagged its tail. It's met apostrof is it is of it has."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « He hurt ___ while cooking »?",
+     "opties": [
+      "himself",
+      "him",
+      "his",
+      "he"
+     ],
+     "antwoord": 0,
+     "uitleg": "Als de dader en het voorwerp dezelfde zijn, staat er een wederkerend voornaamwoord: himself. Zo ook myself, yourself en themselves."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent I did it myself?",
+     "opties": [
+      "ik deed het zelf",
+      "ik deed het alleen",
+      "ik deed het voor mezelf",
+      "ik deed het met iemand"
+     ],
+     "antwoord": 0,
+     "uitleg": "Myself versterkt hier het onderwerp: ik en niemand anders. Helemaal alleen is by myself of on my own."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul het wederkerende voornaamwoord in: « They built the house ___ » (zelf, met zijn allen).",
+     "antwoord": [
+      "themselves"
+     ],
+     "uitleg": "Themselves. Bij een meervoud eindigt het op -selves: ourselves, yourselves, themselves."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden zijn onbepaalde voornaamwoorden?",
+     "opties": [
+      "somebody",
+      "nothing",
+      "whose",
+      "which"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Somebody en nothing wijzen niet iemand of iets bepaalds aan. Which en whose zijn vragend of betrekkelijk."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Everybody krijgt een werkwoord in het meervoud: everybody are here.",
+     "antwoord": false,
+     "uitleg": "Everybody is enkelvoud: everybody is here. Datzelfde geldt voor somebody, nobody en everything."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « ___ books on the shelf are mine »?",
+     "opties": [
+      "These",
+      "This",
+      "That",
+      "Those one"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij een meervoud dichtbij staat these, verder weg those. Bij een enkelvoud is het this of that."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil tussen this en that?",
+     "opties": [
+      "this is dichtbij, that is verder weg",
+      "this is verder weg, that is dichtbij",
+      "this is meervoud, that is enkelvoud",
+      "this hoort bij personen, that bij dingen"
+     ],
+     "antwoord": 0,
+     "uitleg": "This en these zijn dichtbij, that en those verder weg, in ruimte of in tijd."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul in: « I like this shirt, but I prefer ___ one over there » (dat, verder weg).",
+     "antwoord": [
+      "that"
+     ],
+     "uitleg": "That one over there. Bij een meervoud zou het those ones zijn, of gewoon those."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar verwijst they naar in « The results arrived. They were better than expected »?",
+     "opties": [
+      "naar de resultaten",
+      "naar de onderzoekers",
+      "naar de verwachtingen",
+      "naar niets in de tekst"
+     ],
+     "antwoord": 0,
+     "uitleg": "They vervangt the results. Zo'n verwijzing moet je kunnen volgen, want zonder haar valt de tekst uiteen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In het Engels gebruik je they ook voor één persoon van wie je het geslacht niet zegt.",
+     "antwoord": true,
+     "uitleg": "If a student forgets their book, they can borrow one. Dat gebruik is in het Engels al eeuwen gewoon."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « Between you and ___, I think he is wrong »?",
+     "opties": [
+      "me",
+      "I",
+      "myself",
+      "mine"
+     ],
+     "antwoord": 0,
+     "uitleg": "Na een voorzetsel staat de voorwerpsvorm: between you and me. Between you and I is een veelgemaakte fout."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke onbepaalde voornaamwoorden krijgen een werkwoord in het enkelvoud?",
+     "opties": [
+      "nobody",
+      "everything",
+      "somebody",
+      "both",
+      "no one"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Nobody knows, everything is ready, somebody has called. Both en several zijn meervoud: both are here."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "There en their en they're betekenen alle drie hetzelfde.",
+     "antwoord": false,
+     "uitleg": "There is daar, their is hun en they're is they are. Ze klinken gelijk, en daarom staan ze zo vaak verkeerd."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « We enjoyed ___ at the party »?",
+     "opties": [
+      "ourselves",
+      "us",
+      "ours",
+      "we"
+     ],
+     "antwoord": 0,
+     "uitleg": "To enjoy oneself is zich amuseren, en dus staat er een wederkerend voornaamwoord. We enjoyed us bestaat niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « Is this bag ___ »?",
+     "opties": [
+      "yours",
+      "your",
+      "you",
+      "yourself"
+     ],
+     "antwoord": 0,
+     "uitleg": "Alleenstaand wordt your tot yours: is this bag yours? Met een naamwoord erbij is het your bag."
+    }
+   ]
+  },
+  {
+   "titel": "Voornaamwoorden en betrekkelijke bijzinnen — deel 2",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « ___ is at the door »?",
+     "opties": [
+      "Who",
+      "Whom",
+      "Whose",
+      "Which"
+     ],
+     "antwoord": 0,
+     "uitleg": "Who vraagt naar het onderwerp. Whom is de voorwerpsvorm, en die klinkt in spreektaal erg formeel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vraag vraagt naar een bezitter?",
+     "opties": [
+      "Whose coat is this?",
+      "Who is this?",
+      "Which coat is this?",
+      "What coat is this?"
+     ],
+     "antwoord": 0,
+     "uitleg": "Whose vraagt van wie iets is. Let op het verschil met who's, dat who is betekent."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul het vraagwoord in: « ___ of these two do you prefer? » (welke van de twee).",
+     "antwoord": [
+      "Which",
+      "which"
+     ],
+     "uitleg": "Which gebruik je bij een beperkte keuze, what bij een open vraag: what do you want to eat?"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vraagwoorden bestaan in het Engels?",
+     "opties": [
+      "whose",
+      "whoms",
+      "which",
+      "whomst"
+     ],
+     "antwoord": [
+      0,
+      2
+     ],
+     "uitleg": "Who, whom, whose, which en what bestaan. Whomst en whoms bestaan niet; whomst is een grap op het internet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Who's betekent who is of who has, en whose betekent van wie.",
+     "antwoord": true,
+     "uitleg": "Who's coming? is wie komt er. Whose bag is this? is van wie die zak is."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « The man ___ lives next door is a doctor »?",
+     "opties": [
+      "who",
+      "which",
+      "whose",
+      "what"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij een persoon staat who of that, bij een ding which of that. Whose is van wie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « The book ___ I bought is excellent »?",
+     "opties": [
+      "that",
+      "who",
+      "whose",
+      "what"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij een ding staat that of which. In een beperkende bijzin zoals deze mag that zelfs wegvallen: the book I bought."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul in: « That is the woman ___ son won the prize » (van wie de zoon).",
+     "antwoord": [
+      "whose"
+     ],
+     "uitleg": "Whose legt een bezit. Het geldt ook bij dingen: the house whose roof is red."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn betrekkelijke woorden?",
+     "opties": [
+      "when",
+      "where",
+      "how come",
+      "how"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "That, who, whose, which, when, where en why staan in de lijst. How en how come staan er niet bij als betrekkelijk woord: the way she did it."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In « the day when we met » verwijst when naar een tijdstip.",
+     "antwoord": true,
+     "uitleg": "When hoort bij een tijd, where bij een plaats en why bij een reden: the reason why he left."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « This is the town ___ I grew up »?",
+     "opties": [
+      "where",
+      "when",
+      "which",
+      "whose"
+     ],
+     "antwoord": 0,
+     "uitleg": "Where hoort bij een plaats. Je kan ook zeggen: the town in which I grew up, en dat klinkt formeler."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In welke zin mag het betrekkelijke woord weggelaten worden?",
+     "opties": [
+      "The film I saw was long.",
+      "The man who called is here.",
+      "The town where I live is small.",
+      "The woman whose car broke down waited."
+     ],
+     "antwoord": 0,
+     "uitleg": "Je mag het weglaten als het betrekkelijke woord het voorwerp van de bijzin is. Als het het onderwerp is, zoals who called, moet het blijven staan."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul in: « The reason ___ he left is unclear » (de reden waarom).",
+     "antwoord": [
+      "why"
+     ],
+     "uitleg": "The reason why. In spreektaal hoor je ook the reason that of gewoon the reason he left."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil tussen « My brother, who lives in Spain, called » en « My brother who lives in Spain called »?",
+     "opties": [
+      "met komma's heb ik één broer",
+      "met komma's heb ik meer broers",
+      "er is helemaal geen verschil",
+      "met komma's is de zin fout gebouwd"
+     ],
+     "antwoord": 0,
+     "uitleg": "Komma's maken de bijzin een extraatje: er is één broer, en hij woont toevallig in Spanje. Zonder komma's onderscheidt de bijzin hem van andere broers."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In een uitbreidende bijzin tussen komma's mag je that gebruiken.",
+     "antwoord": false,
+     "uitleg": "Tussen komma's staat which of who, nooit that. My car, which is new, broke down."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « The people ___ I work with are kind »?",
+     "opties": [
+      "whom",
+      "whose",
+      "which",
+      "what"
+     ],
+     "antwoord": 0,
+     "uitleg": "Na een voorzetsel hoort whom: the people with whom I work. In spreektaal laat men het gewoon weg."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zinnen met een betrekkelijke bijzin zijn juist?",
+     "opties": [
+      "The book that I read was good.",
+      "The book which I read was good.",
+      "The book I read was good.",
+      "The book what I read was good.",
+      "The book, which I read, was good."
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Bij een ding kan that of which, in een beperkende bijzin mag het woord ook wegvallen, en met komma's erbij is which een toevoeging. What is er altijd fout."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Who en which kunnen in het Engels door elkaar gebruikt worden.",
+     "antwoord": false,
+     "uitleg": "Who hoort bij personen en which bij dingen en dieren. That kan bij beide, in een beperkende bijzin."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « She asked me ___ I wanted »?",
+     "opties": [
+      "what",
+      "that",
+      "which",
+      "whose"
+     ],
+     "antwoord": 0,
+     "uitleg": "In een afhankelijke vraag blijft het vraagwoord staan: she asked me what I wanted. De woordorde wordt wel die van een gewone zin."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin is juist gebouwd?",
+     "opties": [
+      "The man that I met was kind.",
+      "The man what I met was kind.",
+      "The man which I met was kind.",
+      "The man whose I met was kind."
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij een persoon staat that, who of whom. What is in die plaats fout, en which hoort bij dingen."
+    }
+   ]
+  },
+  {
+   "titel": "De tegenwoordige tijden en de present perfect — deel 1",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « She ___ to school every day »?",
+     "opties": [
+      "goes",
+      "go",
+      "is going",
+      "has gone"
+     ],
+     "antwoord": 0,
+     "uitleg": "Every day is een gewoonte, en dan staat er een present simple. Bij he, she en it krijgt het werkwoord een s."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « Look, it ___ »?",
+     "opties": [
+      "is raining",
+      "rains",
+      "rained",
+      "has rained"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het gebeurt nu, op dit ogenblik, en dan staat er een present continuous. Look en listen zijn daar een signaal van."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul de present simple in: « He ___ in a bank » (werken).",
+     "antwoord": [
+      "works"
+     ],
+     "uitleg": "Works, met een s omdat het he is. Bij I, you, we en they blijft het work."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden passen bij de present simple?",
+     "opties": [
+      "every day",
+      "usually",
+      "on Mondays",
+      "at the moment",
+      "sometimes"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Ze wijzen op een gewoonte of een vast gegeven. At the moment hoort bij de present continuous."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Werkwoorden als to know, to want en to understand staan normaal niet in de continuous vorm.",
+     "antwoord": true,
+     "uitleg": "Het zijn state verbs: I know, niet I am knowing. To think en to have kunnen wel in beide, met een ander gevoel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « ___ you speak French »?",
+     "opties": [
+      "Do",
+      "Are",
+      "Have",
+      "Does"
+     ],
+     "antwoord": 0,
+     "uitleg": "In een vraag in de present simple staat do of does vooraan. Bij he, she en it is het does, en het werkwoord verliest dan zijn s."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « He ___ not like coffee »?",
+     "opties": [
+      "does",
+      "do",
+      "is",
+      "has"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij een ontkenning in de present simple staat does not bij he, she en it. Verkort wordt dat doesn't."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul de present continuous in: « They ___ dinner right now » (voorbereiden, to prepare).",
+     "antwoord": [
+      "are preparing"
+     ],
+     "uitleg": "To be plus het werkwoord op -ing. Bij they is dat are preparing."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zinnen staan in de present continuous?",
+     "opties": [
+      "I am reading a novel.",
+      "She is working late.",
+      "He is play tennis.",
+      "He plays tennis on Sundays."
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Een vorm van to be plus -ing. He plays tennis on Sundays is een gewoonte, dus een present simple, en he is play bestaat niet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je zegt there are bij een enkelvoud en there is bij een meervoud.",
+     "antwoord": false,
+     "uitleg": "Net omgekeerd: there is a book on the table, there are two books on the table. Verkort wordt dat there's."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « ___ any milk in the fridge »?",
+     "opties": [
+      "Is there",
+      "There is",
+      "Are there",
+      "Have there"
+     ],
+     "antwoord": 0,
+     "uitleg": "In een vraag wisselen is en there van plaats: is there any milk? Milk is ontelbaar, dus enkelvoud."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet do in « I do like your new coat »?",
+     "opties": [
+      "het legt nadruk op like",
+      "het maakt er een vraag van",
+      "het maakt er een ontkenning van",
+      "het zet de zin in de verleden tijd"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dat is de emphatic do: hij versterkt. Je hoort hem ook in do come in en in she does know."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul de nadrukkelijke vorm in: « She ___ know the answer » (ze weet het wél).",
+     "antwoord": [
+      "does"
+     ],
+     "uitleg": "She does know the answer. Het werkwoord verliest dan zijn s, want does draagt ze."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « The train ___ at six tomorrow »?",
+     "opties": [
+      "leaves",
+      "is leaving soon",
+      "has left",
+      "will be leaving"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij een vast uurrooster staat de present simple, ook voor iets dat nog komt: present simple to talk about the future."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In « I am seeing the doctor tomorrow » gaat het over iets dat nu gebeurt.",
+     "antwoord": false,
+     "uitleg": "De present continuous kan ook een vaste afspraak in de toekomst zijn. Hier is het morgen, niet nu."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « Water ___ at 100 degrees »?",
+     "opties": [
+      "boils",
+      "is boiling",
+      "has boiled",
+      "is going to boil"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij een algemene waarheid staat de present simple. Is boiling zou betekenen dat het water nú kookt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zinnen staan juist in de present simple?",
+     "opties": [
+      "He always arrives late.",
+      "She studies French.",
+      "They don't live here.",
+      "He is arrive late.",
+      "Does she live here?"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Een gewoonte krijgt de present simple, met een s bij he en she en met do of does in een vraag of een ontkenning. He is arrive late bestaat niet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een werkwoord op een -y na een consonant krijgt -ies in de derde persoon: he studies.",
+     "antwoord": true,
+     "uitleg": "Study wordt studies, try wordt tries. Na een klinker blijft de y: he plays, he buys."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « I ___ for my keys at the moment »?",
+     "opties": [
+      "am looking",
+      "look",
+      "have looked",
+      "looked"
+     ],
+     "antwoord": 0,
+     "uitleg": "At the moment is nú, dus present continuous. To look for is zoeken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « ___ there many people at the meeting »?",
+     "opties": [
+      "Were",
+      "Was",
+      "Is",
+      "Has"
+     ],
+     "antwoord": 0,
+     "uitleg": "People is meervoud, en the meeting is voorbij. Dus were there, de verleden vorm van are there."
+    }
+   ]
+  },
+  {
+   "titel": "De toekomst, de modale hulpwerkwoorden en de gerund — deel 1",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « Look at those clouds, it ___ rain »?",
+     "opties": [
+      "is going to",
+      "will surely",
+      "shall",
+      "would"
+     ],
+     "antwoord": 0,
+     "uitleg": "Going to gebruik je als je het al kan zien aankomen. Will is eerder een beslissing of een voorspelling zonder bewijs."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « The phone is ringing. I ___ answer it »?",
+     "opties": [
+      "will",
+      "am going to",
+      "would",
+      "should"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een beslissing op het ogenblik zelf krijgt will. Een plan dat je al had krijgt going to."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul in: « We ___ going to move house next month » (het hulpwerkwoord).",
+     "antwoord": [
+      "are"
+     ],
+     "uitleg": "To be going to, met de vorm van to be die bij het onderwerp past: I am, he is, we are."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn manieren om over de toekomst te spreken?",
+     "opties": [
+      "will future",
+      "going to future",
+      "present simple",
+      "past perfect"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Will, going to en de present simple bij een uurrooster. De past perfect gaat over het verleden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij een vast uurrooster staat de present simple, ook voor iets dat nog moet komen: the train leaves at six.",
+     "antwoord": true,
+     "uitleg": "Een uurrooster, een lesuur of een film die begint, staat in de present simple: present simple to talk about the future."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent you must wear a helmet?",
+     "opties": [
+      "het is verplicht",
+      "het is toegelaten",
+      "het is aan te raden",
+      "het is niet nodig"
+     ],
+     "antwoord": 0,
+     "uitleg": "Must is een verplichting. Aan te raden zou should zijn, en toegelaten may of can."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent you don't have to come?",
+     "opties": [
+      "je hoeft niet te komen",
+      "je mag niet komen",
+      "je moet zeker komen",
+      "je kan niet komen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Don't have to is niet moeten, en dus vrij. Niet mogen is mustn't, en dat is iets heel anders."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul het modale hulpwerkwoord in: « You ___ not smoke here » (het is verboden, met must).",
+     "antwoord": [
+      "must"
+     ],
+     "uitleg": "You mustn't smoke here is een verbod. You don't have to smoke zou betekenen dat het niet hoeft."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden zijn modale hulpwerkwoorden?",
+     "opties": [
+      "can",
+      "may",
+      "should",
+      "want"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Can, may, must, should, could, would en might. To want is een gewoon werkwoord, met to erna."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Na een modaal hulpwerkwoord staat het werkwoord zonder to: I can swim.",
+     "antwoord": true,
+     "uitleg": "Can swim, must go, should leave. Enkel ought to en de semi-auxiliaries hebben wel een to."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent she might come?",
+     "opties": [
+      "ze komt misschien",
+      "ze komt zeker",
+      "ze komt niet",
+      "ze is al gekomen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Might is een mogelijkheid, en zwakker dan may. Zeker zou she will come zijn."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent you should see a doctor?",
+     "opties": [
+      "het is een raad",
+      "het is een verbod",
+      "het is een verplichting",
+      "het is een toelating"
+     ],
+     "antwoord": 0,
+     "uitleg": "Should is een raad of een verwachting. Een verplichting zou must of have to zijn."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul in: « ___ I open the window? » (een hoffelijke vraag om toelating, met één woord).",
+     "antwoord": [
+      "May",
+      "may",
+      "Can",
+      "can",
+      "Could",
+      "could"
+     ],
+     "uitleg": "May I is het meest hoffelijke, could I iets minder en can I het gewoonst in spreektaal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent he can't be at home?",
+     "opties": [
+      "het kan niet dat hij thuis is",
+      "hij mag niet thuis blijven",
+      "hij kan niet naar huis",
+      "hij wil niet thuis zijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "Can't be is een conclusie: het is onmogelijk. He must be at home zou de omgekeerde conclusie zijn."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een modaal hulpwerkwoord krijgt een s in de derde persoon: she cans swim.",
+     "antwoord": false,
+     "uitleg": "Modale hulpwerkwoorden veranderen nooit: she can, he must, it may. Daar hoort geen s bij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent I would rather stay home?",
+     "opties": [
+      "ik blijf liever thuis",
+      "ik moet thuisblijven",
+      "ik mag thuisblijven",
+      "ik blijf thuis, maar met tegenzin"
+     ],
+     "antwoord": 0,
+     "uitleg": "Would rather is liever willen, en er komt geen to na: I would rather stay. Verkort wordt het I'd rather."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vragen zijn hoffelijke verzoeken?",
+     "opties": [
+      "Would you mind closing the door?",
+      "Could you close the door, please?",
+      "May I ask you to close the door?",
+      "Shut that door right now, will you."
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Would you mind, could you en may I zijn hoffelijk, en na would you mind staat een werkwoord op -ing. Shut that door right now is een bevel."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Shall gebruik je in Brits Engels vooral in een mededeling met he of she.",
+     "antwoord": false,
+     "uitleg": "Shall hoor je vooral in een vraag met I of we: shall I help you, shall we go. Elders is will veel gewoner."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent they will have arrived by now?",
+     "opties": [
+      "ze zijn nu wel aangekomen",
+      "ze komen straks aan",
+      "ze waren al aangekomen",
+      "ze zijn nog niet aangekomen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Will have plus deelwoord is een vermoeden over iets dat nu al voorbij is. By now betekent tegen nu."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent you could have told me?",
+     "opties": [
+      "je had het mij kunnen zeggen",
+      "je kan het mij nog zeggen",
+      "je mocht het mij niet zeggen",
+      "je moet het mij nu zeggen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Could have plus deelwoord is een verwijt over het verleden: het was mogelijk, en het is niet gebeurd."
+    }
+   ]
+  },
+  {
+   "titel": "Zinsbouw, indirecte rede en de passieve vorm — deel 1",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk voegwoord geeft een reden?",
+     "opties": [
+      "because",
+      "but",
+      "or",
+      "yet"
+     ],
+     "antwoord": 0,
+     "uitleg": "Because geeft een reden, en het is onderschikkend: er volgt een bijzin. But en or zijn nevenschikkend."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke voegwoorden zijn nevenschikkend?",
+     "opties": [
+      "and",
+      "but",
+      "or",
+      "although"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "And, but, or, so en yet verbinden twee gelijkwaardige delen. Although begint een bijzin, en is dus onderschikkend."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul het voegwoord in: « ___ it was raining, we went out » (hoewel, met acht letters).",
+     "antwoord": [
+      "Although",
+      "although"
+     ],
+     "uitleg": "Although, of though. Even though versterkt het nog."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk voegwoord past: « He stayed home ___ he was ill »?",
+     "opties": [
+      "because",
+      "although",
+      "unless",
+      "whereas"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ziek zijn is de reden om thuis te blijven, dus because. Although zou een tegenstelling maken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een samengestelde zin heeft meer dan één werkwoordelijk gezegde.",
+     "antwoord": true,
+     "uitleg": "I came and I saw heeft twee gezegden, dus twee zinnen in één. Een enkelvoudige zin heeft er maar één."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het onderwerp in « The old man next door walks every morning »?",
+     "opties": [
+      "the old man next door",
+      "walks",
+      "every morning of the week",
+      "next door"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het onderwerp is wie de handeling doet, met alles wat erbij hoort. Je vindt het door te vragen: who walks?"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het lijdend voorwerp in « She gave her brother a book »?",
+     "opties": [
+      "a book",
+      "her brother",
+      "she",
+      "gave"
+     ],
+     "antwoord": 0,
+     "uitleg": "A book is wat er gegeven wordt, dus het lijdend voorwerp. Her brother is het meewerkend voorwerp, aan wie het gegeven wordt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je in de grammatica het deel van de zin dat zegt wie de handeling doet? Vul het Engelse woord in.",
+     "antwoord": [
+      "subject"
+     ],
+     "uitleg": "The subject is het onderwerp, en the object is het voorwerp. Dat eerste woord betekent ook schoolvak."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke soorten zinnen bestaan er?",
+     "opties": [
+      "een mededelende zin",
+      "een vragende zin",
+      "een bevelende zin",
+      "een rekenende zin"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Er zijn vijf soorten: mededelend, vragend, bevelend, uitroepend en wensend. Een rekenende zin bestaat niet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een uitroepende zin begint in het Engels altijd met een werkwoord.",
+     "antwoord": false,
+     "uitleg": "Hij begint vaak met what of how: what a lovely day, how kind of you. Het uitroepteken hoort erbij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « My brother and I ___ going to the cinema »?",
+     "opties": [
+      "are",
+      "is",
+      "am",
+      "was"
+     ],
+     "antwoord": 0,
+     "uitleg": "Twee onderwerpen met and ertussen vormen een meervoud, dus are. My brother and I, nooit my brother and me, als onderwerp."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « Each of the students ___ a book »?",
+     "opties": [
+      "has",
+      "have",
+      "are having",
+      "were having"
+     ],
+     "antwoord": 0,
+     "uitleg": "Each is enkelvoud, ook met of the students erachter. Het onderwerp is each, niet students."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul in: « Everyone in the class ___ ready » (de juiste vorm van to be).",
+     "antwoord": [
+      "is"
+     ],
+     "uitleg": "Everyone is enkelvoud: everyone is ready. De woorden tussen het onderwerp en het werkwoord veranderen daar niets aan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « The number of visitors ___ risen »?",
+     "opties": [
+      "has",
+      "have",
+      "are",
+      "were"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het onderwerp is the number, en dat is enkelvoud. A number of visitors have risen zou wel meervoud zijn."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In het Engels staat het werkwoord in een gewone mededelende zin meteen na het onderwerp.",
+     "antwoord": true,
+     "uitleg": "Subject, verb, object: she reads a book. Het Engels schuift het werkwoord niet naar achteren zoals het Nederlands in een bijzin."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zinnen hebben de juiste woordorde?",
+     "opties": [
+      "I often go to the library.",
+      "She always arrives early.",
+      "We usually eat at seven.",
+      "I go often to the library."
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Een bijwoord van frequentie staat voor het werkwoord, en het werkwoord blijft bij het onderwerp. I go often to the library zet het bijwoord verkeerd."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk voegwoord past: « I will wait ___ you arrive »?",
+     "opties": [
+      "until",
+      "unless",
+      "whereas",
+      "although"
+     ],
+     "antwoord": 0,
+     "uitleg": "Until is totdat. Unless is tenzij, en dat zou de zin omkeren."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "However is een voegwoord dat twee zinnen verbindt zoals and.",
+     "antwoord": false,
+     "uitleg": "However is een bijwoord, en het staat met een komma: It was late. However, we stayed. Verbinden doet but."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk voegwoord past: « We can go ___ you prefer to stay »?",
+     "opties": [
+      "unless",
+      "until",
+      "because",
+      "whereas"
+     ],
+     "antwoord": 0,
+     "uitleg": "Unless is tenzij: we gaan, behalve als jij liever blijft. Until zou over tijd gaan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de bepaling van tijd in « They left the house early in the morning »?",
+     "opties": [
+      "early in the morning",
+      "the house they had rented",
+      "they",
+      "left"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een bepaling van tijd zegt wanneer. The house is hier het lijdend voorwerp, en they het onderwerp."
+    }
+   ]
+  },
+  {
+   "titel": "Zinsbouw, indirecte rede en de passieve vorm — deel 2",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « If you heat water, it ___ »?",
+     "opties": [
+      "boils",
+      "will boil",
+      "would boil",
+      "boiled"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij een algemene waarheid staan beide delen in de present simple. Dat is de zero conditional."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « If it rains tomorrow, we ___ at home »?",
+     "opties": [
+      "will stay",
+      "stay",
+      "would stay",
+      "stayed"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij een echte mogelijkheid in de toekomst staat de if-zin in de present simple en de andere met will. Dat is de first conditional."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul in: « If you ___ me, I will help you » (to ask, in de juiste vorm).",
+     "antwoord": [
+      "ask"
+     ],
+     "uitleg": "If you ask me, I will help you. Na if staat geen will: de present simple volstaat."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zinnen zijn juist gebouwd?",
+     "opties": [
+      "If it snows, school closes.",
+      "If it snows, school will close.",
+      "School will close if it snows.",
+      "If it will snow, school closes."
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De if-zin kan vooraan of achteraan staan, met of zonder komma. Na if staat nooit will."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Na if staat in de eerste conditional geen will.",
+     "antwoord": true,
+     "uitleg": "If it rains, niet if it will rain. Het Engels houdt de toekomst in het andere deel van de zin."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil tussen de zero en de first conditional?",
+     "opties": [
+      "de zero is altijd waar, de first is mogelijk",
+      "de first is altijd waar, de zero is mogelijk",
+      "ze betekenen precies hetzelfde",
+      "de zero gaat over het verleden"
+     ],
+     "antwoord": 0,
+     "uitleg": "If you heat water, it boils is een natuurwet. If it rains, we will stay is een kans voor morgen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe wordt « I am tired » in de indirecte rede, na he said?",
+     "opties": [
+      "he said he was tired",
+      "he said he is tired",
+      "he said I am tired",
+      "he said he had tired"
+     ],
+     "antwoord": 0,
+     "uitleg": "De tijd schuift een stap terug: am wordt was. Indirect speech geeft iemands woorden weer zonder ze letterlijk te citeren."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul in: « She said she ___ come tomorrow » (de verleden vorm van will).",
+     "antwoord": [
+      "would"
+     ],
+     "uitleg": "Will wordt would in de indirecte rede. Can wordt could, en must wordt had to."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke veranderingen horen bij de indirecte rede?",
+     "opties": [
+      "de tijd schuift een stap terug",
+      "de voornaamwoorden veranderen",
+      "de aanhalingstekens verdwijnen",
+      "het onderwerp verdwijnt helemaal"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De tijd gaat terug, I wordt he of she, en de aanhalingstekens vallen weg. Het onderwerp blijft gewoon staan."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de indirecte rede blijft een vraag zijn omgekeerde woordorde houden: he asked where was she.",
+     "antwoord": false,
+     "uitleg": "Het is he asked where she was. De woordorde wordt die van een gewone zin, en het vraagteken valt weg."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe wordt « Close the door » in de indirecte rede?",
+     "opties": [
+      "he told me to close the door",
+      "he told me close the door",
+      "he told me that I close the door",
+      "he said close the door to me"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een bevel wordt to told someone to do something. Een ontkenning wordt he told me not to close it."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is de passieve: « The letter ___ yesterday »?",
+     "opties": [
+      "was sent",
+      "sent",
+      "has sent",
+      "was sending"
+     ],
+     "antwoord": 0,
+     "uitleg": "De passieve vorm is to be plus het voltooide deelwoord. Hier was sent, want het is het verleden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul in: « This house ___ built in 1930 » (het hulpwerkwoord van de passieve vorm).",
+     "antwoord": [
+      "was"
+     ],
+     "uitleg": "Was built. De passieve vorm is altijd een vorm van to be plus het deelwoord."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom staan krantenkoppen vaak in de passieve vorm?",
+     "opties": [
+      "de nadruk valt op het lijdend voorwerp",
+      "ze zijn zo altijd korter te schrijven",
+      "ze klinken zo veel dringender",
+      "ze hoeven dan geen werkwoord"
+     ],
+     "antwoord": 0,
+     "uitleg": "Twenty injured in crash: wat er gebeurd is, telt meer dan wie het deed."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In een passieve zin hoef je de dader niet te noemen.",
+     "antwoord": true,
+     "uitleg": "The window was broken kan zonder by. Wil je de dader wel zeggen, dan komt er by Tom achter."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Zet « They built the bridge in 1950 » in de passieve vorm.",
+     "opties": [
+      "The bridge was built in 1950.",
+      "The bridge is built in 1950.",
+      "The bridge has built in 1950.",
+      "The bridge were built in 1950."
+     ],
+     "antwoord": 0,
+     "uitleg": "Het lijdend voorwerp wordt het onderwerp, en het werkwoord wordt was built. The bridge is enkelvoud."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zinnen staan in de passieve vorm?",
+     "opties": [
+      "The results were published.",
+      "The car is being repaired.",
+      "The letter has been sent.",
+      "The man broke the window."
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Elk juist antwoord heeft een vorm van to be plus een deelwoord. The man broke the window is actief."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Elke zin met to be erin is een passieve zin.",
+     "antwoord": false,
+     "uitleg": "She is tired is actief, met een bijvoeglijk naamwoord. Pas met een voltooid deelwoord erbij wordt het passief: she is helped."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent he is said to be ill?",
+     "opties": [
+      "men zegt dat hij ziek is",
+      "hij zegt dat hij ziek is",
+      "hij heeft gezegd dat hij ziek was",
+      "iemand vroeg of hij ziek is"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zo'n passieve vorm zonder dader zegt niet wie het beweert. Precies daarom gebruiken kranten ze."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: « The road ___ repaired at the moment »?",
+     "opties": [
+      "is being",
+      "is been",
+      "has being",
+      "was being"
+     ],
+     "antwoord": 0,
+     "uitleg": "At the moment vraagt de passieve vorm van de present continuous: is being repaired."
+    }
+   ]
+  }
+ ]
+}

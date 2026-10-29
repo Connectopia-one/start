@@ -109,7 +109,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Bij een telprobleem waarbij de volgorde belangrijk is, gebruik je een combinatie.",
         antwoord=False,
-        uitleg="Dan tel je anders. De vakfiche vraagt enkel de gevallen waarbij de volgorde niet belangrijk is.",
+        uitleg="Dan tel je anders. Hier gaat het enkel over gevallen waarbij de volgorde niet belangrijk is.",
     ),
     dict(
         type="meerkeuze",
@@ -153,7 +153,7 @@ DEEL1 = [
         type="waarofniet",
         vraag=r"Op het examen volstaat het om bij een telprobleem enkel de uitkomst van \(C(n, p)\) te noteren.",
         antwoord=False,
-        uitleg="De fiche vraagt dat je je werkwijze en je redenering noteert en alle tussenstappen uitschrijft.",
+        uitleg="Noteer je werkwijze en je redenering, en schrijf alle tussenstappen uit.",
     ),
     dict(
         type="invultekst",
@@ -220,7 +220,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Zodra herhaling toegelaten is, mag je de formule van de combinaties niet meer gebruiken.",
         antwoord=True,
-        uitleg=r"\(C(n, p)\) is gemaakt voor keuzes zonder herhaling. De fiche vraagt enkel die gevallen.",
+        uitleg=r"\(C(n, p)\) is gemaakt voor keuzes zonder herhaling. Hier gaat het enkel over die gevallen.",
     ),
     dict(
         type="meerkeuze",

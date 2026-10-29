@@ -81,7 +81,7 @@ DEEL1 = [
          antwoord=0,
          uitleg="Dat extra stuk kost meer dan het opbrengt en eet van de winst."),
     dict(type="meerkeuze",
-         vraag="Welke opbrengstbegrippen noemt de vakfiche?",
+         vraag="Welke van deze zijn opbrengstbegrippen?",
          opties=[
              "de totale opbrengsten",
              "de gemiddelde opbrengsten",

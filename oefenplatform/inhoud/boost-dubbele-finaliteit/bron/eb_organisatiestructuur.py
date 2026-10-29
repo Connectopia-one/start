@@ -81,7 +81,7 @@ DEEL1 = [
          antwoord=0,
          uitleg="Elke vraag moet eerst de hele lijn omhoog en weer naar beneden."),
     dict(type="meerkeuze",
-         vraag="Welke organisatiestructuren noemt de vakfiche?",
+         vraag="Welke van deze zijn organisatiestructuren?",
          opties=[
              "de functionele organisatie",
              "de horizontale organisatie",

@@ -175,7 +175,7 @@ DEEL2 = [
          antwoord=["23", "23,5", "66"],
          uitleg="Drieëntwintig graden zevenentwintig, vaak afgerond op 23,5. Ten opzichte van het vlak zelf is dat 66 graden 33."),
     dict(type="meerkeuze",
-         vraag="Welke data noemt de fiche uitdrukkelijk?",
+         vraag="Op welke data begint een seizoen?",
          opties=[
              "21 juni",
              "22 december",

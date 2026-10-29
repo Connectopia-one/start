@@ -180,7 +180,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag=r"Hoe bereken je de \(p\)-waarde volgens de vakfiche?",
+        vraag=r"Hoe bereken je de \(p\)-waarde?",
         opties=[
             "met de rekenapps, maar je noteert wel je werkwijze en je redenering",
             "met de hand, want ICT is bij dit leerdoel niet toegelaten",
@@ -188,7 +188,7 @@ DEEL1 = [
             "door het aantal extreme waarden in je steekproef te tellen",
         ],
         antwoord=0,
-        uitleg=r"De fiche zegt: je berekent de \(p\)-waarde met ICT. Maar bij een open vraag moet je alle tussenstappen uitschrijven.",
+        uitleg=r"Je berekent de \(p\)-waarde met ICT. Maar bij een open vraag moet je alle tussenstappen uitschrijven.",
     ),
     dict(
         type="waarofniet",
@@ -246,7 +246,7 @@ DEEL2 = [
         vraag="Hoe groot is de kans op een type I-fout?",
         opties=[r"gelijk aan \(\alpha\)", r"gelijk aan de \(p\)-waarde", r"gelijk aan één min \(\alpha\)", r"altijd \(0{,}5\)"],
         antwoord=0,
-        uitleg=r"Daarom vraagt de fiche: je berekent de kans op het onterecht verwerpen van de nulhypothese. Dat is \(\alpha\).",
+        uitleg=r"Daarom bereken je de kans op het onterecht verwerpen van de nulhypothese. Dat is \(\alpha\).",
     ),
     dict(
         type="waarofniet",
@@ -306,7 +306,7 @@ DEEL2 = [
             "dat zijn besluit met zekerheid klopt",
         ],
         antwoord=0,
-        uitleg=r"Zonder \(\alpha\) is een besluit niet te beoordelen. De fiche vraagt ook dat je je keuze verklaart.",
+        uitleg=r"Zonder \(\alpha\) is een besluit niet te beoordelen. Verklaar ook je keuze.",
     ),
     dict(
         type="invultekst",

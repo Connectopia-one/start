@@ -36,7 +36,7 @@ DEEL1 = [
          antwoord=0,
          uitleg="Exclusief wil zeggen: uitsluitend. Niet meer, niet beter, maar alleen bij ons."),
     dict(type="meerkeuze",
-         vraag="Welke twee eigenschappen noemt de fiche als mogelijk exclusief menselijk?",
+         vraag="Welke twee eigenschappen worden vaak als exclusief menselijk gezien?",
          opties=["emoties en rede",
                  "taal en techniek, net als bij de meeste gereedschapsmakers",
                  "pijn en plezier, de twee gevoelens die alles in beweging zetten",
@@ -253,8 +253,7 @@ DEEL2 = [
                  "ons bewustzijn bestaat los van ons lichaam en overleeft het",
                  "onze hersenen kunnen bewustzijn nooit voortbrengen of verklaren"],
          antwoord=0,
-         uitleg="Swaab staat in deze fiche voor de visie dat bewustzijn hersenwerk is: wij zijn "
-                "ons brein."),
+         uitleg="Swaab staat voor de visie dat bewustzijn hersenwerk is: wij zijn ons brein."),
     dict(type="meerkeuze",
          vraag="Waarom staan La Mettrie en Swaab in hetzelfde rijtje?",
          opties=["beiden verklaren de mens vanuit stof, zonder een aparte geest aan te nemen",

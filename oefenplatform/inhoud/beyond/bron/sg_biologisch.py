@@ -39,7 +39,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke theorieën horen volgens de fiche bij de biologische benadering?",
+        vraag="Welke theorieën horen bij de biologische benadering?",
         opties=[
             "de evolutionaire psychologie",
             "de rijpingstheorie",
@@ -51,7 +51,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wie hoort in de fiche bij de evolutionaire psychologie?",
+        vraag="Wie hoort bij de evolutionaire psychologie?",
         opties=[
             "Charles Darwin",
             "Arnold Gesell",
@@ -63,7 +63,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wie hoort in de fiche bij de rijpingstheorie?",
+        vraag="Wie hoort bij de rijpingstheorie?",
         opties=[
             "Arnold Gesell",
             "Charles Darwin",
@@ -75,7 +75,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wie hoort in de fiche bij de epigenetica?",
+        vraag="Wie hoort bij de epigenetica?",
         opties=[
             "Conrad Waddington",
             "Arnold Gesell",
@@ -161,13 +161,13 @@ DEEL1 = [
         type="waarofniet",
         vraag="De drie theorieën van de biologische benadering antwoorden niet alle drie hetzelfde op de drie basisvragen.",
         antwoord=True,
-        uitleg="Waar. De fiche vraagt ze juist te vergelijken: de epigenetica laat veel meer plaats voor de omgeving dan de rijpingstheorie.",
+        uitleg="Waar. De epigenetica laat veel meer plaats voor de omgeving dan de rijpingstheorie.",
     ),
     dict(
         type="invultekst",
         vraag="De tak van de biologische benadering die onderzoekt hoe de omgeving genen aan of uit zet, heet de ...",
         antwoord=["epigenetica"],
-        uitleg="De epigenetica, met Conrad Waddington als naam in de fiche.",
+        uitleg="De epigenetica, met Conrad Waddington als naam.",
     ),
     dict(
         type="meerkeuze",
@@ -195,9 +195,9 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="De naam uit de fiche bij de evolutionaire psychologie is Charles ...",
+        vraag="De naam bij de evolutionaire psychologie is Charles ...",
         antwoord=["Darwin"],
-        uitleg="Charles Darwin. De fiche zet bij elke theorie één naam, en die namen wisselen niet.",
+        uitleg="Charles Darwin. Bij elke theorie hoort één naam, en die namen wisselen niet.",
     ),
     dict(
         type="meerkeuze",
@@ -240,7 +240,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke twee theorieën horen volgens de fiche bij de psychodynamische benadering?",
+        vraag="Welke twee theorieën horen bij de psychodynamische benadering?",
         opties=[
             "de psychoanalyse",
             "de psychosociale ontwikkelingstheorie",
@@ -252,7 +252,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel ontwikkelingsfasen onderscheidt Freud volgens de fiche?",
+        vraag="Hoeveel ontwikkelingsfasen onderscheidt Freud?",
         opties=[
             "vijf",
             "acht",
@@ -264,7 +264,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel ontwikkelingsfasen onderscheidt Erikson volgens de fiche?",
+        vraag="Hoeveel ontwikkelingsfasen onderscheidt Erikson?",
         opties=[
             "acht",
             "vijf",
@@ -302,7 +302,7 @@ DEEL2 = [
         type="invultekst",
         vraag="Het woord van Freud voor blijven vasthangen in een fase die niet goed is afgerond, is een ...",
         antwoord=["fixatie"],
-        uitleg="Een fixatie. De fiche noemt bij Freud drie begrippen: de vijf fasen, de erogene lichaamszone en de fixatie.",
+        uitleg="Een fixatie. Bij Freud horen drie begrippen: de vijf fasen, de erogene lichaamszone en de fixatie.",
     ),
     dict(
         type="meerkeuze",
@@ -318,7 +318,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Elke fase van Erikson heeft twee uitkomsten. Hoe heten die in de fiche?",
+        vraag="Elke fase van Erikson heeft twee uitkomsten. Hoe heten die?",
         opties=[
             "de positieve en de negatieve pool",
             "de open en de gesloten pool",

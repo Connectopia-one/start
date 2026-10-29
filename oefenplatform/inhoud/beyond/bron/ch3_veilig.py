@@ -175,8 +175,7 @@ DEEL1 = [
             "ze vervangt het etiket op de fles",
         ],
         antwoord=[0, 1],
-        uitleg="Het etiket blijft nodig op de fles zelf. De fiche staat erbij voor wie "
-        "meer wil weten over opslag, blussen en eerste hulp.",
+        uitleg="Het etiket blijft nodig op de fles zelf. De veiligheidsfiche is er voor wie meer wil weten over opslag, blussen en eerste hulp.",
     ),
     dict(
         type="meerkeuze",

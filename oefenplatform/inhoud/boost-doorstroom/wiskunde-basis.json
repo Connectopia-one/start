@@ -115,7 +115,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vormen van een getal noemt de vakfiche?",
+          "vraag": "Welke van deze zijn vormen van een getal?",
           "opties": [
             "decimale vorm",
             "tabelvorm",
@@ -377,7 +377,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke bewerkingseigenschappen noemt de vakfiche?",
+          "vraag": "Welke van deze zijn bewerkingseigenschappen?",
           "opties": [
             "associativiteit",
             "commutativiteit",
@@ -452,7 +452,7 @@
             "de rekenapp van het examen vraagt het"
           ],
           "antwoord": 0,
-          "uitleg": "De vakfiche zegt het letterlijk: hoe onnauwkeuriger je tussenresultaten, hoe meer je eindresultaat afwijkt."
+          "uitleg": "Hoe onnauwkeuriger je tussenresultaten, hoe meer je eindresultaat afwijkt."
         }
       ]
     },
@@ -581,9 +581,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een getal van de ene vorm naar de andere omzetten mag volgens de vakfiche niet met ICT.",
+          "vraag": "Een getal van de ene vorm naar de andere omzetten mag niet met ICT.",
           "antwoord": false,
-          "uitleg": "De vakfiche vraagt dat juist wel: je zet met ICT een reëel getal om van de ene vorm naar de andere."
+          "uitleg": "Dat kan juist wel: je zet met ICT een reëel getal om van de ene vorm naar de andere."
         },
         {
           "type": "meerkeuze",
@@ -721,11 +721,11 @@
             "halfgesloten",
             "halfopen interval"
           ],
-          "uitleg": "Halfopen of halfgesloten. De vakfiche noemt beide woorden."
+          "uitleg": "Halfopen of halfgesloten. Beide woorden zijn juist."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten intervallen noemt de vakfiche?",
+          "vraag": "Welke van deze zijn soorten intervallen?",
           "opties": [
             "open",
             "halfopen of halfgesloten",
@@ -742,7 +742,7 @@
           "type": "waarofniet",
           "vraag": "De oplossingenverzameling van een ongelijkheid kan je als interval noteren.",
           "antwoord": true,
-          "uitleg": "De vakfiche vraagt dat uitdrukkelijk, en ook om ze op een getallenas voor te stellen."
+          "uitleg": "Dat moet je kunnen, en ook ze op een getallenas voorstellen."
         },
         {
           "type": "meerkeuze",
@@ -830,7 +830,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een interval kan volgens de vakfiche ook maar één getal bevatten.",
+          "vraag": "Een interval kan ook maar één getal bevatten.",
           "antwoord": false,
           "uitleg": "Een interval is een aaneengesloten stuk van de getallenas met twee grenzen. Eén getal is een verzameling, geen interval."
         },
@@ -989,7 +989,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke bewerkingen noemt de vakfiche?",
+          "vraag": "Welke van deze zijn logische bewerkingen?",
           "opties": [
             "negatie \\(\\neg\\) en conjunctie \\(\\wedge\\)",
             "eliminatie",
@@ -1118,7 +1118,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke kwantoren noemt de vakfiche?",
+          "vraag": "Welke kwantoren gebruik je?",
           "opties": [
             "voor elke, \\(\\forall\\)",
             "er bestaat, \\(\\exists\\)",
@@ -1129,7 +1129,7 @@
             0,
             1
           ],
-          "uitleg": "De fiche noemt voor elke, \\(\\forall\\), en er bestaat, \\(\\exists\\). Precies één en er bestaat geen zijn kwantoren die er niet bij staan."
+          "uitleg": "De kwantoren zijn voor elke, \\(\\forall\\), en er bestaat, \\(\\exists\\). Precies één en er bestaat geen gebruik je hier niet."
         },
         {
           "type": "meerkeuze",
@@ -1269,7 +1269,7 @@
           "type": "waarofniet",
           "vraag": "De werking van een logische poort valt niet in een waarheidstabel te zetten.",
           "antwoord": false,
-          "uitleg": "Dat lukt juist wel, en de vakfiche vraagt het ook: je stelt de werking van de poorten voor met een waarheidstabel."
+          "uitleg": "Dat lukt juist wel: je stelt de werking van de poorten voor met een waarheidstabel."
         },
         {
           "type": "meerkeuze",
@@ -1454,7 +1454,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Honderd voorbeelden vormen volgens de vakfiche een bewijs.",
+          "vraag": "Honderd voorbeelden vormen een bewijs.",
           "antwoord": false,
           "uitleg": "Ze geven enkel een idee van de correctheid. Een bewijs moet voor alle gevallen gelden."
         },
@@ -1483,13 +1483,13 @@
             "ze vervangen het antwoord"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt uitdrukkelijk je werkwijze en redenering volledig uit te schrijven."
+          "uitleg": "Schrijf je werkwijze en redenering volledig uit."
         },
         {
           "type": "waarofniet",
           "vraag": "De correcte notatie van begrippen en symbolen bepaalt mee je resultaat.",
           "antwoord": true,
-          "uitleg": "Dat staat letterlijk in de fiche, met verwijzing naar de bijlage begrippen en notaties."
+          "uitleg": "Zo staat het in de lijst met begrippen en notaties."
         },
         {
           "type": "meerkeuze",
@@ -1505,7 +1505,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke symbolen vraagt de vakfiche te gebruiken?",
+          "vraag": "Welke symbolen gebruik je in de logica?",
           "opties": [
             "\\(\\wedge\\), \\(\\vee\\), \\(\\neg\\)",
             "\\(\\Rightarrow\\)",
@@ -1532,9 +1532,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een redenering uitschrijven met correcte symbolen hoort volgens de vakfiche niet bij wiskundig redeneren.",
+          "vraag": "Een redenering uitschrijven met correcte symbolen hoort niet bij wiskundig redeneren.",
           "antwoord": false,
-          "uitleg": "De fiche noemt dat juist wel: ook het uitschrijven van een berekening met de juiste symbolen is een wiskundige redenering."
+          "uitleg": "Toch wel: ook het uitschrijven van een berekening met de juiste symbolen is een wiskundige redenering."
         },
         {
           "type": "meerkeuze",
@@ -1588,7 +1588,7 @@
             "lengte \\(\\times 2\\) geeft omtrek \\(\\times 2\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De oppervlakte gaat met het kwadraat van de factor: \\(2^{2} = 4\\). Dit is het soort uitspraak dat de fiche laat weerleggen."
+          "uitleg": "De oppervlakte gaat met het kwadraat van de factor: \\(2^{2} = 4\\). Zo'n uitspraak moet je kunnen weerleggen."
         }
       ]
     },
@@ -1607,11 +1607,11 @@
             "met een goed gekozen tegenvoorbeeld"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt het letterlijk: andere symbolen, een andere tekening, een specifiek geval."
+          "uitleg": "Andere symbolen, een andere tekening, een specifiek geval: dat helpt allemaal."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke hulp mag je volgens de vakfiche op het examen gebruiken?",
+          "vraag": "Welke hulp mag je op het examen gebruiken?",
           "opties": [
             "het formularium",
             "de lijst met bewijzen",
@@ -1629,7 +1629,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke bijlage mag je volgens de vakfiche wel gebruiken op het examen? Eén woord.",
+          "vraag": "Welke bijlage mag je wel gebruiken op het examen? Eén woord.",
           "antwoord": [
             "formularium",
             "het formularium"
@@ -1638,7 +1638,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat vraagt de vakfiche bij een aangereikte redenering?",
+          "vraag": "Wat doe je bij een aangereikte redenering?",
           "opties": [
             "de redeneerstappen beargumenteren",
             "de redenering herschrijven",
@@ -1717,7 +1717,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een redeneerstap aanvullen in een gegeven bewijs staat volgens de vakfiche op het examen.",
+          "vraag": "Een redeneerstap aanvullen in een gegeven bewijs staat op het examen.",
           "antwoord": true,
           "uitleg": "Zo staat het er: je vult redeneerstappen aan in de bewijzen uit de lijst met bewijzen."
         },
@@ -1735,7 +1735,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke fouten laat de vakfiche je weerleggen?",
+          "vraag": "Welke fouten moet je kunnen weerleggen?",
           "opties": [
             "rekenregels fout toepassen",
             "uitspraken over schaalverandering",
@@ -1746,13 +1746,13 @@
             0,
             1
           ],
-          "uitleg": "De fiche noemt rekenregels die fout worden toegepast en uitspraken over schaalverandering als voorbeelden. De examenduur en de puntenverdeling staan er niet bij."
+          "uitleg": "Rekenregels die fout worden toegepast en uitspraken over schaalverandering zijn voorbeelden. De examenduur en de puntenverdeling hebben er niets mee te maken."
         },
         {
           "type": "waarofniet",
-          "vraag": "De dubbele pijl \\(\\Leftrightarrow\\) moet je volgens de vakfiche systematisch gebruiken bij het oplossen van vergelijkingen.",
+          "vraag": "De dubbele pijl \\(\\Leftrightarrow\\) moet je systematisch gebruiken bij het oplossen van vergelijkingen.",
           "antwoord": false,
-          "uitleg": "De fiche zegt het omgekeerde: dat is niet nodig. De symbolen moeten wel correct zijn waar je ze gebruikt."
+          "uitleg": "Net omgekeerd: dat is niet nodig. De symbolen moeten wel correct zijn waar je ze gebruikt."
         },
         {
           "type": "meerkeuze",
@@ -1890,7 +1890,7 @@
             "enkel kruisend of snijdend met het vlak"
           ],
           "antwoord": 0,
-          "uitleg": "Vier mogelijkheden volgens de vakfiche. Loodrecht is een bijzonder geval van snijdend."
+          "uitleg": "Vier mogelijkheden. Loodrecht is een bijzonder geval van snijdend."
         },
         {
           "type": "waarofniet",
@@ -1940,7 +1940,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke projecties noemt de vakfiche?",
+          "vraag": "Welke van deze projecties teken je bij een ruimtefiguur?",
           "opties": [
             "zijaanzicht",
             "vooraanzicht",
@@ -1951,7 +1951,7 @@
             0,
             1
           ],
-          "uitleg": "De fiche noemt het zij-, voor- en bovenaanzicht: drie aanzichten op drie vlakken. Een binnen- of achteraanzicht staat er niet bij."
+          "uitleg": "Je tekent het zij-, voor- en bovenaanzicht: drie aanzichten op drie vlakken. Een binnenaanzicht bestaat niet, en een achteraanzicht hoort er hier niet bij."
         },
         {
           "type": "waarofniet",
@@ -2000,7 +2000,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke begrippen uit de verzamelingenleer noemt de vakfiche hierbij?",
+          "vraag": "Welke begrippen uit de verzamelingenleer gebruik je hierbij?",
           "opties": [
             "deelverzameling",
             "doorsnede",
@@ -2194,11 +2194,11 @@
             "een verschuiving",
             "translatie"
           ],
-          "uitleg": "De verschuiving of translatie. Dat verband staat op de vakfiche."
+          "uitleg": "De verschuiving of translatie."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In welke contexten gebruikt de vakfiche vectoren?",
+          "vraag": "In welke contexten gebruik je vectoren?",
           "opties": [
             "krachten",
             "verplaatsing",
@@ -2375,7 +2375,7 @@
           "type": "waarofniet",
           "vraag": "Bij een dubbele lengte wordt het volume ook dubbel zo groot.",
           "antwoord": false,
-          "uitleg": "Het wordt acht keer zo groot. Dit is precies het soort uitspraak dat de vakfiche laat weerleggen."
+          "uitleg": "Het wordt acht keer zo groot. Zo'n uitspraak moet je kunnen weerleggen."
         },
         {
           "type": "meerkeuze",
@@ -2545,7 +2545,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke gelijkvormigheidskenmerken noemt de vakfiche?",
+          "vraag": "Welke van deze zijn gelijkvormigheidskenmerken?",
           "opties": [
             "HH",
             "ZHZ",
@@ -2694,7 +2694,7 @@
             2,
             4
           ],
-          "uitleg": "De oppervlakte heb je er niet voor nodig. De vakfiche vraagt wel het kenmerk ter verklaring."
+          "uitleg": "De oppervlakte heb je er niet voor nodig. Het kenmerk geef je wel als verklaring."
         },
         {
           "type": "meerkeuze",
@@ -2722,7 +2722,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom vraagt de vakfiche het kenmerk te benoemen en niet enkel te rekenen?",
+          "vraag": "Waarom benoem je het kenmerk en reken je niet enkel?",
           "opties": [
             "het kenmerk is de verantwoording",
             "het kenmerk is korter",
@@ -3107,7 +3107,7 @@
             2,
             4
           ],
-          "uitleg": "De vakfiche laat je de goniometrische getallen met ICT berekenen. De oppervlakte heb je er niet voor nodig."
+          "uitleg": "Je berekent de goniometrische getallen met ICT. De oppervlakte heb je er niet voor nodig."
         },
         {
           "type": "meerkeuze",
@@ -3137,7 +3137,7 @@
           "type": "waarofniet",
           "vraag": "Met \\(\\tan \\alpha\\) kan je de hoogte van een boom berekenen uit de kijkhoek en de afstand.",
           "antwoord": true,
-          "uitleg": "De afstand is de aanliggende zijde, de hoogte de overstaande. De vakfiche noemt dit voorbeeld zelf."
+          "uitleg": "De afstand is de aanliggende zijde, de hoogte de overstaande."
         },
         {
           "type": "meerkeuze",
@@ -3381,7 +3381,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke formules noemt de vakfiche als wiskundige voorbeelden?",
+          "vraag": "Welke van deze formules zijn wiskundige formules?",
           "opties": [
             "\\(y = ax + b\\)",
             "\\(y = ax^{2} + bx + c\\)",
@@ -3465,7 +3465,7 @@
           "type": "waarofniet",
           "vraag": "De wet van Ohm is \\(U = I \\cdot R\\).",
           "antwoord": true,
-          "uitleg": "Zo staat ze op de vakfiche. Uit die formule kan je elke grootheid vrijmaken."
+          "uitleg": "Zo luidt de formule. Daaruit kan je elke grootheid vrijmaken."
         },
         {
           "type": "meerkeuze",
@@ -3559,7 +3559,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke formules uit de natuurwetenschappen noemt de vakfiche?",
+          "vraag": "Welke van deze zijn formules uit de natuurwetenschappen?",
           "opties": [
             "\\(\\rho = \\frac{m}{V}\\)",
             "\\(U = I \\cdot R\\)",
@@ -3606,7 +3606,7 @@
             2,
             4
           ],
-          "uitleg": "Snel afronden is net wat de vakfiche afraadt: werk zo lang mogelijk exact."
+          "uitleg": "Snel afronden is net wat je niet doet: werk zo lang mogelijk exact."
         },
         {
           "type": "invultekst",
@@ -3765,7 +3765,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een vraagstuk naar een vergelijking vertalen valt volgens de vakfiche buiten de leerstof.",
+          "vraag": "Een vraagstuk naar een vergelijking vertalen valt buiten de leerstof.",
           "antwoord": false,
           "uitleg": "Het staat er juist wel: je vertaalt een vraagstuk naar een eerstegraadsvergelijking en lost het op."
         },
@@ -3806,7 +3806,7 @@
           "type": "waarofniet",
           "vraag": "De oplossing van \\(f(x) = 0\\) is de nulwaarde van \\(f\\).",
           "antwoord": true,
-          "uitleg": "Dat verband staat op de vakfiche. Grafisch is het het snijpunt met de \\(x\\)-as."
+          "uitleg": "Grafisch is het het snijpunt met de \\(x\\)-as."
         },
         {
           "type": "meerkeuze",
@@ -3948,7 +3948,7 @@
           "type": "waarofniet",
           "vraag": "De oplossing van een ongelijkheid kan je niet op een getallenas voorstellen.",
           "antwoord": false,
-          "uitleg": "Dat kan juist wel, en de vakfiche vraagt het ook, met open of volle bolletjes aan de grens."
+          "uitleg": "Dat kan juist wel, met open of volle bolletjes aan de grens."
         },
         {
           "type": "meerkeuze",
@@ -3972,7 +3972,7 @@
             "de grafiek is een rechte"
           ],
           "antwoord": 0,
-          "uitleg": "Positieve functiewaarden liggen boven de as. Dat verband staat op de vakfiche."
+          "uitleg": "Positieve functiewaarden liggen boven de as."
         },
         {
           "type": "invultekst",
@@ -4095,7 +4095,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke methodes noemt de vakfiche om een stelsel algebraïsch op te lossen?",
+          "vraag": "Welke methodes gebruik je om een stelsel algebraïsch op te lossen?",
           "opties": [
             "de combinatiemethode",
             "de substitutiemethode",
@@ -4194,7 +4194,7 @@
           "type": "waarofniet",
           "vraag": "De oplossing van een stelsel noteer je als één enkel getal.",
           "antwoord": false,
-          "uitleg": "Het is een koppel \\((x, y)\\): eerst de \\(x\\), dan de \\(y\\). De vakfiche noemt dat de koppelvoorstelling."
+          "uitleg": "Het is een koppel \\((x, y)\\): eerst de \\(x\\), dan de \\(y\\). Dat heet de koppelvoorstelling."
         },
         {
           "type": "meerkeuze",
@@ -4230,11 +4230,11 @@
           "type": "waarofniet",
           "vraag": "Een strijdig stelsel heeft \\(V = \\emptyset\\) als oplossingenverzameling.",
           "antwoord": true,
-          "uitleg": "Zo staat het op de vakfiche. Er is geen enkel koppel dat aan beide vergelijkingen voldoet."
+          "uitleg": "Zo is het. Er is geen enkel koppel dat aan beide vergelijkingen voldoet."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten stelsels noemt de vakfiche?",
+          "vraag": "Welke van deze zijn soorten stelsels?",
           "opties": [
             "bepaald",
             "strijdig",
@@ -4390,9 +4390,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een stelsel grafisch oplossen mag volgens de vakfiche met ICT.",
+          "vraag": "Een stelsel grafisch oplossen mag met ICT.",
           "antwoord": true,
-          "uitleg": "De fiche vraagt het zelfs: je lost stelsels grafisch op, met en zonder ICT."
+          "uitleg": "Dat kan zelfs: je lost stelsels grafisch op, met en zonder ICT."
         },
         {
           "type": "meerkeuze",
@@ -4461,7 +4461,7 @@
             2,
             4
           ],
-          "uitleg": "Een top hoort bij een parabool. De vakfiche vraagt wel het antwoord terug in de context te plaatsen."
+          "uitleg": "Een top hoort bij een parabool. Plaats het antwoord wel terug in de context."
         },
         {
           "type": "meerkeuze",
@@ -6056,7 +6056,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke telregels staan in de vakfiche?",
+          "vraag": "Welke van deze zijn telregels?",
           "opties": [
             "de somregel",
             "de productregel",
@@ -6067,7 +6067,7 @@
             0,
             1
           ],
-          "uitleg": "De somregel, de productregel en de complementregel staan in de fiche. Een wortel- of kwadraatregel bestaat hier niet."
+          "uitleg": "De somregel, de productregel en de complementregel zijn telregels. Een wortel- of kwadraatregel bestaat hier niet."
         },
         {
           "type": "meerkeuze",
@@ -6199,7 +6199,7 @@
           "type": "waarofniet",
           "vraag": "Een vraagstuk heeft altijd maar één oplossingsweg.",
           "antwoord": false,
-          "uitleg": "Vaak zijn er meerdere wegen. De fiche vraagt net dat je een weg kiest en verantwoordt."
+          "uitleg": "Vaak zijn er meerdere wegen. Kies een weg en verantwoord hem."
         },
         {
           "type": "meerkeuze",

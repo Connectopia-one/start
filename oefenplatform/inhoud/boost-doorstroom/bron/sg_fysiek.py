@@ -12,7 +12,7 @@ Deel 2 is de motoriek.
 
 DEEL1 = [
     dict(type="meerkeuze",
-         vraag="Waaruit bestaat de lichamelijke ontwikkeling volgens de vakfiche?",
+         vraag="Waaruit bestaat de lichamelijke ontwikkeling?",
          opties=["lengte, gewicht en verhoudingen",
                  "lengte, kracht en uithouding",
                  "gewicht, zintuigen en reflexen",
@@ -74,7 +74,7 @@ DEEL1 = [
          antwoord=0,
          uitleg="Het zicht en het gehoor nemen af. Veel mensen hebben vanaf hun veertigste een leesbril nodig."),
     dict(type="waarofniet",
-         vraag="De fysieke ontwikkeling loopt volgens de vakfiche enkel in de kindertijd.",
+         vraag="De fysieke ontwikkeling loopt enkel in de kindertijd.",
          antwoord=False,
          uitleg="Ze loopt door de hele levensloop. In de late volwassenheid gaat ze achteruit, en dat is ook fysieke ontwikkeling."),
     dict(type="meerkeuze",
@@ -119,7 +119,7 @@ DEEL1 = [
     dict(type="waarofniet",
          vraag="De sensorische en de motorische ontwikkeling hangen samen.",
          antwoord=True,
-         uitleg="Juist daarom spreekt de fiche van sensomotorische ontwikkeling: zien en grijpen werken samen."),
+         uitleg="Daarom spreek je van sensomotorische ontwikkeling: zien en grijpen werken samen."),
     dict(type="meerkeuze",
          vraag="Wat staat er op een groeicurve van een kind?",
          opties=[
@@ -274,7 +274,7 @@ DEEL2 = [
          antwoord=0,
          uitleg="De armen en benen zijn plots langer en de besturing moet zich aanpassen. Dat gaat na een tijd weer over."),
     dict(type="meerkeuze",
-         vraag="Welke orde volgt de motorische ontwikkeling volgens de fiche?",
+         vraag="Welke orde volgt de motorische ontwikkeling?",
          opties=["van hoofd naar voeten",
                  "van voeten naar hoofd",
                  "van buiten naar binnen",

@@ -215,7 +215,7 @@ DEEL2 = [
          antwoord=0,
          uitleg="Een lezer ziet dan meteen welke schulden binnen het jaar betaald moeten worden."),
     dict(type="meerkeuze",
-         vraag="Welke eindejaarsverrichtingen noemt de vakfiche?",
+         vraag="Welke van deze zijn eindejaarsverrichtingen?",
          opties=[
              "de jaarlijkse afschrijvingen",
              "de regularisatie van schulden op meer dan een jaar",

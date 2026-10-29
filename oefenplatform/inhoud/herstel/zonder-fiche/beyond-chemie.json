@@ -1,0 +1,228 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Veilig werken, meetinstrumenten en beduidende cijfers — deel 1",
+   "niveau": "beyond-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarover gaat een H-zin op een etiket?",
+     "opties": [
+      "over het gevaar dat de stof zelf oplevert",
+      "over de voorzorg die je moet nemen",
+      "over de hoeveelheid die in de fles zit",
+      "over de houdbaarheid van het product"
+     ],
+     "antwoord": 0,
+     "uitleg": "De H komt van hazard, dus gevaar. De P-zinnen ernaast zeggen wat je er tegen doet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarover gaat een P-zin op een etiket?",
+     "opties": [
+      "over de voorzorg en wat je bij een ongeval doet",
+      "over het gevaar dat de stof zelf oplevert",
+      "over de prijs en de herkomst van het product",
+      "over de plaats waar de stof gemaakt werd"
+     ],
+     "antwoord": 0,
+     "uitleg": "De P komt van precaution. Zo'n zin zegt bijvoorbeeld dat je een veiligheidsbril draagt of de huid grondig spoelt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een pictogram toont een hand en een oppervlak waar een druppel een gat in bijt. Wat betekent het?",
+     "opties": [
+      "de stof is bijtend voor huid en materiaal",
+      "de stof is licht ontvlambaar in de open lucht",
+      "de stof is giftig bij het inslikken ervan",
+      "de stof is schadelijk voor het waterleven"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dat is het pictogram voor corrosief. Daarom hoort er een bril en handschoenen bij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een pictogram toont een doodshoofd met twee gekruiste beenderen. Wat betekent het?",
+     "opties": [
+      "de stof is giftig, ook in een kleine hoeveelheid",
+      "de stof is bijtend voor huid en voor materiaal",
+      "de stof kan ontploffen bij een harde schok",
+      "de stof is schadelijk voor dieren in het water"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij acute toxiciteit volstaat een kleine dosis. Een stof die enkel schadelijk is, krijgt het uitroepteken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk glaswerk gebruik je om precies \\(250{,}0\\) mL oplossing te maken?",
+     "opties": [
+      "een maatkolf van \\(250\\) mL",
+      "een maatcilinder van \\(250\\) mL",
+      "een bekerglas van \\(250\\) mL",
+      "een erlenmeyer van \\(250\\) mL"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een maatkolf heeft één streepje en is daarvoor gekalibreerd. De streepjes op een bekerglas zijn maar een ruwe aanduiding."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk glaswerk is nauwkeurig genoeg voor een volume dat je in een berekening gebruikt? Kruis alles aan wat juist is.",
+     "opties": [
+      "de maatkolf",
+      "de volumetrische pipet",
+      "het bekerglas",
+      "de erlenmeyer"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Een bekerglas en een erlenmeyer dienen om in te werken, niet om in te meten. Een maatcilinder zit ertussen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat lees je af bij een buret?",
+     "opties": [
+      "het volume dat eruit gelopen is",
+      "het volume dat er nog in zit",
+      "de massa van de vloeistof erin",
+      "de concentratie van de oplossing"
+     ],
+     "antwoord": 0,
+     "uitleg": "Daarom loopt de schaal van boven naar onder. Je noteert het begin en het einde en neemt het verschil."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Waar lees je het volume van een vloeistof in glaswerk af?",
+     "antwoord": [
+      "de meniscus",
+      "meniscus",
+      "onderkant meniscus"
+     ],
+     "uitleg": "Je kijkt op ooghoogte naar de onderkant van die holle kromming. Van boven of onder kijken geeft een afleesfout."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat bedoelt men met het meetbereik van een instrument?",
+     "opties": [
+      "de kleinste en de grootste waarde die het kan meten",
+      "de kleinste stap die het nog kan onderscheiden",
+      "de afwijking tussen de meting en de echte waarde",
+      "het aantal metingen dat je ermee kan doen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Buiten dat bereik is de waarde onbetrouwbaar. De kleinste stap heet de resolutie of de schaalverdeling."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom meet je \\(5\\) mL niet af in een maatcilinder van \\(500\\) mL?",
+     "opties": [
+      "de streepjes staan daar veel te ver van elkaar",
+      "de cilinder is te groot om goed vast te houden",
+      "het glas van zo'n cilinder is veel te dik",
+      "de vloeistof reageert anders in een grote cilinder"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een afleesfout van één streepje is daar al \\(5\\) mL. Kies altijd het instrument waarvan het bereik bij je volume past."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je spoelt een pipet eerst met de oplossing die je gaat pipetteren.",
+     "antwoord": true,
+     "uitleg": "Water dat achterblijft, zou de oplossing verdunnen. Bij een maatkolf is het net omgekeerd: die mag wel nat zijn van water."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een stof met het uitroeptekenpictogram is altijd dodelijk giftig.",
+     "antwoord": false,
+     "uitleg": "Dat teken staat voor schadelijk of irriterend. Acuut giftig heeft het doodshoofd."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een zuur verdun je door het zuur bij het water te gieten, niet omgekeerd.",
+     "antwoord": true,
+     "uitleg": "Het verdunnen geeft veel warmte. Water bij geconcentreerd zuur kan spatten of koken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De gevarenpictogrammen zijn ronde groene tekens.",
+     "antwoord": false,
+     "uitleg": "Ze zijn ruitvormig, met een rode rand en een wit vlak. Groene ronde tekens zijn gebodstekens."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over een veiligheidsfiche zijn juist? Kruis alles aan wat juist is.",
+     "opties": [
+      "ze vermeldt de H- en P-zinnen van de stof",
+      "ze zegt wat je bij een ongeval moet doen",
+      "ze vermeldt wie de stof gekocht heeft",
+      "ze vervangt het etiket op de fles"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Het etiket blijft nodig op de fles zelf. De veiligheidsfiche is er voor wie meer wil weten over opslag, blussen en eerste hulp."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een pictogram toont een boom en een dode vis. Wat betekent het?",
+     "opties": [
+      "de stof is schadelijk voor het leven in het water",
+      "de stof is giftig bij het inademen van de damp",
+      "de stof tast de huid en de ogen zwaar aan",
+      "de stof vat gemakkelijk vuur in open lucht"
+     ],
+     "antwoord": 0,
+     "uitleg": "Daarom mag die stof nooit in de gootsteen. Zulk afval gaat in een aparte afvalfles."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Wat betekent de H in H-zin?",
+     "antwoord": [
+      "hazard",
+      "gevaar",
+      "hazard of gevaar"
+     ],
+     "uitleg": "Het is het Engelse woord voor gevaar. De P van P-zin staat voor precaution, dus voorzorg."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke stappen horen bij het veilig opruimen van een gemorst zuur? Kruis alles aan wat juist is.",
+     "opties": [
+      "eerst neutraliseren met een zwakke base",
+      "daarna opnemen en afvoeren bij het juiste afval",
+      "eerst uitspoelen met een sterke base",
+      "daarna gewoon in de gootsteen laten lopen"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Een sterke base maakt er een tweede probleem van. Natriumwaterstofcarbonaat is zwak genoeg om veilig te blijven."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de kleinste stap die een meetinstrument kan onderscheiden?",
+     "antwoord": [
+      "de resolutie",
+      "resolutie",
+      "schaalverdeling"
+     ],
+     "uitleg": "Het meetbereik is iets anders: dat zijn de kleinste en de grootste waarde die het instrument aankan."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk glaswerk gebruik je om een volume tot op honderdsten af te lezen bij een titratie?",
+     "antwoord": [
+      "een buret",
+      "buret",
+      "de buret"
+     ],
+     "uitleg": "De schaal loopt van boven naar onder, want je leest af hoeveel eruit gelopen is. Een maatcilinder is daarvoor veel te grof."
+    }
+   ]
+  }
+ ]
+}

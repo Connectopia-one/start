@@ -143,7 +143,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Kleding en uiterlijk horen niet bij communicatie, want je zegt er niets mee.",
         antwoord=False,
-        uitleg="De fiche rekent ze uitdrukkelijk bij de non-verbale communicatie. Wie op een sollicitatie komt, kiest niet toevallig wat hij aantrekt.",
+        uitleg="Ze horen bij de non-verbale communicatie. Wie op een sollicitatie komt, kiest niet toevallig wat hij aantrekt.",
     ),
     dict(
         type="meerkeuze",

@@ -111,7 +111,7 @@ DEEL1 = [
                  "naar de verwachtingen",
                  "naar niets in de tekst"],
          antwoord=0,
-         uitleg="They vervangt the results. De fiche vraagt dat je zo'n verwijzing kan volgen, want zonder haar valt de tekst uiteen."),
+         uitleg="They vervangt the results. Zo'n verwijzing moet je kunnen volgen, want zonder haar valt de tekst uiteen."),
     dict(type="waarofniet",
          vraag="In het Engels gebruik je they ook voor één persoon van wie je het geslacht niet zegt.",
          antwoord=True,
@@ -213,7 +213,7 @@ DEEL2 = [
          antwoord=["whose"],
          uitleg="Whose legt een bezit. Het geldt ook bij dingen: the house whose roof is red."),
     dict(type="meerkeuze",
-         vraag="Welke betrekkelijke woorden staan in de lijst van de fiche?",
+         vraag="Welke van deze zijn betrekkelijke woorden?",
          opties=[
              "when",
              "where",

@@ -313,7 +313,7 @@ DEEL2 = [
             "kleurloos",
         ],
         antwoord=0,
-        uitleg="Cl₂ is een geelgroen gas met een scherpe geur. Die kleur is een van de weinige die de fiche uitdrukkelijk vraagt.",
+        uitleg="Cl₂ is een geelgroen gas met een scherpe geur. Die kleur moet je kennen.",
     ),
     dict(
         type="meerkeuze",

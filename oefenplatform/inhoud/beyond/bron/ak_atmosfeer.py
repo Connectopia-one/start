@@ -183,9 +183,9 @@ DEEL2 = [
              "de daglengte",
          ],
          antwoord=[0, 1, 2, 4],
-         uitleg="Breedte, invalshoek, daglengte en het tijdstip volgen uit rotatie en revolutie. De hoogteligging is volgens de fiche een geografische factor."),
+         uitleg="Breedte, invalshoek, daglengte en het tijdstip volgen uit rotatie en revolutie. De hoogteligging is een geografische factor."),
     dict(type="meerkeuze",
-         vraag="Welke geografische factoren noemt de vakfiche bij de temperatuurverdeling?",
+         vraag="Welke geografische factoren bepalen de temperatuurverdeling?",
          opties=[
              "de hoogteligging",
              "de zeestromen",
@@ -195,7 +195,7 @@ DEEL2 = [
          antwoord=[0, 1],
          uitleg="Hoogte, zeestromen en afstand tot de zee zijn de drie geografische factoren. Bewolking en windrichting staan bij de lokale factoren."),
     dict(type="meerkeuze",
-         vraag="Welke lokale factoren noemt de vakfiche bij de temperatuur?",
+         vraag="Welke lokale factoren spelen mee bij de temperatuur?",
          opties=[
              "de helling en de vegetatie",
              "de bodem en de bewolking",

@@ -353,7 +353,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat doe je volgens de fiche met een onbekend woord in een leestekst?",
+          "vraag": "Wat doe je met een onbekend woord in een leestekst?",
           "opties": [
             "de betekenis uit de context afleiden",
             "letten op hoe het woord gevormd is",
@@ -390,7 +390,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vragen stel je volgens de fiche vooraf met het communicatiemodel?",
+          "vraag": "Welke vragen stel je vooraf met het communicatiemodel?",
           "opties": [
             "van wie is de tekst?",
             "waarom is hij gemaakt?",
@@ -410,7 +410,7 @@
           "type": "waarofniet",
           "vraag": "De titel, de tussentitels en de foto bij een tekst mag je overslaan, want ze horen niet bij de tekst.",
           "antwoord": false,
-          "uitleg": "Ze zijn juist de eerste hulp die je hebt. De fiche noemt ze uitdrukkelijk als visueel hulpmiddel om te weten waarover de tekst gaat."
+          "uitleg": "Ze zijn juist de eerste hulp die je hebt: visuele hulpmiddelen zeggen waarover de tekst gaat."
         },
         {
           "type": "meerkeuze",
@@ -440,7 +440,7 @@
           "type": "waarofniet",
           "vraag": "Een alinea in een argumentatieve tekst kan de functie hebben om een tegenargument te weerleggen.",
           "antwoord": true,
-          "uitleg": "De fiche noemt weerlegging met zoveel woorden als mogelijke functie, naast oorzaak, gevolg, toelichting, tegenstelling en vergelijking."
+          "uitleg": "Weerlegging is een mogelijke functie, naast oorzaak, gevolg, toelichting, tegenstelling en vergelijking."
         },
         {
           "type": "meerkeuze",
@@ -471,7 +471,7 @@
             "een narratieve tekst"
           ],
           "antwoord": 0,
-          "uitleg": "Een informatieve tekst brengt je iets bij over een onderwerp. De fiche noemt als voorbeeld een krantenartikel, een interview of een aankondiging."
+          "uitleg": "Een informatieve tekst brengt je iets bij over een onderwerp, zoals een krantenartikel, een interview of een aankondiging."
         },
         {
           "type": "meerkeuze",
@@ -515,7 +515,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke teksten zijn volgens de fiche narratief?",
+          "vraag": "Welke teksten zijn narratief?",
           "opties": [
             "een reisverslag",
             "een getuigenis",
@@ -570,7 +570,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke teksten zijn volgens de fiche informatief?",
+          "vraag": "Welke teksten zijn informatief?",
           "opties": [
             "een krantenartikel",
             "een interview",
@@ -622,9 +622,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een strip en een cartoon horen volgens de fiche bij de literaire teksten.",
+          "vraag": "Een strip en een cartoon horen bij de literaire teksten.",
           "antwoord": true,
-          "uitleg": "De fiche noemt bij literaire teksten uitdrukkelijk een lied, een gedicht, een cartoon, een strip, een kortverhaal en een romanfragment."
+          "uitleg": "Literaire teksten zijn onder meer een lied, een gedicht, een cartoon, een strip, een kortverhaal en een romanfragment."
         },
         {
           "type": "meerkeuze",
@@ -681,7 +681,7 @@
             "je een oefening laten uitvoeren"
           ],
           "antwoord": 0,
-          "uitleg": "Een documentaire informeert. De fiche noemt hem met zoveel woorden bij de informatieve teksten."
+          "uitleg": "Een documentaire informeert: het is een informatieve tekst."
         }
       ]
     },
@@ -934,7 +934,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat zeg je volgens de fiche altijd eerst als je een onbekende om een inlichting vraagt?",
+          "vraag": "Wat zeg je altijd eerst als je een onbekende om een inlichting vraagt?",
           "opties": [
             "bonjour",
             "s'il vous plaît",
@@ -1082,7 +1082,7 @@
           "type": "waarofniet",
           "vraag": "In een Franse mail aan een leraar met wie je geen nauwe band hebt, gebruik je de vous-vorm.",
           "antwoord": true,
-          "uitleg": "De fiche noemt dat voorbeeld zelf, samen met de conditionnel de politesse. Leerlingen vouvoyeren hun leraren in Frankrijk zo goed als altijd."
+          "uitleg": "Leerlingen vouvoyeren hun leraren in Frankrijk zo goed als altijd, en ze gebruiken er de conditionnel de politesse bij."
         },
         {
           "type": "meerkeuze",
@@ -1109,13 +1109,13 @@
             "overschakelen op het Nederlands"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt dat als strategie: vraag om te herhalen of om trager te spreken. Dat is geen zwakte maar goede communicatie."
+          "uitleg": "Vraag om te herhalen of om trager te spreken. Dat is geen zwakte maar goede communicatie."
         },
         {
           "type": "waarofniet",
           "vraag": "Zit je vast in het Frans, dan is het beste wat je kan doen stoppen met spreken.",
           "antwoord": false,
-          "uitleg": "De fiche zegt net het omgekeerde: probeer je doel te bereiken met de woorden en structuren die je wél al kent, of vraag hulp."
+          "uitleg": "Net omgekeerd: probeer je doel te bereiken met de woorden en structuren die je wél al kent, of vraag hulp."
         },
         {
           "type": "meerkeuze",
@@ -1139,7 +1139,7 @@
             "Peu importe ce que vous en pensez."
           ],
           "antwoord": 0,
-          "uitleg": "Et vous geeft het woord aan de ander. De fiche vraagt uitdrukkelijk dat je inspeelt op wat je gesprekspartner zegt."
+          "uitleg": "Et vous geeft het woord aan de ander. Zo speel je in op wat je gesprekspartner zegt."
         }
       ]
     },
@@ -1357,7 +1357,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom vraagt de fiche dat je culturele verschillen kan benoemen?",
+          "vraag": "Waarom is het handig dat je culturele verschillen kan benoemen?",
           "opties": [
             "om beter te begrijpen wat je leest",
             "om een examen cultuur af te leggen",
@@ -1365,7 +1365,7 @@
             "om sneller te kunnen lezen"
           ],
           "antwoord": 0,
-          "uitleg": "Een tekst over la rentrée of le bac begrijp je alleen als je weet wat dat is. De fiche noemt daarom het dagelijkse leven, gewoontes en conventies."
+          "uitleg": "Een tekst over la rentrée of le bac begrijp je alleen als je weet wat dat is. Daarom leer je over het dagelijkse leven, gewoontes en conventies."
         }
       ]
     },
@@ -1376,7 +1376,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke teksten noemt de fiche literair?",
+          "vraag": "Welke van deze teksten zijn literair?",
           "opties": [
             "een gedicht en een lied",
             "een gebruiksaanwijzing",
@@ -1387,7 +1387,7 @@
             0,
             2
           ],
-          "uitleg": "De fiche noemt een lied, een gedicht, een cartoon, een strip, een kortverhaal en een romanfragment. Een bijsluiter en een gebruiksaanwijzing zijn prescriptief."
+          "uitleg": "Literaire teksten zijn een lied, een gedicht, een cartoon, een strip, een kortverhaal en een romanfragment. Een bijsluiter en een gebruiksaanwijzing zijn prescriptief."
         },
         {
           "type": "meerkeuze",
@@ -1537,7 +1537,7 @@
           "type": "waarofniet",
           "vraag": "Een cartoon kan je niet lezen als een literaire tekst, want er staan te weinig woorden in.",
           "antwoord": false,
-          "uitleg": "De fiche rekent de cartoon uitdrukkelijk bij de literaire teksten. Het beeld, de overdrijving en de woordspeling dragen de betekenis."
+          "uitleg": "Een cartoon is een literaire tekst. Het beeld, de overdrijving en de woordspeling dragen de betekenis."
         },
         {
           "type": "meerkeuze",
@@ -1801,7 +1801,7 @@
           "type": "waarofniet",
           "vraag": "Een strip of een lied kan even goed dienen om je literatuurbeleving te laten zien als een roman.",
           "antwoord": true,
-          "uitleg": "De fiche zet een lied, een gedicht, een strip en een romanfragment naast elkaar als literaire tekst. Wat je erover zegt, maakt het verschil."
+          "uitleg": "Een lied, een gedicht, een strip en een romanfragment zijn literaire teksten. Wat je erover zegt, maakt het verschil."
         },
         {
           "type": "meerkeuze",
@@ -1859,7 +1859,7 @@
             0,
             1
           ],
-          "uitleg": "Doel, ontvanger, inhoud en kanaal: de fiche noemt mail en blogbericht als voorbeelden van zo'n kanaal. Hoe lang je erover doet, staat er niet bij."
+          "uitleg": "Doel, ontvanger, inhoud en kanaal: een mail en een blogbericht zijn voorbeelden van zo'n kanaal. Hoe lang je erover doet, hoort er niet bij."
         },
         {
           "type": "invultekst",
@@ -1885,9 +1885,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De fiche vraagt dat de opbouw van je tekst herkenbaar is, met een titel en alinea's.",
+          "vraag": "De opbouw van je tekst moet herkenbaar zijn, met een titel en alinea's.",
           "antwoord": true,
-          "uitleg": "Tekstopbouw en lay-out staan als apart beoordelingspunt op de fiche, naast spelling en leestekens."
+          "uitleg": "Tekstopbouw en lay-out worden apart beoordeeld, naast spelling en leestekens."
         },
         {
           "type": "meerkeuze",
@@ -2000,7 +2000,7 @@
           "type": "waarofniet",
           "vraag": "Spelfouten maken niet uit, zolang je boodschap duidelijk is.",
           "antwoord": false,
-          "uitleg": "De fiche zegt het voorzichtiger: fouten mogen het tekstbegrip niet in de weg staan. Maar ze worden wel beoordeeld, dus lees na."
+          "uitleg": "Voorzichtiger: fouten mogen het tekstbegrip niet in de weg staan. Maar ze worden wel beoordeeld, dus lees na."
         },
         {
           "type": "meerkeuze",
@@ -2030,7 +2030,7 @@
           "type": "waarofniet",
           "vraag": "In een Franse brief zet je een komma na de aanhef en begin je daarna met een hoofdletter op een nieuwe regel.",
           "antwoord": true,
-          "uitleg": "Madame, en dan op de volgende regel Je vous écris… Dat is de gewone lay-out, en lay-out staat als beoordelingspunt op de fiche."
+          "uitleg": "Madame, en dan op de volgende regel Je vous écris… Dat is de gewone lay-out, en lay-out wordt beoordeeld."
         },
         {
           "type": "meerkeuze",
@@ -2054,7 +2054,7 @@
             "een woord verzinnen dat Frans klinkt"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt dat als strategie: bereik je doel met de woorden die je wél kent. Een omschrijving is beter dan een gat of een verzonnen woord."
+          "uitleg": "Dat is een goede strategie: bereik je doel met de woorden die je wél kent. Een omschrijving is beter dan een gat of een verzonnen woord."
         }
       ]
     },
@@ -2178,7 +2178,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarop let je volgens de fiche bij het nalezen van je tekst?",
+          "vraag": "Waarop let je bij het nalezen van je tekst?",
           "opties": [
             "is de boodschap helder?",
             "is de toon gepast?",
@@ -2189,17 +2189,17 @@
             0,
             1
           ],
-          "uitleg": "Helder, gepast en vlot: zo staat het op de fiche. Moeilijke woorden toevoegen of zo lang mogelijk schrijven maakt een tekst meestal slechter."
+          "uitleg": "Helder, gepast en vlot. Moeilijke woorden toevoegen of zo lang mogelijk schrijven maakt een tekst meestal slechter."
         },
         {
           "type": "invultekst",
-          "vraag": "Welk hulpmiddel mag je volgens de fiche op het schrijfexamen gebruiken, naast een eenvoudig woordenboek? Eén woord.",
+          "vraag": "Welk hulpmiddel mag je op het schrijfexamen gebruiken, naast een eenvoudig woordenboek? Eén woord.",
           "antwoord": [
             "spellingcontrole",
             "spellingscontrole",
             "spellingchecker"
           ],
-          "uitleg": "Een spellingcontrole. De fiche raadt aan om er thuis mee te oefenen, zodat je op het examen weet wat ze wel en niet vindt."
+          "uitleg": "Een spellingcontrole. Oefen er thuis mee, zodat je op het examen weet wat ze wel en niet vindt."
         },
         {
           "type": "meerkeuze",
@@ -2229,7 +2229,7 @@
           "type": "waarofniet",
           "vraag": "In een mail aan een bedrijf vermeld je het best waarover het gaat in de onderwerpregel.",
           "antwoord": true,
-          "uitleg": "Objet: demande d'information. Zo weet de lezer voor hij opent waarover het gaat, en dat hoort bij de gepaste lay-out van de fiche."
+          "uitleg": "Objet: demande d'information. Zo weet de lezer voor hij opent waarover het gaat, en dat hoort bij een gepaste lay-out."
         },
         {
           "type": "meerkeuze",
@@ -2253,11 +2253,11 @@
             "overschakelen naar het Engels"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt dat als strategie: herhaal je boodschap of formuleer ze anders. Een tweede poging met andere woorden werkt bijna altijd beter."
+          "uitleg": "Dat is een goede strategie: herhaal je boodschap of formuleer ze anders. Een tweede poging met andere woorden werkt bijna altijd beter."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een gepaste lay-out hoort volgens de fiche bij wat er op het schrijfexamen beoordeeld wordt.",
+          "vraag": "Een gepaste lay-out hoort bij wat er op het schrijfexamen beoordeeld wordt.",
           "antwoord": true,
           "uitleg": "Tekstopbouw en lay-out staan als eigen punt op de beoordelingslijst, samen met spelling en leestekengebruik."
         },
@@ -4223,7 +4223,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke zin volgt de congruentieregel van de fiche juist?",
+          "vraag": "Welke zin volgt de congruentieregel juist?",
           "opties": [
             "Les filles sont contentes.",
             "Les filles sont content.",
@@ -4231,7 +4231,7 @@
             "Les filles sont contents."
           ],
           "antwoord": 0,
-          "uitleg": "Het bijvoeglijk naamwoord komt overeen met het naamwoord: filles is vrouwelijk meervoud, dus contentes. De fiche noemt die accord met zoveel woorden."
+          "uitleg": "Het bijvoeglijk naamwoord komt overeen met het naamwoord: filles is vrouwelijk meervoud, dus contentes. Dat heet accord."
         },
         {
           "type": "meerkeuze",
@@ -4249,7 +4249,7 @@
           "type": "waarofniet",
           "vraag": "Een bijvoeglijk naamwoord na het werkwoord être komt overeen met het onderwerp.",
           "antwoord": true,
-          "uitleg": "Elle est heureuse, ils sont heureux. Dat is de accord die de fiche bij de congruentie noemt, en net daar lopen op een schrijfexamen punten weg."
+          "uitleg": "Elle est heureuse, ils sont heureux. Dat is de accord bij de congruentie, en net daar lopen op een schrijfexamen punten weg."
         },
         {
           "type": "meerkeuze",
@@ -4384,12 +4384,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welk Frans bijwoord van één woord betekent soms, en staat in de lijst van de fiche?",
+          "vraag": "Welk Frans bijwoord van één woord betekent soms?",
           "antwoord": [
             "quelquefois",
             "parfois"
           ],
-          "uitleg": "Quelquefois, of parfois. De fiche noemt quelquefois als voorbeeld van een bijwoord dat je moet kennen."
+          "uitleg": "Quelquefois, of parfois. Dat bijwoord moet je kennen."
         },
         {
           "type": "meerkeuze",
@@ -4401,7 +4401,7 @@
             "eindelijk"
           ],
           "antwoord": 0,
-          "uitleg": "Néanmoins betekent nochtans of toch. De fiche noemt het als voorbeeld, en in een krantentekst is het een signaal van tegenstelling."
+          "uitleg": "Néanmoins betekent nochtans of toch. In een krantentekst is het een signaal van tegenstelling."
         },
         {
           "type": "meerkeuze",
@@ -4875,7 +4875,7 @@
             "elle is een vrouwelijk onderwerp"
           ],
           "antwoord": 0,
-          "uitleg": "Dat voorbeeld staat in de fiche zelf. Téléphoner à quelqu'un geeft een meewerkend voorwerp, en met een COI is er geen accord."
+          "uitleg": "Téléphoner à quelqu'un geeft een meewerkend voorwerp, en met een COI is er geen accord."
         },
         {
           "type": "meerkeuze",
@@ -4994,7 +4994,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke werkwoorden zijn de frequente semi-auxiliaires die de fiche noemt?",
+          "vraag": "Welke van deze werkwoorden zijn frequente semi-auxiliaires?",
           "opties": [
             "vouloir en pouvoir",
             "devoir en savoir",
@@ -5006,7 +5006,7 @@
             1,
             2
           ],
-          "uitleg": "De fiche noemt aller, venir, savoir, vouloir, faire, devoir en pouvoir. Ze staan voor een infinitief: je veux partir, je dois travailler."
+          "uitleg": "Semi-auxiliaires zijn aller, venir, savoir, vouloir, faire, devoir en pouvoir. Ze staan voor een infinitief: je veux partir, je dois travailler."
         },
         {
           "type": "invultekst",
@@ -5219,7 +5219,7 @@
           "antwoord": [
             "voudrais"
           ],
-          "uitleg": "Je voudrais. Dat is de conditionnel de politesse die de fiche noemt: veel hoffelijker dan je veux."
+          "uitleg": "Je voudrais. Dat is de conditionnel de politesse: veel hoffelijker dan je veux."
         },
         {
           "type": "meerkeuze",
@@ -5253,7 +5253,7 @@
             "om een plan voor morgen te melden"
           ],
           "antwoord": 0,
-          "uitleg": "J'aurais dû partir plus tôt, tu aurais pu me le dire. De fiche geeft net die twee voorbeelden."
+          "uitleg": "J'aurais dû partir plus tôt, tu aurais pu me le dire."
         },
         {
           "type": "invultekst",
@@ -5289,13 +5289,13 @@
             1,
             2
           ],
-          "uitleg": "Noodzaak, wil en gevoel vragen de subjonctif. Il m'a dit que vraagt de indicatif, want het is een vaststelling. Dat voorbeeld staat in de fiche."
+          "uitleg": "Noodzaak, wil en gevoel vragen de subjonctif. Il m'a dit que vraagt de indicatif, want het is een vaststelling."
         },
         {
           "type": "waarofniet",
           "vraag": "Na « après que » staat in het Frans een subjonctif.",
           "antwoord": false,
-          "uitleg": "Daar staat een indicatif: après qu'il est parti. Het is avant que dat een subjonctif vraagt: avant qu'il parte. De fiche noemt dat paar als voorbeeld."
+          "uitleg": "Daar staat een indicatif: après qu'il est parti. Het is avant que dat een subjonctif vraagt: avant qu'il parte."
         },
         {
           "type": "meerkeuze",
@@ -5361,7 +5361,7 @@
             "voor een wens die niet uitkwam"
           ],
           "antwoord": 0,
-          "uitleg": "Il chante en travaillant: hij zingt terwijl hij werkt. De fiche geeft net dat gebruik als voorbeeld."
+          "uitleg": "Il chante en travaillant: hij zingt terwijl hij werkt."
         },
         {
           "type": "invultekst",
@@ -5422,7 +5422,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke zinsdelen moet je volgens de fiche kunnen aanwijzen?",
+          "vraag": "Welke zinsdelen moet je kunnen aanwijzen?",
           "opties": [
             "het onderwerp",
             "de persoonsvorm",
@@ -5567,7 +5567,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel soorten zinnen noemt de vakfiche?",
+          "vraag": "Hoeveel soorten zinnen onderscheid je in het Frans?",
           "opties": [
             "zes",
             "drie",
@@ -5678,7 +5678,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welk voegwoord noemt de fiche als voorbeeld, en betekent want of echter?",
+          "vraag": "Welk Frans voegwoord betekent want of echter?",
           "opties": [
             "or",
             "ou",
@@ -5686,13 +5686,13 @@
             "ora"
           ],
           "antwoord": 0,
-          "uitleg": "Or betekent nu, echter of welnu, en is typisch voor een argumentatieve tekst. De fiche noemt het samen met à moins que en pour que."
+          "uitleg": "Or betekent nu, echter of welnu, en is typisch voor een argumentatieve tekst, net als à moins que en pour que."
         },
         {
           "type": "waarofniet",
           "vraag": "Na « pour que » en « à moins que » volgt een subjonctif.",
           "antwoord": true,
-          "uitleg": "Pour qu'il comprenne, à moins qu'il vienne. De fiche noemt beide voegwoorden bij de onderschikking."
+          "uitleg": "Pour qu'il comprenne, à moins qu'il vienne. Beide voegwoorden leiden een ondergeschikte zin in."
         },
         {
           "type": "meerkeuze",
@@ -5746,7 +5746,7 @@
           "type": "waarofniet",
           "vraag": "Staat de inleiding in het verleden, dan schuift een présent in de indirecte rede naar de imparfait.",
           "antwoord": true,
-          "uitleg": "Il dit qu'il est malade wordt il a dit qu'il était malade. De fiche vraagt uitdrukkelijk dat je aan de juiste tijden denkt."
+          "uitleg": "Il dit qu'il est malade wordt il a dit qu'il était malade. Denk dus aan de juiste tijden."
         },
         {
           "type": "meerkeuze",
@@ -5800,7 +5800,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom gebruiken krantenartikels volgens de fiche vaak de passieve vorm?",
+          "vraag": "Waarom gebruiken krantenartikels vaak de passieve vorm?",
           "opties": [
             "de handelende persoon is onbekend of onbelangrijk",
             "de passieve vorm is korter dan de actieve",
@@ -5808,7 +5808,7 @@
             "de passieve vorm klinkt vriendelijker"
           ],
           "antwoord": 0,
-          "uitleg": "Trois personnes ont été blessées: wie het deed, weet men niet of doet niet mee. De fiche geeft net dat voorbeeld."
+          "uitleg": "Trois personnes ont été blessées: wie het deed, weet men niet of doet niet mee."
         },
         {
           "type": "invultekst",

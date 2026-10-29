@@ -141,7 +141,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe noemt de fiche een uiting die mensen maakten maar geen kunst is? Eén woord.",
+          "vraag": "Hoe noem je een uiting die mensen maakten maar geen kunst is? Eén woord.",
           "antwoord": [
             "cultuuruiting",
             "een cultuuruiting"
@@ -158,7 +158,7 @@
             "met de kunstperiodes"
           ],
           "antwoord": 0,
-          "uitleg": "De vijf criteria van de fiche: economische waarde, emotionele lading, esthetische waarde, originaliteit en vakmanschap."
+          "uitleg": "De vijf kunstcriteria: economische waarde, emotionele lading, esthetische waarde, originaliteit en vakmanschap."
         },
         {
           "type": "waarofniet",
@@ -232,7 +232,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel kunstcriteria noemt de vakfiche?",
+          "vraag": "Hoeveel kunstcriteria zijn er?",
           "opties": [
             "vijf",
             "drie in totaal",
@@ -244,7 +244,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke zijn kunstcriteria volgens de fiche?",
+          "vraag": "Welke zijn kunstcriteria?",
           "opties": [
             "originaliteit",
             "vakmanschap",
@@ -286,7 +286,7 @@
           "type": "waarofniet",
           "vraag": "Volgens het criterium economische waarde is kunst veel geld waard.",
           "antwoord": true,
-          "uitleg": "Zo staat het op de fiche. Het criterium is wel zwak: ook rommel kan duur verkocht worden."
+          "uitleg": "Zo staat het in de lijst. Het criterium is wel zwak: ook rommel kan duur verkocht worden."
         },
         {
           "type": "meerkeuze",
@@ -405,7 +405,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De kunstcriteria geven volgens de fiche een sluitend antwoord op de vraag wat kunst is.",
+          "vraag": "De kunstcriteria geven een sluitend antwoord op de vraag wat kunst is.",
           "antwoord": false,
           "uitleg": "Ze geven argumenten om te beredeneren of iets kunst is. Een sluitend antwoord bestaat niet."
         },
@@ -423,7 +423,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom vraagt de fiche om een cultuuruiting met de criteria te analyseren?",
+          "vraag": "Waarom analyseer je een cultuuruiting met de kunstcriteria?",
           "opties": [
             "zo beredeneer je een oordeel",
             "zo bepaal je de prijs",
@@ -445,7 +445,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee mensen twisten of graffiti kunst is. Wat helpt hen volgens de fiche?",
+          "vraag": "Twee mensen twisten of graffiti kunst is. Wat helpt hen?",
           "opties": [
             "de vijf criteria doorlopen",
             "de prijs laten schatten",
@@ -464,7 +464,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel kunstvormen onderscheidt de vakfiche?",
+          "vraag": "Hoeveel kunstvormen onderscheid je?",
           "opties": [
             "vijf",
             "drie in totaal",
@@ -519,7 +519,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Architectuur staat volgens de fiche samen met design als één kunstvorm.",
+          "vraag": "Architectuur staat samen met design als één kunstvorm.",
           "antwoord": true,
           "uitleg": "Zo staat het er: architectuur en design. Beide geven vorm aan iets wat ook gebruikt wordt."
         },
@@ -555,7 +555,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Fotografie hoort volgens de fiche bij de beeldende kunsten.",
+          "vraag": "Fotografie hoort bij de beeldende kunsten.",
           "antwoord": false,
           "uitleg": "Ze staat bij de audiovisuele kunsten, naast film en videokunst."
         },
@@ -627,7 +627,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Videokunst en film zijn volgens de fiche dezelfde kunstvorm.",
+          "vraag": "Videokunst en film zijn dezelfde kunstvorm.",
           "antwoord": false,
           "uitleg": "Ze staan als aparte onderdelen binnen dezelfde kunstvorm. Videokunst is meestal voor een zaal, niet voor een bioscoop."
         },
@@ -641,7 +641,7 @@
             "de audiovisuele kunst"
           ],
           "antwoord": 0,
-          "uitleg": "Een gebouw is kunst die je binnengaat. Daarom krijgt architectuur eigen richtvragen in de fiche."
+          "uitleg": "Een gebouw is kunst die je binnengaat. Daarom heeft architectuur eigen richtvragen."
         },
         {
           "type": "meerkeuze",
@@ -690,7 +690,7 @@
             "ze zijn het bekendste"
           ],
           "antwoord": 0,
-          "uitleg": "Bijlage 1 en 2 van de fiche geven voor elk een eigen lijst bouwstenen, materialen en technieken."
+          "uitleg": "Voor elke kunstvorm bestaat een eigen lijst bouwstenen, materialen en technieken."
         }
       ]
     },
@@ -785,7 +785,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een striptekening is volgens de fiche een podiumkunst.",
+          "vraag": "Een striptekening is een podiumkunst.",
           "antwoord": false,
           "uitleg": "Ze hoort bij de beeldende kunsten, en met de tekst erbij raakt ze aan de literatuur."
         },
@@ -820,11 +820,11 @@
             "architectuur",
             "de architectuur"
           ],
-          "uitleg": "De architectuur. Bijlage 2 van de fiche geeft er de eigen middelen van vormgeving bij."
+          "uitleg": "De architectuur. Die heeft haar eigen middelen van vormgeving."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een kunstvorm bepalen is volgens de fiche een stap in de analyse.",
+          "vraag": "Een kunstvorm bepalen is een stap in de analyse.",
           "antwoord": true,
           "uitleg": "Het is de eerste ordening. Daarna volgen de periode, de stroming, de inhoud en de context."
         },
@@ -838,7 +838,7 @@
             "bij de architectuur"
           ],
           "antwoord": 0,
-          "uitleg": "Muziek is een podiumkunst, ook als er niemand op een podium staat. De fiche laat zulke grensgevallen toe."
+          "uitleg": "Muziek is een podiumkunst, ook als er niemand op een podium staat. Zulke grensgevallen mogen."
         },
         {
           "type": "meerkeuze",
@@ -860,7 +860,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een stoel van een ontwerper valt volgens de fiche buiten de kunstvormen.",
+          "vraag": "Een stoel van een ontwerper valt buiten de kunstvormen.",
           "antwoord": false,
           "uitleg": "Design staat juist wel bij de kunstvormen. Of die stoel ook kunst is, beredeneer je met de criteria."
         },
@@ -869,7 +869,7 @@
           "vraag": "Waarom is het soms moeilijk één kunstvorm aan te wijzen?",
           "opties": [
             "de vormen lopen door elkaar",
-            "de fiche is onduidelijk",
+            "de kunstvormen zijn onduidelijk",
             "de kunstenaar verzwijgt het",
             "het museum beslist het"
           ],
@@ -898,7 +898,7 @@
             "de plaats in het museum"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt daarna om met bronmateriaal de periode en de stroming te bepalen."
+          "uitleg": "Daarna bepaal je met bronmateriaal de periode en de stroming."
         },
         {
           "type": "invultekst",
@@ -920,7 +920,7 @@
             "enkel als architectuur"
           ],
           "antwoord": 0,
-          "uitleg": "Twee vormen tegelijk. De fiche laat toe meerdere vormen te benoemen bij één werk."
+          "uitleg": "Twee vormen tegelijk. Bij één werk mag je meerdere kunstvormen benoemen."
         }
       ]
     },
@@ -1056,9 +1056,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De kunst van het nabije Oosten staat volgens de fiche los van die van Egypte.",
+          "vraag": "De kunst van het nabije Oosten staat los van die van Egypte.",
           "antwoord": false,
-          "uitleg": "De fiche noemt ze juist als één onderdeel: kunst van Egypte en nabije Oosten."
+          "uitleg": "Ze horen juist samen in één onderdeel: kunst van Egypte en het nabije Oosten."
         },
         {
           "type": "meerkeuze",
@@ -1089,9 +1089,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Prehistorische kunst is volgens de fiche jonger dan de Egyptische kunst.",
+          "vraag": "Prehistorische kunst is jonger dan de Egyptische kunst.",
           "antwoord": false,
-          "uitleg": "Ze is juist veel ouder. De fiche zet de periodes in de orde van de tijd, en de prehistorie staat vooraan."
+          "uitleg": "Ze is juist veel ouder. De periodes staan in de orde van de tijd, en de prehistorie staat vooraan."
         },
         {
           "type": "meerkeuze",
@@ -1160,7 +1160,7 @@
             "ze bepalen de kunstvorm"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt om met bronmateriaal te bepalen tot welke periode en welke stroming een werk hoort."
+          "uitleg": "Met bronmateriaal bepaal je tot welke periode en welke stroming een werk hoort."
         }
       ]
     },
@@ -1171,7 +1171,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke twee kunsten noemt de fiche bij de klassieke oudheid?",
+          "vraag": "Welke twee kunsten horen bij de klassieke oudheid?",
           "opties": [
             "Griekse en Romeinse",
             "Egyptische en Perzische",
@@ -1297,7 +1297,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De gotiek komt volgens de fiche voor de Romaanse kunst.",
+          "vraag": "De gotiek komt voor de Romaanse kunst.",
           "antwoord": false,
           "uitleg": "Het is net omgekeerd: eerst Romaans met de rondboog, dan gotisch met de spitsboog."
         },
@@ -1390,10 +1390,10 @@
           "type": "meerkeuze",
           "vraag": "Waarom staat de klassieke oudheid tussen Egypte en de middeleeuwen?",
           "opties": [
-            "de fiche volgt de tijd",
-            "de fiche volgt de kwaliteit",
-            "de fiche volgt de grootte",
-            "de fiche volgt het alfabet"
+            "de indeling volgt de tijd",
+            "de indeling volgt de kwaliteit",
+            "de indeling volgt de grootte",
+            "de indeling volgt het alfabet"
           ],
           "antwoord": 0,
           "uitleg": "De periodes staan in chronologische orde: prehistorie, Egypte en nabije Oosten, oudheid, middeleeuwen, en zo verder."
@@ -1407,7 +1407,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke twee stromingen noemt de fiche bij de vroegmoderne tijd?",
+          "vraag": "Welke twee stromingen horen bij de vroegmoderne tijd?",
           "opties": [
             "renaissance en barok",
             "romantiek en realisme",
@@ -1492,7 +1492,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De barok komt volgens de fiche voor de renaissance.",
+          "vraag": "De barok komt voor de renaissance.",
           "antwoord": false,
           "uitleg": "Eerst de renaissance, dan de barok. Beide horen bij de vroegmoderne tijd."
         },
@@ -1560,7 +1560,7 @@
             "ze liggen voor de oudheid"
           ],
           "antwoord": 0,
-          "uitleg": "Ze volgen op de middeleeuwen en komen voor de moderne tijd. Zo loopt de indeling van de fiche."
+          "uitleg": "Ze volgen op de middeleeuwen en komen voor de moderne tijd."
         },
         {
           "type": "waarofniet",
@@ -1612,7 +1612,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke stroming volgt in de fiche op de renaissance? Eén woord.",
+          "vraag": "Welke stroming volgt op de renaissance? Eén woord.",
           "antwoord": [
             "barok",
             "de barok"
@@ -1640,7 +1640,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke stromingen noemt de fiche bij de moderne tijd?",
+          "vraag": "Welke stromingen horen bij de moderne tijd?",
           "opties": [
             "romantiek en realisme",
             "renaissance en barok",
@@ -1648,7 +1648,7 @@
             "popart en installatiekunst"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt romantiek, realisme, impressionisme en volgende stromingen als moderne tijd."
+          "uitleg": "Romantiek, realisme, impressionisme en de stromingen daarna horen bij de moderne tijd."
         },
         {
           "type": "meerkeuze",
@@ -1725,7 +1725,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke stromingen noemt de fiche bij de hedendaagse tijd?",
+          "vraag": "Welke stromingen horen bij de hedendaagse tijd?",
           "opties": [
             "popart",
             "installatiekunst",
@@ -1739,7 +1739,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche noemt popart, installatiekunst, multimediale kunst en conceptuele kunst. Het impressionisme is modern."
+          "uitleg": "Popart, installatiekunst, multimediale kunst en conceptuele kunst zijn hedendaags. Het impressionisme is modern."
         },
         {
           "type": "meerkeuze",
@@ -1798,7 +1798,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Hedendaagse kunst vraagt volgens de fiche altijd groot vakmanschap.",
+          "vraag": "Hedendaagse kunst vraagt altijd groot vakmanschap.",
           "antwoord": false,
           "uitleg": "Bij conceptuele kunst weegt het idee zwaarder dan het ambacht. Daarom is vakmanschap maar één criterium."
         },
@@ -1875,7 +1875,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welk onderscheid maakt de fiche bij diverse samenlevingen?",
+          "vraag": "Welk onderscheid maak je bij kunst uit diverse samenlevingen?",
           "opties": [
             "westers en niet-westers",
             "oud tegenover nieuw",
@@ -1887,7 +1887,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke noemt de fiche als niet-westerse kunst?",
+          "vraag": "Welke van deze zijn niet-westerse kunst?",
           "opties": [
             "Arabische kunst",
             "Afrikaanse kunst",
@@ -1941,7 +1941,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel functies van een kunstuiting noemt de fiche?",
+          "vraag": "Hoeveel functies van een kunstuiting onderscheid je?",
           "opties": [
             "zeven",
             "vier in totaal",
@@ -1953,7 +1953,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke functies noemt de fiche?",
+          "vraag": "Welke van deze zijn functies van een kunstuiting?",
           "opties": [
             "de decoratieve",
             "de narratieve",
@@ -2011,7 +2011,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een werk dat enkel versiert, is volgens de fiche geen kunst.",
+          "vraag": "Een werk dat enkel versiert, is geen kunst.",
           "antwoord": false,
           "uitleg": "De decoratieve functie staat gewoon bij de zeven. Een functie zegt niets over de waarde."
         },
@@ -2044,7 +2044,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De ontspannende functie ontbreekt volgens de fiche bij de zeven functies.",
+          "vraag": "De ontspannende functie ontbreekt bij de zeven functies.",
           "antwoord": false,
           "uitleg": "Ze staat er juist wel bij. Kunst mag gewoon plezier geven: een film, een lied of een roman doet dat voluit."
         },
@@ -2062,7 +2062,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom vraagt de fiche naar de functie van een werk?",
+          "vraag": "Waarom vraag je naar de functie van een kunstwerk?",
           "opties": [
             "zo begrijp je waarvoor het diende",
             "zo bepaal je de prijs ervan",
@@ -2092,7 +2092,7 @@
             "de ontspannende"
           ],
           "antwoord": 0,
-          "uitleg": "Kunst is ook handel en belegging. Dat staat als eigen functie op de fiche."
+          "uitleg": "Kunst is ook handel en belegging. Dat is een functie op zich."
         }
       ]
     },
@@ -2103,7 +2103,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Waaruit bestaat de inhoud van een kunstuiting volgens de fiche?",
+          "vraag": "Waaruit bestaat de inhoud van een kunstuiting?",
           "opties": [
             "het onderwerp en de functies",
             "het materiaal en de techniek",
@@ -2133,7 +2133,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke elementen vormen de context volgens de fiche?",
+          "vraag": "Welke elementen vormen de context?",
           "opties": [
             "tijd",
             "ruimte",
@@ -2226,7 +2226,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De context van een werk staat volgens de fiche los van de inhoud.",
+          "vraag": "De context van een werk staat los van de inhoud.",
           "antwoord": false,
           "uitleg": "Beide zijn aparte richtvragen, maar ze hangen samen: de context verklaart vaak de keuze van het onderwerp."
         },
@@ -2563,7 +2563,7 @@
             "ze gelden enkel voor muziek"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche verwijst er bij de richtvraag hoe en waarmee naar. Het is de woordenlijst voor je analyse."
+          "uitleg": "Je gebruikt ze bij de richtvraag hoe en waarmee. Het is de woordenlijst voor je analyse."
         }
       ]
     },
@@ -2692,7 +2692,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke richtvragen noemt de fiche?",
+          "vraag": "Welke van deze zijn richtvragen om een kunstwerk te analyseren?",
           "opties": [
             "hoe en waarmee",
             "wat",
@@ -2739,7 +2739,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De richtvragen gelden volgens de fiche voor beeldende kunst en architectuur.",
+          "vraag": "De richtvragen gelden voor beeldende kunst en architectuur.",
           "antwoord": true,
           "uitleg": "Zo staat het er: je analyseert een kunstuiting uit de beeldende kunst en architectuur aan de hand van richtvragen."
         },
@@ -2861,7 +2861,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke twee groepen wetenschappen onderscheidt de fiche?",
+          "vraag": "Welke twee groepen wetenschappen onderscheid je?",
           "opties": [
             "natuur- en menswetenschappen",
             "oude en nieuwe wetenschappen",
@@ -2869,7 +2869,7 @@
             "grote en kleine wetenschappen"
           ],
           "antwoord": 0,
-          "uitleg": "Natuurwetenschappen en menswetenschappen. Die laatste splitst de fiche in gedrags- en cultuurwetenschappen."
+          "uitleg": "Natuurwetenschappen en menswetenschappen. Die laatste splits je in gedrags- en cultuurwetenschappen."
         },
         {
           "type": "meerkeuze",
@@ -2891,13 +2891,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Psychologie is volgens de fiche een natuurwetenschap.",
+          "vraag": "Psychologie is een natuurwetenschap.",
           "antwoord": false,
           "uitleg": "Ze is een menswetenschap, en meer bepaald een gedragswetenschap."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke twee soorten menswetenschappen noemt de fiche?",
+          "vraag": "Wat zijn de twee soorten menswetenschappen?",
           "opties": [
             "gedrags- en cultuurwetenschappen",
             "natuur- en levenswetenschappen",
@@ -2976,7 +2976,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Dagdagelijkse kennis is volgens de fiche altijd fout.",
+          "vraag": "Dagdagelijkse kennis is altijd fout.",
           "antwoord": false,
           "uitleg": "Ze is vaak heel nuttig. Het verschil is dat ze niet systematisch gecontroleerd werd."
         },
@@ -3030,7 +3030,7 @@
             "zo leer je de methodes van de vakken"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt daarna om de eigenheid van de filosofie binnen de menswetenschappen uit te leggen."
+          "uitleg": "Daarna leg je uit wat eigen is aan de filosofie binnen de menswetenschappen."
         }
       ]
     },
@@ -3077,7 +3077,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe noemt de fiche het beginpunt van alle filosofie? Eén woord.",
+          "vraag": "Wat is het beginpunt van alle filosofie? Eén woord.",
           "antwoord": [
             "verwondering",
             "de verwondering",
@@ -3111,7 +3111,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Verwondering begint volgens de fiche bij het stilstaan bij het gewone.",
+          "vraag": "Verwondering begint bij het stilstaan bij het gewone.",
           "antwoord": true,
           "uitleg": "Precies daar: waarom bestaat tijd, waarom is onrecht slecht, wat is een mens eigenlijk?"
         },
@@ -3153,11 +3153,11 @@
             "argument",
             "argumentatie"
           ],
-          "uitleg": "Met argumenten. De fiche leert daarvoor de AUB-methode aan."
+          "uitleg": "Met argumenten. Daarvoor leer je de AUB-methode."
         },
         {
           "type": "waarofniet",
-          "vraag": "De fiche vraagt om de eigenheid van de filosofie binnen de menswetenschappen uit te leggen.",
+          "vraag": "Filosofie hoort bij de menswetenschappen, maar heeft haar eigen vragen en methode.",
           "antwoord": true,
           "uitleg": "Zo staat het er letterlijk. Filosofie hoort dus bij de menswetenschappen, met een eigen manier van werken."
         },
@@ -3242,7 +3242,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welk antwoord verwacht de fiche bij de vraag wat filosofie eigen maakt?",
+          "vraag": "Wat maakt filosofie eigen tegenover de andere menswetenschappen?",
           "opties": [
             "haar vragen en haar methode",
             "haar ouderdom en haar naam",
@@ -3343,7 +3343,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De westerse filosofie begon volgens de fiche in Griekenland.",
+          "vraag": "De westerse filosofie begon in Griekenland.",
           "antwoord": true,
           "uitleg": "In de Griekse steden van Klein-Azië, met Milete als bekendste. Vandaar Thales van Milete."
         },
@@ -3383,7 +3383,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Mythologie en natuurfilosofie zoeken volgens de fiche hetzelfde soort verklaring.",
+          "vraag": "Mythologie en natuurfilosofie zoeken hetzelfde soort verklaring.",
           "antwoord": false,
           "uitleg": "De mythe zoekt buiten de natuur, de natuurfilosofie binnen de natuur. Daar zit precies het verschil."
         },
@@ -3428,7 +3428,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een mythe heeft volgens de fiche geen enkele waarde.",
+          "vraag": "Een mythe heeft geen enkele waarde.",
           "antwoord": false,
           "uitleg": "Ze geeft zin en samenhang aan een gemeenschap. Ze is alleen geen filosofische of wetenschappelijke verklaring."
         },
@@ -3482,7 +3482,7 @@
             "zeggen hoe ze precies te werk gaat"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt om haar begin te plaatsen: het oude Griekenland, vanaf de zesde eeuw voor Christus."
+          "uitleg": "Ze begon in het oude Griekenland, vanaf de zesde eeuw voor Christus."
         },
         {
           "type": "meerkeuze",
@@ -3609,7 +3609,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke natuurfilosofen noemt de fiche?",
+          "vraag": "Welke van deze zijn natuurfilosofen?",
           "opties": [
             "Thales",
             "Parmenides",
@@ -3704,7 +3704,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De fiche vraagt om de westerse filosofie in tijd en ruimte te situeren.",
+          "vraag": "De westerse filosofie ontstond in een bepaalde tijd en op een bepaalde plaats.",
           "antwoord": true,
           "uitleg": "Zo staat het bij de oorsprong: je verduidelijkt haar begin door haar van mythologie en natuurfilosofie te onderscheiden."
         },
@@ -3729,7 +3729,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke drie soorten vragen onderscheidt de fiche?",
+          "vraag": "Welke drie soorten vragen onderscheid je?",
           "opties": [
             "weet-, menings- en denkvraag",
             "open, gesloten en halfopen vraag",
@@ -3737,7 +3737,7 @@
             "goede, foute en vreemde vraag"
           ],
           "antwoord": 0,
-          "uitleg": "Een weetvraag, een meningsvraag en een filosofische vraag, die de fiche ook denkvraag noemt."
+          "uitleg": "Een weetvraag, een meningsvraag en een filosofische vraag, die je ook denkvraag noemt."
         },
         {
           "type": "meerkeuze",
@@ -3787,7 +3787,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is een filosofische vraag volgens de fiche ook?",
+          "vraag": "Wat is een filosofische vraag ook?",
           "opties": [
             "een denkvraag",
             "een weetvraag",
@@ -3795,7 +3795,7 @@
             "een strikvraag"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zet denkvraag naast filosofische vraag. Je komt er door te denken, niet door op te zoeken."
+          "uitleg": "Denkvraag is een ander woord voor filosofische vraag. Je komt er door te denken, niet door op te zoeken."
         },
         {
           "type": "meerkeuze",
@@ -3866,7 +3866,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een weetvraag kan je volgens de fiche niet opzoeken.",
+          "vraag": "Een weetvraag kan je niet opzoeken.",
           "antwoord": false,
           "uitleg": "Opzoeken of nameten kan je ze juist wel. Dat is precies wat haar een weetvraag maakt."
         },
@@ -3932,7 +3932,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welk ander woord gebruikt de fiche voor de filosofische vraag? Eén woord.",
+          "vraag": "Welk ander woord gebruik je voor de filosofische vraag? Eén woord.",
           "antwoord": [
             "denkvraag",
             "denk",
@@ -3942,7 +3942,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke stap zet de fiche na het soort vraag bepalen?",
+          "vraag": "Je weet welk soort vraag het is. Wat doe je daarna?",
           "opties": [
             "de kenmerken benoemen",
             "de vraag opzoeken",
@@ -3961,7 +3961,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel kenmerken heeft de filosofische vraag volgens de fiche?",
+          "vraag": "Hoeveel kenmerken heeft de filosofische vraag?",
           "opties": [
             "vijf",
             "drie in totaal",
@@ -3991,7 +3991,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke kenmerken noemt de fiche?",
+          "vraag": "Welke van deze zijn kenmerken van een filosofische vraag?",
           "opties": [
             "open",
             "universeel",
@@ -4042,7 +4042,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een filosofische vraag heeft volgens de fiche één sluitend antwoord.",
+          "vraag": "Een filosofische vraag heeft één sluitend antwoord.",
           "antwoord": false,
           "uitleg": "Ze is open. Dat betekent niet dat elk antwoord even goed is: argumenten blijven wegen."
         },
@@ -4120,7 +4120,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een filosofische vraag hoeft volgens de fiche niet fundamenteel te zijn.",
+          "vraag": "Een filosofische vraag hoeft niet fundamenteel te zijn.",
           "antwoord": false,
           "uitleg": "Fundamenteel staat net bij de vijf kenmerken. Een vraag over een detail is geen filosofische vraag."
         },
@@ -4193,7 +4193,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel filosofische domeinen noemt de fiche?",
+          "vraag": "Hoeveel filosofische domeinen onderscheid je?",
           "opties": [
             "zes",
             "drie in totaal",
@@ -4235,17 +4235,17 @@
             "de metafysica"
           ],
           "antwoord": 0,
-          "uitleg": "De ethiek vraagt wat goed handelen is en waarom. Zij krijgt in de fiche een eigen hoofdstuk."
+          "uitleg": "De ethiek vraagt wat goed handelen is en waarom. Zij krijgt een eigen hoofdstuk."
         },
         {
           "type": "waarofniet",
-          "vraag": "De kennisleer vraagt volgens de fiche naar de waarheid.",
+          "vraag": "De kennisleer vraagt naar de waarheid.",
           "antwoord": true,
           "uitleg": "Kennisleer en logica staan samen bij de vragen over de waarheid: wat kan je weten en hoe?"
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke domeinen staan in de fiche samen onder één noemer?",
+          "vraag": "Welke twee domeinen worden samen genomen onder één noemer?",
           "opties": [
             "kennisleer en logica",
             "ethiek en esthetica",
@@ -4296,7 +4296,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De natuurfilosofie is volgens de fiche hetzelfde als de natuurwetenschap.",
+          "vraag": "De natuurfilosofie is hetzelfde als de natuurwetenschap.",
           "antwoord": false,
           "uitleg": "De wetenschap meet, de natuurfilosofie denkt na over de begrippen die de wetenschap gebruikt."
         },
@@ -4355,7 +4355,7 @@
             "ethiek",
             "de ethiek"
           ],
-          "uitleg": "De ethiek. In de fiche krijgt ze een eigen hoofdstuk met twee stromingen."
+          "uitleg": "De ethiek. Ze krijgt een eigen hoofdstuk met twee stromingen."
         },
         {
           "type": "meerkeuze",
@@ -4371,7 +4371,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Of kunst mooi moet zijn, valt volgens de fiche buiten de esthetica.",
+          "vraag": "Of kunst mooi moet zijn, valt buiten de esthetica.",
           "antwoord": false,
           "uitleg": "Dat is juist een echte esthetische vraag, en ze raakt rechtstreeks aan de kunstcriteria uit het eerste deel."
         },
@@ -4405,7 +4405,7 @@
           "opties": [
             "ze ordenen de vragen",
             "ze overlappen soms",
-            "de fiche noemt er zes",
+            "er zijn er zes",
             "ze staan in een rangorde",
             "een vraag kan er meer dan één raken"
           ],
@@ -4446,7 +4446,7 @@
             "de natuurfilosofie"
           ],
           "antwoord": 0,
-          "uitleg": "Het gaat over goed handelen. Dat is ethiek, en de fiche werkt die stromingen verder uit."
+          "uitleg": "Het gaat over goed handelen. Dat is ethiek, en die stromingen werk je verder uit."
         },
         {
           "type": "invultekst",
@@ -4534,7 +4534,7 @@
             "antropologie",
             "de antropologie"
           ],
-          "uitleg": "De wijsgerige antropologie. De fiche werkt er twee thema's uit: lichaam en geest, en mens en dier."
+          "uitleg": "De wijsgerige antropologie. Ze heeft twee thema's: lichaam en geest, en mens en dier."
         },
         {
           "type": "meerkeuze",
@@ -4583,7 +4583,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een domein bepalen is volgens de fiche een van de filosofische vaardigheden.",
+          "vraag": "Een domein bepalen is een van de filosofische vaardigheden.",
           "antwoord": false,
           "uitleg": "De vaardigheden zijn een vraag stellen, argumenteren met de AUB-methode en een tekst analyseren. Domeinen onderscheiden staat apart."
         },
@@ -4766,7 +4766,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat vraagt de fiche bij een filosofische positie?",
+          "vraag": "Wat geef je bij een filosofische positie?",
           "opties": [
             "argumenten voor en tegen",
             "enkel argumenten voor",
@@ -4786,7 +4786,7 @@
             "zo mag je van gedacht veranderen"
           ],
           "antwoord": 0,
-          "uitleg": "Een standpunt dat de tegenargumenten niet kent, staat zwak. Juist daarom vraagt de fiche beide."
+          "uitleg": "Een standpunt dat de tegenargumenten niet kent, staat zwak. Daarom geef je argumenten voor én tegen."
         },
         {
           "type": "waarofniet",
@@ -4835,13 +4835,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De AUB-methode geldt volgens de fiche ook bij ethische vraagstukken.",
+          "vraag": "De AUB-methode geldt ook bij ethische vraagstukken.",
           "antwoord": true,
-          "uitleg": "De fiche vraagt uitdrukkelijk om bij een ethisch vraagstuk een argument volgens AUB te formuleren."
+          "uitleg": "Bij een ethisch vraagstuk formuleer je een argument volgens AUB."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de eerste filosofische vaardigheid van de fiche?",
+          "vraag": "Wat is de eerste filosofische vaardigheid?",
           "opties": [
             "een filosofische vraag stellen",
             "een tekst samenvatten in enkele zinnen",
@@ -5087,7 +5087,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke drie vaardigheden vraagt de fiche?",
+          "vraag": "Welke van deze zijn filosofische vaardigheden?",
           "opties": [
             "een vraag stellen",
             "argumenteren met AUB",
@@ -5111,7 +5111,7 @@
             "ze zijn daar eenvoudiger"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt bij elk thema een vraag, een argument en een tekstanalyse. Zo blijven de vaardigheden niet in de lucht hangen."
+          "uitleg": "Bij elk thema stel je een vraag, geef je een argument en analyseer je een tekst. Zo blijven de vaardigheden niet in de lucht hangen."
         }
       ]
     },
@@ -5152,7 +5152,7 @@
             "het monisme",
             "monistisch"
           ],
-          "uitleg": "Het monisme. De fiche noemt bij monisme enkel het lichaam."
+          "uitleg": "Het monisme. Bij het monisme bestaat enkel het lichaam."
         },
         {
           "type": "waarofniet",
@@ -5190,7 +5190,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Monisme en dualisme geven volgens de fiche hetzelfde antwoord.",
+          "vraag": "Monisme en dualisme geven hetzelfde antwoord.",
           "antwoord": false,
           "uitleg": "Ze staan juist tegenover elkaar: één geheel tegenover twee aparte delen."
         },
@@ -5276,7 +5276,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welk deel van de mens noemt het monisme volgens de fiche? Eén woord.",
+          "vraag": "Welk deel van de mens noemt het monisme? Eén woord.",
           "antwoord": [
             "lichaam",
             "het lichaam"
@@ -5285,7 +5285,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De fiche vraagt om bij dit thema zelf een filosofische vraag te formuleren.",
+          "vraag": "Over lichaam en geest kan je zelf een filosofische vraag formuleren.",
           "antwoord": true,
           "uitleg": "En ook om een argument voor en tegen volgens de AUB-methode en een tekstanalyse met het stappenplan."
         },
@@ -5350,7 +5350,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke drie filosofen noemt de fiche bij lichaam en geest?",
+          "vraag": "Welke drie filosofen hebben elk een visie op lichaam en geest?",
           "opties": [
             "Plato, Aristoteles, Descartes",
             "Kant, Bentham, Mill",
@@ -5555,7 +5555,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom vraagt de fiche deze filosofen in tijd en ruimte te plaatsen?",
+          "vraag": "Waarom plaats je deze filosofen in tijd en ruimte?",
           "opties": [
             "hun antwoord hangt aan hun tijd",
             "hun naam is moeilijk te spellen",
@@ -5687,7 +5687,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De vraag naar het verschil tussen mens en dier is volgens de fiche antropologisch.",
+          "vraag": "De vraag naar het verschil tussen mens en dier is antropologisch.",
           "antwoord": true,
           "uitleg": "Ze staat bij de wijsgerige antropologie: wat maakt een mens tot mens?"
         },
@@ -5733,9 +5733,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De traditionele tweedeling is volgens de fiche vandaag nog onomstreden.",
+          "vraag": "De traditionele tweedeling is vandaag nog onomstreden.",
           "antwoord": false,
-          "uitleg": "De fiche zet haar juist naast de visies van Darwin en Singer, die haar in vraag stellen."
+          "uitleg": "Ze staat juist naast de visies van Darwin en Singer, die haar in vraag stellen."
         },
         {
           "type": "meerkeuze",
@@ -5751,7 +5751,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat vraagt de fiche bij dit thema naast de visies?",
+          "vraag": "Wat doe je bij dit thema naast de visies kennen?",
           "opties": [
             "een vraag, een argument, een tekst",
             "een opstel van twee volle pagina's",
@@ -5807,7 +5807,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke vier filosofen noemt de fiche bij mens en dier?",
+          "vraag": "Welke vier filosofen hebben elk een visie op mens en dier?",
           "opties": [
             "Aristoteles, Darwin, Descartes, Singer",
             "Plato, Kant, Bentham, Mill",
@@ -6002,7 +6002,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom plaatst de fiche deze filosofen in tijd en ruimte?",
+          "vraag": "Waarom zet je Aristoteles, Darwin, Descartes en Singer in hun tijd en plaats?",
           "opties": [
             "hun tijd verklaart hun antwoord",
             "hun naam is lastig te spellen",
@@ -6033,7 +6033,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke twee ethische stromingen noemt de fiche?",
+          "vraag": "Welke twee ethische stromingen leer je in dit hoofdstuk kennen?",
           "opties": [
             "gevolgen- en plichtethiek",
             "deugd- en zorgethiek",
@@ -6157,7 +6157,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De fiche vraagt om te beargumenteren tot welke stroming een voorbeeld hoort.",
+          "vraag": "Je kan beargumenteren tot welke ethische stroming een voorbeeld hoort.",
           "antwoord": true,
           "uitleg": "Zo staat het er: je beargumenteert waarom een gegeven voorbeeld gevolgen- of plichtethiek is."
         },
@@ -6405,7 +6405,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Kant en Bentham horen volgens de fiche tot dezelfde stroming.",
+          "vraag": "Kant en Bentham horen tot dezelfde stroming.",
           "antwoord": false,
           "uitleg": "Kant is plichtethicus, Bentham gevolgenethicus. Ze staan precies tegenover elkaar."
         },
@@ -6469,7 +6469,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke filosoof komt in de fiche bij twee hoofdstukken terug?",
+          "vraag": "Welke filosoof komt zowel bij mens en dier als bij de moraalfilosofie terug?",
           "opties": [
             "Peter Singer",
             "Jeremy Bentham",
@@ -6634,7 +6634,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe pak je een moreel dilemma volgens de fiche aan?",
+          "vraag": "Hoe pak je een moreel dilemma aan?",
           "opties": [
             "met argumenten volgens AUB",
             "met een muntstuk opgooien",
@@ -6642,7 +6642,7 @@
             "met een meting in een labo"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt om een argument voor of tegen te formuleren volgens de AUB-methode."
+          "uitleg": "Formuleer een argument voor of tegen volgens de AUB-methode."
         },
         {
           "type": "invultekst",
@@ -6656,7 +6656,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een moreel dilemma lost zich volgens de fiche vanzelf op.",
+          "vraag": "Een moreel dilemma lost zich vanzelf op.",
           "antwoord": false,
           "uitleg": "Je moet kiezen en die keuze verantwoorden. Daar dient het argumenteren voor."
         },
@@ -6773,7 +6773,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke begrippen noemt de fiche bij de moraalfilosofie?",
+          "vraag": "Welke van deze begrippen horen bij de moraalfilosofie?",
           "opties": [
             "moreel dilemma",
             "waarden en normen",
@@ -6789,7 +6789,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Verantwoordelijkheid veronderstelt volgens de fiche vrijheid.",
+          "vraag": "Verantwoordelijkheid veronderstelt vrijheid.",
           "antwoord": true,
           "uitleg": "Wie niet kon kiezen, kan je niets verwijten. Daarom staan die twee begrippen samen."
         },
@@ -6828,7 +6828,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Volgens de fiche is vrijheid hetzelfde als doen wat je wil.",
+          "vraag": "Vrijheid is hetzelfde als doen wat je wil.",
           "antwoord": false,
           "uitleg": "Vrijheid in de ethiek betekent kunnen kiezen en die keuze verantwoorden, niet dat alles mag."
         },
@@ -6862,7 +6862,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De vraag naar goed en kwaad is volgens de fiche met onderzoek te beslechten.",
+          "vraag": "De vraag naar goed en kwaad is met onderzoek te beslechten.",
           "antwoord": false,
           "uitleg": "Onderzoek toont wat mensen vinden, niet wat goed is. Dat blijft een filosofische vraag."
         },
@@ -6896,7 +6896,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welk begrippenpaar staat in de fiche naast vrijheid? Eén woord.",
+          "vraag": "Welk begrip hoort bij vrijheid? Eén woord.",
           "antwoord": [
             "verantwoordelijkheid",
             "verantwoordelijk"
@@ -6905,7 +6905,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom vraagt de fiche deze begrippen op vraagstukken toe te passen?",
+          "vraag": "Waarom pas je deze begrippen toe op vraagstukken?",
           "opties": [
             "los blijven ze te abstract",
             "ze zijn anders te lang",
@@ -6929,7 +6929,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe verantwoord je volgens de fiche een keuze in een dilemma?",
+          "vraag": "Hoe verantwoord je een keuze in een dilemma?",
           "opties": [
             "met een argument en een voorbeeld",
             "met een stemming in de klas",
@@ -6960,7 +6960,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat vraagt de fiche bij een ethisch vraagstuk?",
+          "vraag": "Wat geef je bij een ethisch vraagstuk?",
           "opties": [
             "een argument volgens AUB",
             "een eigen gevoel",
@@ -6988,7 +6988,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vraagstukken noemt de fiche?",
+          "vraag": "Welke van deze zijn ethische vraagstukken over leven en lichaam?",
           "opties": [
             "anticonceptie",
             "abortus",
@@ -7040,11 +7040,11 @@
             "autonomie",
             "de zelfbeschikking"
           ],
-          "uitleg": "Zelfbeschikking of autonomie. Ze komt bij bijna elk vraagstuk van de fiche terug."
+          "uitleg": "Zelfbeschikking of autonomie. Ze komt bij bijna elk vraagstuk terug."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke begrippen noemt de fiche bij genderdiversiteit?",
+          "vraag": "Welke van deze begrippen horen bij genderdiversiteit?",
           "opties": [
             "genderidentiteit",
             "gendergelijkheid",
@@ -7056,7 +7056,7 @@
             1,
             2
           ],
-          "uitleg": "Die drie staan er. Een aparte term genderwetgeving komt op de fiche niet voor."
+          "uitleg": "Die drie horen erbij. Genderwetgeving is geen aparte term."
         },
         {
           "type": "waarofniet",
@@ -7094,13 +7094,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij abortus is het debat volgens de fiche beslecht met één argument.",
+          "vraag": "Bij abortus is het debat beslecht met één argument.",
           "antwoord": false,
           "uitleg": "Het is net een vraagstuk omdat beide kanten zwaarwegende waarden aanvoeren."
         },
         {
           "type": "waarofniet",
-          "vraag": "Genderidentiteit is volgens de fiche hetzelfde als wat anderen over iemand denken.",
+          "vraag": "Genderidentiteit is hetzelfde als wat anderen over iemand denken.",
           "antwoord": false,
           "uitleg": "Het gaat over hoe iemand zichzelf ervaart, niet over het oordeel van anderen."
         },
@@ -7152,7 +7152,7 @@
             "anders klinkt het veel te hard"
           ],
           "antwoord": 0,
-          "uitleg": "Wie de bezwaren niet kent, kan ze ook niet weerleggen. De fiche vraagt argumenten voor en tegen."
+          "uitleg": "Wie de bezwaren niet kent, kan ze ook niet weerleggen. Geef dus argumenten voor en tegen."
         },
         {
           "type": "meerkeuze",
@@ -7175,7 +7175,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke voorbeelden noemt de fiche bij dierenrechten?",
+          "vraag": "Welke van deze zijn voorbeelden bij dierenrechten?",
           "opties": [
             "dierenproeven",
             "circusdieren",
@@ -7187,7 +7187,7 @@
             1,
             2
           ],
-          "uitleg": "De fiche noemt een verbod op dierenproeven en circusdieren als voorbeelden."
+          "uitleg": "Een verbod op dierenproeven en circusdieren zijn voorbeelden."
         },
         {
           "type": "meerkeuze",
@@ -7225,9 +7225,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Of een argument bij de gevolgen- of de plichtethiek hoort, blijft volgens de fiche buiten beschouwing.",
+          "vraag": "Of een argument bij de gevolgen- of de plichtethiek hoort, blijft buiten beschouwing.",
           "antwoord": false,
-          "uitleg": "De fiche vraagt juist om dat te beargumenteren bij een gegeven voorbeeld."
+          "uitleg": "Precies: je beargumenteert dat bij een gegeven voorbeeld."
         },
         {
           "type": "meerkeuze",
@@ -7243,7 +7243,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke voorbeelden noemt de fiche bij risicogedrag bij jongeren?",
+          "vraag": "Welke van deze zijn voorbeelden van risicogedrag bij jongeren?",
           "opties": [
             "alcoholgebruik",
             "druggebruik",
@@ -7255,7 +7255,7 @@
             1,
             2
           ],
-          "uitleg": "Die drie staan op de fiche als voorbeelden van risicogedrag."
+          "uitleg": "Die drie zijn voorbeelden van risicogedrag."
         },
         {
           "type": "waarofniet",
@@ -7333,7 +7333,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De fiche vraagt bij deze vraagstukken om een eigen standpunt met argumenten.",
+          "vraag": "Bij een ethisch vraagstuk geef je een eigen standpunt met argumenten.",
           "antwoord": true,
           "uitleg": "Je formuleert een argument voor of tegen volgens de AUB-methode. Het argument wordt beoordeeld, niet het standpunt."
         },

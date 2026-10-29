@@ -180,7 +180,7 @@ DEEL2 = [
          antwoord=0,
          uitleg="Verkennen én terugkeren is het beeld van veilige hechting."),
     dict(type="waarofniet",
-         vraag="De vakfiche onderscheidt drie vormen van onveilige hechting.",
+         vraag="Er zijn drie vormen van onveilige hechting.",
          antwoord=True,
          uitleg="Angstig-vermijdend, angstig-ambivalent en gedesorganiseerd of gedesoriënteerd."),
     dict(type="meerkeuze",
@@ -192,7 +192,7 @@ DEEL2 = [
          antwoord=0,
          uitleg="Het kind lijkt onverschillig, maar van binnen is er wel spanning. Het heeft geleerd dat vragen weinig oplevert."),
     dict(type="meerkeuze",
-         vraag="Welke vormen van onveilige hechting noemt de vakfiche?",
+         vraag="Welke van deze zijn vormen van onveilige hechting?",
          opties=[
              "angstig-vermijdend",
              "angstig-ambivalent",
@@ -226,7 +226,7 @@ DEEL2 = [
          antwoord=0,
          uitleg="Samen met de persoonspermanentie. Het kind herkent nu wie vertrouwd is en wie niet."),
     dict(type="meerkeuze",
-         vraag="Welke gevolgen van hechting noemt de vakfiche?",
+         vraag="Welke van deze zijn gevolgen van hechting?",
          opties=[
              "scheidingsangst",
              "angst voor vreemden",

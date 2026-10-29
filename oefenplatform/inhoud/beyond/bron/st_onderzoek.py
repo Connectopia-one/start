@@ -50,7 +50,7 @@ DEEL1 = [
             "de uitschieters verwijderen voor je begint te rekenen",
         ],
         antwoord=0,
-        uitleg="De fiche noemt dat verkennen: groeperen, een frequentietabel maken en een grafiek bekijken. Pas daarna reken je verder.",
+        uitleg="Dat heet verkennen: groeperen, een frequentietabel maken en een grafiek bekijken. Pas daarna reken je verder.",
     ),
     dict(
         type="meerkeuze",
@@ -62,13 +62,13 @@ DEEL1 = [
             "van beide variabelen de modus bepalen en vergelijken",
         ],
         antwoord=0,
-        uitleg="Eerst de vorm bekijken, dan het getal berekenen. De fiche vraagt uitdrukkelijk de trendlijn en de correlatiecoëfficiënt samen.",
+        uitleg="Eerst de vorm bekijken, dan het getal berekenen. De trendlijn en de correlatiecoëfficiënt horen samen.",
     ),
     dict(
         type="waarofniet",
         vraag="Je beoordeelt met een grafische voorstelling of de normale verdeling bij je data past.",
         antwoord=True,
-        uitleg="Dat staat letterlijk als leerdoel in de fiche. Een histogram is daar het geschiktst voor.",
+        uitleg="Een histogram is daar het geschiktst voor.",
     ),
     dict(
         type="meerkeuze",
@@ -84,7 +84,7 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Welke handleiding raadt de fiche aan voor dit onderdeel? Geef het kernwoord in één woord.",
+        vraag="Welk hulpmiddel gebruik je bij dit onderdeel? Geef het kernwoord in één woord.",
         antwoord=["rekenapps", "rekenapp", "ICT"],
         uitleg="De handleiding gebruik van de rekenapps voor statistiek derde graad, op de website van de examencommissie.",
     ),
@@ -120,7 +120,7 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="De fiche verwijst naar websites met datasets om een statistisch onderzoek op te oefenen.",
+        vraag="Op websites met datasets kan je een statistisch onderzoek oefenen.",
         antwoord=True,
         uitleg="Ze noemt de geboortedatabank van de UHasselt, de open data van Statbel en de datasets van Kaggle.",
     ),
@@ -131,7 +131,7 @@ DEEL1 = [
             "omdat een grafiek de vorm toont die een getal kan verbergen",
             "omdat een rekenapp zonder grafiek geen kengetallen geeft",
             "omdat een grafiek nauwkeuriger is dan een kengetal",
-            "omdat de fiche een grafiek verplicht bij elke berekening",
+            "omdat het examen een grafiek verplicht bij elke berekening",
         ],
         antwoord=0,
         uitleg="Twee toppen, een scheve staart of een uitschieter: dat zie je in een beeld en niet in een gemiddelde.",
@@ -192,7 +192,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke stap hoort niet bij het verkennen van een dataset volgens de fiche?",
+        vraag="Welke stap hoort niet bij het verkennen van een dataset?",
         opties=[
             "de nulhypothese verwerpen op basis van een eerste blik",
             "de gegevens groeperen in klassen",
@@ -225,7 +225,7 @@ DEEL1 = [
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Wat betekent exact werken volgens de vakfiche?",
+        vraag="Wat betekent exact werken met een rekenapp?",
         opties=[
             "een wiskundige uitdrukking niet benaderen of afronden",
             "met zoveel decimalen rekenen als je rekenapp toont",
@@ -233,11 +233,11 @@ DEEL2 = [
             "alle antwoorden in breukvorm noteren",
         ],
         antwoord=0,
-        uitleg="Breuken, wortels en logaritmen laat je staan als ze niet mooi uitkomen. Dat staat letterlijk in de fiche.",
+        uitleg="Breuken, wortels en logaritmen laat je staan als ze niet mooi uitkomen.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom rekent de fiche met zo nauwkeurig mogelijke tussenresultaten?",
+        vraag="Waarom reken je met zo nauwkeurig mogelijke tussenresultaten?",
         opties=[
             "omdat afrondingsfouten in de tussenstappen doorwerken in je eindantwoord",
             "omdat een rekenapp anders een foutmelding geeft",
@@ -245,17 +245,17 @@ DEEL2 = [
             "omdat de verbetering alleen decimalen nakijkt",
         ],
         antwoord=0,
-        uitleg="De fiche zegt het zo: hoe onnauwkeuriger je tussenresultaten, hoe meer je eindresultaat kan afwijken.",
+        uitleg="Hoe onnauwkeuriger je tussenresultaten, hoe meer je eindresultaat kan afwijken.",
     ),
     dict(
         type="waarofniet",
         vraag="Bij een vraag met het icoon voor functioneel ICT-gebruik moet je nog altijd je tussenstappen uitschrijven.",
         antwoord=True,
-        uitleg="De fiche vraagt dat bij allebei de iconen: je toont je werkwijze en je redenering en schrijft alle berekeningen uit.",
+        uitleg="Je toont je werkwijze en je redenering en schrijft alle berekeningen uit.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke hulpmiddelen mag je volgens de fiche tijdens het examen gebruiken?",
+        vraag="Welke hulpmiddelen mag je tijdens het examen gebruiken?",
         opties=[
             "de rekenapps, een online rekentoestel, een spellingcontrole en een woordenboek",
             "je eigen grafische rekentoestel, een woordenboek en een samenvatting op papier",
@@ -275,7 +275,7 @@ DEEL2 = [
             "een tweede toets op een ander significantieniveau",
         ],
         antwoord=0,
-        uitleg="De fiche vraagt letterlijk dat je je resultaten interpreteert in functie van de gegeven probleemstelling.",
+        uitleg="Je interpreteert je resultaten in functie van de gegeven probleemstelling.",
     ),
     dict(
         type="invultekst",
@@ -311,13 +311,13 @@ DEEL2 = [
             "omdat een antwoord zonder uitleg niet leesbaar is",
         ],
         antwoord=0,
-        uitleg="Dat staat zo in de fiche, bij hoe het examen beoordeeld wordt. De begrippen uit de bijlage zijn de enige die gelden.",
+        uitleg="Zo wordt het examen beoordeeld: alleen de afgesproken begrippen en notaties gelden.",
     ),
     dict(
         type="waarofniet",
         vraag="Bij sommige vragen van dit examen noteer je je antwoord op een schrijftablet met een digitale pen.",
         antwoord=True,
-        uitleg="De fiche zegt dat erbij en verwijst naar de pagina over examens met een schrijftablet om te oefenen.",
+        uitleg="Op de pagina over examens met een schrijftablet kan je oefenen.",
     ),
     dict(
         type="meerkeuze",
@@ -346,9 +346,9 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een opgave kan ook een probleem zijn dat je niet aan één hoofdstuk van de fiche kan koppelen.",
+        vraag="Een opgave kan ook een probleem zijn dat je niet aan één hoofdstuk kan koppelen.",
         antwoord=True,
-        uitleg="De fiche onderscheidt een vraagstuk, dat bij één hoofdstuk hoort, van een probleem, waar je leerinhouden combineert.",
+        uitleg="Een vraagstuk hoort bij één hoofdstuk; bij een probleem combineer je leerinhouden.",
     ),
     dict(
         type="meerkeuze",
@@ -378,7 +378,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Een antwoord dat enkel uit het resultaat van een rekenapp bestaat, is op dit examen voldoende.",
         antwoord=False,
-        uitleg="De fiche vraagt bij open vragen altijd je werkwijze, je redenering en alle tussenstappen.",
+        uitleg="Bij open vragen toon je altijd je werkwijze, je redenering en alle tussenstappen.",
     ),
     dict(
         type="meerkeuze",
@@ -390,7 +390,7 @@ DEEL2 = [
             "zonder context hoef je je werkwijze niet te noteren",
         ],
         antwoord=0,
-        uitleg="De fiche vraagt je om op allebei voorbereid te zijn, en bij veel leerdoelen uitdrukkelijk op opgaven met context.",
+        uitleg="Wees op allebei voorbereid, en bij veel leerdoelen uitdrukkelijk op opgaven met context.",
     ),
     dict(
         type="meerkeuze",
@@ -409,7 +409,7 @@ DEEL2 = [
         vraag=r"Een leerling meldt een \(p\)-waarde met acht decimalen en noemt dat exact werken. Wat zeg je?",
         opties=[
             "exact werken gaat over niet afronden, niet over veel decimalen",
-            "acht decimalen zijn te weinig, de fiche vraagt er tien",
+            "acht decimalen zijn te weinig, het moeten er tien zijn",
             "hij moet alle decimalen weglaten en afronden op een geheel getal",
             "hij heeft gelijk, hoe meer decimalen hoe exacter",
         ],

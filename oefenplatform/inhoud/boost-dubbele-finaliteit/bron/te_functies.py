@@ -260,7 +260,7 @@ DEEL2 = [
          antwoord=0,
          uitleg="Wijzigt het tarief, dan pas je één cel aan en volgen alle formules."),
     dict(type="meerkeuze",
-         vraag="Welke tekstfuncties noemt de vakfiche?",
+         vraag="Welke van deze zijn tekstfuncties?",
          opties=[
              "LINKS",
              "RECHTS",

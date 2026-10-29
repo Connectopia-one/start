@@ -36,7 +36,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Over welke thema's kan je onderzoek volgens de vakfiche gaan? (meerdere antwoorden mogelijk)",
+        vraag="Over welke thema's kan je onderzoek gaan? (meerdere antwoorden mogelijk)",
         opties=[
             "Mobiliteit, met files, lawaai en luchtvervuiling",
             "Waterproblemen, met tekort en overstromingen",
@@ -45,7 +45,7 @@ DEEL1 = [
             "De bouw van een fabriek in een ander werelddeel",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De fiche noemt er vier: mobiliteit, waterproblematieken, veranderend landgebruik en klimaatverandering. Telkens onderzoek je de oorzaken én de gevolgen in het landschap.",
+        uitleg="Er zijn er vier: mobiliteit, waterproblematieken, veranderend landgebruik en klimaatverandering. Telkens onderzoek je de oorzaken én de gevolgen in het landschap.",
     ),
     dict(
         type="waarofniet",
@@ -67,7 +67,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze horen bij de geografische hulpbronnen uit de fiche? (meerdere antwoorden mogelijk)",
+        vraag="Welke van deze zijn geografische hulpbronnen? (meerdere antwoorden mogelijk)",
         opties=[
             "Kaarten, luchtfoto's en satellietbeelden",
             "Grafieken, tabellen en cijfergegevens",
@@ -76,7 +76,7 @@ DEEL1 = [
             "Je eigen herinnering aan hoe het vroeger was",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De fiche somt onder meer atlas, kaarten, satellietbeelden, foto's, tekeningen, teksten, cijfers, grafieken, klimatogrammen en diagrammen op. Meningen en herinneringen zijn interessant maar geen hulpbron in die zin.",
+        uitleg="Hulpbronnen zijn onder meer de atlas, kaarten, satellietbeelden, foto's, tekeningen, teksten, cijfers, grafieken, klimatogrammen en diagrammen. Meningen en herinneringen zijn interessant maar geen hulpbron in die zin.",
     ),
     dict(
         type="waarofniet",
@@ -185,7 +185,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Een besluit mag ook zeggen dat er te weinig gegevens waren om de vraag te beantwoorden.",
         antwoord=True,
-        uitleg="Eerlijk zijn over wat je niet weet, hoort bij onderzoek. De fiche vraagt trouwens uitdrukkelijk om ook de beperkingen van je bronnen te benoemen.",
+        uitleg="Eerlijk zijn over wat je niet weet, hoort bij onderzoek. Benoem dus ook de beperkingen van je bronnen.",
     ),
     dict(
         type="meerkeuze",
@@ -215,7 +215,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Bij een onderzoek naar mobiliteit kunnen lawaai en luchtkwaliteit ook een rol spelen.",
         antwoord=True,
-        uitleg="De fiche noemt ze zelf: files, geluidsoverlast en luchtvervuiling horen bij hetzelfde thema. Ze zijn gevolgen van dezelfde verkeersstromen.",
+        uitleg="Files, geluidsoverlast en luchtvervuiling horen bij hetzelfde thema. Ze zijn gevolgen van dezelfde verkeersstromen.",
     ),
 ]
 
@@ -260,7 +260,7 @@ DEEL2 = [
             "De knop om een laag transparant te maken",
         ],
         antwoord=0,
-        uitleg="Met het meetgereedschap teken je een lijn of een vlak en lees je de lengte of de oppervlakte af. Dat is precies wat de fiche van je vraagt.",
+        uitleg="Met het meetgereedschap teken je een lijn of een vlak en lees je de lengte of de oppervlakte af.",
     ),
     dict(
         type="meerkeuze",
@@ -332,7 +332,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom vraagt de fiche om uit te leggen hoe de digitale kaart je geholpen heeft én wat haar beperkingen waren?",
+        vraag="Waarom leg je bij een onderzoek uit hoe de digitale kaart je geholpen heeft én wat haar beperkingen waren?",
         opties=[
             "Een bron kritisch bekijken hoort bij het onderzoek zelf",
             "De kaart moet daarna gecorrigeerd worden door de overheid",
@@ -364,7 +364,7 @@ DEEL2 = [
         type="invultekst",
         vraag="Hoe noem je het gereedschap in Geopunt waarmee je afstanden en oppervlakten bepaalt?",
         antwoord=["meetgereedschap", "het meetgereedschap", "meetinstrument"],
-        uitleg="Met het meetgereedschap teken je een lijn of een veelhoek op de kaart en lees je de lengte of de oppervlakte af. Het staat uitdrukkelijk in de vakfiche.",
+        uitleg="Met het meetgereedschap teken je een lijn of een veelhoek op de kaart en lees je de lengte of de oppervlakte af.",
     ),
     dict(
         type="waarofniet",
@@ -399,7 +399,7 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Elk onderdeel van de vakfiche kan in het onderzoeksdeel van het examen terugkomen.",
+        vraag="In het onderzoeksdeel van het examen kan alle leerstof van aardrijkskunde terugkomen.",
         antwoord=True,
         uitleg="Dat staat er letterlijk: alle te kennen inhoud kan in dit deel verwerkt zijn. Onderzoek is dus geen apart stukje leerstof maar de manier waarop de rest getoetst wordt.",
     ),

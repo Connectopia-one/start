@@ -41,7 +41,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke soorten sociale mobiliteit noemt de fiche?",
+        vraag="Welke van deze zijn soorten sociale mobiliteit?",
         opties=[
             "horizontale mobiliteit",
             "verticale mobiliteit",
@@ -51,7 +51,7 @@ DEEL1 = [
             "intragenerationele mobiliteit",
         ],
         antwoord=[0, 1, 2, 5],
-        uitleg="Horizontaal, verticaal, intragenerationeel en intergenerationeel staan in de fiche. De geografische en de culturele niet.",
+        uitleg="Horizontaal, verticaal, intragenerationeel en intergenerationeel zijn soorten sociale mobiliteit. Geografisch en cultureel niet.",
     ),
     dict(
         type="meerkeuze",
@@ -129,11 +129,11 @@ DEEL1 = [
         type="waarofniet",
         vraag="Horizontale mobiliteit betekent dat iemand naar een andere streek verhuist.",
         antwoord=False,
-        uitleg="Niet waar. Dat is geografische mobiliteit, en die staat niet in de fiche. Horizontaal is van positie veranderen op dezelfde hoogte.",
+        uitleg="Niet waar. Dat is geografische mobiliteit, en dat is geen sociale mobiliteit. Horizontaal is van positie veranderen op dezelfde hoogte.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke factoren noemt de fiche als invloed op de mate van sociale mobiliteit?",
+        vraag="Welke factoren beïnvloeden de mate van sociale mobiliteit?",
         opties=[
             "de afkomst",
             "de kennis",
@@ -143,7 +143,7 @@ DEEL1 = [
             "het geslacht",
         ],
         antwoord=[0, 1, 2, 5],
-        uitleg="De fiche noemt negen factoren. Temperament en persoonlijkheid horen bij de gedragswetenschappen, niet bij deze lijst.",
+        uitleg="Er zijn negen factoren. Temperament en persoonlijkheid horen bij de gedragswetenschappen, niet bij deze lijst.",
     ),
     dict(
         type="meerkeuze",
@@ -189,13 +189,13 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een echtscheiding kan volgens de fiche een invloed hebben op de sociale mobiliteit van iemand.",
+        vraag="Een echtscheiding kan een invloed hebben op de sociale mobiliteit van iemand.",
         antwoord=True,
-        uitleg="Waar. De fiche noemt huwelijk en echtscheiding als een van de negen factoren. Een scheiding kan een inkomen halveren.",
+        uitleg="Waar. Huwelijk en echtscheiding zijn een van de negen factoren. Een scheiding kan een inkomen halveren.",
     ),
     dict(
         type="waarofniet",
-        vraag="Volgens de fiche beïnvloedt een handicap de sociale mobiliteit niet.",
+        vraag="Een handicap beïnvloedt de sociale mobiliteit niet.",
         antwoord=False,
         uitleg="Niet waar. Handicap staat uitdrukkelijk in de lijst van negen factoren.",
     ),
@@ -240,7 +240,7 @@ DEEL1 = [
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Wat bedoelt de fiche met de relatie tussen onderwijs en sociale ongelijkheid?",
+        vraag="Wat bedoel je met de relatie tussen onderwijs en sociale ongelijkheid?",
         opties=[
             "onderwijs kan ongelijkheid verkleinen en ook doorgeven",
             "onderwijs maakt alle ongelijkheid altijd kleiner",
@@ -294,7 +294,7 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="De fiche vraagt om argumenten voor én tegen meritocratie te kunnen geven.",
+        vraag="Je kan argumenten voor én tegen meritocratie geven.",
         antwoord=True,
         uitleg="Waar. Ze vraagt argumenten te herkennen, te beoordelen en zelf te geven, voor of tegen.",
     ),
@@ -426,7 +426,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat vraagt de fiche om met het matheüseffect en de meritocratie te doen?",
+        vraag="Wat doe je met het matheüseffect en de meritocratie?",
         opties=[
             "ze toepassen op een casus en er argumenten over geven",
             "ze uit het hoofd opsommen met hun jaartal",
@@ -434,6 +434,6 @@ DEEL2 = [
             "ze vergelijken met de stratificatiesystemen",
         ],
         antwoord=0,
-        uitleg="De fiche vraagt nieuwe casussen te analyseren, de relatie tussen onderwijs en ongelijkheid te onderzoeken en zelf argumenten te geven.",
+        uitleg="Je analyseert nieuwe casussen, onderzoekt de relatie tussen onderwijs en ongelijkheid en geeft zelf argumenten.",
     ),
 ]

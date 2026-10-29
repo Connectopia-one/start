@@ -190,7 +190,7 @@ DEEL2 = [
          uitleg="Normatief komt van norm: ze stelt de regel zelf ter discussie en niet alleen wat "
                 "mensen erover denken."),
     dict(type="meerkeuze",
-         vraag="Welke vier richtingen horen bij de normatieve ethiek volgens deze fiche?",
+         vraag="Welke vier richtingen horen bij de normatieve ethiek?",
          opties=["gevolgenethiek, plichtethiek, deugdethiek en zorgethiek",
                  "gevolgenethiek, plichtethiek, descriptieve ethiek en zorgethiek",
                  "deugdethiek, zorgethiek, cultuurrelativisme en universalisme",

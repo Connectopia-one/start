@@ -149,7 +149,7 @@ DEEL1 = [
             "het rekeninguittreksel",
         ],
         antwoord=0,
-        uitleg="De fiche noemt de loonfiche uitdrukkelijk als mogelijk bronmateriaal op het examen.",
+        uitleg="Een loonfiche kan op het examen als bronmateriaal voorkomen.",
     ),
     dict(
         type="waarofniet",
@@ -285,7 +285,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat beïnvloedt volgens de fiche de hoogte van de bedrijfsvoorheffing?",
+        vraag="Wat beïnvloedt de hoogte van de bedrijfsvoorheffing?",
         opties=[
             "de gezinssituatie van de werknemer",
             "de sector waarin het bedrijf werkt",
@@ -293,7 +293,7 @@ DEEL2 = [
             "de grootte van het bedrijf",
         ],
         antwoord=0,
-        uitleg="De fiche vraagt uitdrukkelijk uit te leggen hoe de gezinssituatie de berekening beïnvloedt.",
+        uitleg="Leg uit hoe de gezinssituatie de berekening beïnvloedt.",
     ),
     dict(
         type="meerkeuze",

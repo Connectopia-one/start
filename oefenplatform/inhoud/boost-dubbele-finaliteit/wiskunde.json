@@ -31,7 +31,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is volgens de vakfiche het verschil tussen een vraagstuk en een probleem?",
+          "vraag": "Wat is het verschil tussen een vraagstuk en een probleem?",
           "opties": [
             "een vraagstuk los je op met de leerstof van één hoofdstuk, bij een probleem combineer je hoofdstukken",
             "een vraagstuk staat altijd in gewone woorden, terwijl een probleem altijd in symbolen staat",
@@ -39,11 +39,11 @@
             "een vraagstuk komt op het examen, een probleem enkel in de les"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zegt het zo: een probleem laat zich niet aan één hoofdstuk koppelen, je combineert leerinhouden."
+          "uitleg": "Een probleem laat zich niet aan één hoofdstuk koppelen: je combineert leerinhouden."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vier stappen noemt de fiche om een opgave procedureel op te lossen?",
+          "vraag": "Welke vier stappen doorloop je om een opgave procedureel op te lossen?",
           "opties": [
             "begrijp het probleem, maak een plan, voer het plan uit, reflecteer",
             "lees de opgave, reken, noteer en controleer met je rekenmachine",
@@ -55,7 +55,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is een meetkundig probleem volgens de vakfiche?",
+          "vraag": "Wat is een meetkundig probleem?",
           "opties": [
             "de verzamelnaam voor vraagstukken en problemen waarvoor je meetkundige vaardigheden nodig hebt",
             "elke opgave waarin een tekening staat, ook als je daar niet voor hoeft te meten of te construeren",
@@ -67,7 +67,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat bedoelt de fiche met een opgave 'zonder context'?",
+          "vraag": "Wat is een opgave 'zonder context'?",
           "opties": [
             "een opgave die abstract en zuiver wiskundig is",
             "een opgave waarbij de gegevens ontbreken",
@@ -79,7 +79,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke van deze aanpakken is géén heuristiek uit de lijst van de fiche?",
+          "vraag": "Welke van deze aanpakken is géén heuristiek?",
           "opties": [
             "het antwoord opzoeken in de oplossingen achteraan",
             "gegevens schematisch voorstellen en netjes ordenen",
@@ -119,7 +119,7 @@
           "opties": [
             "omdat je zo merkt of je uitkomst kan kloppen en of je aanpak elders bruikbaar is",
             "omdat je anders punten verliest voor de netheid van je uitwerking en je notatie",
-            "omdat de fiche het in die volgorde opsomt",
+            "omdat het stappenplan het in die volgorde opsomt",
             "omdat je pas na het reflecteren mag afronden"
           ],
           "antwoord": 0,
@@ -151,7 +151,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke van deze vaardigheden rekent de fiche onder meet- en tekenvaardigheid?",
+          "vraag": "Welke van deze vaardigheden hoort bij meet- en tekenvaardigheid?",
           "opties": [
             "hoeken meten met een geodriehoek en tekenen met passer en geodriehoek",
             "handig hoofdrekenen met grote getallen",
@@ -159,13 +159,13 @@
             "een vraagstuk in je eigen woorden navertellen aan iemand die het niet kent"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt vier vaardigheden: taal, rekenen, meten en tekenen, en ICT."
+          "uitleg": "Er zijn vier vaardigheden: taal, rekenen, meten en tekenen, en ICT."
         },
         {
           "type": "waarofniet",
           "vraag": "Bij een opgave met context mag je zelf kiezen welke oplossingsstrategie je gebruikt.",
           "antwoord": true,
-          "uitleg": "De fiche zegt uitdrukkelijk dat je zelf de strategie kiest aan de hand van je kennis en vaardigheden."
+          "uitleg": "Je kiest zelf de strategie aan de hand van je kennis en vaardigheden."
         },
         {
           "type": "waarofniet",
@@ -177,7 +177,7 @@
           "type": "waarofniet",
           "vraag": "Een schets maken telt als een volwaardige oplossingsstrategie.",
           "antwoord": true,
-          "uitleg": "De fiche noemt een schets, tekening of tabel als eerste heuristiek in de lijst."
+          "uitleg": "Een schets, tekening of tabel is de eerste heuristiek in de lijst."
         },
         {
           "type": "waarofniet",
@@ -206,7 +206,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een opgave die je niet aan één hoofdstuk kan koppelen, noemt de fiche een ...",
+          "vraag": "Een opgave die je niet aan één hoofdstuk kan koppelen, noem je een ...",
           "antwoord": [
             "probleem",
             "een probleem"
@@ -306,7 +306,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent taalvaardigheid in de lijst van de fiche?",
+          "vraag": "Wat betekent taalvaardigheid in wiskunde?",
           "opties": [
             "wiskundige uitdrukkingen, tekeningen, grafieken en diagrammen begrijpen",
             "een opgave vlot kunnen voorlezen",
@@ -318,7 +318,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je probeert een getal, ziet dat het te groot uitvalt en probeert een kleiner. Hoe noemt de fiche dat?",
+          "vraag": "Je probeert een getal, ziet dat het te groot uitvalt en probeert een kleiner. Hoe noem je dat?",
           "opties": [
             "schatten, slim gissen, testen en controleren",
             "het vraagstuk simuleren",
@@ -354,7 +354,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom vraagt de fiche dat je je tussenstappen verantwoordt?",
+          "vraag": "Waarom verantwoord je je tussenstappen?",
           "opties": [
             "omdat een lezer dan kan volgen welke eigenschap je toepast en waar het misloopt",
             "omdat een langere oplossing meer punten oplevert",
@@ -378,7 +378,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Je mag bij een probleem gegevens uit meerdere hoofdstukken van de fiche combineren.",
+          "vraag": "Bij een probleem mag je kennis uit meerdere hoofdstukken combineren.",
           "antwoord": true,
           "uitleg": "Dat is net wat een probleem onderscheidt van een vraagstuk."
         },
@@ -909,7 +909,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke afrondingsregel geldt volgens de vakfiche?",
+          "vraag": "Welke afrondingsregel geldt?",
           "opties": [
             "bij \\(0\\) tot en met \\(4\\) rond je naar beneden af, bij \\(5\\) tot en met \\(9\\) naar boven",
             "bij \\(0\\) tot en met \\(5\\) rond je naar beneden af, bij \\(6\\) tot en met \\(9\\) naar boven",
@@ -998,7 +998,7 @@
             "omdat afrondingsfouten anders bij elke tussenstap groter worden",
             "omdat je anders je rekenmachine niet meer mag gebruiken",
             "omdat een tussenresultaat nooit een komma mag bevatten",
-            "omdat de fiche voorschrijft dat je maar één keer mag afronden"
+            "omdat je wettelijk maar één keer mag afronden"
           ],
           "antwoord": 0,
           "uitleg": "Wie in drie stappen telkens afrondt, kan er op het einde procenten naast zitten."
@@ -1344,7 +1344,7 @@
             "de rechte staat altijd loodrecht op het vlak of valt ermee samen"
           ],
           "antwoord": 0,
-          "uitleg": "Die vier mogelijkheden staan zo in de vakfiche opgesomd."
+          "uitleg": "Die vier mogelijkheden zijn er."
         },
         {
           "type": "meerkeuze",
@@ -1372,7 +1372,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke drie aanzichten noemt de vakfiche bij de projecties op drie vlakken?",
+          "vraag": "Welke drie aanzichten teken je bij de projecties op drie vlakken?",
           "opties": [
             "zijaanzicht, vooraanzicht en bovenaanzicht",
             "zijaanzicht, achteraanzicht en onderaanzicht",
@@ -2727,7 +2727,7 @@
           "opties": [
             "omdat een tekenfout of een verkeerde bewerking zo meteen opvalt",
             "omdat een formule pas geldt als je er getallen in gezet hebt",
-            "omdat de fiche dat verplicht bij elke omvorming",
+            "omdat het examen dat verplicht bij elke omvorming",
             "omdat je anders geen rekenmachine mag gebruiken"
           ],
           "antwoord": 0,
@@ -3484,7 +3484,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vier voorstellingswijzen van een functie noemt de fiche?",
+          "vraag": "Wat zijn de vier voorstellingswijzen van een functie?",
           "opties": [
             "verwoording, tabel, grafiek en voorschrift",
             "formule, tekening, verhaal en schema",
@@ -3584,7 +3584,7 @@
           "opties": [
             "zonder ijk kan je geen enkele waarde aflezen",
             "omdat de grafiek anders niet op het blad past",
-            "omdat de fiche dat verplicht voor elke tekening",
+            "omdat het examen dat verplicht voor elke tekening",
             "om te tonen welke variabele afhankelijk is"
           ],
           "antwoord": 0,

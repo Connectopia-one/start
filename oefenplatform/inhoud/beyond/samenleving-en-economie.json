@@ -7,7 +7,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat bedoelt de vakfiche met identiteit?",
+          "vraag": "Wat bedoel je met identiteit?",
           "opties": [
             "het geheel van wie iemand is, in verhouding tot anderen",
             "de gegevens die op iemands identiteitskaart staan afgedrukt",
@@ -15,11 +15,11 @@
             "de rol die iemand opneemt in zijn of haar eigen gezin"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt identiteit relationeel: wie je bent, krijgt vorm in verhouding tot de mensen rond je."
+          "uitleg": "Identiteit is relationeel: wie je bent, krijgt vorm in verhouding tot de mensen rond je."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke twee soorten identiteit onderscheidt de vakfiche?",
+          "vraag": "Welke twee soorten identiteit onderscheid je?",
           "opties": [
             "persoonlijke identiteit en groepsidentiteit",
             "wettelijke identiteit en gevoelsidentiteit",
@@ -27,7 +27,7 @@
             "binnenlandse identiteit en buitenlandse identiteit"
           ],
           "antwoord": 0,
-          "uitleg": "Alleen die twee staan in de fiche. De andere namen bestaan daar niet."
+          "uitleg": "Alleen die twee kloppen. De andere namen bestaan niet als soort identiteit."
         },
         {
           "type": "meerkeuze",
@@ -39,7 +39,7 @@
             "taal, geloofsovertuiging en de streek waar je woont"
           ],
           "antwoord": 0,
-          "uitleg": "De andere rijtjes horen bij de groepsidentiteit of staan helemaal niet in de fiche."
+          "uitleg": "De andere rijtjes horen bij de groepsidentiteit of bestaan niet."
         },
         {
           "type": "meerkeuze",
@@ -67,7 +67,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke lagen horen volgens de fiche bij de groepsidentiteit?",
+          "vraag": "Welke lagen horen bij de groepsidentiteit?",
           "opties": [
             "regionale, nationale en supranationale aspecten",
             "de groepen waar je deel van uitmaakt",
@@ -79,11 +79,11 @@
             1,
             2
           ],
-          "uitleg": "De fiche noemt er drie. Persoonlijkheidstrekken horen bij de persoonlijke identiteit."
+          "uitleg": "Er zijn er drie. Persoonlijkheidstrekken horen bij de persoonlijke identiteit."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke groepen noemt de fiche als onderdeel van de groepsidentiteit?",
+          "vraag": "Welke groepen horen bij de groepsidentiteit?",
           "opties": [
             "gendergerelateerde groepen",
             "sociaaleconomische groepen",
@@ -97,7 +97,7 @@
             2,
             4
           ],
-          "uitleg": "Die staan er met zoveel woorden. Over schoolresultaten zegt de fiche niets."
+          "uitleg": "Die horen erbij. Schoolresultaten niet."
         },
         {
           "type": "meerkeuze",
@@ -127,11 +127,11 @@
           "type": "waarofniet",
           "vraag": "Je persoonlijke identiteit en je groepsidentiteit staan volledig los van elkaar.",
           "antwoord": false,
-          "uitleg": "Ze beïnvloeden elkaar. De fiche vraagt juist dat je over die wederzijdse invloed kan nadenken."
+          "uitleg": "Ze beïnvloeden elkaar. Over die wederzijdse invloed moet je kunnen nadenken."
         },
         {
           "type": "waarofniet",
-          "vraag": "Je familiale achtergrond is volgens de fiche een laag van je persoonlijke identiteit.",
+          "vraag": "Je familiale achtergrond is een laag van je persoonlijke identiteit.",
           "antwoord": true,
           "uitleg": "Ze staat in het rijtje naast de biologische aspecten en de persoonlijkheidstrekken."
         },
@@ -139,11 +139,11 @@
           "type": "waarofniet",
           "vraag": "Een identiteit ligt vast vanaf je geboorte en verandert daarna niet meer.",
           "antwoord": false,
-          "uitleg": "De fiche noemt identiteit dynamisch: ze kan veranderen in de loop van je leven."
+          "uitleg": "Identiteit is dynamisch: ze kan veranderen in de loop van je leven."
         },
         {
           "type": "waarofniet",
-          "vraag": "Volgens de fiche bestaat je identiteit uit meerdere lagen samen.",
+          "vraag": "Je identiteit bestaat uit meerdere lagen samen.",
           "antwoord": true,
           "uitleg": "Gelaagd is een van de drie woorden waarmee het leerdoel identiteit beschrijft."
         },
@@ -173,7 +173,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Vul aan: de drie woorden waarmee de fiche identiteit beschrijft zijn relationeel, dynamisch en ...",
+          "vraag": "Vul aan: identiteit is relationeel, dynamisch en ...",
           "antwoord": [
             "gelaagd"
           ],
@@ -181,7 +181,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe noemt de fiche een kleinere groep met eigen gewoonten binnen een grotere cultuur?",
+          "vraag": "Hoe noem je een kleinere groep met eigen gewoonten binnen een grotere cultuur?",
           "antwoord": [
             "subcultuur",
             "een subcultuur"
@@ -190,7 +190,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welk woord gebruikt de fiche voor identiteit die hoger reikt dan één land, zoals Europees?",
+          "vraag": "Welk woord gebruik je voor identiteit die hoger reikt dan één land, zoals Europees?",
           "antwoord": [
             "supranationaal",
             "supranationale"
@@ -203,15 +203,15 @@
           "opties": [
             "om neutraliteit te bewaren en persoonsgegevens te beschermen",
             "omdat echte situaties te moeilijk zijn om kort te beschrijven",
-            "omdat de fiche elk jaar nieuwe voorbeelden moet verzinnen",
+            "omdat de examinatoren elk jaar nieuwe voorbeelden moeten verzinnen",
             "om te vermijden dat je de actualiteit moet opvolgen"
           ],
           "antwoord": 0,
-          "uitleg": "Die twee redenen staan letterlijk in de fiche. De actualiteit moet je trouwens wél opvolgen."
+          "uitleg": "Die twee redenen kloppen. De actualiteit moet je trouwens wél opvolgen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat vraagt de fiche je over de actualiteit?",
+          "vraag": "Wat doe je met de actualiteit?",
           "opties": [
             "dat je ze opvolgt op lokaal, regionaal en nationaal vlak",
             "dat je er op het examen letterlijk uit kan citeren",
@@ -219,7 +219,7 @@
             "dat je er niets van hoeft te weten voor dit vak"
           ],
           "antwoord": 0,
-          "uitleg": "Die drie niveaus staan bij Wat moet je leren, meteen vooraan in de fiche."
+          "uitleg": "Die drie niveaus horen erbij: lokaal, regionaal en nationaal."
         }
       ]
     },
@@ -230,7 +230,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke drie factoren noemt de fiche als dingen die je identiteit vormen en beïnvloeden?",
+          "vraag": "Welke drie factoren vormen en beïnvloeden je identiteit?",
           "opties": [
             "verbondenheid, discriminatie en wij-zij-denken",
             "opvoeding, onderwijs en vriendenkring",
@@ -238,7 +238,7 @@
             "inkomen, beroep en woonplaats"
           ],
           "antwoord": 0,
-          "uitleg": "Precies die drie staan in de fiche, en over die drie moet je kunnen nadenken."
+          "uitleg": "Precies die drie, en over die drie moet je kunnen nadenken."
         },
         {
           "type": "meerkeuze",
@@ -302,7 +302,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe staan het wereldbeeld en de identiteit volgens de fiche tot elkaar?",
+          "vraag": "Hoe staan het wereldbeeld en de identiteit tot elkaar?",
           "opties": [
             "ze bepalen elkaar in twee richtingen",
             "het wereldbeeld bepaalt de identiteit, niet omgekeerd",
@@ -310,23 +310,23 @@
             "ze hebben niets met elkaar te maken"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zegt letterlijk: hoe het mens- en wereldbeeld de identiteit bepaalt en andersom."
+          "uitleg": "Het mens- en wereldbeeld bepaalt de identiteit, en andersom."
         },
         {
           "type": "meerkeuze",
           "vraag": "Kan iemands wereldbeeld veranderen?",
           "opties": [
-            "ja, de fiche vraagt juist dat je over die verandering nadenkt",
+            "ja, een wereldbeeld kan in de loop van een leven veranderen",
             "nee, een wereldbeeld staat vast na de kindertijd",
             "enkel wanneer iemand van land verhuist",
             "enkel wanneer iemand van geloof verandert"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt te reflecteren over hoe het wereldbeeld bij een persoon kan veranderen."
+          "uitleg": "Denk na over hoe het wereldbeeld bij een persoon kan veranderen."
         },
         {
           "type": "waarofniet",
-          "vraag": "Verbondenheid, discriminatie en wij-zij-denken zijn de drie factoren die de fiche noemt.",
+          "vraag": "Verbondenheid, discriminatie en wij-zij-denken vormen en beïnvloeden je identiteit.",
           "antwoord": true,
           "uitleg": "Precies die drie, en in die bewoordingen."
         },
@@ -340,17 +340,17 @@
           "type": "waarofniet",
           "vraag": "De lagen van je identiteit kunnen elkaar onderling beïnvloeden.",
           "antwoord": true,
-          "uitleg": "De fiche vraagt uit te leggen hoe de verschillende lagen elkaar beïnvloeden."
+          "uitleg": "Leg uit hoe de verschillende lagen elkaar beïnvloeden."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een mensbeeld en een wereldbeeld zijn in de fiche twee namen voor hetzelfde.",
+          "vraag": "Een mensbeeld en een wereldbeeld zijn twee namen voor hetzelfde.",
           "antwoord": false,
           "uitleg": "Het mensbeeld gaat over de mens, het wereldbeeld over de wereld als geheel. Ze hangen samen maar zijn niet gelijk."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke lagen zijn volgens de fiche het meest bepalend voor iemands identiteit?",
+          "vraag": "Welke lagen zijn het meest bepalend voor iemands identiteit?",
           "opties": [
             "dat verschilt van persoon tot persoon en vraagt reflectie",
             "altijd de biologische aspecten, want die liggen vast",
@@ -358,7 +358,7 @@
             "altijd de familiale achtergrond, want die komt eerst"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt te reflecteren over welke lagen het meest bepalend zijn, en geeft dus geen vast antwoord."
+          "uitleg": "Denk na over welke lagen het meest bepalend zijn: daar is geen vast antwoord op."
         },
         {
           "type": "meerkeuze",
@@ -374,7 +374,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke uitspraken over discriminatie passen bij de fiche?",
+          "vraag": "Welke uitspraken over discriminatie kloppen?",
           "opties": [
             "ze behandelt mensen anders om een kenmerk van hun identiteit",
             "ze kan het wij-zij-denken versterken",
@@ -404,7 +404,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke factor uit de fiche betekent dat je het gevoel hebt ergens bij te horen?",
+          "vraag": "Welke factor betekent dat je het gevoel hebt ergens bij te horen?",
           "antwoord": [
             "verbondenheid",
             "de verbondenheid"
@@ -413,25 +413,25 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe noem je het indelen van mensen in een eigen groep en een andere groep? Antwoord met één woord uit de fiche.",
+          "vraag": "Hoe noem je het indelen van mensen in een eigen groep en een andere groep? Antwoord met één woord.",
           "antwoord": [
             "wij-zij-denken",
             "wij zij denken"
           ],
-          "uitleg": "De fiche schrijft het met streepjes: wij-zij-denken."
+          "uitleg": "Je schrijft het met streepjes: wij-zij-denken."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe noemt de fiche de manier waarop je naar de wereld als geheel kijkt?",
+          "vraag": "Hoe noem je de manier waarop je naar de wereld als geheel kijkt?",
           "antwoord": [
             "wereldbeeld",
             "het wereldbeeld"
           ],
-          "uitleg": "Naast het mensbeeld, waarmee het in de fiche in één adem genoemd wordt."
+          "uitleg": "Naast het mensbeeld, waarmee het vaak in één adem genoemd wordt."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarover moet je volgens de fiche kunnen reflecteren bij dit blok?",
+          "vraag": "Waarover moet je kunnen reflecteren bij dit blok?",
           "opties": [
             "hoe persoonlijke identiteit en groepsidentiteit elkaar beïnvloeden",
             "hoe je een identiteitskaart aanvraagt bij de gemeente",
@@ -534,7 +534,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vijf vormen van diversiteit noemt de fiche?",
+          "vraag": "Wat zijn de vijf vormen van diversiteit?",
           "opties": [
             "lichaams-, sociale, culturele, religieuze en seksuele diversiteit",
             "nationale, regionale, lokale, stedelijke en landelijke diversiteit",
@@ -542,7 +542,7 @@
             "talige, religieuze, culinaire, muzikale en sportieve diversiteit"
           ],
           "antwoord": 0,
-          "uitleg": "Religieuze diversiteit heet in de fiche ook levensbeschouwelijke diversiteit."
+          "uitleg": "Religieuze diversiteit heet ook levensbeschouwelijke diversiteit."
         },
         {
           "type": "meerkeuze",
@@ -578,7 +578,7 @@
             "lichaamsdiversiteit"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt die vorm religieuze of levensbeschouwelijke diversiteit, en atheïsme hoort er ook bij."
+          "uitleg": "Die vorm heet religieuze of levensbeschouwelijke diversiteit, en atheïsme hoort er ook bij."
         },
         {
           "type": "waarofniet",
@@ -600,13 +600,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De fiche rekent seksuele diversiteit mee als een vorm van diversiteit.",
+          "vraag": "Seksuele diversiteit is een vorm van diversiteit.",
           "antwoord": true,
           "uitleg": "Ze staat in het rijtje van vijf, naast lichaams-, sociale, culturele en religieuze diversiteit."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke begrippen over samenleven in diversiteit staan in de fiche?",
+          "vraag": "Welke van deze begrippen gaan over samenleven in diversiteit?",
           "opties": [
             "multiculturalisme",
             "integratie",
@@ -633,7 +633,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welk begrip uit de fiche betekent mensen buitensluiten?",
+          "vraag": "Welk begrip betekent mensen buitensluiten?",
           "antwoord": [
             "exclusie",
             "de exclusie"
@@ -642,7 +642,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel vormen van diversiteit noemt de fiche? Antwoord met een cijfer.",
+          "vraag": "Hoeveel vormen van diversiteit onderscheid je? Antwoord met een cijfer.",
           "antwoord": [
             "5",
             "vijf"
@@ -651,7 +651,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welk woord gebruikt de fiche naast religieuze diversiteit?",
+          "vraag": "Welk woord gebruik je naast religieuze diversiteit?",
           "opties": [
             "levensbeschouwelijke diversiteit",
             "spirituele diversiteit",
@@ -659,7 +659,7 @@
             "morele diversiteit"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche schrijft religieuze of levensbeschouwelijke diversiteit, met een schuine streep ertussen."
+          "uitleg": "Je schrijft religieuze of levensbeschouwelijke diversiteit, met een schuine streep ertussen."
         }
       ]
     },
@@ -670,7 +670,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke drie voordelen van samenleven in diversiteit noemt de fiche?",
+          "vraag": "Wat zijn de drie voordelen van samenleven in diversiteit?",
           "opties": [
             "culturele verrijking, uitwisselen van ideeën en economische uitwisseling",
             "meer vrije tijd, minder conflicten en lagere belastingen voor iedereen",
@@ -678,11 +678,11 @@
             "meer veiligheid, meer orde en meer eenheid in de groep waar je woont"
           ],
           "antwoord": 0,
-          "uitleg": "Precies die drie staan in de fiche, en niets anders."
+          "uitleg": "Precies die drie, en niets anders."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat bedoelt de fiche met culturele verrijking als voordeel?",
+          "vraag": "Wat bedoel je met culturele verrijking als voordeel?",
           "opties": [
             "je komt in contact met gewoonten en kunst die je anders niet kende",
             "de economie van een land groeit door nieuwe inwoners die werken",
@@ -706,7 +706,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vijf uitdagingen van samenleven in diversiteit noemt de fiche?",
+          "vraag": "Wat zijn de vijf uitdagingen van samenleven in diversiteit?",
           "opties": [
             "meningsverschillen, verschillende belangen, verschillende referentiekaders, groepsdenken en uitsluiting",
             "taalproblemen, woningnood, werkloosheid, armoede en criminaliteit in de grotere steden",
@@ -766,7 +766,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Is een meningsverschil volgens de fiche een probleem of een uitdaging?",
+          "vraag": "Is een meningsverschil een probleem of een uitdaging?",
           "opties": [
             "een uitdaging: het hoort bij samenleven in diversiteit",
             "een probleem dat je altijd moet oplossen met een stemming",
@@ -774,17 +774,17 @@
             "een teken van groepsdenken"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zet de uitdagingen naast de voordelen: ze horen er allebei bij."
+          "uitleg": "De uitdagingen staan naast de voordelen: ze horen er allebei bij."
         },
         {
           "type": "waarofniet",
-          "vraag": "Volgens de fiche is diversiteit tegelijk verrijkend en uitdagend.",
+          "vraag": "Diversiteit is tegelijk verrijkend en uitdagend.",
           "antwoord": true,
           "uitleg": "Dat staat zo in het leerdoel: verrijkend én uitdagend voor het samenleven."
         },
         {
           "type": "waarofniet",
-          "vraag": "Uitsluiting staat in de fiche bij de voordelen van diversiteit.",
+          "vraag": "Uitsluiting is een voordeel van diversiteit.",
           "antwoord": false,
           "uitleg": "Het risico van uitsluiting staat bij de uitdagingen."
         },
@@ -792,17 +792,17 @@
           "type": "waarofniet",
           "vraag": "Mensen met een verschillend referentiekader kunnen dezelfde situatie anders beoordelen.",
           "antwoord": true,
-          "uitleg": "Dat is precies waarom de fiche het referentiekader als uitdaging noemt."
+          "uitleg": "Daarom is een verschillend referentiekader een uitdaging."
         },
         {
           "type": "waarofniet",
           "vraag": "Groepsdenken is goed voor een groep, want het zorgt voor eenheid.",
           "antwoord": false,
-          "uitleg": "De fiche noemt het een risico: wie niets meer tegenspreekt, ziet de fouten niet."
+          "uitleg": "Het is een risico: wie niets meer tegenspreekt, ziet de fouten niet."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke van deze noemt de fiche als voordeel van samenleven in diversiteit?",
+          "vraag": "Welke van deze zijn voordelen van samenleven in diversiteit?",
           "opties": [
             "culturele verrijking",
             "uitwisselen van ideeën",
@@ -817,7 +817,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke van deze noemt de fiche als uitdaging van samenleven in diversiteit?",
+          "vraag": "Welke van deze zijn uitdagingen van samenleven in diversiteit?",
           "opties": [
             "verschillende belangen",
             "een hogere belastingdruk",
@@ -828,7 +828,7 @@
             0,
             2
           ],
-          "uitleg": "Over kosten voor de overheid of belastingen zegt dit blok van de fiche niets. Verschillende belangen en het risico van uitsluiting staan er wel bij."
+          "uitleg": "Kosten voor de overheid of belastingen horen er niet bij. Verschillende belangen en het risico van uitsluiting wel."
         },
         {
           "type": "invultekst",
@@ -837,11 +837,11 @@
             "referentiekader",
             "het referentiekader"
           ],
-          "uitleg": "Verschillende referentiekaders zijn een van de vijf uitdagingen in de fiche."
+          "uitleg": "Verschillende referentiekaders zijn een van de vijf uitdagingen."
         },
         {
           "type": "invultekst",
-          "vraag": "Welk risico noemt de fiche als een groep tot één mening komt omdat niemand nog tegenspreekt?",
+          "vraag": "Hoe noem je het als een groep tot één mening komt omdat niemand nog tegenspreekt?",
           "antwoord": [
             "groepsdenken",
             "het groepsdenken"
@@ -850,7 +850,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel uitdagingen van samenleven in diversiteit noemt de fiche? Antwoord met een cijfer.",
+          "vraag": "Hoeveel uitdagingen van samenleven in diversiteit onderscheid je? Antwoord met een cijfer.",
           "antwoord": [
             "5",
             "vijf"
@@ -986,7 +986,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is volgens de fiche de impact van pesten op het slachtoffer?",
+          "vraag": "Wat is de impact van pesten op het slachtoffer?",
           "opties": [
             "ze raakt het welzijn en kan lang nawerken",
             "ze blijft beperkt tot het moment zelf",
@@ -994,11 +994,11 @@
             "ze verdwijnt zodra het pesten stopt"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt juist dat je die impact op de betrokkenen kan verklaren."
+          "uitleg": "Je moet die impact op de betrokkenen kunnen verklaren."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je ziet dat een klasgenoot online wordt uitgelachen. Welke reactie is volgens de fiche het meest helpend?",
+          "vraag": "Je ziet dat een klasgenoot online wordt uitgelachen. Welke reactie is het meest helpend?",
           "opties": [
             "het slachtoffer steunen en de situatie melden",
             "niets doen, zodat het sneller overwaait",
@@ -1006,11 +1006,11 @@
             "het slachtoffer vragen om minder op te vallen"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt te beoordelen welke handelingsopties het meest helpend zijn, en wegkijken is dat niet."
+          "uitleg": "Je beoordeelt welke handelingsopties het meest helpend zijn, en wegkijken is dat niet."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een meningsverschil is volgens de fiche hetzelfde als destructieve communicatie.",
+          "vraag": "Een meningsverschil is hetzelfde als destructieve communicatie.",
           "antwoord": false,
           "uitleg": "Je kan het grondig oneens zijn en toch respectvol en constructief praten."
         },
@@ -1018,13 +1018,13 @@
           "type": "waarofniet",
           "vraag": "Je gedrag en je keuzes hebben gevolgen voor het welzijn van anderen.",
           "antwoord": true,
-          "uitleg": "De fiche vraagt dat je die gevolgen voor jezelf én voor anderen kan beoordelen."
+          "uitleg": "Je moet die gevolgen voor jezelf én voor anderen kunnen beoordelen."
         },
         {
           "type": "waarofniet",
-          "vraag": "Wie bij pesten toekijkt zonder iets te doen, heeft volgens de fiche geen rol in de situatie.",
+          "vraag": "Wie bij pesten toekijkt zonder iets te doen, heeft geen rol in de situatie.",
           "antwoord": false,
-          "uitleg": "De fiche vraagt naar handelingsopties, juist omdat omstaanders wel een rol hebben."
+          "uitleg": "Omstaanders hebben wel een rol, en dus ook handelingsopties."
         },
         {
           "type": "waarofniet",
@@ -1034,7 +1034,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke situaties moet je volgens de fiche kunnen analyseren?",
+          "vraag": "Welke situaties moet je kunnen analyseren?",
           "opties": [
             "pestgedrag",
             "spijbelen",
@@ -1045,7 +1045,7 @@
             0,
             2
           ],
-          "uitleg": "Pestgedrag, discriminatie en racisme staan letterlijk in de fiche. Over schoolvertraging of spijbelen zegt dit blok niets."
+          "uitleg": "Pestgedrag, discriminatie en racisme horen erbij. Schoolvertraging of spijbelen niet."
         },
         {
           "type": "meerkeuze",
@@ -1081,7 +1081,7 @@
             "pesten",
             "pestgedrag"
           ],
-          "uitleg": "De fiche gebruikt het woord pestgedrag in het rijtje met uitsluiting, discriminatie en racisme."
+          "uitleg": "Het woord pestgedrag staat in het rijtje met uitsluiting, discriminatie en racisme."
         },
         {
           "type": "invultekst",
@@ -1090,7 +1090,7 @@
             "racisme",
             "het racisme"
           ],
-          "uitleg": "Racisme staat in de fiche naast pestgedrag, uitsluiting en discriminatie."
+          "uitleg": "Racisme staat naast pestgedrag, uitsluiting en discriminatie."
         },
         {
           "type": "meerkeuze",
@@ -1113,7 +1113,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel kenmerken van geldige toestemming noemt de fiche?",
+          "vraag": "Hoeveel kenmerken van geldige toestemming zijn er?",
           "opties": [
             "zes",
             "drie",
@@ -1133,7 +1133,7 @@
             "zonder dat er iets voor betaald wordt"
           ],
           "antwoord": 0,
-          "uitleg": "Die vier woorden staan letterlijk in de fiche bij vrijwillig."
+          "uitleg": "Die vier woorden horen bij vrijwillig."
         },
         {
           "type": "meerkeuze",
@@ -1229,7 +1229,7 @@
             "de verantwoordelijkheid die een groep samen draagt voor wat ze beslist"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt situaties rond grenzen, groepsdruk en invloed van anderen te analyseren."
+          "uitleg": "Je analyseert situaties rond grenzen, groepsdruk en invloed van anderen."
         },
         {
           "type": "meerkeuze",
@@ -1253,7 +1253,7 @@
             "een stijl waarin je meteen je eisen stelt"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt te beoordelen welke omgangsvormen in professionele situaties het meest gepast zijn."
+          "uitleg": "Je beoordeelt welke omgangsvormen in professionele situaties het meest gepast zijn."
         },
         {
           "type": "waarofniet",
@@ -1263,7 +1263,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Stilzwijgen geldt volgens de fiche als geldige toestemming.",
+          "vraag": "Stilzwijgen geldt als geldige toestemming.",
           "antwoord": false,
           "uitleg": "Het kenmerk duidelijk vraagt juist iets dat expliciet of ondubbelzinnig geuit wordt."
         },
@@ -1275,13 +1275,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De fiche vraagt te beoordelen welke aanpak de samenwerking in een situatie het meest bevordert.",
+          "vraag": "Je kan beoordelen welke aanpak de samenwerking in een situatie het meest bevordert.",
           "antwoord": true,
           "uitleg": "Dat staat zo bij het stuk over samenwerken en verantwoordelijkheid."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke kenmerken van geldige toestemming staan in de fiche?",
+          "vraag": "Welke van deze zijn kenmerken van geldige toestemming?",
           "opties": [
             "vrijwillig",
             "geïnformeerd",
@@ -1327,7 +1327,7 @@
             "groepsdruk",
             "de groepsdruk"
           ],
-          "uitleg": "De fiche noemt groepsdruk samen met grenzen en de invloed van anderen."
+          "uitleg": "Groepsdruk hoort samen met grenzen en de invloed van anderen."
         }
       ]
     },
@@ -1362,7 +1362,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een kind heeft een product uit de kelder gedronken. Welk nummer bel je volgens de fiche?",
+          "vraag": "Een kind heeft een product uit de kelder gedronken. Welk nummer bel je?",
           "opties": [
             "070 245 245",
             "1733",
@@ -1386,7 +1386,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke letsels aan botten, spieren en gewrichten noemt de fiche?",
+          "vraag": "Welke van deze zijn letsels aan botten, spieren en gewrichten?",
           "opties": [
             "botbreuk, kneuzing, ontwrichting en verstuiking",
             "botbreuk, bloeding, brandwonde en verslikking",
@@ -1422,7 +1422,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke twee soorten wonden noemt de fiche?",
+          "vraag": "Welke twee soorten wonden leer je in dit hoofdstuk verzorgen?",
           "opties": [
             "de huidwonde en de brandwonde",
             "de open en de gesloten wonde",
@@ -1430,11 +1430,11 @@
             "de diepe en de oppervlakkige wonde"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt enkel die twee bij wonden."
+          "uitleg": "Enkel die twee soorten wonden horen erbij."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Iemand verslikt zich en kan niet meer praten of hoesten. Wat is dit volgens de fiche?",
+          "vraag": "Iemand verslikt zich en kan niet meer praten of hoesten. Wat is dit?",
           "opties": [
             "een noodsituatie",
             "een letsel aan de spieren",
@@ -1454,13 +1454,13 @@
             "de ademhaling stokt even door schrik"
           ],
           "antwoord": 0,
-          "uitleg": "Hart- en ademhalingsstilstand staat als één noodsituatie in de fiche."
+          "uitleg": "Hart- en ademhalingsstilstand is één noodsituatie."
         },
         {
           "type": "waarofniet",
           "vraag": "112 is in België het nummer voor de ziekenwagen en de brandweer.",
           "antwoord": true,
-          "uitleg": "Zo staat het in de fiche, naast 101 voor de politie."
+          "uitleg": "Zo is het, naast 101 voor de politie."
         },
         {
           "type": "waarofniet",
@@ -1470,34 +1470,34 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Verdrinking staat in de fiche bij de ongevallen en noodsituaties.",
+          "vraag": "Verdrinking is een ongeval waarbij je eerste hulp moet kunnen geven.",
           "antwoord": true,
           "uitleg": "Ze staat er naast bloeding, verslikking, wonden en de letsels aan botten en gewrichten."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een kneuzing en een botbreuk zijn volgens de fiche hetzelfde letsel.",
+          "vraag": "Een kneuzing en een botbreuk zijn hetzelfde letsel.",
           "antwoord": false,
           "uitleg": "Het zijn twee verschillende letsels in hetzelfde rijtje van vier."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke noodsituaties noemt de fiche?",
+          "vraag": "Welke van deze zijn noodsituaties?",
           "opties": [
             "bloeding",
             "verslikking",
             "hoofdpijn",
-            "uitdroging"
+            "een blauwe plek"
           ],
           "antwoord": [
             0,
             1
           ],
-          "uitleg": "Uitdroging en hoofdpijn staan niet in het rijtje. Een bloeding en een verslikking wel."
+          "uitleg": "Een bloeding en een verslikking zijn noodsituaties waarbij je meteen eerste hulp geeft. Hoofdpijn of een blauwe plek zijn dat niet."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke nummers staan in de fiche als noodnummer?",
+          "vraag": "Welke van deze nummers zijn noodnummers?",
           "opties": [
             "101",
             "112",
@@ -1511,7 +1511,7 @@
             2,
             4
           ],
-          "uitleg": "100 staat niet in de fiche. Het nummer van het antigifcentrum staat er wel bij, naast de hulpdiensten en de huisartsenwachtpost."
+          "uitleg": "100 is geen noodnummer meer. Het nummer van het antigifcentrum wel, naast de hulpdiensten en de huisartsenwachtpost."
         },
         {
           "type": "invultekst",
@@ -1559,7 +1559,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel basisprincipes van eerste hulp noemt de fiche?",
+          "vraag": "Hoeveel basisprincipes van eerste hulp zijn er?",
           "opties": [
             "zes",
             "vier",
@@ -1583,7 +1583,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat bedoelt de fiche met het basisprincipe vermijd besmetting?",
+          "vraag": "Wat bedoel je met het basisprincipe vermijd besmetting?",
           "opties": [
             "bescherm jezelf en het slachtoffer tegen overdracht van ziekten",
             "raak het slachtoffer helemaal niet aan",
@@ -1603,7 +1603,7 @@
             "laat het slachtoffer alleen om te kalmeren"
           ],
           "antwoord": 0,
-          "uitleg": "Naast de lichamelijke zorg vraagt de fiche ook aandacht voor hoe iemand zich voelt."
+          "uitleg": "Naast de lichamelijke zorg heb je ook aandacht voor hoe iemand zich voelt."
         },
         {
           "type": "meerkeuze",
@@ -1615,7 +1615,7 @@
             "vermijd besmetting"
           ],
           "antwoord": 0,
-          "uitleg": "Ook jij als hulpverlener kan achteraf nog reageren. De fiche noemt dat als zesde principe."
+          "uitleg": "Ook jij als hulpverlener kan achteraf nog reageren. Dat is het zesde principe."
         },
         {
           "type": "meerkeuze",
@@ -1685,7 +1685,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Rustig blijven is volgens de fiche een van de zes basisprincipes.",
+          "vraag": "Rustig blijven is een van de zes basisprincipes.",
           "antwoord": true,
           "uitleg": "Het staat als eerste in het rijtje."
         },
@@ -1703,7 +1703,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke van deze zijn basisprincipes van eerste hulp volgens de fiche?",
+          "vraag": "Welke van deze zijn basisprincipes van eerste hulp?",
           "opties": [
             "vermijd besmetting",
             "handel als eerste hulpverlener",
@@ -1721,7 +1721,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke van deze zijn stappen in eerste hulp volgens de fiche?",
+          "vraag": "Welke van deze zijn stappen in eerste hulp?",
           "opties": [
             "zorg voor veiligheid",
             "beoordeel de toestand van het slachtoffer",
@@ -1739,7 +1739,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke stap komt volgens de fiche altijd eerst in eerste hulp? Antwoord met één woord.",
+          "vraag": "Welke stap komt altijd eerst in eerste hulp? Antwoord met één woord.",
           "antwoord": [
             "veiligheid",
             "veilig"
@@ -1748,7 +1748,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel stappen in eerste hulp noemt de fiche? Antwoord met een cijfer.",
+          "vraag": "Hoeveel stappen zijn er in eerste hulp? Antwoord met een cijfer.",
           "antwoord": [
             "4",
             "vier"
@@ -1853,11 +1853,11 @@
             "de ambulance bellen"
           ],
           "antwoord": 0,
-          "uitleg": "De borstcompressies komen voor de beademing in het rijtje van de fiche."
+          "uitleg": "De borstcompressies komen voor de beademing."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de laatste stap in het rijtje van de fiche?",
+          "vraag": "Wat is de laatste stap bij reanimatie?",
           "opties": [
             "doorgaan tot de ambulancier het overneemt",
             "de persoon in een stabiele zijligging leggen",
@@ -1919,7 +1919,7 @@
           "type": "waarofniet",
           "vraag": "Zodra de persoon weer een keer zucht, mag je stoppen met reanimeren.",
           "antwoord": false,
-          "uitleg": "De fiche zegt: doorgaan tot de ambulance er is en de ambulancier het overneemt."
+          "uitleg": "Je gaat door tot de ambulance er is en de ambulancier het overneemt."
         },
         {
           "type": "waarofniet",
@@ -1955,7 +1955,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel stappen bij reanimatie noemt de fiche? Antwoord met een cijfer.",
+          "vraag": "Hoeveel stappen zijn er bij reanimatie? Antwoord met een cijfer.",
           "antwoord": [
             "6",
             "zes"
@@ -2120,7 +2120,7 @@
             "je legt het slachtoffer in zijligging en wacht"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zegt: doorgaan tot de ambulancier het overneemt. Wisselen met een omstaander houdt dat haalbaar."
+          "uitleg": "Je gaat door tot de ambulancier het overneemt. Wisselen met een omstaander houdt dat haalbaar."
         },
         {
           "type": "waarofniet",
@@ -2271,7 +2271,7 @@
             "een sociale uitgave"
           ],
           "antwoord": 0,
-          "uitleg": "Ze wordt op jouw inkomen geheven, dus rechtstreeks. De fiche noemt ze als voorbeeld van een directe belasting."
+          "uitleg": "Ze wordt op jouw inkomen geheven, dus rechtstreeks. Het is een directe belasting."
         },
         {
           "type": "meerkeuze",
@@ -2287,7 +2287,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een boete voor te snel rijden. Welke soort inkomst is dat volgens de fiche?",
+          "vraag": "Een boete voor te snel rijden. Welke soort inkomst is dat?",
           "opties": [
             "een diverse inkomst",
             "een directe belasting",
@@ -2295,7 +2295,7 @@
             "een inkomst uit het kapitaal dat de overheid zelf bezit"
           ],
           "antwoord": 0,
-          "uitleg": "Boetes en vergoedingen voor diensten staan in de fiche bij de diverse inkomsten."
+          "uitleg": "Boetes en vergoedingen voor diensten horen bij de diverse inkomsten."
         },
         {
           "type": "meerkeuze",
@@ -2307,7 +2307,7 @@
             "een indirecte belasting"
           ],
           "antwoord": 0,
-          "uitleg": "Verkoop of verhuur van gronden en gebouwen staat letterlijk in de fiche bij deze soort."
+          "uitleg": "Verkoop of verhuur van gronden en gebouwen hoort bij deze soort."
         },
         {
           "type": "meerkeuze",
@@ -2319,11 +2319,11 @@
             "een inkomst uit het kapitaal dat de overheid zelf bezit"
           ],
           "antwoord": 0,
-          "uitleg": "Ze zit in de prijs van het product. De fiche noemt ze naast de btw als voorbeeld."
+          "uitleg": "Ze zit in de prijs van het product, net als de btw."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel soorten inkomsten van de overheid noemt de fiche?",
+          "vraag": "Hoeveel soorten inkomsten heeft de overheid?",
           "opties": [
             "vier",
             "twee",
@@ -2343,7 +2343,7 @@
             "een inkomst uit het kapitaal dat de overheid zelf bezit"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt vergoedingen voor diensten bij de diverse inkomsten, naast boetes."
+          "uitleg": "Vergoedingen voor diensten horen bij de diverse inkomsten, naast boetes."
         },
         {
           "type": "waarofniet",
@@ -2359,7 +2359,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Boetes horen volgens de fiche bij de diverse inkomsten van de overheid.",
+          "vraag": "Boetes horen bij de diverse inkomsten van de overheid.",
           "antwoord": true,
           "uitleg": "Ze staan er samen met de vergoedingen voor diensten."
         },
@@ -2371,7 +2371,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke van deze noemt de fiche als soort inkomst van de overheid?",
+          "vraag": "Welke van deze zijn inkomsten van de overheid?",
           "opties": [
             "directe belastingen",
             "indirecte belastingen",
@@ -2385,11 +2385,11 @@
             2,
             4
           ],
-          "uitleg": "Giften staan niet in de fiche. De diverse inkomsten horen er wel bij."
+          "uitleg": "Giften zijn geen inkomsten van de overheid. De diverse inkomsten wel."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke voorbeelden geeft de fiche bij de indirecte belastingen?",
+          "vraag": "Welke van deze zijn indirecte belastingen?",
           "opties": [
             "de btw",
             "de personenbelasting",
@@ -2409,7 +2409,7 @@
             "btw",
             "BTW"
           ],
-          "uitleg": "De btw is het voorbeeld dat de fiche vooraan zet bij de indirecte belastingen."
+          "uitleg": "De btw is het bekendste voorbeeld van een indirecte belasting."
         },
         {
           "type": "invultekst",
@@ -2418,7 +2418,7 @@
             "bedrijfsvoorheffing",
             "de bedrijfsvoorheffing"
           ],
-          "uitleg": "Ze staat in de fiche als voorbeeld van een directe belasting."
+          "uitleg": "Het is een directe belasting."
         },
         {
           "type": "invultekst",
@@ -2431,7 +2431,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom heft een overheid volgens de fiche belastingen?",
+          "vraag": "Waarom heft een overheid belastingen?",
           "opties": [
             "om haar uitgaven voor de samenleving te kunnen betalen",
             "om de prijzen op de markt zo laag mogelijk te houden",
@@ -2439,7 +2439,7 @@
             "om geld opzij te zetten voor economisch moeilijke jaren"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche koppelt de inkomsten meteen aan de vier soorten uitgaven."
+          "uitleg": "De inkomsten hangen meteen samen met de vier soorten uitgaven."
         }
       ]
     },
@@ -2458,11 +2458,11 @@
             "behoeften van verenigingen in plaats van personen"
           ],
           "antwoord": 0,
-          "uitleg": "Veiligheid, onderwijs en openbaar vervoer zijn de voorbeelden uit de fiche."
+          "uitleg": "Veiligheid, onderwijs en openbaar vervoer zijn collectieve behoeften."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke voorbeelden geeft de fiche bij het voorzien in collectieve behoeften?",
+          "vraag": "Welke van deze reeksen zijn voorbeelden van collectieve behoeften?",
           "opties": [
             "veiligheid, onderwijs en openbaar vervoer",
             "cultuur, sport en infocampagnes",
@@ -2482,7 +2482,7 @@
             "sociale uitgaven en uitkeringen voor wie het nodig heeft"
           ],
           "antwoord": 0,
-          "uitleg": "Digitale infrastructuur staat in de fiche als voorbeeld bij economische groei."
+          "uitleg": "Digitale infrastructuur is een voorbeeld bij economische groei."
         },
         {
           "type": "meerkeuze",
@@ -2494,7 +2494,7 @@
             "sociale uitgaven en uitkeringen voor wie het nodig heeft"
           ],
           "antwoord": 0,
-          "uitleg": "Cultuur en sport staan in de fiche bij het maatschappelijk leven."
+          "uitleg": "Cultuur en sport horen bij het maatschappelijk leven."
         },
         {
           "type": "meerkeuze",
@@ -2506,7 +2506,7 @@
             "investeren in economische groei"
           ],
           "antwoord": 0,
-          "uitleg": "Sociale woningen staan in de fiche naast de sociale zekerheid en de projecten tegen armoede."
+          "uitleg": "Sociale woningen staan naast de sociale zekerheid en de projecten tegen armoede."
         },
         {
           "type": "meerkeuze",
@@ -2518,11 +2518,11 @@
             "investeren in economische groei"
           ],
           "antwoord": 0,
-          "uitleg": "Infocampagnes staan in de fiche bij het maatschappelijk leven, naast cultuur en sport."
+          "uitleg": "Infocampagnes horen bij het maatschappelijk leven, naast cultuur en sport."
         },
         {
           "type": "meerkeuze",
-          "vraag": "De overheid investeert in duurzaamheid. Bij welke soort uitgave hoort dat volgens de fiche?",
+          "vraag": "De overheid investeert in duurzaamheid. Bij welke soort uitgave hoort dat?",
           "opties": [
             "investeren in economische groei en ontwikkeling",
             "sociale uitgaven en uitkeringen voor wie het nodig heeft",
@@ -2546,7 +2546,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel soorten uitgaven van de overheid noemt de fiche?",
+          "vraag": "Hoeveel soorten uitgaven heeft de overheid?",
           "opties": [
             "vier",
             "drie",
@@ -2570,7 +2570,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Onderwijs staat volgens de fiche bij de collectieve behoeften.",
+          "vraag": "Onderwijs staat bij de collectieve behoeften.",
           "antwoord": true,
           "uitleg": "Samen met veiligheid en openbaar vervoer."
         },
@@ -2582,19 +2582,19 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Investeren in digitale infrastructuur hoort volgens de fiche bij de economische groei.",
+          "vraag": "Investeren in digitale infrastructuur hoort bij de economische groei.",
           "antwoord": true,
           "uitleg": "Ze staat er naast handel en transport en duurzaamheid."
         },
         {
           "type": "waarofniet",
-          "vraag": "Cultuur en sport zijn volgens de fiche sociale uitgaven.",
+          "vraag": "Cultuur en sport zijn sociale uitgaven.",
           "antwoord": false,
           "uitleg": "Ze horen bij het bijdragen aan het maatschappelijk leven."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke van deze noemt de fiche als soort uitgave van de overheid?",
+          "vraag": "Welke van deze zijn uitgaven van de overheid?",
           "opties": [
             "voorzien in de collectieve behoeften van de bevolking",
             "investeren in economische groei en ontwikkeling",
@@ -2612,7 +2612,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke voorbeelden geeft de fiche bij de sociale uitgaven?",
+          "vraag": "Welke van deze zijn sociale uitgaven van de overheid?",
           "opties": [
             "de financiering van de sociale zekerheid",
             "sociale woningen",
@@ -2627,7 +2627,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe noemt de fiche behoeften waar de hele samenleving van gebruikmaakt? Vul aan: ... behoeften.",
+          "vraag": "Hoe noem je behoeften waar de hele samenleving van gebruikmaakt? Vul aan: ... behoeften.",
           "antwoord": [
             "collectieve",
             "collectief"
@@ -2656,7 +2656,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom vraagt de fiche naar de invloed van inkomsten én uitgaven samen?",
+          "vraag": "Waarom kijk je naar de invloed van inkomsten én uitgaven van de overheid samen?",
           "opties": [
             "omdat de overheid met die twee de ongelijkheid probeert te beperken",
             "omdat de inkomsten en de uitgaven altijd exact gelijk moeten zijn",
@@ -2675,7 +2675,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Op welk principe steunt de sociale zekerheid volgens de fiche?",
+          "vraag": "Op welk principe steunt de sociale zekerheid?",
           "opties": [
             "solidariteit",
             "winst",
@@ -2699,7 +2699,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Door wie wordt de RSZ volgens de fiche gefinancierd?",
+          "vraag": "Door wie wordt de RSZ gefinancierd?",
           "opties": [
             "door de werkgevers, de werknemers en de overheid",
             "enkel door de werkgevers",
@@ -2719,7 +2719,7 @@
             "een ziekte- en invaliditeitsuitkering"
           ],
           "antwoord": 0,
-          "uitleg": "Werkloosheid is een van de zes types in het rijtje van de fiche."
+          "uitleg": "Werkloosheid is een van de zes types."
         },
         {
           "type": "meerkeuze",
@@ -2755,7 +2755,7 @@
             "een ziekte- en invaliditeitsuitkering"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt rust- en overlevingspensioenen samen. Het overlevingspensioen is voor de partner na een overlijden."
+          "uitleg": "Rust- en overlevingspensioenen horen samen. Het overlevingspensioen is voor de partner na een overlijden."
         },
         {
           "type": "meerkeuze",
@@ -2807,19 +2807,19 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Het jaarlijks vakantiegeld staat volgens de fiche bij de uitkeringen binnen de sociale zekerheid.",
+          "vraag": "Het jaarlijks vakantiegeld staat bij de uitkeringen binnen de sociale zekerheid.",
           "antwoord": true,
           "uitleg": "Het staat in het rijtje van zes, al is het een aanvullend inkomen en geen vervangingsinkomen."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een arbeidsongeval en een beroepsziekte zijn volgens de fiche hetzelfde.",
+          "vraag": "Een arbeidsongeval en een beroepsziekte zijn hetzelfde.",
           "antwoord": false,
           "uitleg": "Twee verschillende types uitkering: het ene komt van een ongeval, het andere van het werk zelf over langere tijd."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke uitkeringen noemt de fiche binnen de sociale zekerheid?",
+          "vraag": "Welke van deze zijn uitkeringen binnen de sociale zekerheid?",
           "opties": [
             "de werkloosheidsuitkering",
             "de ziekte- en invaliditeitsuitkering",
@@ -2887,7 +2887,7 @@
             "een arbeidsongevallenuitkering"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt rust- en overlevingspensioenen samen als één type uitkering."
+          "uitleg": "Rust- en overlevingspensioenen zijn samen één type uitkering."
         }
       ]
     },
@@ -2906,7 +2906,7 @@
             "de overheid verdeelt het werk over de bedrijven"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche koppelt herverdeling aan het beperken van de sociale ongelijkheid."
+          "uitleg": "Herverdeling dient om de sociale ongelijkheid te beperken."
         },
         {
           "type": "meerkeuze",
@@ -2918,7 +2918,7 @@
             "tijdelijke en blijvende maatregelen"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche deelt het rijtje in die twee groepen op."
+          "uitleg": "Het rijtje valt in die twee groepen uiteen."
         },
         {
           "type": "meerkeuze",
@@ -2934,7 +2934,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe werkt de progressieve belasting volgens de fiche in de praktijk?",
+          "vraag": "Hoe werkt de progressieve belasting in de praktijk?",
           "opties": [
             "via belastingschijven",
             "via een vast tarief voor iedereen",
@@ -2942,7 +2942,7 @@
             "via de btw op aankopen"
           ],
           "antwoord": 0,
-          "uitleg": "Belastingschijven staan letterlijk in de fiche bij de progressieve personenbelasting."
+          "uitleg": "Belastingschijven horen bij de progressieve personenbelasting."
         },
         {
           "type": "meerkeuze",
@@ -2990,7 +2990,7 @@
             "een indirecte belasting"
           ],
           "antwoord": 0,
-          "uitleg": "Kansentarieven voor sport en cultuur staan in het sociale rijtje van de fiche."
+          "uitleg": "Kansentarieven voor sport en cultuur zijn een sociale maatregel."
         },
         {
           "type": "meerkeuze",
@@ -3014,7 +3014,7 @@
             "zodat dure producten vrijgesteld blijven"
           ],
           "antwoord": 0,
-          "uitleg": "Daarom staat deze maatregel in de fiche bij de fiscale herverdeling."
+          "uitleg": "Daarom is deze maatregel een fiscale herverdeling."
         },
         {
           "type": "waarofniet",
@@ -3024,7 +3024,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Het leefloon is volgens de fiche een sociale bijstandsuitkering.",
+          "vraag": "Het leefloon is een sociale bijstandsuitkering.",
           "antwoord": true,
           "uitleg": "Zo staat het er, in het rijtje van de sociale herverdelingsmaatregelen."
         },
@@ -3036,13 +3036,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Uitkeringen zoals pensioenen hebben volgens de fiche een herverdelingseffect.",
+          "vraag": "Uitkeringen zoals pensioenen hebben een herverdelingseffect.",
           "antwoord": true,
           "uitleg": "Ze staan met zoveel woorden in het sociale rijtje als uitkeringen met herverdelingseffect."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke van deze noemt de fiche als fiscale herverdelingsmaatregel?",
+          "vraag": "Welke van deze zijn fiscale herverdelingsmaatregelen?",
           "opties": [
             "de progressieve personenbelasting via belastingschijven",
             "belastingvrijstellingen en -verminderingen",
@@ -3060,7 +3060,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke van deze noemt de fiche als sociale herverdelingsmaatregel?",
+          "vraag": "Welke van deze zijn sociale herverdelingsmaatregelen?",
           "opties": [
             "sociale woningen en huurpremies",
             "de accijnzen op brandstof",
@@ -3084,7 +3084,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke sociale bijstandsuitkering noemt de fiche voor wie geen inkomen heeft?",
+          "vraag": "Welke sociale bijstandsuitkering krijgt wie geen inkomen heeft?",
           "antwoord": [
             "leefloon",
             "het leefloon"
@@ -3237,7 +3237,7 @@
             "de geldmarkt"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche spreekt letterlijk over het marktmechanisme op de productmarkt."
+          "uitleg": "Het gaat over het marktmechanisme op de productmarkt."
         },
         {
           "type": "waarofniet",
@@ -3259,7 +3259,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De vrager is volgens de fiche de verkoper.",
+          "vraag": "De vrager is de verkoper.",
           "antwoord": false,
           "uitleg": "De vrager is de koper. De verkoper is de aanbieder."
         },
@@ -3280,7 +3280,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe noemt de fiche de koper op een markt?",
+          "vraag": "Hoe noem je de koper op een markt?",
           "antwoord": [
             "vrager",
             "de vrager"
@@ -3289,7 +3289,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe noemt de fiche de verkoper op een markt?",
+          "vraag": "Hoe noem je de verkoper op een markt?",
           "antwoord": [
             "aanbieder",
             "de aanbieder"
@@ -3781,7 +3781,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke drie soorten overheidsmaatregelen noemt de fiche?",
+          "vraag": "Wat zijn de drie soorten overheidsmaatregelen?",
           "opties": [
             "btw en accijnzen, premies en subsidies, en minimum- en maximumprijzen",
             "belastingen, boetes en vergunningen",
@@ -3789,7 +3789,7 @@
             "rentevoeten, leningen en spaarpremies"
           ],
           "antwoord": 0,
-          "uitleg": "Precies die drie staan in de fiche bij het ingrijpen op de markt."
+          "uitleg": "Precies die drie zijn manieren om in te grijpen op de markt."
         },
         {
           "type": "meerkeuze",
@@ -3919,13 +3919,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Volgens de fiche grijpt de overheid enkel in door prijzen vast te leggen.",
+          "vraag": "De overheid grijpt enkel in door prijzen vast te leggen.",
           "antwoord": false,
-          "uitleg": "Het rijtje van de fiche heeft drie manieren: btw en accijnzen heffen, subsidies geven en prijzen vastleggen."
+          "uitleg": "Er zijn drie manieren: btw en accijnzen heffen, subsidies geven en prijzen vastleggen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke maatregelen van de overheid noemt de fiche?",
+          "vraag": "Welke van deze zijn maatregelen van de overheid?",
           "opties": [
             "btw en accijnzen heffen",
             "de prijzen van alle producten zelf bepalen",
@@ -4014,7 +4014,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Op welke drie manieren deelt de fiche de arbeidsovereenkomsten in?",
+          "vraag": "Op welke drie manieren deel je de arbeidsovereenkomsten in?",
           "opties": [
             "naar de aard van het werk, de duur en de omvang van de prestaties",
             "naar het loon, de sector en de leeftijd",
@@ -4026,7 +4026,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke twee soorten onderscheidt de fiche naar de aard van het werk?",
+          "vraag": "Welke twee soorten onderscheid je naar de aard van het werk?",
           "opties": [
             "arbeiders en bedienden",
             "voltijds en deeltijds",
@@ -4038,7 +4038,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten onderscheidt de fiche naar de duur?",
+          "vraag": "Welke soorten arbeidsovereenkomsten onderscheid je naar de duur?",
           "opties": [
             "bepaalde duur, onbepaalde duur, vervangingsduur en welomschreven werk",
             "bepaalde duur en onbepaalde duur",
@@ -4098,7 +4098,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke twee soorten onderscheidt de fiche naar de omvang van de prestaties?",
+          "vraag": "Welke twee soorten onderscheid je naar de omvang van de prestaties?",
           "opties": [
             "deeltijds en voltijds",
             "arbeider en bediende",
@@ -4128,7 +4128,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Arbeider en bediende gaan volgens de fiche over de duur van het contract.",
+          "vraag": "Arbeider en bediende gaan over de duur van het contract.",
           "antwoord": false,
           "uitleg": "Ze gaan over de aard van het werk. De duur is een andere indeling."
         },
@@ -4146,7 +4146,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten naar de duur noemt de fiche?",
+          "vraag": "Welke van deze zijn arbeidsovereenkomsten ingedeeld naar de duur?",
           "opties": [
             "de bepaalde duur",
             "de vervangingsduur",
@@ -4182,7 +4182,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke twee statuten onderscheidt de fiche naar de aard van het werk? Antwoord met het woord voor wie bureauwerk doet.",
+          "vraag": "Welke twee statuten onderscheid je naar de aard van het werk? Antwoord met het woord voor wie bureauwerk doet.",
           "antwoord": [
             "bediende",
             "bedienden"
@@ -4211,7 +4211,7 @@
             "ze maakt ontslag onmogelijk"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt het belang voor beide partijen, niet alleen voor de werknemer."
+          "uitleg": "Het belang geldt voor beide partijen, niet alleen voor de werknemer."
         }
       ]
     },
@@ -4302,11 +4302,11 @@
             "nachtwerk mag enkel voor bedienden"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt het als arbeidssituatie. Er bestaan wettelijke uitzonderingen, bijvoorbeeld in de zorg."
+          "uitleg": "Het is een arbeidssituatie. Er bestaan wettelijke uitzonderingen, bijvoorbeeld in de zorg."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welk bronmateriaal kan je volgens de fiche op het examen krijgen?",
+          "vraag": "Welk bronmateriaal kan je op het examen krijgen?",
           "opties": [
             "een arbeidsovereenkomst, een arbeidsreglement of een loonfiche",
             "enkel een wettekst",
@@ -4314,7 +4314,7 @@
             "een filmpje van je toekomstige werkgever"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt daarnaast ook een krantenartikel en een brochure."
+          "uitleg": "Ook een krantenartikel en een brochure kunnen."
         },
         {
           "type": "meerkeuze",
@@ -4356,7 +4356,7 @@
           "type": "waarofniet",
           "vraag": "Overwerk geeft recht op een toeslag, het overloon.",
           "antwoord": true,
-          "uitleg": "De fiche noemt overwerk en overloon samen als arbeidssituatie."
+          "uitleg": "Overwerk en overloon horen samen."
         },
         {
           "type": "waarofniet",
@@ -4366,7 +4366,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke arbeidssituaties noemt de fiche?",
+          "vraag": "Welke van deze situaties regelt het arbeidsrecht?",
           "opties": [
             "de beëindiging van de arbeidsovereenkomst",
             "de schorsing van de arbeidsovereenkomst",
@@ -4404,7 +4404,7 @@
             "overloon",
             "het overloon"
           ],
-          "uitleg": "De fiche noemt overwerk en overloon samen."
+          "uitleg": "Overwerk en overloon horen samen."
         },
         {
           "type": "invultekst",
@@ -4434,7 +4434,7 @@
             "het verbod op nachtarbeid"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt de proefperiode bij studenten als aparte arbeidssituatie."
+          "uitleg": "De proefperiode bij studenten is een aparte arbeidssituatie."
         }
       ]
     },
@@ -4561,7 +4561,7 @@
             "het rekeninguittreksel"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt de loonfiche uitdrukkelijk als mogelijk bronmateriaal op het examen."
+          "uitleg": "Een loonfiche kan op het examen als bronmateriaal voorkomen."
         },
         {
           "type": "waarofniet",
@@ -4726,7 +4726,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat beïnvloedt volgens de fiche de hoogte van de bedrijfsvoorheffing?",
+          "vraag": "Wat beïnvloedt de hoogte van de bedrijfsvoorheffing?",
           "opties": [
             "de gezinssituatie van de werknemer",
             "de sector waarin het bedrijf werkt",
@@ -4734,7 +4734,7 @@
             "de grootte van het bedrijf"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt uitdrukkelijk uit te leggen hoe de gezinssituatie de berekening beïnvloedt."
+          "uitleg": "Leg uit hoe de gezinssituatie de berekening beïnvloedt."
         },
         {
           "type": "meerkeuze",
@@ -5040,7 +5040,7 @@
             2,
             4
           ],
-          "uitleg": "Een toeslag maakt het werk niet veiliger. De fiche gaat over maatregelen, niet over vergoedingen."
+          "uitleg": "Een toeslag maakt het werk niet veiliger. Het gaat over maatregelen, niet over vergoedingen."
         },
         {
           "type": "invultekst",
@@ -5197,7 +5197,7 @@
             "het goedkeuren van je arbeidsovereenkomst"
           ],
           "antwoord": 0,
-          "uitleg": "Vakbonden staan in het rijtje van de fiche naast de officiële instanties."
+          "uitleg": "Vakbonden staan naast de officiële instanties."
         },
         {
           "type": "meerkeuze",
@@ -5213,7 +5213,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel instanties en organisaties noemt de fiche waar een werknemer of student terechtkan?",
+          "vraag": "Bij hoeveel instanties en organisaties kan een werknemer of student terecht?",
           "opties": [
             "zes",
             "vier",
@@ -5237,7 +5237,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een vakbond staat in de fiche bij de organisaties waar een werknemer terechtkan.",
+          "vraag": "Een werknemer kan terecht bij een vakbond.",
           "antwoord": true,
           "uitleg": "Ze staan er naast het CPBW, de RSZ, de RVA, student@work en de VDAB."
         },
@@ -5249,7 +5249,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke instanties noemt de fiche?",
+          "vraag": "Bij welke van deze instanties kan een werknemer terecht?",
           "opties": [
             "de RVA",
             "de VDAB",
@@ -5336,7 +5336,7 @@
             "het bedrag dat je per maand afbetaalt"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt uitdrukkelijk de korting, de bijkomende kosten en de btw mee te rekenen."
+          "uitleg": "Reken de korting, de bijkomende kosten en de btw mee."
         },
         {
           "type": "meerkeuze",
@@ -5352,7 +5352,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke bijkomende kosten noemt de fiche eenmalig?",
+          "vraag": "Welke bijkomende kosten betaal je eenmalig?",
           "opties": [
             "de inschrijvingskost en de leveringskost",
             "het abonnement en de verzekering",
@@ -5364,7 +5364,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke bijkomende kosten noemt de fiche terugkerend?",
+          "vraag": "Welke bijkomende kosten komen telkens terug?",
           "opties": [
             "het abonnement en de verzekering",
             "de inschrijvingskost en de leveringskost",
@@ -5408,7 +5408,7 @@
             "omdat dure producten geen btw hebben"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zegt: de btw, afhankelijk van het btw-percentage."
+          "uitleg": "De btw, afhankelijk van het btw-percentage."
         },
         {
           "type": "meerkeuze",
@@ -5454,7 +5454,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een leveringskost is volgens de fiche een eenmalige bijkomende kost.",
+          "vraag": "Een leveringskost is een eenmalige bijkomende kost.",
           "antwoord": true,
           "uitleg": "Ze staat er samen met de inschrijvingskost."
         },
@@ -5468,7 +5468,7 @@
           "type": "waarofniet",
           "vraag": "Alle producten hebben hetzelfde btw-tarief.",
           "antwoord": false,
-          "uitleg": "Er bestaan verschillende tarieven, en de fiche vraagt daar rekening mee te houden."
+          "uitleg": "Er bestaan verschillende tarieven, en daar hou je rekening mee."
         },
         {
           "type": "meerkeuze",
@@ -5527,7 +5527,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom vraagt de fiche naar de totale kostprijs en niet naar de prijs alleen?",
+          "vraag": "Waarom kijk je naar de totale kostprijs en niet naar de prijs alleen?",
           "opties": [
             "omdat je pas met de totale kost een eerlijke keuze kan maken",
             "omdat de prijs op het etiket vaak verkeerd staat",
@@ -5546,7 +5546,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke vier consumentenkredieten noemt de fiche?",
+          "vraag": "Wat zijn de vier consumentenkredieten?",
           "opties": [
             "verkoop op afbetaling, lening op afbetaling, kredietopening en financieringshuur",
             "hypotheek, lening, overschrijving en leasing",
@@ -5590,7 +5590,7 @@
             "een financieringshuur"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt dat een kredietopening via een kaart of een geoorloofde debetstand."
+          "uitleg": "Dat heet een kredietopening via een kaart of een geoorloofde debetstand."
         },
         {
           "type": "meerkeuze",
@@ -5602,11 +5602,11 @@
             "een lening op afbetaling"
           ],
           "antwoord": 0,
-          "uitleg": "Financieringshuur en leasing zijn in de fiche twee woorden voor hetzelfde."
+          "uitleg": "Financieringshuur en leasing zijn twee woorden voor hetzelfde."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke onderdelen van een consumentenkrediet noemt de fiche?",
+          "vraag": "Welke van deze zijn onderdelen van een consumentenkrediet?",
           "opties": [
             "de looptijd, de rentevoet, het geleende bedrag, het JKP en het maandbedrag",
             "de prijs, de korting, de btw en de levering",
@@ -5614,7 +5614,7 @@
             "de premie, de franchise en het verzekerd risico"
           ],
           "antwoord": 0,
-          "uitleg": "Vijf onderdelen. De andere rijtjes horen bij andere thema's van de fiche."
+          "uitleg": "Vijf onderdelen. De andere rijtjes horen bij andere thema's."
         },
         {
           "type": "meerkeuze",
@@ -5650,7 +5650,7 @@
             "3.000 euro"
           ],
           "antwoord": 0,
-          "uitleg": "3.420 min 3.000 is 420 euro. De fiche noemt dat de meerprijs van de financiering."
+          "uitleg": "3.420 min 3.000 is 420 euro. Dat is de meerprijs van de financiering."
         },
         {
           "type": "meerkeuze",
@@ -5768,7 +5768,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke twee soorten inkomsten noemt de fiche?",
+          "vraag": "Welke twee soorten inkomsten onderscheid je?",
           "opties": [
             "terugkerende en toevallige inkomsten",
             "vaste en variabele inkomsten",
@@ -5780,7 +5780,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vier soorten uitgaven noemt de fiche?",
+          "vraag": "Welke vier soorten uitgaven onderscheid je?",
           "opties": [
             "variabele, vaste, onvoorziene en uitzonderlijke uitgaven",
             "vaste en variabele uitgaven",
@@ -5884,11 +5884,11 @@
             "je werkgever overtuigen om je loon volgend jaar flink te verhogen"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zegt letterlijk: om inzicht te krijgen en te berekenen hoeveel je kan sparen."
+          "uitleg": "Om inzicht te krijgen en te berekenen hoeveel je kan sparen."
         },
         {
           "type": "waarofniet",
-          "vraag": "De fiche onderscheidt vier soorten uitgaven.",
+          "vraag": "Je onderscheidt vier soorten uitgaven.",
           "antwoord": true,
           "uitleg": "Variabel, vast, onvoorzien en uitzonderlijk."
         },
@@ -5906,13 +5906,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Terugkerend en toevallig zijn volgens de fiche de twee soorten uitgaven.",
+          "vraag": "Terugkerend en toevallig zijn de twee soorten uitgaven.",
           "antwoord": false,
           "uitleg": "Dat zijn de twee soorten inkomsten. De uitgaven zijn er vier."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke uitgaven noemt de fiche?",
+          "vraag": "Welke van deze zijn soorten uitgaven?",
           "opties": [
             "vaste uitgaven",
             "variabele uitgaven",
@@ -5987,7 +5987,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel factoren noemt de fiche om een aankoopkeuze te verantwoorden?",
+          "vraag": "Hoeveel factoren gebruik je om een aankoopkeuze te verantwoorden?",
           "opties": [
             "zeven",
             "vier",
@@ -6023,7 +6023,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat bedoelt de fiche met de noodzakelijkheid als factor?",
+          "vraag": "Wat bedoel je met de noodzakelijkheid als factor?",
           "opties": [
             "heb je dit echt nodig of wil je het gewoon graag",
             "hoe lang het product meegaat",
@@ -6035,7 +6035,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat bedoelt de fiche met duurzaamheid als factor bij een aankoop?",
+          "vraag": "Wat bedoel je met duurzaamheid als factor bij een aankoop?",
           "opties": [
             "hoelang het product meegaat en wat het voor het milieu betekent",
             "of je het in schijven kan afbetalen zonder extra rente te betalen",
@@ -6071,7 +6071,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke documenten noemt de fiche als aankoopbewijs?",
+          "vraag": "Welke documenten zijn een aankoopbewijs?",
           "opties": [
             "de factuur, het kasticket en de aankoopovereenkomst",
             "het garantiebewijs en de verzekeringspolis",
@@ -6103,11 +6103,11 @@
             "je persoonlijke belastingaangifte"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt ze samen met de loonstrook, als bewijs van wat je verdiende."
+          "uitleg": "Ze horen samen met de loonstrook bij het bewijs van wat je verdiende."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een kasticket geldt volgens de fiche als aankoopbewijs.",
+          "vraag": "Een kasticket geldt als aankoopbewijs.",
           "antwoord": true,
           "uitleg": "Naast de factuur en de aankoopovereenkomst."
         },
@@ -6119,7 +6119,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De duurzaamheid van een product is volgens de fiche een factor bij je aankoopkeuze.",
+          "vraag": "De duurzaamheid van een product is een factor bij je aankoopkeuze.",
           "antwoord": true,
           "uitleg": "Ze staat in het rijtje van zeven, naast de aankoopkost en de noodzakelijkheid."
         },
@@ -6131,7 +6131,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke factoren noemt de fiche bij het verantwoorden van een aankoopkeuze?",
+          "vraag": "Welke factoren gebruik je bij het verantwoorden van een aankoopkeuze?",
           "opties": [
             "de noodzakelijkheid",
             "de spaarbuffer",
@@ -6147,7 +6147,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat hoort volgens de fiche bij je persoonlijke administratie?",
+          "vraag": "Wat hoort bij je persoonlijke administratie?",
           "opties": [
             "het garantiebewijs",
             "het rekeninguittreksel",
@@ -6187,7 +6187,7 @@
             "kasticket",
             "het kasticket"
           ],
-          "uitleg": "De fiche noemt het naast de factuur en de aankoopovereenkomst."
+          "uitleg": "Het staat naast de factuur en de aankoopovereenkomst."
         },
         {
           "type": "meerkeuze",
@@ -6326,7 +6326,7 @@
             "het verschil tussen je inkomsten en je uitgaven in een maand"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt het als een van de vijf factoren bij de keuze tussen sparen en beleggen."
+          "uitleg": "Het is een van de vijf factoren bij de keuze tussen sparen en beleggen."
         },
         {
           "type": "waarofniet",
@@ -6354,7 +6354,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke drie rekeningen zet de fiche naast elkaar?",
+          "vraag": "Welke drie rekeningen vergelijk je?",
           "opties": [
             "de zichtrekening",
             "de spaarrekening",
@@ -6366,7 +6366,7 @@
             1,
             2
           ],
-          "uitleg": "De effectenrekening staat niet in de fiche."
+          "uitleg": "De effectenrekening hoort hier niet bij."
         },
         {
           "type": "invultekst",
@@ -6408,7 +6408,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke factor bepaalt mee of je spaart of belegt, volgens de fiche?",
+          "vraag": "Welke factor bepaalt mee of je spaart of belegt?",
           "opties": [
             "hoelang je je geld kan missen",
             "hoeveel je werkgever bijdraagt",
@@ -6427,7 +6427,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke vier beleggingsvormen noemt de fiche?",
+          "vraag": "Welke reeks bevat alleen beleggingsvormen?",
           "opties": [
             "de obligatie, de cryptomunt, het beleggingsfonds en het beursaandeel",
             "de spaarrekening, de termijnrekening, het aandeel en de obligatie",
@@ -6435,7 +6435,7 @@
             "de cryptomunt, de verzekering, het aandeel en het pensioensparen"
           ],
           "antwoord": 0,
-          "uitleg": "Precies die vier staan in de fiche, en een spaarrekening is geen belegging."
+          "uitleg": "Precies die vier, en een spaarrekening is geen belegging."
         },
         {
           "type": "meerkeuze",
@@ -6483,7 +6483,7 @@
             "een spaarproduct met een vaste opbrengst die de bank op voorhand belooft"
           ],
           "antwoord": 0,
-          "uitleg": "Van de vier vormen in de fiche is dit die met het grootste risico."
+          "uitleg": "Van de vier beleggingsvormen is dit die met het grootste risico."
         },
         {
           "type": "meerkeuze",
@@ -6523,7 +6523,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel factoren noemt de fiche bij de keuze tussen sparen en beleggen?",
+          "vraag": "Hoeveel factoren spelen mee bij de keuze tussen sparen en beleggen?",
           "opties": [
             "vijf",
             "drie",
@@ -6571,7 +6571,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke beleggingsvormen noemt de fiche?",
+          "vraag": "Welke van deze zijn beleggingsvormen?",
           "opties": [
             "de obligatie",
             "het beleggingsfonds",
@@ -6587,7 +6587,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke factoren bepalen volgens de fiche of sparen of beleggen het beste past?",
+          "vraag": "Welke factoren bepalen of sparen of beleggen het beste past?",
           "opties": [
             "hoelang je je geld kan missen",
             "de rentevoet en de inflatie",
@@ -6612,7 +6612,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke beleggingsvorm uit de fiche is een lening aan een bedrijf of een overheid?",
+          "vraag": "Welke beleggingsvorm is een lening aan een bedrijf of een overheid?",
           "antwoord": [
             "obligatie",
             "een obligatie",
@@ -6622,17 +6622,17 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke beleggingsvorm uit de fiche is een digitale munt zonder centrale bank?",
+          "vraag": "Welke beleggingsvorm is een digitale munt zonder centrale bank?",
           "antwoord": [
             "cryptomunt",
             "een cryptomunt",
             "de cryptomunt"
           ],
-          "uitleg": "Van de vier vormen in de fiche schommelt deze het sterkst."
+          "uitleg": "Van de vier beleggingsvormen schommelt deze het sterkst."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Iemand van achttien wil geld opzijzetten voor een woning over twintig jaar en kan tegen schommelingen. Wat past bij de factoren van de fiche?",
+          "vraag": "Iemand van achttien wil geld opzijzetten voor een woning over twintig jaar en kan tegen schommelingen. Wat past daarbij?",
           "opties": [
             "een deel beleggen kan passen, want hij kan het geld lang missen",
             "alles de komende twintig jaar op een zichtrekening laten staan",
@@ -6735,7 +6735,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vijf verzekeringen noemt de fiche?",
+          "vraag": "Welke vijf verzekeringen komen in dit hoofdstuk aan bod?",
           "opties": [
             "auto, bromfiets, brand, familiale en rechtsbijstand",
             "auto, brand, hospitalisatie, reis en familiale",
@@ -6747,7 +6747,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke gegevens horen volgens de fiche in een schadeaangifte?",
+          "vraag": "Welke gegevens horen in een schadeaangifte?",
           "opties": [
             "de datum en het uur, de aard van de schade en wie aansprakelijk is",
             "enkel het bedrag van de schade, zoals de hersteller het opgeeft",
@@ -6755,7 +6755,7 @@
             "de premie en de franchise die in je polis afgesproken staan"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt ook de getuige, de verantwoordelijke en de begunstigde."
+          "uitleg": "Ook de getuige, de verantwoordelijke en de begunstigde horen erbij."
         },
         {
           "type": "meerkeuze",
@@ -6791,11 +6791,11 @@
           "type": "waarofniet",
           "vraag": "De datum en het uur van een schadegeval horen in de schadeaangifte.",
           "antwoord": true,
-          "uitleg": "Ze staan vooraan in het rijtje van de fiche."
+          "uitleg": "Ze staan vooraan in het rijtje."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke gegevens noemt de fiche voor een schadeaangifte?",
+          "vraag": "Welke van deze gegevens vul je in op een schadeaangifte?",
           "opties": [
             "de getuige",
             "de juridisch aansprakelijke",
@@ -6975,7 +6975,7 @@
             "wie het contract ondertekende"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt de begunstigde ook bij de gegevens van een schadeaangifte."
+          "uitleg": "De begunstigde hoort ook bij de gegevens van een schadeaangifte."
         },
         {
           "type": "meerkeuze",
@@ -7015,7 +7015,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke onderdelen van een polis noemt de fiche?",
+          "vraag": "Welke van deze zijn onderdelen van een polis?",
           "opties": [
             "de verzekeringsnemer",
             "de franchise",
@@ -7232,7 +7232,7 @@
           "type": "waarofniet",
           "vraag": "Een opsomming kan je achteraf niet meer wijzigen.",
           "antwoord": false,
-          "uitleg": "De fiche vraagt juist dat je een opsomming kan invoegen of wijzigen."
+          "uitleg": "Je moet juist een opsomming kunnen invoegen of wijzigen."
         },
         {
           "type": "meerkeuze",
@@ -7411,7 +7411,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat kan je instellen bij het afdrukken, volgens de fiche?",
+          "vraag": "Wat kan je instellen bij het afdrukken?",
           "opties": [
             "de sortering, enkel- of dubbelzijdig, en kleur",
             "de regelafstand en de uitlijning van een alinea",
@@ -7449,7 +7449,7 @@
           "type": "waarofniet",
           "vraag": "Marges, afdrukstand en formaat horen samen bij de paginaopmaak.",
           "antwoord": true,
-          "uitleg": "Zo staat het in de fiche."
+          "uitleg": "Zo is het."
         },
         {
           "type": "waarofniet",
@@ -7490,7 +7490,7 @@
             "PDF",
             "pdf"
           ],
-          "uitleg": "De fiche vraagt uitdrukkelijk dat je een document als PDF kan opslaan."
+          "uitleg": "Je moet een document als PDF kunnen opslaan."
         },
         {
           "type": "invultekst",
@@ -7678,7 +7678,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke structuurelementen van een rekenblad noemt de fiche?",
+          "vraag": "Welke van deze zijn structuurelementen van een rekenblad?",
           "opties": [
             "de cel en het celadres",
             "het bereik",
@@ -7694,7 +7694,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke getalnotaties noemt de fiche?",
+          "vraag": "Welke van deze zijn getalnotaties?",
           "opties": [
             "valuta",
             "percentage",
@@ -7768,7 +7768,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke operatoren noemt de fiche voor formules?",
+          "vraag": "Welke operatoren gebruik je in formules?",
           "opties": [
             "maal, min, plus, gedeeld door en haakjes",
             "enkel plus en min",
@@ -7776,7 +7776,7 @@
             "groter dan en kleiner dan"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche schrijft ze als *, -, +, / en ()."
+          "uitleg": "Je schrijft ze als *, -, +, / en ()."
         },
         {
           "type": "meerkeuze",
@@ -7900,7 +7900,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke functies noemt de fiche voor Excel?",
+          "vraag": "Welke van deze zijn functies in Excel?",
           "opties": [
             "SOM",
             "GEMIDDELDE",
@@ -7912,23 +7912,23 @@
             1,
             2
           ],
-          "uitleg": "AFRONDEN staat niet in de fiche. MIN, MAX en ALS wel."
+          "uitleg": "AFRONDEN hoort hier niet bij. MIN, MAX en ALS wel."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke grafiektypes noemt de fiche?",
+          "vraag": "Welke van deze zijn grafiektypes?",
           "opties": [
             "de kolomgrafiek",
             "de lijngrafiek",
             "het cirkeldiagram",
-            "de boxplot"
+            "de stamboom"
           ],
           "antwoord": [
             0,
             1,
             2
           ],
-          "uitleg": "Een boxplot staat niet in de fiche. De staafgrafiek en de spreiding wel."
+          "uitleg": "Een stamboom is geen grafiek. De kolomgrafiek, de lijngrafiek en het cirkeldiagram wel; ook de staafgrafiek en de spreidingsgrafiek horen erbij."
         },
         {
           "type": "invultekst",
@@ -8051,7 +8051,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke basisbewerkingen op dia's noemt de fiche? Er zijn meerdere juiste antwoorden.",
+          "vraag": "Welke van deze zijn basisbewerkingen op dia's? Er zijn meerdere juiste antwoorden.",
           "opties": [
             "een nieuwe dia invoegen",
             "de indeling en de opmaak van een dia aanpassen",
@@ -8129,7 +8129,7 @@
           "type": "waarofniet",
           "vraag": "De indeling van een dia kan je achteraf nog veranderen.",
           "antwoord": true,
-          "uitleg": "De fiche noemt het letterlijk bij de basisbewerkingen: de indeling en de opmaak aanpassen."
+          "uitleg": "Het hoort bij de basisbewerkingen: de indeling en de opmaak aanpassen."
         },
         {
           "type": "waarofniet",
@@ -8166,7 +8166,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe heet het vaste patroon van vakken op een dia, in de woorden van de fiche?",
+          "vraag": "Hoe heet het vaste patroon van vakken op een dia?",
           "antwoord": [
             "indeling",
             "de indeling",
@@ -8265,7 +8265,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten afdrukken van een presentatie noemt de fiche? Er zijn meerdere juiste antwoorden.",
+          "vraag": "Welke van deze zijn soorten afdrukken van een presentatie? Er zijn meerdere juiste antwoorden.",
           "opties": [
             "hand-outs",
             "overzichten",
@@ -8349,7 +8349,7 @@
           "type": "waarofniet",
           "vraag": "Een presentatie kan je enkel als pptx bewaren.",
           "antwoord": false,
-          "uitleg": "De fiche noemt zelf verschillende bestandsindelingen, zoals pptx en ppsm."
+          "uitleg": "Er zijn verschillende bestandsindelingen, zoals pptx en ppsm."
         },
         {
           "type": "invultekst",
@@ -8363,7 +8363,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke bestandsindeling uit de fiche start bij het openen meteen als diavoorstelling?",
+          "vraag": "Welke bestandsindeling start bij het openen meteen als diavoorstelling?",
           "antwoord": [
             "ppsm",
             "een ppsm"

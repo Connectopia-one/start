@@ -105,7 +105,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke drie dingen bepalen volgens de fiche de breedte van een betrouwbaarheidsinterval?",
+        vraag="Welke drie dingen bepalen de breedte van een betrouwbaarheidsinterval?",
         opties=[
             "de steekproefgrootte, de standaardafwijking en het betrouwbaarheidsniveau",
             "de populatiegrootte, het gemiddelde en de mediaan",
@@ -113,7 +113,7 @@ DEEL1 = [
             "het aantal variabelen, de eenheid en het aantal decimalen",
         ],
         antwoord=0,
-        uitleg="Die drie staan letterlijk in de fiche opgesomd. Het gemiddelde zelf bepaalt enkel waar het interval ligt.",
+        uitleg="Die drie bepalen de breedte. Het gemiddelde zelf bepaalt enkel waar het interval ligt.",
     ),
     dict(
         type="meerkeuze",
@@ -167,7 +167,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Een betrouwbaarheidsinterval kan zowel voor een populatiegemiddelde als voor een populatieproportie opgesteld worden.",
         antwoord=True,
-        uitleg="De fiche noemt beide gevallen apart: een interval voor het populatiegemiddelde en een voor de populatieproportie.",
+        uitleg="Er zijn twee gevallen: een interval voor het populatiegemiddelde en een voor de populatieproportie.",
     ),
     dict(
         type="meerkeuze",

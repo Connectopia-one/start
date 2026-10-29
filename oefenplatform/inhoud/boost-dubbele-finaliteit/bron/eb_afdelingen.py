@@ -80,7 +80,7 @@ DEEL1 = [
          antwoord=0,
          uitleg="De mensen van de onderneming."),
     dict(type="meerkeuze",
-         vraag="Welke afdelingen noemt de vakfiche?",
+         vraag="Welke van deze zijn afdelingen van een onderneming?",
          opties=[
              "aankoop en verkoop",
              "marketing",

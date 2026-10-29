@@ -107,7 +107,7 @@ DEEL1 = [
             "je begrijpt juist de andere kant van het conflict beter",
         ],
         antwoord=0,
-        uitleg="Daarom vraagt de fiche uitdrukkelijk om bronnen van beide kanten naast elkaar te leggen.",
+        uitleg="Daarom leg je bronnen van beide kanten naast elkaar.",
     ),
     dict(
         type="invultekst",
@@ -246,7 +246,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke lagen van identiteit noemt de vakfiche?",
+        vraag="Welke van deze zijn lagen van identiteit?",
         opties=[
             "de Vlaamse en de Belgische laag",
             "de westerse en niet-westerse laag",
@@ -254,7 +254,7 @@ DEEL2 = [
             "de laag van je lievelingssport",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een sport hoort daar niet bij. De andere antwoorden geven samen de vijf lagen uit de fiche.",
+        uitleg="Een sport hoort daar niet bij. De andere antwoorden zijn samen de vijf lagen.",
     ),
     dict(
         type="waarofniet",
@@ -312,7 +312,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat noemt de vakfiche géén kunst- of cultuuruiting?",
+        vraag="Wat is géén kunst- of cultuuruiting?",
         opties=[
             "een rekening of een wetstekst",
             "een schilderij of een bouwwerk",
@@ -320,13 +320,13 @@ DEEL2 = [
             "graffiti of een lied",
         ],
         antwoord=0,
-        uitleg="Een rekening is een bron, maar geen cultuuruiting in deze zin. De drie andere horen wel in de lijst van de fiche.",
+        uitleg="Een rekening is een bron, maar geen cultuuruiting in deze zin. De drie andere wel.",
     ),
     dict(
         type="waarofniet",
         vraag="Ook een game of graffiti kan je als cultuuruiting analyseren.",
         antwoord=True,
-        uitleg="De fiche noemt ze uitdrukkelijk. Dezelfde vragen gelden: wie maakte het, voor wie, en waarom?",
+        uitleg="Ook die horen erbij. Dezelfde vragen gelden: wie maakte het, voor wie, en waarom?",
     ),
     dict(
         type="meerkeuze",
@@ -356,7 +356,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Een kunstwerk kan bedoeld zijn om te bekritiseren, te bevestigen, te informeren of gewoon om schoonheid te maken.",
         antwoord=True,
-        uitleg="De fiche somt die bedoelingen op. Vaak zijn er trouwens meerdere tegelijk.",
+        uitleg="Dat zijn de mogelijke bedoelingen. Vaak zijn er trouwens meerdere tegelijk.",
     ),
     dict(
         type="meerkeuze",

@@ -103,7 +103,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke vijf vormen van diversiteit noemt de fiche?",
+        vraag="Wat zijn de vijf vormen van diversiteit?",
         opties=[
             "lichaams-, sociale, culturele, religieuze en seksuele diversiteit",
             "nationale, regionale, lokale, stedelijke en landelijke diversiteit",
@@ -111,7 +111,7 @@ DEEL1 = [
             "talige, religieuze, culinaire, muzikale en sportieve diversiteit",
         ],
         antwoord=0,
-        uitleg="Religieuze diversiteit heet in de fiche ook levensbeschouwelijke diversiteit.",
+        uitleg="Religieuze diversiteit heet ook levensbeschouwelijke diversiteit.",
     ),
     dict(
         type="meerkeuze",
@@ -147,7 +147,7 @@ DEEL1 = [
             "lichaamsdiversiteit",
         ],
         antwoord=0,
-        uitleg="De fiche noemt die vorm religieuze of levensbeschouwelijke diversiteit, en atheïsme hoort er ook bij.",
+        uitleg="Die vorm heet religieuze of levensbeschouwelijke diversiteit, en atheïsme hoort er ook bij.",
     ),
     dict(
         type="waarofniet",
@@ -169,13 +169,13 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="De fiche rekent seksuele diversiteit mee als een vorm van diversiteit.",
+        vraag="Seksuele diversiteit is een vorm van diversiteit.",
         antwoord=True,
         uitleg="Ze staat in het rijtje van vijf, naast lichaams-, sociale, culturele en religieuze diversiteit.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke begrippen over samenleven in diversiteit staan in de fiche?",
+        vraag="Welke van deze begrippen gaan over samenleven in diversiteit?",
         opties=[
             "multiculturalisme",
             "integratie",
@@ -194,19 +194,19 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Welk begrip uit de fiche betekent mensen buitensluiten?",
+        vraag="Welk begrip betekent mensen buitensluiten?",
         antwoord=["exclusie", "de exclusie"],
         uitleg="Exclusie staat als laatste in het rijtje van vijf begrippen.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel vormen van diversiteit noemt de fiche? Antwoord met een cijfer.",
+        vraag="Hoeveel vormen van diversiteit onderscheid je? Antwoord met een cijfer.",
         antwoord=["5", "vijf"],
         uitleg="Lichaams-, sociale, culturele, religieuze of levensbeschouwelijke, en seksuele diversiteit.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welk woord gebruikt de fiche naast religieuze diversiteit?",
+        vraag="Welk woord gebruik je naast religieuze diversiteit?",
         opties=[
             "levensbeschouwelijke diversiteit",
             "spirituele diversiteit",
@@ -214,14 +214,14 @@ DEEL1 = [
             "morele diversiteit",
         ],
         antwoord=0,
-        uitleg="De fiche schrijft religieuze of levensbeschouwelijke diversiteit, met een schuine streep ertussen.",
+        uitleg="Je schrijft religieuze of levensbeschouwelijke diversiteit, met een schuine streep ertussen.",
     ),
 ]
 
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Welke drie voordelen van samenleven in diversiteit noemt de fiche?",
+        vraag="Wat zijn de drie voordelen van samenleven in diversiteit?",
         opties=[
             "culturele verrijking, uitwisselen van ideeën en economische uitwisseling",
             "meer vrije tijd, minder conflicten en lagere belastingen voor iedereen",
@@ -229,11 +229,11 @@ DEEL2 = [
             "meer veiligheid, meer orde en meer eenheid in de groep waar je woont",
         ],
         antwoord=0,
-        uitleg="Precies die drie staan in de fiche, en niets anders.",
+        uitleg="Precies die drie, en niets anders.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat bedoelt de fiche met culturele verrijking als voordeel?",
+        vraag="Wat bedoel je met culturele verrijking als voordeel?",
         opties=[
             "je komt in contact met gewoonten en kunst die je anders niet kende",
             "de economie van een land groeit door nieuwe inwoners die werken",
@@ -257,7 +257,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke vijf uitdagingen van samenleven in diversiteit noemt de fiche?",
+        vraag="Wat zijn de vijf uitdagingen van samenleven in diversiteit?",
         opties=[
             "meningsverschillen, verschillende belangen, verschillende referentiekaders, groepsdenken en uitsluiting",
             "taalproblemen, woningnood, werkloosheid, armoede en criminaliteit in de grotere steden",
@@ -317,7 +317,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Is een meningsverschil volgens de fiche een probleem of een uitdaging?",
+        vraag="Is een meningsverschil een probleem of een uitdaging?",
         opties=[
             "een uitdaging: het hoort bij samenleven in diversiteit",
             "een probleem dat je altijd moet oplossen met een stemming",
@@ -325,17 +325,17 @@ DEEL2 = [
             "een teken van groepsdenken",
         ],
         antwoord=0,
-        uitleg="De fiche zet de uitdagingen naast de voordelen: ze horen er allebei bij.",
+        uitleg="De uitdagingen staan naast de voordelen: ze horen er allebei bij.",
     ),
     dict(
         type="waarofniet",
-        vraag="Volgens de fiche is diversiteit tegelijk verrijkend en uitdagend.",
+        vraag="Diversiteit is tegelijk verrijkend en uitdagend.",
         antwoord=True,
         uitleg="Dat staat zo in het leerdoel: verrijkend én uitdagend voor het samenleven.",
     ),
     dict(
         type="waarofniet",
-        vraag="Uitsluiting staat in de fiche bij de voordelen van diversiteit.",
+        vraag="Uitsluiting is een voordeel van diversiteit.",
         antwoord=False,
         uitleg="Het risico van uitsluiting staat bij de uitdagingen.",
     ),
@@ -343,17 +343,17 @@ DEEL2 = [
         type="waarofniet",
         vraag="Mensen met een verschillend referentiekader kunnen dezelfde situatie anders beoordelen.",
         antwoord=True,
-        uitleg="Dat is precies waarom de fiche het referentiekader als uitdaging noemt.",
+        uitleg="Daarom is een verschillend referentiekader een uitdaging.",
     ),
     dict(
         type="waarofniet",
         vraag="Groepsdenken is goed voor een groep, want het zorgt voor eenheid.",
         antwoord=False,
-        uitleg="De fiche noemt het een risico: wie niets meer tegenspreekt, ziet de fouten niet.",
+        uitleg="Het is een risico: wie niets meer tegenspreekt, ziet de fouten niet.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze noemt de fiche als voordeel van samenleven in diversiteit?",
+        vraag="Welke van deze zijn voordelen van samenleven in diversiteit?",
         opties=[
             "culturele verrijking",
             "uitwisselen van ideeën",
@@ -365,7 +365,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze noemt de fiche als uitdaging van samenleven in diversiteit?",
+        vraag="Welke van deze zijn uitdagingen van samenleven in diversiteit?",
         opties=[
             "verschillende belangen",
             "een hogere belastingdruk",
@@ -373,23 +373,23 @@ DEEL2 = [
             "een hogere kostprijs voor de overheid",
         ],
         antwoord=[0, 2],
-        uitleg="Over kosten voor de overheid of belastingen zegt dit blok van de fiche niets. Verschillende belangen en het risico van uitsluiting staan er wel bij.",
+        uitleg="Kosten voor de overheid of belastingen horen er niet bij. Verschillende belangen en het risico van uitsluiting wel.",
     ),
     dict(
         type="invultekst",
         vraag="Hoe noem je het geheel van ervaringen en waarden waarmee iemand een situatie beoordeelt?",
         antwoord=["referentiekader", "het referentiekader"],
-        uitleg="Verschillende referentiekaders zijn een van de vijf uitdagingen in de fiche.",
+        uitleg="Verschillende referentiekaders zijn een van de vijf uitdagingen.",
     ),
     dict(
         type="invultekst",
-        vraag="Welk risico noemt de fiche als een groep tot één mening komt omdat niemand nog tegenspreekt?",
+        vraag="Hoe noem je het als een groep tot één mening komt omdat niemand nog tegenspreekt?",
         antwoord=["groepsdenken", "het groepsdenken"],
         uitleg="Groepsdenken staat samen met uitsluiting bij de twee risico's in het rijtje.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel uitdagingen van samenleven in diversiteit noemt de fiche? Antwoord met een cijfer.",
+        vraag="Hoeveel uitdagingen van samenleven in diversiteit onderscheid je? Antwoord met een cijfer.",
         antwoord=["5", "vijf"],
         uitleg="Meningsverschillen, verschillende belangen, verschillende referentiekaders, groepsdenken en uitsluiting.",
     ),

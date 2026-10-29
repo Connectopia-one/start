@@ -78,7 +78,7 @@ DEEL1 = [
     dict(type="waarofniet",
          vraag="In het Frans zeg je bonjour voor je iemand iets vraagt.",
          antwoord=True,
-         uitleg="De fiche noemt dat uitdrukkelijk bij de strategieën. Zonder bonjour klinkt een vraag onbeschoft."),
+         uitleg="Zonder bonjour klinkt een vraag onbeschoft."),
     dict(type="meerkeuze",
          vraag="Wat zijn les soldes?",
          opties=["de koopjes",
@@ -151,7 +151,7 @@ DEEL1 = [
                  "de toon van je stem",
                  "de taal van het land"],
          antwoord=0,
-         uitleg="Je houding, je handen, je blik. De fiche noemt lichaamstaal uitdrukkelijk bij de socioculturele aspecten."),
+         uitleg="Je houding, je handen, je blik. Ook lichaamstaal hoort bij de cultuur."),
 ]
 
 DEEL2 = [

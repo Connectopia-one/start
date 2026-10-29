@@ -27,7 +27,7 @@ DEEL1 = [
             "ze heeft maar één mogelijk antwoord",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een vraag met maar één mogelijk antwoord is meestal geen onderzoeksvraag maar een weetje. De andere criteria komen uit de fiche zelf.",
+        uitleg="Een vraag met maar één mogelijk antwoord is meestal geen onderzoeksvraag maar een weetje. De andere antwoorden zijn echte criteria.",
     ),
     dict(
         type="meerkeuze",
@@ -234,7 +234,7 @@ DEEL2 = [
             "is de bron in haar eigen tijd duur geweest om te maken?",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De prijs staat er los van. De andere vragen komen letterlijk uit het stappenplan van de fiche.",
+        uitleg="De prijs staat er los van. De andere vragen horen bij het stappenplan.",
     ),
     dict(
         type="waarofniet",
@@ -252,7 +252,7 @@ DEEL2 = [
             "vooroordeel en stereotypering",
         ],
         antwoord=0,
-        uitleg="Lengte zegt niets. De vijf criteria van de fiche zijn argumentatie, interpretatie, veralgemening, vooroordeel en stereotypering.",
+        uitleg="Lengte zegt niets. De vijf criteria zijn argumentatie, interpretatie, veralgemening, vooroordeel en stereotypering.",
     ),
     dict(
         type="meerkeuze",
@@ -318,7 +318,7 @@ DEEL2 = [
             "het jaartal van een bron gokken en het achteraf in een boek nakijken",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Gokken is geen redeneerwijze. De andere antwoorden bevatten samen bijna de hele lijst uit de fiche.",
+        uitleg="Gokken is geen redeneerwijze. De andere antwoorden zijn echte manieren van redeneren.",
     ),
     dict(
         type="meerkeuze",

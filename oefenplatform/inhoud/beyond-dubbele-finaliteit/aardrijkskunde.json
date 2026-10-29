@@ -36,7 +36,7 @@
             "60",
             "zestig"
           ],
-          "uitleg": "Eén graad is zestig minuten, en één minuut is zestig seconden. De fiche vraagt een nauwkeurigheid van één minuut."
+          "uitleg": "Eén graad is zestig minuten, en één minuut is zestig seconden."
         },
         {
           "type": "meerkeuze",
@@ -257,7 +257,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche noemt oceanen, continenten, rivieren, reliëfeenheden en klimaatzones. Een godsdienst is sociaalgeografisch."
+          "uitleg": "Oceanen, continenten, rivieren, reliëfeenheden en klimaatzones horen erbij. Een godsdienst is sociaalgeografisch."
         },
         {
           "type": "invultekst",
@@ -265,7 +265,7 @@
           "antwoord": [
             "atlas"
           ],
-          "uitleg": "De algemene wereldatlas van Plantyn. De fiche raadt aan om er tijdens het studeren al mee te werken."
+          "uitleg": "De algemene wereldatlas van Plantyn. Werk er tijdens het studeren al mee."
         },
         {
           "type": "meerkeuze",
@@ -322,11 +322,11 @@
             "Geopunt",
             "geopunt"
           ],
-          "uitleg": "Geopunt is de GIS-viewer van de Vlaamse overheid. De fiche vraagt uitdrukkelijk dat je ermee kan werken."
+          "uitleg": "Geopunt is de GIS-viewer van de Vlaamse overheid. Je moet ermee kunnen werken."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke hulpbronnen noemt de fiche voor de landschapsanalyse?",
+          "vraag": "Welke hulpbronnen gebruik je voor de landschapsanalyse?",
           "opties": [
             "satellietbeelden",
             "geologische doorsnedes",
@@ -362,7 +362,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke sferen van het systeem aarde noemt de fiche?",
+          "vraag": "Welke van deze zijn sferen van het systeem aarde?",
           "opties": [
             "de geosfeer",
             "de atmosfeer",
@@ -400,9 +400,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Aardrijkskunde ligt volgens de fiche op het raakvlak van de natuurwetenschappen en de menswetenschappen.",
+          "vraag": "Aardrijkskunde ligt op het raakvlak van de natuurwetenschappen en de menswetenschappen.",
           "antwoord": true,
-          "uitleg": "Dat staat zo in de inleiding van de fiche. Het vak verklaart de relaties tussen mens en natuur."
+          "uitleg": "Aardrijkskunde verklaart de relaties tussen mens en natuur."
         },
         {
           "type": "meerkeuze",
@@ -501,7 +501,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke afstandsmaten noemt de fiche voor het heelal?",
+          "vraag": "Welke afstandsmaten gebruik je voor het heelal?",
           "opties": [
             "het lichtjaar",
             "de astronomische eenheid",
@@ -556,7 +556,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waar ligt ons zonnestelsel volgens de fiche?",
+          "vraag": "Waar ligt ons zonnestelsel?",
           "opties": [
             "in de Orionarm",
             "in de kern van de Melkweg",
@@ -586,7 +586,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke delen van het heelal noemt de fiche bij naam?",
+          "vraag": "Welke van deze zijn delen van het heelal?",
           "opties": [
             "galaxie",
             "cluster",
@@ -726,7 +726,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke observatietechnieken noemt de fiche?",
+          "vraag": "Welke van deze gebruik je om het heelal te observeren?",
           "opties": [
             "de satelliet",
             "de optische telescoop",
@@ -737,7 +737,7 @@
             0,
             1
           ],
-          "uitleg": "De fiche noemt de satelliet, de optische telescoop en de radiotelescoop. Een seismograaf meet aardbevingen en een thermometer de temperatuur."
+          "uitleg": "Je observeert het heelal met de satelliet, de optische telescoop en de radiotelescoop. Een seismograaf meet aardbevingen en een thermometer de temperatuur."
         },
         {
           "type": "waarofniet",
@@ -773,7 +773,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche noemt weersvoorspelling, communicatie en de opvolging van bosbranden. Aardbevingen voorspellen kan niemand."
+          "uitleg": "Satellieten dienen voor weersvoorspelling, communicatie en de opvolging van bosbranden. Aardbevingen voorspellen kan niemand."
         },
         {
           "type": "invultekst",
@@ -812,7 +812,7 @@
             "licht van de zon op poolnacht"
           ],
           "antwoord": 0,
-          "uitleg": "Deeltjes van de zon botsen op de hoge atmosfeer bij de polen. De fiche noemt het als gevolg van de zonneactiviteit."
+          "uitleg": "Deeltjes van de zon botsen op de hoge atmosfeer bij de polen. Het is een gevolg van de zonneactiviteit."
         },
         {
           "type": "meerkeuze",
@@ -1214,7 +1214,7 @@
             "een staart van ijs en gas"
           ],
           "antwoord": 0,
-          "uitleg": "Zolang de brok in de ruimte zweeft, is het een meteoroïde. De fiche vraagt uitdrukkelijk dat je de vier termen kan onderscheiden."
+          "uitleg": "Zolang de brok in de ruimte zweeft, is het een meteoroïde. Je moet de vier termen kunnen onderscheiden."
         },
         {
           "type": "meerkeuze",
@@ -1309,7 +1309,7 @@
           "type": "waarofniet",
           "vraag": "Een inslag van een grote planetoïde wordt in verband gebracht met het einde van de dinosauriërs.",
           "antwoord": true,
-          "uitleg": "De inslag bij Chicxulub in Mexico, 66 miljoen jaar geleden. De fiche legt het verband met de massa-extincties op de geologische tijdschaal."
+          "uitleg": "De inslag bij Chicxulub in Mexico, 66 miljoen jaar geleden. Zo'n inslag hangt samen met de massa-extincties op de geologische tijdschaal."
         },
         {
           "type": "meerkeuze",
@@ -1637,7 +1637,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke data noemt de fiche uitdrukkelijk?",
+          "vraag": "Op welke data begint een seizoen?",
           "opties": [
             "21 juni",
             "22 december",
@@ -1851,7 +1851,7 @@
             "de lithosfeer"
           ],
           "antwoord": 0,
-          "uitleg": "Troposfeer, stratosfeer, mesosfeer: zo noemt de fiche ze. De hydrosfeer en de lithosfeer zijn geen lagen van de atmosfeer."
+          "uitleg": "Troposfeer, stratosfeer, mesosfeer, thermosfeer. De hydrosfeer en de lithosfeer zijn geen lagen van de atmosfeer."
         },
         {
           "type": "invultekst",
@@ -2001,7 +2001,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke lagen van de atmosfeer noemt de fiche?",
+          "vraag": "Welke van deze zijn lagen van de atmosfeer?",
           "opties": [
             "de troposfeer",
             "de stratosfeer",
@@ -2089,7 +2089,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke factoren noemt de fiche als geografisch?",
+          "vraag": "Welke van deze zijn geografische factoren voor de temperatuur?",
           "opties": [
             "de hoogteligging",
             "de zeestromen",
@@ -2146,7 +2146,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke lokale factoren noemt de fiche?",
+          "vraag": "Welke van deze zijn lokale factoren voor de temperatuur?",
           "opties": [
             "de vegetatie",
             "de bodem",
@@ -2330,7 +2330,7 @@
             0,
             1
           ],
-          "uitleg": "De fiche noemt cycloon, anticycloon, depressie, minimum en maximum. Een depressie, een cycloon en een minimum zijn lage druk; de anticycloon en het maximum zijn juist hoge druk."
+          "uitleg": "Een depressie, een cycloon en een minimum zijn lage druk; de anticycloon en het maximum zijn juist hoge druk."
         },
         {
           "type": "waarofniet",
@@ -2373,7 +2373,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke drukgordels noemt de fiche?",
+          "vraag": "Welke van deze zijn drukgordels?",
           "opties": [
             "het equatoriaal minimum",
             "het subtropisch maximum",
@@ -2544,7 +2544,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke winden noemt de fiche?",
+          "vraag": "Welke van deze zijn winden?",
           "opties": [
             "de passaten",
             "de straalstroom",
@@ -2996,7 +2996,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten regen noemt de fiche?",
+          "vraag": "Welke van deze zijn soorten regen?",
           "opties": [
             "stijgingsregens",
             "convectieregens",
@@ -3050,7 +3050,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke factoren bepalen volgens de fiche de neerslagverdeling?",
+          "vraag": "Welke factoren bepalen de neerslagverdeling?",
           "opties": [
             "de luchtdruk",
             "de zeestromen",
@@ -3345,7 +3345,7 @@
           "type": "waarofniet",
           "vraag": "Het klimaat van een plaats kan je aflezen uit haar temperatuur en haar neerslag samen.",
           "antwoord": true,
-          "uitleg": "Dat is precies wat de fiche vraagt: klimaten classificeren aan de hand van de verdeling van temperatuur en neerslag."
+          "uitleg": "Precies: je classificeert klimaten aan de hand van de verdeling van temperatuur en neerslag."
         },
         {
           "type": "meerkeuze",
@@ -3427,7 +3427,7 @@
             "een gebied dat door één land bestuurd wordt"
           ],
           "antwoord": 0,
-          "uitleg": "Een bioom hoort bij een klimaat: taiga, savanne, regenwoud, toendra. De fiche vraagt dat je dat verband kan uitleggen."
+          "uitleg": "Een bioom hoort bij een klimaat: taiga, savanne, regenwoud, toendra. Dat verband moet je kunnen uitleggen."
         },
         {
           "type": "meerkeuze",
@@ -3451,7 +3451,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke biomen noemt de fiche bij naam?",
+          "vraag": "Welke van deze zijn biomen?",
           "opties": [
             "de taiga",
             "de poolwoestijn",
@@ -3676,7 +3676,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke lagen van de geosfeer noemt de fiche?",
+          "vraag": "Welke van deze zijn lagen van de geosfeer?",
           "opties": [
             "de lithosfeer",
             "de asthenosfeer",
@@ -3889,7 +3889,7 @@
             "de maan trekt aan de korst van de aarde"
           ],
           "antwoord": 0,
-          "uitleg": "De koude, zware plaat die wegzinkt, sleept het achterste deel mee. De fiche noemt dat samen met de rugduwkracht als motor."
+          "uitleg": "De koude, zware plaat die wegzinkt, sleept het achterste deel mee. Samen met de rugduwkracht is dat de motor."
         },
         {
           "type": "invultekst",
@@ -3901,7 +3901,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke bewegingen van platen noemt de fiche?",
+          "vraag": "Welke van deze zijn bewegingen van platen?",
           "opties": [
             "divergentie",
             "convergentie",
@@ -3958,7 +3958,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke begrippen noemt de fiche bij de plaatbewegingen?",
+          "vraag": "Welke begrippen horen bij de plaatbewegingen?",
           "opties": [
             "Gondwana",
             "een mantelpluim",
@@ -4060,7 +4060,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche noemt ook het continentaal plat en de continentale helling. Een plooiingsgebergte ligt op het land."
+          "uitleg": "Ook het continentaal plat en de continentale helling zijn gevolgen. Een plooiingsgebergte ligt op het land."
         },
         {
           "type": "waarofniet",
@@ -4149,7 +4149,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche noemt ook lapilli en vulkanische bommen. Zeewater komt er niet uit, al kan een vulkaan onder water liggen."
+          "uitleg": "Ook lapilli en vulkanische bommen komen eruit. Zeewater niet, al kan een vulkaan onder water liggen."
         },
         {
           "type": "waarofniet",
@@ -4374,7 +4374,7 @@
             0,
             2
           ],
-          "uitleg": "De fiche noemt Richter en de momentmagnitudeschaal. Mercalli meet de ondervonden schade, Beaufort is voor wind en Fujita voor een tornado."
+          "uitleg": "Richter en de momentmagnitudeschaal meten de kracht. Mercalli meet de ondervonden schade, Beaufort is voor wind en Fujita voor een tornado."
         },
         {
           "type": "waarofniet",
@@ -4480,7 +4480,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche noemt ook de lahars bij een uitbarsting. Het uitdijende heelal heeft er niets met te maken."
+          "uitleg": "Ook lahars horen bij een uitbarsting. Het uitdijende heelal heeft er niets mee te maken."
         },
         {
           "type": "waarofniet",
@@ -4653,7 +4653,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche noemt ook dagzomen, formatie, breuk en intrusie. Een isobaar is een lijn van gelijke luchtdruk op een weerkaart."
+          "uitleg": "Ook dagzomen, formatie, breuk en intrusie horen erbij. Een isobaar is een lijn van gelijke luchtdruk op een weerkaart."
         },
         {
           "type": "waarofniet",
@@ -4797,7 +4797,7 @@
             "op de ijstijden van het verleden"
           ],
           "antwoord": 0,
-          "uitleg": "Vooral de massa-extincties bepalen de grenzen. De fiche vraagt dat verband uitdrukkelijk."
+          "uitleg": "Vooral de massa-extincties bepalen de grenzen."
         },
         {
           "type": "invultekst",
@@ -4811,7 +4811,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke plooiingen noemt de fiche?",
+          "vraag": "Welke van deze zijn plooiingen?",
           "opties": [
             "de Caledonische",
             "de Hercynische",
@@ -5018,7 +5018,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten verwering noemt de fiche?",
+          "vraag": "Welke van deze zijn soorten verwering?",
           "opties": [
             "de fysische",
             "de chemische",
@@ -5240,11 +5240,11 @@
             "de luchtdruk"
           ],
           "antwoord": 0,
-          "uitleg": "Al de rest helpt of remt, maar de zwaartekracht trekt. Daarom spreekt de fiche van erosie door zwaartekracht."
+          "uitleg": "Al de rest helpt of remt, maar de zwaartekracht trekt. Daarom spreek je van erosie door zwaartekracht."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vormen van massatransport noemt de fiche?",
+          "vraag": "Welke van deze zijn vormen van massatransport?",
           "opties": [
             "een aardverschuiving",
             "een modderstroom",
@@ -5256,7 +5256,7 @@
             1,
             2
           ],
-          "uitleg": "De fiche noemt ook verglijding, steenlawine en afstorting. Een duin ontstaat juist door wind."
+          "uitleg": "Ook verglijding, steenlawine en afstorting zijn vormen. Een duin ontstaat juist door wind."
         },
         {
           "type": "invultekst",
@@ -5283,7 +5283,7 @@
           "type": "waarofniet",
           "vraag": "Hoe steiler een helling, hoe groter de kans op massatransport.",
           "antwoord": true,
-          "uitleg": "De fiche legt dat verband uitdrukkelijk, samen met de aard van het gesteente en de hoeveelheid water."
+          "uitleg": "Ook de aard van het gesteente en de hoeveelheid water spelen mee."
         },
         {
           "type": "meerkeuze",
@@ -5320,7 +5320,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke factoren bepalen volgens de fiche het massatransport?",
+          "vraag": "Welke factoren bepalen het massatransport?",
           "opties": [
             "de hellingsgraad",
             "de aard van het gesteente",
@@ -5371,7 +5371,7 @@
             "massatransport",
             "massabeweging"
           ],
-          "uitleg": "Massatransport of massabeweging. De fiche zet het naast watererosie, glaciale erosie en winderosie."
+          "uitleg": "Massatransport of massabeweging. Het staat naast watererosie, glaciale erosie en winderosie."
         },
         {
           "type": "meerkeuze",
@@ -5413,7 +5413,7 @@
             "via de bewolking"
           ],
           "antwoord": 0,
-          "uitleg": "Regen maakt de grond zwaar, vorst wrikt het gesteente los. De fiche vraagt dat verband bij elke vorm van erosie."
+          "uitleg": "Regen maakt de grond zwaar, vorst wrikt het gesteente los. Dat verband speelt bij elke vorm van erosie."
         },
         {
           "type": "waarofniet",
@@ -5502,7 +5502,7 @@
             1,
             2
           ],
-          "uitleg": "Een U-dal maakt een gletsjer, niet een rivier. De fiche noemt bij rivieren ook het kloofdal, het vlakdal en het vlakbodemdal."
+          "uitleg": "Een U-dal maakt een gletsjer, niet een rivier. Rivieren maken ook het kloofdal, het vlakdal en het vlakbodemdal."
         },
         {
           "type": "waarofniet",
@@ -5640,7 +5640,7 @@
             "een meer achter een stuwwal"
           ],
           "antwoord": 0,
-          "uitleg": "Een ravijn begint vaak als een voor in een akker en groeit uit tot een diepe kerf. De fiche noemt het bij de watererosie."
+          "uitleg": "Een ravijn begint vaak als een voor in een akker en groeit uit tot een diepe kerf. Het hoort bij de watererosie."
         },
         {
           "type": "waarofniet",
@@ -5726,7 +5726,7 @@
             1,
             2
           ],
-          "uitleg": "Een paddenstoelrots is het werk van de wind. De fiche noemt bij ijs ook de stuwwal, de morene en het bergmeer."
+          "uitleg": "Een paddenstoelrots is het werk van de wind. IJs maakt ook de stuwwal, de morene en het bergmeer."
         },
         {
           "type": "waarofniet",
@@ -5847,11 +5847,11 @@
             "de erosie verschilt per halfrond"
           ],
           "antwoord": 0,
-          "uitleg": "Daardoor krijg je trappen in een wand, en bij ons de steilranden in Haspengouw. De fiche noemt het bij de winderosie."
+          "uitleg": "Daardoor krijg je trappen in een wand, en bij ons de steilranden in Haspengouw."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke transportwijzen noemt de fiche bij de wind?",
+          "vraag": "Hoe vervoert de wind materiaal?",
           "opties": [
             "suspensie",
             "saltatie",
@@ -5885,7 +5885,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke erosievormen noemt de fiche samen?",
+          "vraag": "Welke van deze zijn erosievormen?",
           "opties": [
             "massatransport",
             "watererosie",
@@ -6289,7 +6289,7 @@
             "meer elektrische toestellen kopen"
           ],
           "antwoord": 0,
-          "uitleg": "Isoleren, minder vliegen, minder vlees en minder autokilometers wegen het zwaarst. De fiche vraagt uitdrukkelijk hoe jij kan bijdragen."
+          "uitleg": "Isoleren, minder vliegen, minder vlees en minder autokilometers wegen het zwaarst. Denk na over hoe jij kan bijdragen."
         },
         {
           "type": "waarofniet",

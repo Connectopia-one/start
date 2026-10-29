@@ -135,7 +135,7 @@ DEEL1 = [
             "de geldmarkt",
         ],
         antwoord=0,
-        uitleg="De fiche spreekt letterlijk over het marktmechanisme op de productmarkt.",
+        uitleg="Het gaat over het marktmechanisme op de productmarkt.",
     ),
     dict(
         type="waarofniet",
@@ -157,7 +157,7 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="De vrager is volgens de fiche de verkoper.",
+        vraag="De vrager is de verkoper.",
         antwoord=False,
         uitleg="De vrager is de koper. De verkoper is de aanbieder.",
     ),
@@ -175,13 +175,13 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoe noemt de fiche de koper op een markt?",
+        vraag="Hoe noem je de koper op een markt?",
         antwoord=["vrager", "de vrager"],
         uitleg="De vrager vraagt, de aanbieder biedt aan.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoe noemt de fiche de verkoper op een markt?",
+        vraag="Hoe noem je de verkoper op een markt?",
         antwoord=["aanbieder", "de aanbieder"],
         uitleg="Hij brengt het product op de markt tegen een bepaalde prijs.",
     ),

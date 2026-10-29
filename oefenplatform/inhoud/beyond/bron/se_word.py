@@ -168,7 +168,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Een opsomming kan je achteraf niet meer wijzigen.",
         antwoord=False,
-        uitleg="De fiche vraagt juist dat je een opsomming kan invoegen of wijzigen.",
+        uitleg="Je moet juist een opsomming kunnen invoegen of wijzigen.",
     ),
     dict(
         type="meerkeuze",
@@ -315,7 +315,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat kan je instellen bij het afdrukken, volgens de fiche?",
+        vraag="Wat kan je instellen bij het afdrukken?",
         opties=[
             "de sortering, enkel- of dubbelzijdig, en kleur",
             "de regelafstand en de uitlijning van een alinea",
@@ -353,7 +353,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Marges, afdrukstand en formaat horen samen bij de paginaopmaak.",
         antwoord=True,
-        uitleg="Zo staat het in de fiche.",
+        uitleg="Zo is het.",
     ),
     dict(
         type="waarofniet",
@@ -383,7 +383,7 @@ DEEL2 = [
         type="invultekst",
         vraag="In welk bestandstype sla je op zodat de opmaak overal hetzelfde blijft? Antwoord met de afkorting.",
         antwoord=["PDF", "pdf"],
-        uitleg="De fiche vraagt uitdrukkelijk dat je een document als PDF kan opslaan.",
+        uitleg="Je moet een document als PDF kunnen opslaan.",
     ),
     dict(
         type="invultekst",

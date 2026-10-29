@@ -1,0 +1,1843 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Een Franse tekst lezen — deel 1",
+   "niveau": "beyond-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Le vélo revient en ville. Dans beaucoup de communes, on construit de nouvelles pistes cyclables.\" Wat is het onderwerp?",
+     "opties": [
+      "de fiets in de stad",
+      "het weer in de zomer",
+      "de prijs van de benzine",
+      "de bus en de tram"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het onderwerp zeg je in enkele woorden: de fiets in de stad. Pistes cyclables zijn fietspaden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Le vélo revient en ville. Dans beaucoup de communes, on construit de nouvelles pistes cyclables.\" Wat is de hoofdgedachte?",
+     "opties": [
+      "steden maken plaats voor de fiets",
+      "de auto wordt binnenkort verboden",
+      "fietsen worden elk jaar duurder",
+      "er zijn te weinig bussen in de stad"
+     ],
+     "antwoord": 0,
+     "uitleg": "De hoofdgedachte zeg je in één zin. De tweede zin is een hoofdpunt dat die gedachte ondersteunt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Lees: \"Le musée est ouvert du mardi au dimanche.\" Op welke dag is het museum gesloten? Eén woord in het Frans.",
+     "antwoord": [
+      "lundi",
+      "le lundi"
+     ],
+     "uitleg": "Van mardi tot dimanche is open, dus lundi blijft over. Dat is informatie selecteren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Notre magasin ouvre le 3 mai. Il sera ouvert de 9 h à 18 h, sauf le dimanche.\" Welke informatie staat in de tekst?",
+     "opties": [
+      "de openingsdatum",
+      "de openingsuren",
+      "de sluitingsdag",
+      "het adres van de winkel"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De datum, de uren en sauf le dimanche staan er letterlijk. Over het adres zegt de tekst niets."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het onderwerp van een tekst verwoord je in enkele woorden.",
+     "antwoord": true,
+     "uitleg": "Het onderwerp is kort, de hoofdgedachte is een volle zin. De hoofdpunten zijn alles wat die zin ondersteunt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"En France, le repas de midi est souvent le plus important de la journée.\" Waarover zegt deze zin iets?",
+     "opties": [
+      "over het middagmaal",
+      "over de eetgewoontes",
+      "over de dagindeling",
+      "over de manier van groeten"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Le repas de midi is het middagmaal, en de zin zegt welke plaats het in de dag inneemt. Zulke eetgewoontes haal je uit een tekst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"D'abord, faites bouillir l'eau. Puis, ajoutez les pâtes.\" Wat doe je als tweede?",
+     "opties": [
+      "de pasta erbij doen",
+      "het water laten koken",
+      "de pasta proeven",
+      "tien minuten wachten"
+     ],
+     "antwoord": 0,
+     "uitleg": "D'abord en puis wijzen de orde aan. Ajoutez les pâtes is de tweede stap."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Lees: \"Le concert commence à vingt heures.\" Hoe laat begint het concert? Vul het getal in.",
+     "antwoord": [
+      "20",
+      "8",
+      "twintig"
+     ],
+     "uitleg": "Vingt heures is twintig uur, dus acht uur 's avonds. Het Frans gebruikt op uitnodigingen bijna altijd de 24-urenklok."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Au Québec, les collègues se tutoient souvent, même au bureau.\" Wat merk je hier op?",
+     "opties": [
+      "ze tutoyeren elkaar snel",
+      "ze werken heel lange dagen",
+      "ze spreken nooit Frans op het werk",
+      "ze dragen een uniform"
+     ],
+     "antwoord": 0,
+     "uitleg": "In Franstalig Canada gaan collega's weinig formeel met elkaar om. In Frankrijk is vouvoyeren op het werk gewoner."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De hoofdpunten van een tekst ondersteunen de hoofdgedachte.",
+     "antwoord": true,
+     "uitleg": "Eerst zoek je de hoofdgedachte, en daarna wat haar schraagt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"La bibliothèque sera fermée pendant deux semaines. Vous pouvez rendre vos livres dans la boîte près de la porte.\" Waar laat je je boeken?",
+     "opties": [
+      "in de bus bij de deur",
+      "bij de buren thuis",
+      "in een andere stad",
+      "op de stoep"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dans la boîte près de la porte. De drie andere opties staan nergens in de tekst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vragen stel je jezelf voor je een Franse tekst leest?",
+     "opties": [
+      "wat weet ik hier al over?",
+      "waarover zou dit gaan?",
+      "wat zegt de titel?",
+      "hoeveel woorden staan er?",
+      "wat voor soort tekst is dit?"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Die drie zijn goede leesstrategieën. Woorden tellen helpt je niet verder."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Marie est arrivée en retard: son train avait du retard de vingt minutes.\" Waarom was Marie te laat?",
+     "opties": [
+      "de trein had vertraging",
+      "ze was zich gaan verslapen",
+      "ze had de bus gemist",
+      "ze moest nog inkopen doen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Du retard betekent vertraging. Alleen die oorzaak staat in de tekst."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je mag bij het lezen de titel en de foto's overslaan.",
+     "antwoord": false,
+     "uitleg": "Die visuele hulpmiddelen zijn juist een goede strategie. Ze zeggen vaak al waarover de tekst gaat."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Merci d'éteindre votre téléphone. Il est interdit de manger dans la salle.\" Wat mag hier niet?",
+     "opties": [
+      "eten in de zaal",
+      "je jas meebrengen",
+      "met twee komen",
+      "naar het toilet gaan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Il est interdit de manger. Over de drie andere dingen zegt de tekst niets."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Lees: \"Il y a plus de six cents élèves dans notre école.\" Hoeveel leerlingen zijn er ongeveer? Vul het getal in.",
+     "antwoord": [
+      "600",
+      "zeshonderd"
+     ],
+     "uitleg": "Six cents is zeshonderd. Plus de betekent meer dan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Notre boulangerie déménage dans la rue de la Gare. Nous serons fermés les 3 et 4 juin.\" Wat is de hoofdgedachte?",
+     "opties": [
+      "de bakkerij verhuist",
+      "de bakkerij stopt helemaal",
+      "de straat wordt heraangelegd",
+      "de bakkerij verkoopt nieuw brood"
+     ],
+     "antwoord": 0,
+     "uitleg": "Déménager is verhuizen. De twee sluitingsdagen zijn een hoofdpunt dat erbij hoort."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Sophie habite à Namur depuis 2021. Elle y travaille dans un hôpital.\" Sinds wanneer woont Sophie in Namen?",
+     "opties": [
+      "sinds 2021",
+      "sinds haar geboorte",
+      "sinds enkele weken",
+      "al meer dan dertig jaar"
+     ],
+     "antwoord": 0,
+     "uitleg": "Depuis 2021. Let op: het Frans gebruikt daarbij de présent, waar het Engels een present perfect zou nemen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Lees: \"L'hôtel a une piscine et un jardin. Le petit déjeuner n'est pas compris.\" Het ontbijt zit bij de prijs.",
+     "antwoord": false,
+     "uitleg": "N'est pas compris hoort juist bij le petit déjeuner. Het zwembad en de tuin noemt de tekst wel als voorzieningen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Notre équipe a perdu le match, mais tout le monde a bien joué.\" Welke toon heeft deze tekst?",
+     "opties": [
+      "positief",
+      "heel verdrietig",
+      "boos op de spelers",
+      "zakelijk en koel"
+     ],
+     "antwoord": 0,
+     "uitleg": "Mais draait de zin om: ondanks de nederlaag is het verhaal positief. Signaalwoorden verraden vaak de toon."
+    }
+   ]
+  },
+  {
+   "titel": "Een Franse tekst lezen — deel 2",
+   "niveau": "beyond-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Mes parents ont acheté une maison en Provence. Ils veulent y vivre plus tard.\" Naar wie verwijst ils?",
+     "opties": [
+      "de ouders",
+      "de inwoners van de Provence",
+      "de kinderen",
+      "de vorige eigenaars"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een verwijswoord zoekt zijn woord in de vorige zin. Mes parents is het enige meervoud dat past."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Mes parents ont acheté une maison en Provence. Ils veulent y vivre plus tard.\" Naar wat verwijst y?",
+     "opties": [
+      "de plaats",
+      "het huis van de buren",
+      "de prijs",
+      "de tijd"
+     ],
+     "antwoord": 0,
+     "uitleg": "Y vervangt een plaatsbepaling: en Provence. Y is een verwijswoord."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk Frans signaalwoord van twee woorden kondigt een tegenstelling aan en begint met par?",
+     "antwoord": [
+      "par contre"
+     ],
+     "uitleg": "Par contre zet twee dingen tegenover elkaar, net als mais en cependant."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden zijn Franse signaalwoorden van orde?",
+     "opties": [
+      "d'abord",
+      "puis",
+      "car",
+      "parce que"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Eerst, dan en ten slotte zetten de stappen op een rij. Parce que en car geven een reden en zijn dus een ander soort signaalwoord."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Signaalwoorden helpen je de gedachtegang van een Franse tekst te volgen.",
+     "antwoord": true,
+     "uitleg": "Daarom zijn ze zo handig bij het lezen. Mais kondigt een tegenstelling aan, donc een gevolg, d'abord een eerste stap."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"La soupe était trop salée, donc j'ai bu beaucoup d'eau.\" Wat betekent donc?",
+     "opties": [
+      "dus",
+      "hoewel",
+      "voordat",
+      "zodra"
+     ],
+     "antwoord": 0,
+     "uitleg": "Donc geeft het gevolg aan. Als signaalwoord wijst het altijd vooruit."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Le chemin était glissant à cause de la pluie, donc nous marchions lentement.\" Wat betekent glissant?",
+     "opties": [
+      "glad",
+      "heel breed",
+      "erg lang",
+      "pas aangelegd"
+     ],
+     "antwoord": 0,
+     "uitleg": "De regen en het trage stappen wijzen de weg. Zo leid je de betekenis uit de context af."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Lees: \"Elle était malheureuse.\" Welk Frans woord betekent het omgekeerde van malheureuse? Eén woord.",
+     "antwoord": [
+      "heureuse",
+      "heureux"
+     ],
+     "uitleg": "Het voorvoegsel mal- maakt het woord negatief. Zo kan je de betekenis uit de vorm afleiden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke visuele hulpmiddelen gebruik je bij een Franse leestekst?",
+     "opties": [
+      "de titel",
+      "de tussentitels",
+      "het aantal bladzijden",
+      "het formaat van het blad"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Ze vertellen al veel voor je de eerste zin leest. Het formaat van het blad en het aantal bladzijden zeggen niets over de inhoud."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je moet elk onbekend Frans woord in een tekst opzoeken.",
+     "antwoord": false,
+     "uitleg": "Beslis eerst of het woord echt nodig is. In 120 minuten heb je geen tijd voor meer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat vraag je je af bij het communicatiemodel?",
+     "opties": [
+      "van wie is de tekst?",
+      "waarom is hij gemaakt?",
+      "voor wie is hij bedoeld?",
+      "hoeveel bladzijden heeft hij?",
+      "via welk kanaal komt hij?"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Zender, bedoeling en publiek: die drie vragen stel je bij elke tekst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Notre école compte 800 élèves. Le plus vieux bâtiment date de 1912.\" Wat is hier een bijzaak?",
+     "opties": [
+      "het jaartal 1912",
+      "de school zelf",
+      "het aantal leerlingen",
+      "het onderwerp"
+     ],
+     "antwoord": 0,
+     "uitleg": "De leeftijd van het gebouw is een detail. Hoofd- en bijzaken scheiden is een leesstrategie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Bien qu'il pleuve, les enfants jouent dehors.\" Wat betekent bien que?",
+     "opties": [
+      "hoewel",
+      "daarom",
+      "zodat",
+      "nadat"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bien que kondigt een tegenstelling aan, net als mais en par contre. De regen houdt de kinderen niet binnen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je kennis van het Nederlands of het Engels kan je helpen om een Frans woord te begrijpen.",
+     "antwoord": true,
+     "uitleg": "Table, information en problème lijken op onze woorden. Let wel op valse vrienden: une pièce is een kamer of een stuk, geen pees."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Ma tante est vétérinaire. Elle soigne les animaux malades.\" Wat betekent vétérinaire?",
+     "opties": [
+      "dierenarts",
+      "verpleegster",
+      "iemand van het asiel",
+      "een boer met vee"
+     ],
+     "antwoord": 0,
+     "uitleg": "De tweede zin legt het woord uit: ze zorgt voor zieke dieren. Vaak staat de uitleg er gewoon naast."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het Franse signaalwoord enfin kondigt een nieuwe reden aan.",
+     "antwoord": false,
+     "uitleg": "Enfin sluit een rij stappen af: ten slotte. Een reden kondig je aan met parce que of car."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Lees: \"Les jumelles sont nées à Liège. Elles habitent maintenant à Gand.\" Naar wie verwijst elles? Eén woord in het Frans.",
+     "antwoord": [
+      "jumelles",
+      "les jumelles"
+     ],
+     "uitleg": "Elles is vrouwelijk meervoud en zoekt les jumelles, de tweelingzussen. Liège en Gand zijn steden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Ce pain est bon marché, savoureux et facile à faire. Essayez-le!\" Wat wil de schrijver?",
+     "opties": [
+      "je overtuigen",
+      "je iets uitleggen in stappen",
+      "een verhaal vertellen",
+      "een mening weergeven"
+     ],
+     "antwoord": 0,
+     "uitleg": "Drie voordelen en een aansporing in de imperatief: dat is een persuasieve tekst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"À cause de la tempête, le bateau n'est pas parti.\" Wat is de oorzaak?",
+     "opties": [
+      "de storm",
+      "een staking",
+      "een defect",
+      "te weinig reizigers"
+     ],
+     "antwoord": 0,
+     "uitleg": "À cause de noemt de oorzaak. De drie andere redenen staan niet in de zin."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Grâce à ses amis, il a trouvé un travail.\" Wat betekent grâce à?",
+     "opties": [
+      "dankzij",
+      "ondanks",
+      "zonder",
+      "tegen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Grâce à is positief, à cause de eerder negatief. Het zijn allebei voorzetselgroepen."
+    }
+   ]
+  },
+  {
+   "titel": "Tekstsoorten en de bedoeling van een tekst — deel 1",
+   "niveau": "beyond-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een informatieve Franse tekst?",
+     "opties": [
+      "een tekst die je iets leert",
+      "een tekst die je wil overtuigen",
+      "een tekst met iemands mening",
+      "een tekst die een verhaal vertelt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Un article de journal, une interview, un journal télévisé of een mail aan een klant zijn voorbeelden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke Franse teksten zijn persuasief?",
+     "opties": [
+      "une publicité",
+      "une campagne de sécurité",
+      "un mode d'emploi",
+      "une notice de médicament"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Persuasief wil je overtuigen of beïnvloeden: une publicité, une campagne, un tract. Une notice en un mode d'emploi leggen uit wat je moet doen en zijn prescriptief."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je een tekst die uitlegt wat of hoe je iets moet doen? Eén woord.",
+     "antwoord": [
+      "prescriptief",
+      "prescriptieve"
+     ],
+     "uitleg": "Prescriptief: une recette, une notice, een instructiefilmpje of de veiligheidsvoorschriften van een bedrijf."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Mélangez la farine et les oeufs. Ajoutez le lait.\" Welke tekstsoort is dit?",
+     "opties": [
+      "prescriptief",
+      "een verhalende tekst",
+      "een tekst met een mening",
+      "een literaire tekst"
+     ],
+     "antwoord": 0,
+     "uitleg": "Twee bevelende zinnen die stap na stap zeggen wat je moet doen. Une recette, dus prescriptief."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een boekrecensie is een opiniërende tekst.",
+     "antwoord": true,
+     "uitleg": "Iemand geeft er zijn mening. Ook een hotelbeoordeling en een reactie op sociale media horen daarbij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"L'été dernier, nous avons fait le tour de la Bretagne à vélo. Le troisième jour, il a plu sans arrêt.\" Welke tekstsoort is dit?",
+     "opties": [
+      "narratief",
+      "een tekst die overtuigt",
+      "een tekst met instructies",
+      "een informatieve tekst"
+     ],
+     "antwoord": 0,
+     "uitleg": "Un récit de voyage vertelt wat er gebeurde, in de orde waarin het gebeurde. Dat is narratief."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze Franse teksten zijn literair?",
+     "opties": [
+      "un poème",
+      "une chanson",
+      "une bande dessinée",
+      "un règlement",
+      "une nouvelle"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Ook een cartoon, een kortverhaal en een fragment uit een roman. Un règlement zegt wat je moet doen en is prescriptief."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je een tekst waarin iemand zijn mening geeft? Eén woord.",
+     "antwoord": [
+      "opiniërend",
+      "opinierend",
+      "opiniërende"
+     ],
+     "uitleg": "Opiniërend. Je herkent het aan woorden als je pense, à mon avis, excellent of affreux."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Deux pour le prix d'un! Offre valable jusqu'à dimanche.\" Welke tekstsoort is dit?",
+     "opties": [
+      "persuasief",
+      "een verhalende tekst",
+      "een informatieve tekst",
+      "een literaire tekst"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een aanbieding wil je tot kopen aanzetten. Het uitroepteken en de korte termijn horen bij reclame."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Un podcast kan een narratieve tekst zijn.",
+     "antwoord": true,
+     "uitleg": "Un podcast, un vlog, un récit de voyage en een getuigenis over een eerste werkdag zijn narratief. Narratief gaat over de vorm, niet over het kanaal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Le chien de ma rue connaît mes pas. Il m'attend comme un petit point d'interrogation gris.\" Welke tekstsoort is dit?",
+     "opties": [
+      "literair",
+      "een tekst met instructies",
+      "een tekst met een mening",
+      "een informatieve tekst"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een beeld als un petit point d'interrogation gris dient de schoonheid van de tekst. Dat is literair."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"La Belgique compte onze millions d'habitants et trois langues officielles.\" Welke tekstsoort is dit?",
+     "opties": [
+      "informatief",
+      "een tekst die overtuigt",
+      "een tekst met een mening",
+      "een verhalende tekst"
+     ],
+     "antwoord": 0,
+     "uitleg": "Twee feiten, zonder mening en zonder aansporing. Zo'n zin komt uit een leerboek of een krant."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Une bande dessinée hoort bij de informatieve teksten.",
+     "antwoord": false,
+     "uitleg": "Een strip is een literaire tekst, net als een lied, een gedicht en een cartoon. Ze spelen in op emoties."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"J'ai passé trois nuits dans cet hôtel. Les chambres étaient propres, mais le petit déjeuner était décevant.\" Welke tekstsoort is dit?",
+     "opties": [
+      "opiniërend",
+      "een tekst met instructies",
+      "een informatieve tekst",
+      "een literaire tekst"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een hotelbeoordeling waarin iemand zegt wat hij ervan vond. Propre en décevant zijn waardeoordelen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waaraan herken je een prescriptieve Franse tekst?",
+     "opties": [
+      "aan de imperatief",
+      "aan d'abord en puis",
+      "aan een lange inleiding",
+      "aan à mon avis"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Imperatieven, signaalwoorden van orde en een rij stappen. À mon avis kondigt een mening aan, en een lange inleiding hoort er niet in."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Une interview is een literaire tekst.",
+     "antwoord": false,
+     "uitleg": "Een interview staat bij de informatieve teksten, net als een krantenartikel en het nieuws. Literair zijn een gedicht, een lied of een strip."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Comment changer un pneu de vélo en cinq étapes.\" Wat verwacht je in deze tekst?",
+     "opties": [
+      "instructies",
+      "de mening van een fietser",
+      "een verhaal over een reis",
+      "feiten over de fietshandel"
+     ],
+     "antwoord": 0,
+     "uitleg": "Comment plus een infinitief kondigt een handleiding aan. De titel verraadt de tekstsoort."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Votez pour Hanna! Elle écoute les élèves.\" Wat wil deze tekst?",
+     "opties": [
+      "overtuigen",
+      "iets uitleggen in stappen",
+      "informatie geven",
+      "een verhaal vertellen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een oproep met een uitroepteken en een argument erbij. Een verkiezingsaffiche is altijd persuasief."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Il était une fois un boulanger qui ne pouvait pas dormir.\" Welke tekstsoort is dit?",
+     "opties": [
+      "literair",
+      "een tekst met instructies",
+      "een informatieve tekst",
+      "een tekst met een mening"
+     ],
+     "antwoord": 0,
+     "uitleg": "Il était une fois is de opening van een verhaal. Een kortverhaal of een romanfragment staat bij de literaire teksten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke tekstsoort is het nieuws op de radio?",
+     "opties": [
+      "informatief",
+      "een tekst die overtuigt",
+      "een tekst met een mening",
+      "een literaire tekst"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het nieuws geeft informatie over een onderwerp. Een commentaar ná het nieuws is wel opiniërend."
+    }
+   ]
+  },
+  {
+   "titel": "Tekstsoorten en de bedoeling van een tekst — deel 2",
+   "niveau": "beyond-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Paris compte plus de deux millions d'habitants.\" Is dit een feit of een mening?",
+     "opties": [
+      "een feit",
+      "een mening van de schrijver",
+      "een voorspelling",
+      "een vraag aan de lezer"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een getal dat je kan nakijken is een feit. Zodra er beau, meilleur of affreux in staat, wordt het een mening."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Paris est la plus belle ville du monde.\" Is dit een feit of een mening?",
+     "opties": [
+      "een mening",
+      "een feit dat je kan nakijken",
+      "een instructie",
+      "een vraag aan de lezer"
+     ],
+     "antwoord": 0,
+     "uitleg": "La plus belle kan niemand bewijzen. Een superlatief over smaak is altijd een mening."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke twee Franse woorden volgen op à mon, als je in mijn opinie bedoelt? Vul in: à mon ...",
+     "antwoord": [
+      "avis"
+     ],
+     "uitleg": "À mon avis. Je pense que en je trouve que doen hetzelfde werk."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden verraden een mening in een Franse tekst?",
+     "opties": [
+      "je pense",
+      "le meilleur",
+      "affreux",
+      "en 1912",
+      "à mon avis"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Een gedachte, een waardering en een gevoelswoord. Een jaartal is een feit."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een Franse tekst kan feiten en meningen door elkaar bevatten.",
+     "antwoord": true,
+     "uitleg": "Een recensie noemt vaak eerst de feiten en geeft daarna het oordeel. Als lezer houd je die twee apart."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Madame, Monsieur, je vous écris au sujet de votre annonce.\" Voor wie is deze tekst bedoeld?",
+     "opties": [
+      "een onbekende",
+      "een vriend",
+      "een familielid",
+      "een klasgenoot"
+     ],
+     "antwoord": 0,
+     "uitleg": "Madame, Monsieur en de vous-vorm wijzen op iemand met wie je geen nauwe band hebt. Zo bepaal je het publiek."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Salut! Ça te dit, une pizza ce soir?\" Welk register is dit?",
+     "opties": [
+      "informeel",
+      "neutraal en zakelijk",
+      "heel formeel",
+      "ouderwets"
+     ],
+     "antwoord": 0,
+     "uitleg": "Salut en de tu-vorm horen bij vrienden. In een mail aan een onbekende zou je Bonjour en vous gebruiken."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk Frans woord zeg je altijd eerst als je een onbekende iets vraagt? Eén woord.",
+     "antwoord": [
+      "bonjour"
+     ],
+     "uitleg": "Bonjour. Dat staat letterlijk bij de strategieën: zonder bonjour klinkt een vraag onbeschoft in het Frans."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Uit welke delen bestaat een goed opgebouwde tekst?",
+     "opties": [
+      "inleiding",
+      "midden",
+      "bibliografie",
+      "voetnoot"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Inleiding, midden en slot. Een voetnoot of een bibliografie hoort er niet verplicht bij."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In een mail aan een volwassene die je niet goed kent, gebruik je de vous-vorm.",
+     "antwoord": true,
+     "uitleg": "Dat staat letterlijk bij de strategieën, samen met de conditionnel de politesse: je voudrais in plaats van je veux."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Ne vous appuyez pas contre les portes.\" Waar vind je zo'n tekst?",
+     "opties": [
+      "op de trein",
+      "in een roman",
+      "in een recensie",
+      "in een brief aan een vriend"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een waarschuwing in de gebiedende wijs met de vous-vorm. Zulke bordjes hangen in het openbaar vervoer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Notre magasin sera fermé le 21 juillet.\" Wat is de bedoeling van deze tekst?",
+     "opties": [
+      "informeren",
+      "de lezer overtuigen",
+      "een mening geven",
+      "een verhaal vertellen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eén mededeling, zonder aansporing en zonder oordeel. De bedoeling is de tweede vraag van het communicatiemodel."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een gepast register betekent dat je in het Frans altijd zo formeel mogelijk schrijft.",
+     "antwoord": false,
+     "uitleg": "Gepast betekent passend bij de lezer: formeel of informeel. Aan een vriend schrijf je gewoon tu."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden passen in een formele Franse mail?",
+     "opties": [
+      "Je voudrais",
+      "Salut, ça va?",
+      "Cordialement",
+      "Bisous"
+     ],
+     "antwoord": [
+      0,
+      2
+     ],
+     "uitleg": "Je voudrais en Cordialement zijn hoffelijk en neutraal, net als Merci d'avance. Bisous of Salut, ça va schrijf je enkel aan familie of goede vrienden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Je suis vraiment désolé d'avoir oublié ton anniversaire!\" Wat doet de schrijver?",
+     "opties": [
+      "zich verontschuldigen",
+      "iemand uitnodigen",
+      "iemand bedanken",
+      "informatie vragen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Désolé, nog versterkt met vraiment. Dat is een alledaags sociaal contact."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je veux un café klinkt in het Frans hoffelijker dan je voudrais un café.",
+     "antwoord": false,
+     "uitleg": "Net omgekeerd: je voudrais is de conditionnel de politesse en klinkt veel vriendelijker."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Tu voudrais venir à ma fête samedi?\" Wat doet de schrijver?",
+     "opties": [
+      "uitnodigen",
+      "zich verontschuldigen",
+      "bedanken",
+      "iets uitleggen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Tu voudrais venir is een hoffelijke uitnodiging. Met de vous-vorm wordt het vous voudriez venir."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"Merci beaucoup pour ton aide hier.\" Wat doet de schrijver?",
+     "opties": [
+      "bedanken",
+      "uitnodigen",
+      "een mening geven",
+      "iets voorstellen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Merci beaucoup pour plus een naamwoord. Formeler: je vous remercie de votre aide."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het kanaal van een tekst in het communicatiemodel?",
+     "opties": [
+      "de mail of de blog",
+      "de taal van de tekst",
+      "de lengte van de tekst",
+      "de mening van de schrijver"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het kanaal is de weg die je boodschap neemt: een mail, een blogbericht, een gesprek. Die vraag stel je bij je schrijfplan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees: \"On se retrouve à la gare à six heures?\" Wat doet de schrijver?",
+     "opties": [
+      "iets voorstellen",
+      "zich verontschuldigen",
+      "bedanken",
+      "een mening geven"
+     ],
+     "antwoord": 0,
+     "uitleg": "On se retrouve met een vraagteken is een voorstel. Ook dat hoort bij de alledaagse sociale contacten."
+    }
+   ]
+  },
+  {
+   "titel": "De Franstalige wereld: gewoontes en reizen — deel 1",
+   "niveau": "beyond-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is la bise?",
+     "opties": [
+      "een kus op de wang",
+      "een handdruk",
+      "een knuffel",
+      "een hoofdknik"
+     ],
+     "antwoord": 0,
+     "uitleg": "Faire la bise is zoenen bij een begroeting. Het aantal kussen hangt van de streek af."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Op welke dag viert Frankrijk zijn nationale feestdag?",
+     "opties": [
+      "14 juli",
+      "21 juli",
+      "1 mei",
+      "11 november"
+     ],
+     "antwoord": 0,
+     "uitleg": "Le quatorze juillet, naar de bestorming van de Bastille in 1789. 21 juli is onze eigen nationale feestdag."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het lange witte brood dat typisch Frans is? Eén woord in het Frans.",
+     "antwoord": [
+      "baguette",
+      "une baguette",
+      "la baguette"
+     ],
+     "uitleg": "Une baguette, bij de boulanger. Un pain is het gewone woord voor brood."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke landen hebben het Frans als officiële taal?",
+     "opties": [
+      "België",
+      "Zwitserland",
+      "Canada",
+      "Portugal",
+      "Luxemburg"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Ook Luxemburg, Senegal en nog tientallen landen. In Portugal spreekt men Portugees."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In het Frans spreek je een onbekende volwassene aan met vous.",
+     "antwoord": true,
+     "uitleg": "Tutoyeren doe je bij vrienden, familie en leeftijdsgenoten. Een onbekende of iemand in een winkel krijgt vous."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is la rentrée?",
+     "opties": [
+      "het begin van het schooljaar",
+      "het einde van de vakantie",
+      "de terugkeer van een reis",
+      "de ingang van een gebouw"
+     ],
+     "antwoord": 0,
+     "uitleg": "La rentrée scolaire, begin september. Het woord dekt ook het hele weer-aan-de-slag-gaan van het land."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is le bac in Frankrijk?",
+     "opties": [
+      "het eindexamen",
+      "een vak op school",
+      "een schooljaar",
+      "een diploma van de hogeschool"
+     ],
+     "antwoord": 0,
+     "uitleg": "Le baccalauréat, het examen aan het einde van het secundair. Het geeft toegang tot de universiteit."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet de snelle trein van Frankrijk, met drie letters?",
+     "antwoord": [
+      "TGV",
+      "tgv"
+     ],
+     "uitleg": "Le TGV, train à grande vitesse. Hij rijdt onder meer van Brussel naar Parijs."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke munt gebruikt men in Zwitserland?",
+     "opties": [
+      "de frank",
+      "de euro",
+      "de dollar",
+      "het pond"
+     ],
+     "antwoord": 0,
+     "uitleg": "De Zwitserse frank. Frankrijk, België en Luxemburg gebruiken wel de euro."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In het Frans zeg je bonjour voor je iemand iets vraagt.",
+     "antwoord": true,
+     "uitleg": "Zonder bonjour klinkt een vraag onbeschoft."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zijn les soldes?",
+     "opties": [
+      "de koopjes",
+      "de belastingen",
+      "de lonen",
+      "de rekeningen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Les soldes zijn de koopjesperiodes, in Frankrijk op vaste data. Un solde met de in het enkelvoud is wel een saldo."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke taal is naast het Frans officieel in heel Canada?",
+     "opties": [
+      "het Engels",
+      "het Spaans van Amerika",
+      "het Duits van Europa",
+      "het Italiaans van Europa"
+     ],
+     "antwoord": 0,
+     "uitleg": "Canada heeft het Frans en het Engels als officiële talen. In de provincie Québec is het Frans wel de enige officiële taal."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Brussel is officieel enkel Franstalig.",
+     "antwoord": false,
+     "uitleg": "Brussel is tweetalig: Nederlands en Frans. Wallonië is wel Franstalig, met een Duitstalige gemeenschap in het oosten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke steden liggen in Wallonië?",
+     "opties": [
+      "Luik",
+      "Namen",
+      "Antwerpen",
+      "Gent"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Liège, Namur en Charleroi liggen in Wallonië, en Namen is de hoofdstad van het Waalse Gewest. Gent en Antwerpen liggen in Vlaanderen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke Franse woorden horen bij een maaltijd?",
+     "opties": [
+      "l'apéritif",
+      "l'entrée",
+      "le dessert",
+      "le périphérique",
+      "le plat principal"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Het drankje voor het eten, het voorgerecht en het nagerecht. Le périphérique is de ringweg rond Parijs."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het Frans wordt in Afrika nergens gesproken.",
+     "antwoord": false,
+     "uitleg": "Het is er juist een belangrijke taal: Senegal, Ivoorkust, Congo, Marokko en nog veel meer landen. De meeste Franstaligen ter wereld wonen in Afrika."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is la Francophonie?",
+     "opties": [
+      "de Franstalige wereld",
+      "een school in Parijs",
+      "een krant in Québec",
+      "een feest in Wallonië"
+     ],
+     "antwoord": 0,
+     "uitleg": "Alle landen en streken waar Frans gesproken wordt, en de organisatie die hen samenbrengt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe noemt men in Frankrijk de ringweg rond Parijs?",
+     "opties": [
+      "le périphérique",
+      "le métro",
+      "le quartier",
+      "le boulevard"
+     ],
+     "antwoord": 0,
+     "uitleg": "Le périphérique, kortweg le périph. Le métro is de ondergrondse en un quartier een wijk."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het middagmaal in het Frans? Twee woorden.",
+     "antwoord": [
+      "le déjeuner",
+      "déjeuner",
+      "dejeuner"
+     ],
+     "uitleg": "Le déjeuner. Let op: in België en Zwitserland hoor je ook le dîner voor het middagmaal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent lichaamstaal in een gesprek?",
+     "opties": [
+      "wat je zegt zonder woorden",
+      "de woorden die je kiest",
+      "de toon van je stem",
+      "de taal van het land"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je houding, je handen, je blik. Ook lichaamstaal hoort bij de cultuur."
+    }
+   ]
+  },
+  {
+   "titel": "Schrijven en spreken in het Frans — deel 1",
+   "niveau": "beyond-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een schrijfplan?",
+     "opties": [
+      "een lijstje kernwoorden",
+      "de volledige tekst in het klad",
+      "een lijst van je spelfouten",
+      "de tekst van iemand anders"
+     ],
+     "antwoord": 0,
+     "uitleg": "Plan eerst met kernwoorden. Zo vergeet je niets en loopt je tekst van zichzelf."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waaruit bestaat een goede lay-out van een Franse tekst?",
+     "opties": [
+      "een titel",
+      "alinea's",
+      "witruimte tussen de delen",
+      "zo veel mogelijk kleuren",
+      "tussentitels"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "De opbouw moet herkenbaar zijn: titel en alinea's. Kleur maakt een tekst niet duidelijker."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe zeg je brief in het Frans? Eén woord.",
+     "antwoord": [
+      "lettre",
+      "une lettre",
+      "la lettre"
+     ],
+     "uitleg": "Une lettre. Een mail is un mail of un courriel, vooral in Québec."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent taakvoltooiing bij een schrijfopdracht?",
+     "opties": [
+      "je doel is bereikt",
+      "je tekst heeft geen fouten",
+      "je tekst is zo lang mogelijk",
+      "je hebt mooie woorden gebruikt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je boodschap komt over, de inhoud is helder en ter zake, en je respecteert de opgegeven lengte."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je moet de opgegeven lengte van een schrijfopdracht respecteren.",
+     "antwoord": true,
+     "uitleg": "Dat staat uitdrukkelijk bij taakvoltooiing. Veel te kort of veel te lang kost punten, ook als het Frans goed is."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke Franse uitdrukkingen leggen een sociaal contact?",
+     "opties": [
+      "Bonjour",
+      "Merci beaucoup",
+      "Au revoir",
+      "Il pleut",
+      "S'il vous plaît"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Begroeten, bedanken en afscheid nemen zijn alle drie sociale contacten. Il pleut is enkel een mededeling over het weer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke hulpmiddelen mag je bij het Franse schrijfexamen gebruiken?",
+     "opties": [
+      "een online woordenboek",
+      "een spellingcontrole",
+      "je handboek Frans",
+      "je samenvatting van thuis"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Het woordenboek en de spellingcontrole staan op de website van de Examencommissie. Een handboek of een samenvatting meebrengen is examenfraude."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk Frans woord van twee lettergrepen gebruik je om te bedanken? Eén woord.",
+     "antwoord": [
+      "merci"
+     ],
+     "uitleg": "Merci, eventueel merci beaucoup. Formeler: je vous remercie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je als je je gesprekspartner niet begrepen hebt?",
+     "opties": [
+      "vragen om te herhalen",
+      "gewoon oui antwoorden",
+      "het gesprek beëindigen",
+      "in het Nederlands verdergaan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Pouvez-vous répéter, s'il vous plaît? of Pouvez-vous parler plus lentement? Vragen om herhaling is een strategie."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je Franse tekst moet helemaal foutloos zijn.",
+     "antwoord": false,
+     "uitleg": "De eis is dat spelfouten en fouten tegen leestekens het tekstbegrip niet in de weg staan. Foutloos hoeft dus niet, duidelijk wel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke tekststructuur gebruik je?",
+     "opties": [
+      "inleiding, midden en slot",
+      "enkel een inleiding",
+      "een rij losse zinnen",
+      "een opsomming zonder tekst"
+     ],
+     "antwoord": 0,
+     "uitleg": "Met duidelijke tekstverbanden, onder meer door signaalwoorden. Zo kan een lezer je gedachtegang volgen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je als laatste met je Franse tekst voor je hem inlevert?",
+     "opties": [
+      "nalezen",
+      "nog een alinea bijschrijven",
+      "de titel weglaten",
+      "alles in het net herschrijven"
+     ],
+     "antwoord": 0,
+     "uitleg": "Lees je tekst grondig na: is de communicatie helder, gepast en vlot? Dat is de laatste stap."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je lichaamstaal telt mee bij een Franse spreekopdracht.",
+     "antwoord": true,
+     "uitleg": "De vereisten noemen lichaamstaal, spreektempo, vlotheid, uitspraak en intonatie. Je gezicht en je handen horen bij je boodschap."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat vraag je je af voor je in het Frans begint te schrijven?",
+     "opties": [
+      "waarom schrijf ik?",
+      "voor wie is dit?",
+      "hoe lang schrijf ik al?",
+      "hoeveel tijd heb ik nog?"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Waarom, voor wie en via welk kanaal: dat is het communicatiemodel. De klok nakijken helpt bij je planning, maar hoort niet bij het model."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een gesprek moet je altijd op voorhand kunnen voorbereiden.",
+     "antwoord": false,
+     "uitleg": "Je moet zowel voorbereid als onvoorbereid aan een gesprek kunnen deelnemen. Je moet het ook kunnen beginnen, gaande houden en beëindigen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin geeft informatie aan een klant?",
+     "opties": [
+      "Le gîte a deux chambres.",
+      "Quel est votre nom?",
+      "Je suis désolé.",
+      "Pouvez-vous répéter?"
+     ],
+     "antwoord": 0,
+     "uitleg": "Informatie geven over een vakantiehuisje doet de eerste zin. De drie andere zinnen vragen of verontschuldigen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin geeft je mening?",
+     "opties": [
+      "Je trouve ça injuste.",
+      "Il est huit heures.",
+      "Ouvrez la fenêtre.",
+      "Où habites-tu?"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je trouve que of je pense que kondigt een mening aan. De andere drie zijn een mededeling, een bevel en een vraag."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe begin je een formele Franse mail aan iemand wiens naam je niet kent?",
+     "opties": [
+      "Madame, Monsieur,",
+      "Salut,",
+      "Coucou,",
+      "Cher copain,"
+     ],
+     "antwoord": 0,
+     "uitleg": "Madame, Monsieur zonder naam. Ken je de naam, dan schrijf je Madame Dupont of Monsieur Dupont."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarmee sluit je een formele Franse mail af?",
+     "opties": [
+      "Cordialement",
+      "Gros bisous",
+      "À plus",
+      "Salut"
+     ],
+     "antwoord": 0,
+     "uitleg": "Cordialement, of nog formeler: veuillez agréer mes salutations distinguées. De drie andere horen bij vrienden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het soort taalgebruik dat past bij je lezer: formeel of informeel? Eén woord.",
+     "antwoord": [
+      "register"
+     ],
+     "uitleg": "Het register. Je kiest een gepast register en gepaste beleefdheidsconventies."
+    }
+   ]
+  },
+  {
+   "titel": "Schrijven en spreken in het Frans — deel 2",
+   "niveau": "beyond-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wanneer gebruik je in het Frans de vous-vorm?",
+     "opties": [
+      "bij een onbekende",
+      "bij een goede vriend",
+      "bij een broer of zus",
+      "bij een klasgenoot"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een mail aan een volwassene met wie je geen nauwe band hebt, krijgt vous. Vrienden en familie krijgen tu."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zinnen staan in de conditionnel de politesse?",
+     "opties": [
+      "Je voudrais un café.",
+      "Pourriez-vous m'aider?",
+      "J'aimerais réserver.",
+      "Je veux un café.",
+      "Je souhaiterais partir demain."
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Voudrais, pourriez en aimerais zijn hoffelijke vormen. Je veux klinkt nogal bot."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul de hoffelijke vorm in: Je ... un café, s'il vous plaît. Gebruik vouloir. Eén woord.",
+     "antwoord": [
+      "voudrais"
+     ],
+     "uitleg": "Je voudrais, de conditionnel van vouloir. Dat is de conditionnel de politesse."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent s'il vous plaît?",
+     "opties": [
+      "alstublieft",
+      "dank u wel",
+      "tot ziens",
+      "pardon"
+     ],
+     "antwoord": 0,
+     "uitleg": "S'il vous plaît bij de vous-vorm, s'il te plaît bij tu. Vaak afgekort als SVP."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je past je taal aan de ontvanger aan.",
+     "antwoord": true,
+     "uitleg": "Dat staat letterlijk bij de strategieën: respecteer de beleefdheidsconventies en gebruik de juiste toon."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitdrukking gebruik je om je te verontschuldigen?",
+     "opties": [
+      "Je suis désolé",
+      "Avec plaisir",
+      "Bien sûr",
+      "Tant mieux"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je suis désolé of excusez-moi. Avec plaisir en bien sûr zijn juist instemmende antwoorden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe reageer je in het Frans op een verontschuldiging?",
+     "opties": [
+      "Ce n'est pas grave",
+      "Je suis désolé",
+      "Excusez-moi",
+      "Merci d'avance"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ce n'est pas grave of pas de problème. Zo reageer je op een verontschuldiging."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk Frans woord van twee woorden gebruik je om iemand te feliciteren of je waardering te uiten? Vul in: ... travail!",
+     "antwoord": [
+      "beau",
+      "bon",
+      "quel beau"
+     ],
+     "uitleg": "Beau travail! of Bon travail! Je waardering uiten staat bij de alledaagse sociale contacten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin nodigt iemand uit?",
+     "opties": [
+      "Tu viens samedi?",
+      "Je suis fatigué.",
+      "Il fait froid.",
+      "J'ai oublié."
+     ],
+     "antwoord": 0,
+     "uitleg": "Een vraag die iemand erbij vraagt. Hoffelijker: est-ce que tu voudrais venir samedi?"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je mag in een formele Franse mail gewoon tu schrijven.",
+     "antwoord": false,
+     "uitleg": "In een formele mail hoort vous. Tu is voor vrienden, familie en leeftijdsgenoten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden houden een Franse tekst aan elkaar?",
+     "opties": [
+      "d'abord",
+      "ensuite",
+      "enfin",
+      "pizza",
+      "cependant"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Signaalwoorden maken de tekstverbanden zichtbaar. Ze zijn belangrijk voor tekststructuur en samenhang."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je als je niet weet hoe je iets in het Frans moet zeggen?",
+     "opties": [
+      "het zeggen met wat je kent",
+      "de opdracht overslaan",
+      "het in het Nederlands schrijven",
+      "een heel lange zin proberen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Laat je niet ontmoedigen: bereik je doel met de woorden en structuren die je wel kent. Dat is een strategie, niet een noodoplossing."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In een gesprek hoef je geen interesse in de ander te tonen.",
+     "antwoord": false,
+     "uitleg": "Net omgekeerd: speel in op wat de ander schrijft of zegt, toon interesse en toon respect."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zinnen proberen iemand te overtuigen?",
+     "opties": [
+      "C'est moins cher.",
+      "Ça fait gagner du temps.",
+      "Où habites-tu?",
+      "Comment tu t'appelles?"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "C'est moins cher, ça fait gagner du temps en tu devrais essayer geven een argument of een aanbeveling. Een vraag naar een naam of een woonplaats overtuigt niemand."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent Pouvez-vous parler plus lentement?",
+     "opties": [
+      "kunt u trager spreken",
+      "kunt u luider spreken",
+      "kunt u het herhalen",
+      "kunt u het opschrijven"
+     ],
+     "antwoord": 0,
+     "uitleg": "Lentement is traag. Die vraag is een goede strategie in een gesprek."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Merk je dat de ander je niet begrijpt, dan herhaal je je boodschap of zeg je ze anders.",
+     "antwoord": true,
+     "uitleg": "Precies zo staat het er. Precies hetzelfde nog eens zeggen helpt zelden; het anders formuleren wel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin vertelt iets?",
+     "opties": [
+      "J'ai vu un accident.",
+      "Quelle heure est-il?",
+      "Fermez la porte.",
+      "Merci beaucoup."
+     ],
+     "antwoord": 0,
+     "uitleg": "Een getuigenis vertelt wat er gebeurde, in de verleden tijd, bijvoorbeeld over een diefstal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin legt iets uit?",
+     "opties": [
+      "Suivez le sentier.",
+      "Je suis d'accord.",
+      "À quelle heure?",
+      "Bonne journée!"
+     ],
+     "antwoord": 0,
+     "uitleg": "Instructies voor wandelaars in het bos zijn een uitleg. Een uitleg gebruikt vaak de imperatief."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe zeg je alinea in het Frans? Eén woord.",
+     "antwoord": [
+      "paragraphe",
+      "alinéa",
+      "un paragraphe"
+     ],
+     "uitleg": "Un paragraphe. Je tekst heeft een herkenbare opbouw met een titel en alinea's."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het register van Bonjour Madame, je vous écris pour vous demander un renseignement?",
+     "opties": [
+      "formeel",
+      "informeel",
+      "spreektaal",
+      "ouderwets"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bonjour Madame, de vous-vorm en het woord renseignement maken het formeel. Aan een vriend zou je schrijven: Salut, je voulais te demander un truc."
+    }
+   ]
+  },
+  {
+   "titel": "Woordvelden: gezondheid, natuur en milieu — deel 1",
+   "niveau": "beyond-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent j'ai mal à la gorge?",
+     "opties": [
+      "ik heb keelpijn",
+      "ik heb een gebroken arm",
+      "ik heb koorts",
+      "ik heb rugpijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "Avoir mal à plus het lichaamsdeel. Hoofdpijn is j'ai mal à la tête en buikpijn j'ai mal au ventre."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke Franse woorden zijn klachten bij een dokter?",
+     "opties": [
+      "la toux",
+      "la fièvre",
+      "une allergie",
+      "un portefeuille",
+      "un mal de gorge"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Hoest, koorts en een allergie. Un portefeuille is een portefeuille met geld in."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe zeg je apotheek in het Frans? Twee woorden.",
+     "antwoord": [
+      "la pharmacie",
+      "pharmacie",
+      "une pharmacie"
+     ],
+     "uitleg": "La pharmacie, en de apotheker is le pharmacien. Daar haal je je médicaments."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent guérir?",
+     "opties": [
+      "genezen",
+      "ziek worden",
+      "zich laten inenten",
+      "pijn hebben"
+     ],
+     "antwoord": 0,
+     "uitleg": "Elle est guérie: ze is genezen. La guérison is de genezing."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Une ordonnance is in het Frans een voorschrift van de dokter.",
+     "antwoord": true,
+     "uitleg": "Met dat papier haal je je medicijnen bij de apotheker. In Québec zegt men une prescription."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is un médecin généraliste?",
+     "opties": [
+      "een huisarts",
+      "een tandarts",
+      "een ziekenhuis",
+      "een verpleegkundige"
+     ],
+     "antwoord": 0,
+     "uitleg": "Le généraliste tegenover le spécialiste. Een tandarts is le dentiste."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke Franse woorden gaan over gevoelens?",
+     "opties": [
+      "nerveux",
+      "seul",
+      "fier",
+      "bondé",
+      "triste"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Nerveus, alleen en trots. Bondé betekent overvol en zegt niets over een gevoel."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe zeg je koorts in het Frans? Twee woorden.",
+     "antwoord": [
+      "la fièvre",
+      "fièvre",
+      "de la fièvre",
+      "fievre"
+     ],
+     "uitleg": "Avoir de la fièvre is koorts hebben. De thermometer is le thermomètre."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent être stressé?",
+     "opties": [
+      "gespannen zijn",
+      "heel moe zijn",
+      "verkouden zijn",
+      "verveeld zijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "Le stress is overgenomen uit het Engels. Verveeld is s'ennuyer en moe fatigué."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je zegt in het Frans j'ai une douleur dans ma tête voor hoofdpijn.",
+     "antwoord": false,
+     "uitleg": "Een Franstalige zegt j'ai mal à la tête. Une douleur bestaat wel, maar niet in die zin."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is un pansement?",
+     "opties": [
+      "een pleister",
+      "een spuit",
+      "een zalf",
+      "een pil"
+     ],
+     "antwoord": 0,
+     "uitleg": "Un pansement of un sparadrap. Een zalf is une pommade en een spuit une piqûre."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent une alimentation équilibrée?",
+     "opties": [
+      "gevarieerd eten",
+      "zo weinig mogelijk eten",
+      "enkel groenten eten",
+      "drie keer per dag eten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Équilibré betekent in evenwicht. Un régime is wel een dieet om te vermageren."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Avoir le moral à zéro betekent in het Frans zich slecht voelen.",
+     "antwoord": true,
+     "uitleg": "Le moral is je gemoed. Avoir le moral betekent dus goedgezind zijn."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke Franse woorden horen bij het ziekenhuis?",
+     "opties": [
+      "une opération",
+      "une ambulance",
+      "un infirmier",
+      "une tondeuse",
+      "un médecin"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Een operatie, een ziekenwagen en een verpleger. Une tondeuse is een grasmachine of een tondeuse."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent prendre du poids?",
+     "opties": [
+      "bijkomen",
+      "vermageren",
+      "iets optillen",
+      "zich wegen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Letterlijk gewicht nemen. Vermageren is perdre du poids of maigrir."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "La santé mentale gaat in het Frans over je lichaam.",
+     "antwoord": false,
+     "uitleg": "La santé mentale is je geestelijke gezondheid; je lichaam is la santé physique. Psychologie hoort bij dit woordveld."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is un bilan de santé?",
+     "opties": [
+      "een controle bij de dokter",
+      "een rekening van het ziekenhuis",
+      "een bezoek aan een zieke",
+      "een briefje voor school"
+     ],
+     "antwoord": 0,
+     "uitleg": "Un bilan is een balans of een stand van zaken. Een doktersattest is un certificat médical."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent épuisé?",
+     "opties": [
+      "uitgeput",
+      "opgewonden",
+      "ontspannen",
+      "verbaasd"
+     ],
+     "antwoord": 0,
+     "uitleg": "Sterker dan fatigué: helemaal op. Épuisé betekent ook uitverkocht, bij een boek."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe zeg je slaap in het Frans, als je het naamwoord bedoelt? Twee woorden.",
+     "antwoord": [
+      "le sommeil",
+      "sommeil",
+      "du sommeil"
+     ],
+     "uitleg": "Le sommeil. Avoir sommeil betekent slaap hebben, en dormir is slapen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent prendre soin de soi?",
+     "opties": [
+      "goed voor jezelf zorgen",
+      "iets gemakkelijk vinden",
+      "iets snel afwerken",
+      "iets meenemen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Prends soin de toi! zegt men bij een afscheid of aan iemand die ziek is."
+    }
+   ]
+  }
+ ]
+}

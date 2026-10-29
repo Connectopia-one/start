@@ -31,7 +31,7 @@ Deel 2 is inwilliging en gehoorzaamheid.
 DEEL1 = [
     dict(
         type="meerkeuze",
-        vraag="Waarom noemt de fiche sociale beïnvloeding een continuüm?",
+        vraag="Waarom noem je sociale beïnvloeding een continuüm?",
         opties=[
             "omdat de sociale druk van licht tot zwaar loopt",
             "omdat iedereen er op dezelfde manier op reageert",
@@ -43,7 +43,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke vormen van toegeven aan sociale beïnvloeding noemt de fiche?",
+        vraag="Welke van deze zijn vormen van toegeven aan sociale beïnvloeding?",
         opties=[
             "conformisme",
             "inwilliging",
@@ -55,7 +55,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke drie vormen van weerstand bieden noemt de fiche?",
+        vraag="Wat zijn de drie vormen van weerstand bieden?",
         opties=[
             "onafhankelijkheid",
             "assertiviteit",
@@ -225,7 +225,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Een grotere en meer eensgezinde groep verhoogt de kans dat iemand conformeert.",
         antwoord=True,
-        uitleg="Waar. De fiche vraagt naar de factoren die de bereidheid om te conformeren beïnvloeden. Grootte en eensgezindheid zijn er twee.",
+        uitleg="Waar. Verschillende factoren beïnvloeden de bereidheid om te conformeren. Grootte en eensgezindheid zijn er twee.",
     ),
     dict(
         type="waarofniet",
@@ -250,7 +250,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel beïnvloedingstechnieken noemt de fiche?",
+        vraag="Hoeveel beïnvloedingstechnieken leer je kennen?",
         opties=[
             "vier",
             "drie",
@@ -418,7 +418,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke factoren verhogen volgens de fiche de bereidheid om een gezagsfiguur te gehoorzamen?",
+        vraag="Welke factoren verhogen de bereidheid om een gezagsfiguur te gehoorzamen?",
         opties=[
             "de gezagsfiguur is dichtbij aanwezig",
             "het slachtoffer zit naast je",
@@ -432,7 +432,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Zowel het experiment van Milgram als dat van Zimbardo zou vandaag niet meer zo mogen worden uitgevoerd.",
         antwoord=True,
-        uitleg="Waar. Beide brachten de proefpersonen in zware nood. Ze staan in de fiche als geschiedenis van het vak, niet als voorbeeld.",
+        uitleg="Waar. Beide brachten de proefpersonen in zware nood. Je leert ze kennen als geschiedenis van het vak, niet als voorbeeld.",
     ),
     dict(
         type="waarofniet",

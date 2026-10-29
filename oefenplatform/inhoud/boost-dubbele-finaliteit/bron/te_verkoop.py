@@ -262,7 +262,7 @@ DEEL2 = [
          antwoord=0,
          uitleg="Het bedrag na kortingen en met de doorgerekende kosten erbij."),
     dict(type="meerkeuze",
-         vraag="Welke kortingen kent de vakfiche bij een verkoopfactuur?",
+         vraag="Welke kortingen kan je geven op een verkoopfactuur?",
          opties=[
              "de handelskorting",
              "de financiële korting",

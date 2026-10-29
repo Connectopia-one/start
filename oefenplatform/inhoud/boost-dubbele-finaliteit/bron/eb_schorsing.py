@@ -83,7 +83,7 @@ DEEL1 = [
          antwoord=0,
          uitleg="Bijvoorbeeld als het werk door panne of door het weer niet kan doorgaan."),
     dict(type="meerkeuze",
-         vraag="Welke schorsingsgronden noemt de vakfiche?",
+         vraag="Welke van deze zijn schorsingsgronden?",
          opties=[
              "ziekte en ongeval",
              "zwangerschap en bevallingsverlof",

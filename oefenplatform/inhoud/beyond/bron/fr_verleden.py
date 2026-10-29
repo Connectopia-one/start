@@ -212,7 +212,7 @@ DEEL2 = [
                  "téléphoner neemt être",
                  "elle is een vrouwelijk onderwerp"],
          antwoord=0,
-         uitleg="Dat voorbeeld staat in de fiche zelf. Téléphoner à quelqu'un geeft een meewerkend voorwerp, en met een COI is er geen accord."),
+         uitleg="Téléphoner à quelqu'un geeft een meewerkend voorwerp, en met een COI is er geen accord."),
     dict(type="meerkeuze",
          vraag="Welke zin vraagt een accord van het deelwoord?",
          opties=["La lettre que j'ai écrite est partie.",

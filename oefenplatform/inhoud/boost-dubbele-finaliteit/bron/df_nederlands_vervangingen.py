@@ -28,7 +28,7 @@ VERVANGINGEN = {
             "een metafoor",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een metafoor is beeldspraak, geen humor. De fiche zet die twee in aparte lijstjes.",
+        uitleg="Een metafoor is beeldspraak, geen humor. Die twee horen in aparte lijstjes.",
     ),
     "Hoe noem je een grappige nabootsing van een bekende stijl of een bekend werk?": dict(
         type="invultekst",

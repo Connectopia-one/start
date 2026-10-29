@@ -525,7 +525,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke teksten noemt de vakfiche als voorbeelden van narratieve teksten?",
+          "vraag": "Welke van deze zijn narratieve teksten?",
           "opties": [
             "een reisverslag",
             "een getuigenis",
@@ -545,7 +545,7 @@
           "type": "waarofniet",
           "vraag": "Een gedicht, een lied en een strip horen alle drie bij de literaire teksten.",
           "antwoord": true,
-          "uitleg": "De fiche noemt ze alle drie, samen met de cartoon, het kortverhaal en het fragment uit een roman. Literaire teksten spelen in op gevoelens."
+          "uitleg": "Alle drie zijn literaire teksten, net als de cartoon, het kortverhaal en het fragment uit een roman. Literaire teksten spelen in op gevoelens."
         },
         {
           "type": "invultekst",
@@ -584,7 +584,7 @@
           "type": "waarofniet",
           "vraag": "Analyseren betekent dat je alle informatie letterlijk in de tekst moet kunnen aanwijzen.",
           "antwoord": false,
-          "uitleg": "De fiche zegt net het omgekeerde: analyseren is verbanden leggen tussen delen van een tekst, ook als het antwoord er niet letterlijk staat."
+          "uitleg": "Net omgekeerd: analyseren is verbanden leggen tussen delen van een tekst, ook als het antwoord er niet letterlijk staat."
         },
         {
           "type": "meerkeuze",
@@ -596,7 +596,7 @@
             "de leesstrategie van het scannen"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt het bij de strategieën: zender, bedoeling, ontvanger. Daarmee raad je vaak al half wat voor tekst je voor je hebt."
+          "uitleg": "Dat is een goede strategie: zender, bedoeling, ontvanger. Daarmee raad je vaak al half wat voor tekst je voor je hebt."
         },
         {
           "type": "invultekst",
@@ -609,13 +609,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een interview in een tijdschrift is volgens de vakfiche een informatieve tekst.",
+          "vraag": "Een interview in een tijdschrift is een informatieve tekst.",
           "antwoord": true,
-          "uitleg": "De fiche zet het interview zelf bij de informatieve teksten, naast het krantenartikel en het nieuwsitem."
+          "uitleg": "Een interview is een informatieve tekst, net als het krantenartikel en het nieuwsitem."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke hulpmiddelen in een tekst helpen je volgens de fiche vooruit nog voor je de eerste zin gelezen hebt?",
+          "vraag": "Welke hulpmiddelen in een tekst helpen je vooruit nog voor je de eerste zin gelezen hebt?",
           "opties": [
             "de titel en de tussentitels",
             "een foto of een tekening erbij",
@@ -633,7 +633,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een onbekend Frans woord staat in de tekst. Wat raadt de fiche je als eerste aan?",
+          "vraag": "Een onbekend Frans woord staat in de tekst. Wat doe je best als eerste?",
           "opties": [
             "de betekenis afleiden uit de context of de woordvorm",
             "het woord meteen opzoeken in het online woordenboek",
@@ -645,7 +645,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is een 'tekstverband' in de zin van de vakfiche?",
+          "vraag": "Wat is een tekstverband?",
           "opties": [
             "de functie van een alinea tegenover een andere alinea",
             "het aantal zinnen dat een alinea telt in totaal",
@@ -657,7 +657,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Drie van deze vier staan als tekstverband in de vakfiche. Welke hoort er niet bij?",
+          "vraag": "Drie van deze vier zijn tekstverbanden. Welke hoort er niet bij?",
           "opties": [
             "oorzaak en gevolg",
             "tegenstelling",
@@ -665,7 +665,7 @@
             "alfabetische volgorde"
           ],
           "antwoord": 3,
-          "uitleg": "De fiche somt op: oorzaak, gevolg, toelichting, verklaring, tegenstelling, vergelijking, weerlegging. Een volgorde op letter is geen verband tussen gedachten."
+          "uitleg": "Tekstverbanden zijn oorzaak, gevolg, toelichting, verklaring, tegenstelling, vergelijking en weerlegging. Een volgorde op letter is geen verband tussen gedachten."
         }
       ]
     },
@@ -879,9 +879,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Signaalwoorden helpen je volgens de fiche om de gedachtegang van een tekst te reconstrueren.",
+          "vraag": "Signaalwoorden helpen je om de gedachtegang van een tekst te reconstrueren.",
           "antwoord": true,
-          "uitleg": "De fiche zegt het letterlijk bij de strategieën. Lees in een moeilijke tekst eerst alleen de signaalwoorden en je ziet de structuur al."
+          "uitleg": "Dat is een goede strategie. Lees in een moeilijke tekst eerst alleen de signaalwoorden en je ziet de structuur al."
         },
         {
           "type": "meerkeuze",
@@ -1134,7 +1134,7 @@
             "Merci beaucoup"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt het zelf bij de strategieën: spreek je een verkoper of een agent aan, dan zeg je altijd eerst bonjour. Meteen bestellen komt onbeleefd over."
+          "uitleg": "Spreek je een verkoper of een agent aan, dan zeg je altijd eerst bonjour. Meteen bestellen komt onbeleefd over."
         },
         {
           "type": "meerkeuze",
@@ -1186,7 +1186,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is 'la conditionnel de politesse' waarover de fiche spreekt?",
+          "vraag": "Wat is 'le conditionnel de politesse'?",
           "opties": [
             "je vraagt iets met je voudrais in plaats van je veux",
             "je spreekt iemand aan met zijn titel erbij",
@@ -1225,7 +1225,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Volgens de vakfiche gaan collega's in Franstalig Canada op het werk minder formeel met elkaar om. Wat merk je daarvan in de taal?",
+          "vraag": "In Franstalig Canada gaan collega's op het werk minder formeel met elkaar om. Wat merk je daarvan in de taal?",
           "opties": [
             "men gaat sneller over op tu dan in Frankrijk",
             "men gebruikt er helemaal geen beleefdheidsvormen",
@@ -1233,7 +1233,7 @@
             "men schrijft mails zonder aanhef"
           ],
           "antwoord": 0,
-          "uitleg": "Dat is net het voorbeeld dat de fiche geeft. Minder formeel wil zeggen: sneller tutoyeren en sneller de voornaam gebruiken, niet dat beleefdheid wegvalt."
+          "uitleg": "Minder formeel wil zeggen: sneller tutoyeren en sneller de voornaam gebruiken, niet dat beleefdheid wegvalt."
         },
         {
           "type": "meerkeuze",
@@ -1291,9 +1291,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Lichaamstaal hoort volgens de vakfiche bij de socioculturele aspecten die je op het examen kan tegenkomen.",
+          "vraag": "Lichaamstaal hoort bij de socioculturele aspecten die je op het examen kan tegenkomen.",
           "antwoord": true,
-          "uitleg": "De fiche noemt ze met zoveel woorden, naast de gewoontes, de sociale verhoudingen en de waarden en normen."
+          "uitleg": "Ze horen bij een cultuur, net als de gewoontes, de sociale verhoudingen en de waarden en normen."
         },
         {
           "type": "meerkeuze",
@@ -1341,7 +1341,7 @@
             "enkel opsommingen zonder volledige zinnen"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt dat je je taal aanpast aan de ontvanger. Losser dan een brief aan de gemeente, maar nog altijd geschreven taal."
+          "uitleg": "Je past je taal aan de ontvanger aan. Losser dan een brief aan de gemeente, maar nog altijd geschreven taal."
         }
       ]
     },
@@ -1360,7 +1360,7 @@
             "iemand overtuigen"
           ],
           "antwoord": 0,
-          "uitleg": "Dat is net het voorbeeld dat de vakfiche zelf geeft. Informatie vragen en geven staat er als een aparte taalhandeling in."
+          "uitleg": "Informatie vragen en geven is een taalhandeling op zich."
         },
         {
           "type": "meerkeuze",
@@ -1399,7 +1399,7 @@
             "iemand begroeten"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche geeft dat voorbeeld zelf: je reageert op een discussie op sociale media. Daar zeg je wat je ervan vindt."
+          "uitleg": "Je reageert op een discussie op sociale media. Daar zeg je wat je ervan vindt."
         },
         {
           "type": "meerkeuze",
@@ -1432,7 +1432,7 @@
             "je verontschuldigen"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt dat voorbeeld letterlijk bij vertellen, naast het verslag van een reis of een activiteit."
+          "uitleg": "Dat is vertellen, net als het verslag van een reis of een activiteit."
         },
         {
           "type": "meerkeuze",
@@ -1464,7 +1464,7 @@
             "je waardering uiten"
           ],
           "antwoord": 0,
-          "uitleg": "Ook dat voorbeeld staat in de fiche. Uitleggen is: de ander aan het eind iets laten kunnen wat hij eerst niet kon."
+          "uitleg": "Uitleggen is: de ander aan het eind iets laten kunnen wat hij eerst niet kon."
         },
         {
           "type": "meerkeuze",
@@ -1498,9 +1498,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij de alledaagse sociale contacten hoort volgens de vakfiche ook 'je waardering uiten'.",
+          "vraag": "Bij de alledaagse sociale contacten hoort ook 'je waardering uiten'.",
           "antwoord": true,
-          "uitleg": "De fiche somt op: begroeten, aanspreken, afscheid nemen, iets voorstellen, bedanken, uitnodigen, je verontschuldigen, reageren op verontschuldigingen, je waardering uiten."
+          "uitleg": "Daarbij horen begroeten, aanspreken, afscheid nemen, iets voorstellen, bedanken, uitnodigen, je verontschuldigen, reageren op verontschuldigingen en je waardering uiten."
         },
         {
           "type": "meerkeuze",
@@ -1526,11 +1526,11 @@
           "type": "waarofniet",
           "vraag": "Een schrijfopdracht van het examen beoordeelt alleen of je grammatica juist is.",
           "antwoord": false,
-          "uitleg": "De fiche vraagt of de communicatie helder, gepast en vlot is. Een foutloze tekst die niet bij de ontvanger past, haalt zijn doel niet."
+          "uitleg": "Kijk of de communicatie helder, gepast en vlot is. Een foutloze tekst die niet bij de ontvanger past, haalt zijn doel niet."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is volgens de fiche een schrijfplan?",
+          "vraag": "Wat is een schrijfplan?",
           "opties": [
             "een lijstje kernwoorden dat je vooraf maakt",
             "de volledige tekst die je eerst in het Nederlands schrijft",
@@ -1550,11 +1550,11 @@
             "hoeveel tijd heb ik nog"
           ],
           "antwoord": 3,
-          "uitleg": "De fiche somt op: waarom, voor wie, met wie, wat precies, en via welk kanaal. De klok hoort daar niet bij."
+          "uitleg": "De vragen zijn: waarom, voor wie, met wie, wat precies, en via welk kanaal. De klok hoort daar niet bij."
         },
         {
           "type": "waarofniet",
-          "vraag": "Zit je vast bij het schrijven, dan raadt de fiche aan om je doel te bereiken met de woorden die je wél kent.",
+          "vraag": "Zit je vast bij het schrijven, dan probeer je je doel te bereiken met de woorden die je wél kent.",
           "antwoord": true,
           "uitleg": "Letterlijk: laat je niet ontmoedigen, maar probeer je doel te bereiken met de woorden en structuren die je wél al kent. Omschrijven is een vaardigheid, geen nederlaag."
         },
@@ -1568,7 +1568,7 @@
             "je vervangt het door een woord met een andere betekenis"
           ],
           "antwoord": 0,
-          "uitleg": "Omschrijven met wat je kent is precies de strategie die de fiche vraagt. Een Nederlands woord in je tekst telt als een gat."
+          "uitleg": "Omschrijven met wat je kent is precies de goede strategie. Een Nederlands woord in je tekst telt als een gat."
         }
       ]
     },
@@ -1650,7 +1650,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je schrijft over een gedicht dat je gelezen hebt. Wat vraagt de vakfiche precies?",
+          "vraag": "Je schrijft over een gedicht dat je gelezen hebt. Wat doe je dan?",
           "opties": [
             "dat je in het Frans je eigen ervaring en gevoelens verwoordt",
             "dat je het gedicht woord voor woord naar het Nederlands vertaalt",
@@ -1658,7 +1658,7 @@
             "dat je het rijmschema van elke strofe benoemt"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt je leesbeleving: waarom iets je aanspreekt, of je je herkent in een personage, welk gevoel de tekst oproept."
+          "uitleg": "Het gaat om je leesbeleving: waarom iets je aanspreekt, of je je herkent in een personage, welk gevoel de tekst oproept."
         },
         {
           "type": "meerkeuze",
@@ -1689,7 +1689,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom raadt de fiche aan je taal aan te passen aan de ontvanger?",
+          "vraag": "Waarom pas je je taal aan aan de ontvanger?",
           "opties": [
             "omdat een gepaste toon je boodschap beter laat aankomen",
             "omdat de regels van de grammatica anders veranderen",
@@ -1701,7 +1701,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De fiche vraagt uitdrukkelijk dat je je tekst grondig naleest voor je hem indient.",
+          "vraag": "Je leest je tekst grondig na voor je hem indient.",
           "antwoord": true,
           "uitleg": "Lees je tekst grondig na: is de communicatie helder, gepast en vlot? Dat is de laatste strategie in de lijst."
         },
@@ -1770,13 +1770,13 @@
             "Veuillez agréer mes salutations."
           ],
           "antwoord": 0,
-          "uitleg": "Reageren op verontschuldigingen staat als aparte vaardigheid in de fiche. Ce n'est pas grave of il n'y a pas de mal."
+          "uitleg": "Reageren op verontschuldigingen is een vaardigheid op zich. Ce n'est pas grave of il n'y a pas de mal."
         },
         {
           "type": "waarofniet",
           "vraag": "Een schrijfopdracht waarbij je op een bericht van iemand anders antwoordt, heet schriftelijke interactie.",
           "antwoord": true,
-          "uitleg": "Interactie is reageren op wat de ander schrijft of zegt. De fiche vraagt dat je daarbij ingaat op de ander en interesse toont."
+          "uitleg": "Interactie is reageren op wat de ander schrijft of zegt. Je gaat in op de ander en toont interesse."
         },
         {
           "type": "meerkeuze",
@@ -1788,7 +1788,7 @@
             "de vragen in je antwoord woord voor woord herhalen"
           ],
           "antwoord": 0,
-          "uitleg": "Speel in op wat je gesprekspartner schrijft, zegt de fiche. Een vraag overslaan is op een examen een rechtstreeks puntenverlies."
+          "uitleg": "Speel in op wat je gesprekspartner schrijft. Een vraag overslaan is op een examen een rechtstreeks puntenverlies."
         }
       ]
     },
@@ -3351,7 +3351,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke vier betrekkelijke voornaamwoorden noemt de vakfiche met name?",
+          "vraag": "Wat zijn de vier betrekkelijke voornaamwoorden in het Frans?",
           "opties": [
             "qui, que, dont, où",
             "qui, quoi, quel, quand",
@@ -3563,7 +3563,7 @@
             "iemand anders vertelde het aan hen"
           ],
           "antwoord": 0,
-          "uitleg": "Elle is het onderwerp en slaat terug op Sophie. Lui is COI en slaat op Paul. Precies dit soort terugzoeken vraagt de fiche bij het lezen."
+          "uitleg": "Elle is het onderwerp en slaat terug op Sophie. Lui is COI en slaat op Paul. Zo zoek je bij het lezen terug waarnaar een woord verwijst."
         }
       ]
     },
@@ -3723,7 +3723,7 @@
           "type": "waarofniet",
           "vraag": "Een bijvoeglijk naamwoord na 'être' komt overeen met het onderwerp van de zin.",
           "antwoord": true,
-          "uitleg": "Elles sont contentes, ils sont contents. Dat heet accord de l'adjectif avec le sujet, en de fiche noemt het bij de congruentie."
+          "uitleg": "Elles sont contentes, ils sont contents. Dat heet accord de l'adjectif avec le sujet: het hoort bij de congruentie."
         },
         {
           "type": "meerkeuze",
@@ -3872,7 +3872,7 @@
             "parfois",
             "quelquefois"
           ],
-          "uitleg": "Parfois of quelquefois. De fiche noemt parfois zelf als voorbeeld van een frequent bijwoord."
+          "uitleg": "Parfois of quelquefois. Parfois is een frequent bijwoord."
         },
         {
           "type": "waarofniet",
@@ -4154,7 +4154,7 @@
             "er is alleen een verschil in de spelling"
           ],
           "antwoord": 0,
-          "uitleg": "Precies het onderscheid dat de fiche vraagt: aan de vorm zie je of een werkwoord vervoegd is of niet, en dat bepaalt hoe je de zin leest."
+          "uitleg": "Aan de vorm zie je of een werkwoord vervoegd is of niet, en dat bepaalt hoe je de zin leest."
         },
         {
           "type": "meerkeuze",
@@ -4416,7 +4416,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is het verschil tussen de wijzen en de tijden waar de vakfiche over spreekt?",
+          "vraag": "Wat is het verschil tussen de wijzen en de tijden van een werkwoord?",
           "opties": [
             "de wijze zegt hoe je iets voorstelt, de tijd wanneer het gebeurt",
             "de wijze zegt wanneer iets gebeurt, de tijd hoe zeker het is",
@@ -4448,7 +4448,7 @@
             "het werkwoord hoort bij il of elle"
           ],
           "antwoord": 0,
-          "uitleg": "Precies het voorbeeld dat de fiche geeft: aller is de infinitief, allez de persoonsvorm, allé het voltooid deelwoord. Drie vormen die hetzelfde klinken."
+          "uitleg": "Aller is de infinitief, allez de persoonsvorm, allé het voltooid deelwoord. Drie vormen die hetzelfde klinken."
         }
       ]
     },
@@ -4882,7 +4882,7 @@
             "allez"
           ],
           "antwoord": 3,
-          "uitleg": "Allez is de vous-vorm van aller. Allé is het deelwoord. De fiche noemt dat onderscheid zelf als voorbeeld bij het lezen."
+          "uitleg": "Allez is de vous-vorm van aller. Allé is het deelwoord. Let bij het lezen goed op dat onderscheid."
         }
       ]
     },
@@ -5035,7 +5035,7 @@
             1,
             2
           ],
-          "uitleg": "De laatste staat in de présent en klinkt als een eis. De fiche noemt de conditionnel de politesse zelf bij de strategieën."
+          "uitleg": "De laatste staat in de présent en klinkt als een eis. Met de conditionnel de politesse vraag je het beleefd."
         },
         {
           "type": "meerkeuze",
@@ -5166,7 +5166,7 @@
             1,
             2
           ],
-          "uitleg": "Je pense que gaat met de indicatif: je pense qu'il a raison. De fiche geeft zelf il m'a dit que met de indicatif als voorbeeld."
+          "uitleg": "Je pense que gaat met de indicatif: je pense qu'il a raison. Ook il m'a dit que gaat met de indicatif."
         },
         {
           "type": "meerkeuze",
@@ -5192,11 +5192,11 @@
           "type": "waarofniet",
           "vraag": "Na 'il m'a dit que' komt in het Frans een subjonctif.",
           "antwoord": false,
-          "uitleg": "Dire geeft informatie door en vraagt de indicatif: il m'a dit qu'il viendrait. De fiche noemt dat zelf als voorbeeld."
+          "uitleg": "Dire geeft informatie door en vraagt de indicatif: il m'a dit qu'il viendrait."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke voegwoorden worden volgens de vakfiche gevolgd door een subjonctif?",
+          "vraag": "Welke voegwoorden worden gevolgd door een subjonctif?",
           "opties": [
             "pour que",
             "bien que",
@@ -5250,7 +5250,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Drie van deze namen staan bij de wijzen in de vakfiche. Welke is een tijd?",
+          "vraag": "Drie van deze namen zijn wijzen van het werkwoord. Welke naam is een tijd?",
           "opties": [
             "indicatif",
             "impératif",
@@ -5258,7 +5258,7 @@
             "imparfait"
           ],
           "antwoord": 3,
-          "uitleg": "L'imparfait is een tijd, geen wijze. De fiche noemt vijf wijzen: indicatif, impératif, infinitif, subjonctif en conditionnel."
+          "uitleg": "L'imparfait is een tijd, geen wijze. Er zijn vijf wijzen: indicatif, impératif, infinitif, subjonctif en conditionnel."
         },
         {
           "type": "waarofniet",
@@ -5331,7 +5331,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten zinnen somt de vakfiche op?",
+          "vraag": "Welke van deze zijn soorten zinnen?",
           "opties": [
             "mededelend, vragend, bevelend",
             "uitroepend, ontkennend, bevestigend",
@@ -5495,7 +5495,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Drie van deze zinsdelen staan met name in de vakfiche. Welk zinsdeel niet?",
+          "vraag": "Drie van deze zinsdelen moet je in een Franse zin kunnen aanwijzen. Welk zinsdeel hoort er niet bij?",
           "opties": [
             "onderwerp (sujet)",
             "persoonsvorm (verbe conjugué)",
@@ -5503,7 +5503,7 @@
             "bijwoordelijke bepaling van plaats"
           ],
           "antwoord": 3,
-          "uitleg": "De fiche noemt er vier: sujet, verbe conjugué, COD en COI. Bepalingen van plaats staan niet in die lijst."
+          "uitleg": "Je moet er vier kunnen aanwijzen: sujet, verbe conjugué, COD en COI. Bepalingen van plaats horen daar niet bij."
         },
         {
           "type": "waarofniet",
@@ -5595,7 +5595,7 @@
           "type": "waarofniet",
           "vraag": "'Comme' aan het begin van een zin kan in het Frans een reden aangeven.",
           "antwoord": true,
-          "uitleg": "Comme il pleuvait, nous sommes restés. De fiche noemt comme zelf als voorbeeld van een frequent voegwoord."
+          "uitleg": "Comme il pleuvait, nous sommes restés. Comme is een frequent voegwoord."
         },
         {
           "type": "meerkeuze",
@@ -5736,7 +5736,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke voorzetselgroepen noemt de vakfiche zelf als voorbeeld?",
+          "vraag": "Welke van deze zijn voorzetselgroepen?",
           "opties": [
             "grâce à",
             "à cause de",
@@ -5747,7 +5747,7 @@
             0,
             1
           ],
-          "uitleg": "De fiche noemt grâce à en à cause de met name. En face de bestaat wel maar staat niet in de lijst, en pour que is een voegwoord."
+          "uitleg": "Grâce à en à cause de zijn voorzetselgroepen. En face de is er ook een, maar pour que is een voegwoord."
         },
         {
           "type": "waarofniet",

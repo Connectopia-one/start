@@ -173,14 +173,14 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke structuurelementen van een rekenblad noemt de fiche?",
+        vraag="Welke van deze zijn structuurelementen van een rekenblad?",
         opties=["de cel en het celadres", "het bereik", "het werkblad en de werkmap", "de grafiek"],
         antwoord=[0, 1, 2],
         uitleg="Een grafiek is geen structuurelement. Rij en kolom horen er ook bij.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke getalnotaties noemt de fiche?",
+        vraag="Welke van deze zijn getalnotaties?",
         opties=["valuta", "percentage", "datum en tijd", "formule"],
         antwoord=[0, 1, 2],
         uitleg="Een formule is geen notatie. Het aantal decimalen hoort er wel bij.",
@@ -227,7 +227,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke operatoren noemt de fiche voor formules?",
+        vraag="Welke operatoren gebruik je in formules?",
         opties=[
             "maal, min, plus, gedeeld door en haakjes",
             "enkel plus en min",
@@ -235,7 +235,7 @@ DEEL2 = [
             "groter dan en kleiner dan",
         ],
         antwoord=0,
-        uitleg="De fiche schrijft ze als *, -, +, / en ().",
+        uitleg="Je schrijft ze als *, -, +, / en ().",
     ),
     dict(
         type="meerkeuze",
@@ -354,17 +354,17 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke functies noemt de fiche voor Excel?",
+        vraag="Welke van deze zijn functies in Excel?",
         opties=["SOM", "GEMIDDELDE", "VERT.ZOEKEN", "AFRONDEN"],
         antwoord=[0, 1, 2],
-        uitleg="AFRONDEN staat niet in de fiche. MIN, MAX en ALS wel.",
+        uitleg="AFRONDEN hoort hier niet bij. MIN, MAX en ALS wel.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke grafiektypes noemt de fiche?",
-        opties=["de kolomgrafiek", "de lijngrafiek", "het cirkeldiagram", "de boxplot"],
+        vraag="Welke van deze zijn grafiektypes?",
+        opties=["de kolomgrafiek", "de lijngrafiek", "het cirkeldiagram", "de stamboom"],
         antwoord=[0, 1, 2],
-        uitleg="Een boxplot staat niet in de fiche. De staafgrafiek en de spreiding wel.",
+        uitleg="Een stamboom is geen grafiek. De kolomgrafiek, de lijngrafiek en het cirkeldiagram wel; ook de staafgrafiek en de spreidingsgrafiek horen erbij.",
     ),
     dict(
         type="invultekst",

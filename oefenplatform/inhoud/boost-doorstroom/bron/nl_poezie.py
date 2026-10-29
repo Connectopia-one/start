@@ -47,7 +47,7 @@ DEEL1 = [
         vraag="Welke van deze zijn dichtvormen?",
         opties=["de ballade", "het sonnet", "het vrije vers", "de klucht"],
         antwoord=[0, 1, 2],
-        uitleg="Een klucht is een toneelvorm, geen dichtvorm. De fiche noemt daarnaast de haiku, de limerick, het naamdicht en de minneliederen.",
+        uitleg="Een klucht is een toneelvorm, geen dichtvorm. Dichtvormen zijn ook de haiku, de limerick, het naamdicht en de minneliederen.",
     ),
     dict(
         type="meerkeuze",
@@ -78,7 +78,7 @@ DEEL1 = [
         vraag="Welke van deze zijn stijlfiguren?",
         opties=["herhaling", "personificatie", "overdrijving", "enjambement"],
         antwoord=[0, 1, 2],
-        uitleg="Een enjambement staat bij de fiche onder ritme, niet onder de stijlfiguren.",
+        uitleg="Een enjambement hoort bij het ritme, niet bij de stijlfiguren.",
     ),
     dict(
         type="meerkeuze",
@@ -141,7 +141,7 @@ DEEL1 = [
         vraag="Welke van deze rijmsoorten bestaan?",
         opties=["gepaard rijm", "gekruist rijm", "omarmend rijm", "blank rijm"],
         antwoord=[0, 1, 2],
-        uitleg="De fiche noemt daarnaast volrijm, eindrijm, alliteratie en assonantie. Blank rijm staat er niet bij.",
+        uitleg="Daarnaast zijn er volrijm, eindrijm, alliteratie en assonantie. Blank rijm hoort er niet bij.",
     ),
     dict(
         type="meerkeuze",
@@ -210,7 +210,7 @@ DEEL2 = [
         type="invultekst",
         vraag="Hoe noem je toneel waarin gezongen wordt, zoals een musical of een opera?",
         antwoord=["muziektheater", "het muziektheater"],
-        uitleg="De fiche noemt het als een van de vier subgenres van drama.",
+        uitleg="Het is een van de vier subgenres van drama.",
     ),
     dict(
         type="waarofniet",
@@ -223,7 +223,7 @@ DEEL2 = [
         vraag="Welke elementen horen bij een opvoeringsanalyse?",
         opties=["het decor", "de belichting", "de rekwisieten", "het rijmschema"],
         antwoord=[0, 1, 2],
-        uitleg="Een rijmschema hoort bij poëzie. De fiche noemt verder ruimte, mimiek, gebaren, kostumering, grime, muziek en geluid.",
+        uitleg="Een rijmschema hoort bij poëzie. Bij toneel horen verder ruimte, mimiek, gebaren, kostumering, grime, muziek en geluid.",
     ),
     dict(
         type="meerkeuze",
@@ -245,7 +245,7 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Kostumering is volgens de vakfiche een element van de opvoeringsanalyse.",
+        vraag="Kostumering is een element van de opvoeringsanalyse.",
         antwoord=True,
         uitleg="Wat iemand draagt, zegt iets over zijn stand, zijn tijd en zijn karakter, nog voor hij iets gezegd heeft.",
     ),
@@ -263,10 +263,10 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke literaire stromingen moet je volgens de vakfiche op een tekst kunnen toepassen?",
+        vraag="Welke literaire stromingen moet je op een tekst kunnen toepassen?",
         opties=["de middeleeuwen", "de romantiek", "het realisme", "de barok"],
         antwoord=[0, 1, 2],
-        uitleg="De fiche noemt uitdrukkelijk die drie, met hun kenmerken, hun situering en hun stijl.",
+        uitleg="Die drie leer je kennen, met hun kenmerken, hun situering en hun stijl.",
     ),
     dict(
         type="waarofniet",
@@ -302,7 +302,7 @@ DEEL2 = [
             "met de verborgen betekenis van heilige getallen",
         ],
         antwoord=0,
-        uitleg="Dat is precies waarom de fiche vraagt of een tekst relevant was voor de samenleving waarin hij ontstond.",
+        uitleg="Daarom ga je na of een tekst relevant was voor de samenleving waarin hij ontstond.",
     ),
     dict(
         type="waarofniet",
@@ -343,7 +343,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom vraagt de vakfiche of je kan uitleggen in welke mate een tekst relevant is voor onze samenleving?",
+        vraag="Waarom ga je na in welke mate een tekst relevant is voor onze samenleving?",
         opties=[
             "omdat literatuur iets zegt over de wereld van toen en die van nu",
             "omdat een oude tekst anders niet gelezen mag worden",

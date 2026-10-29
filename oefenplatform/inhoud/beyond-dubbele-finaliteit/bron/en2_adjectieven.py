@@ -191,7 +191,7 @@ DEEL2 = [
                  "moeilijk",
                  "flink"],
          antwoord=0,
-         uitleg="De fiche geeft dit paar zelf: she has worked hard tegenover he has hardly worked. Hard is zelf al een bijwoord."),
+         uitleg="She has worked hard tegenover he has hardly worked. Hard is zelf al een bijwoord."),
     dict(type="meerkeuze",
          vraag="Welke voorzetsels geven een plaats aan?",
          opties=["under",

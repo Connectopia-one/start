@@ -238,7 +238,7 @@ DEEL1 = [
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Welke drie soorten overheidsmaatregelen noemt de fiche?",
+        vraag="Wat zijn de drie soorten overheidsmaatregelen?",
         opties=[
             "btw en accijnzen, premies en subsidies, en minimum- en maximumprijzen",
             "belastingen, boetes en vergunningen",
@@ -246,7 +246,7 @@ DEEL2 = [
             "rentevoeten, leningen en spaarpremies",
         ],
         antwoord=0,
-        uitleg="Precies die drie staan in de fiche bij het ingrijpen op de markt.",
+        uitleg="Precies die drie zijn manieren om in te grijpen op de markt.",
     ),
     dict(
         type="meerkeuze",
@@ -366,13 +366,13 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Volgens de fiche grijpt de overheid enkel in door prijzen vast te leggen.",
+        vraag="De overheid grijpt enkel in door prijzen vast te leggen.",
         antwoord=False,
-        uitleg="Het rijtje van de fiche heeft drie manieren: btw en accijnzen heffen, subsidies geven en prijzen vastleggen.",
+        uitleg="Er zijn drie manieren: btw en accijnzen heffen, subsidies geven en prijzen vastleggen.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke maatregelen van de overheid noemt de fiche?",
+        vraag="Welke van deze zijn maatregelen van de overheid?",
         opties=[
             "btw en accijnzen heffen",
             "de prijzen van alle producten zelf bepalen",

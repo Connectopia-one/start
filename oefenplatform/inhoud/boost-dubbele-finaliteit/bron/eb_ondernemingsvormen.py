@@ -82,7 +82,7 @@ DEEL1 = [
          antwoord=0,
          uitleg="Geen notaris, geen kapitaal, weinig formaliteiten."),
     dict(type="meerkeuze",
-         vraag="Waarop vergelijkt de vakfiche de ondernemingsvormen?",
+         vraag="Waarop vergelijk je de ondernemingsvormen?",
          opties=[
              "de aansprakelijkheid",
              "de administratie",

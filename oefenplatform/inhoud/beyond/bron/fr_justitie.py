@@ -26,7 +26,7 @@ Deel 2 is de deontologie in de welzijnssector.
 
 DEEL1 = [
     dict(type="meerkeuze",
-         vraag="Welke vijf functies van justitie noemt de fiche?",
+         vraag="Wat zijn de vijf functies van justitie?",
          opties=["preventie, veiligheid, ordehandhaving, conflictbeslechting en bestraffing",
                  "preventie, veiligheid, opvoeding, vergelding en schadeherstel voor het slachtoffer",
                  "wetgeving, bestuur, rechtspraak, controle en bemiddeling",
@@ -84,8 +84,7 @@ DEEL1 = [
          opties=["het vermoeden van onschuld", "de openbaarheid",
                  "het hoor en wederhoor", "de territoriale bevoegdheid"],
          antwoord=0,
-         uitleg="Dit is wat men trial by media noemt, en het staat in de fiche bij de actuele "
-                "thema's."),
+         uitleg="Dit is wat men trial by media noemt, en het is een actueel thema."),
     dict(type="meerkeuze",
          vraag="Welke rol speelt justitie bij veranderende maatschappelijke normen?",
          opties=["ze volgt die veranderingen en legt ze geleidelijk in regels vast",
@@ -109,7 +108,7 @@ DEEL1 = [
          opties=["bestraffen is maar één van de vijf functies",
                  "preventie werkt al doordat de regel bestaat en gevolgen heeft",
                  "conflictbeslechting komt enkel in strafzaken voor",
-                 "veiligheid is de enige functie die de fiche noemt"],
+                 "veiligheid is de enige functie van justitie"],
          antwoord=[0, 1],
          uitleg="Conflictbeslechting is net typisch voor het burgerlijk recht."),
     dict(type="meerkeuze",
@@ -128,8 +127,7 @@ DEEL1 = [
                  "ze zorgt dat iedereen in de samenleving hetzelfde inkomen heeft",
                  "ze laat elke burger zijn eigen rechter kiezen"],
          antwoord=0,
-         uitleg="Gelijkheid voor de wet is de belofte. Dat die in de praktijk niet altijd uitkomt, "
-                "is precies waarover de fiche je laat nadenken."),
+         uitleg="Gelijkheid voor de wet is de belofte. Dat die in de praktijk niet altijd uitkomt, is precies iets om over na te denken."),
     dict(type="waarofniet",
          vraag="Bestraffen is maar een van de vijf functies van justitie.",
          antwoord=True,

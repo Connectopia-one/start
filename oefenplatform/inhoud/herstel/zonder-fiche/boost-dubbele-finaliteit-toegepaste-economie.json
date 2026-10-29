@@ -1,0 +1,2740 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "De balans en de resultatenrekening — deel 2",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een kost?",
+     "opties": [
+      "wat de zaak verbruikt",
+      "wat de zaak ontvangt ervan",
+      "wat de zaak bezit in totaal",
+      "wat de zaak schuldig is"
+     ],
+     "antwoord": 0,
+     "uitleg": "Lonen, huur, de aankoop van handelsgoederen. Kosten verminderen het resultaat."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een opbrengst?",
+     "opties": [
+      "wat de zaak verdient",
+      "wat de zaak uitgeeft ervan",
+      "wat de zaak bezit in totaal",
+      "wat de zaak nog moet betalen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vooral de verkopen. Opbrengsten verhogen het resultaat."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het bedrijfsresultaat?",
+     "opties": [
+      "bedrijfsopbrengsten min bedrijfskosten",
+      "alle opbrengsten min alle kosten van het jaar",
+      "de intresten min de financiële kosten ervan",
+      "de winst na aftrek van de belastingen ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het resultaat van de gewone werking, zonder de financiële verrichtingen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het financieel resultaat?",
+     "opties": [
+      "financiële opbrengsten min kosten",
+      "de verkopen min de aankopen ervan",
+      "het loon van het personeel ervan",
+      "de waarde van de voorraad ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ontvangen intresten tegenover betaalde intresten en bankkosten."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het resultaat als de kosten groter zijn dan de opbrengsten? Eén woord.",
+     "antwoord": [
+      "verlies",
+      "het verlies"
+     ],
+     "uitleg": "Verlies. Het gaat over naar het volgende boekjaar."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De resultatenrekening gaat over een periode, de balans over een moment.",
+     "antwoord": true,
+     "uitleg": "De balans is een foto, de resultatenrekening is de film van het boekjaar."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De aankoop van een machine is een kost in de resultatenrekening.",
+     "antwoord": false,
+     "uitleg": "Een machine is een investering en staat op de balans. Enkel de afschrijving is een kost."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de omzet?",
+     "opties": [
+      "de verkopen van het jaar",
+      "de winst van het jaar ervan",
+      "het bezit van de zaak ervan",
+      "het kapitaal van de eigenaars"
+     ],
+     "antwoord": 0,
+     "uitleg": "Omzet is niet hetzelfde als winst: de kosten moeten er nog af."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke posten zijn kosten?",
+     "opties": [
+      "de lonen",
+      "de huur van het pand",
+      "de aankoop van handelsgoederen",
+      "de verkoop van handelsgoederen",
+      "de verzekering van het pand"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "De verkoop is een opbrengst, geen kost."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe bereken je het resultaat van het boekjaar?",
+     "opties": [
+      "alle opbrengsten min alle kosten",
+      "de verkopen plus de aankopen ervan",
+      "het bezit min de voorraad ervan",
+      "het kapitaal plus de schulden ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bedrijfsresultaat en financieel resultaat samen, en daarna de belastingen eraf."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een zaak heeft 120000 euro opbrengsten en 95000 euro kosten. Wat is het resultaat?",
+     "opties": [
+      "25000 euro winst",
+      "215000 euro samen",
+      "25000 euro verlies",
+      "95000 euro winst"
+     ],
+     "antwoord": 0,
+     "uitleg": "120000 min 95000 is 25000 euro winst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar komt de winst van het boekjaar terecht op de balans?",
+     "opties": [
+      "bij het eigen vermogen",
+      "bij de vaste activa ervan",
+      "bij de schulden op korte termijn",
+      "bij de voorraad handelsgoederen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Winst die in de zaak blijft, versterkt het eigen vermogen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een onderneming kan winst maken op haar werking en toch verlies op haar financiële verrichtingen.",
+     "antwoord": true,
+     "uitleg": "Daarom worden het bedrijfsresultaat en het financieel resultaat apart berekend."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Omzet en winst betekenen hetzelfde.",
+     "antwoord": false,
+     "uitleg": "Omzet is wat binnenkomt uit verkopen. Winst is wat overblijft als alle kosten betaald zijn."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de opbrengst uit de verkopen? Eén woord.",
+     "antwoord": [
+      "omzet",
+      "de omzet"
+     ],
+     "uitleg": "De omzet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke resultaten bereken je?",
+     "opties": [
+      "het bedrijfsresultaat",
+      "het financieel resultaat",
+      "het resultaat van vorig jaar",
+      "het resultaat van de concurrent"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Je berekent eerst het bedrijfsresultaat, dan het financieel resultaat en daarna het resultaat van de onderneming. Wat de concurrent of vorig jaar deed, staat niet in deze oefening."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een afschrijving?",
+     "opties": [
+      "de kost van slijtage",
+      "de verkoop van een machine",
+      "de aankoop van een gebouw",
+      "het verlies van een klant"
+     ],
+     "antwoord": 0,
+     "uitleg": "De waarde van een investering wordt over meerdere jaren als kost genomen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is de resultatenrekening nuttig voor de zaakvoerder?",
+     "opties": [
+      "ze toont waar het geld heen gaat",
+      "ze toont hoeveel klanten er waren",
+      "ze toont de namen van de leveranciers",
+      "ze toont het uurrooster van het team"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je ziet welke kosten zwaar wegen en welke opbrengsten er tegenover staan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke posten zijn opbrengsten?",
+     "opties": [
+      "de verkoop van handelsgoederen",
+      "ontvangen intresten",
+      "een ontvangen huurgeld",
+      "een betaalde factuur van de leverancier",
+      "een ontvangen dividend"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Een betaalde factuur van een leverancier is een kost."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een zaak heeft 60000 euro opbrengsten en 72000 euro kosten. Hoe groot is het verlies? Een getal.",
+     "antwoord": [
+      "12000",
+      "12000 euro"
+     ],
+     "uitleg": "72000 min 60000 is 12000 euro verlies."
+    }
+   ]
+  },
+  {
+   "titel": "Het MAR en het redeneerschema — deel 2",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de eerste vraag in het redeneerschema?",
+     "opties": [
+      "welke rekeningen spelen mee",
+      "hoeveel bedraagt de btw ervan",
+      "wie heeft de factuur gemaakt",
+      "wanneer wordt er betaald ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerst de betrokken rekeningen, dan of ze stijgen of dalen, dan debet of credit."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een onderneming koopt handelsgoederen op krediet. Welke rekening gaat in debet?",
+     "opties": [
+      "604 Aankopen handelsgoederen",
+      "440 Leveranciers van de zaak",
+      "700 Verkopen handelsgoederen",
+      "550 Kredietinstellingen ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "De kost stijgt, dus debet. De schuld aan de leverancier komt in credit."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke rekening komt bij een aankoop op krediet in credit?",
+     "opties": [
+      "440 Leveranciers",
+      "604 Aankopen handelsgoederen",
+      "400 Handelsdebiteuren ervan",
+      "570 Kassen van de zaak"
+     ],
+     "antwoord": 0,
+     "uitleg": "De schuld aan de leverancier stijgt, en een schuld stijgt in credit."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een klant betaalt zijn factuur via de bank. Wat gebeurt er?",
+     "opties": [
+      "de bank stijgt, de klant daalt",
+      "de bank daalt, de klant stijgt",
+      "de voorraad daalt in waarde",
+      "de schuld aan de leverancier daalt"
+     ],
+     "antwoord": 0,
+     "uitleg": "550 in debet, 400 in credit. De vordering verdwijnt omdat ze betaald is."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Komt een kost die stijgt in debet of in credit? Eén woord.",
+     "antwoord": [
+      "debet"
+     ],
+     "uitleg": "In debet. Kosten en bezittingen stijgen links."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een schuld stijgt in credit.",
+     "antwoord": true,
+     "uitleg": "Passief, kosten en opbrengsten volgen elk hun eigen kant. Een schuld hoort rechts."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een opbrengst stijgt in debet.",
+     "antwoord": false,
+     "uitleg": "Opbrengsten stijgen in credit, net als schulden en eigen vermogen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar staat de letter A voor in het redeneerschema?",
+     "opties": [
+      "actief",
+      "aankoop ervan",
+      "afschrijving ervan",
+      "aangifte ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "A staat voor actief, P voor passief, K voor kosten en O voor opbrengsten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebeurt er met de kas als de zaak contant betaalt?",
+     "opties": [
+      "ze daalt",
+      "ze stijgt ervan",
+      "ze blijft gelijk",
+      "ze verdwijnt ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een actief dat daalt, komt in credit. De kost of de schuld staat dan in debet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat moet juist zijn om punten te krijgen voor een regel van het redeneerschema?",
+     "opties": [
+      "het rekeningnummer",
+      "het bedrag",
+      "de kant, debet of credit",
+      "de soort rekening, A of P",
+      "de naam van de rekening"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "De soort rekening mag je invullen om te redeneren, maar ze wordt niet beoordeeld."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom verschijnt de naam van de rekening vanzelf op het examen?",
+     "opties": [
+      "je vult het nummer in",
+      "je typt de naam zelf voluit",
+      "de naam staat in de vraag ervan",
+      "de naam wordt niet gevraagd ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Daarom telt het nummer, niet de spelling van de naam."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een zaak verkoopt handelsgoederen op krediet. Welke rekening gaat in debet?",
+     "opties": [
+      "400 Handelsdebiteuren",
+      "700 Verkopen handelsgoederen",
+      "440 Leveranciers van de zaak",
+      "604 Aankopen handelsgoederen"
+     ],
+     "antwoord": 0,
+     "uitleg": "De vordering op de klant stijgt. De opbrengst 700 staat in credit."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij een verkoop op krediet staat de opbrengst in credit.",
+     "antwoord": true,
+     "uitleg": "De vordering op de klant staat tegenover die opbrengst, in debet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het bedrag in debet mag verschillen van het bedrag in credit.",
+     "antwoord": false,
+     "uitleg": "Elke boeking is in evenwicht. Is ze dat niet, dan zit er een fout in."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke kant kiest een actief dat stijgt? Eén woord.",
+     "antwoord": [
+      "debet"
+     ],
+     "uitleg": "Debet. Een actief dat daalt, komt in credit."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je voor je een factuur boekt?",
+     "opties": [
+      "het document lezen",
+      "nagaan wat er gebeurd is",
+      "de jaarrekening opmaken",
+      "de balans opnieuw maken"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Eerst het document lezen en begrijpen wat er gebeurd is, en de bedragen nakijken; dan pas het redeneerschema invullen. De balans en de jaarrekening komen veel later."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe boek je zo efficiënt mogelijk?",
+     "opties": [
+      "met zo weinig mogelijk regels",
+      "met zo veel mogelijk regels ervan",
+      "met een regel per euro ervan",
+      "met twee boekingen per factuur"
+     ],
+     "antwoord": 0,
+     "uitleg": "Er is een minimum aantal boekingsregels."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke verrichtingen raken de rekening 550 Kredietinstellingen?",
+     "opties": [
+      "een klant betaalt via overschrijving",
+      "je betaalt een leverancier via de bank",
+      "de bank rekent kosten aan",
+      "je koopt goederen op krediet aan",
+      "je haalt geld van de bank naar de kas"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Een aankoop op krediet raakt de bank pas op het moment dat je betaalt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat geldt er voor de totalen van een boeking?",
+     "opties": [
+      "debet en credit zijn gelijk",
+      "debet is altijd groter ervan",
+      "credit is altijd groter ervan",
+      "de totalen worden niet geteld"
+     ],
+     "antwoord": 0,
+     "uitleg": "Op het examen worden ze automatisch berekend. Een verschil kost geen punten, maar wijst wel op een fout."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke letter gebruik je in het redeneerschema voor een kost? Eén letter.",
+     "antwoord": [
+      "K",
+      "k"
+     ],
+     "uitleg": "K van kosten. O staat voor opbrengsten."
+    }
+   ]
+  },
+  {
+   "titel": "Aankopen: documenten, kortingen en btw — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk document vraagt een prijs op bij een leverancier?",
+     "opties": [
+      "de prijsaanvraag",
+      "de bestelbon ervan",
+      "de leverbon ervan",
+      "de aankoopfactuur ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "De eerste stap: je vraagt wat de goederen kosten en onder welke voorwaarden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een offerte?",
+     "opties": [
+      "het antwoord van de leverancier",
+      "de vraag van de klant ervan",
+      "het bewijs van de levering",
+      "de rekening om te betalen"
+     ],
+     "antwoord": 0,
+     "uitleg": "De leverancier geeft prijs, hoeveelheid en voorwaarden. De klant is nog tot niets verplicht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarvoor dient de bestelbon?",
+     "opties": [
+      "de bestelling vastleggen",
+      "de prijs opvragen ervan",
+      "de levering bevestigen ervan",
+      "de betaling uitvoeren ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Met de bestelbon legt de klant zich vast op hoeveelheid en prijs."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarvoor dient de leverbon?",
+     "opties": [
+      "bewijzen wat geleverd is",
+      "bewijzen wat betaald is",
+      "de prijs vastleggen ervan",
+      "de korting berekenen ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij de levering kijk je of alles aanwezig en onbeschadigd is."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk document stuurt de leverancier om betaald te worden? Hoogstens drie woorden.",
+     "antwoord": [
+      "aankoopfactuur",
+      "de aankoopfactuur",
+      "factuur"
+     ],
+     "uitleg": "De aankoopfactuur."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een creditnota corrigeert een factuur die al verstuurd is.",
+     "antwoord": true,
+     "uitleg": "Bijvoorbeeld bij een terugzending of een vergeten korting."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een offerte verplicht de klant om te kopen.",
+     "antwoord": false,
+     "uitleg": "Pas met de bestelbon legt de klant zich vast."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wanneer krijg je een inkomende creditnota?",
+     "opties": [
+      "bij een terugzending",
+      "bij een nieuwe bestelling",
+      "bij een gewone levering",
+      "bij elke betaling ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Of bij een vergeten korting of een fout op de factuur."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke documenten horen bij een aankoop?",
+     "opties": [
+      "de prijsaanvraag",
+      "de offerte",
+      "de bestelbon",
+      "het loonbriefje",
+      "de aankoopfactuur"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Het loonbriefje hoort bij de personeelsadministratie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zijn handelsgoederen?",
+     "opties": [
+      "goederen om door te verkopen",
+      "goederen voor eigen gebruik ervan",
+      "machines voor de productie ervan",
+      "het gebouw van de onderneming"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ze gaan de voorraad in en daarna weer buiten, naar de klant."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een investering?",
+     "opties": [
+      "een aankoop voor lange termijn",
+      "een aankoop om door te verkopen",
+      "de huur van een kantoor ervan",
+      "de aankoop van postzegels ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een machine of een bestelwagen gebruik je meerdere jaren, dus je schrijft ze af."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom vergelijk je de factuur met de bestelbon?",
+     "opties": [
+      "om fouten te vinden",
+      "om de klant te bedanken",
+      "om de btw te verhogen",
+      "om de levering te vragen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Prijs, hoeveelheid en korting moeten overeenkomen met wat afgesproken was."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De aankoop van diensten is een andere soort aankoop dan handelsgoederen.",
+     "antwoord": true,
+     "uitleg": "Je onderscheidt handelsgoederen, diensten en diverse goederen, en investeringen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De leverbon vermeldt altijd de prijs van de goederen.",
+     "antwoord": false,
+     "uitleg": "Een leverbon gaat over wat er geleverd is. De bedragen staan op de factuur."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk document bevestigt wat je bij de leverancier bestelt? Hoogstens drie woorden.",
+     "antwoord": [
+      "bestelbon",
+      "de bestelbon"
+     ],
+     "uitleg": "De bestelbon."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke soorten aankopen onderscheid je?",
+     "opties": [
+      "handelsgoederen",
+      "diensten en diverse goederen",
+      "verkopen op krediet",
+      "giften aan het personeel"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Handelsgoederen en diensten en diverse goederen zijn twee soorten aankopen, naast de investeringen; elk heeft zijn eigen rekening in het MAR. Giften en verkopen horen er niet bij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat controleer je bij de ontvangst van een levering?",
+     "opties": [
+      "of alles er is en heel is",
+      "of de btw-aangifte klopt ervan",
+      "of de balans in evenwicht is",
+      "of het loon betaald is ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je vergelijkt met de leverbon en met je eigen bestelbon."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is het controleren van een factuur belangrijk?",
+     "opties": [
+      "om kwaliteit af te leveren",
+      "om sneller te kunnen leveren",
+      "om meer klanten te krijgen",
+      "om de voorraad te tellen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je controleert met als doel kwaliteit af te leveren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat vergelijk je met een aankoopfactuur?",
+     "opties": [
+      "de offerte",
+      "de bestelbon",
+      "de leverbon",
+      "de btw-aangifte",
+      "de prijsaanvraag"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "De btw-aangifte komt pas later, op basis van alle facturen samen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je een aankoop die je meerdere jaren gebruikt? Eén woord.",
+     "antwoord": [
+      "investering",
+      "een investering"
+     ],
+     "uitleg": "Een investering. Ze komt op de balans en wordt afgeschreven."
+    }
+   ]
+  },
+  {
+   "titel": "Verkopen en de verkoopfactuur — deel 2",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarop berekent de verkoper de btw?",
+     "opties": [
+      "op het bedrag na korting",
+      "op het bedrag voor korting",
+      "op de winst van de verkoop",
+      "op het bedrag met btw erin"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerst de kortingen eraf, dan de doorgerekende kosten erbij, en pas dan de btw."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een verkoop van 2000 euro krijgt 5 procent handelskorting. Wat blijft er over?",
+     "opties": [
+      "1900 euro",
+      "100 euro ervan",
+      "1950 euro ervan",
+      "2100 euro samen"
+     ],
+     "antwoord": 0,
+     "uitleg": "5 procent van 2000 is 100, en 2000 min 100 is 1900."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel btw aan 21 procent komt er op 1900 euro?",
+     "opties": [
+      "399 euro",
+      "190 euro ervan",
+      "219 euro ervan",
+      "421 euro ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "1900 maal 0,21 is 399 euro."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zijn doorgerekende kosten op een verkoopfactuur?",
+     "opties": [
+      "kosten die de klant betaalt",
+      "kosten die de verkoper draagt",
+      "kosten van de bank ervan",
+      "kosten van het personeel"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vervoer bijvoorbeeld. Ze verhogen het bedrag waarop de btw berekend wordt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel is 10 procent handelskorting op 500 euro? Een getal.",
+     "antwoord": [
+      "50",
+      "50 euro"
+     ],
+     "uitleg": "500 gedeeld door 10 is 50 euro."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Terugstuurbare verpakking telt niet mee in de maatstaf van heffing.",
+     "antwoord": true,
+     "uitleg": "Ze is een waarborg die je terugkrijgt, dus er komt geen btw op."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De verkoper mag de btw houden die hij int.",
+     "antwoord": false,
+     "uitleg": "Hij int ze voor de staat en stort ze door via zijn btw-aangifte."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de verschuldigde btw voor een verkoper?",
+     "opties": [
+      "de btw op zijn verkopen",
+      "de btw op zijn aankopen ervan",
+      "het verschil met de winst ervan",
+      "de btw van zijn leverancier"
+     ],
+     "antwoord": 0,
+     "uitleg": "De btw die hij aanrekende aan zijn klanten en moet doorstorten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent 2 procent korting bij betaling binnen acht dagen?",
+     "opties": [
+      "korting als je snel betaalt",
+      "korting bij een grote bestelling",
+      "korting op het vervoer ervan",
+      "korting bij een terugzending"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een financiële korting. Ze gaat van de factuur af voor de btw berekend wordt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat verhoogt het bedrag van een verkoopfactuur?",
+     "opties": [
+      "doorgerekend vervoer",
+      "verpakking die niet terugkomt",
+      "de financiële korting",
+      "een handelskorting"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Doorgerekend vervoer en verpakking die niet terugkomt verhogen het bedrag, en de btw komt er bovenop. Een handelskorting of een financiële korting verlaagt het juist."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een factuur telt 600 euro aan 6 procent en 400 euro aan 21 procent. Hoeveel btw is dat samen?",
+     "opties": [
+      "120 euro",
+      "210 euro ervan",
+      "60 euro ervan",
+      "270 euro ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "36 euro plus 84 euro is 120 euro."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet een uitgaande creditnota met de omzet?",
+     "opties": [
+      "ze verlaagt de omzet",
+      "ze verhoogt de omzet ervan",
+      "ze laat de omzet gelijk",
+      "ze verdubbelt de omzet"
+     ],
+     "antwoord": 0,
+     "uitleg": "De verkoop wordt deels of helemaal teruggedraaid."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op een creditnota staat ook een btw-bedrag.",
+     "antwoord": true,
+     "uitleg": "De btw op het teruggedraaide bedrag gaat mee terug."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De handelskorting staat los van het btw-bedrag.",
+     "antwoord": false,
+     "uitleg": "Ze verlaagt de maatstaf, dus wordt ook de btw kleiner."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel betaalt een klant voor 500 euro goederen met 6 procent btw? Een getal.",
+     "antwoord": [
+      "530",
+      "530 euro"
+     ],
+     "uitleg": "500 plus 30 euro btw is 530 euro."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de maatstaf van heffing?",
+     "opties": [
+      "het bedrag waarop btw komt",
+      "het bedrag met de btw erbij",
+      "de winst van de verkoper ervan",
+      "het tarief van de btw ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het bedrag na kortingen en met de doorgerekende kosten erbij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke kortingen kan je geven op een verkoopfactuur?",
+     "opties": [
+      "de handelskorting",
+      "de financiële korting",
+      "een korting op de btw-aangifte",
+      "een korting op het btw-tarief"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "De handelskorting, de financiële korting en een korting bij een grote bestelling kan je afspreken. Het btw-tarief ligt wettelijk vast, daar geef je geen korting op."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom berekent de verkoper de btw per tarief apart?",
+     "opties": [
+      "de tarieven verschillen",
+      "de klanten verschillen ervan",
+      "de leveranciers verschillen",
+      "de betaaldagen verschillen"
+     ],
+     "antwoord": 0,
+     "uitleg": "6 procent voor het ene artikel, 21 procent voor het andere, op dezelfde factuur."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke gegevens heb je nodig om een verkoopfactuur te berekenen?",
+     "opties": [
+      "de hoeveelheid",
+      "de eenheidsprijs",
+      "het btw-tarief",
+      "de naam van de vervoerder",
+      "de afgesproken kortingen"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "En de kortingen die afgesproken zijn."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel bedraagt 21 procent btw op 100 euro? Een getal.",
+     "antwoord": [
+      "21",
+      "21 euro"
+     ],
+     "uitleg": "21 euro. Handig om snel mee te schatten."
+    }
+   ]
+  },
+  {
+   "titel": "De btw en de btw-aangifte — deel 2",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een btw-aangifte?",
+     "opties": [
+      "een afrekening met de staat",
+      "een factuur voor de klant ervan",
+      "een overzicht van de winst ervan",
+      "een lijst van alle klanten ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je zet er je verschuldigde en je aftrekbare btw tegenover elkaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe vaak dient een gewone btw-plichtige zijn aangifte in?",
+     "opties": [
+      "elke maand of elk kwartaal",
+      "elk jaar in december ervan",
+      "bij elke factuur ervan",
+      "om de vijf jaar ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Welk van de twee hangt af van de omzet van de onderneming."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zijn de roosters op een btw-aangifte?",
+     "opties": [
+      "genummerde vakken",
+      "de namen van de klanten",
+      "de data van de facturen",
+      "de rekeningen van het MAR"
+     ],
+     "antwoord": 0,
+     "uitleg": "Elk vak heeft een nummer en een vaste betekenis. Je vult er een bedrag in."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In welk rooster komen de aankopen van diensten en diverse goederen?",
+     "opties": [
+      "82",
+      "99 ervan",
+      "54 ervan",
+      "00 ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "81 is voor handelsgoederen, 82 voor diensten en diverse goederen, 83 voor bedrijfsmiddelen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In welk rooster van de aangifte komen de bedrijfsmiddelen? Een getal.",
+     "antwoord": [
+      "83",
+      "rooster 83"
+     ],
+     "uitleg": "Rooster 83. Dat zijn de investeringen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je mag de btw-aangifte raadplegen tijdens het examen.",
+     "antwoord": true,
+     "uitleg": "Kijk naar een voorbeeld van de aangifte."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je moet alle roosternummers van de btw-aangifte uit het hoofd kennen.",
+     "antwoord": false,
+     "uitleg": "Je krijgt de aangifte erbij. Je moet wel weten welk bedrag waar hoort."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent het als de verschuldigde btw groter is dan de aftrekbare?",
+     "opties": [
+      "je moet btw betalen",
+      "je krijgt btw terug ervan",
+      "je aangifte is fout ervan",
+      "je hoeft niets te doen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je inde meer dan je betaalde, dus het verschil gaat naar de staat."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent het als de aftrekbare btw groter is dan de verschuldigde?",
+     "opties": [
+      "je krijgt btw terug",
+      "je moet btw bijbetalen",
+      "je maakt verlies ervan",
+      "je aangifte is fout ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dat gebeurt bijvoorbeeld in een kwartaal met een grote investering."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe bereken je het btw-saldo?",
+     "opties": [
+      "verschuldigd min aftrekbaar",
+      "aftrekbaar min verschuldigd ervan",
+      "verschuldigd plus aftrekbaar ervan",
+      "de omzet maal het tarief ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Is het resultaat positief, dan betaal je. Is het negatief, dan krijg je terug."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een zaak heeft 4200 euro verschuldigde btw en 2800 euro aftrekbare. Wat is het saldo?",
+     "opties": [
+      "1400 euro te betalen",
+      "7000 euro te betalen",
+      "1400 euro terug te krijgen",
+      "2800 euro te betalen"
+     ],
+     "antwoord": 0,
+     "uitleg": "4200 min 2800 is 1400 euro te betalen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke roosters horen bij de aankopen?",
+     "opties": [
+      "81",
+      "82",
+      "de datum van de factuur",
+      "de naam van de leverancier"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Rooster 81 is voor handelsgoederen, 82 voor diensten en diverse goederen en 83 voor bedrijfsmiddelen. De naam van de leverancier en de datum van de factuur vul je niet in op de aangifte."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een onderneming met veel investeringen kan in een kwartaal btw terugkrijgen.",
+     "antwoord": true,
+     "uitleg": "De aftrekbare btw op die investeringen kan dan groter zijn dan de verschuldigde."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het btw-saldo is hetzelfde als de winst.",
+     "antwoord": false,
+     "uitleg": "Het saldo gaat enkel over btw. Met winst heeft het niets te maken."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een zaak is 3000 euro verschuldigd en mag 3000 euro aftrekken. Hoe groot is het saldo? Een getal.",
+     "antwoord": [
+      "0",
+      "nul",
+      "0 euro"
+     ],
+     "uitleg": "Nul. Er is niets te betalen en niets terug te vorderen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom houdt een onderneming haar facturen goed bij voor de aangifte?",
+     "opties": [
+      "de bedragen komen eruit",
+      "de klanten vragen ernaar",
+      "de bank vraagt ernaar ervan",
+      "ze staan mooi in de kast"
+     ],
+     "antwoord": 0,
+     "uitleg": "Elke aangifte wordt opgebouwd uit de facturen van die periode."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebeurt er met een aangifte die te laat ingediend wordt?",
+     "opties": [
+      "er volgt een boete",
+      "er gebeurt niets ervan",
+      "de btw vervalt dan ervan",
+      "de klant betaalt ervoor"
+     ],
+     "antwoord": 0,
+     "uitleg": "De termijnen liggen vast. Te laat indienen kost geld."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat vul je in op een btw-aangifte?",
+     "opties": [
+      "de omzet per tarief",
+      "de aankopen per soort",
+      "de aftrekbare btw",
+      "het aantal werknemers",
+      "de te betalen btw"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Het personeel hoort bij een heel andere aangifte."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over het btw-saldo zijn juist?",
+     "opties": [
+      "het kan te betalen zijn",
+      "het wordt met de winstbelasting verrekend",
+      "het kan nul zijn",
+      "het is altijd positief"
+     ],
+     "antwoord": [
+      0,
+      2
+     ],
+     "uitleg": "Naargelang de aankopen en de verkopen van die periode kan het saldo te betalen of terug te vorderen zijn, en het kan ook nul uitkomen. Met de belasting op de winst heeft het niets te maken."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In welk rooster van de aangifte komen de aankopen van handelsgoederen? Een getal.",
+     "antwoord": [
+      "81",
+      "rooster 81"
+     ],
+     "uitleg": "Rooster 81."
+    }
+   ]
+  },
+  {
+   "titel": "Van proefbalans tot eindbalans — deel 2",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een eindejaarsverrichting?",
+     "opties": [
+      "een boeking bij de afsluiting",
+      "een verkoop in december ervan",
+      "een bestelling van januari ervan",
+      "een factuur van een klant ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ze zet de cijfers recht voor de jaarrekening wordt opgemaakt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom schrijf je een machine af?",
+     "opties": [
+      "ze verliest waarde",
+      "ze wordt verkocht ervan",
+      "ze gaat kapot ervan",
+      "ze staat in de weg ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je spreidt de kostprijs over de jaren dat je ze gebruikt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een machine kost 20000 euro en gaat 5 jaar mee. Hoeveel schrijf je lineair per jaar af?",
+     "opties": [
+      "4000 euro",
+      "5000 euro ervan",
+      "2000 euro ervan",
+      "20000 euro ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "20000 gedeeld door 5 is 4000 euro per jaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar komt de afschrijving in de boekhouding terecht?",
+     "opties": [
+      "bij de kosten",
+      "bij de opbrengsten ervan",
+      "bij de schulden ervan",
+      "bij de voorraad ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een kost van klasse 6. Tegelijk daalt de waarde van het actief op de balans."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een bestelwagen kost 30000 euro en gaat 6 jaar mee. Hoeveel schrijf je per jaar af? Een getal.",
+     "antwoord": [
+      "5000",
+      "5000 euro"
+     ],
+     "uitleg": "30000 gedeeld door 6 is 5000 euro."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een afschrijving kost geen geld op het moment dat je ze boekt.",
+     "antwoord": true,
+     "uitleg": "Het geld ging al buiten bij de aankoop. De afschrijving spreidt die uitgave over de jaren."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Grond wordt afgeschreven zoals een machine.",
+     "antwoord": false,
+     "uitleg": "Grond slijt niet en verliest geen waarde door gebruik, dus ze wordt niet afgeschreven."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de regularisatie van een schuld op meer dan één jaar?",
+     "opties": [
+      "het deel voor volgend jaar verschuiven",
+      "de hele schuld in één keer betalen",
+      "de schuld kwijtschelden ervan",
+      "de schuld verdubbelen ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het stuk dat binnen het jaar vervalt, verhuist naar de schulden op korte termijn."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom verhuist dat deel van de schuld?",
+     "opties": [
+      "zo klopt de balans beter",
+      "zo betaal je minder ervan",
+      "zo stijgt de winst ervan",
+      "zo daalt de btw ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een lezer ziet dan meteen welke schulden binnen het jaar betaald moeten worden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn eindejaarsverrichtingen?",
+     "opties": [
+      "de jaarlijkse afschrijvingen",
+      "de regularisatie van schulden op meer dan een jaar",
+      "de overdracht van het resultaat",
+      "de aankoop van nieuwe goederen",
+      "de voorraadwijziging boeken"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Een aankoop is een gewone verrichting van tijdens het jaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je met de winst van het boekjaar?",
+     "opties": [
+      "ze gaat over naar volgend jaar",
+      "ze wordt een kost ervan",
+      "ze verdwijnt ervan",
+      "ze wordt een schuld aan de klant"
+     ],
+     "antwoord": 0,
+     "uitleg": "Overgedragen winst versterkt het eigen vermogen op de balans."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar staat het verlies van het boekjaar op de balans?",
+     "opties": [
+      "bij het eigen vermogen",
+      "bij de vaste activa ervan",
+      "bij de voorraad ervan",
+      "bij de schulden op korte termijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "Met een minteken: een verlies verkleint het eigen vermogen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De afschrijving verlaagt de boekwaarde van het actief.",
+     "antwoord": true,
+     "uitleg": "Na elk jaar staat de machine voor minder op de balans."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een eindejaarsverrichting wordt niet in het journaal geboekt.",
+     "antwoord": false,
+     "uitleg": "Ze is een boeking als alle andere en gaat gewoon in het journaal."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de waarde van een machine na aftrek van de afschrijvingen? Hoogstens drie woorden.",
+     "antwoord": [
+      "boekwaarde",
+      "de boekwaarde"
+     ],
+     "uitleg": "De boekwaarde."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een machine van 20000 euro is drie jaar afgeschreven aan 4000 euro per jaar. Wat is de boekwaarde?",
+     "opties": [
+      "8000 euro",
+      "12000 euro ervan",
+      "20000 euro ervan",
+      "4000 euro ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "3 maal 4000 is 12000, en 20000 min 12000 is 8000 euro."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke stappen horen bij het afsluiten van een boekjaar?",
+     "opties": [
+      "de voorlopige proef- en saldibalans maken",
+      "de eindejaarsverrichtingen boeken",
+      "de btw-aangifte van januari maken",
+      "een nieuwe leverancier zoeken"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Eerst de voorlopige proef- en saldibalans, dan de eindejaarsverrichtingen, dan de definitieve proef- en saldibalans en pas daarna de eindbalans. Een leverancier zoeken of de aangifte van januari maken hoort daar niet bij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent lineair afschrijven?",
+     "opties": [
+      "elk jaar hetzelfde bedrag",
+      "elk jaar een kleiner bedrag",
+      "elk jaar een groter bedrag",
+      "alles in het eerste jaar"
+     ],
+     "antwoord": 0,
+     "uitleg": "De aankoopprijs gedeeld door het aantal jaren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke activa worden afgeschreven?",
+     "opties": [
+      "een machine",
+      "een bestelwagen",
+      "een computer",
+      "de grond onder het gebouw",
+      "een gebouw"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Grond slijt niet en wordt daarom niet afgeschreven."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Over hoeveel jaar schrijf je 15000 euro af aan 3000 euro per jaar? Een getal.",
+     "antwoord": [
+      "5",
+      "vijf"
+     ],
+     "uitleg": "15000 gedeeld door 3000 is 5 jaar."
+    }
+   ]
+  },
+  {
+   "titel": "Tekstverwerking: klavier, opmaak en stijlen — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je met ctrl + c?",
+     "opties": [
+      "kopiëren",
+      "plakken ervan",
+      "knippen ervan",
+      "alles selecteren"
+     ],
+     "antwoord": 0,
+     "uitleg": "Kopiëren. Plakken is ctrl + v en knippen is ctrl + x."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je met ctrl + a?",
+     "opties": [
+      "alles selecteren",
+      "alles kopiëren ervan",
+      "alles wissen ervan",
+      "alles afdrukken ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het hele document wordt geselecteerd."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je met ctrl + u in een tekstverwerker?",
+     "opties": [
+      "onderlijnen",
+      "vet maken ervan",
+      "cursief maken ervan",
+      "uitlijnen ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ctrl a selecteert, ctrl c kopieert, ctrl u onderlijnt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet de toets home?",
+     "opties": [
+      "naar het begin van de regel",
+      "naar het einde van de regel ervan",
+      "naar de volgende bladzijde ervan",
+      "naar het begin van het document"
+     ],
+     "antwoord": 0,
+     "uitleg": "Naar het begin van de regel. Met ctrl erbij ga je naar het begin van het document."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke toets wist het teken links van de cursor? Eén woord.",
+     "antwoord": [
+      "backspace"
+     ],
+     "uitleg": "Backspace wist naar links, delete wist naar rechts."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Met shift ingedrukt typ je een hoofdletter.",
+     "antwoord": true,
+     "uitleg": "En met caps lock aan typ je alles in hoofdletters tot je ze weer uitzet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De toets insert maakt een nieuw document aan.",
+     "antwoord": false,
+     "uitleg": "Insert wisselt tussen invoegen en overschrijven. Een nieuw document is ctrl + n."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is tekenopmaak?",
+     "opties": [
+      "opmaak van letters",
+      "opmaak van alinea's ervan",
+      "opmaak van de bladzijde",
+      "opmaak van een tabel ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Lettertype, tekengrootte, vet, cursief, kleur en markeren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort bij tekenopmaak?",
+     "opties": [
+      "vet en cursief",
+      "de tekstkleur",
+      "de uitlijning",
+      "de regelafstand"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Vet, cursief en de tekstkleur werken op de tekens zelf, net als klein kapitaal. De regelafstand en de uitlijning horen bij de alineaopmaak."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is alineaopmaak?",
+     "opties": [
+      "opmaak van hele alinea's",
+      "opmaak van losse letters ervan",
+      "opmaak van de marges ervan",
+      "opmaak van een afbeelding"
+     ],
+     "antwoord": 0,
+     "uitleg": "Regelafstand, afstand tussen alinea's, uitlijning, opsommingstekens en tabs."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort bij alineaopmaak?",
+     "opties": [
+      "de uitlijning",
+      "de regelafstand",
+      "een opsommingsteken",
+      "de tekengrootte",
+      "de inspringing"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Tekengrootte hoort bij de tekenopmaak."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarvoor dient de knop Alles weergeven?",
+     "opties": [
+      "opmaaktekens tonen",
+      "alle bladzijden tonen ervan",
+      "alle documenten openen",
+      "alle afbeeldingen tonen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je ziet dan spaties, tabs en alineamarkeringen, en dus waar de opmaak vandaan komt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een tab is iets anders dan een reeks spaties.",
+     "antwoord": true,
+     "uitleg": "Een tab springt naar een vaste positie. Met spaties schuift alles scheef zodra je iets wijzigt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Super- en subscript horen bij de alineaopmaak.",
+     "antwoord": false,
+     "uitleg": "Ze horen bij de tekenopmaak: ze veranderen hoe een teken staat, niet de hele alinea."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke sneltoets gebruik je om alles te selecteren? Hoogstens drie woorden.",
+     "antwoord": [
+      "ctrl a",
+      "ctrl+a",
+      "ctrl + a"
+     ],
+     "uitleg": "Ctrl + a."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het nut van een sneltoets?",
+     "opties": [
+      "sneller werken",
+      "mooier opmaken ervan",
+      "meer kleuren krijgen",
+      "minder papier gebruiken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je handen blijven op het klavier in plaats van naar de muis te gaan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet de toets tab in een tabel?",
+     "opties": [
+      "naar de volgende cel",
+      "een nieuwe rij maken",
+      "de cel wissen ervan",
+      "de tabel sluiten ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Tab in de laatste cel maakt er wel een nieuwe rij bij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is doorhalen in de tekenopmaak?",
+     "opties": [
+      "een streep door de tekst",
+      "een lijn onder de tekst",
+      "de tekst dikker maken",
+      "de tekst schuin zetten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een lijn eronder is onderstrepen, dikker is vet en schuin is cursief."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke toetsen gebruik je bij efficiënt klavieren?",
+     "opties": [
+      "ctrl",
+      "shift",
+      "de caps lock-toets",
+      "de muis"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Je gebruikt ctrl, shift en alt gr; met alt gr maak je het apenstaartje en het euroteken. De muis en de caps lock-toets horen daar niet bij."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke toets wist het teken rechts van de cursor? Eén woord.",
+     "antwoord": [
+      "delete",
+      "del"
+     ],
+     "uitleg": "Delete wist naar rechts."
+    }
+   ]
+  },
+  {
+   "titel": "Tekstverwerking: klavier, opmaak en stijlen — deel 2",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is paginaopmaak?",
+     "opties": [
+      "opmaak van de bladzijde",
+      "opmaak van de letters ervan",
+      "opmaak van een alinea ervan",
+      "opmaak van een tabel ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Marges, afdrukstand, paginanummers, kop- en voettekst, secties en kolommen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de afdrukstand van een blad?",
+     "opties": [
+      "staand of liggend",
+      "links of rechts ervan",
+      "zwart of in kleur",
+      "groot of klein ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Staand voor een brief, liggend voor een brede tabel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat staat er in een koptekst?",
+     "opties": [
+      "tekst boven elke bladzijde",
+      "tekst onder elke bladzijde",
+      "tekst in het midden ervan",
+      "tekst in een eigen kader"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vaak het logo of de naam van de onderneming."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarvoor dient een sectie in een tekstverwerker?",
+     "opties": [
+      "een eigen paginaopmaak",
+      "een eigen lettertype ervan",
+      "een eigen tabel ervan",
+      "een eigen afbeelding ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zo kan één bladzijde liggend staan terwijl de rest staand blijft."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de witruimte rond de tekst op een blad? Eén woord.",
+     "antwoord": [
+      "marge",
+      "marges",
+      "de marges"
+     ],
+     "uitleg": "De marges."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Met een stijl geef je alle titels in één keer dezelfde opmaak.",
+     "antwoord": true,
+     "uitleg": "En wijzig je de stijl achteraf, dan volgen alle titels mee."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een sjabloon en een stijl zijn hetzelfde.",
+     "antwoord": false,
+     "uitleg": "Een sjabloon is een voorbereid document. Een stijl is een set opmaakkenmerken erin."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het voordeel van werken met stijlen?",
+     "opties": [
+      "je past alles in één keer aan",
+      "je tekst wordt automatisch korter",
+      "je hoeft niet meer te typen ervan",
+      "je document wordt kleiner ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wijzig je de stijl van je koppen, dan verandert elke kop in het document mee."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een sjabloon?",
+     "opties": [
+      "een voorbereid document",
+      "een lijst met lettertypes",
+      "een map met afbeeldingen",
+      "een tabel met gegevens"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je start ermee en vult het in: een factuur, een brief, een cv."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze documenten maak je met een tekstverwerker?",
+     "opties": [
+      "een factuur",
+      "een sollicitatiebrief",
+      "een overeenkomst",
+      "een rekenblad met formules",
+      "een verslag van een vergadering"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Een rekenblad maak je in een rekenbladprogramma, niet in een tekstverwerker."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een personeelsdocument?",
+     "opties": [
+      "een cv of een vacature",
+      "een factuur van een klant",
+      "een bestelbon ervan",
+      "een garantiebepaling ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een cv, een vacature en een sollicitatiebrief."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet zoeken en vervangen?",
+     "opties": [
+      "een woord overal wijzigen",
+      "een woord opzoeken in een boek",
+      "de spelling verbeteren ervan",
+      "een nieuw woord verzinnen"
+     ],
+     "antwoord": 0,
+     "uitleg": "In één keer, door het hele document heen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een kop- en voettekst herhaalt zich op elke bladzijde van de sectie.",
+     "antwoord": true,
+     "uitleg": "Daarom hoef je ze maar één keer in te stellen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Paginanummers typ je met de hand op elke bladzijde.",
+     "antwoord": false,
+     "uitleg": "Je voegt ze één keer in en ze tellen vanzelf verder."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je een kant-en-klaar document waarin je enkel nog invult? Eén woord.",
+     "antwoord": [
+      "sjabloon",
+      "een sjabloon",
+      "template"
+     ],
+     "uitleg": "Een sjabloon."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom werk je met kolommen in een document?",
+     "opties": [
+      "de tekst in banen zetten",
+      "de bladzijde kleiner maken",
+      "de letters groter maken",
+      "de marges weg te halen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zoals in een krant of een folder: smallere regels lezen vlotter."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort bij paginaopmaak?",
+     "opties": [
+      "de marges",
+      "de afdrukstand",
+      "de regelafstand",
+      "het lettertype"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "De marges, de afdrukstand en de kop- en voettekst gelden voor de hele bladzijde. Het lettertype hoort bij de tekenopmaak en de regelafstand bij de alineaopmaak."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een commercieel document?",
+     "opties": [
+      "een factuur of een label",
+      "een cv of een vacature ervan",
+      "een brief aan de gemeente",
+      "een overeenkomst met de bank"
+     ],
+     "antwoord": 0,
+     "uitleg": "Facturen, verkoopvoorwaarden, garantiebepalingen en labels."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat kan je met zoeken en vervangen doen?",
+     "opties": [
+      "een verkeerde naam overal rechtzetten",
+      "een term door een andere vervangen",
+      "snel iets terugvinden",
+      "de bladzijde liggend zetten",
+      "nagaan hoe vaak een woord voorkomt"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "De afdrukstand verander je bij de paginaopmaak."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de tekst onderaan elke bladzijde? Eén woord.",
+     "antwoord": [
+      "voettekst",
+      "de voettekst"
+     ],
+     "uitleg": "De voettekst."
+    }
+   ]
+  },
+  {
+   "titel": "Formules en functies in een rekenblad — deel 2",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet de functie ALS?",
+     "opties": [
+      "tussen twee uitkomsten kiezen",
+      "een getal afronden ervan",
+      "een reeks optellen ervan",
+      "een datum invullen ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Is de voorwaarde waar, dan het ene antwoord; anders het andere."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke drie delen heeft de functie ALS?",
+     "opties": [
+      "test, waar, niet waar",
+      "begin, midden, einde",
+      "rij, kolom, cel ervan",
+      "som, aantal, gemiddelde"
+     ],
+     "antwoord": 0,
+     "uitleg": "=ALS(A1>100;\"korting\";\"geen korting\")."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een geneste ALS?",
+     "opties": [
+      "een ALS in een ALS",
+      "een ALS met een som",
+      "een ALS zonder test",
+      "een ALS in een tabel"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zo kies je tussen meer dan twee uitkomsten, bijvoorbeeld drie kortingstarieven."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet VERT.ZOEKEN?",
+     "opties": [
+      "iets opzoeken in een kolom",
+      "iets opzoeken in een rij",
+      "een getal afronden ervan",
+      "een rij sorteren ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ze zoekt in de eerste kolom van de tabel en geeft iets uit dezelfde rij terug."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke functie zoekt een waarde op in de eerste rij van een tabel? Hoogstens drie woorden.",
+     "antwoord": [
+      "horiz.zoeken",
+      "horizontaal zoeken",
+      "horiz zoeken"
+     ],
+     "uitleg": "HORIZ.ZOEKEN."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "VERT.ZOEKEN zoekt in de eerste kolom van de tabel.",
+     "antwoord": true,
+     "uitleg": "Daarom moet de kolom waarin je zoekt vooraan staan."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een geneste ALS mag maar één voorwaarde bevatten.",
+     "antwoord": false,
+     "uitleg": "Juist niet: het nesten dient om meerdere voorwaarden na elkaar te testen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet de functie HOOFDLETTERS?",
+     "opties": [
+      "alles in kapitalen zetten",
+      "alles klein maken ervan",
+      "de eerste letter groot maken",
+      "de tekst korter maken ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "KLEINE LETTERS doet het omgekeerde."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat geeft =LINKS(A1;3)?",
+     "opties": [
+      "de eerste drie tekens",
+      "de laatste drie tekens",
+      "de derde cel ervan",
+      "de derde rij ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "RECHTS geeft de laatste tekens."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een relatieve celverwijzing?",
+     "opties": [
+      "ze schuift mee bij kopiëren",
+      "ze blijft altijd staan ervan",
+      "ze verwijst naar een blad",
+      "ze verwijst naar een bestand"
+     ],
+     "antwoord": 0,
+     "uitleg": "Kopieer je =A1+B1 een rij lager, dan staat er =A2+B2."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is waar over een absolute celverwijzing?",
+     "opties": [
+      "ze schuift niet mee",
+      "je schrijft ze met dollartekens",
+      "je gebruikt ze voor een vast btw-tarief",
+      "ze verandert bij elke kopie"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Juist dat ze niet verandert, is het punt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schrijf je een absolute verwijzing naar cel C2?",
+     "opties": [
+      "$C$2",
+      "C2$",
+      "$C2$",
+      "C$$2"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een dollarteken voor de kolomletter en een voor het rijnummer."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een gemengde verwijzing zet de kolom of de rij vast, niet beide.",
+     "antwoord": true,
+     "uitleg": "$C2 houdt de kolom vast, C$2 de rij."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Dollartekens in een formule betekenen dat het om geld gaat.",
+     "antwoord": false,
+     "uitleg": "Ze zetten een verwijzing vast. Geld maak je met de muntnotatie."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk teken zet een verwijzing vast in een formule? Eén woord.",
+     "antwoord": [
+      "dollarteken",
+      "$",
+      "dollar"
+     ],
+     "uitleg": "Het dollarteken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom gebruik je een absolute verwijzing bij een btw-tarief in één cel?",
+     "opties": [
+      "elke formule kijkt ernaar",
+      "het tarief verandert nooit",
+      "de cel wordt beveiligd ervan",
+      "de formule rekent sneller"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wijzigt het tarief, dan pas je één cel aan en volgen alle formules."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn tekstfuncties?",
+     "opties": [
+      "LINKS",
+      "RECHTS",
+      "SOM",
+      "AFRONDEN"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "LINKS, RECHTS en KLEINE LETTERS werken op tekst. AFRONDEN en SOM werken op getallen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat geeft een zoekfunctie als de waarde niet gevonden wordt?",
+     "opties": [
+      "een foutmelding",
+      "het getal nul ervan",
+      "een lege cel ervan",
+      "de eerste rij ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Die melding kan je opvangen met een functie als ALS.FOUT."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wanneer gebruik je ALS in een boekhoudblad?",
+     "opties": [
+      "korting geven boven een bedrag",
+      "een rekening kiezen naar het soort kost",
+      "betaald of niet betaald tonen",
+      "de kolommen sorteren erbij"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Sorteren is geen formule maar een bewerking op het blad."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke functie kiest tussen twee uitkomsten op basis van een voorwaarde? Eén woord.",
+     "antwoord": [
+      "als"
+     ],
+     "uitleg": "ALS."
+    }
+   ]
+  },
+  {
+   "titel": "Grafieken maken en lezen — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het nut van een grafiek?",
+     "opties": [
+      "cijfers in beeld brengen",
+      "de cijfers juister maken",
+      "de tabel korter maken ervan",
+      "de cijfers verbergen ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een beeld laat een verschil of een verloop sneller zien dan een rij getallen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke grafiek gebruik je voor een evolutie in de tijd?",
+     "opties": [
+      "een lijngrafiek",
+      "een cirkeldiagram",
+      "een tabel ervan",
+      "een organogram"
+     ],
+     "antwoord": 0,
+     "uitleg": "De lijn laat zien of iets stijgt, daalt of gelijk blijft."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke grafiek gebruik je om delen van een geheel te tonen?",
+     "opties": [
+      "een cirkeldiagram",
+      "een lijngrafiek ervan",
+      "een spreidingsdiagram",
+      "een tabel met totalen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Alle schijfjes samen zijn honderd procent."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat toont een kolomgrafiek?",
+     "opties": [
+      "waarden naast elkaar",
+      "een verloop in de tijd",
+      "delen van een geheel",
+      "de som van alles ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Handig om bedragen of aantallen te vergelijken."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke grafiek gebruik je voor de omzet per maand over een jaar? Hoogstens drie woorden.",
+     "antwoord": [
+      "lijngrafiek",
+      "een lijngrafiek",
+      "lijndiagram"
+     ],
+     "uitleg": "Een lijngrafiek: de maanden volgen elkaar op in de tijd."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een staafgrafiek heeft liggende balken, een kolomgrafiek staande.",
+     "antwoord": true,
+     "uitleg": "Liggende balken zijn handig bij lange namen naast de as."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een cirkeldiagram is geschikt voor twintig categorieën.",
+     "antwoord": false,
+     "uitleg": "Met te veel schijfjes leest niemand het nog. Houd het bij een handvol."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat staat er op de verticale as van een kolomgrafiek?",
+     "opties": [
+      "de waarden",
+      "de categorieën",
+      "de titel ervan",
+      "de legende ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "De hoogte van de kolom lees je op de verticale as af."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat staat er op de horizontale as van een kolomgrafiek?",
+     "opties": [
+      "de categorieën",
+      "de bedragen ervan",
+      "de percentages ervan",
+      "de legende ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bijvoorbeeld de maanden, de producten of de afdelingen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom moet de verticale as meestal bij nul beginnen?",
+     "opties": [
+      "anders lijkt het verschil groter",
+      "anders past de grafiek niet",
+      "anders klopt de legende niet",
+      "anders verdwijnt de titel ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een as die bij 90 begint, maakt van een klein verschil een hoge berg."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat maakt een grafiek misleidend?",
+     "opties": [
+      "een as die niet bij nul begint",
+      "een as met ongelijke stappen",
+      "een stuk uit de reeks weglaten",
+      "de bron van de cijfers vermelden"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De bron vermelden maakt een grafiek juist betrouwbaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke grafiek kies je om twee jaren naast elkaar te zetten?",
+     "opties": [
+      "een kolomgrafiek",
+      "een cirkeldiagram ervan",
+      "een spreidingsdiagram",
+      "een lijngrafiek met één lijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "Twee kolommen per categorie, één per jaar."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een grafiek zonder titel laat de lezer gissen waarover ze gaat.",
+     "antwoord": true,
+     "uitleg": "De titel zegt wat er gemeten is en over welke periode."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een grafiek maakt de cijfers nauwkeuriger dan een tabel.",
+     "antwoord": false,
+     "uitleg": "Een grafiek toont een beeld, een tabel de exacte waarden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het kader dat uitlegt welke kleur bij welke reeks hoort? Eén woord.",
+     "antwoord": [
+      "legende",
+      "de legende",
+      "legenda"
+     ],
+     "uitleg": "De legende."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een gegevensreeks in een grafiek?",
+     "opties": [
+      "één rij met waarden",
+      "de titel van de grafiek",
+      "de kleur van de balken",
+      "de naam van de as ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bijvoorbeeld de omzet van 2026; een tweede reeks is die van 2027."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn grafiektypes?",
+     "opties": [
+      "de kolomgrafiek",
+      "de lijngrafiek",
+      "het cirkeldiagram",
+      "het organogram"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Een organogram is geen grafiek van cijfers maar een schema."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zegt een dalende lijn over de omzet?",
+     "opties": [
+      "de omzet neemt af",
+      "de omzet neemt toe",
+      "de omzet blijft gelijk",
+      "de omzet is onbekend"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hoe steiler de lijn daalt, hoe sneller de omzet terugloopt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat moet een lezer uit je grafiek kunnen halen?",
+     "opties": [
+      "wat er gemeten is",
+      "in welke eenheid",
+      "over welke periode",
+      "wie de grafiek gemaakt heeft"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De maker hoeft er niet op; de bron van de cijfers wel."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de grafiek met staande balken? Hoogstens drie woorden.",
+     "antwoord": [
+      "kolomgrafiek",
+      "een kolomgrafiek",
+      "kolomdiagram"
+     ],
+     "uitleg": "Een kolomgrafiek."
+    }
+   ]
+  },
+  {
+   "titel": "Afdrukken, kopiëren en scannen — deel 2",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zijn de printereigenschappen?",
+     "opties": [
+      "de instellingen vooraf",
+      "de prijs van de printer",
+      "het merk van de printer",
+      "de kabel naar de printer"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het venster waar je lade, kwaliteit, kleur en dubbelzijdig kiest."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat stel je in met het afdrukbereik?",
+     "opties": [
+      "welke bladzijden",
+      "hoeveel exemplaren",
+      "welke kleur ervan",
+      "welke lade ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bijvoorbeeld enkel blad 2 tot 5, of enkel de huidige bladzijde."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent afdrukken naar pdf?",
+     "opties": [
+      "een bestand maken",
+      "op papier afdrukken",
+      "de printer wissen ervan",
+      "de inkt sparen ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Er komt geen blad uit. Je krijgt een bestand dat er overal hetzelfde uitziet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom stuur je een drukker liever een pdf?",
+     "opties": [
+      "de opmaak blijft juist",
+      "het bestand is kleiner",
+      "de drukker rekent minder",
+      "het gaat sneller ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een lettertype dat de drukker niet heeft wordt anders vervangen; in een pdf zit het mee."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk bestandstype maak je als de opmaak overal hetzelfde moet blijven? Eén woord.",
+     "antwoord": [
+      "pdf",
+      "een pdf"
+     ],
+     "uitleg": "Een pdf."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een pdf open je op elke computer, ook zonder het programma waarin hij gemaakt is.",
+     "antwoord": true,
+     "uitleg": "Daarom is het de gewoonte voor een factuur of een contract."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Afdrukken naar pdf gebruikt inkt.",
+     "antwoord": false,
+     "uitleg": "Er komt geen papier uit het toestel; het resultaat is een bestand."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet een scanner?",
+     "opties": [
+      "papier digitaal maken",
+      "een bestand afdrukken",
+      "een blad kopiëren ervan",
+      "de inkt navullen ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hij maakt van een blad een bestand op de computer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een vlakbedscanner?",
+     "opties": [
+      "een scanner met glasplaat",
+      "een scanner in een pen",
+      "een scanner in de hand",
+      "een scanner in een gsm"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je legt het blad op het glas en het deksel gaat dicht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet een leespen?",
+     "opties": [
+      "een regel tekst scannen",
+      "een hele bladzijde scannen",
+      "een foto afdrukken ervan",
+      "een streepje zetten ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je schuift hem over een regel en de tekst komt op de computer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn scanners?",
+     "opties": [
+      "de leespen",
+      "de handscanner",
+      "de vlakbedscanner",
+      "de laserprinter"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Een handscanner sleep je zelf over het blad; een laserprinter scant niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is tekenherkenning of OCR?",
+     "opties": [
+      "tekst herkennen in een beeld",
+      "een beeld kleiner maken",
+      "een beeld scherper maken",
+      "een bestand versturen ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zonder OCR is een scan een foto van tekst; met OCR kan je erin zoeken en kopiëren."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een gewone scan zonder tekenherkenning is een afbeelding waarin je niet kan zoeken.",
+     "antwoord": true,
+     "uitleg": "De computer ziet er enkel puntjes, geen letters."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Tekenherkenning werkt altijd foutloos, ook bij een slecht leesbaar handschrift.",
+     "antwoord": false,
+     "uitleg": "Kijk een herkende tekst altijd na, vooral de cijfers."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Waarvoor staat OCR in het Nederlands? Hoogstens drie woorden.",
+     "antwoord": [
+      "optische tekenherkenning",
+      "tekenherkenning",
+      "optische karakterherkenning"
+     ],
+     "uitleg": "Optische tekenherkenning."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom scan je een factuur in?",
+     "opties": [
+      "ze digitaal bewaren",
+      "ze mooier maken ervan",
+      "ze kleiner afdrukken",
+      "ze doorsturen op papier"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zo zit ze in de boekhouding en vind je ze later terug."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat kan je instellen bij een scan?",
+     "opties": [
+      "kleur of zwart-wit",
+      "de resolutie",
+      "het bestandstype",
+      "het aantal exemplaren"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Exemplaren horen bij afdrukken, niet bij scannen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent een hoge resolutie bij een scan?",
+     "opties": [
+      "meer detail en groter",
+      "minder detail en kleiner",
+      "sneller en kleiner ervan",
+      "mooier en kleiner ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Meer puntjes per duim geeft een scherper beeld, maar ook een zwaarder bestand."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom werkt een zaak graag met gescande documenten?",
+     "opties": [
+      "ze nemen geen plaats in",
+      "je vindt ze terug met zoeken",
+      "je kan ze doorsturen",
+      "ze hoeven niet bewaard te worden"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Bewaren moet wel: de wet zegt hoe lang je je boekhouding moet bijhouden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de scanner met een glasplaat en een deksel? Hoogstens drie woorden.",
+     "antwoord": [
+      "vlakbedscanner",
+      "een vlakbedscanner",
+      "flatbedscanner"
+     ],
+     "uitleg": "Een vlakbedscanner."
+    }
+   ]
+  },
+  {
+   "titel": "Presenteren en gegevens in een databank — deel 2",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een databank?",
+     "opties": [
+      "een geordende verzameling",
+      "een enkel tekstbestand ervan",
+      "een presentatie met dia's",
+      "een map met afbeeldingen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Gegevens die zo geordend zijn dat je ze kan opvragen en combineren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een tabel in een databank?",
+     "opties": [
+      "de plaats van de gegevens",
+      "een afdruk van gegevens",
+      "een vraag aan de databank",
+      "een invulscherm ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "De gegevens zelf zitten in tabellen; de rest kijkt ernaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een record?",
+     "opties": [
+      "één rij met gegevens",
+      "één kolom met gegevens",
+      "de hele tabel ervan",
+      "de naam van het veld"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eén klant, één factuur, één leerling: alles wat bij elkaar hoort."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een veld in een databank?",
+     "opties": [
+      "één soort gegeven",
+      "één hele rij ervan",
+      "de hele tabel ervan",
+      "het rapport ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bijvoorbeeld het veld naam, of het veld postcode."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je één rij in een tabel van een databank? Eén woord.",
+     "antwoord": [
+      "record",
+      "een record"
+     ],
+     "uitleg": "Een record."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De primaire sleutel is in elk record anders.",
+     "antwoord": true,
+     "uitleg": "Daarmee kan je elk record van alle andere onderscheiden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Twee records mogen dezelfde primaire sleutel hebben.",
+     "antwoord": false,
+     "uitleg": "De databank weigert dat, want dan weet ze niet meer welk record je bedoelt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarvoor dient de primaire sleutel?",
+     "opties": [
+      "een record herkennen",
+      "de tabel opmaken ervan",
+      "de gegevens wissen ervan",
+      "het rapport afdrukken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Twee klanten kunnen dezelfde naam hebben, geen twee hetzelfde klantnummer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het gegevenstype van een veld?",
+     "opties": [
+      "wat erin mag",
+      "hoe breed het is",
+      "waar het staat",
+      "wie het invult"
+     ],
+     "antwoord": 0,
+     "uitleg": "Tekst, getal, datum, ja of nee, of een bedrag."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk gegevenstype kies je voor een geboortedatum?",
+     "opties": [
+      "datum",
+      "tekst ervan",
+      "getal ervan",
+      "ja of nee"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zet je het als tekst, dan kan je er niet mee rekenen of op sorteren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een veldeigenschap?",
+     "opties": [
+      "de veldlengte",
+      "een verplicht veld",
+      "een standaardwaarde",
+      "de naam van de tabel"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Eigenschappen horen bij een veld, niet bij de tabel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een formulier in een databank?",
+     "opties": [
+      "een invulscherm",
+      "een afdruk ervan",
+      "een vraag ervan",
+      "een tabel ervan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Veel vriendelijker dan rechtstreeks in de tabel typen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een rapport is bedoeld om netjes af te drukken.",
+     "antwoord": true,
+     "uitleg": "Met koppen, groepen en totalen, klaar om mee te geven."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een query wijzigt altijd de gegevens in de tabel.",
+     "antwoord": false,
+     "uitleg": "Een selectiequery haalt gegevens op zonder iets te wijzigen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je een vraag aan een databank om bepaalde gegevens te krijgen? Eén woord.",
+     "antwoord": [
+      "query",
+      "een query",
+      "zoekvraag"
+     ],
+     "uitleg": "Een query."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet een filter in een databank?",
+     "opties": [
+      "minder records tonen",
+      "records wissen ervan",
+      "velden bijvoegen ervan",
+      "de tabel afdrukken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Enkel de records die aan je voorwaarde voldoen blijven zichtbaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke onderdelen heeft een databank?",
+     "opties": [
+      "tabellen",
+      "formulieren",
+      "rapporten",
+      "dia's met animaties"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "En query's. Dia's horen bij een presentatie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom werkt een zaak met een databank in plaats van een rekenblad?",
+     "opties": [
+      "de gegevens staan één keer",
+      "het rekent beter ervan",
+      "het is gratis ervan",
+      "het drukt sneller af"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een adres dat wijzigt, pas je op één plaats aan en overal verandert het mee."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat kan je met een query doen?",
+     "opties": [
+      "enkel de klanten uit Limburg opvragen",
+      "sorteren op naam",
+      "velden uit twee tabellen samenbrengen",
+      "een dia toevoegen erbij"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Een query vraagt gegevens op; dia's maakt ze niet."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het veld dat elk record uniek maakt? Hoogstens drie woorden.",
+     "antwoord": [
+      "primaire sleutel",
+      "de primaire sleutel",
+      "sleutel"
+     ],
+     "uitleg": "De primaire sleutel."
+    }
+   ]
+  }
+ ]
+}

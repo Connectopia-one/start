@@ -81,7 +81,7 @@ DEEL1 = [
          antwoord=True,
          uitleg="Als de cijfers nooit stoppen en nooit een patroon herhalen, kan het geen breuk zijn."),
     dict(type="meerkeuze",
-         vraag="Welke vormen van een getal noemt de vakfiche?",
+         vraag="Welke van deze zijn vormen van een getal?",
          opties=[
              "decimale vorm",
              "tabelvorm",
@@ -245,7 +245,7 @@ DEEL2 = [
          antwoord=False,
          uitleg=r"Tegenvoorbeeld: \(\sqrt{9 + 16} = 5\), maar \(3 + 4 = 7\). Een klassieke fout."),
     dict(type="meerkeuze",
-         vraag="Welke bewerkingseigenschappen noemt de vakfiche?",
+         vraag="Welke van deze zijn bewerkingseigenschappen?",
          opties=[
              "associativiteit",
              "commutativiteit",
@@ -295,6 +295,5 @@ DEEL2 = [
                  "exact werken is een pak korter",
                  "de rekenapp van het examen vraagt het"],
          antwoord=0,
-         uitleg="De vakfiche zegt het letterlijk: hoe onnauwkeuriger je tussenresultaten, hoe meer je "
-                "eindresultaat afwijkt."),
+         uitleg="Hoe onnauwkeuriger je tussenresultaten, hoe meer je eindresultaat afwijkt."),
 ]

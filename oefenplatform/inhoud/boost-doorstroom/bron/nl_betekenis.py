@@ -214,7 +214,7 @@ DEEL2 = [
         vraag="Welke van deze horen bij de vormen van humor?",
         opties=["ironie", "taalhumor", "parodie", "personificatie"],
         antwoord=[0, 1, 2],
-        uitleg="Personificatie is beeldspraak, geen humor. De fiche zet die twee in aparte lijstjes.",
+        uitleg="Personificatie is beeldspraak, geen humor. Die twee horen in aparte lijstjes.",
     ),
     dict(
         type="meerkeuze",

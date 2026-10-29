@@ -279,7 +279,7 @@ DEEL2 = [
          antwoord=["formeel", "formele"],
          uitleg="Het formeel-operationeel stadium. Formeel betekent hier dat de vorm van het denken losstaat van de inhoud."),
     dict(type="meerkeuze",
-         vraag="Waarom zijn de stadia van Piaget volgens de vakfiche nuttig?",
+         vraag="Waarom zijn de stadia van Piaget nuttig?",
          opties=["je weet wat een kind aankan",
                  "je kan kinderen erop vergelijken",
                  "je kan er een leeftijd aan geven",

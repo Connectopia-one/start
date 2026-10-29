@@ -116,7 +116,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is volgens de fiche de impact van pesten op het slachtoffer?",
+        vraag="Wat is de impact van pesten op het slachtoffer?",
         opties=[
             "ze raakt het welzijn en kan lang nawerken",
             "ze blijft beperkt tot het moment zelf",
@@ -124,11 +124,11 @@ DEEL1 = [
             "ze verdwijnt zodra het pesten stopt",
         ],
         antwoord=0,
-        uitleg="De fiche vraagt juist dat je die impact op de betrokkenen kan verklaren.",
+        uitleg="Je moet die impact op de betrokkenen kunnen verklaren.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Je ziet dat een klasgenoot online wordt uitgelachen. Welke reactie is volgens de fiche het meest helpend?",
+        vraag="Je ziet dat een klasgenoot online wordt uitgelachen. Welke reactie is het meest helpend?",
         opties=[
             "het slachtoffer steunen en de situatie melden",
             "niets doen, zodat het sneller overwaait",
@@ -136,11 +136,11 @@ DEEL1 = [
             "het slachtoffer vragen om minder op te vallen",
         ],
         antwoord=0,
-        uitleg="De fiche vraagt te beoordelen welke handelingsopties het meest helpend zijn, en wegkijken is dat niet.",
+        uitleg="Je beoordeelt welke handelingsopties het meest helpend zijn, en wegkijken is dat niet.",
     ),
     dict(
         type="waarofniet",
-        vraag="Een meningsverschil is volgens de fiche hetzelfde als destructieve communicatie.",
+        vraag="Een meningsverschil is hetzelfde als destructieve communicatie.",
         antwoord=False,
         uitleg="Je kan het grondig oneens zijn en toch respectvol en constructief praten.",
     ),
@@ -148,13 +148,13 @@ DEEL1 = [
         type="waarofniet",
         vraag="Je gedrag en je keuzes hebben gevolgen voor het welzijn van anderen.",
         antwoord=True,
-        uitleg="De fiche vraagt dat je die gevolgen voor jezelf én voor anderen kan beoordelen.",
+        uitleg="Je moet die gevolgen voor jezelf én voor anderen kunnen beoordelen.",
     ),
     dict(
         type="waarofniet",
-        vraag="Wie bij pesten toekijkt zonder iets te doen, heeft volgens de fiche geen rol in de situatie.",
+        vraag="Wie bij pesten toekijkt zonder iets te doen, heeft geen rol in de situatie.",
         antwoord=False,
-        uitleg="De fiche vraagt naar handelingsopties, juist omdat omstaanders wel een rol hebben.",
+        uitleg="Omstaanders hebben wel een rol, en dus ook handelingsopties.",
     ),
     dict(
         type="waarofniet",
@@ -164,7 +164,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke situaties moet je volgens de fiche kunnen analyseren?",
+        vraag="Welke situaties moet je kunnen analyseren?",
         opties=[
             "pestgedrag",
             "spijbelen",
@@ -172,7 +172,7 @@ DEEL1 = [
             "schoolvertraging",
         ],
         antwoord=[0, 2],
-        uitleg="Pestgedrag, discriminatie en racisme staan letterlijk in de fiche. Over schoolvertraging of spijbelen zegt dit blok niets.",
+        uitleg="Pestgedrag, discriminatie en racisme horen erbij. Schoolvertraging of spijbelen niet.",
     ),
     dict(
         type="meerkeuze",
@@ -197,13 +197,13 @@ DEEL1 = [
         type="invultekst",
         vraag="Hoe noem je herhaald en gericht kwetsend gedrag tegen dezelfde persoon?",
         antwoord=["pesten", "pestgedrag"],
-        uitleg="De fiche gebruikt het woord pestgedrag in het rijtje met uitsluiting, discriminatie en racisme.",
+        uitleg="Het woord pestgedrag staat in het rijtje met uitsluiting, discriminatie en racisme.",
     ),
     dict(
         type="invultekst",
         vraag="Welke vorm van discriminatie gaat over afkomst of huidskleur?",
         antwoord=["racisme", "het racisme"],
-        uitleg="Racisme staat in de fiche naast pestgedrag, uitsluiting en discriminatie.",
+        uitleg="Racisme staat naast pestgedrag, uitsluiting en discriminatie.",
     ),
     dict(
         type="meerkeuze",
@@ -222,7 +222,7 @@ DEEL1 = [
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Hoeveel kenmerken van geldige toestemming noemt de fiche?",
+        vraag="Hoeveel kenmerken van geldige toestemming zijn er?",
         opties=["zes", "drie", "vier", "acht"],
         antwoord=0,
         uitleg="Vrijwillig, duidelijk, geïnformeerd, specifiek, actueel en bekwaam gegeven.",
@@ -237,7 +237,7 @@ DEEL2 = [
             "zonder dat er iets voor betaald wordt",
         ],
         antwoord=0,
-        uitleg="Die vier woorden staan letterlijk in de fiche bij vrijwillig.",
+        uitleg="Die vier woorden horen bij vrijwillig.",
     ),
     dict(
         type="meerkeuze",
@@ -318,7 +318,7 @@ DEEL2 = [
             "de verantwoordelijkheid die een groep samen draagt voor wat ze beslist",
         ],
         antwoord=0,
-        uitleg="De fiche vraagt situaties rond grenzen, groepsdruk en invloed van anderen te analyseren.",
+        uitleg="Je analyseert situaties rond grenzen, groepsdruk en invloed van anderen.",
     ),
     dict(
         type="meerkeuze",
@@ -342,7 +342,7 @@ DEEL2 = [
             "een stijl waarin je meteen je eisen stelt",
         ],
         antwoord=0,
-        uitleg="De fiche vraagt te beoordelen welke omgangsvormen in professionele situaties het meest gepast zijn.",
+        uitleg="Je beoordeelt welke omgangsvormen in professionele situaties het meest gepast zijn.",
     ),
     dict(
         type="waarofniet",
@@ -352,7 +352,7 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Stilzwijgen geldt volgens de fiche als geldige toestemming.",
+        vraag="Stilzwijgen geldt als geldige toestemming.",
         antwoord=False,
         uitleg="Het kenmerk duidelijk vraagt juist iets dat expliciet of ondubbelzinnig geuit wordt.",
     ),
@@ -364,13 +364,13 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="De fiche vraagt te beoordelen welke aanpak de samenwerking in een situatie het meest bevordert.",
+        vraag="Je kan beoordelen welke aanpak de samenwerking in een situatie het meest bevordert.",
         antwoord=True,
         uitleg="Dat staat zo bij het stuk over samenwerken en verantwoordelijkheid.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke kenmerken van geldige toestemming staan in de fiche?",
+        vraag="Welke van deze zijn kenmerken van geldige toestemming?",
         opties=[
             "vrijwillig",
             "geïnformeerd",
@@ -403,6 +403,6 @@ DEEL2 = [
         type="invultekst",
         vraag="Hoe noem je de invloed van een groep die je tot iets brengt wat je alleen niet zou doen?",
         antwoord=["groepsdruk", "de groepsdruk"],
-        uitleg="De fiche noemt groepsdruk samen met grenzen en de invloed van anderen.",
+        uitleg="Groepsdruk hoort samen met grenzen en de invloed van anderen.",
     ),
 ]

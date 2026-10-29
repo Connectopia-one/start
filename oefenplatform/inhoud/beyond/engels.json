@@ -239,7 +239,7 @@
             "naar iemand anders in het verhaal"
           ],
           "antwoord": 0,
-          "uitleg": "He is mannelijk enkelvoud en verwijst naar her brother. De fiche vraagt uitdrukkelijk dat je weet waar een voornaamwoord naar verwijst."
+          "uitleg": "He is mannelijk enkelvoud en verwijst naar her brother. Weet altijd waar een voornaamwoord naar verwijst."
         },
         {
           "type": "meerkeuze",
@@ -294,7 +294,7 @@
             "het is misschien mogelijk"
           ],
           "antwoord": 0,
-          "uitleg": "Must is een verplichting. De fiche noemt de modale hulpwerkwoorden uitdrukkelijk: ze veranderen de hele betekenis van een zin."
+          "uitleg": "Must is een verplichting. Modale hulpwerkwoorden veranderen de hele betekenis van een zin."
         },
         {
           "type": "meerkeuze",
@@ -318,7 +318,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke modale hulpwerkwoorden noemt de fiche?",
+          "vraag": "Welke van deze zijn modale hulpwerkwoorden?",
           "opties": [
             "can en may",
             "should en could",
@@ -332,7 +332,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche noemt can, may, should, could en must als voorbeelden, en will en would horen er ook bij. To be is een hulpwerkwoord, maar geen modaal."
+          "uitleg": "Can, may, should, could en must zijn modale hulpwerkwoorden, en will en would ook. To be is een hulpwerkwoord, maar geen modaal."
         },
         {
           "type": "waarofniet",
@@ -418,13 +418,13 @@
             "uit het woord this voor het naamwoord"
           ],
           "antwoord": 0,
-          "uitleg": "Read plus -able geeft leesbaar, un- maakt er onleesbaar van. Zo'n woord bouw je uit zijn delen, en dat is een strategie die de fiche noemt."
+          "uitleg": "Read plus -able geeft leesbaar, un- maakt er onleesbaar van. Zo'n woord bouw je uit zijn delen, en dat is een goede strategie."
         },
         {
           "type": "waarofniet",
           "vraag": "De titel, de tussentitels en de foto bij een tekst mag je overslaan, want ze horen niet bij de tekst.",
           "antwoord": false,
-          "uitleg": "Ze zijn juist je eerste hulp. De fiche noemt ze als visueel hulpmiddel om te weten waarover een tekst gaat."
+          "uitleg": "Ze zijn juist je eerste hulp: visuele hulpmiddelen zeggen waarover een tekst gaat."
         },
         {
           "type": "meerkeuze",
@@ -3142,7 +3142,7 @@
             "een vertaling onder de tekst"
           ],
           "antwoord": 0,
-          "uitleg": "De zin eromheen verraadt vaak wat een onbekend woord betekent. Dat gaat sneller dan opzoeken, en de fiche vraagt dat je het kan."
+          "uitleg": "De zin eromheen verraadt vaak wat een onbekend woord betekent. Dat gaat sneller dan opzoeken."
         },
         {
           "type": "meerkeuze",
@@ -3763,7 +3763,7 @@
             "naar niets in de tekst"
           ],
           "antwoord": 0,
-          "uitleg": "They vervangt the results. De fiche vraagt dat je zo'n verwijzing kan volgen, want zonder haar valt de tekst uiteen."
+          "uitleg": "They vervangt the results. Zo'n verwijzing moet je kunnen volgen, want zonder haar valt de tekst uiteen."
         },
         {
           "type": "waarofniet",
@@ -3926,7 +3926,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke betrekkelijke woorden staan in de lijst van de fiche?",
+          "vraag": "Welke van deze zijn betrekkelijke woorden?",
           "opties": [
             "when",
             "where",
@@ -4665,7 +4665,7 @@
             "will be leaving"
           ],
           "antwoord": 0,
-          "uitleg": "Bij een vast uurrooster staat de present simple, ook voor iets dat nog komt. De fiche noemt dat present simple to talk about the future."
+          "uitleg": "Bij een vast uurrooster staat de present simple, ook voor iets dat nog komt: present simple to talk about the future."
         },
         {
           "type": "waarofniet",
@@ -5443,7 +5443,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke manieren om over de toekomst te spreken noemt de fiche?",
+          "vraag": "Welke van deze zijn manieren om over de toekomst te spreken?",
           "opties": [
             "will future",
             "going to future",
@@ -5461,7 +5461,7 @@
           "type": "waarofniet",
           "vraag": "Bij een vast uurrooster staat de present simple, ook voor iets dat nog moet komen: the train leaves at six.",
           "antwoord": true,
-          "uitleg": "Een uurrooster, een lesuur of een film die begint, staat in de present simple. De fiche noemt dat present simple to talk about the future."
+          "uitleg": "Een uurrooster, een lesuur of een film die begint, staat in de present simple: present simple to talk about the future."
         },
         {
           "type": "meerkeuze",
@@ -5962,7 +5962,7 @@
             1,
             2
           ],
-          "uitleg": "De fiche noemt vijf soorten: mededelend, vragend, bevelend, uitroepend en wensend. Een rekenende zin bestaat niet."
+          "uitleg": "Er zijn vijf soorten: mededelend, vragend, bevelend, uitroepend en wensend. Een rekenende zin bestaat niet."
         },
         {
           "type": "waarofniet",
@@ -6161,7 +6161,7 @@
             "he said he had tired"
           ],
           "antwoord": 0,
-          "uitleg": "De tijd schuift een stap terug: am wordt was. De fiche zegt dat indirect speech iemands woorden weergeeft zonder ze letterlijk te citeren."
+          "uitleg": "De tijd schuift een stap terug: am wordt was. Indirect speech geeft iemands woorden weer zonder ze letterlijk te citeren."
         },
         {
           "type": "invultekst",
@@ -6235,7 +6235,7 @@
             "ze hoeven dan geen werkwoord"
           ],
           "antwoord": 0,
-          "uitleg": "Twenty injured in crash: wat er gebeurd is, telt meer dan wie het deed. Dat staat zo in de vakfiche."
+          "uitleg": "Twenty injured in crash: wat er gebeurd is, telt meer dan wie het deed."
         },
         {
           "type": "waarofniet",

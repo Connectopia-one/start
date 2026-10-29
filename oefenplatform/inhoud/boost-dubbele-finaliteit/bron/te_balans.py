@@ -253,7 +253,7 @@ DEEL2 = [
          antwoord=["omzet", "de omzet"],
          uitleg="De omzet."),
     dict(type="meerkeuze",
-         vraag="Welke resultaten vraagt de vakfiche te berekenen?",
+         vraag="Welke resultaten bereken je?",
          opties=[
              "het bedrijfsresultaat",
              "het financieel resultaat",

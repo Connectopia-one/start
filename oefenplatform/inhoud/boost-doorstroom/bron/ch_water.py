@@ -171,7 +171,7 @@ DEEL1 = [
         type="waarofniet",
         vraag=r"Een binding met een verschil in elektronegativiteit van \(0{,}2\) is polair.",
         antwoord=False,
-        uitleg=r"De afspraak van de fiche legt de grens op \(0{,}4\). Onder die waarde geldt de binding als apolair.",
+        uitleg=r"De afspraak legt de grens op \(0{,}4\). Onder die waarde geldt de binding als apolair.",
     ),
     dict(
         type="waarofniet",

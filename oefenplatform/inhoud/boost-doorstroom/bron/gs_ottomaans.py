@@ -358,7 +358,7 @@ DEEL2 = [
             "met vaste punten vergelijk je hetzelfde met hetzelfde",
             "omdat het met een vaste lijst sneller gaat dan zonder",
             "omdat er over de meeste samenlevingen geen bronnen zijn",
-            "omdat de vakfiche dat voor elk examen zo verplicht",
+            "omdat elk examen dat zo verplicht",
         ],
         antwoord=0,
         uitleg="Wat opvalt, is vaak wat vreemd is aan ons. Vaste punten behoeden je ervoor enkel het exotische te zien.",

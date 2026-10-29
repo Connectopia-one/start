@@ -41,7 +41,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke afrondingsregel geldt volgens de vakfiche?",
+        vraag="Welke afrondingsregel geldt?",
         opties=[
             "bij \\(0\\) tot en met \\(4\\) rond je naar beneden af, bij \\(5\\) tot en met \\(9\\) naar boven",
             "bij \\(0\\) tot en met \\(5\\) rond je naar beneden af, bij \\(6\\) tot en met \\(9\\) naar boven",
@@ -115,8 +115,7 @@ DEEL1 = [
             "omdat afrondingsfouten anders bij elke tussenstap groter worden",
             "omdat je anders je rekenmachine niet meer mag gebruiken",
             "omdat een tussenresultaat nooit een komma mag bevatten",
-            "omdat de fiche voorschrijft dat je maar één keer mag afronden",
-        ],
+            "omdat je wettelijk maar één keer mag afronden"        ],
         antwoord=0,
         uitleg="Wie in drie stappen telkens afrondt, kan er op het einde procenten naast zitten.",
     ),

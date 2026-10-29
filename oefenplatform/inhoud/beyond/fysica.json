@@ -4724,7 +4724,7 @@
             "de formules gelden enkel voor zware voorwerpen"
           ],
           "antwoord": 0,
-          "uitleg": "De formules van de fiche rekenen met \\(a_{x} = 0\\), dus zonder luchtweerstand. Bij een licht voorwerp met veel oppervlak is dat verschil het grootst."
+          "uitleg": "De formules rekenen met \\(a_{x} = 0\\), dus zonder luchtweerstand. Bij een licht voorwerp met veel oppervlak is dat verschil het grootst."
         },
         {
           "type": "meerkeuze",

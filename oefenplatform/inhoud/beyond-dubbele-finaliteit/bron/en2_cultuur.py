@@ -86,7 +86,7 @@ DEEL1 = [
                  "met de familienaam alleen",
                  "met zijn beroep ervoor"],
          antwoord=0,
-         uitleg="De fiche geeft dit voorbeeld zelf. Voor een Vlaming voelt dat snel heel familiair."),
+         uitleg="Voor een Vlaming voelt dat snel heel familiair."),
     dict(type="meerkeuze",
          vraag="Welke landen horen bij de Engelstalige wereld?",
          opties=[

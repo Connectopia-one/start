@@ -44,7 +44,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Op welke drie manieren deelt de fiche de arbeidsovereenkomsten in?",
+        vraag="Op welke drie manieren deel je de arbeidsovereenkomsten in?",
         opties=[
             "naar de aard van het werk, de duur en de omvang van de prestaties",
             "naar het loon, de sector en de leeftijd",
@@ -56,7 +56,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke twee soorten onderscheidt de fiche naar de aard van het werk?",
+        vraag="Welke twee soorten onderscheid je naar de aard van het werk?",
         opties=[
             "arbeiders en bedienden",
             "voltijds en deeltijds",
@@ -68,7 +68,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke soorten onderscheidt de fiche naar de duur?",
+        vraag="Welke soorten arbeidsovereenkomsten onderscheid je naar de duur?",
         opties=[
             "bepaalde duur, onbepaalde duur, vervangingsduur en welomschreven werk",
             "bepaalde duur en onbepaalde duur",
@@ -128,7 +128,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke twee soorten onderscheidt de fiche naar de omvang van de prestaties?",
+        vraag="Welke twee soorten onderscheid je naar de omvang van de prestaties?",
         opties=[
             "deeltijds en voltijds",
             "arbeider en bediende",
@@ -158,7 +158,7 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Arbeider en bediende gaan volgens de fiche over de duur van het contract.",
+        vraag="Arbeider en bediende gaan over de duur van het contract.",
         antwoord=False,
         uitleg="Ze gaan over de aard van het werk. De duur is een andere indeling.",
     ),
@@ -176,7 +176,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke soorten naar de duur noemt de fiche?",
+        vraag="Welke van deze zijn arbeidsovereenkomsten ingedeeld naar de duur?",
         opties=[
             "de bepaalde duur",
             "de vervangingsduur",
@@ -201,7 +201,7 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Welke twee statuten onderscheidt de fiche naar de aard van het werk? Antwoord met het woord voor wie bureauwerk doet.",
+        vraag="Welke twee statuten onderscheid je naar de aard van het werk? Antwoord met het woord voor wie bureauwerk doet.",
         antwoord=["bediende", "bedienden"],
         uitleg="Arbeider en bediende zijn de twee soorten naar de aard van het werk.",
     ),
@@ -227,7 +227,7 @@ DEEL1 = [
             "ze maakt ontslag onmogelijk",
         ],
         antwoord=0,
-        uitleg="De fiche vraagt het belang voor beide partijen, niet alleen voor de werknemer.",
+        uitleg="Het belang geldt voor beide partijen, niet alleen voor de werknemer.",
     ),
 ]
 
@@ -314,11 +314,11 @@ DEEL2 = [
             "nachtwerk mag enkel voor bedienden",
         ],
         antwoord=0,
-        uitleg="De fiche noemt het als arbeidssituatie. Er bestaan wettelijke uitzonderingen, bijvoorbeeld in de zorg.",
+        uitleg="Het is een arbeidssituatie. Er bestaan wettelijke uitzonderingen, bijvoorbeeld in de zorg.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welk bronmateriaal kan je volgens de fiche op het examen krijgen?",
+        vraag="Welk bronmateriaal kan je op het examen krijgen?",
         opties=[
             "een arbeidsovereenkomst, een arbeidsreglement of een loonfiche",
             "enkel een wettekst",
@@ -326,7 +326,7 @@ DEEL2 = [
             "een filmpje van je toekomstige werkgever",
         ],
         antwoord=0,
-        uitleg="De fiche noemt daarnaast ook een krantenartikel en een brochure.",
+        uitleg="Ook een krantenartikel en een brochure kunnen.",
     ),
     dict(
         type="meerkeuze",
@@ -368,7 +368,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Overwerk geeft recht op een toeslag, het overloon.",
         antwoord=True,
-        uitleg="De fiche noemt overwerk en overloon samen als arbeidssituatie.",
+        uitleg="Overwerk en overloon horen samen.",
     ),
     dict(
         type="waarofniet",
@@ -378,7 +378,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke arbeidssituaties noemt de fiche?",
+        vraag="Welke van deze situaties regelt het arbeidsrecht?",
         opties=[
             "de beëindiging van de arbeidsovereenkomst",
             "de schorsing van de arbeidsovereenkomst",
@@ -405,7 +405,7 @@ DEEL2 = [
         type="invultekst",
         vraag="Hoe noem je de toeslag die je krijgt voor uren buiten je gewone werktijd?",
         antwoord=["overloon", "het overloon"],
-        uitleg="De fiche noemt overwerk en overloon samen.",
+        uitleg="Overwerk en overloon horen samen.",
     ),
     dict(
         type="invultekst",
@@ -429,6 +429,6 @@ DEEL2 = [
             "het verbod op nachtarbeid",
         ],
         antwoord=0,
-        uitleg="De fiche noemt de proefperiode bij studenten als aparte arbeidssituatie.",
+        uitleg="De proefperiode bij studenten is een aparte arbeidssituatie.",
     ),
 ]

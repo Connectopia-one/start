@@ -56,7 +56,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een kind heeft een product uit de kelder gedronken. Welk nummer bel je volgens de fiche?",
+        vraag="Een kind heeft een product uit de kelder gedronken. Welk nummer bel je?",
         opties=["070 245 245", "1733", "101", "112"],
         antwoord=0,
         uitleg="070 245 245 is het antigifcentrum. Bij een bewusteloos kind bel je 112.",
@@ -70,7 +70,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke letsels aan botten, spieren en gewrichten noemt de fiche?",
+        vraag="Welke van deze zijn letsels aan botten, spieren en gewrichten?",
         opties=[
             "botbreuk, kneuzing, ontwrichting en verstuiking",
             "botbreuk, bloeding, brandwonde en verslikking",
@@ -106,7 +106,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke twee soorten wonden noemt de fiche?",
+        vraag="Welke twee soorten wonden leer je in dit hoofdstuk verzorgen?",
         opties=[
             "de huidwonde en de brandwonde",
             "de open en de gesloten wonde",
@@ -114,11 +114,11 @@ DEEL1 = [
             "de diepe en de oppervlakkige wonde",
         ],
         antwoord=0,
-        uitleg="De fiche noemt enkel die twee bij wonden.",
+        uitleg="Enkel die twee soorten wonden horen erbij.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Iemand verslikt zich en kan niet meer praten of hoesten. Wat is dit volgens de fiche?",
+        vraag="Iemand verslikt zich en kan niet meer praten of hoesten. Wat is dit?",
         opties=[
             "een noodsituatie",
             "een letsel aan de spieren",
@@ -138,13 +138,13 @@ DEEL1 = [
             "de ademhaling stokt even door schrik",
         ],
         antwoord=0,
-        uitleg="Hart- en ademhalingsstilstand staat als één noodsituatie in de fiche.",
+        uitleg="Hart- en ademhalingsstilstand is één noodsituatie.",
     ),
     dict(
         type="waarofniet",
         vraag="112 is in België het nummer voor de ziekenwagen en de brandweer.",
         antwoord=True,
-        uitleg="Zo staat het in de fiche, naast 101 voor de politie.",
+        uitleg="Zo is het, naast 101 voor de politie.",
     ),
     dict(
         type="waarofniet",
@@ -154,31 +154,31 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Verdrinking staat in de fiche bij de ongevallen en noodsituaties.",
+        vraag="Verdrinking is een ongeval waarbij je eerste hulp moet kunnen geven.",
         antwoord=True,
         uitleg="Ze staat er naast bloeding, verslikking, wonden en de letsels aan botten en gewrichten.",
     ),
     dict(
         type="waarofniet",
-        vraag="Een kneuzing en een botbreuk zijn volgens de fiche hetzelfde letsel.",
+        vraag="Een kneuzing en een botbreuk zijn hetzelfde letsel.",
         antwoord=False,
         uitleg="Het zijn twee verschillende letsels in hetzelfde rijtje van vier.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke noodsituaties noemt de fiche?",
+        vraag="Welke van deze zijn noodsituaties?",
         opties=[
             "bloeding",
             "verslikking",
             "hoofdpijn",
-            "uitdroging",
+            "een blauwe plek",
         ],
         antwoord=[0, 1],
-        uitleg="Uitdroging en hoofdpijn staan niet in het rijtje. Een bloeding en een verslikking wel.",
+        uitleg="Een bloeding en een verslikking zijn noodsituaties waarbij je meteen eerste hulp geeft. Hoofdpijn of een blauwe plek zijn dat niet.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke nummers staan in de fiche als noodnummer?",
+        vraag="Welke van deze nummers zijn noodnummers?",
         opties=[
             "101",
             "112",
@@ -187,7 +187,7 @@ DEEL1 = [
             "070 245 245",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="100 staat niet in de fiche. Het nummer van het antigifcentrum staat er wel bij, naast de hulpdiensten en de huisartsenwachtpost.",
+        uitleg="100 is geen noodnummer meer. Het nummer van het antigifcentrum wel, naast de hulpdiensten en de huisartsenwachtpost.",
     ),
     dict(
         type="invultekst",
@@ -224,7 +224,7 @@ DEEL1 = [
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Hoeveel basisprincipes van eerste hulp noemt de fiche?",
+        vraag="Hoeveel basisprincipes van eerste hulp zijn er?",
         opties=["zes", "vier", "vijf", "zeven"],
         antwoord=0,
         uitleg="Zes basisprincipes, en daarnaast vier stappen. Verwar die twee aantallen niet.",
@@ -243,7 +243,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat bedoelt de fiche met het basisprincipe vermijd besmetting?",
+        vraag="Wat bedoel je met het basisprincipe vermijd besmetting?",
         opties=[
             "bescherm jezelf en het slachtoffer tegen overdracht van ziekten",
             "raak het slachtoffer helemaal niet aan",
@@ -263,7 +263,7 @@ DEEL2 = [
             "laat het slachtoffer alleen om te kalmeren",
         ],
         antwoord=0,
-        uitleg="Naast de lichamelijke zorg vraagt de fiche ook aandacht voor hoe iemand zich voelt.",
+        uitleg="Naast de lichamelijke zorg heb je ook aandacht voor hoe iemand zich voelt.",
     ),
     dict(
         type="meerkeuze",
@@ -275,7 +275,7 @@ DEEL2 = [
             "vermijd besmetting",
         ],
         antwoord=0,
-        uitleg="Ook jij als hulpverlener kan achteraf nog reageren. De fiche noemt dat als zesde principe.",
+        uitleg="Ook jij als hulpverlener kan achteraf nog reageren. Dat is het zesde principe.",
     ),
     dict(
         type="meerkeuze",
@@ -345,7 +345,7 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Rustig blijven is volgens de fiche een van de zes basisprincipes.",
+        vraag="Rustig blijven is een van de zes basisprincipes.",
         antwoord=True,
         uitleg="Het staat als eerste in het rijtje.",
     ),
@@ -363,7 +363,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze zijn basisprincipes van eerste hulp volgens de fiche?",
+        vraag="Welke van deze zijn basisprincipes van eerste hulp?",
         opties=[
             "vermijd besmetting",
             "handel als eerste hulpverlener",
@@ -376,7 +376,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze zijn stappen in eerste hulp volgens de fiche?",
+        vraag="Welke van deze zijn stappen in eerste hulp?",
         opties=[
             "zorg voor veiligheid",
             "beoordeel de toestand van het slachtoffer",
@@ -389,13 +389,13 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Welke stap komt volgens de fiche altijd eerst in eerste hulp? Antwoord met één woord.",
+        vraag="Welke stap komt altijd eerst in eerste hulp? Antwoord met één woord.",
         antwoord=["veiligheid", "veilig"],
         uitleg="Zorg voor veiligheid is stap 1 van de vier.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel stappen in eerste hulp noemt de fiche? Antwoord met een cijfer.",
+        vraag="Hoeveel stappen zijn er in eerste hulp? Antwoord met een cijfer.",
         antwoord=["4", "vier"],
         uitleg="Vier stappen, naast de zes basisprincipes.",
     ),

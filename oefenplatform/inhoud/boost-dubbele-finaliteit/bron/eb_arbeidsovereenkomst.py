@@ -81,7 +81,7 @@ DEEL1 = [
          antwoord=0,
          uitleg="Bijvoorbeeld vier vijfde of de helft van een voltijdse week."),
     dict(type="meerkeuze",
-         vraag="Waarop onderscheidt de vakfiche de soorten arbeidsovereenkomsten?",
+         vraag="Waarop onderscheid je de soorten arbeidsovereenkomsten?",
          opties=[
              "op de duur",
              "op de omvang van de prestaties",
@@ -89,7 +89,7 @@ DEEL1 = [
              "op de leeftijd van de werknemer",
          ],
          antwoord=[0, 1],
-         uitleg="De vakfiche deelt in volgens de duur, de omvang van de prestaties en het soort werk. De leeftijd en het loon bepalen de soort overeenkomst niet."),
+         uitleg="Je deelt in volgens de duur, de omvang van de prestaties en het soort werk. De leeftijd en het loon bepalen de soort overeenkomst niet."),
     dict(type="meerkeuze",
          vraag="Wat moet er verplicht in een arbeidsovereenkomst staan?",
          opties=["de identiteit van beide",

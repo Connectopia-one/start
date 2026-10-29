@@ -183,7 +183,7 @@ DEEL2 = [
          antwoord=True,
          uitleg="In een depressie stijgt de lucht, dus condenseert ze. In een maximum daalt de lucht, warmt ze op en lossen de wolken op."),
     dict(type="meerkeuze",
-         vraag="Welke factoren bepalen volgens de vakfiche de neerslagverdeling op aarde?",
+         vraag="Welke factoren bepalen de neerslagverdeling op aarde?",
          opties=[
              "hoge of lage luchtdruk",
              "de stand van de maan",
@@ -191,7 +191,7 @@ DEEL2 = [
              "de hoeveelheid ozon in de stratosfeer",
          ],
          antwoord=[0, 2],
-         uitleg="De fiche noemt drukgebieden, zeestromen, positie ten opzichte van de zee, reliëf, de ligging nabij de ITCZ en de fronten. Ozon en de stand van de maan staan er niet bij."),
+         uitleg="Drukgebieden, zeestromen, de positie ten opzichte van de zee, reliëf, de ligging nabij de ITCZ en de fronten spelen mee. Ozon en de stand van de maan niet."),
     dict(type="meerkeuze",
          vraag="Waarom is het in de Atacamawoestijn zo droog?",
          opties=["een koude zeestroom en een regenschaduw samen",
@@ -233,7 +233,7 @@ DEEL2 = [
          antwoord=0,
          uitleg="De vochtige westenwind moet over het Ardense hoogland. Hij stijgt, koelt af en regent uit: tot ruim 1200 mm per jaar tegen zo'n 800 mm aan de kust."),
     dict(type="meerkeuze",
-         vraag="Welke soorten regen onderscheidt de vakfiche?",
+         vraag="Welke van deze zijn soorten regen?",
          opties=[
              "convectieregens",
              "stijgingsregens",

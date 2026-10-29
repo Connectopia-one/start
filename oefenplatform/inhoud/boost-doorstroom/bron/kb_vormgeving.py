@@ -155,7 +155,7 @@ DEEL1 = [
                  "ze zijn enkel voor de leraar",
                  "ze gelden enkel voor muziek"],
          antwoord=0,
-         uitleg="De fiche verwijst er bij de richtvraag hoe en waarmee naar. Het is de woordenlijst voor je analyse."),
+         uitleg="Je gebruikt ze bij de richtvraag hoe en waarmee. Het is de woordenlijst voor je analyse."),
 ]
 
 DEEL2 = [
@@ -233,7 +233,7 @@ DEEL2 = [
          antwoord=False,
          uitleg="Natuurlijk licht, lichtinval en reflectie staan er juist bij. Waar het licht binnenvalt, bepaalt hoe een ruimte voelt."),
     dict(type="meerkeuze",
-         vraag="Welke richtvragen noemt de fiche?",
+         vraag="Welke van deze zijn richtvragen om een kunstwerk te analyseren?",
          opties=[
              "hoe en waarmee",
              "wat",
@@ -263,7 +263,7 @@ DEEL2 = [
          antwoord=["waarvoor"],
          uitleg="Waarvoor. De vier richtvragen zijn hoe en waarmee, wat, waarvoor, en wie waar en wanneer."),
     dict(type="waarofniet",
-         vraag="De richtvragen gelden volgens de fiche voor beeldende kunst en architectuur.",
+         vraag="De richtvragen gelden voor beeldende kunst en architectuur.",
          antwoord=True,
          uitleg="Zo staat het er: je analyseert een kunstuiting uit de beeldende kunst en architectuur aan de hand van richtvragen."),
     dict(type="meerkeuze",

@@ -32,7 +32,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke drie methodes noemt de fiche om een stelsel algebraïsch op te lossen?",
+        vraag="Met welke drie methodes los je een stelsel algebraïsch op?",
         opties=[
             "de combinatiemethode, de substitutiemethode en de gelijkstellingsmethode",
             "de grafische methode, de tabelmethode en de schattingsmethode",
@@ -40,7 +40,7 @@ DEEL1 = [
             "de kop-staartmethode, de kruismethode en de balansmethode",
         ],
         antwoord=0,
-        uitleg="De grafische manier bestaat ook, maar die staat apart vermeld in de fiche.",
+        uitleg="De grafische manier bestaat ook, maar die is niet algebraïsch.",
     ),
     dict(
         type="meerkeuze",

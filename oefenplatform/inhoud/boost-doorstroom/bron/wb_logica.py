@@ -57,7 +57,7 @@ DEEL1 = [
          antwoord=True,
          uitleg="Precies daar verschilt ze van het of in de omgangstaal, waar men vaak een keuze bedoelt."),
     dict(type="meerkeuze",
-         vraag="Welke bewerkingen noemt de vakfiche?",
+         vraag="Welke van deze zijn logische bewerkingen?",
          opties=[
              r"negatie \(\neg\) en conjunctie \(\wedge\)",
              "eliminatie",
@@ -139,7 +139,7 @@ DEEL1 = [
          antwoord=True,
          uitleg="De pijl gaat in beide richtingen. Daarom staat de equivalentie voor dan en slechts dan als."),
     dict(type="meerkeuze",
-         vraag="Welke kwantoren noemt de vakfiche?",
+         vraag="Welke kwantoren gebruik je?",
          opties=[
              r"voor elke, \(\forall\)",
              r"er bestaat, \(\exists\)",
@@ -147,7 +147,7 @@ DEEL1 = [
              r"er bestaat precies één, \(\exists !\)",
          ],
          antwoord=[0, 1],
-         uitleg=r"De fiche noemt voor elke, \(\forall\), en er bestaat, \(\exists\). Precies één en er bestaat geen zijn kwantoren die er niet bij staan."),
+         uitleg=r"De kwantoren zijn voor elke, \(\forall\), en er bestaat, \(\exists\). Precies één en er bestaat geen gebruik je hier niet."),
     dict(type="meerkeuze",
          vraag=r"Wat is de negatie van \(\forall x: x > 0\), dus van: elk getal is positief?",
          opties=[r"\(\exists x: x \leq 0\)",
@@ -234,8 +234,7 @@ DEEL2 = [
     dict(type="waarofniet",
          vraag="De werking van een logische poort valt niet in een waarheidstabel te zetten.",
          antwoord=False,
-         uitleg="Dat lukt juist wel, en de vakfiche vraagt het ook: je stelt de werking van de poorten "
-                "voor met een waarheidstabel."),
+         uitleg="Dat lukt juist wel: je stelt de werking van de poorten voor met een waarheidstabel."),
     dict(type="meerkeuze",
          vraag=r"Twee en-poorten op een rij. Wanneer is de uitgang \(1\)?",
          opties=[r"als alle ingangen \(1\) zijn",

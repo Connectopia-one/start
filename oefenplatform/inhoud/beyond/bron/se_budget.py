@@ -32,7 +32,7 @@ Deel 2 is de zeven factoren en de administratie.
 DEEL1 = [
     dict(
         type="meerkeuze",
-        vraag="Welke twee soorten inkomsten noemt de fiche?",
+        vraag="Welke twee soorten inkomsten onderscheid je?",
         opties=[
             "terugkerende en toevallige inkomsten",
             "vaste en variabele inkomsten",
@@ -44,7 +44,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke vier soorten uitgaven noemt de fiche?",
+        vraag="Welke vier soorten uitgaven onderscheid je?",
         opties=[
             "variabele, vaste, onvoorziene en uitzonderlijke uitgaven",
             "vaste en variabele uitgaven",
@@ -148,11 +148,11 @@ DEEL1 = [
             "je werkgever overtuigen om je loon volgend jaar flink te verhogen",
         ],
         antwoord=0,
-        uitleg="De fiche zegt letterlijk: om inzicht te krijgen en te berekenen hoeveel je kan sparen.",
+        uitleg="Om inzicht te krijgen en te berekenen hoeveel je kan sparen.",
     ),
     dict(
         type="waarofniet",
-        vraag="De fiche onderscheidt vier soorten uitgaven.",
+        vraag="Je onderscheidt vier soorten uitgaven.",
         antwoord=True,
         uitleg="Variabel, vast, onvoorzien en uitzonderlijk.",
     ),
@@ -170,13 +170,13 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Terugkerend en toevallig zijn volgens de fiche de twee soorten uitgaven.",
+        vraag="Terugkerend en toevallig zijn de twee soorten uitgaven.",
         antwoord=False,
         uitleg="Dat zijn de twee soorten inkomsten. De uitgaven zijn er vier.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke uitgaven noemt de fiche?",
+        vraag="Welke van deze zijn soorten uitgaven?",
         opties=[
             "vaste uitgaven",
             "variabele uitgaven",
@@ -229,7 +229,7 @@ DEEL1 = [
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Hoeveel factoren noemt de fiche om een aankoopkeuze te verantwoorden?",
+        vraag="Hoeveel factoren gebruik je om een aankoopkeuze te verantwoorden?",
         opties=["zeven", "vier", "vijf", "negen"],
         antwoord=0,
         uitleg="Aankoopkost, duurzaamheid, financieringskost, inflatie, noodzakelijkheid, spaarbuffer en terugbetalingscapaciteit.",
@@ -260,7 +260,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat bedoelt de fiche met de noodzakelijkheid als factor?",
+        vraag="Wat bedoel je met de noodzakelijkheid als factor?",
         opties=[
             "heb je dit echt nodig of wil je het gewoon graag",
             "hoe lang het product meegaat",
@@ -272,7 +272,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat bedoelt de fiche met duurzaamheid als factor bij een aankoop?",
+        vraag="Wat bedoel je met duurzaamheid als factor bij een aankoop?",
         opties=[
             "hoelang het product meegaat en wat het voor het milieu betekent",
             "of je het in schijven kan afbetalen zonder extra rente te betalen",
@@ -308,7 +308,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke documenten noemt de fiche als aankoopbewijs?",
+        vraag="Welke documenten zijn een aankoopbewijs?",
         opties=[
             "de factuur, het kasticket en de aankoopovereenkomst",
             "het garantiebewijs en de verzekeringspolis",
@@ -340,11 +340,11 @@ DEEL2 = [
             "je persoonlijke belastingaangifte",
         ],
         antwoord=0,
-        uitleg="De fiche noemt ze samen met de loonstrook, als bewijs van wat je verdiende.",
+        uitleg="Ze horen samen met de loonstrook bij het bewijs van wat je verdiende.",
     ),
     dict(
         type="waarofniet",
-        vraag="Een kasticket geldt volgens de fiche als aankoopbewijs.",
+        vraag="Een kasticket geldt als aankoopbewijs.",
         antwoord=True,
         uitleg="Naast de factuur en de aankoopovereenkomst.",
     ),
@@ -356,7 +356,7 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="De duurzaamheid van een product is volgens de fiche een factor bij je aankoopkeuze.",
+        vraag="De duurzaamheid van een product is een factor bij je aankoopkeuze.",
         antwoord=True,
         uitleg="Ze staat in het rijtje van zeven, naast de aankoopkost en de noodzakelijkheid.",
     ),
@@ -368,7 +368,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke factoren noemt de fiche bij het verantwoorden van een aankoopkeuze?",
+        vraag="Welke factoren gebruik je bij het verantwoorden van een aankoopkeuze?",
         opties=[
             "de noodzakelijkheid",
             "de spaarbuffer",
@@ -380,7 +380,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat hoort volgens de fiche bij je persoonlijke administratie?",
+        vraag="Wat hoort bij je persoonlijke administratie?",
         opties=[
             "het garantiebewijs",
             "het rekeninguittreksel",
@@ -406,7 +406,7 @@ DEEL2 = [
         type="invultekst",
         vraag="Welk document bewijst dat je iets gekocht hebt in een winkel, zonder factuur?",
         antwoord=["kasticket", "het kasticket"],
-        uitleg="De fiche noemt het naast de factuur en de aankoopovereenkomst.",
+        uitleg="Het staat naast de factuur en de aankoopovereenkomst.",
     ),
     dict(
         type="meerkeuze",

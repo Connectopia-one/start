@@ -68,7 +68,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke vier voorstellingswijzen van een functie noemt de fiche?",
+        vraag="Wat zijn de vier voorstellingswijzen van een functie?",
         opties=[
             "verwoording, tabel, grafiek en voorschrift",
             "formule, tekening, verhaal en schema",
@@ -158,7 +158,7 @@ DEEL1 = [
         opties=[
             "zonder ijk kan je geen enkele waarde aflezen",
             "omdat de grafiek anders niet op het blad past",
-            "omdat de fiche dat verplicht voor elke tekening",
+            "omdat het examen dat verplicht voor elke tekening",
             "om te tonen welke variabele afhankelijk is",
         ],
         antwoord=0,

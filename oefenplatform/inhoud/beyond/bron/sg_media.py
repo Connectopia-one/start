@@ -39,7 +39,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke functies van massamedia voor het individu noemt de fiche?",
+        vraag="Welke van deze zijn functies van massamedia voor het individu?",
         opties=[
             "de informatieve functie",
             "de ontspannende functie",
@@ -49,7 +49,7 @@ DEEL1 = [
             "de persuasieve functie",
         ],
         antwoord=[0, 1, 2, 5],
-        uitleg="Voor het individu noemt de fiche vijf functies plus de mengvormen. De waakhond en de cultuuroverdracht zijn functies voor de samenleving.",
+        uitleg="Voor het individu zijn er vijf functies plus de mengvormen. De waakhond en de cultuuroverdracht zijn functies voor de samenleving.",
     ),
     dict(
         type="meerkeuze",
@@ -139,7 +139,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="De persuasieve en de commerciële functie zijn twee namen voor dezelfde functie.",
         antwoord=False,
-        uitleg="Niet waar. Persuasief wil je mening veranderen, commercieel wil je iets doen kopen. Ze staan apart in de fiche.",
+        uitleg="Niet waar. Persuasief wil je mening veranderen, commercieel wil je iets doen kopen. Het zijn twee aparte functies.",
     ),
     dict(
         type="meerkeuze",
@@ -185,19 +185,19 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Mediatisering betekent volgens de fiche dat media in verschillende maatschappelijke velden meespelen, niet alleen in de politiek.",
+        vraag="Mediatisering betekent dat media in verschillende maatschappelijke velden meespelen, niet alleen in de politiek.",
         antwoord=True,
-        uitleg="Waar. De fiche spreekt uitdrukkelijk over de verschillende maatschappelijke velden: politiek, sport, cultuur, onderwijs, het gezin.",
+        uitleg="Waar. Het gaat over verschillende maatschappelijke velden: politiek, sport, cultuur, onderwijs, het gezin.",
     ),
     dict(
         type="waarofniet",
-        vraag="Infotainment en edutainment staan in de fiche bij de functies voor de samenleving.",
+        vraag="Infotainment en edutainment zijn functies voor de samenleving.",
         antwoord=False,
         uitleg="Niet waar. Ze staan bij de functies voor het individu, als mengvormen.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom noemt de fiche infotainment en edutainment mengvormen?",
+        vraag="Waarom noem je infotainment en edutainment mengvormen?",
         opties=[
             "omdat ze twee functies in één programma combineren",
             "omdat ze door twee zenders samen gemaakt worden",
@@ -229,14 +229,14 @@ DEEL1 = [
             "de ontspannende functie",
         ],
         antwoord=[0, 1],
-        uitleg="Er wordt geïnformeerd en er wordt verkocht. Dat door elkaar lopen is precies waarom de fiche vraagt functies te herkennen.",
+        uitleg="Er wordt geïnformeerd en er wordt verkocht. Dat door elkaar lopen is precies waarom je functies moet leren herkennen.",
     ),
 ]
 
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Welke functies van massamedia voor de samenleving noemt de fiche?",
+        vraag="Welke van deze zijn functies van massamedia voor de samenleving?",
         opties=[
             "de politieke functie",
             "de cultuuroverdrachtfunctie",
@@ -246,11 +246,11 @@ DEEL2 = [
             "de vrijetijdsfunctie",
         ],
         antwoord=[0, 1, 2, 5],
-        uitleg="Voor de samenleving noemt de fiche de politieke, de cultuuroverdracht-, de vrijetijd- en de sociale functie. De persuasieve en de commerciële functie werken op het individu.",
+        uitleg="Voor de samenleving zijn er de politieke, de cultuuroverdracht-, de vrijetijd- en de sociale functie. De persuasieve en de commerciële functie werken op het individu.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel onderdelen heeft de politieke functie volgens de fiche?",
+        vraag="Hoeveel onderdelen heeft de politieke functie?",
         opties=[
             "vijf",
             "drie",
@@ -342,11 +342,11 @@ DEEL2 = [
         type="waarofniet",
         vraag="Dezelfde uitzending kan voor het individu ontspanning zijn en voor de samenleving cultuuroverdracht.",
         antwoord=True,
-        uitleg="Waar. De twee lijsten kijken van een andere kant naar hetzelfde programma. Daarom staan ze apart in de fiche.",
+        uitleg="Waar. De twee lijsten kijken van een andere kant naar hetzelfde programma. Daarom zijn het twee lijsten.",
     ),
     dict(
         type="waarofniet",
-        vraag="De vrijetijdsfunctie staat in de fiche bij de functies voor het individu.",
+        vraag="De vrijetijdsfunctie is een functie voor het individu.",
         antwoord=False,
         uitleg="Niet waar. De vrijetijdsfunctie staat bij de samenleving. Bij het individu heet de verwante functie de ontspannende functie.",
     ),
@@ -395,7 +395,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is volgens de fiche de rol van media en sociale media in de politieke communicatie?",
+        vraag="Wat is de rol van media en sociale media in de politieke communicatie?",
         opties=[
             "burgers informeren zich ermee en politici bereiken er kiezers",
             "burgers gebruiken ze, politici niet",
@@ -403,7 +403,7 @@ DEEL2 = [
             "ze spelen in de politiek van vandaag geen rol van betekenis",
         ],
         antwoord=0,
-        uitleg="De fiche noemt uitdrukkelijk beide richtingen: het individu informeert zich via media, en politici gebruiken media om kiezers te bereiken.",
+        uitleg="Het werkt in beide richtingen: het individu informeert zich via media, en politici gebruiken media om kiezers te bereiken.",
     ),
     dict(
         type="waarofniet",

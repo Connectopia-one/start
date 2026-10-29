@@ -105,7 +105,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke fysische factoren beïnvloeden volgens de vakfiche het landbouwproces? (meerdere antwoorden mogelijk)",
+        vraag="Welke fysische factoren beïnvloeden het landbouwproces? (meerdere antwoorden mogelijk)",
         opties=[
             "Het klimaat en de klimaatverandering",
             "De afzetmarkt voor het gewas",

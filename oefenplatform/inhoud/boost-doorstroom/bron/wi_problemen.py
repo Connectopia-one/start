@@ -37,7 +37,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is volgens de vakfiche het verschil tussen een vraagstuk en een probleem?",
+        vraag="Wat is het verschil tussen een vraagstuk en een probleem?",
         opties=[
             "een vraagstuk los je op met de leerstof van één hoofdstuk, bij een probleem combineer je hoofdstukken",
             "een vraagstuk staat altijd in gewone woorden, terwijl een probleem altijd in symbolen staat",
@@ -45,11 +45,11 @@ DEEL1 = [
             "een vraagstuk komt op het examen, een probleem enkel in de les",
         ],
         antwoord=0,
-        uitleg="De fiche zegt het zo: een probleem laat zich niet aan één hoofdstuk koppelen, je combineert leerinhouden.",
+        uitleg="Een probleem laat zich niet aan één hoofdstuk koppelen: je combineert leerinhouden.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke vier stappen noemt de fiche om een opgave procedureel op te lossen?",
+        vraag="Welke vier stappen doorloop je om een opgave procedureel op te lossen?",
         opties=[
             "begrijp het probleem, maak een plan, voer het plan uit, reflecteer",
             "lees de opgave, reken, noteer en controleer met je rekenmachine",
@@ -61,7 +61,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is een meetkundig probleem volgens de vakfiche?",
+        vraag="Wat is een meetkundig probleem?",
         opties=[
             "de verzamelnaam voor vraagstukken en problemen waarvoor je meetkundige vaardigheden nodig hebt",
             "elke opgave waarin een tekening staat, ook als je daar niet voor hoeft te meten of te construeren",
@@ -73,7 +73,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat bedoelt de fiche met een opgave 'zonder context'?",
+        vraag="Wat is een opgave 'zonder context'?",
         opties=[
             "een opgave die abstract en zuiver wiskundig is",
             "een opgave waarbij de gegevens ontbreken",
@@ -85,7 +85,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze aanpakken is géén heuristiek uit de lijst van de fiche?",
+        vraag="Welke van deze aanpakken is géén heuristiek?",
         opties=[
             "het antwoord opzoeken in de oplossingen achteraan",
             "gegevens schematisch voorstellen en netjes ordenen",
@@ -125,7 +125,7 @@ DEEL1 = [
         opties=[
             "omdat je zo merkt of je uitkomst kan kloppen en of je aanpak elders bruikbaar is",
             "omdat je anders punten verliest voor de netheid van je uitwerking en je notatie",
-            "omdat de fiche het in die volgorde opsomt",
+            "omdat het stappenplan het in die volgorde opsomt",
             "omdat je pas na het reflecteren mag afronden",
         ],
         antwoord=0,
@@ -133,7 +133,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke vaardigheid noemt de fiche bij ICT-vaardigheid?",
+        vraag="Welke vaardigheid hoort bij ICT-vaardigheid in wiskunde?",
         opties=[
             "rekenapps gebruiken en constructies maken in GeoGebra",
             "een verslag typen in een tekstverwerker",
@@ -157,7 +157,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze vaardigheden rekent de fiche onder meet- en tekenvaardigheid?",
+        vraag="Welke van deze vaardigheden hoort bij meet- en tekenvaardigheid?",
         opties=[
             "hoeken meten met een geodriehoek en tekenen met passer en geodriehoek",
             "handig hoofdrekenen met grote getallen",
@@ -165,13 +165,13 @@ DEEL1 = [
             "een vraagstuk in je eigen woorden navertellen aan iemand die het niet kent",
         ],
         antwoord=0,
-        uitleg="De fiche noemt vier vaardigheden: taal, rekenen, meten en tekenen, en ICT.",
+        uitleg="Er zijn vier vaardigheden: taal, rekenen, meten en tekenen, en ICT.",
     ),
     dict(
         type="waarofniet",
         vraag="Bij een opgave met context mag je zelf kiezen welke oplossingsstrategie je gebruikt.",
         antwoord=True,
-        uitleg="De fiche zegt uitdrukkelijk dat je zelf de strategie kiest aan de hand van je kennis en vaardigheden.",
+        uitleg="Je kiest zelf de strategie aan de hand van je kennis en vaardigheden.",
     ),
     dict(
         type="waarofniet",
@@ -183,7 +183,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Een schets maken telt als een volwaardige oplossingsstrategie.",
         antwoord=True,
-        uitleg="De fiche noemt een schets, tekening of tabel als eerste heuristiek in de lijst.",
+        uitleg="Een schets, tekening of tabel is de eerste heuristiek in de lijst.",
     ),
     dict(
         type="waarofniet",
@@ -205,7 +205,7 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Een opgave die je niet aan één hoofdstuk kan koppelen, noemt de fiche een ...",
+        vraag="Een opgave die je niet aan één hoofdstuk kan koppelen, noem je een ...",
         antwoord=["probleem", "een probleem"],
         uitleg="Bij een probleem combineer je leerinhouden uit verschillende hoofdstukken.",
     ),
@@ -298,7 +298,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat betekent taalvaardigheid in de lijst van de fiche?",
+        vraag="Wat betekent taalvaardigheid in wiskunde?",
         opties=[
             "wiskundige uitdrukkingen, tekeningen, grafieken en diagrammen begrijpen",
             "een opgave vlot kunnen voorlezen",
@@ -310,7 +310,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je probeert een getal, ziet dat het te groot uitvalt en probeert een kleiner. Hoe noemt de fiche dat?",
+        vraag="Je probeert een getal, ziet dat het te groot uitvalt en probeert een kleiner. Hoe noem je dat?",
         opties=[
             "schatten, slim gissen, testen en controleren",
             "het vraagstuk simuleren",
@@ -346,7 +346,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom vraagt de fiche dat je je tussenstappen verantwoordt?",
+        vraag="Waarom verantwoord je je tussenstappen?",
         opties=[
             "omdat een lezer dan kan volgen welke eigenschap je toepast en waar het misloopt",
             "omdat een langere oplossing meer punten oplevert",
@@ -370,7 +370,7 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Je mag bij een probleem gegevens uit meerdere hoofdstukken van de fiche combineren.",
+        vraag="Bij een probleem mag je kennis uit meerdere hoofdstukken combineren.",
         antwoord=True,
         uitleg="Dat is net wat een probleem onderscheidt van een vraagstuk.",
     ),

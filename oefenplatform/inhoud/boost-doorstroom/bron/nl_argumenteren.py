@@ -254,7 +254,7 @@ DEEL2 = [
             "argumentatie op basis van alliteratie",
         ],
         antwoord=[0, 1],
-        uitleg="Alliteratie en rijm zijn stijlfiguren uit de poëzie, geen argumenten. De fiche noemt naast vergelijking en oorzaak-gevolg ook een autoriteit, onderzoek en cijfers.",
+        uitleg="Alliteratie en rijm zijn stijlfiguren uit de poëzie, geen argumenten. Naast vergelijking en oorzaak-gevolg kan je ook steunen op een autoriteit, onderzoek en cijfers.",
     ),
     dict(
         type="meerkeuze",

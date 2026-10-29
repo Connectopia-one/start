@@ -45,7 +45,7 @@ DEEL1 = [
             "het bedrag dat je per maand afbetaalt",
         ],
         antwoord=0,
-        uitleg="De fiche vraagt uitdrukkelijk de korting, de bijkomende kosten en de btw mee te rekenen.",
+        uitleg="Reken de korting, de bijkomende kosten en de btw mee.",
     ),
     dict(
         type="meerkeuze",
@@ -61,7 +61,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke bijkomende kosten noemt de fiche eenmalig?",
+        vraag="Welke bijkomende kosten betaal je eenmalig?",
         opties=[
             "de inschrijvingskost en de leveringskost",
             "het abonnement en de verzekering",
@@ -73,7 +73,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke bijkomende kosten noemt de fiche terugkerend?",
+        vraag="Welke bijkomende kosten komen telkens terug?",
         opties=[
             "het abonnement en de verzekering",
             "de inschrijvingskost en de leveringskost",
@@ -107,7 +107,7 @@ DEEL1 = [
             "omdat dure producten geen btw hebben",
         ],
         antwoord=0,
-        uitleg="De fiche zegt: de btw, afhankelijk van het btw-percentage.",
+        uitleg="De btw, afhankelijk van het btw-percentage.",
     ),
     dict(
         type="meerkeuze",
@@ -148,7 +148,7 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een leveringskost is volgens de fiche een eenmalige bijkomende kost.",
+        vraag="Een leveringskost is een eenmalige bijkomende kost.",
         antwoord=True,
         uitleg="Ze staat er samen met de inschrijvingskost.",
     ),
@@ -162,7 +162,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Alle producten hebben hetzelfde btw-tarief.",
         antwoord=False,
-        uitleg="Er bestaan verschillende tarieven, en de fiche vraagt daar rekening mee te houden.",
+        uitleg="Er bestaan verschillende tarieven, en daar hou je rekening mee.",
     ),
     dict(
         type="meerkeuze",
@@ -209,7 +209,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom vraagt de fiche naar de totale kostprijs en niet naar de prijs alleen?",
+        vraag="Waarom kijk je naar de totale kostprijs en niet naar de prijs alleen?",
         opties=[
             "omdat je pas met de totale kost een eerlijke keuze kan maken",
             "omdat de prijs op het etiket vaak verkeerd staat",
@@ -224,7 +224,7 @@ DEEL1 = [
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Welke vier consumentenkredieten noemt de fiche?",
+        vraag="Wat zijn de vier consumentenkredieten?",
         opties=[
             "verkoop op afbetaling, lening op afbetaling, kredietopening en financieringshuur",
             "hypotheek, lening, overschrijving en leasing",
@@ -268,7 +268,7 @@ DEEL2 = [
             "een financieringshuur",
         ],
         antwoord=0,
-        uitleg="De fiche noemt dat een kredietopening via een kaart of een geoorloofde debetstand.",
+        uitleg="Dat heet een kredietopening via een kaart of een geoorloofde debetstand.",
     ),
     dict(
         type="meerkeuze",
@@ -280,11 +280,11 @@ DEEL2 = [
             "een lening op afbetaling",
         ],
         antwoord=0,
-        uitleg="Financieringshuur en leasing zijn in de fiche twee woorden voor hetzelfde.",
+        uitleg="Financieringshuur en leasing zijn twee woorden voor hetzelfde.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke onderdelen van een consumentenkrediet noemt de fiche?",
+        vraag="Welke van deze zijn onderdelen van een consumentenkrediet?",
         opties=[
             "de looptijd, de rentevoet, het geleende bedrag, het JKP en het maandbedrag",
             "de prijs, de korting, de btw en de levering",
@@ -292,7 +292,7 @@ DEEL2 = [
             "de premie, de franchise en het verzekerd risico",
         ],
         antwoord=0,
-        uitleg="Vijf onderdelen. De andere rijtjes horen bij andere thema's van de fiche.",
+        uitleg="Vijf onderdelen. De andere rijtjes horen bij andere thema's.",
     ),
     dict(
         type="meerkeuze",
@@ -318,7 +318,7 @@ DEEL2 = [
         vraag="En hoeveel rente betaal je in dat voorbeeld in totaal?",
         opties=["420 euro", "3.420 euro", "95 euro", "3.000 euro"],
         antwoord=0,
-        uitleg="3.420 min 3.000 is 420 euro. De fiche noemt dat de meerprijs van de financiering.",
+        uitleg="3.420 min 3.000 is 420 euro. Dat is de meerprijs van de financiering.",
     ),
     dict(
         type="meerkeuze",

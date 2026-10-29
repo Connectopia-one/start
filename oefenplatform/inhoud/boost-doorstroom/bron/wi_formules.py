@@ -167,7 +167,7 @@ DEEL1 = [
         opties=[
             "omdat een tekenfout of een verkeerde bewerking zo meteen opvalt",
             "omdat een formule pas geldt als je er getallen in gezet hebt",
-            "omdat de fiche dat verplicht bij elke omvorming",
+            "omdat het examen dat verplicht bij elke omvorming",
             "omdat je anders geen rekenmachine mag gebruiken",
         ],
         antwoord=0,

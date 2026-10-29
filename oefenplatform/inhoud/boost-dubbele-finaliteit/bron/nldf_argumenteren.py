@@ -267,7 +267,7 @@ DEEL2 = [
             "je gesprekspartner onderbreken zodra hij fout zit",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De fiche vraagt uitdrukkelijk dat je respectvol en oplossingsgericht reageert.",
+        uitleg="Je reageert respectvol en oplossingsgericht.",
     ),
     dict(
         type="meerkeuze",
@@ -285,7 +285,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="In een gesprek over een maatschappelijk thema mag je argumenten uit een bron halen.",
         antwoord=True,
-        uitleg="De fiche vraagt dat net: op basis van één of enkele bronnen kan je argumenten geven.",
+        uitleg="Dat kan juist: op basis van één of enkele bronnen kan je argumenten geven.",
     ),
     dict(
         type="invultekst",

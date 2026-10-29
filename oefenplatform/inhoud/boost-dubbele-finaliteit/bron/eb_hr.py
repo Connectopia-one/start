@@ -82,7 +82,7 @@ DEEL1 = [
          antwoord=0,
          uitleg="Je legt het profiel van de vacature naast wat de kandidaat aanbiedt."),
     dict(type="meerkeuze",
-         vraag="Wat hoort in een vacature volgens de vakfiche?",
+         vraag="Wat hoort in een vacature?",
          opties=[
              "de functiebeschrijving",
              "het gevraagde opleidingsniveau",
@@ -225,7 +225,7 @@ DEEL2 = [
          antwoord=0,
          uitleg="De werkgever moet het aangeven bij de arbeidsongevallenverzekering."),
     dict(type="meerkeuze",
-         vraag="Waarop beoordeel je een werkplek volgens de vakfiche?",
+         vraag="Waarop beoordeel je een werkplek?",
          opties=[
              "op veiligheid",
              "op ergonomie",

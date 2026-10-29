@@ -175,7 +175,7 @@ DEEL1 = [
             "De beschikbaarheid van stromend water",
         ],
         antwoord=[0, 1, 2, 5],
-        uitleg="Klimaat, reliëf en grondstoffen zijn fysische factoren. Staatsvorm is geopolitiek en verloning sociaaleconomisch; de fiche zet die drie groepen bewust naast elkaar.",
+        uitleg="Klimaat, reliëf en grondstoffen zijn fysische factoren. Staatsvorm is geopolitiek en verloning sociaaleconomisch; die drie groepen staan bewust naast elkaar.",
     ),
     dict(
         type="invultekst",
@@ -323,7 +323,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke sociaaleconomische factoren noemt de vakfiche bij het industriële proces? (meerdere antwoorden mogelijk)",
+        vraag="Welke sociaaleconomische factoren spelen mee bij de keuze waar een fabriek komt? (meerdere antwoorden mogelijk)",
         opties=[
             "De Human Development Index",
             "De verloning van de werknemers",

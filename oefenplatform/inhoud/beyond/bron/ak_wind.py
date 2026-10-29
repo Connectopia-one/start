@@ -255,7 +255,7 @@ DEEL2 = [
          antwoord=0,
          uitleg="Lucht stijgt op de ene breedte op, stroomt in de hoogte weg, daalt elders en komt aan de grond terug. De Hadleycel tussen evenaar en 30° is de bekendste."),
     dict(type="meerkeuze",
-         vraag="Welke oorzaken geeft de vakfiche voor de luchtdrukverschillen en winden op aarde?",
+         vraag="Wat veroorzaakt de luchtdrukverschillen en winden op aarde?",
          opties=[
              "de algemene luchtcirculatie",
              "de ITCZ en de straalstroom",
@@ -263,7 +263,7 @@ DEEL2 = [
              "de getijden van de maan",
          ],
          antwoord=[0, 1],
-         uitleg="De fiche somt de algemene luchtcirculatie, de ITCZ, de straalstroom, het corioliseffect en de land- en zeewinden op. De getijden en de aantrekkingskracht van de zon spelen geen rol in de lucht."),
+         uitleg="De oorzaken zijn de algemene luchtcirculatie, de ITCZ, de straalstroom, het corioliseffect en de land- en zeewinden. De getijden en de aantrekkingskracht van de zon spelen geen rol in de lucht."),
     dict(type="waarofniet",
          vraag="Een moesson is een wind die elke dag twee keer van richting verandert, zoals de zeewind.",
          antwoord=False,

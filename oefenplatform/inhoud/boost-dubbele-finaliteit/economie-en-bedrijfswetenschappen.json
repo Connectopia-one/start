@@ -112,7 +112,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten behoeften noemt de vakfiche?",
+          "vraag": "Welke van deze zijn soorten behoeften?",
           "opties": [
             "economische en niet-economische",
             "primaire en secundaire",
@@ -341,7 +341,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke indelingen van goederen noemt de vakfiche?",
+          "vraag": "Welke van deze zijn indelingen van goederen?",
           "opties": [
             "economisch en vrij",
             "verbruiks- en gebruiksgoederen",
@@ -1032,7 +1032,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke productiefactoren noemt de vakfiche?",
+          "vraag": "Welke van deze zijn productiefactoren?",
           "opties": [
             "arbeid",
             "kapitaal",
@@ -1303,7 +1303,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke marktvorm bespreekt deze vakfiche? Hoogstens drie woorden.",
+          "vraag": "Welke marktvorm bespreek je in dit hoofdstuk? Hoogstens drie woorden.",
           "antwoord": [
             "volkomen concurrentie",
             "volledige concurrentie",
@@ -1435,7 +1435,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke afkorting gebruikt de vakfiche voor de totale kosten? Hoogstens drie woorden.",
+          "vraag": "Welke afkorting gebruik je voor de totale kosten? Hoogstens drie woorden.",
           "antwoord": [
             "tk",
             "de tk",
@@ -1599,7 +1599,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke afkorting gebruikt de vakfiche voor de totale variabele kosten? Hoogstens drie woorden.",
+          "vraag": "Welke afkorting gebruik je voor de totale variabele kosten? Hoogstens drie woorden.",
           "antwoord": [
             "tvk",
             "de tvk",
@@ -1722,7 +1722,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke kostenbegrippen noemt de vakfiche?",
+          "vraag": "Welke van deze zijn kostenbegrippen?",
           "opties": [
             "de gemiddelde constante kosten",
             "de gemiddelde variabele kosten",
@@ -1830,7 +1830,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke afkorting gebruikt de vakfiche voor de gemiddelde kosten? Hoogstens drie woorden.",
+          "vraag": "Welke afkorting gebruik je voor de gemiddelde kosten? Hoogstens drie woorden.",
           "antwoord": [
             "gk",
             "de gk",
@@ -1953,7 +1953,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke opbrengstbegrippen noemt de vakfiche?",
+          "vraag": "Welke van deze zijn opbrengstbegrippen?",
           "opties": [
             "de totale opbrengsten",
             "de gemiddelde opbrengsten",
@@ -2413,7 +2413,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarop vergelijkt de vakfiche de ondernemingsvormen?",
+          "vraag": "Waarop vergelijk je de ondernemingsvormen?",
           "opties": [
             "de aansprakelijkheid",
             "de administratie",
@@ -2873,7 +2873,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke organisatiestructuren noemt de vakfiche?",
+          "vraag": "Welke van deze zijn organisatiestructuren?",
           "opties": [
             "de functionele organisatie",
             "de horizontale organisatie",
@@ -3335,7 +3335,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke afdelingen noemt de vakfiche?",
+          "vraag": "Welke van deze zijn afdelingen van een onderneming?",
           "opties": [
             "aankoop en verkoop",
             "marketing",
@@ -3796,7 +3796,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat hoort in een vacature volgens de vakfiche?",
+          "vraag": "Wat hoort in een vacature?",
           "opties": [
             "de functiebeschrijving",
             "het gevraagde opleidingsniveau",
@@ -4028,7 +4028,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarop beoordeel je een werkplek volgens de vakfiche?",
+          "vraag": "Waarop beoordeel je een werkplek?",
           "opties": [
             "op veiligheid",
             "op ergonomie",
@@ -4257,7 +4257,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarop onderscheidt de vakfiche de soorten arbeidsovereenkomsten?",
+          "vraag": "Waarop onderscheid je de soorten arbeidsovereenkomsten?",
           "opties": [
             "op de duur",
             "op de omvang van de prestaties",
@@ -4268,7 +4268,7 @@
             0,
             1
           ],
-          "uitleg": "De vakfiche deelt in volgens de duur, de omvang van de prestaties en het soort werk. De leeftijd en het loon bepalen de soort overeenkomst niet."
+          "uitleg": "Je deelt in volgens de duur, de omvang van de prestaties en het soort werk. De leeftijd en het loon bepalen de soort overeenkomst niet."
         },
         {
           "type": "meerkeuze",
@@ -4718,7 +4718,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke schorsingsgronden noemt de vakfiche?",
+          "vraag": "Welke van deze zijn schorsingsgronden?",
           "opties": [
             "ziekte en ongeval",
             "zwangerschap en bevallingsverlof",
@@ -5306,7 +5306,7 @@
             "het brutoloon bepalen",
             "het netto bepalen ervan",
             "de belasting betalen",
-            "de fiche versturen"
+            "de loonfiche versturen"
           ],
           "antwoord": 0,
           "uitleg": "Uren maal uurloon, of het maandloon uit het contract."
@@ -5391,7 +5391,7 @@
             "je bankrekening ervan"
           ],
           "antwoord": 0,
-          "uitleg": "De bedragen van de fiche vul je in bij je personenbelasting."
+          "uitleg": "De bedragen van die fiche vul je in bij je personenbelasting."
         },
         {
           "type": "meerkeuze",
@@ -5542,7 +5542,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vier P's noemt de vakfiche?",
+          "vraag": "Wat zijn de vier P's van de marketingmix?",
           "opties": [
             "product, prijs, plaats, promotie",
             "product, personeel, plan, prijs",
@@ -5954,7 +5954,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke C's noemt de vakfiche?",
+          "vraag": "Welke van deze horen bij de C's van de marketing?",
           "opties": [
             "customer",
             "cost",
@@ -6322,7 +6322,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke fasen noemt de vakfiche in een verkoopgesprek?",
+          "vraag": "Welke van deze zijn fasen in een verkoopgesprek?",
           "opties": [
             "de aandacht van de klant trekken",
             "een behoefte ontwikkelen",
@@ -6551,7 +6551,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke commerciële documenten noemt de vakfiche?",
+          "vraag": "Welke van deze zijn commerciële documenten?",
           "opties": [
             "de prijsaanvraag en de offerte",
             "de bestelbon en de orderbevestiging",
@@ -6830,7 +6830,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is het doel van documenten controleren volgens de vakfiche?",
+          "vraag": "Wat is het doel van documenten controleren?",
           "opties": [
             "kwaliteit afleveren",
             "tijd verliezen ervan",
@@ -7009,7 +7009,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke transportmodi noemt de vakfiche?",
+          "vraag": "Welke van deze zijn transportmodi?",
           "opties": [
             "wegvervoer en spoorvervoer",
             "binnenscheepvaart en maritiem vervoer",
@@ -7238,7 +7238,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke taken noemt de vakfiche voor expeditie en logistiek?",
+          "vraag": "Welke taken horen bij expeditie en logistiek?",
           "opties": [
             "goederen ontvangen en opslaan",
             "goederen picken en verzenden",

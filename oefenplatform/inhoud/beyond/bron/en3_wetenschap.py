@@ -283,7 +283,7 @@ DEEL2 = [
                  "een voetnoot bij een tekst",
                  "een vertaling onder de tekst"],
          antwoord=0,
-         uitleg="De zin eromheen verraadt vaak wat een onbekend woord betekent. Dat gaat sneller dan opzoeken, en de fiche vraagt dat je het kan."),
+         uitleg="De zin eromheen verraadt vaak wat een onbekend woord betekent. Dat gaat sneller dan opzoeken."),
     dict(type="meerkeuze",
          vraag="Wat betekent the word is spelt with a double l?",
          opties=["het woord heeft twee l'en",

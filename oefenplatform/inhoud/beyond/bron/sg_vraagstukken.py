@@ -44,7 +44,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke onderwerpen noemt de fiche als maatschappelijk vraagstuk?",
+        vraag="Welke van deze onderwerpen zijn maatschappelijke vraagstukken?",
         opties=[
             "kansenongelijkheid",
             "migratie",
@@ -53,7 +53,7 @@ DEEL1 = [
             "conditionering",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De fiche noemt twaalf vraagstukken. Persoonlijkheid en conditionering zijn begrippen uit de gedragswetenschappen.",
+        uitleg="Er zijn twaalf vraagstukken. Persoonlijkheid en conditionering zijn begrippen uit de gedragswetenschappen.",
     ),
     dict(
         type="meerkeuze",
@@ -81,7 +81,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke invalshoeken noemt de fiche om een maatschappelijk probleem te beschrijven?",
+        vraag="Vanuit welke invalshoeken beschrijf je een maatschappelijk probleem?",
         opties=[
             "de economische invalshoek",
             "de politieke invalshoek",
@@ -138,13 +138,13 @@ DEEL1 = [
         type="waarofniet",
         vraag="Een maatschappelijk vraagstuk kan je het best vanuit meerdere invalshoeken beschrijven.",
         antwoord=True,
-        uitleg="Waar. De fiche vraagt uitdrukkelijk verschillende invalshoeken te gebruiken en standpunten aan die invalshoeken te koppelen.",
+        uitleg="Waar. Je gebruikt verschillende invalshoeken en koppelt standpunten aan die invalshoeken.",
     ),
     dict(
         type="waarofniet",
         vraag="Een maatschappelijk vraagstuk is een probleem voor alle mensen in gelijke mate.",
         antwoord=False,
-        uitleg="Niet waar. De fiche vraagt juist te beschrijven voor wie het een probleem is. Wat voor de ene een probleem is, is voor de andere een voordeel.",
+        uitleg="Niet waar. Je beschrijft juist voor wie het een probleem is. Wat voor de ene een probleem is, is voor de andere een voordeel.",
     ),
     dict(
         type="meerkeuze",
@@ -190,13 +190,13 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="De lijst van maatschappelijke vraagstukken in de fiche eindigt met drie puntjes, en is dus niet volledig.",
+        vraag="Er zijn nog meer maatschappelijke vraagstukken dan kansenongelijkheid, migratie en privacy.",
         antwoord=True,
-        uitleg="Waar. De fiche zet er zelf puntjes achter. Er kan dus ook een vraagstuk komen dat niet met naam in de lijst staat.",
+        uitleg="Waar. Er kan dus ook een vraagstuk komen dat niet met naam in de lijst staat.",
     ),
     dict(
         type="waarofniet",
-        vraag="Klimaat staat niet in de lijst van maatschappelijke vraagstukken van de fiche.",
+        vraag="Klimaat is geen maatschappelijk vraagstuk.",
         antwoord=False,
         uitleg="Niet waar, klimaat staat er wel in, naast onder meer arbeid, migratie, mobiliteit en onderwijs.",
     ),
@@ -214,7 +214,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom vraagt de fiche om standpunten aan invalshoeken te koppelen?",
+        vraag="Waarom koppel je standpunten aan invalshoeken?",
         opties=[
             "omdat je dan ziet waarom mensen van mening verschillen",
             "omdat je dan weet welk standpunt het juiste is",
@@ -231,7 +231,7 @@ DEEL1 = [
             "omdat het met stratificatie, mobiliteit en onderwijs samenhangt",
             "omdat het alleen met het onderwijs te maken heeft",
             "omdat het met de gedragswetenschappen samenhangt",
-            "omdat het in de fiche het enige vraagstuk is",
+            "omdat het het enige maatschappelijke vraagstuk is",
         ],
         antwoord=0,
         uitleg="Het thema loopt door het hele blok sociale wetenschappen: de lagen, de beweging ertussen, het matheüseffect en de rol van de school.",
@@ -241,7 +241,7 @@ DEEL1 = [
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Hoeveel redeneeractiviteiten staan in het schema van de fiche?",
+        vraag="Hoeveel redeneeractiviteiten staan in het schema?",
         opties=[
             "vier",
             "drie",
@@ -297,11 +297,11 @@ DEEL2 = [
             "de ontstaansgeschiedenis beschrijven",
         ],
         antwoord=0,
-        uitleg="Elke oplossing heeft neveneffecten. De fiche vraagt die uitdrukkelijk te benoemen en af te leiden.",
+        uitleg="Elke oplossing heeft neveneffecten. Die moet je benoemen en afleiden.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Met welke criteria beoordeel je volgens de fiche of een oplossing uitvoerbaar is?",
+        vraag="Met welke criteria beoordeel je of een oplossing uitvoerbaar is?",
         opties=[
             "de tijd en de middelen",
             "de ethische principes",
@@ -321,7 +321,7 @@ DEEL2 = [
             "je uitspraken aan één bron ophangen",
         ],
         antwoord=0,
-        uitleg="De fiche vraagt meerdere bronnen in te zetten en te vergelijken, met de criteria van betrouwbare en valide data erbij.",
+        uitleg="Je zet meerdere bronnen in en vergelijkt ze, met de criteria van betrouwbare en valide data erbij.",
     ),
     dict(
         type="invultekst",
@@ -337,9 +337,9 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Het schema met de redeneeractiviteiten krijgt het kind volgens de fiche op het examen zelf ter beschikking.",
+        vraag="Het schema met de redeneeractiviteiten krijgt het kind op het examen zelf ter beschikking.",
         antwoord=False,
-        uitleg="Niet waar. De fiche zegt uitdrukkelijk dat de bijlage met dat schema niet op het examen gegeven wordt. De zes criteria van een onderzoeksvraag wel.",
+        uitleg="Niet waar. Dat schema krijg je niet op het examen. De zes criteria van een onderzoeksvraag wel.",
     ),
     dict(
         type="meerkeuze",
@@ -397,15 +397,15 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Bij het evalueren van een oplossing vraagt de fiche ook naar verschillende perspectieven van betrokkenen.",
+        vraag="Bij het evalueren van een oplossing kijk je ook naar de perspectieven van verschillende betrokkenen.",
         antwoord=True,
         uitleg="Waar. Oplossingen herkennen en daarbij verschillende perspectieven onderscheiden, staat er met zoveel woorden.",
     ),
     dict(
         type="waarofniet",
-        vraag="Eén goede bron volstaat volgens de fiche om een uitspraak over een vraagstuk te onderbouwen.",
+        vraag="Eén goede bron volstaat om een uitspraak over een vraagstuk te onderbouwen.",
         antwoord=False,
-        uitleg="Niet waar. De fiche vraagt meerdere bronnen in te zetten en met elkaar te vergelijken.",
+        uitleg="Niet waar. Je zet meerdere bronnen in en vergelijkt ze met elkaar.",
     ),
     dict(
         type="meerkeuze",

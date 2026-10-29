@@ -233,7 +233,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke gevolgen van verstedelijking op het leefmilieu somt de vakfiche op? (meerdere antwoorden mogelijk)",
+        vraag="Welke van deze zijn gevolgen van verstedelijking op het leefmilieu? (meerdere antwoorden mogelijk)",
         opties=[
             "Versnippering van de open ruimte en verharding",
             "Het hitte-eilandeffect in de stad",
@@ -242,7 +242,7 @@ DEEL2 = [
             "Het afsmelten van de gletsjers",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De fiche noemt versnippering, verharding, het hitte-eilandeffect, luchtvervuiling en verkeersdrukte. Verzilting hoort bij de landbouw, gletsjers bij het broeikaseffect.",
+        uitleg="Gevolgen zijn versnippering, verharding, het hitte-eilandeffect, luchtvervuiling en verkeersdrukte. Verzilting hoort bij de landbouw, gletsjers bij het broeikaseffect.",
     ),
     dict(
         type="waarofniet",

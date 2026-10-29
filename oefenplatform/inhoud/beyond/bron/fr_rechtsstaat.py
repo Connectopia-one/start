@@ -86,7 +86,7 @@ DEEL1 = [
          uitleg="En precies daarom is ze moeilijker te wijzigen dan een gewone wet: een "
                 "meerderheid van vandaag mag de spelregels niet in haar eigen voordeel omgooien."),
     dict(type="meerkeuze",
-         vraag="Welke vijf principes noemt de fiche voor een democratische rechtsstaat?",
+         vraag="Welke vijf principes horen bij een democratische rechtsstaat?",
          opties=["meerderheid, grondwet, scheiding der machten, onafhankelijke rechtspraak en "
                  "grondrechten",
                  "meerderheid, grondwet, vrije markt, onafhankelijke pers en grondrechten",
@@ -111,8 +111,7 @@ DEEL1 = [
                  "rechtsstaat en democratie betekenen precies hetzelfde",
                  "een rechtsstaat veronderstelt altijd verkiezingen"],
          antwoord=[0, 1],
-         uitleg="Daarom staan de twee woorden in de fiche naast elkaar en niet "
-                "door elkaar."),
+         uitleg="Daarom staan de twee woorden naast elkaar en niet door elkaar."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over de grondwet kloppen?",
          opties=["ze is moeilijker te wijzigen dan een gewone wet",

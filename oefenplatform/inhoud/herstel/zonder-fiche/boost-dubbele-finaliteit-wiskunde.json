@@ -1,0 +1,1286 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Een opgave aanpakken: van context naar wiskunde — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent mathematiseren?",
+     "opties": [
+      "een situatie uit de wereld omzetten in wiskundetaal en symbolen",
+      "een berekening laten nakijken door een rekenapp op je telefoon",
+      "een wiskundige uitkomst terugvertalen naar de situatie waarover het ging",
+      "een oefening zo lang herhalen tot je ze vanbuiten kent"
+     ],
+     "antwoord": 0,
+     "uitleg": "Mathematiseren is de heenweg: van de situatie naar de formule. De terugweg heet demathematiseren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je berekent dat een ladder \\(4{,}7\\) meter lang moet zijn, en je antwoordt dat een ladder van \\(5\\) meter volstaat. Wat doe je in die laatste stap?",
+     "opties": [
+      "demathematiseren: je vertaalt de uitkomst terug naar de situatie",
+      "mathematiseren: je zet de situatie om in een berekening",
+      "afronden: je vervangt het antwoord door een gemakkelijker getal",
+      "schatten: je gokt een waarde die ongeveer klopt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een ladder van \\(4{,}7\\) meter bestaat niet in de winkel. Je uitkomst betekent pas iets als je ze terugvertaalt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil tussen een vraagstuk en een probleem?",
+     "opties": [
+      "een vraagstuk los je op met de leerstof van één hoofdstuk, bij een probleem combineer je hoofdstukken",
+      "een vraagstuk staat altijd in gewone woorden, terwijl een probleem altijd in symbolen staat",
+      "een vraagstuk heeft één antwoord, een probleem heeft er meerdere",
+      "een vraagstuk komt op het examen, een probleem enkel in de les"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een probleem laat zich niet aan één hoofdstuk koppelen: je combineert leerinhouden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vier stappen doorloop je om een opgave procedureel op te lossen?",
+     "opties": [
+      "begrijp het probleem, maak een plan, voer het plan uit, reflecteer",
+      "lees de opgave, reken, noteer en controleer met je rekenmachine",
+      "schat, reken, rond af, schrijf op",
+      "teken, meet, bereken, vergelijk"
+     ],
+     "antwoord": 0,
+     "uitleg": "Die volgorde komt van Pólya. De laatste stap, reflecteren, wordt het vaakst overgeslagen en levert het meeste op."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een meetkundig probleem?",
+     "opties": [
+      "de verzamelnaam voor vraagstukken en problemen waarvoor je meetkundige vaardigheden nodig hebt",
+      "elke opgave waarin een tekening staat, ook als je daar niet voor hoeft te meten of te construeren",
+      "een opgave die je enkel met passer en geodriehoek mag oplossen",
+      "een opgave over ruimtefiguren, nooit over vlakke figuren"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het gaat om de vaardigheden die je nodig hebt, niet om de vorm van de opgave."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een opgave 'zonder context'?",
+     "opties": [
+      "een opgave die abstract en zuiver wiskundig is",
+      "een opgave waarbij de gegevens ontbreken",
+      "een opgave zonder tekening erbij",
+      "een opgave waarvan het antwoord niet vastligt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Met context vertrekt van een situatie uit de wereld, zonder context is zuivere wiskunde. Allebei komen ze op het examen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze aanpakken is géén heuristiek?",
+     "opties": [
+      "het antwoord opzoeken in de oplossingen achteraan",
+      "gegevens schematisch voorstellen en netjes ordenen",
+      "terugrekenen, van achter naar voor werken",
+      "opsplitsen in deelproblemen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een heuristiek is een manier om zélf verder te geraken. Het antwoord opzoeken brengt je geen stap vooruit."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je zoekt hoeveel verschillende broodjes je kan samenstellen en je schrijft eerst alle mogelijkheden onder elkaar. Welke heuristiek gebruik je?",
+     "opties": [
+      "alle mogelijkheden opschrijven",
+      "variabelen invoeren",
+      "gebruik maken van symmetrie",
+      "van achter naar voor werken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij kleine aantallen is uitschrijven sneller dan een formule zoeken, en je ziet meteen of je iets vergeet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een opgave vraagt de leeftijd van twee zussen, en je noemt de leeftijd van de jongste \\(x\\). Welke heuristiek is dat?",
+     "opties": [
+      "variabelen invoeren",
+      "een tekening maken",
+      "schatten en testen",
+      "simuleren van de situatie"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zodra je een letter geeft aan wat je niet weet, kan je de rest van de gegevens ermee opschrijven."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom hoort reflecteren bij het oplossen en niet erna?",
+     "opties": [
+      "omdat je zo merkt of je uitkomst kan kloppen en of je aanpak elders bruikbaar is",
+      "omdat je anders punten verliest voor de netheid van je uitwerking en je notatie",
+      "omdat het stappenplan het in die volgorde opsomt",
+      "omdat je pas na het reflecteren mag afronden"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een uitkomst van \\(340\\) km/u voor een fietser wijst op een rekenfout. Reflecteren vangt dat op."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk hulpmiddel mag je op het examen gebruiken bij ICT-vaardigheid?",
+     "opties": [
+      "het online rekentoestel en de rekenapps",
+      "een verslag typen in een tekstverwerker",
+      "je oplossing opzoeken op een website",
+      "een grafiek fotograferen met je telefoon"
+     ],
+     "antwoord": 0,
+     "uitleg": "Andere ICT-middelen zijn niet toegelaten. ICT is hulp bij het rekenen en het tekenen, geen vervanging van de redenering."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een opgave geeft een tekening met een ladder tegen een muur. Wat doe je eerst?",
+     "opties": [
+      "nagaan wat gegeven is en wat gevraagd wordt",
+      "meteen Pythagoras toepassen",
+      "de tekening zorgvuldig natekenen op schaal",
+      "je rekenmachine op graden zetten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Begrijp het probleem komt voor maak een plan. Wie te snel rekent, rekent vaak het verkeerde uit."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze vaardigheden hoort bij meet- en tekenvaardigheid?",
+     "opties": [
+      "hoeken meten met een geodriehoek en tekenen met passer en geodriehoek",
+      "handig hoofdrekenen met grote getallen",
+      "een grafiek aflezen en beschrijven",
+      "een vraagstuk in je eigen woorden navertellen aan iemand die het niet kent"
+     ],
+     "antwoord": 0,
+     "uitleg": "Er zijn vier vaardigheden: taal, rekenen, meten en tekenen, en ICT."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij een opgave met context mag je zelf kiezen welke oplossingsstrategie je gebruikt.",
+     "antwoord": true,
+     "uitleg": "Je kiest zelf de strategie aan de hand van je kennis en vaardigheden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Demathematiseren betekent dat je de opgave vereenvoudigt tot je ze aankan.",
+     "antwoord": false,
+     "uitleg": "Demathematiseren is je wiskundige uitkomst terugvertalen naar de situatie."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een schets maken telt als een volwaardige oplossingsstrategie.",
+     "antwoord": true,
+     "uitleg": "Een schets, tekening of tabel is de eerste heuristiek in de lijst."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op het examen komen enkel opgaven met context voor.",
+     "antwoord": false,
+     "uitleg": "Je bereidt je voor op allebei: met context en zuiver wiskundig."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het omzetten van een situatie uit de wereld naar wiskundetaal?",
+     "antwoord": [
+      "mathematiseren",
+      "het mathematiseren"
+     ],
+     "uitleg": "De heenweg is mathematiseren, de terugweg demathematiseren."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet de tweede van de vier stappen, na 'begrijp het probleem'?",
+     "antwoord": [
+      "maak een plan",
+      "een plan maken",
+      "plan maken"
+     ],
+     "uitleg": "Pas daarna voer je het plan uit, en helemaal op het einde reflecteer je."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een opgave die je niet aan één hoofdstuk kan koppelen, noem je een ...",
+     "antwoord": [
+      "probleem",
+      "een probleem"
+     ],
+     "uitleg": "Bij een probleem combineer je leerinhouden uit verschillende hoofdstukken."
+    }
+   ]
+  },
+  {
+   "titel": "Een opgave aanpakken: van context naar wiskunde — deel 2",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Je moet weten hoeveel liter verf je nodig hebt voor een muur van \\(4{,}2\\) m op \\(2{,}6\\) m. Welke eerste stap past het best?",
+     "opties": [
+      "de oppervlakte berekenen en pas daarna naar het verbruik per liter kijken",
+      "meteen delen door het aantal liters in de bus",
+      "de omtrek van de muur berekenen",
+      "de afmetingen eerst afronden naar hele meters en daarmee verder rekenen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Verf wordt per vierkante meter gerekend: \\(4{,}2 \\cdot 2{,}6 = 10{,}92\\) m\\(^{2}\\). Wie eerst de oppervlakte neemt, heeft daarna maar één deling nodig."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een som geeft als uitkomst dat een vijver \\(0{,}004\\) m\\(^{3}\\) water bevat. Wat doe je bij het reflecteren?",
+     "opties": [
+      "nagaan of je de eenheden niet door elkaar haalde, want dat zijn maar \\(4\\) liter",
+      "het antwoord afronden naar nul",
+      "de uitkomst overnemen, want de berekening is af",
+      "de vraag opnieuw lezen en daarna precies hetzelfde antwoord noteren als eerst"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vier liter is geen vijver. Een onmogelijke uitkomst wijst bijna altijd op een eenheid die misging."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke heuristiek gebruik je als je een vierkant patroon halveert omdat de linkerhelft hetzelfde is als de rechter?",
+     "opties": [
+      "gebruik maken van symmetrie",
+      "alle mogelijkheden opschrijven",
+      "van achter naar voor werken",
+      "voorbeelden geven"
+     ],
+     "antwoord": 0,
+     "uitleg": "Symmetrie halveert je werk en halveert dus ook de kans op een rekenfout."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een opgave zegt: na een korting van \\(20\\%\\) betaal je \\(48\\) euro. Hoe pak je dat het handigst aan?",
+     "opties": [
+      "terugrekenen: \\(48\\) euro is \\(80\\%\\) van de oude prijs",
+      "\\(20\\%\\) van \\(48\\) euro bijtellen",
+      "\\(48\\) euro delen door \\(20\\)",
+      "\\(48\\) euro vermenigvuldigen met \\(1{,}20\\) en dat afronden"
+     ],
+     "antwoord": 0,
+     "uitleg": "De oude prijs is \\(48 : 0{,}8 = 60\\) euro. Wie \\(20\\%\\) bijtelt, komt op \\(57{,}60\\) en zit fout."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is schatten nuttig vóór je precies rekent?",
+     "opties": [
+      "omdat je dan meteen ziet of je uitkomst in de juiste grootteorde ligt",
+      "omdat een schatting altijd sneller gaat dan een volledige berekening",
+      "omdat je dan geen rekenmachine meer nodig hebt",
+      "omdat een schatting op het examen als antwoord telt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wie \\(19 \\cdot 21\\) schat op ongeveer \\(400\\), ziet meteen dat \\(3999\\) niet kan kloppen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je verdeelt de vraag 'hoeveel kost een weekje kamperen' in reis, kampeerplaats en eten. Welke heuristiek is dat?",
+     "opties": [
+      "opsplitsen in deelproblemen",
+      "variabelen invoeren",
+      "patronen ontdekken",
+      "simuleren"
+     ],
+     "antwoord": 0,
+     "uitleg": "Drie kleine vragen die je kan beantwoorden, zijn beter dan één grote die je niet aankan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een opgave vraagt de hoogte van een toren uit de kijkhoek en de afstand. Welk plan past?",
+     "opties": [
+      "een rechthoekige driehoek tekenen en met de tangens werken",
+      "de omtrek van de toren schatten",
+      "de stelling van Pythagoras toepassen op de twee gegeven hoeken",
+      "de gegevens optellen en delen door twee"
+     ],
+     "antwoord": 0,
+     "uitleg": "Overstaande en aanliggende rechthoekszijde samen: \\(\\tan \\alpha = \\dfrac{\\text{overstaande}}{\\text{aanliggende}}\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent taalvaardigheid in wiskunde?",
+     "opties": [
+      "wiskundige uitdrukkingen, tekeningen, grafieken en diagrammen begrijpen",
+      "een opgave vlot kunnen voorlezen",
+      "een verslag schrijven over je oplossing",
+      "vaktaal vermijden zodat iedereen je snapt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Veel fouten zijn leesfouten: de opgave vroeg iets anders dan wat er uitgerekend werd."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je probeert een getal, ziet dat het te groot uitvalt en probeert een kleiner. Hoe noem je dat?",
+     "opties": [
+      "schatten, slim gissen, testen en controleren",
+      "het vraagstuk simuleren",
+      "gegevens ordenen",
+      "logisch redeneren"
+     ],
+     "antwoord": 0,
+     "uitleg": "Slim gissen is geen gokken: elke poging vertelt je in welke richting de volgende moet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een opgave geeft een rij \\(2, 6, 12, 20, 30\\). Welke aanpak ligt voor de hand?",
+     "opties": [
+      "patronen en regelmaat ontdekken door de verschillen te bekijken",
+      "alle mogelijkheden opschrijven",
+      "een vergelijking van de tweede graad oplossen",
+      "de getallen ordenen van groot naar klein"
+     ],
+     "antwoord": 0,
+     "uitleg": "De verschillen zijn \\(4, 6, 8, 10\\). Het volgende verschil is dus \\(12\\) en het volgende getal \\(42\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitkomst is een teken dat er iets misging bij een oppervlakte in vierkante meter?",
+     "opties": [
+      "een negatief getal",
+      "een getal met twee cijfers na de komma",
+      "een getal groter dan honderd",
+      "een geheel getal"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een oppervlakte kan niet negatief zijn. Zo'n uitkomst stuurt je terug naar je berekening."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom verantwoord je je tussenstappen?",
+     "opties": [
+      "omdat een lezer dan kan volgen welke eigenschap je toepast en waar het misloopt",
+      "omdat een langere oplossing meer punten oplevert",
+      "omdat je anders je rekenmachine niet mag gebruiken",
+      "omdat het examen alleen open vragen bevat"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een antwoord zonder redenering is niet na te kijken, en jijzelf vindt er je eigen fout niet in terug."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een fietser legt \\(24\\) km af in anderhalf uur. Je berekent \\(36\\) km/u. Wat doe je?",
+     "opties": [
+      "opnieuw rekenen, want \\(24 : 1{,}5 = 16\\)",
+      "het antwoord aanvaarden, want \\(36\\) km/u is een normale snelheid",
+      "de eenheid veranderen naar meter per seconde",
+      "de afstand verdubbelen"
+     ],
+     "antwoord": 0,
+     "uitleg": "\\(24 : 1{,}5 = 16\\). Wie vermenigvuldigt in plaats van deelt, krijgt een uitkomst die te groot is."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij een probleem mag je kennis uit meerdere hoofdstukken combineren.",
+     "antwoord": true,
+     "uitleg": "Dat is net wat een probleem onderscheidt van een vraagstuk."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Wie een goede schatting maakt, hoeft de exacte berekening niet meer uit te voeren.",
+     "antwoord": false,
+     "uitleg": "Een schatting is een controle vooraf of achteraf, geen antwoord."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een tegenvoorbeeld volstaat om aan te tonen dat een wiskundige uitspraak vals is.",
+     "antwoord": true,
+     "uitleg": "Eén geval waarin het niet opgaat, breekt de uitspraak. Voorbeelden bewijzen daarentegen nooit dat ze waar is."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een paar voorbeelden die kloppen, bewijzen dat een eigenschap altijd geldt.",
+     "antwoord": false,
+     "uitleg": "Voorbeelden illustreren, ze bewijzen niet. Daarvoor heb je een redenering nodig."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel is \\(24\\) km in anderhalf uur, in km/u?",
+     "antwoord": [
+      "16",
+      "16 km/u",
+      "16 kilometer"
+     ],
+     "uitleg": "\\(24 : 1{,}5 = 16\\)."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk getal volgt in de rij \\(2, 6, 12, 20, 30\\)?",
+     "antwoord": [
+      "42"
+     ],
+     "uitleg": "De verschillen lopen op met telkens \\(2\\): \\(4, 6, 8, 10, 12\\). Dus \\(30 + 12\\)."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Na \\(20\\%\\) korting betaal je \\(48\\) euro. Wat was de prijs in euro?",
+     "antwoord": [
+      "60",
+      "60 euro"
+     ],
+     "uitleg": "\\(48\\) is \\(80\\%\\), dus de volle prijs is \\(48 : 0{,}8\\)."
+    }
+   ]
+  },
+  {
+   "titel": "Ordenen, afronden en intervallen — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk van deze getallen is het grootst?",
+     "opties": [
+      "\\(0{,}7\\)",
+      "\\(0{,}68\\)",
+      "\\(0{,}007\\)",
+      "\\(0{,}0699\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vergelijk cijfer per cijfer vanaf de komma. Zeven tienden is meer dan achtenzestig honderdsten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk van deze getallen is het kleinst?",
+     "opties": [
+      "\\(-5{,}2\\)",
+      "\\(-5{,}02\\)",
+      "\\(-0{,}52\\)",
+      "\\(-4{,}9\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij negatieve getallen is het getal met de grootste afstand tot nul juist het kleinste."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe rond je \\(3{,}4567\\) af op twee cijfers na de komma?",
+     "opties": [
+      "\\(3{,}46\\)",
+      "\\(3{,}45\\)",
+      "\\(3{,}50\\)",
+      "\\(3{,}456\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het derde cijfer na de komma is \\(6\\), dus je rondt naar boven af."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe rond je \\(2{,}3449\\) af op twee cijfers na de komma?",
+     "opties": [
+      "\\(2{,}34\\)",
+      "\\(2{,}35\\)",
+      "\\(2{,}30\\)",
+      "\\(2{,}344\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je kijkt naar het cijfer van de volgende rang, hier een \\(4\\), en dat rondt naar beneden af. Het cijfer daarachter telt niet meer mee."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke afrondingsregel geldt?",
+     "opties": [
+      "bij \\(0\\) tot en met \\(4\\) rond je naar beneden af, bij \\(5\\) tot en met \\(9\\) naar boven",
+      "bij \\(0\\) tot en met \\(5\\) rond je naar beneden af, bij \\(6\\) tot en met \\(9\\) naar boven",
+      "je rondt altijd af naar het dichtstbijzijnde even getal",
+      "je rondt altijd naar boven af, om zeker geen tekort te hebben"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je kijkt daarvoor naar het cijfer van de rang die volgt op de rang waarop je afrondt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal ligt tussen \\(2{,}4\\) en \\(2{,}5\\)?",
+     "opties": [
+      "\\(2{,}47\\)",
+      "\\(2{,}54\\)",
+      "\\(2{,}39\\)",
+      "\\(24{,}7\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Tussen twee getallen liggen er altijd oneindig veel andere. \\(2{,}47\\) is er één van."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe orden je \\(0{,}5\\), de breuk \\(\\tfrac{3}{5}\\) en \\(45\\%\\) van klein naar groot?",
+     "opties": [
+      "\\(45\\%\\), \\(0{,}5\\), \\(\\tfrac{3}{5}\\)",
+      "\\(0{,}5\\), \\(45\\%\\), \\(\\tfrac{3}{5}\\)",
+      "\\(\\tfrac{3}{5}\\), \\(0{,}5\\), \\(45\\%\\)",
+      "\\(45\\%\\), \\(\\tfrac{3}{5}\\), \\(0{,}5\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zet ze eerst in dezelfde vorm: \\(0{,}45\\), dan \\(0{,}50\\), dan \\(0{,}60\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze getallen ligt het dichtst bij de \\(\\sqrt{2}\\)?",
+     "opties": [
+      "\\(1{,}41\\)",
+      "\\(1{,}14\\)",
+      "\\(1{,}73\\)",
+      "\\(2{,}41\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "De \\(\\sqrt{2}\\) is ongeveer \\(1{,}4142\\). \\(1{,}73\\) hoort bij de \\(\\sqrt{3}\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent het symbool \\(\\leq\\) tussen twee getallen?",
+     "opties": [
+      "het linkergetal is kleiner dan of gelijk aan het rechter",
+      "het linkergetal is strikt kleiner dan het rechter",
+      "het linkergetal is groter dan of gelijk aan het rechter",
+      "de twee getallen liggen even ver van nul"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het streepje onder het teken laat gelijkheid toe. Zonder streepje is het strikt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Op een getallenas staat \\(-3\\) links van \\(1\\). Wat betekent dat?",
+     "opties": [
+      "\\(-3\\) is kleiner dan \\(1\\)",
+      "\\(-3\\) is groter dan \\(1\\), want het ligt verder van nul",
+      "\\(-3\\) en \\(1\\) zijn even groot, alleen van teken verschillend",
+      "de getallenas is verkeerd getekend"
+     ],
+     "antwoord": 0,
+     "uitleg": "Op een getallenas geldt: hoe verder naar links, hoe kleiner."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schat \\(48 \\cdot 21\\). Welke schatting ligt het dichtst bij?",
+     "opties": [
+      "ongeveer \\(1000\\)",
+      "ongeveer \\(700\\)",
+      "ongeveer \\(1500\\)",
+      "ongeveer \\(2000\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "\\(50 \\cdot 20 = 1000\\). De echte uitkomst is \\(1008\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom rond je pas op het einde van een berekening af?",
+     "opties": [
+      "omdat afrondingsfouten anders bij elke tussenstap groter worden",
+      "omdat je anders je rekenmachine niet meer mag gebruiken",
+      "omdat een tussenresultaat nooit een komma mag bevatten",
+      "omdat je wettelijk maar één keer mag afronden"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wie in drie stappen telkens afrondt, kan er op het einde procenten naast zitten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een weegschaal geeft \\(2{,}5\\) kilogram en rondt af op honderd gram. Tussen welke waarden ligt het echte gewicht?",
+     "opties": [
+      "tussen \\(2{,}45\\) en \\(2{,}55\\) kilogram",
+      "tussen \\(2{,}40\\) en \\(2{,}60\\) kilogram",
+      "tussen \\(2{,}50\\) en \\(2{,}55\\) kilogram",
+      "precies op \\(2{,}5\\) kilogram"
+     ],
+     "antwoord": 0,
+     "uitleg": "Alles vanaf \\(2{,}45\\) rondt af naar \\(2{,}5\\), en alles onder \\(2{,}55\\) ook."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Tussen twee verschillende reële getallen ligt altijd nog een ander reëel getal.",
+     "antwoord": true,
+     "uitleg": "Neem gewoon het gemiddelde van de twee: dat ligt er precies tussenin."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "\\(-8\\) is groter dan \\(-3\\), want \\(8\\) is groter dan \\(3\\).",
+     "antwoord": false,
+     "uitleg": "Bij negatieve getallen keert de volgorde om: \\(-8\\) ligt verder naar links en is dus kleiner."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Afgerond op één cijfer na de komma is \\(0{,}449\\) gelijk aan \\(0{,}4\\).",
+     "antwoord": true,
+     "uitleg": "Je kijkt naar het tweede cijfer, een \\(4\\), en rondt naar beneden af. De \\(9\\) erachter doet niet mee."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een schatting vooraf vervangt de controle achteraf.",
+     "antwoord": false,
+     "uitleg": "Een schatting zegt of je in de juiste grootteorde zit, niet of je exact juist rekende."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Rond \\(7{,}3851\\) af op twee cijfers na de komma.",
+     "antwoord": [
+      "7,39"
+     ],
+     "uitleg": "Het derde cijfer na de komma is \\(5\\), dus naar boven."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk teken hoort tussen \\(-4\\) en \\(-1\\)? Typ < of >.",
+     "antwoord": [
+      "<"
+     ],
+     "uitleg": "\\(-4\\) ligt links van \\(-1\\) op de getallenas."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Schat \\(19 \\cdot 31\\) op honderdtallen.",
+     "antwoord": [
+      "600",
+      "ongeveer 600"
+     ],
+     "uitleg": "\\(20 \\cdot 30 = 600\\). De echte uitkomst is \\(589\\)."
+    }
+   ]
+  },
+  {
+   "titel": "Rechten, vlakken en gelijkvormigheid — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Twee rechten in de ruimte snijden elkaar niet en liggen niet in hetzelfde vlak. Hoe noem je ze?",
+     "opties": [
+      "kruisend",
+      "evenwijdig",
+      "samenvallend",
+      "loodrecht"
+     ],
+     "antwoord": 0,
+     "uitleg": "Kruisende rechten bestaan alleen in de ruimte. In het vlak zijn twee rechten die elkaar niet snijden altijd evenwijdig."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke onderlinge ligging bestaat wél voor twee rechten in de ruimte, maar niet voor twee rechten in één vlak?",
+     "opties": [
+      "kruisend",
+      "snijdend",
+      "evenwijdig",
+      "samenvallend"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wie in het vlak werkt, heeft aan evenwijdig, snijdend en samenvallend genoeg."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Twee vlakken die elkaar niet snijden en niet samenvallen, zijn ...",
+     "opties": [
+      "evenwijdig",
+      "kruisend",
+      "loodrecht",
+      "snijdend in één punt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Twee vlakken kunnen niet kruisen: ze snijden elkaar in een rechte, vallen samen of zijn evenwijdig."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de doorsnede van twee snijdende vlakken?",
+     "opties": [
+      "een rechte",
+      "een punt",
+      "een vlak",
+      "een lijnstuk met twee eindpunten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Twee muren van een kamer snijden elkaar in de hoeklijn, en die loopt van boven naar beneden door."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke ligging is mogelijk tussen een rechte en een vlak?",
+     "opties": [
+      "de rechte ligt in het vlak, is er evenwijdig mee, snijdt het of staat er loodrecht op",
+      "de rechte kruist het vlak, of valt ermee samen in twee punten",
+      "de rechte snijdt het vlak altijd, behalve als ze even lang zijn",
+      "de rechte staat altijd loodrecht op het vlak of valt ermee samen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Die vier mogelijkheden zijn er."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke figuur is een ruimtefiguur en geen vlakke figuur?",
+     "opties": [
+      "een kegel",
+      "een ruit",
+      "een trapezium",
+      "een regelmatige zeshoek"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een kegel heeft een inhoud. De andere drie liggen plat en hebben enkel een oppervlakte."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een ontwikkeling van een ruimtefiguur?",
+     "opties": [
+      "het platte patroon dat je krijgt als je de figuur openvouwt",
+      "de tekening van de figuur in cavalièreperspectief",
+      "de schaduw die de figuur op een vlak werpt",
+      "de doorsnede van de figuur met een horizontaal vlak"
+     ],
+     "antwoord": 0,
+     "uitleg": "De ontwikkeling van een kubus bestaat uit zes vierkanten die je weer tot een kubus kan vouwen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke drie aanzichten teken je bij de projecties op drie vlakken?",
+     "opties": [
+      "zijaanzicht, vooraanzicht en bovenaanzicht",
+      "zijaanzicht, achteraanzicht en onderaanzicht",
+      "vooraanzicht, bovenaanzicht en doorsnede",
+      "perspectief, projectie en ontwikkeling"
+     ],
+     "antwoord": 0,
+     "uitleg": "Met die drie aanzichten samen ligt de vorm van een figuur meestal vast."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat kenmerkt het cavalièreperspectief?",
+     "opties": [
+      "de zijvlakken lopen schuin weg, maar evenwijdige lijnen blijven evenwijdig",
+      "alle lijnen lopen naar één verdwijnpunt aan de horizon",
+      "de figuur wordt getekend zoals een fototoestel ze ziet",
+      "er wordt enkel met stippellijnen gewerkt, zonder volle lijnen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij natuurlijk perspectief lopen de lijnen wél naar een verdwijnpunt, waardoor verre dingen kleiner lijken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de doorsnede van de verzamelingen A en B?",
+     "opties": [
+      "alle elementen die in A én in B zitten",
+      "alle elementen die in A of in B zitten, of in allebei",
+      "alle elementen van A die niet in B zitten",
+      "alle elementen die in geen van beide zitten"
+     ],
+     "antwoord": 0,
+     "uitleg": "De unie neemt alles samen, de doorsnede houdt enkel het gemeenschappelijke over."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent 'A is een deelverzameling van B'?",
+     "opties": [
+      "elk element van A zit ook in B",
+      "A en B hebben minstens één element gemeen",
+      "A en B hebben evenveel elementen",
+      "A en B hebben geen enkel element gemeen"
+     ],
+     "antwoord": 0,
+     "uitleg": "De natuurlijke getallen zijn een deelverzameling van de gehele getallen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil A zonder B?",
+     "opties": [
+      "alle elementen van A die niet in B zitten",
+      "alle elementen die in A of in B zitten",
+      "alle elementen die in allebei zitten",
+      "alle elementen van B die niet in A zitten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het verschil is niet omkeerbaar: A zonder B is iets anders dan B zonder A."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel ribben heeft een balk?",
+     "opties": [
+      "twaalf",
+      "acht",
+      "zes",
+      "vier"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een balk heeft \\(8\\) hoekpunten, \\(12\\) ribben en \\(6\\) zijvlakken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Twee kruisende rechten liggen nooit in hetzelfde vlak.",
+     "antwoord": true,
+     "uitleg": "Zodra ze in één vlak liggen, snijden ze elkaar of zijn ze evenwijdig."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Twee vlakken kunnen elkaar in één punt snijden.",
+     "antwoord": false,
+     "uitleg": "De doorsnede van twee snijdende vlakken is altijd een rechte."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij cavalièreperspectief blijven evenwijdige ribben evenwijdig getekend.",
+     "antwoord": true,
+     "uitleg": "Dat is precies het verschil met natuurlijk perspectief, waar ze naar een verdwijnpunt lopen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De unie van twee verzamelingen bevat alleen de elementen die ze gemeen hebben.",
+     "antwoord": false,
+     "uitleg": "Dat is de doorsnede. De unie neemt alles van allebei samen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je twee rechten in de ruimte die elkaar niet snijden en niet in één vlak liggen?",
+     "antwoord": [
+      "kruisend",
+      "kruisende rechten"
+     ],
+     "uitleg": "Denk aan een spoorlijn en een brug erboven die er schuin overheen loopt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel zijvlakken heeft een balk?",
+     "antwoord": [
+      "6",
+      "zes"
+     ],
+     "uitleg": "Telkens twee tegenover elkaar: boven en onder, links en rechts, voor en achter."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet het platte patroon dat je krijgt door een kubus open te vouwen?",
+     "antwoord": [
+      "ontwikkeling",
+      "de ontwikkeling",
+      "uitslag"
+     ],
+     "uitleg": "Er bestaan elf verschillende ontwikkelingen van een kubus."
+    }
+   ]
+  },
+  {
+   "titel": "Formules omvormen en eerstegraadsvergelijkingen — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke eigenschap van gelijkheden gebruik je om bij beide leden hetzelfde getal op te tellen?",
+     "opties": [
+      "wat je links doet, moet je rechts ook doen, anders klopt de gelijkheid niet meer",
+      "je mag links iets optellen en rechts iets aftrekken, zolang het evenveel is",
+      "je mag bij een gelijkheid alleen vermenigvuldigen, nooit optellen",
+      "je mag enkel getallen optellen, nooit een uitdrukking met een letter"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een gelijkheid is een balans. Wie aan één kant iets verandert, moet dat aan de andere kant ook doen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat mag je nooit doen bij het omvormen van een gelijkheid?",
+     "opties": [
+      "beide leden delen door nul",
+      "beide leden vermenigvuldigen met \\(-1\\)",
+      "bij beide leden hetzelfde getal optellen",
+      "de linker- en het rechterlid van plaats verwisselen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Delen door nul is niet gedefinieerd. Delen door een letter mag wel, maar alleen als je weet dat ze niet nul is."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "De massadichtheid is \\(\\rho = \\tfrac{m}{V}\\). Hoe druk je de massa \\(m\\) uit?",
+     "opties": [
+      "\\(m = \\rho \\cdot V\\)",
+      "\\(m = \\tfrac{V}{\\rho}\\)",
+      "\\(m = \\tfrac{\\rho}{V}\\)",
+      "\\(m = \\rho + V\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je vermenigvuldigt beide leden met \\(V\\), en dan valt \\(V\\) rechts weg."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "De wet van Ohm zegt \\(U = R \\cdot I\\). Hoe druk je de weerstand \\(R\\) uit?",
+     "opties": [
+      "\\(R = \\tfrac{U}{I}\\)",
+      "\\(R = \\tfrac{I}{U}\\)",
+      "\\(R = U \\cdot I\\)",
+      "\\(R = U - I\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je deelt beide leden door \\(I\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "De zwaartekracht is \\(F = m \\cdot g\\). Hoe bereken je de massa \\(m\\) uit een gegeven kracht?",
+     "opties": [
+      "\\(m = \\tfrac{F}{g}\\)",
+      "\\(m = F \\cdot g\\)",
+      "\\(m = \\tfrac{g}{F}\\)",
+      "\\(m = F + g\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "\\(F = 98\\) newton bij \\(g \\approx 9{,}8\\) geeft \\(m = 10\\) kilogram."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Druk is \\(p = \\tfrac{F}{A}\\). Wat gebeurt er als \\(A\\) kleiner wordt bij dezelfde \\(F\\)?",
+     "opties": [
+      "de druk wordt groter",
+      "de druk wordt kleiner",
+      "de druk blijft gelijk",
+      "de kracht wordt automatisch kleiner"
+     ],
+     "antwoord": 0,
+     "uitleg": "Daarom zakt een naald wel in het hout en een vingertop niet, bij dezelfde duwkracht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "De formule voor de eenparig rechtlijnige beweging is \\(x = x_{0} + v \\cdot t\\). Hoe druk je \\(t\\) uit?",
+     "opties": [
+      "\\(t = \\tfrac{x - x_{0}}{v}\\)",
+      "\\(t = \\tfrac{x + x_{0}}{v}\\)",
+      "\\(t = \\tfrac{v}{x - x_{0}}\\)",
+      "\\(t = x \\cdot v - x_{0}\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerst breng je \\(x_{0}\\) naar het andere lid, daarna deel je door \\(v\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "De kinetische energie is \\(E_{k} = \\tfrac{1}{2}mv^{2}\\). Wat gebeurt er als \\(v\\) verdubbelt?",
+     "opties": [
+      "de energie wordt vier keer zo groot",
+      "de energie wordt twee keer zo groot",
+      "de energie wordt half zo groot",
+      "de energie blijft gelijk"
+     ],
+     "antwoord": 0,
+     "uitleg": "\\(v\\) staat in het kwadraat, dus \\((2v)^{2} = 4v^{2}\\). Daarom groeit de remweg zo snel met de snelheid."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "De molaire concentratie is \\(c = \\tfrac{n}{V}\\). Hoe bereken je het volume \\(V\\)?",
+     "opties": [
+      "\\(V = \\tfrac{n}{c}\\)",
+      "\\(V = n \\cdot c\\)",
+      "\\(V = \\tfrac{c}{n}\\)",
+      "\\(V = c + n\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dezelfde omvorming als bij de massadichtheid: de noemer en de uitkomst wisselen van plaats."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent het dat een formule lineair is in \\(x\\)?",
+     "opties": [
+      "\\(x\\) komt enkel in de eerste macht voor, zonder kwadraat of wortel",
+      "\\(x\\) staat altijd links van het gelijkheidsteken",
+      "de grafiek gaat altijd door de oorsprong",
+      "er staat precies één \\(x\\) in de hele formule"
+     ],
+     "antwoord": 0,
+     "uitleg": "De grafiek van een lineair verband is een rechte. Een zuiver kwadratisch verband geeft een parabool."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "De oppervlakte van een vierkant is \\(A = z^{2}\\). Hoe druk je de zijde \\(z\\) uit?",
+     "opties": [
+      "\\(z = \\sqrt{A}\\)",
+      "\\(z = \\tfrac{A}{2}\\)",
+      "\\(z = \\tfrac{A}{4}\\)",
+      "\\(z = A^{2}\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Delen door \\(4\\) zou de omtrek geven, niet de zijde."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "De veerkracht is \\(F = k \\cdot u\\). Hoe bereken je de uitrekking \\(u\\)?",
+     "opties": [
+      "\\(u = \\tfrac{F}{k}\\)",
+      "\\(u = F \\cdot k\\)",
+      "\\(u = \\tfrac{k}{F}\\)",
+      "\\(u = F - k\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij een stijve veer, dus een grote \\(k\\), geeft dezelfde kracht een kleinere uitrekking."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom controleer je na het omvormen best met een getallenvoorbeeld?",
+     "opties": [
+      "omdat een tekenfout of een verkeerde bewerking zo meteen opvalt",
+      "omdat een formule pas geldt als je er getallen in gezet hebt",
+      "omdat het examen dat verplicht bij elke omvorming",
+      "omdat je anders geen rekenmachine mag gebruiken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vul in de oorspronkelijke formule getallen in, en kijk of je omgevormde versie hetzelfde geeft."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij het omvormen van een formule mag je beide leden door dezelfde letter delen, ook als die nul kan zijn.",
+     "antwoord": false,
+     "uitleg": "Delen door nul mag niet, dus je moet eerst weten dat die letter niet nul is."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Als je beide leden van een gelijkheid met \\(-1\\) vermenigvuldigt, blijft de gelijkheid kloppen.",
+     "antwoord": true,
+     "uitleg": "Alle tekens draaien om, maar links en rechts blijven gelijk."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de formule voor de kinetische energie is de energie recht evenredig met de snelheid.",
+     "antwoord": false,
+     "uitleg": "Ze is recht evenredig met \\(v^{2}\\). Dat is iets heel anders."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een lineair verband tussen twee grootheden geeft een rechte als grafiek.",
+     "antwoord": true,
+     "uitleg": "Bij een recht evenredig verband gaat die rechte bovendien door de oorsprong."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Massadichtheid is \\(\\rho = \\tfrac{m}{V}\\). Wat is de massa van \\(3\\) liter water met \\(\\rho = 1\\) kg per liter?",
+     "antwoord": [
+      "3",
+      "3 kg",
+      "3 kilogram"
+     ],
+     "uitleg": "\\(m = \\rho \\cdot V\\)."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Bij \\(U = 12\\) volt en \\(I = 3\\) ampère, hoeveel ohm is de weerstand?",
+     "antwoord": [
+      "4",
+      "4 ohm"
+     ],
+     "uitleg": "\\(R = \\tfrac{U}{I} = \\tfrac{12}{3}\\)."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "De oppervlakte van een vierkant is \\(49\\). Hoe lang is de zijde?",
+     "antwoord": [
+      "7"
+     ],
+     "uitleg": "\\(\\sqrt{49} = 7\\)."
+    }
+   ]
+  },
+  {
+   "titel": "Functies en de rechte — deel 1",
+   "niveau": "boost-dubbele-finaliteit",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wanneer is een verband een functie?",
+     "opties": [
+      "als bij elke \\(x\\) hoogstens één \\(y\\) hoort",
+      "als bij elke \\(y\\) hoogstens één \\(x\\) hoort",
+      "als de grafiek een rechte is",
+      "als \\(x\\) en \\(y\\) allebei positief zijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een verticale lijn mag de grafiek dus maar één keer snijden. Dat heet de verticalelijntest."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke variabele is bij 'de kost hangt af van het aantal kilometer' de onafhankelijke?",
+     "opties": [
+      "het aantal kilometer",
+      "de kost",
+      "allebei even sterk",
+      "dat kan je niet bepalen"
+     ],
+     "antwoord": 0,
+     "uitleg": "De onafhankelijke variabele kies je zelf, de afhankelijke volgt eruit. Ze staat op de horizontale as."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het domein van een functie?",
+     "opties": [
+      "de verzameling van alle \\(x\\)-waarden waarvoor de functie een waarde geeft",
+      "de verzameling van alle \\(y\\)-waarden die de functie aanneemt",
+      "de verzameling van de nulwaarden van de functie",
+      "de verzameling van alle punten op de grafiek"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het bereik is de tegenhanger: dat zijn de \\(y\\)-waarden die er uitkomen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het bereik van een functie?",
+     "opties": [
+      "de verzameling van alle \\(y\\)-waarden die de functie aanneemt",
+      "de verzameling van alle \\(x\\)-waarden waarvoor ze bestaat",
+      "de afstand tussen de kleinste en de grootste \\(x\\)-waarde",
+      "het aantal snijpunten met de \\(x\\)-as"
+     ],
+     "antwoord": 0,
+     "uitleg": "Op de grafiek lees je het bereik af door naar de verticale as te kijken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zijn de vier voorstellingswijzen van een functie?",
+     "opties": [
+      "verwoording, tabel, grafiek en voorschrift",
+      "formule, tekening, verhaal en schema",
+      "grafiek, diagram, tabel en histogram",
+      "voorschrift, nulwaarde, top en domein"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je moet van elke vorm naar elke andere kunnen overstappen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Voor \\(f(x) = 3x - 2\\), hoeveel is \\(f(4)\\)?",
+     "opties": [
+      "\\(10\\)",
+      "\\(14\\)",
+      "\\(5\\)",
+      "\\(12\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "\\(3 \\cdot 4 = 12\\), en \\(12 - 2 = 10\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Voor \\(f(x) = 3x - 2\\), voor welke \\(x\\) is \\(f(x) = 13\\)?",
+     "opties": [
+      "\\(5\\)",
+      "\\(11\\)",
+      "\\(4\\)",
+      "\\(39\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "\\(3x = 15\\), dus \\(x = 5\\). Je lost een vergelijking op in plaats van in te vullen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het domein van de functie \\(f(x) = \\tfrac{1}{x}\\)?",
+     "opties": [
+      "\\(\\mathbb{R}\\) zonder \\(0\\)",
+      "alle positieve getallen van \\(\\mathbb{R}\\)",
+      "heel \\(\\mathbb{R}\\)",
+      "\\(\\mathbb{Z}\\) zonder \\(0\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Delen door nul mag niet, dus \\(x = 0\\) valt weg."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent een recht evenredig verband tussen twee grootheden?",
+     "opties": [
+      "als de ene verdubbelt, verdubbelt de andere ook",
+      "als de ene verdubbelt, wordt de andere half zo groot",
+      "de som van de twee blijft altijd gelijk",
+      "het verschil van de twee blijft altijd gelijk"
+     ],
+     "antwoord": 0,
+     "uitleg": "De grafiek is een rechte door de oorsprong, met voorschrift \\(y = ax\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil tussen een lineair en een recht evenredig verband?",
+     "opties": [
+      "een recht evenredig verband gaat door de oorsprong, een lineair verband niet noodzakelijk",
+      "een lineair verband gaat door de oorsprong, een recht evenredig verband niet",
+      "er is geen verschil tussen de twee",
+      "een lineair verband heeft altijd een negatieve helling"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij \\(y = 2x + 5\\) is het verband lineair maar niet recht evenredig: bij nul kilometer betaal je al \\(5\\) euro."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een tabel geeft bij \\(x = 1, 2, 3\\) de waarden \\(4\\), \\(7\\), \\(10\\). Wat voor groei is dat?",
+     "opties": [
+      "lineaire groei, want er komt telkens \\(3\\) bij",
+      "kwadratische groei, want de verschillen stijgen",
+      "omgekeerd evenredig, want de waarden stijgen",
+      "geen enkel herkenbaar verband"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij lineaire groei is het verschil per stap constant. Het voorschrift is \\(y = 3x + 1\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een tabel geeft bij \\(x = 1, 2, 3\\) de waarden \\(1\\), \\(4\\), \\(9\\). Wat voor groei is dat?",
+     "opties": [
+      "niet-lineaire groei, want de verschillen worden groter",
+      "lineaire groei, want de waarden stijgen elke stap",
+      "omgekeerd evenredige groei",
+      "constante groei zonder toename"
+     ],
+     "antwoord": 0,
+     "uitleg": "De verschillen zijn \\(3\\) en \\(5\\), dus geen rechte. Dit is het kwadratische verband \\(y = x^{2}\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom hoort bij een grafiek altijd een ijk op de assen?",
+     "opties": [
+      "zonder ijk kan je geen enkele waarde aflezen",
+      "omdat de grafiek anders niet op het blad past",
+      "omdat het examen dat verplicht voor elke tekening",
+      "om te tonen welke variabele afhankelijk is"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een grafiek zonder ijk toont enkel een vorm en geen getallen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij een functie mag dezelfde \\(y\\)-waarde bij meerdere \\(x\\)-waarden horen.",
+     "antwoord": true,
+     "uitleg": "Dat is geen probleem: bij \\(y = x^{2}\\) hoort \\(y = 4\\) bij zowel \\(x = 2\\) als \\(x = -2\\)."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij een functie mogen bij dezelfde \\(x\\)-waarde twee verschillende \\(y\\)-waarden horen.",
+     "antwoord": false,
+     "uitleg": "Dan is het geen functie meer. Een verticale lijn zou de grafiek twee keer snijden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De afhankelijke variabele staat op de verticale as.",
+     "antwoord": true,
+     "uitleg": "De onafhankelijke, die je zelf kiest, staat op de horizontale as."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Elk lineair verband is ook recht evenredig.",
+     "antwoord": false,
+     "uitleg": "Alleen als het door de oorsprong gaat, dus als \\(b = 0\\)."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Voor \\(f(x) = 2x + 7\\), hoeveel is \\(f(5)\\)?",
+     "antwoord": [
+      "17"
+     ],
+     "uitleg": "\\(10 + 7\\)."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Voor \\(f(x) = 4x - 1\\), voor welke \\(x\\) is \\(f(x) = 11\\)?",
+     "antwoord": [
+      "3"
+     ],
+     "uitleg": "\\(4x = 12\\)."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet de verzameling van alle \\(y\\)-waarden die een functie aanneemt?",
+     "antwoord": [
+      "bereik",
+      "het bereik"
+     ],
+     "uitleg": "De \\(x\\)-waarden vormen het domein."
+    }
+   ]
+  }
+ ]
+}

@@ -848,7 +848,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke resultaten vraagt de vakfiche te berekenen?",
+          "vraag": "Welke resultaten bereken je?",
           "opties": [
             "het bedrijfsresultaat",
             "het financieel resultaat",
@@ -1327,7 +1327,7 @@
             "met twee boekingen per factuur"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt uitdrukkelijk een minimum aantal boekingsregels."
+          "uitleg": "Er is een minimum aantal boekingsregels."
         },
         {
           "type": "meerkeuze",
@@ -1515,7 +1515,7 @@
           "type": "waarofniet",
           "vraag": "De aankoop van diensten is een andere soort aankoop dan handelsgoederen.",
           "antwoord": true,
-          "uitleg": "De fiche onderscheidt handelsgoederen, diensten en diverse goederen, en investeringen."
+          "uitleg": "Je onderscheidt handelsgoederen, diensten en diverse goederen, en investeringen."
         },
         {
           "type": "waarofniet",
@@ -1534,7 +1534,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten aankopen onderscheidt de vakfiche?",
+          "vraag": "Welke soorten aankopen onderscheid je?",
           "opties": [
             "handelsgoederen",
             "diensten en diverse goederen",
@@ -1569,7 +1569,7 @@
             "om de voorraad te tellen"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zegt het zo: je controleert met als doel kwaliteit af te leveren."
+          "uitleg": "Je controleert met als doel kwaliteit af te leveren."
         },
         {
           "type": "meerkeuze",
@@ -2230,7 +2230,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke kortingen kent de vakfiche bij een verkoopfactuur?",
+          "vraag": "Welke kortingen kan je geven op een verkoopfactuur?",
           "opties": [
             "de handelskorting",
             "de financiële korting",
@@ -2583,7 +2583,7 @@
           "type": "waarofniet",
           "vraag": "Je mag de btw-aangifte raadplegen tijdens het examen.",
           "antwoord": true,
-          "uitleg": "Een voorbeeld van de aangifte zit als bijlage bij de vakfiche."
+          "uitleg": "Kijk naar een voorbeeld van de aangifte."
         },
         {
           "type": "waarofniet",
@@ -3522,7 +3522,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke eindejaarsverrichtingen noemt de vakfiche?",
+          "vraag": "Welke van deze zijn eindejaarsverrichtingen?",
           "opties": [
             "de jaarlijkse afschrijvingen",
             "de regularisatie van schulden op meer dan een jaar",
@@ -3690,7 +3690,7 @@
             "uitlijnen ervan"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt die drie uitdrukkelijk: ctrl a selecteert, ctrl c kopieert, ctrl u onderlijnt."
+          "uitleg": "Ctrl a selecteert, ctrl c kopieert, ctrl u onderlijnt."
         },
         {
           "type": "meerkeuze",
@@ -3853,7 +3853,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke toetsen noemt de vakfiche bij efficiënt klavieren?",
+          "vraag": "Welke toetsen gebruik je bij efficiënt klavieren?",
           "opties": [
             "ctrl",
             "shift",
@@ -3864,7 +3864,7 @@
             0,
             1
           ],
-          "uitleg": "De vakfiche noemt ctrl, shift en alt gr; met alt gr maak je het apenstaartje en het euroteken. De muis en de caps lock-toets horen daar niet bij."
+          "uitleg": "Je gebruikt ctrl, shift en alt gr; met alt gr maak je het apenstaartje en het euroteken. De muis en de caps lock-toets horen daar niet bij."
         },
         {
           "type": "invultekst",
@@ -3978,7 +3978,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke documenten noemt de vakfiche bij tekstverwerking?",
+          "vraag": "Welke van deze documenten maak je met een tekstverwerker?",
           "opties": [
             "een factuur",
             "een sollicitatiebrief",
@@ -3996,7 +3996,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is een personeelsdocument volgens de vakfiche?",
+          "vraag": "Wat is een personeelsdocument?",
           "opties": [
             "een cv of een vacature",
             "een factuur van een klant",
@@ -4069,7 +4069,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is een commercieel document volgens de vakfiche?",
+          "vraag": "Wat is een commercieel document?",
           "opties": [
             "een factuur of een label",
             "een cv of een vacature ervan",
@@ -5423,7 +5423,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke tekstfuncties noemt de vakfiche?",
+          "vraag": "Welke van deze zijn tekstfuncties?",
           "opties": [
             "LINKS",
             "RECHTS",
@@ -5649,7 +5649,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke grafiektypes noemt de vakfiche?",
+          "vraag": "Welke van deze zijn grafiektypes?",
           "opties": [
             "de kolomgrafiek",
             "de lijngrafiek",
@@ -6272,7 +6272,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke scanners noemt de vakfiche?",
+          "vraag": "Welke van deze zijn scanners?",
           "opties": [
             "de leespen",
             "de handscanner",
@@ -7246,7 +7246,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke onderdelen heeft een databank volgens de vakfiche?",
+          "vraag": "Welke onderdelen heeft een databank?",
           "opties": [
             "tabellen",
             "formulieren",

@@ -86,7 +86,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze zijn broeikasgassen volgens de vakfiche? (meerdere antwoorden mogelijk)",
+        vraag="Welke van deze zijn broeikasgassen? (meerdere antwoorden mogelijk)",
         opties=[
             "Koolstofdioxide",
             "Methaan",
@@ -95,7 +95,7 @@ DEEL1 = [
             "Stikstofgas",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De fiche noemt waterdamp, koolstofdioxide, methaan en lachgas. Zuurstof en stikstofgas vormen samen het grootste deel van de lucht maar werken niet als broeikasgas.",
+        uitleg="De broeikasgassen zijn waterdamp, koolstofdioxide, methaan en lachgas. Zuurstof en stikstofgas vormen samen het grootste deel van de lucht maar werken niet als broeikasgas.",
     ),
     dict(
         type="invultekst",
@@ -333,7 +333,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke gevolgen van het versterkte broeikaseffect noemt de vakfiche? (meerdere antwoorden mogelijk)",
+        vraag="Welke van deze zijn gevolgen van het versterkte broeikaseffect? (meerdere antwoorden mogelijk)",
         opties=[
             "Zeespiegelstijging en verschuiving van klimaatzones",
             "Verschuiving van leefgebieden van planten en dieren",
@@ -342,7 +342,7 @@ DEEL2 = [
             "Braindrain uit landen met een lagere HDI",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Die vijf staan letterlijk in de fiche. Versnippering hoort bij de rubriek duurzaamheid en braindrain bij mondialisering.",
+        uitleg="Die vijf horen erbij. Versnippering hoort bij duurzaamheid en braindrain bij mondialisering.",
     ),
     dict(
         type="waarofniet",

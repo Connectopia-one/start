@@ -142,7 +142,7 @@ DEEL1 = [
             "het verschil tussen je inkomsten en je uitgaven in een maand",
         ],
         antwoord=0,
-        uitleg="De fiche noemt het als een van de vijf factoren bij de keuze tussen sparen en beleggen.",
+        uitleg="Het is een van de vijf factoren bij de keuze tussen sparen en beleggen.",
     ),
     dict(
         type="waarofniet",
@@ -170,7 +170,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke drie rekeningen zet de fiche naast elkaar?",
+        vraag="Welke drie rekeningen vergelijk je?",
         opties=[
             "de zichtrekening",
             "de spaarrekening",
@@ -178,7 +178,7 @@ DEEL1 = [
             "de effectenrekening",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De effectenrekening staat niet in de fiche.",
+        uitleg="De effectenrekening hoort hier niet bij.",
     ),
     dict(
         type="invultekst",
@@ -212,7 +212,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke factor bepaalt mee of je spaart of belegt, volgens de fiche?",
+        vraag="Welke factor bepaalt mee of je spaart of belegt?",
         opties=[
             "hoelang je je geld kan missen",
             "hoeveel je werkgever bijdraagt",
@@ -227,7 +227,7 @@ DEEL1 = [
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Welke vier beleggingsvormen noemt de fiche?",
+        vraag="Welke reeks bevat alleen beleggingsvormen?",
         opties=[
             "de obligatie, de cryptomunt, het beleggingsfonds en het beursaandeel",
             "de spaarrekening, de termijnrekening, het aandeel en de obligatie",
@@ -235,7 +235,7 @@ DEEL2 = [
             "de cryptomunt, de verzekering, het aandeel en het pensioensparen",
         ],
         antwoord=0,
-        uitleg="Precies die vier staan in de fiche, en een spaarrekening is geen belegging.",
+        uitleg="Precies die vier, en een spaarrekening is geen belegging.",
     ),
     dict(
         type="meerkeuze",
@@ -283,7 +283,7 @@ DEEL2 = [
             "een spaarproduct met een vaste opbrengst die de bank op voorhand belooft",
         ],
         antwoord=0,
-        uitleg="Van de vier vormen in de fiche is dit die met het grootste risico.",
+        uitleg="Van de vier beleggingsvormen is dit die met het grootste risico.",
     ),
     dict(
         type="meerkeuze",
@@ -323,7 +323,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel factoren noemt de fiche bij de keuze tussen sparen en beleggen?",
+        vraag="Hoeveel factoren spelen mee bij de keuze tussen sparen en beleggen?",
         opties=["vijf", "drie", "vier", "zeven"],
         antwoord=0,
         uitleg="De duur, de rentevoet en de inflatie, het risico, je financieel doel en je kennis van de markt.",
@@ -366,7 +366,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke beleggingsvormen noemt de fiche?",
+        vraag="Welke van deze zijn beleggingsvormen?",
         opties=[
             "de obligatie",
             "het beleggingsfonds",
@@ -378,7 +378,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke factoren bepalen volgens de fiche of sparen of beleggen het beste past?",
+        vraag="Welke factoren bepalen of sparen of beleggen het beste past?",
         opties=[
             "hoelang je je geld kan missen",
             "de rentevoet en de inflatie",
@@ -396,19 +396,19 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Welke beleggingsvorm uit de fiche is een lening aan een bedrijf of een overheid?",
+        vraag="Welke beleggingsvorm is een lening aan een bedrijf of een overheid?",
         antwoord=["obligatie", "een obligatie", "de obligatie"],
         uitleg="Bij een aandeel ben je mede-eigenaar, bij een obligatie schuldeiser.",
     ),
     dict(
         type="invultekst",
-        vraag="Welke beleggingsvorm uit de fiche is een digitale munt zonder centrale bank?",
+        vraag="Welke beleggingsvorm is een digitale munt zonder centrale bank?",
         antwoord=["cryptomunt", "een cryptomunt", "de cryptomunt"],
-        uitleg="Van de vier vormen in de fiche schommelt deze het sterkst.",
+        uitleg="Van de vier beleggingsvormen schommelt deze het sterkst.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Iemand van achttien wil geld opzijzetten voor een woning over twintig jaar en kan tegen schommelingen. Wat past bij de factoren van de fiche?",
+        vraag="Iemand van achttien wil geld opzijzetten voor een woning over twintig jaar en kan tegen schommelingen. Wat past daarbij?",
         opties=[
             "een deel beleggen kan passen, want hij kan het geld lang missen",
             "alles de komende twintig jaar op een zichtrekening laten staan",

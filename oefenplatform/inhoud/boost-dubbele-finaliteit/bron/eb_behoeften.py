@@ -79,7 +79,7 @@ DEEL1 = [
          antwoord=0,
          uitleg="Jouw honger stil je met jouw brood; niemand anders heeft er iets aan."),
     dict(type="meerkeuze",
-         vraag="Welke soorten behoeften noemt de vakfiche?",
+         vraag="Welke van deze zijn soorten behoeften?",
          opties=["economische en niet-economische",
                  "primaire en secundaire",
                  "individuele en collectieve",
@@ -219,7 +219,7 @@ DEEL2 = [
          antwoord=0,
          uitleg="Hier betekent duurzaam dat het lang meegaat. Een koelkast is duurzaam, brood niet."),
     dict(type="meerkeuze",
-         vraag="Welke indelingen van goederen noemt de vakfiche?",
+         vraag="Welke van deze zijn indelingen van goederen?",
          opties=[
              "economisch en vrij",
              "verbruiks- en gebruiksgoederen",

@@ -117,7 +117,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke vijf verzekeringen noemt de fiche?",
+        vraag="Welke vijf verzekeringen komen in dit hoofdstuk aan bod?",
         opties=[
             "auto, bromfiets, brand, familiale en rechtsbijstand",
             "auto, brand, hospitalisatie, reis en familiale",
@@ -129,7 +129,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke gegevens horen volgens de fiche in een schadeaangifte?",
+        vraag="Welke gegevens horen in een schadeaangifte?",
         opties=[
             "de datum en het uur, de aard van de schade en wie aansprakelijk is",
             "enkel het bedrag van de schade, zoals de hersteller het opgeeft",
@@ -137,7 +137,7 @@ DEEL1 = [
             "de premie en de franchise die in je polis afgesproken staan",
         ],
         antwoord=0,
-        uitleg="De fiche noemt ook de getuige, de verantwoordelijke en de begunstigde.",
+        uitleg="Ook de getuige, de verantwoordelijke en de begunstigde horen erbij.",
     ),
     dict(
         type="meerkeuze",
@@ -173,11 +173,11 @@ DEEL1 = [
         type="waarofniet",
         vraag="De datum en het uur van een schadegeval horen in de schadeaangifte.",
         antwoord=True,
-        uitleg="Ze staan vooraan in het rijtje van de fiche.",
+        uitleg="Ze staan vooraan in het rijtje.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke gegevens noemt de fiche voor een schadeaangifte?",
+        vraag="Welke van deze gegevens vul je in op een schadeaangifte?",
         opties=[
             "de getuige",
             "de juridisch aansprakelijke",
@@ -333,7 +333,7 @@ DEEL2 = [
             "wie het contract ondertekende",
         ],
         antwoord=0,
-        uitleg="De fiche noemt de begunstigde ook bij de gegevens van een schadeaangifte.",
+        uitleg="De begunstigde hoort ook bij de gegevens van een schadeaangifte.",
     ),
     dict(
         type="meerkeuze",
@@ -373,7 +373,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke onderdelen van een polis noemt de fiche?",
+        vraag="Welke van deze zijn onderdelen van een polis?",
         opties=[
             "de verzekeringsnemer",
             "de franchise",

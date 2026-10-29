@@ -239,7 +239,7 @@ DEEL2 = [
                  "met de auto blijven rijden",
                  "meer elektrische toestellen kopen"],
          antwoord=0,
-         uitleg="Isoleren, minder vliegen, minder vlees en minder autokilometers wegen het zwaarst. De fiche vraagt uitdrukkelijk hoe jij kan bijdragen."),
+         uitleg="Isoleren, minder vliegen, minder vlees en minder autokilometers wegen het zwaarst. Denk na over hoe jij kan bijdragen."),
     dict(type="waarofniet",
          vraag="Een maatregel kan zowel adaptatie als mitigatie zijn.",
          antwoord=True,

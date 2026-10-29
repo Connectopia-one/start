@@ -197,7 +197,7 @@ DEEL2 = [
                  "de Raad van State, die het bestuur nakijkt",
                  "het Grondwettelijk Hof, dat de wetten toetst"],
          antwoord=0,
-         uitleg="Naast het CAW noemt de fiche de justitiehuizen, het OCMW en de wetswinkel."),
+         uitleg="Naast het CAW kan je terecht bij de justitiehuizen, het OCMW en de wetswinkel."),
     dict(type="meerkeuze",
          vraag="Wat is een wetswinkel?",
          opties=["een plaats waar je gratis terecht kan met een juridische vraag",
@@ -255,8 +255,7 @@ DEEL2 = [
                  "de tweede lijn geeft enkel informatie en geen echte bijstand",
                  "de eerste lijn behandelt je zaak tot bij de rechter"],
          antwoord=[0, 1],
-         uitleg="De fiche noemt ook gratis consulten bij advocaten als een vorm van "
-                "eerstelijnsbijstand."),
+         uitleg="Ook gratis consulten bij advocaten zijn een vorm van eerstelijnsbijstand."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over conflictoplossing kloppen?",
          opties=["een geschil kan buiten de rechtbank en binnen de rechtbank opgelost worden",

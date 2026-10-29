@@ -103,7 +103,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke zes voorstellingen noemt de vakfiche bij naam?",
+        vraag="Welke zes voorstellingen van data leer je in dit hoofdstuk maken?",
         opties=[
             "staafdiagram, lijndiagram, dotplot, histogram, spreidingsdiagram en boxplot",
             "staafdiagram, cirkeldiagram, dotplot, histogram, puntenwolk en boxplot",
@@ -111,7 +111,7 @@ DEEL1 = [
             "lijndiagram, cirkeldiagram, histogram, boxplot, dotplot en tabel",
         ],
         antwoord=0,
-        uitleg="Een cirkeldiagram of schijfdiagram staat niet in de lijst van deze fiche.",
+        uitleg="Een cirkeldiagram of schijfdiagram hoort niet bij deze zes.",
     ),
     dict(
         type="meerkeuze",
@@ -145,7 +145,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe maak je volgens de fiche de grafische voorstellingen bij een grote dataset?",
+        vraag="Hoe maak je de grafische voorstellingen bij een grote dataset?",
         opties=[
             "met ICT, dus met de rekenapps van de examencommissie",
             "met de hand, want een rekenapp tekent geen histogram",
@@ -153,7 +153,7 @@ DEEL1 = [
             "door de gegevens eerst te standaardiseren",
         ],
         antwoord=0,
-        uitleg="De fiche vraagt het ook zo: je maakt met ICT de nodige grafische voorstellingen. Het beoordelen doe je zelf.",
+        uitleg="Je maakt met ICT de nodige grafische voorstellingen. Het beoordelen doe je zelf.",
     ),
     dict(
         type="invultekst",
@@ -189,7 +189,7 @@ DEEL1 = [
             "een staafdiagram, want daar zie je de categorieën",
         ],
         antwoord=0,
-        uitleg="De fiche vraagt dat je op basis van een grafische voorstelling beoordeelt of de normale verdeling past. Een histogram is daar het geschiktst voor.",
+        uitleg="Je beoordeelt op basis van een grafische voorstelling of de normale verdeling past. Een histogram is daar het geschiktst voor.",
     ),
     dict(
         type="waarofniet",

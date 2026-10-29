@@ -215,7 +215,7 @@ DEEL2 = [
          antwoord=0,
          uitleg="Je schuift hem over een regel en de tekst komt op de computer."),
     dict(type="meerkeuze",
-         vraag="Welke scanners noemt de vakfiche?",
+         vraag="Welke van deze zijn scanners?",
          opties=["de leespen",
                  "de handscanner",
                  "de vlakbedscanner",

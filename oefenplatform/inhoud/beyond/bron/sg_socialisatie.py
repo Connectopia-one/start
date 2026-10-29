@@ -114,7 +114,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Sociale positie en sociale status betekenen hetzelfde.",
         antwoord=False,
-        uitleg="Niet waar. De positie is de plaats, de status is het aanzien van die plaats. Ze staan als twee aparte begrippen in de fiche.",
+        uitleg="Niet waar. De positie is de plaats, de status is het aanzien van die plaats. Het zijn twee aparte begrippen.",
     ),
     dict(
         type="meerkeuze",
@@ -178,7 +178,7 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Socialisatie stopt volgens de fiche aan het einde van de adolescentie.",
+        vraag="Socialisatie stopt aan het einde van de adolescentie.",
         antwoord=False,
         uitleg="Niet waar. Bij elke nieuwe positie, zoals een eerste baan of het ouderschap, komt er socialisatie bij.",
     ),
@@ -229,7 +229,7 @@ DEEL1 = [
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Hoeveel visies over socialisatie noemt de fiche bij naam?",
+        vraag="Hoeveel visies over socialisatie leer je kennen?",
         opties=[
             "vier",
             "drie",
@@ -253,7 +253,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke visie hoort in de fiche bij George Herbert Mead?",
+        vraag="Welke visie hoort bij George Herbert Mead?",
         opties=[
             "het symbolisch interactionisme",
             "het functionalisme",
@@ -277,7 +277,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke visie hoort in de fiche bij Talcott Parsons?",
+        vraag="Welke visie hoort bij Talcott Parsons?",
         opties=[
             "het functionalisme",
             "het symbolisch interactionisme",
@@ -301,7 +301,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarmee droeg Robert K. Merton volgens de fiche bij?",
+        vraag="Waarmee droeg Robert K. Merton bij?",
         opties=[
             "met de referentiegroepentheorie",
             "met het symbolisch interactionisme",
@@ -381,7 +381,7 @@ DEEL2 = [
         type="invultekst",
         vraag="De visie van Talcott Parsons, die naar de functie van elk deel voor het geheel kijkt, heet het ...",
         antwoord=["functionalisme"],
-        uitleg="Het functionalisme. Het staat in de fiche ook terug bij de verklaringsmodellen voor sociale stratificatie.",
+        uitleg="Het functionalisme. Het komt ook terug bij de verklaringsmodellen voor sociale stratificatie.",
     ),
     dict(
         type="meerkeuze",
@@ -398,7 +398,7 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="De fiche vraagt om de visies over socialisatie met elkaar te vergelijken en de gelijkenissen en verschillen te benoemen.",
+        vraag="Je vergelijkt de visies over socialisatie met elkaar en benoemt de gelijkenissen en verschillen.",
         antwoord=True,
         uitleg="Waar. Dat staat er met zoveel woorden, naast het leggen van verbanden met onderzoek uit aangereikte bronnen.",
     ),

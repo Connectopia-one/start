@@ -298,7 +298,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welk bewijs staat níét in de lijst met bewijzen van deze vakfiche?",
+        vraag="Welk van deze bewijzen moet je níét kunnen geven?",
         opties=[
             "de som van de hoeken in een vierhoek",
             "de irrationaliteit van de vierkantswortel van 2",
@@ -310,7 +310,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat mag je tijdens het examen gebruiken volgens de vakfiche?",
+        vraag="Wat mag je tijdens het examen gebruiken?",
         opties=[
             "het formularium uit bijlage 1, maar niet de lijst met bewijzen",
             "de lijst met bewijzen uit bijlage 2, maar niet het formularium",

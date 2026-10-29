@@ -56,7 +56,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze gedragingen noemt de fiche prosociaal?",
+        vraag="Welke van deze gedragingen zijn prosociaal?",
         opties=[
             "delen",
             "troosten",
@@ -66,11 +66,11 @@ DEEL1 = [
             "samenwerken",
         ],
         antwoord=[0, 1, 2, 5],
-        uitleg="De fiche noemt zes vormen van prosociaal gedrag: delen, helpen en ondersteunen, positief groepsgedrag, samenwerken, troosten en verantwoordelijkheid opnemen.",
+        uitleg="Er zijn zes vormen van prosociaal gedrag: delen, helpen en ondersteunen, positief groepsgedrag, samenwerken, troosten en verantwoordelijkheid opnemen.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze gedragingen noemt de fiche antisociaal?",
+        vraag="Welke van deze gedragingen zijn antisociaal?",
         opties=[
             "pesten",
             "vandalisme",
@@ -80,7 +80,7 @@ DEEL1 = [
             "agressie",
         ],
         antwoord=[0, 1, 2, 5],
-        uitleg="De fiche noemt zes vormen van antisociaal gedrag: agressie, liegen en bedriegen, ongepast groepsgedrag, pesten, regels overtreden en vandalisme.",
+        uitleg="Er zijn zes vormen van antisociaal gedrag: agressie, liegen en bedriegen, ongepast groepsgedrag, pesten, regels overtreden en vandalisme.",
     ),
     dict(
         type="meerkeuze",
@@ -92,7 +92,7 @@ DEEL1 = [
             "verantwoordelijkheid opnemen voor een opdracht",
         ],
         antwoord=0,
-        uitleg="Bij iemand blijven die verdriet heeft, is troosten. De fiche noemt dat als een aparte vorm van prosociaal gedrag.",
+        uitleg="Bij iemand blijven die verdriet heeft, is troosten. Dat is een aparte vorm van prosociaal gedrag.",
     ),
     dict(
         type="meerkeuze",
@@ -116,13 +116,13 @@ DEEL1 = [
         type="waarofniet",
         vraag="Iets voor iemand doen in de hoop er zelf iets aan over te houden, blijft prosociaal gedrag.",
         antwoord=True,
-        uitleg="Waar. De fiche kijkt naar het gedrag zelf, niet naar de reden erachter. Helpen blijft helpen, ook met een eigen bedoeling erbij.",
+        uitleg="Waar. Je kijkt naar het gedrag zelf, niet naar de reden erachter. Helpen blijft helpen, ook met een eigen bedoeling erbij.",
     ),
     dict(
         type="waarofniet",
-        vraag="Alle gedrag in een groep is volgens de fiche prosociaal, want je doet het samen.",
+        vraag="Alle gedrag in een groep is prosociaal, want je doet het samen.",
         antwoord=False,
-        uitleg="Niet waar. De fiche noemt zowel positief groepsgedrag als ongepast groepsgedrag. Samen iets doen zegt niets over goed of slecht.",
+        uitleg="Niet waar. Er is zowel positief groepsgedrag als ongepast groepsgedrag. Samen iets doen zegt niets over goed of slecht.",
     ),
     dict(
         type="meerkeuze",
@@ -138,7 +138,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke mentale processen horen volgens de fiche bij sociale cognitie?",
+        vraag="Welke mentale processen horen bij sociale cognitie?",
         opties=[
             "attitude",
             "attributie",
@@ -187,13 +187,13 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="De fiche noemt zes vormen van prosociaal gedrag en zes vormen van antisociaal gedrag.",
+        vraag="Je leert zes vormen van prosociaal gedrag en zes vormen van antisociaal gedrag kennen.",
         antwoord=True,
-        uitleg="Waar. Zes en zes, en ze staan allebei in de fiche met hun namen.",
+        uitleg="Waar. Zes en zes, elk met hun eigen naam.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Nora vertelt haar ouders dat ze bij een vriendin was, terwijl ze op een feest zat. Welk gedrag is dit volgens de fiche?",
+        vraag="Nora vertelt haar ouders dat ze bij een vriendin was, terwijl ze op een feest zat. Welk gedrag is dit?",
         opties=[
             "liegen en bedriegen",
             "regels overtreden",
@@ -201,7 +201,7 @@ DEEL1 = [
             "agressie",
         ],
         antwoord=0,
-        uitleg="Iets anders zeggen dan de waarheid is liegen. De fiche noemt liegen en bedriegen als één vorm van antisociaal gedrag.",
+        uitleg="Iets anders zeggen dan de waarheid is liegen. Liegen en bedriegen is één vorm van antisociaal gedrag.",
     ),
     dict(
         type="meerkeuze",
@@ -223,7 +223,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom vraagt de fiche om gedrag te beoordelen als prosociaal of antisociaal, en niet als goed of slecht?",
+        vraag="Waarom beoordeel je gedrag als prosociaal of antisociaal, en niet als goed of slecht?",
         opties=[
             "omdat de twee begrippen naar het effect op anderen kijken",
             "omdat goed en slecht in de psychologie niet bestaan",
@@ -250,7 +250,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wie hoort in de fiche bij de attributietheorie met de interne en de externe attributie?",
+        vraag="Wie hoort bij de attributietheorie met de interne en de externe attributie?",
         opties=[
             "Fritz Heider",
             "Bernard Weiner",
@@ -330,7 +330,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Een attributie is niet altijd juist: het is de verklaring die jij maakt, niet noodzakelijk de echte oorzaak.",
         antwoord=True,
-        uitleg="Waar. Daarom spreekt de fiche van een fout: de fundamentele attributiefout.",
+        uitleg="Waar. Daarom spreek je van een fout: de fundamentele attributiefout.",
     ),
     dict(
         type="waarofniet",
@@ -340,7 +340,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wie hoort in de fiche bij de attributietheorie van motivatie en emoties?",
+        vraag="Wie hoort bij de attributietheorie van motivatie en emoties?",
         opties=[
             "Bernard Weiner",
             "Fritz Heider",
@@ -394,7 +394,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wie hoort in de fiche bij de theorie van de impliciete overtuigingen, met de fixed en de growth mindset?",
+        vraag="Wie hoort bij de theorie van de impliciete overtuigingen, met de fixed en de growth mindset?",
         opties=[
             "Carol Dweck",
             "Bernard Weiner",

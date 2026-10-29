@@ -171,7 +171,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="De vakfiche vraagt dat je communicatie 'gepast' is. Wat betekent dat?",
+        vraag="Je communicatie moet 'gepast' zijn. Wat betekent dat?",
         opties=[
             "dat ze past bij de ontvanger en de situatie",
             "dat ze zo kort mogelijk gehouden is",
@@ -246,7 +246,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke soorten taalvariëteiten noemt de vakfiche naast de standaardtaal?",
+        vraag="Welke soorten taalvariëteiten zijn er naast de standaardtaal?",
         opties=[
             "nationale",
             "regionale",
@@ -274,7 +274,7 @@ DEEL2 = [
             "door de vaktaal van artsen en juristen",
         ],
         antwoord=0,
-        uitleg="De fiche noemt onder meer het Engels, het Marokkaans en het Surinaams als bronnen van jongerentaal.",
+        uitleg="Bronnen van jongerentaal zijn onder meer het Engels, het Marokkaans en het Surinaams.",
     ),
     dict(
         type="waarofniet",
@@ -360,11 +360,11 @@ DEEL2 = [
             "kleding en uiterlijk",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="Een rijmschema hoort bij poëzie. De fiche noemt voor schriftelijke communicatie zelfs emoji's.",
+        uitleg="Een rijmschema hoort bij poëzie. Bij schriftelijke communicatie horen zelfs emoji's.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom zegt de fiche dat je taalgebruik een deel van je identiteit is?",
+        vraag="Waarom is je taalgebruik een deel van je identiteit?",
         opties=[
             "omdat anderen er een beeld van jou uit afleiden",
             "omdat je taalgebruik vastligt bij je geboorte",

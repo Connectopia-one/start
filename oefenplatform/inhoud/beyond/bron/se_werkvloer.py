@@ -176,7 +176,7 @@ DEEL1 = [
             "een risicoanalyse van de werkplek",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="Een toeslag maakt het werk niet veiliger. De fiche gaat over maatregelen, niet over vergoedingen.",
+        uitleg="Een toeslag maakt het werk niet veiliger. Het gaat over maatregelen, niet over vergoedingen.",
     ),
     dict(
         type="invultekst",
@@ -308,7 +308,7 @@ DEEL2 = [
             "het goedkeuren van je arbeidsovereenkomst",
         ],
         antwoord=0,
-        uitleg="Vakbonden staan in het rijtje van de fiche naast de officiële instanties.",
+        uitleg="Vakbonden staan naast de officiële instanties.",
     ),
     dict(
         type="meerkeuze",
@@ -319,7 +319,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel instanties en organisaties noemt de fiche waar een werknemer of student terechtkan?",
+        vraag="Bij hoeveel instanties en organisaties kan een werknemer of student terecht?",
         opties=["zes", "vier", "vijf", "zeven"],
         antwoord=0,
         uitleg="CPBW, RSZ, RVA, student@work, vakbonden en VDAB.",
@@ -338,7 +338,7 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een vakbond staat in de fiche bij de organisaties waar een werknemer terechtkan.",
+        vraag="Een werknemer kan terecht bij een vakbond.",
         antwoord=True,
         uitleg="Ze staan er naast het CPBW, de RSZ, de RVA, student@work en de VDAB.",
     ),
@@ -350,7 +350,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke instanties noemt de fiche?",
+        vraag="Bij welke van deze instanties kan een werknemer terecht?",
         opties=[
             "de RVA",
             "de VDAB",

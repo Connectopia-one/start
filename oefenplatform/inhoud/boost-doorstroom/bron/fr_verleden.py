@@ -248,5 +248,5 @@ DEEL2 = [
          vraag="Drie van deze vormen zijn voltooide deelwoorden. Welke is een persoonsvorm?",
          opties=["allé", "fait", "venu", "allez"],
          antwoord=3,
-         uitleg="Allez is de vous-vorm van aller. Allé is het deelwoord. De fiche noemt dat onderscheid zelf als voorbeeld bij het lezen."),
+         uitleg="Allez is de vous-vorm van aller. Allé is het deelwoord. Let bij het lezen goed op dat onderscheid."),
 ]

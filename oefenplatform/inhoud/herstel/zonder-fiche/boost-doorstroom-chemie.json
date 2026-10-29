@@ -1,0 +1,1090 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Enkelvoudige en samengestelde stoffen — deel 2",
+   "niveau": "boost-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke formule hoort bij zuurstofgas?",
+     "opties": [
+      "O₂",
+      "O",
+      "O₃",
+      "H₂O"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zuurstofgas bestaat uit moleculen van twee zuurstofatomen. O₃ is ozon en O alleen is een los atoom."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke stof heeft de triviale naam ozon?",
+     "opties": [
+      "O₃",
+      "O₂",
+      "CO₂",
+      "H₂O₂"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ozon bestaat uit drie zuurstofatomen per molecule. Het beschermt ons hoog in de atmosfeer tegen uv-straling."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke eigenschappen horen bij metalen? Kruis alles aan wat juist is.",
+     "opties": [
+      "ze geleiden elektriciteit goed",
+      "ze zijn vervormbaar",
+      "ze zijn bij kamertemperatuur altijd een gas",
+      "ze hebben geen glans",
+      "ze geleiden warmte goed"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4
+     ],
+     "uitleg": "Metalen geleiden elektriciteit en warmte, zijn vervormbaar en hebben glans. Op kwik na zijn ze bij kamertemperatuur vast."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom gebruikt men helium in een weerballon?",
+     "opties": [
+      "het is licht en reageert niet",
+      "het geleidt elektriciteit uitstekend",
+      "het brandt met een heldere vlam",
+      "het lost goed op in water"
+     ],
+     "antwoord": 0,
+     "uitleg": "Helium is een edelgas: het is inert en dus niet brandbaar, en het is veel lichter dan lucht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke enkelvoudige stoffen gebruikt men omdat ze met niets reageren? Kruis alles aan wat juist is.",
+     "opties": [
+      "neon in lichtreclame",
+      "helium in een ballon",
+      "chloorgas in een zwembad",
+      "zuurstofgas in een ziekenhuis",
+      "argon bij het lassen"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4
+     ],
+     "uitleg": "Neon en helium zijn edelgassen en dus inert. Chloorgas en zuurstofgas worden juist gebruikt omdát ze reageren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Grafiet en diamant bestaan allebei uit koolstof. Waarom zijn hun eigenschappen zo verschillend?",
+     "opties": [
+      "de atomen liggen anders geschikt",
+      "diamant bevat ook zuurstof",
+      "grafiet is een mengsel",
+      "diamant heeft een ander atoomnummer"
+     ],
+     "antwoord": 0,
+     "uitleg": "In diamant zit elk koolstofatoom aan vier andere vast in een stevig ruimtelijk rooster. In grafiet liggen de atomen in lagen die over elkaar schuiven."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom geleidt grafiet elektriciteit en diamant niet?",
+     "opties": [
+      "in grafiet kunnen elektronen zich vrij bewegen",
+      "grafiet is zachter dan diamant",
+      "grafiet is zwart van kleur",
+      "diamant is doorzichtig"
+     ],
+     "antwoord": 0,
+     "uitleg": "In grafiet hoort elk koolstofatoom maar aan drie andere vast; de overblijvende elektronen bewegen vrij door de lagen. In diamant zit elk elektron vast in een binding."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke stoffen zijn edelgassen? Kruis alles aan wat juist is.",
+     "opties": [
+      "He",
+      "Ar",
+      "N₂",
+      "Cl₂",
+      "Ne"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4
+     ],
+     "uitleg": "Helium en argon staan in de laatste groep van het periodiek systeem en reageren met vrijwel niets. Stikstofgas en chloorgas zijn niet-metalen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Chloorgas valt op door zijn kleur. Welke is dat?",
+     "opties": [
+      "geelgroen",
+      "diepblauw",
+      "roodbruin",
+      "kleurloos"
+     ],
+     "antwoord": 0,
+     "uitleg": "Cl₂ is een geelgroen gas met een scherpe geur. Die kleur moet je kennen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke kleur heeft zuiver koper?",
+     "opties": [
+      "roodbruin",
+      "zilvergrijs",
+      "geelgroen",
+      "diepzwart"
+     ],
+     "antwoord": 0,
+     "uitleg": "Koper is roodbruin en glanzend. Dat maakt het makkelijk te onderscheiden van de meeste andere metalen, die zilvergrijs zijn."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom gebruikt men waterstofgas als brandstof?",
+     "opties": [
+      "bij de verbranding ontstaat enkel water",
+      "het is een edelgas en dus veilig",
+      "het is het zwaarste gas dat er bestaat",
+      "het lost niet op in water"
+     ],
+     "antwoord": 0,
+     "uitleg": "Waterstof verbrandt met zuurstof tot water, dus komt er geen koolstofdioxide vrij. Het gas is wel heel brandbaar en vraagt dus voorzichtigheid."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Edelgassen zijn inert: ze gaan bijna geen reacties aan.",
+     "antwoord": true,
+     "uitleg": "Hun buitenste schil is volledig gevuld, dus hebben ze niets te winnen bij een binding."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij kamertemperatuur zijn alle metalen vast.",
+     "antwoord": false,
+     "uitleg": "Kwik is bij kamertemperatuur vloeibaar. Dat is de uitzondering onder de metalen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Niet-metalen geleiden elektriciteit even goed als metalen.",
+     "antwoord": false,
+     "uitleg": "Bij een niet-metaal zitten de elektronen vast in bindingen, dus geleidt het slecht. Grafiet is de bekende uitzondering."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De triviale naam van N₂ is stikstofgas.",
+     "antwoord": true,
+     "uitleg": "Stikstofgas vormt bijna vier vijfde van de lucht. De IUPAC-naam is distikstof."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Ozon en zuurstofgas zijn dezelfde stof, want ze bestaan uit hetzelfde element.",
+     "antwoord": false,
+     "uitleg": "Het aantal atomen per molecule verschilt, en daarmee ook de eigenschappen: ozon ruikt scherp en is giftig om in te ademen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke enkelvoudige stof gebruikt men in de potloodstift, omdat de lagen erin over elkaar schuiven?",
+     "antwoord": [
+      "grafiet",
+      "het grafiet"
+     ],
+     "uitleg": "Grafiet bestaat uit koolstoflagen die loslaten. Daarom laat een potlood een streep na op papier."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke enkelvoudige stof heeft de triviale naam waterstofgas?",
+     "antwoord": [
+      "H2",
+      "diwaterstof",
+      "H₂"
+     ],
+     "uitleg": "Waterstofgas bestaat uit moleculen van twee waterstofatomen, dus H₂. De IUPAC-naam is diwaterstof."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noemt men de eigenschap van een metaal om zich te laten pletten en buigen zonder te breken?",
+     "antwoord": [
+      "vervormbaarheid",
+      "de vervormbaarheid",
+      "vervormbaar"
+     ],
+     "uitleg": "Omdat de elektronen in een metaal vrij bewegen, kunnen de atomen langs elkaar schuiven zonder dat de binding breekt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke enkelvoudige stof, hard en doorzichtig, gebruikt men in boor- en zaagwerktuigen?",
+     "antwoord": [
+      "diamant",
+      "het diamant"
+     ],
+     "uitleg": "In diamant hangt elk koolstofatoom aan vier andere vast. Dat ruimtelijke rooster maakt het de hardste natuurlijke stof."
+    }
+   ]
+  },
+  {
+   "titel": "Stoffen in water: polariteit, oplossen en pH — deel 1",
+   "niveau": "boost-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wanneer is een binding tussen twee atomen polair?",
+     "opties": [
+      "als het verschil in elektronegativiteit minstens \\(0{,}4\\) is",
+      "als beide atomen een metaal zijn",
+      "als de atomen evenveel elektronen hebben",
+      "als de stof vast is bij kamertemperatuur"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij een groot verschil trekt het ene atoom de elektronen duidelijk naar zich toe. De binding krijgt dan een plus- en een minkant."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is een watermolecule polair?",
+     "opties": [
+      "de molecule is gebogen en zuurstof trekt harder",
+      "de molecule is recht en volledig symmetrisch",
+      "de molecule bevat een metaal",
+      "de molecule heeft geen vrije elektronenparen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zuurstof trekt de elektronen naar zich toe, en door de hoek vallen de twee effecten niet weg. Er blijft dus een minkant en een pluskant over."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke stoffen zijn apolair? Kruis alles aan wat juist is.",
+     "opties": [
+      "CCl₄",
+      "hexaan",
+      "water",
+      "natriumchloride",
+      "CH₄",
+      "Br₂"
+     ],
+     "antwoord": [
+      0,
+      1,
+      4,
+      5
+     ],
+     "uitleg": "CCl₄ is symmetrisch, dus vallen de polaire bindingen tegen elkaar weg. Alkanen zoals hexaan zijn de klassieke apolaire stoffen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de vuistregel voor de oplosbaarheid van stoffen?",
+     "opties": [
+      "gelijk lost op in gelijk",
+      "zwaar lost op in licht",
+      "vast lost op in vast",
+      "zuur lost op in zuur"
+     ],
+     "antwoord": 0,
+     "uitleg": "Polaire stoffen lossen op in polaire oplosmiddelen en apolaire in apolaire. Daarom mengt olie niet met water."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom lost olie niet op in water?",
+     "opties": [
+      "olie is apolair en water polair",
+      "olie is te zwaar voor water",
+      "olie is een zout en water niet",
+      "olie bevat geen koolstof"
+     ],
+     "antwoord": 0,
+     "uitleg": "De watermoleculen houden elkaar sterk vast met waterstofbruggen en laten de apolaire oliemoleculen er niet tussen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke intermoleculaire kracht is de sterkste van de vier?",
+     "opties": [
+      "de waterstofbrug",
+      "de londonkracht",
+      "de dipoolkracht",
+      "geen van de vier"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een waterstofbrug ontstaat als waterstof aan zuurstof, stikstof of fluor hangt. Daardoor kookt water pas bij honderd graden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke kracht werkt tussen de moleculen van een apolaire stof?",
+     "opties": [
+      "de londonkracht",
+      "de waterstofbrug",
+      "de ion-dipoolkracht",
+      "de ionbinding"
+     ],
+     "antwoord": 0,
+     "uitleg": "Londonkrachten ontstaan uit tijdelijke, toevallige verschuivingen van de elektronen. Ze zijn zwak maar werken tussen alle moleculen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke kracht houdt een opgelost ion vast aan de watermoleculen eromheen?",
+     "opties": [
+      "de ion-dipoolkracht",
+      "de londonkracht",
+      "de metaalbinding",
+      "de atoombinding"
+     ],
+     "antwoord": 0,
+     "uitleg": "De minkant van het water richt zich naar een positief ion en de pluskant naar een negatief ion. Dat omhullen heet hydratatie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe noemt men het omhullen van een opgelost ion door watermoleculen?",
+     "opties": [
+      "hydratatie",
+      "destillatie",
+      "adsorptie",
+      "neutralisatie"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het water omringt elk ion apart en houdt het zo in oplossing. Daardoor valt het rooster van het zout uiteen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom kookt water bij een veel hogere temperatuur dan je bij zo'n kleine molecule zou verwachten?",
+     "opties": [
+      "de watermoleculen houden elkaar vast met waterstofbruggen",
+      "water bevat een metaal dat de warmte vasthoudt",
+      "water is apolair en apolaire stoffen koken hoog",
+      "watermoleculen zijn zwaarder dan luchtmoleculen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Om te koken moet je die bruggen verbreken, en dat vraagt veel energie. Daarom blijft water vloeibaar tot honderd graden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke stoffen lossen goed op in water? Kruis alles aan wat juist is.",
+     "opties": [
+      "keukenzout",
+      "suiker",
+      "olijfolie",
+      "paraffine"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Keukenzout bestaat uit ionen en suiker heeft veel OH-groepen, dus allebei goed bruikbaar voor het polaire water. Olie en paraffine zijn apolair."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een molecule met polaire bindingen kan als geheel toch apolair zijn.",
+     "antwoord": true,
+     "uitleg": "Als de molecule symmetrisch is, vallen de effecten tegen elkaar weg. CCl₄ en CO₂ zijn zo."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een waterstofbrug is sterker dan een atoombinding.",
+     "antwoord": false,
+     "uitleg": "Een waterstofbrug is de sterkste van de krachten tússen moleculen, maar nog altijd veel zwakker dan een binding bínnen een molecule."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een apolair oplosmiddel is geschikt om vet te verwijderen.",
+     "antwoord": true,
+     "uitleg": "Vet is apolair, dus lost het goed op in een apolair oplosmiddel. Daarom werkt vlekkenwater op een vetvlek en water niet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een binding met een verschil in elektronegativiteit van \\(0{,}2\\) is polair.",
+     "antwoord": false,
+     "uitleg": "De afspraak legt de grens op \\(0{,}4\\). Onder die waarde geldt de binding als apolair."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Londonkrachten werken tussen alle moleculen, ook tussen polaire.",
+     "antwoord": true,
+     "uitleg": "Elke molecule heeft elektronen die toevallig even opzij schuiven. Bij polaire stoffen komen de dipoolkrachten er bovenop."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noemt men een stof die een plus- en een minkant heeft?",
+     "antwoord": [
+      "polair",
+      "een polaire stof",
+      "polaire stof"
+     ],
+     "uitleg": "Zo'n stof lost goed op in water, want water is zelf polair."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke intermoleculaire kracht ontstaat als waterstof aan zuurstof, stikstof of fluor hangt?",
+     "antwoord": [
+      "waterstofbrug",
+      "een waterstofbrug",
+      "waterstofbruggen"
+     ],
+     "uitleg": "Die kracht is de sterkste tussen moleculen en verklaart het hoge kookpunt van water."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke kracht werkt tussen twee polaire moleculen onderling?",
+     "antwoord": [
+      "dipoolkracht",
+      "de dipoolkracht",
+      "dipoolkrachten"
+     ],
+     "uitleg": "De pluskant van de ene molecule richt zich naar de minkant van de andere."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Is CO₂ als molecule polair of apolair?",
+     "antwoord": [
+      "apolair",
+      "apolaire"
+     ],
+     "uitleg": "De molecule is recht en symmetrisch, dus vallen de twee polaire bindingen tegen elkaar weg."
+    }
+   ]
+  },
+  {
+   "titel": "Neerslag-, gas-, neutralisatie- en redoxreacties — deel 2",
+   "niveau": "boost-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over een oxidatie zijn juist? Kruis alles aan wat juist is.",
+     "opties": [
+      "het deeltje geeft elektronen af",
+      "het oxidatiegetal van het deeltje stijgt",
+      "het deeltje neemt elektronen op",
+      "het deeltje verliest protonen uit zijn kern"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Elk afgegeven elektron verhoogt het oxidatiegetal met één. Protonen blijven altijd in de kern zitten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebeurt er met het oxidatiegetal van een deeltje dat gereduceerd wordt?",
+     "opties": [
+      "het daalt",
+      "het stijgt",
+      "het blijft gelijk",
+      "het wordt altijd nul"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij reductie neemt het deeltje elektronen op, en elk elektron verlaagt het oxidatiegetal met één."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet een oxidator in een redoxreactie?",
+     "opties": [
+      "hij neemt elektronen op",
+      "hij geeft elektronen af",
+      "hij neemt protonen op",
+      "hij verandert niet"
+     ],
+     "antwoord": 0,
+     "uitleg": "De oxidator laat de andere stof oxideren en wordt daarbij zelf gereduceerd. De reductor doet net het omgekeerde."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over een reductor zijn juist? Kruis alles aan wat juist is.",
+     "opties": [
+      "hij geeft elektronen af",
+      "hij wordt zelf geoxideerd",
+      "zijn oxidatiegetal daalt",
+      "hij neemt elektronen op"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Een reductor laat de andere stof reduceren door er elektronen aan te geven. Daarbij stijgt zijn eigen oxidatiegetal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In de reactie 2 Mg + O₂ → 2 MgO: wat gebeurt er met magnesium?",
+     "opties": [
+      "het wordt geoxideerd van \\(0\\) naar +II",
+      "het wordt gereduceerd van \\(0\\) naar −II",
+      "het oxidatiegetal blijft nul",
+      "het neemt twee elektronen op"
+     ],
+     "antwoord": 0,
+     "uitleg": "Magnesium geeft per atoom twee elektronen af aan zuurstof. Het is hier dus de reductor."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In de reactie 2 Mg + O₂ → 2 MgO: welke stof is de oxidator?",
+     "opties": [
+      "het zuurstofgas",
+      "het magnesium",
+      "het magnesiumoxide",
+      "er is geen oxidator"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zuurstof neemt de elektronen op en gaat van \\(0\\) naar −II. Wie elektronen opneemt, is de oxidator."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke coëfficiënten maken de verbranding ... C₂H₆ + ... O₂ → ... CO₂ + ... H₂O kloppend?",
+     "opties": [
+      "\\(2\\), \\(7\\), \\(4\\) en \\(6\\)",
+      "\\(1\\), \\(3\\), \\(2\\) en \\(3\\)",
+      "\\(2\\), \\(5\\), \\(4\\) en \\(6\\)",
+      "\\(1\\), \\(7\\), \\(2\\) en \\(3\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Twee moleculen ethaan geven vier CO₂ en zes H₂O. Rechts staan dan veertien zuurstofatomen, dus links zeven O₂."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat ontstaat er bij de volledige verbranding van ethanol?",
+     "opties": [
+      "koolstofdioxide en water",
+      "koolstofmonoxide en waterstof",
+      "azijnzuur en water",
+      "koolstof en zuurstof"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ook een alcohol bevat enkel koolstof, waterstof en zuurstof. Bij genoeg zuurstof wordt alles CO₂ en H₂O."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom ontstaat er bij een slechte verbranding koolstofmonoxide?",
+     "opties": [
+      "er is te weinig zuurstof",
+      "er is te veel zuurstof",
+      "de brandstof is te zuiver",
+      "de vlam is te warm"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij te weinig zuurstof krijgt elk koolstofatoom maar één zuurstofatoom mee. Koolstofmonoxide is kleurloos, geurloos en dodelijk."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat ontstaat er als een metaal met dizuurstof reageert?",
+     "opties": [
+      "een metaaloxide",
+      "een zuur",
+      "een zout",
+      "een hydroxide"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dat is een van de reactiepatronen. Roest is zo een metaaloxide van ijzer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke reacties zijn redoxreacties? Kruis alles aan wat juist is.",
+     "opties": [
+      "het verbranden van propaan",
+      "het roesten van ijzer",
+      "zoutzuur dat natriumhydroxide neutraliseert",
+      "zilvernitraat dat met keukenzout een neerslag geeft"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Bij een redoxreactie gaan er elektronen over en veranderen de oxidatiegetallen. Bij een neutralisatie en bij een neerslagreactie wisselen de ionen enkel van partner."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Oxidatie en reductie gebeuren altijd samen.",
+     "antwoord": true,
+     "uitleg": "De elektronen die de ene stof afgeeft, moet de andere opnemen. Zonder ontvanger is er geen oxidatie."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een verbranding is een redoxreactie.",
+     "antwoord": true,
+     "uitleg": "De brandstof geeft elektronen af aan de zuurstof, dus veranderen de oxidatiegetallen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij een oxidatie daalt het oxidatiegetal van het deeltje.",
+     "antwoord": false,
+     "uitleg": "Bij een oxidatie stijgt het, want het deeltje geeft elektronen af. Bij een reductie daalt het."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In een enkelvoudige stof is het oxidatiegetal van elk atoom nul.",
+     "antwoord": true,
+     "uitleg": "Er is geen partner die de elektronen naar zich toe trekt, dus blijft het getal op nul. Dat geldt ook voor O₂ en voor Fe."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een neerslagreactie is een vorm van elektronenoverdracht.",
+     "antwoord": false,
+     "uitleg": "Bij een neerslagreactie wisselen de ionen enkel van partner en blijven hun ladingen gelijk. Dat is ionenuitwisseling."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de stof die in een redoxreactie elektronen afgeeft?",
+     "antwoord": [
+      "reductor",
+      "de reductor"
+     ],
+     "uitleg": "Door elektronen af te geven laat ze de andere stof reduceren, en wordt ze zelf geoxideerd."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel moleculen O₂ heb je nodig om één molecule CH₄ volledig te verbranden?",
+     "antwoord": [
+      "2",
+      "twee"
+     ],
+     "uitleg": "Er ontstaan één CO₂ en twee H₂O, samen vier zuurstofatomen. Dat zijn twee moleculen O₂."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk metaaloxide ontstaat er als ijzer in vochtige lucht roest?",
+     "antwoord": [
+      "Fe2O3",
+      "ijzer(III)oxide",
+      "Fe₂O₃"
+     ],
+     "uitleg": "Ijzer gaat daarbij naar oxidatiegetal +III. Roest is bruin en bladdert af, dus beschermt het het metaal eronder niet."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Wat ontstaat er als een niet-metaal met een ander niet-metaal reageert, bijvoorbeeld zwavel met zuurstof?",
+     "antwoord": [
+      "SO2",
+      "zwaveldioxide",
+      "een oxide"
+     ],
+     "uitleg": "Zwaveldioxide is een niet-metaaloxide en dus zuurvormend. Met water in de lucht geeft het zure regen."
+    }
+   ]
+  },
+  {
+   "titel": "Rekenen met mol, massa en concentratie — deel 1",
+   "niveau": "boost-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel deeltjes zitten er in één mol van een stof?",
+     "opties": [
+      "\\(6{,}02 \\cdot 10^{23}\\)",
+      "\\(6{,}02 \\cdot 10^{-23}\\)",
+      "\\(1{,}66 \\cdot 10^{-27}\\)",
+      "\\(6{,}02 \\cdot 10^{22}\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dat getal heet het getal van Avogadro. Het is een afspraak, zoals een dozijn er twaalf zijn, maar veel groter."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke formules geven een stofhoeveelheid in mol? Kruis alles aan wat juist is.",
+     "opties": [
+      "n = m / M",
+      "n = N / NA",
+      "n = m . M",
+      "n = M / m"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Uit de massa deel je door de molaire massa, uit het aantal deeltjes door het getal van Avogadro. De andere staan verkeerd om."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de molaire massa van water, als H \\(1{,}0\\) en O \\(16{,}0\\) is?",
+     "opties": [
+      "\\(18{,}0\\) g/mol",
+      "\\(17{,}0\\) g/mol",
+      "\\(16{,}0\\) g/mol",
+      "\\(20{,}0\\) g/mol"
+     ],
+     "antwoord": 0,
+     "uitleg": "Twee keer \\(1{,}0\\) voor de waterstof en \\(16{,}0\\) voor de zuurstof: samen \\(18{,}0\\) g/mol."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de molaire massa van CO₂, als C \\(12{,}0\\) en O \\(16{,}0\\) is?",
+     "opties": [
+      "\\(44{,}0\\) g/mol",
+      "\\(28{,}0\\) g/mol",
+      "\\(32{,}0\\) g/mol",
+      "\\(40{,}0\\) g/mol"
+     ],
+     "antwoord": 0,
+     "uitleg": "\\(12{,}0\\) voor de koolstof plus twee keer \\(16{,}0\\) voor de zuurstof: \\(44{,}0\\) g/mol."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel mol is \\(36{,}0\\) g water, als de molaire massa \\(18{,}0\\) g/mol is?",
+     "opties": [
+      "\\(2{,}00\\) mol",
+      "\\(0{,}500\\) mol",
+      "\\(18{,}0\\) mol",
+      "\\(648\\) mol"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je deelt \\(36{,}0\\) door \\(18{,}0\\) en komt op \\(2{,}00\\) mol uit."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel weegt \\(0{,}500\\) mol natriumchloride, als de molaire massa \\(58{,}5\\) g/mol is?",
+     "opties": [
+      "\\(29{,}3\\) g",
+      "\\(58{,}5\\) g",
+      "\\(117\\) g",
+      "\\(11{,}7\\) g"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je draait de formule om: m = n keer M, dus \\(0{,}500\\) keer \\(58{,}5\\) is \\(29{,}25\\) en afgerond \\(29{,}3\\) g."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel mol is \\(1{,}204 \\cdot 10^{24}\\) moleculen van een stof?",
+     "opties": [
+      "\\(2{,}00\\) mol",
+      "\\(0{,}500\\) mol",
+      "\\(1{,}20\\) mol",
+      "\\(20{,}0\\) mol"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je deelt door het getal van Avogadro: \\(1{,}204 \\cdot 10^{24} : 6{,}02 \\cdot 10^{23}\\) is \\(2{,}00\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel moleculen zitten er in \\(0{,}250\\) mol van een stof?",
+     "opties": [
+      "\\(1{,}51 \\cdot 10^{23}\\)",
+      "\\(2{,}41 \\cdot 10^{24}\\)",
+      "\\(1{,}51 \\cdot 10^{22}\\)",
+      "\\(6{,}02 \\cdot 10^{23}\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je vermenigvuldigt met het getal van Avogadro: \\(0{,}250\\) keer \\(6{,}02 \\cdot 10^{23}\\) geeft \\(1{,}51 \\cdot 10^{23}\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke eenheid hoort bij de molaire massa?",
+     "opties": [
+      "g/mol",
+      "mol/L",
+      "g/L",
+      "mol"
+     ],
+     "antwoord": 0,
+     "uitleg": "De molaire massa zegt hoeveel gram één mol weegt, dus gram per mol."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke grootheden heb je nodig om de stofhoeveelheid uit de massa te berekenen? Kruis alles aan wat juist is.",
+     "opties": [
+      "de massa van het staal",
+      "de molaire massa van de stof",
+      "het volume van het vat",
+      "de temperatuur van het lokaal"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Met n = m gedeeld door M heb je enkel die twee nodig. Het volume komt pas bij een concentratie te pas."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een leerling berekent de massa van \\(3\\) mol CO₂ en schrijft \\(132\\) g op. Hoe weet je zonder narekenen dat de orde klopt?",
+     "opties": [
+      "drie keer ruim veertig is ongeveer honderdtwintig",
+      "drie mol weegt altijd ongeveer honderd gram",
+      "de massa is altijd gelijk aan het aantal mol",
+      "de massa moet onder de tien gram blijven"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zo'n schatting vooraf laat je meteen zien of je antwoord in de buurt ligt. \\(3\\) keer \\(44{,}0\\) is \\(132\\) g, dus klopt het."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Eén mol van een stof bevat altijd evenveel deeltjes, welke stof het ook is.",
+     "antwoord": true,
+     "uitleg": "Dat is net de afspraak achter de mol: telkens \\(6{,}02 \\cdot 10^{23}\\) deeltjes. De massa van die mol verschilt wel per stof."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Eén mol water en één mol koolstofdioxide hebben dezelfde massa.",
+     "antwoord": false,
+     "uitleg": "Water is \\(18{,}0\\) g/mol en koolstofdioxide \\(44{,}0\\) g/mol. Het aantal deeltjes is gelijk, de massa niet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De molaire massa van een stof lees je af uit de relatieve atoommassa's in het periodiek systeem.",
+     "antwoord": true,
+     "uitleg": "Je telt de relatieve atoommassa's van alle atomen in de formule op. Het getal dat je krijgt, is de molaire massa in g/mol."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Als je naar de stofhoeveelheid gevraagd wordt, bedoelt men de massa in gram.",
+     "antwoord": false,
+     "uitleg": "Afspraak: met stofhoeveelheid wordt het aantal mol bedoeld. Anders staat er expliciet massa of aantal deeltjes."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Twee mol van een stof bevat twee keer zoveel deeltjes als één mol.",
+     "antwoord": true,
+     "uitleg": "Het aantal deeltjes is recht evenredig met de stofhoeveelheid."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Wat is de molaire massa van NaOH, als Na \\(23{,}0\\) en O \\(16{,}0\\) en H \\(1{,}0\\) is? Noteer in g/mol.",
+     "antwoord": [
+      "40,0",
+      "40",
+      "40,0 g/mol"
+     ],
+     "uitleg": "\\(23{,}0\\) plus \\(16{,}0\\) plus \\(1{,}0\\) is \\(40{,}0\\) g/mol."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel mol is \\(88{,}0\\) g CO₂, als de molaire massa \\(44{,}0\\) g/mol is?",
+     "antwoord": [
+      "2,00",
+      "2",
+      "2,00 mol"
+     ],
+     "uitleg": "\\(88{,}0 : 44{,}0\\) is \\(2{,}00\\) mol."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel mol is \\(3{,}01 \\cdot 10^{23}\\) deeltjes?",
+     "antwoord": [
+      "0,500",
+      "0,5",
+      "0,500 mol"
+     ],
+     "uitleg": "Dat is precies de helft van het getal van Avogadro, dus \\(0{,}500\\) mol."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel gram weegt \\(0{,}200\\) mol water, met een molaire massa van \\(18{,}0\\) g/mol?",
+     "antwoord": [
+      "3,60",
+      "3,6",
+      "3,60 g"
+     ],
+     "uitleg": "\\(0{,}200\\) keer \\(18{,}0\\) is \\(3{,}60\\) g."
+    }
+   ]
+  },
+  {
+   "titel": "Rekenen met mol, massa en concentratie — deel 2",
+   "niveau": "boost-doorstroom",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over de molaire concentratie zijn juist? Kruis alles aan wat juist is.",
+     "opties": [
+      "ze is de stofhoeveelheid per volume",
+      "haar eenheid is mol per liter",
+      "ze is de massa per volume",
+      "haar eenheid is gram per mol"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "De formule is \\(c = n\\) gedeeld door V. De massa per volume is de massaconcentratie, in gram per liter."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je lost \\(0{,}500\\) mol zout op tot \\(2{,}00\\) L oplossing. Wat is de molaire concentratie?",
+     "opties": [
+      "\\(0{,}250\\) mol/L",
+      "\\(1{,}00\\) mol/L",
+      "\\(4{,}00\\) mol/L",
+      "\\(2{,}50\\) mol/L"
+     ],
+     "antwoord": 0,
+     "uitleg": "\\(0{,}500 : 2{,}00\\) is \\(0{,}250\\) mol/L."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je lost \\(0{,}100\\) mol op tot \\(250\\) mL oplossing. Wat is de molaire concentratie?",
+     "opties": [
+      "\\(0{,}400\\) mol/L",
+      "\\(0{,}025\\) mol/L",
+      "\\(2{,}50\\) mol/L",
+      "\\(25{,}0\\) mol/L"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zet \\(250\\) mL eerst om in \\(0{,}250\\) L. Dan is \\(0{,}100 : 0{,}250\\) gelijk aan \\(0{,}400\\) mol/L."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke eenheid hoort bij de massaconcentratie?",
+     "opties": [
+      "g/L",
+      "mol/L",
+      "g/mol",
+      "mol"
+     ],
+     "antwoord": 0,
+     "uitleg": "De massaconcentratie is de massa per volume, dus gram per liter. De molaire concentratie werkt met mol."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een oplossing bevat \\(40{,}0\\) g NaOH per liter. Wat is de molaire concentratie, met M gelijk aan \\(40{,}0\\) g/mol?",
+     "opties": [
+      "\\(1{,}00\\) mol/L",
+      "\\(0{,}100\\) mol/L",
+      "\\(40{,}0\\) mol/L",
+      "\\(1600\\) mol/L"
+     ],
+     "antwoord": 0,
+     "uitleg": "Deel de massaconcentratie door de molaire massa: \\(40{,}0 : 40{,}0\\) is \\(1{,}00\\) mol/L."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke formule gebruik je om een oplossing te verdunnen?",
+     "opties": [
+      "c₁V₁ = c₂V₂",
+      "\\(c = n\\) / V",
+      "n = m / M",
+      "n = N / NA"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij verdunnen voeg je enkel water toe, dus blijft het aantal mol gelijk. Daarom is het product van concentratie en volume links en rechts hetzelfde."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je verdunt \\(50{,}0\\) mL van een oplossing van \\(1{,}00\\) mol/L tot \\(250\\) mL. Wat is de nieuwe concentratie?",
+     "opties": [
+      "\\(0{,}200\\) mol/L",
+      "\\(0{,}500\\) mol/L",
+      "\\(5{,}00\\) mol/L",
+      "\\(0{,}050\\) mol/L"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het volume wordt vijf keer groter, dus de concentratie vijf keer kleiner: \\(1{,}00 : 5\\) is \\(0{,}200\\) mol/L."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je hebt \\(100\\) mL van \\(2{,}00\\) mol/L nodig uit een voorraad van \\(10{,}0\\) mol/L. Hoeveel neem je uit de voorraad?",
+     "opties": [
+      "\\(20{,}0\\) mL",
+      "\\(50{,}0\\) mL",
+      "\\(5{,}00\\) mL",
+      "\\(200\\) mL"
+     ],
+     "antwoord": 0,
+     "uitleg": "Uit c₁V₁ = c₂V₂ volgt V₁ = \\(2{,}00\\) keer \\(100 : 10{,}0\\), dus \\(20{,}0\\) mL. Daarna vul je aan tot \\(100\\) mL."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In de reactie 2 H₂ + O₂ → 2 H₂O reageert \\(4{,}00\\) mol H₂ volledig. Hoeveel mol O₂ is daarvoor nodig?",
+     "opties": [
+      "\\(2{,}00\\) mol",
+      "\\(4{,}00\\) mol",
+      "\\(8{,}00\\) mol",
+      "\\(1{,}00\\) mol"
+     ],
+     "antwoord": 0,
+     "uitleg": "De coëfficiënten geven de verhouding: op twee H₂ hoort één O₂. Dus bij \\(4{,}00\\) mol H₂ hoort \\(2{,}00\\) mol O₂."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In de reactie CaCO₃ + 2 HCl → CaCl₂ + H₂O + CO₂ reageert \\(1{,}00\\) mol kalksteen volledig. Hoeveel mol CO₂ ontstaat er?",
+     "opties": [
+      "\\(1{,}00\\) mol",
+      "\\(2{,}00\\) mol",
+      "\\(0{,}500\\) mol",
+      "\\(3{,}00\\) mol"
+     ],
+     "antwoord": 0,
+     "uitleg": "De coëfficiënt bij CaCO₃ en bij CO₂ is in beide gevallen één, dus is de verhouding één op één."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke stappen zet je om uit een massa reagens de massa van een product te berekenen? Kruis alles aan wat juist is.",
+     "opties": [
+      "de massa omzetten in mol",
+      "de verhouding uit de coëfficiënten gebruiken",
+      "de massa's gewoon bij elkaar optellen",
+      "de volumes van de stoffen vergelijken"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "De coëfficiënten gelden voor mol en niet voor gram. Dus reken je eerst naar mol, dan met de verhouding, en pas daarna terug naar gram."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij het verdunnen van een oplossing blijft het aantal mol opgeloste stof gelijk.",
+     "antwoord": true,
+     "uitleg": "Je voegt enkel oplosmiddel toe. Het volume stijgt dus en de concentratie daalt in dezelfde verhouding."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De coëfficiënten in een reactievergelijking geven de verhouding in gram.",
+     "antwoord": false,
+     "uitleg": "Ze geven de verhouding in aantal deeltjes, dus in mol. Daarom reken je bij een berekening altijd eerst naar mol."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een aflopende reactie gaat door tot een van de reagentia helemaal opgebruikt is.",
+     "antwoord": true,
+     "uitleg": "Die stof heet het beperkende reagens. De andere stof blijft dan in overmaat over."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De molaire concentratie van een oplossing stijgt als je water toevoegt.",
+     "antwoord": false,
+     "uitleg": "Het aantal mol blijft gelijk en het volume stijgt, dus daalt de concentratie."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je antwoord op een berekening noteer je met het juiste aantal beduidende cijfers.",
+     "antwoord": true,
+     "uitleg": "Een meting is nooit exact, dus mag je antwoord niet nauwkeuriger lijken dan je gegevens."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je lost \\(0{,}300\\) mol op tot \\(1{,}50\\) L oplossing. Wat is de molaire concentratie in mol/L?",
+     "antwoord": [
+      "0,200",
+      "0,2",
+      "0,200 mol/L"
+     ],
+     "uitleg": "\\(0{,}300 : 1{,}50\\) is \\(0{,}200\\) mol/L."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel mol zit er in \\(500\\) mL van een oplossing van \\(0{,}400\\) mol/L?",
+     "antwoord": [
+      "0,200",
+      "0,2",
+      "0,200 mol"
+     ],
+     "uitleg": "\\(n = c\\) keer V, dus \\(0{,}400\\) keer \\(0{,}500\\) L is \\(0{,}200\\) mol."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je verdunt \\(25{,}0\\) mL van \\(0{,}800\\) mol/L tot \\(100\\) mL. Wat is de nieuwe concentratie in mol/L?",
+     "antwoord": [
+      "0,200",
+      "0,2",
+      "0,200 mol/L"
+     ],
+     "uitleg": "Het volume wordt vier keer groter, dus de concentratie vier keer kleiner."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je het reagens dat bij een aflopende reactie het eerst opgebruikt is?",
+     "antwoord": [
+      "beperkend reagens",
+      "het beperkende reagens",
+      "beperkende reagens"
+     ],
+     "uitleg": "Dat reagens bepaalt hoeveel product er maximaal kan ontstaan. De rest blijft in overmaat over."
+    }
+   ]
+  }
+ ]
+}

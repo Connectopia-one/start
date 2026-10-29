@@ -15,7 +15,7 @@ met een stukje uit de tekst, en de woordenschat om over een boek te praten.
 
 DEEL1 = [
     dict(type="meerkeuze",
-         vraag="Welke teksten noemt de fiche literair?",
+         vraag="Welke van deze teksten zijn literair?",
          opties=[
              "een gedicht en een lied",
              "een gebruiksaanwijzing",
@@ -23,7 +23,7 @@ DEEL1 = [
              "een bijsluiter bij een medicijn",
          ],
          antwoord=[0, 2],
-         uitleg="De fiche noemt een lied, een gedicht, een cartoon, een strip, een kortverhaal en een romanfragment. Een bijsluiter en een gebruiksaanwijzing zijn prescriptief."),
+         uitleg="Literaire teksten zijn een lied, een gedicht, een cartoon, een strip, een kortverhaal en een romanfragment. Een bijsluiter en een gebruiksaanwijzing zijn prescriptief."),
     dict(type="meerkeuze",
          vraag="Wat is un roman in het Frans?",
          opties=["een roman",
@@ -114,7 +114,7 @@ DEEL1 = [
     dict(type="waarofniet",
          vraag="Een cartoon kan je niet lezen als een literaire tekst, want er staan te weinig woorden in.",
          antwoord=False,
-         uitleg="De fiche rekent de cartoon uitdrukkelijk bij de literaire teksten. Het beeld, de overdrijving en de woordspeling dragen de betekenis."),
+         uitleg="Een cartoon is een literaire tekst. Het beeld, de overdrijving en de woordspeling dragen de betekenis."),
     dict(type="meerkeuze",
          vraag="Wat is une bande dessinée?",
          opties=["een strip",
@@ -279,7 +279,7 @@ DEEL2 = [
     dict(type="waarofniet",
          vraag="Een strip of een lied kan even goed dienen om je literatuurbeleving te laten zien als een roman.",
          antwoord=True,
-         uitleg="De fiche zet een lied, een gedicht, een strip en een romanfragment naast elkaar als literaire tekst. Wat je erover zegt, maakt het verschil."),
+         uitleg="Een lied, een gedicht, een strip en een romanfragment zijn literaire teksten. Wat je erover zegt, maakt het verschil."),
     dict(type="meerkeuze",
          vraag="Wat betekent recommander un livre?",
          opties=["een boek aanraden",

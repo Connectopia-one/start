@@ -25,7 +25,7 @@ Deel 2 zijn uitvoeren en rapporteren.
 DEEL1 = [
     dict(
         type="meerkeuze",
-        vraag="Welke vier fasen heeft de onderzoekscyclus volgens de fiche?",
+        vraag="Welke vier fasen heeft de onderzoekscyclus?",
         opties=[
             "oriënteren, voorbereiden, uitvoeren, rapporteren",
             "lezen, schrijven, meten en daarna besluiten",
@@ -49,7 +49,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel criteria van een goede onderzoeksvraag noemt de fiche?",
+        vraag="Hoeveel criteria van een goede onderzoeksvraag zijn er?",
         opties=[
             "zes",
             "vier",
@@ -151,9 +151,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="De zes criteria van een goede onderzoeksvraag krijgt het kind volgens de fiche ook tijdens het examen.",
+        vraag="De zes criteria van een goede onderzoeksvraag krijgt het kind ook tijdens het examen.",
         antwoord=True,
-        uitleg="Waar. De fiche zegt dat uitdrukkelijk. Je moet ze dus kunnen toepassen, niet opsommen uit het hoofd.",
+        uitleg="Waar. Je moet ze dus kunnen toepassen, niet opsommen uit het hoofd.",
     ),
     dict(
         type="waarofniet",
@@ -223,9 +223,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een onderzoeker moet volgens de fiche de betrouwbaarheid van zijn bronnen niet nagaan.",
+        vraag="Een onderzoeker moet de betrouwbaarheid van zijn bronnen niet nagaan.",
         antwoord=False,
-        uitleg="Niet waar. De fiche zegt uitdrukkelijk dat je bronnen krijgt en hun betrouwbaarheid moet evalueren.",
+        uitleg="Niet waar. Je krijgt bronnen en moet hun betrouwbaarheid evalueren.",
     ),
 ]
 
@@ -244,7 +244,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat hoort volgens de fiche bij de fase rapporteren?",
+        vraag="Wat hoort bij de fase rapporteren?",
         opties=[
             "het resultaat, het besluit en de terugblik op je verloop",
             "het resultaat en niets meer",
@@ -252,7 +252,7 @@ DEEL2 = [
             "het verzamelen van je gegevens",
         ],
         antwoord=0,
-        uitleg="De fiche noemt drie dingen: wat het resultaat is, wat je kan besluiten, en een reflectie over het verloop van je onderzoek.",
+        uitleg="Drie dingen: wat het resultaat is, wat je kan besluiten, en een reflectie over het verloop van je onderzoek.",
     ),
     dict(
         type="meerkeuze",
@@ -264,7 +264,7 @@ DEEL2 = [
             "rapporteren",
         ],
         antwoord=0,
-        uitleg="De fiche zet het selecteren van bruikbare vragen en bruikbare data in de fase uitvoeren.",
+        uitleg="Bruikbare vragen en bruikbare data selecteren hoort bij de fase uitvoeren.",
     ),
     dict(
         type="meerkeuze",
@@ -288,11 +288,11 @@ DEEL2 = [
             "een eigen conclusie schrijven in de plaats",
         ],
         antwoord=0,
-        uitleg="De fiche vraagt de conclusie te kiezen die het meest volledig is of het best bij de verzamelde gegevens past, en die keuze te verantwoorden.",
+        uitleg="Kies de conclusie die het meest volledig is of het best bij de verzamelde gegevens past, en verantwoord die keuze.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een onderzoek levert een onverwacht resultaat op. Wat vraagt de fiche dan?",
+        vraag="Een onderzoek levert een onverwacht resultaat op. Wat doe je dan?",
         opties=[
             "noteren welke elementen het resultaat beïnvloed hebben",
             "het onderzoek van begin tot eind opnieuw uitvoeren",
@@ -310,9 +310,9 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Reflecteren over het verloop van je eigen onderzoek hoort volgens de fiche bij de fase rapporteren.",
+        vraag="Reflecteren over het verloop van je eigen onderzoek hoort bij de fase rapporteren.",
         antwoord=True,
-        uitleg="Waar. De fiche noemt die reflectie uitdrukkelijk bij het rapporteren, naast het resultaat en het besluit.",
+        uitleg="Waar. Die reflectie hoort bij het rapporteren, naast het resultaat en het besluit.",
     ),
     dict(
         type="waarofniet",
@@ -366,7 +366,7 @@ DEEL2 = [
             "een anonieme post op sociale media",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De fiche vraagt drie soorten bronnen te noteren. Een anonieme post kan een aanleiding zijn, maar niet het bewijs.",
+        uitleg="Noteer drie soorten bronnen. Een anonieme post kan een aanleiding zijn, maar niet het bewijs.",
     ),
     dict(
         type="meerkeuze",
@@ -400,7 +400,7 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="De fiche zegt dat alle leerinhouden van het onderdeel sociale wetenschappen in het deel over de onderzoekscyclus kunnen voorkomen.",
+        vraag="Alle leerstof van sociale wetenschappen kan terugkomen in het deel over de onderzoekscyclus.",
         antwoord=True,
         uitleg="Waar. Dat staat er met zoveel woorden. Het onderzoek gaat altijd over een van de maatschappelijke vraagstukken.",
     ),

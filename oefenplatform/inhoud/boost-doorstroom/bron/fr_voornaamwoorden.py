@@ -147,7 +147,7 @@ DEEL1 = [
 
 DEEL2 = [
     dict(type="meerkeuze",
-         vraag="Welke vier betrekkelijke voornaamwoorden noemt de vakfiche met name?",
+         vraag="Wat zijn de vier betrekkelijke voornaamwoorden in het Frans?",
          opties=["qui, que, dont, où", "qui, quoi, quel, quand",
                  "ce, cet, cette, ces", "le, la, les, leur"],
          antwoord=0,
@@ -270,5 +270,5 @@ DEEL2 = [
          opties=["Sophie vertelde alles aan Paul", "Paul vertelde alles aan Sophie",
                  "Sophie vertelde alles aan zichzelf", "iemand anders vertelde het aan hen"],
          antwoord=0,
-         uitleg="Elle is het onderwerp en slaat terug op Sophie. Lui is COI en slaat op Paul. Precies dit soort terugzoeken vraagt de fiche bij het lezen."),
+         uitleg="Elle is het onderwerp en slaat terug op Sophie. Lui is COI en slaat op Paul. Zo zoek je bij het lezen terug waarnaar een woord verwijst."),
 ]

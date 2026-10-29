@@ -216,7 +216,7 @@ DEEL2 = [
          antwoord=0,
          uitleg="Je laat zien dat je het begrijpt en geeft er dan je antwoord op."),
     dict(type="meerkeuze",
-         vraag="Welke fasen noemt de vakfiche in een verkoopgesprek?",
+         vraag="Welke van deze zijn fasen in een verkoopgesprek?",
          opties=["de aandacht van de klant trekken",
                  "een behoefte ontwikkelen",
                  "argumenten geven",

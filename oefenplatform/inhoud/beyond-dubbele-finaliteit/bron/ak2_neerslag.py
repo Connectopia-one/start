@@ -178,7 +178,7 @@ DEEL2 = [
          antwoord=["regenschaduw"],
          uitleg="De regenschaduw, aan de lijzijde. De lucht is daar haar vocht al kwijt, en bij het dalen warmt ze op en droogt ze verder uit."),
     dict(type="meerkeuze",
-         vraag="Welke soorten regen noemt de fiche?",
+         vraag="Welke van deze zijn soorten regen?",
          opties=[
              "stijgingsregens",
              "convectieregens",
@@ -212,7 +212,7 @@ DEEL2 = [
          antwoord=["ITCZ", "itcz"],
          uitleg="De intertropische convergentiezone. Daar ligt het tropisch regenwoud, met meer dan tweeduizend millimeter per jaar."),
     dict(type="meerkeuze",
-         vraag="Welke factoren bepalen volgens de fiche de neerslagverdeling?",
+         vraag="Welke factoren bepalen de neerslagverdeling?",
          opties=[
              "de luchtdruk",
              "de zeestromen",
