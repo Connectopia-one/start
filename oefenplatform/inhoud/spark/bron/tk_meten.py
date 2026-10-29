@@ -225,16 +225,15 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke aanzichten noemt de vakfiche?",
+        vraag="Op een werktekening staan de afkortingen VA, BA en LZA bij de aanzichten. Wat betekenen ze?",
         opties=[
-            "Het vooraanzicht",
-            "Het bovenaanzicht",
-            "Het zijaanzicht",
-            "Het onderaanzicht",
-            "Het binnenaanzicht",
+            "Vooraanzicht, bovenaanzicht en linkerzijaanzicht",
+            "Vooraanzicht, binnenaanzicht en langszijaanzicht",
+            "Voorafbeelding, bovenafbeelding en lengte-as",
+            "Vlakaanzicht, basisaanzicht en linkerzijaanzicht",
         ],
-        antwoord=[0, 1, 2, 3],
-        uitleg="Die vier staan in de fiche. Een binnenaanzicht bestaat niet; om binnenin te kijken maak je een doorsnede.",
+        antwoord=0,
+        uitleg="De A staat telkens voor aanzicht: VA is het vooraanzicht, BA het bovenaanzicht en LZA het linkerzijaanzicht. Een binnenaanzicht bestaat niet; om binnenin te kijken maak je een doorsnede.",
     ),
     dict(
         type="waarofniet",
