@@ -293,7 +293,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="De fiche vraagt om plaatsen in Europa en de wereld op 1 graad nauwkeurig te situeren. Wat betekent dat?",
+        vraag="Je moet plaatsen in Europa en de wereld op 1 graad nauwkeurig situeren. Wat betekent dat?",
         opties=[
             "Je antwoord mag hoogstens één graad naast de juiste liggen",
             "Je moet altijd naar boven afronden tot een heel getal",

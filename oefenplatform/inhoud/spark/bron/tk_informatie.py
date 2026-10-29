@@ -355,7 +355,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke logische poorten noemt de fiche?",
+        vraag="Welke van deze logische poorten bestaan echt?",
         opties=[
             "De EN-poort",
             "De OF-poort",
@@ -364,7 +364,7 @@ DEEL2 = [
             "De MAAL-poort",
         ],
         antwoord=[0, 1],
-        uitleg="De fiche noemt de EN-poort, de OF-poort en de NIET-poort, en combinaties daarvan. Een PLUS-, MAAL- of ALS-poort bestaat niet.",
+        uitleg="De logische poorten zijn de EN-poort, de OF-poort en de NIET-poort, en combinaties daarvan. Een PLUS-, MAAL- of ALS-poort bestaat niet.",
     ),
     dict(
         type="meerkeuze",

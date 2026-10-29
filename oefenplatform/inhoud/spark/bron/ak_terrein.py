@@ -116,7 +116,7 @@ DEEL1 = [
             "Hoeveel huizen er staan",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De fiche noemt drie dingen bij het reliëf: de helling, de hoogteverschillen en de horizonlijn. Bomen horen bij de vegetatie en huizen bij de bebouwing.",
+        uitleg="Bij het reliëf kijk je naar drie dingen: de helling, de hoogteverschillen en de horizonlijn. Bomen horen bij de vegetatie en huizen bij de bebouwing.",
     ),
     dict(
         type="meerkeuze",
@@ -241,7 +241,7 @@ DEEL2 = [
             "De coördinaten, de richting en de afstand",
         ],
         antwoord=0,
-        uitleg="Dat zijn de drie dingen die de fiche na het reliëf noemt. Samen met het reliëf en de bodem heb je dan het hele landschap beschreven.",
+        uitleg="Dat zijn de drie lagen die na het reliëf komen. Samen met het reliëf en de bodem heb je dan het hele landschap beschreven.",
     ),
     dict(
         type="meerkeuze",

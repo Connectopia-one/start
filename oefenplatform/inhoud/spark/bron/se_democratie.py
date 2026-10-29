@@ -41,7 +41,7 @@ DEEL1 = [
             "Gelijkheid voor de wet",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="De fiche noemt stemrecht, vrije verkiezingen, scheiding van de machten, individuele vrijheid, een grondwet, vrije meningsuiting en persvrijheid, en gelijkheid voor de wet.",
+        uitleg="Kenmerken van een democratie zijn stemrecht, vrije verkiezingen, scheiding van de machten, individuele vrijheid, een grondwet, vrije meningsuiting en persvrijheid, en gelijkheid voor de wet.",
     ),
     dict(
         type="meerkeuze",

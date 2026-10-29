@@ -50,7 +50,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Warmte is een energievorm.",
         antwoord=True,
-        uitleg="Warmte of thermische energie staat in de fiche gewoon in het rijtje energievormen, naast beweging, licht, elektriciteit en chemische energie.",
+        uitleg="Warmte of thermische energie is gewoon een energievorm, naast beweging, licht, elektriciteit en chemische energie.",
     ),
     dict(
         type="meerkeuze",
@@ -66,7 +66,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze energievormen noemt de vakfiche?",
+        vraag="Welke van deze zijn echte energievormen?",
         opties=[
             "Chemische energie",
             "Potentiële energie",
@@ -76,7 +76,7 @@ DEEL1 = [
             "Warmte",
         ],
         antwoord=[0, 1, 2, 5],
-        uitleg="De fiche noemt bewegings- of kinetische energie, chemische energie, elektrische energie, potentiële energie, stralingsenergie zoals licht, en warmte of thermische energie. Digitale en statische energie bestaan niet als energievorm.",
+        uitleg="De energievormen zijn bewegings- of kinetische energie, chemische energie, elektrische energie, potentiële energie, stralingsenergie zoals licht, en warmte of thermische energie. Digitale en statische energie bestaan niet als energievorm.",
     ),
     dict(
         type="waarofniet",
@@ -112,7 +112,7 @@ DEEL1 = [
         type="invultekst",
         vraag="Energie die bij een omzetting vrijkomt maar die je niet kunt gebruiken, noemen we ___ energie.",
         antwoord=["niet-nuttige", "niet nuttige"],
-        uitleg="De fiche zet nuttige en niet-nuttige energie tegenover elkaar. Bij bijna elk technisch systeem is de niet-nuttige energie warmte.",
+        uitleg="Nuttige en niet-nuttige energie staan tegenover elkaar. Bij bijna elk technisch systeem is de niet-nuttige energie warmte.",
     ),
     dict(
         type="meerkeuze",
@@ -250,7 +250,7 @@ DEEL2 = [
         vraag="Welke bron is géén hernieuwbare energiebron?",
         opties=["Steenkool", "De zon", "De wind", "Aardwarmte"],
         antwoord=0,
-        uitleg="De fiche noemt de zon, de wind, het water en aardwarmte als hernieuwbare bronnen. Steenkool is een fossiele brandstof.",
+        uitleg="De zon, de wind, het water en aardwarmte zijn hernieuwbare bronnen. Steenkool is een fossiele brandstof.",
     ),
     dict(
         type="waarofniet",
@@ -284,10 +284,10 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke bronnen noemt de fiche hernieuwbaar?",
+        vraag="Welke van deze energiebronnen zijn hernieuwbaar?",
         opties=["De zon", "De wind", "Het water", "Aardwarmte", "Steenkool"],
         antwoord=[0, 1, 2, 3],
-        uitleg="Die vier staan letterlijk in de fiche. Steenkool hoort bij de fossiele brandstoffen.",
+        uitleg="Die vier raken nooit op. Steenkool hoort bij de fossiele brandstoffen.",
     ),
     dict(
         type="meerkeuze",
@@ -389,6 +389,6 @@ DEEL2 = [
         type="invultekst",
         vraag="Energie uit bronnen die niet opraken, zoals de zon en de wind, noemen we ___ energie.",
         antwoord=["hernieuwbare", "duurzame"],
-        uitleg="Hernieuwbaar en duurzaam worden in de fiche door elkaar gebruikt voor energie uit de zon, wind, water en aardwarmte.",
+        uitleg="Hernieuwbaar en duurzaam worden vaak door elkaar gebruikt voor energie uit de zon, wind, water en aardwarmte.",
     ),
 ]

@@ -80,7 +80,7 @@ VRAGEN = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je schrijft een reactie op een kortverhaal. Welke zin is GEEN reactie zoals de vakfiche die vraagt?",
+        vraag="Je schrijft een reactie op een kortverhaal. Welke zin is GEEN echte reactie op het verhaal?",
         opties=[
             "The story has six pages and 340 words.",
             "The main character is just like me.",
@@ -88,7 +88,7 @@ VRAGEN = [
             "I loved the end of the story very much.",
         ],
         antwoord=0,
-        uitleg="De vakfiche vraagt je eigen beleving: herken je je in het hoofdpersonage, wat vind je ervan, welk gevoel roept het op. Bladzijden en woorden tellen zegt niets over je beleving, net zoals verzen tellen bij een gedicht.",
+        uitleg="Een reactie gaat over je eigen beleving: herken je je in het hoofdpersonage, wat vind je ervan, welk gevoel roept het op. Bladzijden en woorden tellen zegt niets over je beleving, net zoals verzen tellen bij een gedicht.",
     ),
     dict(
         type="meerkeuze",

@@ -257,7 +257,7 @@ DEEL2 = [
             "Je houdt er een magneet tegen en kijkt wat er gebeurt",
         ],
         antwoord=0,
-        uitleg="Je trekt aan het materiaal en kijkt of het weer zijn vorm aanneemt als je loslaat. Dat is de proef die de fiche noemt bij elasticiteit.",
+        uitleg="Je trekt aan het materiaal en kijkt of het weer zijn vorm aanneemt als je loslaat. Zo test je de elasticiteit.",
     ),
     dict(
         type="meerkeuze",
@@ -281,7 +281,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Een magneet trekt een ferromagnetisch materiaal aan.",
         antwoord=True,
-        uitleg="Aantrekking en afstoting van ferromagnetische materialen zijn de magnetische eigenschappen uit de fiche. Daarop berust ook de magneetproef.",
+        uitleg="Aantrekking en afstoting van ferromagnetische materialen zijn de magnetische eigenschappen. Daarop berust ook de magneetproef.",
     ),
     dict(
         type="meerkeuze",

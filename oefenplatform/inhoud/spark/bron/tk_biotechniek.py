@@ -21,7 +21,7 @@ geen van beide doodt ze.
 DEEL1 = [
     dict(
         type="meerkeuze",
-        vraag="Welke micro-organismen noemt de vakfiche?",
+        vraag="Welke van deze zijn micro-organismen?",
         opties=["Bacteriën", "Schimmels", "Gisten", "Insecten", "Regenwormen"],
         antwoord=[0, 1, 2],
         uitleg="Micro-organismen zijn zo klein dat je ze niet met het blote oog ziet. Insecten en wormen zijn gewoon kleine dieren.",
@@ -216,7 +216,7 @@ DEEL2 = [
             "De naam van wie het koopt",
         ],
         antwoord=[0, 1, 2, 3],
-        uitleg="De fiche noemt ook de voedingswaarde, het nettogewicht en de bewaarvoorschriften. Wie het koopt staat er natuurlijk niet op: dat weet de fabrikant niet.",
+        uitleg="Ook de voedingswaarde, het nettogewicht en de bewaarvoorschriften staan erop. Wie het koopt staat er natuurlijk niet op: dat weet de fabrikant niet.",
     ),
     dict(
         type="meerkeuze",
@@ -276,7 +276,7 @@ DEEL2 = [
             "De prijs van het product doen dalen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De fiche noemt gebruiksgemak, hygiënische bewaring, informatie voor de klant en bescherming tegen breken, bederf en licht. Goedkoper wordt een product er niet van.",
+        uitleg="Een verpakking zorgt voor gebruiksgemak, hygiënische bewaring, informatie voor de klant en bescherming tegen breken, bederf en licht. Goedkoper wordt een product er niet van.",
     ),
     dict(
         type="meerkeuze",
@@ -306,7 +306,7 @@ DEEL2 = [
             "Ze houdt het licht veel beter tegen dan glas",
         ],
         antwoord=0,
-        uitleg="Dat voorbeeld staat in de fiche: lichter vervoeren kost minder energie. Maar plastic zorgt wel voor meer afval in het milieu.",
+        uitleg="Lichter vervoeren kost minder energie. Maar plastic zorgt wel voor meer afval in het milieu.",
     ),
     dict(
         type="meerkeuze",
@@ -318,7 +318,7 @@ DEEL2 = [
             "Ze kunnen op geen enkele manier hergebruikt",
         ],
         antwoord=0,
-        uitleg="Duurzaamheid is altijd een afweging: lichter vervoeren staat tegenover meer afval. Daarom gaat de fiche over voor- én nadelen.",
+        uitleg="Duurzaamheid is altijd een afweging: lichter vervoeren staat tegenover meer afval. Daarom kijk je altijd naar voor- én nadelen.",
     ),
     dict(
         type="waarofniet",

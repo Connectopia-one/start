@@ -73,7 +73,9 @@ def controleer(titel: str, nummer: int, vraag: dict):
             raise SystemExit(f"{plek} is waar of niet waar en heeft geen boolean")
     elif soort == "invultekst":
         antwoord = vraag["antwoord"]
-        if not isinstance(antwoord, str) or not antwoord.strip():
+        # Een invulvraag mag ook een lijst van juiste schrijfwijzen hebben.
+        lijst = antwoord if isinstance(antwoord, list) else [antwoord]
+        if not lijst or any(not isinstance(a, str) or not a.strip() for a in lijst):
             raise SystemExit(f"{plek} heeft geen ingevuld antwoord")
         if len(antwoord.split()) > 3:
             raise SystemExit(f"{plek} heeft een te lang invulantwoord: {antwoord!r}")

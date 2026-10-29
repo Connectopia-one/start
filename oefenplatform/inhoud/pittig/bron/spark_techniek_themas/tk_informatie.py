@@ -57,7 +57,7 @@ VRAGEN = [
     ),
     dict(
         type="meerkeuze",
-        vraag=r"Je test een poort met twee ingangen. Met de ingangen \(1\) en \(0\) komt er een \(0\) uit. Welke poort van de fiche is het?",
+        vraag=r"Je test een poort met twee ingangen. Met de ingangen \(1\) en \(0\) komt er een \(0\) uit. Welke poort is het: een EN-, een OF- of een NIET-poort?",
         opties=[
             "Een EN-poort",
             "Een OF-poort",
@@ -181,7 +181,7 @@ VRAGEN = [
         type="waarofniet",
         vraag=r"Geeft een poort met twee ingangen een \(1\) bij de ingangen \(1\) en \(0\), dan kan het geen EN-poort zijn.",
         antwoord=True,
-        uitleg=r"Een EN-poort met \(1\) en \(0\) geeft altijd \(0\). Komt er toch \(1\) uit, dan is het geen EN-poort. Bij de poorten van de fiche blijft dan de OF-poort over.",
+        uitleg=r"Een EN-poort met \(1\) en \(0\) geeft altijd \(0\). Komt er toch \(1\) uit, dan is het geen EN-poort. Van de EN-, OF- en NIET-poort blijft dan de OF-poort over.",
     ),
     dict(
         type="waarofniet",

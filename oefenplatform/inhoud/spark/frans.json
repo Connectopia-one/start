@@ -50,7 +50,7 @@
           "type": "waarofniet",
           "vraag": "Het onderwerp van een tekst zeg je in één of enkele woorden, de hoofdgedachte in een zin.",
           "antwoord": true,
-          "uitleg": "Zo staat het in de vakfiche: onderwerp 'dieren', hoofdgedachte 'Dieren horen niet thuis in de zoo'."
+          "uitleg": "Onderwerp 'dieren', hoofdgedachte 'Dieren horen niet thuis in de zoo'."
         },
         {
           "type": "meerkeuze",
@@ -62,7 +62,7 @@
             "Je leest de tekst achterstevoren."
           ],
           "antwoord": 0,
-          "uitleg": "Les jeunes = de jongeren, un écran = een scherm. De fiche noemt dat een strategie: stel jezelf vragen vooraf. Wat weet ik al over dit onderwerp? Waarover zou de tekst kunnen gaan?"
+          "uitleg": "Les jeunes = de jongeren, un écran = een scherm. Dat is een goede strategie: stel jezelf vragen vooraf. Wat weet ik al over dit onderwerp? Waarover zou de tekst kunnen gaan?"
         },
         {
           "type": "meerkeuze",
@@ -90,7 +90,7 @@
             1,
             2
           ],
-          "uitleg": "De fiche noemt titel, tussentitels, benadrukte woorden en beeld als visuele hulpmiddelen. Hoeveel bladzijden er zijn, zegt niets over de inhoud."
+          "uitleg": "Titel, tussentitels, benadrukte woorden en beeld zijn visuele hulpmiddelen. Hoeveel bladzijden er zijn, zegt niets over de inhoud."
         },
         {
           "type": "waarofniet",
@@ -205,13 +205,13 @@
             "de openingsuren"
           ],
           "antwoord": 0,
-          "uitleg": "Alimentaire komt van 'aliment' (voedingsmiddel). Eetgewoonten dus. De fiche vraagt uitdrukkelijk dat je zulke dingen over Franstalige streken uit een tekst haalt."
+          "uitleg": "Alimentaire komt van 'aliment' (voedingsmiddel). Eetgewoonten dus. Zulke dingen over Franstalige streken haal je uit een tekst."
         },
         {
           "type": "waarofniet",
           "vraag": "In Franstalig België begroet men elkaar vaak met een kus, ook mannen onder elkaar.",
           "antwoord": true,
-          "uitleg": "Dat staat als voorbeeld in de vakfiche bij 'aspecten van maatschappijen en culturen waarin Frans gesproken wordt'."
+          "uitleg": "Dat hoort bij de cultuur van de streken waar Frans gesproken wordt."
         },
         {
           "type": "meerkeuze",
@@ -227,7 +227,7 @@
             1,
             2
           ],
-          "uitleg": "Zender, doel en ontvanger: dat zijn de drie vragen die de fiche noemt. Het aantal woorden helpt je niet."
+          "uitleg": "Zender, doel en ontvanger: dat zijn de drie vragen die je stelt. Het aantal woorden helpt je niet."
         },
         {
           "type": "meerkeuze",
@@ -239,7 +239,7 @@
             "Lezen telt even zwaar als spreken."
           ],
           "antwoord": 0,
-          "uitleg": "De fiche geeft luisteren 30 % en lezen 30 %. De vijf andere onderdelen tellen elk 8 %: twee schrijfopdrachten, spreken en twee gesprekken. Schrijven is dus samen 16 %."
+          "uitleg": "Op het examen telt luisteren 30 % en lezen 30 %. De vijf andere onderdelen tellen elk 8 %: twee schrijfopdrachten, spreken en twee gesprekken. Schrijven is dus samen 16 %."
         }
       ]
     },
@@ -434,7 +434,7 @@
           "type": "waarofniet",
           "vraag": "Als er 'd'après l'auteur' staat, lees je een mening en geen vaststaand feit.",
           "antwoord": true,
-          "uitleg": "De schrijver geeft dan zijn eigen kijk. Dat onderscheid tussen feit en mening vraagt de fiche ook bij het Nederlands."
+          "uitleg": "De schrijver geeft dan zijn eigen kijk. Dat onderscheid tussen feit en mening maak je ook bij het Nederlands."
         },
         {
           "type": "meerkeuze",
@@ -482,7 +482,7 @@
             "Het woordenboek vertaalt hele zinnen voor je."
           ],
           "antwoord": 0,
-          "uitleg": "Dat staat zo in de fiche: je hebt niet de tijd om elk woord op te zoeken, dus zorg voor een basiswoordenschat."
+          "uitleg": "Je hebt niet de tijd om elk woord op te zoeken, dus zorg voor een basiswoordenschat."
         }
       ]
     },
@@ -502,7 +502,7 @@
             "Geen van deze antwoorden"
           ],
           "antwoord": 0,
-          "uitleg": "Couper = snijden, ajouter = toevoegen, mélanger = mengen. Een recept zegt stap voor stap wat je moet doen. De fiche noemt zo'n tekst prescriptief."
+          "uitleg": "Couper = snijden, ajouter = toevoegen, mélanger = mengen. Een recept zegt stap voor stap wat je moet doen. Zo'n tekst heet prescriptief."
         },
         {
           "type": "meerkeuze",
@@ -554,7 +554,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke teksten noemt de vakfiche literair?",
+          "vraag": "Welke van deze teksten zijn literair?",
           "opties": [
             "een gedicht",
             "een strip",
@@ -689,7 +689,7 @@
           "type": "waarofniet",
           "vraag": "Verwijswoorden gebruik je zelf ook, om niet steeds hetzelfde woord te moeten herhalen.",
           "antwoord": true,
-          "uitleg": "De fiche zegt het zo: als je schrijft, gebruik je voornaamwoorden om niet te hoeven herhalen."
+          "uitleg": "Als je schrijft, gebruik je voornaamwoorden om niet te hoeven herhalen."
         },
         {
           "type": "meerkeuze",
@@ -725,7 +725,7 @@
             "Ze vervangen de titel."
           ],
           "antwoord": 0,
-          "uitleg": "Dat staat zo in de fiche: signaalwoorden helpen je om de gedachtegang van een tekst te reconstrueren."
+          "uitleg": "Signaalwoorden helpen je om de gedachtegang van een tekst te reconstrueren."
         }
       ]
     },
@@ -930,7 +930,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een cartoon rekent de vakfiche bij de informatieve teksten.",
+          "vraag": "Een cartoon is een informatieve tekst.",
           "antwoord": false,
           "uitleg": "Niet juist. Een cartoon staat bij de literaire teksten."
         },
@@ -1060,7 +1060,7 @@
           "type": "waarofniet",
           "vraag": "Bij een schrijfopdracht op het examen krijg je een schrijfkader dat je ondersteunt.",
           "antwoord": true,
-          "uitleg": "Dat staat zo in de vakfiche. Volg dat kader: het zegt welke onderdelen je tekst moet bevatten."
+          "uitleg": "Volg dat kader: het zegt welke onderdelen je tekst moet bevatten."
         },
         {
           "type": "meerkeuze",
@@ -1181,7 +1181,7 @@
           "type": "waarofniet",
           "vraag": "Als je een verkoper aanspreekt, zeg je in het Frans eerst 'bonjour'.",
           "antwoord": true,
-          "uitleg": "De vakfiche geeft dat als voorbeeld van de beleefdheidsconventies: in Frankrijk en Franstalig België begin je altijd met bonjour."
+          "uitleg": "Dat is een beleefdheidsconventie: in Frankrijk en Franstalig België begin je altijd met bonjour."
         },
         {
           "type": "meerkeuze",
@@ -1197,7 +1197,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waaraan moet je tekst volgens de fiche minimaal voldoen?",
+          "vraag": "Waaraan moet je tekst minimaal voldoen?",
           "opties": [
             "Het doel is bereikt en je boodschap komt over.",
             "Je tekst is zo lang mogelijk.",
@@ -1228,7 +1228,7 @@
             1,
             2
           ],
-          "uitleg": "De fiche vraagt een eenvoudige, gepaste structuur: inleiding, midden, slot. Een bronnenlijst hoort bij een werkstuk."
+          "uitleg": "Je tekst heeft een eenvoudige, gepaste structuur: inleiding, midden, slot. Een bronnenlijst hoort bij een werkstuk."
         },
         {
           "type": "meerkeuze",
@@ -1295,7 +1295,7 @@
             "Ce film dure deux heures et je l'ai vu au cinéma."
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt bij een mening een reden. 'Parce que' geeft die; de andere zinnen blijven vlak of geven alleen een feit."
+          "uitleg": "Bij een mening hoort een reden. 'Parce que' geeft die; de andere zinnen blijven vlak of geven alleen een feit."
         },
         {
           "type": "waarofniet",
@@ -1389,7 +1389,7 @@
             "Wie meer schrijft dan gevraagd, krijgt daar altijd extra punten voor."
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zet 'je respecteert de opgegeven lengte' bij taakvoltooiing, naast een volledige en heldere boodschap."
+          "uitleg": "De opgegeven lengte respecteren hoort bij taakvoltooiing, naast een volledige en heldere boodschap."
         },
         {
           "type": "meerkeuze",
@@ -1401,7 +1401,7 @@
             "Je stopt met de opdracht."
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zegt: laat je niet ontmoedigen, probeer je doel te bereiken met de woorden en structuren die je al kent."
+          "uitleg": "Laat je niet ontmoedigen, probeer je doel te bereiken met de woorden en structuren die je al kent."
         },
         {
           "type": "meerkeuze",
@@ -1413,13 +1413,13 @@
             "Je zet er een titel boven."
           ],
           "antwoord": 0,
-          "uitleg": "'Lees je tekst grondig na: is de communicatie helder, gepast en vlot?' Dat is de laatste strategie in de fiche."
+          "uitleg": "'Lees je tekst grondig na: is de communicatie helder, gepast en vlot?' Dat is de laatste stap."
         },
         {
           "type": "waarofniet",
           "vraag": "Een paar kleine fouten zijn aanvaardbaar zolang ze de boodschap niet verstoren.",
           "antwoord": true,
-          "uitleg": "De fiche zegt letterlijk: fouten verstoren de communicatie niet. Je moet dus niet perfect zijn, wel begrijpelijk."
+          "uitleg": "Fouten mogen, zolang ze de communicatie niet verstoren. Je moet dus niet perfect zijn, wel begrijpelijk."
         },
         {
           "type": "meerkeuze",
@@ -1438,7 +1438,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welk register verwacht de fiche van jou in de eerste graad?",
+          "vraag": "Welk register gebruik je in de eerste graad?",
           "opties": [
             "neutraal of informeel, met gepaste beleefdheidsconventies",
             "altijd zo formeel mogelijk",
@@ -1695,7 +1695,7 @@
             "Je vertaalt het kader naar het Nederlands."
           ],
           "antwoord": 0,
-          "uitleg": "Het kader zegt wat je beschrijving moet bevatten. Wie alle onderdelen behandelt, haalt de taakvoltooiing binnen; dat is de eerste vereiste van de fiche."
+          "uitleg": "Het kader zegt wat je beschrijving moet bevatten. Wie alle onderdelen behandelt, haalt de taakvoltooiing binnen; dat is de eerste vereiste."
         },
         {
           "type": "meerkeuze",
@@ -1707,7 +1707,7 @@
             "de volgorde maakt niet uit"
           ],
           "antwoord": 0,
-          "uitleg": "Zeg eerst waar de foto over gaat, dan wat je precies ziet, en pas daarna je mening. Dat is dezelfde inleiding-midden-slot die de fiche bij tekststructuur vraagt."
+          "uitleg": "Zeg eerst waar de foto over gaat, dan wat je precies ziet, en pas daarna je mening. Dat is de vaste opbouw met inleiding, midden en slot."
         },
         {
           "type": "meerkeuze",
@@ -1858,7 +1858,7 @@
           "type": "waarofniet",
           "vraag": "'Parce que' gebruik je om een reden te geven bij je mening.",
           "antwoord": true,
-          "uitleg": "Parce que = omdat. De vakfiche vraagt uitdrukkelijk dat je uitlegt wáárom iets je aanspreekt."
+          "uitleg": "Parce que = omdat. Zo leg je uit wáárom iets je aanspreekt."
         },
         {
           "type": "meerkeuze",
@@ -1909,7 +1909,7 @@
             "je mening met een reden"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche vraagt dat je de opgegeven lengte respecteert. Het onderwerp, de plaats en je mening met reden zijn de kern; losse details mag je schrappen."
+          "uitleg": "Je respecteert de opgegeven lengte. Het onderwerp, de plaats en je mening met reden zijn de kern; losse details mag je schrappen."
         },
         {
           "type": "meerkeuze",
@@ -1921,7 +1921,7 @@
             "Het vervangt de woordenschat."
           ],
           "antwoord": 0,
-          "uitleg": "De vakfiche zegt bij schrijven: 'je legt iemand iets uit', met als voorbeeld uitleggen hoe je een gerecht klaarmaakt op basis van foto's of afbeeldingen."
+          "uitleg": "Dat is iemand iets uitleggen, bijvoorbeeld hoe je een gerecht klaarmaakt op basis van foto's of afbeeldingen."
         }
       ]
     },
@@ -2914,7 +2914,7 @@
             "Ze hoeven geen lidwoord."
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt dat een leesstrategie: leid de betekenis af uit de manier waarop een woord gevormd is."
+          "uitleg": "Dat is een leesstrategie: leid de betekenis af uit de manier waarop een woord gevormd is."
         }
       ]
     },
@@ -3162,7 +3162,7 @@
             "Instructietaal staat in het Nederlands."
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zet instructietaal daarom bij de woordvelden die je moet kennen."
+          "uitleg": "Daarom moet je instructietaal goed kennen."
         }
       ]
     },
@@ -3342,7 +3342,7 @@
           "type": "waarofniet",
           "vraag": "'Un réseau social' is een sociaal netwerk.",
           "antwoord": true,
-          "uitleg": "Un réseau = een netwerk. Op sociale media reageer je op een discussie; dat is een van de schrijfopdrachten uit de fiche."
+          "uitleg": "Un réseau = een netwerk. Op sociale media reageer je op een discussie; dat is een mogelijke schrijfopdracht."
         },
         {
           "type": "meerkeuze",
@@ -3424,7 +3424,7 @@
             "25"
           ],
           "antwoord": 0,
-          "uitleg": "Quinze = 15. De fiche noemt dat getal uitdrukkelijk als voorbeeld."
+          "uitleg": "Quinze = 15."
         },
         {
           "type": "meerkeuze",
@@ -3490,7 +3490,7 @@
           "type": "waarofniet",
           "vraag": "'Premier' en 'dernier' zijn rangtelwoorden: de eerste en de laatste.",
           "antwoord": true,
-          "uitleg": "De fiche noemt 'troisième' en 'dernier' als voorbeelden van rangtelwoorden."
+          "uitleg": "'Troisième' en 'dernier' zijn rangtelwoorden: ze geven een plaats in een rij."
         },
         {
           "type": "meerkeuze",
@@ -3691,7 +3691,7 @@
           "type": "waarofniet",
           "vraag": "Na een hoeveelheid staat in het Frans alleen 'de': beaucoup de travail, un litre de lait.",
           "antwoord": true,
-          "uitleg": "Het lidwoord valt weg. Dat is de 'vervanging door de na een hoeveelheid' uit de vakfiche."
+          "uitleg": "Het lidwoord valt weg. Na een hoeveelheid wordt het lidwoord de."
         },
         {
           "type": "meerkeuze",
@@ -4601,7 +4601,7 @@
           "type": "waarofniet",
           "vraag": "Na een ontkenning wordt het lidwoord in het Frans 'de': 'Je ne bois pas de lait.'",
           "antwoord": true,
-          "uitleg": "Je bois du lait wordt je ne bois pas de lait. Dat is de 'vervanging door de na een ontkenning' uit de vakfiche."
+          "uitleg": "Je bois du lait wordt je ne bois pas de lait. Na een ontkenning wordt du, de la of des: de."
         },
         {
           "type": "meerkeuze",
@@ -4892,7 +4892,7 @@
           "type": "waarofniet",
           "vraag": "Een persoonlijk voornaamwoord als voorwerp staat in het Frans vóór het werkwoord.",
           "antwoord": true,
-          "uitleg": "Je le vois, je te parle, il nous aide. Dat is de 'plaats van het persoonlijk voornaamwoord' uit de fiche."
+          "uitleg": "Je le vois, je te parle, il nous aide. Het persoonlijk voornaamwoord staat vóór het werkwoord."
         },
         {
           "type": "meerkeuze",
@@ -5184,7 +5184,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom vraagt de vakfiche dat je weet waarnaar een voornaamwoord verwijst?",
+          "vraag": "Waarom moet je weten waarnaar een voornaamwoord verwijst?",
           "opties": [
             "Anders begrijp je de samenhang tussen de zinnen niet.",
             "Anders kan je geen woordenboek gebruiken.",
@@ -5192,7 +5192,7 @@
             "Anders klopt je uitspraak niet."
           ],
           "antwoord": 0,
-          "uitleg": "Dat staat zo in de fiche: om inzicht te hebben in de samenhang tussen de zinnen moet je weten waarnaar het voornaamwoord verwijst."
+          "uitleg": "Om inzicht te hebben in de samenhang tussen de zinnen moet je weten waarnaar het voornaamwoord verwijst."
         }
       ]
     },
@@ -5431,7 +5431,7 @@
             "allons"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt precies dit trio: aller (infinitief), allez (persoonsvorm), allé (voltooid deelwoord). Ze klinken hetzelfde en zien er anders uit.",
+          "uitleg": "Dit trio: aller (infinitief), allez (persoonsvorm), allé (voltooid deelwoord). Ze klinken hetzelfde en zien er anders uit.",
           "varianten": [
             {
               "vraag": "Welke vorm is het voltooid deelwoord van 'manger'?",
@@ -5472,7 +5472,7 @@
           "type": "waarofniet",
           "vraag": "'Aller', 'allez' en 'allé' klinken hetzelfde maar zijn drie verschillende vormen.",
           "antwoord": true,
-          "uitleg": "Daarom staat dit voorbeeld in de vakfiche: je moet aan de zin zien welke vorm je nodig hebt."
+          "uitleg": "Daarom is het lastig: je moet aan de zin zien welke vorm je nodig hebt."
         },
         {
           "type": "meerkeuze",
@@ -5830,7 +5830,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten zinnen noemt de vakfiche?",
+          "vraag": "Welke van deze zijn soorten zinnen?",
           "opties": [
             "mededelend",
             "vragend",
@@ -5860,7 +5860,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom staat het onderscheid tussen infinitief, persoonsvorm en deelwoord in de vakfiche?",
+          "vraag": "Waarom is het onderscheid tussen infinitief, persoonsvorm en deelwoord belangrijk?",
           "opties": [
             "Je moet weten hoe je de werkwoordsvorm in de zin moet lezen of schrijven.",
             "Alleen om ze te kunnen benoemen.",
@@ -5868,7 +5868,7 @@
             "Omdat ze altijd samen voorkomen."
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zegt het zo: het onderscheid is belangrijk om te weten hoe je de werkwoordsvorm correct moet interpreteren of schrijven."
+          "uitleg": "Het onderscheid is belangrijk om te weten hoe je de werkwoordsvorm correct moet interpreteren of schrijven."
         }
       ]
     },
@@ -6515,7 +6515,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom vraagt de fiche dat je varieert tussen soorten zinnen?",
+          "vraag": "Waarom varieer je tussen soorten zinnen?",
           "opties": [
             "Daarmee maak je je tekst levendig.",
             "Anders zijn je zinnen fout.",

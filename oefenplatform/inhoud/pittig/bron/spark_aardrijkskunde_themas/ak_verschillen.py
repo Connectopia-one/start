@@ -47,14 +47,14 @@ VRAGEN = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Op de Engelse legende van een vegetatiekaart staat 'dry forest and woodland savanna'. Bij welke vegetatiezone van de fiche hoort dat gebied?",
+        vraag="Op de Engelse legende van een vegetatiekaart staat 'dry forest and woodland savanna'. Bij welke vegetatiezone hoort dat gebied?",
         opties=["De savanne", "De woestijn", "De steppe", "Het loofwoud"],
         antwoord=0,
         uitleg="In de sleutel bij de kaart valt 'dry forest and woodland savanna' onder de savanne. Laat je niet vangen door het woord 'dry': de woestijn heet op die legende 'desert' en de steppe 'steppe'.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Op een klimaatkaart met vijf zones staat ook een oranje droge zone. In welke van de drie klimaatzones van de fiche ligt die grotendeels?",
+        vraag="Op een klimaatkaart met vijf zones staat ook een oranje droge zone. In welke van de drie klimaatzones (warm, gematigd, koud) ligt die grotendeels?",
         opties=["In de warme zone", "In de gematigde zone", "In de koude zone", "Ze is een vierde zone naast de drie"],
         antwoord=0,
         uitleg="De droge zone is niet uitgehaald om haar temperatuur maar om haar neerslag. Ze ligt grotendeels in de warme zone, met haar rand tegen de gematigde aan. Een vierde trap naast warm, gematigd en koud is ze dus niet.",

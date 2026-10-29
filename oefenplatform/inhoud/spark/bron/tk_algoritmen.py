@@ -39,7 +39,7 @@ DEEL1 = [
             "Een foto van een afgewerkte taart",
         ],
         antwoord=[0, 1, 2, 3],
-        uitleg="Een algoritme is een eindige reeks stappen naar een doel. Het recept en het computerspel staan als voorbeeld in de fiche; een stappenplan en een handleiding zijn precies hetzelfde idee. Een foto toont enkel het resultaat en zegt niet welke stappen je zette.",
+        uitleg="Een algoritme is een eindige reeks stappen naar een doel. Een recept en een computerspel zijn bekende voorbeelden; een stappenplan en een handleiding zijn precies hetzelfde idee. Een foto toont enkel het resultaat en zegt niet welke stappen je zette.",
     ),
     dict(
         type="waarofniet",
@@ -57,7 +57,7 @@ DEEL1 = [
             "Een algoritme waar nog een fout in zit",
         ],
         antwoord=0,
-        uitleg="Het voorbeeld van de fiche is een stappenplan om een boterham met choco te smeren.",
+        uitleg="Een stappenplan om een boterham met choco te smeren is zo'n voorbeeld: elke stap staat in een vaste volgorde.",
     ),
     dict(
         type="meerkeuze",
@@ -69,7 +69,7 @@ DEEL1 = [
             "Een plant elke dag op tijd water geven",
         ],
         antwoord=0,
-        uitleg="Dat voorbeeld staat in de fiche. Digitaal wil zeggen dat een computer of een microcontroller de stappen uitvoert.",
+        uitleg="Digitaal wil zeggen dat een computer of een microcontroller de stappen uitvoert.",
     ),
     dict(
         type="invultekst",
@@ -81,7 +81,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Een flowchart heet ook een stroomdiagram.",
         antwoord=True,
-        uitleg="Twee namen voor hetzelfde. De fiche zet ze naast elkaar: flowchart of stroomdiagram.",
+        uitleg="Twee namen voor hetzelfde: flowchart of stroomdiagram.",
     ),
     dict(
         type="meerkeuze",
@@ -97,10 +97,10 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="In welke programmeertaal vertaal je volgens de vakfiche je algoritme?",
+        vraag="In welke programmeertaal sleep je blokjes in elkaar om je algoritme te laten uitvoeren?",
         opties=["Scratch", "Python", "Java", "HTML"],
         antwoord=0,
-        uitleg="De fiche noemt Scratch bij naam. Daarin sleep je blokjes in elkaar, zodat je je op de logica kunt richten in plaats van op schrijffouten.",
+        uitleg="In Scratch sleep je blokjes in elkaar, zodat je je op de logica kunt richten in plaats van op schrijffouten.",
     ),
     dict(
         type="waarofniet",
@@ -119,7 +119,7 @@ DEEL1 = [
             "Je koopt eerst een nieuwe computer",
         ],
         antwoord=[0, 1, 2, 3],
-        uitleg="De fiche noemt die vier stappen, plus bijsturen waar nodig. Een nieuwe computer kopen hoort er niet bij: een algoritme ontwerp je op papier, los van de machine waarop het straks draait.",
+        uitleg="Die vier stappen horen erbij, plus bijsturen waar nodig. Een nieuwe computer kopen hoort er niet bij: een algoritme ontwerp je op papier, los van de machine waarop het straks draait.",
     ),
     dict(
         type="meerkeuze",
@@ -191,13 +191,13 @@ DEEL1 = [
             "De computer laten voelen wat jij denkt",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Die eerste staan als voorbeeld in de fiche. Voor het laatste bestaat er geen stappenplan.",
+        uitleg="Voor de eerste kan je een stappenplan schrijven. Voor het laatste bestaat er geen stappenplan.",
     ),
     dict(
         type="waarofniet",
         vraag="Een recept is geen algoritme.",
         antwoord=False,
-        uitleg="Een recept is wel degelijk een algoritme: instructies in een vaste volgorde die naar een resultaat leiden. De fiche geeft het zelf als voorbeeld.",
+        uitleg="Een recept is wel degelijk een algoritme: instructies in een vaste volgorde die naar een resultaat leiden. Het is zelfs een van de bekendste voorbeelden.",
     ),
     dict(
         type="meerkeuze",
@@ -216,7 +216,7 @@ DEEL1 = [
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Welke principes van computationeel denken noemt de vakfiche?",
+        vraag="Welke van deze horen bij computationeel denken?",
         opties=[
             "Abstractie",
             "Decompositie",
@@ -225,7 +225,7 @@ DEEL2 = [
             "Improvisatie",
         ],
         antwoord=[0, 1, 2, 3],
-        uitleg="Die vier staan samen in de fiche. Improvisatie hoort er niet bij: computationeel denken is juist het omgekeerde van improviseren.",
+        uitleg="Abstractie, decompositie, patroonherkenning en het algoritme horen samen. Improvisatie hoort er niet bij: computationeel denken is juist het omgekeerde van improviseren.",
     ),
     dict(
         type="meerkeuze",
@@ -387,7 +387,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Patroonherkenning helpt je een oplossing van een eerder probleem opnieuw te gebruiken.",
         antwoord=True,
-        uitleg="Dat staat zo in de fiche: overeenkomsten herkennen met een eerder opgelost probleem om de oplossing te hergebruiken.",
+        uitleg="Patroonherkenning is overeenkomsten herkennen met een eerder opgelost probleem om de oplossing te hergebruiken.",
     ),
     dict(
         type="meerkeuze",

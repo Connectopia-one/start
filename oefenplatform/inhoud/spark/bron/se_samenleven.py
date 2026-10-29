@@ -259,7 +259,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke vormen van diversiteit noemt de vakfiche?",
+        vraag="Welke van deze zijn vormen van diversiteit?",
         opties=[
             "Sociale diversiteit",
             "Culturele diversiteit",
@@ -267,7 +267,7 @@ DEEL2 = [
             "Seksuele diversiteit",
         ],
         antwoord=[0, 1, 2, 3],
-        uitleg="Alle vier staan ze in de fiche. Sociaal gaat over geld en positie, cultureel over gewoontes, religieus over geloof en overtuiging, seksueel over wie je graag ziet.",
+        uitleg="Alle vier kloppen. Sociaal gaat over geld en positie, cultureel over gewoontes, religieus over geloof en overtuiging, seksueel over wie je graag ziet.",
     ),
     dict(
         type="meerkeuze",
@@ -425,7 +425,7 @@ DEEL2 = [
             "Passend bij de leeftijd van allebei",
         ],
         antwoord=[0, 1, 2, 3, 4],
-        uitleg="Hier is elk antwoord juist: de fiche noemt toestemming, vrijwilligheid, gelijkwaardigheid, passend bij de leeftijd, passend in de situatie en zelfrespect.",
+        uitleg="Hier is elk antwoord juist: het gaat om toestemming, vrijwilligheid, gelijkwaardigheid, passend bij de leeftijd, passend in de situatie en zelfrespect.",
     ),
     dict(
         type="waarofniet",
@@ -447,7 +447,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke kenmerken van een goede samenwerking noemt de vakfiche?",
+        vraag="Welke van deze horen bij een goede samenwerking?",
         opties=[
             "Afspraken nakomen",
             "Hulp vragen wanneer iets niet duidelijk is",
@@ -456,12 +456,12 @@ DEEL2 = [
             "Meningen van anderen respecteren",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="De fiche noemt onder meer luisteren, om de beurt spreken, meningen respecteren, afspraken nakomen, hulp vragen en rekening houden met anderen. Alles zelf beslissen hoort daar niet bij.",
+        uitleg="Een goede samenwerking vraagt onder meer luisteren, om de beurt spreken, meningen respecteren, afspraken nakomen, hulp vragen en rekening houden met anderen. Alles zelf beslissen hoort daar niet bij.",
     ),
     dict(
         type="waarofniet",
         vraag="Duidelijk en rustig communiceren is een kenmerk van een goede samenwerking.",
         antwoord=True,
-        uitleg="Klopt, dat staat zo in de vakfiche. Rustig spreken maakt het voor iedereen makkelijker om te volgen en te reageren.",
+        uitleg="Klopt. Rustig spreken maakt het voor iedereen makkelijker om te volgen en te reageren.",
     ),
 ]

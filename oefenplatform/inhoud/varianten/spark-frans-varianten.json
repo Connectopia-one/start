@@ -707,7 +707,7 @@
           "type": "waarofniet",
           "vraag": "Na een ontkenning wordt het lidwoord in het Frans 'de': 'Je ne bois pas de lait.'",
           "antwoord": true,
-          "uitleg": "Je bois du lait wordt je ne bois pas de lait. Dat is de 'vervanging door de na een ontkenning' uit de vakfiche."
+          "uitleg": "Je bois du lait wordt je ne bois pas de lait. Na een ontkenning wordt du, de la of des: de."
         },
         {
           "type": "meerkeuze",
@@ -998,7 +998,7 @@
           "type": "waarofniet",
           "vraag": "Een persoonlijk voornaamwoord als voorwerp staat in het Frans vóór het werkwoord.",
           "antwoord": true,
-          "uitleg": "Je le vois, je te parle, il nous aide. Dat is de 'plaats van het persoonlijk voornaamwoord' uit de fiche."
+          "uitleg": "Je le vois, je te parle, il nous aide. Het persoonlijk voornaamwoord staat vóór het werkwoord."
         },
         {
           "type": "meerkeuze",
@@ -1290,7 +1290,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom vraagt de vakfiche dat je weet waarnaar een voornaamwoord verwijst?",
+          "vraag": "Waarom moet je weten waarnaar een voornaamwoord verwijst?",
           "opties": [
             "Anders begrijp je de samenhang tussen de zinnen niet.",
             "Anders kan je geen woordenboek gebruiken.",
@@ -1298,7 +1298,7 @@
             "Anders klopt je uitspraak niet."
           ],
           "antwoord": 0,
-          "uitleg": "Dat staat zo in de fiche: om inzicht te hebben in de samenhang tussen de zinnen moet je weten waarnaar het voornaamwoord verwijst."
+          "uitleg": "Om inzicht te hebben in de samenhang tussen de zinnen moet je weten waarnaar het voornaamwoord verwijst."
         }
       ]
     },
@@ -1537,7 +1537,7 @@
             "allons"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt precies dit trio: aller (infinitief), allez (persoonsvorm), allé (voltooid deelwoord). Ze klinken hetzelfde en zien er anders uit.",
+          "uitleg": "Dit trio: aller (infinitief), allez (persoonsvorm), allé (voltooid deelwoord). Ze klinken hetzelfde en zien er anders uit.",
           "varianten": [
             {
               "vraag": "Welke vorm is het voltooid deelwoord van 'manger'?",
@@ -1578,7 +1578,7 @@
           "type": "waarofniet",
           "vraag": "'Aller', 'allez' en 'allé' klinken hetzelfde maar zijn drie verschillende vormen.",
           "antwoord": true,
-          "uitleg": "Daarom staat dit voorbeeld in de vakfiche: je moet aan de zin zien welke vorm je nodig hebt."
+          "uitleg": "Daarom is het lastig: je moet aan de zin zien welke vorm je nodig hebt."
         },
         {
           "type": "meerkeuze",
@@ -1936,7 +1936,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten zinnen noemt de vakfiche?",
+          "vraag": "Welke van deze zijn soorten zinnen?",
           "opties": [
             "mededelend",
             "vragend",
@@ -1966,7 +1966,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom staat het onderscheid tussen infinitief, persoonsvorm en deelwoord in de vakfiche?",
+          "vraag": "Waarom is het onderscheid tussen infinitief, persoonsvorm en deelwoord belangrijk?",
           "opties": [
             "Je moet weten hoe je de werkwoordsvorm in de zin moet lezen of schrijven.",
             "Alleen om ze te kunnen benoemen.",
@@ -1974,7 +1974,7 @@
             "Omdat ze altijd samen voorkomen."
           ],
           "antwoord": 0,
-          "uitleg": "De fiche zegt het zo: het onderscheid is belangrijk om te weten hoe je de werkwoordsvorm correct moet interpreteren of schrijven."
+          "uitleg": "Het onderscheid is belangrijk om te weten hoe je de werkwoordsvorm correct moet interpreteren of schrijven."
         }
       ]
     },
@@ -2621,7 +2621,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom vraagt de fiche dat je varieert tussen soorten zinnen?",
+          "vraag": "Waarom varieer je tussen soorten zinnen?",
           "opties": [
             "Daarmee maak je je tekst levendig.",
             "Anders zijn je zinnen fout.",

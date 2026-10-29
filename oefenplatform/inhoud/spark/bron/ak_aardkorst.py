@@ -284,7 +284,7 @@ DEEL2 = [
             "De warmte van de zon",
         ],
         antwoord=[0, 1],
-        uitleg="De fiche noemt wind, water en ijs als de drie krachten die het reliëf veranderen. De zon, de maan en de magneetkracht van de kern voeren zelf niets weg.",
+        uitleg="Wind, water en ijs zijn de drie krachten die het reliëf veranderen. De zon, de maan en de magneetkracht van de kern voeren zelf niets weg.",
     ),
     dict(
         type="meerkeuze",

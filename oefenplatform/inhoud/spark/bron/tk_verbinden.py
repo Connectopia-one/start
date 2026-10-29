@@ -175,7 +175,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Een magneet kan als verbinding gebruikt worden.",
         antwoord=True,
-        uitleg="De fiche noemt magneten uitdrukkelijk bij de verbindingsmogelijkheden. Denk aan een kastdeurtje dat magnetisch dichtklikt.",
+        uitleg="Magneten zijn ook een verbindingsmogelijkheid. Denk aan een kastdeurtje dat magnetisch dichtklikt.",
     ),
     dict(
         type="meerkeuze",
@@ -193,7 +193,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Een ritssluiting is geen verbinding.",
         antwoord=False,
-        uitleg="Een ritssluiting staat gewoon in het rijtje verbindingsmogelijkheden van de fiche, naast velcro, scharnieren en magneten.",
+        uitleg="Een ritssluiting is gewoon een verbindingsmogelijkheid, net als velcro, scharnieren en magneten.",
     ),
     dict(
         type="meerkeuze",
@@ -281,7 +281,7 @@ DEEL2 = [
             "De namen van wie de machine mag aankopen",
         ],
         antwoord=0,
-        uitleg="Links de risico's, rechts de voorkomingsmaatregelen, en de pictogrammen van wat verplicht is. De kaart van de figuurzaag staat als voorbeeld in de fiche.",
+        uitleg="Links de risico's, rechts de voorkomingsmaatregelen, en de pictogrammen van wat verplicht is.",
     ),
     dict(
         type="waarofniet",
@@ -299,7 +299,7 @@ DEEL2 = [
             "Een elektrisch toestel bedienen met natte handen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De juiste antwoorden staan als goede werkwijze in de fiche. Natte handen en elektriciteit gaan nooit samen.",
+        uitleg="De juiste antwoorden zijn goede werkwijzen. Natte handen en elektriciteit gaan nooit samen.",
     ),
     dict(
         type="waarofniet",
@@ -329,7 +329,7 @@ DEEL2 = [
             "Je zet het op de allerhoogste stand",
         ],
         antwoord=0,
-        uitleg="Uitschakelen spaart de batterij en beschermt het toestel. De fiche noemt het bij de goede werkwijzen.",
+        uitleg="Uitschakelen spaart de batterij en beschermt het toestel. Het hoort bij de goede werkwijzen.",
     ),
     dict(
         type="waarofniet",
@@ -384,7 +384,7 @@ DEEL2 = [
             "Draag helemaal geen bescherming",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Die kaart staat als voorbeeld in de fiche. Er staat ook op dat je de stofafzuiging aanzet vóór je de machine start.",
+        uitleg="Op die kaart staat ook dat je de stofafzuiging aanzet vóór je de machine start.",
     ),
     dict(
         type="waarofniet",

@@ -431,7 +431,7 @@ DEEL2 = [
             "Je voornaam en je geboortejaar erin",
         ],
         antwoord=[0, 1],
-        uitleg="De fiche vraagt 8 tot 24 karakters, met een hoofdletter, een kleine letter, een cijfer en een teken. Je naam, je geboortejaar of een hergebruikt wachtwoord is net wat een bedrieger als eerste probeert.",
+        uitleg="Een sterk wachtwoord heeft 8 tot 24 karakters, met een hoofdletter, een kleine letter, een cijfer en een teken. Je naam, je geboortejaar of een hergebruikt wachtwoord is net wat een bedrieger als eerste probeert.",
     ),
     dict(
         type="waarofniet",

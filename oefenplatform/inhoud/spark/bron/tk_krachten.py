@@ -30,7 +30,7 @@ DEEL1 = [
             "Een buigkracht",
         ],
         antwoord=0,
-        uitleg="De kabels worden naar beneden getrokken door het gewicht van de brug. Dat voorbeeld staat letterlijk in de fiche.",
+        uitleg="De kabels worden naar beneden getrokken door het gewicht van de brug.",
     ),
     dict(
         type="meerkeuze",
@@ -72,7 +72,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Boeken op een tafel oefenen een drukkracht uit op het tafelblad.",
         antwoord=True,
-        uitleg="Ze duwen recht naar beneden. Ook dat voorbeeld staat in de fiche, naast de pilaren van een brug.",
+        uitleg="Ze duwen recht naar beneden, net als de pilaren van een brug.",
     ),
     dict(
         type="waarofniet",
@@ -82,7 +82,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke krachten op een constructie noemt de fiche?",
+        vraag="Welke krachten kunnen op een constructie werken?",
         opties=[
             "Drukkracht",
             "Trekkracht",

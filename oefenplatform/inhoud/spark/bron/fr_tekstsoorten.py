@@ -18,7 +18,7 @@ DEEL1 = [
              "Geen van deze antwoorden",
          ],
          antwoord=0,
-         uitleg="Couper = snijden, ajouter = toevoegen, mélanger = mengen. Een recept zegt stap voor stap wat je moet doen. De fiche noemt zo'n tekst prescriptief."),
+         uitleg="Couper = snijden, ajouter = toevoegen, mélanger = mengen. Een recept zegt stap voor stap wat je moet doen. Zo'n tekst heet prescriptief."),
     dict(type="meerkeuze",
          vraag="Hoe heet een tekst die uitlegt wat of hoe je iets moet doen?",
          opties=["een prescriptieve tekst", "een narratieve tekst",
@@ -44,7 +44,7 @@ DEEL1 = [
          antwoord=0,
          uitleg="Narratief komt van 'narrer', vertellen: een videoblog, een reisverslag, een podcast."),
     dict(type="meerkeuze",
-         vraag="Welke teksten noemt de vakfiche literair?",
+         vraag="Welke van deze teksten zijn literair?",
          opties=[
              "een gedicht",
              "een strip",
@@ -114,7 +114,7 @@ DEEL1 = [
     dict(type="waarofniet",
          vraag="Verwijswoorden gebruik je zelf ook, om niet steeds hetzelfde woord te moeten herhalen.",
          antwoord=True,
-         uitleg="De fiche zegt het zo: als je schrijft, gebruik je voornaamwoorden om niet te hoeven herhalen."),
+         uitleg="Als je schrijft, gebruik je voornaamwoorden om niet te hoeven herhalen."),
     dict(type="meerkeuze",
          vraag="Wat betekent 'alors'?",
          opties=["dus, dan", "omdat", "maar", "nooit"],
@@ -135,7 +135,7 @@ DEEL1 = [
                  "Ze staan altijd in het vet.",
                  "Ze vervangen de titel."],
          antwoord=0,
-         uitleg="Dat staat zo in de fiche: signaalwoorden helpen je om de gedachtegang van een tekst te reconstrueren."),
+         uitleg="Signaalwoorden helpen je om de gedachtegang van een tekst te reconstrueren."),
 ]
 
 DEEL2 = [
@@ -244,7 +244,7 @@ DEEL2 = [
          antwoord=0,
          uitleg="Iemand spreekt zijn publiek aan en neemt het mee op reis: dat is narratief, zoals een videoblog of reisverslag."),
     dict(type="waarofniet",
-         vraag="Een cartoon rekent de vakfiche bij de informatieve teksten.",
+         vraag="Een cartoon is een informatieve tekst.",
          antwoord=False,
          uitleg="Niet juist. Een cartoon staat bij de literaire teksten."),
     dict(type="meerkeuze",

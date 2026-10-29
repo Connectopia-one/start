@@ -145,7 +145,7 @@ VRAGEN = [
             "Dat is stralingsenergie die van de zon komt",
         ],
         antwoord=0,
-        uitleg="Warmte uit de diepe ondergrond is aardwarmte, en de fiche noemt die hernieuwbaar. Aardgas komt ook uit de grond, maar dat is een brandstof die je verbrandt, en die raakt op. Dat iets uit de grond komt, maakt het dus nog niet fossiel.",
+        uitleg="Warmte uit de diepe ondergrond is aardwarmte, en die is hernieuwbaar. Aardgas komt ook uit de grond, maar dat is een brandstof die je verbrandt, en die raakt op. Dat iets uit de grond komt, maakt het dus nog niet fossiel.",
     ),
     dict(
         type="invultekst",

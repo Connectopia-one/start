@@ -29,7 +29,7 @@ DEEL1 = [
             "Chatten",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="De fiche noemt zes vormen: e-mail, sociale media, fora, blogwebsites, een online meeting en chatten. Een papieren brief is niet digitaal.",
+        uitleg="Er zijn zes vormen: e-mail, sociale media, fora, blogwebsites, een online meeting en chatten. Een papieren brief is niet digitaal.",
     ),
     dict(
         type="meerkeuze",
@@ -84,7 +84,7 @@ DEEL1 = [
             "De bijlage",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="De fiche noemt: aan, CC, BCC, de onderwerpregel, de aanhef, de inhoud, de slotgroet, de ondertekening en de bijlage. Een paginanummer hoort in een document.",
+        uitleg="Een mail heeft: aan, CC, BCC, de onderwerpregel, de aanhef, de inhoud, de slotgroet, de ondertekening en de bijlage. Een paginanummer hoort in een document.",
     ),
     dict(
         type="meerkeuze",

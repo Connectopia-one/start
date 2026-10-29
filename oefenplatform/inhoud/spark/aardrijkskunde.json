@@ -395,7 +395,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke reliëfvormen noemt de vakfiche? Er zijn er meerdere juist.",
+          "vraag": "Welke van deze zijn reliëfvormen? Er zijn er meerdere juist.",
           "opties": [
             "De vlakte",
             "Het plateau",
@@ -734,7 +734,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "De fiche vraagt om plaatsen in Europa en de wereld op 1 graad nauwkeurig te situeren. Wat betekent dat?",
+          "vraag": "Je moet plaatsen in Europa en de wereld op 1 graad nauwkeurig situeren. Wat betekent dat?",
           "opties": [
             "Je antwoord mag hoogstens één graad naast de juiste liggen",
             "Je moet altijd naar boven afronden tot een heel getal",
@@ -979,7 +979,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke klimaatwoorden gebruikt de vakfiche om een landschap te beschrijven? Er zijn er meerdere juist.",
+          "vraag": "Met welke woorden beschrijf je het klimaat van een landschap? Er zijn er meerdere juist.",
           "opties": [
             "Warm",
             "Gematigd",
@@ -994,7 +994,7 @@
             2,
             5
           ],
-          "uitleg": "De fiche werkt met warm, gematigd, koud, droog en nat. Winderig en bewolkt zijn beschrijvingen van het weer van vandaag, niet van het klimaat."
+          "uitleg": "Voor het klimaat gebruik je warm, gematigd, koud, droog en nat. Winderig en bewolkt zijn beschrijvingen van het weer van vandaag, niet van het klimaat."
         },
         {
           "type": "meerkeuze",
@@ -1010,7 +1010,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten natuurlijke vegetatie noemt de fiche? Er zijn er meerdere juist.",
+          "vraag": "Welke van deze zijn natuurlijke vegetatie? Er zijn er meerdere juist.",
           "opties": [
             "Naaldbomen",
             "Loofbomen",
@@ -1385,7 +1385,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke van deze zijn laagvlaktes volgens de vakfiche? Er zijn er meerdere juist.",
+          "vraag": "Welke van deze gebieden in België zijn laagvlaktes? Er zijn er meerdere juist.",
           "opties": [
             "De Kempense Laagvlakte",
             "De Laagvlakte van de Kust",
@@ -1397,11 +1397,11 @@
             0,
             1
           ],
-          "uitleg": "De fiche noemt drie laagvlaktes: de Kempense, die van de Kust en de Vlaamse. Herve, Lotharingen en de Condroz liggen veel hoger."
+          "uitleg": "België heeft drie laagvlaktes: de Kempense, die van de Kust en de Vlaamse. Herve, Lotharingen en de Condroz liggen veel hoger."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke van deze zijn laagplateaus volgens de vakfiche? Er zijn er meerdere juist.",
+          "vraag": "Welke van deze gebieden in België zijn laagplateaus? Er zijn er meerdere juist.",
           "opties": [
             "Het Haspengouws Laagplateau",
             "Het Henegouws Laagplateau",
@@ -1416,7 +1416,7 @@
             2,
             5
           ],
-          "uitleg": "De fiche noemt vier laagplateaus: het Haspengouwse, het Henegouwse, het Brabantse en het Kempense. De Fagne-Famennedepressie en de Ardennen horen bij de zuidelijke eenheden."
+          "uitleg": "België heeft vier laagplateaus: het Haspengouwse, het Henegouwse, het Brabantse en het Kempense. De Fagne-Famennedepressie en de Ardennen horen bij de zuidelijke eenheden."
         },
         {
           "type": "invultekst",
@@ -1450,7 +1450,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke klimaatzones noemt de vakfiche? Er zijn er meerdere juist.",
+          "vraag": "Met welke woorden benoem je een klimaatzone? Er zijn er meerdere juist.",
           "opties": [
             "Warm",
             "Gematigd",
@@ -1465,7 +1465,7 @@
             2,
             5
           ],
-          "uitleg": "De fiche werkt met vijf woorden voor klimaatzones: warm, gematigd, koud, droog en nat. Bergachtig gaat over reliëf, winderig over het weer."
+          "uitleg": "Voor klimaatzones gebruik je vijf woorden: warm, gematigd, koud, droog en nat. Bergachtig gaat over reliëf, winderig over het weer."
         },
         {
           "type": "meerkeuze",
@@ -1493,7 +1493,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke van deze zijn vegetatiezones volgens de vakfiche? Er zijn er meerdere juist.",
+          "vraag": "Welke van deze zijn vegetatiezones van de wereld? Er zijn er meerdere juist.",
           "opties": [
             "De toendra",
             "De taiga",
@@ -1508,7 +1508,7 @@
             2,
             5
           ],
-          "uitleg": "De fiche noemt zeven vegetatiezones: toendra, taiga, loofwoud, steppe, savanne, regenwoud en (ijs)woestijn. Hoogveen en polder zijn Belgische landschappen, geen wereldwijde zones."
+          "uitleg": "Er zijn zeven vegetatiezones: toendra, taiga, loofwoud, steppe, savanne, regenwoud en (ijs)woestijn. Hoogveen en polder zijn Belgische landschappen, geen wereldwijde zones."
         },
         {
           "type": "meerkeuze",
@@ -2093,7 +2093,7 @@
             0,
             1
           ],
-          "uitleg": "De fiche noemt wind, water en ijs als de drie krachten die het reliëf veranderen. De zon, de maan en de magneetkracht van de kern voeren zelf niets weg."
+          "uitleg": "Wind, water en ijs zijn de drie krachten die het reliëf veranderen. De zon, de maan en de magneetkracht van de kern voeren zelf niets weg."
         },
         {
           "type": "meerkeuze",
@@ -2262,7 +2262,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke van deze zijn weerelementen volgens de vakfiche? Er zijn er meerdere juist.",
+          "vraag": "Welke van deze zijn weerelementen? Er zijn er meerdere juist.",
           "opties": [
             "De temperatuur",
             "De luchtdruk",
@@ -2277,7 +2277,7 @@
             2,
             5
           ],
-          "uitleg": "De fiche noemt vijf weerelementen: temperatuur, luchtdruk, windsnelheid, windrichting en neerslag. Hoogteligging en bodem horen bij het landschap, niet bij het weer."
+          "uitleg": "Er zijn vijf weerelementen: temperatuur, luchtdruk, windsnelheid, windrichting en neerslag. Hoogteligging en bodem horen bij het landschap, niet bij het weer."
         },
         {
           "type": "meerkeuze",
@@ -3484,7 +3484,7 @@
           "type": "invultekst",
           "vraag": "Het omzetten van landbouwgebied in bebouwing is een vorm van ___.",
           "antwoord": "verharding",
-          "uitleg": "De fiche noemt dat uitdrukkelijk als voorbeeld. Waar eerst regen in de grond zakte, ligt daarna een dak, een oprit en een straat."
+          "uitleg": "Waar eerst regen in de grond zakte, ligt daarna een dak, een oprit en een straat."
         },
         {
           "type": "meerkeuze",
@@ -4119,7 +4119,7 @@
             1,
             2
           ],
-          "uitleg": "De fiche noemt drie dingen bij het reliëf: de helling, de hoogteverschillen en de horizonlijn. Bomen horen bij de vegetatie en huizen bij de bebouwing."
+          "uitleg": "Bij het reliëf kijk je naar drie dingen: de helling, de hoogteverschillen en de horizonlijn. Bomen horen bij de vegetatie en huizen bij de bebouwing."
         },
         {
           "type": "meerkeuze",
@@ -4253,7 +4253,7 @@
             "De coördinaten, de richting en de afstand"
           ],
           "antwoord": 0,
-          "uitleg": "Dat zijn de drie dingen die de fiche na het reliëf noemt. Samen met het reliëf en de bodem heb je dan het hele landschap beschreven."
+          "uitleg": "Dat zijn de drie lagen die na het reliëf komen. Samen met het reliëf en de bodem heb je dan het hele landschap beschreven."
         },
         {
           "type": "meerkeuze",

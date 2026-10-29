@@ -98,7 +98,7 @@ DEEL1 = [
     dict(type="waarofniet",
          vraag="In het Engels staat het persoonlijk voornaamwoord als lijdend voorwerp áchter het werkwoord: 'I saw him', niet 'I him saw'.",
          antwoord=True,
-         uitleg="De fiche noemt dat de plaats van het persoonlijk voornaamwoord. In het Nederlands kan die plaats schuiven, in het Engels veel minder."),
+         uitleg="Dat is de plaats van het persoonlijk voornaamwoord. In het Nederlands kan die plaats schuiven, in het Engels veel minder."),
     dict(type="meerkeuze",
          vraag="Vul aan: '___ is your favourite subject?' Welk vragend woord past hier?",
          opties=["What", "Who", "Where", "When"],
@@ -118,7 +118,7 @@ DEEL1 = [
          vraag="Je leest: 'She lives in Belgium and goes to school by bus.' Welke voorzetsels staan er?",
          opties=["in en by", "on en at", "to en from", "of en for"],
          antwoord=0,
-         uitleg="In Belgium, by bus: de fiche noemt precies die vaste combinaties bij de frequente prepositions."),
+         uitleg="In Belgium, by bus: dat zijn vaste combinaties met frequente prepositions."),
 ]
 
 DEEL2 = [

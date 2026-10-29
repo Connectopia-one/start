@@ -387,7 +387,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke reliëfvormen noemt de vakfiche? Er zijn er meerdere juist.",
+        vraag="Welke van deze zijn reliëfvormen? Er zijn er meerdere juist.",
         opties=[
             "De vlakte",
             "Het plateau",

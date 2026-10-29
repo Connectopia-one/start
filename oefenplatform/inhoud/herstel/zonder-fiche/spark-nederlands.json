@@ -1,0 +1,1399 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Tekstsoorten en het communicatiemodel — deel 2",
+   "niveau": "spark",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Je belt je leerkracht op om te zeggen dat je tien minuten te laat bent. Wie is de ontvanger?",
+     "opties": [
+      "Je leerkracht",
+      "Jijzelf",
+      "Het telefoongesprek",
+      "De vertraagde bus",
+      "Geen van deze antwoorden"
+     ],
+     "antwoord": 0,
+     "uitleg": "Jij bent de zender, je leerkracht de ontvanger, de telefoon het kanaal, de vertraagde bus de context."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Dezelfde situatie: welke elementen van het communicatiemodel zijn juist benoemd?",
+     "opties": [
+      "Kanaal: het telefoongesprek",
+      "Boodschap: dat je tien minuten te laat bent",
+      "Zender: je leerkracht",
+      "Doel: je leerkracht overtuigen om de les uit te stellen"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Jij bent de zender, niet je leerkracht, en je doel is informeren, niet overtuigen. Kanaal en boodschap kloppen wel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je stuurt over diezelfde bus een bericht vol geïrriteerde emoji's naar je beste vriendin. Waarom is dat gepast en naar je leerkracht niet?",
+     "opties": [
+      "Omdat de ontvanger en het register anders zijn",
+      "Omdat emoji's altijd fout zijn",
+      "Omdat het kanaal hetzelfde blijft",
+      "Omdat de boodschap anders is"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dezelfde boodschap, een andere ontvanger: bij een vriendin mag het informeel, bij een leerkracht hoort een formeel register."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een bedrijf maakt een filmpje dat eruitziet als een reportage, maar het gaat over hun eigen product. Wat is dat?",
+     "opties": [
+      "Een publireportage: reclame die zich voordoet als informatie",
+      "Een gewone reportage",
+      "Een instructiefilmpje",
+      "Een recensie"
+     ],
+     "antwoord": 0,
+     "uitleg": "Kijk naar de zender en het doel. Is de zender de verkoper, dan is het doel verkopen, hoe informatief het er ook uitziet."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Reclame, propaganda en een campagne tegen te snel rijden willen je vooral ___.",
+     "antwoord": "overtuigen",
+     "uitleg": "Ze willen je gedrag of je mening veranderen. Dat is de tekstsoort 'overtuigen of beïnvloeden'."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je moet een zoekertje schrijven om je oude gsm te verkopen. Wat is je doel?",
+     "opties": [
+      "Informatie geven én iemand overtuigen om te kopen",
+      "Alleen een verhaal vertellen",
+      "Alleen instructies geven",
+      "Je mening geven over gsm's"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een zoekertje geeft de feiten (model, leeftijd, prijs) en probeert tegelijk te overtuigen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vragen stel je jezelf als je het communicatiemodel toepast op een tekst?",
+     "opties": [
+      "Van wie is deze tekst?",
+      "Voor wie is hij bedoeld?",
+      "Waarom is hij gemaakt?",
+      "Hoeveel woorden telt hij?"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Zender, ontvanger en doel zijn de drie vragen waarmee je begint. De lengte zegt niets over de bedoeling."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het kanaal waarlangs je iets verstuurt, verandert niets aan de vorm van je boodschap.",
+     "antwoord": false,
+     "uitleg": "Niet juist. Dezelfde boodschap ziet er anders uit in een mail, in een bericht of in een gesprek."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een tekst begint met 'Beste ouders,' en eindigt met 'Met vriendelijke groeten, de directie'. Wat leid je daaruit af?",
+     "opties": [
+      "De ontvangers zijn de ouders en de zender is de school",
+      "De zender is een leerling",
+      "Het is een literaire tekst",
+      "Het kanaal is een telefoongesprek"
+     ],
+     "antwoord": 0,
+     "uitleg": "Aanhef en ondertekening verraden zender en ontvanger. Het formele register past bij een schoolbrief."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke teksten willen je vooral iets laten voelen of beleven?",
+     "opties": [
+      "Een gedicht",
+      "Een kortverhaal",
+      "Een strip",
+      "Een bijsluiter",
+      "Een lied"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Literaire teksten spelen in op emoties. Een bijsluiter is een instructie: hij moet vooral duidelijk zijn."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest op een forum: 'Deze koptelefoon ging bij mij al na twee maanden stuk.' Wat voor tekst is dat?",
+     "opties": [
+      "Een mening van één gebruiker",
+      "Een instructie",
+      "Een objectieve productbeschrijving",
+      "Een literaire tekst"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het is een ervaring en een oordeel van één persoon. Dat kan kloppen, maar het is geen algemeen onderzoek."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een interview is een informatieve tekst, ook al bestaat het uit vragen en antwoorden.",
+     "antwoord": true,
+     "uitleg": "De vorm is een gesprek, maar het doel is je informatie geven over een onderwerp of een persoon."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil tussen een reportage en een reclamefilmpje over hetzelfde product?",
+     "opties": [
+      "De zender en het doel verschillen",
+      "Alleen de lengte verschilt",
+      "Er is geen verschil",
+      "Een reportage is altijd korter"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij een reportage is de zender een redactie die wil informeren; bij reclame is de zender de verkoper die wil verkopen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een tekst die vertelt wat iemand heeft meegemaakt, noem je een ___ tekst.",
+     "antwoord": "verhalende",
+     "uitleg": "Een reisverslag, een videoblog of een podcast waarin iemand vertelt: dat zijn verhalende teksten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft een mail aan de gemeente over een kapot voetpad. Welk register kies je?",
+     "opties": [
+      "Formeel, met 'u' en een nette slotgroet",
+      "Informeel, met emoji's",
+      "Dialect",
+      "Jongerentaal"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een onbekende volwassene in een officiële rol: dan kies je het formele register."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over het doel van een tekst kloppen?",
+     "opties": [
+      "Het doel bepaalt mee hoe de tekst geschreven is",
+      "Dezelfde informatie kan met een ander doel heel anders klinken",
+      "Je kan het doel vaak afleiden uit wie de zender is",
+      "Het doel staat altijd letterlijk in de eerste zin"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Het doel zit meestal tussen de regels: je leidt het af uit de zender, de toon en het kanaal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een campagne wil dat je minder snel rijdt. Wat is de ontvanger?",
+     "opties": [
+      "De bestuurders",
+      "De overheid",
+      "Het affiche",
+      "De snelheid"
+     ],
+     "antwoord": 0,
+     "uitleg": "De overheid is de zender, het affiche het kanaal, de bestuurders zijn de ontvangers."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Stand-upcomedy kan je een literaire tekst noemen.",
+     "antwoord": true,
+     "uitleg": "Stand-upcomedy hoort bij de literaire teksten: ze speelt met taal en met je gevoel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je krijgt een tekst zonder titel en zonder naam van de auteur. Waaraan zie je toch welke soort tekst het is?",
+     "opties": [
+      "Aan de opbouw en de toon: stappen, argumenten, feiten of een verhaal",
+      "Aan het lettertype",
+      "Aan het aantal alinea's",
+      "Aan de lengte van de tekst en aan het aantal moeilijke woorden dat erin staat"
+     ],
+     "antwoord": 0,
+     "uitleg": "Genummerde stappen wijzen op een instructie, argumenten op overtuigen, gebeurtenissen op een verhaal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is het nuttig om te weten met welke tekstsoort je te maken hebt?",
+     "opties": [
+      "Je weet dan wat je mag verwachten en waarop je moet letten",
+      "Je hoeft de tekst dan niet meer te lezen",
+      "Je kent dan meteen alle moeilijke woorden",
+      "Je weet dan hoe lang de tekst is"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij een overtuigende tekst let je op argumenten en op eenzijdigheid; bij een instructie op de volgorde van de stappen."
+    }
+   ]
+  },
+  {
+   "titel": "Schrijven, spreken en gesprekken voeren — deel 1",
+   "niveau": "spark",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Je moet uitleggen hoe je een gezelschapsspel speelt. Waarmee begin je het best?",
+     "opties": [
+      "Met een plan: welke stappen komen er, en in welke volgorde",
+      "Met de moeilijkste regel",
+      "Met een grapje",
+      "Met de uitzonderingen op de regels, want die vergeet men het snelst"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een schrijf- of spreekplan met kernwoorden zorgt dat je niets vergeet en in de juiste volgorde blijft."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent 'taakvoltooiing' bij een schrijfopdracht?",
+     "opties": [
+      "Dat je doet wat gevraagd werd en je boodschap volledig overkomt",
+      "Dat je op tijd klaar bent",
+      "Dat je zoveel mogelijk woorden gebruikt zodat je tekst lang genoeg is",
+      "Dat je geen fouten maakt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Taakvoltooiing kijkt of het tekstdoel bereikt is: is de inhoud helder, correct, volledig en ter zake?"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een plan met kernwoorden dat je maakt vóór je begint te schrijven, heet een ___.",
+     "antwoord": "schrijfplan",
+     "uitleg": "Voor een spreekopdracht doe je hetzelfde met een spreekplan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke opdrachten vragen dat je iemand overtuigt?",
+     "opties": [
+      "Een productadvertentie opstellen",
+      "Met je ouders onderhandelen over een afspraak",
+      "Een verslag van een uitstap schrijven",
+      "Een recept uitschrijven"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Bij de juiste antwoorden wil je dat de ander iets doet of denkt. Een recept en een verslag leggen alleen uit."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij een schrijfopdracht op het examen krijg je een kader dat je ondersteunt.",
+     "antwoord": true,
+     "uitleg": "Je krijgt de situatie mee: voor wie je schrijft, waarom en waarover. Dat kader gebruik je ook echt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft een zoekertje om je oude gitaar te verkopen. Wat hoort er zeker in?",
+     "opties": [
+      "Wat je verkoopt, in welke staat, en hoe men je bereikt",
+      "Je hele muziekgeschiedenis",
+      "Een gedicht over gitaren",
+      "De prijs van een nieuwe gitaar in de winkel"
+     ],
+     "antwoord": 0,
+     "uitleg": "Informatie geven betekent: alles wat de ontvanger nodig heeft, en niets meer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort bij een goede tekststructuur?",
+     "opties": [
+      "Een herkenbare inleiding, midden en slot",
+      "Alinea's die elk één punt behandelen",
+      "Signaalwoorden die de verbanden tonen",
+      "Zo lang mogelijke zinnen"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Structuur en samenhang worden apart beoordeeld. Lange zinnen maken een tekst net moeilijker."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Bij een spreekopdracht ben je alleen aan het woord; bij ___ ga je in gesprek met iemand.",
+     "antwoord": "interactie",
+     "uitleg": "Mondelinge interactie betekent: een gesprek beginnen, gaande houden en netjes beëindigen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je vertelt in een mail aan een vriend over je weekend. Welk doel heb je?",
+     "opties": [
+      "Iets vertellen",
+      "Overtuigen",
+      "Instructies geven",
+      "Informatie vragen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vertellen is een apart doel: je deelt wat je meegemaakt hebt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is 'creatief zijn met taal'?",
+     "opties": [
+      "Spelen met rijm, ritme en lay-out om je boodschap sterker te maken",
+      "Zoveel mogelijk moeilijke woorden gebruiken, zodat je tekst geleerd klinkt",
+      "In een andere taal schrijven",
+      "Zonder leestekens schrijven"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een slogan, een gedicht of een verhaal: met eenvoudige technieken maak je je tekst opvallend."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Voor de mondelinge opdrachten krijg je voorbereidingstijd, maar je moet ook spontaan kunnen reageren.",
+     "antwoord": true,
+     "uitleg": "Je bereidt voor wat je wil zeggen, maar een gesprek loopt nooit helemaal zoals je plande."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je wil informatie vragen over een product in een winkel. Welke vraag is het duidelijkst?",
+     "opties": [
+      "Kan u me zeggen hoelang de garantie op dit toestel loopt?",
+      "Dat ding, is dat iets?",
+      "Hoe zit dat allemaal?",
+      "Ik zou graag iets weten over dat toestel daar in de rekken."
+     ],
+     "antwoord": 0,
+     "uitleg": "Een duidelijke vraag noemt precies wat je wil weten. Zo krijg je ook een bruikbaar antwoord."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke onderdelen worden bij een schrijfopdracht beoordeeld?",
+     "opties": [
+      "Je spelling en je leestekens",
+      "Hoe snel je typt",
+      "Of je boodschap volledig is",
+      "Je handschrift"
+     ],
+     "antwoord": [
+      0,
+      2
+     ],
+     "uitleg": "Spelling, leestekens en de volledigheid van je boodschap tellen mee. Je handschrift niet, want je typt, en je tempo evenmin."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je tekst nalezen vóór je hem indient, hoort bij de opdracht.",
+     "antwoord": true,
+     "uitleg": "Nalezen is een strategie: is mijn boodschap helder, gepast, correct en vlot?"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je als je tijdens het spreken een woord niet vindt?",
+     "opties": [
+      "Je omschrijft het met andere woorden en gaat verder",
+      "Je stopt met praten",
+      "Je herhaalt tien keer hetzelfde woord",
+      "Je begint helemaal opnieuw"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een omschrijving zoeken is een compensatiestrategie: je bereikt je doel langs een andere weg."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je tekst indelen in stukken met een witregel ertussen, dat zijn je ___.",
+     "antwoord": "alinea's",
+     "uitleg": "Alinea's maken je tekst leesbaar. Waar nodig zet je er ook tussentitels bij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je gaat in gesprek over een maatschappelijk thema, bijvoorbeeld het klimaat. Wat helpt je?",
+     "opties": [
+      "Vooraf een paar bronnen lezen en er cijfers uit onthouden",
+      "Alleen zeggen wat je vrienden ervan vinden, zodat je niet alleen staat",
+      "Zo snel mogelijk praten",
+      "Alleen luisteren"
+     ],
+     "antwoord": 0,
+     "uitleg": "Als je over zulke thema's spreekt, gebruik je bronnen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn maatschappelijke thema's waar je zelf mee te maken hebt?",
+     "opties": [
+      "gezondheid",
+      "klimaat",
+      "sociale media",
+      "sterrenkunde",
+      "mobiliteit"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Gezondheid, klimaat, sociale media, inspraak en mobiliteit: thema's op jouw niveau waar je zelf mee te maken hebt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij het spreken moet je verzorgd Standaardnederlands gebruiken.",
+     "antwoord": true,
+     "uitleg": "Uitspraak en intonatie worden beoordeeld: je spreekt verzorgd Standaardnederlands, geen dialect of tussentaal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je krijgt de opdracht: 'Schrijf een mail aan de sportclub om je in te schrijven.' Wat is je doel?",
+     "opties": [
+      "Informatie geven en vragen",
+      "Een verhaal vertellen",
+      "Iemand overtuigen",
+      "Een gedicht schrijven"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je geeft je gegevens door en vraagt wat je nog moet weten: uur, prijs, uitrusting."
+    }
+   ]
+  },
+  {
+   "titel": "Schrijven, spreken en gesprekken voeren — deel 2",
+   "niveau": "spark",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Je hebt je tekst af. Waarop let je bij het nalezen?",
+     "opties": [
+      "Of de boodschap helder, gepast, correct en vlot is",
+      "Of de tekst precies honderd woorden telt",
+      "Of je lievelingswoord erin staat",
+      "Of er een foto bij staat"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dat zijn de vier vragen bij het nalezen. Een spellingcontrole helpt, maar vervangt het nalezen niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat kan een spellingcontrole niet voor je doen?",
+     "opties": [
+      "Zien of je het juiste woord gebruikt hebt",
+      "Een tikfout in een woord aanduiden",
+      "Een ontbrekende letter opmerken",
+      "Een onbekend woord markeren"
+     ],
+     "antwoord": 0,
+     "uitleg": "'Word' in plaats van 'wordt' of 'hij ligt' in plaats van 'hij legt': dat zijn bestaande woorden, dus de controle zwijgt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe begin je een gesprek met iemand die je niet kent?",
+     "opties": [
+      "Je groet, stelt jezelf voor en zegt waarvoor je komt",
+      "Je begint meteen over je probleem",
+      "Je wacht tot de ander iets zegt",
+      "Je stuurt eerst een bericht"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een gesprek correct beginnen, gaande houden en beëindigen hoort bij mondelinge interactie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe houd je een gesprek gaande?",
+     "opties": [
+      "Je stelt vragen aan de ander",
+      "Je reageert op wat de ander zegt",
+      "Je kijkt naar je telefoon terwijl de ander praat",
+      "Je vertelt zonder ophouden je eigen verhaal"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Vragen stellen en reageren houdt een gesprek gaande. Wie alleen zendt of naar zijn telefoon kijkt, voert geen gesprek."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een gesprek beëindig je het best door gewoon weg te lopen.",
+     "antwoord": false,
+     "uitleg": "Je rondt af: je bedankt, vat kort samen wat afgesproken is en groet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je wil je ouders overtuigen dat je later mag thuiskomen. Wat werkt het best?",
+     "opties": [
+      "Argumenten geven en een voorstel doen waar zij ook iets aan hebben",
+      "Roepen dat het oneerlijk is",
+      "Zeggen dat iedereen het mag",
+      "Blijven herhalen wat je wil tot ze toegeven, want volhouden loont"
+     ],
+     "antwoord": 0,
+     "uitleg": "Onderhandelen betekent: argumenten geven, rekening houden met de ander en samen tot een afspraak komen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een reden die je geeft om je standpunt te verdedigen, is een ___.",
+     "antwoord": "argument",
+     "uitleg": "Overtuigen doe je met argumenten die aansluiten bij je standpunt, niet met herhaling."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je moet een korte handleiding schrijven. Welke opbouw kies je?",
+     "opties": [
+      "Genummerde stappen in de volgorde waarin ze uitgevoerd worden",
+      "Een verhaal van begin tot eind",
+      "Een betoog met argumenten, zodat de lezer overtuigd raakt om het te doen",
+      "Een gedicht"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij instructies is de volgorde de structuur. Nummers of signaalwoorden houden ze uit elkaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zinnen horen thuis in een formele mail aan een onbekende?",
+     "opties": [
+      "Geachte mevrouw",
+      "Met vriendelijke groeten",
+      "Ik zou graag willen weten wanneer de inschrijvingen starten.",
+      "Hey, alles goed?",
+      "Alvast bedankt voor uw antwoord."
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Aanhef, slotgroet en beleefde formulering horen bij een formele mail. 'Hey' bewaar je voor vrienden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een formele brief sluit je af met 'groetjes'.",
+     "antwoord": false,
+     "uitleg": "'Groetjes' is informeel. In een formele brief schrijf je 'Met vriendelijke groeten' of 'Hoogachtend'."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je spreekopdracht duurt twee minuten. Hoe bereid je die voor?",
+     "opties": [
+      "Met kernwoorden op een blad, niet met een volledig uitgeschreven tekst",
+      "Door alles woord voor woord van buiten te leren",
+      "Door niets voor te bereiden",
+      "Door een tekst voor te lezen van je scherm"
+     ],
+     "antwoord": 0,
+     "uitleg": "Met kernwoorden blijf je natuurlijk spreken en kan je oogcontact houden. Voorlezen klinkt vlak."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent 'vlotheid' bij een spreekopdracht?",
+     "opties": [
+      "Dat je voldoende vlot spreekt, zonder telkens lang te haperen",
+      "Dat je zo snel mogelijk praat, zodat je alles binnen de tijd kwijt kan",
+      "Dat je geen fouten maakt",
+      "Dat je veel gebaren maakt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Even nadenken mag. Vlotheid gaat over de vraag of je verhaal blijft lopen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke strategieën helpen je als je vastzit in een schrijfopdracht?",
+     "opties": [
+      "Een omschrijving zoeken voor het woord dat je mist",
+      "Een stukje herlezen en van daaruit verder schrijven",
+      "Een woordenboek of spellingcontrole gebruiken",
+      "De opdracht half afwerken"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Laat je niet ontmoedigen: probeer je doel langs een andere weg te bereiken. Half afwerken kost je de taakvoltooiing."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een woord met dezelfde betekenis als een ander woord, waarmee je je tekst levendiger maakt, is een ___.",
+     "antwoord": "synoniem",
+     "uitleg": "Variëren in woordenschat en zinsbouw maakt een tekst levendig. Synoniemen zijn daarbij je belangrijkste hulpmiddel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft een recensie van een film voor de schoolkrant. Wat hoort er zeker in?",
+     "opties": [
+      "Je mening, met argumenten en voorbeelden uit de film",
+      "Het volledige verhaal, met het einde erbij",
+      "Alleen een cijfer op tien",
+      "De namen van alle acteurs"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een recensie is een onderbouwde mening. Het einde verklappen doe je niet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je tekst mag langer zijn dan gevraagd, zolang alles klopt.",
+     "antwoord": false,
+     "uitleg": "De opdracht bepaalt de lengte. Te lang schrijven kost tijd en leidt af van je boodschap."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin is het duidelijkst geschreven?",
+     "opties": [
+      "Wij vragen u het formulier vóór 15 mei terug te sturen.",
+      "Het formulier dat, indien mogelijk en zo snel als het kan, teruggestuurd dient te worden, liefst voor het midden van de maand mei.",
+      "Formulier terug, mei, graag.",
+      "Stuur het maar eens terug als het uitkomt."
+     ],
+     "antwoord": 0,
+     "uitleg": "Correcte zinsbouw plus een concrete datum. De tweede zin loopt vast, de derde is geen zin, de vierde is te vaag."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je moet in een gesprek spontaan reageren op een vraag die je niet verwacht had. Wat doe je?",
+     "opties": [
+      "Je neemt even tijd, zegt wat je wél weet en vraagt gerust om verduidelijking",
+      "Je zwijgt",
+      "Je verandert van onderwerp",
+      "Je zegt dat de vraag onduidelijk is en vraagt om een andere vraag te stellen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Om verduidelijking vragen mag: dat hoort bij een gesprek gaande houden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke technieken maken een slogan sterk?",
+     "opties": [
+      "Rijm",
+      "Ritme",
+      "Zoveel mogelijk informatie",
+      "Veel vakjargon"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Creatief taalgebruik werkt met klank en vorm: rijm en ritme. Vakjargon en een stortvloed aan informatie maken een slogan net onbegrijpelijk."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom lees je je mail nog eens na vóór je hem verstuurt?",
+     "opties": [
+      "Omdat je hem niet meer kan terughalen en fouten je boodschap verzwakken",
+      "Omdat dat verplicht is",
+      "Omdat een mail met fouten door de ontvanger vaak niet geopend wordt",
+      "Omdat je dan meer woorden hebt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een verzonden mail is weg. Eén keer nalezen op spelling, toon en volledigheid scheelt veel."
+    }
+   ]
+  },
+  {
+   "titel": "Register, taalvariatie en non-verbale communicatie — deel 2",
+   "niveau": "spark",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Je solliciteert per mail voor een vakantiejob. Welke aanhef kies je?",
+     "opties": [
+      "Geachte heer of mevrouw",
+      "Hey!",
+      "Dag maat",
+      "Hallo jullie"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een sollicitatie is de formeelste situatie die je op dit niveau tegenkomt: aanhef, 'u' en een nette slotgroet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke slotgroeten passen bij een formele mail?",
+     "opties": [
+      "Met vriendelijke groeten",
+      "Hoogachtend",
+      "Met dank bij voorbaat",
+      "Xxx"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De juiste antwoorden zijn formeel of neutraal. Kusjes horen bij familie en vrienden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Twee vrienden spreken onder elkaar dialect, maar schakelen over op Standaardnederlands als er iemand bijkomt die het niet begrijpt. Wat tonen ze daarmee?",
+     "opties": [
+      "Dat je je taalvariëteit aanpast aan je gesprekspartner",
+      "Dat dialect fout is",
+      "Dat standaardtaal moeilijker is",
+      "Dat ze geen dialect kennen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wie tussen variëteiten kan schakelen, communiceert net sterk. De situatie bepaalt de keuze."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Ik heb mijn gsm in de auto laten liggen' tegenover 'Ik heb mijn mobieltje in de auto laten liggen'. Wat is hier aan de hand?",
+     "opties": [
+      "Een verschil tussen Belgisch-Nederlands en Nederlands-Nederlands",
+      "Een spellingfout",
+      "Een verschil tussen dialect en standaardtaal",
+      "Jongerentaal"
+     ],
+     "antwoord": 0,
+     "uitleg": "Allebei standaardtaal, maar 'gsm' hoor je in Vlaanderen en 'mobieltje' in Nederland."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden zijn voorbeelden van vakjargon?",
+     "opties": [
+      "buitenspel (voetbal)",
+      "diagnose (geneeskunde)",
+      "stoel (dagelijks leven)",
+      "tafel (dagelijks leven)"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Jargon is vaktaal binnen een beroep of hobby. 'Tafel' en 'stoel' kent iedereen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Jargon gebruiken tegenover iemand die het vak niet kent, maakt je boodschap duidelijker.",
+     "antwoord": false,
+     "uitleg": "Net omgekeerd: voor een leek is vaktaal een muur. Leg uit in gewone woorden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "De manier waarop je stem stijgt en daalt terwijl je spreekt, heet je ___.",
+     "antwoord": "intonatie",
+     "uitleg": "Intonatie, articulatie, tempo en volume horen bij je non-verbale communicatie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je geeft een spreekbeurt en kijkt de hele tijd naar je blad. Welk effect heeft dat?",
+     "opties": [
+      "Je publiek haakt af, want er is geen contact",
+      "Je klinkt deskundiger",
+      "Je spreekt vlotter",
+      "Het maakt geen verschil"
+     ],
+     "antwoord": 0,
+     "uitleg": "Oogcontact houdt je publiek erbij. Werk daarom met kernwoorden in plaats van een volledige tekst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over emoji's kloppen?",
+     "opties": [
+      "Ze kunnen je toon verduidelijken in een informeel bericht",
+      "Ze zijn ongepast in formele communicatie",
+      "Ze kunnen ook verkeerd begrepen worden",
+      "Ze vervangen de leestekens"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Een emoji is non-verbale communicatie op papier: handig onder vrienden, riskant bij onbekenden, en geen vervanging voor punten en komma's."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Iemand staat tijdens een gesprek heel dicht bij je. Waarover gaat dat?",
+     "opties": [
+      "Over afstand, een onderdeel van non-verbale communicatie",
+      "Over intonatie",
+      "Over register",
+      "Over articulatie, want wie dichtbij staat spreekt meestal onduidelijker"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hoeveel afstand je houdt, hoort bij je lichaamstaal en verschilt zelfs van land tot land."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je kleding en je uiterlijk horen ook bij de boodschap die je uitstuurt.",
+     "antwoord": true,
+     "uitleg": "Ook kleding en uiterlijk horen bij de non-verbale communicatie: ze zeggen iets zonder woorden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest in een appgroep: 'ok.' met een punt erachter. Waarom kan dat kil overkomen?",
+     "opties": [
+      "Omdat een punt in een kort appbericht afstandelijk aanvoelt",
+      "Omdat een punt daar fout is",
+      "Omdat er geen hoofdletter staat aan het begin van het bericht",
+      "Omdat 'ok' geen Nederlands is"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wat correct is, kan in een bepaald kanaal toch een andere toon krijgen. Dat is het effect van het medium."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In welke situaties kies je het informele register?",
+     "opties": [
+      "Een berichtje naar een klasgenoot",
+      "Een verjaardagskaartje voor je neef",
+      "Een babbel met je trainer die je al jaren kent",
+      "Een mail naar een onbekend bedrijf"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Bij mensen met wie je een nauwe band hebt, mag het losser. Bij een onbekend bedrijf niet."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "De taalvorm die tussen dialect en standaardtaal in ligt en die je vaak in Vlaamse tv-series hoort, heet ___.",
+     "antwoord": "tussentaal",
+     "uitleg": "Tussentaal klinkt vertrouwd, maar is geen standaardtaal. Op je examen spreek je Standaardnederlands."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is het nuttig om te weten dat talen op elkaar lijken?",
+     "opties": [
+      "Omdat je de betekenis van een onbekend woord soms kan afleiden uit een andere taal",
+      "Omdat je dan geen woordenboek meer nodig hebt om een onbekende tekst helemaal te lezen",
+      "Omdat alle talen dezelfde grammatica hebben",
+      "Omdat je dan sneller spreekt"
+     ],
+     "antwoord": 0,
+     "uitleg": "'Information', 'informatie', 'information': wie het verband ziet, raadt de betekenis."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Wie tussentaal spreekt, maakt daarmee automatisch spelfouten.",
+     "antwoord": false,
+     "uitleg": "Spreken en schrijven zijn twee verschillende dingen. Tussentaal is gesproken taal, spelling gaat over geschreven taal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een leerkracht zegt met een glimlach: 'Dat is dan weer prachtig gedaan.' Wat kan er aan de hand zijn?",
+     "opties": [
+      "De toon verandert de betekenis: het kan ironisch bedoeld zijn",
+      "De zin is fout gespeld",
+      "De zin is altijd een compliment, want er staat geen enkel negatief woord in",
+      "Er ontbreekt een signaalwoord"
+     ],
+     "antwoord": 0,
+     "uitleg": "Intonatie en gezichtsuitdrukking kunnen de betekenis van dezelfde woorden omkeren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je merkt tijdens een gesprek dat je gesprekspartner zijn armen kruist en wegkijkt. Wat doe je?",
+     "opties": [
+      "Je speelt erop in: je vraagt of iets niet duidelijk is",
+      "Je praat gewoon sneller door",
+      "Je zegt hem dat het onbeleefd is om zo te zitten tijdens een gesprek",
+      "Je stopt meteen met praten"
+     ],
+     "antwoord": 0,
+     "uitleg": "De lichaamstaal van je gesprekspartner inschatten en erop reageren hoort bij mondelinge interactie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over taalvariatie kloppen?",
+     "opties": [
+      "Elke variëteit heeft haar eigen plaats in de maatschappij",
+      "Dialect is niet minderwaardig aan standaardtaal",
+      "Welke variëteit past, hangt af van de situatie",
+      "Er bestaat maar één juiste vorm van het Nederlands"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Alle variëteiten zijn gelijkwaardig, elk met hun eigen gebruikssituatie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je moet een tekst herschrijven van informeel naar formeel. Wat verander je?",
+     "opties": [
+      "Je vervangt 'je' door 'u', schrapt emoji's en schrijft volledige zinnen",
+      "Je maakt de tekst een stuk korter en laat alle beleefdheidsformules weg",
+      "Je zet alles in het vet",
+      "Je voegt jongerentaal toe"
+     ],
+     "antwoord": 0,
+     "uitleg": "Formeel maken is: aanspreekvorm, woordkeuze en zinsbouw verzorgen, en alles wat te los klinkt weghalen."
+    }
+   ]
+  },
+  {
+   "titel": "Literatuur en beeldspraak — deel 1",
+   "niveau": "spark",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Een boek vertelt het verzonnen verhaal van een meisje dat op een onbewoond eiland belandt. Wat is dat?",
+     "opties": [
+      "Fictie",
+      "Non-fictie",
+      "Een handleiding",
+      "Een verslag"
+     ],
+     "antwoord": 0,
+     "uitleg": "Fictie is verzonnen. Non-fictie gaat over de werkelijkheid, zoals een biografie of een informatief boek."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een boek over de echte geschiedenis van de Titanic is ___.",
+     "antwoord": "non-fictie",
+     "uitleg": "Non-fictie vertelt over wat echt gebeurd is of echt bestaat."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zijn de personages van een verhaal?",
+     "opties": [
+      "De figuren die in het verhaal voorkomen",
+      "De plaatsen waar het verhaal speelt",
+      "De hoofdstukken",
+      "De woorden die rijmen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het hoofdpersonage staat centraal; de andere figuren zijn nevenpersonages."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat bedoelen we met de ruimte van een verhaal?",
+     "opties": [
+      "De plaats waar het verhaal zich afspeelt",
+      "De tijd die het verhaal duurt",
+      "Het aantal bladzijden",
+      "De naam van de schrijver"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een school, een bos, een schip: de ruimte bepaalt mee de sfeer van het verhaal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke begrippen gebruik je om over een verhaal te praten?",
+     "opties": [
+      "personages",
+      "verhaallijn",
+      "tijd en ruimte",
+      "voegwoord",
+      "perspectief"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Die vier horen bij literatuur. Een voegwoord is een woordsoort en hoort bij het taalsysteem."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "De rode draad van gebeurtenissen in een verhaal noem je de ___.",
+     "antwoord": "verhaallijn",
+     "uitleg": "De verhaallijn loopt van de beginsituatie over een probleem naar de oplossing."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een strip is ook een literaire tekst.",
+     "antwoord": true,
+     "uitleg": "Een strip, een lied, een gedicht, een verhaal en een blog zijn allemaal literaire teksten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Hij at zijn bord leeg.' Is dat letterlijk of figuurlijk?",
+     "opties": [
+      "Letterlijk",
+      "Figuurlijk",
+      "Allebei",
+      "Geen van beide"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hij at wat op zijn bord lag: precies wat de woorden zeggen. Dat is letterlijk."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Hij is door het lint gegaan.' Wat betekent die zin?",
+     "opties": [
+      "Hij is heel kwaad geworden",
+      "Hij is door een lint gelopen",
+      "Hij heeft een lint gekocht",
+      "Hij is gevallen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dat is figuurlijk taalgebruik: de woorden betekenen samen iets anders dan wat er letterlijk staat."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een vergelijking in taal?",
+     "opties": [
+      "Twee dingen naast elkaar zetten met 'als' of 'zoals'",
+      "Twee woorden die rijmen",
+      "Een woord met twee betekenissen",
+      "Een zin zonder werkwoord"
+     ],
+     "antwoord": 0,
+     "uitleg": "'Zo koud als ijs', 'hij rent als een haas': het vergelijkingswoord staat er nog bij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zinnen bevatten een vergelijking?",
+     "opties": [
+      "Ze zwom als een vis.",
+      "Zijn handen waren zo koud als ijs.",
+      "Het was een koude dag.",
+      "De zon ging onder."
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "'Als een vis' en 'zo koud als ijs' zetten twee dingen naast elkaar. De andere zinnen stellen gewoon iets vast."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Taalgebruik waarbij je iets anders bedoelt dan wat er letterlijk staat, noem je ___ taalgebruik.",
+     "antwoord": "figuurlijk",
+     "uitleg": "Uitdrukkingen, spreekwoorden en beeldspraak zijn figuurlijk."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Beeldspraak' betekent dat er een tekening bij de tekst staat.",
+     "antwoord": false,
+     "uitleg": "Niet juist. Bij beeldspraak roep je met woorden een beeld op, zoals in 'een zee van tijd'."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom gebruikt een dichter rijm en ritme?",
+     "opties": [
+      "Om zijn tekst te laten klinken en beter te laten hangen",
+      "Omdat dat verplicht is in een gedicht",
+      "Om de tekst korter te maken",
+      "Om moeilijke woorden te vermijden"
+     ],
+     "antwoord": 0,
+     "uitleg": "Klank hoort bij de vorm van een literaire tekst. Niet elk gedicht rijmt trouwens."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest een blog waarin iemand vertelt over zijn reis door Noorwegen. Wat is dat?",
+     "opties": [
+      "Non-fictie, verteld als een verhaal",
+      "Fictie",
+      "Een handleiding",
+      "Een recensie"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het is echt gebeurd, dus non-fictie, maar de vorm is verhalend en persoonlijk."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort bij de tijd van een verhaal?",
+     "opties": [
+      "In welke periode het speelt",
+      "Hoe lang de gebeurtenissen duren",
+      "Of er sprongen in de tijd zijn",
+      "Hoeveel personages er zijn",
+      "In welke volgorde het verteld wordt"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Tijd gaat over de periode, de duur, de sprongen en de volgorde. Het aantal personages hoort daar niet bij."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Voor het mondelinge deel van het examen lees je twee boeken uit de lectuurlijst.",
+     "antwoord": true,
+     "uitleg": "Je moet ze niet meebrengen, maar je moet er wel over kunnen vertellen: wat sprak je aan en waarom?"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vraag helpt je om je beleving van een boek te verwoorden?",
+     "opties": [
+      "Waarom herken je je wel of niet in een personage?",
+      "Hoeveel bladzijden telt het boek?",
+      "In welk jaar is het gedrukt?",
+      "Wie is de uitgever?"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je beleving gaat over wat het boek met jou doet, niet over de technische gegevens."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Het regende pijpenstelen.' Wat voor taalgebruik is dat?",
+     "opties": [
+      "Beeldspraak",
+      "Een vergelijking met 'als'",
+      "Letterlijk",
+      "Jargon"
+     ],
+     "antwoord": 0,
+     "uitleg": "Er vallen geen pijpenstelen uit de lucht. Het beeld van rechte, dikke stralen vervangt de gewone woorden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom lees je literatuur?",
+     "opties": [
+      "Om kennis te maken met andere mensen, ideeën en ervaringen",
+      "Om sneller te leren typen",
+      "Om je spelling te verbeteren",
+      "Om nieuwe vakwoorden te leren die je later op school nodig hebt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Verhalen lezen laat je kijken door de ogen van iemand anders."
+    }
+   ]
+  },
+  {
+   "titel": "Literatuur en beeldspraak — deel 2",
+   "niveau": "spark",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "In een verhaal blijft het hoofdpersonage rustig terwijl iedereen in paniek raakt. Wat leer je daaruit over dat personage?",
+     "opties": [
+      "Iets over zijn karakter, zonder dat het er letterlijk staat",
+      "Niets",
+      "Dat het verhaal fictie is",
+      "Dat het verhaal in de zomer speelt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Schrijvers tonen karakters vaak via gedrag in plaats van het te benoemen. Als lezer leid je het af."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een verhaal begint met de laatste gebeurtenis en vertelt daarna hoe het zover kwam. Wat doet de schrijver?",
+     "opties": [
+      "Hij speelt met de tijd, met een terugblik",
+      "Hij verandert de ruimte",
+      "Hij gebruikt beeldspraak",
+      "Hij schrijft non-fictie"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een terugblik of flashback is een sprong in de tijd. De volgorde van het vertellen is niet altijd de volgorde van de gebeurtenissen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In fictie mogen plaatsen en personen bestaan die in het echt ook bestaan.",
+     "antwoord": true,
+     "uitleg": "Een verzonnen verhaal kan zich afspelen in een echte stad. Het verhaal zelf is dan nog altijd fictie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over je eigen mening over een boek kloppen?",
+     "opties": [
+      "Je mag een boek saai vinden, zolang je uitlegt waarom",
+      "Je mening wordt sterker met voorbeelden uit het boek",
+      "Twee lezers mogen hetzelfde boek anders beleven",
+      "Alleen een positieve mening is een goede mening"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Het gaat om je beleving én je onderbouwing, niet om het juiste oordeel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Mijn broer is een beer.' Wat wil die zin zeggen?",
+     "opties": [
+      "Hij is groot en sterk, of knorrig: het is beeldspraak",
+      "Hij is echt een dier, want de zin zegt letterlijk dat hij een beer is",
+      "Hij heet Beer",
+      "Hij houdt van beren"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hier wordt het beeld zonder 'als' gebruikt. Dat maakt het sterker dan de vergelijking 'sterk als een beer'."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil tussen een vergelijking en beeldspraak zonder vergelijkingswoord?",
+     "opties": [
+      "Bij een vergelijking staat er 'als' of 'zoals', bij beeldspraak niet",
+      "Beeldspraak rijmt altijd",
+      "Een vergelijking is altijd langer dan beeldspraak, want er komt een extra woord bij",
+      "Er is geen verschil"
+     ],
+     "antwoord": 0,
+     "uitleg": "'Hij is zo sterk als een beer' is een vergelijking. 'Hij is een beer' zet het beeld in de plaats van de zaak."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zinnen zijn figuurlijk bedoeld?",
+     "opties": [
+      "Ze heeft een hart van goud.",
+      "Hij zit in zak en as.",
+      "De zon schijnt.",
+      "De kast staat in de gang."
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "'Een hart van goud' en 'in zak en as' bedoelen iets anders dan ze zeggen. De andere zinnen bedoelen precies wat er staat."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Het personage dat in een verhaal centraal staat, is het ___.",
+     "antwoord": "hoofdpersonage",
+     "uitleg": "Rond het hoofdpersonage draait de verhaallijn; de andere figuren zijn nevenpersonages."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een gedicht gebruikt korte regels, witruimte en herhaling. Waarover gaat dat?",
+     "opties": [
+      "Over de vorm, die de betekenis mee draagt",
+      "Over de spelling",
+      "Over de spreektaal",
+      "Over de bronvermelding"
+     ],
+     "antwoord": 0,
+     "uitleg": "In poëzie is de lay-out zelf betekenisvol: waar een regel afbreekt, hoor je een pauze."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een lied kan je niet bespreken zoals een gedicht, want er zit muziek bij.",
+     "antwoord": false,
+     "uitleg": "Niet juist. Een liedtekst heeft net als een gedicht beelden, klank en ritme."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je vertelt op het examen over een boek. Welke uitspraak is het sterkst?",
+     "opties": [
+      "Ik herkende mezelf in Sam, omdat hij ook niet durfde te zeggen wat hij dacht.",
+      "Het was wel oké.",
+      "Ik vond het niks.",
+      "Het boek telt 224 bladzijden en het heeft een harde kaft met een foto erop."
+     ],
+     "antwoord": 0,
+     "uitleg": "Je beleving verwoorden betekent: zeggen wat je raakte en waarom, met een voorbeeld erbij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In een verhaal verandert de ruimte van een drukke stad naar een verlaten huis. Wat doet dat met het verhaal?",
+     "opties": [
+      "Het verandert de sfeer en de spanning",
+      "Het verandert de spelling",
+      "Het maakt het verhaal non-fictie",
+      "Het verandert niets"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ruimte en sfeer hangen samen. Schrijvers kiezen hun decor bewust."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vragen kan je jezelf stellen tijdens het lezen van je examenboek?",
+     "opties": [
+      "Waarom roept deze tekst bij mij een bepaalde emotie op?",
+      "Hoe zou ik in die situatie reageren?",
+      "Hoe zou ik het boek laten eindigen?",
+      "Hoeveel exemplaren zijn er verkocht?"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Die drie vragen gaan over jouw beleving. Verkoopcijfers zeggen niets over jouw beleving."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een strip vertelt veel zonder woorden. Waarmee doet hij dat?",
+     "opties": [
+      "Met beeld: gezichten, kaders en kleuren",
+      "Met voetnoten",
+      "Met tussentitels",
+      "Met een inhoudstafel"
+     ],
+     "antwoord": 0,
+     "uitleg": "In een strip dragen tekening en tekst samen het verhaal. Wie alleen de tekstballonnen leest, mist de helft."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een verhaal dat in de ik-vorm geschreven is, is daarom waargebeurd.",
+     "antwoord": false,
+     "uitleg": "De ik-verteller kan een verzonnen personage zijn. Vorm en werkelijkheid zijn twee verschillende dingen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Hij kreeg het op zijn heupen.' Wat doe je als je deze uitdrukking niet kent?",
+     "opties": [
+      "Je leidt de betekenis af uit de situatie in de tekst",
+      "Je leest de zin letterlijk",
+      "Je slaat het hoofdstuk over",
+      "Je verandert de zin"
+     ],
+     "antwoord": 0,
+     "uitleg": "Figuurlijke taal versta je meestal uit de context. Wie letterlijk leest, komt bij onzin uit."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden beschrijven de sfeer van een tekst?",
+     "opties": [
+      "spannend",
+      "melancholisch",
+      "grappig",
+      "alfabetisch",
+      "dreigend"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Sfeerwoorden zeggen hoe een tekst aanvoelt. 'Alfabetisch' gaat over volgorde, niet over gevoel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil tussen de verhaallijn en de samenvatting van een boek?",
+     "opties": [
+      "De verhaallijn is de opbouw van de gebeurtenissen, de samenvatting is jouw korte weergave ervan",
+      "Er is geen verschil",
+      "Een samenvatting laat het einde altijd weg, want anders bederf je het verhaal voor wie het nog wil lezen",
+      "De verhaallijn staat op de achterflap"
+     ],
+     "antwoord": 0,
+     "uitleg": "De verhaallijn zit in het boek; de samenvatting maak jij ervan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom zeggen twee lezers soms iets heel anders over hetzelfde gedicht?",
+     "opties": [
+      "Omdat een literaire tekst ruimte laat voor interpretatie",
+      "Omdat een van de twee zich vergist",
+      "Omdat gedichten geen betekenis hebben",
+      "Omdat het gedicht fout geschreven is"
+     ],
+     "antwoord": 0,
+     "uitleg": "Interpreteren mag, zolang je je lezing kan steunen op wat er staat."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft zelf een kort verhaal. Welke bouwstenen heb je zeker nodig?",
+     "opties": [
+      "Personages",
+      "Een plaats en een tijd",
+      "Een probleem dat de verhaallijn op gang brengt",
+      "Een bronnenlijst"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Zonder probleem geen verhaal. Een bronnenlijst hoort bij een informatieve tekst."
+    }
+   ]
+  }
+ ]
+}

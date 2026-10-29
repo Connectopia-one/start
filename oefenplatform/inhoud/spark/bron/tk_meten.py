@@ -62,7 +62,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Een stappenplan is een meetinstrument.",
         antwoord=False,
-        uitleg="Een stappenplan is een hulpmiddel. De fiche zet meetinstrumenten en hulpmiddelen naast elkaar, maar het zijn twee verschillende dingen.",
+        uitleg="Een stappenplan is een hulpmiddel. Meetinstrumenten en hulpmiddelen horen vaak samen, maar het zijn twee verschillende dingen.",
     ),
     dict(
         type="meerkeuze",
@@ -166,7 +166,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag=r"Welke formules staan in bijlage \(2\) van de vakfiche, die je op het examen mag gebruiken?",
+        vraag=r"Op het examen krijg je een formuleblad mee. Welke formules staan daarop?",
         opties=[
             "De omtrek van een cirkel",
             "De oppervlakte van een vierkant",
@@ -175,7 +175,7 @@ DEEL1 = [
             "De formule voor het elektrisch vermogen",
         ],
         antwoord=[0, 1, 2],
-        uitleg=r"Bijlage \(2\) bevat alleen formules voor omtrek, oppervlakte en volume. De massadichtheid en het vermogen moet je dus zelf kennen.",
+        uitleg=r"Het formuleblad bevat alleen formules voor omtrek, oppervlakte en volume. De massadichtheid en het vermogen moet je dus zelf kennen.",
     ),
 ]
 
@@ -209,7 +209,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Een werktekening en een technische tekening zijn twee heel verschillende dingen.",
         antwoord=False,
-        uitleg="Het zijn twee namen voor hetzelfde. De fiche zet ze in één adem: werktekening of technische tekening.",
+        uitleg="Het zijn twee namen voor hetzelfde: werktekening of technische tekening.",
     ),
     dict(
         type="meerkeuze",

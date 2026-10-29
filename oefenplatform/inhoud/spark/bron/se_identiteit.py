@@ -36,7 +36,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="De vakfiche onderscheidt twee soorten identiteit. Welke twee?",
+        vraag="Je onderscheidt twee soorten identiteit. Welke twee?",
         opties=[
             "Persoonlijke identiteit en groepsidentiteit",
             "Echte identiteit en valse identiteit",
@@ -252,7 +252,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Je gender, je sociale klasse en je geloof of overtuiging horen bij de groepen waar je deel van uitmaakt.",
         antwoord=True,
-        uitleg="Klopt. Die drie noemt de vakfiche als voorbeelden van groepen waar je deel van uitmaakt.",
+        uitleg="Klopt. Die drie zijn voorbeelden van groepen waar je deel van uitmaakt.",
     ),
     dict(
         type="meerkeuze",

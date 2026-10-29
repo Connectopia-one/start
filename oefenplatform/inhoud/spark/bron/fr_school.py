@@ -130,7 +130,7 @@ DEEL1 = [
                  "Instructietaal is de moeilijkste woordenschat.",
                  "Instructietaal staat in het Nederlands."],
          antwoord=0,
-         uitleg="De fiche zet instructietaal daarom bij de woordvelden die je moet kennen."),
+         uitleg="Daarom moet je instructietaal goed kennen."),
 ]
 
 DEEL2 = [
@@ -214,7 +214,7 @@ DEEL2 = [
     dict(type="waarofniet",
          vraag="'Un réseau social' is een sociaal netwerk.",
          antwoord=True,
-         uitleg="Un réseau = een netwerk. Op sociale media reageer je op een discussie; dat is een van de schrijfopdrachten uit de fiche."),
+         uitleg="Un réseau = een netwerk. Op sociale media reageer je op een discussie; dat is een mogelijke schrijfopdracht."),
     dict(type="meerkeuze",
          vraag="Welke woorden horen bij communicatie en multimedia?",
          opties=[

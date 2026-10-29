@@ -26,7 +26,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "De vakfiche onderscheidt twee soorten identiteit. Welke twee?",
+          "vraag": "Je onderscheidt twee soorten identiteit. Welke twee?",
           "opties": [
             "Persoonlijke identiteit en groepsidentiteit",
             "Echte identiteit en valse identiteit",
@@ -266,7 +266,7 @@
           "type": "waarofniet",
           "vraag": "Je gender, je sociale klasse en je geloof of overtuiging horen bij de groepen waar je deel van uitmaakt.",
           "antwoord": true,
-          "uitleg": "Klopt. Die drie noemt de vakfiche als voorbeelden van groepen waar je deel van uitmaakt."
+          "uitleg": "Klopt. Die drie zijn voorbeelden van groepen waar je deel van uitmaakt."
         },
         {
           "type": "meerkeuze",
@@ -680,7 +680,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vormen van diversiteit noemt de vakfiche?",
+          "vraag": "Welke van deze zijn vormen van diversiteit?",
           "opties": [
             "Sociale diversiteit",
             "Culturele diversiteit",
@@ -693,7 +693,7 @@
             2,
             3
           ],
-          "uitleg": "Alle vier staan ze in de fiche. Sociaal gaat over geld en positie, cultureel over gewoontes, religieus over geloof en overtuiging, seksueel over wie je graag ziet."
+          "uitleg": "Alle vier kloppen. Sociaal gaat over geld en positie, cultureel over gewoontes, religieus over geloof en overtuiging, seksueel over wie je graag ziet."
         },
         {
           "type": "meerkeuze",
@@ -860,7 +860,7 @@
             3,
             4
           ],
-          "uitleg": "Hier is elk antwoord juist: de fiche noemt toestemming, vrijwilligheid, gelijkwaardigheid, passend bij de leeftijd, passend in de situatie en zelfrespect."
+          "uitleg": "Hier is elk antwoord juist: het gaat om toestemming, vrijwilligheid, gelijkwaardigheid, passend bij de leeftijd, passend in de situatie en zelfrespect."
         },
         {
           "type": "waarofniet",
@@ -882,7 +882,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke kenmerken van een goede samenwerking noemt de vakfiche?",
+          "vraag": "Welke van deze horen bij een goede samenwerking?",
           "opties": [
             "Afspraken nakomen",
             "Hulp vragen wanneer iets niet duidelijk is",
@@ -896,13 +896,13 @@
             2,
             4
           ],
-          "uitleg": "De fiche noemt onder meer luisteren, om de beurt spreken, meningen respecteren, afspraken nakomen, hulp vragen en rekening houden met anderen. Alles zelf beslissen hoort daar niet bij."
+          "uitleg": "Een goede samenwerking vraagt onder meer luisteren, om de beurt spreken, meningen respecteren, afspraken nakomen, hulp vragen en rekening houden met anderen. Alles zelf beslissen hoort daar niet bij."
         },
         {
           "type": "waarofniet",
           "vraag": "Duidelijk en rustig communiceren is een kenmerk van een goede samenwerking.",
           "antwoord": true,
-          "uitleg": "Klopt, dat staat zo in de vakfiche. Rustig spreken maakt het voor iedereen makkelijker om te volgen en te reageren."
+          "uitleg": "Klopt. Rustig spreken maakt het voor iedereen makkelijker om te volgen en te reageren."
         }
       ]
     },
@@ -934,7 +934,7 @@
             "Verdere hulp verlenen, toestand beoordelen, veiligheid, hulp raadplegen"
           ],
           "antwoord": 0,
-          "uitleg": "Die volgorde staat zo in de vakfiche. Ze is logisch: eerst mag er niets meer gebeuren, dan weet je wat er aan de hand is, dan haal je hulp, dan help je zelf verder."
+          "uitleg": "Die volgorde is logisch: eerst mag er niets meer gebeuren, dan weet je wat er aan de hand is, dan haal je hulp, dan help je zelf verder."
         },
         {
           "type": "meerkeuze",
@@ -1320,7 +1320,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Bij welke ongevallen uit de vakfiche moet je de symptomen kunnen herkennen?",
+          "vraag": "Welke van deze zijn ongevallen waarbij je eerste hulp geeft?",
           "opties": [
             "Bloeding",
             "Verslikking",
@@ -1334,7 +1334,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche noemt bloeding, verslikking, verstuiking en wonden, zowel huidwonden als brandwonden. Griep is een ziekte, geen ongeval."
+          "uitleg": "Bloeding, verslikking, verstuiking en wonden zijn ongevallen, zowel huidwonden als brandwonden. Griep is een ziekte, geen ongeval."
         },
         {
           "type": "invultekst",
@@ -1378,7 +1378,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche noemt stemrecht, vrije verkiezingen, scheiding van de machten, individuele vrijheid, een grondwet, vrije meningsuiting en persvrijheid, en gelijkheid voor de wet."
+          "uitleg": "Kenmerken van een democratie zijn stemrecht, vrije verkiezingen, scheiding van de machten, individuele vrijheid, een grondwet, vrije meningsuiting en persvrijheid, en gelijkheid voor de wet."
         },
         {
           "type": "meerkeuze",
@@ -2367,7 +2367,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche noemt de aankoop, de algemene directie, de boekhouding, het magazijn, de marketing, het onthaal, de productie en de verkoop."
+          "uitleg": "De afdelingen zijn de aankoop, de algemene directie, de boekhouding, het magazijn, de marketing, het onthaal, de productie en de verkoop."
         },
         {
           "type": "meerkeuze",
@@ -2745,7 +2745,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche noemt zes inkomsten: belasting op gezinsinkomen, op bedrijfswinst, btw, milieubelasting, belasting op een huis of gebouw, en wegenbelasting. Huur gaat naar een particuliere eigenaar."
+          "uitleg": "De overheid heeft zes soorten inkomsten: belasting op gezinsinkomen, op bedrijfswinst, btw, milieubelasting, belasting op een huis of gebouw, en wegenbelasting. Huur gaat naar een particuliere eigenaar."
         },
         {
           "type": "meerkeuze",
@@ -2811,7 +2811,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche noemt zes uitgaven: huisvesting en infrastructuur, milieubescherming, onderwijs, recreatie, sport en cultuur, sociale bescherming, en veiligheid."
+          "uitleg": "De overheid heeft zes soorten uitgaven: huisvesting en infrastructuur, milieubescherming, onderwijs, recreatie, sport en cultuur, sociale bescherming, en veiligheid."
         },
         {
           "type": "meerkeuze",
@@ -2968,7 +2968,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche noemt zes oorzaken: discriminatie, gewoontes in een cultuur, gezondheid, inkomen en rijkdom, onderwijs en kansen om te leren, en wetten en regels van de overheid."
+          "uitleg": "Er zijn zes oorzaken: discriminatie, gewoontes in een cultuur, gezondheid, inkomen en rijkdom, onderwijs en kansen om te leren, en wetten en regels van de overheid."
         },
         {
           "type": "waarofniet",
@@ -3331,7 +3331,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche noemt zeven onderdelen: het geleende bedrag, de looptijd, de rentevoet, de totale rente, de totale terugbetaling, het maandelijks afbetalingsbedrag en de nog openstaande schuld."
+          "uitleg": "Er zijn zeven onderdelen: het geleende bedrag, de looptijd, de rentevoet, de totale rente, de totale terugbetaling, het maandelijks afbetalingsbedrag en de nog openstaande schuld."
         },
         {
           "type": "meerkeuze",
@@ -3416,7 +3416,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche noemt zes verkoopkanalen: evenementen, de fysieke winkel, de webshop, de markt, sociale media en teleshopping."
+          "uitleg": "Er zijn zes verkoopkanalen: evenementen, de fysieke winkel, de webshop, de markt, sociale media en teleshopping."
         },
         {
           "type": "meerkeuze",
@@ -3460,7 +3460,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke van deze zijn betaalmiddelen volgens de fiche?",
+          "vraag": "Welke van deze zijn betaalmiddelen?",
           "opties": [
             "Cash geld",
             "De debetkaart",
@@ -3642,7 +3642,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche noemt zes vormen: e-mail, sociale media, fora, blogwebsites, een online meeting en chatten. Een papieren brief is niet digitaal."
+          "uitleg": "Er zijn zes vormen: e-mail, sociale media, fora, blogwebsites, een online meeting en chatten. Een papieren brief is niet digitaal."
         },
         {
           "type": "meerkeuze",
@@ -3702,7 +3702,7 @@
             2,
             4
           ],
-          "uitleg": "De fiche noemt: aan, CC, BCC, de onderwerpregel, de aanhef, de inhoud, de slotgroet, de ondertekening en de bijlage. Een paginanummer hoort in een document."
+          "uitleg": "Een mail heeft: aan, CC, BCC, de onderwerpregel, de aanhef, de inhoud, de slotgroet, de ondertekening en de bijlage. Een paginanummer hoort in een document."
         },
         {
           "type": "meerkeuze",
@@ -4512,7 +4512,7 @@
             0,
             1
           ],
-          "uitleg": "De fiche vraagt 8 tot 24 karakters, met een hoofdletter, een kleine letter, een cijfer en een teken. Je naam, je geboortejaar of een hergebruikt wachtwoord is net wat een bedrieger als eerste probeert."
+          "uitleg": "Een sterk wachtwoord heeft 8 tot 24 karakters, met een hoofdletter, een kleine letter, een cijfer en een teken. Je naam, je geboortejaar of een hergebruikt wachtwoord is net wat een bedrieger als eerste probeert."
         },
         {
           "type": "waarofniet",

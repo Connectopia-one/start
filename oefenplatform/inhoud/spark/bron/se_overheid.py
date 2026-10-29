@@ -40,7 +40,7 @@ DEEL1 = [
             "De wegenbelasting",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="De fiche noemt zes inkomsten: belasting op gezinsinkomen, op bedrijfswinst, btw, milieubelasting, belasting op een huis of gebouw, en wegenbelasting. Huur gaat naar een particuliere eigenaar.",
+        uitleg="De overheid heeft zes soorten inkomsten: belasting op gezinsinkomen, op bedrijfswinst, btw, milieubelasting, belasting op een huis of gebouw, en wegenbelasting. Huur gaat naar een particuliere eigenaar.",
     ),
     dict(
         type="meerkeuze",
@@ -101,7 +101,7 @@ DEEL1 = [
             "Sociale bescherming",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="De fiche noemt zes uitgaven: huisvesting en infrastructuur, milieubescherming, onderwijs, recreatie, sport en cultuur, sociale bescherming, en veiligheid.",
+        uitleg="De overheid heeft zes soorten uitgaven: huisvesting en infrastructuur, milieubescherming, onderwijs, recreatie, sport en cultuur, sociale bescherming, en veiligheid.",
     ),
     dict(
         type="meerkeuze",
@@ -243,7 +243,7 @@ DEEL2 = [
             "Gezondheid",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="De fiche noemt zes oorzaken: discriminatie, gewoontes in een cultuur, gezondheid, inkomen en rijkdom, onderwijs en kansen om te leren, en wetten en regels van de overheid.",
+        uitleg="Er zijn zes oorzaken: discriminatie, gewoontes in een cultuur, gezondheid, inkomen en rijkdom, onderwijs en kansen om te leren, en wetten en regels van de overheid.",
     ),
     dict(
         type="waarofniet",

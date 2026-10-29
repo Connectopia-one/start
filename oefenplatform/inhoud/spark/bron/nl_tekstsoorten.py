@@ -399,7 +399,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Stand-upcomedy kan je een literaire tekst noemen.",
         antwoord=True,
-        uitleg="De vakfiche rekent stand-upcomedy bij de literaire teksten: ze speelt met taal en met je gevoel.",
+        uitleg="Stand-upcomedy hoort bij de literaire teksten: ze speelt met taal en met je gevoel.",
     ),
     dict(
         type="meerkeuze",

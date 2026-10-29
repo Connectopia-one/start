@@ -20,7 +20,7 @@ oefening staat geen afbeelding, dus elke vraag is in woorden te beantwoorden.
 DEEL1 = [
     dict(
         type="meerkeuze",
-        vraag="Welke van deze zijn elektrische componenten uit de fiche?",
+        vraag="Welke van deze zijn elektrische componenten?",
         opties=[
             "Een schakelaar",
             "Een weerstand",
@@ -102,7 +102,7 @@ DEEL1 = [
             "Zodat ze feller branden dan in een serieschakeling",
         ],
         antwoord=0,
-        uitleg="Dat voorbeeld staat letterlijk in de fiche. In serie zou één kapot lampje de hele slinger doven.",
+        uitleg="In serie zou één kapot lampje de hele slinger doven.",
     ),
     dict(
         type="meerkeuze",
@@ -130,7 +130,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke onderdelen kan je volgens de fiche in serie of in parallel schakelen?",
+        vraag="Welke onderdelen kan je in serie of in parallel schakelen?",
         opties=[
             "Verbruikers",
             "Schakelaars",
@@ -139,7 +139,7 @@ DEEL1 = [
             "De werktafel in het lokaal",
         ],
         antwoord=[0, 1],
-        uitleg="De fiche noemt verbruikers, schakelaars en spanningsbronnen; van batterijen achter elkaar krijg je bijvoorbeeld meer spanning. Een deur, een werktafel of een meetsnoer schakel je niet in serie of parallel.",
+        uitleg="Je schakelt verbruikers, schakelaars en spanningsbronnen; van batterijen achter elkaar krijg je bijvoorbeeld meer spanning. Een deur, een werktafel of een meetsnoer schakel je niet in serie of parallel.",
     ),
     dict(
         type="meerkeuze",
@@ -285,7 +285,7 @@ DEEL2 = [
             "Uitdroging van de lucht",
         ],
         antwoord=[0, 1],
-        uitleg="De fiche noemt kortsluiting, overbelasting, brandgevaar en elektrocutie. Roest, droge lucht of een lek in het plafond hebben er niets mee te maken.",
+        uitleg="De gevaren zijn kortsluiting, overbelasting, brandgevaar en elektrocutie. Roest, droge lucht of een lek in het plafond hebben er niets mee te maken.",
     ),
     dict(
         type="waarofniet",
@@ -319,7 +319,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke veiligheidsvoorzieningen voor elektriciteit noemt de fiche?",
+        vraag="Welke van deze beveiligen een elektrische installatie?",
         opties=[
             "De aarding",
             "De automatische zekering",
@@ -328,7 +328,7 @@ DEEL2 = [
             "Het brandblusapparaat aan de deur",
         ],
         antwoord=[0, 1],
-        uitleg="De fiche noemt de aarding, de automatische zekering, de elektrische isolatie, de dubbele isolatie en de verliesstroomschakelaar. Een rookmelder, een blusapparaat of een dimmer beveiligen de installatie niet.",
+        uitleg="Beveiligingen zijn de aarding, de automatische zekering, de elektrische isolatie, de dubbele isolatie en de verliesstroomschakelaar. Een rookmelder, een blusapparaat of een dimmer beveiligen de installatie niet.",
     ),
     dict(
         type="waarofniet",

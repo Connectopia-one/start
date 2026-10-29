@@ -74,7 +74,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Een strip is ook een literaire tekst.",
         antwoord=True,
-        uitleg="Een strip, een lied, een gedicht, een verhaal en een blog staan allemaal in de vakfiche als literaire tekst.",
+        uitleg="Een strip, een lied, een gedicht, een verhaal en een blog zijn allemaal literaire teksten.",
     ),
     dict(
         type="meerkeuze",
@@ -195,7 +195,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom lees je literatuur, volgens de vakfiche?",
+        vraag="Waarom lees je literatuur?",
         opties=["Om kennis te maken met andere mensen, ideeën en ervaringen", "Om sneller te leren typen", "Om je spelling te verbeteren", "Om nieuwe vakwoorden te leren die je later op school nodig hebt"],
         antwoord=0,
         uitleg="Verhalen lezen laat je kijken door de ogen van iemand anders.",
@@ -324,7 +324,7 @@ DEEL2 = [
             "Hoeveel exemplaren zijn er verkocht?",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Die drie vragen staan in de vakfiche. Verkoopcijfers zeggen niets over jouw beleving.",
+        uitleg="Die drie vragen gaan over jouw beleving. Verkoopcijfers zeggen niets over jouw beleving.",
     ),
     dict(
         type="meerkeuze",

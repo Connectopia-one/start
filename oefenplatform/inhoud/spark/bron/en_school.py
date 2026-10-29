@@ -125,7 +125,7 @@ DEEL2 = [
          opties=["een tekst van ongeveer 80 woorden", "precies 80 zinnen",
                  "een tekst over het getal 80", "80 losse woorden op een rij"],
          antwoord=0,
-         uitleg="About = ongeveer. De fiche rekent de opgegeven lengte mee bij de taakvoltooiing, dus veel korter of langer kost punten."),
+         uitleg="About = ongeveer. De opgegeven lengte telt mee bij de taakvoltooiing, dus veel korter of langer kost punten."),
     dict(type="meerkeuze",
          vraag="In een opdracht staat: 'Answer in full sentences.' Wat betekent dat?",
          opties=["antwoord met hele zinnen", "antwoord met één woord",

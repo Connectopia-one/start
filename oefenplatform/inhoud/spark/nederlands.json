@@ -885,7 +885,7 @@
           "type": "waarofniet",
           "vraag": "Stand-upcomedy kan je een literaire tekst noemen.",
           "antwoord": true,
-          "uitleg": "De vakfiche rekent stand-upcomedy bij de literaire teksten: ze speelt met taal en met je gevoel."
+          "uitleg": "Stand-upcomedy hoort bij de literaire teksten: ze speelt met taal en met je gevoel."
         },
         {
           "type": "meerkeuze",
@@ -2001,11 +2001,11 @@
             "Alleen luisteren"
           ],
           "antwoord": 0,
-          "uitleg": "De vakfiche vraagt uitdrukkelijk dat je bronnen gebruikt als je over zulke thema's spreekt."
+          "uitleg": "Als je over zulke thema's spreekt, gebruik je bronnen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke maatschappelijke thema's noemt de vakfiche als voorbeeld?",
+          "vraag": "Welke van deze zijn maatschappelijke thema's waar je zelf mee te maken hebt?",
           "opties": [
             "gezondheid",
             "klimaat",
@@ -2056,7 +2056,7 @@
             "Of er een foto bij staat"
           ],
           "antwoord": 0,
-          "uitleg": "Dat zijn de vier vragen uit de vakfiche. Een spellingcontrole helpt, maar vervangt het nalezen niet."
+          "uitleg": "Dat zijn de vier vragen bij het nalezen. Een spellingcontrole helpt, maar vervangt het nalezen niet."
         },
         {
           "type": "meerkeuze",
@@ -2620,7 +2620,7 @@
           "type": "waarofniet",
           "vraag": "Je kleding en je uiterlijk horen ook bij de boodschap die je uitstuurt.",
           "antwoord": true,
-          "uitleg": "De vakfiche noemt kleding en uiterlijk uitdrukkelijk bij de non-verbale communicatie."
+          "uitleg": "Ook kleding en uiterlijk horen bij de non-verbale communicatie: ze zeggen iets zonder woorden."
         },
         {
           "type": "meerkeuze",
@@ -2712,7 +2712,7 @@
             1,
             2
           ],
-          "uitleg": "De vakfiche vertrekt van gelijkwaardige variëteiten met elk hun eigen gebruikssituatie."
+          "uitleg": "Alle variëteiten zijn gelijkwaardig, elk met hun eigen gebruikssituatie."
         },
         {
           "type": "meerkeuze",
@@ -2803,7 +2803,7 @@
           "type": "waarofniet",
           "vraag": "Een strip is ook een literaire tekst.",
           "antwoord": true,
-          "uitleg": "Een strip, een lied, een gedicht, een verhaal en een blog staan allemaal in de vakfiche als literaire tekst."
+          "uitleg": "Een strip, een lied, een gedicht, een verhaal en een blog zijn allemaal literaire teksten."
         },
         {
           "type": "meerkeuze",
@@ -2942,7 +2942,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom lees je literatuur, volgens de vakfiche?",
+          "vraag": "Waarom lees je literatuur?",
           "opties": [
             "Om kennis te maken met andere mensen, ideeën en ervaringen",
             "Om sneller te leren typen",
@@ -3106,7 +3106,7 @@
             1,
             2
           ],
-          "uitleg": "Die drie vragen staan in de vakfiche. Verkoopcijfers zeggen niets over jouw beleving."
+          "uitleg": "Die drie vragen gaan over jouw beleving. Verkoopcijfers zeggen niets over jouw beleving."
         },
         {
           "type": "meerkeuze",

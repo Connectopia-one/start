@@ -1,0 +1,225 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Waarom landschappen verschillen — pittig",
+   "niveau": "spark",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke rij reliëfeenheden gaat van laag naar hoog?",
+     "opties": [
+      "Vlaamse Laagvlakte, Brabants Laagplateau, Plateau van de Ardennen",
+      "Brabants Laagplateau, Vlaamse Laagvlakte, Plateau van de Ardennen",
+      "Vlaamse Laagvlakte, Plateau van de Ardennen, Brabants Laagplateau",
+      "Plateau van de Ardennen, Brabants Laagplateau, Vlaamse Laagvlakte"
+     ],
+     "antwoord": 0,
+     "uitleg": "België klimt in drie trappen: eerst de laagvlaktes, dan de laagplateaus en dan de plateaus. De Vlaamse Laagvlakte zit op de onderste trap, het Brabants Laagplateau op de middelste en het Plateau van de Ardennen op de bovenste."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze eenheden horen bij de bovenste trap, de plateaus en de eenheden van het zuiden? (meerdere antwoorden mogelijk)",
+     "opties": [
+      "Het Plateau van Herve",
+      "De Fagne-Famennedepressie",
+      "Het Kempens Laagplateau",
+      "De Kempense Laagvlakte",
+      "Het Haspengouws Laagplateau"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Het Plateau van Herve en de Fagne-Famennedepressie horen bij de eenheden van het zuiden. Let op de Kempen: het Kempens Laagplateau zit op de middelste trap en de Kempense Laagvlakte op de onderste. Haspengouw is ook een laagplateau."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het Signaal van Botrange, het hoogste punt van België, ligt op het Plateau van de Ardennen.",
+     "antwoord": false,
+     "uitleg": "Het Plateau van de Ardennen is de hoogst gelegen eenheid, maar het hoogste punt zelf, het Signaal van Botrange op 694 meter, ligt op het Plateau van de Hoge Venen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je reist van het noorden naar de evenaar. In welke volgorde kom je deze vegetatiezones tegen?",
+     "opties": [
+      "Taiga, loofwoud, savanne, tropisch regenwoud",
+      "Loofwoud, taiga, savanne, tropisch regenwoud",
+      "Taiga, loofwoud, tropisch regenwoud, savanne",
+      "Taiga, savanne, loofwoud, tropisch regenwoud"
+     ],
+     "antwoord": 0,
+     "uitleg": "Van de pool naar de evenaar gaat het van toendra over taiga en loofwoud naar steppe, woestijn, savanne en tropisch regenwoud. Het regenwoud ligt rond de evenaar zelf, dus dat komt als laatste."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Op de Engelse legende van een vegetatiekaart staat 'dry forest and woodland savanna'. Bij welke vegetatiezone hoort dat gebied?",
+     "opties": [
+      "De savanne",
+      "De woestijn",
+      "De steppe",
+      "Het loofwoud"
+     ],
+     "antwoord": 0,
+     "uitleg": "In de sleutel bij de kaart valt 'dry forest and woodland savanna' onder de savanne. Laat je niet vangen door het woord 'dry': de woestijn heet op die legende 'desert' en de steppe 'steppe'."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Op een klimaatkaart met vijf zones staat ook een oranje droge zone. In welke van de drie klimaatzones (warm, gematigd, koud) ligt die grotendeels?",
+     "opties": [
+      "In de warme zone",
+      "In de gematigde zone",
+      "In de koude zone",
+      "Ze is een vierde zone naast de drie"
+     ],
+     "antwoord": 0,
+     "uitleg": "De droge zone is niet uitgehaald om haar temperatuur maar om haar neerslag. Ze ligt grotendeels in de warme zone, met haar rand tegen de gematigde aan. Een vierde trap naast warm, gematigd en koud is ze dus niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is het rond de polen veel kouder dan rond de evenaar?",
+     "opties": [
+      "Omdat het zonlicht er veel schuiner invalt",
+      "Omdat de polen veel verder van de zon af liggen",
+      "Omdat er rond de polen geen bossen groeien om warmte vast te houden",
+      "Omdat er rond de polen veel minder mensen wonen die warmte maken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Rond de evenaar valt het zonlicht het steilst in, en naar de polen toe steeds schuiner, waardoor het kouder wordt. Dat de polen veel verder van de zon liggen, is een veelgemaakte fout. Dat er weinig groeit en weinig mensen wonen, is een gevolg van de kou, geen oorzaak."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke combinatie van een dunbevolkt gebied en de reden ervoor klopt NIET?",
+     "opties": [
+      "Hooggebergte: te droog",
+      "Woestijn: te droog",
+      "Poolgebied: te koud",
+      "Hooggebergte: te koud en te steil"
+     ],
+     "antwoord": 0,
+     "uitleg": "Woestijnen zijn te droog, poolgebieden te koud, en hooggebergten te koud en te steil. Droogte is dus niet de reden waarom er weinig mensen in het hooggebergte wonen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een gebied van 50 km² telt 15 000 inwoners. Hoeveel inwoners per km² is de bevolkingsdichtheid? Antwoord met een getal.",
+     "antwoord": "300",
+     "uitleg": "De bevolkingsdichtheid is het aantal inwoners per vierkante kilometer. Je deelt dus het aantal inwoners door de oppervlakte: 15 000 gedeeld door 50 is 300."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een eiland van 6 km² heeft een bevolkingsdichtheid van 150 inwoners per km². Hoeveel inwoners telt het eiland? Antwoord met een getal.",
+     "antwoord": "900",
+     "uitleg": "Hier reken je terug. Op elke vierkante kilometer wonen 150 mensen, en het eiland telt 6 vierkante kilometer. Zes keer 150 is 900 inwoners."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je klimt in een gebergte steeds hoger. Wat zie je gebeuren met de begroeiing?",
+     "opties": [
+      "Eerst bomen, en boven een bepaalde hoogte geen bomen meer",
+      "Eerst lage planten, en hoger op de berg steeds meer bomen",
+      "Overal evenveel bomen, want de bodem blijft dezelfde",
+      "Eerst bomen, en hoger op de berg het dichtste regenwoud"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hoger is kouder, en boven een bepaalde hoogte, de boomgrens, is het te koud voor bomen. Hier zie je het samenspel van reliëf, klimaat en vegetatie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een boer heeft een perceel met natte grond en een perceel met leemgrond. Wat doet hij er het best mee?",
+     "opties": [
+      "Weiland op de natte grond, akkers op de leemgrond",
+      "Akkers op de natte grond, weiland op de leemgrond",
+      "Op allebei akkers, want elke bodem levert evenveel op",
+      "Op allebei niets, want geen van die bodems is bruikbaar"
+     ],
+     "antwoord": 0,
+     "uitleg": "Leem is vruchtbaar en goed voor akkerbouw. Natte grond leent zich eerder voor weiland. Zo liggen akkers en weiden niet zomaar ergens, maar waar de bodem erbij past."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Twee buurlanden en een paar verenigingen richten samen een overleggroep op om hun plannen op elkaar af te stemmen. Onder welke P van het 5P-model valt dat vooral?",
+     "opties": [
+      "Partnership",
+      "People",
+      "Planet",
+      "Peace"
+     ],
+     "antwoord": 0,
+     "uitleg": "De P die over samenwerkingsverbanden gaat, is Partnership. Hier staat het samenwerken zelf centraal, niet de natuur of het loon van mensen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een nieuwe fabriek geeft 500 mensen werk, maar loost vuil water in de beek. Wat zegt het 5P-model daarover?",
+     "opties": [
+      "Ze helpt Prosperity vooruit, maar schaadt Planet",
+      "Ze helpt Planet vooruit, maar schaadt Prosperity",
+      "Ze helpt alle vijf de P's tegelijk vooruit",
+      "Ze heeft met geen enkele van de vijf P's iets te maken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Werk en inkomen horen bij Prosperity, de natuur en het water bij Planet. De vijf P's hangen samen, en wat de ene vooruithelpt kan de andere schaden. Daarom blijft duurzaamheid een afweging."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het Kempens Laagplateau en de Kempense Laagvlakte zijn twee namen voor dezelfde reliëfeenheid.",
+     "antwoord": false,
+     "uitleg": "Het zijn twee verschillende eenheden op twee verschillende trappen. De Kempense Laagvlakte hoort bij de laagvlaktes, het Kempens Laagplateau bij de laagplateaus."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Twee dorpen met hetzelfde klimaat en dezelfde bodem kunnen toch heel verschillend groeien.",
+     "antwoord": true,
+     "uitleg": "Klimaat en bodem zijn maar twee lagen. Ligt het ene dorp aan een spoorlijn en het andere niet, dan kan het ene veel sterker groeien. De andere lagen maken het verschil."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over Haspengouw en de Ardennen kloppen? (meerdere antwoorden mogelijk)",
+     "opties": [
+      "Haspengouw is een laagplateau",
+      "Het Plateau van de Ardennen ligt hoger dan Haspengouw",
+      "Het verschil tussen bossen en akkers komt door het samenspel van reliëf, bodem en klimaat",
+      "Haspengouw hoort bij de laagvlaktes",
+      "Het verschil tussen bossen en akkers komt alleen door de bodem"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Haspengouw zit op de middelste trap, de laagplateaus, en de Ardennen op de bovenste. Dat er in de Ardennen bossen staan en in Haspengouw akkers en boomgaarden, komt niet door één ding maar door het samenspel van de lagen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een plateau is bovenaan vlak, en daarom heten de Heuvelruggen van de Condroz geen plateau.",
+     "antwoord": true,
+     "uitleg": "In de Condroz wisselen ruggen en dalen elkaar af, dus is hij bovenaan niet vlak. Precies daarom heet hij heuvelruggen en geen plateau."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Het Signaal van Botrange ligt op 694 meter. Hoeveel meter ligt het hoger dan een veld in Haspengouw op 94 meter? Antwoord met een getal.",
+     "antwoord": "600",
+     "uitleg": "Het hoogteverschil is het verschil tussen de twee hoogtes: 694 min 94 is 600 meter. Zo zie je hoeveel België klimt van een laagplateau naar de Hoge Venen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze eenheden liggen op een hogere trap dan de Vlaamse Laagvlakte? (meerdere antwoorden mogelijk)",
+     "opties": [
+      "Het Brabants Laagplateau",
+      "Het Plateau van de Ardennen",
+      "Het Haspengouws Laagplateau",
+      "Het Plateau van Herve",
+      "De Laagvlakte van de Kust",
+      "De Kempense Laagvlakte"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "uitleg": "De Vlaamse Laagvlakte zit op de onderste trap. De twee laagplateaus zitten een trap hoger en de twee plateaus nog een trap hoger. De Laagvlakte van de Kust en de Kempense Laagvlakte zitten op dezelfde trap als de Vlaamse."
+    }
+   ]
+  }
+ ]
+}

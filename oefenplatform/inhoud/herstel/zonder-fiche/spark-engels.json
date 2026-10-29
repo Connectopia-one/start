@@ -1,0 +1,4134 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Een Engelse tekst lezen — deel 1",
+   "niveau": "spark",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'Our school has a new bike shed. Students can park their bikes there for free. The shed is open from 8 a.m. until 5 p.m.' Wat is het ONDERWERP van die tekst?",
+     "opties": [
+      "de nieuwe fietsenstalling",
+      "dat fietsen gezond is",
+      "de openingsuren van de school",
+      "de mening van de schrijver",
+      "Geen van deze antwoorden"
+     ],
+     "antwoord": 0,
+     "uitleg": "A bike shed = een fietsenstalling. Het onderwerp zeg je in één of enkele woorden: waarover gaat de tekst? Hier over de nieuwe stalling."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Dezelfde tekst: 'Our school has a new bike shed. Students can park their bikes there for free. The shed is open from 8 a.m. until 5 p.m.' Wat is de HOOFDGEDACHTE?",
+     "opties": [
+      "De school heeft een nieuwe fietsenstalling voor leerlingen.",
+      "de fietsenstalling",
+      "De school opent om 8 uur en sluit om 5 uur.",
+      "Fietsen is beter voor het milieu dan de auto."
+     ],
+     "antwoord": 0,
+     "uitleg": "De hoofdgedachte is de belangrijkste boodschap, in één hele zin. 'De fietsenstalling' is maar het onderwerp, en de uren zijn een hoofdpunt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees nog eens: 'Our school has a new bike shed. Students can park their bikes there for free. The shed is open from 8 a.m. until 5 p.m.' Welke zinnen zijn HOOFDPUNTEN, die de hoofdgedachte ondersteunen?",
+     "opties": [
+      "Students can park their bikes there for free.",
+      "The shed is open from 8 a.m. until 5 p.m.",
+      "Our school has a new bike shed.",
+      "Cycling to school is very healthy."
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Gratis parkeren en de openingsuren zijn de twee details die de boodschap staande houden. Our school has a new bike shed ís de hoofdgedachte zelf, en over gezondheid staat er niets."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het onderwerp van een tekst zeg je in één of enkele woorden, de hoofdgedachte in een hele zin.",
+     "antwoord": true,
+     "uitleg": "Onderwerp 'a film review', hoofdgedachte 'the girl likes this film better than the first one'."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest een filmreview: 'I loved the new Spider-Man film. The actors are great and the costumes look amazing. The story is a bit slow, but I still had a good time.' Wat is de hoofdgedachte?",
+     "opties": [
+      "De schrijver vond de film goed.",
+      "De kostuums zijn mooi gemaakt.",
+      "Het verhaal gaat traag vooruit.",
+      "Spider-Man is de beste superheld."
+     ],
+     "antwoord": 0,
+     "uitleg": "'I loved' en 'I still had a good time' geven het oordeel. De kostuums en het trage verhaal zijn hoofdpunten die dat oordeel kleuren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees nog eens: 'I loved the new Spider-Man film. The actors are great and the costumes look amazing. The story is a bit slow, but I still had a good time.' Welke hoofdpunten geeft de schrijver?",
+     "opties": [
+      "De acteurs spelen goed.",
+      "De kostuums zien er prachtig uit.",
+      "Het verhaal gaat wat traag.",
+      "De film duurt drie uur."
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Acteurs, kostuums en het trage verhaal staan er alle drie. Over de lengte van de film zegt de tekst niets, en wat er niet staat mag je niet invullen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In de review staat: 'The actors are great.' Wat is het Nederlandse woord voor 'actors'?",
+     "antwoord": "acteurs",
+     "uitleg": "An actor = een acteur. In het meervoud komt er -s bij: actors."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'The school trip to London costs 180 euros. Please pay before 15 March. The bus leaves at 6 a.m.' Je moet weten hoeveel het kost. Hoe lees je zo'n tekst?",
+     "opties": [
+      "Je zoekt gericht naar het bedrag.",
+      "Je leest elk woord traag.",
+      "Je vertaalt de hele tekst.",
+      "Je leest alleen de laatste zin."
+     ],
+     "antwoord": 0,
+     "uitleg": "Dat heet informatie selecteren: je weet wat je zoekt en je gaat er meteen naar op zoek. Het antwoord is 180 euros."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Lees nog eens: 'The school trip to London costs 180 euros. Please pay before 15 March. The bus leaves at 6 a.m.' In die tekst over de schoolreis moet je betalen vóór 15 maart.",
+     "antwoord": true,
+     "uitleg": "'Please pay before 15 March' = gelieve te betalen voor 15 maart. Before = voor."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In die tekst over de schoolreis vertrekt de bus om zes uur 's avonds.",
+     "antwoord": false,
+     "uitleg": "Er staat 6 a.m. A.m. is 's ochtends (ante meridiem), p.m. is 's namiddags of 's avonds. De bus vertrekt dus om 6 uur 's ochtends."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'Tom was late again. He had missed the bus.' Naar wie verwijst 'he'?",
+     "opties": [
+      "Tom",
+      "de bus",
+      "de schrijver",
+      "de lezer"
+     ],
+     "antwoord": 0,
+     "uitleg": "He is een persoonlijk voornaamwoord dat terugwijst naar iemand uit de vorige zin. Hier naar Tom. Zulke verwijswoorden houden een tekst aan elkaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Boven een tekst staat 'Teenagers and screens', met een foto van een gsm erbij. Wat doe je het best vóór je begint te lezen?",
+     "opties": [
+      "Je kijkt naar de titel en de foto en denkt na waarover het gaat.",
+      "Je zoekt eerst alle onbekende woorden op in het woordenboek.",
+      "Je vertaalt de eerste zin woord voor woord.",
+      "Je leest de tekst van achter naar voor."
+     ],
+     "antwoord": 0,
+     "uitleg": "Dat is een goede strategie: stel jezelf vragen vooraf. Wat weet ik al over dit onderwerp? Waarover zou de tekst kunnen gaan?"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'The train leaves at eight, but it is often delayed.' Je kent het woord 'delayed' niet. Wat doe je eerst?",
+     "opties": [
+      "Je leidt de betekenis af uit de rest van de zin.",
+      "Je stopt meteen met lezen.",
+      "Je zoekt elk onbekend woord meteen op in het woordenboek.",
+      "Je slaat de hele alinea over."
+     ],
+     "antwoord": 0,
+     "uitleg": "De zin gaat over een trein en over 'but', dus 'delayed' is iets vervelends: vertraagd. Afleiden uit de context is de eerste strategie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke hulpmiddelen in een tekst helpen je om hem sneller te begrijpen?",
+     "opties": [
+      "de titel en de tussentitels",
+      "woorden in het vet",
+      "een foto of een grafiek",
+      "het aantal bladzijden"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Titel, tussentitels, benadrukte woorden en beeld zijn visuele hulpmiddelen. Hoeveel bladzijden er zijn, zegt niets over de inhoud."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je moet elk Engels woord kennen om een tekst te kunnen begrijpen.",
+     "antwoord": false,
+     "uitleg": "Nee. Je bepaalt eerst of dat woord echt nodig is om de tekst te snappen. Vaak lukt het ook zonder."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je leest: 'The weather was terrible, so we stayed at home.' Welk Engels woord in die zin geeft een gevolg aan?",
+     "antwoord": "so",
+     "uitleg": "So = dus. Het verbindt de oorzaak (slecht weer) met het gevolg (thuisblijven). Zulke signaalwoorden tonen de gedachtegang."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Op een affiche staat: 'School party — Saturday 14 June, from 2 p.m., in the playground.' Waar gaat het feest door?",
+     "opties": [
+      "op de speelplaats",
+      "in de sportzaal",
+      "in het park",
+      "in de eetzaal"
+     ],
+     "antwoord": 0,
+     "uitleg": "A playground = een speelplaats. From 2 p.m. = vanaf 2 uur 's namiddags."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Dat schoolfeest is op een zaterdag.",
+     "antwoord": true,
+     "uitleg": "Saturday = zaterdag. De dagen op een rij: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'Please do not feed the animals. Keep your dog on a lead.' Wat voor soort boodschap is dit?",
+     "opties": [
+      "een regel die zegt wat je moet doen",
+      "een mening over dieren",
+      "een verhaal over een hond",
+      "een gedicht over de natuur en de dieren"
+     ],
+     "antwoord": 0,
+     "uitleg": "A lead = een leiband. De tekst zegt wat je wel en niet mag doen; dat heet een prescriptieve tekst."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je leest: 'The shop is closed on Sundays.' Op welke dag is de winkel dicht? Antwoord in het Nederlands, in één woord.",
+     "antwoord": "zondag",
+     "uitleg": "Sunday = zondag. 'On Sundays' met een -s betekent: elke zondag."
+    }
+   ]
+  },
+  {
+   "titel": "Een Engelse tekst lezen — deel 2",
+   "niveau": "spark",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'Every Friday our class cleans the schoolyard. We pick up paper and plastic. Last week we filled six bags.' Wat is het onderwerp?",
+     "opties": [
+      "opruimen op de speelplaats",
+      "dat plastic slecht is",
+      "de vrijdag op school",
+      "de klas van de schrijver",
+      "Geen van deze antwoorden"
+     ],
+     "antwoord": 0,
+     "uitleg": "To pick up = oprapen, a bag = een zak. Het onderwerp vat in enkele woorden samen waarover de tekst gaat."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees nog eens: 'Every Friday our class cleans the schoolyard. We pick up paper and plastic. Last week we filled six bags.' Welke hoofdpunten staan erin?",
+     "opties": [
+      "Het gebeurt elke vrijdag.",
+      "Ze rapen papier en plastic op.",
+      "Vorige week vulden ze zes zakken.",
+      "De directeur helpt altijd mee."
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Vrijdag, wat ze oprapen en de zes zakken staan er alle drie. Over de directeur zegt de tekst niets."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In die tekst staat 'we filled six bags'. Hoeveel zakken waren dat? Antwoord met een cijfer.",
+     "antwoord": "6",
+     "uitleg": "Six = zes. De getallen: one, two, three, four, five, six, seven, eight, nine, ten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest een bericht: 'Hi Sam, sorry, I can't come to your party. I have to visit my grandmother. Have fun! Lucy' Waarom komt Lucy niet?",
+     "opties": [
+      "Ze moet naar haar oma.",
+      "Ze is ziek.",
+      "Ze heeft geen zin.",
+      "Ze woont te ver."
+     ],
+     "antwoord": 0,
+     "uitleg": "A grandmother = een grootmoeder. 'I have to' = ik moet. De reden staat er letterlijk; de rest verzin je er zelf bij."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Lees nog eens: 'Hi Sam, sorry, I can't come to your party. I have to visit my grandmother. Have fun! Lucy' In dat bericht verontschuldigt Lucy zich.",
+     "antwoord": true,
+     "uitleg": "'Sorry' is een verontschuldiging. Dat is een alledaags sociaal contact: bedanken, uitnodigen, je verontschuldigen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'First, put the pasta in boiling water. Then wait ten minutes. Finally, add the sauce.' Welke woorden tonen de volgorde?",
+     "opties": [
+      "first",
+      "then",
+      "finally",
+      "water"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "First, then en finally zijn signaalwoorden voor een chronologisch verloop. Ze helpen je de gedachtegang van de tekst te volgen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In dat recept staat 'wait ten minutes'. Hoeveel minuten moet je wachten? Antwoord met een cijfer.",
+     "antwoord": "10",
+     "uitleg": "Ten = tien. To wait = wachten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'The museum is closed on Mondays, but the garden stays open.' Wat betekent het woord 'but' hier?",
+     "opties": [
+      "een tegenstelling",
+      "een opsomming",
+      "een oorzaak",
+      "een besluit"
+     ],
+     "antwoord": 0,
+     "uitleg": "But = maar. Het zet twee dingen tegenover elkaar: het museum dicht, de tuin open."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Lees nog eens: 'The museum is closed on Mondays, but the garden stays open.' In die tekst over het museum is de tuin op maandag ook gesloten.",
+     "antwoord": false,
+     "uitleg": "'The garden stays open' = de tuin blijft open. Alleen het museum sluit op maandag."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'I think school should start later. Teenagers need more sleep.' Wat doet de schrijver hier?",
+     "opties": [
+      "hij geeft zijn mening",
+      "hij vertelt een verhaal",
+      "hij geeft een instructie",
+      "hij beschrijft een foto"
+     ],
+     "antwoord": 0,
+     "uitleg": "'I think' verraadt een mening. Een tekst waarin iemand zijn mening geeft, heet een opiniërende tekst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest een blog: 'We arrived in Scotland on Monday. It rained all week, but the mountains were beautiful.' Wat is de hoofdgedachte?",
+     "opties": [
+      "De reis naar Schotland was mooi ondanks de regen.",
+      "Het regent vaak in Schotland.",
+      "De schrijver kwam aan op maandag.",
+      "Bergen zijn mooier dan steden."
+     ],
+     "antwoord": 0,
+     "uitleg": "De 'but' draait de zin: de regen weegt niet op tegen de bergen. De aankomst en de regen zijn hoofdpunten, niet de boodschap."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Lees nog eens: 'We arrived in Scotland on Monday. It rained all week, but the mountains were beautiful.' In die blog over Schotland regende het de hele week.",
+     "antwoord": true,
+     "uitleg": "'It rained all week' = het regende de hele week. All = heel, al."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'The city has 90,000 inhabitants. It is famous for its old bridge.' Welke informatie haal je hieruit?",
+     "opties": [
+      "het aantal inwoners",
+      "waarvoor de stad bekend is",
+      "de naam van de burgemeester",
+      "hoeveel de brug kostte"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "An inhabitant = een inwoner, famous = beroemd. Wat er niet staat, mag je niet invullen, ook al lijkt het logisch."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een tekst met 'a recipe' of 'a school rule' erin is een prescriptieve tekst: hij legt uit wat of hoe je iets moet doen.",
+     "antwoord": true,
+     "uitleg": "Voorbeelden zijn een recept, een instructiefilmpje en een schoolreglement."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'Excuse me, could you tell me the way to the station?' Wat doet deze spreker?",
+     "opties": [
+      "hij vraagt informatie",
+      "hij geeft zijn mening",
+      "hij nodigt iemand uit",
+      "hij bedankt iemand"
+     ],
+     "antwoord": 0,
+     "uitleg": "'Could you tell me' = zou je me kunnen zeggen. Zo vraag je informatie."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij een tekst met een grafiek erbij hoef je die grafiek niet te bekijken, want alle informatie staat in de woorden.",
+     "antwoord": false,
+     "uitleg": "Een grafiek, foto of tekening is een visueel hulpmiddel. Maak er altijd gebruik van."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'Nobody knew the answer, not even the teacher.' Wat betekent 'nobody'?",
+     "opties": [
+      "nergens",
+      "iedereen",
+      "iemand",
+      "iets",
+      "Geen van deze antwoorden"
+     ],
+     "antwoord": 4,
+     "uitleg": "Nobody = niemand, en dat woord staat er niet bij. Vergelijk: somebody (iemand), everybody (iedereen), anybody (om het even wie)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je krijgt op het examen een tekst met een woord dat je niet kent. Wanneer zoek je dat woord op in het digitale woordenboek?",
+     "opties": [
+      "als je de tekst zonder dat woord niet begrijpt",
+      "bij elk woord dat je niet kent",
+      "nooit, dat mag niet",
+      "alleen bij het laatste woord"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je mag een online woordenboek gebruiken, maar je hebt geen tijd om alles op te zoeken. Zoek dus alleen wat echt nodig is."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je leest: 'She was very tired, because she had worked all night.' Welk Engels woord in die zin geeft de oorzaak aan?",
+     "antwoord": "because",
+     "uitleg": "Because = omdat. Het geeft een oorzaak, net als 'so' een gevolg geeft."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'Once upon a time, a poor boy lived near a dark forest.' Wat voor soort tekst begint zo?",
+     "opties": [
+      "een verhaal",
+      "een recept",
+      "een nieuwsbericht",
+      "een reclame"
+     ],
+     "antwoord": 0,
+     "uitleg": "'Once upon a time' = er was eens. Dat is de opening van een narratieve tekst, een tekst die iets vertelt."
+    }
+   ]
+  },
+  {
+   "titel": "Tekstsoorten, signaalwoorden en verwijswoorden — deel 1",
+   "niveau": "spark",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest een krantenartikel over de nieuwe brug in je stad. Wat voor soort tekst is dat?",
+     "opties": [
+      "een informatieve tekst",
+      "een opiniërende tekst",
+      "een prescriptieve tekst",
+      "een literaire tekst",
+      "Geen van deze antwoorden"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een informatieve tekst geeft je informatie over een onderwerp. Denk aan een krantenartikel, een stukje uit een leerboek of een interview."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest een reactie op sociale media: 'This new rule is unfair.' Wat voor soort tekst is dat?",
+     "opties": [
+      "een opiniërende tekst",
+      "een informatieve tekst",
+      "een prescriptieve tekst",
+      "een narratieve tekst"
+     ],
+     "antwoord": 0,
+     "uitleg": "Unfair = oneerlijk. In een opiniërende tekst geeft iemand zijn mening. Denk aan een gesprek over een boek of een reactie op sociale media."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke teksten zijn prescriptief: ze leggen uit wat of hoe je iets moet doen?",
+     "opties": [
+      "a recipe",
+      "a school rule",
+      "an instruction video",
+      "a poem",
+      "a user manual"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "A recipe = een recept, a school rule = een schoolregel, a user manual = een handleiding. Een gedicht (a poem) hoort bij de literaire teksten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest een reisverslag op een blog. Wat voor soort tekst is dat?",
+     "opties": [
+      "een narratieve tekst",
+      "een prescriptieve tekst",
+      "een informatieve tekst",
+      "een opiniërende tekst"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een narratieve tekst geeft feiten en gebeurtenissen op een verhalende manier weer. Denk aan een videoblog, een reisverslag of een podcast."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een lied, een gedicht, een strip en een kortverhaal zijn allemaal literaire teksten.",
+     "antwoord": true,
+     "uitleg": "Literaire teksten hebben een esthetische waarde en spelen vaak in op emoties. Ook een cartoon hoort erbij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Het communicatiemodel stelt drie vragen bij een tekst. Welke?",
+     "opties": [
+      "Van wie is de tekst?",
+      "Waarom is de tekst gemaakt?",
+      "Voor wie is de tekst bedoeld?",
+      "Hoeveel woorden telt de tekst?"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Zender, bedoeling en ontvanger. Het aantal woorden zegt niets over de boodschap van een tekst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'First we bought the tickets. Then we took the train. Finally we walked to the hotel.' Wat tonen first, then en finally?",
+     "opties": [
+      "de volgorde in de tijd",
+      "een tegenstelling",
+      "een oorzaak en gevolg",
+      "een opsomming van meningen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dat heet een chronologisch verloop: eerst, dan, ten slotte. First, next en finally zijn zulke signaalwoorden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk Engels signaalwoord gebruik je voor het láátste punt van een opsomming? Het begint met een f.",
+     "antwoord": "finally",
+     "uitleg": "Finally = ten slotte. De rij eromheen: first, then, next, after that, finally."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'My cousins live in Wales. They have a farm there.' Waarnaar verwijzen 'they' en 'there'?",
+     "opties": [
+      "they naar de neven en nichten, there naar Wales",
+      "they naar de boerderij, there naar de neven",
+      "they naar Wales, there naar de boerderij",
+      "they naar de schrijver, there naar het huis"
+     ],
+     "antwoord": 0,
+     "uitleg": "A cousin = een neef of nicht. They en there zijn verwijswoorden: ze grijpen terug naar iets uit de vorige zin. Zo hangt een tekst aan elkaar."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Verwijswoorden zoals they, it en there gebruik je om niet steeds hetzelfde woord te moeten herhalen.",
+     "antwoord": true,
+     "uitleg": "Als je schrijft, gebruik je voornaamwoorden om niet te hoeven herhalen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'I wanted to go out, but it was raining.' Welke functie heeft 'but' hier?",
+     "opties": [
+      "tegenstelling",
+      "oorzaak",
+      "opsomming",
+      "chronologisch verloop"
+     ],
+     "antwoord": 0,
+     "uitleg": "But = maar. Voegwoorden hebben vier functies: chronologisch verloop, opsomming, oorzaak en tegenstelling."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'We stayed at home because the weather was bad.' Welke functie heeft 'because'?",
+     "opties": [
+      "gevolg",
+      "tegenstelling",
+      "opsomming",
+      "chronologisch verloop",
+      "Geen van deze antwoorden"
+     ],
+     "antwoord": 4,
+     "uitleg": "Because = omdat, en het geeft de reden, dus de oorzaak. Dat woord staat er niet bij. Let op het verschil met 'so' (dus), dat net het gevolg aankondigt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: 'It was late, ___ we went home.' Welk kort Engels woord past hier en geeft een gevolg?",
+     "antwoord": "so",
+     "uitleg": "So = dus. Because zet de reden vooraan, so zet het gevolg achteraan."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Because' is een nevenschikkend voegwoord, net zoals and en but.",
+     "antwoord": false,
+     "uitleg": "Because is onderschikkend: het maakt van het tweede deel een bijzin. And, but en so zijn wél nevenschikkend en verbinden twee gelijkwaardige delen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest op een verpakking: 'Keep in a dry place. Use before the date on the box.' Voor wie is die tekst bedoeld?",
+     "opties": [
+      "voor wie het product koopt",
+      "voor de fabrikant",
+      "voor de postbode",
+      "voor de winkelier alleen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dry = droog, a box = een doos. Het communicatiemodel vraagt naar de ontvanger: wie moet dit lezen? Hier de koper."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een tekst die je uitlegt hoe je een fiets herstelt, is een opiniërende tekst.",
+     "antwoord": false,
+     "uitleg": "Dat is een prescriptieve tekst: hij legt uit wat of hoe je iets moet doen. Een opiniërende tekst geeft een mening."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest een gedicht over de zee en reageert er schriftelijk op. Wat kan je dan doen?",
+     "opties": [
+      "uitleggen waarom het gedicht je aanspreekt",
+      "vertellen of je zelf al zoiets meemaakte",
+      "zeggen welk gevoel de tekst oproept",
+      "het aantal verzen tellen en opschrijven"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Precies die drie: waarom iets je aanspreekt, of je je herkent in een personage, welk gevoel de tekst oproept. Tellen is geen beleving."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'The film was boring. I nearly fell asleep.' Wat voelt de schrijver?",
+     "opties": [
+      "verveling",
+      "spanning",
+      "blijdschap",
+      "verdriet"
+     ],
+     "antwoord": 0,
+     "uitleg": "Boring = saai, to fall asleep = in slaap vallen. Dat je bijna in slaap valt, maakt de mening nog duidelijker."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je in het Engels een tekst waarin iemand een boek of film beoordeelt? Het woord begint met een r.",
+     "antwoord": "review",
+     "uitleg": "A review = een recensie of bespreking. 'A film review' is een tekst met een mening."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest een interview met een zwemster in een schoolkrant. Waarom is die tekst gemaakt?",
+     "opties": [
+      "om informatie over haar te geven",
+      "om iets te verkopen",
+      "om je iets te leren koken",
+      "om een verhaal te verzinnen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een interview is een informatieve tekst. Het communicatiemodel vraagt ook naar het waarom van een tekst."
+    }
+   ]
+  },
+  {
+   "titel": "Tekstsoorten, signaalwoorden en verwijswoorden — deel 2",
+   "niveau": "spark",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'Our town needs a new swimming pool. The old one is too small and it is often closed.' Wat voor soort tekst is dit?",
+     "opties": [
+      "een opiniërende tekst",
+      "een prescriptieve tekst",
+      "een narratieve tekst",
+      "een literaire tekst",
+      "Geen van deze antwoorden"
+     ],
+     "antwoord": 0,
+     "uitleg": "'Needs' zegt wat de schrijver vindt dat er moet gebeuren. Dat is een mening, geen feit."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees nog eens: 'Our town needs a new swimming pool. The old one is too small and it is often closed.' Welke argumenten geeft de schrijver?",
+     "opties": [
+      "Het oude zwembad is te klein.",
+      "Het is vaak gesloten.",
+      "Er zijn te weinig redders.",
+      "Het water is te koud."
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Too small = te klein, often closed = vaak gesloten. Over redders of watertemperatuur staat er niets, en dat mag je er niet bij verzinnen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'Mix the eggs and the sugar. Next, add the flour.' Wat voor tekst is dit, en waaraan zie je dat?",
+     "opties": [
+      "prescriptief, want het zegt wat je moet doen",
+      "informatief, want het geeft nieuwe feiten",
+      "narratief, want er gebeurt iets na elkaar",
+      "literair, want het roept gevoelens op"
+     ],
+     "antwoord": 0,
+     "uitleg": "Flour = bloem, sugar = suiker. De bevelende vorm (mix, add) verraadt een instructie."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je in het Engels het soort tekst dat uitlegt hoe je een gerecht maakt? Het begint met een r.",
+     "antwoord": "recipe",
+     "uitleg": "A recipe = een recept. Spreek uit als 'ressipie', niet als 'riesaaip'."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een podcast waarin iemand zijn reis vertelt, is een narratieve tekst.",
+     "antwoord": true,
+     "uitleg": "Een videoblog, een reisverslag en een podcast zijn narratieve teksten: ze geven gebeurtenissen verhalend weer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'Sarah gave her brother a book. He read it in one day.' Waarnaar verwijzen 'he' en 'it'?",
+     "opties": [
+      "he naar de broer, it naar het boek",
+      "he naar Sarah, it naar de dag",
+      "he naar het boek, it naar de broer",
+      "he naar de schrijver, it naar Sarah"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zo'n verwijswoord pak je altijd samen met het dichtstbijzijnde passende woord ervoor. Een boek is 'it', een jongen is 'he'."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden zijn signaalwoorden die een opsomming aankondigen?",
+     "opties": [
+      "first of all",
+      "secondly",
+      "in addition",
+      "moreover",
+      "furthermore"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "uitleg": "Hier is elk woord juist: first of all, secondly, in addition, furthermore en moreover kondigen alle vijf een opsomming aan. In addition, furthermore en moreover betekenen alle drie bovendien."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'The shop was closed. However, the bakery next door was open.' Wat doet 'however'?",
+     "opties": [
+      "het zet er iets tegenover",
+      "het geeft een reden",
+      "het telt iets op",
+      "het geeft de volgorde aan"
+     ],
+     "antwoord": 0,
+     "uitleg": "However = echter, toch. Het is de deftigere broer van 'but' en staat meestal vooraan de zin, met een komma erachter."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'When I came home, my sister was cooking' begint met een bijzin die zegt wanneer iets gebeurde.",
+     "antwoord": true,
+     "uitleg": "When = wanneer, toen. Het is een onderschikkend voegwoord dat het tijdstip aangeeft."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk Engels voegwoord gebruik je om te zeggen wanneer iets gebeurde? Het begint met een w en telt vier letters.",
+     "antwoord": "when",
+     "uitleg": "When = toen, wanneer. Het is een van de meest gebruikte onderschikkende voegwoorden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest een tekst met de titel 'How to survive your first week at a new school'. Voor wie is die bedoeld?",
+     "opties": [
+      "voor nieuwe leerlingen",
+      "voor leraars die les geven",
+      "voor ouders van kleuters",
+      "voor de directie alleen"
+     ],
+     "antwoord": 0,
+     "uitleg": "To survive = overleven. De titel spreekt de lezer rechtstreeks aan met 'your'. Het communicatiemodel vraagt naar die ontvanger."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De titel van een tekst mag je gerust overslaan, want de echte informatie staat toch in de alinea's.",
+     "antwoord": false,
+     "uitleg": "De titel is een visueel hulpmiddel: hij zegt vaak in één lijn waarover de tekst gaat en helpt je voorspellen wat er komt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'The teacher was unhappy with the noise.' Je kent 'unhappy' niet. Hoe vind je de betekenis?",
+     "opties": [
+      "je herkent happy met un- ervoor, dus niet blij",
+      "je kijkt naar het laatste deel -py",
+      "je vertaalt het als 'onmogelijk'",
+      "je slaat het woord gewoon over"
+     ],
+     "antwoord": 0,
+     "uitleg": "Leid de betekenis af uit de manier waarop een woord gevormd is. Un- maakt een woord ontkennend."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke Engelse woorden betekenen het tegengestelde door hun voorvoegsel?",
+     "opties": [
+      "unfair",
+      "impossible",
+      "dislike",
+      "hopeful",
+      "illegal"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Un-, im-, dis- en il- draaien de betekenis om: unfair (oneerlijk), impossible (onmogelijk), dislike (niet graag hebben), illegal (onwettig). Hopeful is net positief."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Als je een Engels woord niet kent, kan je soms helpen wat je al van het Nederlands of het Frans kent.",
+     "antwoord": true,
+     "uitleg": "Dat is een goede strategie: gebruik je kennis van je moedertaal of van andere vreemde talen. Denk aan 'television' of 'restaurant'."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest een kortverhaal dat stopt met: 'And then the door slowly opened...' Welke opdracht kan je hierbij krijgen?",
+     "opties": [
+      "een geloofwaardig einde verzinnen",
+      "de zinnen overschrijven",
+      "de woorden alfabetisch zetten",
+      "de tekst luidop voorlezen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Slowly = langzaam. Je verzint een geloofwaardig einde bij een verhaal, in het Engels, met een schrijfkader of sleutelwoorden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'I could not stop reading. The main character felt just like me.' Waarover gaat deze reactie?",
+     "opties": [
+      "dat de lezer zich herkent in een personage",
+      "dat het boek te lang is voor de lezer",
+      "dat de schrijver een fout heeft gemaakt",
+      "dat de kaft mooi is uitgegeven"
+     ],
+     "antwoord": 0,
+     "uitleg": "The main character = het hoofdpersonage. Je met een personage identificeren is een van de mogelijke reacties."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je in het Engels het hoofdpersonage van een verhaal? Twee woorden, met 'character' erin.",
+     "antwoord": "main character",
+     "uitleg": "The main character = het hoofdpersonage. Main = voornaamste, belangrijkste."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je ziet een Engelse cartoon: één tekening van een jongen die nog in bed ligt, met eronder 'Monday again? My bed disagrees.' Bij welke soort teksten hoort zo'n cartoon?",
+     "opties": [
+      "de literaire teksten",
+      "de informatieve teksten",
+      "de prescriptieve teksten",
+      "de narratieve teksten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Monday again? My bed disagrees = alweer maandag? Mijn bed is het daar niet mee eens. Zo'n grapje wil je laten lachen, niet informeren of iets opdragen. Een lied, een gedicht, een cartoon, een strip en een kortverhaal zijn literaire teksten. Een narratieve tekst vertelt een verhaal dat vooruitgaat in de tijd, en één tekening met één zin doet dat niet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een schoolreglement is een informatieve tekst, net zoals een krantenartikel.",
+     "antwoord": false,
+     "uitleg": "Een schoolreglement is prescriptief: het legt uit wat je moet doen. Een recept hoort bij diezelfde soort; een krantenartikel is wél informatief."
+    }
+   ]
+  },
+  {
+   "titel": "Schrijven: berichten, uitnodigingen en mails — deel 1",
+   "niveau": "spark",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft een mail aan de directeur van een school die je niet kent. Hoe begin je?",
+     "opties": [
+      "Dear friend Jones,",
+      "Hi mate!",
+      "Hey you,",
+      "Yo!",
+      "Geen van deze antwoorden"
+     ],
+     "antwoord": 4,
+     "uitleg": "Bij iemand die je niet kent gebruik je een neutraal register: Dear + Mr, Mrs of Ms en de familienaam, dus Dear Mr Jones. Die vorm staat er niet bij. 'Mate' en 'friend' kunnen alleen bij vrienden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft datzelfde mailtje aan de directeur. Hoe sluit je het af?",
+     "opties": [
+      "Kind regards,",
+      "See ya!",
+      "Bye bye!",
+      "Later!",
+      "Geen van deze antwoorden"
+     ],
+     "antwoord": 0,
+     "uitleg": "Kind regards of Best regards zijn neutraal. 'See ya' en 'Later' zijn spreektaal en horen in een bericht aan een vriend."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitdrukkingen gebruik je in een informeel bericht aan een vriend?",
+     "opties": [
+      "Hi Tom,",
+      "See you soon!",
+      "Thanks a lot!",
+      "Yours faithfully,",
+      "Cheers!"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Yours faithfully is heel formeel en hoort in een brief aan iemand van wie je de naam niet kent. De rest is gewone vriendentaal."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je gebruikt dezelfde toon in een mail aan je leraar als in een bericht aan je beste vriend.",
+     "antwoord": false,
+     "uitleg": "Je kiest een gepast register: neutraal of informeel, afhankelijk van wie je aanschrijft. Pas je taal aan de ontvanger aan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je wil iemand uitnodigen op je verjaardag. Welke zin past?",
+     "opties": [
+      "Would you like to come to my party?",
+      "You have to come to my party.",
+      "I am going to my own party.",
+      "My party was last Saturday."
+     ],
+     "antwoord": 0,
+     "uitleg": "'Would you like to...' is de beleefde manier om iets voor te stellen of uit te nodigen. 'You have to' klinkt als een bevel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Iemand zegt: 'I'm sorry I'm late.' Wat antwoord je?",
+     "opties": [
+      "That's all right.",
+      "Congratulations!",
+      "Good luck!",
+      "Here you are."
+     ],
+     "antwoord": 0,
+     "uitleg": "Reageren op een verontschuldiging is een alledaags sociaal contact. 'That's all right' of 'No problem' past."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe zeg je 'gefeliciteerd' in het Engels? Eén woord.",
+     "antwoord": "congratulations",
+     "uitleg": "Congratulations! Let op de spelling: er staat geen d in, en het staat altijd in het meervoud."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Please' en 'thank you' mag je gerust weglaten, want dat zegt niemand nog in het Engels.",
+     "antwoord": false,
+     "uitleg": "Net omgekeerd: vergeet niet om voldoende please en thank you te zeggen. Dat hoort bij de beleefdheidsconventies."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft een tekstje over je weekend. Welke drie delen horen erin?",
+     "opties": [
+      "een inleiding",
+      "een middenstuk",
+      "een slot",
+      "een inhoudstafel"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Je tekst heeft een eenvoudige en gepaste structuur: inleiding, midden, slot, met herkenbare tekstverbanden. Een inhoudstafel hoort bij een boek."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je krijgt de opdracht: 'Write about 60 words.' Je schrijft er 25. Wat loopt er mis?",
+     "opties": [
+      "de taakvoltooiing",
+      "de spelling",
+      "de uitspraak",
+      "de lay-out"
+     ],
+     "antwoord": 0,
+     "uitleg": "Taakvoltooiing betekent dat je boodschap volledig is en dat je de opgegeven lengte respecteert. Te kort is dus onvolledig."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Kleine grammaticafouten die de boodschap niet in de weg staan, zijn op dit niveau aanvaardbaar.",
+     "antwoord": true,
+     "uitleg": "Je vormt eenvoudige correcte zinnen; fouten mogen, zolang ze de communicatie niet verstoren. Perfect hoeft niet, begrijpelijk wel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft: 'i went to londen last weekend with my freind.' Welke fouten staan erin?",
+     "opties": [
+      "i moet met een hoofdletter",
+      "londen moet London zijn",
+      "freind moet friend zijn",
+      "weekend is fout gespeld"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "In het Engels schrijf je 'I' altijd met een hoofdletter, net als landen en steden. Weekend is wel juist gespeld."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe schrijf je het Engelse woord voor 'vriend' correct? Zes letters, met ie erin.",
+     "antwoord": "friend",
+     "uitleg": "Friend, met -ie-. Een ezelsbruggetje: er zit 'end' in, zoals in 'a friend until the end'."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft een mail om iets te vragen. Welke zin is het beleefdst?",
+     "opties": [
+      "Could you please send me the form?",
+      "Send me the form now.",
+      "I want the form.",
+      "Give me that form."
+     ],
+     "antwoord": 0,
+     "uitleg": "A form = een formulier. 'Could you please' is de beleefde vorm. De andere zinnen zijn bevelen en klinken onvriendelijk."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je mag in een schoolopdracht gerust woorden als sh*t gebruiken als je boos bent.",
+     "antwoord": false,
+     "uitleg": "Vermijd scheldwoorden of uitdrukkingen die als scheldwoorden kunnen worden opgevat."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft een bericht aan een winkel over een kapot toestel. Wat zet je in de inleiding?",
+     "opties": [
+      "waarom je schrijft",
+      "je volledige levensverhaal",
+      "het weer van vandaag",
+      "je lievelingskleur"
+     ],
+     "antwoord": 0,
+     "uitleg": "De inleiding zegt kort waarover het gaat: 'I am writing about the headphones I bought last week.' Dan weet de lezer meteen waarom."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke signaalwoorden maken je eigen tekst overzichtelijker?",
+     "opties": [
+      "first",
+      "after that",
+      "in the end",
+      "because of that",
+      "then"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "First, then, after that en in the end ordenen je tekst in de tijd. 'Because of that' geeft wel een gevolg, maar zegt niets over de volgorde."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je mag tijdens het examen een spellingcontrole en een online woordenboek gebruiken.",
+     "antwoord": true,
+     "uitleg": "Je mag ze allebei gebruiken; oefen er thuis mee. Ze vervangen je kennis niet, ze helpen ze."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe begin je een informele mail aan een vriendin die Emma heet? Twee woorden.",
+     "antwoord": [
+      "hi emma",
+      "hello emma",
+      "hey emma",
+      "hi, emma",
+      "hello, emma"
+     ],
+     "uitleg": "Hi Emma, met een komma erachter. 'Hello Emma' kan ook. 'Dear Emma' klinkt al wat plechtiger."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom lees je je tekst nog eens na voor je hem afgeeft?",
+     "opties": [
+      "om te kijken of alles helder en vlot is",
+      "om hem langer te maken",
+      "om de woorden te tellen",
+      "om de kleur aan te passen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dat is een goede strategie: lees je tekst grondig na, is de communicatie helder, gepast en vlot?"
+    }
+   ]
+  },
+  {
+   "titel": "Schrijven: berichten, uitnodigingen en mails — deel 2",
+   "niveau": "spark",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft: 'Dear Sir or Madam,' Wanneer gebruik je dat?",
+     "opties": [
+      "als je de naam van de lezer niet kent",
+      "als je met een vriend schrijft",
+      "als je aan je broer schrijft",
+      "als je aan jezelf schrijft",
+      "Geen van deze antwoorden"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dear Sir or Madam is de formele aanhef als je de naam niet kent. Ken je ze wel, dan schrijf je Dear Mrs Clarke."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je kan 'Sir' in dezelfde situatie gebruiken als 'mate'.",
+     "antwoord": false,
+     "uitleg": "Sir is formeel en afstandelijk, mate is vriendentaal. Elk register heeft zijn eigen aanspreekvorm."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je wil bedanken voor een cadeau. Welke zin past in een kaartje?",
+     "opties": [
+      "Thank you so much for the present!",
+      "I did not like your present.",
+      "Where did you buy the present?",
+      "The present is in my room."
+     ],
+     "antwoord": 0,
+     "uitleg": "A present = een cadeau. Bedanken is een alledaags sociaal contact."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je nodigt iemand uit. Welke gegevens horen zeker in je bericht?",
+     "opties": [
+      "wanneer het is",
+      "waar het is",
+      "waarvoor het is",
+      "wat het gekost heeft"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Wanneer, waar en waarvoor: zonder die drie kan je lezer niets met je uitnodiging. De prijs van je feest gaat niemand aan."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe vraag je in het Engels beleefd om hulp? Vul aan: 'Could you ___ me, please?' Eén woord.",
+     "antwoord": "help",
+     "uitleg": "Could you help me, please? Na 'could you' komt het werkwoord zonder to."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een mail aan een onbekende schrijf je in hetzelfde register als een berichtje in een groepschat.",
+     "antwoord": false,
+     "uitleg": "Neutraal tegenover informeel. Je past je taal aan de ontvanger aan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft over je stad voor een buitenlandse leerling. Wat doe je dan?",
+     "opties": [
+      "je legt iemand iets uit",
+      "je geeft je mening",
+      "je verontschuldigt je",
+      "je feliciteert iemand"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je legt uit hoe het leven eraan toegaat in jouw stad."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je geeft je mening over schooluniformen. Welke zinnen passen daarbij?",
+     "opties": [
+      "In my opinion, uniforms are boring.",
+      "I think uniforms are a good idea.",
+      "I don't agree with school uniforms.",
+      "Uniforms are made of cotton."
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "In my opinion, I think en I don't agree kondigen alle drie een mening aan. Uniforms are made of cotton geeft alleen een feit."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: 'In my ___, this film is too long.' Welk Engels woord betekent hier 'mening'?",
+     "antwoord": "opinion",
+     "uitleg": "In my opinion = naar mijn mening. Let op: in het Engels zeg je 'in my opinion', niet 'to my opinion'."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft een bericht van zes zinnen zonder één punt of hoofdletter. Welke vereiste haal je niet?",
+     "opties": [
+      "spelling en leestekengebruik",
+      "taakvoltooiing",
+      "woordenschat",
+      "lichaamstaal"
+     ],
+     "antwoord": 0,
+     "uitleg": "Leestekens horen bij spelling en leestekengebruik. Lichaamstaal geldt alleen voor spreken, niet voor een geschreven tekst."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een gepaste lay-out hoort bij de beoordeling van een geschreven tekst.",
+     "antwoord": true,
+     "uitleg": "Tekstopbouw en lay-out tellen mee. Een mail met een aanhef, alinea's en een groet leest nu eenmaal beter."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar zet je in een mail je alinea's het best?",
+     "opties": [
+      "één gedachte per alinea",
+      "alles in één blok",
+      "elke zin op een nieuwe regel",
+      "één woord per regel"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eén gedachte per alinea houdt je tekst overzichtelijk. Dat is precies wat 'een duidelijke opbouw' betekent."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft aan een hotel om een kamer te reserveren. Welke informatie geef je?",
+     "opties": [
+      "de data van je verblijf",
+      "het aantal personen",
+      "je naam",
+      "het merk van je koffer"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Data, aantal personen en je naam zijn nodig om te reserveren. Het merk van je koffer helpt het hotel niet vooruit."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Als je niet weet hoe je iets moet zeggen in het Engels, stop je het best met schrijven.",
+     "antwoord": false,
+     "uitleg": "Net omgekeerd: laat je niet ontmoedigen, probeer je doel te bereiken met de woorden en structuren die je wél al kent."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je wil iets voorstellen aan een vriend. Welke zin past?",
+     "opties": [
+      "Shall we go to the cinema?",
+      "I went to the cinema.",
+      "The cinema was closed.",
+      "He likes the cinema."
+     ],
+     "antwoord": 0,
+     "uitleg": "'Shall we...?' of 'Why don't we...?' zijn de gewone manieren om iets voor te stellen. De andere zinnen vertellen alleen iets."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: '___ we meet at six?' Welk Engels woord vooraan maakt hier een voorstel? Vijf letters.",
+     "antwoord": "shall",
+     "uitleg": "Shall we meet at six? Shall gebruik je vooral in een voorstel of een aanbod: Shall I help you?"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft over je vorige vakantie. Welke tijd gebruik je vooral?",
+     "opties": [
+      "de present continuous",
+      "de present simple",
+      "de future simple",
+      "de imperative",
+      "Geen van deze antwoorden"
+     ],
+     "antwoord": 4,
+     "uitleg": "De past simple is voor wat gebeurd en afgelopen is: 'We went to Spain. I swam every day.' Die tijd staat er niet bij. Let op signaalwoorden als last year of ago."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij een schrijfopdracht op het examen krijg je een schrijfkader dat je op weg helpt.",
+     "antwoord": true,
+     "uitleg": "Bij schrijf- en spreekopdrachten krijg je een schrijf- of spreekkader om je te ondersteunen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je krijgt een mail met een vraag erin en je antwoordt erop. Hoe heet dat onderdeel van het examen?",
+     "opties": [
+      "schriftelijke interactie",
+      "mondelinge interactie",
+      "lezen",
+      "luisteren"
+     ],
+     "antwoord": 0,
+     "uitleg": "Schriftelijke interactie is schrijven waarbij je reageert op iemand anders. Het weegt 8 %, net als schrijven."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft: 'Thanks for your mail. I hope to see you soon. Bye, Lisa' Welk deel van de tekst is dit?",
+     "opties": [
+      "het slot",
+      "de inleiding",
+      "het middenstuk",
+      "de titel"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het slot rondt af en neemt afscheid. De inleiding zegt waarover het gaat, het middenstuk geeft de inhoud."
+    }
+   ]
+  },
+  {
+   "titel": "Engelstalige landen en literaire teksten — deel 1",
+   "niveau": "spark",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'Remember: in the UK, cars drive on the left.' Wat leer je hieruit over het Verenigd Koninkrijk?",
+     "opties": [
+      "ze rijden aan de linkerkant van de weg",
+      "ze rijden aan de rechterkant",
+      "er rijden geen auto's in steden",
+      "er zijn geen verkeersregels"
+     ],
+     "antwoord": 0,
+     "uitleg": "The left = links. Je merkt op dat men in het Verenigd Koninkrijk aan de linkerkant van de weg rijdt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In Ierland en het Verenigd Koninkrijk rijdt het verkeer links, in de Verenigde Staten rechts.",
+     "antwoord": true,
+     "uitleg": "Zo is het. Handig om te weten als je een tekst over oversteken of over een reis moet begrijpen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'On Thanksgiving we eat turkey with the whole family.' In welk land wordt Thanksgiving in november gevierd?",
+     "opties": [
+      "de Verenigde Staten",
+      "het Verenigd Koninkrijk",
+      "Australië",
+      "Ierland"
+     ],
+     "antwoord": 0,
+     "uitleg": "A turkey = een kalkoen. Thanksgiving valt in de VS op de vierde donderdag van november. Canada viert het op de tweede maandag van oktober."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk dier staat er traditioneel op tafel met Thanksgiving? Antwoord in het Engels.",
+     "antwoord": "turkey",
+     "uitleg": "A turkey = een kalkoen. Het land Turkije heet in het Engels net zo, maar dan met een hoofdletter: Turkey."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke feesten worden in Engelstalige landen gevierd?",
+     "opties": [
+      "Halloween op 31 oktober",
+      "Saint Patrick's Day op 17 maart",
+      "Bonfire Night op 5 november",
+      "Sinterklaas op 6 december",
+      "Thanksgiving in november"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Saint Patrick's Day is de Ierse feestdag, Bonfire Night is Brits en Thanksgiving wordt in de Verenigde Staten en in Canada gevierd. Sinterklaas is een gewoonte van bij ons en van Nederland."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest een Britse tekst: 'Take the lift to the first floor.' Waar kom je uit als je in een Brits gebouw naar 'the first floor' gaat?",
+     "opties": [
+      "één verdieping boven de begane grond",
+      "op de begane grond",
+      "in de kelder",
+      "op het dak"
+     ],
+     "antwoord": 0,
+     "uitleg": "A lift = een lift. In het Brits is 'the ground floor' de begane grond en is 'the first floor' de eerste verdieping. In de VS heet de begane grond wél 'the first floor'."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest '14/06/2027' in een Britse tekst. Welke datum is dat?",
+     "opties": [
+      "14 juni 2027",
+      "6 april 2027",
+      "14 april 2027",
+      "6 juni 2014"
+     ],
+     "antwoord": 0,
+     "uitleg": "In het Brits schrijf je dag/maand/jaar, net als bij ons. In de VS staat de maand eerst: 06/14/2027 is daar 14 juni."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de Verenigde Staten meten ze de temperatuur in graden Fahrenheit en niet in graden Celsius.",
+     "antwoord": true,
+     "uitleg": "Zo staat het ook in Amerikaanse weerberichten: 70°F is ongeveer 21°C. Handig te weten bij een tekst over het weer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden zijn Brits Engels?",
+     "opties": [
+      "lift",
+      "biscuit",
+      "autumn",
+      "elevator",
+      "lorry"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Brits tegenover Amerikaans: lift/elevator, biscuit/cookie, autumn/fall, lorry/truck. Allebei zijn juist, maar niet in dezelfde tekst door elkaar."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noemen Amerikanen de herfst? Eén woord van vier letters.",
+     "antwoord": "fall",
+     "uitleg": "Fall = herfst in Amerikaans Engels. In Brits Engels is dat autumn."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest een Amerikaanse tekst met 'color', 'theater' en 'traveling'. Wat valt op?",
+     "opties": [
+      "het is Amerikaanse spelling",
+      "het zijn schrijffouten",
+      "het zijn oude woorden",
+      "het is jongerentaal"
+     ],
+     "antwoord": 0,
+     "uitleg": "De Britse spelling is colour, theatre en travelling. Allebei mag, als je maar niet wisselt binnen één tekst."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Football' betekent in de Verenigde Staten hetzelfde spel als in België.",
+     "antwoord": false,
+     "uitleg": "In de VS is football een ander spel, met een ovale bal en helmen. Wat wij voetbal noemen, heet daar soccer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'In Australia, Christmas falls in the middle of summer.' Hoe kan dat?",
+     "opties": [
+      "Australië ligt op het zuidelijk halfrond",
+      "Australië viert Kerstmis in juni",
+      "in Australië bestaat er geen winter",
+      "de tekst maakt een fout"
+     ],
+     "antwoord": 0,
+     "uitleg": "Op het zuidelijk halfrond zijn de seizoenen omgekeerd. Kerstmis valt er nog altijd op 25 december, maar dan midden in de zomer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In welke landen is Engels een officiële taal of de taal van het dagelijkse leven?",
+     "opties": [
+      "Ierland",
+      "Canada",
+      "Nieuw-Zeeland",
+      "Portugal",
+      "Australië"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Canada heeft Engels en Frans als officiële talen, Nieuw-Zeeland heeft er ook Maori naast. In Portugal spreekt men Portugees."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet de hoofdstad van het Verenigd Koninkrijk? Antwoord in het Engels.",
+     "antwoord": "london",
+     "uitleg": "London = Londen. In het Engels schrijf je de naam met één o in de tweede lettergreep."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'People here always queue politely at the bus stop.' Waarover gaat deze zin?",
+     "opties": [
+      "over een gewoonte in het dagelijkse leven",
+      "over de dienstregeling van de bus",
+      "over de prijs van een ticket",
+      "over het weer bij de halte"
+     ],
+     "antwoord": 0,
+     "uitleg": "To queue = in de rij staan, politely = beleefd. Gewoontes en sociale conventies zijn precies wat je bedoelt met aspecten van een cultuur."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Lichaamstaal hoort ook bij wat je over een cultuur kan leren uit een tekst.",
+     "antwoord": true,
+     "uitleg": "Ook lichaamstaal hoort bij een cultuur, naast gewoontes, sociale verhoudingen, waarden en normen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest in een Amerikaanse reisgids: 'In restaurants, it is usual to leave a tip.' Wat betekent dat?",
+     "opties": [
+      "je geeft er meestal fooi",
+      "je betaalt er vooraf",
+      "je moet er reserveren",
+      "je krijgt er gratis water"
+     ],
+     "antwoord": 0,
+     "uitleg": "A tip = een fooi. In de Verenigde Staten is fooi geven in een restaurant gebruikelijk; bij ons is dat veel minder vanzelfsprekend."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'British pupils often wear a school uniform.' Wat leer je hieruit?",
+     "opties": [
+      "over de gewoontes op school in het VK",
+      "over de prijs van kleren in het VK",
+      "over de lessen op een Britse school",
+      "over het weer in het VK"
+     ],
+     "antwoord": 0,
+     "uitleg": "A pupil = een leerling. Wat leerlingen dragen, hoort bij het dagelijkse leven en bij de gewoontes van een land."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In het Verenigd Koninkrijk betaal je met euro's, net zoals in Ierland.",
+     "antwoord": false,
+     "uitleg": "In Ierland betaal je wel met euro, in het Verenigd Koninkrijk met pond (pounds). Dat verschil duikt op in teksten over winkelen en reizen."
+    }
+   ]
+  },
+  {
+   "titel": "Engelstalige landen en literaire teksten — deel 2",
+   "niveau": "spark",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest een gedicht: 'The rain keeps falling on the empty street. / Nobody waits for me tonight.' Welk gevoel roept dit op?",
+     "opties": [
+      "eenzaamheid",
+      "blijdschap",
+      "woede",
+      "verbazing"
+     ],
+     "antwoord": 0,
+     "uitleg": "Empty = leeg, nobody = niemand. De lege straat en het wachten dat niemand doet, maken het gedicht eenzaam."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees nog eens: 'The rain keeps falling on the empty street. / Nobody waits for me tonight.' Je moet schriftelijk reageren op dat gedicht over de regen. Welke reacties passen daarbij?",
+     "opties": [
+      "I feel sad when I read this poem.",
+      "This poem reminds me of a rainy holiday.",
+      "I like the way the poet repeats the rain.",
+      "This poem has exactly fourteen words."
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Een gevoel, een eigen herinnering en iets over de vorm: dat is beleving en interpretatie. Woorden tellen is geen reactie."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij een opdracht over een literaire tekst krijg je een schrijfkader, sleutelwoorden of een voorbeeld.",
+     "antwoord": true,
+     "uitleg": "Je moet dus geen bladzijde uit het niets schrijven; er is altijd houvast."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een verhaal stopt met: 'She opened the letter and started to cry.' Je moet een geloofwaardig einde verzinnen. Welk einde past?",
+     "opties": [
+      "Het nieuws in de brief raakte haar diep.",
+      "Plots veranderde ze in een draak.",
+      "De brief was eigenlijk een auto.",
+      "Het verhaal begon opnieuw van voren af aan."
+     ],
+     "antwoord": 0,
+     "uitleg": "Geloofwaardig betekent: het past bij wat er al gebeurd is. Een draak komt uit het niets en breekt het verhaal."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je in het Engels een gedicht? Eén woord van vier letters.",
+     "antwoord": "poem",
+     "uitleg": "A poem = een gedicht. De schrijver ervan is a poet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn literaire teksten?",
+     "opties": [
+      "a song",
+      "a comic",
+      "a short story",
+      "a school report",
+      "a novel"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "A song = een lied, a comic = een strip, a short story = een kortverhaal, a novel = een roman. Een schoolrapport is informatief, geen literatuur."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je in het Engels een kortverhaal? Twee woorden.",
+     "antwoord": "short story",
+     "uitleg": "A short story = een kortverhaal. Short = kort, a story = een verhaal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest een verhaal over een meisje dat verhuist en niemand kent. Je schrijft: 'I know this feeling, because I moved too.' Wat doe je hier?",
+     "opties": [
+      "je herkent jezelf in het personage",
+      "je vat het verhaal samen",
+      "je verbetert de schrijver",
+      "je vertaalt het verhaal"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zo reageer je: je legt uit waarom je je identificeert met een bepaald personage, of je zoiets ook al hebt meegemaakt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij een literaire tekst moet je bewijzen dat jouw mening de juiste is.",
+     "antwoord": false,
+     "uitleg": "Er is geen juiste mening over een gedicht. Je verwoordt je eigen beleving en legt uit waaróm je dat vindt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest een strip zonder woorden, alleen tekeningen. Hoe kan je die toch begrijpen?",
+     "opties": [
+      "door de gezichten en de lichaamstaal te lezen",
+      "door de kleuren te tellen",
+      "door de tekenaar op te zoeken",
+      "door de laatste tekening over te slaan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Lichaamstaal en gezichtsuitdrukking vertellen wat de personages voelen. Ook lichaamstaal lees je mee."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'The old house was watching them with its broken windows.' Wat doet de schrijver hier?",
+     "opties": [
+      "hij geeft het huis menselijke trekken",
+      "hij geeft de afmetingen van het huis",
+      "hij legt uit hoe je ramen herstelt",
+      "hij vertelt wie er woonde"
+     ],
+     "antwoord": 0,
+     "uitleg": "Broken = kapot. Een huis dat 'kijkt' kan niet echt; die beeldspraak maakt de sfeer onheilspellend. Zoiets mag je in je reactie benoemen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een lied kan je op het examen als literaire tekst krijgen.",
+     "antwoord": true,
+     "uitleg": "Een lied is een literaire tekst, net als een gedicht, een cartoon, een strip en een kortverhaal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest een tekst over eetgewoontes in de Verenigde Staten. Wat haal je daaruit?",
+     "opties": [
+      "wat mensen daar gewoonlijk eten",
+      "hoeveel een maaltijd daar weegt",
+      "wie het recept geschreven heeft",
+      "hoeveel restaurants er zijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je haalt uit de tekst wat de eetgewoonten zijn in de Verenigde Staten: wat mensen daar gewoonlijk eten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoort bij de cultuur van een land?",
+     "opties": [
+      "gewoontes",
+      "waarden en normen",
+      "sociale verhoudingen",
+      "de oppervlakte van het land",
+      "lichaamstaal"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Daarbij horen het dagelijkse leven, de leefomstandigheden, gewoontes, sociale verhoudingen, waarden en normen, lichaamstaal en sociale conventies."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een tekst over een land waar Engels gesproken wordt, gaat altijd over het Verenigd Koninkrijk.",
+     "antwoord": false,
+     "uitleg": "Engels is ook de taal van onder meer Ierland, de Verenigde Staten, Canada, Australië en Nieuw-Zeeland."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je in het Engels een strip? Eén woord van vijf letters.",
+     "antwoord": "comic",
+     "uitleg": "A comic = een strip. Een stripboek is a comic book, een losse strook in de krant a comic strip."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest een kortverhaal en schrijft: 'The end surprised me, because I expected the brother to come back.' Wat doe je?",
+     "opties": [
+      "je vertelt hoe de tekst op jou overkwam",
+      "je verbetert een spelfout",
+      "je telt de personages",
+      "je vertaalt de titel"
+     ],
+     "antwoord": 0,
+     "uitleg": "To expect = verwachten. Zeggen dat iets je verraste en waarom, is precies wat beleving is."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'I liked it' is op zich al een volledige reactie op een literaire tekst.",
+     "antwoord": false,
+     "uitleg": "Je moet er ook bij zeggen waaróm. Een reactie vraagt je beleving én je interpretatie, en die zit in de uitleg."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest een tekst over het leven op het Ierse platteland. Wat is het onderwerp?",
+     "opties": [
+      "het dagelijkse leven in Ierland",
+      "de regels van het Engels",
+      "de weerberichten van vorige week",
+      "de prijs van een vliegtuigticket"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het dagelijkse leven en de leefomstandigheden horen er ook bij als je over cultuur spreekt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je krijgt een verhaal en moet uitleggen waarom de stijl je aanspreekt. Wat kan je dan zeggen?",
+     "opties": [
+      "dat de zinnen kort en snel zijn",
+      "dat het boek 200 bladzijden telt",
+      "dat het boek in 2019 verscheen",
+      "dat het boek in de bib staat"
+     ],
+     "antwoord": 0,
+     "uitleg": "Stijl gaat over hóé iets geschreven is: korte zinnen, veel beeldspraak, humor. Het jaartal en de bladzijden zeggen daar niets over."
+    }
+   ]
+  },
+  {
+   "titel": "Woordenschat: eten, wonen, kleding en dagelijkse dingen — deel 2",
+   "niveau": "spark",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest in een recept: 'Add two spoons of sugar.' Wat moet je toevoegen?",
+     "opties": [
+      "twee lepels suiker",
+      "twee kopjes melk",
+      "twee glazen water",
+      "twee sneden brood"
+     ],
+     "antwoord": 0,
+     "uitleg": "A spoon = een lepel, sugar = suiker. To add = toevoegen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Bread', 'water' en 'rice' kan je in het Engels niet zomaar in het meervoud zetten.",
+     "antwoord": true,
+     "uitleg": "Dat zijn ontelbare woorden. Je telt ze met een maat erbij: two slices of bread, three glasses of water, two bowls of rice."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'Would you like some more soup?' Wat vraagt de gastheer?",
+     "opties": [
+      "of je nog soep wil",
+      "of de soep te warm is",
+      "of je de soep lust",
+      "of je soep kan koken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Some more = nog wat. 'Would you like' is de beleefde manier om iets aan te bieden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden hoor je in een restaurant?",
+     "opties": [
+      "the menu",
+      "the bill",
+      "a waiter",
+      "a timetable"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "The bill = de rekening, a waiter = een ober. A timetable is een uurrooster of dienstregeling."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe vraag je in een Brits restaurant om de rekening? Vul aan: 'Could we have the ___, please?'",
+     "antwoord": "bill",
+     "uitleg": "The bill = de rekening in Brits Engels. In de Verenigde Staten vraag je the check."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'Our house has a big garden and a garage.' Wat hoort bij het huis?",
+     "opties": [
+      "een tuin en een garage",
+      "een balkon en een lift",
+      "een zolder en een kelder",
+      "een terras en een vijver"
+     ],
+     "antwoord": 0,
+     "uitleg": "A garden = een tuin, a garage = een garage. Let op de uitspraak van garage: de klemtoon ligt in het Brits vooraan."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'A living room' en 'a sitting room' betekenen ongeveer hetzelfde.",
+     "antwoord": true,
+     "uitleg": "Allebei de woonkamer. Sitting room klinkt wat ouderwetser en Britser; living room hoor je overal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'Turn off the light when you leave.' Wat moet je doen?",
+     "opties": [
+      "het licht uitdoen",
+      "het licht aandoen",
+      "de deur sluiten",
+      "het raam openen"
+     ],
+     "antwoord": 0,
+     "uitleg": "To turn off = uitzetten, to turn on = aanzetten. Vergelijk met to switch off en to switch on."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden zijn dingen die je elke dag bij je hebt?",
+     "opties": [
+      "keys",
+      "wallet",
+      "phone",
+      "wardrobe"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Keys = sleutels, a wallet = een portefeuille, a phone = een telefoon. Een kleerkast steek je niet in je zak."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je in het Engels het ding waarmee je een deur opent? Eén woord, enkelvoud.",
+     "antwoord": "key",
+     "uitleg": "A key = een sleutel. Meervoud: keys. Op een computer is a key ook een toets."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'I get up at seven and have a shower.' Wat doet deze persoon?",
+     "opties": [
+      "opstaan en douchen",
+      "ontbijten en vertrekken",
+      "wakker worden en lezen",
+      "aankleden en fietsen"
+     ],
+     "antwoord": 0,
+     "uitleg": "To get up = opstaan, to have a shower = een douche nemen. Let op: het Engels zegt 'have a shower', niet 'take a douche'."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'To go to bed' betekent gaan slapen, en 'to wake up' betekent wakker worden.",
+     "antwoord": true,
+     "uitleg": "Twee vaste uitdrukkingen uit de dagelijkse routine. Let op: 'to get up' is opstaan, na het wakker worden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'The supermarket is open from 9 a.m. to 8 p.m.' Wanneer sluit het?",
+     "opties": [
+      "om acht uur 's avonds",
+      "om acht uur 's ochtends",
+      "om negen uur 's avonds",
+      "om negen uur 's ochtends"
+     ],
+     "antwoord": 0,
+     "uitleg": "P.m. is na de middag, a.m. ervoor. De winkel opent dus om 9 uur 's ochtends en sluit om 8 uur 's avonds."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar ga je naartoe om geld af te halen of een rekening te openen?",
+     "opties": [
+      "to the bank",
+      "to the library",
+      "to the post office",
+      "to the market"
+     ],
+     "antwoord": 0,
+     "uitleg": "A bank = een bank, a library = een bibliotheek, a post office = een postkantoor. Allemaal diensten."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Waar ga je naartoe om een boek te ontlenen? Antwoord in het Engels, één woord.",
+     "antwoord": "library",
+     "uitleg": "A library = een bibliotheek. Pas op voor de valse vriend: a bookshop is de boekhandel, waar je boeken koopt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'A magazine' is in het Engels een winkel waar je tijdschriften koopt.",
+     "antwoord": false,
+     "uitleg": "A magazine = een tijdschrift. De winkel is a newsagent's. Weer een valse vriend, want ons 'magazijn' is a warehouse of a store."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'The box is square and made of wood.' Hoe ziet de doos eruit?",
+     "opties": [
+      "vierkant en van hout",
+      "rond en van glas",
+      "vierkant en van metaal",
+      "rond en van hout"
+     ],
+     "antwoord": 0,
+     "uitleg": "Square = vierkant, wood = hout. De vormen: round, square, rectangular, triangular. De materialen: wood, glass, metal, plastic, paper."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden zijn vormen?",
+     "opties": [
+      "round",
+      "square",
+      "noisy",
+      "heavy",
+      "warm"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Round = rond en square = vierkant. Heavy = zwaar, noisy = lawaaierig en warm = warm: dat zijn geen vormen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Purple' is in het Engels de kleur roze.",
+     "antwoord": false,
+     "uitleg": "Purple = paars; roze is pink. Let ook op grey (Brits) en gray (Amerikaans) voor grijs."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'I go shopping every Saturday morning.' Wanneer gaat deze persoon winkelen?",
+     "opties": [
+      "elke zaterdagvoormiddag",
+      "elke zaterdagavond",
+      "elke zondagvoormiddag",
+      "één keer per maand"
+     ],
+     "antwoord": 0,
+     "uitleg": "Every = elke, morning = voormiddag of ochtend. To go shopping = gaan winkelen."
+    }
+   ]
+  },
+  {
+   "titel": "Woordenschat: school, beroepen, sport en vrije tijd — deel 2",
+   "niveau": "spark",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "In een opdracht staat: 'Write about 80 words.' Wat verwacht men?",
+     "opties": [
+      "een tekst van ongeveer 80 woorden",
+      "precies 80 zinnen",
+      "een tekst over het getal 80",
+      "80 losse woorden op een rij"
+     ],
+     "antwoord": 0,
+     "uitleg": "About = ongeveer. De opgegeven lengte telt mee bij de taakvoltooiing, dus veel korter of langer kost punten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In een opdracht staat: 'Answer in full sentences.' Wat betekent dat?",
+     "opties": [
+      "antwoord met hele zinnen",
+      "antwoord met één woord",
+      "antwoord in het Nederlands",
+      "antwoord met een tekening"
+     ],
+     "antwoord": 0,
+     "uitleg": "A full sentence = een volledige zin. Dus niet 'yes' maar 'Yes, I do'."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In een opdracht staat: 'Fill in the ___.' Welk Engels woord betekent hier 'de leegtes'? Meervoud.",
+     "antwoord": "gaps",
+     "uitleg": "A gap = een gaatje of een leeg vakje. Fill in the gaps = vul de leegtes in."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Cross out the wrong word' betekent dat je het foute woord moet omcirkelen.",
+     "antwoord": false,
+     "uitleg": "To cross out = doorstrepen. Omcirkelen is to circle. Wrong = fout."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke opdrachten vragen dat je iets beslist over waar of niet waar?",
+     "opties": [
+      "True or false?",
+      "Decide if the sentence is correct.",
+      "Tick true or false.",
+      "Draw a picture."
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "To decide = beslissen. Tekenen komt op een taalexamen niet voor als opdracht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'Our class has twenty-four pupils.' Hoeveel leerlingen zijn er?",
+     "opties": [
+      "24",
+      "20",
+      "44",
+      "14"
+     ],
+     "antwoord": 0,
+     "uitleg": "Twenty-four = vierentwintig. In het Engels zet je het tiental eerst, met een streepje ertussen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'A pupil' en 'a student' kunnen allebei een leerling of student aanduiden.",
+     "antwoord": true,
+     "uitleg": "In Brits Engels is a pupil eerder een leerling op school en a student iemand aan de universiteit. Amerikanen zeggen bijna altijd student."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'The timetable changed after the holidays.' Wat veranderde er?",
+     "opties": [
+      "het uurrooster",
+      "het schoolreglement",
+      "de leraar",
+      "het klaslokaal"
+     ],
+     "antwoord": 0,
+     "uitleg": "A timetable = een uurrooster of dienstregeling. After the holidays = na de vakantie."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je in het Engels de plaats waar leerlingen tussen de lessen spelen? Eén woord.",
+     "antwoord": "playground",
+     "uitleg": "A playground = een speelplaats. Play = spelen, ground = grond, terrein."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest een vacature: 'We are looking for a shop assistant.' Welk beroep is dat?",
+     "opties": [
+      "winkelbediende",
+      "boekhouder",
+      "chauffeur",
+      "bewaker"
+     ],
+     "antwoord": 0,
+     "uitleg": "A shop assistant = een winkelbediende. To look for = zoeken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'A firefighter' is iemand die branden blust.",
+     "antwoord": true,
+     "uitleg": "A firefighter = een brandweerman of -vrouw. Fire = vuur of brand, to fight = bestrijden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'He works from nine to five in an office.' Wat weet je over zijn werk?",
+     "opties": [
+      "hij werkt overdag op kantoor",
+      "hij werkt 's nachts thuis",
+      "hij werkt in het weekend",
+      "hij werkt in de bouw"
+     ],
+     "antwoord": 0,
+     "uitleg": "An office = een kantoor. 'From nine to five' is de gewone kantoordag."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden horen bij vrije tijd?",
+     "opties": [
+      "reading",
+      "drawing",
+      "studying",
+      "homework",
+      "cleaning"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Reading = lezen en drawing = tekenen. Homework, studying en cleaning doe je omdat het moet."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: 'My favourite ___ is playing chess.' Welk Engels woord betekent 'hobby'?",
+     "antwoord": "hobby",
+     "uitleg": "A hobby = een hobby. Chess = schaken. Favourite schrijf je in Brits Engels met -our-."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'The match ended in a draw.' Hoe eindigde de wedstrijd?",
+     "opties": [
+      "gelijkspel",
+      "met een overwinning",
+      "met een verlies",
+      "zonder einde"
+     ],
+     "antwoord": 0,
+     "uitleg": "A draw = een gelijkspel. To win = winnen, to lose = verliezen, a match = een wedstrijd."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'To win' betekent verliezen en 'to lose' betekent winnen.",
+     "antwoord": false,
+     "uitleg": "Precies omgekeerd: to win = winnen, to lose = verliezen. De winnaar is the winner, de verliezer the loser."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'Follow us on social media for more news.' Wat vraagt deze zin?",
+     "opties": [
+      "hen volgen op sociale media",
+      "hen een mail sturen",
+      "hen opbellen",
+      "hun winkel bezoeken"
+     ],
+     "antwoord": 0,
+     "uitleg": "To follow = volgen. Social media, to post, to share en to like zijn allemaal woorden uit het woordveld communicatie en multimedia."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'I downloaded the app yesterday.' Wat deed deze persoon?",
+     "opties": [
+      "de app binnengehaald",
+      "de app verwijderd",
+      "de app gemaakt",
+      "de app verkocht"
+     ],
+     "antwoord": 0,
+     "uitleg": "To download = downloaden, binnenhalen. Het omgekeerde is to upload: iets naar het internet sturen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk Engels werkwoord betekent 'iets op het internet zetten'? Het tegengestelde van download.",
+     "antwoord": "upload",
+     "uitleg": "To upload = opladen naar het internet, to download = binnenhalen. Up is omhoog, down is omlaag."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'To chat' betekent in het Engels ook gewoon babbelen, niet alleen typen op een scherm.",
+     "antwoord": true,
+     "uitleg": "To chat = babbelen, kletsen. Het woord bestond al lang voor er computers waren."
+    }
+   ]
+  },
+  {
+   "titel": "Woordenschat: getallen, tijd, weer, reizen en landen — deel 1",
+   "niveau": "spark",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'The train leaves at a quarter past eight.' Hoe laat vertrekt de trein?",
+     "opties": [
+      "8.15 uur",
+      "7.45 uur",
+      "8.45 uur",
+      "8.30 uur"
+     ],
+     "antwoord": 0,
+     "uitleg": "A quarter past eight = kwart over acht. Past is erover, to is ervoor: a quarter to eight is kwart voor acht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'It is ten to six.' Hoe laat is het?",
+     "opties": [
+      "5.50 uur",
+      "6.10 uur",
+      "10.06 uur",
+      "6.50 uur"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ten to six = tien voor zes, dus 5.50 uur. Bij 'to' tel je terug naar het volgende uur."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe zeg je in het Engels 'half acht' (7.30 uur)? Vul aan: 'half past ___'.",
+     "antwoord": "seven",
+     "uitleg": "Half past seven = half acht. Opgepast: het Engels telt vanaf het uur dat geweest is, het Nederlands naar het uur dat komt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Half past nine' is in het Nederlands half tien.",
+     "antwoord": true,
+     "uitleg": "Half past nine = negen uur en een half = half tien. Wie dat verwart, komt een uur te vroeg of te laat."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden zijn maanden?",
+     "opties": [
+      "August",
+      "January",
+      "Monday",
+      "Sunday",
+      "Friday"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "August = augustus en January = januari. Sunday, Monday en Friday zijn dagen. Let op: maanden en dagen krijgen in het Engels een hoofdletter."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke maand komt na June? Antwoord in het Engels.",
+     "antwoord": "july",
+     "uitleg": "July = juli, na June (juni). De zomer: June, July, August."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'See you on Wednesday.' Welke dag is dat?",
+     "opties": [
+      "woensdag",
+      "dinsdag",
+      "donderdag",
+      "zaterdag"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wednesday = woensdag. Je spreekt de d niet uit: 'wensdee'. Tuesday is dinsdag, Thursday donderdag."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In het Engels schrijf je de dagen en de maanden met een kleine letter.",
+     "antwoord": false,
+     "uitleg": "Net niet: Monday, July, Christmas krijgen allemaal een hoofdletter. In het Nederlands schrijven we die wél klein."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest een weerbericht: 'Tomorrow will be cloudy with some showers.' Wat voor weer wordt het?",
+     "opties": [
+      "bewolkt met buien",
+      "zonnig en warm",
+      "koud met sneeuw",
+      "mistig en droog"
+     ],
+     "antwoord": 0,
+     "uitleg": "Cloudy = bewolkt, a shower = een bui. Andere weerwoorden: sunny, rainy, windy, foggy, snowy."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden beschrijven het weer?",
+     "opties": [
+      "windy",
+      "foggy",
+      "freezing",
+      "crowded",
+      "stormy"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Windy = winderig, foggy = mistig, freezing = ijskoud, stormy = stormachtig. Crowded = druk met mensen, en dat zegt niets over het weer."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: 'Take an umbrella, it is ___ outside.' Welk Engels woord betekent hier 'aan het regenen'?",
+     "antwoord": "raining",
+     "uitleg": "It is raining = het regent. An umbrella = een paraplu. Bij weer dat nu bezig is, gebruik je de present continuous."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'The temperature will drop to five degrees.' Wat gebeurt er met de temperatuur?",
+     "opties": [
+      "ze daalt tot vijf graden",
+      "ze stijgt tot vijf graden",
+      "ze blijft vijf graden",
+      "ze valt weg"
+     ],
+     "antwoord": 0,
+     "uitleg": "To drop = dalen, vallen. Het tegengestelde is to rise: stijgen. A degree = een graad."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'We went to Rome by plane and came back by train.' Hoe reisden ze?",
+     "opties": [
+      "heen met het vliegtuig, terug met de trein",
+      "heen met de trein, terug met het vliegtuig",
+      "heen en terug met de bus",
+      "heen en terug met de auto"
+     ],
+     "antwoord": 0,
+     "uitleg": "By plane = met het vliegtuig, by train = met de trein. Let op de vaste uitdrukking: by bike, by car, by bus, maar on foot voor te voet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'On foot' betekent te voet, ook al staan er andere vervoermiddelen met 'by'.",
+     "antwoord": true,
+     "uitleg": "By bike, by car, by bus, by train, by plane, maar on foot. Dat zijn vaste combinaties."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: 'I go to school ___ bike.' Welk kort Engels voorzetsel hoort hier?",
+     "antwoord": "by",
+     "uitleg": "By bike = met de fiets. Bij vervoermiddelen gebruik je 'by' zonder lidwoord: by bus, by car, by train."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'Our flight is delayed by two hours.' Wat is er aan de hand?",
+     "opties": [
+      "de vlucht heeft twee uur vertraging",
+      "de vlucht is geannuleerd",
+      "de vlucht vertrekt twee uur vroeger",
+      "de vlucht duurt twee uur"
+     ],
+     "antwoord": 0,
+     "uitleg": "A flight = een vlucht, delayed = vertraagd. Cancelled zou geannuleerd betekenen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden hoor je op een luchthaven?",
+     "opties": [
+      "boarding pass",
+      "luggage",
+      "gate",
+      "platform"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "A boarding pass = een instapkaart, luggage = bagage, a gate = een gate. A platform is een perron, en dat hoort bij het station."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'She is from Scotland, so she is Scottish.' Wat is het verschil tussen die twee woorden?",
+     "opties": [
+      "Scotland is het land, Scottish de nationaliteit",
+      "Scotland is de taal, Scottish het land",
+      "Scotland is een stad, Scottish een streek",
+      "er is geen verschil tussen de twee"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zo werkt het bij elk land: Spain wordt Spanish, France wordt French, Belgium wordt Belgian."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Iemand komt uit Spain. Wat is zijn nationaliteit in het Engels? Eén woord.",
+     "antwoord": "spanish",
+     "uitleg": "Spanish = Spaans. In het Engels schrijf je dat met een hoofdletter: Spanish."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Vacation' is het Britse woord voor vakantie en 'holiday' het Amerikaanse.",
+     "antwoord": false,
+     "uitleg": "Omgekeerd: een Brit gaat 'on holiday', een Amerikaan 'on vacation'. In het Brits kan a holiday ook één feestdag zijn."
+    }
+   ]
+  },
+  {
+   "titel": "Grammatica: naamwoorden, lidwoorden en voornaamwoorden — deel 1",
+   "niveau": "spark",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het meervoud van 'box'?",
+     "opties": [
+      "boxes",
+      "boxs",
+      "boxen",
+      "boxies"
+     ],
+     "antwoord": 0,
+     "uitleg": "Na s, x, ch, sh en soms o komt -es: boxes, watches, dishes, buses. Anders gewoon -s.",
+     "varianten": [
+      {
+       "vraag": "Wat is het meervoud van 'watch'?",
+       "opties": [
+        "watches",
+        "watchs",
+        "watchen",
+        "watchies"
+       ],
+       "antwoord": 0,
+       "uitleg": "Na -ch komt er -es bij: watches."
+      },
+      {
+       "vraag": "Wat is het meervoud van 'bus'?",
+       "opties": [
+        "buses",
+        "buss",
+        "busen",
+        "busies"
+       ],
+       "antwoord": 0,
+       "uitleg": "Na -s komt er -es bij: buses."
+      },
+      {
+       "vraag": "Wat is het meervoud van 'brush'?",
+       "opties": [
+        "brushes",
+        "brushs",
+        "brushen",
+        "brushies"
+       ],
+       "antwoord": 0,
+       "uitleg": "Na -sh komt er -es bij: brushes."
+      }
+     ]
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het meervoud van 'baby'?",
+     "opties": [
+      "babies",
+      "babys",
+      "babyes",
+      "babyies"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een -y na een medeklinker wordt -ies: baby wordt babies, city wordt cities. Staat er een klinker voor, dan blijft de y: boy wordt boys.",
+     "varianten": [
+      {
+       "vraag": "Wat is het meervoud van 'city'?",
+       "opties": [
+        "cities",
+        "citys",
+        "cityes",
+        "cityies"
+       ],
+       "antwoord": 0,
+       "uitleg": "Een medeklinker plus -y wordt -ies: cities."
+      },
+      {
+       "vraag": "Wat is het meervoud van 'story'?",
+       "opties": [
+        "stories",
+        "storys",
+        "storyes",
+        "storyies"
+       ],
+       "antwoord": 0,
+       "uitleg": "Een medeklinker plus -y wordt -ies: stories."
+      },
+      {
+       "vraag": "Wat is het meervoud van 'party'?",
+       "opties": [
+        "parties",
+        "partys",
+        "partyes",
+        "partyies"
+       ],
+       "antwoord": 0,
+       "uitleg": "Een medeklinker plus -y wordt -ies: parties."
+      }
+     ]
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke meervouden zijn onregelmatig?",
+     "opties": [
+      "children",
+      "teeth",
+      "books",
+      "tables",
+      "houses"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Child wordt children en tooth wordt teeth. Table, book en house krijgen gewoon een -s erbij.",
+     "varianten": [
+      {
+       "opties": [
+        "men",
+        "women",
+        "feet",
+        "books",
+        "children"
+       ],
+       "antwoord": [
+        0,
+        1,
+        2,
+        4
+       ],
+       "uitleg": "Books krijgt gewoon een -s. De andere veranderen van vorm."
+      },
+      {
+       "opties": [
+        "geese",
+        "sheep",
+        "people",
+        "chairs"
+       ],
+       "antwoord": [
+        0,
+        1,
+        2
+       ],
+       "uitleg": "Chairs krijgt gewoon een -s. Sheep verandert zelfs helemaal niet."
+      },
+      {
+       "opties": [
+        "feet",
+        "teeth",
+        "tables",
+        "windows"
+       ],
+       "antwoord": [
+        0,
+        1
+       ],
+       "uitleg": "Windows en tables krijgen gewoon een -s. Bij feet en teeth verandert de klinker."
+      }
+     ]
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Wat is het meervoud van 'man'? Eén Engels woord.",
+     "antwoord": "men",
+     "uitleg": "Man wordt men, woman wordt women. Let op de uitspraak van women: de eerste lettergreep klinkt als 'wi'.",
+     "varianten": [
+      {
+       "vraag": "Wat is het meervoud van 'woman'? Eén Engels woord.",
+       "antwoord": "women",
+       "uitleg": "Women. De a wordt een e, net als bij man en men."
+      },
+      {
+       "vraag": "Wat is het meervoud van 'foot'? Eén Engels woord.",
+       "antwoord": "feet",
+       "uitleg": "Feet. De oo wordt ee, net als bij tooth en teeth."
+      },
+      {
+       "vraag": "Wat is het meervoud van 'tooth'? Eén Engels woord.",
+       "antwoord": "teeth",
+       "uitleg": "Teeth. De oo wordt ee, net als bij foot en feet."
+      }
+     ]
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het meervoud van 'knife' is 'knifes'.",
+     "antwoord": false,
+     "uitleg": "Het is knives. Bij veel woorden op -f of -fe wordt dat -ves: leaf/leaves, wife/wives, life/lives."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Vul aan: 'I saw ___ elephant at the zoo.' Welk lidwoord hoort hier?",
+     "opties": [
+      "an",
+      "a",
+      "the",
+      "geen lidwoord"
+     ],
+     "antwoord": 0,
+     "uitleg": "Voor een klinkerklank komt 'an': an elephant, an hour, an apple. Voor een medeklinkerklank 'a': a book, a university.",
+     "varianten": [
+      {
+       "vraag": "Vul aan: 'She ate ___ apple.' Welk lidwoord hoort hier?",
+       "opties": [
+        "an",
+        "a",
+        "the",
+        "geen lidwoord"
+       ],
+       "antwoord": 0,
+       "uitleg": "Apple begint met een klinkerklank, dus an."
+      },
+      {
+       "vraag": "Vul aan: 'He bought ___ umbrella.' Welk lidwoord hoort hier?",
+       "opties": [
+        "an",
+        "a",
+        "the",
+        "geen lidwoord"
+       ],
+       "antwoord": 0,
+       "uitleg": "Umbrella begint met een klinkerklank, dus an."
+      },
+      {
+       "vraag": "Vul aan: 'We waited ___ hour.' Welk lidwoord hoort hier?",
+       "opties": [
+        "an",
+        "a",
+        "the",
+        "geen lidwoord"
+       ],
+       "antwoord": 0,
+       "uitleg": "De h van hour hoor je niet, dus begint het woord met een klinkerklank: an hour."
+      }
+     ]
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je zegt 'an university', want het woord begint met een u.",
+     "antwoord": false,
+     "uitleg": "Het gaat om de klánk, niet om de letter. University begint met een joe-klank, dus: a university. Maar wel: an hour, want de h zwijgt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk lidwoord is het bepaalde lidwoord (definite article) in het Engels?",
+     "opties": [
+      "the",
+      "a",
+      "an",
+      "some"
+     ],
+     "antwoord": 0,
+     "uitleg": "The is bepaald: je weet over welk ding het gaat. A en an zijn onbepaald (indefinite): het maakt niet uit welke."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Vul aan: 'She is ___ teacher.' Welk lidwoord hoort hier?",
+     "opties": [
+      "a",
+      "an",
+      "the",
+      "geen lidwoord"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij een beroep staat in het Engels altijd een lidwoord: she is a teacher, he is an engineer. In het Nederlands laten we dat weg.",
+     "varianten": [
+      {
+       "vraag": "Vul aan: 'He is ___ doctor.' Welk lidwoord hoort hier?",
+       "opties": [
+        "a",
+        "an",
+        "the",
+        "geen lidwoord"
+       ],
+       "antwoord": 0,
+       "uitleg": "Doctor begint met een medeklinkerklank, dus a."
+      },
+      {
+       "vraag": "Vul aan: 'My brother is ___ engineer.' Welk lidwoord hoort hier?",
+       "opties": [
+        "an",
+        "a",
+        "the",
+        "geen lidwoord"
+       ],
+       "antwoord": 0,
+       "uitleg": "Engineer begint met een klinkerklank, dus an."
+      },
+      {
+       "vraag": "Vul aan: 'She wants to be ___ nurse.' Welk lidwoord hoort hier?",
+       "opties": [
+        "a",
+        "an",
+        "the",
+        "geen lidwoord"
+       ],
+       "antwoord": 0,
+       "uitleg": "Nurse begint met een medeklinkerklank, dus a."
+      }
+     ]
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je wijst naar iets dat ver van je af ligt, en het zijn er meerdere. Welk aanwijzend woord gebruik je?",
+     "opties": [
+      "those",
+      "these",
+      "this",
+      "that"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dichtbij: this (enkelvoud) en these (meervoud). Veraf: that en those. Dat zijn de demonstratives.",
+     "varianten": [
+      {
+       "vraag": "Je wijst naar iets dat vlak bij je ligt, en het zijn er meerdere. Welk aanwijzend woord gebruik je?",
+       "opties": [
+        "these",
+        "those",
+        "this",
+        "that"
+       ],
+       "antwoord": 0,
+       "uitleg": "Dichtbij en meervoud: these. Ver weg en meervoud zou those zijn."
+      },
+      {
+       "vraag": "Je wijst naar iets dat ver van je af ligt, en het is er één. Welk aanwijzend woord gebruik je?",
+       "opties": [
+        "that",
+        "this",
+        "these",
+        "those"
+       ],
+       "antwoord": 0,
+       "uitleg": "Ver weg en enkelvoud: that. Dichtbij en enkelvoud zou this zijn."
+      },
+      {
+       "vraag": "Je wijst naar iets dat vlak bij je ligt, en het is er één. Welk aanwijzend woord gebruik je?",
+       "opties": [
+        "this",
+        "that",
+        "these",
+        "those"
+       ],
+       "antwoord": 0,
+       "uitleg": "Dichtbij en enkelvoud: this."
+      }
+     ]
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: '___ book here is mine.' Welk aanwijzend woord past bij één boek dat vlak bij je ligt?",
+     "antwoord": "this",
+     "uitleg": "This book = dit boek, dichtbij en enkelvoud. Meerdere boeken dichtbij: these books.",
+     "varianten": [
+      {
+       "vraag": "Vul aan: '___ books here are mine.' Welk aanwijzend woord past bij meerdere boeken die vlak bij je liggen?",
+       "antwoord": "these",
+       "uitleg": "These books here: dichtbij en meervoud."
+      },
+      {
+       "vraag": "Vul aan: '___ house over there is new.' Welk aanwijzend woord past bij één huis dat ver weg staat?",
+       "antwoord": "that",
+       "uitleg": "That house over there: ver weg en enkelvoud."
+      },
+      {
+       "vraag": "Vul aan: '___ houses over there are new.' Welk aanwijzend woord past bij meerdere huizen die ver weg staan?",
+       "antwoord": "those",
+       "uitleg": "Those houses over there: ver weg en meervoud."
+      }
+     ]
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden zijn bezittelijke determiners (possessive adjectives)?",
+     "opties": [
+      "my",
+      "her",
+      "their",
+      "mine",
+      "our"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "My, your, his, her, its, our en their staan vóór een naamwoord: my book. Mine staat alleen: that book is mine.",
+     "varianten": [
+      {
+       "opties": [
+        "your",
+        "our",
+        "his",
+        "yours",
+        "my"
+       ],
+       "antwoord": [
+        0,
+        1,
+        2,
+        4
+       ],
+       "uitleg": "Yours staat alleen; de andere staan altijd vóór een naamwoord."
+      },
+      {
+       "opties": [
+        "its",
+        "my",
+        "our",
+        "ours"
+       ],
+       "antwoord": [
+        0,
+        1,
+        2
+       ],
+       "uitleg": "Ours staat alleen; de andere staan altijd vóór een naamwoord."
+      },
+      {
+       "opties": [
+        "her",
+        "their",
+        "hers",
+        "theirs"
+       ],
+       "antwoord": [
+        0,
+        1
+       ],
+       "uitleg": "Theirs en hers staan alleen; her en their staan altijd vóór een naamwoord."
+      }
+     ]
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Vul aan: 'This bag is ___.' Welk woord past hier, als de tas van mij is?",
+     "opties": [
+      "mine",
+      "my",
+      "me",
+      "I"
+     ],
+     "antwoord": 0,
+     "uitleg": "Na het werkwoord staat het bezittelijk vóórnaamwoord: mine, yours, his, hers, ours, theirs. 'My' heeft altijd een naamwoord nodig.",
+     "varianten": [
+      {
+       "vraag": "Vul aan: 'These shoes are ___.' Welk woord past hier, als de schoenen van jou zijn?",
+       "opties": [
+        "yours",
+        "your",
+        "you",
+        "yourself"
+       ],
+       "antwoord": 0,
+       "uitleg": "Zonder naamwoord erachter gebruik je yours: these shoes are yours."
+      },
+      {
+       "vraag": "Vul aan: 'That car is ___.' Welk woord past hier, als de auto van hen is?",
+       "opties": [
+        "theirs",
+        "their",
+        "them",
+        "they"
+       ],
+       "antwoord": 0,
+       "uitleg": "Zonder naamwoord erachter gebruik je theirs: that car is theirs."
+      },
+      {
+       "vraag": "Vul aan: 'This seat is ___.' Welk woord past hier, als de plaats van ons is?",
+       "opties": [
+        "ours",
+        "our",
+        "us",
+        "we"
+       ],
+       "antwoord": 0,
+       "uitleg": "Zonder naamwoord erachter gebruik je ours: this seat is ours."
+      }
+     ]
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'It's' met een apostrof betekent 'it is', en 'its' zonder apostrof betekent 'van het'.",
+     "antwoord": true,
+     "uitleg": "Zo is het, en het is een klassieke valstrik. The dog wagged its tail (van hem), maar It's raining (it is)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Vul aan: 'Tom helped ___ with the homework.' Welk voornaamwoord past hier, als hij mij hielp?",
+     "opties": [
+      "me",
+      "I",
+      "my",
+      "mine"
+     ],
+     "antwoord": 0,
+     "uitleg": "Na het werkwoord staat de objectvorm: me, you, him, her, it, us, them. Vóór het werkwoord staat de subjectvorm: I, you, he, she.",
+     "varianten": [
+      {
+       "vraag": "Vul aan: 'The teacher called ___.' Welk voornaamwoord past hier, als zij hem riep?",
+       "opties": [
+        "him",
+        "he",
+        "his",
+        "himself"
+       ],
+       "antwoord": 0,
+       "uitleg": "Achter het werkwoord staat de voorwerpsvorm: him."
+      },
+      {
+       "vraag": "Vul aan: 'I saw ___ at the station.' Welk voornaamwoord past hier, als ik haar zag?",
+       "opties": [
+        "her",
+        "she",
+        "hers",
+        "herself"
+       ],
+       "antwoord": 0,
+       "uitleg": "Achter het werkwoord staat de voorwerpsvorm: her."
+      },
+      {
+       "vraag": "Vul aan: 'They invited ___ to the party.' Welk voornaamwoord past hier, als ze ons uitnodigden?",
+       "opties": [
+        "us",
+        "we",
+        "our",
+        "ours"
+       ],
+       "antwoord": 0,
+       "uitleg": "Achter het werkwoord staat de voorwerpsvorm: us."
+      }
+     ]
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In het Engels staat het persoonlijk voornaamwoord als lijdend voorwerp áchter het werkwoord: 'I saw him', niet 'I him saw'.",
+     "antwoord": true,
+     "uitleg": "Dat is de plaats van het persoonlijk voornaamwoord. In het Nederlands kan die plaats schuiven, in het Engels veel minder."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Vul aan: '___ is your favourite subject?' Welk vragend woord past hier?",
+     "opties": [
+      "What",
+      "Who",
+      "Where",
+      "When"
+     ],
+     "antwoord": 0,
+     "uitleg": "What = wat, who = wie, where = waar, when = wanneer. Dat zijn de interrogative pronouns.",
+     "varianten": [
+      {
+       "vraag": "Vul aan: '___ is your teacher?' Welk vragend woord vraagt naar een persoon?",
+       "opties": [
+        "Who",
+        "What",
+        "Where",
+        "When"
+       ],
+       "antwoord": 0,
+       "uitleg": "Who vraagt naar een persoon."
+      },
+      {
+       "vraag": "Vul aan: '___ do you live?' Welk vragend woord vraagt naar een plaats?",
+       "opties": [
+        "Where",
+        "What",
+        "Who",
+        "When"
+       ],
+       "antwoord": 0,
+       "uitleg": "Where vraagt naar een plaats."
+      },
+      {
+       "vraag": "Vul aan: '___ does the film start?' Welk vragend woord vraagt naar een tijdstip?",
+       "opties": [
+        "When",
+        "What",
+        "Who",
+        "Where"
+       ],
+       "antwoord": 0,
+       "uitleg": "When vraagt naar een tijdstip."
+      }
+     ]
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: '___ bag is this?' Welk vragend woord vraagt naar de eigenaar?",
+     "antwoord": "whose",
+     "uitleg": "Whose = van wie. Verwar het niet met who's, dat 'who is' betekent."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'Which film do you prefer?' Waarnaar vraagt 'which'?",
+     "opties": [
+      "een keuze uit een beperkte groep",
+      "de reden van iets",
+      "de plaats van iets",
+      "het tijdstip van iets"
+     ],
+     "antwoord": 0,
+     "uitleg": "Which gebruik je als er een beperkte keuze is: which colour, red or blue? What is opener: what films do you like?"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'She lives in Belgium and goes to school by bus.' Welke voorzetsels staan er?",
+     "opties": [
+      "in en by",
+      "on en at",
+      "to en from",
+      "of en for"
+     ],
+     "antwoord": 0,
+     "uitleg": "In Belgium, by bus: dat zijn vaste combinaties met frequente prepositions."
+    }
+   ]
+  },
+  {
+   "titel": "Grammatica: werkwoorden, tijden en zinsbouw — deel 1",
+   "niveau": "spark",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Vul aan: 'She ___ to school every day.' Welke vorm hoort hier?",
+     "opties": [
+      "goes",
+      "go",
+      "going",
+      "went"
+     ],
+     "antwoord": 0,
+     "uitleg": "Present simple voor een gewoonte. Bij he, she en it komt er een -s bij: she goes, he plays, it works.",
+     "varianten": [
+      {
+       "vraag": "Vul aan: 'He ___ tennis on Saturday.' Welke vorm van 'to play' hoort hier?",
+       "opties": [
+        "plays",
+        "play",
+        "playing",
+        "played"
+       ],
+       "antwoord": 0,
+       "uitleg": "Bij he komt er een -s bij: he plays."
+      },
+      {
+       "vraag": "Vul aan: 'My father ___ in a bank.' Welke vorm van 'to work' hoort hier?",
+       "opties": [
+        "works",
+        "work",
+        "working",
+        "worked"
+       ],
+       "antwoord": 0,
+       "uitleg": "My father is hetzelfde als he, dus works."
+      },
+      {
+       "vraag": "Vul aan: 'The shop ___ at six.' Welke vorm van 'to close' hoort hier?",
+       "opties": [
+        "closes",
+        "close",
+        "closing",
+        "closed"
+       ],
+       "antwoord": 0,
+       "uitleg": "The shop is hetzelfde als it, dus closes."
+      }
+     ]
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de present simple krijgt het werkwoord een -s bij he, she en it.",
+     "antwoord": true,
+     "uitleg": "I work, you work, he works. Dat heet de overeenkomst tussen onderwerp en persoonsvorm, of agreement."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Vul aan: 'Look, it ___ outside!' Welke vorm hoort hier, als het nu aan het regenen is?",
+     "opties": [
+      "is raining",
+      "rains",
+      "rained",
+      "will rain"
+     ],
+     "antwoord": 0,
+     "uitleg": "Present continuous voor wat nu bezig is: to be + werkwoord op -ing. Present simple is voor gewoontes: it often rains here.",
+     "varianten": [
+      {
+       "vraag": "Vul aan: 'Listen, they ___ a song!' Welke vorm hoort hier, als ze nu aan het zingen zijn?",
+       "opties": [
+        "are singing",
+        "sing",
+        "sang",
+        "will sing"
+       ],
+       "antwoord": 0,
+       "uitleg": "Wat nu bezig is, zet je in de present continuous: to be plus -ing."
+      },
+      {
+       "vraag": "Vul aan: 'Be quiet, the baby ___!' Welke vorm hoort hier, als de baby nu slaapt?",
+       "opties": [
+        "is sleeping",
+        "sleeps",
+        "slept",
+        "will sleep"
+       ],
+       "antwoord": 0,
+       "uitleg": "Wat nu bezig is, zet je in de present continuous: to be plus -ing."
+      },
+      {
+       "vraag": "Vul aan: 'Look, she ___ her bike!' Welke vorm hoort hier, als ze nu aan het fietsen is?",
+       "opties": [
+        "is riding",
+        "rides",
+        "rode",
+        "will ride"
+       ],
+       "antwoord": 0,
+       "uitleg": "Wat nu bezig is, zet je in de present continuous: to be plus -ing."
+      }
+     ]
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke signaalwoorden horen bij de past simple?",
+     "opties": [
+      "yesterday",
+      "last week",
+      "two years ago",
+      "every day"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Ago, yesterday en last week wijzen op de past simple. 'Every day' wijst net op de present simple.",
+     "varianten": [
+      {
+       "opties": [
+        "last night",
+        "in 2019",
+        "a month ago",
+        "always",
+        "when I was six"
+       ],
+       "antwoord": [
+        0,
+        1,
+        2,
+        4
+       ],
+       "uitleg": "Always wijst op een gewoonte, en die hoort bij de present simple."
+      },
+      {
+       "opties": [
+        "last summer",
+        "three days ago",
+        "when I was six",
+        "usually"
+       ],
+       "antwoord": [
+        0,
+        1,
+        2
+       ],
+       "uitleg": "Usually wijst op een gewoonte, en die hoort bij de present simple."
+      },
+      {
+       "opties": [
+        "yesterday morning",
+        "last Friday",
+        "every Friday",
+        "often"
+       ],
+       "antwoord": [
+        0,
+        1
+       ],
+       "uitleg": "Often en every Friday wijzen op een gewoonte, en die hoort bij de present simple."
+      }
+     ]
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: 'We ___ football yesterday.' Wat is de past simple van 'to play'?",
+     "antwoord": "played",
+     "uitleg": "Regelmatige werkwoorden krijgen -ed: played, worked, watched. Na een -e komt alleen -d: liked.",
+     "varianten": [
+      {
+       "vraag": "Vul aan: 'She ___ the door.' Wat is de past simple van 'to open'?",
+       "antwoord": "opened",
+       "uitleg": "Een regelmatig werkwoord krijgt -ed: opened."
+      },
+      {
+       "vraag": "Vul aan: 'They ___ to the radio.' Wat is de past simple van 'to listen'?",
+       "antwoord": "listened",
+       "uitleg": "Een regelmatig werkwoord krijgt -ed: listened."
+      },
+      {
+       "vraag": "Vul aan: 'He ___ his homework.' Wat is de past simple van 'to finish'?",
+       "antwoord": "finished",
+       "uitleg": "Een regelmatig werkwoord krijgt -ed: finished."
+      }
+     ]
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de past simple van 'to go'?",
+     "opties": [
+      "went",
+      "goed",
+      "gone",
+      "goes"
+     ],
+     "antwoord": 0,
+     "uitleg": "To go is onregelmatig: go – went – gone. 'Gone' is het voltooid deelwoord, niet de verleden tijd.",
+     "varianten": [
+      {
+       "vraag": "Wat is de past simple van 'to eat'?",
+       "opties": [
+        "ate",
+        "eated",
+        "eaten",
+        "eats"
+       ],
+       "antwoord": 0,
+       "uitleg": "Ate. Eaten is het voltooid deelwoord, dat gebruik je met have."
+      },
+      {
+       "vraag": "Wat is de past simple van 'to write'?",
+       "opties": [
+        "wrote",
+        "writed",
+        "written",
+        "writes"
+       ],
+       "antwoord": 0,
+       "uitleg": "Wrote. Written is het voltooid deelwoord."
+      },
+      {
+       "vraag": "Wat is de past simple van 'to drink'?",
+       "opties": [
+        "drank",
+        "drinked",
+        "drunk",
+        "drinks"
+       ],
+       "antwoord": 0,
+       "uitleg": "Drank. Drunk is het voltooid deelwoord."
+      }
+     ]
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke werkwoorden zijn onregelmatig in de past simple?",
+     "opties": [
+      "to see",
+      "to take",
+      "to buy",
+      "to open",
+      "to bring"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "See wordt saw, take wordt took, buy wordt bought en bring wordt brought. Open volgt gewoon de regel: opened.",
+     "varianten": [
+      {
+       "opties": [
+        "to go",
+        "to eat",
+        "to write",
+        "to play",
+        "to buy"
+       ],
+       "antwoord": [
+        0,
+        1,
+        2,
+        4
+       ],
+       "uitleg": "To play krijgt gewoon -ed: played. De andere veranderen van vorm."
+      },
+      {
+       "opties": [
+        "to drink",
+        "to come",
+        "to give",
+        "to work"
+       ],
+       "antwoord": [
+        0,
+        1,
+        2
+       ],
+       "uitleg": "To work krijgt gewoon -ed: worked."
+      },
+      {
+       "opties": [
+        "to find",
+        "to leave",
+        "to watch",
+        "to listen"
+       ],
+       "antwoord": [
+        0,
+        1
+       ],
+       "uitleg": "To listen en to watch krijgen gewoon -ed: listened, watched."
+      }
+     ]
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Wat is de past simple van 'to buy'? Eén Engels woord.",
+     "antwoord": "bought",
+     "uitleg": "Buy – bought – bought. Let op de spelling met -ough-, net als in brought en thought.",
+     "varianten": [
+      {
+       "vraag": "Wat is de past simple van 'to bring'? Eén Engels woord.",
+       "antwoord": "brought",
+       "uitleg": "Brought, met dezelfde -ought als bought en thought."
+      },
+      {
+       "vraag": "Wat is de past simple van 'to think'? Eén Engels woord.",
+       "antwoord": "thought",
+       "uitleg": "Thought, met dezelfde -ought als bought en brought."
+      },
+      {
+       "vraag": "Wat is de past simple van 'to catch'? Eén Engels woord.",
+       "antwoord": "caught",
+       "uitleg": "Caught, met -aught, net als taught van to teach."
+      }
+     ]
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'I have went to London' is een correcte Engelse zin.",
+     "antwoord": false,
+     "uitleg": "Na 'have' komt het voltooid deelwoord: I have gone to London. 'Went' is de verleden tijd en staat alleen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Vul aan: 'Tomorrow I ___ help you.' Welke vorm hoort hier?",
+     "opties": [
+      "will",
+      "am",
+      "did",
+      "would"
+     ],
+     "antwoord": 0,
+     "uitleg": "De future simple maak je met will + werkwoord: I will help. Dat geldt voor elk onderwerp, ook voor he en she.",
+     "varianten": [
+      {
+       "vraag": "Vul aan: 'Next week she ___ visit us.' Welke vorm hoort hier?",
+       "opties": [
+        "will",
+        "is",
+        "did",
+        "would"
+       ],
+       "antwoord": 0,
+       "uitleg": "Will plus het werkwoord is de toekomende tijd, voor elke persoon hetzelfde."
+      },
+      {
+       "vraag": "Vul aan: 'They ___ arrive tonight.' Welke vorm hoort hier voor de toekomst?",
+       "opties": [
+        "will",
+        "are",
+        "did",
+        "would"
+       ],
+       "antwoord": 0,
+       "uitleg": "Will plus het werkwoord is de toekomende tijd."
+      },
+      {
+       "vraag": "Vul aan: 'We ___ know the answer soon.' Welke vorm hoort hier?",
+       "opties": [
+        "will",
+        "are",
+        "did",
+        "would"
+       ],
+       "antwoord": 0,
+       "uitleg": "Will plus het werkwoord is de toekomende tijd."
+      }
+     ]
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'Close the door, please.' Welke zinssoort is dat?",
+     "opties": [
+      "een bevelende zin",
+      "een vragende zin",
+      "een mededelende zin",
+      "een uitroepende zin"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een imperative sentence: het werkwoord staat vooraan en er staat geen onderwerp bij. Met 'please' erbij klinkt ze beleefd."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'What a beautiful day!' Welke zinssoort is dat?",
+     "opties": [
+      "een uitroepende zin",
+      "een vragende zin",
+      "een bevelende zin",
+      "een ontkennende zin"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een exclamative sentence eindigt op een uitroepteken. Ze begint vaak met What a... of How..."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zinnen zijn ontkennend (negative)?",
+     "opties": [
+      "I don't like fish.",
+      "She has not finished.",
+      "We never go there.",
+      "They are happy."
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "Not en never maken de zin ontkennend. They are happy is bevestigend (affirmative).",
+     "varianten": [
+      {
+       "opties": [
+        "He doesn't play tennis.",
+        "We have not eaten.",
+        "She never calls.",
+        "I am tired.",
+        "She has no money."
+       ],
+       "antwoord": [
+        0,
+        1,
+        2,
+        4
+       ],
+       "uitleg": "'I am tired' ontkent niets; de andere zinnen wel."
+      },
+      {
+       "opties": [
+        "They don't understand.",
+        "It has not rained.",
+        "He never smiles.",
+        "You are right."
+       ],
+       "antwoord": [
+        0,
+        1,
+        2
+       ],
+       "uitleg": "De laatste zin ontkent niets."
+      },
+      {
+       "opties": [
+        "She doesn't drive.",
+        "We were not there.",
+        "She drives to work.",
+        "He is kind."
+       ],
+       "antwoord": [
+        0,
+        1
+       ],
+       "uitleg": "'He is kind' en 'she drives to work' ontkennen niets."
+      }
+     ]
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Maak deze zin ontkennend: 'He likes tea.' Vul aan: 'He ___ like tea.' Eén woord, samengetrokken.",
+     "antwoord": "doesn't",
+     "uitleg": "He doesn't like tea. Let op: de -s verhuist naar 'does', dus niet 'doesn't likes'.",
+     "varianten": [
+      {
+       "vraag": "Maak deze zin ontkennend: 'They like coffee.' Vul aan: 'They ___ like coffee.' Eén woord, samengetrokken.",
+       "antwoord": "don't",
+       "uitleg": "Bij they hoort don't, en het werkwoord blijft zonder -s."
+      },
+      {
+       "vraag": "Maak deze zin ontkennend: 'She works here.' Vul aan: 'She ___ work here.' Eén woord, samengetrokken.",
+       "antwoord": "doesn't",
+       "uitleg": "Bij she hoort doesn't, en de -s van works valt weg."
+      },
+      {
+       "vraag": "Maak deze zin ontkennend: 'We know him.' Vul aan: 'We ___ know him.' Eén woord, samengetrokken.",
+       "antwoord": "don't",
+       "uitleg": "Bij we hoort don't."
+      }
+     ]
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In een ontkennende zin met 'doesn't' krijgt het werkwoord erna geen -s meer.",
+     "antwoord": true,
+     "uitleg": "She doesn't play, niet 'she doesn't plays'. De persoonsvorm draagt de -s, en dat is hier 'does'."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Vul aan: '___ you like coffee?' Welk hulpwerkwoord hoort vooraan in deze vraag?",
+     "opties": [
+      "Do",
+      "Are",
+      "Have",
+      "Does"
+     ],
+     "antwoord": 0,
+     "uitleg": "In de present simple maak je een vraag met do of does: Do you like...? Does he like...?",
+     "varianten": [
+      {
+       "vraag": "Vul aan: '___ they live here?' Welk hulpwerkwoord hoort vooraan in deze vraag?",
+       "opties": [
+        "Do",
+        "Are",
+        "Have",
+        "Does"
+       ],
+       "antwoord": 0,
+       "uitleg": "Bij they hoort do."
+      },
+      {
+       "vraag": "Vul aan: '___ we start now?' Welk hulpwerkwoord hoort vooraan in deze vraag?",
+       "opties": [
+        "Do",
+        "Are",
+        "Have",
+        "Does"
+       ],
+       "antwoord": 0,
+       "uitleg": "Bij we hoort do."
+      },
+      {
+       "vraag": "Vul aan: '___ I need a ticket?' Welk hulpwerkwoord hoort vooraan in deze vraag?",
+       "opties": [
+        "Do",
+        "Are",
+        "Have",
+        "Does"
+       ],
+       "antwoord": 0,
+       "uitleg": "Bij I hoort do."
+      }
+     ]
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Vul aan: '___ she live in Ghent?' Welk hulpwerkwoord hoort hier?",
+     "opties": [
+      "Does",
+      "Do",
+      "Is",
+      "Has"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij he, she en it gebruik je does. En dan valt de -s bij het werkwoord weg: Does she live, niet 'does she lives'.",
+     "varianten": [
+      {
+       "vraag": "Vul aan: '___ he speak Dutch?' Welk hulpwerkwoord hoort hier?",
+       "opties": [
+        "Does",
+        "Do",
+        "Is",
+        "Has"
+       ],
+       "antwoord": 0,
+       "uitleg": "Bij he hoort does, en daarna het werkwoord zonder -s."
+      },
+      {
+       "vraag": "Vul aan: '___ your sister play the piano?' Welk hulpwerkwoord hoort hier?",
+       "opties": [
+        "Does",
+        "Do",
+        "Is",
+        "Has"
+       ],
+       "antwoord": 0,
+       "uitleg": "Your sister is hetzelfde als she, dus does."
+      },
+      {
+       "vraag": "Vul aan: '___ it work?' Welk hulpwerkwoord hoort hier?",
+       "opties": [
+        "Does",
+        "Do",
+        "Is",
+        "Has"
+       ],
+       "antwoord": 0,
+       "uitleg": "Bij it hoort does."
+      }
+     ]
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een vragende zin heet in het Engels een imperative sentence.",
+     "antwoord": false,
+     "uitleg": "Een vragende zin is een interrogative sentence; een imperative sentence is bevelend. De vier soorten: declarative (mededelend), interrogative (vragend), imperative (bevelend), exclamative (uitroepend)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'My sister lives in Antwerp.' Wat is het onderwerp (subject)?",
+     "opties": [
+      "my sister",
+      "lives",
+      "in Antwerp",
+      "Antwerp"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het onderwerp is wie of wat het werkwoord doet. Vraag: wie woont er in Antwerpen? My sister."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In de zin 'The children played outside' staat één persoonsvorm. Welk woord is dat?",
+     "antwoord": "played",
+     "uitleg": "De persoonsvorm (finite verb) is het werkwoord dat verandert met de tijd en het onderwerp. Hier: played."
+    }
+   ]
+  },
+  {
+   "titel": "Grammatica: werkwoorden, tijden en zinsbouw — deel 2",
+   "niveau": "spark",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Vul aan: 'They ___ watching a film right now.' Welke vorm hoort hier?",
+     "opties": [
+      "are",
+      "is",
+      "am",
+      "be"
+     ],
+     "antwoord": 0,
+     "uitleg": "De present continuous is to be + -ing. Bij they hoort 'are': they are watching.",
+     "varianten": [
+      {
+       "vraag": "Vul aan: 'She ___ reading a book right now.' Welke vorm hoort hier?",
+       "opties": [
+        "is",
+        "are",
+        "am",
+        "be"
+       ],
+       "antwoord": 0,
+       "uitleg": "Bij she hoort is: she is reading."
+      },
+      {
+       "vraag": "Vul aan: 'I ___ waiting for the bus.' Welke vorm hoort hier?",
+       "opties": [
+        "am",
+        "is",
+        "are",
+        "be"
+       ],
+       "antwoord": 0,
+       "uitleg": "Bij I hoort am: I am waiting."
+      },
+      {
+       "vraag": "Vul aan: 'The children ___ playing outside.' Welke vorm hoort hier?",
+       "opties": [
+        "are",
+        "is",
+        "am",
+        "be"
+       ],
+       "antwoord": 0,
+       "uitleg": "The children is meervoud, dus are: they are playing."
+      }
+     ]
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verschil tussen 'I read every evening' en 'I am reading now'?",
+     "opties": [
+      "de eerste is een gewoonte, de tweede is nu bezig",
+      "de eerste is verleden tijd, de tweede toekomst",
+      "de eerste is een vraag, de tweede een bevel",
+      "er is geen verschil tussen die twee"
+     ],
+     "antwoord": 0,
+     "uitleg": "Present simple voor wat altijd of vaak gebeurt, present continuous voor wat op dit moment bezig is."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: 'She ___ (to write) a letter at the moment.' Geef de twee woorden van de present continuous.",
+     "antwoord": "is writing",
+     "uitleg": "At the moment wijst op de present continuous: is writing. Let op de spelling: de -e van write valt weg voor -ing.",
+     "varianten": [
+      {
+       "vraag": "Vul aan: 'They ___ (to play) in the garden at the moment.' Geef de twee woorden van de present continuous.",
+       "antwoord": "are playing",
+       "uitleg": "They are playing: are plus het werkwoord met -ing."
+      },
+      {
+       "vraag": "Vul aan: 'I ___ (to read) a book at the moment.' Geef de twee woorden van de present continuous.",
+       "antwoord": "am reading",
+       "uitleg": "I am reading: am plus het werkwoord met -ing."
+      },
+      {
+       "vraag": "Vul aan: 'He ___ (to cook) dinner at the moment.' Geef de twee woorden van de present continuous.",
+       "antwoord": "is cooking",
+       "uitleg": "He is cooking: is plus het werkwoord met -ing."
+      }
+     ]
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Werkwoorden als 'to know' en 'to like' gebruik je normaal niet in de present continuous.",
+     "antwoord": true,
+     "uitleg": "Je zegt 'I know the answer', niet 'I am knowing'. Het gaat om werkwoorden van weten, vinden en voelen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de past simple van 'to be' bij 'they'?",
+     "opties": [
+      "were",
+      "was",
+      "been",
+      "are"
+     ],
+     "antwoord": 0,
+     "uitleg": "I was, you were, he was, we were, they were. To be is het onregelmatigste werkwoord van allemaal.",
+     "varianten": [
+      {
+       "vraag": "Wat is de past simple van 'to be' bij 'she'?",
+       "opties": [
+        "was",
+        "were",
+        "been",
+        "is"
+       ],
+       "antwoord": 0,
+       "uitleg": "She was. Were hoort bij we, you en they."
+      },
+      {
+       "vraag": "Wat is de past simple van 'to be' bij 'we'?",
+       "opties": [
+        "were",
+        "was",
+        "been",
+        "are"
+       ],
+       "antwoord": 0,
+       "uitleg": "We were. Was hoort bij I, he, she en it."
+      },
+      {
+       "vraag": "Wat is de past simple van 'to be' bij 'I'?",
+       "opties": [
+        "was",
+        "were",
+        "been",
+        "am"
+       ],
+       "antwoord": 0,
+       "uitleg": "I was. Been is het voltooid deelwoord."
+      }
+     ]
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Vul aan: 'Last summer we ___ to Spain.' Welke vorm hoort hier?",
+     "opties": [
+      "went",
+      "go",
+      "are going",
+      "will go"
+     ],
+     "antwoord": 0,
+     "uitleg": "'Last summer' is een signaalwoord voor de past simple: iets dat gebeurd en afgelopen is.",
+     "varianten": [
+      {
+       "vraag": "Vul aan: 'Last night he ___ a film.' Welke vorm hoort hier?",
+       "opties": [
+        "watched",
+        "watches",
+        "is watching",
+        "will watch"
+       ],
+       "antwoord": 0,
+       "uitleg": "Last night wijst op de verleden tijd, dus de past simple: watched."
+      },
+      {
+       "vraag": "Vul aan: 'Two years ago they ___ in Ghent.' Welke vorm hoort hier?",
+       "opties": [
+        "lived",
+        "live",
+        "are living",
+        "will live"
+       ],
+       "antwoord": 0,
+       "uitleg": "Two years ago wijst op de verleden tijd, dus de past simple: lived."
+      },
+      {
+       "vraag": "Vul aan: 'Yesterday she ___ her grandmother.' Welke vorm hoort hier?",
+       "opties": [
+        "visited",
+        "visits",
+        "is visiting",
+        "will visit"
+       ],
+       "antwoord": 0,
+       "uitleg": "Yesterday wijst op de verleden tijd, dus de past simple: visited."
+      }
+     ]
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Wat is de past simple van 'to see'? Eén Engels woord.",
+     "antwoord": "saw",
+     "uitleg": "See – saw – seen. Verwar 'saw' niet met 'seen', dat na have komt.",
+     "varianten": [
+      {
+       "vraag": "Wat is de past simple van 'to take'? Eén Engels woord.",
+       "antwoord": "took",
+       "uitleg": "Took. Taken is het voltooid deelwoord."
+      },
+      {
+       "vraag": "Wat is de past simple van 'to give'? Eén Engels woord.",
+       "antwoord": "gave",
+       "uitleg": "Gave. Given is het voltooid deelwoord."
+      },
+      {
+       "vraag": "Wat is de past simple van 'to come'? Eén Engels woord.",
+       "antwoord": "came",
+       "uitleg": "Came. Come blijft come als voltooid deelwoord."
+      }
+     ]
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zinnen staan in de toekomende tijd?",
+     "opties": [
+      "I will call you tonight.",
+      "We will see.",
+      "She will be fifteen in June.",
+      "He walked home."
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De future simple maak je met will. 'He walked home' staat in de past simple.",
+     "varianten": [
+      {
+       "opties": [
+        "I will write tomorrow.",
+        "We will try again.",
+        "He will be ten next month.",
+        "She danced all night.",
+        "They will come later."
+       ],
+       "antwoord": [
+        0,
+        1,
+        2,
+        4
+       ],
+       "uitleg": "'She danced all night' staat in de verleden tijd; de andere in de toekomende."
+      },
+      {
+       "opties": [
+        "They will arrive soon.",
+        "It will rain later.",
+        "You will like it.",
+        "We watched a film."
+       ],
+       "antwoord": [
+        0,
+        1,
+        2
+       ],
+       "uitleg": "De laatste zin staat in de verleden tijd."
+      },
+      {
+       "opties": [
+        "She will help you.",
+        "We knew it already.",
+        "He will turn twelve in May.",
+        "They played outside."
+       ],
+       "antwoord": [
+        0,
+        2
+       ],
+       "uitleg": "'They played outside' en 'we knew it already' staan in de verleden tijd."
+      }
+     ]
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je zegt 'he wills help' in de derde persoon.",
+     "antwoord": false,
+     "uitleg": "Will verandert nooit: I will, you will, he will. En erna komt het werkwoord zonder to: he will help."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'To swim is good for your back.' Welke vorm is 'to swim' hier?",
+     "opties": [
+      "de infinitief",
+      "de gebiedende wijs",
+      "de verleden tijd",
+      "de -ing-vorm"
+     ],
+     "antwoord": 0,
+     "uitleg": "De infinitive is de basisvorm met to ervoor: to swim, to be, to have. In een woordenboek staat het werkwoord altijd zo.",
+     "varianten": [
+      {
+       "vraag": "Je leest: 'To read every day helps a lot.' Welke vorm is 'to read' hier?",
+       "uitleg": "To plus het werkwoord uit het woordenboek: de infinitief."
+      },
+      {
+       "vraag": "Je leest: 'To learn a language takes time.' Welke vorm is 'to learn' hier?",
+       "uitleg": "To plus het werkwoord uit het woordenboek: de infinitief."
+      },
+      {
+       "vraag": "Je leest: 'To walk to school is healthy.' Welke vorm is 'to walk' hier?",
+       "uitleg": "To plus het werkwoord uit het woordenboek: de infinitief."
+      }
+     ]
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'I like reading, but my brother prefers football.' Wat voor zin is dit?",
+     "opties": [
+      "een samengestelde zin",
+      "een enkelvoudige zin",
+      "een vragende zin",
+      "een bevelende zin"
+     ],
+     "antwoord": 0,
+     "uitleg": "Er staan twee delen in met elk een eigen onderwerp en persoonsvorm, verbonden door 'but'. Dat maakt de zin samengesteld.",
+     "varianten": [
+      {
+       "vraag": "Je leest: 'She stayed home because she was ill.' Wat voor zin is dit?",
+       "uitleg": "Er staan twee persoonsvormen in: stayed en was. Dus twee zinnen in één."
+      },
+      {
+       "vraag": "Je leest: 'He called me and I answered.' Wat voor zin is dit?",
+       "uitleg": "Er staan twee persoonsvormen in: called en answered."
+      },
+      {
+       "vraag": "Je leest: 'We waited, but nobody came.' Wat voor zin is dit?",
+       "uitleg": "Er staan twee persoonsvormen in: waited en came."
+      }
+     ]
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een samengestelde zin heeft maar één persoonsvorm, net zoals een enkelvoudige zin.",
+     "antwoord": false,
+     "uitleg": "Een samengestelde zin heeft er twee of meer: 'The dog barked because it was afraid'. Een enkelvoudige zin heeft er één: 'The dog barked'."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke voegwoorden verbinden twee delen van een samengestelde zin?",
+     "opties": [
+      "and",
+      "but",
+      "quickly",
+      "very",
+      "really"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "And en but verbinden twee delen van een zin, net als so, when en because. Very, quickly en really versterken of beschrijven alleen.",
+     "varianten": [
+      {
+       "opties": [
+        "or",
+        "so",
+        "although",
+        "quickly",
+        "because"
+       ],
+       "antwoord": [
+        0,
+        1,
+        2,
+        4
+       ],
+       "uitleg": "Quickly is een bijwoord; het verbindt niets."
+      },
+      {
+       "opties": [
+        "when",
+        "while",
+        "and",
+        "really"
+       ],
+       "antwoord": [
+        0,
+        1,
+        2
+       ],
+       "uitleg": "Really is een bijwoord; het verbindt niets."
+      },
+      {
+       "opties": [
+        "if",
+        "but",
+        "very",
+        "almost"
+       ],
+       "antwoord": [
+        0,
+        1
+       ],
+       "uitleg": "Almost en very zijn bijwoorden; ze verbinden niets."
+      }
+     ]
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan: 'I was tired, ___ I went to bed early.' Welk kort voegwoord geeft hier het gevolg?",
+     "antwoord": "so",
+     "uitleg": "So = dus. Wil je de reden vooraan zetten, dan gebruik je because: Because I was tired, I went to bed early.",
+     "varianten": [
+      {
+       "vraag": "Vul aan: 'It was raining, ___ we stayed inside.' Welk kort voegwoord geeft hier het gevolg?",
+       "antwoord": "so",
+       "uitleg": "So betekent dus: het regende, dus bleven we binnen."
+      },
+      {
+       "vraag": "Vul aan: 'She missed the bus, ___ she walked.' Welk kort voegwoord geeft hier het gevolg?",
+       "antwoord": "so",
+       "uitleg": "So betekent dus: ze miste de bus, dus ging ze te voet."
+      },
+      {
+       "vraag": "Vul aan: 'The shop was closed, ___ we came back later.' Welk kort voegwoord geeft hier het gevolg?",
+       "antwoord": "so",
+       "uitleg": "So betekent dus: de winkel was dicht, dus kwamen we later terug."
+      }
+     ]
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'Don't forget your keys!' Welke twee dingen kloppen over deze zin?",
+     "opties": [
+      "ze is bevelend",
+      "ze is ontkennend",
+      "ze staat in de verleden tijd",
+      "ze heeft een onderwerp"
+     ],
+     "antwoord": [
+      0,
+      1
+     ],
+     "uitleg": "Een bevelende zin met 'don't' is ontkennend én bevelend. Een onderwerp staat er niet bij, en dat is juist het kenmerk van de imperative. Van een verleden tijd is er geen sprake."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest: 'The books on the table are mine.' Waarom staat er 'are' en niet 'is'?",
+     "opties": [
+      "het onderwerp 'the books' is meervoud",
+      "omdat er 'on the table' bij staat",
+      "omdat 'mine' meervoud is",
+      "omdat de zin lang is"
+     ],
+     "antwoord": 0,
+     "uitleg": "De persoonsvorm volgt het onderwerp, niet het woord dat er vlak voor staat. The books are, the book is.",
+     "varianten": [
+      {
+       "vraag": "Je leest: 'The boxes in the hall are heavy.' Waarom staat er 'are' en niet 'is'?",
+       "opties": [
+        "het onderwerp 'the boxes' is meervoud",
+        "omdat er 'in the hall' bij staat",
+        "omdat 'heavy' meervoud is",
+        "omdat de zin lang is"
+       ],
+       "antwoord": 0,
+       "uitleg": "Het onderwerp is the boxes, niet the hall. Meervoud, dus are."
+      },
+      {
+       "vraag": "Je leest: 'The children in the garden are noisy.' Waarom staat er 'are' en niet 'is'?",
+       "opties": [
+        "het onderwerp 'the children' is meervoud",
+        "omdat er 'in the garden' bij staat",
+        "omdat 'noisy' meervoud is",
+        "omdat de zin lang is"
+       ],
+       "antwoord": 0,
+       "uitleg": "Het onderwerp is the children, niet the garden. Meervoud, dus are."
+      },
+      {
+       "vraag": "Je leest: 'The keys under the mat are gone.' Waarom staat er 'are' en niet 'is'?",
+       "opties": [
+        "het onderwerp 'the keys' is meervoud",
+        "omdat er 'under the mat' bij staat",
+        "omdat 'gone' meervoud is",
+        "omdat de zin lang is"
+       ],
+       "antwoord": 0,
+       "uitleg": "Het onderwerp is the keys, niet the mat. Meervoud, dus are."
+      }
+     ]
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'My sister and I are going' is correct Engels.",
+     "antwoord": true,
+     "uitleg": "Twee personen samen zijn meervoud, dus 'are'. En het onderwerp staat in de subjectvorm: my sister and I, niet 'and me'."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke spelling is juist?",
+     "opties": [
+      "because",
+      "becouse",
+      "becasue",
+      "bicause"
+     ],
+     "antwoord": 0,
+     "uitleg": "Because, met -cau-. Het is een vaak gebruikt woord dat je correct moet kunnen spellen.",
+     "varianten": [
+      {
+       "opties": [
+        "friend",
+        "freind",
+        "frend",
+        "friennd"
+       ],
+       "antwoord": 0,
+       "uitleg": "Friend: eerst de i, dan de e."
+      },
+      {
+       "opties": [
+        "beautiful",
+        "beatiful",
+        "beautifull",
+        "beutiful"
+       ],
+       "antwoord": 0,
+       "uitleg": "Beautiful: beau- vooraan, en maar één l."
+      },
+      {
+       "opties": [
+        "different",
+        "diffrent",
+        "diferent",
+        "differant"
+       ],
+       "antwoord": 0,
+       "uitleg": "Different: dubbele f en -ent op het einde."
+      }
+     ]
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe schrijf je het Engelse woord voor 'omdat' correct? Eén woord.",
+     "antwoord": "because",
+     "uitleg": "Because. Een ezelsbruggetje: Big Elephants Can Always Understand Small Elephants."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft over je vakantie van vorig jaar. Welke tijd gebruik je voor wat je toen deed?",
+     "opties": [
+      "de past simple",
+      "de present continuous",
+      "de future simple",
+      "de infinitief"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wat gebeurd en afgelopen is, staat in de past simple: we travelled, I saw, we stayed. Let op de signaalwoorden last year en ago."
+    }
+   ]
+  }
+ ]
+}

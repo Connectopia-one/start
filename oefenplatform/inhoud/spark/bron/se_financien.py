@@ -165,7 +165,7 @@ DEEL1 = [
             "Het geleende bedrag",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="De fiche noemt zeven onderdelen: het geleende bedrag, de looptijd, de rentevoet, de totale rente, de totale terugbetaling, het maandelijks afbetalingsbedrag en de nog openstaande schuld.",
+        uitleg="Er zijn zeven onderdelen: het geleende bedrag, de looptijd, de rentevoet, de totale rente, de totale terugbetaling, het maandelijks afbetalingsbedrag en de nog openstaande schuld.",
     ),
     dict(
         type="meerkeuze",
@@ -235,7 +235,7 @@ DEEL2 = [
             "De markt",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="De fiche noemt zes verkoopkanalen: evenementen, de fysieke winkel, de webshop, de markt, sociale media en teleshopping.",
+        uitleg="Er zijn zes verkoopkanalen: evenementen, de fysieke winkel, de webshop, de markt, sociale media en teleshopping.",
     ),
     dict(
         type="meerkeuze",
@@ -275,7 +275,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze zijn betaalmiddelen volgens de fiche?",
+        vraag="Welke van deze zijn betaalmiddelen?",
         opties=[
             "Cash geld",
             "De debetkaart",

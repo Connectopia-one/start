@@ -150,11 +150,11 @@ DEEL1 = [
         vraag="Je gaat in gesprek over een maatschappelijk thema, bijvoorbeeld het klimaat. Wat helpt je?",
         opties=["Vooraf een paar bronnen lezen en er cijfers uit onthouden", "Alleen zeggen wat je vrienden ervan vinden, zodat je niet alleen staat", "Zo snel mogelijk praten", "Alleen luisteren"],
         antwoord=0,
-        uitleg="De vakfiche vraagt uitdrukkelijk dat je bronnen gebruikt als je over zulke thema's spreekt.",
+        uitleg="Als je over zulke thema's spreekt, gebruik je bronnen.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke maatschappelijke thema's noemt de vakfiche als voorbeeld?",
+        vraag="Welke van deze zijn maatschappelijke thema's waar je zelf mee te maken hebt?",
         opties=[
             "gezondheid",
             "klimaat",
@@ -196,7 +196,7 @@ DEEL2 = [
             "Of er een foto bij staat",
         ],
         antwoord=0,
-        uitleg="Dat zijn de vier vragen uit de vakfiche. Een spellingcontrole helpt, maar vervangt het nalezen niet.",
+        uitleg="Dat zijn de vier vragen bij het nalezen. Een spellingcontrole helpt, maar vervangt het nalezen niet.",
     ),
     dict(
         type="meerkeuze",

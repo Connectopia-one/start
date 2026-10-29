@@ -256,5 +256,5 @@ DEEL2 = [
                  "Ze staan altijd in het meervoud.",
                  "Ze hoeven geen lidwoord."],
          antwoord=0,
-         uitleg="De fiche noemt dat een leesstrategie: leid de betekenis af uit de manier waarop een woord gevormd is."),
+         uitleg="Dat is een leesstrategie: leid de betekenis af uit de manier waarop een woord gevormd is."),
 ]

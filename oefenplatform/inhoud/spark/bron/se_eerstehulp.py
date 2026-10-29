@@ -38,7 +38,7 @@ DEEL1 = [
             "Verdere hulp verlenen, toestand beoordelen, veiligheid, hulp raadplegen",
         ],
         antwoord=0,
-        uitleg="Die volgorde staat zo in de vakfiche. Ze is logisch: eerst mag er niets meer gebeuren, dan weet je wat er aan de hand is, dan haal je hulp, dan help je zelf verder.",
+        uitleg="Die volgorde is logisch: eerst mag er niets meer gebeuren, dan weet je wat er aan de hand is, dan haal je hulp, dan help je zelf verder.",
     ),
     dict(
         type="meerkeuze",
@@ -406,7 +406,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Bij welke ongevallen uit de vakfiche moet je de symptomen kunnen herkennen?",
+        vraag="Welke van deze zijn ongevallen waarbij je eerste hulp geeft?",
         opties=[
             "Bloeding",
             "Verslikking",
@@ -415,7 +415,7 @@ DEEL2 = [
             "Wonden",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="De fiche noemt bloeding, verslikking, verstuiking en wonden, zowel huidwonden als brandwonden. Griep is een ziekte, geen ongeval.",
+        uitleg="Bloeding, verslikking, verstuiking en wonden zijn ongevallen, zowel huidwonden als brandwonden. Griep is een ziekte, geen ongeval.",
     ),
     dict(
         type="invultekst",

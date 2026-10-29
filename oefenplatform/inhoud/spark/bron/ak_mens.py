@@ -350,7 +350,7 @@ DEEL2 = [
         type="invultekst",
         vraag="Het omzetten van landbouwgebied in bebouwing is een vorm van ___.",
         antwoord="verharding",
-        uitleg="De fiche noemt dat uitdrukkelijk als voorbeeld. Waar eerst regen in de grond zakte, ligt daarna een dak, een oprit en een straat.",
+        uitleg="Waar eerst regen in de grond zakte, ligt daarna een dak, een oprit en een straat.",
     ),
     dict(
         type="meerkeuze",

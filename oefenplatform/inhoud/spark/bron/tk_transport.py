@@ -135,7 +135,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke overbrengingen noemt de vakfiche?",
+        vraag="Welke van deze kan je gebruiken om een beweging over te brengen?",
         opties=[
             "Hefbomen",
             "Tandwielen",
@@ -144,7 +144,7 @@ DEEL1 = [
             "Schroevendraaiers",
         ],
         antwoord=[0, 1, 2, 3],
-        uitleg="De fiche noemt hefbomen, tandwielen, riemen, katrollen, kettingen en wrijvingswielen. Een schroevendraaier is gereedschap.",
+        uitleg="Overbrengingen zijn hefbomen, tandwielen, riemen, katrollen, kettingen en wrijvingswielen. Een schroevendraaier is gereedschap.",
     ),
     dict(
         type="waarofniet",
@@ -222,7 +222,7 @@ DEEL1 = [
             "Een systeem dat het gewicht van een gebouw draagt",
         ],
         antwoord=0,
-        uitleg="Een fiets, een lift, een lopende band en een kraan zijn alle vier transportsystemen. De vier andere in het rijtje zijn de andere systemen van de fiche.",
+        uitleg="Een fiets, een lift, een lopende band en een kraan zijn alle vier transportsystemen. De vier andere in het rijtje zijn andere soorten technische systemen.",
     ),
 ]
 
@@ -273,7 +273,7 @@ DEEL2 = [
             "De volger blijft helemaal stilstaan",
         ],
         antwoord=0,
-        uitleg="Dat voorbeeld staat in de fiche: de riem laten kruisen zodat de zin van de drijver en de volger verschillend is. De snelheid verandert er niet door.",
+        uitleg="Je laat de riem kruisen zodat de zin van de drijver en de volger verschillend is. De snelheid verandert er niet door.",
     ),
     dict(
         type="meerkeuze",
@@ -285,7 +285,7 @@ DEEL2 = [
             "Ze kan het materiaal van de as veranderen",
         ],
         antwoord=[0, 1],
-        uitleg="De fiche noemt versnellen, vertragen en het veranderen van richting en zin. Wrijving blijft er altijd, en van materiaal verandert er niets.",
+        uitleg="Een overbrenging kan versnellen, vertragen en de richting en zin veranderen. Wrijving blijft er altijd, en van materiaal verandert er niets.",
     ),
     dict(
         type="invultekst",

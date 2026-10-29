@@ -1,0 +1,447 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Veilig werken, meten en eenheden — deel 2",
+   "niveau": "spark",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Je moet \\(25\\) mL water afmeten. Welk instrument kies je?",
+     "opties": [
+      "Een maatcilinder van \\(50\\) mL met streepjes van \\(1\\) mL",
+      "Een emmer van \\(10\\) L",
+      "Een maatcilinder van \\(1\\) L met streepjes van \\(50\\) mL"
+     ],
+     "antwoord": 0,
+     "uitleg": "Kies uit gelijksoortige instrumenten dat met de gepaste nauwkeurigheid: het kleinste instrument waar je hoeveelheid nog in past, geeft de fijnste verdeling."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe lees je een maatcilinder correct af?",
+     "opties": [
+      "Met je oog op de onderkant van de holle bolling",
+      "Van bovenaf, schuin naar beneden kijkend",
+      "Terwijl je de cilinder schuin houdt"
+     ],
+     "antwoord": 0,
+     "uitleg": "De vloeistof staat hol in het glas. Lees af aan de onderkant van die holling, met de cilinder recht en je oog op dezelfde hoogte, anders kijk je ernaast."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom geef je bij een meting altijd de eenheid mee?",
+     "opties": [
+      "Zonder eenheid betekent het getal niets",
+      "Omdat de eenheid het getal groter maakt",
+      "Omdat het netter staat"
+     ],
+     "antwoord": 0,
+     "uitleg": "\\(5\\) kan \\(5\\) gram of \\(5\\) kilogram zijn. Pas met de eenheid erbij is een meting ondubbelzinnig, en pas dan kan iemand anders ze gebruiken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over grootheden en eenheden kloppen?",
+     "opties": [
+      "Kracht heeft het symbool F en de eenheid newton",
+      "Massadichtheid heeft het symbool \\(\\rho\\) en de SI-eenheid kg/\\(\\text{m}^{3}\\)",
+      "Temperatuur heeft de SI-eenheid kelvin",
+      "Volume heeft de SI-eenheid liter"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De SI-eenheid van volume is de kubieke meter; de liter is de niet-SI-eenheid. De andere kloppen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Het symbool van de grootheid massadichtheid is de Griekse letter ___.",
+     "antwoord": [
+      "rho",
+      "ρ"
+     ],
+     "uitleg": "Massadichtheid schrijf je als \\(\\rho\\), uitgesproken als rho. De eenheid is kg/\\(\\text{m}^{3}\\) of g/\\(\\text{cm}^{3}\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel is \\(3\\) mm in meter?",
+     "opties": [
+      "\\(0{,}003\\) m",
+      "\\(0{,}3\\) m",
+      "\\(300\\) m"
+     ],
+     "antwoord": 0,
+     "uitleg": "Milli is duizendste: \\(3\\) mm = \\(3 \\cdot 0{,}001\\) m = \\(0{,}003\\) m."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel gram is \\(1{,}5\\) kg?",
+     "opties": [
+      "\\(1500\\) g",
+      "\\(150\\) g",
+      "\\(15\\,000\\) g"
+     ],
+     "antwoord": 0,
+     "uitleg": "\\(1\\) kg = \\(1000\\) g, dus \\(1{,}5\\) kg = \\(1500\\) g."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "\\(75\\) cm is ___ m.",
+     "antwoord": "0,75",
+     "uitleg": "Centi is honderdste: \\(75\\) cm = \\(75 : 100 = 0{,}75\\) m."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke schatting van de massa van een appel is realistisch?",
+     "opties": [
+      "Ongeveer \\(150\\) g",
+      "Ongeveer \\(15\\) g",
+      "Ongeveer \\(1{,}5\\) kg"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een schatting maken hoort bij wetenschappelijk werken: kom je op een antwoord van \\(15\\) g of \\(1{,}5\\) kg uit, dan weet je meteen dat je je ergens vergist hebt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een leerling meet de lengte van zijn tafel en schrijft op: \\(1{,}2\\). Wat ontbreekt er?",
+     "opties": [
+      "De eenheid",
+      "De grootheid mag niet vermeld worden",
+      "Het meetinstrument"
+     ],
+     "antwoord": 0,
+     "uitleg": "\\(1{,}2\\) wat? Meter waarschijnlijk, maar dat moet er staan. Een meetresultaat is een getal én een eenheid."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke instrumenten zou je gebruiken bij een veldwerk over een vijver?",
+     "opties": [
+      "Een thermometer voor de watertemperatuur",
+      "Een lichtmeter voor de verlichtingssterkte",
+      "Een determineertabel voor de waterdiertjes",
+      "Een dynamometer voor de waterdiepte"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2
+     ],
+     "uitleg": "De juiste antwoorden passen bij wat je wil weten. Een dynamometer meet kracht en zegt niets over diepte; daarvoor gebruik je een meetlat of een peilstok."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een schuifmaat meet nauwkeuriger dan een gewone meetlat.",
+     "antwoord": true,
+     "uitleg": "Met een schuifmaat lees je tienden van een millimeter af, met een meetlat alleen hele millimeters. Kies altijd het instrument dat nauwkeurig genoeg is voor je onderzoek."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom schakel je een meettoestel uit als je even niet meet?",
+     "opties": [
+      "Om energie te sparen en de batterij te sparen",
+      "Omdat het anders verkeerd meet",
+      "Omdat het dan sneller werkt"
+     ],
+     "antwoord": 0,
+     "uitleg": "Duurzaam werken is ook zuinig werken met energie en materiaal. Het toestel gaat er bovendien langer mee."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je werkt met levend materiaal uit een vijver. Wat doe je achteraf?",
+     "opties": [
+      "Je zet de diertjes terug en maakt je materiaal proper",
+      "Je giet alles in de gootsteen",
+      "Je laat het staan tot volgende week"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hygiënisch omgaan met biologisch materiaal en het correct sorteren hoort bij veilig en duurzaam werken. Levend materiaal zet je terug waar je het haalde."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke grootheid meet je in decibel?",
+     "opties": [
+      "De geluidssterkte",
+      "De verlichtingssterkte",
+      "De luchtvochtigheid"
+     ],
+     "antwoord": 0,
+     "uitleg": "Decibel (dB) hoort bij geluidssterkte. Verlichtingssterkte meet je in lux en de relatieve luchtvochtigheid in procent."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "De relatieve luchtvochtigheid druk je uit in ___.",
+     "antwoord": [
+      "procent",
+      "%",
+      "percent"
+     ],
+     "uitleg": "De relatieve luchtvochtigheid krijgt het symbool φ en wordt in procent (%) gegeven. Je meet ze met een hygrometer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je weegt een leeg bekerglas (\\(120\\) g) en daarna hetzelfde glas met water (\\(370\\) g). Hoeveel water zit erin?",
+     "opties": [
+      "\\(250\\) g",
+      "\\(490\\) g",
+      "\\(370\\) g"
+     ],
+     "antwoord": 0,
+     "uitleg": "\\(370 - 120 = 250\\) g. Je weegt eerst het lege glas, want de weegschaal weegt alles wat erop staat."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke uitspraken over het gebruik van een bunsenbrander kloppen?",
+     "opties": [
+      "Je bindt lang haar samen",
+      "Je laat de brander nooit onbewaakt branden",
+      "Je zet er brandbare stoffen naast om ze op te warmen",
+      "Je draait de gastoevoer dicht als je klaar bent"
+     ],
+     "antwoord": [
+      0,
+      1,
+      3
+     ],
+     "uitleg": "Haar samen, nooit onbewaakt en achteraf dichtdraaien. Brandbare stoffen horen net zo ver mogelijk van een open vlam."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De graad Celsius is de SI-eenheid van temperatuur.",
+     "antwoord": false,
+     "uitleg": "Niet juist. De SI-eenheid is de kelvin (K). In de dagelijkse praktijk gebruiken we graden Celsius (°C), maar dat is een niet-SI-eenheid."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je meet dezelfde lengte drie keer en krijgt \\(12{,}4\\) cm, \\(12{,}5\\) cm en \\(12{,}4\\) cm. Wat doe je met die resultaten?",
+     "opties": [
+      "Je neemt het gemiddelde, want herhalen maakt een meting betrouwbaarder",
+      "Je neemt de grootste waarde",
+      "Je neemt de eerste meting"
+     ],
+     "antwoord": 0,
+     "uitleg": "Meerdere keren meten en het gemiddelde nemen vangt kleine afleesfouten op. Dat hoort bij nauwkeurig wetenschappelijk werken."
+    }
+   ]
+  },
+  {
+   "titel": "Wetenschappelijk onderzoek — deel 1",
+   "niveau": "spark",
+   "gratis": false,
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarmee begint een wetenschappelijk onderzoek?",
+     "opties": [
+      "Met een probleemstelling en een onderzoeksvraag",
+      "Met het maken van een grafiek van je gegevens",
+      "Met de conclusie"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerst baken je het probleem af en stel je een onderzoeksvraag. Pas daarna bedenk je een hypothese en een plan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een hypothese?",
+     "opties": [
+      "Een verwachting die je vooraf opschrijft",
+      "Het resultaat van je metingen achteraf",
+      "De besluitende zin van je verslag"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een hypothese is een verwacht antwoord op je onderzoeksvraag, vaak in de vorm 'als ..., dan ...'. Ze mag achteraf gerust verkeerd blijken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Zet in de juiste volgorde: conclusie trekken, data verzamelen, onderzoeksvraag opstellen, onderzoeksplan maken.",
+     "opties": [
+      "onderzoeksvraag – onderzoeksplan – data verzamelen – conclusie",
+      "onderzoeksplan – onderzoeksvraag – conclusie – data verzamelen",
+      "data verzamelen – onderzoeksvraag – onderzoeksplan – conclusie"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerst de vraag, dan het plan, dan meten, dan analyseren en besluiten. Op het einde reflecteer je over je methode en communiceer je je resultaat."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Het overzicht van wat je gaat doen, met welk materiaal en in welke stappen, heet het ___.",
+     "antwoord": "onderzoeksplan",
+     "uitleg": "In een onderzoeksplan staat wat je meet, waarmee, hoe vaak en wat je constant houdt. Zo kan iemand anders je proef overdoen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke criteria moet een goede onderzoeksvraag halen?",
+     "opties": [
+      "Open",
+      "Enkelvoudig",
+      "Onderzoekbaar",
+      "Grappig",
+      "Haalbaar"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "De zes criteria zijn: open, enkelvoudig, objectief, haalbaar, onderzoekbaar en relevant. Die lijst krijg je ook op het examen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent het dat een onderzoeksvraag 'enkelvoudig' moet zijn?",
+     "opties": [
+      "Ze gaat over één onderwerp of één probleem",
+      "Ze heeft één enkel woord als antwoord",
+      "Ze is kort geschreven"
+     ],
+     "antwoord": 0,
+     "uitleg": "Onderzoek je twee dingen tegelijk, dan weet je achteraf niet welke van de twee je resultaat verklaart. Splits zo'n vraag dus in twee."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent 'objectief' bij een onderzoeksvraag?",
+     "opties": [
+      "Ze laat geen mening of overtuiging blijken",
+      "Ze is met een toestel na te meten in het labo",
+      "Ze is door iedereen te begrijpen"
+     ],
+     "antwoord": 0,
+     "uitleg": "'Waarom is zonne-energie de beste energiebron?' is niet objectief: het antwoord zit al in de vraag. Beter: 'Welke invloed heeft de stand van een zonnepaneel op de opbrengst?'"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een opzoekvraag is een prima onderzoeksvraag.",
+     "antwoord": false,
+     "uitleg": "Niet juist. Onderzoekbaar betekent dat je het antwoord niet zomaar kan opzoeken of meteen weet: je moet er zelf data voor verzamelen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een variabele in een onderzoek?",
+     "opties": [
+      "Iets dat kan veranderen en dat je meet of instelt",
+      "Het materiaal dat je tijdens de proef gebruikt",
+      "Het besluit van je onderzoek"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je verandert er één (bijvoorbeeld de hoeveelheid licht), je meet er één (de groei) en alle andere houd je constant."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom houd je in een proef alle andere omstandigheden gelijk?",
+     "opties": [
+      "Anders weet je niet waardoor het verschil komt",
+      "Omdat de leerkracht dat nu eenmaal vraagt",
+      "Omdat het sneller gaat"
+     ],
+     "antwoord": 0,
+     "uitleg": "Verander je twee dingen tegelijk, dan kan je het resultaat aan geen van beide toeschrijven. Één variabele veranderen maakt je besluit geldig."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom herhaal je een meting verschillende keren?",
+     "opties": [
+      "Om toevallige fouten op te vangen",
+      "Omdat één meting altijd fout is",
+      "Om meer bladzijden te vullen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eén meting kan toevallig afwijken. Meet je meerdere keren en neem je het gemiddelde, dan weeg je die toevalligheden weg."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarvoor staat de afkorting STEM?",
+     "opties": [
+      "Science, Technology, Engineering en Mathematics",
+      "Studie, Techniek, Energie en Milieubewustzijn",
+      "Systeem, Test, Experiment en Model"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij een STEM-opdracht zet je wetenschap, techniek, ontwerpen en wiskunde samen in om een probleem op te lossen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke van deze zijn modellen die je in een onderzoek kan gebruiken?",
+     "opties": [
+      "Een tabel",
+      "Een grafiek",
+      "Een schets",
+      "Een gevoel",
+      "Een formule"
+     ],
+     "antwoord": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "uitleg": "Een schets, een tabel, een grafiek, een formule of een vergelijking zijn manieren om je gegevens overzichtelijk voor te stellen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "De metingen en gegevens die je verzamelt, noem je samen je ___.",
+     "antwoord": [
+      "data",
+      "gegevens"
+     ],
+     "uitleg": "Data zijn je ruwe gegevens. Je verwerkt ze in een tabel of een grafiek, en pas daarna analyseer je ze."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zet je op de horizontale as van een grafiek?",
+     "opties": [
+      "De grootheid die je zelf instelt of laat veranderen",
+      "De grootheid die je meet tijdens de proef",
+      "Altijd de tijd"
+     ],
+     "antwoord": 0,
+     "uitleg": "Op de x-as staat wat je zelf regelt, op de y-as wat daarvan afhangt. Bij een beweging is dat inderdaad vaak de tijd, maar niet altijd."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een conclusie moet een antwoord geven op je onderzoeksvraag.",
+     "antwoord": true,
+     "uitleg": "De conclusie is de verklaring of het antwoord op je onderzoeksvraag, en ze steunt altijd op je data. Wat je niet gemeten hebt, staat er niet in."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is reflecteren op het einde van een onderzoek?",
+     "opties": [
+      "Terugkijken en zeggen wat beter kon",
+      "Je onderzoeksvraag veranderen tot ze klopt",
+      "Je resultaten opnieuw meten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Reflecteren betekent eerlijk zeggen wat er misliep en wat je zou aanpassen. Daarna communiceer je je resultaat, bijvoorbeeld in een verslag of een presentatie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent 'haalbaar' bij een onderzoeksvraag?",
+     "opties": [
+      "Je kan het uitvoeren met de tijd die je hebt",
+      "Iedereen vindt de vraag interessant genoeg",
+      "Je kent het antwoord al"
+     ],
+     "antwoord": 0,
+     "uitleg": "'Hoe evolueert de zeespiegel de komende honderd jaar?' is een mooie vraag, maar niet haalbaar voor een schoolonderzoek."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Uit een tabel lees je: bij \\(10^{\\circ}\\text{C}\\) duurt het \\(40\\) min, bij \\(20^{\\circ}\\text{C}\\,20\\) min, bij \\(40^{\\circ}\\text{C}\\,10\\) min. Wat is het verband?",
+     "opties": [
+      "Hoe hoger de temperatuur, hoe korter de tijd",
+      "Hoe hoger de temperatuur, hoe langer de tijd",
+      "Er is geen verband"
+     ],
+     "antwoord": 0,
+     "uitleg": "Gegevens uit een tabel halen is een vaardigheid op zich: kijk of de tweede kolom stijgt of daalt terwijl de eerste stijgt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een grafiek met een rechte door de oorsprong wijst op een recht evenredig verband.",
+     "antwoord": true,
+     "uitleg": "Recht evenredig betekent: wordt de ene twee keer zo groot, dan wordt de andere dat ook. Bij een omgekeerd evenredig verband krijg je een dalende kromme."
+    }
+   ]
+  }
+ ]
+}

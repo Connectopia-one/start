@@ -269,7 +269,7 @@
             "Je houdt er een magneet tegen en kijkt wat er gebeurt"
           ],
           "antwoord": 0,
-          "uitleg": "Je trekt aan het materiaal en kijkt of het weer zijn vorm aanneemt als je loslaat. Dat is de proef die de fiche noemt bij elasticiteit."
+          "uitleg": "Je trekt aan het materiaal en kijkt of het weer zijn vorm aanneemt als je loslaat. Zo test je de elasticiteit."
         },
         {
           "type": "meerkeuze",
@@ -293,7 +293,7 @@
           "type": "waarofniet",
           "vraag": "Een magneet trekt een ferromagnetisch materiaal aan.",
           "antwoord": true,
-          "uitleg": "Aantrekking en afstoting van ferromagnetische materialen zijn de magnetische eigenschappen uit de fiche. Daarop berust ook de magneetproef."
+          "uitleg": "Aantrekking en afstoting van ferromagnetische materialen zijn de magnetische eigenschappen. Daarop berust ook de magneetproef."
         },
         {
           "type": "meerkeuze",
@@ -469,7 +469,7 @@
           "type": "waarofniet",
           "vraag": "Warmte is een energievorm.",
           "antwoord": true,
-          "uitleg": "Warmte of thermische energie staat in de fiche gewoon in het rijtje energievormen, naast beweging, licht, elektriciteit en chemische energie."
+          "uitleg": "Warmte of thermische energie is gewoon een energievorm, naast beweging, licht, elektriciteit en chemische energie."
         },
         {
           "type": "meerkeuze",
@@ -485,7 +485,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke van deze energievormen noemt de vakfiche?",
+          "vraag": "Welke van deze zijn echte energievormen?",
           "opties": [
             "Chemische energie",
             "Potentiële energie",
@@ -500,7 +500,7 @@
             2,
             5
           ],
-          "uitleg": "De fiche noemt bewegings- of kinetische energie, chemische energie, elektrische energie, potentiële energie, stralingsenergie zoals licht, en warmte of thermische energie. Digitale en statische energie bestaan niet als energievorm."
+          "uitleg": "De energievormen zijn bewegings- of kinetische energie, chemische energie, elektrische energie, potentiële energie, stralingsenergie zoals licht, en warmte of thermische energie. Digitale en statische energie bestaan niet als energievorm."
         },
         {
           "type": "waarofniet",
@@ -539,7 +539,7 @@
             "niet-nuttige",
             "niet nuttige"
           ],
-          "uitleg": "De fiche zet nuttige en niet-nuttige energie tegenover elkaar. Bij bijna elk technisch systeem is de niet-nuttige energie warmte."
+          "uitleg": "Nuttige en niet-nuttige energie staan tegenover elkaar. Bij bijna elk technisch systeem is de niet-nuttige energie warmte."
         },
         {
           "type": "meerkeuze",
@@ -703,7 +703,7 @@
             "Aardwarmte"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt de zon, de wind, het water en aardwarmte als hernieuwbare bronnen. Steenkool is een fossiele brandstof."
+          "uitleg": "De zon, de wind, het water en aardwarmte zijn hernieuwbare bronnen. Steenkool is een fossiele brandstof."
         },
         {
           "type": "waarofniet",
@@ -740,7 +740,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke bronnen noemt de fiche hernieuwbaar?",
+          "vraag": "Welke van deze energiebronnen zijn hernieuwbaar?",
           "opties": [
             "De zon",
             "De wind",
@@ -754,7 +754,7 @@
             2,
             3
           ],
-          "uitleg": "Die vier staan letterlijk in de fiche. Steenkool hoort bij de fossiele brandstoffen."
+          "uitleg": "Die vier raken nooit op. Steenkool hoort bij de fossiele brandstoffen."
         },
         {
           "type": "meerkeuze",
@@ -862,7 +862,7 @@
             "hernieuwbare",
             "duurzame"
           ],
-          "uitleg": "Hernieuwbaar en duurzaam worden in de fiche door elkaar gebruikt voor energie uit de zon, wind, water en aardwarmte."
+          "uitleg": "Hernieuwbaar en duurzaam worden vaak door elkaar gebruikt voor energie uit de zon, wind, water en aardwarmte."
         }
       ]
     },
@@ -873,7 +873,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke van deze zijn elektrische componenten uit de fiche?",
+          "vraag": "Welke van deze zijn elektrische componenten?",
           "opties": [
             "Een schakelaar",
             "Een weerstand",
@@ -958,7 +958,7 @@
             "Zodat ze feller branden dan in een serieschakeling"
           ],
           "antwoord": 0,
-          "uitleg": "Dat voorbeeld staat letterlijk in de fiche. In serie zou één kapot lampje de hele slinger doven."
+          "uitleg": "In serie zou één kapot lampje de hele slinger doven."
         },
         {
           "type": "meerkeuze",
@@ -986,7 +986,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke onderdelen kan je volgens de fiche in serie of in parallel schakelen?",
+          "vraag": "Welke onderdelen kan je in serie of in parallel schakelen?",
           "opties": [
             "Verbruikers",
             "Schakelaars",
@@ -998,7 +998,7 @@
             0,
             1
           ],
-          "uitleg": "De fiche noemt verbruikers, schakelaars en spanningsbronnen; van batterijen achter elkaar krijg je bijvoorbeeld meer spanning. Een deur, een werktafel of een meetsnoer schakel je niet in serie of parallel."
+          "uitleg": "Je schakelt verbruikers, schakelaars en spanningsbronnen; van batterijen achter elkaar krijg je bijvoorbeeld meer spanning. Een deur, een werktafel of een meetsnoer schakel je niet in serie of parallel."
         },
         {
           "type": "meerkeuze",
@@ -1168,7 +1168,7 @@
             0,
             1
           ],
-          "uitleg": "De fiche noemt kortsluiting, overbelasting, brandgevaar en elektrocutie. Roest, droge lucht of een lek in het plafond hebben er niets mee te maken."
+          "uitleg": "De gevaren zijn kortsluiting, overbelasting, brandgevaar en elektrocutie. Roest, droge lucht of een lek in het plafond hebben er niets mee te maken."
         },
         {
           "type": "waarofniet",
@@ -1202,7 +1202,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke veiligheidsvoorzieningen voor elektriciteit noemt de fiche?",
+          "vraag": "Welke van deze beveiligen een elektrische installatie?",
           "opties": [
             "De aarding",
             "De automatische zekering",
@@ -1214,7 +1214,7 @@
             0,
             1
           ],
-          "uitleg": "De fiche noemt de aarding, de automatische zekering, de elektrische isolatie, de dubbele isolatie en de verliesstroomschakelaar. Een rookmelder, een blusapparaat of een dimmer beveiligen de installatie niet."
+          "uitleg": "Beveiligingen zijn de aarding, de automatische zekering, de elektrische isolatie, de dubbele isolatie en de verliesstroomschakelaar. Een rookmelder, een blusapparaat of een dimmer beveiligen de installatie niet."
         },
         {
           "type": "waarofniet",
@@ -1677,7 +1677,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke logische poorten noemt de fiche?",
+          "vraag": "Welke van deze logische poorten bestaan echt?",
           "opties": [
             "De EN-poort",
             "De OF-poort",
@@ -1689,7 +1689,7 @@
             0,
             1
           ],
-          "uitleg": "De fiche noemt de EN-poort, de OF-poort en de NIET-poort, en combinaties daarvan. Een PLUS-, MAAL- of ALS-poort bestaat niet."
+          "uitleg": "De logische poorten zijn de EN-poort, de OF-poort en de NIET-poort, en combinaties daarvan. Een PLUS-, MAAL- of ALS-poort bestaat niet."
         },
         {
           "type": "meerkeuze",
@@ -1766,7 +1766,7 @@
             "Een buigkracht"
           ],
           "antwoord": 0,
-          "uitleg": "De kabels worden naar beneden getrokken door het gewicht van de brug. Dat voorbeeld staat letterlijk in de fiche."
+          "uitleg": "De kabels worden naar beneden getrokken door het gewicht van de brug."
         },
         {
           "type": "meerkeuze",
@@ -1808,7 +1808,7 @@
           "type": "waarofniet",
           "vraag": "Boeken op een tafel oefenen een drukkracht uit op het tafelblad.",
           "antwoord": true,
-          "uitleg": "Ze duwen recht naar beneden. Ook dat voorbeeld staat in de fiche, naast de pilaren van een brug."
+          "uitleg": "Ze duwen recht naar beneden, net als de pilaren van een brug."
         },
         {
           "type": "waarofniet",
@@ -1818,7 +1818,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke krachten op een constructie noemt de fiche?",
+          "vraag": "Welke krachten kunnen op een constructie werken?",
           "opties": [
             "Drukkracht",
             "Trekkracht",
@@ -2371,7 +2371,7 @@
           "type": "waarofniet",
           "vraag": "Een magneet kan als verbinding gebruikt worden.",
           "antwoord": true,
-          "uitleg": "De fiche noemt magneten uitdrukkelijk bij de verbindingsmogelijkheden. Denk aan een kastdeurtje dat magnetisch dichtklikt."
+          "uitleg": "Magneten zijn ook een verbindingsmogelijkheid. Denk aan een kastdeurtje dat magnetisch dichtklikt."
         },
         {
           "type": "meerkeuze",
@@ -2389,7 +2389,7 @@
           "type": "waarofniet",
           "vraag": "Een ritssluiting is geen verbinding.",
           "antwoord": false,
-          "uitleg": "Een ritssluiting staat gewoon in het rijtje verbindingsmogelijkheden van de fiche, naast velcro, scharnieren en magneten."
+          "uitleg": "Een ritssluiting is gewoon een verbindingsmogelijkheid, net als velcro, scharnieren en magneten."
         },
         {
           "type": "meerkeuze",
@@ -2485,7 +2485,7 @@
             "De namen van wie de machine mag aankopen"
           ],
           "antwoord": 0,
-          "uitleg": "Links de risico's, rechts de voorkomingsmaatregelen, en de pictogrammen van wat verplicht is. De kaart van de figuurzaag staat als voorbeeld in de fiche."
+          "uitleg": "Links de risico's, rechts de voorkomingsmaatregelen, en de pictogrammen van wat verplicht is."
         },
         {
           "type": "waarofniet",
@@ -2507,7 +2507,7 @@
             1,
             2
           ],
-          "uitleg": "De juiste antwoorden staan als goede werkwijze in de fiche. Natte handen en elektriciteit gaan nooit samen."
+          "uitleg": "De juiste antwoorden zijn goede werkwijzen. Natte handen en elektriciteit gaan nooit samen."
         },
         {
           "type": "waarofniet",
@@ -2537,7 +2537,7 @@
             "Je zet het op de allerhoogste stand"
           ],
           "antwoord": 0,
-          "uitleg": "Uitschakelen spaart de batterij en beschermt het toestel. De fiche noemt het bij de goede werkwijzen."
+          "uitleg": "Uitschakelen spaart de batterij en beschermt het toestel. Het hoort bij de goede werkwijzen."
         },
         {
           "type": "waarofniet",
@@ -2601,7 +2601,7 @@
             1,
             2
           ],
-          "uitleg": "Die kaart staat als voorbeeld in de fiche. Er staat ook op dat je de stofafzuiging aanzet vóór je de machine start."
+          "uitleg": "Op die kaart staat ook dat je de stofafzuiging aanzet vóór je de machine start."
         },
         {
           "type": "waarofniet",
@@ -2675,7 +2675,7 @@
           "type": "waarofniet",
           "vraag": "Een stappenplan is een meetinstrument.",
           "antwoord": false,
-          "uitleg": "Een stappenplan is een hulpmiddel. De fiche zet meetinstrumenten en hulpmiddelen naast elkaar, maar het zijn twee verschillende dingen."
+          "uitleg": "Een stappenplan is een hulpmiddel. Meetinstrumenten en hulpmiddelen horen vaak samen, maar het zijn twee verschillende dingen."
         },
         {
           "type": "meerkeuze",
@@ -2836,7 +2836,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke formules staan in bijlage \\(2\\) van de vakfiche, die je op het examen mag gebruiken?",
+          "vraag": "Op het examen krijg je een formuleblad mee. Welke formules staan daarop?",
           "opties": [
             "De omtrek van een cirkel",
             "De oppervlakte van een vierkant",
@@ -2849,7 +2849,7 @@
             1,
             2
           ],
-          "uitleg": "Bijlage \\(2\\) bevat alleen formules voor omtrek, oppervlakte en volume. De massadichtheid en het vermogen moet je dus zelf kennen."
+          "uitleg": "Het formuleblad bevat alleen formules voor omtrek, oppervlakte en volume. De massadichtheid en het vermogen moet je dus zelf kennen."
         }
       ]
     },
@@ -2892,7 +2892,7 @@
           "type": "waarofniet",
           "vraag": "Een werktekening en een technische tekening zijn twee heel verschillende dingen.",
           "antwoord": false,
-          "uitleg": "Het zijn twee namen voor hetzelfde. De fiche zet ze in één adem: werktekening of technische tekening."
+          "uitleg": "Het zijn twee namen voor hetzelfde: werktekening of technische tekening."
         },
         {
           "type": "meerkeuze",
@@ -3200,7 +3200,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke overbrengingen noemt de vakfiche?",
+          "vraag": "Welke van deze kan je gebruiken om een beweging over te brengen?",
           "opties": [
             "Hefbomen",
             "Tandwielen",
@@ -3214,7 +3214,7 @@
             2,
             3
           ],
-          "uitleg": "De fiche noemt hefbomen, tandwielen, riemen, katrollen, kettingen en wrijvingswielen. Een schroevendraaier is gereedschap."
+          "uitleg": "Overbrengingen zijn hefbomen, tandwielen, riemen, katrollen, kettingen en wrijvingswielen. Een schroevendraaier is gereedschap."
         },
         {
           "type": "waarofniet",
@@ -3292,7 +3292,7 @@
             "Een systeem dat het gewicht van een gebouw draagt"
           ],
           "antwoord": 0,
-          "uitleg": "Een fiets, een lift, een lopende band en een kraan zijn alle vier transportsystemen. De vier andere in het rijtje zijn de andere systemen van de fiche."
+          "uitleg": "Een fiets, een lift, een lopende band en een kraan zijn alle vier transportsystemen. De vier andere in het rijtje zijn andere soorten technische systemen."
         }
       ]
     },
@@ -3350,7 +3350,7 @@
             "De volger blijft helemaal stilstaan"
           ],
           "antwoord": 0,
-          "uitleg": "Dat voorbeeld staat in de fiche: de riem laten kruisen zodat de zin van de drijver en de volger verschillend is. De snelheid verandert er niet door."
+          "uitleg": "Je laat de riem kruisen zodat de zin van de drijver en de volger verschillend is. De snelheid verandert er niet door."
         },
         {
           "type": "meerkeuze",
@@ -3365,7 +3365,7 @@
             0,
             1
           ],
-          "uitleg": "De fiche noemt versnellen, vertragen en het veranderen van richting en zin. Wrijving blijft er altijd, en van materiaal verandert er niets."
+          "uitleg": "Een overbrenging kan versnellen, vertragen en de richting en zin veranderen. Wrijving blijft er altijd, en van materiaal verandert er niets."
         },
         {
           "type": "invultekst",
@@ -3518,7 +3518,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke micro-organismen noemt de vakfiche?",
+          "vraag": "Welke van deze zijn micro-organismen?",
           "opties": [
             "Bacteriën",
             "Schimmels",
@@ -3752,7 +3752,7 @@
             2,
             3
           ],
-          "uitleg": "De fiche noemt ook de voedingswaarde, het nettogewicht en de bewaarvoorschriften. Wie het koopt staat er natuurlijk niet op: dat weet de fabrikant niet."
+          "uitleg": "Ook de voedingswaarde, het nettogewicht en de bewaarvoorschriften staan erop. Wie het koopt staat er natuurlijk niet op: dat weet de fabrikant niet."
         },
         {
           "type": "meerkeuze",
@@ -3819,7 +3819,7 @@
             1,
             2
           ],
-          "uitleg": "De fiche noemt gebruiksgemak, hygiënische bewaring, informatie voor de klant en bescherming tegen breken, bederf en licht. Goedkoper wordt een product er niet van."
+          "uitleg": "Een verpakking zorgt voor gebruiksgemak, hygiënische bewaring, informatie voor de klant en bescherming tegen breken, bederf en licht. Goedkoper wordt een product er niet van."
         },
         {
           "type": "meerkeuze",
@@ -3849,7 +3849,7 @@
             "Ze houdt het licht veel beter tegen dan glas"
           ],
           "antwoord": 0,
-          "uitleg": "Dat voorbeeld staat in de fiche: lichter vervoeren kost minder energie. Maar plastic zorgt wel voor meer afval in het milieu."
+          "uitleg": "Lichter vervoeren kost minder energie. Maar plastic zorgt wel voor meer afval in het milieu."
         },
         {
           "type": "meerkeuze",
@@ -3861,7 +3861,7 @@
             "Ze kunnen op geen enkele manier hergebruikt"
           ],
           "antwoord": 0,
-          "uitleg": "Duurzaamheid is altijd een afweging: lichter vervoeren staat tegenover meer afval. Daarom gaat de fiche over voor- én nadelen."
+          "uitleg": "Duurzaamheid is altijd een afweging: lichter vervoeren staat tegenover meer afval. Daarom kijk je altijd naar voor- én nadelen."
         },
         {
           "type": "waarofniet",
@@ -4046,7 +4046,7 @@
           "type": "waarofniet",
           "vraag": "Voldoet je systeem in fase \\(5\\) niet, dan begin je altijd helemaal opnieuw bij fase \\(1\\).",
           "antwoord": false,
-          "uitleg": "De fiche zegt dat je teruggaat naar fase \\(2\\) of \\(3\\): je past het ontwerp aan of je maakt iets anders. De behoefte is intussen niet veranderd."
+          "uitleg": "Je gaat terug naar fase \\(2\\) of \\(3\\): je past het ontwerp aan of je maakt iets anders. De behoefte is intussen niet veranderd."
         },
         {
           "type": "meerkeuze",
@@ -4107,7 +4107,7 @@
             1,
             2
           ],
-          "uitleg": "Alles wat je in de vorige hoofdstukken geleerd hebt, komt hier samen. Dat is precies wat de fiche met een technisch proces bedoelt."
+          "uitleg": "Alles wat je in de vorige hoofdstukken geleerd hebt, komt hier samen. Dat is precies wat een technisch proces is."
         },
         {
           "type": "waarofniet",
@@ -4117,7 +4117,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een technisch systeem voldoet niet aan de criteria. Wat doe je volgens de fiche?",
+          "vraag": "Een technisch systeem voldoet niet aan de criteria. Wat doe je dan?",
           "opties": [
             "Je keert terug naar fase \\(2\\) of fase \\(3\\)",
             "Je gooit het systeem helemaal weg",
@@ -4131,7 +4131,7 @@
           "type": "waarofniet",
           "vraag": "Het technisch proces kan alleen gebruikt worden voor een constructiesysteem.",
           "antwoord": false,
-          "uitleg": "Het werkt voor elk systeem uit de fiche, en ook voor een combinatie ervan: energie, informatieverwerkend, constructie, transport en biotechnisch."
+          "uitleg": "Het werkt voor elk technisch systeem, en ook voor een combinatie ervan: energie, informatieverwerkend, constructie, transport en biotechnisch."
         },
         {
           "type": "meerkeuze",
@@ -4143,7 +4143,7 @@
             "In de evaluatiefase"
           ],
           "antwoord": 0,
-          "uitleg": "Bij fase \\(3\\) staat in de fiche dat je toelicht hoe je op een veilige en duurzame manier met gereedschap, machines en hulpmiddelen werkt."
+          "uitleg": "Bij fase \\(3\\) licht je toe hoe je op een veilige en duurzame manier met gereedschap, machines en hulpmiddelen werkt."
         },
         {
           "type": "meerkeuze",
@@ -4159,7 +4159,7 @@
             1,
             2
           ],
-          "uitleg": "Fase \\(1\\) heet in de fiche letterlijk probleemstelling of behoefte onderzoeken. Afwerken hoort bij het maken."
+          "uitleg": "Fase \\(1\\) heet probleemstelling of behoefte onderzoeken. Afwerken hoort bij het maken."
         },
         {
           "type": "waarofniet",
@@ -4200,13 +4200,13 @@
             1,
             2
           ],
-          "uitleg": "De fiche noemt ook: mogelijke oplossingen bedenken, ze in de totaaloplossing integreren, en evalueren en bijsturen."
+          "uitleg": "Daarnaast horen erbij: mogelijke oplossingen bedenken, ze in de totaaloplossing integreren, en evalueren en bijsturen."
         },
         {
           "type": "waarofniet",
           "vraag": "Soms volstaat het een bestaand systeem aan te passen in plaats van een nieuw te ontwerpen.",
           "antwoord": true,
-          "uitleg": "Dat staat zo in de fiche. Hangt af van het probleem: soms is een kleine aanpassing genoeg, soms moet alles opnieuw."
+          "uitleg": "Dat hangt af van het probleem: soms is een kleine aanpassing genoeg, soms moet alles opnieuw."
         },
         {
           "type": "meerkeuze",
@@ -4257,7 +4257,7 @@
             "Geen enkele bijzondere kennis"
           ],
           "antwoord": 0,
-          "uitleg": "Dat voorbeeld staat in de fiche. Voor het ontwikkelen van het vaccin zelf was wetenschappelijke kennis nodig."
+          "uitleg": "Voor het ontwikkelen van het vaccin zelf was wetenschappelijke kennis nodig."
         },
         {
           "type": "meerkeuze",
@@ -4329,7 +4329,7 @@
           "type": "waarofniet",
           "vraag": "Een ontwerp is pas goed als je het probleem vanuit één vakgebied bekijkt.",
           "antwoord": false,
-          "uitleg": "Net omgekeerd: de fiche zegt dat je een goede oplossing enkel krijgt door het probleem vanuit de verschillende STEM-disciplines te bekijken."
+          "uitleg": "Net omgekeerd: je krijgt een goede oplossing enkel door het probleem vanuit de verschillende STEM-disciplines te bekijken."
         },
         {
           "type": "meerkeuze",
@@ -4424,7 +4424,7 @@
             2,
             3
           ],
-          "uitleg": "Een algoritme is een eindige reeks stappen naar een doel. Het recept en het computerspel staan als voorbeeld in de fiche; een stappenplan en een handleiding zijn precies hetzelfde idee. Een foto toont enkel het resultaat en zegt niet welke stappen je zette."
+          "uitleg": "Een algoritme is een eindige reeks stappen naar een doel. Een recept en een computerspel zijn bekende voorbeelden; een stappenplan en een handleiding zijn precies hetzelfde idee. Een foto toont enkel het resultaat en zegt niet welke stappen je zette."
         },
         {
           "type": "waarofniet",
@@ -4442,7 +4442,7 @@
             "Een algoritme waar nog een fout in zit"
           ],
           "antwoord": 0,
-          "uitleg": "Het voorbeeld van de fiche is een stappenplan om een boterham met choco te smeren."
+          "uitleg": "Een stappenplan om een boterham met choco te smeren is zo'n voorbeeld: elke stap staat in een vaste volgorde."
         },
         {
           "type": "meerkeuze",
@@ -4454,7 +4454,7 @@
             "Een plant elke dag op tijd water geven"
           ],
           "antwoord": 0,
-          "uitleg": "Dat voorbeeld staat in de fiche. Digitaal wil zeggen dat een computer of een microcontroller de stappen uitvoert."
+          "uitleg": "Digitaal wil zeggen dat een computer of een microcontroller de stappen uitvoert."
         },
         {
           "type": "invultekst",
@@ -4469,7 +4469,7 @@
           "type": "waarofniet",
           "vraag": "Een flowchart heet ook een stroomdiagram.",
           "antwoord": true,
-          "uitleg": "Twee namen voor hetzelfde. De fiche zet ze naast elkaar: flowchart of stroomdiagram."
+          "uitleg": "Twee namen voor hetzelfde: flowchart of stroomdiagram."
         },
         {
           "type": "meerkeuze",
@@ -4485,7 +4485,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "In welke programmeertaal vertaal je volgens de vakfiche je algoritme?",
+          "vraag": "In welke programmeertaal sleep je blokjes in elkaar om je algoritme te laten uitvoeren?",
           "opties": [
             "Scratch",
             "Python",
@@ -4493,7 +4493,7 @@
             "HTML"
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt Scratch bij naam. Daarin sleep je blokjes in elkaar, zodat je je op de logica kunt richten in plaats van op schrijffouten."
+          "uitleg": "In Scratch sleep je blokjes in elkaar, zodat je je op de logica kunt richten in plaats van op schrijffouten."
         },
         {
           "type": "waarofniet",
@@ -4517,7 +4517,7 @@
             2,
             3
           ],
-          "uitleg": "De fiche noemt die vier stappen, plus bijsturen waar nodig. Een nieuwe computer kopen hoort er niet bij: een algoritme ontwerp je op papier, los van de machine waarop het straks draait."
+          "uitleg": "Die vier stappen horen erbij, plus bijsturen waar nodig. Een nieuwe computer kopen hoort er niet bij: een algoritme ontwerp je op papier, los van de machine waarop het straks draait."
         },
         {
           "type": "meerkeuze",
@@ -4593,13 +4593,13 @@
             1,
             2
           ],
-          "uitleg": "Die eerste staan als voorbeeld in de fiche. Voor het laatste bestaat er geen stappenplan."
+          "uitleg": "Voor de eerste kan je een stappenplan schrijven. Voor het laatste bestaat er geen stappenplan."
         },
         {
           "type": "waarofniet",
           "vraag": "Een recept is geen algoritme.",
           "antwoord": false,
-          "uitleg": "Een recept is wel degelijk een algoritme: instructies in een vaste volgorde die naar een resultaat leiden. De fiche geeft het zelf als voorbeeld."
+          "uitleg": "Een recept is wel degelijk een algoritme: instructies in een vaste volgorde die naar een resultaat leiden. Het is zelfs een van de bekendste voorbeelden."
         },
         {
           "type": "meerkeuze",
@@ -4622,7 +4622,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke principes van computationeel denken noemt de vakfiche?",
+          "vraag": "Welke van deze horen bij computationeel denken?",
           "opties": [
             "Abstractie",
             "Decompositie",
@@ -4636,7 +4636,7 @@
             2,
             3
           ],
-          "uitleg": "Die vier staan samen in de fiche. Improvisatie hoort er niet bij: computationeel denken is juist het omgekeerde van improviseren."
+          "uitleg": "Abstractie, decompositie, patroonherkenning en het algoritme horen samen. Improvisatie hoort er niet bij: computationeel denken is juist het omgekeerde van improviseren."
         },
         {
           "type": "meerkeuze",
@@ -4802,7 +4802,7 @@
           "type": "waarofniet",
           "vraag": "Patroonherkenning helpt je een oplossing van een eerder probleem opnieuw te gebruiken.",
           "antwoord": true,
-          "uitleg": "Dat staat zo in de fiche: overeenkomsten herkennen met een eerder opgelost probleem om de oplossing te hergebruiken."
+          "uitleg": "Patroonherkenning is overeenkomsten herkennen met een eerder opgelost probleem om de oplossing te hergebruiken."
         },
         {
           "type": "meerkeuze",

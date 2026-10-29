@@ -57,7 +57,7 @@ DEEL1 = [
             "Haalbaar",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="De zes criteria uit de vakfiche zijn: open, enkelvoudig, objectief, haalbaar, onderzoekbaar en relevant. Die lijst krijg je ook op het examen.",
+        uitleg="De zes criteria zijn: open, enkelvoudig, objectief, haalbaar, onderzoekbaar en relevant. Die lijst krijg je ook op het examen.",
     ),
     dict(
         type="meerkeuze",

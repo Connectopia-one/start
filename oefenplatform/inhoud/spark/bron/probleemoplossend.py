@@ -112,7 +112,7 @@ DEEL1 = [
         ],
         antwoord=0,
         uitleg="Gegevens ordenen in een tabel of schema maakt zichtbaar wat bij wat hoort. Dat is een "
-               "van de strategieën die de vakfiche noemt.",
+               "handige strategie.",
     ),
     dict(
         type="invultekst",
@@ -140,7 +140,7 @@ DEEL1 = [
         vraag="Schatten voor je rekent, is tijdverlies.",
         antwoord=False,
         uitleg="Schatten kost weinig tijd en laat je meteen zien of je uitkomst in de buurt ligt. Het "
-               "is een van de strategieën uit de vakfiche.",
+               "is een handige strategie.",
     ),
     dict(
         type="meerkeuze",

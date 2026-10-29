@@ -111,7 +111,7 @@ DEEL1 = [
             "De productie",
         ],
         antwoord=[0, 1, 2, 4],
-        uitleg="De fiche noemt de aankoop, de algemene directie, de boekhouding, het magazijn, de marketing, het onthaal, de productie en de verkoop.",
+        uitleg="De afdelingen zijn de aankoop, de algemene directie, de boekhouding, het magazijn, de marketing, het onthaal, de productie en de verkoop.",
     ),
     dict(
         type="meerkeuze",

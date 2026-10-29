@@ -50,7 +50,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze zijn laagvlaktes volgens de vakfiche? Er zijn er meerdere juist.",
+        vraag="Welke van deze gebieden in België zijn laagvlaktes? Er zijn er meerdere juist.",
         opties=[
             "De Kempense Laagvlakte",
             "De Laagvlakte van de Kust",
@@ -59,11 +59,11 @@ DEEL1 = [
             "Het Lotharings Plateau",
         ],
         antwoord=[0, 1],
-        uitleg="De fiche noemt drie laagvlaktes: de Kempense, die van de Kust en de Vlaamse. Herve, Lotharingen en de Condroz liggen veel hoger.",
+        uitleg="België heeft drie laagvlaktes: de Kempense, die van de Kust en de Vlaamse. Herve, Lotharingen en de Condroz liggen veel hoger.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze zijn laagplateaus volgens de vakfiche? Er zijn er meerdere juist.",
+        vraag="Welke van deze gebieden in België zijn laagplateaus? Er zijn er meerdere juist.",
         opties=[
             "Het Haspengouws Laagplateau",
             "Het Henegouws Laagplateau",
@@ -73,7 +73,7 @@ DEEL1 = [
             "Het Kempens Laagplateau",
         ],
         antwoord=[0, 1, 2, 5],
-        uitleg="De fiche noemt vier laagplateaus: het Haspengouwse, het Henegouwse, het Brabantse en het Kempense. De Fagne-Famennedepressie en de Ardennen horen bij de zuidelijke eenheden.",
+        uitleg="België heeft vier laagplateaus: het Haspengouwse, het Henegouwse, het Brabantse en het Kempense. De Fagne-Famennedepressie en de Ardennen horen bij de zuidelijke eenheden.",
     ),
     dict(
         type="invultekst",
@@ -107,7 +107,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke klimaatzones noemt de vakfiche? Er zijn er meerdere juist.",
+        vraag="Met welke woorden benoem je een klimaatzone? Er zijn er meerdere juist.",
         opties=[
             "Warm",
             "Gematigd",
@@ -117,7 +117,7 @@ DEEL1 = [
             "Droog",
         ],
         antwoord=[0, 1, 2, 5],
-        uitleg="De fiche werkt met vijf woorden voor klimaatzones: warm, gematigd, koud, droog en nat. Bergachtig gaat over reliëf, winderig over het weer.",
+        uitleg="Voor klimaatzones gebruik je vijf woorden: warm, gematigd, koud, droog en nat. Bergachtig gaat over reliëf, winderig over het weer.",
     ),
     dict(
         type="meerkeuze",
@@ -145,7 +145,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze zijn vegetatiezones volgens de vakfiche? Er zijn er meerdere juist.",
+        vraag="Welke van deze zijn vegetatiezones van de wereld? Er zijn er meerdere juist.",
         opties=[
             "De toendra",
             "De taiga",
@@ -155,7 +155,7 @@ DEEL1 = [
             "Het regenwoud",
         ],
         antwoord=[0, 1, 2, 5],
-        uitleg="De fiche noemt zeven vegetatiezones: toendra, taiga, loofwoud, steppe, savanne, regenwoud en (ijs)woestijn. Hoogveen en polder zijn Belgische landschappen, geen wereldwijde zones.",
+        uitleg="Er zijn zeven vegetatiezones: toendra, taiga, loofwoud, steppe, savanne, regenwoud en (ijs)woestijn. Hoogveen en polder zijn Belgische landschappen, geen wereldwijde zones.",
     ),
     dict(
         type="meerkeuze",

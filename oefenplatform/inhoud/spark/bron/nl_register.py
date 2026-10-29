@@ -282,7 +282,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Je kleding en je uiterlijk horen ook bij de boodschap die je uitstuurt.",
         antwoord=True,
-        uitleg="De vakfiche noemt kleding en uiterlijk uitdrukkelijk bij de non-verbale communicatie.",
+        uitleg="Ook kleding en uiterlijk horen bij de non-verbale communicatie: ze zeggen iets zonder woorden.",
     ),
     dict(
         type="meerkeuze",
@@ -346,7 +346,7 @@ DEEL2 = [
             "Er bestaat maar één juiste vorm van het Nederlands",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De vakfiche vertrekt van gelijkwaardige variëteiten met elk hun eigen gebruikssituatie.",
+        uitleg="Alle variëteiten zijn gelijkwaardig, elk met hun eigen gebruikssituatie.",
     ),
     dict(
         type="meerkeuze",

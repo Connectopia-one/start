@@ -212,7 +212,7 @@ DEEL2 = [
             "Volume heeft de SI-eenheid liter",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De SI-eenheid van volume is de kubieke meter; de liter is de niet-SI-eenheid. De andere staan zo in de tabel van de vakfiche.",
+        uitleg="De SI-eenheid van volume is de kubieke meter; de liter is de niet-SI-eenheid. De andere kloppen.",
     ),
     dict(
         type="invultekst",

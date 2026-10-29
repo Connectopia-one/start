@@ -89,7 +89,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke klimaatwoorden gebruikt de vakfiche om een landschap te beschrijven? Er zijn er meerdere juist.",
+        vraag="Met welke woorden beschrijf je het klimaat van een landschap? Er zijn er meerdere juist.",
         opties=[
             "Warm",
             "Gematigd",
@@ -99,7 +99,7 @@ DEEL1 = [
             "Droog",
         ],
         antwoord=[0, 1, 2, 5],
-        uitleg="De fiche werkt met warm, gematigd, koud, droog en nat. Winderig en bewolkt zijn beschrijvingen van het weer van vandaag, niet van het klimaat.",
+        uitleg="Voor het klimaat gebruik je warm, gematigd, koud, droog en nat. Winderig en bewolkt zijn beschrijvingen van het weer van vandaag, niet van het klimaat.",
     ),
     dict(
         type="meerkeuze",
@@ -115,7 +115,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke soorten natuurlijke vegetatie noemt de fiche? Er zijn er meerdere juist.",
+        vraag="Welke van deze zijn natuurlijke vegetatie? Er zijn er meerdere juist.",
         opties=[
             "Naaldbomen",
             "Loofbomen",

@@ -99,7 +99,7 @@ DEEL1 = [
         type="waarofniet",
         vraag=r"Voldoet je systeem in fase \(5\) niet, dan begin je altijd helemaal opnieuw bij fase \(1\).",
         antwoord=False,
-        uitleg=r"De fiche zegt dat je teruggaat naar fase \(2\) of \(3\): je past het ontwerp aan of je maakt iets anders. De behoefte is intussen niet veranderd.",
+        uitleg=r"Je gaat terug naar fase \(2\) of \(3\): je past het ontwerp aan of je maakt iets anders. De behoefte is intussen niet veranderd.",
     ),
     dict(
         type="meerkeuze",
@@ -153,7 +153,7 @@ DEEL1 = [
             "Wie het werkstuk later gaat aankopen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Alles wat je in de vorige hoofdstukken geleerd hebt, komt hier samen. Dat is precies wat de fiche met een technisch proces bedoelt.",
+        uitleg="Alles wat je in de vorige hoofdstukken geleerd hebt, komt hier samen. Dat is precies wat een technisch proces is.",
     ),
     dict(
         type="waarofniet",
@@ -163,7 +163,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een technisch systeem voldoet niet aan de criteria. Wat doe je volgens de fiche?",
+        vraag="Een technisch systeem voldoet niet aan de criteria. Wat doe je dan?",
         opties=[
             r"Je keert terug naar fase \(2\) of fase \(3\)",
             "Je gooit het systeem helemaal weg",
@@ -177,7 +177,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Het technisch proces kan alleen gebruikt worden voor een constructiesysteem.",
         antwoord=False,
-        uitleg="Het werkt voor elk systeem uit de fiche, en ook voor een combinatie ervan: energie, informatieverwerkend, constructie, transport en biotechnisch.",
+        uitleg="Het werkt voor elk technisch systeem, en ook voor een combinatie ervan: energie, informatieverwerkend, constructie, transport en biotechnisch.",
     ),
     dict(
         type="meerkeuze",
@@ -189,7 +189,7 @@ DEEL1 = [
             "In de evaluatiefase",
         ],
         antwoord=0,
-        uitleg=r"Bij fase \(3\) staat in de fiche dat je toelicht hoe je op een veilige en duurzame manier met gereedschap, machines en hulpmiddelen werkt.",
+        uitleg=r"Bij fase \(3\) licht je toe hoe je op een veilige en duurzame manier met gereedschap, machines en hulpmiddelen werkt.",
     ),
     dict(
         type="meerkeuze",
@@ -201,7 +201,7 @@ DEEL1 = [
             "Het werkstuk netjes afwerken",
         ],
         antwoord=[0, 1, 2],
-        uitleg=r"Fase \(1\) heet in de fiche letterlijk probleemstelling of behoefte onderzoeken. Afwerken hoort bij het maken.",
+        uitleg=r"Fase \(1\) heet probleemstelling of behoefte onderzoeken. Afwerken hoort bij het maken.",
     ),
     dict(
         type="waarofniet",
@@ -229,13 +229,13 @@ DEEL2 = [
             "De prijs van het materiaal doen dalen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De fiche noemt ook: mogelijke oplossingen bedenken, ze in de totaaloplossing integreren, en evalueren en bijsturen.",
+        uitleg="Daarnaast horen erbij: mogelijke oplossingen bedenken, ze in de totaaloplossing integreren, en evalueren en bijsturen.",
     ),
     dict(
         type="waarofniet",
         vraag="Soms volstaat het een bestaand systeem aan te passen in plaats van een nieuw te ontwerpen.",
         antwoord=True,
-        uitleg="Dat staat zo in de fiche. Hangt af van het probleem: soms is een kleine aanpassing genoeg, soms moet alles opnieuw.",
+        uitleg="Dat hangt af van het probleem: soms is een kleine aanpassing genoeg, soms moet alles opnieuw.",
     ),
     dict(
         type="meerkeuze",
@@ -283,7 +283,7 @@ DEEL2 = [
             "Geen enkele bijzondere kennis",
         ],
         antwoord=0,
-        uitleg="Dat voorbeeld staat in de fiche. Voor het ontwikkelen van het vaccin zelf was wetenschappelijke kennis nodig.",
+        uitleg="Voor het ontwikkelen van het vaccin zelf was wetenschappelijke kennis nodig.",
     ),
     dict(
         type="meerkeuze",
@@ -350,7 +350,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Een ontwerp is pas goed als je het probleem vanuit één vakgebied bekijkt.",
         antwoord=False,
-        uitleg="Net omgekeerd: de fiche zegt dat je een goede oplossing enkel krijgt door het probleem vanuit de verschillende STEM-disciplines te bekijken.",
+        uitleg="Net omgekeerd: je krijgt een goede oplossing enkel door het probleem vanuit de verschillende STEM-disciplines te bekijken.",
     ),
     dict(
         type="meerkeuze",

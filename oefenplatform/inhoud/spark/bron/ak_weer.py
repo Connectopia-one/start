@@ -38,7 +38,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke van deze zijn weerelementen volgens de vakfiche? Er zijn er meerdere juist.",
+        vraag="Welke van deze zijn weerelementen? Er zijn er meerdere juist.",
         opties=[
             "De temperatuur",
             "De luchtdruk",
@@ -48,7 +48,7 @@ DEEL1 = [
             "De windsnelheid",
         ],
         antwoord=[0, 1, 2, 5],
-        uitleg="De fiche noemt vijf weerelementen: temperatuur, luchtdruk, windsnelheid, windrichting en neerslag. Hoogteligging en bodem horen bij het landschap, niet bij het weer.",
+        uitleg="Er zijn vijf weerelementen: temperatuur, luchtdruk, windsnelheid, windrichting en neerslag. Hoogteligging en bodem horen bij het landschap, niet bij het weer.",
     ),
     dict(
         type="meerkeuze",

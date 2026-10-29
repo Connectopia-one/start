@@ -198,7 +198,7 @@ DEEL2 = [
          vraag="Waar ga je naartoe om geld af te halen of een rekening te openen?",
          opties=["to the bank", "to the library", "to the post office", "to the market"],
          antwoord=0,
-         uitleg="A bank = een bank, a library = een bibliotheek, a post office = een postkantoor. Allemaal 'diensten' uit de vakfiche."),
+         uitleg="A bank = een bank, a library = een bibliotheek, a post office = een postkantoor. Allemaal diensten."),
     dict(type="invultekst",
          vraag="Waar ga je naartoe om een boek te ontlenen? Antwoord in het Engels, één woord.",
          antwoord="library",
