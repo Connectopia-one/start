@@ -5,6 +5,7 @@ import { revalidatePath } from "next/cache";
 import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { MET_DE_HAND } from "@/lib/aanvraaglijsten";
+import { KINDVELDEN, lijstZin, watOntbreekt, type Kind } from "@/lib/kind";
 
 /*
   Een kind met de hand op een kamplijst zetten.
@@ -75,9 +76,24 @@ export async function voegKindToe(formData: FormData) {
   });
   if (error) terug(error.message, true);
 
-  terug(
-    `${kind} staat erbij, op ${dagen.length === 1 ? "1 lijst" : `${dagen.length} lijsten`}.`,
-  );
+  let bericht = `${kind} staat erbij, op ${dagen.length === 1 ? "1 lijst" : `${dagen.length} lijsten`}.`;
+
+  /* Gekozen uit de kinderen van het ouderportaal: zeg erbij als de fiche
+     nog niet in orde is. */
+  const kindId = tekst("kind_id");
+  if (kindId) {
+    const { data: rij } = await db
+      .from("kinderen")
+      .select(KINDVELDEN)
+      .eq("id", kindId)
+      .maybeSingle();
+    const ontbreekt = rij ? watOntbreekt(rij as unknown as Kind) : [];
+    if (ontbreekt.length) {
+      bericht += ` Let op: de fiche is nog niet in orde, nog nodig is ${lijstZin(ontbreekt)}.`;
+    }
+  }
+
+  terug(bericht);
 }
 
 /* Enkel wat met de hand toegevoegd is, kan hier weg. Een echte inschrijving

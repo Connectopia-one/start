@@ -14,6 +14,10 @@ import {
   type Aanvraag,
 } from "@/lib/aanvraaglijsten";
 import { verwijderKind, voegKindToe } from "./actions";
+import { BestaandKind, type BestaandKindRij } from "./BestaandKind";
+import { KINDVELDEN, watOntbreekt, type Kind } from "@/lib/kind";
+import { leeftijd } from "@/lib/activiteiten";
+import { alleMailadressen } from "@/lib/mailadressen";
 
 /* Er kan elk moment een inschrijving bijkomen, dus niets bewaren. */
 export const dynamic = "force-dynamic";
@@ -56,6 +60,41 @@ export default async function LijstenBeheer({
   /* Voor de vakjes van het formulier: elke dag die ooit aangekruist werd,
      ook als er nu op een andere soort gefilterd is. */
   const alleDagen = maakGroepen(alles);
+
+  /* De kinderen die al in het ouderportaal staan, om er een te kiezen in
+     plaats van alles over te typen. */
+  const [{ data: kinderenData }, { data: gezinnenData }, mails] =
+    await Promise.all([
+      db.from("kinderen").select(`${KINDVELDEN}, profile_id`).order("naam"),
+      db.from("profiles").select("id, full_name, telefoon"),
+      alleMailadressen(),
+    ]);
+  const gezinnen = new Map(
+    (
+      (gezinnenData ?? []) as {
+        id: string;
+        full_name: string | null;
+        telefoon: string | null;
+      }[]
+    ).map((g) => [g.id, g]),
+  );
+  const bestaandeKinderen: BestaandKindRij[] = (
+    (kinderenData ?? []) as unknown as (Kind & { profile_id: string })[]
+  )
+    .map((kind) => {
+      const gezin = gezinnen.get(kind.profile_id);
+      const jaar = leeftijd(kind.geboortedatum);
+      return {
+        id: kind.id,
+        naam: kind.naam,
+        leeftijd: jaar === null ? "" : String(jaar),
+        ouder: gezin?.full_name ?? "",
+        gsm: gezin?.telefoon ?? "",
+        mail: mails.get(kind.profile_id) ?? "",
+        ontbreekt: watOntbreekt(kind),
+      };
+    })
+    .sort((a, b) => a.naam.localeCompare(b.naam, "nl"));
 
   return (
     <>
@@ -159,10 +198,12 @@ export default async function LijstenBeheer({
             </summary>
             <p className="mt-2 text-sm text-ink-dim">
               Voor een kind dat niet via het formulier kwam, of dat er een dag
-              bij wil. Het telt mee op elke dag die je aanvinkt. Enkel de naam
-              en minstens één dag zijn nodig.
+              bij wil. Het telt mee op elke dag die je aanvinkt. Staat het kind
+              al in het ouderportaal, kies het dan bovenaan; anders zijn enkel
+              de naam en minstens één dag nodig.
             </p>
             <form action={voegKindToe} className="mt-4 space-y-4">
+              <BestaandKind kinderen={bestaandeKinderen} />
               <div className="grid gap-3 sm:grid-cols-2">
                 {[
                   ["kind", "Naam van het kind", true],

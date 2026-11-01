@@ -4,6 +4,7 @@ import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { requireBeheerder, requireStaff } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { KINDVELDEN, lijstZin, watOntbreekt, type Kind } from "@/lib/kind";
 
 /*
   Activiteiten aanmaken, archiveren en verwijderen, en kinderen eraan koppelen.
@@ -74,25 +75,47 @@ export async function verwijderActiviteit(formData: FormData) {
   terug("/beheer/activiteiten", "Activiteit verwijderd.");
 }
 
+/*
+  Eén of meer kinderen die al in het ouderportaal staan op een lijst zetten.
+  Het formulier op de lijst stuurt elk aangevinkt kind mee als kind_id. Een
+  kind waarvan de fiche nog niet in orde is, mag er gewoon bij; we zeggen het
+  er enkel bij, zodat Kim weet bij wie ze nog moet aandringen.
+*/
 export async function voegKindToe(formData: FormData) {
   const db = await admin();
   const activiteitId = String(formData.get("activiteit_id") || "");
-  const kindId = String(formData.get("kind_id") || "");
+  const kindIds = [
+    ...new Set(formData.getAll("kind_id").map(String).filter(Boolean)),
+  ];
   const pad = `/beheer/activiteiten/${activiteitId}`;
 
-  if (!kindId) terug(pad, "Kies eerst een kind.", true);
+  if (kindIds.length === 0) terug(pad, "Vink eerst een kind aan.", true);
 
   /* Twee keer hetzelfde kind toevoegen mag gewoon niets doen; de sleutel van
      de tabel is (activiteit, kind). */
-  const { error } = await db
-    .from("deelnames")
-    .upsert(
-      { activiteit_id: activiteitId, kind_id: kindId },
-      { onConflict: "activiteit_id,kind_id" },
-    );
-
+  const { error } = await db.from("deelnames").upsert(
+    kindIds.map((kind_id) => ({ activiteit_id: activiteitId, kind_id })),
+    { onConflict: "activiteit_id,kind_id" },
+  );
   if (error) terug(pad, error.message, true);
-  terug(pad, "Kind toegevoegd.");
+
+  const { data } = await db
+    .from("kinderen")
+    .select(KINDVELDEN)
+    .in("id", kindIds);
+  const kinderen = (data ?? []) as unknown as Kind[];
+  const zonderFiche = kinderen
+    .filter((k) => watOntbreekt(k).length > 0)
+    .map((k) => k.naam);
+
+  let bericht =
+    kindIds.length === 1
+      ? `${kinderen[0]?.naam ?? "Het kind"} staat op de lijst.`
+      : `${kindIds.length} kinderen staan op de lijst.`;
+  if (zonderFiche.length) {
+    bericht += ` Let op: de fiche van ${lijstZin(zonderFiche)} is nog niet in orde.`;
+  }
+  terug(pad, bericht);
 }
 
 export async function haalKindWeg(formData: FormData) {

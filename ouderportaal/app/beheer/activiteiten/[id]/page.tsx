@@ -6,7 +6,14 @@ import { Header } from "@/components/Header";
 import { FicheRegels } from "@/components/FicheRegels";
 import { Aanwezigheid, AanwezigheidStand } from "@/components/Aanwezigheid";
 import { Kopieer } from "../../aanvragen/Kopieer";
-import { KINDVELDEN, samen, type Kind } from "@/lib/kind";
+import {
+  KINDVELDEN,
+  lijstZin,
+  samen,
+  watOntbreekt,
+  type Kind,
+} from "@/lib/kind";
+import { KinderenKiezen, type AndereLijst } from "./KinderenKiezen";
 import {
   ACTIVITEITVELDEN,
   datumTekst,
@@ -77,9 +84,16 @@ export default async function ActiviteitLijst({
   const alleKinderen = (kinderenData ?? []) as unknown as KindRij[];
   const deelnameVan = new Map(deelnames.map((d) => [d.kind_id, d]));
 
-  const { data: gezinnenData } = await db
-    .from("profiles")
-    .select("id, full_name, telefoon");
+  const [{ data: gezinnenData }, { data: andereData }, { data: alleDeelnames }] =
+    await Promise.all([
+      db.from("profiles").select("id, full_name, telefoon"),
+      db
+        .from("activiteiten")
+        .select(ACTIVITEITVELDEN)
+        .eq("archief", false)
+        .neq("id", id),
+      db.from("deelnames").select("activiteit_id, kind_id").neq("activiteit_id", id),
+    ]);
   const gezinnen = new Map(
     ((gezinnenData ?? []) as Gezin[]).map((g) => [g.id, g]),
   );
@@ -88,6 +102,26 @@ export default async function ActiviteitLijst({
     .filter((kind) => deelnameVan.has(kind.id))
     .sort((a, b) => a.naam.localeCompare(b.naam, "nl"));
   const rest = alleKinderen.filter((kind) => !deelnameVan.has(kind.id));
+
+  /* De andere lijsten die nog lopen, om in één klik al hun kinderen aan te
+     vinken: de plusklas die mee op kamp komt, of de kampdag van gisteren. */
+  const kinderenPerLijst = new Map<string, string[]>();
+  for (const d of (alleDeelnames ?? []) as {
+    activiteit_id: string;
+    kind_id: string;
+  }[]) {
+    const lijst = kinderenPerLijst.get(d.activiteit_id) ?? [];
+    lijst.push(d.kind_id);
+    kinderenPerLijst.set(d.activiteit_id, lijst);
+  }
+  const andereLijsten: AndereLijst[] = ((andereData ?? []) as Activiteit[])
+    .filter((a) => kinderenPerLijst.has(a.id))
+    .map((a) => ({
+      id: a.id,
+      naam: a.datum ? `${a.naam} (${datumTekst(a.datum)})` : a.naam,
+      kinderen: kinderenPerLijst.get(a.id) ?? [],
+    }))
+    .sort((a, b) => a.naam.localeCompare(b.naam, "nl"));
 
   const aanwezigen = deelnames.filter((d) => d.aanwezig !== false).length;
   const nietAangeduid = deelnames.filter((d) => d.aanwezig === null).length;
@@ -172,38 +206,20 @@ export default async function ActiviteitLijst({
         {/* Een kind erbij zetten kan ook hier, niet enkel op het gezinsscherm.
             Handig als je de lijst voor je hebt en er nog iemand bij komt. */}
         {rest.length > 0 && (
-          <form
-            action={voegKindToe}
-            className="mt-6 flex flex-wrap items-end gap-2 print:hidden"
-          >
-            <input type="hidden" name="activiteit_id" value={kamp.id} />
-            <label className="min-w-[14rem] flex-1">
-              <span className="text-sm font-medium text-ink">
-                Een kind erbij zetten
-              </span>
-              <select
-                name="kind_id"
-                defaultValue=""
-                className="mt-1 w-full rounded-md border border-border bg-surface px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
-              >
-                <option value="">Kies een kind</option>
-                {rest.map((kind) => (
-                  <option key={kind.id} value={kind.id}>
-                    {kind.naam}
-                    {gezinnen.get(kind.profile_id)?.full_name
-                      ? ` — ${gezinnen.get(kind.profile_id)?.full_name}`
-                      : ""}
-                  </option>
-                ))}
-              </select>
-            </label>
-            <button
-              type="submit"
-              className="rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
-            >
-              Toevoegen
-            </button>
-          </form>
+          <KinderenKiezen
+            activiteitId={kamp.id}
+            actie={voegKindToe}
+            andereLijsten={andereLijsten}
+            kinderen={rest
+              .map((kind) => ({
+                id: kind.id,
+                naam: kind.naam,
+                leeftijd: leeftijd(kind.geboortedatum),
+                gezin: gezinnen.get(kind.profile_id)?.full_name ?? null,
+                ontbreekt: watOntbreekt(kind),
+              }))
+              .sort((a, b) => a.naam.localeCompare(b.naam, "nl"))}
+          />
         )}
 
         {opDeLijst.length > 0 && (
@@ -252,6 +268,7 @@ export default async function ActiviteitLijst({
             const notitie = deelname?.notitie ?? "";
             const leeg =
               !kind.allergieen && !kind.medicatie && !kind.noodcontact_telefoon;
+            const ontbreekt = watOntbreekt(kind);
             return (
               <li
                 key={kind.id}
@@ -308,16 +325,17 @@ export default async function ActiviteitLijst({
                   </p>
                 )}
 
-                {leeg ? (
+                {ontbreekt.length > 0 && (
                   <p className="mt-2 rounded-md bg-amber/10 px-3 py-2 text-xs text-ink">
-                    De fiche van dit kind is nog niet ingevuld. Vraag de ouder
-                    om ze aan te vullen op ouders.connectopia.one.
+                    {leeg
+                      ? "De fiche van dit kind is nog niet ingevuld."
+                      : `De fiche is nog niet in orde: nog nodig is ${lijstZin(ontbreekt)}.`}{" "}
+                    Vraag de ouder om ze aan te vullen op ouders.connectopia.one.
                   </p>
-                ) : (
-                  <div className="mt-2">
-                    <FicheRegels kind={kind} />
-                  </div>
                 )}
+                <div className="mt-2">
+                  <FicheRegels kind={kind} />
+                </div>
 
                 <div className="mt-2 flex flex-wrap gap-2">
                   <span
