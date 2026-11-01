@@ -14,6 +14,7 @@ import {
   type Kind,
 } from "@/lib/kind";
 import { KinderenKiezen, type AndereLijst } from "./KinderenKiezen";
+import { Afdrukken } from "./Afdrukken";
 import {
   ACTIVITEITVELDEN,
   datumTekst,
@@ -205,7 +206,32 @@ export default async function ActiviteitLijst({
 
         {/* Een kind erbij zetten kan ook hier, niet enkel op het gezinsscherm.
             Handig als je de lijst voor je hebt en er nog iemand bij komt. */}
+        {opDeLijst.length > 0 && (
+          <div className="mt-5 print:hidden">
+            <div className="flex flex-wrap gap-2">
+              <Afdrukken />
+              <Kopieer
+                waarde={tabel}
+                wat={`de lijst van ${kamp.naam}`}
+                label="Kopieer de lijst"
+                stijl="vol"
+              />
+            </div>
+            <p className="mt-1.5 text-xs text-ink-dim">
+              Afdrukken toont de fiches van alle kinderen hieronder; kies in het
+              venster &ldquo;Opslaan als pdf&rdquo; om ze te downloaden. De
+              lijst kopiëren is om in een rekenblad te plakken.
+            </p>
+          </div>
+        )}
         {rest.length > 0 && (
+          <details
+            open={opDeLijst.length === 0}
+            className="mt-6 rounded-lg border border-border bg-surface p-4 print:hidden"
+          >
+            <summary className="cursor-pointer font-medium text-ink">
+              Kinderen erbij zetten
+            </summary>
           <KinderenKiezen
             activiteitId={kamp.id}
             actie={voegKindToe}
@@ -220,22 +246,9 @@ export default async function ActiviteitLijst({
               }))
               .sort((a, b) => a.naam.localeCompare(b.naam, "nl"))}
           />
+          </details>
         )}
 
-        {opDeLijst.length > 0 && (
-          <div className="mt-5 print:hidden">
-            <Kopieer
-              waarde={tabel}
-              wat={`de lijst van ${kamp.naam}`}
-              label="Kopieer de lijst"
-              stijl="vol"
-            />
-            <p className="mt-1.5 text-xs text-ink-dim">
-              Plak je dit in een rekenblad, dan komt elke kolom apart te staan.
-              Op papier zetten doe je met ctrl+p; de knoppen gaan niet mee.
-            </p>
-          </div>
-        )}
 
         {opDeLijst.length === 0 && (
           <p className="mt-6 text-sm text-ink-dim">

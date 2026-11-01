@@ -87,15 +87,14 @@ export function KinderenKiezen({
   return (
     <form
       action={actie}
-      className="mt-6 rounded-lg border border-border bg-surface p-4 print:hidden"
+      className="mt-2"
     >
       <input type="hidden" name="activiteit_id" value={activiteitId} />
       {[...gekozen].map((id) => (
         <input key={id} type="hidden" name="kind_id" value={id} />
       ))}
 
-      <p className="font-medium text-ink">Kinderen erbij zetten</p>
-      <p className="mt-0.5 text-xs text-ink-dim">
+      <p className="text-xs text-ink-dim">
         Klik de kinderen aan die al in het ouderportaal staan. Hun fiche komt
         vanzelf mee; die moet niet opnieuw ingevuld worden.
       </p>
