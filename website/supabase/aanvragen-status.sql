@@ -13,7 +13,7 @@
 -- moet veranderen. "Behandeld" blijft de bestaande kolom afgehandeld.
 
 alter table public.aanvragen
-  add column if not exists stappen text[] not null default '{}';
+  add column if not exists stappen text[] not null default array[]::text[];
 
 alter table public.aanvragen
   add column if not exists gearchiveerd boolean not null default false;
