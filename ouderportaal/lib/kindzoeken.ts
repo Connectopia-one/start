@@ -83,13 +83,28 @@ export function zoekKind(
 
   const gsm = cijfers(ouder.gsm);
   const mail = (ouder.mail ?? "").trim().toLowerCase();
-  const zelfdeGezin = lijktOp.filter(
-    (k) =>
-      (gsm.length >= 9 && cijfers(k.telefoon) === gsm) ||
-      (mail && (k.mail ?? "").toLowerCase() === mail),
-  );
+  const vanGezin = (k: PortaalKind) =>
+    (gsm.length >= 9 && cijfers(k.telefoon) === gsm) ||
+    (!!mail && (k.mail ?? "").trim().toLowerCase() === mail);
+
+  const zelfdeGezin = lijktOp.filter(vanGezin);
   if (zelfdeGezin.length === 1) return zelfdeGezin[0];
   if (lijktOp.length === 1) return lijktOp[0];
+
+  /* De naam lijkt op niets, maar het gezin staat er wel, met hetzelfde
+     mailadres of gsm-nummer. Kim op 2 november 2026: Jaxx, Kid, Lennert en
+     Logan stonden als "zonder fiche" terwijl hun gezin een fiche in orde had;
+     in het ouderportaal heet het kind anders dan op het formulier. Heeft dat
+     gezin één kind, dan is het dat kind. Heeft het er meer, dan nemen we het
+     enige wiens voornaam er nog wat op lijkt, anders niets. */
+  const gezin = kinderen.filter(vanGezin);
+  if (gezin.length === 1) return gezin[0];
+  const bijna = gezin.filter((k) => {
+    const andere = plat(k.naam).split(" ")[0];
+    return andere.startsWith(voornaam) || voornaam.startsWith(andere) ||
+      afstand(andere, voornaam) <= 2;
+  });
+  if (bijna.length === 1) return bijna[0];
   return null;
 }
 
