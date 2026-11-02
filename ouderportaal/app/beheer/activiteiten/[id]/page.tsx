@@ -15,6 +15,10 @@ import {
 } from "@/lib/kind";
 import { KinderenKiezen, type AndereLijst } from "./KinderenKiezen";
 import { Afdrukken } from "./Afdrukken";
+import { maakGroepen, vindWaarde, type Aanvraag } from "@/lib/aanvraaglijsten";
+import { zoekKind } from "@/lib/kindzoeken";
+import { portaalKinderen } from "@/lib/portaalkinderen";
+import { naarKampen } from "../../aanvragen/lijsten/actions";
 import {
   ACTIVITEITVELDEN,
   datumTekst,
@@ -123,6 +127,43 @@ export default async function ActiviteitLijst({
       kinderen: kinderenPerLijst.get(a.id) ?? [],
     }))
     .sort((a, b) => a.naam.localeCompare(b.naam, "nl"));
+
+  /* Komt deze lijst uit de inschrijvingen (zelfde naam als een kampdag daar),
+     dan tonen we ook wie ingeschreven is maar geen fiche heeft, en wie
+     sindsdien bij inschreef. */
+  const { data: aanvraagData } = await db
+    .from("aanvragen")
+    .select("id, onderwerp, soort, gegevens, gezien, afgehandeld, created_at")
+    .limit(1000);
+  const groep = maakGroepen((aanvraagData ?? []) as Aanvraag[]).find(
+    (g) => g.naam === kamp.naam,
+  );
+  const portaal = groep ? await portaalKinderen() : [];
+  const zonderFiche: {
+    naam: string;
+    leeftijd: string | null;
+    ouder: string | null;
+    gsm: string | null;
+  }[] = [];
+  let nogNietErop = 0;
+  for (const rij of groep?.rijen ?? []) {
+    const gsm = vindWaarde(rij.aanvraag.gegevens, "gsm");
+    const gevonden = zoekKind(
+      rij.kind,
+      { gsm, mail: vindWaarde(rij.aanvraag.gegevens, "mail") },
+      portaal,
+    );
+    if (!gevonden) {
+      zonderFiche.push({
+        naam: rij.kind,
+        leeftijd: rij.leeftijd,
+        ouder: vindWaarde(rij.aanvraag.gegevens, "ouder"),
+        gsm,
+      });
+    } else if (!deelnameVan.has(gevonden.id)) {
+      nogNietErop++;
+    }
+  }
 
   const aanwezigen = deelnames.filter((d) => d.aanwezig !== false).length;
   const nietAangeduid = deelnames.filter((d) => d.aanwezig === null).length;
@@ -415,6 +456,49 @@ export default async function ActiviteitLijst({
             );
           })}
         </ul>
+
+        {groep && nogNietErop > 0 && (
+          <form
+            action={naarKampen}
+            className="mt-5 rounded-md bg-forest/10 px-4 py-3 text-sm text-ink print:hidden"
+          >
+            <input type="hidden" name="groep" value={groep.naam} />
+            {nogNietErop === 1
+              ? "Er schreef nog 1 kind uit het ouderportaal in voor deze dag dat hier nog niet staat."
+              : `Er schreven nog ${nogNietErop} kinderen uit het ouderportaal in voor deze dag die hier nog niet staan.`}{" "}
+            <button
+              type="submit"
+              className="ml-1 font-medium text-forest-dark underline underline-offset-2"
+            >
+              Zet ze erbij
+            </button>
+          </form>
+        )}
+
+        {zonderFiche.length > 0 && (
+          <section className="mt-6 rounded-lg border border-amber/50 bg-amber/10 p-4 text-sm print:break-inside-avoid">
+            <h2 className="font-display text-base font-semibold text-ink">
+              Ingeschreven, maar zonder fiche in het ouderportaal
+            </h2>
+            <p className="mt-1 text-xs text-ink-dim">
+              Deze kinderen schreven in voor deze dag, maar staan niet (of onder
+              een andere naam) in het ouderportaal. Er is dus geen fiche: vraag
+              allergieën, medicatie en een noodnummer na bij het afzetten.
+            </p>
+            <ul className="mt-2 space-y-1">
+              {zonderFiche.map((k, i) => (
+                <li key={`${k.naam}-${i}`}>
+                  <strong className="text-ink">{k.naam}</strong>
+                  <span className="text-ink-dim">
+                    {k.leeftijd ? ` · ${k.leeftijd}${/jaar/.test(k.leeftijd) ? "" : " jaar"}` : ""}
+                    {k.ouder ? ` · ${k.ouder}` : ""}
+                    {k.gsm ? ` · ${k.gsm}` : ""}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         {/* Twee dingen die je maar af en toe nodig hebt, dus dichtgeklapt: ze
             horen niet in de weg te staan als je met de lijst in de zaal

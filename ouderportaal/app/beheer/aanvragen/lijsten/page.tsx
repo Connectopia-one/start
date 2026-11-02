@@ -13,7 +13,7 @@ import {
   waardeVan,
   type Aanvraag,
 } from "@/lib/aanvraaglijsten";
-import { verwijderKind, voegKindToe } from "./actions";
+import { naarKampen, verwijderKind, voegKindToe } from "./actions";
 import { BestaandKind, type BestaandKindRij } from "./BestaandKind";
 import { KINDVELDEN, watOntbreekt, type Kind } from "@/lib/kind";
 import { leeftijd } from "@/lib/activiteiten";
@@ -274,6 +274,22 @@ export default async function LijstenBeheer({
           </p>
         )}
 
+        {groepen.length > 1 && (
+          <form action={naarKampen} className="mt-6 print:hidden">
+            <button
+              type="submit"
+              className="rounded-md border border-forest px-3 py-1.5 text-sm font-medium text-forest-dark hover:bg-forest/10"
+            >
+              Zet alle kampdagen bij Kampen en lessen
+            </button>
+            <p className="mt-1 text-xs text-ink-dim">
+              Elke dag met een datum komt er als kamp te staan, met de kinderen
+              die in het ouderportaal staan en hun fiche. Wat er al stond,
+              blijft staan.
+            </p>
+          </form>
+        )}
+
         <p className="mt-6 text-xs text-ink-dim print:hidden">
           Tip: wil je zo&apos;n lijst op papier, druk de pagina dan af met
           ctrl+p. De knopjes worden dan niet meegeprint.
@@ -370,11 +386,19 @@ export default async function LijstenBeheer({
                 </div>
 
                 <div className="mt-4 flex flex-wrap gap-2 print:hidden">
+                  <form action={naarKampen}>
+                    <input type="hidden" name="groep" value={groep.naam} />
+                    <button
+                      type="submit"
+                      className="rounded-md bg-forest px-3 py-1.5 text-sm font-medium text-white hover:bg-forest-dark"
+                    >
+                      Fiches van deze dag afdrukken
+                    </button>
+                  </form>
                   <Kopieer
                     waarde={alsTabel(groep)}
                     wat={`de lijst van ${groep.naam}`}
                     label="Kopieer de lijst"
-                    stijl="vol"
                   />
                   {adressen.length > 0 && (
                     <Kopieer
@@ -385,8 +409,10 @@ export default async function LijstenBeheer({
                   )}
                 </div>
                 <p className="mt-1.5 text-xs text-ink-dim print:hidden">
-                  De lijst plak je zo in een rekenblad: elke kolom komt apart te
-                  staan. De adressen horen in het bcc-vak.
+                  Fiches afdrukken zet deze dag bij Kampen en lessen, met elk
+                  kind dat in het ouderportaal staat, en opent die lijst met
+                  alle fiches. De lijst kopiëren is om in een rekenblad te
+                  plakken; de adressen horen in het bcc-vak.
                 </p>
               </section>
             );
