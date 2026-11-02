@@ -1,9 +1,17 @@
 import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { Header } from "@/components/Header";
-import { markeerAllesGezien, verwijderAanvraag, zetAfgehandeld } from "./actions";
+import {
+  archiveerBehandeld,
+  markeerAllesGezien,
+  verwijderAanvraag,
+  zetAfgehandeld,
+  zetArchief,
+  zetStap,
+} from "./actions";
 import { Kopieer } from "./Kopieer";
-import { vindWaarde, type Aanvraag } from "@/lib/aanvraaglijsten";
+import { MET_DE_HAND, vindWaarde, type Aanvraag } from "@/lib/aanvraaglijsten";
+import { STAPPEN } from "@/lib/aanvraagstappen";
 
 /* Aanvragen komen binnen terwijl je kijkt, dus niets bewaren. */
 export const dynamic = "force-dynamic";
@@ -71,19 +79,41 @@ function kort(onderwerp: string) {
   return zonder || onderwerp;
 }
 
-const STATUSSEN = [
-  { sleutel: "", naam: "Alles" },
-  { sleutel: "nieuw", naam: "Nieuw" },
-  { sleutel: "open", naam: "Nog open" },
-  { sleutel: "afgehandeld", naam: "Afgehandeld" },
+/*
+  De drie tabbladen. Kim op 2 november 2026: "voor degene die ik nog echt moet
+  behandelen, dat die enkel nog op het scherm staan, dat de anderen op een
+  tweede tabblad komen. Nu moet ik altijd scrollen door iedereen." En ze wou
+  ook een archief, nog altijd verdeeld per soort.
+*/
+const TABS = [
+  { sleutel: "", naam: "Te behandelen" },
+  { sleutel: "behandeld", naam: "Behandeld" },
+  { sleutel: "archief", naam: "Archief" },
 ] as const;
+type Tab = (typeof TABS)[number]["sleutel"];
 
-function filterLink(onderwerp: string, status: string) {
+function opTab(a: Aanvraag, tab: Tab) {
+  if (tab === "archief") return Boolean(a.gearchiveerd);
+  if (a.gearchiveerd) return false;
+  return tab === "behandeld" ? a.afgehandeld : !a.afgehandeld;
+}
+
+function filterLink(tab: string, onderwerp: string, stap: string) {
   const vraag = new URLSearchParams();
+  if (tab) vraag.set("tab", tab);
   if (onderwerp) vraag.set("onderwerp", onderwerp);
-  if (status) vraag.set("status", status);
+  if (stap) vraag.set("stap", stap);
   const tekst = vraag.toString();
   return tekst ? `/beheer/aanvragen?${tekst}` : "/beheer/aanvragen";
+}
+
+/* Voldoet een aanvraag aan de gekozen stap-filter? "geen mail" is wie nog
+   geen mail kreeg, want dat is wat je meestal zoekt. */
+function opStap(a: Aanvraag, stap: string) {
+  if (!stap) return true;
+  if (stap === "nieuw") return !a.gezien;
+  if (stap === "geen mail") return !(a.stappen ?? []).includes("mail verstuurd");
+  return (a.stappen ?? []).includes(stap);
 }
 
 /* Eén knopje in de filterrij. Aan staat het in het donkergroen. */
@@ -117,53 +147,101 @@ export default async function AanvragenBeheer({
     fout?: string;
     succes?: string;
     onderwerp?: string;
-    status?: string;
+    stap?: string;
+    tab?: string;
   }>;
 }) {
   const session = await requireBeheerder();
-  const { fout, succes, onderwerp: gekozen = "", status = "" } = await searchParams;
+  const {
+    fout,
+    succes,
+    onderwerp: gekozen = "",
+    stap = "",
+    tab: tabWaarde = "",
+  } = await searchParams;
+  const tab: Tab = TABS.some((t) => t.sleutel === tabWaarde)
+    ? (tabWaarde as Tab)
+    : "";
   const naam = session.profile?.full_name ?? session.email ?? "";
-
-  const db = createAdminClient();
-  const { data, error } = await db
-    .from("aanvragen")
-    .select("id, onderwerp, soort, gegevens, gezien, afgehandeld, created_at")
-    .order("created_at", { ascending: false })
-    .limit(300);
-
-  const alles = (data ?? []) as Aanvraag[];
+  const hier = filterLink(tab, gekozen, stap);
 
   /*
-    Filteren op soort aanvraag en op status. Kim vroeg dit op 8 oktober 2026:
-    "kan ik ook de aanvragen die binnenkomen filteren? Op vakantiekamp,
-    proefles, meetesten enzo?" Met acht formulieren door elkaar wordt de lijst
-    anders onleesbaar.
+    De kolommen stappen en gearchiveerd komen uit aanvragen-status.sql. Is
+    dat nog niet gedraaid, dan lezen we zonder, zodat de lijst gewoon blijft
+    werken, en zeggen we wat er moet gebeuren.
+  */
+  const db = createAdminClient();
+  const VELDEN = "id, onderwerp, soort, gegevens, gezien, afgehandeld, created_at";
+  let statusKlaar = true;
+  const eerste = await db
+    .from("aanvragen")
+    .select(`${VELDEN}, stappen, gearchiveerd`)
+    .order("created_at", { ascending: false })
+    .limit(1000);
+  let data: unknown[] | null = eerste.data;
+  let error = eerste.error;
+  if (error && /stappen|gearchiveerd/.test(error.message)) {
+    statusKlaar = false;
+    const zonder = await db
+      .from("aanvragen")
+      .select(VELDEN)
+      .order("created_at", { ascending: false })
+      .limit(1000);
+    data = zonder.data;
+    error = zonder.error;
+  }
+
+  /*
+    Enkel wat van buiten komt. Een kind dat Kim zelf op een kamplijst zette,
+    staat in dezelfde tabel (zie lib/aanvraaglijsten.ts), maar is geen
+    aanvraag. Kim op 2 november 2026: "mijn dingen zouden daar niet bij
+    moeten staan, enkel de externe aanvragen."
+  */
+  const alles = ((data ?? []) as unknown as Aanvraag[]).filter(
+    (a) => a.soort !== MET_DE_HAND,
+  );
+  const opDitTab = alles.filter((a) => opTab(a, tab));
+
+  /*
+    Filteren op soort aanvraag. Kim vroeg dit op 8 oktober 2026: "kan ik ook
+    de aanvragen die binnenkomen filteren? Op vakantiekamp, proefles,
+    meetesten enzo?" De knopjes tellen wat er op dit tabblad staat, zodat het
+    archief ook per soort verdeeld blijft.
 
     De onderwerpen komen uit de aanvragen zelf en niet uit een vaste lijst.
     Zet de website er morgen een formulier bij, dan staat dat knopje hier
-    vanzelf, zonder dat hier iets moet veranderen.
+    vanzelf.
   */
   const perOnderwerp = new Map<string, number>();
-  for (const a of alles) {
+  for (const a of opDitTab) {
     perOnderwerp.set(a.onderwerp, (perOnderwerp.get(a.onderwerp) ?? 0) + 1);
   }
+  /* Staat er een soort gekozen die op dit tabblad leeg is, laat dat knopje
+     dan toch staan, anders zie je niet waarom de lijst leeg is. */
+  if (gekozen && !perOnderwerp.has(gekozen)) perOnderwerp.set(gekozen, 0);
   const onderwerpen = [...perOnderwerp.entries()].sort(
     (a, b) => b[1] - a[1] || kort(a[0]).localeCompare(kort(b[0]), "nl"),
   );
 
-  const aanvragen = alles.filter((a) => {
-    if (gekozen && a.onderwerp !== gekozen) return false;
-    if (status === "nieuw") return !a.gezien;
-    if (status === "open") return !a.afgehandeld;
-    if (status === "afgehandeld") return a.afgehandeld;
-    return true;
-  });
+  const vanSoort = opDitTab.filter((a) => !gekozen || a.onderwerp === gekozen);
+  const aanvragen = vanSoort.filter((a) => opStap(a, stap));
 
+  const STAPFILTERS = [
+    { sleutel: "", naam: "Alles" },
+    { sleutel: "nieuw", naam: "Nieuw" },
+    ...(statusKlaar
+      ? [
+          { sleutel: "geen mail", naam: "Nog geen mail" },
+          ...STAPPEN.map((s) => ({ sleutel: s.sleutel as string, naam: s.naam })),
+        ]
+      : []),
+  ];
+
+  const telTab = (t: Tab) => alles.filter((a) => opTab(a, t)).length;
   const nieuw = alles.filter((a) => !a.gezien).length;
-  const open = alles.filter((a) => !a.afgehandeld).length;
-  const gefilterd = Boolean(gekozen || status);
+  const gefilterd = Boolean(gekozen || stap);
   /* Dubbels zoeken we in de hele lijst: twee aanvragen van dezelfde persoon
-     blijven dubbel, ook al staat er een filter aan. */
+     blijven dubbel, ook al staan ze op een ander tabblad. */
   const dubbels = zoekDubbels(alles);
   /* De mailadressen van wat er nu in de lijst staat, elk één keer en in de
      volgorde waarin ze binnenkwamen. Een vakje met een vraag over mail kan ook
@@ -191,9 +269,8 @@ export default async function AanvragenBeheer({
           Aanvragen van de website
         </h1>
         <p className="mt-1 text-sm text-ink-dim">
-          {alles.length} aanvra{alles.length === 1 ? "ag" : "gen"}
+          {telTab("")} te behandelen
           {nieuw > 0 ? ` · ${nieuw} nieuw` : ""}
-          {open > 0 ? ` · ${open} nog open` : ""}
           {gefilterd ? ` · ${aanvragen.length} getoond` : ""}
         </p>
 
@@ -212,18 +289,51 @@ export default async function AanvragenBeheer({
           </a>
         </div>
 
-        {/* Filteren op soort aanvraag. De knopjes staan er alleen als er meer
-            dan één soort binnengekomen is; bij één soort zouden ze niets
-            doen. */}
+        {!statusKlaar && (
+          <div className="mt-4 rounded-lg border border-amber/40 bg-amber/10 px-5 py-4 text-sm text-ink">
+            <p className="font-medium">Nog één SQL-bestand te draaien.</p>
+            <p className="mt-1 text-ink-dim">
+              Voor de knoppen mail verstuurd, gebeld, ingeschreven en het
+              archief: open Supabase, ga naar de SQL Editor en voer{" "}
+              <code className="rounded bg-ink/5 px-1">
+                website/supabase/aanvragen-status.sql
+              </code>{" "}
+              uit. Tot dan werken Te behandelen en Behandeld al wel.
+            </p>
+          </div>
+        )}
+
+        {/* De tabbladen: wat nog moet, wat behandeld is, en het archief. */}
+        <div className="mt-6 flex flex-wrap gap-1 border-b border-border">
+          {TABS.map((t) => {
+            const aan = tab === t.sleutel;
+            return (
+              <a
+                key={t.sleutel}
+                href={filterLink(t.sleutel, gekozen, "")}
+                className={`-mb-px rounded-t-md border px-4 py-2 text-sm font-medium transition ${
+                  aan
+                    ? "border-border border-b-surface bg-surface text-ink"
+                    : "border-transparent text-ink-dim hover:text-forest-dark"
+                }`}
+              >
+                {t.naam}{" "}
+                <span className="font-normal opacity-70">{telTab(t.sleutel)}</span>
+              </a>
+            );
+          })}
+        </div>
+
+        {/* Filteren op soort aanvraag, binnen dit tabblad. */}
         {onderwerpen.length > 1 && (
           <div className="mt-4 flex flex-wrap gap-2">
-            <Knopje href={filterLink("", status)} aan={!gekozen}>
+            <Knopje href={filterLink(tab, "", stap)} aan={!gekozen}>
               Alle soorten
             </Knopje>
             {onderwerpen.map(([naam, aantal]) => (
               <Knopje
                 key={naam}
-                href={filterLink(naam, status)}
+                href={filterLink(tab, naam, stap)}
                 aan={gekozen === naam}
               >
                 {kort(naam)} <span className="opacity-70">{aantal}</span>
@@ -232,18 +342,22 @@ export default async function AanvragenBeheer({
           </div>
         )}
 
-        {/* En op status: nieuw, nog open of afgehandeld. */}
-        {alles.length > 0 && (
+        {/* En op wat er al gebeurde. */}
+        {opDitTab.length > 0 && (
           <div className="mt-2 flex flex-wrap gap-2">
-            {STATUSSEN.map((s) => (
-              <Knopje
-                key={s.sleutel}
-                href={filterLink(gekozen, s.sleutel)}
-                aan={status === s.sleutel}
-              >
-                {s.naam}
-              </Knopje>
-            ))}
+            {STAPFILTERS.map((s) => {
+              const aantal = vanSoort.filter((a) => opStap(a, s.sleutel)).length;
+              return (
+                <Knopje
+                  key={s.sleutel}
+                  href={filterLink(tab, gekozen, s.sleutel)}
+                  aan={stap === s.sleutel}
+                >
+                  {s.naam}
+                  {s.sleutel && <span className="opacity-70"> {aantal}</span>}
+                </Knopje>
+              );
+            })}
           </div>
         )}
         {dubbels.size > 0 && (
@@ -283,50 +397,70 @@ export default async function AanvragenBeheer({
           </p>
         )}
 
-        {/* Eén knop voor alle mailadressen van wat er nu in de lijst staat.
-            Samen met de filter erboven is dat precies wat je nodig hebt om
-            bijvoorbeeld iedereen van het vakantiekamp in één keer te mailen:
-            filter op dat kamp, kopieer, en plak in het bcc-vak. We zetten ze
-            achter puntkomma's, want dat is wat een mailprogramma verwacht, en
-            elk adres staat er maar één keer in. */}
-        {adressen.length > 1 && (
-          <div className="mt-4">
-            <Kopieer
-              waarde={adressen.join("; ")}
-              wat={`de ${adressen.length} mailadressen van deze lijst`}
-              label={`Kopieer de ${adressen.length} mailadressen`}
-              stijl="vol"
-            />
-            <p className="mt-1.5 text-xs text-ink-dim">
-              Van wat er nu in de lijst staat, elk adres één keer. Plak het in
-              het bcc-vak, zodat niemand de adressen van de anderen ziet.
-            </p>
-          </div>
-        )}
+        <div className="mt-4 flex flex-wrap items-start gap-3">
+          {/* Eén knop voor alle mailadressen van wat er nu in de lijst staat.
+              Samen met de filter erboven is dat precies wat je nodig hebt om
+              bijvoorbeeld iedereen van het vakantiekamp in één keer te mailen:
+              filter op dat kamp, kopieer, en plak in het bcc-vak. */}
+          {adressen.length > 1 && (
+            <div>
+              <Kopieer
+                waarde={adressen.join("; ")}
+                wat={`de ${adressen.length} mailadressen van deze lijst`}
+                label={`Kopieer de ${adressen.length} mailadressen`}
+                stijl="vol"
+              />
+              <p className="mt-1.5 text-xs text-ink-dim">
+                Van wat er nu in de lijst staat, elk adres één keer. Plak het in
+                het bcc-vak, zodat niemand de adressen van de anderen ziet.
+              </p>
+            </div>
+          )}
 
-        {nieuw > 0 && (
-          <form action={markeerAllesGezien} className="mt-4">
-            <button
-              type="submit"
-              className="rounded-md border border-border px-3 py-1.5 text-sm text-ink-dim hover:border-forest hover:text-forest-dark"
-            >
-              Alles als gelezen markeren
-            </button>
-          </form>
-        )}
+          {nieuw > 0 && (
+            <form action={markeerAllesGezien}>
+              <input type="hidden" name="terug" value={hier} />
+              <button
+                type="submit"
+                className="rounded-md border border-border px-3 py-1.5 text-sm text-ink-dim hover:border-forest hover:text-forest-dark"
+              >
+                Alles als gelezen markeren
+              </button>
+            </form>
+          )}
+
+          {tab === "behandeld" && statusKlaar && vanSoort.length > 0 && (
+            <form action={archiveerBehandeld}>
+              <input type="hidden" name="terug" value={hier} />
+              <input type="hidden" name="onderwerp" value={gekozen} />
+              <button
+                type="submit"
+                className="rounded-md border border-border px-3 py-1.5 text-sm text-ink-dim hover:border-forest hover:text-forest-dark"
+              >
+                {gekozen
+                  ? `Deze ${vanSoort.length} van ${kort(gekozen)} naar het archief`
+                  : `Alle ${vanSoort.length} behandelde naar het archief`}
+              </button>
+            </form>
+          )}
+        </div>
 
         {!error && !aanvragen.length && (
           <p className="mt-6 text-sm text-ink-dim">
             {gefilterd ? (
               <>
                 Geen aanvragen die hieraan voldoen.{" "}
-                <a href="/beheer/aanvragen" className="underline">
-                  Toon alles
+                <a href={filterLink(tab, "", "")} className="underline">
+                  Toon alles van dit tabblad
                 </a>
                 .
               </>
+            ) : tab === "" ? (
+              "Niets meer te behandelen."
+            ) : tab === "behandeld" ? (
+              "Hier komt wat je op behandeld zet."
             ) : (
-              "Er is nog niets binnengekomen."
+              "Het archief is nog leeg."
             )}
           </p>
         )}
@@ -336,15 +470,12 @@ export default async function AanvragenBeheer({
             const mail = vindWaarde(aanvraag.gegevens, "mail");
             const gsm = vindWaarde(aanvraag.gegevens, "gsm");
             const isDubbel = dubbels.has(aanvraag.id);
+            const stappen = aanvraag.stappen ?? [];
             return (
               <li
                 key={aanvraag.id}
                 className={`rounded-lg border bg-surface p-4 ${
-                  aanvraag.afgehandeld
-                    ? "border-border opacity-70"
-                    : aanvraag.gezien
-                      ? "border-border"
-                      : "border-forest/50"
+                  aanvraag.gezien ? "border-border" : "border-forest/50"
                 }`}
               >
                 <div className="flex flex-wrap items-start justify-between gap-2">
@@ -353,7 +484,8 @@ export default async function AanvragenBeheer({
                     <p className="mt-0.5 text-xs text-ink-dim">
                       {tijdstip(aanvraag.created_at, isDubbel)}
                       {!aanvraag.gezien && " · nieuw"}
-                      {aanvraag.afgehandeld && " · afgehandeld"}
+                      {aanvraag.afgehandeld && " · behandeld"}
+                      {aanvraag.gearchiveerd && " · in het archief"}
                     </p>
                     {isDubbel && (
                       <p className="mt-1 inline-block rounded-full bg-amber/15 px-2 py-0.5 text-xs font-medium text-ink">
@@ -396,25 +528,82 @@ export default async function AanvragenBeheer({
                   ))}
                 </dl>
 
-                <div className="mt-4 flex flex-wrap gap-2">
-                  <form action={zetAfgehandeld}>
-                    <input type="hidden" name="id" value={aanvraag.id} />
-                    <input
-                      type="hidden"
-                      name="afgehandeld"
-                      value={aanvraag.afgehandeld ? "nee" : "ja"}
-                    />
-                    <button
-                      type="submit"
-                      className="rounded-md border border-border px-3 py-1.5 text-sm text-ink-dim hover:border-forest hover:text-forest-dark"
-                    >
-                      {aanvraag.afgehandeld
-                        ? "Terug openzetten"
-                        : "Afgehandeld"}
-                    </button>
-                  </form>
+                {/* Wat er al gebeurde. Een knop die aan staat is donkergroen
+                    met een vinkje; nog eens klikken zet hem uit. */}
+                {statusKlaar && (
+                  <div className="mt-4 flex flex-wrap gap-2">
+                    {STAPPEN.map((s) => {
+                      const aan = stappen.includes(s.sleutel);
+                      return (
+                        <form key={s.sleutel} action={zetStap}>
+                          <input type="hidden" name="id" value={aanvraag.id} />
+                          <input type="hidden" name="stap" value={s.sleutel} />
+                          <input type="hidden" name="aan" value={aan ? "nee" : "ja"} />
+                          <input type="hidden" name="terug" value={hier} />
+                          <button
+                            type="submit"
+                            aria-pressed={aan}
+                            className={`rounded-full px-3 py-1 text-sm transition ${
+                              aan
+                                ? "bg-forest text-white hover:bg-forest-dark"
+                                : "border border-border text-ink-dim hover:border-forest hover:text-forest-dark"
+                            }`}
+                          >
+                            {aan ? "✓ " : ""}
+                            {s.naam}
+                          </button>
+                        </form>
+                      );
+                    })}
+                  </div>
+                )}
+
+                <div className="mt-3 flex flex-wrap gap-2 border-t border-border/60 pt-3">
+                  {!aanvraag.gearchiveerd && (
+                    <form action={zetAfgehandeld}>
+                      <input type="hidden" name="id" value={aanvraag.id} />
+                      <input
+                        type="hidden"
+                        name="afgehandeld"
+                        value={aanvraag.afgehandeld ? "nee" : "ja"}
+                      />
+                      <input type="hidden" name="terug" value={hier} />
+                      <button
+                        type="submit"
+                        className={`rounded-md px-3 py-1.5 text-sm ${
+                          aanvraag.afgehandeld
+                            ? "border border-border text-ink-dim hover:border-forest hover:text-forest-dark"
+                            : "bg-forest font-medium text-white hover:bg-forest-dark"
+                        }`}
+                      >
+                        {aanvraag.afgehandeld
+                          ? "Toch nog niet behandeld"
+                          : "Behandeld"}
+                      </button>
+                    </form>
+                  )}
+                  {statusKlaar && (
+                    <form action={zetArchief}>
+                      <input type="hidden" name="id" value={aanvraag.id} />
+                      <input
+                        type="hidden"
+                        name="archief"
+                        value={aanvraag.gearchiveerd ? "nee" : "ja"}
+                      />
+                      <input type="hidden" name="terug" value={hier} />
+                      <button
+                        type="submit"
+                        className="rounded-md border border-border px-3 py-1.5 text-sm text-ink-dim hover:border-forest hover:text-forest-dark"
+                      >
+                        {aanvraag.gearchiveerd
+                          ? "Uit het archief halen"
+                          : "Naar het archief"}
+                      </button>
+                    </form>
+                  )}
                   <form action={verwijderAanvraag}>
                     <input type="hidden" name="id" value={aanvraag.id} />
+                    <input type="hidden" name="terug" value={hier} />
                     <button
                       type="submit"
                       className="rounded-md border border-border px-3 py-1.5 text-sm text-ink-dim hover:border-danger hover:text-danger"

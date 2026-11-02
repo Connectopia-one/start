@@ -6,12 +6,14 @@ import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 import {
   MET_DE_HAND,
+  gaatOverEenKind,
   maakGroepen,
   vindWaarde,
   type Aanvraag,
 } from "@/lib/aanvraaglijsten";
 import { datumUitNaam, plaatsUitNaam, zoekKind } from "@/lib/kindzoeken";
 import { portaalKinderen } from "@/lib/portaalkinderen";
+import { zetStapVoorGezin } from "@/lib/aanvraagstap-bewaren";
 import { KINDVELDEN, lijstZin, watOntbreekt, type Kind } from "@/lib/kind";
 
 /*
@@ -142,7 +144,9 @@ export async function naarKampen(formData: FormData) {
   ]);
   if (fout) terug(fout.message, true);
 
-  const groepen = maakGroepen((aanvraagData ?? []) as Aanvraag[]).filter((g) =>
+  const groepen = maakGroepen(
+    ((aanvraagData ?? []) as Aanvraag[]).filter(gaatOverEenKind),
+  ).filter((g) =>
     gevraagd ? g.naam === gevraagd : datumUitNaam(g.naam) !== null,
   );
   if (groepen.length === 0) terug("Er is geen kampdag gevonden.", true);
@@ -212,4 +216,39 @@ export async function naarKampen(formData: FormData) {
     groepen.length === 1 ? `/beheer/activiteiten/${laatste}` : "/beheer/activiteiten";
   revalidatePath(pad);
   redirect(`${pad}?succes=${encodeURIComponent(bericht)}`);
+}
+
+/*
+  Betaald of nog te betalen, aangeklikt op de kamplijst. Kim op 2 november
+  2026: "bij de kampen aanklikken wie betaald heeft en wie nog moet
+  betalen". Het hele gezin (zelfde mededeling) gaat mee; zie
+  lib/aanvraagstap-bewaren.ts.
+*/
+export async function zetBetaald(formData: FormData) {
+  await requireBeheerder();
+  const id = String(formData.get("id") ?? "");
+  const aan = String(formData.get("aan") ?? "") === "ja";
+  const onderwerp = String(formData.get("onderwerp") ?? "");
+  const { fout, aantal } = await zetStapVoorGezin(id, "betaald", aan);
+
+  revalidatePath("/beheer/aanvragen/lijsten");
+  revalidatePath("/beheer/aanvragen");
+  const vraag = new URLSearchParams();
+  if (onderwerp) vraag.set("onderwerp", onderwerp);
+  if (fout) {
+    vraag.set(
+      "fout",
+      /stappen/.test(fout)
+        ? "Draai eerst website/supabase/aanvragen-status.sql in Supabase; daarna werkt betaald aanklikken."
+        : fout,
+    );
+  } else {
+    vraag.set(
+      "succes",
+      `${aan ? "Betaald" : "Terug op nog te betalen"}${
+        aantal > 1 ? `, voor de ${aantal} kinderen met dezelfde mededeling` : ""
+      }.`,
+    );
+  }
+  redirect(`/beheer/aanvragen/lijsten?${vraag.toString()}`);
 }

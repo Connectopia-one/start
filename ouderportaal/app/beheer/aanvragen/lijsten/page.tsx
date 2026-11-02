@@ -7,17 +7,20 @@ import {
   KOLOMMEN,
   MET_DE_HAND,
   adressenVan,
+  afzenderVan,
   alsTabel,
+  gaatOverEenKind,
   maakGroepen,
   vindWaarde,
   waardeVan,
   type Aanvraag,
 } from "@/lib/aanvraaglijsten";
-import { naarKampen, verwijderKind, voegKindToe } from "./actions";
+import { naarKampen, verwijderKind, voegKindToe, zetBetaald } from "./actions";
 import { BestaandKind, type BestaandKindRij } from "./BestaandKind";
 import { KINDVELDEN, watOntbreekt, type Kind } from "@/lib/kind";
 import { leeftijd } from "@/lib/activiteiten";
 import { alleMailadressen } from "@/lib/mailadressen";
+import { datumUitNaam } from "@/lib/kindzoeken";
 
 /* Er kan elk moment een inschrijving bijkomen, dus niets bewaren. */
 export const dynamic = "force-dynamic";
@@ -43,23 +46,42 @@ export default async function LijstenBeheer({
   const naam = session.profile?.full_name ?? session.email ?? "";
 
   const db = createAdminClient();
-  const { data, error } = await db
+  /* stappen (voor betaald) komt uit aanvragen-status.sql; staat dat er nog
+     niet, dan lezen we zonder en blijft de kolom betaald weg. */
+  const VELDEN = "id, onderwerp, soort, gegevens, gezien, afgehandeld, created_at";
+  const eerste = await db
     .from("aanvragen")
-    .select("id, onderwerp, soort, gegevens, gezien, afgehandeld, created_at")
+    .select(`${VELDEN}, stappen`)
     .order("created_at", { ascending: false })
     .limit(1000);
+  let data: unknown[] | null = eerste.data;
+  let error = eerste.error;
+  const betaaldKlaar = !(error && /stappen/.test(error.message));
+  if (!betaaldKlaar) {
+    const zonder = await db
+      .from("aanvragen")
+      .select(VELDEN)
+      .order("created_at", { ascending: false })
+      .limit(1000);
+    data = zonder.data;
+    error = zonder.error;
+  }
+  const isBetaald = (a: Aanvraag) => (a.stappen ?? []).includes("betaald");
 
-  const alles = (data ?? []) as Aanvraag[];
+  const alles = (data ?? []) as unknown as Aanvraag[];
   const onderwerpen = [...new Set(alles.map((a) => a.onderwerp))].sort((a, b) =>
     a.localeCompare(b, "nl"),
   );
   const gefilterd = gekozen
     ? alles.filter((a) => a.onderwerp === gekozen)
     : alles;
-  const groepen = maakGroepen(gefilterd);
+  /* Enkel aanvragen over een kind worden een kinderlijst; zie
+     gaatOverEenKind. De andere aangevinkte vakjes staan onderaan apart. */
+  const groepen = maakGroepen(gefilterd.filter(gaatOverEenKind));
+  const andere = maakGroepen(gefilterd.filter((a) => !gaatOverEenKind(a)));
   /* Voor de vakjes van het formulier: elke dag die ooit aangekruist werd,
      ook als er nu op een andere soort gefilterd is. */
-  const alleDagen = maakGroepen(alles);
+  const alleDagen = maakGroepen(alles.filter(gaatOverEenKind));
 
   /* De kinderen die al in het ouderportaal staan, om er een te kiezen in
      plaats van alles over te typen. */
@@ -299,6 +321,7 @@ export default async function LijstenBeheer({
           {groepen.map((groep) => {
             const adressen = adressenVan(groep.aanvragen);
             const open = groep.rijen.filter((r) => !r.aanvraag.afgehandeld).length;
+            const betaald = groep.rijen.filter((r) => isBetaald(r.aanvraag)).length;
             return (
               <section
                 key={groep.naam}
@@ -312,6 +335,9 @@ export default async function LijstenBeheer({
                     {groep.rijen.length}{" "}
                     {groep.rijen.length === 1 ? "kind" : "kinderen"}
                     {open > 0 && ` · ${open} nog niet afgehandeld`}
+                    {betaaldKlaar &&
+                      datumUitNaam(groep.naam) !== null &&
+                      ` · ${betaald} van ${groep.rijen.length} betaald`}
                   </p>
                 </div>
                 {groep.onderwerpen.length === 1 && (
@@ -332,6 +358,11 @@ export default async function LijstenBeheer({
                             {kolom.kop}
                           </th>
                         ))}
+                        {betaaldKlaar && (
+                          <th className="py-1.5 pr-4 font-medium text-ink-dim">
+                            Betaald
+                          </th>
+                        )}
                       </tr>
                     </thead>
                     <tbody>
@@ -378,6 +409,39 @@ export default async function LijstenBeheer({
                                 )}
                               </td>
                             ))}
+                            {/* Betaald of niet, met één klik om te wisselen.
+                                Op papier staat er enkel een vinkje of niets. */}
+                            {betaaldKlaar && (
+                              <td className="py-1.5 pr-4">
+                                <form action={zetBetaald}>
+                                  <input type="hidden" name="id" value={aanvraag.id} />
+                                  <input
+                                    type="hidden"
+                                    name="aan"
+                                    value={isBetaald(aanvraag) ? "nee" : "ja"}
+                                  />
+                                  <input type="hidden" name="onderwerp" value={gekozen} />
+                                  <button
+                                    type="submit"
+                                    aria-pressed={isBetaald(aanvraag)}
+                                    className={`whitespace-nowrap rounded-full px-2.5 py-0.5 text-xs transition print:border-0 print:bg-transparent print:p-0 print:text-ink ${
+                                      isBetaald(aanvraag)
+                                        ? "bg-forest text-white hover:bg-forest-dark"
+                                        : "border border-amber/60 bg-amber/10 text-ink hover:border-forest"
+                                    }`}
+                                  >
+                                    {isBetaald(aanvraag) ? "✓ betaald" : "nog te betalen"}
+                                  </button>
+                                </form>
+                                {aanvraag.gegevens["Mededeling"] && (
+                                  <p className="mt-0.5 whitespace-nowrap text-xs text-ink-dim">
+                                    {aanvraag.gegevens["Mededeling"]}
+                                    {aanvraag.gegevens["Te betalen voor het gezin"] &&
+                                      ` · ${aanvraag.gegevens["Te betalen voor het gezin"]}`}
+                                  </p>
+                                )}
+                              </td>
+                            )}
                           </tr>
                         );
                       })}
@@ -386,15 +450,17 @@ export default async function LijstenBeheer({
                 </div>
 
                 <div className="mt-4 flex flex-wrap gap-2 print:hidden">
-                  <form action={naarKampen}>
-                    <input type="hidden" name="groep" value={groep.naam} />
-                    <button
-                      type="submit"
-                      className="rounded-md bg-forest px-3 py-1.5 text-sm font-medium text-white hover:bg-forest-dark"
-                    >
-                      Fiches van deze dag afdrukken
-                    </button>
-                  </form>
+                  {datumUitNaam(groep.naam) !== null && (
+                    <form action={naarKampen}>
+                      <input type="hidden" name="groep" value={groep.naam} />
+                      <button
+                        type="submit"
+                        className="rounded-md bg-forest px-3 py-1.5 text-sm font-medium text-white hover:bg-forest-dark"
+                      >
+                        Fiches van deze dag afdrukken
+                      </button>
+                    </form>
+                  )}
                   <Kopieer
                     waarde={alsTabel(groep)}
                     wat={`de lijst van ${groep.naam}`}
@@ -409,15 +475,80 @@ export default async function LijstenBeheer({
                   )}
                 </div>
                 <p className="mt-1.5 text-xs text-ink-dim print:hidden">
-                  Fiches afdrukken zet deze dag bij Kampen en lessen, met elk
+                  {datumUitNaam(groep.naam) !== null && <>Fiches afdrukken zet deze dag bij Kampen en lessen, met elk
                   kind dat in het ouderportaal staat, en opent die lijst met
-                  alle fiches. De lijst kopiëren is om in een rekenblad te
+                  alle fiches. </>}De lijst kopiëren is om in een rekenblad te
                   plakken; de adressen horen in het bcc-vak.
                 </p>
               </section>
             );
           })}
         </div>
+
+        {/* Wat er aangevinkt werd op een formulier zonder kind: een
+            professional die op de website wil, een sponsor, een tiener die
+            wil meetesten. Geen kamp, dus geen fiches, en per vakje wie het
+            aanvinkte. */}
+        {andere.length > 0 && (
+          <section className="mt-10">
+            <h2 className="font-display text-lg font-semibold text-ink">
+              Andere aangevinkte vakjes
+            </h2>
+            <p className="mt-1 text-sm text-ink-dim">
+              Dit zijn geen kampen: het zijn de vakjes van de formulieren
+              zonder kind, zoals de professionals, de steun en het meetesten.
+              Per vakje zie je wie het aanvinkte.
+            </p>
+            <div className="mt-4 space-y-4">
+              {andere.map((groep) => {
+                const adressen = adressenVan(groep.aanvragen);
+                return (
+                  <section
+                    key={groep.naam}
+                    className="rounded-lg border border-border bg-surface p-5 print:break-inside-avoid"
+                  >
+                    <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+                      <h3 className="font-medium text-ink">{groep.naam}</h3>
+                      <p className="text-sm text-ink-dim">
+                        {groep.aanvragen.length}{" "}
+                        {groep.aanvragen.length === 1 ? "aanvraag" : "aanvragen"}
+                      </p>
+                    </div>
+                    <p className="mt-0.5 text-xs text-ink-dim">
+                      {groep.onderwerpen.join(", ")}
+                    </p>
+                    <ul className="mt-3 space-y-1 text-sm">
+                      {groep.aanvragen.map((a) => (
+                        <li key={a.id} className="flex flex-wrap gap-x-4 text-ink-dim">
+                          <span className="font-medium text-ink">{afzenderVan(a)}</span>
+                          {vindWaarde(a.gegevens, "mail") && (
+                            <span>{vindWaarde(a.gegevens, "mail")}</span>
+                          )}
+                          {(vindWaarde(a.gegevens, "gsm") ??
+                            vindWaarde(a.gegevens, "telefoon")) && (
+                            <span>
+                              {vindWaarde(a.gegevens, "gsm") ??
+                                vindWaarde(a.gegevens, "telefoon")}
+                            </span>
+                          )}
+                        </li>
+                      ))}
+                    </ul>
+                    {adressen.length > 0 && (
+                      <div className="mt-3 print:hidden">
+                        <Kopieer
+                          waarde={adressen.join("; ")}
+                          wat={`de ${adressen.length} mailadressen van ${groep.naam}`}
+                          label={`Kopieer de ${adressen.length} mailadressen`}
+                        />
+                      </div>
+                    )}
+                  </section>
+                );
+              })}
+            </div>
+          </section>
+        )}
       </main>
     </>
   );

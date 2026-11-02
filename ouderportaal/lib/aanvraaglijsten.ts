@@ -21,6 +21,10 @@ export type Aanvraag = {
   gezien: boolean;
   afgehandeld: boolean;
   created_at: string;
+  /* Uit website/supabase/aanvragen-status.sql. Staan ze er nog niet, dan
+     zijn ze leeg. */
+  stappen?: string[];
+  gearchiveerd?: boolean;
 };
 
 /*
@@ -126,6 +130,33 @@ export function kinderenVan(aanvraag: Aanvraag): Rij[] {
 /* Kinderen die Kim zelf op een lijst zette, zonder dat er een formulier
    was. Ze staan ook in de tabel aanvragen, met deze soort. */
 export const MET_DE_HAND = "met de hand";
+
+/*
+  Gaat een aanvraag over een kind dat ergens komt (een kamp, een plusklas, de
+  winactie), of over iets anders?
+
+  Kim op 2 november 2026: bij de lijsten "lijkt alles precies kampen", ook
+  de aanvragen om op de website te komen. Dat komt doordat elk aangevinkt
+  vakje een lijst werd: een professional die "Opname in de wegwijzer"
+  aanvinkt, stond zo als een kampdag met een knop om fiches af te drukken.
+  Een kinderlijst bouwen we nu enkel uit een aanvraag met de naam van een
+  kind; de rest staat apart, als gewone lijst van wie wat aanvinkte.
+*/
+export function gaatOverEenKind(aanvraag: Aanvraag) {
+  if (aanvraag.soort === MET_DE_HAND) return true;
+  return Boolean(vindWaarde(aanvraag.gegevens, "naam van het kind")?.trim());
+}
+
+/* De naam van wie een andere aanvraag instuurde: de professional, de
+   sponsor, de tiener die wil meetesten. */
+export function afzenderVan(aanvraag: Aanvraag) {
+  return (
+    vindWaarde(aanvraag.gegevens, "naam van de ouders") ??
+    aanvraag.gegevens["Naam"] ??
+    vindWaarde(aanvraag.gegevens, "naam") ??
+    "—"
+  );
+}
 
 export type Groep = {
   naam: string;
