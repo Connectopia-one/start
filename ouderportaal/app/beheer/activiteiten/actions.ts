@@ -5,6 +5,7 @@ import { revalidatePath } from "next/cache";
 import { requireBeheerder, requireStaff } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { KINDVELDEN, lijstZin, watOntbreekt, type Kind } from "@/lib/kind";
+import { ficheUitFormulier } from "@/lib/fiche";
 
 /*
   Activiteiten aanmaken, archiveren en verwijderen, en kinderen eraan koppelen.
@@ -356,4 +357,108 @@ export async function alleAanwezig(formData: FormData) {
   if (error) terug(pad, error.message, true);
   revalidatePath(pad);
   redirect(pad);
+}
+
+/*
+  Een ingeschreven kind zonder fiche toch op de kamplijst zetten.
+
+  Kim op 2 november 2026, de ochtend van het herfstkamp: "ik zou de kinderen
+  wel willen kunnen aanvinken als ze zo staan dat we hun aanwezigheid wel
+  kunnen registreren maar de ouders op die moment rechtstreeks ook het laten
+  invullen als ze het nog niet gedaan hebben. dus een lege fiche erbij
+  plaatsen".
+
+  Heeft het gezin al een account (profile_id), dan komt het kind daarbij.
+  Zo niet, dan maken we het account, met het mailadres van de inschrijving
+  en het wachtwoord dat Kim zelf intypt. Het wachtwoord staat nergens in de
+  code: deze code is openbaar.
+*/
+export async function zetZonderFicheErop(formData: FormData) {
+  const db = await admin();
+  const activiteitId = String(formData.get("activiteit_id") || "");
+  const pad = `/beheer/activiteiten/${activiteitId}`;
+  const naam = String(formData.get("naam") || "").trim();
+  let profileId = String(formData.get("profile_id") || "");
+
+  if (!naam) terug(pad, "De naam van het kind ontbreekt.", true);
+
+  if (!profileId) {
+    const ouder = String(formData.get("ouder") || "").trim();
+    const email = String(formData.get("email") || "").trim();
+    const wachtwoord = String(formData.get("wachtwoord") || "");
+    const gsm = String(formData.get("gsm") || "").trim();
+    if (!ouder || !email)
+      terug(pad, `Vul de naam en het mailadres van de ouder van ${naam} in.`, true);
+    if (wachtwoord.length < 8)
+      terug(pad, "Het wachtwoord moet minstens 8 tekens hebben.", true);
+
+    const { data: gemaakt, error } = await db.auth.admin.createUser({
+      email,
+      password: wachtwoord,
+      email_confirm: true,
+    });
+    if (error || !gemaakt?.user)
+      terug(
+        pad,
+        `Het account voor ${email} lukte niet: ${error?.message ?? "onbekende fout"}`,
+        true,
+      );
+    profileId = gemaakt.user.id;
+    const { error: profielFout } = await db
+      .from("profiles")
+      .insert({
+        id: profileId,
+        full_name: ouder,
+        role: "ouder",
+        telefoon: gsm || null,
+      });
+    if (profielFout) terug(pad, profielFout.message, true);
+  }
+
+  /* Staat er bij dat gezin al een kind met die naam, dan nemen we dat. */
+  const { data: bestaand } = await db
+    .from("kinderen")
+    .select("id, naam")
+    .eq("profile_id", profileId);
+  let kindId = ((bestaand ?? []) as { id: string; naam: string }[]).find(
+    (k) => k.naam.trim().toLowerCase() === naam.toLowerCase(),
+  )?.id;
+  if (!kindId) {
+    const { data: nieuw, error } = await db
+      .from("kinderen")
+      .insert({ profile_id: profileId, naam })
+      .select("id")
+      .single();
+    if (error || !nieuw) terug(pad, error?.message ?? "Het kind kon niet bewaard worden.", true);
+    kindId = (nieuw as { id: string }).id;
+  }
+
+  const { error } = await db
+    .from("deelnames")
+    .upsert(
+      { activiteit_id: activiteitId, kind_id: kindId },
+      { onConflict: "activiteit_id,kind_id" },
+    );
+  if (error) terug(pad, error.message, true);
+  terug(pad, `${naam} staat op de lijst, met een lege fiche om in te vullen.`);
+}
+
+/* De fiche invullen vanop de kamplijst, en daarna terug naar die lijst. */
+export async function bewaarFicheOpLijst(formData: FormData) {
+  const db = await admin();
+  const activiteitId = String(formData.get("activiteit_id") || "");
+  const kindId = String(formData.get("kind_id") || "");
+  const pad = `/beheer/activiteiten/${activiteitId}`;
+  const fiche = ficheUitFormulier(formData);
+  if (!fiche.naam) terug(pad, "De naam mag niet leeg zijn.", true);
+
+  const { data, error } = await db
+    .from("kinderen")
+    .update({ ...fiche, updated_at: new Date().toISOString() })
+    .eq("id", kindId)
+    .select("id");
+  if (error) terug(pad, `De fiche van ${fiche.naam} is niet bewaard: ${error.message}`, true);
+  if (!data || data.length === 0)
+    terug(pad, `De fiche van ${fiche.naam} is niet bewaard. Laad de bladzijde opnieuw.`, true);
+  terug(pad, `De fiche van ${fiche.naam} is bewaard.`);
 }

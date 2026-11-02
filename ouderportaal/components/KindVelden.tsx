@@ -18,17 +18,23 @@ export function KindVelden({
   kind,
   gezinId,
   submitLabel,
+  extra,
 }: {
   action: (formData: FormData) => void | Promise<void>;
   kind?: Kind;
   /* Enkel op het beheerscherm: bij welk gezin deze fiche hoort. */
   gezinId?: string;
   submitLabel: string;
+  /* Bijkomende verborgen velden, bv. naar welke kamplijst je terugkeert. */
+  extra?: Record<string, string>;
 }) {
   return (
     <form action={action} className="mt-4 space-y-4">
       {kind && <input type="hidden" name="kind_id" value={kind.id} />}
       {gezinId && <input type="hidden" name="gezin_id" value={gezinId} />}
+      {Object.entries(extra ?? {}).map(([naam, waarde]) => (
+        <input key={naam} type="hidden" name={naam} value={waarde} />
+      ))}
 
       <div className="grid gap-4 sm:grid-cols-2">
         <div className="space-y-1.5">

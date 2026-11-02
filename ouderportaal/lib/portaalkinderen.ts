@@ -27,3 +27,35 @@ export async function portaalKinderen(): Promise<PortaalKind[]> {
     }),
   );
 }
+
+export type PortaalGezin = {
+  id: string;
+  naam: string | null;
+  telefoon: string | null;
+  mail: string | null;
+};
+
+/* Alle gezinnen, ook die zonder kind: een ouder die een account heeft maar
+   nog geen kind toevoegde, moet je ook kunnen terugvinden. */
+export async function portaalGezinnen(): Promise<PortaalGezin[]> {
+  const db = createAdminClient();
+  const [{ data }, mails] = await Promise.all([
+    db.from("profiles").select("id, full_name, telefoon, role"),
+    alleMailadressen(),
+  ]);
+  return (
+    (data ?? []) as {
+      id: string;
+      full_name: string | null;
+      telefoon: string | null;
+      role: string | null;
+    }[]
+  )
+    .filter((g) => g.role !== "beheerder" && g.role !== "leerkracht")
+    .map((g) => ({
+      id: g.id,
+      naam: g.full_name,
+      telefoon: g.telefoon,
+      mail: mails.get(g.id) ?? null,
+    }));
+}

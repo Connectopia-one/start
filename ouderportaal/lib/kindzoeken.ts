@@ -131,3 +131,18 @@ export function plaatsUitNaam(naam: string): string | null {
   const eerste = naam.trim().split(/\s+/)[0] ?? "";
   return /^(hasselt|genk)$/i.test(eerste) ? eerste : null;
 }
+
+/* Het gezin van een inschrijving, op mailadres of gsm-nummer. */
+export function zoekGezin<G extends { telefoon: string | null; mail: string | null }>(
+  ouder: { gsm?: string | null; mail?: string | null },
+  gezinnen: G[],
+): G | null {
+  const gsm = cijfers(ouder.gsm);
+  const mail = (ouder.mail ?? "").trim().toLowerCase();
+  const op = gezinnen.filter(
+    (g) =>
+      (!!mail && (g.mail ?? "").trim().toLowerCase() === mail) ||
+      (gsm.length >= 9 && cijfers(g.telefoon) === gsm),
+  );
+  return op.length === 1 ? op[0] : null;
+}

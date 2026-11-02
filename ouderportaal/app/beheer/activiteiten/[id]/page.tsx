@@ -16,8 +16,9 @@ import {
 import { KinderenKiezen, type AndereLijst } from "./KinderenKiezen";
 import { Afdrukken } from "./Afdrukken";
 import { maakGroepen, vindWaarde, type Aanvraag } from "@/lib/aanvraaglijsten";
-import { zoekKind } from "@/lib/kindzoeken";
-import { portaalKinderen } from "@/lib/portaalkinderen";
+import { zoekGezin, zoekKind } from "@/lib/kindzoeken";
+import { portaalGezinnen, portaalKinderen } from "@/lib/portaalkinderen";
+import { KindVelden } from "@/components/KindVelden";
 import { naarKampen } from "../../aanvragen/lijsten/actions";
 import {
   ACTIVITEITVELDEN,
@@ -30,11 +31,13 @@ import {
 import { SOORTEN } from "@/lib/activiteiten";
 import {
   alleAanwezig,
+  bewaarFicheOpLijst,
   bewaarNotitie,
   haalKindWeg,
   herhaalActiviteit,
   pasActiviteitAan,
   voegKindToe,
+  zetZonderFicheErop,
 } from "../actions";
 
 export const dynamic = "force-dynamic";
@@ -138,12 +141,16 @@ export default async function ActiviteitLijst({
   const groep = maakGroepen((aanvraagData ?? []) as Aanvraag[]).find(
     (g) => g.naam === kamp.naam,
   );
-  const portaal = groep ? await portaalKinderen() : [];
+  const [portaal, portaalGezinLijst] = groep
+    ? await Promise.all([portaalKinderen(), portaalGezinnen()])
+    : [[], []];
   const zonderFiche: {
     naam: string;
     leeftijd: string | null;
     ouder: string | null;
     gsm: string | null;
+    mail: string | null;
+    gezin: { id: string; naam: string | null } | null;
   }[] = [];
   let nogNietErop = 0;
   for (const rij of groep?.rijen ?? []) {
@@ -154,11 +161,14 @@ export default async function ActiviteitLijst({
       portaal,
     );
     if (!gevonden) {
+      const mail = vindWaarde(rij.aanvraag.gegevens, "mail");
       zonderFiche.push({
         naam: rij.kind,
         leeftijd: rij.leeftijd,
         ouder: vindWaarde(rij.aanvraag.gegevens, "ouder"),
         gsm,
+        mail,
+        gezin: zoekGezin({ gsm, mail }, portaalGezinLijst),
       });
     } else if (!deelnameVan.has(gevonden.id)) {
       nogNietErop++;
@@ -390,6 +400,19 @@ export default async function ActiviteitLijst({
                 <div className="mt-2">
                   <FicheRegels kind={kind} />
                 </div>
+                {ontbreekt.length > 0 && (
+                  <details className="mt-2 rounded-md border border-amber/50 bg-amber/5 px-3 py-2 print:hidden">
+                    <summary className="cursor-pointer text-sm font-medium text-ink">
+                      Fiche nu invullen
+                    </summary>
+                    <KindVelden
+                      action={bewaarFicheOpLijst}
+                      kind={kind}
+                      submitLabel="Fiche bewaren"
+                      extra={{ activiteit_id: kamp.id }}
+                    />
+                  </details>
+                )}
 
                 <div className="mt-2 flex flex-wrap gap-2">
                   <span
@@ -481,19 +504,80 @@ export default async function ActiviteitLijst({
               Ingeschreven, maar zonder fiche in het ouderportaal
             </h2>
             <p className="mt-1 text-xs text-ink-dim">
-              Deze kinderen schreven in voor deze dag, maar staan niet (of onder
-              een andere naam) in het ouderportaal. Er is dus geen fiche: vraag
-              allergieën, medicatie en een noodnummer na bij het afzetten.
+              Deze kinderen schreven in voor deze dag, maar staan nog niet in
+              het ouderportaal. Zet ze op de lijst: dan kan je hun aanwezigheid
+              aanvinken, en krijgen ze een lege fiche die de ouder bij het
+              afzetten meteen kan invullen.
             </p>
-            <ul className="mt-2 space-y-1">
+            <ul className="mt-3 space-y-3">
               {zonderFiche.map((k, i) => (
-                <li key={`${k.naam}-${i}`}>
-                  <strong className="text-ink">{k.naam}</strong>
-                  <span className="text-ink-dim">
-                    {k.leeftijd ? ` · ${k.leeftijd}${/jaar/.test(k.leeftijd) ? "" : " jaar"}` : ""}
-                    {k.ouder ? ` · ${k.ouder}` : ""}
-                    {k.gsm ? ` · ${k.gsm}` : ""}
-                  </span>
+                <li
+                  key={`${k.naam}-${i}`}
+                  className="rounded-md bg-surface/70 p-3"
+                >
+                  <p>
+                    <strong className="text-ink">{k.naam}</strong>
+                    <span className="text-ink-dim">
+                      {k.leeftijd ? ` · ${k.leeftijd}${/jaar/.test(k.leeftijd) ? "" : " jaar"}` : ""}
+                      {k.ouder ? ` · ${k.ouder}` : ""}
+                      {k.gsm ? ` · ${k.gsm}` : ""}
+                    </span>
+                  </p>
+                  <form
+                    action={zetZonderFicheErop}
+                    className="mt-2 flex flex-wrap items-end gap-2 print:hidden"
+                  >
+                    <input type="hidden" name="activiteit_id" value={kamp.id} />
+                    <input type="hidden" name="naam" value={k.naam} />
+                    {k.gezin ? (
+                      <>
+                        <input type="hidden" name="profile_id" value={k.gezin.id} />
+                        <span className="text-xs text-ink-dim">
+                          Gezin {k.gezin.naam ?? ""} heeft al een account, maar
+                          nog zonder dit kind.
+                        </span>
+                      </>
+                    ) : (
+                      <>
+                        <input type="hidden" name="gsm" value={k.gsm ?? ""} />
+                        <label className="text-xs text-ink-dim">
+                          Ouder
+                          <input
+                            name="ouder"
+                            defaultValue={k.ouder ?? ""}
+                            required
+                            className="mt-0.5 block w-40 rounded-md border border-border bg-white px-2 py-1 text-sm text-ink"
+                          />
+                        </label>
+                        <label className="text-xs text-ink-dim">
+                          Mailadres (de inlog)
+                          <input
+                            name="email"
+                            type="email"
+                            defaultValue={k.mail ?? ""}
+                            required
+                            className="mt-0.5 block w-56 rounded-md border border-border bg-white px-2 py-1 text-sm text-ink"
+                          />
+                        </label>
+                        <label className="text-xs text-ink-dim">
+                          Wachtwoord
+                          <input
+                            name="wachtwoord"
+                            required
+                            minLength={8}
+                            autoComplete="off"
+                            className="mt-0.5 block w-40 rounded-md border border-border bg-white px-2 py-1 text-sm text-ink"
+                          />
+                        </label>
+                      </>
+                    )}
+                    <button
+                      type="submit"
+                      className="rounded-md bg-forest px-3 py-1.5 text-sm font-medium text-white hover:bg-forest-dark"
+                    >
+                      {k.gezin ? "Zet op de lijst" : "Account maken en op de lijst"}
+                    </button>
+                  </form>
                 </li>
               ))}
             </ul>
