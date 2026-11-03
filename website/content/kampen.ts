@@ -36,8 +36,9 @@ export const kampRegels = {
   /* Hetzelfde onderwerp als het oude inschrijfformulier, zodat oude en nieuwe
      inschrijvingen in het ouderportaal samen gefilterd worden. */
   onderwerp: "Inschrijving via de website — Vakantiekampen",
-  /* Hoeveel dagen een ouder heeft om te betalen. */
-  betaaltermijn: "binnen de 7 dagen",
+  /* Wanneer een ouder betaalt; staat op de bedanktpagina na "Schrijf €… over,".
+     Kim op 3 november 2026: liefst meteen, zoals in de kampvoorwaarden. */
+  betaaltermijn: "liefst meteen",
 };
 
 export type KampDag = {

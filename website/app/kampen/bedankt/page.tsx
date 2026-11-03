@@ -74,7 +74,7 @@ export default async function KampBedankt({
         {nu > 0 ? (
           <div className="mt-6 rounded-[16px] bg-sage-soft px-5 py-4 text-[17px] text-ink">
             <p>
-              Schrijf <strong>{euro(nu)}</strong> over {kampRegels.betaaltermijn}:
+              Schrijf <strong>{euro(nu)}</strong> over, {kampRegels.betaaltermijn}:
             </p>
             <p className="mt-2">
               Rekeningnummer: <strong>{kampRegels.rekening}</strong>
