@@ -6,6 +6,7 @@ import { requireBeheerder, requireStaff } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { KINDVELDEN, lijstZin, watOntbreekt, type Kind } from "@/lib/kind";
 import { ficheUitFormulier } from "@/lib/fiche";
+import { noteerAfgezegd } from "@/lib/afzeggen";
 
 /*
   Activiteiten aanmaken, archiveren en verwijderen, en kinderen eraan koppelen.
@@ -132,7 +133,23 @@ export async function haalKindWeg(formData: FormData) {
     .eq("kind_id", kindId);
 
   if (error) terug(pad, error.message, true);
-  terug(pad, "Kind van de lijst gehaald.");
+
+  /* Ook bij de inschrijvingen van die dag als afgezegd noteren, anders
+     stelt deze pagina meteen voor om het kind er terug bij te zetten. */
+  const { data: activiteit } = await db
+    .from("activiteiten")
+    .select("naam")
+    .eq("id", activiteitId)
+    .maybeSingle();
+  const naam = (activiteit as { naam: string } | null)?.naam;
+  const afgezegd = naam ? await noteerAfgezegd(db, naam, kindId) : 0;
+
+  terug(
+    pad,
+    afgezegd
+      ? "Kind van de lijst gehaald, en bij de inschrijvingen van deze dag als afgezegd genoteerd."
+      : "Kind van de lijst gehaald.",
+  );
 }
 
 export async function bewaarNotitie(formData: FormData) {

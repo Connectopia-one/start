@@ -19,7 +19,7 @@ import { maakGroepen, vindWaarde, type Aanvraag } from "@/lib/aanvraaglijsten";
 import { zoekGezin, zoekKind } from "@/lib/kindzoeken";
 import { portaalGezinnen, portaalKinderen } from "@/lib/portaalkinderen";
 import { KindVelden } from "@/components/KindVelden";
-import { naarKampen } from "../../aanvragen/lijsten/actions";
+import { naarKampen, zegAf } from "../../aanvragen/lijsten/actions";
 import {
   ACTIVITEITVELDEN,
   datumTekst,
@@ -152,7 +152,8 @@ export default async function ActiviteitLijst({
     mail: string | null;
     gezin: { id: string; naam: string | null } | null;
   }[] = [];
-  let nogNietErop = 0;
+  /* Ingeschreven, in het ouderportaal, maar (nog) niet op deze lijst. */
+  const nogNietEropRijen: { kind: string; aanvraagId: string }[] = [];
   for (const rij of groep?.rijen ?? []) {
     const gsm = vindWaarde(rij.aanvraag.gegevens, "gsm");
     const gevonden = zoekKind(
@@ -171,9 +172,11 @@ export default async function ActiviteitLijst({
         gezin: zoekGezin({ gsm, mail }, portaalGezinLijst),
       });
     } else if (!deelnameVan.has(gevonden.id)) {
-      nogNietErop++;
+      nogNietEropRijen.push({ kind: rij.kind, aanvraagId: rij.aanvraag.id });
     }
   }
+
+  const nogNietErop = nogNietEropRijen.length;
 
   const aanwezigen = deelnames.filter((d) => d.aanwezig !== false).length;
   const nietAangeduid = deelnames.filter((d) => d.aanwezig === null).length;
@@ -496,6 +499,29 @@ export default async function ActiviteitLijst({
               Zet ze erbij
             </button>
           </form>
+        )}
+        {groep && nogNietErop > 0 && (
+          <div className="mt-2 rounded-md bg-surface px-4 py-2 text-sm text-ink-dim print:hidden">
+            Wie het is:{" "}
+            {nogNietEropRijen.map((r, i) => (
+              <span key={`${r.aanvraagId}-${r.kind}`} className="inline-flex items-baseline gap-1">
+                {i > 0 && <span>, </span>}
+                <span className="text-ink">{r.kind}</span>
+                <form action={zegAf} className="inline">
+                  <input type="hidden" name="id" value={r.aanvraagId} />
+                  <input type="hidden" name="dag" value={groep.naam} />
+                  <input type="hidden" name="kind" value={r.kind} />
+                  <input type="hidden" name="pad" value={`/beheer/activiteiten/${kamp.id}`} />
+                  <button
+                    type="submit"
+                    className="text-xs text-danger underline underline-offset-2"
+                  >
+                    (komt niet)
+                  </button>
+                </form>
+              </span>
+            ))}
+          </div>
         )}
 
         {zonderFiche.length > 0 && (

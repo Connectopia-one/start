@@ -33,11 +33,10 @@ import { KINDVELDEN, lijstZin, watOntbreekt, type Kind } from "@/lib/kind";
   "met de hand" houdt het uit elkaar met wat een ouder zelf invulde.
 */
 
-function terug(bericht: string, fout = false): never {
+function terug(bericht: string, fout = false, pad = "/beheer/aanvragen/lijsten"): never {
   revalidatePath("/beheer/aanvragen/lijsten");
-  redirect(
-    `/beheer/aanvragen/lijsten?${fout ? "fout" : "succes"}=${encodeURIComponent(bericht)}`,
-  );
+  if (pad !== "/beheer/aanvragen/lijsten") revalidatePath(pad);
+  redirect(`${pad}?${fout ? "fout" : "succes"}=${encodeURIComponent(bericht)}`);
 }
 
 const VELDEN = [
@@ -138,7 +137,12 @@ export async function zegAf(formData: FormData) {
   const dag = String(formData.get("dag") ?? "").trim();
   const kind = String(formData.get("kind") ?? "").trim();
   const terugzetten = String(formData.get("terug") ?? "") === "ja";
-  if (!id || !dag || !kind) terug("Er ontbreekt iets om af te zeggen.", true);
+  /* Van waar er geklikt werd: de lijsten, of een kamp bij Kampen en lessen. */
+  const gevraagdPad = String(formData.get("pad") ?? "");
+  const pad = /^\/beheer\/activiteiten\/[\w-]+$/.test(gevraagdPad)
+    ? gevraagdPad
+    : "/beheer/aanvragen/lijsten";
+  if (!id || !dag || !kind) terug("Er ontbreekt iets om af te zeggen.", true, pad);
 
   const db = createAdminClient();
   const { data, error } = await db
@@ -146,7 +150,7 @@ export async function zegAf(formData: FormData) {
     .select("id, onderwerp, soort, gegevens, gezien, afgehandeld, created_at")
     .eq("id", id)
     .maybeSingle();
-  if (error || !data) terug(error?.message ?? "Die inschrijving is niet gevonden.", true);
+  if (error || !data) terug(error?.message ?? "Die inschrijving is niet gevonden.", true, pad);
   const aanvraag = data as Aanvraag;
 
   const zelfde = (n: string) => n.toLowerCase() === kind.toLowerCase();
@@ -161,10 +165,10 @@ export async function zegAf(formData: FormData) {
     .from("aanvragen")
     .update({ gegevens })
     .eq("id", id);
-  if (bewaarFout) terug(bewaarFout.message, true);
+  if (bewaarFout) terug(bewaarFout.message, true, pad);
 
   if (terugzetten) {
-    terug(`${kind} staat terug op ${dag}.`);
+    terug(`${kind} staat terug op ${dag}.`, false, pad);
   }
 
   /* Ook van de lijst bij Kampen en lessen, als die dag daar al staat. */
@@ -199,6 +203,8 @@ export async function zegAf(formData: FormData) {
 
   terug(
     `${kind} staat niet meer op ${dag}${ookBijKampen ? ", ook niet bij Kampen en lessen" : ""}. De inschrijving zelf blijft bewaard.`,
+    false,
+    pad,
   );
 }
 
