@@ -110,6 +110,14 @@ export default async function KampBedankt({
           </p>
         ) : null}
 
+        <p className="mt-6 text-[16px] text-ink">
+          Kan je kind toch niet komen? Laat het ons zo snel mogelijk weten.
+          Annuleren is gratis tot 14 dagen voor het kamp.{" "}
+          <Link href="/kampen/voorwaarden" className="font-bold text-green underline">
+            Lees de voorwaarden
+          </Link>
+        </p>
+
         <p className="mt-6 text-[16px] text-ink-dim">
           Vragen? Mail naar{" "}
           <a className="font-bold text-green underline" href={`mailto:${site.email}`}>

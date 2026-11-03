@@ -32,6 +32,7 @@ const paginas = [
   "/steun-ons",
   "/meetesten",
   "/winactie",
+  "/kampen/voorwaarden",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

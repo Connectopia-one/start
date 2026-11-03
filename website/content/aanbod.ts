@@ -301,6 +301,14 @@ export const trajecten: Traject[] = [
         waarde: "Krokus-, paas- en zomervakantie",
       },
       { label: "Plaatsen", waarde: "Beperkt, reserveer tijdig je plaatsje" },
+      {
+        label: "Betalen en annuleren",
+        waarde:
+          "Je plaats is zeker zodra je betaling binnen is. Annuleren is gratis tot 14 dagen voor het kamp.",
+      },
+    ],
+    links: [
+      { tekst: "Inschrijvings- en annuleringsvoorwaarden", link: "/kampen/voorwaarden" },
     ],
     foto: {
       bestand: "vakantiekampen.jpg",

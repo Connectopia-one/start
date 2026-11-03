@@ -3,6 +3,7 @@
 import { useMemo, useRef, useState } from "react";
 import type { Kamp } from "@/content/kampen";
 import { kampRegels } from "@/content/kampen";
+import { kampVoorwaarden } from "@/content/kampvoorwaarden";
 import { berekenPrijs, euro } from "@/lib/kampprijs";
 import { kampInschrijven } from "@/app/kampen/acties";
 import { Verstuurknop } from "@/components/Verstuurknop";
@@ -413,6 +414,36 @@ export function KampInschrijving({ kampen }: { kampen: Kamp[] }) {
                 rekeningnummer en de mededeling.
                 {nogTeBevestigen ? " Voor een kamp dat nog bevestigd moet worden, betaal je pas na onze bevestiging." : ""}
               </p>
+            </div>
+
+            {/* Akkoord met de kampvoorwaarden (Kim, 3 november 2026). De
+                server kijkt dit vinkje ook na, in app/kampen/acties.ts. */}
+            <div className="rounded-[16px] bg-orange-soft px-5 py-4">
+              <p className="text-[15px] text-ink">
+                Je plaats is zeker zodra je betaling binnen is. Annuleren is
+                gratis tot 14 dagen voor het kamp.{" "}
+                <a
+                  href="/kampen/voorwaarden"
+                  target="_blank"
+                  rel="noopener"
+                  className="font-bold text-green underline"
+                >
+                  {kampVoorwaarden.akkoordLink}
+                </a>
+              </p>
+              <label className="mt-3 flex items-start gap-2.5 text-[15px] font-bold text-ink">
+                <input
+                  type="checkbox"
+                  name="voorwaarden"
+                  value="ja"
+                  required
+                  className="mt-0.5 h-[18px] w-[18px] shrink-0 accent-green"
+                />
+                <span>
+                  {kampVoorwaarden.akkoord}
+                  <Ster />
+                </span>
+              </label>
             </div>
 
             <div className="rounded-[16px] bg-purple-soft px-5 py-4">

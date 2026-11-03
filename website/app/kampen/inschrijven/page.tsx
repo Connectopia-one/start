@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { KampInschrijving } from "@/components/KampInschrijving";
 import { PaginaKop, Sectie } from "@/components/ui";
 import { kampRegels, kampen } from "@/content/kampen";
@@ -28,6 +29,15 @@ export default function KampenInschrijven() {
         handgeschreven="Hasselt en Genk"
         tekst={`Kies een kamp, klik op "Kies dit" en vul onderaan één formulier in. ${kampRegels.uren}, voor kinderen van ${kampRegels.leeftijd}. De groepen zijn klein, dus de plaatsen zijn beperkt.`}
       />
+      <Sectie className="py-0">
+        <p className="text-[15px] text-ink-dim">
+          Lees vooraf even de{" "}
+          <Link href="/kampen/voorwaarden" className="font-bold text-green underline">
+            inschrijvings- en annuleringsvoorwaarden
+          </Link>
+          : je plaats is zeker zodra je betaling binnen is.
+        </p>
+      </Sectie>
       <Sectie className="py-8">
         {open.length ? (
           <KampInschrijving kampen={open} />

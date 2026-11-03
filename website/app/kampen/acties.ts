@@ -52,7 +52,10 @@ export async function kampInschrijven(formulier: FormData) {
   const ouder = kort(formulier.get("ouder"));
   const email = kort(formulier.get("email"));
   const gsm = kort(formulier.get("gsm"), 40);
-  if (!kinderen.length || !ouder || !email || !gsm) {
+  /* Het vinkje voor de kampvoorwaarden staat ook in de browser verplicht,
+     maar we kijken het hier nog eens na. */
+  const voorwaarden = formulier.get("voorwaarden") === "ja";
+  if (!kinderen.length || !ouder || !email || !gsm || !voorwaarden) {
     redirect("/kampen/bedankt?fout=1");
   }
 
@@ -109,6 +112,7 @@ export async function kampInschrijven(formulier: FormData) {
       gegevens["Na bevestiging te betalen"] = euro(later.totaal);
     }
     gegevens["Mededeling"] = mededeling;
+    gegevens["Akkoord met de kampvoorwaarden"] = "ja";
     gegevens["Akkoord met het gebruik van de gegevens"] = "ja";
     for (const sleutel of Object.keys(gegevens)) {
       if (!gegevens[sleutel]) delete gegevens[sleutel];
