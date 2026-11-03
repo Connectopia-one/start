@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { requireStaff } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
+import { maakFotoLinks } from "@/lib/fotoLinks";
 import { Header } from "@/components/Header";
 import { verwijderFoto } from "./actions";
 import { NieuweFotosForm } from "./NieuweFotosForm";
@@ -33,12 +34,9 @@ export default async function BeheerFotosPage({
     .order("created_at", { ascending: false });
 
   const fotos = fotosData ?? [];
-  const metUrl = await Promise.all(
-    fotos.map(async (f) => {
-      const { data } = await supabase.storage.from("fotos").createSignedUrl(f.bestandspad, 60 * 10);
-      return { ...f, url: data?.signedUrl ?? null };
-    })
-  );
+  const links = await maakFotoLinks(supabase, fotos.map((f) => f.bestandspad));
+  const metUrl = fotos.map((f) => ({ ...f, url: links.get(f.bestandspad) ?? null }));
+  const nietGeladen = metUrl.filter((f) => !f.url).length;
 
   return (
     <>
@@ -58,6 +56,16 @@ export default async function BeheerFotosPage({
         {fout && <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">{fout}</p>}
         {succes && (
           <p className="mt-4 rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">{succes}</p>
+        )}
+
+        <p className="mt-4 text-sm text-ink-dim">
+          {metUrl.length === 1 ? "1 foto" : `${metUrl.length} foto's`} in dit klasje.
+        </p>
+        {nietGeladen > 0 && (
+          <p className="mt-2 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">
+            {nietGeladen === 1 ? "1 foto kon" : `${nietGeladen} foto's konden`} nu niet geladen worden. Ze
+            staan wel online. <a href={`/beheer/klasjes/${slug}/fotos`} className="font-medium underline">Laad de pagina opnieuw</a>.
+          </p>
         )}
 
         <AllesVerkleinen
@@ -92,7 +100,17 @@ export default async function BeheerFotosPage({
                   </form>
                 )}
               </FotoTegel>
-            ) : null
+            ) : (
+              <div
+                key={f.bestandspad}
+                className="flex aspect-square flex-col items-center justify-center gap-2 rounded-lg border border-dashed border-border bg-surface p-3 text-center text-xs text-ink-dim"
+              >
+                <span>Deze foto laadde niet.</span>
+                <a href={`/beheer/klasjes/${slug}/fotos`} className="font-medium text-forest underline">
+                  Opnieuw proberen
+                </a>
+              </div>
+            )
           )}
           {metUrl.length === 0 && (
             <p className="col-span-full text-sm text-ink-dim">Nog geen foto&apos;s.</p>

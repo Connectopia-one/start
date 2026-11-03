@@ -33,21 +33,39 @@ export function FotoTegel({
   const [bezig, setBezig] = useState(false);
   const [melding, setMelding] = useState<string | null>(null);
 
+  /*
+    Een foto die één keer niet laadt, is meestal gewoon een drukke opslag
+    ("Too many requests") en geen kapot bestand. Daarom proberen we hem eerst
+    nog twee keer met een pauze, en pas daarna verschijnt de melding.
+  */
+  const [poging, setPoging] = useState(0);
+  function laadfout() {
+    if (poging < 2) {
+      const volgende = poging + 1;
+      /* Een nieuwe sleutel bouwt het beeld opnieuw op, zodat de browser het opnieuw opvraagt. */
+      setTimeout(() => setPoging(volgende), 1500 * volgende);
+      return;
+    }
+    setGebroken(true);
+  }
+
   /* Een fout tijdens het laden kan vallen vóór React meeluistert. */
   useEffect(() => {
     const img = beeld.current;
-    if (img && img.complete && img.naturalWidth === 0) setGebroken(true);
-  }, []);
+    if (img && img.complete && img.currentSrc && img.naturalWidth === 0) laadfout();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [poging]);
 
   /* Laadt het nieuwe bestand op en zet het in de plaats van het oude. */
   async function vervang(jpeg: File) {
     const klasjeId = bestandspad.split("/")[0];
-    const { path, token } = await maakFotoUploadUrl(klasjeId, jpeg.name);
+    const link = await maakFotoUploadUrl(klasjeId, jpeg.name);
+    if (!link.gelukt) throw new Error(link.bericht);
     const supabase = createClient();
-    const { error } = await supabase.storage.from("fotos").uploadToSignedUrl(path, token, jpeg);
+    const { error } = await supabase.storage.from("fotos").uploadToSignedUrl(link.path, link.token, jpeg);
     if (error) throw new Error(`Opladen mislukt: ${error.message}`);
 
-    const uitkomst = await vervangFotoBestand({ id, slug, oudPad: bestandspad, nieuwPad: path });
+    const uitkomst = await vervangFotoBestand({ id, slug, oudPad: bestandspad, nieuwPad: link.path });
     if (!uitkomst.gelukt) throw new Error(uitkomst.bericht);
     router.refresh();
   }
@@ -100,11 +118,12 @@ export function FotoTegel({
     <div className="overflow-hidden rounded-lg border border-border bg-surface">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
+        key={poging}
         loading="lazy"
         ref={beeld}
         src={url}
         alt={bijschrift ?? ""}
-        onError={() => setGebroken(true)}
+        onError={laadfout}
         onLoad={() => setGebroken(false)}
         className="aspect-square w-full object-cover"
       />

@@ -74,10 +74,11 @@ export function AllesVerkleinen({ fotos, slug }: { fotos: Foto[]; slug: string }
 
         const klasjeId = f.bestandspad.split("/")[0];
         const path = await metGeduld(async () => {
-          const { path, token } = await maakFotoUploadUrl(klasjeId, klein.name);
-          const { error } = await supabase.storage.from("fotos").uploadToSignedUrl(path, token, klein);
+          const link = await maakFotoUploadUrl(klasjeId, klein.name);
+          if (!link.gelukt) throw new Error(link.bericht);
+          const { error } = await supabase.storage.from("fotos").uploadToSignedUrl(link.path, link.token, klein);
           if (error) throw new Error(`opladen mislukt: ${error.message}`);
-          return path;
+          return link.path;
         });
         const uitkomst = await metGeduld(() =>
           vervangFotoBestand({ id: f.id, slug, oudPad: f.bestandspad, nieuwPad: path }),

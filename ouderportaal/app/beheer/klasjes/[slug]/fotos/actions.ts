@@ -8,17 +8,23 @@ import { createAdminClient } from "@/lib/supabase/admin";
  * Geeft een tijdelijke, rechtstreekse upload-link naar Supabase Storage terug.
  * Zo gaat het beeldbestand niet door de server action heen — dat omzeilt de
  * limiet van ~4,5MB die Vercel op reguliere server-verzoeken zet.
+ *
+ * Geeft een antwoord terug in plaats van te gooien: een fout die uit een
+ * server action gegooid wordt, verbergt Next achter "React error #441".
  */
-export async function maakFotoUploadUrl(klasjeId: string, bestandsnaam: string) {
+export async function maakFotoUploadUrl(
+  klasjeId: string,
+  bestandsnaam: string,
+): Promise<{ gelukt: true; path: string; token: string } | { gelukt: false; bericht: string }> {
   await requireStaff();
   const admin = createAdminClient();
   const path = `${klasjeId}/${Date.now()}-${Math.random().toString(36).slice(2, 8)}-${bestandsnaam}`;
 
   const { data, error } = await admin.storage.from("fotos").createSignedUploadUrl(path);
   if (error || !data) {
-    throw new Error(error?.message || "Kon geen upload-link aanmaken.");
+    return { gelukt: false, bericht: error?.message || "Kon geen upload-link aanmaken." };
   }
-  return { path: data.path, token: data.token };
+  return { gelukt: true, path: data.path, token: data.token };
 }
 
 export async function registreerFoto(input: {
@@ -26,7 +32,7 @@ export async function registreerFoto(input: {
   slug: string;
   bestandspad: string;
   bijschrift?: string | null;
-}) {
+}): Promise<{ gelukt: true } | { gelukt: false; bericht: string }> {
   const session = await requireStaff();
   const admin = createAdminClient();
 
@@ -37,8 +43,8 @@ export async function registreerFoto(input: {
     created_by: session.userId,
   });
 
-  if (error) throw new Error(error.message);
-  revalidatePath(`/beheer/klasjes/${input.slug}/fotos`);
+  if (error) return { gelukt: false, bericht: error.message };
+  return { gelukt: true };
 }
 
 export async function verwijderFoto(formData: FormData) {

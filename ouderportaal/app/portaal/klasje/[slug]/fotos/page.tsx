@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { requirePortaalSessie } from "@/lib/auth";
 import { MeekijkBalk } from "@/components/MeekijkBalk";
 import { createClient } from "@/lib/supabase/server";
+import { maakFotoLinks } from "@/lib/fotoLinks";
 import { Header } from "@/components/Header";
 import { FotoGalerij } from "./FotoGalerij";
 
@@ -50,14 +51,9 @@ export default async function FotosPage({
 
   const fotos = (fotosData as Foto[] | null) ?? [];
 
-  const metUrl = await Promise.all(
-    fotos.map(async (f) => {
-      const { data } = await supabase.storage
-        .from("fotos")
-        .createSignedUrl(f.bestandspad, 60 * 10);
-      return { ...f, url: data?.signedUrl ?? null };
-    }),
-  );
+  const links = await maakFotoLinks(supabase, fotos.map((f) => f.bestandspad));
+  const metUrl = fotos.map((f) => ({ ...f, url: links.get(f.bestandspad) ?? null }));
+  const nietGeladen = metUrl.filter((f) => !f.url).length;
 
   return (
     <>
@@ -81,6 +77,16 @@ export default async function FotosPage({
         {metUrl.length === 0 && (
           <p className="mt-6 text-sm text-ink-dim">
             Er staan hier nog geen foto&apos;s.
+          </p>
+        )}
+
+        {nietGeladen > 0 && (
+          <p className="mt-6 rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">
+            {nietGeladen === 1 ? "1 foto kon" : `${nietGeladen} foto's konden`} even niet geladen worden.{" "}
+            <a href={`/portaal/klasje/${slug}/fotos`} className="font-medium underline">
+              Laad de pagina opnieuw
+            </a>{" "}
+            om ze te zien.
           </p>
         )}
 
