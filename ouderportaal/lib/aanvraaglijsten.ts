@@ -44,6 +44,7 @@ export function vindWaarde(gegevens: Record<string, string>, woord: string) {
    lijst van trekt: dat staat bij iederéén op ja. */
 function isKeuze(vraag: string, antwoord: string) {
   if (antwoord.trim().toLowerCase() !== "ja") return false;
+  if (vraag.startsWith(AFGEZEGD)) return false;
   return !vraag.toLowerCase().includes("akkoord");
 }
 
@@ -163,7 +164,38 @@ export type Groep = {
   onderwerpen: string[];
   aanvragen: Aanvraag[];
   rijen: Rij[];
+  /* Wie voor deze dag afzegde: staat niet meer op de lijst, wel eronder. */
+  afgezegd: Rij[];
 };
+
+/*
+  Afzeggen voor één dag.
+
+  Kim op 3 november 2026: "ik kan nu olivia en juliette niet verwijderen die
+  afgezegd hebben". De inschrijving zelf blijft bestaan (daar staat wat de
+  ouder vroeg en of er betaald is); in de gegevens komt er een sleutel
+  "Afgezegd voor <dag>" bij met de namen van de kinderen die niet komen.
+  Zo kan je bij een gezin van twee ook maar één kind laten afzeggen, en is
+  het ongedaan te maken.
+*/
+export const AFGEZEGD = "Afgezegd voor ";
+
+const gewoon = (naam: string) =>
+  naam.normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim().toLowerCase();
+
+export function afgezegdVoor(aanvraag: Aanvraag, dag: string) {
+  const waarde = aanvraag.gegevens[AFGEZEGD + dag] ?? "";
+  return waarde
+    .split(",")
+    .map((n) => n.trim())
+    .filter(Boolean);
+}
+
+export function heeftAfgezegd(rij: Rij, dag: string) {
+  return afgezegdVoor(rij.aanvraag, dag).some(
+    (n) => gewoon(n) === gewoon(rij.kind),
+  );
+}
 
 /*
   Per aangekruiste keuze de aanvragen die ze aankruisten. Eén aanvraag kan in
@@ -179,15 +211,23 @@ export function maakGroepen(aanvragen: Aanvraag[]): Groep[] {
     }
   }
 
-  const groepen: Groep[] = [...perNaam.entries()].map(([naam, lijst]) => ({
-    naam,
-    onderwerpen: [...new Set(lijst.map((a) => a.onderwerp))],
-    aanvragen: lijst,
+  const groepen: Groep[] = [...perNaam.entries()].map(([naam, lijst]) => {
     /* Binnen een groep op naam van het kind, want zo lees je een lijst af. */
-    rijen: lijst
+    const alle = lijst
       .flatMap(kinderenVan)
-      .sort((a, b) => a.kind.localeCompare(b.kind, "nl")),
-  }));
+      .sort((a, b) => a.kind.localeCompare(b.kind, "nl"));
+    const rijen = alle.filter((r) => !heeftAfgezegd(r, naam));
+    const blijven = new Set(rijen.map((r) => r.aanvraag.id));
+    return {
+      naam,
+      onderwerpen: [...new Set(lijst.map((a) => a.onderwerp))],
+      /* Een gezin waarvan elk kind afzegde, krijgt ook geen mail meer
+         van deze dag. */
+      aanvragen: lijst.filter((a) => blijven.has(a.id)),
+      rijen,
+      afgezegd: alle.filter((r) => heeftAfgezegd(r, naam)),
+    };
+  });
 
   return groepen.sort((a, b) => {
     const ra = datumRang(a.naam);

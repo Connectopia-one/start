@@ -5,7 +5,9 @@ import { revalidatePath } from "next/cache";
 import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 import {
+  AFGEZEGD,
   MET_DE_HAND,
+  afgezegdVoor,
   gaatOverEenKind,
   maakGroepen,
   vindWaarde,
@@ -118,6 +120,86 @@ export async function verwijderKind(formData: FormData) {
     .eq("soort", MET_DE_HAND);
   if (error) terug(error.message, true);
   terug("Het kind staat niet meer op de lijsten.");
+}
+
+/*
+  Een kind dat niet komt, van één kampdag halen, of het terugzetten.
+
+  Kim op 3 november 2026: "ik kan geen kinderen van een lijst doen van een
+  kamp, ik kan nu olivia en juliette niet verwijderen die afgezegd hebben".
+  De inschrijving blijft staan; er komt enkel "Afgezegd voor <dag>" bij met
+  de naam (zie lib/aanvraaglijsten.ts). Stond het kind voor die dag al bij
+  Kampen en lessen, dan gaat het daar ook af, anders zet "Fiches van deze
+  dag afdrukken" het er niet terug op, maar zit het wel nog op het blad.
+*/
+export async function zegAf(formData: FormData) {
+  await requireBeheerder();
+  const id = String(formData.get("id") ?? "");
+  const dag = String(formData.get("dag") ?? "").trim();
+  const kind = String(formData.get("kind") ?? "").trim();
+  const terugzetten = String(formData.get("terug") ?? "") === "ja";
+  if (!id || !dag || !kind) terug("Er ontbreekt iets om af te zeggen.", true);
+
+  const db = createAdminClient();
+  const { data, error } = await db
+    .from("aanvragen")
+    .select("id, onderwerp, soort, gegevens, gezien, afgehandeld, created_at")
+    .eq("id", id)
+    .maybeSingle();
+  if (error || !data) terug(error?.message ?? "Die inschrijving is niet gevonden.", true);
+  const aanvraag = data as Aanvraag;
+
+  const zelfde = (n: string) => n.toLowerCase() === kind.toLowerCase();
+  const namen = afgezegdVoor(aanvraag, dag).filter((n) => !zelfde(n));
+  if (!terugzetten) namen.push(kind);
+
+  const gegevens = { ...aanvraag.gegevens };
+  if (namen.length) gegevens[AFGEZEGD + dag] = namen.join(", ");
+  else delete gegevens[AFGEZEGD + dag];
+
+  const { error: bewaarFout } = await db
+    .from("aanvragen")
+    .update({ gegevens })
+    .eq("id", id);
+  if (bewaarFout) terug(bewaarFout.message, true);
+
+  if (terugzetten) {
+    terug(`${kind} staat terug op ${dag}.`);
+  }
+
+  /* Ook van de lijst bij Kampen en lessen, als die dag daar al staat. */
+  let ookBijKampen = false;
+  const { data: activiteit } = await db
+    .from("activiteiten")
+    .select("id")
+    .eq("naam", dag)
+    .eq("archief", false)
+    .maybeSingle();
+  if (activiteit) {
+    const gevonden = zoekKind(
+      kind,
+      {
+        gsm: vindWaarde(aanvraag.gegevens, "gsm"),
+        mail: vindWaarde(aanvraag.gegevens, "mail"),
+      },
+      await portaalKinderen(),
+    );
+    if (gevonden) {
+      const { error: weg } = await db
+        .from("deelnames")
+        .delete()
+        .eq("activiteit_id", (activiteit as { id: string }).id)
+        .eq("kind_id", gevonden.id);
+      if (!weg) {
+        ookBijKampen = true;
+        revalidatePath(`/beheer/activiteiten/${(activiteit as { id: string }).id}`);
+      }
+    }
+  }
+
+  terug(
+    `${kind} staat niet meer op ${dag}${ookBijKampen ? ", ook niet bij Kampen en lessen" : ""}. De inschrijving zelf blijft bewaard.`,
+  );
 }
 
 /*

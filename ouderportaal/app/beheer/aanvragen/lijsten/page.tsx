@@ -15,7 +15,7 @@ import {
   waardeVan,
   type Aanvraag,
 } from "@/lib/aanvraaglijsten";
-import { naarKampen, verwijderKind, voegKindToe, zetBetaald } from "./actions";
+import { naarKampen, verwijderKind, voegKindToe, zegAf, zetBetaald } from "./actions";
 import { BestaandKind, type BestaandKindRij } from "./BestaandKind";
 import { KINDVELDEN, watOntbreekt, type Kind } from "@/lib/kind";
 import { leeftijd } from "@/lib/activiteiten";
@@ -396,6 +396,19 @@ export default async function LijstenBeheer({
                                     {boodschap}
                                   </p>
                                 )}
+                                {i === 0 && (
+                                  <form action={zegAf} className="print:hidden">
+                                    <input type="hidden" name="id" value={aanvraag.id} />
+                                    <input type="hidden" name="dag" value={groep.naam} />
+                                    <input type="hidden" name="kind" value={rij.kind} />
+                                    <button
+                                      type="submit"
+                                      className="mt-0.5 text-xs font-normal text-danger underline underline-offset-2"
+                                    >
+                                      afgezegd, van deze dag halen
+                                    </button>
+                                  </form>
+                                )}
                                 {i === 0 && zelf && (
                                   <form action={verwijderKind} className="print:hidden">
                                     <input type="hidden" name="id" value={aanvraag.id} />
@@ -448,6 +461,30 @@ export default async function LijstenBeheer({
                     </tbody>
                   </table>
                 </div>
+
+                {groep.afgezegd.length > 0 && (
+                  <div className="mt-3 rounded-md bg-amber/10 px-3 py-2 text-sm text-ink-dim print:hidden">
+                    <span className="font-medium text-ink">Afgezegd:</span>{" "}
+                    {groep.afgezegd.map((rij, i) => (
+                      <span key={rij.sleutel} className="inline-flex items-baseline gap-1">
+                        {i > 0 && <span>, </span>}
+                        {rij.kind}
+                        <form action={zegAf} className="inline">
+                          <input type="hidden" name="id" value={rij.aanvraag.id} />
+                          <input type="hidden" name="dag" value={groep.naam} />
+                          <input type="hidden" name="kind" value={rij.kind} />
+                          <input type="hidden" name="terug" value="ja" />
+                          <button
+                            type="submit"
+                            className="text-xs text-forest-dark underline underline-offset-2"
+                          >
+                            (terugzetten)
+                          </button>
+                        </form>
+                      </span>
+                    ))}
+                  </div>
+                )}
 
                 <div className="mt-4 flex flex-wrap gap-2 print:hidden">
                   {datumUitNaam(groep.naam) !== null && (
