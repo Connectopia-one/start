@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { kampRegels } from "@/content/kampen";
 import { euro } from "@/lib/kampprijs";
 import { site } from "@/content/site";
+import { kampVoorwaarden } from "@/content/kampvoorwaarden";
 
 export const metadata: Metadata = {
   title: "Inschrijving ontvangen",
@@ -111,8 +112,8 @@ export default async function KampBedankt({
         ) : null}
 
         <p className="mt-6 text-[16px] text-ink">
-          Kan je kind toch niet komen? Laat het ons zo snel mogelijk weten.
-          Annuleren is gratis tot 14 dagen voor het kamp.{" "}
+          Kan je kind toch niet komen? Laat het ons zo snel mogelijk weten.{" "}
+          {kampVoorwaarden.kort}{" "}
           <Link href="/kampen/voorwaarden" className="font-bold text-green underline">
             Lees de voorwaarden
           </Link>

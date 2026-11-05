@@ -304,7 +304,7 @@ export const trajecten: Traject[] = [
       {
         label: "Betalen en annuleren",
         waarde:
-          "Je plaats is zeker zodra je betaling binnen is. Annuleren is gratis tot 14 dagen voor het kamp.",
+          "Je plaats is zeker zodra je betaling binnen is. Annuleren of niet komen wordt niet terugbetaald, behalve met een doktersbriefje of in een ernstige situatie.",
       },
     ],
     links: [

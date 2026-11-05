@@ -420,8 +420,7 @@ export function KampInschrijving({ kampen }: { kampen: Kamp[] }) {
                 server kijkt dit vinkje ook na, in app/kampen/acties.ts. */}
             <div className="rounded-[16px] bg-orange-soft px-5 py-4">
               <p className="text-[15px] text-ink">
-                Je plaats is zeker zodra je betaling binnen is. Annuleren is
-                gratis tot 14 dagen voor het kamp.{" "}
+                {kampVoorwaarden.kort}{" "}
                 <a
                   href="/kampen/voorwaarden"
                   target="_blank"
