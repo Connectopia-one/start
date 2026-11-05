@@ -7,6 +7,8 @@ export type Profile = {
   role: "ouder" | "beheerder" | "begeleider";
   is_plusklas: boolean;
   toegang_schooljaar: string | null;
+  /** Gratis volledige toegang tot en met deze dag ("2027-08-31"), los van code of betaling. */
+  gratis_tot?: string | null;
 };
 
 export type Session = {
@@ -24,7 +26,10 @@ export async function getSessionProfile(): Promise<Session | null> {
 
   const { data: profile } = await supabase
     .from("profiles")
-    .select("id, full_name, role, is_plusklas, toegang_schooljaar")
+    // Een sterretje en geen vaste kolomlijst: gratis_tot komt pas met
+    // supabase/enquete-en-reviews.sql. Zolang dat niet gedraaid is, mag het
+    // inloggen daar niet op stuklopen.
+    .select("*")
     .eq("id", user.id)
     .single();
 

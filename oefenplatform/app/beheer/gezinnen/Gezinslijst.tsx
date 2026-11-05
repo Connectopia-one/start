@@ -12,6 +12,8 @@ export type GezinRij = {
   betaald: boolean;
   toegangSchooljaar: string | null;
   code: string | null;
+  /** gratis toegang met einddatum ("2027-08-31"), enkel als die nog loopt */
+  gratisTot: string | null;
   sinds: string;
   kinderen: string[];
 };
@@ -29,9 +31,9 @@ const SOORTEN = [
 type Soort = (typeof SOORTEN)[number]["sleutel"];
 
 function hoortBij(rij: GezinRij, soort: Soort) {
-  if (soort === "gratis") return rij.isPlusklas;
+  if (soort === "gratis") return rij.isPlusklas || Boolean(rij.gratisTot);
   if (soort === "betaald") return rij.betaald;
-  if (soort === "open") return !rij.isPlusklas && !rij.betaald;
+  if (soort === "open") return !rij.isPlusklas && !rij.betaald && !rij.gratisTot;
   return true;
 }
 
@@ -229,7 +231,7 @@ export function Gezinslijst({
             {rijen.length} {rijen.length === 1 ? "account" : "accounts"},
             waarvan{" "}
             <span className="font-medium text-ink">
-              {rijen.filter((r) => r.isPlusklas || r.betaald).length}
+              {rijen.filter((r) => r.isPlusklas || r.betaald || r.gratisTot).length}
             </span>{" "}
             met volledige toegang.
           </>
@@ -281,7 +283,7 @@ export function Gezinslijst({
                 <div className="flex flex-col items-end gap-2">
                   <span
                     className={`rounded-full px-2.5 py-0.5 text-xs font-medium ${
-                      rij.isPlusklas
+                      rij.isPlusklas || rij.gratisTot
                         ? "bg-forest/10 text-forest-dark"
                         : rij.betaald
                           ? "bg-amber/15 text-amber"
@@ -290,7 +292,9 @@ export function Gezinslijst({
                   >
                     {rij.isPlusklas
                       ? "Gratis toegang van jou"
-                      : rij.betaald
+                      : rij.gratisTot
+                        ? `Gratis t.e.m. ${new Date(rij.gratisTot + "T12:00:00").toLocaleDateString("nl-BE", { day: "numeric", month: "long", year: "numeric" })}`
+                        : rij.betaald
                         ? `Betaald ${rij.toegangSchooljaar}`
                         : "Enkel de gratis hoofdstukken"}
                   </span>

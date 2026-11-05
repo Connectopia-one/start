@@ -83,6 +83,20 @@ export default async function BeheerPage() {
           </section>
 
           <section>
+            <h2 className="font-display text-lg font-semibold text-ink">Enquêtes en reviews</h2>
+            <p className="mt-3 text-sm text-ink-dim">
+              De antwoorden op de enquête, de reviews voor het reviewbord, en je knop om een gezin
+              goed te keuren.
+            </p>
+            <Link
+              href="/beheer/enquetes"
+              className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+            >
+              Enquêtes bekijken &rarr;
+            </Link>
+          </section>
+
+          <section>
             <h2 className="font-display text-lg font-semibold text-ink">Berichten aan de ouders</h2>
             <p className="mt-3 text-sm text-ink-dim">
               Eén bericht dat bovenaan het platform staat bij elke ouder die inlogt,

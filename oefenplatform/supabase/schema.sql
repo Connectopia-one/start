@@ -240,6 +240,10 @@ as $$
   end;
 $$;
 
+-- Gratis toegang met een einddatum (Kim, 5 november 2026). Staat ook in
+-- enquete-en-reviews.sql; hier zodat heeft_toegang hieronder altijd werkt.
+alter table public.profiles add column if not exists gratis_tot date;
+
 -- Heeft dit account volledige toegang (niet enkel de gratis hoofdstukken)?
 create or replace function public.heeft_toegang(check_uid uuid)
 returns boolean
@@ -249,7 +253,10 @@ set search_path = public
 stable
 as $$
   select coalesce((
-    select role = 'beheerder' or is_plusklas or toegang_schooljaar = public.huidig_schooljaar()
+    select role = 'beheerder' or is_plusklas
+      or toegang_schooljaar = public.huidig_schooljaar()
+      -- gratis toegang met een einddatum, zie enquete-en-reviews.sql
+      or (gratis_tot is not null and gratis_tot >= (now() at time zone 'Europe/Brussels')::date)
     from public.profiles
     where id = check_uid
   ), false);

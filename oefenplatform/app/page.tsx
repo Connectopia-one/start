@@ -248,6 +248,37 @@ export default async function HomePage() {
           </Link>
         </div>
 
+        {/* De enquête en het reviewbord (Kim, 5 november 2026). De enquête is
+            privé, het reviewbord is voor iedereen; elk een eigen post-it,
+            net als de weetjes. */}
+        <div className="mt-4 grid gap-4 sm:grid-cols-2">
+          <Link
+            href="/enquete"
+            className="rounded-xl border border-border bg-surface px-6 py-5 transition hover:border-forest hover:shadow-sm"
+          >
+            <span className="font-display text-lg font-semibold text-ink">
+              📝 Help ons beter worden
+            </span>
+            <span className="mt-1 block text-sm text-ink-dim">
+              Een korte enquête over wat goed werkt en wat beter kan. Alleen
+              wij lezen je antwoorden.
+            </span>
+          </Link>
+
+          <Link
+            href="/reviews"
+            className="rounded-xl border border-border bg-surface px-6 py-5 transition hover:border-forest hover:shadow-sm"
+          >
+            <span className="font-display text-lg font-semibold text-ink">
+              💬 Wat gezinnen ervan vinden
+            </span>
+            <span className="mt-1 block text-sm text-ink-dim">
+              Echte reviews van gezinnen die het platform gebruiken. Schrijf
+              gerust de jouwe.
+            </span>
+          </Link>
+        </div>
+
         {/* Spelletjes naast de leerstof, zoals de begrippenarena van
             geschiedenis. Ze tellen nergens voor mee. */}
         <Link

@@ -3,6 +3,7 @@ import { Header } from "@/components/Header";
 import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { huidigSchooljaar } from "@/lib/schooljaar";
+import { gratisTotNogGeldig } from "@/lib/toegang";
 import { Mailadressen, type MailRij } from "./Mailadressen";
 import { Gezinslijst, type CodeRij, type GezinRij } from "./Gezinslijst";
 
@@ -13,6 +14,7 @@ type Rij = {
   is_plusklas: boolean;
   toegang_schooljaar: string | null;
   plusklas_code: string | null;
+  gratis_tot?: string | null;
   created_at: string;
   kinderen: { id: string; naam: string }[] | null;
 };
@@ -41,7 +43,9 @@ export default async function GezinnenPage({
     admin
       .from("profiles")
       .select(
-        "id, full_name, role, is_plusklas, toegang_schooljaar, plusklas_code, created_at, kinderen(id, naam)",
+        // Een sterretje: gratis_tot komt pas met supabase/enquete-en-reviews.sql,
+        // en zolang dat niet gedraaid is mag deze lijst niet leeg blijven.
+        "*, kinderen(id, naam)",
       )
       .order("created_at", { ascending: false }),
     admin
@@ -55,7 +59,7 @@ export default async function GezinnenPage({
   const codes = (codesData ?? []) as CodeRij[];
   const schooljaar = huidigSchooljaar();
   const heeftToegang = (r: Rij) =>
-    r.is_plusklas || r.toegang_schooljaar === schooljaar;
+    r.is_plusklas || r.toegang_schooljaar === schooljaar || gratisTotNogGeldig(r.gratis_tot);
 
   /* Het mailadres staat niet in "profiles" maar in auth.users, en dat is enkel
      met de service-sleutel te lezen. Eén oproep, en daarna zoeken we per id. */
@@ -87,6 +91,7 @@ export default async function GezinnenPage({
     betaald: r.toegang_schooljaar === schooljaar,
     toegangSchooljaar: r.toegang_schooljaar,
     code: r.plusklas_code,
+    gratisTot: gratisTotNogGeldig(r.gratis_tot) ? (r.gratis_tot ?? null) : null,
     sinds: datum(r.created_at),
     kinderen: (r.kinderen ?? []).map((k) => k.naam),
   }));
