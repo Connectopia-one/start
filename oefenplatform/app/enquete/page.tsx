@@ -60,14 +60,20 @@ export default async function EnquetePage({
         <HelpOnsStappen userId={session.userId} />
 
         {melding === "bedankt" && (
-          <div className="mt-5 max-w-2xl rounded-md bg-forest/10 px-4 py-3 text-sm text-forest-dark">
-            <p className="font-semibold">Dank je wel! Je antwoorden zijn goed aangekomen.</p>
-            <p className="mt-1">
-              Schreef je al een review?{" "}
-              <Link href="/reviews#schrijf" className="underline underline-offset-2">
-                Dat kan op het reviewbord
+          <div className="mt-6 max-w-2xl rounded-xl border border-forest/30 bg-forest/10 px-6 py-5 text-forest-dark">
+            <p className="font-display text-xl font-semibold">💚 Dank je wel, echt!</p>
+            <p className="mt-2 text-sm leading-relaxed">
+              Wat fijn dat je de tijd nam om dit allemaal in te vullen. Connectopia is een kleine
+              vzw, en we bouwen dit platform stap voor stap, samen met gezinnen zoals het jouwe.
+              Elk antwoord, ook het kritische, helpt ons om het beter, rustiger en duidelijker te
+              maken voor elk kind dat hier oefent. Daar zijn we je heel dankbaar voor.
+            </p>
+            <p className="mt-3 text-sm">
+              Nog één kleine stap: wil je ook{" "}
+              <Link href="/reviews#schrijf" className="font-semibold underline underline-offset-2">
+                een eerlijke review schrijven
               </Link>
-              . Je antwoorden hieronder kan je nog altijd aanpassen.
+              ? Je antwoorden hieronder kan je altijd nog aanpassen.
             </p>
           </div>
         )}
