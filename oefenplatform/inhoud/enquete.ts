@@ -43,6 +43,8 @@ export type EnqueteVraag =
       soort: "open";
       vraag: string;
       hulp?: string;
+      /** grijze voorbeeldtekst in het vak, positief én kritisch, zodat mensen weten wat ze kunnen zeggen */
+      voorbeeld?: string;
       /** minimum aantal tekens; enkel bij de grote open vragen */
       minimum?: number;
       verplicht: boolean;
@@ -67,8 +69,8 @@ export const ENQUETE: EnqueteDeel[] = [
       {
         sleutel: "leeftijd",
         soort: "open",
+        voorbeeld: "Bv. 5de leerjaar en 2de middelbaar.",
         vraag: "Welk leerjaar of welke leeftijd hebben de kinderen die oefenden?",
-        hulp: "Bijvoorbeeld: 5de leerjaar en 2de middelbaar.",
         verplicht: true,
       },
       {
@@ -96,6 +98,7 @@ export const ENQUETE: EnqueteDeel[] = [
       {
         sleutel: "starten_moeilijk",
         soort: "open",
+        voorbeeld: 'Bv. "Het inloggen lukte pas na een paar keer" of "Alles liep vlot".',
         vraag: "Liep er iets moeilijk bij het starten of bij het inloggen?",
         verplicht: false,
       },
@@ -141,6 +144,7 @@ export const ENQUETE: EnqueteDeel[] = [
       {
         sleutel: "fouten",
         soort: "open",
+        voorbeeld: 'Bv. "Bij breuken stond een antwoord fout" of "Ik vond geen fouten".',
         vraag: "Vond je fouten of onduidelijke vragen? Welke?",
         verplicht: false,
       },
@@ -192,8 +196,8 @@ export const ENQUETE: EnqueteDeel[] = [
       {
         sleutel: "prikkelarm_uitleg",
         soort: "open",
+        voorbeeld: 'Bv. "Fijn dat er geen geluiden zijn" of "Er staat soms te veel tekst op één scherm".',
         vraag: "Wat zorgt voor rust, en wat geeft net te veel prikkels?",
-        hulp: "Denk aan kleuren, animaties, de hoeveelheid tekst op een scherm of meldingen.",
         verplicht: false,
       },
     ],
@@ -204,6 +208,7 @@ export const ENQUETE: EnqueteDeel[] = [
       {
         sleutel: "ervaring",
         soort: "open",
+        voorbeeld: 'Bv. "Ze oefent graag en vraagt er zelf naar" of "Hij haakte snel af, het was te veel lezen".',
         vraag: "Hoe reageerde je kind (of jijzelf) op het platform?",
         hulp: "Een paar zinnen is genoeg.",
         minimum: MINIMUM_OPEN,
@@ -212,12 +217,14 @@ export const ENQUETE: EnqueteDeel[] = [
       {
         sleutel: "leukst",
         soort: "open",
+        voorbeeld: 'Bv. "De badges" of "De vraag van de dag".',
         vraag: "Wat was het leukst?",
         verplicht: false,
       },
       {
         sleutel: "minder_leuk",
         soort: "open",
+        voorbeeld: 'Bv. "Lange uitleg" of "Dat je soms niet weet waar je moet klikken".',
         vraag: "Wat was minder leuk of frustrerend?",
         verplicht: false,
       },
@@ -229,6 +236,7 @@ export const ENQUETE: EnqueteDeel[] = [
       {
         sleutel: "verbeteren",
         soort: "open",
+        voorbeeld: 'Bv. "Duidelijker waar je moet beginnen" of "Meer oefeningen Frans".',
         vraag: "Wat is het belangrijkste dat we moeten verbeteren?",
         hulp: "Wees gerust kritisch, daar hebben we het meest aan.",
         minimum: MINIMUM_OPEN,
@@ -237,6 +245,7 @@ export const ENQUETE: EnqueteDeel[] = [
       {
         sleutel: "houden",
         soort: "open",
+        voorbeeld: 'Bv. "De rustige opbouw" of "De uitleg bij elke fout".',
         vraag: "Wat moeten we zeker zo houden?",
         minimum: MINIMUM_OPEN,
         verplicht: true,
@@ -244,6 +253,7 @@ export const ENQUETE: EnqueteDeel[] = [
       {
         sleutel: "missen",
         soort: "open",
+        voorbeeld: 'Bv. "Een overzicht voor ouders" of "Oefeningen voor het 3de leerjaar".',
         vraag: "Wat mis je nog op het platform?",
         verplicht: false,
       },
@@ -272,6 +282,7 @@ export const ENQUETE: EnqueteDeel[] = [
       {
         sleutel: "aanraden_waarom",
         soort: "open",
+        voorbeeld: 'Bv. "Omdat het rustig en duidelijk is" of "Nog niet, eerst meer vakken".',
         vraag: "Waarom wel of niet?",
         verplicht: false,
       },

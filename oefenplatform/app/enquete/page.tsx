@@ -53,9 +53,8 @@ export default async function EnquetePage({
       <main className="mx-auto w-full max-w-3xl flex-1 px-6 py-10">
         <h1 className="font-display text-2xl font-semibold text-ink">📝 Help ons beter worden</h1>
         <p className="mt-2 max-w-2xl text-sm text-ink-dim">
-          Een tiental minuten, over wat goed werkte en wat beter kan. Alleen wij lezen je
-          antwoorden, ze komen nergens op het platform te staan. Wees gerust kritisch: net daar
-          hebben we het meest aan.
+          Een tiental minuten. Alleen wij lezen je antwoorden. Positief of kritisch, alles helpt.
+          In elk vak staat een voorbeeld in het grijs.
         </p>
 
         <HelpOnsStappen userId={session.userId} />
@@ -186,6 +185,7 @@ export default async function EnquetePage({
                         minLength={v.minimum}
                         maxLength={3000}
                         defaultValue={typeof eerder === "string" ? eerder : ""}
+                        placeholder={v.voorbeeld}
                         className={veld}
                       />
                     </label>

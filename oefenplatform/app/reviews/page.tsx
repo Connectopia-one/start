@@ -208,7 +208,7 @@ export default async function ReviewsPage({
                     minLength={20}
                     maxLength={1200}
                     defaultValue={eigen?.tekst ?? ""}
-                    placeholder="Hoe gebruiken jullie het platform, wat werkt goed, wat kan beter?"
+                    placeholder={'Bv. "Mijn dochter oefent graag, vooral de vraag van de dag. De uitleg bij een fout helpt echt." of "Rustig platform, maar het starten was zoeken en ik mis nog oefeningen Frans."'}
                     className="w-full rounded-md border border-border bg-paper px-3 py-2 text-sm text-ink outline-none focus:border-forest focus:ring-1 focus:ring-forest"
                   />
                 </label>
