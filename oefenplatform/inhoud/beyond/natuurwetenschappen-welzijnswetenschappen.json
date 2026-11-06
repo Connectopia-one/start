@@ -1,0 +1,3083 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Welzijnswetenschappen: Enzymen — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een enzym?",
+          "opties": [
+            "een eiwit dat een reactie versnelt zonder zelf verbruikt te worden",
+            "een vet dat energie opslaat voor later gebruik in de cel",
+            "een suiker die als bouwstof dient voor de celwand",
+            "een hormoon dat via het bloed naar een doelorgaan reist"
+          ],
+          "antwoord": 0,
+          "uitleg": "Enzymen zijn biokatalysatoren: eiwitten die een reactie in het lichaam versnellen. Na de reactie zijn ze onveranderd en kunnen ze opnieuw werken."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een enzym versnelt een reactie in een levend organisme. Hoe noemt men een enzym daarom met één woord?",
+          "antwoord": [
+            "biokatalysator",
+            "katalysator"
+          ],
+          "uitleg": "Een katalysator versnelt een reactie zonder zelf op te gebruiken. Omdat enzymen dat in levende wezens doen, heten ze biokatalysatoren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In het sleutel-slotprincipe staat het slot voor een deel van het enzym. Welk deel?",
+          "opties": [
+            "het actief centrum",
+            "het substraat",
+            "het reactieproduct",
+            "de cofactor die losjes meedraait"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het actief centrum is de plek in het enzym waar het substraat precies in past, zoals een sleutel in een slot."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stof is in het sleutel-slotprincipe de sleutel?",
+          "opties": [
+            "het substraat",
+            "het enzym",
+            "het actief centrum",
+            "de inhibitor"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het substraat is de stof die het enzym omzet. Het past in het actief centrum, net als een sleutel in een slot."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet het tijdelijke geheel dat ontstaat wanneer het substraat in het actief centrum gebonden is?",
+          "antwoord": [
+            "enzym-substraatcomplex",
+            "enzymsubstraatcomplex",
+            "ES-complex"
+          ],
+          "uitleg": "Even zitten enzym en substraat aan elkaar vast als enzym-substraatcomplex. Daarna komen de producten vrij en is het enzym weer klaar voor een volgend substraat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe versnelt een enzym een reactie?",
+          "opties": [
+            "het verlaagt de activeringsenergie die nodig is om de reactie te starten",
+            "het levert zelf extra energie aan de reactie door op te branden",
+            "het verhoogt de temperatuur rond het substraat met enkele graden",
+            "het verandert het eindproduct zodat er meer van ontstaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een enzym maakt de drempel lager: er is minder activeringsenergie nodig. De reactie verloopt daardoor veel sneller bij lichaamstemperatuur."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een enzym wordt tijdens de reactie die het versnelt opgebruikt, zodat de cel na elke reactie een nieuw enzym moet maken.",
+          "antwoord": false,
+          "uitleg": "Een enzym blijft na de reactie onveranderd en kan telkens opnieuw een substraat omzetten. Daarom volstaan kleine hoeveelheden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelt men met de substraatspecificiteit van een enzym?",
+          "opties": [
+            "een enzym zet maar één bepaald substraat of één soort substraat om",
+            "een enzym werkt alleen bij één bepaalde temperatuur en verder nergens",
+            "een enzym komt maar in één bepaald orgaan van het lichaam voor",
+            "een enzym maakt telkens één product, welk substraat er ook binnenkomt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Door de vorm van het actief centrum past enkel een bepaald substraat. Amylase breekt zetmeel af, maar geen eiwitten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De naam van veel enzymen eindigt op een vaste uitgang. Welke voorbeelden zijn juist gevormd naar het substraat dat ze afbreken? Kruis alles aan wat juist is.",
+          "opties": [
+            "lactase breekt lactose af",
+            "lipase breekt lipiden af",
+            "trypsine breekt triglyceriden af",
+            "pepsine breekt zetmeel af"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Veel enzymnamen bestaan uit de naam van het substraat met de uitgang -ase. Trypsine en pepsine zijn oudere namen en breken allebei eiwitten af, geen vetten of zetmeel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke uitgang krijgt de naam van de meeste enzymen, zoals bij amylase en lactase?",
+          "antwoord": [
+            "-ase",
+            "ase"
+          ],
+          "uitleg": "De uitgang -ase wijst op een enzym. Vaak staat het substraat ervoor: sacharase breekt sacharose af, lactase lactose."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Enzymen zijn eiwitten, en hun werking hangt af van hun ruimtelijke vorm.",
+          "antwoord": true,
+          "uitleg": "De vorm van het eiwit bepaalt het actief centrum. Verandert die vorm, dan past het substraat niet meer en werkt het enzym niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er bij de denaturatie van een enzym?",
+          "opties": [
+            "de ruimtelijke vorm gaat verloren, waardoor het actief centrum niet meer past",
+            "het enzym splitst zich in twee kleinere enzymen die elk half zo snel werken",
+            "het enzym bindt zich blijvend aan zijn product en wordt zo inactief opgeslagen",
+            "het enzym verandert van substraat en zet voortaan een andere stof om"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij denaturatie verliest het eiwit zijn vorm, bijvoorbeeld door hoge temperatuur of een sterk afwijkende pH. Het actief centrum vervormt mee en het enzym werkt niet meer."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een enzym dat door hoge temperatuur gedenatureerd is, gaat gewoon weer werken zodra het afkoelt.",
+          "antwoord": false,
+          "uitleg": "Denaturatie door hitte is meestal blijvend. Een gekookt ei wordt ook niet meer vloeibaar als het afkoelt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een cofactor?",
+          "opties": [
+            "een niet-eiwitdeel, zoals een metaalion, dat een enzym nodig heeft om te werken",
+            "een tweede substraat dat het enzym tegelijk met het eerste afbreekt",
+            "een stof die het actief centrum blijvend blokkeert en het enzym stillegt",
+            "een enzym dat de aanmaak van andere enzymen in de cel regelt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Sommige enzymen werken pas met een helper die geen eiwit is. Een anorganische helper zoals een zink- of magnesiumion noemt men een cofactor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een co-enzym en een cofactor zoals een metaalion?",
+          "opties": [
+            "een co-enzym is een organische molecule, vaak afgeleid van een vitamine",
+            "een co-enzym is zelf een enzym dat de reactie van het eerste overneemt",
+            "een co-enzym werkt enkel buiten de cel, een cofactor enkel erbinnen",
+            "een co-enzym remt het enzym, een cofactor helpt het enzym"
+          ],
+          "antwoord": 0,
+          "uitleg": "Co-enzymen zijn organische helpers, vaak gemaakt uit vitaminen van de B-groep. Metaalionen zijn anorganische cofactoren."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De activeringsenergie is de energie die nodig is om een reactie op gang te brengen.",
+          "antwoord": true,
+          "uitleg": "Ook een reactie die netto energie oplevert, heeft een duwtje nodig om te starten. Dat duwtje is de activeringsenergie, en een enzym maakt het kleiner."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over het actief centrum zijn juist? Kruis alles aan wat juist is.",
+          "opties": [
+            "het is een klein deel van het enzym waar het substraat bindt",
+            "de vorm ervan bepaalt welk substraat het enzym omzet",
+            "het wordt na elke reactie afgebroken en opnieuw opgebouwd",
+            "het verandert van vorm als het enzym denatureert"
+          ],
+          "antwoord": [
+            0,
+            1,
+            3
+          ],
+          "uitleg": "Het actief centrum is een kleine holte of groeve in het enzym. Het blijft na de reactie bestaan, maar vervormt wel bij denaturatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom noemt men enzymen biokatalysatoren en geen gewone reactiestoffen?",
+          "opties": [
+            "ze komen na de reactie onveranderd terug",
+            "ze worden in het reactieproduct ingebouwd",
+            "ze leveren de bouwstenen voor het product",
+            "ze zetten zichzelf om tot een nieuw enzym"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een katalysator neemt deel aan de reactie maar komt er onveranderd uit. Enzymen doen dat in levende wezens."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een enzym zet stof A om, maar niet stof B die er sterk op lijkt. Wat is de beste verklaring?",
+          "opties": [
+            "stof B past niet in het actief centrum",
+            "stof B heeft meer activeringsenergie nodig dan het enzym kan leveren",
+            "stof B is groter dan het hele enzym en kan niet in de cel",
+            "stof B wordt pas omgezet als de temperatuur boven 60 °C komt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat heet substraatspecificiteit. Een klein verschil in vorm volstaat om niet meer in het actief centrum te passen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Eén enzymmolecule kan in korte tijd vele duizenden substraatmoleculen omzetten.",
+          "antwoord": true,
+          "uitleg": "Omdat het enzym niet opgebruikt wordt, kan het snel na elkaar telkens een nieuw substraat binden. Sommige enzymen halen miljoenen omzettingen per seconde."
+        }
+      ]
+    },
+    {
+      "titel": "Welzijnswetenschappen: Enzymen — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij lage temperatuur werkt een enzym traag. Waarom?",
+          "opties": [
+            "de moleculen bewegen trager, zodat enzym en substraat elkaar minder vaak raken",
+            "het enzym is bij lage temperatuur gedenatureerd en blijvend beschadigd",
+            "het substraat bevriest en kan daardoor niet in het actief centrum",
+            "het actief centrum wordt bij kou groter en houdt het substraat niet vast"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij lagere temperatuur botsen de moleculen minder vaak. Het enzym is niet kapot: warm het op en het werkt weer sneller."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het temperatuursoptimum van een enzym?",
+          "opties": [
+            "de temperatuur waarbij het enzym het snelst werkt",
+            "de laagste temperatuur waarbij het enzym nog net werkt",
+            "de temperatuur waarbij het enzym denatureert",
+            "de gemiddelde temperatuur in de cel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij het optimum is de reactiesnelheid het grootst. Bij de meeste menselijke enzymen ligt het rond 37 °C."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een grafiek toont de reactiesnelheid van een menselijk enzym tegen de temperatuur. Hoe ziet die curve er doorgaans uit?",
+          "opties": [
+            "ze stijgt geleidelijk tot rond 37 °C en valt daarna snel terug",
+            "ze stijgt gelijkmatig en blijft stijgen bij elke hogere temperatuur",
+            "ze daalt gelijkmatig vanaf 0 °C tot ze bij 100 °C nul wordt",
+            "ze blijft vlak, want temperatuur heeft geen invloed op enzymen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst versnelt de warmte de botsingen. Voorbij het optimum begint het enzym te denatureren, en dan zakt de snelheid steil."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Pepsine, het eiwitsplitsende enzym in de maag, werkt het best in een zuur midden met een pH rond 2.",
+          "antwoord": true,
+          "uitleg": "In de maag is het erg zuur door het maagzuur. Pepsine is daaraan aangepast en heeft zijn pH-optimum rond 2."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk enzym heeft zijn pH-optimum in een licht basisch midden, zoals in de twaalfvingerige darm?",
+          "opties": [
+            "trypsine",
+            "pepsine",
+            "speekselamylase bij pH 2",
+            "geen enkel enzym werkt basisch"
+          ],
+          "antwoord": 0,
+          "uitleg": "Trypsine uit het alvleeskliersap werkt in de dunne darm, waar natriumwaterstofcarbonaat het zure maagsap neutraliseert. Zijn optimum ligt rond pH 8."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met de reactiesnelheid als je de substraatconcentratie blijft verhogen, terwijl de hoeveelheid enzym gelijk blijft?",
+          "opties": [
+            "ze stijgt eerst en bereikt dan een maximum, omdat alle enzymen bezet zijn",
+            "ze blijft altijd evenredig stijgen met de hoeveelheid substraat",
+            "ze daalt, omdat te veel substraat het enzym denatureert",
+            "ze verandert niet, want de snelheid hangt enkel van de temperatuur af"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij veel substraat zijn alle actieve centra voortdurend bezet. Dat heet verzadiging, en de snelheid blijft dan op haar maximum."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men de toestand waarin alle actieve centra van de enzymen bezet zijn, zodat meer substraat de reactie niet meer versnelt?",
+          "antwoord": [
+            "verzadiging",
+            "verzadigingstoestand"
+          ],
+          "uitleg": "Bij verzadiging werken alle enzymen op volle kracht. De reactie heeft haar maximale snelheid bereikt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met de reactiesnelheid als je meer enzym toevoegt en er substraat genoeg is?",
+          "opties": [
+            "ze stijgt, want er zijn meer actieve centra beschikbaar",
+            "ze daalt, want de enzymen hinderen elkaar",
+            "ze blijft gelijk, want het substraat is de enige factor",
+            "ze wordt nul, want het enzym verbruikt al het substraat in één keer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zolang er voldoende substraat is, zet elk extra enzym extra substraat om. De maximale reactiesnelheid ligt dan hoger."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet een inhibitor?",
+          "opties": [
+            "hij remt de werking van een enzym",
+            "hij versnelt de werking van een enzym",
+            "hij vormt het product van de reactie",
+            "hij levert de energie voor de reactie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een inhibitor is een remmer. Sommige inhibitoren bezetten het actief centrum, andere veranderen de vorm van het enzym elders."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een inhibitor die op het substraat lijkt, kan in het actief centrum gaan zitten en zo het echte substraat de plaats afnemen.",
+          "antwoord": true,
+          "uitleg": "Zo'n inhibitor concurreert met het substraat om het actief centrum. Veel geneesmiddelen werken op die manier."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke factoren beïnvloeden de werking van een enzym? Kruis alles aan wat juist is.",
+          "opties": [
+            "de temperatuur",
+            "de zuurtegraad of pH",
+            "de substraatconcentratie",
+            "de enzymconcentratie"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Alle vier spelen mee: temperatuur, pH, enzymconcentratie en substraatconcentratie bepalen samen hoe snel een enzym werkt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Elk enzym in het menselijk lichaam heeft hetzelfde pH-optimum, namelijk 7.",
+          "antwoord": false,
+          "uitleg": "Het pH-optimum hangt af van waar het enzym werkt. Pepsine werkt het best rond pH 2, trypsine rond pH 8 en speekselamylase rond pH 7."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Speekselamylase komt met het voedsel in de maag terecht. Wat gebeurt er daar met zijn werking?",
+          "opties": [
+            "het stopt grotendeels, want de maag is veel te zuur",
+            "het werkt veel sneller, want de maag is warmer",
+            "het verandert in pepsine en breekt eiwitten af",
+            "het werkt verder zoals in de mond, want pH maakt niet uit"
+          ],
+          "antwoord": 0,
+          "uitleg": "Speekselamylase werkt het best rond pH 7. In het zure maagsap valt de werking grotendeels stil."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk enzym speelt een rol bij de DNA-replicatie?",
+          "opties": [
+            "DNA-polymerase",
+            "lactase",
+            "pepsine",
+            "lipase"
+          ],
+          "antwoord": 0,
+          "uitleg": "DNA-polymerase bouwt een nieuwe streng op tegen de oude streng. Ook helicase, dat de dubbele helix opent, is een enzym bij de replicatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij welke processen in het lichaam of in de plant zijn enzymen onmisbaar? Kruis alles aan wat juist is.",
+          "opties": [
+            "de spijsvertering",
+            "de celademhaling",
+            "de fotosynthese",
+            "de DNA-replicatie"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Vertering, celademhaling, fotosynthese en DNA-replicatie verlopen allemaal stap voor stap via enzymen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men de hoogste reactiesnelheid die een enzym kan halen, wanneer alle actieve centra bezet zijn?",
+          "antwoord": [
+            "maximale reactiesnelheid",
+            "maximumsnelheid",
+            "Vmax"
+          ],
+          "uitleg": "De maximale reactiesnelheid wordt bereikt bij verzadiging. Meer substraat helpt dan niet meer; meer enzym wel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij koorts van 41 °C kunnen sommige enzymen in het lichaam al minder goed beginnen te werken.",
+          "antwoord": true,
+          "uitleg": "Ver boven 37 °C begint de vorm van gevoelige eiwitten te veranderen. Daarom is zeer hoge koorts gevaarlijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een proef zet men amylase met zetmeel bij 0 °C, 37 °C en 90 °C. Bij welke temperatuur wordt het zetmeel het snelst afgebroken?",
+          "opties": [
+            "bij 37 °C",
+            "bij 0 °C",
+            "bij 90 °C",
+            "bij alle drie even snel"
+          ],
+          "antwoord": 0,
+          "uitleg": "37 °C ligt bij het optimum van menselijke amylase. Bij 0 °C werkt het enzym erg traag, en bij 90 °C is het gedenatureerd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Na de proef zet men de buis van 0 °C en de buis van 90 °C allebei op 37 °C. Wat verwacht je?",
+          "opties": [
+            "in de buis die eerst koud was, gaat het enzym alsnog werken",
+            "in de buis die eerst heet was, gaat het enzym alsnog werken",
+            "in beide buizen gaat het enzym opnieuw normaal werken",
+            "in geen van beide buizen werkt het enzym nog"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kou vertraagt het enzym maar beschadigt het niet. Hitte denatureert het blijvend, dus die buis blijft stil."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een enzym verandert de evenwichtsligging van een reactie, zodat er uiteindelijk meer product ontstaat.",
+          "antwoord": false,
+          "uitleg": "Een enzym versnelt enkel hoe snel het evenwicht bereikt wordt. Waar dat evenwicht ligt, verandert het niet."
+        }
+      ]
+    },
+    {
+      "titel": "Welzijnswetenschappen: Het spijsverteringsstelsel — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke laag van de wand van het spijsverteringskanaal ligt aan de binnenkant, tegen de voedselbrij?",
+          "opties": [
+            "de slijmvlieslaag of mucosa",
+            "de spierlaag",
+            "de buitenste bindweefsellaag",
+            "het middenrif"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van binnen naar buiten liggen de slijmvlieslaag, een bindweefsellaag, de spierlaag en tot slot een bindweefsel- of steunweefsellaag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de taak van de spierlaag in de wand van het spijsverteringskanaal?",
+          "opties": [
+            "ze kneedt het voedsel en duwt het verder door peristaltiek",
+            "ze maakt verteringsenzymen aan die het voedsel afbreken",
+            "ze neemt de voedingsstoffen op en geeft ze door aan het bloed",
+            "ze beschermt het kanaal tegen bacteriën met antistoffen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kringspieren en lengtespieren trekken beurtelings samen. Die golfbeweging, de peristaltiek, duwt de voedselbrij door het kanaal."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de golfvormige samentrekking van de spieren in de wand van de slokdarm en de darmen, die het voedsel voortstuwt?",
+          "antwoord": "peristaltiek",
+          "uitleg": "Bij peristaltiek trekken de kringspieren achter de voedselbrok samen en ontspannen ze ervoor. Zo schuift het voedsel verder, zelfs als je ondersteboven hangt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat belet dat voedsel bij het slikken in de luchtpijp terechtkomt?",
+          "opties": [
+            "het strottenklepje",
+            "de maagportier",
+            "de sluitspier van de anus",
+            "het middenrif"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij het slikken sluit het strottenklepje de ingang van het strottenhoofd af. Het voedsel gaat zo de slokdarm in."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De maagportier is de kringspier tussen de slokdarm en de maag.",
+          "antwoord": false,
+          "uitleg": "De maagportier ligt aan de uitgang van de maag, tussen de maag en de twaalfvingerige darm. Ze laat de maaginhoud met kleine porties door."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke delen behoren tot de dunne darm? Kruis alles aan wat juist is.",
+          "opties": [
+            "de twaalfvingerige darm",
+            "de nuchtere darm of jejunum",
+            "de blinde darm of caecum",
+            "de karteldarm of colon"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De dunne darm bestaat uit de twaalfvingerige darm, de nuchtere darm en de kronkeldarm of ileum. De blinde darm en het colon horen bij de dikke darm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke delen behoren tot de dikke darm? Kruis alles aan wat juist is.",
+          "opties": [
+            "de blinde darm met het wormvormig aanhangsel",
+            "de karteldarm of colon",
+            "de endeldarm of rectum",
+            "de nuchtere darm"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De dikke darm begint bij de blinde darm, loopt via het opstijgend, dwarslopend, afdalend en S-vormig deel van het colon en eindigt bij de endeldarm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is vertering?",
+          "opties": [
+            "het afbreken van grote voedingsmoleculen tot kleine die opgenomen kunnen worden",
+            "het opnemen van de voedingsstoffen uit de darm in het bloed en de lymfe",
+            "het verwijderen van de onverteerbare voedselresten langs de anus",
+            "het opslaan van voedingsstoffen in de lever voor later gebruik"
+          ],
+          "antwoord": 0,
+          "uitleg": "Grote moleculen zoals zetmeel, eiwitten en vetten passen niet door de darmwand. Vertering knipt ze in kleine bouwstenen die wel opgenomen kunnen worden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke cellen in de maagwand maken het zoutzuur van het maagsap?",
+          "opties": [
+            "de pariëtale cellen",
+            "de slijmcellen",
+            "de darmepitheelcellen",
+            "de rode bloedcellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Pariëtale cellen in de maagklieren maken HCl. Slijmcellen maken een laag slijm die de maagwand tegen dat zuur beschermt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet het maagzuur? Kruis alles aan wat juist is.",
+          "opties": [
+            "het doodt veel bacteriën die met het voedsel binnenkomen",
+            "het zet pepsinogeen om in het actieve pepsine",
+            "het zorgt voor de lage pH waarbij pepsine goed werkt",
+            "het emulgeert de vetten tot kleine druppeltjes"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Maagzuur ontsmet, activeert pepsinogeen tot pepsine en zorgt voor de lage pH die pepsine nodig heeft. Vetten emulgeren doen de galzouten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Pepsine wordt eerst aangemaakt als het inactieve pepsinogeen, zodat het de cellen die het maken niet zelf verteert.",
+          "antwoord": true,
+          "uitleg": "Pas in de maagholte zet maagzuur pepsinogeen om in pepsine. Zo blijft de cel die het maakt gespaard."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar wordt gal aangemaakt?",
+          "opties": [
+            "in de lever",
+            "in de galblaas",
+            "in de alvleesklier",
+            "in de maag"
+          ],
+          "antwoord": 0,
+          "uitleg": "De lever maakt gal. De galblaas slaat de gal op en dikt ze in, en geeft ze af aan de twaalfvingerige darm na een maaltijd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doen galzouten met vetten in de dunne darm?",
+          "opties": [
+            "ze verdelen grote vetdruppels in kleine druppeltjes, zodat lipase beter kan werken",
+            "ze knippen de vetten chemisch in glycerol en losse vetzuren",
+            "ze zetten de vetten om in glucose voor de energievoorziening",
+            "ze brengen de vetten zonder verdere vertering in de bloedbaan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Galzouten emulgeren: ze maken van grote vetdruppels veel kleine. Dat vergroot het oppervlak waarop lipase de vetten afbreekt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Gal bevat zelf enzymen die vetten afbreken tot glycerol en vetzuren.",
+          "antwoord": false,
+          "uitleg": "Gal bevat geen verteringsenzymen. De galzouten emulgeren alleen. De chemische afbraak gebeurt door lipase uit het alvleeskliersap."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom geeft de alvleesklier natriumwaterstofcarbonaat (NaHCO₃) af aan de twaalfvingerige darm?",
+          "opties": [
+            "om het zure maagsap te neutraliseren, zodat de darmenzymen kunnen werken",
+            "om de eiwitten in de darm af te breken tot losse aminozuren",
+            "om de vetten in de darm te emulgeren tot kleine druppeltjes",
+            "om de bacteriën in de dunne darm te doden voor ze zich vermenigvuldigen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De voedselbrij uit de maag is zeer zuur. NaHCO₃ neutraliseert dat, zodat enzymen zoals trypsine en lipase bij een licht basische pH werken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke enzymen zitten in het alvleeskliersap? Kruis alles aan wat juist is.",
+          "opties": [
+            "amylase",
+            "trypsine",
+            "lactase",
+            "pepsine"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Het alvleeskliersap bevat amylase voor zetmeel, trypsine voor eiwitten en lipase voor vetten. Pepsine komt uit de maag, en lactase zit in de wand van de dunne darm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het eindproduct van de volledige vertering van zetmeel?",
+          "opties": [
+            "glucose",
+            "aminozuren",
+            "glycerol en vetzuren",
+            "maltose"
+          ],
+          "antwoord": 0,
+          "uitleg": "Amylase knipt zetmeel tot maltose, en maltase knipt maltose verder tot glucose. Glucose wordt opgenomen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk enzym in de dunne darm splitst melksuiker in glucose en galactose?",
+          "antwoord": "lactase",
+          "uitleg": "Lactase breekt lactose af. Wie te weinig lactase heeft, verteert melksuiker slecht en heeft last van lactose-intolerantie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen endopeptidasen en exopeptidasen?",
+          "opties": [
+            "endopeptidasen knippen midden in een eiwitketen, exopeptidasen knippen aminozuren van de uiteinden",
+            "endopeptidasen werken in de maag, exopeptidasen enkel in de mond",
+            "endopeptidasen breken vetten af, exopeptidasen breken suikers af",
+            "endopeptidasen bouwen eiwitten op, exopeptidasen breken ze af"
+          ],
+          "antwoord": 0,
+          "uitleg": "Endopeptidasen zoals pepsine en trypsine knippen eiwitten in kortere stukken. Exopeptidasen halen daarna aminozuren één voor één van de uiteinden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Sacharase splitst sacharose, de gewone suiker, in glucose en fructose.",
+          "antwoord": true,
+          "uitleg": "Sacharose is een disacharide uit glucose en fructose. Sacharase knipt de binding tussen beide."
+        }
+      ]
+    },
+    {
+      "titel": "Welzijnswetenschappen: Het spijsverteringsstelsel — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom heeft de binnenwand van de dunne darm plooien, darmvlokken en microvilli?",
+          "opties": [
+            "ze vergroten het oppervlak voor de opname van voedingsstoffen",
+            "ze vertragen de doorgang van het voedsel zodat het langer gist",
+            "ze maken gal aan voor de vertering van vetten",
+            "ze beschermen de darm tegen het zure maagsap"
+          ],
+          "antwoord": 0,
+          "uitleg": "Darmplooien, villi en microvilli vergroten samen het opnameoppervlak enorm. Daardoor kunnen voedingsstoffen snel opgenomen worden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men de vele microvilli samen aan de binnenkant van een darmepitheelcel?",
+          "antwoord": "borstelzoom",
+          "uitleg": "Onder de microscoop lijken de microvilli op de haren van een borstel. Daarom heet die rand de borstelzoom."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is osmose?",
+          "opties": [
+            "water dat door een halfdoorlatend membraan naar de geconcentreerdste kant gaat",
+            "opgeloste deeltjes die met ATP tegen hun concentratieverschil in gaan",
+            "grote deeltjes die de cel opneemt door ze in een blaasje te sluiten",
+            "zouten die een eiwitpomp in het membraan naar buiten de cel duwt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij osmose beweegt water door een halfdoorlatend membraan van een hypotone naar een hypertone oplossing, zonder dat de cel energie moet leveren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke transportvormen zijn passief en kosten de cel dus geen ATP? Kruis alles aan wat juist is.",
+          "opties": [
+            "diffusie",
+            "gefaciliteerde diffusie",
+            "osmose",
+            "transport met een pomp"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Diffusie, gefaciliteerde diffusie en osmose volgen het concentratieverschil. Een pomp werkt ertegenin en kost ATP: dat is actief transport."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is gefaciliteerde diffusie?",
+          "opties": [
+            "passief transport via een transporteiwit, met het concentratieverschil mee",
+            "actief transport tegen het concentratieverschil in, met energie uit ATP",
+            "het opnemen van vloeistof door de cel via een kleine instulping van het membraan",
+            "de verplaatsing van water door een membraan zonder dat er een eiwit aan te pas komt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij gefaciliteerde diffusie helpt een transmembraaneiwit, zoals een glucosetransporter, de stof door het membraan. De beweging volgt het concentratieverschil, dus er is geen ATP nodig."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij actief transport verplaatst een stof zich met het concentratieverschil mee, zodat de cel er geen energie voor nodig heeft.",
+          "antwoord": false,
+          "uitleg": "Bij actief transport gaat een stof net tegen het concentratieverschil in, van laag naar hoog. Pompen in het membraan doen dat met energie uit ATP."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een rode bloedcel komt in zuiver water terecht. Wat gebeurt er?",
+          "opties": [
+            "er stroomt water de cel in, zodat ze opzwelt en kan barsten",
+            "er stroomt water de cel uit, zodat ze verschrompelt",
+            "er gebeurt niets, want water gaat niet door het celmembraan",
+            "de cel neemt zouten op uit het water en wordt groter"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zuiver water is hypotoon tegenover de cel. Water stroomt door osmose naar binnen en de cel kan openbarsten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men een oplossing met dezelfde osmotische waarde als de inhoud van de cel, zodat er netto geen water in of uit de cel stroomt?",
+          "antwoord": "isotoon",
+          "uitleg": "In een isotone oplossing blijft de cel even groot. Fysiologisch zout is daarom isotoon gemaakt met het bloed."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe worden glycerol en vetzuren na opname in de darmepitheelcel verder vervoerd?",
+          "opties": [
+            "ze worden weer vetten, verpakt in lipoproteïnen, en gaan naar het lymfevat",
+            "ze gaan rechtstreeks via de leverpoortader naar de lever, net als glucose",
+            "ze blijven in de darmepitheelcel opgeslagen tot ze daar verbrand worden",
+            "ze verlaten het lichaam met de ontlasting zonder dat ze opgenomen worden"
+          ],
+          "antwoord": 0,
+          "uitleg": "In de darmepitheelcel worden vetten opnieuw opgebouwd en met eiwitten verpakt tot lipoproteïnedeeltjes. Die gaan naar het lymfevat in de darmvlok en komen pas later in het bloed."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Via welk bloedvat gaan opgenomen glucose en aminozuren van de darm naar de lever?",
+          "opties": [
+            "via de leverpoortader",
+            "via de aorta",
+            "via de longader",
+            "via de onderste holle ader rechtstreeks"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het bloed uit de darmen gaat eerst via de leverpoortader naar de lever. Die verwerkt de opgenomen stoffen voor ze in de grote bloedsomloop komen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het meeste water uit het voedsel en de verteringssappen wordt in de dikke darm opgenomen, en niet in de dunne darm.",
+          "antwoord": false,
+          "uitleg": "Het grootste deel van het water wordt al in de dunne darm opgenomen. De dikke darm neemt nog een deel op en dikt de ontlasting zo in."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zijn essentiële voedingsstoffen?",
+          "opties": [
+            "stoffen die het lichaam nodig heeft maar niet zelf kan maken",
+            "stoffen die het lichaam altijd zelf kan maken uit glucose",
+            "stoffen die enkel een rol spelen bij de vertering in de darm",
+            "stoffen die het lichaam nooit opneemt en meteen uitscheidt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Essentiële aminozuren, essentiële vetzuren, vitaminen en mineralen moet je met de voeding binnenkrijgen, want je lichaam maakt ze niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vitaminen zijn vetoplosbaar? Kruis alles aan wat juist is.",
+          "opties": [
+            "vitamine A",
+            "vitamine D",
+            "vitamine B12",
+            "vitamine C"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De vetoplosbare vitaminen zijn A, D, E en K. Vitamine C en de B-vitaminen zijn wateroplosbaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk vetzuur is een voorbeeld van een essentieel vetzuur?",
+          "opties": [
+            "een omega-3-vetzuur",
+            "een verzadigd vetzuur uit boter",
+            "glycerol",
+            "cholesterol"
+          ],
+          "antwoord": 0,
+          "uitleg": "Omega-3- en omega-6-vetzuren kan het lichaam niet zelf maken. Ze moeten uit de voeding komen, bijvoorbeeld uit vette vis of noten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doen voedingsvezels in de darm?",
+          "opties": [
+            "ze geven volume aan de darminhoud en houden de stoelgang vlot",
+            "ze worden volledig verteerd tot glucose in de dunne darm",
+            "ze maken in de lever de gal aan voor de vertering van vetten",
+            "ze breken in de maag de eiwitten af tot losse aminozuren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vezels worden door onze enzymen niet verteerd. Ze houden water vast, geven volume en dienen als voedsel voor de darmflora."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet de darmflora voor ons? Kruis alles aan wat juist is.",
+          "opties": [
+            "ze maakt vitamine K aan",
+            "ze helpt het immuunsysteem en houdt ziekteverwekkers weg",
+            "ze breekt een deel van de voedingsvezels af",
+            "ze maakt gal aan voor de vertering van vetten"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De goede bacteriën in de darm maken onder meer vitamine K, verdringen schadelijke bacteriën en breken vezels af. Gal komt uit de lever."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Escherichia coli komt normaal voor in de dikke darm en maakt er onder meer vitamine K aan.",
+          "antwoord": true,
+          "uitleg": "E. coli is een gewone bewoner van de dikke darm. Buiten de darm, of als een ziekmakende variant, kan ze wel problemen geven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is coeliakie?",
+          "opties": [
+            "een auto-immuunziekte waarbij gluten de darmvlokken beschadigen",
+            "een bacteriële infectie van de maag door Helicobacter pylori",
+            "een ontsteking door Salmonella na het eten van besmette eieren",
+            "een tekort aan lactase waardoor melksuiker slecht verteerd wordt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij coeliakie reageert het afweersysteem op gluten en beschadigt het de darmvlokken. De behandeling is een strikt glutenvrij dieet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke bacterie is een belangrijke oorzaak van maagzweren?",
+          "opties": [
+            "Helicobacter pylori",
+            "Lactobacillus",
+            "Escherichia coli uit de darmflora",
+            "Salmonella"
+          ],
+          "antwoord": 0,
+          "uitleg": "Helicobacter pylori kan overleven in de zure maag en de slijmlaag aantasten. Een maagzweer wordt dan behandeld met antibiotica en maagzuurremmers."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De ziekte van Crohn is een chronische ontsteking die overal in het spijsverteringskanaal kan voorkomen.",
+          "antwoord": true,
+          "uitleg": "Crohn is een chronische darmontsteking die met periodes opflakkert. Ze komt het vaakst voor in het laatste stuk van de dunne darm en in de dikke darm."
+        }
+      ]
+    },
+    {
+      "titel": "Welzijnswetenschappen: Het uitscheidingsstelsel — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke volgorde stroomt urine door het uitscheidingsstelsel?",
+          "opties": [
+            "nier, urineleider, urineblaas, urinebuis",
+            "nier, urinebuis, urineblaas, urineleider",
+            "urineblaas, nier, urineleider, urinebuis",
+            "urineleider, nier, urinebuis, urineblaas"
+          ],
+          "antwoord": 0,
+          "uitleg": "De nier maakt de urine. Via de urineleider gaat ze naar de urineblaas, waar ze verzameld wordt, en via de urinebuis verlaat ze het lichaam."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de functie van de urineleider of ureter?",
+          "opties": [
+            "urine van de nier naar de blaas brengen",
+            "urine van de blaas naar buiten brengen",
+            "bloed van de aorta naar de nier brengen",
+            "gefilterd bloed van de nier terugvoeren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elke nier heeft een urineleider. Door peristaltiek in de wand gaat de urine naar de urineblaas."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet het buisje waarlangs de urine van de urineblaas naar buiten gaat?",
+          "antwoord": [
+            "urinebuis",
+            "urethra"
+          ],
+          "uitleg": "De urinebuis of urethra loopt van de blaas naar buiten. Een interne en een externe kringspier houden ze dicht tot je plast."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De externe kringspier van de urineblaas kan je bewust aansturen.",
+          "antwoord": true,
+          "uitleg": "De interne kringspier werkt onbewust. De externe kringspier bestaat uit dwarsgestreept spierweefsel en kan je zelf openen en sluiten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke delen kan je op een lengtedoorsnede van de nier zien? Kruis alles aan wat juist is.",
+          "opties": [
+            "de nierschors of cortex",
+            "het niermerg met de nierpiramides",
+            "het nierbekken",
+            "de galblaas"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Van buiten naar binnen zie je het nierkapsel, de schors, het merg met de piramides, de nierkelken en het nierbekken. De galblaas hoort bij de lever."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk orgaantje ligt als een kapje bovenop elke nier en maakt onder meer adrenaline?",
+          "opties": [
+            "de bijnier",
+            "de alvleesklier",
+            "de milt",
+            "de schildklier"
+          ],
+          "antwoord": 0,
+          "uitleg": "De bijnier ligt op de nier, maar hoort bij het hormonaal stelsel. Ze maakt hormonen zoals adrenaline en aldosteron."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men de kleinste werkende eenheid van de nier, waarvan elke nier er ongeveer een miljoen heeft?",
+          "antwoord": "nefron",
+          "uitleg": "Een nefron bestaat uit een nierlichaampje en een nierbuisje. Daar wordt het bloed gefilterd en de urine gevormd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waaruit bestaat het nierlichaampje of lichaampje van Malpighi?",
+          "opties": [
+            "de glomerulus met daarrond het kapsel van Bowman",
+            "de lus van Henle met de verzamelbuis eromheen",
+            "de nierpiramide met daarin het nierbekken",
+            "de bijnier met daaronder het nierkapsel"
+          ],
+          "antwoord": 0,
+          "uitleg": "In het nierlichaampje ligt een kluwen haarvaten, de glomerulus, omringd door het kapsel van Bowman dat het filtraat opvangt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke volgorde stroomt het filtraat door het nefron?",
+          "opties": [
+            "kapsel van Bowman, eerste kronkelbuisje, lus van Henle, tweede kronkelbuisje, verzamelbuis",
+            "verzamelbuis, lus van Henle, eerste kronkelbuisje, kapsel van Bowman, tweede kronkelbuisje",
+            "lus van Henle, kapsel van Bowman, verzamelbuis, eerste kronkelbuisje, tweede kronkelbuisje",
+            "eerste kronkelbuisje, kapsel van Bowman, tweede kronkelbuisje, lus van Henle, verzamelbuis"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het filtraat komt in het kapsel van Bowman, gaat door het eerste kronkelbuisje, de dalende en stijgende tak van de lus van Henle, het tweede kronkelbuisje en ten slotte de verzamelbuis."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke lagen vormen samen de nierfilter tussen het bloed in de glomerulus en het kapsel van Bowman? Kruis alles aan wat juist is.",
+          "opties": [
+            "het endotheel van de haarvaten",
+            "het basaalmembraan",
+            "de podocyten",
+            "het nierbekken"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Het bloed wordt gefilterd door drie lagen: het endotheel met poriën, het basaalmembraan en de podocyten met hun voetjes."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het bloed komt de glomerulus binnen via het afvoerend nierslagadertje en verlaat ze via het aanvoerend nierslagadertje.",
+          "antwoord": false,
+          "uitleg": "Het is omgekeerd: het aanvoerend slagadertje brengt het bloed naar de glomerulus en het afvoerend slagadertje voert het weg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Via welk bloedvat komt het bloed de nier binnen?",
+          "opties": [
+            "de nierslagader",
+            "de nierader",
+            "de leverpoortader",
+            "de longslagader"
+          ],
+          "antwoord": 0,
+          "uitleg": "De nierslagader komt van de aorta en brengt bloed naar de nier. De nierader voert het gezuiverde bloed af naar de onderste holle ader."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom laat een gezonde nierfilter geen rode bloedcellen en bijna geen grote eiwitten door?",
+          "opties": [
+            "ze zijn te groot om door de filter te passen",
+            "ze worden in de glomerulus meteen afgebroken",
+            "ze worden door de bijnier tegengehouden",
+            "ze zitten vast in het nierbekken"
+          ],
+          "antwoord": 0,
+          "uitleg": "De nierfilter werkt op grootte. Water, zouten, glucose en ureum gaan erdoor, bloedcellen en grote eiwitten niet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bloed of veel eiwit in de urine kan erop wijzen dat de nierfilter beschadigd is.",
+          "antwoord": true,
+          "uitleg": "Normaal blijven bloedcellen en grote eiwitten in het bloed. Vindt men ze in de urine, dan is de filter mogelijk aangetast."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stoffen vind je in een normale urine? Kruis alles aan wat juist is.",
+          "opties": [
+            "water",
+            "ureum",
+            "eiwitten zoals albumine",
+            "glucose in grote hoeveelheid"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Urine bestaat vooral uit water, met ureum, urinezuur en zouten. Grote eiwitten zoals albumine gaan normaal niet door de nierfilter. Glucose wordt normaal volledig teruggeresorbeerd. Glucose in de urine wijst bijvoorbeeld op diabetes."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de stikstofhoudende afvalstof die de lever maakt uit de afbraak van aminozuren en die de nieren uitscheiden?",
+          "antwoord": "ureum",
+          "uitleg": "Bij de afbraak van aminozuren ontstaat giftig ammoniak. De lever zet dat om in het minder giftige ureum, dat met de urine het lichaam verlaat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk hormoon maakt de nier aan om de aanmaak van rode bloedcellen te stimuleren?",
+          "opties": [
+            "erytropoëtine (EPO)",
+            "adrenaline",
+            "aldosteron",
+            "antidiuretisch hormoon"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij zuurstoftekort maakt de nier EPO. Dat zet het beenmerg aan om meer rode bloedcellen te maken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Uit hoeveel lagen bestaat de wand van de urineleider?",
+          "opties": [
+            "drie",
+            "één",
+            "twee",
+            "vijf"
+          ],
+          "antwoord": 0,
+          "uitleg": "De wand van de urineleider heeft drie lagen: een slijmvlies aan de binnenkant, een spierlaag in het midden en een bindweefsellaag aan de buitenkant."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heet de ruimte in de nier waarin de urine uit de nierkelken samenkomt, voor ze de urineleider ingaat?",
+          "opties": [
+            "het nierbekken",
+            "de nierpapil",
+            "de nierschors",
+            "het kapsel van Bowman"
+          ],
+          "antwoord": 0,
+          "uitleg": "De urine druppelt via de nierpapillen in de nierkelken en komt samen in het nierbekken. Van daar gaat ze naar de urineleider."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het niermerg ligt aan de buitenkant van de nier, rond de nierschors.",
+          "antwoord": false,
+          "uitleg": "De nierschors ligt aan de buitenkant, onder het nierkapsel. Het niermerg met de nierpiramides ligt meer naar binnen."
+        }
+      ]
+    },
+    {
+      "titel": "Welzijnswetenschappen: Het uitscheidingsstelsel — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er bij de filtratie in de nier?",
+          "opties": [
+            "water en kleine opgeloste stoffen worden uit de glomerulus in het kapsel geperst",
+            "nuttige stoffen gaan vanuit het nierbuisje terug naar het bloed in de haarvaten",
+            "extra afvalstoffen worden vanuit het bloed actief in het nierbuisje gebracht",
+            "de afgewerkte urine verlaat het lichaam langs de urineleider en daarna de urinebuis"
+          ],
+          "antwoord": 0,
+          "uitleg": "Door de hoge bloeddruk in de glomerulus wordt een deel van het plasma door de filter geduwd. Dat filtraat heet voorurine."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men de vloeistof die na de filtratie in het kapsel van Bowman zit, nog voor de terugopname?",
+          "antwoord": "voorurine",
+          "uitleg": "Per dag ontstaat ongeveer 180 liter voorurine. Het grootste deel daarvan wordt teruggeresorbeerd, zodat er maar ongeveer 1,5 liter urine overblijft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is resorptie of reabsorptie in de nier?",
+          "opties": [
+            "nuttige stoffen gaan uit het nierbuisje terug naar het bloed",
+            "het bloed wordt in de glomerulus door de filter geperst",
+            "afvalstoffen worden vanuit het bloed in het buisje gepompt",
+            "de urine wordt in de urineblaas verzameld en bewaard"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij resorptie haalt het lichaam water, glucose, aminozuren en zouten terug uit de voorurine, via diffusie, osmose en actief transport."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een gezond persoon wordt alle glucose uit de voorurine teruggeresorbeerd.",
+          "antwoord": true,
+          "uitleg": "Glucose wordt in het eerste kronkelbuisje volledig teruggenomen. Pas bij een te hoge bloedsuikerspiegel kan er glucose in de urine verschijnen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelt men met secretie in het nefron?",
+          "opties": [
+            "extra stoffen actief vanuit het bloed in het nierbuisje brengen",
+            "het terugnemen van water uit het nierbuisje naar het bloed",
+            "het doorlaten van plasma door de nierfilter in de glomerulus",
+            "het verzamelen van de afgewerkte urine in het nierbekken en de nierkelken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij secretie brengen de cellen van het nierbuisje stoffen zoals sommige geneesmiddelen en H⁺-ionen actief vanuit het bloed in de urine."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke processen gebeuren in het nefron om urine te maken? Kruis alles aan wat juist is.",
+          "opties": [
+            "filtratie",
+            "resorptie",
+            "secretie",
+            "emulgeren"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Filtratie, resorptie en secretie maken samen de urine, die daarna wordt uitgescheiden. Emulgeren doen galzouten bij de vertering."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is osmoregulatie?",
+          "opties": [
+            "het constant houden van de hoeveelheid water en zouten in het lichaam",
+            "het constant houden van de lichaamstemperatuur rond 37 °C, ook bij koude",
+            "het regelen van de hoeveelheid suiker in het bloed na een maaltijd",
+            "het aanpassen van de ademhaling en de hartslag bij een inspanning"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij osmoregulatie houdt het lichaam de osmotische waarde van het bloed stabiel. De nieren spelen daarin de hoofdrol."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar wordt het antidiuretisch hormoon (ADH) aan het bloed afgegeven?",
+          "opties": [
+            "door de hypofyse",
+            "door de bijnier",
+            "door de alvleesklier",
+            "door de nier zelf"
+          ],
+          "antwoord": 0,
+          "uitleg": "ADH wordt gemaakt in de hypothalamus en via de hypofyse aan het bloed afgegeven. Het werkt in op de nier."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je hebt veel gezweet en weinig gedronken. Wat gebeurt er met de ADH-afgifte en de urine?",
+          "opties": [
+            "er komt meer ADH, de verzamelbuis neemt meer water terug en je plast weinig en geconcentreerd",
+            "er komt minder ADH, de verzamelbuis neemt minder water terug en je plast veel en verdund",
+            "er komt meer ADH, de verzamelbuis neemt minder water terug en je plast veel en verdund",
+            "er komt minder ADH, de verzamelbuis neemt meer water terug en je plast weinig en geconcentreerd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Osmoreceptoren merken dat het bloed te geconcentreerd is. De hypofyse geeft meer ADH af, de verzamelbuis wordt beter doorlaatbaar voor water en er gaat meer water terug naar het bloed."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "ADH maakt de wand van de verzamelbuis minder doorlaatbaar voor water.",
+          "antwoord": false,
+          "uitleg": "ADH doet net het omgekeerde: het maakt de verzamelbuis beter doorlaatbaar, zodat er meer water terug naar het bloed gaat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke onderdelen horen bij het feedbacksysteem van de waterhuishouding? Kruis alles aan wat juist is.",
+          "opties": [
+            "osmoreceptoren als sensor",
+            "de hypothalamus als controlecentrum",
+            "de nieren als effector",
+            "de alvleesklier als sensor"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Osmoreceptoren meten de concentratie, de hypothalamus beslist en stuurt ADH aan, en de nieren voeren uit. Daarnaast zorgt de dorstprikkel ervoor dat je drinkt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk gevoel zet de hypothalamus in gang wanneer het bloed te geconcentreerd wordt, zodat je meer gaat drinken?",
+          "antwoord": [
+            "dorst",
+            "dorstprikkel"
+          ],
+          "uitleg": "De dorstprikkel is de neurale kant van de waterhuishouding. Samen met ADH zorgt ze ervoor dat er weer genoeg water in het lichaam komt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Alcohol remt de afgifte van ADH, waardoor je meer moet plassen.",
+          "antwoord": true,
+          "uitleg": "Met minder ADH neemt de verzamelbuis minder water terug. Je plast meer en kan uitdrogen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een veelvoorkomende oorzaak van een blaasontsteking?",
+          "opties": [
+            "bacteriën die via de urinebuis binnendringen",
+            "een tekort aan ADH in het bloed van de patiënt",
+            "te veel rode bloedcellen in de voorurine",
+            "een verstopping van de nierslagader door een stolsel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een blaasontsteking is meestal een infectie met darmbacteriën. Omdat de urinebuis bij vrouwen kort is, komt ze bij hen vaker voor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke maatregelen helpen nierstenen voorkomen? Kruis alles aan wat juist is.",
+          "opties": [
+            "voldoende water drinken",
+            "niet te veel zout eten",
+            "gezond en gevarieerd eten",
+            "zo weinig mogelijk plassen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Veel drinken verdunt de urine, zodat zouten minder snel kristalliseren. Weinig zout en een gezond dieet helpen ook."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe kan een arts een niersteen zonder operatie verkleinen?",
+          "opties": [
+            "met een toestel dat de steen met schokgolven in stukjes slaat",
+            "met een kunstnier die de steen uit het bloed filtert",
+            "met een spoelvloeistof die de patiënt via de mond moet drinken",
+            "met extra ADH, waardoor de steen oplost in de urine"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een niersteenverbrijzelaar slaat de steen met schokgolven van buiten het lichaam in kleine stukjes. Die verlaten het lichaam met de urine."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er bij hemodialyse?",
+          "opties": [
+            "het bloed stroomt door een kunstnier en geeft er afvalstoffen af aan een spoelvloeistof",
+            "de zieke nier wordt in een operatie vervangen door de gezonde nier van een donor",
+            "de patiënt krijgt elke week EPO om de werking van zijn eigen nieren te herstellen",
+            "de urineleider wordt met een buisje verwijd zodat de urine makkelijker wegloopt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij hemodialyse gaat het bloed via een shunt naar de kunstnier. Afvalstoffen diffunderen door een semipermeabel membraan naar de dialysevloeistof."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij nierfalen kunnen afvalstoffen zoals ureum zich in het bloed opstapelen.",
+          "antwoord": true,
+          "uitleg": "Als de nieren onvoldoende filteren, blijven afvalstoffen in het bloed. Dan is dialyse of een niertransplantatie nodig."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de verbinding tussen een slagader en een ader, die men in de arm aanlegt om vlot bloed te kunnen afnemen voor hemodialyse?",
+          "antwoord": "shunt",
+          "uitleg": "Door de shunt wordt de ader breder en steviger. Zo kan men er drie keer per week een naald in steken voor de dialyse."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De lus van Henle ligt volledig in de nierschors.",
+          "antwoord": false,
+          "uitleg": "De lus van Henle duikt diep het niermerg in. Daar helpt ze een hoge zoutconcentratie op te bouwen, waardoor de nier geconcentreerde urine kan maken."
+        }
+      ]
+    },
+    {
+      "titel": "Welzijnswetenschappen: Het bloed — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke celtypes vind je in het bloed? Kruis alles aan wat juist is.",
+          "opties": [
+            "rode bloedcellen of erytrocyten",
+            "witte bloedcellen of leukocyten",
+            "bloedplaatjes of trombocyten",
+            "podocyten"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Bloed bevat rode bloedcellen, witte bloedcellen en bloedplaatjes. Podocyten zijn cellen van de nierfilter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar worden de bloedcellen bij een volwassene gevormd?",
+          "opties": [
+            "in het rode beenmerg",
+            "in de lever",
+            "in de nieren",
+            "in het hart"
+          ],
+          "antwoord": 0,
+          "uitleg": "Alle bloedcellen ontstaan uit stamcellen in het rode beenmerg, onder meer in de platte beenderen en de uiteinden van de pijpbeenderen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke bloedcellen zijn het talrijkst?",
+          "opties": [
+            "de rode bloedcellen",
+            "de witte bloedcellen",
+            "de bloedplaatjes",
+            "ze komen even vaak voor"
+          ],
+          "antwoord": 0,
+          "uitleg": "In één microliter bloed zitten ongeveer vijf miljoen rode bloedcellen, tegenover enkele honderdduizenden bloedplaatjes en enkele duizenden witte bloedcellen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een rijpe rode bloedcel van de mens heeft geen celkern.",
+          "antwoord": true,
+          "uitleg": "Rode bloedcellen verliezen hun kern tijdens hun rijping. Zo is er meer plaats voor hemoglobine, maar ze kunnen zich ook niet meer delen of herstellen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe lang leeft een rode bloedcel ongeveer?",
+          "opties": [
+            "ongeveer 120 dagen",
+            "ongeveer 2 dagen",
+            "ongeveer 10 jaar",
+            "een heel leven lang"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na ongeveer vier maanden worden versleten rode bloedcellen afgebroken in de milt en de lever."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm heeft een rode bloedcel, en waarom is dat handig?",
+          "opties": [
+            "een schijfje dat aan beide kanten ingedeukt is, met een groot oppervlak voor gasuitwisseling",
+            "een bolletje met uitsteeksels, zodat het zich aan de vaatwand kan vasthaken",
+            "een lange draad, zodat het makkelijk door de nierfilter kan glippen",
+            "een onregelmatige vorm die verandert om bacteriën op te slokken"
+          ],
+          "antwoord": 0,
+          "uitleg": "De dubbelholle schijfvorm geeft veel oppervlak voor de opname van zuurstof en maakt de cel soepel genoeg om door smalle haarvaten te wringen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet het ijzerhoudende eiwit in de rode bloedcellen dat zuurstof bindt?",
+          "antwoord": "hemoglobine",
+          "uitleg": "Hemoglobine bestaat uit vier subeenheden, elk met een heemgroep met een ijzeratoom. Elke heemgroep kan één zuurstofmolecule binden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel zuurstofmoleculen kan één hemoglobinemolecule maximaal binden?",
+          "opties": [
+            "vier",
+            "één",
+            "twee",
+            "acht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hemoglobine heeft vier subeenheden met elk een heemgroep. Elke heemgroep bindt één O₂-molecule, dus samen vier."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men hemoglobine waaraan zuurstof gebonden is?",
+          "antwoord": "oxyhemoglobine",
+          "uitleg": "In de longen bindt hemoglobine zuurstof en wordt het oxyhemoglobine, dat helderrood is. In de weefsels laat het de zuurstof weer los."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat geeft de hematocrietwaarde aan?",
+          "opties": [
+            "het percentage van het bloedvolume dat uit rode bloedcellen bestaat",
+            "het aantal witte bloedcellen per liter bloed",
+            "de hoeveelheid suiker die in het bloedplasma opgelost is",
+            "de druk waarmee het bloed tegen de wand van de slagaders duwt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een gezonde volwassene is de hematocriet ongeveer 40 à 45 %. Dat is het deel van het bloed dat uit rode bloedcellen bestaat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom gaan sommige sporters op hoogtestage?",
+          "opties": [
+            "in de ijle lucht maken hun nieren meer EPO, zodat ze meer rode bloedcellen krijgen",
+            "in de koude lucht verbranden ze meer vet en worden ze lichter",
+            "op grote hoogte wordt hun bloed dunner, zodat het hart minder hard moet werken",
+            "op grote hoogte neemt het aantal witte bloedcellen toe en worden ze minder ziek"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op hoogte is er minder zuurstof, wat hypoxie veroorzaakt. De nieren maken dan meer EPO, de hematocriet stijgt en het bloed kan meer zuurstof vervoeren."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een te hoge hematocrietwaarde is onschadelijk, want meer rode bloedcellen betekent gewoon meer zuurstof.",
+          "antwoord": false,
+          "uitleg": "Een te hoge hematocriet maakt het bloed dik. Dan stijgt het risico op bloedklonters, een herseninfarct of een hartinfarct. Daarom is EPO-doping gevaarlijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een buisje bloed met een middel tegen stolling wordt gecentrifugeerd. Welke lagen zie je van onder naar boven?",
+          "opties": [
+            "rode bloedcellen, een dun laagje witte bloedcellen en bloedplaatjes, en bovenaan plasma",
+            "plasma, een dun laagje witte bloedcellen en bloedplaatjes, en bovenaan rode bloedcellen",
+            "witte bloedcellen, rode bloedcellen, en bovenaan bloedplaatjes",
+            "een stolsel onderaan en bovenaan een heldere laag serum"
+          ],
+          "antwoord": 0,
+          "uitleg": "De zware rode bloedcellen zakken naar de bodem. Daarboven ligt een dun wit laagje met witte bloedcellen en bloedplaatjes, en bovenaan het gelige plasma."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen bloedplasma en bloedserum?",
+          "opties": [
+            "serum is plasma zonder de stollingsfactoren zoals fibrinogeen",
+            "serum is plasma met de rode bloedcellen er nog in",
+            "plasma is het vocht uit de lymfevaten en serum het vocht uit de aders",
+            "er is geen verschil, het zijn twee namen voor hetzelfde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Laat je bloed stollen, dan worden de stollingsfactoren in het stolsel gebruikt. Het vocht dat overblijft is serum."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stoffen worden door het bloedplasma vervoerd? Kruis alles aan wat juist is.",
+          "opties": [
+            "voedingsstoffen zoals glucose",
+            "hormonen",
+            "afvalstoffen zoals ureum",
+            "chylomicronen uit de lymfe vóór ze in het bloed komen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Het plasma vervoert voedingsstoffen, hormonen, afvalstoffen, zouten en eiwitten zoals albumine en globulines. Chylomicronen zitten eerst in de lymfe en komen pas later in het bloed."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk eiwit komt het meest voor in het bloedplasma en helpt water in de bloedvaten te houden?",
+          "opties": [
+            "albumine",
+            "hemoglobine",
+            "fibrine",
+            "pepsine"
+          ],
+          "antwoord": 0,
+          "uitleg": "Albumine is het meest voorkomende plasma-eiwit. Het houdt water in de bloedbaan vast en vervoert onder meer vetzuren en hormonen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het meeste CO₂ wordt in het bloed vervoerd als waterstofcarbonaat, opgelost in het plasma.",
+          "antwoord": true,
+          "uitleg": "Het grootste deel van het CO₂ wordt in de rode bloedcellen omgezet en reist als HCO₃⁻ in het plasma. Een kleiner deel is aan hemoglobine gebonden of gewoon opgelost."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraak over EPO is juist?",
+          "opties": [
+            "het is een hormoon uit de nieren dat de aanmaak van rode bloedcellen stimuleert",
+            "het is een enzym uit de maag dat eiwitten afbreekt",
+            "het is een witte bloedcel die bacteriën opeet",
+            "het is een stollingsfactor die het stolsel stevig maakt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Erytropoëtine wordt vooral in de nieren gemaakt bij zuurstoftekort. Als doping is het verboden en gevaarlijk."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Zuurstof wordt in het bloed vooral opgelost in het plasma vervoerd, en maar voor een klein deel gebonden aan hemoglobine.",
+          "antwoord": false,
+          "uitleg": "Het is omgekeerd: ongeveer 98 % van de zuurstof zit gebonden aan hemoglobine. Maar een klein deel is opgelost in het plasma."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar worden versleten rode bloedcellen vooral afgebroken?",
+          "opties": [
+            "in de milt en de lever",
+            "in de nieren en de blaas",
+            "in de longen",
+            "in het rode beenmerg"
+          ],
+          "antwoord": 0,
+          "uitleg": "Macrofagen in de milt en de lever breken oude rode bloedcellen af. Het ijzer wordt hergebruikt om nieuwe hemoglobine te maken."
+        }
+      ]
+    },
+    {
+      "titel": "Welzijnswetenschappen: Het bloed — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de hoofdtaak van de witte bloedcellen?",
+          "opties": [
+            "de afweer tegen ziekteverwekkers",
+            "het vervoer van zuurstof",
+            "het dichten van wondjes",
+            "het vervoer van voedingsstoffen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Witte bloedcellen verdedigen het lichaam, onder meer door ziekteverwekkers op te eten of antilichamen te maken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke witte bloedcellen zijn granulocyten? Kruis alles aan wat juist is.",
+          "opties": [
+            "neutrofielen",
+            "eosinofielen",
+            "monocyten",
+            "lymfocyten"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Granulocyten hebben korrels in hun cytoplasma: neutrofielen, eosinofielen en basofielen. Lymfocyten en monocyten zijn agranulocyten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke witte bloedcellen zijn het talrijkst en ruimen bij een ontsteking als eersten bacteriën op door fagocytose?",
+          "opties": [
+            "de neutrofielen",
+            "de basofielen",
+            "de B-lymfocyten",
+            "de bloedplaatjes"
+          ],
+          "antwoord": 0,
+          "uitleg": "Neutrofielen zijn de meest voorkomende witte bloedcellen. Ze komen snel naar een ontsteking en eten bacteriën op."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men het opslokken van een bacterie door een witte bloedcel?",
+          "antwoord": "fagocytose",
+          "uitleg": "Bij fagocytose omsluit de cel de bacterie met haar membraan en verteert ze die in een blaasje met enzymen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een monocyt verlaat het bloed en gaat het weefsel in. Wat wordt hij daar?",
+          "opties": [
+            "een macrofaag",
+            "een rode bloedcel",
+            "een bloedplaatje",
+            "een plasmacel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Monocyten worden in het weefsel macrofagen, grote eetcellen die ziekteverwekkers en celresten opruimen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke witte bloedcellen maken antilichamen?",
+          "opties": [
+            "B-lymfocyten, na activatie als plasmacellen",
+            "neutrofielen, zodra ze een bacterie opgegeten hebben",
+            "T-lymfocyten, door de antilichamen in het bloed los te laten",
+            "basofielen, door histamine vrij te maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "B-lymfocyten worden na activatie plasmacellen die antilichamen maken. Dat heet humorale afweer. T-lymfocyten zorgen voor de cellulaire afweer."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij de cellulaire afweer doden T-lymfocyten zelf lichaamscellen die besmet zijn met een virus.",
+          "antwoord": true,
+          "uitleg": "Cytotoxische T-lymfocyten herkennen besmette cellen en vernietigen ze. Dat is cellulaire afweer, naast de humorale afweer met antilichamen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de rol van de bloedplaatjes?",
+          "opties": [
+            "ze helpen bij de bloedstolling",
+            "ze vervoeren zuurstof naar de weefsels",
+            "ze maken antilichamen tegen bacteriën",
+            "ze vervoeren CO₂ naar de longen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een wonde kleven bloedplaatjes tegen de beschadigde wand en aan elkaar. Ze maken stoffen vrij die de stollingscascade starten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stap hoort aan het einde van de stollingscascade?",
+          "opties": [
+            "trombine zet fibrinogeen om in fibrinedraden die het stolsel vormen",
+            "fibrine zet trombine om in protrombine, dat het wondje dan sluit",
+            "bloedplaatjes zetten het albumine in het plasma om in hemoglobine",
+            "antilichamen kleven de rode bloedcellen in de wonde aan elkaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Protrombine wordt actief trombine, en trombine zet het opgeloste fibrinogeen om in draden fibrine. Daarin raken bloedcellen gevangen en zo ontstaat een stolsel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet het opgeloste plasma-eiwit dat bij de stolling omgezet wordt in draden fibrine?",
+          "antwoord": "fibrinogeen",
+          "uitleg": "Fibrinogeen is opgelost in het plasma. Trombine zet het om in onoplosbare fibrinedraden die het stolsel stevig maken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De stolling kan op twee manieren starten: via de extrinsieke route vanuit beschadigd weefsel en via de intrinsieke route vanuit het bloed zelf.",
+          "antwoord": true,
+          "uitleg": "Beide routes komen samen bij de vorming van trombine. Daarna verlopen ze gelijk tot het fibrinestolsel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand heeft bloedgroep A. Welke antigenen en antilichamen heeft die persoon?",
+          "opties": [
+            "A-antigenen op de rode bloedcellen en anti-B-antilichamen in het plasma",
+            "B-antigenen op de rode bloedcellen en anti-A-antilichamen in het plasma",
+            "A-antigenen op de rode bloedcellen en anti-A-antilichamen in het plasma",
+            "geen antigenen op de rode bloedcellen en anti-A en anti-B in het plasma"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie bloedgroep A heeft, draagt A-antigenen en maakt anti-B. Had die persoon anti-A, dan zou het eigen bloed klonteren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke bloedgroep heeft geen A- en geen B-antigenen op de rode bloedcellen?",
+          "opties": [
+            "bloedgroep O",
+            "bloedgroep AB",
+            "bloedgroep A",
+            "bloedgroep B"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij bloedgroep O dragen de rode bloedcellen geen A- of B-antigeen. In het plasma zitten wel anti-A en anti-B."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er als iemand met bloedgroep B bloed van groep A krijgt?",
+          "opties": [
+            "het anti-A van de ontvanger doet de rode bloedcellen van de donor klonteren",
+            "er gebeurt niets, want A en B zijn compatibele bloedgroepen voor elkaar",
+            "de ontvanger krijgt er extra bloedgroep A bij en heeft nadien bloedgroep AB",
+            "de rode bloedcellen van de donor worden meteen omgezet in bloedplaatjes"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het anti-A in het plasma van de ontvanger bindt aan de A-antigenen van het donorbloed. Er ontstaan antigeen-antilichaamcomplexen, de cellen klonteren en vallen uiteen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men het samenklonteren van rode bloedcellen bij een verkeerde bloedtransfusie?",
+          "antwoord": [
+            "agglutinatie",
+            "klontering"
+          ],
+          "uitleg": "Bij agglutinatie kleven antilichamen de vreemde rode bloedcellen aan elkaar. Daarna kunnen die cellen openbarsten, wat hemolyse heet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over donors en ontvangers zijn juist? Kruis alles aan wat juist is.",
+          "opties": [
+            "O-negatief is de universele donor van rode bloedcellen",
+            "AB-positief is de universele ontvanger",
+            "iemand met bloedgroep O kan enkel bloed van groep O krijgen",
+            "iemand met bloedgroep AB kan enkel bloed van groep AB krijgen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "O-negatief heeft geen A-, B- of D-antigeen en past bij iedereen. AB-positief maakt geen anti-A, anti-B of anti-D en kan alles ontvangen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Iemand die resusnegatief is, heeft van nature al anti-D-antilichamen in het bloed, ook zonder ooit resuspositief bloed gekregen te hebben.",
+          "antwoord": false,
+          "uitleg": "Anti-D wordt pas gemaakt na contact met resuspositief bloed, bijvoorbeeld bij een transfusie of een zwangerschap. Anti-A en anti-B zijn er wel van nature."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een resusnegatieve moeder is zwanger van een resuspositief kind. Waarom is dat vooral bij een volgende zwangerschap een risico?",
+          "opties": [
+            "na de eerste bevalling kan ze anti-D maken tegen een volgend resuspositief kind",
+            "het eerste kind maakt anti-D dat de moeder blijvend resuspositief maakt",
+            "haar bloedgroep verandert na de eerste zwangerschap blijvend van A naar B",
+            "de placenta laat bij een tweede zwangerschap geen zuurstof meer door naar het kind"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij de bevalling kan bloed van het kind in het bloed van de moeder komen. Ze maakt dan anti-D, dat bij een volgende zwangerschap door de placenta gaat en de rode bloedcellen van het kind kan afbreken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stoffen behoren tot de immunoglobulines?",
+          "opties": [
+            "de antilichamen",
+            "de stollingsfactoren",
+            "de verteringsenzymen",
+            "de bloedsuikers"
+          ],
+          "antwoord": 0,
+          "uitleg": "Immunoglobulines of globulines zijn de antilichamen in het plasma. Ze binden specifiek aan een antigeen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Eosinofielen zijn de witte bloedcellen die de antilichamen maken.",
+          "antwoord": false,
+          "uitleg": "Antilichamen komen van B-lymfocyten. Eosinofielen spelen vooral een rol bij allergieën en bij de afweer tegen parasieten zoals wormen."
+        }
+      ]
+    },
+    {
+      "titel": "Welzijnswetenschappen: Het hart en de bloedsomloop — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Uit hoeveel holtes bestaat het menselijk hart?",
+          "opties": [
+            "vier: twee boezems en twee kamers",
+            "twee: één boezem en één kamer",
+            "drie: twee boezems en één kamer",
+            "zes: drie boezems en drie kamers"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het hart heeft een linker- en een rechterboezem of atrium, en een linker- en een rechterkamer of ventrikel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat scheidt de linker- van de rechterhelft van het hart?",
+          "opties": [
+            "het tussenschot of septum",
+            "het hartzakje of pericard",
+            "de hartpunt of apex",
+            "de aortaboog"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het septum houdt het zuurstofrijke bloed links gescheiden van het zuurstofarme bloed rechts."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk bloedvat brengt zuurstofarm bloed uit het lichaam naar de rechterboezem?",
+          "opties": [
+            "de bovenste en de onderste holle ader",
+            "de longaders uit beide longen",
+            "de aorta met de aortaboog",
+            "de longslagader naar de longen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het bloed uit het lichaam komt via de bovenste en de onderste holle ader in de rechterboezem."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk bloedvat vertrekt uit de rechterkamer?",
+          "opties": [
+            "de longslagader",
+            "de aorta",
+            "de longader",
+            "de onderste holle ader"
+          ],
+          "antwoord": 0,
+          "uitleg": "De rechterkamer pompt zuurstofarm bloed via de longslagader naar de longen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De longaders vervoeren zuurstofrijk bloed van de longen naar de linkerboezem.",
+          "antwoord": true,
+          "uitleg": "Aders brengen bloed naar het hart. De longaders zijn de enige aders met zuurstofrijk bloed, want dat bloed komt net uit de longen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een slagader is een bloedvat dat altijd zuurstofrijk bloed vervoert.",
+          "antwoord": false,
+          "uitleg": "Een slagader vervoert bloed van het hart weg. De longslagader is een slagader met zuurstofarm bloed."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke kamer heeft de dikste spierwand, en waarom?",
+          "opties": [
+            "de linkerkamer, want ze pompt het bloed door de hele grote bloedsomloop",
+            "de rechterkamer, want ze pompt het bloed door de longen, die ver weg liggen",
+            "de linkerboezem, want ze ontvangt het bloed met de hoogste druk",
+            "alle kamers even dik, want ze pompen evenveel bloed per slag"
+          ],
+          "antwoord": 0,
+          "uitleg": "De linkerkamer moet een hoge druk opbouwen om het bloed door het hele lichaam te duwen. Daarom is haar spierwand veel dikker dan die van de rechterkamer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke klep ligt tussen de linkerboezem en de linkerkamer?",
+          "opties": [
+            "de mitralisklep",
+            "de tricuspidalisklep",
+            "de aortaklep",
+            "de pulmonalisklep"
+          ],
+          "antwoord": 0,
+          "uitleg": "De mitralisklep heeft twee slippen en ligt links. Rechts ligt de tricuspidalisklep, met drie slippen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke kleppen zijn atrioventriculaire kleppen? Kruis alles aan wat juist is.",
+          "opties": [
+            "de tricuspidalisklep",
+            "de mitralisklep",
+            "de aortaklep",
+            "de pulmonalisklep"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Atrioventriculaire kleppen liggen tussen een boezem en een kamer: de tricuspidalisklep rechts en de mitralisklep links. Aorta- en pulmonalisklep zijn halvemaanvormige kleppen bij de slagaders."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de taak van de hartkleppen?",
+          "opties": [
+            "ze laten het bloed maar in één richting stromen",
+            "ze bepalen hoe snel en hoe hard het hart klopt",
+            "ze maken het bloed dat erdoor stroomt rijker aan zuurstof",
+            "ze voeden de hartspier zelf met zuurstofrijk bloed"
+          ],
+          "antwoord": 0,
+          "uitleg": "De kleppen gaan open als het bloed in de goede richting duwt en sluiten als het zou terugstromen. Het bekende hartgeluid is het dichtklappen van de kleppen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke volgorde stroomt het bloed door de rechterhelft van het hart?",
+          "opties": [
+            "holle aders, rechterboezem, tricuspidalisklep, rechterkamer, pulmonalisklep, longslagader",
+            "longaders, rechterboezem, mitralisklep, rechterkamer, aortaklep, aorta",
+            "holle aders, rechterkamer, pulmonalisklep, rechterboezem, tricuspidalisklep, longslagader",
+            "longslagader, rechterkamer, tricuspidalisklep, rechterboezem, holle aders, aorta"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het zuurstofarme bloed komt via de holle aders in de rechterboezem, gaat door de tricuspidalisklep naar de rechterkamer en verlaat het hart via de pulmonalisklep en de longslagader."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de grote slagader die het zuurstofrijke bloed uit de linkerkamer naar het lichaam brengt?",
+          "antwoord": "aorta",
+          "uitleg": "De aorta vertrekt uit de linkerkamer, maakt een boog en loopt dan langs de wervelkolom naar beneden. Alle slagaders van de grote bloedsomloop takken ervan af."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Uit welke lagen bestaat de hartwand, van binnen naar buiten?",
+          "opties": [
+            "endocard, myocard, epicard",
+            "epicard, myocard, endocard",
+            "myocard, endocard, epicard",
+            "pericard, endocard, myocard"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het endocard bekleedt de binnenkant, het myocard is de dikke spierlaag en het epicard ligt aan de buitenkant. Errond zit nog het hartzakje of pericard."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de dikke spierlaag van de hartwand?",
+          "antwoord": [
+            "myocard",
+            "hartspier"
+          ],
+          "uitleg": "Het myocard is de hartspier zelf. Een hartinfarct is het afsterven van een stuk myocard door een gebrek aan zuurstof."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe krijgt de hartspier zelf zuurstof en voedingsstoffen?",
+          "opties": [
+            "via de kransslagaders, die vlak boven de aortaklep van de aorta aftakken",
+            "rechtstreeks uit het bloed dat door de kamers en boezems stroomt",
+            "via de longaders, die eerst langs de hartspier lopen",
+            "via het vocht in het hartzakje, dat voedingsstoffen doorgeeft aan de spier"
+          ],
+          "antwoord": 0,
+          "uitleg": "De kransslagaders of coronairen liggen als een krans rond het hart. Raakt er één verstopt, dan krijgt een deel van de hartspier geen zuurstof meer."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een hartinfarct ontstaat meestal doordat een kransslagader verstopt raakt.",
+          "antwoord": true,
+          "uitleg": "Achter de verstopping krijgt de hartspier geen zuurstof meer en sterft ze af. Snel ingrijpen beperkt de schade."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het hartzakje of pericard?",
+          "opties": [
+            "een vlies rond het hart met wat vocht, zodat het vlot kan bewegen",
+            "de holte binnen in de linkerkamer waar het bloed verzameld wordt",
+            "het buitenste deel van de aorta, vlak boven het hart",
+            "het klepje tussen de rechterboezem en de rechterkamer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het pericard omsluit het hart. In de pericardholte zit een beetje vocht dat de wrijving bij elke hartslag beperkt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke bloedvaten komen toe in het hart? Kruis alles aan wat juist is.",
+          "opties": [
+            "de bovenste holle ader",
+            "de aorta",
+            "de longaders",
+            "de longslagader"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Aders brengen bloed naar het hart: de holle aders naar de rechterboezem, de longaders naar de linkerboezem. De aorta en de longslagader vertrekken uit het hart."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De onderkant of punt van het hart heet de hartbasis.",
+          "antwoord": false,
+          "uitleg": "De punt van het hart heet de apex en wijst naar links onderaan. De hartbasis is de brede bovenkant, waar de grote bloedvaten vertrekken en toekomen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het hart ligt in de borstholte, tussen de twee longen in en een beetje naar links.",
+          "antwoord": true,
+          "uitleg": "Het hart ligt achter het borstbeen, tussen de longen, met de punt naar links onderaan."
+        }
+      ]
+    },
+    {
+      "titel": "Welzijnswetenschappen: Het hart en de bloedsomloop — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar ontstaan de prikkels die het hart doen samentrekken?",
+          "opties": [
+            "in de sinusknoop, een groepje gangmakercellen in de boezem",
+            "in de hersenen, die bij elke hartslag een signaal sturen",
+            "in de linkerkamer, die het hardste werkt van alle holtes",
+            "in de aorta, door de rek van haar wand bij elke nieuwe hartslag"
+          ],
+          "antwoord": 0,
+          "uitleg": "De sinusknoop of sinoatriale knoop is de natuurlijke gangmaker. Het hart klopt dus ook zonder signaal uit de hersenen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke volgorde loopt de prikkel door het impulsgeleidingssysteem van het hart?",
+          "opties": [
+            "sinusknoop, AV-knoop, bundel van His, bundeltakken, purkinjevezels",
+            "AV-knoop, sinusknoop, purkinjevezels, bundel van His, bundeltakken",
+            "bundel van His, sinusknoop, bundeltakken, AV-knoop, purkinjevezels",
+            "purkinjevezels, bundeltakken, bundel van His, AV-knoop, sinusknoop"
+          ],
+          "antwoord": 0,
+          "uitleg": "De prikkel start in de sinusknoop, gaat via de boezems naar de AV-knoop, dan door de bundel van His en de bundeltakken naar de purkinjevezels in de kamerwand."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom houdt de AV-knoop de prikkel even tegen?",
+          "opties": [
+            "zodat de boezems eerst leeglopen voor de kamers samentrekken",
+            "zodat de kamers eerst kunnen samentrekken voor de boezems dat doen",
+            "zodat het hart tussen twee slagen helemaal stil kan blijven staan",
+            "zodat de prikkel genoeg kracht opbouwt om de hersenen te bereiken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Door die korte vertraging trekken eerst de boezems samen en duwen ze hun bloed in de kamers. Pas daarna trekken de kamers samen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het autonoom zenuwstelsel kan de hartslag versnellen of vertragen, maar de sinusknoop bepaalt het basisritme.",
+          "antwoord": true,
+          "uitleg": "Hartzenuwen vanuit het cardiovasculair centrum passen het ritme aan, bijvoorbeeld bij inspanning. Het basisritme zelf komt uit de sinusknoop."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men de fase waarin de hartspier van een kamer samentrekt?",
+          "antwoord": [
+            "systole",
+            "kamersystole"
+          ],
+          "uitleg": "Systole is samentrekken, diastole is ontspannen. Tijdens de kamersystole wordt het bloed in de slagaders geperst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er tijdens de kamersystole? Kruis alles aan wat juist is.",
+          "opties": [
+            "de kamers trekken samen",
+            "de atrioventriculaire kleppen sluiten",
+            "de aortaklep en de pulmonalisklep gaan open",
+            "de boezems trekken tegelijk samen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Als de kamers samentrekken, klappen de AV-kleppen dicht en gaan de halvemaanvormige kleppen open. De boezems zijn dan net ontspannen en vullen zich."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er tijdens de rustfase van het hart?",
+          "opties": [
+            "boezems en kamers zijn ontspannen en het bloed loopt het hart in",
+            "boezems en kamers trekken allebei tegelijk krachtig samen",
+            "alleen de kamers trekken samen, terwijl de boezems gesloten blijven",
+            "het hart staat helemaal stil en er stroomt even geen bloed meer"
+          ],
+          "antwoord": 0,
+          "uitleg": "In de rustfase zijn boezems en kamers in diastole. Het bloed uit de aders vult de boezems en loopt al voor een groot deel door naar de kamers."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat registreert een elektrocardiogram of ECG?",
+          "opties": [
+            "de elektrische activiteit van het hart",
+            "de druk in de grote slagaders",
+            "de hoeveelheid zuurstof in het bloed",
+            "het geluid van de hartkleppen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elektroden op de huid meten de elektrische prikkels die door het hart lopen. Zo ziet een arts of het ritme en de geleiding normaal zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Met welke gebeurtenis komt het QRS-complex op een ECG overeen?",
+          "opties": [
+            "de prikkeling van de kamers, net voor ze samentrekken",
+            "de prikkeling van de boezems, net voor ze samentrekken",
+            "het herstel van de kamers na hun samentrekking",
+            "het dichtklappen van de aortaklep na de samentrekking"
+          ],
+          "antwoord": 0,
+          "uitleg": "De P-top hoort bij de boezems, het QRS-complex bij de prikkeling van de kamers en de T-top bij het herstel van de kamers."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De T-top op een ECG hoort bij de prikkeling van de boezems.",
+          "antwoord": false,
+          "uitleg": "De prikkeling van de boezems is de P-top, de eerste golf. De T-top komt als laatste en hoort bij het herstel van de kamers."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de kleine bloedsomloop?",
+          "opties": [
+            "de weg van de rechterkamer via de longen naar de linkerboezem",
+            "de weg van de linkerkamer via het lichaam naar de rechterboezem",
+            "de weg van de darmen via de lever naar het hart",
+            "de weg van de nieren via de blaas naar buiten"
+          ],
+          "antwoord": 0,
+          "uitleg": "In de kleine bloedsomloop of longcirculatie gaat het bloed van het hart naar de longen en terug, waar het zuurstof opneemt en CO₂ afgeeft."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een dubbele bloedsomloop passeert het bloed twee keer door het hart bij één volledige rondgang door het lichaam.",
+          "antwoord": true,
+          "uitleg": "Eén keer voor de kleine bloedsomloop langs de longen, één keer voor de grote bloedsomloop langs de rest van het lichaam."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een poortader?",
+          "opties": [
+            "een ader tussen twee haarvatennetwerken, zoals tussen darm en lever",
+            "een ader die bloed rechtstreeks van een slagader naar het hart terugbrengt",
+            "een slagader met een klep die het bloed bij de ingang van een orgaan tegenhoudt",
+            "een lymfevat dat onder het sleutelbeen uitmondt in een grote ader"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij de leverpoortader gaat het bloed eerst door de haarvaten van de darmen, dan door de poortader en daarna opnieuw door haarvaten in de lever."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom loopt het bloed van de darmen eerst door de lever voor het terug naar het hart gaat?",
+          "opties": [
+            "de lever verwerkt eerst de opgenomen voedingsstoffen en ontgift het bloed",
+            "de lever voegt eerst extra zuurstof toe aan het zuurstofarme bloed uit de darmen",
+            "de lever filtert alle rode bloedcellen uit het bloed om ze te vernieuwen",
+            "de lever pompt het bloed verder omdat de darmen te ver van het hart liggen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Via de leverpoortader komt het bloed met voedingsstoffen eerst in de lever. Die slaat glucose op, verwerkt aminozuren en ontgift schadelijke stoffen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een verschil tussen een slagader en een ader?",
+          "opties": [
+            "een slagader heeft een dikke, gespierde wand, een ader een dunnere wand met kleppen",
+            "een slagader heeft kleppen tegen terugstroming en een ader heeft er geen",
+            "een ader heeft altijd een dikkere en meer gespierde wand dan de slagader ernaast",
+            "een slagader vervoert bloed naar het hart, een ader bloed van het hart weg"
+          ],
+          "antwoord": 0,
+          "uitleg": "Slagaders moeten de hoge druk van het hart opvangen en hebben daarom een dikke wand. Aders hebben een lage druk, een dunnere wand en veneuze kleppen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke lagen vind je in de wand van een slagader? Kruis alles aan wat juist is.",
+          "opties": [
+            "een endotheellaag aan de binnenkant",
+            "een laag glad spierweefsel",
+            "bindweefsel aan de buitenkant",
+            "een laag dwarsgestreept spierweefsel"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De wand bestaat uit endotheel, een middenlaag met glad spierweefsel en elastische vezels, en een buitenlaag van bindweefsel. Dwarsgestreept spierweefsel vind je in skeletspieren."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heten de kleinste bloedvaten, met een wand van één cellaag dik, waar de uitwisseling met de weefsels gebeurt?",
+          "antwoord": [
+            "haarvaten",
+            "capillairen"
+          ],
+          "uitleg": "In de haarvaten gaan zuurstof en voedingsstoffen naar de weefsels en komen CO₂ en afvalstoffen in het bloed. Hun wand is maar één laag endotheel dik."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat helpt het bloed in de aders van de benen terug naar het hart te stromen? Kruis alles aan wat juist is.",
+          "opties": [
+            "de veneuze kleppen",
+            "het samentrekken van de beenspieren rond de aders",
+            "de zuigwerking bij het inademen",
+            "de hoge druk van de linkerkamer in de aders"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De druk in de aders is laag. De kleppen beletten terugstroming, de beenspieren knijpen de aders samen en de ademhaling zuigt het bloed mee naar boven."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De druk in de aders is hoger dan in de slagaders.",
+          "antwoord": false,
+          "uitleg": "De druk is het hoogst vlak na het hart, in de aorta en de slagaders. In de haarvaten zakt ze, en in de aders is ze het laagst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke volgorde stroomt het bloed van het hart naar de weefsels en terug?",
+          "opties": [
+            "slagader, arteriolen, haarvaten, venulen, ader",
+            "ader, venulen, haarvaten, arteriolen, slagader",
+            "slagader, venulen, haarvaten, arteriolen, ader",
+            "arteriolen, slagader, haarvaten, ader, venulen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Slagaders vertakken in arteriolen en dan in haarvaten. Die komen samen in venulen, en die weer in aders die naar het hart lopen."
+        }
+      ]
+    },
+    {
+      "titel": "Welzijnswetenschappen: De bloeddruk en het lymfestelsel — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de systolische bloeddruk of bovendruk?",
+          "opties": [
+            "de hoogste druk in de slagaders, als de kamers samentrekken",
+            "de laagste druk in de slagaders, als het hart ontspant",
+            "de druk in de aders vlak voor het bloed het hart binnenkomt",
+            "de druk in de longen tijdens een diepe inademing"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tijdens de kamersystole perst het hart bloed in de slagaders en is de druk het hoogst. Dat is de bovendruk."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welke eenheid drukt men de bloeddruk meestal uit?",
+          "antwoord": [
+            "mmHg",
+            "millimeter kwik"
+          ],
+          "uitleg": "De bloeddruk wordt uitgedrukt in millimeter kwik, mmHg. Een normale bloeddruk is ongeveer 120 over 80 mmHg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke bloeddruk geldt als een normale waarde bij een gezonde volwassene in rust?",
+          "opties": [
+            "ongeveer 120/80 mmHg",
+            "ongeveer 200/150 mmHg",
+            "ongeveer 60/20 mmHg",
+            "ongeveer 80/120 mmHg"
+          ],
+          "antwoord": 0,
+          "uitleg": "De bovendruk staat eerst en de onderdruk daarna. Rond 120 over 80 is normaal. 80/120 kan niet, want de onderdruk is altijd lager dan de bovendruk."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Men spreekt van hypertensie als de bloeddruk in rust herhaaldelijk 140/90 mmHg of hoger is.",
+          "antwoord": true,
+          "uitleg": "Vanaf ongeveer 140 over 90 spreekt men van hoge bloeddruk of hypertensie. Bij een veel te lage druk spreekt men van hypotensie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe evolueert de bloeddruk op de weg van het hart door de bloedsomloop?",
+          "opties": [
+            "hoog in de aorta, dalend in de kleine vaten en laag in de aders",
+            "laag in de aorta, stijgend in de haarvaten en het hoogst in de aders",
+            "overal even hoog, want het hart pompt met een constante kracht",
+            "het hoogst in de haarvaten, omdat die het smalst zijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "De druk is het hoogst vlak na het hart. Door de weerstand in de kleine vaten daalt ze, en in de holle aders is ze bijna nul."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heten de zintuigcellen in de wand van de aorta en de halsslagaders die de bloeddruk meten?",
+          "antwoord": [
+            "baroreceptoren",
+            "drukreceptoren"
+          ],
+          "uitleg": "Baroreceptoren voelen hoe ver de vaatwand uitgerekt wordt. Ze sturen die informatie naar het cardiovasculair centrum in het verlengde merg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar ligt het cardiovasculair centrum dat de bloeddruk regelt?",
+          "opties": [
+            "in het verlengde merg",
+            "in de linkerkamer",
+            "in de nieren",
+            "in de sinusknoop"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het cardiovasculair centrum in het verlengde merg verwerkt de signalen van de baroreceptoren en stuurt het hart en de bloedvaten bij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De bloeddruk is te hoog. Hoe reageert het negatief feedbacksysteem? Kruis alles aan wat juist is.",
+          "opties": [
+            "het hart gaat trager kloppen",
+            "het slagvolume stijgt",
+            "de bloedvaten verwijden (vasodilatatie)",
+            "de bloedvaten vernauwen (vasoconstrictie)"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Bij een te hoge druk vertraagt het hart, pompt het minder bloed per slag en verwijden de bloedvaten. Zo zakt de druk weer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rol speelt het orthosympatisch zenuwstelsel tijdens het sporten?",
+          "opties": [
+            "het versnelt de hartslag en doet de bloeddruk stijgen",
+            "het vertraagt de hartslag en doet de bloeddruk dalen",
+            "het zet de nieren aan om meer water uit te scheiden",
+            "het remt de werking van de sinusknoop volledig af"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het orthosympatisch zenuwstelsel zet het lichaam in actie: hart sneller, meer bloed naar de spieren. Na het sporten brengt het parasympatisch zenuwstelsel alles weer tot rust."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het parasympatisch zenuwstelsel zorgt na het sporten voor een snellere hartslag.",
+          "antwoord": false,
+          "uitleg": "Het parasympatisch zenuwstelsel is het rustsysteem: het vertraagt de hartslag en laat de bloeddruk weer dalen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stof maken de nieren aan als de bloeddruk te laag is?",
+          "opties": [
+            "renine",
+            "insuline",
+            "ADH",
+            "pepsine"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een te lage druk geven de nieren renine af. Dat start een keten die eindigt bij angiotensine II en aldosteron, die de druk weer doen stijgen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke volgorde verloopt het renine-angiotensinesysteem?",
+          "opties": [
+            "renine zet angiotensinogeen om in angiotensine I, en het ACE-enzym zet dat om in angiotensine II",
+            "angiotensine II zet renine om in angiotensinogeen, en het ACE-enzym zet dat om in angiotensine I",
+            "het ACE-enzym zet renine om in angiotensine I, dat de nieren omzetten in angiotensinogeen",
+            "angiotensinogeen zet renine om in het ACE-enzym, dat de bloeddruk doet dalen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Renine knipt angiotensinogeen tot angiotensine I. Het ACE-enzym maakt daar angiotensine II van, dat de bloedvaten vernauwt en aldosteron vrijmaakt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe doet aldosteron de bloeddruk stijgen?",
+          "opties": [
+            "het laat de nieren meer zout en water terugnemen, dus meer bloedvolume",
+            "het laat het hart sneller kloppen door rechtstreeks op de sinusknoop te werken",
+            "het breekt het ACE-enzym af, zodat er meer angiotensine I overblijft",
+            "het maakt de wand van de slagaders dunner zodat er meer bloed door kan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aldosteron uit de bijnier laat de nieren meer natrium terugnemen. Water volgt door osmose, het bloedvolume stijgt en dus ook de druk."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Angiotensine II doet de bloedvaten vernauwen, waardoor de bloeddruk stijgt.",
+          "antwoord": true,
+          "uitleg": "Vasoconstrictie vergroot de weerstand in de bloedvaten. Daarom remmen veel bloeddrukverlagers het ACE-enzym, zodat er minder angiotensine II ontstaat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke gevolgen kan een langdurig te hoge bloeddruk hebben? Kruis alles aan wat juist is.",
+          "opties": [
+            "een beroerte",
+            "een hartinfarct",
+            "schade aan de nieren",
+            "een hogere hematocriet door meer EPO"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Hoge bloeddruk beschadigt op lange termijn de bloedvaten van de hersenen, het hart en de nieren. Vaak merk je zelf lang niets."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een typisch symptoom van een te lage bloeddruk?",
+          "opties": [
+            "duizeligheid bij snel rechtstaan",
+            "een rood en opgezwollen gezicht",
+            "een veel te trage spijsvertering",
+            "een hogere lichaamstemperatuur"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij hypotensie krijgen de hersenen even te weinig bloed, vooral als je snel rechtstaat. Je wordt duizelig of ziet zwart."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat kan je zelf doen om een te hoge bloeddruk te voorkomen? Kruis alles aan wat juist is.",
+          "opties": [
+            "minder zout eten",
+            "regelmatig bewegen",
+            "niet roken",
+            "meer drop en zoute snacks eten"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Weinig zout, voldoende beweging, niet roken, een gezond gewicht en weinig alcohol houden de bloeddruk laag. Echte drop kan de bloeddruk net doen stijgen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men het verwijden van de bloedvaten, waardoor de bloeddruk daalt?",
+          "antwoord": "vasodilatatie",
+          "uitleg": "Bij vasodilatatie ontspant het gladde spierweefsel in de vaatwand. Het omgekeerde, het vernauwen, heet vasoconstrictie."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een negatief feedbacksysteem versterkt de reactie de oorspronkelijke verandering nog.",
+          "antwoord": false,
+          "uitleg": "Een negatief feedbacksysteem werkt de verandering tegen. Stijgt de bloeddruk, dan zorgt het systeem dat ze weer daalt, en omgekeerd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bepaalt mee hoe hoog de bloeddruk is? Kruis alles aan wat juist is.",
+          "opties": [
+            "het hartritme",
+            "het slagvolume",
+            "de wijdte van de bloedvaten",
+            "het bloedvolume"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Hoe vaker en hoe krachtiger het hart pompt, en hoe nauwer de bloedvaten, hoe hoger de druk. Ook het bloedvolume speelt mee."
+        }
+      ]
+    },
+    {
+      "titel": "Welzijnswetenschappen: De bloeddruk en het lymfestelsel — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe ontstaat weefselvocht?",
+          "opties": [
+            "de bloeddruk perst plasma uit het begin van de haarvaten",
+            "de cellen maken zelf vocht aan dat ze tussen elkaar uitscheiden",
+            "het lymfevocht stroomt uit de lymfeklieren tussen de cellen in",
+            "de nieren pompen het water rechtstreeks in de weefsels rondom"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aan het slagaderlijke begin van een haarvat is de hydrostatische druk hoger dan de osmotische druk. Er sijpelt plasma zonder grote eiwitten tussen de cellen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom stroomt het meeste weefselvocht aan het einde van een haarvat terug in het bloed?",
+          "opties": [
+            "de bloeddruk is daar gezakt en de plasma-eiwitten trekken water terug",
+            "de lymfevaten pompen het vocht met kracht terug in het haarvat",
+            "het hart zuigt het vocht terug tijdens elke diastole van de kamers",
+            "de cellen stoten het overtollige vocht actief af met hun pompen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aan het aderlijke einde is de hydrostatische druk lager dan de osmotische druk. Daardoor gaat het meeste vocht terug. Een klein overschot blijft achter."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men het weefselvocht zodra het in de lymfevaten is opgenomen?",
+          "antwoord": "lymfe",
+          "uitleg": "Het overtollige weefselvocht gaat in de lymfecapillairen en heet dan lymfe. Het bevat vooral water, zouten, wat eiwitten en lymfocyten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de belangrijkste functie van het lymfevatenstelsel bij de drainage van de weefsels?",
+          "opties": [
+            "het overtollige weefselvocht terug in het bloed brengen",
+            "de zuurstof van de longen naar de weefsels brengen",
+            "het bloed in de grote slagaders onder hoge druk houden",
+            "de urine van de nieren naar de urineblaas brengen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Lymfevaten verzamelen het vocht dat niet in de haarvaten terugkomt en brengen het via de borstbuis terug naar het bloed. Zo zwellen de weefsels niet op."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Lymfevaten hebben kleppen, net als aders, zodat de lymfe maar in één richting stroomt.",
+          "antwoord": true,
+          "uitleg": "Het lymfestelsel heeft geen pomp zoals het hart. Spierbewegingen duwen de lymfe vooruit, en kleppen beletten dat ze terugstroomt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar mondt de borstbuis uit?",
+          "opties": [
+            "in een grote ader onder het sleutelbeen",
+            "in de linkerkamer van het hart, naast de aorta",
+            "in de twaalfvingerige darm, net als de galgang",
+            "in de urineblaas, samen met de urineleider"
+          ],
+          "antwoord": 0,
+          "uitleg": "De borstbuis verzamelt de lymfe uit het grootste deel van het lichaam en mondt uit in een grote ader aan de linkerkant, onder het sleutelbeen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke organen horen bij het lymfestelsel? Kruis alles aan wat juist is.",
+          "opties": [
+            "de milt",
+            "de schildklier",
+            "de zwezerik of thymus",
+            "de alvleesklier"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Milt, amandelen, thymus, beenmerg en lymfeklieren zijn lymfeorganen. De schildklier is een hormoonklier en de alvleesklier een verterings- en hormoonklier."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er in een lymfeklier?",
+          "opties": [
+            "de lymfe wordt gefilterd en lymfocyten ruimen ziektekiemen op",
+            "de lymfe wordt omgezet in bloedplasma met rode bloedcellen",
+            "er worden verteringsenzymen aan de lymfe toegevoegd voor de vetten",
+            "de lymfe wordt opgeslagen tot de nieren ze uitscheiden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Lymfeklieren zijn filters langs de lymfevaten. Bij een infectie zwellen ze op, omdat er veel lymfocyten aan het werk zijn."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de thymus rijpen de T-lymfocyten.",
+          "antwoord": true,
+          "uitleg": "De T in T-lymfocyt verwijst naar de thymus of zwezerik. Daar rijpen de jonge thymocyten tot T-lymfocyten, onder invloed van het hormoon thymosine."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet het hormoon van de thymus dat de rijping van T-lymfocyten stimuleert?",
+          "antwoord": "thymosine",
+          "uitleg": "Thymosine helpt de thymocyten om T-lymfocyten te worden. De thymus is vooral bij kinderen actief en krimpt na de puberteit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is lymfoedeem?",
+          "opties": [
+            "een zwelling doordat lymfe niet goed afgevoerd wordt",
+            "een infectie van de lymfeklieren door bacteriën of virussen",
+            "een tekort aan lymfocyten in het bloed na een ziekte",
+            "een te hoge bloeddruk in de lymfevaten van de longen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij lymfoedeem blijft vocht in de weefsels hangen. Een arm of been zwelt op en voelt zwaar aan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe kan lymfoedeem ontstaan? Kruis alles aan wat juist is.",
+          "opties": [
+            "na het wegnemen van lymfeklieren bij een kankeroperatie",
+            "door bestraling die de lymfevaten beschadigt",
+            "door een aangeboren afwijking aan de lymfevaten",
+            "door te veel water te drinken op een warme dag"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Lymfoedeem ontstaat als de afvoer verstoord is, bijvoorbeeld na een operatie of bestraling, of door een aangeboren fout. Gewoon veel drinken veroorzaakt het niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe behandelt men lymfoedeem?",
+          "opties": [
+            "met lymfedrainage, steunkousen of een drukverband",
+            "met antibiotica die de verstopte lymfevaten openzetten",
+            "met een bloedtransfusie om meer lymfocyten aan te voeren",
+            "door minder te bewegen zodat de lymfe tot rust komt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Manuele lymfedrainage, steunkousen of drukverband en beweging helpen het vocht af te voeren. Genezen kan meestal niet, maar de klachten worden kleiner."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom krijgen kinderen met ernstige ondervoeding soms een opgezwollen buik, hongeroedeem?",
+          "opties": [
+            "door te weinig eiwitten in het bloed gaat minder vocht terug in de haarvaten",
+            "hun lymfevaten zijn verstopt door bacteriën uit vervuild water",
+            "hun nieren maken te veel urine en houden zo te weinig water over",
+            "hun maag zet uit door te veel lucht te slikken bij het eten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een eiwittekort daalt de osmotische druk van het bloed. Er gaat minder vocht terug naar de haarvaten, en het stapelt zich op in de weefsels en de buik."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Weefselvocht bevat evenveel grote eiwitten als bloedplasma.",
+          "antwoord": false,
+          "uitleg": "Grote plasma-eiwitten zoals albumine passen nauwelijks door de haarvatwand. Daarom bevat weefselvocht veel minder eiwitten dan plasma."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waaruit bestaat de lymfe vooral?",
+          "opties": [
+            "water, zouten, wat eiwitten en lymfocyten",
+            "rode bloedcellen en bloedplaatjes",
+            "verteringsenzymen en gal",
+            "ureum en urinezuur in hoge concentratie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Lymfe lijkt op weefselvocht. Er zitten geen rode bloedcellen in, wel lymfocyten. Na een vette maaltijd bevat de lymfe uit de darmen ook veel vetdeeltjes."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rol speelt de milt? Kruis alles aan wat juist is.",
+          "opties": [
+            "ze ruimt versleten rode bloedcellen op",
+            "ze bevat veel lymfocyten die het bloed op ziekteverwekkers controleren",
+            "ze slaat een voorraad bloed op",
+            "ze maakt gal aan voor de vertering"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De milt filtert het bloed, ruimt oude rode bloedcellen op, helpt bij de afweer en houdt een voorraad bloed. Gal komt uit de lever."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het lymfestelsel heeft een eigen pomp, net zoals het bloed het hart heeft.",
+          "antwoord": false,
+          "uitleg": "Er is geen lymfepomp. De lymfe beweegt door het samentrekken van de spieren rond de lymfevaten, de ademhaling en de kleppen in de vaten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom raadt men bij lymfoedeem net aan om te blijven bewegen?",
+          "opties": [
+            "werkende spieren knijpen de lymfevaten samen en duwen de lymfe vooruit",
+            "door beweging maakt het lichaam meer lymfocyten, die het vocht opdrinken",
+            "door beweging stijgt de bloeddruk, waardoor de lymfe in de aders gaat",
+            "door beweging verdampt het overtollige vocht via de huid"
+          ],
+          "antwoord": 0,
+          "uitleg": "De spierpomp is de belangrijkste motor van het lymfestelsel. Daarom helpt rustig bewegen het vocht afvoeren."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heten de kleinste lymfevaatjes, die tussen de cellen beginnen en het weefselvocht opnemen?",
+          "antwoord": [
+            "lymfecapillairen",
+            "lymfehaarvaten"
+          ],
+          "uitleg": "Lymfecapillairen beginnen blind tussen de cellen. Ze nemen weefselvocht op en komen samen in steeds grotere lymfevaten."
+        }
+      ]
+    },
+    {
+      "titel": "Welzijnswetenschappen: Het ademhalingsstelsel — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke volgorde gaat ingeademde lucht door de luchtwegen?",
+          "opties": [
+            "neusholte, keelholte, strottenhoofd, luchtpijp, bronchiën, bronchiolen, longblaasjes",
+            "neusholte, luchtpijp, keelholte, strottenhoofd, bronchiolen, bronchiën, longblaasjes",
+            "keelholte, neusholte, bronchiën, luchtpijp, strottenhoofd, longblaasjes, bronchiolen",
+            "neusholte, strottenhoofd, keelholte, bronchiolen, luchtpijp, bronchiën, longblaasjes"
+          ],
+          "antwoord": 0,
+          "uitleg": "De lucht gaat van de neus- of mondholte naar de keelholte, het strottenhoofd en de luchtpijp. Die splitst in bronchiën en bronchiolen, die eindigen in de longblaasjes."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet de neusholte met de ingeademde lucht? Kruis alles aan wat juist is.",
+          "opties": [
+            "ze verwarmt de lucht",
+            "ze droogt de lucht uit",
+            "ze filtert stofdeeltjes uit de lucht",
+            "ze haalt de zuurstof uit de lucht"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Neusschelpen, slijmvlies en haartjes verwarmen, bevochtigen en zuiveren de lucht. Ze drogen de lucht dus niet uit. De zuurstof wordt pas in de longblaasjes opgenomen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de taak van het trilhaarepitheel met slijmcellen in de luchtwegen?",
+          "opties": [
+            "stof en ziektekiemen in slijm vangen en naar de keel afvoeren",
+            "zuurstof uit de lucht opnemen en aan het bloed geven",
+            "de luchtpijp stevig openhouden bij het inademen",
+            "geluid maken wanneer de lucht langs de stembanden gaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het slijm vangt deeltjes op en de trilhaartjes slaan het naar boven, naar de keel. Daar slik je het in of hoest je het op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat houdt de luchtpijp altijd open, ook als je inademt?",
+          "opties": [
+            "kraakbeenringen in de wand",
+            "de druk van het bloed",
+            "het middenrif",
+            "het longvlies"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hoefijzervormige kraakbeenringen houden de luchtpijp open. Aan de achterkant zijn ze open, zodat de slokdarm erachter kan uitzetten bij het slikken."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heten de kleine luchtzakjes aan het einde van de bronchiolen, waar de gaswisseling gebeurt?",
+          "antwoord": [
+            "longblaasjes",
+            "alveolen"
+          ],
+          "uitleg": "De longen tellen honderden miljoenen longblaasjes. Samen hebben ze een oppervlak zo groot als een tennisveld."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zijn de longblaasjes goed geschikt voor gaswisseling? Kruis alles aan wat juist is.",
+          "opties": [
+            "ze hebben samen een enorm groot oppervlak",
+            "hun wand is erg dun",
+            "ze zijn omringd door een dicht net van haarvaten",
+            "ze hebben een dikke laag kraakbeen in hun wand"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Groot oppervlak, een wand van één cel dik en veel haarvaten zorgen voor snelle diffusie van O₂ en CO₂. Kraakbeen zit enkel in de grotere luchtwegen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De rechterlong heeft drie longkwabben en de linkerlong twee.",
+          "antwoord": true,
+          "uitleg": "De linkerlong is iets kleiner en heeft maar twee kwabben, want aan de linkerkant ligt het hart."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de pleuraholte?",
+          "opties": [
+            "de dunne ruimte met vocht tussen het longvlies en het borstvlies",
+            "de holte binnen in de luchtpijp waar de lucht door stroomt",
+            "de ruimte in het strottenhoofd waar de stembanden liggen",
+            "de holte tussen de neusschelpen in de neus"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het longvlies bekleedt de long, het borstvlies de binnenkant van de borstkas. Het pleuravocht daartussen laat de long soepel meebewegen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er bij de inademing met de middenrifademhaling?",
+          "opties": [
+            "het middenrif trekt samen en wordt platter, zodat de borstholte groter wordt",
+            "het middenrif ontspant en bolt op, zodat de borstholte kleiner wordt",
+            "de buikspieren duwen de longen omhoog en de lucht naar binnen",
+            "de longen zuigen zich zelf vol lucht door hun eigen spieren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Als het middenrif samentrekt, zakt het. De borstholte wordt groter, de druk in de longen daalt en lucht stroomt naar binnen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Zet de stappen van de inademing in de juiste volgorde.",
+          "opties": [
+            "ademhalingsspieren trekken samen, de borstholte wordt groter, de druk in de longen daalt, lucht stroomt naar binnen",
+            "lucht stroomt naar binnen, de druk in de longen daalt, de borstholte wordt groter, de ademhalingsspieren trekken samen",
+            "de druk in de longen stijgt, de borstholte wordt kleiner, de ademhalingsspieren ontspannen, lucht stroomt naar binnen",
+            "de borstholte wordt groter, de ademhalingsspieren ontspannen, lucht stroomt naar buiten, de druk in de longen daalt"
+          ],
+          "antwoord": 0,
+          "uitleg": "De spieren werken eerst. Daardoor vergroot de borstholte, daalt de druk onder de luchtdruk buiten, en volgt de lucht."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De longen zetten bij het inademen zelf uit omdat ze eigen spieren hebben.",
+          "antwoord": false,
+          "uitleg": "De longen hebben geen spieren om zelf uit te zetten. Ze volgen de beweging van de borstkas en het middenrif, dankzij het pleuravocht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke spieren zorgen bij de ribademhaling voor het optillen van de ribben?",
+          "opties": [
+            "de tussenribspieren",
+            "de buikspieren",
+            "de kringspieren van de luchtpijp",
+            "de spieren van het strottenhoofd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij de ribademhaling of borstademhaling heffen de tussenribspieren de ribben op. De borstkas wordt breder en dieper."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een rustige uitademing ontspannen de ademhalingsspieren en veert de borstkas vanzelf terug.",
+          "antwoord": true,
+          "uitleg": "Een rustige uitademing is passief. Alleen bij een krachtige uitademing, zoals bij hoesten, helpen de buikspieren actief mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke ribben zijn rechtstreeks met het borstbeen verbonden?",
+          "opties": [
+            "de ware ribben",
+            "de valse ribben",
+            "de zwevende ribben",
+            "geen enkele rib"
+          ],
+          "antwoord": 0,
+          "uitleg": "De ware ribben zitten met hun eigen kraakbeen vast aan het borstbeen. Valse ribben zijn onrechtstreeks verbonden en zwevende ribben helemaal niet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet het klepje dat bij het slikken de ingang van het strottenhoofd afsluit?",
+          "antwoord": "strottenklepje",
+          "uitleg": "Het strottenklepje belet dat voedsel in de luchtpijp terechtkomt. Gebeurt dat toch, dan verslik je je en hoest je het eruit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heet de plaats waar de hoofdbronchus, de bloedvaten en de zenuwen de long binnengaan?",
+          "opties": [
+            "de longhilus",
+            "de longkwab",
+            "het longtrechtertje",
+            "de pleuraholte"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij de longhilus, aan de binnenkant van de long, komen de bronchus, de longslagader, de longaders en de zenuwen de long in en uit."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij de buikademhaling bewegen vooral de tussenribspieren, en het middenrif blijft stil.",
+          "antwoord": false,
+          "uitleg": "Buik- of middenrifademhaling gebeurt vooral door het middenrif. De tussenribspieren zorgen voor de borst- of ribademhaling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar zit het strottenhoofd?",
+          "opties": [
+            "tussen de keelholte en de luchtpijp, met de stembanden erin",
+            "tussen de luchtpijp en de bronchiën, onder het borstbeen",
+            "tussen de neusholte en de mondholte, achter het verhemelte",
+            "tussen de longen en het middenrif, onder in de borstkas"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het strottenhoofd of larynx ligt boven aan de luchtpijp. Aan de buitenkant voel je de adamsappel. Binnenin zitten de stembanden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom krijgen rokers vaak last van slijm en hoesten?",
+          "opties": [
+            "rook beschadigt de trilharen, zodat het slijm niet meer goed afgevoerd wordt",
+            "rook maakt de luchtpijp breder, zodat er meer stof binnenkomt",
+            "rook verdubbelt het aantal longblaasjes, die dan meer slijm maken",
+            "rook verlaagt de lichaamstemperatuur in de luchtwegen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rook verlamt en beschadigt de trilharen. Het slijm blijft liggen en moet opgehoest worden: de typische rokershoest."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De gaswisseling tussen lucht en bloed gebeurt in de luchtpijp en de bronchiën.",
+          "antwoord": false,
+          "uitleg": "Luchtpijp en bronchiën zijn enkel aanvoerwegen. De gaswisseling gebeurt in de longblaasjes, waar de wand dun genoeg is."
+        }
+      ]
+    },
+    {
+      "titel": "Welzijnswetenschappen: Het ademhalingsstelsel — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe gaan zuurstof en koolstofdioxide in de longblaasjes van de lucht naar het bloed en omgekeerd?",
+          "opties": [
+            "door diffusie",
+            "door actief transport met ATP",
+            "door fagocytose",
+            "door filtratie onder hoge druk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gassen diffunderen van een plaats met hoge naar een plaats met lage partiële druk. Daar is geen energie voor nodig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom gaat zuurstof in de longblaasjes het bloed in?",
+          "opties": [
+            "de partiële druk van O₂ is in de longblaasjes hoger dan in het bloed van de haarvaten",
+            "de partiële druk van O₂ is in het bloed hoger dan in de longblaasjes",
+            "hemoglobine pompt de zuurstof actief uit de longblaasjes naar binnen",
+            "de bloeddruk in de longen zuigt de zuurstof door de wand"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het bloed dat in de longen aankomt, is zuurstofarm. Zuurstof diffundeert dus van de longblaasjes naar het bloed."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij welke omstandigheden laat hemoglobine zuurstof makkelijker los? Kruis alles aan wat juist is.",
+          "opties": [
+            "een hogere temperatuur",
+            "een hogere CO₂-concentratie",
+            "een hogere pH, dus basischer",
+            "een hogere O₂-concentratie"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "In werkende spieren is het warmer, er is meer CO₂ en het is zuurder, dus de pH is lager. De zuurstofaffiniteit van hemoglobine daalt dan en de zuurstof komt vrij waar ze nodig is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Deoxyhemoglobine + O₂ ⇌ oxyhemoglobine. Naar welke kant verschuift dit evenwicht in de longblaasjes, volgens het principe van Le Chatelier?",
+          "opties": [
+            "naar rechts, want de O₂-concentratie is er hoog",
+            "naar links, want de O₂-concentratie is er hoog",
+            "naar rechts, want de CO₂-concentratie is er hoog",
+            "het verschuift niet, want het is een evenwicht"
+          ],
+          "antwoord": 0,
+          "uitleg": "In de longen is er veel zuurstof. Het evenwicht verschuift naar de kant die zuurstof wegwerkt: er ontstaat oxyhemoglobine."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de weefsels verschuift het evenwicht tussen deoxyhemoglobine en oxyhemoglobine naar de kant van deoxyhemoglobine.",
+          "antwoord": true,
+          "uitleg": "In de weefsels is weinig zuurstof. Het evenwicht verschuift naar links, oxyhemoglobine geeft zijn zuurstof af en wordt weer deoxyhemoglobine."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men de mate waarin hemoglobine zuurstof bindt en vasthoudt?",
+          "antwoord": [
+            "zuurstofaffiniteit",
+            "affiniteit"
+          ],
+          "uitleg": "Een hoge zuurstofaffiniteit betekent dat hemoglobine zuurstof stevig vasthoudt, zoals in de longen. In actieve weefsels daalt de affiniteit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op welke manieren wordt CO₂ van de weefsels naar de longen vervoerd? Kruis alles aan wat juist is.",
+          "opties": [
+            "opgelost in het plasma",
+            "gebonden aan hemoglobine",
+            "als waterstofcarbonaat (HCO₃⁻) in het plasma",
+            "gebonden aan de bloedplaatjes"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een klein deel CO₂ is gewoon opgelost, een deel zit aan hemoglobine en het grootste deel reist als waterstofcarbonaat in het plasma."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het grootste deel van het CO₂ wordt aan hemoglobine gebonden vervoerd.",
+          "antwoord": false,
+          "uitleg": "De meeste CO₂, ongeveer 70 %, reist als waterstofcarbonaat in het plasma. Ongeveer een vijfde zit aan hemoglobine en de rest is opgelost."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een spirogram?",
+          "opties": [
+            "een grafiek van het volume lucht dat iemand in- en uitademt in de tijd",
+            "een grafiek van de elektrische activiteit van het hart",
+            "een foto van de longen gemaakt met röntgenstralen",
+            "een meting van de hoeveelheid zuurstof in het bloed"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met een spirometer meet men hoeveel lucht iemand in- en uitademt. Op het spirogram lees je onder meer het ademvolume en de vitale capaciteit af."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de hoeveelheid lucht die je bij een gewone, rustige ademhaling in- en uitademt?",
+          "antwoord": [
+            "ademvolume",
+            "ademvolume in rust"
+          ],
+          "uitleg": "Het ademvolume in rust is ongeveer een halve liter. Daarbovenop kan je nog veel meer lucht in- of uitademen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de vitale capaciteit?",
+          "opties": [
+            "de grootste hoeveelheid lucht die je na een maximale inademing kan uitademen",
+            "de hoeveelheid lucht die na een maximale uitademing in de longen blijft",
+            "de hoeveelheid lucht die je per minuut in rust inademt",
+            "de hoeveelheid lucht in de luchtpijp en de bronchiën"
+          ],
+          "antwoord": 0,
+          "uitleg": "De vitale capaciteit is ademvolume plus complementair volume plus uitademingsreservevolume. Bij een volwassene is dat zo'n vier à vijf liter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het restvolume?",
+          "opties": [
+            "de lucht die na een maximale uitademing nog in de longen blijft",
+            "de lucht die je bij een rustige ademhaling in- en uitademt",
+            "de lucht die je na een gewone inademing nog extra kan inademen",
+            "de lucht die je na een gewone uitademing nog extra kan uitademen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het restvolume kan je niet uitademen. Het houdt de longblaasjes open. Vitale capaciteit en restvolume samen vormen de totale longcapaciteit."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het complementair volume is de lucht die je na een gewone inademing nog extra kan inademen.",
+          "antwoord": true,
+          "uitleg": "Het complementair volume is de extra lucht bij een diepe inademing. Samen met het ademvolume vormt het de inademingscapaciteit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke factoren kunnen de vitale capaciteit beïnvloeden? Kruis alles aan wat juist is.",
+          "opties": [
+            "de leeftijd",
+            "het geslacht",
+            "roken",
+            "veel sporten"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Alle vier spelen mee. De vitale capaciteit daalt met de leeftijd en door roken, en ze is gemiddeld groter bij mannen en bij wie veel sport."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er bij een astma-aanval?",
+          "opties": [
+            "de bronchiolen vernauwen en zwellen op, zodat ademen moeilijk gaat",
+            "de longblaasjes vullen zich met bloed door een gebarsten ader",
+            "het middenrif verlamt tijdelijk en de longen vallen samen",
+            "de luchtpijp verstopt volledig door een stuk voedsel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij astma verkrampen de spiertjes rond de bronchiolen, het slijmvlies zwelt op en er komt meer slijm. Een puffer laat de luchtwegen weer verwijden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is mucoviscidose?",
+          "opties": [
+            "een erfelijke ziekte waarbij taai slijm de luchtwegen en de alvleesklier verstopt",
+            "een infectie van de longen door een virus dat via de lucht overgaat",
+            "een allergie voor pollen die vooral in de lente voorkomt",
+            "een ontsteking van de stembanden door te luid te roepen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Mucoviscidose of taaislijmziekte is erfelijk. Het taaie slijm geeft longinfecties en verstoort de spijsvertering. Kinesitherapie en medicatie helpen het slijm los te maken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er bij hyperventilatie?",
+          "opties": [
+            "je ademt te snel en te diep, zodat je te veel CO₂ uitademt",
+            "je ademt te traag, zodat er te veel CO₂ in het bloed blijft",
+            "je longblaasjes vullen zich met vocht door een infectie",
+            "je luchtpijp vernauwt door een allergische reactie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Door te snel te ademen daalt het CO₂-gehalte in het bloed. Dat geeft tintelingen, duizeligheid en een benauwd gevoel. Rustig en traag ademen helpt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Mucoviscidose is besmettelijk en wordt overgedragen via hoesten en niezen.",
+          "antwoord": false,
+          "uitleg": "Mucoviscidose is een erfelijke aandoening en niet besmettelijk. Het kind erft van beide ouders een afwijkend gen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Regelmatig sporten kan de vitale capaciteit vergroten.",
+          "antwoord": true,
+          "uitleg": "Training versterkt de ademhalingsspieren, waardoor je dieper kan in- en uitademen. Daardoor neemt de vitale capaciteit toe."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waaruit bestaat de totale longcapaciteit?",
+          "opties": [
+            "de vitale capaciteit plus het restvolume",
+            "het ademvolume plus het complementair volume",
+            "het restvolume plus het ademvolume",
+            "de inademingscapaciteit plus het ademvolume"
+          ],
+          "antwoord": 0,
+          "uitleg": "De totale longcapaciteit is alle lucht die de longen na een maximale inademing bevatten: de vitale capaciteit en het restvolume samen."
+        }
+      ]
+    }
+  ]
+}

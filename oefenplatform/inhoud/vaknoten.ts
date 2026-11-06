@@ -67,7 +67,9 @@ export const vaknoten: Record<string, string> = {
     "afleggen, zoals economie-moderne talen, humane wetenschappen, Latijn en " +
     "moderne talen. Zit je in natuurwetenschappen of een andere richting met " +
     "drie examens wetenschappen, dan heb je de aparte vakken biologie, chemie " +
-    "en fysica nodig in plaats van dit vak.",
+    "en fysica nodig in plaats van dit vak. Volg je welzijnswetenschappen, " +
+    "maak dan ook de hoofdstukken die met \"Welzijnswetenschappen:\" beginnen: " +
+    "die gaan over het menselijk lichaam en horen enkel bij jouw richting.",
 
   "beyond-doorstroom/biologie":
     "Dit vak is er voor de richtingen die hun wetenschappen in drie aparte " +

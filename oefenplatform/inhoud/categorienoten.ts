@@ -158,8 +158,9 @@ export const categorienoten: Record<string, Categorienoot> = {
       {
         kop: "Bedrijfswetenschappen en welzijnswetenschappen",
         tekst:
-          "Jullie wiskunde en natuurwetenschappen volgen een eigen vakfiche " +
-          "en staan er nog niet. De rest geldt wel voor jullie.",
+          "Welzijnswetenschappen: bij natuurwetenschappen staan extra " +
+          "hoofdstukken over het menselijk lichaam voor jou. De eigen wiskunde " +
+          "van beide richtingen staat er nog niet.",
       },
     ],
     richtingen: {
@@ -191,8 +192,8 @@ export const categorienoten: Record<string, Categorienoot> = {
     // in plaats van de zin van de vorige keer over te nemen.
     komtNog:
       "Nog in de maak: Latijn, wiskunde basis, algemene economie, " +
-      "bedrijfswetenschappen en recht, en de eigen wiskunde en " +
-      "natuurwetenschappen van bedrijfswetenschappen en welzijnswetenschappen.",
+      "bedrijfswetenschappen en recht, en de eigen wiskunde van " +
+      "bedrijfswetenschappen en welzijnswetenschappen.",
   },
 };
 
