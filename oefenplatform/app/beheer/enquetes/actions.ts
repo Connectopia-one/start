@@ -74,6 +74,9 @@ export async function zetReviewOpgehangen(formData: FormData) {
   await requireBeheerder();
   const id = String(formData.get("id") || "");
   const op = String(formData.get("naar") || "true") === "true";
+  // Een woordje bij het ophangen, dat het gezin bij zijn review ziet (Kim,
+  // november 2026). Leeg laten mag.
+  const bericht = String(formData.get("bericht") || "").trim().slice(0, 500);
   const supabase = await createClient();
 
   const { error } = await supabase
@@ -82,6 +85,7 @@ export async function zetReviewOpgehangen(formData: FormData) {
       goedgekeurd: op,
       opgehangen_op: op ? new Date().toISOString() : null,
       niet_geplaatst: false,
+      ...(op ? { bericht: bericht || null } : {}),
     })
     .eq("id", id);
   if (error) throw new Error(error.message);

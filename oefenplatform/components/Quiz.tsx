@@ -750,17 +750,22 @@ function VraagKaart({
       ) : (
         <div
           className={`mt-4 rounded-md px-3 py-2 text-sm ${
+            /* Zacht oranje en geen rood bij een fout. Sarah, enquête
+               november 2026, over faalangst; Kim: "in de klas noemen we een
+               fout een leeropportuniteit en gaan we samen op zoek naar wat
+               het wel is." Het telt nog altijd als fout, zoals op het
+               examen; enkel de toon is milder. */
             status.correct
               ? "bg-forest/10 text-forest-dark"
-              : "bg-danger/10 text-danger"
+              : "bg-amber/10 text-ink"
           }`}
         >
           <p className="font-medium">
             {status.correct
               ? "Juist!"
               : status.overgeslagen
-                ? "Je sloeg deze vraag over, dus ze telt als fout."
-                : "Niet helemaal juist."}
+                ? "Je sloeg deze vraag over, dus ze telt als fout. Kijk mee wat het is:"
+                : "Nog niet helemaal. Kijk mee wat het wel is:"}
           </p>
           {status.correct &&
             (() => {

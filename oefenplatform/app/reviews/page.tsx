@@ -134,7 +134,14 @@ export default async function ReviewsPage({
               <Sterren aantal={eigen.sterren} />
               <p className="mt-2 whitespace-pre-line text-sm text-ink">{eigen.tekst}</p>
               {eigen.goedgekeurd ? (
-                <p className="mt-2 text-sm text-forest-dark">✅ Hij hangt op het bord. Dank je wel!</p>
+                <>
+                  <p className="mt-2 text-sm text-forest-dark">✅ Hij hangt op het bord. Dank je wel!</p>
+                  {eigen.bericht && (
+                    <p className="mt-1 rounded-md bg-forest/10 px-3 py-2 text-sm text-ink">
+                      💬 {eigen.bericht}
+                    </p>
+                  )}
+                </>
               ) : eigen.niet_geplaatst ? (
                 <>
                   <p className="mt-2 text-sm text-ink">💬 We hebben hem nog niet opgehangen.</p>

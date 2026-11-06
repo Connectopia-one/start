@@ -62,6 +62,11 @@ export const tipsTekst = {
       tekst:
         "Is het hoofdstuk af, dan test je het nog eens met de oefenbundel die je kan afdrukken. Daarin staan andere vragen dan online, dus het is echt extra oefening bij dat hoofdstuk.",
     },
+    {
+      kop: "Liever laten voorlezen?",
+      tekst:
+        "Zet in Mijn account bij je kind het vinkje voor voorlezen aan. Dan staat er bij elke vraag en bij de uitleg een knopje 🔊 Lees voor. De computer of tablet leest voor met zijn eigen stem. Het klinkt het best in Google Chrome op een computer. Bij formules en vreemde woorden kan de uitspraak eens mislopen.",
+    },
   ],
   /* Een nota onderaan. Laat hem leeg om hem te verbergen. */
   nota:

@@ -217,9 +217,18 @@ export default async function BeheerEnquetesPage() {
                       <p className="mt-1 text-xs text-ink-dim">— {review.naam_tonen}</p>
                     )}
                     <div className="mt-3 flex flex-wrap items-end gap-3">
-                      <form action={zetReviewOpgehangen}>
+                      <form action={zetReviewOpgehangen} className="flex flex-wrap items-end gap-2">
                         <input type="hidden" name="id" value={review.id} />
                         <input type="hidden" name="naar" value={review.goedgekeurd ? "false" : "true"} />
+                        {!review.goedgekeurd && (
+                          <input
+                            type="text"
+                            name="bericht"
+                            maxLength={500}
+                            placeholder="Woordje bij het ophangen (mag leeg)"
+                            className="w-64 max-w-full rounded-md border border-border bg-paper px-3 py-1.5 text-sm text-ink outline-none focus:border-forest"
+                          />
+                        )}
                         <button
                           type="submit"
                           className={
