@@ -159,7 +159,7 @@ export default async function ReviewsPage({
           {!session ? (
             <p className="mt-2 text-sm text-ink-dim">
               Een review schrijven kan als je het platform gebruikt.{" "}
-              <Link href="/login" className="text-forest-dark underline underline-offset-2">
+              <Link href="/login?volgende=%2Freviews%23schrijf" className="text-forest-dark underline underline-offset-2">
                 Log in
               </Link>{" "}
               met je account.

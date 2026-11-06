@@ -11,6 +11,7 @@ import {
 import { createClient } from "@/lib/supabase/server";
 import { gebruikPlusklasCode } from "@/app/betalen/actions";
 import { KinderenLijst } from "./KinderenLijst";
+import { HelpOnsStappen } from "@/components/HelpOnsStappen";
 
 export default async function AccountPage({
   searchParams,
@@ -53,6 +54,10 @@ export default async function AccountPage({
             alle hoofdstukken.
           </p>
         )}
+
+        {/* Na het inloggen komt een ouder hier uit. Dan ziet die meteen de
+            enquête en de review, zonder te moeten zoeken (Kim, 6/11/2026). */}
+        <HelpOnsStappen userId={session.userId} />
 
         <div className="mt-8 rounded-xl border border-border bg-surface p-6">
           <h2 className="font-display text-lg font-semibold text-ink">

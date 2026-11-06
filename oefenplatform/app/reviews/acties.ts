@@ -15,7 +15,7 @@ import { createClient } from "@/lib/supabase/server";
 export async function stuurReviewIn(formData: FormData) {
   const session = await getSessionProfile();
   if (!session) {
-    redirect("/login?fout=" + encodeURIComponent("Log eerst in om een review te schrijven."));
+    redirect("/login?fout=" + encodeURIComponent("Log eerst in om een review te schrijven.") + "&volgende=" + encodeURIComponent("/reviews#schrijf"));
   }
 
   const tekst = String(formData.get("tekst") || "").trim();

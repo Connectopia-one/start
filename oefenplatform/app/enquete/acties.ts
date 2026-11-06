@@ -16,7 +16,7 @@ import { leesEnquete } from "@/inhoud/enquete";
 export async function stuurEnqueteIn(formData: FormData) {
   const session = await getSessionProfile();
   if (!session) {
-    redirect("/login?fout=" + encodeURIComponent("Log eerst in om de enquête in te vullen."));
+    redirect("/login?fout=" + encodeURIComponent("Log eerst in om de enquête in te vullen.") + "&volgende=" + encodeURIComponent("/enquete"));
   }
 
   const { antwoorden, ontbreekt } = leesEnquete(formData);

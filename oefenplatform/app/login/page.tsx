@@ -1,13 +1,15 @@
 import Link from "next/link";
 import { Wachtwoordveld } from "@/components/Wachtwoordveld";
 import { login } from "./actions";
+import { veiligVolgende } from "@/lib/auth";
 
 export default async function LoginPage({
   searchParams,
 }: {
-  searchParams: Promise<{ fout?: string }>;
+  searchParams: Promise<{ fout?: string; volgende?: string }>;
 }) {
-  const { fout } = await searchParams;
+  const { fout, volgende: ruw } = await searchParams;
+  const volgende = veiligVolgende(ruw);
 
   return (
     <main className="flex flex-1 items-center justify-center bg-paper px-6 py-16">
@@ -39,6 +41,12 @@ export default async function LoginPage({
           action={login}
           className="mt-8 space-y-4 rounded-xl border border-border bg-surface p-6"
         >
+          {volgende && <input type="hidden" name="volgende" value={volgende} />}
+          {volgende === "/enquete" && !fout && (
+            <p className="rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">
+              Log in, dan kom je meteen bij de enquête.
+            </p>
+          )}
           {fout && (
             <p className="rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">
               {fout}

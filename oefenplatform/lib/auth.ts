@@ -40,11 +40,25 @@ export async function getSessionProfile(): Promise<Session | null> {
   };
 }
 
-/** Stuurt niet-ingelogde bezoekers naar /login. Geeft de sessie terug. */
-export async function requireIngelogd(): Promise<Session> {
+/**
+ * Stuurt niet-ingelogde bezoekers naar /login. Geeft de sessie terug.
+ * Met `volgende` komt de ouder na het inloggen meteen terug op die pagina,
+ * in plaats van op /account (Kim, 6 november 2026: wie op de enquêtelink
+ * uit de mail klikte, moest daarna zelf de knop zoeken).
+ */
+export async function requireIngelogd(volgende?: string): Promise<Session> {
   const session = await getSessionProfile();
-  if (!session) redirect("/login");
+  if (!session) {
+    redirect(volgende ? `/login?volgende=${encodeURIComponent(volgende)}` : "/login");
+  }
   return session;
+}
+
+/** Enkel een pad binnen het platform zelf, nooit een ander adres. */
+export function veiligVolgende(waarde: unknown): string | null {
+  const pad = typeof waarde === "string" ? waarde.trim() : "";
+  if (!pad.startsWith("/") || pad.startsWith("//") || pad.startsWith("/\\")) return null;
+  return pad;
 }
 
 /** Zoals requireIngelogd, maar enkel voor beheerders. */

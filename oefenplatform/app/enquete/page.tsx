@@ -34,7 +34,7 @@ export default async function EnquetePage({
   searchParams: Promise<{ melding?: string; fout?: string }>;
 }) {
   const { melding, fout } = await searchParams;
-  const session = await requireIngelogd();
+  const session = await requireIngelogd("/enquete");
   const supabase = await createClient();
 
   const { data: bestaand } = await supabase

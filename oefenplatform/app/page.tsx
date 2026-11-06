@@ -6,6 +6,7 @@ import {
 } from "@/components/MeldingAntwoorden";
 import { Dagvraag } from "@/components/Dagvraag";
 import { Header } from "@/components/Header";
+import { HelpOnsStappen } from "@/components/HelpOnsStappen";
 import { getSessionProfile } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { NIVEAUS, STARTKNOPPEN, vindNiveau } from "@/lib/niveaus";
@@ -80,6 +81,13 @@ export default async function HomePage() {
       <main className="mx-auto w-full max-w-4xl flex-1 px-6 py-10">
         {bericht && <BerichtBalk bericht={bericht} />}
         <MeldingAntwoorden meldingen={meldingen} />
+        {/* Bovenaan, zodat wie vanuit de mail komt de enquête niet hoeft te
+            zoeken (Kim, 6 november 2026). */}
+        {session && (
+          <div className="mb-8 [&>div]:mt-0">
+            <HelpOnsStappen userId={session.userId} />
+          </div>
+        )}
 
         <h1 className="font-display text-2xl font-semibold text-ink">
           Oefenen voor de examencommissie

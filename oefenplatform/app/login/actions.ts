@@ -3,13 +3,16 @@
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { zoekPlusklasCode } from "@/lib/plusklas";
+import { veiligVolgende } from "@/lib/auth";
 
 export async function login(formData: FormData) {
   const email = String(formData.get("email") || "").trim();
   const password = String(formData.get("password") || "");
+  const volgende = veiligVolgende(formData.get("volgende"));
+  const terug = volgende ? `&volgende=${encodeURIComponent(volgende)}` : "";
 
   if (!email || !password) {
-    redirect(`/login?fout=${encodeURIComponent("Vul zowel je e-mailadres als je wachtwoord in.")}`);
+    redirect(`/login?fout=${encodeURIComponent("Vul zowel je e-mailadres als je wachtwoord in.")}${terug}`);
   }
 
   const supabase = await createClient();
@@ -28,13 +31,13 @@ export async function login(formData: FormData) {
       redirect(
         `/login?fout=${encodeURIComponent(
           `${code} is een toegangscode, geen wachtwoord. Heb je nog geen account? Maak er hieronder een aan en vul de code in tijdens het registreren. Heb je er al een, log dan in met je eigen wachtwoord.`,
-        )}`,
+        )}${terug}`,
       );
     }
-    redirect(`/login?fout=${encodeURIComponent("E-mailadres of wachtwoord klopt niet.")}`);
+    redirect(`/login?fout=${encodeURIComponent("E-mailadres of wachtwoord klopt niet.")}${terug}`);
   }
 
-  redirect("/account");
+  redirect(volgende ?? "/account");
 }
 
 export async function logout() {
