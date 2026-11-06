@@ -12,10 +12,10 @@ import { EXAMENS_VOOR_STER } from "@/lib/examen";
 import {
   haalExamenstand,
   haalOefenstand,
-  registreerAntwoord,
   registreerExamen,
   registreerSticker,
 } from "@/app/voortgang-actions";
+import { bewaarAntwoord } from "@/lib/bewaarAntwoord";
 import {
   KleurVraag,
   SleepVraag,
@@ -1430,14 +1430,14 @@ export function Quiz({
       [vraag.id]: { ...s[vraag.id], gecontroleerd: true, correct },
     }));
     if (actiefKindId && !examen) {
-      registreerAntwoord(
+      bewaarAntwoord(
         actiefKindId,
         vraag.id,
         hoofdstukId ?? null,
         correct,
         zoalsOpgeslagen(vraag, statussen[vraag.id].gegevenAntwoord),
         beurt,
-      ).catch(() => {});
+      );
     }
     if (vanToetsenbord) {
       // preventScroll, want de uitleg verschijnt net boven de knop en
@@ -1478,14 +1478,14 @@ export function Quiz({
       },
     }));
     if (actiefKindId && !examen) {
-      registreerAntwoord(
+      bewaarAntwoord(
         actiefKindId,
         vraag.id,
         hoofdstukId ?? null,
         false,
         zoalsOpgeslagen(vraag, statussen[vraag.id].gegevenAntwoord),
         beurt,
-      ).catch(() => {});
+      );
     }
   };
 
