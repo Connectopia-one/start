@@ -79,7 +79,7 @@ LEZEN = [
     {
         "type": "invultekst",
         "vraag": "Hoe noem je de lijst vooraan in een boek waarop staat op welke bladzijde elk hoofdstuk begint? Antwoord met één woord.",
-        "antwoord": "inhoudstafel",
+        "antwoord": ["inhoudstafel", "inhoud"],
         "uitleg": "De inhoudstafel staat meestal vooraan. Achteraan vind je soms een register, waarin je op trefwoord zoekt.",
     },
     {
