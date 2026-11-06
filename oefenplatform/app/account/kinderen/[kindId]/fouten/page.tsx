@@ -10,6 +10,8 @@ import { variantVoorBeurt } from "@/lib/spellingvariant";
 import { alleRijen } from "@/lib/allerijen";
 import { formatAntwoord } from "@/lib/antwoordWeergave";
 import { type VraagType } from "@/lib/vraagvorm";
+import { NIVEAUS } from "@/lib/niveaus";
+import { vakIcoon } from "@/lib/vakbeeld";
 
 /*
   "Nog te oefenen": alle vragen waarvan de laatste poging van dit kind fout
@@ -33,6 +35,7 @@ type Vraag = {
     id: string;
     titel: string;
     volgnummer: number;
+    niveau: string;
     vakken: { naam: string; slug: string } | null;
   } | null;
 };
@@ -49,11 +52,14 @@ const PAKJE = 150;
 
 export default async function NogTeOefenenPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ kindId: string }>;
+  searchParams: Promise<{ vak?: string }>;
 }) {
   const session = await requireIngelogd();
   const { kindId } = await params;
+  const { vak: gekozenVak } = await searchParams;
   await vereisOuderPin(session.userId, `/account/kinderen/${kindId}/fouten`);
   const supabase = await createClient();
 
@@ -92,7 +98,7 @@ export default async function NogTeOefenenPage({
   for (let i = 0; i < foutIds.length; i += PAKJE) {
     const { data } = await supabase
       .from("vragen")
-      .select("*, hoofdstukken(id, titel, volgnummer, vakken(naam, slug))")
+      .select("*, hoofdstukken(id, titel, volgnummer, niveau, vakken(naam, slug))")
       .in("id", foutIds.slice(i, i + PAKJE));
     vragen.push(...((data ?? []) as Vraag[]));
   }
@@ -103,6 +109,7 @@ export default async function NogTeOefenenPage({
     volgnummer: number;
     vakNaam: string;
     vakSlug: string;
+    niveau: string;
     vragen: Vraag[];
   };
   const groepen = new Map<string, Groep>();
@@ -116,18 +123,53 @@ export default async function NogTeOefenenPage({
         volgnummer: h.volgnummer,
         vakNaam: h.vakken.naam,
         vakSlug: h.vakken.slug,
+        niveau: h.niveau,
         vragen: [],
       };
       groepen.set(h.id, g);
     }
     g.vragen.push(v);
   }
-  const lijst = [...groepen.values()].sort(
+  const niveauPlek = (n: string) => {
+    const i = NIVEAUS.findIndex((x) => x.slug === n);
+    return i < 0 ? 99 : i;
+  };
+  const alles = [...groepen.values()].sort(
     (a, b) =>
-      a.vakNaam.localeCompare(b.vakNaam, "nl") || a.volgnummer - b.volgnummer,
+      niveauPlek(a.niveau) - niveauPlek(b.niveau) ||
+      a.vakNaam.localeCompare(b.vakNaam, "nl") ||
+      a.volgnummer - b.volgnummer,
   );
-  for (const g of lijst) g.vragen.sort((a, b) => a.volgnummer - b.volgnummer);
-  const totaal = lijst.reduce((s, g) => s + g.vragen.length, 0);
+  for (const g of alles) g.vragen.sort((a, b) => a.volgnummer - b.volgnummer);
+  const totaal = alles.reduce((s, g) => s + g.vragen.length, 0);
+
+  /* Knoppen per vak, zoals op het platform zelf (Kim, 6 november 2026): eerst
+     kies je het vak, dan zie je enkel die fouten, in plaats van door alle
+     vakken en niveaus te moeten scrollen. Een vak in twee niveaus krijgt twee
+     knoppen. */
+  type VakKnop = { sleutel: string; naam: string; slug: string; niveau: string; aantal: number };
+  const knoppen = new Map<string, VakKnop>();
+  for (const g of alles) {
+    const sleutel = `${g.niveau}~${g.vakSlug}`;
+    const k = knoppen.get(sleutel) ?? {
+      sleutel,
+      naam: g.vakNaam,
+      slug: g.vakSlug,
+      niveau: g.niveau,
+      aantal: 0,
+    };
+    k.aantal += g.vragen.length;
+    knoppen.set(sleutel, k);
+  }
+  const vakKnoppen = [...knoppen.values()];
+  // Is er maar één vak, dan staat dat meteen open.
+  const gekozen =
+    vakKnoppen.find((k) => k.sleutel === gekozenVak) ??
+    (vakKnoppen.length === 1 ? vakKnoppen[0] : null);
+  const lijst = gekozen
+    ? alles.filter((g) => `${g.niveau}~${g.vakSlug}` === gekozen.sleutel)
+    : [];
+  const niveauVan = (slug: string) => NIVEAUS.find((n) => n.slug === slug);
 
   return (
     <>
@@ -147,6 +189,42 @@ export default async function NogTeOefenenPage({
             ? `Er staat niets open: elke vraag die ${kind.naam} maakte, was de laatste keer juist.`
             : `${totaal} ${totaal === 1 ? "vraag" : "vragen"} waarvan de laatste poging nog niet juist was. Wat ${kind.naam} intussen juist heeft, verdwijnt vanzelf uit deze lijst.`}
         </p>
+
+        {vakKnoppen.length > 0 && (
+          <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {vakKnoppen.map((k) => {
+              const n = niveauVan(k.niveau);
+              const actief = gekozen?.sleutel === k.sleutel;
+              return (
+                <Link
+                  key={k.sleutel}
+                  href={`/account/kinderen/${kindId}/fouten?vak=${encodeURIComponent(k.sleutel)}`}
+                  scroll={false}
+                  className={`flex items-center gap-3 rounded-xl border p-4 transition hover:border-forest ${
+                    actief ? "border-forest bg-forest/5" : "border-border bg-surface"
+                  }`}
+                >
+                  <span aria-hidden className="text-2xl">
+                    {vakIcoon(k.slug)}
+                  </span>
+                  <span className="flex-1">
+                    <span className="block text-sm font-medium text-ink">{k.naam}</span>
+                    <span className="block text-xs text-ink-dim">
+                      {n ? `${n.emoji} ${n.naam} · ` : ""}
+                      {k.aantal} {k.aantal === 1 ? "vraag" : "vragen"}
+                    </span>
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
+        )}
+
+        {!gekozen && vakKnoppen.length > 0 && (
+          <p className="mt-4 text-sm text-ink-dim">
+            Kies een vak om de vragen te zien.
+          </p>
+        )}
 
         <div className="mt-6 space-y-8">
           {lijst.map((g) => (
