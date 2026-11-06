@@ -279,7 +279,36 @@ function zelfdeWoord(
   if (!soepel) return false;
   // Getallen laten we met rust: daar is 3 niet hetzelfde als 3en.
   if (/\d/.test(a) || /\d/.test(b)) return false;
-  return woordkern(a) === woordkern(b);
+  if (woordkern(a) === woordkern(b)) return true;
+  return vollediger(a, b);
+}
+
+/*
+  Een vollediger antwoord dat het verwachte antwoord bevat, telt ook als juist.
+
+  Amélie, enquête november 2026: "Christoffel Colombus" werd fout gerekend
+  omdat er "Colombus" verwacht werd, en "Suliman I" omdat er "Suliman" stond.
+  Een kind dat méér weet, hoort niet fout te staan.
+
+  Voorzichtig: het verwachte antwoord moet er als geheel woord (of woorden)
+  in staan, er mogen hooguit twee woorden bij komen, en die mogen geen
+  ontkenning of opsomming zijn. Zo telt "niet Colombus" of "Colombus en
+  Magellaan" niet als juist. Enkel buiten de taalvakken, net als enkelvoud en
+  meervoud: bij een taalvak hoort de exacte vorm bij de leerstof.
+*/
+const GEEN_AANVULLING = new Set(["niet", "geen", "en", "of", "noch", "maar"]);
+
+function vollediger(getypt: string, verwacht: string): boolean {
+  const g = getypt.split(" ").filter(Boolean);
+  const v = verwacht.split(" ").filter(Boolean);
+  if (!v.length || g.length <= v.length || g.length > v.length + 2) return false;
+  for (let start = 0; start + v.length <= g.length; start++) {
+    if (v.every((w, i) => g[start + i] === w)) {
+      const extra = [...g.slice(0, start), ...g.slice(start + v.length)];
+      return !extra.some((w) => GEEN_AANVULLING.has(w));
+    }
+  }
+  return false;
 }
 
 /**
