@@ -10,6 +10,7 @@ const ICONEN: Record<string, string> = {
   engels: "🔤",
   wiskunde: "➗",
   natuurwetenschappen: "🔬",
+  "natuurwetenschappen-welzijnswetenschappen": "🫀",
   biologie: "🌿",
   chemie: "⚗️",
   fysica: "🧲",
@@ -44,6 +45,7 @@ export function vakIcoon(slug: string): string {
 */
 const AFBREEKPUNTEN: Record<string, string> = {
   natuurwetenschappen: "Natuur\u00ADwetenschappen",
+  "natuurwetenschappen-welzijnswetenschappen": "Natuur\u00ADwetenschappen welzijns\u00ADwetenschappen",
   "wetenschap-en-techniek": "Wetenschap en tech\u00ADniek",
   aardrijkskunde: "Aardrijks\u00ADkunde",
   "samenleving-en-economie": "Samenleving en econo\u00ADmie",
