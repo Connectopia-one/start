@@ -31,7 +31,7 @@ sys.path.insert(0, str(HIER))
 import bouw_natuurwetenschappen as nw  # noqa: E402
 
 DOEL = HIER.parent / "natuurwetenschappen-welzijnswetenschappen.json"
-VOORVOEGSEL = ""
+VOORVOEGSEL = "Welzijnswetenschappen: "  # zo staan ze online (Kim importeerde 6/11 met deze titels)
 
 THEMAS = [
     ("ww_enzymen", "Enzymen"),
