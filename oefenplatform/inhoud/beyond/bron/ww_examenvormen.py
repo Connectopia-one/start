@@ -71,6 +71,15 @@ def casus(tekst, vragen):
     return {"casus": tekst, "vragen": vragen}
 
 
+def klik(vraag, prent, zones, uitleg):
+    """Een klikvraag op een prent uit public/examenvormen/welzijnswetenschappen/.
+
+    De prenten maakte Kim op 6 november 2026; de naamkaartjes zijn leeggemaakt,
+    zodat het antwoord er niet bij staat. Zones in procent: [x, y, breedte, hoogte].
+    """
+    return {"type": "hotspot", "vraag": vraag, "afbeelding_url": f"/examenvormen/welzijnswetenschappen/{prent}", "zones": zones, "uitleg": uitleg}
+
+
 H = {}
 
 # =========================================================================== Enzymen
@@ -847,6 +856,56 @@ H["Het ademhalingsstelsel — deel 2"] = [
     ),
 ]
 
+# --------------------------------------------------------------------------- Klikvragen op een prent
+H["Het bloed — deel 1"] += [
+    klik("Dit buisje bloed werd gecentrifugeerd. Klik op de laag met de witte bloedcellen en de bloedplaatjes.",
+         "bloed.webp", [[11.0, 57.3, 26.3, 5.5]],
+         "Het is het dunne, witte laagje tussen het plasma en de rode bloedcellen."),
+    klik("Klik in hetzelfde buisje op het plasma.",
+         "bloed.webp", [[11.0, 25.5, 26.3, 32.0]],
+         "Het plasma is licht en komt bovenaan. Het is geel van kleur."),
+]
+H["Het ademhalingsstelsel — deel 1"] += [
+    klik("Klik op het strottenhoofd.", "ademhaling.webp", [[50.4, 35.3, 5.3, 6.8]],
+         "Het strottenhoofd ligt tussen de keelholte en de luchtpijp, met de stembanden erin."),
+    klik("Klik op het middenrif.", "ademhaling.webp", [[28.5, 87.4, 49.0, 5.3]],
+         "Het middenrif is de koepelvormige spier onder de longen. Bij het inademen trekt het samen en wordt het platter."),
+]
+H["Het ademhalingsstelsel — deel 2"] += [
+    klik("Klik in het spirogram op het restvolume.", "spirogram.webp", [[7.5, 76.0, 90.5, 14.3]],
+         "Het restvolume is de onderste strook: de lucht die na een maximale uitademing nog in de longen blijft. Je kan het niet uitademen."),
+    klik("Klik in het spirogram op het complementair volume.", "spirogram.webp", [[7.5, 18.7, 90.5, 28.1]],
+         "Het complementair volume is de bovenste strook: de lucht die je na een gewone inademing nog extra kan inademen."),
+]
+H["Het uitscheidingsstelsel — deel 1"] += [
+    klik("Klik op de plaats waar de filtratie gebeurt.", "nefron.webp", [[21.8, 32.1, 13.4, 10.7]],
+         "De filtratie gebeurt in de glomerulus, het kluwen haarvaten in het kapsel van Bowman."),
+    klik("Klik op de lus van Henle.", "nefron.webp", [[49.9, 60.6, 9.8, 26.7]],
+         "De lus van Henle is het lange U-vormige deel tussen het eerste en het tweede kronkelbuisje."),
+    klik("Klik op het deel waar ADH de wand beter doorlaatbaar maakt voor water.", "nefron.webp", [[76.2, 35.3, 14.3, 56.7]],
+         "Dat is de verzamelbuis, die de urine van meerdere nefronen opvangt."),
+]
+H["Het uitscheidingsstelsel — deel 2"] += [
+    klik("Klik op het nierbekken.", "nier.webp", [[46.3, 41.4, 16.0, 17.8]],
+         "In het nierbekken komt de urine samen voor ze de urineleider ingaat."),
+    klik("Klik op het deel dat de urine naar de blaas brengt.", "nier.webp", [[60.6, 71.3, 8.0, 27.8]],
+         "Dat is de urineleider of ureter."),
+]
+H["Het spijsverteringsstelsel — deel 1"] += [
+    klik("Klik op het orgaan dat NaHCO₃, amylase, trypsine en lipase afgeeft aan de twaalfvingerige darm.", "spijsvertering.webp", [[43.2, 61.7, 18.3, 5.3]],
+         "Dat is de alvleesklier of pancreas, die achter en onder de maag ligt."),
+    klik("Klik op het orgaan waar pepsine en zoutzuur gemaakt worden.", "spijsvertering.webp", [[45.5, 49.2, 20.0, 12.1]],
+         "Dat is de maag."),
+]
+H["Het hart en de bloedsomloop — deel 1"] += [
+    klik("Klik op de holte met de dikste spierwand.", "hart.webp", [[53.5, 59.2, 25.0, 23.5]],
+         "De linkerkamer pompt het bloed door de hele grote bloedsomloop en heeft daarom de dikste wand. Op een tekening van voren ligt ze rechts."),
+    klik("Klik op de tricuspidalisklep.", "hart.webp", [[25.0, 59.2, 12.5, 6.4]],
+         "De tricuspidalisklep ligt tussen de rechterboezem en de rechterkamer. Op een tekening van voren ligt de rechterhelft van het hart links."),
+    klik("Klik op de mitralisklep.", "hart.webp", [[62.4, 54.2, 8.9, 7.8]],
+         "De mitralisklep ligt tussen de linkerboezem en de linkerkamer."),
+]
+
 
 def tel(vragen):
     """Telt de vragen, ook die in een casus."""
@@ -857,14 +916,25 @@ def tel(vragen):
 
 
 def main():
-    hoofdstukken = [{"titel": WW + t, "niveau": "beyond-doorstroom", "vragen": v} for t, v in H.items()]
-    with open(UIT, "w", encoding="utf-8") as f:
-        json.dump({"hoofdstukken": hoofdstukken}, f, ensure_ascii=False, indent=2)
-        f.write("\n")
-    for t, v in H.items():
-        print(f"  {t}: {tel(v)}")
-    totaal = sum(tel(v) for v in H.values())
-    print(f"{len(hoofdstukken)} hoofdstukken, {totaal} vragen -> {os.path.normpath(UIT)}")
+    """Schrijft twee bestanden: de vragen zonder prent, en apart de klikvragen.
+
+    De klikvragen kwamen er later bij (Kim, 6 november 2026). Een apart bestand,
+    zodat wie de eerste 93 al importeerde, ze niet dubbel krijgt. De prenten
+    moeten online staan voor je de klikvragen importeert.
+    """
+    def schrijf(pad, filter_):
+        hfst = []
+        for t_, v in H.items():
+            vragen = [x for x in v if filter_(x)]
+            if vragen:
+                hfst.append({"titel": WW + t_, "niveau": "beyond-doorstroom", "vragen": vragen})
+        with open(pad, "w", encoding="utf-8") as f:
+            json.dump({"hoofdstukken": hfst}, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+        print(f"{len(hfst)} hoofdstukken, {sum(tel(h['vragen']) for h in hfst)} vragen -> {os.path.normpath(pad)}")
+
+    schrijf(UIT, lambda x: x.get("type") != "hotspot")
+    schrijf(UIT.replace("-examenvormen.json", "-klikvragen.json"), lambda x: x.get("type") == "hotspot")
 
 
 if __name__ == "__main__":
