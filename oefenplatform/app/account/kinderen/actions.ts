@@ -190,3 +190,28 @@ export async function hernoemKind(
   revalidatePath("/account");
   return {};
 }
+
+/*
+  Voorleesknop bij de vragen en de uitleg, aan of uit per kind
+  (supabase/voorlezen.sql). Caroline en Sarah, enquête november 2026.
+  Standaard uit, net als de kleuren en de voortgangsbalk.
+*/
+export async function zetVoorlezen(
+  formData: FormData,
+): Promise<{ fout?: string }> {
+  const session = await requireIngelogd();
+  const kindId = String(formData.get("kind_id") || "");
+  const aan = String(formData.get("aan") || "") === "ja";
+  if (!kindId) return { fout: "Geen kind gekozen." };
+
+  const admin = createAdminClient();
+  const { error } = await admin
+    .from("kinderen")
+    .update({ toon_voorlezen: aan })
+    .eq("id", kindId)
+    .eq("profile_id", session.userId);
+  if (error) return { fout: "Kon dit niet bewaren, probeer opnieuw." };
+
+  revalidatePath("/account");
+  return {};
+}

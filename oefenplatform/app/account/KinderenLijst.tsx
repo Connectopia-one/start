@@ -8,6 +8,7 @@ import {
   maakKind,
   verwijderKind,
   zetKleuren,
+  zetVoorlezen,
   zetVoortgangsbalk,
 } from "./kinderen/actions";
 
@@ -16,6 +17,7 @@ type Kind = {
   naam: string;
   toonVoortgang: boolean;
   toonKleuren?: boolean;
+  toonVoorlezen?: boolean;
 };
 
 export function KinderenLijst({ kinderen }: { kinderen: Kind[] }) {
@@ -69,6 +71,24 @@ export function KinderenLijst({ kinderen }: { kinderen: Kind[] }) {
     if (antwoord.fout) {
       setFout(antwoord.fout);
       setKleuren((b) => ({ ...b, [kind.id]: !aan }));
+      return;
+    }
+    router.refresh();
+  }
+
+  const [lezen, setLezen] = useState<Record<string, boolean>>({});
+  const leesAan = (k: Kind) => lezen[k.id] ?? Boolean(k.toonVoorlezen);
+
+  async function zetLezen(kind: Kind, aan: boolean) {
+    setLezen((b) => ({ ...b, [kind.id]: aan }));
+    setFout(null);
+    const data = new FormData();
+    data.set("kind_id", kind.id);
+    data.set("aan", aan ? "ja" : "nee");
+    const antwoord = await zetVoorlezen(data);
+    if (antwoord.fout) {
+      setFout(antwoord.fout);
+      setLezen((b) => ({ ...b, [kind.id]: !aan }));
       return;
     }
     router.refresh();
@@ -215,6 +235,23 @@ export function KinderenLijst({ kinderen }: { kinderen: Kind[] }) {
                   Na het nakijken kleurt het juiste antwoord lichtgroen en een
                   fout gekozen antwoord lichtoranje. Staat standaard uit, zodat
                   het scherm rustig blijft.
+                </span>
+              </span>
+            </label>
+
+            <label className="mt-2 flex items-start gap-2 text-sm text-ink-dim">
+              <input
+                type="checkbox"
+                checked={leesAan(k)}
+                onChange={(e) => zetLezen(k, e.target.checked)}
+                className="mt-0.5 h-4 w-4 shrink-0 rounded border-border text-forest focus:ring-forest"
+              />
+              <span>
+                Toon een knop om de vraag en de uitleg te laten voorlezen
+                <span className="block text-xs">
+                  De computer of tablet leest dan voor met zijn eigen stem.
+                  Gewone zinnen gaan goed; bij formules en vreemde woorden kan
+                  de uitspraak eens mislopen.
                 </span>
               </span>
             </label>

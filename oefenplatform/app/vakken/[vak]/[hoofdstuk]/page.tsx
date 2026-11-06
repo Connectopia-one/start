@@ -254,6 +254,7 @@ export default async function HoofdstukPage({
                     naam: k.naam,
                     toonVoortgang: Boolean(k.toon_voortgang),
                     toonKleuren: Boolean(k.toon_kleuren),
+                    toonVoorlezen: Boolean(k.toon_voorlezen),
                   }))}
                   hoofdstukId={hoofdstuk.id}
                   taalvak={isTaalvak(vak.slug)}

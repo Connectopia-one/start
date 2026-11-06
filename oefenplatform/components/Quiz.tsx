@@ -16,6 +16,7 @@ import {
   registreerSticker,
 } from "@/app/voortgang-actions";
 import { bewaarAntwoord } from "@/lib/bewaarAntwoord";
+import { Voorleesknop } from "@/components/Voorleesknop";
 import {
   KleurVraag,
   SleepVraag,
@@ -73,6 +74,8 @@ type Kind = {
   toonVoortgang?: boolean;
   /** Zachte kleur bij juist en fout na het nakijken. Standaard uit. */
   toonKleuren?: boolean;
+  /** Een knop om de vraag en de uitleg te laten voorlezen. Standaard uit. */
+  toonVoorlezen?: boolean;
 };
 
 type Vraag = {
@@ -444,9 +447,12 @@ function VraagKaart({
   onControleer,
   onOordeel,
   kleuren = false,
+  voorlezen = false,
 }: {
   vraag: Vraag;
   status: Status;
+  /** Knoppen om de vraag en de uitleg te laten voorlezen (instelling per kind). */
+  voorlezen?: boolean;
   /** Na het nakijken het juiste antwoord zacht groen kleuren (instelling per kind). */
   kleuren?: boolean;
   /** Vakjes in plaats van bolletjes: er kan meer dan één antwoord juist zijn. */
@@ -488,6 +494,22 @@ function VraagKaart({
       )}
 
       {vraag.casus && <Casus tekst={vraag.casus} />}
+
+      {voorlezen && (
+        <div className="mb-2">
+          <Voorleesknop
+            tekst={[
+              vraag.casus ?? "",
+              leesVraag(vraag.vraag).kaal,
+              ...(vraag.type === "meerkeuze" && vraag.opties
+                ? vraag.opties.map((o, i) => `${String.fromCharCode(65 + i)}: ${o}.`)
+                : []),
+            ]
+              .filter(Boolean)
+              .join(" ")}
+          />
+        </div>
+      )}
 
       {vraag.type === "keuzelijst" ? (
         <KeuzeZin
@@ -847,6 +869,11 @@ function VraagKaart({
             <p className="mt-1 text-ink">
               <Formule tekst={zonderOordeel(vraag.uitleg)} />
             </p>
+          )}
+          {voorlezen && vraag.uitleg && (
+            <div className="mt-2">
+              <Voorleesknop tekst={zonderOordeel(vraag.uitleg)} label="Lees de uitleg voor" />
+            </div>
           )}
         </div>
       )}
@@ -1706,6 +1733,9 @@ export function Quiz({
             onOordeel={(juist) => controleerHuidige(false, juist)}
             kleuren={Boolean(
               kinderen.find((k) => k.id === actiefKindId)?.toonKleuren,
+            )}
+            voorlezen={Boolean(
+              kinderen.find((k) => k.id === actiefKindId)?.toonVoorlezen,
             )}
           />
         )}
