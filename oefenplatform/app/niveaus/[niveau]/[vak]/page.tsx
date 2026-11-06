@@ -163,6 +163,30 @@ export default async function NiveauVakPage({
           </Link>
         )}
 
+        {/* De hele cursus in één pdf: alle leerbundels van dit vak na elkaar
+            (Lotte en Kim, november 2026). Een gewone link, geen Link: het is
+            een download en geen pagina. */}
+        {volledigeToegang && (
+          <a
+            href={`/niveaus/${niveau.slug}/${vak.slug}/cursus`}
+            download
+            className="mt-3 flex items-center justify-between gap-4 rounded-xl border border-border bg-surface px-5 py-4 transition hover:border-forest"
+          >
+            <span>
+              <span className="font-display font-semibold text-ink">
+                <span aria-hidden>📚</span> Hele cursus downloaden
+              </span>
+              <span className="mt-0.5 block text-sm text-ink-dim">
+                Alle leerbundels van dit vak samen in één pdf, in de volgorde
+                van de hoofdstukken. Handig om af te drukken of door te bladeren.
+              </span>
+            </span>
+            <span aria-hidden className="text-ink-dim">
+              &darr;
+            </span>
+          </a>
+        )}
+
         <Leidraad />
       </main>
     </>
