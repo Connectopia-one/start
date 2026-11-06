@@ -191,7 +191,7 @@ td.x { color: var(--muted); }
 <div class="wrap" id="app"></div>
 
 <script>
-// Begrippen per hoofdstuk: [begrip, uitleg, extra tip]. Gehaald uit de leerbundels natuurwetenschappen ✨ Spark van Connectopia.
+// Begrippen per hoofdstuk: [begrip, uitleg, extra tip]. Gehaald uit de leerbundels natuurwetenschappen ✨ Spark en (sinds 6/11/2026) 🌍 Beyond welzijnswetenschappen van Connectopia.
 const DATA = {
   spark: { label: "SPARK · 1ste en 2de middelbaar", chapters: [
     { id: "n-cel", title: "Cellen, weefsels en organen", terms: [
@@ -374,6 +374,129 @@ const DATA = {
       ["objectief","Zonder eigen mening of gevoel, gebaseerd op feiten.","Een goede onderzoeksvraag is zo."],
       ["STEM","Science, Technology, Engineering en Mathematics.","Wetenschap, techniek, ingenieurswerk en wiskunde."]
     ]}
+  ]},
+  welzijn: { label: "BEYOND · welzijnswetenschappen", chapters: [
+    { id: "w-enz", title: "Enzymen", terms: [
+      ["enzym", "Een eiwit dat een reactie in het lichaam versnelt zonder zelf verbruikt te worden.", "Een biokatalysator."],
+      ["biokatalysator", "Een stof die in een levend wezen een reactie versnelt.", "Een andere naam voor een enzym."],
+      ["substraat", "De stof die een enzym omzet.", "De sleutel in het sleutel-slotprincipe."],
+      ["actief centrum", "Het kleine deel van het enzym waar het substraat bindt.", "Het slot."],
+      ["sleutel-slotprincipe", "Het idee dat enkel een passend substraat in het actief centrum past.", "Verklaart de substraatspecificiteit."],
+      ["activeringsenergie", "De energie die nodig is om een reactie op gang te brengen.", "Een enzym maakt ze kleiner."],
+      ["denaturatie", "Het blijvend verlies van de ruimtelijke vorm van een eiwit.", "Gebeurt door hitte of een sterk afwijkende pH."],
+      ["temperatuursoptimum", "De temperatuur waarbij een enzym het snelst werkt.", "Bij de mens rond 37 °C."],
+      ["inhibitor", "Een stof die de werking van een enzym remt.", "Kan op het substraat lijken."],
+      ["cofactor", "Een niet-eiwitdeel, zoals een metaalion, dat een enzym helpt.", "Zink, magnesium of ijzer."],
+      ["co-enzym", "Een organische helpermolecule van een enzym, vaak afgeleid van een vitamine.", "Vaak uit de B-vitaminen."],
+      ["verzadiging", "De toestand waarin alle actieve centra bezet zijn.", "Meer substraat helpt dan niet meer."],
+      ["lactase", "Het enzym dat melksuiker afbreekt.", "Zit in de wand van de dunne darm."],
+      ["pepsine", "Het enzym dat in de maag eiwitten afbreekt.", "Werkt het best rond pH 2."]
+    ]},
+    { id: "w-spijs", title: "Het spijsverteringsstelsel", terms: [
+      ["peristaltiek", "De golfvormige samentrekking van de darmwand die het voedsel voortstuwt.", "Kringspieren en lengtespieren werken beurtelings."],
+      ["mucosa", "De slijmvlieslaag aan de binnenkant van het spijsverteringskanaal.", "De binnenste laag van de wand."],
+      ["strottenklepje", "Het klepje dat bij het slikken de luchtpijp afsluit.", "Zo komt er geen voedsel in je longen."],
+      ["maagportier", "De kringspier tussen de maag en de twaalfvingerige darm.", "Laat de voedselbrij beetje bij beetje door."],
+      ["twaalfvingerige darm", "Het eerste deel van de dunne darm.", "Hier komen gal en alvleeskliersap binnen."],
+      ["gal", "Vocht uit de lever dat vetten in kleine druppeltjes verdeelt.", "Bevat zelf geen enzymen."],
+      ["emulgeren", "Grote vetdruppels in kleine druppeltjes verdelen.", "Dat doen de galzouten."],
+      ["alvleesklier", "Klier die enzymen en NaHCO₃ aan de twaalfvingerige darm afgeeft.", "Ook pancreas genoemd."],
+      ["pepsinogeen", "De inactieve vorm waarin de maag pepsine aanmaakt.", "Zoutzuur maakt het actief."],
+      ["darmvlokken", "Uitstulpingen van de darmwand die het opnameoppervlak vergroten.", "Ook villi genoemd."],
+      ["microvilli", "Heel kleine uitstulpingen van de darmepitheelcellen.", "Samen vormen ze de borstelzoom."],
+      ["osmose", "Water dat door een halfdoorlatend membraan naar de geconcentreerdste kant gaat.", "Een passieve vorm van transport."],
+      ["actief transport", "Transport tegen het concentratieverschil in, met energie uit ATP.", "Er is een pomp voor nodig."],
+      ["leverpoortader", "Het bloedvat dat bloed van de darm naar de lever brengt.", "Glucose en aminozuren gaan zo eerst naar de lever."],
+      ["coeliakie", "Een auto-immuunziekte waarbij gluten de darmvlokken beschadigen.", "Behandeling: glutenvrij eten."],
+      ["darmflora", "De nuttige bacteriën in de darm.", "Maakt onder meer vitamine K."]
+    ]},
+    { id: "w-uit", title: "Het uitscheidingsstelsel", terms: [
+      ["urineleider", "De buis die urine van de nier naar de blaas brengt.", "Ook ureter genoemd."],
+      ["urinebuis", "De buis die urine van de blaas naar buiten brengt.", "Ook urethra genoemd."],
+      ["nierschors", "De buitenste laag van de nier.", "Hier liggen de nierlichaampjes."],
+      ["niermerg", "Het deel van de nier binnen de schors, met de nierpiramides.", "De lus van Henle duikt erin."],
+      ["nierbekken", "De holte waar de urine samenkomt voor ze de urineleider ingaat.", "Ligt in het midden van de nier."],
+      ["nefron", "De kleinste werkende eenheid van de nier.", "Elke nier heeft er ongeveer een miljoen."],
+      ["glomerulus", "Het kluwen haarvaten waar de filtratie gebeurt.", "Ligt in het kapsel van Bowman."],
+      ["kapsel van Bowman", "Het bekertje rond de glomerulus dat het filtraat opvangt.", "Samen met de glomerulus het nierlichaampje."],
+      ["lus van Henle", "Het U-vormige deel van het nierbuisje dat diep in het merg duikt.", "Tussen het eerste en het tweede kronkelbuisje."],
+      ["verzamelbuis", "De buis die de urine van meerdere nefronen opvangt.", "Hier werkt ADH."],
+      ["voorurine", "Het filtraat dat in het kapsel van Bowman ontstaat.", "Bevat nog glucose."],
+      ["resorptie", "Het terugnemen van nuttige stoffen uit het nierbuisje naar het bloed.", "Ook terugopname genoemd."],
+      ["secretie", "Het actief brengen van extra stoffen uit het bloed in het nierbuisje.", "Na filtratie en resorptie."],
+      ["ureum", "De stikstofhoudende afvalstof die de lever maakt uit aminozuren.", "Gaat met de urine weg."],
+      ["ADH", "Het hormoon dat de verzamelbuis meer water laat terugnemen.", "Antidiuretisch hormoon, uit de hypofyse."],
+      ["hemodialyse", "Het zuiveren van het bloed in een kunstnier.", "Nodig bij nierfalen."]
+    ]},
+    { id: "w-bloed", title: "Het bloed", terms: [
+      ["plasma", "Het vloeibare deel van het bloed.", "Gecentrifugeerd komt het bovenaan."],
+      ["serum", "Plasma zonder stollingsfactoren.", "Fibrinogeen is eruit."],
+      ["erytrocyt", "Een rode bloedcel.", "Heeft geen kern en leeft ongeveer 120 dagen."],
+      ["leukocyt", "Een witte bloedcel.", "Zorgt voor de afweer."],
+      ["trombocyt", "Een bloedplaatje.", "Helpt bij de bloedstolling."],
+      ["hemoglobine", "Het ijzerhoudende eiwit dat zuurstof bindt.", "Eén molecule bindt er vier."],
+      ["hematocriet", "Het percentage van het bloedvolume dat uit rode bloedcellen bestaat.", "Ongeveer 40 à 45 procent."],
+      ["EPO", "Hormoon uit de nieren dat de aanmaak van rode bloedcellen stimuleert.", "Voluit erytropoëtine."],
+      ["fagocytose", "Het opslokken van een bacterie door een witte bloedcel.", "Dat doen neutrofielen en macrofagen."],
+      ["macrofaag", "Een grote eetcel die uit een monocyt ontstaat.", "Ruimt ziektekiemen op in het weefsel."],
+      ["antilichaam", "Een eiwit dat een ziekteverwekker of vreemde stof herkent.", "Gemaakt door plasmacellen."],
+      ["fibrinogeen", "Het opgeloste plasma-eiwit dat bij de stolling fibrine wordt.", "Trombine zet het om."],
+      ["agglutinatie", "Het samenklonteren van rode bloedcellen door antilichamen.", "Gebeurt bij een verkeerde bloedgroep."],
+      ["universele donor", "De bloedgroep die iedereen veilig kan krijgen.", "O-negatief."],
+      ["resusfactor", "Het D-antigeen op de rode bloedcellen.", "Positief of negatief."]
+    ]},
+    { id: "w-hart", title: "Het hart en de bloedsomloop", terms: [
+      ["boezem", "Een van de twee bovenste holtes van het hart.", "Ontvangt het bloed."],
+      ["kamer", "Een van de twee onderste holtes van het hart.", "Pompt het bloed weg."],
+      ["septum", "Het tussenschot tussen de linker- en de rechterhelft van het hart.", "Houdt zuurstofrijk en zuurstofarm bloed gescheiden."],
+      ["myocard", "De dikke spierlaag van de hartwand.", "Het dikst bij de linkerkamer."],
+      ["pericard", "Het hartzakje rond het hart.", "Met wat vocht, zodat het hart vlot beweegt."],
+      ["mitralisklep", "De klep tussen de linkerboezem en de linkerkamer.", "Links, twee slippen."],
+      ["tricuspidalisklep", "De klep tussen de rechterboezem en de rechterkamer.", "Rechts, drie slippen."],
+      ["kransslagader", "Slagader die de hartspier zelf van bloed voorziet.", "Verstopt bij een hartinfarct."],
+      ["sinusknoop", "Groepje gangmakercellen in de boezem waar elke hartslag begint.", "Bepaalt het basisritme."],
+      ["AV-knoop", "De knoop die de prikkel even ophoudt voor hij naar de kamers gaat.", "Zo lopen de boezems eerst leeg."],
+      ["systole", "Het samentrekken van het hart.", "Het omgekeerde is diastole."],
+      ["ECG", "Registratie van de elektrische activiteit van het hart.", "Met een P-top, QRS-complex en T-top."],
+      ["longslagader", "Het bloedvat dat zuurstofarm bloed van de rechterkamer naar de longen brengt.", "Een slagader met zuurstofarm bloed."],
+      ["poortader", "Een ader tussen twee haarvatennetwerken.", "Zoals tussen darm en lever."],
+      ["haarvat", "Het dunste bloedvat, met een wand van één cellaag.", "Hier gebeurt de uitwisseling met de weefsels."]
+    ]},
+    { id: "w-druk", title: "De bloeddruk en het lymfestelsel", terms: [
+      ["bovendruk", "De hoogste druk in de slagaders, als de kamers samentrekken.", "Ook systolische bloeddruk."],
+      ["onderdruk", "De laagste druk in de slagaders, als het hart ontspant.", "Ook diastolische bloeddruk."],
+      ["hypertensie", "Een te hoge bloeddruk, vanaf ongeveer 140/90 mmHg.", "Verhoogt het risico op een beroerte."],
+      ["baroreceptor", "Zintuigcel die de bloeddruk meet in de aorta en de halsslagaders.", "Ook drukreceptor genoemd."],
+      ["vasoconstrictie", "Het vernauwen van een bloedvat.", "Doet de bloeddruk stijgen."],
+      ["vasodilatatie", "Het verwijden van een bloedvat.", "Doet de bloeddruk dalen."],
+      ["renine", "Enzym uit de nieren dat het systeem start om de bloeddruk te verhogen.", "Zet angiotensinogeen om."],
+      ["aldosteron", "Hormoon dat de nieren meer zout en water laat terugnemen.", "Vrijgemaakt door angiotensine II."],
+      ["negatieve feedback", "Regeling die een verandering tegenwerkt.", "Zo blijft de bloeddruk stabiel."],
+      ["weefselvocht", "Vocht dat uit de haarvaten tussen de cellen komt.", "Bevat weinig grote eiwitten."],
+      ["lymfe", "Het vocht in de lymfevaten.", "Brengt overtollig weefselvocht terug naar het bloed."],
+      ["lymfeklier", "Knoop in het lymfestelsel die de lymfe filtert.", "Zwelt op bij een infectie."],
+      ["thymus", "Orgaan waarin de T-lymfocyten rijpen.", "Ook zwezerik genoemd."],
+      ["milt", "Orgaan dat versleten rode bloedcellen opruimt.", "Slaat ook een voorraad bloed op."],
+      ["lymfoedeem", "Zwelling doordat lymfe niet goed afgevoerd wordt.", "Kan na het wegnemen van lymfeklieren."]
+    ]},
+    { id: "w-adem", title: "Het ademhalingsstelsel", terms: [
+      ["strottenhoofd", "Het deel tussen de keelholte en de luchtpijp, met de stembanden.", "Afgesloten door het strottenklepje bij slikken."],
+      ["luchtpijp", "De buis met kraakbeenringen die lucht naar de longen brengt.", "Splitst in twee bronchiën."],
+      ["bronchiolen", "De kleinste vertakkingen van de luchtwegen.", "Vernauwen bij astma."],
+      ["longblaasjes", "De kleine luchtzakjes waar de gaswisseling gebeurt.", "Ook alveolen genoemd."],
+      ["trilhaarepitheel", "Bekleding van de luchtwegen die slijm met stof naar de keel voert.", "Wordt beschadigd door rook."],
+      ["middenrif", "De koepelvormige spier onder de longen.", "Trekt samen en wordt platter bij inademen."],
+      ["tussenribspieren", "Spieren tussen de ribben die de borstkas optillen.", "Werken bij de ribademhaling."],
+      ["pleuraholte", "De dunne ruimte met vocht tussen het longvlies en het borstvlies.", "Zo volgen de longen de borstkas."],
+      ["diffusie", "Het passief verplaatsen van een stof van hoge naar lage concentratie.", "Zo gaan O₂ en CO₂ door de wand."],
+      ["oxyhemoglobine", "Hemoglobine met zuurstof eraan gebonden.", "Ontstaat in de longen."],
+      ["spirogram", "Grafiek van het volume lucht dat je in- en uitademt in de tijd.", "Toont onder meer de vitale capaciteit."],
+      ["ademvolume", "De lucht bij een gewone, rustige ademhaling.", "Ongeveer een halve liter."],
+      ["vitale capaciteit", "De grootste hoeveelheid lucht die je na een maximale inademing kan uitademen.", "Groter door regelmatig te sporten."],
+      ["restvolume", "De lucht die na een maximale uitademing in de longen blijft.", "Kan je nooit uitademen."],
+      ["hyperventilatie", "Te snel en te diep ademen, zodat je te veel CO₂ uitademt.", "Rustig ademen helpt."],
+      ["mucoviscidose", "Erfelijke ziekte waarbij taai slijm de luchtwegen verstopt.", "Niet besmettelijk."]
+    ]}
   ]}
 };
 
@@ -475,9 +598,12 @@ function renderMenu() {
       <div class="brand">
         <div class="label">Natuurwetenschappen · begrippen inoefenen</div>
         <h1>Begrippen<span>arena</span></h1>
-        <p>Kies een hoofdstuk en een spel. Alle spellen gebruiken de begrippen uit de leerbundels van ✨ Spark, dus je kan ze vrij afwisselen.</p>
+        <p>Kies een hoofdstuk en een spel. Alle spellen gebruiken de begrippen uit de leerbundels, dus je kan ze vrij afwisselen.</p>
       </div>
-      <div class="label">${esc(lvl.label)}</div>
+      <div class="seg" role="group" aria-label="Niveau">
+        <button data-lvl="spark" aria-pressed="${S.level === "spark"}">SPARK · 1ste–2de middelbaar</button>
+        <button data-lvl="welzijn" aria-pressed="${S.level === "welzijn"}">BEYOND · welzijnswetenschappen</button>
+      </div>
     </header>
     <section style="display:flex;flex-direction:column;gap:10px">
       <div class="label">1 · Hoofdstuk</div>

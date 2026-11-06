@@ -57,9 +57,9 @@ export const spellen: Spel[] = [
     icoon: "🔬",
     titel: "Begrippenarena Natuurwetenschappen",
     vak: "Natuurwetenschappen",
-    voorWie: "✨ Spark",
+    voorWie: "✨ Spark en 🌍 Beyond welzijnswetenschappen",
     tekst:
-      "Honderdzestig begrippen uit de tien leerbundels natuurwetenschappen van Spark, van de cel tot wetenschappelijk onderzoek, in zes spellen: een quiz, memory, raad het begrip, microscoopgalgje, flitskaarten en begrippenbingo.",
+      "Honderdzestig begrippen uit de tien leerbundels natuurwetenschappen van Spark, van de cel tot wetenschappelijk onderzoek, en ruim honderd begrippen over het menselijk lichaam voor welzijnswetenschappen in Beyond. In zes spellen: een quiz, memory, raad het begrip, microscoopgalgje, flitskaarten en begrippenbingo.",
   },
   {
     slug: "wiskunde-dimensie",
