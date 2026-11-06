@@ -62,6 +62,15 @@ export const spellen: Spel[] = [
       "Honderdzestig begrippen uit de tien leerbundels natuurwetenschappen van Spark, van de cel tot wetenschappelijk onderzoek, en ruim honderd begrippen over het menselijk lichaam voor welzijnswetenschappen in Beyond. In zes spellen: een quiz, memory, raad het begrip, microscoopgalgje, flitskaarten en begrippenbingo.",
   },
   {
+    slug: "begrippenarena-wiskunde",
+    icoon: "📐",
+    titel: "Begrippenarena Wiskunde",
+    vak: "Wiskunde",
+    voorWie: "🧱 Basis en 🌱 Start, ✨ Spark, 🚀 Boost en 🌍 Beyond",
+    tekst:
+      "Kies eerst je niveau: de wiskundewoorden van de lagere school (som, quotiënt, noemer ...), of die van de 1ste, 2de of 3de graad. Zo'n vijftig begrippen per niveau, in zes spellen: een quiz, memory, raad het begrip, rekenmachinegalgje, flitskaarten en begrippenbingo.",
+  },
+  {
     slug: "wiskunde-dimensie",
     icoon: "🤖",
     titel: "De Wiskunde-dimensie",
