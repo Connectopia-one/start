@@ -7,8 +7,8 @@ spark? want dat is zoals het ook op het echte examen gaat zijn". Zelfde opzet
 als inhoud/spark/bron/geschiedenis_examenvormen.py: elk hoofdstuk krijgt er
 vragen bij in de vormen van het examen (tabel, keuzelijst, volgorde, koppelen,
 slepen naar kolommen, woorden in een zin slepen, open antwoord, tekenen en een
-casus). Klikvragen op een prent staan er (nog) niet bij: daarvoor zijn eerst
-tekeningen nodig.
+casus) en klikvragen op Kims eigen prenten in
+public/examenvormen/welzijnswetenschappen/.
 
 De vragen die er al staan, blijven staan. De import zoekt elk hoofdstuk op zijn
 titel en zet deze vragen erbij; zet "Bestaande vragen vervangen" dus NIET aan.
@@ -74,8 +74,9 @@ def casus(tekst, vragen):
 def klik(vraag, prent, zones, uitleg):
     """Een klikvraag op een prent uit public/examenvormen/welzijnswetenschappen/.
 
-    De prenten maakte Kim op 6 november 2026; de naamkaartjes zijn leeggemaakt,
-    zodat het antwoord er niet bij staat. Zones in procent: [x, y, breedte, hoogte].
+    De prenten maakte Kim op 6 november 2026, zonder tekst. Enkel bij het hart
+    zijn de naamkaartjes achteraf leeggemaakt (haar versie zonder tekst had
+    beide harthelften rood). Zones in procent: [x, y, breedte, hoogte].
     """
     return {"type": "hotspot", "vraag": vraag, "afbeelding_url": f"/examenvormen/welzijnswetenschappen/{prent}", "zones": zones, "uitleg": uitleg}
 
@@ -859,42 +860,42 @@ H["Het ademhalingsstelsel — deel 2"] = [
 # --------------------------------------------------------------------------- Klikvragen op een prent
 H["Het bloed — deel 1"] += [
     klik("Dit buisje bloed werd gecentrifugeerd. Klik op de laag met de witte bloedcellen en de bloedplaatjes.",
-         "bloed.webp", [[11.0, 57.3, 26.3, 5.5]],
+         "bloed.webp", [[11.7, 58.2, 25.1, 4.6]],
          "Het is het dunne, witte laagje tussen het plasma en de rode bloedcellen."),
     klik("Klik in hetzelfde buisje op het plasma.",
-         "bloed.webp", [[11.0, 25.5, 26.3, 32.0]],
+         "bloed.webp", [[11.7, 25.0, 25.1, 33.0]],
          "Het plasma is licht en komt bovenaan. Het is geel van kleur."),
 ]
 H["Het ademhalingsstelsel — deel 1"] += [
-    klik("Klik op het strottenhoofd.", "ademhaling.webp", [[50.4, 35.3, 5.3, 6.8]],
+    klik("Klik op het strottenhoofd.", "ademhaling.webp", [[51.0, 34.7, 6.0, 5.2]],
          "Het strottenhoofd ligt tussen de keelholte en de luchtpijp, met de stembanden erin."),
-    klik("Klik op het middenrif.", "ademhaling.webp", [[28.5, 87.4, 49.0, 5.3]],
+    klik("Klik op het middenrif.", "ademhaling.webp", [[28.2, 85.9, 64.0, 8.7]],
          "Het middenrif is de koepelvormige spier onder de longen. Bij het inademen trekt het samen en wordt het platter."),
 ]
 H["Het ademhalingsstelsel — deel 2"] += [
-    klik("Klik in het spirogram op het restvolume.", "spirogram.webp", [[7.5, 76.0, 90.5, 14.3]],
+    klik("Klik in het spirogram op het restvolume.", "spirogram.webp", [[7.5, 75.9, 90.4, 14.3]],
          "Het restvolume is de onderste strook: de lucht die na een maximale uitademing nog in de longen blijft. Je kan het niet uitademen."),
-    klik("Klik in het spirogram op het complementair volume.", "spirogram.webp", [[7.5, 18.7, 90.5, 28.1]],
+    klik("Klik in het spirogram op het complementair volume.", "spirogram.webp", [[7.5, 18.6, 90.4, 28.0]],
          "Het complementair volume is de bovenste strook: de lucht die je na een gewone inademing nog extra kan inademen."),
 ]
 H["Het uitscheidingsstelsel — deel 1"] += [
-    klik("Klik op de plaats waar de filtratie gebeurt.", "nefron.webp", [[21.8, 32.1, 13.4, 10.7]],
+    klik("Klik op de plaats waar de filtratie gebeurt.", "nefron.webp", [[13.0, 11.0, 15.0, 17.0]],
          "De filtratie gebeurt in de glomerulus, het kluwen haarvaten in het kapsel van Bowman."),
-    klik("Klik op de lus van Henle.", "nefron.webp", [[49.9, 60.6, 9.8, 26.7]],
+    klik("Klik op de lus van Henle.", "nefron.webp", [[27.8, 64.7, 35.5, 29.4]],
          "De lus van Henle is het lange U-vormige deel tussen het eerste en het tweede kronkelbuisje."),
-    klik("Klik op het deel waar ADH de wand beter doorlaatbaar maakt voor water.", "nefron.webp", [[76.2, 35.3, 14.3, 56.7]],
+    klik("Klik op het deel waar ADH de wand beter doorlaatbaar maakt voor water.", "nefron.webp", [[72.9, 5.9, 15.4, 93.0]],
          "Dat is de verzamelbuis, die de urine van meerdere nefronen opvangt."),
 ]
 H["Het uitscheidingsstelsel — deel 2"] += [
-    klik("Klik op het nierbekken.", "nier.webp", [[46.3, 41.4, 16.0, 17.8]],
+    klik("Klik op het nierbekken.", "nier.webp", [[39.6, 42.2, 25.7, 20.6]],
          "In het nierbekken komt de urine samen voor ze de urineleider ingaat."),
-    klik("Klik op het deel dat de urine naar de blaas brengt.", "nier.webp", [[60.6, 71.3, 8.0, 27.8]],
+    klik("Klik op het deel dat de urine naar de blaas brengt.", "nier.webp", [[27.7, 62.7, 14.9, 37.3]],
          "Dat is de urineleider of ureter."),
 ]
 H["Het spijsverteringsstelsel — deel 1"] += [
-    klik("Klik op het orgaan dat NaHCO₃, amylase, trypsine en lipase afgeeft aan de twaalfvingerige darm.", "spijsvertering.webp", [[43.2, 61.7, 18.3, 5.3]],
+    klik("Klik op het orgaan dat NaHCO₃, amylase, trypsine en lipase afgeeft aan de twaalfvingerige darm.", "spijsvertering.webp", [[43.4, 59.5, 17.9, 8.2]],
          "Dat is de alvleesklier of pancreas, die achter en onder de maag ligt."),
-    klik("Klik op het orgaan waar pepsine en zoutzuur gemaakt worden.", "spijsvertering.webp", [[45.5, 49.2, 20.0, 12.1]],
+    klik("Klik op het orgaan waar pepsine en zoutzuur gemaakt worden.", "spijsvertering.webp", [[48.8, 51.6, 18.4, 8.7]],
          "Dat is de maag."),
 ]
 H["Het hart en de bloedsomloop — deel 1"] += [
