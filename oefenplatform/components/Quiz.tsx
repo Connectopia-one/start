@@ -767,6 +767,18 @@ function VraagKaart({
               </strong>
             </p>
           )}
+          {/* Kim, 6 november 2026: wie het eigenlijk juist had maar anders
+              schreef, mag dat melden. Kim rekent het dan alsnog juist, met de
+              ster erbij als het hoofdstuk daarna helemaal juist is. */}
+          {!status.correct &&
+            !status.overgeslagen &&
+            vraag.type === "invultekst" && (
+              <p className="mt-1 text-xs text-ink-dim">
+                Had je het eigenlijk juist, maar anders geschreven? Meld het
+                met de knop bij deze vraag. Dan kijken we het na en rekenen we
+                het alsnog juist.
+              </p>
+            )}
           {!status.correct && alsVakjes && vraag.opties && (
             <p className="mt-1 text-ink">
               {juisteKeuzes(vraag.antwoord).length > 1

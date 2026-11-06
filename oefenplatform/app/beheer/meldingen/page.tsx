@@ -3,7 +3,7 @@ import { Header } from "@/components/Header";
 import { requireBeheerder } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { vindNiveau } from "@/lib/niveaus";
-import { zetAfgehandeld, wisMelding } from "./actions";
+import { zetAfgehandeld, wisMelding, rekenTochJuist } from "./actions";
 
 export const dynamic = "force-dynamic";
 
@@ -33,7 +33,7 @@ export default async function MeldingenPage() {
     // In één stuk, zonder spatie voor de haakjes: supabase leest deze tekst
     // ook bij het typen, en van een samengeplakte tekst maakt het niets meer.
     .select(
-      "id, soort, bericht, afgehandeld, afgehandeld_op, antwoord, profile_id, aangemaakt_op, hoofdstuk:hoofdstukken(id, titel, volgnummer, niveau, vak:vakken(naam, slug)), vraag:vragen(volgnummer, vraag), melder:profiles(full_name)",
+      "id, vraag_id, soort, bericht, afgehandeld, afgehandeld_op, antwoord, profile_id, aangemaakt_op, hoofdstuk:hoofdstukken(id, titel, volgnummer, niveau, vak:vakken(naam, slug)), vraag:vragen(volgnummer, vraag), melder:profiles(full_name)",
     )
     .order("afgehandeld", { ascending: true })
     .order("aangemaakt_op", { ascending: false });
@@ -146,6 +146,26 @@ export default async function MeldingenPage() {
                     </button>
                   </form>
                 </div>
+
+                {/* Had het kind de vraag eigenlijk juist? Dan met één klik
+                    alsnog juist rekenen, en de ster erbij als het hoofdstuk
+                    nu helemaal juist staat. Zie rekenTochJuist. */}
+                {!m.afgehandeld && m.vraag_id && m.profile_id && (
+                  <form action={rekenTochJuist} className="mt-3">
+                    <input type="hidden" name="id" value={m.id} />
+                    <button
+                      type="submit"
+                      className="rounded-md border border-forest/40 px-3 py-1.5 text-sm text-forest-dark hover:border-forest"
+                    >
+                      Antwoord toch juist rekenen
+                    </button>
+                    <span className="ml-2 text-xs text-ink-dim">
+                      Zet het laatste antwoord van de kinderen van deze ouder op
+                      deze vraag op juist, en geeft alsnog de ster als het hele
+                      hoofdstuk nu juist is.
+                    </span>
+                  </form>
+                )}
 
                 {/* Afvinken staat apart, want er hoort een veld bij: wie
                     ingelogd meldde, krijgt jouw woordje bovenaan het platform
