@@ -65,6 +65,21 @@ export function Aanvraagformulier({
           <input type="text" name="adres" tabIndex={-1} autoComplete="off" />
         </label>
       </div>
+      {/*
+        Een tweede lokvakje. Het eerste hierboven staat op "verborgen", en
+        sommige robots slaan zulke vakjes over. Dit staat er gewoon, maar ver
+        buiten beeld, zodat zo'n robot het toch invult. Wie het invult, komt
+        bij Spam in het ouderportaal, niet in de vuilbak: zie lib/spamcheck.ts.
+      */}
+      <div
+        aria-hidden
+        style={{ position: "absolute", left: "-10000px", width: 1, height: 1, overflow: "hidden" }}
+      >
+        <label>
+          Je website (laat leeg)
+          <input type="text" name="website" tabIndex={-1} autoComplete="off" />
+        </label>
+      </div>
       {verborgen.map((veld) => (
         <input
           key={veld.naam}

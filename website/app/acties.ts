@@ -2,6 +2,7 @@
 
 import { redirect } from "next/navigation";
 import { bewaarAanvraag } from "@/lib/aanvragen-db";
+import { SPAM_REDEN, SPAM_VOORVOEGSEL, spamRedenen } from "@/lib/spamcheck";
 
 /*
   Wat er gebeurt als iemand een formulier van de website verstuurt.
@@ -22,7 +23,13 @@ import { bewaarAanvraag } from "@/lib/aanvragen-db";
   belanden. "Soort aanvraag" is het verborgen vakje dat al op het formulier
   stond en dat zegt waarover het gaat ("Terugbelverzoek", "Professional").
 */
-const NIET_BEWAREN = new Set(["adres", "onderwerp", "soort", "Soort aanvraag"]);
+const NIET_BEWAREN = new Set([
+  "adres",
+  "website",
+  "onderwerp",
+  "soort",
+  "Soort aanvraag",
+]);
 
 const MAX_LENGTE = 2000;
 
@@ -52,7 +59,21 @@ export async function aanvraagVersturen(formulier: FormData) {
 
   if (!Object.keys(gegevens).length) redirect("/bedankt?fout=1");
 
-  const { fout } = await bewaarAanvraag({ onderwerp, soort, gegevens });
+  /*
+    Lijkt het op reclame van een robot (zie lib/spamcheck.ts), dan bewaren we
+    het toch, maar als "spam: ..." met de reden erbij. Het ouderportaal zet
+    het op het tabblad Spam, weg van de echte aanvragen. Zo gaat er nooit
+    een echte aanvraag verloren, en krijgt de bezoeker gewoon /bedankt.
+  */
+  const redenen = spamRedenen(gegevens, String(formulier.get("website") ?? ""));
+  const isSpam = redenen.length > 0;
+  if (isSpam) gegevens[SPAM_REDEN] = redenen.join("; ");
+
+  const { fout } = await bewaarAanvraag({
+    onderwerp,
+    soort: isSpam ? (SPAM_VOORVOEGSEL + soort).slice(0, 40) : soort,
+    gegevens,
+  });
   if (fout) redirect("/bedankt?fout=1");
 
   redirect("/bedankt");

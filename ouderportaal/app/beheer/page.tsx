@@ -41,7 +41,9 @@ export default async function BeheerPage({
     beheerDb
       .from("aanvragen")
       .select("id", { count: "exact", head: true })
-      .eq("gezien", false),
+      .eq("gezien", false)
+      /* Reclame van robots telt niet mee; zie lib/aanvraaglijsten.ts. */
+      .not("soort", "like", "spam:%"),
     beheerDb
       .from("kijker_posts")
       .select("id", { count: "exact", head: true })

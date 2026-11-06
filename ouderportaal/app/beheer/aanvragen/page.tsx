@@ -7,10 +7,17 @@ import {
   verwijderAanvraag,
   zetAfgehandeld,
   zetArchief,
+  zetSpam,
   zetStap,
 } from "./actions";
 import { Kopieer } from "./Kopieer";
-import { MET_DE_HAND, vindWaarde, type Aanvraag } from "@/lib/aanvraaglijsten";
+import {
+  MET_DE_HAND,
+  SPAM_REDEN,
+  isSpam,
+  vindWaarde,
+  type Aanvraag,
+} from "@/lib/aanvraaglijsten";
 import { STAPPEN } from "@/lib/aanvraagstappen";
 
 /* Aanvragen komen binnen terwijl je kijkt, dus niets bewaren. */
@@ -89,10 +96,16 @@ const TABS = [
   { sleutel: "", naam: "Te behandelen" },
   { sleutel: "behandeld", naam: "Behandeld" },
   { sleutel: "archief", naam: "Archief" },
+  /* Kim op 6 november 2026: "er komen veel van deze irritante spam dingen
+     in de verzoeken". Wat de website als reclame van een robot herkent,
+     staat hier apart; zie website/lib/spamcheck.ts. */
+  { sleutel: "spam", naam: "Spam" },
 ] as const;
 type Tab = (typeof TABS)[number]["sleutel"];
 
 function opTab(a: Aanvraag, tab: Tab) {
+  if (tab === "spam") return isSpam(a);
+  if (isSpam(a)) return false;
   if (tab === "archief") return Boolean(a.gearchiveerd);
   if (a.gearchiveerd) return false;
   return tab === "behandeld" ? a.afgehandeld : !a.afgehandeld;
@@ -238,11 +251,11 @@ export default async function AanvragenBeheer({
   ];
 
   const telTab = (t: Tab) => alles.filter((a) => opTab(a, t)).length;
-  const nieuw = alles.filter((a) => !a.gezien).length;
+  const nieuw = alles.filter((a) => !a.gezien && !isSpam(a)).length;
   const gefilterd = Boolean(gekozen || stap);
   /* Dubbels zoeken we in de hele lijst: twee aanvragen van dezelfde persoon
      blijven dubbel, ook al staan ze op een ander tabblad. */
-  const dubbels = zoekDubbels(alles);
+  const dubbels = zoekDubbels(alles.filter((a) => !isSpam(a)));
   /* De mailadressen van wat er nu in de lijst staat, elk één keer en in de
      volgorde waarin ze binnenkwamen. Een vakje met een vraag over mail kan ook
      iets anders bevatten dan een adres, dus we houden enkel wat op een adres
@@ -459,6 +472,8 @@ export default async function AanvragenBeheer({
               "Niets meer te behandelen."
             ) : tab === "behandeld" ? (
               "Hier komt wat je op behandeld zet."
+            ) : tab === "spam" ? (
+              "Geen spam. Wat de website als reclame van een robot herkent, komt hier terecht in plaats van bij Te behandelen."
             ) : (
               "Het archief is nog leeg."
             )}
@@ -519,8 +534,16 @@ export default async function AanvragenBeheer({
                   </div>
                 </div>
 
+                {isSpam(aanvraag) && aanvraag.gegevens[SPAM_REDEN] && (
+                  <p className="mt-2 rounded-md bg-danger/10 px-3 py-2 text-sm text-ink">
+                    Waarom bij spam: {aanvraag.gegevens[SPAM_REDEN]}
+                  </p>
+                )}
+
                 <dl className="mt-3 grid gap-x-6 gap-y-1.5 sm:grid-cols-2">
-                  {Object.entries(aanvraag.gegevens).map(([vraag, antwoord]) => (
+                  {Object.entries(aanvraag.gegevens)
+                    .filter(([vraag]) => vraag !== SPAM_REDEN)
+                    .map(([vraag, antwoord]) => (
                     <div key={vraag}>
                       <dt className="text-xs text-ink-dim">{vraag}</dt>
                       <dd className="text-sm text-ink">{antwoord}</dd>
@@ -530,7 +553,7 @@ export default async function AanvragenBeheer({
 
                 {/* Wat er al gebeurde. Een knop die aan staat is donkergroen
                     met een vinkje; nog eens klikken zet hem uit. */}
-                {statusKlaar && (
+                {statusKlaar && !isSpam(aanvraag) && (
                   <div className="mt-4 flex flex-wrap gap-2">
                     {STAPPEN.map((s) => {
                       const aan = stappen.includes(s.sleutel);
@@ -559,7 +582,7 @@ export default async function AanvragenBeheer({
                 )}
 
                 <div className="mt-3 flex flex-wrap gap-2 border-t border-border/60 pt-3">
-                  {!aanvraag.gearchiveerd && (
+                  {!aanvraag.gearchiveerd && !isSpam(aanvraag) && (
                     <form action={zetAfgehandeld}>
                       <input type="hidden" name="id" value={aanvraag.id} />
                       <input
@@ -582,7 +605,7 @@ export default async function AanvragenBeheer({
                       </button>
                     </form>
                   )}
-                  {statusKlaar && (
+                  {statusKlaar && !isSpam(aanvraag) && (
                     <form action={zetArchief}>
                       <input type="hidden" name="id" value={aanvraag.id} />
                       <input
@@ -601,6 +624,27 @@ export default async function AanvragenBeheer({
                       </button>
                     </form>
                   )}
+                  <form action={zetSpam}>
+                    <input type="hidden" name="id" value={aanvraag.id} />
+                    <input
+                      type="hidden"
+                      name="spam"
+                      value={isSpam(aanvraag) ? "nee" : "ja"}
+                    />
+                    <input type="hidden" name="terug" value={hier} />
+                    <button
+                      type="submit"
+                      className={`rounded-md px-3 py-1.5 text-sm ${
+                        isSpam(aanvraag)
+                          ? "bg-forest font-medium text-white hover:bg-forest-dark"
+                          : "border border-border text-ink-dim hover:border-forest hover:text-forest-dark"
+                      }`}
+                    >
+                      {isSpam(aanvraag)
+                        ? "Geen spam, terugzetten"
+                        : "Is spam"}
+                    </button>
+                  </form>
                   <form action={verwijderAanvraag}>
                     <input type="hidden" name="id" value={aanvraag.id} />
                     <input type="hidden" name="terug" value={hier} />

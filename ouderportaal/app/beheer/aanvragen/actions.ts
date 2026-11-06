@@ -6,7 +6,7 @@ import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { isStap } from "@/lib/aanvraagstappen";
 import { zetStapVoorGezin } from "@/lib/aanvraagstap-bewaren";
-import { MET_DE_HAND } from "@/lib/aanvraaglijsten";
+import { MET_DE_HAND, SPAM_REDEN, SPAM_VOORVOEGSEL } from "@/lib/aanvraaglijsten";
 
 /*
   Het beheer van de aanvragen die via de website binnenkomen. Ze staan in
@@ -115,6 +115,50 @@ export async function archiveerBehandeld(formData: FormData) {
   const { error } = await vraag;
   if (error) terug(formData, zonderSql(error.message), true);
   terug(formData, "De behandelde aanvragen staan in het archief.");
+}
+
+/*
+  Bij spam zetten, of terug bij de echte aanvragen. Er wordt niets gewist:
+  enkel het voorvoegsel "spam: " in de soort gaat erbij of eraf, plus de zin
+  die zegt waarom. Zie lib/aanvraaglijsten.ts.
+*/
+export async function zetSpam(formData: FormData) {
+  const db = await admin();
+  const id = String(formData.get("id") || "");
+  const spam = String(formData.get("spam") || "") === "ja";
+
+  const { data, error: leesFout } = await db
+    .from("aanvragen")
+    .select("soort, gegevens")
+    .eq("id", id)
+    .single();
+  if (leesFout || !data) terug(formData, leesFout?.message ?? "Niet gevonden.", true);
+
+  const gewoon = data.soort.startsWith(SPAM_VOORVOEGSEL)
+    ? data.soort.slice(SPAM_VOORVOEGSEL.length)
+    : data.soort;
+  const gegevens = { ...(data.gegevens as Record<string, string>) };
+  if (spam) {
+    gegevens[SPAM_REDEN] ??= "zelf bij spam gezet";
+  } else {
+    delete gegevens[SPAM_REDEN];
+  }
+
+  const { error } = await db
+    .from("aanvragen")
+    .update({
+      soort: spam ? (SPAM_VOORVOEGSEL + gewoon).slice(0, 40) : gewoon,
+      gegevens,
+      gezien: true,
+    })
+    .eq("id", id);
+  if (error) terug(formData, error.message, true);
+  terug(
+    formData,
+    spam
+      ? "Bij spam gezet. Je vindt het op het tabblad Spam."
+      : "Teruggezet bij de echte aanvragen.",
+  );
 }
 
 export async function markeerAllesGezien(formData: FormData) {

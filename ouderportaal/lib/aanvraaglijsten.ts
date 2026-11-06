@@ -128,6 +128,19 @@ export function kinderenVan(aanvraag: Aanvraag): Rij[] {
   }));
 }
 
+/*
+  Reclame van robots. De website (website/lib/spamcheck.ts) bewaart een
+  verdacht formulier met als soort "spam: <gewone soort>" en de reden in
+  de gegevens. Het staat op het tabblad Spam van de aanvragen en nooit op
+  een lijst. Terugzetten haalt het voorvoegsel er gewoon weer af.
+*/
+export const SPAM_VOORVOEGSEL = "spam: ";
+export const SPAM_REDEN = "Waarom bij spam";
+
+export function isSpam(aanvraag: Pick<Aanvraag, "soort">) {
+  return aanvraag.soort.startsWith(SPAM_VOORVOEGSEL);
+}
+
 /* Kinderen die Kim zelf op een lijst zette, zonder dat er een formulier
    was. Ze staan ook in de tabel aanvragen, met deze soort. */
 export const MET_DE_HAND = "met de hand";
@@ -205,6 +218,8 @@ export function heeftAfgezegd(rij: Rij, dag: string) {
 export function maakGroepen(aanvragen: Aanvraag[]): Groep[] {
   const perNaam = new Map<string, Aanvraag[]>();
   for (const aanvraag of aanvragen) {
+    /* Een robot vinkt alles aan; dat hoort op geen enkele lijst. */
+    if (isSpam(aanvraag)) continue;
     for (const [vraag, antwoord] of Object.entries(aanvraag.gegevens)) {
       if (!isKeuze(vraag, antwoord)) continue;
       perNaam.set(vraag, [...(perNaam.get(vraag) ?? []), aanvraag]);

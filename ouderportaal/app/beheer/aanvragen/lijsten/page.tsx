@@ -6,6 +6,7 @@ import { Kopieer } from "../Kopieer";
 import {
   KOLOMMEN,
   MET_DE_HAND,
+  isSpam,
   adressenVan,
   afzenderVan,
   alsTabel,
@@ -68,7 +69,9 @@ export default async function LijstenBeheer({
   }
   const isBetaald = (a: Aanvraag) => (a.stappen ?? []).includes("betaald");
 
-  const alles = (data ?? []) as unknown as Aanvraag[];
+  const alles = ((data ?? []) as unknown as Aanvraag[]).filter(
+    (a) => !isSpam(a),
+  );
   const onderwerpen = [...new Set(alles.map((a) => a.onderwerp))].sort((a, b) =>
     a.localeCompare(b, "nl"),
   );
