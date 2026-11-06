@@ -92,6 +92,15 @@ export const vaknoten: Record<string, string> = {
     "andere richting, dan zit de statistiek die jij nodig hebt gewoon in " +
     "wiskunde gevorderd.",
 
+  "beyond-doorstroom/wiskunde-gevorderd":
+    "Dit vak is voor economie-wiskunde, Latijn-wiskunde-wetenschappen en " +
+    "wetenschappen-wiskunde. Het dekt de drie wiskunde-examens van die " +
+    "richtingen samen. Examen G1 (analyse) zit in de eerste tien thema's, van " +
+    "machten en logaritmen tot rijen. Examen G2 zit in de integralen, de " +
+    "complexe getallen, de telproblemen, het kansrekenen en de statistiek. " +
+    "Examen G3 zit in de matrices, de stelsels, de groepen, de ruimtemeetkunde " +
+    "en het programmeren.",
+
   "beyond-doorstroom/fysica":
     "Dit vak is er voor de richtingen die hun wetenschappen in drie aparte " +
     "examens afleggen: biologie, chemie en fysica. Volg je een richting met één " +
