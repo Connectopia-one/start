@@ -169,6 +169,12 @@ export function KinderenLijst({ kinderen }: { kinderen: Kind[] }) {
                 >
                   Voortgang bekijken &rarr;
                 </Link>
+                <Link
+                  href={`/account/kinderen/${k.id}/fouten`}
+                  className="text-forest-dark hover:underline"
+                >
+                  Nog te oefenen
+                </Link>
                 <button
                   type="button"
                   onClick={() => setZekerId(zekerId === k.id ? null : k.id)}

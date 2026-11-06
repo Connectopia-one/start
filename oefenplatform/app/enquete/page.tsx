@@ -186,9 +186,9 @@ export default async function EnquetePage({
                       {v.hulp && <span className="text-xs text-ink-dim">{v.hulp}</span>}
                       <textarea
                         name={v.sleutel}
-                        rows={v.minimum ? 4 : 2}
+                        rows={v.minimum !== undefined ? 4 : 2}
                         required={v.verplicht}
-                        minLength={v.minimum}
+                        minLength={v.minimum || undefined}
                         maxLength={3000}
                         defaultValue={typeof eerder === "string" ? eerder : ""}
                         placeholder={v.voorbeeld}

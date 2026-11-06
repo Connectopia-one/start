@@ -53,9 +53,11 @@ export type EnqueteVraag =
 export type EnqueteDeel = { titel: string; vragen: EnqueteVraag[] };
 
 /** Bij de grote open vragen: "een paar zinnen". */
-/* Was 80. Linda (november 2026) kreeg steeds "te weinig tekens" en wist niet
-   meer wat ze nog moest schrijven. Een korte zin volstaat nu. */
-export const MINIMUM_OPEN = 30;
+/* Was 80, daarna 30. Linda (november 2026) kreeg steeds "te weinig tekens" en
+   wist niet meer wat ze nog moest schrijven. Er is geen minimum meer: het vak
+   blijft groot, zodat het uitnodigt om iets te schrijven, maar wat iemand
+   schrijft, is genoeg. */
+export const MINIMUM_OPEN = 0;
 
 export const ENQUETE: EnqueteDeel[] = [
   {

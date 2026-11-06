@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/Header";
 import { requireIngelogd } from "@/lib/auth";
+import { vereisOuderPin } from "@/lib/ouderpin";
 import { createClient } from "@/lib/supabase/server";
 import { genereerTip } from "@/lib/inzicht";
 import { alleRijen } from "@/lib/allerijen";
@@ -38,6 +39,7 @@ export default async function KindVoortgangPage({
 }) {
   const session = await requireIngelogd();
   const { kindId } = await params;
+  await vereisOuderPin(session.userId, `/account/kinderen/${kindId}`);
   const supabase = await createClient();
 
   const { data: kind } = await supabase
@@ -138,6 +140,13 @@ export default async function KindVoortgangPage({
             Nog geen vragen beantwoord.
           </p>
         )}
+
+        <Link
+          href={`/account/kinderen/${kindId}/fouten`}
+          className="mt-4 inline-flex items-center gap-1.5 rounded-full border border-border bg-surface px-3.5 py-1.5 text-sm text-forest-dark transition hover:border-forest"
+        >
+          <span aria-hidden>📋</span> Nog te oefenen: alle foute vragen op een rij
+        </Link>
 
         {tip && (
           <div className="mt-4 rounded-md bg-info/10 px-4 py-3 text-sm text-ink">

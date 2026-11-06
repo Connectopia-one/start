@@ -12,6 +12,8 @@ import { createClient } from "@/lib/supabase/server";
 import { gebruikPlusklasCode } from "@/app/betalen/actions";
 import { KinderenLijst } from "./KinderenLijst";
 import { HelpOnsStappen } from "@/components/HelpOnsStappen";
+import { vereisOuderPin } from "@/lib/ouderpin";
+import { PincodeInstelling } from "./PincodeInstelling";
 
 export default async function AccountPage({
   searchParams,
@@ -21,6 +23,8 @@ export default async function AccountPage({
   const session = await requireIngelogd();
   const { fout, gelukt } = await searchParams;
   const profile = session.profile;
+  // Staat er een pincode op dit account, dan eerst die (zie lib/ouderpin.ts).
+  const pinAan = await vereisOuderPin(session.userId, "/account");
   const volledigeToegang = heeftVolledigeToegang(profile);
 
   const supabase = await createClient();
@@ -46,6 +50,15 @@ export default async function AccountPage({
         {fout && (
           <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">
             {fout}
+          </p>
+        )}
+        {gelukt?.startsWith("pincode") && (
+          <p className="mt-4 rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">
+            {gelukt === "pincode"
+              ? "De pincode is bewaard."
+              : gelukt === "pincode-uit"
+                ? "De pincode staat uit."
+                : "De pincode is gewist. Je kan hieronder een nieuwe kiezen."}
           </p>
         )}
         {gelukt === "plusklas" && (
@@ -152,6 +165,8 @@ export default async function AccountPage({
             }))}
           />
         </div>
+
+        <PincodeInstelling aan={pinAan} />
 
         <Link
           href="/"

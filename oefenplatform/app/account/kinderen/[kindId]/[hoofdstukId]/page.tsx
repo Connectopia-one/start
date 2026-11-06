@@ -1,9 +1,10 @@
-import { schrijfInvul, schrijfKeuzes } from "@/lib/antwoord";
-import { schrijfVorm, type VraagType } from "@/lib/vraagvorm";
+import { type VraagType } from "@/lib/vraagvorm";
+import { formatAntwoord } from "@/lib/antwoordWeergave";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/Header";
 import { requireIngelogd } from "@/lib/auth";
+import { vereisOuderPin } from "@/lib/ouderpin";
 import { createClient } from "@/lib/supabase/server";
 import { VraagTekst } from "@/components/Figuren";
 import { Formule } from "@/components/Formule";
@@ -32,23 +33,6 @@ type VoortgangRij = {
   variant?: number | null;
 };
 
-function formatAntwoord(
-  vraag: Vraag,
-  waarde: number | string | boolean | number[] | string[] | null,
-): string {
-  if (waarde === null || waarde === undefined || waarde === "") return "—";
-  // Een tabel of een keuzelijst, zie lib/vraagvorm.ts.
-  const vorm = schrijfVorm(vraag, waarde);
-  if (vorm !== null) return vorm;
-  if (vraag.type === "meerkeuze") return schrijfKeuzes(vraag.opties, waarde);
-  if (vraag.type === "waarofniet") {
-    return waarde === true ? "Waar" : "Niet waar";
-  }
-  // Een invulvraag kan meer dan één juist antwoord hebben; we tonen het eerste.
-  if (Array.isArray(waarde)) return schrijfInvul(waarde);
-  return String(waarde);
-}
-
 export default async function HoofdstukAntwoordenPage({
   params,
 }: {
@@ -56,6 +40,7 @@ export default async function HoofdstukAntwoordenPage({
 }) {
   const session = await requireIngelogd();
   const { kindId, hoofdstukId } = await params;
+  await vereisOuderPin(session.userId, `/account/kinderen/${kindId}/${hoofdstukId}`);
   const supabase = await createClient();
 
   const { data: kind } = await supabase
