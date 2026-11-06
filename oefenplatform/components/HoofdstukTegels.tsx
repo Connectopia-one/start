@@ -138,7 +138,11 @@ export function HoofdstukTegels({
         key={h.id}
         href={`/vakken/${vakSlug}/${h.volgnummer}`}
         title={h.titel}
-        className={`relative flex min-h-[6rem] flex-col rounded-xl border bg-surface p-4 transition hover:shadow-sm ${
+        className={`relative flex min-h-[6rem] flex-col rounded-xl border p-4 transition hover:shadow-sm ${
+          /* Een hoofdstuk waar al aan gewerkt is, krijgt naast het vinkje
+             een heel lichte groene achtergrond (Kim, 6 november 2026). */
+          s?.gemaakt ? "bg-forest/5" : "bg-surface"
+        } ${
           uitdaging || pittig
             ? "border-amber/50 hover:border-amber"
             : s?.gemaakt
