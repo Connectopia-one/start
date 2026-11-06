@@ -108,6 +108,27 @@ export default async function NiveauVakPage({
           {niveau.emoji} {niveau.naam}
         </p>
 
+        {/* Febe vroeg in de enquête van november 2026 om een examen over het
+            hele vak, terwijl dat er al was: onderaan, onder alle hoofdstukken.
+            Daarom ook hier bovenaan, als korte wegwijzer. */}
+        {volledigeToegang && (
+          <p className="mt-3 flex flex-wrap gap-2 text-sm">
+            <Link
+              href={`/niveaus/${niveau.slug}/${vak.slug}/examen`}
+              className="rounded-full border border-border bg-surface px-3 py-1 text-forest-dark transition hover:border-forest"
+            >
+              <span aria-hidden>📝</span> Examen van 40 vragen over het hele vak
+            </Link>
+            <a
+              href={`/niveaus/${niveau.slug}/${vak.slug}/cursus`}
+              download
+              className="rounded-full border border-border bg-surface px-3 py-1 text-forest-dark transition hover:border-forest"
+            >
+              <span aria-hidden>📚</span> Hele cursus downloaden
+            </a>
+          </p>
+        )}
+
         {noot && (
           <p className="mt-5 rounded-xl border border-border bg-surface px-5 py-4 text-sm text-ink-dim">
             {noot}

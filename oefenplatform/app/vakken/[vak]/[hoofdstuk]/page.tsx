@@ -253,6 +253,7 @@ export default async function HoofdstukPage({
                     id: k.id,
                     naam: k.naam,
                     toonVoortgang: Boolean(k.toon_voortgang),
+                    toonKleuren: Boolean(k.toon_kleuren),
                   }))}
                   hoofdstukId={hoofdstuk.id}
                   taalvak={isTaalvak(vak.slug)}

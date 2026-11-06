@@ -67,7 +67,13 @@ import {
   De keuze hangt dus aan het kind, niet aan het platform. De ouder zet ze op
   /account; standaard staat ze uit.
 */
-type Kind = { id: string; naam: string; toonVoortgang?: boolean };
+type Kind = {
+  id: string;
+  naam: string;
+  toonVoortgang?: boolean;
+  /** Zachte kleur bij juist en fout na het nakijken. Standaard uit. */
+  toonKleuren?: boolean;
+};
 
 type Vraag = {
   id: string;
@@ -408,9 +414,12 @@ function VraagKaart({
   onAntwoord,
   onControleer,
   onOordeel,
+  kleuren = false,
 }: {
   vraag: Vraag;
   status: Status;
+  /** Na het nakijken het juiste antwoord zacht groen kleuren (instelling per kind). */
+  kleuren?: boolean;
   /** Vakjes in plaats van bolletjes: er kan meer dan één antwoord juist zijn. */
   alsVakjes: boolean;
   /** Buiten de taalvakken telt een enkelvoud ook als het meervoud gevraagd is. */
@@ -486,11 +495,23 @@ function VraagKaart({
             const aangeduid = alsVakjes
               ? gegevenKeuzes(gegeven).includes(i)
               : gegeven === i;
+            /* Kleuren bij de antwoorden, enkel als de ouder het aanzette
+               (Febe en Margot, enquête november 2026). Zacht: het juiste
+               antwoord lichtgroen, een fout gekozen antwoord lichtoranje. */
+            const nagekekenKleur =
+              kleuren && status.gecontroleerd
+                ? juisteKeuzes(vraag.antwoord).includes(i)
+                  ? "border-forest bg-forest/15"
+                  : aangeduid
+                    ? "border-amber bg-amber/10"
+                    : null
+                : null;
             return (
               <label
                 key={i}
                 className={`flex cursor-pointer items-center gap-2 rounded-md border px-3 py-2 text-sm ${
-                  aangeduid ? "border-forest bg-forest/5" : "border-border"
+                  nagekekenKleur ??
+                  (aangeduid ? "border-forest bg-forest/5" : "border-border")
                 }`}
               >
                 <input
@@ -525,9 +546,13 @@ function VraagKaart({
               disabled={status.gecontroleerd}
               onClick={() => onAntwoord(optie)}
               className={`rounded-md border px-4 py-2 text-sm ${
-                gegeven === optie
-                  ? "border-forest bg-forest/5 text-forest-dark"
-                  : "border-border text-ink"
+                kleuren && status.gecontroleerd && vraag.antwoord === optie
+                  ? "border-forest bg-forest/15 text-forest-dark"
+                  : kleuren && status.gecontroleerd && gegeven === optie
+                    ? "border-amber bg-amber/10 text-ink"
+                    : gegeven === optie
+                      ? "border-forest bg-forest/5 text-forest-dark"
+                      : "border-border text-ink"
               }`}
             >
               {optie ? "Waar" : "Niet waar"}
@@ -1638,6 +1663,9 @@ export function Quiz({
             }
             onControleer={controleerHuidige}
             onOordeel={(juist) => controleerHuidige(false, juist)}
+            kleuren={Boolean(
+              kinderen.find((k) => k.id === actiefKindId)?.toonKleuren,
+            )}
           />
         )}
 

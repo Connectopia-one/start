@@ -3,9 +3,19 @@
 import { useRef, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { maakKind, verwijderKind, zetVoortgangsbalk } from "./kinderen/actions";
+import {
+  maakKind,
+  verwijderKind,
+  zetKleuren,
+  zetVoortgangsbalk,
+} from "./kinderen/actions";
 
-type Kind = { id: string; naam: string; toonVoortgang: boolean };
+type Kind = {
+  id: string;
+  naam: string;
+  toonVoortgang: boolean;
+  toonKleuren?: boolean;
+};
 
 export function KinderenLijst({ kinderen }: { kinderen: Kind[] }) {
   const router = useRouter();
@@ -40,6 +50,24 @@ export function KinderenLijst({ kinderen }: { kinderen: Kind[] }) {
     if (antwoord.fout) {
       setFout(antwoord.fout);
       setBalken((b) => ({ ...b, [kind.id]: !aan }));
+      return;
+    }
+    router.refresh();
+  }
+
+  const [kleuren, setKleuren] = useState<Record<string, boolean>>({});
+  const kleurAan = (k: Kind) => kleuren[k.id] ?? Boolean(k.toonKleuren);
+
+  async function zetKleur(kind: Kind, aan: boolean) {
+    setKleuren((b) => ({ ...b, [kind.id]: aan }));
+    setFout(null);
+    const data = new FormData();
+    data.set("kind_id", kind.id);
+    data.set("aan", aan ? "ja" : "nee");
+    const antwoord = await zetKleuren(data);
+    if (antwoord.fout) {
+      setFout(antwoord.fout);
+      setKleuren((b) => ({ ...b, [kind.id]: !aan }));
       return;
     }
     router.refresh();
@@ -108,6 +136,23 @@ export function KinderenLijst({ kinderen }: { kinderen: Kind[] }) {
                   Dan ziet {k.naam} hoeveel vragen er zijn en hoeveel er al
                   nagekeken zijn. Sommige kinderen hebben daar rust bij, andere
                   net niet.
+                </span>
+              </span>
+            </label>
+
+            <label className="mt-2 flex items-start gap-2 text-sm text-ink-dim">
+              <input
+                type="checkbox"
+                checked={kleurAan(k)}
+                onChange={(e) => zetKleur(k, e.target.checked)}
+                className="mt-0.5 h-4 w-4 shrink-0 rounded border-border text-forest focus:ring-forest"
+              />
+              <span>
+                Toon een zachte kleur bij juist en fout
+                <span className="block text-xs">
+                  Na het nakijken kleurt het juiste antwoord lichtgroen en een
+                  fout gekozen antwoord lichtoranje. Staat standaard uit, zodat
+                  het scherm rustig blijft.
                 </span>
               </span>
             </label>

@@ -137,3 +137,30 @@ export async function zetVoortgangsbalk(
   revalidatePath("/account");
   return {};
 }
+
+/*
+  Zachte kleuren bij de antwoorden, aan of uit per kind (supabase/kleuren-bij-antwoorden.sql).
+
+  Febe en Margot vroegen in de enquête van november 2026 om groen bij een juist
+  antwoord. Andere kinderen hebben net rust bij een scherm zonder kleur. Daarom,
+  net als de voortgangsbalk, een keuze van de ouder die standaard uit staat.
+*/
+export async function zetKleuren(
+  formData: FormData,
+): Promise<{ fout?: string }> {
+  const session = await requireIngelogd();
+  const kindId = String(formData.get("kind_id") || "");
+  const aan = String(formData.get("aan") || "") === "ja";
+  if (!kindId) return { fout: "Geen kind gekozen." };
+
+  const admin = createAdminClient();
+  const { error } = await admin
+    .from("kinderen")
+    .update({ toon_kleuren: aan })
+    .eq("id", kindId)
+    .eq("profile_id", session.userId);
+  if (error) return { fout: "Kon dit niet bewaren, probeer opnieuw." };
+
+  revalidatePath("/account");
+  return {};
+}

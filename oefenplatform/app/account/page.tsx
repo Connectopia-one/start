@@ -148,6 +148,7 @@ export default async function AccountPage({
               id: k.id,
               naam: k.naam,
               toonVoortgang: Boolean(k.toon_voortgang),
+                    toonKleuren: Boolean(k.toon_kleuren),
             }))}
           />
         </div>
