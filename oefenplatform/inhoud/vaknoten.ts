@@ -99,7 +99,10 @@ export const vaknoten: Record<string, string> = {
     "machten en logaritmen tot rijen. Examen G2 zit in de integralen, de " +
     "complexe getallen, de telproblemen, het kansrekenen en de statistiek. " +
     "Examen G3 zit in de matrices, de stelsels, de groepen, de ruimtemeetkunde " +
-    "en het programmeren.",
+    "en het programmeren. Volg je een domeingebonden richting zoals " +
+    "welzijnswetenschappen of bedrijfswetenschappen, dan is je eigen wiskunde " +
+    "nog in de maak. Voor welzijnswetenschappen staat het vak " +
+    "natuurwetenschappen welzijnswetenschappen er wel al.",
 
   "beyond-doorstroom/fysica":
     "Dit vak is er voor de richtingen die hun wetenschappen in drie aparte " +
