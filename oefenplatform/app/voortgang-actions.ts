@@ -3,7 +3,7 @@
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import type { SupabaseClient } from "@supabase/supabase-js";
-import { LEGE_TELLING, type Telling } from "@/lib/badges";
+import { LEGE_TELLING, OEFEN_DREMPEL, type Telling } from "@/lib/badges";
 import { alleRijen } from "@/lib/allerijen";
 
 /** Geeft de admin client terug enkel als de ingelogde gebruiker dit kind mag beheren, anders null. */
@@ -310,9 +310,37 @@ export async function haalTelling(kindId: string): Promise<Telling> {
     perVak.set(sleutel, (perVak.get(sleutel) ?? 0) + 1);
   }
 
+  /* Voor de inzetbadges: per hoofdstuk hoeveel verschillende vragen dit kind
+     al beantwoordde, juist of fout. Enkel twee kleine kolommen, blok per blok
+     (lib/allerijen.ts). Lukt het niet, dan blijft het op nul staan. */
+  const vragenPerHoofdstuk = new Map<string, Set<string>>();
+  try {
+    const rijen = await alleRijen<{ hoofdstuk_id: string | null; vraag_id: string }>(
+      (van, tot) =>
+        admin
+          .from("voortgang")
+          .select("hoofdstuk_id, vraag_id")
+          .eq("kind_id", kindId)
+          .order("id")
+          .range(van, tot),
+    );
+    for (const r of rijen) {
+      if (!r.hoofdstuk_id) continue;
+      let set = vragenPerHoofdstuk.get(r.hoofdstuk_id);
+      if (!set) vragenPerHoofdstuk.set(r.hoofdstuk_id, (set = new Set()));
+      set.add(r.vraag_id);
+    }
+  } catch {
+    // nul is goed genoeg
+  }
+  const hoofdstukkenGeoefend = [...vragenPerHoofdstuk.values()].filter(
+    (set) => set.size >= OEFEN_DREMPEL,
+  ).length;
+
   return {
     gemaakt: gemaakt.count ?? 0,
     juist: juist.count ?? 0,
+    hoofdstukkenGeoefend,
     sterren: sterren.length,
     vakkenMetSter: new Set(sterren.map((s) => s.hoofdstukken.vak_id)).size,
     basisSter: sterren.some((s) => s.hoofdstukken.niveau === "basis"),

@@ -17,6 +17,12 @@ export type Telling = {
   gemaakt: number;
   /** Aantal juist beantwoorde vragen. */
   juist: number;
+  /**
+   * In hoeveel hoofdstukken het kind al echt geoefend heeft, juist of fout:
+   * minstens OEFEN_DREMPEL verschillende vragen beantwoord. Voor de
+   * inzetbadges, zie hieronder.
+   */
+  hoofdstukkenGeoefend: number;
   /** Aantal hoofdstukken dat ooit volledig juist afgewerkt werd. */
   sterren: number;
   /** In hoeveel verschillende vakken er al een hoofdstuk foutloos afgewerkt is. */
@@ -32,6 +38,9 @@ export type Telling = {
   examensFeilloos: number;
 };
 
+/** Vanaf zoveel verschillende vragen telt een hoofdstuk als geoefend. */
+export const OEFEN_DREMPEL = 10;
+
 export type Badge = {
   sleutel: string;
   emoji: string;
@@ -45,6 +54,7 @@ export type Badge = {
 export const LEGE_TELLING: Telling = {
   gemaakt: 0,
   juist: 0,
+  hoofdstukkenGeoefend: 0,
   sterren: 0,
   vakkenMetSter: 0,
   basisSter: false,
@@ -62,6 +72,51 @@ export function badges(t: Telling): Badge[] {
       uitleg: "Je eerste vraag beantwoord.",
       nu: t.gemaakt,
       doel: 1,
+    },
+    /* Inzetbadges: ze tellen hoe vaak een kind de moed had om een hoofdstuk
+       aan te pakken, niet hoeveel het juist had. Kim, november 2026, na de
+       enquêtes waarin ouders vertelden over faalangst: "fout of goed, maar als
+       een soort goed bezig". Een kind dat veel fouten maakt en doorzet,
+       verdient ze net zo goed. */
+    {
+      sleutel: "goed-bezig",
+      emoji: "💪",
+      naam: "Goed bezig!",
+      uitleg: "In 3 hoofdstukken geoefend. Juist of fout, je hebt het geprobeerd.",
+      nu: t.hoofdstukkenGeoefend,
+      doel: 3,
+    },
+    {
+      sleutel: "goed-op-weg",
+      emoji: "🚀",
+      naam: "Al goed op weg!",
+      uitleg: "In 10 hoofdstukken geoefend.",
+      nu: t.hoofdstukkenGeoefend,
+      doel: 10,
+    },
+    {
+      sleutel: "super-veel-geleerd",
+      emoji: "🧠",
+      naam: "Al super veel geleerd!",
+      uitleg: "In 15 hoofdstukken geoefend.",
+      nu: t.hoofdstukkenGeoefend,
+      doel: 15,
+    },
+    {
+      sleutel: "doorzetter",
+      emoji: "🔥",
+      naam: "Echte doorzetter!",
+      uitleg: "In 25 hoofdstukken geoefend.",
+      nu: t.hoofdstukkenGeoefend,
+      doel: 25,
+    },
+    {
+      sleutel: "oefenreus",
+      emoji: "🦒",
+      naam: "Oefenreus!",
+      uitleg: "In 50 hoofdstukken geoefend. Wat een werk!",
+      nu: t.hoofdstukkenGeoefend,
+      doel: 50,
     },
     {
       sleutel: "vijfentwintig",
