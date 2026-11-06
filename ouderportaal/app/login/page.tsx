@@ -60,6 +60,19 @@ export default async function LoginPage({
         <p className="mt-6 text-center text-xs text-ink-dim">
           Nog geen account? Neem contact op met Connectopia.
         </p>
+
+        {/* Katia, Ilse en Febe probeerden in november 2026 hier in te loggen
+            voor het oefenplatform. Dat heeft een eigen account en een eigen
+            inlogpagina. */}
+        <a
+          href="https://oefenplatform.connectopia.one/login"
+          className="mt-4 block rounded-xl border border-border bg-surface px-4 py-3 text-center text-sm text-ink-dim transition hover:border-forest hover:text-ink"
+        >
+          Zoek je het oefenplatform? Dat heeft een eigen login.{" "}
+          <span className="font-medium text-forest">
+            Inloggen op het oefenplatform &rarr;
+          </span>
+        </a>
       </div>
     </main>
   );

@@ -59,6 +59,14 @@ export default function OefenplatformPagina() {
               {oefenplatform.accountKnop.tekst}
             </NaarLink>
           </div>
+          <p className="mt-3 text-[15px]">
+            <NaarLink
+              href={oefenplatform.inlogKnop.href}
+              className="font-semibold text-green underline underline-offset-4"
+            >
+              {oefenplatform.inlogKnop.tekst}
+            </NaarLink>
+          </p>
           <p className="mt-3 max-w-[68ch] text-[15px] text-ink-dim">
             {oefenplatform.gratisZin}
           </p>

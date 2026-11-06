@@ -164,3 +164,29 @@ export async function zetKleuren(
   revalidatePath("/account");
   return {};
 }
+
+/*
+  Een kind hernoemen, bv. bij een tikfout (Linda, enquête november 2026: "Ik
+  maakte per ongeluk een dubbel account aan voor mijn zoontje. Het is jammer dat
+  ik dat niet zelf kon wijzigen."). De voortgang blijft gewoon bij het kind.
+*/
+export async function hernoemKind(
+  formData: FormData,
+): Promise<{ fout?: string }> {
+  const session = await requireIngelogd();
+  const kindId = String(formData.get("kind_id") || "");
+  const naam = String(formData.get("naam") || "").trim().slice(0, 60);
+  if (!kindId) return { fout: "Geen kind gekozen." };
+  if (!naam) return { fout: "Geef een naam op." };
+
+  const admin = createAdminClient();
+  const { error } = await admin
+    .from("kinderen")
+    .update({ naam })
+    .eq("id", kindId)
+    .eq("profile_id", session.userId);
+  if (error) return { fout: "Kon de naam niet aanpassen, probeer opnieuw." };
+
+  revalidatePath("/account");
+  return {};
+}

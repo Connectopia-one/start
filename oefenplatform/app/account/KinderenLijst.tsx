@@ -4,6 +4,7 @@ import { useRef, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import {
+  hernoemKind,
   maakKind,
   verwijderKind,
   zetKleuren,
@@ -73,6 +74,22 @@ export function KinderenLijst({ kinderen }: { kinderen: Kind[] }) {
     router.refresh();
   }
 
+  const [hernoemId, setHernoemId] = useState<string | null>(null);
+
+  async function hernoem(kind: Kind, naam: string) {
+    setFout(null);
+    const data = new FormData();
+    data.set("kind_id", kind.id);
+    data.set("naam", naam);
+    const antwoord = await hernoemKind(data);
+    if (antwoord.fout) {
+      setFout(antwoord.fout);
+      return;
+    }
+    setHernoemId(null);
+    router.refresh();
+  }
+
   async function wis(kindId: string) {
     setBezig(true);
     setFout(null);
@@ -105,8 +122,47 @@ export function KinderenLijst({ kinderen }: { kinderen: Kind[] }) {
             className="rounded-lg border border-border px-3 py-2 text-sm"
           >
             <div className="flex flex-wrap items-center justify-between gap-2">
-              <span className="text-ink">{k.naam}</span>
+              {hernoemId === k.id ? (
+                <form
+                  onSubmit={(e) => {
+                    e.preventDefault();
+                    const naam = new FormData(e.currentTarget).get("naam");
+                    hernoem(k, String(naam || ""));
+                  }}
+                  className="flex flex-wrap items-center gap-2"
+                >
+                  <input
+                    name="naam"
+                    defaultValue={k.naam}
+                    maxLength={60}
+                    required
+                    autoFocus
+                    className="rounded-md border border-border bg-paper px-2 py-1 text-sm text-ink outline-none focus:border-forest"
+                  />
+                  <button type="submit" className="text-forest-dark hover:underline">
+                    Bewaren
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setHernoemId(null)}
+                    className="text-ink-dim hover:text-ink"
+                  >
+                    Annuleren
+                  </button>
+                </form>
+              ) : (
+                <span className="text-ink">{k.naam}</span>
+              )}
               <div className="flex items-center gap-3">
+                {hernoemId !== k.id && (
+                  <button
+                    type="button"
+                    onClick={() => setHernoemId(k.id)}
+                    className="text-ink-dim hover:text-ink"
+                  >
+                    Naam aanpassen
+                  </button>
+                )}
                 <Link
                   href={`/account/kinderen/${k.id}`}
                   className="text-forest-dark hover:underline"

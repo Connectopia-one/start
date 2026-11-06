@@ -53,7 +53,9 @@ export type EnqueteVraag =
 export type EnqueteDeel = { titel: string; vragen: EnqueteVraag[] };
 
 /** Bij de grote open vragen: "een paar zinnen". */
-export const MINIMUM_OPEN = 80;
+/* Was 80. Linda (november 2026) kreeg steeds "te weinig tekens" en wist niet
+   meer wat ze nog moest schrijven. Een korte zin volstaat nu. */
+export const MINIMUM_OPEN = 30;
 
 export const ENQUETE: EnqueteDeel[] = [
   {
@@ -324,7 +326,7 @@ export function leesEnquete(formData: FormData): {
     if (v.verplicht && !waarde) {
       ontbreekt.push(v.vraag);
     } else if (v.soort === "open" && v.minimum && waarde.length < v.minimum) {
-      ontbreekt.push(`${v.vraag} (schrijf er een paar zinnen bij)`);
+      ontbreekt.push(`${v.vraag} (schrijf er een korte zin bij)`);
     }
   }
 

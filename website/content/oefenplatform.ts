@@ -44,6 +44,12 @@ export const oefenplatform = {
     tekst: "Een account aanmaken",
     href: "https://oefenplatform.connectopia.one/registreren",
   },
+  /* Voor wie al een account heeft. Katia, Ilse en Febe zochten in november
+     2026 waar ze moesten inloggen en kwamen op het ouderportaal terecht. */
+  inlogKnop: {
+    tekst: "Al een account? Inloggen op het oefenplatform",
+    href: "https://oefenplatform.connectopia.one/login",
+  },
   gratisZin:
     "Bij bijna elk vak staat een hoofdstuk open om uit te proberen, zonder account en zonder je gegevens achter te laten.",
 
