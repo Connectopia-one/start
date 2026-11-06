@@ -285,7 +285,7 @@ export function Dagvraag() {
                   ? "bg-info/10 text-ink"
                   : correct
                     ? "bg-forest/10 text-forest-dark"
-                    : "bg-danger/10 text-danger"
+                    : "bg-amber/10 text-ink"
               }`}
             >
               <p className="font-medium">
@@ -293,7 +293,7 @@ export function Dagvraag() {
                   ? "Je deed deze vraag vandaag al."
                   : correct
                     ? "Juist!"
-                    : "Niet helemaal juist."}
+                    : "Nog niet helemaal. Kijk mee wat het wel is:"}
               </p>
               {!correct && (
                 <p className="mt-1 text-ink">
