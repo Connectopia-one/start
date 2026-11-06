@@ -8,6 +8,7 @@ import {
   verwijderVak,
   maakHoofdstuk,
   hernoemHoofdstuk,
+  bewaarKorteUitleg,
   wisselGratis,
   zetNiveauGratis,
   verwijderHoofdstuk,
@@ -17,6 +18,7 @@ import {
 } from "../actions";
 import { NIVEAUS, vindNiveau, heeftProefhoofdstuk } from "@/lib/niveaus";
 import { sorteerHoofdstukken } from "@/lib/hoofdstukvolgorde";
+import { haalKorteUitleg } from "@/lib/korteUitleg";
 
 /*
   Beheer → Vakken, in drie stappen.
@@ -141,6 +143,10 @@ export default async function BeheerVakkenPage({
         vak.hoofdstukken.filter((h) => h.niveau === niveau!.slug),
       )
     : [];
+  const uitlegHier = await haalKorteUitleg(
+    supabase,
+    hoofdstukkenHier.map((h) => h.id),
+  );
   const gratisHier = hoofdstukkenHier.filter((h) => h.gratis).length;
   const allesGratis =
     hoofdstukkenHier.length > 0 && gratisHier === hoofdstukkenHier.length;
@@ -504,6 +510,33 @@ export default async function BeheerVakkenPage({
                         Het webadres blijft hetzelfde. Let op: een bulk-import
                         zoekt een hoofdstuk op zijn categorie en zijn titel, dus
                         importeer eerst en hernoem daarna.
+                      </p>
+                    </form>
+                  </details>
+                  <details className="mt-1">
+                    <summary className="cursor-pointer text-xs text-ink-dim hover:text-ink">
+                      Korte uitleg{uitlegHier.get(h.id) ? `: ${uitlegHier.get(h.id)}` : " toevoegen"}
+                    </summary>
+                    <form
+                      action={bewaarKorteUitleg}
+                      className="mt-2 flex flex-wrap items-center gap-2"
+                    >
+                      {terug}
+                      <input type="hidden" name="id" value={h.id} />
+                      <input
+                        name="korte_uitleg"
+                        maxLength={200}
+                        defaultValue={uitlegHier.get(h.id) ?? ""}
+                        placeholder="Bv. Wortels vereenvoudigen en rekenen met exponenten."
+                        className={`${veldKlasse} min-w-[20rem] flex-1`}
+                      />
+                      <button type="submit" className={bewaarKlasse}>
+                        Bewaren
+                      </button>
+                      <p className="w-full text-xs text-ink-dim">
+                        Staat klein onder de titel van het blokje. De titel zelf
+                        verandert niet, dus de bundels blijven gekoppeld. Leeg
+                        laten en bewaren haalt de uitleg weg.
                       </p>
                     </form>
                   </details>

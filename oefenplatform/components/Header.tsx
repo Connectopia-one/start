@@ -44,8 +44,12 @@ export function Header({ naam, rol }: { naam?: string; rol?: Rol }) {
       <div className="mx-auto flex max-w-4xl items-center justify-between gap-4 px-6 py-4">
         <Link
           href="/"
-          className="font-display text-lg font-semibold text-forest-dark"
+          className="flex items-center gap-2 font-display text-lg font-semibold text-forest-dark"
+          title="Naar de startpagina"
         >
+          {/* Het huisje maakt duidelijk dat dit altijd naar het begin gaat
+              (Marjolein, enquête november 2026). */}
+          <span aria-hidden>🏠</span>
           Oefenplatform
         </Link>
 

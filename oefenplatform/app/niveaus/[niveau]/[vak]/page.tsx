@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { haalKorteUitleg } from "@/lib/korteUitleg";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/Header";
 import { Leidraad } from "@/components/Leidraad";
@@ -74,9 +75,15 @@ export default async function NiveauVakPage({
         .order("naam")
     : { data: [] };
 
+  const uitleg = await haalKorteUitleg(
+    supabase,
+    hoofdstukken.map((h) => h.id),
+  );
+
   const tegels: HoofdstukTegel[] = hoofdstukken.map((h) => ({
     id: h.id,
     titel: h.titel,
+    korteUitleg: uitleg.get(h.id) ?? null,
     volgnummer: h.volgnummer,
     gratis: h.gratis,
     mag: hoofdstukToegankelijk(h.gratis, session?.profile ?? null),

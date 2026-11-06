@@ -28,6 +28,14 @@ export function TerugNaarVak({ href, label }: { href: string; label: string }) {
           </span>
         </span>
       </Link>
+      {/* En in één klik helemaal terug naar het begin, met "Verder waar je
+          was" bovenaan (Marjolein en Linda, enquête november 2026). */}
+      <Link
+        href="/"
+        className="mt-3 inline-flex items-center gap-2 text-sm text-ink-dim hover:text-ink"
+      >
+        <span aria-hidden>🏠</span> Naar de startpagina
+      </Link>
     </div>
   );
 }

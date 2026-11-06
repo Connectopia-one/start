@@ -7,6 +7,7 @@ import {
 import { Dagvraag } from "@/components/Dagvraag";
 import { Header } from "@/components/Header";
 import { HelpOnsStappen } from "@/components/HelpOnsStappen";
+import { VerderWaarJeWas } from "@/components/VerderWaarJeWas";
 import { getSessionProfile } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { NIVEAUS, STARTKNOPPEN, vindNiveau } from "@/lib/niveaus";
@@ -88,6 +89,7 @@ export default async function HomePage() {
             <HelpOnsStappen userId={session.userId} />
           </div>
         )}
+        {session && <VerderWaarJeWas userId={session.userId} />}
 
         <h1 className="font-display text-2xl font-semibold text-ink">
           Oefenen voor de examencommissie

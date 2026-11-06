@@ -156,6 +156,37 @@ export async function hernoemHoofdstuk(formData: FormData) {
   redirect(vakkenPagina(formData));
 }
 
+/**
+ * De korte uitleg onder de titel van een hoofdstuk (supabase/hoofdstuk-uitleg.sql).
+ * De titel zelf blijft staan, zodat bundels en imports er gewoon aan blijven
+ * hangen. Leeg maken mag: dan verdwijnt de uitleg weer.
+ */
+export async function bewaarKorteUitleg(formData: FormData) {
+  await requireBeheerder();
+  const id = String(formData.get("id") || "");
+  const tekst = String(formData.get("korte_uitleg") || "").trim().slice(0, 200);
+  if (!id) redirect(vakkenPagina(formData));
+
+  const admin = createAdminClient();
+  const { error } = await admin
+    .from("hoofdstukken")
+    .update({ korte_uitleg: tekst || null })
+    .eq("id", id);
+  if (error) {
+    redirect(
+      vakkenPagina(
+        formData,
+        "fout",
+        "Kon de korte uitleg niet bewaren. Is supabase/hoofdstuk-uitleg.sql al gedraaid?",
+      ),
+    );
+  }
+
+  revalidatePath("/beheer/vakken");
+  revalidatePath("/niveaus", "layout");
+  redirect(vakkenPagina(formData));
+}
+
 export async function wisselRekenmachine(formData: FormData) {
   await requireBeheerder();
   const id = String(formData.get("id") || "");

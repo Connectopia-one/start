@@ -7,6 +7,8 @@ import { KindKeuze, useActiefKind, type Kind } from "@/components/KindKeuze";
 export type HoofdstukTegel = {
   id: string;
   titel: string;
+  /** Korte uitleg onder de titel (Beheer → Vakken). Laat de titel zelf ongemoeid. */
+  korteUitleg?: string | null;
   volgnummer: number;
   gratis: boolean;
   /** Mag dit kind erin? Vrijgegeven of gratis. */
@@ -169,6 +171,14 @@ export function HoofdstukTegels({
           className={`flex-1 text-sm font-medium text-ink ${s?.gemaakt ? "pr-7" : ""}`}
         >
           {label}
+          {/* Wat er achter dit blokje zit, in een paar woorden. Caroline en
+              Marjolein, enquête november 2026: "Het is niet altijd duidelijk
+              wat er achter een blokje zit." */}
+          {h.korteUitleg && (
+            <span className="mt-1 block text-xs font-normal leading-snug text-ink-dim">
+              {h.korteUitleg}
+            </span>
+          )}
         </span>
 
         <span className="mt-3 flex flex-wrap items-center gap-2">
