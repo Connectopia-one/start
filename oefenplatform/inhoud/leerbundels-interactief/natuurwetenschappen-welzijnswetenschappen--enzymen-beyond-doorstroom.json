@@ -1,0 +1,106 @@
+{
+ "vak": "Natuurwetenschappen welzijnswetenschappen",
+ "titel": "Enzymen",
+ "onder": "Wat een enzym is, hoe het werkt volgens het sleutel-slotprincipe, en wat zijn werking versnelt of remt.",
+ "secties": [
+  {
+   "kop": "Wat is een enzym?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>enzym</strong> is een <strong>eiwit</strong> dat een reactie in het lichaam <strong>versnelt zonder zelf verbruikt te worden</strong>. Daarom noemt men een enzym een <strong>biokatalysator</strong>: een katalysator die in een levend organisme werkt. Na de reactie <strong>komt het enzym onveranderd terug</strong> en kan het meteen een volgende molecule omzetten. <strong>Eén enzymmolecule kan zo in korte tijd vele duizenden substraatmoleculen omzetten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een enzym versnelt een reactie doordat het <strong>de activeringsenergie verlaagt</strong>. De <strong>activeringsenergie</strong> is <strong>de energie die nodig is om een reactie op gang te brengen</strong>, ook als die reactie op het einde energie oplevert. Met een enzym verloopt de reactie dus veel sneller bij lichaamstemperatuur."
+    },
+    {
+     "soort": "kader",
+     "html": "Een enzym <strong>verandert de evenwichtsligging niet</strong>. Er ontstaat op het einde niet meer product: het evenwicht wordt alleen sneller bereikt."
+    }
+   ]
+  },
+  {
+   "kop": "Het sleutel-slotprincipe",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De stof die een enzym omzet, heet het <strong>substraat</strong>. Het substraat bindt op een klein deel van het enzym: het <strong>actief centrum</strong>. In het <strong>sleutel-slotprincipe</strong> is het actief centrum <strong>het slot</strong> en het substraat <strong>de sleutel</strong>. Zitten ze even aan elkaar vast, dan noemt men dat tijdelijke geheel het <strong>enzym-substraatcomplex</strong> of enzymsubstraatcomplex. Daarna komen de producten vrij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het actief centrum is <strong>een klein deel van het enzym waar het substraat bindt</strong>. <strong>De vorm ervan bepaalt welk substraat het enzym omzet</strong>. Na de reactie blijft het gewoon bestaan, maar <strong>het verandert van vorm als het enzym denatureert</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omdat alleen een passende sleutel in het slot past, zet een enzym maar één bepaald substraat of één soort substraat om. Dat heet <strong>substraatspecificiteit</strong>. Lijkt een stof sterk op het substraat maar <strong>past ze niet in het actief centrum</strong>, dan wordt ze niet omgezet."
+    }
+   ]
+  },
+  {
+   "kop": "De naam van een enzym",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De naam van de meeste enzymen eindigt op de uitgang <strong>-ase</strong>. Vaak staat het substraat ervoor: <strong>lactase breekt lactose af</strong>, <strong>lipase breekt lipiden af</strong>, <strong>maltase breekt maltose af</strong>, sacharase breekt sacharose af en amylase breekt zetmeel (amylum) af."
+    },
+    {
+     "soort": "tekst",
+     "html": "Sommige enzymen hebben een oudere naam zonder -ase: <strong>pepsine</strong> en <strong>trypsine</strong> zijn eiwitsplitsende enzymen: ze breken allebei <strong>eiwitten</strong> af, geen zetmeel of triglyceriden."
+    }
+   ]
+  },
+  {
+   "kop": "Denaturatie, cofactoren en co-enzymen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Enzymen zijn eiwitten, en hun werking hangt af van hun ruimtelijke vorm</strong>. Bij <strong>denaturatie</strong> <strong>gaat de ruimtelijke vorm verloren</strong>, waardoor het actief centrum niet meer past. Hoge temperatuur of een sterk afwijkende pH denatureert een enzym. <strong>Denaturatie door hitte is blijvend</strong>: een enzym dat gedenatureerd is, gaat niet opnieuw werken als het afkoelt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Sommige enzymen hebben een helper nodig. Een <strong>cofactor</strong> is <strong>een niet-eiwitdeel, zoals een metaalion</strong> (zink, magnesium, ijzer). Een <strong>co-enzym</strong> is <strong>een organische molecule, vaak afgeleid van een vitamine</strong> van de B-groep."
+    }
+   ]
+  },
+  {
+   "kop": "Wat beïnvloedt de werking?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Factor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er gebeurt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>temperatuur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Bij <strong>lage temperatuur</strong> werkt een enzym traag: <strong>de moleculen bewegen trager</strong>, zodat enzym en substraat elkaar minder vaak raken. Het enzym is niet kapot. Bij het <strong>temperatuursoptimum</strong> werkt het enzym het snelst, bij menselijke enzymen rond <strong>37 °C</strong>. Daarboven denatureert het. <strong>Bij koorts van 41 °C kunnen sommige enzymen al minder goed werken.</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>zuurtegraad of pH</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Elk enzym heeft een eigen <strong>pH-optimum</strong>. <strong>Pepsine</strong> werkt in de maag het best <strong>rond pH 2</strong>, <strong>speekselamylase</strong> rond pH 7 en <strong>trypsine</strong> in de twaalfvingerige darm rond pH 8, licht basisch. Niet elk enzym heeft dus hetzelfde pH-optimum.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>substraatconcentratie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Meer substraat geeft eerst een hogere snelheid. Zijn <strong>alle actieve centra bezet</strong>, dan bereikt de reactie haar <strong>maximale reactiesnelheid</strong>. Dat heet <strong>verzadiging</strong> of de verzadigingstoestand: meer substraat helpt dan niet meer. Die maximale snelheid heet ook de maximumsnelheid of Vmax.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>enzymconcentratie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Meer enzym geeft een hogere snelheid zolang er substraat genoeg is, want <strong>er zijn meer actieve centra beschikbaar</strong>.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>inhibitor</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Een <strong>inhibitor</strong> <strong>remt de werking van een enzym</strong>. Een inhibitor <strong>die op het substraat lijkt</strong>, kan in het actief centrum gaan zitten en het echte substraat de plaats afnemen.</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een grafiek van de reactiesnelheid tegen de temperatuur <strong>stijgt geleidelijk tot rond 37 °C en valt daarna snel terug</strong>. Een grafiek tegen de substraatconcentratie stijgt eerst en wordt dan vlak: daar is de verzadiging bereikt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een proef met amylase en zetmeel</strong> bij 0 °C, 37 °C en 90 °C: bij <strong>37 °C</strong> gaat de afbraak het snelst. Zet je daarna alle buizen op 37 °C, dan <strong>gaat het enzym in de buis die eerst koud was alsnog werken</strong>. In de buis die heet was, is het enzym gedenatureerd en blijft het stil."
+    },
+    {
+     "soort": "tekst",
+     "html": "Komt <strong>speekselamylase</strong> met het voedsel in de maag, dan <strong>stopt het grotendeels, want de maag is veel te zuur</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Enzymen in het lichaam",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Enzymen zijn onmisbaar bij <strong>de spijsvertering</strong>, <strong>de celademhaling</strong>, <strong>de fotosynthese</strong> en <strong>de DNA-replicatie</strong>. Bij de DNA-replicatie bouwt <strong>DNA-polymerase</strong> een nieuwe streng op en opent helicase de dubbele helix."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een enzym is een eiwit dat als biokatalysator een reactie versnelt zonder verbruikt te worden.",
+  "Een enzym verlaagt de activeringsenergie.",
+  "Actief centrum = slot, substraat = sleutel; samen vormen ze het enzym-substraatcomplex.",
+  "Substraatspecificiteit: een enzym zet maar één soort substraat om.",
+  "Denaturatie: het enzym verliest zijn vorm en werkt niet meer.",
+  "Temperatuur, pH, substraat- en enzymconcentratie beïnvloeden de werking; een inhibitor remt.",
+  "Bij verzadiging zijn alle actieve centra bezet: maximale reactiesnelheid."
+ ]
+}

@@ -68,8 +68,14 @@ export const vaknoten: Record<string, string> = {
     "moderne talen. Zit je in natuurwetenschappen of een andere richting met " +
     "drie examens wetenschappen, dan heb je de aparte vakken biologie, chemie " +
     "en fysica nodig in plaats van dit vak. Volg je welzijnswetenschappen, " +
-    "maak dan ook de hoofdstukken die met \"Welzijnswetenschappen:\" beginnen: " +
-    "die gaan over het menselijk lichaam en horen enkel bij jouw richting.",
+    "maak dan ook het vak natuurwetenschappen welzijnswetenschappen.",
+
+  "beyond-doorstroom/natuurwetenschappen-welzijnswetenschappen":
+    "Dit vak is er enkel voor de richting welzijnswetenschappen. Het bevat het " +
+    "extra deel over het menselijk lichaam: enzymen, spijsvertering, " +
+    "uitscheiding, bloed, hart en bloedsomloop, bloeddruk en lymfe, en " +
+    "ademhaling. De rest van je examen natuurwetenschappen staat in het gewone " +
+    "vak natuurwetenschappen, dus maak dat ook.",
 
   "beyond-doorstroom/biologie":
     "Dit vak is er voor de richtingen die hun wetenschappen in drie aparte " +

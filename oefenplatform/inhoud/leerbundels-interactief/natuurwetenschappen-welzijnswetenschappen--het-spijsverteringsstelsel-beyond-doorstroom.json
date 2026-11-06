@@ -1,0 +1,123 @@
+{
+ "vak": "Natuurwetenschappen welzijnswetenschappen",
+ "titel": "Het spijsverteringsstelsel",
+ "onder": "De bouw van het spijsverteringsstelsel, de verteringssappen en hun enzymen, de opname van voedingsstoffen en de bekendste aandoeningen.",
+ "secties": [
+  {
+   "kop": "De wand van het spijsverteringskanaal",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De wand bestaat van binnen naar buiten uit de <strong>slijmvlieslaag of mucosa</strong>, een <strong>bindweefsellaag</strong>, de <strong>spierlaag</strong> en tot slot een <strong>bindweefsellaag of steunweefsel</strong>. De slijmvlieslaag ligt aan de binnenkant, tegen de voedselbrij."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De spierlaag kneedt het voedsel en duwt het verder door peristaltiek</strong>. <strong>Peristaltiek</strong> is een golfvormige samentrekking die het voedsel voortstuwt: daarbij trekken de <strong>kringspieren</strong> en <strong>lengtespieren</strong> beurtelings samen in een golfbeweging."
+    }
+   ]
+  },
+  {
+   "kop": "De delen van het spijsverteringsstelsel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het voedsel gaat van de <strong>mondholte</strong> met de speekselklieren naar de <strong>keelholte</strong>. Bij het slikken sluit het <strong>strottenklepje</strong> de luchtpijp af. Via de <strong>slokdarm</strong> komt het voedsel in de <strong>maag</strong>. De <strong>maagportier</strong> is <strong>de kringspier tussen de maag en de twaalfvingerige darm</strong>, niet tussen de slokdarm en de maag."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Deel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat erbij hoort</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dunne darm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de twaalfvingerige darm</strong>, <strong>de nuchtere darm of jejunum</strong> en <strong>de kronkeldarm of ileum</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dikke darm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de blinde darm of caecum met het wormvormig aanhangsel</strong>, <strong>de karteldarm of colon</strong> (opstijgend, dwarslopend, afdalend en S-vormig deel) en <strong>de endeldarm of rectum</strong>, tot de anus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">klieren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de speekselklieren, de <strong>lever</strong> met de <strong>galblaas</strong> en de <strong>alvleesklier of pancreas</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Vertering</strong> is <strong>het afbreken van grote voedingsmoleculen tot kleine die opgenomen kunnen worden</strong>. Zetmeel, eiwitten en vetten passen niet door de darmwand; hun bouwstenen wel."
+    }
+   ]
+  },
+  {
+   "kop": "Maag, gal en alvleesklier",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In de maagwand maken <strong>de pariëtale cellen</strong> het <strong>zoutzuur</strong> (HCl) en de slijmcellen een beschermende slijmlaag. Het <strong>maagzuur</strong> <strong>doodt veel bacteriën die met het voedsel binnenkomen</strong>, <strong>zet pepsinogeen om in het actieve pepsine</strong> en <strong>zorgt voor de lage pH waarbij pepsine goed werkt</strong>. <strong>Pepsine wordt eerst aangemaakt als het inactieve pepsinogeen</strong>, zodat het de cellen die het maken niet zelf verteert."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Gal wordt aangemaakt in de lever</strong> en opgeslagen in de galblaas. <strong>Galzouten verdelen grote vetdruppels in kleine druppeltjes, zodat lipase beter kan werken</strong>: ze <strong>emulgeren</strong>. <strong>Gal bevat zelf geen enzymen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De alvleesklier geeft <strong>natriumwaterstofcarbonaat (NaHCO₃)</strong> af aan de twaalfvingerige darm <strong>om het zure maagsap te neutraliseren, zodat de darmenzymen kunnen werken</strong>. Het <strong>alvleeskliersap</strong> bevat <strong>amylase</strong>, <strong>trypsine</strong> en <strong>lipase</strong>. <strong>Lactase</strong> zit in de wand van de dunne darm, pepsine in de maag."
+    }
+   ]
+  },
+  {
+   "kop": "Welk enzym breekt wat af?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voedingsstof</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Enzymen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Eindproduct</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zetmeel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">amylase (tot maltose), dan <strong>maltase</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>glucose</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">melksuiker of lactose</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>lactase</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">glucose en galactose</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sacharose</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>sacharase</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>glucose en fructose</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eiwitten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pepsine, trypsine (endopeptidasen), daarna exopeptidasen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aminozuren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vetten of triglyceriden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lipase, na emulgeren door gal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">glycerol en vetzuren</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Endopeptidasen knippen midden in een eiwitketen, exopeptidasen knippen aminozuren van de uiteinden</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Opname en transport",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De dunne darm heeft <strong>plooien, darmvlokken of villi en microvilli</strong>. Die <strong>vergroten het oppervlak voor de opname van voedingsstoffen</strong>. De vele microvilli samen vormen de <strong>borstelzoom</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Transport</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>diffusie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">passief, met het concentratieverschil mee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gefaciliteerde diffusie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>passief transport via een transporteiwit, met het concentratieverschil mee</strong>, zoals de glucosetransporter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>osmose</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>water dat door een halfdoorlatend membraan naar de geconcentreerdste kant gaat</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>actief transport</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een stof gaat <strong>tegen het concentratieverschil in</strong>, met een pomp en <strong>energie uit ATP</strong>; ook blaasjestransport hoort hierbij</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Diffusie, gefaciliteerde diffusie en osmose zijn passief en kosten de cel geen ATP. Een <strong>isotone</strong> of isotonische oplossing (isotoon) heeft dezelfde osmotische waarde als de cel. Komt een <strong>rode bloedcel in zuiver water</strong>, dat hypotoon is, dan <strong>stroomt er water de cel in, zodat ze opzwelt en kan barsten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Glucose en aminozuren</strong> gaan naar het bloed en <strong>via de leverpoortader</strong> naar de lever. <strong>Glycerol en vetzuren</strong> worden in de darmepitheelcel <strong>weer vetten, verpakt in lipoproteïnen</strong> (chylomicronen), en <strong>gaan naar het lymfevat</strong>. <strong>Het meeste water wordt al in de dunne darm opgenomen</strong>; de dikke darm neemt de rest op."
+    }
+   ]
+  },
+  {
+   "kop": "Voedingsstoffen, vezels en darmflora",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Essentiële voedingsstoffen</strong> zijn <strong>stoffen die het lichaam nodig heeft maar niet zelf kan maken</strong>: essentiële aminozuren, essentiële vetzuren zoals <strong>een omega-3-vetzuur</strong>, vitaminen en mineralen. De vetoplosbare vitaminen (vetoplosbaar) zijn <strong>vitamine A</strong>, <strong>vitamine D</strong>, E en <strong>K</strong>; <strong>vitamine B12</strong> en <strong>vitamine C</strong> zijn wateroplosbaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voedingsvezels</strong> worden niet verteerd. <strong>Ze geven volume aan de darminhoud en houden de stoelgang vlot.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>darmflora</strong> <strong>maakt vitamine K aan</strong>, <strong>helpt het immuunsysteem en houdt ziekteverwekkers weg</strong> en <strong>breekt een deel van de voedingsvezels af</strong>. <strong>Escherichia coli</strong> komt normaal voor in de dikke darm; <strong>Lactobacillus</strong> is een andere nuttige darmbacterie."
+    }
+   ]
+  },
+  {
+   "kop": "Aandoeningen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aandoening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Oorzaak en behandeling</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>coeliakie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een auto-immuunziekte waarbij gluten de darmvlokken beschadigen</strong>; behandeling: strikt glutenvrij eten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ziekte van Crohn</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een chronische ontsteking die overal in het spijsverteringskanaal kan voorkomen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gastritis en <strong>maagzweer</strong> (maagzweren)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vaak door de bacterie <strong>Helicobacter pylori</strong>; behandeling met antibiotica en maagzuurremmers</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">salmonellose</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voedselvergiftiging door <strong>Salmonella</strong>, bijvoorbeeld uit besmette eieren</td></tr></table>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Van binnen naar buiten: slijmvlies, bindweefsel, spierlaag, bindweefsel.",
+  "Peristaltiek duwt het voedsel voort; het strottenklepje sluit de luchtpijp af.",
+  "Maagzuur doodt bacteriën en activeert pepsinogeen tot pepsine.",
+  "Gal komt uit de lever en emulgeert vetten; ze bevat geen enzymen.",
+  "NaHCO₃ neutraliseert het maagzuur in de twaalfvingerige darm.",
+  "Villi, microvilli en de borstelzoom vergroten het opnameoppervlak.",
+  "Vetten gaan naar de lymfe, glucose en aminozuren via de leverpoortader naar de lever."
+ ]
+}

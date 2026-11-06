@@ -11,11 +11,12 @@ staat, plus één groot extra blok biologie: "Stofwisselingsfysiologie en
 secretie" (enzymen, spijsvertering, uitscheiding, bloed, hart en bloedsomloop,
 bloeddruk en lymfe, ademhaling). Alleen dat extra blok staat hier.
 
-Het komt bij hetzelfde vak natuurwetenschappen in Beyond doorstroom, met
-"Welzijnswetenschappen:" voor de titel, zodat een leerling van die richting de
-gewone hoofdstukken niet dubbel hoeft te maken. Importeren via Beheer → Vakken
-→ Natuurwetenschappen. Het vinkje "Bestaande vragen vervangen" raakt enkel
-hoofdstukken met dezelfde titel, dus de gewone hoofdstukken blijven staan.
+Het is een apart vak, "Natuurwetenschappen welzijnswetenschappen", in Beyond
+doorstroom (Kim, 6 november 2026: eerst stonden de hoofdstukken bij het gewone
+vak natuurwetenschappen met "Welzijnswetenschappen:" ervoor, maar dat was niet
+overzichtelijk). Een leerling van die richting maakt dit vak én het gewone vak
+natuurwetenschappen; de vaknoot zegt dat. Importeren via Beheer → Vakken →
+Natuurwetenschappen welzijnswetenschappen.
 
 De controles zijn dezelfde als in bouw_natuurwetenschappen.py.
 """
@@ -30,7 +31,7 @@ sys.path.insert(0, str(HIER))
 import bouw_natuurwetenschappen as nw  # noqa: E402
 
 DOEL = HIER.parent / "natuurwetenschappen-welzijnswetenschappen.json"
-VOORVOEGSEL = "Welzijnswetenschappen: "
+VOORVOEGSEL = ""
 
 THEMAS = [
     ("ww_enzymen", "Enzymen"),

@@ -7,10 +7,11 @@ maak_natuurwetenschappen_beyond.py staan, plus één extra blok biologie:
 "Stofwisselingsfysiologie en secretie". Hier staan enkel de bundels van dat
 blok, één per thema (Kim, 6 november 2026).
 
-De hoofdstukken heten "Welzijnswetenschappen: <thema> — deel 1/2" en staan in
-het vak natuurwetenschappen, categorie Beyond doorstroom. Eén bundel per thema,
-dus Kim uploadt elke pdf bij beide delen. De bestandsnaam eindigt op
-"-beyond-doorstroom", zodat /beheer/leerstof enkel bij die categorie zoekt.
+De hoofdstukken staan in een apart vak "Natuurwetenschappen
+welzijnswetenschappen", categorie Beyond doorstroom, en heten "<thema> — deel
+1/2". Eén bundel per thema, dus Kim uploadt elke pdf bij beide delen. De
+bestandsnaam eindigt op "-beyond-doorstroom", zodat /beheer/leerstof enkel bij
+die categorie zoekt.
 
 De afspraak: een bundel dekt élke vraag van zijn hoofdstuk, met dezelfde
 woorden als de vraag. De vragen staan in ../../beyond/bron/ww_*.py.
@@ -19,16 +20,15 @@ import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import bundel
 
-VAK = "Natuurwetenschappen"
+VAK = "Natuurwetenschappen welzijnswetenschappen"
 BEYOND = "🌍 Beyond — 5de en 6de middelbaar"
 tabel = bundel.tabel
-WW = "Welzijnswetenschappen: "
 
 BUNDELS = {}
 
 # ───────────────────────── 1. Enzymen
-BUNDELS["welzijnswetenschappen-enzymen-beyond-doorstroom"] = dict(
-    vak=VAK, niveau=BEYOND, titel=WW + "Enzymen",
+BUNDELS["enzymen-beyond-doorstroom"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Enzymen",
     onder="Wat een enzym is, hoe het werkt volgens het sleutel-slotprincipe, en wat zijn werking versnelt of remt.",
     secties=[
         dict(kop="Wat is een enzym?", blokken=[
@@ -133,8 +133,8 @@ BUNDELS["welzijnswetenschappen-enzymen-beyond-doorstroom"] = dict(
 )
 
 # ───────────────────────── 2. Het spijsverteringsstelsel
-BUNDELS["welzijnswetenschappen-het-spijsverteringsstelsel-beyond-doorstroom"] = dict(
-    vak=VAK, niveau=BEYOND, titel=WW + "Het spijsverteringsstelsel",
+BUNDELS["het-spijsverteringsstelsel-beyond-doorstroom"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Het spijsverteringsstelsel",
     onder="De bouw van het spijsverteringsstelsel, de verteringssappen en hun enzymen, de opname van voedingsstoffen en de bekendste aandoeningen.",
     secties=[
         dict(kop="De wand van het spijsverteringskanaal", blokken=[
@@ -255,8 +255,8 @@ BUNDELS["welzijnswetenschappen-het-spijsverteringsstelsel-beyond-doorstroom"] = 
 )
 
 # ───────────────────────── 3. Het uitscheidingsstelsel
-BUNDELS["welzijnswetenschappen-het-uitscheidingsstelsel-beyond-doorstroom"] = dict(
-    vak=VAK, niveau=BEYOND, titel=WW + "Het uitscheidingsstelsel",
+BUNDELS["het-uitscheidingsstelsel-beyond-doorstroom"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Het uitscheidingsstelsel",
     onder="De bouw van de nieren en de urinewegen, hoe een nefron urine maakt, hoe ADH het water regelt, en de aandoeningen.",
     secties=[
         dict(kop="De urinewegen", blokken=[
@@ -347,8 +347,8 @@ BUNDELS["welzijnswetenschappen-het-uitscheidingsstelsel-beyond-doorstroom"] = di
 )
 
 # ───────────────────────── 4. Het bloed
-BUNDELS["welzijnswetenschappen-het-bloed-beyond-doorstroom"] = dict(
-    vak=VAK, niveau=BEYOND, titel=WW + "Het bloed",
+BUNDELS["het-bloed-beyond-doorstroom"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Het bloed",
     onder="De bestanddelen van het bloed, het werk van rode en witte bloedcellen, de bloedstolling en de bloedgroepen.",
     secties=[
         dict(kop="Wat zit er in het bloed?", blokken=[
@@ -437,8 +437,8 @@ BUNDELS["welzijnswetenschappen-het-bloed-beyond-doorstroom"] = dict(
 )
 
 # ───────────────────────── 5. Het hart en de bloedsomloop
-BUNDELS["welzijnswetenschappen-het-hart-en-de-bloedsomloop-beyond-doorstroom"] = dict(
-    vak=VAK, niveau=BEYOND, titel=WW + "Het hart en de bloedsomloop",
+BUNDELS["het-hart-en-de-bloedsomloop-beyond-doorstroom"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Het hart en de bloedsomloop",
     onder="De bouw van het hart, de kleppen en de bloedstroom, de prikkelgeleiding en het ECG, en de dubbele bloedsomloop.",
     secties=[
         dict(kop="De bouw van het hart", blokken=[
@@ -525,8 +525,8 @@ BUNDELS["welzijnswetenschappen-het-hart-en-de-bloedsomloop-beyond-doorstroom"] =
 )
 
 # ───────────────────────── 6. De bloeddruk en het lymfestelsel
-BUNDELS["welzijnswetenschappen-de-bloeddruk-en-het-lymfestelsel-beyond-doorstroom"] = dict(
-    vak=VAK, niveau=BEYOND, titel=WW + "De bloeddruk en het lymfestelsel",
+BUNDELS["de-bloeddruk-en-het-lymfestelsel-beyond-doorstroom"] = dict(
+    vak=VAK, niveau=BEYOND, titel="De bloeddruk en het lymfestelsel",
     onder="Wat bloeddruk is, hoe het lichaam hem regelt, en hoe weefselvocht en lymfe ontstaan en worden afgevoerd.",
     secties=[
         dict(kop="Wat is bloeddruk?", blokken=[
@@ -610,8 +610,8 @@ BUNDELS["welzijnswetenschappen-de-bloeddruk-en-het-lymfestelsel-beyond-doorstroo
 )
 
 # ───────────────────────── 7. Het ademhalingsstelsel
-BUNDELS["welzijnswetenschappen-het-ademhalingsstelsel-beyond-doorstroom"] = dict(
-    vak=VAK, niveau=BEYOND, titel=WW + "Het ademhalingsstelsel",
+BUNDELS["het-ademhalingsstelsel-beyond-doorstroom"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Het ademhalingsstelsel",
     onder="De luchtwegen en de longen, hoe je in- en uitademt, hoe gaswisseling werkt, het spirogram en de aandoeningen.",
     secties=[
         dict(kop="De luchtwegen", blokken=[

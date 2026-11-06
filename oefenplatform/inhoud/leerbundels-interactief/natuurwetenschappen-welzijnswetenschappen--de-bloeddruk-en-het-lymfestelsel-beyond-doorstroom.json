@@ -1,0 +1,109 @@
+{
+ "vak": "Natuurwetenschappen welzijnswetenschappen",
+ "titel": "De bloeddruk en het lymfestelsel",
+ "onder": "Wat bloeddruk is, hoe het lichaam hem regelt, en hoe weefselvocht en lymfe ontstaan en worden afgevoerd.",
+ "secties": [
+  {
+   "kop": "Wat is bloeddruk?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>systolische bloeddruk of bovendruk</strong> is <strong>de hoogste druk in de slagaders, als de kamers samentrekken</strong>. De diastolische druk of onderdruk is de laagste druk, als het hart ontspant. Men drukt de bloeddruk uit in <strong>mmHg</strong>, millimeter kwik."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ongeveer 120/80 mmHg</strong> is normaal bij een gezonde volwassene in rust. <strong>Vanaf 140/90 mmHg</strong> spreekt men van <strong>hypertensie</strong>; een veel te lage druk heet hypotensie. De bloeddruk is <strong>hoog in de aorta, dalend in de kleine vaten en laag in de aders</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Mee bepalend zijn <strong>het hartritme</strong>, <strong>het slagvolume</strong>, <strong>de wijdte van de bloedvaten</strong> en <strong>het bloedvolume</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De regeling van de bloeddruk",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Baroreceptoren</strong> of drukreceptoren, zintuigcellen in de aorta en de halsslagaders meten de druk. Ze melden het aan het <strong>cardiovasculair centrum in het verlengde merg</strong>. Dat werkt als een <strong>negatief feedbacksysteem</strong>: het <strong>werkt de verandering tegen</strong> en versterkt ze niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Is de bloeddruk te hoog, dan <strong>gaat het hart trager kloppen</strong>, daalt het slagvolume en <strong>verwijden de bloedvaten (vasodilatatie)</strong>. Het vernauwen heet <strong>vasoconstrictie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>orthosympatisch zenuwstelsel</strong> <strong>versnelt de hartslag en doet de bloeddruk stijgen</strong>, bijvoorbeeld tijdens het sporten. Het <strong>parasympatisch zenuwstelsel</strong> is het rustsysteem: na het sporten vertraagt het de hartslag."
+    },
+    {
+     "soort": "tekst",
+     "html": "Is de bloeddruk te laag, dan start het renine-angiotensinesysteem: de nieren maken <strong>renine</strong>. <strong>Renine zet angiotensinogeen om in angiotensine I, en het ACE-enzym zet dat om in angiotensine II.</strong> <strong>Angiotensine II doet de bloedvaten vernauwen</strong> en maakt <strong>aldosteron</strong> vrij. <strong>Aldosteron laat de nieren meer zout en water terugnemen, dus meer bloedvolume</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Te hoog of te laag",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een langdurig te hoge bloeddruk kan leiden tot <strong>een beroerte</strong>, <strong>een hartinfarct</strong> en <strong>schade aan de nieren</strong>. Je voorkomt hem door <strong>minder zout eten</strong>, <strong>regelmatig bewegen</strong> en <strong>niet roken</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een typisch symptoom van een te lage bloeddruk is <strong>duizeligheid bij snel rechtstaan</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Weefselvocht en lymfe",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Weefselvocht ontstaat doordat <strong>de bloeddruk plasma uit het begin van de haarvaten perst</strong>, de hydrostatische druk. Aan het einde van het haarvat <strong>is de bloeddruk gezakt en trekken de plasma-eiwitten water terug</strong>, de osmotische druk. Weefselvocht bevat <strong>veel minder grote eiwitten</strong> dan plasma."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het overschot gaat in de <strong>lymfecapillairen</strong> of lymfehaarvaten, de kleinste lymfevaatjes, en heet dan <strong>lymfe</strong>: <strong>water, zouten, wat eiwitten en lymfocyten</strong>. Het lymfevatenstelsel brengt <strong>het overtollige weefselvocht terug in het bloed</strong>, via de borstbuis, die <strong>in een grote ader onder het sleutelbeen</strong> uitmondt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Lymfevaten hebben kleppen</strong>, maar <strong>het lymfestelsel heeft geen eigen pomp</strong>. <strong>Werkende spieren knijpen de lymfevaten samen en duwen de lymfe vooruit.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "De lymfeorganen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij het lymfestelsel horen <strong>de milt</strong>, de amandelen, <strong>de zwezerik of thymus</strong>, het beenmerg en de lymfeklieren. De schildklier en de alvleesklier horen er niet bij."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een lymfeklier <strong>wordt de lymfe gefilterd en ruimen lymfocyten ziektekiemen op</strong>. <strong>In de thymus rijpen de T-lymfocyten</strong>, onder invloed van het hormoon <strong>thymosine</strong>. <strong>De milt ruimt versleten rode bloedcellen op</strong>, <strong>bevat veel lymfocyten die het bloed op ziekteverwekkers controleren</strong> en <strong>slaat een voorraad bloed op</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Oedeem",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Lymfoedeem</strong> is <strong>een zwelling doordat lymfe niet goed afgevoerd wordt</strong>. Het kan ontstaan <strong>na het wegnemen van lymfeklieren bij een kankeroperatie</strong>, <strong>door bestraling die de lymfevaten beschadigt</strong> of <strong>door een aangeboren afwijking aan de lymfevaten</strong>. Men behandelt het <strong>met lymfedrainage, steunkousen of een drukverband</strong>, en blijven bewegen helpt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>hongeroedeem</strong>, bij kinderen met ernstige ondervoeding, gaat er <strong>door te weinig eiwitten in het bloed minder vocht terug in de haarvaten</strong>, zodat de buik opzwelt."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Normaal ongeveer 120/80 mmHg; hypertensie vanaf 140/90.",
+  "Baroreceptoren meten, het cardiovasculair centrum in het verlengde merg stuurt bij.",
+  "Orthosympatisch: sneller; parasympatisch: rustiger.",
+  "Renine → angiotensine I → (ACE) angiotensine II → vasoconstrictie en aldosteron.",
+  "Lymfe brengt overtollig weefselvocht terug naar het bloed; spieren duwen haar vooruit.",
+  "In de thymus rijpen T-lymfocyten (thymosine)."
+ ]
+}

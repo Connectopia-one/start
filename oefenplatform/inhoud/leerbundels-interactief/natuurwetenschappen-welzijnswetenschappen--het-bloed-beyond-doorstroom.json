@@ -1,0 +1,100 @@
+{
+ "vak": "Natuurwetenschappen welzijnswetenschappen",
+ "titel": "Het bloed",
+ "onder": "De bestanddelen van het bloed, het werk van rode en witte bloedcellen, de bloedstolling en de bloedgroepen.",
+ "secties": [
+  {
+   "kop": "Wat zit er in het bloed?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bloed bevat <strong>rode bloedcellen of erytrocyten</strong>, <strong>witte bloedcellen of leukocyten</strong> en <strong>bloedplaatjes of trombocyten</strong>, in het <strong>plasma</strong> of bloedplasma. Ze worden gevormd <strong>in het rode beenmerg</strong>. <strong>De rode bloedcellen zijn het talrijkst.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het plasma vervoert <strong>voedingsstoffen zoals glucose</strong>, <strong>hormonen</strong>, <strong>afvalstoffen zoals ureum</strong>, zouten en eiwitten. Het meest voorkomende plasma-eiwit is <strong>albumine</strong>, dat water in de bloedvaten houdt. De <strong>immunoglobulines</strong> zijn <strong>de antilichamen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wordt bloed met een middel tegen stolling <strong>gecentrifugeerd</strong>, dan zie je van onder naar boven <strong>rode bloedcellen, een dun laagje witte bloedcellen en bloedplaatjes, en bovenaan plasma</strong>. <strong>Serum of bloedserum is plasma zonder de stollingsfactoren zoals fibrinogeen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De rode bloedcellen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een rijpe rode bloedcel heeft geen celkern</strong> en leeft <strong>ongeveer 120 dagen</strong>. Daarna wordt ze <strong>in de milt en de lever</strong> afgebroken. Ze is <strong>een schijfje dat aan beide kanten ingedeukt is, met een groot oppervlak voor gasuitwisseling</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rode bloedcellen bevatten <strong>hemoglobine</strong>, een ijzerhoudend eiwit met vier subeenheden en vier heemgroepen. Eén hemoglobinemolecule bindt dus maximaal <strong>vier</strong> zuurstofmoleculen. Met zuurstof erop heet het <strong>oxyhemoglobine</strong>. Ongeveer 98 % van de zuurstof zit gebonden aan hemoglobine; maar een klein deel is opgelost in het plasma. <strong>Het meeste CO₂ wordt als waterstofcarbonaat in het plasma vervoerd.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>hematocrietwaarde</strong> is <strong>het percentage van het bloedvolume dat uit rode bloedcellen bestaat</strong>, ongeveer 40 à 45 %. Op <strong>hoogtestage</strong> <strong>maken de nieren in de ijle lucht meer EPO, zodat er meer rode bloedcellen komen</strong>. <strong>EPO</strong> is <strong>een hormoon uit de nieren dat de aanmaak van rode bloedcellen stimuleert</strong>. Een te hoge hematocriet is niet onschadelijk: het bloed wordt dik en het risico op bloedklonters stijgt."
+    }
+   ]
+  },
+  {
+   "kop": "De witte bloedcellen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De hoofdtaak van de witte bloedcellen is de afweer tegen ziekteverwekkers.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">granulocyten: <strong>neutrofielen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de talrijkste; ruimen bij een ontsteking als eersten bacteriën op door <strong>fagocytose</strong>, het opslokken van een bacterie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">granulocyten: <strong>eosinofielen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij allergieën en tegen parasieten zoals wormen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">granulocyten: basofielen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maken histamine vrij bij allergische reacties</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">agranulocyten: <strong>monocyten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">worden in het weefsel <strong>een macrofaag</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">agranulocyten: <strong>lymfocyten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>B-lymfocyten</strong> worden plasmacellen die <strong>antilichamen</strong> maken (humorale afweer); <strong>T-lymfocyten</strong> doden zelf lichaamscellen die besmet zijn met een virus (<strong>cellulaire afweer</strong>)</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Eosinofielen maken dus geen antilichamen</strong>: dat doen de B-lymfocyten."
+    }
+   ]
+  },
+  {
+   "kop": "De bloedstolling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bloedplaatjes helpen bij de bloedstolling.</strong> Ze kleven tegen een beschadigde wand en starten de <strong>stollingscascade</strong>. Die kan op twee manieren beginnen: via de <strong>extrinsieke route vanuit beschadigd weefsel</strong> en via de <strong>intrinsieke route vanuit het bloed zelf</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Aan het einde zet protrombine zich om in trombine, en <strong>trombine zet fibrinogeen om in fibrinedraden die het stolsel vormen</strong>. <strong>Fibrinogeen</strong> is het opgeloste plasma-eiwit dat zo onoplosbaar fibrine wordt."
+    }
+   ]
+  },
+  {
+   "kop": "Bloedgroepen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bloedgroep</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antigenen op de rode bloedcel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antilichamen in het plasma</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A-antigenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">anti-B</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B-antigenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">anti-A</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">AB</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A en B</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">O</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen A- en geen B-antigenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">anti-A en anti-B</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een bloedtransfusie moet de bloedgroep passen. Krijgt iemand met bloedgroep B bloed van groep A, dan <strong>doet het anti-A van de ontvanger de rode bloedcellen van de donor klonteren</strong>. Dat samenklonteren heet <strong>agglutinatie</strong> of klontering; daarna volgt hemolyse."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>resussysteem</strong> gaat over het D-antigeen. <strong>O-negatief is de universele donor van rode bloedcellen</strong> en <strong>AB-positief is de universele ontvanger</strong>. <strong>Iemand met bloedgroep O kan enkel bloed van groep O krijgen</strong>; iemand met AB kan bloed van alle groepen krijgen."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Anti-D is er niet van nature.</strong> Een resusnegatieve persoon maakt het pas na contact met resuspositief bloed. Is een <strong>resusnegatieve (resusnegatief) moeder zwanger van een resuspositief kind</strong>, dan <strong>kan ze na de eerste bevalling anti-D maken tegen een volgend resuspositief kind</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Rode bloedcellen: geen kern, 120 dagen, hemoglobine bindt vier O₂.",
+  "Hematocriet = percentage rode bloedcellen; EPO uit de nieren doet hem stijgen.",
+  "Serum is plasma zonder stollingsfactoren.",
+  "Neutrofielen doen fagocytose, monocyten worden macrofagen, B-lymfocyten maken antilichamen.",
+  "Trombine zet fibrinogeen om in fibrine.",
+  "O-negatief is universele donor, AB-positief universele ontvanger."
+ ]
+}

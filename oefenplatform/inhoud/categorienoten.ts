@@ -158,8 +158,9 @@ export const categorienoten: Record<string, Categorienoot> = {
       {
         kop: "Bedrijfswetenschappen en welzijnswetenschappen",
         tekst:
-          "Welzijnswetenschappen: bij natuurwetenschappen staan extra " +
-          "hoofdstukken over het menselijk lichaam voor jou. De eigen wiskunde " +
+          "Welzijnswetenschappen: naast het gewone vak natuurwetenschappen is er " +
+          "het vak natuurwetenschappen welzijnswetenschappen, met het extra deel " +
+          "over het menselijk lichaam. De eigen wiskunde " +
           "van beide richtingen staat er nog niet.",
       },
     ],

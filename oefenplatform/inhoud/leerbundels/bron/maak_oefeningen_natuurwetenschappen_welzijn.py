@@ -17,9 +17,8 @@ import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import bundel, oefenbundel
 
-VAK = "Natuurwetenschappen"
+VAK = "Natuurwetenschappen welzijnswetenschappen"
 BEYOND = "🌍 Beyond — 5de en 6de middelbaar"
-WW = "Welzijnswetenschappen: "
 
 W = "120px"
 WM = "185px"
@@ -36,8 +35,8 @@ HOE = [
 ]
 
 # ============================================================ 1. Enzymen
-OEFENBUNDELS["oefenbundel-welzijnswetenschappen-enzymen-beyond-doorstroom"] = dict(
-    vak=VAK, niveau=BEYOND, titel=WW + "Enzymen", onder=ONDER, hoe=HOE,
+OEFENBUNDELS["oefenbundel-enzymen-beyond-doorstroom"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Enzymen", onder=ONDER, hoe=HOE,
     reeksen=[
         dict(kop="Begrippen", opdracht="Schrijf het juiste begrip.", oefeningen=[
             ("rij", [("de stof die een enzym omzet", "substraat"),
@@ -85,8 +84,8 @@ OEFENBUNDELS["oefenbundel-welzijnswetenschappen-enzymen-beyond-doorstroom"] = di
 )
 
 # ============================================================ 2. Spijsvertering
-OEFENBUNDELS["oefenbundel-welzijnswetenschappen-het-spijsverteringsstelsel-beyond-doorstroom"] = dict(
-    vak=VAK, niveau=BEYOND, titel=WW + "Het spijsverteringsstelsel", onder=ONDER, hoe=HOE,
+OEFENBUNDELS["oefenbundel-het-spijsverteringsstelsel-beyond-doorstroom"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Het spijsverteringsstelsel", onder=ONDER, hoe=HOE,
     reeksen=[
         dict(kop="De weg van het voedsel", opdracht="Schrijf de delen in de juiste volgorde.", oefeningen=[
             ("open", "Zet in volgorde: dikke darm, slokdarm, mondholte, twaalfvingerige darm, maag, "
@@ -132,8 +131,8 @@ OEFENBUNDELS["oefenbundel-welzijnswetenschappen-het-spijsverteringsstelsel-beyon
 )
 
 # ============================================================ 3. Uitscheiding
-OEFENBUNDELS["oefenbundel-welzijnswetenschappen-het-uitscheidingsstelsel-beyond-doorstroom"] = dict(
-    vak=VAK, niveau=BEYOND, titel=WW + "Het uitscheidingsstelsel", onder=ONDER, hoe=HOE,
+OEFENBUNDELS["oefenbundel-het-uitscheidingsstelsel-beyond-doorstroom"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Het uitscheidingsstelsel", onder=ONDER, hoe=HOE,
     reeksen=[
         dict(kop="De weg van de urine", opdracht="Schrijf in de juiste volgorde.", oefeningen=[
             ("open", "Zet in volgorde: verzamelbuis, lus van Henle, kapsel van Bowman, tweede kronkelbuisje, "
@@ -180,8 +179,8 @@ OEFENBUNDELS["oefenbundel-welzijnswetenschappen-het-uitscheidingsstelsel-beyond-
 )
 
 # ============================================================ 4. Bloed
-OEFENBUNDELS["oefenbundel-welzijnswetenschappen-het-bloed-beyond-doorstroom"] = dict(
-    vak=VAK, niveau=BEYOND, titel=WW + "Het bloed", onder=ONDER, hoe=HOE,
+OEFENBUNDELS["oefenbundel-het-bloed-beyond-doorstroom"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Het bloed", onder=ONDER, hoe=HOE,
     reeksen=[
         dict(kop="Bloedcellen", opdracht="Vul de tabel aan.", oefeningen=[
             ("tabel", ["Bloedcel", "Andere naam", "Taak"],
@@ -227,8 +226,8 @@ OEFENBUNDELS["oefenbundel-welzijnswetenschappen-het-bloed-beyond-doorstroom"] = 
 )
 
 # ============================================================ 5. Hart en bloedsomloop
-OEFENBUNDELS["oefenbundel-welzijnswetenschappen-het-hart-en-de-bloedsomloop-beyond-doorstroom"] = dict(
-    vak=VAK, niveau=BEYOND, titel=WW + "Het hart en de bloedsomloop", onder=ONDER, hoe=HOE,
+OEFENBUNDELS["oefenbundel-het-hart-en-de-bloedsomloop-beyond-doorstroom"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Het hart en de bloedsomloop", onder=ONDER, hoe=HOE,
     reeksen=[
         dict(kop="De weg van het bloed", opdracht="Schrijf in de juiste volgorde.", oefeningen=[
             ("open", "Volg een rode bloedcel van de onderste holle ader tot in de aorta. Noem alle holtes, "
@@ -272,8 +271,8 @@ OEFENBUNDELS["oefenbundel-welzijnswetenschappen-het-hart-en-de-bloedsomloop-beyo
 )
 
 # ============================================================ 6. Bloeddruk en lymfe
-OEFENBUNDELS["oefenbundel-welzijnswetenschappen-de-bloeddruk-en-het-lymfestelsel-beyond-doorstroom"] = dict(
-    vak=VAK, niveau=BEYOND, titel=WW + "De bloeddruk en het lymfestelsel", onder=ONDER, hoe=HOE,
+OEFENBUNDELS["oefenbundel-de-bloeddruk-en-het-lymfestelsel-beyond-doorstroom"] = dict(
+    vak=VAK, niveau=BEYOND, titel="De bloeddruk en het lymfestelsel", onder=ONDER, hoe=HOE,
     reeksen=[
         dict(kop="Bloeddruk lezen", opdracht="Antwoord kort.", oefeningen=[
             ("kort", "Een meting geeft 135/85 mmHg. Wat is de bovendruk?", "135 mmHg", "90px"),
@@ -315,8 +314,8 @@ OEFENBUNDELS["oefenbundel-welzijnswetenschappen-de-bloeddruk-en-het-lymfestelsel
 )
 
 # ============================================================ 7. Ademhaling
-OEFENBUNDELS["oefenbundel-welzijnswetenschappen-het-ademhalingsstelsel-beyond-doorstroom"] = dict(
-    vak=VAK, niveau=BEYOND, titel=WW + "Het ademhalingsstelsel", onder=ONDER, hoe=HOE,
+OEFENBUNDELS["oefenbundel-het-ademhalingsstelsel-beyond-doorstroom"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Het ademhalingsstelsel", onder=ONDER, hoe=HOE,
     reeksen=[
         dict(kop="De luchtwegen", opdracht="Schrijf in de juiste volgorde of het juiste begrip.", oefeningen=[
             ("open", "Zet in volgorde: bronchiolen, luchtpijp, neusholte, longblaasjes, strottenhoofd, "

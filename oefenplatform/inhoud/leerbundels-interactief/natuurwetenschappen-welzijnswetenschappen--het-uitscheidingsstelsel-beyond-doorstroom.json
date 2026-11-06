@@ -1,0 +1,101 @@
+{
+ "vak": "Natuurwetenschappen welzijnswetenschappen",
+ "titel": "Het uitscheidingsstelsel",
+ "onder": "De bouw van de nieren en de urinewegen, hoe een nefron urine maakt, hoe ADH het water regelt, en de aandoeningen.",
+ "secties": [
+  {
+   "kop": "De urinewegen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Urine stroomt van de <strong>nier</strong> door de <strong>urineleider of ureter</strong> naar de <strong>urineblaas</strong> en via de <strong>urinebuis of urethra</strong> naar buiten. <strong>De urineleider brengt urine van de nier naar de blaas.</strong> Zijn wand heeft <strong>drie</strong> lagen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De blaas wordt dichtgehouden door een interne en een externe kringspier. <strong>De externe kringspier kan je bewust aansturen.</strong> Als een kapje bovenop elke nier ligt een klein orgaantje, de <strong>bijnier</strong>, die onder meer adrenaline maakt."
+    }
+   ]
+  },
+  {
+   "kop": "De bouw van de nier",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op een lengtedoorsnede zie je het nierkapsel, <strong>de nierschors of cortex</strong> aan de buitenkant, <strong>het niermerg met de nierpiramides</strong> meer naar binnen, de nierpapillen, de nierkelken en <strong>het nierbekken</strong>, waarin de urine samenkomt voor ze de urineleider ingaat. Het niermerg ligt dus niet aan de buitenkant."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het bloed komt binnen via <strong>de nierslagader</strong> en verlaat de nier via de nierader."
+    }
+   ]
+  },
+  {
+   "kop": "Het nefron",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>nefron</strong> is de kleinste werkende eenheid van de nier. Het begint met het <strong>nierlichaampje of lichaampje van Malpighi</strong>: <strong>de glomerulus met daarrond het kapsel van Bowman</strong>. Het <strong>aanvoerend nierslagadertje</strong> brengt bloed naar de glomerulus, het <strong>afvoerend nierslagadertje</strong> voert het weg."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het filtraat stroomt door <strong>kapsel van Bowman, eerste kronkelbuisje, lus van Henle, tweede kronkelbuisje, verzamelbuis</strong>. <strong>De lus van Henle</strong> duikt diep het niermerg in en ligt dus niet volledig in de nierschors."
+    },
+    {
+     "soort": "tekst",
+     "html": "De nierfilter bestaat uit <strong>het endotheel van de haarvaten</strong>, <strong>het basaalmembraan</strong> en <strong>de podocyten</strong>. Rode bloedcellen en grote eiwitten gaan er niet door: <strong>ze zijn te groot om door de filter te passen</strong>. <strong>Bloed of veel eiwit in de urine</strong> kan dus wijzen op een beschadigde nierfilter."
+    }
+   ]
+  },
+  {
+   "kop": "Filtratie, resorptie en secretie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Proces</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er gebeurt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>filtratie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>water en kleine opgeloste stoffen worden uit de glomerulus in het kapsel geperst</strong>; dat filtraat heet <strong>voorurine</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>resorptie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>nuttige stoffen gaan uit het nierbuisje terug naar het bloed</strong>; dat heet ook terugopname of reabsorptie, via diffusie, osmose en actief transport; <strong>alle glucose</strong> wordt teruggeresorbeerd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>secretie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>extra stoffen actief vanuit het bloed in het nierbuisje brengen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">excretie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de urine verlaat het lichaam</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een normale urine bevat <strong>water</strong>, <strong>ureum</strong>, urinezuur en zouten, maar geen glucose of <strong>eiwitten zoals albumine</strong>. <strong>Ureum</strong> is de stikstofhoudende afvalstof die de lever maakt uit de afbraak van aminozuren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij zuurstoftekort maakt de nier <strong>erytropoëtine (EPO)</strong>, dat de aanmaak van rode bloedcellen stimuleert."
+    }
+   ]
+  },
+  {
+   "kop": "Osmoregulatie en ADH",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Osmoregulatie</strong> of de regeling van de waterhuishouding is <strong>het constant houden van de hoeveelheid water en zouten in het lichaam</strong>. Het is een feedbacksysteem met <strong>osmoreceptoren als sensor</strong>, <strong>de hypothalamus als controlecentrum</strong> en <strong>de nieren als effector</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>antidiuretisch hormoon (ADH)</strong> wordt in de hypothalamus gemaakt en <strong>door de hypofyse</strong> aan het bloed afgegeven. ADH <strong>maakt de wand van de verzamelbuis beter doorlaatbaar voor water</strong>. Heb je veel gezweet en weinig gedronken, dan <strong>komt er meer ADH, neemt de verzamelbuis meer water terug en plas je weinig en geconcentreerd</strong>. Daarnaast zet de hypothalamus de <strong>dorst</strong> of dorstprikkel in gang. <strong>Alcohol remt de afgifte van ADH</strong>, waardoor je meer moet plassen."
+    }
+   ]
+  },
+  {
+   "kop": "Aandoeningen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aandoening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je moet weten</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>blaasontsteking</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meestal <strong>bacteriën die via de urinebuis binnendringen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>nierstenen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorkomen door <strong>voldoende water drinken</strong>, <strong>niet te veel zout eten</strong> en <strong>gezond en gevarieerd eten</strong>; verkleinen <strong>met een toestel dat de steen met schokgolven in stukjes slaat</strong>, de niersteenverbrijzelaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>nierfalen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">afvalstoffen zoals <strong>ureum stapelen zich op in het bloed</strong>; dan is dialyse of een transplantatie nodig</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>hemodialyse</strong> <strong>stroomt het bloed door een kunstnier en geeft het er afvalstoffen af aan een spoelvloeistof</strong>, door een semipermeabel membraan. Een <strong>shunt</strong> is een verbinding tussen een slagader en een ader in de arm, zodat men vlot bloed kan afnemen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Nier → urineleider → urineblaas → urinebuis.",
+  "Een nefron: glomerulus en kapsel van Bowman, kronkelbuisjes, lus van Henle, verzamelbuis.",
+  "Filtratie geeft voorurine; resorptie haalt nuttige stoffen terug; secretie voegt stoffen toe.",
+  "ADH uit de hypofyse laat de verzamelbuis meer water terugnemen.",
+  "Alcohol remt ADH; nierstenen voorkom je met veel water en weinig zout.",
+  "Hemodialyse zuivert het bloed in een kunstnier, via een shunt."
+ ]
+}

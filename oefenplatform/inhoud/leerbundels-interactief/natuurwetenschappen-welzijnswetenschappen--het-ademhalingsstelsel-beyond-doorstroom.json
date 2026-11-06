@@ -1,0 +1,113 @@
+{
+ "vak": "Natuurwetenschappen welzijnswetenschappen",
+ "titel": "Het ademhalingsstelsel",
+ "onder": "De luchtwegen en de longen, hoe je in- en uitademt, hoe gaswisseling werkt, het spirogram en de aandoeningen.",
+ "secties": [
+  {
+   "kop": "De luchtwegen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Ingeademde lucht gaat van de <strong>neusholte</strong> naar de <strong>keelholte</strong>, het <strong>strottenhoofd</strong>, de <strong>luchtpijp</strong>, de <strong>bronchiën</strong> en <strong>bronchiolen</strong>, tot in de <strong>longblaasjes</strong>, luchtzakjes of alveolen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De neusholte <strong>verwarmt de lucht</strong>, bevochtigt ze en <strong>filtert stofdeeltjes uit de lucht</strong>. Het <strong>trilhaarepitheel met slijmcellen</strong> <strong>vangt stof en ziektekiemen in slijm en voert ze af naar de keel</strong>. Rook <strong>beschadigt de trilharen, zodat het slijm niet meer goed afgevoerd wordt</strong>: de rokershoest."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Kraakbeenringen in de wand</strong> houden de luchtpijp open. Het <strong>strottenhoofd</strong> ligt <strong>tussen de keelholte en de luchtpijp, met de stembanden erin</strong>. Het <strong>strottenklepje</strong> sluit het strottenhoofd af bij het slikken."
+    }
+   ]
+  },
+  {
+   "kop": "De longen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De rechterlong heeft drie longkwabben en de linkerlong twee.</strong> Bij <strong>de longhilus</strong> gaan de hoofdbronchus, de bloedvaten en de zenuwen de long binnen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De longblaasjes zijn ideaal voor gaswisseling: <strong>ze hebben samen een enorm groot oppervlak</strong>, <strong>hun wand is erg dun</strong> en <strong>ze zijn omringd door een dicht net van haarvaten</strong>. De gaswisseling gebeurt daar, niet in de luchtpijp of de bronchiën."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>pleuraholte</strong> is <strong>de dunne ruimte met vocht tussen het longvlies en het borstvlies</strong>. Dankzij dat pleuravocht volgen de longen de borstkas."
+    }
+   ]
+  },
+  {
+   "kop": "Inademen en uitademen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij de inademing <strong>trekken de ademhalingsspieren samen, wordt de borstholte groter, daalt de druk in de longen en stroomt lucht naar binnen</strong>. <strong>De longen hebben geen eigen spieren</strong> om zelf uit te zetten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>middenrifademhaling</strong> of buikademhaling <strong>trekt het middenrif samen en wordt het platter, zodat de borstholte groter wordt</strong>. Bij de <strong>ribademhaling</strong> of borstademhaling heffen <strong>de tussenribspieren</strong> de ribben op. <strong>De ware ribben</strong> zitten rechtstreeks aan het borstbeen; valse en zwevende ribben niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een rustige uitademing ontspannen de ademhalingsspieren en veert de borstkas vanzelf terug.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Gaswisseling en hemoglobine",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Zuurstof en koolstofdioxide gaan <strong>door diffusie</strong> van lucht naar bloed en omgekeerd. In de longblaasjes <strong>is de partiële druk van O₂ hoger dan in het bloed van de haarvaten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het evenwicht <strong>deoxyhemoglobine + O₂ ⇌ oxyhemoglobine</strong> volgt het principe van Le Chatelier. In de longblaasjes verschuift het <strong>naar rechts, want de O₂-concentratie is er hoog</strong>. In de weefsels verschuift het naar de kant van deoxyhemoglobine."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>zuurstofaffiniteit</strong> is de mate waarin hemoglobine zuurstof bindt. Hemoglobine laat zuurstof makkelijker los bij <strong>een hogere temperatuur</strong>, <strong>een hogere CO₂-concentratie</strong> en een lagere pH, dus zuurder, zoals in werkende spieren."
+    },
+    {
+     "soort": "tekst",
+     "html": "CO₂ reist <strong>opgelost in het plasma</strong>, <strong>gebonden aan hemoglobine</strong> en, voor het grootste deel, <strong>als waterstofcarbonaat (HCO₃⁻) in het plasma</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Het spirogram",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>spirogram</strong> is <strong>een grafiek van het volume lucht dat iemand in- en uitademt in de tijd</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarde</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Betekenis</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ademvolume</strong> in rust</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de lucht bij een gewone, rustige ademhaling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>complementair volume</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de lucht die je na een gewone inademing nog extra kan inademen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitademingsreservevolume</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de lucht die je na een gewone uitademing nog extra kan uitademen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vitale capaciteit</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de grootste hoeveelheid lucht die je na een maximale inademing kan uitademen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>restvolume</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de lucht die na een maximale uitademing nog in de longen blijft</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>totale longcapaciteit</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de vitale capaciteit plus het restvolume</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De vitale capaciteit hangt af van <strong>de leeftijd</strong>, <strong>het geslacht</strong>, <strong>roken</strong> en <strong>veel sporten</strong>. <strong>Regelmatig sporten kan de vitale capaciteit vergroten.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Aandoeningen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aandoening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er gebeurt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>astma</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de bronchiolen vernauwen en zwellen op, zodat ademen moeilijk gaat</strong>; een puffer verwijdt ze</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>mucoviscidose</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een erfelijke ziekte waarbij taai slijm de luchtwegen en de alvleesklier verstopt</strong>; ze is niet besmettelijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hyperventilatie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je ademt te snel en te diep, zodat je te veel CO₂ uitademt</strong>; rustig ademen helpt</td></tr></table>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Neus → keel → strottenhoofd → luchtpijp → bronchiën → bronchiolen → longblaasjes.",
+  "Rechterlong drie kwabben, linkerlong twee.",
+  "Inademen: spieren trekken samen, borstholte groter, druk daalt, lucht stroomt in.",
+  "Gassen gaan door diffusie; in de longen ontstaat oxyhemoglobine.",
+  "Warmte, CO₂ en zuur laten hemoglobine zuurstof loslaten.",
+  "Totale longcapaciteit = vitale capaciteit + restvolume."
+ ]
+}

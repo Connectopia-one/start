@@ -1,0 +1,100 @@
+{
+ "vak": "Natuurwetenschappen welzijnswetenschappen",
+ "titel": "Het hart en de bloedsomloop",
+ "onder": "De bouw van het hart, de kleppen en de bloedstroom, de prikkelgeleiding en het ECG, en de dubbele bloedsomloop.",
+ "secties": [
+  {
+   "kop": "De bouw van het hart",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het hart ligt <strong>in de borstholte, tussen de twee longen in en een beetje naar links</strong>. Het heeft <strong>vier holtes: twee boezems en twee kamers</strong>. <strong>Het tussenschot of septum</strong> scheidt de linkerhelft van de rechterhelft. De punt heet de <strong>apex</strong>; de brede bovenkant is de <strong>hartbasis</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De hartwand bestaat van binnen naar buiten uit <strong>endocard, myocard, epicard</strong>. Het <strong>myocard</strong> is de dikke spierlaag, de hartspier. Rond het hart zit <strong>het hartzakje of pericard</strong>: <strong>een vlies rond het hart met wat vocht, zodat het vlot kan bewegen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De linkerkamer heeft de dikste spierwand, want ze pompt het bloed door de hele grote bloedsomloop.</strong> De hartspier zelf krijgt bloed <strong>via de kransslagaders</strong>, die vlak boven de aortaklep van de aorta aftakken. <strong>Een hartinfarct ontstaat meestal doordat een kransslagader verstopt raakt.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Bloedvaten en kleppen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bloedvat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Van waar naar waar</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bovenste en onderste holle ader</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zuurstofarm bloed uit het lichaam naar de rechterboezem</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>longslagader</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vertrekt uit de <strong>rechterkamer</strong>, zuurstofarm bloed naar de longen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>longaders</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>zuurstofrijk bloed van de longen naar de linkerboezem</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>aorta</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vertrekt uit de linkerkamer, zuurstofrijk bloed naar het lichaam</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bloedvaten die <strong>toekomen</strong> in het hart zijn de holle aders en de longaders; de aorta en de longslagader vertrekken. Een slagader vervoert bloed van het hart weg, maar niet altijd zuurstofrijk bloed: de longslagader vervoert zuurstofarm bloed."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De hartkleppen laten het bloed maar in één richting stromen.</strong> De atrioventriculaire kleppen liggen tussen boezem en kamer: <strong>de tricuspidalisklep</strong> rechts en <strong>de mitralisklep</strong> links, tussen de linkerboezem en de linkerkamer. De <strong>aortaklep</strong> en de <strong>pulmonalisklep</strong> liggen bij de slagaders."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rechts stroomt het bloed van <strong>holle aders, rechterboezem, tricuspidalisklep, rechterkamer, pulmonalisklep, longslagader</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Prikkelgeleiding en hartcyclus",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het impulsgeleidingssysteem of prikkelgeleidingssysteem van het hart start met de sinusknoop. De prikkels ontstaan <strong>in de sinusknoop, een groepje gangmakercellen in de boezem</strong>. De prikkel loopt <strong>sinusknoop, AV-knoop, bundel van His, bundeltakken, purkinjevezels</strong>. De AV-knoop houdt de prikkel even tegen, <strong>zodat de boezems eerst leeglopen voor de kamers samentrekken</strong>. <strong>Het autonoom zenuwstelsel kan de hartslag versnellen of vertragen, maar de sinusknoop bepaalt het basisritme.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Samentrekken heet <strong>systole</strong>, ontspannen diastole. Tijdens de <strong>kamersystole</strong> <strong>trekken de kamers samen</strong>, <strong>sluiten de atrioventriculaire kleppen</strong> en <strong>gaan de aortaklep en de pulmonalisklep open</strong>. In de <strong>rustfase</strong> <strong>zijn boezems en kamers ontspannen en loopt het bloed het hart in</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>elektrocardiogram of ECG</strong> registreert <strong>de elektrische activiteit van het hart</strong>. De <strong>P-top</strong> hoort bij de prikkeling van de boezems, het <strong>QRS-complex</strong> bij <strong>de prikkeling van de kamers, net voor ze samentrekken</strong>, en de <strong>T-top</strong> bij het herstel van de kamers."
+    }
+   ]
+  },
+  {
+   "kop": "De dubbele bloedsomloop",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>kleine bloedsomloop</strong> is <strong>de weg van de rechterkamer via de longen naar de linkerboezem</strong>. De grote bloedsomloop gaat van de linkerkamer door het lichaam naar de rechterboezem. Bij een <strong>dubbele bloedsomloop</strong> passeert het bloed <strong>twee keer door het hart</strong> bij één volledige rondgang."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>poortader</strong> is <strong>een ader tussen twee haarvatennetwerken, zoals tussen darm en lever</strong>. Via de leverpoortader <strong>verwerkt de lever eerst de opgenomen voedingsstoffen en ontgift ze het bloed</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Slagaders, aders en haarvaten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het bloed stroomt <strong>slagader, arteriolen, haarvaten, venulen, ader</strong>. De <strong>haarvaten</strong> of capillairen hebben een wand van één cellaag; daar gebeurt de uitwisseling met de weefsels."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een slagader heeft een dikke, gespierde wand, een ader een dunnere wand met kleppen.</strong> In de wand van een slagader vind je <strong>een endotheellaag aan de binnenkant</strong>, <strong>een laag glad spierweefsel</strong> en <strong>bindweefsel aan de buitenkant</strong>. De druk is het hoogst in de slagaders en het laagst in de aders, dus <strong>niet</strong> hoger in de aders."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het bloed in de aders van de benen komt terug dankzij <strong>de veneuze kleppen</strong>, <strong>het samentrekken van de beenspieren rond de aders</strong> en <strong>de zuigwerking bij het inademen</strong>: de veneuze terugstroom."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Vier holtes; de linkerkamer heeft de dikste wand.",
+  "Holle aders → rechterboezem → rechterkamer → longslagader; longaders → linkerboezem → linkerkamer → aorta.",
+  "Mitralisklep links, tricuspidalisklep rechts.",
+  "Sinusknoop → AV-knoop → bundel van His → bundeltakken → purkinjevezels.",
+  "P-top: boezems; QRS: kamers; T-top: herstel van de kamers.",
+  "Kleine bloedsomloop: hart → longen → hart. Poortader: tussen twee haarvatennetwerken."
+ ]
+}
