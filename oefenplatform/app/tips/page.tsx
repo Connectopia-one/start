@@ -57,14 +57,21 @@ export default async function TipsPage() {
                 </p>
               </Blaadje>
             ))}
+            {tipsTekst.nota.kop && (
+              <Blaadje nummer={tipsTekst.stappen.length} inRaster>
+                <p className="font-display text-[13px] font-semibold uppercase tracking-wide text-ink-dim">
+                  📌 {tipsTekst.nota.label}
+                </p>
+                <h2 className="mt-1 font-display text-[17px] font-semibold leading-snug text-ink">
+                  {tipsTekst.nota.kop}
+                </h2>
+                <p className="mt-2 text-[15px] leading-relaxed text-ink">
+                  {tipsTekst.nota.tekst}
+                </p>
+              </Blaadje>
+            )}
           </div>
         </div>
-
-        {tipsTekst.nota && (
-          <p className="mt-8 max-w-2xl rounded-md bg-amber/10 px-4 py-3 text-sm text-ink">
-            {tipsTekst.nota}
-          </p>
-        )}
 
         {tipsTekst.oproepLink && (
           <p className="mt-8">

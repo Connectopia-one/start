@@ -68,9 +68,15 @@ export const tipsTekst = {
         "Zet in Mijn account bij je kind het vinkje voor voorlezen aan. Dan staat er bij elke vraag en bij de uitleg een knopje 🔊 Lees voor. De computer of tablet leest voor met zijn eigen stem. Het klinkt het best in Google Chrome op een computer. Bij formules en vreemde woorden kan de uitspraak eens mislopen.",
     },
   ],
-  /* Een nota onderaan. Laat hem leeg om hem te verbergen. */
-  nota:
-    "Let op: er is één oefenbundel per hoofdstuk, geen twee verschillende.",
+  /* Een extra briefje op het bord, na de stappen, zonder stapnummer. Kim,
+     7 november 2026: liever een post-it die het uitlegt dan een klein
+     zinnetje eronder. Laat de kop leeg om het briefje te verbergen. */
+  nota: {
+    label: "Goed om te weten",
+    kop: "Deel 1 en deel 2 delen één oefenbundel",
+    tekst:
+      "Sommige hoofdstukken zijn online gesplitst in \"deel 1\" en \"deel 2\". Dat is enkel omdat er zoveel vragen zijn: het blijft één onderwerp, met één leerbundel en één oefenbundel. Bij deel 1 en bij deel 2 zie je dus dezelfde oefenbundel staan. Maak hem één keer, als je beide delen gedaan hebt: dan is hij je eindtest van het hele onderwerp.",
+  },
   /* De knop onderaan. Laat de link leeg om de knop te verbergen. */
   oproepTekst: "Naar de vakken",
   oproepLink: "/",
