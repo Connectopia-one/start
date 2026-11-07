@@ -22,9 +22,11 @@ function menuLinks(rol?: Rol) {
     { href: "/", tekst: "Vakken" },
     { href: "/tips", tekst: "Tips" },
     { href: "/weetjes", tekst: "Weetjes" },
-    { href: "/extras", tekst: "Leuke extra's" },
+    /* Leuke extra's en Materiaal zijn samen "Extra's" geworden: één knop
+       minder in de balk (Kim, 7 november 2026). Het materiaal staat
+       onderaan /extras. */
+    { href: "/extras", tekst: "Extra's" },
     { href: "/reviews", tekst: "Reviews" },
-    { href: "/materiaal", tekst: "Materiaal" },
     { href: "/over-ons", tekst: "Over ons" },
   ];
   if (rol === "beheerder" || rol === "begeleider") {
@@ -45,12 +47,12 @@ export function Header({ naam, rol }: { naam?: string; rol?: Rol }) {
       <div className="mx-auto flex max-w-4xl items-center justify-between gap-4 px-6 py-4">
         <Link
           href="/"
-          className="flex items-center gap-2 font-display text-lg font-semibold text-forest-dark"
+          className="flex shrink-0 items-center gap-2.5 font-display text-xl font-semibold text-forest-dark"
           title="Naar de startpagina"
         >
           {/* Het huisje maakt duidelijk dat dit altijd naar het begin gaat
               (Marjolein, enquête november 2026). */}
-          <span aria-hidden>🏠</span>
+          <span aria-hidden className="text-3xl leading-none">🏠</span>
           Oefenplatform
         </Link>
 
@@ -60,7 +62,7 @@ export function Header({ naam, rol }: { naam?: string; rol?: Rol }) {
             <Link
               key={link.href}
               href={link.href}
-              className="text-forest-dark hover:underline"
+              className="whitespace-nowrap text-forest-dark hover:underline"
             >
               {link.tekst}
             </Link>

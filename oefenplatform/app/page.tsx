@@ -6,7 +6,7 @@ import {
 } from "@/components/MeldingAntwoorden";
 import { Dagvraag } from "@/components/Dagvraag";
 import { Header } from "@/components/Header";
-import { HelpOnsStappen } from "@/components/HelpOnsStappen";
+import { HelpOnsKaart, HelpOnsStappen } from "@/components/HelpOnsStappen";
 import { VerderWaarJeWas } from "@/components/VerderWaarJeWas";
 import { getSessionProfile } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
@@ -84,11 +84,13 @@ export default async function HomePage() {
         <MeldingAntwoorden meldingen={meldingen} />
         {/* Bovenaan, zodat wie vanuit de mail komt de enquête niet hoeft te
             zoeken (Kim, 6 november 2026). */}
-        {session && (
-          <div className="mb-8 [&>section]:mt-0">
+        <div className="mb-8 [&>section]:mt-0">
+          {session ? (
             <HelpOnsStappen userId={session.userId} />
-          </div>
-        )}
+          ) : (
+            <HelpOnsKaart enqueteKlaar={false} reviewKlaar={false} beloning={null} bezoeker />
+          )}
+        </div>
         {session && <VerderWaarJeWas userId={session.userId} />}
 
         <h1 className="font-display text-2xl font-semibold text-ink">
@@ -259,39 +261,8 @@ export default async function HomePage() {
           </Link>
         </div>
 
-        {/* De enquête en het reviewbord (Kim, 5 november 2026). De enquête is
-            privé, het reviewbord is voor iedereen; elk een eigen post-it,
-            net als de weetjes. Wie ingelogd is, ziet die twee al bovenaan als
-            klikknoppen; hier nog eens was dubbel (Kim, 7 november 2026). */}
-        {!session && (
-        <div className="mt-4 grid gap-4 sm:grid-cols-2">
-          <Link
-            href="/enquete"
-            className="rounded-xl border border-border bg-surface px-6 py-5 transition hover:border-forest hover:shadow-sm"
-          >
-            <span className="font-display text-lg font-semibold text-ink">
-              📝 Help ons beter worden
-            </span>
-            <span className="mt-1 block text-sm text-ink-dim">
-              Een korte enquête over wat goed werkt en wat beter kan. Alleen
-              wij lezen je antwoorden.
-            </span>
-          </Link>
-
-          <Link
-            href="/reviews"
-            className="rounded-xl border border-border bg-surface px-6 py-5 transition hover:border-forest hover:shadow-sm"
-          >
-            <span className="font-display text-lg font-semibold text-ink">
-              💬 Wat gezinnen ervan vinden
-            </span>
-            <span className="mt-1 block text-sm text-ink-dim">
-              Echte reviews van gezinnen die het platform gebruiken. Schrijf
-              gerust de jouwe.
-            </span>
-          </Link>
-        </div>
-        )}
+        {/* De enquête en het reviewbord stonden hier eerst nog eens als twee
+            tegels. Ze staan nu bovenaan, voor iedereen (Kim, 7 november 2026). */}
 
         {/* Spelletjes naast de leerstof, zoals de begrippenarena van
             geschiedenis. Ze tellen nergens voor mee. */}

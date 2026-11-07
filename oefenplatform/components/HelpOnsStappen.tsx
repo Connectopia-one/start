@@ -42,12 +42,34 @@ export function HelpOnsKaart({
   enqueteKlaar,
   reviewKlaar,
   beloning,
+  bezoeker = false,
 }: {
   enqueteKlaar: boolean;
   reviewKlaar: boolean;
   beloning: Beloning | null;
+  /* Wie niet ingelogd is, ziet het blok ook (Kim, 7 november 2026). De
+     reviews lezen kan zonder account; de enquête vraagt eerst om in te
+     loggen, want we koppelen de antwoorden aan het gezin. */
+  bezoeker?: boolean;
 }) {
-  const stappen = [
+  const stappen = bezoeker
+    ? [
+        {
+          href: "/enquete",
+          emoji: "💬",
+          titel: "Vul de enquête in",
+          uitleg: "Log eerst in. Alleen wij lezen je antwoorden",
+          klaar: false,
+        },
+        {
+          href: "/reviews",
+          emoji: "⭐",
+          titel: "Lees de reviews",
+          uitleg: "Echte reviews van onze gezinnen",
+          klaar: false,
+        },
+      ]
+    : [
     {
       href: "/enquete",
       emoji: "💬",

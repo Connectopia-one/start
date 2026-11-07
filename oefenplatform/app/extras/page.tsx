@@ -47,6 +47,26 @@ export default async function ExtrasPage() {
             </Link>
           ))}
         </div>
+
+        {/* Materiaal had eerst een eigen knop in de menubalk. Nu het menu
+            korter is, staat het hier (Kim, 7 november 2026). */}
+        <Link
+          href="/materiaal"
+          className="mt-6 flex items-center justify-between gap-4 rounded-xl border border-dashed border-forest/50 bg-surface px-6 py-5 transition hover:border-forest hover:shadow-sm"
+        >
+          <span>
+            <span className="font-display text-lg font-semibold text-ink">
+              🔗 Handig materiaal
+            </span>
+            <span className="mt-1 block text-sm text-ink-dim">
+              Links die we zelf gebruiken: vakfiches, naslagwerken en
+              oefensites. Gratis, ook zonder account.
+            </span>
+          </span>
+          <span aria-hidden className="shrink-0 text-forest">
+            &rarr;
+          </span>
+        </Link>
       </main>
     </>
   );
