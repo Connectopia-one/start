@@ -57,19 +57,23 @@ export default async function TipsPage() {
                 </p>
               </Blaadje>
             ))}
-            {tipsTekst.nota.kop && (
-              <Blaadje nummer={tipsTekst.stappen.length} inRaster>
+            {tipsTekst.briefjes.map((briefje, i) => (
+              <Blaadje
+                key={briefje.kop}
+                nummer={tipsTekst.stappen.length + i}
+                inRaster
+              >
                 <p className="font-display text-[13px] font-semibold uppercase tracking-wide text-ink-dim">
-                  📌 {tipsTekst.nota.label}
+                  📌 {briefje.label}
                 </p>
                 <h2 className="mt-1 font-display text-[17px] font-semibold leading-snug text-ink">
-                  {tipsTekst.nota.kop}
+                  {briefje.kop}
                 </h2>
                 <p className="mt-2 text-[15px] leading-relaxed text-ink">
-                  {tipsTekst.nota.tekst}
+                  {briefje.tekst}
                 </p>
               </Blaadje>
-            )}
+            ))}
           </div>
         </div>
 

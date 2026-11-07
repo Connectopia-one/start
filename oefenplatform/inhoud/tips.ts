@@ -63,20 +63,28 @@ export const tipsTekst = {
         "Is het hoofdstuk af, dan test je het nog eens met de oefenbundel die je kan afdrukken. Daarin staan andere vragen dan online, dus het is echt extra oefening bij dat hoofdstuk.",
     },
     {
-      kop: "Liever laten voorlezen?",
+      kop: "Sluit af met het examen over het hele vak",
       tekst:
-        "Zet in Mijn account bij je kind het vinkje voor voorlezen aan. Dan staat er bij elke vraag en bij de uitleg een knopje 🔊 Lees voor. De computer of tablet leest voor met zijn eigen stem. Het klinkt het best in Google Chrome op een computer. Bij formules en vreemde woorden kan de uitspraak eens mislopen.",
+        "Zijn alle hoofdstukken van een vak gedaan, dan maken we onderaan de vakpagina het examen over het hele vak. Daarin komen vragen uit alle hoofdstukken samen, en die worden elke keer opnieuw gekozen. Zo heb je telkens een andere versie van het examen en kan je het gerust een paar keer maken.",
     },
   ],
-  /* Een extra briefje op het bord, na de stappen, zonder stapnummer. Kim,
-     7 november 2026: liever een post-it die het uitlegt dan een klein
-     zinnetje eronder. Laat de kop leeg om het briefje te verbergen. */
-  nota: {
-    label: "Goed om te weten",
-    kop: "Deel 1 en deel 2 delen één oefenbundel",
-    tekst:
-      "Sommige hoofdstukken zijn online gesplitst in \"deel 1\" en \"deel 2\". Dat is enkel omdat er zoveel vragen zijn: het blijft één onderwerp, met één leerbundel en één oefenbundel. Bij deel 1 en bij deel 2 zie je dus dezelfde oefenbundel staan. Maak hem één keer, als je beide delen gedaan hebt: dan is hij je eindtest van het hele onderwerp.",
-  },
+  /* Extra briefjes op het bord, na de stappen en zonder stapnummer. Kim,
+     7 november 2026: liever een post-it die iets uitlegt dan een klein
+     zinnetje onder het bord. Een briefje weghalen doe je hier in de lijst. */
+  briefjes: [
+    {
+      label: "Goed om te weten",
+      kop: "Deel 1 en deel 2 delen één oefenbundel",
+      tekst:
+        "Sommige hoofdstukken zijn online gesplitst in \"deel 1\" en \"deel 2\". Dat is enkel omdat er zoveel vragen zijn: het blijft één onderwerp, met één leerbundel en één oefenbundel. Bij deel 1 en bij deel 2 zie je dus dezelfde oefenbundel staan. Je maakt hem één keer, als je beide delen gedaan hebt.",
+    },
+    {
+      label: "Tip bij dyslexie",
+      kop: "Gaat lezen nog moeilijk? Laat voorlezen",
+      tekst:
+        "Zet in Mijn account bij je kind het vinkje voor voorlezen aan. Dan staat er bij elke vraag en bij de uitleg een knopje 🔊 Lees voor. De computer of tablet leest voor met zijn eigen stem. Dit is nog een uitprobeersel: het klinkt het best in Google Chrome op een computer, en bij formules en vreemde woorden kan de uitspraak eens mislopen.",
+    },
+  ],
   /* De knop onderaan. Laat de link leeg om de knop te verbergen. */
   oproepTekst: "Naar de vakken",
   oproepLink: "/",
