@@ -20,40 +20,100 @@ export async function HelpOnsStappen({ userId }: { userId: string }) {
   ]);
   if (enquete.error || review.error) return null;
 
-  const enqueteKlaar = Boolean(enquete.data);
-  const reviewKlaar = Boolean(review.data);
+  return (
+    <HelpOnsKaart
+      enqueteKlaar={Boolean(enquete.data)}
+      reviewKlaar={Boolean(review.data)}
+      beloning={(beloning.data?.soort as Beloning | undefined) ?? null}
+    />
+  );
+}
+
+type Beloning = "vaste_prijs" | "gratis_toegang";
+
+/*
+  Het tekenen zelf. Zelfde opbouw als "Verder waar je was" eronder: een kopje
+  en twee kaarten naast elkaar, even breed als de rest van de pagina. Kim op
+  7 november 2026: het oude witte blok met twee tekstlinks was smaller dan de
+  rest en leek dubbel met het oranje bericht. Nu zijn het twee vrolijke
+  klikknoppen; wat al binnen is, kleurt groen met een vinkje.
+*/
+export function HelpOnsKaart({
+  enqueteKlaar,
+  reviewKlaar,
+  beloning,
+}: {
+  enqueteKlaar: boolean;
+  reviewKlaar: boolean;
+  beloning: Beloning | null;
+}) {
+  const stappen = [
+    {
+      href: "/enquete",
+      emoji: "💬",
+      titel: "Vul de enquête in",
+      uitleg: "Alleen wij lezen je antwoorden",
+      klaar: enqueteKlaar,
+    },
+    {
+      href: "/reviews#schrijf",
+      emoji: "⭐",
+      titel: "Schrijf een eerlijke review",
+      uitleg: "Komt op het reviewbord als wij hem ophangen",
+      klaar: reviewKlaar,
+    },
+  ];
 
   return (
-    <div className="mt-6 max-w-2xl rounded-xl border border-border bg-surface px-5 py-4 text-sm">
-      <p className="font-semibold text-ink">Help ons het platform beter maken</p>
-      <ul className="mt-2 space-y-1 text-ink">
-        <li>
-          {enqueteKlaar ? "✅" : "⬜"}{" "}
-          <Link href="/enquete" className="underline underline-offset-2">
-            De enquête
-          </Link>{" "}
-          <span className="text-ink-dim">(alleen wij lezen je antwoorden)</span>
-        </li>
-        <li>
-          {reviewKlaar ? "✅" : "⬜"}{" "}
-          <Link href="/reviews#schrijf" className="underline underline-offset-2">
-            Een eerlijke review
-          </Link>{" "}
-          <span className="text-ink-dim">(komt op het reviewbord als wij hem ophangen)</span>
-        </li>
-      </ul>
-      {beloning.data ? (
-        <p className="mt-3 rounded-md bg-forest/10 px-3 py-2 text-forest-dark">
-          {beloning.data.soort === "vaste_prijs"
+    <section className="mt-6">
+      <h2 className="font-display text-base font-semibold text-ink">
+        Help ons het platform beter maken
+      </h2>
+      <div className="mt-2 grid gap-3 sm:grid-cols-2">
+        {stappen.map((s) => (
+          <Link
+            key={s.href}
+            href={s.href}
+            className={
+              "group flex items-center gap-4 rounded-xl border px-4 py-3 transition hover:-translate-y-0.5 hover:shadow-sm " +
+              (s.klaar
+                ? "border-forest/40 bg-forest/10 hover:border-forest"
+                : "border-amber/40 bg-amber/10 hover:border-amber")
+            }
+          >
+            <span
+              aria-hidden
+              className={
+                "flex h-11 w-11 shrink-0 items-center justify-center rounded-full text-xl transition group-hover:scale-110 " +
+                (s.klaar ? "bg-forest text-white" : "bg-surface")
+              }
+            >
+              {s.klaar ? "✓" : s.emoji}
+            </span>
+            <span className="min-w-0 flex-1 text-sm">
+              <span className="block font-medium text-ink">{s.titel}</span>
+              <span className="block text-xs text-ink-dim">
+                {s.klaar ? "Gedaan, dank je wel!" : s.uitleg}
+              </span>
+            </span>
+            <span aria-hidden className="shrink-0 text-ink-dim transition group-hover:translate-x-0.5 group-hover:text-ink">
+              &rarr;
+            </span>
+          </Link>
+        ))}
+      </div>
+      {beloning ? (
+        <p className="mt-3 rounded-xl bg-forest/10 px-4 py-3 text-sm text-forest-dark">
+          {beloning === "vaste_prijs"
             ? "Dank je wel! We hebben alles gelezen. Jouw prijs blijft 20 euro per schooljaar, ook als de prijs later stijgt."
             : "Dank je wel! We hebben alles gelezen. Je hebt gratis toegang tot en met 31 augustus 2027."}
         </p>
       ) : enqueteKlaar && reviewKlaar ? (
-        <p className="mt-3 text-ink-dim">
+        <p className="mt-3 text-sm text-ink-dim">
           Allebei binnen, dank je wel! Kim leest alles zelf na. Zodra dat gebeurd is, zie je hier
           wat je als bedankje krijgt.
         </p>
       ) : null}
-    </div>
+    </section>
   );
 }

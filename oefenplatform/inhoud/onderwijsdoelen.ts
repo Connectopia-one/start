@@ -168,21 +168,19 @@ export const doelenBlokken: DoelenBlok[] = [
 */
 export const startUitleg = {
   kop: "Wat is dit?",
+  /* Kim, 7 november 2026: liever kleine blokjes dan een opsomming, en niet
+     nog eens de tekst die al op /over-ons staat ("tis gewoon veel en druk").
+     Daarom vier korte blokjes met een icoontje, en een link naar Over ons
+     voor wie meer wil weten. De zin over de leidraad staat op /over-ons en
+     onder elk hoofdstuk (components/Leidraad.tsx). */
   punten: [
-    "Wij zijn Connectopia vzw en we maken dit oefenplatform zelf.",
-    "De leerstof volgt de minimumdoelen van de Vlaamse overheid en de vakfiches van de Examencommissie.",
-    "Je oefent vooral met meerkeuzevragen, aangevuld met invulvragen en waar-of-niet.",
-    "Bij elk hoofdstuk hoort een leerbundel met de theorie, zodat je de leerstof ook kan leren en niet enkel kan testen.",
+    { emoji: "🌱", kop: "Gemaakt door Connectopia vzw" },
+    { emoji: "🎯", kop: "Volgens de officiële vakfiches" },
+    { emoji: "✏️", kop: "Meerkeuze, invullen en waar-of-niet" },
+    { emoji: "📘", kop: "Een leerbundel bij elk hoofdstuk" },
   ],
-  /* Staat onder de vier punten. Kim, 11 oktober 2026: mensen moeten weten dat
-     wij een uitgebreide leidraad zijn van de officiële vakfiches, en dat je
-     daarnaast zelf nog moet oefenen en opzoeken. Dezelfde boodschap staat
-     uitgebreider op /over-ons en kort onder elk hoofdstuk, in
-     components/Leidraad.tsx; die drie moeten hetzelfde zeggen. */
-  slot:
-    "Ga je bij ons door een vak heen, dan heb je alle leerstof gezien die op dat examen gevraagd wordt. Zie het als een uitgebreide leidraad en blijf er daarnaast zelf genoeg bij oefenen en opzoeken.",
-  linkTekst: "Bekijk welke doelen we gebruiken",
-  link: "/onderwijsdoelen",
+  linkTekst: "Meer over ons en de doelen die we volgen",
+  link: "/over-ons",
 };
 
 /*

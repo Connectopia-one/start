@@ -66,14 +66,27 @@ export async function VerderWaarJeWas({ userId }: { userId: string }) {
     .filter((k): k is NonNullable<typeof k> => k !== null);
   if (!knoppen.length) return null;
 
-  const meerdere = kinderen.length > 1;
+  return <VerderKaarten knoppen={knoppen} meerdere={kinderen.length > 1} />;
+}
 
+export type VerderKnop = { kind: string; href: string; vak: string; titel: string };
+
+/* Het tekenen zelf, los van het ophalen: zo kan HelpOnsStappen dezelfde
+   opbouw (kopje boven, twee kaarten naast elkaar) gebruiken en lopen beide
+   blokken even breed en gelijk uitgelijnd. */
+export function VerderKaarten({
+  knoppen,
+  meerdere,
+}: {
+  knoppen: VerderKnop[];
+  meerdere: boolean;
+}) {
   return (
     <section className="mb-8">
       <h2 className="font-display text-base font-semibold text-ink">
         Verder waar je was
       </h2>
-      <div className="mt-2 grid gap-2 sm:grid-cols-2">
+      <div className="mt-2 grid gap-3 sm:grid-cols-2">
         {knoppen.map((k) => (
           <Link
             key={k.kind + k.href}

@@ -85,7 +85,7 @@ export default async function HomePage() {
         {/* Bovenaan, zodat wie vanuit de mail komt de enquête niet hoeft te
             zoeken (Kim, 6 november 2026). */}
         {session && (
-          <div className="mb-8 [&>div]:mt-0">
+          <div className="mb-8 [&>section]:mt-0">
             <HelpOnsStappen userId={session.userId} />
           </div>
         )}
@@ -103,35 +103,36 @@ export default async function HomePage() {
             eronder. De kaders stonden eerst smaller, en dat viel op: de linker-
             en rechterrand sprongen dan halverwege de pagina naar binnen. */}
         {/* Wie hier voor het eerst komt, weet nog niet wat dit is en waarop het
-            steunt. Vier korte zinnen, de regel over wat we precies zijn, en
-            een link voor wie het naadje van de kous wil. De volledige tekst
-            staat op /over-ons. */}
-        <section className="mt-5 rounded-xl border border-border bg-surface p-5">
+            steunt. Vier kleine blokjes en een link naar /over-ons, waar de
+            volledige tekst staat. */}
+        <section className="mt-5">
           <h2 className="font-display text-base font-semibold text-ink">
             {startUitleg.kop}
           </h2>
-          <ul className="mt-2 space-y-1.5 text-sm text-ink-dim">
+          <div className="mt-2 grid grid-cols-2 gap-3 lg:grid-cols-4">
             {startUitleg.punten.map((punt) => (
-              <li key={punt} className="flex gap-2">
-                <span aria-hidden className="text-forest">
-                  &bull;
+              <div
+                key={punt.kop}
+                className="flex items-center gap-3 rounded-xl border border-border bg-surface px-3 py-3"
+              >
+                <span aria-hidden className="text-xl">
+                  {punt.emoji}
                 </span>
-                <span>{punt}</span>
-              </li>
+                <span className="text-sm leading-snug text-ink">{punt.kop}</span>
+              </div>
             ))}
-          </ul>
-          <p className="mt-3 text-sm text-ink">{startUitleg.slot}</p>
-          <p className="mt-3 text-sm">
+          </div>
+          <p className="mt-2 text-sm">
             <Link
               href={startUitleg.link}
               className="text-forest-dark underline-offset-2 hover:underline"
             >
-              {startUitleg.linkTekst}
+              {startUitleg.linkTekst} &rarr;
             </Link>
           </p>
         </section>
 
-        <p className="mt-5 rounded-md bg-info/10 px-4 py-3 text-sm text-ink">
+        <p className="mt-5 rounded-xl bg-info/10 px-4 py-3 text-sm text-ink">
           💡 Kies de categorie die het beste past bij wat je kind{" "}
           <strong>al kan</strong> — niet per se het officiële leerjaar of de
           leeftijd. Een kind mag gerust een categorie hoger of lager oefenen dan
@@ -260,7 +261,9 @@ export default async function HomePage() {
 
         {/* De enquête en het reviewbord (Kim, 5 november 2026). De enquête is
             privé, het reviewbord is voor iedereen; elk een eigen post-it,
-            net als de weetjes. */}
+            net als de weetjes. Wie ingelogd is, ziet die twee al bovenaan als
+            klikknoppen; hier nog eens was dubbel (Kim, 7 november 2026). */}
+        {!session && (
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
           <Link
             href="/enquete"
@@ -288,6 +291,7 @@ export default async function HomePage() {
             </span>
           </Link>
         </div>
+        )}
 
         {/* Spelletjes naast de leerstof, zoals de begrippenarena van
             geschiedenis. Ze tellen nergens voor mee. */}
