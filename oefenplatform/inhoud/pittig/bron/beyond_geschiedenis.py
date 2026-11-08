@@ -26,6 +26,7 @@ THEMAS = [
     ("imperialisme", "Modern imperialisme, Congo en China"),
     ("eerste_wereldoorlog", "De Eerste Wereldoorlog en de Russische revoluties"),
     ("interbellum", "Interbellum: totalitarisme en crisis"),
+    ("tweede_wereldoorlog", "De Tweede Wereldoorlog en de Holocaust"),
 ]
 
 HOOFDSTUKKEN = [
