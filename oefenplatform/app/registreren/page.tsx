@@ -123,6 +123,10 @@ export default async function RegistrerenPage({
         </form>
 
         <p className="mt-6 text-center text-xs text-ink-dim">
+          Dit is de login van het oefenplatform. Het ouderportaal van de kampen
+          heeft een eigen login.
+        </p>
+        <p className="mt-2 text-center text-xs text-ink-dim">
           Heb je al een account?{" "}
           <Link
             href="/login"
