@@ -109,9 +109,60 @@ def narekenen(vraag):
     return []
 
 
+EXAMENVORMEN = {"tabel", "keuzelijst", "volgorde", "koppelen", "sorteren", "sleepzin", "hotspot", "open", "tekenen"}
+PUBLIEK = UIT.parent.parent / "public"
+
+
+def plat(vragen):
+    """De vragen zonder casusgroepen: elke vraag uit een casus apart."""
+    uit = []
+    for v in vragen:
+        if "casus" in v and "vragen" in v:
+            uit += v["vragen"]
+        else:
+            uit.append(v)
+    return uit
+
+
+def examenvorm(kop, v):
+    """Wat er minstens in een vraag van een examenvorm moet staan."""
+    m = []
+    t = v["type"]
+    if t != "open" and t != "tekenen" and not v.get("uitleg"):
+        m.append(f"{kop}: geen uitleg")
+    if t in ("open", "tekenen") and not v.get("antwoord"):
+        m.append(f"{kop}: geen voorbeeldantwoord")
+    if t == "tabel":
+        if len(v.get("rijen", [])) != len(v.get("antwoord", [])) or len(v.get("rijen", [])) < 3:
+            m.append(f"{kop}: tabel met te weinig rijen of antwoorden")
+        kol = v.get("kolommen")
+        if not kol and len(set(v["antwoord"])) < 2:
+            m.append(f"{kop}: alle rijen van de tabel hebben hetzelfde antwoord")
+        if kol and any(a not in kol for a in v["antwoord"]):
+            m.append(f"{kop}: tabelantwoord niet in de kolommen")
+    if t == "keuzelijst":
+        lijsten = re.findall(r"\[\[([^\]]+)\]\]", v["vraag"])
+        if not lijsten or any(l.count("*") != 1 or not l.startswith("*") and "|*" not in l for l in lijsten):
+            m.append(f"{kop}: elke keuzelijst heeft precies één juist antwoord met *")
+    if t == "sleepzin" and not re.search(r"\[\[[^\]]+\]\]", v["vraag"]):
+        m.append(f"{kop}: sleepzin zonder [[woord]]")
+    if t == "koppelen" and len({r for _, r in v.get("paren", [])}) < 2:
+        m.append(f"{kop}: koppelvraag met te weinig paren")
+    if t == "sorteren" and len({k for _, k in v.get("items", [])}) < 2:
+        m.append(f"{kop}: sorteervraag gebruikt maar één kolom")
+    if t == "volgorde" and len(v.get("opties", [])) < 3:
+        m.append(f"{kop}: volgorde met minder dan drie stappen")
+    if t == "hotspot" and not v.get("zones"):
+        m.append(f"{kop}: klikvraag zonder zones")
+    url = v.get("afbeelding_url")
+    if url and not (PUBLIEK / url.lstrip("/")).exists() and not v.get("prent_volgt"):
+        m.append(f"{kop}: prent {url} bestaat niet")
+    return m
+
+
 def nakijken(module, niveau, titel, vragen, elders, gezien):
     meldingen = []
-    for v in vragen:
+    for v in plat(vragen):
         kop = f"{titel} / {v['vraag'][:50]}"
         sleutel = (niveau, vergelijkbaar(v["vraag"]))
         if sleutel in gezien:
@@ -119,6 +170,11 @@ def nakijken(module, niveau, titel, vragen, elders, gezien):
         elif sleutel in elders:
             meldingen.append(f"{kop}: staat al in {elders[sleutel]}")
         gezien[sleutel] = f"{module} / {titel}"
+        if re.search(r"vakfiche|\bfiche\b", json.dumps(v, ensure_ascii=False), re.I):
+            meldingen.append(f"{kop}: het woord fiche hoort niet in een vraag")
+        if v["type"] in EXAMENVORMEN:
+            meldingen += examenvorm(kop, v)
+            continue
         if not v.get("uitleg"):
             meldingen.append(f"{kop}: geen uitleg")
         if v["type"] == "meerkeuze":
@@ -148,6 +204,7 @@ def nakijken(module, niveau, titel, vragen, elders, gezien):
 
 def gokpatronen(titel, vragen):
     meldingen = []
+    vragen = plat(vragen)
     mk = [v for v in vragen if v["type"] == "meerkeuze"]
     langst = 0
     for v in mk:
@@ -182,10 +239,14 @@ def bouw(naam, elders):
         vragen = [dict(v) for v in vragen]
         meldingen += nakijken(naam, module.NIVEAU, titel, vragen, elders, gezien)
         meldingen += gokpatronen(titel, vragen)
-        if len(vragen) != 20:
-            meldingen.append(f"{titel}: {len(vragen)} vragen in plaats van 20")
+        aantal = getattr(module, "AANTAL", 20)
+        if len(plat(vragen)) != aantal:
+            meldingen.append(f"{titel}: {len(plat(vragen))} vragen in plaats van {aantal}")
         for v in vragen:
             v.pop("reken", None)
+            v.pop("prent_volgt", None)
+            for w in v.get("vragen", []):
+                w.pop("prent_volgt", None)
         hoofdstukken.append(
             {
                 "titel": titel + ACHTERVOEGSEL,
@@ -201,7 +262,7 @@ def bouw(naam, elders):
         json.dumps({"hoofdstukken": hoofdstukken}, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
-    aantal = sum(len(h["vragen"]) for h in hoofdstukken)
+    aantal = sum(len(plat(h["vragen"])) for h in hoofdstukken)
     print(f"{doel.name:32} {module.VAK:24} {len(hoofdstukken)} hoofdstukken, {aantal} vragen")
 
 
