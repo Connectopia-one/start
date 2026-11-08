@@ -53,7 +53,7 @@ VRAGEN = [
         "Plantage-eigenaars verdienden aan slavernij en waren de grootste tegenstanders. De abolitionisten combineerden christelijke en verlichte argumenten.",
     ),
     met_prent("abolitie-medaillon.webp", mk(
-        "Welk abolitionistisch idee benoem je in dit medaillon uit 1787?",
+        "Op dit medaillon uit 1787 staat rond de geknielde man: Am I not a man and a brother? (Ben ik geen mens en een broeder?) Welk abolitionistisch idee benoem je?",
         [
             "Een tot slaaf gemaakte is een mens, gelijk aan wie naar hem kijkt",
             "Slaven moeten beter betaald worden voor hun werk op de plantages",
@@ -61,7 +61,7 @@ VRAGEN = [
             "Afrikanen moeten zelf hun eigen koloniën in Amerika kunnen stichten",
         ],
         0,
-        "De vraag Ben ik geen mens en een broeder? doet een beroep op gelijkheid en op het christelijke idee van broederschap.",
+        "De vraag doet een beroep op gelijkheid en op het christelijke idee van broederschap.",
     ), volgt=True),
     met_prent("slavenschip-brookes.webp", tabel(
         "Juist of fout? Abolitionisten verspreidden deze tekening van een slavenschip in duizenden exemplaren.",
@@ -137,7 +137,7 @@ VRAGEN = [
         "Het is een ideologie in een wetenschappelijk jasje: het leidt uit macht af dat iemand beter is.",
     ),
     met_prent("eugenetica-boom.webp", mk(
-        "Dit is het logo van een internationaal congres uit 1921. Hoe stelt de eugenetica zich hier voor?",
+        "Dit is het logo van een internationaal congres uit 1921. Bovenaan staat: Eugenics is the self direction of human evolution (eugenetica is de mens die zelf zijn evolutie stuurt). Hoe stelt de eugenetica zich hier voor?",
         [
             "Als een wetenschap die steunt op vele andere wetenschappen",
             "Als een oude volkswijsheid die van generatie op generatie doorgegeven wordt",

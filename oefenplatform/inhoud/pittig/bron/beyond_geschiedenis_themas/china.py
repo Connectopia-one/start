@@ -2,10 +2,6 @@
 from .vormen import J, F, mk, inv, tabel, keuze, volgorde, koppel, sorteer, sleep, open_, casus, klik, met_prent
 
 PRENTEN = [
-    dict(bestand="grote-sprong-affiche.webp", zelf=False,
-         wat="Een Chinese propaganda-affiche uit 1958-1960 over de Grote Sprong Voorwaarts: blije boeren of arbeiders bij een overvloedige oogst of bij hoogovens in de achtertuin.",
-         waar="Wikimedia Commons, zoek op 'Great Leap Forward poster'. Kijk of er PD-China of publiek domein bij staat. Chineseposters.net heeft er veel, maar die zijn niet vrij.",
-         vragen="bronvraag: wat wil de affiche tonen, en klopt dat met de cijfers van de oogst?"),
     dict(bestand="culturele-revolutie-affiche.webp", zelf=False,
          wat="Een Chinese affiche uit de Culturele Revolutie (1966-1976) met Rode Gardisten en het Rode Boekje of een portret van Mao.",
          waar="Wikimedia Commons, zoek op 'Cultural Revolution poster' of 'Red Guards poster'. Enkel met PD-China of publiek domein.",
@@ -71,8 +67,8 @@ VRAGEN = [
         ],
         "Telkens één voorbeeld per domein. De huwelijkswet van 1950 veranderde de positie van vrouwen in het gezin.",
     ),
-    met_prent("grote-sprong-affiche.webp", mk(
-        "Deze affiche uit 1958 toont blije boeren bij een rijke oogst. Wat was de bedoeling van de makers?",
+    mk(
+        "Een Chinese staatsaffiche uit 1958 toont lachende boeren bij bergen graan, met de leuze: Vooruit met de Grote Sprong! Wat was de bedoeling van de makers?",
         [
             "De bevolking overhalen om vol mee te doen",
             "Buitenlandse kopers zoeken voor de Chinese rijst en thee",
@@ -80,8 +76,8 @@ VRAGEN = [
             "Kritiek geven op de leiding van de communistische partij",
         ],
         0,
-        "Het is propaganda van de staat. Ze toont wat de partij wil bereiken, niet hoe het in werkelijkheid ging.",
-    ), volgt=True),
+        "Het is propaganda van de staat. Ze toont wat de partij wil bereiken. Leg de oogstcijfers ernaast en je ziet hoe het in werkelijkheid ging.",
+    ),
     klik(
         "Klik in de grafiek op het jaar met de laagste graanoogst.",
         "graanoogst-china.svg",
