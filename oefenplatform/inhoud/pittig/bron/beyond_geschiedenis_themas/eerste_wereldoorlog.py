@@ -49,10 +49,10 @@ VRAGEN = [
     mk(
         "Een leerling schrijft: \"België koos in 1914 de kant van Frankrijk.\" Wat is de juiste verbetering?",
         [
-            "België werd binnengevallen volgens het plan Von Schlieffen en verdedigde zijn neutraliteit",
-            "België koos de kant van Duitsland, omdat het bang was voor het Franse leger",
-            "België bleef de hele oorlog volledig buiten de gevechten, zoals Zwitserland",
-            "België viel zelf Duitsland binnen om het Rijnland terug te winnen",
+            "België werd volgens het plan Von Schlieffen binnengevallen en verdedigde zijn neutraliteit",
+            "België koos de kant van Duitsland, omdat het bang was voor het grote Franse leger",
+            "België bleef de hele oorlog volledig buiten de gevechten, net zoals Zwitserland",
+            "België viel in 1914 zelf Duitsland binnen om het Rijnland terug te winnen",
         ],
         0,
         "Het Duitse plan wilde Frankrijk snel uitschakelen via het neutrale België. België koos niet, het werd binnengevallen.",
@@ -87,9 +87,9 @@ VRAGEN = [
             mk(
                 "Waarom gebruikte een Britse affiche het lot van België?",
                 [
-                    "De inval in het neutrale België was voor Groot-Brittannië een sterk argument om de oorlog te steunen",
-                    "België was in 1915 een Britse kolonie, net zoals Indië dat in die jaren was",
-                    "Groot-Brittannië wilde België na de oorlog als bufferstaat voor zichzelf houden",
+                    "De inval in het neutrale België was een sterk argument om de oorlog te steunen",
+                    "België was in 1915 een Britse kolonie, net zoals Indië dat in die jaren ook was",
+                    "Groot-Brittannië wilde België na de oorlog als eigen bufferstaat voor zichzelf houden",
                     "Belgische soldaten vochten in 1915 enkel in Groot-Brittannië en niet aan het front",
                 ],
                 0,
@@ -129,7 +129,7 @@ VRAGEN = [
     klik(
         "Klik op de tijdlijn op het jaar van de Februari- en de Oktoberrevolutie in Rusland.",
         "tijdlijn-1750-2030.svg",
-        [[53.9, 25, 6.2, 55]],
+        [[54.0, 25, 6.2, 55]],
         "1917, nog tijdens de Eerste Wereldoorlog, net vóór het streepje van 1920.",
     ),
     sorteer(
@@ -190,10 +190,10 @@ VRAGEN = [
     mk(
         "Vergelijk de Volkenbond met de Verenigde Naties. Welke uitspraak klopt?",
         [
-            "Geen van beide heeft een eigen staand leger; de VN laat lidstaten blauwhelmen per missie leveren",
+            "Geen van beide heeft een eigen staand leger; bij de VN leveren lidstaten blauwhelmen",
             "Beide werden opgericht na de Tweede Wereldoorlog, in hetzelfde jaar en in dezelfde stad",
-            "De Volkenbond had een vetorecht voor vijf landen, de VN heeft dat niet meer",
-            "De Verenigde Staten waren lid van de Volkenbond, maar niet van de VN",
+            "De Volkenbond had een vetorecht voor vijf vaste landen, maar de VN heeft dat niet meer",
+            "De Verenigde Staten waren een stichtend lid van de Volkenbond, maar nooit lid van de VN",
         ],
         0,
         "De Volkenbond had geen leger, en ook de VN heeft geen staand leger. De Verenigde Staten traden nooit toe tot de bond, wel tot de VN. Het vetorecht hoort bij de VN.",
@@ -211,16 +211,16 @@ VRAGEN = [
     mk(
         "Na de Februarirevolutie kwam er een voorlopige regering. Waarom verloor ze zo snel haar steun?",
         [
-            "Ze zette de oorlog voort, stelde de verdeling van de grond uit en de voedseltekorten bleven",
-            "Ze sloot meteen vrede met Duitsland en gaf alle grond aan de adel terug",
-            "Ze bracht de tsaar terug op de troon en schafte de verkiezingen af",
+            "Ze zette de oorlog voort, stelde de grondverdeling uit, en de tekorten bleven",
+            "Ze sloot meteen vrede met Duitsland en gaf alle grond terug aan de oude adel",
+            "Ze bracht de tsaar terug op de troon en schafte alle geplande verkiezingen af",
             "Ze voerde de vijfjarenplannen in en dwong de boeren in collectieve bedrijven",
         ],
         0,
         "Oorlog, grond en brood bleven onopgelost. Daar speelde Lenin met zijn belofte vrede, brood en land handig op in.",
     ),
     koppel(
-        "Welk begrip hoort bij elke omschrijving?",
+        "Welk begrip uit de Russische geschiedenis hoort bij elke omschrijving?",
         [
             ["De tsaar doet troonsafstand en er komt een voorlopige regering", "Februarirevolutie"],
             ["De bolsjewieken onder Lenin grijpen de macht", "Oktoberrevolutie"],
@@ -238,10 +238,10 @@ VRAGEN = [
     mk(
         "Hoe leidde het beleid van Nicolaas II tot de Februarirevolutie?",
         [
-            "Hij regeerde alleen en hield vast aan de oorlog, terwijl nederlagen en honger zijn gezag ondermijnden",
+            "Hij regeerde alleen en hield vast aan de oorlog, terwijl nederlagen en honger zijn gezag sloopten",
             "Hij gaf de boeren alle grond en sloot meteen vrede, waarna de adel tegen hem in opstand kwam",
-            "Hij voerde de vijfjarenplannen in en liet koelakken deporteren naar strafkampen",
-            "Hij liet de bolsjewieken regeren en trok zich terug uit de politiek",
+            "Hij voerde de vijfjarenplannen in en liet rijke boeren als koelakken deporteren naar verre strafkampen",
+            "Hij liet de bolsjewieken van Lenin regeren en trok zich vrijwillig terug uit de hele politiek",
         ],
         0,
         "Een autocraat die een rampzalige oorlog voortzet in een arm land: daar brak het gezag van de tsaar op.",
@@ -249,10 +249,10 @@ VRAGEN = [
     tabel(
         "Kenmerk van het oorlogscommunisme of niet?",
         [
-            ("De industrie komt in handen van de staat.", J),
-            ("Graan wordt bij de boeren opgeëist.", J),
-            ("Voedsel wordt op rantsoen gezet.", J),
-            ("Boeren mogen hun graan vrij op de markt verkopen.", F),
+            ("De industrie komt in handen van de staat.", "Kenmerk"),
+            ("Graan wordt bij de boeren opgeëist.", "Kenmerk"),
+            ("Voedsel wordt op rantsoen gezet.", "Kenmerk"),
+            ("Boeren mogen hun graan vrij op de markt verkopen.", "Geen kenmerk"),
         ],
         "In de burgeroorlog nam de staat alles in handen. Vrije handel in graan was er net niet.",
         kolommen=["Kenmerk", "Geen kenmerk"],
@@ -285,5 +285,16 @@ VRAGEN = [
     keuze(
         "In 1919 tekende Duitsland het Verdrag van Versailles in de [[*Spiegelzaal|Rijksdag|Volkenbond]], dezelfde zaal waar in [[*1871|1815|1914]] het Duitse Keizerrijk werd uitgeroepen.",
         "Dezelfde zaal, de rollen omgedraaid: de vernedering van Frankrijk in 1871 werd in 1919 de vernedering van Duitsland.",
+    ),
+    mk(
+        "Wat betekent de dictatuur van het proletariaat, zoals Lenin die invoerde?",
+        [
+            "De arbeidersklasse grijpt in een overgangsfase alle macht",
+            "De tsaar regeert met de steun van de arbeiders en boeren",
+            "Een verkozen parlement verdeelt de macht over alle partijen",
+            "De adel en de kerk nemen samen het bestuur van het land over",
+        ],
+        0,
+        "In naam van de arbeiders nam de partij van Lenin alle macht. Tegenstanders en andere partijen kregen geen ruimte.",
     ),
 ]

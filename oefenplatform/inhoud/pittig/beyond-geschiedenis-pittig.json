@@ -1804,6 +1804,476 @@
           "uitleg": "China bleef op papier zelfstandig, maar invloedssferen en ongelijke verdragen hielden het onder westerse druk. Congo werd wel volledig bezet."
         }
       ]
+    },
+    {
+      "titel": "De Eerste Wereldoorlog en de Russische revoluties — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "tabel",
+          "vraag": "Aanleiding of oorzaak van de Eerste Wereldoorlog?",
+          "rijen": [
+            "De moord op Frans Ferdinand in Sarajevo",
+            "Wedijver en nationalisme tussen de grote mogendheden",
+            "Een wedloop in bewapening",
+            "Een web van bondgenootschappen"
+          ],
+          "antwoord": [
+            "Aanleiding",
+            "Oorzaak",
+            "Oorzaak",
+            "Oorzaak"
+          ],
+          "uitleg": "De aanleiding is de vonk: de moord in juni 1914. De oorzaken zijn de opgestapelde spanningen: nationalisme, militarisme en bondgenootschappen.",
+          "kolommen": [
+            "Aanleiding",
+            "Oorzaak"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kon een moord in Sarajevo uitgroeien tot een oorlog tussen bijna alle grote mogendheden?",
+          "opties": [
+            "Het web van bondgenootschappen sleepte het ene land na het andere mee",
+            "Alle landen van Europa hadden samen Frans Ferdinand als koning gekozen",
+            "De Volkenbond verplichtte zijn leden om elkaar in de oorlog te steunen",
+            "Sarajevo was in 1914 de hoofdstad van zowel Frankrijk als Rusland"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bondgenoten moesten elkaar helpen. Zo werd een conflict op de Balkan een oorlog tussen de Triple Entente en de Centralen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoorde het land bij de Triple Entente of bij de Centralen?",
+          "kolommen": [
+            "Triple Entente",
+            "Centralen"
+          ],
+          "items": [
+            [
+              "Frankrijk",
+              "Triple Entente"
+            ],
+            [
+              "Rusland",
+              "Triple Entente"
+            ],
+            [
+              "Groot-Brittannië",
+              "Triple Entente"
+            ],
+            [
+              "Duitsland",
+              "Centralen"
+            ],
+            [
+              "Oostenrijk-Hongarije",
+              "Centralen"
+            ]
+          ],
+          "uitleg": "De Triple Entente bestond uit Frankrijk, Rusland en Groot-Brittannië. Duitsland en Oostenrijk-Hongarije stonden aan de kant van de Centralen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling schrijft: \"België koos in 1914 de kant van Frankrijk.\" Wat is de juiste verbetering?",
+          "opties": [
+            "België werd volgens het plan Von Schlieffen binnengevallen en verdedigde zijn neutraliteit",
+            "België koos de kant van Duitsland, omdat het bang was voor het grote Franse leger",
+            "België bleef de hele oorlog volledig buiten de gevechten, net zoals Zwitserland",
+            "België viel in 1914 zelf Duitsland binnen om het Rijnland terug te winnen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het Duitse plan wilde Frankrijk snel uitschakelen via het neutrale België. België koos niet, het werd binnengevallen."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de gebeurtenissen van de Eerste Wereldoorlog in de juiste volgorde.",
+          "opties": [
+            "De moord in Sarajevo",
+            "De Duitse inval in België",
+            "De opmars loopt vast en de legers graven zich in",
+            "De Verenigde Staten treden toe",
+            "De wapenstilstand"
+          ],
+          "uitleg": "Juni 1914, augustus 1914, eind 1914, 1917 en 11 november 1918."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom ging de bewegingsoorlog van 1914 over in een loopgravenoorlog?",
+          "opties": [
+            "De opmars liep vast en beide legers groeven zich in",
+            "Beide legers hadden geen kogels meer en moesten wachten",
+            "De legers kregen het bevel om eerst de winter af te wachten",
+            "De tank was al uitgevonden en maakte elke opmars onmogelijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Toen geen van beide legers nog vooruit raakte, groeven ze zich in. Mitrailleurs maakten aanvallen over open terrein bijna onmogelijk."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Men noemt de Eerste Wereldoorlog een [[*totale|koude|beperkte]] oorlog, omdat de hele samenleving werd ingezet. [[*Propaganda|Neutraliteit|Appeasement]] moest de steun van de bevolking vasthouden.",
+          "uitleg": "Fabrieken, voedsel, vrouwen, kolonies en nieuws werden allemaal ingezet. Propaganda hield het moreel hoog."
+        },
+        {
+          "casus": "Bekijk de Britse affiche uit 1915. Een soldaat staat voor een brandend dorp. Bovenaan staat: Remember Belgium. Onderaan: Enlist to-day, dat betekent: neem vandaag dienst.",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Het doelpubliek van deze affiche zijn [[*jonge Britse mannen|Belgische vluchtelingen|Duitse soldaten]]. De bedoeling is [[*mensen overtuigen om dienst te nemen|een neutraal verslag geven|de Duitse inval goedpraten]].",
+              "uitleg": "Een wervingsaffiche richt zich op wie nog niet in het leger zit, en wil hen tot handelen aanzetten.",
+              "afbeelding_url": "/examenvormen/geschiedenis-beyond/remember-belgium.webp"
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom gebruikte een Britse affiche het lot van België?",
+              "opties": [
+                "De inval in het neutrale België was een sterk argument om de oorlog te steunen",
+                "België was in 1915 een Britse kolonie, net zoals Indië dat in die jaren ook was",
+                "Groot-Brittannië wilde België na de oorlog als eigen bufferstaat voor zichzelf houden",
+                "Belgische soldaten vochten in 1915 enkel in Groot-Brittannië en niet aan het front"
+              ],
+              "antwoord": 0,
+              "uitleg": "Het verhaal van het binnengevallen, neutrale land maakte de oorlog rechtvaardig in de ogen van het Britse publiek."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Mag je deze besluiten trekken uit de affiche?",
+              "rijen": [
+                "De Britse regering wilde haar bevolking achter de oorlog krijgen.",
+                "Elk Belgisch dorp is in 1914 afgebrand.",
+                "Propaganda was een middel in een totale oorlog."
+              ],
+              "antwoord": [
+                "Mag",
+                "Mag niet",
+                "Mag"
+              ],
+              "uitleg": "Propaganda is een slechte bron over wat er precies gebeurde, maar een uitstekende bron over wat men wilde laten geloven.",
+              "kolommen": [
+                "Mag",
+                "Mag niet"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout? Lees elke uitspraak over België in de Eerste Wereldoorlog.",
+          "rijen": [
+            "Het Belgische leger hield stand aan de IJzer.",
+            "Het leger hield een klein stuk van het land vrij.",
+            "De loopgraven die je vandaag bezoekt, zijn nog in hun oorspronkelijke staat.",
+            "Van de oorlog zie je vandaag kerkhoven, monumenten en musea."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Het IJzerfront hield het laatste stukje vrij België. Wat je vandaag aan loopgraven bezoekt, is heraangelegd."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Waarom en wanneer? Lees elke uitspraak over 1917.",
+          "rijen": [
+            "De Verenigde Staten traden toe door de onbeperkte Duitse duikbotenoorlog.",
+            "Rusland vocht tot het einde van de oorlog mee aan de kant van de Entente.",
+            "Na de revolutie sloot Rusland een aparte vrede."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "In 1917 kwam Amerika erbij en viel Rusland weg. Rusland vocht dus niet mee tot het einde."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar van de Februari- en de Oktoberrevolutie in Rusland.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/tijdlijn-1750-2030.svg",
+          "zones": [
+            [
+              54.0,
+              25,
+              6.2,
+              55
+            ]
+          ],
+          "uitleg": "1917, nog tijdens de Eerste Wereldoorlog, net vóór het streepje van 1920."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "In welk domein situeer je elk gevolg van de oorlog?",
+          "kolommen": [
+            "Politiek",
+            "Economisch",
+            "Sociaal"
+          ],
+          "items": [
+            [
+              "Nieuwe staten en nieuwe regimes",
+              "Politiek"
+            ],
+            [
+              "Schulden en verwoeste streken",
+              "Economisch"
+            ],
+            [
+              "Miljoenen doden en gewonden",
+              "Sociaal"
+            ],
+            [
+              "Vrouwen nemen in de fabrieken het werk van de mannen over",
+              "Sociaal"
+            ]
+          ],
+          "uitleg": "De gevolgen spelen in verschillende domeinen tegelijk. De nieuwe plaats van vrouwen in het werk is een sociale verandering."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke punten stonden in het Veertienpuntenplan van Woodrow Wilson?",
+          "rijen": [
+            "Open diplomatie in plaats van geheime verdragen",
+            "Het zelfbeschikkingsrecht van de volkeren",
+            "De oprichting van een volkerenbond",
+            "Een Duits keizerrijk dat groter wordt dan voor de oorlog"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Wilson wilde een nieuwe, open wereldorde met zelfbeschikking en een volkerenbond."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Was het een bepaling van het Verdrag van Versailles, of een onbedoeld gevolg ervan?",
+          "kolommen": [
+            "Bepaling",
+            "Onbedoeld gevolg"
+          ],
+          "items": [
+            [
+              "Duitsland moet de schuld voor de oorlog erkennen",
+              "Bepaling"
+            ],
+            [
+              "Duitsland moet herstelbetalingen doen",
+              "Bepaling"
+            ],
+            [
+              "Elzas-Lotharingen gaat terug naar Frankrijk",
+              "Bepaling"
+            ],
+            [
+              "Extreme partijen in Duitsland vinden een voedingsbodem",
+              "Onbedoeld gevolg"
+            ],
+            [
+              "De wrok over het verdrag helpt Hitler aan steun",
+              "Onbedoeld gevolg"
+            ]
+          ],
+          "uitleg": "De bepalingen waren bedoeld om Duitsland te verzwakken. Dat het verdrag als een dictaat werd ervaren en extreme partijen hielp, was niet de bedoeling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk verband leg je met de redeneerwijze bedoelde en onbedoelde gevolgen tussen Versailles en de Tweede Wereldoorlog?",
+          "opties": [
+            "Het verdrag wilde Duitsland verzwakken, maar de wrok erover hielp onbedoeld Hitler aan steun",
+            "Het verdrag wilde bewust een nieuwe oorlog uitlokken, en dat is ook precies gebeurd zoals bedoeld",
+            "Het verdrag had geen enkel gevolg, want Duitsland heeft het nooit ondertekend",
+            "Het verdrag maakte Duitsland groter, en daardoor wilde het nog meer gebied"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het bedoelde gevolg was een zwak Duitsland. Het onbedoelde gevolg was een voedingsbodem voor extreme partijen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Sterkte of zwakte van de Volkenbond?",
+          "rijen": [
+            "Ze werd opgericht om conflicten vreedzaam te beslechten.",
+            "De Verenigde Staten traden nooit toe.",
+            "Ze had geen eigen leger.",
+            "Beslissingen vroegen de instemming van iedereen."
+          ],
+          "antwoord": [
+            "Sterkte",
+            "Zwakte",
+            "Zwakte",
+            "Zwakte"
+          ],
+          "uitleg": "Het doel was sterk, maar zonder de Verenigde Staten, zonder leger en met eenparigheid kon de bond landen niet tot de orde roepen.",
+          "kolommen": [
+            "Sterkte",
+            "Zwakte"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vergelijk de Volkenbond met de Verenigde Naties. Welke uitspraak klopt?",
+          "opties": [
+            "Geen van beide heeft een eigen staand leger; bij de VN leveren lidstaten blauwhelmen",
+            "Beide werden opgericht na de Tweede Wereldoorlog, in hetzelfde jaar en in dezelfde stad",
+            "De Volkenbond had een vetorecht voor vijf vaste landen, maar de VN heeft dat niet meer",
+            "De Verenigde Staten waren een stichtend lid van de Volkenbond, maar nooit lid van de VN"
+          ],
+          "antwoord": 0,
+          "uitleg": "De Volkenbond had geen leger, en ook de VN heeft geen staand leger. De Verenigde Staten traden nooit toe tot de bond, wel tot de VN. Het vetorecht hoort bij de VN."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kenmerken van Rusland onder Nicolaas II. Juist of fout?",
+          "rijen": [
+            "Rusland was een autocratie.",
+            "De meeste Russen waren arme boeren.",
+            "De tsaar deelde zijn macht met een sterk verkozen parlement.",
+            "Nederlagen en honger in de oorlog ondermijnden zijn gezag."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "De tsaar regeerde alleen over een grote, arme boerenbevolking. De oorlog maakte de toestand onhoudbaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Na de Februarirevolutie kwam er een voorlopige regering. Waarom verloor ze zo snel haar steun?",
+          "opties": [
+            "Ze zette de oorlog voort, stelde de grondverdeling uit, en de tekorten bleven",
+            "Ze sloot meteen vrede met Duitsland en gaf alle grond terug aan de oude adel",
+            "Ze bracht de tsaar terug op de troon en schafte alle geplande verkiezingen af",
+            "Ze voerde de vijfjarenplannen in en dwong de boeren in collectieve bedrijven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Oorlog, grond en brood bleven onopgelost. Daar speelde Lenin met zijn belofte vrede, brood en land handig op in."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk begrip uit de Russische geschiedenis hoort bij elke omschrijving?",
+          "paren": [
+            [
+              "De tsaar doet troonsafstand en er komt een voorlopige regering",
+              "Februarirevolutie"
+            ],
+            [
+              "De bolsjewieken onder Lenin grijpen de macht",
+              "Oktoberrevolutie"
+            ],
+            [
+              "De arbeidersklasse grijpt in de overgangsfase alle macht",
+              "Dictatuur van het proletariaat"
+            ],
+            [
+              "Graan wordt bij de boeren opgeëist en voedsel op rantsoen gezet",
+              "Oorlogscommunisme"
+            ]
+          ],
+          "extra": [
+            "Collectivisatie"
+          ],
+          "uitleg": "Vier stappen van 1917 tot de burgeroorlog. Collectivisatie hoort pas bij Stalin, vanaf 1928."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Lenin vatte zijn belofte samen in drie woorden: vrede, [[brood]] en [[land]]. Na de Oktoberrevolutie volgde geen rust maar een [[burgeroorlog]] van jaren.",
+          "extra": [
+            "vrijheid",
+            "olie",
+            "wapenstilstand"
+          ],
+          "uitleg": "Vrede, brood en land sprak de soldaten, arbeiders en boeren aan. De macht moest daarna nog in een burgeroorlog bevochten worden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe leidde het beleid van Nicolaas II tot de Februarirevolutie?",
+          "opties": [
+            "Hij regeerde alleen en hield vast aan de oorlog, terwijl nederlagen en honger zijn gezag sloopten",
+            "Hij gaf de boeren alle grond en sloot meteen vrede, waarna de adel tegen hem in opstand kwam",
+            "Hij voerde de vijfjarenplannen in en liet rijke boeren als koelakken deporteren naar verre strafkampen",
+            "Hij liet de bolsjewieken van Lenin regeren en trok zich vrijwillig terug uit de hele politiek"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een autocraat die een rampzalige oorlog voortzet in een arm land: daar brak het gezag van de tsaar op."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kenmerk van het oorlogscommunisme of niet?",
+          "rijen": [
+            "De industrie komt in handen van de staat.",
+            "Graan wordt bij de boeren opgeëist.",
+            "Voedsel wordt op rantsoen gezet.",
+            "Boeren mogen hun graan vrij op de markt verkopen."
+          ],
+          "antwoord": [
+            "Kenmerk",
+            "Kenmerk",
+            "Kenmerk",
+            "Geen kenmerk"
+          ],
+          "uitleg": "In de burgeroorlog nam de staat alles in handen. Vrije handel in graan was er net niet.",
+          "kolommen": [
+            "Kenmerk",
+            "Geen kenmerk"
+          ]
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom men de Eerste Wereldoorlog een totale oorlog noemt. Geef drie voorbeelden.",
+          "antwoord": "De hele samenleving werd voor de oorlog ingezet, niet alleen het leger. Fabrieken maakten wapens en munitie, voedsel werd voor het front gebruikt, vrouwen namen het werk van de mannen in de fabrieken over, kolonies leverden soldaten en grondstoffen, en propaganda moest de steun van de bevolking vasthouden."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke nieuwe wapens maakten van de Eerste Wereldoorlog een slachting zonder weerga?",
+          "rijen": [
+            "De mitrailleur",
+            "Gifgas",
+            "De tank",
+            "De atoombom"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Mitrailleur, gifgas en tank horen bij de Eerste Wereldoorlog. De atoombom kwam pas in 1945."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij het uitbreken van de oorlog dachten veel mensen dat hij voor de kerstdagen voorbij zou zijn. Waarom liep dat anders?",
+          "opties": [
+            "De bewegingsoorlog liep vast in een loopgravenoorlog die jaren duurde",
+            "Alle legers spraken af om pas na de kerstdagen te beginnen vechten",
+            "De Verenigde Staten traden meteen toe en verlengden zo de oorlog",
+            "Rusland won de oorlog al in 1914, maar de andere landen gaven niet op"
+          ],
+          "antwoord": 0,
+          "uitleg": "Toen de opmars vastliep, groeven de legers zich in. De oorlog duurde tot de wapenstilstand van 11 november 1918."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In 1919 tekende Duitsland het Verdrag van Versailles in de [[*Spiegelzaal|Rijksdag|Volkenbond]], dezelfde zaal waar in [[*1871|1815|1914]] het Duitse Keizerrijk werd uitgeroepen.",
+          "uitleg": "Dezelfde zaal, de rollen omgedraaid: de vernedering van Frankrijk in 1871 werd in 1919 de vernedering van Duitsland."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent de dictatuur van het proletariaat, zoals Lenin die invoerde?",
+          "opties": [
+            "De arbeidersklasse grijpt in een overgangsfase alle macht",
+            "De tsaar regeert met de steun van de arbeiders en boeren",
+            "Een verkozen parlement verdeelt de macht over alle partijen",
+            "De adel en de kerk nemen samen het bestuur van het land over"
+          ],
+          "antwoord": 0,
+          "uitleg": "In naam van de arbeiders nam de partij van Lenin alle macht. Tegenstanders en andere partijen kregen geen ruimte."
+        }
+      ]
     }
   ]
 }
