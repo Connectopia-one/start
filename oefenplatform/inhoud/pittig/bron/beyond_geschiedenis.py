@@ -22,6 +22,8 @@ AANTAL = 30
 THEMAS = [
     ("referentiekader", "Het historisch referentiekader"),
     ("restauratie_belgie", "Restauratie, revolutie en het ontstaan van België"),
+    ("industrialisatie", "Industrialisatie en de sociale kwestie"),
+    ("imperialisme", "Modern imperialisme, Congo en China"),
 ]
 
 HOOFDSTUKKEN = [

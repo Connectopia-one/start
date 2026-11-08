@@ -880,6 +880,930 @@
           "uitleg": "Metternich leidde Wenen, Willem I regeerde over Noord en Zuid, Bismarck leidde de Duitse eenmaking en Conscience schreef het boek van 1838. Napoleon was in 1815 al verslagen."
         }
       ]
+    },
+    {
+      "titel": "Industrialisatie en de sociale kwestie — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "sorteren",
+          "vraag": "Hoort het kenmerk bij de eerste of bij de tweede industriële revolutie?",
+          "kolommen": [
+            "Eerste",
+            "Tweede"
+          ],
+          "items": [
+            [
+              "Steenkool als energiebron",
+              "Eerste"
+            ],
+            [
+              "De stoommachine van Watt in de fabriek",
+              "Eerste"
+            ],
+            [
+              "Elektriciteit als nieuwe krachtbron",
+              "Tweede"
+            ],
+            [
+              "Aardolie en de verbrandingsmotor",
+              "Tweede"
+            ],
+            [
+              "De lopende band",
+              "Tweede"
+            ],
+            [
+              "Vooral getrokken door Duitsland en de Verenigde Staten",
+              "Tweede"
+            ]
+          ],
+          "uitleg": "De eerste revolutie draaide op kolen en stoom en begon in Engeland. De tweede bracht elektriciteit, olie, staal en scheikunde, en een nieuwe bedrijfsorganisatie met de lopende band."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom stond een fabriek tijdens de eerste industriële revolutie meestal dicht bij een steenkoolmijn?",
+          "opties": [
+            "Omdat kolen zwaar en duur waren om te vervoeren",
+            "Omdat arbeiders enkel in mijnstreken wilden wonen",
+            "Omdat elektriciteit alleen bij de mijn opgewekt kon worden",
+            "Omdat de overheid fabrieken elders verbood te bouwen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De stoommachine had veel kolen nodig, en vervoer was traag en duur. Met elektriciteit en olie kon een fabriek later veel vrijer gelegen zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vergelijkt men het energiegebruik van de twee industriële revoluties?",
+          "opties": [
+            "De overstap van kolen naar elektriciteit en olie veranderde waar fabrieken konden staan en wie de grootmachten werden",
+            "Omdat beide revoluties precies dezelfde energiebron gebruikten, alleen in andere landen en in een andere eeuw",
+            "Omdat men wil bewijzen dat de tweede revolutie minder energie nodig had dan de eerste, en dus zuiniger was",
+            "Omdat energie het enige verschil is tussen beide revoluties; transport en organisatie bleven gelijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Energie bepaalde de ligging van fabrieken, het transport en het machtsevenwicht: Duitsland en de Verenigde Staten trokken de tweede revolutie."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout? Lees elke uitspraak over de economische sectoren tijdens de industrialisatie.",
+          "rijen": [
+            "De steenkoolmijnbouw hoort bij de primaire sector.",
+            "Het aandeel van de landbouw in de tewerkstelling groeide sterk.",
+            "Een mijn haalt een grondstof uit de bodem.",
+            "De fabrieken namen werk over van ambachtslui."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Mijnbouw haalt grondstoffen uit de bodem: primaire sector. Tijdens de industrialisatie daalde het aandeel van de landbouw in de tewerkstelling."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke uitvinding of persoon hoort bij elke omschrijving?",
+          "paren": [
+            [
+              "Verbeterde de stoommachine zodat ze bruikbaar werd in fabrieken",
+              "Watt"
+            ],
+            [
+              "Gaf in 1776 de vrije markt haar grondslag",
+              "Smith"
+            ],
+            [
+              "Bouwde in Seraing een groot metaalbedrijf",
+              "Cockerill"
+            ],
+            [
+              "Liet berichten over grote afstand in een oogwenk reizen",
+              "De telegraaf"
+            ]
+          ],
+          "extra": [
+            "Bismarck"
+          ],
+          "uitleg": "Watt en de stoommachine, Smith en het economisch liberalisme, Cockerill en de Belgische zware industrie, en de telegraaf als sprong in de communicatie."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het economisch liberalisme wil dat de overheid de economie zo veel mogelijk [[*vrij laat|zelf plant|in handen neemt]]. Het kapitalisme vergroot de ongelijkheid, doordat de winst naar wie de fabriek [[*bezit|bouwt|bewaakt]] gaat.",
+          "uitleg": "Smith verdedigde de vrije markt. In het kapitalisme gaat de winst naar de eigenaar, en die spanning tussen bezit en arbeid noemt men de sociale kwestie."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Aanbodfactor of vraagfactor voor de Belgische industrialisatie?",
+          "rijen": [
+            "Steenkool in de bodem van Henegouwen en Luik",
+            "Banken die durfden investeren",
+            "Een groeiende bevolking die meer goederen koopt",
+            "Vaklui met ervaring in textiel en metaal"
+          ],
+          "antwoord": [
+            "Aanbod",
+            "Aanbod",
+            "Vraag",
+            "Aanbod"
+          ],
+          "uitleg": "Aanbodfactoren maken productie mogelijk: grondstoffen, kapitaal en vakkennis. Een vraagfactor zorgt dat er kopers zijn.",
+          "kolommen": [
+            "Aanbod",
+            "Vraag"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welke industrie hoort bij welke streek in het 19de-eeuwse België?",
+          "kolommen": [
+            "Henegouwen en Luik",
+            "Gent",
+            "Verviers"
+          ],
+          "items": [
+            [
+              "Steenkoolmijnen",
+              "Henegouwen en Luik"
+            ],
+            [
+              "Katoen- en textielfabrieken",
+              "Gent"
+            ],
+            [
+              "Wolnijverheid",
+              "Verviers"
+            ],
+            [
+              "Zware metaalindustrie zoals die van Cockerill",
+              "Henegouwen en Luik"
+            ]
+          ],
+          "uitleg": "De steenkoolbekkens lagen in Henegouwen en Luik, met de zware industrie erbij. Gent was de textielstad, Verviers de wolstad."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling besluit: \"Vlaanderen was in de 19de eeuw de industriële motor van België.\" Wat klopt er niet?",
+          "opties": [
+            "De industrie lag vooral in Wallonië; Vlaanderen bleef langer landelijk, met Gent als uitzondering",
+            "Er was in de 19de eeuw in heel België nog geen enkele fabriek of mijn te vinden",
+            "Vlaanderen had wel de meeste steenkoolmijnen, maar geen enkele textielfabriek",
+            "Er klopt niets niet: Vlaanderen was toen al veel sterker geïndustrialiseerd"
+          ],
+          "antwoord": 0,
+          "uitleg": "De steenkool lag in Henegouwen en Luik. Vlaanderen bleef landelijker, al was Gent een belangrijke textielstad."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Tussen welke twee steden reed in 1835 de eerste spoorlijn van het Europese vasteland? Schrijf: stad en stad.",
+          "antwoord": "Brussel en Mechelen",
+          "uitleg": "Brussel-Mechelen, in 1835: België was een van de eerste landen op het vasteland dat industrialiseerde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat onderscheidt een klassenmaatschappij van de standenmaatschappij die eraan voorafging?",
+          "opties": [
+            "Je plaats hangt af van je bezit en je plaats in de productie, niet van je geboorte",
+            "Je plaats hangt af van je geboorte, en niemand kan ooit van groep veranderen",
+            "Iedereen heeft er precies evenveel bezit en hetzelfde inkomen",
+            "Alleen de adel en de geestelijkheid hebben er nog rechten"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een klassenmaatschappij bepaalt bezit waar je staat. Wie geen werktuigen meer bezit en voor loon werkt, is proletariër geworden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet het proces waarbij boeren en ambachtslui hun eigen werktuigen verliezen en loonarbeider worden? (één woord)",
+          "antwoord": "proletarisering",
+          "uitleg": "Proletarisering: wie vroeger met eigen gereedschap werkte, wordt afhankelijk van een loon in de fabriek."
+        },
+        {
+          "casus": "Bekijk de prent. Ze toont kinderen die in de 19de eeuw in een mijn werken. Lees ook dit gegeven: de Belgische grondwet van 1831 verbood kinderarbeid niet.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom zetten fabrikanten en mijnbazen graag kinderen aan het werk?",
+              "opties": [
+                "Kinderen waren goedkoop en klaagden niet",
+                "Kinderen waren sterker dan volwassenen",
+                "De wet verplichtte hen om kinderen aan te nemen",
+                "Kinderen kregen een hoger loon dan hun ouders"
+              ],
+              "antwoord": 0,
+              "uitleg": "Kinderen kostten weinig en kwamen niet in opstand. Pas veel later kwam er een verbod op kinderarbeid.",
+              "afbeelding_url": "/examenvormen/geschiedenis-beyond/kinderarbeid-mijn.webp"
+            },
+            {
+              "type": "tabel",
+              "vraag": "Welke leef- en werkomstandigheden van arbeiders in de 19de eeuw passen bij deze prent?",
+              "rijen": [
+                "Werkdagen van twaalf uur en meer",
+                "Een vergoeding bij ziekte of ongeval",
+                "Wonen in overvolle beluiken zonder stromend water",
+                "Een wettelijk verbod op kinderarbeid sinds 1831"
+              ],
+              "antwoord": [
+                true,
+                false,
+                true,
+                false
+              ],
+              "uitleg": "Lange dagen en slechte woningen waren gewoon. Een vergoeding bij ziekte of een verbod op kinderarbeid bestonden toen nog niet."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Deze prent is een [[*audiovisuele|mondelinge|materiële]] bron. Ze toont de [[*sociale kwestie|restauratie|Reformatie]]: de spanning tussen wie de mijn bezit en wie er werkt.",
+              "uitleg": "Foto's en prenten zijn audiovisuele bronnen. De slechte omstandigheden van arbeiders zijn de kern van de sociale kwestie."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Coöperatie, mutualiteit of vakbond?",
+          "kolommen": [
+            "Coöperatie",
+            "Mutualiteit",
+            "Vakbond"
+          ],
+          "items": [
+            [
+              "De leden kopen samen brood in en delen de winst",
+              "Coöperatie"
+            ],
+            [
+              "Arbeiders sparen samen om bij ziekte een uitkering te krijgen",
+              "Mutualiteit"
+            ],
+            [
+              "Arbeiders onderhandelen met de baas en leggen het werk neer",
+              "Vakbond"
+            ],
+            [
+              "De leden produceren samen en verkopen in een eigen winkel",
+              "Coöperatie"
+            ]
+          ],
+          "uitleg": "Een coöperatie produceert of koopt samen. Een mutualiteit of ziekenfonds keert uit bij ziekte. Een vakbond onderhandelt en staakt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Marxisme, sociaaldemocratie of christendemocratie? Welke stroming past bij elke uitspraak?",
+          "rijen": [
+            "Alleen een revolutie kan de arbeiders bevrijden.",
+            "We verbeteren het lot van de arbeiders langs verkiezingen en wetten.",
+            "Privébezit mag, maar de arbeider heeft recht op een rechtvaardig loon.",
+            "De geschiedenis is een strijd tussen klassen."
+          ],
+          "antwoord": [
+            "Marxisme",
+            "Sociaaldemocratie",
+            "Christendemocratie",
+            "Marxisme"
+          ],
+          "uitleg": "Marxisten wilden een revolutie, sociaaldemocraten hervorming via het parlement. De christendemocratie volgde Rerum Novarum: privébezit aanvaarden, maar met bescherming voor de arbeider.",
+          "kolommen": [
+            "Marxisme",
+            "Sociaaldemocratie",
+            "Christendemocratie"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De pauselijke brief Rerum Novarum verscheen in 1891. Wat was het belang ervan?",
+          "opties": [
+            "Hij gaf de christendemocratie haar sociale programma",
+            "Hij riep de arbeiders op tot een gewapende revolutie",
+            "Hij verbood elke vorm van privébezit voor katholieken",
+            "Hij schafte het cijnskiesrecht in België af"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rerum Novarum aanvaardde het privébezit, maar vroeg een rechtvaardig loon en bescherming voor de arbeider."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen in de evolutie van het Belgische stemrecht in de juiste volgorde.",
+          "opties": [
+            "Cijnskiesrecht voor wie genoeg belasting betaalt",
+            "Algemeen meervoudig stemrecht na een algemene staking",
+            "Algemeen enkelvoudig stemrecht voor mannen"
+          ],
+          "uitleg": "Van 1831 tot 1893 cijnskiesrecht, in 1893 het algemeen meervoudig stemrecht, en in 1919 het algemeen enkelvoudig stemrecht voor mannen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar waarin het algemeen meervoudig stemrecht er kwam.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/tijdlijn-1750-2030.svg",
+          "zones": [
+            [
+              46.5,
+              25,
+              6.2,
+              55
+            ]
+          ],
+          "uitleg": "1893, na een algemene staking. Net vóór het streepje van 1900."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar waarin de mannen in België het algemeen enkelvoudig stemrecht kregen.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/tijdlijn-1750-2030.svg",
+          "zones": [
+            [
+              54.6,
+              25,
+              6.2,
+              55
+            ]
+          ],
+          "uitleg": "1919, vlak na de Eerste Wereldoorlog: één man, één stem."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Onder het algemeen meervoudig stemrecht van 1893 had elke man minstens één stem. Hoeveel stemmen kon één man ten hoogste uitbrengen?",
+          "opties": [
+            "3",
+            "2",
+            "5",
+            "10"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie bijvoorbeeld meer bezat of een diploma had, kreeg extra stemmen, tot ten hoogste drie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom bleef de plattelandsvlucht in België deels uit?",
+          "opties": [
+            "Goedkope werkmanskaarten lieten arbeiders op het platteland wonen en dagelijks naar de fabriek sporen",
+            "De Belgische overheid verbood boeren om naar de stad te verhuizen, op straffe van gevangenis",
+            "Er was in de 19de eeuw in de Belgische steden geen enkele fabriek waar je kon werken",
+            "Alle Belgische fabrieken lagen midden op het platteland, ver van elke stad of spoorlijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met de werkmanstrein werd pendelen goedkoop. Zo bleven veel arbeiders landelijk wonen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welke vorm van migratie herken je?",
+          "kolommen": [
+            "Plattelandsvlucht",
+            "Pendelarbeid",
+            "Seizoensarbeid",
+            "Emigratie naar Amerika"
+          ],
+          "items": [
+            [
+              "Een boerenzoon verhuist voorgoed naar de fabrieksstad",
+              "Plattelandsvlucht"
+            ],
+            [
+              "Een arbeider neemt elke ochtend de werkmanstrein naar Brussel",
+              "Pendelarbeid"
+            ],
+            [
+              "Vlaamse arbeiders werken elke zomer enkele weken op akkers in een buurland en keren daarna terug",
+              "Seizoensarbeid"
+            ],
+            [
+              "Een gezin vertrekt per schip om in Amerika goedkope grond te zoeken",
+              "Emigratie naar Amerika"
+            ]
+          ],
+          "uitleg": "Verhuizen naar de stad, dagelijks heen en weer, tijdelijk voor een seizoen, of voorgoed naar een ander werelddeel."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke redenen hadden veel Europeanen in de 19de eeuw om naar Amerika te trekken?",
+          "rijen": [
+            "Armoede en honger in eigen streek",
+            "De belofte van goedkope grond en werk",
+            "Vervolging om geloof of politieke overtuiging",
+            "Een verbod op landbouw in Europa"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Armoede, kansen in Amerika en vervolging dreven miljoenen mensen over de oceaan. Een verbod op landbouw bestond niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een arbeider wil zijn loon verhogen. Wat doet een vakbond om dat te bereiken, wat een coöperatie niet doet?",
+          "opties": [
+            "Onderhandelen met de werkgever en eventueel staken",
+            "Samen goederen produceren en de winst verdelen",
+            "Samen sparen voor een uitkering bij ziekte",
+            "Goedkoop brood verkopen in een eigen winkel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een vakbond onderhandelt en staakt, een coöperatie produceert of koopt samen in, een mutualiteit keert uit bij ziekte."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "De spoorweg met [[stoomlocomotieven]], het stoomschip en de [[telegraaf]] deden transport en communicatie vooruitspringen. In de tweede revolutie verdeelde de [[lopende band]] het werk in kleine stappen.",
+          "extra": [
+            "windmolen",
+            "postkoets",
+            "zeilschip"
+          ],
+          "uitleg": "Stoom op land en zee, en de telegraaf voor berichten. De lopende band hoort bij de nieuwe bedrijfsorganisatie van de tweede revolutie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe vergroot het kapitalisme volgens zijn critici de sociale ongelijkheid?",
+          "opties": [
+            "De winst gaat naar de eigenaar van de fabriek en niet naar wie er werkt",
+            "Iedereen krijgt in het kapitalisme exact hetzelfde loon, ook wie hard werkt",
+            "De overheid neemt alle winst af en verdeelt ze onder de eigenaars",
+            "Alleen arbeiders mogen een fabriek bezitten, en de burgerij wordt arm"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie de productiemiddelen bezit, krijgt de winst. Wie enkel zijn arbeid heeft, blijft afhankelijk van een loon."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg het verband uit tussen de industrialisatie en het ontstaan van de vakbonden. Gebruik de begrippen proletarisering en sociale kwestie.",
+          "antwoord": "Door de industrialisatie verloren veel boeren en ambachtslui hun eigen werktuigen en werden ze loonarbeider: proletarisering. In de fabrieken werkten ze lange dagen voor een laag loon, zonder bescherming. Die spanning tussen eigenaars en arbeiders is de sociale kwestie. Om daar iets tegen te doen, organiseerden arbeiders zich in vakbonden die onderhandelden en staakten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was het verband tussen de algemene staking en het stemrecht in België?",
+          "opties": [
+            "Na een algemene staking kwam er in 1893 het algemeen meervoudig stemrecht",
+            "Na een algemene staking werd het stemrecht in 1893 volledig afgeschaft",
+            "Na een algemene staking kregen ook de vrouwen in 1893 stemrecht",
+            "Er was geen verband: stakingen waren in België toen nog verboden"
+          ],
+          "antwoord": 0,
+          "uitleg": "De druk van de arbeiders dwong een eerste uitbreiding af. Het algemeen enkelvoudig stemrecht voor mannen volgde pas in 1919."
+        }
+      ]
+    },
+    {
+      "titel": "Modern imperialisme, Congo en China — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "tabel",
+          "vraag": "Welke technische middelen maakten het modern imperialisme mogelijk?",
+          "rijen": [
+            "Repeteergeweren en mitrailleurs",
+            "Stoomschepen die rivieren op konden varen",
+            "Kinine als bescherming tegen malaria",
+            "Vliegtuigen om het binnenland te verkennen"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Wapens, stoomschepen en kinine gaven Europa de voorsprong. Vooral kinine opende het Afrikaanse binnenland. Vliegtuigen speelden rond 1880 nog geen rol."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Bij welk motief van het modern imperialisme hoort elke uitspraak?",
+          "kolommen": [
+            "Economisch",
+            "Politiek",
+            "Cultureel"
+          ],
+          "items": [
+            [
+              "Onze fabrieken hebben goedkope grondstoffen nodig.",
+              "Economisch"
+            ],
+            [
+              "We moeten nieuwe kopers vinden voor onze producten.",
+              "Economisch"
+            ],
+            [
+              "Een land zonder koloniën telt niet mee onder de grote mogendheden.",
+              "Politiek"
+            ],
+            [
+              "Deze haven is een strategisch punt op de route naar Azië.",
+              "Politiek"
+            ],
+            [
+              "Wij brengen de beschaving naar andere volkeren.",
+              "Cultureel"
+            ]
+          ],
+          "uitleg": "Grondstoffen en afzetmarkten zijn economisch, prestige en strategische punten politiek. Het idee dat Europa beschaving bracht, is een cultureel motief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een historicus noemt de jaren na 1880 een wedloop om Afrika. Wat bedoelt hij daarmee?",
+          "opties": [
+            "Ze bezetten gebieden uit schrik dat een andere mogendheid hen voor was",
+            "De Afrikaanse volkeren vroegen zelf om zo snel mogelijk bezet te worden",
+            "Er werd een echte race tussen ontdekkingsreizigers ingericht, voor een prijs",
+            "De koloniën werden in enkele maanden verdeeld en daarna nooit meer veranderd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rond 1880 begon Europa in enkele decennia bijna heel Afrika te bezetten, omdat elke mogendheid vreesde de boot te missen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het sociaal darwinisme paste het idee van de strijd om het bestaan toe op volkeren. Waarvoor werd het gebruikt?",
+          "opties": [
+            "Om overheersing van andere volkeren goed te praten",
+            "Om de afschaffing van alle koloniën te eisen",
+            "Om aan te tonen dat alle volkeren gelijk zijn",
+            "Om de arbeiders in Europa tot staking aan te zetten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het sociaal darwinisme deed alsof sterkere volkeren vanzelf over zwakkere mochten heersen. Zo werd het een rechtvaardiging voor het imperialisme."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Missionarissen in de koloniën waren tegelijk hulpverleners en een arm van het koloniale bestel. Wat betekent dat?",
+          "opties": [
+            "Ze bouwden scholen en hielpen mensen, maar verspreidden tegelijk het geloof en de waarden van de kolonisator",
+            "Ze werkten in het geheim tegen de koloniale overheid en steunden overal de gewapende opstanden van de bevolking",
+            "Ze waren eigenlijk soldaten van het koloniale leger die zich als priesters verkleedden om dorpen te bespieden",
+            "Ze hielden zich alleen bezig met de handel in rubber en ivoor, en kwamen nooit in een school of ziekenhuis"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hun hulp was echt, maar ze droegen ook mee het koloniale project. Zo'n dubbele rol vraagt om meerdere perspectieven."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Op de Conferentie van Berlijn van [[*1884 en 1885|1815|1914]] spraken de Europese mogendheden af dat je een gebied werkelijk moest [[*bezetten en besturen|kopen en verkopen|in kaart brengen]] om er aanspraak op te maken.",
+          "uitleg": "Berlijn legde de spelregels vast. Wie een stuk Afrika wilde, moest er effectief aanwezig zijn."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bekijk de kaart van Afrika in 1914. Welke uitspraken kan je met de kaart en je kennis staven?",
+          "rijen": [
+            "Vrijwel heel Afrika was onder Europese mogendheden verdeeld.",
+            "Ethiopië en Liberia bleven zelfstandig.",
+            "De grenzen volgden overal de woongebieden van de Afrikaanse volkeren.",
+            "Congo was in 1914 een kolonie van de Belgische staat."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Tegen 1914 was bijna alles verdeeld, behalve Ethiopië en Liberia. Veel grenzen lijken met een lat getrokken: ze volgden Europese afspraken, niet de bestaande samenlevingen. Congo was sinds 1908 Belgisch Congo.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/afrika-1914.webp"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een Afrikaanse historica somt de erfenis van de koloniale bezetting op. Welke punten noemt ze terecht?",
+          "rijen": [
+            "Grenzen die dwars door volkeren liepen",
+            "Een economie afgestemd op uitvoer naar Europa",
+            "Gezagsstructuren die door de kolonisator vervangen werden",
+            "Een einde aan elke vorm van ongelijkheid"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Grenzen, economie en bestuur werden naar Europese noden hertekend. Ongelijkheid nam daardoor net toe."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke mogendheid breidde uit in welk gebied in Azië?",
+          "paren": [
+            [
+              "Groot-Brittannië",
+              "Indië"
+            ],
+            [
+              "Frankrijk",
+              "Indochina"
+            ],
+            [
+              "Nederland",
+              "De Indische archipel"
+            ],
+            [
+              "De Verenigde Staten",
+              "De Filipijnen"
+            ]
+          ],
+          "extra": [
+            "Congo"
+          ],
+          "uitleg": "Ook buiten Afrika werd verdeeld: Indië, Indochina, de Indische archipel, en na 1898 de Filipijnen voor de Verenigde Staten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat hadden Japan en Rusland gemeen in het tijdperk van het modern imperialisme?",
+          "opties": [
+            "Ze breidden zelf uit in Azië, Japan na zijn snelle modernisering en Rusland over land tot aan de Stille Oceaan",
+            "Ze werden allebei door Europese mogendheden volledig gekoloniseerd en verloren zo hun zelfstandigheid en eigen bestuur",
+            "Ze bleven allebei volledig buiten het imperialisme en hadden geen enkele interesse in de gebieden van Azië",
+            "Ze vochten samen met het Chinese keizerrijk tegen alle westerse handelaars en wonnen die lange strijd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Japan moderniseerde vanaf de Meiji-restauratie van 1868 en werd zelf een koloniale macht. Rusland breidde over land uit naar het oosten."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout? Lees elke uitspraak over de Congo-Vrijstaat.",
+          "rijen": [
+            "De Vrijstaat was tussen 1885 en 1908 het persoonlijke bezit van Leopold II.",
+            "De Vrijstaat was een kolonie van de Belgische staat.",
+            "Stanley verkende het gebied en sloot verdragen met lokale leiders.",
+            "De Vrijstaat verdiende vooral geld met koffie en katoen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Congo was eerst van Leopold II zelf. Het geld kwam vooral uit rubber en ivoor. Pas in 1908 nam de Belgische staat over."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet in de juiste volgorde.",
+          "opties": [
+            "De Conferentie van Berlijn begint",
+            "De Congo-Vrijstaat wordt opgericht",
+            "Morel en Casement voeren campagne tegen het bewind",
+            "De Belgische staat neemt Congo over"
+          ],
+          "uitleg": "1884, 1885, rond 1900, en 1908."
+        },
+        {
+          "casus": "Bekijk de spotprent uit het Britse blad Punch van 1906. Een slang met het hoofd van Leopold II heeft zich rond een Congolese man gewonden. Het onderschrift luidt: In the Rubber Coils.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarop doelt de tekenaar met de rubberen slang?",
+              "opties": [
+                "Op het rubberregime dat de bevolking verstikte",
+                "Op de handel in ivoor met Europa",
+                "Op de spoorlijnen die Leopold liet aanleggen",
+                "Op de missiescholen in Congo"
+              ],
+              "antwoord": 0,
+              "uitleg": "Dorpen moesten vaste hoeveelheden rubber leveren en werden zwaar gestraft bij te weinig. De slang beeldt dat systeem uit.",
+              "afbeelding_url": "/examenvormen/geschiedenis-beyond/rubber-coils.webp"
+            },
+            {
+              "type": "tabel",
+              "vraag": "Welke uitspraken over deze bron kloppen?",
+              "rijen": [
+                "Ze hoort bij de internationale kritiek op de Congo-Vrijstaat rond 1900.",
+                "Ze is een primaire bron voor wie die kritiek onderzoekt.",
+                "De maker wilde Leopold II bij de lezers populair maken.",
+                "Omdat het een spotprent is, is ze waardeloos voor een historicus."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false,
+                false
+              ],
+              "uitleg": "De prent toont hoe men in Groot-Brittannië over Leopold II dacht. Een spotprent is gekleurd, maar daarom niet onbruikbaar: ze is een uitstekende bron over de kritiek."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welk gevolg had de internationale campagne waartoe deze prent behoorde?",
+              "opties": [
+                "De Belgische staat nam de kolonie in 1908 over",
+                "Leopold II kreeg er in 1908 nog meer gebied bij",
+                "Congo werd in 1908 een onafhankelijke staat",
+                "Groot-Brittannië bezette Congo in 1908"
+              ],
+              "antwoord": 0,
+              "uitleg": "Onder druk van Morel, Casement en schrijvers als Mark Twain en Arthur Conan Doyle werd de Vrijstaat in 1908 Belgisch Congo."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling moet het rubberregime uitleggen aan een klasgenoot. Welke uitleg is juist?",
+          "opties": [
+            "Dorpen moesten vaste hoeveelheden rubber leveren, met zware straffen en gijzeling van vrouwen en kinderen",
+            "Congolezen kregen per kilo rubber een eerlijk loon dat hoger lag dan in Europa, en kozen zelf of ze werkten",
+            "Alleen Europese arbeiders mochten rubber tappen; de Congolese bevolking werd daar volledig van uitgesloten",
+            "Rubber werd vrij verhandeld op de lokale markten, zonder enige tussenkomst of controle van de Vrijstaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Quota, straffen en gijzelingen: daardoor nam de bevolking sterk af door geweld, honger en ziekte."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welke rol speelde elke macht in de koloniale drie-eenheid van Belgisch Congo?",
+          "kolommen": [
+            "Staat",
+            "Kerk",
+            "Bedrijven"
+          ],
+          "items": [
+            [
+              "Ambtenaren en een leger",
+              "Staat"
+            ],
+            [
+              "Missies en scholen",
+              "Kerk"
+            ],
+            [
+              "Mijnen en plantages",
+              "Bedrijven"
+            ],
+            [
+              "Koper uit Katanga ontginnen",
+              "Bedrijven"
+            ]
+          ],
+          "uitleg": "Staat, kerk en grote bedrijven bestuurden samen. De mijnen in Katanga leverden onder meer koper."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent paternalisme in het koloniale bestuur van Belgisch Congo, en hoe zag je dat in het onderwijs?",
+          "opties": [
+            "Men behandelde de bevolking als op te voeden kinderen; het onderwijs bleef vooral lager onderwijs",
+            "Men liet de bevolking volledig zelf beslissen; het onderwijs werd overal universitair, gratis en verplicht",
+            "Men verbood elke vorm van onderwijs in Congo, ook bij de missies, tot aan de onafhankelijkheid in 1960",
+            "Men stuurde alle Congolese kinderen naar scholen in België om er hun hele opleiding te volgen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Paternalisme is opvoeden van bovenaf. Daarom waren er bij de onafhankelijkheid zo weinig Congolese universitair geschoolden."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Belgisch Congo leverde onder meer koper uit [[*Katanga|Kivu|Leopoldstad]], diamant en [[*uranium|steenkool|katoen]].",
+          "uitleg": "Katanga was de rijkste mijnprovincie. Het uranium uit Congo kreeg later een grote strategische waarde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De beeldvorming over Leopold II in België ging van koning-bouwer naar een veel kritischer blik. Wat betekent dat?",
+          "opties": [
+            "De feiten zijn niet veranderd, wel de vragen die men stelt en de bronnen die men laat spreken",
+            "Historici hebben ontdekt dat Leopold II in werkelijkheid nooit iets met Congo te maken had",
+            "De feiten over de Congo-Vrijstaat zijn achteraf door nieuwe historici verzonnen",
+            "Een kritische blik betekent dat men in België niets meer over hem mag zeggen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Beeldvorming verandert door nieuwe vragen en nieuwe bronnen, zoals Congolese stemmen. Dat is iets anders dan de feiten veranderen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "In de 19de eeuw kampte China met binnenlandse problemen. Welke horen daarbij?",
+          "rijen": [
+            "Een sterk groeiende bevolking op te weinig grond",
+            "Wijdverspreide corruptie in het bestuur",
+            "Grote opstanden zoals die van de Taiping",
+            "Een tekort aan steden en handelaars"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Bevolkingsdruk, corruptie en opstanden verzwakten de Qing-dynastie van binnenuit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarover ging de Opiumoorlog met Groot-Brittannië?",
+          "opties": [
+            "Over de Britse handel in opium die China wilde stoppen",
+            "Over de Chinese handel in thee die Groot-Brittannië verbood",
+            "Over de verdeling van Afrika tussen China en Europa",
+            "Over de opstand van de Taiping tegen de keizer"
+          ],
+          "antwoord": 0,
+          "uitleg": "China wilde de opiumhandel stoppen, de Britten wilden doorgaan. Na de nederlaag moest China bij het Verdrag van Nanking van 1842 Hongkong afstaan."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke stad moest China in 1842 bij het Verdrag van Nanking afstaan aan Groot-Brittannië?",
+          "antwoord": "Hongkong",
+          "uitleg": "Hongkong ging naar Groot-Brittannië. Zo'n verdrag heet ongelijk, omdat het enkel China verplichtingen oplegde."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort het kenmerk bij het imperialisme in Congo of in China?",
+          "kolommen": [
+            "Congo",
+            "China"
+          ],
+          "items": [
+            [
+              "Volledige bezetting en rechtstreeks bestuur",
+              "Congo"
+            ],
+            [
+              "Invloedssferen van verschillende mogendheden",
+              "China"
+            ],
+            [
+              "Ongelijke verdragen",
+              "China"
+            ],
+            [
+              "Eerst het persoonlijke bezit van een koning",
+              "Congo"
+            ],
+            [
+              "Formeel bleef het een keizerrijk",
+              "China"
+            ]
+          ],
+          "uitleg": "Twee vormen van hetzelfde imperialisme: Congo werd volledig bezet, China bleef formeel zelfstandig maar werd in invloedssferen verdeeld."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een invloedssfeer is een lichtere vorm van overheersing dan een kolonie. Waarom?",
+          "opties": [
+            "De mogendheid maakt er de dienst uit zonder het gebied zelf te besturen",
+            "De mogendheid bestuurt het gebied rechtstreeks met eigen ambtenaren",
+            "De bevolking kiest er zelf een Europese koning als staatshoofd",
+            "Er is geen enkele buitenlandse invloed op handel of politiek"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een invloedssfeer heeft een buitenlandse mogendheid veel macht over handel en politiek, maar het land bestuurt zichzelf formeel nog."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk gevolg hadden de westerse contacten op lange termijn voor het Chinese keizerrijk?",
+          "opties": [
+            "Het gezag van de keizer verzwakte, en in 1912 viel het rijk",
+            "Het keizerrijk werd sterker en veroverde delen van Europa",
+            "China werd in 1912 een Britse kolonie zoals Indië",
+            "Het keizerrijk sloot alle havens en had geen contact meer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Nederlagen, ongelijke verdragen en opstanden ondermijnden de Qing-dynastie. In 1912 kwam er een einde aan het keizerrijk."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welke aard van intercultureel contact herken je in elke situatie?",
+          "kolommen": [
+            "Gewelddadig contact",
+            "Uitbuiting",
+            "Cultuurdominantie"
+          ],
+          "items": [
+            [
+              "Britse schepen beschieten Chinese havens in de Opiumoorlog",
+              "Gewelddadig contact"
+            ],
+            [
+              "Congolese dorpen moeten zonder loon rubber leveren",
+              "Uitbuiting"
+            ],
+            [
+              "Missiescholen leren kinderen dat de Europese cultuur de hoogste is",
+              "Cultuurdominantie"
+            ],
+            [
+              "Ongelijke verdragen leggen enkel China verplichtingen op",
+              "Uitbuiting"
+            ]
+          ],
+          "uitleg": "Oorlog is gewelddadig contact. Werk en grondstoffen afnemen zonder eerlijke tegenprestatie is uitbuiting. De eigen cultuur als hogere opleggen is cultuurdominantie."
+        },
+        {
+          "type": "open",
+          "vraag": "Vergelijk het imperialisme in Congo met dat in China. Geef één gelijkenis en twee verschillen.",
+          "antwoord": "Gelijkenis: in beide gevallen haalden westerse mogendheden economisch voordeel uit een ander gebied en verloor de lokale bevolking zeggenschap. Verschillen: Congo werd volledig bezet en rechtstreeks bestuurd, eerst door Leopold II en daarna door de Belgische staat. China bleef formeel een keizerrijk, maar werd in invloedssferen verdeeld en moest ongelijke verdragen tekenen."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Dat koloniale grenzen met een [[lat]] getrokken lijken, betekent dat ze Europese [[afspraken]] volgden en geen bestaande samenlevingen. Een gebied waar een mogendheid de dienst uitmaakt zonder het te besturen, is een [[invloedssfeer]].",
+          "extra": [
+            "rivier",
+            "volksraadpleging",
+            "kolonie"
+          ],
+          "uitleg": "Grenzen volgden de onderhandelingstafel in Europa. Een invloedssfeer is lichter dan een kolonie."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Waarom bleef China formeel een keizerrijk, maar was het toch niet echt zelfstandig? Juist of fout?",
+          "rijen": [
+            "Mogendheden maakten er in invloedssferen de dienst uit zonder het land te besturen.",
+            "Ongelijke verdragen legden China verplichtingen op die het Westen niet had.",
+            "China werd net als Congo volledig bezet en rechtstreeks bestuurd.",
+            "De keizer verloor door de westerse contacten aan gezag."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "China bleef op papier zelfstandig, maar invloedssferen en ongelijke verdragen hielden het onder westerse druk. Congo werd wel volledig bezet."
+        }
+      ]
     }
   ]
 }
