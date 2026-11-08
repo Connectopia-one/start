@@ -4692,12 +4692,12 @@
         },
         {
           "type": "tabel",
-          "vraag": "Bekijk de vier vakken. Aan welke kunstenaar doet elk vak het meest denken?",
+          "vraag": "Aan welke kunstenaar doet elk werk het meest denken?",
           "rijen": [
-            "Vak A",
-            "Vak B",
-            "Vak C",
-            "Vak D"
+            "Zes keer hetzelfde soepblik naast elkaar, telkens in een andere felle kleur",
+            "Een stripbeeld van een huilende vrouw, sterk vergroot, met grote zichtbare drukstippen",
+            "Een wasknijper van meer dan tien meter hoog op een stadsplein",
+            "Vier identieke grijze blokken, op gelijke afstand naast elkaar op de vloer"
           ],
           "antwoord": [
             "Warhol",
@@ -4705,28 +4705,25 @@
             "Oldenburg",
             "Geen popart"
           ],
-          "uitleg": "Herhaalde blikken, een stripbeeld met drukstippen, een reusachtig alledaags voorwerp. Vak D, eenvoudige blokken in serie, is minimal art.",
+          "uitleg": "Herhaalde blikken, een stripbeeld met drukstippen, een reusachtig alledaags voorwerp. Eenvoudige blokken in serie zijn minimal art.",
           "kolommen": [
             "Warhol",
             "Lichtenstein",
             "Oldenburg",
             "Geen popart"
-          ],
-          "afbeelding_url": "/examenvormen/geschiedenis-beyond/kunstvakken.svg"
+          ]
         },
         {
-          "type": "hotspot",
-          "vraag": "Klik op het vak dat het best toont dat de popart de grens tussen kunst en een stripverhaal laat vervagen.",
-          "afbeelding_url": "/examenvormen/geschiedenis-beyond/kunstvakken.svg",
-          "zones": [
-            [
-              50,
-              0,
-              50,
-              50
-            ]
+          "type": "meerkeuze",
+          "vraag": "Welk werk toont het best dat de popart de grens tussen hoge en lage cultuur laat vervagen?",
+          "opties": [
+            "Een strip uit de krant, vergroot tot schilderij in een museum",
+            "Een portret van een koning in olieverf, voor in zijn paleis",
+            "Een landschap met een dorpskerk, geschilderd in de stijl van de 17de eeuw",
+            "Een marmeren beeld van een Griekse god, in klassieke stijl"
           ],
-          "uitleg": "Vak B: een stripbeeld, vergroot tot kunstwerk. Hoge en lage cultuur lopen door elkaar."
+          "antwoord": 0,
+          "uitleg": "Iets uit de alledaagse, lage cultuur krijgt een plaats in het museum: daar vervaagt de grens."
         },
         {
           "type": "tabel",

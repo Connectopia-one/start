@@ -5,9 +5,6 @@ PRENTEN = [
     dict(bestand="tijdlijn-1750-2030.svg", zelf=True,
          wat="Dezelfde tijdlijn als bij het referentiekader.",
          vragen="klikvraag op 1948"),
-    dict(bestand="kunstvakken.svg", zelf=True,
-         wat="Vier eigen tekeningen (geen echte kunstwerken, wegens auteursrecht): herhaalde blikken, een stripbeeld met drukstippen, een reusachtige wasknijper en vier grijze blokken.",
-         vragen="tabel en klikvraag over popart"),
 ]
 
 VRAGEN = [
@@ -199,22 +196,27 @@ VRAGEN = [
         ],
         "Een beweging mobiliseert rond een thema, vaak via sociale media. Een partij wil verkozen worden.",
     ),
-    met_prent("kunstvakken.svg", tabel(
-        "Bekijk de vier vakken. Aan welke kunstenaar doet elk vak het meest denken?",
+    tabel(
+        "Aan welke kunstenaar doet elk werk het meest denken?",
         [
-            ("Vak A", "Warhol"),
-            ("Vak B", "Lichtenstein"),
-            ("Vak C", "Oldenburg"),
-            ("Vak D", "Geen popart"),
+            ("Zes keer hetzelfde soepblik naast elkaar, telkens in een andere felle kleur", "Warhol"),
+            ("Een stripbeeld van een huilende vrouw, sterk vergroot, met grote zichtbare drukstippen", "Lichtenstein"),
+            ("Een wasknijper van meer dan tien meter hoog op een stadsplein", "Oldenburg"),
+            ("Vier identieke grijze blokken, op gelijke afstand naast elkaar op de vloer", "Geen popart"),
         ],
-        "Herhaalde blikken, een stripbeeld met drukstippen, een reusachtig alledaags voorwerp. Vak D, eenvoudige blokken in serie, is minimal art.",
+        "Herhaalde blikken, een stripbeeld met drukstippen, een reusachtig alledaags voorwerp. Eenvoudige blokken in serie zijn minimal art.",
         kolommen=["Warhol", "Lichtenstein", "Oldenburg", "Geen popart"],
-    )),
-    klik(
-        "Klik op het vak dat het best toont dat de popart de grens tussen kunst en een stripverhaal laat vervagen.",
-        "kunstvakken.svg",
-        [[50, 0, 50, 50]],
-        "Vak B: een stripbeeld, vergroot tot kunstwerk. Hoge en lage cultuur lopen door elkaar.",
+    ),
+    mk(
+        "Welk werk toont het best dat de popart de grens tussen hoge en lage cultuur laat vervagen?",
+        [
+            "Een strip uit de krant, vergroot tot schilderij in een museum",
+            "Een portret van een koning in olieverf, voor in zijn paleis",
+            "Een landschap met een dorpskerk, geschilderd in de stijl van de 17de eeuw",
+            "Een marmeren beeld van een Griekse god, in klassieke stijl",
+        ],
+        0,
+        "Iets uit de alledaagse, lage cultuur krijgt een plaats in het museum: daar vervaagt de grens.",
     ),
     tabel(
         "Hoort het kenmerk bij de popart?",

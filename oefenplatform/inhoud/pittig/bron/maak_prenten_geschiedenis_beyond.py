@@ -153,7 +153,7 @@ if __name__ == "__main__":
     UIT.mkdir(parents=True, exist_ok=True)
     tijdlijn()
     volksraadpleging()
-    kunstvakken()
+
     betoging()
     print("betoging", zone_betoging())
     print("staven", [zone_staaf(i) for i in range(3)])
