@@ -35,6 +35,15 @@ THEMAS = [
     ("beeldvorming", "Beeldvorming, vergelijken en verleden-heden-toekomst"),
 ]
 
+# Nieuwe thema's voor fiche-leerstof die nog ontbrak (Kim 8/11). Ze staan hier
+# tot hun dertig vragen klaar zijn; maak_prentenlijst.py toont hun prenten al.
+KOMEND = [
+    ("china", "De Volksrepubliek China: van Mao tot Xi"),
+    ("israel_palestina", "De Israëlisch-Palestijnse kwestie"),
+    ("stromingen", "Denkstromingen en kunststromingen van de 19de en 20ste eeuw"),
+    ("kunst_analyseren", "Kunst en cultuur analyseren met het stappenplan"),
+]
+
 HOOFDSTUKKEN = [
     (titel, importlib.import_module(f"{__package__}.beyond_geschiedenis_themas.{naam}").VRAGEN)
     for naam, titel in THEMAS
