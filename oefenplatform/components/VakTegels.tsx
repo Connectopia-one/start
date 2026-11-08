@@ -72,8 +72,8 @@ export function VakTegels({
                     {gemaakt === 0
                       ? "Nog niet begonnen"
                       : gemaakt === totaal
-                        ? "Alles gemaakt 🎉"
-                        : `${gemaakt} van de ${totaal} gemaakt`}
+                        ? "Alles geoefend 🎉"
+                        : `${gemaakt} van de ${totaal} geoefend`}
                   </span>
                 </span>
               )}
