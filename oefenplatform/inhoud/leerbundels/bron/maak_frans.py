@@ -4,10 +4,11 @@
 Negen bundels, één per hoofdstuk: de zeven van `inhoud/start/frans.json` en de
 twee beschrijfhoofdstukken van `inhoud/start/frans-prenten.json`.
 
-Frans hoort niet bij de minimumdoelen van het lager onderwijs. Wij zetten het
-er zelf bij, net als Engels: kinderen komen er vroeg mee in aanraking, en een
-goede basis kan geen kwaad. Dat staat ook in de eerste bundel, zodat niemand
-denkt dat een kind hier op school al op beoordeeld wordt.
+Frans hoort wel bij de doelen van het lager onderwijs: in Vlaanderen is het
+verplicht in het 5de en 6de leerjaar (eindtermen, en straks ook de nieuwe
+minimumdoelen). Anders dan Engels, dat er pas in het secundair bij komt. Dat
+staat ook in de eerste bundel. (Tot 8/11/2026 stond hier per vergissing het
+omgekeerde, overgenomen van Engels.)
 
 De afspraak: een bundel dekt élke vraag van zijn hoofdstuk, met dezelfde
 woorden als de vraag. `python3 dekking.py ../../start/frans.json` en
@@ -21,11 +22,12 @@ import svg, bundel
 VAK = "Frans"
 tabel = bundel.tabel
 
-NIET_VERPLICHT = (
-    "<strong>Frans hoort niet bij de minimumdoelen van het lager onderwijs.</strong> "
-    "Wij bieden het toch aan, omdat kinderen in België vroeg met Frans in aanraking komen "
-    "en een goede basis geen kwaad kan. Oefen dus gerust mee, maar weet dat je hier op "
-    "school nog niet op beoordeeld wordt."
+WAAROM_FRANS = (
+    "<strong>Frans leer je op school in het 5de en 6de leerjaar.</strong> "
+    "In Vlaanderen hoort Frans daar bij de doelen die elke basisschool moet halen, "
+    "en dat blijft zo met de nieuwe minimumdoelen. Hier oefen je de geschreven kant: "
+    "woorden, lezen en schrijven. Luisteren en spreken oefen je het best hardop, "
+    "in de klas of thuis."
 )
 
 BUNDELS = {}
@@ -36,7 +38,7 @@ BUNDELS["woorden-voor-elke-dag"] = dict(
     onder="De woorden die je het vaakst nodig hebt: getallen, kleuren, dagen, maanden en groeten.",
     secties=[
         dict(kop="Waarom Frans?", blokken=[
-            ("kader", NIET_VERPLICHT),
+            ("kader", WAAROM_FRANS),
         ]),
         dict(kop="Tellen", blokken=[
             ("fig", tabel(["1 tot 10", "11 tot 20", "Tientallen"], [
