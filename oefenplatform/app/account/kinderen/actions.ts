@@ -215,3 +215,28 @@ export async function zetVoorlezen(
   revalidatePath("/account");
   return {};
 }
+
+/*
+  Figuurtjes kiezen met sterretjes, aan of uit per kind (supabase/figuurtjes.sql).
+  Dalian, enquête november 2026: "punten verdienen waar je iets mee kan doen".
+  Standaard uit, zodat het rustig blijft voor wie dat wil.
+*/
+export async function zetFiguurtjes(
+  formData: FormData,
+): Promise<{ fout?: string }> {
+  const session = await requireIngelogd();
+  const kindId = String(formData.get("kind_id") || "");
+  const aan = String(formData.get("aan") || "") === "ja";
+  if (!kindId) return { fout: "Geen kind gekozen." };
+
+  const admin = createAdminClient();
+  const { error } = await admin
+    .from("kinderen")
+    .update({ toon_figuurtjes: aan })
+    .eq("id", kindId)
+    .eq("profile_id", session.userId);
+  if (error) return { fout: "Kon dit niet bewaren, probeer opnieuw." };
+
+  revalidatePath("/account");
+  return {};
+}

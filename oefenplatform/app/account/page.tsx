@@ -163,6 +163,7 @@ export default async function AccountPage({
               toonVoortgang: Boolean(k.toon_voortgang),
                     toonKleuren: Boolean(k.toon_kleuren),
               toonVoorlezen: Boolean(k.toon_voorlezen),
+              toonFiguurtjes: Boolean(k.toon_figuurtjes),
             }))}
           />
         </div>

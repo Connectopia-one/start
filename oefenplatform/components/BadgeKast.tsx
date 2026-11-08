@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { haalTelling } from "@/app/voortgang-actions";
 import { bewaarActiefKind, leesActiefKind } from "@/lib/actiefkind";
 import { LEGE_TELLING, badges, verdiend, type Telling } from "@/lib/badges";
+import { FiguurtjesKast } from "@/components/FiguurtjesKast";
 
 type Kind = { id: string; naam: string };
 
@@ -128,6 +129,8 @@ export function BadgeKast({ kinderen }: { kinderen: Kind[] }) {
           );
         })}
       </div>
+
+      <FiguurtjesKast kindId={kindId} naam={kinderen.find((k) => k.id === kindId)?.naam} />
     </>
   );
 }

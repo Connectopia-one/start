@@ -7,6 +7,7 @@ import {
   hernoemKind,
   maakKind,
   verwijderKind,
+  zetFiguurtjes,
   zetKleuren,
   zetVoorlezen,
   zetVoortgangsbalk,
@@ -18,6 +19,7 @@ type Kind = {
   toonVoortgang: boolean;
   toonKleuren?: boolean;
   toonVoorlezen?: boolean;
+  toonFiguurtjes?: boolean;
 };
 
 export function KinderenLijst({ kinderen }: { kinderen: Kind[] }) {
@@ -89,6 +91,24 @@ export function KinderenLijst({ kinderen }: { kinderen: Kind[] }) {
     if (antwoord.fout) {
       setFout(antwoord.fout);
       setLezen((b) => ({ ...b, [kind.id]: !aan }));
+      return;
+    }
+    router.refresh();
+  }
+
+  const [figuur, setFiguur] = useState<Record<string, boolean>>({});
+  const figuurAan = (k: Kind) => figuur[k.id] ?? Boolean(k.toonFiguurtjes);
+
+  async function zetFiguur(kind: Kind, aan: boolean) {
+    setFiguur((b) => ({ ...b, [kind.id]: aan }));
+    setFout(null);
+    const data = new FormData();
+    data.set("kind_id", kind.id);
+    data.set("aan", aan ? "ja" : "nee");
+    const antwoord = await zetFiguurtjes(data);
+    if (antwoord.fout) {
+      setFout(antwoord.fout);
+      setFiguur((b) => ({ ...b, [kind.id]: !aan }));
       return;
     }
     router.refresh();
@@ -252,6 +272,23 @@ export function KinderenLijst({ kinderen }: { kinderen: Kind[] }) {
                   De computer of tablet leest dan voor met zijn eigen stem.
                   Gewone zinnen gaan goed; bij formules en vreemde woorden kan
                   de uitspraak eens mislopen.
+                </span>
+              </span>
+            </label>
+
+            <label className="mt-2 flex items-start gap-2 text-sm text-ink-dim">
+              <input
+                type="checkbox"
+                checked={figuurAan(k)}
+                onChange={(e) => zetFiguur(k, e.target.checked)}
+                className="mt-0.5 h-4 w-4 shrink-0 rounded border-border text-forest focus:ring-forest"
+              />
+              <span>
+                Sterretjes verdienen en figuurtjes kiezen
+                <span className="block text-xs">
+                  Elk hoofdstuk dat je kind helemaal afwerkt, juist of fout,
+                  geeft een sterretje. Daarmee kiest het een figuurtje bij Mijn
+                  verzameling. Geen ranglijst, geen geluiden. Staat standaard uit.
                 </span>
               </span>
             </label>

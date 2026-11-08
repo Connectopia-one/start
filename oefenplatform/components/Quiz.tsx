@@ -76,6 +76,8 @@ type Kind = {
   toonKleuren?: boolean;
   /** Een knop om de vraag en de uitleg te laten voorlezen. Standaard uit. */
   toonVoorlezen?: boolean;
+  /** Sterretjes verdienen en figuurtjes kiezen (supabase/figuurtjes.sql). Standaard uit. */
+  toonFiguurtjes?: boolean;
 };
 
 type Vraag = {
@@ -1871,6 +1873,14 @@ export function Quiz({
           ) : (
             <p className="font-display text-lg font-semibold text-forest-dark">
               Je scoorde {aantalCorrect} / {vragen.length}
+            </p>
+          )}
+          {!examen && kinderen.find((k) => k.id === actiefKindId)?.toonFiguurtjes && (
+            <p className="mt-2 text-sm text-ink">
+              ⭐ Hoofdstuk afgewerkt, dat is een sterretje!{" "}
+              <Link href="/badges#figuurtjes" className="font-semibold underline underline-offset-2">
+                Kies een figuurtje
+              </Link>
             </p>
           )}
           <button
