@@ -189,19 +189,26 @@ async function laatsteKeerPerHoofdstuk(
     return laatste;
   }
 
-  const rijen = await alleRijen<{
-    beantwoord_op: string;
-    hoofdstuk_id: string | null;
-  }>((van, tot) =>
-    admin
-      .from("voortgang")
-      .select("beantwoord_op, hoofdstuk_id")
-      .eq("kind_id", kindId)
-      .in("hoofdstuk_id", ids)
-      // Een vaste volgorde, anders kan dezelfde rij in twee blokken komen.
-      .order("id")
-      .range(van, tot),
-  );
+  // In blokjes van 150 hoofdstukken, zodat het webadres niet te lang wordt.
+  const rijen: { beantwoord_op: string; hoofdstuk_id: string | null }[] = [];
+  for (let i = 0; i < ids.length; i += 150) {
+    const blok = ids.slice(i, i + 150);
+    rijen.push(
+      ...(await alleRijen<{
+        beantwoord_op: string;
+        hoofdstuk_id: string | null;
+      }>((van, tot) =>
+        admin
+          .from("voortgang")
+          .select("beantwoord_op, hoofdstuk_id")
+          .eq("kind_id", kindId)
+          .in("hoofdstuk_id", blok)
+          // Een vaste volgorde, anders kan dezelfde rij in twee blokken komen.
+          .order("id")
+          .range(van, tot),
+      )),
+    );
+  }
   for (const rij of rijen) {
     const id = rij.hoofdstuk_id;
     if (!id) continue;
@@ -227,21 +234,33 @@ export async function haalHoofdstukStatus(
 ): Promise<HoofdstukStatus[]> {
   const admin = await kindEigenaarOfNull(kindId);
   if (!admin || !hoofdstukIds.length) return [];
-  // Eén niveau telt hooguit enkele tientallen hoofdstukken; een langere lijst
-  // is nooit een echte pagina en zou alleen het webadres opblazen.
-  const ids = hoofdstukIds.slice(0, 200);
+  /* Vroeger werd de lijst hier afgekapt op 200 hoofdstukken. Spark telt er
+     intussen meer (met de pittige hoofdstukken erbij), dus de vakken achteraan
+     (bv. Samenleving en economie) stonden op "Nog niet begonnen" terwijl er al
+     20 hoofdstukken gemaakt waren (Anja, enquête november 2026). Nu gaat alles
+     mee, en de stickers vragen we op in blokjes, zodat het webadres nooit te
+     lang wordt. */
+  const ids = hoofdstukIds.slice(0, 2000);
+  const blokken: string[][] = [];
+  for (let i = 0; i < ids.length; i += 150) blokken.push(ids.slice(i, i + 150));
 
-  const [{ data: stickers }, laatste] = await Promise.all([
-    admin
-      .from("stickers")
-      .select("hoofdstuk_id")
-      .eq("kind_id", kindId)
-      .in("hoofdstuk_id", ids),
+  const [stickerBlokken, laatste] = await Promise.all([
+    Promise.all(
+      blokken.map((blok) =>
+        admin
+          .from("stickers")
+          .select("hoofdstuk_id")
+          .eq("kind_id", kindId)
+          .in("hoofdstuk_id", blok),
+      ),
+    ),
     laatsteKeerPerHoofdstuk(admin, kindId, ids),
   ]);
 
   const perfect = new Set(
-    (stickers ?? []).map((s) => s.hoofdstuk_id as string),
+    stickerBlokken.flatMap(({ data }) =>
+      (data ?? []).map((s) => s.hoofdstuk_id as string),
+    ),
   );
 
   return ids.map((id) => ({
