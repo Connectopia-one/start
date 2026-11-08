@@ -31,6 +31,7 @@ THEMAS = [
     ("dekolonisatie", "Dekolonisatie en de wereld van vandaag"),
     ("belgie_na_1945", "België na 1945"),
     ("denken_kunst", "Denken, kunst en emancipatie"),
+    ("redeneren", "Redeneren met historische bronnen"),
 ]
 
 HOOFDSTUKKEN = [

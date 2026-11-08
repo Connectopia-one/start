@@ -117,11 +117,45 @@ def kunstvakken():
     (UIT / "kunstvakken.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
 
 
+# ---------------------------------------------------------------- betoging van bovenaf (eigen tekening)
+# Een plein van bovenaf met verspreide betogers en één drukke hoek.
+# Klikvak drukke hoek: zone_betoging().
+BW, BH = 1000, 500
+DRUK = (600, 90, 260, 210)  # x, y, breedte, hoogte van de drukke hoek
+
+
+def zone_betoging():
+    x, y, w, h = DRUK
+    return [round(x / BW * 100, 1), round(y / BH * 100, 1), round(w / BW * 100, 1), round(h / BH * 100, 1)]
+
+
+def betoging():
+    import random
+    rnd = random.Random(1890)
+    d = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {BW} {BH}" width="{BW}" height="{BH}" font-family="Arial, sans-serif">',
+         f'<rect width="{BW}" height="{BH}" fill="#d7d2c4"/>',
+         '<rect x="0" y="0" width="1000" height="40" fill="#8d8778"/><rect x="0" y="460" width="1000" height="40" fill="#8d8778"/>',
+         '<text x="20" y="27" font-size="20" fill="#fff">straat</text><text x="20" y="487" font-size="20" fill="#fff">straat</text>']
+    x0, y0, w, h = DRUK
+    for _ in range(420):
+        cx, cy = x0 + rnd.random() * w, y0 + rnd.random() * h
+        d.append(f'<circle cx="{cx:.0f}" cy="{cy:.0f}" r="6" fill="#3e2723"/>')
+    for _ in range(90):
+        cx, cy = 30 + rnd.random() * 940, 60 + rnd.random() * 380
+        if x0 - 10 < cx < x0 + w + 10 and y0 - 10 < cy < y0 + h + 10:
+            continue
+        d.append(f'<circle cx="{cx:.0f}" cy="{cy:.0f}" r="6" fill="#3e2723"/>')
+    d.append("</svg>")
+    (UIT / "betoging-van-bovenaf.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
+
+
 if __name__ == "__main__":
     UIT.mkdir(parents=True, exist_ok=True)
     tijdlijn()
     volksraadpleging()
     kunstvakken()
+    betoging()
+    print("betoging", zone_betoging())
     print("staven", [zone_staaf(i) for i in range(3)])
     for j in (1789, 1815, 1830, 1871, 1914, 1945, 1989):
         print(j, zone_jaar(j))
