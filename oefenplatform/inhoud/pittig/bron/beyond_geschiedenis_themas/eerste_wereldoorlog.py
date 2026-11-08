@@ -18,9 +18,9 @@ VRAGEN = [
             ("De moord op Frans Ferdinand in Sarajevo", "Aanleiding"),
             ("Wedijver en nationalisme tussen de grote mogendheden", "Oorzaak"),
             ("Een wedloop in bewapening", "Oorzaak"),
-            ("Een web van bondgenootschappen", "Oorzaak"),
+            ("Militarisme bij de grote mogendheden", "Oorzaak"),
         ],
-        "De aanleiding is de vonk: de moord in juni 1914. De oorzaken zijn de opgestapelde spanningen: nationalisme, militarisme en bondgenootschappen.",
+        "De aanleiding is de vonk: de moord in juni 1914. De oorzaken zijn de opgestapelde spanningen: onder meer nationalisme en militarisme.",
         kolommen=["Aanleiding", "Oorzaak"],
     ),
     mk(
@@ -49,7 +49,7 @@ VRAGEN = [
     mk(
         "Een leerling schrijft: \"België koos in 1914 de kant van Frankrijk.\" Wat is de juiste verbetering?",
         [
-            "België werd volgens het plan Von Schlieffen binnengevallen en verdedigde zijn neutraliteit",
+            "België werd binnengevallen en verdedigde zijn neutraliteit",
             "België koos de kant van Duitsland, omdat het bang was voor het grote Franse leger",
             "België bleef de hele oorlog volledig buiten de gevechten, net zoals Zwitserland",
             "België viel in 1914 zelf Duitsland binnen om het Rijnland terug te winnen",
@@ -59,8 +59,8 @@ VRAGEN = [
     ),
     volgorde(
         "Zet de gebeurtenissen van de Eerste Wereldoorlog in de juiste volgorde.",
-        ["De moord in Sarajevo", "De Duitse inval in België", "De opmars loopt vast en de legers graven zich in", "De Verenigde Staten treden toe", "De wapenstilstand"],
-        "Juni 1914, augustus 1914, eind 1914, 1917 en 11 november 1918.",
+        ["De moord in Sarajevo", "De Duitse inval in België", "De Verenigde Staten treden toe", "De wapenstilstand", "Duitsland tekent het Verdrag van Versailles"],
+        "Juni 1914, augustus 1914, 1917, november 1918 en 1919.",
     ),
     mk(
         "Waarom ging de bewegingsoorlog van 1914 over in een loopgravenoorlog?",
@@ -71,7 +71,7 @@ VRAGEN = [
             "De tank was al uitgevonden en maakte elke opmars onmogelijk",
         ],
         0,
-        "Toen geen van beide legers nog vooruit raakte, groeven ze zich in. Mitrailleurs maakten aanvallen over open terrein bijna onmogelijk.",
+        "Toen geen van beide legers nog vooruit raakte, groeven ze zich in.",
     ),
     keuze(
         "Men noemt de Eerste Wereldoorlog een [[*totale|koude|beperkte]] oorlog, omdat de hele samenleving werd ingezet. [[*Propaganda|Neutraliteit|Appeasement]] moest de steun van de bevolking vasthouden.",
@@ -100,7 +100,7 @@ VRAGEN = [
                 [
                     ("De Britse regering wilde haar bevolking achter de oorlog krijgen.", "Mag"),
                     ("Elk Belgisch dorp is in 1914 afgebrand.", "Mag niet"),
-                    ("Propaganda was een middel in een totale oorlog.", "Mag"),
+                    ("De affiche toont hoe de Britse overheid de oorlog wilde laten zien.", "Mag"),
                 ],
                 "Propaganda is een slechte bron over wat er precies gebeurde, maar een uitstekende bron over wat men wilde laten geloven.",
                 kolommen=["Mag", "Mag niet"],
@@ -118,13 +118,13 @@ VRAGEN = [
         "Het IJzerfront hield het laatste stukje vrij België. Wat je vandaag aan loopgraven bezoekt, is heraangelegd.",
     ),
     tabel(
-        "Waarom en wanneer? Lees elke uitspraak over 1917.",
+        "Lees elke uitspraak over het keerjaar waarin Amerika in de oorlog stapte.",
         [
             ("De Verenigde Staten traden toe door de onbeperkte Duitse duikbotenoorlog.", J),
             ("Rusland vocht tot het einde van de oorlog mee aan de kant van de Entente.", F),
             ("Na de revolutie sloot Rusland een aparte vrede.", J),
         ],
-        "In 1917 kwam Amerika erbij en viel Rusland weg. Rusland vocht dus niet mee tot het einde.",
+        "In hetzelfde jaar kwam Amerika erbij en viel Rusland weg. Rusland vocht dus niet mee tot het einde.",
     ),
     klik(
         "Klik op de tijdlijn op het jaar van de Februari- en de Oktoberrevolutie in Rusland.",
@@ -166,15 +166,15 @@ VRAGEN = [
         "De bepalingen waren bedoeld om Duitsland te verzwakken. Dat het verdrag als een dictaat werd ervaren en extreme partijen hielp, was niet de bedoeling.",
     ),
     mk(
-        "Welk verband leg je met de redeneerwijze bedoelde en onbedoelde gevolgen tussen Versailles en de Tweede Wereldoorlog?",
+        "Welke militaire bepaling legde het Verdrag van Versailles aan Duitsland op?",
         [
-            "Het verdrag wilde Duitsland verzwakken, maar de wrok erover hielp onbedoeld Hitler aan steun",
-            "Het verdrag wilde bewust een nieuwe oorlog uitlokken, en dat is ook precies gebeurd zoals bedoeld",
-            "Het verdrag had geen enkel gevolg, want Duitsland heeft het nooit ondertekend",
-            "Het verdrag maakte Duitsland groter, en daardoor wilde het nog meer gebied",
+            "Het mocht nog maar een klein leger houden",
+            "Het moest zijn hele vloot aan Rusland geven",
+            "Het moest soldaten leveren aan de Volkenbond",
+            "Het moest zijn leger onder Frans bevel plaatsen",
         ],
         0,
-        "Het bedoelde gevolg was een zwak Duitsland. Het onbedoelde gevolg was een voedingsbodem voor extreme partijen.",
+        "Een klein leger, de schuld erkennen en herstelbetalingen: zo wilde men Duitsland verzwakken.",
     ),
     tabel(
         "Sterkte of zwakte van de Volkenbond?",
@@ -188,15 +188,10 @@ VRAGEN = [
         kolommen=["Sterkte", "Zwakte"],
     ),
     mk(
-        "Vergelijk de Volkenbond met de Verenigde Naties. Welke uitspraak klopt?",
-        [
-            "Geen van beide heeft een eigen staand leger; bij de VN leveren lidstaten blauwhelmen",
-            "Beide werden opgericht na de Tweede Wereldoorlog, in hetzelfde jaar en in dezelfde stad",
-            "De Volkenbond had een vetorecht voor vijf vaste landen, maar de VN heeft dat niet meer",
-            "De Verenigde Staten waren een stichtend lid van de Volkenbond, maar nooit lid van de VN",
-        ],
+        "In welk jaar werd de Volkenbond opgericht?",
+        ["1920", "1914", "1918", "1945"],
         0,
-        "De Volkenbond had geen leger, en ook de VN heeft geen staand leger. De Verenigde Staten traden nooit toe tot de bond, wel tot de VN. Het vetorecht hoort bij de VN.",
+        "De Volkenbond kwam er in 1920, na de vrede van Versailles.",
     ),
     tabel(
         "Kenmerken van Rusland onder Nicolaas II. Juist of fout?",
@@ -204,7 +199,7 @@ VRAGEN = [
             ("Rusland was een autocratie.", J),
             ("De meeste Russen waren arme boeren.", J),
             ("De tsaar deelde zijn macht met een sterk verkozen parlement.", F),
-            ("Nederlagen en honger in de oorlog ondermijnden zijn gezag.", J),
+            ("Rusland was een sterk geïndustrialiseerd land met weinig boeren.", F),
         ],
         "De tsaar regeerde alleen over een grote, arme boerenbevolking. De oorlog maakte de toestand onhoudbaar.",
     ),
@@ -217,18 +212,17 @@ VRAGEN = [
             "Ze voerde de vijfjarenplannen in en dwong de boeren in collectieve bedrijven",
         ],
         0,
-        "Oorlog, grond en brood bleven onopgelost. Daar speelde Lenin met zijn belofte vrede, brood en land handig op in.",
+        "Oorlog, grond en voedsel bleven onopgelost, en daar speelden de bolsjewieken op in.",
     ),
     koppel(
-        "Welk begrip uit de Russische geschiedenis hoort bij elke omschrijving?",
+        "Welke naam hoort bij elke omschrijving uit de jaren 1914 tot 1917?",
         [
             ["De tsaar doet troonsafstand en er komt een voorlopige regering", "Februarirevolutie"],
             ["De bolsjewieken onder Lenin grijpen de macht", "Oktoberrevolutie"],
-            ["De arbeidersklasse grijpt in de overgangsfase alle macht", "Dictatuur van het proletariaat"],
-            ["Graan wordt bij de boeren opgeëist en voedsel op rantsoen gezet", "Oorlogscommunisme"],
+            ["Het Duitse aanvalsplan om Frankrijk via België snel uit te schakelen", "Plan Von Schlieffen"],
         ],
-        ["Collectivisatie"],
-        "Vier stappen van 1917 tot de burgeroorlog. Collectivisatie hoort pas bij Stalin, vanaf 1928.",
+        ["Collectivisatie", "Veertienpuntenplan"],
+        "Twee revoluties in 1917 en het Duitse aanvalsplan van 1914. Collectivisatie hoort pas bij Stalin, het Veertienpuntenplan bij Wilson.",
     ),
     sleep(
         "Lenin vatte zijn belofte samen in drie woorden: vrede, [[brood]] en [[land]]. Na de Oktoberrevolutie volgde geen rust maar een [[burgeroorlog]] van jaren.",
@@ -258,7 +252,7 @@ VRAGEN = [
         kolommen=["Kenmerk", "Geen kenmerk"],
     ),
     open_(
-        "Leg uit waarom men de Eerste Wereldoorlog een totale oorlog noemt. Geef drie voorbeelden.",
+        "Geef drie voorbeelden van hoe niet alleen het leger, maar de hele samenleving voor de Eerste Wereldoorlog werd ingezet.",
         "De hele samenleving werd voor de oorlog ingezet, niet alleen het leger. Fabrieken maakten wapens en munitie, voedsel werd voor het front gebruikt, vrouwen namen het werk van de mannen in de fabrieken over, kolonies leverden soldaten en grondstoffen, en propaganda moest de steun van de bevolking vasthouden.",
     ),
     tabel(
@@ -272,15 +266,15 @@ VRAGEN = [
         "Mitrailleur, gifgas en tank horen bij de Eerste Wereldoorlog. De atoombom kwam pas in 1945.",
     ),
     mk(
-        "Bij het uitbreken van de oorlog dachten veel mensen dat hij voor de kerstdagen voorbij zou zijn. Waarom liep dat anders?",
+        "Wat dachten veel mensen bij het uitbreken van de oorlog in 1914 over de duur ervan?",
         [
-            "De bewegingsoorlog liep vast in een loopgravenoorlog die jaren duurde",
-            "Alle legers spraken af om pas na de kerstdagen te beginnen vechten",
-            "De Verenigde Staten traden meteen toe en verlengden zo de oorlog",
-            "Rusland won de oorlog al in 1914, maar de andere landen gaven niet op",
+            "Dat hij voor de kerstdagen voorbij zou zijn",
+            "Dat hij minstens tien jaar zou duren",
+            "Dat hij pas zou eindigen als Amerika meedeed",
+            "Dat er nooit echt gevochten zou worden",
         ],
         0,
-        "Toen de opmars vastliep, groeven de legers zich in. De oorlog duurde tot de wapenstilstand van 11 november 1918.",
+        "Velen verwachtten een korte oorlog. Het werden ruim vier jaren.",
     ),
     keuze(
         "In 1919 tekende Duitsland het Verdrag van Versailles in de [[*Spiegelzaal|Rijksdag|Volkenbond]], dezelfde zaal waar in [[*1871|1815|1914]] het Duitse Keizerrijk werd uitgeroepen.",

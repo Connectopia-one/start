@@ -28,6 +28,7 @@ THEMAS = [
     ("interbellum", "Interbellum: totalitarisme en crisis"),
     ("tweede_wereldoorlog", "De Tweede Wereldoorlog en de Holocaust"),
     ("wereldorde", "Een nieuwe wereldorde: VN, Koude Oorlog en Europa"),
+    ("dekolonisatie", "Dekolonisatie en de wereld van vandaag"),
 ]
 
 HOOFDSTUKKEN = [

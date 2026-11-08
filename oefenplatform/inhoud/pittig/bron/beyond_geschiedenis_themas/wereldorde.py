@@ -37,7 +37,7 @@ VRAGEN = [
             "Het Internationaal Gerechtshof moet de knoop doorhakken tussen beide",
         ],
         0,
-        "Het vetorecht is de grote zwakte van de VN: één vast lid kan een beslissing blokkeren, ook als alle anderen voor zijn.",
+        "Eén vast lid kan een beslissing blokkeren, ook als alle anderen voor zijn.",
     ),
     sorteer(
         "Sterkte of zwakte van de Verenigde Naties?",
@@ -92,7 +92,7 @@ VRAGEN = [
     volgorde(
         "Zet de gebeurtenissen van de Koude Oorlog in de juiste volgorde.",
         ["Churchill spreekt over het IJzeren Gordijn", "De blokkade van Berlijn", "De Hongaarse opstand", "De bouw van de Berlijnse Muur", "De Cubacrisis", "De Praagse Lente"],
-        "1946, 1948-1949, 1956, 1961, 1962 en 1968.",
+        "Eerst het IJzeren Gordijn en de blokkade van Berlijn, dan Hongarije, de Muur, Cuba en ten slotte Praag.",
     ),
     klik(
         "Klik op de tijdlijn op het jaar waarin de Berlijnse Muur gebouwd werd.",
@@ -134,12 +134,12 @@ VRAGEN = [
             ("Propaganda en spionage", J),
             ("Economische hulp aan bondgenoten", J),
             ("Een wedloop in de ruimtevaart", J),
-            ("Rechtstreekse veldslagen tussen Amerikaanse en Sovjetlegers", F),
+            ("Een volledige stop van de wapenproductie", F),
         ],
-        "De strijd liep via propaganda, spionage, hulp en ruimtevaart. Rechtstreeks vochten de supermachten nooit tegen elkaar.",
+        "De strijd liep via propaganda, spionage, hulp en ruimtevaart. De wapenwedloop met kernwapens ging ondertussen gewoon door.",
     ),
     keuze(
-        "De Sovjetleider Gorbatsjov lanceerde vanaf 1985 [[*glasnost|perestrojka|détente]], dat betekent openheid, en perestrojka, dat betekent [[*hervorming|ontspanning|bewapening]].",
+        "De Sovjetleider Gorbatsjov lanceerde vanaf 1985 glasnost, dat betekent [[*openheid|ontspanning|eenheid]], en perestrojka, dat betekent [[*hervorming|bewapening|zuivering]].",
         "Openheid en hervorming moesten de Sovjet-Unie redden, maar versnelden haar einde.",
     ),
     tabel(
@@ -164,15 +164,10 @@ VRAGEN = [
         "Er was toenadering, maar de spanningen kwamen terug. Ze bleven dus niet voortdurend vriendschappelijk.",
     ),
     mk(
-        "Wat is het verband tussen de Europese eenmaking en de Tweede Wereldoorlog?",
-        [
-            "De eenmaking moest een nieuwe oorlog tussen buurlanden onmogelijk maken",
-            "De eenmaking was een beloning voor de landen die de oorlog gewonnen hadden",
-            "De eenmaking werd door de Sovjet-Unie opgelegd aan West-Europa",
-            "Er is geen verband: de eenmaking begon pas na de val van de Muur",
-        ],
+        "De euro bestond al voor er biljetten en munten waren. Sinds wanneer bestond hij giraal, op rekeningen?",
+        ["1999", "2002", "1992", "2009"],
         0,
-        "Door kolen en staal, de grondstoffen van de oorlog, samen te beheren, werd een oorlog tussen Frankrijk en Duitsland onmogelijk.",
+        "Giraal in 1999, als biljetten in 2002. Het Verdrag van Maastricht van 1992 had de weg ernaartoe vastgelegd.",
     ),
     tabel(
         "Welk verdrag bracht wat?",
@@ -197,8 +192,8 @@ VRAGEN = [
             ["Hier zetelen de staatshoofden en regeringsleiders", "De Europese Raad"],
             ["Hier zetelen de vakministers van de lidstaten", "De Raad van de Europese Unie"],
         ],
-        ["De Raad van Europa"],
-        "De Raad van Europa is een aparte organisatie die niet eens bij de EU hoort. Let ook op het verschil tussen de Europese Raad en de Raad van de EU.",
+        ["Het Internationaal Gerechtshof"],
+        "Het Internationaal Gerechtshof is een orgaan van de VN. Let op het verschil tussen de Europese Raad en de Raad van de EU.",
     ),
     mk(
         "Een krant schrijft: \"De Raad van Europa besliste gisteren over het Europese landbouwbeleid.\" Wat is er mis?",
@@ -232,7 +227,7 @@ VRAGEN = [
         "Vrede, verweven economieën en samen sterker staan. Een Europees leger hoorde daar niet bij.",
     ),
     mk(
-        "De VN hebben geen eigen staand leger. Hoe komt een vredesmacht met blauwhelmen dan tot stand?",
+        "Hoe komt een vredesmacht met blauwhelmen van de VN tot stand?",
         [
             "Lidstaten leveren per missie soldaten",
             "De VN huren soldaten in van private firma's",

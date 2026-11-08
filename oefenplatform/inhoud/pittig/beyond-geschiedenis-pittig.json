@@ -20,7 +20,7 @@
             true,
             false
           ],
-          "uitleg": "Tijd, ruimte en maatschappelijke domeinen zijn de drie assen. Het kader is een hulpmiddel om te ordenen: het bewijst niets over wat er gebeurd is."
+          "uitleg": "De eerste drie stappen horen elk bij een as. Het kader ordent, maar bewijst niets over wat er gebeurd is."
         },
         {
           "type": "volgorde",
@@ -32,7 +32,7 @@
             "De Tweede Wereldoorlog eindigt",
             "De Berlijnse Muur valt"
           ],
-          "uitleg": "1492, 1789, 1814-1815, 1945 en 1989. De eerste valt in de vroegmoderne tijd, de volgende twee in de moderne tijd, de laatste twee in de hedendaagse tijd."
+          "uitleg": "1492, 1789, 1814-1815, 1945 en 1989."
         },
         {
           "type": "hotspot",
@@ -50,7 +50,7 @@
         },
         {
           "type": "hotspot",
-          "vraag": "Klik op de tijdlijn op het jaar waarmee de hedendaagse tijd begint.",
+          "vraag": "Klik op de tijdlijn op het scharnierpunt waarmee de hedendaagse tijd begint.",
           "afbeelding_url": "/examenvormen/geschiedenis-beyond/tijdlijn-1750-2030.svg",
           "zones": [
             [
@@ -60,29 +60,29 @@
               55
             ]
           ],
-          "uitleg": "1945, het einde van de Tweede Wereldoorlog. Toen verschoven de machtsverhoudingen in de wereld ingrijpend."
+          "uitleg": "1945, het einde van de Tweede Wereldoorlog, net voor het streepje van 1950."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom laat men met het einde van de Tweede Wereldoorlog een nieuwe periode beginnen, en niet met het einde van de Eerste?",
+          "vraag": "Waarom laat men de hedendaagse tijd niet beginnen met het einde van de Eerste Wereldoorlog?",
           "opties": [
-            "Omdat de machtsverhoudingen in de wereld in 1945 ingrijpend verschoven",
+            "Omdat de machtsverhoudingen pas na de volgende oorlog ingrijpend verschoven",
             "Omdat er na 1945 in Europa nergens nog oorlog gevoerd werd",
             "Omdat de Eerste Wereldoorlog buiten Europa niet gevoeld werd",
             "Omdat er van voor 1945 bijna geen geschreven bronnen bewaard zijn"
           ],
           "antwoord": 0,
-          "uitleg": "Het kader kiest 1945 omdat de wereldorde toen grondig veranderde. Dat er nadien geen oorlog meer was of dat bronnen ontbreken, klopt niet."
+          "uitleg": "Het kader kiest een later scharnierpunt, omdat de wereldorde pas dan grondig veranderde. Dat er nadien geen oorlog meer was of dat bronnen ontbreken, klopt niet."
         },
         {
           "type": "keuzelijst",
           "vraag": "De Reformatie valt in de [[*vroegmoderne tijd|moderne tijd|middeleeuwen]], want die periode loopt van de [[*16de tot de 18de eeuw|14de tot de 15de eeuw|19de tot de 20ste eeuw]].",
-          "uitleg": "De vroegmoderne tijd begint met 1492 en loopt tot de Franse Revolutie van 1789. De Reformatie, in de 16de eeuw, valt daar middenin."
+          "uitleg": "De vroegmoderne tijd begint met 1492 en loopt tot het einde van de 18de eeuw. De Reformatie, in de 16de eeuw, valt daar middenin."
         },
         {
           "type": "keuzelijst",
           "vraag": "Situeer de Franse Revolutie. In de tijd is ze het scharnierpunt naar de [[*moderne tijd|vroegmoderne tijd|hedendaagse tijd]]. In de ruimte is ze in de eerste plaats [[*West-Europees|maritiem|ruraal]]. Bij de domeinen hoort ze vooral in het [[*politieke|economische|culturele]] domein.",
-          "uitleg": "1789 opent de moderne tijd. Ze speelt zich af in Frankrijk, in West-Europa, en gaat in de eerste plaats over wie de macht heeft: politiek."
+          "uitleg": "Ze opent de moderne tijd. Ze speelt zich af in Frankrijk, in West-Europa, en gaat in de eerste plaats over wie de macht heeft: politiek."
         },
         {
           "type": "koppelen",
@@ -282,16 +282,13 @@
             [
               "Men kiest het Congres van Wenen als scharnierpunt voor de hele wereld.",
               "Eurocentrische blik"
-            ],
-            [
-              "Een tekst noemt de middeleeuwen de donkere eeuwen.",
-              "Verstopte morele maatstaf"
             ]
           ],
           "extra": [
-            "Meerdere perspectieven"
+            "Meerdere perspectieven",
+            "Verstopte morele maatstaf"
           ],
-          "uitleg": "Het handboek kijkt maar naar een stuk van de wereld. Wenen als wereldscharnier neemt Europa als maatstaf. Donkere eeuwen oordeelt al in de naam. Meerdere perspectieven is net wat in alle drie ontbreekt."
+          "uitleg": "Het handboek kijkt maar naar een stuk van de wereld. Wenen als wereldscharnier neemt Europa als maatstaf. Meerdere perspectieven is net wat in beide ontbreekt."
         },
         {
           "type": "meerkeuze",
@@ -381,24 +378,24 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Sommige historici kiezen ook het Congres van Wenen als scharnierpunt. Wat zegt dat over periodiseren?",
+          "vraag": "Een historicus kiest het Congres van Wenen als scharnierpunt in plaats van de Franse Revolutie. Welke periode wordt in zijn indeling daardoor iets langer?",
           "opties": [
-            "Er is niet één juist scharnierpunt: wie periodiseert, kiest",
-            "De moderne tijd begint dus officieel in 1815 en niet in 1789",
-            "Het Congres van Wenen hoort bij het culturele domein",
-            "Alleen de Franse Revolutie mag als scharnierpunt gelden"
+            "De vroegmoderne tijd",
+            "De moderne tijd",
+            "De hedendaagse tijd",
+            "De middeleeuwen"
           ],
           "antwoord": 0,
-          "uitleg": "Het kader kiest meestal 1789, maar ook Wenen wordt genoemd. Dat er twee kandidaten zijn, toont dat een periodisering een keuze is."
+          "uitleg": "Wenen (1814-1815) komt na 1789. Schuift het einde van de vroegmoderne tijd op, dan wordt die periode langer en de moderne tijd korter."
         },
         {
           "type": "tabel",
           "vraag": "Een leerling legt de industrialisering op het referentiekader. Welke beweringen zijn juist?",
           "rijen": [
-            "De industrialisering kan een scharnierpunt zijn, ook al is ze geen politieke gebeurtenis.",
+            "Ze raakte niet enkel de economie, maar ook de verhoudingen tussen sociale groepen.",
             "In Engeland kwam ze vroeger op gang dan in Vlaanderen, en dat is ongelijktijdigheid.",
             "Omdat ze geleidelijk verliep, kan je ze enkel een breuk noemen.",
-            "Ze hoort uitsluitend bij het economische domein en raakt nooit het sociale."
+            "Ze begon pas in de hedendaagse tijd, na 1945."
           ],
           "antwoord": [
             true,
@@ -406,7 +403,7 @@
             false,
             false
           ],
-          "uitleg": "Scharnierpunten liggen niet enkel in de politiek. Een geleidelijke verandering is net geen breuk. En de industrialisering raakte ook het sociale domein: denk aan de klassenmaatschappij."
+          "uitleg": "Een geleidelijke verandering is net geen breuk. De industrialisering raakte ook het sociale domein, denk aan de klassenmaatschappij, en begon al in de moderne tijd."
         },
         {
           "type": "sleepzin",
@@ -441,7 +438,7 @@
           "type": "tabel",
           "vraag": "Welke beslissingen van het Congres van Wenen dienden om Frankrijk in te dijken?",
           "rijen": [
-            "Ten noorden van Frankrijk kwam het Verenigd Koninkrijk der Nederlanden.",
+            "Rond Frankrijk kwamen bufferstaten die een nieuwe Franse aanval moesten opvangen.",
             "Pruisen kreeg het Rijnland erbij, aan de grens met Frankrijk.",
             "De Duitse staten werden samengebracht in één sterk keizerrijk.",
             "Frankrijk kreeg alle gebieden van Napoleon terug."
@@ -452,7 +449,7 @@
             false,
             false
           ],
-          "uitleg": "Bufferstaten rond Frankrijk: het Verenigd Koninkrijk der Nederlanden in het noorden en Pruisen aan de Rijn. De Duitse staten bleven in een los verband, de Duitse Bond."
+          "uitleg": "Bufferstaten rond Frankrijk, met Pruisen aan de Rijn. De Duitse staten werden niet tot één rijk samengevoegd."
         },
         {
           "type": "meerkeuze",
@@ -493,10 +490,9 @@
         },
         {
           "type": "sleepzin",
-          "vraag": "Men wilde na Napoleon de toestand van voor 1789 herstellen: dat heet [[restauratie]]. Omdat de vorsten bij de grenzen geen rekening hielden met de [[taal]] en de wensen van de bevolking, volgden er revolutiegolven in [[1830]] en 1848.",
+          "vraag": "Men wilde na Napoleon de toestand van voor 1789 herstellen: dat heet [[restauratie]]. Omdat de vorsten bij de grenzen geen rekening hielden met de [[taal]] en de wensen van de bevolking, volgden er revolutiegolven in 1830 en 1848.",
           "extra": [
             "revolutie",
-            "1815",
             "godsdienst"
           ],
           "uitleg": "Restauratie is herstel. Het negeren van taal en wensen van de bevolking verklaart veel van de opstanden die volgden."
@@ -599,7 +595,7 @@
             "Ze werden allebei door koning Willem I zelf gesteund en betaald"
           ],
           "antwoord": 0,
-          "uitleg": "Katholieken en liberalen verschilden sterk van mening, maar de grieven tegen Willem I brachten hen samen. Dat samengaan leeft na 1830 voort als unionisme."
+          "uitleg": "Katholieken en liberalen verschilden sterk van mening, maar de grieven tegen Willem I brachten hen samen. Dat samengaan bleef ook na 1830 bestaan."
         },
         {
           "type": "volgorde",
@@ -615,7 +611,7 @@
         },
         {
           "type": "keuzelijst",
-          "vraag": "België werd in 1831 een [[*constitutionele parlementaire monarchie|absolute monarchie|republiek]]: een koning, maar met een [[*grondwet|keizer|paus]] boven hem en een parlement naast hem.",
+          "vraag": "België werd in 1831 een [[*constitutionele parlementaire monarchie|absolute monarchie|republiek]]: een koning, maar met een grondwet boven hem en een parlement [[*naast|onder|boven]] hem.",
           "uitleg": "Een constitutionele monarchie heeft een grondwet die de macht van de koning beperkt. Het parlement maakt de wetten."
         },
         {
@@ -648,18 +644,15 @@
               "Unionisme"
             ],
             [
-              "De oude vorstenhuizen hebben het rechtmatige gezag",
-              "Legitimiteit"
-            ],
-            [
-              "De toestand van voor de Franse Revolutie herstellen",
-              "Restauratie"
+              "Een groep met een gedeelde taal, cultuur en geschiedenis wil een eigen staat",
+              "Nationalisme"
             ]
           ],
           "extra": [
-            "Nationalisme"
+            "Legitimiteit",
+            "Restauratie"
           ],
-          "uitleg": "Vier begrippen uit dit thema. Nationalisme past bij geen van de vier omschrijvingen."
+          "uitleg": "Drie begrippen uit dit thema. Legitimiteit en restauratie horen bij het Congres van Wenen."
         },
         {
           "casus": "Bekijk het schilderij. Gustaf Wappers schilderde het in 1834 en 1835 in opdracht van de Belgische staat. Het toont burgers, arbeiders en een vrouw met de Belgische vlag op de barricaden in Brussel in september 1830. De opstandelingen staan in het licht en kijken vastberaden.",
@@ -716,7 +709,7 @@
           "rijen": [
             "Het Frans was in heel het land de taal van bestuur en rechtbank, ook in Vlaanderen.",
             "De Vlaamse beweging begon als een politieke partij.",
-            "De Leeuw van Vlaanderen van Hendrik Conscience gaf de beweging een verhaal.",
+            "Een historische roman uit 1838 gaf de beweging een verhaal.",
             "De eerste taalwetten die het Nederlands erkenden, kwamen er meteen in 1831."
           ],
           "antwoord": [
@@ -741,7 +734,7 @@
         },
         {
           "type": "tabel",
-          "vraag": "Een leerling vat de Duitse eenmaking samen. Welke middelen van Bismarck noemt ze terecht?",
+          "vraag": "Een leerling vat de Duitse eenmaking samen. Welke middelen van Pruisen noemt ze terecht?",
           "rijen": [
             "Oorlogen tegen Denemarken, Oostenrijk en Frankrijk",
             "Een douane-unie die de staten economisch bond",
@@ -778,7 +771,7 @@
             "Er veranderde niets aan de kaart, want de Duitse staten bleven gewoon in hetzelfde losse verband als na Wenen"
           ],
           "antwoord": 0,
-          "uitleg": "Uit een los verband van negenendertig staten groeide één sterk rijk. Dat brak het evenwicht dat Wenen had opgebouwd."
+          "uitleg": "Uit een los verband van staten groeide één sterk rijk. Dat brak het evenwicht dat Wenen had opgebouwd."
         },
         {
           "type": "volgorde",
@@ -812,17 +805,17 @@
         {
           "type": "keuzelijst",
           "vraag": "Na 1815 waren de Duitse staten verenigd in de [[*Duitse Bond|Triple Entente|Volkenbond]], een los verband van [[*negenendertig|zeven|twee]] zelfstandige staten.",
-          "uitleg": "Wenen bracht ze niet samen in één rijk. Pas onder Bismarck kwam in 1871 het Duitse Keizerrijk."
+          "uitleg": "Wenen bracht ze niet samen in één rijk. Pas in 1871 kwam het Duitse Keizerrijk."
         },
         {
           "type": "sleepzin",
-          "vraag": "Het jonge België werd bestuurd door [[katholieken]] en liberalen samen. Mogen stemmen hing af van de [[belasting]] die je betaalde. De grondwet schreef de vrijheid van [[onderwijs]] uitdrukkelijk in.",
+          "vraag": "Het Congres van Wenen werd geleid door de Oostenrijkse kanselier [[Metternich]]. De roman De Leeuw van Vlaanderen van [[Conscience]] gaf de Vlaamse beweging een verhaal. De Duitse eenmaking werd geleid door de Pruisische minister-president [[Bismarck]].",
           "extra": [
-            "socialisten",
-            "taal",
-            "arbeid"
+            "Napoleon",
+            "Leopold I",
+            "Willem I"
           ],
-          "uitleg": "Unionisme, cijnskiesrecht en de vrijheid van onderwijs, drukpers en vereniging zijn kenmerken van de Belgische staat van 1831."
+          "uitleg": "Metternich leidde Wenen, Conscience schreef het boek van 1838 en Bismarck leidde de Duitse eenmaking. Napoleon was in 1815 al verslagen."
         },
         {
           "type": "meerkeuze",
@@ -834,50 +827,24 @@
             "Ze volgden zorgvuldig de taalgrenzen; daardoor ontstonden er overal in Europa nieuwe, eentalige staten"
           ],
           "antwoord": 0,
-          "uitleg": "Wenen tekende grenzen voor het evenwicht en het herstel van de oude vorsten. Taal en wensen van de bevolking telden niet, en dat voedde de opstanden van 1830 en 1848."
+          "uitleg": "Wenen tekende grenzen voor het evenwicht en het herstel van de oude vorsten. De bevolking telde niet mee, en dat voedde later de opstanden."
         },
         {
-          "type": "tabel",
-          "vraag": "Juist of fout? Lees elke uitspraak over de Belgische grondwet van 1831.",
-          "rijen": [
-            "Ze bevatte zowel katholieke als liberale standpunten.",
-            "Ze maakte van België een republiek zonder koning.",
-            "De vrijheid van onderwijs stond er uitdrukkelijk in.",
-            "Ze gaf alle volwassen mannen stemrecht."
+          "type": "meerkeuze",
+          "vraag": "Hoe reageerden de grote mogendheden op de revolutiegolven van 1830 en 1848?",
+          "opties": [
+            "Ze onderdrukten ze of probeerden ze in te dammen",
+            "Ze steunden de opstandelingen met hun legers",
+            "Ze lieten overal volksraadplegingen organiseren",
+            "Ze ontbonden het Congres en tekenden nieuwe grenzen"
           ],
-          "antwoord": [
-            true,
-            false,
-            true,
-            false
-          ],
-          "uitleg": "De grondwet was een compromis tussen katholieken en liberalen. België werd een monarchie, en door het cijnskiesrecht stemde maar een kleine groep."
+          "antwoord": 0,
+          "uitleg": "De mogendheden wilden de orde van Wenen bewaren en reageerden met onderdrukking of indammen."
         },
         {
-          "type": "koppelen",
-          "vraag": "Welke persoon hoort bij elke rol?",
-          "paren": [
-            [
-              "Oostenrijkse kanselier die het Congres van Wenen leidde",
-              "Metternich"
-            ],
-            [
-              "Koning van het Verenigd Koninkrijk der Nederlanden",
-              "Willem I"
-            ],
-            [
-              "Pruisische minister-president van de Duitse eenmaking",
-              "Bismarck"
-            ],
-            [
-              "Schrijver van De Leeuw van Vlaanderen",
-              "Hendrik Conscience"
-            ]
-          ],
-          "extra": [
-            "Napoleon"
-          ],
-          "uitleg": "Metternich leidde Wenen, Willem I regeerde over Noord en Zuid, Bismarck leidde de Duitse eenmaking en Conscience schreef het boek van 1838. Napoleon was in 1815 al verslagen."
+          "type": "keuzelijst",
+          "vraag": "Het Congres van Wenen eindigde in hetzelfde jaar als [[*de slag bij Waterloo|de Belgische revolutie|de Franse Revolutie]]. Je situeert het congres in de eerste plaats in het [[*politieke|culturele|sociale]] domein.",
+          "uitleg": "Waterloo en het einde van het congres vallen allebei in 1815. Een congres dat grenzen tekent, hoort bij het politieke domein."
         }
       ]
     },
@@ -899,7 +866,7 @@
               "Eerste"
             ],
             [
-              "De stoommachine van Watt in de fabriek",
+              "De stoommachine in de fabriek",
               "Eerste"
             ],
             [
@@ -931,7 +898,7 @@
             "Omdat de overheid fabrieken elders verbood te bouwen"
           ],
           "antwoord": 0,
-          "uitleg": "De stoommachine had veel kolen nodig, en vervoer was traag en duur. Met elektriciteit en olie kon een fabriek later veel vrijer gelegen zijn."
+          "uitleg": "De stoommachine had veel kolen nodig, en vervoer was traag en duur."
         },
         {
           "type": "meerkeuze",
@@ -943,7 +910,7 @@
             "Omdat energie het enige verschil is tussen beide revoluties; transport en organisatie bleven gelijk"
           ],
           "antwoord": 0,
-          "uitleg": "Energie bepaalde de ligging van fabrieken, het transport en het machtsevenwicht: Duitsland en de Verenigde Staten trokken de tweede revolutie."
+          "uitleg": "Energie bepaalde de ligging van fabrieken, het transport en wie de nieuwe grootmachten werden."
         },
         {
           "type": "tabel",
@@ -990,14 +957,14 @@
         },
         {
           "type": "keuzelijst",
-          "vraag": "Het economisch liberalisme wil dat de overheid de economie zo veel mogelijk [[*vrij laat|zelf plant|in handen neemt]]. Het kapitalisme vergroot de ongelijkheid, doordat de winst naar wie de fabriek [[*bezit|bouwt|bewaakt]] gaat.",
-          "uitleg": "Smith verdedigde de vrije markt. In het kapitalisme gaat de winst naar de eigenaar, en die spanning tussen bezit en arbeid noemt men de sociale kwestie."
+          "vraag": "Het economisch liberalisme wil dat de overheid de economie zo veel mogelijk [[*vrij laat|zelf plant|in handen neemt]]. Die stroming hoort in de eerste plaats bij het [[*economische|culturele|sociale]] domein.",
+          "uitleg": "Het economisch liberalisme verdedigt de vrije markt: zo weinig mogelijk staatsbemoeienis."
         },
         {
           "type": "tabel",
           "vraag": "Aanbodfactor of vraagfactor voor de Belgische industrialisatie?",
           "rijen": [
-            "Steenkool in de bodem van Henegouwen en Luik",
+            "Steenkool in de eigen bodem",
             "Banken die durfden investeren",
             "Een groeiende bevolking die meer goederen koopt",
             "Vaklui met ervaring in textiel en metaal"
@@ -1036,7 +1003,7 @@
               "Verviers"
             ],
             [
-              "Zware metaalindustrie zoals die van Cockerill",
+              "Zware metaalindustrie",
               "Henegouwen en Luik"
             ]
           ],
@@ -1070,7 +1037,7 @@
             "Alleen de adel en de geestelijkheid hebben er nog rechten"
           ],
           "antwoord": 0,
-          "uitleg": "In een klassenmaatschappij bepaalt bezit waar je staat. Wie geen werktuigen meer bezit en voor loon werkt, is proletariër geworden."
+          "uitleg": "In een klassenmaatschappij bepaalt bezit waar je staat. Wie geen werktuigen meer bezit, moet voor loon werken."
         },
         {
           "type": "invultekst",
@@ -1091,7 +1058,7 @@
                 "Kinderen kregen een hoger loon dan hun ouders"
               ],
               "antwoord": 0,
-              "uitleg": "Kinderen kostten weinig en kwamen niet in opstand. Pas veel later kwam er een verbod op kinderarbeid.",
+              "uitleg": "Kinderen kostten weinig en kwamen niet in opstand.",
               "afbeelding_url": "/examenvormen/geschiedenis-beyond/kinderarbeid-mijn.webp"
             },
             {
@@ -1136,7 +1103,7 @@
               "Mutualiteit"
             ],
             [
-              "Arbeiders onderhandelen met de baas en leggen het werk neer",
+              "Arbeiders van hetzelfde beroep verenigen zich om samen voor betere lonen op te komen",
               "Vakbond"
             ],
             [
@@ -1144,7 +1111,7 @@
               "Coöperatie"
             ]
           ],
-          "uitleg": "Een coöperatie produceert of koopt samen. Een mutualiteit of ziekenfonds keert uit bij ziekte. Een vakbond onderhandelt en staakt."
+          "uitleg": "Een coöperatie produceert of koopt samen. Een mutualiteit of ziekenfonds keert uit bij ziekte. Een vakbond komt op voor loon en werkomstandigheden."
         },
         {
           "type": "tabel",
@@ -1161,7 +1128,7 @@
             "Christendemocratie",
             "Marxisme"
           ],
-          "uitleg": "Marxisten wilden een revolutie, sociaaldemocraten hervorming via het parlement. De christendemocratie volgde Rerum Novarum: privébezit aanvaarden, maar met bescherming voor de arbeider.",
+          "uitleg": "Marxisten wilden een revolutie, sociaaldemocraten hervorming via het parlement. De christendemocratie aanvaardde privébezit, maar met bescherming voor de arbeider.",
           "kolommen": [
             "Marxisme",
             "Sociaaldemocratie",
@@ -1188,7 +1155,7 @@
             "Algemeen meervoudig stemrecht na een algemene staking",
             "Algemeen enkelvoudig stemrecht voor mannen"
           ],
-          "uitleg": "Van 1831 tot 1893 cijnskiesrecht, in 1893 het algemeen meervoudig stemrecht, en in 1919 het algemeen enkelvoudig stemrecht voor mannen."
+          "uitleg": "Eerst het cijnskiesrecht, dan het meervoudig stemrecht, en pas daarna één man, één stem."
         },
         {
           "type": "hotspot",
@@ -1220,7 +1187,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Onder het algemeen meervoudig stemrecht van 1893 had elke man minstens één stem. Hoeveel stemmen kon één man ten hoogste uitbrengen?",
+          "vraag": "Onder het algemeen meervoudig stemrecht had elke man minstens één stem. Hoeveel stemmen kon één man ten hoogste uitbrengen?",
           "opties": [
             "3",
             "2",
@@ -1302,13 +1269,13 @@
         },
         {
           "type": "sleepzin",
-          "vraag": "De spoorweg met [[stoomlocomotieven]], het stoomschip en de [[telegraaf]] deden transport en communicatie vooruitspringen. In de tweede revolutie verdeelde de [[lopende band]] het werk in kleine stappen.",
+          "vraag": "Op het land reed de spoorweg met [[stoomlocomotieven]], op de grote vaarroutes voer het [[stoomschip]]. Na de telegraaf maakte later de [[telefoon]] communicatie over grote afstand nog makkelijker.",
           "extra": [
             "windmolen",
             "postkoets",
             "zeilschip"
           ],
-          "uitleg": "Stoom op land en zee, en de telegraaf voor berichten. De lopende band hoort bij de nieuwe bedrijfsorganisatie van de tweede revolutie."
+          "uitleg": "Stoom op land en zee, en voor berichten eerst de telegraaf en later de telefoon."
         },
         {
           "type": "meerkeuze",
@@ -1324,20 +1291,20 @@
         },
         {
           "type": "open",
-          "vraag": "Leg het verband uit tussen de industrialisatie en het ontstaan van de vakbonden. Gebruik de begrippen proletarisering en sociale kwestie.",
+          "vraag": "Leg het verband uit tussen de industrialisatie en het ontstaan van de vakbonden.",
           "antwoord": "Door de industrialisatie verloren veel boeren en ambachtslui hun eigen werktuigen en werden ze loonarbeider: proletarisering. In de fabrieken werkten ze lange dagen voor een laag loon, zonder bescherming. Die spanning tussen eigenaars en arbeiders is de sociale kwestie. Om daar iets tegen te doen, organiseerden arbeiders zich in vakbonden die onderhandelden en staakten."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat was het verband tussen de algemene staking en het stemrecht in België?",
+          "vraag": "Wat moesten de arbeiders volgens het marxisme doen met de productiemiddelen, zoals fabrieken en machines?",
           "opties": [
-            "Na een algemene staking kwam er in 1893 het algemeen meervoudig stemrecht",
-            "Na een algemene staking werd het stemrecht in 1893 volledig afgeschaft",
-            "Na een algemene staking kregen ook de vrouwen in 1893 stemrecht",
-            "Er was geen verband: stakingen waren in België toen nog verboden"
+            "Ze zelf in handen nemen",
+            "Ze vernielen om hun werk te redden",
+            "Ze terug aan de adel geven",
+            "Ze bij de bank in onderpand geven"
           ],
           "antwoord": 0,
-          "uitleg": "De druk van de arbeiders dwong een eerste uitbreiding af. Het algemeen enkelvoudig stemrecht voor mannen volgde pas in 1919."
+          "uitleg": "Voor Marx moesten de arbeiders de productiemiddelen in handen nemen, via een revolutie en niet via geduldige hervorming."
         }
       ]
     },
@@ -1451,7 +1418,7 @@
             false,
             true
           ],
-          "uitleg": "Tegen 1914 was bijna alles verdeeld, behalve Ethiopië en Liberia. Veel grenzen lijken met een lat getrokken: ze volgden Europese afspraken, niet de bestaande samenlevingen. Congo was sinds 1908 Belgisch Congo.",
+          "uitleg": "Tegen 1914 was bijna alles verdeeld, behalve Ethiopië en Liberia. Veel grenzen houden geen rekening met wie er woonde. En Congo was in 1914 al een Belgische kolonie.",
           "afbeelding_url": "/examenvormen/geschiedenis-beyond/afrika-1914.webp"
         },
         {
@@ -1507,7 +1474,7 @@
             "Ze vochten samen met het Chinese keizerrijk tegen alle westerse handelaars en wonnen die lange strijd"
           ],
           "antwoord": 0,
-          "uitleg": "Japan moderniseerde vanaf de Meiji-restauratie van 1868 en werd zelf een koloniale macht. Rusland breidde over land uit naar het oosten."
+          "uitleg": "Japan moderniseerde snel en werd zelf een koloniale macht. Rusland breidde over land uit naar het oosten."
         },
         {
           "type": "tabel",
@@ -1524,7 +1491,7 @@
             true,
             false
           ],
-          "uitleg": "Congo was eerst van Leopold II zelf. Het geld kwam vooral uit rubber en ivoor. Pas in 1908 nam de Belgische staat over."
+          "uitleg": "Congo was eerst van Leopold II zelf, nog geen kolonie van de Belgische staat. Koffie en katoen waren niet de grote bron van inkomsten."
         },
         {
           "type": "volgorde",
@@ -1535,7 +1502,7 @@
             "Morel en Casement voeren campagne tegen het bewind",
             "De Belgische staat neemt Congo over"
           ],
-          "uitleg": "1884, 1885, rond 1900, en 1908."
+          "uitleg": "Eerst de spelregels in Berlijn, dan de Vrijstaat, daarna de kritiek, en ten slotte de overname door de Belgische staat."
         },
         {
           "casus": "Bekijk de spotprent uit het Britse blad Punch van 1906. Een slang met het hoofd van Leopold II heeft zich rond een Congolese man gewonden. Het onderschrift luidt: In the Rubber Coils.",
@@ -1550,7 +1517,7 @@
                 "Op de missiescholen in Congo"
               ],
               "antwoord": 0,
-              "uitleg": "Dorpen moesten vaste hoeveelheden rubber leveren en werden zwaar gestraft bij te weinig. De slang beeldt dat systeem uit.",
+              "uitleg": "De slang staat voor het systeem dat de bevolking in de greep hield om rubber te winnen.",
               "afbeelding_url": "/examenvormen/geschiedenis-beyond/rubber-coils.webp"
             },
             {
@@ -1572,15 +1539,15 @@
             },
             {
               "type": "meerkeuze",
-              "vraag": "Welk gevolg had de internationale campagne waartoe deze prent behoorde?",
+              "vraag": "Ook bekende schrijvers steunden de campagne waartoe deze prent behoorde. Welke?",
               "opties": [
-                "De Belgische staat nam de kolonie in 1908 over",
-                "Leopold II kreeg er in 1908 nog meer gebied bij",
-                "Congo werd in 1908 een onafhankelijke staat",
-                "Groot-Brittannië bezette Congo in 1908"
+                "Mark Twain en Arthur Conan Doyle",
+                "Hendrik Conscience en Victor Hugo",
+                "Karl Marx en Adam Smith",
+                "Charles Darwin en Henry Stanley"
               ],
               "antwoord": 0,
-              "uitleg": "Onder druk van Morel, Casement en schrijvers als Mark Twain en Arthur Conan Doyle werd de Vrijstaat in 1908 Belgisch Congo."
+              "uitleg": "Naast Morel en Casement schreven ook Mark Twain en Arthur Conan Doyle tegen het bewind in de Vrijstaat."
             }
           ]
         },
@@ -1618,7 +1585,7 @@
               "Bedrijven"
             ],
             [
-              "Koper uit Katanga ontginnen",
+              "Koper en diamant ontginnen",
               "Bedrijven"
             ]
           ],
@@ -1680,7 +1647,7 @@
             "Over de opstand van de Taiping tegen de keizer"
           ],
           "antwoord": 0,
-          "uitleg": "China wilde de opiumhandel stoppen, de Britten wilden doorgaan. Na de nederlaag moest China bij het Verdrag van Nanking van 1842 Hongkong afstaan."
+          "uitleg": "China wilde de opiumhandel stoppen, de Britten wilden doorgaan. China verloor de oorlog en moest daarna een ongelijk verdrag tekenen."
         },
         {
           "type": "invultekst",
@@ -1778,30 +1745,18 @@
         },
         {
           "type": "sleepzin",
-          "vraag": "Dat koloniale grenzen met een [[lat]] getrokken lijken, betekent dat ze Europese [[afspraken]] volgden en geen bestaande samenlevingen. Een gebied waar een mogendheid de dienst uitmaakt zonder het te besturen, is een [[invloedssfeer]].",
+          "vraag": "Dat koloniale grenzen met een [[lat]] getrokken lijken, betekent dat ze Europese [[afspraken]] volgden en geen bestaande samenlevingen. De Congo-Vrijstaat verdiende vooral aan rubber en [[ivoor]].",
           "extra": [
             "rivier",
             "volksraadpleging",
-            "kolonie"
+            "katoen"
           ],
-          "uitleg": "Grenzen volgden de onderhandelingstafel in Europa. Een invloedssfeer is lichter dan een kolonie."
+          "uitleg": "Grenzen volgden de onderhandelingstafel in Europa. Rubber en ivoor waren de grote bronnen van inkomsten."
         },
         {
-          "type": "tabel",
-          "vraag": "Waarom bleef China formeel een keizerrijk, maar was het toch niet echt zelfstandig? Juist of fout?",
-          "rijen": [
-            "Mogendheden maakten er in invloedssferen de dienst uit zonder het land te besturen.",
-            "Ongelijke verdragen legden China verplichtingen op die het Westen niet had.",
-            "China werd net als Congo volledig bezet en rechtstreeks bestuurd.",
-            "De keizer verloor door de westerse contacten aan gezag."
-          ],
-          "antwoord": [
-            true,
-            true,
-            false,
-            true
-          ],
-          "uitleg": "China bleef op papier zelfstandig, maar invloedssferen en ongelijke verdragen hielden het onder westerse druk. Congo werd wel volledig bezet."
+          "type": "keuzelijst",
+          "vraag": "Japan moderniseerde zich in snel tempo vanaf de [[*Meiji-restauratie|Opiumoorlog|Taiping-opstand]] van [[*1868|1842|1912]], en werd daarna zelf een koloniale macht in Azië.",
+          "uitleg": "Vanaf de Meiji-restauratie van 1868 haalde Japan de westerse techniek in en begon het zelf uit te breiden."
         }
       ]
     },
@@ -1817,7 +1772,7 @@
             "De moord op Frans Ferdinand in Sarajevo",
             "Wedijver en nationalisme tussen de grote mogendheden",
             "Een wedloop in bewapening",
-            "Een web van bondgenootschappen"
+            "Militarisme bij de grote mogendheden"
           ],
           "antwoord": [
             "Aanleiding",
@@ -1825,7 +1780,7 @@
             "Oorzaak",
             "Oorzaak"
           ],
-          "uitleg": "De aanleiding is de vonk: de moord in juni 1914. De oorzaken zijn de opgestapelde spanningen: nationalisme, militarisme en bondgenootschappen.",
+          "uitleg": "De aanleiding is de vonk: de moord in juni 1914. De oorzaken zijn de opgestapelde spanningen: onder meer nationalisme en militarisme.",
           "kolommen": [
             "Aanleiding",
             "Oorzaak"
@@ -1878,7 +1833,7 @@
           "type": "meerkeuze",
           "vraag": "Een leerling schrijft: \"België koos in 1914 de kant van Frankrijk.\" Wat is de juiste verbetering?",
           "opties": [
-            "België werd volgens het plan Von Schlieffen binnengevallen en verdedigde zijn neutraliteit",
+            "België werd binnengevallen en verdedigde zijn neutraliteit",
             "België koos de kant van Duitsland, omdat het bang was voor het grote Franse leger",
             "België bleef de hele oorlog volledig buiten de gevechten, net zoals Zwitserland",
             "België viel in 1914 zelf Duitsland binnen om het Rijnland terug te winnen"
@@ -1892,11 +1847,11 @@
           "opties": [
             "De moord in Sarajevo",
             "De Duitse inval in België",
-            "De opmars loopt vast en de legers graven zich in",
             "De Verenigde Staten treden toe",
-            "De wapenstilstand"
+            "De wapenstilstand",
+            "Duitsland tekent het Verdrag van Versailles"
           ],
-          "uitleg": "Juni 1914, augustus 1914, eind 1914, 1917 en 11 november 1918."
+          "uitleg": "Juni 1914, augustus 1914, 1917, november 1918 en 1919."
         },
         {
           "type": "meerkeuze",
@@ -1908,7 +1863,7 @@
             "De tank was al uitgevonden en maakte elke opmars onmogelijk"
           ],
           "antwoord": 0,
-          "uitleg": "Toen geen van beide legers nog vooruit raakte, groeven ze zich in. Mitrailleurs maakten aanvallen over open terrein bijna onmogelijk."
+          "uitleg": "Toen geen van beide legers nog vooruit raakte, groeven ze zich in."
         },
         {
           "type": "keuzelijst",
@@ -1942,7 +1897,7 @@
               "rijen": [
                 "De Britse regering wilde haar bevolking achter de oorlog krijgen.",
                 "Elk Belgisch dorp is in 1914 afgebrand.",
-                "Propaganda was een middel in een totale oorlog."
+                "De affiche toont hoe de Britse overheid de oorlog wilde laten zien."
               ],
               "antwoord": [
                 "Mag",
@@ -1976,7 +1931,7 @@
         },
         {
           "type": "tabel",
-          "vraag": "Waarom en wanneer? Lees elke uitspraak over 1917.",
+          "vraag": "Lees elke uitspraak over het keerjaar waarin Amerika in de oorlog stapte.",
           "rijen": [
             "De Verenigde Staten traden toe door de onbeperkte Duitse duikbotenoorlog.",
             "Rusland vocht tot het einde van de oorlog mee aan de kant van de Entente.",
@@ -1987,7 +1942,7 @@
             false,
             true
           ],
-          "uitleg": "In 1917 kwam Amerika erbij en viel Rusland weg. Rusland vocht dus niet mee tot het einde."
+          "uitleg": "In hetzelfde jaar kwam Amerika erbij en viel Rusland weg. Rusland vocht dus niet mee tot het einde."
         },
         {
           "type": "hotspot",
@@ -2081,15 +2036,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welk verband leg je met de redeneerwijze bedoelde en onbedoelde gevolgen tussen Versailles en de Tweede Wereldoorlog?",
+          "vraag": "Welke militaire bepaling legde het Verdrag van Versailles aan Duitsland op?",
           "opties": [
-            "Het verdrag wilde Duitsland verzwakken, maar de wrok erover hielp onbedoeld Hitler aan steun",
-            "Het verdrag wilde bewust een nieuwe oorlog uitlokken, en dat is ook precies gebeurd zoals bedoeld",
-            "Het verdrag had geen enkel gevolg, want Duitsland heeft het nooit ondertekend",
-            "Het verdrag maakte Duitsland groter, en daardoor wilde het nog meer gebied"
+            "Het mocht nog maar een klein leger houden",
+            "Het moest zijn hele vloot aan Rusland geven",
+            "Het moest soldaten leveren aan de Volkenbond",
+            "Het moest zijn leger onder Frans bevel plaatsen"
           ],
           "antwoord": 0,
-          "uitleg": "Het bedoelde gevolg was een zwak Duitsland. Het onbedoelde gevolg was een voedingsbodem voor extreme partijen."
+          "uitleg": "Een klein leger, de schuld erkennen en herstelbetalingen: zo wilde men Duitsland verzwakken."
         },
         {
           "type": "tabel",
@@ -2114,15 +2069,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Vergelijk de Volkenbond met de Verenigde Naties. Welke uitspraak klopt?",
+          "vraag": "In welk jaar werd de Volkenbond opgericht?",
           "opties": [
-            "Geen van beide heeft een eigen staand leger; bij de VN leveren lidstaten blauwhelmen",
-            "Beide werden opgericht na de Tweede Wereldoorlog, in hetzelfde jaar en in dezelfde stad",
-            "De Volkenbond had een vetorecht voor vijf vaste landen, maar de VN heeft dat niet meer",
-            "De Verenigde Staten waren een stichtend lid van de Volkenbond, maar nooit lid van de VN"
+            "1920",
+            "1914",
+            "1918",
+            "1945"
           ],
           "antwoord": 0,
-          "uitleg": "De Volkenbond had geen leger, en ook de VN heeft geen staand leger. De Verenigde Staten traden nooit toe tot de bond, wel tot de VN. Het vetorecht hoort bij de VN."
+          "uitleg": "De Volkenbond kwam er in 1920, na de vrede van Versailles."
         },
         {
           "type": "tabel",
@@ -2131,13 +2086,13 @@
             "Rusland was een autocratie.",
             "De meeste Russen waren arme boeren.",
             "De tsaar deelde zijn macht met een sterk verkozen parlement.",
-            "Nederlagen en honger in de oorlog ondermijnden zijn gezag."
+            "Rusland was een sterk geïndustrialiseerd land met weinig boeren."
           ],
           "antwoord": [
             true,
             true,
             false,
-            true
+            false
           ],
           "uitleg": "De tsaar regeerde alleen over een grote, arme boerenbevolking. De oorlog maakte de toestand onhoudbaar."
         },
@@ -2151,11 +2106,11 @@
             "Ze voerde de vijfjarenplannen in en dwong de boeren in collectieve bedrijven"
           ],
           "antwoord": 0,
-          "uitleg": "Oorlog, grond en brood bleven onopgelost. Daar speelde Lenin met zijn belofte vrede, brood en land handig op in."
+          "uitleg": "Oorlog, grond en voedsel bleven onopgelost, en daar speelden de bolsjewieken op in."
         },
         {
           "type": "koppelen",
-          "vraag": "Welk begrip uit de Russische geschiedenis hoort bij elke omschrijving?",
+          "vraag": "Welke naam hoort bij elke omschrijving uit de jaren 1914 tot 1917?",
           "paren": [
             [
               "De tsaar doet troonsafstand en er komt een voorlopige regering",
@@ -2166,18 +2121,15 @@
               "Oktoberrevolutie"
             ],
             [
-              "De arbeidersklasse grijpt in de overgangsfase alle macht",
-              "Dictatuur van het proletariaat"
-            ],
-            [
-              "Graan wordt bij de boeren opgeëist en voedsel op rantsoen gezet",
-              "Oorlogscommunisme"
+              "Het Duitse aanvalsplan om Frankrijk via België snel uit te schakelen",
+              "Plan Von Schlieffen"
             ]
           ],
           "extra": [
-            "Collectivisatie"
+            "Collectivisatie",
+            "Veertienpuntenplan"
           ],
-          "uitleg": "Vier stappen van 1917 tot de burgeroorlog. Collectivisatie hoort pas bij Stalin, vanaf 1928."
+          "uitleg": "Twee revoluties in 1917 en het Duitse aanvalsplan van 1914. Collectivisatie hoort pas bij Stalin, het Veertienpuntenplan bij Wilson."
         },
         {
           "type": "sleepzin",
@@ -2224,7 +2176,7 @@
         },
         {
           "type": "open",
-          "vraag": "Leg uit waarom men de Eerste Wereldoorlog een totale oorlog noemt. Geef drie voorbeelden.",
+          "vraag": "Geef drie voorbeelden van hoe niet alleen het leger, maar de hele samenleving voor de Eerste Wereldoorlog werd ingezet.",
           "antwoord": "De hele samenleving werd voor de oorlog ingezet, niet alleen het leger. Fabrieken maakten wapens en munitie, voedsel werd voor het front gebruikt, vrouwen namen het werk van de mannen in de fabrieken over, kolonies leverden soldaten en grondstoffen, en propaganda moest de steun van de bevolking vasthouden."
         },
         {
@@ -2246,15 +2198,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Bij het uitbreken van de oorlog dachten veel mensen dat hij voor de kerstdagen voorbij zou zijn. Waarom liep dat anders?",
+          "vraag": "Wat dachten veel mensen bij het uitbreken van de oorlog in 1914 over de duur ervan?",
           "opties": [
-            "De bewegingsoorlog liep vast in een loopgravenoorlog die jaren duurde",
-            "Alle legers spraken af om pas na de kerstdagen te beginnen vechten",
-            "De Verenigde Staten traden meteen toe en verlengden zo de oorlog",
-            "Rusland won de oorlog al in 1914, maar de andere landen gaven niet op"
+            "Dat hij voor de kerstdagen voorbij zou zijn",
+            "Dat hij minstens tien jaar zou duren",
+            "Dat hij pas zou eindigen als Amerika meedeed",
+            "Dat er nooit echt gevochten zou worden"
           ],
           "antwoord": 0,
-          "uitleg": "Toen de opmars vastliep, groeven de legers zich in. De oorlog duurde tot de wapenstilstand van 11 november 1918."
+          "uitleg": "Velen verwachtten een korte oorlog. Het werden ruim vier jaren."
         },
         {
           "type": "keuzelijst",
@@ -2307,7 +2259,7 @@
             "Door de crisis kregen democratische partijen net veel meer kiezers"
           ],
           "antwoord": 0,
-          "uitleg": "Wie zijn werk verliest en geen uitweg ziet, luistert sneller naar wie orde en werk belooft. Zo leg je het verband oorzaak en gevolg."
+          "uitleg": "Wie zijn werk verliest en geen uitweg ziet, luistert sneller naar wie orde en werk belooft."
         },
         {
           "type": "keuzelijst",
@@ -2316,7 +2268,7 @@
         },
         {
           "type": "tabel",
-          "vraag": "Hoorde de maatregel bij de New Deal van Roosevelt?",
+          "vraag": "Hoorde de maatregel bij de New Deal in de Verenigde Staten?",
           "rijen": [
             "Grote openbare werken om mensen aan het werk te zetten",
             "Toezicht op de banken en de beurs",
@@ -2353,34 +2305,34 @@
           ],
           "items": [
             [
-              "De vijfjarenplannen voor de zware industrie",
+              "Plannen van vijf jaar voor de zware industrie",
               "Economisch"
             ],
             [
-              "De collectivisatie van de landbouw",
+              "De landbouw onder controle van de staat brengen",
               "Economisch"
             ],
             [
-              "Goelags en de Grote Zuivering",
+              "Strafkampen en zuiveringen tegen tegenstanders",
               "Politiek"
             ],
             [
-              "Een personencultus rond de leider",
+              "De leider op affiches als onfeilbaar voorstellen",
               "Cultureel"
             ],
             [
-              "Kunst in de stijl van het socialistisch realisme",
+              "Kunst die de arbeider en de opbouw verheerlijkt",
               "Cultureel"
             ]
           ],
-          "uitleg": "Plannen en landbouw zijn economisch, terreur en zuiveringen politiek, en personencultus en kunst horen bij het culturele beleid."
+          "uitleg": "Industrie en landbouw zijn economisch, terreur politiek, en beeldvorming en kunst horen bij het culturele beleid."
         },
         {
           "type": "tabel",
           "vraag": "Welke gevolgen had de collectivisatie in de Sovjet-Unie?",
           "rijen": [
             "Verzet van boeren dat met geweld gebroken werd",
-            "Deportatie van wie als koelak werd aangeduid",
+            "Deportatie van rijkere boeren",
             "Een zware hongersnood, onder meer in Oekraïne",
             "Meer vrije markten waar boeren hun graan konden verkopen"
           ],
@@ -2390,7 +2342,7 @@
             true,
             false
           ],
-          "uitleg": "Kleine boerderijen werden met dwang samengevoegd. Dat kostte miljoenen mensen het leven."
+          "uitleg": "De dwang en de hongersnood kostten miljoenen mensen het leven."
         },
         {
           "casus": "Bekijk de Sovjet-affiche uit de jaren dertig. Stalin staat groot in beeld, met achter hem fabrieken en lachende arbeiders.",
@@ -2494,7 +2446,7 @@
             true,
             false
           ],
-          "uitleg": "Na de Mars op Rome benoemde de koning hem tot regeringsleider, maar daarna nam de Duce zelf alle macht."
+          "uitleg": "Partijen verbieden, de pers controleren en een politieke politie: zo nam de Duce alle macht."
         },
         {
           "type": "koppelen",
@@ -2505,8 +2457,8 @@
               "Mussolini"
             ],
             [
-              "Startte de vijfjarenplannen en de collectivisatie",
-              "Stalin"
+              "Leidde de bolsjewieken en stierf in het begin van het interbellum",
+              "Lenin"
             ],
             [
               "Werd in januari 1933 rijkskanselier",
@@ -2518,9 +2470,9 @@
             ]
           ],
           "extra": [
-            "Lenin"
+            "Stalin"
           ],
-          "uitleg": "Vier leiders van het interbellum. Lenin stierf al in 1924."
+          "uitleg": "Vier leiders van het interbellum. Stalin volgde Lenin op."
         },
         {
           "type": "volgorde",
@@ -2596,7 +2548,7 @@
             "Het nationaalsocialisme gebruikte geen propaganda"
           ],
           "antwoord": 0,
-          "uitleg": "Beide hadden één partij, één leider en geen tegenspraak. Het verschil zat in de rassenleer, die bij de nazi's centraal stond."
+          "uitleg": "Het verschil zat in de rassenleer, die bij de nazi's centraal stond."
         },
         {
           "type": "sorteren",
@@ -2619,11 +2571,11 @@
               "Verschil"
             ],
             [
-              "Een rassenleer die centraal staat",
-              "Verschil"
+              "Een leider die geen tegenspraak duldt en de pers controleert",
+              "Gelijkenis"
             ]
           ],
-          "uitleg": "Alle drie zijn totalitair. De planeconomie hoort bij de Sovjet-Unie, de rassenleer bij nazi-Duitsland."
+          "uitleg": "Alle drie zijn totalitair. De planeconomie hoort enkel bij de Sovjet-Unie."
         },
         {
           "type": "volgorde",
@@ -2632,7 +2584,7 @@
             "Opnieuw dienstplicht en herbewapening",
             "Troepen trekken het Rijnland binnen",
             "Oostenrijk wordt ingelijfd",
-            "De Conferentie van München over het Sudetenland",
+            "De Conferentie van München",
             "Het niet-aanvalspact met de Sovjet-Unie"
           ],
           "uitleg": "Van 1935 tot augustus 1939: eerst het leger, dan het Rijnland, Oostenrijk, het Sudetenland en tot slot het pact met Stalin."
@@ -2647,7 +2599,7 @@
             "Italië en Duitsland verklaarden de oorlog aan Groot-Brittannië"
           ],
           "antwoord": 0,
-          "uitleg": "Frankrijk en Groot-Brittannië gaven toe om oorlog te vermijden. De verdeling van Polen hoort bij het pact van augustus 1939."
+          "uitleg": "Frankrijk en Groot-Brittannië gaven toe om oorlog te vermijden."
         },
         {
           "type": "keuzelijst",
@@ -2759,7 +2711,7 @@
             "Pearl Harbor",
             "Normandië"
           ],
-          "uitleg": "Drie keerpunten in 1942. Pearl Harbor was de Japanse aanval van 1941, Normandië de landing van 1944."
+          "uitleg": "Drie keerpunten in 1942. Pearl Harbor en Normandië waren geen keerpunten van 1942."
         },
         {
           "type": "volgorde",
@@ -2769,10 +2721,9 @@
             "De Duitse inval in België",
             "De Duitse inval in de Sovjet-Unie",
             "De Japanse aanval op Pearl Harbor",
-            "De landing in Normandië",
-            "De atoombommen op Hiroshima en Nagasaki"
+            "De landing in Normandië"
           ],
-          "uitleg": "September 1939, 10 mei 1940, 22 juni 1941, december 1941, 6 juni 1944 en augustus 1945."
+          "uitleg": "1939, 1940, juni 1941, december 1941 en juni 1944."
         },
         {
           "type": "meerkeuze",
@@ -2814,25 +2765,16 @@
           "uitleg": "Beide oorlogen betrokken de hele samenleving. Maar de tweede was mondialer, sneller en had een uitroeiingspolitiek."
         },
         {
-          "type": "tabel",
-          "vraag": "Hoort het kenmerk bij de Eerste of bij de Tweede Wereldoorlog?",
-          "rijen": [
-            "Gifgas aan het front",
-            "Meer burgerslachtoffers dan militaire slachtoffers",
-            "Een lange loopgravenoorlog",
-            "Gevechten in Azië, Afrika en op de oceanen"
+          "type": "meerkeuze",
+          "vraag": "Een leerling noemt Duitsland, Italië en Spanje als de kern van de asmogendheden. Wat is de juiste verbetering?",
+          "opties": [
+            "Duitsland, Italië en Japan",
+            "Duitsland, Oostenrijk en Hongarije",
+            "Duitsland, de Sovjet-Unie en Japan",
+            "Duitsland, Spanje en Japan"
           ],
-          "antwoord": [
-            "Eerste",
-            "Tweede",
-            "Eerste",
-            "Tweede"
-          ],
-          "uitleg": "Gifgas aan het front en de loopgraven horen bij de eerste. In de tweede vielen meer burgers en werd over de hele wereld gevochten.",
-          "kolommen": [
-            "Eerste",
-            "Tweede"
-          ]
+          "antwoord": 0,
+          "uitleg": "Duitsland, Italië en Japan. De Sovjet-Unie vocht vanaf 1941 aan de kant van de geallieerden."
         },
         {
           "type": "tabel",
@@ -2928,7 +2870,7 @@
             "De Belgische regering keerde er terug uit Londen"
           ],
           "antwoord": 0,
-          "uitleg": "Een zeldzame daad van gewapend verzet tegen de deportaties: drie verzetslieden hielden een trein naar Auschwitz tegen."
+          "uitleg": "Een zeldzame daad van gewapend verzet tegen de deportaties: drie verzetslieden hielden een deportatietrein tegen."
         },
         {
           "type": "meerkeuze",
@@ -2940,7 +2882,7 @@
             "De koning bevond zich in Antwerpen en nam er de leiding"
           ],
           "antwoord": 0,
-          "uitleg": "Een werkende haven betekende brandstof, voedsel en munitie voor de legers. Daarom probeerde Duitsland met het Ardennenoffensief nog naar Antwerpen door te stoten."
+          "uitleg": "Een werkende haven betekende brandstof, voedsel en munitie voor de legers."
         },
         {
           "type": "meerkeuze",
@@ -3119,7 +3061,7 @@
             "1943",
             "wapenstilstand"
           ],
-          "uitleg": "Na het mislukte Ardennenoffensief volgde in mei 1945 de Duitse overgave. In Azië eindigde de oorlog na de atoombommen."
+          "uitleg": "Na het mislukte Ardennenoffensief volgde in mei 1945 de Duitse overgave."
         },
         {
           "type": "meerkeuze",
@@ -3131,7 +3073,7 @@
             "Na de val van de Berlijnse Muur"
           ],
           "antwoord": 0,
-          "uitleg": "In Europa capituleerde Duitsland in mei 1945. Japan gaf zich over in augustus 1945, na de atoombommen."
+          "uitleg": "Japan gaf zich over in augustus 1945, na de atoombommen."
         }
       ]
     },
@@ -3185,7 +3127,7 @@
             "Het Internationaal Gerechtshof moet de knoop doorhakken tussen beide"
           ],
           "antwoord": 0,
-          "uitleg": "Het vetorecht is de grote zwakte van de VN: één vast lid kan een beslissing blokkeren, ook als alle anderen voor zijn."
+          "uitleg": "Eén vast lid kan een beslissing blokkeren, ook als alle anderen voor zijn."
         },
         {
           "type": "sorteren",
@@ -3299,7 +3241,7 @@
             "De Cubacrisis",
             "De Praagse Lente"
           ],
-          "uitleg": "1946, 1948-1949, 1956, 1961, 1962 en 1968."
+          "uitleg": "Eerst het IJzeren Gordijn en de blokkade van Berlijn, dan Hongarije, de Muur, Cuba en ten slotte Praag."
         },
         {
           "type": "hotspot",
@@ -3374,7 +3316,7 @@
             "Propaganda en spionage",
             "Economische hulp aan bondgenoten",
             "Een wedloop in de ruimtevaart",
-            "Rechtstreekse veldslagen tussen Amerikaanse en Sovjetlegers"
+            "Een volledige stop van de wapenproductie"
           ],
           "antwoord": [
             true,
@@ -3382,11 +3324,11 @@
             true,
             false
           ],
-          "uitleg": "De strijd liep via propaganda, spionage, hulp en ruimtevaart. Rechtstreeks vochten de supermachten nooit tegen elkaar."
+          "uitleg": "De strijd liep via propaganda, spionage, hulp en ruimtevaart. De wapenwedloop met kernwapens ging ondertussen gewoon door."
         },
         {
           "type": "keuzelijst",
-          "vraag": "De Sovjetleider Gorbatsjov lanceerde vanaf 1985 [[*glasnost|perestrojka|détente]], dat betekent openheid, en perestrojka, dat betekent [[*hervorming|ontspanning|bewapening]].",
+          "vraag": "De Sovjetleider Gorbatsjov lanceerde vanaf 1985 glasnost, dat betekent [[*openheid|ontspanning|eenheid]], en perestrojka, dat betekent [[*hervorming|bewapening|zuivering]].",
           "uitleg": "Openheid en hervorming moesten de Sovjet-Unie redden, maar versnelden haar einde."
         },
         {
@@ -3423,15 +3365,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is het verband tussen de Europese eenmaking en de Tweede Wereldoorlog?",
+          "vraag": "De euro bestond al voor er biljetten en munten waren. Sinds wanneer bestond hij giraal, op rekeningen?",
           "opties": [
-            "De eenmaking moest een nieuwe oorlog tussen buurlanden onmogelijk maken",
-            "De eenmaking was een beloning voor de landen die de oorlog gewonnen hadden",
-            "De eenmaking werd door de Sovjet-Unie opgelegd aan West-Europa",
-            "Er is geen verband: de eenmaking begon pas na de val van de Muur"
+            "1999",
+            "2002",
+            "1992",
+            "2009"
           ],
           "antwoord": 0,
-          "uitleg": "Door kolen en staal, de grondstoffen van de oorlog, samen te beheren, werd een oorlog tussen Frankrijk en Duitsland onmogelijk."
+          "uitleg": "Giraal in 1999, als biljetten in 2002. Het Verdrag van Maastricht van 1992 had de weg ernaartoe vastgelegd."
         },
         {
           "type": "tabel",
@@ -3487,9 +3429,9 @@
             ]
           ],
           "extra": [
-            "De Raad van Europa"
+            "Het Internationaal Gerechtshof"
           ],
-          "uitleg": "De Raad van Europa is een aparte organisatie die niet eens bij de EU hoort. Let ook op het verschil tussen de Europese Raad en de Raad van de EU."
+          "uitleg": "Het Internationaal Gerechtshof is een orgaan van de VN. Let op het verschil tussen de Europese Raad en de Raad van de EU."
         },
         {
           "type": "meerkeuze",
@@ -3539,7 +3481,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "De VN hebben geen eigen staand leger. Hoe komt een vredesmacht met blauwhelmen dan tot stand?",
+          "vraag": "Hoe komt een vredesmacht met blauwhelmen van de VN tot stand?",
           "opties": [
             "Lidstaten leveren per missie soldaten",
             "De VN huren soldaten in van private firma's",
@@ -3599,6 +3541,426 @@
           "type": "open",
           "vraag": "Vergelijk de Volkenbond met de Verenigde Naties. Geef een gelijkenis en een verschil.",
           "antwoord": "Gelijkenis: beide werden na een wereldoorlog opgericht om conflicten tussen landen vreedzaam op te lossen, en geen van beide heeft een eigen staand leger. Verschil: de Verenigde Staten traden nooit toe tot de Volkenbond, maar wel tot de VN. Bij de Volkenbond vroegen beslissingen de instemming van iedereen; bij de VN kunnen vijf vaste leden met hun vetorecht een beslissing tegenhouden."
+        }
+      ]
+    },
+    {
+      "titel": "Dekolonisatie en de wereld van vandaag — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Een journalist schrijft dat een land zich in de jaren zestig dekoloniseerde. Wat bedoelt hij?",
+          "opties": [
+            "Koloniën worden zelfstandige staten en maken zich los van hun kolonisator",
+            "Een kolonisator ruilt een kolonie met een andere Europese mogendheid",
+            "Europese landen kopen hun koloniën terug van de inwoners",
+            "Een kolonie krijgt een nieuwe gouverneur uit het moederland"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dekolonisatie is het losmaken van de kolonisator: de kolonie wordt een zelfstandige staat."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is het een oorzaak van de dekolonisatie na 1945?",
+          "rijen": [
+            "De Europese mogendheden kwamen verzwakt uit de Tweede Wereldoorlog.",
+            "In de koloniën groeiden nationalistische bewegingen met opgeleide leiders.",
+            "Het Handvest van de VN schreef het zelfbeschikkingsrecht van volkeren in.",
+            "De Verenigde Staten en de Sovjet-Unie wilden zelf de Europese koloniën overnemen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Drie oorzaken: een verzwakt Europa, nationalisme in de koloniën en het zelfbeschikkingsrecht van volkeren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe stonden de Verenigde Staten en de Sovjet-Unie tegenover de Europese koloniale rijken?",
+          "opties": [
+            "Beide stonden er kritisch tegenover, elk om eigen redenen",
+            "Beide steunden de koloniale rijken om Europa sterk te houden",
+            "Enkel de Sovjet-Unie was kritisch; de VS steunden de koloniën",
+            "Enkel de VS waren kritisch; de Sovjet-Unie wilde zelf koloniën"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zowel Washington als Moskou zag de oude koloniale rijken liever verdwijnen, elk om eigen redenen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "[[*India|Algerije|Congo]] werd in [[*1947|1960|1955]] onafhankelijk van het Verenigd Koninkrijk en gaf het voorbeeld. 1960 heet het Afrikajaar omdat [[*zeventien|drie|dertig]] Afrikaanse koloniën in dat ene jaar onafhankelijk werden.",
+          "uitleg": "India in 1947 was het voorbeeld. In 1960 volgden er zeventien in Afrika."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Onderhandelde overdracht of gewapende strijd? Sorteer volgens de bundel.",
+          "kolommen": [
+            "Gewapende onafhankelijkheidsstrijd",
+            "Niet gewapend"
+          ],
+          "items": [
+            [
+              "Algerije, met een oorlog van acht jaar",
+              "Gewapende onafhankelijkheidsstrijd"
+            ],
+            [
+              "Een overdracht na onderhandelingen aan een rondetafel",
+              "Niet gewapend"
+            ],
+            [
+              "Strijders die met wapens tegen het koloniale leger vechten",
+              "Gewapende onafhankelijkheidsstrijd"
+            ],
+            [
+              "Een akkoord over een datum van onafhankelijkheid",
+              "Niet gewapend"
+            ]
+          ],
+          "uitleg": "Dekolonisatie kon via onderhandelingen of via een gewapende strijd. In Algerije duurde de oorlog acht jaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Na de onafhankelijkheid braken in veel Afrikaanse staten grensconflicten uit. Wat had daar het meest mee te maken?",
+          "opties": [
+            "Ze waren door de kolonisatoren getrokken, dwars door volkeren heen",
+            "Ze werden na de onafhankelijkheid elk jaar opnieuw vastgelegd",
+            "Ze volgden precies de grenzen van de vroegere volkeren",
+            "Ze waren door de Verenigde Naties bij loting toegewezen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op de Conferentie van Berlijn en daarna trokken Europeanen grenzen op de kaart, zonder rekening te houden met wie er woonde."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men economische overheersing van een land dat politiek wel onafhankelijk is?",
+          "antwoord": "neokolonialisme",
+          "uitleg": "Neokolonialisme: de vlag is veranderd, maar de economische afhankelijkheid bleef."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is de bijeenkomst in Bandung belangrijk voor de dekolonisatie?",
+          "opties": [
+            "Aziatische en Afrikaanse landen kwamen er in 1955 samen tegen kolonialisme en blokvorming",
+            "De Europese koloniale mogendheden verdeelden de rest van Afrika",
+            "De NAVO en het Warschaupact sloten er een vredesakkoord",
+            "België en Congo legden er de datum van de onafhankelijkheid vast"
+          ],
+          "antwoord": 0,
+          "uitleg": "Uit Bandung groeide de beweging van de niet-gebonden landen, die bij geen van beide blokken wilden horen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout? Het verband tussen dekolonisatie en de Koude Oorlog.",
+          "rijen": [
+            "De supermachten probeerden de nieuwe staten naar hun kamp te trekken.",
+            "Ze steunden soms dictators, zolang die aan de juiste kant stonden.",
+            "In Korea, Vietnam en Angola voerden ze een strijd via anderen.",
+            "De nieuwe staten moesten verplicht lid worden van de NAVO of het Warschaupact."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De nieuwe staten waren een inzet in de strijd tussen de blokken, maar konden ook niet-gebonden blijven."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is het een gevolg van de dekolonisatie op lange termijn?",
+          "rijen": [
+            "Blijvende economische afhankelijkheid van enkele grondstoffen",
+            "Een veel grotere groep landen binnen de Verenigde Naties",
+            "Migratie naar de voormalige moederlanden in Europa",
+            "Het einde van alle handel tussen Europa en Afrika"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Drie gevolgen op lange termijn. De handel stopte niet; vaak bleef de afhankelijkheid juist bestaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent dekolonisering van het denken?",
+          "opties": [
+            "Opnieuw bekijken hoe wij over het koloniale verleden spreken en leren",
+            "Alles wat met de koloniale tijd te maken heeft uit de boeken schrappen",
+            "De koloniale tijd voortaan enkel nog positief voorstellen",
+            "Koloniale geschiedenis enkel in de voormalige koloniën onderwijzen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het gaat om een nieuwe blik, niet om schrappen of goedpraten."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort de vraag bij het actuele debat over dekolonisering?",
+          "rijen": [
+            "Moeten voorwerpen uit koloniale musea terug naar het land van herkomst?",
+            "Wat doen we met standbeelden van koloniale figuren in onze straten?",
+            "Welke plaats krijgt het koloniale verleden in het onderwijs?",
+            "Moet België opnieuw koloniën verwerven?"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Teruggave, standbeelden en onderwijs: dat zijn de drie vragen van het debat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom werd het AfricaMuseum in Tervuren grondig hertekend?",
+          "opties": [
+            "Het bewaart de grote koloniale verzameling, en het koloniale geweld moest er een plaats krijgen",
+            "Het gebouw werd door een brand verwoest en moest volledig opnieuw",
+            "Het museum verhuisde in 2018 naar Kinshasa en kreeg daar een nieuw ontwerp",
+            "Het museum toonde voortaan alleen nog Belgische kunst uit de 19de eeuw"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij de heropening in 2018 kreeg het koloniale geweld er een plaats."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de gebeurtenissen rond de Congolese onafhankelijkheid in de juiste volgorde.",
+          "opties": [
+            "Het plan-Van Bilsen",
+            "De rellen in Leopoldstad",
+            "De rondetafelconferentie in Brussel",
+            "De onafhankelijkheid",
+            "De moord op Lumumba"
+          ],
+          "uitleg": "Eerst het plan voor dertig jaar, dan de rellen, de rondetafel, de onafhankelijkheid en enkele maanden later de moord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het plan van professor Van Bilsen uit 1955 stelde voor:",
+          "opties": [
+            "Een geleidelijke onafhankelijkheid over dertig jaar",
+            "Een onmiddellijke onafhankelijkheid nog datzelfde jaar",
+            "Congo voor altijd bij België te houden als provincie",
+            "Congo te verdelen tussen België en Frankrijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dertig jaar: toen werd dat door iedereen weggehoond. Na de rellen van 1959 ging het plots veel sneller."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar waarin Congo onafhankelijk werd.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/tijdlijn-1750-2030.svg",
+          "zones": [
+            [
+              67.4,
+              25,
+              6.2,
+              55
+            ]
+          ],
+          "uitleg": "Op 30 juni 1960, het Afrikajaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom was Congo bij de onafhankelijkheid slecht voorbereid om zichzelf te besturen?",
+          "opties": [
+            "Er was geen ruime groep Congolese universitair geschoolden",
+            "Er waren geen grondstoffen om de staat mee te betalen",
+            "De Verenigde Naties verboden een eigen Congolese regering",
+            "Er werden geen verkiezingen georganiseerd voor 1960"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het Belgische bestuur had nauwelijks in hoger onderwijs voor Congolezen geïnvesteerd."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Wie of wat past bij elke omschrijving?",
+          "paren": [
+            [
+              "De eerste eerste minister van Congo",
+              "Patrice Lumumba"
+            ],
+            [
+              "De eerste president van Congo",
+              "Kasa-Vubu"
+            ],
+            [
+              "De provincie met de meeste kopererts, die zich afscheidde",
+              "Katanga"
+            ]
+          ],
+          "extra": [
+            "Laurent-Désiré Kabila",
+            "Mobutu"
+          ],
+          "uitleg": "Kabila en Mobutu kwamen pas later aan de macht."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout? De Congocrisis.",
+          "rijen": [
+            "De rijkste mijnprovincie scheidde zich af met Belgische steun.",
+            "De Verenigde Naties stuurden een vredesmacht naar Congo.",
+            "Lumumba zocht steun bij Moskou, waarna het Westen hem als gevaar zag.",
+            "Lumumba werd in 1965 door Mobutu afgezet en verbannen naar België."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Lumumba werd in januari 1961 na zijn afzetting naar Katanga gebracht en daar vermoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waartoe besloot een Belgische onderzoekscommissie in 2001 over de moord op Lumumba?",
+          "opties": [
+            "Tot een morele verantwoordelijkheid van Belgische regeringsleden",
+            "Dat België er op geen enkele manier bij betrokken was",
+            "Dat Belgische ministers voor de rechter moesten verschijnen",
+            "Dat de Verenigde Naties de enige schuldige waren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een morele verantwoordelijkheid, geen veroordeling door een rechter."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is het een kenmerk van het bewind van Mobutu?",
+          "kolommen": [
+            "Kenmerk",
+            "Geen kenmerk"
+          ],
+          "items": [
+            [
+              "Een autoritair eenpartijbewind",
+              "Kenmerk"
+            ],
+            [
+              "Veel corruptie",
+              "Kenmerk"
+            ],
+            [
+              "Een persoonscultus",
+              "Kenmerk"
+            ],
+            [
+              "Steun van het Westen omdat hij zich tegen het communisme keerde",
+              "Kenmerk"
+            ],
+            [
+              "Een sterk parlement dat de leider controleert",
+              "Geen kenmerk"
+            ]
+          ],
+          "uitleg": "Mobutu duldde geen controle op zijn macht."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In 1971 gaf Mobutu het land de naam [[*Zaïre|Katanga|Kivu]]. In [[*1997|1989|2019]] verdreef Laurent-Désiré Kabila hem en kreeg het land zijn naam Congo terug.",
+          "uitleg": "Zaïre van 1971 tot 1997."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar waarin Mobutu verdreven werd.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/tijdlijn-1750-2030.svg",
+          "zones": [
+            [
+              78.9,
+              25,
+              6.2,
+              55
+            ]
+          ],
+          "uitleg": "1997, net voor het streepje van 2000."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was er bijzonder aan de machtsoverdracht van 2019 in Congo?",
+          "opties": [
+            "Voor het eerst ging de macht na verkiezingen van de ene president naar de andere",
+            "Voor het eerst nam een generaal de macht met een staatsgreep",
+            "België benoemde opnieuw een gouverneur voor Congo",
+            "Het oosten van het land scheidde zich af en werd een aparte staat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een vreedzame machtswissel na verkiezingen was in Congo een primeur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat heeft jouw gsm te maken met de strijd in het oosten van Congo?",
+          "opties": [
+            "Hij bevat kobalt en coltan, grondstoffen die onder meer uit Congo komen",
+            "Congo is de grootste olieproducent van de wereld",
+            "Rubber uit Congo is nog altijd de belangrijkste grondstof voor banden",
+            "Er zijn geen grondstoffen meer, dus is er strijd om de laatste resten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kobalt en coltan: het koloniale verleden zit letterlijk in je telefoon. In Kivu woeden al decennia gewapende conflicten."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Speelt het mee in de verhouding tussen België en Congo vandaag?",
+          "rijen": [
+            "De teruggave van voorwerpen die in de koloniale tijd zijn meegenomen",
+            "De vraag of België officiële excuses moet aanbieden",
+            "De band met de grote Congolese gemeenschap in België",
+            "De Belgische koning die Congo nog altijd bestuurt"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Koning Filip drukte in 2020 zijn diepste spijt uit over de wonden van het koloniale verleden."
+        },
+        {
+          "casus": "Lees de twee uitspraken. Een Belgisch schoolboek uit 1950: België bracht in Congo beschaving, wegen en ziekenhuizen. Een Congolese historicus vandaag: De kolonie werd uitgebaat voor de rijkdom van België, met dwang en geweld.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is de beste manier om met deze twee bronnen om te gaan?",
+              "opties": [
+                "Bekijken wie ze maakte, wanneer en waarom, en ze met andere bronnen vergelijken",
+                "De oudste bron geloven, want die staat het dichtst bij de feiten",
+                "De nieuwste bron geloven, want nieuwe boeken hebben altijd gelijk",
+                "Beide bronnen weggooien, want ze spreken elkaar tegen"
+              ],
+              "antwoord": 0,
+              "uitleg": "Elke bron heeft een standplaats. Een tegenspraak is een aanwijzing om verder te zoeken."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Het schoolboek uit 1950 toont vooral het [[*Belgische|Congolese|Amerikaanse]] perspectief. Wie beide bronnen naast elkaar legt, past de redeneerwijze [[*meerdere perspectieven hanteren|evolutie en revolutie|continuïteit]] toe.",
+              "uitleg": "Twee standpunten over hetzelfde verleden: dat is meerdere perspectieven hanteren."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Is het een voorbeeld van dekolonisering van het denken?",
+              "rijen": [
+                "Een schoolboek dat ook Congolese stemmen aan het woord laat",
+                "Een les waarin ook de koloniale misdaden aan bod komen",
+                "Het schoolboek van 1950 ongewijzigd opnieuw drukken"
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Wie andere stemmen toevoegt of de misdaden toont, kijkt opnieuw naar het verleden. Ongewijzigd herdrukken doet dat niet."
+            }
+          ]
+        },
+        {
+          "type": "open",
+          "vraag": "Geef twee manieren waarop het koloniale verleden de wereld van vandaag nog vormt.",
+          "antwoord": "Bijvoorbeeld: de grenzen van Afrikaanse staten zijn door kolonisatoren getrokken en zorgen nog voor conflicten; talen als Frans en Engels worden er nog gesproken; migratie naar de vroegere moederlanden, zoals de Congolese gemeenschap in België; de handel in grondstoffen zoals kobalt en coltan voor onze telefoons."
         }
       ]
     }

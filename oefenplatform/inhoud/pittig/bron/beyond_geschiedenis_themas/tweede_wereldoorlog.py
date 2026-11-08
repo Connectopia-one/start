@@ -31,12 +31,12 @@ VRAGEN = [
             ["Stille Oceaan", "Midway"],
         ],
         ["Pearl Harbor", "Normandië"],
-        "Drie keerpunten in 1942. Pearl Harbor was de Japanse aanval van 1941, Normandië de landing van 1944.",
+        "Drie keerpunten in 1942. Pearl Harbor en Normandië waren geen keerpunten van 1942.",
     ),
     volgorde(
         "Zet de gebeurtenissen van de Tweede Wereldoorlog in de juiste volgorde.",
-        ["De Duitse inval in Polen", "De Duitse inval in België", "De Duitse inval in de Sovjet-Unie", "De Japanse aanval op Pearl Harbor", "De landing in Normandië", "De atoombommen op Hiroshima en Nagasaki"],
-        "September 1939, 10 mei 1940, 22 juni 1941, december 1941, 6 juni 1944 en augustus 1945.",
+        ["De Duitse inval in Polen", "De Duitse inval in België", "De Duitse inval in de Sovjet-Unie", "De Japanse aanval op Pearl Harbor", "De landing in Normandië"],
+        "1939, 1940, juni 1941, december 1941 en juni 1944.",
     ),
     mk(
         "Hoe kwamen de Verenigde Staten in de oorlog terecht?",
@@ -60,16 +60,11 @@ VRAGEN = [
         ],
         "Beide oorlogen betrokken de hele samenleving. Maar de tweede was mondialer, sneller en had een uitroeiingspolitiek.",
     ),
-    tabel(
-        "Hoort het kenmerk bij de Eerste of bij de Tweede Wereldoorlog?",
-        [
-            ("Gifgas aan het front", "Eerste"),
-            ("Meer burgerslachtoffers dan militaire slachtoffers", "Tweede"),
-            ("Een lange loopgravenoorlog", "Eerste"),
-            ("Gevechten in Azië, Afrika en op de oceanen", "Tweede"),
-        ],
-        "Gifgas aan het front en de loopgraven horen bij de eerste. In de tweede vielen meer burgers en werd over de hele wereld gevochten.",
-        kolommen=["Eerste", "Tweede"],
+    mk(
+        "Een leerling noemt Duitsland, Italië en Spanje als de kern van de asmogendheden. Wat is de juiste verbetering?",
+        ["Duitsland, Italië en Japan", "Duitsland, Oostenrijk en Hongarije", "Duitsland, de Sovjet-Unie en Japan", "Duitsland, Spanje en Japan"],
+        0,
+        "Duitsland, Italië en Japan. De Sovjet-Unie vocht vanaf 1941 aan de kant van de geallieerden.",
     ),
     tabel(
         "Een historicus beschrijft de wereld van 1949. Welke veranderingen ten opzichte van 1939 noemt hij terecht?",
@@ -125,7 +120,7 @@ VRAGEN = [
             "De Belgische regering keerde er terug uit Londen",
         ],
         0,
-        "Een zeldzame daad van gewapend verzet tegen de deportaties: drie verzetslieden hielden een trein naar Auschwitz tegen.",
+        "Een zeldzame daad van gewapend verzet tegen de deportaties: drie verzetslieden hielden een deportatietrein tegen.",
     ),
     mk(
         "Waarom was de bevrijding van Antwerpen in september 1944 zo belangrijk voor de geallieerden?",
@@ -136,7 +131,7 @@ VRAGEN = [
             "De koning bevond zich in Antwerpen en nam er de leiding",
         ],
         0,
-        "Een werkende haven betekende brandstof, voedsel en munitie voor de legers. Daarom probeerde Duitsland met het Ardennenoffensief nog naar Antwerpen door te stoten.",
+        "Een werkende haven betekende brandstof, voedsel en munitie voor de legers.",
     ),
     mk(
         "Een leerling zegt: \"In de oorlog was je ofwel collaborateur, ofwel verzetsstrijder.\" Wat is de beste reactie?",
@@ -256,7 +251,7 @@ VRAGEN = [
     sleep(
         "Het Ardennenoffensief was een laatste Duits [[tegenoffensief]] in de winter van [[1944]]. De oorlog eindigde in Europa met de Duitse [[capitulatie]] in mei 1945.",
         ["bezetting", "1943", "wapenstilstand"],
-        "Na het mislukte Ardennenoffensief volgde in mei 1945 de Duitse overgave. In Azië eindigde de oorlog na de atoombommen.",
+        "Na het mislukte Ardennenoffensief volgde in mei 1945 de Duitse overgave.",
     ),
     mk(
         "Hoe kwam de Tweede Wereldoorlog in Azië ten einde?",
@@ -267,6 +262,6 @@ VRAGEN = [
             "Na de val van de Berlijnse Muur",
         ],
         0,
-        "In Europa capituleerde Duitsland in mei 1945. Japan gaf zich over in augustus 1945, na de atoombommen.",
+        "Japan gaf zich over in augustus 1945, na de atoombommen.",
     ),
 ]

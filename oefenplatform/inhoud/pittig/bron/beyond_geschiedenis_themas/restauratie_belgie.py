@@ -17,12 +17,12 @@ VRAGEN = [
     tabel(
         "Welke beslissingen van het Congres van Wenen dienden om Frankrijk in te dijken?",
         [
-            ("Ten noorden van Frankrijk kwam het Verenigd Koninkrijk der Nederlanden.", J),
+            ("Rond Frankrijk kwamen bufferstaten die een nieuwe Franse aanval moesten opvangen.", J),
             ("Pruisen kreeg het Rijnland erbij, aan de grens met Frankrijk.", J),
             ("De Duitse staten werden samengebracht in één sterk keizerrijk.", F),
             ("Frankrijk kreeg alle gebieden van Napoleon terug.", F),
         ],
-        "Bufferstaten rond Frankrijk: het Verenigd Koninkrijk der Nederlanden in het noorden en Pruisen aan de Rijn. De Duitse staten bleven in een los verband, de Duitse Bond.",
+        "Bufferstaten rond Frankrijk, met Pruisen aan de Rijn. De Duitse staten werden niet tot één rijk samengevoegd.",
     ),
     met_prent("europa-1815.webp", mk(
         "Bekijk de kaart van Europa in 1815. Welk land werd opgericht als buffer ten noorden van Frankrijk?",
@@ -53,8 +53,8 @@ VRAGEN = [
         "Het evenwicht hield lang stand, maar liberale en nationale bewegingen lieten zich niet onderdrukken. Dat zie je aan de revolutiegolven en aan het ontstaan van België in 1830.",
     ),
     sleep(
-        "Men wilde na Napoleon de toestand van voor 1789 herstellen: dat heet [[restauratie]]. Omdat de vorsten bij de grenzen geen rekening hielden met de [[taal]] en de wensen van de bevolking, volgden er revolutiegolven in [[1830]] en 1848.",
-        ["revolutie", "1815", "godsdienst"],
+        "Men wilde na Napoleon de toestand van voor 1789 herstellen: dat heet [[restauratie]]. Omdat de vorsten bij de grenzen geen rekening hielden met de [[taal]] en de wensen van de bevolking, volgden er revolutiegolven in 1830 en 1848.",
+        ["revolutie", "godsdienst"],
         "Restauratie is herstel. Het negeren van taal en wensen van de bevolking verklaart veel van de opstanden die volgden.",
     ),
     # --- liberalisme en nationalisme
@@ -112,7 +112,7 @@ VRAGEN = [
             "Ze werden allebei door koning Willem I zelf gesteund en betaald",
         ],
         0,
-        "Katholieken en liberalen verschilden sterk van mening, maar de grieven tegen Willem I brachten hen samen. Dat samengaan leeft na 1830 voort als unionisme.",
+        "Katholieken en liberalen verschilden sterk van mening, maar de grieven tegen Willem I brachten hen samen. Dat samengaan bleef ook na 1830 bestaan.",
     ),
     # --- revolutie
     volgorde(
@@ -121,7 +121,7 @@ VRAGEN = [
         "25 augustus 1830 de opera, dan de septemberdagen, het Voorlopig Bewind, op 4 oktober de onafhankelijkheid, en in 1831 de grondwet van het Nationaal Congres.",
     ),
     keuze(
-        "België werd in 1831 een [[*constitutionele parlementaire monarchie|absolute monarchie|republiek]]: een koning, maar met een [[*grondwet|keizer|paus]] boven hem en een parlement naast hem.",
+        "België werd in 1831 een [[*constitutionele parlementaire monarchie|absolute monarchie|republiek]]: een koning, maar met een grondwet boven hem en een parlement [[*naast|onder|boven]] hem.",
         "Een constitutionele monarchie heeft een grondwet die de macht van de koning beperkt. Het parlement maakt de wetten.",
     ),
     tabel(
@@ -139,11 +139,10 @@ VRAGEN = [
         [
             ["Stemrecht enkel voor wie genoeg belasting betaalt", "Cijnskiesrecht"],
             ["Katholieken en liberalen besturen samen na 1830", "Unionisme"],
-            ["De oude vorstenhuizen hebben het rechtmatige gezag", "Legitimiteit"],
-            ["De toestand van voor de Franse Revolutie herstellen", "Restauratie"],
+            ["Een groep met een gedeelde taal, cultuur en geschiedenis wil een eigen staat", "Nationalisme"],
         ],
-        ["Nationalisme"],
-        "Vier begrippen uit dit thema. Nationalisme past bij geen van de vier omschrijvingen.",
+        ["Legitimiteit", "Restauratie"],
+        "Drie begrippen uit dit thema. Legitimiteit en restauratie horen bij het Congres van Wenen.",
     ),
     casus(
         "Bekijk het schilderij. Gustaf Wappers schilderde het in 1834 en 1835 in opdracht van de Belgische staat. Het toont burgers, arbeiders en een vrouw met de Belgische vlag op de barricaden in Brussel in september 1830. De opstandelingen staan in het licht en kijken vastberaden.",
@@ -183,7 +182,7 @@ VRAGEN = [
         [
             ("Het Frans was in heel het land de taal van bestuur en rechtbank, ook in Vlaanderen.", J),
             ("De Vlaamse beweging begon als een politieke partij.", F),
-            ("De Leeuw van Vlaanderen van Hendrik Conscience gaf de beweging een verhaal.", J),
+            ("Een historische roman uit 1838 gaf de beweging een verhaal.", J),
             ("De eerste taalwetten die het Nederlands erkenden, kwamen er meteen in 1831.", F),
         ],
         "De Vlaamse beweging was eerst cultureel, rond taal en letteren. De eerste taalwetten kwamen pas vanaf de jaren 1870, veertig jaar na de onafhankelijkheid.",
@@ -196,7 +195,7 @@ VRAGEN = [
     ),
     # --- Duitsland
     tabel(
-        "Een leerling vat de Duitse eenmaking samen. Welke middelen van Bismarck noemt ze terecht?",
+        "Een leerling vat de Duitse eenmaking samen. Welke middelen van Pruisen noemt ze terecht?",
         [
             ("Oorlogen tegen Denemarken, Oostenrijk en Frankrijk", J),
             ("Een douane-unie die de staten economisch bond", J),
@@ -225,7 +224,7 @@ VRAGEN = [
             "Er veranderde niets aan de kaart, want de Duitse staten bleven gewoon in hetzelfde losse verband als na Wenen",
         ],
         0,
-        "Uit een los verband van negenendertig staten groeide één sterk rijk. Dat brak het evenwicht dat Wenen had opgebouwd.",
+        "Uit een los verband van staten groeide één sterk rijk. Dat brak het evenwicht dat Wenen had opgebouwd.",
     ),
     volgorde(
         "Zet in chronologische volgorde.",
@@ -249,12 +248,12 @@ VRAGEN = [
     ),
     keuze(
         "Na 1815 waren de Duitse staten verenigd in de [[*Duitse Bond|Triple Entente|Volkenbond]], een los verband van [[*negenendertig|zeven|twee]] zelfstandige staten.",
-        "Wenen bracht ze niet samen in één rijk. Pas onder Bismarck kwam in 1871 het Duitse Keizerrijk.",
+        "Wenen bracht ze niet samen in één rijk. Pas in 1871 kwam het Duitse Keizerrijk.",
     ),
     sleep(
-        "Het jonge België werd bestuurd door [[katholieken]] en liberalen samen. Mogen stemmen hing af van de [[belasting]] die je betaalde. De grondwet schreef de vrijheid van [[onderwijs]] uitdrukkelijk in.",
-        ["socialisten", "taal", "arbeid"],
-        "Unionisme, cijnskiesrecht en de vrijheid van onderwijs, drukpers en vereniging zijn kenmerken van de Belgische staat van 1831.",
+        "Het Congres van Wenen werd geleid door de Oostenrijkse kanselier [[Metternich]]. De roman De Leeuw van Vlaanderen van [[Conscience]] gaf de Vlaamse beweging een verhaal. De Duitse eenmaking werd geleid door de Pruisische minister-president [[Bismarck]].",
+        ["Napoleon", "Leopold I", "Willem I"],
+        "Metternich leidde Wenen, Conscience schreef het boek van 1838 en Bismarck leidde de Duitse eenmaking. Napoleon was in 1815 al verslagen.",
     ),
     mk(
         "Waarom hadden de vorsten in Wenen weinig oog voor de wensen van de bevolking, en wat was daarvan een gevolg?",
@@ -265,27 +264,21 @@ VRAGEN = [
             "Ze volgden zorgvuldig de taalgrenzen; daardoor ontstonden er overal in Europa nieuwe, eentalige staten",
         ],
         0,
-        "Wenen tekende grenzen voor het evenwicht en het herstel van de oude vorsten. Taal en wensen van de bevolking telden niet, en dat voedde de opstanden van 1830 en 1848.",
+        "Wenen tekende grenzen voor het evenwicht en het herstel van de oude vorsten. De bevolking telde niet mee, en dat voedde later de opstanden.",
     ),
-    tabel(
-        "Juist of fout? Lees elke uitspraak over de Belgische grondwet van 1831.",
+    mk(
+        "Hoe reageerden de grote mogendheden op de revolutiegolven van 1830 en 1848?",
         [
-            ("Ze bevatte zowel katholieke als liberale standpunten.", J),
-            ("Ze maakte van België een republiek zonder koning.", F),
-            ("De vrijheid van onderwijs stond er uitdrukkelijk in.", J),
-            ("Ze gaf alle volwassen mannen stemrecht.", F),
+            "Ze onderdrukten ze of probeerden ze in te dammen",
+            "Ze steunden de opstandelingen met hun legers",
+            "Ze lieten overal volksraadplegingen organiseren",
+            "Ze ontbonden het Congres en tekenden nieuwe grenzen",
         ],
-        "De grondwet was een compromis tussen katholieken en liberalen. België werd een monarchie, en door het cijnskiesrecht stemde maar een kleine groep.",
+        0,
+        "De mogendheden wilden de orde van Wenen bewaren en reageerden met onderdrukking of indammen.",
     ),
-    koppel(
-        "Welke persoon hoort bij elke rol?",
-        [
-            ["Oostenrijkse kanselier die het Congres van Wenen leidde", "Metternich"],
-            ["Koning van het Verenigd Koninkrijk der Nederlanden", "Willem I"],
-            ["Pruisische minister-president van de Duitse eenmaking", "Bismarck"],
-            ["Schrijver van De Leeuw van Vlaanderen", "Hendrik Conscience"],
-        ],
-        ["Napoleon"],
-        "Metternich leidde Wenen, Willem I regeerde over Noord en Zuid, Bismarck leidde de Duitse eenmaking en Conscience schreef het boek van 1838. Napoleon was in 1815 al verslagen.",
+    keuze(
+        "Het Congres van Wenen eindigde in hetzelfde jaar als [[*de slag bij Waterloo|de Belgische revolutie|de Franse Revolutie]]. Je situeert het congres in de eerste plaats in het [[*politieke|culturele|sociale]] domein.",
+        "Waterloo en het einde van het congres vallen allebei in 1815. Een congres dat grenzen tekent, hoort bij het politieke domein.",
     ),
 ]
