@@ -149,12 +149,87 @@ def betoging():
     (UIT / "betoging-van-bovenaf.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
 
 
+# ---------------------------------------------------------------- graanoogst China 1957-1962
+# Officiële Chinese cijfers, afgerond, in miljoen ton graan.
+OOGST = [(1957, 195), (1958, 200), (1959, 170), (1960, 144), (1961, 148), (1962, 160)]
+OB, OH, ONUL, OSCH, OX0, OSW, OSTAP = 800, 470, 400, 1.5, 120, 80, 110
+
+
+def zone_oogst(i):
+    """Klikvak over de hele kolom van jaar i (0 = 1957), in procent."""
+    return [round((OX0 + i * OSTAP - 10) / OB * 100, 1), 10, round((OSW + 20) / OB * 100, 1), 86]
+
+
+def graanoogst():
+    d = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {OB} {OH}" width="{OB}" height="{OH}" font-family="Arial, sans-serif">',
+         f'<rect width="{OB}" height="{OH}" fill="{ACHTER}"/>',
+         f'<text x="{OB/2}" y="34" font-size="24" text-anchor="middle" fill="{DONKER}" font-weight="bold">Graanoogst in China (miljoen ton)</text>']
+    for t in (0, 50, 100, 150, 200):
+        y = ONUL - t * OSCH
+        d.append(f'<line x1="90" y1="{y}" x2="{OB-40}" y2="{y}" stroke="#b9b29c" stroke-width="1"/>')
+        d.append(f'<text x="80" y="{y+7}" font-size="18" text-anchor="end" fill="{DONKER}">{t}</text>')
+    for i, (jaar, ton) in enumerate(OOGST):
+        x, y = OX0 + i * OSTAP, ONUL - ton * OSCH
+        d.append(f'<rect x="{x}" y="{y}" width="{OSW}" height="{ton*OSCH}" rx="6" fill="{GROEN}"/>')
+        d.append(f'<text x="{x+OSW/2}" y="{y-10}" font-size="20" text-anchor="middle" fill="{DONKER}">{ton}</text>')
+        d.append(f'<text x="{x+OSW/2}" y="{ONUL+34}" font-size="22" text-anchor="middle" fill="{DONKER}">{jaar}</text>')
+    d.append(f'<text x="{OB-40}" y="{OH-8}" font-size="14" text-anchor="end" fill="#6b7a5e">Afgeronde officiële Chinese cijfers</text>')
+    d.append("</svg>")
+    (UIT / "graanoogst-china.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
+
+
+# ---------------------------------------------------------------- tijdlijn China 1945-2025
+CB, CH, CX0, CX1, CJ0, CJ1 = 1000, 210, 50, 923, 1945, 2025
+
+
+def x_china(jaar, j0=CJ0, j1=CJ1):
+    return CX0 + (jaar - j0) / (j1 - j0) * (CX1 - CX0)
+
+
+def zone_china(jaar, breed=3, j0=CJ0, j1=CJ1):
+    """Klikvak rond een jaar op tijdlijn-china.svg (of een andere tijdlijn met j0-j1)."""
+    links = x_china(jaar - breed / 2, j0, j1) / CB * 100
+    return [round(links, 1), 25, round(breed / (j1 - j0) * (CX1 - CX0) / CB * 100, 1), 55]
+
+
+# Israël-Palestina: zelfde tekening, van 1910 tot 2030.
+IJ0, IJ1 = 1910, 2030
+
+
+def zone_israel(jaar, breed=3):
+    return zone_china(jaar, breed, IJ0, IJ1)
+
+
+def tijdlijn_china(j0=CJ0, j1=CJ1, naam="tijdlijn-china.svg"):
+    d = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {CB} {CH}" width="{CB}" height="{CH}" font-family="Arial, sans-serif">',
+         f'<rect width="{CB}" height="{CH}" fill="{ACHTER}"/>',
+         f'<line x1="{CX0}" y1="110" x2="{CX1}" y2="110" stroke="{GROEN}" stroke-width="5"/>',
+         f'<polygon points="{CX1},98 {CX1+24},110 {CX1},122" fill="{GROEN}"/>']
+    for j in range(j0, j1 + 1):
+        x = x_china(j, j0, j1)
+        if j % 10 == 0:
+            d.append(f'<line x1="{x:.1f}" y1="92" x2="{x:.1f}" y2="128" stroke="{GROEN}" stroke-width="4"/>')
+            d.append(f'<text x="{x:.1f}" y="166" font-size="28" text-anchor="middle" fill="{DONKER}">{j}</text>')
+        elif j % 5 == 0:
+            d.append(f'<line x1="{x:.1f}" y1="100" x2="{x:.1f}" y2="120" stroke="{GROEN}" stroke-width="2"/>')
+        else:
+            d.append(f'<line x1="{x:.1f}" y1="105" x2="{x:.1f}" y2="115" stroke="{GROEN}" stroke-width="1"/>')
+    d.append("</svg>")
+    (UIT / naam).write_text("\n".join(d) + "\n", encoding="utf-8")
+
+
 if __name__ == "__main__":
     UIT.mkdir(parents=True, exist_ok=True)
     tijdlijn()
     volksraadpleging()
 
     betoging()
+    graanoogst()
+    tijdlijn_china()
+    tijdlijn_china(IJ0, IJ1, "tijdlijn-israel-palestina.svg")
+    print("israel", {j: zone_israel(j) for j in (1917, 1947, 1948, 1967, 1973, 1978, 1987, 1993, 2000, 2002, 2023)})
+    print("oogst", [zone_oogst(i) for i in range(6)])
+    print("china", {j: zone_china(j) for j in (1949, 1958, 1966, 1978, 1989, 1997, 2013)})
     print("betoging", zone_betoging())
     print("staven", [zone_staaf(i) for i in range(3)])
     for j in (1789, 1815, 1830, 1871, 1914, 1945, 1989):

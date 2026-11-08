@@ -33,13 +33,13 @@ THEMAS = [
     ("denken_kunst", "Denken, kunst en emancipatie"),
     ("redeneren", "Redeneren met historische bronnen"),
     ("beeldvorming", "Beeldvorming, vergelijken en verleden-heden-toekomst"),
+    ("china", "De Volksrepubliek China: van Mao tot Xi"),
+    ("israel_palestina", "De Israëlisch-Palestijnse kwestie"),
 ]
 
 # Nieuwe thema's voor fiche-leerstof die nog ontbrak (Kim 8/11). Ze staan hier
 # tot hun dertig vragen klaar zijn; maak_prentenlijst.py toont hun prenten al.
 KOMEND = [
-    ("china", "De Volksrepubliek China: van Mao tot Xi"),
-    ("israel_palestina", "De Israëlisch-Palestijnse kwestie"),
     ("stromingen", "Denkstromingen en kunststromingen van de 19de en 20ste eeuw"),
     ("kunst_analyseren", "Kunst en cultuur analyseren met het stappenplan"),
 ]

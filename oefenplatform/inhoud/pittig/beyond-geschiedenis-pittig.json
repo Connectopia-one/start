@@ -5693,6 +5693,924 @@
           "antwoord": "Totalitaire regimes gebruikten affiches, film en radio om één beeld op te dringen en tegenspraak uit te schakelen, bijvoorbeeld de personencultus rond Stalin. Wie weet hoe dat werkte, herkent vandaag sneller berichten die één kant tonen, emoties bespelen of de maker verbergen. Je vraagt dan: wie maakte dit, voor wie en met welke bedoeling?"
         }
       ]
+    },
+    {
+      "titel": "De Volksrepubliek China: van Mao tot Xi — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout? De weg naar de communistische machtsovername.",
+          "rijen": [
+            "Communisten en nationalisten van de Guomindang vochten jarenlang een burgeroorlog uit.",
+            "Tijdens de Japanse inval vanaf 1937 sloten beide partijen tijdelijk een bondgenootschap.",
+            "De communisten haalden hun steun vooral uit de grote steden aan de kust.",
+            "De nationalisten van Chiang Kai-shek vluchtten na hun nederlaag naar Taiwan."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "De communisten bouwden hun steun op bij de arme boeren op het platteland. Na de nederlaag trok Chiang Kai-shek zich terug op Taiwan."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar waarin Mao de Volksrepubliek China uitriep.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/tijdlijn-china.svg",
+          "zones": [
+            [
+              7.7,
+              25,
+              3.3,
+              55
+            ]
+          ],
+          "uitleg": "Op 1 oktober 1949, op het Tienanmenplein in Peking."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Was het een oorzaak of een gevolg van de communistische machtsovername in China?",
+          "kolommen": [
+            "Oorzaak",
+            "Gevolg"
+          ],
+          "items": [
+            [
+              "Bittere armoede bij de boeren, die vaak zwaar verschuldigd waren aan grootgrondbezitters",
+              "Oorzaak"
+            ],
+            [
+              "Corruptie en verdeeldheid binnen het nationalistische bewind",
+              "Oorzaak"
+            ],
+            [
+              "De verzwakking van het land door de Japanse bezetting",
+              "Oorzaak"
+            ],
+            [
+              "Een eenpartijstaat waarin de communistische partij alle macht heeft",
+              "Gevolg"
+            ],
+            [
+              "De Verenigde Staten weigeren het nieuwe bewind te erkennen",
+              "Gevolg"
+            ]
+          ],
+          "uitleg": "Armoede, een zwak en corrupt bewind en de oorlog maakten de communisten populair. Daarna volgden de eenpartijstaat en een breuk met de Verenigde Staten, die tot 1979 duurde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kreeg Mao meer steun bij de boeren dan de nationalisten?",
+          "opties": [
+            "Hij beloofde hun grond en leefde met zijn troepen tussen hen",
+            "Hij liet de boeren in elk dorp vrij kiezen tussen meerdere partijen en kandidaten",
+            "Hij kreeg veel geld van de Verenigde Staten om voedsel uit te delen",
+            "Hij beloofde de oude keizer terug op de troon te zetten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Grond voor wie hem bewerkt was een krachtige belofte in een land waar de meeste mensen boer waren."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Tot welk domein hoort deze maatregel onder Mao?",
+          "kolommen": [
+            "Politiek",
+            "Sociaal",
+            "Cultureel",
+            "Economisch"
+          ],
+          "items": [
+            [
+              "Andere partijen verbieden en tegenstanders laten opsluiten",
+              "Politiek"
+            ],
+            [
+              "Een huwelijkswet die gedwongen huwelijken verbiedt en vrouwen het recht op echtscheiding geeft",
+              "Sociaal"
+            ],
+            [
+              "Oude tempels, boeken en tradities laten vernielen",
+              "Cultureel"
+            ],
+            [
+              "Vijfjarenplannen naar Sovjetvoorbeeld met de nadruk op zware industrie",
+              "Economisch"
+            ]
+          ],
+          "uitleg": "Telkens één voorbeeld per domein. De huwelijkswet van 1950 veranderde de positie van vrouwen in het gezin."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Deze affiche uit 1958 toont blije boeren bij een rijke oogst. Wat was de bedoeling van de makers?",
+          "opties": [
+            "De bevolking overhalen om vol mee te doen",
+            "Buitenlandse kopers zoeken voor de Chinese rijst en thee",
+            "De boeren waarschuwen voor een hongersnood die eraan kwam",
+            "Kritiek geven op de leiding van de communistische partij"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het is propaganda van de staat. Ze toont wat de partij wil bereiken, niet hoe het in werkelijkheid ging.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/grote-sprong-affiche.webp"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik in de grafiek op het jaar met de laagste graanoogst.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/graanoogst-china.svg",
+          "zones": [
+            [
+              55.0,
+              10,
+              12.5,
+              86
+            ]
+          ],
+          "uitleg": "In 1960 lag de oogst bijna een kwart lager dan in 1958."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout? De gevolgen van de Grote Sprong Voorwaarts (1958-1962).",
+          "rijen": [
+            "Een hongersnood met miljoenen doden.",
+            "Mao moest het dagelijkse bestuur een tijd aan anderen overlaten.",
+            "China werd de grootste staalproducent ter wereld.",
+            "Het vertrouwen in de cijfers van de partij nam toe."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "De Grote Sprong werd een ramp. Veel van het staal uit die jaren was onbruikbaar, en de opgeblazen cijfers ondermijnden het vertrouwen."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg in je eigen woorden uit waarom de Grote Sprong Voorwaarts tot sociaaleconomische achteruitgang leidde. Gebruik minstens twee oorzaken.",
+          "antwoord": "Bijvoorbeeld: de boeren moesten in kleine ovens staal maken, waardoor er minder mensen op het land werkten en de oogst daalde. Bovendien gaven lokale leiders uit angst te hoge oogstcijfers door, zodat de staat te veel graan ophaalde en zelfs uitvoerde. Gevolg: een enorme hongersnood met miljoenen doden en een economie die jaren achteruitging."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Met de Culturele Revolutie vanaf [[*1966|1949|1978]] wilde Mao zijn macht [[*terugwinnen|delen|afstaan]]. Jongeren in de [[*Rode Garde|Guomindang|volkscommunes]] vielen leraren en partijleden aan.",
+          "uitleg": "Na de mislukking van de Grote Sprong had Mao aan invloed verloren. De Culturele Revolutie gaf hem die macht terug."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout? Wat leer je uit deze affiche uit de Culturele Revolutie?",
+          "rijen": [
+            "De affiche verheerlijkt de leider als een bijna onfeilbare figuur.",
+            "Ze richt zich vooral tot jongeren.",
+            "Ze is gemaakt door tegenstanders van de partij.",
+            "Ze geeft een betrouwbaar beeld van het dagelijkse leven in die jaren."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Een staatsaffiche toont het ideaal van de partij. Over het echte leven, met vervolgingen en gesloten scholen, zegt ze weinig.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/culturele-revolutie-affiche.webp"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar waarin Deng Xiaoping zijn economische hervormingen begon.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/tijdlijn-china.svg",
+          "zones": [
+            [
+              39.4,
+              25,
+              3.3,
+              55
+            ]
+          ],
+          "uitleg": "Mao stierf in 1976. Vanaf 1978 zette Deng het land op een nieuwe economische koers."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout? De modernisering onder Deng Xiaoping.",
+          "rijen": [
+            "Boeren mochten een deel van hun oogst zelf op de markt verkopen.",
+            "In speciale economische zones aan de kust mochten buitenlandse bedrijven investeren.",
+            "De communistische partij gaf haar machtsmonopolie op.",
+            "Gezinnen mochten in principe nog maar één kind krijgen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Economisch ging China open, politiek bleef de partij alleen aan de macht. De eenkindpolitiek moest de bevolkingsgroei afremmen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Deng zei: het maakt niet uit of een kat zwart of wit is, zolang ze muizen vangt. Wat bedoelde hij?",
+          "opties": [
+            "Wat de economie doet groeien, is goed",
+            "De Chinezen moeten beter letten op de netheid van hun straten en steden",
+            "Alle buitenlanders zijn welkom, behalve westerlingen",
+            "De partij moet terug naar het strenge beleid van de vorige jaren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het resultaat telt, niet de leer. Zo verantwoordde Deng marktwerking in een communistische staat."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Deng noemde zijn koers socialisme met Chinese [[kenmerken]]: een [[markteconomie]] onder leiding van één partij. Het eerste proefgebied was de zone van [[Shenzhen]], vlak bij Hongkong.",
+          "extra": [
+            "planeconomie",
+            "Sjanghai",
+            "democratie"
+          ],
+          "uitleg": "Economische vrijheid zonder politieke vrijheid. Shenzhen groeide van vissersdorp tot miljoenenstad."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar waarin het leger het studentenprotest op het Tienanmenplein neersloeg.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/tijdlijn-china.svg",
+          "zones": [
+            [
+              51.4,
+              25,
+              3.3,
+              55
+            ]
+          ],
+          "uitleg": "In de nacht van 3 op 4 juni 1989, hetzelfde jaar waarin in Europa de Muur viel."
+        },
+        {
+          "casus": "Lente 1989. Weken lang bezetten studenten en arbeiders het Tienanmenplein in Peking. Ze eisen persvrijheid, inspraak en een einde aan corruptie. Op 4 juni rijden tanks het plein op. Honderden, misschien duizenden mensen komen om. In China zelf wordt er tot vandaag niet over gesproken.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat toont deze gebeurtenis over de houding van de Chinese overheid tegenover democratie?",
+              "opties": [
+                "Economisch mocht er veel, maar de macht van de partij bleef onaantastbaar",
+                "De overheid organiseerde na het protest snel vrije verkiezingen in het hele land",
+                "De overheid liet de studenten begaan, omdat ze dezelfde eisen had",
+                "Het protest werd opgelost met een volksraadpleging over de eisen van de studenten"
+              ],
+              "antwoord": 0,
+              "uitleg": "De partij duldt geen politieke tegenmacht. Het neerslaan van het protest en de censuur erna tonen dat."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom is een Chinees schoolboek geen bruikbare bron om te weten wat er op 4 juni gebeurde?",
+              "opties": [
+                "De staat controleert wat erin staat en zwijgt de gebeurtenis dood",
+                "Schoolboeken bevatten nooit informatie over geschiedenis",
+                "Het is te lang na de feiten geschreven",
+                "Chinese schoolboeken zijn enkel in het Engels te krijgen"
+              ],
+              "antwoord": 0,
+              "uitleg": "Censuur maakt een bron onbruikbaar voor deze vraag. Je zoekt dan ooggetuigen, buitenlandse journalisten of diplomatieke berichten."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Bij welk domein hoort dit kenmerk van het beleid onder Xi Jinping (aan de macht sinds 2012)?",
+          "paren": [
+            [
+              "Politiek",
+              "De grens van twee ambtstermijnen voor de president wordt in 2018 afgeschaft"
+            ],
+            [
+              "Sociaal",
+              "Camera's met gezichtsherkenning en een puntensysteem dat het gedrag van burgers volgt"
+            ],
+            [
+              "Cultureel",
+              "Strenge censuur op internet en nadruk op de Chinese droom en trots op het land"
+            ],
+            [
+              "Economisch",
+              "De Nieuwe Zijderoute: wegen, havens en spoorlijnen in tientallen landen"
+            ]
+          ],
+          "extra": [
+            "Vrije verkiezingen met meerdere partijen"
+          ],
+          "uitleg": "Vrije verkiezingen met meerdere partijen bestaan in China niet, ook niet onder Xi."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout? China onder Xi Jinping.",
+          "rijen": [
+            "Xi voerde een grote campagne tegen corruptie, waarbij ook rivalen verdwenen.",
+            "In Xinjiang worden Oeigoeren, een moslimminderheid, in grote kampen opgesloten.",
+            "In Hongkong kwam er sinds 2020 meer ruimte voor protest en oppositie.",
+            "Na de eenkindpolitiek mogen gezinnen nu officieel drie kinderen krijgen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "In Hongkong kwam er in 2020 net een strenge veiligheidswet die protest en oppositie aan banden legt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vergelijkt de staatsvorm onder Mao met die van vandaag. Wat is de belangrijkste continuïteit?",
+          "opties": [
+            "Er is nog altijd één partij die alle macht heeft",
+            "De economie is nog altijd volledig in handen van de staat",
+            "Er zijn nog altijd volkscommunes op het platteland",
+            "Buitenlandse bedrijven zijn nog altijd verboden"
+          ],
+          "antwoord": 0,
+          "uitleg": "De economie veranderde grondig, het politieke systeem nauwelijks. Dat is het verschil tussen economische en politieke modernisering."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is het een verschil tussen China onder Mao en China vandaag?",
+          "rijen": [
+            "Privébedrijven en miljardairs",
+            "De meerderheid van de bevolking woont in de stad",
+            "Grote rol in de wereldhandel",
+            "Grote staatsbedrijven in sectoren zoals energie en banken"
+          ],
+          "antwoord": [
+            "Verschil",
+            "Verschil",
+            "Verschil",
+            "Gelijk gebleven"
+          ],
+          "uitleg": "China is verstedelijkt en rijk geworden met privébedrijven, maar de staat houdt de sleutelsectoren nog stevig in handen.",
+          "kolommen": [
+            "Verschil",
+            "Gelijk gebleven"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Wat haalt China uit Afrika en wat brengt het mee?",
+          "kolommen": [
+            "Haalt China er",
+            "Brengt China mee"
+          ],
+          "items": [
+            [
+              "Olie, koper en kobalt",
+              "Haalt China er"
+            ],
+            [
+              "Een afzetmarkt voor goedkope Chinese producten",
+              "Haalt China er"
+            ],
+            [
+              "Steun van Afrikaanse landen in de VN",
+              "Haalt China er"
+            ],
+            [
+              "Wegen, spoorlijnen, havens en stadions",
+              "Brengt China mee"
+            ],
+            [
+              "Grote leningen",
+              "Brengt China mee"
+            ]
+          ],
+          "uitleg": "Het is een ruil: grondstoffen, markten en politieke steun tegen infrastructuur en geld."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kiezen Afrikaanse regeringen soms liever voor Chinese leningen dan voor westerse?",
+          "opties": [
+            "China stelt geen voorwaarden over mensenrechten of bestuur",
+            "Chinese leningen hoeven nooit terugbetaald te worden",
+            "China eist dat er eerst vrije verkiezingen komen",
+            "Westerse landen geven helemaal geen leningen aan Afrika"
+          ],
+          "antwoord": 0,
+          "uitleg": "China zegt zich niet te bemoeien met binnenlandse zaken. Westerse geldschieters koppelen hulp vaker aan voorwaarden."
+        },
+        {
+          "casus": "Een Afrikaanse krant schrijft: Dankzij China hebben we eindelijk een spoorlijn naar de haven. Een andere krant: Het land kan de Chinese lening niet terugbetalen en moet nu de haven voor jaren uitbesteden aan een Chinees bedrijf.",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "De eerste krant ziet China als een [[*partner|bezetter|kolonisator]]. De tweede waarschuwt voor een [[*schuldenval|handelsoorlog|burgeroorlog]].",
+              "uitleg": "Dezelfde investering, twee perspectieven. Critici vergelijken het soms met een nieuwe vorm van afhankelijkheid."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke vergelijking maken critici vaak bij China in Afrika?",
+              "opties": [
+                "Met het Europese imperialisme van de 19de eeuw",
+                "Met de Marshallhulp, een gift zonder enige eigen belangen van de gever",
+                "Met de Europese Unie: landen geven samen macht af",
+                "Met de dekolonisatie: Afrika wordt onafhankelijk van Europa"
+              ],
+              "antwoord": 0,
+              "uitleg": "Er zijn gelijkenissen, zoals grondstoffen en afhankelijkheid, maar ook verschillen: China bezet geen gebieden en bestuurt ze niet zelf."
+            }
+          ]
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen in de toenadering tussen China en het Westen in de juiste volgorde.",
+          "opties": [
+            "De Amerikaanse president Nixon bezoekt Peking",
+            "Deng opent speciale economische zones voor buitenlandse bedrijven",
+            "Groot-Brittannië geeft Hongkong terug aan China",
+            "China wordt lid van de Wereldhandelsorganisatie"
+          ],
+          "uitleg": "Nixon in 1972, de zones vanaf 1980, Hongkong in 1997 en de Wereldhandelsorganisatie in 2001."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is het een gevolg van de contacten tussen China en het Westen?",
+          "rijen": [
+            "Westerse ketens en merken in Chinese steden",
+            "Veel producten in onze winkels zijn in China gemaakt",
+            "Duizenden Chinese studenten aan Europese en Amerikaanse universiteiten",
+            "China neemt het westerse parlementaire systeem over"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De contacten veranderden de economie en het dagelijks leven, niet het politieke systeem."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij de teruggave van Hongkong aan China gold het principe één land, twee systemen. Wat hield dat in?",
+          "opties": [
+            "Hongkong hield vijftig jaar een eigen economie en rechtspraak",
+            "Hongkong zou om de beurt door China en Groot-Brittannië bestuurd worden",
+            "Hongkong kreeg twee hoofdsteden, een Chinese en een Britse",
+            "In Hongkong mochten voortaan precies twee politieke partijen bestaan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat was de belofte bij de overdracht. Critici vinden dat de vrijheden de laatste jaren sterk zijn ingeperkt."
+        },
+        {
+          "type": "open",
+          "vraag": "Vergelijk de manier waarop Mao en Deng China wilden versterken. Geef één gelijkenis en één verschil.",
+          "antwoord": "Gelijkenis: allebei wilden ze van China een sterk land maken onder leiding van de communistische partij, zonder politieke oppositie. Verschil: Mao rekende op massamobilisatie en een planeconomie, zoals bij de Grote Sprong Voorwaarts; Deng opende de economie voor de markt en buitenlandse investeerders."
+        }
+      ]
+    },
+    {
+      "titel": "De Israëlisch-Palestijnse kwestie — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout? De oorsprong van de Israëlisch-Palestijnse kwestie.",
+          "rijen": [
+            "Palestina hoorde voor de Eerste Wereldoorlog bij het Ottomaanse Rijk.",
+            "Na die oorlog kreeg Groot-Brittannië er van de Volkenbond een mandaat over.",
+            "Rond 1900 woonden er in Palestina nauwelijks mensen.",
+            "Joodse immigranten kochten er grond en stichtten er landbouwkolonies."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Het gebied was wel bewoond, vooral door Arabieren. Door de groeiende Joodse immigratie nam de spanning toe."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat beloofde de Britse regering in deze brief van minister Balfour?",
+          "opties": [
+            "Steun voor een nationaal tehuis voor het Joodse volk in Palestina",
+            "Een onafhankelijke Arabische staat in heel het Midden-Oosten",
+            "Het einde van alle Britse invloed in het Midden-Oosten na de oorlog",
+            "Een verdeling van Palestina tussen Frankrijk en Groot-Brittannië"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is de Balfourverklaring. Er staat ook in dat de rechten van de niet-Joodse gemeenschappen niet geschaad mogen worden.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/balfourverklaring.webp"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het [[*zionisme|panarabisme|kolonialisme]] ontstond eind 19de eeuw onder Joden in Europa, mee als reactie op het [[*antisemitisme|liberalisme|imperialisme]]. Theodor [[*Herzl|Balfour|Rothschild]] riep op tot een eigen Joodse staat.",
+          "uitleg": "Herzl schreef in 1896 Der Judenstaat. Pogroms in Oost-Europa en de Dreyfusaffaire in Frankrijk toonden dat Joden nergens veilig waren."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar van de Balfourverklaring.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/tijdlijn-israel-palestina.svg",
+          "zones": [
+            [
+              8.6,
+              25,
+              2.9,
+              55
+            ]
+          ],
+          "uitleg": "In november 1917, midden in de Eerste Wereldoorlog, toen de Britten Palestina op de Ottomanen aan het veroveren waren."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar waarin de staat Israël werd uitgeroepen.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/tijdlijn-israel-palestina.svg",
+          "zones": [
+            [
+              31.2,
+              25,
+              2.9,
+              55
+            ]
+          ],
+          "uitleg": "Op 14 mei 1948, op de dag dat het Britse mandaat afliep."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Waarom groeide de spanning in het Britse mandaatgebied tussen de twee wereldoorlogen en kort erna?",
+          "kolommen": [
+            "Joodse kant",
+            "Arabische kant"
+          ],
+          "items": [
+            [
+              "Vluchten voor jodenvervolging in Europa en een eigen veilig land zoeken",
+              "Joodse kant"
+            ],
+            [
+              "Na de Holocaust overtuigd dat een eigen staat noodzakelijk is",
+              "Joodse kant"
+            ],
+            [
+              "Vrezen dat de Joodse immigratie hen in eigen land tot minderheid maakt",
+              "Arabische kant"
+            ],
+            [
+              "Zich bedrogen voelen door Britse beloftes van onafhankelijkheid",
+              "Arabische kant"
+            ]
+          ],
+          "uitleg": "Beide groepen hadden hun redenen en beide voelden zich door de Britten in de steek gelaten. Daarom gaven die het probleem in 1947 door aan de VN."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bekijk de kaart van het VN-plan van 1947. Welke uitspraken kan je met de kaart staven?",
+          "rijen": [
+            "Het gebied wordt verdeeld in een Joodse en een Arabische staat.",
+            "Jeruzalem krijgt een aparte, internationale status.",
+            "De twee staten vormen elk één aaneengesloten gebied.",
+            "Het plan werd door beide partijen aanvaard."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "De staten bestaan uit losse stukken die elkaar raken. Dat het plan door de Arabische landen verworpen werd, staat niet op de kaart: dat weet je uit je kennis, niet uit deze bron.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/verdelingsplan-1947.webp"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelen Palestijnen met de Nakba, de catastrofe?",
+          "opties": [
+            "De vlucht en verdrijving van Palestijnen bij de stichting van Israël",
+            "De nederlaag van het Ottomaanse Rijk in de Eerste Wereldoorlog",
+            "De bouw van de muur rond de Westelijke Jordaanoever, vanaf het begin van de 21ste eeuw",
+            "Het mislukken van de vredesonderhandelingen van Camp David in 2000"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ongeveer 700 000 mensen raakten hun huis kwijt. Voor Israëli's is diezelfde oorlog de onafhankelijkheidsoorlog: dezelfde gebeurtenis, twee herinneringen."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de oorlogen en opstanden in de juiste volgorde.",
+          "opties": [
+            "De eerste Arabisch-Israëlische oorlog",
+            "De Zesdaagse Oorlog",
+            "De Jom Kipoeroorlog",
+            "De eerste intifada",
+            "De tweede intifada"
+          ],
+          "uitleg": "Na de eerste oorlog volgden nog twee oorlogen tussen Israël en zijn buurlanden. Daarna kwamen de Palestijnen in de bezette gebieden zelf in opstand, twee keer."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout? De Zesdaagse Oorlog van 1967.",
+          "rijen": [
+            "Israël veroverde de Westelijke Jordaanoever en de Gazastrook.",
+            "Ook Oost-Jeruzalem kwam onder Israëlisch gezag.",
+            "Israël verloor de oorlog en moest gebied afstaan.",
+            "Na de oorlog kwamen veel meer Palestijnen onder Israëlisch bestuur te leven."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Israël won in zes dagen en nam ook de Sinaï van Egypte en de Golanhoogte van Syrië in. De bezette gebieden staan sindsdien centraal in het conflict."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar waarin de eerste intifada begon.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/tijdlijn-israel-palestina.svg",
+          "zones": [
+            [
+              59.6,
+              25,
+              2.9,
+              55
+            ]
+          ],
+          "uitleg": "Eind 1987, in de Gazastrook, en daarna ook op de Westelijke Jordaanoever."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een intifada?",
+          "opties": [
+            "Een Palestijnse volksopstand tegen de Israëlische bezetting",
+            "Een vredesakkoord tussen Israël en een Arabisch buurland",
+            "Een Israëlische nederzetting in bezet gebied",
+            "Een VN-resolutie die een wapenstilstand oplegt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het woord betekent afschudden. De eerste intifada begon met stakingen en jongeren die stenen gooiden, de tweede was veel bloediger, met zelfmoordaanslagen en zware militaire acties."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In 1964 werd de [[*PLO|Hamas|Likoed]] opgericht, die lang geleid werd door [[*Yasser Arafat|Anwar Sadat|Menachem Begin]]. Tijdens de eerste intifada ontstond ook de islamistische beweging [[*Hamas|PLO|Fatah-Jeugd]].",
+          "uitleg": "De PLO was de seculiere koepel van Palestijnse groepen. Hamas is islamistisch en weigerde de vredesakkoorden te erkennen."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk akkoord of initiatief hoort bij welke beschrijving?",
+          "paren": [
+            [
+              "Camp David (1978)",
+              "Egypte erkent Israël en krijgt de Sinaï terug"
+            ],
+            [
+              "Oslo (1993)",
+              "Israël en de PLO erkennen elkaar en er komt een Palestijns zelfbestuur"
+            ],
+            [
+              "Vredesverdrag met Jordanië (1994)",
+              "Een tweede Arabisch buurland sluit vrede met Israël"
+            ],
+            [
+              "Arabisch vredesinitiatief (2002)",
+              "Saoedi-Arabië stelt namens de Arabische Liga een vredesplan voor"
+            ]
+          ],
+          "extra": [
+            "Een Palestijnse staat met Jeruzalem als hoofdstad wordt een feit"
+          ],
+          "uitleg": "Een Palestijnse staat met Jeruzalem als hoofdstad is er nooit gekomen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout? Wat zegt deze foto uit 1993?",
+          "rijen": [
+            "De Amerikaanse president staat letterlijk tussen de twee leiders in, als bemiddelaar.",
+            "De handdruk is een symbool voor de erkenning van elkaar als gesprekspartner.",
+            "De foto bewijst dat het conflict daarna voorbij was.",
+            "De foto is bewust zo in scène gezet voor de pers."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een foto toont een moment, geen afloop. Twee jaar later werd Rabin vermoord door een Israëlische extremist die tegen het akkoord was.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/oslo-handdruk-1993.webp"
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort de gebeurtenis bij een gewelddadige of een vreedzame fase?",
+          "kolommen": [
+            "Gewelddadig",
+            "Vreedzaam"
+          ],
+          "items": [
+            [
+              "De Jom Kipoeroorlog",
+              "Gewelddadig"
+            ],
+            [
+              "De oorlog in Libanon in 1982",
+              "Gewelddadig"
+            ],
+            [
+              "De akkoorden van Camp David",
+              "Vreedzaam"
+            ],
+            [
+              "De onderhandelingen van Oslo",
+              "Vreedzaam"
+            ],
+            [
+              "De tweede intifada",
+              "Gewelddadig"
+            ]
+          ],
+          "uitleg": "Het conflict wisselde voortdurend tussen oorlog en onderhandelen. Vaak werden vredespogingen door nieuw geweld onderbroken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom liep het vredesproces van Oslo vast?",
+          "opties": [
+            "Er bleef geweld van extremisten en de moeilijkste punten werden uitgesteld",
+            "De Verenigde Staten trokken zich volledig uit het Midden-Oosten terug",
+            "De PLO werd kort na de akkoorden door de Verenigde Naties ontbonden en verboden",
+            "Egypte en Jordanië verklaarden Israël opnieuw de oorlog"
+          ],
+          "antwoord": 0,
+          "uitleg": "De moeilijkste kwesties werden naar later geschoven. Aanslagen en de moord op Rabin ondermijnden het vertrouwen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout? De situatie van de laatste jaren.",
+          "rijen": [
+            "Op de Westelijke Jordaanoever wonen honderdduizenden Israëlische kolonisten in nederzettingen.",
+            "Sinds 2007 heeft Hamas de macht in de Gazastrook.",
+            "Op 7 oktober 2023 viel Hamas Israël aan, waarbij ongeveer 1200 mensen omkwamen en honderden gijzelaars werden meegenomen.",
+            "De oorlog die volgde in Gaza bleef beperkt tot enkele honderden doden."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De oorlog in Gaza kostte tienduizenden Palestijnse levens en veroorzaakte een zware humanitaire crisis."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelt men met de tweestatenoplossing?",
+          "opties": [
+            "Een Israëlische en een Palestijnse staat naast elkaar",
+            "Eén staat waarin Israëli's en Palestijnen samen stemmen",
+            "Israël en Egypte verdelen de Gazastrook onder elkaar",
+            "Twee Palestijnse staten, één in Gaza en één in Jordanië"
+          ],
+          "antwoord": 0,
+          "uitleg": "Al sinds het VN-plan van 1947 duikt dit idee op, maar het is er nooit van gekomen."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Tijdens de tweede intifada begon Israël in [[2002]] met de bouw van een [[afscheidingsbarrière]] rond de Westelijke Jordaanoever, die voor een groot deel op [[bezet]] gebied staat.",
+          "extra": [
+            "1967",
+            "nederzetting",
+            "Egyptisch"
+          ],
+          "uitleg": "Het Internationaal Gerechtshof oordeelde in 2004 dat de muur, waar hij op bezet gebied staat, in strijd is met het internationaal recht."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Toont deze daad van de Verenigde Staten steun aan Israël of bemiddeling tussen de partijen?",
+          "kolommen": [
+            "Steun",
+            "Bemiddeling"
+          ],
+          "items": [
+            [
+              "Elk jaar miljarden dollars aan militaire hulp",
+              "Steun"
+            ],
+            [
+              "Een veto tegen een resolutie die Israël veroordeelt",
+              "Steun"
+            ],
+            [
+              "De top van Camp David met de leiders van Egypte en Israël",
+              "Bemiddeling"
+            ],
+            [
+              "De ondertekening van de Oslo-akkoorden in het Witte Huis",
+              "Bemiddeling"
+            ]
+          ],
+          "uitleg": "De VS zijn tegelijk de belangrijkste bondgenoot van Israël en de vaste bemiddelaar. Dat maakt hun rol omstreden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De Verenigde Staten steunen Israël, maar bemiddelden ook bij Camp David en Oslo. Hoe rijm je dat?",
+          "opties": [
+            "Rust in de regio dient ook hun eigen belangen",
+            "Ze steunden in het geheim vooral de Palestijnse kant",
+            "Ze werden door de VN verplicht om te bemiddelen",
+            "Ze bemiddelden enkel om Europa uit de regio te houden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Stabiliteit, olie en de strijd om invloed maken vrede ook voor Washington belangrijk. Critici vinden de VS daardoor geen neutrale bemiddelaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In de Veiligheidsraad gebruiken de Verenigde Staten vaak hun veto bij resoluties die Israël veroordelen. Wat is daarvan het gevolg?",
+          "opties": [
+            "De Veiligheidsraad kan dan geen bindende beslissing nemen",
+            "Israël wordt dan automatisch lid van de NAVO",
+            "De Algemene Vergadering wordt dan ontbonden",
+            "De resolutie geldt dan enkel voor de Palestijnse gebieden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eén veto van een vast lid volstaat om een resolutie tegen te houden. Zo blijft de Veiligheidsraad bij dit conflict vaak machteloos."
+        },
+        {
+          "casus": "Een Israëlische krant noemt de afscheidingsbarrière een veiligheidshek dat aanslagen tegenhoudt. Een Palestijnse krant noemt hetzelfde bouwwerk een muur die land inpikt.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke redeneerwijze heb je nodig om deze twee bronnen goed te gebruiken?",
+              "opties": [
+                "Meerdere perspectieven hanteren",
+                "Continuïteit benoemen",
+                "Chronologisch ordenen",
+                "Synchroniciteit benoemen"
+              ],
+              "antwoord": 0,
+              "uitleg": "Elke kant kijkt naar hetzelfde bouwwerk vanuit de eigen ervaring. Pas samen geven ze een vollediger beeld."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Juist of fout?",
+              "rijen": [
+                "Een van beide kranten moet liegen.",
+                "De naam die je aan een gebeurtenis geeft, toont al een standpunt.",
+                "Beide kranten zijn bruikbaar om te onderzoeken hoe elke kant de muur beleeft."
+              ],
+              "antwoord": [
+                false,
+                true,
+                true
+              ],
+              "uitleg": "Ze spreken elkaar niet tegen over de feiten, maar wel over de betekenis. Dat is standplaatsgebondenheid."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Waarom is het conflict zo moeilijk op te lossen? Welke punten zijn echte twistpunten bij elke onderhandeling?",
+          "rijen": [
+            "De grenzen van een Palestijnse staat",
+            "Het statuut van Jeruzalem, heilig voor joden, christenen en moslims",
+            "De terugkeer van de vluchtelingen van 1948 en hun nakomelingen",
+            "De officiële taal van de Verenigde Naties"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Grenzen, Jeruzalem, vluchtelingen, nederzettingen en veiligheid zijn telkens de struikelblokken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een krant schrijft: het conflict gaat al tweeduizend jaar terug. Waarom is dat historisch misleidend?",
+          "opties": [
+            "Het is vooral een moderne strijd om land",
+            "Tweeduizend jaar geleden woonden er nog geen mensen in die streek",
+            "Het conflict begon pas echt met de aanval van Hamas in 2023",
+            "Joden en moslims hebben in het verleden nooit vreedzaam samengeleefd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Religie speelt mee, maar het is in de eerste plaats een strijd tussen twee nationale bewegingen van de 19de en 20ste eeuw om hetzelfde land."
+        },
+        {
+          "type": "open",
+          "vraag": "Geef een historische verklaring voor de houding van de Verenigde Staten tegenover het conflict tussen Israël en Palestina. Gebruik minstens twee argumenten.",
+          "antwoord": "Bijvoorbeeld: tijdens de Koude Oorlog was Israël een belangrijke bondgenoot tegen Arabische staten die door de Sovjet-Unie gesteund werden. In de Verenigde Staten zelf hebben de Joodse gemeenschap en een pro-Israëlische lobby veel invloed, en veel Amerikanen zien Israël als een democratie met gedeelde waarden. Daarom krijgt Israël militaire steun en gebruiken de VS hun veto in de Veiligheidsraad. Tegelijk willen de VS rust in de regio en bemiddelden ze bij Camp David en Oslo."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Na de oorlog van 1967 vroeg VN-resolutie 242 land voor vrede. Wat betekent dat?",
+          "opties": [
+            "Israël geeft bezet gebied terug, de buurlanden erkennen Israël",
+            "Israël koopt het bezette gebied van de buurlanden af tegen een vaste prijs",
+            "De VN nemen de bezette gebieden voor altijd zelf in bestuur",
+            "Elk land behoudt wat het in de oorlog veroverd heeft, zonder verdere eisen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Grond in ruil voor erkenning en veilige grenzen. Dat principe zit in bijna elk later vredesplan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk gevolg had de Jom Kipoeroorlog van 1973 voor Europa?",
+          "opties": [
+            "Arabische olielanden beperkten de olie-uitvoer: er kwam een oliecrisis",
+            "Europese landen stuurden samen een groot leger naar het Midden-Oosten",
+            "Europa erkende Israël pas na deze oorlog als een volwaardige staat",
+            "De Europese Gemeenschap viel uiteen door ruzie over de oorlog"
+          ],
+          "antwoord": 0,
+          "uitleg": "De olie werd een politiek wapen tegen landen die Israël steunden. In België kwamen er onder meer autoloze zondagen."
+        }
+      ]
     }
   ]
 }
