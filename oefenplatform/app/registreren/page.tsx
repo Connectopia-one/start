@@ -93,7 +93,7 @@ export default async function RegistrerenPage({
             minLength={8}
             hulp="Minstens 8 tekens."
           />
-          <div className="space-y-1.5">
+          <div className="space-y-1.5 rounded-lg border border-forest/30 bg-forest/10 p-3">
             <label
               htmlFor="plusklas_code"
               className="text-sm font-medium text-ink"
