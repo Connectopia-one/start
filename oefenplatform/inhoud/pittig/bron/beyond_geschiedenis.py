@@ -29,6 +29,7 @@ THEMAS = [
     ("tweede_wereldoorlog", "De Tweede Wereldoorlog en de Holocaust"),
     ("wereldorde", "Een nieuwe wereldorde: VN, Koude Oorlog en Europa"),
     ("dekolonisatie", "Dekolonisatie en de wereld van vandaag"),
+    ("belgie_na_1945", "België na 1945"),
 ]
 
 HOOFDSTUKKEN = [

@@ -47,8 +47,39 @@ def tijdlijn():
     (UIT / "tijdlijn-1750-2030.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
 
 
+# ---------------------------------------------------------------- volksraadpleging 1950
+# Cijfers afgerond zoals in de leerbundel: bijna 58 %, ruim 70 %, amper 4 op 10.
+STAVEN = [("België", 58), ("Vlaanderen", 72), ("Wallonië", 42)]
+GB, GH, NUL, SCHAAL, SX, SW = 800, 470, 400, 3.2, [130, 350, 570], 140
+
+
+def zone_staaf(i):
+    """Klikvak over de hele kolom van staaf i, in procent."""
+    return [round(SX[i] / GB * 100, 1), 12, round(SW / GB * 100, 1), 84]
+
+
+def volksraadpleging():
+    d = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {GB} {GH}" width="{GB}" height="{GH}" font-family="Arial, sans-serif">',
+         f'<rect width="{GB}" height="{GH}" fill="{ACHTER}"/>',
+         f'<text x="{GB/2}" y="34" font-size="24" text-anchor="middle" fill="{DONKER}" font-weight="bold">Volksraadpleging 1950: percentage ja-stemmen</text>']
+    for pct in (0, 25, 50, 75, 100):
+        y = NUL - pct * SCHAAL
+        stijl = 'stroke-dasharray="8 6" stroke-width="2"' if pct == 50 else 'stroke-width="1"'
+        d.append(f'<line x1="90" y1="{y}" x2="{GB-40}" y2="{y}" stroke="#b9b29c" {stijl}/>')
+        d.append(f'<text x="80" y="{y+7}" font-size="18" text-anchor="end" fill="{DONKER}">{pct} %</text>')
+    for (naam, pct), x in zip(STAVEN, SX):
+        y = NUL - pct * SCHAAL
+        d.append(f'<rect x="{x}" y="{y}" width="{SW}" height="{pct*SCHAAL}" rx="6" fill="{GROEN}"/>')
+        d.append(f'<text x="{x+SW/2}" y="{y-10}" font-size="22" text-anchor="middle" fill="{DONKER}">± {pct} %</text>')
+        d.append(f'<text x="{x+SW/2}" y="{NUL+34}" font-size="22" text-anchor="middle" fill="{DONKER}">{naam}</text>')
+    d.append("</svg>")
+    (UIT / "volksraadpleging-1950.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
+
+
 if __name__ == "__main__":
     UIT.mkdir(parents=True, exist_ok=True)
     tijdlijn()
+    volksraadpleging()
+    print("staven", [zone_staaf(i) for i in range(3)])
     for j in (1789, 1815, 1830, 1871, 1914, 1945, 1989):
         print(j, zone_jaar(j))

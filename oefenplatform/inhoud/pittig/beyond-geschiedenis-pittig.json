@@ -3963,6 +3963,440 @@
           "antwoord": "Bijvoorbeeld: de grenzen van Afrikaanse staten zijn door kolonisatoren getrokken en zorgen nog voor conflicten; talen als Frans en Engels worden er nog gesproken; migratie naar de vroegere moederlanden, zoals de Congolese gemeenschap in België; de handel in grondstoffen zoals kobalt en coltan voor onze telefoons."
         }
       ]
+    },
+    {
+      "titel": "België na 1945 — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat legde het sociaal pact van 1944 vast, naast de grondslagen van een verplichte sociale zekerheid?",
+          "opties": [
+            "Het overleg tussen werkgevers en vakbonden",
+            "Het algemeen stemrecht voor vrouwen",
+            "De splitsing van de nationale partijen",
+            "De financiering van het vrije onderwijs"
+          ],
+          "antwoord": 0,
+          "uitleg": "Werkgevers en vakbonden spraken samen de sociale zekerheid af, en ook dat ze blijvend met elkaar zouden overleggen. Dat model bestaat nog."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort het bij de takken van de sociale zekerheid?",
+          "rijen": [
+            "De terugbetaling van geneeskundige zorg",
+            "Een uitkering voor wie zijn werk verliest",
+            "Het wettelijk pensioen",
+            "Een gratis woning voor elk gezin"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Ziekteverzekering, werkloosheid, pensioen en kinderbijslag horen erbij. Een gratis woning niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe wordt de sociale zekerheid vooral betaald?",
+          "opties": [
+            "Met bijdragen op het loon, aangevuld uit de belastingen",
+            "Volledig met geld dat de Europese Unie elk jaar aan België overmaakt",
+            "Met de winst van staatsbedrijven, zonder bijdragen van werkenden",
+            "Met vrijwillige giften van burgers en verenigingen aan de ziekenfondsen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie werkt en wie werk geeft, draagt bij. De algemene belastingen vullen aan."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Past het bij de klassieke verzorgingsstaat of bij het nieuwe idee van de actieve welvaartsstaat?",
+          "kolommen": [
+            "Verzorgingsstaat",
+            "Actieve welvaartsstaat"
+          ],
+          "items": [
+            [
+              "Bestaanszekerheid bij ziekte, werkloosheid en ouderdom",
+              "Verzorgingsstaat"
+            ],
+            [
+              "Een opleiding om opnieuw aan het werk te raken",
+              "Actieve welvaartsstaat"
+            ],
+            [
+              "Begeleiding naar een nieuwe job",
+              "Actieve welvaartsstaat"
+            ],
+            [
+              "Kinderopvang zodat ouders kunnen werken",
+              "Actieve welvaartsstaat"
+            ]
+          ],
+          "uitleg": "De actieve welvaartsstaat verschuift de nadruk van uitkeren naar mensen opnieuw aan het werk helpen."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke breuklijn hoort bij elke tegenstelling?",
+          "paren": [
+            [
+              "Gelovig tegenover vrijzinnig",
+              "Levensbeschouwelijke breuklijn"
+            ],
+            [
+              "Arbeid tegenover kapitaal",
+              "Sociaaleconomische breuklijn"
+            ],
+            [
+              "Vlamingen tegenover Franstaligen",
+              "Communautaire breuklijn"
+            ]
+          ],
+          "extra": [
+            "Koude Oorlog"
+          ],
+          "uitleg": "Drie breuklijnen lopen door de Belgische samenleving."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Op welke breuklijn situeer je elk debat?",
+          "rijen": [
+            "Hoeveel moeten de hoogste inkomens bijdragen?",
+            "Moet Vlaanderen meer bevoegdheden krijgen?",
+            "Moeten de uitkeringen omhoog en de werkweek korter?"
+          ],
+          "antwoord": [
+            "Sociaaleconomisch",
+            "Communautair",
+            "Sociaaleconomisch"
+          ],
+          "uitleg": "Inkomens en uitkeringen gaan over arbeid en kapitaal. Bevoegdheden gaan over de gemeenschappen.",
+          "kolommen": [
+            "Levensbeschouwelijk",
+            "Sociaaleconomisch",
+            "Communautair"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het schoolpact regelde de financiering van zowel het [[*vrije|private|buitenlandse]] als het officiële onderwijs, en garandeerde de vrije [[*schoolkeuze|lesinhoud|studiekeuze]].",
+          "uitleg": "Twee netten met overheidsgeld, en ouders kiezen zelf de school."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een krant uit 1946 schrijft over de kwestie die het land verdeelt. Waarover ging die koningskwestie?",
+          "opties": [
+            "Of Leopold III na de oorlog terug koning mocht worden",
+            "Of België na de oorlog een republiek zou worden",
+            "Wie na de dood van Leopold III de troon zou erven",
+            "Of de koning na de oorlog nog alleen mocht beslissen over de kolonie Congo"
+          ],
+          "antwoord": 0,
+          "uitleg": "Leopold III was tijdens de oorlog in het bezette land gebleven. Na de oorlog was de vraag of hij mocht terugkeren."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bekijk de uitslag van de volksraadpleging van 1950. Welke uitspraken kan je staven?",
+          "rijen": [
+            "In het hele land stemde een meerderheid ja.",
+            "In Wallonië stemde een meerderheid ja.",
+            "Het verschil tussen Vlaanderen en Wallonië was groot.",
+            "Elk landsdeel stemde ongeveer hetzelfde."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Bijna 58 % ja in het hele land, maar ruim 70 % in Vlaanderen tegenover amper 4 op 10 in Wallonië.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/volksraadpleging-1950.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik in de grafiek op het landsdeel waar de meerderheid neen stemde.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/volksraadpleging-1950.svg",
+          "zones": [
+            [
+              71.2,
+              12,
+              17.5,
+              84
+            ]
+          ],
+          "uitleg": "Wallonië, met amper 4 op 10 ja-stemmen: onder de stippellijn van 50 %."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe eindigde de koningskwestie uiteindelijk?",
+          "opties": [
+            "Na stakingen en doden deed de koning troonsafstand voor zijn zoon",
+            "De koning keerde terug en bleef daarna nog twintig jaar zonder enig protest regeren",
+            "Het parlement schafte de monarchie af, en België werd voortaan een republiek met een president",
+            "Een tweede volksraadpleging gaf Wallonië een eigen koning"
+          ],
+          "antwoord": 0,
+          "uitleg": "In Grâce-Berleur vielen drie doden. Leopold III deed troonsafstand en Boudewijn werd koning."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke gevolgen had Leuven Vlaams in 1968?",
+          "rijen": [
+            "De regering van dat ogenblik viel over de kwestie.",
+            "De grote nationale partijen splitsten in een Vlaamse en een Franstalige.",
+            "De communautaire breuklijn werd de belangrijkste van de drie.",
+            "De universiteit bleef tweetalig op dezelfde plek."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Een universiteitskwestie werd een politieke aardbeving. De Franstalige afdeling moest weg uit Vlaams gebied."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de nieuwe stad die de Franstalige universiteit na Leuven Vlaams bouwde?",
+          "antwoord": "Louvain-la-Neuve",
+          "uitleg": "Louvain-la-Neuve, in Waals-Brabant."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een historicus beschrijft het naoorlogse België als een verzuild land. Wat bedoelt hij?",
+          "opties": [
+            "Groepen hebben elk hun eigen scholen, ziekenfondsen en verenigingen",
+            "Het land wordt verdeeld in gewesten met elk een eigen parlement en een eigen regering",
+            "De kerk en de staat worden volledig en voorgoed van elkaar gescheiden in de grondwet",
+            "Elke partij moet een eigen krant hebben om te mogen opkomen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van de wieg tot het graf kon je binnen je eigen groep blijven."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "België kende drie zuilen: de katholieke, de [[socialistische]] en de [[liberale]] zuil, elk met een volledig netwerk van eigen organisaties.",
+          "extra": [
+            "communistische",
+            "Vlaamse"
+          ],
+          "uitleg": "Drie zuilen, elk met een volledig netwerk van organisaties."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Was het een oorzaak van de ontzuiling vanaf de jaren zestig?",
+          "rijen": [
+            "De kerk verloor greep op het leven van de mensen.",
+            "Mensen gingen vrijer en individueler kiezen.",
+            "Onderwijs en televisie keken buiten de eigen groep.",
+            "Een wet verbood in 1960 alle zuilorganisaties."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Secularisering, individualisering, en onderwijs en televisie. Er kwam geen verbod."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling zegt: \"Er was nooit ontzuiling, want ziekenfondsen en vakbonden tellen nog miljoenen leden.\" Wat is de beste reactie?",
+          "opties": [
+            "De organisaties bestaan nog, maar je blijft niet meer vanzelfsprekend in één zuil",
+            "De leerling heeft gelijk: de verzuiling is sinds de jaren zestig alleen maar sterker geworden",
+            "De ziekenfondsen en vakbonden zijn in de jaren zestig allemaal opgeheven",
+            "Ontzuiling betekent dat de organisaties ophouden te bestaan, dus de leerling heeft gelijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "De verzuiling werd zwakker. Wat verdween, is de vanzelfsprekendheid, niet de organisaties."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een land heeft een parlement voor het hele land, maar ook deelstaten met hun eigen parlement en eigen bevoegdheden, waar het centrale gezag niet zomaar over beslist. Hoe noem je zo'n staat?",
+          "opties": [
+            "Een federale staat",
+            "Een unitaire staat",
+            "Een verzuilde staat",
+            "Een verzorgingsstaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een federale staat zijn de bevoegdheden verdeeld over verschillende zelfstandige niveaus."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze gebeurtenissen uit de Belgische naoorlogse geschiedenis in de juiste volgorde.",
+          "opties": [
+            "De volksraadpleging over de koningskwestie",
+            "Het schoolpact",
+            "Leuven Vlaams",
+            "De eerste staatshervorming",
+            "De zesde staatshervorming"
+          ],
+          "uitleg": "Eerst de koningskwestie, dan de schoolstrijd die met een pact eindigde, dan Leuven, en daarna de staatshervormingen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke veranderingen horen bij de zesde staatshervorming, van 2011 tot 2014?",
+          "rijen": [
+            "De overheveling van de kinderbijslag",
+            "De overheveling van delen van het arbeidsmarktbeleid",
+            "De splitsing van Brussel-Halle-Vilvoorde",
+            "De afschaffing van de provincies"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Kinderbijslag, delen van het arbeidsmarktbeleid en de splitsing van BHV. De provincies bleven bestaan."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is het een bevoegdheid van een gemeenschap, van een gewest, of is ze federaal gebleven?",
+          "kolommen": [
+            "Gemeenschap",
+            "Gewest",
+            "Federaal"
+          ],
+          "items": [
+            [
+              "Onderwijs",
+              "Gemeenschap"
+            ],
+            [
+              "Cultuur",
+              "Gemeenschap"
+            ],
+            [
+              "Ruimtelijke ordening en vergunningen",
+              "Gewest"
+            ],
+            [
+              "Leefmilieu, water en afval",
+              "Gewest"
+            ],
+            [
+              "Het leger",
+              "Federaal"
+            ],
+            [
+              "Justitie",
+              "Federaal"
+            ]
+          ],
+          "uitleg": "Gemeenschappen gaan over personen, gewesten over het grondgebied. Leger en justitie bleven federaal."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "België telt [[*drie|twee|vier]] gewesten. In Vlaanderen werden het gewest en de gemeenschap [[*samengevoegd|gesplitst|afgeschaft]] tot één parlement en één regering. De Franstaligen deden dat [[*niet|ook|eerder]].",
+          "uitleg": "Drie gewesten en drie gemeenschappen. Vlaanderen voegde samen, de Franstaligen niet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet een wet die het Vlaams Parlement goedkeurt? (één woord)",
+          "antwoord": "decreet",
+          "uitleg": "Een decreet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het Vlaams Parlement keurt een regeling goed over onderwijs. De federale regering is het er niet mee eens. Wat kan ze doen?",
+          "opties": [
+            "Niets zomaar: de regeling heeft dezelfde kracht als een federale wet",
+            "Ze kan de regeling met een eenvoudige beslissing van de ministers vernietigen",
+            "Ze vraagt de koning om de regeling te weigeren, en dan vervalt ze",
+            "Ze kan de regeling vervangen door een federale wet, want een federale wet gaat altijd voor"
+          ],
+          "antwoord": 0,
+          "uitleg": "Deelstaten en federale overheid staan naast elkaar, niet boven elkaar."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de bestuursniveaus die over het leven van een inwoner van Vlaanderen beslissen in volgorde, van het kleinste naar het grootste gebied.",
+          "opties": [
+            "De gemeente",
+            "De provincie",
+            "Het Vlaams Gewest en de Vlaamse Gemeenschap",
+            "De federale overheid",
+            "De Europese Unie"
+          ],
+          "uitleg": "Van dichtbij naar ver weg: zes niveaus beslissen mee."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort het bij de principes van een democratische rechtsstaat?",
+          "rijen": [
+            "De scheiding van de wetgevende, de uitvoerende en de rechterlijke macht",
+            "Vrije en geheime verkiezingen waaraan iedereen mag deelnemen",
+            "Grondrechten die ook de overheid zelf moet naleven",
+            "Een regering die de rechters benoemt en ontslaat wanneer ze wil"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Machtenscheiding, vrije verkiezingen en grondrechten voor iedereen, ook tegenover de overheid."
+        },
+        {
+          "casus": "Een partijprogramma bevat drie standpunten. Eén: Vlaanderen moet zijn arbeidsmarkt volledig zelf regelen. Twee: de hoogste inkomens moeten meer bijdragen. Drie: elke school moet lessen levensbeschouwing blijven aanbieden.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Op welke breuklijn ligt elk standpunt?",
+              "rijen": [
+                "Standpunt een",
+                "Standpunt twee",
+                "Standpunt drie"
+              ],
+              "antwoord": [
+                "Communautair",
+                "Sociaaleconomisch",
+                "Levensbeschouwelijk"
+              ],
+              "uitleg": "Bevoegdheden, inkomens en levensbeschouwing: drie breuklijnen in één programma.",
+              "kolommen": [
+                "Levensbeschouwelijk",
+                "Sociaaleconomisch",
+                "Communautair"
+              ]
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke les trek je hieruit voor het lezen van een partijprogramma?",
+              "opties": [
+                "Je plaatst elk standpunt apart, niet de partij als geheel",
+                "Een partij hoort altijd bij precies één breuklijn",
+                "Een programma met standpunten op drie breuklijnen is tegenstrijdig en dus onbruikbaar",
+                "Enkel het eerste standpunt telt mee om de partij te plaatsen"
+              ],
+              "antwoord": 0,
+              "uitleg": "Een programma kan op meer dan één breuklijn tegelijk standpunten bevatten."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Een kiezer in Gent vindt een Franstalige partij met dit programma sympathiek. Kan hij op die partij stemmen?",
+              "opties": [
+                "Nee, dat kan enkel in de kieskring Brussel",
+                "Ja, elke Belg kan overal op elke partij stemmen",
+                "Ja, maar alleen bij de Europese verkiezingen, en dan enkel als hij in Wallonië stemt",
+                "Nee, want Franstalige partijen nemen enkel aan gemeenteraadsverkiezingen deel"
+              ],
+              "antwoord": 0,
+              "uitleg": "Na de splitsing van de nationale partijen kies je in Vlaanderen tussen Vlaamse partijen. Brussel is de uitzondering."
+            }
+          ]
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom België sinds 1970 telkens opnieuw een staatshervorming doorvoerde.",
+          "antwoord": "De staatshervormingen zijn vooral antwoorden op de communautaire breuklijn tussen Vlamingen en Franstaligen. Telkens de spanning te hoog opliep, kwam er een nieuwe ronde, en zo groeide België van een unitaire naar een federale staat."
+        }
+      ]
     }
   ]
 }
