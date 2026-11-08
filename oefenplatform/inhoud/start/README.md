@@ -64,7 +64,7 @@ hoofdstuk, net als bij geschiedenis.
 ## Waarop dit gebaseerd is
 
 De indeling volgt de vakken en de domeinen van de **minimumdoelen van de Vlaamse
-overheid** voor het basisonderwijs, die gelden sinds 1 september 2025. Die doelen
+overheid** voor het basisonderwijs, die vanaf het schooljaar 2026-2027 stap voor stap ingevoerd worden. Die doelen
 zijn vastgelegd voor drie momenten: het einde van het kleuteronderwijs, het einde
 van het vierde leerjaar en het einde van het zesde leerjaar. Hier is gemikt op het
 **einde van het zesde leerjaar**.

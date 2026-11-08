@@ -58,7 +58,7 @@ BUNDEL = dict(
         dict(kop="Waarover dit blad gaat", blokken=[
             ("p", "Onze oefeningen voor 🌱 Start zijn gemaakt aan de hand van de "
                   "<strong>minimumdoelen van het lager onderwijs</strong> van de Vlaamse overheid, "
-                  "die gelden sinds <strong>1 september 2025</strong>. Het richtpunt is wat een kind "
+                  "die vanaf het schooljaar <strong>2026-2027</strong> stap voor stap ingevoerd worden. Het richtpunt is wat een kind "
                   "aan het einde van het <strong>zesde leerjaar</strong> moet kennen en kunnen."),
             ("p", "Op dit blad staat per vak welke domeinen de minimumdoelen onderscheiden, en welk "
                   "hoofdstuk bij ons daarbij hoort. Zo kan je nagaan of er niets ontbreekt, en waar "

@@ -60,7 +60,7 @@ export const doelenBlokken: DoelenBlok[] = [
     niveau: "Start — 5de en 6de leerjaar",
     emoji: "🌱",
     herkomst:
-      "De minimumdoelen van het lager onderwijs van de Vlaamse overheid, die gelden sinds 1 september 2025. Het richtpunt is wat een kind aan het einde van het zesde leerjaar moet kennen.",
+      "De minimumdoelen van het lager onderwijs van de Vlaamse overheid, die vanaf het schooljaar 2026-2027 stap voor stap ingevoerd worden. Het richtpunt is wat een kind aan het einde van het zesde leerjaar moet kennen.",
     vakken: [
       {
         naam: "Wiskunde",
