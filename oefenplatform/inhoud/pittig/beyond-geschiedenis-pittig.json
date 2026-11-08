@@ -2274,6 +2274,442 @@
           "uitleg": "In naam van de arbeiders nam de partij van Lenin alle macht. Tegenstanders en andere partijen kregen geen ruimte."
         }
       ]
+    },
+    {
+      "titel": "Interbellum: totalitarisme en crisis — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "tabel",
+          "vraag": "Welke oorzaken van de beurscrash van 1929 kloppen?",
+          "rijen": [
+            "Aandelen werden gekocht met geleend geld.",
+            "Er was overproductie in industrie en landbouw.",
+            "De welvaart was zeer ongelijk verdeeld.",
+            "De Verenigde Staten hadden net een oorlog verloren."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Lenen om aandelen te kopen, overproductie en ongelijkheid maakten de economie kwetsbaar. Een verloren oorlog speelde geen rol."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe hangt de crisis van de jaren dertig samen met de opkomst van extreme partijen in Europa?",
+          "opties": [
+            "Werkloosheid en armoede maakten mensen vatbaar voor wie orde beloofde",
+            "De crisis bleef beperkt tot de VS, dus er was in Europa geen verband",
+            "Extreme partijen veroorzaakten de beurscrash van Wall Street zelf",
+            "Door de crisis kregen democratische partijen net veel meer kiezers"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie zijn werk verliest en geen uitweg ziet, luistert sneller naar wie orde en werk belooft. Zo leg je het verband oorzaak en gevolg."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Leg je uit hoe de crisis leidde tot steun voor extreme partijen, dan gebruik je de redeneerwijze [[*oorzaak en gevolg benoemen|stereotypering analyseren|actualiseren]].",
+          "uitleg": "Je toont een verband tussen een toestand (crisis) en wat eruit volgde (radicalisering)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoorde de maatregel bij de New Deal van Roosevelt?",
+          "rijen": [
+            "Grote openbare werken om mensen aan het werk te zetten",
+            "Toezicht op de banken en de beurs",
+            "De eerste federale sociale zekerheid",
+            "Alle fabrieken onder het bezit van de staat brengen"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De New Deal brak met het idee dat de overheid zich niet met de economie moest bemoeien, maar de fabrieken bleven privé."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom trof de crisis van de jaren dertig de Sovjet-Unie veel minder hard dan het Westen?",
+          "opties": [
+            "Haar economie werd buiten de wereldmarkt om gepland",
+            "Ze had in die jaren de grootste beurs ter wereld",
+            "Ze leende in die jaren veel geld aan Amerikaanse banken",
+            "Ze voerde net zoals de VS een New Deal in, maar sneller"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een planeconomie hing niet aan de wereldmarkt. Dat gaf het stelsel toen een aantrekkingskracht die achteraf moeilijk voor te stellen is."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Bij welk beleid van Stalin hoort elke maatregel?",
+          "kolommen": [
+            "Economisch",
+            "Politiek",
+            "Cultureel"
+          ],
+          "items": [
+            [
+              "De vijfjarenplannen voor de zware industrie",
+              "Economisch"
+            ],
+            [
+              "De collectivisatie van de landbouw",
+              "Economisch"
+            ],
+            [
+              "Goelags en de Grote Zuivering",
+              "Politiek"
+            ],
+            [
+              "Een personencultus rond de leider",
+              "Cultureel"
+            ],
+            [
+              "Kunst in de stijl van het socialistisch realisme",
+              "Cultureel"
+            ]
+          ],
+          "uitleg": "Plannen en landbouw zijn economisch, terreur en zuiveringen politiek, en personencultus en kunst horen bij het culturele beleid."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke gevolgen had de collectivisatie in de Sovjet-Unie?",
+          "rijen": [
+            "Verzet van boeren dat met geweld gebroken werd",
+            "Deportatie van wie als koelak werd aangeduid",
+            "Een zware hongersnood, onder meer in Oekraïne",
+            "Meer vrije markten waar boeren hun graan konden verkopen"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Kleine boerderijen werden met dwang samengevoegd. Dat kostte miljoenen mensen het leven."
+        },
+        {
+          "casus": "Bekijk de Sovjet-affiche uit de jaren dertig. Stalin staat groot in beeld, met achter hem fabrieken en lachende arbeiders.",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "De affiche toont Stalin als bijna bovenmenselijke leider. Dat noemt men een [[*personencultus|collectivisatie|appeasement]]. De bedoeling is het bewind te [[*verheerlijken|bekritiseren|neutraal beschrijven]].",
+              "uitleg": "De leider wordt voorgesteld als onfeilbaar. Propaganda moet steun en bewondering opwekken.",
+              "afbeelding_url": "/examenvormen/geschiedenis-beyond/stalin-affiche.webp"
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "In welke maatschappelijke domeinen kan je deze affiche situeren? (meerdere antwoorden)",
+              "opties": [
+                "Politiek",
+                "Cultureel",
+                "Economisch",
+                "In geen enkel domein"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Ze verheerlijkt het bewind (politiek), gebruikt beeldtaal en een wereldbeeld (cultureel) en prijst de industrie aan (economisch)."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Mag je dit besluiten op basis van de affiche alleen?",
+              "rijen": [
+                "Het regime wilde de opbouw van de industrie als een succes tonen.",
+                "Alle arbeiders in de Sovjet-Unie waren gelukkig.",
+                "Stalin gebruikte propaganda om zijn beleid te steunen."
+              ],
+              "antwoord": [
+                "Mag",
+                "Mag niet",
+                "Mag"
+              ],
+              "uitleg": "Propaganda is een slechte bron over hoe het echt was, maar een uitstekende bron over wat het regime wilde laten geloven.",
+              "kolommen": [
+                "Mag",
+                "Mag niet"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Waaraan herken je een totalitaire staat?",
+          "rijen": [
+            "Eén partij en één leider",
+            "Controle over pers, onderwijs en kunst",
+            "Een geheime politie die tegenstanders uitschakelt",
+            "Vrije verkiezingen tussen meerdere partijen"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Een totalitaire staat wil alles beheersen. Vrije verkiezingen passen daar niet in."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling zegt: \"Een regime gebruikt ofwel propaganda, ofwel terreur.\" Wat is de beste verbetering?",
+          "opties": [
+            "Totalitaire regimes gebruiken ze naast elkaar: de ene hand lokt, de andere dreigt",
+            "Klopt: propaganda hoort enkel bij democratieën en terreur enkel bij dictaturen",
+            "Klopt: Stalin gebruikte alleen terreur en Hitler gebruikte alleen propaganda",
+            "Propaganda en terreur bestonden in de jaren dertig nog niet als begrip"
+          ],
+          "antwoord": 0,
+          "uitleg": "Stalin, Mussolini en Hitler gebruikten allebei: propaganda om te overtuigen, terreur om tegenstand te breken."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze gebeurtenissen uit het interbellum in de juiste volgorde.",
+          "opties": [
+            "De Mars op Rome",
+            "De dood van Lenin",
+            "De start van de eerste vijfjarenplannen",
+            "De beurscrash van Wall Street",
+            "Hitler wordt rijkskanselier"
+          ],
+          "uitleg": "1922, 1924, 1928, oktober 1929 en januari 1933."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat deed Mussolini om van Italië een totalitaire staat te maken?",
+          "rijen": [
+            "Hij verbood de andere partijen.",
+            "Hij bracht de pers onder controle.",
+            "Hij richtte een politieke politie op.",
+            "Hij liet de koning alle macht uitoefenen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Na de Mars op Rome benoemde de koning hem tot regeringsleider, maar daarna nam de Duce zelf alle macht."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke leider hoort bij elke omschrijving?",
+          "paren": [
+            [
+              "Noemde zich de Duce en kwam na de Mars op Rome aan de macht",
+              "Mussolini"
+            ],
+            [
+              "Startte de vijfjarenplannen en de collectivisatie",
+              "Stalin"
+            ],
+            [
+              "Werd in januari 1933 rijkskanselier",
+              "Hitler"
+            ],
+            [
+              "Lanceerde vanaf 1933 de New Deal",
+              "Roosevelt"
+            ]
+          ],
+          "extra": [
+            "Lenin"
+          ],
+          "uitleg": "Vier leiders van het interbellum. Lenin stierf al in 1924."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen waarmee Hitler in 1933 en 1934 alle macht greep in de juiste volgorde.",
+          "opties": [
+            "Hitler wordt rijkskanselier",
+            "De Rijksdag brandt af en de grondrechten worden opgeschort",
+            "De Machtigingswet laat hem zonder parlement regeren",
+            "Na de dood van Hindenburg voegt hij het presidentschap bij zijn ambt"
+          ],
+          "uitleg": "Januari 1933, februari 1933, de Machtigingswet in 1933, en in 1934 na de dood van Hindenburg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe daalde de werkloosheid in nazi-Duitsland?",
+          "opties": [
+            "Met openbare werken en vooral met herbewapening",
+            "Door alle fabrieken aan de arbeiders te geven",
+            "Door de beurs van Berlijn volledig te sluiten",
+            "Door alle vrouwen verplicht te laten werken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Herbewapening gaf veel mensen werk, maar was ook een voorbereiding op oorlog."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Met welk middel hield het naziregime de bevolking in de pas?",
+          "kolommen": [
+            "Propaganda",
+            "Jeugdbeweging",
+            "Terreur"
+          ],
+          "items": [
+            [
+              "Films, radio en kranten die het regime verheerlijken",
+              "Propaganda"
+            ],
+            [
+              "Kinderen moeten verplicht bij de Hitlerjugend",
+              "Jeugdbeweging"
+            ],
+            [
+              "Een geheime politie en concentratiekampen",
+              "Terreur"
+            ]
+          ],
+          "uitleg": "Overtuigen via pers, film en radio, opvoeden via de jeugdbeweging en dreigen met geheime politie en kampen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout? Lees elke uitspraak over de vervolging van de Joden in de jaren dertig.",
+          "rijen": [
+            "Door de Neurenbergse wetten van 1935 verloren Joden hun burgerrechten.",
+            "Joden mochten na 1935 niet meer huwen met niet-Joden.",
+            "In de nacht van 9 op 10 november 1938 werden synagogen in brand gestoken.",
+            "Joden kregen in 1935 extra rechten om hen in Duitsland te houden."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Stap voor stap werden Joden uitgesloten: eerst met wetten, dan met geweld zoals in november 1938."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarin verschilde het nationaalsocialisme vooral van het Italiaanse fascisme?",
+          "opties": [
+            "De rassenleer en het antisemitisme stonden centraal",
+            "Het nationaalsocialisme had geen leider en geen partij",
+            "Het Italiaanse fascisme liet vrije verkiezingen toe",
+            "Het nationaalsocialisme gebruikte geen propaganda"
+          ],
+          "antwoord": 0,
+          "uitleg": "Beide hadden één partij, één leider en geen tegenspraak. Het verschil zat in de rassenleer, die bij de nazi's centraal stond."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Gelijkenis of verschil tussen het stalinisme, het fascisme en het nationaalsocialisme?",
+          "kolommen": [
+            "Gelijkenis",
+            "Verschil"
+          ],
+          "items": [
+            [
+              "Eén partij en één leider",
+              "Gelijkenis"
+            ],
+            [
+              "Geen ruimte voor tegenspraak",
+              "Gelijkenis"
+            ],
+            [
+              "Een planeconomie met collectieve landbouw",
+              "Verschil"
+            ],
+            [
+              "Een rassenleer die centraal staat",
+              "Verschil"
+            ]
+          ],
+          "uitleg": "Alle drie zijn totalitair. De planeconomie hoort bij de Sovjet-Unie, de rassenleer bij nazi-Duitsland."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen waarmee Hitler de afspraken van Versailles aantastte in de juiste volgorde.",
+          "opties": [
+            "Opnieuw dienstplicht en herbewapening",
+            "Troepen trekken het Rijnland binnen",
+            "Oostenrijk wordt ingelijfd",
+            "De Conferentie van München over het Sudetenland",
+            "Het niet-aanvalspact met de Sovjet-Unie"
+          ],
+          "uitleg": "Van 1935 tot augustus 1939: eerst het leger, dan het Rijnland, Oostenrijk, het Sudetenland en tot slot het pact met Stalin."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat werd op de Conferentie van München in september 1938 beslist?",
+          "opties": [
+            "Duitsland mocht het Sudetenland van Tsjecho-Slowakije inlijven",
+            "Duitsland moest het Rijnland opnieuw aan Frankrijk afstaan",
+            "Duitsland en de Sovjet-Unie verdeelden samen Polen",
+            "Italië en Duitsland verklaarden de oorlog aan Groot-Brittannië"
+          ],
+          "antwoord": 0,
+          "uitleg": "Frankrijk en Groot-Brittannië gaven toe om oorlog te vermijden. De verdeling van Polen hoort bij het pact van augustus 1939."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De politiek waarbij Frankrijk en Groot-Brittannië toegaven om een oorlog te vermijden, heet [[*appeasement|collectivisatie|unionisme]]. Ze bereikte haar doel [[*niet|wel|half]], want een jaar later brak de oorlog uit.",
+          "uitleg": "Na München vroeg Hitler steeds meer. In september 1939 viel hij Polen binnen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom was het niet-aanvalspact van augustus 1939 tussen Duitsland en de Sovjet-Unie zo verrassend?",
+          "opties": [
+            "Twee regimes die elkaar als aartsvijanden zagen, spraken een geheime verdeling van Polen af",
+            "Het waren twee democratieën die normaal nooit verdragen met elkaar sloten",
+            "Het pact maakte een einde aan de Tweede Wereldoorlog nog voor die begon",
+            "Het pact gaf Polen de garantie dat het nooit aangevallen zou worden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Communisme en nationaalsocialisme stonden tegenover elkaar, maar het pact gaf Hitler vrij spel. Amper een week later viel hij Polen binnen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout? Lees elke uitspraak over het interbellum.",
+          "rijen": [
+            "Ook de democratieën in West-Europa bleven niet onaangeroerd door crisis en extreme partijen.",
+            "Mussolini werd na de Mars op Rome door de koning tot regeringsleider benoemd.",
+            "Hitler kwam in 1933 aan de macht door een gewapende staatsgreep.",
+            "De Grote Zuivering trof ook partijgenoten en legerofficieren."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Hitler werd benoemd tot rijkskanselier en nam daarna stap voor stap alle macht. Stalins zuiveringen troffen ook zijn eigen partij."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit hoe Stalin propaganda gebruikte om zijn beleid te steunen. Gebruik twee voorbeelden.",
+          "antwoord": "Stalin liet zich voorstellen als een onfeilbare, bijna bovenmenselijke leider: een personencultus. Affiches en kunst in de stijl van het socialistisch realisme verheerlijkten de arbeiders en de opbouw van het land, zoals de vijfjarenplannen. Zo moest de bevolking geloven dat het beleid slaagde, terwijl terreur en goelags de tegenstanders uitschakelden."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg het verband uit tussen de sociaaleconomische toestand tijdens het interbellum en de opkomst van de NSDAP.",
+          "antwoord": "Na de crisis van 1929 kwamen in Duitsland miljoenen mensen zonder werk. Daarbij kwam de wrok over het Verdrag van Versailles. Werkloosheid en armoede maakten mensen vatbaar voor een partij die orde, werk en nationale trots beloofde. Zo groeide de NSDAP en werd Hitler in 1933 rijkskanselier."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heten de strafkampen in de Sovjet-Unie waar gevangenen dwangarbeid verrichtten? (meervoud)",
+          "antwoord": "goelags",
+          "uitleg": "In de goelags belandden miljoenen mensen, ook gewone burgers die als vijand van het volk werden aangeduid."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Collectivisatie is het samenvoegen van kleine [[boerderijen]] tot grote bedrijven van staat of gemeenschap. Wie als [[koelak]] werd aangeduid, werd gedeporteerd. De kunst heette [[socialistisch]] realisme.",
+          "extra": [
+            "fabrieken",
+            "bolsjewiek",
+            "fascistisch"
+          ],
+          "uitleg": "Collectivisatie gaat over landbouw. Koelak was het etiket voor rijkere boeren. Het socialistisch realisme verheerlijkte de arbeider."
+        }
+      ]
     }
   ]
 }
