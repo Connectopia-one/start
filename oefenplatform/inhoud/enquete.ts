@@ -65,8 +65,9 @@ export const ENQUETE: EnqueteDeel[] = [
     vragen: [
       {
         sleutel: "wie",
-        soort: "keuze",
-        vraag: "Wie oefende er op het platform?",
+        // Meerdere antwoorden mogen (Sandy, november 2026: "ikzelf" én "meerdere kinderen").
+        soort: "meerdere",
+        vraag: "Wie oefende er op het platform? Je mag meer dan één antwoord aanduiden.",
         opties: ["Mijn kind", "Meerdere kinderen", "Ikzelf", "Leerlingen of bijleskinderen"],
         verplicht: true,
       },
