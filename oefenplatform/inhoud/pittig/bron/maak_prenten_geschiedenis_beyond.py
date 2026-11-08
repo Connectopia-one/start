@@ -76,10 +76,52 @@ def volksraadpleging():
     (UIT / "volksraadpleging-1950.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
 
 
+# ---------------------------------------------------------------- vier kunstvakken (eigen tekening)
+# Geen echte kunstwerken (auteursrecht): eigen tekeningen die de kenmerken tonen.
+# Vak A herhaling van blikken, B stripbeeld met drukstippen, C reusachtig alledaags
+# voorwerp, D minimal art. Elk vak is een kwart: zone [x, y, 50, 50].
+def kunstvakken():
+    W = 800
+    d = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {W}" width="{W}" height="{W}" font-family="Arial, sans-serif">',
+         '<defs><pattern id="stip" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="7" cy="7" r="4" fill="#e8413c"/></pattern></defs>',
+         f'<rect width="{W}" height="{W}" fill="#ffffff"/>']
+    # vak A: zes dezelfde blikken in felle, vlakke kleuren
+    kleuren = ["#e8413c", "#f6c700", "#1e88e5", "#43a047", "#ff7043", "#8e24aa"]
+    for i, k in enumerate(kleuren):
+        x, y = 40 + (i % 3) * 115, 60 + (i // 3) * 160
+        d.append(f'<rect x="{x}" y="{y}" width="90" height="130" rx="8" fill="{k}" stroke="#000" stroke-width="4"/>')
+        d.append(f'<rect x="{x}" y="{y+45}" width="90" height="40" fill="#fff" stroke="#000" stroke-width="3"/>')
+        d.append(f'<text x="{x+45}" y="{y+73}" font-size="22" font-weight="bold" text-anchor="middle">SOEP</text>')
+    # vak B: stripbeeld met drukstippen en tekstballon
+    d.append('<rect x="420" y="30" width="350" height="340" fill="url(#stip)" stroke="#000" stroke-width="6"/>')
+    d.append('<circle cx="540" cy="260" r="90" fill="#ffe0b2" stroke="#000" stroke-width="6"/>')
+    d.append('<circle cx="510" cy="245" r="10"/><circle cx="570" cy="245" r="10"/>')
+    d.append('<ellipse cx="540" cy="300" rx="22" ry="14" fill="#c62828" stroke="#000" stroke-width="4"/>')
+    d.append('<path d="M600 60 h150 a20 20 0 0 1 20 20 v70 a20 20 0 0 1 -20 20 h-90 l-40 40 l10 -40 h-30 a20 20 0 0 1 -20 -20 v-70 a20 20 0 0 1 20 -20z" fill="#fff" stroke="#000" stroke-width="5"/>')
+    d.append('<text x="675" y="125" font-size="34" font-weight="bold" text-anchor="middle">OH NEE!</text>')
+    # vak C: reusachtige wasknijper op een plein, met een klein mensje
+    d.append('<rect x="30" y="700" width="350" height="70" fill="#cfd8dc"/>')
+    d.append('<rect x="150" y="470" width="34" height="250" rx="10" fill="#8d6e63" stroke="#000" stroke-width="4" transform="rotate(-6 167 595)"/>')
+    d.append('<rect x="196" y="470" width="34" height="250" rx="10" fill="#8d6e63" stroke="#000" stroke-width="4" transform="rotate(6 213 595)"/>')
+    d.append('<rect x="160" y="560" width="60" height="40" rx="6" fill="#9e9e9e" stroke="#000" stroke-width="4"/>')
+    d.append('<circle cx="310" cy="690" r="7"/><line x1="310" y1="697" x2="310" y2="722" stroke="#000" stroke-width="4"/>')
+    d.append('<line x1="310" y1="722" x2="302" y2="740" stroke="#000" stroke-width="4"/><line x1="310" y1="722" x2="318" y2="740" stroke="#000" stroke-width="4"/>')
+    # vak D: minimal art, vier gelijke blokken in een reeks
+    for i in range(4):
+        d.append(f'<rect x="{440 + i*82}" y="560" width="62" height="62" fill="#9e9e9e"/>')
+    # kaders en letters
+    for x, y, l in ((0, 0, "A"), (400, 0, "B"), (0, 400, "C"), (400, 400, "D")):
+        d.append(f'<rect x="{x+4}" y="{y+4}" width="392" height="392" fill="none" stroke="#2f4a22" stroke-width="4"/>')
+        d.append(f'<circle cx="{x+30}" cy="{y+30}" r="20" fill="#2f4a22"/><text x="{x+30}" y="{y+38}" font-size="24" fill="#fff" text-anchor="middle" font-weight="bold">{l}</text>')
+    d.append("</svg>")
+    (UIT / "kunstvakken.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
+
+
 if __name__ == "__main__":
     UIT.mkdir(parents=True, exist_ok=True)
     tijdlijn()
     volksraadpleging()
+    kunstvakken()
     print("staven", [zone_staaf(i) for i in range(3)])
     for j in (1789, 1815, 1830, 1871, 1914, 1945, 1989):
         print(j, zone_jaar(j))
