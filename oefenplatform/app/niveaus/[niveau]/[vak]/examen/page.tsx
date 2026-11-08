@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { isWelzijn } from "@/lib/welzijn";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/Header";
 import { Quiz } from "@/components/Quiz";
@@ -102,10 +103,15 @@ function casussenSamen<T extends { casus?: string | null }>(lijst: T[]): T[] {
 
 export default async function ExamenPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ niveau: string; vak: string }>;
+  searchParams: Promise<{ welzijn?: string }>;
 }) {
   const { niveau: niveauSlug, vak: vakSlug } = await params;
+  // De hoofdstukken die enkel voor welzijnswetenschappen tellen, komen alleen
+  // in het examen met ?welzijn=1 (zie lib/welzijn.ts).
+  const metWelzijn = (await searchParams).welzijn === "1";
   const niveau = vindNiveau(niveauSlug);
   if (!niveau) notFound();
 
@@ -129,7 +135,12 @@ export default async function ExamenPage({
       leestekst: string | null;
       woordenlijst: Woord[] | null;
     }[]
-  ).filter((h) => h.niveau === niveau.slug && !PITTIG.test(h.titel));
+  ).filter(
+    (h) =>
+      h.niveau === niveau.slug &&
+      !PITTIG.test(h.titel) &&
+      (metWelzijn || !isWelzijn(h.titel)),
+  );
   if (!hoofdstukken.length) notFound();
 
   const terug = `/niveaus/${niveau.slug}/${vak.slug}`;
@@ -235,6 +246,7 @@ export default async function ExamenPage({
         </Link>
         <h1 className="mt-2 font-display text-2xl font-semibold text-ink">
           Examen {vak.naam}
+          {metWelzijn && " voor welzijnswetenschappen"}
         </h1>
         <p className="mt-1 text-sm text-ink-dim">
           {vragen.length} vragen door elkaar uit de {hoofdstukken.length}{" "}
@@ -255,7 +267,7 @@ export default async function ExamenPage({
           <p className="mt-2">
             Elke keer dat je dit examen opnieuw opent, krijg je andere vragen.{" "}
             <Link
-              href={`${terug}/examen`}
+              href={`${terug}/examen${metWelzijn ? "?welzijn=1" : ""}`}
               className="font-medium text-forest-dark underline-offset-2 hover:underline"
             >
               Nieuw examen

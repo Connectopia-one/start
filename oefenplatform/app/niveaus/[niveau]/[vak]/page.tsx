@@ -19,7 +19,8 @@ import { schooljaarEindeLabel } from "@/lib/schooljaar";
 import { vindNiveau } from "@/lib/niveaus";
 import { sorteerHoofdstukken } from "@/lib/hoofdstukvolgorde";
 import { vakIcoon } from "@/lib/vakbeeld";
-import { vindVaknoot } from "@/inhoud/vaknoten";
+import { vindVaknoot, vindWegwijzer } from "@/inhoud/vaknoten";
+import { isWelzijn } from "@/lib/welzijn";
 import { Zoekvak } from "@/components/Zoekvak";
 
 /*
@@ -66,6 +67,7 @@ export default async function NiveauVakPage({
   // Een woordje bij dit vak, als er een is. De tekst staat in
   // inhoud/vaknoten.ts, zodat aanpassen geen code vraagt.
   const noot = vindVaknoot(niveau.slug, vak.slug);
+  const wegwijzer = vindWegwijzer(niveau.slug, vak.slug);
 
   const { data: kinderen } = session
     ? await supabase
@@ -119,6 +121,14 @@ export default async function NiveauVakPage({
             >
               <span aria-hidden>📝</span> Examen van 40 vragen over het hele vak
             </Link>
+            {hoofdstukken.some((h) => isWelzijn(h.titel)) && (
+              <Link
+                href={`/niveaus/${niveau.slug}/${vak.slug}/examen?welzijn=1`}
+                className="rounded-full border border-info/50 bg-surface px-3 py-1 text-info transition hover:border-info"
+              >
+                <span aria-hidden>🩺</span> Examen voor welzijnswetenschappen
+              </Link>
+            )}
             <a
               href={`/niveaus/${niveau.slug}/${vak.slug}/cursus`}
               download
@@ -127,6 +137,23 @@ export default async function NiveauVakPage({
               <span aria-hidden>📚</span> Hele cursus downloaden
             </a>
           </p>
+        )}
+
+        {wegwijzer && (
+          <div className="mt-5 rounded-xl border-2 border-forest bg-forest/10 px-5 py-4">
+            <p className="font-display text-base font-semibold text-forest-dark">
+              <span aria-hidden>👉</span> {wegwijzer.titel}
+            </p>
+            <p className="mt-2 text-sm text-ink">{wegwijzer.tekst}</p>
+            {wegwijzer.knop && volledigeToegang && (
+              <Link
+                href={`/niveaus/${niveau.slug}/${vak.slug}/${wegwijzer.knop.href}`}
+                className="mt-3 inline-block rounded-full bg-forest px-4 py-2 text-sm font-semibold text-white transition hover:bg-forest-dark"
+              >
+                {wegwijzer.knop.label} &rarr;
+              </Link>
+            )}
+          </div>
         )}
 
         {noot && (

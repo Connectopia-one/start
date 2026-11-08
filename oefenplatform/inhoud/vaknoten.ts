@@ -67,15 +67,8 @@ export const vaknoten: Record<string, string> = {
     "afleggen, zoals economie-moderne talen, humane wetenschappen, Latijn en " +
     "moderne talen. Zit je in natuurwetenschappen of een andere richting met " +
     "drie examens wetenschappen, dan heb je de aparte vakken biologie, chemie " +
-    "en fysica nodig in plaats van dit vak. Volg je welzijnswetenschappen, " +
-    "maak dan ook het vak natuurwetenschappen welzijnswetenschappen.",
+    "en fysica nodig in plaats van dit vak.",
 
-  "beyond-doorstroom/natuurwetenschappen-welzijnswetenschappen":
-    "Dit vak is er enkel voor de richting welzijnswetenschappen. Het bevat het " +
-    "extra deel over het menselijk lichaam: enzymen, spijsvertering, " +
-    "uitscheiding, bloed, hart en bloedsomloop, bloeddruk en lymfe, en " +
-    "ademhaling. De rest van je examen natuurwetenschappen staat in het gewone " +
-    "vak natuurwetenschappen, dus maak dat ook.",
 
   "beyond-doorstroom/biologie":
     "Dit vak is er voor de richtingen die hun wetenschappen in drie aparte " +
@@ -122,6 +115,43 @@ export const vaknoten: Record<string, string> = {
 };
 
 /** De noot bij dit vak in deze categorie, of niets. */
+/*
+  Een opvallend groen kader bovenaan een vak, eventueel met een knop.
+
+  Kim op 8 november 2026, over natuurwetenschappen welzijnswetenschappen: "dat
+  moet er wel duidelijk bijstaan! anders gaan ze dit niet door hebben." En
+  daarna: zet die hoofdstukken gewoon in het vak natuurwetenschappen, met een
+  eigen kleur, "want zo staat er 1 vak natuurwetenschappen dat je kan
+  aanpassen als het nodig is". Een leerling welzijnswetenschappen legt één
+  examen af, en die vakfiche bevat alles van de gewone fiche 3DO plus een blok
+  over het menselijk lichaam. Nagekeken lijn per lijn op Kims usb-stick. Zie
+  ook lib/welzijn.ts.
+*/
+export type Wegwijzer = {
+  titel: string;
+  tekst: string;
+  knop?: { label: string; href: string };
+};
+
+const wegwijzers: Record<string, Wegwijzer> = {
+  "beyond-doorstroom/natuurwetenschappen": {
+    titel: "Volg je welzijnswetenschappen? Maak dan ook de blauwe hoofdstukken onderaan.",
+    tekst:
+      "Jouw examen natuurwetenschappen bevat alles van dit vak, plus een extra " +
+      "deel over het menselijk lichaam: enzymen, spijsvertering, uitscheiding, " +
+      "bloed, hart en bloedsomloop, bloeddruk en lymfe, en ademhaling. Die " +
+      "hoofdstukken staan onderaan in het blauw, met het label Enkel " +
+      "welzijnswetenschappen. Bij jou weegt biologie zwaarder door: 50 procent, " +
+      "chemie 15, fysica 25 en onderzoek 10. Volg je een andere richting, dan " +
+      "sla je de blauwe hoofdstukken over.",
+    knop: { label: "Examen voor welzijnswetenschappen", href: "examen?welzijn=1" },
+  },
+};
+
+export function vindWegwijzer(niveau: string, vak: string): Wegwijzer | undefined {
+  return wegwijzers[`${niveau}/${vak}`];
+}
+
 export function vindVaknoot(niveau: string, vak: string): string | undefined {
   return vaknoten[`${niveau}/${vak}`];
 }

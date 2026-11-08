@@ -15,8 +15,14 @@ Het is een apart vak, "Natuurwetenschappen welzijnswetenschappen", in Beyond
 doorstroom (Kim, 6 november 2026: eerst stonden de hoofdstukken bij het gewone
 vak natuurwetenschappen met "Welzijnswetenschappen:" ervoor, maar dat was niet
 overzichtelijk). Een leerling van die richting maakt dit vak én het gewone vak
-natuurwetenschappen; de vaknoot zegt dat. Importeren via Beheer → Vakken →
-Natuurwetenschappen welzijnswetenschappen.
+natuurwetenschappen.
+
+Op 8 november 2026 terug naar het gewone vak natuurwetenschappen, nu wel
+overzichtelijk: onderaan, in het blauw, onder een eigen kopje en met het label
+"Enkel welzijnswetenschappen" (lib/welzijn.ts, components/HoofdstukTegels.tsx).
+Kim: "zo staat er 1 vak natuurwetenschappen dat je kan aanpassen als het nodig
+is". Verhuisd met supabase/welzijn-in-natuurwetenschappen.sql. Importeren
+voortaan via Beheer → Vakken → Natuurwetenschappen, niveau 🌍 Beyond.
 
 De controles zijn dezelfde als in bouw_natuurwetenschappen.py.
 """

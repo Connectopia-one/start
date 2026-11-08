@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { splitsDeel, themaNaam } from "@/lib/hoofdstukvolgorde";
+import { isWelzijn } from "@/lib/welzijn";
 import { KindKeuze, useActiefKind, type Kind } from "@/components/KindKeuze";
 
 export type HoofdstukTegel = {
@@ -42,7 +43,7 @@ function basisTitel(titel: string) {
   return isPittig(t) ? t.slice(0, t.length - PITTIG.length).trim() : t;
 }
 
-type Groep = { naam: string; leden: HoofdstukTegel[] };
+type Groep = { naam: string; leden: HoofdstukTegel[]; welzijn?: boolean };
 
 /**
  * De hoofdstukken van één vak als vakjes in plaats van als lijst, met per
@@ -86,7 +87,7 @@ export function HoofdstukTegels({
     const sleutel = splitsDeel(basis).thema;
     let groep = groepen.get(sleutel);
     if (!groep) {
-      groep = { naam: themaNaam(basis), leden: [] };
+      groep = { naam: themaNaam(basis), leden: [], welzijn: isWelzijn(basis) };
       groepen.set(sleutel, groep);
     }
     groep.leden.push(h);
@@ -107,8 +108,12 @@ export function HoofdstukTegels({
   // Een hoofdstuk dat alleen in zijn thema staat, krijgt geen eigen kopje:
   // dat zou zijn titel twee keer zetten. Zulke hoofdstukken na elkaar komen
   // samen in één gewoon raster.
-  const blokken: { naam: string | null; leden: HoofdstukTegel[] }[] = [];
-  for (const groep of groepen.values()) {
+  // De hoofdstukken die enkel voor welzijnswetenschappen tellen, komen samen
+  // onderaan, onder een eigen kopje (zie lib/welzijn.ts).
+  const blokken: { naam: string | null; leden: HoofdstukTegel[]; welzijn?: boolean }[] = [];
+  const alleGroepen = [...groepen.values()];
+  const welzijnGroepen = alleGroepen.filter((g) => g.welzijn);
+  for (const groep of alleGroepen.filter((g) => !g.welzijn)) {
     if (groep.leden.length > 1) {
       blokken.push(groep);
       continue;
@@ -117,12 +122,20 @@ export function HoofdstukTegels({
     if (vorige && vorige.naam === null) vorige.leden.push(...groep.leden);
     else blokken.push({ naam: null, leden: [...groep.leden] });
   }
+  for (const groep of welzijnGroepen) {
+    blokken.push({
+      naam: groep.naam.replace(/^welzijnswetenschappen:\s*/i, ""),
+      leden: groep.leden,
+      welzijn: true,
+    });
+  }
   if (uitdagingen.length) blokken.push({ naam: null, leden: uitdagingen });
 
   const tegel = (h: HoofdstukTegel, inGroep: boolean) => {
     const s = status.get(h.id);
     const uitdaging = isUitdaging(h.titel);
     const pittig = isPittig(h.titel);
+    const welzijn = isWelzijn(h.titel);
     // Onder een kopje volstaat "Deel 1" of "Pittig": het thema staat er al
     // boven.
     const { deel } = splitsDeel(h.titel);
@@ -143,7 +156,9 @@ export function HoofdstukTegels({
              een heel lichte groene achtergrond (Kim, 6 november 2026). */
           s?.gemaakt ? "bg-forest/5" : "bg-surface"
         } ${
-          uitdaging || pittig
+          welzijn
+            ? "border-info/50 hover:border-info"
+            : uitdaging || pittig
             ? "border-amber/50 hover:border-amber"
             : s?.gemaakt
               ? "border-forest/40 hover:border-forest"
@@ -195,6 +210,11 @@ export function HoofdstukTegels({
               Moeilijker
             </span>
           ) : null}
+          {welzijn && (
+            <span className="rounded-full bg-info/15 px-2.5 py-0.5 text-xs font-medium text-info">
+              🩺 Enkel welzijnswetenschappen
+            </span>
+          )}
           {h.gratis ? (
             <span className="rounded-full bg-forest/10 px-2.5 py-0.5 text-xs font-medium text-forest-dark">
               Gratis
@@ -239,8 +259,22 @@ export function HoofdstukTegels({
       )}
 
       <div className="mt-6 space-y-6">
-        {blokken.map((blok, i) =>
-          blok.naam ? (
+        {blokken.map((blok, i) => (
+          <div key={`blok-${i}`} className="space-y-6">
+          {blok.welzijn && !blokken[i - 1]?.welzijn && (
+            <div className="rounded-xl border-2 border-info/50 bg-info/10 px-5 py-4">
+              <h2 className="font-display text-base font-semibold text-info">
+                <span aria-hidden>🩺</span> Enkel voor de richting welzijnswetenschappen
+              </h2>
+              <p className="mt-1 text-sm text-ink">
+                Volg je welzijnswetenschappen? Dan horen deze hoofdstukken over
+                het menselijk lichaam bij jouw examen natuurwetenschappen,
+                samen met alle hoofdstukken hierboven. Volg je een andere
+                richting, dan mag je ze overslaan.
+              </p>
+            </div>
+          )}
+          {blok.naam ? (
             <section key={blok.naam + i}>
               <h2 className="mb-2 font-display text-base font-semibold text-ink">
                 {blok.naam}
@@ -253,8 +287,9 @@ export function HoofdstukTegels({
             <div key={i} className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {blok.leden.map((h) => tegel(h, false))}
             </div>
-          ),
-        )}
+          )}
+          </div>
+        ))}
       </div>
     </>
   );

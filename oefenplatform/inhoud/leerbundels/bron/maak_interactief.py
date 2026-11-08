@@ -129,11 +129,18 @@ def main():
             # is, staat de naam van het hoofdstuk in de bundel zelf, bij
             # "hoofdstukken".
             titels = [b["titel"], *b.get("hoofdstukken", [])]
+            # De welzijnshoofdstukken staan sinds 8 november 2026 in het gewone
+            # vak natuurwetenschappen (zie lib/welzijn.ts). De oude sleutel
+            # blijft erbij, zodat het ook werkt zolang de SQL niet gedraaid is.
+            vakken = [slug(b["vak"])]
+            if vakken[0] == "natuurwetenschappen-welzijnswetenschappen":
+                vakken.append("natuurwetenschappen")
             for titel in titels:
-                sleutel = f"{niveau}/{slug(b['vak'])}/{slug(titel)}"
-                if sleutel in register:
-                    raise SystemExit(f"twee bundels op dezelfde sleutel: {sleutel}")
-                register[sleutel] = bestand
+                for vakslug in vakken:
+                    sleutel = f"{niveau}/{vakslug}/{slug(titel)}"
+                    if sleutel in register:
+                        raise SystemExit(f"twee bundels op dezelfde sleutel: {sleutel}")
+                    register[sleutel] = bestand
 
     regels = [
         "// Gemaakt door inhoud/leerbundels/bron/maak_interactief.py — niet met de hand aanpassen.",
