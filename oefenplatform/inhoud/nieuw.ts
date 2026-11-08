@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "8 november 2026",
+    titel: "Welzijnswetenschappen nu bij natuurwetenschappen",
+    tekst:
+      "De hoofdstukken voor welzijnswetenschappen staan nu gewoon in het vak natuurwetenschappen van Beyond, onderaan in het blauw met het label \"Enkel welzijnswetenschappen\". Bovenaan het vak staat duidelijk uitgelegd wie ze moet maken, en er is een apart examen voor welzijnswetenschappen. Volg je een andere richting, dan sla je de blauwe hoofdstukken over.",
+  },
+  {
+    datum: "8 november 2026",
     titel: "Sterretjes verdienen en figuurtjes kiezen",
     tekst:
       "Voor elk hoofdstuk dat je kind helemaal afwerkt, krijgt het een sterretje. Juist of fout maakt niet uit: het gaat om het doorzetten. Met die sterretjes kiest het een figuurtje, van een vos tot een draak. Er is geen ranglijst. Je zet het per kind aan bij je account.",
@@ -152,9 +158,9 @@ export const updates: Update[] = [
   },
   {
     datum: "6 november 2026",
-    titel: "Nieuw vak: Natuurwetenschappen welzijnswetenschappen",
+    titel: "Hoofdstukken voor welzijnswetenschappen",
     tekst:
-      "In Beyond doorstroom staat een nieuw vak voor wie de richting welzijnswetenschappen kiest: 14 hoofdstukken over het menselijk lichaam, met leerbundels, oefenbundels en ook vragen in de vorm van het examen, waaronder klikvragen op prenten.",
+      "In Beyond doorstroom kwamen er 14 hoofdstukken over het menselijk lichaam bij, voor wie de richting welzijnswetenschappen kiest. Met leerbundels, oefenbundels en ook vragen in de vorm van het examen, waaronder klikvragen op prenten.",
   },
   {
     datum: "6 november 2026",
