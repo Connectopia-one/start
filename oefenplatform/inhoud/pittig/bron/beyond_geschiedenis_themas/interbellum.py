@@ -3,7 +3,7 @@ from .vormen import J, F, mk, inv, tabel, keuze, volgorde, koppel, sorteer, slee
 
 PRENTEN = [
     dict(bestand="stalin-affiche.webp", zelf=False,
-         wat="Een Sovjet-propaganda-affiche uit de jaren dertig met Stalin, liefst met fabrieken, arbeiders of productiecijfers erop (vijfjarenplan). Controleer of de affiche vrij te gebruiken is.",
+         wat="Gustav Klutsis, Kaders beslissen alles (1935): Stalin met arbeiders, piloten en kinderen.",
          waar="Wikimedia Commons, zoek 'Stalin poster five-year plan' of 'Soviet propaganda poster 1930s Stalin'.",
          vragen="casus over propaganda en personencultus"),
 ]
@@ -78,7 +78,7 @@ VRAGEN = [
         "De dwang en de hongersnood kostten miljoenen mensen het leven.",
     ),
     casus(
-        "Bekijk de Sovjet-affiche uit de jaren dertig. Stalin staat groot in beeld, met achter hem fabrieken en lachende arbeiders.",
+        "Bekijk de Sovjet-affiche uit 1935. De titel betekent: Kaders beslissen alles. Stalin staat groot in beeld, omringd door lachende arbeiders, piloten en kinderen.",
         [
             met_prent("stalin-affiche.webp", keuze(
                 "De affiche toont Stalin als bijna bovenmenselijke leider. Dat noemt men een [[*personencultus|collectivisatie|appeasement]]. De bedoeling is het bewind te [[*verheerlijken|bekritiseren|neutraal beschrijven]].",
@@ -87,13 +87,13 @@ VRAGEN = [
             mk(
                 "In welke maatschappelijke domeinen kan je deze affiche situeren? (meerdere antwoorden)",
                 ["Politiek", "Cultureel", "Economisch", "In geen enkel domein"],
-                [0, 1, 2],
-                "Ze verheerlijkt het bewind (politiek), gebruikt beeldtaal en een wereldbeeld (cultureel) en prijst de industrie aan (economisch).",
+                [0, 1],
+                "Ze verheerlijkt de leider en zijn bewind (politiek) en werkt met beeldtaal en een wereldbeeld (cultureel). Fabrieken of productiecijfers zie je op deze affiche niet.",
             ),
             tabel(
                 "Mag je dit besluiten op basis van de affiche alleen?",
                 [
-                    ("Het regime wilde de opbouw van de industrie als een succes tonen.", "Mag"),
+                    ("Het regime wilde Stalin tonen als geliefde leider van het hele volk.", "Mag"),
                     ("Alle arbeiders in de Sovjet-Unie waren gelukkig.", "Mag niet"),
                     ("Stalin gebruikte propaganda om zijn beleid te steunen.", "Mag"),
                 ],

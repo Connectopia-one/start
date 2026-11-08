@@ -452,17 +452,18 @@
           "uitleg": "Bufferstaten rond Frankrijk, met Pruisen aan de Rijn. De Duitse staten werden niet tot één rijk samengevoegd."
         },
         {
-          "type": "meerkeuze",
-          "vraag": "Bekijk de kaart van Europa in 1815. Welk land werd opgericht als buffer ten noorden van Frankrijk?",
-          "opties": [
-            "Het Verenigd Koninkrijk der Nederlanden",
-            "Het Duitse Keizerrijk",
-            "Het Koninkrijk België",
-            "De Duitse Bond"
+          "type": "hotspot",
+          "vraag": "Bekijk de kaart van Europa in 1815. Klik op de bufferstaat die het Congres van Wenen ten noorden van Frankrijk oprichtte.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/europa-1815.webp",
+          "zones": [
+            [
+              29.5,
+              33,
+              8,
+              20
+            ]
           ],
-          "antwoord": 0,
-          "uitleg": "Wenen voegde het noorden en het zuiden van de Lage Landen samen onder Willem I. België bestond nog niet, en het Duitse Keizerrijk kwam pas in 1871.",
-          "afbeelding_url": "/examenvormen/geschiedenis-beyond/europa-1815.webp"
+          "uitleg": "Gebied A: het Verenigd Koninkrijk der Nederlanden, Noord en Zuid samen onder Willem I. B is Pruisen met het Rijnland, C de grens van de Duitse Bond."
         },
         {
           "type": "meerkeuze",
@@ -1046,7 +1047,7 @@
           "uitleg": "Proletarisering: wie vroeger met eigen gereedschap werkte, wordt afhankelijk van een loon in de fabriek."
         },
         {
-          "casus": "Bekijk de prent. Ze toont kinderen die in de 19de eeuw in een mijn werken. Lees ook dit gegeven: de Belgische grondwet van 1831 verbood kinderarbeid niet.",
+          "casus": "Bekijk de Britse gravure uit 1854. Ze toont kinderen in een steenkoolmijn: het ene duwt een kolenwagen, het andere bedient een luchtdeur. Lees ook dit gegeven: ook de Belgische grondwet van 1831 verbood kinderarbeid niet.",
           "vragen": [
             {
               "type": "meerkeuze",
@@ -1063,7 +1064,7 @@
             },
             {
               "type": "tabel",
-              "vraag": "Welke leef- en werkomstandigheden van arbeiders in de 19de eeuw passen bij deze prent?",
+              "vraag": "Welke leef- en werkomstandigheden waren gewoon voor arbeiders in de 19de eeuw?",
               "rijen": [
                 "Werkdagen van twaalf uur en meer",
                 "Een vergoeding bij ziekte of ongeval",
@@ -2345,7 +2346,7 @@
           "uitleg": "De dwang en de hongersnood kostten miljoenen mensen het leven."
         },
         {
-          "casus": "Bekijk de Sovjet-affiche uit de jaren dertig. Stalin staat groot in beeld, met achter hem fabrieken en lachende arbeiders.",
+          "casus": "Bekijk de Sovjet-affiche uit 1935. De titel betekent: Kaders beslissen alles. Stalin staat groot in beeld, omringd door lachende arbeiders, piloten en kinderen.",
           "vragen": [
             {
               "type": "keuzelijst",
@@ -2364,16 +2365,15 @@
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Ze verheerlijkt het bewind (politiek), gebruikt beeldtaal en een wereldbeeld (cultureel) en prijst de industrie aan (economisch)."
+              "uitleg": "Ze verheerlijkt de leider en zijn bewind (politiek) en werkt met beeldtaal en een wereldbeeld (cultureel). Fabrieken of productiecijfers zie je op deze affiche niet."
             },
             {
               "type": "tabel",
               "vraag": "Mag je dit besluiten op basis van de affiche alleen?",
               "rijen": [
-                "Het regime wilde de opbouw van de industrie als een succes tonen.",
+                "Het regime wilde Stalin tonen als geliefde leider van het hele volk.",
                 "Alle arbeiders in de Sovjet-Unie waren gelukkig.",
                 "Stalin gebruikte propaganda om zijn beleid te steunen."
               ],

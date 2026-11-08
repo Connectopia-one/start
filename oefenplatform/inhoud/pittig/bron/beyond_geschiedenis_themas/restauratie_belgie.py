@@ -1,5 +1,5 @@
 """Restauratie, revolutie en het ontstaan van België — pittig (🌍 Beyond)."""
-from .vormen import J, F, mk, inv, tabel, keuze, volgorde, koppel, sorteer, sleep, open_, casus, met_prent
+from .vormen import J, F, mk, inv, tabel, keuze, volgorde, koppel, sorteer, sleep, open_, casus, klik, met_prent
 
 PRENTEN = [
     dict(bestand="europa-1815.webp", zelf=False,
@@ -24,12 +24,12 @@ VRAGEN = [
         ],
         "Bufferstaten rond Frankrijk, met Pruisen aan de Rijn. De Duitse staten werden niet tot één rijk samengevoegd.",
     ),
-    met_prent("europa-1815.webp", mk(
-        "Bekijk de kaart van Europa in 1815. Welk land werd opgericht als buffer ten noorden van Frankrijk?",
-        ["Het Verenigd Koninkrijk der Nederlanden", "Het Duitse Keizerrijk", "Het Koninkrijk België", "De Duitse Bond"],
-        0,
-        "Wenen voegde het noorden en het zuiden van de Lage Landen samen onder Willem I. België bestond nog niet, en het Duitse Keizerrijk kwam pas in 1871.",
-    ), volgt=True),
+    klik(
+        "Bekijk de kaart van Europa in 1815. Klik op de bufferstaat die het Congres van Wenen ten noorden van Frankrijk oprichtte.",
+        "europa-1815.webp",
+        [[29.5, 33, 8, 20]],
+        "Gebied A: het Verenigd Koninkrijk der Nederlanden, Noord en Zuid samen onder Willem I. B is Pruisen met het Rijnland, C de grens van de Duitse Bond.",
+    ),
     mk(
         "Wat bedoelden de vorsten in Wenen met het beginsel van de legitimiteit?",
         [

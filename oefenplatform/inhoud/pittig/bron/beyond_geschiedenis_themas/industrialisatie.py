@@ -6,7 +6,7 @@ PRENTEN = [
          wat="Dezelfde tijdlijn als bij het referentiekader.",
          vragen="klikvragen op 1893 en 1919 (stemrecht)"),
     dict(bestand="kinderarbeid-mijn.webp", zelf=False,
-         wat="Een foto of gravure uit de 19de eeuw van kinderen die in een steenkoolmijn of textielfabriek werken. Liefst Belgisch of Brits, publiek domein.",
+         wat="Britse gravure Thrusters and trapper (Cobden, 1854): kinderen in een steenkoolmijn.",
          waar="Wikimedia Commons, zoek 'child labour coal mine 19th century' of 'hiercheuse' (Belgische mijnmeisjes).",
          vragen="casus over leef- en werkomstandigheden"),
 ]
@@ -127,7 +127,7 @@ VRAGEN = [
         "Proletarisering: wie vroeger met eigen gereedschap werkte, wordt afhankelijk van een loon in de fabriek.",
     ),
     casus(
-        "Bekijk de prent. Ze toont kinderen die in de 19de eeuw in een mijn werken. Lees ook dit gegeven: de Belgische grondwet van 1831 verbood kinderarbeid niet.",
+        "Bekijk de Britse gravure uit 1854. Ze toont kinderen in een steenkoolmijn: het ene duwt een kolenwagen, het andere bedient een luchtdeur. Lees ook dit gegeven: ook de Belgische grondwet van 1831 verbood kinderarbeid niet.",
         [
             met_prent("kinderarbeid-mijn.webp", mk(
                 "Waarom zetten fabrikanten en mijnbazen graag kinderen aan het werk?",
@@ -136,7 +136,7 @@ VRAGEN = [
                 "Kinderen kostten weinig en kwamen niet in opstand.",
             ), volgt=True),
             tabel(
-                "Welke leef- en werkomstandigheden van arbeiders in de 19de eeuw passen bij deze prent?",
+                "Welke leef- en werkomstandigheden waren gewoon voor arbeiders in de 19de eeuw?",
                 [
                     ("Werkdagen van twaalf uur en meer", J),
                     ("Een vergoeding bij ziekte of ongeval", F),
