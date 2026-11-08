@@ -112,13 +112,14 @@ export default async function AccountPage({
               */}
               <div className="mt-6 border-t border-border pt-5">
                 <h3 className="text-sm font-medium text-ink">
-                  Heb je een toegangscode?
+                  Heb je een testcode of toegangscode?
                 </h3>
                 <p className="mt-1 text-sm text-ink-dim">
                   Kreeg je van ons een code, bijvoorbeeld omdat je meetest of
-                  omdat je kind in de externe plusklas zit? Vul ze hier in en je
-                  toegang staat meteen open. Het is geen wachtwoord en ook geen
-                  naam van een kind.
+                  omdat je kind in de externe plusklas zit? Vul ze hier in en
+                  klik op &quot;Toegang vrijgeven&quot;. Dan staat alles meteen
+                  open en hoef je niets te betalen. Het is geen wachtwoord en
+                  ook geen naam van een kind.
                 </p>
                 <form
                   action={gebruikPlusklasCode}

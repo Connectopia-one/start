@@ -26,15 +26,15 @@ export default async function LoginPage({
         {/* Een toegangscode is geen wachtwoord. Dat haalde een tester door
             elkaar, en het is op dit scherm niet te raden. */}
         <p className="mt-2 rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">
-          Kreeg je van ons een toegangscode? Dat is geen wachtwoord. Je maakt
-          eerst een account aan via{" "}
+          Kreeg je van ons een testcode of toegangscode, en heb je nog geen
+          login? Die code is geen wachtwoord. Maak eerst je eigen login aan via{" "}
           <Link
             href="/registreren"
             className="font-medium underline underline-offset-2"
           >
             Registreer hier
           </Link>{" "}
-          en vult de code daar in.
+          en vul de code daar in, in het laatste vakje.
         </p>
 
         <form
