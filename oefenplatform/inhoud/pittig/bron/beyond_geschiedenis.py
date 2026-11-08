@@ -27,6 +27,7 @@ THEMAS = [
     ("eerste_wereldoorlog", "De Eerste Wereldoorlog en de Russische revoluties"),
     ("interbellum", "Interbellum: totalitarisme en crisis"),
     ("tweede_wereldoorlog", "De Tweede Wereldoorlog en de Holocaust"),
+    ("wereldorde", "Een nieuwe wereldorde: VN, Koude Oorlog en Europa"),
 ]
 
 HOOFDSTUKKEN = [
