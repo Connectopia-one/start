@@ -32,6 +32,7 @@ THEMAS = [
     ("belgie_na_1945", "België na 1945"),
     ("denken_kunst", "Denken, kunst en emancipatie"),
     ("redeneren", "Redeneren met historische bronnen"),
+    ("beeldvorming", "Beeldvorming, vergelijken en verleden-heden-toekomst"),
 ]
 
 HOOFDSTUKKEN = [

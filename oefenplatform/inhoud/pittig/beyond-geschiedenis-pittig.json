@@ -5253,6 +5253,449 @@
           "antwoord": "Eerst verzamel ik de context: tijd, ruimte, domein, soort bron, maker, opdrachtgever, doelpubliek en bedoeling. Bij de foto noteer ik dat maker en datum ontbreken. Dan lees of bekijk ik de inhoud. Daarna interpreteer en beoordeel ik elke bron op bruikbaarheid, betrouwbaarheid, representativiteit en presentatie. Tot slot breng ik de informatie samen met mijn historische kennis."
         }
       ]
+    },
+    {
+      "titel": "Beeldvorming, vergelijken en verleden-heden-toekomst — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling zegt: \"Mijn handboek toont gewoon het verleden zoals het was.\" Wat is de beste reactie?",
+          "opties": [
+            "Het toont een beeld dat iemand opbouwde uit bronnen en interpretatie",
+            "Klopt, een handboek is altijd een exacte kopie van het verleden",
+            "Klopt, zolang het handboek recenter is dan de gebeurtenissen zelf",
+            "Een handboek toont nooit iets over het verleden, alleen meningen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het verleden zelf ligt achter ons. Wat wij hebben, is historische beeldvorming."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout? Lees elke uitspraak over historische beelden.",
+          "rijen": [
+            "Over dezelfde gebeurtenis kunnen meerdere beelden naast elkaar bestaan.",
+            "Twee historici met dezelfde bronnen komen altijd tot precies hetzelfde beeld.",
+            "Een beeld kan veranderen als er nieuwe bronnen opduiken.",
+            "Een beeld verandert enkel als het verleden zelf verandert."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Het verleden verandert niet, het beeld wel: door nieuwe bronnen en door de vragen die de samenleving stelt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke Belgische figuur is het duidelijkste voorbeeld van een historisch beeld dat sterk veranderde?",
+          "opties": [
+            "Leopold II",
+            "Hendrik Conscience",
+            "Adolphe Sax",
+            "Peter Paul Rubens"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van koning-bouwer naar een veel kritischer blik, door nieuwe bronnen en nieuwe vragen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat stuurt volgens de standplaatsgebondenheid mee welke vragen een historicus stelt?",
+          "opties": [
+            "Zijn tijd, zijn afkomst en zijn overtuiging",
+            "Enkel het aantal bronnen dat hij vindt",
+            "De lengte van het boek dat hij moet schrijven",
+            "Niets, een goede historicus is volledig neutraal"
+          ],
+          "antwoord": 0,
+          "uitleg": "Iedere historicus kijkt vanuit een eigen positie."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een historicus kan niet volledig neutraal zijn. Wat kan hij wel doen?",
+          "rijen": [
+            "Eerlijk zijn over zijn vertrekpunt",
+            "Zijn bronnen tonen",
+            "Andere lezingen bespreken",
+            "Doen alsof hij zelf geen standpunt heeft"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Openheid over vertrekpunt, bronnen en andere lezingen maakt een beeld controleerbaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling schrijft in een toets: \"Napoleon was eigenlijk een heel verlegen man.\" Hij noemt geen enkele bron. Welke redeneerwijze ontbreekt?",
+          "opties": [
+            "Bewijs gebruiken",
+            "Actualiseren",
+            "Continuïteit benoemen",
+            "Verbanden leggen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elke uitspraak over het verleden moet op bronnen kunnen steunen. Zonder bron is het een mening."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke redeneerwijze pas je toe in elke situatie?",
+          "paren": [
+            [
+              "Het Marshallplan wilde Europa heropbouwen, maar zette het ook stevig in het westerse kamp",
+              "Bedoelde en onbedoelde gevolgen"
+            ],
+            [
+              "Rosa Parks beslist om te blijven zitten",
+              "Menselijke actoren benoemen"
+            ],
+            [
+              "Je legt een verband tussen propaganda uit de jaren dertig en desinformatie vandaag",
+              "Actualiseren"
+            ],
+            [
+              "Je begrijpt de Franse Revolutie vanuit de honger en de schulden van toen",
+              "Historisch contextualiseren"
+            ]
+          ],
+          "extra": [
+            "Stereotypering analyseren"
+          ],
+          "uitleg": "Twaalf redeneerwijzen staan op het programma; hier zie je er vier aan het werk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling schrijft: \"De mensen in 1850 waren slecht, want vandaag is kinderarbeid verboden.\" Wat loopt er mis?",
+          "opties": [
+            "Hij beoordeelt het verleden met de maatstaf van vandaag",
+            "Hij gebruikt te veel bronnen uit 1850",
+            "Kinderarbeid bestond in 1850 nog niet",
+            "Hij past de redeneerwijze actualiseren correct toe"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is net de valkuil bij actualiseren. Begrijpen is iets anders dan goedpraten."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Evolutie of revolutie?",
+          "rijen": [
+            "De geleidelijke groei van het aantal vrouwen in het hoger onderwijs",
+            "De Oktoberrevolutie in Rusland",
+            "De trage ontzuiling vanaf de jaren zestig",
+            "De val van het oude regime in Frankrijk in enkele jaren tijd"
+          ],
+          "antwoord": [
+            "Evolutie",
+            "Revolutie",
+            "Evolutie",
+            "Revolutie"
+          ],
+          "uitleg": "Een evolutie verloopt geleidelijk, een revolutie is een plotse en diepe omslag.",
+          "kolommen": [
+            "Evolutie",
+            "Revolutie"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een reiziger ontmoet in Parijs drie onvriendelijke kelners en schrijft: \"Parijzenaars zijn onvriendelijk.\" Wat doet hij?",
+          "opties": [
+            "Hij veralgemeent: enkele gevallen worden een regel",
+            "Hij actualiseert: hij legt een verband tussen verleden en heden",
+            "Hij gebruikt bewijs: drie kelners zijn genoeg voor een besluit",
+            "Hij contextualiseert: hij begrijpt Parijs vanuit zijn tijd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Drie gevallen worden een regel voor miljoenen mensen."
+        },
+        {
+          "casus": "Oefenbron (verzonnen voorbeeld). Een Belgische reisgids uit 1925 schrijft over Congo: \"De inboorlingen zijn als kinderen: vrolijk, maar zonder plan voor morgen.\"",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke redeneerwijze pas je op deze zin toe?",
+              "opties": [
+                "Stereotypering analyseren",
+                "Continuïteit benoemen",
+                "Evolutie en revolutie benoemen",
+                "Bewijs gebruiken"
+              ],
+              "antwoord": 0,
+              "uitleg": "Een vast en vereenvoudigd beeld wordt aan een hele groep mensen toegeschreven."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Mag je dit besluiten op basis van de zin?",
+              "rijen": [
+                "De zin zegt veel over hoe men in België in 1925 over Congo dacht.",
+                "De zin beschrijft hoe de Congolezen echt waren.",
+                "De zin is waardeloos voor een historicus."
+              ],
+              "antwoord": [
+                "Mag",
+                "Mag niet",
+                "Mag niet"
+              ],
+              "uitleg": "Een slechte bron over Congo, maar een uitstekende over het denken van de maker en zijn publiek.",
+              "kolommen": [
+                "Mag",
+                "Mag niet"
+              ]
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke vraag stel je als historicus het best bij deze zin?",
+              "opties": [
+                "Wat zegt deze zin over de maker en zijn tijd?",
+                "Hoeveel kinderen woonden er in 1925 in Congo?",
+                "Was de schrijver van de reisgids zelf ooit een kind?",
+                "Welke reisgids verkocht in 1925 het best?"
+              ],
+              "antwoord": 0,
+              "uitleg": "Je vraagt wat de zin over de maker zegt."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling vergelijkt het oude Rome met België vandaag en besluit: \"Wij zijn gewoon beter.\" Wat is er mis?",
+          "opties": [
+            "Vergelijken dient om te begrijpen, niet om te rangschikken",
+            "Je mag enkel samenlevingen uit dezelfde periode vergelijken",
+            "Rome en België hebben helemaal niets met elkaar gemeen, dus vergelijken heeft geen zin",
+            "Er is niets mis: een vergelijking moet altijd met een winnaar eindigen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je vergelijkt om elke samenleving beter te begrijpen, binnen een periode en tussen periodes."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "In welke groep kenmerken hoort elk vergelijkingspunt?",
+          "kolommen": [
+            "Politiek",
+            "Sociaal",
+            "Cultureel",
+            "Economisch"
+          ],
+          "items": [
+            [
+              "De staatsvorm: democratie of dictatuur",
+              "Politiek"
+            ],
+            [
+              "Slavernij en onvrije arbeid",
+              "Sociaal"
+            ],
+            [
+              "Levensbeschouwing",
+              "Cultureel"
+            ],
+            [
+              "Handel en handelsnetwerken",
+              "Economisch"
+            ],
+            [
+              "Migratie en wij-zij-denken",
+              "Sociaal"
+            ],
+            [
+              "Propaganda",
+              "Cultureel"
+            ]
+          ],
+          "uitleg": "Vier groepen kenmerken om samenlevingen te vergelijken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het grootste verschil tussen het imperialisme van de vroegmoderne tijd en dat van de negentiende eeuw?",
+          "opties": [
+            "In de negentiende eeuw werd ook het binnenland bezet en bestuurd, eerder vooral de kust",
+            "In de vroegmoderne tijd ging het om grondstoffen, later alleen om prestige",
+            "In de negentiende eeuw speelde Europa geen rol meer in Afrika",
+            "Er is geen verschil: de middelen en de motieven waren precies dezelfde"
+          ],
+          "antwoord": 0,
+          "uitleg": "De motieven leken op elkaar, de middelen verschilden enorm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe vergelijk je de staatsvorm onder Mao met China vandaag het best?",
+          "opties": [
+            "Politieke continuïteit met één partij, naast een grondig veranderde economie",
+            "Volledige verandering: China werd een democratie met vrije verkiezingen",
+            "Volledige continuïteit: zowel de politiek als de economie bleven gelijk",
+            "Economische continuïteit, naast een totaal nieuwe politieke structuur"
+          ],
+          "antwoord": 0,
+          "uitleg": "In beide gevallen is één partij aan de macht, maar de economie verschilt grondig."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout? Samenlevingen vergelijken.",
+          "rijen": [
+            "In de negentiende eeuw bestonden een industrieel Engeland, een keizerlijk China en koloniale samenlevingen naast elkaar.",
+            "Slavernij kwam in maar één periode voor.",
+            "Slavernij nam in verschillende periodes een andere vorm aan.",
+            "Je vergelijkt enkel binnen eenzelfde periode, nooit tussen periodes."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Je vergelijkt binnen en tussen periodes, van de prehistorie tot vandaag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Elk jaar op 11 november staan dorpen aan hun oorlogsmonument stil bij hun gesneuvelden. Welk begrip past daarbij?",
+          "opties": [
+            "Een collectieve herinnering",
+            "Een stereotypering",
+            "Een veralgemening",
+            "Een primaire bron"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een vaste dag, een monument en een gedeelde betekenis: het gedeelde beeld dat een groep bewaart en doorgeeft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe veranderde de herinnering aan de Holocaust na 1945?",
+          "opties": [
+            "Eerst over de oorlog in het algemeen, later kwam de genocide centraal",
+            "Ze is sinds 1945 elk jaar op precies dezelfde manier herdacht",
+            "Eerst stond de genocide centraal, later sprak men enkel nog over de oorlog",
+            "Men herdenkt de Holocaust pas sinds de laatste ooggetuigen overleden zijn, rond het jaar 2000"
+          ],
+          "antwoord": 0,
+          "uitleg": "Pas vanaf de jaren zestig en zeventig kwam de genocide op de Joden centraal te staan."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat droeg ertoe bij dat de herinnering aan de Holocaust veranderde?",
+          "rijen": [
+            "Overlevenden begonnen te spreken.",
+            "Er kwam historisch onderzoek.",
+            "De samenleving stelde andere vragen.",
+            "De kampen werden pas in de jaren zeventig ontdekt."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Getuigen, onderzoek en nieuwe vragen veranderden de herinnering."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De internationale herdenkingsdag van de Holocaust valt op [[*27 januari|8 mei|21 juli]].",
+          "uitleg": "27 januari."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een stad staat een standbeeld van een koloniale generaal. Voor sommige inwoners is hij een held, voor anderen een onderdrukker. Welke redeneerwijze helpt je dat te begrijpen?",
+          "opties": [
+            "Meerdere perspectieven hanteren",
+            "Evolutie en revolutie benoemen",
+            "Continuïteit benoemen",
+            "Bewijs gebruiken"
+          ],
+          "antwoord": 0,
+          "uitleg": "De betekenis die men aan een figuur geeft, kan van groep tot groep verschillen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een verkozen meerderheid wil een wet die een minderheid haar stemrecht afneemt. Waarom kan dat in een rechtsstaat niet?",
+          "opties": [
+            "Ook een meerderheid moet zich aan de wet en de grondrechten houden",
+            "Een meerderheid mag in een democratie nooit wetten maken",
+            "Alleen de koning mag over het stemrecht beslissen",
+            "Het kan wel, als de meerderheid groot genoeg is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarom spreekt men van een rechtsstaat, en niet enkel van een democratie."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is het een beperking van de democratische rechtsstaat in de praktijk?",
+          "rijen": [
+            "Niet iedereen wordt in de politiek even goed vertegenwoordigd.",
+            "Wie geld of een netwerk heeft, krijgt soms meer gehoor.",
+            "Trage procedures laten problemen soms lang aanslepen.",
+            "Burgers mogen kritiek geven op de regering."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Kritiek op de regering is geen beperking. Waar die niet mag, is er geen rechtsstaat meer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe kan een democratie van binnenuit onder druk komen, zonder staatsgreep of oorlog?",
+          "opties": [
+            "Door de pers aan banden te leggen of rechters onder druk te zetten",
+            "Door elk jaar opnieuw verkiezingen te organiseren voor alle niveaus",
+            "Door burgers een petitie te laten tekenen",
+            "Door het aantal gemeenten in het land te verminderen via fusies"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie de pers en de rechters controleert, kan de rechtsstaat uithollen zonder één schot te lossen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is het een manier om zelf verantwoordelijkheid op te nemen in een democratische rechtsstaat?",
+          "rijen": [
+            "Gaan stemmen",
+            "Je informeren en je mening onderbouwd verdedigen",
+            "Naar een inspraakavond van je gemeente gaan",
+            "Nooit het nieuws volgen, want dat is toch allemaal hetzelfde"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Stemmen, je informeren en meedoen: ook een vereniging of een petitie horen erbij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op welke niveaus stem je, worden er regels gemaakt en kan je naar een rechter stappen?",
+          "opties": [
+            "Gemeente, deelstaten, federaal niveau en Europese Unie",
+            "Enkel op het federale niveau, want de rest voert alleen uit",
+            "Enkel op het niveau van de gemeente en de provincie",
+            "Enkel op het niveau van de Europese Unie, sinds het Verdrag van Lissabon"
+          ],
+          "antwoord": 0,
+          "uitleg": "De rechtsstaat werkt op elk bestuursniveau."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling zegt: \"Geschiedenis is nutteloos, want ze kan de toekomst niet voorspellen.\" Wat is de beste reactie?",
+          "opties": [
+            "Voorspellen kan niet, maar je herkent processen die vandaag opnieuw spelen",
+            "Geschiedenis kan de toekomst wel voorspellen, als je genoeg bronnen hebt",
+            "De leerling heeft gelijk: het verleden heeft niets met vandaag te maken",
+            "Geschiedenis is enkel nuttig om jaartallen te leren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hoe propaganda werkt, hoe een crisis een samenleving splijt, hoe rechten verworven en verloren raken: dat herken je."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg met een voorbeeld uit hoe kennis over propaganda uit de jaren dertig je kan helpen om vandaag het nieuws kritisch te lezen.",
+          "antwoord": "Totalitaire regimes gebruikten affiches, film en radio om één beeld op te dringen en tegenspraak uit te schakelen, bijvoorbeeld de personencultus rond Stalin. Wie weet hoe dat werkte, herkent vandaag sneller berichten die één kant tonen, emoties bespelen of de maker verbergen. Je vraagt dan: wie maakte dit, voor wie en met welke bedoeling?"
+        }
+      ]
     }
   ]
 }
