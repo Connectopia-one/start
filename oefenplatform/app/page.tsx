@@ -9,6 +9,7 @@ import { Header } from "@/components/Header";
 import { HelpOnsKaart, HelpOnsStappen } from "@/components/HelpOnsStappen";
 import { VerderWaarJeWas } from "@/components/VerderWaarJeWas";
 import { getSessionProfile } from "@/lib/auth";
+import { nieuwTekst } from "@/inhoud/nieuw";
 import { createClient } from "@/lib/supabase/server";
 import { NIVEAUS, STARTKNOPPEN, vindNiveau } from "@/lib/niveaus";
 import {
@@ -93,13 +94,27 @@ export default async function HomePage() {
         </div>
         {session && <VerderWaarJeWas userId={session.userId} />}
 
-        <h1 className="font-display text-2xl font-semibold text-ink">
-          Oefenen voor de examencommissie
-        </h1>
-        <p className="mt-2 max-w-2xl text-sm text-ink-dim">
-          Interactieve oefeningen, gemaakt door Connectopia. Kies hieronder een
-          categorie om te starten.
-        </p>
+        {/* Het ronde knopje naar /nieuw, zoals "Wil je ons steunen?" op de
+            website (Kim, 8 november 2026). Tekst en aan/uit: inhoud/nieuw.ts. */}
+        <div className="flex items-start justify-between gap-4">
+          <div>
+            <h1 className="font-display text-2xl font-semibold text-ink">
+              Oefenen voor de examencommissie
+            </h1>
+            <p className="mt-2 max-w-2xl text-sm text-ink-dim">
+              Interactieve oefeningen, gemaakt door Connectopia. Kies hieronder een
+              categorie om te starten.
+            </p>
+          </div>
+          {nieuwTekst.knop && (
+            <Link
+              href={nieuwTekst.knop.link}
+              className="font-display flex h-20 w-20 shrink-0 rotate-6 items-center justify-center rounded-full bg-amber p-2.5 text-center text-[14px] font-semibold leading-tight text-white shadow-[0_4px_14px_rgba(47,93,80,0.2)] transition hover:-translate-y-0.5 hover:rotate-0 sm:h-24 sm:w-24 sm:text-[15px]"
+            >
+              {nieuwTekst.knop.tekst}
+            </Link>
+          )}
+        </div>
 
         {/* Alles op deze pagina loopt even breed als de categorietegels
             eronder. De kaders stonden eerst smaller, en dat viel op: de linker-
