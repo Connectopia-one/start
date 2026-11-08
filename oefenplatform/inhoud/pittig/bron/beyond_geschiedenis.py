@@ -36,11 +36,6 @@ THEMAS = [
     ("china", "De Volksrepubliek China: van Mao tot Xi"),
     ("israel_palestina", "De Israëlisch-Palestijnse kwestie"),
     ("stromingen", "Denkstromingen en kunststromingen van de 19de en 20ste eeuw"),
-]
-
-# Nieuwe thema's voor fiche-leerstof die nog ontbrak (Kim 8/11). Ze staan hier
-# tot hun dertig vragen klaar zijn; maak_prentenlijst.py toont hun prenten al.
-KOMEND = [
     ("kunst_analyseren", "Kunst en cultuur analyseren met het stappenplan"),
 ]
 

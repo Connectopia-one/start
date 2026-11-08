@@ -7061,6 +7061,431 @@
           "antwoord": "Bijvoorbeeld De steenkappers van Courbet hoort bij het realisme: het toont gewone arbeiders, zonder iets mooier te maken dan het is, en op een groot formaat dat vroeger voor helden bedoeld was. Of Impressie, opkomende zon van Monet: impressionisme door het licht op één moment, de losse zichtbare toetsen en het schilderen van een indruk in plaats van details."
         }
       ]
+    },
+    {
+      "titel": "Kunst en cultuur analyseren met het stappenplan — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen om een kunst- of cultuuruiting te analyseren in de juiste volgorde.",
+          "opties": [
+            "Informatie verzamelen: tijd, ruimte, context, maker, titel en soort",
+            "Beschrijven wat je ziet of hoort",
+            "Interpreteren: onderwerp, doelpubliek en bedoeling, en hoe vorm en inhoud samenhangen",
+            "Je analyse toelichten in een eigen tekst"
+          ],
+          "uitleg": "Eerst de feiten, dan kijken en luisteren, dan pas betekenis geven, en ten slotte alles verwoorden."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Bij welke stap van het stappenplan hoort deze richtvraag?",
+          "kolommen": [
+            "Stap 1: informatie",
+            "Stap 2: beschrijven",
+            "Stap 3: interpreteren"
+          ],
+          "items": [
+            [
+              "Wie heeft het gemaakt, en wanneer?",
+              "Stap 1: informatie"
+            ],
+            [
+              "Welke materialen worden er gebruikt?",
+              "Stap 2: beschrijven"
+            ],
+            [
+              "Welk ritme en tempo hoor je?",
+              "Stap 2: beschrijven"
+            ],
+            [
+              "Voor wie werd het gemaakt?",
+              "Stap 3: interpreteren"
+            ],
+            [
+              "Welke invloed heeft de maatschappelijke context op de bedoeling?",
+              "Stap 3: interpreteren"
+            ]
+          ],
+          "uitleg": "Stap 1 gaat over feiten rond het werk, stap 2 over wat je waarneemt, stap 3 over de betekenis."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kan je deze uiting volgens het examen met het stappenplan analyseren?",
+          "rijen": [
+            "Een computerspel",
+            "Een graffitiwerk op een muur",
+            "Een protestlied",
+            "Een tabel met cijfers over de bevolking"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Schilderijen, beelden, gebouwen, films, games, graffiti en liederen zijn allemaal kunst- of cultuuruitingen. Een tabel met cijfers is een gewone historische bron."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit beschrijven (stap 2) of al interpreteren (stap 3)?",
+          "kolommen": [
+            "Beschrijven",
+            "Interpreteren"
+          ],
+          "items": [
+            [
+              "Op de voorgrond liggen drie lichamen.",
+              "Beschrijven"
+            ],
+            [
+              "De achtergrond is in grijze en bruine tinten geschilderd.",
+              "Beschrijven"
+            ],
+            [
+              "Het licht valt van links op de centrale figuur.",
+              "Beschrijven"
+            ],
+            [
+              "De maker wil de oorlog aanklagen.",
+              "Interpreteren"
+            ],
+            [
+              "Het werk is bedoeld voor een rijk publiek in de stad.",
+              "Interpreteren"
+            ]
+          ],
+          "uitleg": "Beschrijven kan iedereen controleren door te kijken. Zodra je een bedoeling of een publiek invult, interpreteer je."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke bedoeling past het best bij elke uiting?",
+          "paren": [
+            [
+              "Een spotprent die een minister belachelijk maakt",
+              "Bekritiseren"
+            ],
+            [
+              "Een standbeeld van de koning op een groot plein",
+              "Bevestigen"
+            ],
+            [
+              "Een sierlijk behangpapier met bloemen",
+              "Decoreren"
+            ],
+            [
+              "Een volkslied dat op school gezongen wordt",
+              "Identiteit vormgeven"
+            ]
+          ],
+          "extra": [
+            "Praktisch gebruiken"
+          ],
+          "uitleg": "Praktisch gebruiken past bij een stoel of een brug: dingen die vooral een functie hebben."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen het onderwerp en de bedoeling van een kunstwerk?",
+          "opties": [
+            "Het onderwerp is waarover het gaat, de bedoeling is waarom het gemaakt werd",
+            "Het onderwerp is de titel, de bedoeling is de prijs die ervoor betaald werd",
+            "Het onderwerp kies je zelf als kijker, de bedoeling staat altijd in de titel",
+            "Er is geen verschil, beide woorden betekenen precies hetzelfde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een werk over armoede (onderwerp) kan willen aanklagen, ontroeren of informeren (bedoeling)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een schilderij toont een man in bed, omringd door huilende familieleden en een priester. Welk onderwerp uit het stappenplan herken je?",
+          "opties": [
+            "De dood",
+            "Gender",
+            "Het onrecht",
+            "De liefde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een sterfbed is een klassiek voorbeeld. Dat er ook verdriet en familie in zit, verandert het hoofdonderwerp niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Eugène Delacroix schilderde dit in 1830, in Parijs. Welke maatschappelijke context hoort er bij stap 1?",
+          "opties": [
+            "De Julirevolutie, waarin Parijzenaars de koning Karel X verdreven",
+            "De Franse Revolutie van 1789 en de bestorming van de Bastille",
+            "De Eerste Wereldoorlog en de slag aan de Marne",
+            "De Commune van Parijs na de oorlog met Pruisen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Drie dagen straatgevechten in juli 1830 joegen Karel X weg. Hetzelfde jaar volgde de Belgische Revolutie.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/delacroix-vrijheid.webp"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Stap 2. Wat zie je op het schilderij?",
+          "rijen": [
+            "Een vrouw met een driekleurige vlag.",
+            "Mensen van verschillende standen: een man met hoge hoed, een arbeider, een jongen met pistolen.",
+            "Gesneuvelde mannen op de voorgrond.",
+            "Een koning op een troon in een paleiszaal."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Delacroix toont het volk in al zijn lagen, samen achter de vlag, over de doden heen.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/delacroix-vrijheid.webp"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In De Vrijheid leidt het volk loopt een vrouw met ontblote borst en een Frygische muts voorop. Wie stelt zij voor?",
+          "opties": [
+            "Een allegorie: de Vrijheid zelf, die Frankrijk verbeeldt",
+            "De koningin van Frankrijk, die de opstand steunde",
+            "Een bekende Parijse marktvrouw die bij de gevechten sneuvelde",
+            "De vrouw van de schilder, die altijd model stond"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze is geen echt persoon maar een idee in mensengedaante. In Frankrijk heet die figuur Marianne."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De figuren staan in een [[*piramide|cirkel|rechte rij]], met de [[*vlag|zon|kerk]] op het hoogste punt. Zo trekt het belangrijkste symbool meteen de aandacht.",
+          "uitleg": "De schikking stuurt je blik: van de doden onderaan naar de vlag bovenaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke bedoeling past het best bij De Vrijheid leidt het volk?",
+          "opties": [
+            "Het volk eren dat samen voor de vrijheid vecht",
+            "De opstandelingen afschilderen als misdadigers",
+            "Een rustig landschap tonen om een kamer te versieren",
+            "Reclame maken voor een nieuw soort vlag"
+          ],
+          "antwoord": 0,
+          "uitleg": "Delacroix verheerlijkt de strijd. Hij schreef zijn broer dat hij, als hij niet voor zijn land had gevochten, er dan toch voor wou schilderen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De Franse staat kocht het schilderij in 1831, maar hing het al snel weg uit het zicht. Wat is de meest waarschijnlijke reden?",
+          "opties": [
+            "Een opstand verheerlijken was voor de nieuwe koning te gevaarlijk",
+            "Het schilderij was zwaar beschadigd geraakt bij het transport",
+            "Niemand in Parijs vond het schilderij mooi of interessant",
+            "Het was te klein voor de zalen van het museum"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wat de revolutie viert, kan een nieuwe heerser schrik aanjagen. De context bepaalt mee hoe een werk ontvangen wordt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Jean-François Millet, De arenleesters, 1857. Stap 2: wat zie je?",
+          "rijen": [
+            "Drie vrouwen die zich bukken om achtergebleven aren op te rapen.",
+            "Op de achtergrond grote hopen graan en een volle kar.",
+            "Een man te paard die het werk in de verte overziet.",
+            "Felle, onnatuurlijke kleuren zoals paars en knalgroen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Millet gebruikt warme aardetinten en zacht licht. Het contrast tussen voor- en achtergrond is groot.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/millet-arenleesters.webp"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat maakt de schikking van De arenleesters vooral duidelijk?",
+          "opties": [
+            "Het verschil tussen de armen en de overvloed van anderen",
+            "Dat de drie vrouwen de eigenaars van de rijke oogst zijn",
+            "Dat de oogst een vrolijk feest is voor het hele dorp",
+            "Dat de man te paard de vrouwen straks komt helpen rapen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het contrast toont ongelijkheid. Arenlezen was het recht van de armsten om na de oogst wat over was op te rapen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Sommige kijkers vonden De arenleesters in 1857 verontrustend. Welke context verklaart dat?",
+          "opties": [
+            "De angst voor een nieuwe opstand zoals in 1848",
+            "Een nieuwe wet die schilderijen over boeren en arbeiders verbood",
+            "Een oorlog met Engeland die toen volop bezig was",
+            "Het verbod op graanhandel in Frankrijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na de opstanden van 1848 leken arme arbeiders in groot formaat voor sommigen een politieke dreiging."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het onderwerp van De arenleesters is [[*het alledaagse|de liefde|de dood]] van arme boerenvrouwen. Toch kan je er ook [[*onrecht|gender|entertainment]] in lezen.",
+          "uitleg": "Een alledaags tafereel, maar de keuze om dit te schilderen op groot formaat is al een boodschap."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De Arenleesters hing in 1857 op de Salon, de grote kunsttentoonstelling in Parijs. Wie was daar het doelpubliek?",
+          "opties": [
+            "Kunstkenners, critici en welgestelde kopers uit de stad",
+            "De arme boerenvrouwen die op het doek staan",
+            "Kinderen die er leerden lezen en schrijven",
+            "Soldaten die op weg waren naar het front"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het werk toont armen, maar werd bekeken door rijken. Net dat maakte het zo scherp."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Op De Vrijheid leidt het volk valt het felste [[*licht|schaduw|donker]] op de [[*vrouw met de vlag|gesneuvelden|huizen op de achtergrond]], terwijl de achtergrond in rook en stof verdwijnt.",
+          "uitleg": "Licht en schaduw sturen de blik naar de belangrijkste figuur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is stap 1 bij graffiti vaak moeilijker dan bij een schilderij in een museum?",
+          "opties": [
+            "De maker is vaak onbekend en een datum ontbreekt",
+            "Graffiti heeft nooit kleuren of figuren",
+            "Graffiti mag je volgens de wet niet bestuderen",
+            "Bij graffiti is er nooit een maatschappelijke context"
+          ],
+          "antwoord": 0,
+          "uitleg": "Graffiti is vaak anoniem en verdwijnt of wordt overschilderd. Dan moet je de context uit andere bronnen halen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Stap 1. Juist of fout? Het Justitiepaleis in Brussel.",
+          "rijen": [
+            "Architect Joseph Poelaert ontwierp het, de bouw liep van 1866 tot 1883.",
+            "Het werd gebouwd op een heuvel boven de volksbuurt de Marollen.",
+            "Het werd gebouwd in opdracht van Napoleon.",
+            "Bij de bouw was het een van de grootste gebouwen van Europa."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "België bestond toen pas een paar decennia. Het gebouw is groter dan de Sint-Pietersbasiliek in Rome.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/justitiepaleis-brussel.webp"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke bedoeling had de jonge Belgische staat met zo een reusachtig gerechtsgebouw?",
+          "opties": [
+            "Het gezag van de wet en de staat tonen",
+            "Zo goedkoop mogelijk extra ruimte maken voor de rechtbanken van het land",
+            "Een woning bouwen voor de koninklijke familie",
+            "Werk verschaffen aan buitenlandse arbeiders"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een gebouw kan ook iets zeggen. Hier spreekt het van macht, orde en de ambitie van een jong land."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Voor de bouw werd een deel van de Marollen afgebroken. Wat leer je als je ook dat perspectief meeneemt?",
+          "opties": [
+            "Wat voor de staat prestige was, kostte arme bewoners hun huis",
+            "Het gebouw werd in de Marollen even geliefd als in de rest van het land",
+            "De bewoners van de Marollen hadden zelf om het gebouw gevraagd bij de koning",
+            "De afbraak had niets met het gebouw te maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "In de Marollen werd architect lang een scheldwoord. Een kunstwerk kan voor verschillende groepen iets heel anders betekenen."
+        },
+        {
+          "casus": "Charlie Chaplin, Modern Times, 1936. In deze zwart-witfilm draait een fabrieksarbeider zo lang moertjes vast aan de lopende band dat hij zelf in de machine wordt opgeslokt. Later belandt hij in de werkloosheid en in de gevangenis.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke maatschappelijke context hoort bij deze film?",
+              "opties": [
+                "De crisis van de jaren dertig en het werk aan de lopende band",
+                "De Koude Oorlog en de wapenwedloop tussen de grootmachten",
+                "De dekolonisatie van Afrika en Azië na de oorlog",
+                "De val van de Berlijnse Muur"
+              ],
+              "antwoord": 0,
+              "uitleg": "Massaproductie en de werkloosheid na de beurskrach van 1929 zijn het decor."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Welke bedoelingen passen bij Modern Times?",
+              "rijen": [
+                "Entertainen: het is een komische film.",
+                "Bekritiseren: de mens wordt een onderdeel van de machine.",
+                "Decoreren: de film moest een kamer mooier maken."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Humor en kritiek gaan hier samen. Een werk kan meerdere bedoelingen hebben."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het lied We Shall Overcome werd in de jaren zestig massaal gezongen op betogingen in de Verenigde Staten. Welke bedoeling had het daar?",
+          "opties": [
+            "Moed geven in de strijd tegen rassenscheiding",
+            "Het publiek amuseren in de nachtclubs van New York",
+            "De regering bevestigen in haar beleid",
+            "Reclame maken voor een platenmaatschappij"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een lied geeft een beweging een stem en een gevoel van samenhorigheid: identiteit vormgeven."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Op de resten van de Berlijnse Muur maakten kunstenaars in 1990 meer dan honderd schilderingen. Welke vragen horen bij stap 2?",
+          "rijen": [
+            "Welke materialen zijn gebruikt, zoals verf uit spuitbussen op beton?",
+            "Welke figuren en kleuren zie je?",
+            "Wat wilden de kunstenaars zeggen over de val van de Muur?",
+            "Hoe zijn de beeldelementen op de muur geschikt?"
+          ],
+          "antwoord": [
+            "Stap 2",
+            "Stap 2",
+            "Niet stap 2",
+            "Stap 2"
+          ],
+          "uitleg": "Wat de kunstenaars wilden zeggen, is een vraag naar de bedoeling. Die hoort bij stap 3.",
+          "kolommen": [
+            "Stap 2",
+            "Niet stap 2"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In het computerspel This War of Mine (2014) speel je geen soldaat, maar burgers die in een belegerde stad proberen te overleven. Welke bedoeling past daarbij het best?",
+          "opties": [
+            "Laten voelen wat oorlog voor gewone mensen betekent",
+            "Spelers leren hoe je een leger leidt",
+            "Een oorlog verheerlijken als een avontuur",
+            "Reclame maken voor het leger"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het spel is geïnspireerd op het beleg van Sarajevo. Ook een game kan informeren en bekritiseren."
+        },
+        {
+          "type": "open",
+          "vraag": "Stap 4. Licht in een korte tekst je analyse van De Vrijheid leidt het volk toe. Gebruik wat je in de vorige stappen vond.",
+          "antwoord": "Bijvoorbeeld: De Vrijheid leidt het volk is een schilderij van Eugène Delacroix uit 1830, gemaakt na de Julirevolutie in Parijs. Je ziet een vrouw met de driekleur die mensen uit alle standen over gesneuvelden heen vooruit leidt, in een piramidevorm met de vlag als hoogste punt. De vrouw is een allegorie van de vrijheid. Het onderwerp is de revolutie, de bedoeling is het volk en de vrijheidsstrijd verheerlijken. Doordat de figuren in beweging zijn en de vlag bovenaan staat, ondersteunt de vorm die boodschap."
+        },
+        {
+          "type": "open",
+          "vraag": "Waarom heb je bij elke kunst- of cultuuruiting de maatschappelijke context nodig? Leg uit met een voorbeeld uit dit hoofdstuk.",
+          "antwoord": "Zonder context begrijp je de bedoeling niet. Bijvoorbeeld: De arenleesters lijkt een rustig boerentafereel, maar wie weet dat het in 1857 gemaakt werd, kort na de opstanden van 1848, begrijpt waarom rijke kijkers het als een aanklacht en een dreiging zagen."
+        }
+      ]
     }
   ]
 }
