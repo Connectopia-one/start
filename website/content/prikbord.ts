@@ -136,6 +136,22 @@ export const borden: Bord[] = [
     briefjes: [
       {
         tekst:
+          "Geef je je kind thuisonderwijs? Universiteit Gent zoekt ouders die willen vertellen hoe zij de stap naar thuisonderwijs beleefden. Het gaat om een gesprek van maximaal 90 minuten bij jullie thuis, tussen november 2026 en juni 2027. Wie meedoen kan en hoe je de onderzoeker bereikt, staat op de affiche.",
+        van: "Connectopia",
+        datum: "2026-11-09",
+        label: "Gezocht",
+        foto: {
+          bestand: "ugent-studie-thuisonderwijs.jpg",
+          beschrijving:
+            "Affiche van Universiteit Gent: Thuisonderwijs, wat gaat eraan vooraf? Oproep voor ouders die thuisonderwijs geven om mee te doen aan een gesprek.",
+        },
+        link: {
+          tekst: "Mail de onderzoeker",
+          href: "mailto:vika.saelens@ugent.be",
+        },
+      },
+      {
+        tekst:
           "Zoek je een speelafspraak voor je kind, of net een gezin dat hetzelfde meemaakt? Schrijf kort wie je kind is, wat het graag doet en in welke buurt jullie wonen.",
         van: "Connectopia",
         label: "Voorbeeld",
