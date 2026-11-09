@@ -27,6 +27,7 @@ import bundel
 VAK = "Geschiedenis"
 BEYOND = "🌍 Beyond — 5de en 6de middelbaar"
 tabel = bundel.tabel
+foto = bundel.foto
 
 BUNDELS = {}
 
@@ -1805,5 +1806,151 @@ BUNDELS["de-israelisch-palestijnse-kwestie-beyond"] = dict(
         "Intifada's vanaf 1987 en 2000; akkoorden van Camp David (1978) en Oslo (1993).",
         "Twistpunten: grenzen, Jeruzalem, vluchtelingen, nederzettingen, veiligheid.",
         "De VS: bondgenoot van Israël (Koude Oorlog, lobby, gedeelde waarden) en tegelijk bemiddelaar.",
+    ],
+)
+
+# ───────────────────────── 16. Denkstromingen en kunststromingen (19de en 20ste eeuw)
+# Toegevoegd 9/11/2026: denkstromingen (abolitionisme, sociaal darwinisme,
+# eugenetica) en de kunststromingen van romantiek tot abstracte kunst. De fiche
+# laat je één stroming kiezen; hier staan ze allemaal kort, zodat je ze kan
+# onderscheiden. Schilderijen: publiek domein, zie BRONNEN.txt bij de examenvormen.
+_K = "fotos/kunst-beyond/"
+BUNDELS["denkstromingen-en-kunststromingen-van-de-19de-en-20ste-eeuw-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Denkstromingen en kunststromingen van de 19de en 20ste eeuw",
+    onder="Abolitionisme, sociaal darwinisme en eugenetica, en acht kunststromingen van romantiek tot abstracte kunst.",
+    secties=[
+        dict(kop="Het abolitionisme", blokken=[
+            ("p", "Het <strong>abolitionisme</strong> is de beweging die de <strong>slavenhandel en de slavernij "
+                  "wilde afschaffen</strong>. Ze ontstond <strong>eind 18de eeuw</strong>, onder meer bij "
+                  "<strong>Britse quakers en andere christenen</strong>, vanuit hun christelijke geloof. Ideeën uit de <strong>Verlichting</strong> "
+                  "over de gelijkheid van alle mensen gaven haar argumenten. De grootste tegenstanders waren de "
+                  "<strong>plantage-eigenaars in het Caribisch gebied</strong>, die aan de slavernij verdienden."),
+            ("p", tabel(["Argumenten van abolitionisten", "Argumenten van voorstanders"], [
+                ["alle mensen zijn door God gelijk geschapen", "zonder slavenarbeid gaat de suikerhandel en onze welvaart ten onder"],
+                ["niemand kan eigendom zijn van een ander mens", "de plantage-eigenaars hebben recht op hun wettige bezit"],
+            ])),
+            ("p", "De <strong>middelen</strong> van de abolitionisten: <strong>petities</strong> aan het parlement, "
+                  "een <strong>boycot</strong> van suiker die door slaven gemaakt was (zo konden ook vrouwen en "
+                  "mensen zonder stemrecht meedoen), en <strong>beelden</strong> voor een groot publiek. Het "
+                  "medaillon van <strong>Josiah Wedgwood</strong> uit 1787 toont een geknielde man in ketenen met "
+                  "de vraag <em>Am I not a man and a brother?</em> (Ben ik geen mens en een broeder?): een beroep "
+                  "op gelijkheid en christelijke broederschap. De tekening van het <strong>slavenschip "
+                  "Brookes</strong> (1788) toonde zonder woorden hoe mensen als vracht werden gestapeld."),
+            ("fig", foto(_K + "abolitie-medaillon.jpg", "32%", "Josiah Wedgwood, 1787. Walters Art Museum, publiek domein."), "Het medaillon van de abolitionisten"),
+            ("p", tabel(["Jaar", "Stap naar het einde van de slavernij"], [
+                ["1807", "Groot-Brittannië verbiedt de slavenhandel"],
+                ["1833", "Groot-Brittannië schaft de slavernij in zijn koloniën af"],
+                ["1863", "Nederland schaft de slavernij af in Suriname en de Antillen"],
+                ["1865", "na een burgeroorlog wordt de slavernij in de Verenigde Staten afgeschaft"],
+            ])),
+        ]),
+        dict(kop="Sociaal darwinisme en eugenetica", blokken=[
+            ("p", "<strong>Herbert Spencer</strong> bedacht de uitdrukking <em>survival of the fittest</em>. "
+                  "<strong>Sociaal darwinisten</strong> pasten de strijd om het bestaan uit de natuur toe op "
+                  "<strong>mensen, klassen en volkeren</strong>: wie rijk of machtig is, zou ook biologisch beter "
+                  "zijn. Darwin zelf schreef zijn evolutietheorie over planten en dieren, niet over samenlevingen. Het sociaal darwinisme "
+                  "is geen goede wetenschap maar een <strong>ideologie in een wetenschappelijk jasje</strong>: het "
+                  "werd gebruikt om <strong>ongelijkheid en overheersing goed te praten</strong>, ook het "
+                  "imperialisme."),
+            ("p", "De <strong>eugenetica</strong> wilde het <strong>erfelijk materiaal van een volk "
+                  "verbeteren</strong> door te bepalen wie kinderen mag krijgen. De Brit <strong>Francis "
+                  "Galton</strong> bedacht het woord eind 19de eeuw. De beweging stelde zich voor als een "
+                  "<strong>wetenschap die steunt op vele andere wetenschappen</strong>, zoals biologie, "
+                  "geneeskunde en statistiek; het logo van het internationale congres van 1921 is een boom met "
+                  "die vakken als wortels."),
+            ("p", tabel(["Positieve eugenetica: gewenste mensen aanmoedigen", "Negatieve eugenetica: ongewenste mensen tegenhouden"], [
+                ["wedstrijden voor het gezondste gezin", "gedwongen sterilisatie van mensen met een beperking"],
+                ["premies voor gezinnen met veel kinderen uit de gewenste groep", "huwelijksverboden voor mensen met bepaalde ziektes"],
+            ])),
+            ("p", "Eugenetica was rond 1920 in veel landen populair, <strong>ook in democratieën</strong>. In de "
+                  "<strong>Verenigde Staten</strong> werden tienduizenden mensen gedwongen gesteriliseerd, in "
+                  "<strong>Zweden</strong> gebeurde dat tot in de jaren zeventig. <strong>Nazi-Duitsland</strong> "
+                  "voerde ze het verst door: de nazi's steriliseerden en vermoordden mensen met een beperking en "
+                  "voerden een rassenpolitiek die leidde tot de Holocaust."),
+        ]),
+        dict(kop="Romantiek en realisme", blokken=[
+            ("p", "De <strong>romantiek</strong> (rond 1800 tot 1850) was een reactie op de Verlichting. "
+                  "Romantici stelden <strong>gevoel en verbeelding boven het verstand</strong>, grepen graag terug "
+                  "naar de <strong>middeleeuwen en de eigen nationale geschiedenis</strong>, en toonden een "
+                  "<strong>overweldigende natuur</strong> vol mysterie. Het <strong>nationalisme</strong> van de "
+                  "19de eeuw vond er veel inspiratie in. Kunstenaars: Caspar David Friedrich, Eugène Delacroix, "
+                  "William Turner, en in België Gustaf Wappers."),
+            ("fig", foto(_K + "romantiek-friedrich.jpg", "48%", "Caspar David Friedrich, Wandelaar boven de nevelzee, 1818. Publiek domein."), "Romantiek: een eenzame figuur tegenover een overweldigende natuur"),
+            ("p", "Het <strong>realisme</strong> (rond 1840 tot 1880) toont het <strong>gewone leven zoals het "
+                  "is</strong>: arbeiders en boeren bij zwaar werk, <strong>zonder iets mooier te maken</strong>. "
+                  "Het groeide in de tijd van de <strong>industrialisatie</strong>, de sociale kwestie en de "
+                  "revolutiejaren rond 1848. Kunstenaars: <strong>Gustave Courbet</strong>, Jean-François Millet, "
+                  "en in België <strong>Constantin Meunier</strong>, die mijnwerkers en dokwerkers in brons goot. "
+                  "Courbet gaf arbeiders het grote formaat dat vroeger voor helden en heiligen bedoeld was; veel "
+                  "critici vonden dat schandalig."),
+            ("fig", foto(_K + "realisme-courbet.jpg", "70%", "Gustave Courbet, De steenkappers, 1849 (vernield in 1945). Publiek domein."), "Realisme: gewone arbeiders, zonder verfraaiing"),
+        ]),
+        dict(kop="Impressionisme en expressionisme", blokken=[
+            ("p", "Het <strong>impressionisme</strong> (vanaf de jaren 1870) legt de <strong>indruk van licht en "
+                  "kleur op één moment</strong> vast, met <strong>losse, zichtbare toetsen</strong>, vaak "
+                  "<strong>buiten in de open lucht</strong> geschilderd. Een criticus spotte in 1874 met de titel "
+                  "van een schilderij van <strong>Claude Monet</strong>, <em>Impressie, opkomende zon</em>; zijn "
+                  "spotnaam werd de naam van de stroming. Twee uitvindingen hielpen: <strong>verf in tubes</strong> "
+                  "om buiten te schilderen, en de <strong>fotografie</strong>, waardoor een schilder niet meer alles "
+                  "precies hoefde na te bootsen. Andere impressionisten: Renoir, Degas, Morisot."),
+            ("fig", foto(_K + "impressionisme-monet.jpg", "62%", "Claude Monet, Impressie, opkomende zon, 1872. Publiek domein."), "Impressionisme: een indruk van licht"),
+            ("p", "Het <strong>expressionisme</strong> (begin 20ste eeuw) drukt het <strong>innerlijke gevoel van "
+                  "de kunstenaar</strong> uit, met <strong>vervormde figuren en felle, onnatuurlijke "
+                  "kleuren</strong>. <strong>Edvard Munch</strong> geldt met <em>De schreeuw</em> (1893) als een "
+                  "belangrijke voorloper. In Vlaanderen schilderde <strong>Constant Permeke</strong> boeren en "
+                  "vissers in grove vormen en donkere kleuren."),
+            ("fig", foto(_K + "expressionisme-munch.jpg", "42%", "Edvard Munch, De schreeuw, 1893. Publiek domein."), "Expressionisme: geen werkelijkheid, maar een gevoel"),
+            ("kader", "Impressionisme en expressionisme lijken op elkaar door hun naam, maar zijn bijna "
+                      "tegengestelden: een <strong>indruk van buiten</strong> tegenover een <strong>uitdrukking van "
+                      "binnen</strong>."),
+        ]),
+        dict(kop="Art nouveau en kubisme", blokken=[
+            ("p", "De <strong>art nouveau</strong> (rond 1890 tot 1910) houdt van <strong>sierlijke, golvende "
+                  "lijnen</strong> en <strong>motieven uit de plantenwereld</strong>. Het was een totaalkunst: niet "
+                  "alleen schilderkunst en affiches, maar ook <strong>architectuur en meubels</strong>, van gevel "
+                  "tot deurklink in dezelfde stijl. <strong>Victor Horta</strong> bouwde in Brussel huizen met "
+                  "ijzeren ranken en gebogen lijnen; <strong>Alfons Mucha</strong> maakte in Parijs affiches met "
+                  "haren als ranken."),
+            ("fig", foto(_K + "artnouveau-mucha.jpg", "40%", "Alfons Mucha, affiche voor Job, 1896. Publiek domein."), "Art nouveau: golvende lijnen, kunst in het dagelijks leven"),
+            ("p", "Het <strong>kubisme</strong> begon rond <strong>1907</strong> met <strong>Pablo Picasso en "
+                  "Georges Braque</strong>. Ze toonden een onderwerp <strong>van meerdere kanten tegelijk</strong> en "
+                  "braken het op in <strong>geometrische vlakken</strong>: niet wat het oog op één moment ziet, maar "
+                  "wat je van een ding weet. Ook <strong>Juan Gris</strong> schilderde zo."),
+            ("fig", foto(_K + "kubisme-gris.jpg", "40%", "Juan Gris, Portret van Pablo Picasso, 1912. Publiek domein."), "Kubisme: hoekige vlakken, meerdere kanten tegelijk"),
+        ]),
+        dict(kop="Surrealisme en abstracte kunst", blokken=[
+            ("p", "<strong>André Breton</strong> schreef in <strong>1924</strong> het eerste manifest van het "
+                  "<strong>surrealisme</strong>. De surrealisten lieten zich inspireren door de theorieën van "
+                  "<strong>Freud</strong> over <strong>dromen en het onderbewuste</strong>. Ze schilderden vaak "
+                  "<strong>heel herkenbare dingen</strong>, maar in <strong>onmogelijke combinaties</strong>. "
+                  "<strong>Salvador Dalí</strong> schilderde smeltende klokken in een droomlandschap. De Belg "
+                  "<strong>René Magritte</strong> schilderde een pijp met eronder <em>Dit is geen pijp</em>: een "
+                  "schilderij van een pijp is zelf geen pijp, maar een voorstelling. <strong>Paul Delvaux</strong> "
+                  "schilderde slaapwandelende vrouwen in stille, droomachtige stations. (Hun werk is nog niet vrij "
+                  "van rechten, daarom staat het hier niet afgebeeld.)"),
+            ("p", "De <strong>abstracte kunst</strong> (vanaf ongeveer 1910) toont <strong>geen herkenbare "
+                  "voorstelling</strong>: kleur, lijn en vorm drukken alleen iets uit. <strong>Wassily "
+                  "Kandinsky</strong> werkte met vrije, bewegende vormen en veel kleuren; <strong>Piet "
+                  "Mondriaan</strong> gebruikte enkel rechte zwarte lijnen en vlakken in rood, geel, blauw en wit."),
+            ("fig", foto(_K + "abstract-kandinsky.jpg", "62%", "Wassily Kandinsky, Compositie VII, 1913. Publiek domein."), "Abstracte kunst: vrije vormen en kleuren"),
+            ("p", tabel(["Stroming", "Ongeveer", "Herken je aan"], [
+                ["Romantiek", "rond 1800", "gevoel, natuur, verleden, nationalisme"],
+                ["Realisme", "rond 1850", "het gewone leven en werk, zonder verfraaiing"],
+                ["Impressionisme", "vanaf 1874", "licht op één moment, losse toetsen, buiten"],
+                ["Art nouveau", "rond 1900", "golvende lijnen, plantmotieven, ook gebouwen en meubels"],
+                ["Expressionisme", "begin 20ste eeuw", "innerlijk gevoel, vervorming, felle kleuren"],
+                ["Kubisme", "vanaf 1907", "meerdere kanten tegelijk, geometrische vlakken"],
+                ["Abstracte kunst", "vanaf 1910", "geen herkenbare voorstelling"],
+                ["Surrealisme", "vanaf 1924", "dromen, onmogelijke combinaties"],
+            ])),
+        ]),
+    ],
+    onthoud=[
+        "Abolitionisme: de slavenhandel en de slavernij afschaffen; gelijkheid en christelijke broederschap.",
+        "Sociaal darwinisme: de strijd om het bestaan toepassen op volkeren, om ongelijkheid goed te praten.",
+        "Eugenetica: de staat bepaalt wie kinderen mag krijgen; positieve en negatieve eugenetica.",
+        "Romantiek: gevoel en natuur. Realisme: het gewone leven. Impressionisme: licht op één moment.",
+        "Expressionisme: innerlijk gevoel. Kubisme: meerdere kanten tegelijk. Art nouveau: golvende lijnen.",
+        "Surrealisme: dromen en onmogelijke combinaties. Abstracte kunst: geen herkenbare voorstelling.",
     ],
 )

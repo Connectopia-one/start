@@ -6738,6 +6738,432 @@
           "uitleg": "Jordanië, na Egypte."
         }
       ]
+    },
+    {
+      "titel": "Denkstromingen en kunststromingen van de 19de en 20ste eeuw — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat wilde het abolitionisme?",
+          "opties": [
+            "de slavenhandel en de slavernij afschaffen",
+            "de koloniën uitbreiden met nieuwe plantages",
+            "slaven een eerlijk loon geven op de plantages",
+            "de suikerhandel met Amerika volledig verbieden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Abolitie betekent afschaffing. De beweging ontstond eind 18de eeuw."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar haalden de abolitionisten hun argumenten?",
+          "opties": [
+            "bij het christelijke geloof",
+            "bij de ideeën van de Verlichting over gelijkheid",
+            "bij de plantage-eigenaars in het Caribisch gebied",
+            "bij de eugenetica"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Britse quakers en andere christenen combineerden geloof met verlichte ideeën. Plantage-eigenaars waren net de grootste tegenstanders."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De plantage-eigenaars in het Caribisch gebied steunden het abolitionisme.",
+          "antwoord": false,
+          "uitleg": "Zij verdienden aan de slavernij en waren de grootste tegenstanders."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk argument gebruikten voorstanders van de slavernij rond 1800?",
+          "opties": [
+            "zonder slavenarbeid gaat de suikerhandel en onze welvaart ten onder",
+            "niemand kan eigendom zijn van een ander mens",
+            "alle mensen zijn door God gelijk geschapen",
+            "elke mens heeft recht op vrijheid en een eigen gezin"
+          ],
+          "antwoord": 0,
+          "uitleg": "Economische belangen en eigendomsrecht stonden tegenover morele en religieuze argumenten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke middelen gebruikten de abolitionisten?",
+          "opties": [
+            "petities aan het parlement",
+            "een boycot van suiker die door slaven gemaakt was",
+            "beelden voor een groot publiek, zoals de tekening van een slavenschip",
+            "gewapende aanvallen op Britse havens"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Vreedzame middelen, zodat ook vrouwen en mensen zonder stemrecht konden meedoen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke Engelse vraag staat op het medaillon van Wedgwood uit 1787? Vul aan: Am I not a man and a ...?",
+          "antwoord": [
+            "brother"
+          ],
+          "uitleg": "Am I not a man and a brother? Een beroep op gelijkheid en christelijke broederschap."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een boycot van suiker liet ook vrouwen zonder stemrecht meedoen aan de strijd tegen de slavernij.",
+          "antwoord": true,
+          "uitleg": "Vrouwen beslisten wat er thuis gekocht werd en speelden een grote rol in de beweging."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welk jaar verbood Groot-Brittannië de slavenhandel? Schrijf het jaartal.",
+          "antwoord": [
+            "1807"
+          ],
+          "uitleg": "1807. De slavernij zelf werd in de Britse koloniën pas in 1833 afgeschaft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welk land werd de slavernij pas na een burgeroorlog, in 1865, afgeschaft?",
+          "opties": [
+            "de Verenigde Staten",
+            "Nederland",
+            "Groot-Brittannië",
+            "Frankrijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Nederland deed het in 1863 in Suriname en de Antillen, Groot-Brittannië in 1833."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wie bedacht de uitdrukking survival of the fittest? Familienaam.",
+          "antwoord": [
+            "Spencer",
+            "Herbert Spencer"
+          ],
+          "uitleg": "Herbert Spencer. Sociaal darwinisten pasten dat idee toe op mensen en volkeren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat deden sociaal darwinisten met de strijd om het bestaan uit de natuur?",
+          "opties": [
+            "ze pasten hem toe op mensen, klassen en volkeren",
+            "ze bewezen dat hij voor mensen niet geldt",
+            "ze gebruikten hem om zieken extra te beschermen",
+            "ze beperkten hem strikt tot planten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zo leek het alsof wie rijk of machtig is, ook biologisch beter is."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Darwin zelf schreef zijn evolutietheorie over samenlevingen en volkeren.",
+          "antwoord": false,
+          "uitleg": "Darwin schreef over planten en dieren. Anderen pasten zijn ideeën zomaar toe op samenlevingen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is het sociaal darwinisme geen goede wetenschap?",
+          "opties": [
+            "het past een biologische theorie zomaar toe op samenlevingen",
+            "het leidt uit macht af dat iemand biologisch beter is",
+            "het werd gebruikt om ongelijkheid goed te praten",
+            "het werd nooit door iemand gelezen of verspreid"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Het is een ideologie in een wetenschappelijk jasje. Het werd net heel breed verspreid, ook om het imperialisme te rechtvaardigen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat wilde de eugenetica?",
+          "opties": [
+            "het erfelijk materiaal van een volk verbeteren door te bepalen wie kinderen mag krijgen",
+            "alle ziektes genezen met nieuwe geneesmiddelen en vaccins",
+            "de geschiedenis van de oudste volkeren van Europa onderzoeken",
+            "ouders gratis kinderopvang en onderwijs geven"
+          ],
+          "antwoord": 0,
+          "uitleg": "De staat zou bepalen wie kinderen krijgt. Dat leidde tot gedwongen sterilisaties."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke Brit bedacht eind 19de eeuw het woord eugenetica? Familienaam.",
+          "antwoord": [
+            "Galton",
+            "Francis Galton"
+          ],
+          "uitleg": "Francis Galton."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke maatregel hoort bij de negatieve eugenetica?",
+          "opties": [
+            "gedwongen sterilisatie van mensen met een beperking",
+            "wedstrijden voor het gezondste gezin",
+            "premies voor grote gezinnen uit de gewenste groep",
+            "gratis sportlessen voor alle kinderen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Negatief: ongewenste mensen tegenhouden. Wedstrijden en premies zijn positieve eugenetica."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Eugenetica bleef beperkt tot nazi-Duitsland.",
+          "antwoord": false,
+          "uitleg": "Ze was rond 1920 in veel landen populair, ook in democratieën zoals de Verenigde Staten en Zweden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In Zweden werden nog tot in de jaren zeventig mensen gedwongen gesteriliseerd.",
+          "antwoord": true,
+          "uitleg": "Ook in de Verenigde Staten ging het om tienduizenden mensen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe stelde de eugenetica zich voor op het logo van het congres van 1921?",
+          "opties": [
+            "als een wetenschap die steunt op vele andere wetenschappen",
+            "als een religieuze beweging met een eigen geloofsleer",
+            "als een oude volkswijsheid van boeren",
+            "als een kunststroming die de natuur afbeeldt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het logo is een boom met vakken zoals biologie en statistiek als wortels. Zo wilde de beweging gezag uitstralen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De nazi's steriliseerden en vermoordden mensen met een beperking.",
+          "antwoord": true,
+          "uitleg": "Nazi-Duitsland voerde de eugenetica het verst door. Hun rassenpolitiek leidde tot de Holocaust."
+        }
+      ]
+    },
+    {
+      "titel": "Denkstromingen en kunststromingen van de 19de en 20ste eeuw — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat stelden de romantici boven het verstand?",
+          "opties": [
+            "gevoel en verbeelding",
+            "wetenschap en techniek",
+            "geld en handel",
+            "orde en tucht"
+          ],
+          "antwoord": 0,
+          "uitleg": "De romantiek was een reactie op de Verlichting."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke onderwerpen kozen romantici graag?",
+          "opties": [
+            "een overweldigende natuur",
+            "de middeleeuwen en de eigen nationale geschiedenis",
+            "fabrieksarbeiders bij hun dagelijkse werk",
+            "geometrische vlakken zonder voorstelling"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Arbeiders horen bij het realisme, geometrische vlakken bij het kubisme of de abstracte kunst."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het nationalisme van de 19de eeuw vond veel inspiratie in de romantiek.",
+          "antwoord": true,
+          "uitleg": "Het eigen volk en het eigen verleden stonden centraal, zoals bij Wappers in België."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke Duitse schilder maakte in 1818 de Wandelaar boven de nevelzee? Familienaam.",
+          "antwoord": [
+            "Friedrich",
+            "Caspar David Friedrich"
+          ],
+          "uitleg": "Caspar David Friedrich, een romanticus."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat toont het realisme?",
+          "opties": [
+            "het gewone leven zoals het is, zonder iets mooier te maken",
+            "dromen en het onderbewuste in onmogelijke combinaties",
+            "de indruk van licht op één bepaald moment van de dag",
+            "helden en heiligen uit de oude verhalen en legendes"
+          ],
+          "antwoord": 0,
+          "uitleg": "Arbeiders en boeren bij zwaar werk, in de tijd van de industrialisatie en de sociale kwestie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke Belgische kunstenaar goot mijnwerkers en dokwerkers in brons? Familienaam.",
+          "antwoord": [
+            "Meunier",
+            "Constantin Meunier"
+          ],
+          "uitleg": "Constantin Meunier, een realist."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitvindingen hielpen het impressionisme?",
+          "opties": [
+            "verf in tubes",
+            "de fotografie",
+            "de computer",
+            "elektrisch licht in het atelier"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Met verf in tubes kon je buiten schilderen, en door de fotografie hoefde een schilder niet meer alles na te bootsen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De naam impressionisme komt van een spotnaam van een criticus.",
+          "antwoord": true,
+          "uitleg": "Hij spotte in 1874 met de titel Impressie, opkomende zon van Claude Monet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat drukt het expressionisme uit?",
+          "opties": [
+            "het innerlijke gevoel van de kunstenaar",
+            "de indruk van licht op één moment",
+            "de werkelijkheid zo precies mogelijk",
+            "beelden uit reclame en strips"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met vervormde figuren en felle, onnatuurlijke kleuren. Munch geldt als voorloper."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Impressionisme en expressionisme zijn twee namen voor dezelfde stroming.",
+          "antwoord": false,
+          "uitleg": "Ze zijn bijna tegengestelden: een indruk van buiten tegenover een uitdrukking van binnen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke Vlaamse expressionist schilderde boeren en vissers in grove vormen en donkere kleuren? Familienaam.",
+          "antwoord": [
+            "Permeke",
+            "Constant Permeke"
+          ],
+          "uitleg": "Constant Permeke."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waaraan herken je de art nouveau?",
+          "opties": [
+            "sierlijke, golvende lijnen",
+            "motieven uit de plantenwereld",
+            "strakke rechte lijnen en enkel primaire kleuren",
+            "smeltende klokken in een droomlandschap"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Rechte lijnen en primaire kleuren zijn Mondriaan, smeltende klokken zijn Dalí."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke Brusselse architect bouwde huizen in art nouveau, met ijzeren ranken en gebogen lijnen? Familienaam.",
+          "antwoord": [
+            "Horta",
+            "Victor Horta"
+          ],
+          "uitleg": "Victor Horta."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De art nouveau bleef beperkt tot schilderijen in musea.",
+          "antwoord": false,
+          "uitleg": "Het was een totaalkunst: ook affiches, architectuur en meubels, van gevel tot deurklink."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe toont het kubisme een onderwerp?",
+          "opties": [
+            "van meerdere kanten tegelijk, opgebroken in geometrische vlakken",
+            "zoals het oog het op één moment in het licht ziet",
+            "als een droom met onmogelijke combinaties van dingen",
+            "zonder enige herkenbare vorm, enkel met kleur en lijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "Niet wat het oog op één moment ziet, maar wat je van een ding weet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Met welke twee schilders begon het kubisme rond 1907?",
+          "opties": [
+            "Picasso en Braque",
+            "Monet en Renoir",
+            "Dalí en Magritte",
+            "Kandinsky en Mondriaan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Pablo Picasso en Georges Braque. Ook Juan Gris schilderde zo."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Door wiens theorieën over dromen en het onderbewuste lieten de surrealisten zich inspireren?",
+          "opties": [
+            "Freud",
+            "Darwin",
+            "Marx",
+            "Spencer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Sigmund Freud. André Breton schreef in 1924 het eerste manifest."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Surrealisten schilderden vaak heel herkenbare dingen, maar in onmogelijke combinaties.",
+          "antwoord": true,
+          "uitleg": "Denk aan Magritte, die een pijp schilderde met eronder Dit is geen pijp."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het kenmerk van abstracte kunst?",
+          "opties": [
+            "er is geen herkenbare voorstelling",
+            "alles wordt zo echt mogelijk geschilderd",
+            "ze toont altijd landschappen in de open lucht",
+            "ze gebruikt enkel zwart en wit"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kleur, lijn en vorm drukken alleen iets uit, vrij bij Kandinsky, geometrisch bij Mondriaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke kunststromingen ontstonden in de 20ste eeuw?",
+          "opties": [
+            "kubisme",
+            "surrealisme",
+            "abstracte kunst",
+            "romantiek"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De romantiek ontstond rond 1800. Kubisme vanaf 1907, abstracte kunst rond 1910, surrealisme vanaf 1924."
+        }
+      ]
     }
   ]
 }
