@@ -59,6 +59,20 @@ THEMAS = [
     ("wb3_normaal", "De normale verdeling"),
 ]
 
+# Enkel voor bedrijfswetenschappen. De titel begint met "Bedrijfswetenschappen: ",
+# en daardoor laat de keuze "Ik leer voor" (inhoud/vaknoten.ts, weglaten) deze
+# hoofdstukken weg bij een andere richting en bij welzijnswetenschappen.
+BED = "Bedrijfswetenschappen: "
+THEMAS += [
+    ("wbb_ongelijkheden", BED + "ongelijkheden oplossen"),
+    ("wbb_expgonio", BED + "exponentiële en goniometrische vergelijkingen"),
+    ("wbb_rekenregels", BED + "afgeleiden berekenen met rekenregels"),
+    ("wbb_verloop", BED + "verloop van een functie en optimaliseren"),
+    ("wbb_integralen", BED + "integralen en oppervlakte"),
+    ("wbb_matrices", BED + "matrices, grafen en stelsels"),
+    ("wbb_toetsen", BED + "hypothesetoetsen en correlatie"),
+]
+
 
 def controleer(titel: str, nummer: int, vraag: dict):
     plek = f"{titel}: vraag {nummer}"

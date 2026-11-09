@@ -4940,6 +4940,2904 @@
           "uitleg": "Een normale verdeling ligt vast door \\(\\mu\\) en \\(\\sigma\\). Samen met de grens geeft dat de kans."
         }
       ]
+    },
+    {
+      "titel": "Bedrijfswetenschappen: ongelijkheden oplossen — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe lees je de oplossingen van \\(f(x) > 0\\) af op de grafiek van \\(f\\)?",
+          "opties": [
+            "de \\(x\\)-waarden waar de grafiek boven de \\(x\\)-as ligt",
+            "de \\(x\\)-waarden waar de grafiek onder de \\(x\\)-as ligt",
+            "de \\(x\\)-waarden waar de grafiek stijgt",
+            "de \\(y\\)-waarden die groter zijn dan \\(0\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(f(x) > 0\\) betekent een positieve functiewaarde: boven de \\(x\\)-as."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe lees je de oplossingen van \\(f(x) \\le g(x)\\) af?",
+          "opties": [
+            "de \\(x\\)-waarden waar de grafiek van \\(f\\) onder of op die van \\(g\\) ligt",
+            "de \\(x\\)-waarden waar de grafiek van \\(f\\) boven die van \\(g\\) ligt",
+            "de \\(x\\)-waarden waar beide grafieken stijgen",
+            "de \\(x\\)-waarden waar \\(f\\) en \\(g\\) allebei negatief zijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kleiner of gelijk: onder de andere grafiek, met de snijpunten erbij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De grafiek van \\(f\\) snijdt de \\(x\\)-as in \\(-3\\) en \\(1\\) en ligt ertussen boven de \\(x\\)-as. Wat is \\(V\\) van \\(f(x) \\ge 0\\)?",
+          "opties": [
+            "\\([-3, 1]\\)",
+            "\\(]-3, 1[\\)",
+            "\\(]-\\infty, -3] \\cup [1, +\\infty[\\)",
+            "\\(\\{-3, 1\\}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Groter of gelijk aan nul: het stuk boven de \\(x\\)-as, met de nulwaarden erbij. Dus gesloten haken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij dezelfde \\(f\\) (nulwaarden \\(-3\\) en \\(1\\), positief ertussen): wat is \\(V\\) van \\(f(x) < 0\\)?",
+          "opties": [
+            "\\(]-\\infty, -3[ \\cup ]1, +\\infty[\\)",
+            "\\(]-3, 1[\\)",
+            "\\([-3, 1]\\)",
+            "\\(]-\\infty, -3] \\cup [1, +\\infty[\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Strikt kleiner dan nul: buiten de nulwaarden, zonder de nulwaarden zelf."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een strikte ongelijkheid zoals \\(f(x) > 0\\) horen de nulwaarden van \\(f\\) niet bij de oplossingen.",
+          "antwoord": true,
+          "uitleg": "In een nulwaarde is \\(f(x) = 0\\), en \\(0 > 0\\) is niet waar. Daarom open haken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noteer je alle reële getallen groter dan of gelijk aan \\(4\\)?",
+          "opties": [
+            "\\([4, +\\infty[\\)",
+            "\\(]4, +\\infty[\\)",
+            "\\([4, +\\infty]\\)",
+            "\\(]-\\infty, 4]\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(4\\) hoort erbij: gesloten haak. Bij oneindig staat altijd een open haak."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De grafieken van \\(f\\) en \\(g\\) snijden elkaar enkel in \\(x = 2\\). Voor \\(x < 2\\) ligt \\(f\\) onder \\(g\\), voor \\(x > 2\\) erboven. Wat is \\(V\\) van \\(f(x) > g(x)\\)?",
+          "opties": [
+            "\\(]2, +\\infty[\\)",
+            "\\(]-\\infty, 2[\\)",
+            "\\([2, +\\infty[\\)",
+            "\\(\\{2\\}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Waar \\(f\\) strikt boven \\(g\\) ligt, dus rechts van het snijpunt, zonder \\(2\\) zelf."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De ongelijkheid \\(2^{x} > 0\\) geldt voor alle reële \\(x\\).",
+          "antwoord": true,
+          "uitleg": "De grafiek van \\(2^{x}\\) ligt overal boven de \\(x\\)-as: \\(V = \\mathbb{R}\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De ongelijkheid \\(\\sin x > 1\\) heeft oplossingen.",
+          "antwoord": false,
+          "uitleg": "De sinus is hoogstens \\(1\\). \\(V = \\varnothing\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is \\(V\\) van \\(\\sin x \\ge 0\\) op \\([0, 2\\pi]\\)?",
+          "opties": [
+            "\\([0, \\pi] \\cup \\{2\\pi\\}\\)",
+            "\\([\\pi, 2\\pi]\\)",
+            "\\(]0, \\pi[\\)",
+            "\\(\\left[0, \\dfrac{\\pi}{2}\\right]\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De sinus is niet negatief van \\(0\\) tot \\(\\pi\\), en in \\(2\\pi\\) is ze opnieuw \\(0\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een rekenapp toont dat \\(3 \\cdot 1{,}2^{x}\\) en \\(10\\) elkaar snijden bij \\(x \\approx 6{,}60\\). Wat is \\(V\\) van \\(3 \\cdot 1{,}2^{x} < 10\\)?",
+          "opties": [
+            "\\(]-\\infty;\\ 6{,}60[\\)",
+            "\\(]6{,}60;\\ +\\infty[\\)",
+            "\\([0;\\ 6{,}60]\\)",
+            "\\(\\{6{,}60\\}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(3 \\cdot 1{,}2^{x}\\) stijgt, dus ze ligt onder \\(10\\) links van het snijpunt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je beide leden van een ongelijkheid vermenigvuldigt met een negatief getal, keert het ongelijkheidsteken om.",
+          "antwoord": true,
+          "uitleg": "\\(2 < 5\\), maar \\(-2 > -5\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(-3x + 6 > 0\\).",
+          "opties": [
+            "\\(V = ]-\\infty, 2[\\)",
+            "\\(V = ]2, +\\infty[\\)",
+            "\\(V = ]-\\infty, -2[\\)",
+            "\\(V = [2, +\\infty[\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(-3x > -6 \\iff x < 2\\): delen door \\(-3\\) keert het teken om."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\\(V = ]1, 5]\\) betekent: \\(1 < x \\le 5\\).",
+          "antwoord": true,
+          "uitleg": "De open haak bij \\(1\\) sluit \\(1\\) uit, de gesloten haak bij \\(5\\) neemt \\(5\\) mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke ongelijkheid hoort bij de vraag: wanneer ligt de grafiek van \\(f\\) boven de rechte \\(y = 3\\)?",
+          "opties": [
+            "\\(f(x) > 3\\)",
+            "\\(f(x) < 3\\)",
+            "\\(f(3) > 0\\)",
+            "\\(f(x) > 0\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Boven de rechte \\(y = 3\\) betekent een functiewaarde groter dan \\(3\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\\(V = [2, 7[\\) bevat het getal \\(7\\).",
+          "antwoord": false,
+          "uitleg": "De open haak bij \\(7\\) sluit het uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een dalende rechte \\(f\\) en een stijgende rechte \\(g\\) snijden elkaar in \\(x = 4\\). Wat is \\(V\\) van \\(f(x) \\ge g(x)\\)?",
+          "opties": [
+            "\\(]-\\infty, 4]\\)",
+            "\\([4, +\\infty[\\)",
+            "\\(]-\\infty, 4[\\)",
+            "\\(\\mathbb{R}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Links van het snijpunt ligt de dalende rechte nog hoger. Het snijpunt telt mee door het gelijkheidsteken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De ongelijkheid \\(x^{2} < 0\\) heeft geen reële oplossingen.",
+          "antwoord": true,
+          "uitleg": "Een kwadraat is nooit negatief. \\(V = \\varnothing\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De ongelijkheid \\(x^{2} \\le 0\\) heeft geen reële oplossingen.",
+          "antwoord": false,
+          "uitleg": "Voor \\(x = 0\\) is \\(x^{2} = 0 \\le 0\\). \\(V = \\{0\\}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een veeltermfunctie heeft nulwaarden \\(-2\\), \\(0\\) en \\(3\\). Het tekenverloop is \\(-\\), \\(+\\), \\(-\\), \\(+\\). Wat is \\(V\\) van \\(f(x) > 0\\)?",
+          "opties": [
+            "\\(]-2, 0[ \\cup ]3, +\\infty[\\)",
+            "\\(]-\\infty, -2[ \\cup ]0, 3[\\)",
+            "\\(]-2, 3[\\)",
+            "\\(]0, 3[\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je neemt de intervallen met een \\(+\\): tussen \\(-2\\) en \\(0\\), en na \\(3\\)."
+        }
+      ]
+    },
+    {
+      "titel": "Bedrijfswetenschappen: ongelijkheden oplossen — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe los je \\(x^{2} - 5x + 4 < 0\\) algebraïsch op?",
+          "opties": [
+            "nulwaarden zoeken, een tekenverloop maken en de intervallen met \\(-\\) nemen",
+            "\\(x^{2} < 5x - 4\\) schrijven en de vierkantswortel nemen",
+            "enkel de nulwaarden noteren",
+            "\\(x\\) buiten haakjes zetten en door \\(x\\) delen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een tekenverloop laat zien waar de tweedegraadsfunctie positief en negatief is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(x^{2} - 5x + 4 < 0\\).",
+          "opties": [
+            "\\(V = ]1, 4[\\)",
+            "\\(V = ]-\\infty, 1[ \\cup ]4, +\\infty[\\)",
+            "\\(V = [1, 4]\\)",
+            "\\(V = \\{1, 4\\}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Nulwaarden \\(1\\) en \\(4\\). Een dalparabool is negatief tussen de nulwaarden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(x^{2} - 9 \\ge 0\\).",
+          "opties": [
+            "\\(V = ]-\\infty, -3] \\cup [3, +\\infty[\\)",
+            "\\(V = [-3, 3]\\)",
+            "\\(V = [3, +\\infty[\\)",
+            "\\(V = ]-3, 3[\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Nulwaarden \\(-3\\) en \\(3\\). Een dalparabool is positief buiten de nulwaarden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(-x^{2} + 2x + 3 > 0\\).",
+          "opties": [
+            "\\(V = ]-1, 3[\\)",
+            "\\(V = ]-\\infty, -1[ \\cup ]3, +\\infty[\\)",
+            "\\(V = ]-3, 1[\\)",
+            "\\(V = [-1, 3]\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(-x^{2} + 2x + 3 = -(x - 3)(x + 1)\\). Een bergparabool is positief tussen de nulwaarden \\(-1\\) en \\(3\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een bergparabool is positief tussen haar nulwaarden.",
+          "antwoord": true,
+          "uitleg": "Ze opent naar beneden: tussen de nulwaarden ligt het stuk boven de \\(x\\)-as."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(x^{2} + 4 > 0\\).",
+          "opties": [
+            "\\(V = \\mathbb{R}\\)",
+            "\\(V = \\varnothing\\)",
+            "\\(V = ]-2, 2[\\)",
+            "\\(V = ]2, +\\infty[\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(D < 0\\) en \\(a > 0\\): de parabool ligt helemaal boven de \\(x\\)-as."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(x^{2} - 6x + 9 > 0\\).",
+          "opties": [
+            "\\(V = \\mathbb{R} \\setminus \\{3\\}\\)",
+            "\\(V = \\mathbb{R}\\)",
+            "\\(V = \\varnothing\\)",
+            "\\(V = ]3, +\\infty[\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\((x - 3)^{2} > 0\\) voor alle \\(x\\) behalve \\(3\\), waar het precies \\(0\\) is."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij \\(x^{2} - 6x + 9 \\le 0\\) is \\(V = \\{3\\}\\).",
+          "antwoord": true,
+          "uitleg": "Een kwadraat is enkel kleiner of gelijk aan \\(0\\) als het \\(0\\) is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(2x^{2} \\le 8x\\).",
+          "opties": [
+            "\\(V = [0, 4]\\)",
+            "\\(V = ]-\\infty, 4]\\)",
+            "\\(V = [4, +\\infty[\\)",
+            "\\(V = ]-\\infty, 0] \\cup [4, +\\infty[\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(2x^{2} - 8x \\le 0 \\iff 2x(x - 4) \\le 0\\): tussen de nulwaarden \\(0\\) en \\(4\\), grenzen inbegrepen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij \\(2x^{2} \\le 8x\\) mag je beide leden door \\(2x\\) delen en \\(x \\le 4\\) besluiten.",
+          "antwoord": false,
+          "uitleg": "\\(2x\\) kan negatief of nul zijn: dan klopt de richting van het teken niet meer. Zo verlies je de grens \\(0\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De winst van een bedrijf is \\(W(q) = -q^{2} + 60q - 500\\) euro. Voor welke aantallen \\(q\\) maakt het winst?",
+          "opties": [
+            "\\(10 < q < 50\\)",
+            "\\(q < 10\\) of \\(q > 50\\)",
+            "\\(q > 30\\)",
+            "\\(20 < q < 40\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(-q^{2} + 60q - 500 > 0 \\iff q^{2} - 60q + 500 < 0 \\iff (q - 10)(q - 50) < 0\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bij \\(W(q) = -q^{2} + 60q - 500\\): hoeveel stuks geven de grootste winst? Schrijf het getal.",
+          "antwoord": [
+            "30",
+            "dertig"
+          ],
+          "uitleg": "De top ligt midden tussen de nulwaarden \\(10\\) en \\(50\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bal: \\(h(t) = -5t^{2} + 20t\\) m. Wanneer is hij hoger dan \\(15\\) m?",
+          "opties": [
+            "\\(1 < t < 3\\)",
+            "\\(t < 1\\) of \\(t > 3\\)",
+            "\\(0 < t < 4\\)",
+            "\\(t > 3\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(-5t^{2} + 20t > 15 \\iff t^{2} - 4t + 3 < 0 \\iff (t - 1)(t - 3) < 0\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een tekenverloop van \\(ax^{2} + bx + c\\) met twee nulwaarden en \\(a > 0\\) staat er tussen de nulwaarden een \\(+\\).",
+          "antwoord": false,
+          "uitleg": "Een dalparabool ligt tussen haar nulwaarden onder de \\(x\\)-as: daar staat een \\(-\\). Buiten de nulwaarden staat een \\(+\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Voor welke \\(x\\) ligt de parabool \\(f(x) = x^{2}\\) onder de rechte \\(g(x) = x + 2\\)?",
+          "opties": [
+            "\\(]-1, 2[\\)",
+            "\\(]-\\infty, -1[ \\cup ]2, +\\infty[\\)",
+            "\\(]-2, 1[\\)",
+            "\\([-1, 2]\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(x^{2} < x + 2 \\iff x^{2} - x - 2 < 0 \\iff (x - 2)(x + 1) < 0\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een rechthoek heeft breedte \\(x\\) en lengte \\(12 - x\\) (in cm). Voor welke breedtes is de oppervlakte minstens \\(32\\ \\text{cm}^{2}\\)?",
+          "opties": [
+            "\\(4 \\le x \\le 8\\)",
+            "\\(x \\le 4\\) of \\(x \\ge 8\\)",
+            "\\(0 < x < 12\\)",
+            "\\(x \\ge 8\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(x(12 - x) \\ge 32 \\iff x^{2} - 12x + 32 \\le 0 \\iff (x - 4)(x - 8) \\le 0\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een tweedegraadsongelijkheid heeft altijd een begrensd interval als oplossing.",
+          "antwoord": false,
+          "uitleg": "Ze kan ook twee onbegrensde stukken, heel \\(\\mathbb{R}\\) of geen enkele oplossing hebben."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(-2x^{2} + 8 \\le 0\\).",
+          "opties": [
+            "\\(V = ]-\\infty, -2] \\cup [2, +\\infty[\\)",
+            "\\(V = [-2, 2]\\)",
+            "\\(V = ]-2, 2[\\)",
+            "\\(V = \\varnothing\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(-2x^{2} + 8 = -2(x - 2)(x + 2)\\). Een bergparabool is negatief buiten de nulwaarden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij \\(-2x^{2} + 8 \\le 0\\) horen \\(-2\\) en \\(2\\) bij de oplossingen.",
+          "antwoord": true,
+          "uitleg": "Door het gelijkheidsteken tellen de nulwaarden mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De kost per dag van een machine is \\(K(u) = u^{2} - 8u + 30\\) euro bij \\(u\\) uur draaien. Wanneer is de kost lager dan \\(18\\) euro?",
+          "opties": [
+            "\\(2 < u < 6\\)",
+            "\\(u < 2\\) of \\(u > 6\\)",
+            "\\(u < 4\\)",
+            "\\(3 < u < 5\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(u^{2} - 8u + 30 < 18 \\iff u^{2} - 8u + 12 < 0 \\iff (u - 2)(u - 6) < 0\\)."
+        }
+      ]
+    },
+    {
+      "titel": "Bedrijfswetenschappen: exponentiële en goniometrische vergelijkingen — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "invultekst",
+          "vraag": "Los op: \\(2^{x} = 64\\). Schrijf \\(x\\).",
+          "antwoord": [
+            "6",
+            "zes"
+          ],
+          "uitleg": "\\(64 = 2^{6}\\), dus \\(x = 6\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Los op: \\(3^{x} = \\dfrac{1}{27}\\). Schrijf \\(x\\).",
+          "antwoord": [
+            "-3",
+            "−3",
+            "min 3"
+          ],
+          "uitleg": "\\(\\dfrac{1}{27} = 3^{-3}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(5 \\cdot 2^{x} - 40 = 0\\).",
+          "opties": [
+            "\\(V = \\{3\\}\\)",
+            "\\(V = \\{8\\}\\)",
+            "\\(V = \\{4\\}\\)",
+            "\\(V = \\varnothing\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(5 \\cdot 2^{x} = 40 \\iff 2^{x} = 8 \\iff x = 3\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(2^{x} = 7\\). Wat is de exacte oplossing?",
+          "opties": [
+            "\\(x = \\log_{2} 7\\)",
+            "\\(x = \\dfrac{7}{2}\\)",
+            "\\(x = \\log_{7} 2\\)",
+            "\\(x = \\sqrt{7}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Als het rechterlid geen mooie macht van \\(2\\) is, neem je de logaritme: \\(x = \\log_{2} 7 = \\dfrac{\\log 7}{\\log 2}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(2^{x} = 7\\). Afgerond op twee cijfers na de komma is \\(x\\) ...",
+          "opties": [
+            "\\(2{,}81\\)",
+            "\\(3{,}50\\)",
+            "\\(0{,}36\\)",
+            "\\(2{,}65\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\dfrac{\\log 7}{\\log 2} \\approx \\dfrac{0{,}8451}{0{,}3010} \\approx 2{,}81\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(4 \\cdot 1{,}5^{x} + 3 = 0\\).",
+          "opties": [
+            "\\(V = \\varnothing\\)",
+            "\\(V = \\left\\{\\log_{1{,}5} \\tfrac{3}{4}\\right\\}\\)",
+            "\\(V = \\{-1\\}\\)",
+            "\\(V = \\{0\\}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(1{,}5^{x} = -\\tfrac{3}{4}\\) kan niet: een macht met positief grondtal is nooit negatief."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Om \\(a^{x} = k\\) met \\(k > 0\\) op te lossen, neem je van beide leden de logaritme met grondtal \\(a\\).",
+          "antwoord": true,
+          "uitleg": "\\(x = \\log_{a} k\\). Met een rekentoestel reken je dat uit als \\(\\dfrac{\\log k}{\\log a}\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Los op: \\(10^{x} = 0{,}001\\). Schrijf \\(x\\).",
+          "antwoord": [
+            "-3",
+            "−3",
+            "min 3"
+          ],
+          "uitleg": "\\(0{,}001 = 10^{-3}\\), of \\(x = \\log 0{,}001 = -3\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(e^{x} = 5\\).",
+          "opties": [
+            "\\(x = \\ln 5\\)",
+            "\\(x = \\log 5\\)",
+            "\\(x = \\dfrac{5}{e}\\)",
+            "\\(x = 5e\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\ln\\) is de logaritme met grondtal \\(e\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kapitaal van \\(2000\\) euro groeit met \\(3\\%\\) per jaar. Welke vergelijking geeft de tijd waarna het \\(3000\\) euro is?",
+          "opties": [
+            "\\(2000 \\cdot 1{,}03^{t} = 3000\\)",
+            "\\(2000 + 0{,}03t = 3000\\)",
+            "\\(2000 \\cdot 0{,}03^{t} = 3000\\)",
+            "\\(3000 \\cdot 1{,}03^{t} = 2000\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Beginwaarde maal groeifactor tot de tijd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(2000 \\cdot 1{,}03^{t} = 3000\\). Afgerond op één cijfer na de komma ...",
+          "opties": [
+            "\\(t \\approx 13{,}7\\)",
+            "\\(t \\approx 16{,}7\\)",
+            "\\(t \\approx 1{,}5\\)",
+            "\\(t \\approx 50{,}0\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(1{,}03^{t} = 1{,}5 \\iff t = \\dfrac{\\log 1{,}5}{\\log 1{,}03} \\approx 13{,}7\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\\(2 \\cdot 3^{x} = 18\\) heeft dezelfde oplossing als \\(6^{x} = 18\\).",
+          "antwoord": false,
+          "uitleg": "Je mag \\(2\\) en \\(3\\) niet samennemen onder de exponent. \\(3^{x} = 9\\) geeft \\(x = 2\\); \\(6^{x} = 18\\) geeft \\(x \\approx 1{,}61\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een stof halveert elke \\(5\\) jaar: \\(M(t) = 80 \\cdot 0{,}5^{t/5}\\). Na hoeveel jaar is er nog \\(10\\) gram?",
+          "opties": [
+            "\\(15\\) jaar",
+            "\\(40\\) jaar",
+            "\\(8\\) jaar",
+            "\\(35\\) jaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(0{,}5^{t/5} = \\tfrac{1}{8} = 0{,}5^{3}\\), dus \\(\\dfrac{t}{5} = 3\\) en \\(t = 15\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Los op: \\(9^{x} = 3\\). Schrijf \\(x\\) als breuk, bijvoorbeeld 1/5.",
+          "antwoord": [
+            "1/2",
+            "0,5",
+            "0.5"
+          ],
+          "uitleg": "\\(9^{\\frac{1}{2}} = \\sqrt{9} = 3\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een vergelijking \\(b \\cdot a^{x} + c = 0\\) met \\(b > 0\\) en \\(c > 0\\) heeft geen oplossing.",
+          "antwoord": true,
+          "uitleg": "Dan is \\(b \\cdot a^{x} + c\\) altijd groter dan \\(c > 0\\), dus nooit nul."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stap is fout? \\(3 \\cdot 2^{x} = 24 \\Rightarrow 6^{x} = 24 \\Rightarrow x = \\log_{6} 24\\)",
+          "opties": [
+            "de eerste stap: \\(3 \\cdot 2^{x}\\) is niet gelijk aan \\(6^{x}\\)",
+            "de tweede stap: de logaritme mag hier niet",
+            "geen enkele stap is fout",
+            "je moet eerst \\(24\\) delen door \\(2\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Deel eerst door \\(3\\): \\(2^{x} = 8\\), dus \\(x = 3\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bevolking van \\(50\\,000\\) krimpt met \\(4\\%\\) per jaar. Na hoeveel jaar zakt ze onder \\(40\\,000\\)?",
+          "opties": [
+            "na \\(6\\) jaar",
+            "na \\(5\\) jaar",
+            "na \\(3\\) jaar",
+            "na \\(10\\) jaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(0{,}96^{t} = 0{,}8 \\iff t = \\dfrac{\\log 0{,}8}{\\log 0{,}96} \\approx 5{,}47\\). In het zesde jaar zakt ze eronder, na \\(6\\) jaar is het zeker."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\\(\\log_{a} k\\) is negatief als \\(a > 1\\) en \\(k > 1\\).",
+          "antwoord": false,
+          "uitleg": "Met een grondtal groter dan \\(1\\) kom je boven \\(1\\) uit met een positieve exponent. Negatief is de logaritme pas als \\(0 < k < 1\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(1{,}2^{x} - 2 = 0\\), afgerond op twee cijfers na de komma.",
+          "opties": [
+            "\\(x \\approx 3{,}80\\)",
+            "\\(x \\approx 1{,}67\\)",
+            "\\(x \\approx 0{,}26\\)",
+            "\\(x \\approx 2{,}40\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(1{,}2^{x} = 2 \\iff x = \\dfrac{\\log 2}{\\log 1{,}2} \\approx 3{,}80\\). Dat is de verdubbelingstijd bij \\(20\\%\\) groei."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij exponentiële groei vind je de verdubbelingstijd door \\(a^{t} = 2\\) op te lossen.",
+          "antwoord": true,
+          "uitleg": "De beginwaarde valt weg uit \\(b \\cdot a^{t} = 2b\\)."
+        }
+      ]
+    },
+    {
+      "titel": "Bedrijfswetenschappen: exponentiële en goniometrische vergelijkingen — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op in \\([0, 2\\pi]\\): \\(\\sin x = \\dfrac{1}{2}\\).",
+          "opties": [
+            "\\(V = \\left\\{\\dfrac{\\pi}{6}, \\dfrac{5\\pi}{6}\\right\\}\\)",
+            "\\(V = \\left\\{\\dfrac{\\pi}{6}\\right\\}\\)",
+            "\\(V = \\left\\{\\dfrac{\\pi}{3}, \\dfrac{2\\pi}{3}\\right\\}\\)",
+            "\\(V = \\left\\{\\dfrac{\\pi}{6}, \\dfrac{7\\pi}{6}\\right\\}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\sin \\dfrac{\\pi}{6} = \\dfrac{1}{2}\\). De tweede oplossing is \\(\\pi - \\dfrac{\\pi}{6} = \\dfrac{5\\pi}{6}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Als \\(\\sin x = \\sin \\alpha\\), welke oplossingen zijn er dan?",
+          "opties": [
+            "\\(x = \\alpha + k \\cdot 2\\pi\\) of \\(x = \\pi - \\alpha + k \\cdot 2\\pi\\), met \\(k \\in \\mathbb{Z}\\)",
+            "enkel \\(x = \\alpha\\)",
+            "\\(x = \\alpha + k \\cdot \\pi\\), met \\(k \\in \\mathbb{Z}\\)",
+            "\\(x = \\pm \\alpha + k \\cdot 2\\pi\\), met \\(k \\in \\mathbb{Z}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee punten op de goniometrische cirkel hebben dezelfde hoogte: \\(\\alpha\\) en \\(\\pi - \\alpha\\). Elke volle toer erbij geeft opnieuw een oplossing."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op in \\([0, 2\\pi]\\): \\(\\sin x = -1\\).",
+          "opties": [
+            "\\(V = \\left\\{\\dfrac{3\\pi}{2}\\right\\}\\)",
+            "\\(V = \\{\\pi\\}\\)",
+            "\\(V = \\left\\{\\dfrac{\\pi}{2}, \\dfrac{3\\pi}{2}\\right\\}\\)",
+            "\\(V = \\varnothing\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Enkel onderaan op de cirkel is de sinus \\(-1\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op in \\([0, 2\\pi]\\): \\(2 \\sin x - 1 = 0\\).",
+          "opties": [
+            "\\(V = \\left\\{\\dfrac{\\pi}{6}, \\dfrac{5\\pi}{6}\\right\\}\\)",
+            "\\(V = \\left\\{\\dfrac{\\pi}{3}, \\dfrac{2\\pi}{3}\\right\\}\\)",
+            "\\(V = \\left\\{\\dfrac{7\\pi}{6}, \\dfrac{11\\pi}{6}\\right\\}\\)",
+            "\\(V = \\{1\\}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\sin x = \\dfrac{1}{2}\\), en dat geeft \\(\\dfrac{\\pi}{6}\\) en \\(\\dfrac{5\\pi}{6}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op in \\([0, 2\\pi]\\): \\(2 \\sin x + \\sqrt{3} = 0\\).",
+          "opties": [
+            "\\(V = \\left\\{\\dfrac{4\\pi}{3}, \\dfrac{5\\pi}{3}\\right\\}\\)",
+            "\\(V = \\left\\{\\dfrac{\\pi}{3}, \\dfrac{2\\pi}{3}\\right\\}\\)",
+            "\\(V = \\left\\{\\dfrac{7\\pi}{6}, \\dfrac{11\\pi}{6}\\right\\}\\)",
+            "\\(V = \\left\\{\\dfrac{5\\pi}{3}\\right\\}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\sin x = -\\dfrac{\\sqrt{3}}{2}\\). Negatief, dus derde en vierde kwadrant: \\(\\pi + \\dfrac{\\pi}{3}\\) en \\(2\\pi - \\dfrac{\\pi}{3}\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De vergelijking \\(3 \\sin x = 4\\) heeft geen oplossing.",
+          "antwoord": true,
+          "uitleg": "\\(\\sin x = \\tfrac{4}{3} > 1\\) kan niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op in \\([0, \\pi]\\): \\(\\sin 2x = 1\\).",
+          "opties": [
+            "\\(V = \\left\\{\\dfrac{\\pi}{4}\\right\\}\\)",
+            "\\(V = \\left\\{\\dfrac{\\pi}{2}\\right\\}\\)",
+            "\\(V = \\left\\{\\dfrac{\\pi}{4}, \\dfrac{3\\pi}{4}\\right\\}\\)",
+            "\\(V = \\{\\pi\\}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(2x = \\dfrac{\\pi}{2} + k \\cdot 2\\pi\\), dus \\(x = \\dfrac{\\pi}{4} + k\\pi\\). In \\([0, \\pi]\\) is dat enkel \\(\\dfrac{\\pi}{4}\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij \\(\\sin 2x = 1\\) liggen de oplossingen \\(\\pi\\) uit elkaar, en niet \\(2\\pi\\).",
+          "antwoord": true,
+          "uitleg": "De periode van \\(\\sin 2x\\) is \\(\\pi\\). Na het delen door \\(2\\) wordt \\(k \\cdot 2\\pi\\) dus \\(k \\cdot \\pi\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(\\sin\\left(x - \\dfrac{\\pi}{4}\\right) = 0\\), met \\(k \\in \\mathbb{Z}\\).",
+          "opties": [
+            "\\(x = \\dfrac{\\pi}{4} + k\\pi\\)",
+            "\\(x = -\\dfrac{\\pi}{4} + k\\pi\\)",
+            "\\(x = \\dfrac{\\pi}{4} + k \\cdot 2\\pi\\)",
+            "\\(x = k\\pi\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\sin u = 0 \\iff u = k\\pi\\). Dus \\(x - \\dfrac{\\pi}{4} = k\\pi\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op in \\([0, 2\\pi]\\): \\(\\sin x = 0{,}3\\). Afgerond op twee cijfers na de komma ...",
+          "opties": [
+            "\\(x \\approx 0{,}30\\) of \\(x \\approx 2{,}84\\)",
+            "\\(x \\approx 0{,}30\\) of \\(x \\approx 3{,}44\\)",
+            "enkel \\(x \\approx 0{,}30\\)",
+            "\\(x \\approx 17{,}46\\) of \\(x \\approx 162{,}54\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met de rekenmachine in radialen: \\(\\sin^{-1} 0{,}3 \\approx 0{,}3047\\). De tweede oplossing is \\(\\pi - 0{,}3047 \\approx 2{,}84\\). De laatste optie staat in graden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\\(\\sin x = 0{,}3\\) heeft in \\([0, 2\\pi]\\) ook een oplossing in het derde kwadrant.",
+          "antwoord": false,
+          "uitleg": "In het derde kwadrant is de sinus negatief. De twee oplossingen liggen in het eerste en het tweede kwadrant."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het water in een haven: \\(h(t) = 2 \\sin\\left(\\dfrac{\\pi}{6} t\\right) + 3\\) m, met \\(t\\) in uur. Wanneer staat het water voor het eerst op \\(4\\) m?",
+          "opties": [
+            "na \\(1\\) uur",
+            "na \\(3\\) uur",
+            "na \\(5\\) uur",
+            "na \\(2\\) uur"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\sin\\left(\\dfrac{\\pi}{6} t\\right) = \\dfrac{1}{2} \\iff \\dfrac{\\pi}{6} t = \\dfrac{\\pi}{6}\\), dus \\(t = 1\\). De tweede keer is bij \\(\\dfrac{\\pi}{6} t = \\dfrac{5\\pi}{6}\\): \\(t = 5\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bij datzelfde water \\(h(t) = 2 \\sin\\left(\\dfrac{\\pi}{6} t\\right) + 3\\): na hoeveel uur staat het water op \\(5\\) m? Schrijf het getal.",
+          "antwoord": [
+            "3",
+            "drie"
+          ],
+          "uitleg": "\\(\\sin\\left(\\dfrac{\\pi}{6} t\\right) = 1 \\iff \\dfrac{\\pi}{6} t = \\dfrac{\\pi}{2} \\iff t = 3\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vergelijking is van de vorm \\(a \\sin b(x - c) + d = 0\\)?",
+          "opties": [
+            "\\(4 \\sin 3(x - 1) + 2 = 0\\)",
+            "\\(4 \\sin x + \\cos x = 0\\)",
+            "\\(\\sin x^{2} = 1\\)",
+            "\\(\\sin x \\cdot x = 0\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hier is \\(a = 4\\), \\(b = 3\\), \\(c = 1\\) en \\(d = 2\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een goniometrische vergelijking die een oplossing heeft, heeft op \\(\\mathbb{R}\\) precies twee oplossingen.",
+          "antwoord": false,
+          "uitleg": "Door de periode keert elke oplossing telkens terug, dus zijn er oneindig veel. Enkel in een begrensd interval zoals \\([0, 2\\pi]\\) tel je er een paar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op in \\([0, 2\\pi]\\): \\(\\sin x + 1 = 1\\).",
+          "opties": [
+            "\\(V = \\{0, \\pi, 2\\pi\\}\\)",
+            "\\(V = \\{0\\}\\)",
+            "\\(V = \\left\\{\\dfrac{\\pi}{2}\\right\\}\\)",
+            "\\(V = \\{\\pi\\}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\sin x = 0\\): bij \\(0\\), \\(\\pi\\) en \\(2\\pi\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(\\sin x = \\dfrac{\\sqrt{2}}{2}\\), met \\(k \\in \\mathbb{Z}\\).",
+          "opties": [
+            "\\(x = \\dfrac{\\pi}{4} + k \\cdot 2\\pi\\) of \\(x = \\dfrac{3\\pi}{4} + k \\cdot 2\\pi\\)",
+            "\\(x = \\dfrac{\\pi}{4} + k\\pi\\)",
+            "\\(x = \\dfrac{\\pi}{4} + k \\cdot 2\\pi\\) of \\(x = -\\dfrac{\\pi}{4} + k \\cdot 2\\pi\\)",
+            "\\(x = \\dfrac{\\pi}{3} + k \\cdot 2\\pi\\) of \\(x = \\dfrac{2\\pi}{3} + k \\cdot 2\\pi\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\sin \\dfrac{\\pi}{4} = \\dfrac{\\sqrt{2}}{2}\\), en \\(\\pi - \\dfrac{\\pi}{4} = \\dfrac{3\\pi}{4}\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Om \\(\\sin x = 0{,}3\\) op te lossen, mag je je rekenmachine in graden laten staan als je de oplossing in radialen wil.",
+          "antwoord": false,
+          "uitleg": "Dan krijg je \\(17{,}46°\\) en niet \\(0{,}30\\) rad. Zet de rekenmachine eerst in radialen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een reuzenrad: \\(h(t) = 10 \\sin\\left(\\dfrac{\\pi}{5}(t - 2{,}5)\\right) + 12\\) m. Wanneer is een bakje voor het eerst op \\(12\\) m hoogte na \\(t = 0\\)?",
+          "opties": [
+            "na \\(2{,}5\\) min",
+            "na \\(5\\) min",
+            "na \\(0\\) min",
+            "na \\(10\\) min"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(12\\) m is de evenwichtslijn: \\(\\sin\\left(\\dfrac{\\pi}{5}(t - 2{,}5)\\right) = 0\\). Dat gebeurt voor het eerst bij \\(t = 2{,}5\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De oplossingen van \\(\\sin x = -0{,}5\\) in \\([0, 2\\pi]\\) zijn \\(\\dfrac{7\\pi}{6}\\) en \\(\\dfrac{11\\pi}{6}\\).",
+          "antwoord": true,
+          "uitleg": "Negatieve sinus: derde en vierde kwadrant, \\(\\pi + \\dfrac{\\pi}{6}\\) en \\(2\\pi - \\dfrac{\\pi}{6}\\)."
+        }
+      ]
+    },
+    {
+      "titel": "Bedrijfswetenschappen: afgeleiden berekenen met rekenregels — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de afgeleide van \\(f(x) = x^{5}\\)?",
+          "opties": [
+            "\\(f'(x) = 5x^{4}\\)",
+            "\\(f'(x) = x^{4}\\)",
+            "\\(f'(x) = 5x^{5}\\)",
+            "\\(f'(x) = 4x^{5}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\((x^{n})' = n \\cdot x^{n-1}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de afgeleide van \\(f(x) = 3x^{4} - 2x^{2} + 7x - 1\\)?",
+          "opties": [
+            "\\(12x^{3} - 4x + 7\\)",
+            "\\(12x^{3} - 4x + 6\\)",
+            "\\(3x^{3} - 2x + 7\\)",
+            "\\(12x^{4} - 4x^{2} + 7\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elke term apart afleiden: \\(12x^{3}\\), \\(-4x\\), \\(7\\), en de constante \\(-1\\) wordt \\(0\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De afgeleide van een constante functie is \\(0\\).",
+          "antwoord": true,
+          "uitleg": "Een constante functie verandert niet: de helling is overal \\(0\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke notatie is de notatie van Leibniz voor de afgeleide van \\(y = f(x)\\)?",
+          "opties": [
+            "\\(\\dfrac{dy}{dx}\\)",
+            "\\(f'(x)\\)",
+            "\\(Df(x)\\)",
+            "\\(\\Delta y\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(f'(x)\\) is de notatie van Lagrange, \\(Df(x)\\) die van Cauchy, \\(\\dfrac{dy}{dx}\\) die van Leibniz."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Gegeven \\(f(x) = x^{3} - 4x\\). Bereken \\(f'(2)\\).",
+          "antwoord": [
+            "8",
+            "acht"
+          ],
+          "uitleg": "\\(f'(x) = 3x^{2} - 4\\), dus \\(f'(2) = 12 - 4 = 8\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de afgeleide van \\(f(x) = \\dfrac{1}{x}\\)?",
+          "opties": [
+            "\\(-\\dfrac{1}{x^{2}}\\)",
+            "\\(\\dfrac{1}{x^{2}}\\)",
+            "\\(\\ln x\\)",
+            "\\(-\\dfrac{1}{x}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\dfrac{1}{x} = x^{-1}\\), dus de afgeleide is \\(-1 \\cdot x^{-2}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de afgeleide van \\(f(x) = \\sqrt{x}\\)?",
+          "opties": [
+            "\\(\\dfrac{1}{2\\sqrt{x}}\\)",
+            "\\(2\\sqrt{x}\\)",
+            "\\(\\dfrac{1}{\\sqrt{x}}\\)",
+            "\\(\\dfrac{\\sqrt{x}}{2}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\sqrt{x} = x^{\\frac{1}{2}}\\), dus de afgeleide is \\(\\tfrac{1}{2} x^{-\\frac{1}{2}} = \\dfrac{1}{2\\sqrt{x}}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke formule is de productregel?",
+          "opties": [
+            "\\((f \\cdot g)' = f' \\cdot g + f \\cdot g'\\)",
+            "\\((f \\cdot g)' = f' \\cdot g'\\)",
+            "\\((f \\cdot g)' = f' \\cdot g - f \\cdot g'\\)",
+            "\\((f \\cdot g)' = f \\cdot g' \\cdot g\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De afgeleide van een product is niet het product van de afgeleiden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De afgeleide van \\(f(x) \\cdot g(x)\\) is altijd \\(f'(x) \\cdot g'(x)\\).",
+          "antwoord": false,
+          "uitleg": "Neem \\(x \\cdot x = x^{2}\\): de afgeleide is \\(2x\\), maar \\(1 \\cdot 1 = 1\\). Gebruik de productregel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de afgeleide van \\(f(x) = (2x + 1)(x^{2} - 3)\\)?",
+          "opties": [
+            "\\(6x^{2} + 2x - 6\\)",
+            "\\(4x\\)",
+            "\\(6x^{2} + 2x - 3\\)",
+            "\\(2x^{2} + 2x - 6\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(2 \\cdot (x^{2} - 3) + (2x + 1) \\cdot 2x = 2x^{2} - 6 + 4x^{2} + 2x = 6x^{2} + 2x - 6\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke formule is de quotiëntregel?",
+          "opties": [
+            "\\(\\left(\\dfrac{f}{g}\\right)' = \\dfrac{f' g - f g'}{g^{2}}\\)",
+            "\\(\\left(\\dfrac{f}{g}\\right)' = \\dfrac{f'}{g'}\\)",
+            "\\(\\left(\\dfrac{f}{g}\\right)' = \\dfrac{f g' - f' g}{g^{2}}\\)",
+            "\\(\\left(\\dfrac{f}{g}\\right)' = \\dfrac{f' g + f g'}{g^{2}}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Teller: afgeleide van de teller maal de noemer, min de teller maal de afgeleide van de noemer. Noemer: de noemer in het kwadraat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de afgeleide van \\(f(x) = \\dfrac{x}{x + 1}\\)?",
+          "opties": [
+            "\\(\\dfrac{1}{(x + 1)^{2}}\\)",
+            "\\(\\dfrac{2x + 1}{(x + 1)^{2}}\\)",
+            "\\(\\dfrac{-1}{(x + 1)^{2}}\\)",
+            "\\(1\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\dfrac{1 \\cdot (x + 1) - x \\cdot 1}{(x + 1)^{2}} = \\dfrac{1}{(x + 1)^{2}}\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij de quotiëntregel maakt de volgorde in de teller niet uit.",
+          "antwoord": false,
+          "uitleg": "\\(f'g - fg'\\) en \\(fg' - f'g\\) verschillen van teken. Begin bij de afgeleide van de teller."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Gegeven \\(f(x) = \\dfrac{2x - 1}{x}\\). Bereken \\(f'(1)\\).",
+          "antwoord": [
+            "1",
+            "één",
+            "een"
+          ],
+          "uitleg": "\\(f'(x) = \\dfrac{2 \\cdot x - (2x - 1) \\cdot 1}{x^{2}} = \\dfrac{1}{x^{2}}\\), dus \\(f'(1) = 1\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de afgeleide van \\(f(x) = 5\\)?",
+          "opties": [
+            "\\(0\\)",
+            "\\(5\\)",
+            "\\(1\\)",
+            "\\(5x\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een constante heeft afgeleide \\(0\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\\((3 \\cdot f(x))' = 3 \\cdot f'(x)\\).",
+          "antwoord": true,
+          "uitleg": "Een constante factor mag je voor de afgeleide brengen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de afgeleide van \\(f(x) = \\dfrac{4}{x^{2}}\\)?",
+          "opties": [
+            "\\(-\\dfrac{8}{x^{3}}\\)",
+            "\\(\\dfrac{8}{x}\\)",
+            "\\(-\\dfrac{4}{x^{3}}\\)",
+            "\\(\\dfrac{8}{x^{3}}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(4x^{-2}\\) afleiden geeft \\(-8x^{-3}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De kostfunctie van een bedrijf is \\(K(q) = 0{,}5q^{2} + 20q + 300\\) euro. Wat is de marginale kost \\(K'(q)\\)?",
+          "opties": [
+            "\\(q + 20\\)",
+            "\\(0{,}5q + 20\\)",
+            "\\(q + 320\\)",
+            "\\(0{,}5q^{2} + 20\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De marginale kost is de afgeleide van de kostfunctie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bij die kostfunctie \\(K(q) = 0{,}5q^{2} + 20q + 300\\): wat is de marginale kost bij \\(q = 40\\)? Schrijf het getal in euro.",
+          "antwoord": [
+            "60",
+            "60 euro"
+          ],
+          "uitleg": "\\(K'(40) = 40 + 20 = 60\\). Eén stuk extra kost op dat moment ongeveer \\(60\\) euro."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De afgeleide van \\(x^{2} + x^{3}\\) is \\(2x + 3x^{2}\\).",
+          "antwoord": true,
+          "uitleg": "De afgeleide van een som is de som van de afgeleiden."
+        }
+      ]
+    },
+    {
+      "titel": "Bedrijfswetenschappen: afgeleiden berekenen met rekenregels — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke formule is de kettingregel?",
+          "opties": [
+            "\\((f(g(x)))' = f'(g(x)) \\cdot g'(x)\\)",
+            "\\((f(g(x)))' = f'(x) \\cdot g'(x)\\)",
+            "\\((f(g(x)))' = f'(g'(x))\\)",
+            "\\((f(g(x)))' = f(g'(x))\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Leid de buitenste functie af en laat de binnenste staan, en vermenigvuldig met de afgeleide van de binnenste."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de afgeleide van \\(f(x) = (3x - 2)^{4}\\)?",
+          "opties": [
+            "\\(12(3x - 2)^{3}\\)",
+            "\\(4(3x - 2)^{3}\\)",
+            "\\(12x(3x - 2)^{3}\\)",
+            "\\(3(3x - 2)^{4}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(4(3x - 2)^{3} \\cdot 3 = 12(3x - 2)^{3}\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De afgeleide van \\((x^{2} + 1)^{3}\\) is \\(3(x^{2} + 1)^{2}\\).",
+          "antwoord": false,
+          "uitleg": "Je vergeet de afgeleide van de binnenste functie: \\(3(x^{2} + 1)^{2} \\cdot 2x = 6x(x^{2} + 1)^{2}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de afgeleide van \\(f(x) = e^{x}\\)?",
+          "opties": [
+            "\\(e^{x}\\)",
+            "\\(x \\cdot e^{x-1}\\)",
+            "\\(e\\)",
+            "\\(\\ln x\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De functie \\(e^{x}\\) is haar eigen afgeleide."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de afgeleide van \\(f(x) = e^{3x}\\)?",
+          "opties": [
+            "\\(3e^{3x}\\)",
+            "\\(e^{3x}\\)",
+            "\\(3x \\cdot e^{3x - 1}\\)",
+            "\\(e^{3}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kettingregel: \\(e^{3x} \\cdot 3\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de afgeleide van \\(f(x) = \\ln x\\)?",
+          "opties": [
+            "\\(\\dfrac{1}{x}\\)",
+            "\\(\\ln x\\)",
+            "\\(e^{x}\\)",
+            "\\(x \\ln x\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\((\\ln x)' = \\dfrac{1}{x}\\), voor \\(x > 0\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de afgeleide van \\(f(x) = \\ln(x^{2} + 4)\\)?",
+          "opties": [
+            "\\(\\dfrac{2x}{x^{2} + 4}\\)",
+            "\\(\\dfrac{1}{x^{2} + 4}\\)",
+            "\\(\\dfrac{1}{2x}\\)",
+            "\\(2x \\ln(x^{2} + 4)\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kettingregel: \\(\\dfrac{1}{x^{2} + 4} \\cdot 2x\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de afgeleide van \\(f(x) = 2^{x}\\)?",
+          "opties": [
+            "\\(2^{x} \\ln 2\\)",
+            "\\(x \\cdot 2^{x-1}\\)",
+            "\\(2^{x}\\)",
+            "\\(\\dfrac{2^{x}}{\\ln 2}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\((a^{x})' = a^{x} \\ln a\\). Alleen bij grondtal \\(e\\) valt de factor weg, want \\(\\ln e = 1\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De afgeleide van \\(x^{2}\\) en die van \\(2^{x}\\) volgen dezelfde rekenregel.",
+          "antwoord": false,
+          "uitleg": "Bij \\(x^{2}\\) staat de veranderlijke in het grondtal: \\(2x\\). Bij \\(2^{x}\\) staat ze in de exponent: \\(2^{x} \\ln 2\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de afgeleide van \\(f(x) = x \\cdot e^{x}\\)?",
+          "opties": [
+            "\\((x + 1)e^{x}\\)",
+            "\\(e^{x}\\)",
+            "\\(x \\cdot e^{x}\\)",
+            "\\((x - 1)e^{x}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Productregel: \\(1 \\cdot e^{x} + x \\cdot e^{x} = (x + 1)e^{x}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de afgeleide van \\(f(x) = \\log x\\) (grondtal \\(10\\))?",
+          "opties": [
+            "\\(\\dfrac{1}{x \\ln 10}\\)",
+            "\\(\\dfrac{1}{x}\\)",
+            "\\(\\dfrac{10}{x}\\)",
+            "\\(\\dfrac{\\ln 10}{x}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\log x = \\dfrac{\\ln x}{\\ln 10}\\), dus de afgeleide is \\(\\dfrac{1}{x \\ln 10}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een vergelijking van de raaklijn aan \\(y = x^{2}\\) in het punt \\((3, 9)\\)?",
+          "opties": [
+            "\\(y = 6x - 9\\)",
+            "\\(y = 6x + 9\\)",
+            "\\(y = 3x\\)",
+            "\\(y = 2x + 3\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Helling \\(f'(3) = 6\\). Dan \\(y - 9 = 6(x - 3)\\), dus \\(y = 6x - 9\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De raaklijn in \\((a, f(a))\\) heeft als vergelijking \\(y - f(a) = f'(a)(x - a)\\).",
+          "antwoord": true,
+          "uitleg": "Een rechte door het punt \\((a, f(a))\\) met richtingscoëfficiënt \\(f'(a)\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Gegeven \\(f(x) = e^{2x}\\). Bereken \\(f'(0)\\).",
+          "antwoord": [
+            "2",
+            "twee"
+          ],
+          "uitleg": "\\(f'(x) = 2e^{2x}\\) en \\(e^{0} = 1\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een spaarbedrag groeit volgens \\(B(t) = 1000 \\cdot e^{0{,}05t}\\). Wat is \\(B'(t)\\)?",
+          "opties": [
+            "\\(50 \\cdot e^{0{,}05t}\\)",
+            "\\(1000 \\cdot e^{0{,}05t}\\)",
+            "\\(0{,}05 \\cdot e^{0{,}05t}\\)",
+            "\\(50t \\cdot e^{0{,}05t}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(1000 \\cdot 0{,}05 = 50\\). \\(B'(t)\\) is hoe snel het bedrag op dat moment groeit, in euro per jaar."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\\(B'(10)\\) zegt hoeveel euro er op tijdstip \\(10\\) op de rekening staat.",
+          "antwoord": false,
+          "uitleg": "Dat is \\(B(10)\\). \\(B'(10)\\) is de ogenblikkelijke verandering: hoe snel het bedrag op dat moment groeit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de afgeleide van \\(f(x) = \\sqrt{2x + 5}\\)?",
+          "opties": [
+            "\\(\\dfrac{1}{\\sqrt{2x + 5}}\\)",
+            "\\(\\dfrac{1}{2\\sqrt{2x + 5}}\\)",
+            "\\(\\dfrac{2}{\\sqrt{2x + 5}}\\)",
+            "\\(2\\sqrt{2x + 5}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\dfrac{1}{2\\sqrt{2x + 5}} \\cdot 2 = \\dfrac{1}{\\sqrt{2x + 5}}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de afgeleide van \\(f(x) = \\dfrac{e^{x}}{x}\\)?",
+          "opties": [
+            "\\(\\dfrac{(x - 1)e^{x}}{x^{2}}\\)",
+            "\\(e^{x}\\)",
+            "\\(\\dfrac{(x + 1)e^{x}}{x^{2}}\\)",
+            "\\(\\dfrac{e^{x}}{x^{2}}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Quotiëntregel: \\(\\dfrac{e^{x} \\cdot x - e^{x} \\cdot 1}{x^{2}}\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een negatieve afgeleide in een punt betekent dat de functie daar daalt.",
+          "antwoord": true,
+          "uitleg": "De raaklijn heeft daar een negatieve richtingscoëfficiënt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Gegeven \\(f(x) = \\ln(3x)\\). Bereken \\(f'(2)\\). Schrijf het als breuk, bijvoorbeeld 1/5.",
+          "antwoord": [
+            "1/2",
+            "0,5",
+            "0.5"
+          ],
+          "uitleg": "\\(f'(x) = \\dfrac{1}{3x} \\cdot 3 = \\dfrac{1}{x}\\), dus \\(f'(2) = \\dfrac{1}{2}\\)."
+        }
+      ]
+    },
+    {
+      "titel": "Bedrijfswetenschappen: verloop van een functie en optimaliseren — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "waarofniet",
+          "vraag": "Als \\(f'(x) > 0\\) op een interval, dan stijgt \\(f\\) op dat interval.",
+          "antwoord": true,
+          "uitleg": "Een positieve afgeleide betekent een positieve helling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Gegeven \\(f(x) = x^{3} - 3x\\). Waar heeft \\(f\\) een relatief maximum?",
+          "opties": [
+            "bij \\(x = -1\\)",
+            "bij \\(x = 1\\)",
+            "bij \\(x = 0\\)",
+            "bij \\(x = \\sqrt{3}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(f'(x) = 3x^{2} - 3 = 0\\) bij \\(x = \\pm 1\\). Het teken van \\(f'\\) gaat van \\(+\\) naar \\(-\\) bij \\(x = -1\\): daar is een maximum."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Gegeven \\(f(x) = x^{3} - 3x\\). Wat is de waarde van het relatief minimum?",
+          "antwoord": [
+            "-2",
+            "−2",
+            "min 2"
+          ],
+          "uitleg": "Het minimum ligt bij \\(x = 1\\): \\(f(1) = 1 - 3 = -2\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een tabel van het waardenverloop gaat het teken van \\(f'\\) bij \\(x = a\\) van \\(-\\) naar \\(+\\). Wat heeft \\(f\\) daar?",
+          "opties": [
+            "een relatief minimum",
+            "een relatief maximum",
+            "een buigpunt",
+            "een verticale asymptoot"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst dalen, dan stijgen: een dal."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als \\(f'(a) = 0\\), dan heeft \\(f\\) altijd een extremum in \\(a\\).",
+          "antwoord": false,
+          "uitleg": "Neem \\(f(x) = x^{3}\\): \\(f'(0) = 0\\), maar \\(f\\) stijgt links en rechts van \\(0\\). Het teken van \\(f'\\) moet wisselen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zegt \\(f''(x) > 0\\) op een interval over de grafiek van \\(f\\)?",
+          "opties": [
+            "de grafiek is hol (dalparabool-vorm)",
+            "de grafiek is bol (bergparabool-vorm)",
+            "de functie stijgt",
+            "de functie is positief"
+          ],
+          "antwoord": 0,
+          "uitleg": "Als \\(f''\\) positief is, neemt de helling toe: de grafiek buigt naar boven, hol."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een buigpunt?",
+          "opties": [
+            "een punt waar de grafiek van hol naar bol gaat of omgekeerd",
+            "een punt waar de functie het grootst is",
+            "een punt waar de raaklijn horizontaal is",
+            "een snijpunt met de \\(x\\)-as"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een buigpunt wisselt het teken van \\(f''\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Gegeven \\(f(x) = x^{3} - 6x^{2} + 5\\). Bij welke \\(x\\) ligt het buigpunt?",
+          "antwoord": [
+            "2",
+            "twee",
+            "x = 2",
+            "x=2"
+          ],
+          "uitleg": "\\(f''(x) = 6x - 12 = 0\\) bij \\(x = 2\\), en het teken van \\(f''\\) wisselt daar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Gegeven \\(f(x) = x^{3} - 6x^{2} + 5\\). Waar is de grafiek bol?",
+          "opties": [
+            "voor \\(x < 2\\)",
+            "voor \\(x > 2\\)",
+            "voor \\(0 < x < 4\\)",
+            "nergens"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(f''(x) = 6x - 12 < 0\\) als \\(x < 2\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een functie kan stijgen en tegelijk bol zijn.",
+          "antwoord": true,
+          "uitleg": "Dan stijgt ze steeds trager: afnemende stijging. Denk aan \\(\\sqrt{x}\\) of \\(\\ln x\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "\\(f' > 0\\) en \\(f'' < 0\\) op een interval. Hoe noem je dat stuk van de grafiek?",
+          "opties": [
+            "afnemende stijging",
+            "toenemende stijging",
+            "afnemende daling",
+            "toenemende daling"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(f\\) stijgt (\\(f' > 0\\)), maar de helling wordt kleiner (\\(f'' < 0\\))."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke onderdelen horen in een samenvattende tabel?",
+          "opties": [
+            "het teken van \\(f'\\) en \\(f''\\), stijgen/dalen, hol/bol, extrema en buigpunten",
+            "enkel de nulwaarden van \\(f\\)",
+            "enkel het teken van \\(f\\)",
+            "de waarden van \\(f\\) in gehele getallen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Alles uit de eerste en tweede afgeleide staat samen in één tabel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Gegeven \\(f(x) = x^{4} - 2x^{2}\\). Welke \\(x\\)-waarden zijn kandidaat-extrema?",
+          "opties": [
+            "\\(-1\\), \\(0\\) en \\(1\\)",
+            "enkel \\(0\\)",
+            "\\(-\\sqrt{2}\\), \\(0\\) en \\(\\sqrt{2}\\)",
+            "\\(-1\\) en \\(1\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(f'(x) = 4x^{3} - 4x = 4x(x - 1)(x + 1)\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij \\(f(x) = x^{4} - 2x^{2}\\) is \\(x = 0\\) een relatief minimum.",
+          "antwoord": false,
+          "uitleg": "Het teken van \\(f'\\) gaat bij \\(0\\) van \\(+\\) naar \\(-\\): een relatief maximum. De minima liggen bij \\(x = \\pm 1\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op de grafiek van \\(f'\\) zie je een nulpunt in \\(x = 3\\), met \\(f'\\) positief links en negatief rechts. Wat weet je over \\(f\\)?",
+          "opties": [
+            "\\(f\\) heeft een maximum in \\(x = 3\\)",
+            "\\(f\\) heeft een minimum in \\(x = 3\\)",
+            "\\(f\\) heeft een buigpunt in \\(x = 3\\)",
+            "\\(f(3) = 0\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(f\\) stijgt tot \\(3\\) en daalt daarna."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De grafiek van \\(f'\\) heeft een top in \\(x = 1\\). Wat heeft \\(f\\) dan in \\(x = 1\\)?",
+          "opties": [
+            "een buigpunt",
+            "een maximum",
+            "een minimum",
+            "een nulpunt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een extremum van \\(f'\\) betekent dat \\(f''\\) daar van teken wisselt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Gegeven \\(f(x) = 2x^{3} - 3x^{2} - 12x\\). Bij welke \\(x\\) ligt het relatief minimum?",
+          "antwoord": [
+            "2",
+            "twee",
+            "x = 2",
+            "x=2"
+          ],
+          "uitleg": "\\(f'(x) = 6x^{2} - 6x - 12 = 6(x - 2)(x + 1)\\). Bij \\(x = 2\\) gaat het teken van \\(-\\) naar \\(+\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een tweedegraadsfunctie heeft nooit een buigpunt.",
+          "antwoord": true,
+          "uitleg": "\\(f''\\) is een constante en wisselt dus nooit van teken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het bereik van \\(f(x) = x^{2} - 4x + 1\\) is ...",
+          "opties": [
+            "\\([-3, +\\infty[\\)",
+            "\\(]-\\infty, -3]\\)",
+            "\\([2, +\\infty[\\)",
+            "\\(\\mathbb{R}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(f'(x) = 2x - 4 = 0\\) bij \\(x = 2\\), en \\(f(2) = -3\\) is het absolute minimum."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als \\(f''(a) = 0\\), dan is er zeker een buigpunt in \\(a\\).",
+          "antwoord": false,
+          "uitleg": "Bij \\(f(x) = x^{4}\\) is \\(f''(0) = 0\\), maar de grafiek blijft hol. Het teken van \\(f''\\) moet wisselen."
+        }
+      ]
+    },
+    {
+      "titel": "Bedrijfswetenschappen: verloop van een functie en optimaliseren — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de eerste stap bij een extremumprobleem?",
+          "opties": [
+            "een veranderlijke kiezen en het voorschrift opstellen",
+            "de tweede afgeleide berekenen",
+            "het antwoord gokken en controleren",
+            "de nulwaarden van de functie zoeken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarna: afgeleide, nulwaarden, controleren of het een maximum of minimum is, antwoord in een zin."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Met \\(40\\) m hekwerk maak je een rechthoekige weide. Noem één zijde \\(x\\). Welke functie geeft de oppervlakte?",
+          "opties": [
+            "\\(A(x) = x(20 - x)\\)",
+            "\\(A(x) = x(40 - x)\\)",
+            "\\(A(x) = 2x + 40\\)",
+            "\\(A(x) = x^{2}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(2x + 2y = 40\\), dus \\(y = 20 - x\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bij die weide \\(A(x) = x(20 - x)\\): hoe lang moet \\(x\\) zijn voor de grootste oppervlakte? Schrijf het getal in meter.",
+          "antwoord": [
+            "10",
+            "10 m",
+            "tien"
+          ],
+          "uitleg": "\\(A'(x) = 20 - 2x = 0\\) bij \\(x = 10\\). De weide wordt een vierkant."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het praktisch domein van \\(A(x) = x(20 - x)\\) bij die weide?",
+          "opties": [
+            "\\(]0, 20[\\)",
+            "\\(\\mathbb{R}\\)",
+            "\\([0, 40]\\)",
+            "\\(]0, +\\infty[\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Beide zijden moeten positief zijn: \\(x > 0\\) en \\(20 - x > 0\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als \\(f'(a) = 0\\) en \\(f''(a) < 0\\), dan heeft \\(f\\) een maximum in \\(a\\).",
+          "antwoord": true,
+          "uitleg": "Dat is de tweede afgeleide test: horizontale raaklijn en bol, dus een top."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als \\(f'(a) = 0\\) en \\(f''(a) > 0\\), dan heeft \\(f\\) een maximum in \\(a\\).",
+          "antwoord": false,
+          "uitleg": "\\(f''(a) > 0\\) betekent hol: dat is een minimum."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De winst van een bedrijf is \\(W(q) = -2q^{2} + 160q - 1200\\) euro, met \\(q\\) het aantal stuks. Bij welk aantal is de winst het grootst?",
+          "opties": [
+            "\\(40\\) stuks",
+            "\\(80\\) stuks",
+            "\\(160\\) stuks",
+            "\\(20\\) stuks"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(W'(q) = -4q + 160 = 0\\) bij \\(q = 40\\), en \\(W''(q) = -4 < 0\\): een maximum."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bij die winstfunctie \\(W(q) = -2q^{2} + 160q - 1200\\): hoeveel euro is de grootste winst?",
+          "antwoord": [
+            "2000",
+            "2 000",
+            "2.000",
+            "2000 euro"
+          ],
+          "uitleg": "\\(W(40) = -3200 + 6400 - 1200 = 2000\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Uit een vierkant stuk karton van \\(12\\) cm zijde knip je in elke hoek een vierkantje met zijde \\(x\\) weg en plooi je een open doos. Welke functie geeft de inhoud?",
+          "opties": [
+            "\\(V(x) = x(12 - 2x)^{2}\\)",
+            "\\(V(x) = x(12 - x)^{2}\\)",
+            "\\(V(x) = (12 - 2x)^{2}\\)",
+            "\\(V(x) = 12x^{2}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De bodem is een vierkant met zijde \\(12 - 2x\\), de hoogte is \\(x\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bij die doos \\(V(x) = x(12 - 2x)^{2}\\): bij welke \\(x\\) is de inhoud het grootst? Schrijf het getal in cm.",
+          "antwoord": [
+            "2",
+            "2 cm",
+            "twee"
+          ],
+          "uitleg": "\\(V'(x) = (12 - 2x)^{2} - 4x(12 - 2x) = (12 - 2x)(12 - 6x)\\). Nul bij \\(x = 6\\) (geen doos) en \\(x = 2\\). In \\(]0, 6[\\) is \\(x = 2\\) het maximum."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij de doos valt de oplossing \\(x = 6\\) weg omdat ze buiten het praktisch domein ligt.",
+          "antwoord": true,
+          "uitleg": "Bij \\(x = 6\\) is de bodem \\(0\\) cm breed: er is geen doos."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom controleer je bij een extremumprobleem of het gevonden punt een maximum of een minimum is?",
+          "opties": [
+            "omdat \\(f' = 0\\) alleen zegt dat de raaklijn horizontaal is",
+            "omdat de afgeleide soms fout is",
+            "omdat er altijd twee antwoorden zijn",
+            "dat hoeft niet, het is altijd een maximum"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een horizontale raaklijn kan bij een maximum, een minimum of geen van beide horen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De gemiddelde kost per stuk is \\(G(q) = q + \\dfrac{400}{q}\\) euro (\\(q > 0\\)). Bij welk aantal stuks is die het laagst?",
+          "opties": [
+            "\\(20\\)",
+            "\\(400\\)",
+            "\\(40\\)",
+            "\\(10\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(G'(q) = 1 - \\dfrac{400}{q^{2}} = 0\\) bij \\(q = 20\\). \\(G''(q) = \\dfrac{800}{q^{3}} > 0\\): een minimum."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bij \\(G(q) = q + \\dfrac{400}{q}\\): wat is de laagste gemiddelde kost per stuk in euro?",
+          "antwoord": [
+            "40",
+            "40 euro"
+          ],
+          "uitleg": "\\(G(20) = 20 + 20 = 40\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een extremumprobleem met een praktisch domein \\([a, b]\\) kan het grootste resultaat ook in een grenspunt \\(a\\) of \\(b\\) liggen.",
+          "antwoord": true,
+          "uitleg": "Vergelijk daarom ook de functiewaarden in de grenzen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee positieve getallen hebben als som \\(30\\). Hun product moet zo groot mogelijk zijn. Welke getallen?",
+          "opties": [
+            "\\(15\\) en \\(15\\)",
+            "\\(10\\) en \\(20\\)",
+            "\\(1\\) en \\(29\\)",
+            "\\(5\\) en \\(25\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(P(x) = x(30 - x)\\), \\(P'(x) = 30 - 2x = 0\\) bij \\(x = 15\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een functie \\(f(x) = x \\cdot e^{-x}\\) met \\(x \\ge 0\\). Waar ligt het maximum?",
+          "opties": [
+            "bij \\(x = 1\\)",
+            "bij \\(x = 0\\)",
+            "bij \\(x = e\\)",
+            "er is geen maximum"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(f'(x) = e^{-x} - x e^{-x} = (1 - x)e^{-x}\\). Nul bij \\(x = 1\\), teken van \\(+\\) naar \\(-\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een extremumprobleem volstaat het om de \\(x\\)-waarde te geven; een antwoord in een zin is niet nodig.",
+          "antwoord": false,
+          "uitleg": "Je formuleert altijd een antwoord op de vraag, met eenheden, bijvoorbeeld \\\"De weide is een vierkant van \\(10\\) m op \\(10\\) m.\\\""
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een blikje moet \\(500\\) cm³ bevatten: \\(\\pi r^{2} h = 500\\). Waarom druk je \\(h\\) uit in \\(r\\)?",
+          "opties": [
+            "zodat de te minimaliseren oppervlakte maar van één veranderlijke afhangt",
+            "omdat \\(h\\) altijd groter is dan \\(r\\)",
+            "om de inhoud groter te maken",
+            "dat hoeft niet, je mag twee veranderlijken laten staan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je kan enkel een functie van één veranderlijke afleiden en op nul zetten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De opbrengst is \\(O(p) = p(100 - 2p)\\) euro bij een prijs \\(p\\). Bij welke prijs is de opbrengst het grootst?",
+          "opties": [
+            "\\(25\\) euro",
+            "\\(50\\) euro",
+            "\\(100\\) euro",
+            "\\(20\\) euro"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(O'(p) = 100 - 4p = 0\\) bij \\(p = 25\\)."
+        }
+      ]
+    },
+    {
+      "titel": "Bedrijfswetenschappen: integralen en oppervlakte — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat stelt \\(\\displaystyle\\int_{a}^{b} f(x)\\,dx\\) voor als \\(f(x) \\ge 0\\) op \\([a, b]\\)?",
+          "opties": [
+            "de oppervlakte tussen de grafiek van \\(f\\) en de \\(x\\)-as op \\([a, b]\\)",
+            "de helling van \\(f\\) tussen \\(a\\) en \\(b\\)",
+            "het verschil \\(f(b) - f(a)\\)",
+            "de lengte van de grafiek van \\(a\\) tot \\(b\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Als de grafiek boven de \\(x\\)-as ligt, is de bepaalde integraal gewoon de oppervlakte eronder."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In \\(\\displaystyle\\int_{1}^{4} (x^{2} + 1)\\,dx\\): wat is de integrand?",
+          "opties": [
+            "\\(x^{2} + 1\\)",
+            "\\(1\\)",
+            "\\(4\\)",
+            "\\(dx\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De integrand is de functie die je integreert. \\(1\\) is de ondergrens, \\(4\\) de bovengrens."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Ligt de grafiek onder de \\(x\\)-as, dan is de bepaalde integraal over dat stuk negatief.",
+          "antwoord": true,
+          "uitleg": "Daarom heet het een georiënteerde oppervlakte: onder de \\(x\\)-as telt ze negatief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij een ondersom voor een stijgende functie op \\([a, b]\\) neem je als hoogte van elk rechthoekje ...",
+          "opties": [
+            "de functiewaarde in het linkereindpunt van het deelinterval",
+            "de functiewaarde in het rechtereindpunt van het deelinterval",
+            "de grootste functiewaarde op heel \\([a, b]\\)",
+            "altijd de waarde \\(1\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een ondersom neem je de kleinste functiewaarde op elk deelinterval. Bij een stijgende functie is dat links."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Hoe meer deelintervallen je gebruikt, hoe beter een Riemannsom de oppervlakte benadert.",
+          "antwoord": true,
+          "uitleg": "De rechthoekjes worden smaller en sluiten beter aan bij de grafiek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In de Riemannsom \\(\\displaystyle\\sum f(x_{i}) \\cdot \\Delta x\\): waarmee komt \\(\\Delta x\\) overeen in de integraal?",
+          "opties": [
+            "\\(dx\\), de breedte van de rechthoekjes",
+            "de bovengrens",
+            "de integrand",
+            "de primitieve functie"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(f(x_{i})\\) is de hoogte en \\(\\Delta x\\) de breedte. In de limiet wordt \\(\\Delta x\\) de \\(dx\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je benadert de oppervlakte onder \\(f(x) = x\\) op \\([0, 4]\\) met een bovensom van \\(4\\) rechthoekjes van breedte \\(1\\). Wat is de bovensom?",
+          "antwoord": [
+            "10",
+            "tien"
+          ],
+          "uitleg": "Hoogtes rechts: \\(1 + 2 + 3 + 4 = 10\\), maal breedte \\(1\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Zelfde situatie, \\(f(x) = x\\) op \\([0, 4]\\) met \\(4\\) rechthoekjes van breedte \\(1\\). Wat is de ondersom?",
+          "antwoord": [
+            "6",
+            "zes"
+          ],
+          "uitleg": "Hoogtes links: \\(0 + 1 + 2 + 3 = 6\\). De echte oppervlakte, \\(8\\), ligt ertussen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een primitieve functie van \\(f\\)?",
+          "opties": [
+            "een functie \\(F\\) met \\(F'(x) = f(x)\\)",
+            "de afgeleide van \\(f\\)",
+            "de functie \\(\\dfrac{1}{f(x)}\\)",
+            "de grafiek van \\(f\\) gespiegeld"
+          ],
+          "antwoord": 0,
+          "uitleg": "Primitiveren is het omgekeerde van afleiden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke functie is een primitieve van \\(f(x) = 3x^{2}\\)?",
+          "opties": [
+            "\\(x^{3} + 5\\)",
+            "\\(6x\\)",
+            "\\(3x^{3}\\)",
+            "\\(x^{2}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\((x^{3} + 5)' = 3x^{2}\\). De constante maakt niet uit."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een functie heeft precies één primitieve functie.",
+          "antwoord": false,
+          "uitleg": "Je mag er elke constante \\(c\\) bij optellen: er zijn er oneindig veel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "\\(\\displaystyle\\int x^{4}\\,dx = \\) ...",
+          "opties": [
+            "\\(\\dfrac{x^{5}}{5} + c\\)",
+            "\\(4x^{3} + c\\)",
+            "\\(x^{5} + c\\)",
+            "\\(\\dfrac{x^{4}}{4} + c\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\displaystyle\\int x^{n}\\,dx = \\dfrac{x^{n+1}}{n + 1} + c\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "\\(\\displaystyle\\int (6x^{2} - 4x + 3)\\,dx = \\) ...",
+          "opties": [
+            "\\(2x^{3} - 2x^{2} + 3x + c\\)",
+            "\\(12x - 4 + c\\)",
+            "\\(6x^{3} - 4x^{2} + 3x + c\\)",
+            "\\(2x^{3} - 2x^{2} + c\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Splitsen en elke term apart: \\(2x^{3}\\), \\(-2x^{2}\\), \\(3x\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\\(\\displaystyle\\int (f(x) + g(x))\\,dx = \\int f(x)\\,dx \\cdot \\int g(x)\\,dx\\)",
+          "antwoord": false,
+          "uitleg": "Een integraal van een som is de som van de integralen, niet het product."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke formule gebruik je om een bepaalde integraal te berekenen, met \\(F\\) een primitieve van \\(f\\)?",
+          "opties": [
+            "\\(\\displaystyle\\int_{a}^{b} f(x)\\,dx = F(b) - F(a)\\)",
+            "\\(\\displaystyle\\int_{a}^{b} f(x)\\,dx = F(a) - F(b)\\)",
+            "\\(\\displaystyle\\int_{a}^{b} f(x)\\,dx = f(b) - f(a)\\)",
+            "\\(\\displaystyle\\int_{a}^{b} f(x)\\,dx = F(b) \\cdot F(a)\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bovengrens invullen min ondergrens invullen, in de primitieve."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\\(\\displaystyle\\int 5 f(x)\\,dx = 5 \\int f(x)\\,dx\\)",
+          "antwoord": true,
+          "uitleg": "Dat is de lineariteit van de integraal: een constante factor mag je ervoor brengen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De bepaalde integraal is de limiet van ondersommen en bovensommen als ...",
+          "opties": [
+            "het aantal deelintervallen naar oneindig gaat",
+            "de bovengrens naar oneindig gaat",
+            "de functie naar nul gaat",
+            "de breedte van de rechthoekjes groter wordt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dan worden de rechthoekjes oneindig smal, en ondersom en bovensom komen samen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "\\(\\displaystyle\\int 7\\,dx = \\) ...",
+          "opties": [
+            "\\(7x + c\\)",
+            "\\(0\\)",
+            "\\(7 + c\\)",
+            "\\(\\dfrac{7x^{2}}{2} + c\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\((7x)' = 7\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\\(\\displaystyle\\int_{a}^{a} f(x)\\,dx = 0\\)",
+          "antwoord": true,
+          "uitleg": "Een interval zonder breedte heeft geen oppervlakte: \\(F(a) - F(a) = 0\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een dalende functie is de ondersom groter dan de bovensom.",
+          "antwoord": false,
+          "uitleg": "De ondersom is altijd de kleinste: je neemt de kleinste functiewaarde per deelinterval. Bij een dalende functie ligt die rechts."
+        }
+      ]
+    },
+    {
+      "titel": "Bedrijfswetenschappen: integralen en oppervlakte — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "invultekst",
+          "vraag": "Bereken \\(\\displaystyle\\int_{0}^{3} x^{2}\\,dx\\).",
+          "antwoord": [
+            "9",
+            "negen"
+          ],
+          "uitleg": "\\(\\left[\\dfrac{x^{3}}{3}\\right]_{0}^{3} = 9 - 0\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bereken \\(\\displaystyle\\int_{1}^{2} (4x^{3} - 2x)\\,dx\\).",
+          "antwoord": [
+            "12",
+            "twaalf"
+          ],
+          "uitleg": "\\(\\left[x^{4} - x^{2}\\right]_{1}^{2} = (16 - 4) - (1 - 1) = 12\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bereken \\(\\displaystyle\\int_{-1}^{1} x^{3}\\,dx\\).",
+          "opties": [
+            "\\(0\\)",
+            "\\(\\dfrac{1}{2}\\)",
+            "\\(\\dfrac{1}{4}\\)",
+            "\\(2\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\left[\\dfrac{x^{4}}{4}\\right]_{-1}^{1} = \\dfrac{1}{4} - \\dfrac{1}{4} = 0\\). Het stuk onder de \\(x\\)-as compenseert het stuk erboven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de werkelijke oppervlakte tussen \\(y = x^{3}\\) en de \\(x\\)-as op \\([-1, 1]\\)?",
+          "opties": [
+            "\\(\\dfrac{1}{2}\\)",
+            "\\(0\\)",
+            "\\(\\dfrac{1}{4}\\)",
+            "\\(1\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Splits in \\([-1, 0]\\) en \\([0, 1]\\) en tel de absolute waarden op: \\(\\dfrac{1}{4} + \\dfrac{1}{4}\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Om de werkelijke oppervlakte te berekenen, splits je de integraal bij de nulwaarden van de functie.",
+          "antwoord": true,
+          "uitleg": "Zo tel je de stukken onder de \\(x\\)-as positief mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bereken \\(\\displaystyle\\int_{0}^{2} (x^{2} - 4)\\,dx\\).",
+          "opties": [
+            "\\(-\\dfrac{16}{3}\\)",
+            "\\(\\dfrac{16}{3}\\)",
+            "\\(-\\dfrac{8}{3}\\)",
+            "\\(-8\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\left[\\dfrac{x^{3}}{3} - 4x\\right]_{0}^{2} = \\dfrac{8}{3} - 8 = -\\dfrac{16}{3}\\). Negatief, want de grafiek ligt onder de \\(x\\)-as."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Met welke integraal noteer je de oppervlakte tussen \\(f\\) en \\(g\\) op \\([a, b]\\) als \\(f(x) \\ge g(x)\\)?",
+          "opties": [
+            "\\(\\displaystyle\\int_{a}^{b} (f(x) - g(x))\\,dx\\)",
+            "\\(\\displaystyle\\int_{a}^{b} (f(x) + g(x))\\,dx\\)",
+            "\\(\\displaystyle\\int_{a}^{b} f(x) \\cdot g(x)\\,dx\\)",
+            "\\(\\displaystyle\\int_{a}^{b} (g(x) - f(x))\\,dx\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bovenste functie min onderste functie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tussen welke grenzen bereken je de oppervlakte ingesloten door \\(y = x^{2}\\) en \\(y = 2x\\)?",
+          "opties": [
+            "tussen \\(0\\) en \\(2\\)",
+            "tussen \\(-2\\) en \\(2\\)",
+            "tussen \\(0\\) en \\(4\\)",
+            "tussen \\(1\\) en \\(2\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(x^{2} = 2x \\iff x(x - 2) = 0\\): de grafieken snijden in \\(x = 0\\) en \\(x = 2\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe groot is de oppervlakte ingesloten door \\(y = x^{2}\\) en \\(y = 2x\\)?",
+          "opties": [
+            "\\(\\dfrac{4}{3}\\)",
+            "\\(\\dfrac{8}{3}\\)",
+            "\\(4\\)",
+            "\\(\\dfrac{2}{3}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\displaystyle\\int_{0}^{2} (2x - x^{2})\\,dx = \\left[x^{2} - \\dfrac{x^{3}}{3}\\right]_{0}^{2} = 4 - \\dfrac{8}{3} = \\dfrac{4}{3}\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij de oppervlakte tussen twee krommen maakt het niet uit welke functie je eerst schrijft.",
+          "antwoord": false,
+          "uitleg": "Onderste min bovenste geeft een negatief getal. Neem altijd bovenste min onderste, of de absolute waarde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een auto rijdt met snelheid \\(v(t)\\) in m/s. Wat stelt \\(\\displaystyle\\int_{0}^{10} v(t)\\,dt\\) voor?",
+          "opties": [
+            "de afgelegde weg in de eerste \\(10\\) seconden",
+            "de versnelling na \\(10\\) seconden",
+            "de gemiddelde snelheid",
+            "de snelheid na \\(10\\) seconden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Snelheid maal tijd is afstand. De integraal telt dat op over het hele tijdsinterval."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een fietser rijdt met \\(v(t) = 2t\\) m/s. Hoeveel meter legt hij af tussen \\(t = 0\\) en \\(t = 5\\) s?",
+          "antwoord": [
+            "25",
+            "25 m",
+            "vijfentwintig"
+          ],
+          "uitleg": "\\(\\displaystyle\\int_{0}^{5} 2t\\,dt = \\left[t^{2}\\right]_{0}^{5} = 25\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De marginale kost is \\(K'(q) = 2q + 10\\) euro per stuk. Hoeveel kost het om de productie van \\(10\\) naar \\(20\\) stuks te verhogen?",
+          "opties": [
+            "\\(400\\) euro",
+            "\\(50\\) euro",
+            "\\(300\\) euro",
+            "\\(500\\) euro"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\displaystyle\\int_{10}^{20} (2q + 10)\\,dq = \\left[q^{2} + 10q\\right]_{10}^{20} = 600 - 200 = 400\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Ken je de marginale kost, dan vind je de totale kostfunctie door te primitiveren.",
+          "antwoord": true,
+          "uitleg": "De marginale kost is de afgeleide van de totale kost. De vaste kost bepaalt de constante."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Water stroomt in een vat met debiet \\(d(t) = 6 - t\\) liter per minuut (\\(0 \\le t \\le 6\\)). Hoeveel liter stroomt er in de eerste \\(6\\) minuten in?",
+          "opties": [
+            "\\(18\\) liter",
+            "\\(36\\) liter",
+            "\\(6\\) liter",
+            "\\(30\\) liter"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\displaystyle\\int_{0}^{6} (6 - t)\\,dt = \\left[6t - \\dfrac{t^{2}}{2}\\right]_{0}^{6} = 36 - 18 = 18\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke integraal geeft de werkelijke oppervlakte tussen \\(y = x^{2} - 1\\) en de \\(x\\)-as op \\([0, 2]\\)?",
+          "opties": [
+            "\\(-\\displaystyle\\int_{0}^{1} (x^{2} - 1)\\,dx + \\int_{1}^{2} (x^{2} - 1)\\,dx\\)",
+            "\\(\\displaystyle\\int_{0}^{2} (x^{2} - 1)\\,dx\\)",
+            "\\(\\displaystyle\\int_{0}^{1} (x^{2} - 1)\\,dx + \\int_{1}^{2} (x^{2} - 1)\\,dx\\)",
+            "\\(-\\displaystyle\\int_{0}^{2} (x^{2} - 1)\\,dx\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op \\([0, 1]\\) ligt de grafiek onder de \\(x\\)-as: dat stuk krijgt een minteken."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bereken \\(\\displaystyle\\int_{0}^{1} (3x^{2} + 2x + 1)\\,dx\\).",
+          "antwoord": [
+            "3",
+            "drie"
+          ],
+          "uitleg": "\\(\\left[x^{3} + x^{2} + x\\right]_{0}^{1} = 3\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\\(\\displaystyle\\int_{0}^{4} f(x)\\,dx = \\int_{0}^{1} f(x)\\,dx + \\int_{1}^{4} f(x)\\,dx\\)",
+          "antwoord": true,
+          "uitleg": "Je mag het interval opsplitsen en de stukken optellen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De snelheid van een voorwerp is \\(v(t) = 3t^{2}\\) m/s, met \\(t\\) in seconden. Hoeveel meter legt het af tussen \\(t = 1\\) en \\(t = 2\\)?",
+          "opties": [
+            "\\(7\\) m",
+            "\\(8\\) m",
+            "\\(9\\) m",
+            "\\(12\\) m"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\left[t^{3}\\right]_{1}^{2} = 8 - 1 = 7\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\\(\\displaystyle\\int_{1}^{3} x\\,dx\\) is gelijk aan \\(3 - 1 = 2\\).",
+          "antwoord": false,
+          "uitleg": "Je moet de primitieve invullen, niet de functie zelf: \\(\\left[\\dfrac{x^{2}}{2}\\right]_{1}^{3} = \\dfrac{9}{2} - \\dfrac{1}{2} = 4\\)."
+        }
+      ]
+    },
+    {
+      "titel": "Bedrijfswetenschappen: matrices, grafen en stelsels — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Een matrix heeft \\(2\\) rijen en \\(3\\) kolommen. Wat is de dimensie?",
+          "opties": [
+            "\\(2 \\times 3\\)",
+            "\\(3 \\times 2\\)",
+            "\\(6\\)",
+            "\\(5\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst het aantal rijen, dan het aantal kolommen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "\\(A = \\begin{bmatrix} 4 & 7 & 1 \\\\ 2 & 5 & 9 \\end{bmatrix}\\). Wat is het element \\(a_{23}\\)?",
+          "antwoord": [
+            "9",
+            "negen"
+          ],
+          "uitleg": "Rij \\(2\\), kolom \\(3\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "\\(\\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix} + \\begin{bmatrix} 5 & 0 \\\\ -1 & 2 \\end{bmatrix} = \\) ...",
+          "opties": [
+            "\\(\\begin{bmatrix} 6 & 2 \\\\ 2 & 6 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 5 & 0 \\\\ -3 & 8 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 6 & 2 \\\\ 4 & 6 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 4 & 2 \\\\ 2 & 2 \\end{bmatrix}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Element per element optellen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "\\(3 \\cdot \\begin{bmatrix} 2 & -1 \\\\ 0 & 4 \\end{bmatrix} = \\) ...",
+          "opties": [
+            "\\(\\begin{bmatrix} 6 & -3 \\\\ 0 & 12 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 5 & 2 \\\\ 3 & 7 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 6 & -1 \\\\ 0 & 4 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 6 & -3 \\\\ 3 & 12 \\end{bmatrix}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elk element maal \\(3\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je kan twee matrices enkel optellen als ze dezelfde dimensie hebben.",
+          "antwoord": true,
+          "uitleg": "Je telt element per element op, dus elk element moet een partner hebben."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "\\(A\\) is een \\(2 \\times 3\\)-matrix en \\(B\\) een \\(3 \\times 4\\)-matrix. Wat is de dimensie van \\(A \\cdot B\\)?",
+          "opties": [
+            "\\(2 \\times 4\\)",
+            "\\(3 \\times 3\\)",
+            "\\(4 \\times 2\\)",
+            "het product bestaat niet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het aantal kolommen van \\(A\\) (\\(3\\)) is gelijk aan het aantal rijen van \\(B\\). Het product krijgt de rijen van \\(A\\) en de kolommen van \\(B\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "\\(\\begin{bmatrix} 1 & 2 \\\\ 0 & 3 \\end{bmatrix} \\cdot \\begin{bmatrix} 4 \\\\ 5 \\end{bmatrix} = \\) ...",
+          "opties": [
+            "\\(\\begin{bmatrix} 14 \\\\ 15 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 4 & 10 \\\\ 0 & 15 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 9 \\\\ 15 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 4 \\\\ 15 \\end{bmatrix}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rij maal kolom: \\(1 \\cdot 4 + 2 \\cdot 5 = 14\\) en \\(0 \\cdot 4 + 3 \\cdot 5 = 15\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Voor vierkante matrices geldt altijd \\(A \\cdot B = B \\cdot A\\).",
+          "antwoord": false,
+          "uitleg": "De matrixvermenigvuldiging is niet commutatief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de getransponeerde van \\(\\begin{bmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\end{bmatrix}\\)?",
+          "opties": [
+            "\\(\\begin{bmatrix} 1 & 4 \\\\ 2 & 5 \\\\ 3 & 6 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 3 & 2 & 1 \\\\ 6 & 5 & 4 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 4 & 5 & 6 \\\\ 1 & 2 & 3 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 6 & 3 \\\\ 5 & 2 \\\\ 4 & 1 \\end{bmatrix}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rijen worden kolommen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke matrix is de eenheidsmatrix van orde \\(2\\)?",
+          "opties": [
+            "\\(\\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 1 & 1 \\\\ 1 & 1 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 0 & 0 \\\\ 0 & 0 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 0 & 1 \\\\ 1 & 0 \\end{bmatrix}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Enen op de hoofddiagonaal, nullen elders. Ze is het neutraal element voor de vermenigvuldiging."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een symmetrische matrix is altijd een diagonaalmatrix.",
+          "antwoord": false,
+          "uitleg": "Symmetrisch betekent \\(a_{ij} = a_{ji}\\): gelijk aan de getransponeerde. \\(\\begin{bmatrix} 1 & 2 \\\\ 2 & 1 \\end{bmatrix}\\) is symmetrisch maar geen diagonaalmatrix."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke matrix is een diagonaalmatrix?",
+          "opties": [
+            "\\(\\begin{bmatrix} 3 & 0 \\\\ 0 & -2 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 3 & 1 \\\\ 0 & -2 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 0 & 3 \\\\ -2 & 0 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 3 & 3 \\\\ 3 & 3 \\end{bmatrix}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een vierkante matrix met enkel nullen buiten de hoofddiagonaal."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "\\(A = \\begin{bmatrix} 2 & 0 \\\\ 1 & 1 \\end{bmatrix}\\). Wat is het element op rij \\(2\\), kolom \\(1\\) van \\(A^{2}\\)?",
+          "antwoord": [
+            "3",
+            "drie"
+          ],
+          "uitleg": "\\(A^{2} = A \\cdot A\\). Rij \\(2\\) maal kolom \\(1\\): \\(1 \\cdot 2 + 1 \\cdot 1 = 3\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een winkel verkoopt \\(10\\) broden en \\(4\\) taarten. Een brood kost \\(3\\) euro, een taart \\(12\\) euro. Welk product geeft de omzet?",
+          "opties": [
+            "\\(\\begin{bmatrix} 10 & 4 \\end{bmatrix} \\cdot \\begin{bmatrix} 3 \\\\ 12 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 10 & 4 \\end{bmatrix} \\cdot \\begin{bmatrix} 3 & 12 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 10 \\\\ 4 \\end{bmatrix} \\cdot \\begin{bmatrix} 3 \\\\ 12 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 3 & 12 \\end{bmatrix} + \\begin{bmatrix} 10 & 4 \\end{bmatrix}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rijmatrix maal kolommatrix: \\(10 \\cdot 3 + 4 \\cdot 12 = 78\\) euro."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij matrices kan \\(A \\cdot B\\) de nulmatrix zijn terwijl \\(A\\) en \\(B\\) zelf niet de nulmatrix zijn.",
+          "antwoord": true,
+          "uitleg": "Zulke matrices heten nuldelers, bijvoorbeeld \\(\\begin{bmatrix} 0 & 1 \\\\ 0 & 0 \\end{bmatrix}^{2}\\) is de nulmatrix."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is \\((A \\cdot B)^{T}\\)?",
+          "opties": [
+            "\\(B^{T} \\cdot A^{T}\\)",
+            "\\(A^{T} \\cdot B^{T}\\)",
+            "\\(A \\cdot B\\)",
+            "\\(B \\cdot A\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij het transponeren van een product draait de volgorde om."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Elke matrix kan je met zichzelf vermenigvuldigen.",
+          "antwoord": false,
+          "uitleg": "Enkel een vierkante matrix: anders past het aantal kolommen niet bij het aantal rijen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het symmetrisch element van \\(A\\) voor de optelling?",
+          "opties": [
+            "\\(-A\\)",
+            "\\(A^{T}\\)",
+            "de eenheidsmatrix",
+            "\\(\\dfrac{1}{A}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(A + (-A)\\) is de nulmatrix."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee matrices zijn gelijk als ...",
+          "opties": [
+            "ze dezelfde dimensie hebben en alle overeenkomstige elementen gelijk zijn",
+            "ze dezelfde dimensie hebben",
+            "de som van hun elementen gelijk is",
+            "hun eerste rij gelijk is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dimensie en elk element op dezelfde plaats moeten kloppen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\\(A \\cdot (B + C) = A \\cdot B + A \\cdot C\\) voor matrices waarvoor dat product bestaat.",
+          "antwoord": true,
+          "uitleg": "De matrixvermenigvuldiging is distributief ten opzichte van de optelling."
+        }
+      ]
+    },
+    {
+      "titel": "Bedrijfswetenschappen: matrices, grafen en stelsels — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij een overgangsmatrix (Markov-matrix) is de som van de elementen in elke kolom ...",
+          "opties": [
+            "\\(1\\)",
+            "\\(0\\)",
+            "\\(100\\)",
+            "telkens anders"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elke kolom verdeelt een groep over alle toestanden: samen \\(100\\%\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Overgangsmatrix \\(T = \\begin{bmatrix} 0{,}8 & 0{,}3 \\\\ 0{,}2 & 0{,}7 \\end{bmatrix}\\) (kolom = van, rij = naar), beginsituatie \\(\\begin{bmatrix} 100 \\\\ 100 \\end{bmatrix}\\). Wat is de toestand na één stap?",
+          "opties": [
+            "\\(\\begin{bmatrix} 110 \\\\ 90 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 100 \\\\ 100 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 80 \\\\ 70 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 90 \\\\ 110 \\end{bmatrix}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(0{,}8 \\cdot 100 + 0{,}3 \\cdot 100 = 110\\) en \\(0{,}2 \\cdot 100 + 0{,}7 \\cdot 100 = 90\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe bereken je de toestand na \\(n\\) stappen met overgangsmatrix \\(T\\) en begintoestand \\(X_{0}\\)?",
+          "opties": [
+            "\\(T^{n} \\cdot X_{0}\\)",
+            "\\(n \\cdot T \\cdot X_{0}\\)",
+            "\\(T \\cdot X_{0}^{n}\\)",
+            "\\(X_{0} + n \\cdot T\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elke stap vermenigvuldig je opnieuw met \\(T\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een evenwichtstoestand \\(X\\) geldt \\(T \\cdot X = X\\).",
+          "antwoord": true,
+          "uitleg": "Na nog een stap verandert de toestand niet meer: er is stabilisatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat staat er op de eerste rij van een Lesliematrix?",
+          "opties": [
+            "de vruchtbaarheidscijfers van elke leeftijdsklasse",
+            "de overlevingskansen",
+            "het aantal dieren per klasse",
+            "enkel nullen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Onder de hoofddiagonaal staan de overlevingskansen naar de volgende klasse."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een verbindingsmatrix van een graaf staat op plaats \\((i, j)\\) een \\(1\\). Wat betekent dat?",
+          "opties": [
+            "er is een rechtstreekse verbinding van knoop \\(i\\) naar knoop \\(j\\)",
+            "knoop \\(i\\) en \\(j\\) zijn dezelfde",
+            "er is geen verbinding",
+            "de afstand is \\(1\\) km"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een \\(0\\) betekent geen rechtstreekse verbinding."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Met \\(M^{2}\\), het kwadraat van de verbindingsmatrix, tel je de wegen van lengte \\(2\\) tussen twee knopen.",
+          "antwoord": true,
+          "uitleg": "Een element van \\(M^{2}\\) telt de tussenstops via een derde knoop."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een graaf heeft knopen \\(A\\), \\(B\\), \\(C\\) met pijlen \\(A \\to B\\), \\(B \\to C\\) en \\(C \\to A\\). Hoeveel enen staan er in de verbindingsmatrix?",
+          "opties": [
+            "\\(3\\)",
+            "\\(6\\)",
+            "\\(9\\)",
+            "\\(2\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eén \\(1\\) per pijl."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de uitgebreide coëfficiëntenmatrix van \\(\\begin{cases} 2x + y = 5 \\\\ x - 3y = 1 \\end{cases}\\)?",
+          "opties": [
+            "\\(\\left[\\begin{array}{cc|c} 2 & 1 & 5 \\\\ 1 & -3 & 1 \\end{array}\\right]\\)",
+            "\\(\\left[\\begin{array}{cc} 2 & 1 \\\\ 1 & -3 \\end{array}\\right]\\)",
+            "\\(\\left[\\begin{array}{cc|c} 2 & 5 & 1 \\\\ 1 & 1 & -3 \\end{array}\\right]\\)",
+            "\\(\\left[\\begin{array}{cc|c} 2 & 1 & 5 \\\\ 1 & 3 & 1 \\end{array}\\right]\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De coëfficiënten van \\(x\\) en \\(y\\), en de rechterleden achter de streep. Zonder streep is het de gewone coëfficiëntenmatrix."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke bewerking is geen elementaire rijoperatie?",
+          "opties": [
+            "twee elementen in dezelfde rij van plaats wisselen",
+            "twee rijen van plaats wisselen",
+            "een rij vermenigvuldigen met een getal verschillend van \\(0\\)",
+            "een veelvoud van een rij bij een andere rij optellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elementen binnen een rij wisselen verandert het stelsel. De andere drie geven een gelijkwaardig stelsel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Na Gauss-Jordan krijg je \\(\\left[\\begin{array}{cc|c} 1 & 0 & 2 \\\\ 0 & 1 & -1 \\end{array}\\right]\\). Wat is de oplossing?",
+          "opties": [
+            "\\(V = \\{(2, -1)\\}\\)",
+            "\\(V = \\{(-1, 2)\\}\\)",
+            "\\(V = \\{(1, 1)\\}\\)",
+            "\\(V = \\varnothing\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De eerste rij zegt \\(x = 2\\), de tweede \\(y = -1\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een rijcanonieke matrix bevat de rij \\(\\left[\\begin{array}{ccc|c} 0 & 0 & 0 & 4 \\end{array}\\right]\\). Wat voor stelsel is het?",
+          "opties": [
+            "strijdig",
+            "bepaald",
+            "onbepaald met één vrijheidsgraad",
+            "onbepaald met twee vrijheidsgraden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Die rij zegt \\(0 = 4\\): onmogelijk, dus geen oplossing."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een stelsel met een rij \\(\\left[\\begin{array}{ccc|c} 0 & 0 & 0 & 0 \\end{array}\\right]\\) is altijd strijdig.",
+          "antwoord": false,
+          "uitleg": "\\(0 = 0\\) klopt altijd. Zo'n rij valt gewoon weg; vaak blijft er een onbepaald stelsel over."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Na Gauss-Jordan: \\(\\left[\\begin{array}{ccc|c} 1 & 0 & 2 & 3 \\\\ 0 & 1 & -1 & 1 \\\\ 0 & 0 & 0 & 0 \\end{array}\\right]\\). Wat voor stelsel is het?",
+          "opties": [
+            "onbepaald met één vrijheidsgraad",
+            "bepaald",
+            "strijdig",
+            "onbepaald met twee vrijheidsgraden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Drie onbekenden en twee leidende enen: \\(z\\) is vrij te kiezen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij dat onbepaald stelsel: hoe noteer je de oplossingen met \\(z = r\\)?",
+          "opties": [
+            "\\(V = \\{(3 - 2r, 1 + r, r) \\mid r \\in \\mathbb{R}\\}\\)",
+            "\\(V = \\{(3, 1, 0)\\}\\)",
+            "\\(V = \\{(3 + 2r, 1 - r, r) \\mid r \\in \\mathbb{R}\\}\\)",
+            "\\(V = \\varnothing\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(x + 2z = 3\\) geeft \\(x = 3 - 2r\\), en \\(y - z = 1\\) geeft \\(y = 1 + r\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Los op met Gauss-Jordan: \\(\\begin{cases} x + y = 7 \\\\ x - y = 1 \\end{cases}\\). Wat is \\(x\\)?",
+          "antwoord": [
+            "4",
+            "vier"
+          ],
+          "uitleg": "Rij 2 min rij 1 geeft \\(-2y = -6\\), dus \\(y = 3\\) en \\(x = 4\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een bepaald stelsel heeft precies één oplossing.",
+          "antwoord": true,
+          "uitleg": "Onbepaald: oneindig veel oplossingen. Strijdig: geen oplossing."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bakker maakt broden (\\(x\\)) en taarten (\\(y\\)). Hij heeft \\(30\\) kg bloem en \\(10\\) uur. Een brood vraagt \\(0{,}5\\) kg en \\(0{,}1\\) uur, een taart \\(1\\) kg en \\(0{,}5\\) uur. Welk stelsel hoort erbij als hij alles opgebruikt?",
+          "opties": [
+            "\\(\\begin{cases} 0{,}5x + y = 30 \\\\ 0{,}1x + 0{,}5y = 10 \\end{cases}\\)",
+            "\\(\\begin{cases} 0{,}5x + 0{,}1y = 30 \\\\ x + 0{,}5y = 10 \\end{cases}\\)",
+            "\\(\\begin{cases} x + y = 30 \\\\ x + y = 10 \\end{cases}\\)",
+            "\\(\\begin{cases} 0{,}5x + y = 10 \\\\ 0{,}1x + 0{,}5y = 30 \\end{cases}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eén vergelijking voor de bloem en één voor de tijd."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de evenwichtstoestand van een migratiematrix verhuist niemand meer.",
+          "antwoord": false,
+          "uitleg": "Mensen blijven verhuizen, maar er gaan evenveel in als uit elke toestand: de aantallen veranderen niet meer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wanneer is een matrix in rijcanonieke vorm?",
+          "opties": [
+            "elke leidende coëfficiënt is \\(1\\), met nullen erboven en eronder, en de leidende enen schuiven naar rechts op",
+            "alle elementen zijn \\(0\\) of \\(1\\)",
+            "de matrix is vierkant",
+            "de laatste kolom bevat enkel nullen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is het eindpunt van Gauss-Jordan: je leest de oplossing zo af."
+        }
+      ]
+    },
+    {
+      "titel": "Bedrijfswetenschappen: hypothesetoetsen en correlatie — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Een fabrikant zegt dat zijn pakken gemiddeld \\(500\\) g wegen. Een consumentenorganisatie denkt dat het minder is. Wat is de nulhypothese?",
+          "opties": [
+            "\\(H_{0}: \\mu = 500\\)",
+            "\\(H_{0}: \\mu < 500\\)",
+            "\\(H_{0}: \\mu > 500\\)",
+            "\\(H_{0}: \\bar{x} = 500\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De nulhypothese is de bewering die je in twijfel trekt. Ze gaat over de populatie (\\(\\mu\\)), niet over de steekproef (\\(\\bar{x}\\))."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij datzelfde onderzoek naar de pakken van \\(500\\) g: wat is de alternatieve hypothese?",
+          "opties": [
+            "\\(H_{1}: \\mu < 500\\)",
+            "\\(H_{1}: \\mu = 500\\)",
+            "\\(H_{1}: \\mu \\neq 500\\)",
+            "\\(H_{1}: \\mu > 500\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De organisatie vermoedt dat het minder is: een eenzijdige toets naar links."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je denkt dat een waarde anders is, zonder te weten of ze hoger of lager is, gebruik je een tweezijdige toets.",
+          "antwoord": true,
+          "uitleg": "Dan is \\(H_{1}: \\mu \\neq \\mu_{0}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de p-waarde?",
+          "opties": [
+            "de kans op een steekproefresultaat dat minstens zo extreem is, als \\(H_{0}\\) waar is",
+            "de kans dat \\(H_{0}\\) waar is",
+            "de kans dat \\(H_{1}\\) waar is",
+            "het gekozen significantieniveau"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hoe kleiner de p-waarde, hoe vreemder het resultaat als \\(H_{0}\\) zou kloppen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het significantieniveau is \\(\\alpha = 0{,}05\\) en de p-waarde is \\(0{,}02\\). Wat besluit je?",
+          "opties": [
+            "je verwerpt \\(H_{0}\\)",
+            "je verwerpt \\(H_{0}\\) niet",
+            "je verwerpt \\(H_{1}\\)",
+            "je kan niets besluiten"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(p < \\alpha\\): het resultaat is significant."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het significantieniveau is \\(\\alpha = 0{,}01\\) en de p-waarde is \\(0{,}03\\). Wat besluit je?",
+          "opties": [
+            "je verwerpt \\(H_{0}\\) niet",
+            "je verwerpt \\(H_{0}\\)",
+            "\\(H_{1}\\) is bewezen",
+            "\\(H_{0}\\) is bewezen"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(p > \\alpha\\): er is te weinig bewijs tegen \\(H_{0}\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je \\(H_{0}\\) niet verwerpt, heb je bewezen dat \\(H_{0}\\) waar is.",
+          "antwoord": false,
+          "uitleg": "Je hebt enkel te weinig bewijs gevonden om ze te verwerpen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent een significantieniveau van \\(5\\%\\)?",
+          "opties": [
+            "je aanvaardt \\(5\\%\\) kans om \\(H_{0}\\) ten onrechte te verwerpen",
+            "\\(5\\%\\) van de steekproef is fout",
+            "\\(H_{0}\\) is met \\(5\\%\\) kans waar",
+            "de steekproef bevat \\(5\\%\\) van de populatie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je kiest \\(\\alpha\\) vooraf: zoveel risico op een vals alarm neem je."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een partij beweert dat \\(40\\%\\) van de kiezers voor haar stemt. In een steekproef van \\(500\\) kiezers zijn dat er \\(180\\). Wat is de steekproefproportie?",
+          "opties": [
+            "\\(0{,}36\\)",
+            "\\(0{,}40\\)",
+            "\\(0{,}18\\)",
+            "\\(0{,}50\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\dfrac{180}{500} = 0{,}36\\). De \\(0{,}40\\) is de populatieproportie uit de bewering."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De steekproefproportie is in elke steekproef dezelfde.",
+          "antwoord": false,
+          "uitleg": "Ze verschilt van steekproef tot steekproef. De steekproevenverdeling beschrijft hoe ze schommelt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke verdeling heeft het steekproefgemiddelde bij grote steekproeven bij benadering?",
+          "opties": [
+            "een normale verdeling",
+            "een uniforme verdeling",
+            "geen verdeling, het is een vast getal",
+            "altijd dezelfde verdeling als de populatie, ook als die scheef is"
+          ],
+          "antwoord": 0,
+          "uitleg": "De steekproevenverdeling van het steekproefgemiddelde is klokvormig rond het populatiegemiddelde."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Hoe kleiner de p-waarde, hoe sterker het bewijs tegen \\(H_{0}\\).",
+          "antwoord": true,
+          "uitleg": "Het resultaat is dan heel onwaarschijnlijk als \\(H_{0}\\) waar zou zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een school denkt dat haar leerlingen hoger scoren dan het Vlaamse gemiddelde van \\(65\\). Welke hypothesen horen erbij?",
+          "opties": [
+            "\\(H_{0}: \\mu = 65\\) en \\(H_{1}: \\mu > 65\\)",
+            "\\(H_{0}: \\mu > 65\\) en \\(H_{1}: \\mu = 65\\)",
+            "\\(H_{0}: \\mu = 65\\) en \\(H_{1}: \\mu \\neq 65\\)",
+            "\\(H_{0}: \\mu < 65\\) en \\(H_{1}: \\mu > 65\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wat je wil aantonen, zet je in \\(H_{1}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een onderzoeker zegt: \\\"De p-waarde is \\(0{,}04\\), dus er is \\(4\\%\\) kans dat \\(H_{0}\\) waar is.\\\" Klopt dat?",
+          "opties": [
+            "nee, het is de kans op zo'n resultaat als \\(H_{0}\\) waar is",
+            "ja, dat is precies de betekenis",
+            "nee, het is de kans dat \\(H_{1}\\) waar is",
+            "ja, maar enkel bij een tweezijdige toets"
+          ],
+          "antwoord": 0,
+          "uitleg": "De p-waarde rekent met de veronderstelling dat \\(H_{0}\\) klopt. Ze zegt niet hoe waarschijnlijk \\(H_{0}\\) zelf is."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je kiest het significantieniveau voordat je de gegevens bekijkt.",
+          "antwoord": true,
+          "uitleg": "Anders kan je het niveau aanpassen tot het besluit je uitkomt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een machine vult flessen van \\(1\\) liter. De controleur wil weten of de machine ontregeld is, te veel of te weinig. Welke toets?",
+          "opties": [
+            "tweezijdig, \\(H_{1}: \\mu \\neq 1\\)",
+            "eenzijdig, \\(H_{1}: \\mu < 1\\)",
+            "eenzijdig, \\(H_{1}: \\mu > 1\\)",
+            "geen toets nodig"
+          ],
+          "antwoord": 0,
+          "uitleg": "Beide richtingen tellen als probleem."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij \\(\\alpha = 0{,}05\\) en \\(p = 0{,}05\\) verwerp je \\(H_{0}\\) zeker niet.",
+          "antwoord": false,
+          "uitleg": "De afspraak is: verwerpen als \\(p \\le \\alpha\\). Op de grens verwerp je dus wel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In de hypothese \\(H_{0}: p = 0{,}40\\) staat \\(p\\) voor ...",
+          "opties": [
+            "de populatieproportie",
+            "de p-waarde",
+            "de steekproefproportie",
+            "het significantieniveau"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hypothesen gaan altijd over de populatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een toets geeft een p-waarde van \\(0{,}30\\). Wat is een correcte conclusie bij \\(\\alpha = 0{,}05\\)?",
+          "opties": [
+            "het steekproefresultaat is goed te verklaren als \\(H_{0}\\) waar is",
+            "\\(H_{0}\\) is met \\(30\\%\\) kans waar",
+            "\\(H_{1}\\) is bewezen",
+            "de steekproef was te klein, dus fout"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(p > \\alpha\\): geen reden om \\(H_{0}\\) te verwerpen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij eenzelfde p-waarde verwerp je \\(H_{0}\\) sneller bij \\(\\alpha = 0{,}10\\) dan bij \\(\\alpha = 0{,}01\\).",
+          "antwoord": true,
+          "uitleg": "Een groter \\(\\alpha\\) is een lagere drempel."
+        }
+      ]
+    },
+    {
+      "titel": "Bedrijfswetenschappen: hypothesetoetsen en correlatie — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je onderzoekt of het aantal uren studie de punten op een toets beïnvloedt. Wat is de onafhankelijke variabele?",
+          "opties": [
+            "het aantal uren studie",
+            "de punten op de toets",
+            "het aantal leerlingen",
+            "de correlatiecoëfficiënt"
+          ],
+          "antwoord": 0,
+          "uitleg": "De onafhankelijke variabele staat op de horizontale as, de afhankelijke (de punten) op de verticale."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De correlatiecoëfficiënt \\(r\\) ligt altijd tussen ...",
+          "opties": [
+            "\\(-1\\) en \\(1\\)",
+            "\\(0\\) en \\(1\\)",
+            "\\(0\\) en \\(100\\)",
+            "\\(-\\infty\\) en \\(+\\infty\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het teken geeft de richting, de grootte de sterkte van het lineair verband."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De punten in een spreidingsdiagram liggen dicht bij een dalende rechte. Welke \\(r\\) past het best?",
+          "opties": [
+            "\\(r = -0{,}92\\)",
+            "\\(r = 0{,}92\\)",
+            "\\(r = -0{,}15\\)",
+            "\\(r = 0\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dalend geeft een negatieve \\(r\\), dicht bij de rechte een waarde dicht bij \\(-1\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een correlatiecoëfficiënt dicht bij \\(0\\) betekent dat er geen lineair verband is.",
+          "antwoord": true,
+          "uitleg": "Er kan wel een ander verband zijn, bijvoorbeeld een kwadratisch."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een perfect kwadratisch verband (een parabool met de top in het midden) is \\(r\\) dicht bij \\(1\\).",
+          "antwoord": false,
+          "uitleg": "\\(r\\) meet enkel lineaire verbanden. Bij zo'n parabool kan \\(r\\) dicht bij \\(0\\) liggen, ook al hangen de grootheden sterk samen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee grootheden zijn recht evenredig. Hoe ziet het spreidingsdiagram eruit?",
+          "opties": [
+            "de punten liggen op een rechte door de oorsprong",
+            "de punten liggen op een hyperbool",
+            "de punten liggen op een parabool",
+            "de punten liggen willekeurig verspreid"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(y = a \\cdot x\\): een rechte door \\((0, 0)\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee grootheden zijn omgekeerd evenredig. Welk voorschrift past?",
+          "opties": [
+            "\\(y = \\dfrac{a}{x}\\)",
+            "\\(y = a \\cdot x\\)",
+            "\\(y = a x^{2}\\)",
+            "\\(y = a x + b\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het product \\(x \\cdot y\\) blijft constant."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een trendlijn is \\(y = 2{,}5x + 40\\), met \\(x\\) de reclame-uitgaven in duizend euro en \\(y\\) de verkoop in duizend stuks. Wat betekent \\(2{,}5\\)?",
+          "opties": [
+            "per duizend euro reclame extra stijgt de verkoop met ongeveer \\(2500\\) stuks",
+            "zonder reclame worden \\(2500\\) stuks verkocht",
+            "de correlatie is \\(2{,}5\\)",
+            "de verkoop verdubbelt elke \\(2{,}5\\) jaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "De richtingscoëfficiënt is de toename van \\(y\\) per eenheid \\(x\\). De \\(40\\) is de verwachte verkoop zonder reclame."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Met die trendlijn \\(y = 2{,}5x + 40\\): welke verkoop (in duizend stuks) verwacht je bij \\(10\\) duizend euro reclame?",
+          "antwoord": [
+            "65",
+            "65 000",
+            "65000"
+          ],
+          "uitleg": "\\(2{,}5 \\cdot 10 + 40 = 65\\)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een sterke correlatie tussen twee grootheden bewijst dat de ene de andere veroorzaakt.",
+          "antwoord": false,
+          "uitleg": "Correlatie is geen causaliteit. Er kan een derde verborgen variabele zijn, of toeval."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke waarde van \\(r\\) wijst op het sterkste lineair verband?",
+          "opties": [
+            "\\(-0{,}95\\)",
+            "\\(0{,}80\\)",
+            "\\(0{,}50\\)",
+            "\\(-0{,}30\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het gaat om de absolute waarde: \\(0{,}95\\) is het dichtst bij \\(1\\). Het minteken zegt enkel dat het verband dalend is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heet een grafiek met een punt per waarneming, met de ene grootheid horizontaal en de andere verticaal?",
+          "opties": [
+            "een spreidingsdiagram",
+            "een histogram",
+            "een boxplot",
+            "een cirkeldiagram"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je noemt het ook een scatterdiagram of puntenwolk."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een positieve correlatie betekent dat bij grotere waarden van \\(x\\) meestal ook grotere waarden van \\(y\\) horen.",
+          "antwoord": true,
+          "uitleg": "De puntenwolk loopt van linksonder naar rechtsboven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een stad hangen de ijsverkoop en het aantal zonnebrandgevallen sterk samen. Wat is de beste verklaring?",
+          "opties": [
+            "een derde verborgen variabele: het warme, zonnige weer",
+            "ijs eten veroorzaakt zonnebrand",
+            "zonnebrand veroorzaakt zin in ijs",
+            "het is zuiver toeval"
+          ],
+          "antwoord": 0,
+          "uitleg": "Beide stijgen als het zonnig is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een spreidingsdiagram toont een puntenwolk zonder enig patroon. Welke \\(r\\) past?",
+          "opties": [
+            "\\(r \\approx 0\\)",
+            "\\(r \\approx 1\\)",
+            "\\(r \\approx -1\\)",
+            "\\(r \\approx 0{,}7\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Geen lineair verband betekent een correlatiecoëfficiënt dicht bij nul."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Met een trendlijn kan je veilig voorspellen ver buiten het bereik van de gemeten gegevens.",
+          "antwoord": false,
+          "uitleg": "Buiten de gegevens weet je niet of het verband nog lineair is. Voorspel binnen het gemeten bereik."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe bepaal je op het examen de trendlijn en de correlatiecoëfficiënt van een dataset?",
+          "opties": [
+            "met ICT, bijvoorbeeld een rekenapp of rekenblad",
+            "door de punten te tellen",
+            "door het gemiddelde van \\(x\\) te nemen",
+            "je schat ze altijd op zicht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je laat de berekening aan ICT over en interpreteert het resultaat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij \\(r = 0{,}35\\) zeg je dat het lineair verband ...",
+          "opties": [
+            "zwak en positief is",
+            "sterk en positief is",
+            "zwak en negatief is",
+            "perfect is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Positief teken, en ver van \\(1\\). Op het examen gebruik je de vuistregels uit het formularium."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een lineair verband liggen de punten van het spreidingsdiagram ongeveer op een rechte.",
+          "antwoord": true,
+          "uitleg": "Hoe dichter bij de rechte, hoe sterker het verband."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een onderzoek vindt \\(r = -0{,}85\\) tussen de prijs van een product en het aantal verkochte stuks. Wat betekent dat?",
+          "opties": [
+            "een sterk dalend lineair verband: bij hogere prijzen worden minder stuks verkocht",
+            "een zwak verband",
+            "bij hogere prijzen worden meer stuks verkocht",
+            "de prijs heeft geen invloed"
+          ],
+          "antwoord": 0,
+          "uitleg": "Negatief: dalend. \\(0{,}85\\) ligt dicht bij \\(1\\): sterk."
+        }
+      ]
     }
   ]
 }

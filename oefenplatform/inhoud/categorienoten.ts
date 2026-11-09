@@ -197,8 +197,7 @@ export const categorienoten: Record<string, Categorienoot> = {
     // hier ook niet. Tel dit na in plaats van de zin van de vorige keer over
     // te nemen.
     komtNog:
-      "Nog in de maak: de extra wiskunde van bedrijfswetenschappen, algemene " +
-      "economie, bedrijfseconomie, Latijn, bedrijfswetenschappen en recht, en " +
+      "Nog in de maak: algemene economie, bedrijfseconomie, Latijn, bedrijfswetenschappen en recht, en " +
       "kunstbeschouwing en filosofie.",
   },
 };
