@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "9 november 2026",
+    titel: "Geschiedenis Beyond: wat mag je overslaan in bedrijfs- of welzijnswetenschappen?",
+    tekst:
+      "Volg je bedrijfswetenschappen of welzijnswetenschappen? Dan is je examen geschiedenis wat lichter. Bovenaan het vak geschiedenis in Beyond staat nu per hoofdstuk welke stukken je mag overslaan.",
+  },
+  {
+    datum: "9 november 2026",
     titel: "Vier rustige spellen voor de lagere school",
     tekst:
       "Bij de educatieve spellen staan vier nieuwe spellen voor de lagere school: Breukenpizza, Foutenspeurder, Tijdlijn leggen en Kaartpuzzel. Ze zijn bewust rustig gemaakt: geen klok, geen geluid, geen punten en geen ranglijst. Wie een fout maakt, krijgt een korte tip en gaat zelf verder als hij of zij er klaar voor is.",

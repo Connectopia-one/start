@@ -131,9 +131,48 @@ export type Wegwijzer = {
   titel: string;
   tekst: string;
   knop?: { label: string; href: string };
+  /* Mag weg: een uitklapbaar lijstje, bv. per hoofdstuk wat je mag overslaan. */
+  lijstKop?: string;
+  lijst?: { kop: string; tekst: string }[];
 };
 
 const wegwijzers: Record<string, Wegwijzer> = {
+
+  /*
+    Kim, 9 november 2026: één vak geschiedenis voor heel Beyond doorstroom,
+    met duidelijk erbij wat bedrijfs- en welzijnswetenschappen niet nodig
+    hebben. Zij volgen de vakfiche 3DDG, de anderen 3DDO. Vergeleken regel per
+    regel met Kims werkdocument geschiedenis 3de graad. Geen enkel hoofdstuk
+    valt helemaal weg, daarom een lijstje per hoofdstuk.
+  */
+  "beyond-doorstroom/geschiedenis": {
+    titel: "Volg je bedrijfswetenschappen of welzijnswetenschappen? Dan mag je een paar stukken overslaan.",
+    tekst:
+      "Jouw examen geschiedenis is wat lichter dan dat van de andere richtingen. " +
+      "Je hebt elk hoofdstuk nodig, maar in de meeste hoofdstukken valt een stuk " +
+      "weg. Krijg je een vraag over zo'n stuk, sla ze dan gerust over. Je examen " +
+      "duurt 150 minuten en de moderne tijd weegt bij jou iets zwaarder door.",
+    lijstKop: "Wat mag ik overslaan? Bekijk het per hoofdstuk",
+    lijst: [
+      { kop: "Het historisch referentiekader", tekst: "niets, je hebt alles nodig." },
+      { kop: "Restauratie, revolutie en het ontstaan van België", tekst: "verbindend en ontbindend nationalisme, het ontstaan van de Vlaamse beweging, de eenmaking van Duitsland en Bismarck." },
+      { kop: "Industrialisatie en de sociale kwestie", tekst: "economisch liberalisme en kapitalisme als apart onderdeel, de geïndustrialiseerde regio's in België, hoe het kapitalisme ongelijkheid vergroot, hoe marxisme, sociaaldemocratie en christendemocratie opkwamen (hun ideeën ken je wel), het stemrecht in België, plattelandsvlucht, pendel- en seizoensarbeid, en coöperatie tegenover vakbond." },
+      { kop: "Modern imperialisme, Congo en China", tekst: "het imperialisme in Azië, de VS, Japan en Rusland in Azië, de oprichting van de Congo-Vrijstaat, Stanley, de rol van leger, kerk en staat, en de binnenlandse problemen van China." },
+      { kop: "De Eerste Wereldoorlog en de Russische revoluties", tekst: "de Volkenbond, het Veertienpuntenplan, het verloop in detail en alle Russische revoluties. Je kent wel de aanleiding en oorzaken, de overgang naar de loopgravenoorlog, de kantelpunten van 1917, het einde, de Duitse opmars in België en de Vrede van Versailles." },
+      { kop: "Interbellum: totalitarisme en crisis", tekst: "de crisis van 1929 en de New Deal, de Mars op Rome, de opkomst van de NSDAP, de Conferentie van München en de appeasementpolitiek. De totalitaire regimes van Stalin, Mussolini en Hitler en het niet-aanvalspact ken je wel." },
+      { kop: "De Tweede Wereldoorlog en de Holocaust", tekst: "het einde van de oorlog op de verschillende fronten en de Duitse opmars in België. Collaboratie en verzet ken je wel." },
+      { kop: "Een nieuwe wereldorde: VN, Koude Oorlog en Europa", tekst: "de duurzame ontwikkelingsdoelen, de sterktes en zwaktes en de actuele uitdagingen van de VN, het verloop van de Koude Oorlog in detail (blokkade van Berlijn, Hongaarse opstand, bouw van de Muur, Brezjnev, Praagse Lente, SALT en SDI), de fasen van de Europese eenmaking en hoe de Europese instellingen werken. Wat ze mogen beslissen ken je wel." },
+      { kop: "Dekolonisatie en de wereld van vandaag", tekst: "de dekolonisatie in Afrika en Azië in het algemeen, de gevolgen van de dekolonisatie, het verband met de Koude Oorlog, wat dekolonisatie vandaag nog betekent, en de vraag of Rusland-Oekraïne een nieuwe Koude Oorlog is. Congo, Israël-Palestina en de machtsverhoudingen sinds 1990 ken je wel." },
+      { kop: "België na 1945", tekst: "het sociaal pact, de verzorgings- en welvaartsstaat, Leuven Vlaams, de staatshervormingen stap voor stap en de actuele debatten. De breuklijnen, de koningskwestie, de verzuiling en de bestuursniveaus ken je wel." },
+      { kop: "Denken, kunst en emancipatie", tekst: "abolitionisme, sociaal darwinisme, eugenetica, de emancipatie van de vrouw, de jongerencultuur en de actuele protestbewegingen. De seksuele revolutie, holebi- en transrechten, de strijd tegen rassenscheiding in de VS en de kunststromingen ken je wel." },
+      { kop: "Redeneren met historische bronnen", tekst: "zelf een onderzoeksvraag maken, representativiteit, de bewerking en presentatie van een bron, en bronnen met elkaar vergelijken. Bruikbaarheid en betrouwbaarheid ken je wel." },
+      { kop: "Beeldvorming, vergelijken en verleden-heden-toekomst", tekst: "enkel een paar vergelijkingspunten: (neo)kolonialisme, wij-zij-denken, levensbeschouwing en economische systemen." },
+      { kop: "De Volksrepubliek China: van Mao tot Xi", tekst: "de gevolgen van de machtsovername van Mao en China in Afrika." },
+      { kop: "De Israëlisch-Palestijnse kwestie", tekst: "niets, je hebt alles nodig." },
+      { kop: "Denkstromingen en kunststromingen van de 19de en 20ste eeuw", tekst: "abolitionisme, sociaal darwinisme en eugenetica. De andere denkstromingen en de kunststromingen ken je wel." },
+      { kop: "Kunst en cultuur analyseren met het stappenplan", tekst: "niets, je hebt alles nodig." },
+    ],
+  },
   "beyond-doorstroom/natuurwetenschappen": {
     titel: "Volg je welzijnswetenschappen? Maak dan ook de blauwe hoofdstukken onderaan.",
     tekst:

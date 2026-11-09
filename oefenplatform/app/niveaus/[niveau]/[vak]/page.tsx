@@ -145,6 +145,20 @@ export default async function NiveauVakPage({
               <span aria-hidden>👉</span> {wegwijzer.titel}
             </p>
             <p className="mt-2 text-sm text-ink">{wegwijzer.tekst}</p>
+            {wegwijzer.lijst && (
+              <details className="mt-3 rounded-lg border border-forest/40 bg-paper px-4 py-2">
+                <summary className="cursor-pointer text-sm font-semibold text-forest-dark">
+                  {wegwijzer.lijstKop ?? "Bekijk per hoofdstuk"}
+                </summary>
+                <ul className="mt-2 space-y-2 pb-1 text-sm text-ink">
+                  {wegwijzer.lijst.map((r) => (
+                    <li key={r.kop}>
+                      <span className="font-semibold">{r.kop}</span>: {r.tekst}
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            )}
             {wegwijzer.knop && volledigeToegang && (
               <Link
                 href={`/niveaus/${niveau.slug}/${vak.slug}/${wegwijzer.knop.href}`}
