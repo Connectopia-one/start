@@ -883,8 +883,12 @@ export async function bulkImportVakInhoud(formData: FormData) {
       // Enkel als er een casus in het bestand staat, zodat een bestand zonder
       // casus ook ingaat zolang supabase/examenvormen.sql niet gedraaid is.
       ...(v.casus ? { casus: v.casus } : {}),
-      // Idem: enkel als het label er staat (supabase/niet-voor-dg.sql).
-      ...(v.niet_voor_dg ? { niet_voor_dg: true } : {}),
+      // Altijd meegeven, ook als false: bij een lijst rijen met en zonder
+      // deze sleutel vult de databank de ontbrekende met null in, en dat
+      // weigert ze (9 november 2026: daardoor viel het label weg bij elk
+      // hoofdstuk waar maar een deel van de vragen het had). Zolang
+      // supabase/niet-voor-dg.sql niet gedraaid is, valt het hieronder weg.
+      niet_voor_dg: v.niet_voor_dg === true,
     }));
 
     let { error: vragenFout } = await admin.from("vragen").insert(rijen);

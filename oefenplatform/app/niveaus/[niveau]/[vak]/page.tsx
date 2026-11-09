@@ -93,20 +93,25 @@ export default async function NiveauVakPage({
   const dg = Boolean(wegwijzer?.richtingKeuze) && (await leertVoorDg());
   const dgTelling = new Map<string, { weg: number; totaal: number }>();
   if (wegwijzer?.richtingKeuze) {
-    const { data: rijen, error } = await supabase
-      .from("vragen")
-      .select("hoofdstuk_id, niet_voor_dg")
-      .in(
-        "hoofdstuk_id",
-        hoofdstukken.map((h) => h.id),
-      );
-    if (!error)
-      for (const r of (rijen ?? []) as { hoofdstuk_id: string; niet_voor_dg: boolean }[]) {
+    // Per blok van 1000: Supabase geeft nooit meer dan 1000 rijen tegelijk,
+    // en geschiedenis Beyond alleen heeft er al meer dan 1200.
+    const ids = hoofdstukken.map((h) => h.id);
+    for (let van = 0; ; van += 1000) {
+      const { data: rijen, error } = await supabase
+        .from("vragen")
+        .select("id, hoofdstuk_id, niet_voor_dg")
+        .in("hoofdstuk_id", ids)
+        .order("id")
+        .range(van, van + 999);
+      if (error || !rijen) break;
+      for (const r of rijen as { hoofdstuk_id: string; niet_voor_dg: boolean }[]) {
         const t = dgTelling.get(r.hoofdstuk_id) ?? { weg: 0, totaal: 0 };
         t.totaal++;
         if (r.niet_voor_dg) t.weg++;
         dgTelling.set(r.hoofdstuk_id, t);
       }
+      if (rijen.length < 1000) break;
+    }
   }
   const dgStatus = (id: string): "deels" | "niet" | undefined => {
     if (!dg) return undefined;
