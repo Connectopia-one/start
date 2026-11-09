@@ -43,16 +43,15 @@ export const materiaalTekst = {
 };
 
 /*
-  Voorstellen voor de kop bij het toevoegen. Je hoeft je hier niet aan te
+  Voorstellen voor het kopje bij het toevoegen. Op /extras/links, /extras/documenten
+  en /extras/filmpjes staat alles eerst per schoolniveau en daarbinnen per kopje.
+  Een item zonder kopje (of met "Allerlei") komt onderaan zonder kopje. Je hoeft je hier niet aan te
   houden: typ gewoon een eigen kop en die verschijnt vanzelf op de pagina.
   De koppen staan op de pagina in de volgorde waarin je de eerste link van die
   kop toegevoegd hebt.
 */
 export const materiaalGroepSuggesties = [
-  "Ontdekken en verwonderen",
-  "Wiskunde",
-  "Wetenschap en techniek",
-  "Talen",
-  "Mens en maatschappij",
-  "Oefenen en spelen",
+  /* Kim, 9 november 2026: per schoolniveau twee kopjes bij de leuke links. */
+  "Materiaal en oefensites",
+  "Studie- en oefentips",
 ];

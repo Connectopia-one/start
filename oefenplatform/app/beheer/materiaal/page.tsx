@@ -30,6 +30,9 @@ export default async function BeheerMateriaalPage() {
 
   const rijen = (data ?? []) as Rij[];
   /* Zijn de kolommen soort en schoolniveau er al? (supabase/materiaal-soort.sql) */
+  const groepen = Array.from(
+    new Set(rijen.map((r) => r.groep).filter((g) => g && g !== "Allerlei")),
+  );
   const kolommenKlaar = rijen.length === 0 || rijen.some((r) => "soort" in r);
 
   return (
@@ -39,7 +42,9 @@ export default async function BeheerMateriaalPage() {
         <p className="text-sm font-medium uppercase tracking-wide text-forest">
           {materiaalTekst.label}
         </p>
-        <h1 className="font-display text-2xl font-semibold text-ink">Materiaal beheren</h1>
+        <h1 className="font-display text-2xl font-semibold text-ink">
+          Materiaal beheren
+        </h1>
         <p className="mt-2 text-sm text-ink-dim">
           Wat je hier toevoegt, staat meteen op{" "}
           <Link href="/extras" className="text-forest underline">
@@ -57,8 +62,9 @@ export default async function BeheerMateriaalPage() {
 
         {!kolommenKlaar && (
           <p className="mt-4 rounded-md bg-amber/10 px-3 py-2 text-sm text-ink">
-            Voer eerst <code>supabase/materiaal-soort.sql</code> één keer uit in Supabase. Daarna
-            kan je bij elk item kiezen onder welke knop het staat en voor wie het is.
+            Voer eerst <code>supabase/materiaal-soort.sql</code> één keer uit in
+            Supabase. Daarna kan je bij elk item kiezen onder welke knop het
+            staat en voor wie het is.
           </p>
         )}
 
@@ -71,24 +77,51 @@ export default async function BeheerMateriaalPage() {
               <div className="min-w-0">
                 <p className="text-xs uppercase tracking-wide text-ink-dim">
                   {m.type === "pdf" ? "PDF" : "Link"}
+                  {m.groep && m.groep !== "Allerlei" ? (
+                    <> &middot; {m.groep}</>
+                  ) : null}
                 </p>
                 <p className="font-medium text-ink">{m.titel}</p>
-                {m.omschrijving && <p className="mt-0.5 text-sm text-ink-dim">{m.omschrijving}</p>}
-                {m.link && <p className="mt-0.5 truncate text-xs text-ink-dim">{m.link}</p>}
+                {m.omschrijving && (
+                  <p className="mt-0.5 text-sm text-ink-dim">
+                    {m.omschrijving}
+                  </p>
+                )}
+                {m.link && (
+                  <p className="mt-0.5 truncate text-xs text-ink-dim">
+                    {m.link}
+                  </p>
+                )}
                 {kolommenKlaar && (
-                  <form action={wijzigMateriaalPlek} className="mt-2 flex flex-wrap items-center gap-2 text-xs">
+                  <form
+                    action={wijzigMateriaalPlek}
+                    className="mt-2 flex flex-wrap items-center gap-2 text-xs"
+                  >
                     <input type="hidden" name="id" value={m.id} />
-                    <select name="soort" defaultValue={soortVan(m)} className="rounded border border-border bg-paper px-2 py-1">
+                    <select
+                      name="soort"
+                      defaultValue={soortVan(m)}
+                      className="rounded border border-border bg-paper px-2 py-1"
+                    >
                       <option value="links">🔗 Leuke links</option>
-                      <option value="documenten">🖨️ Afdrukbare documenten</option>
+                      <option value="documenten">
+                        🖨️ Afdrukbare documenten
+                      </option>
                       <option value="filmpjes">🎬 Leuke filmpjes</option>
                     </select>
-                    <select name="schoolniveau" defaultValue={schoolVan(m)} className="rounded border border-border bg-paper px-2 py-1">
+                    <select
+                      name="schoolniveau"
+                      defaultValue={schoolVan(m)}
+                      className="rounded border border-border bg-paper px-2 py-1"
+                    >
                       <option value="lager">Lagere school</option>
                       <option value="middelbaar">Middelbare school</option>
                       <option value="iedereen">Voor iedereen</option>
                     </select>
-                    <button type="submit" className="text-forest-dark hover:underline">
+                    <button
+                      type="submit"
+                      className="text-forest-dark hover:underline"
+                    >
                       Bewaren
                     </button>
                   </form>
@@ -96,8 +129,15 @@ export default async function BeheerMateriaalPage() {
               </div>
               <form action={verwijderMateriaal}>
                 <input type="hidden" name="id" value={m.id} />
-                <input type="hidden" name="bestandspad" value={m.bestandspad ?? ""} />
-                <button type="submit" className="shrink-0 text-sm text-danger hover:underline">
+                <input
+                  type="hidden"
+                  name="bestandspad"
+                  value={m.bestandspad ?? ""}
+                />
+                <button
+                  type="submit"
+                  className="shrink-0 text-sm text-danger hover:underline"
+                >
                   Verwijderen
                 </button>
               </form>
@@ -109,8 +149,10 @@ export default async function BeheerMateriaalPage() {
         </ul>
 
         <section className="mt-10 rounded-xl border border-border bg-surface p-6">
-          <h2 className="font-display text-lg font-semibold text-ink">Nieuw item</h2>
-          <NieuwMateriaalForm />
+          <h2 className="font-display text-lg font-semibold text-ink">
+            Nieuw item
+          </h2>
+          <NieuwMateriaalForm groepen={groepen} />
         </section>
       </main>
     </>

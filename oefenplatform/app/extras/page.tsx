@@ -37,7 +37,9 @@ export default async function ExtrasPage() {
         <h1 className="font-display text-2xl font-semibold text-ink">
           {extrasTekst.titel}
         </h1>
-        <p className="mt-4 max-w-2xl text-sm text-ink-dim">{extrasTekst.intro}</p>
+        <p className="mt-4 max-w-2xl text-sm text-ink-dim">
+          {extrasTekst.intro}
+        </p>
 
         <div className="mt-8 grid gap-4 sm:grid-cols-2">
           {soorten.map((s) => {
@@ -54,7 +56,9 @@ export default async function ExtrasPage() {
                 <span className="mt-3 font-display text-xl font-semibold text-ink">
                   {s.titel}
                 </span>
-                <span className="mt-2 block text-sm text-ink-dim">{s.tekst}</span>
+                <span className="mt-2 block text-sm text-ink-dim">
+                  {s.tekst}
+                </span>
                 <span className="mt-4 text-sm font-semibold text-forest-dark">
                   {n > 0 ? `Bekijk ze (${n})` : "Binnenkort"} &rarr;
                 </span>

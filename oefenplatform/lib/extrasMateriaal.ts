@@ -33,7 +33,8 @@ export async function haalMateriaal(): Promise<MateriaalItem[]> {
     let href: string | null = null;
     if (type === "link") href = rij.link;
     else if (rij.bestandspad) {
-      href = supabase.storage.from("materiaal").getPublicUrl(rij.bestandspad).data.publicUrl;
+      href = supabase.storage.from("materiaal").getPublicUrl(rij.bestandspad)
+        .data.publicUrl;
     }
     if (!href || !rij.id || !rij.titel) continue;
     items.push({
