@@ -1660,3 +1660,150 @@ BUNDELS["de-volksrepubliek-china-van-mao-tot-xi-beyond"] = dict(
         "China in Afrika: grondstoffen en steun tegen infrastructuur en leningen, zonder voorwaarden.",
     ],
 )
+
+# ───────────────────────── 15. De Israëlisch-Palestijnse kwestie
+# Toegevoegd 9/11/2026: oorsprong, gewelddadige en vreedzame fases (1948-2002),
+# actuele situatie, en de houding van de Verenigde Staten (voorbeeld op de fiche).
+BUNDELS["de-israelisch-palestijnse-kwestie-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="De Israëlisch-Palestijnse kwestie",
+    onder="Twee volken en één land: hoe het conflict ontstond, oorlog en vrede van 1948 tot 2002, en vandaag.",
+    secties=[
+        dict(kop="De oorsprong", blokken=[
+            ("p", "Tot de Eerste Wereldoorlog hoorde <strong>Palestina bij het Ottomaanse Rijk</strong>. Het "
+                  "gebied was bewoond, vooral door <strong>Arabieren</strong>. Na de oorlog kreeg "
+                  "<strong>Groot-Brittannië</strong> er van de Volkenbond een <strong>mandaat</strong> over: "
+                  "het <strong>Brits mandaat</strong>."),
+            ("p", "Het <strong>zionisme</strong> ontstond <strong>eind 19de eeuw onder Joden in Europa</strong>, "
+                  "mee als reactie op het <strong>antisemitisme</strong>: pogroms in Oost-Europa en de "
+                  "Dreyfusaffaire in Frankrijk toonden dat Joden nergens veilig waren. <strong>Theodor "
+                  "Herzl</strong> riep in 1896 op tot een <strong>eigen Joodse staat</strong> in het historische "
+                  "Palestina. Joodse immigranten kochten er grond en stichtten er landbouwkolonies."),
+            ("p", "In de <strong>Balfourverklaring</strong> van <strong>november 1917</strong>, een brief van de "
+                  "Britse minister Balfour aan Lord Rothschild, beloofde Groot-Brittannië <strong>steun voor een "
+                  "nationaal tehuis voor het Joodse volk in Palestina</strong>. Er stond ook in dat de rechten "
+                  "van de niet-Joodse gemeenschappen niet geschaad mochten worden. Tegelijk hadden de Britten "
+                  "de Arabieren onafhankelijkheid in het vooruitzicht gesteld."),
+            ("p", "Zo <strong>groeide de spanning in het mandaatgebied</strong>, van twee kanten:"),
+            ("p", tabel(["Joodse kant", "Arabische kant"], [
+                ["vluchten voor jodenvervolging in Europa en een eigen veilig land zoeken",
+                 "vrezen dat de Joodse immigratie hen in eigen land tot minderheid maakt"],
+                ["na de Holocaust overtuigd dat een eigen staat noodzakelijk is",
+                 "zich bedrogen voelen door Britse beloftes van onafhankelijkheid"],
+            ])),
+            ("kader", "Het conflict is geen eeuwenoude godsdienstoorlog. Religie speelt mee, maar het is in de "
+                      "eerste plaats een <strong>moderne strijd om land tussen twee nationale bewegingen</strong> "
+                      "van de 19de en 20ste eeuw: het zionisme en het Arabisch, later Palestijns, nationalisme."),
+        ]),
+        dict(kop="Het verdelingsplan en 1948", blokken=[
+            ("p", "De Britten gaven het probleem in 1947 door aan de <strong>Verenigde Naties</strong>. Het "
+                  "<strong>verdelingsplan</strong> van <strong>29 november 1947</strong> verdeelde het gebied in "
+                  "een <strong>Joodse</strong> en een <strong>Arabische staat</strong>, elk uit losse stukken die "
+                  "elkaar raakten, met <strong>Jeruzalem onder internationaal bestuur</strong>. De Joodse leiders "
+                  "aanvaardden het plan, de Arabische landen verwierpen het."),
+            ("p", "Op <strong>14 mei 1948</strong>, de dag dat het Britse mandaat afliep, werd de <strong>staat "
+                  "Israël</strong> uitgeroepen. Meteen volgde de <strong>eerste Arabisch-Israëlische "
+                  "oorlog</strong> (1948-1949). Israël won en werd groter dan in het plan; de Gazastrook kwam "
+                  "onder Egypte, de Westelijke Jordaanoever onder Jordanië."),
+            ("p", "Ongeveer <strong>700 000 Palestijnen</strong> sloegen bij de stichting van Israël op de vlucht of werden verdreven. "
+                  "Palestijnen noemen die vlucht en verdrijving de <strong>Nakba</strong>, de catastrofe. Voor Israëli's is diezelfde "
+                  "oorlog de <strong>onafhankelijkheidsoorlog</strong>: dezelfde gebeurtenis, twee "
+                  "herinneringen."),
+        ]),
+        dict(kop="Gewelddadige fases", blokken=[
+            ("p", tabel(["Jaar", "Gebeurtenis"], [
+                ["1948-1949", "eerste Arabisch-Israëlische oorlog"],
+                ["1964", "oprichting van de PLO, de Palestijnse bevrijdingsorganisatie, later lang geleid door Yasser Arafat"],
+                ["1967", "Zesdaagse Oorlog"],
+                ["1973", "Jom Kipoeroorlog"],
+                ["1982", "oorlog in Libanon"],
+                ["vanaf 1987", "eerste intifada; in die jaren ontstaat ook Hamas"],
+                ["vanaf 2000", "tweede intifada"],
+            ])),
+            ("p", "In de <strong>Zesdaagse Oorlog</strong> van <strong>1967</strong> won Israël in zes dagen en "
+                  "veroverde het de <strong>Westelijke Jordaanoever</strong>, de <strong>Gazastrook</strong>, "
+                  "<strong>Oost-Jeruzalem</strong>, de <strong>Sinaï</strong> (van Egypte) en de "
+                  "<strong>Golanhoogte</strong> (van Syrië). Sindsdien leven miljoenen Palestijnen onder "
+                  "Israëlisch bestuur, ontstonden er <strong>nederzettingen</strong> en draaien de onderhandelingen "
+                  "rond <strong>land voor vrede</strong>: volgens <strong>VN-resolutie 242</strong> geeft Israël "
+                  "bezet gebied terug en erkennen de buurlanden Israël, met veilige grenzen. Daarom is 1967 een "
+                  "keerpunt."),
+            ("p", "De <strong>Jom Kipoeroorlog</strong> van <strong>1973</strong> had gevolgen tot in Europa: "
+                  "Arabische olielanden <strong>beperkten de olie-uitvoer</strong> naar landen die Israël "
+                  "steunden. Er kwam een <strong>oliecrisis</strong>; in België kwamen er onder meer autoloze "
+                  "zondagen."),
+            ("p", "Een <strong>intifada</strong> is een <strong>Palestijnse volksopstand tegen de Israëlische "
+                  "bezetting</strong>; het woord betekent afschudden. De eerste begon eind 1987 in de Gazastrook "
+                  "met stakingen en jongeren die stenen gooiden. De tweede, vanaf 2000, was veel bloediger, met "
+                  "zelfmoordaanslagen en zware militaire acties. De <strong>PLO</strong> was de seculiere koepel "
+                  "van Palestijnse groepen; <strong>Hamas</strong> is islamistisch en weigerde de vredesakkoorden "
+                  "te erkennen."),
+            ("p", "Tijdens de tweede intifada begon Israël in <strong>2002</strong> met de bouw van een "
+                  "<strong>afscheidingsbarrière</strong> rond de Westelijke Jordaanoever, die voor een groot deel "
+                  "op bezet gebied staat. Israël noemt ze een veiligheidshek tegen aanslagen, Palestijnen zien er "
+                  "een muur in die land inpikt. Het Internationaal Gerechtshof oordeelde in 2004 dat de muur, "
+                  "waar hij op bezet gebied staat, in strijd is met het internationaal recht."),
+        ]),
+        dict(kop="Vreedzame fases", blokken=[
+            ("p", tabel(["Akkoord of initiatief", "Wat het inhield"], [
+                ["Camp David (1978)", "Egypte erkent Israël en krijgt de Sinaï terug; vrede in 1979"],
+                ["Oslo (1993)", "Israël en de PLO erkennen elkaar en er komt een Palestijns zelfbestuur"],
+                ["Vredesverdrag met Jordanië (1994)", "een tweede Arabisch buurland sluit vrede met Israël"],
+                ["Arabisch vredesinitiatief (2002)", "Saoedi-Arabië stelt namens de Arabische Liga een vredesplan voor: erkenning in ruil voor terugtrekking"],
+            ])),
+            ("p", "De handdruk tussen de Israëlische premier <strong>Yitzhak Rabin</strong> en <strong>Arafat</strong>, met "
+                  "de Amerikaanse president Clinton in het midden, in de tuin van het Witte Huis op 13 september "
+                  "1993, werd het symbool van <strong>Oslo</strong>. Toch liep het vredesproces vast: de "
+                  "<strong>moeilijkste kwesties werden naar later geschoven</strong>, en <strong>geweld van "
+                  "extremisten</strong> aan beide kanten ondermijnde het vertrouwen. In 1995 werd Rabin vermoord "
+                  "door een Israëlische extremist die tegen het akkoord was. Een Palestijnse staat met Jeruzalem "
+                  "als hoofdstad is er nooit gekomen."),
+            ("p", "De vaste <strong>twistpunten</strong> bij elke onderhandeling: de <strong>grenzen</strong> van "
+                  "een Palestijnse staat, het statuut van <strong>Jeruzalem</strong>, heilig voor joden, "
+                  "christenen en moslims, de <strong>terugkeer van de vluchtelingen</strong> van 1948 en hun "
+                  "nakomelingen, de <strong>nederzettingen</strong> en de <strong>veiligheid</strong>."),
+        ]),
+        dict(kop="De actuele situatie", blokken=[
+            ("p", "Op de <strong>Westelijke Jordaanoever</strong> wonen honderdduizenden Israëlische kolonisten "
+                  "in nederzettingen. Sinds <strong>2007</strong> heeft <strong>Hamas</strong> de macht in de "
+                  "<strong>Gazastrook</strong>. Op <strong>7 oktober 2023</strong> viel Hamas Israël aan; ongeveer "
+                  "1200 mensen kwamen om en honderden gijzelaars werden meegenomen. De oorlog die volgde in Gaza "
+                  "kostte <strong>tienduizenden Palestijnse levens</strong> en veroorzaakte een zware humanitaire "
+                  "crisis."),
+            ("p", "De <strong>tweestatenoplossing</strong> is het plan voor een <strong>Israëlische en een "
+                  "Palestijnse staat naast elkaar</strong>. Het idee duikt al op sinds het verdelingsplan van "
+                  "1947, maar het is er nooit van gekomen."),
+        ]),
+        dict(kop="De houding van de Verenigde Staten", blokken=[
+            ("p", "De Verenigde Staten zijn tegelijk de belangrijkste <strong>bondgenoot</strong> van Israël en "
+                  "de vaste <strong>bemiddelaar</strong>:"),
+            ("p", tabel(["Steun aan Israël", "Bemiddeling"], [
+                ["elk jaar miljarden dollars aan militaire hulp", "de top van Camp David met Egypte en Israël"],
+                ["een veto tegen resoluties in de Veiligheidsraad die Israël veroordelen",
+                 "de ondertekening van de Oslo-akkoorden in het Witte Huis"],
+            ])),
+            ("p", "Een <strong>historische verklaring</strong> voor die steun:"),
+            ("p", "• tijdens de <strong>Koude Oorlog</strong> was Israël een bondgenoot tegen Arabische staten "
+                  "die door de <strong>Sovjet-Unie</strong> gesteund werden;<br>"
+                  "• in de Verenigde Staten hebben de <strong>Joodse gemeenschap</strong> en een "
+                  "<strong>pro-Israëlische lobby</strong> veel invloed;<br>"
+                  "• veel Amerikanen zien Israël als een <strong>democratie met dezelfde waarden</strong>."),
+            ("p", "Tegelijk willen de VS <strong>rust in de regio</strong>, wat ook hun eigen belangen dient, "
+                  "onder meer door de olie uit Arabische landen. Daarom bemiddelen ze. Critici vinden de VS "
+                  "daardoor geen neutrale bemiddelaar. Eén veto van een vast lid volstaat om een resolutie van "
+                  "de Veiligheidsraad tegen te houden; zo blijft de raad bij dit conflict vaak machteloos."),
+            ("kader", "Werken met bronnen over dit conflict: de naam die je aan een gebeurtenis of bouwwerk geeft, "
+                      "toont al een standpunt. Onafhankelijkheidsoorlog of Nakba, veiligheidshek of muur: leg "
+                      "bronnen van beide kanten naast elkaar. De redeneerwijze die je dan gebruikt, is "
+                      "<strong>meerdere perspectieven hanteren</strong>."),
+        ]),
+    ],
+    onthoud=[
+        "Zionisme (eind 19de eeuw, Herzl) en Arabisch nationalisme eisen hetzelfde land op.",
+        "1917 Balfourverklaring; na de Eerste Wereldoorlog een Brits mandaat over Palestina.",
+        "1947 VN-verdelingsplan; 14 mei 1948 staat Israël; de Nakba: 700 000 Palestijnse vluchtelingen.",
+        "1967 Zesdaagse Oorlog: Westelijke Jordaanoever, Gaza en Oost-Jeruzalem bezet; resolutie 242: land voor vrede.",
+        "Intifada's vanaf 1987 en 2000; akkoorden van Camp David (1978) en Oslo (1993).",
+        "Twistpunten: grenzen, Jeruzalem, vluchtelingen, nederzettingen, veiligheid.",
+        "De VS: bondgenoot van Israël (Koude Oorlog, lobby, gedeelde waarden) en tegelijk bemiddelaar.",
+    ],
+)

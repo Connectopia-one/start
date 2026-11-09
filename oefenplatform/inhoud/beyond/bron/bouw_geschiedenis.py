@@ -46,6 +46,7 @@ THEMAS = [
     ("gs_bronnen", "Redeneren met historische bronnen"),
     ("gs_beeldvorming", "Beeldvorming, vergelijken en verleden-heden-toekomst"),
     ("gs_china", "De Volksrepubliek China: van Mao tot Xi"),
+    ("gs_israel", "De Israëlisch-Palestijnse kwestie"),
 ]
 
 

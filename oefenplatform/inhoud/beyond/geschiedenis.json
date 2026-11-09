@@ -6322,6 +6322,422 @@
           "uitleg": "Dat was de belofte bij de teruggave in 1997. Critici vinden dat de vrijheden sterk zijn ingeperkt."
         }
       ]
+    },
+    {
+      "titel": "De Israëlisch-Palestijnse kwestie — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij welk rijk hoorde Palestina tot de Eerste Wereldoorlog?",
+          "opties": [
+            "het Ottomaanse Rijk",
+            "het Britse Rijk",
+            "het Franse koloniale rijk",
+            "het Russische tsarenrijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na de oorlog kreeg Groot-Brittannië er een mandaat over van de Volkenbond."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar streefde het zionisme naar?",
+          "opties": [
+            "een eigen Joodse staat in het historische Palestina",
+            "de bekering van alle Arabieren tot het jodendom",
+            "een Joodse staat ergens in Zuid-Amerika of Afrika",
+            "het einde van elke vorm van religie in Europa"
+          ],
+          "antwoord": 0,
+          "uitleg": "Theodor Herzl riep er in 1896 toe op. Het zionisme ontstond eind 19de eeuw onder Joden in Europa."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wie riep in 1896 op tot een eigen Joodse staat? Familienaam.",
+          "antwoord": [
+            "Herzl",
+            "Theodor Herzl"
+          ],
+          "uitleg": "Theodor Herzl, een van de grondleggers van het zionisme."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het zionisme was mee een reactie op het antisemitisme in Europa.",
+          "antwoord": true,
+          "uitleg": "Pogroms in Oost-Europa en de Dreyfusaffaire in Frankrijk toonden dat Joden nergens veilig waren."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Rond 1900 was Palestina een leeg gebied waar nauwelijks mensen woonden.",
+          "antwoord": false,
+          "uitleg": "Er woonde een grote Arabische bevolking. Door de Joodse immigratie groeide de spanning."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat beloofde Groot-Brittannië in de Balfourverklaring van 1917?",
+          "opties": [
+            "steun voor een nationaal tehuis voor het Joodse volk in Palestina",
+            "een onafhankelijke Arabische staat in heel het Midden-Oosten",
+            "de terugkeer van Palestina naar het Ottomaanse Rijk",
+            "een verdeling van Palestina tussen Frankrijk en Egypte"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er stond ook in dat de rechten van de niet-Joodse gemeenschappen niet geschaad mochten worden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom groeide de spanning in het Britse mandaatgebied?",
+          "opties": [
+            "Arabieren vreesden door de Joodse immigratie een minderheid te worden",
+            "Joden zochten een veilig land na de vervolging in Europa",
+            "Arabieren voelden zich bedrogen door Britse beloftes van onafhankelijkheid",
+            "Groot-Brittannië verbood er elke vorm van landbouw"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Beide groepen hadden hun redenen, en beide voelden zich door de Britten in de steek gelaten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Aan welke organisatie gaven de Britten het probleem in 1947 door? Afkorting.",
+          "antwoord": [
+            "VN",
+            "UNO",
+            "Verenigde Naties"
+          ],
+          "uitleg": "Aan de Verenigde Naties, die in november 1947 een verdelingsplan goedkeurden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke status kreeg Jeruzalem in het verdelingsplan van 1947?",
+          "opties": [
+            "internationaal bestuur",
+            "hoofdstad van de Joodse staat",
+            "hoofdstad van de Arabische staat",
+            "een deel van Egypte"
+          ],
+          "antwoord": 0,
+          "uitleg": "De stad is heilig voor joden, christenen en moslims. Daarom zou ze onder internationaal bestuur komen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Zowel de Joodse leiders als de Arabische landen aanvaardden het verdelingsplan van 1947.",
+          "antwoord": false,
+          "uitleg": "De Joodse leiders aanvaardden het, de Arabische landen verwierpen het."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welk jaar werd de staat Israël uitgeroepen? Schrijf het jaartal.",
+          "antwoord": [
+            "1948"
+          ],
+          "uitleg": "Op 14 mei 1948, de dag dat het Britse mandaat afliep."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat noemen Palestijnen de Nakba?",
+          "opties": [
+            "de vlucht en verdrijving van Palestijnen bij de stichting van Israël",
+            "de bouw van de afscheidingsbarrière op de Westelijke Jordaanoever",
+            "de ondertekening van de Oslo-akkoorden in het Witte Huis",
+            "de oprichting van de PLO in het jaar 1964"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ongeveer 700 000 mensen raakten hun huis kwijt. Voor Israëli's is diezelfde oorlog de onafhankelijkheidsoorlog."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke gebieden veroverde Israël in de Zesdaagse Oorlog van 1967?",
+          "opties": [
+            "de Westelijke Jordaanoever",
+            "de Gazastrook",
+            "Oost-Jeruzalem",
+            "Libanon en Cyprus"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Ook de Sinaï van Egypte en de Golanhoogte van Syrië. Libanon en Cyprus vielen er buiten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat vraagt VN-resolutie 242 na de oorlog van 1967?",
+          "opties": [
+            "land voor vrede: terugtrekking uit bezet gebied in ruil voor erkenning",
+            "de opheffing van de staat Israël en één Arabische staat",
+            "een verbod op elke vorm van handel met de buurlanden",
+            "de verhuizing van alle Palestijnen naar Jordanië"
+          ],
+          "antwoord": 0,
+          "uitleg": "Grond in ruil voor erkenning en veilige grenzen. Dat principe zit in bijna elk later vredesplan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk gevolg had de Jom Kipoeroorlog van 1973 in Europa?",
+          "opties": [
+            "een oliecrisis, omdat Arabische olielanden minder olie uitvoerden",
+            "een golf van vluchtelingen naar België en Nederland",
+            "de oprichting van de NAVO als antwoord op de oorlog",
+            "het einde van de Europese Gemeenschap"
+          ],
+          "antwoord": 0,
+          "uitleg": "De olie werd een politiek wapen. In België kwamen er autoloze zondagen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een intifada?",
+          "opties": [
+            "een Palestijnse volksopstand tegen de Israëlische bezetting",
+            "een vredesakkoord tussen Israël en een buurland",
+            "een Israëlische nederzetting in bezet gebied",
+            "een resolutie van de Veiligheidsraad"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het woord betekent afschudden. De eerste begon eind 1987, de tweede in 2000."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De tweede intifada was veel bloediger dan de eerste.",
+          "antwoord": true,
+          "uitleg": "De eerste begon met stakingen en stenen, de tweede bracht zelfmoordaanslagen en zware militaire acties."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke islamistische beweging ontstond tijdens de eerste intifada?",
+          "antwoord": [
+            "Hamas"
+          ],
+          "uitleg": "Hamas weigerde de vredesakkoorden te erkennen. Sinds 2007 heeft de beweging de macht in Gaza."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De PLO werd lang geleid door Yasser Arafat.",
+          "antwoord": true,
+          "uitleg": "De PLO, opgericht in 1964, was de seculiere koepel van Palestijnse groepen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Volgens het Internationaal Gerechtshof is de afscheidingsbarrière overal in overeenstemming met het internationaal recht.",
+          "antwoord": false,
+          "uitleg": "Het Hof oordeelde in 2004 dat de muur, waar hij op bezet gebied staat, in strijd is met het internationaal recht."
+        }
+      ]
+    },
+    {
+      "titel": "De Israëlisch-Palestijnse kwestie — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat werd er afgesproken in de akkoorden van Camp David van 1978?",
+          "opties": [
+            "Egypte erkent Israël en krijgt de Sinaï terug",
+            "Israël en de PLO erkennen elkaar",
+            "Jeruzalem wordt verdeeld in twee hoofdsteden",
+            "Jordanië en Syrië worden één land"
+          ],
+          "antwoord": 0,
+          "uitleg": "Egypte was het eerste Arabische land dat vrede sloot met Israël, in 1979."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welk jaar erkenden Israël en de PLO elkaar met de akkoorden van Oslo? Schrijf het jaartal.",
+          "antwoord": [
+            "1993"
+          ],
+          "uitleg": "1993, met een Palestijns zelfbestuur als gevolg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie staan er op de bekende foto van de handdruk van 1993 in de tuin van het Witte Huis?",
+          "opties": [
+            "Rabin, Arafat en Clinton",
+            "Begin, Sadat en Carter",
+            "Herzl, Balfour en Rothschild",
+            "Nixon, Mao en Deng"
+          ],
+          "antwoord": 0,
+          "uitleg": "De Amerikaanse president staat letterlijk tussen de twee leiders in, als bemiddelaar."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Na de handdruk van 1993 was het conflict voorgoed voorbij.",
+          "antwoord": false,
+          "uitleg": "Een foto toont een moment, geen afloop. Twee jaar later werd Rabin vermoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom liep het vredesproces van Oslo vast?",
+          "opties": [
+            "de moeilijkste kwesties werden naar later geschoven",
+            "extremisten aan beide kanten bleven geweld plegen",
+            "de Verenigde Naties verboden verdere onderhandelingen",
+            "Egypte verklaarde Israël opnieuw de oorlog"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Aanslagen en de moord op Rabin in 1995 ondermijnden het vertrouwen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke Israëlische premier werd in 1995 vermoord door een extremist die tegen het vredesakkoord was?",
+          "antwoord": [
+            "Rabin",
+            "Yitzhak Rabin"
+          ],
+          "uitleg": "Yitzhak Rabin."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke punten zijn vaste twistpunten bij elke onderhandeling?",
+          "opties": [
+            "de grenzen van een Palestijnse staat",
+            "het statuut van Jeruzalem",
+            "de terugkeer van de vluchtelingen van 1948",
+            "de officiële taal van de Verenigde Naties"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Daarbij komen nog de nederzettingen en de veiligheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de tweestatenoplossing?",
+          "opties": [
+            "een Israëlische en een Palestijnse staat naast elkaar",
+            "één staat waarin Israëli's en Palestijnen samen stemmen",
+            "een verdeling van Gaza tussen Israël en Egypte",
+            "twee Palestijnse staten, één in Gaza en één in Jordanië"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het idee duikt al op sinds het verdelingsplan van 1947, maar het is er nooit van gekomen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Op de Westelijke Jordaanoever wonen honderdduizenden Israëlische kolonisten in nederzettingen.",
+          "antwoord": true,
+          "uitleg": "De nederzettingen zijn een van de grote twistpunten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Sinds welk jaar heeft Hamas de macht in de Gazastrook? Schrijf het jaartal.",
+          "antwoord": [
+            "2007"
+          ],
+          "uitleg": "Sinds 2007."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij de aanval van Hamas op 7 oktober 2023 kwamen ongeveer 1200 mensen om en werden honderden gijzelaars meegenomen.",
+          "antwoord": true,
+          "uitleg": "De oorlog die volgde in Gaza kostte tienduizenden Palestijnse levens en veroorzaakte een zware humanitaire crisis."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het Israëlisch-Palestijnse conflict is in de eerste plaats een eeuwenoude godsdienstoorlog.",
+          "antwoord": false,
+          "uitleg": "Religie speelt mee, maar het is vooral een moderne strijd om land tussen twee nationale bewegingen van de 19de en 20ste eeuw."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke daden van de Verenigde Staten tonen steun aan Israël?",
+          "opties": [
+            "jaarlijks miljarden dollars aan militaire hulp",
+            "een veto tegen resoluties die Israël veroordelen",
+            "de top van Camp David organiseren",
+            "de Oslo-akkoorden in het Witte Huis laten ondertekenen"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Camp David en Oslo zijn bemiddeling. De VS zijn tegelijk bondgenoot en bemiddelaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke historische verklaringen zijn er voor de Amerikaanse steun aan Israël?",
+          "opties": [
+            "tijdens de Koude Oorlog was Israël een bondgenoot tegen Arabische staten die de Sovjet-Unie steunde",
+            "de Joodse gemeenschap en een pro-Israëlische lobby hebben in de VS veel invloed",
+            "veel Amerikanen zien Israël als een democratie met dezelfde waarden",
+            "Israël levert de Verenigde Staten het grootste deel van hun olie"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Olie komt eerder uit Arabische landen. Net daarom zoeken de VS ook goede banden met hen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom bemiddelen de Verenigde Staten, ondanks hun steun aan Israël?",
+          "opties": [
+            "rust in de regio dient ook hun eigen belangen",
+            "de VN verplichten hen daartoe sinds 1947",
+            "ze steunen in het geheim vooral de Palestijnen",
+            "ze willen de PLO als bondgenoot in de NAVO"
+          ],
+          "antwoord": 0,
+          "uitleg": "Stabiliteit en olie maken vrede ook voor Washington belangrijk. Critici vinden de VS daardoor geen neutrale bemiddelaar."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Eén veto van een vast lid volstaat om een resolutie van de Veiligheidsraad tegen te houden.",
+          "antwoord": true,
+          "uitleg": "Daardoor blijft de Veiligheidsraad bij dit conflict vaak machteloos."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een Israëlische krant spreekt van een veiligheidshek, een Palestijnse van een muur die land inpikt. Wat leer je daaruit?",
+          "opties": [
+            "de naam die je geeft, toont al een standpunt",
+            "een van beide kranten moet liegen",
+            "het gaat over twee verschillende bouwwerken",
+            "kranten zijn nooit bruikbaar als historische bron"
+          ],
+          "antwoord": 0,
+          "uitleg": "Beide kranten zijn bruikbaar om te onderzoeken hoe elke kant het bouwwerk beleeft. Dat is standplaatsgebondenheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke redeneerwijze heb je nodig als je bronnen van Israëlische en Palestijnse kant naast elkaar legt?",
+          "opties": [
+            "meerdere perspectieven hanteren",
+            "chronologisch ordenen",
+            "continuïteit benoemen",
+            "synchroniciteit benoemen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elke kant kijkt vanuit de eigen ervaring. Pas samen geven de bronnen een vollediger beeld."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het Arabisch vredesinitiatief van 2002 werd voorgesteld door Iran.",
+          "antwoord": false,
+          "uitleg": "Het was Saoedi-Arabië, namens de Arabische Liga: erkenning van Israël in ruil voor terugtrekking uit de bezette gebieden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk Arabisch buurland sloot in 1994 als tweede vrede met Israël?",
+          "antwoord": [
+            "Jordanië"
+          ],
+          "uitleg": "Jordanië, na Egypte."
+        }
+      ]
     }
   ]
 }

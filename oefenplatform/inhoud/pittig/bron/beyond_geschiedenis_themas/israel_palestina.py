@@ -119,7 +119,7 @@ VRAGEN = [
         "Eind 1987, in de Gazastrook, en daarna ook op de Westelijke Jordaanoever.",
     ),
     mk(
-        "Wat is een intifada?",
+        "Wat bedoelt men met een intifada?",
         [
             "Een Palestijnse volksopstand tegen de Israëlische bezetting",
             "Een vredesakkoord tussen Israël en een Arabisch buurland",
@@ -168,7 +168,7 @@ VRAGEN = [
         "Het conflict wisselde voortdurend tussen oorlog en onderhandelen. Vaak werden vredespogingen door nieuw geweld onderbroken.",
     ),
     mk(
-        "Waarom liep het vredesproces van Oslo vast?",
+        "Waarom bracht het vredesproces van Oslo geen blijvende vrede?",
         [
             "Er bleef geweld van extremisten en de moeilijkste punten werden uitgesteld",
             "De Verenigde Staten trokken zich volledig uit het Midden-Oosten terug",
