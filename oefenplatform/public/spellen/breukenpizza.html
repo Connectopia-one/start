@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Breukenpizza</title>
+<!--
+  Breukenpizza — een prikkelarm spel van Connectopia (Kim, 9 november 2026).
+
+  Prikkelarm betekent hier: rustige kleuren, geen geluid, geen klok, geen
+  bewegende of knipperende dingen, geen punten of ranglijst. Een fout is geen
+  rood scherm, maar een rustige zin met een tip. Het kind bepaalt zelf het
+  tempo en drukt zelf op "Volgende".
+
+  Twee manieren van spelen:
+  1. Welke breuk zie je? Een pizza met gekleurde stukken; kies de juiste breuk.
+  2. Maak dezelfde breuk. Een pizza met een breuk. Op jouw pizza kies je zelf
+     in hoeveel stukken je de pizza snijdt en tik je stukken aan tot je
+     evenveel pizza hebt.
+
+  Drie niveaus: rustig starten (halven, derden, vierden), verder (tot
+  twaalfden) en uitdaging (ook vereenvoudigen en grotere noemers).
+  Eigen idee van Connectopia, geen bron overgenomen.
+-->
+<style>
+  :root {
+    --bg: #fbf6ea; --kaart: #fffdf7; --ink: #2f3a2a; --zacht: #6b7363;
+    --groen: #2f4a22; --groen-licht: #e3ead9; --rand: #e4dcc8;
+    --korst: #ecd9b4; --deeg: #f7ecd6; --saus: #e9b98a; --lijn: #c9b48c;
+    --tip: #f3ecd8;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--ink);
+    font-family: "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 18px; line-height: 1.6; }
+  main { max-width: 860px; margin: 0 auto; padding: 22px 18px 40px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; color: var(--groen); font-weight: 700; }
+  p { margin: 0 0 10px; }
+  .zacht { color: var(--zacht); }
+  .rij { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  button { font: inherit; color: var(--ink); background: var(--kaart);
+    border: 2px solid var(--rand); border-radius: 14px; padding: 10px 18px;
+    cursor: pointer; }
+  button:hover { border-color: var(--groen); }
+  button:focus-visible { outline: 3px solid var(--groen); outline-offset: 2px; }
+  button[aria-pressed="true"] { background: var(--groen-licht); border-color: var(--groen); font-weight: 700; }
+  button.hoofd { background: var(--groen); color: #fff; border-color: var(--groen); font-weight: 700; }
+  button:disabled { opacity: .5; cursor: default; }
+  .blok { background: var(--kaart); border: 1px solid var(--rand); border-radius: 20px; padding: 18px; margin-top: 16px; }
+  .label { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--zacht); font-weight: 700; margin-bottom: 6px; }
+  .pizzas { display: flex; flex-wrap: wrap; gap: 24px; justify-content: center; align-items: flex-start; }
+  .pizza-vak { text-align: center; }
+  .pizza-vak svg { width: 240px; height: 240px; max-width: 70vw; max-height: 70vw; }
+  .stuk { cursor: default; }
+  .tikbaar .stuk { cursor: pointer; }
+  .breuk { display: inline-flex; flex-direction: column; align-items: center; font-weight: 700; font-size: 1.5rem; line-height: 1.1; vertical-align: middle; margin: 0 4px; }
+  .breuk .streep { width: 100%; min-width: 1.4em; border-top: 3px solid currentColor; margin: 2px 0; }
+  .opties { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; margin-top: 12px; }
+  .opties button { min-width: 84px; padding: 10px 16px; }
+  .bericht { margin-top: 14px; padding: 12px 16px; border-radius: 14px; background: var(--tip); min-height: 1.6em; }
+  .bericht:empty { display: none; }
+  .teller { font-size: .9rem; color: var(--zacht); }
+  .stappen { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 8px 0 4px; }
+  .stappen button { min-width: 52px; padding: 6px 10px; }
+  footer { margin-top: 28px; font-size: .85rem; color: var(--zacht); }
+  @media (prefers-reduced-motion: no-preference) { button { transition: border-color .15s; } }
+</style>
+</head>
+<body>
+<main id="app"></main>
+<script>
+"use strict";
+
+/* ---------- niveaus ---------- */
+const NIVEAUS = {
+  start:     { naam: "Rustig starten", uitleg: "halven, derden en vierden", noemers: [2, 3, 4], maxStukken: 8 },
+  verder:    { naam: "Verder", uitleg: "tot twaalfden", noemers: [2, 3, 4, 5, 6, 8, 10, 12], maxStukken: 12 },
+  uitdaging: { naam: "Uitdaging", uitleg: "ook vereenvoudigen", noemers: [3, 4, 5, 6, 8, 9, 10, 12], maxStukken: 12 },
+};
+
+const S = { niveau: "start", modus: null, opgelost: 0 };
+try { const n = localStorage.getItem("breukenpizza-niveau"); if (NIVEAUS[n]) S.niveau = n; } catch (e) {}
+
+const $app = document.getElementById("app");
+const ggd = (a, b) => b ? ggd(b, a % b) : a;
+const kies = a => a[Math.floor(Math.random() * a.length)];
+const schud = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const breukHTML = (t, n) => `<span class="breuk" aria-label="${t} ${n === 2 ? "halve" : "op " + n}"><span>${t}</span><span class="streep"></span><span>${n}</span></span>`;
+
+/* ---------- de pizza ---------- */
+function pizzaSVG(n, gekleurd, tikbaar, label) {
+  const r = 100, c = 110;
+  let stukken = "";
+  for (let i = 0; i < n; i++) {
+    const a0 = (i / n) * 2 * Math.PI - Math.PI / 2, a1 = ((i + 1) / n) * 2 * Math.PI - Math.PI / 2;
+    const x0 = c + r * Math.cos(a0), y0 = c + r * Math.sin(a0), x1 = c + r * Math.cos(a1), y1 = c + r * Math.sin(a1);
+    const groot = a1 - a0 > Math.PI ? 1 : 0;
+    const vorm = n === 1 ? `<circle cx="${c}" cy="${c}" r="${r}"` : `<path d="M${c},${c} L${x0.toFixed(2)},${y0.toFixed(2)} A${r},${r} 0 ${groot} 1 ${x1.toFixed(2)},${y1.toFixed(2)} Z"`;
+    const aan = gekleurd.has(i);
+    stukken += `${vorm} class="stuk" data-i="${i}" fill="${aan ? "var(--saus)" : "var(--deeg)"}" stroke="var(--lijn)" stroke-width="2"
+      ${tikbaar ? `role="button" tabindex="0" aria-pressed="${aan}" aria-label="Stuk ${i + 1} van ${n}"` : ""}/>`;
+  }
+  return `<svg viewBox="0 0 220 220" class="${tikbaar ? "tikbaar" : ""}" role="img" aria-label="${label}">
+    <circle cx="110" cy="110" r="108" fill="var(--korst)"/>${stukken}</svg>`;
+}
+
+/* ---------- startscherm ---------- */
+function start() {
+  S.modus = null;
+  $app.innerHTML = `
+    <h1>Breukenpizza</h1>
+    <p class="zacht">Een rustig spel over breuken. Geen klok, geen geluid. Neem je tijd.</p>
+    <div class="blok">
+      <div class="label">1 · Kies je niveau</div>
+      <div class="rij">${Object.entries(NIVEAUS).map(([k, v]) =>
+        `<button data-niv="${k}" aria-pressed="${S.niveau === k}">${v.naam}<br><small class="zacht">${v.uitleg}</small></button>`).join("")}</div>
+    </div>
+    <div class="blok">
+      <div class="label">2 · Kies wat je wil doen</div>
+      <div class="rij">
+        <button class="hoofd" data-modus="lees">Welke breuk zie je?</button>
+        <button class="hoofd" data-modus="maak">Maak dezelfde breuk</button>
+      </div>
+      <p class="zacht" style="margin-top:12px">Bij "Maak dezelfde breuk" snijd je zelf een pizza en kleur je evenveel stukken als op de andere pizza.</p>
+    </div>
+    <footer>Een spel van Connectopia vzw. Je score wordt nergens bewaard.</footer>`;
+  $app.querySelectorAll("[data-niv]").forEach(b => b.onclick = () => {
+    S.niveau = b.dataset.niv; try { localStorage.setItem("breukenpizza-niveau", S.niveau); } catch (e) {} start();
+  });
+  $app.querySelectorAll("[data-modus]").forEach(b => b.onclick = () => { S.modus = b.dataset.modus; S.opgelost = 0; volgende(); });
+}
+
+function kop(titel) {
+  return `<div class="rij" style="justify-content:space-between">
+      <div><h1>${titel}</h1><div class="teller">${NIVEAUS[S.niveau].naam} · ${S.opgelost} opgelost</div></div>
+      <button data-terug>Ander spel kiezen</button>
+    </div>`;
+}
+function bindTerug() { $app.querySelector("[data-terug]").onclick = start; }
+function volgende() { S.modus === "lees" ? leesRonde() : maakRonde(); }
+
+/* ---------- modus 1: welke breuk zie je ---------- */
+function leesRonde() {
+  const niv = NIVEAUS[S.niveau];
+  const n = kies(niv.noemers), t = 1 + Math.floor(Math.random() * (n - 1 || 1));
+  const gekleurd = new Set(schud([...Array(n).keys()]).slice(0, t));
+  // Afleiders: omgekeerd, het niet-gekleurde deel, en een andere noemer.
+  const opties = new Map([[`${t}/${n}`, [t, n]]]);
+  const kand = [[n, t], [n - t, n], [t, n + 1], [t + 1, n], [t, n - 1 || 2]];
+  for (const [a, b] of schud(kand)) { if (opties.size >= 3) break; if (a > 0 && b > 1 && a !== b && !opties.has(`${a}/${b}`)) opties.set(`${a}/${b}`, [a, b]); }
+  const lijst = schud([...opties.values()]);
+  $app.innerHTML = `${kop("Welke breuk zie je?")}
+    <div class="blok">
+      <p>Welk deel van de pizza heeft saus?</p>
+      <div class="pizzas"><div class="pizza-vak">${pizzaSVG(n, gekleurd, false, `Pizza in ${n} stukken, ${t} met saus`)}</div></div>
+      <div class="opties">${lijst.map(([a, b]) => `<button data-a="${a}" data-b="${b}">${breukHTML(a, b)}</button>`).join("")}</div>
+      <div class="bericht" aria-live="polite"></div>
+      <div class="rij" style="justify-content:flex-end;margin-top:12px"><button class="hoofd" data-volgende hidden>Volgende pizza</button></div>
+    </div>`;
+  bindTerug();
+  const $b = $app.querySelector(".bericht"), $v = $app.querySelector("[data-volgende]");
+  $app.querySelectorAll("[data-a]").forEach(knop => knop.onclick = () => {
+    const a = +knop.dataset.a, b = +knop.dataset.b;
+    if (a === t && b === n) {
+      S.opgelost++;
+      $app.querySelectorAll("[data-a]").forEach(k => k.disabled = true);
+      knop.setAttribute("aria-pressed", "true");
+      $b.innerHTML = `Juist. De pizza is in ${n} gelijke stukken gesneden en ${t} ${t === 1 ? "stuk heeft" : "stukken hebben"} saus: ${breukHTML(t, n)}.`;
+      $v.hidden = false; $v.focus();
+    } else {
+      knop.disabled = true;
+      $b.innerHTML = b !== n
+        ? `Nog niet. Tel eerst alle stukken: dat getal komt onderaan, onder de streep.`
+        : `Nog niet. Onderaan staat het aantal stukken. Bovenaan tel je enkel de stukken mét saus.`;
+    }
+  });
+  $v.onclick = volgende;
+}
+
+/* ---------- modus 2: maak dezelfde breuk ---------- */
+function maakRonde() {
+  const niv = NIVEAUS[S.niveau];
+  // Een doelbreuk die je met minstens één andere snijding kan maken.
+  let a, b;
+  do {
+    b = kies(niv.noemers.filter(x => x <= 6 || S.niveau !== "start"));
+    a = 1 + Math.floor(Math.random() * (b - 1 || 1));
+  } while (ggd(a, b) !== 1 || ![...Array(niv.maxStukken + 1).keys()].some(k => k > b && k % b === 0));
+  if (S.niveau === "uitdaging" && Math.random() < .5) { const f = kies([2, 3].filter(f => b * f <= 12)) || 1; a *= f; b *= f; }
+
+  let n = b === 2 ? 4 : b === 3 ? 6 : 8;
+  if (n === b) n = Math.min(niv.maxStukken, b * 2);
+  let gekleurd = new Set();
+  const doel = new Set([...Array(a).keys()]);
+  const keuzes = [...Array(niv.maxStukken - 1).keys()].map(x => x + 2);
+
+  function teken(bericht = "") {
+    $app.innerHTML = `${kop("Maak dezelfde breuk")}
+      <div class="blok">
+        <p>Op "Deze pizza" heeft ${breukHTML(a, b)} saus. Snij "Jouw pizza" in stukken en tik stukken aan tot jij <b>evenveel</b> pizza met saus hebt.</p>
+        <div class="pizzas">
+          <div class="pizza-vak"><div class="label">Deze pizza</div>${pizzaSVG(b, doel, false, `Pizza met ${a} van ${b} stukken saus`)}<div>${breukHTML(a, b)}</div></div>
+          <div class="pizza-vak"><div class="label">Jouw pizza</div>${pizzaSVG(n, gekleurd, true, `Jouw pizza in ${n} stukken`)}<div>${breukHTML(gekleurd.size, n)}</div></div>
+        </div>
+        <div class="label" style="text-align:center;margin-top:10px">In hoeveel stukken snij je jouw pizza?</div>
+        <div class="stappen">${keuzes.map(k => `<button data-n="${k}" aria-pressed="${k === n}">${k}</button>`).join("")}</div>
+        <div class="bericht" aria-live="polite">${bericht}</div>
+        <div class="rij" style="justify-content:space-between;margin-top:12px">
+          <button data-tip>Geef me een tip</button>
+          <span class="rij"><button data-wis>Opnieuw kleuren</button><button class="hoofd" data-check>Kijk na</button></span>
+        </div>
+      </div>`;
+    bindTerug();
+    $app.querySelectorAll(".tikbaar .stuk").forEach(p => {
+      const tik = () => { const i = +p.dataset.i; gekleurd.has(i) ? gekleurd.delete(i) : gekleurd.add(i); teken(); };
+      p.addEventListener("click", tik);
+      p.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); tik(); } });
+    });
+    $app.querySelectorAll("[data-n]").forEach(k => k.onclick = () => { n = +k.dataset.n; gekleurd = new Set(); teken(); });
+    $app.querySelector("[data-wis]").onclick = () => { gekleurd = new Set(); teken(); };
+    $app.querySelector("[data-tip]").onclick = () => {
+      const goed = [...Array(niv.maxStukken + 1).keys()].filter(k => k > 1 && k !== b && (k * a) % b === 0);
+      teken(goed.length
+        ? `Tip: kies een aantal stukken dat in de tafel van ${b} zit, bijvoorbeeld ${goed[0]}. Hoeveel keer meer stukken heb je dan? Kleur ook zoveel keer meer stukken.`
+        : `Tip: probeer eens evenveel stukken als op "Deze pizza".`);
+    };
+    $app.querySelector("[data-check]").onclick = () => {
+      const g = gekleurd.size;
+      if (g === 0) return teken("Tik eerst een paar stukken van jouw pizza aan.");
+      if (g * b === a * n) {
+        S.opgelost++;
+        const zelfde = n === b;
+        $app.querySelector(".bericht").innerHTML = zelfde
+          ? `Juist, ${breukHTML(g, n)} is hetzelfde als ${breukHTML(a, b)}. Probeer volgende keer eens een ander aantal stukken.`
+          : `Juist. ${breukHTML(g, n)} is evenveel pizza als ${breukHTML(a, b)}: je hebt ${n / b} keer zoveel stukken, en ook ${n / b} keer zoveel met saus.`;
+        const v = $app.querySelector("[data-check]"); v.textContent = "Volgende pizza"; v.onclick = volgende; v.focus();
+        $app.querySelectorAll("[data-n],[data-wis],[data-tip]").forEach(k => k.disabled = true);
+        $app.querySelectorAll(".tikbaar .stuk").forEach(p => p.replaceWith(p.cloneNode(true)));
+        $app.querySelector(".teller").textContent = `${NIVEAUS[S.niveau].naam} · ${S.opgelost} opgelost`;
+      } else if ((n * a) % b !== 0) {
+        teken(`Met ${n} stukken lukt het niet precies. Probeer een ander aantal stukken, of vraag een tip.`);
+      } else {
+        teken(g * b > a * n ? `Je hebt wat te veel pizza gekleurd. Haal er een paar stukken af.` : `Je hebt nog wat te weinig pizza gekleurd. Kleur er nog wat stukken bij.`);
+      }
+    };
+  }
+  teken();
+}
+
+start();
+</script>
+</body>
+</html>
