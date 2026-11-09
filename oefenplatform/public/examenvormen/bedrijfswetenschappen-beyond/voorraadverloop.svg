@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520" font-family="Arial, sans-serif">
+<rect width="1000" height="520" fill="#fffdf7"/>
+<text x="500.0" y="38" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">Voorraad van fietsbanden bij Velo nv</text>
+<line x1="110" y1="440" x2="920" y2="440" stroke="#24331b" stroke-width="3"/>
+<line x1="110" y1="440" x2="110" y2="60" stroke="#24331b" stroke-width="3"/>
+<text x="920" y="502" font-size="19" text-anchor="end" fill="#24331b">dagen</text>
+<text x="120" y="54" font-size="19" text-anchor="start" fill="#24331b">stuks in voorraad</text>
+<text x="98" y="447.0" font-size="17" text-anchor="end" fill="#24331b">0</text>
+<text x="98" y="395.57142857142856" font-size="17" text-anchor="end" fill="#24331b">100</text>
+<text x="98" y="344.14285714285717" font-size="17" text-anchor="end" fill="#24331b">200</text>
+<text x="98" y="292.7142857142857" font-size="17" text-anchor="end" fill="#24331b">300</text>
+<text x="98" y="241.2857142857143" font-size="17" text-anchor="end" fill="#24331b">400</text>
+<text x="98" y="189.85714285714283" font-size="17" text-anchor="end" fill="#24331b">500</text>
+<text x="98" y="138.42857142857144" font-size="17" text-anchor="end" fill="#24331b">600</text>
+<text x="110.0" y="468" font-size="17" text-anchor="middle" fill="#24331b">0</text>
+<text x="373.3333333333333" y="468" font-size="17" text-anchor="middle" fill="#24331b">30</text>
+<text x="636.6666666666666" y="468" font-size="17" text-anchor="middle" fill="#24331b">60</text>
+<text x="900.0" y="468" font-size="17" text-anchor="middle" fill="#24331b">90</text>
+<polyline points="110.0,131.4 910.0,131.4" fill="none" stroke="#b5651d" stroke-width="3" stroke-dasharray="10 7"/>
+<text x="910" y="119.42857142857144" font-size="18" text-anchor="end" fill="#b5651d" font-weight="bold">maximum</text>
+<polyline points="110.0,388.6 910.0,388.6" fill="none" stroke="#b5651d" stroke-width="3" stroke-dasharray="10 7"/>
+<text x="910" y="376.57142857142856" font-size="18" text-anchor="end" fill="#b5651d" font-weight="bold">minimum</text>
+<polyline points="110.0,131.4 373.3,388.6 373.3,131.4 636.7,388.6 636.7,131.4 900.0,388.6" fill="none" stroke="#2f4a22" stroke-width="5"/>
+</svg>

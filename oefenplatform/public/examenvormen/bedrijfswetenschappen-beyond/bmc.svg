@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<text x="500.0" y="44" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">Business Model Canvas</text>
+<rect x="23.0" y="73" width="186.0" height="374" rx="10" fill="#fff" stroke="#2f4a22" stroke-width="2"/>
+<text x="34" y="102" font-size="19" text-anchor="start" fill="#24331b" font-weight="bold">Partners</text>
+<rect x="215.0" y="73" width="186.0" height="184" rx="10" fill="#fff" stroke="#2f4a22" stroke-width="2"/>
+<text x="226.0" y="102" font-size="19" text-anchor="start" fill="#24331b" font-weight="bold">Kernactiviteiten</text>
+<rect x="215.0" y="263" width="186.0" height="184" rx="10" fill="#fff" stroke="#2f4a22" stroke-width="2"/>
+<text x="226.0" y="292" font-size="19" text-anchor="start" fill="#24331b" font-weight="bold">Kernmiddelen</text>
+<rect x="407.0" y="73" width="186.0" height="374" rx="10" fill="#fff" stroke="#2f4a22" stroke-width="2"/>
+<text x="418.0" y="102" font-size="19" text-anchor="start" fill="#24331b" font-weight="bold">Waardepropositie</text>
+<rect x="599.0" y="73" width="186.0" height="184" rx="10" fill="#fff" stroke="#2f4a22" stroke-width="2"/>
+<text x="610.0" y="102" font-size="19" text-anchor="start" fill="#24331b" font-weight="bold">Klantrelaties</text>
+<rect x="599.0" y="263" width="186.0" height="184" rx="10" fill="#fff" stroke="#2f4a22" stroke-width="2"/>
+<text x="610.0" y="292" font-size="19" text-anchor="start" fill="#24331b" font-weight="bold">Kanalen</text>
+<rect x="791.0" y="73" width="186.0" height="374" rx="10" fill="#fff" stroke="#2f4a22" stroke-width="2"/>
+<text x="802.0" y="102" font-size="19" text-anchor="start" fill="#24331b" font-weight="bold">Klantsegmenten</text>
+<rect x="23.0" y="453" width="474.0" height="164" rx="10" fill="#fff" stroke="#2f4a22" stroke-width="2"/>
+<text x="34" y="482" font-size="19" text-anchor="start" fill="#24331b" font-weight="bold">Kostenstructuur</text>
+<rect x="503.0" y="453" width="474.0" height="164" rx="10" fill="#fff" stroke="#2f4a22" stroke-width="2"/>
+<text x="514.0" y="482" font-size="19" text-anchor="start" fill="#24331b" font-weight="bold">Inkomstenstromen</text>
+</svg>

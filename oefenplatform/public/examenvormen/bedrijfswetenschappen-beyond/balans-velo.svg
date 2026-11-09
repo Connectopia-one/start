@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" font-family="Arial, sans-serif">
+<rect width="1000" height="560" fill="#fffdf7"/>
+<text x="500.0" y="40" font-size="23" text-anchor="middle" fill="#24331b" font-weight="bold">Balans voor financiële analyse, Velo nv, 31 december 2026 (in euro)</text>
+<text x="255" y="100" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">ACTIVA</text>
+<text x="745" y="100" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">PASSIVA</text>
+<rect x="20" y="120" width="470" height="200" rx="10" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/>
+<text x="36" y="228.0" font-size="20" text-anchor="start" fill="#24331b" font-weight="bold">Langdurende activa</text>
+<text x="474" y="228.0" font-size="20" text-anchor="end" fill="#24331b">600 000</text>
+<rect x="20" y="330" width="470" height="60" rx="10" fill="#fff" stroke="#2f4a22" stroke-width="2"/>
+<text x="36" y="368.0" font-size="20" text-anchor="start" fill="#24331b">Voorraden</text>
+<text x="474" y="368.0" font-size="20" text-anchor="end" fill="#24331b">150 000</text>
+<rect x="20" y="395" width="470" height="60" rx="10" fill="#fff" stroke="#2f4a22" stroke-width="2"/>
+<text x="36" y="433.0" font-size="20" text-anchor="start" fill="#24331b">Vorderingen op ten hoogste een jaar</text>
+<text x="474" y="433.0" font-size="20" text-anchor="end" fill="#24331b">180 000</text>
+<rect x="20" y="460" width="470" height="60" rx="10" fill="#fff" stroke="#2f4a22" stroke-width="2"/>
+<text x="36" y="498.0" font-size="20" text-anchor="start" fill="#24331b">Liquide middelen</text>
+<text x="474" y="498.0" font-size="20" text-anchor="end" fill="#24331b">70 000</text>
+<rect x="510" y="120" width="470" height="180" rx="10" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/>
+<text x="526" y="218.0" font-size="20" text-anchor="start" fill="#24331b" font-weight="bold">Eigen vermogen</text>
+<text x="964" y="218.0" font-size="20" text-anchor="end" fill="#24331b">450 000</text>
+<rect x="510" y="310" width="470" height="100" rx="10" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/>
+<text x="526" y="368.0" font-size="20" text-anchor="start" fill="#24331b" font-weight="bold">Vreemd vermogen op lange termijn</text>
+<text x="964" y="368.0" font-size="20" text-anchor="end" fill="#24331b">250 000</text>
+<rect x="510" y="420" width="470" height="100" rx="10" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/>
+<text x="526" y="478.0" font-size="20" text-anchor="start" fill="#24331b" font-weight="bold">Vreemd vermogen op korte termijn</text>
+<text x="964" y="478.0" font-size="20" text-anchor="end" fill="#24331b">300 000</text>
+<text x="30" y="548" font-size="19" text-anchor="start" fill="#5b6b4f">Courante activa: 400 000</text>
+<text x="255" y="548" font-size="19" text-anchor="start" fill="#24331b"></text>
+<text x="970" y="548" font-size="19" text-anchor="end" fill="#5b6b4f">Balanstotaal: 1 000 000</text>
+</svg>

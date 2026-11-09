@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "9 november 2026",
+    titel: "Pittige hoofdstukken bij bedrijfswetenschappen en recht",
+    tekst:
+      "Bij elk onderwerp van bedrijfswetenschappen en recht staat nu ook een pittig hoofdstuk met 30 moeilijkere vragen, zoals op het examen: rekenen met een aanslagbiljet of een factuur, een opzegtermijn aflezen in de wettelijke tabel, klikken op een break-evengrafiek of in een databank, en casussen met meerdere vragen. Alle prenten zijn zelf getekend.",
+    link: { tekst: "Naar bedrijfswetenschappen en recht", href: "/niveaus/beyond-doorstroom/bedrijfswetenschappen-en-recht" },
+  },
+  {
+    datum: "9 november 2026",
     titel: "Bedrijfswetenschappen en recht voor Beyond doorstroom",
     tekst:
       "Volg je bedrijfswetenschappen? Dan heb je nu ook je richtingsvak bedrijfswetenschappen en recht. Er zijn 40 hoofdstukken met 800 vragen: ondernemingsvormen en belastingen, boekhouden, kerncijfers en financiering, strategie en marketing, de arbeidsovereenkomst, logistiek, personeelsbeleid, kostprijs en databanken. In de begrippenarena economie staat er een niveau bij voor bedrijfswetenschappen.",

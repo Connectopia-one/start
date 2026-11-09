@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 410" width="1000" height="410" font-family="Arial, sans-serif">
+<rect width="1000" height="410" fill="#fffdf7"/>
+<text x="500.0" y="44" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">Financieringsvormen: wie geeft het geld en voor hoe lang?</text>
+<rect x="284.0" y="70" width="342.0" height="52" rx="10" fill="#2f4a22"/>
+<text x="455.0" y="104" font-size="21" text-anchor="middle" fill="#fff" font-weight="bold">Korte termijn (tot een jaar)</text>
+<rect x="634.0" y="70" width="342.0" height="52" rx="10" fill="#2f4a22"/>
+<text x="805.0" y="104" font-size="21" text-anchor="middle" fill="#fff" font-weight="bold">Lange termijn (meer dan een jaar)</text>
+<rect x="20" y="134" width="252" height="122" rx="10" fill="#eef3e6"/>
+<text x="34" y="202.0" font-size="19" text-anchor="start" fill="#24331b" font-weight="bold">Eigen vermogen</text>
+<rect x="284.0" y="134" width="342.0" height="122" rx="10" fill="#fff" stroke="#b9b29c" stroke-width="2"/>
+<text x="455.0" y="189.0" font-size="20" text-anchor="middle" fill="#24331b">Bestaat niet: eigen vermogen</text>
+<text x="455.0" y="215.0" font-size="20" text-anchor="middle" fill="#24331b">blijft in de onderneming</text>
+<rect x="634.0" y="134" width="342.0" height="122" rx="10" fill="#fff" stroke="#b9b29c" stroke-width="2"/>
+<text x="805.0" y="202.0" font-size="20" text-anchor="middle" fill="#24331b">?</text>
+<rect x="20" y="264" width="252" height="122" rx="10" fill="#eef3e6"/>
+<text x="34" y="332.0" font-size="19" text-anchor="start" fill="#24331b" font-weight="bold">Vreemd vermogen</text>
+<rect x="284.0" y="264" width="342.0" height="122" rx="10" fill="#fff" stroke="#b9b29c" stroke-width="2"/>
+<text x="455.0" y="332.0" font-size="20" text-anchor="middle" fill="#24331b">?</text>
+<rect x="634.0" y="264" width="342.0" height="122" rx="10" fill="#fff" stroke="#b9b29c" stroke-width="2"/>
+<text x="805.0" y="332.0" font-size="20" text-anchor="middle" fill="#24331b">?</text>
+</svg>

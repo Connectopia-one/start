@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520" font-family="Arial, sans-serif">
+<rect width="1000" height="520" fill="#fffdf7"/>
+<text x="500.0" y="44" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">Twee tabellen in een databank van een webwinkel</text>
+<rect x="20" y="90" width="420" height="44" rx="8" fill="#2f4a22"/>
+<text x="34" y="120" font-size="21" text-anchor="start" fill="#fff" font-weight="bold">Klanten</text>
+<rect x="20.0" y="134" width="140.0" height="44" fill="#eef3e6" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="90.0" y="163" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">🔑 Klantnr</text>
+<rect x="20.0" y="178" width="140.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="90.0" y="207" font-size="18" text-anchor="middle" fill="#24331b">1</text>
+<rect x="20.0" y="222" width="140.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="90.0" y="251" font-size="18" text-anchor="middle" fill="#24331b">2</text>
+<rect x="20.0" y="266" width="140.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="90.0" y="295" font-size="18" text-anchor="middle" fill="#24331b">3</text>
+<rect x="20.0" y="310" width="140.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="90.0" y="339" font-size="18" text-anchor="middle" fill="#24331b">4</text>
+<rect x="160.0" y="134" width="140.0" height="44" fill="#eef3e6" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="230.0" y="163" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">Naam</text>
+<rect x="160.0" y="178" width="140.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="230.0" y="207" font-size="18" text-anchor="middle" fill="#24331b">Peeters</text>
+<rect x="160.0" y="222" width="140.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="230.0" y="251" font-size="18" text-anchor="middle" fill="#24331b">Janssens</text>
+<rect x="160.0" y="266" width="140.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="230.0" y="295" font-size="18" text-anchor="middle" fill="#24331b">Claes</text>
+<rect x="160.0" y="310" width="140.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="230.0" y="339" font-size="18" text-anchor="middle" fill="#24331b">Maes</text>
+<rect x="300.0" y="134" width="140.0" height="44" fill="#eef3e6" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="370.0" y="163" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">Gemeente</text>
+<rect x="300.0" y="178" width="140.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="370.0" y="207" font-size="18" text-anchor="middle" fill="#24331b">Hasselt</text>
+<rect x="300.0" y="222" width="140.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="370.0" y="251" font-size="18" text-anchor="middle" fill="#24331b">Genk</text>
+<rect x="300.0" y="266" width="140.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="370.0" y="295" font-size="18" text-anchor="middle" fill="#24331b">Alken</text>
+<rect x="300.0" y="310" width="140.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="370.0" y="339" font-size="18" text-anchor="middle" fill="#24331b">Hasselt</text>
+<rect x="500" y="90" width="480" height="44" rx="8" fill="#2f4a22"/>
+<text x="514" y="120" font-size="21" text-anchor="start" fill="#fff" font-weight="bold">Bestellingen</text>
+<rect x="500.0" y="134" width="120.0" height="44" fill="#eef3e6" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="560.0" y="163" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">🔑 Bestelnr</text>
+<rect x="500.0" y="178" width="120.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="560.0" y="207" font-size="18" text-anchor="middle" fill="#24331b">101</text>
+<rect x="500.0" y="222" width="120.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="560.0" y="251" font-size="18" text-anchor="middle" fill="#24331b">102</text>
+<rect x="500.0" y="266" width="120.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="560.0" y="295" font-size="18" text-anchor="middle" fill="#24331b">103</text>
+<rect x="500.0" y="310" width="120.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="560.0" y="339" font-size="18" text-anchor="middle" fill="#24331b">104</text>
+<rect x="500.0" y="354" width="120.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="560.0" y="383" font-size="18" text-anchor="middle" fill="#24331b">105</text>
+<rect x="620.0" y="134" width="120.0" height="44" fill="#eef3e6" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="680.0" y="163" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">Klantnr</text>
+<rect x="620.0" y="178" width="120.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="680.0" y="207" font-size="18" text-anchor="middle" fill="#24331b">1</text>
+<rect x="620.0" y="222" width="120.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="680.0" y="251" font-size="18" text-anchor="middle" fill="#24331b">3</text>
+<rect x="620.0" y="266" width="120.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="680.0" y="295" font-size="18" text-anchor="middle" fill="#24331b">1</text>
+<rect x="620.0" y="310" width="120.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="680.0" y="339" font-size="18" text-anchor="middle" fill="#24331b">2</text>
+<rect x="620.0" y="354" width="120.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="680.0" y="383" font-size="18" text-anchor="middle" fill="#24331b">1</text>
+<rect x="740.0" y="134" width="120.0" height="44" fill="#eef3e6" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="800.0" y="163" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">Datum</text>
+<rect x="740.0" y="178" width="120.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="800.0" y="207" font-size="18" text-anchor="middle" fill="#24331b">03/11</text>
+<rect x="740.0" y="222" width="120.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="800.0" y="251" font-size="18" text-anchor="middle" fill="#24331b">04/11</text>
+<rect x="740.0" y="266" width="120.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="800.0" y="295" font-size="18" text-anchor="middle" fill="#24331b">05/11</text>
+<rect x="740.0" y="310" width="120.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="800.0" y="339" font-size="18" text-anchor="middle" fill="#24331b">07/11</text>
+<rect x="740.0" y="354" width="120.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="800.0" y="383" font-size="18" text-anchor="middle" fill="#24331b">08/11</text>
+<rect x="860.0" y="134" width="120.0" height="44" fill="#eef3e6" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="920.0" y="163" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">Bedrag</text>
+<rect x="860.0" y="178" width="120.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="920.0" y="207" font-size="18" text-anchor="middle" fill="#24331b">120,00</text>
+<rect x="860.0" y="222" width="120.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="920.0" y="251" font-size="18" text-anchor="middle" fill="#24331b">45,50</text>
+<rect x="860.0" y="266" width="120.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="920.0" y="295" font-size="18" text-anchor="middle" fill="#24331b">89,90</text>
+<rect x="860.0" y="310" width="120.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="920.0" y="339" font-size="18" text-anchor="middle" fill="#24331b">230,00</text>
+<rect x="860.0" y="354" width="120.0" height="44" fill="#fff" stroke="#b9b29c" stroke-width="1.5"/>
+<text x="920.0" y="383" font-size="18" text-anchor="middle" fill="#24331b">15,00</text>
+<polyline points="90.0,354.0 90.0,440.0 680.0,440.0 680.0,398.0" fill="none" stroke="#24331b" stroke-width="3"/>
+<text x="104.0" y="384" font-size="24" text-anchor="start" fill="#24331b" font-weight="bold">1</text>
+<text x="694.0" y="432" font-size="30" text-anchor="start" fill="#24331b" font-weight="bold">∞</text>
+</svg>

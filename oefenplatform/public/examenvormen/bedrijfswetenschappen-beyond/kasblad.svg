@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360" font-family="Arial, sans-serif">
+<rect width="900" height="360" fill="#fffdf7"/>
+<rect x="10" y="10" width="880" height="340" rx="16" fill="#fff" stroke="#b9b29c" stroke-width="2"/>
+<text x="450.0" y="58" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">Kasblad Kledingwinkel Mie, dinsdag 14 maart</text>
+<rect x="24" y="90" width="852" height="48" fill="#eef3e6"/>
+<text x="40" y="122" font-size="22" text-anchor="start" fill="#24331b">Beginsaldo kas</text>
+<text x="860" y="122" font-size="22" text-anchor="end" fill="#24331b">300,00</text>
+<text x="40" y="170" font-size="22" text-anchor="start" fill="#24331b">Dagontvangsten (btw 21 % inbegrepen)</text>
+<text x="860" y="170" font-size="22" text-anchor="end" fill="#24331b">3 630,00</text>
+<rect x="24" y="186" width="852" height="48" fill="#eef3e6"/>
+<text x="40" y="218" font-size="22" text-anchor="start" fill="#24331b">Aankoop postzegels</text>
+<text x="860" y="218" font-size="22" text-anchor="end" fill="#24331b">− 30,00</text>
+<text x="40" y="266" font-size="22" text-anchor="start" fill="#24331b">Storting op de bankrekening</text>
+<text x="860" y="266" font-size="22" text-anchor="end" fill="#24331b">− 3 000,00</text>
+<rect x="24" y="282" width="852" height="48" fill="#eef3e6"/>
+<text x="40" y="314" font-size="22" text-anchor="start" fill="#24331b" font-weight="bold">Eindsaldo kas</text>
+<text x="860" y="314" font-size="22" text-anchor="end" fill="#24331b" font-weight="bold">900,00</text>
+</svg>

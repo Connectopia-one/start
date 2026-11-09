@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 552" width="900" height="552" font-family="Arial, sans-serif">
+<rect width="900" height="552" fill="#fffdf7"/>
+<rect x="10" y="10" width="880" height="532" rx="16" fill="#fff" stroke="#b9b29c" stroke-width="2"/>
+<text x="450.0" y="58" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">Aanslagbiljet personenbelasting (vereenvoudigd)</text>
+<rect x="24" y="90" width="852" height="48" fill="#eef3e6"/>
+<text x="40" y="122" font-size="22" text-anchor="start" fill="#24331b">Belastbaar inkomen</text>
+<text x="860" y="122" font-size="22" text-anchor="end" fill="#24331b">38 000,00</text>
+<text x="40" y="170" font-size="22" text-anchor="start" fill="#24331b">Belasting volgens de schijven</text>
+<text x="860" y="170" font-size="22" text-anchor="end" fill="#24331b">13 550,00</text>
+<rect x="24" y="186" width="852" height="48" fill="#eef3e6"/>
+<text x="40" y="218" font-size="22" text-anchor="start" fill="#24331b">Vermindering voor de belastingvrije som</text>
+<text x="860" y="218" font-size="22" text-anchor="end" fill="#24331b">− 2 500,00</text>
+<text x="40" y="266" font-size="22" text-anchor="start" fill="#24331b">Belastingvermindering voor giften</text>
+<text x="860" y="266" font-size="22" text-anchor="end" fill="#24331b">− 300,00</text>
+<rect x="24" y="282" width="852" height="48" fill="#eef3e6"/>
+<text x="40" y="314" font-size="22" text-anchor="start" fill="#24331b" font-weight="bold">Belasting na verminderingen</text>
+<text x="860" y="314" font-size="22" text-anchor="end" fill="#24331b" font-weight="bold">10 750,00</text>
+<text x="40" y="362" font-size="22" text-anchor="start" fill="#24331b">Gemeentebelasting (7 %)</text>
+<text x="860" y="362" font-size="22" text-anchor="end" fill="#24331b">752,50</text>
+<rect x="24" y="378" width="852" height="48" fill="#eef3e6"/>
+<text x="40" y="410" font-size="22" text-anchor="start" fill="#24331b" font-weight="bold">Totale belasting</text>
+<text x="860" y="410" font-size="22" text-anchor="end" fill="#24331b" font-weight="bold">11 502,50</text>
+<text x="40" y="458" font-size="22" text-anchor="start" fill="#24331b">Ingehouden bedrijfsvoorheffing</text>
+<text x="860" y="458" font-size="22" text-anchor="end" fill="#24331b">− 12 100,00</text>
+<rect x="24" y="474" width="852" height="48" fill="#eef3e6"/>
+<text x="40" y="506" font-size="22" text-anchor="start" fill="#24331b" font-weight="bold">Saldo</text>
+<text x="860" y="506" font-size="22" text-anchor="end" fill="#24331b" font-weight="bold">− 597,50</text>
+</svg>

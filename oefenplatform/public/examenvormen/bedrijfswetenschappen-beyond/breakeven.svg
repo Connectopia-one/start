@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520" font-family="Arial, sans-serif">
+<rect width="1000" height="520" fill="#fffdf7"/>
+<text x="500.0" y="38" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">Kosten en opbrengsten van Plaat bv</text>
+<line x1="110" y1="440" x2="920" y2="440" stroke="#24331b" stroke-width="3"/>
+<line x1="110" y1="440" x2="110" y2="60" stroke="#24331b" stroke-width="3"/>
+<text x="920" y="502" font-size="19" text-anchor="end" fill="#24331b">afzet (stuks)</text>
+<text x="120" y="54" font-size="19" text-anchor="start" fill="#24331b">euro</text>
+<text x="98" y="447.0" font-size="17" text-anchor="end" fill="#24331b">0</text>
+<text x="98" y="375.0" font-size="17" text-anchor="end" fill="#24331b">20 000</text>
+<text x="98" y="303.0" font-size="17" text-anchor="end" fill="#24331b">40 000</text>
+<text x="98" y="231.0" font-size="17" text-anchor="end" fill="#24331b">60 000</text>
+<text x="98" y="159.0" font-size="17" text-anchor="end" fill="#24331b">80 000</text>
+<text x="98" y="87.0" font-size="17" text-anchor="end" fill="#24331b">100 000</text>
+<text x="110.0" y="468" font-size="17" text-anchor="middle" fill="#24331b">0</text>
+<text x="307.5" y="468" font-size="17" text-anchor="middle" fill="#24331b">500</text>
+<text x="505.0" y="468" font-size="17" text-anchor="middle" fill="#24331b">1 000</text>
+<text x="702.5" y="468" font-size="17" text-anchor="middle" fill="#24331b">1 500</text>
+<text x="900.0" y="468" font-size="17" text-anchor="middle" fill="#24331b">2 000</text>
+<polyline points="110.0,368.0 900.0,368.0" fill="none" stroke="#b5651d" stroke-width="5"/>
+<circle cx="932.0" cy="368.0" r="20" fill="#b5651d"/>
+<text x="932.0" y="376.0" font-size="22" text-anchor="middle" fill="#fff" font-weight="bold">A</text>
+<polyline points="110.0,368.0 900.0,152.0" fill="none" stroke="#3b6fa0" stroke-width="5"/>
+<circle cx="932.0" cy="152.0" r="20" fill="#3b6fa0"/>
+<text x="932.0" y="160.0" font-size="22" text-anchor="middle" fill="#fff" font-weight="bold">B</text>
+<polyline points="110.0,440.0 900.0,80.0" fill="none" stroke="#2f4a22" stroke-width="5"/>
+<circle cx="932.0" cy="80.0" r="20" fill="#2f4a22"/>
+<text x="932.0" y="88.0" font-size="22" text-anchor="middle" fill="#fff" font-weight="bold">C</text>
+</svg>

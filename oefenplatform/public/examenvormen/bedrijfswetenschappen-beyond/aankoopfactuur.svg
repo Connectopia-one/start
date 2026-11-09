@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" font-family="Arial, sans-serif">
+<rect width="900" height="600" fill="#fffdf7"/>
+<rect x="10" y="10" width="880" height="580" rx="16" fill="#fff" stroke="#b9b29c" stroke-width="2"/>
+<text x="450.0" y="58" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">Factuur van Groothandel Noord aan Winkel Zuid</text>
+<rect x="24" y="90" width="852" height="48" fill="#eef3e6"/>
+<text x="40" y="122" font-size="22" text-anchor="start" fill="#24331b">Brutobedrag handelsgoederen</text>
+<text x="860" y="122" font-size="22" text-anchor="end" fill="#24331b">2 000,00</text>
+<text x="40" y="170" font-size="22" text-anchor="start" fill="#24331b">Handelskorting 10 %</text>
+<text x="860" y="170" font-size="22" text-anchor="end" fill="#24331b">− 200,00</text>
+<rect x="24" y="186" width="852" height="48" fill="#eef3e6"/>
+<text x="40" y="218" font-size="22" text-anchor="start" fill="#24331b">Nettobedrag handelsgoederen</text>
+<text x="860" y="218" font-size="22" text-anchor="end" fill="#24331b">1 800,00</text>
+<text x="40" y="266" font-size="22" text-anchor="start" fill="#24331b">Vervoerkosten</text>
+<text x="860" y="266" font-size="22" text-anchor="end" fill="#24331b">50,00</text>
+<rect x="24" y="282" width="852" height="48" fill="#eef3e6"/>
+<text x="40" y="314" font-size="22" text-anchor="start" fill="#24331b" font-weight="bold">Totaal goederen en kosten</text>
+<text x="860" y="314" font-size="22" text-anchor="end" fill="#24331b" font-weight="bold">1 850,00</text>
+<text x="40" y="362" font-size="22" text-anchor="start" fill="#24331b">Financiële korting 2 % bij betaling binnen 10 dagen</text>
+<text x="860" y="362" font-size="22" text-anchor="end" fill="#24331b">(− 37,00)</text>
+<rect x="24" y="378" width="852" height="48" fill="#eef3e6"/>
+<text x="40" y="410" font-size="22" text-anchor="start" fill="#24331b">Maatstaf van heffing btw</text>
+<text x="860" y="410" font-size="22" text-anchor="end" fill="#24331b">1 813,00</text>
+<text x="40" y="458" font-size="22" text-anchor="start" fill="#24331b">Btw 21 %</text>
+<text x="860" y="458" font-size="22" text-anchor="end" fill="#24331b">380,73</text>
+<rect x="24" y="474" width="852" height="48" fill="#eef3e6"/>
+<text x="40" y="506" font-size="22" text-anchor="start" fill="#24331b">Terugstuurbare verpakking (zonder btw)</text>
+<text x="860" y="506" font-size="22" text-anchor="end" fill="#24331b">40,00</text>
+<text x="40" y="554" font-size="22" text-anchor="start" fill="#24331b" font-weight="bold">Te betalen</text>
+<text x="860" y="554" font-size="22" text-anchor="end" fill="#24331b" font-weight="bold">2 270,73</text>
+</svg>

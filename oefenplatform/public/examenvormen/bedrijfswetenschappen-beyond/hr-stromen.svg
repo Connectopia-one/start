@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" font-family="Arial, sans-serif">
+<rect width="1000" height="280" fill="#fffdf7"/>
+<text x="500.0" y="44" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">De loopbaan van een werknemer in de onderneming</text>
+<rect x="24.0" y="70" width="312.0" height="52" rx="10" fill="#2f4a22"/>
+<text x="180.0" y="104" font-size="21" text-anchor="middle" fill="#fff" font-weight="bold">Instroom</text>
+<rect x="344.0" y="70" width="312.0" height="52" rx="10" fill="#2f4a22"/>
+<text x="500.0" y="104" font-size="21" text-anchor="middle" fill="#fff" font-weight="bold">Doorstroom</text>
+<rect x="664.0" y="70" width="312.0" height="52" rx="10" fill="#2f4a22"/>
+<text x="820.0" y="104" font-size="21" text-anchor="middle" fill="#fff" font-weight="bold">Uitstroom</text>
+<rect x="24.0" y="134" width="312.0" height="122" rx="10" fill="#fff" stroke="#b9b29c" stroke-width="2"/>
+<text x="180.0" y="202.0" font-size="24" text-anchor="middle" fill="#24331b">binnenkomen</text>
+<rect x="344.0" y="134" width="312.0" height="122" rx="10" fill="#fff" stroke="#b9b29c" stroke-width="2"/>
+<text x="500.0" y="202.0" font-size="24" text-anchor="middle" fill="#24331b">groeien</text>
+<rect x="664.0" y="134" width="312.0" height="122" rx="10" fill="#fff" stroke="#b9b29c" stroke-width="2"/>
+<text x="820.0" y="202.0" font-size="24" text-anchor="middle" fill="#24331b">vertrekken</text>
+</svg>

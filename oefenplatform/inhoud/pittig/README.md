@@ -91,6 +91,8 @@ met het label **Moeilijker**. Geen kolom in de databank, dus **geen SQL**.
 | `spark-geschiedenis-pittig.json` | Geschiedenis | ✨ Spark | **aan** |
 | `spark-aardrijkskunde-pittig.json` | Aardrijkskunde | ✨ Spark | **aan** |
 | `spark-samenleving-en-economie-pittig.json` | Samenleving en economie | ✨ Spark | **aan** |
+| `beyond-geschiedenis-pittig.json` | Geschiedenis | 🌍 Beyond doorstroom | **aan** |
+| `beyond-bedrijfswetenschappen-pittig.json` | Bedrijfswetenschappen en recht | 🌍 Beyond doorstroom | **aan** |
 
 Telkens via **Beheer → Vakken → het vak → vragen importeren**, met het vinkje
 **"Bestaande vragen vervangen" aan**. Een bestand raakt alleen zijn eigen nieuwe
