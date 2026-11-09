@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "9 november 2026",
+    titel: "Nieuw spel: de begrippenarena economie",
+    tekst:
+      "Er is een begrippenarena economie, met een niveau voor Boost en een niveau voor Beyond. Je oefent de begrippen in zes spellen, alleen, met het gezin of met de hele klas.",
+    link: { tekst: "Naar de educatieve spellen", href: "/extras/spellen" },
+  },
+  {
+    datum: "9 november 2026",
     titel: "Natuurwetenschappen Beyond: kies je richting",
     tekst:
       "Ook bij natuurwetenschappen in Beyond doorstroom kies je nu bovenaan voor welke richting je leert, net als bij wiskunde basis en geschiedenis. Kies je welzijnswetenschappen, dan krijg je de extra blauwe hoofdstukken over het menselijk lichaam erbij, ook in het examen. Kies je een andere richting, dan laten we ze weg.",

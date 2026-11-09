@@ -125,6 +125,7 @@ export const spellen: Spel[] = [
   { slug: "woordenarena-engels", icoon: "💂", titel: "Woordenarena Engels" },
   { slug: "begrippenarena-natuur", icoon: "🔬", titel: "Begrippenarena Natuurwetenschappen" },
   { slug: "begrippenarena-wiskunde", icoon: "📐", titel: "Begrippenarena Wiskunde" },
+  { slug: "begrippenarena-economie", icoon: "📊", titel: "Begrippenarena Economie" },
   { slug: "wiskunde-dimensie", icoon: "🤖", titel: "De Wiskunde-dimensie" },
   /* Prikkelarme spellen voor het lager (Kim, 9 november 2026): geen klok,
      geen geluid, geen punten, een rustige tip bij een fout. */
@@ -244,6 +245,13 @@ export const spelKaarten: SpelKaart[] = [
     tekst: `De wiskundewoorden van de 2de graad. ${zesSpellen}`,
   },
   {
+    spel: "begrippenarena-economie",
+    school: "middelbaar",
+    niveau: "🚀 Boost · 2de graad (3de en 4de middelbaar)",
+    niveauInSpel: "boost",
+    tekst: `Bijna tachtig begrippen economie van de 2de graad, van behoeften en nut tot de marketingmix en dubbel boekhouden. ${zesSpellen}`,
+  },
+  {
     spel: "begrippenarena-wiskunde",
     school: "middelbaar",
     niveau: "🌍 Beyond · 3de graad (5de en 6de middelbaar)",
@@ -263,6 +271,13 @@ export const spelKaarten: SpelKaart[] = [
     niveau: "🌍 Beyond · welzijnswetenschappen",
     niveauInSpel: "welzijn",
     tekst: `Ruim honderd begrippen over het menselijk lichaam, voor de richting welzijnswetenschappen. ${zesSpellen}`,
+  },
+  {
+    spel: "begrippenarena-economie",
+    school: "middelbaar",
+    niveau: "🌍 Beyond · 3de graad doorstroom (5de en 6de middelbaar)",
+    niveauInSpel: "beyond",
+    tekst: `Honderd begrippen algemene economie, van de kringloop en de markt tot geld, inflatie en economisch onderzoek. ${zesSpellen}`,
   },
 ];
 
