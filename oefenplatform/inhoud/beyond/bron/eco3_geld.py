@@ -1,0 +1,353 @@
+# -*- coding: utf-8 -*-
+"""Geld, monetaire aggregaten en geldschepping.
+
+Fiche: functies van geld (ruil- en betaalmiddel, waardemeter en
+rekeneenheid, spaar- en beleggingsmiddel, kredietmiddel); soorten geld
+(chartaal, giraal, quasigeld, e-money, cryptovaluta); monetaire aggregaten
+van de EU (M1, M2, M3); geldsubstitutie en geldschepping; rol van de
+centrale banken en de commerciële banken daarbij.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Je betaalt een broodje met geld. Welke functie van geld gebruik je?",
+        opties=["ruil- en betaalmiddel", "waardemeter en rekeneenheid", "spaar- en beleggingsmiddel", "kredietmiddel"],
+        antwoord=0,
+        uitleg="Geld maakt ruilen makkelijk: je hoeft niet zelf iets te ruilen tegen het broodje.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In de winkel staat elke prijs in euro, zodat je producten kan vergelijken. Welke functie van geld?",
+        opties=["waardemeter en rekeneenheid", "ruil- en betaalmiddel", "spaar- en beleggingsmiddel", "kredietmiddel"],
+        antwoord=0,
+        uitleg="Alle waarden worden in dezelfde eenheid uitgedrukt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je zet elke maand 50 euro opzij voor later. Welke functie van geld?",
+        opties=["spaar- en beleggingsmiddel", "ruil- en betaalmiddel", "waardemeter en rekeneenheid", "kredietmiddel"],
+        antwoord=0,
+        uitleg="Geld bewaart koopkracht voor later, al kan inflatie daar aan knagen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een bank leent geld uit aan een gezin dat een huis koopt. Welke functie van geld?",
+        opties=["kredietmiddel", "waardemeter en rekeneenheid", "spaar- en beleggingsmiddel", "ruil- en betaalmiddel"],
+        antwoord=0,
+        uitleg="Geld laat toe om nu te kopen en later terug te betalen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is chartaal geld?",
+        opties=["munten en bankbiljetten", "geld op een zichtrekening", "geld op een spaarrekening", "bitcoins"],
+        antwoord=0,
+        uitleg="Het tastbare geld dat de centrale bank uitgeeft.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is giraal geld?",
+        opties=["tegoeden op zichtrekeningen", "munten en bankbiljetten", "goudstaven in een kluis", "aandelen op de beurs"],
+        antwoord=0,
+        uitleg="Je betaalt ermee via overschrijving of bankkaart.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is quasigeld?",
+        opties=[
+            "tegoeden die je snel kan omzetten",
+            "vals geld dat op echt geld lijkt",
+            "munten uit een ander land",
+            "speelgeld voor kinderen",
+        ],
+        antwoord=0,
+        uitleg="Bijvoorbeeld een spaarrekening of een termijnrekening op korte termijn.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een spaarrekening is giraal geld.",
+        antwoord=False,
+        uitleg="Ze is quasigeld: je kan er niet rechtstreeks mee betalen, maar ze is snel om te zetten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke soorten geld noemt men nieuw? Duid alle juiste antwoorden aan.",
+        opties=["e-money", "cryptovaluta", "chartaal geld", "goudstukken"],
+        antwoord=[0, 1],
+        uitleg="E-money staat bijvoorbeeld op een betaalkaart of in een app.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Cryptovaluta zoals bitcoin worden uitgegeven door de Europese Centrale Bank.",
+        antwoord=False,
+        uitleg="Ze worden niet door een centrale bank uitgegeven. Daardoor zijn ze ook niet wettelijk gewaarborgd.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom vervult bitcoin de functie van waardemeter slecht?",
+        opties=[
+            "de waarde schommelt sterk",
+            "je kan er niets mee kopen",
+            "er bestaan er te veel van",
+            "het is verboden in Europa",
+        ],
+        antwoord=0,
+        uitleg="Een prijs in bitcoin kan op een dag fors veranderen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de maatschappelijke geldhoeveelheid M1?",
+        opties=[
+            "chartaal geld plus giraal geld",
+            "enkel munten en biljetten",
+            "alle spaarrekeningen",
+            "het geld van de overheid",
+        ],
+        antwoord=0,
+        uitleg="Het geld waarmee je meteen kan betalen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="M2 bevat M1 en daarbovenop de secundaire liquiditeiten.",
+        antwoord=True,
+        uitleg="Zoals spaarrekeningen en termijnrekeningen op korte termijn.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk aggregaat is het ruimst?",
+        opties=["M3", "M2", "M1", "ze zijn even groot"],
+        antwoord=0,
+        uitleg="M3 bevat M2 en nog verhandelbare instrumenten, zoals deelbewijzen van geldmarktfondsen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="M1 is groter dan M2.",
+        antwoord=False,
+        uitleg="M2 bevat M1, dus M2 is minstens even groot.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is geldsubstitutie?",
+        opties=[
+            "een soort geld omzetten in een andere soort",
+            "nieuw geld bijmaken",
+            "geld uitlenen aan een gezin",
+            "geld wisselen in een vreemde munt zoals dollar",
+        ],
+        antwoord=0,
+        uitleg="Bijvoorbeeld biljetten op je zichtrekening storten.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Als je 100 euro aan biljetten op je zichtrekening stort, verandert M1 niet.",
+        antwoord=True,
+        uitleg="Chartaal geld wordt giraal geld. Het totaal van M1 blijft gelijk.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is geldschepping?",
+        opties=[
+            "het ontstaan van nieuw geld",
+            "het omzetten van biljetten in giraal geld",
+            "het vernietigen van versleten biljetten",
+            "het sparen van geld door gezinnen",
+        ],
+        antwoord=0,
+        uitleg="Een krediet zet nieuw giraal geld op de rekening van de lener.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een bank geeft een lening van 10 000 euro en zet dat bedrag op de zichtrekening van de klant. Wat gebeurt er met M1?",
+        opties=["M1 stijgt met 10 000 euro", "M1 daalt met 10 000 euro", "M1 blijft gelijk", "M1 wordt nul"],
+        antwoord=0,
+        uitleg="Er ontstaat nieuw giraal geld: geldschepping.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Als een lening wordt terugbetaald, verdwijnt er giraal geld.",
+        antwoord=True,
+        uitleg="Dat heet geldvernietiging, het omgekeerde van geldschepping.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wie geeft in de eurozone de bankbiljetten uit?",
+        opties=[
+            "het Eurosysteem",
+            "de commerciële banken",
+            "de Europese Commissie",
+            "elke regering apart",
+        ],
+        antwoord=0,
+        uitleg="Het Eurosysteem bestaat uit de ECB en de nationale centrale banken van de eurolanden. In België is dat de Nationale Bank.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke rol hebben commerciële banken bij geldschepping?",
+        opties=[
+            "ze scheppen giraal geld met kredieten",
+            "ze drukken zelf bankbiljetten",
+            "ze slaan alle euromunten",
+            "ze bepalen de beleidsrente",
+        ],
+        antwoord=0,
+        uitleg="De centrale bank drukt biljetten en bepaalt de rente.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom kunnen commerciële banken niet onbeperkt geld scheppen?",
+        opties=[
+            "ze moeten reserves en kapitaal aanhouden",
+            "ze mogen elk jaar maar één lening geven",
+            "de klanten weigeren leningen",
+            "de overheid koopt alle leningen op",
+        ],
+        antwoord=0,
+        uitleg="De centrale bank en de toezichthouders leggen regels op.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De centrale bank wordt ook de bank van de banken genoemd.",
+        antwoord=True,
+        uitleg="Commerciële banken hebben er rekeningen en kunnen er geld lenen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke functies heeft geld? Duid alle juiste antwoorden aan.",
+        opties=["ruilmiddel", "waardemeter", "productiefactor", "belasting"],
+        antwoord=[0, 1],
+        uitleg="Ook spaar- en beleggingsmiddel en kredietmiddel horen erbij.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je haalt 50 euro af aan de automaat. Wat is dat?",
+        opties=["geldsubstitutie", "geldschepping", "geldvernietiging", "kredietverlening"],
+        antwoord=0,
+        uitleg="Giraal geld wordt chartaal geld. De totale geldhoeveelheid M1 verandert niet.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je zet 1 000 euro van je zichtrekening op je spaarrekening. Wat gebeurt er met M1 en M2?",
+        opties=[
+            "M1 daalt, M2 blijft gelijk",
+            "M1 en M2 dalen allebei",
+            "M1 stijgt, M2 daalt",
+            "M1 en M2 blijven allebei gelijk",
+        ],
+        antwoord=0,
+        uitleg="Het geld verhuist van M1 naar de secundaire liquiditeiten, die ook in M2 zitten.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij geldsubstitutie ontstaat er nieuw geld.",
+        antwoord=False,
+        uitleg="Er verandert enkel de vorm. Nieuw geld ontstaat bij geldschepping.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke voorbeelden zijn geldschepping? Duid alle juiste antwoorden aan.",
+        opties=[
+            "een bank verleent een woonkrediet",
+            "een bank geeft een bedrijf een investeringskrediet",
+            "je stort biljetten op je rekening",
+            "je haalt geld af aan de automaat",
+        ],
+        antwoord=[0, 1],
+        uitleg="Storten en afhalen zijn geldsubstitutie.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is e-money?",
+        opties=[
+            "elektronisch geld op een kaart of in een app",
+            "geld dat je via e-mail opstuurt",
+            "een cryptomunt zoals bitcoin of ether",
+            "geld van een buitenlandse bank",
+        ],
+        antwoord=0,
+        uitleg="Het vertegenwoordigt gewone euro's die vooraf betaald zijn.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Chartaal geld maakt in de eurozone het grootste deel uit van M1.",
+        antwoord=False,
+        uitleg="Het grootste deel is giraal geld op zichtrekeningen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke soort geld hoort bij quasigeld?",
+        opties=["een termijnrekening van zes maanden", "een bankbiljet van 20 euro", "een zichtrekening bij de bank", "een muntstuk van 2 euro"],
+        antwoord=0,
+        uitleg="Het geld is niet meteen bruikbaar, maar wel vrij snel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom zijn mensen bereid om papieren biljetten te aanvaarden?",
+        opties=[
+            "ze vertrouwen dat anderen ze aanvaarden",
+            "het papier zelf is veel waard",
+            "elk biljet is gedekt door goud",
+            "de bank betaalt rente op elk biljet",
+        ],
+        antwoord=0,
+        uitleg="Geld werkt dankzij vertrouwen en omdat het wettig betaalmiddel is.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een hoge inflatie tast vooral de functie van geld als spaarmiddel aan.",
+        antwoord=True,
+        uitleg="Wat je spaart, verliest koopkracht.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke rol heeft de centrale bank bij de geldhoeveelheid?",
+        opties=[
+            "ze stuurt ze bij met de rente",
+            "ze bepaalt hoeveel elk gezin mag sparen",
+            "ze verleent alle leningen aan gezinnen",
+            "ze int de belastingen",
+        ],
+        antwoord=0,
+        uitleg="Een hogere rente remt de kredietverlening en dus de geldschepping.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke aggregaten bevatten de zichtrekeningen? Duid alle juiste antwoorden aan.",
+        opties=["M1", "M2", "M3", "geen enkel aggregaat"],
+        antwoord=[0, 1, 2],
+        uitleg="M1 zit in M2, en M2 zit in M3.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Cryptovaluta zijn wettig betaalmiddel in België: elke winkel moet ze aanvaarden.",
+        antwoord=False,
+        uitleg="Enkel de euro is wettig betaalmiddel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk probleem had ruilhandel zonder geld?",
+        opties=[
+            "je moest iemand vinden die wilde wat jij had",
+            "er waren nog geen goederen om te ruilen",
+            "de overheid verbood elke ruil",
+            "elke ruil moest vooraf geregistreerd worden",
+        ],
+        antwoord=0,
+        uitleg="Geld als ruilmiddel lost dat dubbele samenvallen van wensen op.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een betaling met je bankkaart gebruikt giraal geld.",
+        antwoord=True,
+        uitleg="Het bedrag gaat van je zichtrekening naar die van de winkel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een bank geeft samen 1 miljoen euro nieuwe kredieten, terwijl klanten samen 400 000 euro leningen terugbetalen. Hoe verandert het giraal geld?",
+        opties=["het stijgt met 600 000 euro", "het stijgt met 1,4 miljoen euro", "het daalt met 400 000 euro", "het blijft gelijk"],
+        antwoord=0,
+        uitleg="1 000 000 geschept min 400 000 vernietigd.",
+    ),
+]

@@ -1,0 +1,346 @@
+# -*- coding: utf-8 -*-
+"""De vraagcurve en de prijselasticiteit van de vraag.
+
+Fiche: individuele vraagcurve afleiden uit de optimale goederencombinatie en
+grafisch voorstellen; verloop; collectieve vraagcurve; beweging op en
+verschuiving van de vraagcurve; prijselasticiteit van de vraag berekenen en
+interpreteren; effect van een prijswijziging bij elastische, inelastische,
+unitair, perfect elastische en perfect inelastische vraag; verband met de
+helling; beïnvloedende factoren; verband met soorten goederen.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Hoe verloopt een gewone vraagcurve?",
+        opties=[
+            "dalend: hoe hoger de prijs, hoe kleiner de gevraagde hoeveelheid",
+            "stijgend: hoe hoger de prijs, hoe groter de gevraagde hoeveelheid",
+            "horizontaal: de prijs blijft altijd even hoog",
+            "verticaal: de hoeveelheid blijft altijd even groot",
+        ],
+        antwoord=0,
+        uitleg="Bij een hogere prijs kan en wil de consument minder kopen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe leid je de individuele vraagcurve af uit de optimale goederencombinatie?",
+        opties=[
+            "je laat de prijs van een goed veranderen en noteert telkens de gekozen hoeveelheid",
+            "je laat het inkomen veranderen en noteert telkens de prijs",
+            "je telt de vraag van alle consumenten op",
+            "je zoekt het snijpunt van vraag en aanbod",
+        ],
+        antwoord=0,
+        uitleg="Bij elke prijs draait de budgetlijn en verschuift het optimum. Elk optimum geeft een punt op de vraagcurve.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe vind je de collectieve vraagcurve?",
+        opties=[
+            "bij elke prijs de gevraagde hoeveelheden van alle consumenten optellen",
+            "bij elke hoeveelheid de prijzen van alle consumenten optellen",
+            "het gemiddelde nemen van alle individuele vraagcurven",
+            "de vraagcurve van de grootste koper nemen",
+        ],
+        antwoord=0,
+        uitleg="Je telt horizontaal op: per prijs de hoeveelheden samen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Bij een prijs van 4 euro vraagt An 3 stuks, Bram 5 stuks en Charlotte 2 stuks. Hoeveel stuks is de collectieve vraag bij 4 euro?",
+        antwoord=["10", "tien"],
+        uitleg="3 + 5 + 2 = 10.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="De prijs van koffie stijgt. Wat gebeurt er met de vraagcurve van koffie?",
+        opties=[
+            "er is een beweging op de vraagcurve",
+            "de vraagcurve verschuift naar links",
+            "de vraagcurve verschuift naar rechts",
+            "de vraagcurve wordt steiler",
+        ],
+        antwoord=0,
+        uitleg="Een verandering van de eigen prijs geeft een beweging langs de curve.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke veranderingen doen de vraagcurve van een normaal goed naar rechts verschuiven? Duid alle juiste antwoorden aan.",
+        opties=[
+            "het inkomen van de consumenten stijgt",
+            "het goed wordt populairder",
+            "de prijs van het goed zelf daalt",
+            "de prijs van een complementair goed stijgt",
+        ],
+        antwoord=[0, 1],
+        uitleg="Een lagere eigen prijs is een beweging op de curve. Een duurder complementair goed doet de vraag dalen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe bereken je de prijselasticiteit van de vraag?",
+        opties=[
+            "procentuele verandering van de gevraagde hoeveelheid gedeeld door de procentuele verandering van de prijs",
+            "procentuele verandering van de prijs gedeeld door de procentuele verandering van de gevraagde hoeveelheid",
+            "verandering van de omzet gedeeld door de verandering van de prijs",
+            "procentuele verandering van de gevraagde hoeveelheid gedeeld door de procentuele verandering van het inkomen",
+        ],
+        antwoord=0,
+        uitleg="De laatste optie is de inkomenselasticiteit.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="De prijs stijgt met 10 % en de gevraagde hoeveelheid daalt met 20 %. Hoeveel is de prijselasticiteit van de vraag? Schrijf het getal met teken.",
+        antwoord=["-2", "−2", "min 2"],
+        uitleg="−20 % / 10 % = −2. De absolute waarde, 2, is groter dan 1: elastisch.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="De prijselasticiteit van de vraag is −0,4. Hoe noem je die vraag?",
+        opties=["inelastisch", "elastisch", "unitair elastisch", "perfect elastisch"],
+        antwoord=0,
+        uitleg="De absolute waarde ligt tussen 0 en 1: de hoeveelheid reageert minder sterk dan de prijs.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij een elastische vraag daalt de omzet als de prijs stijgt.",
+        antwoord=True,
+        uitleg="De hoeveelheid daalt procentueel sterker dan de prijs stijgt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij een inelastische vraag daalt de omzet als de prijs stijgt.",
+        antwoord=False,
+        uitleg="De hoeveelheid daalt maar weinig, dus de omzet stijgt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe ziet een perfect inelastische vraagcurve eruit?",
+        opties=["verticaal", "horizontaal", "licht dalend", "stijgend"],
+        antwoord=0,
+        uitleg="Bij elke prijs wordt dezelfde hoeveelheid gevraagd. De elasticiteit is 0.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe ziet een perfect elastische vraagcurve eruit?",
+        opties=["horizontaal", "verticaal", "stijgend", "als een hyperbool"],
+        antwoord=0,
+        uitleg="Bij een iets hogere prijs valt de vraag helemaal weg.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij een unitair elastische vraag blijft de omzet gelijk als de prijs een beetje verandert.",
+        antwoord=True,
+        uitleg="Prijs en hoeveelheid veranderen procentueel even sterk in tegengestelde richting.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk product heeft waarschijnlijk de meest inelastische vraag?",
+        opties=["insuline voor een diabetespatiënt", "een bepaald merk chips", "een citytrip naar Rome", "een designerhandtas"],
+        antwoord=0,
+        uitleg="Levensnoodzakelijk en zonder alternatief: de vraag reageert nauwelijks op de prijs.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een bioscoop wil meer omzet. De vraag naar tickets is elastisch. Wat doet ze best met de prijs?",
+        opties=["de prijs verlagen", "de prijs verhogen", "de prijs gelijk houden", "de prijs verdubbelen"],
+        antwoord=0,
+        uitleg="Bij elastische vraag stijgt de hoeveelheid procentueel sterker dan de prijs daalt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een steilere vraagcurve wijst, bij dezelfde schaal, op een minder elastische vraag.",
+        antwoord=True,
+        uitleg="Bij een steile curve verandert de hoeveelheid weinig als de prijs verandert.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="De prijs daalt van 10 naar 8 euro, de gevraagde hoeveelheid stijgt van 100 naar 110. Hoeveel is de prijselasticiteit?",
+        opties=["−0,5", "−2", "−1", "−0,2"],
+        antwoord=0,
+        uitleg="Hoeveelheid +10 %, prijs −20 %: 10 / −20 = −0,5.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een daling van het inkomen geeft een beweging op de vraagcurve.",
+        antwoord=False,
+        uitleg="Het inkomen is geen prijs van het goed zelf: de hele curve verschuift.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="De prijs van boter stijgt sterk. Wat gebeurt er met de vraagcurve van margarine?",
+        opties=[
+            "ze verschuift naar rechts",
+            "ze verschuift naar links",
+            "er is een beweging op de curve",
+            "er verandert niets",
+        ],
+        antwoord=0,
+        uitleg="Margarine is een substituut voor boter: mensen stappen over.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Welke factoren maken de vraag naar een product meer elastisch? Duid alle juiste antwoorden aan.",
+        opties=[
+            "er zijn veel alternatieven",
+            "het product neemt een groot deel van het budget in",
+            "het product is verslavend",
+            "het product is levensnoodzakelijk",
+        ],
+        antwoord=[0, 1],
+        uitleg="Verslavende en levensnoodzakelijke producten hebben juist een inelastische vraag.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Op lange termijn is de vraag meestal elastischer dan op korte termijn.",
+        antwoord=True,
+        uitleg="Mensen hebben tijd om alternatieven te zoeken, zoals een zuinigere auto na een stijging van de benzineprijs.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom is de vraag naar sigaretten inelastisch?",
+        opties=["er is een verslavingseffect", "er zijn veel alternatieven", "het is een luxeproduct", "het is een complementair goed"],
+        antwoord=0,
+        uitleg="Rokers blijven kopen, ook als de prijs stijgt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom is de vraag naar zout zeer inelastisch?",
+        opties=[
+            "het neemt maar een klein deel van het budget in",
+            "het is een luxeproduct",
+            "er zijn heel veel substituten",
+            "het is verslavend",
+        ],
+        antwoord=0,
+        uitleg="Ook als zout dubbel zo duur wordt, merk je dat amper in je budget.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke soort goederen heeft meestal een elastische vraag?",
+        opties=["luxeproducten", "levensnoodzakelijke goederen", "verslavende producten", "geneesmiddelen"],
+        antwoord=0,
+        uitleg="Op een luxeproduct kan je makkelijk besparen als het duurder wordt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat zijn complementaire goederen?",
+        opties=[
+            "goederen die je samen gebruikt, zoals een printer en inkt",
+            "goederen die elkaar vervangen, zoals thee en koffie",
+            "goederen die je enkel in de winter koopt",
+            "goederen die gratis bij een aankoop horen",
+        ],
+        antwoord=0,
+        uitleg="Wordt het ene duurder, dan daalt ook de vraag naar het andere.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Als de prijs van een substituut stijgt, stijgt de vraag naar het goed zelf.",
+        antwoord=True,
+        uitleg="Duurdere thee doet sommige mensen overstappen naar koffie.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Als de prijs van een complementair goed stijgt, stijgt de vraag naar het goed zelf.",
+        antwoord=False,
+        uitleg="Duurdere inkt maakt een printer minder aantrekkelijk: de vraag naar printers daalt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een merk frisdrank heeft veel concurrenten in de winkel. Wat weet je over de prijselasticiteit van de vraag naar dat merk?",
+        opties=["vrij elastisch", "perfect inelastisch", "gelijk aan 0", "altijd gelijk aan −1"],
+        antwoord=0,
+        uitleg="Wordt het merk duurder, dan kiezen veel kopers een ander merk.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="De prijselasticiteit van de vraag is −1,5. De prijs stijgt met 4 %. Met hoeveel procent daalt de gevraagde hoeveelheid? Schrijf het getal.",
+        antwoord=["6", "6 %", "6%"],
+        uitleg="−1,5 · 4 % = −6 %.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een overheid verhoogt de accijns op tabak om meer belastinginkomsten te krijgen. Waarom werkt dat?",
+        opties=[
+            "de vraag is inelastisch, dus de verkoop daalt maar weinig",
+            "de vraag is elastisch, dus de verkoop stijgt",
+            "de vraag is perfect elastisch, dus er verandert niets",
+            "de vraag naar tabak hangt niet af van de prijs omdat het een luxe is",
+        ],
+        antwoord=0,
+        uitleg="Bij inelastische vraag blijven er veel verkochte pakjes over om accijns op te heffen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een prijsdaling van 5 % geeft een stijging van de gevraagde hoeveelheid met 5 %. Wat gebeurt er met de omzet?",
+        opties=["ze blijft ongeveer gelijk", "ze stijgt sterk", "ze daalt sterk", "ze wordt nul"],
+        antwoord=0,
+        uitleg="Unitair elastisch: prijs en hoeveelheid compenseren elkaar.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een perfect inelastische vraag heeft een prijselasticiteit van −1.",
+        antwoord=False,
+        uitleg="De gevraagde hoeveelheid verandert helemaal niet, dus de elasticiteit is 0. Bij −1 is de vraag unitair elastisch.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Langs een rechte, dalende vraagcurve ...",
+        opties=[
+            "verandert de elasticiteit: bovenaan elastisch, onderaan inelastisch",
+            "is de elasticiteit overal even groot",
+            "is de vraag overal perfect elastisch",
+            "is de vraag overal perfect inelastisch",
+        ],
+        antwoord=0,
+        uitleg="De helling blijft gelijk, maar de procentuele veranderingen niet. Bovenaan is een kleine hoeveelheid procentueel snel veranderd.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke goederen hebben meestal een inelastische vraag? Duid alle juiste antwoorden aan.",
+        opties=["brood", "elektriciteit", "een cruise", "een sportwagen"],
+        antwoord=[0, 1],
+        uitleg="Brood en elektriciteit zijn levensnoodzakelijk. Een cruise en een sportwagen zijn luxe.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een betere reclamecampagne doet de vraagcurve naar links verschuiven.",
+        antwoord=False,
+        uitleg="Als de reclame werkt, wordt het product populairder en schuift de curve naar rechts.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="De prijs van smartphones daalt. Wat gebeurt er met de vraag naar smartphonehoesjes?",
+        opties=[
+            "de vraagcurve van hoesjes verschuift naar rechts",
+            "de vraagcurve van hoesjes verschuift naar links",
+            "er is een beweging op de vraagcurve van hoesjes",
+            "er verandert niets bij de hoesjes",
+        ],
+        antwoord=0,
+        uitleg="Complementaire goederen: meer smartphones verkocht, dus meer hoesjes gevraagd.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="De prijs stijgt van 20 naar 22 euro en de gevraagde hoeveelheid daalt van 500 naar 450. Hoeveel is de prijselasticiteit van de vraag? Schrijf het getal met teken.",
+        antwoord=["-1", "−1", "min 1"],
+        uitleg="Prijs +10 %, hoeveelheid −10 %: −10 / 10 = −1, unitair elastisch.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een perfect elastische vraag komt voor bij een producent die heel veel concurrenten heeft met hetzelfde product.",
+        antwoord=True,
+        uitleg="Vraagt hij iets meer dan de marktprijs, dan kopen de klanten bij een ander.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke vraag wordt het minst beïnvloed door een prijsstijging?",
+        opties=["een perfect inelastische vraag", "een elastische vraag", "een unitair elastische vraag", "een perfect elastische vraag"],
+        antwoord=0,
+        uitleg="Daar verandert de hoeveelheid helemaal niet.",
+    ),
+]

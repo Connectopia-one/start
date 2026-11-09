@@ -1,0 +1,327 @@
+# -*- coding: utf-8 -*-
+"""Consumenten- en producentensurplus en het welvaartsoptimum.
+
+Fiche: marktevenwicht bij volkomen concurrentie (voorkennis); Pareto-optimum
+bij marktevenwicht, grafisch; consumenten- en producentensurplus van
+Marshall en de totale welvaart toelichten, berekenen en grafisch bepalen bij
+een gegeven marktprijs; welvaartsoptimum volgens Smith en Pareto.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het consumentensurplus?",
+        opties=[
+            "het verschil tussen wat consumenten maximaal willen betalen en de marktprijs",
+            "het verschil tussen de marktprijs en de kosten van de producent",
+            "de totale uitgaven van de consumenten aan een product",
+            "het deel van het inkomen dat de consumenten sparen",
+        ],
+        antwoord=0,
+        uitleg="Wie 10 euro wil betalen en maar 6 euro betaalt, heeft 4 euro consumentensurplus.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het producentensurplus?",
+        opties=[
+            "het verschil tussen de marktprijs en de minimumprijs waarvoor producenten willen verkopen",
+            "het verschil tussen de betalingsbereidheid van de kopers en de marktprijs",
+            "de totale omzet van alle producenten op de markt",
+            "de winst na belastingen van het grootste bedrijf",
+        ],
+        antwoord=0,
+        uitleg="Wie voor 4 euro wil verkopen en 6 euro krijgt, heeft 2 euro producentensurplus.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waar ligt het consumentensurplus in een grafiek met vraag en aanbod?",
+        opties=[
+            "onder de vraagcurve en boven de marktprijs",
+            "boven de aanbodcurve en onder de marktprijs",
+            "onder de aanbodcurve",
+            "rechts van de evenwichtshoeveelheid",
+        ],
+        antwoord=0,
+        uitleg="Het is de driehoek tussen de vraagcurve, de prijslijn en de verticale as.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waar ligt het producentensurplus in een grafiek met vraag en aanbod?",
+        opties=[
+            "boven de aanbodcurve en onder de marktprijs",
+            "onder de vraagcurve en boven de marktprijs",
+            "boven de vraagcurve",
+            "rechts van de evenwichtshoeveelheid",
+        ],
+        antwoord=0,
+        uitleg="Het is de driehoek tussen de prijslijn, de aanbodcurve en de verticale as.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De totale welvaart op een markt is de som van het consumentensurplus en het producentensurplus.",
+        antwoord=True,
+        uitleg="Zonder overheid is dat het totale voordeel dat de markt oplevert.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="De vraagcurve is P = 100 − Q en de aanbodcurve P = 20 + Q. Hoeveel is de evenwichtshoeveelheid Q?",
+        antwoord=["40", "veertig"],
+        uitleg="100 − Q = 20 + Q, dus 2Q = 80 en Q = 40. De prijs is 60.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Bij die markt (vraag P = 100 − Q, aanbod P = 20 + Q, evenwicht Q = 40 en P = 60): hoeveel is het consumentensurplus?",
+        antwoord=["800"],
+        uitleg="Driehoek: ½ · 40 · (100 − 60) = 800.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Bij diezelfde markt: hoeveel is het producentensurplus?",
+        antwoord=["800"],
+        uitleg="Driehoek: ½ · 40 · (60 − 20) = 800.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Bij de markt met P = 100 − Q en P = 20 + Q: hoeveel is de totale welvaart?",
+        opties=["1 600", "800", "2 400", "4 000"],
+        antwoord=0,
+        uitleg="800 + 800 = 1 600.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat betekent een Pareto-optimum?",
+        opties=[
+            "niemand kan beter worden zonder dat iemand anders slechter wordt",
+            "iedereen heeft precies hetzelfde inkomen",
+            "de overheid verdeelt alle goederen eerlijk",
+            "de producenten maken de grootst mogelijke winst",
+        ],
+        antwoord=0,
+        uitleg="Het gaat over efficiëntie, niet over een eerlijke verdeling.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij volkomen concurrentie is het marktevenwicht een Pareto-optimum.",
+        antwoord=True,
+        uitleg="In het evenwicht is de totale welvaart het grootst: elke ruil die beide partijen voordeel oplevert, gebeurt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een Pareto-optimum betekent altijd een rechtvaardige verdeling van de welvaart.",
+        antwoord=False,
+        uitleg="Ook een zeer ongelijke verdeling kan Pareto-optimaal zijn.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk idee van Adam Smith hoort bij het welvaartsoptimum?",
+        opties=[
+            "de onzichtbare hand: wie zijn eigenbelang volgt, dient via de markt ook het algemeen belang",
+            "de overheid moet alle prijzen vastleggen om welvaart te verzekeren",
+            "elke ruil is een verlies voor een van beide partijen",
+            "monopolies zorgen voor de hoogste welvaart",
+        ],
+        antwoord=0,
+        uitleg="Volgens Smith leidt vrije marktwerking tot de meest efficiënte uitkomst.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="De marktprijs ligt boven de evenwichtsprijs. Wat gebeurt er met de totale welvaart?",
+        opties=[
+            "ze is kleiner dan in het evenwicht",
+            "ze is groter dan in het evenwicht",
+            "ze blijft gelijk",
+            "ze wordt nul",
+        ],
+        antwoord=0,
+        uitleg="Er wordt minder verhandeld dan in het evenwicht: er gaat welvaart verloren.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="De marktprijs daalt terwijl de curves gelijk blijven, en er wordt meer verhandeld. Wat gebeurt er met het consumentensurplus?",
+        opties=["het stijgt", "het daalt", "het blijft gelijk", "het wordt negatief"],
+        antwoord=0,
+        uitleg="Consumenten betalen minder en kopen meer: de driehoek wordt groter.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een consument die net de marktprijs wil betalen, heeft een consumentensurplus van nul.",
+        antwoord=True,
+        uitleg="Zijn betalingsbereidheid is gelijk aan de prijs.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wie haalt voordeel uit het marktevenwicht? Duid alle juiste antwoorden aan.",
+        opties=[
+            "consumenten die meer wilden betalen dan de prijs",
+            "producenten die voor minder wilden verkopen dan de prijs",
+            "consumenten die minder willen betalen dan de prijs",
+            "producenten die meer kosten hebben dan de prijs",
+        ],
+        antwoord=[0, 1],
+        uitleg="De andere twee groepen kopen of verkopen niet.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het consumentensurplus is het bedrag dat consumenten aan de producenten betalen.",
+        antwoord=False,
+        uitleg="Dat is de omzet. Het surplus is wat ze uitsparen tegenover wat ze wilden betalen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe bereken je een surplus dat een driehoek vormt?",
+        opties=["½ · basis · hoogte", "basis · hoogte", "basis + hoogte", "½ · basis + hoogte"],
+        antwoord=0,
+        uitleg="De basis is de verhandelde hoeveelheid, de hoogte het prijsverschil.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij een vaste vraagcurve wordt het consumentensurplus groter als de marktprijs stijgt.",
+        antwoord=False,
+        uitleg="Bij een hogere prijs betalen consumenten meer en kopen ze minder: het surplus krimpt.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="invultekst",
+        vraag="De vraag is Qv = 120 − 2P en het aanbod Qa = 3P − 30. Hoeveel is de evenwichtsprijs P?",
+        antwoord=["30", "dertig"],
+        uitleg="120 − 2P = 3P − 30, dus 5P = 150 en P = 30. De hoeveelheid is 60.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Bij Qv = 120 − 2P: vanaf welke prijs wil niemand nog kopen?",
+        opties=["60", "120", "30", "40"],
+        antwoord=0,
+        uitleg="Qv = 0 als P = 60. Dat is het snijpunt van de vraagcurve met de prijsas.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Bij die markt (Qv = 120 − 2P, Qa = 3P − 30, evenwicht P = 30 en Q = 60): hoeveel is het consumentensurplus?",
+        antwoord=["900"],
+        uitleg="½ · 60 · (60 − 30) = 900.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Bij die markt: Qa = 0 als P = 10. Hoeveel is het producentensurplus?",
+        antwoord=["600"],
+        uitleg="½ · 60 · (30 − 10) = 600.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Bij de markt met Qv = 120 − 2P en Qa = 3P − 30: hoeveel is de totale welvaart?",
+        opties=["1 500", "900", "600", "1 800"],
+        antwoord=0,
+        uitleg="900 + 600 = 1 500.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="De vraag naar een product stijgt (de vraagcurve schuift naar rechts). Wat gebeurt er met het producentensurplus?",
+        opties=["het stijgt", "het daalt", "het blijft gelijk", "het verdwijnt"],
+        antwoord=0,
+        uitleg="Prijs en hoeveelheid stijgen: de driehoek boven de aanbodcurve wordt groter.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een technologische vooruitgang die het aanbod vergroot, kan zowel consumenten als producenten meer surplus geven.",
+        antwoord=True,
+        uitleg="De prijs daalt en de hoeveelheid stijgt; ook producenten kunnen erop winnen door de lagere kosten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom gaat er welvaart verloren als er minder verhandeld wordt dan in het evenwicht?",
+        opties=[
+            "er vinden ruilen niet plaats waarbij koper en verkoper allebei voordeel zouden hebben",
+            "de producenten moeten hogere belastingen betalen",
+            "de consumenten worden gedwongen meer te kopen",
+            "de prijs daalt onder de kosten van alle producenten",
+        ],
+        antwoord=0,
+        uitleg="Dat verloren stuk is de driehoek van het welvaartsverlies.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken passen bij Pareto? Duid alle juiste antwoorden aan.",
+        opties=[
+            "een toestand is efficiënt als niemand erop vooruit kan zonder dat iemand erop achteruitgaat",
+            "een verandering is een verbetering als minstens één iemand erop vooruitgaat en niemand achteruit",
+            "welvaart is pas optimaal als iedereen hetzelfde heeft",
+            "de overheid moet de verdeling van de goederen bepalen",
+        ],
+        antwoord=[0, 1],
+        uitleg="Pareto oordeelt over efficiëntie, niet over gelijkheid.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Volgens Smith zorgt de overheid door overal in te grijpen voor het welvaartsoptimum.",
+        antwoord=False,
+        uitleg="Smith vertrouwde op de vrije markt, met een beperkte rol voor de overheid.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een consument wil maximaal 15 euro betalen voor een concertticket en betaalt 9 euro. Hoeveel is zijn consumentensurplus?",
+        opties=["6 euro", "9 euro", "15 euro", "24 euro"],
+        antwoord=0,
+        uitleg="15 − 9 = 6.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een producent wil minimaal 4 euro voor een stuk en verkoopt het voor 9 euro. Hoeveel is zijn producentensurplus?",
+        opties=["5 euro", "4 euro", "9 euro", "13 euro"],
+        antwoord=0,
+        uitleg="9 − 4 = 5.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het producentensurplus is hetzelfde als de winst van de producenten.",
+        antwoord=False,
+        uitleg="Het surplus houdt geen rekening met de vaste kosten. Het is omzet min variabele kosten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In welk punt is de totale welvaart op een markt met volkomen concurrentie het grootst?",
+        opties=["in het marktevenwicht", "bij de hoogste prijs", "bij de laagste prijs", "waar de vraag nul is"],
+        antwoord=0,
+        uitleg="Daar is de som van beide surplussen maximaal.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wie gebruikte als eerste het begrip consumentensurplus?",
+        opties=["Alfred Marshall", "Adam Smith", "John Maynard Keynes", "Karl Marx"],
+        antwoord=0,
+        uitleg="Daarom spreekt men van het surplus van Marshall.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Als de aanbodcurve naar links verschuift, daalt meestal de totale welvaart op die markt.",
+        antwoord=True,
+        uitleg="De prijs stijgt en er wordt minder verhandeld.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="De marktprijs is 50, de vraagcurve snijdt de prijsas bij 80 en er worden 30 stuks verhandeld. Hoeveel is het consumentensurplus?",
+        opties=["450", "900", "1 500", "2 400"],
+        antwoord=0,
+        uitleg="½ · 30 · (80 − 50) = 450.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="De marktprijs is 50, de aanbodcurve snijdt de prijsas bij 20 en er worden 30 stuks verhandeld. Hoeveel is het producentensurplus?",
+        opties=["450", "900", "600", "1 050"],
+        antwoord=0,
+        uitleg="½ · 30 · (50 − 20) = 450.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een Pareto-verbetering maakt minstens één persoon beter af zonder iemand slechter af te maken.",
+        antwoord=True,
+        uitleg="Zolang zo'n verbetering mogelijk is, is de toestand geen Pareto-optimum.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke delen vormen samen de totale welvaart op een markt zonder overheid? Duid alle juiste antwoorden aan.",
+        opties=["het consumentensurplus", "het producentensurplus", "de totale omzet", "het welvaartsverlies"],
+        antwoord=[0, 1],
+        uitleg="De omzet is een overdracht van koper naar verkoper, het welvaartsverlies juist wat er verloren gaat.",
+    ),
+]

@@ -1,0 +1,373 @@
+# -*- coding: utf-8 -*-
+"""De arbeidsmarkt, werkloosheid en arbeidsmarktindicatoren.
+
+Fiche: vraag- en aanbodzijde van de arbeidsmarkt, inhoudelijk en grafisch;
+beroepsbevolking en bevolking op arbeidsleeftijd; knelpuntberoep;
+onevenwicht grafisch en rekenkundig; werkzaamheidsgraad, activiteitsgraad,
+werkloosheidsgraad; soorten werkloosheid (conjunctureel, structureel,
+seizoens-, frictie-, technische, verdoken) en oorzaken; overheidsmaatregelen
+en hun invloed op vraag en aanbod; Belgische loonnorm en
+concurrentiekracht; automatische loonindexering.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wie vraagt arbeid op de arbeidsmarkt?",
+        opties=["de werkgevers", "de werknemers", "de vakbonden", "de werklozen"],
+        antwoord=0,
+        uitleg="Werkgevers vragen arbeid, werknemers bieden ze aan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe verloopt de vraagcurve naar arbeid?",
+        opties=[
+            "dalend: bij een hoger loon vragen werkgevers minder arbeid",
+            "stijgend: bij een hoger loon vragen werkgevers meer arbeid",
+            "horizontaal: het loon ligt vast",
+            "verticaal: het aantal jobs ligt vast",
+        ],
+        antwoord=0,
+        uitleg="Duurdere arbeid maakt machines of minder personeel aantrekkelijker.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De aanbodcurve van arbeid stijgt: bij een hoger loon willen meer mensen werken.",
+        antwoord=True,
+        uitleg="Een hoger loon maakt werken aantrekkelijker dan vrije tijd of een uitkering.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wie behoort tot de beroepsbevolking?",
+        opties=[
+            "de werkenden en de werklozen",
+            "enkel de werkenden",
+            "iedereen op arbeidsleeftijd",
+            "de werklozen en de gepensioneerden",
+        ],
+        antwoord=0,
+        uitleg="Wie werkt of actief werk zoekt. Studenten en gepensioneerden horen er meestal niet bij.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe bereken je de werkloosheidsgraad?",
+        opties=[
+            "werklozen / beroepsbevolking",
+            "werklozen / bevolking op arbeidsleeftijd",
+            "werkenden / beroepsbevolking",
+            "werklozen / totale bevolking",
+        ],
+        antwoord=0,
+        uitleg="Het aandeel van wie wil werken dat geen werk heeft.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe bereken je de werkzaamheidsgraad?",
+        opties=[
+            "werkenden / bevolking op arbeidsleeftijd",
+            "werkenden / beroepsbevolking",
+            "beroepsbevolking / bevolking op arbeidsleeftijd",
+            "werklozen / beroepsbevolking",
+        ],
+        antwoord=0,
+        uitleg="Het aandeel van de mensen op arbeidsleeftijd dat effectief werkt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe bereken je de activiteitsgraad?",
+        opties=[
+            "beroepsbevolking / bevolking op arbeidsleeftijd",
+            "werkenden / bevolking op arbeidsleeftijd",
+            "werklozen / beroepsbevolking",
+            "werkenden / totale bevolking",
+        ],
+        antwoord=0,
+        uitleg="Het aandeel dat actief is op de arbeidsmarkt: werkend of werkzoekend.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Een regio telt 1 000 000 mensen op arbeidsleeftijd, 700 000 werkenden en 50 000 werklozen. Hoeveel procent is de activiteitsgraad?",
+        antwoord=["75", "75 %", "75%"],
+        uitleg="Beroepsbevolking = 750 000. 750 000 / 1 000 000 = 75 %.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Diezelfde regio: 1 000 000 op arbeidsleeftijd, 700 000 werkenden. Hoeveel procent is de werkzaamheidsgraad?",
+        antwoord=["70", "70 %", "70%"],
+        uitleg="700 000 / 1 000 000 = 70 %.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Diezelfde regio: 700 000 werkenden en 50 000 werklozen. Hoeveel is de werkloosheidsgraad, afgerond?",
+        opties=["6,7 %", "5,0 %", "7,1 %", "75 %"],
+        antwoord=0,
+        uitleg="50 000 / 750 000 ≈ 6,7 %.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De werkloosheidsgraad deelt het aantal werklozen door de hele bevolking op arbeidsleeftijd.",
+        antwoord=False,
+        uitleg="Je deelt door de beroepsbevolking: werkenden plus werklozen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een knelpuntberoep?",
+        opties=[
+            "een beroep waarvoor werkgevers moeilijk mensen vinden",
+            "een beroep met veel werklozen",
+            "een beroep dat binnenkort verdwijnt",
+            "een beroep met een heel laag loon",
+        ],
+        antwoord=0,
+        uitleg="Denk aan verpleegkundigen, leerkrachten of technici.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Het loon ligt boven het evenwichtsloon, bijvoorbeeld door een hoog minimumloon. Wat ontstaat er?",
+        opties=["werkloosheid", "een tekort aan arbeidskrachten", "een nieuw evenwicht zonder problemen", "meer vraag naar arbeid"],
+        antwoord=0,
+        uitleg="Het aanbod van arbeid is groter dan de vraag.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Bij een loon van 15 euro per uur bieden 900 mensen arbeid aan en vragen werkgevers 700 mensen. Hoeveel mensen zijn werkloos?",
+        antwoord=["200", "tweehonderd"],
+        uitleg="900 − 700 = 200.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is frictiewerkloosheid?",
+        opties=[
+            "korte werkloosheid tussen twee jobs",
+            "werkloosheid door een economische crisis",
+            "werkloosheid omdat een sector verdwijnt",
+            "werkloosheid in de winter",
+        ],
+        antwoord=0,
+        uitleg="Het zoeken naar een nieuwe job kost even tijd.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is conjuncturele werkloosheid?",
+        opties=[
+            "werkloosheid door een laagconjunctuur",
+            "werkloosheid tussen twee jobs",
+            "werkloosheid door het seizoen",
+            "werkloosheid omdat diploma's niet passen",
+        ],
+        antwoord=0,
+        uitleg="Bij een recessie daalt de vraag en dus ook de vraag naar arbeid.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is structurele werkloosheid?",
+        opties=[
+            "werkloosheid omdat het profiel van werkzoekenden niet past bij de vacatures",
+            "werkloosheid tijdens een korte recessie",
+            "werkloosheid in de zomer",
+            "werkloosheid tussen twee jobs",
+        ],
+        antwoord=0,
+        uitleg="Bijvoorbeeld als een sector verdwijnt en nieuwe jobs andere vaardigheden vragen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een skileraar zonder werk in de zomer is een voorbeeld van seizoenswerkloosheid.",
+        antwoord=True,
+        uitleg="Het werk hangt af van het seizoen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke soorten werkloosheid noemt men? Duid alle juiste antwoorden aan.",
+        opties=["conjuncturele werkloosheid", "frictiewerkloosheid", "fiscale werkloosheid", "monetaire werkloosheid"],
+        antwoord=[0, 1],
+        uitleg="Ook structurele, seizoens-, technische en verdoken werkloosheid horen erbij.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Als er veel werklozen zijn, kunnen er onmogelijk ook veel openstaande vacatures zijn.",
+        antwoord=False,
+        uitleg="Dat kan wel, en het wijst op structurele werkloosheid: de profielen passen niet bij elkaar.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Een fabriek vervangt kassiers door zelfscankassa's, en de kassiers worden werkloos. Welke werkloosheid?",
+        opties=["technische werkloosheid", "seizoenswerkloosheid", "frictiewerkloosheid", "conjuncturele werkloosheid"],
+        antwoord=0,
+        uitleg="Nieuwe technieken vervangen arbeid.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke maatregel helpt het best tegen structurele werkloosheid?",
+        opties=[
+            "omscholing en opleiding van werkzoekenden",
+            "een tijdelijke verlaging van de btw",
+            "meer seizoensarbeid in de zomer",
+            "een hogere rente van de centrale bank",
+        ],
+        antwoord=0,
+        uitleg="Zo sluiten de vaardigheden beter aan bij de vacatures.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een verlaging van de werkgeversbijdragen voor sociale zekerheid. Wat is het effect op de arbeidsmarkt?",
+        opties=[
+            "de vraag naar arbeid stijgt",
+            "het aanbod van arbeid daalt",
+            "de vraag naar arbeid daalt",
+            "er verandert niets",
+        ],
+        antwoord=0,
+        uitleg="Arbeid wordt goedkoper voor de werkgever: de vraagcurve schuift naar rechts.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een hogere werkbonus maakt werken lonender dan een uitkering. Wat is het effect?",
+        opties=[
+            "het aanbod van arbeid stijgt",
+            "de vraag naar arbeid stijgt",
+            "het aanbod van arbeid daalt",
+            "het minimumloon daalt",
+        ],
+        antwoord=0,
+        uitleg="Meer mensen willen werken: de aanbodcurve schuift naar rechts.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Opleidingen voor werkzoekenden werken vooral langs de aanbodzijde van de arbeidsmarkt.",
+        antwoord=True,
+        uitleg="Ze maken het aanbod van arbeid beter inzetbaar.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de Belgische loonnorm?",
+        opties=[
+            "de maximale loonstijging bovenop de index",
+            "het minimumloon dat elke werknemer moet krijgen",
+            "het gemiddelde brutoloon in België",
+            "de belasting op lonen",
+        ],
+        antwoord=0,
+        uitleg="Ze vergelijkt met Duitsland, Frankrijk en Nederland.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom bestaat de loonnorm?",
+        opties=[
+            "om de concurrentiekracht van Belgische bedrijven te beschermen",
+            "om de lonen zo hoog mogelijk te maken",
+            "om de inflatie van de buurlanden te verlagen",
+            "om de werkloosheidsuitkeringen te betalen",
+        ],
+        antwoord=0,
+        uitleg="Als de loonkosten sneller stijgen dan in de buurlanden, verliezen bedrijven klanten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de automatische loonindexering?",
+        opties=[
+            "lonen stijgen automatisch mee met de prijzen",
+            "lonen stijgen elk jaar met 2 %",
+            "lonen stijgen mee met de winst van het bedrijf",
+            "lonen dalen automatisch bij een recessie",
+        ],
+        antwoord=0,
+        uitleg="De lonen volgen de afgevlakte gezondheidsindex.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De automatische loonindexering beschermt de koopkracht van de werknemers.",
+        antwoord=True,
+        uitleg="Als de prijzen stijgen, stijgen de lonen mee.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De automatische loonindexering heeft geen invloed op de concurrentiekracht van bedrijven.",
+        antwoord=False,
+        uitleg="Bij hoge inflatie stijgen de loonkosten snel, wat de concurrentiekracht tegenover het buitenland kan schaden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke gevolgen kan de automatische loonindexering hebben? Duid alle juiste antwoorden aan.",
+        opties=[
+            "de koopkracht van werknemers blijft behouden",
+            "de loonkosten voor bedrijven stijgen bij inflatie",
+            "de lonen dalen bij inflatie",
+            "de prijzen dalen automatisch",
+        ],
+        antwoord=[0, 1],
+        uitleg="Daardoor kan de werkgelegenheid onder druk komen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke maatregel pakt conjuncturele werkloosheid aan?",
+        opties=[
+            "de bestedingen stimuleren in een recessie",
+            "opleidingen voor knelpuntberoepen",
+            "een vacaturedatabank",
+            "meer seizoensjobs in de zomer",
+        ],
+        antwoord=0,
+        uitleg="Als de vraag naar goederen herstelt, stijgt ook de vraag naar arbeid.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een vacaturedatabank brengt werkzoekenden en werkgevers sneller samen. Welke werkloosheid daalt vooral?",
+        opties=["frictiewerkloosheid", "conjuncturele werkloosheid", "seizoenswerkloosheid", "technische werkloosheid"],
+        antwoord=0,
+        uitleg="Het zoeken naar een nieuwe job gaat sneller.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een gepensioneerde behoort tot de beroepsbevolking.",
+        antwoord=False,
+        uitleg="Wie niet werkt en geen werk zoekt, behoort niet tot de beroepsbevolking.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een land heeft een beroepsbevolking van 5 miljoen en 400 000 werklozen. Hoeveel is de werkloosheidsgraad?",
+        opties=["8 %", "4 %", "12,5 %", "92 %"],
+        antwoord=0,
+        uitleg="400 000 / 5 000 000 = 8 %.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Als ontmoedigde werklozen stoppen met zoeken, kan de werkloosheidsgraad dalen zonder dat er meer mensen werken.",
+        antwoord=True,
+        uitleg="Ze verdwijnen uit de beroepsbevolking. Daarom kijkt men ook naar de werkzaamheidsgraad.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat stelt het snijpunt van vraag en aanbod op de arbeidsmarkt voor?",
+        opties=["het evenwichtsloon en de evenwichtstewerkstelling", "het minimumloon", "de werkloosheidsgraad", "de loonnorm"],
+        antwoord=0,
+        uitleg="Bij dat loon willen evenveel mensen werken als er gevraagd worden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke maatregelen verhogen de vraag naar arbeid? Duid alle juiste antwoorden aan.",
+        opties=[
+            "lagere loonlasten voor werkgevers",
+            "loonsubsidies bij aanwerving van langdurig werklozen",
+            "hogere sociale bijdragen voor werkgevers",
+            "een strengere loonnorm voor werknemers",
+        ],
+        antwoord=[0, 1],
+        uitleg="Hogere bijdragen maken arbeid duurder. De loonnorm beperkt loonstijgingen, maar verhoogt de vraag niet rechtstreeks.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij een tekort aan arbeidskrachten ligt het loon onder het evenwichtsloon.",
+        antwoord=True,
+        uitleg="Werkgevers vragen dan meer arbeid dan er wordt aangeboden.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De werkzaamheidsgraad is altijd hoger dan de activiteitsgraad.",
+        antwoord=False,
+        uitleg="Omgekeerd: de activiteitsgraad telt ook de werklozen mee en is dus hoger.",
+    ),
+]

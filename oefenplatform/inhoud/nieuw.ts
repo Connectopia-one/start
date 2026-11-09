@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "9 november 2026",
+    titel: "Algemene economie voor Beyond doorstroom",
+    tekst:
+      "Beyond doorstroom heeft nu algemene economie, voor economie-wiskunde en bedrijfswetenschappen. Er zijn 40 hoofdstukken met 800 vragen, van de economische kringloop en de markt tot geld, inflatie, internationale handel en economisch onderzoek.",
+    link: { tekst: "Naar economie", href: "/niveaus/beyond-doorstroom/economie" },
+  },
+  {
+    datum: "9 november 2026",
     titel: "Wiskunde basis voor Beyond doorstroom",
     tekst:
       "Beyond doorstroom heeft nu ook wiskunde basis, voor humane wetenschappen, moderne talen, Latijn-moderne talen, welzijnswetenschappen en bedrijfswetenschappen. Kies bovenaan het vak voor welke richting je leert. Kies je welzijnswetenschappen, dan laten we tweedegraadsfuncties en tweedegraadsvergelijkingen weg, want jouw examen vraagt ze niet. Kies je bedrijfswetenschappen, dan krijg je er 14 hoofdstukken bij, onder andere integralen, matrices en hypothesetoetsen. De uitleg over welke vakken bij welke richting horen, staat nu dichtgeklapt bovenaan Beyond doorstroom.",

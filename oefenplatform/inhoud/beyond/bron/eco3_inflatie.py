@@ -1,0 +1,375 @@
+# -*- coding: utf-8 -*-
+"""Inflatie, deflatie en prijsstabiliteit.
+
+Fiche: inflatie, deflatie, stagflatie; soorten inflatie (bestedings- of
+vraaginflatie, kosten- of aanbodinflatie, importinflatie, monetaire,
+structurele, conjuncturele inflatie, krimpflatie, beknibbelflatie);
+oorzaken en gevolgen van inflatie en deflatie; inflatiemaatstaven (CPI,
+HICP, gezondheidsindex, afgevlakte gezondheidsindex, bbp-deflator);
+spilindex; inflatie berekenen op basis van de CPI; ruilvergelijking van
+Fisher; monetair beleid van de ECB voor prijsstabiliteit; rechtstreeks en
+onrechtstreeks prijsbeleid van de nationale overheid.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is inflatie?",
+        opties=[
+            "een algemene en aanhoudende stijging van het prijspeil",
+            "een prijsstijging van één enkel product in de winkel",
+            "een daling van de lonen van alle werknemers",
+            "een stijging van de export naar het buitenland",
+        ],
+        antwoord=0,
+        uitleg="Met hetzelfde geld kan je minder kopen: de koopkracht daalt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is stagflatie?",
+        opties=[
+            "inflatie samen met een stilstaande economie en werkloosheid",
+            "een daling van alle prijzen tijdens een crisis",
+            "sterke economische groei zonder enige inflatie",
+            "een stabiele munt met een lage rente erbij",
+        ],
+        antwoord=0,
+        uitleg="Bijvoorbeeld na de oliecrisissen van de jaren zeventig.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Deflatie is een algemene daling van het prijspeil.",
+        antwoord=True,
+        uitleg="Het omgekeerde van inflatie.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="De vraag in de economie is groter dan wat er geproduceerd kan worden, en de prijzen stijgen. Welke inflatie?",
+        opties=["bestedingsinflatie", "kosteninflatie", "importinflatie", "krimpflatie"],
+        antwoord=0,
+        uitleg="Ook vraaginflatie genoemd.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Lonen en grondstoffen worden duurder, en bedrijven rekenen dat door in hun prijzen. Welke inflatie?",
+        opties=["kosteninflatie", "bestedingsinflatie", "monetaire inflatie", "beknibbelflatie"],
+        antwoord=0,
+        uitleg="Ook aanbodinflatie genoemd.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="De prijs van ingevoerd aardgas verdubbelt. Welke inflatie ontstaat er?",
+        opties=["importinflatie", "structurele inflatie", "krimpflatie", "conjuncturele inflatie"],
+        antwoord=0,
+        uitleg="De prijsstijging komt uit het buitenland.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is krimpflatie (shrinkflation)?",
+        opties=[
+            "de verpakking wordt kleiner, de prijs blijft gelijk",
+            "de prijs daalt en de verpakking blijft gelijk",
+            "de kwaliteit stijgt bij dezelfde prijs",
+            "de economie krimpt",
+        ],
+        antwoord=0,
+        uitleg="Een reep chocolade van 200 g wordt 180 g voor dezelfde prijs.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is beknibbelflatie?",
+        opties=[
+            "de kwaliteit of service daalt, de prijs blijft gelijk",
+            "de verpakking wordt groter, de prijs blijft gelijk",
+            "de prijs daalt elke maand",
+            "de overheid knibbelt op de lonen",
+        ],
+        antwoord=0,
+        uitleg="Bijvoorbeeld een hotel dat de kamer minder vaak poetst aan dezelfde prijs.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wie verliest bij een onverwacht hoge inflatie? Duid alle juiste antwoorden aan.",
+        opties=[
+            "spaarders met een lage rente",
+            "mensen met een vast inkomen dat niet geïndexeerd wordt",
+            "schuldenaars met een vaste rente",
+            "eigenaars van goederen die in waarde stijgen",
+        ],
+        antwoord=[0, 1],
+        uitleg="Schuldenaars winnen: hun schuld wordt in reële termen kleiner.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij deflatie stellen consumenten aankopen vaak uit, wat de economie verder kan afremmen.",
+        antwoord=True,
+        uitleg="Ze wachten op nog lagere prijzen. Dat drukt de vraag.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij deflatie wordt een schuld met vaste rente lichter om te dragen.",
+        antwoord=False,
+        uitleg="Ze wordt zwaarder: het geld waarmee je terugbetaalt, is meer waard.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="De CPI was vorig jaar 120 en is nu 126. Hoeveel procent bedraagt de inflatie?",
+        antwoord=["5", "5 %", "5%"],
+        uitleg="(126 − 120) / 120 · 100 = 5 %.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat meet de consumptieprijsindex (CPI)?",
+        opties=[
+            "de prijzen van wat gezinnen kopen",
+            "de evolutie van de lonen van alle werknemers",
+            "de evolutie van de beurskoersen in Brussel",
+            "de groei van het bbp van het land",
+        ],
+        antwoord=0,
+        uitleg="Statbel berekent de Belgische CPI elke maand.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom bestaat de HICP (geharmoniseerde consumptieprijsindex)?",
+        opties=[
+            "om de inflatie tussen EU-landen te kunnen vergelijken",
+            "om de lonen in België te indexeren",
+            "om de beurskoersen te meten",
+            "om de prijzen van woningen te meten",
+        ],
+        antwoord=0,
+        uitleg="Alle EU-landen berekenen hem op dezelfde manier. De ECB gebruikt hem voor haar doel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke producten zitten niet in de gezondheidsindex? Duid alle juiste antwoorden aan.",
+        opties=["tabak", "benzine en diesel", "brood", "huur"],
+        antwoord=[0, 1],
+        uitleg="Ook alcoholische dranken zijn eruit gehaald.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de afgevlakte gezondheidsindex?",
+        opties=[
+            "het gemiddelde van de laatste vier maanden",
+            "de gezondheidsindex zonder de prijzen van voeding",
+            "de CPI van de buurlanden",
+            "de index van de prijzen in ziekenhuizen en apotheken",
+        ],
+        antwoord=0,
+        uitleg="Hij dient voor de indexering van lonen en uitkeringen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de spilindex?",
+        opties=[
+            "een drempel: als de afgevlakte gezondheidsindex hem overschrijdt, worden uitkeringen en ambtenarenlonen aangepast",
+            "de hoogste waarde die de CPI ooit had",
+            "de index van de beurs van Brussel",
+            "de rente die de ECB vraagt",
+        ],
+        antwoord=0,
+        uitleg="Daarna wordt een nieuwe spilindex vastgelegd, 2 % hoger.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De bbp-deflator meet de prijsevolutie van alles wat in een land geproduceerd wordt.",
+        antwoord=True,
+        uitleg="Hij is breder dan de CPI, die enkel de consumptie van gezinnen volgt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke inflatie volgt de hoog- en laagconjunctuur?",
+        opties=["conjuncturele inflatie", "structurele inflatie", "importinflatie", "krimpflatie"],
+        antwoord=0,
+        uitleg="In een hoogconjunctuur stijgen de prijzen sneller.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Krimpflatie herken je meteen aan een hogere prijs op het etiket.",
+        antwoord=False,
+        uitleg="De prijs op het etiket blijft gelijk. Je ziet het wel aan de prijs per kilo.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Hoe luidt de ruilvergelijking van Fisher?",
+        opties=["M · V = P · T", "M + V = P + T", "M / V = P / T", "P = M − V"],
+        antwoord=0,
+        uitleg="Geldhoeveelheid maal omloopsnelheid = prijspeil maal transactievolume.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat stelt V voor in de ruilvergelijking van Fisher?",
+        opties=[
+            "de omloopsnelheid van het geld",
+            "het volume van de productie",
+            "de waarde van de munt",
+            "de verkoopprijs",
+        ],
+        antwoord=0,
+        uitleg="Hoe vaak een euro gemiddeld per jaar van eigenaar wisselt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Volgens Fisher: V en T blijven gelijk en de geldhoeveelheid verdubbelt. Wat gebeurt er met het prijspeil?",
+        opties=["het verdubbelt", "het halveert", "het blijft gelijk", "het wordt nul"],
+        antwoord=0,
+        uitleg="Dat is monetaire inflatie: meer geld voor dezelfde goederen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Monetaire inflatie ontstaat als de geldhoeveelheid sneller stijgt dan de productie.",
+        antwoord=True,
+        uitleg="Er komt meer geld voor dezelfde hoeveelheid goederen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk inflatiedoel streeft de ECB na?",
+        opties=[
+            "2 % op middellange termijn",
+            "0 % elk jaar",
+            "5 % per jaar",
+            "zo hoog mogelijk",
+        ],
+        antwoord=0,
+        uitleg="Gemeten met de HICP voor de hele eurozone.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe remt de ECB een te hoge inflatie af?",
+        opties=[
+            "ze verhoogt de beleidsrente",
+            "ze verlaagt de beleidsrente",
+            "ze drukt meer bankbiljetten",
+            "ze verlaagt de btw",
+        ],
+        antwoord=0,
+        uitleg="Lenen wordt duurder, bestedingen dalen, de druk op de prijzen neemt af.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De ECB kan de btw-tarieven in België verlagen om de inflatie te bestrijden.",
+        antwoord=False,
+        uitleg="Belastingen zijn een bevoegdheid van de nationale overheid. De ECB werkt met de rente.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke maatregel is rechtstreeks prijsbeleid van de nationale overheid?",
+        opties=[
+            "een maximumprijs voor energie vastleggen",
+            "de rente verhogen",
+            "de concurrentie bevorderen",
+            "de lonen matigen via de loonnorm",
+        ],
+        antwoord=0,
+        uitleg="De overheid grijpt dan rechtstreeks in op de prijs.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke maatregelen zijn onrechtstreeks prijsbeleid? Duid alle juiste antwoorden aan.",
+        opties=[
+            "de btw op energie verlagen",
+            "meer concurrentie op een markt toelaten",
+            "een maximumprijs voor brood opleggen",
+            "de prijs van elektriciteit vastleggen",
+        ],
+        antwoord=[0, 1],
+        uitleg="De andere twee grijpen rechtstreeks in op de prijs.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een gevolg van inflatie voor de concurrentiekracht van een land?",
+        opties=[
+            "als de prijzen sneller stijgen dan in het buitenland, wordt de export duurder",
+            "de export wordt altijd goedkoper",
+            "de import wordt duurder voor buitenlanders",
+            "er is geen verband",
+        ],
+        antwoord=0,
+        uitleg="Zeker bij automatische loonindexering stijgen de kosten mee.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="De CPI daalt van 150 naar 147. Hoeveel procent bedraagt de prijsverandering? Schrijf het teken erbij.",
+        antwoord=["-2", "−2", "-2 %", "−2 %", "min 2"],
+        uitleg="(147 − 150) / 150 · 100 = −2 %: deflatie.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Structurele inflatie hangt samen met blijvende kenmerken van een economie, zoals weinig concurrentie of automatische koppelingen.",
+        antwoord=True,
+        uitleg="Ze verdwijnt niet vanzelf als de conjunctuur verandert.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom wordt de gezondheidsindex gebruikt in plaats van de gewone CPI voor de loonindexering?",
+        opties=[
+            "om te vermijden dat duurdere tabak, alcohol en brandstof de lonen opdrijven",
+            "omdat de CPI te laag is",
+            "omdat de CPI niet bestaat in België",
+            "omdat de ECB dat verplicht",
+        ],
+        antwoord=0,
+        uitleg="Zo werkt een hogere accijns op tabak niet door in de lonen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een bedrijf houdt de prijs van een fles shampoo gelijk, maar vult ze met 400 ml in plaats van 500 ml. Hoeveel procent steeg de prijs per milliliter?",
+        opties=["25 %", "20 %", "10 %", "0 %"],
+        antwoord=0,
+        uitleg="Dezelfde prijs voor 4/5 van de inhoud: per milliliter 5/4 = 1,25 keer zo duur.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij stagflatie werkt een renteverhoging tegelijk tegen de inflatie en voor meer groei.",
+        antwoord=False,
+        uitleg="Een hogere rente remt de inflatie, maar remt ook de groei. Dat maakt stagflatie zo lastig.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat zijn mogelijke oorzaken van deflatie? Duid alle juiste antwoorden aan.",
+        opties=[
+            "een sterke daling van de vraag in een crisis",
+            "sterk dalende grondstofprijzen",
+            "een sterke stijging van de geldhoeveelheid",
+            "hoge loonstijgingen",
+        ],
+        antwoord=[0, 1],
+        uitleg="Een stijgende geldhoeveelheid en hoge loonstijgingen duwen de prijzen net omhoog.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat betekent een inflatie van 3 % voor iemand met een loon dat niet stijgt?",
+        opties=[
+            "zijn koopkracht daalt met ongeveer 3 %",
+            "zijn koopkracht stijgt met 3 %",
+            "zijn koopkracht blijft gelijk",
+            "zijn loon stijgt automatisch met 3 %",
+        ],
+        antwoord=0,
+        uitleg="Met hetzelfde loon kan hij minder kopen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De bbp-deflator houdt ook rekening met de prijzen van investeringsgoederen en overheidsdiensten.",
+        antwoord=True,
+        uitleg="Hij volgt de prijzen van alles wat in het bbp zit.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een sterke stijging van de overheidsuitgaven tijdens een hoogconjunctuur kan leiden tot ...",
+        opties=["bestedingsinflatie", "importinflatie", "deflatie", "krimpflatie"],
+        antwoord=0,
+        uitleg="De vraag wordt nog groter dan de productiecapaciteit.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De spilindex wordt gebruikt om de Belgische beurskoersen te berekenen.",
+        antwoord=False,
+        uitleg="Hij is een drempel voor de indexering van uitkeringen en ambtenarenlonen.",
+    ),
+]

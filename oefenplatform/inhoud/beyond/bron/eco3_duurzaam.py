@@ -1,0 +1,372 @@
+# -*- coding: utf-8 -*-
+"""Alternatieve economische modellen, MVO en de SDG's.
+
+Fiche: tekortkomingen van het klassieke kringloop- of groeimodel;
+circulaire economie, donuteconomie, deeleconomie, sociale economie en hun
+voordelen; duurzaamheid, duurzame ontwikkelingsdoelen, duurzaam ondernemen
+of MVO en de pijlers van MVO; SDG's en hun kernwaarden toepassen;
+greenwashing.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de kern van de circulaire economie?",
+        opties=[
+            "grondstoffen zo lang mogelijk hergebruiken in plaats van ze weg te gooien",
+            "zo veel mogelijk produceren om de economie te laten groeien",
+            "enkel producten uit eigen land kopen en verkopen",
+            "spullen delen met buren zonder dat er geld aan te pas komt",
+        ],
+        antwoord=0,
+        uitleg="De lijn nemen, maken, weggooien wordt een kring: herstellen, hergebruiken, recycleren.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat stellen de twee ringen van de donuteconomie voor?",
+        opties=[
+            "een sociaal fundament en een ecologisch plafond",
+            "de export en de import van een land",
+            "de vraag en het aanbod op de markt",
+            "de rijke en de arme landen van de wereld",
+        ],
+        antwoord=0,
+        uitleg="Daartussen ligt de veilige en rechtvaardige ruimte: niemand tekort, en de aarde niet uitgeput.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="In de donuteconomie is economische groei op zich het doel.",
+        antwoord=False,
+        uitleg="Het doel is binnen de donut blijven: in ieders basisbehoeften voorzien zonder de grenzen van de planeet te overschrijden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk voorbeeld hoort bij de deeleconomie?",
+        opties=[
+            "een autodeelsysteem waarbij je een auto per uur huurt",
+            "een fabriek die oude flessen omsmelt tot nieuwe",
+            "een bedrijf dat mensen met een beperking tewerkstelt",
+            "een bank die enkel in groene bedrijven belegt",
+        ],
+        antwoord=0,
+        uitleg="Bij de deeleconomie gebruik je iets samen in plaats van het zelf te bezitten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat staat centraal in de sociale economie?",
+        opties=[
+            "werk voor mensen die moeilijk een job vinden",
+            "zo hoog mogelijke winst voor de aandeelhouders",
+            "producten zonder verpakking verkopen",
+            "lenen en uitlenen via een app",
+        ],
+        antwoord=0,
+        uitleg="Denk aan maatwerkbedrijven en kringwinkels: mensen gaan voor winst.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een kringwinkel kan zowel bij de circulaire als bij de sociale economie horen.",
+        antwoord=True,
+        uitleg="Spullen krijgen een tweede leven, en vaak werken er mensen uit de sociale economie.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat zijn voordelen van de circulaire economie? Duid alle juiste antwoorden aan.",
+        opties=[
+            "minder afval",
+            "minder nood aan nieuwe grondstoffen",
+            "meer wegwerpproducten",
+            "hogere uitstoot door productie",
+        ],
+        antwoord=[0, 1],
+        uitleg="Hergebruik vermindert afval en de vraag naar nieuwe grondstoffen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat betekent duurzame ontwikkeling?",
+        opties=[
+            "voorzien in de behoeften van nu zonder die van later in gevaar te brengen",
+            "zo snel mogelijk groeien zodat er later meer te verdelen is",
+            "enkel nog producten maken die lang meegaan",
+            "de natuur beschermen, ook als mensen daardoor tekortkomen",
+        ],
+        antwoord=0,
+        uitleg="Dat is de bekende omschrijving uit het Brundtland-rapport.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoeveel duurzame ontwikkelingsdoelen (SDG's) zijn er? Schrijf het getal.",
+        antwoord=["17", "zeventien"],
+        uitleg="De Verenigde Naties legden in 2015 17 doelen vast voor 2030.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke vijf kernwaarden (de 5 P's) groeperen de SDG's?",
+        opties=[
+            "People, Planet, Prosperity, Peace en Partnership",
+            "Price, Product, Place, Promotion en People",
+            "People, Planet, Profit, Power en Progress",
+            "Peace, Politics, Prosperity, Planet en Pollution",
+        ],
+        antwoord=0,
+        uitleg="Mensen, planeet, welvaart, vrede en samenwerking.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat zijn de drie pijlers van MVO (maatschappelijk verantwoord ondernemen)?",
+        opties=[
+            "People, Planet en Profit",
+            "Prijs, Product en Plaats",
+            "Personeel, Productie en Promotie",
+            "Peace, Partnership en Prosperity",
+        ],
+        antwoord=0,
+        uitleg="Een duurzame onderneming let op mensen, milieu en winst samen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij MVO mag een bedrijf geen winst maken.",
+        antwoord=False,
+        uitleg="Profit is een van de drie pijlers. Het gaat om evenwicht met mens en milieu.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is greenwashing?",
+        opties=[
+            "een bedrijf doet zich groener voor dan het is",
+            "een bedrijf schakelt over op groene stroom",
+            "de overheid geeft subsidies voor groene projecten",
+            "een land plant bomen om zijn uitstoot te compenseren",
+        ],
+        antwoord=0,
+        uitleg="Bijvoorbeeld een groen blaadje op een verpakking zonder dat er echt iets verandert.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een kledingketen zet 'bewuste collectie' op een klein deel van haar kleren en adverteert daar zwaar mee, terwijl de rest niet verandert. Hoe heet dat?",
+        opties=["greenwashing", "circulaire economie", "deeleconomie", "sociale economie"],
+        antwoord=0,
+        uitleg="Het groene imago is groter dan de echte inspanning.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk SDG past het best bij een school die gratis ontbijt geeft aan kinderen die zonder eten komen?",
+        opties=["geen honger", "betaalbare en duurzame energie", "leven op het land", "klimaatactie"],
+        antwoord=0,
+        uitleg="SDG 2 is 'geen honger'. Ook 'kwaliteitsonderwijs' zou je kunnen noemen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De SDG's gelden enkel voor arme landen.",
+        antwoord=False,
+        uitleg="Ze gelden voor alle landen, ook voor België.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke voorbeelden passen bij de pijler 'People' van MVO? Duid alle juiste antwoorden aan.",
+        opties=[
+            "goede werkomstandigheden voor het personeel",
+            "eerlijke lonen bij leveranciers",
+            "zonnepanelen op het dak",
+            "een hogere dividenduitkering",
+        ],
+        antwoord=[0, 1],
+        uitleg="Zonnepanelen horen bij Planet, dividenden bij Profit.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="In de deeleconomie gaat het meer om toegang tot een product dan om het bezit ervan.",
+        antwoord=True,
+        uitleg="Je gebruikt een boormachine, auto of fiets wanneer je ze nodig hebt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom zorgt de deeleconomie voor duurzamere ontwikkeling?",
+        opties=[
+            "er zijn minder producten nodig voor hetzelfde gebruik",
+            "er worden meer nieuwe producten gekocht",
+            "de prijzen stijgen, zodat mensen minder kopen",
+            "de overheid verbiedt het bezit van auto's",
+        ],
+        antwoord=0,
+        uitleg="Eén deelauto vervangt verschillende auto's die anders vaak stilstaan.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het klassieke groeimodel gaat ervan uit dat de productie onbeperkt kan blijven groeien.",
+        antwoord=True,
+        uitleg="Precies daarom zoeken alternatieve modellen naar groei binnen de grenzen van de planeet.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Een fabrikant verhuurt wasmachines in plaats van ze te verkopen en neemt ze terug om te herstellen. Bij welk model past dat het best?",
+        opties=["circulaire economie", "sociale economie", "donuteconomie", "klassieke kringloop"],
+        antwoord=0,
+        uitleg="Product als dienst: de fabrikant heeft er belang bij dat het toestel lang meegaat.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat ligt in de donuteconomie onder het sociaal fundament?",
+        opties=[
+            "tekorten, zoals honger of geen toegang tot onderwijs",
+            "overschrijding van de grenzen van de planeet",
+            "de veilige en rechtvaardige ruimte",
+            "de winst van de bedrijven",
+        ],
+        antwoord=0,
+        uitleg="Binnen het gat van de donut hebben mensen te weinig om goed te leven.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat ligt in de donuteconomie boven het ecologisch plafond?",
+        opties=[
+            "overschrijding van de grenzen van de planeet, zoals klimaatverandering",
+            "een tekort aan voedsel en water voor de mensen",
+            "de veilige en rechtvaardige ruimte voor iedereen",
+            "de groei van het bbp per inwoner van een land",
+        ],
+        antwoord=0,
+        uitleg="Daar put de mens de aarde uit.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Recycleren is in de circulaire economie de eerste keuze, nog vóór herstellen en hergebruiken.",
+        antwoord=False,
+        uitleg="Recycleren kost meer energie. Eerst komen minder gebruiken, hergebruiken en herstellen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk SDG past bij een bedrijf dat zijn uitstoot van broeikasgassen halveert?",
+        opties=["klimaatactie", "geen armoede", "gendergelijkheid", "vrede, justitie en sterke instellingen"],
+        antwoord=0,
+        uitleg="SDG 13 is klimaatactie.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Bij welke kernwaarde (P) van de SDG's hoort 'gendergelijkheid'?",
+        opties=["People", "Planet", "Prosperity", "Partnership"],
+        antwoord=0,
+        uitleg="People gaat over waardig leven voor iedereen: armoede, honger, gezondheid, onderwijs en gelijkheid.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Bij welke kernwaarde hoort 'partnerschap om de doelen te bereiken'?",
+        opties=["Partnership", "Peace", "Prosperity", "Planet"],
+        antwoord=0,
+        uitleg="SDG 17 gaat over samenwerking tussen landen, bedrijven en organisaties.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="MVO betekent dat een bedrijf rekening houdt met de gevolgen van zijn activiteiten voor mens en milieu.",
+        antwoord=True,
+        uitleg="En dat het die zorg verder doortrekt dan wat de wet verplicht.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke voorbeelden passen bij de pijler 'Planet' van MVO? Duid alle juiste antwoorden aan.",
+        opties=[
+            "minder verpakkingsmateriaal",
+            "elektrische bedrijfswagens",
+            "opleidingen voor het personeel",
+            "een hogere omzet",
+        ],
+        antwoord=[0, 1],
+        uitleg="Opleidingen horen bij People, omzet bij Profit.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe herken je greenwashing? Duid alle juiste antwoorden aan.",
+        opties=[
+            "vage woorden zoals 'natuurlijk' of 'eco' zonder bewijs",
+            "een groen logo zonder erkend label",
+            "een erkend label met duidelijke controle",
+            "cijfers over de uitstoot die een onafhankelijke partij nakeek",
+        ],
+        antwoord=[0, 1],
+        uitleg="Een erkend label en onafhankelijk nagekeken cijfers zijn juist tekenen van echte inspanning.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een maatwerkbedrijf dat mensen met een arbeidshandicap tewerkstelt, hoort bij de sociale economie.",
+        antwoord=True,
+        uitleg="Werk voor kwetsbare groepen staat er centraal.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een voordeel van de sociale economie?",
+        opties=[
+            "mensen die moeilijk werk vinden, krijgen een job en inkomen",
+            "de bedrijven halen een hogere winst dan gewone bedrijven",
+            "er hoeft niemand meer belastingen te betalen",
+            "alle producten worden gratis aangeboden",
+        ],
+        antwoord=0,
+        uitleg="Ze verkleint uitsluiting en geeft mensen een plaats in de samenleving.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een stad zet een gereedschapsbibliotheek op waar inwoners boren en ladders lenen. Welk model?",
+        opties=["deeleconomie", "donuteconomie", "klassieke kringloop", "monetaire economie"],
+        antwoord=0,
+        uitleg="Inwoners delen gereedschap in plaats van het elk te kopen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De donuteconomie meet succes vooral met de groei van het bbp.",
+        antwoord=False,
+        uitleg="Ze meet of een samenleving binnen het sociaal fundament en het ecologisch plafond blijft.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke tekortkoming van het klassieke kringloopmodel lossen de alternatieve modellen op?",
+        opties=[
+            "het model ziet de schade aan natuur en mens niet",
+            "het model telt de lonen dubbel",
+            "het model heeft geen plaats voor de overheid",
+            "het model kent geen export of import",
+        ],
+        antwoord=0,
+        uitleg="Afval, uitputting en ongelijkheid blijven in het klassieke model buiten beeld.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een chocoladebedrijf betaalt cacaoboeren een eerlijke prijs. Welk SDG past daar het best bij?",
+        opties=["geen armoede", "leven in het water", "betaalbare en duurzame energie", "klimaatactie"],
+        antwoord=0,
+        uitleg="Een eerlijke prijs helpt boeren uit de armoede. Ook 'waardig werk en economische groei' past.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Duurzaam ondernemen en MVO betekenen in de economie ongeveer hetzelfde.",
+        antwoord=True,
+        uitleg="Beide gaan over ondernemen met aandacht voor mens, milieu en winst.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke SDG-kernwaarde past bij 'waardig werk en economische groei'?",
+        opties=["Prosperity", "Planet", "Peace", "People"],
+        antwoord=0,
+        uitleg="Prosperity gaat over welvaart in harmonie met de natuur.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een vliegmaatschappij zegt 'klimaatneutraal vliegen' omdat je voor 2 euro bomen kan laten planten, zonder te zeggen hoe ze dat controleert. Wat is het probleem?",
+        opties=[
+            "het kan greenwashing zijn: een groot groen beeld zonder bewijs",
+            "het is circulaire economie, dus er is geen probleem",
+            "het hoort bij de deeleconomie",
+            "bomen planten is altijd verboden voor bedrijven",
+        ],
+        antwoord=0,
+        uitleg="Zonder controle weet je niet of de uitstoot echt gecompenseerd wordt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De SDG's moeten tegen 2050 bereikt zijn.",
+        antwoord=False,
+        uitleg="De agenda loopt van 2015 tot 2030.",
+    ),
+]
