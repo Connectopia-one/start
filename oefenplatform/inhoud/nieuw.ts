@@ -40,6 +40,13 @@ export const nieuwTekst = {
 
 export const updates: Update[] = [
   {
+    datum: "9 november 2026",
+    titel: "Gratis werkbladen: denkfouten bij breuken en procenten",
+    tekst:
+      "Bij Handig materiaal staan twee nieuwe werkbladen om af te drukken: de 8 meest gemaakte denkfouten bij breuken en bij procenten, met voor elke fout een tip om ze uit te leggen. Daarbij hoort een oefenblad \"Word jij foutenspeurder?\", waarin je kind zelf de fouten zoekt, met de oplossingen erbij. Er staan ook twee nieuwe gratis wiskundesites bij.",
+    link: { tekst: "Naar Handig materiaal", href: "/materiaal" },
+  },
+  {
     datum: "8 november 2026",
     titel: "Welzijnswetenschappen nu bij natuurwetenschappen",
     tekst:
