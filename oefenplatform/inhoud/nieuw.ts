@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "9 november 2026",
+    titel: "Vier rustige spellen voor de lagere school",
+    tekst:
+      "Bij de educatieve spellen staan vier nieuwe spellen voor de lagere school: Breukenpizza, Foutenspeurder, Tijdlijn leggen en Kaartpuzzel. Ze zijn bewust rustig gemaakt: geen klok, geen geluid, geen punten en geen ranglijst. Wie een fout maakt, krijgt een korte tip en gaat zelf verder als hij of zij er klaar voor is.",
+    link: { tekst: "Naar de educatieve spellen", href: "/extras/spellen" },
+  },
+  {
+    datum: "9 november 2026",
     titel: "Geschiedenis Beyond: pittige hoofdstukken en nieuwe onderwerpen",
     tekst:
       "Geschiedenis in Beyond heeft nu pittige hoofdstukken in de vorm van het examen. Er zijn ook nieuwe hoofdstukken over China, Israël-Palestina, de kunststromingen en kunst analyseren. De begrippenarena geschiedenis heeft nu ook een niveau Beyond.",

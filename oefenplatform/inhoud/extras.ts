@@ -126,6 +126,12 @@ export const spellen: Spel[] = [
   { slug: "begrippenarena-natuur", icoon: "🔬", titel: "Begrippenarena Natuurwetenschappen" },
   { slug: "begrippenarena-wiskunde", icoon: "📐", titel: "Begrippenarena Wiskunde" },
   { slug: "wiskunde-dimensie", icoon: "🤖", titel: "De Wiskunde-dimensie" },
+  /* Prikkelarme spellen voor het lager (Kim, 9 november 2026): geen klok,
+     geen geluid, geen punten, een rustige tip bij een fout. */
+  { slug: "breukenpizza", icoon: "🍕", titel: "Breukenpizza" },
+  { slug: "foutenspeurder", icoon: "🔍", titel: "Foutenspeurder" },
+  { slug: "tijdlijn", icoon: "🕰️", titel: "Tijdlijn leggen" },
+  { slug: "kaartpuzzel", icoon: "🗺️", titel: "Kaartpuzzel" },
 ];
 
 /*
@@ -170,6 +176,34 @@ export const spelKaarten: SpelKaart[] = [
     niveau: "🌱 Start · vier niveaus, van starter tot genie",
     tekst:
       "Een game van Mats. Robothond Tollie en kat Majol verslaan de monsters uit de anti-wiskunde-dimensie met plus en min, maal en delen en getallenreeksen. Wie veel goed heeft na elkaar, krijgt vanzelf moeilijkere sommen. Geen tijdslimiet.",
+  },
+  {
+    spel: "breukenpizza",
+    school: "lager",
+    niveau: "🧱 Basis en 🌱 Start · rustig spel",
+    tekst:
+      "Welke breuk zie je op de pizza? Of kleur zelf de stukken in tot je dezelfde breuk hebt. Geen klok en geen punten, wel een tip als je even vastzit.",
+  },
+  {
+    spel: "foutenspeurder",
+    school: "lager",
+    niveau: "🌱 Start · 5de en 6de leerjaar · rustig spel",
+    tekst:
+      "In elke berekening zit één foute stap. Tik hem aan en lees waarom hij fout is. Met breuken, procenten en rekenen en meten.",
+  },
+  {
+    spel: "tijdlijn",
+    school: "lager",
+    niveau: "🌱 Start · 5de en 6de leerjaar · rustig spel",
+    tekst:
+      "Zet de kaartjes in de juiste volgorde, van vroeger naar nu: de grote periodes, de oudheid, de geschiedenis van ons land en uitvindingen.",
+  },
+  {
+    spel: "kaartpuzzel",
+    school: "lager",
+    niveau: "🧱 Basis en 🌱 Start · rustig spel",
+    tekst:
+      "Zoek de provincies van België of de landen van Europa op een lege kaart. Tik je mis, dan hoor je in welke richting je moet zoeken.",
   },
 
   /* Middelbare school */
