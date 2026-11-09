@@ -279,6 +279,13 @@ export const spelKaarten: SpelKaart[] = [
     niveauInSpel: "beyond",
     tekst: `Honderd begrippen algemene economie, van de kringloop en de markt tot geld, inflatie en economisch onderzoek. ${zesSpellen}`,
   },
+  {
+    spel: "begrippenarena-economie",
+    school: "middelbaar",
+    niveau: "🌍 Beyond · bedrijfswetenschappen (5de en 6de middelbaar)",
+    niveauInSpel: "bedrijf",
+    tekst: `Bijna tachtig begrippen bedrijfswetenschappen en recht, van ondernemingsvormen en boekhouden tot kerncijfers, marketing, de arbeidsovereenkomst en databanken. ${zesSpellen}`,
+  },
 ];
 
 export function vindSpel(slug: string) {

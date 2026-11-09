@@ -20,6 +20,7 @@ const REKENVAKKEN = [
   "economie",
   "toegepaste-economie",
   "economie-en-bedrijfswetenschappen",
+  "bedrijfswetenschappen-en-recht",
   "samenleving-en-economie",
   "sociale-en-gedragswetenschappen",
   "gezondheid-zorg-en-welzijn",

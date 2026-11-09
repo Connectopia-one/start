@@ -85,6 +85,12 @@ export const vaknoten: Record<string, string> = {
     "andere richting, dan zit de statistiek die jij nodig hebt gewoon in " +
     "wiskunde gevorderd.",
 
+  "beyond-doorstroom/bedrijfswetenschappen-en-recht":
+    "Dit vak is enkel voor de richting bedrijfswetenschappen. Het volgt het " +
+    "examen bedrijfswetenschappen en recht: belastingen en boekhouden, " +
+    "financieel beheer, strategie en marketing, sociaal recht, bedrijfsbeleid " +
+    "en databanken. Hou een rekenmachine bij de hand.",
+
   "beyond-doorstroom/economie":
     "Dit vak is voor economie-wiskunde en bedrijfswetenschappen: zij leggen " +
     "allebei het examen algemene economie af.",

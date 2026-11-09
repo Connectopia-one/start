@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "9 november 2026",
+    titel: "Bedrijfswetenschappen en recht voor Beyond doorstroom",
+    tekst:
+      "Volg je bedrijfswetenschappen? Dan heb je nu ook je richtingsvak bedrijfswetenschappen en recht. Er zijn 40 hoofdstukken met 800 vragen: ondernemingsvormen en belastingen, boekhouden, kerncijfers en financiering, strategie en marketing, de arbeidsovereenkomst, logistiek, personeelsbeleid, kostprijs en databanken. In de begrippenarena economie staat er een niveau bij voor bedrijfswetenschappen.",
+    link: { tekst: "Naar bedrijfswetenschappen en recht", href: "/niveaus/beyond-doorstroom/bedrijfswetenschappen-en-recht" },
+  },
+  {
+    datum: "9 november 2026",
     titel: "Nieuw spel: de begrippenarena economie",
     tekst:
       "Er is een begrippenarena economie, met een niveau voor Boost en een niveau voor Beyond. Je oefent de begrippen in zes spellen, alleen, met het gezin of met de hele klas.",

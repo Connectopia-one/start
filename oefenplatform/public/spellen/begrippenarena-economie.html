@@ -191,7 +191,7 @@ td.x { color: var(--muted); }
 <div class="wrap" id="app"></div>
 
 <script>
-// Begrippen per hoofdstuk: [begrip, uitleg, extra tip]. Gehaald uit de hoofdstukken economie 🚀 Boost en 🌍 Beyond doorstroom van Connectopia (9/11/2026).
+// Begrippen per hoofdstuk: [begrip, uitleg, extra tip]. Gehaald uit de hoofdstukken economie 🚀 Boost en 🌍 Beyond doorstroom, en bedrijfswetenschappen en recht 🌍 Beyond doorstroom, van Connectopia (9/11/2026).
 const DATA = {
   boost: { label: "BOOST · 2de graad", chapters: [
     { id: "b-behoefte", title: "Behoeften, goederen en de kringloop", terms: [
@@ -402,6 +402,99 @@ const DATA = {
       ["fieldresearch", "Zelf nieuwe gegevens verzamelen.", "Enquête, interview, observatie."],
       ["steekproef", "Deel van de populatie dat je onderzoekt.", "Moet representatief zijn."]
     ]}
+  ]},
+  bedrijf: { label: "BEYOND · bedrijfswetenschappen", chapters: [
+    { id: "w-vormen", title: "Ondernemingsvormen en belastingen", terms: [
+      ["eenmanszaak", "Onderneming van één natuurlijk persoon, zonder aparte rechtspersoonlijkheid.", "De zaakvoerder is met heel zijn vermogen aansprakelijk."],
+      ["rechtspersoon", "Een vennootschap of vereniging die zelf rechten en plichten heeft, los van de eigenaars.", "Een bv kan zelf een contract tekenen."],
+      ["besloten vennootschap", "Vennootschapsvorm met aandeelhouders die enkel hun inbreng riskeren.", "Afgekort bv."],
+      ["naamloze vennootschap", "Vennootschapsvorm voor grotere ondernemingen, met aandelen die vrij overdraagbaar zijn.", "Afgekort nv."],
+      ["coöperatieve vennootschap", "Vennootschap waarin de leden samenwerken om in hun eigen behoeften te voorzien.", "Afgekort cv."],
+      ["personenbelasting", "Belasting die een inwoner betaalt op zijn inkomen van een jaar.", "Ook op de winst van een eenmanszaak."],
+      ["vennootschapsbelasting", "Belasting die een vennootschap betaalt op haar winst.", "Afgekort venb."],
+      ["progressief tarief", "Hoe hoger het inkomen, hoe hoger het percentage op de hoogste schijf.", "Zo werkt de personenbelasting."],
+      ["belastingvrije som", "Deel van het inkomen waarop je geen belasting betaalt.", "Hoger met kinderen ten laste."],
+      ["voorafbetaling", "Belasting die een onderneming al tijdens het jaar betaalt.", "Zo vermijd je een vermeerdering."],
+      ["aanslagbiljet", "Brief van de fiscus met hoeveel belasting je nog moet betalen of terugkrijgt.", "Komt na je aangifte."]
+    ]},
+    { id: "w-boekhouden", title: "Boekhouden en btw", terms: [
+      ["boekhouding", "Het systematisch noteren van alle verrichtingen van een onderneming.", "Elke verrichting heeft een debet en een credit."],
+      ["debet", "De linkerkant van een rekening.", "Een aankoop van handelsgoederen staat hier."],
+      ["credit", "De rechterkant van een rekening.", "Een verkoop van handelsgoederen staat hier."],
+      ["minimumindelingsschema", "Het verplichte rekeningenstelsel van Belgische ondernemingen.", "Afgekort MAR."],
+      ["aankoopfactuur", "Document dat een leverancier stuurt voor geleverde goederen of diensten.", "Je boekt ze in het aankoopdagboek."],
+      ["handelskorting", "Korting op de prijs die al op de factuur in mindering komt.", "Bijvoorbeeld bij grote hoeveelheden."],
+      ["korting voor contante betaling", "Korting die je krijgt als je snel betaalt.", "Ook wel betalingskorting."],
+      ["aftrekbare btw", "Btw die je bij een aankoop betaalt en van de staat terugvordert.", "Rekening 41100."],
+      ["verschuldigde btw", "Btw die je bij een verkoop aanrekent en aan de staat doorstort.", "Rekening 45100."],
+      ["afschrijving", "Het spreiden van de kost van een investering over de jaren dat je ze gebruikt.", "Een bestelwagen over 5 jaar."],
+      ["saldibalans", "Overzicht van alle rekeningen met hun saldo op een moment.", "Debet en credit moeten gelijk zijn."],
+      ["inventaris", "Opsomming van alle bezittingen en schulden op het einde van het boekjaar.", "Je telt ook de voorraad."]
+    ]},
+    { id: "w-analyse", title: "Balans en kerncijfers", terms: [
+      ["balans", "Overzicht van het vermogen van een onderneming op één moment.", "Activa links, passiva rechts."],
+      ["activa", "Wat de onderneming bezit of nog moet ontvangen.", "Gebouwen, voorraad, geld op de bank."],
+      ["passiva", "Waar het geld van de onderneming vandaan komt.", "Eigen vermogen en schulden."],
+      ["eigen vermogen", "Het geld dat de eigenaars in de onderneming hebben zitten.", "Kapitaal plus reserves."],
+      ["vreemd vermogen", "De schulden van de onderneming.", "Leningen, leveranciers."],
+      ["liquiditeit", "Kan de onderneming haar schulden op korte termijn betalen?", "Current ratio, quick ratio."],
+      ["current ratio", "Vlottende activa gedeeld door schulden op korte termijn.", "Liefst groter dan 1."],
+      ["quick ratio", "Zoals de current ratio, maar zonder de voorraad.", "Ook de acid test genoemd."],
+      ["solvabiliteit", "Kan de onderneming al haar schulden betalen, ook op lange termijn?", "Hoe groter het eigen vermogen, hoe beter."],
+      ["rendabiliteit", "Hoeveel winst de onderneming maakt in verhouding tot haar vermogen of omzet.", "Rendement op eigen vermogen."],
+      ["resultatenrekening", "Overzicht van de kosten en opbrengsten van een boekjaar.", "Daaruit volgt de winst of het verlies."]
+    ]},
+    { id: "w-financiering", title: "Financiering en investeren", terms: [
+      ["financiering", "Het zoeken van het geld dat een onderneming nodig heeft.", "Met eigen of vreemd vermogen."],
+      ["kaskrediet", "Krediet waarbij je tot een afgesproken bedrag onder nul mag gaan op je rekening.", "Voor korte termijn."],
+      ["investeringskrediet", "Lening op lange termijn om een investering te betalen.", "Bijvoorbeeld voor een machine."],
+      ["leasing", "Je huurt een goed en mag het op het einde vaak kopen.", "Je hoeft niet alles meteen te betalen."],
+      ["factoring", "Een gespecialiseerd bedrijf koopt je openstaande klantenfacturen over.", "Zo krijg je sneller geld."],
+      ["crowdfunding", "Veel mensen leggen elk een klein bedrag samen voor een project.", "Vaak via een website."],
+      ["terugverdientijd", "Hoe lang het duurt voor een investering zichzelf heeft terugbetaald.", "Korter is beter."],
+      ["netto contante waarde", "De waarde vandaag van alle toekomstige geldstromen min de investering.", "Positief? Dan is het project interessant."],
+      ["rente", "De vergoeding die je betaalt om geld te lenen.", "Een percentage van het bedrag."],
+      ["waarborg", "Zekerheid die de bank vraagt voor ze geld uitleent.", "Een hypotheek op een gebouw."]
+    ]},
+    { id: "w-strategie", title: "Strategie en marketing", terms: [
+      ["SWOT-analyse", "Overzicht van sterktes en zwaktes binnen en kansen en bedreigingen buiten de onderneming.", "Basis voor een strategie."],
+      ["stakeholder", "Iemand die belang heeft bij wat de onderneming doet.", "Klanten, personeel, buren, overheid."],
+      ["ondernemingsplan", "Document waarin een ondernemer zijn idee, markt en financiën uitwerkt.", "Nodig om een lening te krijgen."],
+      ["Business Model Canvas", "Schema in negen bouwstenen dat toont hoe een onderneming waarde creëert.", "Klantsegmenten, waardepropositie, ..."],
+      ["waardepropositie", "Wat het product voor de klant oplost of oplevert.", "Waarom kiest de klant voor jou?"],
+      ["BCG-matrix", "Schema dat producten indeelt volgens marktgroei en marktaandeel.", "Star, melkkoe, vraagteken, hond."],
+      ["melkkoe", "Product met een groot marktaandeel in een markt die nauwelijks nog groeit.", "Brengt veel geld op."],
+      ["marketingmix", "De instrumenten waarmee je een product op de markt brengt.", "Product, prijs, plaats, promotie."],
+      ["doelgroep", "De groep klanten op wie je je richt.", "Bijvoorbeeld jonge gezinnen."],
+      ["segmentatie", "Het opdelen van de markt in groepen klanten met dezelfde kenmerken.", "Op leeftijd, woonplaats, levensstijl."],
+      ["positionering", "Het beeld dat je wil dat klanten van je product hebben tegenover de concurrentie.", "Goedkoop of net luxueus."]
+    ]},
+    { id: "w-arbeid", title: "Arbeidsovereenkomst en personeel", terms: [
+      ["arbeidsovereenkomst", "Contract waarbij een werknemer onder gezag van een werkgever werkt tegen loon.", "Bepaalde of onbepaalde duur."],
+      ["anciënniteit", "Hoe lang een werknemer al bij dezelfde werkgever werkt.", "Bepaalt mee de opzegtermijn."],
+      ["schorsing", "De uitvoering van het contract ligt tijdelijk stil, zonder dat het eindigt.", "Bij ziekte of tijdelijke werkloosheid."],
+      ["opzegtermijn", "De periode die je moet blijven werken nadat het contract opgezegd is.", "Hangt af van de anciënniteit."],
+      ["verbrekingsvergoeding", "Geld dat de werkgever betaalt als hij het contract meteen beëindigt.", "In plaats van een opzegtermijn."],
+      ["dringende reden", "Zware fout waardoor het contract meteen eindigt, zonder opzeg.", "Bijvoorbeeld diefstal."],
+      ["brutoloon", "Het loon voor de afhoudingen.", "Daar gaat RSZ en voorheffing nog af."],
+      ["nettoloon", "Wat de werknemer echt op zijn rekening krijgt.", "Na RSZ en bedrijfsvoorheffing."],
+      ["bedrijfsvoorheffing", "Voorschot op de personenbelasting dat de werkgever van het loon afhoudt.", "Wordt later verrekend."],
+      ["human-resources-management", "Het beleid rond het personeel van een onderneming.", "Aanwerven, opleiden, motiveren."],
+      ["functieomschrijving", "Beschrijving van de taken en verantwoordelijkheden van een job.", "Basis voor een vacature."]
+    ]},
+    { id: "w-logistiek", title: "Logistiek, kostprijs en databanken", terms: [
+      ["logistiek", "Het organiseren van de stroom van goederen en informatie.", "Van leverancier tot klant."],
+      ["supply chain", "De hele keten van grondstof tot product bij de klant.", "Leveranciers, productie, transport, verkoop."],
+      ["just in time", "Goederen komen pas aan op het moment dat je ze nodig hebt.", "Kleine voorraad."],
+      ["vaste kosten", "Kosten die niet veranderen als je meer of minder produceert.", "Huur van een gebouw."],
+      ["variabele kosten", "Kosten die stijgen als je meer produceert.", "Grondstoffen."],
+      ["kostprijs", "Alle kosten van één product samen.", "Vaste plus variabele kosten per stuk."],
+      ["break-evenpunt", "Het aantal stuks waarbij je geen winst en geen verlies maakt.", "Opbrengsten = kosten."],
+      ["dekkingsbijdrage", "Verkoopprijs min de variabele kosten per stuk.", "Daarmee betaal je de vaste kosten."],
+      ["relationele databank", "Verzameling gegevens in tabellen die met elkaar verbonden zijn.", "Klanten, bestellingen, producten."],
+      ["primaire sleutel", "Veld dat elke rij in een tabel uniek maakt.", "Een klantnummer."],
+      ["query", "Een vraag aan de databank om gegevens op te zoeken.", "Bijvoorbeeld in SQL."]
+    ]}
   ]}
 };
 
@@ -417,7 +510,7 @@ const GAMES = [
 // ---------- state ----------
 const S = {
   level: "boost",
-  chapter: "n-cel",
+  chapter: "b-behoefte",
   teams: [ { name: "Jij", score: 0 } ],
   alleen: true, // Kim, 9/11/2026: kinderen oefenen thuis vaak alleen, dus "Alleen" is de standaard.
   turn: 0,
@@ -529,6 +622,7 @@ function renderMenu() {
       <div class="seg" role="group" aria-label="Niveau">
         <button data-lvl="boost" aria-pressed="${S.level === "boost"}">BOOST · 2de graad</button>
         <button data-lvl="beyond" aria-pressed="${S.level === "beyond"}">BEYOND · 3de graad</button>
+        <button data-lvl="bedrijf" aria-pressed="${S.level === "bedrijf"}">BEYOND · bedrijfswetenschappen</button>
       </div>
     </header>
     <section style="display:flex;flex-direction:column;gap:10px">
