@@ -131,6 +131,8 @@ export type Wegwijzer = {
   titel: string;
   tekst: string;
   knop?: { label: string; href: string };
+  /* true: bovenaan de keuze "Ik leer voor ..." (zie lib/leerrichting.ts). */
+  richtingKeuze?: boolean;
   /* Mag weg: een uitklapbaar lijstje, bv. per hoofdstuk wat je mag overslaan. */
   lijstKop?: string;
   lijst?: { kop: string; tekst: string }[];
@@ -146,12 +148,13 @@ const wegwijzers: Record<string, Wegwijzer> = {
     valt helemaal weg, daarom een lijstje per hoofdstuk.
   */
   "beyond-doorstroom/geschiedenis": {
-    titel: "Volg je bedrijfswetenschappen of welzijnswetenschappen? Dan mag je een paar stukken overslaan.",
+    titel: "Volg je bedrijfswetenschappen of welzijnswetenschappen? Dan heb je niet alles nodig.",
     tekst:
       "Jouw examen geschiedenis is wat lichter dan dat van de andere richtingen. " +
       "Je hebt elk hoofdstuk nodig, maar in de meeste hoofdstukken valt een stuk " +
-      "weg. Krijg je een vraag over zo'n stuk, sla ze dan gerust over. Je examen " +
+      "weg. Kies hieronder voor welke richting je leert: dan krijg je enkel de vragen die je nodig hebt, ook in het examen. Je examen " +
       "duurt 150 minuten en de moderne tijd weegt bij jou iets zwaarder door.",
+    richtingKeuze: true,
     lijstKop: "Wat mag ik overslaan? Bekijk het per hoofdstuk",
     lijst: [
       { kop: "Het historisch referentiekader", tekst: "niets, je hebt alles nodig." },

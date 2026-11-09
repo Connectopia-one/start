@@ -527,7 +527,8 @@
               "Ontbindend"
             ]
           ],
-          "uitleg": "Verbindend nationalisme brengt losse staten van hetzelfde volk samen. Ontbindend nationalisme maakt zich los uit een groter geheel."
+          "uitleg": "Verbindend nationalisme brengt losse staten van hetzelfde volk samen. Ontbindend nationalisme maakt zich los uit een groter geheel.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -719,7 +720,8 @@
             true,
             false
           ],
-          "uitleg": "De Vlaamse beweging was eerst cultureel, rond taal en letteren. De eerste taalwetten kwamen pas vanaf de jaren 1870, veertig jaar na de onafhankelijkheid."
+          "uitleg": "De Vlaamse beweging was eerst cultureel, rond taal en letteren. De eerste taalwetten kwamen pas vanaf de jaren 1870, veertig jaar na de onafhankelijkheid.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -731,7 +733,8 @@
             "Ongeveer tien jaar"
           ],
           "antwoord": 0,
-          "uitleg": "Onafhankelijk in 1830, de eerste taalwetten vanaf de jaren 1870: zo'n veertig jaar later."
+          "uitleg": "Onafhankelijk in 1830, de eerste taalwetten vanaf de jaren 1870: zo'n veertig jaar later.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -748,7 +751,8 @@
             true,
             false
           ],
-          "uitleg": "Oorlog, economie en diplomatie. Een volksraadpleging hoorde er niet bij."
+          "uitleg": "Oorlog, economie en diplomatie. Een volksraadpleging hoorde er niet bij.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -760,7 +764,8 @@
             "Omdat er in Berlijn nog geen zaal groot genoeg was voor de vorsten"
           ],
           "antwoord": 0,
-          "uitleg": "Het was een vernedering voor Frankrijk. In 1919 werden de rollen omgedraaid: in dezelfde zaal moest Duitsland het Verdrag van Versailles tekenen."
+          "uitleg": "Het was een vernedering voor Frankrijk. In 1919 werden de rollen omgedraaid: in dezelfde zaal moest Duitsland het Verdrag van Versailles tekenen.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -772,7 +777,8 @@
             "Er veranderde niets aan de kaart, want de Duitse staten bleven gewoon in hetzelfde losse verband als na Wenen"
           ],
           "antwoord": 0,
-          "uitleg": "Uit een los verband van staten groeide één sterk rijk. Dat brak het evenwicht dat Wenen had opgebouwd."
+          "uitleg": "Uit een los verband van staten groeide één sterk rijk. Dat brak het evenwicht dat Wenen had opgebouwd.",
+          "niet_voor_dg": true
         },
         {
           "type": "volgorde",
@@ -784,7 +790,8 @@
             "Het Duitse Keizerrijk wordt uitgeroepen",
             "Duitsland tekent het Verdrag van Versailles"
           ],
-          "uitleg": "1815, 1828, 1830, 1871 en 1919."
+          "uitleg": "1815, 1828, 1830, 1871 en 1919.",
+          "niet_voor_dg": true
         },
         {
           "type": "open",
@@ -806,7 +813,8 @@
         {
           "type": "keuzelijst",
           "vraag": "Na 1815 waren de Duitse staten verenigd in de [[*Duitse Bond|Triple Entente|Volkenbond]], een los verband van [[*negenendertig|zeven|twee]] zelfstandige staten.",
-          "uitleg": "Wenen bracht ze niet samen in één rijk. Pas in 1871 kwam het Duitse Keizerrijk."
+          "uitleg": "Wenen bracht ze niet samen in één rijk. Pas in 1871 kwam het Duitse Keizerrijk.",
+          "niet_voor_dg": true
         },
         {
           "type": "sleepzin",
@@ -816,7 +824,8 @@
             "Leopold I",
             "Willem I"
           ],
-          "uitleg": "Metternich leidde Wenen, Conscience schreef het boek van 1838 en Bismarck leidde de Duitse eenmaking. Napoleon was in 1815 al verslagen."
+          "uitleg": "Metternich leidde Wenen, Conscience schreef het boek van 1838 en Bismarck leidde de Duitse eenmaking. Napoleon was in 1815 al verslagen.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -959,7 +968,8 @@
         {
           "type": "keuzelijst",
           "vraag": "Het economisch liberalisme wil dat de overheid de economie zo veel mogelijk [[*vrij laat|zelf plant|in handen neemt]]. Die stroming hoort in de eerste plaats bij het [[*economische|culturele|sociale]] domein.",
-          "uitleg": "Het economisch liberalisme verdedigt de vrije markt: zo weinig mogelijk staatsbemoeienis."
+          "uitleg": "Het economisch liberalisme verdedigt de vrije markt: zo weinig mogelijk staatsbemoeienis.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -1008,7 +1018,8 @@
               "Henegouwen en Luik"
             ]
           ],
-          "uitleg": "De steenkoolbekkens lagen in Henegouwen en Luik, met de zware industrie erbij. Gent was de textielstad, Verviers de wolstad."
+          "uitleg": "De steenkoolbekkens lagen in Henegouwen en Luik, met de zware industrie erbij. Gent was de textielstad, Verviers de wolstad.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -1020,7 +1031,8 @@
             "Er klopt niets niet: Vlaanderen was toen al veel sterker geïndustrialiseerd"
           ],
           "antwoord": 0,
-          "uitleg": "De steenkool lag in Henegouwen en Luik. Vlaanderen bleef landelijker, al was Gent een belangrijke textielstad."
+          "uitleg": "De steenkool lag in Henegouwen en Luik. Vlaanderen bleef landelijker, al was Gent een belangrijke textielstad.",
+          "niet_voor_dg": true
         },
         {
           "type": "invultekst",
@@ -1112,7 +1124,8 @@
               "Coöperatie"
             ]
           ],
-          "uitleg": "Een coöperatie produceert of koopt samen. Een mutualiteit of ziekenfonds keert uit bij ziekte. Een vakbond komt op voor loon en werkomstandigheden."
+          "uitleg": "Een coöperatie produceert of koopt samen. Een mutualiteit of ziekenfonds keert uit bij ziekte. Een vakbond komt op voor loon en werkomstandigheden.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -1156,7 +1169,8 @@
             "Algemeen meervoudig stemrecht na een algemene staking",
             "Algemeen enkelvoudig stemrecht voor mannen"
           ],
-          "uitleg": "Eerst het cijnskiesrecht, dan het meervoudig stemrecht, en pas daarna één man, één stem."
+          "uitleg": "Eerst het cijnskiesrecht, dan het meervoudig stemrecht, en pas daarna één man, één stem.",
+          "niet_voor_dg": true
         },
         {
           "type": "hotspot",
@@ -1170,7 +1184,8 @@
               55
             ]
           ],
-          "uitleg": "1893, na een algemene staking. Net vóór het streepje van 1900."
+          "uitleg": "1893, na een algemene staking. Net vóór het streepje van 1900.",
+          "niet_voor_dg": true
         },
         {
           "type": "hotspot",
@@ -1184,7 +1199,8 @@
               55
             ]
           ],
-          "uitleg": "1919, vlak na de Eerste Wereldoorlog: één man, één stem."
+          "uitleg": "1919, vlak na de Eerste Wereldoorlog: één man, één stem.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -1196,7 +1212,8 @@
             "10"
           ],
           "antwoord": 0,
-          "uitleg": "Wie bijvoorbeeld meer bezat of een diploma had, kreeg extra stemmen, tot ten hoogste drie."
+          "uitleg": "Wie bijvoorbeeld meer bezat of een diploma had, kreeg extra stemmen, tot ten hoogste drie.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -1208,7 +1225,8 @@
             "Alle Belgische fabrieken lagen midden op het platteland, ver van elke stad of spoorlijn"
           ],
           "antwoord": 0,
-          "uitleg": "Met de werkmanstrein werd pendelen goedkoop. Zo bleven veel arbeiders landelijk wonen."
+          "uitleg": "Met de werkmanstrein werd pendelen goedkoop. Zo bleven veel arbeiders landelijk wonen.",
+          "niet_voor_dg": true
         },
         {
           "type": "sorteren",
@@ -1237,7 +1255,8 @@
               "Emigratie naar Amerika"
             ]
           ],
-          "uitleg": "Verhuizen naar de stad, dagelijks heen en weer, tijdelijk voor een seizoen, of voorgoed naar een ander werelddeel."
+          "uitleg": "Verhuizen naar de stad, dagelijks heen en weer, tijdelijk voor een seizoen, of voorgoed naar een ander werelddeel.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -1266,7 +1285,8 @@
             "Goedkoop brood verkopen in een eigen winkel"
           ],
           "antwoord": 0,
-          "uitleg": "Een vakbond onderhandelt en staakt, een coöperatie produceert of koopt samen in, een mutualiteit keert uit bij ziekte."
+          "uitleg": "Een vakbond onderhandelt en staakt, een coöperatie produceert of koopt samen in, een mutualiteit keert uit bij ziekte.",
+          "niet_voor_dg": true
         },
         {
           "type": "sleepzin",
@@ -1288,7 +1308,8 @@
             "Alleen arbeiders mogen een fabriek bezitten, en de burgerij wordt arm"
           ],
           "antwoord": 0,
-          "uitleg": "Wie de productiemiddelen bezit, krijgt de winst. Wie enkel zijn arbeid heeft, blijft afhankelijk van een loon."
+          "uitleg": "Wie de productiemiddelen bezit, krijgt de winst. Wie enkel zijn arbeid heeft, blijft afhankelijk van een loon.",
+          "niet_voor_dg": true
         },
         {
           "type": "open",
@@ -1385,7 +1406,8 @@
             "Om de arbeiders in Europa tot staking aan te zetten"
           ],
           "antwoord": 0,
-          "uitleg": "Het sociaal darwinisme deed alsof sterkere volkeren vanzelf over zwakkere mochten heersen. Zo werd het een rechtvaardiging voor het imperialisme."
+          "uitleg": "Het sociaal darwinisme deed alsof sterkere volkeren vanzelf over zwakkere mochten heersen. Zo werd het een rechtvaardiging voor het imperialisme.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -1463,7 +1485,8 @@
           "extra": [
             "Congo"
           ],
-          "uitleg": "Ook buiten Afrika werd verdeeld: Indië, Indochina, de Indische archipel, en na 1898 de Filipijnen voor de Verenigde Staten."
+          "uitleg": "Ook buiten Afrika werd verdeeld: Indië, Indochina, de Indische archipel, en na 1898 de Filipijnen voor de Verenigde Staten.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -1475,7 +1498,8 @@
             "Ze vochten samen met het Chinese keizerrijk tegen alle westerse handelaars en wonnen die lange strijd"
           ],
           "antwoord": 0,
-          "uitleg": "Japan moderniseerde snel en werd zelf een koloniale macht. Rusland breidde over land uit naar het oosten."
+          "uitleg": "Japan moderniseerde snel en werd zelf een koloniale macht. Rusland breidde over land uit naar het oosten.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -1503,7 +1527,8 @@
             "Morel en Casement voeren campagne tegen het bewind",
             "De Belgische staat neemt Congo over"
           ],
-          "uitleg": "Eerst de spelregels in Berlijn, dan de Vrijstaat, daarna de kritiek, en ten slotte de overname door de Belgische staat."
+          "uitleg": "Eerst de spelregels in Berlijn, dan de Vrijstaat, daarna de kritiek, en ten slotte de overname door de Belgische staat.",
+          "niet_voor_dg": true
         },
         {
           "casus": "Bekijk de spotprent uit het Britse blad Punch van 1906. Een slang met het hoofd van Leopold II heeft zich rond een Congolese man gewonden. Het onderschrift luidt: In the Rubber Coils.",
@@ -1590,7 +1615,8 @@
               "Bedrijven"
             ]
           ],
-          "uitleg": "Staat, kerk en grote bedrijven bestuurden samen. De mijnen in Katanga leverden onder meer koper."
+          "uitleg": "Staat, kerk en grote bedrijven bestuurden samen. De mijnen in Katanga leverden onder meer koper.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -1636,7 +1662,8 @@
             true,
             false
           ],
-          "uitleg": "Bevolkingsdruk, corruptie en opstanden verzwakten de Qing-dynastie van binnenuit."
+          "uitleg": "Bevolkingsdruk, corruptie en opstanden verzwakten de Qing-dynastie van binnenuit.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -1757,7 +1784,8 @@
         {
           "type": "keuzelijst",
           "vraag": "Japan moderniseerde zich in snel tempo vanaf de [[*Meiji-restauratie|Opiumoorlog|Taiping-opstand]] van [[*1868|1842|1912]], en werd daarna zelf een koloniale macht in Azië.",
-          "uitleg": "Vanaf de Meiji-restauratie van 1868 haalde Japan de westerse techniek in en begon het zelf uit te breiden."
+          "uitleg": "Vanaf de Meiji-restauratie van 1868 haalde Japan de westerse techniek in en begon het zelf uit te breiden.",
+          "niet_voor_dg": true
         }
       ]
     },
@@ -1869,7 +1897,8 @@
         {
           "type": "keuzelijst",
           "vraag": "Men noemt de Eerste Wereldoorlog een [[*totale|koude|beperkte]] oorlog, omdat de hele samenleving werd ingezet. [[*Propaganda|Neutraliteit|Appeasement]] moest de steun van de bevolking vasthouden.",
-          "uitleg": "Fabrieken, voedsel, vrouwen, kolonies en nieuws werden allemaal ingezet. Propaganda hield het moreel hoog."
+          "uitleg": "Fabrieken, voedsel, vrouwen, kolonies en nieuws werden allemaal ingezet. Propaganda hield het moreel hoog.",
+          "niet_voor_dg": true
         },
         {
           "casus": "Bekijk de Britse affiche uit 1915. Een soldaat staat voor een brandend dorp. Bovenaan staat: Remember Belgium. Onderaan: Enlist to-day, dat betekent: neem vandaag dienst.",
@@ -1957,7 +1986,8 @@
               55
             ]
           ],
-          "uitleg": "1917, nog tijdens de Eerste Wereldoorlog, net vóór het streepje van 1920."
+          "uitleg": "1917, nog tijdens de Eerste Wereldoorlog, net vóór het streepje van 1920.",
+          "niet_voor_dg": true
         },
         {
           "type": "sorteren",
@@ -2002,7 +2032,8 @@
             true,
             false
           ],
-          "uitleg": "Wilson wilde een nieuwe, open wereldorde met zelfbeschikking en een volkerenbond."
+          "uitleg": "Wilson wilde een nieuwe, open wereldorde met zelfbeschikking en een volkerenbond.",
+          "niet_voor_dg": true
         },
         {
           "type": "sorteren",
@@ -2066,7 +2097,8 @@
           "kolommen": [
             "Sterkte",
             "Zwakte"
-          ]
+          ],
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -2078,7 +2110,8 @@
             "1945"
           ],
           "antwoord": 0,
-          "uitleg": "De Volkenbond kwam er in 1920, na de vrede van Versailles."
+          "uitleg": "De Volkenbond kwam er in 1920, na de vrede van Versailles.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -2095,7 +2128,8 @@
             false,
             false
           ],
-          "uitleg": "De tsaar regeerde alleen over een grote, arme boerenbevolking. De oorlog maakte de toestand onhoudbaar."
+          "uitleg": "De tsaar regeerde alleen over een grote, arme boerenbevolking. De oorlog maakte de toestand onhoudbaar.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -2107,7 +2141,8 @@
             "Ze voerde de vijfjarenplannen in en dwong de boeren in collectieve bedrijven"
           ],
           "antwoord": 0,
-          "uitleg": "Oorlog, grond en voedsel bleven onopgelost, en daar speelden de bolsjewieken op in."
+          "uitleg": "Oorlog, grond en voedsel bleven onopgelost, en daar speelden de bolsjewieken op in.",
+          "niet_voor_dg": true
         },
         {
           "type": "koppelen",
@@ -2130,7 +2165,8 @@
             "Collectivisatie",
             "Veertienpuntenplan"
           ],
-          "uitleg": "Twee revoluties in 1917 en het Duitse aanvalsplan van 1914. Collectivisatie hoort pas bij Stalin, het Veertienpuntenplan bij Wilson."
+          "uitleg": "Twee revoluties in 1917 en het Duitse aanvalsplan van 1914. Collectivisatie hoort pas bij Stalin, het Veertienpuntenplan bij Wilson.",
+          "niet_voor_dg": true
         },
         {
           "type": "sleepzin",
@@ -2140,7 +2176,8 @@
             "olie",
             "wapenstilstand"
           ],
-          "uitleg": "Vrede, brood en land sprak de soldaten, arbeiders en boeren aan. De macht moest daarna nog in een burgeroorlog bevochten worden."
+          "uitleg": "Vrede, brood en land sprak de soldaten, arbeiders en boeren aan. De macht moest daarna nog in een burgeroorlog bevochten worden.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -2152,7 +2189,8 @@
             "Hij liet de bolsjewieken van Lenin regeren en trok zich vrijwillig terug uit de hele politiek"
           ],
           "antwoord": 0,
-          "uitleg": "Een autocraat die een rampzalige oorlog voortzet in een arm land: daar brak het gezag van de tsaar op."
+          "uitleg": "Een autocraat die een rampzalige oorlog voortzet in een arm land: daar brak het gezag van de tsaar op.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -2173,12 +2211,14 @@
           "kolommen": [
             "Kenmerk",
             "Geen kenmerk"
-          ]
+          ],
+          "niet_voor_dg": true
         },
         {
           "type": "open",
           "vraag": "Geef drie voorbeelden van hoe niet alleen het leger, maar de hele samenleving voor de Eerste Wereldoorlog werd ingezet.",
-          "antwoord": "De hele samenleving werd voor de oorlog ingezet, niet alleen het leger. Fabrieken maakten wapens en munitie, voedsel werd voor het front gebruikt, vrouwen namen het werk van de mannen in de fabrieken over, kolonies leverden soldaten en grondstoffen, en propaganda moest de steun van de bevolking vasthouden."
+          "antwoord": "De hele samenleving werd voor de oorlog ingezet, niet alleen het leger. Fabrieken maakten wapens en munitie, voedsel werd voor het front gebruikt, vrouwen namen het werk van de mannen in de fabrieken over, kolonies leverden soldaten en grondstoffen, en propaganda moest de steun van de bevolking vasthouden.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -2195,7 +2235,8 @@
             true,
             false
           ],
-          "uitleg": "Mitrailleur, gifgas en tank horen bij de Eerste Wereldoorlog. De atoombom kwam pas in 1945."
+          "uitleg": "Mitrailleur, gifgas en tank horen bij de Eerste Wereldoorlog. De atoombom kwam pas in 1945.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -2207,7 +2248,8 @@
             "Dat er nooit echt gevochten zou worden"
           ],
           "antwoord": 0,
-          "uitleg": "Velen verwachtten een korte oorlog. Het werden ruim vier jaren."
+          "uitleg": "Velen verwachtten een korte oorlog. Het werden ruim vier jaren.",
+          "niet_voor_dg": true
         },
         {
           "type": "keuzelijst",
@@ -2224,7 +2266,8 @@
             "De adel en de kerk nemen samen het bestuur van het land over"
           ],
           "antwoord": 0,
-          "uitleg": "In naam van de arbeiders nam de partij van Lenin alle macht. Tegenstanders en andere partijen kregen geen ruimte."
+          "uitleg": "In naam van de arbeiders nam de partij van Lenin alle macht. Tegenstanders en andere partijen kregen geen ruimte.",
+          "niet_voor_dg": true
         }
       ]
     },
@@ -2248,7 +2291,8 @@
             true,
             false
           ],
-          "uitleg": "Lenen om aandelen te kopen, overproductie en ongelijkheid maakten de economie kwetsbaar. Een verloren oorlog speelde geen rol."
+          "uitleg": "Lenen om aandelen te kopen, overproductie en ongelijkheid maakten de economie kwetsbaar. Een verloren oorlog speelde geen rol.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -2260,12 +2304,14 @@
             "Door de crisis kregen democratische partijen net veel meer kiezers"
           ],
           "antwoord": 0,
-          "uitleg": "Wie zijn werk verliest en geen uitweg ziet, luistert sneller naar wie orde en werk belooft."
+          "uitleg": "Wie zijn werk verliest en geen uitweg ziet, luistert sneller naar wie orde en werk belooft.",
+          "niet_voor_dg": true
         },
         {
           "type": "keuzelijst",
           "vraag": "Leg je uit hoe de crisis leidde tot steun voor extreme partijen, dan gebruik je de redeneerwijze [[*oorzaak en gevolg benoemen|stereotypering analyseren|actualiseren]].",
-          "uitleg": "Je toont een verband tussen een toestand (crisis) en wat eruit volgde (radicalisering)."
+          "uitleg": "Je toont een verband tussen een toestand (crisis) en wat eruit volgde (radicalisering).",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -2282,7 +2328,8 @@
             true,
             false
           ],
-          "uitleg": "De New Deal brak met het idee dat de overheid zich niet met de economie moest bemoeien, maar de fabrieken bleven privé."
+          "uitleg": "De New Deal brak met het idee dat de overheid zich niet met de economie moest bemoeien, maar de fabrieken bleven privé.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -2294,7 +2341,8 @@
             "Ze voerde net zoals de VS een New Deal in, maar sneller"
           ],
           "antwoord": 0,
-          "uitleg": "Een planeconomie hing niet aan de wereldmarkt. Dat gaf het stelsel toen een aantrekkingskracht die achteraf moeilijk voor te stellen is."
+          "uitleg": "Een planeconomie hing niet aan de wereldmarkt. Dat gaf het stelsel toen een aantrekkingskracht die achteraf moeilijk voor te stellen is.",
+          "niet_voor_dg": true
         },
         {
           "type": "sorteren",
@@ -2429,7 +2477,8 @@
             "De beurscrash van Wall Street",
             "Hitler wordt rijkskanselier"
           ],
-          "uitleg": "1922, 1924, 1928, oktober 1929 en januari 1933."
+          "uitleg": "1922, 1924, 1928, oktober 1929 en januari 1933.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -2599,12 +2648,14 @@
             "Italië en Duitsland verklaarden de oorlog aan Groot-Brittannië"
           ],
           "antwoord": 0,
-          "uitleg": "Frankrijk en Groot-Brittannië gaven toe om oorlog te vermijden."
+          "uitleg": "Frankrijk en Groot-Brittannië gaven toe om oorlog te vermijden.",
+          "niet_voor_dg": true
         },
         {
           "type": "keuzelijst",
           "vraag": "De politiek waarbij Frankrijk en Groot-Brittannië toegaven om een oorlog te vermijden, heet [[*appeasement|collectivisatie|unionisme]]. Ze bereikte haar doel [[*niet|wel|half]], want een jaar later brak de oorlog uit.",
-          "uitleg": "Na München vroeg Hitler steeds meer. In september 1939 viel hij Polen binnen."
+          "uitleg": "Na München vroeg Hitler steeds meer. In september 1939 viel hij Polen binnen.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -2633,7 +2684,8 @@
             false,
             true
           ],
-          "uitleg": "Hitler werd benoemd tot rijkskanselier en nam daarna stap voor stap alle macht. Stalins zuiveringen troffen ook zijn eigen partij."
+          "uitleg": "Hitler werd benoemd tot rijkskanselier en nam daarna stap voor stap alle macht. Stalins zuiveringen troffen ook zijn eigen partij.",
+          "niet_voor_dg": true
         },
         {
           "type": "open",
@@ -2643,7 +2695,8 @@
         {
           "type": "open",
           "vraag": "Leg het verband uit tussen de sociaaleconomische toestand tijdens het interbellum en de opkomst van de NSDAP.",
-          "antwoord": "Na de crisis van 1929 kwamen in Duitsland miljoenen mensen zonder werk. Daarbij kwam de wrok over het Verdrag van Versailles. Werkloosheid en armoede maakten mensen vatbaar voor een partij die orde, werk en nationale trots beloofde. Zo groeide de NSDAP en werd Hitler in 1933 rijkskanselier."
+          "antwoord": "Na de crisis van 1929 kwamen in Duitsland miljoenen mensen zonder werk. Daarbij kwam de wrok over het Verdrag van Versailles. Werkloosheid en armoede maakten mensen vatbaar voor een partij die orde, werk en nationale trots beloofde. Zo groeide de NSDAP en werd Hitler in 1933 rijkskanselier.",
+          "niet_voor_dg": true
         },
         {
           "type": "invultekst",
@@ -2813,7 +2866,8 @@
             false,
             true
           ],
-          "uitleg": "De koning bleef in bezet land, de regering week uit naar Londen. Dat leidde tot een breuk die na de oorlog de koningskwestie werd."
+          "uitleg": "De koning bleef in bezet land, de regering week uit naar Londen. Dat leidde tot een breuk die na de oorlog de koningskwestie werd.",
+          "niet_voor_dg": true
         },
         {
           "type": "sorteren",
@@ -3061,7 +3115,8 @@
             "1943",
             "wapenstilstand"
           ],
-          "uitleg": "Na het mislukte Ardennenoffensief volgde in mei 1945 de Duitse overgave."
+          "uitleg": "Na het mislukte Ardennenoffensief volgde in mei 1945 de Duitse overgave.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -3073,7 +3128,8 @@
             "Na de val van de Berlijnse Muur"
           ],
           "antwoord": 0,
-          "uitleg": "Japan gaf zich over in augustus 1945, na de atoombommen."
+          "uitleg": "Japan gaf zich over in augustus 1945, na de atoombommen.",
+          "niet_voor_dg": true
         }
       ]
     },
@@ -3158,12 +3214,14 @@
               "Zwakte"
             ]
           ],
-          "uitleg": "De VN zijn sterk als ontmoetingsplaats en voor normen en hulp. Vetorecht en het ontbreken van een eigen leger maken haar zwak."
+          "uitleg": "De VN zijn sterk als ontmoetingsplaats en voor normen en hulp. Vetorecht en het ontbreken van een eigen leger maken haar zwak.",
+          "niet_voor_dg": true
         },
         {
           "type": "keuzelijst",
           "vraag": "De duurzame ontwikkelingsdoelen zijn [[*zeventien|vijf|veertien]] doelen die de wereld tegen [[*2030|2000|2100]] wil halen. De organisatie die zich met de gezondheid in de wereld bezighoudt, is de [[*WHO|NAVO|EGKS]].",
-          "uitleg": "Zeventien doelen tegen 2030. De WHO is de wereldgezondheidsorganisatie van de VN."
+          "uitleg": "Zeventien doelen tegen 2030. De WHO is de wereldgezondheidsorganisatie van de VN.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -3241,7 +3299,8 @@
             "De Cubacrisis",
             "De Praagse Lente"
           ],
-          "uitleg": "Eerst het IJzeren Gordijn en de blokkade van Berlijn, dan Hongarije, de Muur, Cuba en ten slotte Praag."
+          "uitleg": "Eerst het IJzeren Gordijn en de blokkade van Berlijn, dan Hongarije, de Muur, Cuba en ten slotte Praag.",
+          "niet_voor_dg": true
         },
         {
           "type": "hotspot",
@@ -3255,7 +3314,8 @@
               55
             ]
           ],
-          "uitleg": "1961, net na het streepje van 1960."
+          "uitleg": "1961, net na het streepje van 1960.",
+          "niet_voor_dg": true
         },
         {
           "type": "hotspot",
@@ -3295,7 +3355,8 @@
           "extra": [
             "Een schild in de ruimte tegen aanvallende raketten"
           ],
-          "uitleg": "Het schild in de ruimte is het SDI-plan van Reagan uit 1983, en hoort bij geen van deze vier."
+          "uitleg": "Het schild in de ruimte is het SDI-plan van Reagan uit 1983, en hoort bij geen van deze vier.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -3307,7 +3368,8 @@
             "Duitsland moest opnieuw één land worden"
           ],
           "antwoord": 0,
-          "uitleg": "Ze rechtvaardigde achteraf het ingrijpen in Tsjecho-Slowakije in 1968."
+          "uitleg": "Ze rechtvaardigde achteraf het ingrijpen in Tsjecho-Slowakije in 1968.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -3349,7 +3411,8 @@
             "Unipolair",
             "Bipolair",
             "Multipolair"
-          ]
+          ],
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -3373,7 +3436,8 @@
             "2009"
           ],
           "antwoord": 0,
-          "uitleg": "Giraal in 1999, als biljetten in 2002. Het Verdrag van Maastricht van 1992 had de weg ernaartoe vastgelegd."
+          "uitleg": "Giraal in 1999, als biljetten in 2002. Het Verdrag van Maastricht van 1992 had de weg ernaartoe vastgelegd.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -3393,7 +3457,8 @@
             "Rome",
             "Maastricht",
             "Lissabon"
-          ]
+          ],
+          "niet_voor_dg": true
         },
         {
           "type": "volgorde",
@@ -3405,7 +3470,8 @@
             "De euro als biljetten",
             "Het Verdrag van Lissabon treedt in werking"
           ],
-          "uitleg": "Eerst de EGKS, dan Rome (1957), Maastricht (1992), de euro als biljetten (2002) en Lissabon in werking (2009)."
+          "uitleg": "Eerst de EGKS, dan Rome (1957), Maastricht (1992), de euro als biljetten (2002) en Lissabon in werking (2009).",
+          "niet_voor_dg": true
         },
         {
           "type": "koppelen",
@@ -3431,7 +3497,8 @@
           "extra": [
             "Het Internationaal Gerechtshof"
           ],
-          "uitleg": "Het Internationaal Gerechtshof is een orgaan van de VN. Let op het verschil tussen de Europese Raad en de Raad van de EU."
+          "uitleg": "Het Internationaal Gerechtshof is een orgaan van de VN. Let op het verschil tussen de Europese Raad en de Raad van de EU.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -3443,7 +3510,8 @@
             "Landbouw is een bevoegdheid van de Verenigde Naties en niet van Europa"
           ],
           "antwoord": 0,
-          "uitleg": "De Raad van Europa is een aparte organisatie. Over EU-beleid beslissen de Commissie, het Parlement en de Raad van de EU."
+          "uitleg": "De Raad van Europa is een aparte organisatie. Over EU-beleid beslissen de Commissie, het Parlement en de Raad van de EU.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -3477,7 +3545,8 @@
             true,
             false
           ],
-          "uitleg": "Vrede, verweven economieën en samen sterker staan. Een Europees leger hoorde daar niet bij."
+          "uitleg": "Vrede, verweven economieën en samen sterker staan. Een Europees leger hoorde daar niet bij.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -3540,7 +3609,8 @@
         {
           "type": "open",
           "vraag": "Vergelijk de Volkenbond met de Verenigde Naties. Geef een gelijkenis en een verschil.",
-          "antwoord": "Gelijkenis: beide werden na een wereldoorlog opgericht om conflicten tussen landen vreedzaam op te lossen, en geen van beide heeft een eigen staand leger. Verschil: de Verenigde Staten traden nooit toe tot de Volkenbond, maar wel tot de VN. Bij de Volkenbond vroegen beslissingen de instemming van iedereen; bij de VN kunnen vijf vaste leden met hun vetorecht een beslissing tegenhouden."
+          "antwoord": "Gelijkenis: beide werden na een wereldoorlog opgericht om conflicten tussen landen vreedzaam op te lossen, en geen van beide heeft een eigen staand leger. Verschil: de Verenigde Staten traden nooit toe tot de Volkenbond, maar wel tot de VN. Bij de Volkenbond vroegen beslissingen de instemming van iedereen; bij de VN kunnen vijf vaste leden met hun vetorecht een beslissing tegenhouden.",
+          "niet_voor_dg": true
         }
       ]
     },
@@ -3588,12 +3658,14 @@
             "Enkel de VS waren kritisch; de Sovjet-Unie wilde zelf koloniën"
           ],
           "antwoord": 0,
-          "uitleg": "Zowel Washington als Moskou zag de oude koloniale rijken liever verdwijnen, elk om eigen redenen."
+          "uitleg": "Zowel Washington als Moskou zag de oude koloniale rijken liever verdwijnen, elk om eigen redenen.",
+          "niet_voor_dg": true
         },
         {
           "type": "keuzelijst",
           "vraag": "[[*India|Algerije|Congo]] werd in [[*1947|1960|1955]] onafhankelijk van het Verenigd Koninkrijk en gaf het voorbeeld. 1960 heet het Afrikajaar omdat [[*zeventien|drie|dertig]] Afrikaanse koloniën in dat ene jaar onafhankelijk werden.",
-          "uitleg": "India in 1947 was het voorbeeld. In 1960 volgden er zeventien in Afrika."
+          "uitleg": "India in 1947 was het voorbeeld. In 1960 volgden er zeventien in Afrika.",
+          "niet_voor_dg": true
         },
         {
           "type": "sorteren",
@@ -3620,7 +3692,8 @@
               "Niet gewapend"
             ]
           ],
-          "uitleg": "Dekolonisatie kon via onderhandelingen of via een gewapende strijd. In Algerije duurde de oorlog acht jaar."
+          "uitleg": "Dekolonisatie kon via onderhandelingen of via een gewapende strijd. In Algerije duurde de oorlog acht jaar.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -3632,13 +3705,15 @@
             "Ze waren door de Verenigde Naties bij loting toegewezen"
           ],
           "antwoord": 0,
-          "uitleg": "Op de Conferentie van Berlijn en daarna trokken Europeanen grenzen op de kaart, zonder rekening te houden met wie er woonde."
+          "uitleg": "Op de Conferentie van Berlijn en daarna trokken Europeanen grenzen op de kaart, zonder rekening te houden met wie er woonde.",
+          "niet_voor_dg": true
         },
         {
           "type": "invultekst",
           "vraag": "Hoe noemt men economische overheersing van een land dat politiek wel onafhankelijk is?",
           "antwoord": "neokolonialisme",
-          "uitleg": "Neokolonialisme: de vlag is veranderd, maar de economische afhankelijkheid bleef."
+          "uitleg": "Neokolonialisme: de vlag is veranderd, maar de economische afhankelijkheid bleef.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -3650,7 +3725,8 @@
             "België en Congo legden er de datum van de onafhankelijkheid vast"
           ],
           "antwoord": 0,
-          "uitleg": "Uit Bandung groeide de beweging van de niet-gebonden landen, die bij geen van beide blokken wilden horen."
+          "uitleg": "Uit Bandung groeide de beweging van de niet-gebonden landen, die bij geen van beide blokken wilden horen.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -3667,7 +3743,8 @@
             true,
             false
           ],
-          "uitleg": "De nieuwe staten waren een inzet in de strijd tussen de blokken, maar konden ook niet-gebonden blijven."
+          "uitleg": "De nieuwe staten waren een inzet in de strijd tussen de blokken, maar konden ook niet-gebonden blijven.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -3684,7 +3761,8 @@
             true,
             false
           ],
-          "uitleg": "Drie gevolgen op lange termijn. De handel stopte niet; vaak bleef de afhankelijkheid juist bestaan."
+          "uitleg": "Drie gevolgen op lange termijn. De handel stopte niet; vaak bleef de afhankelijkheid juist bestaan.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -3696,7 +3774,8 @@
             "Koloniale geschiedenis enkel in de voormalige koloniën onderwijzen"
           ],
           "antwoord": 0,
-          "uitleg": "Het gaat om een nieuwe blik, niet om schrappen of goedpraten."
+          "uitleg": "Het gaat om een nieuwe blik, niet om schrappen of goedpraten.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -3713,7 +3792,8 @@
             true,
             false
           ],
-          "uitleg": "Teruggave, standbeelden en onderwijs: dat zijn de drie vragen van het debat."
+          "uitleg": "Teruggave, standbeelden en onderwijs: dat zijn de drie vragen van het debat.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -3725,7 +3805,8 @@
             "Het museum toonde voortaan alleen nog Belgische kunst uit de 19de eeuw"
           ],
           "antwoord": 0,
-          "uitleg": "Bij de heropening in 2018 kreeg het koloniale geweld er een plaats."
+          "uitleg": "Bij de heropening in 2018 kreeg het koloniale geweld er een plaats.",
+          "niet_voor_dg": true
         },
         {
           "type": "volgorde",
@@ -3960,7 +4041,8 @@
         {
           "type": "open",
           "vraag": "Geef twee manieren waarop het koloniale verleden de wereld van vandaag nog vormt.",
-          "antwoord": "Bijvoorbeeld: de grenzen van Afrikaanse staten zijn door kolonisatoren getrokken en zorgen nog voor conflicten; talen als Frans en Engels worden er nog gesproken; migratie naar de vroegere moederlanden, zoals de Congolese gemeenschap in België; de handel in grondstoffen zoals kobalt en coltan voor onze telefoons."
+          "antwoord": "Bijvoorbeeld: de grenzen van Afrikaanse staten zijn door kolonisatoren getrokken en zorgen nog voor conflicten; talen als Frans en Engels worden er nog gesproken; migratie naar de vroegere moederlanden, zoals de Congolese gemeenschap in België; de handel in grondstoffen zoals kobalt en coltan voor onze telefoons.",
+          "niet_voor_dg": true
         }
       ]
     },
@@ -3979,7 +4061,8 @@
             "De financiering van het vrije onderwijs"
           ],
           "antwoord": 0,
-          "uitleg": "Werkgevers en vakbonden spraken samen de sociale zekerheid af, en ook dat ze blijvend met elkaar zouden overleggen. Dat model bestaat nog."
+          "uitleg": "Werkgevers en vakbonden spraken samen de sociale zekerheid af, en ook dat ze blijvend met elkaar zouden overleggen. Dat model bestaat nog.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -3996,7 +4079,8 @@
             true,
             false
           ],
-          "uitleg": "Ziekteverzekering, werkloosheid, pensioen en kinderbijslag horen erbij. Een gratis woning niet."
+          "uitleg": "Ziekteverzekering, werkloosheid, pensioen en kinderbijslag horen erbij. Een gratis woning niet.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -4008,7 +4092,8 @@
             "Met vrijwillige giften van burgers en verenigingen aan de ziekenfondsen"
           ],
           "antwoord": 0,
-          "uitleg": "Wie werkt en wie werk geeft, draagt bij. De algemene belastingen vullen aan."
+          "uitleg": "Wie werkt en wie werk geeft, draagt bij. De algemene belastingen vullen aan.",
+          "niet_voor_dg": true
         },
         {
           "type": "sorteren",
@@ -4035,7 +4120,8 @@
               "Actieve welvaartsstaat"
             ]
           ],
-          "uitleg": "De actieve welvaartsstaat verschuift de nadruk van uitkeren naar mensen opnieuw aan het werk helpen."
+          "uitleg": "De actieve welvaartsstaat verschuift de nadruk van uitkeren naar mensen opnieuw aan het werk helpen.",
+          "niet_voor_dg": true
         },
         {
           "type": "koppelen",
@@ -4155,13 +4241,15 @@
             true,
             false
           ],
-          "uitleg": "Een universiteitskwestie werd een politieke aardbeving. De Franstalige afdeling moest weg uit Vlaams gebied."
+          "uitleg": "Een universiteitskwestie werd een politieke aardbeving. De Franstalige afdeling moest weg uit Vlaams gebied.",
+          "niet_voor_dg": true
         },
         {
           "type": "invultekst",
           "vraag": "Hoe heet de nieuwe stad die de Franstalige universiteit na Leuven Vlaams bouwde?",
           "antwoord": "Louvain-la-Neuve",
-          "uitleg": "Louvain-la-Neuve, in Waals-Brabant."
+          "uitleg": "Louvain-la-Neuve, in Waals-Brabant.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -4235,7 +4323,8 @@
             "De eerste staatshervorming",
             "De zesde staatshervorming"
           ],
-          "uitleg": "Eerst de koningskwestie, dan de schoolstrijd die met een pact eindigde, dan Leuven, en daarna de staatshervormingen."
+          "uitleg": "Eerst de koningskwestie, dan de schoolstrijd die met een pact eindigde, dan Leuven, en daarna de staatshervormingen.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -4252,7 +4341,8 @@
             true,
             false
           ],
-          "uitleg": "Kinderbijslag, delen van het arbeidsmarktbeleid en de splitsing van BHV. De provincies bleven bestaan."
+          "uitleg": "Kinderbijslag, delen van het arbeidsmarktbeleid en de splitsing van BHV. De provincies bleven bestaan.",
+          "niet_voor_dg": true
         },
         {
           "type": "sorteren",
@@ -4394,7 +4484,8 @@
         {
           "type": "open",
           "vraag": "Leg uit waarom België sinds 1970 telkens opnieuw een staatshervorming doorvoerde.",
-          "antwoord": "De staatshervormingen zijn vooral antwoorden op de communautaire breuklijn tussen Vlamingen en Franstaligen. Telkens de spanning te hoog opliep, kwam er een nieuwe ronde, en zo groeide België van een unitaire naar een federale staat."
+          "antwoord": "De staatshervormingen zijn vooral antwoorden op de communautaire breuklijn tussen Vlamingen en Franstaligen. Telkens de spanning te hoog opliep, kwam er een nieuwe ronde, en zo groeide België van een unitaire naar een federale staat.",
+          "niet_voor_dg": true
         }
       ]
     },
@@ -4413,7 +4504,8 @@
             "Er is geen verschil: het zijn twee woorden voor hetzelfde proces"
           ],
           "antwoord": 0,
-          "uitleg": "Bij emancipatie verwerft een groep gelijke rechten binnen de eigen samenleving. Zulke bewegingen lopen vaak over meerdere generaties."
+          "uitleg": "Bij emancipatie verwerft een groep gelijke rechten binnen de eigen samenleving. Zulke bewegingen lopen vaak over meerdere generaties.",
+          "niet_voor_dg": true
         },
         {
           "type": "hotspot",
@@ -4427,12 +4519,14 @@
               55
             ]
           ],
-          "uitleg": "1948, net voor het streepje van 1950: dertig jaar na de mannen."
+          "uitleg": "1948, net voor het streepje van 1950: dertig jaar na de mannen.",
+          "niet_voor_dg": true
         },
         {
           "type": "keuzelijst",
           "vraag": "Sommige vrouwen mochten al vanaf [[*1921|1966|1893]] stemmen, maar enkel voor de [[*gemeenteraad|Kamer|Senaat]].",
-          "uitleg": "Voor de gemeenteraad kon het al in 1921, voor het parlement pas veel later."
+          "uitleg": "Voor de gemeenteraad kon het al in 1921, voor het parlement pas veel later.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -4444,7 +4538,8 @@
             "Kortere werkdagen voor alle mannen in de fabriek"
           ],
           "antwoord": 0,
-          "uitleg": "Gelijk loon voor gelijk werk. De staking werd een symbool van de vrouwenbeweging in België."
+          "uitleg": "Gelijk loon voor gelijk werk. De staking werd een symbool van de vrouwenbeweging in België.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -4461,7 +4556,8 @@
             false,
             false
           ],
-          "uitleg": "De wettelijke achterstelling verdween stap voor stap, maar een loonkloof bestaat nog. Het stemrecht kwam voor vrouwen veel later dan voor mannen."
+          "uitleg": "De wettelijke achterstelling verdween stap voor stap, maar een loonkloof bestaat nog. Het stemrecht kwam voor vrouwen veel later dan voor mannen.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -4473,7 +4569,8 @@
             "Het cijnskiesrecht"
           ],
           "antwoord": 0,
-          "uitleg": "Een onzichtbare grens houdt vrouwen weg van de hoogste functies. Daarom kwamen er quota voor de raden van bestuur."
+          "uitleg": "Een onzichtbare grens houdt vrouwen weg van de hoogste functies. Daarom kwamen er quota voor de raden van bestuur.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -4627,7 +4724,8 @@
             "Tegen de hoge prijzen van huizen in de grote steden"
           ],
           "antwoord": 0,
-          "uitleg": "Ontstaan in 2013, ook in Belgische steden actief. De andere opties passen bij de klimaatmarsen en MeToo."
+          "uitleg": "Ontstaan in 2013, ook in Belgische steden actief. De andere opties passen bij de klimaatmarsen en MeToo.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -4639,12 +4737,14 @@
             "De zuilen stuurden hen naar aparte jeugdkampen"
           ],
           "antwoord": 0,
-          "uitleg": "Langer studeren en eigen geld maakten van jongeren een groep met eigen muziek en kleding."
+          "uitleg": "Langer studeren en eigen geld maakten van jongeren een groep met eigen muziek en kleding.",
+          "niet_voor_dg": true
         },
         {
           "type": "keuzelijst",
           "vraag": "Het geluid van de nieuwe jongerencultuur van de jaren vijftig werd de [[*rock-'n-roll|klassieke muziek|hiphop]].",
-          "uitleg": "De rock-'n-roll was de muziek van de eerste echte jongerencultuur."
+          "uitleg": "De rock-'n-roll was de muziek van de eerste echte jongerencultuur.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -4661,7 +4761,8 @@
             true,
             true
           ],
-          "uitleg": "De jongerencultuur had wel degelijk een politieke kant."
+          "uitleg": "De jongerencultuur had wel degelijk een politieke kant.",
+          "niet_voor_dg": true
         },
         {
           "type": "sorteren",
@@ -4688,7 +4789,8 @@
               "Beweging"
             ]
           ],
-          "uitleg": "Een beweging mobiliseert rond een thema, vaak via sociale media. Een partij wil verkozen worden."
+          "uitleg": "Een beweging mobiliseert rond een thema, vaak via sociale media. Een partij wil verkozen worden.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -4820,7 +4922,8 @@
             "Waarom vind ik de middeleeuwen de boeiendste periode?"
           ],
           "antwoord": 0,
-          "uitleg": "Een tijd, een plaats, een groep en een domein, en er bestaan bronnen over. De andere vragen zijn niet afgebakend of gaan over de eigen smaak."
+          "uitleg": "Een tijd, een plaats, een groep en een domein, en er bestaan bronnen over. De andere vragen zijn niet afgebakend of gaan over de eigen smaak.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -4832,7 +4935,8 @@
             "De vraag is te kort om onderzoekbaar te zijn"
           ],
           "antwoord": 0,
-          "uitleg": "Een ja-neevraag levert geen onderzoek op, en zonder afbakening in tijd en ruimte weet je niet waar je moet zoeken."
+          "uitleg": "Een ja-neevraag levert geen onderzoek op, en zonder afbakening in tijd en ruimte weet je niet waar je moet zoeken.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -4849,7 +4953,8 @@
             true,
             false
           ],
-          "uitleg": "Politiek, sociaal, economisch en cultureel. Eigen smaak is geen domein."
+          "uitleg": "Politiek, sociaal, economisch en cultureel. Eigen smaak is geen domein.",
+          "niet_voor_dg": true
         },
         {
           "type": "volgorde",
@@ -5008,7 +5113,8 @@
               42.0
             ]
           ],
-          "uitleg": "Wie enkel dat stuk toont, laat de betoging veel groter lijken dan ze was. Er is niets vervalst, en toch klopt het beeld niet meer."
+          "uitleg": "Wie enkel dat stuk toont, laat de betoging veel groter lijken dan ze was. Er is niets vervalst, en toch klopt het beeld niet meer.",
+          "niet_voor_dg": true
         },
         {
           "type": "koppelen",
@@ -5034,7 +5140,8 @@
           "extra": [
             "Standplaatsgebondenheid"
           ],
-          "uitleg": "Vier criteria om een bron te beoordelen, elk met eigen richtvragen."
+          "uitleg": "Vier criteria om een bron te beoordelen, elk met eigen richtvragen.",
+          "niet_voor_dg": true
         },
         {
           "type": "invultekst",
@@ -5086,7 +5193,8 @@
                 "Over 1890 mag je enkel officiële bronnen gebruiken"
               ],
               "antwoord": 0,
-              "uitleg": "De brief blijft waardevol. Hij toont alleen niet dat iedereen er zo over dacht."
+              "uitleg": "De brief blijft waardevol. Hij toont alleen niet dat iedereen er zo over dacht.",
+              "niet_voor_dg": true
             },
             {
               "type": "tabel",
@@ -5105,7 +5213,8 @@
               "kolommen": [
                 "Mag",
                 "Mag niet"
-              ]
+              ],
+              "niet_voor_dg": true
             },
             {
               "type": "meerkeuze",
@@ -5117,7 +5226,8 @@
                 "Brieven van arbeiders werden na 1945 allemaal vernietigd"
               ],
               "antwoord": 0,
-              "uitleg": "Wie arm is en niet kan schrijven, laat minder papier na. Daar hou je rekening mee."
+              "uitleg": "Wie arm is en niet kan schrijven, laat minder papier na. Daar hou je rekening mee.",
+              "niet_voor_dg": true
             },
             {
               "type": "meerkeuze",
@@ -5129,7 +5239,8 @@
                 "Ze is onbruikbaar, want de zus kan de brief achteraf veranderd hebben"
               ],
               "antwoord": 0,
-              "uitleg": "De brief spreekt over het werk zelf, maar maar voor één persoon."
+              "uitleg": "De brief spreekt over het werk zelf, maar maar voor één persoon.",
+              "niet_voor_dg": true
             }
           ]
         },
@@ -5175,7 +5286,8 @@
                 "Je neemt het gemiddelde van beide aantallen"
               ],
               "antwoord": 0,
-              "uitleg": "Een tegenspraak is geen probleem maar een aanwijzing."
+              "uitleg": "Een tegenspraak is geen probleem maar een aanwijzing.",
+              "niet_voor_dg": true
             },
             {
               "type": "meerkeuze",
@@ -5187,12 +5299,14 @@
                 "Een eigen schatting maken zonder verdere bronnen"
               ],
               "antwoord": 0,
-              "uitleg": "Hoe meer verschillende hoeken, hoe vollediger het beeld."
+              "uitleg": "Hoe meer verschillende hoeken, hoe vollediger het beeld.",
+              "niet_voor_dg": true
             },
             {
               "type": "keuzelijst",
               "vraag": "Een historisch verhaal dat nergens wringt, heeft meestal bronnen [[*weggelaten|gekruist|vertaald]].",
-              "uitleg": "Echte bronnen spreken elkaar vaak tegen. Wie geen enkele tegenspraak tegenkomt, heeft maar één hoek bekeken."
+              "uitleg": "Echte bronnen spreken elkaar vaak tegen. Wie geen enkele tegenspraak tegenkomt, heeft maar één hoek bekeken.",
+              "niet_voor_dg": true
             }
           ]
         },
@@ -5206,7 +5320,8 @@
             "Dat een vertaalde tekst nooit als bron mag dienen"
           ],
           "antwoord": 0,
-          "uitleg": "Bewerken kan de betekenis verschuiven. Daarom kijk je hoe een bron aan jou getoond wordt."
+          "uitleg": "Bewerken kan de betekenis verschuiven. Daarom kijk je hoe een bron aan jou getoond wordt.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -5504,7 +5619,8 @@
               "Cultureel"
             ]
           ],
-          "uitleg": "Vier groepen kenmerken om samenlevingen te vergelijken."
+          "uitleg": "Vier groepen kenmerken om samenlevingen te vergelijken.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -5759,7 +5875,8 @@
               "Gevolg"
             ]
           ],
-          "uitleg": "Armoede, een zwak en corrupt bewind en de oorlog maakten de communisten populair. Daarna volgden de eenpartijstaat en een breuk met de Verenigde Staten, die tot 1979 duurde."
+          "uitleg": "Armoede, een zwak en corrupt bewind en de oorlog maakten de communisten populair. Daarna volgden de eenpartijstaat en een breuk met de Verenigde Staten, die tot 1979 duurde.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -6074,7 +6191,8 @@
               "Brengt China mee"
             ]
           ],
-          "uitleg": "Het is een ruil: grondstoffen, markten en politieke steun tegen infrastructuur en geld."
+          "uitleg": "Het is een ruil: grondstoffen, markten en politieke steun tegen infrastructuur en geld.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -6086,7 +6204,8 @@
             "Westerse landen geven helemaal geen leningen aan Afrika"
           ],
           "antwoord": 0,
-          "uitleg": "China zegt zich niet te bemoeien met binnenlandse zaken. Westerse geldschieters koppelen hulp vaker aan voorwaarden."
+          "uitleg": "China zegt zich niet te bemoeien met binnenlandse zaken. Westerse geldschieters koppelen hulp vaker aan voorwaarden.",
+          "niet_voor_dg": true
         },
         {
           "casus": "Een Afrikaanse krant schrijft: Dankzij China hebben we eindelijk een spoorlijn naar de haven. Een andere krant: Het land kan de Chinese lening niet terugbetalen en moet nu de haven voor jaren uitbesteden aan een Chinees bedrijf.",
@@ -6094,7 +6213,8 @@
             {
               "type": "keuzelijst",
               "vraag": "De eerste krant ziet China als een [[*partner|bezetter|kolonisator]]. De tweede waarschuwt voor een [[*schuldenval|handelsoorlog|burgeroorlog]].",
-              "uitleg": "Dezelfde investering, twee perspectieven. Critici vergelijken het soms met een nieuwe vorm van afhankelijkheid."
+              "uitleg": "Dezelfde investering, twee perspectieven. Critici vergelijken het soms met een nieuwe vorm van afhankelijkheid.",
+              "niet_voor_dg": true
             },
             {
               "type": "meerkeuze",
@@ -6106,7 +6226,8 @@
                 "Met de dekolonisatie: Afrika wordt onafhankelijk van Europa"
               ],
               "antwoord": 0,
-              "uitleg": "Er zijn gelijkenissen, zoals grondstoffen en afhankelijkheid, maar ook verschillen: China bezet geen gebieden en bestuurt ze niet zelf."
+              "uitleg": "Er zijn gelijkenissen, zoals grondstoffen en afhankelijkheid, maar ook verschillen: China bezet geen gebieden en bestuurt ze niet zelf.",
+              "niet_voor_dg": true
             }
           ]
         },
@@ -6631,7 +6752,8 @@
             true,
             false
           ],
-          "uitleg": "Plantage-eigenaars verdienden aan slavernij en waren de grootste tegenstanders. De abolitionisten combineerden christelijke en verlichte argumenten."
+          "uitleg": "Plantage-eigenaars verdienden aan slavernij en waren de grootste tegenstanders. De abolitionisten combineerden christelijke en verlichte argumenten.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -6644,7 +6766,8 @@
           ],
           "antwoord": 0,
           "uitleg": "De vraag doet een beroep op gelijkheid en op het christelijke idee van broederschap.",
-          "afbeelding_url": "/examenvormen/geschiedenis-beyond/abolitie-medaillon.webp"
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/abolitie-medaillon.webp",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -6662,7 +6785,8 @@
             true
           ],
           "uitleg": "Beeld was een krachtig wapen: zonder een woord te lezen begreep iedereen hoe mensen als vracht werden gestapeld.",
-          "afbeelding_url": "/examenvormen/geschiedenis-beyond/slavenschip-brookes.webp"
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/slavenschip-brookes.webp",
+          "niet_voor_dg": true
         },
         {
           "type": "sorteren",
@@ -6689,7 +6813,8 @@
               "Voorstander"
             ]
           ],
-          "uitleg": "Morele en religieuze argumenten stonden tegenover economische belangen en eigendomsrecht."
+          "uitleg": "Morele en religieuze argumenten stonden tegenover economische belangen en eigendomsrecht.",
+          "niet_voor_dg": true
         },
         {
           "type": "volgorde",
@@ -6700,7 +6825,8 @@
             "Nederland schaft de slavernij af in Suriname en de Antillen",
             "Na een burgeroorlog wordt de slavernij in de Verenigde Staten afgeschaft"
           ],
-          "uitleg": "1807, 1833, 1863 en 1865. Eerst werd de handel verboden, pas daarna de slavernij zelf."
+          "uitleg": "1807, 1833, 1863 en 1865. Eerst werd de handel verboden, pas daarna de slavernij zelf.",
+          "niet_voor_dg": true
         },
         {
           "casus": "Een Brits pamflet uit 1791: Wie suiker uit West-Indië eet, eet het bloed van onze broeders. Laat de suiker staan tot de handel in mensen stopt. Ook de vrouwen in huis kunnen zo iets doen.",
@@ -6715,12 +6841,14 @@
                 "Een verbod op elke vorm van handel met Amerika"
               ],
               "antwoord": 0,
-              "uitleg": "Door geen suiker te kopen, wilden ze de handel economisch raken. Zo konden ook mensen zonder stemrecht meedoen."
+              "uitleg": "Door geen suiker te kopen, wilden ze de handel economisch raken. Zo konden ook mensen zonder stemrecht meedoen.",
+              "niet_voor_dg": true
             },
             {
               "type": "keuzelijst",
               "vraag": "Het pamflet richt zich tot [[*gewone gezinnen|plantage-eigenaars|slavenhandelaars]]. Dat het ook de vrouwen aanspreekt, toont dat het doelpubliek [[*breder|smaller|buitenlands]] was dan de kiezers.",
-              "uitleg": "Vrouwen hadden geen stemrecht, maar beslisten wel wat er thuis gekocht werd. Ze speelden een grote rol in de beweging."
+              "uitleg": "Vrouwen hadden geen stemrecht, maar beslisten wel wat er thuis gekocht werd. Ze speelden een grote rol in de beweging.",
+              "niet_voor_dg": true
             }
           ]
         },
@@ -6734,7 +6862,8 @@
             "Ze bewezen dat dieren en mensen niets met elkaar te maken hebben"
           ],
           "antwoord": 0,
-          "uitleg": "Zo leek armoede of overheersing natuurlijk. Darwin zelf schreef over planten en dieren, niet over samenlevingen."
+          "uitleg": "Zo leek armoede of overheersing natuurlijk. Darwin zelf schreef over planten en dieren, niet over samenlevingen.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -6751,7 +6880,8 @@
             true,
             false
           ],
-          "uitleg": "Het is een ideologie in een wetenschappelijk jasje: het leidt uit macht af dat iemand beter is."
+          "uitleg": "Het is een ideologie in een wetenschappelijk jasje: het leidt uit macht af dat iemand beter is.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",
@@ -6764,7 +6894,8 @@
           ],
           "antwoord": 0,
           "uitleg": "De wortels van de boom zijn vakken zoals biologie, geneeskunde en statistiek. Zo wilde de beweging gezag uitstralen.",
-          "afbeelding_url": "/examenvormen/geschiedenis-beyond/eugenetica-boom.webp"
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond/eugenetica-boom.webp",
+          "niet_voor_dg": true
         },
         {
           "type": "sorteren",
@@ -6791,7 +6922,8 @@
               "Negatief: ongewenste mensen tegenhouden"
             ]
           ],
-          "uitleg": "Beide vormen gingen ervan uit dat de staat mag bepalen wie kinderen krijgt."
+          "uitleg": "Beide vormen gingen ervan uit dat de staat mag bepalen wie kinderen krijgt.",
+          "niet_voor_dg": true
         },
         {
           "type": "tabel",
@@ -6808,12 +6940,14 @@
             true,
             false
           ],
-          "uitleg": "Eugenetica was rond 1920 in veel landen populair, ook in democratieën. Nazi-Duitsland voerde ze het verst door."
+          "uitleg": "Eugenetica was rond 1920 in veel landen populair, ook in democratieën. Nazi-Duitsland voerde ze het verst door.",
+          "niet_voor_dg": true
         },
         {
           "type": "open",
           "vraag": "Leg uit hoe het sociaal darwinisme en de eugenetica de weg mee vrijmaakten voor de rassenpolitiek van de nazi's.",
-          "antwoord": "Het sociaal darwinisme leerde dat volkeren en rassen in een strijd verwikkeld zijn waarin de sterkste mag winnen. De eugenetica voegde eraan toe dat de staat het erfelijk materiaal van een volk moet verbeteren door te bepalen wie kinderen mag krijgen. De nazi's namen beide over: ze steriliseerden en vermoordden mensen met een beperking en voerden een rassenpolitiek die leidde tot de Holocaust."
+          "antwoord": "Het sociaal darwinisme leerde dat volkeren en rassen in een strijd verwikkeld zijn waarin de sterkste mag winnen. De eugenetica voegde eraan toe dat de staat het erfelijk materiaal van een volk moet verbeteren door te bepalen wie kinderen mag krijgen. De nazi's namen beide over: ze steriliseerden en vermoordden mensen met een beperking en voerden een rassenpolitiek die leidde tot de Holocaust.",
+          "niet_voor_dg": true
         },
         {
           "type": "meerkeuze",

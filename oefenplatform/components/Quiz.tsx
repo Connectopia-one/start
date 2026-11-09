@@ -89,6 +89,8 @@ type Vraag = {
   /** Een casus: de situatie die boven deze vraag staat, en boven de andere
    *  vragen van dezelfde casus. Zie lib/examenvormen.ts. */
   casus?: string | null;
+  /** Leerstof die bedrijfs- en welzijnswetenschappen niet nodig hebben. */
+  nietVoorDg?: boolean;
   opties: string[] | null;
   /** Een lijstje nummers betekent: er is meer dan één juist antwoord. */
   antwoord: number | string | boolean | number[] | string[] | Record<string, unknown>;
@@ -492,6 +494,12 @@ function VraagKaart({
         <p className="mb-2 text-xs text-ink-dim">
           {opdracht.zin}
           {opdracht.punten && <span className="block">{opdracht.punten}</span>}
+        </p>
+      )}
+
+      {vraag.nietVoorDg && (
+        <p className="mb-2 inline-block rounded-full bg-sky-100 px-3 py-0.5 text-xs font-medium text-sky-900">
+          Niet nodig voor bedrijfs- en welzijnswetenschappen
         </p>
       )}
 

@@ -32,6 +32,9 @@ export async function maakVraag(supabase: SupabaseClient, rij: VraagRij) {
     // Een casus staat bij elke vraag zelf, zodat ze ook op het examen, tussen
     // vragen van andere hoofdstukken, op zichzelf te beantwoorden is.
     casus: (rij.casus ?? null) as string | null,
+    // Leerstof die bedrijfs- en welzijnswetenschappen niet nodig hebben
+    // (supabase/niet-voor-dg.sql). Dan staat er een klein label bij.
+    nietVoorDg: rij.niet_voor_dg === true,
     volgnummer: rij.volgnummer as number,
     // Op het examen lopen de vragen van alle hoofdstukken door elkaar. Dan moet
     // de browser nog kunnen zien uit welk hoofdstuk een vraag komt, want een

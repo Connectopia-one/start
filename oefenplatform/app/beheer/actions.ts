@@ -448,6 +448,8 @@ type BulkVraag = {
   uitleg?: string | null;
   /** Een casus: de situatie boven de vraag. Zie lib/examenvormen.ts. */
   casus?: string | null;
+  /** true: bedrijfs- en welzijnswetenschappen (vakfiche 3DDG) hebben deze leerstof niet nodig. */
+  niet_voor_dg?: boolean;
   /** Een prent bij de vraag: een volledige URL of een pad zoals /examenvormen/kaart.png. */
   afbeelding_url?: string | null;
   /**
@@ -881,6 +883,8 @@ export async function bulkImportVakInhoud(formData: FormData) {
       // Enkel als er een casus in het bestand staat, zodat een bestand zonder
       // casus ook ingaat zolang supabase/examenvormen.sql niet gedraaid is.
       ...(v.casus ? { casus: v.casus } : {}),
+      // Idem: enkel als het label er staat (supabase/niet-voor-dg.sql).
+      ...(v.niet_voor_dg ? { niet_voor_dg: true } : {}),
     }));
 
     let { error: vragenFout } = await admin.from("vragen").insert(rijen);
@@ -894,8 +898,19 @@ export async function bulkImportVakInhoud(formData: FormData) {
     // geweigerd. Bestanden zónder varianten liepen dus even hard vast, en dat
     // is precies wat er op 30 september 2026 met geschiedenis Boost gebeurde.
     // Kijk dus naar de fout zelf, niet naar de inhoud van het bestand.
+    let basis: Record<string, unknown>[] = rijen;
     if (vragenFout && kolomOntbreekt(vragenFout, "varianten")) {
-      const zonder = rijen.map(({ varianten: _weg, ...rest }) => {
+      basis = rijen.map(({ varianten: _weg, ...rest }) => {
+        void _weg;
+        return rest;
+      });
+      ({ error: vragenFout } = await admin.from("vragen").insert(basis));
+    }
+    // Idem voor het label van bedrijfs- en welzijnswetenschappen, zolang
+    // supabase/niet-voor-dg.sql niet gedraaid is: de vragen gaan er dan in
+    // zonder label, in plaats van dat het hoofdstuk leeg blijft.
+    if (vragenFout && kolomOntbreekt(vragenFout, "niet_voor_dg")) {
+      const zonder = basis.map(({ niet_voor_dg: _weg, ...rest }) => {
         void _weg;
         return rest;
       });

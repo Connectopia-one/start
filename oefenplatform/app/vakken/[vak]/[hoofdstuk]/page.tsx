@@ -24,6 +24,7 @@ import { Leidraad } from "@/components/Leidraad";
 import { MeldingKnop } from "@/components/MeldingKnop";
 import { TerugNaarVak } from "@/components/TerugNaarVak";
 import { heeftKlikbareBundel } from "@/lib/leerbundel";
+import { leertVoorDg } from "@/lib/leerrichting";
 
 export default async function HoofdstukPage({
   params,
@@ -73,8 +74,15 @@ export default async function HoofdstukPage({
         .order("volgnummer", { ascending: true })
     : { data: [] };
 
+  // Bedrijfs- of welzijnswetenschappen gekozen (lib/leerrichting.ts)? Dan
+  // vallen de vragen weg die zij niet nodig hebben.
+  const dg = await leertVoorDg();
+  const alleRijen = vragenRuw ?? [];
+  const rijen = dg ? alleRijen.filter((r) => r.niet_voor_dg !== true) : alleRijen;
+  const dgWeg = alleRijen.length - rijen.length;
+
   const vragen = await Promise.all(
-    (vragenRuw ?? []).map((rij) => maakVraag(supabase, rij)),
+    rijen.map((rij) => maakVraag(supabase, rij)),
   );
 
   const { data: kinderen } = session
@@ -247,6 +255,16 @@ export default async function HoofdstukPage({
                     />
                   </div>
                 )}
+                {dgWeg > 0 && (
+                  <p className="mb-4 rounded-xl border border-orange-300 bg-orange-50 px-4 py-3 text-sm text-ink">
+                    <span aria-hidden>🟠</span>{" "}
+                    {vragen.length === 0
+                      ? "Je leert voor bedrijfs- of welzijnswetenschappen. Dit hoofdstuk heb je niet nodig."
+                      : `Je leert voor bedrijfs- of welzijnswetenschappen. ${dgWeg} ${dgWeg === 1 ? "vraag" : "vragen"} over leerstof die je niet nodig hebt, ${dgWeg === 1 ? "staat" : "staan"} er niet bij.`}{" "}
+                    Dat kies je bovenaan het vak.
+                  </p>
+                )}
+                {vragen.length > 0 && (
                 <Quiz
                   vragen={vragen}
                   kinderen={(kinderen ?? []).map((k) => ({
@@ -260,6 +278,7 @@ export default async function HoofdstukPage({
                   hoofdstukId={hoofdstuk.id}
                   taalvak={isTaalvak(vak.slug)}
                 />
+                )}
               </>
             }
             rekenmachine={vak.rekenmachine ? <GeoGebraCalculator /> : null}

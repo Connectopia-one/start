@@ -14,6 +14,9 @@ export type HoofdstukTegel = {
   gratis: boolean;
   /** Mag dit kind erin? Vrijgegeven of gratis. */
   mag: boolean;
+  /** Bij de keuze bedrijfs- of welzijnswetenschappen (lib/leerrichting.ts):
+   *  "deels" = een stuk valt weg, "niet" = dit hoofdstuk heb je niet nodig. */
+  dg?: "deels" | "niet";
 };
 
 /**
@@ -155,7 +158,7 @@ export function HoofdstukTegels({
           /* Een hoofdstuk waar al aan gewerkt is, krijgt naast het vinkje
              een heel lichte groene achtergrond (Kim, 6 november 2026). */
           s?.gemaakt ? "bg-forest/5" : "bg-surface"
-        } ${
+        } ${h.dg === "niet" ? "opacity-60" : ""} ${
           welzijn
             ? "border-info/50 hover:border-info"
             : uitdaging || pittig
@@ -210,6 +213,16 @@ export function HoofdstukTegels({
               Moeilijker
             </span>
           ) : null}
+          {h.dg === "deels" && (
+            <span className="rounded-full bg-orange-100 px-2.5 py-0.5 text-xs font-medium text-orange-800">
+              🟠 Een stuk valt weg
+            </span>
+          )}
+          {h.dg === "niet" && (
+            <span className="rounded-full bg-ink-dim/10 px-2.5 py-0.5 text-xs font-medium text-ink-dim">
+              Niet nodig voor jou
+            </span>
+          )}
           {welzijn && (
             <span className="rounded-full bg-info/15 px-2.5 py-0.5 text-xs font-medium text-info">
               🩺 Enkel welzijnswetenschappen

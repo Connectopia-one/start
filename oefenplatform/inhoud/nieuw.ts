@@ -43,7 +43,7 @@ export const updates: Update[] = [
     datum: "9 november 2026",
     titel: "Geschiedenis Beyond: wat mag je overslaan in bedrijfs- of welzijnswetenschappen?",
     tekst:
-      "Volg je bedrijfswetenschappen of welzijnswetenschappen? Dan is je examen geschiedenis wat lichter. Bovenaan het vak geschiedenis in Beyond staat nu per hoofdstuk welke stukken je mag overslaan.",
+      "Volg je bedrijfswetenschappen of welzijnswetenschappen? Dan is je examen geschiedenis wat lichter. Kies bovenaan het vak geschiedenis in Beyond voor welke richting je leert: dan krijg je enkel de vragen die je nodig hebt, ook in het examen. Hoofdstukken waar een stuk wegvalt, krijgen een oranje bolletje.",
   },
   {
     datum: "9 november 2026",
