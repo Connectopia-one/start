@@ -90,10 +90,10 @@ function speel(sleutel) {
   const speelbaar = kaart.gebieden.filter(g => g.speel);
   let rest = schud(speelbaar.map(g => g.naam));
   const klaar = new Set();
-  let bericht = "";
+  let bericht = "", net = null;
 
   function teken() {
-    const doel = rest[0];
+    const doel = net ? null : rest[0];
     const paden = kaart.gebieden.map((g, i) =>
       `<path d="${g.d}" data-i="${i}" class="gebied ${g.speel ? "speel" : ""} ${klaar.has(g.naam) ? "klaar" : ""}"
         ${g.speel && !klaar.has(g.naam) ? `role="button" tabindex="0" aria-label="een gebied op de kaart"` : ""}/>`).join("");
@@ -106,16 +106,19 @@ function speel(sleutel) {
       </div>
       <div class="blok">
         ${doel ? `<div class="vraag">${set.vraag} <span style="color:var(--groen)">${esc(doel)}</span>?</div>`
+               : net ? `<div class="vraag">Juist, dat is ${esc(net)}.</div>`
                : `<div class="vraag">Klaar! Je vond ze allemaal.</div>`}
         <svg class="kaart" viewBox="0 0 ${kaart.b} ${kaart.h}" role="img" aria-label="Kaart: ${set.titel}">${paden}${namen}</svg>
         <div class="bericht" aria-live="polite">${bericht}</div>
         <div class="rij" style="justify-content:space-between;margin-top:12px">
           ${doel ? `<button data-toon>Toon me waar</button><button data-sla>Sla over, later nog eens</button>`
+                 : net ? `<span></span><button class="hoofd" data-volgende>${rest.length ? "Volgende" : "Klaar"}</button>`
                  : `<button class="hoofd" data-opnieuw>Nog eens</button>`}
         </div>
       </div>
       <footer>Kaarten: Natural Earth (publiek domein).</footer>`;
     $app.querySelector("[data-terug]").onclick = start;
+    const v = $app.querySelector("[data-volgende]"); if (v) { v.onclick = () => { net = null; bericht = ""; teken(); }; v.focus(); }
     const o = $app.querySelector("[data-opnieuw]"); if (o) o.onclick = () => speel(sleutel);
     const sla = $app.querySelector("[data-sla]"); if (sla) sla.onclick = () => { rest.push(rest.shift()); bericht = ""; teken(); };
     const toon = $app.querySelector("[data-toon]"); if (toon) toon.onclick = () => {
@@ -127,7 +130,8 @@ function speel(sleutel) {
       const g = kaart.gebieden[+p.dataset.i];
       if (klaar.has(g.naam)) return;
       const tik = () => {
-        if (g.naam === doel) { klaar.add(doel); rest.shift(); bericht = `Juist, dat is ${esc(doel)}.`; }
+        if (!doel) return;
+        if (g.naam === doel) { klaar.add(doel); rest.shift(); net = doel; bericht = ""; }
         else {
           const d = kaart.gebieden.find(x => x.naam === doel);
           bericht = `Dat is ${esc(g.naam)}. ${esc(doel)} ligt ${richting(g, d)}.`;
