@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "9 november 2026",
+    titel: "Natuurwetenschappen Beyond: kies je richting",
+    tekst:
+      "Ook bij natuurwetenschappen in Beyond doorstroom kies je nu bovenaan voor welke richting je leert, net als bij wiskunde basis en geschiedenis. Kies je welzijnswetenschappen, dan krijg je de extra blauwe hoofdstukken over het menselijk lichaam erbij, ook in het examen. Kies je een andere richting, dan laten we ze weg.",
+    link: { tekst: "Naar natuurwetenschappen", href: "/niveaus/beyond-doorstroom/natuurwetenschappen" },
+  },
+  {
+    datum: "9 november 2026",
     titel: "Algemene economie voor Beyond doorstroom",
     tekst:
       "Beyond doorstroom heeft nu algemene economie, voor economie-wiskunde en bedrijfswetenschappen. Er zijn 40 hoofdstukken met 800 vragen, van de economische kringloop en de markt tot geld, inflatie, internationale handel en economisch onderzoek.",

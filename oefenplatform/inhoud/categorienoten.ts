@@ -163,9 +163,8 @@ export const categorienoten: Record<string, Categorienoot> = {
       {
         kop: "Bedrijfswetenschappen en welzijnswetenschappen",
         tekst:
-          "Bij wiskunde basis en geschiedenis kies je bovenaan je richting. " +
-          "Dan laten we weg wat jouw examen niet vraagt. Bij natuurwetenschappen " +
-          "staan de extra hoofdstukken van welzijnswetenschappen onderaan in het blauw.",
+          "Bij wiskunde basis, geschiedenis en natuurwetenschappen kies je " +
+          "bovenaan je richting. Dan krijg je enkel wat jouw examen vraagt.",
       },
     ],
     richtingen: {

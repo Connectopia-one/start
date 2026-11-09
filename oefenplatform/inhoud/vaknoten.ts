@@ -156,10 +156,8 @@ const wegwijzers: Record<string, Wegwijzer> = {
     valt helemaal weg, daarom een lijstje per hoofdstuk.
   */
   "beyond-doorstroom/geschiedenis": {
-    titel: "Volg je bedrijfswetenschappen of welzijnswetenschappen? Kies het hieronder.",
-    tekst:
-      "Jouw examen geschiedenis is wat lichter. Kies je richting, dan laten we " +
-      "weg wat jouw examen niet vraagt, ook in het examen hier.",
+    titel: "Voor welke richting leer je?",
+    tekst: "Kies je richting, dan krijg je enkel wat jouw examen vraagt, ook in het examen hier.",
     richtingKeuze: true,
     lijstKop: "Wat laten we dan weg? Bekijk het per hoofdstuk",
     lijst: [
@@ -192,7 +190,7 @@ const wegwijzers: Record<string, Wegwijzer> = {
   */
   "beyond-doorstroom/wiskunde-basis": {
     titel: "Voor welke richting leer je?",
-    tekst: "Kies je richting, dan krijg je enkel de hoofdstukken die je examen vraagt.",
+    tekst: "Kies je richting, dan krijg je enkel wat jouw examen vraagt, ook in het examen hier.",
     richtingKeuze: true,
     weglaten: {
       algemeen: ["Bedrijfswetenschappen:"],
@@ -204,17 +202,25 @@ const wegwijzers: Record<string, Wegwijzer> = {
       welzijn: "Tweedegraadsfuncties en tweedegraadsvergelijkingen laten we weg: jouw examen vraagt ze niet.",
     },
   },
+  /*
+    Kim, 9 november 2026: "kunnen we bij natuurwetenschappen niet hetzelfde
+    doen als wiskunde en geschiedenis", "dat alles overal hetzelfde is". De
+    blauwe hoofdstukken (lib/welzijn.ts) staan er enkel als je
+    welzijnswetenschappen kiest, en dan zitten ze ook in het examen.
+  */
   "beyond-doorstroom/natuurwetenschappen": {
-    titel: "Volg je welzijnswetenschappen? Maak dan ook de blauwe hoofdstukken onderaan.",
-    tekst:
-      "Jouw examen natuurwetenschappen bevat alles van dit vak, plus een extra " +
-      "deel over het menselijk lichaam: enzymen, spijsvertering, uitscheiding, " +
-      "bloed, hart en bloedsomloop, bloeddruk en lymfe, en ademhaling. Die " +
-      "hoofdstukken staan onderaan in het blauw, met het label Enkel " +
-      "welzijnswetenschappen. Bij jou weegt biologie zwaarder door: 50 procent, " +
-      "chemie 15, fysica 25 en onderzoek 10. Volg je een andere richting, dan " +
-      "sla je de blauwe hoofdstukken over.",
-    knop: { label: "Examen voor welzijnswetenschappen", href: "examen?welzijn=1" },
+    titel: "Voor welke richting leer je?",
+    tekst: "Kies je richting, dan krijg je enkel wat jouw examen vraagt, ook in het examen hier.",
+    richtingKeuze: true,
+    weglaten: {
+      algemeen: ["Welzijnswetenschappen:"],
+      bedrijf: ["Welzijnswetenschappen:"],
+    },
+    keuzeUitleg: {
+      bedrijf: "Je krijgt alle hoofdstukken van het gewone examen natuurwetenschappen.",
+      welzijn:
+        "Onderaan staan in het blauw de extra hoofdstukken over het menselijk lichaam die jouw examen ook vraagt.",
+    },
   },
 };
 

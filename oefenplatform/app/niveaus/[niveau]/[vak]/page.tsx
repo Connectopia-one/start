@@ -169,7 +169,7 @@ export default async function NiveauVakPage({
               {dg && richting === "welzijn" && " (voor welzijnswetenschappen)"}
               {dg && richting === "dg" && " (voor bedrijfs- en welzijnswetenschappen)"}
             </Link>
-            {hoofdstukken.some((h) => isWelzijn(h.titel)) && (
+            {!wegwijzer?.richtingKeuze && hoofdstukken.some((h) => isWelzijn(h.titel)) && (
               <Link
                 href={`/niveaus/${niveau.slug}/${vak.slug}/examen?welzijn=1`}
                 className="rounded-full border border-info/50 bg-surface px-3 py-1 text-info transition hover:border-info"

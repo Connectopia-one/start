@@ -113,11 +113,14 @@ export default async function ExamenPage({
   const { niveau: niveauSlug, vak: vakSlug } = await params;
   // De hoofdstukken die enkel voor welzijnswetenschappen tellen, komen alleen
   // in het examen met ?welzijn=1 (zie lib/welzijn.ts).
-  const metWelzijn = (await searchParams).welzijn === "1";
+
   // Examen voor bedrijfs- en welzijnswetenschappen (vakfiche 3DDG): zonder de
   // vragen met het label niet_voor_dg (supabase/niet-voor-dg.sql).
   const richting = await leerrichting();
   const voorDg = (await searchParams).dg === "1" || richting !== "algemeen";
+  // Wie bovenaan welzijnswetenschappen koos, krijgt de blauwe hoofdstukken
+  // ook in het examen (natuurwetenschappen, Kim 9 november 2026).
+  const metWelzijn = (await searchParams).welzijn === "1" || richting === "welzijn";
   // Hoofdstukken die voor de gekozen richting wegvallen (wiskunde basis).
   const weglaten = vindWegwijzer(niveauSlug, vakSlug)?.weglaten;
   const niveau = vindNiveau(niveauSlug);
@@ -265,7 +268,9 @@ export default async function ExamenPage({
         <h1 className="mt-2 font-display text-2xl font-semibold text-ink">
           Examen {vak.naam}
           {metWelzijn && " voor welzijnswetenschappen"}
-          {voorDg && " voor bedrijfs- en welzijnswetenschappen"}
+          {!metWelzijn && richting === "bedrijf" && " voor bedrijfswetenschappen"}
+          {!metWelzijn && (richting === "dg" || (richting === "algemeen" && voorDg)) &&
+            " voor bedrijfs- en welzijnswetenschappen"}
         </h1>
         <p className="mt-1 text-sm text-ink-dim">
           {vragen.length} vragen door elkaar uit de {hoofdstukken.length}{" "}
