@@ -1954,3 +1954,122 @@ BUNDELS["denkstromingen-en-kunststromingen-van-de-19de-en-20ste-eeuw-beyond"] = 
         "Surrealisme: dromen en onmogelijke combinaties. Abstracte kunst: geen herkenbare voorstelling.",
     ],
 )
+
+# ───────────────────────── 17. Kunst en cultuur analyseren met het stappenplan
+# Toegevoegd 9/11/2026: het stappenplan van de vakfiche (vier stappen met
+# richtvragen), toegepast op drie werken met prent en vier zonder (film, lied,
+# graffiti, game), want van die laatste zijn geen vrije beelden.
+BUNDELS["kunst-en-cultuur-analyseren-met-het-stappenplan-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Kunst en cultuur analyseren met het stappenplan",
+    onder="De vier stappen van het examen, uitgewerkt op een schilderij, een gebouw, een film, een lied, graffiti en een game.",
+    secties=[
+        dict(kop="Het stappenplan", blokken=[
+            ("p", "Op het examen krijg je afbeeldingen of filmpjes van <strong>kunst- of cultuuruitingen</strong> uit "
+                  "verschillende periodes, telkens met <strong>contextinformatie</strong>. Je analyseert ze met een "
+                  "<strong>stappenplan</strong> van vier stappen. Eerst de feiten, dan kijken en luisteren, dan pas "
+                  "betekenis geven, en ten slotte alles verwoorden."),
+            ("p", tabel(["Stap", "Richtvragen"], [
+                ["1. Informatie verzamelen", "De tijd: wanneer werd het gemaakt? De ruimte: waar? De maatschappelijke "
+                 "context. De maker: wie heeft het gemaakt? De titel of naam. De soort uiting: schilderij, "
+                 "beeldhouwwerk, bouwwerk, film, game, graffiti of lied."],
+                ["2. Beschrijven wat je ziet of hoort", "Welke materialen worden er gebruikt? Welke figuren en vormen "
+                 "zie je? Wat is de schikking van de beeldelementen? Welke kleuren? Wordt er licht en schaduw "
+                 "gebruikt? Welke klanken, welk ritme en tempo hoor je? Welke instrumenten of stemmen?"],
+                ["3. Interpreteren", "a) Het onderwerp (wat): bijvoorbeeld de dood, het alledaagse, onrecht, liefde, "
+                 "gender. Het doelpubliek (voor wie). De bedoeling (waarom): bekritiseren, bevestigen, decoreren, "
+                 "entertainen, identiteit vormgeven, informeren, praktisch gebruiken, schoonheid creëren. "
+                 "b) De samenhang: hoe ondersteunt wat je ziet of hoort het onderwerp en de bedoeling? Welke invloed "
+                 "heeft de maatschappelijke context?"],
+                ["4. Je analyse toelichten", "Je verwoordt in een eigen tekst wat je waarnam en interpreteerde."],
+            ])),
+            ("kader", "<strong>Beschrijven of interpreteren?</strong> Beschrijven kan iedereen controleren door te "
+                      "kijken: op de voorgrond liggen drie lichamen, het licht valt van links op de centrale figuur. Zodra je een "
+                      "bedoeling of een publiek invult (de maker wil de oorlog aanklagen, het werk is voor een rijk "
+                      "publiek), interpreteer je al. Dat hoort pas bij stap 3."),
+            ("p", "Het <strong>onderwerp</strong> is waarover een werk gaat, de <strong>bedoeling</strong> is waarom "
+                  "het gemaakt werd. Een werk over armoede (onderwerp) kan willen aanklagen, ontroeren of informeren "
+                  "(bedoeling). Een sterfbed met huilende familie en een priester heeft als onderwerp de dood. Een "
+                  "werk kan ook <strong>meerdere bedoelingen</strong> hebben."),
+            ("p", tabel(["Bedoeling", "Voorbeeld"], [
+                ["Bekritiseren", "een spotprent die een minister belachelijk maakt"],
+                ["Bevestigen", "een standbeeld van de koning op een groot plein"],
+                ["Decoreren", "een sierlijk behangpapier met bloemen"],
+                ["Identiteit vormgeven", "een volkslied dat op school gezongen wordt"],
+                ["Praktisch gebruiken", "een stoel of een brug: dingen die vooral een functie hebben"],
+            ])),
+            ("p", "Ook een computerspel, een graffitiwerk of een protestlied analyseer je zo. Een tabel met "
+                  "bevolkingscijfers is daarentegen geen kunst- of cultuuruiting maar een gewone historische bron. Zonder <strong>maatschappelijke context</strong> begrijp je de bedoeling van een werk niet."),
+        ]),
+        dict(kop="Voorbeeld 1: De Vrijheid leidt het volk", blokken=[
+            ("fig", foto(_K + "delacroix-vrijheid.jpg", "70%", "Eugène Delacroix, De Vrijheid leidt het volk, 1830. Louvre, publiek domein."), ""),
+            ("p", "<strong>Stap 1.</strong> Een schilderij van <strong>Eugène Delacroix</strong>, <strong>1830</strong>, "
+                  "Parijs. De context is de <strong>Julirevolutie</strong>: drie dagen straatgevechten in juli 1830 "
+                  "joegen koning <strong>Karel X</strong> weg. Hetzelfde jaar volgde de Belgische Revolutie."),
+            ("p", "<strong>Stap 2.</strong> Een vrouw met een driekleurige vlag en een Frygische muts, met ontblote borst, "
+                  "loopt voorop. Rond haar mensen van verschillende standen: een man met hoge hoed, een arbeider, een "
+                  "jongen met pistolen. Op de voorgrond liggen gesneuvelden. De <strong>schikking</strong>, de manier waarop de figuren en vormen geordend zijn: ze staan in een "
+                  "<strong>piramide</strong> met de <strong>vlag op het hoogste punt</strong>. Het felste licht valt "
+                  "op de vrouw met de vlag; de achtergrond verdwijnt in rook en stof."),
+            ("p", "<strong>Stap 3.</strong> De vrouw is geen echt persoon maar een <strong>allegorie</strong>: de "
+                  "Vrijheid zelf, die Frankrijk verbeeldt (Marianne). De bedoeling: <strong>het volk eren dat samen "
+                  "voor de vrijheid vecht</strong>. De schikking stuurt je blik van de doden onderaan naar de vlag "
+                  "bovenaan. De Franse staat kocht het werk in 1831, maar hing het al snel weg: een opstand "
+                  "verheerlijken was voor de nieuwe koning te gevaarlijk. Zo bepaalt de context mee hoe een werk "
+                  "ontvangen wordt."),
+        ]),
+        dict(kop="Voorbeeld 2: De arenleesters", blokken=[
+            ("fig", foto(_K + "millet-arenleesters.jpg", "70%", "Jean-François Millet, De arenleesters, 1857. Musée d'Orsay, publiek domein."), ""),
+            ("p", "<strong>Stap 1.</strong> Een schilderij van <strong>Jean-François Millet</strong>, <strong>1857</strong>, "
+                  "tentoongesteld op de <strong>Salon</strong>, de grote kunsttentoonstelling in Parijs. Het "
+                  "<strong>doelpubliek</strong> daar: kunstkenners, critici en welgestelde kopers uit de stad."),
+            ("p", "<strong>Stap 2.</strong> Drie vrouwen bukken zich om achtergebleven aren op te rapen. Op de "
+                  "achtergrond liggen grote hopen graan en staat een volle kar; een man te paard overziet het werk. "
+                  "Millet gebruikt warme <strong>aardetinten</strong> en zacht licht."),
+            ("p", "<strong>Stap 3.</strong> Het onderwerp is het <strong>alledaagse</strong> leven van arme "
+                  "boerenvrouwen, maar je kan er ook <strong>onrecht</strong> in lezen. Arenlezen was het recht van de "
+                  "armsten om na de oogst op te rapen wat overbleef. De schikking toont <strong>het verschil tussen "
+                  "de armen en de overvloed van anderen</strong>. Sommige kijkers vonden het werk verontrustend: na de "
+                  "opstanden van <strong>1848</strong> leek een groot doek met arme mensen een politieke dreiging."),
+        ]),
+        dict(kop="Voorbeeld 3: het Justitiepaleis in Brussel", blokken=[
+            ("fig", foto(_K + "justitiepaleis-brussel.jpg", "70%", "Foto Romainberth, 2009, CC BY-SA 3.0."), ""),
+            ("p", "<strong>Stap 1.</strong> Een bouwwerk van architect <strong>Joseph Poelaert</strong>, gebouwd van "
+                  "<strong>1866 tot 1883</strong> op een heuvel boven de volksbuurt de <strong>Marollen</strong>. Het "
+                  "was een van de grootste gebouwen van Europa, groter dan de Sint-Pietersbasiliek in Rome. België "
+                  "bestond toen pas een paar decennia."),
+            ("p", "<strong>Stap 3.</strong> De bedoeling: het <strong>gezag van de wet en de staat tonen</strong>, aan de "
+                  "eigen burgers en aan het buitenland. Een gebouw spreekt hier van macht, orde en de ambitie van een "
+                  "jong land. Maar voor de bouw werd een deel van de Marollen afgebroken: wat voor de staat prestige "
+                  "was, kostte arme bewoners hun huis. In de Marollen werd <em>architect</em> lang een scheldwoord. "
+                  "Een werk kan voor verschillende groepen iets heel anders betekenen."),
+        ]),
+        dict(kop="Film, lied, graffiti en game", blokken=[
+            ("p", "<strong>Film.</strong> In <strong>Modern Times</strong> (1936) van <strong>Charlie Chaplin</strong> "
+                  "draait een fabrieksarbeider zo lang moertjes vast aan de <strong>lopende band</strong> dat hij zelf "
+                  "in de machine wordt opgeslokt; later belandt hij in de werkloosheid. De context: massaproductie en "
+                  "de <strong>crisis van de jaren dertig</strong> na de beurskrach van 1929. Bedoelingen: "
+                  "<strong>entertainen</strong> (het is een komische film) en <strong>bekritiseren</strong> (de mens "
+                  "wordt een onderdeel van de machine)."),
+            ("p", "<strong>Lied.</strong> <strong>We Shall Overcome</strong> werd in de jaren zestig massaal gezongen op "
+                  "betogingen in de Verenigde Staten. Het gaf <strong>moed in de strijd tegen rassenscheiding</strong> "
+                  "en een gevoel van samenhorigheid: <strong>identiteit vormgeven</strong>."),
+            ("p", "<strong>Graffiti.</strong> Op de resten van de <strong>Berlijnse Muur</strong> maakten kunstenaars in "
+                  "1990 meer dan honderd schilderingen. Bij stap 2 vraag je naar de materialen (verf uit spuitbussen "
+                  "op beton), de figuren en kleuren en de schikking; wat de kunstenaars wilden zeggen, hoort bij stap 3. "
+                  "Stap 1 is bij graffiti vaak moeilijk: de maker is vaak <strong>onbekend</strong> en een datum "
+                  "ontbreekt. Dan haal je de context uit andere bronnen."),
+            ("p", "<strong>Game.</strong> In <strong>This War of Mine</strong> (2014) speel je geen soldaat, maar burgers "
+                  "die in een belegerde stad proberen te overleven; het spel is geïnspireerd op het beleg van "
+                  "Sarajevo. Het wil <strong>laten voelen wat oorlog voor gewone mensen betekent</strong>: ook een "
+                  "game kan informeren en bekritiseren."),
+        ]),
+    ],
+    onthoud=[
+        "Stap 1 informatie, stap 2 beschrijven, stap 3 interpreteren, stap 4 toelichten.",
+        "Beschrijven kan iedereen controleren door te kijken; een bedoeling of publiek invullen is interpreteren.",
+        "Onderwerp = waarover het gaat; bedoeling = waarom het gemaakt werd.",
+        "Bedoelingen: bekritiseren, bevestigen, decoreren, entertainen, identiteit vormgeven, informeren, praktisch gebruiken, schoonheid creëren.",
+        "Zonder maatschappelijke context begrijp je de bedoeling van een werk niet.",
+        "Een allegorie is een idee voorgesteld als een persoon, zoals de Vrijheid bij Delacroix.",
+    ],
+)

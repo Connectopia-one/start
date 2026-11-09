@@ -7164,6 +7164,431 @@
           "uitleg": "De romantiek ontstond rond 1800. Kubisme vanaf 1907, abstracte kunst rond 1910, surrealisme vanaf 1924."
         }
       ]
+    },
+    {
+      "titel": "Kunst en cultuur analyseren met het stappenplan — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "invultekst",
+          "vraag": "Uit hoeveel stappen bestaat het stappenplan om kunst- en cultuuruitingen te analyseren? Schrijf het cijfer.",
+          "antwoord": [
+            "4",
+            "vier"
+          ],
+          "uitleg": "Informatie verzamelen, beschrijven, interpreteren en je analyse toelichten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doe je in stap 1 van het stappenplan?",
+          "opties": [
+            "informatie verzamelen: tijd, ruimte, context, maker, titel en soort",
+            "beschrijven welke kleuren en vormen je ziet",
+            "bepalen wat de bedoeling van de maker was",
+            "je hele analyse in een eigen tekst verwoorden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst de feiten rond het werk, dan pas kijken en betekenis geven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke richtvragen horen bij stap 2, beschrijven?",
+          "opties": [
+            "Welke materialen worden er gebruikt?",
+            "Welke kleuren worden er gebruikt?",
+            "Welke klanken, welk ritme en tempo hoor je?",
+            "Voor wie werd het gemaakt?"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Voor wie het gemaakt werd, is het doelpubliek. Dat bepaal je pas in stap 3."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bepaal je in stap 3a?",
+          "opties": [
+            "het onderwerp, het doelpubliek en de bedoeling",
+            "de naam van de maker en het jaartal",
+            "de materialen en de kleuren",
+            "de prijs van het werk op de kunstmarkt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wat, voor wie en waarom. In 3b leg je de samenhang met wat je ziet of hoort."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In stap 4 verwoord je in een eigen tekst wat je waarnam en interpreteerde.",
+          "antwoord": true,
+          "uitleg": "Stap 4 is je analyse toelichten, nadat je alle vorige stappen doorlopen hebt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De zin De maker wil de oorlog aanklagen is een beschrijving voor stap 2.",
+          "antwoord": false,
+          "uitleg": "Dat is al interpreteren: je vult een bedoeling in. Dat hoort bij stap 3."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De zin Het licht valt van links op de centrale figuur is een beschrijving.",
+          "antwoord": true,
+          "uitleg": "Iedereen kan dat controleren door te kijken. Dat is stap 2."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitingen kan je met het stappenplan analyseren?",
+          "opties": [
+            "een computerspel",
+            "een graffitiwerk",
+            "een protestlied",
+            "een tabel met bevolkingscijfers"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Schilderijen, beelden, gebouwen, films, games, graffiti en liederen. Een tabel met cijfers is een gewone historische bron."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen het onderwerp en de bedoeling van een werk?",
+          "opties": [
+            "het onderwerp is waarover het gaat, de bedoeling is waarom het gemaakt werd",
+            "het onderwerp is de titel, de bedoeling is de prijs die ervoor betaald werd",
+            "het onderwerp kies je zelf als kijker, de bedoeling staat altijd in de titel",
+            "het onderwerp en de bedoeling zijn twee woorden voor precies hetzelfde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een werk over armoede kan willen aanklagen, ontroeren of informeren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een schilderij toont een man in bed met huilende familie en een priester. Welk onderwerp is dat?",
+          "opties": [
+            "de dood",
+            "de liefde",
+            "gender",
+            "het onrecht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een sterfbed is een klassiek voorbeeld van dat onderwerp."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een spotprent maakt een minister belachelijk. Welke bedoeling past daarbij?",
+          "opties": [
+            "bekritiseren",
+            "decoreren",
+            "bevestigen",
+            "praktisch gebruiken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Spot is kritiek. Een standbeeld van de koning op een plein wil eerder bevestigen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een volkslied wordt op school gezongen. Welke bedoeling past daarbij het best?",
+          "opties": [
+            "identiteit vormgeven",
+            "decoreren",
+            "praktisch gebruiken",
+            "bekritiseren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het lied geeft een groep het gevoel samen te horen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke bedoeling past bij een stoel of een brug: dingen die vooral een functie hebben? Twee woorden.",
+          "antwoord": [
+            "praktisch gebruiken"
+          ],
+          "uitleg": "Praktisch gebruiken. Ook gebruiksvoorwerpen zijn cultuuruitingen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een werk kan meerdere bedoelingen tegelijk hebben.",
+          "antwoord": true,
+          "uitleg": "Modern Times van Chaplin wil entertainen en tegelijk bekritiseren."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Zonder de maatschappelijke context kan je de bedoeling van een werk altijd volledig begrijpen.",
+          "antwoord": false,
+          "uitleg": "De context geeft vaak de sleutel. Daarom krijg je op het examen contextinformatie bij elke afbeelding."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een allegorie?",
+          "opties": [
+            "een idee voorgesteld als een persoon of figuur",
+            "een schilderij van een bestaand landschap",
+            "een gedicht met een vast rijmschema",
+            "een portret van de opdrachtgever"
+          ],
+          "antwoord": 0,
+          "uitleg": "De Vrijheid als vrouw met een vlag bij Delacroix is een bekend voorbeeld."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelt men met de schikking van de beeldelementen?",
+          "opties": [
+            "de manier waarop de figuren en vormen geordend zijn",
+            "de prijs en de grootte van het kunstwerk",
+            "de volgorde waarin de schilder de kleuren kocht",
+            "de plaats waar het werk in het museum hangt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bijvoorbeeld een piramide met het belangrijkste symbool bovenaan. De schikking stuurt je blik."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij graffiti is stap 1 vaak moeilijk, omdat de maker onbekend is en een datum ontbreekt.",
+          "antwoord": true,
+          "uitleg": "Dan haal je de context uit andere bronnen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een tabel met bevolkingscijfers analyseer je met het stappenplan voor kunst- en cultuuruitingen.",
+          "antwoord": false,
+          "uitleg": "Dat is een gewone historische bron. Die analyseer je met het stappenplan voor bronnen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke soorten kunst- en cultuuruitingen noemt het stappenplan?",
+          "opties": [
+            "schilderij, beeldhouwwerk en bouwwerk",
+            "film en game",
+            "graffiti en lied",
+            "wetboek en volkstelling"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een wetboek of een volkstelling zijn geschreven bronnen, geen kunst- of cultuuruitingen."
+        }
+      ]
+    },
+    {
+      "titel": "Kunst en cultuur analyseren met het stappenplan — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "invultekst",
+          "vraag": "Welke schilder maakte De Vrijheid leidt het volk in 1830? Familienaam.",
+          "antwoord": [
+            "Delacroix",
+            "Eugène Delacroix"
+          ],
+          "uitleg": "Eugène Delacroix."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij welke gebeurtenis hoort De Vrijheid leidt het volk?",
+          "opties": [
+            "de Julirevolutie van 1830 in Parijs",
+            "de bestorming van de Bastille in 1789",
+            "de Commune van Parijs in 1871",
+            "de bevrijding van Parijs in 1944"
+          ],
+          "antwoord": 0,
+          "uitleg": "Drie dagen straatgevechten joegen Karel X weg. Hetzelfde jaar volgde de Belgische Revolutie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zie je op De Vrijheid leidt het volk?",
+          "opties": [
+            "een vrouw met een driekleurige vlag",
+            "mensen van verschillende standen",
+            "gesneuvelden op de voorgrond",
+            "een koning op een troon in een paleiszaal"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een man met hoge hoed, een arbeider, een jongen met pistolen: het volk in al zijn lagen, achter de vlag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke vorm staan de figuren bij Delacroix geschikt?",
+          "opties": [
+            "in een piramide met de vlag bovenaan",
+            "in een cirkel rond de koning",
+            "in een rechte rij naast elkaar",
+            "willekeurig over het doek verspreid"
+          ],
+          "antwoord": 0,
+          "uitleg": "De schikking stuurt je blik van de doden onderaan naar de vlag bovenaan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De vrouw met de vlag bij Delacroix is een echte Parijse marktvrouw die bij de gevechten sneuvelde.",
+          "antwoord": false,
+          "uitleg": "Ze is een allegorie: de Vrijheid zelf, die Frankrijk verbeeldt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat wilde Delacroix met De Vrijheid leidt het volk bereiken?",
+          "opties": [
+            "het volk eren dat samen voor de vrijheid vecht",
+            "de opstandelingen afschilderen als misdadigers",
+            "een rustig landschap tonen om een kamer te versieren",
+            "reclame maken voor een nieuw soort vlag"
+          ],
+          "antwoord": 0,
+          "uitleg": "Delacroix verheerlijkt de strijd."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De Franse staat kocht het schilderij van Delacroix, maar hing het al snel weg uit het zicht.",
+          "antwoord": true,
+          "uitleg": "Een opstand verheerlijken was voor de nieuwe koning te gevaarlijk. De context bepaalt mee hoe een werk ontvangen wordt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke schilder maakte De arenleesters in 1857? Familienaam.",
+          "antwoord": [
+            "Millet",
+            "Jean-François Millet"
+          ],
+          "uitleg": "Jean-François Millet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat deden de vrouwen op De arenleesters?",
+          "opties": [
+            "ze raapten na de oogst achtergebleven aren op",
+            "ze maaiden het graan met een zeis",
+            "ze verkochten brood op de markt",
+            "ze dansten op het oogstfeest"
+          ],
+          "antwoord": 0,
+          "uitleg": "Arenlezen was het recht van de armsten om op te rapen wat na de oogst overbleef."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat maakt de schikking van De arenleesters duidelijk?",
+          "opties": [
+            "het verschil tussen de armen en de overvloed van anderen",
+            "dat de vrouwen eigenaar zijn van de rijke oogst",
+            "dat de oogst een feest is voor het hele dorp",
+            "dat de man te paard de vrouwen komt helpen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vooraan arme vrouwen met restjes, achteraan grote hopen graan en een volle kar."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het doelpubliek van De arenleesters op de Salon in Parijs waren vooral arme boerenvrouwen.",
+          "antwoord": false,
+          "uitleg": "Het publiek waren kunstkenners, critici en welgestelde kopers. Net dat maakte het werk zo scherp."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vonden sommige kijkers De arenleesters in 1857 verontrustend?",
+          "opties": [
+            "ze vreesden een nieuwe opstand zoals in 1848",
+            "een wet verbood schilderijen over boeren",
+            "Frankrijk was toen in oorlog met Engeland",
+            "de graanhandel was verboden in Frankrijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na de opstanden van 1848 leek een groot doek met arme mensen een politieke dreiging."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke architect ontwierp het Justitiepaleis in Brussel? Familienaam.",
+          "antwoord": [
+            "Poelaert",
+            "Joseph Poelaert"
+          ],
+          "uitleg": "Joseph Poelaert. De bouw liep van 1866 tot 1883."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat wilde de jonge Belgische staat tonen met het reusachtige Justitiepaleis?",
+          "opties": [
+            "het gezag van de wet en de staat",
+            "dat België zuinig omging met zijn geld",
+            "de woning van de koninklijke familie",
+            "de armoede in de Brusselse volksbuurten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Macht, orde en de ambitie van een jong land, aan de eigen burgers en aan het buitenland."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Voor de bouw van het Justitiepaleis werd een deel van de Marollen afgebroken.",
+          "antwoord": true,
+          "uitleg": "Wat voor de staat prestige was, kostte arme bewoners hun huis. In de Marollen werd architect lang een scheldwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke bedoelingen passen bij de film Modern Times van Charlie Chaplin?",
+          "opties": [
+            "entertainen",
+            "bekritiseren",
+            "decoreren",
+            "praktisch gebruiken"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Het is een komische film, en tegelijk kritiek op de mens als onderdeel van de machine."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke context hoort bij Modern Times uit 1936?",
+          "opties": [
+            "de crisis van de jaren dertig en het werk aan de lopende band",
+            "de Koude Oorlog en de wapenwedloop",
+            "de dekolonisatie van Afrika",
+            "de val van de Berlijnse Muur"
+          ],
+          "antwoord": 0,
+          "uitleg": "Massaproductie en werkloosheid na de beurskrach van 1929."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke bedoeling had het lied We Shall Overcome op de betogingen in de Verenigde Staten?",
+          "opties": [
+            "moed geven in de strijd tegen rassenscheiding",
+            "het publiek amuseren in nachtclubs",
+            "de regering bevestigen in haar beleid",
+            "reclame maken voor een platenmaatschappij"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het gaf de beweging een stem en een gevoel van samenhorigheid: identiteit vormgeven."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Op de resten van de Berlijnse Muur maakten kunstenaars in 1990 meer dan honderd schilderingen.",
+          "antwoord": true,
+          "uitleg": "Bij stap 2 beschrijf je de materialen, zoals verf uit spuitbussen op beton, de figuren en de kleuren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat wil het computerspel This War of Mine?",
+          "opties": [
+            "laten voelen wat oorlog voor gewone mensen betekent",
+            "spelers leren hoe je een leger leidt",
+            "een oorlog verheerlijken als een avontuur",
+            "reclame maken voor het leger"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je speelt burgers in een belegerde stad, geïnspireerd op het beleg van Sarajevo."
+        }
+      ]
     }
   ]
 }
