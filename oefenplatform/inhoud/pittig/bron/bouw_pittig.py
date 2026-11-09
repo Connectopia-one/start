@@ -138,8 +138,11 @@ def examenvorm(kop, v):
         kol = v.get("kolommen")
         if not kol and len(set(v["antwoord"])) < 2:
             m.append(f"{kop}: alle rijen van de tabel hebben hetzelfde antwoord")
-        if kol and any(a not in kol for a in v["antwoord"]):
+        if kol and any(not (a in kol or (isinstance(a, int) and not isinstance(a, bool) and 0 <= a < len(kol))) for a in v["antwoord"]):
             m.append(f"{kop}: tabelantwoord niet in de kolommen")
+        # De import leest een antwoord met enkel cijfers ("630") als kolomnummer.
+        if any(isinstance(a, str) and a.strip().isdigit() for a in v["antwoord"]):
+            m.append(f"{kop}: tabelantwoord met enkel cijfers: geef het kolomnummer")
     if t == "keuzelijst":
         lijsten = re.findall(r"\[\[([^\]]+)\]\]", v["vraag"])
         if not lijsten or any(l.count("*") != 1 or not l.startswith("*") and "|*" not in l for l in lijsten):

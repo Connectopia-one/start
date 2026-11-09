@@ -15,10 +15,10 @@
             "Eén oprichter volstaat, zonder minimumkapitaal"
           ],
           "antwoord": [
-            "cv",
-            "nv",
-            "maatschap",
-            "bv"
+            2,
+            1,
+            3,
+            0
           ],
           "uitleg": "De cv vraagt drie oprichters, de nv als enige nog een minimumkapitaal. De maatschap is een overeenkomst tussen minstens twee mensen. De bv kan één persoon alleen oprichten.",
           "kolommen": [
@@ -190,9 +190,9 @@
             "Aandelen gaan zonder andere regeling enkel vlot naar andere aandeelhouders"
           ],
           "antwoord": [
-            "nv",
-            "maatschap",
-            "cv"
+            0,
+            2,
+            1
           ],
           "uitleg": "Bij de nv circuleren aandelen vrij. Bij de cv blijft de groep van leden normaal gesloten. De maatschap is fiscaal doorzichtig: elke vennoot geeft zijn deel aan.",
           "kolommen": [
@@ -315,10 +315,10 @@
             "De winst van een cv"
           ],
           "antwoord": [
-            "Personenbelasting",
-            "Vennootschapsbelasting",
-            "Personenbelasting",
-            "Vennootschapsbelasting"
+            0,
+            1,
+            0,
+            1
           ],
           "uitleg": "Een rechtspersoon betaalt zelf vennootschapsbelasting. Zonder rechtspersoon valt de winst bij de ondernemer of de vennoten.",
           "kolommen": [
@@ -573,10 +573,10 @@
             "De belastingvrije som"
           ],
           "antwoord": [
-            "Aftrek",
-            "Vermindering",
-            "Vermindering",
-            "Vermindering"
+            0,
+            1,
+            1,
+            1
           ],
           "uitleg": "Een aftrek verlaagt het belastbaar inkomen. Giften, pensioensparen en de belastingvrije som werken als vermindering op de belasting.",
           "kolommen": [
@@ -902,10 +902,10 @@
             "Voorafbetalingen kunnen een bonificatie opleveren"
           ],
           "antwoord": [
-            "Eenmanszaak",
-            "Eenmanszaak",
-            "Vennootschap",
-            "Eenmanszaak"
+            0,
+            0,
+            1,
+            0
           ],
           "uitleg": "De eenmanszaak zit in de personenbelasting: progressief, samen met andere inkomens, en met bonificatie. De vennootschap betaalt een vlak tarief.",
           "kolommen": [
@@ -1013,10 +1013,10 @@
             "15 december"
           ],
           "antwoord": [
-            "VA1",
-            "VA2",
-            "VA3",
-            "VA4"
+            0,
+            1,
+            2,
+            3
           ],
           "uitleg": "Een storting telt voor de eerstvolgende vervaldag: tot 10 april VA1, tot 10 juli VA2, tot 10 oktober VA3 en tot 20 december VA4.",
           "kolommen": [
@@ -1198,9 +1198,9 @@
             "De periode waarin de voorafbetalingen vallen"
           ],
           "antwoord": [
-            "Boekjaar",
-            "Aanslagjaar",
-            "Boekjaar"
+            0,
+            1,
+            0
           ],
           "uitleg": "Winst en voorafbetalingen horen bij het boekjaar. De berekening volgt in het aanslagjaar.",
           "kolommen": [
@@ -1297,9 +1297,9 @@
             "44000 Leveranciers"
           ],
           "antwoord": [
-            "1 850,00",
-            "380,73",
-            "2 270,73"
+            0,
+            2,
+            3
           ],
           "uitleg": "Goederen en vervoerkosten samen op 60400. De btw is terug te vorderen. De leverancier krijgt het volle bedrag, want de financiële korting is nog niet verworven.",
           "kolommen": [
@@ -1387,10 +1387,10 @@
             "De huur van het magazijn"
           ],
           "antwoord": [
-            "Klasse 2",
-            "Klasse 60",
-            "Klasse 61",
-            "Klasse 61"
+            0,
+            1,
+            2,
+            2
           ],
           "uitleg": "Wat je jaren gebruikt, is een vast actief. Wat je doorverkoopt, is handelsgoederen. Diensten en diverse goederen horen in 61.",
           "kolommen": [
@@ -1471,9 +1471,9 @@
             "Leveranciers"
           ],
           "antwoord": [
-            "Kost +",
-            "Actief +",
-            "Passief +"
+            2,
+            0,
+            1
           ],
           "uitleg": "Kost + en actief + staan debet, passief + staat credit.",
           "kolommen": [
@@ -1565,9 +1565,9 @@
             "Koffiebonen die een koffiebar verkoopt per zak"
           ],
           "antwoord": [
-            "Klasse 2",
-            "Klasse 61",
-            "Klasse 60"
+            0,
+            2,
+            1
           ],
           "uitleg": "Duurzaam gebruik: klasse 2. Verbruik: 61. Doorverkoop: 60.",
           "kolommen": [
@@ -1721,9 +1721,9 @@
             "45100 Te betalen btw (credit)"
           ],
           "antwoord": [
-            "3 630",
-            "3 000",
-            "630"
+            0,
+            1,
+            2
           ],
           "uitleg": "De kas ontvangt het volle bedrag. 3 630 / 1,21 = 3 000 euro verkopen, en 630 euro btw is een schuld aan de staat.",
           "kolommen": [
@@ -1797,10 +1797,10 @@
             "45100 Te betalen btw, 1 218 euro"
           ],
           "antwoord": [
-            "Debet",
-            "Credit",
-            "Credit",
-            "Credit"
+            0,
+            1,
+            1,
+            1
           ],
           "uitleg": "De vordering op de klant staat debet. Verkopen, doorgerekende kosten en de btw-schuld staan credit.",
           "kolommen": [
@@ -1981,10 +1981,10 @@
             "Contant geld uit de kassa"
           ],
           "antwoord": [
-            "45100",
-            "40000",
-            "70000",
-            "57000"
+            1,
+            0,
+            3,
+            2
           ],
           "uitleg": "Bij verkopen: 40000 vordering, 70000 opbrengst, 45100 btw-schuld, 57000 cash.",
           "kolommen": [
@@ -2265,9 +2265,9 @@
             "62 Bezoldigingen"
           ],
           "antwoord": [
-            "Debet",
-            "Credit",
-            "Geen van beide"
+            0,
+            1,
+            2
           ],
           "uitleg": "Het voorschot verlaagt vooraf de schuld aan het personeel en de bank daalt. De kost komt pas in de loonsynthese.",
           "kolommen": [
@@ -2488,10 +2488,10 @@
             "De werkgeversbijdrage RSZ als kost"
           ],
           "antwoord": [
-            "65",
-            "17",
-            "42",
-            "62"
+            3,
+            0,
+            1,
+            2
           ],
           "uitleg": "65 financiële kosten, 17 schulden op meer dan een jaar, 42 het stuk dat binnen het jaar vervalt, 62 personeelskosten.",
           "kolommen": [
@@ -2555,9 +2555,9 @@
                 "Klasse 2 Machines (aanschaffingswaarde)"
               ],
               "antwoord": [
-                "64 000",
-                "16 000",
-                "80 000"
+                1,
+                0,
+                2
               ],
               "uitleg": "Er is nog niets afgelost. De machine staat aan haar aanschaffingswaarde. De schijf van volgend jaar gaat naar 42, de rest blijft op 17.",
               "kolommen": [
@@ -2613,10 +2613,10 @@
             "Commissielonen van november worden pas in januari ontvangen"
           ],
           "antwoord": [
-            "Over te dragen opbrengsten",
-            "Toe te rekenen kosten",
-            "Over te dragen kosten",
-            "Verkregen opbrengsten"
+            2,
+            1,
+            0,
+            3
           ],
           "uitleg": "Eerst: kost of opbrengst? Dan: hoort het bij dit jaar of bij volgend jaar?",
           "kolommen": [
@@ -2756,9 +2756,9 @@
             "De waardevermindering van een computer door gebruik"
           ],
           "antwoord": [
-            "Voorziening",
-            "Schuld",
-            "Afschrijving"
+            0,
+            1,
+            2
           ],
           "uitleg": "Een voorziening is waarschijnlijk maar onzeker. Een schuld staat vast. Een afschrijving verdeelt de kost van een vast actief.",
           "kolommen": [
@@ -3066,9 +3066,9 @@
             "Vreemd vermogen op korte termijn"
           ],
           "antwoord": [
-            "45 %",
-            "25 %",
-            "30 %"
+            2,
+            0,
+            1
           ],
           "uitleg": "Elke post gedeeld door het balanstotaal van 1 000 000 euro.",
           "kolommen": [
@@ -3226,10 +3226,10 @@
             "De omzet daalt al drie jaar op rij."
           ],
           "antwoord": [
-            "Verticaal",
-            "Horizontaal",
-            "Verticaal",
-            "Horizontaal"
+            1,
+            0,
+            1,
+            0
           ],
           "uitleg": "Verticaal: een deel van het totaal in één jaar. Horizontaal: een evolutie over de jaren.",
           "kolommen": [
@@ -3520,9 +3520,9 @@
             "Liquide middelen / vreemd vermogen op korte termijn"
           ],
           "antwoord": [
-            "1,33",
-            "0,83",
-            "0,23"
+            2,
+            1,
+            0
           ],
           "uitleg": "Current ratio: 400 000 / 300 000 = 1,33. Quick ratio zonder voorraad: (180 000 + 70 000) / 300 000 = 0,83. Enkel de liquide middelen: 70 000 / 300 000 = 0,23.",
           "kolommen": [
@@ -3591,10 +3591,10 @@
             "Een klant betaalt zijn factuur via de bank"
           ],
           "antwoord": [
-            "Stijgt",
-            "Daalt",
-            "Stijgt",
-            "Blijft gelijk"
+            0,
+            1,
+            0,
+            2
           ],
           "uitleg": "Bij een ratio boven 1 doet een even grote daling van teller en noemer de ratio stijgen, en een even grote stijging haar dalen. Een inning wisselt enkel courante activa om.",
           "kolommen": [
@@ -3924,9 +3924,9 @@
             "Aandeel vreemd vermogen op korte termijn in het totaal"
           ],
           "antwoord": [
-            "45 %",
-            "55 %",
-            "30 %"
+            1,
+            2,
+            0
           ],
           "uitleg": "Eigen vermogen 450 000 / 1 000 000 = 45 %. Vreemd vermogen 550 000 / 1 000 000 = 55 %. Korte termijn 300 000 / 1 000 000 = 30 %.",
           "kolommen": [
@@ -3997,10 +3997,10 @@
             "Een uitbetaling van dividend"
           ],
           "antwoord": [
-            "Stijgt",
-            "Daalt",
-            "Stijgt",
-            "Daalt"
+            0,
+            1,
+            0,
+            1
           ],
           "uitleg": "Meer eigen vermogen doet de solvabiliteit stijgen. Meer schulden of minder eigen vermogen doen haar dalen.",
           "kolommen": [
@@ -4200,10 +4200,10 @@
             "Het resultaat vóór interest stijgt"
           ],
           "antwoord": [
-            "Stijgt",
-            "Daalt",
-            "Daalt",
-            "Stijgt"
+            0,
+            1,
+            1,
+            0
           ],
           "uitleg": "Bij een positieve hefboom helpt meer vreemd vermogen de eigenaars. Duurdere leningen en minder lenen verkleinen dat voordeel.",
           "kolommen": [
@@ -4304,11 +4304,11 @@
             "Een straight loan van drie maanden"
           ],
           "antwoord": [
-            "Eigen, lange termijn",
-            "Vreemd, lange termijn",
-            "Vreemd, korte termijn",
-            "Vreemd, lange termijn",
-            "Vreemd, korte termijn"
+            0,
+            2,
+            1,
+            2,
+            1
           ],
           "uitleg": "Eigen vermogen komt van de eigenaars. Leningen en uitstel van betaling zijn vreemd vermogen, kort of lang.",
           "kolommen": [
@@ -4328,10 +4328,10 @@
             "Het hoeft nooit terugbetaald te worden."
           ],
           "antwoord": [
-            "Eigen vermogen",
-            "Vreemd vermogen",
-            "Vreemd vermogen",
-            "Eigen vermogen"
+            0,
+            1,
+            1,
+            0
           ],
           "uitleg": "Eigen vermogen is veilig maar deelt de zeggenschap en de winst. Vreemd vermogen kost interest, maar die is een aftrekbare kost.",
           "kolommen": [
@@ -4385,10 +4385,10 @@
             "Het lijkt sterk op gewoon huren"
           ],
           "antwoord": [
-            "Financiële leasing",
-            "Operationele leasing",
-            "Financiële leasing",
-            "Operationele leasing"
+            0,
+            1,
+            0,
+            1
           ],
           "uitleg": "Bij financiële leasing financier je in feite een aankoop. Operationele leasing is een vorm van huur met dienstverlening.",
           "kolommen": [
@@ -4544,10 +4544,10 @@
             "Crowdlending"
           ],
           "antwoord": [
-            "Stijgt",
-            "Stijgt",
-            "Daalt",
-            "Daalt"
+            0,
+            0,
+            1,
+            1
           ],
           "uitleg": "Eigen vermogen versterkt de solvabiliteit, elke lening verzwakt ze.",
           "kolommen": [
@@ -4792,10 +4792,10 @@
             "Een octrooi op een uitvinding"
           ],
           "antwoord": [
-            "Materieel",
-            "Immaterieel",
-            "Financieel",
-            "Immaterieel"
+            0,
+            1,
+            2,
+            1
           ],
           "uitleg": "Materieel kan je aanraken, immaterieel is een recht of kennis, financieel is een deelname in een andere onderneming.",
           "kolommen": [
@@ -4862,10 +4862,10 @@
             "Een fabriek koopt een extra productielijn voor een nieuwe markt"
           ],
           "antwoord": [
-            "Uitbreiding",
-            "Vervanging",
-            "Rationalisatie",
-            "Uitbreiding"
+            1,
+            0,
+            2,
+            1
           ],
           "uitleg": "Uitbreiding verhoogt de capaciteit, vervanging houdt ze gelijk, rationalisatie verlaagt de kosten.",
           "kolommen": [
@@ -5017,10 +5017,10 @@
             "Dezelfde cashflows komen een jaar vroeger binnen"
           ],
           "antwoord": [
-            "Daalt",
-            "Stijgt",
-            "Daalt",
-            "Stijgt"
+            1,
+            0,
+            1,
+            0
           ],
           "uitleg": "Hogere en vroegere cashflows maken de NCW groter, een hogere rente en een duurdere investering kleiner.",
           "kolommen": [
@@ -5150,10 +5150,10 @@
             "Steeds meer scholen organiseren leesprojecten"
           ],
           "antwoord": [
-            "Sterkte",
-            "Bedreiging",
-            "Zwakte",
-            "Kans"
+            0,
+            3,
+            1,
+            2
           ],
           "uitleg": "Sterktes en zwaktes liggen in de onderneming, kansen en bedreigingen in de omgeving.",
           "kolommen": [
@@ -5270,9 +5270,9 @@
             "We openen twee nieuwe keukens en werken samen met thuiszorgdiensten."
           ],
           "antwoord": [
-            "Missie",
-            "Visie",
-            "Strategie"
+            0,
+            1,
+            2
           ],
           "uitleg": "De missie zegt waarom je bestaat, de visie waar je naartoe wil, de strategie hoe je daar raakt.",
           "kolommen": [
@@ -5307,10 +5307,10 @@
             "Een proefverkoop houden op een markt"
           ],
           "antwoord": [
-            "Deskresearch",
-            "Fieldresearch",
-            "Deskresearch",
-            "Fieldresearch"
+            0,
+            1,
+            0,
+            1
           ],
           "uitleg": "Desk: wat al bestaat. Field: zelf op het terrein nieuwe gegevens verzamelen.",
           "kolommen": [
@@ -5383,10 +5383,10 @@
             "Transportkosten stijgen sterk"
           ],
           "antwoord": [
-            "Kans",
-            "Bedreiging",
-            "Kans",
-            "Bedreiging"
+            0,
+            1,
+            0,
+            1
           ],
           "uitleg": "Hetzelfde nieuws kan voor de ene onderneming een kans en voor de andere een bedreiging zijn. Hier gaat het om een webwinkel in kleding die ook tweedehands wil verkopen.",
           "kolommen": [
@@ -5517,9 +5517,9 @@
             "De aandeelhouders"
           ],
           "antwoord": [
-            "Terugbetaling van de lening",
-            "Geluid en verkeer",
-            "Rendement"
+            0,
+            1,
+            2
           ],
           "uitleg": "Elke stakeholder bekijkt hetzelfde plan vanuit zijn eigen belang.",
           "kolommen": [
@@ -5541,10 +5541,10 @@
                 "Een grote koeriersfirma kan na hem ook komen"
               ],
               "antwoord": [
-                "Sterkte",
-                "Zwakte",
-                "Kans",
-                "Bedreiging"
+                0,
+                1,
+                2,
+                3
               ],
               "uitleg": "Twee punten over Lars zelf, twee over de omgeving.",
               "kolommen": [
@@ -5639,10 +5639,10 @@
             "Afspeellijsten op maat die je nieuwe muziek laten ontdekken"
           ],
           "antwoord": [
-            "Inkomstenstromen",
-            "Kostenstructuur",
-            "Kanalen",
-            "Waardepropositie"
+            3,
+            2,
+            1,
+            0
           ],
           "uitleg": "Inkomsten en kosten staan onderaan het canvas, kanalen en waarde in het bovenste deel.",
           "kolommen": [
@@ -5663,10 +5663,10 @@
             "Bestellingen leveren aan restaurants"
           ],
           "antwoord": [
-            "Kernactiviteiten",
-            "Kernmiddelen",
-            "Kernmiddelen",
-            "Kernactiviteiten"
+            0,
+            1,
+            1,
+            0
           ],
           "uitleg": "Activiteiten zijn wat je doet, middelen zijn wat je daarvoor nodig hebt: mensen, machines, kennis.",
           "kolommen": [
@@ -5808,10 +5808,10 @@
             "Een suikervrije ijsthee, marktleider in een snelgroeiende markt"
           ],
           "antwoord": [
-            "Cash cow",
-            "Question mark",
-            "Dog",
-            "Star"
+            1,
+            2,
+            3,
+            0
           ],
           "uitleg": "Twee vragen per product: groeit de markt, en is ons aandeel groot?",
           "kolommen": [
@@ -5832,10 +5832,10 @@
             "Dog"
           ],
           "antwoord": [
-            "Investeren om de positie te behouden",
-            "Melken: geld gebruiken voor andere producten",
-            "Kiezen: fors investeren of stoppen",
-            "Afstoten"
+            0,
+            1,
+            2,
+            3
           ],
           "uitleg": "Het geld van de cash cows financiert de stars en de veelbelovende question marks.",
           "kolommen": [
@@ -6006,10 +6006,10 @@
                 "Eiwitpudding"
               ],
               "antwoord": [
-                "Cash cow",
-                "Question mark",
-                "Dog",
-                "Star"
+                1,
+                2,
+                3,
+                0
               ],
               "uitleg": "Telkens: groeit de markt, en is het aandeel groot?",
               "kolommen": [
@@ -6090,10 +6090,10 @@
             "Het product stilaan uit de rekken halen"
           ],
           "antwoord": [
-            "Fase 2",
-            "Fase 3",
-            "Fase 4",
-            "Fase 5"
+            0,
+            1,
+            2,
+            3
           ],
           "uitleg": "Eerst bekendheid opbouwen, dan uitbreiden, dan de positie verdedigen en tot slot afbouwen.",
           "kolommen": [
@@ -6114,10 +6114,10 @@
             "Een reclamefilmpje op sociale media"
           ],
           "antwoord": [
-            "Product",
-            "Prijs",
-            "Plaats",
-            "Promotie"
+            0,
+            1,
+            2,
+            3
           ],
           "uitleg": "Product, prijs, plaats en promotie zijn de vier instrumenten van de marketingmix.",
           "kolommen": [
@@ -6163,10 +6163,10 @@
             "Een kledingketen verkoopt een trui aan een klant"
           ],
           "antwoord": [
-            "C2C",
-            "B2B",
-            "C2B",
-            "B2C"
+            2,
+            0,
+            3,
+            1
           ],
           "uitleg": "B staat voor business, C voor consumer. De eerste letter verkoopt, de tweede koopt.",
           "kolommen": [
@@ -6186,10 +6186,10 @@
             "Een uitvaartverzekering"
           ],
           "antwoord": [
-            "Convenience",
-            "Shopping",
-            "Speciality",
-            "Unsought"
+            0,
+            1,
+            2,
+            3
           ],
           "uitleg": "Convenience: snel en zonder nadenken. Shopping: vergelijken. Speciality: één merk, moeite doen. Unsought: je zoekt het niet uit jezelf.",
           "kolommen": [
@@ -6233,10 +6233,10 @@
             "De lijn van de supermarkt met producten uit biologische teelt"
           ],
           "antwoord": [
-            "A-merk",
-            "Standaard winkelmerk",
-            "Budgetmerk",
-            "Biomerk"
+            0,
+            1,
+            2,
+            3
           ],
           "uitleg": "Winkelmerken horen bij de keten zelf. Ze bestaan in een standaard-, een budget- en een biolijn.",
           "kolommen": [
@@ -6256,10 +6256,10 @@
             "Een fabrikant lanceert een volledig nieuwe naam voor een nieuw soort product"
           ],
           "antwoord": [
-            "Lijnextensie",
-            "Merkextensie",
-            "Multibrands",
-            "Nieuw merk"
+            0,
+            1,
+            2,
+            3
           ],
           "uitleg": "Lijnextensie blijft in dezelfde productgroep, merkextensie stapt met de naam naar een andere.",
           "kolommen": [
@@ -6302,9 +6302,9 @@
             "Een sportwagen van een exclusief merk, één dealer per regio"
           ],
           "antwoord": [
-            "Intensief",
-            "Selectief",
-            "Exclusief"
+            0,
+            1,
+            2
           ],
           "uitleg": "Hoe gewoner het product, hoe meer verkooppunten. Hoe exclusiever, hoe minder.",
           "kolommen": [
@@ -6367,10 +6367,10 @@
             "Een chat met de klantendienst over een defect"
           ],
           "antwoord": [
-            "Bewustwording",
-            "Overweging",
-            "Aankoop",
-            "Service"
+            2,
+            3,
+            0,
+            1
           ],
           "uitleg": "De klant komt op veel momenten met het merk in aanraking, van de eerste kennismaking tot na de aankoop.",
           "kolommen": [
@@ -6579,10 +6579,10 @@
             "Anciënniteit 13 maanden, de werknemer zegt op"
           ],
           "antwoord": [
-            "1 week",
-            "15 weken",
-            "7 weken",
-            "4 weken"
+            0,
+            3,
+            2,
+            1
           ],
           "uitleg": "Zoek eerst de juiste rij (anciënniteit), dan de juiste kolom (wie zegt op).",
           "kolommen": [
@@ -6647,9 +6647,9 @@
             "Onbepaalde tijd, bepaalde tijd of duidelijk omschreven werk"
           ],
           "antwoord": [
-            "Aard",
-            "Omvang",
-            "Duur"
+            0,
+            1,
+            2
           ],
           "uitleg": "Aard: hand- of hoofdarbeid. Omvang: hoeveel uren. Duur: hoe lang.",
           "kolommen": [
@@ -6703,10 +6703,10 @@
             "Er zijn al weken te weinig bestellingen"
           ],
           "antwoord": [
-            "Technische stoornis",
-            "Overmacht",
-            "Zorgverlof",
-            "Economische werkloosheid"
+            0,
+            1,
+            2,
+            3
           ],
           "uitleg": "Telkens valt het werk tijdelijk stil, maar de overeenkomst blijft bestaan.",
           "kolommen": [
@@ -6728,12 +6728,12 @@
             "Overlijden van de werknemer"
           ],
           "antwoord": [
-            "Schorsing",
-            "Einde",
-            "Schorsing",
-            "Einde",
-            "Schorsing",
-            "Einde"
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
           ],
           "uitleg": "Bij een schorsing blijft de overeenkomst bestaan. Bij een einde houdt ze op.",
           "kolommen": [
@@ -6818,10 +6818,10 @@
             "De werkgever geeft ontslag met een opzegtermijn van 8 weken"
           ],
           "antwoord": [
-            "Onderling akkoord",
-            "Einde van de termijn",
-            "Einde van het werk",
-            "Opzegging"
+            0,
+            1,
+            2,
+            3
           ],
           "uitleg": "Er zijn verschillende manieren waarop een arbeidsovereenkomst eindigt.",
           "kolommen": [
@@ -7090,9 +7090,9 @@
             "Kromme C: de som van A en B"
           ],
           "antwoord": [
-            "Bewaarkosten",
-            "Bestelkosten",
-            "Totale voorraadkosten"
+            0,
+            1,
+            2
           ],
           "uitleg": "Grote bestellingen: veel voorraad, dus hoge bewaarkosten, maar weinig bestellingen, dus lage bestelkosten.",
           "kolommen": [
@@ -7144,9 +7144,9 @@
             "Een bakkerij bakt op drie aparte lijnen brood, taart en koekjes"
           ],
           "antwoord": [
-            "Divergent",
-            "Convergent",
-            "Parallel"
+            0,
+            1,
+            2
           ],
           "uitleg": "Divergent: uit één naar veel. Convergent: uit veel naar één. Parallel: aparte lijnen naast elkaar.",
           "kolommen": [
@@ -7170,10 +7170,10 @@
             "Een winkelketen bevoorraadt van hieruit al haar winkels"
           ],
           "antwoord": [
-            "Crossdock",
-            "Public warehouse",
-            "Groupagecentrum",
-            "Distributiecentrum"
+            0,
+            1,
+            2,
+            3
           ],
           "uitleg": "Elk magazijn heeft een andere rol in de logistieke keten.",
           "kolommen": [
@@ -7206,10 +7206,10 @@
             "De wekelijkse levering van schroeven en bouten bestellen"
           ],
           "antwoord": [
-            "Strategisch",
-            "Operationeel",
-            "Strategisch",
-            "Operationeel"
+            0,
+            1,
+            0,
+            1
           ],
           "uitleg": "Strategisch: keuzes op lange termijn. Operationeel: de dagelijkse bestellingen.",
           "kolommen": [
@@ -7227,10 +7227,10 @@
             "Een boekhandel verkoopt boeken die al in de rekken staan"
           ],
           "antwoord": [
-            "Bij de klant",
-            "Bij de grondstoffen",
-            "Bij de grondstoffen",
-            "Bij de klant"
+            0,
+            1,
+            1,
+            0
           ],
           "uitleg": "Vóór het KOOP wordt op voorraad gewerkt, erna op bestelling.",
           "kolommen": [
@@ -7314,10 +7314,10 @@
             "Het bedrijf heeft minder controle over de kwaliteit"
           ],
           "antwoord": [
-            "Voordeel",
-            "Nadeel",
-            "Voordeel",
-            "Nadeel"
+            0,
+            1,
+            0,
+            1
           ],
           "uitleg": "Uitbesteden kan kosten besparen, maar je geeft ook een stuk controle uit handen.",
           "kolommen": [
@@ -7500,11 +7500,11 @@
             "Een afscheid bij pensioen"
           ],
           "antwoord": [
-            "Instroom",
-            "Doorstroom",
-            "Uitstroom",
-            "Instroom",
-            "Uitstroom"
+            0,
+            1,
+            2,
+            0,
+            2
           ],
           "uitleg": "Instroom: binnenkomen. Doorstroom: groeien. Uitstroom: vertrekken.",
           "kolommen": [
@@ -7617,10 +7617,10 @@
             "De kandidaat praat met de leidinggevende en iemand van hr"
           ],
           "antwoord": [
-            "Test",
-            "Assessment",
-            "Referentie",
-            "Interview"
+            0,
+            1,
+            2,
+            3
           ],
           "uitleg": "Elke tool toont iets anders: kennis, gedrag in de praktijk, ervaring van anderen of de persoon zelf.",
           "kolommen": [
@@ -7959,9 +7959,9 @@
             "Lijn C: start in nul en stijgt het steilst"
           ],
           "antwoord": [
-            "Vaste kosten",
-            "Totale kosten",
-            "Omzet"
+            0,
+            1,
+            2
           ],
           "uitleg": "De vaste kosten veranderen niet met de afzet. De totale kosten = vaste + variabele kosten. De omzet start bij nul verkochte stuks.",
           "kolommen": [
@@ -8033,10 +8033,10 @@
             "De verpakking van elke stoel"
           ],
           "antwoord": [
-            "Variabel",
-            "Vast",
-            "Vast",
-            "Variabel"
+            1,
+            0,
+            0,
+            1
           ],
           "uitleg": "Variabele kosten stijgen met elke extra stoel, vaste kosten blijven gelijk.",
           "kolommen": [
@@ -8054,10 +8054,10 @@
             "Het loon van de boekhouder"
           ],
           "antwoord": [
-            "Direct",
-            "Direct",
-            "Indirect",
-            "Indirect"
+            0,
+            0,
+            1,
+            1
           ],
           "uitleg": "Een directe kost kan je rechtstreeks aan één product toewijzen. Een indirecte kost wordt gedeeld en moet verdeeld worden.",
           "kolommen": [
@@ -8096,9 +8096,9 @@
             "Kosten van de personeelsdienst"
           ],
           "antwoord": [
-            "Oppervlakte",
-            "Machine-uren",
-            "Aantal werknemers"
+            0,
+            1,
+            2
           ],
           "uitleg": "De sleutel moet zo goed mogelijk weerspiegelen hoeveel elke afdeling van de kost gebruikt.",
           "kolommen": [
@@ -8151,9 +8151,9 @@
             "Verkoopprijs zonder btw"
           ],
           "antwoord": [
-            "300 euro",
-            "60 euro",
-            "360 euro"
+            1,
+            0,
+            2
           ],
           "uitleg": "240 + 60 = 300. 20 % van 300 = 60. 300 + 60 = 360.",
           "kolommen": [
@@ -8491,10 +8491,10 @@
             "Factuur betaald of niet"
           ],
           "antwoord": [
-            "Datum/tijd",
-            "Valuta",
-            "Korte tekst",
-            "Ja/nee"
+            0,
+            1,
+            2,
+            3
           ],
           "uitleg": "Een telefoonnummer is tekst: je rekent er niet mee en een voorloopnul moet blijven staan.",
           "kolommen": [
@@ -8514,10 +8514,10 @@
             "Een postcode moet uit vier cijfers bestaan, in een vast patroon"
           ],
           "antwoord": [
-            "Vereist",
-            "Standaardwaarde",
-            "Validatieregel",
-            "Invoermasker"
+            0,
+            1,
+            2,
+            3
           ],
           "uitleg": "Veldeigenschappen bewaken de gegevensintegriteit.",
           "kolommen": [
@@ -8537,10 +8537,10 @@
             "Van een selectie een nieuwe tabel maken"
           ],
           "antwoord": [
-            "Bijwerkquery",
-            "Toevoegquery",
-            "Verwijderquery",
-            "Tabelmaakquery"
+            0,
+            1,
+            2,
+            3
           ],
           "uitleg": "Elke query heeft haar eigen taak.",
           "kolommen": [

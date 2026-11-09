@@ -27,6 +27,9 @@ def tabel(vraag, rijen, uitleg, kolommen=None):
     v = {"type": "tabel", "vraag": vraag, "rijen": [r for r, _ in rijen], "antwoord": [a for _, a in rijen], "uitleg": uitleg}
     if kolommen:
         v["kolommen"] = kolommen
+        # Antwoorden als kolomnummer: een kolom als "630" zou de import anders
+        # als kolomnummer 630 lezen (9 november 2026).
+        v["antwoord"] = [kolommen.index(a) if isinstance(a, str) else a for a in v["antwoord"]]
     return v
 
 
