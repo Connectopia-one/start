@@ -194,10 +194,10 @@ export default async function OnderwijsdoelenPage() {
           <p className="mt-3 text-sm text-ink-dim">
             {doelenTekst.materiaalTekst}{" "}
             <Link
-              href="/materiaal"
+              href="/extras/links"
               className="text-forest-dark underline-offset-2 hover:underline"
             >
-              Naar handig materiaal
+              Naar de leuke links
             </Link>
           </p>
         </section>

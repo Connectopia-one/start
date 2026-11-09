@@ -25,22 +25,28 @@ export async function generateMetadata({
 */
 export default async function SpelPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ spel: string }>;
+  searchParams: Promise<{ niveau?: string }>;
 }) {
   const spel = vindSpel((await params).spel);
   if (!spel) notFound();
 
   const session = await getSessionProfile();
-  const bron = `/spellen/${spel.slug}.html`;
+  /* ?niveau=spark laat een begrippenarena meteen op dat niveau openen
+     (Kim, 9 november 2026). Enkel letters, dan kan er niets geks mee. */
+  const niveau = (await searchParams).niveau;
+  const veilig = niveau && /^[a-z-]+$/.test(niveau) ? niveau : null;
+  const bron = `/spellen/${spel.slug}.html${veilig ? `?niveau=${veilig}` : ""}`;
 
   return (
     <>
       <Header naam={session?.profile?.full_name} rol={session?.profile?.role} />
       <main className="flex w-full flex-1 flex-col">
         <div className="mx-auto flex w-full max-w-6xl flex-wrap items-center justify-between gap-3 px-6 py-3 text-sm">
-          <Link href="/extras" className="text-forest-dark hover:underline">
-            &larr; {extrasTekst.terug}
+          <Link href="/extras/spellen" className="text-forest-dark hover:underline">
+            &larr; {extrasTekst.terugNaarSpellen}
           </Link>
           <a
             href={bron}

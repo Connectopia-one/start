@@ -643,7 +643,8 @@ const GAMES = [
 const S = {
   level: "start",
   chapter: "s-tijd",
-  teams: [ { name: "Team 1", score: 0 }, { name: "Team 2", score: 0 } ],
+  teams: [ { name: "Jij", score: 0 } ],
+  alleen: true, // Kim, 9/11/2026: kinderen oefenen thuis vaak alleen, dus "Alleen" is de standaard.
   turn: 0,
   view: "menu",
   game: null
@@ -653,11 +654,18 @@ try {
   if (saved && DATA[saved.level]) {
     S.level = saved.level;
     if (DATA[saved.level].chapters.some(c => c.id === saved.chapter) || saved.chapter === "mix") S.chapter = saved.chapter;
-    if (Array.isArray(saved.teams) && saved.teams.length) S.teams = saved.teams.slice(0, 4).map(t => ({ name: String(t.name || "Team").slice(0, 24), score: 0 }));
+    if (typeof saved.alleen === "boolean") S.alleen = saved.alleen;
+    if (S.alleen) S.teams = [{ name: "Jij", score: 0 }];
+    else if (Array.isArray(saved.teams) && saved.teams.length) S.teams = saved.teams.slice(0, 4).map(t => ({ name: String(t.name || "Team").slice(0, 24), score: 0 }));
   }
 } catch (e) {}
+// Vanaf de pagina Leuke extra's opent het spel meteen op het juiste niveau: ?niveau=spark (Kim, 9/11/2026).
+try {
+  const gevraagd = new URLSearchParams(location.search).get("niveau");
+  if (gevraagd && DATA[gevraagd] && gevraagd !== S.level) { S.level = gevraagd; S.chapter = DATA[gevraagd].chapters[0].id; }
+} catch (e) {}
 function save() {
-  try { localStorage.setItem("begrippenarena", JSON.stringify({ level: S.level, chapter: S.chapter, teams: S.teams.map(t => ({ name: t.name })) })); } catch (e) {}
+  try { localStorage.setItem("begrippenarena", JSON.stringify({ level: S.level, chapter: S.chapter, alleen: S.alleen, teams: S.teams.map(t => ({ name: t.name })) })); } catch (e) {}
 }
 
 const $app = document.getElementById("app");
@@ -711,8 +719,21 @@ function awardRow(label, pts, onDone) {
       onDone(i);
     });
   });
+  if (S.alleen) return `<div class="row"><span class="label">Had je het juist?</span><button class="btn" data-aw="${id}" data-i="0" style="border-color:${teamColor(0)}">Ja, +${pts}</button><button class="btn ghost" data-aw="${id}" data-i="-1">Nee, nog niet</button></div>`;
   const btns = S.teams.map((t, i) => `<button class="btn" data-aw="${id}" data-i="${i}" style="border-color:${teamColor(i)}">${esc(t.name)} +${pts}</button>`).join("");
   return `<div class="row"><span class="label">${label}</span>${btns}<button class="btn ghost" data-aw="${id}" data-i="-1">Niemand</button></div>`;
+}
+
+// ---------- alleen spelen ----------
+// Andere uitleg bij de spellen als je alleen speelt. Bingo heeft iemand nodig die voorleest, dus dat valt dan weg.
+function alleenTekst(g) {
+  if (!S.alleen) return g;
+  const d = {
+    quiz: g.desc.replace(" Teams spelen om beurten.", ""),
+    memory: g.desc.replace(" Wie een paar vindt, mag nog eens.", ""),
+    flits: "Bekijk de kaart en zeg zelf wat het betekent. Draai ze daarna om en kijk of je juist was.",
+  }[g.id];
+  return d ? { ...g, desc: d } : g;
 }
 
 // ---------- menu ----------
@@ -721,7 +742,7 @@ function renderMenu() {
   const lvl = DATA[S.level];
   const chips = lvl.chapters.map(c => `<button class="chip" data-ch="${c.id}" aria-pressed="${S.chapter === c.id}">${esc(c.title)} <small>${c.terms.length}</small></button>`).join("")
     + `<button class="chip" data-ch="mix" aria-pressed="${S.chapter === "mix"}">Alle hoofdstukken door elkaar</button>`;
-  const games = GAMES.map(g => `<button class="game-card" data-game="${g.id}"><svg viewBox="0 0 56 56" aria-hidden="true">${g.icon}</svg><h3>${g.name}</h3><p>${g.desc}</p></button>`).join("");
+  const games = GAMES.filter(g => !(S.alleen && g.id === "bingo")).map(g => alleenTekst(g)).map(g => `<button class="game-card" data-game="${g.id}"><svg viewBox="0 0 56 56" aria-hidden="true">${g.icon}</svg><h3>${g.name}</h3><p>${g.desc}</p></button>`).join("");
   const teams = S.teams.map((t, i) => `<label class="team-input"><i style="background:${teamColor(i)}"></i><input id="team-${i}" value="${esc(t.name)}" maxlength="24" aria-label="Naam team ${i + 1}"></label>`).join("");
   $app.innerHTML = `
     <header class="top">
@@ -745,10 +766,10 @@ function renderMenu() {
     </section>
     <section class="panel">
       <div class="row" style="justify-content:space-between">
-        <div class="label">Teams</div>
-        <div class="seg" role="group" aria-label="Aantal teams">${[1, 2, 3, 4].map(n => `<button data-nt="${n}" aria-pressed="${S.teams.length === n}">${n === 1 ? "Hele klas" : n + " teams"}</button>`).join("")}</div>
+        <div class="label">Wie speelt er?</div>
+        <div class="seg" role="group" aria-label="Wie speelt er">${[0, 1, 2, 3, 4].map(n => `<button data-nt="${n}" aria-pressed="${n === 0 ? S.alleen : !S.alleen && S.teams.length === n}">${n === 0 ? "Alleen" : n === 1 ? "Hele klas" : n + " teams"}</button>`).join("")}</div>
       </div>
-      <div class="team-row">${teams}</div>
+      ${S.alleen ? `<p style="margin:0">Je speelt alleen. Je verdient punten voor jezelf. Begrippenbingo staat er niet bij, want daar heb je iemand voor nodig die voorleest.</p>` : `<div class="team-row">${teams}</div>`}
       <div class="row" style="justify-content:space-between">
         ${scoresHTML(false)}
         <button class="linkbtn" data-reset>Scores op nul</button>
@@ -760,13 +781,15 @@ function renderMenu() {
   $app.querySelector("[data-list]").onclick = () => startGame("lijst");
   $app.querySelectorAll("[data-nt]").forEach(b => b.onclick = () => {
     const n = +b.dataset.nt;
+    if (n === 0) { S.alleen = true; S.teams = [{ name: "Jij", score: 0 }]; S.turn = 0; save(); renderMenu(); return; }
+    if (S.alleen) { S.alleen = false; S.teams = [{ name: "Klas", score: 0 }]; }
     while (S.teams.length < n) S.teams.push({ name: "Team " + (S.teams.length + 1), score: 0 });
     S.teams = S.teams.slice(0, n);
     if (n === 1 && /^Team \d$/.test(S.teams[0].name)) S.teams[0].name = "Klas";
     if (n > 1 && S.teams[0].name === "Klas") S.teams[0].name = "Team 1";
     S.turn = 0; save(); renderMenu();
   });
-  S.teams.forEach((t, i) => { const inp = document.getElementById("team-" + i); inp.oninput = () => { t.name = inp.value || "Team " + (i + 1); save(); }; inp.onchange = renderMenu; });
+  if (!S.alleen) S.teams.forEach((t, i) => { const inp = document.getElementById("team-" + i); inp.oninput = () => { t.name = inp.value || "Team " + (i + 1); save(); }; inp.onchange = renderMenu; });
   $app.querySelector("[data-reset]").onclick = () => { S.teams.forEach(t => t.score = 0); renderMenu(); };
   bindPM();
 }
@@ -806,7 +829,7 @@ function endScreen(title, sub, again) {
   S.game.turnBased = false;
   const best = Math.max(...S.teams.map(t => t.score));
   const winners = S.teams.filter(t => t.score === best && best > 0).map(t => t.name);
-  const line = S.teams.length > 1 && winners.length ? (winners.length > 1 ? "Gelijkspel tussen " + winners.join(" en ") : winners[0] + " staat voor") : "";
+  const line = S.alleen ? `Je hebt ${S.teams[0].score} ${S.teams[0].score === 1 ? "punt" : "punten"}.` : S.teams.length > 1 && winners.length ? (winners.length > 1 ? "Gelijkspel tussen " + winners.join(" en ") : winners[0] + " staat voor") : "";
   mount(title, `<div class="endbox"><div class="label">Klaar</div><h2>${esc(sub)}</h2>${line ? `<p style="font-size:1.2rem;margin:0">${esc(line)}</p>` : ""}<div class="row" style="justify-content:center"><button class="btn primary" data-again>Nog een ronde</button><button class="btn ghost" data-menu>Ander spel kiezen</button></div></div>`);
   $app.querySelector("[data-again]").onclick = again;
   $app.querySelector("[data-menu]").onclick = renderMenu;
@@ -977,7 +1000,7 @@ function Galgje(terms, used) {
           <div class="prompt" style="min-height:0;font-size:clamp(1.1rem,2.2vw,1.6rem)"><div><div class="label" style="font-family:var(--font-body)">Uitleg</div>${esc(t.d)}</div></div>
           <div class="slots" aria-live="polite">${slots}</div>
           ${done ? `<div class="feedback ${won ? "good" : "badc"}" style="text-align:center;font-size:1.4rem">${won ? "Geraden!" : "De tempel staat er. Het begrip was: " + esc(t.w)}</div>` : `<div class="keys">${keys}</div>`}
-          ${done ? (won && S.teams.length ? awardRow("Punt voor", 2, () => next()) : `<div class="row end"><button class="btn primary" data-nw>Nieuw begrip →</button></div>`)
+          ${done ? (won && S.teams.length && !S.alleen ? awardRow("Punt voor", 2, () => next()) : `<div class="row end"><button class="btn primary" data-nw>Nieuw begrip →</button></div>`)
                  : `<div class="row end"><button class="btn" data-solve>Iemand weet het hele begrip</button></div>`}
         </div>
         <div>${temple()}<div class="lives">${MAX - wrong} foute letters over</div></div>
@@ -991,7 +1014,7 @@ function Galgje(terms, used) {
     if (done || guessed.has(L)) return;
     guessed.add(L);
     if (!target.some(c => fold(c) === L)) { wrong++; nextTurn(); }
-    if (allFound()) { done = true; won = true; }
+    if (allFound()) { done = true; won = true; if (S.alleen) award(0, 2); }
     else if (wrong >= MAX) { done = true; }
     draw();
   }

@@ -1,22 +1,31 @@
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { getSessionProfile } from "@/lib/auth";
-import { extrasTekst, spellen } from "@/inhoud/extras";
+import { extrasTekst, soorten, spelKaarten } from "@/inhoud/extras";
+import { haalMateriaal } from "@/lib/extrasMateriaal";
 
 export const metadata = {
   title: "Leuke extra's — Oefenplatform Connectopia",
   description:
-    "Spelletjes naast de leerstof om begrippen op een andere manier in te oefenen, alleen of met de hele klas.",
+    "Educatieve spellen, leuke links, afdrukbare documenten en filmpjes naast de leerstof, per schoolniveau. Gratis en zonder account.",
 };
 
 /*
-  Een kaart per spel. Zichtbaar zonder account, net als /tips en /materiaal:
-  de spellen bewaren niets van een kind, dus er is niets af te schermen.
+  Vier grote knoppen, elk naar een eigen pagina (Kim, 9 november 2026). Wat er
+  achter elke knop staat, zie je op /extras/spellen, /extras/links,
+  /extras/documenten en /extras/filmpjes. Zichtbaar zonder account: er staat
+  niets van een kind op.
 
-  De teksten en de lijst met spellen staan in inhoud/extras.ts.
+  De teksten staan in inhoud/extras.ts.
 */
 export default async function ExtrasPage() {
   const session = await getSessionProfile();
+  const materiaal = await haalMateriaal();
+
+  function aantal(soort: string) {
+    if (soort === "spellen") return spelKaarten.length;
+    return materiaal.filter((m) => m.soort === soort).length;
+  }
 
   return (
     <>
@@ -31,42 +40,41 @@ export default async function ExtrasPage() {
         <p className="mt-4 max-w-2xl text-sm text-ink-dim">{extrasTekst.intro}</p>
 
         <div className="mt-8 grid gap-4 sm:grid-cols-2">
-          {spellen.map((spel) => (
-            <Link
-              key={spel.slug}
-              href={`/extras/${spel.slug}`}
-              className="flex flex-col rounded-xl border border-border bg-surface px-6 py-5 transition hover:border-forest hover:shadow-sm"
-            >
-              <span className="font-display text-lg font-semibold text-ink">
-                <span aria-hidden>{spel.icoon}</span> {spel.titel}
-              </span>
-              <span className="mt-1 text-xs font-medium uppercase tracking-wide text-forest">
-                {spel.vak} · {spel.voorWie}
-              </span>
-              <span className="mt-2 block text-sm text-ink-dim">{spel.tekst}</span>
-            </Link>
-          ))}
+          {soorten.map((s) => {
+            const n = aantal(s.slug);
+            return (
+              <Link
+                key={s.slug}
+                href={`/extras/${s.slug}`}
+                className="flex flex-col rounded-2xl border-2 border-border bg-surface px-6 py-6 transition hover:border-forest hover:shadow-md"
+              >
+                <span aria-hidden className="text-4xl">
+                  {s.icoon}
+                </span>
+                <span className="mt-3 font-display text-xl font-semibold text-ink">
+                  {s.titel}
+                </span>
+                <span className="mt-2 block text-sm text-ink-dim">{s.tekst}</span>
+                <span className="mt-4 text-sm font-semibold text-forest-dark">
+                  {n > 0 ? `Bekijk ze (${n})` : "Binnenkort"} &rarr;
+                </span>
+              </Link>
+            );
+          })}
         </div>
 
-        {/* Materiaal had eerst een eigen knop in de menubalk. Nu het menu
-            korter is, staat het hier (Kim, 7 november 2026). */}
-        <Link
-          href="/materiaal"
-          className="mt-6 flex items-center justify-between gap-4 rounded-xl border border-dashed border-forest/50 bg-surface px-6 py-5 transition hover:border-forest hover:shadow-sm"
-        >
-          <span>
-            <span className="font-display text-lg font-semibold text-ink">
-              🔗 Handig materiaal
-            </span>
-            <span className="mt-1 block text-sm text-ink-dim">
-              Links die we zelf gebruiken: vakfiches, naslagwerken en
-              oefensites. Gratis, ook zonder account.
-            </span>
-          </span>
-          <span aria-hidden className="shrink-0 text-forest">
-            &rarr;
-          </span>
-        </Link>
+        {extrasTekst.tipsLink && (
+          <p className="mt-10 text-sm text-ink-dim">
+            {extrasTekst.tipsVraag}{" "}
+            <Link
+              href={extrasTekst.tipsLink}
+              className="font-medium text-forest underline underline-offset-2 hover:text-forest-dark"
+            >
+              {extrasTekst.tipsLinkTekst}
+            </Link>
+            .
+          </p>
+        )}
       </main>
     </>
   );

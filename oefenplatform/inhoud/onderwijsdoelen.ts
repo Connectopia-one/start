@@ -33,7 +33,7 @@ export const doelenTekst = {
     "Hieronder staat bij elk vak het officiële document waarop we ons gebaseerd hebben. We bewaren daar met opzet onze eigen kopie van, met de datum erbij. Op de site van de Examencommissie staan namelijk honderden fiches, en dan weet je nog niet welke wij precies gebruikt hebben. Zie je dat een document verouderd is, laat het ons dan weten.",
   /* Wijst door naar de pagina met de overige links. */
   materiaalTekst:
-    "Op onze pagina met handig materiaal staan daarnaast nog naslagwerken en oefensites. Die is ook voor iedereen te bekijken, zonder account.",
+    "Bij de leuke extra's staan daarnaast nog naslagwerken en oefensites. Die zijn ook voor iedereen te bekijken, zonder account.",
 };
 
 export type DoelenBlok = {

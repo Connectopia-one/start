@@ -29,6 +29,8 @@ export async function registreerMateriaal(input: {
   link?: string | null;
   bestandspad?: string | null;
   omschrijving?: string | null;
+  soort?: "links" | "documenten" | "filmpjes";
+  schoolniveau?: "lager" | "middelbaar" | "iedereen";
 }) {
   await requireBeheerder();
   const admin = createAdminClient();
@@ -40,11 +42,13 @@ export async function registreerMateriaal(input: {
     link: input.link?.trim() || null,
     bestandspad: input.bestandspad || null,
     omschrijving: input.omschrijving?.trim() || null,
+    soort: input.soort ?? (input.type === "pdf" ? "documenten" : "links"),
+    schoolniveau: input.schoolniveau ?? "iedereen",
   });
 
   if (error) throw new Error(error.message);
   revalidatePath("/beheer/materiaal");
-  revalidatePath("/materiaal");
+  revalidatePath("/extras", "layout");
 }
 
 export async function verwijderMateriaal(formData: FormData) {
@@ -60,5 +64,22 @@ export async function verwijderMateriaal(formData: FormData) {
   await admin.from("materiaal").delete().eq("id", id);
 
   revalidatePath("/beheer/materiaal");
-  revalidatePath("/materiaal");
+  revalidatePath("/extras", "layout");
+}
+
+/* Achteraf de soort of het schoolniveau van een item aanpassen. */
+export async function wijzigMateriaalPlek(formData: FormData) {
+  await requireBeheerder();
+  const id = String(formData.get("id") || "");
+  const soort = String(formData.get("soort") || "");
+  const schoolniveau = String(formData.get("schoolniveau") || "");
+  if (!id) return;
+  if (!["links", "documenten", "filmpjes"].includes(soort)) return;
+  if (!["lager", "middelbaar", "iedereen"].includes(schoolniveau)) return;
+
+  const admin = createAdminClient();
+  const { error } = await admin.from("materiaal").update({ soort, schoolniveau }).eq("id", id);
+  if (error) throw new Error(error.message);
+  revalidatePath("/beheer/materiaal");
+  revalidatePath("/extras", "layout");
 }

@@ -40,6 +40,13 @@ export const nieuwTekst = {
 
 export const updates: Update[] = [
   {
+    datum: "9 november 2026",
+    titel: "Leuke extra's netjes geordend",
+    tekst:
+      "De pagina Leuke extra's begint nu met vier grote knoppen: educatieve spellen, leuke links, afdrukbare documenten en leuke filmpjes. Achter elke knop staat alles per schoolniveau, eerst de lagere school en dan de middelbare school. Bij elke begrippenarena zie je meteen voor welk niveau ze is, en het spel opent ook meteen op dat niveau. In de begrippenarena's kan je nu ook kiezen om alleen te spelen, handig om thuis te oefenen.",
+    link: { tekst: "Naar de leuke extra's", href: "/extras" },
+  },
+  {
     datum: "8 november 2026",
     titel: "Welzijnswetenschappen nu bij natuurwetenschappen",
     tekst:

@@ -3,22 +3,27 @@
 import { useState, type FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
-import { materiaalGroepSuggesties } from "@/inhoud/materiaal";
 import { maakMateriaalUploadUrl, registreerMateriaal } from "./actions";
 
 type Type = "link" | "pdf";
+type Soort = "links" | "documenten" | "filmpjes";
+type Schoolniveau = "lager" | "middelbaar" | "iedereen";
 
 const veld =
   "w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest";
 
-export function NieuwMateriaalForm({ groepen }: { groepen: string[] }) {
+/*
+  Sinds 9 november 2026 kies je bij elk item onder welke knop van de Leuke
+  extra's het komt (links, documenten of filmpjes) en voor wie het is. De
+  oude "kop" vragen we niet meer: de indeling per schoolniveau neemt die plaats in.
+*/
+export function NieuwMateriaalForm() {
   const router = useRouter();
   const [type, setType] = useState<Type>("link");
+  const [soort, setSoort] = useState<Soort>("links");
   const [status, setStatus] = useState<"idle" | "bezig" | "fout">("idle");
   const [fout, setFout] = useState<string | null>(null);
 
-  /* Wat Kim al gebruikt heeft, aangevuld met de voorstellen uit inhoud/materiaal.ts. */
-  const voorstellen = Array.from(new Set([...groepen, ...materiaalGroepSuggesties]));
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -28,7 +33,8 @@ export function NieuwMateriaalForm({ groepen }: { groepen: string[] }) {
     const form = e.currentTarget;
     const data = new FormData(form);
     const titel = String(data.get("titel") || "").trim();
-    const groep = String(data.get("groep") || "").trim();
+    const groep = "";
+    const schoolniveau = String(data.get("schoolniveau") || "iedereen") as Schoolniveau;
     const omschrijving = String(data.get("omschrijving") || "").trim();
 
     try {
@@ -46,18 +52,35 @@ export function NieuwMateriaalForm({ groepen }: { groepen: string[] }) {
           .uploadToSignedUrl(path, token, bestand);
         if (uploadError) throw new Error("Uploaden mislukt: " + uploadError.message);
 
-        await registreerMateriaal({ groep, type: "pdf", titel, bestandspad: path, omschrijving });
+        await registreerMateriaal({
+          groep,
+          type: "pdf",
+          titel,
+          bestandspad: path,
+          omschrijving,
+          soort,
+          schoolniveau,
+        });
       } else {
         const link = String(data.get("link") || "").trim();
         if (!link) throw new Error("Vul een link in.");
         if (!/^https?:\/\//i.test(link)) {
           throw new Error("Een link begint met https:// — plak het volledige adres uit je browser.");
         }
-        await registreerMateriaal({ groep, type: "link", titel, link, omschrijving });
+        await registreerMateriaal({
+          groep,
+          type: "link",
+          titel,
+          link,
+          omschrijving,
+          soort,
+          schoolniveau,
+        });
       }
 
       form.reset();
       setType("link");
+      setSoort("links");
       setStatus("idle");
       router.refresh();
     } catch (err) {
@@ -86,7 +109,10 @@ export function NieuwMateriaalForm({ groepen }: { groepen: string[] }) {
               name="type"
               value="link"
               checked={type === "link"}
-              onChange={() => setType("link")}
+              onChange={() => {
+                setType("link");
+                if (soort === "documenten") setSoort("links");
+              }}
             />{" "}
             Link
           </label>
@@ -96,7 +122,10 @@ export function NieuwMateriaalForm({ groepen }: { groepen: string[] }) {
               name="type"
               value="pdf"
               checked={type === "pdf"}
-              onChange={() => setType("pdf")}
+              onChange={() => {
+                setType("pdf");
+                setSoort("documenten");
+              }}
             />{" "}
             PDF
           </label>
@@ -126,24 +155,34 @@ export function NieuwMateriaalForm({ groepen }: { groepen: string[] }) {
       )}
 
       <div className="space-y-1.5">
-        <label htmlFor="groep" className="text-sm font-medium text-ink">
-          Onder welke kop?
+        <label htmlFor="soort" className="text-sm font-medium text-ink">
+          Onder welke knop?
         </label>
-        <input
-          id="groep"
-          name="groep"
-          list="materiaal-groepen"
-          defaultValue={voorstellen[0] ?? "Allerlei"}
+        <select
+          id="soort"
+          name="soort"
+          value={soort}
+          onChange={(e) => setSoort(e.target.value as Soort)}
           className={veld}
-        />
-        <datalist id="materiaal-groepen">
-          {voorstellen.map((g) => (
-            <option key={g} value={g} />
-          ))}
-        </datalist>
+        >
+          <option value="links">🔗 Leuke links</option>
+          <option value="documenten">🖨️ Afdrukbare documenten</option>
+          <option value="filmpjes">🎬 Leuke filmpjes</option>
+        </select>
+      </div>
+
+      <div className="space-y-1.5">
+        <label htmlFor="schoolniveau" className="text-sm font-medium text-ink">
+          Voor wie?
+        </label>
+        <select id="schoolniveau" name="schoolniveau" defaultValue="lager" className={veld}>
+          <option value="lager">Lagere school (Basis en Start)</option>
+          <option value="middelbaar">Middelbare school (Spark, Boost en Beyond)</option>
+          <option value="iedereen">Voor iedereen</option>
+        </select>
         <p className="text-xs text-ink-dim">
-          Kies er een uit de lijst of typ een nieuwe kop. Een nieuwe kop verschijnt vanzelf op de
-          pagina.
+          Zet in de titel of de omschrijving gerust welk leerjaar of welk vak, bv. &quot;5de en
+          6de leerjaar&quot;.
         </p>
       </div>
 

@@ -138,9 +138,9 @@ export default async function BeheerPage() {
           </section>
 
           <section>
-            <h2 className="font-display text-lg font-semibold text-ink">Handig materiaal</h2>
+            <h2 className="font-display text-lg font-semibold text-ink">Leuke extra&apos;s</h2>
             <p className="mt-3 text-sm text-ink-dim">
-              Links en documenten voor de gratis pagina met materiaal, voor iedereen zichtbaar.
+              Links, afdrukbare documenten en filmpjes voor de gratis pagina Leuke extra&apos;s, voor iedereen zichtbaar.
             </p>
             <Link
               href="/beheer/materiaal"
