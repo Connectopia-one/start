@@ -5910,6 +5910,418 @@
           "uitleg": "Voor de ene is iemand een held, voor de andere een onderdrukker. Wie dat verschil in kaart brengt, begrijpt het heden meestal beter dan het verleden."
         }
       ]
+    },
+    {
+      "titel": "De Volksrepubliek China: van Mao tot Xi — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke twee partijen vochten vanaf 1927 een burgeroorlog uit in China?",
+          "opties": [
+            "de nationalisten van de Guomindang en de communisten",
+            "de keizerlijke familie en de Japanse bezetter",
+            "de liberalen en de katholieken van het zuiden",
+            "de Britse handelaars en de Chinese boeren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Chiang Kai-shek leidde de Guomindang, Mao Zedong de communisten. Tegen de Japanse inval sloten ze tijdelijk een bondgenootschap."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Toen Japan China vanaf 1937 binnenviel, werkten nationalisten en communisten tijdelijk samen.",
+          "antwoord": true,
+          "uitleg": "Tegen de gemeenschappelijke vijand sloten ze een bondgenootschap. Na 1945 laaide de burgeroorlog weer op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke factoren verklaren mee de overwinning van de communisten in 1949?",
+          "opties": [
+            "de armoede en de schulden van de boeren",
+            "corruptie en verdeeldheid bij de nationalisten",
+            "de verzwakking van het land door de Japanse bezetting",
+            "de massale steun van de Verenigde Staten aan Mao"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De Verenigde Staten steunden net de nationalisten, en weigerden het nieuwe bewind daarna te erkennen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar haalde Mao het grootste deel van zijn steun?",
+          "opties": [
+            "bij de arme boeren op het platteland",
+            "bij de fabrieksarbeiders in de havensteden",
+            "bij de rijke kooplieden van Sjanghai en Kanton",
+            "bij de officieren van het keizerlijke leger"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hij beloofde de boeren grond, en zijn troepen leefden tussen de bevolking. Dat was anders dan bij Marx, die op de arbeiders rekende."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Naar welk eiland vluchtten Chiang Kai-shek en de nationalisten in 1949?",
+          "antwoord": [
+            "Taiwan",
+            "Formosa"
+          ],
+          "uitleg": "Taiwan. Daar bleef een eigen regering bestaan, los van de Volksrepubliek."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welk jaar riep Mao de Volksrepubliek China uit? Schrijf het jaartal.",
+          "antwoord": [
+            "1949"
+          ],
+          "uitleg": "Op 1 oktober 1949, op het Tienanmenplein in Peking."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Na 1949 erkenden de Verenigde Staten het communistische bewind meteen als de wettige regering van China.",
+          "antwoord": false,
+          "uitleg": "De VS weigerden het nieuwe bewind te erkennen. Die breuk duurde tot 1979."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tot welk domein hoort de huwelijkswet van 1950, die gedwongen huwelijken verbood?",
+          "opties": [
+            "sociaal",
+            "economisch",
+            "cultureel",
+            "militair"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze veranderde de positie van vrouwen in het gezin: ze kregen ook het recht op echtscheiding."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe was de economie onder Mao ingericht?",
+          "opties": [
+            "als planeconomie met vijfjarenplannen naar Sovjetvoorbeeld",
+            "als vrije markteconomie met veel buitenlandse bedrijven",
+            "als ruilhandel zonder geld tussen de dorpen onderling",
+            "als economie in handen van een kleine groep grootgrondbezitters"
+          ],
+          "antwoord": 0,
+          "uitleg": "De staat plande de productie, met de nadruk op zware industrie, en de grond werd gecollectiviseerd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelt men met persoonsverheerlijking rond Mao?",
+          "opties": [
+            "Mao werd voorgesteld als bijna heilig: zijn portret overal, zijn woorden als wet",
+            "Mao liet zich nooit fotograferen en leefde volledig in het geheim",
+            "elke burger kon zelf een leider kiezen en die openlijk vereren",
+            "Mao deelde de macht eerlijk met de andere leden van de partij"
+          ],
+          "antwoord": 0,
+          "uitleg": "Denk aan de reusachtige portretten en het Rode Boekje met citaten dat iedereen bij zich moest dragen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat wilde Mao bereiken met de Grote Sprong Voorwaarts van 1958?",
+          "opties": [
+            "China in enkele jaren tot een industrieland maken",
+            "de grens met de Sovjet-Unie militair versterken",
+            "de keizer opnieuw op de troon zetten in Peking",
+            "China openstellen voor westerse bedrijven en toeristen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De sprong moest het Westen inhalen. Het werd een ramp."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke maatregelen van de Grote Sprong leidden tot achteruitgang?",
+          "opties": [
+            "boeren moesten ijzer smelten in kleine ovens in plaats van hun velden te bewerken",
+            "lokale leiders meldden veel hogere oogsten dan de werkelijke",
+            "de staat bleef graan uitvoeren",
+            "buitenlandse bedrijven kochten de beste landbouwgrond op"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Buitenlandse bedrijven waren er toen niet. De staat haalde graan op op basis van opgeblazen cijfers."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het staal uit de kleine ovens van de Grote Sprong was van uitstekende kwaliteit.",
+          "antwoord": false,
+          "uitleg": "Veel ervan was onbruikbaar. Ondertussen bleven de velden onbewerkt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was een volkscommune?",
+          "opties": [
+            "een reusachtige gemeenschap van boeren met gemeenschappelijke grond en keukens",
+            "een kleine privéboerderij die een gezin zelf mocht uitbaten",
+            "een vereniging van buitenlandse handelaars in een Chinese havenstad",
+            "een school waar kinderen het Rode Boekje van buiten leerden"
+          ],
+          "antwoord": 0,
+          "uitleg": "De privéakkers werden samengevoegd. Zelfs koken gebeurde in gemeenschappelijke keukens."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat brak er tijdens de Grote Sprong uit en kostte miljoenen mensen het leven? Eén woord.",
+          "antwoord": [
+            "hongersnood"
+          ],
+          "uitleg": "Een hongersnood met miljoenen doden. Tussen 1958 en 1960 daalde de graanoogst met bijna een kwart."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Na de mislukking van de Grote Sprong moest Mao het dagelijkse bestuur een tijd aan anderen overlaten.",
+          "antwoord": true,
+          "uitleg": "Hij verloor aan invloed. Met de Culturele Revolutie won hij die terug."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welk jaar begon de Culturele Revolutie? Schrijf het jaartal.",
+          "antwoord": [
+            "1966"
+          ],
+          "uitleg": "Ze duurde tot 1976, het jaar waarin Mao stierf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie waren de Rode Gardisten?",
+          "opties": [
+            "jongeren die leraren, intellectuelen en partijleden aanvielen",
+            "soldaten die de grens met Taiwan bewaakten",
+            "boeren die zich verzetten tegen de volkscommunes",
+            "buitenlandse vrijwilligers die Mao kwamen helpen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze zwaaiden met het Rode Boekje en zagen elke vorm van gezag buiten Mao als vijand."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Tijdens de Culturele Revolutie werden oude tempels, boeken en tradities vernield.",
+          "antwoord": true,
+          "uitleg": "Alles wat oud was, gold als verdacht. Scholen en universiteiten lagen jaren stil."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een staatsaffiche uit de Culturele Revolutie geeft een betrouwbaar beeld van het dagelijkse leven in die jaren.",
+          "antwoord": false,
+          "uitleg": "Zo'n affiche toont het ideaal van de partij. Over vervolgingen en gesloten scholen zegt ze niets."
+        }
+      ]
+    },
+    {
+      "titel": "De Volksrepubliek China: van Mao tot Xi — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "invultekst",
+          "vraag": "Welke leider zette China vanaf 1978 op een nieuwe economische koers? Familienaam.",
+          "antwoord": [
+            "Deng",
+            "Deng Xiaoping"
+          ],
+          "uitleg": "Deng Xiaoping, twee jaar na de dood van Mao."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke maatregelen horen bij de modernisering onder Deng?",
+          "opties": [
+            "boeren mochten een deel van hun oogst zelf op de markt verkopen",
+            "buitenlandse bedrijven mochten investeren in speciale economische zones",
+            "gezinnen mochten in principe nog maar één kind krijgen",
+            "vrije verkiezingen met meerdere partijen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Economisch ging China open, politiek niet: de partij hield het machtsmonopolie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke stad vlak bij Hongkong werd de eerste speciale economische zone?",
+          "antwoord": [
+            "Shenzhen"
+          ],
+          "uitleg": "Shenzhen groeide van vissersdorp tot miljoenenstad."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noemde Deng zijn koers?",
+          "opties": [
+            "socialisme met Chinese kenmerken",
+            "de dictatuur van het proletariaat",
+            "de Grote Sprong Voorwaarts",
+            "één land, twee systemen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een markteconomie onder leiding van één partij. Eén land, twee systemen ging over Hongkong."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelde Deng met de uitspraak over de kat die muizen moet vangen, of ze nu zwart of wit is?",
+          "opties": [
+            "het resultaat telt: wat de economie doet groeien, is goed",
+            "China moet zich niet bemoeien met de rest van de wereld",
+            "de kleur van de vlag moet veranderen",
+            "elke Chinees moet een huisdier hebben"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zo verantwoordde hij marktwerking in een communistische staat."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Onder Deng gaf de communistische partij haar machtsmonopolie op.",
+          "antwoord": false,
+          "uitleg": "De economie veranderde, het politieke systeem niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat eisten de studenten en arbeiders op het Tienanmenplein in 1989?",
+          "opties": [
+            "persvrijheid, inspraak en een einde aan corruptie",
+            "de terugkeer van Mao en de volkscommunes",
+            "de oorlog tegen Taiwan en de Verenigde Staten",
+            "de afschaffing van alle buitenlandse handel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze bezetten weken lang het plein. In de nacht van 3 op 4 juni reden tanks het plein op."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In Chinese schoolboeken wordt uitgebreid verteld wat er op 4 juni 1989 op het Tienanmenplein gebeurde.",
+          "antwoord": false,
+          "uitleg": "De staat zwijgt het dood. Daarom zijn Chinese officiële bronnen daarover niet bruikbaar."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke Chinese leider is aan de macht sinds 2012? Familienaam.",
+          "antwoord": [
+            "Xi",
+            "Xi Jinping"
+          ],
+          "uitleg": "Xi Jinping."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke kenmerken horen bij het beleid onder Xi Jinping?",
+          "opties": [
+            "een grote campagne tegen corruptie",
+            "de afschaffing van de grens van twee ambtstermijnen",
+            "strenge censuur op internet",
+            "vrije en open verkiezingen met meerdere partijen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De macht werd net meer gecentraliseerd. Vrije verkiezingen bestaan in China niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de Nieuwe Zijderoute?",
+          "opties": [
+            "een plan voor wegen, havens en spoorlijnen in tientallen landen",
+            "een oude karavaanweg die vandaag als museum bewaard wordt",
+            "een nieuwe wet die de zijdeproductie in China beperkt",
+            "een toeristische route langs de Chinese Muur"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met dat plan groeit ook de economische en politieke invloed van China in de wereld."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In Xinjiang worden Oeigoeren, een moslimminderheid, in grote kampen opgesloten.",
+          "antwoord": true,
+          "uitleg": "Het is een van de sociale kenmerken van het bewind van Xi, samen met camera's en een puntensysteem dat burgers volgt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Sinds de veiligheidswet van 2020 is er in Hongkong meer ruimte voor protest en oppositie.",
+          "antwoord": false,
+          "uitleg": "Het omgekeerde: de wet legt protest en oppositie aan banden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is gelijk gebleven tussen China onder Mao en China vandaag?",
+          "opties": [
+            "één partij heeft alle macht",
+            "er is censuur op wat burgers lezen en zeggen",
+            "de meerderheid van de bevolking woont op het platteland",
+            "privébedrijven zijn verboden"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Vandaag woont de meerderheid in de stad en zijn er privébedrijven en miljardairs. Het politieke systeem bleef."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke grondstoffen haalt China onder meer uit Afrika?",
+          "opties": [
+            "olie, koper en kobalt",
+            "rijst, thee en zijde",
+            "steenkool uit Belgische mijnen",
+            "ijs en zoet water"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarnaast zoekt China in Afrika een afzetmarkt en steun in de VN."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kiezen sommige Afrikaanse regeringen voor Chinese leningen?",
+          "opties": [
+            "China stelt geen voorwaarden over mensenrechten of bestuur",
+            "Chinese leningen hoeven nooit terugbetaald te worden",
+            "China eist eerst vrije verkiezingen in het land",
+            "westerse landen lenen nooit geld aan Afrika"
+          ],
+          "antwoord": 0,
+          "uitleg": "China zegt zich niet te bemoeien met binnenlandse zaken. Westerse geldschieters koppelen hulp vaker aan voorwaarden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemen critici de toestand waarin een land een lening niet kan terugbetalen en bijvoorbeeld een haven moet afstaan?",
+          "antwoord": [
+            "schuldenval"
+          ],
+          "uitleg": "Een schuldenval. Critici vergelijken het met een nieuwe vorm van afhankelijkheid."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Anders dan Europa vroeger, bezet China in Afrika geen gebieden en bestuurt het ze niet zelf.",
+          "antwoord": true,
+          "uitleg": "Dat is het grote verschil met het Europese imperialisme, ook al zijn er gelijkenissen zoals grondstoffen en afhankelijkheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stap in de toenadering tussen China en het Westen gebeurde in 2001?",
+          "opties": [
+            "China werd lid van de Wereldhandelsorganisatie",
+            "de Amerikaanse president Nixon bezocht Peking",
+            "Groot-Brittannië gaf Hongkong terug aan China",
+            "de eerste speciale economische zone opende"
+          ],
+          "antwoord": 0,
+          "uitleg": "Nixon in 1972, de zones vanaf 1980, Hongkong in 1997 en de Wereldhandelsorganisatie in 2001."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Volgens het principe één land, twee systemen zou Hongkong vijftig jaar een eigen economie en rechtspraak houden.",
+          "antwoord": true,
+          "uitleg": "Dat was de belofte bij de teruggave in 1997. Critici vinden dat de vrijheden sterk zijn ingeperkt."
+        }
+      ]
     }
   ]
 }

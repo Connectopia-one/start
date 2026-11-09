@@ -45,6 +45,7 @@ THEMAS = [
     ("gs_cultuur", "Denken, kunst en emancipatie"),
     ("gs_bronnen", "Redeneren met historische bronnen"),
     ("gs_beeldvorming", "Beeldvorming, vergelijken en verleden-heden-toekomst"),
+    ("gs_china", "De Volksrepubliek China: van Mao tot Xi"),
 ]
 
 

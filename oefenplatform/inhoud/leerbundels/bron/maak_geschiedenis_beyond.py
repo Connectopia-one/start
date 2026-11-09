@@ -1511,3 +1511,152 @@ BUNDELS["beeldvorming-vergelijken-en-verleden-heden-toekomst-beyond"] = dict(
         "In een rechtsstaat moet ook een verkozen meerderheid zich aan de wet en de grondrechten houden.",
     ],
 )
+
+# ───────────────────────── 14. De Volksrepubliek China
+# Toegevoegd 9/11/2026: dit stuk van de vakfiche ontbrak nog (Volksrepubliek
+# China: Mao, Deng, Xi, China in Afrika, interculturele contacten met het Westen).
+BUNDELS["de-volksrepubliek-china-van-mao-tot-xi-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="De Volksrepubliek China: van Mao tot Xi",
+    onder="Hoe de communisten de macht grepen, wat Mao, Deng en Xi ermee deden, en China in Afrika en tegenover het Westen.",
+    secties=[
+        dict(kop="De communistische machtsovername", blokken=[
+            ("p", "Na de val van het keizerrijk in 1912 werd China verscheurd. Vanaf 1927 vochten de "
+                  "<strong>nationalisten van de Guomindang</strong>, geleid door <strong>Chiang "
+                  "Kai-shek</strong>, en de <strong>communisten van Mao Zedong</strong> een "
+                  "<strong>burgeroorlog</strong> uit. Toen <strong>Japan vanaf 1937 China binnenviel</strong>, "
+                  "sloten beide partijen <strong>tijdelijk een bondgenootschap</strong> tegen de bezetter. Na "
+                  "de Japanse nederlaag in 1945 laaide de burgeroorlog weer op."),
+            ("p", "De <strong>oorzaken</strong> van de communistische overwinning:"),
+            ("p", '• <strong>bittere armoede bij de boeren</strong>, die vaak zwaar verschuldigd waren aan <strong>grootgrondbezitters</strong>;<br>• <strong>corruptie en verdeeldheid</strong> in het nationalistische bewind;<br>• de <strong>verzwakking van het land door de Japanse bezetting</strong>;<br>• Mao <strong>beloofde de boeren grond</strong>, en zijn troepen <strong>leefden tussen de bevolking op het platteland</strong>. Zijn steun kwam dus niet uit de steden maar van het platteland.'),
+            ("p", "Op <strong>1 oktober 1949</strong> riep Mao op het <strong>Tienanmenplein</strong> in Peking "
+                  "de <strong>Volksrepubliek China</strong> uit. Chiang Kai-shek en de nationalisten "
+                  "<strong>vluchtten naar het eiland Taiwan</strong>."),
+            ("p", "De <strong>gevolgen</strong>: China werd een <strong>eenpartijstaat</strong> waarin de "
+                  "communistische partij alle macht heeft, en de <strong>Verenigde Staten weigerden het nieuwe "
+                  "bewind te erkennen</strong>. Die breuk duurde tot 1979."),
+        ]),
+        dict(kop="Het beleid onder Mao", blokken=[
+            ("p", tabel(["Domein", "Voorbeelden onder Mao"], [
+                ["Politiek", "eenpartijstaat: andere partijen verboden, tegenstanders opgesloten; "
+                             "persoonsverheerlijking van Mao"],
+                ["Sociaal", "landhervorming: de grond van grootgrondbezitters herverdeeld; de huwelijkswet van "
+                            "1950 verbiedt gedwongen huwelijken en geeft vrouwen het recht op echtscheiding"],
+                ["Cultureel", "tijdens de Culturele Revolutie oude tempels, boeken en tradities vernield; het "
+                              "Rode Boekje met citaten van Mao"],
+                ["Economisch", "planeconomie met vijfjarenplannen naar Sovjetvoorbeeld, met de nadruk op zware "
+                               "industrie; collectivisering en volkscommunes"],
+            ])),
+            ("p", "<strong>Persoonsverheerlijking</strong> betekent dat de leider wordt voorgesteld als bijna "
+                  "heilig: zijn portret hangt overal en zijn woorden zijn wet. Iedereen moest het "
+                  "<strong>Rode Boekje</strong> met citaten van Mao bij zich dragen. <strong>Propaganda</strong> "
+                  "op affiches toonde lachende boeren en overvolle oogsten: wat de partij wilde bereiken, niet "
+                  "hoe het in werkelijkheid ging."),
+        ]),
+        dict(kop="De Grote Sprong Voorwaarts (1958-1962)", blokken=[
+            ("p", "Met de <strong>Grote Sprong Voorwaarts</strong> wilde Mao China in enkele jaren tot een "
+                  "industrieland maken. Het werd een ramp. Waarom leidde de sprong tot "
+                  "<strong>sociaaleconomische achteruitgang</strong>?"),
+            ("p", '• boeren moesten <strong>ijzer smelten in kleine ovens in de achtertuin</strong> in plaats van hun velden te bewerken; veel van dat staal was <strong>onbruikbaar</strong>;<br>• de privéakkers werden samengevoegd in reusachtige <strong>volkscommunes</strong> met <strong>gemeenschappelijke keukens</strong>;<br>• lokale leiders meldden uit angst <strong>veel hogere oogsten dan de werkelijke</strong>, en de staat haalde op basis van die opgeblazen cijfers graan op;<br>• China <strong>bleef zelfs graan uitvoeren</strong>.'),
+            ("p", tabel(["Jaar", "1957", "1958", "1959", "1960", "1961", "1962"], [
+                ["Graanoogst (miljoen ton, afgeronde officiële cijfers)", "195", "200", "170", "144", "148", "160"],
+            ])),
+            ("p", "Het gevolg was een <strong>hongersnood die miljoenen mensen het leven kostte</strong>. Het vertrouwen in de "
+                  "cijfers van de partij nam af, en na die mislukking <strong>moest Mao het dagelijkse bestuur een tijd aan "
+                  "anderen overlaten</strong>."),
+        ]),
+        dict(kop="De Culturele Revolutie (1966-1976)", blokken=[
+            ("p", "Met de <strong>Culturele Revolutie</strong> vanaf <strong>1966</strong> wilde Mao zijn "
+                  "<strong>macht terugwinnen</strong>. Jongeren in de <strong>Rode Garde</strong>, de <strong>Rode Gardisten</strong>, vielen leraren, "
+                  "intellectuelen en partijleden aan als vijanden van de revolutie. Scholen en universiteiten "
+                  "lagen stil, oude tempels, boeken en tradities werden vernield. Staatsaffiches uit die jaren "
+                  "verheerlijken Mao en richten zich vooral tot jongeren; over de vervolgingen zeggen ze niets. "
+                  "Mao stierf in <strong>1976</strong>."),
+        ]),
+        dict(kop="Deng Xiaoping: modernisering vanaf 1978", blokken=[
+            ("p", "Vanaf <strong>1978</strong> zette <strong>Deng Xiaoping</strong> China op een nieuwe "
+                  "economische koers:"),
+            ("p", '• boeren mochten een deel van hun oogst <strong>zelf op de markt verkopen</strong>;<br>• in <strong>speciale economische zones</strong> aan de kust mochten <strong>buitenlandse bedrijven investeren</strong>; de eerste was <strong>Shenzhen</strong>, vlak bij Hongkong, dat groeide van vissersdorp tot miljoenenstad;<br>• de <strong>eenkindpolitiek</strong>: gezinnen mochten in principe nog maar één kind krijgen, om de bevolkingsgroei af te remmen.'),
+            ("p", "Deng zei: <em>het maakt niet uit of een kat zwart of wit is, zolang ze muizen vangt</em>. "
+                  "Wat de economie doet groeien, is goed, ook als het niet strikt communistisch is. Hij noemde "
+                  "zijn koers <strong>socialisme met Chinese kenmerken</strong>: een <strong>markteconomie onder "
+                  "leiding van één partij</strong>. De partij gaf haar machtsmonopolie <strong>niet</strong> op."),
+        ]),
+        dict(kop="Tienanmen 1989: de houding tegenover democratie", blokken=[
+            ("p", "In de lente van <strong>1989</strong> bezetten studenten en arbeiders weken lang het "
+                  "<strong>Tienanmenplein</strong>. Ze eisten <strong>persvrijheid, inspraak en een einde aan "
+                  "corruptie</strong>. In de nacht van <strong>3 op 4 juni</strong> reden tanks het plein op; "
+                  "honderden, misschien duizenden mensen kwamen om. In China zelf wordt er tot vandaag "
+                  "<strong>niet over gesproken</strong>: de staat controleert schoolboeken en media."),
+            ("kader", "Wat Tienanmen toont: economische hervormingen mochten, maar <strong>wie de macht van de "
+                      "partij in vraag stelde, werd hard aangepakt</strong>. Wie wil weten wat er gebeurde, zoekt "
+                      "ooggetuigen, buitenlandse journalisten of diplomatieke berichten, want Chinese officiële "
+                      "bronnen zwijgen het dood."),
+        ]),
+        dict(kop="Xi Jinping, aan de macht sinds 2012", blokken=[
+            ("p", tabel(["Domein", "Kenmerken van het beleid onder Xi"], [
+                ["Politiek", "de macht centraliseren; een grote campagne tegen corruptie, waarbij ook rivalen "
+                             "verdwenen; in 2018 de grens van twee ambtstermijnen voor de president afgeschaft"],
+                ["Sociaal", "camera's met gezichtsherkenning en een puntensysteem dat het gedrag van burgers "
+                            "volgt; Oeigoeren, een moslimminderheid in Xinjiang, opgesloten in grote kampen; "
+                            "na de eenkindpolitiek nu officieel drie kinderen per gezin toegelaten"],
+                ["Cultureel", "strenge censuur op internet; nadruk op de Chinese droom en trots op het land"],
+                ["Economisch", "de Nieuwe Zijderoute: wegen, havens en spoorlijnen in tientallen landen; grote "
+                               "staatsbedrijven in sleutelsectoren zoals energie en banken"],
+            ])),
+            ("p", "In <strong>Hongkong</strong> kwam er in <strong>2020</strong> een strenge "
+                  "<strong>veiligheidswet</strong> die protest en oppositie aan banden legt."),
+            ("p", "<strong>Mao en vandaag vergeleken.</strong> Gelijk gebleven: <strong>één partij heeft alle "
+                  "macht</strong>, er is censuur, en de staat houdt de sleutelsectoren in handen. Veranderd: er "
+                  "zijn <strong>privébedrijven en miljardairs</strong>, China speelt een <strong>grote rol in de "
+                  "wereldhandel</strong>, en de <strong>meerderheid van de bevolking woont nu in de stad</strong>. "
+                  "Volkscommunes bestaan niet meer. Kort: de economie veranderde grondig, het politieke systeem "
+                  "nauwelijks."),
+        ]),
+        dict(kop="China in Afrika in de 21ste eeuw", blokken=[
+            ("p", tabel(["Wat China uit Afrika haalt", "Wat China meebrengt"], [
+                ["grondstoffen: olie, koper en kobalt", "wegen, spoorlijnen, havens en stadions"],
+                ["een afzetmarkt voor goedkope Chinese producten", "grote leningen"],
+                ["steun van Afrikaanse landen in de VN", "Chinese bedrijven en arbeiders"],
+            ])),
+            ("p", "Afrikaanse regeringen kiezen soms liever voor Chinese leningen omdat <strong>China geen "
+                  "voorwaarden stelt over mensenrechten of bestuur</strong>: het zegt zich niet te bemoeien met "
+                  "binnenlandse zaken. Westerse geldschieters koppelen hun hulp vaker aan voorwaarden."),
+            ("p", "Twee perspectieven: voor de een is China een <strong>partner</strong> die eindelijk spoorlijnen "
+                  "bouwt, voor de ander dreigt een <strong>schuldenval</strong>: wie de lening niet kan "
+                  "terugbetalen, moet bijvoorbeeld een haven voor jaren uitbesteden. Critici vergelijken het met "
+                  "het <strong>Europese imperialisme</strong>: een machtig land haalt grondstoffen weg en maakt "
+                  "een gebied afhankelijk. Het verschil: China bezet geen gebieden en bestuurt ze niet zelf."),
+        ]),
+        dict(kop="Interculturele contacten met het Westen", blokken=[
+            ("p", "De <strong>aard</strong> van de contacten: diplomatie, handel, studenten en toerisme. De "
+                  "belangrijkste stappen:"),
+            ("p", tabel(["Jaar", "Stap"], [
+                ["1972", "de Amerikaanse president Nixon bezoekt Peking"],
+                ["vanaf 1980", "speciale economische zones voor buitenlandse bedrijven"],
+                ["1997", "Groot-Brittannië geeft Hongkong terug aan China"],
+                ["2001", "China wordt lid van de Wereldhandelsorganisatie"],
+            ])),
+            ("p", "Bij de teruggave van Hongkong gold het principe <strong>één land, twee systemen</strong>: "
+                  "Hongkong zou <strong>vijftig jaar een eigen economie en rechtspraak</strong> met meer "
+                  "vrijheden houden. Critici vinden dat die vrijheden sterk zijn ingeperkt."),
+            ("p", "De <strong>gevolgen</strong>: westerse ketens en merken in Chinese steden, veel producten in "
+                  "onze winkels zijn in China gemaakt, en duizenden Chinese studenten studeren aan Europese en "
+                  "Amerikaanse universiteiten. Het westerse parlementaire systeem nam China <strong>niet</strong> "
+                  "over."),
+            ("kader", "Mao en Deng vergeleken. Gelijkenis: allebei wilden ze een sterk China onder leiding van de "
+                      "communistische partij, zonder politieke oppositie. Verschil: Mao rekende op "
+                      "massamobilisatie en een planeconomie, Deng opende de economie voor de markt en voor "
+                      "buitenlandse investeerders."),
+        ]),
+    ],
+    onthoud=[
+        "1 oktober 1949: Mao roept de Volksrepubliek uit; de Guomindang van Chiang Kai-shek vlucht naar Taiwan.",
+        "Mao won met de steun van arme boeren, aan wie hij grond beloofde.",
+        "De Grote Sprong Voorwaarts (1958-1962) leidde tot een hongersnood met miljoenen doden.",
+        "De Culturele Revolutie (1966-1976): Mao wint zijn macht terug met de Rode Garde.",
+        "Vanaf 1978 Deng: markt, speciale economische zones (Shenzhen), eenkindpolitiek, maar één partij.",
+        "4 juni 1989: het leger slaat het protest op het Tienanmenplein neer.",
+        "Xi (sinds 2012): macht centraliseren, controle en censuur, Nieuwe Zijderoute.",
+        "China in Afrika: grondstoffen en steun tegen infrastructuur en leningen, zonder voorwaarden.",
+    ],
+)
