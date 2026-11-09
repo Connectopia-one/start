@@ -39,9 +39,9 @@ export const spellen: Spel[] = [
     icoon: "🏛️",
     titel: "Begrippenarena Geschiedenis",
     vak: "Geschiedenis",
-    voorWie: "🌱 Start en ✨ Spark",
+    voorWie: "🌱 Start, ✨ Spark en 🌍 Beyond",
     tekst:
-      "De begrippen uit de leerbundels van geschiedenis, in zes spellen: een quiz, memory, raad het begrip, tempeltje (galgje met een Griekse tempel), flitskaarten en begrippenbingo. Kies een hoofdstuk, speel alleen of in teams.",
+      "De begrippen uit de leerbundels van geschiedenis, in zes spellen: een quiz, memory, raad het begrip, tempeltje (galgje met een Griekse tempel), flitskaarten en begrippenbingo. Kies je niveau en een hoofdstuk, speel alleen of in teams. Voor Beyond zijn er 160 begrippen, van het referentiekader tot China, Israël-Palestina en de kunststromingen.",
   },
   {
     slug: "woordenarena-engels",
