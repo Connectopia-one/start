@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" width="800" height="470" font-family="Arial, sans-serif">
+<rect width="800" height="470" fill="#fffdf7"/>
+<text x="400.0" y="34" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">Volksraadpleging 1950: percentage ja-stemmen</text>
+<line x1="90" y1="400.0" x2="760" y2="400.0" stroke="#b9b29c" stroke-width="1"/>
+<text x="80" y="407.0" font-size="18" text-anchor="end" fill="#24331b">0 %</text>
+<line x1="90" y1="320.0" x2="760" y2="320.0" stroke="#b9b29c" stroke-width="1"/>
+<text x="80" y="327.0" font-size="18" text-anchor="end" fill="#24331b">25 %</text>
+<line x1="90" y1="240.0" x2="760" y2="240.0" stroke="#b9b29c" stroke-dasharray="8 6" stroke-width="2"/>
+<text x="80" y="247.0" font-size="18" text-anchor="end" fill="#24331b">50 %</text>
+<line x1="90" y1="160.0" x2="760" y2="160.0" stroke="#b9b29c" stroke-width="1"/>
+<text x="80" y="167.0" font-size="18" text-anchor="end" fill="#24331b">75 %</text>
+<line x1="90" y1="80.0" x2="760" y2="80.0" stroke="#b9b29c" stroke-width="1"/>
+<text x="80" y="87.0" font-size="18" text-anchor="end" fill="#24331b">100 %</text>
+<rect x="130" y="214.39999999999998" width="140" height="185.60000000000002" rx="6" fill="#2f4a22"/>
+<text x="200.0" y="204.39999999999998" font-size="22" text-anchor="middle" fill="#24331b">± 58 %</text>
+<text x="200.0" y="434" font-size="22" text-anchor="middle" fill="#24331b">België</text>
+<rect x="350" y="169.6" width="140" height="230.4" rx="6" fill="#2f4a22"/>
+<text x="420.0" y="159.6" font-size="22" text-anchor="middle" fill="#24331b">± 72 %</text>
+<text x="420.0" y="434" font-size="22" text-anchor="middle" fill="#24331b">Vlaanderen</text>
+<rect x="570" y="265.6" width="140" height="134.4" rx="6" fill="#2f4a22"/>
+<text x="640.0" y="255.60000000000002" font-size="22" text-anchor="middle" fill="#24331b">± 42 %</text>
+<text x="640.0" y="434" font-size="22" text-anchor="middle" fill="#24331b">Wallonië</text>
+</svg>

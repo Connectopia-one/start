@@ -17,12 +17,12 @@ VRAGEN = [
             ("Ze kijkt of het vooral politiek, sociaal, economisch of cultureel is.", J),
             ("Ze bewijst met het kader dat de gebeurtenis echt zo gebeurd is.", F),
         ],
-        "Tijd, ruimte en maatschappelijke domeinen zijn de drie assen. Het kader is een hulpmiddel om te ordenen: het bewijst niets over wat er gebeurd is.",
+        "De eerste drie stappen horen elk bij een as. Het kader ordent, maar bewijst niets over wat er gebeurd is.",
     ),
     volgorde(
         "Zet deze gebeurtenissen in de volgorde van de periodes waarin ze vallen, van oud naar jong.",
         ["Columbus steekt de oceaan over", "De Franse Revolutie breekt uit", "Het Congres van Wenen vergadert", "De Tweede Wereldoorlog eindigt", "De Berlijnse Muur valt"],
-        "1492, 1789, 1814-1815, 1945 en 1989. De eerste valt in de vroegmoderne tijd, de volgende twee in de moderne tijd, de laatste twee in de hedendaagse tijd.",
+        "1492, 1789, 1814-1815, 1945 en 1989.",
     ),
     klik(
         "Klik op de tijdlijn op het scharnierpunt waarmee de moderne tijd begint.",
@@ -31,29 +31,29 @@ VRAGEN = [
         "De moderne tijd begint in het westerse kader met de Franse Revolutie van 1789, net voor het streepje van 1790.",
     ),
     klik(
-        "Klik op de tijdlijn op het jaar waarmee de hedendaagse tijd begint.",
+        "Klik op de tijdlijn op het scharnierpunt waarmee de hedendaagse tijd begint.",
         "tijdlijn-1750-2030.svg",
         [[62.7, 25, 6.2, 55]],
-        "1945, het einde van de Tweede Wereldoorlog. Toen verschoven de machtsverhoudingen in de wereld ingrijpend.",
+        "1945, het einde van de Tweede Wereldoorlog, net voor het streepje van 1950.",
     ),
     mk(
-        "Waarom laat men met het einde van de Tweede Wereldoorlog een nieuwe periode beginnen, en niet met het einde van de Eerste?",
+        "Waarom laat men de hedendaagse tijd niet beginnen met het einde van de Eerste Wereldoorlog?",
         [
-            "Omdat de machtsverhoudingen in de wereld in 1945 ingrijpend verschoven",
+            "Omdat de machtsverhoudingen pas na de volgende oorlog ingrijpend verschoven",
             "Omdat er na 1945 in Europa nergens nog oorlog gevoerd werd",
             "Omdat de Eerste Wereldoorlog buiten Europa niet gevoeld werd",
             "Omdat er van voor 1945 bijna geen geschreven bronnen bewaard zijn",
         ],
         0,
-        "Het kader kiest 1945 omdat de wereldorde toen grondig veranderde. Dat er nadien geen oorlog meer was of dat bronnen ontbreken, klopt niet.",
+        "Het kader kiest een later scharnierpunt, omdat de wereldorde pas dan grondig veranderde. Dat er nadien geen oorlog meer was of dat bronnen ontbreken, klopt niet.",
     ),
     keuze(
         "De Reformatie valt in de [[*vroegmoderne tijd|moderne tijd|middeleeuwen]], want die periode loopt van de [[*16de tot de 18de eeuw|14de tot de 15de eeuw|19de tot de 20ste eeuw]].",
-        "De vroegmoderne tijd begint met 1492 en loopt tot de Franse Revolutie van 1789. De Reformatie, in de 16de eeuw, valt daar middenin.",
+        "De vroegmoderne tijd begint met 1492 en loopt tot het einde van de 18de eeuw. De Reformatie, in de 16de eeuw, valt daar middenin.",
     ),
     keuze(
         "Situeer de Franse Revolutie. In de tijd is ze het scharnierpunt naar de [[*moderne tijd|vroegmoderne tijd|hedendaagse tijd]]. In de ruimte is ze in de eerste plaats [[*West-Europees|maritiem|ruraal]]. Bij de domeinen hoort ze vooral in het [[*politieke|economische|culturele]] domein.",
-        "1789 opent de moderne tijd. Ze speelt zich af in Frankrijk, in West-Europa, en gaat in de eerste plaats over wie de macht heeft: politiek.",
+        "Ze opent de moderne tijd. Ze speelt zich af in Frankrijk, in West-Europa, en gaat in de eerste plaats over wie de macht heeft: politiek.",
     ),
     # --- structuurbegrippen van de tijd
     koppel(
@@ -163,10 +163,9 @@ VRAGEN = [
         [
             ["Een handboek behandelt de 19de eeuw enkel aan de hand van Europese staten.", "Ruimtelijk beperkte blik"],
             ["Men kiest het Congres van Wenen als scharnierpunt voor de hele wereld.", "Eurocentrische blik"],
-            ["Een tekst noemt de middeleeuwen de donkere eeuwen.", "Verstopte morele maatstaf"],
         ],
-        ["Meerdere perspectieven"],
-        "Het handboek kijkt maar naar een stuk van de wereld. Wenen als wereldscharnier neemt Europa als maatstaf. Donkere eeuwen oordeelt al in de naam. Meerdere perspectieven is net wat in alle drie ontbreekt.",
+        ["Meerdere perspectieven", "Verstopte morele maatstaf"],
+        "Het handboek kijkt maar naar een stuk van de wereld. Wenen als wereldscharnier neemt Europa als maatstaf. Meerdere perspectieven is net wat in beide ontbreekt.",
     ),
     mk(
         "Wat is het probleem als een tekst de middeleeuwen de donkere eeuwen noemt?",
@@ -242,25 +241,25 @@ VRAGEN = [
         ],
     ),
     mk(
-        "Sommige historici kiezen ook het Congres van Wenen als scharnierpunt. Wat zegt dat over periodiseren?",
+        "Een historicus kiest het Congres van Wenen als scharnierpunt in plaats van de Franse Revolutie. Welke periode wordt in zijn indeling daardoor iets langer?",
         [
-            "Er is niet één juist scharnierpunt: wie periodiseert, kiest",
-            "De moderne tijd begint dus officieel in 1815 en niet in 1789",
-            "Het Congres van Wenen hoort bij het culturele domein",
-            "Alleen de Franse Revolutie mag als scharnierpunt gelden",
+            "De vroegmoderne tijd",
+            "De moderne tijd",
+            "De hedendaagse tijd",
+            "De middeleeuwen",
         ],
         0,
-        "Het kader kiest meestal 1789, maar ook Wenen wordt genoemd. Dat er twee kandidaten zijn, toont dat een periodisering een keuze is.",
+        "Wenen (1814-1815) komt na 1789. Schuift het einde van de vroegmoderne tijd op, dan wordt die periode langer en de moderne tijd korter.",
     ),
     tabel(
         "Een leerling legt de industrialisering op het referentiekader. Welke beweringen zijn juist?",
         [
-            ("De industrialisering kan een scharnierpunt zijn, ook al is ze geen politieke gebeurtenis.", J),
+            ("Ze raakte niet enkel de economie, maar ook de verhoudingen tussen sociale groepen.", J),
             ("In Engeland kwam ze vroeger op gang dan in Vlaanderen, en dat is ongelijktijdigheid.", J),
             ("Omdat ze geleidelijk verliep, kan je ze enkel een breuk noemen.", F),
-            ("Ze hoort uitsluitend bij het economische domein en raakt nooit het sociale.", F),
+            ("Ze begon pas in de hedendaagse tijd, na 1945.", F),
         ],
-        "Scharnierpunten liggen niet enkel in de politiek. Een geleidelijke verandering is net geen breuk. En de industrialisering raakte ook het sociale domein: denk aan de klassenmaatschappij.",
+        "Een geleidelijke verandering is net geen breuk. De industrialisering raakte ook het sociale domein, denk aan de klassenmaatschappij, en begon al in de moderne tijd.",
     ),
     sleep(
         "Het referentiekader ordent in [[tijd]], [[ruimte]] en maatschappelijke domeinen. Het is een [[hulpmiddel]], geen natuurwet.",

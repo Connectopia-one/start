@@ -45,6 +45,10 @@ THEMAS = [
     ("gs_cultuur", "Denken, kunst en emancipatie"),
     ("gs_bronnen", "Redeneren met historische bronnen"),
     ("gs_beeldvorming", "Beeldvorming, vergelijken en verleden-heden-toekomst"),
+    ("gs_china", "De Volksrepubliek China: van Mao tot Xi"),
+    ("gs_israel", "De Israëlisch-Palestijnse kwestie"),
+    ("gs_stromingen", "Denkstromingen en kunststromingen van de 19de en 20ste eeuw"),
+    ("gs_kunst", "Kunst en cultuur analyseren met het stappenplan"),
 ]
 
 

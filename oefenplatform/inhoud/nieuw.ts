@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "9 november 2026",
+    titel: "Geschiedenis Beyond: pittige hoofdstukken en nieuwe onderwerpen",
+    tekst:
+      "Geschiedenis in Beyond heeft nu pittige hoofdstukken in de vorm van het examen. Er zijn ook nieuwe hoofdstukken over China, Israël-Palestina, de kunststromingen en kunst analyseren. De begrippenarena geschiedenis heeft nu ook een niveau Beyond.",
+  },
+  {
+    datum: "9 november 2026",
     titel: "Leuke extra's netjes geordend",
     tekst:
       "De pagina Leuke extra's begint nu met vier grote knoppen: educatieve spellen, leuke links, afdrukbare documenten en leuke filmpjes. Achter elke knop staat alles per schoolniveau, eerst de lagere school en dan de middelbare school. Bij elke begrippenarena zie je meteen voor welk niveau ze is, en het spel opent ook meteen op dat niveau. In de begrippenarena's kan je nu ook kiezen om alleen te spelen, handig om thuis te oefenen.",

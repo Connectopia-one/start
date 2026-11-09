@@ -80,7 +80,7 @@ VRAGEN = [
             ("De grenzen volgden overal de woongebieden van de Afrikaanse volkeren.", F),
             ("Congo was in 1914 een kolonie van de Belgische staat.", J),
         ],
-        "Tegen 1914 was bijna alles verdeeld, behalve Ethiopië en Liberia. Veel grenzen lijken met een lat getrokken: ze volgden Europese afspraken, niet de bestaande samenlevingen. Congo was sinds 1908 Belgisch Congo.",
+        "Tegen 1914 was bijna alles verdeeld, behalve Ethiopië en Liberia. Veel grenzen houden geen rekening met wie er woonde. En Congo was in 1914 al een Belgische kolonie.",
     ), volgt=True),
     tabel(
         "Een Afrikaanse historica somt de erfenis van de koloniale bezetting op. Welke punten noemt ze terecht?",
@@ -112,7 +112,7 @@ VRAGEN = [
             "Ze vochten samen met het Chinese keizerrijk tegen alle westerse handelaars en wonnen die lange strijd",
         ],
         0,
-        "Japan moderniseerde vanaf de Meiji-restauratie van 1868 en werd zelf een koloniale macht. Rusland breidde over land uit naar het oosten.",
+        "Japan moderniseerde snel en werd zelf een koloniale macht. Rusland breidde over land uit naar het oosten.",
     ),
     tabel(
         "Juist of fout? Lees elke uitspraak over de Congo-Vrijstaat.",
@@ -122,12 +122,12 @@ VRAGEN = [
             ("Stanley verkende het gebied en sloot verdragen met lokale leiders.", J),
             ("De Vrijstaat verdiende vooral geld met koffie en katoen.", F),
         ],
-        "Congo was eerst van Leopold II zelf. Het geld kwam vooral uit rubber en ivoor. Pas in 1908 nam de Belgische staat over.",
+        "Congo was eerst van Leopold II zelf, nog geen kolonie van de Belgische staat. Koffie en katoen waren niet de grote bron van inkomsten.",
     ),
     volgorde(
         "Zet in de juiste volgorde.",
         ["De Conferentie van Berlijn begint", "De Congo-Vrijstaat wordt opgericht", "Morel en Casement voeren campagne tegen het bewind", "De Belgische staat neemt Congo over"],
-        "1884, 1885, rond 1900, en 1908.",
+        "Eerst de spelregels in Berlijn, dan de Vrijstaat, daarna de kritiek, en ten slotte de overname door de Belgische staat.",
     ),
     casus(
         "Bekijk de spotprent uit het Britse blad Punch van 1906. Een slang met het hoofd van Leopold II heeft zich rond een Congolese man gewonden. Het onderschrift luidt: In the Rubber Coils.",
@@ -136,7 +136,7 @@ VRAGEN = [
                 "Waarop doelt de tekenaar met de rubberen slang?",
                 ["Op het rubberregime dat de bevolking verstikte", "Op de handel in ivoor met Europa", "Op de spoorlijnen die Leopold liet aanleggen", "Op de missiescholen in Congo"],
                 0,
-                "Dorpen moesten vaste hoeveelheden rubber leveren en werden zwaar gestraft bij te weinig. De slang beeldt dat systeem uit.",
+                "De slang staat voor het systeem dat de bevolking in de greep hield om rubber te winnen.",
             ), volgt=True),
             tabel(
                 "Welke uitspraken over deze bron kloppen?",
@@ -149,10 +149,10 @@ VRAGEN = [
                 "De prent toont hoe men in Groot-Brittannië over Leopold II dacht. Een spotprent is gekleurd, maar daarom niet onbruikbaar: ze is een uitstekende bron over de kritiek.",
             ),
             mk(
-                "Welk gevolg had de internationale campagne waartoe deze prent behoorde?",
-                ["De Belgische staat nam de kolonie in 1908 over", "Leopold II kreeg er in 1908 nog meer gebied bij", "Congo werd in 1908 een onafhankelijke staat", "Groot-Brittannië bezette Congo in 1908"],
+                "Ook bekende schrijvers steunden de campagne waartoe deze prent behoorde. Welke?",
+                ["Mark Twain en Arthur Conan Doyle", "Hendrik Conscience en Victor Hugo", "Karl Marx en Adam Smith", "Charles Darwin en Henry Stanley"],
                 0,
-                "Onder druk van Morel, Casement en schrijvers als Mark Twain en Arthur Conan Doyle werd de Vrijstaat in 1908 Belgisch Congo.",
+                "Naast Morel en Casement schreven ook Mark Twain en Arthur Conan Doyle tegen het bewind in de Vrijstaat.",
             ),
         ],
     ),
@@ -174,7 +174,7 @@ VRAGEN = [
             ["Ambtenaren en een leger", "Staat"],
             ["Missies en scholen", "Kerk"],
             ["Mijnen en plantages", "Bedrijven"],
-            ["Koper uit Katanga ontginnen", "Bedrijven"],
+            ["Koper en diamant ontginnen", "Bedrijven"],
         ],
         "Staat, kerk en grote bedrijven bestuurden samen. De mijnen in Katanga leverden onder meer koper.",
     ),
@@ -223,7 +223,7 @@ VRAGEN = [
             "Over de opstand van de Taiping tegen de keizer",
         ],
         0,
-        "China wilde de opiumhandel stoppen, de Britten wilden doorgaan. Na de nederlaag moest China bij het Verdrag van Nanking van 1842 Hongkong afstaan.",
+        "China wilde de opiumhandel stoppen, de Britten wilden doorgaan. China verloor de oorlog en moest daarna een ongelijk verdrag tekenen.",
     ),
     inv(
         "Welke stad moest China in 1842 bij het Verdrag van Nanking afstaan aan Groot-Brittannië?",
@@ -280,18 +280,12 @@ VRAGEN = [
         "Gelijkenis: in beide gevallen haalden westerse mogendheden economisch voordeel uit een ander gebied en verloor de lokale bevolking zeggenschap. Verschillen: Congo werd volledig bezet en rechtstreeks bestuurd, eerst door Leopold II en daarna door de Belgische staat. China bleef formeel een keizerrijk, maar werd in invloedssferen verdeeld en moest ongelijke verdragen tekenen.",
     ),
     sleep(
-        "Dat koloniale grenzen met een [[lat]] getrokken lijken, betekent dat ze Europese [[afspraken]] volgden en geen bestaande samenlevingen. Een gebied waar een mogendheid de dienst uitmaakt zonder het te besturen, is een [[invloedssfeer]].",
-        ["rivier", "volksraadpleging", "kolonie"],
-        "Grenzen volgden de onderhandelingstafel in Europa. Een invloedssfeer is lichter dan een kolonie.",
+        "Dat koloniale grenzen met een [[lat]] getrokken lijken, betekent dat ze Europese [[afspraken]] volgden en geen bestaande samenlevingen. De Congo-Vrijstaat verdiende vooral aan rubber en [[ivoor]].",
+        ["rivier", "volksraadpleging", "katoen"],
+        "Grenzen volgden de onderhandelingstafel in Europa. Rubber en ivoor waren de grote bronnen van inkomsten.",
     ),
-    tabel(
-        "Waarom bleef China formeel een keizerrijk, maar was het toch niet echt zelfstandig? Juist of fout?",
-        [
-            ("Mogendheden maakten er in invloedssferen de dienst uit zonder het land te besturen.", J),
-            ("Ongelijke verdragen legden China verplichtingen op die het Westen niet had.", J),
-            ("China werd net als Congo volledig bezet en rechtstreeks bestuurd.", F),
-            ("De keizer verloor door de westerse contacten aan gezag.", J),
-        ],
-        "China bleef op papier zelfstandig, maar invloedssferen en ongelijke verdragen hielden het onder westerse druk. Congo werd wel volledig bezet.",
+    keuze(
+        "Japan moderniseerde zich in snel tempo vanaf de [[*Meiji-restauratie|Opiumoorlog|Taiping-opstand]] van [[*1868|1842|1912]], en werd daarna zelf een koloniale macht in Azië.",
+        "Vanaf de Meiji-restauratie van 1868 haalde Japan de westerse techniek in en begon het zelf uit te breiden.",
     ),
 ]

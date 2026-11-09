@@ -6,7 +6,7 @@ PRENTEN = [
          wat="Dezelfde tijdlijn als bij het referentiekader.",
          vragen="klikvragen op 1893 en 1919 (stemrecht)"),
     dict(bestand="kinderarbeid-mijn.webp", zelf=False,
-         wat="Een foto of gravure uit de 19de eeuw van kinderen die in een steenkoolmijn of textielfabriek werken. Liefst Belgisch of Brits, publiek domein.",
+         wat="Britse gravure Thrusters and trapper (Cobden, 1854): kinderen in een steenkoolmijn.",
          waar="Wikimedia Commons, zoek 'child labour coal mine 19th century' of 'hiercheuse' (Belgische mijnmeisjes).",
          vragen="casus over leef- en werkomstandigheden"),
 ]
@@ -17,7 +17,7 @@ VRAGEN = [
         ["Eerste", "Tweede"],
         [
             ["Steenkool als energiebron", "Eerste"],
-            ["De stoommachine van Watt in de fabriek", "Eerste"],
+            ["De stoommachine in de fabriek", "Eerste"],
             ["Elektriciteit als nieuwe krachtbron", "Tweede"],
             ["Aardolie en de verbrandingsmotor", "Tweede"],
             ["De lopende band", "Tweede"],
@@ -34,7 +34,7 @@ VRAGEN = [
             "Omdat de overheid fabrieken elders verbood te bouwen",
         ],
         0,
-        "De stoommachine had veel kolen nodig, en vervoer was traag en duur. Met elektriciteit en olie kon een fabriek later veel vrijer gelegen zijn.",
+        "De stoommachine had veel kolen nodig, en vervoer was traag en duur.",
     ),
     mk(
         "Waarom vergelijkt men het energiegebruik van de twee industriële revoluties?",
@@ -45,7 +45,7 @@ VRAGEN = [
             "Omdat energie het enige verschil is tussen beide revoluties; transport en organisatie bleven gelijk",
         ],
         0,
-        "Energie bepaalde de ligging van fabrieken, het transport en het machtsevenwicht: Duitsland en de Verenigde Staten trokken de tweede revolutie.",
+        "Energie bepaalde de ligging van fabrieken, het transport en wie de nieuwe grootmachten werden.",
     ),
     tabel(
         "Juist of fout? Lees elke uitspraak over de economische sectoren tijdens de industrialisatie.",
@@ -69,13 +69,13 @@ VRAGEN = [
         "Watt en de stoommachine, Smith en het economisch liberalisme, Cockerill en de Belgische zware industrie, en de telegraaf als sprong in de communicatie.",
     ),
     keuze(
-        "Het economisch liberalisme wil dat de overheid de economie zo veel mogelijk [[*vrij laat|zelf plant|in handen neemt]]. Het kapitalisme vergroot de ongelijkheid, doordat de winst naar wie de fabriek [[*bezit|bouwt|bewaakt]] gaat.",
-        "Smith verdedigde de vrije markt. In het kapitalisme gaat de winst naar de eigenaar, en die spanning tussen bezit en arbeid noemt men de sociale kwestie.",
+        "Het economisch liberalisme wil dat de overheid de economie zo veel mogelijk [[*vrij laat|zelf plant|in handen neemt]]. Die stroming hoort in de eerste plaats bij het [[*economische|culturele|sociale]] domein.",
+        "Het economisch liberalisme verdedigt de vrije markt: zo weinig mogelijk staatsbemoeienis.",
     ),
     tabel(
         "Aanbodfactor of vraagfactor voor de Belgische industrialisatie?",
         [
-            ("Steenkool in de bodem van Henegouwen en Luik", "Aanbod"),
+            ("Steenkool in de eigen bodem", "Aanbod"),
             ("Banken die durfden investeren", "Aanbod"),
             ("Een groeiende bevolking die meer goederen koopt", "Vraag"),
             ("Vaklui met ervaring in textiel en metaal", "Aanbod"),
@@ -90,7 +90,7 @@ VRAGEN = [
             ["Steenkoolmijnen", "Henegouwen en Luik"],
             ["Katoen- en textielfabrieken", "Gent"],
             ["Wolnijverheid", "Verviers"],
-            ["Zware metaalindustrie zoals die van Cockerill", "Henegouwen en Luik"],
+            ["Zware metaalindustrie", "Henegouwen en Luik"],
         ],
         "De steenkoolbekkens lagen in Henegouwen en Luik, met de zware industrie erbij. Gent was de textielstad, Verviers de wolstad.",
     ),
@@ -119,7 +119,7 @@ VRAGEN = [
             "Alleen de adel en de geestelijkheid hebben er nog rechten",
         ],
         0,
-        "In een klassenmaatschappij bepaalt bezit waar je staat. Wie geen werktuigen meer bezit en voor loon werkt, is proletariër geworden.",
+        "In een klassenmaatschappij bepaalt bezit waar je staat. Wie geen werktuigen meer bezit, moet voor loon werken.",
     ),
     inv(
         "Hoe heet het proces waarbij boeren en ambachtslui hun eigen werktuigen verliezen en loonarbeider worden? (één woord)",
@@ -127,16 +127,16 @@ VRAGEN = [
         "Proletarisering: wie vroeger met eigen gereedschap werkte, wordt afhankelijk van een loon in de fabriek.",
     ),
     casus(
-        "Bekijk de prent. Ze toont kinderen die in de 19de eeuw in een mijn werken. Lees ook dit gegeven: de Belgische grondwet van 1831 verbood kinderarbeid niet.",
+        "Bekijk de Britse gravure uit 1854. Ze toont kinderen in een steenkoolmijn: het ene duwt een kolenwagen, het andere bedient een luchtdeur. Lees ook dit gegeven: ook de Belgische grondwet van 1831 verbood kinderarbeid niet.",
         [
             met_prent("kinderarbeid-mijn.webp", mk(
                 "Waarom zetten fabrikanten en mijnbazen graag kinderen aan het werk?",
                 ["Kinderen waren goedkoop en klaagden niet", "Kinderen waren sterker dan volwassenen", "De wet verplichtte hen om kinderen aan te nemen", "Kinderen kregen een hoger loon dan hun ouders"],
                 0,
-                "Kinderen kostten weinig en kwamen niet in opstand. Pas veel later kwam er een verbod op kinderarbeid.",
+                "Kinderen kostten weinig en kwamen niet in opstand.",
             ), volgt=True),
             tabel(
-                "Welke leef- en werkomstandigheden van arbeiders in de 19de eeuw passen bij deze prent?",
+                "Welke leef- en werkomstandigheden waren gewoon voor arbeiders in de 19de eeuw?",
                 [
                     ("Werkdagen van twaalf uur en meer", J),
                     ("Een vergoeding bij ziekte of ongeval", F),
@@ -157,10 +157,10 @@ VRAGEN = [
         [
             ["De leden kopen samen brood in en delen de winst", "Coöperatie"],
             ["Arbeiders sparen samen om bij ziekte een uitkering te krijgen", "Mutualiteit"],
-            ["Arbeiders onderhandelen met de baas en leggen het werk neer", "Vakbond"],
+            ["Arbeiders van hetzelfde beroep verenigen zich om samen voor betere lonen op te komen", "Vakbond"],
             ["De leden produceren samen en verkopen in een eigen winkel", "Coöperatie"],
         ],
-        "Een coöperatie produceert of koopt samen. Een mutualiteit of ziekenfonds keert uit bij ziekte. Een vakbond onderhandelt en staakt.",
+        "Een coöperatie produceert of koopt samen. Een mutualiteit of ziekenfonds keert uit bij ziekte. Een vakbond komt op voor loon en werkomstandigheden.",
     ),
     tabel(
         "Marxisme, sociaaldemocratie of christendemocratie? Welke stroming past bij elke uitspraak?",
@@ -170,7 +170,7 @@ VRAGEN = [
             ("Privébezit mag, maar de arbeider heeft recht op een rechtvaardig loon.", "Christendemocratie"),
             ("De geschiedenis is een strijd tussen klassen.", "Marxisme"),
         ],
-        "Marxisten wilden een revolutie, sociaaldemocraten hervorming via het parlement. De christendemocratie volgde Rerum Novarum: privébezit aanvaarden, maar met bescherming voor de arbeider.",
+        "Marxisten wilden een revolutie, sociaaldemocraten hervorming via het parlement. De christendemocratie aanvaardde privébezit, maar met bescherming voor de arbeider.",
         kolommen=["Marxisme", "Sociaaldemocratie", "Christendemocratie"],
     ),
     mk(
@@ -187,7 +187,7 @@ VRAGEN = [
     volgorde(
         "Zet de stappen in de evolutie van het Belgische stemrecht in de juiste volgorde.",
         ["Cijnskiesrecht voor wie genoeg belasting betaalt", "Algemeen meervoudig stemrecht na een algemene staking", "Algemeen enkelvoudig stemrecht voor mannen"],
-        "Van 1831 tot 1893 cijnskiesrecht, in 1893 het algemeen meervoudig stemrecht, en in 1919 het algemeen enkelvoudig stemrecht voor mannen.",
+        "Eerst het cijnskiesrecht, dan het meervoudig stemrecht, en pas daarna één man, één stem.",
     ),
     klik(
         "Klik op de tijdlijn op het jaar waarin het algemeen meervoudig stemrecht er kwam.",
@@ -202,7 +202,7 @@ VRAGEN = [
         "1919, vlak na de Eerste Wereldoorlog: één man, één stem.",
     ),
     mk(
-        "Onder het algemeen meervoudig stemrecht van 1893 had elke man minstens één stem. Hoeveel stemmen kon één man ten hoogste uitbrengen?",
+        "Onder het algemeen meervoudig stemrecht had elke man minstens één stem. Hoeveel stemmen kon één man ten hoogste uitbrengen?",
         ["3", "2", "5", "10"],
         0,
         "Wie bijvoorbeeld meer bezat of een diploma had, kreeg extra stemmen, tot ten hoogste drie.",
@@ -251,9 +251,9 @@ VRAGEN = [
         "Een vakbond onderhandelt en staakt, een coöperatie produceert of koopt samen in, een mutualiteit keert uit bij ziekte.",
     ),
     sleep(
-        "De spoorweg met [[stoomlocomotieven]], het stoomschip en de [[telegraaf]] deden transport en communicatie vooruitspringen. In de tweede revolutie verdeelde de [[lopende band]] het werk in kleine stappen.",
+        "Op het land reed de spoorweg met [[stoomlocomotieven]], op de grote vaarroutes voer het [[stoomschip]]. Na de telegraaf maakte later de [[telefoon]] communicatie over grote afstand nog makkelijker.",
         ["windmolen", "postkoets", "zeilschip"],
-        "Stoom op land en zee, en de telegraaf voor berichten. De lopende band hoort bij de nieuwe bedrijfsorganisatie van de tweede revolutie.",
+        "Stoom op land en zee, en voor berichten eerst de telegraaf en later de telefoon.",
     ),
     mk(
         "Hoe vergroot het kapitalisme volgens zijn critici de sociale ongelijkheid?",
@@ -267,18 +267,18 @@ VRAGEN = [
         "Wie de productiemiddelen bezit, krijgt de winst. Wie enkel zijn arbeid heeft, blijft afhankelijk van een loon.",
     ),
     open_(
-        "Leg het verband uit tussen de industrialisatie en het ontstaan van de vakbonden. Gebruik de begrippen proletarisering en sociale kwestie.",
+        "Leg het verband uit tussen de industrialisatie en het ontstaan van de vakbonden.",
         "Door de industrialisatie verloren veel boeren en ambachtslui hun eigen werktuigen en werden ze loonarbeider: proletarisering. In de fabrieken werkten ze lange dagen voor een laag loon, zonder bescherming. Die spanning tussen eigenaars en arbeiders is de sociale kwestie. Om daar iets tegen te doen, organiseerden arbeiders zich in vakbonden die onderhandelden en staakten.",
     ),
     mk(
-        "Wat was het verband tussen de algemene staking en het stemrecht in België?",
+        "Wat moesten de arbeiders volgens het marxisme doen met de productiemiddelen, zoals fabrieken en machines?",
         [
-            "Na een algemene staking kwam er in 1893 het algemeen meervoudig stemrecht",
-            "Na een algemene staking werd het stemrecht in 1893 volledig afgeschaft",
-            "Na een algemene staking kregen ook de vrouwen in 1893 stemrecht",
-            "Er was geen verband: stakingen waren in België toen nog verboden",
+            "Ze zelf in handen nemen",
+            "Ze vernielen om hun werk te redden",
+            "Ze terug aan de adel geven",
+            "Ze bij de bank in onderpand geven",
         ],
         0,
-        "De druk van de arbeiders dwong een eerste uitbreiding af. Het algemeen enkelvoudig stemrecht voor mannen volgde pas in 1919.",
+        "Voor Marx moesten de arbeiders de productiemiddelen in handen nemen, via een revolutie en niet via geduldige hervorming.",
     ),
 ]

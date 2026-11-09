@@ -25,6 +25,18 @@ THEMAS = [
     ("industrialisatie", "Industrialisatie en de sociale kwestie"),
     ("imperialisme", "Modern imperialisme, Congo en China"),
     ("eerste_wereldoorlog", "De Eerste Wereldoorlog en de Russische revoluties"),
+    ("interbellum", "Interbellum: totalitarisme en crisis"),
+    ("tweede_wereldoorlog", "De Tweede Wereldoorlog en de Holocaust"),
+    ("wereldorde", "Een nieuwe wereldorde: VN, Koude Oorlog en Europa"),
+    ("dekolonisatie", "Dekolonisatie en de wereld van vandaag"),
+    ("belgie_na_1945", "België na 1945"),
+    ("denken_kunst", "Denken, kunst en emancipatie"),
+    ("redeneren", "Redeneren met historische bronnen"),
+    ("beeldvorming", "Beeldvorming, vergelijken en verleden-heden-toekomst"),
+    ("china", "De Volksrepubliek China: van Mao tot Xi"),
+    ("israel_palestina", "De Israëlisch-Palestijnse kwestie"),
+    ("stromingen", "Denkstromingen en kunststromingen van de 19de en 20ste eeuw"),
+    ("kunst_analyseren", "Kunst en cultuur analyseren met het stappenplan"),
 ]
 
 HOOFDSTUKKEN = [

@@ -27,6 +27,7 @@ import bundel
 VAK = "Geschiedenis"
 BEYOND = "🌍 Beyond — 5de en 6de middelbaar"
 tabel = bundel.tabel
+foto = bundel.foto
 
 BUNDELS = {}
 
@@ -1509,5 +1510,566 @@ BUNDELS["beeldvorming-vergelijken-en-verleden-heden-toekomst-beyond"] = dict(
         "Je vergelijkt samenlevingen om ze beter te begrijpen, niet om er een rangorde van te maken.",
         "Een collectieve herinnering is het gedeelde beeld dat een groep bewaart en doorgeeft.",
         "In een rechtsstaat moet ook een verkozen meerderheid zich aan de wet en de grondrechten houden.",
+    ],
+)
+
+# ───────────────────────── 14. De Volksrepubliek China
+# Toegevoegd 9/11/2026: dit stuk van de vakfiche ontbrak nog (Volksrepubliek
+# China: Mao, Deng, Xi, China in Afrika, interculturele contacten met het Westen).
+BUNDELS["de-volksrepubliek-china-van-mao-tot-xi-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="De Volksrepubliek China: van Mao tot Xi",
+    onder="Hoe de communisten de macht grepen, wat Mao, Deng en Xi ermee deden, en China in Afrika en tegenover het Westen.",
+    secties=[
+        dict(kop="De communistische machtsovername", blokken=[
+            ("p", "Na de val van het keizerrijk in 1912 werd China verscheurd. Vanaf 1927 vochten de "
+                  "<strong>nationalisten van de Guomindang</strong>, geleid door <strong>Chiang "
+                  "Kai-shek</strong>, en de <strong>communisten van Mao Zedong</strong> een "
+                  "<strong>burgeroorlog</strong> uit. Toen <strong>Japan vanaf 1937 China binnenviel</strong>, "
+                  "sloten beide partijen <strong>tijdelijk een bondgenootschap</strong> tegen de bezetter. Na "
+                  "de Japanse nederlaag in 1945 laaide de burgeroorlog weer op."),
+            ("p", "De <strong>oorzaken</strong> van de communistische overwinning:"),
+            ("p", '• <strong>bittere armoede bij de boeren</strong>, die vaak zwaar verschuldigd waren aan <strong>grootgrondbezitters</strong>;<br>• <strong>corruptie en verdeeldheid</strong> in het nationalistische bewind;<br>• de <strong>verzwakking van het land door de Japanse bezetting</strong>;<br>• Mao <strong>beloofde de boeren grond</strong>, en zijn troepen <strong>leefden tussen de bevolking op het platteland</strong>. Zijn steun kwam dus niet uit de steden maar van het platteland.'),
+            ("p", "Op <strong>1 oktober 1949</strong> riep Mao op het <strong>Tienanmenplein</strong> in Peking "
+                  "de <strong>Volksrepubliek China</strong> uit. Chiang Kai-shek en de nationalisten "
+                  "<strong>vluchtten naar het eiland Taiwan</strong>."),
+            ("p", "De <strong>gevolgen</strong>: China werd een <strong>eenpartijstaat</strong> waarin de "
+                  "communistische partij alle macht heeft, en de <strong>Verenigde Staten weigerden het nieuwe "
+                  "bewind te erkennen</strong>. Die breuk duurde tot 1979."),
+        ]),
+        dict(kop="Het beleid onder Mao", blokken=[
+            ("p", tabel(["Domein", "Voorbeelden onder Mao"], [
+                ["Politiek", "eenpartijstaat: andere partijen verboden, tegenstanders opgesloten; "
+                             "persoonsverheerlijking van Mao"],
+                ["Sociaal", "landhervorming: de grond van grootgrondbezitters herverdeeld; de huwelijkswet van "
+                            "1950 verbiedt gedwongen huwelijken en geeft vrouwen het recht op echtscheiding"],
+                ["Cultureel", "tijdens de Culturele Revolutie oude tempels, boeken en tradities vernield; het "
+                              "Rode Boekje met citaten van Mao"],
+                ["Economisch", "planeconomie met vijfjarenplannen naar Sovjetvoorbeeld, met de nadruk op zware "
+                               "industrie; collectivisering en volkscommunes"],
+            ])),
+            ("p", "<strong>Persoonsverheerlijking</strong> betekent dat de leider wordt voorgesteld als bijna "
+                  "heilig: zijn portret hangt overal en zijn woorden zijn wet. Iedereen moest het "
+                  "<strong>Rode Boekje</strong> met citaten van Mao bij zich dragen. <strong>Propaganda</strong> "
+                  "op affiches toonde lachende boeren en overvolle oogsten: wat de partij wilde bereiken, niet "
+                  "hoe het in werkelijkheid ging."),
+        ]),
+        dict(kop="De Grote Sprong Voorwaarts (1958-1962)", blokken=[
+            ("p", "Met de <strong>Grote Sprong Voorwaarts</strong> wilde Mao China in enkele jaren tot een "
+                  "industrieland maken. Het werd een ramp. Waarom leidde de sprong tot "
+                  "<strong>sociaaleconomische achteruitgang</strong>?"),
+            ("p", '• boeren moesten <strong>ijzer smelten in kleine ovens in de achtertuin</strong> in plaats van hun velden te bewerken; veel van dat staal was <strong>onbruikbaar</strong>;<br>• de privéakkers werden samengevoegd in reusachtige <strong>volkscommunes</strong> met <strong>gemeenschappelijke keukens</strong>;<br>• lokale leiders meldden uit angst <strong>veel hogere oogsten dan de werkelijke</strong>, en de staat haalde op basis van die opgeblazen cijfers graan op;<br>• China <strong>bleef zelfs graan uitvoeren</strong>.'),
+            ("p", tabel(["Jaar", "1957", "1958", "1959", "1960", "1961", "1962"], [
+                ["Graanoogst (miljoen ton, afgeronde officiële cijfers)", "195", "200", "170", "144", "148", "160"],
+            ])),
+            ("p", "Het gevolg was een <strong>hongersnood die miljoenen mensen het leven kostte</strong>. Het vertrouwen in de "
+                  "cijfers van de partij nam af, en na die mislukking <strong>moest Mao het dagelijkse bestuur een tijd aan "
+                  "anderen overlaten</strong>."),
+        ]),
+        dict(kop="De Culturele Revolutie (1966-1976)", blokken=[
+            ("p", "Met de <strong>Culturele Revolutie</strong> vanaf <strong>1966</strong> wilde Mao zijn "
+                  "<strong>macht terugwinnen</strong>. Jongeren in de <strong>Rode Garde</strong>, de <strong>Rode Gardisten</strong>, vielen leraren, "
+                  "intellectuelen en partijleden aan als vijanden van de revolutie. Scholen en universiteiten "
+                  "lagen stil, oude tempels, boeken en tradities werden vernield. Staatsaffiches uit die jaren "
+                  "verheerlijken Mao en richten zich vooral tot jongeren; over de vervolgingen zeggen ze niets. "
+                  "Mao stierf in <strong>1976</strong>."),
+        ]),
+        dict(kop="Deng Xiaoping: modernisering vanaf 1978", blokken=[
+            ("p", "Vanaf <strong>1978</strong> zette <strong>Deng Xiaoping</strong> China op een nieuwe "
+                  "economische koers:"),
+            ("p", '• boeren mochten een deel van hun oogst <strong>zelf op de markt verkopen</strong>;<br>• in <strong>speciale economische zones</strong> aan de kust mochten <strong>buitenlandse bedrijven investeren</strong>; de eerste was <strong>Shenzhen</strong>, vlak bij Hongkong, dat groeide van vissersdorp tot miljoenenstad;<br>• de <strong>eenkindpolitiek</strong>: gezinnen mochten in principe nog maar één kind krijgen, om de bevolkingsgroei af te remmen.'),
+            ("p", "Deng zei: <em>het maakt niet uit of een kat zwart of wit is, zolang ze muizen vangt</em>. "
+                  "Wat de economie doet groeien, is goed, ook als het niet strikt communistisch is. Hij noemde "
+                  "zijn koers <strong>socialisme met Chinese kenmerken</strong>: een <strong>markteconomie onder "
+                  "leiding van één partij</strong>. De partij gaf haar machtsmonopolie <strong>niet</strong> op."),
+        ]),
+        dict(kop="Tienanmen 1989: de houding tegenover democratie", blokken=[
+            ("p", "In de lente van <strong>1989</strong> bezetten studenten en arbeiders weken lang het "
+                  "<strong>Tienanmenplein</strong>. Ze eisten <strong>persvrijheid, inspraak en een einde aan "
+                  "corruptie</strong>. In de nacht van <strong>3 op 4 juni</strong> reden tanks het plein op; "
+                  "honderden, misschien duizenden mensen kwamen om. In China zelf wordt er tot vandaag "
+                  "<strong>niet over gesproken</strong>: de staat controleert schoolboeken en media."),
+            ("kader", "Wat Tienanmen toont: economische hervormingen mochten, maar <strong>wie de macht van de "
+                      "partij in vraag stelde, werd hard aangepakt</strong>. Wie wil weten wat er gebeurde, zoekt "
+                      "ooggetuigen, buitenlandse journalisten of diplomatieke berichten, want Chinese officiële "
+                      "bronnen zwijgen het dood."),
+        ]),
+        dict(kop="Xi Jinping, aan de macht sinds 2012", blokken=[
+            ("p", tabel(["Domein", "Kenmerken van het beleid onder Xi"], [
+                ["Politiek", "de macht centraliseren; een grote campagne tegen corruptie, waarbij ook rivalen "
+                             "verdwenen; in 2018 de grens van twee ambtstermijnen voor de president afgeschaft"],
+                ["Sociaal", "camera's met gezichtsherkenning en een puntensysteem dat het gedrag van burgers "
+                            "volgt; Oeigoeren, een moslimminderheid in Xinjiang, opgesloten in grote kampen; "
+                            "na de eenkindpolitiek nu officieel drie kinderen per gezin toegelaten"],
+                ["Cultureel", "strenge censuur op internet; nadruk op de Chinese droom en trots op het land"],
+                ["Economisch", "de Nieuwe Zijderoute: wegen, havens en spoorlijnen in tientallen landen; grote "
+                               "staatsbedrijven in sleutelsectoren zoals energie en banken"],
+            ])),
+            ("p", "In <strong>Hongkong</strong> kwam er in <strong>2020</strong> een strenge "
+                  "<strong>veiligheidswet</strong> die protest en oppositie aan banden legt."),
+            ("p", "<strong>Mao en vandaag vergeleken.</strong> Gelijk gebleven: <strong>één partij heeft alle "
+                  "macht</strong>, er is censuur, en de staat houdt de sleutelsectoren in handen. Veranderd: er "
+                  "zijn <strong>privébedrijven en miljardairs</strong>, China speelt een <strong>grote rol in de "
+                  "wereldhandel</strong>, en de <strong>meerderheid van de bevolking woont nu in de stad</strong>. "
+                  "Volkscommunes bestaan niet meer. Kort: de economie veranderde grondig, het politieke systeem "
+                  "nauwelijks."),
+        ]),
+        dict(kop="China in Afrika in de 21ste eeuw", blokken=[
+            ("p", tabel(["Wat China uit Afrika haalt", "Wat China meebrengt"], [
+                ["grondstoffen: olie, koper en kobalt", "wegen, spoorlijnen, havens en stadions"],
+                ["een afzetmarkt voor goedkope Chinese producten", "grote leningen"],
+                ["steun van Afrikaanse landen in de VN", "Chinese bedrijven en arbeiders"],
+            ])),
+            ("p", "Afrikaanse regeringen kiezen soms liever voor Chinese leningen omdat <strong>China geen "
+                  "voorwaarden stelt over mensenrechten of bestuur</strong>: het zegt zich niet te bemoeien met "
+                  "binnenlandse zaken. Westerse geldschieters koppelen hun hulp vaker aan voorwaarden."),
+            ("p", "Twee perspectieven: voor de een is China een <strong>partner</strong> die eindelijk spoorlijnen "
+                  "bouwt, voor de ander dreigt een <strong>schuldenval</strong>: wie de lening niet kan "
+                  "terugbetalen, moet bijvoorbeeld een haven voor jaren uitbesteden. Critici vergelijken het met "
+                  "het <strong>Europese imperialisme</strong>: een machtig land haalt grondstoffen weg en maakt "
+                  "een gebied afhankelijk. Het verschil: China bezet geen gebieden en bestuurt ze niet zelf."),
+        ]),
+        dict(kop="Interculturele contacten met het Westen", blokken=[
+            ("p", "De <strong>aard</strong> van de contacten: diplomatie, handel, studenten en toerisme. De "
+                  "belangrijkste stappen:"),
+            ("p", tabel(["Jaar", "Stap"], [
+                ["1972", "de Amerikaanse president Nixon bezoekt Peking"],
+                ["vanaf 1980", "speciale economische zones voor buitenlandse bedrijven"],
+                ["1997", "Groot-Brittannië geeft Hongkong terug aan China"],
+                ["2001", "China wordt lid van de Wereldhandelsorganisatie"],
+            ])),
+            ("p", "Bij de teruggave van Hongkong gold het principe <strong>één land, twee systemen</strong>: "
+                  "Hongkong zou <strong>vijftig jaar een eigen economie en rechtspraak</strong> met meer "
+                  "vrijheden houden. Critici vinden dat die vrijheden sterk zijn ingeperkt."),
+            ("p", "De <strong>gevolgen</strong>: westerse ketens en merken in Chinese steden, veel producten in "
+                  "onze winkels zijn in China gemaakt, en duizenden Chinese studenten studeren aan Europese en "
+                  "Amerikaanse universiteiten. Het westerse parlementaire systeem nam China <strong>niet</strong> "
+                  "over."),
+            ("kader", "Mao en Deng vergeleken. Gelijkenis: allebei wilden ze een sterk China onder leiding van de "
+                      "communistische partij, zonder politieke oppositie. Verschil: Mao rekende op "
+                      "massamobilisatie en een planeconomie, Deng opende de economie voor de markt en voor "
+                      "buitenlandse investeerders."),
+        ]),
+    ],
+    onthoud=[
+        "1 oktober 1949: Mao roept de Volksrepubliek uit; de Guomindang van Chiang Kai-shek vlucht naar Taiwan.",
+        "Mao won met de steun van arme boeren, aan wie hij grond beloofde.",
+        "De Grote Sprong Voorwaarts (1958-1962) leidde tot een hongersnood met miljoenen doden.",
+        "De Culturele Revolutie (1966-1976): Mao wint zijn macht terug met de Rode Garde.",
+        "Vanaf 1978 Deng: markt, speciale economische zones (Shenzhen), eenkindpolitiek, maar één partij.",
+        "4 juni 1989: het leger slaat het protest op het Tienanmenplein neer.",
+        "Xi (sinds 2012): macht centraliseren, controle en censuur, Nieuwe Zijderoute.",
+        "China in Afrika: grondstoffen en steun tegen infrastructuur en leningen, zonder voorwaarden.",
+    ],
+)
+
+# ───────────────────────── 15. De Israëlisch-Palestijnse kwestie
+# Toegevoegd 9/11/2026: oorsprong, gewelddadige en vreedzame fases (1948-2002),
+# actuele situatie, en de houding van de Verenigde Staten (voorbeeld op de fiche).
+BUNDELS["de-israelisch-palestijnse-kwestie-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="De Israëlisch-Palestijnse kwestie",
+    onder="Twee volken en één land: hoe het conflict ontstond, oorlog en vrede van 1948 tot 2002, en vandaag.",
+    secties=[
+        dict(kop="De oorsprong", blokken=[
+            ("p", "Tot de Eerste Wereldoorlog hoorde <strong>Palestina bij het Ottomaanse Rijk</strong>. Het "
+                  "gebied was bewoond, vooral door <strong>Arabieren</strong>. Na de oorlog kreeg "
+                  "<strong>Groot-Brittannië</strong> er van de Volkenbond een <strong>mandaat</strong> over: "
+                  "het <strong>Brits mandaat</strong>."),
+            ("p", "Het <strong>zionisme</strong> ontstond <strong>eind 19de eeuw onder Joden in Europa</strong>, "
+                  "mee als reactie op het <strong>antisemitisme</strong>: pogroms in Oost-Europa en de "
+                  "Dreyfusaffaire in Frankrijk toonden dat Joden nergens veilig waren. <strong>Theodor "
+                  "Herzl</strong> riep in 1896 op tot een <strong>eigen Joodse staat</strong> in het historische "
+                  "Palestina. Joodse immigranten kochten er grond en stichtten er landbouwkolonies."),
+            ("p", "In de <strong>Balfourverklaring</strong> van <strong>november 1917</strong>, een brief van de "
+                  "Britse minister Balfour aan Lord Rothschild, beloofde Groot-Brittannië <strong>steun voor een "
+                  "nationaal tehuis voor het Joodse volk in Palestina</strong>. Er stond ook in dat de rechten "
+                  "van de niet-Joodse gemeenschappen niet geschaad mochten worden. Tegelijk hadden de Britten "
+                  "de Arabieren onafhankelijkheid in het vooruitzicht gesteld."),
+            ("p", "Zo <strong>groeide de spanning in het mandaatgebied</strong>, van twee kanten:"),
+            ("p", tabel(["Joodse kant", "Arabische kant"], [
+                ["vluchten voor jodenvervolging in Europa en een eigen veilig land zoeken",
+                 "vrezen dat de Joodse immigratie hen in eigen land tot minderheid maakt"],
+                ["na de Holocaust overtuigd dat een eigen staat noodzakelijk is",
+                 "zich bedrogen voelen door Britse beloftes van onafhankelijkheid"],
+            ])),
+            ("kader", "Het conflict is geen eeuwenoude godsdienstoorlog. Religie speelt mee, maar het is in de "
+                      "eerste plaats een <strong>moderne strijd om land tussen twee nationale bewegingen</strong> "
+                      "van de 19de en 20ste eeuw: het zionisme en het Arabisch, later Palestijns, nationalisme."),
+        ]),
+        dict(kop="Het verdelingsplan en 1948", blokken=[
+            ("p", "De Britten gaven het probleem in 1947 door aan de <strong>Verenigde Naties</strong>. Het "
+                  "<strong>verdelingsplan</strong> van <strong>29 november 1947</strong> verdeelde het gebied in "
+                  "een <strong>Joodse</strong> en een <strong>Arabische staat</strong>, elk uit losse stukken die "
+                  "elkaar raakten, met <strong>Jeruzalem onder internationaal bestuur</strong>. De Joodse leiders "
+                  "aanvaardden het plan, de Arabische landen verwierpen het."),
+            ("p", "Op <strong>14 mei 1948</strong>, de dag dat het Britse mandaat afliep, werd de <strong>staat "
+                  "Israël</strong> uitgeroepen. Meteen volgde de <strong>eerste Arabisch-Israëlische "
+                  "oorlog</strong> (1948-1949). Israël won en werd groter dan in het plan; de Gazastrook kwam "
+                  "onder Egypte, de Westelijke Jordaanoever onder Jordanië."),
+            ("p", "Ongeveer <strong>700 000 Palestijnen</strong> sloegen bij de stichting van Israël op de vlucht of werden verdreven. "
+                  "Palestijnen noemen die vlucht en verdrijving de <strong>Nakba</strong>, de catastrofe. Voor Israëli's is diezelfde "
+                  "oorlog de <strong>onafhankelijkheidsoorlog</strong>: dezelfde gebeurtenis, twee "
+                  "herinneringen."),
+        ]),
+        dict(kop="Gewelddadige fases", blokken=[
+            ("p", tabel(["Jaar", "Gebeurtenis"], [
+                ["1948-1949", "eerste Arabisch-Israëlische oorlog"],
+                ["1964", "oprichting van de PLO, de Palestijnse bevrijdingsorganisatie, later lang geleid door Yasser Arafat"],
+                ["1967", "Zesdaagse Oorlog"],
+                ["1973", "Jom Kipoeroorlog"],
+                ["1982", "oorlog in Libanon"],
+                ["vanaf 1987", "eerste intifada; in die jaren ontstaat ook Hamas"],
+                ["vanaf 2000", "tweede intifada"],
+            ])),
+            ("p", "In de <strong>Zesdaagse Oorlog</strong> van <strong>1967</strong> won Israël in zes dagen en "
+                  "veroverde het de <strong>Westelijke Jordaanoever</strong>, de <strong>Gazastrook</strong>, "
+                  "<strong>Oost-Jeruzalem</strong>, de <strong>Sinaï</strong> (van Egypte) en de "
+                  "<strong>Golanhoogte</strong> (van Syrië). Sindsdien leven miljoenen Palestijnen onder "
+                  "Israëlisch bestuur, ontstonden er <strong>nederzettingen</strong> en draaien de onderhandelingen "
+                  "rond <strong>land voor vrede</strong>: volgens <strong>VN-resolutie 242</strong> geeft Israël "
+                  "bezet gebied terug en erkennen de buurlanden Israël, met veilige grenzen. Daarom is 1967 een "
+                  "keerpunt."),
+            ("p", "De <strong>Jom Kipoeroorlog</strong> van <strong>1973</strong> had gevolgen tot in Europa: "
+                  "Arabische olielanden <strong>beperkten de olie-uitvoer</strong> naar landen die Israël "
+                  "steunden. Er kwam een <strong>oliecrisis</strong>; in België kwamen er onder meer autoloze "
+                  "zondagen."),
+            ("p", "Een <strong>intifada</strong> is een <strong>Palestijnse volksopstand tegen de Israëlische "
+                  "bezetting</strong>; het woord betekent afschudden. De eerste begon eind 1987 in de Gazastrook "
+                  "met stakingen en jongeren die stenen gooiden. De tweede, vanaf 2000, was veel bloediger, met "
+                  "zelfmoordaanslagen en zware militaire acties. De <strong>PLO</strong> was de seculiere koepel "
+                  "van Palestijnse groepen; <strong>Hamas</strong> is islamistisch en weigerde de vredesakkoorden "
+                  "te erkennen."),
+            ("p", "Tijdens de tweede intifada begon Israël in <strong>2002</strong> met de bouw van een "
+                  "<strong>afscheidingsbarrière</strong> rond de Westelijke Jordaanoever, die voor een groot deel "
+                  "op bezet gebied staat. Israël noemt ze een veiligheidshek tegen aanslagen, Palestijnen zien er "
+                  "een muur in die land inpikt. Het Internationaal Gerechtshof oordeelde in 2004 dat de muur, "
+                  "waar hij op bezet gebied staat, in strijd is met het internationaal recht."),
+        ]),
+        dict(kop="Vreedzame fases", blokken=[
+            ("p", tabel(["Akkoord of initiatief", "Wat het inhield"], [
+                ["Camp David (1978)", "Egypte erkent Israël en krijgt de Sinaï terug; vrede in 1979"],
+                ["Oslo (1993)", "Israël en de PLO erkennen elkaar en er komt een Palestijns zelfbestuur"],
+                ["Vredesverdrag met Jordanië (1994)", "een tweede Arabisch buurland sluit vrede met Israël"],
+                ["Arabisch vredesinitiatief (2002)", "Saoedi-Arabië stelt namens de Arabische Liga een vredesplan voor: erkenning in ruil voor terugtrekking"],
+            ])),
+            ("p", "De handdruk tussen de Israëlische premier <strong>Yitzhak Rabin</strong> en <strong>Arafat</strong>, met "
+                  "de Amerikaanse president Clinton in het midden, in de tuin van het Witte Huis op 13 september "
+                  "1993, werd het symbool van <strong>Oslo</strong>. Toch liep het vredesproces vast: de "
+                  "<strong>moeilijkste kwesties werden naar later geschoven</strong>, en <strong>geweld van "
+                  "extremisten</strong> aan beide kanten ondermijnde het vertrouwen. In 1995 werd Rabin vermoord "
+                  "door een Israëlische extremist die tegen het akkoord was. Een Palestijnse staat met Jeruzalem "
+                  "als hoofdstad is er nooit gekomen."),
+            ("p", "De vaste <strong>twistpunten</strong> bij elke onderhandeling: de <strong>grenzen</strong> van "
+                  "een Palestijnse staat, het statuut van <strong>Jeruzalem</strong>, heilig voor joden, "
+                  "christenen en moslims, de <strong>terugkeer van de vluchtelingen</strong> van 1948 en hun "
+                  "nakomelingen, de <strong>nederzettingen</strong> en de <strong>veiligheid</strong>."),
+        ]),
+        dict(kop="De actuele situatie", blokken=[
+            ("p", "Op de <strong>Westelijke Jordaanoever</strong> wonen honderdduizenden Israëlische kolonisten "
+                  "in nederzettingen. Sinds <strong>2007</strong> heeft <strong>Hamas</strong> de macht in de "
+                  "<strong>Gazastrook</strong>. Op <strong>7 oktober 2023</strong> viel Hamas Israël aan; ongeveer "
+                  "1200 mensen kwamen om en honderden gijzelaars werden meegenomen. De oorlog die volgde in Gaza "
+                  "kostte <strong>tienduizenden Palestijnse levens</strong> en veroorzaakte een zware humanitaire "
+                  "crisis."),
+            ("p", "De <strong>tweestatenoplossing</strong> is het plan voor een <strong>Israëlische en een "
+                  "Palestijnse staat naast elkaar</strong>. Het idee duikt al op sinds het verdelingsplan van "
+                  "1947, maar het is er nooit van gekomen."),
+        ]),
+        dict(kop="De houding van de Verenigde Staten", blokken=[
+            ("p", "De Verenigde Staten zijn tegelijk de belangrijkste <strong>bondgenoot</strong> van Israël en "
+                  "de vaste <strong>bemiddelaar</strong>:"),
+            ("p", tabel(["Steun aan Israël", "Bemiddeling"], [
+                ["elk jaar miljarden dollars aan militaire hulp", "de top van Camp David met Egypte en Israël"],
+                ["een veto tegen resoluties in de Veiligheidsraad die Israël veroordelen",
+                 "de ondertekening van de Oslo-akkoorden in het Witte Huis"],
+            ])),
+            ("p", "Een <strong>historische verklaring</strong> voor die steun:"),
+            ("p", "• tijdens de <strong>Koude Oorlog</strong> was Israël een bondgenoot tegen Arabische staten "
+                  "die door de <strong>Sovjet-Unie</strong> gesteund werden;<br>"
+                  "• in de Verenigde Staten hebben de <strong>Joodse gemeenschap</strong> en een "
+                  "<strong>pro-Israëlische lobby</strong> veel invloed;<br>"
+                  "• veel Amerikanen zien Israël als een <strong>democratie met dezelfde waarden</strong>."),
+            ("p", "Tegelijk willen de VS <strong>rust in de regio</strong>, wat ook hun eigen belangen dient, "
+                  "onder meer door de olie uit Arabische landen. Daarom bemiddelen ze. Critici vinden de VS "
+                  "daardoor geen neutrale bemiddelaar. Eén veto van een vast lid volstaat om een resolutie van "
+                  "de Veiligheidsraad tegen te houden; zo blijft de raad bij dit conflict vaak machteloos."),
+            ("kader", "Werken met bronnen over dit conflict: de naam die je aan een gebeurtenis of bouwwerk geeft, "
+                      "toont al een standpunt. Onafhankelijkheidsoorlog of Nakba, veiligheidshek of muur: leg "
+                      "bronnen van beide kanten naast elkaar. De redeneerwijze die je dan gebruikt, is "
+                      "<strong>meerdere perspectieven hanteren</strong>."),
+        ]),
+    ],
+    onthoud=[
+        "Zionisme (eind 19de eeuw, Herzl) en Arabisch nationalisme eisen hetzelfde land op.",
+        "1917 Balfourverklaring; na de Eerste Wereldoorlog een Brits mandaat over Palestina.",
+        "1947 VN-verdelingsplan; 14 mei 1948 staat Israël; de Nakba: 700 000 Palestijnse vluchtelingen.",
+        "1967 Zesdaagse Oorlog: Westelijke Jordaanoever, Gaza en Oost-Jeruzalem bezet; resolutie 242: land voor vrede.",
+        "Intifada's vanaf 1987 en 2000; akkoorden van Camp David (1978) en Oslo (1993).",
+        "Twistpunten: grenzen, Jeruzalem, vluchtelingen, nederzettingen, veiligheid.",
+        "De VS: bondgenoot van Israël (Koude Oorlog, lobby, gedeelde waarden) en tegelijk bemiddelaar.",
+    ],
+)
+
+# ───────────────────────── 16. Denkstromingen en kunststromingen (19de en 20ste eeuw)
+# Toegevoegd 9/11/2026: denkstromingen (abolitionisme, sociaal darwinisme,
+# eugenetica) en de kunststromingen van romantiek tot abstracte kunst. De fiche
+# laat je één stroming kiezen; hier staan ze allemaal kort, zodat je ze kan
+# onderscheiden. Schilderijen: publiek domein, zie BRONNEN.txt bij de examenvormen.
+_K = "fotos/kunst-beyond/"
+BUNDELS["denkstromingen-en-kunststromingen-van-de-19de-en-20ste-eeuw-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Denkstromingen en kunststromingen van de 19de en 20ste eeuw",
+    onder="Abolitionisme, sociaal darwinisme en eugenetica, en acht kunststromingen van romantiek tot abstracte kunst.",
+    secties=[
+        dict(kop="Het abolitionisme", blokken=[
+            ("p", "Het <strong>abolitionisme</strong> is de beweging die de <strong>slavenhandel en de slavernij "
+                  "wilde afschaffen</strong>. Ze ontstond <strong>eind 18de eeuw</strong>, onder meer bij "
+                  "<strong>Britse quakers en andere christenen</strong>, vanuit hun christelijke geloof. Ideeën uit de <strong>Verlichting</strong> "
+                  "over de gelijkheid van alle mensen gaven haar argumenten. De grootste tegenstanders waren de "
+                  "<strong>plantage-eigenaars in het Caribisch gebied</strong>, die aan de slavernij verdienden."),
+            ("p", tabel(["Argumenten van abolitionisten", "Argumenten van voorstanders"], [
+                ["alle mensen zijn door God gelijk geschapen", "zonder slavenarbeid gaat de suikerhandel en onze welvaart ten onder"],
+                ["niemand kan eigendom zijn van een ander mens", "de plantage-eigenaars hebben recht op hun wettige bezit"],
+            ])),
+            ("p", "De <strong>middelen</strong> van de abolitionisten: <strong>petities</strong> aan het parlement, "
+                  "een <strong>boycot</strong> van suiker die door slaven gemaakt was (zo konden ook vrouwen en "
+                  "mensen zonder stemrecht meedoen), en <strong>beelden</strong> voor een groot publiek. Het "
+                  "medaillon van <strong>Josiah Wedgwood</strong> uit 1787 toont een geknielde man in ketenen met "
+                  "de vraag <em>Am I not a man and a brother?</em> (Ben ik geen mens en een broeder?): een beroep "
+                  "op gelijkheid en christelijke broederschap. De tekening van het <strong>slavenschip "
+                  "Brookes</strong> (1788) toonde zonder woorden hoe mensen als vracht werden gestapeld."),
+            ("fig", foto(_K + "abolitie-medaillon.jpg", "32%", "Josiah Wedgwood, 1787. Walters Art Museum, publiek domein."), "Het medaillon van de abolitionisten"),
+            ("p", tabel(["Jaar", "Stap naar het einde van de slavernij"], [
+                ["1807", "Groot-Brittannië verbiedt de slavenhandel"],
+                ["1833", "Groot-Brittannië schaft de slavernij in zijn koloniën af"],
+                ["1863", "Nederland schaft de slavernij af in Suriname en de Antillen"],
+                ["1865", "na een burgeroorlog wordt de slavernij in de Verenigde Staten afgeschaft"],
+            ])),
+        ]),
+        dict(kop="Sociaal darwinisme en eugenetica", blokken=[
+            ("p", "<strong>Herbert Spencer</strong> bedacht de uitdrukking <em>survival of the fittest</em>. "
+                  "<strong>Sociaal darwinisten</strong> pasten de strijd om het bestaan uit de natuur toe op "
+                  "<strong>mensen, klassen en volkeren</strong>: wie rijk of machtig is, zou ook biologisch beter "
+                  "zijn. Darwin zelf schreef zijn evolutietheorie over planten en dieren, niet over samenlevingen. Het sociaal darwinisme "
+                  "is geen goede wetenschap maar een <strong>ideologie in een wetenschappelijk jasje</strong>: het "
+                  "werd gebruikt om <strong>ongelijkheid en overheersing goed te praten</strong>, ook het "
+                  "imperialisme."),
+            ("p", "De <strong>eugenetica</strong> wilde het <strong>erfelijk materiaal van een volk "
+                  "verbeteren</strong> door te bepalen wie kinderen mag krijgen. De Brit <strong>Francis "
+                  "Galton</strong> bedacht het woord eind 19de eeuw. De beweging stelde zich voor als een "
+                  "<strong>wetenschap die steunt op vele andere wetenschappen</strong>, zoals biologie, "
+                  "geneeskunde en statistiek; het logo van het internationale congres van 1921 is een boom met "
+                  "die vakken als wortels."),
+            ("p", tabel(["Positieve eugenetica: gewenste mensen aanmoedigen", "Negatieve eugenetica: ongewenste mensen tegenhouden"], [
+                ["wedstrijden voor het gezondste gezin", "gedwongen sterilisatie van mensen met een beperking"],
+                ["premies voor gezinnen met veel kinderen uit de gewenste groep", "huwelijksverboden voor mensen met bepaalde ziektes"],
+            ])),
+            ("p", "Eugenetica was rond 1920 in veel landen populair, <strong>ook in democratieën</strong>. In de "
+                  "<strong>Verenigde Staten</strong> werden tienduizenden mensen gedwongen gesteriliseerd, in "
+                  "<strong>Zweden</strong> gebeurde dat tot in de jaren zeventig. <strong>Nazi-Duitsland</strong> "
+                  "voerde ze het verst door: de nazi's steriliseerden en vermoordden mensen met een beperking en "
+                  "voerden een rassenpolitiek die leidde tot de Holocaust."),
+        ]),
+        dict(kop="Romantiek en realisme", blokken=[
+            ("p", "De <strong>romantiek</strong> (rond 1800 tot 1850) was een reactie op de Verlichting. "
+                  "Romantici stelden <strong>gevoel en verbeelding boven het verstand</strong>, grepen graag terug "
+                  "naar de <strong>middeleeuwen en de eigen nationale geschiedenis</strong>, en toonden een "
+                  "<strong>overweldigende natuur</strong> vol mysterie. Het <strong>nationalisme</strong> van de "
+                  "19de eeuw vond er veel inspiratie in. Kunstenaars: Caspar David Friedrich, Eugène Delacroix, "
+                  "William Turner, en in België Gustaf Wappers."),
+            ("fig", foto(_K + "romantiek-friedrich.jpg", "48%", "Caspar David Friedrich, Wandelaar boven de nevelzee, 1818. Publiek domein."), "Romantiek: een eenzame figuur tegenover een overweldigende natuur"),
+            ("p", "Het <strong>realisme</strong> (rond 1840 tot 1880) toont het <strong>gewone leven zoals het "
+                  "is</strong>: arbeiders en boeren bij zwaar werk, <strong>zonder iets mooier te maken</strong>. "
+                  "Het groeide in de tijd van de <strong>industrialisatie</strong>, de sociale kwestie en de "
+                  "revolutiejaren rond 1848. Kunstenaars: <strong>Gustave Courbet</strong>, Jean-François Millet, "
+                  "en in België <strong>Constantin Meunier</strong>, die mijnwerkers en dokwerkers in brons goot. "
+                  "Courbet gaf arbeiders het grote formaat dat vroeger voor helden en heiligen bedoeld was; veel "
+                  "critici vonden dat schandalig."),
+            ("fig", foto(_K + "realisme-courbet.jpg", "70%", "Gustave Courbet, De steenkappers, 1849 (vernield in 1945). Publiek domein."), "Realisme: gewone arbeiders, zonder verfraaiing"),
+        ]),
+        dict(kop="Impressionisme en expressionisme", blokken=[
+            ("p", "Het <strong>impressionisme</strong> (vanaf de jaren 1870) legt de <strong>indruk van licht en "
+                  "kleur op één moment</strong> vast, met <strong>losse, zichtbare toetsen</strong>, vaak "
+                  "<strong>buiten in de open lucht</strong> geschilderd. Een criticus spotte in 1874 met de titel "
+                  "van een schilderij van <strong>Claude Monet</strong>, <em>Impressie, opkomende zon</em>; zijn "
+                  "spotnaam werd de naam van de stroming. Twee uitvindingen hielpen: <strong>verf in tubes</strong> "
+                  "om buiten te schilderen, en de <strong>fotografie</strong>, waardoor een schilder niet meer alles "
+                  "precies hoefde na te bootsen. Andere impressionisten: Renoir, Degas, Morisot."),
+            ("fig", foto(_K + "impressionisme-monet.jpg", "62%", "Claude Monet, Impressie, opkomende zon, 1872. Publiek domein."), "Impressionisme: een indruk van licht"),
+            ("p", "Het <strong>expressionisme</strong> (begin 20ste eeuw) drukt het <strong>innerlijke gevoel van "
+                  "de kunstenaar</strong> uit, met <strong>vervormde figuren en felle, onnatuurlijke "
+                  "kleuren</strong>. <strong>Edvard Munch</strong> geldt met <em>De schreeuw</em> (1893) als een "
+                  "belangrijke voorloper. In Vlaanderen schilderde <strong>Constant Permeke</strong> boeren en "
+                  "vissers in grove vormen en donkere kleuren."),
+            ("fig", foto(_K + "expressionisme-munch.jpg", "42%", "Edvard Munch, De schreeuw, 1893. Publiek domein."), "Expressionisme: geen werkelijkheid, maar een gevoel"),
+            ("kader", "Impressionisme en expressionisme lijken op elkaar door hun naam, maar zijn bijna "
+                      "tegengestelden: een <strong>indruk van buiten</strong> tegenover een <strong>uitdrukking van "
+                      "binnen</strong>."),
+        ]),
+        dict(kop="Art nouveau en kubisme", blokken=[
+            ("p", "De <strong>art nouveau</strong> (rond 1890 tot 1910) houdt van <strong>sierlijke, golvende "
+                  "lijnen</strong> en <strong>motieven uit de plantenwereld</strong>. Het was een totaalkunst: niet "
+                  "alleen schilderkunst en affiches, maar ook <strong>architectuur en meubels</strong>, van gevel "
+                  "tot deurklink in dezelfde stijl. <strong>Victor Horta</strong> bouwde in Brussel huizen met "
+                  "ijzeren ranken en gebogen lijnen; <strong>Alfons Mucha</strong> maakte in Parijs affiches met "
+                  "haren als ranken."),
+            ("fig", foto(_K + "artnouveau-mucha.jpg", "40%", "Alfons Mucha, affiche voor Job, 1896. Publiek domein."), "Art nouveau: golvende lijnen, kunst in het dagelijks leven"),
+            ("p", "Het <strong>kubisme</strong> begon rond <strong>1907</strong> met <strong>Pablo Picasso en "
+                  "Georges Braque</strong>. Ze toonden een onderwerp <strong>van meerdere kanten tegelijk</strong> en "
+                  "braken het op in <strong>geometrische vlakken</strong>: niet wat het oog op één moment ziet, maar "
+                  "wat je van een ding weet. Ook <strong>Juan Gris</strong> schilderde zo."),
+            ("fig", foto(_K + "kubisme-gris.jpg", "40%", "Juan Gris, Portret van Pablo Picasso, 1912. Publiek domein."), "Kubisme: hoekige vlakken, meerdere kanten tegelijk"),
+        ]),
+        dict(kop="Surrealisme en abstracte kunst", blokken=[
+            ("p", "<strong>André Breton</strong> schreef in <strong>1924</strong> het eerste manifest van het "
+                  "<strong>surrealisme</strong>. De surrealisten lieten zich inspireren door de theorieën van "
+                  "<strong>Freud</strong> over <strong>dromen en het onderbewuste</strong>. Ze schilderden vaak "
+                  "<strong>heel herkenbare dingen</strong>, maar in <strong>onmogelijke combinaties</strong>. "
+                  "<strong>Salvador Dalí</strong> schilderde smeltende klokken in een droomlandschap. De Belg "
+                  "<strong>René Magritte</strong> schilderde een pijp met eronder <em>Dit is geen pijp</em>: een "
+                  "schilderij van een pijp is zelf geen pijp, maar een voorstelling. <strong>Paul Delvaux</strong> "
+                  "schilderde slaapwandelende vrouwen in stille, droomachtige stations. (Hun werk is nog niet vrij "
+                  "van rechten, daarom staat het hier niet afgebeeld.)"),
+            ("p", "De <strong>abstracte kunst</strong> (vanaf ongeveer 1910) toont <strong>geen herkenbare "
+                  "voorstelling</strong>: kleur, lijn en vorm drukken alleen iets uit. <strong>Wassily "
+                  "Kandinsky</strong> werkte met vrije, bewegende vormen en veel kleuren; <strong>Piet "
+                  "Mondriaan</strong> gebruikte enkel rechte zwarte lijnen en vlakken in rood, geel, blauw en wit."),
+            ("fig", foto(_K + "abstract-kandinsky.jpg", "62%", "Wassily Kandinsky, Compositie VII, 1913. Publiek domein."), "Abstracte kunst: vrije vormen en kleuren"),
+            ("p", tabel(["Stroming", "Ongeveer", "Herken je aan"], [
+                ["Romantiek", "rond 1800", "gevoel, natuur, verleden, nationalisme"],
+                ["Realisme", "rond 1850", "het gewone leven en werk, zonder verfraaiing"],
+                ["Impressionisme", "vanaf 1874", "licht op één moment, losse toetsen, buiten"],
+                ["Art nouveau", "rond 1900", "golvende lijnen, plantmotieven, ook gebouwen en meubels"],
+                ["Expressionisme", "begin 20ste eeuw", "innerlijk gevoel, vervorming, felle kleuren"],
+                ["Kubisme", "vanaf 1907", "meerdere kanten tegelijk, geometrische vlakken"],
+                ["Abstracte kunst", "vanaf 1910", "geen herkenbare voorstelling"],
+                ["Surrealisme", "vanaf 1924", "dromen, onmogelijke combinaties"],
+            ])),
+        ]),
+    ],
+    onthoud=[
+        "Abolitionisme: de slavenhandel en de slavernij afschaffen; gelijkheid en christelijke broederschap.",
+        "Sociaal darwinisme: de strijd om het bestaan toepassen op volkeren, om ongelijkheid goed te praten.",
+        "Eugenetica: de staat bepaalt wie kinderen mag krijgen; positieve en negatieve eugenetica.",
+        "Romantiek: gevoel en natuur. Realisme: het gewone leven. Impressionisme: licht op één moment.",
+        "Expressionisme: innerlijk gevoel. Kubisme: meerdere kanten tegelijk. Art nouveau: golvende lijnen.",
+        "Surrealisme: dromen en onmogelijke combinaties. Abstracte kunst: geen herkenbare voorstelling.",
+    ],
+)
+
+# ───────────────────────── 17. Kunst en cultuur analyseren met het stappenplan
+# Toegevoegd 9/11/2026: het stappenplan van de vakfiche (vier stappen met
+# richtvragen), toegepast op drie werken met prent en vier zonder (film, lied,
+# graffiti, game), want van die laatste zijn geen vrije beelden.
+BUNDELS["kunst-en-cultuur-analyseren-met-het-stappenplan-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Kunst en cultuur analyseren met het stappenplan",
+    onder="De vier stappen van het examen, uitgewerkt op een schilderij, een gebouw, een film, een lied, graffiti en een game.",
+    secties=[
+        dict(kop="Het stappenplan", blokken=[
+            ("p", "Op het examen krijg je afbeeldingen of filmpjes van <strong>kunst- of cultuuruitingen</strong> uit "
+                  "verschillende periodes, telkens met <strong>contextinformatie</strong>. Je analyseert ze met een "
+                  "<strong>stappenplan</strong> van vier stappen. Eerst de feiten, dan kijken en luisteren, dan pas "
+                  "betekenis geven, en ten slotte alles verwoorden."),
+            ("p", tabel(["Stap", "Richtvragen"], [
+                ["1. Informatie verzamelen", "De tijd: wanneer werd het gemaakt? De ruimte: waar? De maatschappelijke "
+                 "context. De maker: wie heeft het gemaakt? De titel of naam. De soort uiting: schilderij, "
+                 "beeldhouwwerk, bouwwerk, film, game, graffiti of lied."],
+                ["2. Beschrijven wat je ziet of hoort", "Welke materialen worden er gebruikt? Welke figuren en vormen "
+                 "zie je? Wat is de schikking van de beeldelementen? Welke kleuren? Wordt er licht en schaduw "
+                 "gebruikt? Welke klanken, welk ritme en tempo hoor je? Welke instrumenten of stemmen?"],
+                ["3. Interpreteren", "a) Het onderwerp (wat): bijvoorbeeld de dood, het alledaagse, onrecht, liefde, "
+                 "gender. Het doelpubliek (voor wie). De bedoeling (waarom): bekritiseren, bevestigen, decoreren, "
+                 "entertainen, identiteit vormgeven, informeren, praktisch gebruiken, schoonheid creëren. "
+                 "b) De samenhang: hoe ondersteunt wat je ziet of hoort het onderwerp en de bedoeling? Welke invloed "
+                 "heeft de maatschappelijke context?"],
+                ["4. Je analyse toelichten", "Je verwoordt in een eigen tekst wat je waarnam en interpreteerde."],
+            ])),
+            ("kader", "<strong>Beschrijven of interpreteren?</strong> Beschrijven kan iedereen controleren door te "
+                      "kijken: op de voorgrond liggen drie lichamen, het licht valt van links op de centrale figuur. Zodra je een "
+                      "bedoeling of een publiek invult (de maker wil de oorlog aanklagen, het werk is voor een rijk "
+                      "publiek), interpreteer je al. Dat hoort pas bij stap 3."),
+            ("p", "Het <strong>onderwerp</strong> is waarover een werk gaat, de <strong>bedoeling</strong> is waarom "
+                  "het gemaakt werd. Een werk over armoede (onderwerp) kan willen aanklagen, ontroeren of informeren "
+                  "(bedoeling). Een sterfbed met huilende familie en een priester heeft als onderwerp de dood. Een "
+                  "werk kan ook <strong>meerdere bedoelingen</strong> hebben."),
+            ("p", tabel(["Bedoeling", "Voorbeeld"], [
+                ["Bekritiseren", "een spotprent die een minister belachelijk maakt"],
+                ["Bevestigen", "een standbeeld van de koning op een groot plein"],
+                ["Decoreren", "een sierlijk behangpapier met bloemen"],
+                ["Identiteit vormgeven", "een volkslied dat op school gezongen wordt"],
+                ["Praktisch gebruiken", "een stoel of een brug: dingen die vooral een functie hebben"],
+            ])),
+            ("p", "Ook een computerspel, een graffitiwerk of een protestlied analyseer je zo. Een tabel met "
+                  "bevolkingscijfers is daarentegen geen kunst- of cultuuruiting maar een gewone historische bron. Zonder <strong>maatschappelijke context</strong> begrijp je de bedoeling van een werk niet."),
+        ]),
+        dict(kop="Voorbeeld 1: De Vrijheid leidt het volk", blokken=[
+            ("fig", foto(_K + "delacroix-vrijheid.jpg", "70%", "Eugène Delacroix, De Vrijheid leidt het volk, 1830. Louvre, publiek domein."), ""),
+            ("p", "<strong>Stap 1.</strong> Een schilderij van <strong>Eugène Delacroix</strong>, <strong>1830</strong>, "
+                  "Parijs. De context is de <strong>Julirevolutie</strong>: drie dagen straatgevechten in juli 1830 "
+                  "joegen koning <strong>Karel X</strong> weg. Hetzelfde jaar volgde de Belgische Revolutie."),
+            ("p", "<strong>Stap 2.</strong> Een vrouw met een driekleurige vlag en een Frygische muts, met ontblote borst, "
+                  "loopt voorop. Rond haar mensen van verschillende standen: een man met hoge hoed, een arbeider, een "
+                  "jongen met pistolen. Op de voorgrond liggen gesneuvelden. De <strong>schikking</strong>, de manier waarop de figuren en vormen geordend zijn: ze staan in een "
+                  "<strong>piramide</strong> met de <strong>vlag op het hoogste punt</strong>. Het felste licht valt "
+                  "op de vrouw met de vlag; de achtergrond verdwijnt in rook en stof."),
+            ("p", "<strong>Stap 3.</strong> De vrouw is geen echt persoon maar een <strong>allegorie</strong>: de "
+                  "Vrijheid zelf, die Frankrijk verbeeldt (Marianne). De bedoeling: <strong>het volk eren dat samen "
+                  "voor de vrijheid vecht</strong>. De schikking stuurt je blik van de doden onderaan naar de vlag "
+                  "bovenaan. De Franse staat kocht het werk in 1831, maar hing het al snel weg: een opstand "
+                  "verheerlijken was voor de nieuwe koning te gevaarlijk. Zo bepaalt de context mee hoe een werk "
+                  "ontvangen wordt."),
+        ]),
+        dict(kop="Voorbeeld 2: De arenleesters", blokken=[
+            ("fig", foto(_K + "millet-arenleesters.jpg", "70%", "Jean-François Millet, De arenleesters, 1857. Musée d'Orsay, publiek domein."), ""),
+            ("p", "<strong>Stap 1.</strong> Een schilderij van <strong>Jean-François Millet</strong>, <strong>1857</strong>, "
+                  "tentoongesteld op de <strong>Salon</strong>, de grote kunsttentoonstelling in Parijs. Het "
+                  "<strong>doelpubliek</strong> daar: kunstkenners, critici en welgestelde kopers uit de stad."),
+            ("p", "<strong>Stap 2.</strong> Drie vrouwen bukken zich om achtergebleven aren op te rapen. Op de "
+                  "achtergrond liggen grote hopen graan en staat een volle kar; een man te paard overziet het werk. "
+                  "Millet gebruikt warme <strong>aardetinten</strong> en zacht licht."),
+            ("p", "<strong>Stap 3.</strong> Het onderwerp is het <strong>alledaagse</strong> leven van arme "
+                  "boerenvrouwen, maar je kan er ook <strong>onrecht</strong> in lezen. Arenlezen was het recht van de "
+                  "armsten om na de oogst op te rapen wat overbleef. De schikking toont <strong>het verschil tussen "
+                  "de armen en de overvloed van anderen</strong>. Sommige kijkers vonden het werk verontrustend: na de "
+                  "opstanden van <strong>1848</strong> leek een groot doek met arme mensen een politieke dreiging."),
+        ]),
+        dict(kop="Voorbeeld 3: het Justitiepaleis in Brussel", blokken=[
+            ("fig", foto(_K + "justitiepaleis-brussel.jpg", "70%", "Foto Romainberth, 2009, CC BY-SA 3.0."), ""),
+            ("p", "<strong>Stap 1.</strong> Een bouwwerk van architect <strong>Joseph Poelaert</strong>, gebouwd van "
+                  "<strong>1866 tot 1883</strong> op een heuvel boven de volksbuurt de <strong>Marollen</strong>. Het "
+                  "was een van de grootste gebouwen van Europa, groter dan de Sint-Pietersbasiliek in Rome. België "
+                  "bestond toen pas een paar decennia."),
+            ("p", "<strong>Stap 3.</strong> De bedoeling: het <strong>gezag van de wet en de staat tonen</strong>, aan de "
+                  "eigen burgers en aan het buitenland. Een gebouw spreekt hier van macht, orde en de ambitie van een "
+                  "jong land. Maar voor de bouw werd een deel van de Marollen afgebroken: wat voor de staat prestige "
+                  "was, kostte arme bewoners hun huis. In de Marollen werd <em>architect</em> lang een scheldwoord. "
+                  "Een werk kan voor verschillende groepen iets heel anders betekenen."),
+        ]),
+        dict(kop="Film, lied, graffiti en game", blokken=[
+            ("p", "<strong>Film.</strong> In <strong>Modern Times</strong> (1936) van <strong>Charlie Chaplin</strong> "
+                  "draait een fabrieksarbeider zo lang moertjes vast aan de <strong>lopende band</strong> dat hij zelf "
+                  "in de machine wordt opgeslokt; later belandt hij in de werkloosheid. De context: massaproductie en "
+                  "de <strong>crisis van de jaren dertig</strong> na de beurskrach van 1929. Bedoelingen: "
+                  "<strong>entertainen</strong> (het is een komische film) en <strong>bekritiseren</strong> (de mens "
+                  "wordt een onderdeel van de machine)."),
+            ("p", "<strong>Lied.</strong> <strong>We Shall Overcome</strong> werd in de jaren zestig massaal gezongen op "
+                  "betogingen in de Verenigde Staten. Het gaf <strong>moed in de strijd tegen rassenscheiding</strong> "
+                  "en een gevoel van samenhorigheid: <strong>identiteit vormgeven</strong>."),
+            ("p", "<strong>Graffiti.</strong> Op de resten van de <strong>Berlijnse Muur</strong> maakten kunstenaars in "
+                  "1990 meer dan honderd schilderingen. Bij stap 2 vraag je naar de materialen (verf uit spuitbussen "
+                  "op beton), de figuren en kleuren en de schikking; wat de kunstenaars wilden zeggen, hoort bij stap 3. "
+                  "Stap 1 is bij graffiti vaak moeilijk: de maker is vaak <strong>onbekend</strong> en een datum "
+                  "ontbreekt. Dan haal je de context uit andere bronnen."),
+            ("p", "<strong>Game.</strong> In <strong>This War of Mine</strong> (2014) speel je geen soldaat, maar burgers "
+                  "die in een belegerde stad proberen te overleven; het spel is geïnspireerd op het beleg van "
+                  "Sarajevo. Het wil <strong>laten voelen wat oorlog voor gewone mensen betekent</strong>: ook een "
+                  "game kan informeren en bekritiseren."),
+        ]),
+    ],
+    onthoud=[
+        "Stap 1 informatie, stap 2 beschrijven, stap 3 interpreteren, stap 4 toelichten.",
+        "Beschrijven kan iedereen controleren door te kijken; een bedoeling of publiek invullen is interpreteren.",
+        "Onderwerp = waarover het gaat; bedoeling = waarom het gemaakt werd.",
+        "Bedoelingen: bekritiseren, bevestigen, decoreren, entertainen, identiteit vormgeven, informeren, praktisch gebruiken, schoonheid creëren.",
+        "Zonder maatschappelijke context begrijp je de bedoeling van een werk niet.",
+        "Een allegorie is een idee voorgesteld als een persoon, zoals de Vrijheid bij Delacroix.",
     ],
 )
