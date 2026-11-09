@@ -92,10 +92,8 @@ export const vaknoten: Record<string, string> = {
     "machten en logaritmen tot rijen. Examen G2 zit in de integralen, de " +
     "complexe getallen, de telproblemen, het kansrekenen en de statistiek. " +
     "Examen G3 zit in de matrices, de stelsels, de groepen, de ruimtemeetkunde " +
-    "en het programmeren. Volg je een domeingebonden richting zoals " +
-    "welzijnswetenschappen of bedrijfswetenschappen, dan is je eigen wiskunde " +
-    "nog in de maak. Voor welzijnswetenschappen staat het vak " +
-    "natuurwetenschappen welzijnswetenschappen er wel al.",
+    "en het programmeren. Volg je een andere richting, ook bedrijfs- of " +
+    "welzijnswetenschappen, dan heb je wiskunde basis nodig.",
 
   "beyond-doorstroom/fysica":
     "Dit vak is er voor de richtingen die hun wetenschappen in drie aparte " +
@@ -133,7 +131,13 @@ export type Wegwijzer = {
   knop?: { label: string; href: string };
   /* true: bovenaan de keuze "Ik leer voor ..." (zie lib/leerrichting.ts). */
   richtingKeuze?: boolean;
-  /* Mag weg: een uitklapbaar lijstje, bv. per hoofdstuk wat je mag overslaan. */
+  /* Hoofdstukken die wegvallen bij een keuze, herkend aan het begin van hun
+     titel (lib/leerrichting.ts, valtWeg). "algemeen" geldt ook voor wie nog
+     niets koos. */
+  weglaten?: Partial<Record<"algemeen" | "bedrijf" | "welzijn", string[]>>;
+  /* De zin onder de knoppen, per keuze. Zonder tekst: de standaardzin. */
+  keuzeUitleg?: Partial<Record<"algemeen" | "bedrijf" | "welzijn" | "dg", string>>;
+  /* Mag weg: een uitklapbaar lijstje, bv. per hoofdstuk wat er wegvalt. */
   lijstKop?: string;
   lijst?: { kop: string; tekst: string }[];
 };
@@ -148,16 +152,14 @@ const wegwijzers: Record<string, Wegwijzer> = {
     valt helemaal weg, daarom een lijstje per hoofdstuk.
   */
   "beyond-doorstroom/geschiedenis": {
-    titel: "Volg je bedrijfswetenschappen of welzijnswetenschappen? Dan heb je niet alles nodig.",
+    titel: "Volg je bedrijfswetenschappen of welzijnswetenschappen? Kies het hieronder.",
     tekst:
-      "Jouw examen geschiedenis is wat lichter dan dat van de andere richtingen. " +
-      "Je hebt elk hoofdstuk nodig, maar in de meeste hoofdstukken valt een stuk " +
-      "weg. Kies hieronder voor welke richting je leert: dan krijg je enkel de vragen die je nodig hebt, ook in het examen. Je examen " +
-      "duurt 150 minuten en de moderne tijd weegt bij jou iets zwaarder door.",
+      "Jouw examen geschiedenis is wat lichter. Kies je richting, dan laten we " +
+      "weg wat jouw examen niet vraagt, ook in het examen hier.",
     richtingKeuze: true,
-    lijstKop: "Wat mag ik overslaan? Bekijk het per hoofdstuk",
+    lijstKop: "Wat laten we dan weg? Bekijk het per hoofdstuk",
     lijst: [
-      { kop: "Het historisch referentiekader", tekst: "niets, je hebt alles nodig." },
+      { kop: "Het historisch referentiekader", tekst: "niets, alles blijft staan." },
       { kop: "Restauratie, revolutie en het ontstaan van België", tekst: "verbindend en ontbindend nationalisme, het ontstaan van de Vlaamse beweging, de eenmaking van Duitsland en Bismarck." },
       { kop: "Industrialisatie en de sociale kwestie", tekst: "economisch liberalisme en kapitalisme als apart onderdeel, de geïndustrialiseerde regio's in België, hoe het kapitalisme ongelijkheid vergroot, hoe marxisme, sociaaldemocratie en christendemocratie opkwamen (hun ideeën ken je wel), het stemrecht in België, plattelandsvlucht, pendel- en seizoensarbeid, en coöperatie tegenover vakbond." },
       { kop: "Modern imperialisme, Congo en China", tekst: "het imperialisme in Azië, de VS, Japan en Rusland in Azië, de oprichting van de Congo-Vrijstaat, Stanley, de rol van leger, kerk en staat, en de binnenlandse problemen van China." },
@@ -171,10 +173,32 @@ const wegwijzers: Record<string, Wegwijzer> = {
       { kop: "Redeneren met historische bronnen", tekst: "zelf een onderzoeksvraag maken, representativiteit, de bewerking en presentatie van een bron, en bronnen met elkaar vergelijken. Bruikbaarheid en betrouwbaarheid ken je wel." },
       { kop: "Beeldvorming, vergelijken en verleden-heden-toekomst", tekst: "enkel een paar vergelijkingspunten: (neo)kolonialisme, wij-zij-denken, levensbeschouwing en economische systemen." },
       { kop: "De Volksrepubliek China: van Mao tot Xi", tekst: "de gevolgen van de machtsovername van Mao en China in Afrika." },
-      { kop: "De Israëlisch-Palestijnse kwestie", tekst: "niets, je hebt alles nodig." },
+      { kop: "De Israëlisch-Palestijnse kwestie", tekst: "niets, alles blijft staan." },
       { kop: "Denkstromingen en kunststromingen van de 19de en 20ste eeuw", tekst: "abolitionisme, sociaal darwinisme en eugenetica. De andere denkstromingen en de kunststromingen ken je wel." },
-      { kop: "Kunst en cultuur analyseren met het stappenplan", tekst: "niets, je hebt alles nodig." },
+      { kop: "Kunst en cultuur analyseren met het stappenplan", tekst: "niets, alles blijft staan." },
     ],
+  },
+  /*
+    Kim, 9 november 2026: eerst wiskunde Beyond in orde, en "niet teveel
+    aanbieden of teveel tekst". Eén vak wiskunde basis voor vijf richtingen.
+    Welzijnswetenschappen (fiche 2027_wiskunde_3DO_WEL) heeft geen
+    tweedegraadsfuncties en geen tweedegraadsvergelijkingen; die laten we weg.
+    Bedrijfswetenschappen (2027_wiskunde_3DO_BED) heeft extra hoofdstukken die
+    met "Bedrijfswetenschappen:" beginnen; enkel wie dat kiest, ziet ze.
+  */
+  "beyond-doorstroom/wiskunde-basis": {
+    titel: "Voor welke richting leer je?",
+    tekst: "Kies je richting, dan krijg je enkel de hoofdstukken die je examen vraagt.",
+    richtingKeuze: true,
+    weglaten: {
+      algemeen: ["Bedrijfswetenschappen:"],
+      welzijn: ["Bedrijfswetenschappen:", "Tweedegraads"],
+    },
+    keuzeUitleg: {
+      algemeen: "Voor humane wetenschappen, moderne talen en Latijn-moderne talen.",
+      bedrijf: "Onderaan staan de extra hoofdstukken die jouw examen ook vraagt.",
+      welzijn: "Tweedegraadsfuncties en tweedegraadsvergelijkingen laten we weg: jouw examen vraagt ze niet.",
+    },
   },
   "beyond-doorstroom/natuurwetenschappen": {
     titel: "Volg je welzijnswetenschappen? Maak dan ook de blauwe hoofdstukken onderaan.",

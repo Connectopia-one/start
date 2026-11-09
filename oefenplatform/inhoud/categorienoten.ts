@@ -44,6 +44,12 @@ export type Categorienoot = {
   };
   /** Wat er nog niet is, in één zin. */
   komtNog?: string;
+  /**
+   * De tekst op het klikje waarachter de hele noot dichtgeklapt staat. Kim,
+   * 9 november 2026: "Kan dit ook geen uitklap tekst zijn?" Zonder deze
+   * tekst staat er een standaardzin (zie components/Categorienoot.tsx).
+   */
+  uitklap?: string;
 };
 
 export const categorienoten: Record<string, Categorienoot> = {
@@ -151,17 +157,15 @@ export const categorienoten: Record<string, Categorienoot> = {
       {
         kop: "Wiskunde",
         tekst:
-          "Hier staat enkel wiskunde gevorderd. Humane wetenschappen, moderne " +
-          "talen en Latijn-moderne talen volgen wiskunde basis, en dat vak is " +
-          "nog in de maak.",
+          "Economie-wiskunde, Latijn-wiskunde en wetenschappen-wiskunde: " +
+          "wiskunde gevorderd. De andere richtingen: wiskunde basis.",
       },
       {
         kop: "Bedrijfswetenschappen en welzijnswetenschappen",
         tekst:
-          "Welzijnswetenschappen: naast het gewone vak natuurwetenschappen is er " +
-          "het vak natuurwetenschappen welzijnswetenschappen, met het extra deel " +
-          "over het menselijk lichaam. De eigen wiskunde " +
-          "van beide richtingen staat er nog niet.",
+          "Bij wiskunde basis en geschiedenis kies je bovenaan je richting. " +
+          "Dan laten we weg wat jouw examen niet vraagt. Bij natuurwetenschappen " +
+          "staan de extra hoofdstukken van welzijnswetenschappen onderaan in het blauw.",
       },
     ],
     richtingen: {
@@ -187,14 +191,15 @@ export const categorienoten: Record<string, Categorienoot> = {
         "De vakfiches van de Examencommissie noemen die richtingen samen " +
         "bovenaan, daarom staan ze hier niet apart.",
     },
-    // Nageteld op 11 oktober 2026 tegen inhoud/beyond/ (veertien vakken).
-    // Kim merkte op dat sociale en gedragswetenschappen, filosofie en recht en
-    // samenleving en economie er intussen wél stonden. Tel dit dus na in de map
-    // in plaats van de zin van de vorige keer over te nemen.
+    // Nageteld op 9 november 2026 tegen inhoud/beyond/ én tegen de mappen op
+    // Kims usb-stick (E:\vakfiches examencommissie). Kim, 9 november: Duits,
+    // Spaans en taalwetenschappen bieden we voorlopig niet aan, dus die staan
+    // hier ook niet. Tel dit na in plaats van de zin van de vorige keer over
+    // te nemen.
     komtNog:
-      "Nog in de maak: Latijn, wiskunde basis, algemene economie, " +
-      "bedrijfswetenschappen en recht, en de eigen wiskunde van " +
-      "bedrijfswetenschappen en welzijnswetenschappen.",
+      "Nog in de maak: de extra wiskunde van bedrijfswetenschappen, algemene " +
+      "economie, bedrijfseconomie, Latijn, bedrijfswetenschappen en recht, en " +
+      "kunstbeschouwing en filosofie.",
   },
 };
 

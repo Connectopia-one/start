@@ -1,0 +1,336 @@
+# -*- coding: utf-8 -*-
+"""De normale verdeling.
+
+Wiskunde basis, derde graad. De fiche vraagt: de normale verdeling N(μ, σ),
+gemiddelde en standaardafwijking van populatie (μ, σ) en steekproef (x̄, s),
+symmetrische en niet-symmetrische verdelingen, het klokvormig histogram, de
+dichtheidsfunctie en de Gausskromme, de grafische betekenis van μ en σ,
+Gausskrommen vergelijken, en kansen als oppervlakte onder de kromme,
+berekend met ICT. Het werken met een rekenapp staat hier als een gegeven
+uitkomst of als de vuistregel 68-95-99,7, zodat elke vraag zonder toestel
+na te gaan is.
+
+Deel 1: de Gausskromme. Deel 2: kansen berekenen.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag=r"Wat betekenen \(\mu\) en \(\sigma\) in \(N(\mu, \sigma)\)?",
+        opties=[
+            r"\(\mu\) is het gemiddelde en \(\sigma\) de standaardafwijking van de populatie",
+            r"\(\mu\) is de standaardafwijking en \(\sigma\) het gemiddelde",
+            r"\(\mu\) is het gemiddelde van een steekproef en \(\sigma\) haar grootte",
+            r"\(\mu\) is de mediaan en \(\sigma\) de variatiebreedte",
+        ],
+        antwoord=0,
+        uitleg=r"Voor een steekproef gebruik je \(\bar{x}\) en \(s\). Die gebruik je als schatting voor \(\mu\) en \(\sigma\).",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Waar ligt de top van de Gausskromme van \(N(170, 8)\)?",
+        opties=[r"boven \(170\)", r"boven \(8\)", r"boven \(178\)", r"boven \(162\)"],
+        antwoord=0,
+        uitleg=r"De Gausskromme is symmetrisch rond het gemiddelde, en daar ligt de top.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Wat gebeurt er met de Gausskromme als de standaardafwijking groter wordt?",
+        opties=[r"Ze wordt breder en lager.", r"Ze wordt smaller en hoger.", r"Ze schuift naar rechts.", r"Ze wordt scheef."],
+        antwoord=0,
+        uitleg=r"Meer spreiding betekent een bredere kromme. De totale oppervlakte blijft \(1\), dus de top zakt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"De oppervlakte onder een Gausskromme is altijd \(1\).",
+        antwoord=True,
+        uitleg=r"Die oppervlakte is de kans dat de variabele eender welke waarde aanneemt, en dat is zeker.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Twee normale verdelingen met hetzelfde gemiddelde hebben altijd dezelfde Gausskromme.",
+        antwoord=False,
+        uitleg=r"De standaardafwijking kan verschillen: dan staan de toppen boven hetzelfde punt, maar is de ene kromme breder.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Wanneer is het model van de normale verdeling geschikt voor gegeven data?",
+        opties=[
+            r"als het histogram ongeveer klokvormig en symmetrisch is",
+            r"als het histogram een lange staart naar rechts heeft",
+            r"als alle waarden even vaak voorkomen",
+            r"als er minstens twee toppen zijn",
+        ],
+        antwoord=0,
+        uitleg=r"Je kan ook de Gausskromme met \(\bar{x}\) en \(s\) over het histogram tekenen en kijken of ze goed past.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Inkomens hebben vaak een lange staart naar rechts. Een normale verdeling is daar een goed model voor.",
+        antwoord=False,
+        uitleg=r"Een scheve, niet-symmetrische verdeling past niet bij de symmetrische Gausskromme.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Welk deel van de waarden ligt bij een normale verdeling ongeveer tussen \(\mu - \sigma\) en \(\mu + \sigma\)?",
+        opties=[r"\(68\%\)", r"\(95\%\)", r"\(50\%\)", r"\(99{,}7\%\)"],
+        antwoord=0,
+        uitleg=r"Ongeveer \(68\%\) binnen één standaardafwijking, \(95\%\) binnen twee en \(99{,}7\%\) binnen drie.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Welk deel van de waarden ligt ongeveer tussen \(\mu - 2\sigma\) en \(\mu + 2\sigma\)?",
+        opties=[r"\(95\%\)", r"\(68\%\)", r"\(99{,}7\%\)", r"\(90\%\)"],
+        antwoord=0,
+        uitleg=r"Twee standaardafwijkingen naar elke kant bevatten ongeveer \(95\%\) van de waarden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Twee klassen schrijven een toets. Klas A: \(N(65, 5)\). Klas B: \(N(65, 15)\). Welke uitspraak is juist?",
+        opties=[
+            r"Beide klassen hebben hetzelfde gemiddelde, maar in klas B liggen de punten veel verder uit elkaar.",
+            r"Klas B heeft een hoger gemiddelde.",
+            r"Klas A heeft meer leerlingen.",
+            r"In klas A liggen de punten verder uit elkaar.",
+        ],
+        antwoord=0,
+        uitleg=r"Het gemiddelde is gelijk, de standaardafwijking van B is drie keer zo groot.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Twee Gausskrommen hebben dezelfde vorm, maar de ene ligt \(10\) eenheden meer naar rechts. Wat verschilt er?",
+        opties=[r"het gemiddelde", r"de standaardafwijking", r"de oppervlakte onder de kromme", r"de symmetrie"],
+        antwoord=0,
+        uitleg=r"Dezelfde vorm betekent dezelfde standaardafwijking. Een verschuiving wijst op een ander gemiddelde.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Bij een normale verdeling vallen gemiddelde en top van de Gausskromme samen.",
+        antwoord=True,
+        uitleg=r"Door de symmetrie ligt het hoogste punt precies boven het gemiddelde.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Welke notatie hoort bij het gemiddelde van een steekproef?",
+        opties=[r"\(\bar{x}\)", r"\(\mu\)", r"\(\sigma\)", r"\(s\)"],
+        antwoord=0,
+        uitleg=r"\(\bar{x}\) en \(s\) gaan over de steekproef, \(\mu\) en \(\sigma\) over de populatie.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Een rekenapp geeft voor een steekproef van lengtes \(\bar{x} = 172{,}4\) cm en \(s = 6{,}9\) cm. Het histogram is klokvormig. Welk model kies je?",
+        opties=[r"\(N(172{,}4;\ 6{,}9)\)", r"\(N(6{,}9;\ 172{,}4)\)", r"\(N(172{,}4;\ 1)\)", r"\(N(0;\ 6{,}9)\)"],
+        antwoord=0,
+        uitleg=r"Je gebruikt \(\bar{x}\) en \(s\) als schatting voor \(\mu\) en \(\sigma\).",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Een histogram met twee duidelijke toppen past goed bij een normale verdeling.",
+        antwoord=False,
+        uitleg=r"Een normale verdeling heeft één top. Twee toppen wijzen vaak op twee verschillende groepen in de data.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Wat stelt de Gausskromme voor?",
+        opties=[
+            r"de dichtheidsfunctie van een normale verdeling",
+            r"de cumulatieve frequentie van een steekproef",
+            r"een tweedegraadsfunctie",
+            r"een exponentiële groei",
+        ],
+        antwoord=0,
+        uitleg=r"Oppervlakten onder die kromme zijn kansen of relatieve frequenties.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Bij een normale verdeling ligt de helft van de waarden onder het gemiddelde.",
+        antwoord=True,
+        uitleg=r"De kromme is symmetrisch rond \(\mu\): links en rechts ervan ligt elk de helft van de oppervlakte.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"De kromme van \(N(50, 4)\) en die van \(N(50, 2)\). Welke is het hoogst?",
+        opties=[r"die van \(N(50, 2)\)", r"die van \(N(50, 4)\)", r"ze zijn even hoog", r"dat hangt van de steekproef af"],
+        antwoord=0,
+        uitleg=r"Kleinere spreiding geeft een smallere kromme, en omdat de oppervlakte \(1\) blijft, wordt ze hoger.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Bij \(N(100, 15)\): tussen welke waarden ligt ongeveer \(95\%\) van de waarden?",
+        opties=[r"\(70\) en \(130\)", r"\(85\) en \(115\)", r"\(55\) en \(145\)", r"\(95\) en \(105\)"],
+        antwoord=0,
+        uitleg=r"\(100 - 2 \cdot 15 = 70\) en \(100 + 2 \cdot 15 = 130\).",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Een standaardafwijking kan negatief zijn.",
+        antwoord=False,
+        uitleg=r"Een standaardafwijking meet een afstand tot het gemiddelde en is nooit negatief.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag=r"Hoe stel je \(P(X < a)\) voor bij een normale verdeling?",
+        opties=[
+            r"als de oppervlakte onder de Gausskromme links van \(a\)",
+            r"als de hoogte van de Gausskromme in \(a\)",
+            r"als de oppervlakte rechts van \(a\)",
+            r"als de afstand van \(a\) tot het gemiddelde",
+        ],
+        antwoord=0,
+        uitleg=r"Een kans is een oppervlakte. De hoogte van de kromme in één punt is geen kans.",
+    ),
+    dict(
+        type="invultekst",
+        vraag=r"Bij \(N(100, 15)\): welk percentage van de waarden ligt boven \(100\)? Schrijf het getal.",
+        antwoord=["50", "50%"],
+        uitleg=r"Door de symmetrie ligt de helft boven het gemiddelde.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Bij \(N(100, 15)\): wat is ongeveer \(P(85 < X < 115)\)?",
+        opties=[r"\(0{,}68\)", r"\(0{,}95\)", r"\(0{,}50\)", r"\(0{,}34\)"],
+        antwoord=0,
+        uitleg=r"\(85\) en \(115\) liggen op één standaardafwijking van het gemiddelde.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Bij \(N(100, 15)\): wat is ongeveer \(P(X > 130)\)?",
+        opties=[r"\(0{,}025\)", r"\(0{,}05\)", r"\(0{,}16\)", r"\(0{,}0015\)"],
+        antwoord=0,
+        uitleg=r"\(95\%\) ligt tussen \(70\) en \(130\). De overige \(5\%\) verdeelt zich gelijk over beide staarten: \(2{,}5\%\) boven \(130\).",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Bij \(N(100, 15)\): wat is ongeveer \(P(X < 85)\)?",
+        opties=[r"\(0{,}16\)", r"\(0{,}32\)", r"\(0{,}34\)", r"\(0{,}025\)"],
+        antwoord=0,
+        uitleg=r"\(68\%\) ligt tussen \(85\) en \(115\). De rest, \(32\%\), verdeelt zich over twee staarten: \(16\%\) onder \(85\).",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Het gewicht van pakken koffie is \(N(500, 4)\) gram. Een rekenapp geeft \(P(X < 492) \approx 0{,}0228\). Wat betekent dat?",
+        opties=[
+            r"Ongeveer \(2{,}3\%\) van de pakken weegt minder dan \(492\) g.",
+            r"Ongeveer \(2{,}3\) pakken wegen minder dan \(492\) g.",
+            r"Ongeveer \(97{,}7\%\) van de pakken weegt minder dan \(492\) g.",
+            r"De pakken wegen gemiddeld \(492\) g.",
+        ],
+        antwoord=0,
+        uitleg=r"Een kans kan je lezen als een relatieve frequentie: het deel van alle pakken.",
+    ),
+    dict(
+        type="invultekst",
+        vraag=r"Bij die koffie: \(P(X < 492) \approx 0{,}0228\). Hoeveel pakken van \(10\,000\) verwacht je onder \(492\) g? Schrijf het getal.",
+        antwoord=["228", "ongeveer 228"],
+        uitleg=r"\(0{,}0228 \cdot 10\,000 = 228\).",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Bij een normaal verdeelde variabele is \(P(X > a) = 1 - P(X < a)\).",
+        antwoord=True,
+        uitleg=r"Links en rechts van \(a\) samen is de hele oppervlakte, dus \(1\).",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Bij die koffie, \(N(500, 4)\): wat is ongeveer \(P(X > 492)\)?",
+        opties=[r"\(0{,}9772\)", r"\(0{,}0228\)", r"\(0{,}5\)", r"\(0{,}95\)"],
+        antwoord=0,
+        uitleg=r"\(1 - 0{,}0228 = 0{,}9772\).",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Je zoekt bij \(N(500, 4)\) het gewicht waaronder \(10\%\) van de pakken ligt. Wat zoek je?",
+        opties=[
+            r"de waarde \(a\) met \(P(X < a) = 0{,}10\)",
+            r"de kans \(P(X < 10)\)",
+            r"de waarde \(a\) met \(P(X > a) = 0{,}10\)",
+            r"\(500 - 10\%\) van \(500\)",
+        ],
+        antwoord=0,
+        uitleg=r"Je kent de kans en zoekt de waarde van de variabele: dat doe je met de omgekeerde functie in de rekenapp.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"De rekenapp geeft bij \(N(500, 4)\) en kans \(0{,}10\) links de waarde \(a \approx 494{,}9\). Welke uitspraak klopt?",
+        opties=[
+            r"\(10\%\) van de pakken weegt minder dan ongeveer \(494{,}9\) g.",
+            r"\(10\%\) van de pakken weegt meer dan ongeveer \(494{,}9\) g.",
+            r"\(90\%\) van de pakken weegt minder dan ongeveer \(494{,}9\) g.",
+            r"Elk pak weegt minstens \(494{,}9\) g.",
+        ],
+        antwoord=0,
+        uitleg=r"De kans \(0{,}10\) is de oppervlakte links van \(494{,}9\).",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Bij een normale verdeling is \(P(X = 500)\) precies even groot als de hoogte van de kromme in \(500\).",
+        antwoord=False,
+        uitleg=r"Een kans is een oppervlakte. Boven één enkel punt is die oppervlakte \(0\).",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"De lengte van volwassen mannen is \(N(180, 7)\) cm. Een deur is \(201\) cm hoog. Wat is ongeveer het deel van de mannen dat groter is dan de deur?",
+        opties=[r"ongeveer \(0{,}15\%\)", r"ongeveer \(2{,}5\%\)", r"ongeveer \(16\%\)", r"ongeveer \(5\%\)"],
+        antwoord=0,
+        uitleg=r"\(201 = 180 + 3 \cdot 7\). Buiten drie standaardafwijkingen ligt \(0{,}3\%\), dus aan één kant ongeveer \(0{,}15\%\).",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Bij \(N(180, 7)\): wat is ongeveer \(P(173 < X < 194)\)?",
+        opties=[r"\(0{,}815\)", r"\(0{,}68\)", r"\(0{,}95\)", r"\(0{,}84\)"],
+        antwoord=0,
+        uitleg=r"Van \(173\) tot \(180\) is de helft van \(68\%\): \(34\%\). Van \(180\) tot \(194\) is de helft van \(95\%\): \(47{,}5\%\). Samen \(81{,}5\%\).",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"\(P(X < \mu) = 0{,}5\) bij elke normale verdeling.",
+        antwoord=True,
+        uitleg=r"De Gausskromme is symmetrisch rond \(\mu\).",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Toetsresultaten zijn \(N(60, 10)\). Lotte haalt \(80\). Welke uitspraak is juist?",
+        opties=[
+            r"Ze zit bij ongeveer de beste \(2{,}5\%\).",
+            r"Ze zit bij ongeveer de beste \(16\%\).",
+            r"Ze zit bij ongeveer de beste \(50\%\).",
+            r"Ze zit bij ongeveer de beste \(0{,}15\%\).",
+        ],
+        antwoord=0,
+        uitleg=r"\(80 = 60 + 2 \cdot 10\): twee standaardafwijkingen boven het gemiddelde, dus ongeveer \(2{,}5\%\) haalt meer.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"De relatieve frequentie van waarden tussen \(a\) en \(b\) is ongeveer gelijk aan de oppervlakte onder de Gausskromme tussen \(a\) en \(b\).",
+        antwoord=True,
+        uitleg=r"Dat is het verband tussen relatieve frequentie, oppervlakte en kans.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Een machine vult flessen volgens \(N(1000, 5)\) ml. Een rekenapp geeft \(P(X < 990) \approx 0{,}0228\). Wat is \(P(990 < X < 1010)\)?",
+        opties=[r"\(0{,}9544\)", r"\(0{,}9772\)", r"\(0{,}0456\)", r"\(0{,}6827\)"],
+        antwoord=0,
+        uitleg=r"Door de symmetrie is ook \(P(X > 1010) \approx 0{,}0228\). Dus \(1 - 2 \cdot 0{,}0228 = 0{,}9544\).",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Bij \(N(1000, 5)\) is \(P(X > 1010)\) groter dan \(P(X < 990)\).",
+        antwoord=False,
+        uitleg=r"\(990\) en \(1010\) liggen even ver van het gemiddelde. Door de symmetrie zijn beide kansen gelijk.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Wat moet je ingeven in een rekenapp om \(P(X < 492)\) te berekenen bij \(N(500, 4)\)?",
+        opties=[
+            r"de grens \(492\), het gemiddelde \(500\) en de standaardafwijking \(4\)",
+            r"enkel de grens \(492\)",
+            r"de grens \(492\) en de kans \(0{,}5\)",
+            r"het gemiddelde \(500\) en de kans \(0{,}0228\)",
+        ],
+        antwoord=0,
+        uitleg=r"Een normale verdeling ligt vast door \(\mu\) en \(\sigma\). Samen met de grens geeft dat de kans.",
+    ),
+]

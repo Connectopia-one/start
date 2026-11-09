@@ -1,0 +1,371 @@
+# -*- coding: utf-8 -*-
+"""Steekproeven, samenhang en causaliteit.
+
+Wiskunde basis, derde graad. De fiche vraagt: populatie, steekproef,
+variabele, representativiteit, aselecte steekproef, randomisatie,
+enkelvoudig aselecte steekproef (EAS), steekproeffout en
+niet-steekproeffout, vertekende steekproef, vrijwillige respons,
+opportunistische steekproef, variabiliteit van steekproeven. Daarna
+samenhang tussen twee variabelen, causaliteit, de derde verborgen variabele,
+en het onderscheid tussen causaliteit, omgekeerde causaliteit, samenhang door
+een derde variabele en toevallige samenhang. Altijd in context.
+
+Deel 1: steekproeven. Deel 2: samenhang en causaliteit.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag=r"Een onderzoeker wil weten hoeveel uur Vlaamse jongeren van \(16\) jaar slapen. Ze bevraagt \(800\) van hen. Wat is de populatie?",
+        opties=[r"alle Vlaamse jongeren van \(16\) jaar", r"de \(800\) bevraagde jongeren van \(16\)", r"het aantal uren slaap per nacht", r"alle Vlaamse jongeren"],
+        antwoord=0,
+        uitleg=r"De populatie is de hele groep waarover je iets wil weten. De \(800\) zijn de steekproef, het aantal uren slaap is de variabele.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"In datzelfde onderzoek: wat is de variabele?",
+        opties=[r"het aantal uren slaap", r"de \(800\) jongeren", r"de leeftijd \(16\) jaar", r"Vlaanderen"],
+        antwoord=0,
+        uitleg=r"De variabele is wat je bij elke persoon meet.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Wanneer is een steekproef representatief?",
+        opties=[
+            r"als ze de populatie goed weerspiegelt, zodat je besluiten mag doortrekken",
+            r"als ze uit minstens \(1000\) personen bestaat, want dan is ze altijd groot genoeg",
+            r"als de onderzoeker de deelnemers zelf uitkiest op basis van zijn ervaring",
+            r"als iedereen die wil, mag meedoen, zodat niemand uitgesloten wordt",
+        ],
+        antwoord=0,
+        uitleg=r"Grootte alleen maakt een steekproef niet representatief. Het gaat erom hoe ze gekozen is.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Wat is een enkelvoudig aselecte steekproef (EAS)?",
+        opties=[
+            r"een steekproef waarbij elke groep van die grootte evenveel kans heeft om gekozen te worden",
+            r"een steekproef van de eerste personen die je tegenkomt, zolang je er genoeg verzamelt",
+            r"een steekproef van mensen die zelf reageren op een oproep in de krant of online",
+            r"een steekproef waarbij je uit elke groep van de populatie precies één persoon kiest",
+        ],
+        antwoord=0,
+        uitleg=r"Bij een EAS beslist het toeval (randomisatie), bijvoorbeeld door lukraak namen uit een volledige lijst te trekken.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Randomisatie betekent dat het toeval bepaalt wie in de steekproef komt.",
+        antwoord=True,
+        uitleg=r"Zo kan de onderzoeker de steekproef niet onbewust in een richting duwen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Een krant vraagt lezers online te stemmen of ze voor een nieuw zwembad zijn. Welk soort steekproef is dat?",
+        opties=[r"vrijwillige respons", r"enkelvoudig aselecte steekproef", r"opportunistische steekproef", r"volledige telling"],
+        antwoord=0,
+        uitleg=r"Wie zelf kiest om te reageren, heeft vaak een uitgesproken mening. Zo'n steekproef is vertekend.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Een student bevraagt de mensen die toevallig in de bibliotheek zitten over hun leesgedrag. Welk soort steekproef is dat?",
+        opties=[r"opportunistische steekproef", r"vrijwillige respons", r"enkelvoudig aselecte steekproef", r"gestratificeerde steekproef"],
+        antwoord=0,
+        uitleg=r"Een opportunistische steekproef neemt wie makkelijk bereikbaar is. Mensen in een bibliotheek lezen waarschijnlijk meer dan gemiddeld.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Een steekproef van mensen in een bibliotheek geeft een eerlijk beeld van hoeveel alle Vlamingen lezen.",
+        antwoord=False,
+        uitleg=r"Die steekproef is vertekend: lezers zijn er oververtegenwoordigd. Het resultaat ligt dus waarschijnlijk te hoog.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Wat is een steekproeffout?",
+        opties=[
+            r"het toevallige verschil tussen steekproef en populatie, omdat je maar een deel bevraagt",
+            r"een rekenfout van de onderzoeker bij het verwerken van de antwoorden in de computer",
+            r"een fout doordat de vraag in de enquête sturend of onduidelijk gesteld is",
+            r"een fout doordat de bevraagde mensen niet eerlijk antwoorden op gevoelige vragen",
+        ],
+        antwoord=0,
+        uitleg=r"Toevallige schommelingen tussen steekproeven noem je steekproeffout. De andere opties zijn niet-steekproeffouten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Welke fout is een niet-steekproeffout?",
+        opties=[
+            r"Veel mensen antwoorden niet eerlijk op een vraag over hun inkomen.",
+            r"Twee aselecte steekproeven geven een iets ander gemiddelde.",
+            r"Een kleine aselecte steekproef wijkt meer af dan een grote.",
+            r"Bij herhaling van het onderzoek komt een ander percentage uit.",
+        ],
+        antwoord=0,
+        uitleg=r"Een niet-steekproeffout komt niet van het toeval van de trekking, maar van de manier van bevragen of meten.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Een grotere aselecte steekproef verkleint de steekproeffout.",
+        antwoord=True,
+        uitleg=r"Hoe meer mensen je trekt, hoe kleiner de toevallige schommelingen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Een grotere steekproef lost een vertekening door vrijwillige respons op.",
+        antwoord=False,
+        uitleg=r"Als de manier van kiezen scheef is, blijft ook een grote steekproef scheef. Grootte helpt enkel tegen steekproeffouten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Wat bedoel je met variabiliteit van steekproeven?",
+        opties=[
+            r"Verschillende steekproeven uit dezelfde populatie geven telkens een iets ander resultaat.",
+            r"Een steekproef bevat altijd meerdere variabelen die je tegelijk meet.",
+            r"De populatie verandert tijdens het onderzoek, want mensen worden ouder.",
+            r"Een onderzoeker mag de vragen tijdens het onderzoek aanpassen.",
+        ],
+        antwoord=0,
+        uitleg=r"Door het toeval van de trekking schommelt het resultaat van steekproef tot steekproef.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Een telefonische enquête belt enkel naar vaste telefoonnummers overdag. Wat is het probleem?",
+        opties=[
+            r"De steekproef is vertekend: werkende mensen en jongeren bereik je zo amper.",
+            r"Er is enkel een steekproeffout, die kleiner wordt als je meer mensen belt.",
+            r"Er is geen probleem, zolang er genoeg mensen de telefoon opnemen.",
+            r"De populatie is te groot om met een telefonische enquête te bevragen.",
+        ],
+        antwoord=0,
+        uitleg=r"Wie overdag thuis is met een vaste lijn, is geen goede afspiegeling van iedereen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Welke werkwijze geeft een enkelvoudig aselecte steekproef van \(50\) leerlingen uit een school van \(1000\)?",
+        opties=[
+            r"alle namen nummeren en met een toevalsgenerator \(50\) verschillende nummers trekken",
+            r"de \(50\) leerlingen nemen die als eerste aan de schoolpoort aankomen",
+            r"vragen wie wil meedoen en de eerste \(50\) nemen",
+            r"twee volledige klassen kiezen die de directeur aanwijst",
+        ],
+        antwoord=0,
+        uitleg=r"Enkel bij de eerste werkwijze heeft elke groep van \(50\) leerlingen evenveel kans.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Bij een niet-steekproeffout helpt het om een grotere steekproef te nemen.",
+        antwoord=False,
+        uitleg=r"Een slecht gestelde vraag of oneerlijke antwoorden blijven fout, hoe groot de steekproef ook is.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Een enquête vraagt: 'Bent u het ermee eens dat de gevaarlijke snelweg eindelijk veiliger moet?' Wat is het probleem?",
+        opties=[
+            r"een sturende vraag: een niet-steekproeffout",
+            r"een te kleine steekproef: een steekproeffout",
+            r"een vrijwillige respons",
+            r"er is geen probleem",
+        ],
+        antwoord=0,
+        uitleg=r"De woorden 'gevaarlijke' en 'eindelijk' duwen naar een ja. Dat ligt aan de bevraging, niet aan de trekking.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Een steekproef van alleen voetbalsupporters aan een stadion is geschikt om te onderzoeken hoeveel Belgen voetbal kijken.",
+        antwoord=False,
+        uitleg=r"Dat is een opportunistische en vertekende steekproef: het resultaat zal veel te hoog liggen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Twee goede aselecte steekproeven uit dezelfde populatie geven bijna nooit exact hetzelfde resultaat.",
+        antwoord=True,
+        uitleg=r"Dat is de variabiliteit van steekproeven. De verschillen zijn toevallig en meestal klein.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Een vertekende steekproef bevat te veel mensen met een hoog inkomen. Wat doet dat met een besluit over het gemiddeld inkomen van de populatie?",
+        opties=[r"Het besluit overschat het gemiddeld inkomen.", r"Het besluit onderschat het gemiddeld inkomen.", r"Het besluit blijft juist.", r"Het besluit wordt willekeurig."],
+        antwoord=0,
+        uitleg=r"Een vertekening werkt in één richting. Hier trekt ze het gemiddelde omhoog.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag=r"Wat is het verschil tussen samenhang en causaliteit?",
+        opties=[
+            r"Bij samenhang gaan twee variabelen samen op of af; bij causaliteit veroorzaakt de ene de andere.",
+            r"Er is geen verschil: beide woorden betekenen dat de ene variabele de andere veroorzaakt.",
+            r"Samenhang gaat over één variabele die verandert, causaliteit over twee variabelen.",
+            r"Causaliteit ontstaat door toeval; bij samenhang is er altijd een oorzaak.",
+        ],
+        antwoord=0,
+        uitleg=r"Een samenhang kan op causaliteit wijzen, maar dat moet je nog aantonen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"In dorpen met meer ooievaars worden meer baby's geboren. Hoe verklaar je dat het best?",
+        opties=[
+            r"samenhang door een derde verborgen variabele, zoals hoe landelijk het gebied is",
+            r"causaliteit: meer ooievaars zorgen ervoor dat er meer baby's geboren worden",
+            r"causaliteit met omgekeerde richting: dorpen met meer baby's lokken ooievaars",
+            r"toevallige samenhang, want ooievaars en geboortes hebben niets gemeen",
+        ],
+        antwoord=0,
+        uitleg=r"Landelijke gebieden hebben meer ooievaars én vaak grotere gezinnen. Die derde variabele zit achter beide.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Op dagen dat er veel ijsjes verkocht worden, verdrinken er meer mensen. Wat is de beste verklaring?",
+        opties=[
+            r"een derde verborgen variabele: warm weer",
+            r"causaliteit: ijsjes eten doet verdrinken",
+            r"omgekeerde causaliteit: verdrinkingen doen ijs verkopen",
+            r"toeval, want het gebeurt nooit samen",
+        ],
+        antwoord=0,
+        uitleg=r"Bij warm weer eet men meer ijs en gaat men meer zwemmen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Mensen die vaak naar de dokter gaan, zijn vaker ziek. Iemand besluit dat de dokter ziek maakt. Wat is er mis?",
+        opties=[
+            r"omwisseling van oorzaak en gevolg: wie ziek is, gaat naar de dokter",
+            r"een derde verborgen variabele: het weer maakt ziek en houdt mensen binnen",
+            r"toevallige samenhang: die twee lopen bij toeval gelijk",
+            r"niets: dat is causaliteit, de dokter is de oorzaak",
+        ],
+        antwoord=0,
+        uitleg=r"De oorzaak en het gevolg zijn verwisseld.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Als twee variabelen sterk samenhangen, dan is de ene altijd de oorzaak van de andere.",
+        antwoord=False,
+        uitleg=r"Samenhang kan ook komen door een derde variabele, door omgekeerde causaliteit of door toeval.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Het aantal films met een bepaalde acteur per jaar hangt samen met het aantal mensen dat in een zwembad verdrinkt. Hoe noem je dat?",
+        opties=[r"samenhang door toeval", r"causaliteit", r"omgekeerde causaliteit", r"een derde verborgen variabele"],
+        antwoord=0,
+        uitleg=r"Als je genoeg reeksen vergelijkt, lopen sommige toevallig gelijk zonder enig verband.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Welk onderzoek is het best geschikt om causaliteit aan te tonen?",
+        opties=[
+            r"een experiment waarbij het toeval beslist wie de behandeling krijgt",
+            r"een grote enquête waarin mensen zelf vertellen wat ze doen en hoe ze zich voelen",
+            r"het vergelijken van twee landen die op heel veel punten verschillen",
+            r"een onderzoek met enkel vrijwilligers die zelf kiezen welke groep ze willen",
+        ],
+        antwoord=0,
+        uitleg=r"Door randomisatie zijn de groepen gemiddeld gelijk op alle andere variabelen. Een verschil komt dan van de behandeling.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Leerlingen met meer boeken thuis halen betere punten. Daaruit mag je zonder meer besluiten dat boeken kopen de punten verhoogt.",
+        antwoord=False,
+        uitleg=r"Een derde variabele, zoals de opleiding of het inkomen van de ouders, kan achter beide zitten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Hoe noem je de variabele die achter twee samenhangende variabelen zit en ze allebei beïnvloedt?",
+        opties=[r"een derde verborgen variabele", r"een steekproeffout", r"een populatie", r"een kruistabel"],
+        antwoord=0,
+        uitleg=r"Die variabele is niet gemeten, maar verklaart de samenhang.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Roken veroorzaakt longkanker: dat is causaliteit die met veel onderzoek is aangetoond.",
+        antwoord=True,
+        uitleg=r"Hier wijzen veel verschillende onderzoeken, ook naar het mechanisme in het lichaam, op oorzaak en gevolg.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Een krant schrijft: 'Kinderen die ontbijten, halen betere punten. Ontbijten maakt slimmer.' Welke vraag stel je het best?",
+        opties=[
+            r"Zit er een derde variabele achter, zoals een regelmatig gezinsleven?",
+            r"Was de steekproef groot genoeg om een gemiddelde te berekenen?",
+            r"Hoeveel kinderen ontbijten niet?",
+            r"Welke punten tellen mee?",
+        ],
+        antwoord=0,
+        uitleg=r"Een samenhang op zich bewijst geen causaliteit. Ga na of iets anders beide kan verklaren.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Hoe meer brandweerlieden bij een brand, hoe groter de schade. Wat is de beste verklaring?",
+        opties=[
+            r"een derde verborgen variabele: de grootte van de brand",
+            r"causaliteit: brandweerlieden veroorzaken de schade",
+            r"toevallige samenhang tussen twee losse cijfers",
+            r"omgekeerde causaliteit: schade lokt brandweer",
+        ],
+        antwoord=0,
+        uitleg=r"Een grote brand vraagt meer brandweerlieden en veroorzaakt meer schade.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Een samenhang die enkel door toeval ontstaat, verdwijnt vaak als je nieuwe gegevens verzamelt.",
+        antwoord=True,
+        uitleg=r"Er zit geen echt verband achter, dus bij nieuwe metingen valt ze meestal weg.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Gelukkige mensen sporten meer. Iemand zegt: 'Misschien maakt geluk dat je meer zin hebt om te sporten.' Welke mogelijkheid noemt die persoon?",
+        opties=[r"omwisseling van oorzaak en gevolg", r"een derde verborgen variabele", r"toevallige samenhang", r"een steekproeffout"],
+        antwoord=0,
+        uitleg=r"In plaats van 'sporten maakt gelukkig' stelt hij de omgekeerde richting voor.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Een derde verborgen variabele kan een samenhang doen ontstaan tussen twee variabelen die elkaar niet beïnvloeden.",
+        antwoord=True,
+        uitleg=r"Dat is net wat ze doet: beide variabelen volgen de derde, en zo lijken ze aan elkaar gekoppeld.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"In landen waar meer chocolade gegeten wordt, zijn er meer Nobelprijswinnaars per inwoner. Wat is het sterkst te verdedigen?",
+        opties=[
+            r"Rijkdom van een land kan beide verklaren: een derde variabele.",
+            r"Chocolade eten maakt slimmer.",
+            r"Nobelprijswinnaars eten meer chocolade.",
+            r"Het verband bewijst causaliteit omdat het over veel landen gaat.",
+        ],
+        antwoord=0,
+        uitleg=r"Rijke landen kopen meer chocolade en investeren meer in onderzoek. Veel landen maakt een samenhang niet causaal.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Onderzoekers suggereren terecht causaliteit als ze enkel zien dat twee variabelen samenhangen.",
+        antwoord=False,
+        uitleg=r"Om causaliteit te suggereren moeten ze de andere verklaringen uitsluiten, bijvoorbeeld met een experiment.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Welk voorbeeld is causaliteit?",
+        opties=[
+            r"Hoe harder je op het gaspedaal duwt, hoe sneller de auto rijdt.",
+            r"Wie een grotere schoenmaat heeft, kan beter lezen (bij kinderen van \(4\) tot \(12\) jaar).",
+            r"In maanden met meer zonnebrandverkoop zijn er meer wespensteken.",
+            r"Steden met meer kerken hebben meer cafés.",
+        ],
+        antwoord=0,
+        uitleg=r"Bij de andere voorbeelden zit telkens een derde variabele achter de samenhang: leeftijd, het seizoen of de grootte van de stad.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Bij kinderen hangen schoenmaat en leesvaardigheid samen. Welke derde variabele verklaart dat?",
+        opties=[r"de leeftijd", r"de schoenwinkel", r"het weer", r"de school"],
+        antwoord=0,
+        uitleg=r"Oudere kinderen hebben grotere voeten en lezen beter.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Bij een samenhang tussen twee variabelen is er altijd een duidelijke oorzaak en een duidelijk gevolg.",
+        antwoord=False,
+        uitleg=r"Vaak is er geen oorzaak-gevolgrelatie tussen beide variabelen: een derde variabele of toeval kan de samenhang verklaren.",
+    ),
+]

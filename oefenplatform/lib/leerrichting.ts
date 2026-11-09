@@ -14,6 +14,44 @@ import { cookies } from "next/headers";
 */
 export const RICHTING_COOKIE = "leerrichting";
 
+/*
+  Kim, 9 november 2026, bij wiskunde basis Beyond: welzijnswetenschappen en
+  bedrijfswetenschappen hebben daar elk een andere vakfiche. Daarom drie
+  knoppen in plaats van twee: een andere richting, bedrijfswetenschappen of
+  welzijnswetenschappen. De oude waarde "dg" (van voor die dag, één knop voor
+  beide) blijft geldig: bij geschiedenis telt ze als bedrijfs- of
+  welzijnswetenschappen, bij wiskunde als een andere richting tot de leerling
+  opnieuw kiest.
+*/
+export type Leerrichting = "algemeen" | "bedrijf" | "welzijn" | "dg";
+
+export function leesRichting(waarde: string | undefined): Leerrichting {
+  return waarde === "bedrijf" || waarde === "welzijn" || waarde === "dg"
+    ? waarde
+    : "algemeen";
+}
+
+export async function leerrichting(): Promise<Leerrichting> {
+  return leesRichting((await cookies()).get(RICHTING_COOKIE)?.value);
+}
+
+/** Bedrijfs- of welzijnswetenschappen: de lichtere fiche 3DDG (geschiedenis). */
 export async function leertVoorDg(): Promise<boolean> {
-  return (await cookies()).get(RICHTING_COOKIE)?.value === "dg";
+  return (await leerrichting()) !== "algemeen";
+}
+
+/*
+  Hoofdstukken die voor een richting wegvallen, herkend aan het begin van hun
+  titel (zie Wegwijzer.weglaten in inhoud/vaknoten.ts). Zo hoeft er niets in
+  de databank te veranderen.
+*/
+export function valtWeg(
+  titel: string,
+  weglaten: Partial<Record<Leerrichting, string[]>> | undefined,
+  richting: Leerrichting,
+): boolean {
+  const begin = weglaten?.[richting === "dg" ? "algemeen" : richting];
+  if (!begin) return false;
+  const t = titel.trim().toLowerCase();
+  return begin.some((b) => t.startsWith(b.toLowerCase()));
 }

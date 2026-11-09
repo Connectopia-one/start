@@ -12,11 +12,21 @@ import type { Categorienoot as Noot } from "@/inhoud/categorienoten";
  *
  * De tekst zelf staat in inhoud/categorienoten.ts, zodat aanpassen geen code
  * vraagt.
+ *
+ * Kim, 9 november 2026: "Kan dit ook geen uitklap tekst zijn?" Daarom staat
+ * de hele noot nu dichtgeklapt achter één korte regel. Wie de vakken kent,
+ * gaat er meteen voorbij; wie twijfelt, klikt.
  */
+const STANDAARD_KLIK = "Welke vakken heb ik nodig voor mijn richting?";
+
 export function Categorienoot({ noot }: { noot: Noot }) {
   return (
-    <section className="mt-4 rounded-xl border border-border bg-surface px-5 py-4 text-sm">
-      <p className="text-ink">{noot.kop}</p>
+    <details className="group mt-4 rounded-xl border border-border bg-surface px-5 py-3 text-sm">
+      <summary className="cursor-pointer font-medium text-forest-dark">
+        {noot.uitklap ?? STANDAARD_KLIK}
+      </summary>
+      <div className="pb-1">
+      <p className="mt-3 text-ink">{noot.kop}</p>
 
       {noot.punten?.length ? (
         <dl className="mt-3 space-y-2">
@@ -57,6 +67,7 @@ export function Categorienoot({ noot }: { noot: Noot }) {
           {noot.komtNog}
         </p>
       )}
-    </section>
+      </div>
+    </details>
   );
 }

@@ -41,7 +41,14 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "9 november 2026",
-    titel: "Geschiedenis Beyond: wat mag je overslaan in bedrijfs- of welzijnswetenschappen?",
+    titel: "Wiskunde basis voor Beyond doorstroom",
+    tekst:
+      "Beyond doorstroom heeft nu ook wiskunde basis, met 24 hoofdstukken en 480 vragen. Het vak is er voor humane wetenschappen, moderne talen, Latijn-moderne talen en welzijnswetenschappen. Kies bovenaan het vak voor welke richting je leert. Kies je welzijnswetenschappen, dan laten we tweedegraadsfuncties en tweedegraadsvergelijkingen weg, want jouw examen vraagt ze niet. De uitleg over welke vakken bij welke richting horen, staat nu dichtgeklapt bovenaan Beyond doorstroom.",
+    link: { tekst: "Naar wiskunde basis", href: "/niveaus/beyond-doorstroom/wiskunde-basis" },
+  },
+  {
+    datum: "9 november 2026",
+    titel: "Geschiedenis Beyond: kies je richting, wij laten weg wat je niet nodig hebt",
     tekst:
       "Volg je bedrijfswetenschappen of welzijnswetenschappen? Dan is je examen geschiedenis wat lichter. Kies bovenaan het vak geschiedenis in Beyond voor welke richting je leert: dan krijg je enkel de vragen die je nodig hebt, ook in het examen. Hoofdstukken waar een stuk wegvalt, krijgen een oranje bolletje.",
   },

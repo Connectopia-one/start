@@ -1,4 +1,5 @@
-import { leertVoorDg } from "@/lib/leerrichting";
+import { leerrichting, valtWeg } from "@/lib/leerrichting";
+import { vindWegwijzer } from "@/inhoud/vaknoten";
 import Link from "next/link";
 import { isWelzijn } from "@/lib/welzijn";
 import { notFound } from "next/navigation";
@@ -115,7 +116,10 @@ export default async function ExamenPage({
   const metWelzijn = (await searchParams).welzijn === "1";
   // Examen voor bedrijfs- en welzijnswetenschappen (vakfiche 3DDG): zonder de
   // vragen met het label niet_voor_dg (supabase/niet-voor-dg.sql).
-  const voorDg = (await searchParams).dg === "1" || (await leertVoorDg());
+  const richting = await leerrichting();
+  const voorDg = (await searchParams).dg === "1" || richting !== "algemeen";
+  // Hoofdstukken die voor de gekozen richting wegvallen (wiskunde basis).
+  const weglaten = vindWegwijzer(niveauSlug, vakSlug)?.weglaten;
   const niveau = vindNiveau(niveauSlug);
   if (!niveau) notFound();
 
@@ -143,7 +147,8 @@ export default async function ExamenPage({
     (h) =>
       h.niveau === niveau.slug &&
       !PITTIG.test(h.titel) &&
-      (metWelzijn || !isWelzijn(h.titel)),
+      (metWelzijn || !isWelzijn(h.titel)) &&
+      !valtWeg(h.titel, weglaten, richting),
   );
   if (!hoofdstukken.length) notFound();
 

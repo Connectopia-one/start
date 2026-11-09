@@ -23,7 +23,7 @@ import { vindVaknoot, vindWegwijzer } from "@/inhoud/vaknoten";
 import { isWelzijn } from "@/lib/welzijn";
 import { Zoekvak } from "@/components/Zoekvak";
 import { RichtingKeuze } from "@/components/RichtingKeuze";
-import { leertVoorDg } from "@/lib/leerrichting";
+import { leerrichting, valtWeg } from "@/lib/leerrichting";
 
 /*
   De hoofdstukken van één vak binnen één niveau. Dit is de tweede laag knoppen:
@@ -90,7 +90,8 @@ export default async function NiveauVakPage({
     supabase/niet-voor-dg.sql niet gedraaid is, geeft dit een fout en blijft
     alles zoals het was.
   */
-  const dg = Boolean(wegwijzer?.richtingKeuze) && (await leertVoorDg());
+  const richting = await leerrichting();
+  const dg = Boolean(wegwijzer?.richtingKeuze) && richting !== "algemeen";
   const dgTelling = new Map<string, { weg: number; totaal: number }>();
   if (wegwijzer?.richtingKeuze) {
     // Per blok van 1000: Supabase geeft nooit meer dan 1000 rijen tegelijk,
@@ -120,7 +121,12 @@ export default async function NiveauVakPage({
     return t.weg >= t.totaal ? "niet" : "deels";
   };
 
-  const tegels: HoofdstukTegel[] = hoofdstukken.map((h) => ({
+  // Hoofdstukken die voor de gekozen richting wegvallen (wiskunde basis).
+  const zichtbaar = hoofdstukken.filter(
+    (h) => !valtWeg(h.titel, wegwijzer?.weglaten, richting),
+  );
+
+  const tegels: HoofdstukTegel[] = zichtbaar.map((h) => ({
     dg: dgStatus(h.id),
     id: h.id,
     titel: h.titel,
@@ -144,8 +150,8 @@ export default async function NiveauVakPage({
           <span aria-hidden>{vakIcoon(vak.slug)}</span> {vak.naam}
         </h1>
         <p className="mt-1 text-sm text-ink-dim">
-          {hoofdstukken.length}{" "}
-          {hoofdstukken.length === 1 ? "hoofdstuk" : "hoofdstukken"} in{" "}
+          {zichtbaar.length}{" "}
+          {zichtbaar.length === 1 ? "hoofdstuk" : "hoofdstukken"} in{" "}
           {niveau.emoji} {niveau.naam}
         </p>
 
@@ -159,7 +165,9 @@ export default async function NiveauVakPage({
               className="rounded-full border border-border bg-surface px-3 py-1 text-forest-dark transition hover:border-forest"
             >
               <span aria-hidden>📝</span> Examen van 40 vragen over het hele vak
-              {dg && " (voor bedrijfs- en welzijnswetenschappen)"}
+              {dg && richting === "bedrijf" && " (voor bedrijfswetenschappen)"}
+              {dg && richting === "welzijn" && " (voor welzijnswetenschappen)"}
+              {dg && richting === "dg" && " (voor bedrijfs- en welzijnswetenschappen)"}
             </Link>
             {hoofdstukken.some((h) => isWelzijn(h.titel)) && (
               <Link
@@ -185,7 +193,9 @@ export default async function NiveauVakPage({
               <span aria-hidden>👉</span> {wegwijzer.titel}
             </p>
             <p className="mt-2 text-sm text-ink">{wegwijzer.tekst}</p>
-            {wegwijzer.richtingKeuze && <RichtingKeuze dg={dg} />}
+            {wegwijzer.richtingKeuze && (
+              <RichtingKeuze keuze={richting} uitleg={wegwijzer.keuzeUitleg} />
+            )}
             {wegwijzer.lijst && (
               <details className="mt-3 rounded-lg border border-forest/40 bg-paper px-4 py-2">
                 <summary className="cursor-pointer text-sm font-semibold text-forest-dark">
