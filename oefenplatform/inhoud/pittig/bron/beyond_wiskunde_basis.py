@@ -30,6 +30,7 @@ THEMAS = [
     ("afgeleiden", "Afgeleiden: helling en raaklijn"),
     ("rijen", "Rekenkundige en meetkundige rijen"),
     ("kansen", "Kansrekenen met kansbomen en kruistabellen"),
+    ("steekproeven", "Steekproeven, samenhang en causaliteit"),
 ]
 
 HOOFDSTUKKEN = [

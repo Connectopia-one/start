@@ -3717,7 +3717,7 @@
               55.5,
               16.4,
               11.0,
-              9.4
+              12.5
             ]
           ],
           "uitleg": "Die voorwaardelijke kans \\(P(\\text{te laat} \\mid \\text{bus}) = 0{,}1\\) staat op de tak van 'bus' naar 'te laat'."
@@ -4106,6 +4106,440 @@
               ],
               "antwoord": 1,
               "uitleg": "Een klein deel van een grote groep (20 % van 90 %) is meer dan een groot deel van een kleine groep (90 % van 10 %)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Steekproeven, samenhang en causaliteit — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de dag die duidelijk niet in het patroon past.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/steekproeven-ijsjes.svg",
+          "zones": [
+            [
+              34.0,
+              17.0,
+              6.0,
+              9.4
+            ]
+          ],
+          "uitleg": "Bij 18 °C werden 260 ijsjes verkocht, veel meer dan op de andere koele dagen. Zo'n uitschieter heeft vaak een eigen verklaring, bijvoorbeeld een feest in de buurt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke samenhang toont het spreidingsdiagram, als je de uitschieter even weglaat?",
+          "opties": [
+            "Geen samenhang: de punten liggen verspreid zonder richting",
+            "Een negatieve samenhang: hoe warmer, hoe minder ijsjes",
+            "Een positieve samenhang: hoe warmer, hoe meer ijsjes",
+            "Een samenhang die enkel geldt boven 25 °C"
+          ],
+          "antwoord": 2,
+          "uitleg": "De punten lopen van linksonder naar rechtsboven.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/steekproeven-ijsjes.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een krant merkt dat er op dezelfde dagen ook meer mensen verdrinken, en kopt: 'IJsjes eten is gevaarlijk bij het zwemmen.' Wat is er aan de hand?",
+          "opties": [
+            "Wie ijs eet, krijgt krampen en verdrinkt daardoor vaker in het water",
+            "Verdrinkingen zorgen voor meer verkochte ijsjes",
+            "De warmte doet allebei stijgen: een derde variabele",
+            "Er is geen samenhang: de krant heeft zich gewoon verteld"
+          ],
+          "antwoord": 2,
+          "uitleg": "Op warme dagen eten mensen meer ijs en gaan ze meer zwemmen. De temperatuur zit achter beide.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/steekproeven-ijsjes.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een onderzoeker bevraagt 400 Vlaamse 17-jarigen over hoeveel ze slapen. Wat is de populatie?",
+          "opties": [
+            "De 400 bevraagde jongeren",
+            "Alle Vlaamse 17-jarigen",
+            "Alle Vlamingen",
+            "De jongeren die het minst slapen"
+          ],
+          "antwoord": 1,
+          "uitleg": "De populatie is de hele groep waarover je iets wil weten. De 400 zijn de steekproef."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een school meet bij 50 leerlingen hoe lang ze naar school fietsen. Wat is de variabele?",
+          "opties": [
+            "De 50 leerlingen",
+            "Alle leerlingen van de school",
+            "De fietstijd naar school",
+            "Het gemiddelde van de 50 tijden"
+          ],
+          "antwoord": 2,
+          "uitleg": "De variabele is wat je bij elk element meet."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is de steekproef aselect of niet?",
+          "kolommen": [
+            "Aselect",
+            "Niet aselect"
+          ],
+          "items": [
+            [
+              "Een computer loot 100 nummers uit de leerlingenlijst",
+              "Aselect"
+            ],
+            [
+              "De eerste 100 leerlingen die 's morgens binnenkomen",
+              "Niet aselect"
+            ],
+            [
+              "Een oproep op sociale media: wie wil, vult de enquête in",
+              "Niet aselect"
+            ],
+            [
+              "Elke leerling krijgt een nummer en je trekt 100 nummers uit een trommel",
+              "Aselect"
+            ],
+            [
+              "Je bevraagt je vrienden en hun vrienden",
+              "Niet aselect"
+            ],
+            [
+              "Uit elke klas loot je 4 leerlingen",
+              "Aselect"
+            ]
+          ],
+          "uitleg": "Aselect betekent dat toeval de keuze maakt, niet de onderzoeker of de deelnemer."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de soort steekproef aan de beschrijving.",
+          "paren": [
+            [
+              "Enkelvoudig aselecte steekproef",
+              "Elke groep van n elementen heeft evenveel kans om gekozen te worden"
+            ],
+            [
+              "Vrijwillige respons",
+              "Wie wil, reageert"
+            ],
+            [
+              "Opportunistische steekproef",
+              "Je neemt wie gemakkelijk te bereiken is"
+            ],
+            [
+              "Vertekende steekproef",
+              "Een deel van de populatie is stelselmatig te veel of te weinig vertegenwoordigd"
+            ]
+          ],
+          "extra": [
+            "Je bevraagt de hele populatie"
+          ],
+          "uitleg": "Alleen bij toeval als kiezer krijg je een eerlijke kans voor iedereen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over steekproeven?",
+          "rijen": [
+            "Een grotere aselecte steekproef verkleint de steekproeffout.",
+            "Een enkelvoudig aselecte steekproef bevat nooit een steekproeffout.",
+            "Bij een aselecte steekproef maakt het toeval de keuze, niet de onderzoeker.",
+            "Een steekproef van 10 % van de populatie is altijd representatief."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Toeval geeft altijd wat schommeling, maar minder bij een grotere steekproef. Representatief hangt af van hoe je kiest, niet van welk deel je neemt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze fouten is een niet-steekproeffout?",
+          "opties": [
+            "In een aselecte steekproef zitten door het lot toevallig wat meer meisjes dan jongens",
+            "De vraag is suggestief gesteld: 'Bent u ook tegen die dure plannen?'",
+            "Het resultaat wijkt door toeval 2 % af van de echte waarde in de hele populatie",
+            "Een tweede aselecte steekproef geeft een iets ander resultaat"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een niet-steekproeffout komt niet door het toeval van de keuze, maar door de manier van vragen, meten of verwerken."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een steekproef is [[*representatief|vertekend|groot]] als ze de populatie goed weerspiegelt. Door [[*randomisatie|vrijwillige respons|selectie]] laat je het toeval kiezen wie erin komt.",
+          "uitleg": "Randomisatie betekent: het toeval beslist."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een tv-programma vraagt kijkers te sms'en of ze voor een nieuwe wet zijn. 80 % sms't 'ja'. Waarom zegt dat weinig over alle Belgen?",
+          "opties": [
+            "Omdat een percentage van 80 % veel te hoog is om nog geloofwaardig te zijn",
+            "Omdat enkel wie kijkt én een sterke mening heeft, de moeite neemt om te reageren",
+            "Omdat een sms'je geld kost, zodat jongeren die geen beltegoed hebben wegvallen",
+            "Omdat de steekproef te groot is"
+          ],
+          "antwoord": 1,
+          "uitleg": "Wie reageert, kiest zichzelf. Kijkers en mensen met een uitgesproken mening zijn oververtegenwoordigd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een gemeente bevraagt mensen aan een bushalte over het openbaar vervoer. Waarom is dat geen goede steekproef voor alle inwoners?",
+          "opties": [
+            "Wie aan de halte staat, rijdt vaker met de bus dan gemiddeld",
+            "Aan een bushalte staan te weinig mensen",
+            "Mensen die op een bus wachten, antwoorden nooit eerlijk op vragen van onbekenden",
+            "Een bushalte is geen officiële plaats"
+          ],
+          "antwoord": 0,
+          "uitleg": "Autorijders en fietsers komen bijna niet in de steekproef: ze is vertekend."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen van een enkelvoudig aselecte steekproef in de goede volgorde.",
+          "opties": [
+            "Maak een lijst van alle elementen van de populatie",
+            "Geef elk element een nummer",
+            "Laat een toevalsgenerator n verschillende nummers kiezen",
+            "Bevraag of meet de gekozen elementen"
+          ],
+          "uitleg": "Zonder volledige lijst kan niet iedereen evenveel kans krijgen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vijf klassen trekken elk een enkelvoudig aselecte steekproef van 50 leerlingen uit dezelfde school en berekenen hoeveel procent ontbijt. Ze vinden 62 %, 58 %, 66 %, 60 % en 64 %. Wat toont dat?",
+          "opties": [
+            "Vier klassen hebben fout gerekend",
+            "Het echte percentage is zeker 62 %",
+            "Een steekproef van 50 is altijd vertekend",
+            "De variabiliteit van steekproeven: elk resultaat schommelt door toeval"
+          ],
+          "antwoord": 3,
+          "uitleg": "Verschillende aselecte steekproeven geven verschillende uitkomsten rond de echte waarde."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Wat verklaart de samenhang het best?",
+          "kolommen": [
+            "Causaliteit",
+            "Omgekeerde causaliteit",
+            "Derde variabele",
+            "Toeval"
+          ],
+          "items": [
+            [
+              "Wie meer uren oefent op de piano, speelt beter",
+              "Causaliteit"
+            ],
+            [
+              "Wie veel sport, voelt zich fitter",
+              "Causaliteit"
+            ],
+            [
+              "Leerlingen die bijles volgen, halen lagere punten",
+              "Omgekeerde causaliteit"
+            ],
+            [
+              "Mensen die pijnstillers nemen, hebben vaker hoofdpijn",
+              "Omgekeerde causaliteit"
+            ],
+            [
+              "Kinderen met grotere voeten lezen beter",
+              "Derde variabele"
+            ],
+            [
+              "In jaren met meer verkochte zonnebrillen zijn er meer bosbranden",
+              "Derde variabele"
+            ],
+            [
+              "Het aantal films van een acteur per jaar loopt gelijk met het aantal verdrinkingen in zwembaden",
+              "Toeval"
+            ],
+            [
+              "Het aantal piraten daalde terwijl de aarde opwarmde",
+              "Toeval"
+            ]
+          ],
+          "uitleg": "Lage punten leiden tot bijles, hoofdpijn tot pijnstillers. Leeftijd zit achter voetmaat en lezen, zonnig droog weer achter zonnebrillen en bosbranden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Peiling A bevraagt 100 000 vrijwillige deelnemers via een website. Peiling B is een enkelvoudig aselecte steekproef van 1000 personen. Welke is betrouwbaarder?",
+          "opties": [
+            "Peiling A, want met honderd keer meer deelnemers valt elke vertekening weg",
+            "Ze zijn even betrouwbaar",
+            "Peiling B, want vrijwillige respons blijft vertekend",
+            "Dat kan je niet zeggen zonder de resultaten"
+          ],
+          "antwoord": 2,
+          "uitleg": "Een grotere steekproef verkleint toevalsschommelingen, maar lost een vertekening niet op."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over samenhang en causaliteit?",
+          "rijen": [
+            "Een samenhang kan louter toeval zijn.",
+            "Een sterke samenhang in een kleine steekproef is altijd betrouwbaar.",
+            "Ook als de ene variabele de andere echt beïnvloedt, kan er nog een derde variabele meespelen.",
+            "Bij causaliteit maakt het niet uit welke variabele oorzaak is en welke gevolg."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "In een kleine steekproef kan toeval een sterke samenhang geven. Oorzaak en gevolg omdraaien is een andere uitspraak."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Wie veel op sociale media zit, voelt zich vaker eenzaam. Sociale media maken dus eenzaam.' Welke andere verklaring is mogelijk?",
+          "opties": [
+            "Sociale media maken iedereen eenzaam",
+            "Er is geen samenhang, want eenzaamheid kan je niet meten met een enquête",
+            "De steekproef was te groot, waardoor kleine verschillen te sterk doorwegen",
+            "Wie zich eenzaam voelt, zoekt meer contact via sociale media"
+          ],
+          "antwoord": 3,
+          "uitleg": "Misschien loopt het pijltje andersom: eenzaamheid leidt tot meer schermtijd."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "In een [[spreidingsdiagram]] zet je per element een punt met twee waarden. Gaan grote waarden van de ene variabele samen met kleine waarden van de andere, dan is de samenhang [[negatief]]. Een punt dat ver van het patroon ligt, heet een [[uitschieter]].",
+          "extra": [
+            "histogram",
+            "positief",
+            "steekproeffout"
+          ],
+          "uitleg": "Elke stip is één element, bijvoorbeeld één dag of één persoon."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de steekproeffout?",
+          "opties": [
+            "Een rekenfout die de onderzoeker maakt bij het verwerken van alle antwoorden achteraf",
+            "Een vraag die zo onduidelijk gesteld is dat een deel van de mensen ze verkeerd begrijpt",
+            "Een afwijking van de echte populatiewaarde, door het toeval van de keuze",
+            "Een steekproef die niet representatief is"
+          ],
+          "antwoord": 2,
+          "uitleg": "Ook een perfect aselecte steekproef wijkt door toeval wat af van de populatie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In een enkelvoudig aselecte steekproef van 200 leerlingen zeggen 58 leerlingen dat ze dagelijks sporten. Welk percentage schat je voor de hele school?",
+          "antwoord": "29",
+          "uitleg": "\\(\\frac{58}{200} = 0{,}29\\), dus ongeveer \\(29\\) %."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom vrijwillige respons meestal tot een vertekende steekproef leidt.",
+          "antwoord": "Wie zelf kiest om te reageren, verschilt vaak van wie niet reageert: die mensen hebben meer tijd, meer interesse of een sterkere mening. Zo zijn sommige groepen oververtegenwoordigd en weerspiegelt de steekproef de populatie niet.",
+          "uitleg": "Wie reageert, is geen toevallige groep."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een gemeente wil weten wat alle inwoners van een nieuw park vinden. Welke steekproef is het best?",
+          "opties": [
+            "De bezoekers van het park op zondag",
+            "Een oproep op de website van de gemeente, zodat iedereen kan reageren",
+            "De leden van de gemeenteraad",
+            "Een aselecte steekproef uit het bevolkingsregister"
+          ],
+          "antwoord": 3,
+          "uitleg": "Enkel de lijst van alle inwoners geeft iedereen evenveel kans. Parkbezoekers zijn vooral fans van het park."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij een onderzoek naar slaap en schoolresultaten antwoordt 40 % van de gekozen leerlingen niet. Waarom is dat een probleem?",
+          "opties": [
+            "Wie niet antwoordt, kan anders slapen of presteren dan wie wel antwoordt",
+            "Er blijven te weinig antwoorden over om te rekenen",
+            "Het maakt niets uit, want de steekproef was aselect",
+            "Omdat 40 % meer is dan de steekproeffout"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ook bij een aselecte keuze kan non-respons een vertekening geven: een niet-steekproeffout."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Kinderen die ontbijten, halen betere punten.' Wat mag je uit zo'n samenhang besluiten?",
+          "opties": [
+            "Ontbijten zorgt zeker voor betere punten, want de samenhang is duidelijk",
+            "Betere punten zorgen voor ontbijt",
+            "Er is samenhang, maar de oorzaak ken je niet",
+            "Er is geen verband, want punten hangen enkel af van studeren"
+          ],
+          "antwoord": 2,
+          "uitleg": "Een derde variabele zoals de thuissituatie kan beide beïnvloeden. Om causaliteit aan te tonen heb je een experiment met randomisatie nodig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vindt in een steekproef een samenhang die louter toeval is. Wat gebeurt er meestal als je een nieuwe aselecte steekproef neemt?",
+          "opties": [
+            "De samenhang wordt nog sterker, omdat je nu meer gegevens hebt",
+            "De samenhang verdwijnt of is veel zwakker",
+            "Je vindt precies dezelfde samenhang",
+            "De samenhang draait om"
+          ],
+          "antwoord": 1,
+          "uitleg": "Toeval herhaalt zich niet op dezelfde manier. Een echte samenhang komt wel telkens terug."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een onderzoeker meet bij 30 leerlingen de schermtijd en de slaapduur. Hoeveel variabelen onderzoekt hij?",
+          "opties": [
+            "Eén: de leerlingen",
+            "Twee",
+            "Dertig, één per leerling",
+            "Zestig: twee metingen keer dertig leerlingen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een variabele is een kenmerk dat je bij elk element meet: hier schermtijd en slaapduur."
+        },
+        {
+          "casus": "Een onderzoeker wil weten of energiedrank de reactiesnelheid verbetert. Van 60 vrijwilligers kiest elk zelf: energiedrank of water. Daarna doen ze een reactietest. De energiedrinkers reageren gemiddeld sneller.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is het grootste probleem van deze opzet?",
+              "opties": [
+                "60 deelnemers zijn er veel te veel om nog een duidelijk verschil te kunnen zien",
+                "Water en energiedrank smaken anders",
+                "De deelnemers kozen zelf hun groep",
+                "Een reactietest meet niets"
+              ],
+              "antwoord": 2,
+              "uitleg": "Zonder toeval bij de verdeling kan je het verschil niet zomaar aan de drank toeschrijven."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke verborgen variabele kan het resultaat mee verklaren?",
+              "opties": [
+                "De kleur en de vorm van het blikje waaruit de deelnemers dronken",
+                "Gamers kiezen misschien vaker energiedrank",
+                "Het totale aantal deelnemers dat aan de proef meedeed",
+                "De naam van de test"
+              ],
+              "antwoord": 1,
+              "uitleg": "Een kenmerk dat samenhangt met de keuze én met de reactiesnelheid, vertroebelt de vergelijking."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe pak je dit onderzoek beter aan?",
+              "opties": [
+                "Nog meer vrijwilligers zelf laten kiezen, zodat de groepen groter worden",
+                "Enkel gamers laten meedoen",
+                "Het lot laten bepalen wie wat drinkt",
+                "De snelste deelnemers energiedrank geven om het effect beter te zien"
+              ],
+              "antwoord": 2,
+              "uitleg": "Door randomisatie zijn andere verschillen gemiddeld gelijk verdeeld over beide groepen."
             }
           ]
         }
