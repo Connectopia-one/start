@@ -43,7 +43,7 @@ export const updates: Update[] = [
     datum: "11 november 2026",
     titel: "Pittige hoofdstukken bij wiskunde basis",
     tekst:
-      "Bij elk onderwerp van wiskunde basis voor Beyond doorstroom staat nu ook een pittig hoofdstuk met 30 moeilijkere vragen, zoals op het examen: klikken op een grafiek, een kansboom of een kruistabel, een samenvattende tabel invullen, en casussen met meerdere vragen. Ook de onderwerpen voor bedrijfswetenschappen kregen er een. Alle grafieken zijn zelf getekend.",
+      "Bij elk onderwerp van wiskunde basis voor Beyond doorstroom staat nu ook een pittig hoofdstuk met 30 moeilijkere vragen, zoals op het examen: klikken op een grafiek, een kansboom of een kruistabel, een samenvattende tabel invullen, en casussen met meerdere vragen. Ook de onderwerpen voor bedrijfswetenschappen kregen er een. Alle grafieken zijn zelf getekend. En in de Begrippenarena Wiskunde staat een nieuw niveau wiskunde basis, met ruim tachtig begrippen om spelend te herhalen.",
     link: { tekst: "Naar wiskunde basis", href: "/niveaus/beyond-doorstroom/wiskunde-basis" },
   },
   {

@@ -377,6 +377,98 @@ const DATA = {
       ["populatie","De hele groep waarover je iets wil weten.","Bijvoorbeeld alle leerlingen van België."]
     ]}
   ]},
+  basis: { label: "BEYOND · wiskunde basis", chapters: [
+    { id: "w-func", title: "Functies en grafieken", terms: [
+      ["machtswortel","Het getal dat je n keer met zichzelf vermenigvuldigt om een gegeven getal te krijgen.","∛8 = 2, want 2 · 2 · 2 = 8."],
+      ["logaritme","De exponent waartot je het grondtal moet verheffen om een getal te krijgen.","log₁₀ 1000 = 3"],
+      ["grondtal","Het getal dat je herhaald met zichzelf vermenigvuldigt in een macht.","In 2⁵ is dat 2."],
+      ["domein","Alle x-waarden waarvoor de functie een beeld heeft.","Bij √x: x ≥ 0."],
+      ["bereik","Alle y-waarden die de functie aanneemt.","Bij x²: y ≥ 0."],
+      ["nulwaarde","Een x-waarde waarvoor de functiewaarde nul is.","Daar snijdt de grafiek de x-as."],
+      ["tekenverloop","Een overzicht dat toont waar een functie positief, negatief of nul is.","Met +, − en 0 onder de x-waarden."],
+      ["stijgend","Een functie waarvan de y-waarden groter worden als x groter wordt.","De grafiek gaat van links naar rechts omhoog."],
+      ["maximum","De grootste functiewaarde, op een interval of in een omgeving.","De top van een bergparabool."],
+      ["minimum","De kleinste functiewaarde, op een interval of in een omgeving.","De top van een dalparabool."],
+      ["parabool","De grafiek van een tweedegraadsfunctie.","De vorm van f(x) = x²."],
+      ["top","Het hoogste of laagste punt van een parabool.","Ligt op de symmetrieas."],
+      ["symmetrieas","De verticale rechte die een parabool in twee spiegelbeelden verdeelt.","x = −b / (2a)"],
+      ["discriminant","Het getal b² − 4ac dat zegt hoeveel oplossingen een tweedegraadsvergelijking heeft.","Negatief: geen reële oplossingen."],
+      ["exponentiële groei","Een groei waarbij een hoeveelheid per tijdseenheid met hetzelfde getal vermenigvuldigd wordt.","Een spaarrekening met vaste rente."],
+      ["groeifactor","Het getal waarmee je per tijdseenheid vermenigvuldigt.","3 % afname: 0,97."],
+      ["verdubbelingstijd","De tijd die een hoeveelheid nodig heeft om twee keer zo groot te worden.","Bij groeifactor 2 per uur: één uur."],
+      ["halveringstijd","De tijd waarin een hoeveelheid tot de helft daalt.","Gebruikt bij radioactief verval."],
+      ["goniometrische cirkel","Een cirkel met straal 1 en middelpunt in de oorsprong, waarop je hoeken afzet.","Het punt bij hoek α is (cos α, sin α)."],
+      ["radiaal","Een hoekmaat waarbij een halve cirkel π is.","90° = π/2"],
+      ["periode","De lengte waarna een grafiek zich telkens herhaalt.","Bij sin x is dat 2π."],
+      ["amplitude","De halve afstand tussen het hoogste en het laagste punt van een sinusgrafiek.","Bij 3 sin x is dat 3."],
+      ["evenwichtslijn","De horizontale rechte waarrond een sinusgrafiek schommelt.","Bij 2 + sin x: y = 2."],
+      ["snijpunt","Een punt dat op twee grafieken tegelijk ligt.","Geeft een oplossing van f(x) = g(x)."]
+    ]},
+    { id: "w-afg", title: "Afgeleiden en rijen", terms: [
+      ["differentiequotiënt","De gemiddelde verandering van een functie over een interval.","(f(b) − f(a)) / (b − a)"],
+      ["afgeleide","De ogenblikkelijke verandering van een functie in een punt.","Schrijf je als f′(x)."],
+      ["raaklijn","De rechte die de grafiek in een punt raakt en daar dezelfde helling heeft.","y − f(a) = f′(a)(x − a)"],
+      ["richtingscoëfficiënt","Het getal dat zegt hoe steil een rechte is.","Bij y = 3x + 1 is dat 3."],
+      ["helling","Hoe steil een grafiek in een punt omhoog of omlaag gaat.","Positief bij stijgen, negatief bij dalen."],
+      ["rij","Een opeenvolging van getallen in een vaste volgorde.","u₁, u₂, u₃ ..."],
+      ["expliciet voorschrift","Het voorschrift dat de waarde van de n-de term rechtstreeks geeft.","uₙ = 2n + 1"],
+      ["recursief voorschrift","Een voorschrift dat elke term uit de vorige berekent.","uₙ = uₙ₋₁ + 4"],
+      ["rekenkundige rij","Een rij waarin je telkens hetzelfde getal optelt.","4, 7, 10, 13 ..."],
+      ["verschil","Het vaste getal dat je bij een rekenkundige rij telkens optelt.","Bij 4, 7, 10 is dat 3."],
+      ["meetkundige rij","Een rij waarin je telkens met hetzelfde getal vermenigvuldigt.","5, 10, 20, 40 ..."],
+      ["reden","Het vaste getal waarmee je bij een meetkundige rij telkens vermenigvuldigt.","Bij 81, 27, 9 is dat 1/3."],
+      ["somformule","De formule voor de som van de eerste n termen van een rij.","Bij een rekenkundige rij: Sₙ = n(u₁ + uₙ) / 2."]
+    ]},
+    { id: "w-stat", title: "Kansen en statistiek", terms: [
+      ["kansboom","Een schema met takken waarop je de kansen van opeenvolgende stappen zet.","Langs een pad vermenigvuldig je."],
+      ["kruistabel","Een tabel die twee kenmerken tegelijk telt, in rijen en kolommen.","Geslacht tegenover sport of geen sport."],
+      ["somregel","Bij elkaar uitsluitende gebeurtenissen tel je de kansen op.","P(A of B) = P(A) + P(B)"],
+      ["productregel","Bij opeenvolgende stappen vermenigvuldig je de kansen.","Twee keer kop: 0,5 · 0,5."],
+      ["complement","De gebeurtenis dat iets niet gebeurt.","P(niet A) = 1 − P(A)"],
+      ["voorwaardelijke kans","De kans op een gebeurtenis als je weet dat een andere al gebeurd is.","P(A | B)"],
+      ["onafhankelijk","Gebeurtenissen die elkaars kans niet beïnvloeden.","Dan is P(A | B) = P(A)."],
+      ["populatie","De hele groep waarover je iets wil weten.","Alle Belgische 17-jarigen."],
+      ["steekproef","Een deel van de groep dat je echt onderzoekt.","1000 ondervraagde jongeren."],
+      ["representatief","Een deel dat de hele groep goed weerspiegelt.","Evenveel jongens en meisjes als in de groep."],
+      ["aselect","Gekozen zonder voorkeur, zodat iedereen evenveel kans maakt.","Namen trekken uit een hoed."],
+      ["steekproeffout","Het verschil met de hele groep dat alleen door het toeval van de keuze komt.","Wordt kleiner bij een grotere steekproef."],
+      ["vertekening","Een fout die de resultaten telkens in dezelfde richting duwt.","Enkel mensen bevragen die online zijn."],
+      ["correlatie","Een samenhang tussen twee variabelen.","Langere mensen wegen meestal meer."],
+      ["causaliteit","Een verband waarbij het ene echt het andere veroorzaakt.","Samenhang bewijst dit nog niet."],
+      ["verstorende variabele","Een derde factor die twee andere tegelijk beïnvloedt.","Warm weer verhoogt ijsverkoop en zwemongevallen."],
+      ["gemiddelde","De som van alle waarden gedeeld door het aantal.","Bij een verdeling noteer je μ."],
+      ["standaardafwijking","Een maat voor hoe ver de waarden gemiddeld van het gemiddelde liggen.","Noteer je als σ."],
+      ["normale verdeling","Een symmetrische, klokvormige verdeling rond het gemiddelde.","Lengtes van volwassenen."],
+      ["z-score","Hoeveel standaardafwijkingen een waarde van het gemiddelde ligt.","z = (x − μ) / σ"],
+      ["68-95-99,7-regel","Hoeveel procent van een klokvormige verdeling binnen 1, 2 en 3 standaardafwijkingen van het gemiddelde ligt.","Binnen μ ± 2σ: ongeveer 95 %."]
+    ]},
+    { id: "w-bed", title: "Extra voor bedrijfswetenschappen", terms: [
+      ["ongelijkheid","Een uitspraak met <, >, ≤ of ≥ in plaats van =.","2x − 1 > 5"],
+      ["oplossingsverzameling","Alle getallen die aan een vergelijking of ongelijkheid voldoen.","Vaak een interval, zoals ]3, +∞[."],
+      ["interval","Alle reële getallen tussen twee grenzen.","[2, 5[ bevat 2 maar niet 5."],
+      ["kettingregel","De rekenregel om de afgeleide van een samengestelde functie te vinden.","(f(g(x)))′ = f′(g(x)) · g′(x)"],
+      ["productregel voor afgeleiden","De rekenregel (f · g)′ = f′ · g + f · g′.","Voor x² · eˣ."],
+      ["quotiëntregel","De rekenregel om de afgeleide van een breuk van functies te vinden.","(f/g)′ = (f′g − fg′) / g²"],
+      ["extremum","Een hoogste of laagste functiewaarde.","De afgeleide wisselt daar van teken."],
+      ["buigpunt","Een punt waar de grafiek van hol naar bol overgaat of omgekeerd.","De tweede afgeleide wisselt daar van teken."],
+      ["tweede afgeleide","De afgeleide van de afgeleide.","Zegt of de grafiek hol of bol is."],
+      ["optimaliseren","Zoeken naar de grootste of kleinste waarde van een grootheid.","Maximale winst of minimale kost."],
+      ["primitieve functie","Een functie waarvan de afgeleide de gegeven functie is.","Bij 2x hoort x² + C."],
+      ["bepaalde integraal","Een getal dat bij een positieve functie de oppervlakte onder de grafiek tussen twee grenzen geeft.","∫ van a tot b"],
+      ["matrix","Een rechthoekige tabel van getallen in rijen en kolommen.","Een 2×3-tabel heeft 2 rijen en 3 kolommen."],
+      ["matrixproduct","Rij maal kolom: telkens overeenkomende getallen vermenigvuldigen en optellen.","Kan enkel als de afmetingen passen."],
+      ["graaf","Een schema van knopen die met verbindingen aan elkaar hangen.","Depots met wegen ertussen."],
+      ["verbindingsmatrix","Een tabel die toont welke knopen van een graaf rechtstreeks verbonden zijn.","Een 1 per verbinding, anders 0."],
+      ["stelsel","Een groep vergelijkingen die tegelijk moeten gelden.","Oplossen met de methode van Gauss-Jordan."],
+      ["uitgebreide matrix","De coëfficiënten en de rechterleden van een stelsel samen in één tabel.","Met een verticale streep voor de rechterleden."],
+      ["nulhypothese","De bewering die je toetst en pas verwerpt bij sterk bewijs.","H₀: de munt is eerlijk."],
+      ["alternatieve hypothese","De bewering die je aanneemt als je de getoetste bewering verwerpt.","H₁: de munt valt vaker op kop."],
+      ["significantieniveau","De kans die je vooraf aanvaardt om ten onrechte te verwerpen.","Vaak α = 0,05."],
+      ["p-waarde","De kans op een uitkomst minstens zo extreem als de waargenomen, als H₀ klopt.","Kleiner dan α: verwerpen."],
+      ["correlatiecoëfficiënt","Een getal tussen −1 en 1 dat zegt hoe sterk een lineair verband is.","Dicht bij 0: bijna geen verband."],
+      ["trendlijn","De rechte die het best door een puntenwolk past.","Gebruikt om te voorspellen."]
+    ]}
+  ]},
   beyond: { label: "BEYOND · 3de graad", chapters: [
     { id: "y-anal", title: "Analyse", terms: [
       ["logaritme","De exponent waartot je het grondtal moet verheffen om een getal te krijgen.","log₂ 8 = 3, want 2³ = 8."],
@@ -554,6 +646,7 @@ function renderMenu() {
         <button data-lvl="spark" aria-pressed="${S.level === "spark"}">SPARK · 1ste graad</button>
         <button data-lvl="boost" aria-pressed="${S.level === "boost"}">BOOST · 2de graad</button>
         <button data-lvl="beyond" aria-pressed="${S.level === "beyond"}">BEYOND · 3de graad</button>
+        <button data-lvl="basis" aria-pressed="${S.level === "basis"}">BEYOND · wiskunde basis</button>
       </div>
     </header>
     <section style="display:flex;flex-direction:column;gap:10px">

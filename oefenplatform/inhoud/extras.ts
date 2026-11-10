@@ -259,6 +259,13 @@ export const spelKaarten: SpelKaart[] = [
     tekst: `De wiskundewoorden van de 3de graad. ${zesSpellen}`,
   },
   {
+    spel: "begrippenarena-wiskunde",
+    school: "middelbaar",
+    niveau: "🌍 Beyond · wiskunde basis (5de en 6de middelbaar)",
+    niveauInSpel: "basis",
+    tekst: `Ruim tachtig begrippen bij het vak wiskunde basis, van functies, afgeleiden en rijen tot kansen, de normale verdeling en de extra's voor bedrijfswetenschappen. ${zesSpellen}`,
+  },
+  {
     spel: "begrippenarena",
     school: "middelbaar",
     niveau: "🌍 Beyond · 3de graad doorstroom (5de en 6de middelbaar)",
