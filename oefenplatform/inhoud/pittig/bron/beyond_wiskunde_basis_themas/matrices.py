@@ -45,14 +45,14 @@ PRENTEN = [dict(bestand=f"{g['naam']}.svg", zelf=True, wat=g["titel"], vragen="k
 
 def m(*rijen):
     """Een matrix in LaTeX."""
-    return r"\begin{pmatrix} " + r" \\ ".join(" & ".join(str(x) for x in r) for r in rijen) + r" \end{pmatrix}"
+    return r"\begin{bmatrix} " + r" \\ ".join(" & ".join(str(x) for x in r) for r in rijen) + r" \end{bmatrix}"
 
 
 def um(*rijen, k):
     """Een uitgebreide matrix met een streep voor de laatste k kolommen."""
     n = len(rijen[0]) - k
     kol = "c" * n + "|" + "c" * k
-    return r"\left(\begin{array}{" + kol + "} " + r" \\ ".join(" & ".join(str(x) for x in r) for r in rijen) + r" \end{array}\right)"
+    return r"\left[\begin{array}{" + kol + "} " + r" \\ ".join(" & ".join(str(x) for x in r) for r in rijen) + r" \end{array}\right]"
 
 
 VRAGEN = [
@@ -109,8 +109,8 @@ VRAGEN = [
         r"Rij maal kolom: \(1 + 6 = 7\), \(0 + 2 = 2\), \(0 + 3 = 3\), \(0 + 1 = 1\).",
     ),
     mk(
-        r"Wat is de getransponeerde van \(" + m([1, 2, 3], [4, 5, 6]) + r"\)?",
-        [r"\(" + m([1, 4], [2, 5], [3, 6]) + r"\)", r"\(" + m([6, 5, 4], [3, 2, 1]) + r"\)", r"\(" + m([4, 5, 6], [1, 2, 3]) + r"\)", r"\(" + m([1, 2], [3, 4], [5, 6]) + r"\)"],
+        r"Wat is \(A^T\) als \(A = " + m([2, 0, -1], [5, 3, 7]) + r"\)?",
+        [r"\(" + m([2, 5], [0, 3], [-1, 7]) + r"\)", r"\(" + m([7, 3, 5], [-1, 0, 2]) + r"\)", r"\(" + m([5, 3, 7], [2, 0, -1]) + r"\)", r"\(" + m([2, 0], [-1, 5], [3, 7]) + r"\)"],
         0,
         "Rijen worden kolommen.",
     ),
@@ -169,7 +169,7 @@ VRAGEN = [
         r"Een populatie heeft twee leeftijdsklassen. Lesliematrix \(L = " + m([0, 2], ["0{,}5", 0]) + r"\) (rij 1: jongen per dier, rij 2: overleving). Nu zijn er 100 jonge en 40 oude dieren. Hoeveel zijn er na één periode?",
         ["80 jonge en 50 oude", "100 jonge en 40 oude", "200 jonge en 20 oude", "50 jonge en 80 oude"],
         0,
-        r"\(L \cdot \binom{100}{40} = \binom{0 \cdot 100 + 2 \cdot 40}{0{,}5 \cdot 100 + 0 \cdot 40}\).",
+        r"\(L \cdot \begin{bmatrix} 100 \\ 40 \end{bmatrix} = \begin{bmatrix} 0 \cdot 100 + 2 \cdot 40 \\ 0{,}5 \cdot 100 + 0 \cdot 40 \end{bmatrix}\).",
     ),
     volgorde(
         "Zet de stappen van Gauss-Jordan in de goede volgorde.",
@@ -226,7 +226,7 @@ VRAGEN = [
         "Rij maal kolom loopt over alle tussenstops.",
     ),
     mk(
-        r"Los op: \(" + m([2, 1], [1, 1]) + r" \cdot \binom{x}{y} = \binom{5}{3}\).",
+        r"Los op: \(" + m([2, 1], [1, 1]) + r" \cdot \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 5 \\ 3 \end{bmatrix}\).",
         [r"\(x = 1,\ y = 2\)", r"\(x = 2,\ y = 1\)", r"\(x = 3,\ y = 0\)", r"\(x = 5,\ y = 3\)"],
         1,
         r"\(2x + y = 5\) en \(x + y = 3\). Aftrekken: \(x = 2\).",

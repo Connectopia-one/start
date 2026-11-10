@@ -7029,42 +7029,42 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is het element op rij 2, kolom 1 van \\(\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\cdot \\begin{pmatrix} 2 & 0 \\\\ 1 & 1 \\end{pmatrix}\\)?",
+          "vraag": "Wat is het element op rij 2, kolom 1 van \\(\\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix} \\cdot \\begin{bmatrix} 2 & 0 \\\\ 1 & 1 \\end{bmatrix}\\)?",
           "antwoord": "10",
           "uitleg": "Rij 2 van de eerste matrix maal kolom 1 van de tweede: \\(3 \\cdot 2 + 4 \\cdot 1\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Bereken \\(\\begin{pmatrix} 1 & 2 \\\\ 0 & 1 \\end{pmatrix} \\cdot \\begin{pmatrix} 1 & 0 \\\\ 3 & 1 \\end{pmatrix}\\).",
+          "vraag": "Bereken \\(\\begin{bmatrix} 1 & 2 \\\\ 0 & 1 \\end{bmatrix} \\cdot \\begin{bmatrix} 1 & 0 \\\\ 3 & 1 \\end{bmatrix}\\).",
           "opties": [
-            "\\(\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}\\)",
-            "\\(\\begin{pmatrix} 7 & 2 \\\\ 3 & 1 \\end{pmatrix}\\)",
-            "\\(\\begin{pmatrix} 1 & 2 \\\\ 3 & 7 \\end{pmatrix}\\)",
-            "\\(\\begin{pmatrix} 1 & 0 \\\\ 3 & 1 \\end{pmatrix}\\)"
+            "\\(\\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 7 & 2 \\\\ 3 & 1 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 1 & 2 \\\\ 3 & 7 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 1 & 0 \\\\ 3 & 1 \\end{bmatrix}\\)"
           ],
           "antwoord": 1,
           "uitleg": "Rij maal kolom: \\(1 + 6 = 7\\), \\(0 + 2 = 2\\), \\(0 + 3 = 3\\), \\(0 + 1 = 1\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de getransponeerde van \\(\\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\end{pmatrix}\\)?",
+          "vraag": "Wat is \\(A^T\\) als \\(A = \\begin{bmatrix} 2 & 0 & -1 \\\\ 5 & 3 & 7 \\end{bmatrix}\\)?",
           "opties": [
-            "\\(\\begin{pmatrix} 1 & 4 \\\\ 2 & 5 \\\\ 3 & 6 \\end{pmatrix}\\)",
-            "\\(\\begin{pmatrix} 6 & 5 & 4 \\\\ 3 & 2 & 1 \\end{pmatrix}\\)",
-            "\\(\\begin{pmatrix} 4 & 5 & 6 \\\\ 1 & 2 & 3 \\end{pmatrix}\\)",
-            "\\(\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\\\ 5 & 6 \\end{pmatrix}\\)"
+            "\\(\\begin{bmatrix} 2 & 5 \\\\ 0 & 3 \\\\ -1 & 7 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 7 & 3 & 5 \\\\ -1 & 0 & 2 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 5 & 3 & 7 \\\\ 2 & 0 & -1 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 2 & 0 \\\\ -1 & 5 \\\\ 3 & 7 \\end{bmatrix}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Rijen worden kolommen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Bereken \\(3 \\cdot \\begin{pmatrix} 1 & -2 \\\\ 0 & 4 \\end{pmatrix}\\).",
+          "vraag": "Bereken \\(3 \\cdot \\begin{bmatrix} 1 & -2 \\\\ 0 & 4 \\end{bmatrix}\\).",
           "opties": [
-            "\\(\\begin{pmatrix} 3 & -2 \\\\ 0 & 4 \\end{pmatrix}\\)",
-            "\\(\\begin{pmatrix} 4 & 1 \\\\ 3 & 7 \\end{pmatrix}\\)",
-            "\\(\\begin{pmatrix} 3 & -6 \\\\ 0 & 12 \\end{pmatrix}\\)",
-            "\\(\\begin{pmatrix} 3 & 6 \\\\ 0 & 12 \\end{pmatrix}\\)"
+            "\\(\\begin{bmatrix} 3 & -2 \\\\ 0 & 4 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 4 & 1 \\\\ 3 & 7 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 3 & -6 \\\\ 0 & 12 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 3 & 6 \\\\ 0 & 12 \\end{bmatrix}\\)"
           ],
           "antwoord": 2,
           "uitleg": "Elk element maal 3."
@@ -7128,12 +7128,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Bereken \\(\\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix}^2\\).",
+          "vraag": "Bereken \\(\\begin{bmatrix} 1 & 1 \\\\ 0 & 1 \\end{bmatrix}^2\\).",
           "opties": [
-            "\\(\\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix}\\)",
-            "\\(\\begin{pmatrix} 1 & 2 \\\\ 0 & 1 \\end{pmatrix}\\)",
-            "\\(\\begin{pmatrix} 2 & 2 \\\\ 0 & 2 \\end{pmatrix}\\)",
-            "\\(\\begin{pmatrix} 1 & 1 \\\\ 0 & 0 \\end{pmatrix}\\)"
+            "\\(\\begin{bmatrix} 1 & 1 \\\\ 0 & 1 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 1 & 2 \\\\ 0 & 1 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 2 & 2 \\\\ 0 & 2 \\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix} 1 & 1 \\\\ 0 & 0 \\end{bmatrix}\\)"
           ],
           "antwoord": 1,
           "uitleg": "Vermenigvuldig de matrix met zichzelf, rij maal kolom. Je mag niet elk element apart kwadrateren."
@@ -7164,7 +7164,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een populatie heeft twee leeftijdsklassen. Lesliematrix \\(L = \\begin{pmatrix} 0 & 2 \\\\ 0{,}5 & 0 \\end{pmatrix}\\) (rij 1: jongen per dier, rij 2: overleving). Nu zijn er 100 jonge en 40 oude dieren. Hoeveel zijn er na één periode?",
+          "vraag": "Een populatie heeft twee leeftijdsklassen. Lesliematrix \\(L = \\begin{bmatrix} 0 & 2 \\\\ 0{,}5 & 0 \\end{bmatrix}\\) (rij 1: jongen per dier, rij 2: overleving). Nu zijn er 100 jonge en 40 oude dieren. Hoeveel zijn er na één periode?",
           "opties": [
             "80 jonge en 50 oude",
             "100 jonge en 40 oude",
@@ -7172,7 +7172,7 @@
             "50 jonge en 80 oude"
           ],
           "antwoord": 0,
-          "uitleg": "\\(L \\cdot \\binom{100}{40} = \\binom{0 \\cdot 100 + 2 \\cdot 40}{0{,}5 \\cdot 100 + 0 \\cdot 40}\\)."
+          "uitleg": "\\(L \\cdot \\begin{bmatrix} 100 \\\\ 40 \\end{bmatrix} = \\begin{bmatrix} 0 \\cdot 100 + 2 \\cdot 40 \\\\ 0{,}5 \\cdot 100 + 0 \\cdot 40 \\end{bmatrix}\\)."
         },
         {
           "type": "volgorde",
@@ -7199,7 +7199,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een stelsel heeft rijcanonieke matrix \\(\\left(\\begin{array}{ccc|c} 1 & 0 & 2 & 3 \\\\ 0 & 1 & -1 & 1 \\\\ 0 & 0 & 0 & 0 \\end{array}\\right)\\). Wat voor stelsel is het?",
+          "vraag": "Een stelsel heeft rijcanonieke matrix \\(\\left[\\begin{array}{ccc|c} 1 & 0 & 2 & 3 \\\\ 0 & 1 & -1 & 1 \\\\ 0 & 0 & 0 & 0 \\end{array}\\right]\\). Wat voor stelsel is het?",
           "opties": [
             "Bepaald: één oplossing",
             "Strijdig: geen oplossing",
@@ -7211,7 +7211,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een stelsel heeft als matrix na rijoperaties \\(\\left(\\begin{array}{cc|c} 1 & 2 & 3 \\\\ 0 & 0 & 4 \\end{array}\\right)\\). Wat besluit je?",
+          "vraag": "Een stelsel heeft als matrix na rijoperaties \\(\\left[\\begin{array}{cc|c} 1 & 2 & 3 \\\\ 0 & 0 & 4 \\end{array}\\right]\\). Wat besluit je?",
           "opties": [
             "Het stelsel is bepaald",
             "Het stelsel is onbepaald",
@@ -7271,7 +7271,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Los op: \\(\\begin{pmatrix} 2 & 1 \\\\ 1 & 1 \\end{pmatrix} \\cdot \\binom{x}{y} = \\binom{5}{3}\\).",
+          "vraag": "Los op: \\(\\begin{bmatrix} 2 & 1 \\\\ 1 & 1 \\end{bmatrix} \\cdot \\begin{bmatrix} x \\\\ y \\end{bmatrix} = \\begin{bmatrix} 5 \\\\ 3 \\end{bmatrix}\\).",
           "opties": [
             "\\(x = 1,\\ y = 2\\)",
             "\\(x = 2,\\ y = 1\\)",
@@ -7312,10 +7312,10 @@
               "type": "meerkeuze",
               "vraag": "Welke uitgebreide coëfficiëntenmatrix hoort bij dat stelsel?",
               "opties": [
-                "\\(\\left(\\begin{array}{cc|c} 2 & 1 & 100 \\\\ 1 & 1 & 70 \\end{array}\\right)\\)",
-                "\\(\\left(\\begin{array}{cc|c} 2 & 1 & 70 \\\\ 1 & 1 & 100 \\end{array}\\right)\\)",
-                "\\(\\left(\\begin{array}{cc|c} 1 & 2 & 100 \\\\ 1 & 1 & 70 \\end{array}\\right)\\)",
-                "\\(\\left(\\begin{array}{cc|c} 2 & 1 & 1 \\\\ 1 & 100 & 70 \\end{array}\\right)\\)"
+                "\\(\\left[\\begin{array}{cc|c} 2 & 1 & 100 \\\\ 1 & 1 & 70 \\end{array}\\right]\\)",
+                "\\(\\left[\\begin{array}{cc|c} 2 & 1 & 70 \\\\ 1 & 1 & 100 \\end{array}\\right]\\)",
+                "\\(\\left[\\begin{array}{cc|c} 1 & 2 & 100 \\\\ 1 & 1 & 70 \\end{array}\\right]\\)",
+                "\\(\\left[\\begin{array}{cc|c} 2 & 1 & 1 \\\\ 1 & 100 & 70 \\end{array}\\right]\\)"
               ],
               "antwoord": 0,
               "uitleg": "Per rij: de coëfficiënten van t en s, en na de streep het rechterlid."
