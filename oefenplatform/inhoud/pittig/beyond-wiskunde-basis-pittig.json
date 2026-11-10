@@ -4624,21 +4624,21 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "De lengte van volwassenen in een groep is normaal verdeeld met \\(\\mu = 170\\) cm en \\(\\sigma = 8\\) cm. Hoeveel procent is langer dan 186 cm?",
+          "vraag": "De lengte van volwassenen in een groep is normaal verdeeld met \\(\\mu = 170\\) cm en \\(\\sigma = 8\\) cm. Hoeveel procent is langer dan 178 cm?",
           "opties": [
-            "\\(5\\) %",
-            "\\(0{,}15\\) %",
+            "\\(32\\) %",
+            "\\(34\\) %",
             "\\(16\\) %",
-            "\\(2{,}5\\) %"
+            "\\(50\\) %"
           ],
-          "antwoord": 3,
-          "uitleg": "\\(186 = \\mu + 2\\sigma\\). Buiten \\(\\mu \\pm 2\\sigma\\) ligt \\(5\\) %, de helft daarvan aan de rechterkant."
+          "antwoord": 2,
+          "uitleg": "\\(178 = \\mu + \\sigma\\). Buiten \\(\\mu \\pm \\sigma\\) ligt ongeveer een derde, de helft daarvan aan de rechterkant."
         },
         {
           "type": "invultekst",
-          "vraag": "Een machine vult flessen met \\(\\mu = 1000\\) ml en \\(\\sigma = 4\\) ml (normaal verdeeld). Hoeveel procent van de flessen bevat tussen 996 en 1008 ml? Geef een kommagetal.",
-          "antwoord": "81,5",
-          "uitleg": "\\(996 = \\mu - \\sigma\\) en \\(1008 = \\mu + 2\\sigma\\). De helft van \\(68\\) % plus de helft van \\(95\\) %: \\(34 + 47{,}5\\)."
+          "vraag": "Een machine vult flessen met \\(\\mu = 1000\\) ml en \\(\\sigma = 4\\) ml (normaal verdeeld). Hoeveel procent van de flessen bevat tussen 1000 en 1012 ml? Geef een kommagetal.",
+          "antwoord": "49,85",
+          "uitleg": "\\(1000 = \\mu\\) en \\(1012 = \\mu + 3\\sigma\\). Van \\(\\mu - 3\\sigma\\) tot \\(\\mu + 3\\sigma\\) ligt \\(99{,}7\\) %, de rechterhelft daarvan is \\(49{,}85\\) %."
         },
         {
           "type": "meerkeuze",
@@ -5111,7 +5111,7 @@
             true,
             false
           ],
-          "uitleg": "Zonder nulwaarden is de oplossing \\(\\mathbb{R}\\) of \\(\\varnothing\\). \\(0^2 = 0\\) is niet kleiner dan 0."
+          "uitleg": "Er kan ook maar één grens zijn, of geen enkele. \\(0^2 = 0\\) is niet kleiner dan 0."
         },
         {
           "type": "keuzelijst",

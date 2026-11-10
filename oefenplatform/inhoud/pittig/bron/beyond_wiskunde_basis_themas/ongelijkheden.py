@@ -112,7 +112,7 @@ VRAGEN = [
             ("Bij een strikte ongelijkheid zijn de grenzen bij de nulwaarden open.", J),
             (r"De oplossingenverzameling van \(x^2 < 0\) is \(\{0\}\).", F),
         ],
-        r"Zonder nulwaarden is de oplossing \(\mathbb{R}\) of \(\varnothing\). \(0^2 = 0\) is niet kleiner dan 0.",
+        r"Er kan ook maar één grens zijn, of geen enkele. \(0^2 = 0\) is niet kleiner dan 0.",
     ),
     keuze(
         r"Bij een dalparabool \(ax^2 + bx + c\) (\(a > 0\)) met twee nulwaarden is de uitdrukking [[*negatief|positief|nul]] tussen de nulwaarden en [[*positief|negatief|nul]] erbuiten.",

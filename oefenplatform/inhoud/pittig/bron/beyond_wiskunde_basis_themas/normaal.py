@@ -67,15 +67,15 @@ VRAGEN = [
         r"Gekleurd is van \(60\) tot \(120\): van \(\mu - 2\sigma\) tot \(\mu + 2\sigma\).",
     )),
     mk(
-        r"De lengte van volwassenen in een groep is normaal verdeeld met \(\mu = 170\) cm en \(\sigma = 8\) cm. Hoeveel procent is langer dan 186 cm?",
-        [r"\(5\) %", r"\(0{,}15\) %", r"\(16\) %", r"\(2{,}5\) %"],
-        3,
-        r"\(186 = \mu + 2\sigma\). Buiten \(\mu \pm 2\sigma\) ligt \(5\) %, de helft daarvan aan de rechterkant.",
+        r"De lengte van volwassenen in een groep is normaal verdeeld met \(\mu = 170\) cm en \(\sigma = 8\) cm. Hoeveel procent is langer dan 178 cm?",
+        [r"\(32\) %", r"\(34\) %", r"\(16\) %", r"\(50\) %"],
+        2,
+        r"\(178 = \mu + \sigma\). Buiten \(\mu \pm \sigma\) ligt ongeveer een derde, de helft daarvan aan de rechterkant.",
     ),
     inv(
-        r"Een machine vult flessen met \(\mu = 1000\) ml en \(\sigma = 4\) ml (normaal verdeeld). Hoeveel procent van de flessen bevat tussen 996 en 1008 ml? Geef een kommagetal.",
-        "81,5",
-        r"\(996 = \mu - \sigma\) en \(1008 = \mu + 2\sigma\). De helft van \(68\) % plus de helft van \(95\) %: \(34 + 47{,}5\).",
+        r"Een machine vult flessen met \(\mu = 1000\) ml en \(\sigma = 4\) ml (normaal verdeeld). Hoeveel procent van de flessen bevat tussen 1000 en 1012 ml? Geef een kommagetal.",
+        "49,85",
+        r"\(1000 = \mu\) en \(1012 = \mu + 3\sigma\). Van \(\mu - 3\sigma\) tot \(\mu + 3\sigma\) ligt \(99{,}7\) %, de rechterhelft daarvan is \(49{,}85\) %.",
     ),
     mk(
         r"De levensduur van batterijen is normaal verdeeld met \(\sigma = 20\) uur. De fabrikant wil dat maar \(0{,}15\) % van de batterijen het minder dan 300 uur volhoudt. Welk gemiddelde μ is daarvoor nodig?",
