@@ -40,6 +40,13 @@ export const nieuwTekst = {
 
 export const updates: Update[] = [
   {
+    datum: "10 november 2026",
+    titel: "Extra bundels over het hele vak",
+    tekst:
+      "Op de pagina van een vak staat nu, onder de hoofdstukken, een plek voor extra bundels die over het hele vak gaan: bijvoorbeeld een examen op papier om af te drukken, of een lesbundel met afbeeldingen. Als eerste staat er een examen geschiedenis voor Spark, in drie versies.",
+    link: { tekst: "Naar geschiedenis Spark", href: "/niveaus/spark/geschiedenis" },
+  },
+  {
     datum: "9 november 2026",
     titel: "Pittige hoofdstukken bij bedrijfswetenschappen en recht",
     tekst:

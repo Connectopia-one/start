@@ -24,6 +24,12 @@ import { isWelzijn } from "@/lib/welzijn";
 import { Zoekvak } from "@/components/Zoekvak";
 import { RichtingKeuze } from "@/components/RichtingKeuze";
 import { leerrichting, valtWeg } from "@/lib/leerrichting";
+import {
+  extraSoort,
+  magExtraBundel,
+  sorteerExtraBundels,
+  type ExtraBundel,
+} from "@/lib/extraBundels";
 
 /*
   De hoofdstukken van één vak binnen één niveau. Dit is de tweede laag knoppen:
@@ -78,6 +84,24 @@ export default async function NiveauVakPage({
         .eq("profile_id", session.userId)
         .order("naam")
     : { data: [] };
+
+  /*
+    Extra bundels over het hele vak (supabase/extra-bundels.sql): examens op
+    papier, lesbundels, ... Zolang dat bestand niet gedraaid is, geeft dit een
+    fout en blijft de lijst gewoon leeg. Verbetersleutels komen enkel mee voor
+    beheerder en begeleiders (dat regelt de databank zelf).
+  */
+  const { data: extraRijen } = await supabase
+    .from("extra_bundels")
+    .select("id, soort, titel, omschrijving, alleen_begeleiding")
+    .eq("vak_id", vak.id)
+    .eq("niveau", niveau.slug);
+  const extraBundels = sorteerExtraBundels(
+    ((extraRijen ?? []) as Pick<
+      ExtraBundel,
+      "id" | "soort" | "titel" | "omschrijving" | "alleen_begeleiding"
+    >[]).filter((b) => magExtraBundel(b, session?.profile ?? null)),
+  );
 
   const uitleg = await haalKorteUitleg(
     supabase,
@@ -298,6 +322,47 @@ export default async function NiveauVakPage({
               &darr;
             </span>
           </a>
+        )}
+
+        {/* Extra bundels over het hele vak, los van de hoofdstukken (Kim,
+            10 november 2026). Gewone links, want het zijn downloads. */}
+        {extraBundels.length > 0 && (
+          <section className="mt-8">
+            <h2 className="font-display text-lg font-semibold text-ink">
+              <span aria-hidden>🗂️</span> Extra bundels
+            </h2>
+            <p className="mt-0.5 text-sm text-ink-dim">
+              Bundels over het hele vak om af te drukken, los van de hoofdstukken.
+            </p>
+            <ul className="mt-3 space-y-3">
+              {extraBundels.map((b) => (
+                <li key={b.id}>
+                  <a
+                    href={`/niveaus/${niveau.slug}/${vak.slug}/extra/${b.id}`}
+                    target="_blank"
+                    rel="noopener"
+                    className="flex items-center justify-between gap-4 rounded-xl border border-border bg-surface px-5 py-4 transition hover:border-forest"
+                  >
+                    <span>
+                      <span className="font-display font-semibold text-ink">
+                        <span aria-hidden>
+                          {b.alleen_begeleiding ? "🔑" : extraSoort(b.soort).icoon}
+                        </span>{" "}
+                        {b.titel}
+                      </span>
+                      <span className="mt-0.5 block text-sm text-ink-dim">
+                        {b.omschrijving ?? extraSoort(b.soort).naam}
+                        {b.alleen_begeleiding && " · alleen voor de begeleiding"}
+                      </span>
+                    </span>
+                    <span aria-hidden className="text-ink-dim">
+                      &darr;
+                    </span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
         )}
 
         <Leidraad />

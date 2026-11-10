@@ -237,6 +237,24 @@ telkens een tijdelijke link aan om een document te openen.
 Wie begeleider is, stel je in op `/beheer/begeleiders`. Beheerders maken of afzetten kan daar
 bewust niet — dat blijft iets voor de SQL Editor, zodat niemand zichzelf buitensluit.
 
+## Extra bundels per vak (`/beheer/extra-bundels`)
+
+Bundels die bij een **heel vak** horen en niet bij één hoofdstuk: een examen op papier, een
+lesbundel over het hele vak met afbeeldingen, … Ze staan op de vakpagina
+(`/niveaus/<categorie>/<vak>`) onder **Extra bundels**, onder de hoofdstukken.
+
+- Op **`/beheer/extra-bundels`** kies je het vak, de categorie en de soort (examen, lesbundel,
+  andere), geef je een titel en upload je de pdf. Vak en categorie blijven staan na het
+  opladen, zodat je versie A, B en C snel na elkaar zet.
+- Een gewone bundel opent voor iedereen met volledige toegang (net als de hele cursus).
+- Vink **"Alleen voor mij en de begeleiders"** aan bij een verbetersleutel. Ouders en kinderen
+  zien die bundel dan niet eens staan.
+- De opslagmap `extrabundels` is **niet** publiek: bij elke klik kijkt het platform eerst de
+  toegang na en maakt het een link die één minuut werkt. Een doorgestuurde link werkt dus niet.
+
+**Eenmalig**: voer `supabase/extra-bundels.sql` één keer uit in de SQL Editor van je
+Supabase-project.
+
 ## Handig materiaal (`/materiaal`)
 
 Onder de vier niveaus op de startpagina staat een aparte knop **Handig materiaal**. Die leidt naar
