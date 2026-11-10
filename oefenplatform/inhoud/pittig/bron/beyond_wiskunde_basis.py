@@ -34,6 +34,7 @@ THEMAS = [
     ("normaal", "De normale verdeling"),
     ("ongelijkheden", BED + "ongelijkheden oplossen"),
     ("expgonio", BED + "exponentiële en goniometrische vergelijkingen"),
+    ("rekenregels", BED + "afgeleiden berekenen met rekenregels"),
 ]
 
 HOOFDSTUKKEN = [
