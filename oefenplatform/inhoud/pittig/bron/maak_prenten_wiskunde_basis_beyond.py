@@ -16,6 +16,7 @@ Een grafiek is een dict met:
     xlabel, ylabel
     staven    [(x, breedte, hoogte)]: een histogram
     reeksen   [([(n, u_n), ...], kleur, label)]: de punten van een rij
+    vlakken   [(functie, van, tot, kleur)]: gekleurde oppervlakte onder een kromme
     eigen     functie die SVG-stukken teruggeeft (kansboom, tabel); geen assen
 """
 import importlib
@@ -108,6 +109,11 @@ def teken(g):
             d.append(f'<line x1="{pm.LINKS}" y1="{Y(w):.1f}" x2="{pm.RECHTS}" y2="{Y(w):.1f}" stroke="{ORANJE}" stroke-width="2.5" stroke-dasharray="9 7"/>')
         else:
             d.append(f'<line x1="{X(w):.1f}" y1="{pm.BOVEN}" x2="{X(w):.1f}" y2="{pm.ONDER}" stroke="{ORANJE}" stroke-width="2.5" stroke-dasharray="9 7"/>')
+    # gekleurde oppervlakte onder een kromme
+    for f, a, b, kleur in g.get("vlakken", []):
+        pts = [(X(a), Y(0))] + [(X(a + (b - a) * i / 200), Y(f(a + (b - a) * i / 200))) for i in range(201)] + [(X(b), Y(0))]
+        p = " ".join(f"{u:.1f},{v:.1f}" for u, v in pts)
+        d.append(f'<polygon points="{p}" fill="{kleur}" opacity="0.45"/>')
     # krommen
     for f, kleur, label, (a, b) in g.get("krommen", []):
         kl = KLEUREN.get(kleur, kleur)

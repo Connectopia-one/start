@@ -31,6 +31,7 @@ THEMAS = [
     ("rijen", "Rekenkundige en meetkundige rijen"),
     ("kansen", "Kansrekenen met kansbomen en kruistabellen"),
     ("steekproeven", "Steekproeven, samenhang en causaliteit"),
+    ("normaal", "De normale verdeling"),
 ]
 
 HOOFDSTUKKEN = [

@@ -4544,6 +4544,398 @@
           ]
         }
       ]
+    },
+    {
+      "titel": "De normale verdeling — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de top van de kromme met de grootste standaardafwijking.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/normaal-drie-krommen.svg",
+          "zones": [
+            [
+              42.6,
+              50.5,
+              6.0,
+              9.4
+            ]
+          ],
+          "uitleg": "Een grotere standaardafwijking geeft een bredere kromme. Omdat de oppervlakte altijd 1 is, ligt de top dan lager: kromme B."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over de krommen A, B en C?",
+          "rijen": [
+            "A en C hebben dezelfde standaardafwijking.",
+            "A en B hebben hetzelfde gemiddelde.",
+            "De oppervlakte onder B is groter dan die onder A.",
+            "Het gemiddelde van C is kleiner dan dat van A."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "A en C hebben dezelfde vorm, enkel verschoven. A en B hebben hun top boven 60. Onder elke Gausskromme is de oppervlakte 1.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/normaal-drie-krommen.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Kromme C heeft standaardafwijking 5. Hoeveel procent van de waarden ligt ongeveer tussen 70 en 80?",
+          "opties": [
+            "\\(95\\) %",
+            "\\(68\\) %",
+            "\\(50\\) %",
+            "\\(34\\) %"
+          ],
+          "antwoord": 1,
+          "uitleg": "De top van C ligt bij \\(75\\). Van \\(70\\) tot \\(80\\) is \\(\\mu - \\sigma\\) tot \\(\\mu + \\sigma\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/normaal-drie-krommen.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "De testscores hebben \\(\\mu = 90\\) en \\(\\sigma = 15\\). Klik op de horizontale as waar \\(\\mu + \\sigma\\) ligt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/normaal-oppervlakte.svg",
+          "zones": [
+            [
+              60.2,
+              90.6,
+              6.0,
+              9.4
+            ]
+          ],
+          "uitleg": "\\(90 + 15 = 105\\). Daar ligt ook een buigpunt van de kromme."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De testscores hebben \\(\\mu = 90\\) en \\(\\sigma = 15\\). Welke kans stelt de gekleurde oppervlakte ongeveer voor?",
+          "opties": [
+            "\\(0{,}68\\)",
+            "\\(0{,}5\\)",
+            "\\(0{,}95\\)",
+            "\\(0{,}997\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "Gekleurd is van \\(60\\) tot \\(120\\): van \\(\\mu - 2\\sigma\\) tot \\(\\mu + 2\\sigma\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/normaal-oppervlakte.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De lengte van volwassenen in een groep is normaal verdeeld met \\(\\mu = 170\\) cm en \\(\\sigma = 8\\) cm. Hoeveel procent is langer dan 186 cm?",
+          "opties": [
+            "\\(5\\) %",
+            "\\(0{,}15\\) %",
+            "\\(16\\) %",
+            "\\(2{,}5\\) %"
+          ],
+          "antwoord": 3,
+          "uitleg": "\\(186 = \\mu + 2\\sigma\\). Buiten \\(\\mu \\pm 2\\sigma\\) ligt \\(5\\) %, de helft daarvan aan de rechterkant."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een machine vult flessen met \\(\\mu = 1000\\) ml en \\(\\sigma = 4\\) ml (normaal verdeeld). Hoeveel procent van de flessen bevat tussen 996 en 1008 ml? Geef een kommagetal.",
+          "antwoord": "81,5",
+          "uitleg": "\\(996 = \\mu - \\sigma\\) en \\(1008 = \\mu + 2\\sigma\\). De helft van \\(68\\) % plus de helft van \\(95\\) %: \\(34 + 47{,}5\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De levensduur van batterijen is normaal verdeeld met \\(\\sigma = 20\\) uur. De fabrikant wil dat maar \\(0{,}15\\) % van de batterijen het minder dan 300 uur volhoudt. Welk gemiddelde μ is daarvoor nodig?",
+          "opties": [
+            "\\(320\\) uur",
+            "\\(340\\) uur",
+            "\\(360\\) uur",
+            "\\(400\\) uur"
+          ],
+          "antwoord": 2,
+          "uitleg": "Buiten \\(\\mu \\pm 3\\sigma\\) ligt \\(0{,}3\\) %, aan elke kant \\(0{,}15\\) %. Dus \\(\\mu - 3 \\cdot 20 = 300\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over de normale verdeling?",
+          "rijen": [
+            "Een normale verdeling is symmetrisch rond \\(\\mu\\).",
+            "Een normale verdeling ligt volledig vast door \\(\\mu\\) en \\(\\sigma\\).",
+            "De Gausskromme raakt de horizontale as in \\(\\mu \\pm 3\\sigma\\).",
+            "De buigpunten van de Gausskromme liggen bij \\(\\mu \\pm 2\\sigma\\)."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "De kromme nadert de as, maar raakt ze nooit. De buigpunten liggen op één standaardafwijking van het gemiddelde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke verdeling is waarschijnlijk niet symmetrisch?",
+          "opties": [
+            "De lengtes van volwassen vrouwen in België",
+            "De inkomens van alle inwoners van een land",
+            "Het gewicht van zakjes suiker van één machine",
+            "De meetfouten van een goed afgestelde weegschaal"
+          ],
+          "antwoord": 1,
+          "uitleg": "Inkomens hebben een lange staart naar rechts: weinig mensen verdienen heel veel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een rekentoestel geeft voor 20 metingen \\(\\bar{x} = 12{,}4\\) en \\(s = 1{,}8\\). Wat zegt \\(s\\)?",
+          "opties": [
+            "Dat \\(1{,}8\\) de kleinste meting is",
+            "Hoe sterk de metingen rond \\(12{,}4\\) spreiden",
+            "Dat \\(1{,}8\\) % van de metingen fout is",
+            "Hoeveel metingen er boven \\(12{,}4\\) liggen"
+          ],
+          "antwoord": 1,
+          "uitleg": "De standaardafwijking meet de spreiding rond het gemiddelde."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij een normale verdeling vallen gemiddelde, mediaan en modus [[*samen|uit elkaar|weg]]. Bij een verdeling met een lange staart naar rechts ligt het gemiddelde [[*rechts|links|precies op]] van de mediaan.",
+          "uitleg": "Symmetrie houdt de drie samen. Enkele heel grote waarden trekken het gemiddelde naar rechts, de mediaan niet."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is deze grootheid ongeveer normaal verdeeld of niet?",
+          "kolommen": [
+            "Ongeveer normaal",
+            "Niet normaal"
+          ],
+          "items": [
+            [
+              "De lengte van 18-jarige jongens",
+              "Ongeveer normaal"
+            ],
+            [
+              "De wachttijd aan een kassa",
+              "Niet normaal"
+            ],
+            [
+              "De ogen bij veel worpen met één dobbelsteen",
+              "Niet normaal"
+            ],
+            [
+              "De schoenmaat van volwassen vrouwen",
+              "Ongeveer normaal"
+            ],
+            [
+              "Het aantal volgers op sociale media",
+              "Niet normaal"
+            ],
+            [
+              "Het gewicht van appels van één boom",
+              "Ongeveer normaal"
+            ]
+          ],
+          "uitleg": "Wachttijden en volgers zijn scheef verdeeld, een dobbelsteen geeft elke uitkomst even vaak."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een histogram is mooi klokvormig met de hoogste staaf bij 50. Wat kan je besluiten?",
+          "opties": [
+            "Alle waarden liggen tussen 40 en 60",
+            "Het gemiddelde ligt ongeveer bij 50",
+            "De standaardafwijking is 50",
+            "Precies de helft van de waarden is 50"
+          ],
+          "antwoord": 1,
+          "uitleg": "Bij een symmetrische klokvorm liggen gemiddelde en top ongeveer op dezelfde plaats."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "X is normaal verdeeld met \\(\\mu = 50\\) en \\(\\sigma = 10\\). Zet deze kansen van klein naar groot.",
+          "opties": [
+            "\\(P(X > 70)\\)",
+            "\\(P(X > 60)\\)",
+            "\\(P(X < 50)\\)",
+            "\\(P(40 < X < 70)\\)"
+          ],
+          "uitleg": "Ongeveer \\(0{,}025\\), \\(0{,}16\\), \\(0{,}5\\) en \\(0{,}815\\)."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het symbool aan zijn betekenis.",
+          "paren": [
+            [
+              "\\(\\mu\\)",
+              "Het gemiddelde van de populatie"
+            ],
+            [
+              "\\(\\sigma\\)",
+              "De standaardafwijking van de populatie"
+            ],
+            [
+              "\\(\\bar{x}\\)",
+              "Het gemiddelde van een steekproef"
+            ],
+            [
+              "\\(s\\)",
+              "De standaardafwijking van een steekproef"
+            ]
+          ],
+          "extra": [
+            "De mediaan van de populatie"
+          ],
+          "uitleg": "Griekse letters voor de populatie, Latijnse voor de steekproef."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "De grafiek van de dichtheidsfunctie van een normale verdeling heet de [[Gausskromme]]. Een kans is een [[oppervlakte]] onder die kromme, en de totale oppervlakte is [[1]].",
+          "extra": [
+            "histogram",
+            "helling",
+            "100"
+          ],
+          "uitleg": "Kans = oppervlakte, en alles samen is zeker: kans 1."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee klassen halen gemiddeld 14 op 20. In klas A is de standaardafwijking 1, in klas B 3. Wat betekent dat?",
+          "opties": [
+            "Klas B heeft betere punten",
+            "In klas B liggen de punten verder uit elkaar",
+            "In klas A haalt iedereen 14",
+            "Klas A heeft drie keer zoveel leerlingen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Hetzelfde gemiddelde, maar in B zijn er meer heel hoge en heel lage punten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "X is normaal verdeeld met \\(\\mu = 170\\) en \\(\\sigma = 8\\). Een rekenapp geeft \\(P(X < 180) = 0{,}8944\\). Hoe groot is \\(P(X > 180)\\)?",
+          "opties": [
+            "\\(0{,}8944\\)",
+            "\\(0{,}3944\\)",
+            "\\(0{,}1056\\)",
+            "\\(0{,}0528\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "Complement: \\(1 - 0{,}8944\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "X is normaal verdeeld met \\(\\mu = 170\\) en \\(\\sigma = 8\\). Een rekenapp geeft \\(P(160 < X < 180) = 0{,}7887\\). Hoeveel procent ligt buiten dat interval? Rond af op één decimaal.",
+          "antwoord": "21,1",
+          "uitleg": "\\(1 - 0{,}7887 = 0{,}2113\\), dus \\(21{,}1\\) %."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "X is normaal verdeeld met \\(\\mu = 50\\) en \\(\\sigma = 10\\), en \\(P(X < 35) = 0{,}0668\\). Hoe groot is \\(P(X > 65)\\)?",
+          "opties": [
+            "\\(0{,}9332\\)",
+            "\\(0{,}1336\\)",
+            "\\(0{,}5\\)",
+            "\\(0{,}0668\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "\\(35\\) en \\(65\\) liggen even ver van \\(50\\). Door de symmetrie zijn beide staarten even groot."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom \\(P(X \\leq a)\\) en \\(P(X < a)\\) gelijk zijn bij een normale verdeling.",
+          "antwoord": "Een kans is een oppervlakte onder de kromme. De kans op precies één waarde a is de oppervlakte boven één punt: een lijnstuk zonder breedte, dus \\(0\\). Of je a meetelt of niet, verandert de oppervlakte niet.",
+          "uitleg": "Een lijnstuk heeft geen oppervlakte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "X is normaal verdeeld met \\(\\mu = 20\\) en \\(\\sigma = 2\\). Onder welke waarde ligt ongeveer \\(2{,}5\\) % van de waarden?",
+          "opties": [
+            "\\(18\\)",
+            "\\(14\\)",
+            "\\(16\\)",
+            "\\(22\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "\\(\\mu - 2\\sigma = 16\\). Onder die grens ligt de helft van \\(5\\) %."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een histogram van wachttijden heeft een lange staart naar rechts. Mag je de vuistregel 68-95-99,7 gebruiken?",
+          "opties": [
+            "Ja, die geldt voor elke verdeling",
+            "Ja, als de steekproef groot genoeg is",
+            "Nee, die geldt enkel bij een ongeveer normale verdeling",
+            "Nee, want wachttijden hebben geen gemiddelde"
+          ],
+          "antwoord": 2,
+          "uitleg": "De vuistregel steunt op de symmetrische klokvorm."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een steekproef bestaat uit de waarden \\(4, 6, 7, 8, 10\\). Hoeveel is \\(\\bar{x}\\)?",
+          "antwoord": "7",
+          "uitleg": "\\(\\frac{4 + 6 + 7 + 8 + 10}{5} = \\frac{35}{5} = 7\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke reeks heeft de grootste standaardafwijking?",
+          "opties": [
+            "\\(5, 5, 5, 5\\)",
+            "\\(4, 5, 6, 5\\)",
+            "\\(3, 5, 7, 5\\)",
+            "\\(1, 5, 9, 5\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "Alle reeksen hebben gemiddelde \\(5\\). Bij \\(1, 5, 9, 5\\) liggen de waarden het verst van dat gemiddelde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je meet de lengte van heel veel leerlingen en tekent histogrammen met steeds smallere klassen. Wat zie je?",
+          "opties": [
+            "Het histogram wordt steeds platter",
+            "Het histogram gaat steeds meer op een vloeiende klokvorm lijken",
+            "Het histogram krijgt twee toppen",
+            "Het gemiddelde schuift naar rechts"
+          ],
+          "antwoord": 1,
+          "uitleg": "Zo ontstaat het idee van de Gausskromme als dichtheidsfunctie."
+        },
+        {
+          "casus": "Het gewicht van pakken suiker is normaal verdeeld met \\(\\mu = 1005\\) g en \\(\\sigma = 3\\) g. Op de pakken staat 1000 g. Een rekenapp geeft \\(P(X < 1000) = 0{,}0478\\).",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoeveel procent van de pakken weegt minder dan op het pak staat?",
+              "opties": [
+                "Ongeveer \\(0{,}05\\) %",
+                "Ongeveer \\(4{,}8\\) %",
+                "Ongeveer \\(47{,}8\\) %",
+                "Ongeveer \\(95\\) %"
+              ],
+              "antwoord": 1,
+              "uitleg": "\\(0{,}0478 = 4{,}78\\) %."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "In een levering zitten 500 pakken. Hoeveel te lichte pakken verwacht je ongeveer?",
+              "opties": [
+                "\\(5\\)",
+                "\\(48\\)",
+                "\\(24\\)",
+                "\\(2\\)"
+              ],
+              "antwoord": 2,
+              "uitleg": "\\(500 \\cdot 0{,}0478 \\approx 24\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "De fabrikant wil minder te lichte pakken. Wat helpt?",
+              "opties": [
+                "Het opschrift veranderen naar 1005 g",
+                "Het gemiddelde verhogen of nauwkeuriger vullen (kleinere σ)",
+                "De standaardafwijking vergroten",
+                "Meer pakken per levering verkopen"
+              ],
+              "antwoord": 1,
+              "uitleg": "Een hoger gemiddelde schuift de kromme weg van 1000 g, een kleinere σ maakt de linkerstaart dunner."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
