@@ -138,6 +138,20 @@ export default async function BeheerPage() {
           </section>
 
           <section>
+            <h2 className="font-display text-lg font-semibold text-ink">Extra bundels per vak</h2>
+            <p className="mt-3 text-sm text-ink-dim">
+              Examens op papier en lesbundels over een heel vak, los van de hoofdstukken. Verbetersleutels
+              staan voor ouders achter de ouderpincode.
+            </p>
+            <Link
+              href="/beheer/extra-bundels"
+              className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+            >
+              Extra bundels beheren &rarr;
+            </Link>
+          </section>
+
+          <section>
             <h2 className="font-display text-lg font-semibold text-ink">Leuke extra&apos;s</h2>
             <p className="mt-3 text-sm text-ink-dim">
               Links, afdrukbare documenten en filmpjes voor de gratis pagina Leuke extra&apos;s, voor iedereen zichtbaar.

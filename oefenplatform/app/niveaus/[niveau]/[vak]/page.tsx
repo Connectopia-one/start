@@ -24,6 +24,13 @@ import { isWelzijn } from "@/lib/welzijn";
 import { Zoekvak } from "@/components/Zoekvak";
 import { RichtingKeuze } from "@/components/RichtingKeuze";
 import { leerrichting, valtWeg } from "@/lib/leerrichting";
+import {
+  LESBUNDEL_VERVANGT_CURSUS,
+  extraSoort,
+  magExtraBundel,
+  sorteerExtraBundels,
+  type ExtraBundel,
+} from "@/lib/extraBundels";
 
 /*
   De hoofdstukken van één vak binnen één niveau. Dit is de tweede laag knoppen:
@@ -78,6 +85,39 @@ export default async function NiveauVakPage({
         .eq("profile_id", session.userId)
         .order("naam")
     : { data: [] };
+
+  /*
+    Extra bundels over het hele vak (supabase/extra-bundels.sql): examens op
+    papier, lesbundels, ... Zolang dat bestand niet gedraaid is, geeft dit een
+    fout en blijft de lijst gewoon leeg. Verbetersleutels komen enkel mee voor
+    ouders achter de ouderpincode (zie de route extra/[id]).
+  */
+  const { data: extraRijen } = await supabase
+    .from("extra_bundels")
+    .select("id, soort, titel, omschrijving, verbetersleutel")
+    .eq("vak_id", vak.id)
+    .eq("niveau", niveau.slug);
+  const extraBundels = sorteerExtraBundels(
+    ((extraRijen ?? []) as Pick<
+      ExtraBundel,
+      "id" | "soort" | "titel" | "omschrijving" | "verbetersleutel"
+    >[]).filter(() => magExtraBundel(session?.profile ?? null)),
+  );
+
+  /*
+    Kim, 10 november 2026: staat er een lesbundel over het hele vak bij de
+    extra bundels, dan is die uitgebreider dan de aan elkaar geplakte
+    leerbundels. Dan neemt de lesbundel de plaats in van "Hele cursus
+    downloaden" en staat hij niet nog eens bij de extra bundels. Zonder
+    lesbundel blijft de oude cursus-pdf gewoon werken.
+  */
+  const lesbundel = LESBUNDEL_VERVANGT_CURSUS
+    ? extraBundels.find((b) => b.soort === "lesbundel" && !b.verbetersleutel)
+    : undefined;
+  const cursusHref = lesbundel
+    ? `/niveaus/${niveau.slug}/${vak.slug}/extra/${lesbundel.id}`
+    : `/niveaus/${niveau.slug}/${vak.slug}/cursus`;
+  const overigeBundels = extraBundels.filter((b) => b !== lesbundel);
 
   const uitleg = await haalKorteUitleg(
     supabase,
@@ -178,8 +218,8 @@ export default async function NiveauVakPage({
               </Link>
             )}
             <a
-              href={`/niveaus/${niveau.slug}/${vak.slug}/cursus`}
-              download
+              href={cursusHref}
+              {...(lesbundel ? { target: "_blank", rel: "noopener" } : { download: true })}
               className="rounded-full border border-border bg-surface px-3 py-1 text-forest-dark transition hover:border-forest"
             >
               <span aria-hidden>📚</span> Hele cursus downloaden
@@ -276,28 +316,72 @@ export default async function NiveauVakPage({
           </Link>
         )}
 
-        {/* De hele cursus in één pdf: alle leerbundels van dit vak na elkaar
-            (Lotte en Kim, november 2026). Een gewone link, geen Link: het is
-            een download en geen pagina. */}
-        {volledigeToegang && (
-          <a
-            href={`/niveaus/${niveau.slug}/${vak.slug}/cursus`}
-            download
-            className="mt-3 flex items-center justify-between gap-4 rounded-xl border border-border bg-surface px-5 py-4 transition hover:border-forest"
-          >
-            <span>
-              <span className="font-display font-semibold text-ink">
-                <span aria-hidden>📚</span> Hele cursus downloaden
-              </span>
-              <span className="mt-0.5 block text-sm text-ink-dim">
-                Alle leerbundels van dit vak samen in één pdf, in de volgorde
-                van de hoofdstukken. Handig om af te drukken of door te bladeren.
-              </span>
-            </span>
-            <span aria-hidden className="text-ink-dim">
-              &darr;
-            </span>
-          </a>
+        {/* Extra bundels over het hele vak, los van de hoofdstukken (Kim,
+            10 november 2026). Gewone links, want het zijn downloads. */}
+        {(volledigeToegang || overigeBundels.length > 0) && (
+          <section className="mt-8">
+            <h2 className="font-display text-lg font-semibold text-ink">
+              <span aria-hidden>🗂️</span> Extra bundels
+            </h2>
+            <p className="mt-0.5 text-sm text-ink-dim">
+              Bundels over het hele vak om af te drukken, los van de hoofdstukken.
+            </p>
+            <ul className="mt-3 space-y-3">
+              {/* De hele cursus in één pdf: alle leerbundels van dit vak na
+                  elkaar (Lotte en Kim, november 2026). Sinds 10 november
+                  2026 staat hij hier, bovenaan de extra bundels (Kim). */}
+              {volledigeToegang && (
+                <li>
+                <a
+                  href={cursusHref}
+                  {...(lesbundel ? { target: "_blank", rel: "noopener" } : { download: true })}
+                  className="flex items-center justify-between gap-4 rounded-xl border border-border bg-surface px-5 py-4 transition hover:border-forest"
+                >
+                  <span>
+                    <span className="font-display font-semibold text-ink">
+                      <span aria-hidden>📚</span> Hele cursus downloaden
+                    </span>
+                    <span className="mt-0.5 block text-sm text-ink-dim">
+                      {lesbundel
+                        ? lesbundel.omschrijving ??
+                          "De lesbundel over het hele vak, met afbeeldingen. Handig om af te drukken of door te bladeren."
+                        : "Alle leerbundels van dit vak samen in één pdf, in de volgorde van de hoofdstukken. Handig om af te drukken of door te bladeren."}
+                    </span>
+                  </span>
+                  <span aria-hidden className="text-ink-dim">
+                    &darr;
+                  </span>
+                </a>
+                </li>
+              )}
+              {overigeBundels.map((b) => (
+                <li key={b.id}>
+                  <a
+                    href={`/niveaus/${niveau.slug}/${vak.slug}/extra/${b.id}`}
+                    target="_blank"
+                    rel="noopener"
+                    className="flex items-center justify-between gap-4 rounded-xl border border-border bg-surface px-5 py-4 transition hover:border-forest"
+                  >
+                    <span>
+                      <span className="font-display font-semibold text-ink">
+                        <span aria-hidden>
+                          {b.verbetersleutel ? "🔑" : extraSoort(b.soort).icoon}
+                        </span>{" "}
+                        {b.titel}
+                      </span>
+                      <span className="mt-0.5 block text-sm text-ink-dim">
+                        {b.omschrijving ?? extraSoort(b.soort).naam}
+                        {b.verbetersleutel && " · enkel voor ouders, met de ouderpincode"}
+                      </span>
+                    </span>
+                    <span aria-hidden className="text-ink-dim">
+                      &darr;
+                    </span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
         )}
 
         <Leidraad />

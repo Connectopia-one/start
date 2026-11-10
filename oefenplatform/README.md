@@ -237,6 +237,31 @@ telkens een tijdelijke link aan om een document te openen.
 Wie begeleider is, stel je in op `/beheer/begeleiders`. Beheerders maken of afzetten kan daar
 bewust niet — dat blijft iets voor de SQL Editor, zodat niemand zichzelf buitensluit.
 
+## Extra bundels per vak (`/beheer/extra-bundels`)
+
+Bundels die bij een **heel vak** horen en niet bij één hoofdstuk: een examen op papier, een
+lesbundel over het hele vak met afbeeldingen, … Ze staan op de vakpagina
+(`/niveaus/<categorie>/<vak>`) onder **Extra bundels**, onder de hoofdstukken.
+
+- Op **`/beheer/extra-bundels`** kies je het vak, de categorie en de soort (examen, lesbundel,
+  andere), geef je een titel en upload je de pdf. Vak en categorie blijven staan na het
+  opladen, zodat je versie A, B en C snel na elkaar zet.
+- Een gewone bundel opent voor iedereen met volledige toegang (net als de hele cursus).
+- Een **lesbundel over het hele vak** staat voorlopig bij de extra bundels, naast de oude knop
+  **"Hele cursus downloaden"**. Heeft elk vak er een, zet dan `LESBUNDEL_VERVANGT_CURSUS` in
+  `lib/extraBundels.ts` op `true`: dan opent die knop de nieuwe lesbundel (en staat hij niet
+  nog eens bij de extra bundels). Vakken zonder lesbundel houden de oude cursus-pdf.
+- Vink **"Dit is een verbetersleutel"** aan bij de oplossingen. Een ouder opent die enkel met
+  de **ouderpincode** (`lib/ouderpin.ts`): staat er nog geen pincode op het account, dan vraagt
+  het platform eerst om er een in te stellen in Mijn account. Zo kan een kind dat op het
+  account van de ouder oefent, de oplossingen niet openen. Jij en de begeleiders hebben geen
+  pincode nodig.
+- De opslagmap `extrabundels` is **niet** publiek: bij elke klik kijkt het platform eerst de
+  toegang na en maakt het een link die één minuut werkt. Een doorgestuurde link werkt dus niet.
+
+**Eenmalig**: voer `supabase/extra-bundels.sql` één keer uit in de SQL Editor van je
+Supabase-project.
+
 ## Handig materiaal (`/materiaal`)
 
 Onder de vier niveaus op de startpagina staat een aparte knop **Handig materiaal**. Die leidt naar
