@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "10 november 2026",
+    titel: "Hele cursus downloaden geeft de nieuwe lesbundel",
+    tekst:
+      "Heeft een vak al een nieuwe lesbundel met foto's over het hele vak, dan krijg je die nu als je op \"Hele cursus downloaden\" klikt. Bij geschiedenis Spark is dat een bundel van 27 bladzijden met 26 foto's. Vakken die nog geen nieuwe lesbundel hebben, geven gewoon de vertrouwde cursus.",
+    link: { tekst: "Naar geschiedenis Spark", href: "/niveaus/spark/geschiedenis" },
+  },
+  {
+    datum: "10 november 2026",
     titel: "Extra bundels over het hele vak",
     tekst:
       "Op de pagina van een vak staat nu, onder de hoofdstukken, een plek voor extra bundels die over het hele vak gaan: bijvoorbeeld een examen op papier om af te drukken, of een lesbundel met afbeeldingen. Als eerste staan er bij geschiedenis Spark een examen in drie versies en een lesbundel van 26 bladzijden met foto's over het hele vak. De verbetersleutels openen ouders met hun ouderpincode, zodat de oplossingen niet zomaar voor het grijpen liggen.",

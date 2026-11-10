@@ -11,8 +11,10 @@ import { heeftVolledigeToegang } from "@/lib/toegang";
   staan. De nieuwe staat dan bij de extra bundels als "Uitgebreide lesbundel".
   Heeft elk vak er een, zet dit dan op true: dan opent "Hele cursus
   downloaden" de nieuwe lesbundel (vakken zonder lesbundel houden de oude).
+  Kim, 10 november 2026 ('s avonds): toch nu al omschakelen. Vakken met een
+  lesbundel geven die bij "Hele cursus downloaden", de rest houdt de oude.
 */
-export const LESBUNDEL_VERVANGT_CURSUS = false;
+export const LESBUNDEL_VERVANGT_CURSUS = true;
 
 export type ExtraSoort = "examen" | "lesbundel" | "andere";
 
