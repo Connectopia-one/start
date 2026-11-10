@@ -4936,6 +4936,816 @@
           ]
         }
       ]
+    },
+    {
+      "titel": "Bedrijfswetenschappen: ongelijkheden oplossen — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik boven een x-waarde waarvoor \\(f(x) < g(x)\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/ongelijkheden-fg.svg",
+          "zones": [
+            [
+              7.0,
+              4.7,
+              10.3,
+              90.6
+            ],
+            [
+              75.4,
+              4.7,
+              21.6,
+              90.6
+            ]
+          ],
+          "uitleg": "De grafiek van f ligt onder die van g links van \\(x = -2\\) en rechts van \\(x = 3\\), de x-waarden van de snijpunten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de oplossingenverzameling van \\(f(x) \\geq 0\\)?",
+          "opties": [
+            "\\(]-1, 3[\\)",
+            "\\([-1, 3]\\)",
+            "\\(]-\\infty, -1] \\cup [3, +\\infty[\\)",
+            "\\([0, 4]\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "f ligt boven of op de x-as tussen de nulwaarden \\(-1\\) en \\(3\\). Bij \\(\\geq\\) horen de grenzen erbij.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/ongelijkheden-fg.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de oplossingenverzameling van \\(f(x) > 3\\)?",
+          "opties": [
+            "\\(]0, 2[\\)",
+            "\\([0, 2]\\)",
+            "\\(]-1, 3[\\)",
+            "\\(]1, 4[\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De rechte \\(y = 3\\) snijdt f in \\(x = 0\\) en \\(x = 2\\). Daartussen ligt f erboven. Strikt groter: open grenzen.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/ongelijkheden-fg.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik boven een x-waarde in \\([0, 2\\pi]\\) waarvoor \\(2 \\sin x < -1\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/ongelijkheden-sinus.svg",
+          "zones": [
+            [
+              60.2,
+              4.7,
+              28.6,
+              90.6
+            ]
+          ],
+          "uitleg": "\\(2 \\sin x = -1\\) in \\(\\frac{7\\pi}{6}\\) en \\(\\frac{11\\pi}{6}\\). Daartussen ligt de grafiek onder \\(y = -1\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op in \\([0, 2\\pi]\\): \\(2 \\sin x \\geq 1\\).",
+          "opties": [
+            "\\(\\left[\\frac{\\pi}{6}, \\frac{5\\pi}{6}\\right]\\)",
+            "\\(\\left[\\frac{\\pi}{3}, \\frac{2\\pi}{3}\\right]\\)",
+            "\\(\\left]\\frac{\\pi}{6}, \\frac{5\\pi}{6}\\right[\\)",
+            "\\(\\left[0, \\pi\\right]\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\sin x \\geq \\frac{1}{2}\\) vanaf \\(\\frac{\\pi}{6}\\) tot \\(\\frac{5\\pi}{6}\\), grenzen inbegrepen.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/ongelijkheden-sinus.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Voor welke \\(x \\geq 0\\) is \\(3 \\cdot 0{,}8^x \\leq 1\\)? Lees af op de grafiek.",
+          "opties": [
+            "\\(]-\\infty;\\ 4{,}9]\\)",
+            "\\([0;\\ 4{,}9]\\)",
+            "Ongeveer \\([4{,}9;\\ +\\infty[\\)",
+            "\\([3;\\ +\\infty[\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "De dalende grafiek zakt onder de stippellijn \\(y = 1\\) bij ongeveer \\(x = 4{,}9\\) en blijft er daarna onder.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/ongelijkheden-exp.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat is het teken van \\(2x^2 - 8\\) op elk interval?",
+          "rijen": [
+            "\\(]-\\infty, -2[\\)",
+            "\\(]-2, 2[\\)",
+            "\\(]2, +\\infty[\\)"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Nulwaarden \\(\\pm 2\\). Een dalparabool (\\(a = 2 > 0\\)) is negatief tussen de nulwaarden en positief erbuiten.",
+          "kolommen": [
+            "+",
+            "−",
+            "0"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(x^2 - 7x + 10 < 0\\).",
+          "opties": [
+            "\\(]-\\infty, 2[ \\cup ]5, +\\infty[\\)",
+            "\\([2, 5]\\)",
+            "\\(]2, 5[\\)",
+            "\\(]-5, -2[\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "Nulwaarden \\(2\\) en \\(5\\). Negatief tussen de nulwaarden, en strikt: open grenzen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(-x^2 + 4x \\geq 0\\).",
+          "opties": [
+            "\\([0, 4]\\)",
+            "\\(]-\\infty, 0] \\cup [4, +\\infty[\\)",
+            "\\(]0, 4[\\)",
+            "\\([-4, 0]\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(-x(x - 4)\\) heeft nulwaarden \\(0\\) en \\(4\\). Een bergparabool is positief tussen de nulwaarden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(x^2 + 2x + 5 > 0\\).",
+          "opties": [
+            "\\(\\varnothing\\)",
+            "\\(]-1, +\\infty[\\)",
+            "\\(\\mathbb{R}\\)",
+            "\\(]-5, 1[\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "\\(D = 4 - 20 < 0\\): geen nulwaarden. De dalparabool ligt volledig boven de x-as."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(x^2 - 6x + 9 \\leq 0\\).",
+          "opties": [
+            "\\(\\{3\\}\\)",
+            "\\(\\varnothing\\)",
+            "\\(]-\\infty, 3]\\)",
+            "\\(\\mathbb{R}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\((x - 3)^2 \\leq 0\\). Een kwadraat is nooit negatief, dus enkel \\(x = 3\\) voldoet."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over ongelijkheden?",
+          "rijen": [
+            "De oplossing van een ongelijkheid noteer je meestal als interval of als unie van intervallen.",
+            "Een tweedegraadsongelijkheid heeft altijd twee intervalgrenzen.",
+            "Bij een strikte ongelijkheid zijn de grenzen bij de nulwaarden open.",
+            "De oplossingenverzameling van \\(x^2 < 0\\) is \\(\\{0\\}\\)."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Zonder nulwaarden is de oplossing \\(\\mathbb{R}\\) of \\(\\varnothing\\). \\(0^2 = 0\\) is niet kleiner dan 0."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij een dalparabool \\(ax^2 + bx + c\\) (\\(a > 0\\)) met twee nulwaarden is de uitdrukking [[*negatief|positief|nul]] tussen de nulwaarden en [[*positief|negatief|nul]] erbuiten.",
+          "uitleg": "Een dalparabool hangt met haar top onder de x-as."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort het getal 3 bij de verzameling?",
+          "kolommen": [
+            "3 hoort erbij",
+            "3 hoort er niet bij"
+          ],
+          "items": [
+            [
+              "\\([-1, 3]\\)",
+              "3 hoort erbij"
+            ],
+            [
+              "\\(]-1, 3[\\)",
+              "3 hoort er niet bij"
+            ],
+            [
+              "\\([3, +\\infty[\\)",
+              "3 hoort erbij"
+            ],
+            [
+              "\\(]-\\infty, 3[\\)",
+              "3 hoort er niet bij"
+            ],
+            [
+              "\\([2, 5]\\)",
+              "3 hoort erbij"
+            ],
+            [
+              "\\(]3, 7]\\)",
+              "3 hoort er niet bij"
+            ]
+          ],
+          "uitleg": "Een vierkant haakje naar het getal toe: erbij. Een haakje dat van het getal wegdraait: niet erbij."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen om een tweedegraadsongelijkheid op te lossen in de goede volgorde.",
+          "opties": [
+            "Breng alles naar één lid: \\(ax^2 + bx + c\\) tegenover \\(0\\)",
+            "Bereken de nulwaarden",
+            "Maak een tekenverloop",
+            "Lees de gevraagde intervallen af en noteer de oplossingenverzameling"
+          ],
+          "uitleg": "Eerst nul aan één kant, dan nulwaarden, dan tekens."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de ongelijkheid aan haar oplossingenverzameling.",
+          "paren": [
+            [
+              "\\(x^2 - 1 > 0\\)",
+              "\\(]-\\infty, -1[ \\cup ]1, +\\infty[\\)"
+            ],
+            [
+              "\\(x^2 - 1 \\leq 0\\)",
+              "\\([-1, 1]\\)"
+            ],
+            [
+              "\\(x^2 + 1 < 0\\)",
+              "\\(\\varnothing\\)"
+            ],
+            [
+              "\\(x^2 + 1 > 0\\)",
+              "\\(\\mathbb{R}\\)"
+            ]
+          ],
+          "extra": [
+            "\\(]-1, 1[\\)"
+          ],
+          "uitleg": "\\(x^2 - 1\\) wisselt van teken in \\(\\pm 1\\). \\(x^2 + 1\\) is altijd positief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De winst van een bedrijf is \\(W(q) = -2q^2 + 40q - 150\\) (q in honderden stuks). Voor welke q maakt het bedrijf winst?",
+          "opties": [
+            "\\([5, 15]\\)",
+            "\\(]0, 20[\\)",
+            "\\(]-\\infty, 5[ \\cup ]15, +\\infty[\\)",
+            "\\(]5, 15[\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "\\(W(q) > 0\\) geeft \\(q^2 - 20q + 75 < 0\\), nulwaarden \\(5\\) en \\(15\\). Winst strikt tussen beide."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bal wordt opgeschoten: \\(h(t) = -5t^2 + 30t\\) (m, t in s). Wanneer is de bal hoger dan 40 m?",
+          "opties": [
+            "Tussen \\(2\\) s en \\(4\\) s",
+            "Na \\(4\\) s",
+            "Tussen \\(0\\) s en \\(6\\) s",
+            "Enkel op \\(3\\) s"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(-5t^2 + 30t > 40\\) geeft \\(t^2 - 6t + 8 < 0\\), nulwaarden \\(2\\) en \\(4\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Abonnement A kost 10 euro plus 0,05 euro per belminuut. Abonnement B kost vast 18 euro. Vanaf hoeveel belminuten is B goedkoper? Geef het aantal minuten waarboven dat geldt.",
+          "antwoord": "160",
+          "uitleg": "\\(10 + 0{,}05x > 18\\) geeft \\(0{,}05x > 8\\), dus \\(x > 160\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kapitaal groeit volgens \\(K(t) = 500 \\cdot 1{,}04^t\\) (t in jaar). Vanaf welk volle jaar is het meer dan 800 euro?",
+          "opties": [
+            "Vanaf jaar \\(8\\)",
+            "Vanaf jaar \\(12\\)",
+            "Vanaf jaar \\(15\\)",
+            "Vanaf jaar \\(10\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "Snij \\(y_1 = 500 \\cdot 1{,}04^x\\) met \\(y_2 = 800\\): \\(x \\approx 11{,}98\\). Na 12 jaar ligt de grafiek erboven."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "\\(f(x) > 0\\) betekent dat de grafiek van f [[boven]] de x-as ligt. \\(f(x) \\leq g(x)\\) betekent dat de grafiek van f [[onder]] of [[op]] die van g ligt.",
+          "extra": [
+            "naast",
+            "links",
+            "rechts"
+          ],
+          "uitleg": "Een ongelijkheid vergelijkt hoogtes van grafieken."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom je bij \\(x^2 - 4 < 0\\) niet mag schrijven \\(x < \\pm 2\\).",
+          "antwoord": "\\(x^2 < 4\\) geldt voor alle getallen tussen \\(-2\\) en \\(2\\), dus \\(]-2, 2[\\). 'x < ±2' zou ook getallen als \\(-5\\) toelaten, en daar is \\(x^2 = 25\\) niet kleiner dan 4. Met een tekenverloop zie je dat het teken tussen de nulwaarden negatief is.",
+          "uitleg": "Denk aan een getal als −5."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\((x - 1)(x + 3) \\geq 0\\).",
+          "opties": [
+            "\\([-3, 1]\\)",
+            "\\(]-\\infty, -3] \\cup [1, +\\infty[\\)",
+            "\\(]-\\infty, -1] \\cup [3, +\\infty[\\)",
+            "\\(]-3, 1[\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "Nulwaarden \\(-3\\) en \\(1\\). Een dalparabool is positief buiten de nulwaarden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Voor welke waarden van c is de oplossingenverzameling van \\(x^2 + c > 0\\) gelijk aan \\(\\mathbb{R}\\)?",
+          "opties": [
+            "\\(c < 0\\)",
+            "\\(c = 0\\)",
+            "\\(c > 0\\)",
+            "Voor elke c"
+          ],
+          "antwoord": 2,
+          "uitleg": "Bij \\(c = 0\\) valt \\(x = 0\\) weg, bij \\(c < 0\\) zijn er nulwaarden met een negatief stuk ertussen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(-2x + 6 \\leq 0\\).",
+          "opties": [
+            "\\(]-\\infty, 3]\\)",
+            "\\([-3, +\\infty[\\)",
+            "\\(]-\\infty, -3]\\)",
+            "\\([3, +\\infty[\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "\\(-2x \\leq -6\\). Delen door \\(-2\\): \\(x \\geq 3\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op in \\([0, 2\\pi]\\): \\(\\sin x > 0\\).",
+          "opties": [
+            "\\(]0, \\pi[\\)",
+            "\\([0, \\pi]\\)",
+            "\\(]\\pi, 2\\pi[\\)",
+            "\\(\\left]0, \\frac{\\pi}{2}\\right[\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De sinus is positief in het eerste en tweede kwadrant. In \\(0\\) en \\(\\pi\\) is ze \\(0\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los grafisch op: \\(x^3 - 4x > 0\\).",
+          "opties": [
+            "\\(]-\\infty, -2[ \\cup ]0, 2[\\)",
+            "\\(]2, +\\infty[\\)",
+            "\\(]-2, 0[ \\cup ]2, +\\infty[\\)",
+            "\\(]-2, 2[\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "Nulwaarden \\(-2\\), \\(0\\) en \\(2\\). Een derdegraadsfunctie met positieve hoofdcoëfficiënt is helemaal rechts positief en wisselt bij elke enkelvoudige nulwaarde van teken."
+        },
+        {
+          "casus": "Een bedrijf maakt q stuks per dag (\\(0 \\leq q \\leq 40\\)). De kosten zijn \\(K(q) = q^2 + 20q + 100\\) euro, de opbrengst \\(O(q) = 50q\\) euro.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke ongelijkheid moet je oplossen om te weten wanneer er winst is?",
+              "opties": [
+                "\\(50q < q^2 + 20q + 100\\)",
+                "\\(50q > q^2 + 20q + 100\\)",
+                "\\(50q = q^2 + 20q + 100\\)",
+                "\\(q^2 + 20q + 100 > 0\\)"
+              ],
+              "antwoord": 1,
+              "uitleg": "Winst betekent: de opbrengst is groter dan de kosten."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Bij welke aantallen stuks per dag is er winst?",
+              "opties": [
+                "Van \\(4\\) tot en met \\(26\\) stuks",
+                "Van \\(3\\) tot en met \\(27\\) stuks",
+                "Van \\(10\\) tot en met \\(20\\) stuks",
+                "Vanaf \\(4\\) stuks"
+              ],
+              "antwoord": 0,
+              "uitleg": "\\(q^2 - 30q + 100 < 0\\), nulwaarden \\(15 \\pm \\sqrt{125} \\approx 3{,}8\\) en \\(26{,}2\\). q is een geheel aantal."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Bij hoeveel stuks per dag is de winst het grootst?",
+              "opties": [
+                "\\(26\\)",
+                "\\(40\\)",
+                "\\(15\\)",
+                "\\(4\\)"
+              ],
+              "antwoord": 2,
+              "uitleg": "De winst \\(-q^2 + 30q - 100\\) is een bergparabool met top bij \\(q = \\frac{30}{2}\\)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Bedrijfswetenschappen: exponentiële en goniometrische vergelijkingen — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op een snijpunt dat een oplossing geeft van \\(4 \\sin 2x = 2\\) in \\([0, \\pi]\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/expgonio-sinus.svg",
+          "zones": [
+            [
+              11.7,
+              25.9,
+              5.6,
+              8.8
+            ],
+            [
+              41.7,
+              25.9,
+              5.6,
+              8.8
+            ]
+          ],
+          "uitleg": "\\(\\sin 2x = \\frac{1}{2}\\): \\(2x = \\frac{\\pi}{6}\\) of \\(2x = \\frac{5\\pi}{6}\\), dus \\(x = \\frac{\\pi}{12}\\) of \\(x = \\frac{5\\pi}{12}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los algebraïsch op in \\([0, \\pi]\\): \\(4 \\sin 2x = -4\\).",
+          "opties": [
+            "\\(\\left\\{\\frac{3\\pi}{2}\\right\\}\\)",
+            "\\(\\left\\{\\frac{3\\pi}{4}\\right\\}\\)",
+            "\\(\\left\\{\\frac{\\pi}{4}, \\frac{3\\pi}{4}\\right\\}\\)",
+            "\\(\\varnothing\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(\\sin 2x = -1\\) geeft \\(2x = \\frac{3\\pi}{2} + k2\\pi\\), dus \\(x = \\frac{3\\pi}{4} + k\\pi\\). Enkel \\(\\frac{3\\pi}{4}\\) ligt in \\([0, \\pi]\\): het dal van de grafiek.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/expgonio-sinus.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het punt waarvan de x-coördinaat de oplossing is van \\(2^x = 6\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/expgonio-exp.svg",
+          "zones": [
+            [
+              68.5,
+              51.8,
+              6.0,
+              9.4
+            ]
+          ],
+          "uitleg": "Het snijpunt van \\(y = 2^x\\) met \\(y = 6\\) ligt bij \\(x = \\log_2 6 = \\frac{\\log 6}{\\log 2} \\approx 2{,}58\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(3 \\cdot 2^x - 24 = 0\\).",
+          "opties": [
+            "\\(x = 8\\)",
+            "\\(x = 4\\)",
+            "\\(x = 3\\)",
+            "\\(x = \\log 24\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "\\(2^x = 8 = 2^3\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Los op: \\(5^x = 40\\). Rond af op twee decimalen.",
+          "antwoord": "2,29",
+          "uitleg": "\\(x = \\frac{\\log 40}{\\log 5} \\approx \\frac{1{,}6021}{0{,}6990} \\approx 2{,}29\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(7 \\cdot 10^x = 70\\,000\\).",
+          "opties": [
+            "\\(x = 10\\,000\\)",
+            "\\(x = 3\\)",
+            "\\(x = 5\\)",
+            "\\(x = 4\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "\\(10^x = 10\\,000 = 10^4\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(100 \\cdot 0{,}9^t = 50\\).",
+          "opties": [
+            "\\(t \\approx -6{,}58\\)",
+            "\\(t \\approx 0{,}15\\)",
+            "\\(t \\approx 6{,}58\\)",
+            "\\(t \\approx 5{,}56\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "\\(0{,}9^t = 0{,}5\\), dus \\(t = \\frac{\\log 0{,}5}{\\log 0{,}9} \\approx \\frac{-0{,}301}{-0{,}0458}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(2^{x+1} = 16\\).",
+          "opties": [
+            "\\(x = 4\\)",
+            "\\(x = 7\\)",
+            "\\(x = 8\\)",
+            "\\(x = 3\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "\\(16 = 2^4\\), dus \\(x + 1 = 4\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over logaritmen?",
+          "rijen": [
+            "\\(\\log(a \\cdot b) = \\log a + \\log b\\)",
+            "\\(\\log(a + b) = \\log a + \\log b\\)",
+            "\\(\\log(a^n) = n \\cdot \\log a\\)",
+            "\\(\\log\\dfrac{a}{b} = \\dfrac{\\log a}{\\log b}\\)"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Een logaritme maakt van vermenigvuldigen optellen en van een macht een product. Voor een som of een quotiënt van logaritmen bestaat zo'n regel niet."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Om a^x = b op te lossen, neem je van beide leden de [[*logaritme|vierkantswortel|sinus]]. Dan is x gelijk aan [[*log b gedeeld door log a|log a gedeeld door log b|b gedeeld door a]].",
+          "uitleg": "\\(\\log a^x = \\log b\\) geeft \\(x \\log a = \\log b\\)."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Heeft de vergelijking een reële oplossing?",
+          "kolommen": [
+            "Ja",
+            "Nee"
+          ],
+          "items": [
+            [
+              "\\(4 \\cdot 2^x = 1\\)",
+              "Ja"
+            ],
+            [
+              "\\(4 \\cdot 2^x = -1\\)",
+              "Nee"
+            ],
+            [
+              "\\(3 \\sin x = 2\\)",
+              "Ja"
+            ],
+            [
+              "\\(3 \\sin x = 4\\)",
+              "Nee"
+            ],
+            [
+              "\\(0{,}5^x - 2 = 0\\)",
+              "Ja"
+            ],
+            [
+              "\\(2 \\sin 3x + 5 = 0\\)",
+              "Nee"
+            ]
+          ],
+          "uitleg": "Een macht met positief grondtal is altijd positief. Een sinus ligt altijd tussen \\(-1\\) en \\(1\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op in \\([0, 2\\pi]\\): \\(2 \\sin x = 1\\).",
+          "opties": [
+            "\\(\\left\\{\\frac{\\pi}{6}, \\frac{11\\pi}{6}\\right\\}\\)",
+            "\\(\\left\\{\\frac{\\pi}{6}, \\frac{5\\pi}{6}\\right\\}\\)",
+            "\\(\\left\\{\\frac{\\pi}{3}, \\frac{2\\pi}{3}\\right\\}\\)",
+            "\\(\\left\\{\\frac{\\pi}{6}\\right\\}\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(\\sin x = \\frac{1}{2}\\) in het eerste kwadrant (\\(\\frac{\\pi}{6}\\)) en in het tweede (\\(\\pi - \\frac{\\pi}{6}\\))."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zijn alle oplossingen van \\(\\sin x = -\\dfrac{\\sqrt{2}}{2}\\)?",
+          "opties": [
+            "\\(x = -\\frac{\\pi}{4} + k2\\pi\\) of \\(x = \\frac{5\\pi}{4} + k2\\pi\\)",
+            "\\(x = -\\frac{\\pi}{4} + k\\pi\\)",
+            "\\(x = \\frac{\\pi}{4} + k2\\pi\\) of \\(x = \\frac{3\\pi}{4} + k2\\pi\\)",
+            "\\(x = -\\frac{\\pi}{4} + k2\\pi\\) of \\(x = \\frac{3\\pi}{4} + k2\\pi\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eén oplossing is \\(-\\frac{\\pi}{4}\\). De tweede is \\(\\pi - \\left(-\\frac{\\pi}{4}\\right) = \\frac{5\\pi}{4}\\). Daarbij telkens veelvouden van \\(2\\pi\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op in \\(\\left[0, \\dfrac{\\pi}{2}\\right]\\): \\(\\sin 3x = 1\\).",
+          "opties": [
+            "\\(\\dfrac{\\pi}{2}\\)",
+            "\\(\\dfrac{\\pi}{3}\\)",
+            "\\(\\dfrac{\\pi}{9}\\)",
+            "\\(\\dfrac{\\pi}{6}\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "\\(3x = \\frac{\\pi}{2} + k2\\pi\\), dus \\(x = \\frac{\\pi}{6} + k\\frac{2\\pi}{3}\\). Enkel \\(\\frac{\\pi}{6}\\) ligt in het interval."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op in \\([0, 2\\pi]\\): \\(3 \\sin\\left(x - \\dfrac{\\pi}{4}\\right) + 3 = 0\\).",
+          "opties": [
+            "\\(\\dfrac{5\\pi}{4}\\)",
+            "\\(\\dfrac{7\\pi}{4}\\)",
+            "\\(\\dfrac{3\\pi}{4}\\)",
+            "\\(\\dfrac{\\pi}{4}\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(\\sin\\left(x - \\frac{\\pi}{4}\\right) = -1\\), dus \\(x - \\frac{\\pi}{4} = \\frac{3\\pi}{2}\\)."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen om \\(a \\sin b(x - c) + d = 0\\) op te lossen in de goede volgorde.",
+          "opties": [
+            "Isoleer de sinus: \\(\\sin b(x - c) = -\\frac{d}{a}\\)",
+            "Zoek een hoek \\(\\alpha\\) met die sinus",
+            "Schrijf \\(b(x - c) = \\alpha + k2\\pi\\) of \\(b(x - c) = \\pi - \\alpha + k2\\pi\\)",
+            "Los op naar x en kies de oplossingen in het gevraagde interval"
+          ],
+          "uitleg": "Eerst de sinus alleen, dan de hoeken, dan terugrekenen naar x."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de vergelijking aan haar oplossing.",
+          "paren": [
+            [
+              "\\(2^x = 32\\)",
+              "\\(5\\)"
+            ],
+            [
+              "\\(2^x = \\frac{1}{8}\\)",
+              "\\(-3\\)"
+            ],
+            [
+              "\\(10^x = 0{,}01\\)",
+              "\\(-2\\)"
+            ],
+            [
+              "\\(3^x = 1\\)",
+              "\\(0\\)"
+            ]
+          ],
+          "extra": [
+            "\\(\\frac{1}{3}\\)"
+          ],
+          "uitleg": "Schrijf het rechterlid als macht van hetzelfde grondtal. Elk getal tot de macht \\(0\\) is \\(1\\)."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "De periode van \\(\\sin 2x\\) is [[π]]. Daarom heeft \\(\\sin 2x = 0{,}3\\) op \\([0, 2\\pi]\\) [[vier]] oplossingen.",
+          "extra": [
+            "2π",
+            "twee",
+            "acht"
+          ],
+          "uitleg": "\\(\\frac{2\\pi}{2} = \\pi\\): op \\([0, 2\\pi]\\) passen twee perioden, met in elke periode twee oplossingen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een auto verliest elk jaar 15 % van zijn waarde. Na hoeveel jaar is hij nog de helft waard?",
+          "opties": [
+            "Na ongeveer \\(3{,}3\\) jaar",
+            "Na ongeveer \\(4{,}3\\) jaar",
+            "Na ongeveer \\(6{,}7\\) jaar",
+            "Na ongeveer \\(7{,}5\\) jaar"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(0{,}85^t = 0{,}5\\), dus \\(t = \\frac{\\log 0{,}5}{\\log 0{,}85} \\approx 4{,}27\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een bevolking groeit met 2 % per jaar. Na hoeveel volle jaren is ze voor het eerst minstens verdubbeld?",
+          "antwoord": "36",
+          "uitleg": "\\(1{,}02^t = 2\\) geeft \\(t = \\frac{\\log 2}{\\log 1{,}02} \\approx 35{,}003\\). Na 35 jaar is het net nog niet, na 36 jaar wel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een stof halveert elke 8 uur. Na hoeveel uur is er nog 10 % over?",
+          "opties": [
+            "Na \\(80\\) uur",
+            "Na ongeveer \\(13{,}3\\) uur",
+            "Na \\(40\\) uur",
+            "Na ongeveer \\(26{,}6\\) uur"
+          ],
+          "antwoord": 3,
+          "uitleg": "\\(0{,}5^{t/8} = 0{,}1\\), dus \\(\\frac{t}{8} = \\frac{\\log 0{,}1}{\\log 0{,}5} \\approx 3{,}32\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over goniometrische vergelijkingen?",
+          "rijen": [
+            "\\(\\sin x = 1{,}2\\) heeft geen oplossing.",
+            "\\(\\sin x = 0{,}5\\) heeft op \\([0, 2\\pi]\\) twee oplossingen.",
+            "Als \\(\\sin \\alpha = \\sin \\beta\\), dan is \\(\\alpha = \\beta\\).",
+            "\\(\\sin x = -1\\) heeft op \\([0, 2\\pi]\\) twee oplossingen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Ook \\(\\pi - \\alpha\\) en \\(\\alpha + 2\\pi\\) hebben dezelfde sinus. \\(-1\\) wordt op \\([0, 2\\pi]\\) enkel in \\(\\frac{3\\pi}{2}\\) bereikt."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom je bij \\(\\sin x = a\\) (met \\(-1 < a < 1\\)) twee families van oplossingen krijgt.",
+          "antwoord": "Op de goniometrische cirkel zijn er twee beeldpunten met y-coördinaat a: bij \\(\\alpha\\) en bij \\(\\pi - \\alpha\\), symmetrisch rond de y-as. Omdat de sinus periodiek is met periode \\(2\\pi\\), komt bij elk van beide nog \\(k2\\pi\\).",
+          "uitleg": "Denk aan de cirkel: twee punten op dezelfde hoogte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(\\log x = 2\\).",
+          "opties": [
+            "\\(x = 20\\)",
+            "\\(x = 0{,}01\\)",
+            "\\(x = 2\\)",
+            "\\(x = 100\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "\\(\\log x = 2\\) betekent \\(10^2 = x\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De waterhoogte is \\(h(t) = 1{,}5 \\sin\\left(\\frac{\\pi}{6}(t - 2)\\right) + 3\\) (m, t in uur). Wanneer is het water voor het eerst na \\(t = 2\\) op 3,75 m?",
+          "opties": [
+            "Op \\(t = 2{,}5\\)",
+            "Op \\(t = 5\\)",
+            "Op \\(t = 7\\)",
+            "Op \\(t = 3\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "\\(\\sin\\left(\\frac{\\pi}{6}(t - 2)\\right) = 0{,}5\\), dus \\(\\frac{\\pi}{6}(t - 2) = \\frac{\\pi}{6}\\) en \\(t = 3\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(3^{2x} = 81\\).",
+          "opties": [
+            "\\(x = 4\\)",
+            "\\(x = 2\\)",
+            "\\(x = \\frac{1}{2}\\)",
+            "\\(x = 3\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(81 = 3^4\\), dus \\(2x = 4\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(4^x = 2^{x+3}\\).",
+          "opties": [
+            "\\(x = 1\\)",
+            "\\(x = -3\\)",
+            "\\(x = 6\\)",
+            "\\(x = 3\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "\\(4^x = 2^{2x}\\), dus \\(2x = x + 3\\)."
+        },
+        {
+          "casus": "Een patiënt krijgt 200 mg van een medicijn. Elk uur wordt 12 % afgebroken: \\(C(t) = 200 \\cdot 0{,}88^t\\).",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Na hoeveel uur is er nog 100 mg?",
+              "opties": [
+                "Na ongeveer \\(4{,}2\\) uur",
+                "Na ongeveer \\(5{,}4\\) uur",
+                "Na ongeveer \\(8{,}3\\) uur",
+                "Na \\(6\\) uur"
+              ],
+              "antwoord": 1,
+              "uitleg": "\\(0{,}88^t = 0{,}5\\), dus \\(t = \\frac{\\log 0{,}5}{\\log 0{,}88} \\approx 5{,}42\\)."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel mg zit er na 3 uur nog in het bloed? Rond af op een geheel getal.",
+              "antwoord": "136",
+              "uitleg": "\\(200 \\cdot 0{,}88^3 = 200 \\cdot 0{,}681472 \\approx 136\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Een nieuwe dosis is nodig als er minder dan 50 mg over is. Na hoeveel uur is dat?",
+              "opties": [
+                "Na ongeveer \\(16{,}3\\) uur",
+                "Na ongeveer \\(12{,}5\\) uur",
+                "Na ongeveer \\(10{,}8\\) uur",
+                "Na ongeveer \\(8{,}1\\) uur"
+              ],
+              "antwoord": 2,
+              "uitleg": "\\(0{,}88^t = 0{,}25\\), dus \\(t = \\frac{\\log 0{,}25}{\\log 0{,}88} \\approx 10{,}84\\)."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

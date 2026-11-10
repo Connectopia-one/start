@@ -32,6 +32,8 @@ THEMAS = [
     ("kansen", "Kansrekenen met kansbomen en kruistabellen"),
     ("steekproeven", "Steekproeven, samenhang en causaliteit"),
     ("normaal", "De normale verdeling"),
+    ("ongelijkheden", BED + "ongelijkheden oplossen"),
+    ("expgonio", BED + "exponentiële en goniometrische vergelijkingen"),
 ]
 
 HOOFDSTUKKEN = [
