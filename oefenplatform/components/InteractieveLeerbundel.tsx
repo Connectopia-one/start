@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { formulesInHtml } from "@/components/Formule";
+import { formulesInHtml, formulesInTekst } from "@/components/Formule";
 import { useEffect, useRef, useState } from "react";
 import { Legpuzzel } from "@/components/Legpuzzel";
 import { Volgordespel } from "@/components/Volgordespel";
@@ -214,9 +214,10 @@ function Halte({
         Halte {nummer + 1} van {totaal}
         {gestempeld && " · al gehad"}
       </p>
-      <h2 className="mt-1 font-display text-xl font-semibold text-ink">
-        {kop}
-      </h2>
+      <h2
+        className="mt-1 font-display text-xl font-semibold text-ink"
+        dangerouslySetInnerHTML={{ __html: formulesInTekst(kop) }}
+      />
 
       <div className="mt-4">
         {blokken.map((blok, j) => (

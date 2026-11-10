@@ -58,7 +58,7 @@
           "type": "invultekst",
           "vraag": "Roestvrij staal noemen we in de techniek meestal met de korte naam ___.",
           "antwoord": "inox",
-          "uitleg": "Inox is een legering van staal met chroom. Het roest niet, en daarom zitten er bestek, gootstenen en werkbladen van gemaakt."
+          "uitleg": "Inox is een legering van staal met chroom. Het roest niet, en daarom zijn er bestek, gootstenen en werkbladen van gemaakt."
         },
         {
           "type": "waarofniet",
@@ -4461,7 +4461,10 @@
           "vraag": "Een schema met pijlen dat de stappen van een algoritme toont, heet een ___.",
           "antwoord": [
             "flowchart",
-            "stroomdiagram"
+            "stroomdiagram",
+            "stroomschema",
+            "flowdiagram",
+            "processchema"
           ],
           "uitleg": "In een flowchart zie je in één oogopslag de volgorde en de keuzes. Daarom teken je er vaak eerst een voor je begint te programmeren."
         },

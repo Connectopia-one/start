@@ -63,7 +63,7 @@ DEEL1 = [
         type="invultekst",
         vraag="Roestvrij staal noemen we in de techniek meestal met de korte naam ___.",
         antwoord="inox",
-        uitleg="Inox is een legering van staal met chroom. Het roest niet, en daarom zitten er bestek, gootstenen en werkbladen van gemaakt.",
+        uitleg="Inox is een legering van staal met chroom. Het roest niet, en daarom zijn er bestek, gootstenen en werkbladen van gemaakt.",
     ),
     dict(
         type="waarofniet",

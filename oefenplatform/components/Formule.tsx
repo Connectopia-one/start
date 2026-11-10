@@ -52,6 +52,27 @@ export function formulesInHtml(html: string): string {
 }
 
 /*
+  Voor een gewone zin zonder html, zoals de titel van een halte: de letters
+  worden veilig gemaakt, de formules gewoon getekend. Zonder dit stond er in een
+  titel als "Waarom \\(\\mathbb{R}\\) nodig is" letterlijk die latex op het scherm
+  (melding van 10 november 2026).
+*/
+export function formulesInTekst(tekst: string): string {
+  const veilig = (t: string) =>
+    t
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  if (!bevatWiskunde(tekst)) return veilig(tekst);
+  return splitsWiskunde(tekst)
+    .map((stuk) =>
+      stuk.soort === "tekst" ? veilig(stuk.tekst) : teken(stuk.latex, false),
+    )
+    .join("");
+}
+
+/*
   Hoe lang een formule mag zijn voor ze haar eigen schuifruimte krijgt.
 
   Een korte formule (p, \\neg p, \\sqrt{50}) hoort gewoon in de zin te staan,

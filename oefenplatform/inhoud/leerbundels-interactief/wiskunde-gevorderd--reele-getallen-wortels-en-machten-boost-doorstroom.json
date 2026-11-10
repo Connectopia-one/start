@@ -29,12 +29,16 @@
     },
     {
      "soort": "tekst",
+     "html": "Het stukje dat zich telkens herhaalt, heet de <strong>periode</strong>. Bij \\(0{,}333\\ldots\\) is de periode \\(3\\): achter de komma komt er altijd opnieuw een \\(3\\). Bij \\(0{,}142857142857\\ldots\\) is de periode \\(142857\\): die zes cijfers komen samen steeds terug. Een getal met een periode is dus altijd rationaal."
+    },
+    {
+     "soort": "tekst",
      "html": "Een <strong>irrationaal</strong> getal heeft een decimale vorm die <strong>onbegrensd én niet-repeterend</strong> is: ze stopt nooit en herhaalt nooit een patroon. Je kan het dus niet als breuk van twee gehele getallen schrijven. \\(\\sqrt{2}\\), \\(\\sqrt{3}\\), \\(\\sqrt{5}\\) en \\(\\pi\\) zijn zo. En dáárom volstaan de rationale getallen niet om de getallenas te vullen: er blijven gaten open, en juist daar liggen de irrationale getallen. Er bestaan immers lengtes die je niet als breuk kan schrijven: de schuine zijde van een rechthoekige driehoek met rechthoekszijden \\(1\\) en \\(1\\) meet \\(\\sqrt{2}\\). Die uitkomst valt buiten \\(\\mathbb{Q}\\), terwijl de oppervlakte van een rechthoek met zijden \\(3\\) en \\(4\\) er gewoon in blijft."
     }
    ]
   },
   {
-   "kop": "Waarom \\(\\mathbb{R}\\) nodig is",
+   "kop": "Waarom de reële getallen nodig zijn",
    "blokken": [
     {
      "soort": "weetje",

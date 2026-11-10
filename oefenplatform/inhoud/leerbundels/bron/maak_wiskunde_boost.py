@@ -353,6 +353,10 @@ BUNDELS["reele-getallen-wortels-en-machten-boost-doorstroom"] = dict(
                   "<strong>onbegrensd repeterend</strong>, met een stukje dat zich eindeloos herhaalt "
                   "(\\(0{,}333\\ldots\\) of \\(0{,}142857142857\\ldots\\)). Allebei die vormen betekenen: "
                   "het is een breuk."),
+            ("p", "Het stukje dat zich telkens herhaalt, heet de <strong>periode</strong>. Bij "
+                  "\\(0{,}333\\ldots\\) is de periode \\(3\\): achter de komma komt er altijd opnieuw een "
+                  "\\(3\\). Bij \\(0{,}142857142857\\ldots\\) is de periode \\(142857\\): die zes cijfers "
+                  "komen samen steeds terug. Een getal met een periode is dus altijd rationaal."),
             ("p", "Een <strong>irrationaal</strong> getal heeft een decimale vorm die "
                   "<strong>onbegrensd én niet-repeterend</strong> is: ze stopt nooit en herhaalt nooit "
                   "een patroon. Je kan het dus niet als breuk van twee gehele getallen schrijven. "
@@ -364,7 +368,7 @@ BUNDELS["reele-getallen-wortels-en-machten-boost-doorstroom"] = dict(
                   "uitkomst valt buiten \\(\\mathbb{Q}\\), terwijl de oppervlakte van een "
                   "rechthoek met zijden \\(3\\) en \\(4\\) er gewoon in blijft."),
         ]),
-        dict(kop="Waarom \\(\\mathbb{R}\\) nodig is", blokken=[
+        dict(kop="Waarom de reële getallen nodig zijn", blokken=[
             ("weetje", "\\(\\sqrt{9}\\) is géén irrationaal getal: dat is gewoon \\(3\\). Enkel een wortel "
                        "die niet mooi uitkomt, is irrationaal."),
             ("p", "Over <strong>\\(\\pi\\)</strong>: het is irrationaal, dus \\(\\tfrac{22}{7}\\) en "

@@ -3799,7 +3799,10 @@
      "vraag": "Een schema met pijlen dat de stappen van een algoritme toont, heet een ___.",
      "antwoord": [
       "flowchart",
-      "stroomdiagram"
+      "stroomdiagram",
+      "stroomschema",
+      "flowdiagram",
+      "processchema"
      ],
      "uitleg": "In een flowchart zie je in één oogopslag de volgorde en de keuzes. Daarom teken je er vaak eerst een voor je begint te programmeren."
     },

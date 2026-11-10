@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { formulesInTekst } from "@/components/Formule";
 
 /*
   Het spelletje op de eindhalte: zet de haltes weer in de juiste volgorde.
@@ -95,7 +96,10 @@ export function Volgordespel({
             <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-forest text-xs font-bold text-white">
               {plaats + 1}
             </span>
-            <span className="text-ink">{koppen[i]}</span>
+            <span
+              className="text-ink"
+              dangerouslySetInnerHTML={{ __html: formulesInTekst(koppen[i]) }}
+            />
           </li>
         ))}
       </ol>
@@ -113,7 +117,9 @@ export function Volgordespel({
                   mis === i ? "border-danger" : "border-border"
                 }`}
               >
-                {koppen[i]}
+                <span
+                  dangerouslySetInnerHTML={{ __html: formulesInTekst(koppen[i]) }}
+                />
               </button>
             ))}
           {mis !== null && (

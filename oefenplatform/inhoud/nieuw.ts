@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "10 november 2026",
+    titel: "Vier dingen rechtgezet na jullie meldingen",
+    tekst:
+      "Bij techniek rekenen we bij het schema met pijlen nu ook stroomschema, flowdiagram en processchema als juist. Bij de vraag over inox staat de uitleg nu in correct Nederlands. Bij mengsels en zuivere stoffen verraadt de vraag over het koken het antwoord niet meer. En in de leerstof over de reële getallen staat nu uitgelegd wat een periode is, en zijn de titels die vreemde tekens toonden weer gewoon leesbaar.",
+    opVraag: true,
+  },
+  {
+    datum: "10 november 2026",
     titel: "Hele cursus downloaden geeft de nieuwe lesbundel",
     tekst:
       "Heeft een vak al een nieuwe lesbundel met foto's over het hele vak, dan krijg je die nu als je op \"Hele cursus downloaden\" klikt. Bij geschiedenis Spark is dat een bundel van 27 bladzijden met 26 foto's. Vakken die nog geen nieuwe lesbundel hebben, geven gewoon de vertrouwde cursus.",
