@@ -7335,6 +7335,411 @@
           ]
         }
       ]
+    },
+    {
+      "titel": "Bedrijfswetenschappen: hypothesetoetsen en correlatie — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Een steekproef van 100 geeft p̂ = 0,58 (stippellijn). Je toetst rechtszijdig: H₁: p > 0,5. Klik op het gebied waarvan de oppervlakte de p-waarde is.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/toetsen-pwaarde.svg",
+          "zones": [
+            [
+              70.5,
+              74.2,
+              17.6,
+              21.1
+            ]
+          ],
+          "uitleg": "De p-waarde is de oppervlakte onder de kromme vanaf de waargenomen 0,58 in de richting van H₁: de gekleurde rechterstaart."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een rekenapp geeft voor deze rechterstaart een p-waarde van 0,055. Wat besluit je bij een significantieniveau van 10 %?",
+          "opties": [
+            "H₀ niet verwerpen, want 0,055 is kleiner dan 0,5",
+            "H₀ verwerpen: het resultaat is significant",
+            "H₀ is bewezen, want de p-waarde ligt dicht bij 0",
+            "Je kan niets besluiten zonder de populatie"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(0{,}055 < 0{,}10\\): zo'n extreem resultaat is te onwaarschijnlijk als H₀ waar is.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/toetsen-pwaarde.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is hier de nulhypothese?",
+          "opties": [
+            "H₀: p̂ = 0,58",
+            "H₀: p > 0,5",
+            "H₀: p = 0,58",
+            "H₀: p = 0,5"
+          ],
+          "antwoord": 3,
+          "uitleg": "De nulhypothese gaat over de populatieproportie p en zegt 'geen verschil': p = 0,5.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/toetsen-pwaarde.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de leerling die het verst afwijkt van de trendlijn.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/toetsen-studie.svg",
+          "zones": [
+            [
+              67.0,
+              43.5,
+              6.0,
+              9.4
+            ]
+          ],
+          "uitleg": "Na 7 uur studeren verwacht de trendlijn ongeveer 77 %. Deze leerling haalde 52 %."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke correlatiecoëfficiënt past het best bij dit spreidingsdiagram?",
+          "opties": [
+            "\\(r \\approx -0{,}9\\)",
+            "\\(r \\approx 0{,}1\\)",
+            "\\(r = 1\\)",
+            "\\(r \\approx 0{,}9\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "De punten liggen dicht bij een stijgende rechte, maar niet precies erop.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/toetsen-studie.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel leerlingen studeerden meer dan 6 uur?",
+          "antwoord": "4",
+          "uitleg": "Rechts van 6 uur liggen de punten bij 7; 7,5; 8 en 9 uur.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/toetsen-studie.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je kiest vooraf α = 0,05. Wat betekent dat?",
+          "opties": [
+            "De kans dat H₀ waar is, is 5 %",
+            "Je verwerpt H₀ ten onrechte in hoogstens 5 % van de gevallen waarin ze waar is",
+            "5 % van de mensen in de steekproef heeft een fout antwoord gegeven",
+            "Het resultaat van de steekproef wijkt 5 % af van de echte waarde"
+          ],
+          "antwoord": 1,
+          "uitleg": "α is de grens die je vooraf kiest voor het risico om een juiste H₀ toch te verwerpen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een fabrikant beweert dat zijn batterijen gemiddeld 500 uur werken. Een consumentenorganisatie vermoedt dat het minder is. Welke alternatieve hypothese past?",
+          "opties": [
+            "H₁: μ > 500",
+            "H₁: μ = 500",
+            "H₁: μ ≠ 500",
+            "H₁: μ < 500"
+          ],
+          "antwoord": 3,
+          "uitleg": "H₁ is wat je wil aantonen: minder dan 500 uur. Dat is een linkszijdige toets."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een machine moet zakjes van 250 g vullen. Te veel en te weinig zijn allebei een probleem. Welke alternatieve hypothese past?",
+          "opties": [
+            "H₁: μ < 250",
+            "H₁: μ ≠ 250",
+            "H₁: μ > 250",
+            "H₁: x̄ ≠ 250"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een afwijking in beide richtingen telt: een tweezijdige toets over het populatiegemiddelde."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over hypothesetoetsen?",
+          "rijen": [
+            "Een kleine p-waarde is een aanwijzing tegen H₀.",
+            "Bij een tweezijdige toets kijk je enkel naar de rechterstaart.",
+            "Met een grotere steekproef kan je makkelijker een klein verschil aantonen.",
+            "Een p-waarde van 0,30 betekent dat H₀ 30 % kans heeft om waar te zijn."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Tweezijdig tel je beide staarten. Een p-waarde zegt hoe verrassend de gegevens zijn als H₀ waar is, niet hoe waarschijnlijk H₀ is."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een correlatiecoëfficiënt ligt altijd tussen [[*−1 en 1|0 en 1|−100 en 100]]. Bij een dalende trend is r [[*negatief|positief|nul]].",
+          "uitleg": "Het teken volgt de richting van de trend."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Gaat het om een steekproefgrootheid of een populatieparameter?",
+          "kolommen": [
+            "Steekproef",
+            "Populatie"
+          ],
+          "items": [
+            [
+              "p̂",
+              "Steekproef"
+            ],
+            [
+              "p",
+              "Populatie"
+            ],
+            [
+              "x̄",
+              "Steekproef"
+            ],
+            [
+              "μ",
+              "Populatie"
+            ],
+            [
+              "Het gemiddelde inkomen van alle Belgen",
+              "Populatie"
+            ],
+            [
+              "Het aandeel ja-stemmers bij 500 bevraagden",
+              "Steekproef"
+            ]
+          ],
+          "uitleg": "Hoedjes en strepen voor de steekproef, Griekse letters en p voor de populatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tussen de prijs van een product en het aantal verkochte stuks is r = −0,85. Wat betekent dat?",
+          "opties": [
+            "Een hogere prijs gaat sterk samen met minder verkochte stuks",
+            "85 % van de klanten koopt minder als de prijs stijgt",
+            "Er is bijna geen verband, want r is kleiner dan 0",
+            "Een hogere prijs veroorzaakt zeker minder verkoop"
+          ],
+          "antwoord": 0,
+          "uitleg": "Sterk (dicht bij −1) en negatief lineair verband. Over oorzaak zegt r niets."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk spreidingsdiagram kan \\(r \\approx 0\\) hebben?",
+          "opties": [
+            "Punten die mooi op een stijgende rechte liggen",
+            "Punten zonder lineaire trend, zoals een wolk of een symmetrische parabool",
+            "Punten die op een dalende rechte liggen",
+            "Dat kan niet: r is nooit 0 als er punten in het diagram staan"
+          ],
+          "antwoord": 1,
+          "uitleg": "r meet enkel een lineair verband. Een parabool kan een sterk verband zijn, toch is r dan bijna 0."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen van een hypothesetoets in de goede volgorde.",
+          "opties": [
+            "Formuleer H₀ en H₁",
+            "Kies het significantieniveau α",
+            "Verzamel de steekproef en bepaal de p-waarde met ICT",
+            "Vergelijk de p-waarde met α en formuleer het besluit in de context"
+          ],
+          "uitleg": "Hypothesen en α leg je vast voor je naar de gegevens kijkt."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het begrip uit een hypothesetoets aan zijn betekenis.",
+          "paren": [
+            [
+              "Nulhypothese",
+              "De bewering die je op de proef stelt, meestal 'geen verschil'"
+            ],
+            [
+              "Alternatieve hypothese",
+              "Wat je wil aantonen"
+            ],
+            [
+              "Significantieniveau",
+              "De grens voor de p-waarde die je vooraf kiest"
+            ],
+            [
+              "Eenzijdige toets",
+              "Je kijkt naar afwijkingen in één richting"
+            ]
+          ],
+          "extra": [
+            "De grootte van de steekproef"
+          ],
+          "uitleg": "H₀ is het uitgangspunt, H₁ het vermoeden, α de lat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In de zomer is er een sterke correlatie tussen verkochte zonnecrème en verkochte ijsjes. Wat besluit je?",
+          "opties": [
+            "Zonnecrème doet mensen ijs kopen",
+            "IJs eten doet mensen zonnecrème kopen",
+            "Er is samenhang, waarschijnlijk door een derde variabele zoals het zonnige weer",
+            "De correlatie is zeker toeval, want zonnecrème en ijs hebben niets met elkaar te maken"
+          ],
+          "antwoord": 2,
+          "uitleg": "Correlatie is geen causaliteit. Het weer beïnvloedt allebei."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De trendlijn tussen studietijd x (uur) en score y (%) is \\(y = 6x + 35\\). Welke score voorspelt ze na 5 uur studeren?",
+          "opties": [
+            "\\(41\\) %",
+            "\\(65\\) %",
+            "\\(30\\) %",
+            "\\(70\\) %"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(6 \\cdot 5 + 35\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Mag je met diezelfde trendlijn y = 6x + 35 de score na 20 uur studeren voorspellen?",
+          "opties": [
+            "Ja, een trendlijn geldt overal",
+            "Ja, de score is dan 155 %",
+            "Nee, 20 uur ligt ver buiten de gemeten waarden en een score boven 100 % kan niet",
+            "Nee, want een trendlijn mag je enkel gebruiken voor gehele aantallen uren"
+          ],
+          "antwoord": 2,
+          "uitleg": "Voorspellen buiten het gemeten gebied (extrapoleren) is riskant: het verband kan daar anders zijn."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "In een spreidingsdiagram zet je de [[onafhankelijke]] variabele op de horizontale as en de [[afhankelijke]] variabele op de verticale as. Een rechte die het verband zo goed mogelijk weergeeft, heet een [[trendlijn]].",
+          "extra": [
+            "toevallige",
+            "asymptoot",
+            "raaklijn"
+          ],
+          "uitleg": "De afhankelijke variabele hangt (misschien) af van de andere."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat stelt de steekproevenverdeling van p̂ voor?",
+          "opties": [
+            "De verdeling van de antwoorden binnen één steekproef",
+            "Hoe p̂ zou schommelen over heel veel steekproeven van dezelfde grootte",
+            "De verdeling van de hele populatie waaruit je de steekproef trekt",
+            "De kans dat de nulhypothese waar is, berekend uit één steekproef"
+          ],
+          "antwoord": 1,
+          "uitleg": "Elke steekproef geeft een andere p̂. Al die waarden samen vormen de steekproevenverdeling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met de spreiding van de steekproevenverdeling als de steekproefgrootte n toeneemt?",
+          "opties": [
+            "Ze wordt groter",
+            "Ze blijft gelijk",
+            "Ze wordt kleiner",
+            "Ze wordt nul vanaf n = 30"
+          ],
+          "antwoord": 2,
+          "uitleg": "Grotere steekproeven geven waarden die dichter bij de echte p liggen."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom 'H₀ niet verwerpen' niet hetzelfde is als 'H₀ bewijzen'.",
+          "antwoord": "Een grote p-waarde betekent enkel dat de gegevens niet verrassend zijn als H₀ waar is. Ze kunnen ook passen bij een kleine afwijking die je met deze steekproef niet ziet. Je hebt dus onvoldoende bewijs tegen H₀, maar geen bewijs voor H₀.",
+          "uitleg": "Geen bewijs van schuld is nog geen bewijs van onschuld."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een school test of een nieuwe methode het gemiddelde resultaat verhoogt. Nu is dat 62 %. Welk paar hypothesen past?",
+          "opties": [
+            "H₀: μ = 62, H₁: μ > 62",
+            "H₀: μ > 62, H₁: μ = 62",
+            "H₀: μ = 62, H₁: μ ≠ 62",
+            "H₀: x̄ = 62, H₁: x̄ > 62"
+          ],
+          "antwoord": 0,
+          "uitleg": "H₀ zegt 'geen verbetering', H₁ is het vermoeden. Hypothesen gaan over μ, niet over x̄."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een toets geeft een p-waarde van 0,003. Wat besluit je bij α = 0,01?",
+          "opties": [
+            "H₀ verwerpen: het resultaat is significant",
+            "H₀ niet verwerpen",
+            "H₀ heeft 0,3 % kans om waar te zijn",
+            "Je moet de toets herhalen met een grotere steekproef om zeker te zijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(0{,}003 < 0{,}01\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over correlatie?",
+          "rijen": [
+            "r = 1 betekent dat alle punten op een stijgende rechte liggen.",
+            "Een correlatie van 0,9 bewijst een oorzakelijk verband.",
+            "r verandert niet als je x en y van rol wisselt.",
+            "r = −0,8 wijst op een zwakker lineair verband dan r = 0,5."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "De sterkte zit in de afstand tot 0, los van het teken: |−0,8| > 0,5."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een onderzoeker voert 20 toetsen uit met α = 0,05, terwijl H₀ telkens waar is. Hoeveel keer verwacht je toch een significant resultaat?",
+          "opties": [
+            "Nooit",
+            "Ongeveer 1 keer",
+            "Ongeveer 5 keer",
+            "Ongeveer 10 keer"
+          ],
+          "antwoord": 1,
+          "uitleg": "Telkens 5 % kans op een onterechte verwerping: \\(20 \\cdot 0{,}05 = 1\\)."
+        },
+        {
+          "casus": "Een webwinkel beweert dat 90 % van de pakjes op tijd komt. Een klantengroep volgt 200 pakjes: 170 komen op tijd. Ze vermoeden dat het minder is dan 90 %.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welk paar hypothesen past?",
+              "opties": [
+                "H₀: p = 0,9, H₁: p > 0,9",
+                "H₀: p = 0,85, H₁: p < 0,85",
+                "H₀: p = 0,9, H₁: p < 0,9",
+                "H₀: p = 0,9, H₁: p ≠ 0,9"
+              ],
+              "antwoord": 2,
+              "uitleg": "De bewering is p = 0,9. Het vermoeden is 'minder'."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is de steekproefproportie p̂?",
+              "opties": [
+                "\\(0{,}9\\)",
+                "\\(0{,}85\\)",
+                "\\(0{,}17\\)",
+                "\\(0{,}15\\)"
+              ],
+              "antwoord": 1,
+              "uitleg": "\\(\\frac{170}{200}\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Een rekenapp geeft een p-waarde van 0,009. Wat besluit de klantengroep bij α = 0,05?",
+              "opties": [
+                "De webwinkel heeft gelijk: 90 % komt op tijd",
+                "H₀ verwerpen: er is een significante aanwijzing dat minder dan 90 % op tijd komt",
+                "Er komt precies 85 % van alle pakjes op tijd, zoals in de steekproef",
+                "Er is te weinig informatie, want 200 pakjes is maar een klein deel van alle pakjes"
+              ],
+              "antwoord": 1,
+              "uitleg": "\\(0{,}009 < 0{,}05\\). Het besluit gaat over de populatie, met een klein risico op vergissing."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
