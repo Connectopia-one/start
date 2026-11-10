@@ -89,18 +89,18 @@ export default async function NiveauVakPage({
     Extra bundels over het hele vak (supabase/extra-bundels.sql): examens op
     papier, lesbundels, ... Zolang dat bestand niet gedraaid is, geeft dit een
     fout en blijft de lijst gewoon leeg. Verbetersleutels komen enkel mee voor
-    beheerder en begeleiders (dat regelt de databank zelf).
+    ouders achter de ouderpincode (zie de route extra/[id]).
   */
   const { data: extraRijen } = await supabase
     .from("extra_bundels")
-    .select("id, soort, titel, omschrijving, alleen_begeleiding")
+    .select("id, soort, titel, omschrijving, verbetersleutel")
     .eq("vak_id", vak.id)
     .eq("niveau", niveau.slug);
   const extraBundels = sorteerExtraBundels(
     ((extraRijen ?? []) as Pick<
       ExtraBundel,
-      "id" | "soort" | "titel" | "omschrijving" | "alleen_begeleiding"
-    >[]).filter((b) => magExtraBundel(b, session?.profile ?? null)),
+      "id" | "soort" | "titel" | "omschrijving" | "verbetersleutel"
+    >[]).filter(() => magExtraBundel(session?.profile ?? null)),
   );
 
   const uitleg = await haalKorteUitleg(
@@ -346,13 +346,13 @@ export default async function NiveauVakPage({
                     <span>
                       <span className="font-display font-semibold text-ink">
                         <span aria-hidden>
-                          {b.alleen_begeleiding ? "🔑" : extraSoort(b.soort).icoon}
+                          {b.verbetersleutel ? "🔑" : extraSoort(b.soort).icoon}
                         </span>{" "}
                         {b.titel}
                       </span>
                       <span className="mt-0.5 block text-sm text-ink-dim">
                         {b.omschrijving ?? extraSoort(b.soort).naam}
-                        {b.alleen_begeleiding && " · alleen voor de begeleiding"}
+                        {b.verbetersleutel && " · enkel voor ouders, met de ouderpincode"}
                       </span>
                     </span>
                     <span aria-hidden className="text-ink-dim">

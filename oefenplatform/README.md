@@ -247,8 +247,11 @@ lesbundel over het hele vak met afbeeldingen, … Ze staan op de vakpagina
   andere), geef je een titel en upload je de pdf. Vak en categorie blijven staan na het
   opladen, zodat je versie A, B en C snel na elkaar zet.
 - Een gewone bundel opent voor iedereen met volledige toegang (net als de hele cursus).
-- Vink **"Alleen voor mij en de begeleiders"** aan bij een verbetersleutel. Ouders en kinderen
-  zien die bundel dan niet eens staan.
+- Vink **"Dit is een verbetersleutel"** aan bij de oplossingen. Een ouder opent die enkel met
+  de **ouderpincode** (`lib/ouderpin.ts`): staat er nog geen pincode op het account, dan vraagt
+  het platform eerst om er een in te stellen in Mijn account. Zo kan een kind dat op het
+  account van de ouder oefent, de oplossingen niet openen. Jij en de begeleiders hebben geen
+  pincode nodig.
 - De opslagmap `extrabundels` is **niet** publiek: bij elke klik kijkt het platform eerst de
   toegang na en maakt het een link die één minuut werkt. Een doorgestuurde link werkt dus niet.
 

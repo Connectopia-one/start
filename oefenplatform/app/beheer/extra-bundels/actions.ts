@@ -27,7 +27,7 @@ export async function registreerExtraBundel(input: {
   titel: string;
   omschrijving?: string | null;
   bestandspad: string;
-  alleenBegeleiding: boolean;
+  verbetersleutel: boolean;
 }) {
   await requireBeheerder();
   if (!vindNiveau(input.niveau)) throw new Error("Kies een categorie.");
@@ -42,7 +42,7 @@ export async function registreerExtraBundel(input: {
     titel: input.titel.trim(),
     omschrijving: input.omschrijving?.trim() || null,
     bestandspad: input.bestandspad,
-    alleen_begeleiding: input.alleenBegeleiding,
+    verbetersleutel: input.verbetersleutel,
   });
   if (error) {
     await admin.storage.from("extrabundels").remove([input.bestandspad]);

@@ -11,8 +11,11 @@
 --
 -- Wie mag wat openen:
 --   - een gewone bundel: iedereen met volledige toegang (net als de cursus);
---   - een bundel met "alleen_begeleiding" aan (bv. een verbetersleutel):
---     enkel jij en de begeleiders. Ouders en kinderen zien hem niet eens.
+--   - een verbetersleutel (vinkje "verbetersleutel" aan): jij en de
+--     begeleiders altijd; een ouder met volledige toegang enkel achter de
+--     ouderpincode (lib/ouderpin.ts, Kim 10 november 2026). Zonder pincode op
+--     het account vraagt het platform eerst om er een in te stellen, zodat
+--     een kind op het account van de ouder de oplossingen niet kan openen.
 --
 -- De opslagmap staat NIET op publiek. Het platform kijkt bij elke klik eerst
 -- of je het bestand mag zien en maakt dan een link die één minuut werkt.
@@ -31,8 +34,8 @@ create table if not exists public.extra_bundels (
   titel text not null,
   omschrijving text,
   bestandspad text not null,
-  -- Aan = enkel voor beheerder en begeleiders (verbetersleutels).
-  alleen_begeleiding boolean not null default false,
+  -- Aan = verbetersleutel: voor ouders enkel achter de ouderpincode.
+  verbetersleutel boolean not null default false,
   created_at timestamptz not null default now()
 );
 
@@ -41,11 +44,11 @@ create index if not exists extra_bundels_vak_idx
 
 alter table public.extra_bundels enable row level security;
 
--- Lezen: de gewone bundels mag iedereen in de lijst zien (de knop zelf vraagt
--- volledige toegang). Bundels voor de begeleiding enkel beheerder/begeleider.
+-- Lezen: de lijst mag iedereen zien. Het bestand zelf gaat pas open na de
+-- controle in app/niveaus/[niveau]/[vak]/extra/[id]/route.ts.
 drop policy if exists "extra bundels lezen" on public.extra_bundels;
 create policy "extra bundels lezen" on public.extra_bundels for select
-  using (not alleen_begeleiding or public.is_begeleider());
+  using (true);
 
 drop policy if exists "beheerder extra bundels beheer" on public.extra_bundels;
 create policy "beheerder extra bundels beheer" on public.extra_bundels for all

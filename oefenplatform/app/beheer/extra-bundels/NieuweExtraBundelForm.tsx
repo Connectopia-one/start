@@ -45,7 +45,7 @@ export function NieuweExtraBundelForm({ vakken }: { vakken: VakKeuze[] }) {
         titel,
         omschrijving: String(data.get("omschrijving") || ""),
         bestandspad: path,
-        alleenBegeleiding: data.get("alleen_begeleiding") === "on",
+        verbetersleutel: data.get("verbetersleutel") === "on",
       });
       // Vak, categorie en soort laten staan: zo zet je versie A, B en C
       // snel na elkaar op.
@@ -111,11 +111,13 @@ export function NieuweExtraBundelForm({ vakken }: { vakken: VakKeuze[] }) {
       </div>
 
       <label className="flex items-start gap-2 text-sm text-ink">
-        <input type="checkbox" name="alleen_begeleiding" className="mt-1" />
+        <input type="checkbox" name="verbetersleutel" className="mt-1" />
         <span>
-          Alleen voor mij en de begeleiders
+          Dit is een verbetersleutel
           <span className="block text-ink-dim">
-            Voor een verbetersleutel. Ouders en kinderen zien deze bundel niet.
+            Ouders openen hem enkel met hun ouderpincode, zodat kinderen op het
+            account van hun ouder de oplossingen niet zien. Jij en de begeleiders
+            hebben geen pincode nodig.
           </span>
         </span>
       </label>

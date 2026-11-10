@@ -140,8 +140,8 @@ export default async function BeheerPage() {
           <section>
             <h2 className="font-display text-lg font-semibold text-ink">Extra bundels per vak</h2>
             <p className="mt-3 text-sm text-ink-dim">
-              Examens op papier en lesbundels over een heel vak, los van de hoofdstukken. Met
-              verbetersleutels die enkel jij en de begeleiders zien.
+              Examens op papier en lesbundels over een heel vak, los van de hoofdstukken. Verbetersleutels
+              staan voor ouders achter de ouderpincode.
             </p>
             <Link
               href="/beheer/extra-bundels"

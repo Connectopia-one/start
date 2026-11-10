@@ -15,7 +15,7 @@ export type ExtraBundel = {
   titel: string;
   omschrijving: string | null;
   bestandspad: string;
-  alleen_begeleiding: boolean;
+  verbetersleutel: boolean;
   created_at: string;
 };
 
@@ -33,15 +33,13 @@ export function isBegeleiding(profile: Profile | null): boolean {
   return profile?.role === "beheerder" || profile?.role === "begeleider";
 }
 
-/** Mag dit account deze extra bundel openen? */
-export function magExtraBundel(
-  bundel: Pick<ExtraBundel, "alleen_begeleiding">,
-  profile: Profile | null,
-): boolean {
-  if (bundel.alleen_begeleiding) return isBegeleiding(profile);
+/**
+ * Mag dit account deze extra bundel zien op de vakpagina? Een verbetersleutel
+ * vraagt bij het openen voor een ouder nog de ouderpincode (zie de route).
+ */
+export function magExtraBundel(profile: Profile | null): boolean {
   return heeftVolledigeToegang(profile) || isBegeleiding(profile);
 }
-
 /** Eerst de examens, dan de lesbundels, dan de rest; daarbinnen op titel. */
 export function sorteerExtraBundels<T extends Pick<ExtraBundel, "soort" | "titel">>(rijen: T[]): T[] {
   const volgorde = extraSoorten.map((s) => s.slug as string);

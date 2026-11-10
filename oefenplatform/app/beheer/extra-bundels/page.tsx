@@ -60,8 +60,9 @@ export default async function BeheerExtraBundelsPage() {
         <p className="mt-2 text-sm text-ink-dim">
           Bundels die bij een heel vak horen en niet bij één hoofdstuk: een examen op papier,
           een lesbundel over het hele vak, … Ze staan op de vakpagina onder &ldquo;Extra
-          bundels&rdquo;, voor iedereen met volledige toegang. Vink &ldquo;alleen voor mij en
-          de begeleiders&rdquo; aan voor een verbetersleutel.
+          bundels&rdquo;, voor iedereen met volledige toegang. Vink &ldquo;dit is een
+          verbetersleutel&rdquo; aan bij de oplossingen: ouders openen die enkel met hun
+          ouderpincode.
         </p>
 
         {error && (
@@ -92,7 +93,7 @@ export default async function BeheerExtraBundelsPage() {
                   <div className="min-w-0">
                     <p className="text-xs uppercase tracking-wide text-ink-dim">
                       {vak?.naam} · {niveau ? `${niveau.emoji} ${niveau.naam}` : b.niveau}
-                      {b.alleen_begeleiding && " · alleen begeleiding"}
+                      {b.verbetersleutel && " · verbetersleutel (ouderpincode)"}
                     </p>
                     <a
                       href={`/niveaus/${b.niveau}/${vak?.slug}/extra/${b.id}`}
@@ -100,7 +101,7 @@ export default async function BeheerExtraBundelsPage() {
                       rel="noopener"
                       className="font-medium text-ink hover:text-forest"
                     >
-                      <span aria-hidden>{b.alleen_begeleiding ? "🔑" : soort.icoon}</span> {b.titel}
+                      <span aria-hidden>{b.verbetersleutel ? "🔑" : soort.icoon}</span> {b.titel}
                     </a>
                     {b.omschrijving && <p className="text-sm text-ink-dim">{b.omschrijving}</p>}
                   </div>
