@@ -54,27 +54,46 @@ export default async function HomePage() {
       .maybeSingle();
     bericht = (data as Bericht | null) ?? null;
 
-    const { data: eigen } = await supabase
-      .from("meldingen")
-      .select("id, antwoord, afgehandeld_op, hoofdstuk:hoofdstukken(titel)")
-      .eq("profile_id", session.userId)
-      .eq("afgehandeld", true)
-      .not("afgehandeld_op", "is", null)
-      .order("afgehandeld_op", { ascending: false })
-      .limit(3);
+    /* Enkel wat nog niet weggeklikt is (gezien_op, zie
+       supabase/melding-gezien.sql). Staat die kolom er nog niet, dan vragen
+       we het op de oude manier op, zodat er niets stukgaat. */
+    const vraag = () =>
+      supabase
+        .from("meldingen")
+        .select("id, antwoord, afgehandeld_op, hoofdstuk:hoofdstukken(titel)")
+        .eq("profile_id", session.userId)
+        .eq("afgehandeld", true)
+        .not("afgehandeld_op", "is", null)
+        .order("afgehandeld_op", { ascending: false })
+        .limit(10);
+    const nieuw = await vraag().is("gezien_op", null);
+    const eigen = nieuw.error ? (await vraag()).data : nieuw.data;
 
-    meldingen = (eigen ?? []).map((m) => {
+    /* Twee meldingen over hetzelfde hoofdstuk met hetzelfde antwoord worden
+       één bedankje: anders stond er twee keer exact hetzelfde. */
+    const perSoort = new Map<string, MeldingAntwoord>();
+    for (const m of eigen ?? []) {
       // Supabase geeft een gekoppelde tabel terug als object; de typegenerator
       // maakt er soms een lijst van.
       const hoofdstuk = (
         Array.isArray(m.hoofdstuk) ? m.hoofdstuk[0] : m.hoofdstuk
       ) as { titel: string } | null;
-      return {
-        id: m.id as string,
-        antwoord: (m.antwoord as string | null) ?? null,
-        hoofdstuk: hoofdstuk?.titel ?? null,
-      };
-    });
+      const antwoord = ((m.antwoord as string | null) ?? "").trim() || null;
+      const titel = hoofdstuk?.titel ?? null;
+      const sleutel = `${titel ?? ""}|${antwoord ?? ""}`;
+      const al = perSoort.get(sleutel);
+      if (al) {
+        al.ids.push(m.id as string);
+      } else {
+        perSoort.set(sleutel, {
+          id: m.id as string,
+          ids: [m.id as string],
+          antwoord,
+          hoofdstuk: titel,
+        });
+      }
+    }
+    meldingen = [...perSoort.values()].slice(0, 3);
   }
 
   return (
