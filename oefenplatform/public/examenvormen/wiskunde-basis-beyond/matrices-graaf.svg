@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<defs><marker id="pijlpunt" markerUnits="userSpaceOnUse" markerWidth="22" markerHeight="18" refX="18" refY="9" orient="auto"><path d="M0,0 L22,9 L0,18 z" fill="#2f4a22"/></marker></defs>
+<line x1="302.0" y1="170.0" x2="696.0" y2="170.0" stroke="#2f4a22" stroke-width="4" marker-end="url(#pijlpunt)"/>
+<line x1="244.0" y1="212.0" x2="244.0" y2="456.0" stroke="#2f4a22" stroke-width="4" marker-end="url(#pijlpunt)"/>
+<line x1="705.4" y1="193.8" x2="296.3" y2="475.1" stroke="#2f4a22" stroke-width="4" marker-end="url(#pijlpunt)"/>
+<line x1="276.0" y1="458.0" x2="276.0" y2="214.0" stroke="#2f4a22" stroke-width="4" marker-end="url(#pijlpunt)"/>
+<line x1="302.0" y1="500.0" x2="696.0" y2="500.0" stroke="#2f4a22" stroke-width="4" marker-end="url(#pijlpunt)"/>
+<line x1="740.0" y1="458.0" x2="740.0" y2="214.0" stroke="#2f4a22" stroke-width="4" marker-end="url(#pijlpunt)"/>
+<circle cx="260" cy="170" r="42" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="260.0" y="180.0" font-size="30" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="740" cy="170" r="42" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="740.0" y="180.0" font-size="30" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="260" cy="500" r="42" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="260.0" y="510.0" font-size="30" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="740" cy="500" r="42" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="740.0" y="510.0" font-size="30" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<text x="500.0" y="30.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Een gerichte graaf: wegen tussen vier depots</text>
+</svg>

@@ -6943,6 +6943,398 @@
           ]
         }
       ]
+    },
+    {
+      "titel": "Bedrijfswetenschappen: matrices, grafen en stelsels — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Naar welk depot kan je vanuit C in precies twee stappen op twee verschillende manieren rijden? Klik erop.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/matrices-graaf.svg",
+          "zones": [
+            [
+              69.2,
+              19.1,
+              9.6,
+              15.0
+            ]
+          ],
+          "uitleg": "C → A → B en C → D → B. Dat is ook het getal 2 op rij C, kolom B van M², met M de verbindingsmatrix."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het enige depot van waaruit een weg rechtstreeks naar A vertrekt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/matrices-graaf.svg",
+          "zones": [
+            [
+              21.2,
+              70.6,
+              9.6,
+              15.0
+            ]
+          ],
+          "uitleg": "Enkel de pijl C → A komt in A aan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In de verbindingsmatrix M staat op rij i en kolom j een 1 als er een pijl van i naar j gaat. Welke rij hoort bij A (kolommen A, B, C, D)?",
+          "opties": [
+            "\\((1\\ \\ 0\\ \\ 1\\ \\ 0)\\)",
+            "\\((0\\ \\ 1\\ \\ 1\\ \\ 0)\\)",
+            "\\((0\\ \\ 1\\ \\ 0\\ \\ 1)\\)",
+            "\\((0\\ \\ 0\\ \\ 1\\ \\ 0)\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "Vanuit A vertrekken pijlen naar B en naar C.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/matrices-graaf.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat stelt de som van de getallen in één rij van de verbindingsmatrix voor?",
+          "opties": [
+            "Het aantal pijlen dat in dat depot aankomt",
+            "Het totale aantal pijlen van de graaf",
+            "Het aantal pijlen dat uit dat depot vertrekt",
+            "Het aantal wegen van twee stappen"
+          ],
+          "antwoord": 2,
+          "uitleg": "Een rij hoort bij het vertrekpunt: elke 1 is een pijl die daar vertrekt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/matrices-graaf.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "A is een 2×3-matrix en B een 3×4-matrix. Wat is de dimensie van AB?",
+          "opties": [
+            "3×3",
+            "2×4",
+            "4×2",
+            "AB bestaat niet"
+          ],
+          "antwoord": 1,
+          "uitleg": "Het aantal kolommen van A moet gelijk zijn aan het aantal rijen van B. Het product krijgt de rijen van A en de kolommen van B."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "P is een 3×2-matrix en Q een 2×2-matrix. Welk product bestaat niet?",
+          "opties": [
+            "\\(PQ\\)",
+            "\\(Q^2\\)",
+            "\\(QP\\)",
+            "\\(P^T P\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "QP: Q heeft 2 kolommen, P heeft 3 rijen. Dat past niet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is het element op rij 2, kolom 1 van \\(\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\cdot \\begin{pmatrix} 2 & 0 \\\\ 1 & 1 \\end{pmatrix}\\)?",
+          "antwoord": "10",
+          "uitleg": "Rij 2 van de eerste matrix maal kolom 1 van de tweede: \\(3 \\cdot 2 + 4 \\cdot 1\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bereken \\(\\begin{pmatrix} 1 & 2 \\\\ 0 & 1 \\end{pmatrix} \\cdot \\begin{pmatrix} 1 & 0 \\\\ 3 & 1 \\end{pmatrix}\\).",
+          "opties": [
+            "\\(\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}\\)",
+            "\\(\\begin{pmatrix} 7 & 2 \\\\ 3 & 1 \\end{pmatrix}\\)",
+            "\\(\\begin{pmatrix} 1 & 2 \\\\ 3 & 7 \\end{pmatrix}\\)",
+            "\\(\\begin{pmatrix} 1 & 0 \\\\ 3 & 1 \\end{pmatrix}\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "Rij maal kolom: \\(1 + 6 = 7\\), \\(0 + 2 = 2\\), \\(0 + 3 = 3\\), \\(0 + 1 = 1\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de getransponeerde van \\(\\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\end{pmatrix}\\)?",
+          "opties": [
+            "\\(\\begin{pmatrix} 1 & 4 \\\\ 2 & 5 \\\\ 3 & 6 \\end{pmatrix}\\)",
+            "\\(\\begin{pmatrix} 6 & 5 & 4 \\\\ 3 & 2 & 1 \\end{pmatrix}\\)",
+            "\\(\\begin{pmatrix} 4 & 5 & 6 \\\\ 1 & 2 & 3 \\end{pmatrix}\\)",
+            "\\(\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\\\ 5 & 6 \\end{pmatrix}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rijen worden kolommen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bereken \\(3 \\cdot \\begin{pmatrix} 1 & -2 \\\\ 0 & 4 \\end{pmatrix}\\).",
+          "opties": [
+            "\\(\\begin{pmatrix} 3 & -2 \\\\ 0 & 4 \\end{pmatrix}\\)",
+            "\\(\\begin{pmatrix} 4 & 1 \\\\ 3 & 7 \\end{pmatrix}\\)",
+            "\\(\\begin{pmatrix} 3 & -6 \\\\ 0 & 12 \\end{pmatrix}\\)",
+            "\\(\\begin{pmatrix} 3 & 6 \\\\ 0 & 12 \\end{pmatrix}\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "Elk element maal 3."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over rekenen met matrices?",
+          "rijen": [
+            "Voor matrices geldt altijd AB = BA.",
+            "\\((A + B)^T = A^T + B^T\\)",
+            "Voor de eenheidsmatrix I geldt AI = A (als het product bestaat).",
+            "Je kan elke twee matrices bij elkaar optellen."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Het matrixproduct is meestal niet commutatief. Optellen kan enkel bij dezelfde dimensie."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een matrix met evenveel rijen als kolommen heet een [[*vierkante|symmetrische|diagonaal]]matrix. Een matrix waarvoor A = Aᵀ heet [[*symmetrisch|vierkant|leeg]].",
+          "uitleg": "Bij een symmetrische matrix is de hoofddiagonaal een spiegelas."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "A is 2×3, B is 3×3 en C is 2×3. Bestaat de bewerking?",
+          "kolommen": [
+            "Bestaat",
+            "Bestaat niet"
+          ],
+          "items": [
+            [
+              "\\(AB\\)",
+              "Bestaat"
+            ],
+            [
+              "\\(BA\\)",
+              "Bestaat niet"
+            ],
+            [
+              "\\(A + C\\)",
+              "Bestaat"
+            ],
+            [
+              "\\(A + B\\)",
+              "Bestaat niet"
+            ],
+            [
+              "\\(A C^T\\)",
+              "Bestaat"
+            ],
+            [
+              "\\(A^2\\)",
+              "Bestaat niet"
+            ]
+          ],
+          "uitleg": "Optellen: dezelfde dimensie. Vermenigvuldigen: kolommen van de eerste = rijen van de tweede."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bereken \\(\\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix}^2\\).",
+          "opties": [
+            "\\(\\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix}\\)",
+            "\\(\\begin{pmatrix} 1 & 2 \\\\ 0 & 1 \\end{pmatrix}\\)",
+            "\\(\\begin{pmatrix} 2 & 2 \\\\ 0 & 2 \\end{pmatrix}\\)",
+            "\\(\\begin{pmatrix} 1 & 1 \\\\ 0 & 0 \\end{pmatrix}\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "Vermenigvuldig de matrix met zichzelf, rij maal kolom. Je mag niet elk element apart kwadrateren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Van de klanten van merk X blijft 80 % trouw, 20 % stapt over naar Y. Van Y blijft 70 %, 30 % stapt over naar X. Nu heeft elk merk de helft van de klanten. Welk aandeel heeft X volgend jaar?",
+          "opties": [
+            "\\(50\\) %",
+            "\\(80\\) %",
+            "\\(55\\) %",
+            "\\(60\\) %"
+          ],
+          "antwoord": 2,
+          "uitleg": "\\(0{,}5 \\cdot 0{,}8 + 0{,}5 \\cdot 0{,}3 = 0{,}55\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij dezelfde overstap (X houdt 80 %, Y verliest 30 % aan X): welk aandeel heeft X in de evenwichtstoestand?",
+          "opties": [
+            "\\(55\\) %",
+            "\\(50\\) %",
+            "\\(40\\) %",
+            "\\(60\\) %"
+          ],
+          "antwoord": 3,
+          "uitleg": "In evenwicht verandert x niet: \\(x = 0{,}8x + 0{,}3(1 - x)\\), dus \\(0{,}5x = 0{,}3\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een populatie heeft twee leeftijdsklassen. Lesliematrix \\(L = \\begin{pmatrix} 0 & 2 \\\\ 0{,}5 & 0 \\end{pmatrix}\\) (rij 1: jongen per dier, rij 2: overleving). Nu zijn er 100 jonge en 40 oude dieren. Hoeveel zijn er na één periode?",
+          "opties": [
+            "80 jonge en 50 oude",
+            "100 jonge en 40 oude",
+            "200 jonge en 20 oude",
+            "50 jonge en 80 oude"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(L \\cdot \\binom{100}{40} = \\binom{0 \\cdot 100 + 2 \\cdot 40}{0{,}5 \\cdot 100 + 0 \\cdot 40}\\)."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen van Gauss-Jordan in de goede volgorde.",
+          "opties": [
+            "Schrijf de uitgebreide coëfficiëntenmatrix",
+            "Maak met rijoperaties nullen onder de eerste spil",
+            "Werk verder tot de rijcanonieke vorm",
+            "Lees de oplossing af en noteer ze"
+          ],
+          "uitleg": "Eerst de matrix, dan rijoperaties, dan aflezen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(x + y + z = 6\\), \\(y + z = 5\\), \\(z = 3\\).",
+          "opties": [
+            "\\((3, 2, 1)\\)",
+            "\\((1, 3, 2)\\)",
+            "\\((6, 5, 3)\\)",
+            "\\((1, 2, 3)\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "Van onder naar boven: \\(z = 3\\), \\(y = 2\\), \\(x = 1\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een stelsel heeft rijcanonieke matrix \\(\\left(\\begin{array}{ccc|c} 1 & 0 & 2 & 3 \\\\ 0 & 1 & -1 & 1 \\\\ 0 & 0 & 0 & 0 \\end{array}\\right)\\). Wat voor stelsel is het?",
+          "opties": [
+            "Bepaald: één oplossing",
+            "Strijdig: geen oplossing",
+            "Onbepaald: oneindig veel oplossingen",
+            "Dat kan je niet zeggen"
+          ],
+          "antwoord": 2,
+          "uitleg": "Er zijn drie onbekenden maar maar twee spillen, en geen strijdige rij. z blijft vrij te kiezen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een stelsel heeft als matrix na rijoperaties \\(\\left(\\begin{array}{cc|c} 1 & 2 & 3 \\\\ 0 & 0 & 4 \\end{array}\\right)\\). Wat besluit je?",
+          "opties": [
+            "Het stelsel is bepaald",
+            "Het stelsel is onbepaald",
+            "Het stelsel is strijdig",
+            "y = 4"
+          ],
+          "antwoord": 2,
+          "uitleg": "De tweede rij zegt \\(0x + 0y = 4\\): dat kan nooit."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de bijzondere matrix aan haar kenmerk.",
+          "paren": [
+            [
+              "Nulmatrix",
+              "Alle elementen zijn 0"
+            ],
+            [
+              "Eenheidsmatrix",
+              "Enen op de hoofddiagonaal, elders nullen"
+            ],
+            [
+              "Diagonaalmatrix",
+              "Buiten de hoofddiagonaal staan enkel nullen"
+            ],
+            [
+              "Rijmatrix",
+              "Ze heeft maar één rij"
+            ]
+          ],
+          "extra": [
+            "Alle elementen zijn 1"
+          ],
+          "uitleg": "Elke naam zegt wat er bijzonder is aan de elementen of aan de vorm."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij Gauss-Jordan mag je twee rijen [[verwisselen]], een rij vermenigvuldigen met een getal verschillend van [[nul]], en bij een rij een [[veelvoud]] van een andere rij optellen.",
+          "extra": [
+            "kolom",
+            "één",
+            "kwadraat"
+          ],
+          "uitleg": "Zo verandert de oplossingenverzameling niet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Elk jaar verhuist 10 % van de inwoners van stad A naar stad B en 5 % van B naar A. Nu wonen er 20 000 mensen in A en 10 000 in B. Hoeveel wonen er na één jaar in A?",
+          "antwoord": "18500",
+          "uitleg": "\\(0{,}9 \\cdot 20\\,000 + 0{,}05 \\cdot 10\\,000 = 18\\,000 + 500\\)."
+        },
+        {
+          "type": "open",
+          "vraag": "M is de verbindingsmatrix van een graaf. Leg uit wat het getal op rij i en kolom j van M² betekent.",
+          "antwoord": "Het is het aantal wegen van precies twee stappen van i naar j. Bij het berekenen tel je voor elke tussenknoop k het product 'pijl i → k' maal 'pijl k → j' op, en elk product is 1 als beide pijlen bestaan.",
+          "uitleg": "Rij maal kolom loopt over alle tussenstops."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(\\begin{pmatrix} 2 & 1 \\\\ 1 & 1 \\end{pmatrix} \\cdot \\binom{x}{y} = \\binom{5}{3}\\).",
+          "opties": [
+            "\\(x = 1,\\ y = 2\\)",
+            "\\(x = 2,\\ y = 1\\)",
+            "\\(x = 3,\\ y = 0\\)",
+            "\\(x = 5,\\ y = 3\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(2x + y = 5\\) en \\(x + y = 3\\). Aftrekken: \\(x = 2\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een overgangsmatrix van een Markovketen staan in elke kolom de kansen om vanuit één toestand naar elke toestand te gaan. Wat geldt dan voor elke kolom?",
+          "opties": [
+            "De som is 0",
+            "De som is 1",
+            "Er staat juist één 1 in",
+            "De elementen zijn gelijk"
+          ],
+          "antwoord": 1,
+          "uitleg": "Vanuit een toestand ga je zeker ergens naartoe: de kansen samen zijn 1."
+        },
+        {
+          "casus": "Een atelier maakt tafels en stoelen. Een tafel vraagt 2 uur zagen en 1 uur schilderen, een stoel 1 uur zagen en 1 uur schilderen. Deze week is er 100 uur zagen en 70 uur schilderen, en alles wordt gebruikt. Noem t het aantal tafels en s het aantal stoelen.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welk stelsel past bij deze situatie?",
+              "opties": [
+                "\\(2t + s = 70\\), \\(t + s = 100\\)",
+                "\\(2t + s = 100\\), \\(t + s = 70\\)",
+                "\\(t + 2s = 100\\), \\(t + s = 70\\)",
+                "\\(2t + 2s = 170\\)"
+              ],
+              "antwoord": 1,
+              "uitleg": "Zaaguren: 2 per tafel en 1 per stoel. Schilderuren: 1 per tafel en 1 per stoel."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke uitgebreide coëfficiëntenmatrix hoort bij dat stelsel?",
+              "opties": [
+                "\\(\\left(\\begin{array}{cc|c} 2 & 1 & 100 \\\\ 1 & 1 & 70 \\end{array}\\right)\\)",
+                "\\(\\left(\\begin{array}{cc|c} 2 & 1 & 70 \\\\ 1 & 1 & 100 \\end{array}\\right)\\)",
+                "\\(\\left(\\begin{array}{cc|c} 1 & 2 & 100 \\\\ 1 & 1 & 70 \\end{array}\\right)\\)",
+                "\\(\\left(\\begin{array}{cc|c} 2 & 1 & 1 \\\\ 1 & 100 & 70 \\end{array}\\right)\\)"
+              ],
+              "antwoord": 0,
+              "uitleg": "Per rij: de coëfficiënten van t en s, en na de streep het rechterlid."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoeveel tafels en stoelen maakt het atelier?",
+              "opties": [
+                "40 tafels en 30 stoelen",
+                "35 tafels en 35 stoelen",
+                "30 tafels en 40 stoelen",
+                "50 tafels en 20 stoelen"
+              ],
+              "antwoord": 2,
+              "uitleg": "Eerste rij min tweede: \\(t = 30\\). Dan \\(s = 70 - 30\\)."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

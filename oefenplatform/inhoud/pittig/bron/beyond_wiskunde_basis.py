@@ -37,6 +37,7 @@ THEMAS = [
     ("rekenregels", BED + "afgeleiden berekenen met rekenregels"),
     ("verloop", BED + "verloop van een functie en optimaliseren"),
     ("integralen", BED + "integralen en oppervlakte"),
+    ("matrices", BED + "matrices, grafen en stelsels"),
 ]
 
 HOOFDSTUKKEN = [
