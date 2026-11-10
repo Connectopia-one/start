@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "10 november 2026",
+    titel: "Een bedankje voor je melding blijft weg",
+    tekst:
+      "Wie iets meldde, krijgt een bedankje bovenaan het platform zodra we het bekeken hebben. Klik je dat weg, dan komt het nu niet meer terug, ook niet op een andere computer of gsm. Meldde je hetzelfde hoofdstuk twee keer, dan zie je ook maar één bedankje.",
+    opVraag: true,
+  },
+  {
+    datum: "10 november 2026",
     titel: "Extra bundels over het hele vak",
     tekst:
       "Op de pagina van een vak staat nu, onder de hoofdstukken, een plek voor extra bundels die over het hele vak gaan: bijvoorbeeld een examen op papier om af te drukken, of een lesbundel met afbeeldingen. Als eerste staan er bij geschiedenis Spark een examen in drie versies en een lesbundel van 26 bladzijden met foto's over het hele vak. De verbetersleutels openen ouders met hun ouderpincode, zodat de oplossingen niet zomaar voor het grijpen liggen.",

@@ -10,16 +10,28 @@ import { useEffect, useState } from "react";
   bekeken en behandeld hebben?"
 
   Er vertrekt dus geen mail, net als bij het bericht aan alle ouders: het staat
-  bovenaan het platform, bij die ene persoon. Wegklikken wordt in zijn eigen
-  browser onthouden, per melding. Kan de browser niets bewaren (privévenster),
-  dan staat het er de volgende keer gewoon weer: vervelender dan omgekeerd,
-  maar dan mist niemand zijn antwoord.
+  bovenaan het platform, bij die ene persoon.
 
-  Zie components/BerichtBalk.tsx en supabase/melding-antwoord.sql.
+  Kim op 10 november 2026: "als ik ze weg klik blijven ze terug komen [...] na
+  1 keer te lezen en weg te klikken moeten deze weg gaan." Wegklikken werd
+  eerst enkel in de browser onthouden; op een ander toestel kwam het terug.
+  Nu zet het kruisje ook gezien_op bij de melding zelf (app/melding-actions.ts),
+  en de startpagina haalt enkel meldingen op die nog niet gezien zijn. De
+  browser onthoudt het daarnaast nog, zodat het meteen weg is.
+
+  Meldde iemand hetzelfde hoofdstuk twee keer, dan stonden er twee dezelfde
+  bedankjes. Die worden op de startpagina samengenomen tot één bedankje (ids
+  bevat dan alle meldingen erachter); wegklikken geldt voor allemaal.
+
+  Zie supabase/melding-antwoord.sql en supabase/melding-gezien.sql.
 */
+
+import { meldingGezien } from "@/app/melding-actions";
 
 export type MeldingAntwoord = {
   id: string;
+  /** Alle meldingen achter dit ene bedankje (zelfde hoofdstuk en antwoord). */
+  ids: string[];
   antwoord: string | null;
   hoofdstuk: string | null;
 };
@@ -50,17 +62,18 @@ export function MeldingAntwoorden({
     setWeg(gezien());
   }, []);
 
-  function klikWeg(id: string) {
-    setWeg((vorige) => [...vorige, id]);
+  function klikWeg(m: MeldingAntwoord) {
+    setWeg((vorige) => [...vorige, ...m.ids]);
+    void meldingGezien(m.ids);
     try {
-      const nieuw = [...gezien(), id];
+      const nieuw = [...gezien(), ...m.ids];
       window.localStorage.setItem(SLEUTEL, JSON.stringify(nieuw.slice(-50)));
     } catch {
       // Geen opslag: dan staat het er de volgende keer weer.
     }
   }
 
-  const tonen = meldingen.filter((m) => !weg.includes(m.id));
+  const tonen = meldingen.filter((m) => !m.ids.some((id) => weg.includes(id)));
   if (tonen.length === 0) return null;
 
   return (
@@ -76,7 +89,7 @@ export function MeldingAntwoorden({
             </p>
             <button
               type="button"
-              onClick={() => klikWeg(m.id)}
+              onClick={() => klikWeg(m)}
               aria-label="Dit bedankje wegklikken"
               className="shrink-0 rounded-full px-2 py-0.5 text-lg leading-none text-ink-dim hover:bg-forest/10 hover:text-ink"
             >
