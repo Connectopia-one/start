@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "10 november 2026",
+    titel: "Na een fout zie je nu altijd wat juist was",
+    tekst:
+      "Bij een meerkeuzevraag met één juist antwoord stond na een fout niet altijd welk antwoord wel juist was. Nu staat dat er bij elke meerkeuzevraag. In de uitleg verwijzen we ook niet meer naar \"de laatste optie\" of \"het derde antwoord\", want de opties staan bij iedereen in een andere volgorde. Bij de reële getallen en bij economie zijn een paar vragen duidelijker gemaakt, en bij invulvragen rekenen we nu ook 37.5 % en 3 √2 goed.",
+    opVraag: true,
+  },
+  {
+    datum: "10 november 2026",
     titel: "Vier dingen rechtgezet na jullie meldingen",
     tekst:
       "Bij techniek rekenen we bij het schema met pijlen nu ook stroomschema, flowdiagram en processchema als juist. Bij de vraag over inox staat de uitleg nu in correct Nederlands. Bij mengsels en zuivere stoffen verraadt de vraag over het koken het antwoord niet meer. En in de leerstof over de reële getallen staat nu uitgelegd wat een periode is, en zijn de titels die vreemde tekens toonden weer gewoon leesbaar.",

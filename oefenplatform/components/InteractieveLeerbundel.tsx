@@ -357,9 +357,10 @@ function Afvinklijst({
                 onChange={() => wissel(i)}
                 className="mt-0.5 accent-forest"
               />
-              <span className={aan.includes(i) ? "text-ink-dim" : "text-ink"}>
-                {punt}
-              </span>
+              <span
+                className={aan.includes(i) ? "text-ink-dim" : "text-ink"}
+                dangerouslySetInnerHTML={{ __html: formulesInTekst(punt) }}
+              />
             </label>
           </li>
         ))}

@@ -49,7 +49,7 @@ DEEL1 = [
                  "soms mag een regel wijken",
                  "een regel geldt altijd"],
          antwoord=[0, 1, 2],
-         uitleg="Drie keer weegt de uitkomst. De vierde uitspraak is plichtethiek."),
+         uitleg="Drie keer weegt de uitkomst. Dat een regel altijd geldt, hoort bij de plichtethiek."),
     dict(type="meerkeuze",
          vraag="Iemand liegt om een vriend te beschermen. Welke stroming keurt dat goed?",
          opties=["de gevolgenethiek",

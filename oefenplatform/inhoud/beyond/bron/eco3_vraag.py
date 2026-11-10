@@ -86,7 +86,7 @@ DEEL1 = [
             "procentuele verandering van de gevraagde hoeveelheid gedeeld door de procentuele verandering van het inkomen",
         ],
         antwoord=0,
-        uitleg="De laatste optie is de inkomenselasticiteit.",
+        uitleg="Delen door de procentuele verandering van het inkomen geeft de inkomenselasticiteit, niet de prijselasticiteit.",
     ),
     dict(
         type="invultekst",

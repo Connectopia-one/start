@@ -21,15 +21,15 @@ wortels en machten.
 DEEL1 = [
     dict(
         type="meerkeuze",
-        vraag=r"Waarom volstaan de rationale getallen \(\mathbb{Q}\) niet om de getallenas te vullen?",
+        vraag="Waarom kun je met breuken alleen niet elk punt op de getallenas aanduiden?",
         opties=[
             r"omdat er lengtes bestaan die geen breuk zijn, zoals \(\sqrt{2}\)",
-            "omdat er tussen twee breuken altijd nog een breuk ligt en het nooit stopt",
+            "omdat breuken enkel tussen 0 en 1 kunnen liggen",
             "omdat een breuk altijd een begrensde decimale vorm heeft",
             "omdat de negatieve getallen geen plaats hebben bij de breuken",
         ],
         antwoord=0,
-        uitleg=r"De schuine zijde van een rechthoekige driehoek met rechthoekszijden \(1\) meet precies \(\sqrt{2}\), en dat is geen breuk.",
+        uitleg=r"Er bestaan lengtes die geen breuk zijn. De schuine zijde van een rechthoekige driehoek met rechthoekszijden \(1\) en \(1\) meet \(\sqrt{2}\), en dat getal is geen breuk. Daarom zijn de reële getallen nodig.",
     ),
     dict(
         type="meerkeuze",
@@ -40,15 +40,15 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag=r"Tot welke verzameling behoort \(-7\) wel, maar niet tot de kleinere ervoor?",
+        vraag=r"Tot welke verzameling behoort \(-7\) wel, maar tot \(\mathbb{N}\) niet?",
         opties=[
             r"\(\mathbb{Z}\), want \(-7\) is geen natuurlijk getal",
-            r"\(\mathbb{N}\), want \(-7\) is een geheel aantal",
+            r"\(\mathbb{Q}\) alleen, want \(-7\) is enkel als breuk te schrijven",
             r"de irrationale getallen, want \(-7\) is niet positief",
             r"\(\mathbb{R}\), want \(-7\) is niet als breuk te schrijven",
         ],
         antwoord=0,
-        uitleg=r"\(\mathbb{N}\) begint bij \(0\) en gaat omhoog. \(\mathbb{Z}\) neemt de negatieve getallen erbij.",
+        uitleg=r"Het antwoord is \(\mathbb{Z}\). \(\mathbb{N}\) begint bij \(0\) en gaat omhoog. \(\mathbb{Z}\) neemt de negatieve getallen erbij, dus \(-7\) is een geheel getal maar geen natuurlijk getal.",
     ),
     dict(
         type="meerkeuze",
@@ -60,7 +60,7 @@ DEEL1 = [
             "afhankelijk van of de teller groter is dan de noemer",
         ],
         antwoord=0,
-        uitleg=r"\(\tfrac{1}{4} = 0{,}25\) stopt. \(\tfrac{1}{3} = 0{,}333\ldots\) herhaalt. Een irrationaal getal doet geen van beide.",
+        uitleg=r"Begrensd of onbegrensd repeterend: \(\tfrac{1}{4} = 0{,}25\) stopt, \(\tfrac{1}{3} = 0{,}333\ldots\) herhaalt. Een irrationaal getal doet geen van beide.",
     ),
     dict(
         type="meerkeuze",
@@ -148,7 +148,7 @@ DEEL1 = [
             "het is een geheel getal zodra je het afrondt op nul cijfers",
         ],
         antwoord=0,
-        uitleg=r"\(\tfrac{22}{7}\) is een benadering, geen gelijkheid. Afronden verandert bovendien niets aan wat een getal is.",
+        uitleg=r"\(\pi\) is irrationaal. De cijfers stoppen nooit en herhalen nooit in een vast patroon, dus geen enkele breuk geeft \(\pi\) exact weer. \(\tfrac{22}{7}\) en \(3{,}14\) zijn maar benaderingen. Afronden verandert bovendien niets aan wat een getal is.",
     ),
     dict(
         type="waarofniet",
@@ -189,7 +189,7 @@ DEEL1 = [
     dict(
         type="invultekst",
         vraag=r"Hoeveel procent is \(\tfrac{3}{8}\)?",
-        antwoord=["37,5", "37,5 %", "37,5 procent"],
+        antwoord=["37,5", "37,5 %", "37,5%", "37,5 procent", "37.5", "37.5%", "37.5 %"],
         uitleg=r"\(3 : 8 = 0{,}375\).",
     ),
 ]
@@ -217,7 +217,7 @@ DEEL2 = [
             r"\(3\sqrt{8}\)",
         ],
         antwoord=0,
-        uitleg=r"\(72 = 36 \cdot 2\) en \(\sqrt{36} = 6\). De laatste optie klopt wel qua waarde maar is niet vereenvoudigd.",
+        uitleg=r"\(72 = 36 \cdot 2\) en \(\sqrt{36} = 6\). \(3\sqrt{8}\) heeft wel dezelfde waarde, maar is niet vereenvoudigd.",
     ),
     dict(
         type="meerkeuze",
@@ -303,7 +303,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag=r"Hoeveel is \(\sqrt{a^{2}}\) als \(a < 0\)?",
         opties=[
-            r"\(-a\), want het resultaat is altijd positief",
+            r"\(-a\), want het resultaat is nooit negatief",
             "\\(a\\), want wortel en kwadraat heffen elkaar altijd op",
             r"\(a^{2}\), want de wortel verandert niets",
             "dat kan niet berekend worden",
@@ -338,7 +338,7 @@ DEEL2 = [
     dict(
         type="invultekst",
         vraag=r"Vereenvoudig \(\sqrt{18}\). Typ bijvoorbeeld 2√5 of 2 wortel 5.",
-        antwoord=["3√2", "3 wortel 2"],
+        antwoord=["3√2", "3 √2", "3 wortel 2", "3wortel2", "3 wortel2"],
         uitleg=r"\(18 = 9 \cdot 2\) en \(\sqrt{9} = 3\).",
     ),
     dict(

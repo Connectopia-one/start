@@ -11,6 +11,7 @@ import {
 } from "./actions";
 import { NIVEAUS } from "@/lib/niveaus";
 import { splitsDeel } from "@/lib/hoofdstukvolgorde";
+import { woorden, zelfdeBundel } from "@/lib/bundeltitel";
 
 export type Hoofdstuk = {
   id: string;
@@ -35,16 +36,6 @@ type Rij = {
 };
 
 /* Maakt van een bestandsnaam of hoofdstuktitel losse woorden, zonder accenten. */
-function woorden(tekst: string): string[] {
-  return tekst
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    .toLowerCase()
-    .replace(/\.[a-z0-9]+$/, "")
-    .replace(/[^a-z0-9]+/g, " ")
-    .split(" ")
-    .filter((w) => w.length >= 3);
-}
 
 /*
   Eindigt de bestandsnaam op een categorie ("meetkunde-spark.pdf"), dan is dat
@@ -193,16 +184,8 @@ export function metHoofdletters(tekst: string): string {
    toen die naam nog in de titel bleef hangen, heten nog "… boost doorstroom";
    zonder deze uitzondering zou dezelfde pdf opnieuw opladen naast de oude
    komen in plaats van die te vervangen. */
-const NIVEAUWOORDEN = new Set(NIVEAUS.flatMap((n) => n.slug.split("-")));
-
 function vervangtBestaande(titel: string, bestaande: Bundel[]): boolean {
-  const kaal = (t: string) => {
-    const w = woorden(t);
-    while (w.length > 1 && NIVEAUWOORDEN.has(w[w.length - 1])) w.pop();
-    return w.join(" ");
-  };
-  const nieuw = kaal(titel);
-  return bestaande.some((b) => kaal(b.titel) === nieuw);
+  return bestaande.some((b) => zelfdeBundel(b.titel, titel));
 }
 
 function niveauLabel(niveau: string): string {

@@ -57,7 +57,7 @@ DEEL1 = [
             r"\(\dfrac{x^{\,n}}{n} + C\)",
         ],
         antwoord=0,
-        uitleg="De exponent gaat met één omhoog en je deelt door die nieuwe exponent. Het derde antwoord is net de afgeleide.",
+        uitleg="De exponent gaat met één omhoog en je deelt door die nieuwe exponent. De exponent ervoor zetten en met één verlagen, dat is net de afgeleide.",
     ),
     dict(
         type="meerkeuze",

@@ -64,7 +64,7 @@ DEEL1 = [
             "de drager waarlangs de boodschap verstuurd wordt",
         ],
         antwoord=0,
-        uitleg="Context is de omringende situatie: de plaats, het moment, de relatie tussen zender en ontvanger. Het laatste antwoord beschrijft het kanaal.",
+        uitleg="Context is de omringende situatie: de plaats, het moment, de relatie tussen zender en ontvanger. De drager waarlangs de boodschap verstuurd wordt, is het kanaal.",
     ),
     dict(
         type="invultekst",

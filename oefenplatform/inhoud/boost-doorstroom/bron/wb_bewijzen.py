@@ -54,7 +54,7 @@ DEEL1 = [
              r"\(\sqrt{a^{2}} = a\) voor elke \(a\)",
          ],
          antwoord=[0, 1, 2, 4],
-         uitleg=r"\(0^{2} = 0\), \(-a\) is positief als \(a\) negatief is, delen door \(\frac{1}{2}\) maakt groter, en \(\sqrt{a^{2}}\) is \(|a|\). Enkel \(a^{2} \geq 0\) is wel waar."r"\(\frac{1}{2}\) maakt groter. De laatste uitspraak is wel waar."),
+         uitleg=r"\(0^{2} = 0\), \(-a\) is positief als \(a\) negatief is, delen door \(\frac{1}{2}\) maakt groter, en \(\sqrt{a^{2}}\) is \(|a|\). Enkel \(a^{2} \geq 0\) is wel waar."),
     dict(type="invultekst",
          vraag=r"Welk getal is een tegenvoorbeeld voor \(a^{2} > 0\)? Een getal.",
          antwoord=["0", "nul"],

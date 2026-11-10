@@ -194,13 +194,13 @@
           "type": "meerkeuze",
           "vraag": "Waar kiest de consument volgens de economie voor?",
           "opties": [
-            "het meeste nut",
+            "het meeste nut voor zijn geld (binnen zijn budget)",
             "de laagste prijs",
             "de grootste winkel",
             "het mooiste merk"
           ],
           "antwoord": 0,
-          "uitleg": "Hij kiest de combinatie die hem het meeste nut geeft binnen zijn budget."
+          "uitleg": "Hij kiest wat hem het meeste nut geeft voor zijn geld. De prijs telt dus mee, omdat zijn budget beperkt is: dezelfde broek koop je liefst waar ze goedkoper is. Alleen naar de laagste prijs kijken is te weinig, want dan let je niet op wat je eraan hebt."
         },
         {
           "type": "meerkeuze",
@@ -5306,7 +5306,7 @@
             "het brutoloon bepalen",
             "het netto bepalen ervan",
             "de belasting betalen",
-            "de loonfiche versturen"
+            "de fiche versturen"
           ],
           "antwoord": 0,
           "uitleg": "Uren maal uurloon, of het maandloon uit het contract."

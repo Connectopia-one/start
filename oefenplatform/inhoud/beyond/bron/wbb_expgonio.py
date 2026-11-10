@@ -221,7 +221,7 @@ DEEL2 = [
         vraag=r"Los op in \([0, 2\pi]\): \(\sin x = 0{,}3\). Afgerond op twee cijfers na de komma ...",
         opties=[r"\(x \approx 0{,}30\) of \(x \approx 2{,}84\)", r"\(x \approx 0{,}30\) of \(x \approx 3{,}44\)", r"enkel \(x \approx 0{,}30\)", r"\(x \approx 17{,}46\) of \(x \approx 162{,}54\)"],
         antwoord=0,
-        uitleg=r"Met de rekenmachine in radialen: \(\sin^{-1} 0{,}3 \approx 0{,}3047\). De tweede oplossing is \(\pi - 0{,}3047 \approx 2{,}84\). De laatste optie staat in graden.",
+        uitleg=r"Met de rekenmachine in radialen: \(\sin^{-1} 0{,}3 \approx 0{,}3047\). De tweede oplossing is \(\pi - 0{,}3047 \approx 2{,}84\). De antwoorden 17,46 en 162,54 staan in graden in plaats van in radialen.",
     ),
     dict(
         type="waarofniet",

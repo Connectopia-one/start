@@ -470,7 +470,7 @@ DEEL2 = [
         antwoord=0,
         uitleg=r"Uit \(Q=n\cdot e\) volgt \(n=\dfrac{|Q|}{e}="
         r"\dfrac{4{,}8\cdot 10^{-9}}{1{,}602\cdot 10^{-19}}\approx 3{,}0\cdot 10^{10}\). "
-        r"De tweede optie krijg je als je vermenigvuldigt in plaats van deelt. Een aantal "
+        r"Vermenigvuldig je in plaats van te delen, dan krijg je een piepklein getal. Een aantal "
         r"deeltjes kan nooit kleiner dan één zijn.",
     ),
     dict(

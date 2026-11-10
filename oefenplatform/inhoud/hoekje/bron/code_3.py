@@ -36,7 +36,7 @@ VRAGEN = [
             "Twee bijna gelijke invoeren geven ook een bijna gelijke uitvoer",
         ],
         "antwoord": 0,
-        "uitleg": "Precies dat maakt een hash bruikbaar: aan de uitkomst valt niets af te leiden over wat erin ging, ook niet als je duizend kleine variaties probeert. Vandaar dat wachtwoorden zo bewaard worden. De laatste optie is net het tegenovergestelde en zou een hash waardeloos maken.",
+        "uitleg": "Precies dat maakt een hash bruikbaar: aan de uitkomst valt niets af te leiden over wat erin ging, ook niet als je duizend kleine variaties probeert. Vandaar dat wachtwoorden zo bewaard worden. Dat twee bijna gelijke invoeren een bijna gelijke uitvoer geven, is net het tegenovergestelde en zou een hash waardeloos maken.",
     },
     {
         "type": "meerkeuze",

@@ -192,7 +192,7 @@ DEEL1 = [
             "een informatieve tekst",
         ],
         antwoord=0,
-        uitleg="Het onderwerp is één of enkele woorden. De tweede en derde optie zijn hele zinnen, dus eerder een hoofdgedachte, en de vierde is een tekstsoort.",
+        uitleg="Het onderwerp is één of enkele woorden. Een hele zin, zoals over de trein die te laat komt of over klagende reizigers, is eerder een hoofdgedachte, en een informatieve tekst is een tekstsoort.",
     ),
     dict(
         type="invultekst",

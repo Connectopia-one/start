@@ -286,7 +286,7 @@ DEEL2 = [
         ],
         antwoord=0,
         uitleg=r"Het beeldpunt spiegelt om de verticale as: \(\sin(180^\circ - \alpha) = \sin\alpha\) "
-        r"en \(\cos(180^\circ - \alpha) = -\cos\alpha\). Het laatste antwoord hoort bij "
+        r"en \(\cos(180^\circ - \alpha) = -\cos\alpha\). Dat de sinus van de ene de cosinus van de andere is, geldt bij "
         r"complementaire hoeken.",
     ),
     dict(

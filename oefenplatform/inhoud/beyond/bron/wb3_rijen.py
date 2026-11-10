@@ -194,7 +194,7 @@ DEEL2 = [
         vraag=r"Met welke formule bereken je \(s_{n}\) van een meetkundige rij met \(q \neq 1\)?",
         opties=[r"\(s_{n} = u_{1} \cdot \dfrac{1 - q^{n}}{1 - q}\)", r"\(s_{n} = n \cdot \dfrac{u_{1} + u_{n}}{2}\)", r"\(s_{n} = u_{1} \cdot q^{n}\)", r"\(s_{n} = \dfrac{u_{1}}{1 - q}\)"],
         antwoord=0,
-        uitleg=r"Die formule staat in het formularium. De laatste optie hoort bij een oneindige reeks, en die vraagt deze leerstof niet.",
+        uitleg=r"Die formule staat in het formularium. De formule zonder macht van q hoort bij een oneindige reeks, en die vraagt deze leerstof niet.",
     ),
     dict(
         type="invultekst",

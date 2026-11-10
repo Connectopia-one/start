@@ -32,7 +32,7 @@ DEEL1 = [
             r"altijd, want je telt gewoon alle elementen op",
         ],
         antwoord=0,
-        uitleg=r"Je telt element per element op, dus elk element moet een partner hebben. Het derde antwoord is de voorwaarde om te vermenigvuldigen.",
+        uitleg=r"Je telt element per element op, dus elk element moet een partner hebben. Kolommen van de ene gelijk aan rijen van de andere: dat is de voorwaarde om te vermenigvuldigen.",
     ),
     dict(
         type="invultekst",

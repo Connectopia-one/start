@@ -3,6 +3,7 @@
 import { revalidatePath } from "next/cache";
 import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { zelfdeBundel } from "@/lib/bundeltitel";
 
 /**
  * Geeft een tijdelijke, rechtstreekse upload-link naar Supabase Storage terug.
@@ -29,8 +30,9 @@ export async function maakBulkLeerstofUploadUrl(
 /**
  * Zet één geüpload bestand als leerstof bij een hoofdstuk.
  *
- * Staat "vervang" aan, dan gaan de bundels die er al bij dat hoofdstuk stonden
- * daarna weg — handig als je een verouderde bundel door een nieuwe versie
+ * Staat "vervang" aan, dan gaat de bundel met dezelfde titel die er al bij dat
+ * hoofdstuk stond daarna weg. Andere bundels (een oefenbundel naast een
+ * leerbundel) blijven staan: tot 10 november 2026 ging alles weg — handig als je een verouderde bundel door een nieuwe versie
  * vervangt. We zetten bewust eerst de nieuwe erin en ruimen pas daarna op:
  * loopt er iets mis, dan staan er even twee bundels, nooit geen enkele.
  */
@@ -46,7 +48,7 @@ export async function registreerBulkLeerstof(input: {
   const { data: oude } = input.vervang
     ? await admin
         .from("leerstof")
-        .select("id, bestandspad")
+        .select("id, titel, bestandspad")
         .eq("hoofdstuk_id", input.hoofdstukId)
     : { data: null };
 
@@ -59,7 +61,9 @@ export async function registreerBulkLeerstof(input: {
   if (error) throw new Error(error.message);
 
   const teWissen = (oude ?? []).filter(
-    (r) => r.bestandspad !== input.bestandspad,
+    (r) =>
+      r.bestandspad !== input.bestandspad &&
+      zelfdeBundel(String(r.titel ?? ""), input.titel),
   );
   if (teWissen.length > 0) {
     await admin.storage

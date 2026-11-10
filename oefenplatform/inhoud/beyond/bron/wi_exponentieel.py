@@ -332,7 +332,7 @@ DEEL2 = [
             r"\(500\cdot 1{,}8=900\)",
         ],
         antwoord=0,
-        uitleg=r"Elk jaar maal \(1{,}08\), tien keer na elkaar. De tweede en derde optie rekenen lineair, en dat onderschat de groei.",
+        uitleg=r"Elk jaar maal \(1{,}08\), tien keer na elkaar. Wie lineair rekent, telt elk jaar hetzelfde erbij, en dat onderschat de groei.",
     ),
     dict(
         type="meerkeuze",

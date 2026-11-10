@@ -816,7 +816,13 @@ function VraagKaart({
                 het alsnog juist.
               </p>
             )}
-          {!status.correct && alsVakjes && vraag.opties && (
+          {/* Ook bij een vraag met rondjes (één juist antwoord) staat er nu
+              welk antwoord juist was. Vroeger enkel bij vakjes, en dan zag
+              een kind zonder kleuren nergens wat het wel moest zijn (melding
+              10 november 2026). */}
+          {!status.correct &&
+            vraag.type === "meerkeuze" &&
+            vraag.opties && (
             <p className="mt-1 text-ink">
               {juisteKeuzes(vraag.antwoord).length > 1
                 ? `Er waren ${juisteKeuzes(vraag.antwoord).length} juiste antwoorden: `

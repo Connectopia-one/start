@@ -2424,7 +2424,7 @@
             "\\(500\\cdot 1{,}8=900\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Elk jaar maal \\(1{,}08\\), tien keer na elkaar. De tweede en derde optie rekenen lineair, en dat onderschat de groei."
+          "uitleg": "Elk jaar maal \\(1{,}08\\), tien keer na elkaar. Wie lineair rekent, telt elk jaar hetzelfde erbij, en dat onderschat de groei."
         },
         {
           "type": "meerkeuze",
@@ -2755,7 +2755,7 @@
             "de sinus van de ene is de cosinus van de andere"
           ],
           "antwoord": 0,
-          "uitleg": "Het beeldpunt spiegelt om de verticale as: \\(\\sin(180^\\circ - \\alpha) = \\sin\\alpha\\) en \\(\\cos(180^\\circ - \\alpha) = -\\cos\\alpha\\). Het laatste antwoord hoort bij complementaire hoeken."
+          "uitleg": "Het beeldpunt spiegelt om de verticale as: \\(\\sin(180^\\circ - \\alpha) = \\sin\\alpha\\) en \\(\\cos(180^\\circ - \\alpha) = -\\cos\\alpha\\). Dat de sinus van de ene de cosinus van de andere is, geldt bij complementaire hoeken."
         },
         {
           "type": "invultekst",
@@ -4132,7 +4132,7 @@
             "\\(\\dfrac{x^{\\,n}}{n} + C\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De exponent gaat met één omhoog en je deelt door die nieuwe exponent. Het derde antwoord is net de afgeleide."
+          "uitleg": "De exponent gaat met één omhoog en je deelt door die nieuwe exponent. De exponent ervoor zetten en met één verlagen, dat is net de afgeleide."
         },
         {
           "type": "meerkeuze",
@@ -6563,7 +6563,7 @@
             "altijd, want je telt gewoon alle elementen op"
           ],
           "antwoord": 0,
-          "uitleg": "Je telt element per element op, dus elk element moet een partner hebben. Het derde antwoord is de voorwaarde om te vermenigvuldigen."
+          "uitleg": "Je telt element per element op, dus elk element moet een partner hebben. Kolommen van de ene gelijk aan rijen van de andere: dat is de voorwaarde om te vermenigvuldigen."
         },
         {
           "type": "invultekst",

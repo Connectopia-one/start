@@ -109,7 +109,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Let op met \\(\\sqrt{a^{2}}\\) als \\(a < 0\\): dat is niet \\(a\\) maar <strong>\\(-a\\)</strong>, want het resultaat van een wortel is altijd positief. In het algemeen is \\(\\sqrt{a^{2}} = |a|\\), de absolute waarde van \\(a\\)."
+     "html": "Let op met \\(\\sqrt{a^{2}}\\) als \\(a < 0\\): dat is niet \\(a\\) maar <strong>\\(-a\\)</strong>, want het resultaat van een wortel is nooit negatief. In het algemeen is \\(\\sqrt{a^{2}} = |a|\\), de absolute waarde van \\(a\\)."
     }
    ]
   },

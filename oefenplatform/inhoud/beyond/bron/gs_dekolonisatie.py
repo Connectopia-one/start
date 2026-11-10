@@ -101,7 +101,7 @@ DEEL1 = [
                  "de eerste Afrikaanse staat ter wereld ontstond in dat jaar",
                  "alle Europese legers verlieten in dat jaar het hele continent"],
          antwoord=0,
-         uitleg="Congo was daar één van. Egypte en Ethiopië waren toen al veel langer onafhankelijk, dus de derde optie klopt niet."),
+         uitleg="Congo was daar één van. Egypte en Ethiopië waren toen al veel langer onafhankelijk, dus in 1960 ontstond niet de eerste Afrikaanse staat ter wereld."),
     dict(type="waarofniet",
          vraag="Alle Afrikaanse koloniën werden zonder geweld onafhankelijk.",
          antwoord=False,

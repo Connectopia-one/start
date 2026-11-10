@@ -58,7 +58,7 @@
             "\\(-3{,}1\\cdot 10^{31}\\ \\text{C}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "\\(Q=n\\cdot e=5{,}0\\cdot 10^{12}\\cdot 1{,}602\\cdot 10^{-19}\\ \\text{C}\\approx 8{,}0\\cdot 10^{-7}\\ \\text{C}\\), en te véél elektronen betekent een negatief teken. De laatste optie is wat je krijgt als je deelt in plaats van vermenigvuldigt."
+          "uitleg": "\\(Q=n\\cdot e=5{,}0\\cdot 10^{12}\\cdot 1{,}602\\cdot 10^{-19}\\ \\text{C}\\approx 8{,}0\\cdot 10^{-7}\\ \\text{C}\\), en te véél elektronen betekent een negatief teken. Deel je in plaats van te vermenigvuldigen, dan kom je op een veel te groot getal uit."
         },
         {
           "type": "meerkeuze",
@@ -444,7 +444,7 @@
             "\\(4{,}8\\cdot 10^{9}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Uit \\(Q=n\\cdot e\\) volgt \\(n=\\dfrac{|Q|}{e}=\\dfrac{4{,}8\\cdot 10^{-9}}{1{,}602\\cdot 10^{-19}}\\approx 3{,}0\\cdot 10^{10}\\). De tweede optie krijg je als je vermenigvuldigt in plaats van deelt. Een aantal deeltjes kan nooit kleiner dan één zijn."
+          "uitleg": "Uit \\(Q=n\\cdot e\\) volgt \\(n=\\dfrac{|Q|}{e}=\\dfrac{4{,}8\\cdot 10^{-9}}{1{,}602\\cdot 10^{-19}}\\approx 3{,}0\\cdot 10^{10}\\). Vermenigvuldig je in plaats van te delen, dan krijg je een piepklein getal. Een aantal deeltjes kan nooit kleiner dan één zijn."
         },
         {
           "type": "invultekst",

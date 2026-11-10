@@ -417,7 +417,7 @@ BUNDELS["reele-getallen-wortels-en-machten-boost-doorstroom"] = dict(
             ("p", "Een noemer <strong>wortelvrij maken</strong> doe je door teller en noemer met diezelfde "
                   "wortel te vermenigvuldigen: \\(\\dfrac{1}{\\sqrt{5}} = \\dfrac{\\sqrt{5}}{5}\\)."),
             ("p", "Let op met \\(\\sqrt{a^{2}}\\) als \\(a < 0\\): dat is niet \\(a\\) maar "
-                  "<strong>\\(-a\\)</strong>, want het resultaat van een wortel is altijd positief. In het "
+                  "<strong>\\(-a\\)</strong>, want het resultaat van een wortel is nooit negatief. In het "
                   "algemeen is "
                   "\\(\\sqrt{a^{2}} = |a|\\), de absolute waarde van \\(a\\)."),
         ]),

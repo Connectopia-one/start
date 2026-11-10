@@ -67,7 +67,7 @@
             "de drager waarlangs de boodschap verstuurd wordt"
           ],
           "antwoord": 0,
-          "uitleg": "Context is de omringende situatie: de plaats, het moment, de relatie tussen zender en ontvanger. Het laatste antwoord beschrijft het kanaal."
+          "uitleg": "Context is de omringende situatie: de plaats, het moment, de relatie tussen zender en ontvanger. De drager waarlangs de boodschap verstuurd wordt, is het kanaal."
         },
         {
           "type": "invultekst",
@@ -654,7 +654,7 @@
             "een informatieve tekst"
           ],
           "antwoord": 0,
-          "uitleg": "Het onderwerp is één of enkele woorden. De tweede en derde optie zijn hele zinnen, dus eerder een hoofdgedachte, en de vierde is een tekstsoort."
+          "uitleg": "Het onderwerp is één of enkele woorden. Een hele zin, zoals over de trein die te laat komt of over klagende reizigers, is eerder een hoofdgedachte, en een informatieve tekst is een tekstsoort."
         },
         {
           "type": "invultekst",

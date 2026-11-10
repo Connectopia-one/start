@@ -3568,7 +3568,7 @@
             "\\(s_{n} = \\dfrac{u_{1}}{1 - q}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Die formule staat in het formularium. De laatste optie hoort bij een oneindige reeks, en die vraagt deze leerstof niet."
+          "uitleg": "Die formule staat in het formularium. De formule zonder macht van q hoort bij een oneindige reeks, en die vraagt deze leerstof niet."
         },
         {
           "type": "invultekst",
@@ -5667,7 +5667,7 @@
             "\\(x \\approx 17{,}46\\) of \\(x \\approx 162{,}54\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Met de rekenmachine in radialen: \\(\\sin^{-1} 0{,}3 \\approx 0{,}3047\\). De tweede oplossing is \\(\\pi - 0{,}3047 \\approx 2{,}84\\). De laatste optie staat in graden."
+          "uitleg": "Met de rekenmachine in radialen: \\(\\sin^{-1} 0{,}3 \\approx 0{,}3047\\). De tweede oplossing is \\(\\pi - 0{,}3047 \\approx 2{,}84\\). De antwoorden 17,46 en 162,54 staan in graden in plaats van in radialen."
         },
         {
           "type": "waarofniet",
