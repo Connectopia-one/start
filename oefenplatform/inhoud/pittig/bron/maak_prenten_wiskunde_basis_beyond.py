@@ -127,6 +127,12 @@ def teken(g):
                     ly = 0
             d.append(f'<circle cx="{X(lx):.1f}" cy="{Y(ly)-26:.1f}" r="17" fill="{kl}"/>')
             d.append(tekst(X(lx), Y(ly) - 19, label, 19, kleur="#fff", vet=True))
+    for fx, fy, kleur, (a, b) in g.get("parametrisch", []):
+        kl = KLEUREN.get(kleur, kleur)
+        p = " ".join(f"{X(fx(a + (b - a) * i / 400)):.1f},{Y(fy(a + (b - a) * i / 400)):.1f}" for i in range(401))
+        d.append(f'<polyline points="{p}" fill="none" stroke="{kl}" stroke-width="3.5"/>')
+    for (x0, y0), (x1, y1) in g.get("segmenten", []):
+        d.append(f'<line x1="{X(x0):.1f}" y1="{Y(y0):.1f}" x2="{X(x1):.1f}" y2="{Y(y1):.1f}" stroke="{LIJN}" stroke-width="2"/>')
     for x, y, label in g.get("punten", []):
         d.append(f'<circle cx="{X(x):.1f}" cy="{Y(y):.1f}" r="7" fill="{DONKER}"/>')
         if label:

@@ -23,6 +23,9 @@ THEMAS = [
     ("machten", "Machtswortels, machten en logaritmen"),
     ("grafisch", "Grafisch onderzoek van een functie"),
     ("tweedegraad", "Tweedegraadsfuncties"),
+    ("tweedegraadsvgl", "Tweedegraadsvergelijkingen algebraïsch oplossen"),
+    ("exponentieel", "Exponentiële functies en groeimodellen"),
+    ("sinus", "De sinusfunctie en de goniometrische cirkel"),
 ]
 
 HOOFDSTUKKEN = [

@@ -1268,6 +1268,1226 @@
           ]
         }
       ]
+    },
+    {
+      "titel": "Tweedegraadsvergelijkingen algebraïsch oplossen — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(3x^{2} = 12x\\).",
+          "opties": [
+            "\\(V = \\{0, 4\\}\\)",
+            "\\(V = \\{4\\}\\)",
+            "\\(V = \\{-4, 4\\}\\)",
+            "\\(V = \\{0, -4\\}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(3x^{2} - 12x = 0 \\Rightarrow 3x(x - 4) = 0\\). Wie door \\(x\\) deelt, verliest de oplossing \\(0\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(2x^{2} - 50 = 0\\).",
+          "opties": [
+            "\\(V = \\{-5, 5\\}\\)",
+            "\\(V = \\{5\\}\\)",
+            "\\(V = \\{-25, 25\\}\\)",
+            "\\(V = \\emptyset\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(x^{2} = 25\\), dus \\(x = 5\\) of \\(x = -5\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(4x^{2} + 36 = 0\\).",
+          "opties": [
+            "\\(V = \\emptyset\\)",
+            "\\(V = \\{-3, 3\\}\\)",
+            "\\(V = \\{3\\}\\)",
+            "\\(V = \\{-9\\}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(x^{2} = -9\\) heeft geen reële oplossing: een kwadraat is nooit negatief."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoeveel reële oplossingen heeft de vergelijking?",
+          "rijen": [
+            "\\(x^{2} - 6x + 9 = 0\\)",
+            "\\(2x^{2} + x - 3 = 0\\)",
+            "\\(x^{2} + 2x + 5 = 0\\)",
+            "\\(-x^{2} + 4x - 1 = 0\\)"
+          ],
+          "antwoord": [
+            1,
+            2,
+            0,
+            2
+          ],
+          "uitleg": "\\(D = b^{2} - 4ac\\): \\(0\\), \\(25\\), \\(-16\\) en \\(12\\). Positief: twee, nul: één, negatief: geen.",
+          "kolommen": [
+            "Geen",
+            "Eén",
+            "Twee"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bereken de discriminant van \\(3x^{2} - 5x - 2 = 0\\).",
+          "antwoord": "49",
+          "uitleg": "\\(D = (-5)^{2} - 4 \\cdot 3 \\cdot (-2) = 25 + 24 = 49\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(3x^{2} - 5x - 2 = 0\\).",
+          "opties": [
+            "\\(V = \\left\\{-\\frac{1}{3}, 2\\right\\}\\)",
+            "\\(V = \\left\\{\\frac{1}{3}, -2\\right\\}\\)",
+            "\\(V = \\{-1, 6\\}\\)",
+            "\\(V = \\left\\{-2, \\frac{1}{3}\\right\\}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met \\(x = \\frac{-b \\pm \\sqrt{D}}{2a}\\) vind je \\(x = 2\\) of \\(x = -\\frac{1}{3}\\). Controle: \\(3 \\cdot 4 - 10 - 2 = 0\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Voor welke \\(k\\) heeft \\(x^{2} + 6x + k = 0\\) precies één oplossing?",
+          "opties": [
+            "\\(k = 9\\)",
+            "\\(k = 36\\)",
+            "\\(k = 3\\)",
+            "\\(k = -9\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(D = 36 - 4k = 0\\) geeft \\(k = 9\\). Dan is \\(x^{2} + 6x + 9 = (x + 3)^{2}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling lost \\((x - 2)(x + 5) = 8\\) op met: \\(x - 2 = 8\\) of \\(x + 5 = 8\\). Wat klopt?",
+          "opties": [
+            "Fout: zo'n product mag je enkel splitsen als het rechterlid \\(0\\) is.",
+            "Juist: elke factor moet gelijk zijn aan \\(8\\).",
+            "Juist, maar enkel omdat \\(8\\) positief is.",
+            "Fout: je moet eerst door \\(x\\) delen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een product is \\(0\\) als een factor \\(0\\) is. Voor \\(8\\) geldt dat niet: werk eerst uit en breng alles naar één lid."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Los op: \\((x - 2)(x + 5) = 8\\). Geef de positieve oplossing.",
+          "antwoord": "3",
+          "uitleg": "\\(x^{2} + 3x - 10 = 8 \\Rightarrow x^{2} + 3x - 18 = 0 \\Rightarrow (x + 6)(x - 3) = 0\\)."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de vergelijking aan haar ontbinding in factoren.",
+          "paren": [
+            [
+              "\\(x^{2} - 7x + 12 = 0\\)",
+              "\\((x - 3)(x - 4) = 0\\)"
+            ],
+            [
+              "\\(x^{2} + x - 12 = 0\\)",
+              "\\((x + 4)(x - 3) = 0\\)"
+            ],
+            [
+              "\\(x^{2} - 16 = 0\\)",
+              "\\((x - 4)(x + 4) = 0\\)"
+            ],
+            [
+              "\\(x^{2} - 4x = 0\\)",
+              "\\(x(x - 4) = 0\\)"
+            ]
+          ],
+          "extra": [
+            "\\((x + 3)(x + 4) = 0\\)"
+          ],
+          "uitleg": "Zoek twee getallen met als product c en als som b."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Volledige of onvolledige vierkantsvergelijking?",
+          "kolommen": [
+            "Volledig",
+            "Onvolledig"
+          ],
+          "items": [
+            [
+              "\\(5x^{2} - 20 = 0\\)",
+              "Onvolledig"
+            ],
+            [
+              "\\(x^{2} + 3x - 1 = 0\\)",
+              "Volledig"
+            ],
+            [
+              "\\(-2x^{2} + 7x = 0\\)",
+              "Onvolledig"
+            ],
+            [
+              "\\(4x^{2} - 4x + 1 = 0\\)",
+              "Volledig"
+            ]
+          ],
+          "uitleg": "Bij een onvolledige vergelijking is \\(b = 0\\) of \\(c = 0\\). Die los je op zonder discriminant."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar snijden \\(y = x^{2} - 2x\\) en \\(y = x + 4\\) elkaar?",
+          "opties": [
+            "In \\((4, 8)\\) en \\((-1, 3)\\)",
+            "In \\((4, 0)\\) en \\((-1, 0)\\)",
+            "In \\((-4, 0)\\) en \\((1, 5)\\)",
+            "Ze snijden elkaar niet."
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(x^{2} - 2x = x + 4 \\Rightarrow x^{2} - 3x - 4 = 0 \\Rightarrow x = 4\\) of \\(x = -1\\). De \\(y\\)-waarden vind je met \\(y = x + 4\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over \\(ax^{2} + bx + c = 0\\) (met \\(a \\neq 0\\))?",
+          "rijen": [
+            "Als \\(a\\) en \\(c\\) een tegengesteld teken hebben, zijn er zeker twee oplossingen.",
+            "Als \\(c = 0\\), is \\(0\\) altijd een oplossing.",
+            "Als \\(b = 0\\), is er altijd een oplossing.",
+            "Als \\(D < 0\\), snijdt de parabool \\(y = ax^{2} + bx + c\\) de \\(x\\)-as niet."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Bij tegengestelde tekens is \\(-4ac > 0\\), dus \\(D > 0\\). Bij \\(b = 0\\) kan \\(x^{2} = -\\frac{c}{a}\\) negatief zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een vergelijking heeft als oplossingen \\(2\\) en \\(-7\\). Welke vergelijking kan het zijn?",
+          "opties": [
+            "\\(x^{2} + 5x - 14 = 0\\)",
+            "\\(x^{2} - 5x - 14 = 0\\)",
+            "\\(x^{2} + 5x + 14 = 0\\)",
+            "\\(x^{2} - 9x + 14 = 0\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\((x - 2)(x + 7) = x^{2} + 5x - 14\\)."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen om \\(2x^{2} = 3 - 5x\\) op te lossen in de juiste volgorde.",
+          "opties": [
+            "Alles naar één lid: \\(2x^{2} + 5x - 3 = 0\\)",
+            "\\(a\\), \\(b\\) en \\(c\\) aflezen: \\(2\\), \\(5\\) en \\(-3\\)",
+            "\\(D = 25 + 24 = 49\\) berekenen",
+            "\\(x = \\frac{-5 \\pm 7}{4}\\): \\(x = \\frac{1}{2}\\) of \\(x = -3\\)"
+          ],
+          "uitleg": "Eerst de standaardvorm, dan de coëfficiënten, de discriminant en de formule."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Als de discriminant nul is, heeft de vergelijking [[*één|twee|geen]] oplossing, en de parabool [[*raakt|snijdt|mist]] de x-as in haar top.",
+          "uitleg": "Eén oplossing hoort bij een top op de x-as."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De nulwaarden van \\(f(x) = x^{2} - 4x + c\\) liggen \\(6\\) uit elkaar. Hoeveel is \\(c\\)?",
+          "opties": [
+            "\\(-5\\)",
+            "\\(5\\)",
+            "\\(-12\\)",
+            "\\(4\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De symmetrieas is \\(x = 2\\), dus de nulwaarden zijn \\(2 - 3 = -1\\) en \\(2 + 3 = 5\\). \\((x + 1)(x - 5) = x^{2} - 4x - 5\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een getal vermeerderd met zijn kwadraat geeft \\(42\\). Wat is het positieve getal?",
+          "antwoord": "6",
+          "uitleg": "\\(x^{2} + x - 42 = 0 \\Rightarrow (x + 7)(x - 6) = 0\\). Ook \\(-7\\) voldoet, maar dat is negatief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een rechthoek is \\(3\\) cm langer dan breed en heeft een oppervlakte van \\(40\\) cm². Hoe breed is hij?",
+          "opties": [
+            "\\(5\\) cm",
+            "\\(8\\) cm",
+            "\\(6{,}3\\) cm",
+            "\\(10\\) cm"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(x(x + 3) = 40 \\Rightarrow x^{2} + 3x - 40 = 0 \\Rightarrow (x + 8)(x - 5) = 0\\). Een breedte is positief: \\(5\\) cm."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke \\(x\\) is een oplossing van \\(x^{2} - x - 6 = 0\\)?",
+          "rijen": [
+            "\\(x = 3\\)",
+            "\\(x = -2\\)",
+            "\\(x = 2\\)",
+            "\\(x = -3\\)"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Invullen: \\(9 - 3 - 6 = 0\\) en \\(4 + 2 - 6 = 0\\). Bij \\(2\\) en \\(-3\\) krijg je \\(-4\\) en \\(6\\).",
+          "kolommen": [
+            "Oplossing",
+            "Geen oplossing"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bal wordt opgegooid: \\(h(t) = -5t^{2} + 20t + 25\\) (meter, seconden). Na hoeveel seconden raakt hij de grond?",
+          "opties": [
+            "\\(5\\) s",
+            "\\(2\\) s",
+            "\\(25\\) s",
+            "\\(1\\) s"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(-5t^{2} + 20t + 25 = 0 \\Rightarrow t^{2} - 4t - 5 = 0 \\Rightarrow t = 5\\) of \\(t = -1\\). Een negatieve tijd past niet bij de situatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wanneer is dezelfde bal (\\(h(t) = -5t^{2} + 20t + 25\\)) op \\(40\\) m hoogte?",
+          "opties": [
+            "Na \\(1\\) s en na \\(3\\) s",
+            "Enkel na \\(2\\) s",
+            "Na \\(3\\) s en na \\(5\\) s",
+            "Nooit"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(-5t^{2} + 20t + 25 = 40 \\Rightarrow t^{2} - 4t + 3 = 0 \\Rightarrow t = 1\\) of \\(t = 3\\): eens op weg naar boven, eens op weg naar beneden."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "De getallen die een vergelijking waar maken, zijn de [[oplossingen]]. Samen vormen ze de [[oplossingenverzameling]] V.",
+          "extra": [
+            "nulpunten",
+            "coëfficiënten"
+          ],
+          "uitleg": "Bij ax² + bx + c = 0 zijn de oplossingen dezelfde als de nulwaarden van f(x) = ax² + bx + c."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel snijpunten hebben \\(y = x^{2} + 1\\) en \\(y = 2x\\)?",
+          "opties": [
+            "Eén: ze raken elkaar in \\((1, 2)\\)",
+            "Twee",
+            "Geen",
+            "Oneindig veel"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(x^{2} - 2x + 1 = 0\\) heeft \\(D = 0\\): één oplossing \\(x = 1\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke aanpak is het snelst?",
+          "rijen": [
+            "\\(x^{2} = 49\\)",
+            "\\(x^{2} + 8x = 0\\)",
+            "\\(3x^{2} - 7x + 1 = 0\\)"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Bij een onvolledige vergelijking heb je de discriminant niet nodig.",
+          "kolommen": [
+            "Vierkantswortel nemen",
+            "x buiten haakjes",
+            "Discriminant"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\((x - 4)^{2} = 9\\).",
+          "opties": [
+            "\\(V = \\{1, 7\\}\\)",
+            "\\(V = \\{7\\}\\)",
+            "\\(V = \\{-5, 13\\}\\)",
+            "\\(V = \\{4 - \\sqrt{3}, 4 + \\sqrt{3}\\}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(x - 4 = 3\\) of \\(x - 4 = -3\\), dus \\(x = 7\\) of \\(x = 1\\). Vergeet de negatieve wortel niet."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom je bij \\(x^{2} = 5x\\) niet zomaar door \\(x\\) mag delen.",
+          "antwoord": "Delen door \\(x\\) mag enkel als \\(x \\neq 0\\). Zo verlies je de oplossing \\(x = 0\\). Beter: \\(x^{2} - 5x = 0 \\Rightarrow x(x - 5) = 0\\), dus \\(V = \\{0, 5\\}\\).",
+          "uitleg": "Een factor gelijk aan nul is ook een oplossing."
+        },
+        {
+          "casus": "Een fotokader heeft een buitenmaat van \\(30\\) cm op \\(20\\) cm. De lijst is overal even breed (\\(x\\) cm). De foto erin heeft een oppervlakte van \\(336\\) cm².",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke vergelijking past?",
+              "opties": [
+                "\\((30 - 2x)(20 - 2x) = 336\\)",
+                "\\((30 - x)(20 - x) = 336\\)",
+                "\\(30 \\cdot 20 - 2x = 336\\)",
+                "\\((30 + 2x)(20 + 2x) = 336\\)"
+              ],
+              "antwoord": 0,
+              "uitleg": "Aan beide kanten gaat er \\(x\\) af, dus per zijde \\(2x\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke oplossingen heeft die vergelijking?",
+              "opties": [
+                "\\(x = 2\\) en \\(x = 23\\)",
+                "\\(x = 3\\) en \\(x = 22\\)",
+                "\\(x = 4\\) en \\(x = 21\\)",
+                "\\(x = -2\\) en \\(x = 23\\)"
+              ],
+              "antwoord": 0,
+              "uitleg": "\\(4x^{2} - 100x + 600 = 336 \\Rightarrow x^{2} - 25x + 66 = 0 \\Rightarrow (x - 2)(x - 23) = 0\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe breed is de lijst?",
+              "opties": [
+                "\\(2\\) cm",
+                "\\(23\\) cm",
+                "\\(12{,}5\\) cm",
+                "\\(4\\) cm"
+              ],
+              "antwoord": 0,
+              "uitleg": "Een lijst van \\(23\\) cm past niet rond een kader van \\(20\\) cm breed. Enkel \\(2\\) cm kan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Exponentiële functies en groeimodellen — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het punt dat op de grafiek van elke functie y = aˣ ligt, en dus ook op A.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/exponentieel-ab.svg",
+          "zones": [
+            [
+              45.0,
+              62.0,
+              4.0,
+              6.2
+            ]
+          ],
+          "uitleg": "\\(a^{0} = 1\\) voor elk grondtal: elke grafiek \\(y = a^{x}\\) gaat door \\((0, 1)\\)."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het snijpunt van grafiek B met de y-as.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/exponentieel-ab.svg",
+          "zones": [
+            [
+              45.0,
+              54.4,
+              4.0,
+              6.2
+            ]
+          ],
+          "uitleg": "\\(3 \\cdot \\left(\\frac{1}{2}\\right)^{0} - 1 = 3 - 1 = 2\\). Het snijpunt is \\((0, 2)\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over de grafieken A en B?",
+          "rijen": [
+            "A stijgt over heel haar domein.",
+            "B heeft als horizontale asymptoot y = −1.",
+            "Het bereik van B is ]0, +∞[.",
+            "A en B snijden elkaar in precies één punt."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Door de verticale verschuiving met \\(-1\\) zakt ook de asymptoot naar \\(y = -1\\). Het bereik van B is \\(]-1, +\\infty[\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/exponentieel-ab.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk voorschrift hoort bij B?",
+          "opties": [
+            "\\(y = 3 \\cdot \\left(\\frac{1}{2}\\right)^{x} - 1\\)",
+            "\\(y = 3 \\cdot 2^{x} - 1\\)",
+            "\\(y = \\left(\\frac{1}{2}\\right)^{x} + 2\\)",
+            "\\(y = -3 \\cdot \\left(\\frac{1}{2}\\right)^{x} - 1\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "B daalt, dus het grondtal ligt tussen \\(0\\) en \\(1\\). De asymptoot \\(y = -1\\) geeft \\(c = -1\\), en in \\(x = 0\\) is \\(b + c = 2\\), dus \\(b = 3\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/exponentieel-ab.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de plaats waar de thee het snelst afkoelt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/exponentieel-afkoeling.svg",
+          "zones": [
+            [
+              3.0,
+              7.5,
+              8.0,
+              12.5
+            ]
+          ],
+          "uitleg": "Meteen na het inschenken is de grafiek het steilst. Hoe dichter bij de kamertemperatuur, hoe trager de thee afkoelt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk kenmerk van de grafiek is de kamertemperatuur?",
+          "opties": [
+            "De horizontale asymptoot",
+            "De nulwaarde",
+            "Het snijpunt met de y-as",
+            "De verticale asymptoot"
+          ],
+          "antwoord": 0,
+          "uitleg": "De thee nadert 20 °C, maar haalt die waarde nooit helemaal: dat is de horizontale asymptoot T = 20.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/exponentieel-afkoeling.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het voorschrift is \\(T(t) = 20 + 70 \\cdot 0{,}9^{t}\\). Met hoeveel procent daalt het verschil met de kamertemperatuur per minuut?",
+          "opties": [
+            "\\(10\\,\\%\\)",
+            "\\(90\\,\\%\\)",
+            "\\(0{,}9\\,\\%\\)",
+            "\\(70\\,\\%\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De groeifactor is \\(0{,}9\\): elke minuut blijft \\(90\\,\\%\\) van het verschil over, er gaat dus \\(10\\,\\%\\) af.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/exponentieel-afkoeling.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lineair of exponentieel groeimodel?",
+          "rijen": [
+            "Een spaarrekening met 2 % samengestelde intrest per jaar",
+            "Een kaars die elk uur 1,5 cm korter wordt",
+            "Een bacteriekweek die elke 20 minuten verdubbelt",
+            "Een abonnement van 15 euro per maand plus 30 euro instap"
+          ],
+          "antwoord": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Lineair: elke tijdseenheid komt er hetzelfde bedrag bij. Exponentieel: elke tijdseenheid wordt er met dezelfde factor vermenigvuldigd.",
+          "kolommen": [
+            "Lineair",
+            "Exponentieel"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bedrag groeit met 5 % per jaar. Wat is de groeifactor per maand, afgerond op vier decimalen?",
+          "opties": [
+            "\\(1{,}0041\\)",
+            "\\(1{,}0042\\)",
+            "\\(1{,}05\\)",
+            "\\(0{,}4167\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(1{,}05^{\\frac{1}{12}} \\approx 1{,}0041\\). Gewoon \\(5\\,\\% / 12\\) nemen geeft \\(1{,}0042\\): dat is niet hetzelfde."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een stad telt 40 000 inwoners en groeit met 2 % per jaar. Hoeveel inwoners zijn er na 3 jaar? Rond af op een geheel getal.",
+          "antwoord": "42448",
+          "uitleg": "\\(40\\,000 \\cdot 1{,}02^{3} = 40\\,000 \\cdot 1{,}061208 = 42\\,448{,}32\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een radioactieve stof heeft een halveringstijd van 8 dagen. Hoeveel procent is er na 24 dagen nog over?",
+          "opties": [
+            "\\(12{,}5\\,\\%\\)",
+            "\\(25\\,\\%\\)",
+            "\\(33\\,\\%\\)",
+            "\\(0\\,\\%\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(24\\) dagen is \\(3\\) halveringstijden: \\(\\left(\\frac{1}{2}\\right)^{3} = \\frac{1}{8} = 12{,}5\\,\\%\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een hoeveelheid verdubbelt elke 5 jaar. Wat is de groeifactor per jaar?",
+          "opties": [
+            "\\(2^{\\frac{1}{5}} \\approx 1{,}149\\)",
+            "\\(1{,}2\\)",
+            "\\(\\frac{2}{5} = 0{,}4\\)",
+            "\\(2^{5} = 32\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na \\(5\\) jaar is de factor \\(a^{5} = 2\\), dus \\(a = 2^{\\frac{1}{5}} \\approx 1{,}149\\): ongeveer \\(14{,}9\\,\\%\\) per jaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kapitaal groeit met 3 % per jaar. Na hoeveel jaar is het verdubbeld?",
+          "opties": [
+            "Ongeveer \\(23{,}4\\) jaar",
+            "Ongeveer \\(33{,}3\\) jaar",
+            "Ongeveer \\(6{,}7\\) jaar",
+            "Precies \\(30\\) jaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(1{,}03^{t} = 2 \\Rightarrow t = \\frac{\\log 2}{\\log 1{,}03} \\approx 23{,}4\\)."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de transformatie van y = 2ˣ aan het voorschrift.",
+          "paren": [
+            [
+              "3 eenheden naar boven",
+              "\\(y = 2^{x} + 3\\)"
+            ],
+            [
+              "Spiegelen rond de x-as",
+              "\\(y = -2^{x}\\)"
+            ],
+            [
+              "Verticaal uitrekken met factor 3",
+              "\\(y = 3 \\cdot 2^{x}\\)"
+            ]
+          ],
+          "extra": [
+            "\\(y = 2^{x + 3}\\)",
+            "\\(y = 2^{3x}\\)"
+          ],
+          "uitleg": "Bij b · aˣ + c is b de verticale uitrekking (negatief: ook spiegelen) en c de verticale verschuiving."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat zijn de kenmerken van \\(f(x) = -2 \\cdot 3^{x} + 5\\)?",
+          "rijen": [
+            "Horizontale asymptoot",
+            "Bereik",
+            "Stijgen of dalen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "\\(3^{x}\\) stijgt, maar de factor \\(-2\\) spiegelt de grafiek: ze daalt. Ze blijft onder de asymptoot \\(y = 5\\).",
+          "kolommen": [
+            "y = 5",
+            "]−∞, 5[",
+            "Dalend"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Stijgende of dalende functie?",
+          "kolommen": [
+            "Stijgend",
+            "Dalend"
+          ],
+          "items": [
+            [
+              "\\(y = 0{,}8^{x}\\)",
+              "Dalend"
+            ],
+            [
+              "\\(y = 5 \\cdot 1{,}1^{x}\\)",
+              "Stijgend"
+            ],
+            [
+              "\\(y = -1{,}5^{x}\\)",
+              "Dalend"
+            ],
+            [
+              "\\(y = -0{,}5^{x} + 2\\)",
+              "Stijgend"
+            ]
+          ],
+          "uitleg": "Een grondtal groter dan 1 stijgt, tussen 0 en 1 daalt. Een minteken ervoor keert dat om."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een exponentiële functie \\(y = b \\cdot a^{x}\\) gaat door \\((0, 5)\\) en \\((2, 45)\\). Wat is \\(a\\)?",
+          "opties": [
+            "\\(3\\)",
+            "\\(9\\)",
+            "\\(20\\)",
+            "\\(\\sqrt{45}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\((0, 5)\\) geeft \\(b = 5\\). Dan \\(5a^{2} = 45 \\Rightarrow a^{2} = 9 \\Rightarrow a = 3\\) (een grondtal is positief)."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij een groeipercentage van −15 % per jaar is de groeifactor [[*0,85|1,15|−0,15]]. Na twee jaar is er nog [[*72,25 %|70 %|85 %]] over.",
+          "uitleg": "0,85 · 0,85 = 0,7225: je trekt niet gewoon twee keer 15 % af."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een auto kost nieuw 25 000 euro en verliest elk jaar 20 % van zijn waarde. Hoeveel euro is hij na 2 jaar waard?",
+          "antwoord": "16000",
+          "uitleg": "\\(25\\,000 \\cdot 0{,}8^{2} = 25\\,000 \\cdot 0{,}64 = 16\\,000\\) euro."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met \\(y = 4 \\cdot 0{,}6^{x}\\) als \\(x \\to +\\infty\\)?",
+          "opties": [
+            "\\(y\\) nadert \\(0\\)",
+            "\\(y\\) nadert \\(4\\)",
+            "\\(y\\) wordt oneindig groot",
+            "\\(y\\) nadert \\(0{,}6\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Machten van \\(0{,}6\\) worden steeds kleiner: de \\(x\\)-as is de horizontale asymptoot."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over exponentiële groei?",
+          "rijen": [
+            "Bij exponentiële groei is de toename per jaar elk jaar even groot.",
+            "Een exponentiële groei met groeifactor groter dan 1 wordt uiteindelijk groter dan elke lineaire groei.",
+            "Een groeifactor van 1 betekent dat de hoeveelheid gelijk blijft."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Exponentiële groei vermenigvuldigt telkens met dezelfde factor, dus de toename wordt steeds groter."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Je berekent na hoeveel tijd een hoeveelheid van 500 g, die 12 % per uur afneemt, onder 100 g zakt. Zet de stappen in de juiste volgorde.",
+          "opties": [
+            "Groeifactor bepalen: \\(0{,}88\\)",
+            "Vergelijking opstellen: \\(500 \\cdot 0{,}88^{t} = 100\\)",
+            "Delen door \\(500\\): \\(0{,}88^{t} = 0{,}2\\)",
+            "Logaritme nemen: \\(t = \\frac{\\log 0{,}2}{\\log 0{,}88} \\approx 12{,}6\\) uur"
+          ],
+          "uitleg": "Eerst de factor, dan de vergelijking, dan de exponent vrijmaken met een logaritme."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "In het model N(t) = N₀ · aᵗ is N₀ de [[beginwaarde]] en a de [[groeifactor]] per tijdseenheid.",
+          "extra": [
+            "asymptoot",
+            "periode"
+          ],
+          "uitleg": "Bij t = 0 is aᵗ = 1, dus N(0) = N₀."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een medicijn wordt elke 6 uur voor de helft afgebroken. Welk voorschrift geeft de hoeveelheid na t uur, bij een dosis van 400 mg?",
+          "opties": [
+            "\\(400 \\cdot 0{,}5^{\\frac{t}{6}}\\)",
+            "\\(400 \\cdot 0{,}5^{6t}\\)",
+            "\\(400 - 6t\\)",
+            "\\(400 \\cdot 6^{-t}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na \\(t\\) uur zijn er \\(\\frac{t}{6}\\) halveringstijden voorbij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk punt ligt zeker op de grafiek van \\(y = a^{x}\\) (met \\(a > 0\\), \\(a \\neq 1\\))?",
+          "opties": [
+            "\\((1, a)\\)",
+            "\\((a, 1)\\)",
+            "\\((0, a)\\)",
+            "\\((1, 0)\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(a^{1} = a\\), dus \\((1, a)\\) ligt altijd op de grafiek."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een kapitaal van \\(2000\\) euro staat \\(5\\) jaar op een rekening met \\(3\\,\\%\\) samengestelde intrest per jaar. Hoeveel euro is het dan? Rond af op de cent.",
+          "antwoord": "2318,55",
+          "uitleg": "\\(2000 \\cdot 1{,}03^{5} = 2000 \\cdot 1{,}159274\\ldots \\approx 2318{,}55\\) euro."
+        },
+        {
+          "type": "open",
+          "vraag": "Een bank belooft 4 % intrest per jaar. Een andere bank belooft 0,33 % per maand. Welke is beter? Leg uit.",
+          "antwoord": "Per jaar geeft de tweede bank \\(1{,}0033^{12} \\approx 1{,}0403\\), dus ongeveer \\(4{,}03\\,\\%\\). Dat is iets meer dan \\(4\\,\\%\\), dus de tweede bank is (net) beter.",
+          "uitleg": "Zet beide om naar dezelfde tijdseenheid."
+        },
+        {
+          "casus": "Een algenplaag bedekt op dag 0 een oppervlakte van 3 m² van een vijver van 300 m². Elke dag wordt de bedekte oppervlakte 1,5 keer zo groot.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welk voorschrift geeft de bedekte oppervlakte A na t dagen?",
+              "opties": [
+                "\\(A(t) = 3 \\cdot 1{,}5^{t}\\)",
+                "\\(A(t) = 3 + 1{,}5t\\)",
+                "\\(A(t) = 1{,}5 \\cdot 3^{t}\\)",
+                "\\(A(t) = 300 \\cdot 1{,}5^{t}\\)"
+              ],
+              "antwoord": 0,
+              "uitleg": "Beginwaarde 3, groeifactor 1,5 per dag."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Na hoeveel dagen is de vijver voor het eerst helemaal bedekt?",
+              "opties": [
+                "Na \\(12\\) dagen",
+                "Na \\(11\\) dagen",
+                "Na \\(100\\) dagen",
+                "Na \\(198\\) dagen"
+              ],
+              "antwoord": 0,
+              "uitleg": "\\(1{,}5^{t} = 100 \\Rightarrow t = \\frac{\\log 100}{\\log 1{,}5} \\approx 11{,}4\\). Na \\(11\\) dagen is het nog niet helemaal, na \\(12\\) dagen wel."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoeveel procent groeit de bedekte oppervlakte per dag?",
+              "opties": [
+                "\\(50\\,\\%\\)",
+                "\\(150\\,\\%\\)",
+                "\\(1{,}5\\,\\%\\)",
+                "\\(15\\,\\%\\)"
+              ],
+              "antwoord": 0,
+              "uitleg": "Groeifactor \\(1{,}5 = 1 + 0{,}5\\): een groei van \\(50\\,\\%\\)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "De sinusfunctie en de goniometrische cirkel — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het beeldpunt van de hoek \\(-\\dfrac{\\pi}{4}\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/sinus-cirkel.svg",
+          "zones": [
+            [
+              64.8,
+              70.0,
+              6.0,
+              9.4
+            ]
+          ],
+          "uitleg": "\\(-\\frac{\\pi}{4}\\) draait \\(45°\\) in wijzerzin, tot in het vierde kwadrant. Dat is hetzelfde beeldpunt als \\(\\frac{7\\pi}{4}\\)."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het beeldpunt van de hoek in het tweede kwadrant waarvan de sinus \\(\\frac{1}{2}\\) is.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/sinus-cirkel.svg",
+          "zones": [
+            [
+              29.7,
+              27.9,
+              6.0,
+              9.4
+            ]
+          ],
+          "uitleg": "\\(\\sin \\frac{5\\pi}{6} = \\frac{1}{2}\\), en \\(\\frac{5\\pi}{6} = 150°\\) ligt in het tweede kwadrant."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is de sinus van de hoek bij elk beeldpunt positief of negatief?",
+          "rijen": [
+            "P",
+            "Q",
+            "R",
+            "S"
+          ],
+          "antwoord": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "uitleg": "De sinus is de y-coördinaat van het beeldpunt: boven de x-as positief, eronder negatief.",
+          "kolommen": [
+            "Positief",
+            "Negatief"
+          ],
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/sinus-cirkel.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk beeldpunt hoort bij \\(\\dfrac{19\\pi}{6}\\)?",
+          "opties": [
+            "R",
+            "Q",
+            "P",
+            "S"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\frac{19\\pi}{6} = 2\\pi + \\frac{7\\pi}{6}\\). Na een volle toer kom je bij \\(\\frac{7\\pi}{6} = 210°\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/sinus-cirkel.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het moment van de eerste hoogwaterstand na middernacht.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/sinus-getij.svg",
+          "zones": [
+            [
+              26.7,
+              15.4,
+              5.6,
+              8.8
+            ]
+          ],
+          "uitleg": "Om 6 uur staat het water op zijn hoogst: 5 m."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op een moment waarop het water het snelst stijgt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/sinus-getij.svg",
+          "zones": [
+            [
+              15.2,
+              45.3,
+              6.0,
+              9.4
+            ],
+            [
+              60.2,
+              45.3,
+              6.0,
+              9.4
+            ]
+          ],
+          "uitleg": "Het water stijgt het snelst als het de evenwichtslijn naar boven kruist: om 3 uur en om 15 uur."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees de kenmerken af.",
+          "rijen": [
+            "Periode",
+            "Amplitude",
+            "Evenwichtslijn"
+          ],
+          "antwoord": [
+            2,
+            0,
+            1
+          ],
+          "uitleg": "Van hoogwater tot hoogwater duurt 12 uur. Het water gaat 2 m boven en onder de evenwichtslijn h = 3.",
+          "kolommen": [
+            "2 m",
+            "h = 3",
+            "12 uur"
+          ],
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/sinus-getij.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk voorschrift past bij de grafiek?",
+          "opties": [
+            "\\(h(t) = 2 \\sin \\frac{\\pi}{6}(t - 3) + 3\\)",
+            "\\(h(t) = 3 \\sin \\frac{\\pi}{6}(t - 3) + 2\\)",
+            "\\(h(t) = 2 \\sin 12(t - 3) + 3\\)",
+            "\\(h(t) = 2 \\sin \\frac{\\pi}{6}(t + 3) + 3\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(a = 2\\), \\(d = 3\\), \\(b = \\frac{2\\pi}{12} = \\frac{\\pi}{6}\\). De grafiek kruist stijgend de evenwichtslijn in \\(t = 3\\), dus \\(c = 3\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/sinus-getij.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een boot heeft minstens 4 m water nodig. Hoe lang kan hij per periode van 12 uur varen?",
+          "opties": [
+            "\\(4\\) uur",
+            "\\(6\\) uur",
+            "\\(2\\) uur",
+            "\\(8\\) uur"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(2 \\sin \\frac{\\pi}{6}(t - 3) + 3 = 4\\) geeft \\(\\sin = \\frac{1}{2}\\): \\(t - 3 = 1\\) of \\(t - 3 = 5\\). Van \\(t = 4\\) tot \\(t = 8\\): \\(4\\) uur.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/sinus-getij.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel graden is \\(\\dfrac{7\\pi}{9}\\) rad?",
+          "antwoord": "140",
+          "uitleg": "\\(\\frac{7\\pi}{9} \\cdot \\frac{180°}{\\pi} = 7 \\cdot 20° = 140°\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel radialen is \\(225°\\)?",
+          "opties": [
+            "\\(\\dfrac{5\\pi}{4}\\)",
+            "\\(\\dfrac{4\\pi}{5}\\)",
+            "\\(\\dfrac{9\\pi}{4}\\)",
+            "\\(\\dfrac{5\\pi}{8}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(225 \\cdot \\frac{\\pi}{180} = \\frac{225\\pi}{180} = \\frac{5\\pi}{4}\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout voor elke hoek α?",
+          "rijen": [
+            "\\(\\sin\\left(\\pi - \\alpha\\right) = \\sin \\alpha\\)",
+            "\\(\\sin(-\\alpha) = \\sin \\alpha\\)",
+            "\\(\\sin(\\alpha + 2\\pi) = \\sin \\alpha\\)",
+            "\\(\\sin 2\\alpha = 2 \\sin \\alpha\\)"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Hoeken \\(\\alpha\\) en \\(\\pi - \\alpha\\) liggen symmetrisch rond de \\(y\\)-as: zelfde hoogte. \\(-\\alpha\\) spiegelt rond de \\(x\\)-as, dus de sinus wisselt van teken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de periode van \\(f(x) = 5 \\sin\\left(\\dfrac{\\pi}{4} x\\right)\\)?",
+          "opties": [
+            "\\(8\\)",
+            "\\(\\dfrac{\\pi}{4}\\)",
+            "\\(4\\)",
+            "\\(\\dfrac{\\pi}{2}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(p = \\frac{2\\pi}{b} = \\frac{2\\pi}{\\pi/4} = 8\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het bereik van \\(f(x) = -3 \\sin 2x + 1\\)?",
+          "opties": [
+            "\\([-2, 4]\\)",
+            "\\([-4, 2]\\)",
+            "\\([-3, 3]\\)",
+            "\\([1, 4]\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Amplitude \\(|-3| = 3\\) rond de evenwichtslijn \\(y = 1\\): van \\(1 - 3\\) tot \\(1 + 3\\). Het minteken spiegelt, maar verandert het bereik niet."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de parameter in \\(f(x) = a \\sin b(x - c) + d\\) aan wat hij bepaalt.",
+          "paren": [
+            [
+              "\\(|a|\\)",
+              "De amplitude"
+            ],
+            [
+              "\\(b\\)",
+              "De periode, via \\(\\frac{2\\pi}{b}\\)"
+            ],
+            [
+              "\\(c\\)",
+              "De faseverschuiving"
+            ],
+            [
+              "\\(d\\)",
+              "De evenwichtslijn"
+            ]
+          ],
+          "extra": [
+            "De nulwaarden van sin x"
+          ],
+          "uitleg": "Elke parameter hoort bij één transformatie van sin x."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Verandert de transformatie de periode van \\(\\sin x\\) of niet?",
+          "kolommen": [
+            "Verandert de periode",
+            "Verandert de periode niet"
+          ],
+          "items": [
+            [
+              "\\(\\sin x \\to \\sin 3x\\)",
+              "Verandert de periode"
+            ],
+            [
+              "\\(\\sin x \\to 3 \\sin x\\)",
+              "Verandert de periode niet"
+            ],
+            [
+              "\\(\\sin x \\to \\sin x + 3\\)",
+              "Verandert de periode niet"
+            ],
+            [
+              "\\(\\sin x \\to \\sin\\frac{x}{3}\\)",
+              "Verandert de periode"
+            ],
+            [
+              "\\(\\sin x \\to \\sin(x - 3)\\)",
+              "Verandert de periode niet"
+            ]
+          ],
+          "uitleg": "Enkel een horizontale uitrekking (de factor b) verandert de periode."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een sinusfunctie heeft maximum \\(14\\) in \\(x = 2\\) en het eerstvolgende minimum \\(4\\) in \\(x = 7\\). Wat is de periode?",
+          "opties": [
+            "\\(10\\)",
+            "\\(5\\)",
+            "\\(7\\)",
+            "\\(14\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van maximum tot minimum is een halve periode: \\(7 - 2 = 5\\), dus \\(p = 10\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bij dezelfde functie (maximum \\(14\\), minimum \\(4\\)): wat is de amplitude?",
+          "antwoord": "5",
+          "uitleg": "\\(\\frac{14 - 4}{2} = 5\\)."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een sinusfunctie met periode 0,8 s heeft een frequentie van [[*1,25|0,8|8]] trillingen per seconde. Een kortere periode geeft een [[*hogere|lagere|gelijke]] frequentie.",
+          "uitleg": "Frequentie = 1 / periode."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel oplossingen heeft \\(\\sin x = 0{,}3\\) op \\([0, 4\\pi]\\)?",
+          "opties": [
+            "\\(4\\)",
+            "\\(2\\)",
+            "\\(1\\)",
+            "\\(8\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op \\([0, 2\\pi]\\) zijn er twee: één in het eerste en één in het tweede kwadrant. \\([0, 4\\pi]\\) bevat twee perioden."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de sinuswaarden van klein naar groot.",
+          "opties": [
+            "\\(\\sin\\dfrac{3\\pi}{2}\\)",
+            "\\(\\sin\\dfrac{7\\pi}{6}\\)",
+            "\\(\\sin \\pi\\)",
+            "\\(\\sin\\dfrac{\\pi}{6}\\)",
+            "\\(\\sin\\dfrac{\\pi}{2}\\)"
+          ],
+          "uitleg": "\\(-1\\), \\(-\\frac{1}{2}\\), \\(0\\), \\(\\frac{1}{2}\\) en \\(1\\)."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "De hoogte van een bakje in een reuzenrad gaat op en neer rond de hoogte van de [[as]]. Die hoogte is de [[evenwichtslijn]], en de straal van het rad is de [[amplitude]].",
+          "extra": [
+            "periode",
+            "frequentie"
+          ],
+          "uitleg": "Het bakje gaat een straal boven en een straal onder de as."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling zet zijn rekentoestel in graden en berekent \\(\\sin \\frac{\\pi}{6}\\). Wat gebeurt er?",
+          "opties": [
+            "Hij krijgt ongeveer \\(0{,}009\\), want het toestel neemt \\(0{,}52°\\)",
+            "Hij krijgt \\(0{,}5\\), want het toestel herkent \\(\\pi\\)",
+            "Het toestel geeft een foutmelding",
+            "Hij krijgt \\(30\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\frac{\\pi}{6} \\approx 0{,}52\\). In graden is dat een heel kleine hoek. Zet het toestel in radialen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over \\(f(x) = 4 \\sin 2\\left(x - \\dfrac{\\pi}{4}\\right) - 1\\)?",
+          "rijen": [
+            "De periode is \\(\\pi\\).",
+            "Het maximum is \\(3\\).",
+            "De evenwichtslijn is \\(y = 4\\).",
+            "De grafiek is \\(\\frac{\\pi}{4}\\) naar links verschoven ten opzichte van \\(4 \\sin 2x - 1\\)."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "\\(\\frac{2\\pi}{2} = \\pi\\). Maximum \\(-1 + 4 = 3\\). Evenwichtslijn \\(y = -1\\). \\(x - \\frac{\\pi}{4}\\) schuift naar rechts."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij welk beeldpunt is de sinus van de hoek het kleinst?",
+          "opties": [
+            "S",
+            "R",
+            "Q",
+            "P"
+          ],
+          "antwoord": 0,
+          "uitleg": "De sinus is de \\(y\\)-coördinaat. S ligt het laagst: \\(\\sin \\frac{7\\pi}{4} \\approx -0{,}71\\), terwijl \\(\\sin \\frac{7\\pi}{6} = -0{,}5\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/sinus-cirkel.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een sinusfunctie heeft periode \\(24\\). Hoeveel is \\(b\\) in \\(a \\sin b(x - c) + d\\)?",
+          "opties": [
+            "\\(\\dfrac{\\pi}{12}\\)",
+            "\\(24\\)",
+            "\\(\\dfrac{\\pi}{24}\\)",
+            "\\(12\\pi\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(b = \\frac{2\\pi}{p} = \\frac{2\\pi}{24} = \\frac{\\pi}{12}\\)."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit hoe je de grafiek van \\(\\sin x\\) opbouwt vanuit de goniometrische cirkel.",
+          "antwoord": "Je laat een punt over de cirkel lopen. Op de \\(x\\)-as van de grafiek zet je de hoek in radialen, en als hoogte neem je de \\(y\\)-coördinaat van het beeldpunt. Na één toer (\\(2\\pi\\)) begint alles opnieuw: dat is de periode.",
+          "uitleg": "De sinus is de y-coördinaat van het beeldpunt."
+        },
+        {
+          "casus": "Een reuzenrad heeft een diameter van \\(50\\) m. De as staat op \\(28\\) m hoogte. Eén toer duurt \\(8\\) minuten. Op \\(t = 0\\) passeert een bakje stijgend de hoogte van de as.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welk voorschrift geeft de hoogte h (m) na t minuten?",
+              "opties": [
+                "\\(h(t) = 25 \\sin \\frac{\\pi}{4} t + 28\\)",
+                "\\(h(t) = 50 \\sin \\frac{\\pi}{4} t + 28\\)",
+                "\\(h(t) = 25 \\sin 8t + 28\\)",
+                "\\(h(t) = 28 \\sin \\frac{\\pi}{4} t + 25\\)"
+              ],
+              "antwoord": 0,
+              "uitleg": "Amplitude = straal = \\(25\\). \\(b = \\frac{2\\pi}{8} = \\frac{\\pi}{4}\\). Evenwichtslijn \\(28\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe hoog is het bakje na 6 minuten?",
+              "opties": [
+                "\\(3\\) m",
+                "\\(53\\) m",
+                "\\(28\\) m",
+                "\\(15{,}5\\) m"
+              ],
+              "antwoord": 0,
+              "uitleg": "\\(\\sin \\frac{6\\pi}{4} = \\sin \\frac{3\\pi}{2} = -1\\): het laagste punt, \\(28 - 25 = 3\\) m."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Na hoeveel minuten is het bakje voor het eerst op het hoogste punt?",
+              "opties": [
+                "\\(2\\)",
+                "\\(4\\)",
+                "\\(8\\)",
+                "\\(6\\)"
+              ],
+              "antwoord": 0,
+              "uitleg": "Een kwart toer na het stijgend passeren van de as: \\(\\frac{8}{4} = 2\\) minuten."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
