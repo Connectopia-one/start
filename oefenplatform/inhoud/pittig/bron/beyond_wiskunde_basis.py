@@ -29,6 +29,7 @@ THEMAS = [
     ("vergelijkingen", "Vergelijkingen grafisch oplossen"),
     ("afgeleiden", "Afgeleiden: helling en raaklijn"),
     ("rijen", "Rekenkundige en meetkundige rijen"),
+    ("kansen", "Kansrekenen met kansbomen en kruistabellen"),
 ]
 
 HOOFDSTUKKEN = [

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<rect x="60.0" y="150.0" width="280.0" height="80.0" rx="0" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/>
+<text x="200.0" y="198.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold"></text>
+<rect x="340.0" y="150.0" width="220.0" height="80.0" rx="0" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/>
+<text x="450.0" y="198.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Moe in de les</text>
+<rect x="560.0" y="150.0" width="200.0" height="80.0" rx="0" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/>
+<text x="660.0" y="198.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Niet moe</text>
+<rect x="760.0" y="150.0" width="180.0" height="80.0" rx="0" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/>
+<text x="850.0" y="198.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Totaal</text>
+<rect x="60.0" y="230.0" width="280.0" height="90.0" rx="0" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/>
+<text x="200.0" y="283.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Ontbijt elke dag</text>
+<rect x="340.0" y="230.0" width="220.0" height="90.0" rx="0" fill="#fffdf7" stroke="#2f4a22" stroke-width="2"/>
+<text x="450.0" y="283.0" font-size="21" text-anchor="middle" fill="#24331b">30</text>
+<rect x="560.0" y="230.0" width="200.0" height="90.0" rx="0" fill="#fffdf7" stroke="#2f4a22" stroke-width="2"/>
+<text x="660.0" y="283.0" font-size="21" text-anchor="middle" fill="#24331b">120</text>
+<rect x="760.0" y="230.0" width="180.0" height="90.0" rx="0" fill="#fffdf7" stroke="#2f4a22" stroke-width="2"/>
+<text x="850.0" y="283.0" font-size="21" text-anchor="middle" fill="#24331b">150</text>
+<rect x="60.0" y="320.0" width="280.0" height="90.0" rx="0" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/>
+<text x="200.0" y="373.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Ontbijt niet elke dag</text>
+<rect x="340.0" y="320.0" width="220.0" height="90.0" rx="0" fill="#fffdf7" stroke="#2f4a22" stroke-width="2"/>
+<text x="450.0" y="373.0" font-size="21" text-anchor="middle" fill="#24331b">45</text>
+<rect x="560.0" y="320.0" width="200.0" height="90.0" rx="0" fill="#fffdf7" stroke="#2f4a22" stroke-width="2"/>
+<text x="660.0" y="373.0" font-size="21" text-anchor="middle" fill="#24331b">55</text>
+<rect x="760.0" y="320.0" width="180.0" height="90.0" rx="0" fill="#fffdf7" stroke="#2f4a22" stroke-width="2"/>
+<text x="850.0" y="373.0" font-size="21" text-anchor="middle" fill="#24331b">100</text>
+<rect x="60.0" y="410.0" width="280.0" height="90.0" rx="0" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/>
+<text x="200.0" y="463.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Totaal</text>
+<rect x="340.0" y="410.0" width="220.0" height="90.0" rx="0" fill="#fffdf7" stroke="#2f4a22" stroke-width="2"/>
+<text x="450.0" y="463.0" font-size="21" text-anchor="middle" fill="#24331b">75</text>
+<rect x="560.0" y="410.0" width="200.0" height="90.0" rx="0" fill="#fffdf7" stroke="#2f4a22" stroke-width="2"/>
+<text x="660.0" y="463.0" font-size="21" text-anchor="middle" fill="#24331b">175</text>
+<rect x="760.0" y="410.0" width="180.0" height="90.0" rx="0" fill="#fffdf7" stroke="#2f4a22" stroke-width="2"/>
+<text x="850.0" y="463.0" font-size="21" text-anchor="middle" fill="#24331b">250</text>
+<text x="500.0" y="590.0" font-size="18" text-anchor="middle" fill="#6b6b5a">Bevraging bij 250 leerlingen</text>
+<text x="500.0" y="30.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Ontbijt en moe zijn in de les</text>
+</svg>

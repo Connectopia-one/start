@@ -16,6 +16,7 @@ Een grafiek is een dict met:
     xlabel, ylabel
     staven    [(x, breedte, hoogte)]: een histogram
     reeksen   [([(n, u_n), ...], kleur, label)]: de punten van een rij
+    eigen     functie die SVG-stukken teruggeeft (kansboom, tabel); geen assen
 """
 import importlib
 import math
@@ -44,7 +45,18 @@ def getal(v):
     return s.replace("-", "−").replace(".", ",")
 
 
+def teken_eigen(g):
+    """Een prent zonder assenstelsel (kansboom, tabel): het thema levert de SVG-stukken."""
+    d = [f'<rect width="{pm.B}" height="{pm.H}" fill="{ACHTER}"/>', *g["eigen"]()]
+    if g.get("titel"):
+        d.append(tekst(pm.B / 2, 30, g["titel"], 20, vet=True))
+    svg = "\n".join([f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {pm.B} {pm.H}" width="{pm.B}" height="{pm.H}" {FONT}>', *d, "</svg>"])
+    (UIT / f"{g['naam']}.svg").write_text(svg + "\n", encoding="utf-8")
+
+
 def teken(g):
+    if "eigen" in g:
+        return teken_eigen(g)
     n = g["naam"]
     xmin, xmax, ymin, ymax, sx, sy = pm.VENSTERS[n]
     X, Y = (lambda x: pm.px(n, x)), (lambda y: pm.py(n, y))

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<circle cx="90" cy="340" r="9" fill="#2f4a22"/>
+<line x1="99.0" y1="340.0" x2="365.0" y2="185.0" stroke="#2f4a22" stroke-width="3"/>
+<text x="224.0" y="248.5" font-size="20" text-anchor="middle" fill="#7a4b8c" font-weight="bold">0,3</text>
+<line x1="475.0" y1="185.0" x2="745.0" y2="105.0" stroke="#2f4a22" stroke-width="3"/>
+<text x="602.0" y="131.0" font-size="20" text-anchor="middle" fill="#7a4b8c" font-weight="bold">0,1</text>
+<line x1="475.0" y1="185.0" x2="745.0" y2="265.0" stroke="#2f4a22" stroke-width="3"/>
+<text x="602.0" y="255.0" font-size="20" text-anchor="middle" fill="#7a4b8c" font-weight="bold">0,9</text>
+<line x1="99.0" y1="340.0" x2="365.0" y2="495.0" stroke="#2f4a22" stroke-width="3"/>
+<text x="224.0" y="447.5" font-size="20" text-anchor="middle" fill="#7a4b8c" font-weight="bold">0,7</text>
+<line x1="475.0" y1="495.0" x2="745.0" y2="415.0" stroke="#2f4a22" stroke-width="3"/>
+<text x="602.0" y="441.0" font-size="20" text-anchor="middle" fill="#7a4b8c" font-weight="bold">0,05</text>
+<line x1="475.0" y1="495.0" x2="745.0" y2="575.0" stroke="#2f4a22" stroke-width="3"/>
+<text x="602.0" y="565.0" font-size="20" text-anchor="middle" fill="#7a4b8c" font-weight="bold">0,95</text>
+<rect x="365.0" y="163.0" width="110.0" height="44.0" rx="12" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/><text x="420.0" y="192.0" font-size="19" text-anchor="middle" fill="#24331b" font-weight="bold">bus</text>
+<rect x="745.0" y="83.0" width="110.0" height="44.0" rx="12" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/><text x="800.0" y="112.0" font-size="19" text-anchor="middle" fill="#24331b" font-weight="bold">te laat</text>
+<rect x="745.0" y="243.0" width="110.0" height="44.0" rx="12" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/><text x="800.0" y="272.0" font-size="19" text-anchor="middle" fill="#24331b" font-weight="bold">op tijd</text>
+<rect x="365.0" y="473.0" width="110.0" height="44.0" rx="12" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/><text x="420.0" y="502.0" font-size="19" text-anchor="middle" fill="#24331b" font-weight="bold">geen bus</text>
+<rect x="745.0" y="393.0" width="110.0" height="44.0" rx="12" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/><text x="800.0" y="422.0" font-size="19" text-anchor="middle" fill="#24331b" font-weight="bold">te laat</text>
+<rect x="745.0" y="553.0" width="110.0" height="44.0" rx="12" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/><text x="800.0" y="582.0" font-size="19" text-anchor="middle" fill="#24331b" font-weight="bold">op tijd</text>
+<text x="500.0" y="30.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Bus nemen en te laat komen</text>
+</svg>

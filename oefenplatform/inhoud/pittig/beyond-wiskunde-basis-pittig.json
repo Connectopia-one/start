@@ -3702,6 +3702,414 @@
           ]
         }
       ]
+    },
+    {
+      "titel": "Kansrekenen met kansbomen en kruistabellen — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de kans dat een leerling die de bus neemt, te laat komt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/kansen-kansboom-bus.svg",
+          "zones": [
+            [
+              55.5,
+              16.4,
+              11.0,
+              9.4
+            ]
+          ],
+          "uitleg": "Die voorwaardelijke kans \\(P(\\text{te laat} \\mid \\text{bus}) = 0{,}1\\) staat op de tak van 'bus' naar 'te laat'."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het einde van het pad 'neemt de bus niet en komt te laat'.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/kansen-kansboom-bus.svg",
+          "zones": [
+            [
+              74.0,
+              60.8,
+              12.0,
+              8.1
+            ]
+          ],
+          "uitleg": "Eerst de tak 'geen bus', daarna vanuit die knoop de tak 'te laat'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe groot is de kans dat een willekeurige leerling de bus niet neemt en op tijd komt?",
+          "opties": [
+            "\\(0{,}95\\)",
+            "\\(0{,}665\\)",
+            "\\(0{,}7\\)",
+            "\\(1{,}65\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "Productregel langs het pad: \\(0{,}7 \\cdot 0{,}95 = 0{,}665\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/kansen-kansboom-bus.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe groot is de kans dat een willekeurige leerling te laat komt?",
+          "opties": [
+            "\\(0{,}15\\)",
+            "\\(0{,}075\\)",
+            "\\(0{,}065\\)",
+            "\\(0{,}035\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "Twee paden eindigen op 'te laat'. Productregel en somregel: \\(0{,}3 \\cdot 0{,}1 + 0{,}7 \\cdot 0{,}05\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/kansen-kansboom-bus.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over deze kansboom?",
+          "rijen": [
+            "Wie de bus neemt, komt vaker te laat dan wie de bus niet neemt.",
+            "De kansen op de takken die uit één knoop vertrekken, tellen samen op tot 1.",
+            "Meer dan de helft van de laatkomers neemt de bus.",
+            "Te laat komen hangt hier niet af van de bus nemen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "\\(0{,}1 > 0{,}05\\): de kans hangt dus wel af van de bus. Van de laatkomers komt \\(0{,}03\\) van de bus en \\(0{,}035\\) niet: minder dan de helft neemt de bus.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/kansen-kansboom-bus.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het getal dat je als noemer nodig hebt voor de kans dat een leerling die niet elke dag ontbijt, moe is in de les.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/kansen-kruistabel-ontbijt.svg",
+          "zones": [
+            [
+              76.0,
+              50.0,
+              18.0,
+              14.1
+            ]
+          ],
+          "uitleg": "Bij een voorwaardelijke kans kijk je enkel naar de groep waarover het gaat: de 100 leerlingen die niet elke dag ontbijten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je kiest willekeurig een leerling. Hoe groot is de kans dat die elke dag ontbijt en niet moe is? Geef een kommagetal.",
+          "antwoord": "0,48",
+          "uitleg": "\\(\\frac{120}{250} = 0{,}48\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/kansen-kruistabel-ontbijt.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling is moe in de les. Hoe groot is de kans dat die elke dag ontbijt?",
+          "opties": [
+            "\\(0{,}2\\)",
+            "\\(0{,}12\\)",
+            "\\(0{,}4\\)",
+            "\\(0{,}3\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "Je kijkt enkel naar de 75 vermoeide leerlingen: \\(\\frac{30}{75} = 0{,}4\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/kansen-kruistabel-ontbijt.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout volgens deze kruistabel?",
+          "rijen": [
+            "\\(P(\\text{moe} \\mid \\text{ontbijt elke dag}) = 0{,}2\\)",
+            "Wie niet elke dag ontbijt, is minder vaak moe dan wie elke dag ontbijt.",
+            "\\(P(\\text{moe}) = 0{,}3\\)",
+            "\\(P(\\text{ontbijt elke dag}) = 0{,}4\\)"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "\\(\\frac{30}{150} = 0{,}2\\) tegenover \\(\\frac{45}{100} = 0{,}45\\). \\(\\frac{75}{250} = 0{,}3\\) en \\(\\frac{150}{250} = 0{,}6\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/kansen-kruistabel-ontbijt.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je gooit met twee eerlijke dobbelstenen. Hoe groot is de kans dat de som 7 is?",
+          "opties": [
+            "\\(\\dfrac{7}{36}\\)",
+            "\\(\\dfrac{1}{12}\\)",
+            "\\(\\dfrac{1}{11}\\)",
+            "\\(\\dfrac{1}{6}\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "Er zijn \\(36\\) even waarschijnlijke uitkomsten. Zes geven som 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een zak bevat 4 rode, 5 blauwe en 3 groene knikkers. Je trekt er blind één. Hoe groot is de kans dat ze niet blauw is?",
+          "opties": [
+            "\\(\\dfrac{5}{12}\\)",
+            "\\(\\dfrac{7}{12}\\)",
+            "\\(\\dfrac{1}{3}\\)",
+            "\\(\\dfrac{7}{5}\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "Complementregel: \\(1 - \\frac{5}{12} = \\frac{7}{12}\\). Of rechtstreeks: \\(4 + 3 = 7\\) gunstige knikkers op \\(12\\)."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Je gooit een punaise 1000 keer: 620 keer ligt de punt omhoog. Hoe vaker je gooit, hoe [[*dichter bij|verder van|exact gelijk aan]] de kans 620/1000 komt te liggen. Zo'n geschatte kans heet een [[*empirische|voorwaardelijke|Laplace-]]kans.",
+          "uitleg": "Bij veel herhalingen stabiliseert het aandeel rond de echte kans. Laplace kan hier niet: punt omhoog en punt opzij zijn niet even waarschijnlijk."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Mag je hier de wet van Laplace gebruiken?",
+          "kolommen": [
+            "Laplace mag",
+            "Laplace mag niet"
+          ],
+          "items": [
+            [
+              "Een eerlijke dobbelsteen gooien",
+              "Laplace mag"
+            ],
+            [
+              "Een punaise die op de punt of op de kop valt",
+              "Laplace mag niet"
+            ],
+            [
+              "Een kaart trekken uit een goed geschud spel",
+              "Laplace mag"
+            ],
+            [
+              "Morgen regent het of het regent niet",
+              "Laplace mag niet"
+            ],
+            [
+              "Een naam trekken uit een hoed met 30 briefjes",
+              "Laplace mag"
+            ],
+            [
+              "Een voetbalmatch winnen, verliezen of gelijkspelen",
+              "Laplace mag niet"
+            ]
+          ],
+          "uitleg": "Laplace werkt enkel als alle uitkomsten even waarschijnlijk zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je gooit drie keer met een eerlijke munt. Hoe groot is de kans dat je minstens één keer kop gooit?",
+          "opties": [
+            "\\(\\dfrac{3}{8}\\)",
+            "\\(\\dfrac{1}{2}\\)",
+            "\\(\\dfrac{7}{8}\\)",
+            "\\(\\dfrac{3}{4}\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "Het tegengestelde is 'drie keer munt': \\(\\left(\\frac{1}{2}\\right)^3 = \\frac{1}{8}\\). Dus \\(1 - \\frac{1}{8}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een test geeft in 95 % van de gevallen het juiste resultaat. Je doet hem twee keer, onafhankelijk van elkaar. Hoe groot is de kans dat hij beide keren juist is?",
+          "opties": [
+            "\\(0{,}95\\)",
+            "\\(0{,}9025\\)",
+            "\\(0{,}0975\\)",
+            "\\(1{,}9\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(0{,}95 \\cdot 0{,}95 = 0{,}9025\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over kansen?",
+          "rijen": [
+            "Een kans van 0 betekent dat de gebeurtenis onmogelijk is.",
+            "Een kans kan groter zijn dan 1 als iets heel vaak gebeurt.",
+            "Twee gebeurtenissen die elkaar uitsluiten, kunnen samen gebeuren.",
+            "Bij een eerlijke munt is de kans op kop bij de zesde worp \\(\\frac{1}{2}\\), ook na vijf keer kop."
+          ],
+          "antwoord": [
+            true,
+            false,
+            false,
+            true
+          ],
+          "uitleg": "Een kans ligt altijd tussen 0 en 1. Een munt heeft geen geheugen."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen om met een kansboom P(A) te berekenen in de goede volgorde.",
+          "opties": [
+            "Teken de eerste vertakking, met kansen die samen 1 zijn",
+            "Teken bij elke knoop de tweede vertakking met de voorwaardelijke kansen",
+            "Vermenigvuldig de kansen langs elk pad dat bij A hoort",
+            "Tel de kansen van die paden op"
+          ],
+          "uitleg": "Eerst de boom opbouwen, dan productregel per pad, dan somregel over de paden."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de regel aan wat je doet.",
+          "paren": [
+            [
+              "Productregel",
+              "Kansen langs één pad vermenigvuldigen"
+            ],
+            [
+              "Somregel",
+              "Kansen van verschillende paden optellen"
+            ],
+            [
+              "Complementregel",
+              "De kans op het tegengestelde van 1 aftrekken"
+            ],
+            [
+              "Wet van Laplace",
+              "Gunstige uitkomsten delen door alle even waarschijnlijke uitkomsten"
+            ]
+          ],
+          "extra": [
+            "Kansen van takken uit één knoop vermenigvuldigen"
+          ],
+          "uitleg": "Langs een pad: maal. Tussen paden: plus. Het tegendeel: 1 min."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij een dobbelsteen is {1, 2, 3, 4, 5, 6} de [[uitkomstenverzameling]]. 'Een even getal gooien' is een [[gebeurtenis]] met drie gunstige [[uitkomsten]].",
+          "extra": [
+            "kans",
+            "frequentie",
+            "kruistabel"
+          ],
+          "uitleg": "Een gebeurtenis is een deel van de uitkomstenverzameling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een klas van 24 hebben 6 leerlingen een huisdier en 10 een broer of zus. 4 leerlingen hebben allebei. Hoe groot is de kans dat een willekeurige leerling een huisdier of een broer of zus heeft?",
+          "opties": [
+            "\\(\\dfrac{16}{24}\\)",
+            "\\(\\dfrac{4}{24}\\)",
+            "\\(\\dfrac{10}{24}\\)",
+            "\\(\\dfrac{12}{24}\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "Wie beide heeft, mag je maar één keer tellen: \\(6 + 10 - 4 = 12\\) leerlingen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Van 80 sporters in een club spelen er 20 tennis. 15 van die tennissers zijn meisjes. Hoe groot is de kans dat een willekeurige tennisser een meisje is?",
+          "opties": [
+            "\\(0{,}1875\\)",
+            "\\(0{,}25\\)",
+            "\\(0{,}75\\)",
+            "\\(0{,}2\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "Je kijkt enkel naar de 20 tennissers: \\(\\frac{15}{20}\\)."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg met een voorbeeld uit dat \\(P(A \\mid B)\\) en \\(P(B \\mid A)\\) niet hetzelfde zijn.",
+          "antwoord": "Bijvoorbeeld A = 'is profvoetballer' en B = 'is een man'. \\(P(\\text{man} \\mid \\text{profvoetballer})\\) is bijna 1, maar \\(P(\\text{profvoetballer} \\mid \\text{man})\\) is heel klein. De groep waarbinnen je kijkt (de noemer) is telkens anders.",
+          "uitleg": "De voorwaarde bepaalt de groep waarin je telt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In een vaas staan 3 rode en 2 witte tulpen. Je neemt er blind 2, zonder terugleggen. Hoe groot is de kans op 2 rode tulpen? Geef een kommagetal.",
+          "antwoord": "0,3",
+          "uitleg": "\\(\\frac{3}{5} \\cdot \\frac{2}{4} = \\frac{6}{20} = 0{,}3\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Dezelfde vaas (3 rode, 2 witte tulpen), maar nu zet je de eerste tulp terug voor je de tweede neemt. Hoe groot is de kans op 2 rode?",
+          "opties": [
+            "\\(0{,}6\\)",
+            "\\(0{,}36\\)",
+            "\\(0{,}09\\)",
+            "\\(0{,}5\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "Met terugleggen blijft de kans telkens \\(\\frac{3}{5}\\): \\(0{,}6 \\cdot 0{,}6\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een quiz heeft 4 meerkeuzevragen met elk 4 opties. Je gokt bij elke vraag. Hoe groot is de kans dat alles fout is?",
+          "opties": [
+            "Ongeveer \\(0{,}75\\)",
+            "Ongeveer \\(0{,}25\\)",
+            "Ongeveer \\(0{,}68\\)",
+            "Ongeveer \\(0{,}32\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "Per vraag is de kans op fout \\(\\frac{3}{4}\\). Vier keer: \\(\\left(\\frac{3}{4}\\right)^4 \\approx 0{,}316\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het weerbericht zegt: 'kans op regen 70 %'. Wat betekent dat?",
+          "opties": [
+            "Op dagen met zo'n voorspelling regent het in ongeveer 70 % van de gevallen",
+            "Het zal morgen 70 % van de dag regenen",
+            "Het regent morgen op 70 % van de plaatsen in het land",
+            "Het regent morgen zeker, maar minder hard"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een kans zegt hoe vaak iets gebeurt op lange termijn, bij vergelijkbare omstandigheden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij 50 worpen met een dobbelsteen kwam 13 keer een zes. Wat kan je besluiten?",
+          "opties": [
+            "De dobbelsteen is zeker vals",
+            "De kans op een zes is bij deze dobbelsteen 13/50",
+            "Dat kan toeval zijn: 50 worpen is te weinig om te besluiten",
+            "Bij de volgende worpen zal zes minder vaak vallen"
+          ],
+          "antwoord": 2,
+          "uitleg": "Verwacht is ongeveer \\(\\frac{50}{6} \\approx 8\\). Bij weinig worpen schommelt de relatieve frequentie nog sterk rond de kans."
+        },
+        {
+          "casus": "Een sneltest voor griep. Van de mensen met klachten heeft 10 % griep. Bij wie griep heeft, is de test in 90 % van de gevallen positief. Bij wie geen griep heeft, is hij toch in 20 % van de gevallen positief.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe groot is de kans dat iemand met klachten positief test?",
+              "opties": [
+                "\\(0{,}09\\)",
+                "\\(0{,}27\\)",
+                "\\(0{,}2\\)",
+                "\\(1{,}1\\)"
+              ],
+              "antwoord": 1,
+              "uitleg": "Teken een kansboom: \\(0{,}1 \\cdot 0{,}9 + 0{,}9 \\cdot 0{,}2 = 0{,}09 + 0{,}18\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Iemand test positief. Hoe groot is de kans dat die persoon echt griep heeft?",
+              "opties": [
+                "Ongeveer \\(0{,}9\\)",
+                "Ongeveer \\(0{,}33\\)",
+                "Ongeveer \\(0{,}1\\)",
+                "Ongeveer \\(0{,}5\\)"
+              ],
+              "antwoord": 1,
+              "uitleg": "Van alle positieve tests komt maar \\(0{,}09\\) van mensen met griep: \\(\\frac{0{,}09}{0{,}27} = \\frac{1}{3}\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom is die kans zo klein, terwijl de test griep meestal wel opspoort?",
+              "opties": [
+                "Omdat de test bij griep vaak negatief is",
+                "Omdat de meeste geteste mensen geen griep hebben, zodat er veel vals positieve tests zijn",
+                "Omdat je kansen bij een kansboom nooit mag delen",
+                "Omdat 10 % en 20 % samen 30 % geven"
+              ],
+              "antwoord": 1,
+              "uitleg": "Een klein deel van een grote groep (20 % van 90 %) is meer dan een groot deel van een kleine groep (90 % van 10 %)."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
