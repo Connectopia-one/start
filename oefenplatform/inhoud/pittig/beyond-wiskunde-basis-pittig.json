@@ -6553,6 +6553,396 @@
           ]
         }
       ]
+    },
+    {
+      "titel": "Bedrijfswetenschappen: integralen en oppervlakte — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de rechthoek die hoort bij het deelinterval \\([2, 3]\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/integralen-riemann.svg",
+          "zones": [
+            [
+              47.9,
+              68.1,
+              20.5,
+              27.2
+            ]
+          ],
+          "uitleg": "Elke rechthoek heeft breedte 1. Die boven \\([2, 3]\\) heeft hoogte \\(f(2) = 3\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Is de som van de oppervlaktes van deze rechthoeken een ondersom of een bovensom?",
+          "opties": [
+            "Een bovensom",
+            "Een ondersom",
+            "Geen van beide",
+            "Allebei"
+          ],
+          "antwoord": 1,
+          "uitleg": "f stijgt en elke rechthoek neemt de hoogte links in het deelinterval: de kleinste functiewaarde. Alle rechthoeken liggen onder de grafiek.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/integralen-riemann.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bereken de som van de oppervlaktes van de vier rechthoeken.",
+          "antwoord": "11",
+          "uitleg": "\\(1 \\cdot (f(0) + f(1) + f(2) + f(3)) = 1 + 1{,}5 + 3 + 5{,}5\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/integralen-riemann.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik in het gebied dat ingesloten wordt door de grafieken van f en g.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/integralen-twee-krommen.svg",
+          "zones": [
+            [
+              34.0,
+              36.4,
+              18.0,
+              12.1
+            ]
+          ],
+          "uitleg": "f en g snijden elkaar in \\(x = 0\\) en \\(x = 3\\). Daartussen ligt f boven g."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke integraal geeft de gekleurde oppervlakte?",
+          "opties": [
+            "\\(\\displaystyle\\int_0^4 (-x^2 + 4x)\\,dx\\)",
+            "\\(\\displaystyle\\int_0^3 (-x^2 + 5x)\\,dx\\)",
+            "\\(\\displaystyle\\int_0^3 (-x^2 + 3x)\\,dx\\)",
+            "\\(\\displaystyle\\int_0^3 (x^2 - 3x)\\,dx\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "Bovenste min onderste kromme, tussen de snijpunten: \\(\\int_0^3 \\left((-x^2 + 4x) - x\\right) dx\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/integralen-twee-krommen.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is \\(\\displaystyle\\int_0^3 (x^2 - 4)\\,dx\\)?",
+          "opties": [
+            "\\(\\dfrac{23}{3}\\)",
+            "\\(3\\)",
+            "\\(-\\dfrac{16}{3}\\)",
+            "\\(-3\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "\\(\\left[\\frac{x^3}{3} - 4x\\right]_0^3 = 9 - 12\\). Het stuk onder de x-as telt negatief.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/integralen-georienteerd.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe groot is de werkelijke oppervlakte van het gekleurde gebied?",
+          "opties": [
+            "\\(\\dfrac{23}{3}\\)",
+            "\\(3\\)",
+            "\\(\\dfrac{16}{3}\\)",
+            "\\(\\dfrac{7}{3}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Splits bij de nulwaarde 2. Onder de x-as: \\(\\frac{16}{3}\\). Erboven: \\(\\frac{7}{3}\\). Samen \\(\\frac{23}{3} \\approx 7{,}67\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/integralen-georienteerd.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke functie is een primitieve van \\(f(x) = 6x^2 - 4x + 3\\)?",
+          "opties": [
+            "\\(12x - 4\\)",
+            "\\(2x^3 - 2x^2 + 3x\\)",
+            "\\(6x^3 - 4x^2 + 3x\\)",
+            "\\(2x^3 - 4x^2 + 3\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "Leid af ter controle: \\((2x^3 - 2x^2 + 3x)' = 6x^2 - 4x + 3\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "\\(\\displaystyle\\int (x^3 - 2)\\,dx = \\dots\\)",
+          "opties": [
+            "\\(3x^2 + C\\)",
+            "\\(\\dfrac{x^4}{4} - 2 + C\\)",
+            "\\(\\dfrac{x^4}{4} - 2x + C\\)",
+            "\\(x^4 - 2x + C\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "\\(\\int x^n dx = \\frac{x^{n+1}}{n+1} + C\\) en \\(\\int 2\\,dx = 2x + C\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bereken \\(\\displaystyle\\int_1^3 2x\\,dx\\).",
+          "antwoord": "8",
+          "uitleg": "\\(\\left[x^2\\right]_1^3 = 9 - 1\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over primitieven en integralen?",
+          "rijen": [
+            "Twee primitieven van dezelfde functie verschillen hoogstens een constante.",
+            "Een primitieve van \\(x^2\\) is \\(2x\\).",
+            "\\(\\displaystyle\\int_a^a f(x)\\,dx = 0\\)",
+            "Als \\(f(x) \\geq 0\\) op \\([a, b]\\) met \\(a < b\\), kan \\(\\int_a^b f(x)\\,dx\\) negatief zijn."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "\\(2x\\) is de afgeleide van \\(x^2\\), een primitieve is \\(\\frac{x^3}{3}\\). Een interval zonder breedte geeft oppervlakte 0, en boven de x-as is de oppervlakte positief."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In de integraal van 1 tot 4 van (2x + 5) dx is 2x + 5 de [[*integrand|primitieve|grens]], en 1 en 4 zijn de [[*integratiegrenzen|nulwaarden|coëfficiënten]].",
+          "uitleg": "De integrand staat tussen het integraalteken en dx."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is de bepaalde integraal positief, negatief of nul?",
+          "kolommen": [
+            "Positief",
+            "Negatief",
+            "Nul"
+          ],
+          "items": [
+            [
+              "\\(\\int_0^2 x^2\\,dx\\)",
+              "Positief"
+            ],
+            [
+              "\\(\\int_{-1}^0 x^2\\,dx\\)",
+              "Positief"
+            ],
+            [
+              "\\(\\int_0^1 (x - 2)\\,dx\\)",
+              "Negatief"
+            ],
+            [
+              "\\(\\int_1^3 (-x)\\,dx\\)",
+              "Negatief"
+            ],
+            [
+              "\\(\\int_{-1}^1 x\\,dx\\)",
+              "Nul"
+            ],
+            [
+              "\\(\\int_{-2}^2 x^3\\,dx\\)",
+              "Nul"
+            ]
+          ],
+          "uitleg": "Kijk waar de grafiek boven en onder de x-as ligt. Bij x en x³ op een symmetrisch interval heffen beide stukken elkaar op."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen om de werkelijke oppervlakte tussen een grafiek en de x-as te berekenen in de goede volgorde.",
+          "opties": [
+            "Zoek de nulwaarden van f in het interval",
+            "Splits de integraal bij die nulwaarden",
+            "Bereken elke deelintegraal met een primitieve",
+            "Tel de absolute waarden van de deelintegralen op"
+          ],
+          "uitleg": "Stukken onder de x-as tellen anders negatief."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de integraal aan haar betekenis in de context.",
+          "paren": [
+            [
+              "De integraal van de snelheid naar de tijd",
+              "De afgelegde weg"
+            ],
+            [
+              "De integraal van het debiet naar de tijd",
+              "De hoeveelheid water die erbij kwam"
+            ],
+            [
+              "De integraal van de marginale kost naar q",
+              "De variabele kost"
+            ],
+            [
+              "De integraal van de groeisnelheid van een plant naar de tijd",
+              "De toename in hoogte"
+            ]
+          ],
+          "extra": [
+            "De gemiddelde snelheid"
+          ],
+          "uitleg": "Een integraal telt kleine veranderingen op tot een totaal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een voorwerp heeft snelheid \\(v(t) = 3t^2\\) m/s. Welke afstand legt het af van \\(t = 0\\) tot \\(t = 4\\)?",
+          "opties": [
+            "\\(48\\) m",
+            "\\(24\\) m",
+            "\\(64\\) m",
+            "\\(192\\) m"
+          ],
+          "antwoord": 2,
+          "uitleg": "\\(\\int_0^4 3t^2\\,dt = \\left[t^3\\right]_0^4\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De marginale kost is \\(K'(q) = 0{,}6q + 20\\) euro per stuk. De vaste kost is 500 euro. Wat is de totale kost voor 100 stuks?",
+          "opties": [
+            "\\(5000\\) euro",
+            "\\(80\\) euro",
+            "\\(3500\\) euro",
+            "\\(5500\\) euro"
+          ],
+          "antwoord": 3,
+          "uitleg": "\\(\\int_0^{100} (0{,}6q + 20)\\,dq = \\left[0{,}3q^2 + 20q\\right]_0^{100} = 5000\\), plus 500 euro vaste kost."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Water stroomt in een vat met debiet \\(d(t) = 40 - 2t\\) liter per minuut, van \\(t = 0\\) tot \\(t = 20\\). Hoeveel liter stroomt er in totaal in?",
+          "antwoord": "400",
+          "uitleg": "\\(\\int_0^{20} (40 - 2t)\\,dt = \\left[40t - t^2\\right]_0^{20} = 800 - 400\\)."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Hoe smaller de rechthoeken, hoe dichter de [[ondersom]] en de [[bovensom]] bij de bepaalde integraal komen. In de limiet worden ze [[gelijk]].",
+          "extra": [
+            "primitieve",
+            "afgeleide",
+            "nul"
+          ],
+          "uitleg": "Zo is de bepaalde integraal gedefinieerd als limiet van sommen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe groot is de oppervlakte tussen de grafieken van \\(f(x) = x^2\\) en \\(g(x) = 2x\\)?",
+          "opties": [
+            "\\(\\dfrac{8}{3}\\)",
+            "\\(\\dfrac{4}{3}\\)",
+            "\\(4\\)",
+            "\\(\\dfrac{2}{3}\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "Snijpunten in \\(0\\) en \\(2\\). \\(\\int_0^2 (2x - x^2)\\,dx = 4 - \\frac{8}{3}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "\\(\\int_0^2 f(x)\\,dx = 5\\) en \\(\\int_0^2 g(x)\\,dx = 3\\). Hoeveel is \\(\\int_0^2 \\left(2f(x) - g(x)\\right) dx\\)?",
+          "opties": [
+            "\\(2\\)",
+            "\\(13\\)",
+            "\\(10\\)",
+            "\\(7\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "Lineariteit: \\(2 \\cdot 5 - 3\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "\\(\\int_0^5 f(x)\\,dx = 10\\) en \\(\\int_0^2 f(x)\\,dx = 4\\). Hoeveel is \\(\\int_2^5 f(x)\\,dx\\)?",
+          "opties": [
+            "\\(14\\)",
+            "\\(6\\)",
+            "\\(2{,}5\\)",
+            "\\(-6\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "Splitsing: \\(\\int_0^5 = \\int_0^2 + \\int_2^5\\)."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom je bij een bepaalde integraal geen integratieconstante C nodig hebt.",
+          "antwoord": "Je berekent \\(F(b) - F(a)\\). Een constante C komt in beide termen voor en valt weg: \\((F(b) + C) - (F(a) + C) = F(b) - F(a)\\).",
+          "uitleg": "Kijk wat er met C gebeurt bij het aftrekken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "F is een primitieve van \\(f(x) = 2x\\) met \\(F(1) = 5\\). Wat is \\(F(x)\\)?",
+          "opties": [
+            "\\(x^2 + 5\\)",
+            "\\(2x + 3\\)",
+            "\\(x^2 - 4\\)",
+            "\\(x^2 + 4\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "\\(F(x) = x^2 + C\\) en \\(1 + C = 5\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bereken \\(\\displaystyle\\int_{-1}^2 (3x^2 - 2x)\\,dx\\).",
+          "opties": [
+            "\\(2\\)",
+            "\\(4\\)",
+            "\\(10\\)",
+            "\\(6\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "\\(\\left[x^3 - x^2\\right]_{-1}^2 = (8 - 4) - (-1 - 1)\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een fietser rijdt heen en terug met snelheid \\(v(t) = 2t - 4\\) m/s (\\(0 \\leq t \\leq 4\\)). \\(\\int_0^4 v(t)\\,dt = 0\\). Wat betekent dat?",
+          "opties": [
+            "De fietser stond de hele tijd stil",
+            "De fietser is na 4 s terug op zijn vertrekpunt",
+            "De fietser legde 0 m af",
+            "De snelheid was altijd 0"
+          ],
+          "antwoord": 1,
+          "uitleg": "De integraal geeft de verplaatsing: eerst 4 m achteruit (\\(v < 0\\)), dan 4 m vooruit. Afgelegd werd wel 8 m."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Voor welke positieve a is \\(\\displaystyle\\int_0^a 2x\\,dx = 9\\)?",
+          "opties": [
+            "\\(a = 9\\)",
+            "\\(a = 4{,}5\\)",
+            "\\(a = 3\\)",
+            "\\(a = 81\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "\\(\\left[x^2\\right]_0^a = a^2 = 9\\)."
+        },
+        {
+          "casus": "Een auto remt af met snelheid \\(v(t) = 20 - 4t\\) m/s, tot hij stilstaat.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Na hoeveel seconden staat de auto stil?",
+              "opties": [
+                "\\(4\\) s",
+                "\\(5\\) s",
+                "\\(20\\) s",
+                "\\(10\\) s"
+              ],
+              "antwoord": 1,
+              "uitleg": "\\(20 - 4t = 0\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke integraal geeft de remweg?",
+              "opties": [
+                "\\(\\displaystyle\\int_0^{20} (20 - 4t)\\,dt\\)",
+                "\\(\\displaystyle\\int_0^5 (20 - 4t)\\,dt\\)",
+                "\\(\\displaystyle\\int_0^5 -4\\,dt\\)",
+                "\\(\\displaystyle\\int_0^5 (20t - 2t^2)\\,dt\\)"
+              ],
+              "antwoord": 1,
+              "uitleg": "Integreer de snelheid van het begin van het remmen tot het stilstaan."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe lang is de remweg?",
+              "opties": [
+                "\\(100\\) m",
+                "\\(25\\) m",
+                "\\(75\\) m",
+                "\\(50\\) m"
+              ],
+              "antwoord": 3,
+              "uitleg": "\\(\\left[20t - 2t^2\\right]_0^5 = 100 - 50\\)."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

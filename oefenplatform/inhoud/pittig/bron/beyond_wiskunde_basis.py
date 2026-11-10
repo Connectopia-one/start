@@ -36,6 +36,7 @@ THEMAS = [
     ("expgonio", BED + "exponentiële en goniometrische vergelijkingen"),
     ("rekenregels", BED + "afgeleiden berekenen met rekenregels"),
     ("verloop", BED + "verloop van een functie en optimaliseren"),
+    ("integralen", BED + "integralen en oppervlakte"),
 ]
 
 HOOFDSTUKKEN = [
