@@ -15,6 +15,7 @@ Een grafiek is een dict met:
     stippel   [("h", y) of ("v", x)]: asymptoten of hulplijnen
     xlabel, ylabel
     staven    [(x, breedte, hoogte)]: een histogram
+    reeksen   [([(n, u_n), ...], kleur, label)]: de punten van een rij
 """
 import importlib
 import math
@@ -133,6 +134,13 @@ def teken(g):
         d.append(f'<polyline points="{p}" fill="none" stroke="{kl}" stroke-width="3.5"/>')
     for (x0, y0), (x1, y1) in g.get("segmenten", []):
         d.append(f'<line x1="{X(x0):.1f}" y1="{Y(y0):.1f}" x2="{X(x1):.1f}" y2="{Y(y1):.1f}" stroke="{LIJN}" stroke-width="2"/>')
+    for pts, kleur, label in g.get("reeksen", []):
+        kl = KLEUREN.get(kleur, kleur)
+        for x, y in pts:
+            d.append(f'<circle cx="{X(x):.1f}" cy="{Y(y):.1f}" r="8" fill="{kl}"/>')
+        lx, ly = g.get("labelplek", {}).get(label, pts[-1])
+        d.append(f'<circle cx="{X(lx)+30:.1f}" cy="{Y(ly):.1f}" r="17" fill="{kl}"/>')
+        d.append(tekst(X(lx) + 30, Y(ly) + 7, label, 19, kleur="#fff", vet=True))
     for x, y, label, *links in g.get("punten", []):
         d.append(f'<circle cx="{X(x):.1f}" cy="{Y(y):.1f}" r="7" fill="{DONKER}"/>')
         if label and links:

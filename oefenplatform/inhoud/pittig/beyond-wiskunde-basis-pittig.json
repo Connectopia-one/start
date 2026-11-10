@@ -3307,6 +3307,401 @@
           ]
         }
       ]
+    },
+    {
+      "titel": "Rekenkundige en meetkundige rijen — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de eerste term van de rij v die groter is dan 20.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/rijen-drie-rijen.svg",
+          "zones": [
+            [
+              77.7,
+              33.9,
+              5.2,
+              8.1
+            ]
+          ],
+          "uitleg": "\\(v_6 \\approx 15{,}2\\) en \\(v_7 \\approx 22{,}8\\). De zevende term is de eerste boven 20."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zesde term van de rij u.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/rijen-drie-rijen.svg",
+          "zones": [
+            [
+              67.2,
+              25.8,
+              5.2,
+              8.1
+            ]
+          ],
+          "uitleg": "Tel op de horizontale as tot \\(n = 6\\): \\(u_6 = 26\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rij heeft een toenemende stijging?",
+          "opties": [
+            "u",
+            "w",
+            "v",
+            "Geen van de drie"
+          ],
+          "antwoord": 2,
+          "uitleg": "De sprongen tussen de punten van v worden telkens groter. Bij u zijn ze altijd even groot, w daalt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/rijen-drie-rijen.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees af en vul aan.",
+          "rijen": [
+            "De reden q van v",
+            "De reden q van w",
+            "De eerste term van w"
+          ],
+          "antwoord": [
+            1,
+            2,
+            0
+          ],
+          "uitleg": "v: \\(2, 3, 4{,}5, \\dots\\), telkens maal \\(1{,}5\\). w: \\(32, 16, 8, \\dots\\), telkens gedeeld door 2.",
+          "kolommen": [
+            "32",
+            "1,5",
+            "0,5",
+            "2"
+          ],
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/rijen-drie-rijen.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk expliciet voorschrift heeft de rij u?",
+          "opties": [
+            "\\(u_n = 11 + 3n\\)",
+            "\\(u_n = 8n + 3\\)",
+            "\\(u_n = 11 \\cdot 3^{n-1}\\)",
+            "\\(u_n = 3n + 8\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "\\(u_1 = 11\\) en het verschil is 3: \\(u_n = 11 + (n - 1) \\cdot 3 = 3n + 8\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/rijen-drie-rijen.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een rij heeft \\(u_1 = 4\\) en \\(u_{n+1} = u_n - 3\\). Wat is \\(u_5\\)?",
+          "opties": [
+            "\\(-11\\)",
+            "\\(-8\\)",
+            "\\(-5\\)",
+            "\\(16\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(4, 1, -2, -5, -8\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een meetkundige rij heeft \\(v_1 = 3\\) en reden \\(q = 2\\). Wat is \\(v_6\\)?",
+          "antwoord": "96",
+          "uitleg": "\\(v_6 = 3 \\cdot 2^5 = 96\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk voorschrift hoort bij een rekenkundige rij?",
+          "opties": [
+            "\\(u_n = 7 \\cdot 4^n\\)",
+            "\\(u_n = n^2 + 1\\)",
+            "\\(u_n = 7 - 4n\\)",
+            "\\(u_n = \\dfrac{4}{n}\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "Een rekenkundige rij heeft een voorschrift van de eerste graad in n: elke stap komt er hetzelfde getal bij (hier \\(-4\\))."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over rijen?",
+          "rijen": [
+            "Een rekenkundige rij met verschil \\(v > 0\\) is stijgend.",
+            "Bij een rekenkundige rij liggen de punten van de grafiek op een parabool.",
+            "De rij \\(10, 7, 4, 1, \\dots\\) is rekenkundig.",
+            "Een meetkundige rij met reden \\(q = 1{,}1\\) en positieve termen is dalend."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Een constant verschil geeft punten op een rechte. Vermenigvuldigen met \\(1{,}1\\) maakt positieve termen groter."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een rekenkundige rij hoort bij [[*lineaire|exponentiële|kwadratische]] groei. Een meetkundige rij met positieve reden hoort bij [[*exponentiële|lineaire|kwadratische]] groei.",
+          "uitleg": "Telkens hetzelfde erbij: lineair. Telkens met hetzelfde getal vermenigvuldigen: exponentieel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de som van de eerste 10 termen van \\(7, 11, 15, \\dots\\)?",
+          "opties": [
+            "\\(430\\)",
+            "\\(215\\)",
+            "\\(500\\)",
+            "\\(250\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "\\(u_{10} = 7 + 9 \\cdot 4 = 43\\). \\(s_{10} = \\frac{10}{2}(7 + 43) = 250\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de som van de eerste 8 termen van \\(3, 6, 12, \\dots\\)?",
+          "antwoord": "765",
+          "uitleg": "\\(s_8 = 3 \\cdot \\frac{2^8 - 1}{2 - 1} = 3 \\cdot 255 = 765\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je zet 2000 euro op een rekening met 3 % enkelvoudige intrest per jaar. Hoeveel staat er na 5 jaar?",
+          "opties": [
+            "\\(2318{,}55\\) euro",
+            "\\(2300\\) euro",
+            "\\(2030\\) euro",
+            "\\(2600\\) euro"
+          ],
+          "antwoord": 1,
+          "uitleg": "Enkelvoudig: elk jaar \\(3\\) % van \\(2000\\), dus \\(60\\) euro. \\(2000 + 5 \\cdot 60 = 2300\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk voorschrift geeft het kapitaal na n jaar bij 1000 euro aan 2 % samengestelde intrest per jaar?",
+          "opties": [
+            "\\(K_n = 1000 + 20n\\)",
+            "\\(K_n = 1000 \\cdot 0{,}02^n\\)",
+            "\\(K_n = 1000 \\cdot 1{,}02^n\\)",
+            "\\(K_n = 1000 \\cdot 2^n\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "Elk jaar komt er \\(2\\) % bij: het kapitaal wordt maal \\(1{,}02\\). Dat is een meetkundige rij met reden \\(1{,}02\\)."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Rekenkundig of meetkundig?",
+          "kolommen": [
+            "Rekenkundig",
+            "Meetkundig"
+          ],
+          "items": [
+            [
+              "\\(5, 10, 20, 40, \\dots\\)",
+              "Meetkundig"
+            ],
+            [
+              "\\(5, 10, 15, 20, \\dots\\)",
+              "Rekenkundig"
+            ],
+            [
+              "\\(u_{n+1} = u_n + 0{,}5\\)",
+              "Rekenkundig"
+            ],
+            [
+              "\\(u_{n+1} = 0{,}5 \\cdot u_n\\)",
+              "Meetkundig"
+            ],
+            [
+              "Een plant groeit elke week 2 cm",
+              "Rekenkundig"
+            ],
+            [
+              "Een bedrag groeit elk jaar met 4 %",
+              "Meetkundig"
+            ]
+          ],
+          "uitleg": "Er telkens hetzelfde bij doen: rekenkundig. Telkens met hetzelfde getal vermenigvuldigen: meetkundig."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze termen van groot naar klein.",
+          "opties": [
+            "\\(v_5\\) van \\(v_n = 3 \\cdot 2^{n-1}\\)",
+            "de vierde term van \\(6, 13, 20, \\dots\\)",
+            "\\(u_{10}\\) van \\(u_n = 50 - 4n\\)",
+            "\\(w_3\\) van de meetkundige rij met \\(w_1 = 100\\) en \\(q = 0{,}1\\)"
+          ],
+          "uitleg": "\\(v_5 = 48\\), de vierde term is \\(27\\), \\(u_{10} = 10\\) en \\(w_3 = 1\\)."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de rij aan haar recursief voorschrift.",
+          "paren": [
+            [
+              "\\(2, 6, 18, 54, \\dots\\)",
+              "\\(u_1 = 2,\\ u_{n+1} = 3u_n\\)"
+            ],
+            [
+              "\\(2, 5, 8, 11, \\dots\\)",
+              "\\(u_1 = 2,\\ u_{n+1} = u_n + 3\\)"
+            ],
+            [
+              "\\(2, -6, 18, -54, \\dots\\)",
+              "\\(u_1 = 2,\\ u_{n+1} = -3u_n\\)"
+            ],
+            [
+              "\\(2, -1, -4, -7, \\dots\\)",
+              "\\(u_1 = 2,\\ u_{n+1} = u_n - 3\\)"
+            ]
+          ],
+          "extra": [
+            "\\(u_1 = 3,\\ u_{n+1} = 2u_n\\)"
+          ],
+          "uitleg": "Kijk of je van de ene term naar de volgende optelt of vermenigvuldigt, en met welk teken."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij een rekenkundige rij is het [[verschil]] van twee opeenvolgende termen constant, bij een meetkundige rij het [[quotiënt]]. De grafische voorstelling bestaat uit losse [[punten]], want n is een natuurlijk getal.",
+          "extra": [
+            "product",
+            "som",
+            "lijnstukken"
+          ],
+          "uitleg": "Constant verschil of constant quotiënt, en de rangnummers zijn 1, 2, 3, …"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Van een rekenkundige rij is \\(u_3 = 11\\) en \\(u_7 = 23\\). Wat is het verschil?",
+          "opties": [
+            "\\(12\\)",
+            "\\(4\\)",
+            "\\(2\\)",
+            "\\(3\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "Van \\(u_3\\) naar \\(u_7\\) zijn 4 stappen: \\(\\frac{23 - 11}{4} = 3\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een meetkundige rij met positieve termen heeft \\(v_2 = 12\\) en \\(v_4 = 48\\). Wat is \\(v_1\\)?",
+          "opties": [
+            "\\(3\\)",
+            "\\(6\\)",
+            "\\(24\\)",
+            "\\(4\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(q^2 = \\frac{48}{12} = 4\\), dus \\(q = 2\\) en \\(v_1 = \\frac{12}{2} = 6\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over stijgen en dalen?",
+          "rijen": [
+            "De rij \\(u_n = 2^n\\) heeft een toenemende stijging.",
+            "De rij \\(u_n = 5n - 1\\) heeft een toenemende stijging.",
+            "De rij \\(u_n = 100 \\cdot 0{,}8^n\\) heeft een afnemende daling.",
+            "De rij \\(u_n = -3n + 4\\) is stijgend."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Een rekenkundige rij stijgt of daalt gelijkmatig. \\(100 \\cdot 0{,}8^n\\): \\(80, 64, 51{,}2, \\dots\\), de sprongen worden kleiner."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom samengestelde intrest op lange termijn meer oplevert dan enkelvoudige intrest aan hetzelfde percentage.",
+          "antwoord": "Bij enkelvoudige intrest krijg je elk jaar intrest op het beginkapitaal: er komt telkens hetzelfde bedrag bij (rekenkundige rij). Bij samengestelde intrest krijg je ook intrest op de intrest van vorige jaren: het kapitaal wordt telkens met dezelfde factor vermenigvuldigd (meetkundige rij). Exponentiële groei haalt lineaire groei altijd in.",
+          "uitleg": "Intrest op intrest."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel termen van de rij \\(4, 7, 10, \\dots\\) zijn kleiner dan \\(100\\)?",
+          "opties": [
+            "\\(33\\)",
+            "\\(31\\)",
+            "\\(32\\)",
+            "\\(96\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "\\(u_n = 3n + 1 < 100\\) geeft \\(n < 33\\). \\(u_{32} = 97\\), \\(u_{33} = 100\\) is niet kleiner."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een bal valt van 2 m en botst telkens terug tot 60 % van de vorige hoogte. Hoe hoog (in m) komt hij na de derde bots? Rond af op drie decimalen.",
+          "antwoord": "0,432",
+          "uitleg": "\\(2 \\cdot 0{,}6^3 = 2 \\cdot 0{,}216 = 0{,}432\\) m."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De punten van een meetkundige rij liggen op de grafiek van \\(f(x) = b \\cdot a^x\\). Hoe hangt de reden q samen met a?",
+          "opties": [
+            "\\(q = b\\)",
+            "\\(q = a - 1\\)",
+            "\\(q = \\dfrac{1}{a}\\)",
+            "\\(q = a\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "Van n naar \\(n + 1\\) wordt \\(b \\cdot a^n\\) maal a. De groeifactor is de reden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bedrijf verkoopt in het eerste jaar 5000 stuks en daarna elk jaar 200 stuks meer. Hoeveel stuks verkoopt het in totaal in de eerste 10 jaar?",
+          "opties": [
+            "\\(68\\,000\\)",
+            "\\(50\\,000\\)",
+            "\\(59\\,000\\)",
+            "\\(118\\,000\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "Jaar 10: \\(5000 + 9 \\cdot 200 = 6800\\). \\(s_{10} = \\frac{10}{2}(5000 + 6800) = 59\\,000\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat weet je over een meetkundige rij met reden \\(q = -2\\) en \\(u_1 = 1\\)?",
+          "opties": [
+            "Ze is stijgend",
+            "Ze is dalend",
+            "Ze is constant",
+            "Ze is niet stijgend en niet dalend"
+          ],
+          "antwoord": 3,
+          "uitleg": "\\(1, -2, 4, -8, \\dots\\): de termen wisselen van teken, dus de rij gaat op en neer."
+        },
+        {
+          "casus": "Iemand zet 1500 euro op een rekening met 2,5 % samengestelde intrest per jaar en stort daarna niets meer bij.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welk voorschrift geeft het kapitaal na n jaar?",
+              "opties": [
+                "\\(K_n = 1500 \\cdot 0{,}025^n\\)",
+                "\\(K_n = 1500 + 37{,}5n\\)",
+                "\\(K_n = 1500 \\cdot 1{,}025^n\\)",
+                "\\(K_n = 1500 \\cdot 1{,}25^n\\)"
+              ],
+              "antwoord": 2,
+              "uitleg": "\\(2{,}5\\) % erbij betekent maal \\(1{,}025\\)."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel staat er na 4 jaar op de rekening? Rond af op de cent.",
+              "antwoord": "1655,72",
+              "uitleg": "\\(1500 \\cdot 1{,}025^4 \\approx 1500 \\cdot 1{,}103813 \\approx 1655{,}72\\) euro."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Na hoeveel volle jaren staat er voor het eerst meer dan 2000 euro?",
+              "opties": [
+                "\\(11\\)",
+                "\\(14\\)",
+                "\\(12\\)",
+                "\\(20\\)"
+              ],
+              "antwoord": 2,
+              "uitleg": "Na 11 jaar: \\(1500 \\cdot 1{,}025^{11} \\approx 1968\\). Na 12 jaar: \\(\\approx 2017\\)."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -28,6 +28,7 @@ THEMAS = [
     ("sinus", "De sinusfunctie en de goniometrische cirkel"),
     ("vergelijkingen", "Vergelijkingen grafisch oplossen"),
     ("afgeleiden", "Afgeleiden: helling en raaklijn"),
+    ("rijen", "Rekenkundige en meetkundige rijen"),
 ]
 
 HOOFDSTUKKEN = [
