@@ -64,6 +64,11 @@ export default async function BeheerExtraBundelsPage() {
           verbetersleutel&rdquo; aan bij de oplossingen: ouders openen die enkel met hun
           ouderpincode.
         </p>
+        <p className="mt-2 text-sm text-ink-dim">
+          Een <strong>lesbundel over het hele vak</strong> komt in de plaats van de knop
+          &ldquo;Hele cursus downloaden&rdquo;. Zonder lesbundel blijft die knop de leerbundels
+          van de hoofdstukken aan elkaar plakken.
+        </p>
 
         {error && (
           <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">

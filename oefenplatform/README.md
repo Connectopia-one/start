@@ -247,6 +247,9 @@ lesbundel over het hele vak met afbeeldingen, … Ze staan op de vakpagina
   andere), geef je een titel en upload je de pdf. Vak en categorie blijven staan na het
   opladen, zodat je versie A, B en C snel na elkaar zet.
 - Een gewone bundel opent voor iedereen met volledige toegang (net als de hele cursus).
+- Een **lesbundel over het hele vak** vervangt de knop **"Hele cursus downloaden"** (bovenaan en
+  onderaan de vakpagina) en staat dan niet nog eens bij de extra bundels. Heeft een vak geen
+  lesbundel, dan plakt die knop zoals vroeger de leerbundels van de hoofdstukken aan elkaar.
 - Vink **"Dit is een verbetersleutel"** aan bij de oplossingen. Een ouder opent die enkel met
   de **ouderpincode** (`lib/ouderpin.ts`): staat er nog geen pincode op het account, dan vraagt
   het platform eerst om er een in te stellen in Mijn account. Zo kan een kind dat op het

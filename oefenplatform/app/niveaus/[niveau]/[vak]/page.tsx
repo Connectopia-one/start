@@ -103,6 +103,21 @@ export default async function NiveauVakPage({
     >[]).filter(() => magExtraBundel(session?.profile ?? null)),
   );
 
+  /*
+    Kim, 10 november 2026: staat er een lesbundel over het hele vak bij de
+    extra bundels, dan is die uitgebreider dan de aan elkaar geplakte
+    leerbundels. Dan neemt de lesbundel de plaats in van "Hele cursus
+    downloaden" en staat hij niet nog eens bij de extra bundels. Zonder
+    lesbundel blijft de oude cursus-pdf gewoon werken.
+  */
+  const lesbundel = extraBundels.find(
+    (b) => b.soort === "lesbundel" && !b.verbetersleutel,
+  );
+  const cursusHref = lesbundel
+    ? `/niveaus/${niveau.slug}/${vak.slug}/extra/${lesbundel.id}`
+    : `/niveaus/${niveau.slug}/${vak.slug}/cursus`;
+  const overigeBundels = extraBundels.filter((b) => b !== lesbundel);
+
   const uitleg = await haalKorteUitleg(
     supabase,
     hoofdstukken.map((h) => h.id),
@@ -202,8 +217,8 @@ export default async function NiveauVakPage({
               </Link>
             )}
             <a
-              href={`/niveaus/${niveau.slug}/${vak.slug}/cursus`}
-              download
+              href={cursusHref}
+              {...(lesbundel ? { target: "_blank", rel: "noopener" } : { download: true })}
               className="rounded-full border border-border bg-surface px-3 py-1 text-forest-dark transition hover:border-forest"
             >
               <span aria-hidden>📚</span> Hele cursus downloaden
@@ -305,8 +320,8 @@ export default async function NiveauVakPage({
             een download en geen pagina. */}
         {volledigeToegang && (
           <a
-            href={`/niveaus/${niveau.slug}/${vak.slug}/cursus`}
-            download
+            href={cursusHref}
+            {...(lesbundel ? { target: "_blank", rel: "noopener" } : { download: true })}
             className="mt-3 flex items-center justify-between gap-4 rounded-xl border border-border bg-surface px-5 py-4 transition hover:border-forest"
           >
             <span>
@@ -314,8 +329,10 @@ export default async function NiveauVakPage({
                 <span aria-hidden>📚</span> Hele cursus downloaden
               </span>
               <span className="mt-0.5 block text-sm text-ink-dim">
-                Alle leerbundels van dit vak samen in één pdf, in de volgorde
-                van de hoofdstukken. Handig om af te drukken of door te bladeren.
+                {lesbundel
+                  ? lesbundel.omschrijving ??
+                    "De lesbundel over het hele vak, met afbeeldingen. Handig om af te drukken of door te bladeren."
+                  : "Alle leerbundels van dit vak samen in één pdf, in de volgorde van de hoofdstukken. Handig om af te drukken of door te bladeren."}
               </span>
             </span>
             <span aria-hidden className="text-ink-dim">
@@ -326,7 +343,7 @@ export default async function NiveauVakPage({
 
         {/* Extra bundels over het hele vak, los van de hoofdstukken (Kim,
             10 november 2026). Gewone links, want het zijn downloads. */}
-        {extraBundels.length > 0 && (
+        {overigeBundels.length > 0 && (
           <section className="mt-8">
             <h2 className="font-display text-lg font-semibold text-ink">
               <span aria-hidden>🗂️</span> Extra bundels
@@ -335,7 +352,7 @@ export default async function NiveauVakPage({
               Bundels over het hele vak om af te drukken, los van de hoofdstukken.
             </p>
             <ul className="mt-3 space-y-3">
-              {extraBundels.map((b) => (
+              {overigeBundels.map((b) => (
                 <li key={b.id}>
                   <a
                     href={`/niveaus/${niveau.slug}/${vak.slug}/extra/${b.id}`}
