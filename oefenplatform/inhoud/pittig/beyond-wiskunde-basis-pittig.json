@@ -2488,6 +2488,825 @@
           ]
         }
       ]
+    },
+    {
+      "titel": "Vergelijkingen grafisch oplossen — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op een punt waarvan de \\(x\\)-coördinaat een oplossing is van \\(f(x) = g(x)\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/vergelijkingen-fg.svg",
+          "zones": [
+            [
+              24.2,
+              56.1,
+              5.6,
+              8.8
+            ],
+            [
+              74.2,
+              21.2,
+              5.6,
+              8.8
+            ]
+          ],
+          "uitleg": "De oplossingen van \\(f(x) = g(x)\\) zijn de \\(x\\)-coördinaten van de snijpunten van beide grafieken: \\((-1, 0)\\) en \\((4, 5)\\)."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het nulpunt van f dat geen oplossing geeft van \\(f(x) = g(x)\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/vergelijkingen-fg.svg",
+          "zones": [
+            [
+              64.2,
+              56.1,
+              5.6,
+              8.8
+            ]
+          ],
+          "uitleg": "f heeft nulwaarden \\(-1\\) en \\(3\\). In \\(x = 3\\) is \\(g(3) = 4 \\neq 0\\): daar snijden de grafieken elkaar niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de oplossingenverzameling van \\(f(x) = g(x)\\)?",
+          "opties": [
+            "\\(V = \\{(-1, 0), (4, 5)\\}\\)",
+            "\\(V = \\{-1, 4\\}\\)",
+            "\\(V = \\{0, 5\\}\\)",
+            "\\(V = \\{-1, 3\\}\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "In de oplossingenverzameling staan enkel de \\(x\\)-waarden waarvoor beide functiewaarden gelijk zijn. De punten zelf zijn de snijpunten.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/vergelijkingen-fg.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel oplossingen heeft \\(f(x) = -4\\)?",
+          "opties": [
+            "Twee",
+            "Eén",
+            "Geen",
+            "Drie"
+          ],
+          "antwoord": 1,
+          "uitleg": "De rechte \\(y = -4\\) raakt de parabool enkel in de top \\((1, -4)\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/vergelijkingen-fg.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoeveel oplossingen heeft elke vergelijking?",
+          "rijen": [
+            "\\(f(x) = -5\\)",
+            "\\(f(x) = 5\\)",
+            "\\(g(x) = 7\\)",
+            "\\(f(x) = 0\\)"
+          ],
+          "antwoord": [
+            0,
+            2,
+            1,
+            2
+          ],
+          "uitleg": "Teken in gedachten de horizontale rechte \\(y = k\\) en tel de snijpunten met de grafiek. Een niet-horizontale rechte zoals g wordt door elke horizontale rechte één keer gesneden.",
+          "kolommen": [
+            "Geen",
+            "Eén",
+            "Twee"
+          ],
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/vergelijkingen-fg.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het punt dat de oplossing van \\(80 \\cdot 0{,}8^t - 40 = 0\\) aangeeft.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/vergelijkingen-medicijn.svg",
+          "zones": [
+            [
+              27.1,
+              50.0,
+              6.4,
+              10.0
+            ]
+          ],
+          "uitleg": "\\(80 \\cdot 0{,}8^t - 40 = 0\\) is hetzelfde als \\(80 \\cdot 0{,}8^t = 40\\): het punt van de grafiek op hoogte \\(C = 40\\), bij \\(t \\approx 3{,}1\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het rekentoestel geeft als oplossing \\(t \\approx 6{,}2\\). Wat betekent dat in deze context?",
+          "opties": [
+            "Na ongeveer 6,2 uur is er van het medicijn nog maar 20 % over in het bloed.",
+            "Ongeveer 6,2 uur na de inname zit er nog 20 mg van het medicijn in het bloed.",
+            "Elk uur verdwijnt er ongeveer 6,2 mg van het medicijn uit het bloed van de patiënt.",
+            "Ongeveer 20 uur na de inname zit er nog 6,2 mg van het medicijn in het bloed."
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(t\\) is de tijd in uur en \\(C\\) de hoeveelheid in mg. Het snijpunt zegt: op \\(t \\approx 6{,}2\\) is \\(C = 20\\). In het begin was er \\(80\\) mg, dus \\(20\\) mg is \\(25\\) %.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/vergelijkingen-medicijn.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bereken met \\(C(t) = 80 \\cdot 0{,}8^t\\) hoeveel mg er na 5 uur in het bloed zit. Rond af op een geheel getal.",
+          "antwoord": "26",
+          "uitleg": "\\(80 \\cdot 0{,}8^5 = 80 \\cdot 0{,}32768 \\approx 26{,}2\\), dus ongeveer \\(26\\) mg."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op een punt waarvan de \\(x\\)-coördinaat een oplossing is van \\(2 \\sin x + 1 = 0\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/vergelijkingen-sinus.svg",
+          "zones": [
+            [
+              56.7,
+              60.7,
+              5.6,
+              8.8
+            ],
+            [
+              86.7,
+              60.7,
+              5.6,
+              8.8
+            ]
+          ],
+          "uitleg": "De oplossingen zijn de nulwaarden van f: \\(\\frac{7\\pi}{6}\\) en \\(\\frac{11\\pi}{6}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de oplossingenverzameling van \\(2 \\sin x + 1 = 2\\) op \\([0, 2\\pi]\\)?",
+          "opties": [
+            "\\(\\left\\{\\frac{\\pi}{6}, \\frac{11\\pi}{6}\\right\\}\\)",
+            "\\(\\left\\{\\frac{\\pi}{3}, \\frac{2\\pi}{3}\\right\\}\\)",
+            "\\(\\left\\{\\frac{\\pi}{6}, \\frac{5\\pi}{6}\\right\\}\\)",
+            "\\(\\left\\{\\frac{\\pi}{2}\\right\\}\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "De rechte \\(y = 2\\) snijdt de grafiek tweemaal op dit interval, symmetrisch rond de top in \\(\\frac{\\pi}{2}\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/vergelijkingen-sinus.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Voor welke waarden van k heeft \\(2 \\sin x + 1 = k\\) precies één oplossing op \\([0, 2\\pi]\\)?",
+          "opties": [
+            "\\(k = 1\\)",
+            "\\(k = 0\\)",
+            "\\(k = 2\\)",
+            "\\(k = 3\\) of \\(k = -1\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "Enkel de horizontale rechten door de top \\(\\left(\\frac{\\pi}{2}, 3\\right)\\) en door het dal \\(\\left(\\frac{3\\pi}{2}, -1\\right)\\) raken de grafiek in één punt. De rechte \\(y = 1\\) snijdt de grafiek in \\(0\\), \\(\\pi\\) en \\(2\\pi\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/vergelijkingen-sinus.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over vergelijkingen en grafieken?",
+          "rijen": [
+            "De oplossingen van \\(f(x) = 0\\) zijn de nulwaarden van f.",
+            "Als de grafieken van f en g elkaar nergens snijden, kan \\(f(x) = g(x)\\) toch een oplossing hebben.",
+            "\\(f(x) = g(x)\\) oplossen komt neer op de nulwaarden van \\(f - g\\) zoeken.",
+            "Een veeltermvergelijking van de derde graad heeft altijd drie oplossingen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Een oplossing van \\(f(x) = g(x)\\) is een \\(x\\) waar beide grafieken even hoog zijn, dus een snijpunt. \\(x^3 + 1 = 0\\) heeft maar één reële oplossing."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een vergelijking \\(b \\cdot a^x + c = 0\\) heeft \\(b > 0\\). Wanneer heeft ze een oplossing?",
+          "opties": [
+            "Als \\(c > 0\\)",
+            "Als \\(c = 0\\)",
+            "Als \\(c < 0\\)",
+            "Altijd"
+          ],
+          "antwoord": 2,
+          "uitleg": "\\(b \\cdot a^x = -c\\). Links staat altijd een positief getal, dus \\(-c\\) moet positief zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil \\(x^3 - 2x = x + 1\\) grafisch oplossen. Wat doe je met je rekentoestel?",
+          "opties": [
+            "Je voert \\(y_1 = x^3 - 2x\\) in en zoekt de nulwaarden",
+            "Je voert \\(y_1 = x^3 - 2x\\) en \\(y_2 = x + 1\\) in en zoekt de snijpunten",
+            "Je voert \\(y_1 = x^3 - 2x\\) en \\(y_2 = x + 1\\) in en zoekt de toppen",
+            "Je voert \\(y_1 = x^3 - 3x - 1\\) in en zoekt het minimum"
+          ],
+          "antwoord": 1,
+          "uitleg": "Linkerlid en rechterlid worden twee functies. Waar ze even groot zijn, snijden de grafieken. Ook \\(y_1 = x^3 - 3x - 1\\) zou kunnen, maar dan zoek je de nulwaarden, niet het minimum."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De vergelijking \\(4 \\sin x + 7 = 0\\) heeft [[*geen|twee|oneindig veel]] oplossingen, want \\(4 \\sin x + 7\\) ligt altijd tussen [[*3 en 11|−4 en 4|0 en 7]].",
+          "uitleg": "\\(\\sin x\\) ligt tussen \\(-1\\) en \\(1\\). Maal 4 en plus 7 geeft waarden van 3 tot 11: nooit 0."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Heeft de vergelijking een reële oplossing of niet?",
+          "kolommen": [
+            "Heeft een oplossing",
+            "Heeft geen oplossing"
+          ],
+          "items": [
+            [
+              "\\(3 \\sin x - 2 = 0\\)",
+              "Heeft een oplossing"
+            ],
+            [
+              "\\(\\sin 2x + 3 = 0\\)",
+              "Heeft geen oplossing"
+            ],
+            [
+              "\\(x^3 + 1 = 0\\)",
+              "Heeft een oplossing"
+            ],
+            [
+              "\\(x^2 + 4 = 0\\)",
+              "Heeft geen oplossing"
+            ],
+            [
+              "\\(-2 \\sin(x - 1) = 1\\)",
+              "Heeft een oplossing"
+            ],
+            [
+              "\\(x^4 + x^2 + 1 = 0\\)",
+              "Heeft geen oplossing"
+            ]
+          ],
+          "uitleg": "Een sinusvergelijking heeft een oplossing als de rechte binnen het bereik van de functie valt. Een even macht plus een positief getal is nooit 0, een derdemacht neemt elke waarde aan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bal wordt opgegooid: \\(h(t) = -5t^2 + 20t + 1\\) (m, t in s). Wanneer is de bal op 16 m hoogte?",
+          "opties": [
+            "Na \\(1\\) s en na \\(3\\) s",
+            "Enkel na \\(2\\) s",
+            "Enkel na \\(1\\) s",
+            "Na \\(3\\) s en na \\(16\\) s"
+          ],
+          "antwoord": 0,
+          "uitleg": "Snij de grafiek met \\(y = 16\\): \\(-5t^2 + 20t - 15 = 0\\) geeft \\(t = 1\\) en \\(t = 3\\). Eén keer op weg naar boven, één keer op weg naar beneden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een kolonie bacteriën groeit volgens \\(N(t) = 500 \\cdot 1{,}2^t\\) (t in uur). Los grafisch op: na hoeveel uur zijn er 3000 bacteriën? Rond af op één decimaal.",
+          "antwoord": "9,8",
+          "uitleg": "Snij \\(y_1 = 500 \\cdot 1{,}2^x\\) met \\(y_2 = 3000\\): \\(x \\approx 9{,}83\\), dus na ongeveer \\(9{,}8\\) uur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noteer je dat \\(x^2 + 1 = 0\\) geen reële oplossing heeft?",
+          "opties": [
+            "\\(V = \\{0\\}\\)",
+            "\\(V = \\mathbb{R}\\)",
+            "\\(V = \\{\\varnothing\\}\\)",
+            "\\(V = \\varnothing\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "Geen oplossing is de lege verzameling, \\(\\varnothing\\) of \\(\\{\\,\\}\\). \\(\\{\\varnothing\\}\\) is een verzameling met één element in."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen om een vergelijking grafisch op te lossen in de goede volgorde.",
+          "opties": [
+            "Schrijf de vergelijking als \\(f(x) = g(x)\\)",
+            "Voer f en g in als \\(y_1\\) en \\(y_2\\)",
+            "Kies een venster waarin je alle snijpunten ziet",
+            "Laat het toestel de snijpunten berekenen",
+            "Noteer de oplossingenverzameling en formuleer het antwoord in de context"
+          ],
+          "uitleg": "Eerst de vergelijking klaarzetten, dan invoeren, venster kiezen, snijpunten zoeken en tot slot het antwoord in woorden."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de vergelijking aan wat je op de grafiek zoekt.",
+          "paren": [
+            [
+              "\\(f(x) = 0\\)",
+              "De nulwaarden van f"
+            ],
+            [
+              "\\(f(x) = g(x)\\)",
+              "De x-coördinaten van de snijpunten van de grafieken van f en g"
+            ],
+            [
+              "\\(f(x) = 3\\)",
+              "De x-coördinaten van de snijpunten van de grafiek van f met \\(y = 3\\)"
+            ],
+            [
+              "\\(f(x) = f(2)\\)",
+              "De x-waarden waar f even hoog is als in \\(x = 2\\)"
+            ]
+          ],
+          "extra": [
+            "De y-coördinaat van de top van f"
+          ],
+          "uitleg": "Een vergelijking oplossen geeft altijd x-waarden. Hoe hoog de grafiek ergens is, is een functiewaarde."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Omdat de sinus [[periodiek]] is, heeft \\(3 \\sin 2x = 1\\) op \\(\\mathbb{R}\\) [[oneindig veel]] oplossingen. Daarom vraagt men ze meestal op een begrensd [[interval]].",
+          "extra": [
+            "symmetrisch",
+            "twee",
+            "domein"
+          ],
+          "uitleg": "Na elke periode \\(\\pi\\) herhaalt de grafiek zich, en daarmee ook de snijpunten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de oplossingenverzameling van \\(x^3 - 4x = 0\\)?",
+          "opties": [
+            "\\(\\{0, 2\\}\\)",
+            "\\(\\{-2, 0, 2\\}\\)",
+            "\\(\\{-2, 2\\}\\)",
+            "\\(\\{0, 4\\}\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(x^3 - 4x = x(x - 2)(x + 2)\\). De grafiek snijdt de \\(x\\)-as drie keer."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over grafisch oplossen met ICT?",
+          "rijen": [
+            "Een slecht gekozen venster kan snijpunten verbergen.",
+            "Als het toestel één snijpunt toont, is er zeker maar één oplossing.",
+            "De oplossingen die het toestel geeft, zijn altijd exact.",
+            "In een context ga je na of een oplossing zinvol is, bijvoorbeeld geen negatieve tijd."
+          ],
+          "antwoord": [
+            true,
+            false,
+            false,
+            true
+          ],
+          "uitleg": "Het toestel toont enkel wat in beeld is en rekent met benaderingen. Kijk daarom ook buiten het venster en controleer de context."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De temperatuur op een dag is \\(T(u) = 4 \\sin\\left(\\frac{\\pi}{12}(u - 9)\\right) + 15\\) (°C, u uur na middernacht). Wanneer is het precies 15 °C, tussen 0 en 24 uur?",
+          "opties": [
+            "Om 15 uur",
+            "Om 9 uur en om 21 uur",
+            "Enkel om 9 uur",
+            "Om 3 uur en om 15 uur"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(15\\) is de evenwichtslijn. De sinus is \\(0\\) als \\(\\frac{\\pi}{12}(u - 9)\\) gelijk is aan \\(0\\) of \\(\\pi\\): \\(u = 9\\) of \\(u = 21\\)."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom je bij \\(f(x) = g(x)\\) enkel de x-coördinaten van de snijpunten noteert.",
+          "antwoord": "De onbekende in de vergelijking is \\(x\\). Een oplossing is een getal \\(x\\) waarvoor \\(f(x)\\) en \\(g(x)\\) gelijk zijn. In het snijpunt is dat zo; de \\(y\\)-coördinaat is die gemeenschappelijke functiewaarde, maar geen oplossing.",
+          "uitleg": "Een vergelijking in x heeft x-waarden als oplossing."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In hoeveel punten snijdt de grafiek van \\(y = 2^x\\) de rechte \\(y = 2x\\)?",
+          "opties": [
+            "Eén",
+            "Geen",
+            "Drie",
+            "Twee"
+          ],
+          "antwoord": 3,
+          "uitleg": "In \\(x = 1\\) (\\(2 = 2\\)) en in \\(x = 2\\) (\\(4 = 4\\)). Daartussen ligt de rechte boven de exponentiële grafiek, daarbuiten eronder."
+        },
+        {
+          "casus": "Een kop thee koelt af volgens \\(T(t) = 70 \\cdot 0{,}9^t + 20\\) (°C, t in minuten).",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke vergelijking los je op om te weten wanneer de thee 50 °C is?",
+              "opties": [
+                "\\(70 \\cdot 0{,}9^t = 50\\)",
+                "\\(70 \\cdot 0{,}9^t + 20 = 50\\)",
+                "\\(70 \\cdot 0{,}9^{50} + 20 = t\\)",
+                "\\(0{,}9^t + 20 = 50\\)"
+              ],
+              "antwoord": 1,
+              "uitleg": "De temperatuur \\(T(t)\\) moet \\(50\\) zijn. Herleid: \\(70 \\cdot 0{,}9^t - 30 = 0\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Het rekentoestel geeft \\(t \\approx 8{,}0\\). Wat is het antwoord in de context?",
+              "opties": [
+                "Na ongeveer 50 minuten is de thee 8 °C.",
+                "De thee koelt elke minuut ongeveer 8 °C af.",
+                "Na ongeveer 8 minuten is de thee 50 °C.",
+                "Na ongeveer 8 minuten is de thee 20 °C."
+              ],
+              "antwoord": 2,
+              "uitleg": "t is de tijd in minuten, T de temperatuur. Op t ≈ 8 is T = 50."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom heeft \\(70 \\cdot 0{,}9^t + 20 = 15\\) geen oplossing?",
+              "opties": [
+                "Omdat 0,9 kleiner is dan 1",
+                "Omdat 15 kleiner is dan 70",
+                "Omdat de grafiek de y-as niet snijdt",
+                "Omdat de thee nooit onder 20 °C zakt"
+              ],
+              "antwoord": 3,
+              "uitleg": "\\(70 \\cdot 0{,}9^t\\) is altijd positief, dus \\(T(t) > 20\\). De thee nadert de kamertemperatuur, maar zakt er nooit onder."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Afgeleiden: helling en raaklijn — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het punt waar de grafiek van f het steilst daalt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/afgeleiden-f.svg",
+          "zones": [
+            [
+              46.4,
+              46.3,
+              6.0,
+              9.4
+            ]
+          ],
+          "uitleg": "Tussen de top en het dal daalt de grafiek. In C is de daling het sterkst: de raaklijn heeft daar de meest negatieve richtingscoëfficiënt."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het punt waar f een lokaal maximum heeft en de raaklijn dus horizontaal is.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/afgeleiden-f.svg",
+          "zones": [
+            [
+              25.2,
+              14.1,
+              6.0,
+              9.4
+            ]
+          ],
+          "uitleg": "In B gaat de grafiek over van stijgen naar dalen. De raaklijn is daar horizontaal: \\(f'\\) is \\(0\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het teken van het differentiequotiënt van f tussen A en E?",
+          "opties": [
+            "Positief",
+            "Nul",
+            "Negatief",
+            "Dat kan je niet weten zonder voorschrift"
+          ],
+          "antwoord": 2,
+          "uitleg": "Het differentiequotiënt is de richtingscoëfficiënt van de snijlijn AE. E ligt lager dan A, dus die snijlijn daalt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/afgeleiden-f.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het differentiequotiënt van g op \\([2, 4]\\)?",
+          "opties": [
+            "\\(6\\)",
+            "\\(3\\)",
+            "\\(2\\)",
+            "\\(1{,}5\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(\\frac{g(4) - g(2)}{4 - 2} = \\frac{8 - 2}{2} = 3\\): de richtingscoëfficiënt van de snijlijn s door P en Q.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/afgeleiden-raaklijn.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De rechte r raakt de grafiek van g in P. Welke vergelijking heeft r?",
+          "opties": [
+            "\\(y = 3x - 4\\)",
+            "\\(y = 2x + 2\\)",
+            "\\(y = 2x\\)",
+            "\\(y = 2x - 2\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "r gaat door \\((2, 2)\\) en \\((0, -2)\\): richtingscoëfficiënt \\(\\frac{2 - (-2)}{2} = 2\\), snijpunt met de \\(y\\)-as \\(-2\\). Dus ook \\(g'(2) = 2\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/afgeleiden-raaklijn.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met de rechte s als je Q over de grafiek naar P laat schuiven?",
+          "opties": [
+            "Ze draait en nadert de raaklijn r",
+            "Ze schuift evenwijdig omhoog",
+            "Ze wordt horizontaal",
+            "Ze blijft dezelfde rechte"
+          ],
+          "antwoord": 0,
+          "uitleg": "De snijlijnen door P en een punt dat steeds dichter bij P komt, naderen de raaklijn. Hun richtingscoëfficiënten naderen \\(g'(2)\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/afgeleiden-raaklijn.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Je ziet de grafiek van f′. Klik op het punt van deze grafiek dat aangeeft waar f het snelst stijgt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/afgeleiden-hellinggrafiek.svg",
+          "zones": [
+            [
+              48.6,
+              8.2,
+              6.8,
+              10.6
+            ]
+          ],
+          "uitleg": "De helling van f is het grootst waar \\(f'\\) het grootst is: in de top van de hellinggrafiek, bij \\(x = 0{,}5\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je ziet de grafiek van f′. Op welk interval is f stijgend?",
+          "opties": [
+            "\\(]-\\infty, -2] \\cup [3, +\\infty[\\)",
+            "\\([0, 3]\\)",
+            "\\(]-\\infty;\\ 0{,}5]\\)",
+            "\\([-2, 3]\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "f stijgt waar \\(f' \\geq 0\\), dus waar de hellinggrafiek boven of op de \\(x\\)-as ligt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/afgeleiden-hellinggrafiek.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je ziet de grafiek van f′. Hoe groot is de richtingscoëfficiënt van de raaklijn aan f in \\(x = 0\\)?",
+          "antwoord": "3",
+          "uitleg": "Die richtingscoëfficiënt is \\(f'(0)\\). Lees af op de hellinggrafiek: \\(3\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/afgeleiden-hellinggrafiek.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Voor \\(f(x) = 2^x\\) bereken je het differentiequotiënt op \\([1;\\ 1 + h]\\): voor \\(h = 0{,}1\\) is het \\(1{,}4355\\), voor \\(h = 0{,}01\\) is het \\(1{,}3911\\) en voor \\(h = 0{,}001\\) is het \\(1{,}3868\\). Wat is de beste schatting van \\(f'(1)\\)?",
+          "opties": [
+            "\\(1{,}4355\\)",
+            "\\(2\\)",
+            "\\(1{,}386\\)",
+            "\\(1\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "Hoe kleiner h, hoe dichter het differentiequotiënt bij de afgeleide komt. De waarden naderen ongeveer \\(1{,}386\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "s(t) is de afgelegde weg (km) van een auto na t uur, met \\(s(0) = 40\\) en \\(s(2) = 190\\). Wat is het differentiequotiënt van s op \\([0, 2]\\), in km/h?",
+          "antwoord": "75",
+          "uitleg": "\\(\\frac{190 - 40}{2 - 0} = 75\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over raaklijnen en afgeleiden?",
+          "rijen": [
+            "\\(f'(a)\\) is de richtingscoëfficiënt van de raaklijn aan de grafiek van f in \\((a, f(a))\\).",
+            "Een snijlijn door twee punten van de grafiek is altijd ook een raaklijn.",
+            "Als \\(f'(a) = 0\\), heeft f zeker een extremum in a.",
+            "Een raaklijn kan de grafiek verderop nog in een ander punt snijden."
+          ],
+          "antwoord": [
+            true,
+            false,
+            false,
+            true
+          ],
+          "uitleg": "Denk aan \\(f(x) = x^3\\): \\(f'(0) = 0\\), maar de functie blijft stijgen. Bij een derdegraadsfunctie snijdt een raaklijn de grafiek vaak nog ergens anders."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met het differentiequotiënt van f op \\([a, a + h]\\) als h naar 0 gaat?",
+          "opties": [
+            "Het wordt \\(0\\)",
+            "Het nadert \\(f(a)\\)",
+            "Het wordt oneindig groot",
+            "Het nadert \\(f'(a)\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "De afgeleide in a is precies die limiet: de gemiddelde verandering over een steeds kleiner interval wordt de verandering in het punt zelf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Van een functie f weet je \\(f(3) = 5\\) en \\(f'(3) = -2\\). Welke vergelijking heeft de raaklijn in \\(x = 3\\)?",
+          "opties": [
+            "\\(y = -2x + 5\\)",
+            "\\(y = -2x + 11\\)",
+            "\\(y = 5x - 2\\)",
+            "\\(y = -2x - 1\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(y - 5 = -2(x - 3)\\), dus \\(y = -2x + 6 + 5\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De raaklijn aan de grafiek van f in \\(x = 1\\) heeft vergelijking \\(y = 4x - 7\\). Hoeveel is \\(f(1)\\)?",
+          "antwoord": "-3",
+          "uitleg": "De raaklijn gaat door het raakpunt: \\(4 \\cdot 1 - 7 = -3\\)."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Als f′ positief is op een interval, dan is f daar [[*stijgend|dalend|constant]]. Als f′ in a van teken wisselt van plus naar min, heeft f in a een [[*lokaal maximum|lokaal minimum|nulwaarde]].",
+          "uitleg": "Positieve helling: de grafiek gaat omhoog. Eerst omhoog, dan omlaag: een top."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is \\(f'(a)\\) positief of negatief?",
+          "kolommen": [
+            "\\(f'(a) > 0\\)",
+            "\\(f'(a) < 0\\)"
+          ],
+          "items": [
+            [
+              "De raaklijn in a daalt van links naar rechts",
+              "\\(f'(a) < 0\\)"
+            ],
+            [
+              "f is de hoeveelheid water in een vat dat op tijdstip a leegloopt",
+              "\\(f'(a) < 0\\)"
+            ],
+            [
+              "f is de temperatuur, die op tijdstip a aan het oplopen is",
+              "\\(f'(a) > 0\\)"
+            ],
+            [
+              "De raaklijn in a heeft richtingscoëfficiënt \\(0{,}5\\)",
+              "\\(f'(a) > 0\\)"
+            ],
+            [
+              "f is de snelheid van een auto die op tijdstip a remt",
+              "\\(f'(a) < 0\\)"
+            ],
+            [
+              "f is de hoogte van een plant die op tijdstip a groeit",
+              "\\(f'(a) > 0\\)"
+            ]
+          ],
+          "uitleg": "De afgeleide zegt hoe snel en in welke richting de grootheid op dat moment verandert."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen om de raaklijn in x = a op te stellen in de goede volgorde.",
+          "opties": [
+            "Bereken \\(f(a)\\)",
+            "Bepaal \\(f'(a)\\) met een tabel, de grafiek of ICT",
+            "Vul in: \\(y - f(a) = f'(a)(x - a)\\)",
+            "Werk uit tot de vorm \\(y = mx + q\\)"
+          ],
+          "uitleg": "Je hebt een punt en een richtingscoëfficiënt nodig, daarna de vergelijking van een rechte door een punt."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het begrip aan zijn betekenis.",
+          "paren": [
+            [
+              "Differentiequotiënt",
+              "De gemiddelde verandering over een interval"
+            ],
+            [
+              "Afgeleide in a",
+              "De ogenblikkelijke verandering in a"
+            ],
+            [
+              "Raaklijn in a",
+              "De rechte door (a, f(a)) met dezelfde helling als de grafiek"
+            ],
+            [
+              "Hellinggrafiek",
+              "De grafiek van f′"
+            ]
+          ],
+          "extra": [
+            "De grafiek van f, gespiegeld om de x-as"
+          ],
+          "uitleg": "Van gemiddeld (over een interval) naar ogenblikkelijk (in één punt)."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Als s(t) de afgelegde weg in km is na t uur, dan is s′(t) de [[snelheid]] in [[km/h]]. Het differentiequotiënt van s op [1, 3] is de [[gemiddelde]] snelheid tussen uur 1 en uur 3.",
+          "extra": [
+            "versnelling",
+            "km",
+            "grootste"
+          ],
+          "uitleg": "Weg gedeeld door tijd geeft snelheid. Over een interval is die gemiddeld, in één punt ogenblikkelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "f is een bergparabool met top \\((2, 5)\\). Hoe ziet de hellinggrafiek eruit?",
+          "opties": [
+            "Een stijgende rechte door \\((2, 0)\\)",
+            "Een parabool met top \\((2, 5)\\)",
+            "Een dalende rechte door \\((2, 0)\\)",
+            "De horizontale rechte \\(y = 5\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "Links van de top stijgt f (\\(f' > 0\\)), rechts daalt f (\\(f' < 0\\)), in de top is \\(f' = 0\\). De helling neemt gelijkmatig af."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je rekentoestel geeft bij \\(\\frac{dy}{dx}\\) in \\(x = 1{,}5\\) de waarde \\(-0{,}75\\). Wat betekent dat?",
+          "opties": [
+            "Dat \\(f(1{,}5) = -0{,}75\\)",
+            "Dat de raaklijn in \\(x = 1{,}5\\) richtingscoëfficiënt \\(-0{,}75\\) heeft",
+            "Dat f van \\(0\\) tot \\(1{,}5\\) met \\(0{,}75\\) daalt",
+            "Dat f in \\(x = 1{,}5\\) een minimum heeft"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(\\frac{dy}{dx}\\) is de afgeleide: de helling van de grafiek in dat punt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over de hellinggrafiek?",
+          "rijen": [
+            "Bij een constante functie valt de hellinggrafiek samen met de x-as.",
+            "Bij een eerstegraadsfunctie is de hellinggrafiek een horizontale rechte.",
+            "Een lokaal maximum van f is ook een lokaal maximum van f′.",
+            "Waar f′ negatief is, ligt de grafiek van f onder de x-as."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Een rechte heeft overal dezelfde helling. f′ zegt iets over de helling van f, niet over de hoogte van f."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom je de raaklijn in een punt P kan zien als de limiet van snijlijnen.",
+          "antwoord": "Neem een tweede punt Q op de grafiek en teken de snijlijn PQ. Schuif Q steeds dichter naar P. De snijlijnen draaien en naderen één rechte: de raaklijn. Hun richtingscoëfficiënten (differentiequotiënten) naderen de afgeleide in P.",
+          "uitleg": "Snijlijn: twee punten. Raaklijn: wat overblijft als het tweede punt samenvalt met het eerste."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het differentiequotiënt van f op \\([1, 4]\\) is \\(0\\). Wat weet je zeker?",
+          "opties": [
+            "\\(f(1) = f(4)\\)",
+            "f is constant op \\([1, 4]\\)",
+            "\\(f'(x) = 0\\) voor elke x in \\([1, 4]\\)",
+            "f heeft een nulwaarde in \\([1, 4]\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\frac{f(4) - f(1)}{3} = 0\\) betekent enkel dat begin- en eindwaarde gelijk zijn. Daartussen kan f stijgen en dalen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Om 8 uur is het 12 °C, om 14 uur 21 °C. Wat is de gemiddelde temperatuursverandering?",
+          "opties": [
+            "\\(9\\) °C per uur",
+            "\\(1{,}5\\) °C per uur",
+            "\\(0{,}67\\) °C per uur",
+            "\\(3\\) °C per uur"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(\\frac{21 - 12}{14 - 8} = \\frac{9}{6} = 1{,}5\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Voor een functie f geldt \\(f'(x) > 0\\) voor elke reële x. Hoeveel nulwaarden heeft f hoogstens?",
+          "opties": [
+            "Geen",
+            "Twee",
+            "Eén",
+            "Oneindig veel"
+          ],
+          "antwoord": 2,
+          "uitleg": "Een functie die overal stijgt, kan de \\(x\\)-as maar één keer kruisen. Ze kan er ook helemaal boven of onder blijven."
+        },
+        {
+          "casus": "Een ballon wordt opgeblazen. Het volume V (liter) na t seconden: \\(V(2) = 3\\), \\(V(2{,}1) = 3{,}205\\), \\(V(2{,}01) = 3{,}02005\\) en \\(V(2{,}001) = 3{,}0020005\\).",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Bereken het differentiequotiënt van V op \\([2;\\ 2{,}1]\\).",
+              "antwoord": "2,05",
+              "uitleg": "\\(\\frac{3{,}205 - 3}{0{,}1} = 2{,}05\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is de beste schatting voor \\(V'(2)\\)?",
+              "opties": [
+                "\\(2{,}05\\)",
+                "\\(3\\)",
+                "\\(1{,}5\\)",
+                "\\(2\\)"
+              ],
+              "antwoord": 3,
+              "uitleg": "De differentiequotiënten zijn \\(2{,}05\\), \\(2{,}005\\) en \\(2{,}0005\\): ze naderen \\(2\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat betekent \\(V'(2)\\) in deze context?",
+              "opties": [
+                "Het volume na 2 seconden, in liter",
+                "Hoe snel het volume op t = 2 s toeneemt, in liter per seconde",
+                "De gemiddelde toename van het volume in de eerste 2 seconden",
+                "Na hoeveel seconden de ballon 2 liter groot is"
+              ],
+              "antwoord": 1,
+              "uitleg": "De afgeleide is een ogenblikkelijke verandering: liter per seconde, op dat ene moment."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

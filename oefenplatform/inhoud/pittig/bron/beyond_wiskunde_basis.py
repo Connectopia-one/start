@@ -26,6 +26,8 @@ THEMAS = [
     ("tweedegraadsvgl", "Tweedegraadsvergelijkingen algebraïsch oplossen"),
     ("exponentieel", "Exponentiële functies en groeimodellen"),
     ("sinus", "De sinusfunctie en de goniometrische cirkel"),
+    ("vergelijkingen", "Vergelijkingen grafisch oplossen"),
+    ("afgeleiden", "Afgeleiden: helling en raaklijn"),
 ]
 
 HOOFDSTUKKEN = [

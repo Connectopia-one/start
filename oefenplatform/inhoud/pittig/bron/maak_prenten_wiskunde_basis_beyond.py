@@ -133,9 +133,11 @@ def teken(g):
         d.append(f'<polyline points="{p}" fill="none" stroke="{kl}" stroke-width="3.5"/>')
     for (x0, y0), (x1, y1) in g.get("segmenten", []):
         d.append(f'<line x1="{X(x0):.1f}" y1="{Y(y0):.1f}" x2="{X(x1):.1f}" y2="{Y(y1):.1f}" stroke="{LIJN}" stroke-width="2"/>')
-    for x, y, label in g.get("punten", []):
+    for x, y, label, *links in g.get("punten", []):
         d.append(f'<circle cx="{X(x):.1f}" cy="{Y(y):.1f}" r="7" fill="{DONKER}"/>')
-        if label:
+        if label and links:
+            d.append(tekst(X(x) - 12, Y(y) - 12, label, 18, "end", vet=True))
+        elif label:
             d.append(tekst(X(x) + 12, Y(y) - 12, label, 18, "start", vet=True))
     kop = []
     if g.get("titel"):
