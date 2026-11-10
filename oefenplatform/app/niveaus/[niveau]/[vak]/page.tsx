@@ -316,35 +316,9 @@ export default async function NiveauVakPage({
           </Link>
         )}
 
-        {/* De hele cursus in één pdf: alle leerbundels van dit vak na elkaar
-            (Lotte en Kim, november 2026). Een gewone link, geen Link: het is
-            een download en geen pagina. */}
-        {volledigeToegang && (
-          <a
-            href={cursusHref}
-            {...(lesbundel ? { target: "_blank", rel: "noopener" } : { download: true })}
-            className="mt-3 flex items-center justify-between gap-4 rounded-xl border border-border bg-surface px-5 py-4 transition hover:border-forest"
-          >
-            <span>
-              <span className="font-display font-semibold text-ink">
-                <span aria-hidden>📚</span> Hele cursus downloaden
-              </span>
-              <span className="mt-0.5 block text-sm text-ink-dim">
-                {lesbundel
-                  ? lesbundel.omschrijving ??
-                    "De lesbundel over het hele vak, met afbeeldingen. Handig om af te drukken of door te bladeren."
-                  : "Alle leerbundels van dit vak samen in één pdf, in de volgorde van de hoofdstukken. Handig om af te drukken of door te bladeren."}
-              </span>
-            </span>
-            <span aria-hidden className="text-ink-dim">
-              &darr;
-            </span>
-          </a>
-        )}
-
         {/* Extra bundels over het hele vak, los van de hoofdstukken (Kim,
             10 november 2026). Gewone links, want het zijn downloads. */}
-        {overigeBundels.length > 0 && (
+        {(volledigeToegang || overigeBundels.length > 0) && (
           <section className="mt-8">
             <h2 className="font-display text-lg font-semibold text-ink">
               <span aria-hidden>🗂️</span> Extra bundels
@@ -353,6 +327,33 @@ export default async function NiveauVakPage({
               Bundels over het hele vak om af te drukken, los van de hoofdstukken.
             </p>
             <ul className="mt-3 space-y-3">
+              {/* De hele cursus in één pdf: alle leerbundels van dit vak na
+                  elkaar (Lotte en Kim, november 2026). Sinds 10 november
+                  2026 staat hij hier, bovenaan de extra bundels (Kim). */}
+              {volledigeToegang && (
+                <li>
+                <a
+                  href={cursusHref}
+                  {...(lesbundel ? { target: "_blank", rel: "noopener" } : { download: true })}
+                  className="flex items-center justify-between gap-4 rounded-xl border border-border bg-surface px-5 py-4 transition hover:border-forest"
+                >
+                  <span>
+                    <span className="font-display font-semibold text-ink">
+                      <span aria-hidden>📚</span> Hele cursus downloaden
+                    </span>
+                    <span className="mt-0.5 block text-sm text-ink-dim">
+                      {lesbundel
+                        ? lesbundel.omschrijving ??
+                          "De lesbundel over het hele vak, met afbeeldingen. Handig om af te drukken of door te bladeren."
+                        : "Alle leerbundels van dit vak samen in één pdf, in de volgorde van de hoofdstukken. Handig om af te drukken of door te bladeren."}
+                    </span>
+                  </span>
+                  <span aria-hidden className="text-ink-dim">
+                    &darr;
+                  </span>
+                </a>
+                </li>
+              )}
               {overigeBundels.map((b) => (
                 <li key={b.id}>
                   <a
