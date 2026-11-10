@@ -35,6 +35,7 @@ THEMAS = [
     ("ongelijkheden", BED + "ongelijkheden oplossen"),
     ("expgonio", BED + "exponentiële en goniometrische vergelijkingen"),
     ("rekenregels", BED + "afgeleiden berekenen met rekenregels"),
+    ("verloop", BED + "verloop van een functie en optimaliseren"),
 ]
 
 HOOFDSTUKKEN = [

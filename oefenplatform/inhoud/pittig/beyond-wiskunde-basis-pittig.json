@@ -6139,6 +6139,420 @@
           ]
         }
       ]
+    },
+    {
+      "titel": "Bedrijfswetenschappen: verloop van een functie en optimaliseren — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het buigpunt van f.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/verloop-f.svg",
+          "zones": [
+            [
+              49.0,
+              40.3,
+              6.0,
+              9.4
+            ]
+          ],
+          "uitleg": "\\(f''(x) = 6x - 12\\) wisselt van teken in \\(x = 2\\). Het buigpunt is \\((2, 3)\\)."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik boven een x-waarde waar f tegelijk dalend en hol is.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/verloop-f.svg",
+          "zones": [
+            [
+              52.9,
+              4.7,
+              16.2,
+              90.6
+            ]
+          ],
+          "uitleg": "\\(f' = 3(x - 1)(x - 3) < 0\\) op \\(]1, 3[\\) en \\(f'' = 6x - 12 > 0\\) voor \\(x > 2\\). Beide samen: tussen 2 en 3."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Vul de samenvattende tabel aan: welk teken heeft \\(f'\\) of \\(f''\\)?",
+          "rijen": [
+            "\\(f'\\) op \\(]-\\infty, 1[\\)",
+            "\\(f''(2)\\)",
+            "\\(f'\\) op \\(]3, +\\infty[\\)"
+          ],
+          "antwoord": [
+            0,
+            2,
+            0
+          ],
+          "uitleg": "\\(f'(x) = 3x^2 - 12x + 9 = 3(x - 1)(x - 3)\\) is positief buiten 1 en 3. \\(f''(2) = 12 - 12 = 0\\).",
+          "kolommen": [
+            "+",
+            "−",
+            "0"
+          ],
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/verloop-f.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het lokaal minimum van f?",
+          "opties": [
+            "\\(5\\), bereikt in \\(x = 1\\)",
+            "\\(1\\), bereikt in \\(x = 3\\)",
+            "\\(3\\), bereikt in \\(x = 2\\)",
+            "\\(0\\), bereikt in \\(x = 0\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(f'\\) wisselt in \\(x = 3\\) van min naar plus. \\(f(3) = 27 - 54 + 27 + 1 = 1\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/verloop-f.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Uit een vierkant karton van 20 cm knip je in elke hoek een vierkantje van x cm weg en plooi je een open doos. Klik op het punt van de grafiek met het grootste volume.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/verloop-doos.svg",
+          "zones": [
+            [
+              33.8,
+              13.6,
+              6.4,
+              10.0
+            ]
+          ],
+          "uitleg": "\\(V'(x) = (20 - 2x)(20 - 6x) = 0\\) geeft \\(x = \\frac{10}{3}\\) (\\(x = 10\\) valt buiten het praktisch domein). \\(V \\approx 593\\) cm³."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het praktisch domein van \\(V(x) = x(20 - 2x)^2\\)?",
+          "opties": [
+            "\\(\\mathbb{R}\\)",
+            "\\(]0, 20[\\)",
+            "\\(]0, 10[\\)",
+            "\\([0, +\\infty[\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "x moet positief zijn en de bodem \\(20 - 2x\\) ook: \\(0 < x < 10\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/verloop-doos.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "\\(f'(x) = (x - 2)^2 (x + 1)\\). Waar heeft f een lokaal extremum?",
+          "opties": [
+            "In \\(x = 2\\) en in \\(x = -1\\)",
+            "Enkel in \\(x = 2\\)",
+            "Enkel in \\(x = -1\\)",
+            "Nergens"
+          ],
+          "antwoord": 2,
+          "uitleg": "In \\(x = -1\\) wisselt \\(f'\\) van teken. In \\(x = 2\\) is \\(f' = 0\\), maar \\((x - 2)^2\\) blijft positief: geen tekenwissel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vindt \\(f''(a) = 0\\). Wat weet je dan zeker?",
+          "opties": [
+            "Dat a een buigpunt is",
+            "Dat f in a een extremum heeft",
+            "Niets zeker: je moet nagaan of f″ in a van teken wisselt",
+            "Dat f constant is rond a"
+          ],
+          "antwoord": 2,
+          "uitleg": "Bij \\(f(x) = x^4\\) is \\(f''(0) = 0\\), maar \\(f''\\) blijft positief: geen buigpunt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over het verloop van een functie?",
+          "rijen": [
+            "Een derdegraadsfunctie heeft altijd precies één buigpunt.",
+            "Waar \\(f'' > 0\\), is de grafiek hol.",
+            "In een buigpunt is \\(f'\\) altijd \\(0\\).",
+            "Een lokaal maximum is altijd de grootste functiewaarde op het hele domein."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "\\(f''\\) van een derdegraadsfunctie is een eerstegraadsfunctie met één tekenwissel. In een buigpunt verandert de kromming, de helling hoeft niet 0 te zijn."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Tweede-afgeleidetest: als f′(a) = 0 en f″(a) > 0, dan heeft f in a een lokaal [[*minimum|maximum|buigpunt]]. Waar f″ van teken wisselt, ligt een [[*buigpunt|extremum|nulpunt]].",
+          "uitleg": "Hol rond een horizontale raaklijn: een dal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar heeft \\(f(x) = x^4 - 4x^3\\) een buigpunt?",
+          "opties": [
+            "In \\(x = 3\\)",
+            "In \\(x = 0\\) en \\(x = 2\\)",
+            "Enkel in \\(x = 0\\)",
+            "In \\(x = 0\\) en \\(x = 3\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(f''(x) = 12x^2 - 24x = 12x(x - 2)\\) wisselt van teken in \\(0\\) en in \\(2\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zijn de lokale extrema van \\(f(x) = x^3 - 3x\\)?",
+          "opties": [
+            "Maximum \\(2\\) in \\(x = -1\\), minimum \\(-2\\) in \\(x = 1\\)",
+            "Maximum \\(-2\\) in \\(x = 1\\), minimum \\(2\\) in \\(x = -1\\)",
+            "Enkel een minimum \\(0\\) in \\(x = 0\\)",
+            "Maximum \\(3\\) in \\(x = \\sqrt{3}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(f'(x) = 3x^2 - 3 = 0\\) geeft \\(x = \\pm 1\\). \\(f(-1) = 2\\), \\(f(1) = -2\\)."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is de grafiek hol of bol (op het hele domein)?",
+          "kolommen": [
+            "Hol",
+            "Bol"
+          ],
+          "items": [
+            [
+              "\\(f(x) = x^2\\)",
+              "Hol"
+            ],
+            [
+              "\\(f(x) = -x^2\\)",
+              "Bol"
+            ],
+            [
+              "\\(f(x) = e^x\\)",
+              "Hol"
+            ],
+            [
+              "\\(f(x) = \\ln x\\)",
+              "Bol"
+            ],
+            [
+              "\\(f(x) = \\sqrt{x}\\)",
+              "Bol"
+            ],
+            [
+              "\\(f(x) = 2^x + x\\)",
+              "Hol"
+            ]
+          ],
+          "uitleg": "Kijk naar het teken van \\(f''\\): \\(e^x\\) en \\(2^x \\ln^2 2\\) zijn positief, \\(-\\frac{1}{x^2}\\) en \\(-\\frac{1}{4x\\sqrt{x}}\\) negatief."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen om een extremumprobleem op te lossen in de goede volgorde.",
+          "opties": [
+            "Kies de veranderlijke en bepaal het praktisch domein",
+            "Stel het voorschrift op van de grootheid die extreem moet zijn",
+            "Bereken de afgeleide en haar nulwaarden",
+            "Ga met een tekenverloop of de tweede afgeleide na of het een maximum of minimum is",
+            "Formuleer het antwoord in de context"
+          ],
+          "uitleg": "Eerst modelleren, dan rekenen, dan controleren en antwoorden."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de tekens aan het verloop van de grafiek.",
+          "paren": [
+            [
+              "\\(f' > 0\\) en \\(f'' > 0\\)",
+              "Stijgend en hol"
+            ],
+            [
+              "\\(f' > 0\\) en \\(f'' < 0\\)",
+              "Stijgend en bol"
+            ],
+            [
+              "\\(f' < 0\\) en \\(f'' > 0\\)",
+              "Dalend en hol"
+            ],
+            [
+              "\\(f' < 0\\) en \\(f'' < 0\\)",
+              "Dalend en bol"
+            ]
+          ],
+          "extra": [
+            "Constant"
+          ],
+          "uitleg": "f′ zegt stijgen of dalen, f″ zegt hoe de grafiek buigt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee positieve getallen hebben samen 20. Wat is hun grootst mogelijke product?",
+          "opties": [
+            "\\(400\\)",
+            "\\(100\\)",
+            "\\(99\\)",
+            "\\(200\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(P(x) = x(20 - x)\\), \\(P'(x) = 20 - 2x = 0\\) geeft \\(x = 10\\). \\(10 \\cdot 10 = 100\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een boer zet met 100 m draad een rechthoekig weiland af langs een rivier. Aan de rivierkant komt geen draad. Wat is de grootst mogelijke oppervlakte?",
+          "opties": [
+            "\\(625\\) m²",
+            "\\(2500\\) m²",
+            "\\(1000\\) m²",
+            "\\(1250\\) m²"
+          ],
+          "antwoord": 3,
+          "uitleg": "Zijden x, x en \\(100 - 2x\\): \\(A(x) = x(100 - 2x)\\), \\(A'(x) = 100 - 4x = 0\\) bij \\(x = 25\\). \\(25 \\cdot 50 = 1250\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De kost per stuk is \\(G(q) = q + \\dfrac{400}{q}\\) euro (\\(q > 0\\)). Bij hoeveel stuks is de kost per stuk het laagst?",
+          "antwoord": "20",
+          "uitleg": "\\(G'(q) = 1 - \\frac{400}{q^2} = 0\\) geeft \\(q^2 = 400\\), dus \\(q = 20\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De winst bij verkoopprijs p (euro) is \\(W(p) = -20p^2 + 1200p - 10\\,000\\). Bij welke prijs is de winst maximaal?",
+          "opties": [
+            "\\(60\\) euro",
+            "\\(30\\) euro",
+            "\\(15\\) euro",
+            "\\(1200\\) euro"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(W'(p) = -40p + 1200 = 0\\) geeft \\(p = 30\\)."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Het [[praktisch domein]] bevat enkel waarden die in de context zinvol zijn. Een extremum op de [[rand]] van dat domein moet je apart nagaan.",
+          "extra": [
+            "bereik",
+            "midden"
+          ],
+          "uitleg": "Een afgeleide gelijk aan 0 vindt enkel extrema binnenin."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "\\(f'\\) wisselt in \\(x = 4\\) van teken, van min naar plus. Wat heeft f in \\(x = 4\\)?",
+          "opties": [
+            "Een lokaal maximum",
+            "Een buigpunt",
+            "Een lokaal minimum",
+            "Een nulwaarde"
+          ],
+          "antwoord": 2,
+          "uitleg": "Eerst dalen, dan stijgen: een dal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een functie heeft \\(f''(x) < 0\\) voor elke x. Hoeveel lokale minima kan ze hebben?",
+          "opties": [
+            "Eén",
+            "Twee",
+            "Oneindig veel",
+            "Geen enkel"
+          ],
+          "antwoord": 3,
+          "uitleg": "De grafiek is overal bol. Een lokaal minimum vraagt een holle plek."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom je bij een extremumprobleem niet mag stoppen bij 'f′(x) = 0'.",
+          "antwoord": "Een nulwaarde van \\(f'\\) kan een maximum, een minimum of geen van beide zijn (zoals bij \\(x^3\\) in 0). Met een tekenverloop van \\(f'\\) of de tweede afgeleide stel je vast welk soort extremum het is. Daarnaast kan het grootste of kleinste resultaat ook op de rand van het praktisch domein liggen.",
+          "uitleg": "Een horizontale raaklijn is nog geen top of dal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een fabrikant ontwerpt een cilindervormig blikje van 330 cm³. Wat probeert hij meestal minimaal te maken?",
+          "opties": [
+            "De inhoud",
+            "De hoogte",
+            "De buitenoppervlakte, dus het materiaal",
+            "De straal"
+          ],
+          "antwoord": 2,
+          "uitleg": "De inhoud ligt vast. Minder oppervlakte betekent minder blik en lagere kosten."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over \\(f(x) = x^3 - 3x^2\\)?",
+          "rijen": [
+            "f heeft een lokaal maximum in \\(x = 0\\).",
+            "f heeft een buigpunt in \\(x = 1\\).",
+            "f is hol op \\(]-\\infty, 1[\\).",
+            "f heeft een lokaal minimum in \\(x = 1\\)."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "\\(f'(x) = 3x(x - 2)\\): plus, min, plus. \\(f''(x) = 6x - 6\\): negatief voor \\(x < 1\\) (bol), positief erna."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "\\(f(x) = x e^{-x}\\) heeft afgeleide \\(f'(x) = (1 - x)e^{-x}\\). Waar bereikt f haar maximum?",
+          "opties": [
+            "In \\(x = 0\\)",
+            "In \\(x = -1\\)",
+            "f heeft geen maximum",
+            "In \\(x = 1\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "\\(e^{-x}\\) is altijd positief, dus het teken komt van \\(1 - x\\): plus en dan min."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bal volgt \\(h(t) = -4{,}9t^2 + 19{,}6t + 2\\) (m, t in s). Hoe hoog komt hij maximaal?",
+          "opties": [
+            "\\(19{,}6\\) m",
+            "\\(41{,}2\\) m",
+            "\\(2\\) m",
+            "\\(21{,}6\\) m"
+          ],
+          "antwoord": 3,
+          "uitleg": "\\(h'(t) = -9{,}8t + 19{,}6 = 0\\) bij \\(t = 2\\). \\(h(2) = -19{,}6 + 39{,}2 + 2\\)."
+        },
+        {
+          "casus": "Een rechthoekige tuin van 200 m² ligt tegen een muur. Langs de drie andere zijden komt een omheining. Noem x de lengte (m) van de zijden loodrecht op de muur.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke functie geeft de lengte van de omheining?",
+              "opties": [
+                "\\(L(x) = 2x + 200x\\)",
+                "\\(L(x) = 2x + \\dfrac{200}{x}\\)",
+                "\\(L(x) = x + \\dfrac{200}{x}\\)",
+                "\\(L(x) = 2x + \\dfrac{400}{x}\\)"
+              ],
+              "antwoord": 1,
+              "uitleg": "De zijde langs de muur is \\(\\frac{200}{x}\\). Twee zijden x en één zijde \\(\\frac{200}{x}\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Voor welke x is de omheining het kortst?",
+              "opties": [
+                "\\(x = 20\\)",
+                "\\(x = 14{,}1\\)",
+                "\\(x = 5\\)",
+                "\\(x = 10\\)"
+              ],
+              "antwoord": 3,
+              "uitleg": "\\(L'(x) = 2 - \\frac{200}{x^2} = 0\\) geeft \\(x^2 = 100\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe lang is die kortste omheining?",
+              "opties": [
+                "\\(40\\) m",
+                "\\(30\\) m",
+                "\\(60\\) m",
+                "\\(56{,}6\\) m"
+              ],
+              "antwoord": 0,
+              "uitleg": "\\(2 \\cdot 10 + \\frac{200}{10} = 20 + 20\\)."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
