@@ -138,7 +138,7 @@ def examenvorm(kop, v):
         kol = v.get("kolommen")
         if not kol and len(set(v["antwoord"])) < 2:
             m.append(f"{kop}: alle rijen van de tabel hebben hetzelfde antwoord")
-        if kol and any(not (a in kol or (isinstance(a, int) and not isinstance(a, bool) and 0 <= a < len(kol))) for a in v["antwoord"]):
+        if kol and any(not (a in kol or (isinstance(a, int) and 0 <= int(a) < len(kol))) for a in v["antwoord"]):
             m.append(f"{kop}: tabelantwoord niet in de kolommen")
         # De import leest een antwoord met enkel cijfers ("630") als kolomnummer.
         if any(isinstance(a, str) and a.strip().isdigit() for a in v["antwoord"]):
@@ -192,7 +192,7 @@ def nakijken(module, niveau, titel, vragen, elders, gezien):
             if isinstance(v["antwoord"], list) and "wiskunde" in module:
                 meldingen.append(f"{kop}: bij wiskunde geen meerkeuze met meerdere antwoorden")
         elif v["type"] == "invultekst":
-            if not isinstance(v["antwoord"], str) or not v["antwoord"].strip():
+            if not (isinstance(v["antwoord"], str) and v["antwoord"].strip()) and not (isinstance(v["antwoord"], list) and v["antwoord"] and all(isinstance(x, str) and x.strip() for x in v["antwoord"])):
                 meldingen.append(f"{kop}: invulantwoord ontbreekt")
             if v.get("opties"):
                 meldingen.append(f"{kop}: een invulvraag heeft geen opties")

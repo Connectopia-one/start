@@ -1,0 +1,1273 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Machtswortels, machten en logaritmen — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is \\(\\left(\\sqrt[3]{8}\\right)^{2} + 16^{\\frac{3}{4}}\\)?",
+          "opties": [
+            "\\(12\\)",
+            "\\(10\\)",
+            "\\(16\\)",
+            "\\(20\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\sqrt[3]{8} = 2\\), dus \\(2^{2} = 4\\). \\(16^{\\frac{3}{4}} = \\left(\\sqrt[4]{16}\\right)^{3} = 2^{3} = 8\\). Samen \\(4 + 8 = 12\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitdrukking is gelijk aan \\(\\sqrt[5]{a^{3}}\\) (met \\(a > 0\\))?",
+          "opties": [
+            "\\(a^{\\frac{3}{5}}\\)",
+            "\\(a^{\\frac{5}{3}}\\)",
+            "\\(a^{15}\\)",
+            "\\(a^{-2}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De exponent onder de wortel komt in de teller, de wortelexponent in de noemer: \\(\\sqrt[n]{a^{m}} = a^{\\frac{m}{n}}\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bestaat de uitdrukking in \\(\\mathbb{R}\\)?",
+          "rijen": [
+            "\\(\\sqrt[3]{-27}\\)",
+            "\\(\\sqrt[6]{-64}\\)",
+            "\\((-8)^{\\frac{1}{3}}\\) als derdemachtswortel gelezen",
+            "\\(\\log_{2} 0\\)",
+            "\\(\\log 0{,}001\\)",
+            "\\(\\ln(-1)\\)"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Een even machtswortel van een negatief getal bestaat niet. Een logaritme bestaat enkel van een strikt positief getal, ook als het kleiner is dan 1.",
+          "kolommen": [
+            "Bestaat",
+            "Bestaat niet"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf \\(\\dfrac{\\sqrt{x} \\cdot \\sqrt[3]{x}}{x}\\) als één macht van \\(x\\) (met \\(x > 0\\)). Geef enkel de exponent als breuk, bijvoorbeeld 2/7.",
+          "antwoord": [
+            "-1/6",
+            "−1/6",
+            "-1 / 6"
+          ],
+          "uitleg": "\\(x^{\\frac{1}{2}} \\cdot x^{\\frac{1}{3}} = x^{\\frac{5}{6}}\\). Delen door \\(x^{1}\\) geeft \\(x^{\\frac{5}{6} - 1} = x^{-\\frac{1}{6}}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling schrijft: \\(\\sqrt{9 + 16} = \\sqrt{9} + \\sqrt{16} = 7\\). Wat klopt?",
+          "opties": [
+            "Fout: \\(\\sqrt{25} = 5\\). Een wortel van een som is niet de som van de wortels.",
+            "Juist: wortels mag je altijd over een som verdelen.",
+            "Fout: het antwoord moet \\(\\pm 7\\) zijn.",
+            "Juist, maar enkel omdat \\(9\\) en \\(16\\) kwadraten zijn."
+          ],
+          "antwoord": 0,
+          "uitleg": "Over een product mag je een wortel verdelen (\\(\\sqrt{ab} = \\sqrt{a}\\sqrt{b}\\)), over een som niet."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke uitdrukking aan haar waarde.",
+          "paren": [
+            [
+              "\\(27^{\\frac{2}{3}}\\)",
+              "\\(9\\)"
+            ],
+            [
+              "\\(32^{-\\frac{1}{5}}\\)",
+              "\\(\\frac{1}{2}\\)"
+            ],
+            [
+              "\\(\\log_{3} 81\\)",
+              "\\(4\\)"
+            ],
+            [
+              "\\(\\log_{2} \\frac{1}{8}\\)",
+              "\\(-3\\)"
+            ]
+          ],
+          "extra": [
+            "\\(-\\frac{1}{2}\\)"
+          ],
+          "uitleg": "\\(\\sqrt[3]{27} = 3\\) en \\(3^{2} = 9\\). \\(\\sqrt[5]{32} = 2\\), negatieve exponent: \\(\\frac{1}{2}\\). \\(3^{4} = 81\\). \\(2^{-3} = \\frac{1}{8}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Als \\(\\log_{a} b = 3\\), hoeveel is dan \\(\\log_{a} b^{2} - \\log_{a} \\sqrt{b}\\)?",
+          "opties": [
+            "\\(4{,}5\\)",
+            "\\(7{,}5\\)",
+            "\\(1{,}5\\)",
+            "\\(6\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\log_{a} b^{2} = 2 \\cdot 3 = 6\\) en \\(\\log_{a} \\sqrt{b} = \\frac{1}{2} \\cdot 3 = 1{,}5\\). Verschil: \\(4{,}5\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout (met \\(a, x, y > 0\\) en \\(a \\neq 1\\))?",
+          "rijen": [
+            "\\(\\log_{a}(xy) = \\log_{a} x + \\log_{a} y\\)",
+            "\\(\\log_{a}(x + y) = \\log_{a} x \\cdot \\log_{a} y\\)",
+            "\\(\\log_{a} x^{5} = 5 \\log_{a} x\\)",
+            "\\(\\dfrac{\\log_{a} x}{\\log_{a} y} = \\log_{a} x - \\log_{a} y\\)"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "De rekenregels gaan over het product, het quotiënt en de macht binnen de logaritme. Een som binnen of een quotiënt van twee logaritmen heeft geen eigen regel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bereken zonder rekenmachine: \\(\\log_{6} 4 + \\log_{6} 9\\).",
+          "antwoord": "2",
+          "uitleg": "\\(\\log_{6} 4 + \\log_{6} 9 = \\log_{6} 36 = 2\\), want \\(6^{2} = 36\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitdrukking geeft \\(\\log_{3} 20\\) met de toetsen \\(\\log\\) of \\(\\ln\\) van een rekenmachine?",
+          "opties": [
+            "\\(\\dfrac{\\log 20}{\\log 3}\\)",
+            "\\(\\dfrac{\\log 3}{\\log 20}\\)",
+            "\\(\\log 20 - \\log 3\\)",
+            "\\(\\log \\dfrac{20}{3}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Veranderen van grondtal: \\(\\log_{a} x = \\dfrac{\\log x}{\\log a}\\). Met \\(\\ln\\) werkt het op dezelfde manier."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tussen welke twee gehele getallen ligt \\(\\log_{2} 50\\)?",
+          "opties": [
+            "\\(5\\) en \\(6\\)",
+            "\\(4\\) en \\(5\\)",
+            "\\(6\\) en \\(7\\)",
+            "\\(24\\) en \\(26\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(2^{5} = 32\\) en \\(2^{6} = 64\\). Omdat \\(32 < 50 < 64\\), ligt \\(\\log_{2} 50\\) tussen \\(5\\) en \\(6\\)."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De logaritme met grondtal 10 schrijf je [[*log|ln|lg2]], de natuurlijke logaritme schrijf je [[*ln|log|nl]] en heeft als grondtal het getal [[*e|10|2]].",
+          "uitleg": "log zonder grondtal betekent grondtal 10, ln betekent grondtal e (ongeveer 2,718)."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet van klein naar groot.",
+          "opties": [
+            "\\(\\log_{2} \\frac{1}{4}\\)",
+            "\\(\\log 0{,}5\\)",
+            "\\(\\ln 1\\)",
+            "\\(8^{\\frac{1}{3}}\\)",
+            "\\(\\log_{3} 27\\)"
+          ],
+          "uitleg": "\\(\\log_{2} \\frac{1}{4} = -2\\), \\(\\log 0{,}5 \\approx -0{,}30\\), \\(\\ln 1 = 0\\), \\(8^{\\frac{1}{3}} = 2\\), \\(\\log_{3} 27 = 3\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Los op: \\(\\log_{x} 125 = 3\\). Geef \\(x\\).",
+          "antwoord": "5",
+          "uitleg": "\\(\\log_{x} 125 = 3\\) betekent \\(x^{3} = 125\\), dus \\(x = 5\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(\\log_{2}(x - 1) = 4\\).",
+          "opties": [
+            "\\(x = 17\\)",
+            "\\(x = 9\\)",
+            "\\(x = 15\\)",
+            "\\(x = 5\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(x - 1 = 2^{4} = 16\\), dus \\(x = 17\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Vereenvoudig (met \\(x > 0\\)). Welk resultaat hoort bij welke uitdrukking?",
+          "rijen": [
+            "\\(x^{\\frac{1}{2}} \\cdot x^{\\frac{1}{2}}\\)",
+            "\\(\\left(x^{\\frac{2}{3}}\\right)^{3}\\)",
+            "\\(\\dfrac{x^{\\frac{1}{4}}}{x^{\\frac{1}{4}}}\\)",
+            "\\(\\sqrt{x^{6}}\\)"
+          ],
+          "antwoord": [
+            1,
+            2,
+            0,
+            3
+          ],
+          "uitleg": "Bij een product tel je exponenten op, bij een macht van een macht vermenigvuldig je ze, bij een quotiënt trek je ze af.",
+          "kolommen": [
+            "\\(1\\)",
+            "\\(x\\)",
+            "\\(x^{2}\\)",
+            "\\(x^{3}\\)"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is het resultaat positief of negatief?",
+          "kolommen": [
+            "Positief",
+            "Negatief"
+          ],
+          "items": [
+            [
+              "\\(\\log 0{,}2\\)",
+              "Negatief"
+            ],
+            [
+              "\\(\\log_{5} 7\\)",
+              "Positief"
+            ],
+            [
+              "\\(\\ln 0{,}9\\)",
+              "Negatief"
+            ],
+            [
+              "\\(4^{-\\frac{1}{2}}\\)",
+              "Positief"
+            ],
+            [
+              "\\(\\sqrt[3]{-0{,}5}\\)",
+              "Negatief"
+            ],
+            [
+              "\\(\\log_{2} 1{,}5\\)",
+              "Positief"
+            ]
+          ],
+          "uitleg": "Een logaritme met grondtal groter dan 1 is negatief voor getallen tussen 0 en 1. Een macht met positief grondtal is altijd positief, ook met een negatieve exponent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling zegt: \\(2^{-3}\\) is negatief, want de exponent is negatief. Wat klopt?",
+          "opties": [
+            "Fout: \\(2^{-3} = \\frac{1}{8}\\), en dat is positief.",
+            "Juist: \\(2^{-3} = -8\\).",
+            "Juist: \\(2^{-3} = -6\\).",
+            "Fout: \\(2^{-3} = 8\\)."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een negatieve exponent betekent het omgekeerde nemen, niet het teken veranderen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf \\(\\sqrt[3]{x^{2}} \\cdot \\sqrt[6]{x^{2}}\\) als één macht van \\(x\\) (met \\(x > 0\\)). Geef enkel de exponent.",
+          "antwoord": "1",
+          "uitleg": "\\(x^{\\frac{2}{3}} \\cdot x^{\\frac{1}{3}} = x^{1}\\). Het resultaat is gewoon \\(x\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk getal is gelijk aan \\(e^{\\ln 7}\\)?",
+          "opties": [
+            "\\(7\\)",
+            "\\(\\ln 7\\)",
+            "\\(e^{7}\\)",
+            "\\(1\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Macht en logaritme met hetzelfde grondtal heffen elkaar op: \\(a^{\\log_{a} x} = x\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Als \\(\\log 2 \\approx 0{,}301\\), hoeveel is dan ongeveer \\(\\log 8000\\)?",
+          "opties": [
+            "\\(3{,}903\\)",
+            "\\(2{,}408\\)",
+            "\\(0{,}903\\)",
+            "\\(24{,}08\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(8000 = 2^{3} \\cdot 1000\\). Dus \\(\\log 8000 = 3 \\log 2 + \\log 1000 \\approx 0{,}903 + 3 = 3{,}903\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout?",
+          "rijen": [
+            "\\(\\log_{a} 1 = 0\\) voor elk toegelaten grondtal \\(a\\)",
+            "\\(\\log_{a} a = a\\)",
+            "\\(\\log_{\\frac{1}{2}} 4 = -2\\)",
+            "\\(\\sqrt[n]{a} = a^{n}\\)"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "\\(a^{0} = 1\\) en \\(a^{1} = a\\), dus \\(\\log_{a} a = 1\\). \\(\\left(\\frac{1}{2}\\right)^{-2} = 4\\). Een \\(n\\)-de machtswortel is de macht met exponent \\(\\frac{1}{n}\\)."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Het verband tussen macht en logaritme: als a tot de macht y gelijk is aan x, dan is y de [[logaritme]] van x met [[grondtal]] a. De bewerking die bij een macht het grondtal zoekt, is [[worteltrekking]].",
+          "extra": [
+            "exponent",
+            "breuk"
+          ],
+          "uitleg": "Bij een macht zoek je de uitkomst, bij een logaritme de exponent, bij een wortel het grondtal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitdrukking is gelijk aan \\(2\\log_{a} x - 3\\log_{a} y\\) (met \\(x, y > 0\\))?",
+          "opties": [
+            "\\(\\log_{a} \\dfrac{x^{2}}{y^{3}}\\)",
+            "\\(\\log_{a} (x^{2} - y^{3})\\)",
+            "\\(\\dfrac{\\log_{a} x^{2}}{\\log_{a} y^{3}}\\)",
+            "\\(\\log_{a} \\dfrac{2x}{3y}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst de getallen als exponent binnen brengen, dan wordt het verschil een quotiënt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is \\(\\log_{4} 8\\)? Schrijf als kommagetal.",
+          "antwoord": [
+            "1,5",
+            "1.5",
+            "3/2"
+          ],
+          "uitleg": "\\(4^{1{,}5} = \\left(\\sqrt{4}\\right)^{3} = 2^{3} = 8\\). Of: \\(\\log_{4} 8 = \\frac{\\log_{2} 8}{\\log_{2} 4} = \\frac{3}{2}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke \\(x\\) voldoet aan \\(x^{\\frac{3}{2}} = 27\\)?",
+          "opties": [
+            "\\(9\\)",
+            "\\(18\\)",
+            "\\(3\\)",
+            "\\(\\sqrt{27}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Verhef beide leden tot de macht \\(\\frac{2}{3}\\): \\(x = 27^{\\frac{2}{3}} = 3^{2} = 9\\). Controle: \\(9^{\\frac{3}{2}} = 3^{3} = 27\\)."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom \\(\\log_{2} 10\\) geen geheel getal is, en schat de waarde tot op één cijfer na de komma zonder rekenmachine.",
+          "antwoord": "\\(2^{3} = 8\\) en \\(2^{4} = 16\\), en \\(10\\) ligt daartussen, dus de logaritme ligt tussen \\(3\\) en \\(4\\). \\(10\\) ligt dichter bij \\(8\\) dan bij \\(16\\), dus ongeveer \\(3{,}3\\) (exact \\(3{,}32\\ldots\\)).",
+          "uitleg": "Zoek de twee machten van 2 waartussen 10 ligt."
+        },
+        {
+          "casus": "Een geluid van \\(L\\) decibel heeft een intensiteit die je vindt met \\(L = 10 \\cdot \\log \\dfrac{I}{I_{0}}\\). Daarbij is \\(I_{0}\\) de zwakste intensiteit die je nog hoort.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Een geluid is \\(1000\\) keer zo intens als \\(I_{0}\\). Hoeveel decibel is dat?",
+              "opties": [
+                "\\(30\\)",
+                "\\(3\\)",
+                "\\(1000\\)",
+                "\\(10\\,000\\)"
+              ],
+              "antwoord": 0,
+              "uitleg": "\\(10 \\cdot \\log 1000 = 10 \\cdot 3 = 30\\) decibel."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Een geluid wordt 100 keer zo intens. Met hoeveel decibel stijgt het?",
+              "opties": [
+                "\\(20\\)",
+                "\\(100\\)",
+                "\\(2\\)",
+                "\\(1000\\)"
+              ],
+              "antwoord": 0,
+              "uitleg": "\\(10 \\cdot \\log(100 \\cdot x) = 10 \\cdot (2 + \\log x)\\): er komt \\(20\\) decibel bij."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Een fluistergesprek is 20 decibel. Hoeveel keer zo intens als het zwakste hoorbare geluid is dat?",
+              "opties": [
+                "\\(100\\)",
+                "\\(20\\)",
+                "\\(200\\)",
+                "\\(2\\)"
+              ],
+              "antwoord": 0,
+              "uitleg": "\\(10 \\cdot \\log x = 20\\), dus \\(\\log x = 2\\) en \\(x = 10^{2} = 100\\)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Grafisch onderzoek van een functie — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het punt waar f haar maximum bereikt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-f.svg",
+          "zones": [
+            [
+              31.2,
+              15.4,
+              5.6,
+              8.8
+            ],
+            [
+              85.2,
+              15.4,
+              5.6,
+              8.8
+            ]
+          ],
+          "uitleg": "De hoogste functiewaarde is \\(4\\). Die wordt bereikt in \\((-2, 4)\\) en ook in het eindpunt \\((4, 4)\\) van het domein."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het nulpunt van f met de grootste x-coördinaat.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-f.svg",
+          "zones": [
+            [
+              80.4,
+              45.6,
+              5.6,
+              8.8
+            ]
+          ],
+          "uitleg": "De grafiek snijdt de \\(x\\)-as in \\(0\\) en in ongeveer \\(\\pm 3{,}5\\). Het nulpunt rechts is ongeveer \\((3{,}5;\\ 0)\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zijn het domein en het bereik van \\(f\\)?",
+          "opties": [
+            "\\(\\text{dom} f = [-4, 4]\\) en \\(\\text{ber} f = [-4, 4]\\)",
+            "\\(\\text{dom} f = \\mathbb{R}\\) en \\(\\text{ber} f = \\mathbb{R}\\)",
+            "\\(\\text{dom} f = [-4, 4]\\) en \\(\\text{ber} f = [-6, 6]\\)",
+            "\\(\\text{dom} f = [-5, 5]\\) en \\(\\text{ber} f = [-4, 4]\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De grafiek loopt van \\(x = -4\\) tot \\(x = 4\\), en de functiewaarden blijven tussen \\(-4\\) en \\(4\\). Het venster van de tekening is niet het domein.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-f.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over \\(f\\)?",
+          "rijen": [
+            "\\(f\\) is een oneven functie.",
+            "\\(f\\) stijgt op \\([-2, 2]\\).",
+            "\\(f\\) heeft drie nulwaarden.",
+            "\\(f(x) > 0\\) voor alle \\(x\\) in \\(]0, 4]\\)."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "De grafiek is puntsymmetrisch rond de oorsprong. Tussen \\(-2\\) en \\(2\\) daalt ze. Tussen \\(0\\) en ongeveer \\(3{,}5\\) ligt ze onder de \\(x\\)-as.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-f.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op een stuk van de grafiek van f waar ze daalt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-f.svg",
+          "zones": [
+            [
+              37.6,
+              16.0,
+              28.8,
+              68.0
+            ]
+          ],
+          "uitleg": "\\(f\\) daalt van het maximum in \\(x = -2\\) tot het minimum in \\(x = 2\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat is het teken van \\(f(x)\\) op elk interval?",
+          "rijen": [
+            "\\(]-4;\\ -3{,}5[\\)",
+            "\\(]-3{,}5;\\ 0[\\)",
+            "\\(]0;\\ 3{,}5[\\)",
+            "\\(]3{,}5;\\ 4[\\)"
+          ],
+          "antwoord": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Boven de x-as is f(x) positief, eronder negatief. Het teken wisselt in elke nulwaarde.",
+          "kolommen": [
+            "Positief",
+            "Negatief"
+          ],
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-f.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar stijgt \\(f\\) met afnemende stijging?",
+          "opties": [
+            "Op \\([-4, -2]\\)",
+            "Op \\([2, 4]\\)",
+            "Op \\([-2, 0]\\)",
+            "Op \\([0, 2]\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op \\([-4, -2]\\) stijgt \\(f\\), maar de grafiek wordt minder steil naar het maximum toe. Op \\([2, 4]\\) stijgt ze juist steeds sneller.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-f.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de plaats waar de grafiek van \\(g\\) de \\(y\\)-as snijdt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-g.svg",
+          "zones": [
+            [
+              41.7,
+              62.6,
+              5.6,
+              8.8
+            ]
+          ],
+          "uitleg": "\\(g(0) = 2 + \\frac{3}{-1} = -1\\). Het snijpunt met de \\(y\\)-as is \\((0, -1)\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zijn de asymptoten van \\(g\\)?",
+          "opties": [
+            "Verticale asymptoot \\(x = 1\\), horizontale asymptoot \\(y = 2\\)",
+            "Verticale asymptoot \\(x = 2\\), horizontale asymptoot \\(y = 1\\)",
+            "Enkel een verticale asymptoot \\(x = 1\\)",
+            "Verticale asymptoot \\(y = 1\\), horizontale asymptoot \\(x = 2\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een verticale asymptoot schrijf je als x = ..., een horizontale als y = ...",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-g.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het bereik van \\(g\\)?",
+          "opties": [
+            "\\(\\mathbb{R} \\setminus \\{2\\}\\)",
+            "\\(\\mathbb{R} \\setminus \\{1\\}\\)",
+            "\\(\\mathbb{R}\\)",
+            "\\(]2, +\\infty[\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De grafiek komt willekeurig hoog en laag, maar haalt de waarde \\(2\\) nooit: dat is de horizontale asymptoot.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-g.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Als x heel groot wordt, komt g(x) steeds dichter bij [[*2|1|0]]. Net rechts van x = 1 wordt g(x) [[*heel groot|heel klein|gelijk aan 2]].",
+          "uitleg": "Op oneindig volgt de grafiek de horizontale asymptoot. Bij de verticale asymptoot schiet ze naar boven of naar onder.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-g.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bereken de nulwaarde van \\(g(x) = 2 + \\dfrac{3}{x - 1}\\). Schrijf als kommagetal.",
+          "antwoord": [
+            "-0,5",
+            "−0,5",
+            "-1/2"
+          ],
+          "uitleg": "\\(2 + \\frac{3}{x - 1} = 0 \\Rightarrow \\frac{3}{x - 1} = -2 \\Rightarrow x - 1 = -1{,}5 \\Rightarrow x = -0{,}5\\)."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het moment van de dag waarop het het koudst is.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-temperatuur.svg",
+          "zones": [
+            [
+              15.4,
+              63.7,
+              5.6,
+              8.8
+            ]
+          ],
+          "uitleg": "Het minimum ligt om 3 uur 's nachts, met 6 °C."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het praktisch bereik van T?",
+          "opties": [
+            "\\([6, 18]\\)",
+            "\\([0, 24]\\)",
+            "\\([0, 20]\\)",
+            "\\([3, 15]\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het bereik gaat over de functiewaarden: de temperatuur blijft tussen \\(6\\) en \\(18\\) °C. \\([0, 24]\\) is het praktisch domein.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-temperatuur.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op een tijdstip waarop de temperatuur het snelst stijgt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-temperatuur.svg",
+          "zones": [
+            [
+              36.8,
+              34.7,
+              8.0,
+              12.5
+            ]
+          ],
+          "uitleg": "Halfweg tussen het minimum (3 uur) en het maximum (15 uur), om 9 uur, is de grafiek het steilst."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over de temperatuur?",
+          "rijen": [
+            "Tussen 3 en 15 uur stijgt de temperatuur.",
+            "Om 15 uur is het 15 °C.",
+            "Tussen 3 en 9 uur stijgt de temperatuur met toenemende stijging.",
+            "Om 21 uur is het even warm als om 9 uur."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Om 15 uur is het maximum 18 °C. Om 9 uur en om 21 uur ligt de temperatuur telkens halfweg tussen minimum en maximum: 12 °C.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-temperatuur.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Even, oneven of geen van beide?",
+          "rijen": [
+            "\\(f(x) = x^{4} - 3x^{2}\\)",
+            "\\(f(x) = x^{3} + x\\)",
+            "\\(f(x) = x^{2} + x\\)",
+            "\\(f(x) = 5\\)"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "uitleg": "Even: \\(f(-x) = f(x)\\), symmetrisch rond de \\(y\\)-as. Oneven: \\(f(-x) = -f(x)\\), puntsymmetrisch rond de oorsprong.",
+          "kolommen": [
+            "Even",
+            "Oneven",
+            "Geen van beide"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Van een oneven functie \\(h\\) weet je: \\(h(3) = 7\\). Hoeveel is \\(h(-3)\\)?",
+          "opties": [
+            "\\(-7\\)",
+            "\\(7\\)",
+            "\\(-3\\)",
+            "Dat kan je niet weten."
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een oneven functie geldt \\(h(-x) = -h(x)\\), dus \\(h(-3) = -7\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een functie met periode \\(4\\) heeft \\(p(1) = 6\\). Welke waarde ken je dan zeker?",
+          "opties": [
+            "\\(p(13) = 6\\)",
+            "\\(p(4) = 6\\)",
+            "\\(p(5) = 10\\)",
+            "\\(p(-1) = 6\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De waarden herhalen zich telkens na \\(4\\): \\(p(1) = p(5) = p(9) = p(13)\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het domein van \\(k(x) = \\dfrac{x + 1}{x^{2} - 9}\\)?",
+          "opties": [
+            "\\(\\mathbb{R} \\setminus \\{-3, 3\\}\\)",
+            "\\(\\mathbb{R} \\setminus \\{-1\\}\\)",
+            "\\(\\mathbb{R} \\setminus \\{9\\}\\)",
+            "\\(\\mathbb{R} \\setminus \\{-1, 3\\}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De noemer mag niet nul zijn: \\(x^{2} = 9\\) geeft \\(x = \\pm 3\\)."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Gaat het over een x-waarde of over een y-waarde?",
+          "kolommen": [
+            "x-waarde",
+            "y-waarde"
+          ],
+          "items": [
+            [
+              "Een nulwaarde",
+              "x-waarde"
+            ],
+            [
+              "Het domein",
+              "x-waarde"
+            ],
+            [
+              "Een maximum",
+              "y-waarde"
+            ],
+            [
+              "Het bereik",
+              "y-waarde"
+            ],
+            [
+              "Een verticale asymptoot",
+              "x-waarde"
+            ],
+            [
+              "Een horizontale asymptoot",
+              "y-waarde"
+            ]
+          ],
+          "uitleg": "Het domein en de nulwaarden gaan over x, het bereik en de extrema over de functiewaarden y."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de situatie aan het kenmerk dat ze beschrijft.",
+          "paren": [
+            [
+              "Een auto verliest elk jaar waarde, maar steeds minder",
+              "Dalend met afnemende daling"
+            ],
+            [
+              "Een verkoper verdient pas winst vanaf 200 stuks",
+              "Nulwaarde"
+            ],
+            [
+              "De afkoeling van thee komt steeds dichter bij 20 °C",
+              "Horizontale asymptoot"
+            ],
+            [
+              "Eb en vloed komen telkens na 12,5 uur terug",
+              "Periode"
+            ]
+          ],
+          "extra": [
+            "Verticale asymptoot"
+          ],
+          "uitleg": "Telkens beschrijft de situatie een kenmerk van de grafiek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De hoogte van een pijl is \\(h(t) = 40t - 5t^{2}\\) (meter, \\(t\\) in seconden) tot hij de grond raakt. Wat is het praktisch domein?",
+          "opties": [
+            "\\([0, 8]\\)",
+            "\\([0, 4]\\)",
+            "\\([0, 80]\\)",
+            "\\(\\mathbb{R}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(h(t) = 0\\) voor \\(t = 0\\) en \\(t = 8\\). De pijl vliegt van \\(0\\) tot \\(8\\) seconden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij dezelfde pijl, \\(h(t) = 40t - 5t^{2}\\): wat is het praktisch bereik?",
+          "opties": [
+            "\\([0, 80]\\)",
+            "\\([0, 8]\\)",
+            "\\([0, 40]\\)",
+            "\\([0, 160]\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het maximum ligt halverwege, in \\(t = 4\\): \\(h(4) = 160 - 80 = 80\\) meter."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over nulwaarden en asymptoten?",
+          "rijen": [
+            "Een functie kan meer dan één nulwaarde hebben.",
+            "Een functie kan meer dan één snijpunt met de y-as hebben.",
+            "Een grafiek kan haar horizontale asymptoot snijden.",
+            "Een grafiek kan haar verticale asymptoot snijden."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Bij elke x hoort hoogstens één functiewaarde. Een verticale asymptoot ligt bij een x die niet in het domein zit."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Lees af op de grafiek van f en zet de functiewaarden van klein naar groot.",
+          "opties": [
+            "\\(f(2)\\)",
+            "\\(f(3)\\)",
+            "\\(f(0)\\)",
+            "\\(f(-1)\\)",
+            "\\(f(-2)\\)"
+          ],
+          "uitleg": "\\(f(2) = -4\\) (minimum), \\(f(3) \\approx -2{,}3\\), \\(f(0) = 0\\), \\(f(-1) \\approx 2{,}8\\), \\(f(-2) = 4\\) (maximum).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-f.svg"
+        },
+        {
+          "type": "open",
+          "vraag": "Een ouder zegt: het domein van \\(h(t) = 40t - 5t^{2}\\) is \\([0, 8]\\). Leg uit wat er beter kan.",
+          "antwoord": "Het domein van het voorschrift is \\(\\mathbb{R}\\): je kan elke \\(t\\) invullen. Enkel in de situatie (de vlucht van de pijl) zijn alleen \\(t\\) van \\(0\\) tot \\(8\\) zinvol. Dat is het praktisch domein.",
+          "uitleg": "Domein en praktisch domein zijn niet hetzelfde."
+        },
+        {
+          "casus": "Het aantal bezoekers \\(B(u)\\) in een zwembad, \\(u\\) uur na de opening om 9 uur, stijgt tot 13 uur naar 400, blijft dan een uur constant en daalt daarna tot sluiting om 20 uur, wanneer er niemand meer is.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is het praktisch domein van B?",
+              "opties": [
+                "\\([0, 11]\\)",
+                "\\([9, 20]\\)",
+                "\\([0, 400]\\)",
+                "\\([4, 5]\\)"
+              ],
+              "antwoord": 0,
+              "uitleg": "\\(u\\) telt de uren na de opening: van \\(0\\) (9 uur) tot \\(11\\) (20 uur)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Op welk interval is B constant?",
+              "opties": [
+                "\\([4, 5]\\)",
+                "\\([13, 14]\\)",
+                "\\([0, 4]\\)",
+                "\\([5, 11]\\)"
+              ],
+              "antwoord": 0,
+              "uitleg": "Van 13 tot 14 uur, dat is \\(u = 4\\) tot \\(u = 5\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is de nulwaarde van B die in de situatie past?",
+              "opties": [
+                "\\(u = 11\\)",
+                "\\(u = 0\\)",
+                "\\(u = 20\\)",
+                "\\(u = 400\\)"
+              ],
+              "antwoord": 0,
+              "uitleg": "Bij sluiting, \\(u = 11\\), is er niemand meer: \\(B(11) = 0\\). Bij de opening waren er misschien al wachtenden, dat staat er niet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Tweedegraadsfuncties — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de top van parabool B.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/tweedegraad-parabolen.svg",
+          "zones": [
+            [
+              64.2,
+              32.7,
+              5.6,
+              8.8
+            ]
+          ],
+          "uitleg": "Parabool B is een bergparabool met top \\((1, 4)\\): daar bereikt ze haar maximum."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de top van de dalparabool die niet door de oorsprong gaat.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/tweedegraad-parabolen.svg",
+          "zones": [
+            [
+              34.2,
+              71.5,
+              5.6,
+              8.8
+            ]
+          ],
+          "uitleg": "A en C zijn dalparabolen. A gaat door \\((0, 0)\\). De top van C is \\((-3, -2)\\)."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op een nulpunt van parabool B.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/tweedegraad-parabolen.svg",
+          "zones": [
+            [
+              49.2,
+              58.6,
+              5.6,
+              8.8
+            ],
+            [
+              79.2,
+              58.6,
+              5.6,
+              8.8
+            ]
+          ],
+          "uitleg": "B snijdt de \\(x\\)-as in \\((-1, 0)\\) en in \\((3, 0)\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk voorschrift hoort bij welke parabool?",
+          "rijen": [
+            "\\(y = -(x - 1)^{2} + 4\\)",
+            "\\(y = \\frac{1}{2}(x + 3)^{2} - 2\\)",
+            "\\(y = x^{2}\\)"
+          ],
+          "antwoord": [
+            1,
+            2,
+            0
+          ],
+          "uitleg": "Uit \\(a(x - p)^{2} + q\\) lees je de top \\((p, q)\\) af. Een negatieve \\(a\\) geeft een bergparabool.",
+          "kolommen": [
+            "A",
+            "B",
+            "C"
+          ],
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/tweedegraad-parabolen.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe ontstaat parabool C uit parabool A?",
+          "opties": [
+            "Verticaal uitrekken met factor \\(\\frac{1}{2}\\), \\(3\\) naar links en \\(2\\) naar onder verschuiven",
+            "Verticaal uitrekken met factor \\(2\\), \\(3\\) naar rechts en \\(2\\) naar onder verschuiven",
+            "Spiegelen rond de \\(x\\)-as, \\(3\\) naar links en \\(2\\) naar onder verschuiven",
+            "Verticaal uitrekken met factor \\(\\frac{1}{2}\\), \\(3\\) naar rechts en \\(2\\) naar boven verschuiven"
+          ],
+          "antwoord": 0,
+          "uitleg": "In \\(\\frac{1}{2}(x + 3)^{2} - 2\\) staat \\(x + 3 = x - (-3)\\): de top schuift naar \\(x = -3\\), dus naar links.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/tweedegraad-parabolen.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over de parabolen B en C?",
+          "rijen": [
+            "De symmetrieas van B is \\(x = 1\\).",
+            "Het bereik van C is \\([-2, +\\infty[\\).",
+            "B stijgt op \\(]-\\infty, 1]\\).",
+            "C heeft geen nulwaarden."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De symmetrieas gaat door de top. C is een dalparabool met top onder de \\(x\\)-as, dus ze snijdt de \\(x\\)-as twee keer.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/tweedegraad-parabolen.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de \\(x\\)-coördinaat van de top van \\(f(x) = 2x^{2} - 12x + 7\\)?",
+          "antwoord": "3",
+          "uitleg": "\\(x_{\\text{top}} = -\\frac{b}{2a} = -\\frac{-12}{4} = 3\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de top van \\(f(x) = -3(x + 2)^{2} + 5\\)?",
+          "opties": [
+            "\\((-2, 5)\\)",
+            "\\((2, 5)\\)",
+            "\\((-2, -5)\\)",
+            "\\((5, -2)\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij \\(a(x - p)^{2} + q\\) is de top \\((p, q)\\). Hier is \\(x + 2 = x - (-2)\\), dus \\(p = -2\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een parabool heeft nulwaarden \\(-4\\) en \\(2\\) en gaat door \\((0, 4)\\). Welk voorschrift past?",
+          "opties": [
+            "\\(y = -\\frac{1}{2}(x + 4)(x - 2)\\)",
+            "\\(y = (x + 4)(x - 2)\\)",
+            "\\(y = \\frac{1}{2}(x - 4)(x + 2)\\)",
+            "\\(y = -2(x + 4)(x - 2)\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vorm \\(a(x - x_{1})(x - x_{2}) = a(x + 4)(x - 2)\\). In \\(x = 0\\): \\(a \\cdot 4 \\cdot (-2) = 4\\), dus \\(a = -\\frac{1}{2}\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is het een bergparabool of een dalparabool?",
+          "rijen": [
+            "\\(y = 3 - x^{2}\\)",
+            "\\(y = (2 - x)^{2}\\)",
+            "\\(y = -\\frac{1}{4}(x - 5)(x + 1)\\)",
+            "\\(y = 0{,}1x^{2} - 8x\\)"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Kijk naar het teken van de coëfficiënt van \\(x^{2}\\). Bij \\((2 - x)^{2}\\) is die \\(+1\\), want \\((2 - x)^{2} = (x - 2)^{2}\\).",
+          "kolommen": [
+            "Bergparabool",
+            "Dalparabool"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De nulwaarden van een parabool zijn \\(-1\\) en \\(7\\). Wat is haar symmetrieas?",
+          "opties": [
+            "\\(x = 3\\)",
+            "\\(x = 4\\)",
+            "\\(x = 6\\)",
+            "\\(y = 3\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De symmetrieas ligt midden tussen de nulwaarden: \\(\\frac{-1 + 7}{2} = 3\\)."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de transformatie van \\(y = x^{2}\\) aan het nieuwe voorschrift.",
+          "paren": [
+            [
+              "Spiegelen rond de x-as",
+              "\\(y = -x^{2}\\)"
+            ],
+            [
+              "4 eenheden naar rechts",
+              "\\(y = (x - 4)^{2}\\)"
+            ],
+            [
+              "4 eenheden naar boven",
+              "\\(y = x^{2} + 4\\)"
+            ],
+            [
+              "Verticaal uitrekken met factor 4",
+              "\\(y = 4x^{2}\\)"
+            ]
+          ],
+          "extra": [
+            "\\(y = (x + 4)^{2}\\)"
+          ],
+          "uitleg": "Een horizontale verschuiving naar rechts zie je als \\(x - 4\\) binnen het kwadraat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De parabool \\(y = x^{2}\\) wordt eerst gespiegeld rond de \\(x\\)-as en daarna \\(3\\) eenheden naar boven geschoven. Wat is het bereik?",
+          "opties": [
+            "\\(]-\\infty, 3]\\)",
+            "\\([3, +\\infty[\\)",
+            "\\(]-\\infty, -3]\\)",
+            "\\(\\mathbb{R}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je krijgt \\(y = -x^{2} + 3\\): een bergparabool met top \\((0, 3)\\). Hoger dan \\(3\\) komt ze niet."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij y = a(x − p)² + q geeft a < 0 een [[*bergparabool|dalparabool|rechte]]. Hoe groter de absolute waarde van a, hoe [[*smaller|breder|lager]] de parabool.",
+          "uitleg": "Het teken van a bepaalt de opening, de grootte bepaalt hoe steil de parabool is."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de maximale waarde van \\(f(x) = -x^{2} + 6x - 1\\)?",
+          "antwoord": "8",
+          "uitleg": "\\(x_{\\text{top}} = -\\frac{6}{-2} = 3\\), en \\(f(3) = -9 + 18 - 1 = 8\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling zegt: de top van \\(y = (x - 2)^{2} + 1\\) is \\((-2, 1)\\). Wat is de fout?",
+          "opties": [
+            "Het teken: de top is \\((2, 1)\\), want \\(x - 2 = 0\\) bij \\(x = 2\\).",
+            "De \\(y\\)-coördinaat moet \\(-1\\) zijn.",
+            "Er is geen fout.",
+            "De top van zo'n parabool ligt altijd op de \\(y\\)-as."
+          ],
+          "antwoord": 0,
+          "uitleg": "Zoek de x waarvoor het kwadraat nul wordt: dat is de x van de top."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Snijdt de parabool de \\(x\\)-as of niet?",
+          "kolommen": [
+            "Snijdt de x-as",
+            "Snijdt de x-as niet"
+          ],
+          "items": [
+            [
+              "\\(y = (x - 1)^{2} + 2\\)",
+              "Snijdt de x-as niet"
+            ],
+            [
+              "\\(y = -(x + 3)^{2} + 1\\)",
+              "Snijdt de x-as"
+            ],
+            [
+              "\\(y = 2(x - 5)^{2} - 8\\)",
+              "Snijdt de x-as"
+            ],
+            [
+              "\\(y = -x^{2} - 4\\)",
+              "Snijdt de x-as niet"
+            ]
+          ],
+          "uitleg": "Een dalparabool met top boven de x-as en een bergparabool met top onder de x-as raken de x-as nooit."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Je zet \\(y = 2x^{2} - 8x + 6\\) om naar de vorm \\(a(x - p)^{2} + q\\). Zet de stappen in de goede volgorde.",
+          "opties": [
+            "\\(x_{\\text{top}} = -\\frac{b}{2a} = 2\\) berekenen",
+            "\\(y_{\\text{top}} = 2 \\cdot 4 - 16 + 6 = -2\\) berekenen",
+            "\\(a = 2\\) behouden",
+            "\\(y = 2(x - 2)^{2} - 2\\) opschrijven"
+          ],
+          "uitleg": "Eerst de top, dan het voorschrift. De a blijft dezelfde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een parabool heeft top \\((2, -8)\\) en gaat door \\((0, 0)\\). Wat is het voorschrift?",
+          "opties": [
+            "\\(y = 2(x - 2)^{2} - 8\\)",
+            "\\(y = (x - 2)^{2} - 8\\)",
+            "\\(y = -2(x - 2)^{2} - 8\\)",
+            "\\(y = 2(x + 2)^{2} - 8\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(y = a(x - 2)^{2} - 8\\). In \\((0, 0)\\): \\(4a - 8 = 0\\), dus \\(a = 2\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over \\(f(x) = -2(x - 3)(x + 5)\\)?",
+          "rijen": [
+            "De nulwaarden zijn \\(3\\) en \\(-5\\).",
+            "De symmetrieas is \\(x = -1\\).",
+            "\\(f\\) heeft een minimum.",
+            "De grafiek snijdt de \\(y\\)-as in \\((0, -30)\\)."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "\\(a = -2\\): bergparabool, dus een maximum. \\(f(0) = -2 \\cdot (-3) \\cdot 5 = 30\\)."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij een tweedegraadsfunctie is de grafiek een [[parabool]]. De verticale rechte door de top heet de [[symmetrieas]].",
+          "extra": [
+            "asymptoot",
+            "raaklijn"
+          ],
+          "uitleg": "Een parabool is symmetrisch rond die rechte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een boer zet met \\(40\\) meter hek een rechthoekige weide af tegen een muur (drie zijden hek). Met breedte \\(x\\) is de oppervlakte \\(A(x) = x(40 - 2x)\\). Welke breedte geeft de grootste weide?",
+          "opties": [
+            "\\(10\\) m",
+            "\\(20\\) m",
+            "\\(13{,}3\\) m",
+            "\\(5\\) m"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(A(x) = -2x^{2} + 40x\\) is een bergparabool. De top ligt bij \\(x = -\\frac{40}{-4} = 10\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bij dezelfde weide, \\(A(x) = x(40 - 2x)\\): hoeveel m² is de grootste oppervlakte?",
+          "antwoord": "200",
+          "uitleg": "\\(A(10) = 10 \\cdot 20 = 200\\) m²."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kogel volgt de baan \\(h(x) = -0{,}05x^{2} + 2x + 1{,}5\\) (meter). Hoe hoog komt hij maximaal?",
+          "opties": [
+            "\\(21{,}5\\) m",
+            "\\(20\\) m",
+            "\\(40\\) m",
+            "\\(1{,}5\\) m"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(x_{\\text{top}} = -\\frac{2}{-0{,}1} = 20\\). \\(h(20) = -20 + 40 + 1{,}5 = 21{,}5\\) m."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke parabool heeft dezelfde vorm als \\(y = 3x^{2}\\), maar met top \\((-1, 6)\\)?",
+          "opties": [
+            "\\(y = 3(x + 1)^{2} + 6\\)",
+            "\\(y = 3(x - 1)^{2} + 6\\)",
+            "\\(y = 3(x + 1)^{2} - 6\\)",
+            "\\(y = -3(x + 1)^{2} + 6\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dezelfde vorm betekent dezelfde \\(a\\). De top \\((-1, 6)\\) geeft \\((x + 1)\\) en \\(+6\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het snijpunt van \\(y = ax^{2} + bx + c\\) met de \\(y\\)-as is altijd ...",
+          "opties": [
+            "\\((0, c)\\)",
+            "\\((c, 0)\\)",
+            "\\((0, a)\\)",
+            "\\(\\left(-\\frac{b}{2a}, 0\\right)\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vul \\(x = 0\\) in: \\(y = c\\)."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom \\(y = (x - 3)^{2}\\) maar één nulwaarde heeft, en wat dat betekent voor de grafiek.",
+          "antwoord": "\\((x - 3)^{2} = 0\\) enkel voor \\(x = 3\\). De top \\((3, 0)\\) ligt op de \\(x\\)-as: de parabool raakt de \\(x\\)-as daar, zonder ze te snijden.",
+          "uitleg": "Kijk naar de ligging van de top."
+        },
+        {
+          "casus": "Een theater verkoopt \\(300\\) tickets aan \\(20\\) euro. Voor elke euro prijsverlaging komen er \\(20\\) toeschouwers bij. Bij een verlaging van \\(x\\) euro is de opbrengst \\(R(x) = (20 - x)(300 + 20x)\\).",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat zijn de nulwaarden van R?",
+              "opties": [
+                "\\(20\\) en \\(-15\\)",
+                "\\(-20\\) en \\(15\\)",
+                "\\(20\\) en \\(300\\)",
+                "\\(0\\) en \\(20\\)"
+              ],
+              "antwoord": 0,
+              "uitleg": "\\(20 - x = 0\\) geeft \\(x = 20\\), \\(300 + 20x = 0\\) geeft \\(x = -15\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Bij welke verlaging is de opbrengst het grootst?",
+              "opties": [
+                "\\(2{,}50\\) euro",
+                "\\(5\\) euro",
+                "\\(17{,}50\\) euro",
+                "\\(0\\) euro"
+              ],
+              "antwoord": 0,
+              "uitleg": "De top ligt midden tussen de nulwaarden: \\(\\frac{20 + (-15)}{2} = 2{,}5\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoeveel is die grootste opbrengst?",
+              "opties": [
+                "\\(6125\\) euro",
+                "\\(6000\\) euro",
+                "\\(5250\\) euro",
+                "\\(7000\\) euro"
+              ],
+              "antwoord": 0,
+              "uitleg": "\\(R(2{,}5) = 17{,}5 \\cdot 350 = 6125\\) euro."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
