@@ -65,9 +65,10 @@ export default async function BeheerExtraBundelsPage() {
           ouderpincode.
         </p>
         <p className="mt-2 text-sm text-ink-dim">
-          Een <strong>lesbundel over het hele vak</strong> komt in de plaats van de knop
-          &ldquo;Hele cursus downloaden&rdquo;. Zonder lesbundel blijft die knop de leerbundels
-          van de hoofdstukken aan elkaar plakken.
+          Een <strong>lesbundel over het hele vak</strong> staat voorlopig naast de oude knop
+          &ldquo;Hele cursus downloaden&rdquo;, als &ldquo;Uitgebreide lesbundel&rdquo;. Heeft elk vak
+          er een, dan kan die knop met één schakelaar naar de nieuwe lesbundels wijzen
+          (<code>LESBUNDEL_VERVANGT_CURSUS</code> in <code>lib/extraBundels.ts</code>).
         </p>
 
         {error && (

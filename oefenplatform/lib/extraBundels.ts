@@ -5,6 +5,15 @@
 import type { Profile } from "@/lib/auth";
 import { heeftVolledigeToegang } from "@/lib/toegang";
 
+/*
+  Kim, 10 november 2026: zolang niet elk vak een nieuwe lesbundel heeft,
+  blijven de oude "Hele cursus downloaden" en de nieuwe lesbundel allebei
+  staan. De nieuwe staat dan bij de extra bundels als "Uitgebreide lesbundel".
+  Heeft elk vak er een, zet dit dan op true: dan opent "Hele cursus
+  downloaden" de nieuwe lesbundel (vakken zonder lesbundel houden de oude).
+*/
+export const LESBUNDEL_VERVANGT_CURSUS = false;
+
 export type ExtraSoort = "examen" | "lesbundel" | "andere";
 
 export type ExtraBundel = {
@@ -21,7 +30,7 @@ export type ExtraBundel = {
 
 export const extraSoorten: { slug: ExtraSoort; icoon: string; naam: string }[] = [
   { slug: "examen", icoon: "📝", naam: "Examen op papier" },
-  { slug: "lesbundel", icoon: "📖", naam: "Lesbundel over het hele vak" },
+  { slug: "lesbundel", icoon: "📖", naam: "Uitgebreide lesbundel over het hele vak" },
   { slug: "andere", icoon: "📎", naam: "Andere bundel" },
 ];
 

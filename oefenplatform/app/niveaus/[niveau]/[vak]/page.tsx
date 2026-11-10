@@ -25,6 +25,7 @@ import { Zoekvak } from "@/components/Zoekvak";
 import { RichtingKeuze } from "@/components/RichtingKeuze";
 import { leerrichting, valtWeg } from "@/lib/leerrichting";
 import {
+  LESBUNDEL_VERVANGT_CURSUS,
   extraSoort,
   magExtraBundel,
   sorteerExtraBundels,
@@ -110,9 +111,9 @@ export default async function NiveauVakPage({
     downloaden" en staat hij niet nog eens bij de extra bundels. Zonder
     lesbundel blijft de oude cursus-pdf gewoon werken.
   */
-  const lesbundel = extraBundels.find(
-    (b) => b.soort === "lesbundel" && !b.verbetersleutel,
-  );
+  const lesbundel = LESBUNDEL_VERVANGT_CURSUS
+    ? extraBundels.find((b) => b.soort === "lesbundel" && !b.verbetersleutel)
+    : undefined;
   const cursusHref = lesbundel
     ? `/niveaus/${niveau.slug}/${vak.slug}/extra/${lesbundel.id}`
     : `/niveaus/${niveau.slug}/${vak.slug}/cursus`;
