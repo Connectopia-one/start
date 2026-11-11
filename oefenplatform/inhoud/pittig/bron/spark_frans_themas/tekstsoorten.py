@@ -70,7 +70,7 @@ VRAGEN = [
             "lui",
             "la",
             "y",
-            "en",
+            "leur",
         ],
         antwoord=0,
         uitleg="Paul legt het probleem uit áán Marie. Voor 'aan iemand' gebruik je lui, ook als het om een meisje gaat. La zou betekenen dat Marie zelf uitgelegd wordt.",
@@ -94,7 +94,7 @@ VRAGEN = [
         opties=[
             "Je weet niet of 'elle' Marie of Léa is: schrijf de naam opnieuw.",
             "Er is niets mis: 'elle' verwijst altijd naar de eerste naam.",
-            "'Elle' moet hier 'y' zijn, want de klas is een plaats.",
+            "'Elle' moet hier 'y' zijn, want de klas is een plaats en geen persoon.",
             "'Elle' moet hier 'lui' zijn, want het gaat over één persoon.",
         ],
         antwoord=0,

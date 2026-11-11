@@ -94,7 +94,7 @@ VRAGEN = [
             "Je ne mange jamais de viande.",
             "Je ne mange plus de viande.",
             "Je mange jamais de viande.",
-            "Je ne mange pas de viande.",
+            "Je ne mange pas beaucoup de viande.",
         ],
         antwoord=0,
         uitleg="Nooit is ne … jamais. Ne … plus betekent niet meer en ne … pas gewoon niet. Na de ontkenning wordt de la viande gewoon de viande, en ne mag je niet weglaten.",
@@ -142,7 +142,7 @@ VRAGEN = [
         opties=[
             "Je voudrais une baguette.",
             "Je voudrai une baguette.",
-            "Je veux une baguette.",
+            "Je veux une baguette, maintenant.",
             "J'ai voulu une baguette.",
         ],
         antwoord=0,

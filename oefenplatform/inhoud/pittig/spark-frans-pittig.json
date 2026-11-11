@@ -10,7 +10,7 @@
           "vraag": "Je leest: 'Selon une étude récente, la moitié des jeunes dorment moins bien.' Welke Nederlandse samenvatting klopt?",
           "opties": [
             "Volgens een recent onderzoek slaapt de helft van de jongeren minder goed.",
-            "Volgens een recent onderzoek slapen de meeste jongeren veel minder goed.",
+            "Volgens een recent onderzoek slapen de meeste jongeren tegenwoordig veel minder goed.",
             "Volgens de schrijver slaapt de helft van de jongeren tegenwoordig beter.",
             "Volgens een oud onderzoek slapen alle jongeren minder goed dan vroeger."
           ],
@@ -84,7 +84,7 @@
           "opties": [
             "een tegenstelling: ze moeten bewegen, maar bewegen minder",
             "een reden: ze bewegen minder omdat ze moeten bewegen",
-            "een gevolg: daarom bewegen ze in de zoo net meer",
+            "een gevolg: daarom bewegen ze in de zoo net meer dan in het wild",
             "een voorbeeld: de zoo toont hoe dieren graag bewegen"
           ],
           "antwoord": 0,
@@ -95,7 +95,7 @@
           "vraag": "Welke aanpak volgt de juiste volgorde van de leesstrategieën?",
           "opties": [
             "Titel en beeld bekijken, dan gericht lezen, pas daarna een onmisbaar woord opzoeken.",
-            "Elk onbekend woord opzoeken, dan de titel lezen, dan pas naar de foto kijken.",
+            "Elk onbekend woord meteen opzoeken, dan de titel lezen, en dan pas naar de foto kijken.",
             "De hele tekst vertalen, dan de titel lezen, dan de hoofdgedachte zoeken.",
             "Gericht lezen, dan elk woord opzoeken, en de titel helemaal op het einde lezen."
           ],
@@ -203,7 +203,7 @@
             "Jongeren hebben slaap en beweging nodig.",
             "Jongeren slapen en bewegen te weinig.",
             "Jongeren willen niet slapen of bewegen.",
-            "Jongeren slapen beter als ze bewegen."
+            "Jongeren slapen beter als ze overdag genoeg bewegen."
           ],
           "antwoord": 0,
           "uitleg": "Avoir besoin de betekent nodig hebben. De zin zegt dus wat jongeren nodig hebben, niet wat ze te weinig doen. Dat ze te weinig bewegen, zou er pas staan met 'ils bougent moins'."
@@ -292,7 +292,7 @@
             "lui",
             "la",
             "y",
-            "en"
+            "leur"
           ],
           "antwoord": 0,
           "uitleg": "Paul legt het probleem uit áán Marie. Voor 'aan iemand' gebruik je lui, ook als het om een meisje gaat. La zou betekenen dat Marie zelf uitgelegd wordt."
@@ -321,7 +321,7 @@
           "opties": [
             "Je weet niet of 'elle' Marie of Léa is: schrijf de naam opnieuw.",
             "Er is niets mis: 'elle' verwijst altijd naar de eerste naam.",
-            "'Elle' moet hier 'y' zijn, want de klas is een plaats.",
+            "'Elle' moet hier 'y' zijn, want de klas is een plaats en geen persoon.",
             "'Elle' moet hier 'lui' zijn, want het gaat over één persoon."
           ],
           "antwoord": 0,
@@ -470,7 +470,7 @@
           "vraag": "Je vraagt in een winkel aan een onbekende verkoper om het programma. Welke zin is beleefd én gebruikt de juiste aanspreekvorm?",
           "opties": [
             "Je voudrais le programme, s'il vous plaît.",
-            "Je voudrais le programme, s'il te plaît.",
+            "Je voudrais bien le programme, s'il te plaît.",
             "Je veux le programme, s'il vous plaît.",
             "Envoyez le programme, s'il te plaît."
           ],
@@ -496,7 +496,7 @@
             "Merci pour l'invitation, mais désolé, je ne peux pas venir.",
             "Merci pour l'invitation, avec plaisir, à samedi !",
             "Désolé, je viens avec plaisir samedi à ta fête !",
-            "Félicitations pour l'invitation, d'accord, je viens."
+            "Félicitations pour l'invitation, d'accord, je viens samedi avec plaisir."
           ],
           "antwoord": 0,
           "uitleg": "Je bedankt, je zegt dat het je spijt (désolé) en dat je niet kan komen (je ne peux pas venir). Avec plaisir en d'accord, je viens zijn net manieren om een uitnodiging te aanvaarden."
@@ -578,7 +578,7 @@
           "opties": [
             "een los detail, zoals de kleur van de taart",
             "het uur waarop het feest begint",
-            "de plaats waar het feest doorgaat",
+            "de plaats waar het feest precies doorgaat, met het adres",
             "de datum van het feest"
           ],
           "antwoord": 0,
@@ -804,7 +804,7 @@
             "Je m'identifie à ce personnage parce que…",
             "J'aime le style parce que…",
             "À la fin, je pense que…",
-            "Ce texte me rend triste parce que…"
+            "Ce texte me rend triste et en colère parce que…"
           ],
           "antwoord": 0,
           "uitleg": "Je m'identifie à ce personnage betekent ik herken me in dit personage. De andere zinnen gaan over de stijl, over een eigen einde of over het gevoel dat de tekst oproept."
@@ -882,7 +882,7 @@
           "opties": [
             "une cousine",
             "une nièce",
-            "une tante",
+            "une belle-sœur",
             "une sœur"
           ],
           "antwoord": 0,
@@ -894,7 +894,7 @@
           "opties": [
             "mes grands-parents",
             "mes parents",
-            "mes oncles",
+            "mes oncles et tantes",
             "mes cousins"
           ],
           "antwoord": 0,
@@ -2038,7 +2038,7 @@
             "Je ne mange jamais de viande.",
             "Je ne mange plus de viande.",
             "Je mange jamais de viande.",
-            "Je ne mange pas de viande."
+            "Je ne mange pas beaucoup de viande."
           ],
           "antwoord": 0,
           "uitleg": "Nooit is ne … jamais. Ne … plus betekent niet meer en ne … pas gewoon niet. Na de ontkenning wordt de la viande gewoon de viande, en ne mag je niet weglaten."
@@ -2089,7 +2089,7 @@
           "opties": [
             "Je voudrais une baguette.",
             "Je voudrai une baguette.",
-            "Je veux une baguette.",
+            "Je veux une baguette, maintenant.",
             "J'ai voulu une baguette."
           ],
           "antwoord": 0,

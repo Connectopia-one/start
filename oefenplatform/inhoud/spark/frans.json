@@ -70,7 +70,7 @@
           "opties": [
             "Je kijkt of je de betekenis uit de zin eromheen kan afleiden.",
             "Je stopt met lezen.",
-            "Je zoekt elk onbekend woord meteen op.",
+            "Je zoekt elk onbekend woord meteen op in een online woordenboek.",
             "Je slaat de hele alinea over."
           ],
           "antwoord": 0,
@@ -104,7 +104,7 @@
           "opties": [
             "een krantenartikel",
             "een dagboek",
-            "een reisverslag",
+            "een reisverslag in een blog",
             "een recept"
           ],
           "antwoord": 0,
@@ -115,7 +115,7 @@
           "vraag": "Op een affiche staat: 'Fête de l'école — samedi 14 juin, à partir de 14 h, dans la cour.' Je moet weten hoe laat het begint. Hoe lees je zo'n tekst?",
           "opties": [
             "Je zoekt gericht naar cijfers en naar 'h' of 'heures'.",
-            "Je leest de hele tekst woord voor woord.",
+            "Je leest de hele tekst woord voor woord, van boven tot onder.",
             "Je leest alleen de laatste alinea.",
             "Je vertaalt de tekst eerst volledig."
           ],
@@ -312,7 +312,7 @@
           "vraag": "Je leest 'selon une étude récente'. Wat vertelt dat je?",
           "opties": [
             "De informatie komt uit een recent onderzoek.",
-            "De schrijver verzint dit.",
+            "De schrijver verzint dit allemaal zelf, zonder bron.",
             "Het is een oud verhaal.",
             "Het is de mening van de lezer."
           ],
@@ -423,7 +423,7 @@
           "vraag": "Wat betekent 'd'après l'auteur'?",
           "opties": [
             "volgens de auteur",
-            "na de auteur",
+            "na het overlijden van de auteur",
             "over de auteur",
             "van de auteur"
           ],
@@ -443,7 +443,7 @@
             "daarentegen",
             "bovendien",
             "dus",
-            "eindelijk"
+            "uiteindelijk"
           ],
           "antwoord": 0,
           "uitleg": "En revanche = daarentegen. Het zet twee dingen tegenover elkaar."
@@ -466,7 +466,7 @@
           "opties": [
             "het dagelijkse leven",
             "het lange leven",
-            "de vakantie",
+            "de grote zomervakantie",
             "de gezondheid"
           ],
           "antwoord": 0,
@@ -498,7 +498,7 @@
             "Hij legt uit hoe je iets moet doen.",
             "Hij geeft een mening.",
             "Hij vertelt een verhaal.",
-            "Hij wil je ontroeren.",
+            "Hij wil je ontroeren en aan het lachen brengen.",
             "Geen van deze antwoorden"
           ],
           "antwoord": 0,
@@ -510,7 +510,7 @@
           "opties": [
             "een prescriptieve tekst",
             "een narratieve tekst",
-            "een opiniërende tekst",
+            "een opiniërende of beschouwende tekst",
             "een literaire tekst"
           ],
           "antwoord": 0,
@@ -594,7 +594,7 @@
           "vraag": "Wat betekent 'puis'?",
           "opties": [
             "daarna",
-            "eerst",
+            "allereerst",
             "want",
             "maar"
           ],
@@ -654,7 +654,7 @@
           "vraag": "Wat is een verwijswoord?",
           "opties": [
             "een woord dat teruggrijpt naar iets dat al genoemd is",
-            "een woord dat een reden geeft",
+            "een woord dat de reden of de oorzaak van iets geeft in de zin",
             "een woord dat een tegenstelling aankondigt",
             "een woord dat de titel herhaalt"
           ],
@@ -696,7 +696,7 @@
           "vraag": "Wat betekent 'alors'?",
           "opties": [
             "dus, dan",
-            "omdat",
+            "omdat, want",
             "maar",
             "nooit"
           ],
@@ -708,7 +708,7 @@
           "vraag": "Welke zin bevat een signaalwoord dat een reden aankondigt?",
           "opties": [
             "Je reste à la maison parce qu'il pleut.",
-            "D'abord, je me lève.",
+            "D'abord, je me lève et je prends mon petit-déjeuner.",
             "Ensuite, je mange.",
             "Enfin, je pars."
           ],
@@ -720,7 +720,7 @@
           "vraag": "Waarom letten we op signaalwoorden bij het lezen?",
           "opties": [
             "Ze helpen je de gedachtegang van de tekst te volgen.",
-            "Ze zijn altijd de moeilijkste woorden.",
+            "Ze zijn altijd de moeilijkste woorden van de hele tekst.",
             "Ze staan altijd in het vet.",
             "Ze vervangen de titel."
           ],
@@ -752,7 +752,7 @@
           "vraag": "'Mélangez la farine et les œufs, puis ajoutez le lait.' Wat voor tekst is dit?",
           "opties": [
             "prescriptief",
-            "opiniërend",
+            "opiniërend en overtuigend",
             "literair",
             "informatief"
           ],
@@ -781,7 +781,7 @@
           "opties": [
             "nochtans",
             "daarom",
-            "eerst",
+            "allereerst",
             "zelfs"
           ],
           "antwoord": 0,
@@ -849,7 +849,7 @@
           "vraag": "Wat betekent 'par exemple'?",
           "opties": [
             "bijvoorbeeld",
-            "bij ons",
+            "bij ons thuis",
             "vooral",
             "gelukkig"
           ],
@@ -863,7 +863,7 @@
             "bovendien",
             "minder",
             "daarna",
-            "nochtans"
+            "desondanks"
           ],
           "antwoord": 0,
           "uitleg": "De plus = bovendien. Het voegt een argument toe, net als 'en plus' en 'aussi'."
@@ -891,7 +891,7 @@
           "vraag": "Wat betekent 'enfin' aan het einde van een opsomming?",
           "opties": [
             "ten slotte",
-            "opnieuw",
+            "nog een keer",
             "meteen",
             "bijna"
           ],
@@ -923,7 +923,7 @@
             "een videoblog of reisverslag",
             "een recept",
             "een schoolreglement",
-            "een krantenartikel"
+            "een krantenartikel over een stad"
           ],
           "antwoord": 0,
           "uitleg": "Iemand spreekt zijn publiek aan en neemt het mee op reis: dat is narratief, zoals een videoblog of reisverslag."
@@ -952,7 +952,7 @@
           "opties": [
             "naar de kinderen",
             "naar de ouders",
-            "naar het spel",
+            "naar het spel dat ze spelen",
             "naar buiten"
           ],
           "antwoord": 0,
@@ -963,7 +963,7 @@
           "vraag": "Wat doe je als een verwijswoord onduidelijk is in je eigen tekst?",
           "opties": [
             "Je schrijft het woord waarnaar je verwijst gewoon opnieuw.",
-            "Je laat het verwijswoord weg.",
+            "Je laat het verwijswoord weg en hoopt dat de lezer het snapt.",
             "Je zet er een uitroepteken achter.",
             "Je begint een nieuwe alinea."
           ],
@@ -995,7 +995,7 @@
           "vraag": "Wat betekent 'Merci beaucoup'?",
           "opties": [
             "Hartelijk dank",
-            "Alsjeblieft",
+            "Alsjeblieft, graag gedaan",
             "Tot ziens",
             "Sorry"
           ],
@@ -1051,7 +1051,7 @@
             "Tu viens à ma fête samedi ?",
             "Je voudrais un café.",
             "Où est la gare ?",
-            "Il fait froid aujourd'hui."
+            "Il fait froid aujourd'hui, n'est-ce pas ?"
           ],
           "antwoord": 0,
           "uitleg": "Une fête = een feest. 'Tu viens…?' is de gewone manier om iemand uit te nodigen."
@@ -1115,7 +1115,7 @@
             "Cordialement,",
             "Bisous !",
             "Salut !",
-            "À plus !"
+            "À plus tard, les amis !"
           ],
           "antwoord": 0,
           "uitleg": "Cordialement is een nette slotgroet. Bisous (kusjes), salut en à plus zijn voor vrienden."
@@ -1159,7 +1159,7 @@
           "opties": [
             "Je voudrais savoir quand les cours commencent.",
             "Les cours sont nuls.",
-            "Je commence les cours.",
+            "Je commence les cours de français la semaine prochaine.",
             "Bonjour, ça va ?"
           ],
           "antwoord": 0,
@@ -1170,7 +1170,7 @@
           "vraag": "Wat betekent 'Peux-tu m'aider ?'",
           "opties": [
             "Kan je me helpen?",
-            "Wil je meegaan?",
+            "Wil je met mij meegaan?",
             "Heb je tijd?",
             "Weet je het?"
           ],
@@ -1200,7 +1200,7 @@
           "vraag": "Waaraan moet je tekst minimaal voldoen?",
           "opties": [
             "Het doel is bereikt en je boodschap komt over.",
-            "Je tekst is zo lang mogelijk.",
+            "Je tekst is zo lang mogelijk, want lengte levert punten op.",
             "Je gebruikt alleen moeilijke woorden.",
             "Je maakt geen enkele fout."
           ],
@@ -1235,7 +1235,7 @@
           "vraag": "Wat betekent 'le conditionnel de politesse' in de praktijk?",
           "opties": [
             "Je gebruikt 'je voudrais' in plaats van 'je veux'.",
-            "Je schrijft alles in de verleden tijd.",
+            "Je schrijft alle zinnen in de verleden tijd, ook je vragen.",
             "Je laat het werkwoord weg.",
             "Je gebruikt alleen 'tu'.",
             "Geen van deze antwoorden"
@@ -1249,7 +1249,7 @@
           "opties": [
             "Pourriez-vous m'envoyer le programme ?",
             "Envoyez le programme.",
-            "Je veux le programme.",
+            "Je veux le programme de la semaine prochaine.",
             "Le programme, vite."
           ],
           "antwoord": 0,
@@ -1262,7 +1262,7 @@
             "Je suis désolé, je ne peux pas venir.",
             "Je viens avec plaisir.",
             "C'est une bonne idée.",
-            "Merci pour l'invitation, à samedi !"
+            "Merci pour l'invitation, à samedi à ta fête !"
           ],
           "antwoord": 0,
           "uitleg": "Désolé = het spijt me, ne peux pas venir = kan niet komen. De andere zinnen aanvaarden net de uitnodiging."
@@ -1292,7 +1292,7 @@
             "J'aime ce film parce que l'histoire est surprenante.",
             "Ce film est bien.",
             "C'est un film.",
-            "Ce film dure deux heures et je l'ai vu au cinéma."
+            "Ce film dure deux heures et je l'ai vu au cinéma avec mes amis."
           ],
           "antwoord": 0,
           "uitleg": "Bij een mening hoort een reden. 'Parce que' geeft die; de andere zinnen blijven vlak of geven alleen een feit."
@@ -1355,7 +1355,7 @@
           "opties": [
             "de verleden tijd: j'ai joué, je suis allé",
             "de tegenwoordige tijd: je joue",
-            "de toekomende tijd: je vais jouer",
+            "de nabije toekomende tijd: je vais jouer demain",
             "de gebiedende wijs: joue !"
           ],
           "antwoord": 0,
@@ -1366,7 +1366,7 @@
           "vraag": "Wat betekent 'Je vous prie de m'excuser'?",
           "opties": [
             "Ik verzoek u mij te verontschuldigen.",
-            "Ik wens u veel plezier.",
+            "Ik wens u veel plezier met de voorstelling.",
             "Ik nodig u uit.",
             "Ik dank u hartelijk."
           ],
@@ -1397,7 +1397,7 @@
           "opties": [
             "Je omschrijft het met woorden die je wél kent.",
             "Je laat de zin weg.",
-            "Je schrijft het Nederlandse woord.",
+            "Je schrijft gewoon het Nederlandse woord tussen haakjes.",
             "Je stopt met de opdracht."
           ],
           "antwoord": 0,
@@ -1408,7 +1408,7 @@
           "vraag": "Wat doe je als laatste, vóór je je tekst indient?",
           "opties": [
             "Je leest hem grondig na op helderheid en fouten.",
-            "Je telt de woorden.",
+            "Je telt de woorden en schrapt er een paar zinnen uit.",
             "Je vertaalt hem naar het Nederlands.",
             "Je zet er een titel boven."
           ],
@@ -1460,7 +1460,7 @@
           "vraag": "Je moet een foto beschrijven in het Frans. Met welke zin begin je het best?",
           "opties": [
             "Sur la photo, il y a une famille à table.",
-            "Bonjour, je m'appelle Lotte.",
+            "Bonjour, je m'appelle Lotte et j'ai quatorze ans.",
             "J'aime beaucoup les photos.",
             "La photo est finie."
           ],
@@ -1491,7 +1491,7 @@
           "opties": [
             "rechts",
             "links",
-            "boven",
+            "bovenaan",
             "onder"
           ],
           "antwoord": 0,
@@ -1504,7 +1504,7 @@
             "in het midden",
             "vooraan",
             "buiten",
-            "naast"
+            "ernaast, aan de zijkant"
           ],
           "antwoord": 0,
           "uitleg": "Au milieu = in het midden. Handig om het derde punt van een foto te benoemen, naast links en rechts."
@@ -1550,7 +1550,7 @@
             "Op de foto staan twee kinderen.",
             "Op de foto staat één kind.",
             "De foto is van twee kinderen.",
-            "Twee kinderen nemen een foto."
+            "Twee kinderen nemen samen een foto van het park."
           ],
           "antwoord": 0,
           "uitleg": "Il y a deux enfants = er zijn twee kinderen. Wie de foto genomen heeft, staat er niet."
@@ -1620,7 +1620,7 @@
           "vraag": "Je bent niet zeker wat de mensen op de foto doen. Hoe zeg je dat voorzichtig?",
           "opties": [
             "Je pense qu'ils mangent.",
-            "Ils mangent, c'est sûr.",
+            "Ils mangent tous ensemble, c'est sûr.",
             "Ils ne mangent pas.",
             "Mangez !"
           ],
@@ -1640,7 +1640,7 @@
             "Het is mooi weer op de foto.",
             "De foto is mooi.",
             "Hij maakt een mooie foto.",
-            "Hij is knap op de foto."
+            "Hij is heel knap en vriendelijk op de foto."
           ],
           "antwoord": 0,
           "uitleg": "'Il fait beau' is een vaste uitdrukking voor het weer: het is mooi weer. Over een foto zeg je 'la photo est belle'."
@@ -1672,7 +1672,7 @@
           "opties": [
             "Het blijft hetzelfde bij één ding en bij meerdere dingen.",
             "Het betekent hetzelfde als 'je suis'.",
-            "Je hoeft er geen lidwoord bij te zetten.",
+            "Je hoeft er nooit een lidwoord bij te zetten, ook niet in het meervoud.",
             "Het staat altijd achteraan de zin."
           ],
           "antwoord": 0,
@@ -1690,7 +1690,7 @@
           "vraag": "Je krijgt een schrijfkader bij de foto. Wat doe je daarmee?",
           "opties": [
             "Je volgt de onderdelen die het kader vraagt, punt per punt.",
-            "Je mag het negeren, het is maar een voorbeeld.",
+            "Je mag het negeren, want het is maar een voorbeeld van hoe het zou kunnen.",
             "Je schrijft het kader letterlijk over.",
             "Je vertaalt het kader naar het Nederlands."
           ],
@@ -1703,7 +1703,7 @@
           "opties": [
             "eerst het geheel, dan de details, dan wat je ervan vindt",
             "eerst wat je ervan vindt, dan het geheel",
-            "eerst de details, dan of je de foto mooi vindt",
+            "eerst de details, dan of je de foto mooi of lelijk vindt",
             "de volgorde maakt niet uit"
           ],
           "antwoord": 0,
@@ -1745,7 +1745,7 @@
           "opties": [
             "Ze lijken zich te amuseren.",
             "Ze amuseren zich zeker.",
-            "Ze willen zich amuseren.",
+            "Ze willen zich graag amuseren op het feest.",
             "Ze amuseren zich niet."
           ],
           "antwoord": 0,
@@ -1776,7 +1776,7 @@
             "achteraan",
             "vooraan",
             "opzij",
-            "bovenaan"
+            "helemaal bovenaan"
           ],
           "antwoord": 0,
           "uitleg": "Au fond = achteraan, helemaal in de diepte van het beeld. Het lijkt op à l'arrière-plan."
@@ -1801,7 +1801,7 @@
           "vraag": "Wat betekent 'Ils sont en train de préparer le repas'?",
           "opties": [
             "Ze zijn de maaltijd aan het klaarmaken.",
-            "Ze hebben de maaltijd klaargemaakt.",
+            "Ze hebben de maaltijd al helemaal klaargemaakt.",
             "Ze gaan de maaltijd klaarmaken.",
             "Ze willen de maaltijd klaarmaken."
           ],
@@ -1835,7 +1835,7 @@
           "vraag": "Waarom zet je er beter geen dingen bij die je niet ziet?",
           "opties": [
             "Je beschrijft dan niet meer de foto, en je uitleg klopt niet.",
-            "Fantaseren is op het examen van de Examencommissie verboden.",
+            "Fantaseren is op het examen van de Examencommissie streng verboden.",
             "Franse zinnen worden dan te lang.",
             "Je mag maar vijf zinnen schrijven."
           ],
@@ -1849,7 +1849,7 @@
             "Cette photo me plaît parce qu'elle est joyeuse.",
             "Il y a quatre personnes.",
             "À droite, il y a un vélo.",
-            "La scène se passe dans un parc."
+            "La scène se passe dans un grand parc au centre de la ville."
           ],
           "antwoord": 0,
           "uitleg": "'Me plaît' betekent 'bevalt me', en 'parce que' geeft de reden. De andere drie zinnen beschrijven alleen."
@@ -1866,7 +1866,7 @@
           "opties": [
             "Het tafereel speelt zich af op het strand.",
             "Ze gaan naar het strand.",
-            "Het strand is op de foto getekend.",
+            "Het strand is op de foto heel mooi getekend door een kind.",
             "Ze wandelen langs het strand."
           ],
           "antwoord": 0,
@@ -1892,7 +1892,7 @@
           "vraag": "Wat is de beste vertaling van 'Op de achtergrond zie je een kerk'?",
           "opties": [
             "À l'arrière-plan, on voit une église.",
-            "Au premier plan, on voit une église.",
+            "Au premier plan, tout devant, on voit une petite église.",
             "Devant, on voit une église.",
             "On voit une église à gauche."
           ],
@@ -1906,7 +1906,7 @@
             "details die niets toevoegen, zoals elke kleur apart",
             "het onderwerp van de foto",
             "waar het tafereel zich afspeelt",
-            "je mening met een reden"
+            "je mening over de foto, samen met een korte reden waarom"
           ],
           "antwoord": 0,
           "uitleg": "Je respecteert de opgegeven lengte. Het onderwerp, de plaats en je mening met reden zijn de kern; losse details mag je schrappen."
@@ -1947,7 +1947,7 @@
           "vraag": "Wat betekent 'la mère'?",
           "opties": [
             "de moeder",
-            "de vader",
+            "de grootvader",
             "de zus",
             "de zee"
           ],
@@ -2181,7 +2181,7 @@
           "opties": [
             "mijn schoonmoeder of stiefmoeder",
             "mijn mooie moeder",
-            "mijn grootmoeder",
+            "mijn grootmoeder langs vaderskant",
             "mijn tante"
           ],
           "antwoord": 0,
@@ -2235,7 +2235,7 @@
           "opties": [
             "Ik ben ongerust.",
             "Ik ben rustig.",
-            "Ik ben trots.",
+            "Ik ben trots op mezelf.",
             "Ik ben jaloers."
           ],
           "antwoord": 0,
@@ -2273,7 +2273,7 @@
           "vraag": "Je gaat naar de dokter. Wat zeg je over je keel?",
           "opties": [
             "J'ai mal à la gorge.",
-            "J'ai mal au ventre.",
+            "J'ai mal à la tête et au ventre.",
             "J'ai mal aux dents.",
             "J'ai mal au dos."
           ],
@@ -2337,7 +2337,7 @@
           "vraag": "Wat betekent 'Quelle est ta nationalité ?'",
           "opties": [
             "Welke nationaliteit heb je?",
-            "Waar ben je geboren?",
+            "In welk land en welke stad ben je geboren?",
             "Welke taal spreek je?",
             "Waar woon je?"
           ],
@@ -2357,7 +2357,7 @@
             "Hij is getrouwd.",
             "Hij is alleen.",
             "Hij is jarig.",
-            "Hij is geboren."
+            "Hij is verloofd met haar."
           ],
           "antwoord": 0,
           "uitleg": "Se marier = trouwen. Un mariage is een huwelijk."
@@ -2427,7 +2427,7 @@
           "opties": [
             "het brood",
             "de pijn",
-            "de pan",
+            "de pannenkoek",
             "het bord"
           ],
           "antwoord": 0,
@@ -2514,7 +2514,7 @@
           "opties": [
             "de slaapkamer",
             "de keuken",
-            "de kelder",
+            "de kelderruimte",
             "de zolder"
           ],
           "antwoord": 0,
@@ -2667,7 +2667,7 @@
             "de sleutel",
             "de klas",
             "de kleur",
-            "het klein"
+            "het klavier"
           ],
           "antwoord": 0,
           "uitleg": "La clé (of la clef) = de sleutel. Een dagelijks voorwerp dat vaak in teksten opduikt."
@@ -2684,7 +2684,7 @@
           "vraag": "Wat betekent 'Je voudrais une baguette, s'il vous plaît'?",
           "opties": [
             "Ik zou graag een stokbrood willen, alstublieft.",
-            "Ik heb een stokbrood gekocht.",
+            "Ik heb vanmorgen bij de bakker een stokbrood gekocht.",
             "Waar is het stokbrood?",
             "Het stokbrood is op."
           ],
@@ -2697,7 +2697,7 @@
           "opties": [
             "Hoeveel kost dat?",
             "Hoeveel heb je?",
-            "Hoeveel wil je?",
+            "Hoeveel wil je ervan hebben?",
             "Wat is dat?"
           ],
           "antwoord": 0,
@@ -2746,7 +2746,7 @@
             "de woonkamer",
             "de badkamer",
             "de eetkamer",
-            "de gang"
+            "de logeerkamer"
           ],
           "antwoord": 0,
           "uitleg": "La salle de séjour of le salon is de woonkamer. La salle à manger is de eetkamer."
@@ -2812,7 +2812,7 @@
             "vierkant",
             "rond",
             "lang",
-            "plat"
+            "rechthoekig"
           ],
           "antwoord": 0,
           "uitleg": "Un carré is een vierkant. Une table carrée is een vierkante tafel."
@@ -2829,7 +2829,7 @@
           "opties": [
             "Hij draagt een jeans en sportschoenen.",
             "Hij draagt een jas en laarzen.",
-            "Hij koopt een jeans.",
+            "Hij koopt een jeans in de winkel in de stad.",
             "Hij wast zijn jeans."
           ],
           "antwoord": 0,
@@ -2867,7 +2867,7 @@
           "vraag": "Wat betekent 'le frigo'?",
           "opties": [
             "de koelkast",
-            "de vriezer",
+            "de diepvriezer",
             "de oven",
             "de kast"
           ],
@@ -2885,7 +2885,7 @@
           "vraag": "Wat betekent 'C'est délicieux'?",
           "opties": [
             "Het is heerlijk.",
-            "Het is duur.",
+            "Het is veel te duur.",
             "Het is warm.",
             "Het is klaar."
           ],
@@ -2899,7 +2899,7 @@
             "een portefeuille",
             "een deur",
             "een blad papier",
-            "een venster"
+            "een venster met gordijnen"
           ],
           "antwoord": 0,
           "uitleg": "Un portefeuille = een portefeuille. Het is samengesteld uit 'porter' (dragen) en 'feuille' (blad)."
@@ -2988,7 +2988,7 @@
           "vraag": "In een opdracht staat 'Cochez la bonne réponse'. Wat moet je doen?",
           "opties": [
             "Het juiste antwoord aankruisen.",
-            "Het antwoord opschrijven.",
+            "Het antwoord in een volledige zin opschrijven.",
             "De zin vertalen.",
             "De vraag herhalen."
           ],
@@ -3176,7 +3176,7 @@
           "vraag": "Wat vraagt 'Justifiez votre réponse'?",
           "opties": [
             "Leg uit waarom je dat antwoordt.",
-            "Verbeter je antwoord.",
+            "Verbeter je antwoord met een andere kleur.",
             "Herhaal je antwoord.",
             "Vertaal je antwoord."
           ],
@@ -3190,7 +3190,7 @@
             "Waar of niet waar?",
             "Goed of slecht?",
             "Veel of weinig?",
-            "Eerst of daarna?"
+            "Eerst of pas daarna?"
           ],
           "antwoord": 0,
           "uitleg": "Vrai = waar, faux = fout. Dit vraagtype komt op het examen voor."
@@ -3229,7 +3229,7 @@
             "het punt of cijfer",
             "het briefje",
             "de nota",
-            "het notitieboek"
+            "het notitieboekje van de klas"
           ],
           "antwoord": 0,
           "uitleg": "Une bonne note is een goed punt. In een andere context kan 'note' ook nota of muzieknoot betekenen."
@@ -3273,7 +3273,7 @@
           "vraag": "Wat betekent 'Je fais partie d'un club'?",
           "opties": [
             "Ik ben lid van een club.",
-            "Ik richt een club op.",
+            "Ik richt een nieuwe club op.",
             "Ik verlaat een club.",
             "Ik bezoek een club."
           ],
@@ -3319,7 +3319,7 @@
           "vraag": "Wat betekent 'perdre'?",
           "opties": [
             "verliezen",
-            "winnen",
+            "overwinnen",
             "spelen",
             "stoppen"
           ],
@@ -3366,7 +3366,7 @@
             "Ik heb interesse in muziek.",
             "Ik maak muziek.",
             "Ik studeer muziek.",
-            "Ik hou niet van muziek."
+            "Ik hou helemaal niet van muziek."
           ],
           "antwoord": 0,
           "uitleg": "'S'intéresser à' = zich interesseren voor. Wederkerend, dus je m'intéresse."
@@ -3390,7 +3390,7 @@
             "Wat is je favoriete tijdverdrijf?",
             "Wat is je lievelingsvak?",
             "Wanneer heb je tijd?",
-            "Wat doe je in de vakantie?"
+            "Wat doe je allemaal in de grote vakantie?"
           ],
           "antwoord": 0,
           "uitleg": "Un passe-temps is een hobby, préféré betekent favoriet."
@@ -3400,7 +3400,7 @@
           "vraag": "Je leest 'Répondez en français'. Wat mag je dan niet doen?",
           "opties": [
             "In het Nederlands antwoorden.",
-            "Een korte zin schrijven.",
+            "Een korte zin van een paar woorden schrijven.",
             "Een woordenboek gebruiken.",
             "Je antwoord nalezen."
           ],
@@ -3649,7 +3649,7 @@
           "vraag": "Wat betekent 'Il est midi'?",
           "opties": [
             "Het is twaalf uur 's middags.",
-            "Het is middernacht.",
+            "Het is middernacht, twaalf uur 's nachts.",
             "Het is namiddag.",
             "Het is ochtend."
           ],
@@ -3817,7 +3817,7 @@
             "Wat voor weer is het?",
             "Hoe laat is het?",
             "Hoelang duurt het?",
-            "Welke tijd is dat?"
+            "Welke tijd is dat op de klok?"
           ],
           "antwoord": 0,
           "uitleg": "'Le temps' betekent zowel weer als tijd. In deze vaste vraag gaat het over het weer."
@@ -3833,7 +3833,7 @@
           "vraag": "Wat betekent 'un aller-retour'?",
           "opties": [
             "een heen-en-terugticket",
-            "een enkele reis",
+            "een enkele reis zonder terugweg",
             "een omweg",
             "een vertraging"
           ],
@@ -3886,7 +3886,7 @@
           "opties": [
             "Veel leesvragen vragen naar een uur, een prijs of een datum.",
             "Cijfers staan altijd in de titel.",
-            "Cijfers zijn in het Frans hetzelfde als in het Nederlands.",
+            "Cijfers zijn in het Frans precies hetzelfde als in het Nederlands.",
             "Op het examen mag je geen rekenmachine gebruiken."
           ],
           "antwoord": 0,
@@ -4747,7 +4747,7 @@
           "opties": [
             "plus grand que",
             "plus grand de",
-            "le plus grand",
+            "le plus grand de tous",
             "très grand"
           ],
           "antwoord": 0,
@@ -4794,7 +4794,7 @@
           "opties": [
             "le plus grand",
             "plus grand",
-            "très grand",
+            "très très grand",
             "aussi grand"
           ],
           "antwoord": 0,
@@ -5187,7 +5187,7 @@
           "vraag": "Waarom moet je weten waarnaar een voornaamwoord verwijst?",
           "opties": [
             "Anders begrijp je de samenhang tussen de zinnen niet.",
-            "Anders kan je geen woordenboek gebruiken.",
+            "Anders kan je geen woordenboek gebruiken tijdens het examen.",
             "Voornaamwoorden staan altijd in de titel.",
             "Anders klopt je uitspraak niet."
           ],
@@ -5481,7 +5481,7 @@
             "Je vais manger.",
             "Je mange.",
             "J'ai mangé.",
-            "Je mangeais."
+            "Je mangeais à midi."
           ],
           "antwoord": 0,
           "uitleg": "Aller + infinitief is de futur proche: de nabije toekomst.",
@@ -5526,7 +5526,7 @@
           "vraag": "Hoe zeg je 'ik heb net gegeten'?",
           "opties": [
             "Je viens de manger.",
-            "Je vais manger.",
+            "Je vais manger tout de suite.",
             "Je mange.",
             "J'ai mangé."
           ],
@@ -5754,7 +5754,7 @@
           "vraag": "Hoe maak je een zin ontkennend?",
           "opties": [
             "Je zet 'ne' voor en 'pas' achter het werkwoord.",
-            "Je zet 'non' vooraan.",
+            "Je zet 'non' vooraan in de zin, voor het onderwerp.",
             "Je zet 'pas' vooraan.",
             "Je laat het onderwerp weg."
           ],
@@ -5791,7 +5791,7 @@
             "Est-ce que tu viens ?",
             "Tu viens.",
             "Viens !",
-            "Quelle chance !"
+            "Quelle chance que tu viennes !"
           ],
           "antwoord": 0,
           "uitleg": "'Est-ce que' vooraan maakt er een vraagzin van. Je kan ook omdraaien: Viens-tu ?",
@@ -6052,7 +6052,7 @@
           "vraag": "Welke zin hoort in de imparfait?",
           "opties": [
             "Quand j'étais petit, j'habitais à Liège.",
-            "Hier, j'ai mangé une pizza.",
+            "Hier soir, j'ai mangé une grande pizza avec mes amis.",
             "Demain, je vais partir.",
             "Je viens d'arriver."
           ],
@@ -6473,7 +6473,7 @@
             "Ik eet geen vlees meer.",
             "Ik eet nooit vlees.",
             "Ik eet weinig vlees.",
-            "Ik eet graag vlees."
+            "Ik eet heel graag vlees."
           ],
           "antwoord": 0,
           "uitleg": "Ne … plus betekent 'niet meer'. Let ook op het lidwoord: na de ontkenning wordt 'de la viande' gewoon 'de viande'.",
@@ -6519,7 +6519,7 @@
           "opties": [
             "Daarmee maak je je tekst levendig.",
             "Anders zijn je zinnen fout.",
-            "Omdat het aantal zinnen telt.",
+            "Omdat het aantal zinnen op het examen telt.",
             "Omdat vragen makkelijker zijn."
           ],
           "antwoord": 0,

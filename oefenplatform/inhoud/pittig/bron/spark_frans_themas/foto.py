@@ -143,7 +143,7 @@ VRAGEN = [
             "Je m'identifie à ce personnage parce que…",
             "J'aime le style parce que…",
             "À la fin, je pense que…",
-            "Ce texte me rend triste parce que…",
+            "Ce texte me rend triste et en colère parce que…",
         ],
         antwoord=0,
         uitleg="Je m'identifie à ce personnage betekent ik herken me in dit personage. De andere zinnen gaan over de stijl, over een eigen einde of over het gevoel dat de tekst oproept.",

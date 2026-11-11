@@ -7,7 +7,7 @@ VRAGEN = [
         vraag="Je leest: 'Selon une étude récente, la moitié des jeunes dorment moins bien.' Welke Nederlandse samenvatting klopt?",
         opties=[
             "Volgens een recent onderzoek slaapt de helft van de jongeren minder goed.",
-            "Volgens een recent onderzoek slapen de meeste jongeren veel minder goed.",
+            "Volgens een recent onderzoek slapen de meeste jongeren tegenwoordig veel minder goed.",
             "Volgens de schrijver slaapt de helft van de jongeren tegenwoordig beter.",
             "Volgens een oud onderzoek slapen alle jongeren minder goed dan vroeger.",
         ],
@@ -75,7 +75,7 @@ VRAGEN = [
         opties=[
             "een tegenstelling: ze moeten bewegen, maar bewegen minder",
             "een reden: ze bewegen minder omdat ze moeten bewegen",
-            "een gevolg: daarom bewegen ze in de zoo net meer",
+            "een gevolg: daarom bewegen ze in de zoo net meer dan in het wild",
             "een voorbeeld: de zoo toont hoe dieren graag bewegen",
         ],
         antwoord=0,
@@ -86,7 +86,7 @@ VRAGEN = [
         vraag="Welke aanpak volgt de juiste volgorde van de leesstrategieën?",
         opties=[
             "Titel en beeld bekijken, dan gericht lezen, pas daarna een onmisbaar woord opzoeken.",
-            "Elk onbekend woord opzoeken, dan de titel lezen, dan pas naar de foto kijken.",
+            "Elk onbekend woord meteen opzoeken, dan de titel lezen, en dan pas naar de foto kijken.",
             "De hele tekst vertalen, dan de titel lezen, dan de hoofdgedachte zoeken.",
             "Gericht lezen, dan elk woord opzoeken, en de titel helemaal op het einde lezen.",
         ],
@@ -188,7 +188,7 @@ VRAGEN = [
             "Jongeren hebben slaap en beweging nodig.",
             "Jongeren slapen en bewegen te weinig.",
             "Jongeren willen niet slapen of bewegen.",
-            "Jongeren slapen beter als ze bewegen.",
+            "Jongeren slapen beter als ze overdag genoeg bewegen.",
         ],
         antwoord=0,
         uitleg="Avoir besoin de betekent nodig hebben. De zin zegt dus wat jongeren nodig hebben, niet wat ze te weinig doen. Dat ze te weinig bewegen, zou er pas staan met 'ils bougent moins'.",

@@ -20,7 +20,7 @@ VRAGEN = [
         opties=[
             "une cousine",
             "une nièce",
-            "une tante",
+            "une belle-sœur",
             "une sœur",
         ],
         antwoord=0,
@@ -32,7 +32,7 @@ VRAGEN = [
         opties=[
             "mes grands-parents",
             "mes parents",
-            "mes oncles",
+            "mes oncles et tantes",
             "mes cousins",
         ],
         antwoord=0,

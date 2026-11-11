@@ -31,7 +31,7 @@ VRAGEN = [
         vraag="Je vraagt in een winkel aan een onbekende verkoper om het programma. Welke zin is beleefd én gebruikt de juiste aanspreekvorm?",
         opties=[
             "Je voudrais le programme, s'il vous plaît.",
-            "Je voudrais le programme, s'il te plaît.",
+            "Je voudrais bien le programme, s'il te plaît.",
             "Je veux le programme, s'il vous plaît.",
             "Envoyez le programme, s'il te plaît.",
         ],
@@ -57,7 +57,7 @@ VRAGEN = [
             "Merci pour l'invitation, mais désolé, je ne peux pas venir.",
             "Merci pour l'invitation, avec plaisir, à samedi !",
             "Désolé, je viens avec plaisir samedi à ta fête !",
-            "Félicitations pour l'invitation, d'accord, je viens.",
+            "Félicitations pour l'invitation, d'accord, je viens samedi avec plaisir.",
         ],
         antwoord=0,
         uitleg="Je bedankt, je zegt dat het je spijt (désolé) en dat je niet kan komen (je ne peux pas venir). Avec plaisir en d'accord, je viens zijn net manieren om een uitnodiging te aanvaarden.",
@@ -129,7 +129,7 @@ VRAGEN = [
         opties=[
             "een los detail, zoals de kleur van de taart",
             "het uur waarop het feest begint",
-            "de plaats waar het feest doorgaat",
+            "de plaats waar het feest precies doorgaat, met het adres",
             "de datum van het feest",
         ],
         antwoord=0,
