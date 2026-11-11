@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "11 november 2026",
+    titel: "Nieuw hoofdstuk: werken met Geopunt",
+    tekst:
+      "Bij aardrijkskunde Spark staat een nieuw hoofdstuk over Geopunt, de online kaart van Vlaanderen. In 26 vragen leer je een adres zoeken, kaartlagen aanzetten en afstanden meten. Bij een aantal vragen klik je zelf op de juiste knop in een echt Geopunt-scherm.",
+    link: { tekst: "Naar aardrijkskunde Spark", href: "/niveaus/spark/aardrijkskunde" },
+  },
+  {
+    datum: "11 november 2026",
     titel: "Pittige hoofdstukken bij economie in Beyond",
     tekst:
       "Bij elk van de twintig onderwerpen van algemene economie in Beyond doorstroom staat nu ook een pittig hoofdstuk met 30 moeilijkere vragen, zoals op het examen: klikken op een grafiek van vraag en aanbod, het juiste vak in een uitbetalingsmatrix aanduiden, rekenen met surplus, elasticiteit en de multiplicator, samenvattende tabellen invullen en casussen met meerdere vragen. Alle grafieken zijn zelf getekend.",
