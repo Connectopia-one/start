@@ -191,7 +191,7 @@ td.x { color: var(--muted); }
 <div class="wrap" id="app"></div>
 
 <script>
-// Begrippen per hoofdstuk: [begrip, uitleg, extra tip]. Wiskunde per niveau, volgens de hoofdstukken wiskunde van het oefenplatform (Kim, 6/11/2026).
+// Begrippen per hoofdstuk: [begrip, uitleg, extra tip]. Wiskunde per niveau, volgens de hoofdstukken wiskunde van het oefenplatform (Kim, 6/11/2026); statistiek Beyond erbij op 11/11/2026.
 const DATA = {
   lager: { label: "LAGER · Basis en Start", chapters: [
     { id: "w-bew", title: "Bewerkingen", terms: [
@@ -469,6 +469,98 @@ const DATA = {
       ["trendlijn","De rechte die het best door een puntenwolk past.","Gebruikt om te voorspellen."]
     ]}
   ]},
+  statistiek: { label: "BEYOND · statistiek", chapters: [
+    { id: "st-tellen", title: "Telregels en combinaties", terms: [
+      ["productregel", "Het aantal mogelijkheden van opeenvolgende keuzes vind je door ze te vermenigvuldigen.", "3 broeken en 4 truien: 12 combinaties."],
+      ["somregel", "Bij keuzes die elkaar uitsluiten tel je de aantallen op.", "Of een broek, of een kleed."],
+      ["complementregel", "Tel alles en trek af wat niet mag.", "Soms veel sneller dan rechtstreeks tellen."],
+      ["faculteit", "Het product van alle natuurlijke getallen van 1 tot n.", "5! = 120."],
+      ["permutatie", "Een rangschikking van alle elementen waarbij de volgorde telt.", "n! mogelijkheden."],
+      ["combinatie", "Een keuze van k elementen uit n, waarbij de volgorde niet telt.", "Notatie C(n,k) of n boven k."],
+      ["variatie", "Een geordende keuze van k elementen uit n.", "De volgorde telt wel."],
+      ["boomdiagram", "Schema met takken om alle mogelijke uitkomsten op te sommen.", "Elke tak is een keuze."]
+    ]},
+    { id: "st-kansvar", title: "Kansvariabelen en verdelingen", terms: [
+      ["kansvariabele", "Een variabele waarvan de waarde afhangt van het toeval.", "Het aantal zes bij tien worpen."],
+      ["kansverdeling", "Overzicht van alle waarden van een kansvariabele met hun kans.", "De kansen tellen op tot 1."],
+      ["binomiale verdeling", "Kansverdeling van het aantal successen bij n onafhankelijke herhalingen met dezelfde kans p.", "Parameters n en p."],
+      ["Bernoulli-experiment", "Een proef met maar twee uitkomsten: succes of mislukking.", "Kop of munt."],
+      ["verwachtingswaarde", "Het gemiddelde dat je op lange termijn verwacht.", "Bij binomiaal: n · p."],
+      ["variantie", "Het gemiddelde van de gekwadrateerde afwijkingen tot het gemiddelde.", "Het kwadraat van de standaardafwijking."],
+      ["standaardafwijking", "Maat voor hoe ver waarden gemiddeld van het gemiddelde liggen.", "Symbool σ of s."],
+      ["discrete variabele", "Variabele die maar losse waarden kan aannemen.", "Aantallen: 0, 1, 2, ..."],
+      ["continue variabele", "Variabele die elke waarde in een interval kan aannemen.", "Lengte, tijd, gewicht."]
+    ]},
+    { id: "st-normaal", title: "De normale verdeling", terms: [
+      ["normale verdeling", "Symmetrische, klokvormige verdeling rond het gemiddelde.", "Bepaald door μ en σ."],
+      ["Gausscurve", "De klokvormige grafiek van de normale verdeling.", "Genoemd naar een Duitse wiskundige."],
+      ["standaardiseren", "Een waarde omzetten naar een z-score.", "z = (x − μ) / σ."],
+      ["z-score", "Hoeveel standaardafwijkingen een waarde van het gemiddelde ligt.", "Negatief: onder het gemiddelde."],
+      ["standaardnormale verdeling", "Normale verdeling met gemiddelde 0 en standaardafwijking 1.", "Verdeling van de z-scores."],
+      ["68-95-99,7-regel", "Binnen 1, 2 en 3 standaardafwijkingen van het gemiddelde ligt ongeveer 68, 95 en 99,7 procent.", "Vuistregel bij de klokcurve."],
+      ["kansrekenmachine", "App of functie om kansen bij een verdeling te berekenen.", "Bijvoorbeeld normalcdf."]
+    ]},
+    { id: "st-steekproef", title: "Populatie en steekproef", terms: [
+      ["populatie", "De volledige groep waarover je iets wil weten.", "Alle Vlaamse jongeren."],
+      ["steekproef", "Het deel van de populatie dat je echt onderzoekt.", "Moet representatief zijn."],
+      ["representatief", "Een steekproef die een goed beeld geeft van de hele populatie.", "Zelfde verhoudingen."],
+      ["aselecte steekproef", "Steekproef waarbij elk element evenveel kans heeft om gekozen te worden.", "Door loting."],
+      ["parameter", "Een getal dat de populatie beschrijft.", "Meestal onbekend, bv. μ."],
+      ["steekproefgrootheid", "Een getal berekend uit de steekproef.", "Bijvoorbeeld het steekproefgemiddelde x̄."],
+      ["steekproevenverdeling", "Verdeling van een steekproefgrootheid over alle mogelijke steekproeven.", "Steeds smaller bij grotere n."],
+      ["centrale limietstelling", "Bij grote steekproeven is het steekproefgemiddelde ongeveer normaal verdeeld.", "Ook als de populatie dat niet is."],
+      ["vertekening", "Systematische fout waardoor een steekproef een scheef beeld geeft.", "Bias."]
+    ]},
+    { id: "st-toetsen", title: "Hypothesen toetsen", terms: [
+      ["nulhypothese", "De bewering die je toetst en die uitgaat van geen effect.", "H0."],
+      ["alternatieve hypothese", "De bewering die je wil aantonen.", "H1, links-, rechts- of tweezijdig."],
+      ["eenzijdige toets", "Toets waarbij je enkel een afwijking in één richting zoekt.", "H1: μ > 50."],
+      ["tweezijdige toets", "Toets waarbij een afwijking naar beide kanten telt.", "H1: μ ≠ 50."],
+      ["p-waarde", "De kans op een resultaat minstens zo extreem als gevonden, als H0 klopt.", "Klein: H0 verwerpen."],
+      ["significantieniveau", "De grens waaronder je H0 verwerpt.", "Vaak α = 0,05."],
+      ["significant", "Zo onwaarschijnlijk onder H0 dat je H0 verwerpt.", "p-waarde kleiner dan α."],
+      ["fout van de eerste soort", "H0 verwerpen terwijl ze juist is.", "Kans α."],
+      ["fout van de tweede soort", "H0 niet verwerpen terwijl ze fout is.", "Kans β."],
+      ["toetsingsgrootheid", "Getal uit de steekproef waarmee je beslist over H0.", "Bijvoorbeeld een z-waarde."],
+      ["kritieke waarde", "De grens van het verwerpingsgebied.", "Bij α = 0,05 tweezijdig: 1,96."]
+    ]},
+    { id: "st-interval", title: "Betrouwbaarheidsinterval", terms: [
+      ["betrouwbaarheidsinterval", "Interval waarin de populatieparameter met een gekozen zekerheid ligt.", "Bijvoorbeeld 95 procent."],
+      ["foutenmarge", "De halve breedte van het interval rond de schatting.", "Kleiner bij een grotere steekproef."],
+      ["betrouwbaarheidsniveau", "Hoe zeker je bent dat het interval de echte waarde bevat.", "90, 95 of 99 procent."],
+      ["puntschatting", "Eén getal uit de steekproef als schatting voor de populatie.", "Het midden van het interval."],
+      ["steekproefproportie", "Het aandeel in de steekproef met een bepaalde eigenschap.", "Notatie p̂."]
+    ]},
+    { id: "st-verband", title: "Spreidingsdiagram en correlatie", terms: [
+      ["spreidingsdiagram", "Grafiek met een punt per waarnemingspaar van twee variabelen.", "Toont of er een verband is."],
+      ["trendlijn", "Rechte die zo goed mogelijk door de puntenwolk loopt.", "Ook regressielijn."],
+      ["correlatiecoëfficiënt", "Getal tussen −1 en 1 dat de sterkte van een lineair verband meet.", "Symbool r."],
+      ["positieve correlatie", "Als de ene variabele stijgt, stijgt de andere meestal ook.", "r groter dan 0."],
+      ["negatieve correlatie", "Als de ene variabele stijgt, daalt de andere meestal.", "r kleiner dan 0."],
+      ["determinatiecoëfficiënt", "Het deel van de variatie dat het lineaire model verklaart.", "r²."],
+      ["causaal verband", "De ene variabele veroorzaakt de andere.", "Correlatie bewijst dat niet."],
+      ["uitschieter", "Waarde die ver van de andere ligt.", "Kan een gemiddelde sterk beïnvloeden."],
+      ["extrapoleren", "Voorspellen buiten het bereik van de gemeten gegevens.", "Riskant."]
+    ]},
+    { id: "st-beschrijven", title: "Gegevens ordenen en beschrijven", terms: [
+      ["frequentie", "Hoe vaak een waarde voorkomt.", "Tel je bijvoorbeeld met turven."],
+      ["relatieve frequentie", "De frequentie gedeeld door het totaal aantal waarnemingen.", "Vaak in procent."],
+      ["cumulatieve frequentie", "De opgetelde frequenties tot en met een waarde.", "Lopend totaal."],
+      ["klasse", "Interval waarin je gegroepeerde gegevens samenbrengt.", "Bv. [150, 160["],
+      ["klassenmidden", "Het midden van een interval bij gegroepeerde gegevens.", "Gebruik je om een gemiddelde te schatten."],
+      ["histogram", "Staafdiagram voor gegroepeerde, continue gegevens, met aansluitende staven.", "Geen ruimte tussen de staven."],
+      ["kwalitatieve variabele", "Variabele met categorieën in plaats van getallen.", "Haarkleur, merk."],
+      ["kwantitatieve variabele", "Variabele met getallen als waarden.", "Lengte, leeftijd."],
+      ["gemiddelde", "De som van alle waarden gedeeld door het aantal.", "Gevoelig voor uitschieters."],
+      ["mediaan", "De middelste waarde van de gerangschikte gegevens.", "Niet gevoelig voor uitschieters."],
+      ["modus", "De waarde die het vaakst voorkomt.", "Kan ook bij categorieën."],
+      ["variatiebreedte", "Grootste min kleinste waarde.", "De eenvoudigste spreidingsmaat."],
+      ["kwartiel", "Waarde die de gerangschikte gegevens in vier gelijke delen verdeelt.", "Q1, Q2 = mediaan, Q3."],
+      ["interkwartielafstand", "Q3 min Q1.", "De breedte van de doos."],
+      ["boxplot", "Diagram met de vijfgetallensamenvatting: minimum, Q1, mediaan, Q3, maximum.", "Doos met snorharen."],
+      ["vijfgetallensamenvatting", "Minimum, eerste kwartiel, mediaan, derde kwartiel en maximum.", "Basis van een doos-en-snordiagram."]
+    ]}
+  ]},
   beyond: { label: "BEYOND · 3de graad", chapters: [
     { id: "y-anal", title: "Analyse", terms: [
       ["logaritme","De exponent waartot je het grondtal moet verheffen om een getal te krijgen.","log₂ 8 = 3, want 2³ = 8."],
@@ -642,11 +734,7 @@ function renderMenu() {
         <p>Kies eerst je niveau, dan een hoofdstuk en een spel. Elk niveau heeft zijn eigen wiskundewoorden, dus je kan de spellen vrij afwisselen.</p>
       </div>
       <div class="seg" role="group" aria-label="Niveau">
-        <button data-lvl="lager" aria-pressed="${S.level === "lager"}">LAGER · Basis en Start</button>
-        <button data-lvl="spark" aria-pressed="${S.level === "spark"}">SPARK · 1ste graad</button>
-        <button data-lvl="boost" aria-pressed="${S.level === "boost"}">BOOST · 2de graad</button>
-        <button data-lvl="beyond" aria-pressed="${S.level === "beyond"}">BEYOND · 3de graad</button>
-        <button data-lvl="basis" aria-pressed="${S.level === "basis"}">BEYOND · wiskunde basis</button>
+        ${Object.entries(DATA).map(([k, v]) => `<button data-lvl="${k}" aria-pressed="${S.level === k}">${esc(v.label)}</button>`).join("")}
       </div>
     </header>
     <section style="display:flex;flex-direction:column;gap:10px">
