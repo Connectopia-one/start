@@ -43,7 +43,7 @@ export const updates: Update[] = [
     datum: "11 november 2026",
     titel: "Begrippenarena wiskunde ook voor statistiek",
     tekst:
-      "In de begrippenarena wiskunde kies je nu ook statistiek van Beyond: vijfenzeventig begrippen, van telregels en de normale verdeling tot hypothesen toetsen en correlatie.",
+      "In de begrippenarena wiskunde kies je nu ook statistiek van Beyond: ruim zeventig begrippen, van telregels en de normale verdeling tot hypothesen toetsen en correlatie.",
     link: { tekst: "Naar de spellen", href: "/extras/spellen" },
   },
   {

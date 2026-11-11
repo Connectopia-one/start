@@ -458,7 +458,7 @@ export const spelKaarten: SpelKaart[] = [
     school: "middelbaar",
     niveau: "🌍 Beyond · statistiek (5de en 6de middelbaar)",
     niveauInSpel: "statistiek",
-    tekst: `Vijfenzeventig begrippen statistiek, van telregels en de binomiale verdeling tot hypothesen toetsen, betrouwbaarheidsintervallen, correlatie en de boxplot. ${zesSpellen}`,
+    tekst: `Ruim zeventig begrippen statistiek, van telregels en de binomiale verdeling tot hypothesen toetsen, betrouwbaarheidsintervallen, correlatie en de boxplot. ${zesSpellen}`,
   },
   {
     spel: "begrippenarena",
