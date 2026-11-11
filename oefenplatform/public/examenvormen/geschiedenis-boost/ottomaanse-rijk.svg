@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#f4efe2"/>
+<path d="M420 140 C 520 90, 760 110, 900 180 C 980 260, 960 420, 900 520 C 760 620, 560 620, 430 560 C 520 470, 560 420, 600 380 C 500 330, 430 250, 420 140 Z" fill="#c9dbb4" stroke="#2f4a22" stroke-width="4"/>
+<path d="M40 330 C 200 270, 380 300, 520 330 C 600 345, 680 330, 720 360 C 700 430, 600 450, 470 450 C 300 460, 150 430, 40 420 Z" fill="#a9cbe6"/>
+<path d="M560 330 C 570 300, 575 270, 590 245 C 610 230, 650 235, 690 250" stroke="#a9cbe6" stroke-width="16" fill="none"/>
+<text x="260" y="385" font-size="26" fill="#2a5a80">zee</text>
+<text x="120" y="80" font-size="34" fill="#555">Europa</text>
+<text x="820" y="80" font-size="34" fill="#555">Azië</text>
+<text x="140" y="560" font-size="34" fill="#555">Afrika</text>
+<circle cx="560" cy="250" r="12" fill="#24331b"/>
+<circle cx="310" cy="95" r="12" fill="#24331b"/>
+<circle cx="560" cy="520" r="12" fill="#24331b"/>
+<circle cx="615" cy="205" r="28" fill="#2f4a22" stroke="#fff" stroke-width="4"/><text x="615" y="216" font-size="30" font-weight="bold" text-anchor="middle" fill="#fff">A</text>
+<circle cx="360" cy="75" r="28" fill="#2f4a22" stroke="#fff" stroke-width="4"/><text x="360" y="86" font-size="30" font-weight="bold" text-anchor="middle" fill="#fff">B</text>
+<circle cx="615" cy="520" r="28" fill="#2f4a22" stroke="#fff" stroke-width="4"/><text x="615" y="531" font-size="30" font-weight="bold" text-anchor="middle" fill="#fff">C</text>
+<text x="990" y="630" font-size="18" text-anchor="end" fill="#555">Schema, geen kaart. Groen = het Ottomaanse Rijk in de 16de eeuw.</text>
+</svg>

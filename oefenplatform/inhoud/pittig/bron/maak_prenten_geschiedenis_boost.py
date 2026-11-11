@@ -417,6 +417,31 @@ def tijdlijn_1700_1900():
     (UIT / "tijdlijn-1700-1900.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
 
 
+# ---------------------------------------------------------------- Ottomaanse Rijk
+# Schema, geen kaart. Drie werelddelen rond een zee, het rijk als groene vlek,
+# drie steden zonder naam: A (hoofdstad, aan een zee-engte), B (buiten het rijk,
+# in Midden-Europa), C (in Noord-Afrika). Klikvak A: 52-60 % breed, 28-40 % hoog;
+# B: 26-36 % breed, 8-21 % hoog.
+def ottomaanse_rijk():
+    W, Hh = 1000, 640
+    d = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {Hh}" width="{W}" height="{Hh}" font-family="Arial, sans-serif">',
+         f'<rect width="{W}" height="{Hh}" fill="#f4efe2"/>',
+         # het rijk
+         '<path d="M420 140 C 520 90, 760 110, 900 180 C 980 260, 960 420, 900 520 C 760 620, 560 620, 430 560 C 520 470, 560 420, 600 380 C 500 330, 430 250, 420 140 Z" fill="#c9dbb4" stroke="#2f4a22" stroke-width="4"/>',
+         # de zee
+         '<path d="M40 330 C 200 270, 380 300, 520 330 C 600 345, 680 330, 720 360 C 700 430, 600 450, 470 450 C 300 460, 150 430, 40 420 Z" fill="#a9cbe6"/>',
+         '<path d="M560 330 C 570 300, 575 270, 590 245 C 610 230, 650 235, 690 250" stroke="#a9cbe6" stroke-width="16" fill="none"/>',
+         '<text x="260" y="385" font-size="26" fill="#2a5a80">zee</text>',
+         '<text x="120" y="80" font-size="34" fill="#555">Europa</text>',
+         '<text x="820" y="80" font-size="34" fill="#555">Azië</text>',
+         '<text x="140" y="560" font-size="34" fill="#555">Afrika</text>',
+         '<circle cx="560" cy="250" r="12" fill="#24331b"/>', '<circle cx="310" cy="95" r="12" fill="#24331b"/>', '<circle cx="560" cy="520" r="12" fill="#24331b"/>',
+         letter(615, 205, "A"), letter(360, 75, "B"), letter(615, 520, "C"),
+         f'<text x="990" y="630" font-size="18" text-anchor="end" fill="#555">Schema, geen kaart. Groen = het Ottomaanse Rijk in de 16de eeuw.</text>',
+         "</svg>"]
+    (UIT / "ottomaanse-rijk.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
+
+
 
 if __name__ == "__main__":
     UIT.mkdir(parents=True, exist_ok=True)
@@ -434,6 +459,8 @@ if __name__ == "__main__":
     perspectief()
     nederlanden()
     tijdlijn_1700_1900()
+    ottomaanse_rijk()
+    print("1453", zone_jaar4(1448, 1458), "Suleyman", zone_jaar4(1520, 1566))
     print("1776", zone_jaar5(1773, 1779), "1789", zone_jaar5(1786, 1792), "1750", zone_jaar5(1740, 1760))
     print("1688", zone_jaar4(1683, 1693), "1566", zone_jaar4(1561, 1571), "80j", zone_jaar4(1568, 1648))
     print("1517", zone_jaar4(1512, 1522), "Trente", zone_jaar4(1545, 1563))
