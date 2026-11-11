@@ -129,6 +129,7 @@ export const spellen: Spel[] = [
   { slug: "begrippenarena-aardrijkskunde", icoon: "🌋", titel: "Begrippenarena Aardrijkskunde" },
   { slug: "begrippenarena-nederlands", icoon: "📚", titel: "Begrippenarena Nederlands" },
   { slug: "woordenarena-frans", icoon: "🥖", titel: "Woordenarena Frans" },
+  { slug: "begrippenarena-techniek", icoon: "⚙️", titel: "Begrippenarena Techniek" },
   { slug: "wiskunde-dimensie", icoon: "🤖", titel: "De Wiskunde-dimensie" },
   /* Prikkelarme spellen voor het lager (Kim, 9 november 2026): geen klok,
      geen geluid, geen punten, een rustige tip bij een fout. */
@@ -167,6 +168,9 @@ const zevenSpellenNl =
 const zevenSpellenFr =
   "In zeven spellen: een quiz, memory, raad het woord, Eiffeltorengalgje, flitskaarten, bingo en le of la?, waarin je kiest of een woord mannelijk of vrouwelijk is.";
 
+const zevenSpellenTech =
+  "In zeven spellen: een quiz, memory, raad het begrip, robotgalgje, flitskaarten, bingo en de sorteerband, waarin je voorwerpen in de juiste bak sorteert, zoals geleider of isolator.";
+
 export const spelKaarten: SpelKaart[] = [
   /* Lagere school */
   {
@@ -203,6 +207,13 @@ export const spelKaarten: SpelKaart[] = [
     niveau: "🧱 Basis en 🌱 Start · 5de en 6de leerjaar",
     niveauInSpel: "lager",
     tekst: `Bijna honderdvijftig Franse woorden uit de leerbundels: de dagen, de familie, de school, de markt, de dieren en de zee. ${zevenSpellenFr}`,
+  },
+  {
+    spel: "begrippenarena-techniek",
+    school: "lager",
+    niveau: "🌱 Start · Wetenschap en techniek, 5de en 6de leerjaar",
+    niveauInSpel: "lager",
+    tekst: `Ruim negentig begrippen uit de zeven leerbundels wetenschap en techniek, van fotosynthese en het menselijk lichaam tot stroomkringen, ontwerpen en de ruimte. ${zevenSpellenTech}`,
   },
   {
     spel: "wiskunde-dimensie",
@@ -282,6 +293,13 @@ export const spelKaarten: SpelKaart[] = [
     niveau: "✨ Spark · 1ste en 2de middelbaar",
     niveauInSpel: "spark",
     tekst: `Ruim tweehonderdvijftig Franse woorden uit de leerbundels van Spark, van eten en drinken en de school tot mensen beschrijven en de tijd. ${zevenSpellenFr}`,
+  },
+  {
+    spel: "begrippenarena-techniek",
+    school: "middelbaar",
+    niveau: "✨ Spark · Techniek, 1ste en 2de middelbaar",
+    niveauInSpel: "spark",
+    tekst: `Honderddertig begrippen uit de elf leerbundels techniek van Spark, van materialen en stroomkringen tot overbrengingen, het technisch proces en algoritmen. ${zevenSpellenTech}`,
   },
   {
     spel: "woordenarena-engels",
