@@ -90,7 +90,7 @@ DEEL1 = [
         vraag="Wat is creative commons?",
         opties=[
             "een licentie waarmee de maker vooraf toelating geeft, onder voorwaarden",
-            "een wet die alle werken op het internet vrij van rechten maakt",
+            "een wet die alle werken op het internet vrij van rechten maakt na een jaar",
             "een website waar je beschermde beelden zonder toelating vindt",
             "een dienst die het auteursrecht van makers laat registreren",
         ],
@@ -162,7 +162,7 @@ DEEL1 = [
         vraag="Wat beschermt het privacyrecht?",
         opties=[
             "je persoonsgegevens en wat er met die gegevens mag gebeuren",
-            "de teksten en de beelden die je zelf gemaakt hebt",
+            "de teksten en de beelden die je zelf gemaakt hebt en online zet",
             "je rekening tegen diefstal door iemand van buiten",
             "de berichten die je op een openbare pagina plaatst",
         ],
@@ -255,7 +255,7 @@ DEEL2 = [
         vraag="Waarom is hetzelfde wachtwoord op verschillende sites gebruiken een slecht idee?",
         opties=[
             "raakt het op één site buiten, dan liggen al je andere rekeningen open",
-            "sommige sites laten een wachtwoord niet twee keer gebruiken",
+            "sommige sites laten een wachtwoord niet twee keer gebruiken, en dan zit je vast",
             "je wachtwoord wordt daardoor na een tijd automatisch zwakker",
             "je moet het dan op elke site tegelijk komen veranderen",
         ],
@@ -279,7 +279,7 @@ DEEL2 = [
         vraag="Wat is phishing?",
         opties=[
             "een nagemaakt bericht dat je gegevens of je geld wil loskrijgen",
-            "een beschadigd bestand dat je computer trager laat werken",
+            "een beschadigd bestand dat je computer trager en trager laat werken",
             "een reclamebericht dat je te vaak in je mailbox krijgt",
             "een bericht dat per ongeluk bij de verkeerde persoon komt",
         ],

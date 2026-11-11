@@ -54,7 +54,7 @@ DEEL1 = [
         vraag="Wat is de eerste stap bij een vermoedelijke hartstilstand?",
         opties=[
             "bepalen of de persoon bewusteloos is",
-            "112 bellen",
+            "meteen 112 bellen, nog voor je iets anders doet",
             "een AED zoeken",
             "beginnen met borstcompressies",
         ],
@@ -90,7 +90,7 @@ DEEL1 = [
         vraag="Wat is de vierde stap bij een hartstilstand?",
         opties=[
             "starten met borstcompressies",
-            "beademen",
+            "beademen met twee beademingen",
             "een AED zoeken",
             "de ambulance bellen",
         ],
@@ -138,7 +138,7 @@ DEEL1 = [
         vraag="Waarvoor staat de afkorting AED?",
         opties=[
             "automatische externe defibrillator",
-            "acute eerste dienst",
+            "acute eerste dienst bij een hartstilstand",
             "ademhaling en defibrillatie",
             "automatische eerstehulpdoos",
         ],
@@ -205,7 +205,7 @@ DEEL1 = [
         vraag="Iemand zakt in elkaar op een drukke markt. Wat vraag je aan de omstaanders?",
         opties=[
             "dat één iemand 112 belt en één iemand een AED zoekt",
-            "dat iedereen een stap achteruit gaat en wacht",
+            "dat iedereen een stap achteruit gaat en rustig wacht",
             "dat iemand de persoon water geeft",
             "dat iemand de persoon rechtzet op een stoel",
         ],
@@ -244,7 +244,7 @@ DEEL2 = [
         vraag="Hoe houd je je armen bij de borstcompressies?",
         opties=[
             "gestrekt, met je schouders recht boven je handen",
-            "gebogen, zodat je kracht uit je armen komt",
+            "gebogen, zodat je kracht vooral uit je armen komt",
             "gestrekt, met je schouders naast je handen",
             "gebogen, met je ellebogen tegen je zij",
         ],
@@ -316,7 +316,7 @@ DEEL2 = [
         vraag="Beslist de AED zelf of er een stroomstoot nodig is?",
         opties=[
             "ja, hij meet het hartritme en beslist dan",
-            "nee, de hulpverlener beslist dat",
+            "nee, de hulpverlener beslist dat zelf na het kijken",
             "nee, dat mag enkel de ambulancier",
             "ja, maar enkel bij kinderen",
         ],
@@ -340,7 +340,7 @@ DEEL2 = [
         vraag="Je bent alleen, je bent uitgeput, en de ambulance is er nog niet. Wat doe je?",
         opties=[
             "je laat iemand anders overnemen en blijft zo doorgaan",
-            "je stopt tot je weer kan",
+            "je stopt even tot je zelf weer op adem gekomen bent",
             "je gaat over op enkel beademen",
             "je legt het slachtoffer in zijligging en wacht",
         ],

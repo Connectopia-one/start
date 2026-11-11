@@ -35,7 +35,7 @@ DEEL1 = [
         vraag="Wat is een arbeidsovereenkomst?",
         opties=[
             "de afspraak tussen één werknemer en zijn werkgever",
-            "de regels die in het hele bedrijf gelden",
+            "de regels die in het hele bedrijf voor iedereen gelden",
             "de wet over werken in België",
             "het document met je loon van vorige maand",
         ],
@@ -47,7 +47,7 @@ DEEL1 = [
         vraag="Op welke drie manieren deel je de arbeidsovereenkomsten in?",
         opties=[
             "naar de aard van het werk, de duur en de omvang van de prestaties",
-            "naar het loon, de sector en de leeftijd",
+            "naar het loon, de sector waarin je werkt en de leeftijd van de werknemer",
             "naar het statuut, de werkgever en de woonplaats",
             "naar de opleiding, de ervaring en het contracttype",
         ],
@@ -71,8 +71,8 @@ DEEL1 = [
         vraag="Welke soorten arbeidsovereenkomsten onderscheid je naar de duur?",
         opties=[
             "bepaalde duur, onbepaalde duur, vervangingsduur en welomschreven werk",
-            "bepaalde duur en onbepaalde duur",
-            "voltijds, deeltijds en seizoenswerk",
+            "bepaalde duur en onbepaalde duur, met een proefperiode bij elk contract",
+            "voltijds, deeltijds en seizoenswerk, telkens met een vaste of tijdelijke duur",
             "proefperiode, vaste benoeming en interim",
         ],
         antwoord=0,
@@ -222,7 +222,7 @@ DEEL1 = [
         vraag="Waarom is een arbeidsovereenkomst belangrijk voor de werkgever?",
         opties=[
             "ze legt vast wat hij van de werknemer mag verwachten",
-            "ze zorgt dat hij geen RSZ moet betalen",
+            "ze zorgt dat hij geen RSZ moet betalen op het brutoloon",
             "ze vervangt de wet op de arbeidsovereenkomsten",
             "ze maakt ontslag onmogelijk",
         ],
@@ -285,7 +285,7 @@ DEEL2 = [
         vraag="Wat is overloon?",
         opties=[
             "een toeslag bovenop het gewone loon voor overwerk",
-            "het loon dat je te veel gekregen hebt",
+            "het loon dat je te veel gekregen hebt en moet terugbetalen",
             "het loon van een leidinggevende",
             "het deel van je loon dat belast wordt",
         ],
@@ -297,7 +297,7 @@ DEEL2 = [
         vraag="Wat is een schorsing van de arbeidsovereenkomst?",
         opties=[
             "het contract blijft bestaan maar het werk ligt tijdelijk stil",
-            "het contract wordt definitief beëindigd",
+            "het contract wordt definitief beëindigd, met een opzegperiode",
             "de werknemer krijgt een officiële waarschuwing",
             "het loon wordt een maand ingehouden",
         ],
@@ -309,7 +309,7 @@ DEEL2 = [
         vraag="Wat betekent het verbod op nachtarbeid?",
         opties=[
             "werken tijdens de nacht mag in principe niet, met uitzonderingen",
-            "nachtwerk mag altijd als je er een toeslag voor krijgt",
+            "nachtwerk mag altijd als je er een toeslag of extra verlof voor krijgt",
             "nachtwerk is overal verboden zonder uitzondering",
             "nachtwerk mag enkel voor bedienden",
         ],
@@ -321,7 +321,7 @@ DEEL2 = [
         vraag="Welk bronmateriaal kan je op het examen krijgen?",
         opties=[
             "een arbeidsovereenkomst, een arbeidsreglement of een loonfiche",
-            "enkel een wettekst",
+            "enkel een wettekst uit het Belgisch Staatsblad over arbeidsrecht",
             "enkel de brochure van een vakbond",
             "een filmpje van je toekomstige werkgever",
         ],

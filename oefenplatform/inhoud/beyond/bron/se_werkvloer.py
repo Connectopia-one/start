@@ -31,7 +31,7 @@ DEEL1 = [
         vraag="Wie is er verantwoordelijk voor een veilige werkplek?",
         opties=[
             "de werkgever, en de werknemer werkt veilig mee",
-            "enkel de werknemer zelf",
+            "enkel de werknemer zelf, want hij doet het werk",
             "enkel de overheid",
             "enkel de verzekeraar van het bedrijf",
         ],
@@ -43,7 +43,7 @@ DEEL1 = [
         vraag="Wat is preventie op het werk?",
         opties=[
             "maatregelen nemen voordat er iets misgaat",
-            "een ongeval melden bij de verzekering",
+            "een ongeval melden bij de verzekering van het bedrijf",
             "een gewonde collega verzorgen",
             "een ongeval onderzoeken achteraf",
         ],
@@ -79,7 +79,7 @@ DEEL1 = [
         vraag="Wat hoort bij welzijn op het werk, naast de lichamelijke veiligheid?",
         opties=[
             "de werkdruk en de sfeer in de ploeg",
-            "de hoogte van het loon",
+            "de hoogte van het loon en de premies",
             "het aantal vakantiedagen",
             "de duur van het contract",
         ],
@@ -91,7 +91,7 @@ DEEL1 = [
         vraag="Een machine heeft een losse kap en iemand kan erbij. Wat doe je?",
         opties=[
             "je meldt het meteen en gebruikt de machine niet",
-            "je gebruikt ze voorzichtig verder",
+            "je gebruikt ze voorzichtig verder tot de pauze komt",
             "je wacht tot iemand anders het meldt",
             "je repareert ze zelf met wat je vindt",
         ],
@@ -115,7 +115,7 @@ DEEL1 = [
         vraag="Waarvoor dient het CPBW?",
         opties=[
             "overleggen over veiligheid en welzijn in het bedrijf",
-            "de lonen onderhandelen",
+            "de lonen onderhandelen tussen de werkgever en de vakbonden",
             "de werkloosheidsuitkering uitbetalen",
             "de vacatures in het bedrijf invullen",
         ],
@@ -246,7 +246,7 @@ DEEL2 = [
         vraag="Waarvoor staat de afkorting VDAB?",
         opties=[
             "Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding",
-            "Vlaamse Diensten voor Arbeid en Bedrijven",
+            "Vlaamse Diensten voor Arbeid, Bedrijven en Beroepsopleiding",
             "Vereniging van Dienstverleners en Arbeidsbureaus",
             "Vlaamse Databank voor Arbeid en Beroepen",
         ],
@@ -291,7 +291,7 @@ DEEL2 = [
         vraag="Waarvoor dient de RSZ?",
         opties=[
             "de bijdragen voor de sociale zekerheid innen en beheren",
-            "werklozen aan een job helpen",
+            "werklozen helpen een nieuwe job te vinden en hen een opleiding geven",
             "de veiligheid in bedrijven controleren",
             "de lonen van alle sectoren vastleggen",
         ],
@@ -303,7 +303,7 @@ DEEL2 = [
         vraag="Waarvoor kan je bij een vakbond terecht?",
         opties=[
             "advies en verdediging van je belangen als werknemer",
-            "het uitbetalen van je loon",
+            "het uitbetalen van je loon aan het einde van de maand",
             "het innen van de sociale bijdragen",
             "het goedkeuren van je arbeidsovereenkomst",
         ],

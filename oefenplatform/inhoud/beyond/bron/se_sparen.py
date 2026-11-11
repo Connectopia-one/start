@@ -34,7 +34,7 @@ DEEL1 = [
         vraag="Waarvoor dient een zichtrekening?",
         opties=[
             "je dagelijkse verrichtingen: loon ontvangen en betalingen doen",
-            "geld voor langere tijd vastzetten tegen een hogere rente",
+            "geld voor langere tijd vastzetten tegen een hogere rente dan gewoonlijk",
             "geld opzij zetten dat je niet dagelijks nodig hebt",
             "aandelen kopen en verkopen",
         ],
@@ -46,7 +46,7 @@ DEEL1 = [
         vraag="Waarvoor dient een spaarrekening?",
         opties=[
             "geld opzij zetten dat je toch nog kan opvragen",
-            "je dagelijkse betalingen doen",
+            "je dagelijkse betalingen doen met je bankkaart",
             "geld een vaste periode vastzetten",
             "aandelen van bedrijven bewaren",
         ],
@@ -58,7 +58,7 @@ DEEL1 = [
         vraag="Waarvoor dient een termijnrekening?",
         opties=[
             "geld een afgesproken tijd vastzetten tegen een vaste rente",
-            "geld dat je elk moment nodig kan hebben",
+            "geld opzij zetten dat je op elk moment terug kan opvragen bij de bank",
             "je loon ontvangen",
             "cryptomunten bewaren",
         ],
@@ -125,7 +125,7 @@ DEEL1 = [
         vraag="Waarom levert hetzelfde bedrag op een termijnrekening meestal meer op dan op een spaarrekening?",
         opties=[
             "omdat je het voor een afgesproken tijd vastzet",
-            "omdat de bank er geen kosten op aanrekent",
+            "omdat de bank er geen kosten op aanrekent bij het openen",
             "omdat er geen belasting op betaald wordt",
             "omdat het bedrag groter moet zijn",
         ],
@@ -266,7 +266,7 @@ DEEL2 = [
         vraag="Wat is een beleggingsfonds?",
         opties=[
             "een mand met veel verschillende beleggingen samen",
-            "een rekening bij de bank met vaste rente",
+            "een rekening bij de bank met een vaste rente per jaar",
             "een lening aan de overheid",
             "een digitale munt",
         ],
@@ -290,7 +290,7 @@ DEEL2 = [
         vraag="Wat is het verband tussen risico en rendement?",
         opties=[
             "meer kans op opbrengst gaat samen met meer kans op verlies",
-            "meer risico geeft altijd meer opbrengst",
+            "meer risico geeft altijd meer opbrengst, dus wie durft wint altijd",
             "minder risico geeft altijd meer opbrengst",
             "ze hebben niets met elkaar te maken",
         ],
@@ -333,7 +333,7 @@ DEEL2 = [
         vraag="Waarom staat je kennis over de financiële markt bij de factoren?",
         opties=[
             "omdat je niet moet beleggen in iets wat je niet begrijpt",
-            "omdat je anders geen rekening mag openen",
+            "omdat je anders geen rekening mag openen bij een bank of een beurs",
             "omdat de bank dat wettelijk moet testen",
             "omdat kennis de rente verhoogt",
         ],

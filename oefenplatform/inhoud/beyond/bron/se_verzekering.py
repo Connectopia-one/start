@@ -36,7 +36,7 @@ DEEL1 = [
         vraag="Waarom sluit je een verzekering af?",
         opties=[
             "om een schade te kunnen dragen die je zelf niet zou kunnen betalen",
-            "om nooit meer schade te veroorzaken",
+            "om een vergoeding te krijgen bij elk klein ongemak dat je overkomt",
             "omdat de wet dat voor alles verplicht",
             "om een vergoeding te krijgen bij elk klein ongemak",
         ],
@@ -48,7 +48,7 @@ DEEL1 = [
         vraag="Wat is het verschil tussen verantwoordelijk en juridisch aansprakelijk?",
         opties=[
             "verantwoordelijk is wie het deed, aansprakelijk wie er volgens de wet voor opdraait",
-            "aansprakelijk is wie het deed, verantwoordelijk wie betaalt",
+            "aansprakelijk is wie het deed, verantwoordelijk wie volgens de wet de schade betaalt",
             "het zijn twee woorden voor hetzelfde",
             "aansprakelijk geldt enkel voor bedrijven",
         ],
@@ -60,7 +60,7 @@ DEEL1 = [
         vraag="Een kind van zes trapt een bal door het raam van de buren. Wie is juridisch aansprakelijk?",
         opties=[
             "de ouders van het kind",
-            "het kind zelf",
+            "het kind zelf, want het trapte de bal",
             "de buren",
             "niemand",
         ],
@@ -84,7 +84,7 @@ DEEL1 = [
         vraag="Je woning loopt waterschade op door een brand bij de buren. Welke verzekering komt eerst in beeld?",
         opties=[
             "de brandverzekering",
-            "de familiale verzekering",
+            "de familiale verzekering van het gezin",
             "de autoverzekering",
             "de verzekering bromfiets",
         ],
@@ -120,7 +120,7 @@ DEEL1 = [
         vraag="Welke vijf verzekeringen komen in dit hoofdstuk aan bod?",
         opties=[
             "auto, bromfiets, brand, familiale en rechtsbijstand",
-            "auto, brand, hospitalisatie, reis en familiale",
+            "auto, brand, hospitalisatie, reis en familiale verzekering",
             "familiale, schuld, brand, leven en auto",
             "auto, fiets, brand, diefstal en rechtsbijstand",
         ],
@@ -222,7 +222,7 @@ DEEL1 = [
         vraag="Wat is de aard van de schade in een schadeaangifte?",
         opties=[
             "wat er precies beschadigd is en hoe",
-            "het bedrag dat je terugkrijgt",
+            "het bedrag dat je van de verzekeraar terugkrijgt",
             "de naam van de verzekeraar",
             "het moment waarop het gebeurde",
         ],
@@ -237,7 +237,7 @@ DEEL2 = [
         vraag="Wat is een polis?",
         opties=[
             "het contract waarin je verzekering beschreven staat",
-            "het bedrag dat je jaarlijks betaalt",
+            "het bedrag dat je jaarlijks betaalt aan de verzekeraar",
             "het deel van de schade dat je zelf draagt",
             "het formulier waarmee je schade aangeeft",
         ],
@@ -249,7 +249,7 @@ DEEL2 = [
         vraag="Wie is de verzekeringsnemer?",
         opties=[
             "wie het contract afsluit en de premie betaalt",
-            "wie door de verzekering gedekt is",
+            "wie door de verzekering gedekt is bij een schade",
             "de maatschappij die uitbetaalt",
             "wie het geld bij schade ontvangt",
         ],
@@ -261,7 +261,7 @@ DEEL2 = [
         vraag="Wie is de verzekerde?",
         opties=[
             "de persoon die door de verzekering gedekt is",
-            "de persoon die het contract ondertekende",
+            "de persoon die het contract ondertekende bij de verzekeraar",
             "de maatschappij die het risico draagt",
             "de getuige van het schadegeval",
         ],
@@ -273,7 +273,7 @@ DEEL2 = [
         vraag="Wie is de verzekeraar?",
         opties=[
             "de maatschappij die het risico draagt en uitbetaalt",
-            "de persoon die het contract afsluit",
+            "de persoon die het contract afsluit en de premie betaalt",
             "de makelaar die het contract verkocht",
             "de persoon die de schade veroorzaakte",
         ],
@@ -316,7 +316,7 @@ DEEL2 = [
         vraag="Wat is het verzekerd risico?",
         opties=[
             "waartegen je precies verzekerd bent volgens de polis",
-            "de kans dat je schade zal hebben",
+            "de kans dat je in een bepaald jaar schade zal hebben",
             "het bedrag dat je zelf draagt",
             "het aantal jaren dat je verzekerd bent",
         ],

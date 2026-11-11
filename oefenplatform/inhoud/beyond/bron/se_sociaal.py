@@ -50,7 +50,7 @@ DEEL1 = [
         vraag="Waarvoor staat de afkorting RSZ?",
         opties=[
             "Rijksdienst voor Sociale Zekerheid",
-            "Rijksdienst voor Sociale Zorg",
+            "Rijksdienst voor Sociale Zorg en Zekerheid",
             "Regeling Sociale Zekerheid",
             "Raad voor Sociale Zaken",
         ],
@@ -62,7 +62,7 @@ DEEL1 = [
         vraag="Door wie wordt de RSZ gefinancierd?",
         opties=[
             "door de werkgevers, de werknemers en de overheid",
-            "enkel door de werkgevers",
+            "enkel door de werkgevers, via een bijdrage bovenop het brutoloon",
             "enkel door de werknemers",
             "door de werkgevers en de banken",
         ],
@@ -240,7 +240,7 @@ DEEL2 = [
         vraag="Wat is herverdeling?",
         opties=[
             "de overheid verschuift middelen van sterkere naar zwakkere schouders",
-            "de overheid verdeelt haar uitgaven gelijk over alle gemeenten",
+            "de overheid verdeelt haar uitgaven gelijk over alle gemeenten van het land",
             "de overheid verdeelt de belastingen over het jaar",
             "de overheid verdeelt het werk over de bedrijven",
         ],
@@ -336,7 +336,7 @@ DEEL2 = [
         vraag="Wat is het groeipakket?",
         opties=[
             "de Vlaamse steun voor gezinnen met kinderen",
-            "een spaarplan voor jongeren",
+            "een spaarplan voor jongeren dat de overheid aanvult",
             "een premie voor wie een huis bouwt",
             "een korting op het openbaar vervoer",
         ],
@@ -348,7 +348,7 @@ DEEL2 = [
         vraag="Waarom zijn er indirecte belastingen met verschillende tarieven?",
         opties=[
             "zodat noodzakelijke producten lichter belast worden dan luxe",
-            "zodat elke winkel zijn eigen tarief kan kiezen",
+            "zodat elke winkel zelf kan kiezen welk tarief hij aan zijn klanten aanrekent",
             "zodat de overheid elk jaar meer kan innen",
             "zodat dure producten vrijgesteld blijven",
         ],

@@ -54,7 +54,7 @@ DEEL1 = [
         vraag="Met welke drie dingen zijn de lagen van je persoonlijke identiteit verbonden?",
         opties=[
             "biologische aspecten, persoonlijkheidstrekken en familiale achtergrond",
-            "nationaliteit, subcultuur en sociaaleconomische groep",
+            "nationaliteit, subcultuur, sociaaleconomische groep en de woonplaats van het gezin",
             "opleiding, beroep en inkomen van je ouders of verzorgers",
             "taal, geloofsovertuiging en de streek waar je woont",
         ],
@@ -232,7 +232,7 @@ DEEL2 = [
         vraag="Welke drie factoren vormen en beïnvloeden je identiteit?",
         opties=[
             "verbondenheid, discriminatie en wij-zij-denken",
-            "opvoeding, onderwijs en vriendenkring",
+            "opvoeding, onderwijs en vriendenkring of jeugdbeweging",
             "taal, geloof en nationaliteit",
             "inkomen, beroep en woonplaats",
         ],
@@ -244,7 +244,7 @@ DEEL2 = [
         vraag="Wat is verbondenheid als factor in de vorming van een identiteit?",
         opties=[
             "het gevoel ergens bij te horen en erkend te worden",
-            "het aantal mensen dat je in je omgeving kent",
+            "het aantal mensen dat je in je omgeving kent en groet",
             "de band die je wettelijk met je familie hebt",
             "de plicht om je aan te passen aan een groep",
         ],
@@ -316,7 +316,7 @@ DEEL2 = [
         vraag="Kan iemands wereldbeeld veranderen?",
         opties=[
             "ja, een wereldbeeld kan in de loop van een leven veranderen",
-            "nee, een wereldbeeld staat vast na de kindertijd",
+            "nee, een wereldbeeld staat vast na de kindertijd en verandert niet",
             "enkel wanneer iemand van land verhuist",
             "enkel wanneer iemand van geloof verandert",
         ],
@@ -352,7 +352,7 @@ DEEL2 = [
         vraag="Welke lagen zijn het meest bepalend voor iemands identiteit?",
         opties=[
             "dat verschilt van persoon tot persoon en vraagt reflectie",
-            "altijd de biologische aspecten, want die liggen vast",
+            "altijd de biologische aspecten, want die liggen al vast bij je geboorte",
             "altijd de groepsidentiteit, want de groep is sterker",
             "altijd de familiale achtergrond, want die komt eerst",
         ],
@@ -418,7 +418,7 @@ DEEL2 = [
         vraag="Waarover moet je kunnen reflecteren bij dit blok?",
         opties=[
             "hoe persoonlijke identiteit en groepsidentiteit elkaar beïnvloeden",
-            "hoe je een identiteitskaart aanvraagt bij de gemeente",
+            "hoe je een identiteitskaart of een paspoort aanvraagt bij de gemeente",
             "hoeveel subculturen er in België bestaan",
             "welke nationaliteit het meest voorkomt in je klas",
         ],

@@ -44,7 +44,7 @@ DEEL1 = [
         vraag="Wat is multiculturalisme?",
         opties=[
             "meerdere culturen die naast elkaar bestaan in één samenleving",
-            "één cultuur waaraan alle anderen zich moeten aanpassen",
+            "één cultuur waaraan alle anderen zich moeten aanpassen in het land",
             "het samensmelten van alle culturen tot één nieuwe",
             "het uitsluiten van mensen met een andere cultuur",
         ],
@@ -67,8 +67,8 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is het verschil tussen integratie en inclusie?",
         opties=[
-            "bij integratie past de nieuwkomer zich aan, bij inclusie past de groep zich mee aan",
-            "bij inclusie past de nieuwkomer zich aan, bij integratie de groep",
+            "bij integratie past de nieuwkomer zich aan, bij inclusie ook de groep",
+            "bij inclusie past de nieuwkomer zich aan, bij integratie past de groep zich aan",
             "integratie geldt voor personen, inclusie enkel voor landen",
             "er is geen verschil, het zijn twee namen voor hetzelfde",
         ],
@@ -142,7 +142,7 @@ DEEL1 = [
         vraag="Een jeugdbeweging heeft leden die katholiek, moslim, atheïst en zoekend zijn. Welke vorm van diversiteit is dat?",
         opties=[
             "levensbeschouwelijke diversiteit",
-            "culturele diversiteit",
+            "culturele diversiteit binnen één vereniging",
             "sociale diversiteit",
             "lichaamsdiversiteit",
         ],
@@ -209,7 +209,7 @@ DEEL1 = [
         vraag="Welk woord gebruik je naast religieuze diversiteit?",
         opties=[
             "levensbeschouwelijke diversiteit",
-            "spirituele diversiteit",
+            "spirituele diversiteit of geloofsverscheidenheid",
             "kerkelijke diversiteit",
             "morele diversiteit",
         ],
@@ -259,8 +259,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat zijn de vijf uitdagingen van samenleven in diversiteit?",
         opties=[
-            "meningsverschillen, verschillende belangen, verschillende referentiekaders, groepsdenken en uitsluiting",
-            "taalproblemen, woningnood, werkloosheid, armoede en criminaliteit in de grotere steden",
+            "meningsverschillen, verschillende belangen en referentiekaders, groepsdenken, uitsluiting",
+            "taalproblemen, woningnood, werkloosheid, armoede en criminaliteit in de grotere steden van het land",
             "pesten, racisme, discriminatie, uitsluiting en geweld op school en op het werk",
             "files, drukte, lawaai, afval en vervuiling in de buurten waar veel mensen wonen",
         ],

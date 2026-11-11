@@ -42,7 +42,7 @@ DEEL1 = [
         opties=[
             "tekenopmaak werkt op de geselecteerde letters, alineaopmaak op de hele alinea",
             "tekenopmaak werkt op de hele alinea, alineaopmaak op de letters",
-            "tekenopmaak geldt voor het hele document",
+            "tekenopmaak geldt voor het hele document, alineaopmaak enkel voor één enkele alinea",
             "er is geen verschil",
         ],
         antwoord=0,
@@ -115,7 +115,7 @@ DEEL1 = [
         vraag="Wat is uitvullen als uitlijning?",
         opties=[
             "de tekst sluit links én rechts netjes aan",
-            "de tekst staat tegen de linkerkant",
+            "de tekst staat netjes tegen de linkerkant",
             "de tekst staat in het midden",
             "de tekst staat tegen de rechterkant",
         ],
@@ -222,7 +222,7 @@ DEEL2 = [
         vraag="Wat regel je met de marges?",
         opties=[
             "de witte rand rond de tekst op een blad",
-            "de ruimte tussen de alinea's",
+            "de ruimte tussen de alinea's van de tekst",
             "de breedte van een tabel",
             "de grootte van de letters",
         ],
@@ -258,7 +258,7 @@ DEEL2 = [
         vraag="Waarvoor dient een kop- en voettekst?",
         opties=[
             "tekst die bovenaan of onderaan op elke bladzijde terugkomt",
-            "de titel van het document in een groot lettertype",
+            "de titel van het document, in een groot lettertype bovenaan",
             "de eerste en de laatste alinea van een document",
             "de inhoudstafel van een document",
         ],
@@ -282,7 +282,7 @@ DEEL2 = [
         vraag="Wat is arcering in een tabel?",
         opties=[
             "een kleur of patroon als achtergrond van een cel",
-            "de lijn rond een cel",
+            "de lijn of de rand rond een cel of rond de hele tabel",
             "de uitlijning van de tekst in een cel",
             "de breedte van een kolom",
         ],
@@ -318,7 +318,7 @@ DEEL2 = [
         vraag="Wat kan je instellen bij het afdrukken?",
         opties=[
             "de sortering, enkel- of dubbelzijdig, en kleur",
-            "de regelafstand en de uitlijning van een alinea",
+            "de regelafstand tussen de lijnen van de alinea groter maken",
             "het lettertype en de tekengrootte van de tekst",
             "de marges en de kop- en voettekst van de pagina",
         ],

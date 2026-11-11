@@ -37,7 +37,7 @@ DEEL1 = [
         vraag="Wat is een directe belasting?",
         opties=[
             "een belasting die rechtstreeks van jou naar de overheid gaat",
-            "een belasting die in de prijs van een product zit",
+            "een belasting die in de prijs van een product of een dienst zit",
             "een belasting die je enkel bij een aankoop betaalt",
             "een belasting die je in één keer per jaar betaalt",
         ],
@@ -49,7 +49,7 @@ DEEL1 = [
         vraag="Wat is een indirecte belasting?",
         opties=[
             "een belasting die in de prijs van een product of dienst zit",
-            "een belasting die de overheid op je loon inhoudt",
+            "een belasting die de overheid op je loon inhoudt, elke maand",
             "een belasting op de grond die je bezit",
             "een belasting die je enkel als zelfstandige betaalt",
         ],
@@ -108,8 +108,8 @@ DEEL1 = [
         type="meerkeuze",
         vraag="De stad verhuurt een gebouw aan een vereniging. Welke soort inkomst is dat?",
         opties=[
-            "een inkomst uit het kapitaal dat de overheid zelf bezit",
-            "een diverse inkomst",
+            "een inkomst uit eigen kapitaal van de overheid",
+            "een diverse inkomst, zoals een boete die de stad aan een vereniging oplegt",
             "een directe belasting",
             "een indirecte belasting",
         ],
@@ -410,7 +410,7 @@ DEEL2 = [
         vraag="Een gemeente kiest tussen een nieuwe bibliotheek en een nieuwe fietsbrug. Welke twee soorten uitgaven staan hier tegenover elkaar?",
         opties=[
             "het maatschappelijk leven en een collectieve behoefte",
-            "een sociale uitgave en een collectieve behoefte",
+            "een sociale uitgave en een collectieve behoefte van de inwoners",
             "economische groei en een sociale uitgave",
             "een diverse inkomst en een sociale uitgave",
         ],

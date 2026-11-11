@@ -56,7 +56,7 @@ DEEL1 = [
         vraag="Wat is de indeling van een dia?",
         opties=[
             "het vaste patroon van vakken voor een titel, tekst en beeld op die dia",
-            "de plaats van die dia in de volgorde van de hele presentatie",
+            "de plaats van die dia in de volgorde van de hele presentatie, van begin tot einde",
             "de achtergrondkleur die onder alle dia's van de reeks ligt",
             "de tijd die je tijdens het presenteren aan die dia besteedt",
         ],
@@ -68,7 +68,7 @@ DEEL1 = [
         vraag="Wat doet dupliceren van een dia?",
         opties=[
             "er een exacte kopie van bij zetten, met dezelfde inhoud en opmaak",
-            "de dia naar het einde van de presentatie verplaatsen",
+            "de dia naar het einde van de presentatie verplaatsen, na de laatste dia",
             "de dia verwijderen en de volgende naar voren halen",
             "de inhoud van twee dia's tot één enkele dia samenvoegen",
         ],

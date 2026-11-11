@@ -42,7 +42,7 @@ DEEL1 = [
         vraag="Wat is een cel in Excel?",
         opties=[
             "het vakje waar een rij en een kolom elkaar kruisen",
-            "een volledige rij met gegevens",
+            "een volledige rij met gegevens, van links naar rechts",
             "een blad binnen een bestand",
             "een groep vakjes die je samen selecteert",
         ],
@@ -54,7 +54,7 @@ DEEL1 = [
         vraag="Wat is een celadres?",
         opties=[
             "de kolomletter en het rijnummer samen, zoals B7",
-            "de naam van het werkblad",
+            "de naam van het werkblad onderaan in het bestand",
             "de plaats waar het bestand opgeslagen staat",
             "het aantal tekens in een cel",
         ],
@@ -116,7 +116,7 @@ DEEL1 = [
         vraag="Wat doet voorwaardelijke opmaak?",
         opties=[
             "een cel automatisch opmaken als de inhoud aan een voorwaarde voldoet",
-            "de cel opmaken zoals de cel ernaast",
+            "de cel automatisch opmaken zoals de cel ernaast, met dezelfde kleur en rand",
             "een formule enkel uitvoeren onder een voorwaarde",
             "de opmaak van het hele werkblad vastzetten",
         ],
@@ -140,7 +140,7 @@ DEEL1 = [
         vraag="Wat is de tekststand in de celopmaak?",
         opties=[
             "de hoek waaronder de tekst in de cel staat",
-            "de plaats van de tekst links of rechts",
+            "de plaats van de tekst links of rechts in de cel",
             "het lettertype van de tekst",
             "of de tekst vet staat",
         ],
@@ -208,7 +208,7 @@ DEEL1 = [
         vraag="Je wil tussen rij 4 en rij 5 een nieuwe rij. Wat doe je?",
         opties=[
             "rij 5 selecteren en een rij invoegen",
-            "rij 4 wissen en opnieuw typen",
+            "rij 4 wissen en alles daarna opnieuw typen",
             "de kolombreedte aanpassen",
             "de cellen samenvoegen",
         ],
@@ -230,7 +230,7 @@ DEEL2 = [
         vraag="Welke operatoren gebruik je in formules?",
         opties=[
             "maal, min, plus, gedeeld door en haakjes",
-            "enkel plus en min",
+            "enkel plus en min, de rest doe je met functies",
             "machtsverheffen en worteltrekken",
             "groter dan en kleiner dan",
         ],
@@ -278,7 +278,7 @@ DEEL2 = [
         vraag="Wat is het verschil tussen A1 en $A$1 in een formule?",
         opties=[
             "A1 schuift mee als je de formule kopieert, $A$1 blijft staan",
-            "$A$1 schuift mee, A1 blijft staan",
+            "$A$1 schuift mee als je kopieert, A1 blijft altijd op dezelfde cel staan",
             "$A$1 betekent dat de cel een bedrag bevat",
             "er is geen verschil",
         ],
@@ -301,8 +301,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat doet de functie ALS?",
         opties=[
-            "een ander resultaat geven naargelang een voorwaarde waar of niet waar is",
-            "een cel enkel opmaken onder een voorwaarde",
+            "een ander resultaat geven naargelang een voorwaarde waar is of niet",
+            "een cel enkel opmaken als de inhoud aan een bepaalde voorwaarde voldoet",
             "een rij verbergen als ze leeg is",
             "een formule stoppen bij een fout",
         ],
@@ -313,8 +313,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat doet de functie VERT.ZOEKEN?",
         opties=[
-            "een waarde opzoeken in de eerste kolom van een tabel en iets uit dezelfde rij teruggeven",
-            "een waarde opzoeken in de eerste rij van een tabel",
+            "een waarde opzoeken in de eerste kolom en iets uit dezelfde rij teruggeven",
+            "een waarde opzoeken in de eerste rij van een tabel en de hele kolom eronder tonen",
             "een kolom verticaal sorteren",
             "alle lege cellen in een kolom zoeken",
         ],

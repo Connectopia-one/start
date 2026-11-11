@@ -114,7 +114,7 @@ DEEL1 = [
         vraag="Wat is een recht van de koper in een verkoopovereenkomst?",
         opties=[
             "een product krijgen dat is wat er beloofd werd",
-            "het product op tijd betalen",
+            "de prijs op tijd betalen, zoals in het contract afgesproken",
             "het product zorgvuldig gebruiken",
             "de verkoper op de hoogte houden",
         ],
@@ -251,7 +251,7 @@ DEEL2 = [
         vraag="Je leent een bedrag bij de bank en betaalt het in vaste schijven terug, los van wat je ermee doet. Welk krediet is dat?",
         opties=[
             "een lening op afbetaling",
-            "een verkoop op afbetaling",
+            "een verkoop op afbetaling in vier jaar",
             "een kredietopening",
             "een financieringshuur",
         ],
@@ -286,8 +286,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Welke van deze zijn onderdelen van een consumentenkrediet?",
         opties=[
-            "de looptijd, de rentevoet, het geleende bedrag, het JKP en het maandbedrag",
-            "de prijs, de korting, de btw en de levering",
+            "de looptijd, de rentevoet, het geleende bedrag, het JKP, het maandbedrag",
+            "de prijs, de korting, de btw, de leveringskosten en de datum van levering",
             "het loon, de uitgaven, de spaarbuffer en de inflatie",
             "de premie, de franchise en het verzekerd risico",
         ],
@@ -299,7 +299,7 @@ DEEL2 = [
         vraag="Wat is het verschil tussen de rentevoet en het jaarlijks kostenpercentage?",
         opties=[
             "het JKP telt alle kosten van het krediet mee, de rentevoet enkel de rente",
-            "de rentevoet telt alle kosten mee, het JKP enkel de rente",
+            "de rentevoet telt alle kosten van het krediet mee, het JKP enkel de rente",
             "het JKP geldt per maand en de rentevoet per jaar",
             "er is geen verschil",
         ],

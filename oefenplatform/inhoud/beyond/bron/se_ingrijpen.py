@@ -45,7 +45,7 @@ DEEL1 = [
         vraag="Wanneer verschuift de vraagcurve zelf?",
         opties=[
             "als er iets anders verandert dan de prijs van het product",
-            "als de prijs van het product daalt",
+            "als de prijs van het product daalt en de kopers er dus meer van willen",
             "als de prijs van het product stijgt",
             "als de verkopers minder aanbieden",
         ],
@@ -141,7 +141,7 @@ DEEL1 = [
         vraag="Je ziet dat de vraagcurve naar links verschoven is. Wat kan de oorzaak zijn?",
         opties=[
             "een vergelijkbaar product is veel goedkoper geworden",
-            "de productiekosten zijn gedaald",
+            "de productiekosten zijn gedaald, waardoor het product goedkoper is",
             "er zijn meer verkopers op de markt",
             "de fabriek heeft een nieuwe machine",
         ],
@@ -240,8 +240,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat zijn de drie soorten overheidsmaatregelen?",
         opties=[
-            "btw en accijnzen, premies en subsidies, en minimum- en maximumprijzen",
-            "belastingen, boetes en vergunningen",
+            "btw en accijnzen, premies en subsidies, minimum- en maximumprijzen",
+            "belastingen op inkomen, boetes voor bedrijven en vergunningen om te verkopen",
             "invoerrechten, exportsteun en quota",
             "rentevoeten, leningen en spaarpremies",
         ],
@@ -253,7 +253,7 @@ DEEL2 = [
         vraag="Wat is een accijns?",
         opties=[
             "een extra belasting op bepaalde producten, zoals brandstof of alcohol",
-            "een korting die de overheid aan producenten geeft",
+            "een korting die de overheid aan producenten van brandstof of alcohol geeft",
             "de laagste prijs waartegen verkocht mag worden",
             "een vergoeding voor een dienst van de gemeente",
         ],
@@ -417,7 +417,7 @@ DEEL2 = [
         vraag="De overheid geeft een premie voor zonnepanelen. Wat verwacht je op die markt?",
         opties=[
             "meer vraag, dus een hogere prijs en meer verkochte panelen",
-            "minder vraag, dus een lagere prijs",
+            "minder vraag, dus een lagere prijs en minder verkochte panelen",
             "minder aanbod, dus een hogere prijs",
             "niets, een premie raakt de markt niet",
         ],

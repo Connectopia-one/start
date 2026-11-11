@@ -39,7 +39,7 @@ DEEL1 = [
         vraag="Wie is de aanbieder op een markt?",
         opties=[
             "de verkoper, die het product op de markt brengt",
-            "de koper, die het product wil hebben",
+            "de koper, die het product graag wil hebben en ervoor betaalt",
             "de bank, die de aankoop financiert",
             "de overheid, die een subsidie geeft",
         ],
@@ -87,7 +87,7 @@ DEEL1 = [
         vraag="Wat is de evenwichtshoeveelheid?",
         opties=[
             "de hoeveelheid die bij de evenwichtsprijs verhandeld wordt",
-            "de hoeveelheid die een bedrijf maximaal kan maken",
+            "de hoeveelheid die een bedrijf maximaal kan maken per jaar",
             "het gemiddelde van vraag en aanbod",
             "de hoeveelheid waarbij de winst het hoogst is",
         ],
@@ -111,7 +111,7 @@ DEEL1 = [
         vraag="Wat lees je af op de horizontale as van een vraag- en aanbodgrafiek?",
         opties=[
             "de hoeveelheid",
-            "de prijs",
+            "de prijs per stuk",
             "de winst",
             "de tijd",
         ],
@@ -287,7 +287,7 @@ DEEL2 = [
         vraag="Wat gebeurt er met de prijs als er een tekort is en de overheid niets doet?",
         opties=[
             "de prijs stijgt naar het evenwicht",
-            "de prijs zakt verder",
+            "de prijs zakt verder tot niemand nog koopt",
             "de prijs blijft onveranderd",
             "de hoeveelheid daalt mee",
         ],
@@ -297,7 +297,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Bij 10 euro vragen de kopers 50 stuks en bieden de verkopers 50 aan. Hoe groot is het overschot?",
-        opties=["er is geen overschot", "50 stuks", "100 stuks", "10 stuks"],
+        opties=["er is geen overschot", "50 stuks, want kopers en verkopers willen evenveel", "100 stuks", "10 stuks"],
         antwoord=0,
         uitleg="Vraag en aanbod zijn gelijk, dus dit is het evenwicht en er blijft niets over.",
     ),

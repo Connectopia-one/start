@@ -35,7 +35,7 @@ DEEL1 = [
         vraag="Welke twee soorten inkomsten onderscheid je?",
         opties=[
             "terugkerende en toevallige inkomsten",
-            "vaste en variabele inkomsten",
+            "vaste en variabele inkomsten per maand",
             "netto- en bruto-inkomsten",
             "eigen en geleende inkomsten",
         ],
@@ -47,7 +47,7 @@ DEEL1 = [
         vraag="Welke vier soorten uitgaven onderscheid je?",
         opties=[
             "variabele, vaste, onvoorziene en uitzonderlijke uitgaven",
-            "vaste en variabele uitgaven",
+            "vaste en variabele uitgaven, en daarnaast de spaarbuffer",
             "noodzakelijke en overbodige uitgaven",
             "maandelijkse, jaarlijkse en eenmalige uitgaven",
         ],
@@ -131,7 +131,7 @@ DEEL1 = [
         vraag="Wat is het verschil tussen een onvoorziene en een uitzonderlijke uitgave?",
         opties=[
             "een onvoorziene zie je niet aankomen, een uitzonderlijke wel",
-            "een onvoorziene is altijd groter",
+            "een onvoorziene is altijd groter dan een uitzonderlijke uitgave",
             "een uitzonderlijke komt elke maand terug",
             "er is geen verschil",
         ],
@@ -217,7 +217,7 @@ DEEL1 = [
         vraag="Iemand rekent in zijn budget enkel met zijn vaste uitgaven. Wat loopt er mis?",
         opties=[
             "hij houdt geen rekening met variabele, onvoorziene en uitzonderlijke uitgaven",
-            "hij telt zijn loon twee keer mee en komt op een veel te hoog bedrag",
+            "hij telt zijn loon twee keer mee en komt zo op een veel te hoog bedrag per maand uit",
             "hij vergeet de toevallige inkomsten die er in een jaar nog bijkomen",
             "hij rekent met zijn brutoloon in plaats van met wat hij echt ontvangt",
         ],
@@ -251,7 +251,7 @@ DEEL2 = [
         vraag="Wat is een spaarbuffer?",
         opties=[
             "geld dat je opzij houdt voor onverwachte kosten",
-            "de rente die je op je spaarrekening krijgt",
+            "de rente die je elk jaar op je spaarrekening krijgt",
             "het maximum dat je per maand mag sparen",
             "een lening die je bij jezelf afsluit",
         ],
@@ -263,7 +263,7 @@ DEEL2 = [
         vraag="Wat bedoel je met de noodzakelijkheid als factor?",
         opties=[
             "heb je dit echt nodig of wil je het gewoon graag",
-            "hoe lang het product meegaat",
+            "hoe lang het product meegaat voordat je een nieuw nodig hebt",
             "hoeveel het kost om het te financieren",
             "of de prijs volgend jaar zal stijgen",
         ],
@@ -287,7 +287,7 @@ DEEL2 = [
         vraag="Wat is de financieringskost?",
         opties=[
             "wat het je extra kost om de aankoop te lenen in plaats van te betalen",
-            "de prijs die op het etiket van het product zelf staat, zonder extra kosten",
+            "de prijs die op het etiket staat, zonder kosten voor levering of plaatsing",
             "de btw die de verkoper in de prijs van de aankoop verrekent",
             "de kost om het product tot bij je thuis te laten leveren",
         ],
@@ -299,7 +299,7 @@ DEEL2 = [
         vraag="Waarom staat de inflatie bij de factoren?",
         opties=[
             "omdat geld na verloop van tijd minder waard wordt",
-            "omdat producten elk jaar goedkoper worden",
+            "omdat producten elk jaar wat goedkoper worden door de concurrentie",
             "omdat je loon meestal daalt",
             "omdat de btw mee stijgt",
         ],
@@ -311,7 +311,7 @@ DEEL2 = [
         vraag="Welke documenten zijn een aankoopbewijs?",
         opties=[
             "de factuur, het kasticket en de aankoopovereenkomst",
-            "het garantiebewijs en de verzekeringspolis",
+            "het garantiebewijs, de handleiding en de verzekeringspolis",
             "het rekeninguittreksel en de loonstrook",
             "de arbeidsovereenkomst en het arbeidsreglement",
         ],
@@ -335,7 +335,7 @@ DEEL2 = [
         vraag="Wat is een individuele rekening in het rijtje van je administratie?",
         opties=[
             "het jaaroverzicht van wat je werkgever je betaalde",
-            "je rekening bij de bank",
+            "je rekening bij de bank waarop je werkgever het loon stort",
             "het overzicht van je kredieten",
             "je persoonlijke belastingaangifte",
         ],

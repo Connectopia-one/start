@@ -60,7 +60,7 @@ DEEL1 = [
         vraag="Wat wordt er als eerste van het brutoloon afgetrokken?",
         opties=[
             "de sociale zekerheidsbijdrage",
-            "de bedrijfsvoorheffing",
+            "de bedrijfsvoorheffing op je loon",
             "de gemeentebelasting",
             "de btw",
         ],
@@ -120,7 +120,7 @@ DEEL1 = [
         vraag="Waarom heet het een voorheffing?",
         opties=[
             "ze wordt vooraf geheven, in de plaats van pas bij de aangifte",
-            "ze wordt enkel geheven bij wie vooruit betaalt",
+            "ze wordt enkel geheven bij wie zijn belastingen vooruit betaalt",
             "ze wordt voor het brutoloon berekend",
             "ze gaat voor op alle andere belastingen",
         ],
@@ -264,7 +264,7 @@ DEEL2 = [
         vraag="Betaalt een student met een studentencontract bedrijfsvoorheffing?",
         opties=[
             "nee, binnen het studentencontract niet",
-            "ja, net als een bediende",
+            "ja, net als een bediende met een gewoon contract",
             "ja, maar aan een lager tarief",
             "enkel in de zomermaanden",
         ],
@@ -336,7 +336,7 @@ DEEL2 = [
         vraag="Wat is de loonkost voor een werkgever?",
         opties=[
             "het brutoloon plus zijn eigen bijdrage aan de RSZ",
-            "het nettoloon van de werknemer",
+            "het nettoloon dat de werknemer op zijn rekening krijgt",
             "het brutoloon min de bedrijfsvoorheffing",
             "het belastbaar loon",
         ],
@@ -402,7 +402,7 @@ DEEL2 = [
         vraag="Een arbeider en een bediende hebben allebei 2.000 euro bruto. Wie betaalt de hoogste sociale bijdrage?",
         opties=[
             "de arbeider, want bij hem rekent men op 108 procent",
-            "de bediende, want hij verdient meer per uur",
+            "de bediende, want hij verdient meer per uur dan de arbeider",
             "allebei evenveel",
             "dat hangt af van hun gezinssituatie",
         ],

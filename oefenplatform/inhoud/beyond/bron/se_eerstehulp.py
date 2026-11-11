@@ -57,7 +57,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Een kind heeft een product uit de kelder gedronken. Welk nummer bel je?",
-        opties=["070 245 245", "1733", "101", "112"],
+        opties=["070 245 245", "1733, de wachtdienst van de huisartsen", "101", "112"],
         antwoord=0,
         uitleg="070 245 245 is het antigifcentrum. Bij een bewusteloos kind bel je 112.",
     ),
@@ -97,7 +97,7 @@ DEEL1 = [
         vraag="Wat is een verstuiking?",
         opties=[
             "de banden rond een gewricht zijn te ver uitgerekt",
-            "het bot is uit het gewricht geschoven",
+            "het bot is uit het gewricht geschoven en staat scheef",
             "het bot is gebroken maar de huid is heel",
             "de spier is tot bloedens toe geraakt",
         ],
@@ -245,8 +245,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat bedoel je met het basisprincipe vermijd besmetting?",
         opties=[
-            "bescherm jezelf en het slachtoffer tegen overdracht van ziekten",
-            "raak het slachtoffer helemaal niet aan",
+            "bescherm jezelf en het slachtoffer tegen overdracht van ziektes",
+            "raak het slachtoffer helemaal niet aan tot de ambulance ter plaatse is",
             "houd andere mensen op afstand van de plaats",
             "desinfecteer de wonde met alcohol",
         ],
@@ -258,7 +258,7 @@ DEEL2 = [
         vraag="Wat betekent het basisprincipe verleen psychosociale hulp?",
         opties=[
             "sta het slachtoffer ook bij met woorden en nabijheid",
-            "breng het slachtoffer naar een psycholoog",
+            "breng het slachtoffer zo snel mogelijk naar een psycholoog",
             "vraag het slachtoffer wat er precies gebeurd is",
             "laat het slachtoffer alleen om te kalmeren",
         ],
@@ -270,7 +270,7 @@ DEEL2 = [
         vraag="Welk basisprincipe gaat over wat er ná de noodsituatie gebeurt?",
         opties=[
             "houd rekening met emotionele reacties achteraf",
-            "zorg voor het comfort van het slachtoffer",
+            "zorg voor het comfort van het slachtoffer tot hulp komt",
             "handel als eerste hulpverlener",
             "vermijd besmetting",
         ],
@@ -294,7 +294,7 @@ DEEL2 = [
         vraag="Wat is de tweede stap in eerste hulp?",
         opties=[
             "beoordeel de toestand van het slachtoffer",
-            "zorg voor veiligheid",
+            "zorg voor veiligheid van jezelf en de omstaanders",
             "raadpleeg gespecialiseerde hulp",
             "verleen verdere eerste hulp",
         ],
@@ -410,7 +410,7 @@ DEEL2 = [
         vraag="Iemand heeft eerste hulp gegeven maar is de gewonde zonder iets te zeggen voorbijgelopen om eerst een ambulance te bellen van thuis uit. Wat liep er mis?",
         opties=[
             "hij beoordeelde de toestand van het slachtoffer niet",
-            "hij zorgde niet voor zijn eigen veiligheid",
+            "hij zorgde niet voor zijn eigen veiligheid op de plaats van het ongeval",
             "hij verleende te veel verdere eerste hulp",
             "hij belde het verkeerde noodnummer",
         ],

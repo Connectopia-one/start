@@ -69,7 +69,7 @@ DEEL1 = [
         vraag="Milan zegt in een discussie: ik begrijp dat je dit anders ziet, maar ik maak me zorgen over het tijdstip. Wat voor communicatie is dat?",
         opties=[
             "constructief, want hij benoemt zijn zorg zonder de ander af te breken",
-            "destructief, want hij spreekt de ander tegen",
+            "destructief, want hij spreekt de ander tegen en zegt dat hij het niet eens is",
             "destructief, want hij gebruikt het woord maar",
             "neutraal, want hij geeft geen eigen mening",
         ],
@@ -88,7 +88,7 @@ DEEL1 = [
         vraag="Wat onderscheidt pesten van een eenmalige ruzie?",
         opties=[
             "pesten is herhaald en gericht tegen dezelfde persoon",
-            "pesten gebeurt enkel online",
+            "pesten gebeurt enkel online, via berichten en sociale media",
             "pesten gebeurt enkel door een hele groep",
             "pesten laat geen sporen na bij het slachtoffer",
         ],
@@ -107,7 +107,7 @@ DEEL1 = [
         vraag="Wat is het verschil tussen discriminatie en racisme?",
         opties=[
             "racisme is discriminatie op basis van afkomst of huidskleur",
-            "discriminatie is strafbaar en racisme niet",
+            "discriminatie is strafbaar en racisme niet, want dat is een mening",
             "racisme gebeurt per ongeluk en discriminatie met opzet",
             "er is geen verschil tussen de twee",
         ],
@@ -210,7 +210,7 @@ DEEL1 = [
         vraag="Twee leerlingen maken in de les ruzie over een opdracht en praten het daarna uit. Wat is dit?",
         opties=[
             "een meningsverschil dat constructief eindigt",
-            "pestgedrag met twee daders",
+            "pestgedrag met twee daders die elkaar uitdagen",
             "uitsluiting van een van de twee",
             "een geval van racisme",
         ],
@@ -232,7 +232,7 @@ DEEL2 = [
         vraag="Wat betekent het kenmerk vrijwillig bij toestemming?",
         opties=[
             "zonder druk, manipulatie, intimidatie of dwang",
-            "zonder dat iemand anders het te weten komt",
+            "zonder dat iemand anders in je omgeving het te weten komt",
             "zonder dat er iets op papier staat",
             "zonder dat er iets voor betaald wordt",
         ],
@@ -256,7 +256,7 @@ DEEL2 = [
         vraag="Wat betekent het kenmerk actueel bij toestemming?",
         opties=[
             "ze geldt voor het huidige moment en de huidige situatie",
-            "ze geldt zolang de relatie duurt",
+            "ze geldt zolang de relatie tussen de twee personen duurt",
             "ze geldt vanaf het moment dat ze gegeven is",
             "ze geldt enkel als ze dezelfde dag herhaald wordt",
         ],
@@ -292,7 +292,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Iemand is zo ziek dat hij niet goed kan overzien wat gevraagd wordt. Welk kenmerk ontbreekt?",
-        opties=["bekwaam gegeven", "specifiek", "duidelijk", "actueel"],
+        opties=["bekwaam gegeven", "specifiek gegeven", "duidelijk", "actueel"],
         antwoord=0,
         uitleg="Bekwaam gegeven betekent dat de persoon een vrije en bewuste keuze kan maken.",
     ),
@@ -301,7 +301,7 @@ DEEL2 = [
         vraag="Iemand zegt niets en blijft stil. Is dat toestemming?",
         opties=[
             "nee, toestemming moet duidelijk geuit of ondubbelzinnig zijn",
-            "ja, wie niets zegt, stemt in",
+            "ja, wie niets zegt en niet protesteert, stemt stilzwijgend in",
             "ja, zolang de ander het zo begrijpt",
             "dat hangt af van hoelang de stilte duurt",
         ],
@@ -313,7 +313,7 @@ DEEL2 = [
         vraag="Wat is groepsdruk?",
         opties=[
             "de invloed van een groep die je tot iets brengt wat je alleen niet zou doen",
-            "het aantal mensen dat op hetzelfde moment in dezelfde ruimte staat",
+            "het aantal mensen dat op hetzelfde moment in dezelfde ruimte staat of zit te wachten",
             "de regels die een vereniging aan haar leden oplegt bij het binnenkomen",
             "de verantwoordelijkheid die een groep samen draagt voor wat ze beslist",
         ],
