@@ -105,7 +105,7 @@ DEEL1 = [
     dict(type="meerkeuze",
          vraag="Waarom noemt men de renaissance en de barok vroegmodern?",
          opties=["ze liggen tussen oud en modern",
-                 "ze zijn het oudst van al",
+                 "ze zijn het oudst van al de periodes",
                  "ze zijn het jongst van al",
                  "ze liggen voor de oudheid"],
          antwoord=0,

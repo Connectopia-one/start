@@ -283,7 +283,7 @@ DEEL2 = [
     dict(type="meerkeuze",
          vraag="Waarom helpt een domein bepalen bij het antwoorden?",
          opties=["je weet welke begrippen gelden",
-                 "je weet hoe lang het duurt",
+                 "je weet hoe lang het antwoord moet zijn",
                  "je weet wie de vraag stelde",
                  "je weet wat het antwoord is"],
          antwoord=0,

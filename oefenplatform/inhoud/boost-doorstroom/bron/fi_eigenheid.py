@@ -263,7 +263,7 @@ DEEL2 = [
     dict(type="meerkeuze",
          vraag="Waarom kan filosofie geen laboratorium gebruiken?",
          opties=["haar vragen zijn niet meetbaar",
-                 "haar vragen zijn te oud",
+                 "haar vragen zijn te oud voor de wetenschap",
                  "haar vragen zijn te nieuw",
                  "haar vragen zijn verboden"],
          antwoord=0,
