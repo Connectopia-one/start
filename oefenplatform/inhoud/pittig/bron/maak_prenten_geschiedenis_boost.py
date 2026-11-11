@@ -255,6 +255,42 @@ def stad():
     (UIT / "stad.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
 
 
+# ---------------------------------------------------------------- bogen
+# Twee bogen zonder namen: A = spitsboog (links), B = rondboog (rechts).
+# Klikvak spitsboog: 0-50 % breed, 0-100 % hoog.
+def bogen():
+    W, Hh = 1000, 520
+    steen = "#d9c49a"
+    d = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {Hh}" width="{W}" height="{Hh}" font-family="Arial, sans-serif">',
+         f'<rect width="{W}" height="{Hh}" fill="{ACHTER}"/>',
+         # A: spitsboog, opening 200 breed, punt bovenaan
+         f'<path d="M110 480 L110 230 Q110 110 250 50 Q390 110 390 230 L390 480 L330 480 L330 240 Q330 160 250 115 Q170 160 170 240 L170 480 Z" fill="{steen}" stroke="#6b4f2a" stroke-width="4"/>',
+         # B: rondboog
+         f'<path d="M610 480 L610 250 A140 140 0 0 1 890 250 L890 480 L830 480 L830 250 A80 80 0 0 0 670 250 L670 480 Z" fill="{steen}" stroke="#6b4f2a" stroke-width="4"/>',
+         f'<line x1="40" y1="482" x2="960" y2="482" stroke="#6b4f2a" stroke-width="4"/>',
+         letter(250, 300, "A"), letter(750, 330, "B"),
+         "</svg>"]
+    (UIT / "bogen.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
+
+
+# ---------------------------------------------------------------- middeleeuwse wereldkaart
+# Schema van een T-in-O-kaart, zonder namen. A = midden, B = bovenste helft,
+# C = linksonder, D = rechtsonder.
+def to_kaart():
+    W, Hh = 760, 720
+    cx, cy, r = 380, 380, 300
+    d = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {Hh}" width="{W}" height="{Hh}" font-family="Arial, sans-serif">',
+         f'<rect width="{W}" height="{Hh}" fill="{ACHTER}"/>',
+         f'<circle cx="{cx}" cy="{cy}" r="{r + 30}" fill="#a9cbe6"/>',
+         f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="#f1e6c4" stroke="#6b4f2a" stroke-width="4"/>',
+         f'<rect x="{cx - r}" y="{cy - 12}" width="{2 * r}" height="24" fill="#a9cbe6"/>',
+         f'<rect x="{cx - 12}" y="{cy}" width="24" height="{r}" fill="#a9cbe6"/>',
+         letter(cx, cy - 50, "A"), letter(cx, cy - 170, "B"), letter(cx - 150, cy + 150, "C"), letter(cx + 150, cy + 150, "D"),
+         f'<text x="{W / 2}" y="30" font-size="20" text-anchor="middle" fill="#555">Schema van een middeleeuwse wereldkaart</text>',
+         "</svg>"]
+    (UIT / "wereldkaart-middeleeuwen.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
+
+
 
 if __name__ == "__main__":
     UIT.mkdir(parents=True, exist_ok=True)
@@ -265,6 +301,9 @@ if __name__ == "__main__":
     tijdlijn_1000_1500()
     domein()
     stad()
+    bogen()
+    to_kaart()
+    print("1215", zone_jaar3(1205, 1225), "1291", zone_jaar3(1281, 1301))
     print("1000-1500 11de eeuw", zone_jaar3(1000, 1100), "1347", zone_jaar3(1337, 1357))
     for j in (476, 751, 800, 843):
         print('400-1000', j, zone_jaar2(j))

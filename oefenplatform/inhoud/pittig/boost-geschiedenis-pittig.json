@@ -1390,6 +1390,457 @@
           ]
         }
       ]
+    },
+    {
+      "titel": "Geloof, kunst en macht in de middeleeuwen — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe verspreidden missionarissen het christendom over West-Europa?",
+          "opties": [
+            "Ze bekeerden eerst de vorst, en daarna volgde zijn volk",
+            "Ze bekeerden eerst de boeren, die daarna hun heer overtuigden",
+            "Ze lieten elk dorp zelf stemmen over het nieuwe geloof",
+            "Ze bouwden eerst scholen, en pas eeuwen later kerken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bekeerde je de koning, dan volgde zijn hofhouding en daarna zijn onderdanen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Oude gewoonten en het christendom gingen vaak samen. Klopt elke uitspraak?",
+          "rijen": [
+            "Een midwinterfeest kreeg een christelijke betekenis.",
+            "Een oude bron kon een heiligenbron worden.",
+            "Alle oude gebruiken verdwenen meteen na de bekering.",
+            "De oude goden bleven officieel naast de christelijke God vereerd."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Sommige feesten en gebruiken kregen een christelijke betekenis. Zo versmolten Germaanse, Romeinse en christelijke gewoonten."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "De katholieke Kerk was opgebouwd als een piramide: bovenaan de [[paus]], daaronder de [[bisschoppen]], en daaronder de [[pastoors]] in de parochies.",
+          "extra": [
+            "koning",
+            "graven",
+            "ridders"
+          ],
+          "uitleg": "Paus, bisschoppen, pastoors. Die vaste ordening gaf de Kerk macht over de grenzen van vorstendommen heen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Deden de middeleeuwse kloosters dit of niet?",
+          "kolommen": [
+            "Deden ze",
+            "Deden ze niet"
+          ],
+          "items": [
+            [
+              "oude teksten kopiëren en bewaren",
+              "Deden ze"
+            ],
+            [
+              "woeste grond ontginnen tot landbouwgrond",
+              "Deden ze"
+            ],
+            [
+              "zorgen voor zieken en reizigers",
+              "Deden ze"
+            ],
+            [
+              "munten slaan",
+              "Deden ze niet"
+            ],
+            [
+              "boeken drukken met losse letters",
+              "Deden ze niet"
+            ]
+          ],
+          "uitleg": "Kopiëren, ontginnen en zorgen deden de monniken naast het gebed. Munten slaan was een recht van de vorst, en drukken met losse letters bestond nog niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welk maatschappelijk domein situeer je de organisatie van de katholieke Kerk in de eerste plaats?",
+          "opties": [
+            "Het culturele domein",
+            "Het maritieme domein",
+            "Het ecologische domein",
+            "Het demografische domein"
+          ],
+          "antwoord": 0,
+          "uitleg": "De Kerk hoort vooral bij het culturele domein, al was ze ook economisch en politiek van gewicht."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men een geloofsopvatting die afwijkt van de leer van de Kerk? Antwoord met één woord.",
+          "antwoord": [
+            "ketterij",
+            "een ketterij",
+            "de ketterij"
+          ],
+          "uitleg": "Dat is ketterij. Omdat geloof en samenleving samenvielen, zag men afwijken als een aanval op de orde zelf."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt elke uitspraak over de joden in de middeleeuwse steden?",
+          "rijen": [
+            "Ze mochten vaak geen grond bezitten.",
+            "Ze mochten vaak geen ambacht uitoefenen.",
+            "Ze hadden dezelfde rechten als christenen.",
+            "Ze moesten soms een kenteken dragen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Joden hadden niet dezelfde rechten. Ze moesten soms apart wonen of een kenteken dragen, en bij rampen kregen ze de schuld."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom lees je een middeleeuwse bron over joden extra kritisch?",
+          "opties": [
+            "Ze is bijna altijd door een christen geschreven, met zijn beeld van de ander",
+            "Middeleeuwse bronnen zijn altijd vervalsingen van veel later",
+            "Joden schreven alleen in een taal die niemand nog kan lezen",
+            "De Kerk liet alle bronnen over joden achteraf herschrijven"
+          ],
+          "antwoord": 0,
+          "uitleg": "De auteur is bijna altijd christelijk. De stem van de groep zelf ontbreekt meestal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom noemde men een kerk wel eens de bijbel van de armen?",
+          "opties": [
+            "Glasramen, beelden en schilderingen vertelden de Bijbel aan wie niet kon lezen",
+            "Arme mensen kregen er gratis een Bijbel mee naar huis",
+            "Alleen arme mensen mochten in de kerk komen, rijken baden thuis",
+            "De kerk werd betaald met de giften van de armste boeren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voor wie niet kon lezen, was christelijke kunst een verhaal in beeld."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de twee bogen. Klik op de boog die het gewicht steiler naar beneden leidt.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/bogen.svg",
+          "zones": [
+            [
+              0,
+              0,
+              50,
+              100
+            ]
+          ],
+          "uitleg": "Boog A heeft een punt bovenaan: een spitsboog. Die leidt het gewicht steiler naar beneden dan een rondboog, die meer naar buiten duwt."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een kenmerk van romaanse of van gotische bouwkunst?",
+          "kolommen": [
+            "Romaans",
+            "Gotisch"
+          ],
+          "items": [
+            [
+              "dikke muren",
+              "Romaans"
+            ],
+            [
+              "kleine vensters",
+              "Romaans"
+            ],
+            [
+              "een zware, donkere indruk",
+              "Romaans"
+            ],
+            [
+              "luchtbogen",
+              "Gotisch"
+            ],
+            [
+              "kruisribgewelven",
+              "Gotisch"
+            ],
+            [
+              "grote glasramen",
+              "Gotisch"
+            ]
+          ],
+          "uitleg": "Romaanse kerken zijn zwaar en donker met kleine vensters. Gotische kerken zijn hoger en lichter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom konden er in een gotische kerk zulke grote glasramen komen?",
+          "opties": [
+            "Het geraamte droeg het gewicht, dus de muur hoefde dat niet meer",
+            "Glas was in die tijd goedkoper geworden dan steen",
+            "De gotische kerken hadden geen dak, alleen een gewelf",
+            "De muren werden dikker gemaakt, zodat ze meer glas konden dragen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het verschil zit in de bouwtechniek. Draagt het geraamte het gewicht, dan kunnen er grote ramen in de muur."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bekijk dit werk van de gebroeders Van Eyck. Klopt elke uitspraak over de Vlaamse primitieven?",
+          "rijen": [
+            "Ze schilderden als bij de eersten zo gedetailleerd met olieverf.",
+            "Primitief betekent hier dat hun werk onbeholpen was.",
+            "Het werk toont hoe ver hun techniek al stond.",
+            "Het werk is in de 19de eeuw gemaakt als kopie van een fresco."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Primitief betekent hier eerste, niet onbeholpen. Dit is het Lam Gods in Gent, uit de 15de eeuw.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/lam-gods.jpg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bekijk het schema van een middeleeuwse wereldkaart. Welke stad stond op zo'n kaart in het midden, bij letter A?",
+          "antwoord": [
+            "Jeruzalem"
+          ],
+          "uitleg": "In het midden stond Jeruzalem. De kaart ordent de wereld naar het geloof.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/wereldkaart-middeleeuwen.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bekijk opnieuw het schema van de middeleeuwse wereldkaart. Klopt elke uitspraak?",
+          "rijen": [
+            "Het deel bij B ligt in het oosten.",
+            "Met zo'n kaart kan je afstanden nauwkeurig meten.",
+            "Zo'n kaart vertelt eerder dan dat ze meet.",
+            "Een zeevaarder vond er zijn weg mee naar een andere haven."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Op zo'n kaart staat het oosten bovenaan. Ze ordent de wereld naar het geloof, niet naar afstand.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/wereldkaart-middeleeuwen.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat past bij het middeleeuwse wereldbeeld?",
+          "opties": [
+            "Alles was door God geordend en elk wezen had zijn vaste plaats",
+            "De zon stond in het midden en de aarde draaide eromheen",
+            "Elke mens kon zelf kiezen welke plaats hij in de wereld innam",
+            "De wereld was toevallig ontstaan en had geen vaste orde"
+          ],
+          "antwoord": 0,
+          "uitleg": "De aarde stond in het midden en alles was door God geordend, van steen tot engel. Ook de standenleer past daarin."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat kwam via de Arabische wetenschappen naar christelijk Europa? Klopt elke uitspraak?",
+          "rijen": [
+            "Griekse teksten, via Arabische vertalingen.",
+            "De cijfers waarmee wij nog altijd rekenen.",
+            "De boekdrukkunst met losse letters.",
+            "Vooruitgang in geneeskunde en sterrenkunde."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Griekse teksten, onze cijfers en veel kennis van geneeskunde, sterrenkunde en wiskunde kwamen langs die weg. De boekdrukkunst met losse letters komt van Gutenberg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vanaf de 12de eeuw ontstaan in Europa de eerste universiteiten, zoals die van Bologna. In welke taal studeerde men daar?",
+          "opties": [
+            "Latijn",
+            "Arabisch",
+            "Frans",
+            "Grieks"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aan de middeleeuwse universiteiten studeerde men in het Latijn, ook in Leuven."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Aan het einde van de middeleeuwen regeert de Franse koning steeds meer [[*alleen|samen met een parlement]], de Engelse steeds meer [[*samen met een parlement|alleen]]. De Franse koning breidde zijn gezag uit vanuit [[*Parijs|Londen|Aken]].",
+          "uitleg": "Twee wegen: in Frankrijk een groot, centraal bestuurd rijk, in Engeland een koning die zijn macht moet delen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar waarin de Engelse adel de Magna Carta afdwingt.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/tijdlijn-1000-1500.svg",
+          "zones": [
+            [
+              40.8,
+              25,
+              3.5,
+              55
+            ]
+          ],
+          "uitleg": "De Magna Carta dateert van 1215."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekende de Magna Carta voor de macht van de Engelse koning?",
+          "opties": [
+            "Ook de koning moest zich aan afspraken houden",
+            "Engeland werd meteen een democratie met verkiezingen",
+            "De koning kreeg voortaan alle macht zonder adel of parlement",
+            "De graven kregen het recht om de koning af te zetten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het is nog geen democratie, maar wel een macht die niet meer onbeperkt is."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt elke uitspraak over de Guldensporenslag bij Kortrijk?",
+          "rijen": [
+            "Aan Vlaamse kant vochten veel stedelingen.",
+            "Tegenover hen stond het ridderleger van de Franse koning.",
+            "Na de slag werd Vlaanderen een onafhankelijk koninkrijk.",
+            "De ambachten kregen daarna meer invloed in de steden."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Stedelingen, met de ambachten voorop, versloegen het Franse ridderleger. De inlijving werd voorlopig afgewend, maar Vlaanderen moest later zware betalingen doen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke dag is vandaag de feestdag van de Vlaamse Gemeenschap, als herinnering aan de Guldensporenslag? Schrijf dag en maand.",
+          "antwoord": [
+            "11 juli",
+            "elf juli",
+            "11/7"
+          ],
+          "uitleg": "11 juli. Dat een middeleeuwse gebeurtenis vandaag nog betekenis krijgt, hoort bij beeldvorming."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom was de Guldensporenslag geen taalstrijd?",
+          "opties": [
+            "Het ging om macht, geld en zeggenschap; de taalkant kwam er pas veel later bij",
+            "Iedereen in Vlaanderen sprak toen Frans, ook de stedelingen",
+            "De Franse ridders spraken Nederlands, dus was er geen verschil",
+            "Taal mocht in de middeleeuwen van de Kerk geen reden voor oorlog zijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "De taalkant is er pas in de 19de eeuw bij gekomen. Het ging om macht, geld en zeggenschap in de steden."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welk soort motief voor de kruistochten is dit?",
+          "kolommen": [
+            "Godsdienstig",
+            "Economisch",
+            "Sociaal"
+          ],
+          "items": [
+            [
+              "de heilige plaatsen in bezit krijgen",
+              "Godsdienstig"
+            ],
+            [
+              "handel met het oosten",
+              "Economisch"
+            ],
+            [
+              "buit",
+              "Economisch"
+            ],
+            [
+              "jongere adellijke zonen die een eigen gebied zoeken",
+              "Sociaal"
+            ]
+          ],
+          "uitleg": "Godsdienstig: de heilige plaatsen. Economisch: handel en buit. Sociaal: jongere zonen zonder erfenis."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar waarin Akko valt, het laatste steunpunt van de kruisvaarders.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/tijdlijn-1000-1500.svg",
+          "zones": [
+            [
+              54.1,
+              25,
+              3.5,
+              55
+            ]
+          ],
+          "uitleg": "Akko viel in 1291."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt elke uitspraak over de gevolgen van de kruistochten voor West-Europa?",
+          "rijen": [
+            "Er kwam meer handel met het oosten via Italiaanse steden.",
+            "Nieuwe producten en kennis kwamen mee.",
+            "De verhouding met moslims en joden verhardde.",
+            "De standensamenleving verdween."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De kruisvaardersstaten hielden het niet vol, maar de gevolgen bleven: meer handel, nieuwe producten en kennis, en meer vijandschap. De standen bleven bestaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zijn de zijderoutes?",
+          "opties": [
+            "Een net van handelswegen over land en zee tussen het Westen en China",
+            "Eén lange weg waarlangs enkel zijde naar Europa werd gebracht",
+            "De route die de kruisvaarders volgden naar het Heilige Land",
+            "Een rivier in China waarop zijde werd vervoerd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het is geen enkele weg maar een net van routes, en er ging veel meer over dan zijde alleen."
+        },
+        {
+          "casus": "In Toledo en Palermo werkten in de middeleeuwen christelijke, joodse en islamitische geleerden samen om Arabische boeken te vertalen. In dezelfde tijd vochten elders kruisvaarders tegen moslimlegers.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat zegt dit over het contact tussen de islam en het Westen?",
+              "opties": [
+                "Het bestond zowel uit oorlog als uit handel en kennis delen",
+                "Het bestond enkel uit oorlog, vertalen was een uitzondering",
+                "Er was geen enkel contact, alleen vertalers kenden de islam",
+                "Het was enkel vriendschappelijk, de oorlogen zijn een mythe"
+              ],
+              "antwoord": 0,
+              "uitleg": "Er werd samen vertaald terwijl er elders gevochten werd. Het contact had beide kanten."
+            },
+            {
+              "type": "open",
+              "vraag": "Waarom mag je de kruistochten niet enkel vanuit westerse bronnen bekijken? Leg uit in twee zinnen.",
+              "antwoord": "Wie schrijft, kiest wat hij vertelt. De Arabische kronieken geven een ander beeld van dezelfde gebeurtenissen, dus heb je beide kanten nodig.",
+              "uitleg": "Een goed antwoord zegt dat elke bron een standpunt heeft en dat de andere kant een ander beeld geeft."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

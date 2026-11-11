@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 720" width="760" height="720" font-family="Arial, sans-serif">
+<rect width="760" height="720" fill="#ffffff"/>
+<circle cx="380" cy="380" r="330" fill="#a9cbe6"/>
+<circle cx="380" cy="380" r="300" fill="#f1e6c4" stroke="#6b4f2a" stroke-width="4"/>
+<rect x="80" y="368" width="600" height="24" fill="#a9cbe6"/>
+<rect x="368" y="380" width="24" height="300" fill="#a9cbe6"/>
+<circle cx="380" cy="330" r="28" fill="#2f4a22" stroke="#fff" stroke-width="4"/><text x="380" y="341" font-size="30" font-weight="bold" text-anchor="middle" fill="#fff">A</text>
+<circle cx="380" cy="210" r="28" fill="#2f4a22" stroke="#fff" stroke-width="4"/><text x="380" y="221" font-size="30" font-weight="bold" text-anchor="middle" fill="#fff">B</text>
+<circle cx="230" cy="530" r="28" fill="#2f4a22" stroke="#fff" stroke-width="4"/><text x="230" y="541" font-size="30" font-weight="bold" text-anchor="middle" fill="#fff">C</text>
+<circle cx="530" cy="530" r="28" fill="#2f4a22" stroke="#fff" stroke-width="4"/><text x="530" y="541" font-size="30" font-weight="bold" text-anchor="middle" fill="#fff">D</text>
+<text x="380.0" y="30" font-size="20" text-anchor="middle" fill="#555">Schema van een middeleeuwse wereldkaart</text>
+</svg>

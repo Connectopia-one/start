@@ -20,6 +20,7 @@ THEMAS = [
     ("referentiekader", "Het historisch referentiekader"),
     ("rome_franken", "Van Rome naar de Franken"),
     ("standen_stad", "Standen, domein en stad"),
+    ("geloof_kunst_macht", "Geloof, kunst en macht in de middeleeuwen"),
 ]
 
 HOOFDSTUKKEN = [
