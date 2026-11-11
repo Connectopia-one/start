@@ -88,7 +88,7 @@ DEEL1 = [
         vraag="Waarom is cellulose geschikt als bouwstof van een celwand?",
         opties=[
             "de rechte ketens liggen als kabels naast elkaar",
-            "de vertakte ketens zijn snel af te breken",
+            "de vertakte ketens zijn snel en makkelijk af te breken",
             "de ringen lossen makkelijk op in water",
             "de ketens zijn kort en heel beweeglijk",
         ],
@@ -165,7 +165,7 @@ DEEL1 = [
         vraag="Waarom is olie vloeibaar en boter vast bij kamertemperatuur?",
         opties=[
             "de geknikte ketens van olie stapelen minder goed",
-            "olie bevat meer water dan boter",
+            "olie bevat meer water dan boter en blijft daardoor vloeibaar",
             "boter bestaat niet uit vetzuren",
             "olie heeft kortere glycerolmoleculen",
         ],
@@ -191,7 +191,7 @@ DEEL1 = [
         vraag="Waarom is een fosfolipide geschikt om een membraan te vormen?",
         opties=[
             "de kop is hydrofiel en de staarten zijn hydrofoob",
-            "de hele molecule stoot water af",
+            "de hele molecule stoot water af, net als een vetdruppel",
             "de hele molecule trekt water aan",
             "ze bevat geen vetzuren maar wel suikers",
         ],
@@ -226,7 +226,7 @@ DEEL1 = [
         vraag="Waarom levert vet per gram meer energie dan suiker?",
         opties=[
             "de ketens zijn sterker gereduceerd, met meer waterstof",
-            "vet bevat meer zuurstof dan suiker",
+            "vet bevat meer zuurstof dan suiker en verbrandt dus vlotter",
             "vet lost beter op in het bloed",
             "vet wordt sneller afgebroken dan suiker",
         ],
@@ -447,7 +447,7 @@ DEEL2 = [
         vraag="Wat hebben polysachariden, lipiden en proteïnen gemeenschappelijk?",
         opties=[
             "ze worden met condensatie gevormd en met hydrolyse gesplitst",
-            "ze bestaan alle drie uit aminozuren",
+            "ze bestaan alle drie uit aminozuren die aan elkaar gekoppeld zijn",
             "ze lossen alle drie goed op in water",
             "ze dienen alle drie enkel als energievoorraad",
         ],

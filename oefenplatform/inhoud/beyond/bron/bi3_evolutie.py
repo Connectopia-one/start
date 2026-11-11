@@ -31,7 +31,7 @@ DEEL1 = [
         vraag="Wat zijn homologe organen?",
         opties=[
             "organen met dezelfde bouw en een gemeenschappelijke oorsprong",
-            "organen met dezelfde functie maar met een heel andere bouw",
+            "organen met dezelfde functie maar met een heel andere bouw en oorsprong",
             "organen die bij een soort geen functie meer hebben",
             "organen die alleen bij het embryo te zien zijn",
         ],
@@ -134,7 +134,7 @@ DEEL1 = [
         vraag="Waarom is het vergelijken van DNA een sterk argument voor evolutie?",
         opties=[
             "hoe verwanter twee soorten, hoe meer hun DNA gelijkt",
-            "alle soorten hebben precies hetzelfde DNA",
+            "alle soorten hebben precies hetzelfde DNA in al hun cellen",
             "DNA verandert bij elk individu tijdens zijn leven",
             "DNA zit alleen bij gewervelde dieren in de kern",
         ],
@@ -181,7 +181,7 @@ DEEL1 = [
         vraag="Waarom lijken de buideldieren van Australië zo weinig op die van elders?",
         opties=[
             "Australië raakte vroeg van de andere continenten los",
-            "buideldieren verplaatsen zich over de oceaan",
+            "buideldieren verplaatsen zich zwemmend over de oceaan naar andere landen",
             "Australië heeft een ander soort zwaartekracht",
             "buideldieren hebben geen DNA van hun voorouders",
         ],
@@ -271,7 +271,7 @@ DEEL2 = [
         vraag="Welke drie gedachten dragen de theorie van Darwin?",
         opties=[
             "variatie, selectie en erfelijkheid",
-            "mutatie, deling en groei",
+            "mutatie, celdeling en groei van het individu",
             "isolatie, drift en migratie",
             "gebruik, onbruik en overerving",
         ],
@@ -412,7 +412,7 @@ DEEL2 = [
         vraag="Waarom worden bacteriën die aan een antibioticum blootstaan vaak resistent?",
         opties=[
             "de resistente exemplaren overleven en planten zich voort",
-            "de bacteriën leren het antibioticum te herkennen",
+            "de bacteriën leren het antibioticum na een tijd te herkennen",
             "het antibioticum maakt de bacteriën resistent",
             "de bacteriën geven hun ervaring door aan hun jongen",
         ],
@@ -425,7 +425,7 @@ DEEL2 = [
         vraag="Wat is biodiversiteit?",
         opties=[
             "de verscheidenheid aan soorten, genen en ecosystemen",
-            "het aantal individuen van één soort",
+            "het aantal individuen van één soort in een bepaald gebied",
             "het aantal chromosomen van een soort",
             "de hoeveelheid planten in een gebied",
         ],
@@ -439,7 +439,7 @@ DEEL2 = [
         vraag="Waarom is een populatie met weinig genetische diversiteit kwetsbaar?",
         opties=[
             "er is weinig variatie om op te selecteren bij verandering",
-            "de dieren kunnen zich niet meer voortplanten",
+            "de dieren kunnen zich door inteelt helemaal niet meer voortplanten",
             "de dieren krijgen meer mutaties dan normaal",
             "de dieren hebben minder chromosomen",
         ],

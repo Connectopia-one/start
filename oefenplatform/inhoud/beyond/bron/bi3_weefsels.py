@@ -92,7 +92,7 @@ DEEL1 = [
         vraag="Hoe kloneert een tuinder een plant?",
         opties=[
             "door een stek of een scheut te laten wortelen",
-            "door twee planten met elkaar te kruisen",
+            "door twee verschillende planten met elkaar te kruisen",
             "door zaad van twee ouders te zaaien",
             "door stuifmeel op een stamper te brengen",
         ],
@@ -256,7 +256,7 @@ DEEL2 = [
         vraag="Wat doet de cortex in een wortel?",
         opties=[
             "water en stoffen naar de vaatbundel brengen",
-            "licht opvangen voor de fotosynthese",
+            "licht opvangen voor de fotosynthese in de wortel",
             "de bloem laten openen",
             "zaad maken",
         ],
@@ -290,7 +290,7 @@ DEEL2 = [
         vraag="Wat is de functie van epitheelweefsel?",
         opties=[
             "oppervlakken bedekken en afschermen",
-            "prikkels doorgeven",
+            "prikkels doorgeven aan andere cellen",
             "het lichaam doen bewegen",
             "zuurstof vervoeren",
         ],
@@ -330,7 +330,7 @@ DEEL2 = [
         vraag="Waarom is een zenuwcel zo lang uitgerekt?",
         opties=[
             "om een prikkel over een grote afstand door te geven",
-            "om zuurstof op te slaan",
+            "om zuurstof op te slaan voor momenten waarop het bloed te weinig brengt",
             "om zich sneller te kunnen delen",
             "om water uit het bloed te halen",
         ],
@@ -383,7 +383,7 @@ DEEL2 = [
         vraag="Een darmcel heeft aan haar binnenkant duizenden kleine uitsteeksels. Waarom?",
         opties=[
             "om meer voedingsstoffen op te nemen",
-            "om prikkels door te geven",
+            "om prikkels sneller door te geven aan de spieren",
             "om zich sneller te delen",
             "om zuurstof te vervoeren",
         ],
@@ -417,7 +417,7 @@ DEEL2 = [
         vraag="Waarom kan een gedifferentieerde zenuwcel zich niet meer delen?",
         opties=[
             "ze is uit de celcyclus gestapt",
-            "ze heeft geen DNA meer",
+            "ze heeft geen DNA meer in haar kern",
             "ze heeft geen celmembraan",
             "ze bevat geen water",
         ],

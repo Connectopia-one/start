@@ -88,7 +88,7 @@ DEEL1 = [
         vraag="Wat doet de combinatiepil in het lichaam?",
         opties=[
             "de eisprong tegenhouden met oestrogeen en progestageen",
-            "de zaadcellen in de vagina doden",
+            "de zaadcellen in de vagina doden voor ze de eicel bereiken",
             "de bevruchte eicel uit de baarmoeder verwijderen",
             "het slijm van de baarmoederhals dunner maken",
         ],
@@ -177,7 +177,7 @@ DEEL1 = [
         vraag="Waarom zegt men bij een methode altijd hoe betrouwbaar ze is?",
         opties=[
             "omdat verkeerd gebruik de betrouwbaarheid verlaagt",
-            "omdat elke methode even betrouwbaar is",
+            "omdat elke methode in de praktijk even betrouwbaar is",
             "omdat de betrouwbaarheid niet te meten is",
             "omdat de betrouwbaarheid van het weer afhangt",
         ],
@@ -212,7 +212,7 @@ DEEL1 = [
         vraag="Welk voordeel heeft een hormoonimplantaat tegenover de pil?",
         opties=[
             "het werkt jaren zonder dagelijkse inname",
-            "het beschermt ook tegen soa's",
+            "het beschermt ook tegen soa's bij elk contact",
             "het kan elke dag weggelaten worden",
             "het werkt zonder enig hormoon",
         ],
@@ -226,7 +226,7 @@ DEEL1 = [
         vraag="Wat is een nadeel van een spiraaltje?",
         opties=[
             "het moet door een arts geplaatst worden",
-            "het moet elke dag ingenomen worden",
+            "het moet elke dag op hetzelfde uur ingenomen worden",
             "het werkt maar één dag",
             "het belet de eisprong nooit",
         ],
@@ -296,7 +296,7 @@ DEEL2 = [
         vraag="Wat is in-vitromaturatie?",
         opties=[
             "onrijpe eicellen buiten het lichaam laten rijpen",
-            "sperma buiten het lichaam laten rijpen",
+            "sperma buiten het lichaam laten rijpen in een labo",
             "een embryo langer in het labo houden",
             "de baarmoeder op de innesteling voorbereiden",
         ],
@@ -309,7 +309,7 @@ DEEL2 = [
         vraag="Wanneer komt eiceldonatie in beeld?",
         opties=[
             "als de vrouw zelf geen bruikbare eicellen heeft",
-            "als de man geen bruikbare zaadcellen heeft",
+            "als de man geen bruikbare zaadcellen meer heeft",
             "als de baarmoeder te klein is",
             "als het koppel een tweeling wil",
         ],
@@ -350,7 +350,7 @@ DEEL2 = [
         vraag="Waarom kan overgewicht de vruchtbaarheid verlagen?",
         opties=[
             "het verstoort het hormonale evenwicht",
-            "het verkleint de baarmoeder",
+            "het verkleint de baarmoeder en de eierstokken",
             "het sluit de eileiders af",
             "het verandert de bloedgroep",
         ],
@@ -363,7 +363,7 @@ DEEL2 = [
         vraag="Waarom kan een kankerbehandeling de vruchtbaarheid aantasten?",
         opties=[
             "ze raakt ook de snel delende geslachtscellen",
-            "ze verhoogt het testosteronpeil te sterk",
+            "ze verhoogt het testosteronpeil in het bloed veel te sterk",
             "ze verdikt het baarmoederslijmvlies",
             "ze maakt het sperma te vloeibaar",
         ],

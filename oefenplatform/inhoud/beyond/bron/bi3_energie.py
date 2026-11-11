@@ -64,7 +64,7 @@ DEEL1 = [
         vraag="Waar in de chloroplast gebeuren de lichtreacties?",
         opties=[
             "in het thylakoïdmembraan",
-            "in het stroma",
+            "in het stroma rond de grana",
             "in de matrix",
             "in het cytoplasma",
         ],
@@ -133,7 +133,7 @@ DEEL1 = [
         vraag="Je zet een waterplant in steeds meer licht en meet de zuurstofproductie. Wat zie je?",
         opties=[
             "ze stijgt eerst en vlakt daarna af",
-            "ze blijft onbeperkt stijgen",
+            "ze blijft onbeperkt stijgen zolang er licht bij komt",
             "ze daalt van begin af aan",
             "ze blijft altijd gelijk",
         ],
@@ -181,7 +181,7 @@ DEEL1 = [
         vraag="Fotosysteem I en fotosysteem II liggen in dezelfde membraan. Wat doet fotosysteem II eerst?",
         opties=[
             "water splitsen en elektronen doorgeven",
-            "NADPH afleveren aan het stroma",
+            "NADPH afleveren aan het stroma van de chloroplast",
             "glucose tot zetmeel verwerken",
             "koolstofdioxide vastleggen",
         ],
@@ -304,7 +304,7 @@ DEEL2 = [
         vraag="Wat doen NAD⁺ en FAD in de celademhaling?",
         opties=[
             "elektronen en waterstof vervoeren",
-            "glucose in twee splitsen",
+            "glucose in twee gelijke stukken splitsen",
             "zuurstof naar de cel brengen",
             "ATP afbreken tot ADP",
         ],
@@ -324,7 +324,7 @@ DEEL2 = [
         vraag="Wat drijft het ATP-synthase van een mitochondrion aan?",
         opties=[
             "een protonengradiënt over het membraan",
-            "de warmte van het lichaam",
+            "de warmte van het lichaam rond de cel en het bloed",
             "het licht dat de cel bereikt",
             "de afbraak van het membraan zelf",
         ],
@@ -364,7 +364,7 @@ DEEL2 = [
         vraag="Waarom heeft een cel ook bij gisting nog iets aan die omzetting van pyruvaat?",
         opties=[
             "zo komt NAD⁺ weer vrij voor de glycolyse",
-            "zo maakt ze extra zuurstof aan",
+            "zo maakt ze extra zuurstof aan voor de cel",
             "zo bouwt ze glucose weer op",
             "zo maakt ze nieuwe mitochondria",
         ],

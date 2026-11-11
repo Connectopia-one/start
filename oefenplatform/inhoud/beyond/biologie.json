@@ -78,7 +78,7 @@
           "vraag": "Wat doet het Golgi-apparaat?",
           "opties": [
             "het werkt eiwitten af en verpakt ze in blaasjes",
-            "het maakt het DNA van de cel na",
+            "het maakt een kopie van het DNA van de cel na voor de deling",
             "het breekt glucose af tot pyruvaat",
             "het vangt zonlicht op voor de fotosynthese"
           ],
@@ -121,7 +121,7 @@
           "vraag": "Wat is de functie van een centriool?",
           "opties": [
             "de spoeldraden vastmaken bij een celdeling",
-            "de cel van energie voorzien",
+            "de cel van energie voorzien tijdens de deling",
             "het afval van de cel afbreken",
             "de eiwitten van de cel sorteren"
           ],
@@ -139,7 +139,7 @@
           "vraag": "Waarom heeft een cel een kernmembraan?",
           "opties": [
             "om het DNA van het cytoplasma te scheiden",
-            "om de cel haar stevigheid te geven",
+            "om de cel haar vorm en stevigheid te geven",
             "om zonlicht op te vangen",
             "om de cel te laten bewegen"
           ],
@@ -179,7 +179,7 @@
           "vraag": "Welk verband tussen structuur en functie klopt?",
           "opties": [
             "de cristae van een mitochondrion vergroten het oppervlak voor de eindoxidaties",
-            "de cristae van een mitochondrion houden het DNA van de cel bij elkaar",
+            "de cristae van een mitochondrion houden het DNA van de hele cel bij elkaar in de kern",
             "de cristae van een mitochondrion maken de cel stevig",
             "de cristae van een mitochondrion vangen het licht op"
           ],
@@ -197,7 +197,7 @@
           "vraag": "Welke uitspraak over het celmembraan is juist?",
           "opties": [
             "het laat sommige stoffen door en andere niet",
-            "het laat alle stoffen even goed door",
+            "het laat alle stoffen even goed en even snel door",
             "het laat helemaal niets door",
             "het bestaat uit cellulose"
           ],
@@ -354,7 +354,7 @@
           "vraag": "Wat is de functie van de glycocalyx aan de buitenkant van een cel?",
           "opties": [
             "cellen laten herkennen door andere cellen",
-            "ATP aanmaken voor de cel",
+            "ATP aanmaken voor de cel aan de buitenkant",
             "het DNA van de cel verdubbelen",
             "water uit de cel pompen"
           ],
@@ -528,7 +528,7 @@
           "vraag": "Hoe kloneert een tuinder een plant?",
           "opties": [
             "door een stek of een scheut te laten wortelen",
-            "door twee planten met elkaar te kruisen",
+            "door twee verschillende planten met elkaar te kruisen",
             "door zaad van twee ouders te zaaien",
             "door stuifmeel op een stamper te brengen"
           ],
@@ -690,7 +690,7 @@
           "vraag": "Wat doet de cortex in een wortel?",
           "opties": [
             "water en stoffen naar de vaatbundel brengen",
-            "licht opvangen voor de fotosynthese",
+            "licht opvangen voor de fotosynthese in de wortel",
             "de bloem laten openen",
             "zaad maken"
           ],
@@ -725,7 +725,7 @@
           "vraag": "Wat is de functie van epitheelweefsel?",
           "opties": [
             "oppervlakken bedekken en afschermen",
-            "prikkels doorgeven",
+            "prikkels doorgeven aan andere cellen",
             "het lichaam doen bewegen",
             "zuurstof vervoeren"
           ],
@@ -764,7 +764,7 @@
           "vraag": "Waarom is een zenuwcel zo lang uitgerekt?",
           "opties": [
             "om een prikkel over een grote afstand door te geven",
-            "om zuurstof op te slaan",
+            "om zuurstof op te slaan voor momenten waarop het bloed te weinig brengt",
             "om zich sneller te kunnen delen",
             "om water uit het bloed te halen"
           ],
@@ -816,7 +816,7 @@
           "vraag": "Een darmcel heeft aan haar binnenkant duizenden kleine uitsteeksels. Waarom?",
           "opties": [
             "om meer voedingsstoffen op te nemen",
-            "om prikkels door te geven",
+            "om prikkels sneller door te geven aan de spieren",
             "om zich sneller te delen",
             "om zuurstof te vervoeren"
           ],
@@ -851,7 +851,7 @@
           "vraag": "Waarom kan een gedifferentieerde zenuwcel zich niet meer delen?",
           "opties": [
             "ze is uit de celcyclus gestapt",
-            "ze heeft geen DNA meer",
+            "ze heeft geen DNA meer in haar kern",
             "ze heeft geen celmembraan",
             "ze bevat geen water"
           ],
@@ -888,7 +888,7 @@
           "vraag": "Wat is een enzym?",
           "opties": [
             "een eiwit dat een reactie versnelt",
-            "een suiker die energie levert",
+            "een suiker die energie levert aan de cel",
             "een vetzuur in een membraan",
             "een stuk DNA met een code"
           ],
@@ -921,7 +921,7 @@
           "vraag": "Hoe noemt men de tijdelijke verbinding van een enzym met zijn substraat?",
           "opties": [
             "het enzym-substraatcomplex",
-            "het co-enzym",
+            "het co-enzym van de reactie",
             "de inhibitor",
             "de cofactor"
           ],
@@ -945,7 +945,7 @@
           "vraag": "Wat betekent het dat een enzym substraatspecifiek is?",
           "opties": [
             "het past maar op één soort molecule",
-            "het werkt bij elke temperatuur",
+            "het werkt bij elke temperatuur even goed",
             "het zit altijd in een membraan",
             "het heeft geen cofactor nodig"
           ],
@@ -957,7 +957,7 @@
           "vraag": "Wat gebeurt er met een enzym bij denaturatie?",
           "opties": [
             "zijn ruimtelijke vorm gaat verloren",
-            "zijn DNA wordt verdubbeld",
+            "zijn DNA wordt verdubbeld voor de deling",
             "het wordt in een vesikel verpakt",
             "het wordt tot glucose afgebroken"
           ],
@@ -1140,7 +1140,7 @@
           "vraag": "Wat doet een kanaaleiwit in een membraan?",
           "opties": [
             "een gaatje vormen waardoor ionen gaan",
-            "ionen tegen de gradiënt in pompen",
+            "ionen met ATP tegen de gradiënt in pompen",
             "glucose afbreken tot pyruvaat",
             "het membraan stevig maken"
           ],
@@ -1170,7 +1170,7 @@
           "vraag": "Wat is osmose?",
           "opties": [
             "water gaat door een membraan naar de hogere concentratie",
-            "zout gaat door een membraan naar het water",
+            "zout gaat door een membraan naar de kant waar het meeste water is",
             "een pomp duwt water naar buiten",
             "een cel neemt een deeltje op in een blaasje"
           ],
@@ -1208,7 +1208,7 @@
           "vraag": "Je legt een plantencel in een sterke zoutoplossing. Wat gebeurt er?",
           "opties": [
             "het cytoplasma trekt van de celwand weg",
-            "de cel barst open",
+            "de cel neemt veel water op en barst open",
             "de vacuole wordt groter",
             "de celwand lost op"
           ],
@@ -1238,7 +1238,7 @@
           "vraag": "Wat is kenmerkend voor de natrium-kaliumpomp?",
           "opties": [
             "ze pompt tegen de gradiënt in met ATP",
-            "ze laat ionen passief doorstromen",
+            "ze laat ionen passief doorstromen, zonder energie",
             "ze pompt enkel water",
             "ze zit enkel in plantencellen"
           ],
@@ -1259,7 +1259,7 @@
           "vraag": "Wat doet een protonpomp?",
           "opties": [
             "waterstofionen door een membraan pompen",
-            "water in de cel pompen",
+            "water in de cel pompen om ze stevig te houden",
             "glucose afbreken",
             "eiwitten uit de cel brengen"
           ],
@@ -1295,7 +1295,7 @@
           "vraag": "Wat is kenmerkend voor een anabole reactie?",
           "opties": [
             "ze bouwt grote moleculen op en kost energie",
-            "ze breekt moleculen af en levert energie",
+            "ze breekt moleculen af en levert zo energie op",
             "ze verloopt zonder enzym",
             "ze gebeurt enkel buiten de cel"
           ],
@@ -1382,7 +1382,7 @@
           "vraag": "Waar in de chloroplast gebeuren de lichtreacties?",
           "opties": [
             "in het thylakoïdmembraan",
-            "in het stroma",
+            "in het stroma rond de grana",
             "in de matrix",
             "in het cytoplasma"
           ],
@@ -1463,7 +1463,7 @@
           "vraag": "Je zet een waterplant in steeds meer licht en meet de zuurstofproductie. Wat zie je?",
           "opties": [
             "ze stijgt eerst en vlakt daarna af",
-            "ze blijft onbeperkt stijgen",
+            "ze blijft onbeperkt stijgen zolang er licht bij komt",
             "ze daalt van begin af aan",
             "ze blijft altijd gelijk"
           ],
@@ -1511,7 +1511,7 @@
           "vraag": "Fotosysteem I en fotosysteem II liggen in dezelfde membraan. Wat doet fotosysteem II eerst?",
           "opties": [
             "water splitsen en elektronen doorgeven",
-            "NADPH afleveren aan het stroma",
+            "NADPH afleveren aan het stroma van de chloroplast",
             "glucose tot zetmeel verwerken",
             "koolstofdioxide vastleggen"
           ],
@@ -1643,7 +1643,7 @@
           "vraag": "Wat doen NAD⁺ en FAD in de celademhaling?",
           "opties": [
             "elektronen en waterstof vervoeren",
-            "glucose in twee splitsen",
+            "glucose in twee gelijke stukken splitsen",
             "zuurstof naar de cel brengen",
             "ATP afbreken tot ADP"
           ],
@@ -1661,7 +1661,7 @@
           "vraag": "Wat drijft het ATP-synthase van een mitochondrion aan?",
           "opties": [
             "een protonengradiënt over het membraan",
-            "de warmte van het lichaam",
+            "de warmte van het lichaam rond de cel en het bloed",
             "het licht dat de cel bereikt",
             "de afbraak van het membraan zelf"
           ],
@@ -1701,7 +1701,7 @@
           "vraag": "Waarom heeft een cel ook bij gisting nog iets aan die omzetting van pyruvaat?",
           "opties": [
             "zo komt NAD⁺ weer vrij voor de glycolyse",
-            "zo maakt ze extra zuurstof aan",
+            "zo maakt ze extra zuurstof aan voor de cel",
             "zo bouwt ze glucose weer op",
             "zo maakt ze nieuwe mitochondria"
           ],
@@ -1817,7 +1817,7 @@
           "vraag": "Wat is de incubatietijd van een infectieziekte?",
           "opties": [
             "de tijd tussen de besmetting en de eerste klachten",
-            "de tijd dat iemand besmettelijk blijft",
+            "de tijd dat iemand na de ziekte nog besmettelijk blijft",
             "de tijd die een vaccin nodig heeft om te werken",
             "de tijd die een wonde nodig heeft om te sluiten"
           ],
@@ -1847,7 +1847,7 @@
           "vraag": "Wat doet lysozym in tranen en in speeksel?",
           "opties": [
             "de celwand van bacteriën kapotmaken",
-            "virussen uit de lucht filteren",
+            "virussen uit de lucht filteren voor ze binnenkomen",
             "het oog vochtig houden",
             "antilichamen aanmaken"
           ],
@@ -1961,7 +1961,7 @@
           "vraag": "Waarom is koorts nuttig bij een infectie?",
           "opties": [
             "de afweer werkt sneller en de indringer trager",
-            "de indringer krijgt dan geen voedsel meer",
+            "de indringer krijgt dan helemaal geen voedsel meer",
             "de huid wordt er dikker door",
             "er komen dan minder witte bloedcellen"
           ],
@@ -2130,7 +2130,7 @@
           "vraag": "Wat doet het complementsysteem?",
           "opties": [
             "het membraan van een bacterie doorboren",
-            "antigenen voorstellen aan T-cellen",
+            "antigenen voorstellen aan de T-cellen in de lymfeknopen",
             "antilichamen aanmaken",
             "koorts opwekken in de hersenen"
           ],
@@ -2376,7 +2376,7 @@
           "vraag": "Waarom is bloedgroep O de universele donor voor rode bloedcellen?",
           "opties": [
             "haar cellen hebben geen A- en geen B-antigeen",
-            "haar plasma bevat geen enkel antilichaam",
+            "haar plasma bevat geen enkel antilichaam tegen A of B",
             "haar cellen hebben beide antigenen",
             "haar cellen hebben helemaal geen membraan"
           ],
@@ -2670,7 +2670,7 @@
           "vraag": "Waarom bestaat er nog geen vaccin tegen hiv?",
           "opties": [
             "het virus verandert voortdurend zijn oppervlak",
-            "het virus heeft geen enkel antigeen",
+            "het virus heeft geen enkel antigeen op zijn buitenkant",
             "het virus leeft buiten het lichaam verder",
             "het virus is te groot voor een antilichaam"
           ],
@@ -2915,7 +2915,7 @@
           "vraag": "Waar worden de zaadcellen gemaakt?",
           "opties": [
             "in de zaadbuisjes van de teelbal",
-            "in de prostaatklier",
+            "in de prostaatklier onder de blaas",
             "in de zaadblaasjes",
             "in de zaadleider"
           ],
@@ -3124,7 +3124,7 @@
           "vraag": "Een arts vindt in een spermastaal heel weinig beweeglijke zaadcellen. Welk onderdeel werkt dan slecht?",
           "opties": [
             "het middenstuk met zijn mitochondria",
-            "het acrosoom met zijn enzymen",
+            "het acrosoom met zijn enzymen op de kop",
             "de kern met haar chromosomen",
             "de zona pellucida rond de cel"
           ],
@@ -3246,7 +3246,7 @@
           "vraag": "Welk deel van de blastocyst wordt later het embryo?",
           "opties": [
             "de embryoblast of kiemknop",
-            "de trofoblast",
+            "de trofoblast aan de buitenkant",
             "de blastulaholte",
             "de zona pellucida"
           ],
@@ -3665,7 +3665,7 @@
           "vraag": "Wat doet de combinatiepil in het lichaam?",
           "opties": [
             "de eisprong tegenhouden met oestrogeen en progestageen",
-            "de zaadcellen in de vagina doden",
+            "de zaadcellen in de vagina doden voor ze de eicel bereiken",
             "de bevruchte eicel uit de baarmoeder verwijderen",
             "het slijm van de baarmoederhals dunner maken"
           ],
@@ -3752,7 +3752,7 @@
           "vraag": "Waarom zegt men bij een methode altijd hoe betrouwbaar ze is?",
           "opties": [
             "omdat verkeerd gebruik de betrouwbaarheid verlaagt",
-            "omdat elke methode even betrouwbaar is",
+            "omdat elke methode in de praktijk even betrouwbaar is",
             "omdat de betrouwbaarheid niet te meten is",
             "omdat de betrouwbaarheid van het weer afhangt"
           ],
@@ -3790,7 +3790,7 @@
           "vraag": "Welk voordeel heeft een hormoonimplantaat tegenover de pil?",
           "opties": [
             "het werkt jaren zonder dagelijkse inname",
-            "het beschermt ook tegen soa's",
+            "het beschermt ook tegen soa's bij elk contact",
             "het kan elke dag weggelaten worden",
             "het werkt zonder enig hormoon"
           ],
@@ -3802,7 +3802,7 @@
           "vraag": "Wat is een nadeel van een spiraaltje?",
           "opties": [
             "het moet door een arts geplaatst worden",
-            "het moet elke dag ingenomen worden",
+            "het moet elke dag op hetzelfde uur ingenomen worden",
             "het werkt maar één dag",
             "het belet de eisprong nooit"
           ],
@@ -3873,7 +3873,7 @@
           "vraag": "Wat is in-vitromaturatie?",
           "opties": [
             "onrijpe eicellen buiten het lichaam laten rijpen",
-            "sperma buiten het lichaam laten rijpen",
+            "sperma buiten het lichaam laten rijpen in een labo",
             "een embryo langer in het labo houden",
             "de baarmoeder op de innesteling voorbereiden"
           ],
@@ -3885,7 +3885,7 @@
           "vraag": "Wanneer komt eiceldonatie in beeld?",
           "opties": [
             "als de vrouw zelf geen bruikbare eicellen heeft",
-            "als de man geen bruikbare zaadcellen heeft",
+            "als de man geen bruikbare zaadcellen meer heeft",
             "als de baarmoeder te klein is",
             "als het koppel een tweeling wil"
           ],
@@ -3930,7 +3930,7 @@
           "vraag": "Waarom kan overgewicht de vruchtbaarheid verlagen?",
           "opties": [
             "het verstoort het hormonale evenwicht",
-            "het verkleint de baarmoeder",
+            "het verkleint de baarmoeder en de eierstokken",
             "het sluit de eileiders af",
             "het verandert de bloedgroep"
           ],
@@ -3942,7 +3942,7 @@
           "vraag": "Waarom kan een kankerbehandeling de vruchtbaarheid aantasten?",
           "opties": [
             "ze raakt ook de snel delende geslachtscellen",
-            "ze verhoogt het testosteronpeil te sterk",
+            "ze verhoogt het testosteronpeil in het bloed veel te sterk",
             "ze verdikt het baarmoederslijmvlies",
             "ze maakt het sperma te vloeibaar"
           ],
@@ -4044,7 +4044,7 @@
           "vraag": "Uit welke drie delen bestaat een nucleotide?",
           "opties": [
             "een suiker, een fosfaatgroep en een stikstofbase",
-            "een suiker, een vetzuur en een aminozuur",
+            "een suiker, een vetzuur en een aminozuur, aan elkaar gekoppeld",
             "een fosfaatgroep, een aminozuur en een base",
             "twee suikers en een stikstofbase"
           ],
@@ -4191,7 +4191,7 @@
           "vraag": "Wat zit er op de plaats van het centromeer?",
           "opties": [
             "het kinetochoor waar de trekdraden aangrijpen",
-            "de kernporiën van het kernmembraan",
+            "de kernporiën van het kernmembraan rond het DNA",
             "het beginpunt van de transcriptie",
             "de plaats waar het DNA vrij ligt"
           ],
@@ -4285,7 +4285,7 @@
           "vraag": "Wat doet helicase bij de replicatie?",
           "opties": [
             "de waterstofbruggen verbreken en de strengen scheiden",
-            "de nieuwe nucleotiden aan elkaar hangen",
+            "de nieuwe nucleotiden aan elkaar hangen tot een lange streng",
             "de losse stukjes aan elkaar plakken",
             "een kort stukje RNA als beginpunt leggen"
           ],
@@ -4330,7 +4330,7 @@
           "vraag": "Waarom wordt de lagging strand in stukjes gebouwd?",
           "opties": [
             "omdat polymerase maar in één richting werkt",
-            "omdat die streng korter is dan de andere",
+            "omdat die streng korter is dan de andere streng",
             "omdat er op die streng geen primer past",
             "omdat helicase die streng dichtlaat"
           ],
@@ -4464,7 +4464,7 @@
           "vraag": "Waarom moet het DNA gekopieerd worden voor een cel deelt?",
           "opties": [
             "elke dochtercel heeft een volledige set nodig",
-            "het DNA wordt bij het delen afgebroken",
+            "het DNA wordt bij het delen helemaal afgebroken",
             "anders kan de cel geen eiwitten maken",
             "anders blijven de chromosomen onzichtbaar"
           ],
@@ -4561,7 +4561,7 @@
           "vraag": "Wat gebeurt er in de profase van de mitose?",
           "opties": [
             "de chromosomen condenseren en het kernmembraan verdwijnt",
-            "de chromosomen gaan op het evenaarsvlak staan",
+            "de chromosomen gaan netjes op het evenaarsvlak van de cel staan",
             "de chromatiden worden naar de polen getrokken",
             "er vormt zich een nieuw kernmembraan"
           ],
@@ -4702,7 +4702,7 @@
           "vraag": "Wat gebeurt er in de G2-fase?",
           "opties": [
             "de cel bereidt de deling voor en keurt het DNA",
-            "het DNA wordt voor het eerst gekopieerd",
+            "het DNA wordt voor het eerst helemaal gekopieerd",
             "de cel stapt uit de celcyclus",
             "het cytoplasma wordt al in twee gedeeld"
           ],
@@ -4733,7 +4733,7 @@
           "vraag": "Wat gebeurt er in meiose I dat in een mitose nooit gebeurt?",
           "opties": [
             "de homologe chromosomen gaan uit elkaar",
-            "de zusterchromatiden gaan uit elkaar",
+            "de zusterchromatiden gaan uit elkaar naar de polen",
             "het kernmembraan valt uiteen",
             "de spoelfiguur wordt opgebouwd"
           ],
@@ -4755,7 +4755,7 @@
           "vraag": "Wat is het belang van crossing-over?",
           "opties": [
             "nieuwe combinaties van allelen maken",
-            "het aantal chromosomen halveren",
+            "het aantal chromosomen in de cel halveren",
             "het DNA kopiëren voor de deling",
             "de cel groter maken voor ze deelt"
           ],
@@ -4777,7 +4777,7 @@
           "vraag": "Wat is mixing bij de meiose?",
           "opties": [
             "de paren verdelen zich toevallig over de polen",
-            "de chromatiden wisselen stukken uit",
+            "de chromatiden wisselen stukken uit met elkaar",
             "twee gameten smelten samen",
             "het DNA wordt dubbel gekopieerd"
           ],
@@ -4891,7 +4891,7 @@
           "vraag": "Waarom blijft het aantal chromosomen van een soort over de generaties gelijk?",
           "opties": [
             "de meiose halveert en de bevruchting verdubbelt",
-            "de mitose halveert en de meiose verdubbelt",
+            "de mitose halveert het aantal en de meiose verdubbelt het",
             "elke gameet is diploïd",
             "de bevruchting halveert het aantal"
           ],
@@ -4930,7 +4930,7 @@
           "vraag": "Waarom gaat een cel met beschadigd DNA het best niet in deling?",
           "opties": [
             "de fout wordt dan aan alle dochtercellen doorgegeven",
-            "de cel zou dan te groot worden",
+            "de cel zou dan veel te groot worden om nog netjes te delen",
             "de spoelfiguur kan dan niet gevormd worden",
             "het kernmembraan blijft dan dicht"
           ],
@@ -5022,7 +5022,7 @@
           "vraag": "Welke verhouding van genotypes hoort bij die F2?",
           "opties": [
             "1 AA, 2 Aa en 1 aa",
-            "3 AA en 1 aa",
+            "3 AA en 1 aa, net als bij de fenotypes",
             "2 AA en 2 aa",
             "4 Aa"
           ],
@@ -5040,7 +5040,7 @@
           "vraag": "Wat zegt de onafhankelijkheidswet?",
           "opties": [
             "twee kenmerken erven onafhankelijk van elkaar over",
-            "twee kenmerken erven altijd samen over",
+            "twee kenmerken erven altijd samen over naar de volgende generatie",
             "een dominant allel wordt altijd doorgegeven",
             "de F1 is altijd raszuiver"
           ],
@@ -5244,7 +5244,7 @@
           "vraag": "Waarom komt kleurenblindheid vaker voor bij mannen?",
           "opties": [
             "het allel ligt op het X-chromosoom en zij hebben er één",
-            "het allel ligt op het Y-chromosoom",
+            "het allel ligt op het Y-chromosoom, dat enkel mannen hebben",
             "mannen hebben meer allelen voor dat gen",
             "bij vrouwen is het allel dominant"
           ],
@@ -5284,7 +5284,7 @@
           "vraag": "Wat zijn gekoppelde genen?",
           "opties": [
             "genen die op hetzelfde chromosoom liggen",
-            "genen die hetzelfde kenmerk bepalen",
+            "genen die samen hetzelfde kenmerk bepalen",
             "genen met meer dan twee allelen",
             "genen die alleen bij mannen werken"
           ],
@@ -5296,7 +5296,7 @@
           "vraag": "Wat kan gekoppelde genen toch van elkaar scheiden?",
           "opties": [
             "een crossing-over tussen de twee loci",
-            "een mitose in een lichaamscel",
+            "een gewone mitose in een lichaamscel van de ouder",
             "de bevruchting van de eicel",
             "een fout bij de replicatie"
           ],
@@ -5356,7 +5356,7 @@
           "vraag": "Twee gezonde ouders hebben een kind met een aandoening. Wat weet je dan?",
           "opties": [
             "het allel is recessief en de ouders zijn drager",
-            "het allel is dominant en kwam van één ouder",
+            "het allel is dominant en kwam van één van beide ouders",
             "het allel ligt zeker op het Y-chromosoom",
             "het kind heeft een nieuw chromosoom erbij"
           ],
@@ -5591,7 +5591,7 @@
           "vraag": "Waarom staat er bij een eukaryoot niet meteen een eiwit klaar na de transcriptie?",
           "opties": [
             "het mRNA moet eerst afgewerkt worden en de kern uit",
-            "er is geen mRNA nodig voor een eiwit",
+            "er is geen mRNA nodig om in een eukaryote cel een eiwit te maken",
             "het DNA moet eerst gekopieerd worden",
             "het ribosoom zit in de kern"
           ],
@@ -5603,7 +5603,7 @@
           "vraag": "Wat is een transcriptiefactor?",
           "opties": [
             "een eiwit dat helpt beslissen of een gen gelezen wordt",
-            "een stuk RNA dat het eiwit afwerkt",
+            "een stuk RNA dat het eiwit na de translatie afwerkt en plooit",
             "een enzym dat aminozuren verbindt",
             "een deel van het ribosoom"
           ],
@@ -5692,7 +5692,7 @@
           "vraag": "Wat gebeurt er bij de activatie van een aminozuur?",
           "opties": [
             "het wordt met ATP aan zijn tRNA gekoppeld",
-            "het wordt in het ribosoom afgebroken",
+            "het wordt in het ribosoom eerst afgebroken",
             "het wordt aan het mRNA gehecht",
             "het wordt in de kern gevormd"
           ],
@@ -5747,7 +5747,7 @@
           "vraag": "Wat is een polysoom?",
           "opties": [
             "meerdere ribosomen op hetzelfde mRNA",
-            "een ribosoom met meerdere mRNA's",
+            "een ribosoom met meerdere mRNA's tegelijk",
             "een keten van meerdere eiwitten",
             "een stuk DNA met meerdere genen"
           ],
@@ -5817,7 +5817,7 @@
           "vraag": "Waarom bepaalt de vorm van een eiwit zijn werking?",
           "opties": [
             "alleen met de juiste vorm past het op zijn partner",
-            "de vorm bepaalt hoeveel aminozuren erin zitten",
+            "de vorm bepaalt hoeveel aminozuren er in de keten zitten",
             "de vorm bepaalt welk gen gelezen wordt",
             "de vorm bepaalt in welke cel het eiwit zit"
           ],
@@ -5894,7 +5894,7 @@
           "vraag": "Wat doet de repressor als er geen lactose aanwezig is?",
           "opties": [
             "hij bindt op de operator en blokkeert de transcriptie",
-            "hij bindt op de promotor en start de transcriptie",
+            "hij bindt op de promotor en start zo de transcriptie van het operon",
             "hij breekt het mRNA van het operon af",
             "hij knipt het operon uit het chromosoom"
           ],
@@ -5940,7 +5940,7 @@
           "vraag": "Waarom gebruikt E. coli liever glucose dan lactose?",
           "opties": [
             "glucose is zonder extra enzymen bruikbaar",
-            "glucose levert meer ATP dan lactose",
+            "glucose levert per molecule veel meer ATP dan lactose",
             "lactose beschadigt de celwand",
             "lactose kan niet door het membraan"
           ],
@@ -5973,7 +5973,7 @@
           "vraag": "Wat is celspecifieke genexpressie?",
           "opties": [
             "elk celtype gebruikt zijn eigen deel van het genoom",
-            "elk celtype heeft zijn eigen chromosomen",
+            "elk celtype heeft bij de deling zijn eigen chromosomen gekregen",
             "elke cel maakt alle eiwitten van het lichaam",
             "elke cel kopieert haar DNA op haar eigen manier"
           ],
@@ -5995,7 +5995,7 @@
           "vraag": "Wat doet een micro-RNA?",
           "opties": [
             "het bindt op een mRNA en legt de translatie stil",
-            "het bindt op het DNA en start de transcriptie",
+            "het bindt op het DNA en start daar de transcriptie",
             "het brengt aminozuren naar het ribosoom",
             "het knipt introns uit het pre-mRNA"
           ],
@@ -6013,7 +6013,7 @@
           "vraag": "Waarom is regulatie op het niveau van het mRNA nuttig voor een cel?",
           "opties": [
             "de cel kan snel stoppen met een eiwit te maken",
-            "de cel hoeft haar DNA dan niet te kopiëren",
+            "de cel hoeft haar DNA dan niet meer te kopiëren",
             "de cel krijgt er extra chromosomen bij",
             "de cel kan haar genen dan wissen"
           ],
@@ -6083,7 +6083,7 @@
           "vraag": "Wat bestudeert de epigenetica?",
           "opties": [
             "veranderingen in de genexpressie zonder verandering van het DNA",
-            "veranderingen in de volgorde van de nucleotiden",
+            "veranderingen in de volgorde van de nucleotiden van het DNA door straling",
             "het aantal chromosomen in een cel",
             "de bouw van de ribosomen"
           ],
@@ -6117,7 +6117,7 @@
           "vraag": "Wat doet histonacetylering?",
           "opties": [
             "ze maakt het chromatine losser, zodat genen leesbaar worden",
-            "ze maakt het chromatine vaster, zodat genen stilvallen",
+            "ze maakt het chromatine vaster en dichter, zodat de genen stilvallen",
             "ze verwijdert de histonen uit de kern",
             "ze vervangt de histonen door methylgroepen"
           ],
@@ -6160,7 +6160,7 @@
           "vraag": "Waarom hebben een spiercel en een zenuwcel van dezelfde mens een ander uitzicht?",
           "opties": [
             "hun chromatine ligt anders open, dus andere genen staan aan",
-            "ze hebben elk een ander stuk van het DNA gekregen",
+            "ze hebben elk een ander stuk van het DNA gekregen bij de deling",
             "ze hebben elk een ander aantal chromosomen",
             "hun DNA is tijdens de deling veranderd"
           ],
@@ -6250,7 +6250,7 @@
           "vraag": "Een plant uit hetzelfde zaad groeit in de schaduw veel kleiner. Hoe noem je dat?",
           "opties": [
             "een invloed van de omgeving op het fenotype",
-            "een mutatie in het genotype",
+            "een mutatie in het genotype door het gebrek aan licht",
             "een epigenetische mutatie van het zaad",
             "een verandering van de genetische code"
           ],
@@ -6277,7 +6277,7 @@
           "vraag": "Waarom is epigenetica een brug tussen nature en nurture?",
           "opties": [
             "de omgeving verandert mee welke genen gelezen worden",
-            "de omgeving verandert de volgorde van de genen",
+            "de omgeving verandert de volgorde van de genen op het DNA",
             "de genen bepalen welke omgeving je krijgt",
             "de genen verdwijnen door de omgeving"
           ],
@@ -6529,7 +6529,7 @@
           "vraag": "Wat is een chromosoommutatie?",
           "opties": [
             "een verandering in de bouw van een chromosoom",
-            "een verandering in één nucleotide",
+            "een verandering in één enkele nucleotide van het DNA",
             "een verandering in het aantal chromosomen",
             "een verandering in de genexpressie"
           ],
@@ -6645,7 +6645,7 @@
           "vraag": "Wat is een proto-oncogen?",
           "opties": [
             "een gezond gen dat de celdeling aanstuurt",
-            "een gen dat de celdeling afremt",
+            "een gen dat de celdeling afremt en tumoren tegenhoudt",
             "een gen dat alleen in tumoren voorkomt",
             "een gen zonder enige functie"
           ],
@@ -6752,7 +6752,7 @@
           "vraag": "Hoe ziet het chromosoom van een bacterie eruit?",
           "opties": [
             "als een gesloten ring, vrij in het cytoplasma",
-            "als een rechte draad in een celkern",
+            "als een rechte draad in een celkern met een membraan",
             "als een draad rond histonen gewonden",
             "als losse stukjes in de celwand"
           ],
@@ -6789,7 +6789,7 @@
           "vraag": "Wat gebeurt er bij transformatie?",
           "opties": [
             "een bacterie neemt vrij DNA uit haar omgeving op",
-            "een bacterie geeft DNA door via een pilus",
+            "een bacterie geeft DNA door aan een andere via een pilus",
             "een virus brengt DNA in een bacterie",
             "een bacterie deelt zich in twee dochtercellen"
           ],
@@ -6877,7 +6877,7 @@
           "vraag": "Waarom zijn sticky ends handig bij gentechnologie?",
           "opties": [
             "ze passen op elk stuk dat met hetzelfde enzym geknipt is",
-            "ze plakken aan elk willekeurig stuk DNA vast",
+            "ze plakken aan elk willekeurig stuk DNA vast, ook zonder enzym",
             "ze beletten dat het DNA opnieuw sluit",
             "ze maken het DNA bestand tegen enzymen"
           ],
@@ -6975,7 +6975,7 @@
           "vraag": "Waarvoor dient een PCR?",
           "opties": [
             "een stukje DNA miljoenen keren vermenigvuldigen",
-            "de volledige volgorde van de basen uitlezen",
+            "de volledige volgorde van de basen van een genoom uitlezen",
             "stukken DNA op grootte scheiden",
             "een gen uit een chromosoom knippen"
           ],
@@ -7030,7 +7030,7 @@
           "vraag": "Waarom is een DNA-fingerprint van elke mens verschillend?",
           "opties": [
             "iedereen heeft een eigen aantal herhalingen in zijn DNA",
-            "iedereen heeft andere genen voor zijn eiwitten",
+            "iedereen heeft andere genen voor al zijn eiwitten en enzymen",
             "iedereen heeft een ander aantal chromosomen",
             "iedereen heeft een eigen aantal basen in zijn genoom"
           ],
@@ -7180,7 +7180,7 @@
           "vraag": "Waarom worden ggo's maatschappelijk besproken?",
           "opties": [
             "de gevolgen op lange termijn zijn niet voor iedereen even duidelijk",
-            "de techniek werkt in het labo niet betrouwbaar",
+            "de techniek werkt in het labo nog altijd niet betrouwbaar en niet veilig",
             "de genetische code verschilt te veel per soort",
             "er bestaat geen wetgeving voor"
           ],
@@ -7211,7 +7211,7 @@
           "vraag": "Wat zijn homologe organen?",
           "opties": [
             "organen met dezelfde bouw en een gemeenschappelijke oorsprong",
-            "organen met dezelfde functie maar met een heel andere bouw",
+            "organen met dezelfde functie maar met een heel andere bouw en oorsprong",
             "organen die bij een soort geen functie meer hebben",
             "organen die alleen bij het embryo te zien zijn"
           ],
@@ -7315,7 +7315,7 @@
           "vraag": "Waarom is het vergelijken van DNA een sterk argument voor evolutie?",
           "opties": [
             "hoe verwanter twee soorten, hoe meer hun DNA gelijkt",
-            "alle soorten hebben precies hetzelfde DNA",
+            "alle soorten hebben precies hetzelfde DNA in al hun cellen",
             "DNA verandert bij elk individu tijdens zijn leven",
             "DNA zit alleen bij gewervelde dieren in de kern"
           ],
@@ -7360,7 +7360,7 @@
           "vraag": "Waarom lijken de buideldieren van Australië zo weinig op die van elders?",
           "opties": [
             "Australië raakte vroeg van de andere continenten los",
-            "buideldieren verplaatsen zich over de oceaan",
+            "buideldieren verplaatsen zich zwemmend over de oceaan naar andere landen",
             "Australië heeft een ander soort zwaartekracht",
             "buideldieren hebben geen DNA van hun voorouders"
           ],
@@ -7457,7 +7457,7 @@
           "vraag": "Welke drie gedachten dragen de theorie van Darwin?",
           "opties": [
             "variatie, selectie en erfelijkheid",
-            "mutatie, deling en groei",
+            "mutatie, celdeling en groei van het individu",
             "isolatie, drift en migratie",
             "gebruik, onbruik en overerving"
           ],
@@ -7603,7 +7603,7 @@
           "vraag": "Waarom worden bacteriën die aan een antibioticum blootstaan vaak resistent?",
           "opties": [
             "de resistente exemplaren overleven en planten zich voort",
-            "de bacteriën leren het antibioticum te herkennen",
+            "de bacteriën leren het antibioticum na een tijd te herkennen",
             "het antibioticum maakt de bacteriën resistent",
             "de bacteriën geven hun ervaring door aan hun jongen"
           ],
@@ -7615,7 +7615,7 @@
           "vraag": "Wat is biodiversiteit?",
           "opties": [
             "de verscheidenheid aan soorten, genen en ecosystemen",
-            "het aantal individuen van één soort",
+            "het aantal individuen van één soort in een bepaald gebied",
             "het aantal chromosomen van een soort",
             "de hoeveelheid planten in een gebied"
           ],
@@ -7627,7 +7627,7 @@
           "vraag": "Waarom is een populatie met weinig genetische diversiteit kwetsbaar?",
           "opties": [
             "er is weinig variatie om op te selecteren bij verandering",
-            "de dieren kunnen zich niet meer voortplanten",
+            "de dieren kunnen zich door inteelt helemaal niet meer voortplanten",
             "de dieren krijgen meer mutaties dan normaal",
             "de dieren hebben minder chromosomen"
           ],
@@ -7718,7 +7718,7 @@
           "vraag": "Waarom speelt genetische drift sterker in een kleine populatie?",
           "opties": [
             "het toeval van enkele individuen weegt er zwaar door",
-            "kleine populaties hebben meer mutaties",
+            "kleine populaties hebben veel meer mutaties per individu",
             "kleine populaties hebben een hogere selectiedruk",
             "kleine populaties planten zich sneller voort"
           ],
@@ -7730,7 +7730,7 @@
           "vraag": "Wat is een flessenhalseffect?",
           "opties": [
             "een populatie krimpt sterk en verliest variatie",
-            "een populatie groeit plots heel snel aan",
+            "een populatie groeit plots heel snel aan na een ramp",
             "een populatie splitst zich in twee soorten",
             "een populatie krijgt allelen van buitenaf"
           ],
@@ -7742,7 +7742,7 @@
           "vraag": "Wat is het stichterseffect?",
           "opties": [
             "een kleine groep sticht elders een nieuwe populatie",
-            "een hele populatie sterft door een ramp uit",
+            "een hele populatie sterft plots door een ramp uit",
             "twee populaties wisselen voortdurend allelen uit",
             "een populatie wordt door de mens uitgezet"
           ],
@@ -7870,7 +7870,7 @@
           "vraag": "Wanneer horen twee dieren tot dezelfde soort?",
           "opties": [
             "als ze samen vruchtbare nakomelingen kunnen krijgen",
-            "als ze er ongeveer hetzelfde uitzien",
+            "als ze er ongeveer hetzelfde uitzien en even groot zijn",
             "als ze in hetzelfde gebied leven",
             "als ze hetzelfde voedsel eten"
           ],
@@ -7907,7 +7907,7 @@
           "vraag": "Wat is geografische isolatie?",
           "opties": [
             "een rivier of gebergte scheidt de twee groepen",
-            "de twee groepen paren in een ander seizoen",
+            "de twee groepen paren in een ander seizoen van het jaar",
             "de twee groepen hebben een andere balts",
             "de bevruchte eicel sterft meteen af"
           ],
@@ -8039,7 +8039,7 @@
           "vraag": "Welke lichamelijke veranderingen horen bij het rechtop lopen?",
           "opties": [
             "een kommervormig bekken en een S-vormige wervelkolom",
-            "een langere arm dan been en gebogen vingers",
+            "een langere arm dan been en gebogen vingers om te klimmen in bomen",
             "een naar voren geplaatst achterhoofdsgat",
             "een grotere kaak met langere hoektanden"
           ],
@@ -8057,7 +8057,7 @@
           "vraag": "Wat wordt bedoeld met theory of mind?",
           "opties": [
             "kunnen inschatten wat een ander denkt of voelt",
-            "kunnen rekenen met grote getallen",
+            "kunnen rekenen met heel grote getallen in je hoofd",
             "kunnen onthouden waar voedsel ligt",
             "kunnen leren door iets na te doen"
           ],
@@ -8165,7 +8165,7 @@
           "vraag": "Waarom is cellulose geschikt als bouwstof van een celwand?",
           "opties": [
             "de rechte ketens liggen als kabels naast elkaar",
-            "de vertakte ketens zijn snel af te breken",
+            "de vertakte ketens zijn snel en makkelijk af te breken",
             "de ringen lossen makkelijk op in water",
             "de ketens zijn kort en heel beweeglijk"
           ],
@@ -8238,7 +8238,7 @@
           "vraag": "Waarom is olie vloeibaar en boter vast bij kamertemperatuur?",
           "opties": [
             "de geknikte ketens van olie stapelen minder goed",
-            "olie bevat meer water dan boter",
+            "olie bevat meer water dan boter en blijft daardoor vloeibaar",
             "boter bestaat niet uit vetzuren",
             "olie heeft kortere glycerolmoleculen"
           ],
@@ -8265,7 +8265,7 @@
           "vraag": "Waarom is een fosfolipide geschikt om een membraan te vormen?",
           "opties": [
             "de kop is hydrofiel en de staarten zijn hydrofoob",
-            "de hele molecule stoot water af",
+            "de hele molecule stoot water af, net als een vetdruppel",
             "de hele molecule trekt water aan",
             "ze bevat geen vetzuren maar wel suikers"
           ],
@@ -8299,7 +8299,7 @@
           "vraag": "Waarom levert vet per gram meer energie dan suiker?",
           "opties": [
             "de ketens zijn sterker gereduceerd, met meer waterstof",
-            "vet bevat meer zuurstof dan suiker",
+            "vet bevat meer zuurstof dan suiker en verbrandt dus vlotter",
             "vet lost beter op in het bloed",
             "vet wordt sneller afgebroken dan suiker"
           ],
@@ -8525,7 +8525,7 @@
           "vraag": "Wat hebben polysachariden, lipiden en proteïnen gemeenschappelijk?",
           "opties": [
             "ze worden met condensatie gevormd en met hydrolyse gesplitst",
-            "ze bestaan alle drie uit aminozuren",
+            "ze bestaan alle drie uit aminozuren die aan elkaar gekoppeld zijn",
             "ze lossen alle drie goed op in water",
             "ze dienen alle drie enkel als energievoorraad"
           ],
@@ -8554,7 +8554,7 @@
           "vraag": "Wat betekent het meetbereik van een instrument?",
           "opties": [
             "tussen welke waarden het betrouwbaar meet",
-            "hoe fijn de schaalverdeling is",
+            "hoe fijn de schaalverdeling op het toestel is",
             "hoe lang het meegaat voor het stuk is",
             "hoeveel het instrument weegt"
           ],
@@ -8615,7 +8615,7 @@
           "vraag": "Wat doe je meteen als je iets morst?",
           "opties": [
             "opkuisen volgens de voorschriften van dat product",
-            "er een blad papier overleggen tot later",
+            "er een blad papier overleggen tot later, als de les gedaan is",
             "wachten tot het vanzelf opdroogt",
             "er water bij gieten om het te verdunnen"
           ],
@@ -8676,7 +8676,7 @@
           "vraag": "Waarom start je het bekijken van een preparaat met het kleinste objectief?",
           "opties": [
             "zo vind je het beeld en vermijd je schade aan de lens",
-            "zo is het beeld meteen het scherpst van allemaal",
+            "zo is het beeld meteen het scherpst van allemaal, zonder bijregelen",
             "zo gebruikt de microscoop minder licht",
             "zo is het preparaat sneller droog"
           ],
@@ -8870,7 +8870,7 @@
           "vraag": "Waarom giet je chemisch afval niet in de gootsteen?",
           "opties": [
             "het komt zo in het oppervlaktewater terecht",
-            "het beschadigt de kraan van de gootsteen",
+            "het beschadigt de kraan en de buizen van de gootsteen",
             "het maakt het water te hard",
             "het verdampt anders te traag"
           ],
@@ -9136,7 +9136,7 @@
           "vraag": "Waarom gebruik je in een proef met zaden liever vijftig zaden dan drie?",
           "opties": [
             "een grotere steekproef geeft een betrouwbaarder beeld",
-            "vijftig zaden groeien sneller dan drie",
+            "vijftig zaden groeien sneller dan drie zaden in dezelfde pot",
             "vijftig zaden hebben minder water nodig",
             "met drie zaden mag je geen grafiek meer tekenen"
           ],
@@ -9295,7 +9295,7 @@
           "vraag": "Een grafiek toont dat er meer ijsjes verkocht worden als er meer mensen verdrinken. Wat besluit je?",
           "opties": [
             "er is een verband, maar geen oorzaak en gevolg",
-            "ijsjes eten maakt zwemmen gevaarlijker",
+            "ijsjes eten maakt het zwemmen achteraf gevaarlijker",
             "verdrinkingen doen de ijsverkoop stijgen",
             "de grafiek is zeker verkeerd getekend"
           ],
@@ -9328,7 +9328,7 @@
           "vraag": "Waarom reflecteer je achteraf over je werkwijze?",
           "opties": [
             "om te zien wat het resultaat onzeker maakt",
-            "om de hypothese alsnog juist te maken",
+            "om de hypothese achteraf alsnog juist te maken",
             "om de metingen te mogen aanpassen",
             "om het verslag langer te maken"
           ],
@@ -9356,7 +9356,7 @@
           "vraag": "Waarmee begint het ontwerpen van een oplossing?",
           "opties": [
             "met het probleem en de eisen vastleggen",
-            "met het bouwen van een eerste model",
+            "met het bouwen van een eerste model of prototype",
             "met het bestellen van materiaal",
             "met het schrijven van het verslag"
           ],
@@ -9417,7 +9417,7 @@
           "vraag": "Een school wil het waterverbruik van haar serre verlagen. Wat is een goede eerste stap?",
           "opties": [
             "meten hoeveel water er nu precies verbruikt wordt",
-            "meteen een nieuw bewateringssysteem kopen",
+            "meteen een nieuw en duur bewateringssysteem kopen",
             "de planten minder water geven en afwachten",
             "een verslag over waterverbruik schrijven"
           ],
@@ -9435,7 +9435,7 @@
           "vraag": "Waarom laat je je besluit door anderen nalezen?",
           "opties": [
             "zij zien denkfouten die jij over het hoofd ziet",
-            "zij kunnen de metingen voor je aanpassen",
+            "zij kunnen de metingen voor je aanpassen als ze niet kloppen",
             "zo hoef je zelf niet te reflecteren",
             "zo wordt het verslag korter"
           ],

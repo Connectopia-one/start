@@ -18,7 +18,7 @@ DEEL1 = [
         vraag="Uit welke drie delen bestaat een nucleotide?",
         opties=[
             "een suiker, een fosfaatgroep en een stikstofbase",
-            "een suiker, een vetzuur en een aminozuur",
+            "een suiker, een vetzuur en een aminozuur, aan elkaar gekoppeld",
             "een fosfaatgroep, een aminozuur en een base",
             "twee suikers en een stikstofbase",
         ],
@@ -160,7 +160,7 @@ DEEL1 = [
         vraag="Wat zit er op de plaats van het centromeer?",
         opties=[
             "het kinetochoor waar de trekdraden aangrijpen",
-            "de kernporiën van het kernmembraan",
+            "de kernporiën van het kernmembraan rond het DNA",
             "het beginpunt van de transcriptie",
             "de plaats waar het DNA vrij ligt",
         ],
@@ -250,7 +250,7 @@ DEEL2 = [
         vraag="Wat doet helicase bij de replicatie?",
         opties=[
             "de waterstofbruggen verbreken en de strengen scheiden",
-            "de nieuwe nucleotiden aan elkaar hangen",
+            "de nieuwe nucleotiden aan elkaar hangen tot een lange streng",
             "de losse stukjes aan elkaar plakken",
             "een kort stukje RNA als beginpunt leggen",
         ],
@@ -296,7 +296,7 @@ DEEL2 = [
         vraag="Waarom wordt de lagging strand in stukjes gebouwd?",
         opties=[
             "omdat polymerase maar in één richting werkt",
-            "omdat die streng korter is dan de andere",
+            "omdat die streng korter is dan de andere streng",
             "omdat er op die streng geen primer past",
             "omdat helicase die streng dichtlaat",
         ],
@@ -430,7 +430,7 @@ DEEL2 = [
         vraag="Waarom moet het DNA gekopieerd worden voor een cel deelt?",
         opties=[
             "elke dochtercel heeft een volledige set nodig",
-            "het DNA wordt bij het delen afgebroken",
+            "het DNA wordt bij het delen helemaal afgebroken",
             "anders kan de cel geen eiwitten maken",
             "anders blijven de chromosomen onzichtbaar",
         ],

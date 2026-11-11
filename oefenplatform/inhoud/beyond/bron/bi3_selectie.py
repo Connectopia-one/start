@@ -85,7 +85,7 @@ DEEL1 = [
         vraag="Waarom speelt genetische drift sterker in een kleine populatie?",
         opties=[
             "het toeval van enkele individuen weegt er zwaar door",
-            "kleine populaties hebben meer mutaties",
+            "kleine populaties hebben veel meer mutaties per individu",
             "kleine populaties hebben een hogere selectiedruk",
             "kleine populaties planten zich sneller voort",
         ],
@@ -98,7 +98,7 @@ DEEL1 = [
         vraag="Wat is een flessenhalseffect?",
         opties=[
             "een populatie krimpt sterk en verliest variatie",
-            "een populatie groeit plots heel snel aan",
+            "een populatie groeit plots heel snel aan na een ramp",
             "een populatie splitst zich in twee soorten",
             "een populatie krijgt allelen van buitenaf",
         ],
@@ -111,7 +111,7 @@ DEEL1 = [
         vraag="Wat is het stichterseffect?",
         opties=[
             "een kleine groep sticht elders een nieuwe populatie",
-            "een hele populatie sterft door een ramp uit",
+            "een hele populatie sterft plots door een ramp uit",
             "twee populaties wisselen voortdurend allelen uit",
             "een populatie wordt door de mens uitgezet",
         ],
@@ -237,7 +237,7 @@ DEEL2 = [
         vraag="Wanneer horen twee dieren tot dezelfde soort?",
         opties=[
             "als ze samen vruchtbare nakomelingen kunnen krijgen",
-            "als ze er ongeveer hetzelfde uitzien",
+            "als ze er ongeveer hetzelfde uitzien en even groot zijn",
             "als ze in hetzelfde gebied leven",
             "als ze hetzelfde voedsel eten",
         ],
@@ -270,7 +270,7 @@ DEEL2 = [
         vraag="Wat is geografische isolatie?",
         opties=[
             "een rivier of gebergte scheidt de twee groepen",
-            "de twee groepen paren in een ander seizoen",
+            "de twee groepen paren in een ander seizoen van het jaar",
             "de twee groepen hebben een andere balts",
             "de bevruchte eicel sterft meteen af",
         ],
@@ -396,7 +396,7 @@ DEEL2 = [
         vraag="Welke lichamelijke veranderingen horen bij het rechtop lopen?",
         opties=[
             "een kommervormig bekken en een S-vormige wervelkolom",
-            "een langere arm dan been en gebogen vingers",
+            "een langere arm dan been en gebogen vingers om te klimmen in bomen",
             "een naar voren geplaatst achterhoofdsgat",
             "een grotere kaak met langere hoektanden",
         ],
@@ -416,7 +416,7 @@ DEEL2 = [
         vraag="Wat wordt bedoeld met theory of mind?",
         opties=[
             "kunnen inschatten wat een ander denkt of voelt",
-            "kunnen rekenen met grote getallen",
+            "kunnen rekenen met heel grote getallen in je hoofd",
             "kunnen onthouden waar voedsel ligt",
             "kunnen leren door iets na te doen",
         ],

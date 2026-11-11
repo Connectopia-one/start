@@ -85,7 +85,7 @@ DEEL1 = [
         vraag="Wat doet het Golgi-apparaat?",
         opties=[
             "het werkt eiwitten af en verpakt ze in blaasjes",
-            "het maakt het DNA van de cel na",
+            "het maakt een kopie van het DNA van de cel na voor de deling",
             "het breekt glucose af tot pyruvaat",
             "het vangt zonlicht op voor de fotosynthese",
         ],
@@ -126,7 +126,7 @@ DEEL1 = [
         vraag="Wat is de functie van een centriool?",
         opties=[
             "de spoeldraden vastmaken bij een celdeling",
-            "de cel van energie voorzien",
+            "de cel van energie voorzien tijdens de deling",
             "het afval van de cel afbreken",
             "de eiwitten van de cel sorteren",
         ],
@@ -146,7 +146,7 @@ DEEL1 = [
         vraag="Waarom heeft een cel een kernmembraan?",
         opties=[
             "om het DNA van het cytoplasma te scheiden",
-            "om de cel haar stevigheid te geven",
+            "om de cel haar vorm en stevigheid te geven",
             "om zonlicht op te vangen",
             "om de cel te laten bewegen",
         ],
@@ -187,7 +187,7 @@ DEEL1 = [
         vraag="Welk verband tussen structuur en functie klopt?",
         opties=[
             "de cristae van een mitochondrion vergroten het oppervlak voor de eindoxidaties",
-            "de cristae van een mitochondrion houden het DNA van de cel bij elkaar",
+            "de cristae van een mitochondrion houden het DNA van de hele cel bij elkaar in de kern",
             "de cristae van een mitochondrion maken de cel stevig",
             "de cristae van een mitochondrion vangen het licht op",
         ],
@@ -207,7 +207,7 @@ DEEL1 = [
         vraag="Welke uitspraak over het celmembraan is juist?",
         opties=[
             "het laat sommige stoffen door en andere niet",
-            "het laat alle stoffen even goed door",
+            "het laat alle stoffen even goed en even snel door",
             "het laat helemaal niets door",
             "het bestaat uit cellulose",
         ],
@@ -360,7 +360,7 @@ DEEL2 = [
         vraag="Wat is de functie van de glycocalyx aan de buitenkant van een cel?",
         opties=[
             "cellen laten herkennen door andere cellen",
-            "ATP aanmaken voor de cel",
+            "ATP aanmaken voor de cel aan de buitenkant",
             "het DNA van de cel verdubbelen",
             "water uit de cel pompen",
         ],

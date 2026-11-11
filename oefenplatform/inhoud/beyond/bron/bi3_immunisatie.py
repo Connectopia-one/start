@@ -155,7 +155,7 @@ DEEL1 = [
         vraag="Waarom is bloedgroep O de universele donor voor rode bloedcellen?",
         opties=[
             "haar cellen hebben geen A- en geen B-antigeen",
-            "haar plasma bevat geen enkel antilichaam",
+            "haar plasma bevat geen enkel antilichaam tegen A of B",
             "haar cellen hebben beide antigenen",
             "haar cellen hebben helemaal geen membraan",
         ],
@@ -441,7 +441,7 @@ DEEL2 = [
         vraag="Waarom bestaat er nog geen vaccin tegen hiv?",
         opties=[
             "het virus verandert voortdurend zijn oppervlak",
-            "het virus heeft geen enkel antigeen",
+            "het virus heeft geen enkel antigeen op zijn buitenkant",
             "het virus leeft buiten het lichaam verder",
             "het virus is te groot voor een antilichaam",
         ],

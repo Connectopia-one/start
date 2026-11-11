@@ -21,7 +21,7 @@ DEEL1 = [
         vraag="Hoe ziet het chromosoom van een bacterie eruit?",
         opties=[
             "als een gesloten ring, vrij in het cytoplasma",
-            "als een rechte draad in een celkern",
+            "als een rechte draad in een celkern met een membraan",
             "als een draad rond histonen gewonden",
             "als losse stukjes in de celwand",
         ],
@@ -54,7 +54,7 @@ DEEL1 = [
         vraag="Wat gebeurt er bij transformatie?",
         opties=[
             "een bacterie neemt vrij DNA uit haar omgeving op",
-            "een bacterie geeft DNA door via een pilus",
+            "een bacterie geeft DNA door aan een andere via een pilus",
             "een virus brengt DNA in een bacterie",
             "een bacterie deelt zich in twee dochtercellen",
         ],
@@ -140,7 +140,7 @@ DEEL1 = [
         vraag="Waarom zijn sticky ends handig bij gentechnologie?",
         opties=[
             "ze passen op elk stuk dat met hetzelfde enzym geknipt is",
-            "ze plakken aan elk willekeurig stuk DNA vast",
+            "ze plakken aan elk willekeurig stuk DNA vast, ook zonder enzym",
             "ze beletten dat het DNA opnieuw sluit",
             "ze maken het DNA bestand tegen enzymen",
         ],
@@ -237,7 +237,7 @@ DEEL2 = [
         vraag="Waarvoor dient een PCR?",
         opties=[
             "een stukje DNA miljoenen keren vermenigvuldigen",
-            "de volledige volgorde van de basen uitlezen",
+            "de volledige volgorde van de basen van een genoom uitlezen",
             "stukken DNA op grootte scheiden",
             "een gen uit een chromosoom knippen",
         ],
@@ -290,7 +290,7 @@ DEEL2 = [
         vraag="Waarom is een DNA-fingerprint van elke mens verschillend?",
         opties=[
             "iedereen heeft een eigen aantal herhalingen in zijn DNA",
-            "iedereen heeft andere genen voor zijn eiwitten",
+            "iedereen heeft andere genen voor al zijn eiwitten en enzymen",
             "iedereen heeft een ander aantal chromosomen",
             "iedereen heeft een eigen aantal basen in zijn genoom",
         ],
@@ -441,7 +441,7 @@ DEEL2 = [
         vraag="Waarom worden ggo's maatschappelijk besproken?",
         opties=[
             "de gevolgen op lange termijn zijn niet voor iedereen even duidelijk",
-            "de techniek werkt in het labo niet betrouwbaar",
+            "de techniek werkt in het labo nog altijd niet betrouwbaar en niet veilig",
             "de genetische code verschilt te veel per soort",
             "er bestaat geen wetgeving voor",
         ],

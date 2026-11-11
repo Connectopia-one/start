@@ -214,7 +214,7 @@ DEEL2 = [
         vraag="Waar worden de zaadcellen gemaakt?",
         opties=[
             "in de zaadbuisjes van de teelbal",
-            "in de prostaatklier",
+            "in de prostaatklier onder de blaas",
             "in de zaadblaasjes",
             "in de zaadleider",
         ],
@@ -411,7 +411,7 @@ DEEL2 = [
         vraag="Een arts vindt in een spermastaal heel weinig beweeglijke zaadcellen. Welk onderdeel werkt dan slecht?",
         opties=[
             "het middenstuk met zijn mitochondria",
-            "het acrosoom met zijn enzymen",
+            "het acrosoom met zijn enzymen op de kop",
             "de kern met haar chromosomen",
             "de zona pellucida rond de cel",
         ],

@@ -194,7 +194,7 @@ DEEL1 = [
         vraag="Waarom staat er bij een eukaryoot niet meteen een eiwit klaar na de transcriptie?",
         opties=[
             "het mRNA moet eerst afgewerkt worden en de kern uit",
-            "er is geen mRNA nodig voor een eiwit",
+            "er is geen mRNA nodig om in een eukaryote cel een eiwit te maken",
             "het DNA moet eerst gekopieerd worden",
             "het ribosoom zit in de kern",
         ],
@@ -207,7 +207,7 @@ DEEL1 = [
         vraag="Wat is een transcriptiefactor?",
         opties=[
             "een eiwit dat helpt beslissen of een gen gelezen wordt",
-            "een stuk RNA dat het eiwit afwerkt",
+            "een stuk RNA dat het eiwit na de translatie afwerkt en plooit",
             "een enzym dat aminozuren verbindt",
             "een deel van het ribosoom",
         ],
@@ -290,7 +290,7 @@ DEEL2 = [
         vraag="Wat gebeurt er bij de activatie van een aminozuur?",
         opties=[
             "het wordt met ATP aan zijn tRNA gekoppeld",
-            "het wordt in het ribosoom afgebroken",
+            "het wordt in het ribosoom eerst afgebroken",
             "het wordt aan het mRNA gehecht",
             "het wordt in de kern gevormd",
         ],
@@ -343,7 +343,7 @@ DEEL2 = [
         vraag="Wat is een polysoom?",
         opties=[
             "meerdere ribosomen op hetzelfde mRNA",
-            "een ribosoom met meerdere mRNA's",
+            "een ribosoom met meerdere mRNA's tegelijk",
             "een keten van meerdere eiwitten",
             "een stuk DNA met meerdere genen",
         ],
@@ -415,7 +415,7 @@ DEEL2 = [
         vraag="Waarom bepaalt de vorm van een eiwit zijn werking?",
         opties=[
             "alleen met de juiste vorm past het op zijn partner",
-            "de vorm bepaalt hoeveel aminozuren erin zitten",
+            "de vorm bepaalt hoeveel aminozuren er in de keten zitten",
             "de vorm bepaalt welk gen gelezen wordt",
             "de vorm bepaalt in welke cel het eiwit zit",
         ],

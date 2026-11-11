@@ -27,7 +27,7 @@ DEEL1 = [
         vraag="Wat betekent het meetbereik van een instrument?",
         opties=[
             "tussen welke waarden het betrouwbaar meet",
-            "hoe fijn de schaalverdeling is",
+            "hoe fijn de schaalverdeling op het toestel is",
             "hoe lang het meegaat voor het stuk is",
             "hoeveel het instrument weegt",
         ],
@@ -87,7 +87,7 @@ DEEL1 = [
         vraag="Wat doe je meteen als je iets morst?",
         opties=[
             "opkuisen volgens de voorschriften van dat product",
-            "er een blad papier overleggen tot later",
+            "er een blad papier overleggen tot later, als de les gedaan is",
             "wachten tot het vanzelf opdroogt",
             "er water bij gieten om het te verdunnen",
         ],
@@ -141,7 +141,7 @@ DEEL1 = [
         vraag="Waarom start je het bekijken van een preparaat met het kleinste objectief?",
         opties=[
             "zo vind je het beeld en vermijd je schade aan de lens",
-            "zo is het beeld meteen het scherpst van allemaal",
+            "zo is het beeld meteen het scherpst van allemaal, zonder bijregelen",
             "zo gebruikt de microscoop minder licht",
             "zo is het preparaat sneller droog",
         ],
@@ -325,7 +325,7 @@ DEEL2 = [
         vraag="Waarom giet je chemisch afval niet in de gootsteen?",
         opties=[
             "het komt zo in het oppervlaktewater terecht",
-            "het beschadigt de kraan van de gootsteen",
+            "het beschadigt de kraan en de buizen van de gootsteen",
             "het maakt het water te hard",
             "het verdampt anders te traag",
         ],

@@ -152,7 +152,7 @@ DEEL1 = [
         vraag="Waarom gebruik je in een proef met zaden liever vijftig zaden dan drie?",
         opties=[
             "een grotere steekproef geeft een betrouwbaarder beeld",
-            "vijftig zaden groeien sneller dan drie",
+            "vijftig zaden groeien sneller dan drie zaden in dezelfde pot",
             "vijftig zaden hebben minder water nodig",
             "met drie zaden mag je geen grafiek meer tekenen",
         ],
@@ -302,7 +302,7 @@ DEEL2 = [
         vraag="Een grafiek toont dat er meer ijsjes verkocht worden als er meer mensen verdrinken. Wat besluit je?",
         opties=[
             "er is een verband, maar geen oorzaak en gevolg",
-            "ijsjes eten maakt zwemmen gevaarlijker",
+            "ijsjes eten maakt het zwemmen achteraf gevaarlijker",
             "verdrinkingen doen de ijsverkoop stijgen",
             "de grafiek is zeker verkeerd getekend",
         ],
@@ -335,7 +335,7 @@ DEEL2 = [
         vraag="Waarom reflecteer je achteraf over je werkwijze?",
         opties=[
             "om te zien wat het resultaat onzeker maakt",
-            "om de hypothese alsnog juist te maken",
+            "om de hypothese achteraf alsnog juist te maken",
             "om de metingen te mogen aanpassen",
             "om het verslag langer te maken",
         ],
@@ -362,7 +362,7 @@ DEEL2 = [
         vraag="Waarmee begint het ontwerpen van een oplossing?",
         opties=[
             "met het probleem en de eisen vastleggen",
-            "met het bouwen van een eerste model",
+            "met het bouwen van een eerste model of prototype",
             "met het bestellen van materiaal",
             "met het schrijven van het verslag",
         ],
@@ -421,7 +421,7 @@ DEEL2 = [
         vraag="Een school wil het waterverbruik van haar serre verlagen. Wat is een goede eerste stap?",
         opties=[
             "meten hoeveel water er nu precies verbruikt wordt",
-            "meteen een nieuw bewateringssysteem kopen",
+            "meteen een nieuw en duur bewateringssysteem kopen",
             "de planten minder water geven en afwachten",
             "een verslag over waterverbruik schrijven",
         ],
@@ -441,7 +441,7 @@ DEEL2 = [
         vraag="Waarom laat je je besluit door anderen nalezen?",
         opties=[
             "zij zien denkfouten die jij over het hoofd ziet",
-            "zij kunnen de metingen voor je aanpassen",
+            "zij kunnen de metingen voor je aanpassen als ze niet kloppen",
             "zo hoef je zelf niet te reflecteren",
             "zo wordt het verslag korter",
         ],

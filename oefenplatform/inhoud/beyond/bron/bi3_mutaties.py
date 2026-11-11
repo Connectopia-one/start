@@ -233,7 +233,7 @@ DEEL2 = [
         vraag="Wat is een chromosoommutatie?",
         opties=[
             "een verandering in de bouw van een chromosoom",
-            "een verandering in één nucleotide",
+            "een verandering in één enkele nucleotide van het DNA",
             "een verandering in het aantal chromosomen",
             "een verandering in de genexpressie",
         ],
@@ -347,7 +347,7 @@ DEEL2 = [
         vraag="Wat is een proto-oncogen?",
         opties=[
             "een gezond gen dat de celdeling aanstuurt",
-            "een gen dat de celdeling afremt",
+            "een gen dat de celdeling afremt en tumoren tegenhoudt",
             "een gen dat alleen in tumoren voorkomt",
             "een gen zonder enige functie",
         ],

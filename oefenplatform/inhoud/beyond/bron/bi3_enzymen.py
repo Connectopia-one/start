@@ -16,7 +16,7 @@ DEEL1 = [
         vraag="Wat is een enzym?",
         opties=[
             "een eiwit dat een reactie versnelt",
-            "een suiker die energie levert",
+            "een suiker die energie levert aan de cel",
             "een vetzuur in een membraan",
             "een stuk DNA met een code",
         ],
@@ -49,7 +49,7 @@ DEEL1 = [
         vraag="Hoe noemt men de tijdelijke verbinding van een enzym met zijn substraat?",
         opties=[
             "het enzym-substraatcomplex",
-            "het co-enzym",
+            "het co-enzym van de reactie",
             "de inhibitor",
             "de cofactor",
         ],
@@ -76,7 +76,7 @@ DEEL1 = [
         vraag="Wat betekent het dat een enzym substraatspecifiek is?",
         opties=[
             "het past maar op één soort molecule",
-            "het werkt bij elke temperatuur",
+            "het werkt bij elke temperatuur even goed",
             "het zit altijd in een membraan",
             "het heeft geen cofactor nodig",
         ],
@@ -89,7 +89,7 @@ DEEL1 = [
         vraag="Wat gebeurt er met een enzym bij denaturatie?",
         opties=[
             "zijn ruimtelijke vorm gaat verloren",
-            "zijn DNA wordt verdubbeld",
+            "zijn DNA wordt verdubbeld voor de deling",
             "het wordt in een vesikel verpakt",
             "het wordt tot glucose afgebroken",
         ],
@@ -260,7 +260,7 @@ DEEL2 = [
         vraag="Wat doet een kanaaleiwit in een membraan?",
         opties=[
             "een gaatje vormen waardoor ionen gaan",
-            "ionen tegen de gradiënt in pompen",
+            "ionen met ATP tegen de gradiënt in pompen",
             "glucose afbreken tot pyruvaat",
             "het membraan stevig maken",
         ],
@@ -288,7 +288,7 @@ DEEL2 = [
         vraag="Wat is osmose?",
         opties=[
             "water gaat door een membraan naar de hogere concentratie",
-            "zout gaat door een membraan naar het water",
+            "zout gaat door een membraan naar de kant waar het meeste water is",
             "een pomp duwt water naar buiten",
             "een cel neemt een deeltje op in een blaasje",
         ],
@@ -322,7 +322,7 @@ DEEL2 = [
         vraag="Je legt een plantencel in een sterke zoutoplossing. Wat gebeurt er?",
         opties=[
             "het cytoplasma trekt van de celwand weg",
-            "de cel barst open",
+            "de cel neemt veel water op en barst open",
             "de vacuole wordt groter",
             "de celwand lost op",
         ],
@@ -355,7 +355,7 @@ DEEL2 = [
         vraag="Wat is kenmerkend voor de natrium-kaliumpomp?",
         opties=[
             "ze pompt tegen de gradiënt in met ATP",
-            "ze laat ionen passief doorstromen",
+            "ze laat ionen passief doorstromen, zonder energie",
             "ze pompt enkel water",
             "ze zit enkel in plantencellen",
         ],
@@ -375,7 +375,7 @@ DEEL2 = [
         vraag="Wat doet een protonpomp?",
         opties=[
             "waterstofionen door een membraan pompen",
-            "water in de cel pompen",
+            "water in de cel pompen om ze stevig te houden",
             "glucose afbreken",
             "eiwitten uit de cel brengen",
         ],
@@ -410,7 +410,7 @@ DEEL2 = [
         vraag="Wat is kenmerkend voor een anabole reactie?",
         opties=[
             "ze bouwt grote moleculen op en kost energie",
-            "ze breekt moleculen af en levert energie",
+            "ze breekt moleculen af en levert zo energie op",
             "ze verloopt zonder enzym",
             "ze gebeurt enkel buiten de cel",
         ],

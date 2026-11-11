@@ -52,7 +52,7 @@ DEEL1 = [
         vraag="Wat doet de repressor als er geen lactose aanwezig is?",
         opties=[
             "hij bindt op de operator en blokkeert de transcriptie",
-            "hij bindt op de promotor en start de transcriptie",
+            "hij bindt op de promotor en start zo de transcriptie van het operon",
             "hij breekt het mRNA van het operon af",
             "hij knipt het operon uit het chromosoom",
         ],
@@ -98,7 +98,7 @@ DEEL1 = [
         vraag="Waarom gebruikt E. coli liever glucose dan lactose?",
         opties=[
             "glucose is zonder extra enzymen bruikbaar",
-            "glucose levert meer ATP dan lactose",
+            "glucose levert per molecule veel meer ATP dan lactose",
             "lactose beschadigt de celwand",
             "lactose kan niet door het membraan",
         ],
@@ -131,7 +131,7 @@ DEEL1 = [
         vraag="Wat is celspecifieke genexpressie?",
         opties=[
             "elk celtype gebruikt zijn eigen deel van het genoom",
-            "elk celtype heeft zijn eigen chromosomen",
+            "elk celtype heeft bij de deling zijn eigen chromosomen gekregen",
             "elke cel maakt alle eiwitten van het lichaam",
             "elke cel kopieert haar DNA op haar eigen manier",
         ],
@@ -151,7 +151,7 @@ DEEL1 = [
         vraag="Wat doet een micro-RNA?",
         opties=[
             "het bindt op een mRNA en legt de translatie stil",
-            "het bindt op het DNA en start de transcriptie",
+            "het bindt op het DNA en start daar de transcriptie",
             "het brengt aminozuren naar het ribosoom",
             "het knipt introns uit het pre-mRNA",
         ],
@@ -171,7 +171,7 @@ DEEL1 = [
         vraag="Waarom is regulatie op het niveau van het mRNA nuttig voor een cel?",
         opties=[
             "de cel kan snel stoppen met een eiwit te maken",
-            "de cel hoeft haar DNA dan niet te kopiëren",
+            "de cel hoeft haar DNA dan niet meer te kopiëren",
             "de cel krijgt er extra chromosomen bij",
             "de cel kan haar genen dan wissen",
         ],
@@ -240,7 +240,7 @@ DEEL2 = [
         vraag="Wat bestudeert de epigenetica?",
         opties=[
             "veranderingen in de genexpressie zonder verandering van het DNA",
-            "veranderingen in de volgorde van de nucleotiden",
+            "veranderingen in de volgorde van de nucleotiden van het DNA door straling",
             "het aantal chromosomen in een cel",
             "de bouw van de ribosomen",
         ],
@@ -273,7 +273,7 @@ DEEL2 = [
         vraag="Wat doet histonacetylering?",
         opties=[
             "ze maakt het chromatine losser, zodat genen leesbaar worden",
-            "ze maakt het chromatine vaster, zodat genen stilvallen",
+            "ze maakt het chromatine vaster en dichter, zodat de genen stilvallen",
             "ze verwijdert de histonen uit de kern",
             "ze vervangt de histonen door methylgroepen",
         ],
@@ -317,7 +317,7 @@ DEEL2 = [
         vraag="Waarom hebben een spiercel en een zenuwcel van dezelfde mens een ander uitzicht?",
         opties=[
             "hun chromatine ligt anders open, dus andere genen staan aan",
-            "ze hebben elk een ander stuk van het DNA gekregen",
+            "ze hebben elk een ander stuk van het DNA gekregen bij de deling",
             "ze hebben elk een ander aantal chromosomen",
             "hun DNA is tijdens de deling veranderd",
         ],
@@ -410,7 +410,7 @@ DEEL2 = [
         vraag="Een plant uit hetzelfde zaad groeit in de schaduw veel kleiner. Hoe noem je dat?",
         opties=[
             "een invloed van de omgeving op het fenotype",
-            "een mutatie in het genotype",
+            "een mutatie in het genotype door het gebrek aan licht",
             "een epigenetische mutatie van het zaad",
             "een verandering van de genetische code",
         ],
@@ -437,7 +437,7 @@ DEEL2 = [
         vraag="Waarom is epigenetica een brug tussen nature en nurture?",
         opties=[
             "de omgeving verandert mee welke genen gelezen worden",
-            "de omgeving verandert de volgorde van de genen",
+            "de omgeving verandert de volgorde van de genen op het DNA",
             "de genen bepalen welke omgeving je krijgt",
             "de genen verdwijnen door de omgeving",
         ],

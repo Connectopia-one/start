@@ -109,7 +109,7 @@ DEEL1 = [
         vraag="Welk deel van de blastocyst wordt later het embryo?",
         opties=[
             "de embryoblast of kiemknop",
-            "de trofoblast",
+            "de trofoblast aan de buitenkant",
             "de blastulaholte",
             "de zona pellucida",
         ],

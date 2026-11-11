@@ -49,7 +49,7 @@ DEEL1 = [
         vraag="Wat is de incubatietijd van een infectieziekte?",
         opties=[
             "de tijd tussen de besmetting en de eerste klachten",
-            "de tijd dat iemand besmettelijk blijft",
+            "de tijd dat iemand na de ziekte nog besmettelijk blijft",
             "de tijd die een vaccin nodig heeft om te werken",
             "de tijd die een wonde nodig heeft om te sluiten",
         ],
@@ -82,7 +82,7 @@ DEEL1 = [
         vraag="Wat doet lysozym in tranen en in speeksel?",
         opties=[
             "de celwand van bacteriën kapotmaken",
-            "virussen uit de lucht filteren",
+            "virussen uit de lucht filteren voor ze binnenkomen",
             "het oog vochtig houden",
             "antilichamen aanmaken",
         ],
@@ -185,7 +185,7 @@ DEEL1 = [
         vraag="Waarom is koorts nuttig bij een infectie?",
         opties=[
             "de afweer werkt sneller en de indringer trager",
-            "de indringer krijgt dan geen voedsel meer",
+            "de indringer krijgt dan helemaal geen voedsel meer",
             "de huid wordt er dikker door",
             "er komen dan minder witte bloedcellen",
         ],
@@ -349,7 +349,7 @@ DEEL2 = [
         vraag="Wat doet het complementsysteem?",
         opties=[
             "het membraan van een bacterie doorboren",
-            "antigenen voorstellen aan T-cellen",
+            "antigenen voorstellen aan de T-cellen in de lymfeknopen",
             "antilichamen aanmaken",
             "koorts opwekken in de hersenen",
         ],

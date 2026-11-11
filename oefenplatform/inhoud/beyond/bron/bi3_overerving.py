@@ -87,7 +87,7 @@ DEEL1 = [
         vraag="Welke verhouding van genotypes hoort bij die F2?",
         opties=[
             "1 AA, 2 Aa en 1 aa",
-            "3 AA en 1 aa",
+            "3 AA en 1 aa, net als bij de fenotypes",
             "2 AA en 2 aa",
             "4 Aa",
         ],
@@ -107,7 +107,7 @@ DEEL1 = [
         vraag="Wat zegt de onafhankelijkheidswet?",
         opties=[
             "twee kenmerken erven onafhankelijk van elkaar over",
-            "twee kenmerken erven altijd samen over",
+            "twee kenmerken erven altijd samen over naar de volgende generatie",
             "een dominant allel wordt altijd doorgegeven",
             "de F1 is altijd raszuiver",
         ],
@@ -305,7 +305,7 @@ DEEL2 = [
         vraag="Waarom komt kleurenblindheid vaker voor bij mannen?",
         opties=[
             "het allel ligt op het X-chromosoom en zij hebben er één",
-            "het allel ligt op het Y-chromosoom",
+            "het allel ligt op het Y-chromosoom, dat enkel mannen hebben",
             "mannen hebben meer allelen voor dat gen",
             "bij vrouwen is het allel dominant",
         ],
@@ -349,7 +349,7 @@ DEEL2 = [
         vraag="Wat zijn gekoppelde genen?",
         opties=[
             "genen die op hetzelfde chromosoom liggen",
-            "genen die hetzelfde kenmerk bepalen",
+            "genen die samen hetzelfde kenmerk bepalen",
             "genen met meer dan twee allelen",
             "genen die alleen bij mannen werken",
         ],
@@ -362,7 +362,7 @@ DEEL2 = [
         vraag="Wat kan gekoppelde genen toch van elkaar scheiden?",
         opties=[
             "een crossing-over tussen de twee loci",
-            "een mitose in een lichaamscel",
+            "een gewone mitose in een lichaamscel van de ouder",
             "de bevruchting van de eicel",
             "een fout bij de replicatie",
         ],
@@ -416,7 +416,7 @@ DEEL2 = [
         vraag="Twee gezonde ouders hebben een kind met een aandoening. Wat weet je dan?",
         opties=[
             "het allel is recessief en de ouders zijn drager",
-            "het allel is dominant en kwam van één ouder",
+            "het allel is dominant en kwam van één van beide ouders",
             "het allel ligt zeker op het Y-chromosoom",
             "het kind heeft een nieuw chromosoom erbij",
         ],

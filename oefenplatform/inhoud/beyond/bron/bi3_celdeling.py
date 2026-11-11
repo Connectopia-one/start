@@ -78,7 +78,7 @@ DEEL1 = [
         vraag="Wat gebeurt er in de profase van de mitose?",
         opties=[
             "de chromosomen condenseren en het kernmembraan verdwijnt",
-            "de chromosomen gaan op het evenaarsvlak staan",
+            "de chromosomen gaan netjes op het evenaarsvlak van de cel staan",
             "de chromatiden worden naar de polen getrokken",
             "er vormt zich een nieuw kernmembraan",
         ],
@@ -219,7 +219,7 @@ DEEL1 = [
         vraag="Wat gebeurt er in de G2-fase?",
         opties=[
             "de cel bereidt de deling voor en keurt het DNA",
-            "het DNA wordt voor het eerst gekopieerd",
+            "het DNA wordt voor het eerst helemaal gekopieerd",
             "de cel stapt uit de celcyclus",
             "het cytoplasma wordt al in twee gedeeld",
         ],
@@ -248,7 +248,7 @@ DEEL2 = [
         vraag="Wat gebeurt er in meiose I dat in een mitose nooit gebeurt?",
         opties=[
             "de homologe chromosomen gaan uit elkaar",
-            "de zusterchromatiden gaan uit elkaar",
+            "de zusterchromatiden gaan uit elkaar naar de polen",
             "het kernmembraan valt uiteen",
             "de spoelfiguur wordt opgebouwd",
         ],
@@ -268,7 +268,7 @@ DEEL2 = [
         vraag="Wat is het belang van crossing-over?",
         opties=[
             "nieuwe combinaties van allelen maken",
-            "het aantal chromosomen halveren",
+            "het aantal chromosomen in de cel halveren",
             "het DNA kopiëren voor de deling",
             "de cel groter maken voor ze deelt",
         ],
@@ -288,7 +288,7 @@ DEEL2 = [
         vraag="Wat is mixing bij de meiose?",
         opties=[
             "de paren verdelen zich toevallig over de polen",
-            "de chromatiden wisselen stukken uit",
+            "de chromatiden wisselen stukken uit met elkaar",
             "twee gameten smelten samen",
             "het DNA wordt dubbel gekopieerd",
         ],
@@ -404,7 +404,7 @@ DEEL2 = [
         vraag="Waarom blijft het aantal chromosomen van een soort over de generaties gelijk?",
         opties=[
             "de meiose halveert en de bevruchting verdubbelt",
-            "de mitose halveert en de meiose verdubbelt",
+            "de mitose halveert het aantal en de meiose verdubbelt het",
             "elke gameet is diploïd",
             "de bevruchting halveert het aantal",
         ],
@@ -438,7 +438,7 @@ DEEL2 = [
         vraag="Waarom gaat een cel met beschadigd DNA het best niet in deling?",
         opties=[
             "de fout wordt dan aan alle dochtercellen doorgegeven",
-            "de cel zou dan te groot worden",
+            "de cel zou dan veel te groot worden om nog netjes te delen",
             "de spoelfiguur kan dan niet gevormd worden",
             "het kernmembraan blijft dan dicht",
         ],
