@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "11 november 2026",
+    titel: "Nieuwe begrippenarena: techniek",
+    tekst:
+      "Bij de educatieve spellen staat nu ook een begrippenarena techniek, voor wetenschap en techniek in Start en voor techniek in Spark. Je oefent de begrippen uit de leerbundels in met een quiz, memory, galgje, flitskaarten of bingo. Nieuw is de sorteerband: er komt een voorwerp voorbij en jij kiest de juiste bak, zoals geleider of isolator, sensor of actuator.",
+    link: { tekst: "Naar de spellen", href: "/extras/spellen" },
+  },
+  {
+    datum: "11 november 2026",
     titel: "Nieuwe woordenarena: Frans",
     tekst:
       "Bij de educatieve spellen staat nu ook een woordenarena Frans, voor Basis, Start, Spark, Boost en Beyond. Je oefent de Franse woorden uit de leerbundels in met een quiz, memory, galgje, flitskaarten of bingo. Nieuw is le of la?: je ziet een Frans woord en kiest of het mannelijk of vrouwelijk is.",

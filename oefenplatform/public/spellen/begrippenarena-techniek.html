@@ -1,0 +1,1023 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><title>Begrippenarena Techniek</title><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Young+Serif&display=swap">
+<style>
+/* Layout: één scherm voor het digibord. Menu (niveau → hoofdstuk → spel) en een speelvlak met vaste scorebalk bovenaan. */
+:root {
+  --bg: #eceee9;
+  --surface: #ffffff;
+  --sunk: #e1e4de;
+  --ink: #1d2330;
+  --muted: #586070;
+  --line: #cfd4cc;
+  --oker: #a8650f;
+  --oker-soft: #f3e3c7;
+  --lapis: #274a8c;
+  --lapis-soft: #dbe4f5;
+  --ok: #23774a;
+  --ok-soft: #d6efe0;
+  --bad: #b23a33;
+  --bad-soft: #f6dcd9;
+  --t1: #274a8c; --t2: #a8650f; --t3: #7a3f99; --t4: #1f7a6a;
+  --font-display: "Young Serif", Georgia, "Times New Roman", serif;
+  --font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --radius: 14px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12161d; --surface: #1c222c; --sunk: #252c38; --ink: #ecebe6; --muted: #a2a9b6; --line: #333b49;
+    --oker: #e6a54f; --oker-soft: #3b2f1c; --lapis: #94b3ef; --lapis-soft: #22304b;
+    --ok: #63c98f; --ok-soft: #1c3a2a; --bad: #f08a80; --bad-soft: #43231f;
+    --t1: #94b3ef; --t2: #e6a54f; --t3: #c99be3; --t4: #6fd1bd;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12161d; --surface: #1c222c; --sunk: #252c38; --ink: #ecebe6; --muted: #a2a9b6; --line: #333b49;
+  --oker: #e6a54f; --oker-soft: #3b2f1c; --lapis: #94b3ef; --lapis-soft: #22304b;
+  --ok: #63c98f; --ok-soft: #1c3a2a; --bad: #f08a80; --bad-soft: #43231f;
+  --t1: #94b3ef; --t2: #e6a54f; --t3: #c99be3; --t4: #6fd1bd;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: var(--font-body); font-size: 17px; line-height: 1.45;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 20px 48px;
+}
+.wrap { max-width: 1180px; margin: 0 auto; display: flex; flex-direction: column; gap: 22px; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 400; margin: 0; text-wrap: balance; }
+button { font: inherit; color: inherit; cursor: pointer; }
+button:focus-visible, input:focus-visible { outline: 3px solid var(--oker); outline-offset: 2px; }
+.label { font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+
+/* header */
+.top { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 14px 24px; }
+.brand h1 { font-size: clamp(1.9rem, 4vw, 2.8rem); line-height: 1.05; }
+.brand h1 span { color: var(--oker); }
+.brand p { margin: 6px 0 0; color: var(--muted); max-width: 60ch; }
+.seg { display: inline-flex; background: var(--sunk); border-radius: 999px; padding: 4px; gap: 4px; flex-wrap: wrap; }
+.seg button { border: 0; background: transparent; padding: 9px 16px; border-radius: 999px; font-weight: 700; color: var(--muted); }
+.seg button[aria-pressed="true"] { background: var(--surface); color: var(--ink); box-shadow: 0 1px 3px rgba(0,0,0,.15); }
+
+/* chapters */
+.chapters { display: flex; flex-wrap: wrap; gap: 10px; }
+.chip { border: 2px solid var(--line); background: var(--surface); border-radius: 999px; padding: 9px 16px; font-weight: 700; display: inline-flex; gap: 8px; align-items: center; }
+.chip small { font-weight: 400; color: var(--muted); font-variant-numeric: tabular-nums; }
+.chip[aria-pressed="true"] { border-color: var(--lapis); background: var(--lapis-soft); }
+
+/* game cards */
+.games { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+@media (max-width: 860px) { .games { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 520px) { .games { grid-template-columns: 1fr; } }
+.game-card { text-align: left; border: 2px solid var(--line); background: var(--surface); border-radius: var(--radius); padding: 18px 18px 16px; display: grid; grid-template-columns: 56px 1fr; gap: 4px 14px; align-items: start; transition: transform .12s, border-color .12s; }
+.game-card:hover { border-color: var(--oker); transform: translateY(-2px); }
+.game-card svg { grid-row: span 2; width: 56px; height: 56px; }
+.game-card h3 { font-size: 1.3rem; }
+.game-card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+.ic-a { fill: var(--oker); } .ic-b { fill: var(--lapis); } .ic-s { fill: none; stroke: var(--ink); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; } .ic-bg { fill: var(--sunk); }
+
+/* teams */
+.panel { background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); padding: 16px 18px; display: flex; flex-direction: column; gap: 12px; }
+.team-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.team-input { display: flex; align-items: center; gap: 8px; background: var(--sunk); border-radius: 10px; padding: 6px 10px; min-width: 0; }
+.team-input i { width: 14px; height: 14px; border-radius: 50%; flex: none; }
+.team-input input { border: 0; background: transparent; font: inherit; font-weight: 700; width: 9.5em; min-width: 0; color: var(--ink); }
+.linkbtn { border: 0; background: none; color: var(--lapis); font-weight: 700; padding: 6px 4px; text-decoration: underline; text-underline-offset: 3px; }
+
+/* game screen */
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 8px; display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; justify-content: space-between; border-bottom: 2px solid var(--line); }
+.bar .where { display: flex; flex-direction: column; min-width: 0; }
+.bar .where strong { font-family: var(--font-display); font-weight: 400; font-size: 1.35rem; line-height: 1.1; }
+.btn { border: 2px solid var(--ink); background: var(--surface); border-radius: 12px; padding: 10px 18px; font-weight: 700; }
+.btn.primary { background: var(--ink); color: var(--bg); }
+.btn.oker { background: var(--oker); border-color: var(--oker); color: var(--bg); }
+.btn.ghost { border-color: var(--line); }
+.btn:disabled { opacity: .4; cursor: default; }
+.scores { display: flex; flex-wrap: wrap; gap: 8px; }
+.score { display: flex; align-items: center; gap: 6px; border: 2px solid var(--line); background: var(--surface); border-radius: 12px; padding: 4px 6px 4px 12px; font-weight: 700; }
+.score .n { font-family: var(--font-display); font-size: 1.4rem; min-width: 1.6ch; text-align: center; font-variant-numeric: tabular-nums; }
+.score.turn { border-color: var(--tc); box-shadow: 0 0 0 3px color-mix(in srgb, var(--tc) 30%, transparent); }
+.score .dot { width: 12px; height: 12px; border-radius: 50%; background: var(--tc); }
+.score .pm { border: 0; background: var(--sunk); border-radius: 8px; width: 28px; height: 28px; font-weight: 700; }
+.stage { display: flex; flex-direction: column; gap: 18px; align-items: stretch; }
+.turnline { font-weight: 700; color: var(--muted); }
+.turnline b { color: var(--tc, var(--ink)); }
+.prompt { background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); padding: clamp(18px, 3vw, 34px); font-size: clamp(1.3rem, 2.8vw, 2.1rem); line-height: 1.3; font-family: var(--font-display); text-wrap: balance; min-height: 4.5em; display: flex; align-items: center; }
+.prompt.term { justify-content: center; text-align: center; font-size: clamp(2rem, 5.5vw, 3.8rem); }
+.options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+@media (max-width: 620px) { .options { grid-template-columns: 1fr; } }
+.opt { border: 2px solid var(--line); background: var(--surface); border-radius: var(--radius); padding: 16px 18px; text-align: left; font-size: clamp(1.05rem, 2vw, 1.4rem); font-weight: 700; display: flex; gap: 14px; align-items: center; min-width: 0; }
+.opt .k { flex: none; width: 2em; height: 2em; border-radius: 50%; display: grid; place-items: center; background: var(--sunk); font-size: .85em; }
+.opt.long { font-weight: 400; font-size: clamp(0.98rem, 1.6vw, 1.15rem); }
+.opt:hover:not(:disabled) { border-color: var(--lapis); }
+.opt.right { border-color: var(--ok); background: var(--ok-soft); }
+.opt.wrong { border-color: var(--bad); background: var(--bad-soft); }
+.opt:disabled { cursor: default; }
+.feedback { font-size: 1.15rem; font-weight: 700; min-height: 1.5em; }
+.feedback.good { color: var(--ok); } .feedback.badc { color: var(--bad); }
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.row.end { justify-content: flex-end; }
+.progress { font-variant-numeric: tabular-nums; color: var(--muted); font-weight: 700; }
+
+/* memory */
+.mem { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.mcard { position: relative; border: 2px solid var(--line); border-radius: 12px; min-height: 120px; padding: 10px; background: var(--lapis); color: var(--bg); display: grid; place-items: center; text-align: center; font-weight: 700; overflow-wrap: anywhere; }
+.mcard .back { font-family: var(--font-display); font-size: 2rem; opacity: .55; }
+.mcard.open { background: var(--surface); color: var(--ink); }
+.mcard.open.w { font-family: var(--font-display); font-weight: 400; font-size: clamp(1.05rem, 2vw, 1.5rem); }
+.mcard.open.d { font-weight: 400; font-size: clamp(.8rem, 1.3vw, 1rem); background: var(--oker-soft); }
+.mcard.done { border-color: var(--tc); box-shadow: inset 0 0 0 3px var(--tc); }
+.mcard.miss { border-color: var(--bad); }
+@media (max-width: 520px) { .mem { gap: 6px; } .mcard { min-height: 92px; padding: 6px; } }
+
+/* raad */
+.hints { display: flex; flex-direction: column; gap: 10px; }
+.hint { display: grid; grid-template-columns: 2.4em 1fr; gap: 12px; align-items: center; background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); padding: 14px 16px; font-size: clamp(1.1rem, 2.2vw, 1.6rem); }
+.hint .num { width: 2.2em; height: 2.2em; border-radius: 50%; display: grid; place-items: center; background: var(--oker); color: var(--bg); font-weight: 700; font-size: .8em; }
+.hint.hidden-h { color: var(--muted); border-style: dashed; background: transparent; }
+.pattern { font-family: ui-monospace, "Cascadia Mono", Menlo, monospace; letter-spacing: .25em; }
+.answer { text-align: center; font-family: var(--font-display); font-size: clamp(2rem, 5vw, 3.4rem); color: var(--ok); }
+
+/* galgje */
+.hang { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 20px; align-items: start; }
+@media (max-width: 760px) { .hang { grid-template-columns: 1fr; } .hang svg { max-width: 220px; margin: 0 auto; } }
+.slots { display: flex; flex-wrap: wrap; gap: 8px 6px; justify-content: center; font-family: var(--font-display); font-size: clamp(1.6rem, 4vw, 2.8rem); }
+.slot { min-width: 1.05em; text-align: center; border-bottom: 4px solid var(--ink); line-height: 1.2; }
+.slot.gap { border-bottom-color: transparent; min-width: .5em; }
+.slot.lost { color: var(--bad); }
+.keys { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }
+.key { width: 2.6em; height: 2.6em; border: 2px solid var(--line); background: var(--surface); border-radius: 10px; font-weight: 700; font-size: 1.05rem; }
+.key.hit { background: var(--ok-soft); border-color: var(--ok); }
+.key.miss { background: var(--bad-soft); border-color: var(--bad); opacity: .6; }
+.temple .piece { fill: var(--oker); transition: opacity .3s; }
+.temple .piece.lava { fill: var(--lapis); }
+.temple .piece.rook { fill: var(--muted); opacity: .55; }
+.temple .ghost { fill: none; stroke: var(--line); stroke-width: 2; stroke-dasharray: 4 4; }
+.sort { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; }
+.sort .opt { justify-content: center; font-size: clamp(1.2rem, 2.6vw, 1.7rem); font-family: var(--font-display); padding: 22px; }
+.lives { text-align: center; font-weight: 700; color: var(--muted); }
+
+/* flitskaarten */
+.flash { perspective: 1400px; }
+.flash-inner { position: relative; min-height: 300px; transition: transform .5s; transform-style: preserve-3d; cursor: pointer; }
+.flash.flipped .flash-inner { transform: rotateY(180deg); }
+.face { position: absolute; inset: 0; backface-visibility: hidden; border-radius: 20px; border: 2px solid var(--line); background: var(--surface); padding: 28px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; gap: 14px; }
+.face.back-f { transform: rotateY(180deg); background: var(--oker-soft); }
+.face .big { font-family: var(--font-display); font-size: clamp(2rem, 6vw, 4rem); line-height: 1.1; }
+.face .def { font-size: clamp(1.2rem, 2.6vw, 1.9rem); line-height: 1.35; max-width: 34ch; }
+.face .tip { color: var(--muted); font-size: clamp(1rem, 1.8vw, 1.25rem); }
+
+/* bingo */
+.wall { display: flex; flex-wrap: wrap; gap: 8px; }
+.wall span { background: var(--surface); border: 2px solid var(--line); border-radius: 10px; padding: 6px 12px; font-weight: 700; font-size: clamp(1rem, 1.8vw, 1.3rem); }
+.wall span.called { background: var(--ok-soft); border-color: var(--ok); }
+.howto { margin: 0; padding-left: 1.2em; color: var(--muted); }
+.howto li + li { margin-top: 4px; }
+
+/* lijst */
+.tablewrap { overflow-x: auto; background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); }
+table { border-collapse: collapse; width: 100%; min-width: 560px; }
+th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+td:first-child { font-weight: 700; white-space: nowrap; }
+td.x { color: var(--muted); }
+
+.endbox { background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); padding: 28px; text-align: center; display: flex; flex-direction: column; gap: 14px; align-items: center; }
+.endbox h2 { font-size: clamp(1.8rem, 4vw, 2.6rem); }
+.note { color: var(--muted); font-size: .92rem; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap" id="app"></div>
+
+<script>
+// Begrippen per hoofdstuk: [begrip, uitleg, extra tip]. Gehaald uit de leerbundels van Connectopia (Kim, 11/11/2026):
+// 🌱 Start Wetenschap en techniek en ✨ Spark Techniek.
+const DATA = {
+  lager: { label: "START · Wetenschap en techniek", chapters: [
+    { id: "l-leven", title: "Leven en ecologie", terms: [
+      ["fotosynthese","Een plant maakt met licht, water en koolstofdioxide suiker, en daarbij komt zuurstof vrij.","Gebeurt in de groene bladeren."],
+      ["bestuiving","Stuifmeel komt van de meeldraden op de stamper terecht.","Vooral bijen doen dat werk."],
+      ["schimmel","Een levend wezen zonder bladgroen dat geen eigen voedsel maakt, en dus geen plant is.","Paddenstoelen horen erbij."],
+      ["gewervelde dieren","Dieren met een ruggengraat.","Vissen, vogels, zoogdieren."],
+      ["gedaanteverwisseling","Een dier verandert helemaal van vorm tijdens zijn leven.","Van rups tot vlinder. Ook metamorfose."],
+      ["camouflage","Een dier valt niet op omdat het op zijn omgeving lijkt.","Een sprinkhaan in het gras."],
+      ["voedselketen","Een rij van wie wie eet, die altijd bij een plant begint.","Gras, konijn, vos."],
+      ["producenten","Planten, omdat ze als enige hun eigen voedsel maken.","Het begin van elke voedselketen."],
+      ["voedselweb","Alle voedselketens van een gebied die in elkaar haken.","Een net van ketens."],
+      ["habitat","De plaats waar een dier leeft met alles wat het nodig heeft.","Ook leefgebied."],
+      ["ecosysteem","Alles wat in één gebied samenleeft, samen met de bodem, het water en het weer.","Een bos, een vijver."],
+      ["biodiversiteit","Hoeveel verschillende soorten er in een gebied leven.","Hoe meer, hoe gezonder de natuur."]
+    ]},
+    { id: "l-lichaam", title: "Het menselijk lichaam", terms: [
+      ["stelsel","Een groep organen die samen één taak uitvoeren.","Het spijsverteringsstelsel."],
+      ["dunne darm","Het lange, geplooide deel van je darmen waar voedingsstoffen naar het bloed gaan.","Bij een volwassene wel vijf meter."],
+      ["dikke darm","Het deel van je darmen waar vooral water uit het voedsel gehaald wordt.","Na de dunne darm."],
+      ["lever","Het grootste orgaan binnenin je lichaam.","Ligt rechts boven in je buik."],
+      ["slagader","Een bloedvat dat bloed wég van het hart voert.","Hier voel je je pols."],
+      ["ader","Een bloedvat dat bloed naar het hart terug voert.","Tegenovergestelde van een slagader."],
+      ["longblaasjes","Honderden miljoenen kleine zakjes in je longen waar zuurstof in je bloed gaat.","Diep in de longen."],
+      ["middenrif","De grote, platte spier onder je longen die je helpt ademen.","Ligt tussen borst en buik."],
+      ["gewricht","De plaats waar twee botten ten opzichte van elkaar kunnen bewegen.","Knie, elleboog, schouder."],
+      ["kraakbeen","Een glad laagje dat ervoor zorgt dat botten niet op elkaar schuren.","Ook in je oor en neus."],
+      ["beenmerg","Het binnenste van je botten, waar je bloedcellen gemaakt worden.","Binnenin het bot."],
+      ["pees","Het stevige koordje dat een spier aan een bot vastmaakt.","De achillespees aan je hiel."],
+      ["reflex","Een snelle reactie die via het ruggenmerg gaat en niet eerst langs de hersenen.","Je hand wegtrekken van iets heets."],
+      ["nieren","Organen die afvalstoffen uit je bloed filteren en er urine van maken.","Je hebt er twee."],
+      ["virus","Een ziektekiem, veel kleiner dan een bacterie, die zich alleen binnenin een cel kan vermenigvuldigen.","Griep, verkoudheid."],
+      ["vaccin","Leert je afweersysteem een ziektekiem herkennen nog vóór je ziek wordt.","Een prik bij de dokter."]
+    ]},
+    { id: "l-stof", title: "Stoffen en mengsels", terms: [
+      ["atoom","De allerkleinste bouwsteen van alle stoffen.","Te klein om te zien."],
+      ["molecule","Een paar atomen die aan elkaar vastzitten.","Een watermolecule."],
+      ["mengsel","Een stof die uit verschillende stoffen samen bestaat.","Lucht is er een."],
+      ["verzadigd","Een oplossing waarin niets meer kan oplossen.","Er blijft suiker op de bodem liggen."],
+      ["kalk","De witte laag die achterblijft als kalkrijk water verdampt.","In je waterkoker."],
+      ["zuur","Een stof zoals azijn of citroensap.","Lage pH."],
+      ["basisch","Een stof zoals zeep of soda.","Het tegenovergestelde van zuur."],
+      ["pH","Het getal dat zegt hoe zuur of hoe basisch iets is.","7 is neutraal."],
+      ["indicator","Een stof die van kleur verandert in een zuur of een base.","Rodekoolsap."],
+      ["branddriehoek","Brandstof, zuurstof en warmte: de drie dingen die samen een vuur maken.","Haal er één weg en het vuur dooft."],
+      ["roesten","Een heel trage verbranding: ijzer dat met zuurstof en water reageert.","Een oude fiets wordt bruin."],
+      ["condenseren","Waterdamp wordt weer vloeibaar water.","Zo ontstaan wolken."],
+      ["neerslag","Water dat uit de wolken naar beneden valt.","Regen, sneeuw, hagel."]
+    ]},
+    { id: "l-kracht", title: "Energie en krachten", terms: [
+      ["kracht","Een duw of een trek.","Gemeten in newton."],
+      ["evenwicht","Krachten die even groot zijn en elkaar opheffen, zodat er niets beweegt.","Touwtrekken zonder winnaar."],
+      ["zwaartekracht","De kracht die alles naar de aarde toe trekt.","Daarom valt een appel."],
+      ["massa","Hoeveel materie er in iets zit.","Blijft gelijk, ook op de maan."],
+      ["gewicht","Hoe hard de zwaartekracht aan iets trekt.","Op de maan is het kleiner."],
+      ["hefboom","Een staaf om iets zwaars met minder kracht op te tillen.","Een wip, een koevoet."],
+      ["steunpunt","Het punt waarrond een hefboom draait.","Het midden van een wip."],
+      ["wrijving","De kracht die ontstaat waar twee dingen langs elkaar schuiven.","Smeer olie om ze kleiner te maken."],
+      ["luchtweerstand","De wrijving van lucht tegen iets dat beweegt.","Een parachute gebruikt ze."],
+      ["gestroomlijnd","Een gladde vorm waarlangs lucht of water netjes wegglijdt.","Een raceauto, een vis."],
+      ["opwaartse kracht","De kracht waarmee water van onderaf terugduwt.","Daarom drijft een boot."],
+      ["druk","Kracht verdeeld over een oppervlak.","Sneeuwschoenen maken ze kleiner."],
+      ["traagheid","Iets wil blijven doen wat het al deed: stilstaan of bewegen.","Je schiet naar voren als de bus remt."],
+      ["isoleren","Zorgen dat warmte er slecht doorheen kan.","Stilstaande lucht in een winterjas."]
+    ]},
+    { id: "l-licht", title: "Licht, geluid en elektriciteit", terms: [
+      ["lichtbron","Iets dat zelf licht maakt.","De zon, een lamp. De maan niet."],
+      ["lens","Een doorzichtig voorwerp dat lichtstralen buigt, zodat je iets groter of scherper ziet.","In een bril of vergrootglas."],
+      ["trillen","Snel heen en weer bewegen, en zo geluid maken.","Een gitaarsnaar."],
+      ["decibel","De eenheid waarin je uitdrukt hoe luid een geluid is.","Afgekort dB."],
+      ["echo","Geluid dat terugkaatst tegen een muur of rots.","Roep in de bergen."],
+      ["gesloten kring","Een stroomkring zonder onderbreking, zodat er stroom loopt.","Pas dan brandt het lampje."],
+      ["schakelaar","Een onderbreking in de stroomkring die je zelf kan maken en opheffen.","Het lichtknopje."],
+      ["volt","De eenheid van spanning.","Een gewone batterij geeft 1,5."],
+      ["geleider","Een stof die stroom doorlaat.","Metalen."],
+      ["isolator","Een stof die geen stroom doorlaat.","Plastic, rubber, glas, hout."],
+      ["kortsluiting","De stroom neemt een veel te korte weg en wordt veel te groot.","Gevaarlijk: brand."],
+      ["zekering","Onderbreekt de stroom als die te groot wordt.","Ook automaat."],
+      ["elektromagneet","Een draad rond een ijzeren staaf die magnetisch wordt als er stroom door loopt.","Aan en uit te zetten."],
+      ["dynamo","Zet beweging om in elektriciteit.","Op je fiets."]
+    ]},
+    { id: "l-techniek", title: "Ontwerpen en maken", terms: [
+      ["programma van eisen","De lijst met wat je ontwerp moet kunnen, gemaakt vóór je tekent.","Ook: de criteria."],
+      ["prototype","Een eerste versie van een ontwerp om mee te testen.","Daarna verbeter je het."],
+      ["schets","Een snelle tekening uit de hand om ideeën te vergelijken.","Nog zonder exacte maten."],
+      ["technische tekening","Een tekening met juiste maten en op schaal.","Maten in millimeter."],
+      ["losneembare verbinding","Een verbinding die je weer uit elkaar kan halen.","Handig om te herstellen en te recycleren."],
+      ["sensor","Meet iets, zoals licht, warmte of beweging, zodat een toestel kan reageren.","Een bewegingsmelder."],
+      ["robot","Een machine die precies doet wat in zijn programma staat.","Niets meer, niets minder."],
+      ["3D-printer","Bouwt een voorwerp laagje na laagje op.","In plaats van uit een blok te snijden."],
+      ["ergonomisch","Gemaakt naar de mens die het gebruikt.","Een schaar voor linkshandigen."],
+      ["levensduur","Hoe lang iets meegaat voor het stuk of onbruikbaar is.","Herstellen maakt ze langer."],
+      ["recycleren","Een materiaal opnieuw als grondstof gebruiken.","Glas wordt nieuw glas."],
+      ["repair café","Een plaats waar vrijwilligers je helpen iets te herstellen.","Herstellen gaat vóór vervangen."]
+    ]},
+    { id: "l-ruimte", title: "De aarde en de ruimte", terms: [
+      ["as van de aarde","De denkbeeldige lijn waarrond de aarde in 24 uur één keer draait.","Ze staat scheef: daardoor zijn er seizoenen."],
+      ["schrikkeljaar","Een jaar met een extra dag, 29 februari.","Om de vier jaar."],
+      ["atmosfeer","De laag lucht rond de aarde.","Ook dampkring."],
+      ["eb en vloed","Het water van de zee dat tweemaal per dag opkomt en terugtrekt.","Door de maan."],
+      ["ster","Een hemellichaam dat zelf licht maakt.","De zon is er een."],
+      ["planeet","Een hemellichaam dat rond een ster draait en zelf geen licht maakt.","Mars, Jupiter."],
+      ["sterrenbeeld","Een groepje sterren waarin mensen vroeger een figuur zagen.","De Grote Beer."],
+      ["Melkweg","Het sterrenstelsel van miljarden sterren waarin ons zonnestelsel ligt.","Een witte band aan de nachthemel."],
+      ["lichtjaar","De afstand die licht in één jaar aflegt.","Ongeveer 9 500 miljard kilometer."],
+      ["telescoop","Een toestel dat veel licht opvangt om verre dingen in de ruimte te zien.","Nooit naar de zon richten."],
+      ["satelliet","Een toestel dat rond de aarde draait, voor gps, weer, tv en internet.","Er draaien er duizenden."],
+      ["ISS","Een ruimtestation ongeveer 400 kilometer boven ons waar astronauten wonen en werken.","International Space Station."]
+    ]}
+  ]},
+  spark: { label: "SPARK · Techniek, 1ste en 2de middelbaar", chapters: [
+    { id: "s-mat", title: "Materialen en grondstoffen", terms: [
+      ["grondstof","Iets uit de natuur dat nog niet bewerkt is.","IJzererts, klei, wol, aardolie."],
+      ["materiaal","Een bewerkte grondstof waar je iets van kan maken.","Staal, plank, garen."],
+      ["legering","Een mengsel van metalen, ontstaan door ze samen te smelten.","Brons, messing, inox."],
+      ["enkelvoudig metaal","Een metaal dat uit maar één metaal bestaat.","Koper, aluminium, lood."],
+      ["inox","De korte naam voor roestvrij staal.","Een legering."],
+      ["ferrometalen","Metalen die ijzer bevatten.","Een magneet trekt ze aan."],
+      ["non-ferrometalen","Metalen zonder ijzer.","Aluminium, koper, lood."],
+      ["composiet","Een kunstmatig materiaal uit verschillende materialen samen.","Carbon in een racefiets."],
+      ["smeltpunt","De temperatuur waarbij een stof smelt: een fysische eigenschap.","Niet mechanisch."],
+      ["elasticiteit","Een materiaal veert terug na het uitrekken.","Een elastiekje."],
+      ["broos","Een materiaal dat makkelijk breekt.","Glas."],
+      ["taai","Een materiaal dat veel kan verdragen voor het breekt.","Het tegenovergestelde van broos."],
+      ["onderdompelingsmethode","Het volume meten door een voorwerp onder water te duwen, om de massadichtheid te vinden.","Hoeveel stijgt het water?"],
+      ["gevarenpictogram","Een ruit met een rode rand en een zwart teken op een verpakking met een gevaarlijke stof.","Ontvlambaar, bijtend."]
+    ]},
+    { id: "s-energie", title: "Energie in een technisch systeem", terms: [
+      ["energieomzetting","Een technisch systeem zet energie om van de ene vorm in de andere.","Uit het niets maken kan niet."],
+      ["bewegingsenergie","De energie van iets dat beweegt.","Een draaiende boor."],
+      ["potentiële energie","Opgeslagen energie door hoogte of spanning.","Water achter een stuwdam."],
+      ["chemische energie","Energie die opgeslagen zit in stoffen.","Benzine, een batterij, voedsel."],
+      ["stralingsenergie","Energie die meekomt met licht.","Zonlicht op een zonnepaneel."],
+      ["niet-nuttige energie","Energie die bij een omzetting vrijkomt maar die je niet kunt gebruiken.","De warmte van een gloeilamp."],
+      ["fossiele brandstoffen","Steenkool, aardolie en aardgas: ontstaan over miljoenen jaren en ze raken op.","Bij verbranden komt CO2 vrij."],
+      ["hernieuwbare energie","Energie uit een bron die niet opraakt.","Zon, wind, water, aardwarmte."],
+      ["aardwarmte","Warmte uit de diepe ondergrond.","Ook geothermie."],
+      ["broeikasgas","Een gas, zoals CO2, dat warmte in de atmosfeer vasthoudt.","Komt vrij bij verbranding."],
+      ["broeikaseffect","De atmosfeer houdt warmte vast, zoals een serre.","Bestond al voor de mens."],
+      ["duurzame energie","Energie waarvan de bron ook voor de volgende generaties blijft.","Een ander woord voor hernieuwbaar."]
+    ]},
+    { id: "s-stroom", title: "De elektrische stroomkring", terms: [
+      ["schema","Een tekening van een stroomkring met symbolen in plaats van afbeeldingen.","Elk onderdeel heeft zijn eigen symbool."],
+      ["serieschakeling","De verbruikers liggen achter elkaar in één kring.","Eén lampje los, allemaal uit."],
+      ["parallelschakeling","Elke verbruiker ligt op zijn eigen tak.","De andere blijven branden."],
+      ["gemengde schakeling","Een schakeling die serie en parallel combineert.","Allebei tegelijk."],
+      ["spanning","Hoe hard de stroombron de stroom duwt, gemeten in volt.","Symbool U."],
+      ["stroomsterkte","Hoeveel stroom er door de kring loopt, gemeten in ampère.","Symbool I."],
+      ["weerstand","Hoe moeilijk de stroom door iets kan, gemeten in ohm.","Symbool R."],
+      ["vermogen","Hoeveel energie een toestel per seconde gebruikt, gemeten in watt.","Symbool P."],
+      ["multimeter","Een meettoestel voor spanning, stroom en weerstand.","Als ampèremeter of voltmeter."],
+      ["overbelasting","Er loopt meer stroom door een draad dan hij aankan.","Te veel toestellen op één stopcontact."],
+      ["elektrocutie","Een stroomstoot door je lichaam.","Levensgevaarlijk."],
+      ["verliesstroomschakelaar","Schakelt de stroom uit als er stroom weglekt, bijvoorbeeld door je lichaam.","Beschermt tegen elektrocutie."],
+      ["striptang","Gereedschap om het kunststof laagje van een draad te halen.","Strippen."],
+      ["kroonsteentje","Klemt twee draden met schroefjes op elkaar.","Het knipt niets door."]
+    ]},
+    { id: "s-info", title: "Informatieverwerkende systemen", terms: [
+      ["sensor","Meet iets in de omgeving en zet het om in een signaal.","Een microfoon, een lichtsensor."],
+      ["actuator","Voert iets uit: bewegen, licht geven, geluid maken.","Een luidspreker, een motor."],
+      ["lichtsensor","Een sensor die meet hoe licht of donker het is.","In een straatlamp die vanzelf aangaat."],
+      ["bewegingssensor","Een sensor die beweging opmerkt.","De automatische winkeldeur."],
+      ["IPO","Input, process, output: invoer, verwerking en uitvoer.","Druktoets, processor, alarm."],
+      ["processor","Het onderdeel dat de invoer verwerkt.","Het brein van de computer."],
+      ["binaire code","De taal van de computer met maar twee waarden: 1 en 0.","1 is aan, 0 is uit."],
+      ["waarheidstabel","Een tabel met alle mogelijke ingangen van een poort en de uitgang erbij.","Twee ingangen: vier rijen."],
+      ["EN-poort","Een logische poort die alleen 1 geeft als alle ingangen 1 zijn.","In het Engels AND."],
+      ["OF-poort","Een logische poort die 1 geeft als minstens één ingang 1 is.","In het Engels OR."],
+      ["NIET-poort","Een logische poort die de ingang omkeert.","In het Engels NOT."],
+      ["world wide web","Alle websites die via internet aan elkaar gelinkt zijn.","www."]
+    ]},
+    { id: "s-constructie", title: "Krachten en stevigheid", terms: [
+      ["trekkracht","Een kracht die aan een materiaal trekt.","Een kabel van een kraan."],
+      ["drukkracht","Een kracht die een materiaal samendrukt.","Een zuil die een dak draagt."],
+      ["torsiekracht","Een kracht die een materiaal verdraait.","Een handdoek uitwringen."],
+      ["buigkracht","Een kracht die een materiaal doet doorbuigen.","Een plank met iemand erop."],
+      ["stabiliteit","De constructie blijft staan en valt niet om.","Brede voet, laag zwaartepunt."],
+      ["sterkte","Een constructie kan veel kracht verdragen zonder te breken.","Niet hetzelfde als stijfheid."],
+      ["stijfheid","Een constructie vervormt bijna niet onder belasting.","Een golfplaat."],
+      ["zwaartepunt","Het punt waar het gewicht van een voorwerp als het ware samenkomt.","Hoe lager, hoe stabieler."],
+      ["driehoeksverband","Schuine balken die driehoeken maken, zodat een frame niet scheeftrekt.","In de gebinten van een dak."],
+      ["boog","Een gebogen vorm die het gewicht naar de zijkanten wegleidt.","Een brug, een poort."],
+      ["gewapend beton","Beton met staven staal erin, zodat het ook trekkracht verdraagt.","Beton kan vooral druk aan."],
+      ["golfplaat","Een geplooide plaat, stijver dan een vlakke van dezelfde dikte.","Op een tuinhuis."]
+    ]},
+    { id: "s-verbinden", title: "Verbinden, afwerken en veilig werken", terms: [
+      ["boutverbinding","Twee delen vastgezet met een bout en een moer.","Losneembaar."],
+      ["lasverbinding","Metaal vastgemaakt door het te laten smelten.","Niet losneembaar."],
+      ["soldeerverbinding","Twee draden of onderdelen verbonden met gesmolten tin.","Met een soldeerbout."],
+      ["verstekverbinding","Twee stukken die schuin afgezaagd tegen elkaar komen.","In de hoek van een kader."],
+      ["deuvelverbinding","Twee stukken hout die met houten pinnetjes vastzitten.","Bij kasten uit een bouwpakket."],
+      ["scharnier","Een verbinding die een deel laat draaien.","Aan een deur."],
+      ["verbindingsproducten","Het aparte stukje dat een verbinding maakt.","Schroef, bout, nagel, deuvel."],
+      ["verwerkingstijd","Hoe lang je de stukken nog kan verschuiven voor de lijm pakt.","Staat op de tube."],
+      ["vernissen","Hout beschermen tegen vocht en slijtage met een doorzichtige laag.","Ook lakken."],
+      ["beitsen","Het hout kleuren zodat je de nerf nog ziet.","Het trekt in het hout."],
+      ["PBM","Persoonlijke beschermingsmiddelen.","Bril, oorbeschermer, handschoenen."],
+      ["gebodsbord","Een blauw rond pictogram: dit is verplicht.","Draag een veiligheidsbril."],
+      ["veiligheidsinstructiekaart","Een kaart met de risico's van een machine en hoe je ze voorkomt.","Naast de figuurzaag."],
+      ["stofafzuiging","Zuigt het zaagstof weg dat schadelijk is om in te ademen.","Bij de figuurzaag."]
+    ]},
+    { id: "s-meten", title: "Meten, eenheden en tekenen", terms: [
+      ["schuifmaat","Een meetinstrument om kleine diktes nauwkeurig te meten.","Ook voor de diameter van een buis."],
+      ["newton","De eenheid van kracht.","Afgekort N."],
+      ["kubieke decimeter","Een volume van precies 1 liter.","dm³."],
+      ["hecto","Een voorvoegsel dat honderd betekent.","Een hectometer is 100 meter."],
+      ["functiedriehoek","Een schema met de functie, het materiaal, de bewerking en de vorm van een voorwerp.","Geen tekening in aanzichten."],
+      ["conceptschets","Een eerste ruwe schets van een idee.","Daarna volgt het detailontwerp."],
+      ["werktekening","Een tekening met de maten van elk deel, de aanzichten en de schaal.","Om het voorwerp echt te maken."],
+      ["ontvouwing","De platte uitslag van een voorwerp.","Een doos die je openvouwt."],
+      ["isometrisch perspectief","Een ruimtelijke tekening waarin je drie kanten tegelijk ziet.","Op isometrisch roosterpapier."],
+      ["vooraanzicht","Hoe een voorwerp eruitziet als je er recht van voren naar kijkt.","Ook boven-, zij- en onderaanzicht."],
+      ["schaal","De verhouding tussen de tekening en het echte voorwerp.","1:2 is half zo groot."]
+    ]},
+    { id: "s-transport", title: "Transport en overbrengingen", terms: [
+      ["transportsysteem","Een systeem dat iets of iemand verplaatst.","Een lift, een fiets, een transportband."],
+      ["overbrenging","Een manier om een beweging door te geven.","Tandwielen, een ketting."],
+      ["drijver","Het wiel dat de beweging geeft.","Het voorste tandwiel van een fiets."],
+      ["volger","Het wiel dat de beweging ontvangt.","Het achterwiel van een fiets."],
+      ["wrijvingswielen","Wielen die de beweging doorgeven doordat ze elkaar raken.","Ze kunnen slippen."],
+      ["katrol","Een wiel waarover een touw loopt, om de richting van een kracht te veranderen.","Met meerdere katrollen heb je minder kracht nodig."],
+      ["tandwieloverbrenging","Twee tandwielen die in elkaar grijpen.","Rechtstreekse aandrijving."],
+      ["kettingoverbrenging","Twee tandwielen met een ketting ertussen.","Kan niet slippen."],
+      ["vertraging","Een overbrenging die de beweging trager maakt.","Klein tandwiel drijft groot aan."],
+      ["draaizin","De richting waarin een wiel draait.","Twee tandwielen draaien tegengesteld."],
+      ["licht verzet","Een versnelling waarbij je lichter maar sneller trapt.","Om een helling op te fietsen."],
+      ["versnellingsbak","Tandwielen van verschillende grootte om in een auto te kiezen tussen kracht en snelheid.","Lage versnelling om op te trekken."]
+    ]},
+    { id: "s-bio", title: "Biotechnische systemen", terms: [
+      ["micro-organismen","Heel kleine levende wezens: bacteriën, schimmels en gisten.","Ze kunnen voor ons werken."],
+      ["gist","Een micro-organisme dat brooddeeg doet rijzen.","Ook bij bier."],
+      ["fermenteren","Micro-organismen zetten voedsel om en maken het langer houdbaar.","Zuurkool, yoghurt."],
+      ["FAVV","Het Federaal Agentschap voor de veiligheid van de voedselketen.","Controleert restaurants en winkels."],
+      ["pekelen","Voedsel bewaren in een zoute oplossing.","Haring, augurken."],
+      ["pasteuriseren","Kort verhitten tot onder het kookpunt.","Melk, fruitsap."],
+      ["steriliseren","Langer en heter verhitten om alle bacteriën te doden.","Conserven."],
+      ["UHT","Heel kort heel sterk verhit.","Melk die lang buiten de koelkast kan."],
+      ["vacuüm verpakken","Alle lucht uit de verpakking halen.","Vlees, kaas."],
+      ["allergeen","Een stof waar sommige mensen op reageren.","Noten, gluten, melk."],
+      ["ten minste houdbaar tot","Na die datum kan de kwaliteit minder worden, maar je mag het nog eten.","Ruik en proef."],
+      ["te gebruiken tot","Na die datum kan het product onveilig zijn.","Bij vers vlees en vis."],
+      ["composteerbaar","De verpakking kan vergaan tot compost.","Op de composthoop."],
+      ["statiegeld","Geld dat je terugkrijgt als je de verpakking naar de winkel terugbrengt.","Op flesjes en blikjes."]
+    ]},
+    { id: "s-proces", title: "Het technisch proces", terms: [
+      ["technisch proces","De vijf fasen om een technisch systeem te maken, van probleem tot evaluatie.","Onderzoeken, ontwerpen, maken, testen, evalueren."],
+      ["behoefteonderzoek","Nagaan wat de gebruiker echt nodig heeft.","Fase 1."],
+      ["criterium","Een eis waaraan je technisch systeem moet voldoen.","Stel je op vóór je begint."],
+      ["ontwerpfase","De fase waarin je schetst, materiaal en gereedschap kiest.","Fase 2."],
+      ["stappenplan","Zegt in welke volgorde je werkt.","Maak je vóór je begint."],
+      ["maakfase","De fase waarin je het systeem veilig maakt.","Fase 3."],
+      ["evalueren","Nagaan of het systeem aan de criteria voldoet en bijsturen.","Fase 5."],
+      ["probleemoplossend ontwerpen","Het probleem bepalen, criteria opstellen en opsplitsen in deelproblemen.","Daarna testen en bijsturen."],
+      ["deelprobleem","Een stuk van een groot probleem dat je apart aanpakt.","Achteraf voeg je alles samen."],
+      ["STEM","Science, technology, engineering en mathematics.","Wetenschap, techniek, ontwerpen en wiskunde."],
+      ["engineering","Ingenieurswerk: ontwerpen en bouwen.","De E van STEM."]
+    ]},
+    { id: "s-algo", title: "Algoritmen en computationeel denken", terms: [
+      ["algoritme","Een stappenplan met instructies in een vaste volgorde.","Een recept is er ook een."],
+      ["flowchart","Een schema met vormen en pijlen dat de stappen van een algoritme toont.","Ook stroomdiagram."],
+      ["Scratch","De programmeertaal met blokjes waarin je een algoritme vertaalt.","Met een kat als figuur."],
+      ["abstractie","Details weglaten die niet belangrijk zijn.","Minder details, niet meer."],
+      ["decompositie","Een groot probleem opsplitsen in kleinere delen.","Handig om samen te werken."],
+      ["patroonherkenning","Gelijkenissen zien, zodat je een oplossing kan hergebruiken.","Dat ken ik al."],
+      ["bug","Een fout in een programma.","Het vierkant heeft maar drie zijden."],
+      ["debuggen","Een fout in een programma opsporen en oplossen.","Voer het uit en vergelijk."],
+      ["efficiënt","Met zo weinig mogelijk stappen hetzelfde resultaat.","Korter is meestal beter."],
+      ["ruit","De vorm in een flowchart voor een keuze: ja of nee.","Met twee pijlen eruit."],
+      ["parallellogram","De vorm in een flowchart voor invoer of uitvoer.","Scheve rechthoek."]
+    ]}
+  ]},
+};
+
+// Sorteerband: elk voorwerp hoort in één bak. Per niveau een paar sorteeropdrachten.
+const SORT = {
+  lager: [
+    { vraag: "Geleidt dit stroom?", bakken: ["geleider", "isolator"], items: [["koper", 0], ["ijzeren spijker", 0], ["aluminiumfolie", 0], ["zilveren lepel", 0], ["plastic", 1], ["rubber", 1], ["glas", 1], ["hout", 1], ["karton", 1]] },
+    { vraag: "Zuur of basisch?", bakken: ["zuur", "basisch"], items: [["azijn", 0], ["citroensap", 0], ["yoghurt", 0], ["zeep", 1], ["soda", 1], ["bicarbonaat", 1]] },
+    { vraag: "Heeft dit dier een ruggengraat?", bakken: ["gewerveld", "ongewerveld"], items: [["hond", 0], ["mus", 0], ["kikker", 0], ["haai", 0], ["slang", 0], ["spin", 1], ["regenworm", 1], ["slak", 1], ["vlinder", 1], ["kwal", 1]] },
+    { vraag: "Maakt dit zelf licht?", bakken: ["lichtbron", "geen lichtbron"], items: [["de zon", 0], ["een kaars", 0], ["een lamp", 0], ["een vuurvliegje", 0], ["de maan", 1], ["een spiegel", 1], ["een fietsreflector", 1], ["een planeet", 1]] },
+    { vraag: "Ster of planeet?", bakken: ["ster", "planeet"], items: [["de zon", 0], ["Sirius", 0], ["Poolster", 0], ["Mars", 1], ["Jupiter", 1], ["de aarde", 1], ["Saturnus", 1]] }
+  ],
+  spark: [
+    { vraag: "Zit er ijzer in?", bakken: ["ferrometaal", "non-ferrometaal"], items: [["staal", 0], ["gietijzer", 0], ["inox", 0], ["ijzer", 0], ["aluminium", 1], ["koper", 1], ["lood", 1], ["messing", 1], ["brons", 1], ["zink", 1]] },
+    { vraag: "Meet het of voert het uit?", bakken: ["sensor", "actuator"], items: [["microfoon", 0], ["lichtsensor", 0], ["bewegingssensor", 0], ["temperatuursensor", 0], ["luidspreker", 1], ["motor", 1], ["lamp", 1], ["zoemer", 1], ["led", 1]] },
+    { vraag: "Raakt deze bron op?", bakken: ["hernieuwbaar", "fossiel"], items: [["zon", 0], ["wind", 0], ["stromend water", 0], ["aardwarmte", 0], ["steenkool", 1], ["aardolie", 1], ["aardgas", 1]] },
+    { vraag: "Welke kracht werkt hier vooral?", bakken: ["trekkracht", "drukkracht", "torsiekracht"], items: [["de kabel van een kraan", 0], ["het touw bij touwtrekken", 0], ["de ketting van een schommel", 0], ["een zuil onder een dak", 1], ["de poot van een tafel", 1], ["een fundering", 1], ["een handdoek uitwringen", 2], ["een schroevendraaier", 2], ["een deksel losdraaien", 2]] },
+    { vraag: "Invoer, verwerking of uitvoer?", bakken: ["invoer", "verwerking", "uitvoer"], items: [["druktoets", 0], ["toetsenbord", 0], ["microfoon", 0], ["processor", 1], ["alarm dat afgaat", 2], ["scherm", 2], ["luidspreker", 2]] },
+    { vraag: "Kan je deze verbinding weer losmaken?", bakken: ["losneembaar", "niet losneembaar"], items: [["boutverbinding", 0], ["schroef", 0], ["klittenband", 0], ["ritssluiting", 0], ["lasverbinding", 1], ["lijmverbinding", 1], ["nagel", 1], ["soldeerverbinding", 1]] },
+    { vraag: "Welke vorm in een flowchart?", bakken: ["begin of einde", "invoer of uitvoer", "keuze"], items: [["afgeronde rechthoek", 0], ["parallellogram", 1], ["ruit", 2]] }
+  ]
+};
+
+const GAMES = [
+  { id: "quiz", name: "Quiz", desc: "Lees de uitleg en kies het juiste begrip uit vier. Teams spelen om beurten.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><rect class="ic-b" x="10" y="12" width="36" height="8" rx="3"/><rect class="ic-s" x="10" y="26" width="16" height="9" rx="3"/><rect class="ic-a" x="30" y="26" width="16" height="9" rx="3"/><rect class="ic-s" x="10" y="39" width="16" height="9" rx="3"/><rect class="ic-s" x="30" y="39" width="16" height="9" rx="3"/>' },
+  { id: "memory", name: "Memory", desc: "Zoek het begrip en zijn uitleg. Wie een paar vindt, mag nog eens.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><rect class="ic-b" x="9" y="10" width="17" height="22" rx="3"/><rect class="ic-a" x="30" y="10" width="17" height="22" rx="3"/><rect class="ic-s" x="9" y="36" width="17" height="12" rx="3"/><rect class="ic-s" x="30" y="36" width="17" height="12" rx="3"/>' },
+  { id: "raad", name: "Raad het begrip", desc: "Tot drie hints na elkaar. Hoe sneller je het raadt, hoe meer punten.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><circle class="ic-a" cx="28" cy="24" r="12"/><path class="ic-s" d="M24 21a4 4 0 1 1 5 4v3"/><circle cx="29" cy="32" r="1.6" class="ic-b"/><path class="ic-s" d="M14 46h28"/>' },
+  { id: "galgje", name: "Robotgalgje", desc: "Galgje met een robot: raad de letters voor de robot helemaal gebouwd is.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><rect class="ic-a" x="16" y="14" width="24" height="18" rx="4"/><circle class="ic-s" cx="23" cy="23" r="3"/><circle class="ic-s" cx="33" cy="23" r="3"/><rect class="ic-b" x="20" y="34" width="16" height="12" rx="3"/><rect class="ic-a" x="27" y="7" width="2" height="7"/>' },
+  { id: "flits", name: "Flitskaarten", desc: "Toon een begrip, laat de klas uitleggen en draai de kaart om.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><rect class="ic-s" x="14" y="10" width="30" height="22" rx="4" transform="rotate(8 29 21)"/><rect class="ic-a" x="10" y="18" width="30" height="22" rx="4"/><path class="ic-s" d="M17 29h16" style="stroke:#fff"/>' },
+  { id: "bingo", name: "Begrippenbingo", desc: "Leerlingen kiezen woorden voor hun rooster. Jij leest de uitleg voor.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><path class="ic-s" d="M10 10h36v36H10zM22 10v36M34 10v36M10 22h36M10 34h36"/><circle class="ic-a" cx="16" cy="16" r="4"/><circle class="ic-a" cx="28" cy="28" r="4"/><circle class="ic-b" cx="40" cy="40" r="4"/>' },
+  { id: "sorteer", name: "Sorteerband", desc: "Er komt een voorwerp of stof voorbij op de band: in welke bak hoort het? Geleider of isolator, sensor of actuator, trek of druk.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><rect class="ic-a" x="6" y="30" width="44" height="6" rx="3"/><rect class="ic-b" x="20" y="16" width="14" height="12" rx="2"/><rect class="ic-s" x="8" y="40" width="16" height="10" rx="2"/><rect class="ic-s" x="32" y="40" width="16" height="10" rx="2"/>' },
+];
+
+// ---------- state ----------
+const S = {
+  level: "lager",
+  chapter: "l-leven",
+  teams: [ { name: "Jij", score: 0 } ],
+  alleen: true, // Kim, 9/11/2026: kinderen oefenen thuis vaak alleen, dus "Alleen" is de standaard.
+  turn: 0,
+  view: "menu",
+  game: null
+};
+try {
+  const saved = JSON.parse(localStorage.getItem("begrippenarena-techniek") || "null");
+  if (saved && DATA[saved.level]) {
+    S.level = saved.level;
+    if (DATA[saved.level].chapters.some(c => c.id === saved.chapter) || saved.chapter === "mix") S.chapter = saved.chapter;
+    if (typeof saved.alleen === "boolean") S.alleen = saved.alleen;
+    if (S.alleen) S.teams = [{ name: "Jij", score: 0 }];
+    else if (Array.isArray(saved.teams) && saved.teams.length) S.teams = saved.teams.slice(0, 4).map(t => ({ name: String(t.name || "Team").slice(0, 24), score: 0 }));
+  }
+} catch (e) {}
+// Vanaf de pagina Leuke extra's opent het spel meteen op het juiste niveau: ?niveau=spark (Kim, 9/11/2026).
+try {
+  const gevraagd = new URLSearchParams(location.search).get("niveau");
+  if (gevraagd && DATA[gevraagd] && gevraagd !== S.level) { S.level = gevraagd; S.chapter = DATA[gevraagd].chapters[0].id; }
+} catch (e) {}
+function save() {
+  try { localStorage.setItem("begrippenarena-techniek", JSON.stringify({ level: S.level, chapter: S.chapter, alleen: S.alleen, teams: S.teams.map(t => ({ name: t.name })) })); } catch (e) {}
+}
+
+const $app = document.getElementById("app");
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const fold = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toUpperCase();
+const teamColor = i => `var(--t${i + 1})`;
+
+function chapterTitle() {
+  if (S.chapter === "mix") return "Alle hoofdstukken";
+  return DATA[S.level].chapters.find(c => c.id === S.chapter).title;
+}
+function currentTerms(raw) {
+  const chs = S.chapter === "mix" ? DATA[S.level].chapters : DATA[S.level].chapters.filter(c => c.id === S.chapter);
+  const seen = new Set(), out = [];
+  chs.forEach(c => c.terms.forEach(([w, d, x]) => {
+    const k = w.toLowerCase();
+    if (seen.has(k)) return;
+    seen.add(k);
+    out.push(raw ? { w, d, x: x || "" } : { w, d: mask(d, w), x: x ? mask(x, w) : "" });
+  }));
+  return out;
+}
+// Verberg het begrip zelf als het in de uitleg of tip staat.
+function mask(text, w) {
+  const re = new RegExp(w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi");
+  return text.replace(re, "…");
+}
+
+// ---------- teams ----------
+function award(i, pts) { if (S.teams[i]) { S.teams[i].score = Math.max(0, S.teams[i].score + pts); } }
+function nextTurn() { if (S.teams.length) S.turn = (S.turn + 1) % S.teams.length; }
+function scoresHTML(showTurn) {
+  return `<div class="scores" aria-label="Scores">${S.teams.map((t, i) => `
+    <div class="score ${showTurn && i === S.turn ? "turn" : ""}" style="--tc:${teamColor(i)}">
+      <span class="dot"></span><span>${esc(t.name)}</span><span class="n" aria-live="polite">${t.score}</span>
+      <button class="pm" data-pm="${i}" data-d="-1" aria-label="Punt eraf voor ${esc(t.name)}">−</button>
+      <button class="pm" data-pm="${i}" data-d="1" aria-label="Punt erbij voor ${esc(t.name)}">+</button>
+    </div>`).join("")}</div>`;
+}
+function turnHTML() {
+  if (S.teams.length < 2) return "";
+  return `<div class="turnline" style="--tc:${teamColor(S.turn)}">Aan de beurt: <b>${esc(S.teams[S.turn].name)}</b></div>`;
+}
+function awardRow(label, pts, onDone) {
+  const id = "aw" + Math.random().toString(36).slice(2, 7);
+  setTimeout(() => {
+    document.querySelectorAll(`[data-aw="${id}"]`).forEach(b => b.onclick = () => {
+      const i = +b.dataset.i;
+      if (i >= 0) award(i, pts);
+      onDone(i);
+    });
+  });
+  if (S.alleen) return `<div class="row"><span class="label">Had je het juist?</span><button class="btn" data-aw="${id}" data-i="0" style="border-color:${teamColor(0)}">Ja, +${pts}</button><button class="btn ghost" data-aw="${id}" data-i="-1">Nee, nog niet</button></div>`;
+  const btns = S.teams.map((t, i) => `<button class="btn" data-aw="${id}" data-i="${i}" style="border-color:${teamColor(i)}">${esc(t.name)} +${pts}</button>`).join("");
+  return `<div class="row"><span class="label">${label}</span>${btns}<button class="btn ghost" data-aw="${id}" data-i="-1">Niemand</button></div>`;
+}
+
+// ---------- alleen spelen ----------
+// Andere uitleg bij de spellen als je alleen speelt. Bingo heeft iemand nodig die voorleest, dus dat valt dan weg.
+function alleenTekst(g) {
+  if (!S.alleen) return g;
+  const d = {
+    quiz: g.desc.replace(" Teams spelen om beurten.", ""),
+    memory: g.desc.replace(" Wie een paar vindt, mag nog eens.", ""),
+    flits: "Bekijk de kaart en zeg zelf wat het betekent. Draai ze daarna om en kijk of je juist was.",
+  }[g.id];
+  return d ? { ...g, desc: d } : g;
+}
+
+// ---------- menu ----------
+function renderMenu() {
+  S.view = "menu";
+  const lvl = DATA[S.level];
+  const chips = lvl.chapters.map(c => `<button class="chip" data-ch="${c.id}" aria-pressed="${S.chapter === c.id}">${esc(c.title)} <small>${c.terms.length}</small></button>`).join("")
+    + `<button class="chip" data-ch="mix" aria-pressed="${S.chapter === "mix"}">Alle hoofdstukken door elkaar</button>`;
+  const games = GAMES.filter(g => !(S.alleen && g.id === "bingo")).map(g => alleenTekst(g)).map(g => `<button class="game-card" data-game="${g.id}"><svg viewBox="0 0 56 56" aria-hidden="true">${g.icon}</svg><h3>${g.name}</h3><p>${g.desc}</p></button>`).join("");
+  const teams = S.teams.map((t, i) => `<label class="team-input"><i style="background:${teamColor(i)}"></i><input id="team-${i}" value="${esc(t.name)}" maxlength="24" aria-label="Naam team ${i + 1}"></label>`).join("");
+  $app.innerHTML = `
+    <header class="top">
+      <div class="brand">
+        <div class="label">Techniek · begrippen inoefenen</div>
+        <h1>Begrippen<span>arena</span></h1>
+        <p>Kies een hoofdstuk en een spel. Alle spellen gebruiken de begrippen uit de leerbundels, dus je kan ze vrij afwisselen.</p>
+      </div>
+      <div class="seg" role="group" aria-label="Niveau">
+        ${Object.entries(DATA).map(([k, v]) => `<button data-lvl="${k}" aria-pressed="${S.level === k}">${esc(v.label)}</button>`).join("")}
+      </div>
+    </header>
+    <section style="display:flex;flex-direction:column;gap:10px">
+      <div class="label">1 · Hoofdstuk</div>
+      <div class="chapters">${chips}</div>
+    </section>
+    <section style="display:flex;flex-direction:column;gap:10px">
+      <div class="row" style="justify-content:space-between"><div class="label">2 · Spel</div><button class="linkbtn" data-list>Bekijk de begrippenlijst (${currentTerms().length})</button></div>
+      <div class="games">${games}</div>
+    </section>
+    <section class="panel">
+      <div class="row" style="justify-content:space-between">
+        <div class="label">Wie speelt er?</div>
+        <div class="seg" role="group" aria-label="Wie speelt er">${[0, 1, 2, 3, 4].map(n => `<button data-nt="${n}" aria-pressed="${n === 0 ? S.alleen : !S.alleen && S.teams.length === n}">${n === 0 ? "Alleen" : n === 1 ? "Hele klas" : n + " teams"}</button>`).join("")}</div>
+      </div>
+      ${S.alleen ? `<p style="margin:0">Je speelt alleen. Je verdient punten voor jezelf. Begrippenbingo staat er niet bij, want daar heb je iemand voor nodig die voorleest.</p>` : `<div class="team-row">${teams}</div>`}
+      <div class="row" style="justify-content:space-between">
+        ${scoresHTML(false)}
+        <button class="linkbtn" data-reset>Scores op nul</button>
+      </div>
+    </section>`;
+  $app.querySelectorAll("[data-lvl]").forEach(b => b.onclick = () => { S.level = b.dataset.lvl; S.chapter = DATA[S.level].chapters[0].id; save(); renderMenu(); });
+  $app.querySelectorAll("[data-ch]").forEach(b => b.onclick = () => { S.chapter = b.dataset.ch; save(); renderMenu(); });
+  $app.querySelectorAll("[data-game]").forEach(b => b.onclick = () => startGame(b.dataset.game));
+  $app.querySelector("[data-list]").onclick = () => startGame("lijst");
+  $app.querySelectorAll("[data-nt]").forEach(b => b.onclick = () => {
+    const n = +b.dataset.nt;
+    if (n === 0) { S.alleen = true; S.teams = [{ name: "Jij", score: 0 }]; S.turn = 0; save(); renderMenu(); return; }
+    if (S.alleen) { S.alleen = false; S.teams = [{ name: "Klas", score: 0 }]; }
+    while (S.teams.length < n) S.teams.push({ name: "Team " + (S.teams.length + 1), score: 0 });
+    S.teams = S.teams.slice(0, n);
+    if (n === 1 && /^Team \d$/.test(S.teams[0].name)) S.teams[0].name = "Klas";
+    if (n > 1 && S.teams[0].name === "Klas") S.teams[0].name = "Team 1";
+    S.turn = 0; save(); renderMenu();
+  });
+  if (!S.alleen) S.teams.forEach((t, i) => { const inp = document.getElementById("team-" + i); inp.oninput = () => { t.name = inp.value || "Team " + (i + 1); save(); }; inp.onchange = renderMenu; });
+  $app.querySelector("[data-reset]").onclick = () => { S.teams.forEach(t => t.score = 0); renderMenu(); };
+  bindPM();
+}
+function bindPM() {
+  $app.querySelectorAll("[data-pm]").forEach(b => b.onclick = () => { award(+b.dataset.pm, +b.dataset.d); refreshScores(); });
+}
+function refreshScores() {
+  const el = $app.querySelector(".scores");
+  if (!el) return;
+  el.outerHTML = scoresHTML(S.view === "game" && S.game && S.game.turnBased);
+  bindPM();
+}
+
+// ---------- game shell ----------
+function shell(gameName, inner) {
+  return `
+    <div class="bar">
+      <div class="where"><span class="label">${esc(DATA[S.level].label)} · ${esc(chapterTitle())}</span><strong>${gameName}</strong></div>
+      ${scoresHTML(S.game && S.game.turnBased)}
+      <button class="btn ghost" data-back>← Menu</button>
+    </div>
+    <div class="stage">${inner}</div>`;
+}
+function mount(gameName, inner) {
+  $app.innerHTML = shell(gameName, inner);
+  $app.querySelector("[data-back]").onclick = () => { document.onkeydown = null; renderMenu(); };
+  bindPM();
+}
+function startGame(id) {
+  S.view = "game";
+  document.onkeydown = null;
+  const terms = currentTerms(id === "lijst");
+  ({ quiz: Quiz, memory: Memory, raad: Raad, galgje: Galgje, flits: Flits, bingo: Bingo, sorteer: Sorteerband, lijst: Lijst })[id](terms);
+  window.scrollTo(0, 0);
+}
+function endScreen(title, sub, again) {
+  S.game.turnBased = false;
+  const best = Math.max(...S.teams.map(t => t.score));
+  const winners = S.teams.filter(t => t.score === best && best > 0).map(t => t.name);
+  const line = S.alleen ? `Je hebt ${S.teams[0].score} ${S.teams[0].score === 1 ? "punt" : "punten"}.` : S.teams.length > 1 && winners.length ? (winners.length > 1 ? "Gelijkspel tussen " + winners.join(" en ") : winners[0] + " staat voor") : "";
+  mount(title, `<div class="endbox"><div class="label">Klaar</div><h2>${esc(sub)}</h2>${line ? `<p style="font-size:1.2rem;margin:0">${esc(line)}</p>` : ""}<div class="row" style="justify-content:center"><button class="btn primary" data-again>Nog een ronde</button><button class="btn ghost" data-menu>Ander spel kiezen</button></div></div>`);
+  $app.querySelector("[data-again]").onclick = again;
+  $app.querySelector("[data-menu]").onclick = renderMenu;
+}
+
+// ---------- quiz ----------
+function Quiz(terms, opts) {
+  const reverse = opts && opts.reverse || false;
+  const qs = shuffle(terms).slice(0, Math.min(10, terms.length));
+  S.game = { turnBased: S.teams.length > 1 };
+  let i = 0;
+  function q() {
+    const t = qs[i];
+    const others = shuffle(terms.filter(o => o.w !== t.w)).slice(0, 3);
+    const options = shuffle([t, ...others]);
+    const prompt = reverse ? `<div class="prompt term">${esc(t.w)}</div>` : `<div class="prompt">${esc(t.d)}</div>`;
+    mount("Quiz", `
+      <div class="row" style="justify-content:space-between">
+        <span class="progress">Vraag ${i + 1} van ${qs.length}</span>
+        ${turnHTML()}
+        <button class="linkbtn" data-rev>${reverse ? "Speel: uitleg → begrip" : "Speel omgekeerd: begrip → uitleg"}</button>
+      </div>
+      <div class="label">${reverse ? "Welke uitleg past bij dit begrip?" : "Welk begrip past bij deze uitleg?"}</div>
+      ${prompt}
+      <div class="options">${options.map((o, k) => `<button class="opt ${reverse ? "long" : ""}" data-o="${k}"><span class="k">${"ABCD"[k]}</span><span>${esc(reverse ? o.d : o.w)}</span></button>`).join("")}</div>
+      <div class="row" style="justify-content:space-between"><div class="feedback" aria-live="polite"></div><button class="btn primary" data-next hidden>${i + 1 < qs.length ? "Volgende vraag →" : "Bekijk de uitslag"}</button></div>`);
+    $app.querySelector("[data-rev]").onclick = () => Quiz(terms, { reverse: !reverse });
+    const btns = [...$app.querySelectorAll(".opt")];
+    const answer = k => {
+      if (btns[0].disabled) return;
+      const ok = options[k] === t;
+      btns.forEach((b, j) => { b.disabled = true; if (options[j] === t) b.classList.add("right"); });
+      const fb = $app.querySelector(".feedback");
+      if (ok) { award(S.turn, 1); fb.textContent = S.teams.length > 1 ? `Juist! +1 voor ${S.teams[S.turn].name}` : "Juist!"; fb.className = "feedback good"; }
+      else { btns[k].classList.add("wrong"); fb.textContent = `Helaas. Het juiste antwoord is: ${t.w}`; fb.className = "feedback badc"; }
+      refreshScores();
+      const nx = $app.querySelector("[data-next]"); nx.hidden = false; nx.focus();
+    };
+    btns.forEach((b, k) => b.onclick = () => answer(k));
+    $app.querySelector("[data-next]").onclick = () => { nextTurn(); i++; if (i < qs.length) q(); else endScreen("Quiz", "De quiz is gedaan", () => Quiz(terms, { reverse })); };
+    document.onkeydown = e => {
+      const k = "abcd".indexOf(e.key.toLowerCase()); const n = "1234".indexOf(e.key);
+      if (k >= 0 && k < btns.length) answer(k); else if (n >= 0 && n < btns.length) answer(n);
+    };
+  }
+  q();
+}
+
+// ---------- sorteerband ----------
+function Sorteerband() {
+  const sets = SORT[S.level] || SORT.lager;
+  const pool = shuffle(sets.flatMap(s => s.items.map(([naam, bak]) => ({ naam, bak, s }))));
+  const qs = pool.slice(0, Math.min(12, pool.length));
+  S.game = { turnBased: S.teams.length > 1 };
+  let i = 0;
+  function q() {
+    const t = qs[i];
+    mount("Sorteerband", `
+      <div class="row" style="justify-content:space-between">
+        <span class="progress">Voorwerp ${i + 1} van ${qs.length}</span>
+        ${turnHTML()}
+        <span class="label">${esc(t.s.vraag)}</span>
+      </div>
+      <div class="prompt term">${esc(t.naam)}</div>
+      <div class="sort">${t.s.bakken.map((b, g) => `<button class="opt" data-g="${g}">${esc(b)}</button>`).join("")}</div>
+      <div class="row" style="justify-content:space-between"><div class="feedback" aria-live="polite"></div><button class="btn primary" data-next hidden>${i + 1 < qs.length ? "Volgende →" : "Bekijk de uitslag"}</button></div>`);
+    const btns = [...$app.querySelectorAll("[data-g]")];
+    const answer = g => {
+      if (!btns[g] || btns[0].disabled) return;
+      const ok = g === t.bak;
+      btns.forEach((b, j) => { b.disabled = true; if (j === t.bak) b.classList.add("right"); });
+      const fb = $app.querySelector(".feedback");
+      const juist = `${t.naam}: ${t.s.bakken[t.bak]}`;
+      if (ok) { award(S.turn, 1); fb.textContent = (S.teams.length > 1 ? `Juist! +1 voor ${S.teams[S.turn].name}. ` : "Juist. ") + juist; fb.className = "feedback good"; }
+      else { btns[g].classList.add("wrong"); fb.textContent = `Helaas. ${juist}.`; fb.className = "feedback badc"; }
+      refreshScores();
+      const nx = $app.querySelector("[data-next]"); nx.hidden = false; nx.focus();
+    };
+    btns.forEach((b, g) => b.onclick = () => answer(g));
+    $app.querySelector("[data-next]").onclick = () => { nextTurn(); i++; if (i < qs.length) q(); else endScreen("Sorteerband", "Alles is gesorteerd", Sorteerband); };
+    document.onkeydown = e => { const n = parseInt(e.key, 10); if (n >= 1 && n <= btns.length) answer(n - 1); };
+  }
+  q();
+}
+
+// ---------- memory ----------
+function Memory(terms, opts) {
+  const pairs = Math.min(opts && opts.pairs || 8, terms.length);
+  const pick = shuffle(terms).slice(0, pairs);
+  const cards = shuffle(pick.flatMap((t, p) => [{ p, kind: "w", text: t.w }, { p, kind: "d", text: t.d }]));
+  S.game = { turnBased: S.teams.length > 1 };
+  let open = [], found = 0, owner = {}, waiting = false;
+  function draw() {
+    mount("Memory", `
+      <div class="row" style="justify-content:space-between">
+        <span class="progress">${found} van ${pairs} paren gevonden</span>
+        ${turnHTML()}
+        <div class="row"><span class="label">Paren</span>${[6, 8].map(n => `<button class="btn ${n === pairs ? "primary" : "ghost"}" data-pairs="${n}">${n}</button>`).join("")}</div>
+      </div>
+      <div class="mem">${cards.map((c, k) => {
+        const isOpen = open.includes(k) || owner[c.p] !== undefined;
+        const cls = ["mcard", isOpen ? "open " + c.kind : "", owner[c.p] !== undefined ? "done" : "", waiting && open.includes(k) ? "miss" : ""].join(" ");
+        const style = owner[c.p] !== undefined && owner[c.p] >= 0 ? `style="--tc:${teamColor(owner[c.p])}"` : `style="--tc:var(--ok)"`;
+        return `<button class="${cls}" ${style} data-c="${k}" aria-label="${isOpen ? esc(c.text) : "Gesloten kaart " + (k + 1)}">${isOpen ? esc(c.text) : '<span class="back">?</span>'}</button>`;
+      }).join("")}</div>
+      <div class="row" style="justify-content:space-between"><div class="feedback" aria-live="polite">${waiting ? "Geen paar." : ""}</div><button class="btn primary" data-flip ${waiting ? "" : "hidden"}>Kaarten omdraaien${S.teams.length > 1 ? " · volgend team" : ""}</button></div>
+      <p class="note">Blauwe kaarten zijn nog dicht. Een begrip hoort bij de uitleg op een oranje kaart.</p>`);
+    $app.querySelectorAll("[data-pairs]").forEach(b => b.onclick = () => Memory(terms, { pairs: +b.dataset.pairs }));
+    $app.querySelectorAll("[data-c]").forEach(b => b.onclick = () => flip(+b.dataset.c));
+    const fl = $app.querySelector("[data-flip]"); if (fl) fl.onclick = () => { open = []; waiting = false; nextTurn(); draw(); };
+  }
+  function flip(k) {
+    if (waiting || open.includes(k) || owner[cards[k].p] !== undefined) return;
+    open.push(k);
+    if (open.length === 2) {
+      const [a, b] = open.map(n => cards[n]);
+      if (a.p === b.p) {
+        owner[a.p] = S.teams.length ? S.turn : -1; award(S.turn, 1); found++; open = [];
+        if (found === pairs) { draw(); setTimeout(() => endScreen("Memory", "Alle paren zijn gevonden", () => Memory(terms, { pairs })), 900); return; }
+      } else waiting = true;
+    }
+    draw();
+  }
+  draw();
+}
+
+// ---------- raad het begrip ----------
+function Raad(terms) {
+  const rounds = shuffle(terms).slice(0, Math.min(10, terms.length));
+  S.game = { turnBased: false };
+  let i = 0;
+  function pattern(w) { return [...w].map((ch, k) => k === 0 ? ch.toUpperCase() : (/\p{L}/u.test(ch) ? "_" : (ch === " " ? "  " : ch))).join(" "); }
+  function round() {
+    const t = rounds[i];
+    const hints = [{ txt: t.d, lab: "Uitleg" }];
+    if (t.x) hints.push({ txt: t.x, lab: "Extra tip" });
+    const letters = [...t.w].filter(c => /\p{L}/u.test(c)).length;
+    hints.push({ txt: `<span class="pattern">${esc(pattern(t.w))}</span><br><small class="note">${letters} letters</small>`, lab: "Letters", raw: true });
+    let shown = 1, revealed = false;
+    function draw() {
+      const pts = Math.max(1, hints.length - shown + 1);
+      mount("Raad het begrip", `
+        <div class="row" style="justify-content:space-between"><span class="progress">Begrip ${i + 1} van ${rounds.length}</span><span class="label">Nu raden = ${pts} ${pts === 1 ? "punt" : "punten"}</span></div>
+        <div class="hints">${hints.map((h, k) => k < shown || revealed
+          ? `<div class="hint"><span class="num">${k + 1}</span><div><div class="label">${h.lab}</div>${h.raw ? h.txt : esc(h.txt)}</div></div>`
+          : `<div class="hint hidden-h"><span class="num" style="background:var(--line)">${k + 1}</span><div>Hint ${k + 1} is nog verborgen</div></div>`).join("")}</div>
+        ${revealed ? `<div class="answer">${esc(t.w)}</div>` : ""}
+        ${revealed ? `<div class="row end"><button class="btn primary" data-nextr>${i + 1 < rounds.length ? "Volgend begrip →" : "Bekijk de uitslag"}</button></div>`
+          : `<div class="row"><button class="btn oker" data-hint ${shown >= hints.length ? "disabled" : ""}>Volgende hint</button><button class="btn" data-show>Toon antwoord</button></div>
+             ${awardRow("Goed geraden door", pts, () => { revealed = true; refreshAfter(); })}`}`);
+      const h = $app.querySelector("[data-hint]"); if (h) h.onclick = () => { shown++; draw(); };
+      const s = $app.querySelector("[data-show]"); if (s) s.onclick = () => { revealed = true; draw(); };
+      const n = $app.querySelector("[data-nextr]"); if (n) n.onclick = () => { i++; if (i < rounds.length) round(); else endScreen("Raad het begrip", "Alle begrippen zijn geraden", () => Raad(terms)); };
+    }
+    function refreshAfter() { draw(); }
+    draw();
+  }
+  round();
+}
+
+// ---------- galgje / robot ----------
+function Galgje(terms, used) {
+  used = used || new Set();
+  const pool = terms.filter(t => !used.has(t.w) && [...t.w].filter(c => /\p{L}/u.test(c)).length >= 3);
+  if (!pool.length) { used.clear(); return Galgje(terms, used); }
+  const t = shuffle(pool)[0]; used.add(t.w);
+  const MAX = 8;
+  const target = [...t.w];
+  const guessed = new Set(); let wrong = 0, done = false, won = false;
+  S.game = { turnBased: S.teams.length > 1 };
+  const isLetter = c => /\p{L}/u.test(c);
+  const allFound = () => target.every(c => !isLetter(c) || guessed.has(fold(c)));
+  function temple() {
+    // 8 stukken: voeten, benen, romp, twee armen, hoofd, ogen, antenne
+    const p = [
+      ["", `<rect x="78" y="196" width="84" height="12" rx="4"/>`],
+      ["", `<path d="M92 196 V160 H108 V196 Z M132 196 V160 H148 V196 Z"/>`],
+      ["lava", `<rect x="80" y="104" width="80" height="58" rx="8"/>`],
+      ["", `<rect x="52" y="108" width="24" height="12" rx="6"/>`],
+      ["", `<rect x="164" y="108" width="24" height="12" rx="6"/>`],
+      ["", `<rect x="88" y="52" width="64" height="48" rx="10"/>`],
+      ["rook", `<path d="M100 66 h14 v14 h-14 Z M126 66 h14 v14 h-14 Z"/>`],
+      ["lava", `<path d="M118 52 V30 h4 V52 Z M120 22 a6 6 0 1 1 0.01 0 Z"/>`]
+    ];
+    return `<svg class="temple" viewBox="0 0 240 216" role="img" aria-label="${wrong} van ${MAX} stukken van de robot staan er">
+      ${p.map(([c, s], k) => s.replace(/^<(rect|path)/, `<$1 class="${k < wrong ? "piece " + c : "ghost"}"`)).join("")}
+    </svg>`;
+  }
+  function draw() {
+    const slots = target.map(c => {
+      if (c === " ") return `<span class="slot gap"> </span>`;
+      if (!isLetter(c)) return `<span class="slot">${esc(c)}</span>`;
+      const show = guessed.has(fold(c)) || done;
+      return `<span class="slot ${done && !guessed.has(fold(c)) ? "lost" : ""}">${show ? esc(c.toUpperCase()) : "&nbsp;"}</span>`;
+    }).join("");
+    const keys = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").map(L => {
+      const inWord = target.some(c => fold(c) === L);
+      const cls = guessed.has(L) ? (inWord ? "hit" : "miss") : "";
+      return `<button class="key ${cls}" data-k="${L}" ${guessed.has(L) || done ? "disabled" : ""}>${L}</button>`;
+    }).join("");
+    mount("Robotgalgje", `
+      ${done ? "" : `<div class="row" style="justify-content:space-between">${turnHTML()}<span class="label">Raad letter per letter, of zeg het hele begrip</span></div>`}
+      <div class="hang">
+        <div class="stage">
+          <div class="prompt" style="min-height:0;font-size:clamp(1.1rem,2.2vw,1.6rem)"><div><div class="label" style="font-family:var(--font-body)">Uitleg</div>${esc(t.d)}</div></div>
+          <div class="slots" aria-live="polite">${slots}</div>
+          ${done ? `<div class="feedback ${won ? "good" : "badc"}" style="text-align:center;font-size:1.4rem">${won ? "Geraden!" : "De robot is af. Het begrip was: " + esc(t.w)}</div>` : `<div class="keys">${keys}</div>`}
+          ${done ? (won && S.teams.length && !S.alleen ? awardRow("Punt voor", 2, () => next()) : `<div class="row end"><button class="btn primary" data-nw>Nieuw begrip →</button></div>`)
+                 : `<div class="row end"><button class="btn" data-solve>Iemand weet het hele begrip</button></div>`}
+        </div>
+        <div>${temple()}<div class="lives">${MAX - wrong} foute letters over</div></div>
+      </div>`);
+    $app.querySelectorAll("[data-k]").forEach(b => b.onclick = () => guess(b.dataset.k));
+    const sv = $app.querySelector("[data-solve]"); if (sv) sv.onclick = () => { target.forEach(c => isLetter(c) && guessed.add(fold(c))); done = true; won = true; draw(); };
+    const nw = $app.querySelector("[data-nw]"); if (nw) nw.onclick = next;
+  }
+  function next() { nextTurn(); Galgje(terms, used); }
+  function guess(L) {
+    if (done || guessed.has(L)) return;
+    guessed.add(L);
+    if (!target.some(c => fold(c) === L)) { wrong++; nextTurn(); }
+    if (allFound()) { done = true; won = true; if (S.alleen) award(0, 2); }
+    else if (wrong >= MAX) { done = true; }
+    draw();
+  }
+  document.onkeydown = e => { if (/^[a-z]$/i.test(e.key) && !e.ctrlKey && !e.metaKey && document.activeElement.tagName !== "INPUT") guess(e.key.toUpperCase()); };
+  draw();
+}
+
+// ---------- flitskaarten ----------
+function Flits(terms, opts) {
+  const defFirst = opts && opts.defFirst || false;
+  let deck = shuffle(terms), i = 0, flipped = false;
+  S.game = { turnBased: false };
+  function draw() {
+    const t = deck[i];
+    const front = defFirst ? `<div class="def">${esc(t.d)}</div>` : `<div class="big">${esc(t.w)}</div>`;
+    const back = defFirst ? `<div class="big">${esc(t.w)}</div>${t.x ? `<div class="tip">${esc(t.x)}</div>` : ""}` : `<div class="def">${esc(t.d)}</div>${t.x ? `<div class="tip">Tip: ${esc(t.x)}</div>` : ""}`;
+    mount("Flitskaarten", `
+      <div class="row" style="justify-content:space-between"><span class="progress">Kaart ${i + 1} van ${deck.length}</span>
+        <button class="linkbtn" data-mode>${defFirst ? "Toon eerst het begrip" : "Toon eerst de uitleg"}</button></div>
+      <div class="flash ${flipped ? "flipped" : ""}"><div class="flash-inner" data-turn role="button" tabindex="0" aria-label="Kaart omdraaien">
+        <div class="face"><div class="label">${defFirst ? "Welk begrip is dit?" : "Wat betekent dit?"}</div>${front}</div>
+        <div class="face back-f"><div class="label">${defFirst ? "Begrip" : "Uitleg"}</div>${back}</div>
+      </div></div>
+      <div class="row" style="justify-content:center">
+        <button class="btn ghost" data-prev ${i === 0 ? "disabled" : ""}>← Vorige</button>
+        <button class="btn oker" data-flipc>Draai om</button>
+        <button class="btn primary" data-nextc ${i + 1 >= deck.length ? "disabled" : ""}>Volgende →</button>
+        <button class="btn ghost" data-shuf>Schudden</button>
+      </div>
+      <p class="note" style="text-align:center">Spatiebalk draait de kaart, pijltjes gaan naar de vorige of volgende.</p>`);
+    const turn = () => { flipped = !flipped; $app.querySelector(".flash").classList.toggle("flipped", flipped); };
+    $app.querySelector("[data-turn]").onclick = turn;
+    $app.querySelector("[data-flipc]").onclick = turn;
+    $app.querySelector("[data-prev]").onclick = () => { if (i > 0) { i--; flipped = false; draw(); } };
+    $app.querySelector("[data-nextc]").onclick = () => { if (i + 1 < deck.length) { i++; flipped = false; draw(); } };
+    $app.querySelector("[data-shuf]").onclick = () => { deck = shuffle(terms); i = 0; flipped = false; draw(); };
+    $app.querySelector("[data-mode]").onclick = () => Flits(terms, { defFirst: !defFirst });
+    document.onkeydown = e => {
+      if (e.key === " ") { e.preventDefault(); turn(); }
+      else if (e.key === "ArrowRight") $app.querySelector("[data-nextc]").click();
+      else if (e.key === "ArrowLeft") $app.querySelector("[data-prev]").click();
+    };
+  }
+  draw();
+}
+
+// ---------- bingo ----------
+function Bingo(terms, opts) {
+  const size = opts && opts.size || 3;
+  const max = size === 3 ? 18 : 28;
+  const set = opts && opts.set || shuffle(terms).slice(0, Math.min(max, terms.length));
+  S.game = { turnBased: false };
+  let order = null, i = -1, showCalled = false;
+  function setup() {
+    mount("Begrippenbingo", `
+      <div class="panel">
+        <div class="row" style="justify-content:space-between">
+          <div class="label">Stap 1 · Rooster maken</div>
+          <div class="seg" role="group" aria-label="Grootte">${[3, 4].map(n => `<button data-size="${n}" aria-pressed="${n === size}">${n} × ${n}</button>`).join("")}</div>
+        </div>
+        <ol class="howto">
+          <li>Iedereen tekent een rooster van ${size} bij ${size} vakjes.</li>
+          <li>Kies ${size * size} begrippen uit de lijst hieronder en schrijf er één in elk vakje.</li>
+          <li>Jij leest telkens een uitleg voor. Wie het begrip op zijn rooster heeft, kruist het aan.</li>
+          <li>Een volle rij, kolom of diagonaal? Roep BINGO en lees je begrippen voor.</li>
+        </ol>
+      </div>
+      <div class="wall">${set.map(t => `<span>${esc(t.w)}</span>`).join("")}</div>
+      <div class="row" style="justify-content:space-between">
+        <button class="btn ghost" data-newset>Andere begrippen kiezen</button>
+        <button class="btn primary" data-start>Start de bingo →</button>
+      </div>`);
+    $app.querySelectorAll("[data-size]").forEach(b => b.onclick = () => Bingo(terms, { size: +b.dataset.size }));
+    $app.querySelector("[data-newset]").onclick = () => Bingo(terms, { size });
+    $app.querySelector("[data-start]").onclick = () => { order = shuffle(set); i = 0; play(); };
+  }
+  function play() {
+    const t = order[i];
+    const called = order.slice(0, i + 1);
+    mount("Begrippenbingo", `
+      <div class="row" style="justify-content:space-between"><span class="progress">Uitleg ${i + 1} van ${order.length}</span><button class="linkbtn" data-setup>Terug naar de woordenlijst</button></div>
+      <div class="prompt">${esc(t.d)}</div>
+      <div class="row" style="justify-content:space-between">
+        <button class="btn" data-check>${showCalled ? "Verberg de afgeroepen begrippen" : "Controleer een bingo"}</button>
+        <button class="btn primary" data-nextb ${i + 1 >= order.length ? "disabled" : ""}>Volgende uitleg →</button>
+      </div>
+      ${showCalled ? `<div class="label">Al afgeroepen (groen)</div><div class="wall">${set.map(s => `<span class="${called.includes(s) ? "called" : ""}">${esc(s.w)}</span>`).join("")}</div>` : ""}`);
+    $app.querySelector("[data-nextb]").onclick = () => { if (i + 1 < order.length) { i++; play(); } };
+    $app.querySelector("[data-check]").onclick = () => { showCalled = !showCalled; play(); };
+    $app.querySelector("[data-setup]").onclick = setup;
+    document.onkeydown = e => { if (e.key === "ArrowRight") $app.querySelector("[data-nextb]").click(); };
+  }
+  setup();
+}
+
+// ---------- lijst ----------
+function Lijst(terms) {
+  S.game = { turnBased: false };
+  const sorted = terms.slice().sort((a, b) => a.w.localeCompare(b.w, "nl"));
+  mount("Begrippenlijst", `
+    <p class="note" style="margin:0">${terms.length} begrippen. In de spellen wordt het begrip zelf in de uitleg vervangen door “…”, zodat het antwoord niet verklapt wordt.</p>
+    <div class="tablewrap"><table><thead><tr><th>Begrip</th><th>Uitleg</th><th>Extra tip</th></tr></thead>
+    <tbody>${sorted.map(t => `<tr><td>${esc(t.w)}</td><td>${esc(t.d)}</td><td class="x">${esc(t.x)}</td></tr>`).join("")}</tbody></table></div>`);
+}
+
+renderMenu();
+</script>
+
+</body></html>
