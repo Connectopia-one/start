@@ -1,0 +1,472 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Het historisch referentiekader — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "tabel",
+          "vraag": "Een leerling situeert de Guldensporenslag van 1302. Welke van deze stappen horen bij het historisch referentiekader?",
+          "rijen": [
+            "Ze plaatst de slag in de middeleeuwen.",
+            "Ze zegt dat het om een gebeurtenis bij Kortrijk in het graafschap Vlaanderen gaat.",
+            "Ze legt uit dat het om macht én om de verhouding tussen bevolkingsgroepen ging.",
+            "Ze rekent uit hoeveel de wapens van de ridders kostten."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Tijd, ruimte en maatschappelijke domeinen zijn de drie assen. Wat iets kostte, is geen as van het kader."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom geeft een datum zonder plaats en zonder domein een scheef beeld?",
+          "opties": [
+            "Een datum is in de geschiedenis altijd onbetrouwbaar en dus nutteloos",
+            "Datums horen bij het economische domein en niet bij de tijd",
+            "Je weet niet waar het gebeurde en waarmee je het vergelijkt",
+            "Zonder plaats is het geen gebeurtenis maar een hele periode"
+          ],
+          "antwoord": 2,
+          "uitleg": "Het kader heeft drie assen. Wie er één weglaat, kan de gebeurtenis niet goed plaatsen en niet vergelijken met andere."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk structuurbegrip van de tijd past bij elke zin?",
+          "paren": [
+            [
+              "Terwijl het wereldbeeld in de 16de eeuw verandert, werkt de landbouw nog zoals in 1300.",
+              "Continuïteit"
+            ],
+            [
+              "De industriële omwenteling duurde meer dan een eeuw, maar veranderde alles.",
+              "Revolutie"
+            ],
+            [
+              "In de 13de eeuw schrijft men in het Arabische rijk op papier, in Europa op perkament.",
+              "Ongelijktijdigheid"
+            ],
+            [
+              "Ik zet de val van Rome, de kroning van Karel de Grote en Verdun in de juiste volgorde.",
+              "Chronologie"
+            ]
+          ],
+          "extra": [
+            "Periodisering"
+          ],
+          "uitleg": "Wat blijft duren is continuïteit. Revolutie slaat op de omvang, niet op de snelheid. Dezelfde ontwikkeling die elders al verder staat, is ongelijktijdigheid. In volgorde zetten is chronologie; periodisering geeft stukken tijd een naam."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De industriële revolutie duurde meer dan honderd jaar. Waarom heet ze toch een revolutie?",
+          "opties": [
+            "Ze begon met een gewapende opstand van de fabrieksarbeiders in Manchester en Londen",
+            "Het woord gaat over hoe groot de verandering was, niet hoe snel",
+            "Elke verandering in het economische domein heet altijd een revolutie",
+            "Historici noemen alles wat langer dan een eeuw duurt een revolutie"
+          ],
+          "antwoord": 1,
+          "uitleg": "Revolutie gaat over de omvang van de verandering. Ze hoeft niet snel te gaan en niet over politiek te gaan."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt elke uitspraak over de structuurbegrippen van de tijd?",
+          "rijen": [
+            "Chronologie en periodisering betekenen hetzelfde.",
+            "Een evolutie kan ook in het culturele domein voorkomen.",
+            "Met duur bedoelt een historicus hoe lang een toestand voortduurt.",
+            "Maritiem is een structuurbegrip van de tijd.",
+            "Gelijktijdige gebeurtenissen moeten iets met elkaar te maken hebben."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Chronologie ordent, periodisering groepeert. Evolutie en revolutie komen in elk domein voor. Duur is hoe lang iets duurt. Maritiem is een begrip van de ruimte. Gelijktijdige gebeurtenissen kunnen los van elkaar staan."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel jaar ligt er tussen 200 v.C. en 300 n.C.? Er bestaat geen jaar 0. Antwoord met een getal.",
+          "antwoord": "499",
+          "uitleg": "Van 200 v.C. tot 1 v.C. is 199 jaar, van 1 v.C. naar 1 n.C. is 1 jaar, en van 1 n.C. tot 300 n.C. nog 299 jaar: samen 499."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk structuurbegrip van de tijd gebruik je voor wat blijft duren, ook al verandert er elders veel? Antwoord met één woord.",
+          "antwoord": [
+            "continuïteit",
+            "continuiteit"
+          ],
+          "uitleg": "Continuïteit is wat blijft, verandering is wat anders wordt. In elke periode zitten ze allebei."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen gelijktijdigheid en ongelijktijdigheid?",
+          "opties": [
+            "Gelijktijdigheid gaat over de ruimte, ongelijktijdigheid over de maatschappelijke domeinen",
+            "Ongelijktijdig: dezelfde ontwikkeling staat op de ene plaats verder dan elders",
+            "Ongelijktijdige gebeurtenissen hebben nooit iets met elkaar te maken, gelijktijdige altijd",
+            "Er is geen verschil, beide woorden betekenen dat iets lang duurt"
+          ],
+          "antwoord": 1,
+          "uitleg": "Gelijktijdig wil zeggen in dezelfde tijd. Ongelijktijdigheid is dezelfde ontwikkeling die op verschillende plaatsen niet even ver staat, zoals papier in het Arabische rijk en perkament in Europa."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het scharnierpunt tussen de klassieke oudheid en de middeleeuwen.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/tijdlijn-0-2000.svg",
+          "zones": [
+            [
+              23.6,
+              25,
+              4.4,
+              55
+            ]
+          ],
+          "uitleg": "De middeleeuwen beginnen met de val van het West-Romeinse Rijk in 476, net voor het streepje van 500."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op de plaats waar de vroegmoderne tijd begint.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/tijdlijn-0-2000.svg",
+          "zones": [
+            [
+              65.8,
+              25,
+              5.2,
+              55
+            ]
+          ],
+          "uitleg": "De vroegmoderne tijd begint met 1453 (val van Constantinopel) of 1492 (Columbus op de Caraïben): net voor het streepje van 1500."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het scharnierpunt waarmee de moderne tijd begint.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/tijdlijn-0-2000.svg",
+          "zones": [
+            [
+              80.0,
+              25,
+              3.5,
+              55
+            ]
+          ],
+          "uitleg": "De moderne tijd begint in 1789, met de Franse Revolutie, net voor het streepje van 1800."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de zeven periodes van de westerse periodisering in de juiste volgorde.",
+          "opties": [
+            "Prehistorie",
+            "Oude nabije oosten",
+            "Klassieke oudheid",
+            "Middeleeuwen",
+            "Vroegmoderne tijd",
+            "Moderne tijd",
+            "Hedendaagse tijd"
+          ],
+          "uitleg": "Van de tijd vóór het schrift tot vandaag. Voor dit vak ken je de middeleeuwen en de vroegmoderne tijd grondig."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De Tweede Wereldoorlog situeer je in de [[*moderne tijd|hedendaagse tijd|vroegmoderne tijd]], want de hedendaagse tijd begint pas in [[*1945|1918|1789]].",
+          "uitleg": "De moderne tijd loopt van 1789 tot 1945. Pas na de Tweede Wereldoorlog begint de hedendaagse tijd."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een historische periode of niet?",
+          "kolommen": [
+            "Historische periode",
+            "Geen historische periode"
+          ],
+          "items": [
+            [
+              "de middeleeuwen",
+              "Historische periode"
+            ],
+            [
+              "het oude nabije oosten",
+              "Historische periode"
+            ],
+            [
+              "de vroegmoderne tijd",
+              "Historische periode"
+            ],
+            [
+              "de klassieke oudheid",
+              "Historische periode"
+            ],
+            [
+              "de ijstijd",
+              "Geen historische periode"
+            ],
+            [
+              "de ruimtetijd",
+              "Geen historische periode"
+            ]
+          ],
+          "uitleg": "De ijstijd is een klimaatbegrip en de ruimtetijd hoort bij de natuurkunde. Geen van beide staat in de westerse periodisering."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Met welke twee principes baken je een periode af?",
+          "opties": [
+            "met de regeringsjaren van een belangrijke koning en de grenzen van zijn rijk",
+            "met de eerste en de laatste geschreven bron uit die tijd",
+            "met wat de mensen van toen zelf over hun tijd zeiden",
+            "met gekozen kenmerken en een symbolische begin- en einddatum"
+          ],
+          "antwoord": 3,
+          "uitleg": "Je kiest kenmerken en gebeurtenissen die je belangrijk vindt, en een symbolische begin- en einddatum. Allebei zijn keuzes, dus een periodegrens is altijd voor discussie vatbaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom laat men met 1492 een nieuwe periode beginnen?",
+          "opties": [
+            "Daarna veranderen de contacten tussen de continenten blijvend",
+            "In dat jaar werd de boekdrukkunst met losse letters uitgevonden in Mainz",
+            "In dat jaar viel het West-Romeinse Rijk definitief",
+            "Toen begon in Europa de eerste industriële fabriek"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met de aankomst van Columbus op de Caraïben veranderen de contacten tussen de continenten voorgoed. Daarom geldt 1492 als scharnierpunt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke uitspraken over de beperkingen van een periodisering kloppen?",
+          "rijen": [
+            "Ze steunt op een selectie, dus wat niet gekozen is, valt weg.",
+            "Ze suggereert een scherpe breuk waar de werkelijkheid geleidelijk is.",
+            "Ze past niet even goed op niet-westerse samenlevingen.",
+            "Ze maakt het dateren van gebeurtenissen onmogelijk."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De eerste drie zijn echte beperkingen. Dateren blijft wel gewoon mogelijk."
+        },
+        {
+          "casus": "Twee leerlingen discussiëren. Amir: \"De westerse indeling in zeven periodes is de enige juiste, want bijna elk handboek gebruikt ze.\" Lies: \"In China deelt men de geschiedenis in dynastieën in, de islamitische tijdrekening telt vanaf de hidjra en Nederland gebruikt tien tijdvakken. Dus de westerse indeling is fout.\"",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wie heeft gelijk?",
+              "opties": [
+                "Amir, want wat in de meeste handboeken staat, is juist",
+                "Lies, want tien tijdvakken zijn preciezer dan zeven periodes",
+                "Geen van beiden: elke indeling steunt op een keuze van kenmerken",
+                "Allebei, want er bestaat maar één juiste indeling per land"
+              ],
+              "antwoord": 2,
+              "uitleg": "Een indeling is een keuze en geen natuurwet. Dat er andere indelingen bestaan, maakt de westerse niet fout, en dat ze veel gebruikt wordt, maakt ze niet de enige juiste."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is een gevolg van zulke verschillende indelingen?",
+              "opties": [
+                "Een jaartal kan in de ene indeling een grens zijn, in de andere niet",
+                "Een gebeurtenis in China kan je niet dateren met de westerse jaartallen",
+                "Je mag bronnen uit andere landen niet gebruiken",
+                "Het jaar 1492 bestaat niet in de islamitische tijdrekening"
+              ],
+              "antwoord": 0,
+              "uitleg": "Elke indeling legt haar grenzen op een andere plaats. Dateren blijft mogelijk; alleen de grenzen en namen verschillen."
+            },
+            {
+              "type": "open",
+              "vraag": "Leg in twee zinnen uit waarom je periodiseringen met elkaar vergelijkt.",
+              "antwoord": "Niet om te bewijzen welke de beste is, maar om te zien dat elke indeling steunt op een keuze van kenmerken. Zo begrijp je dat een periodegrens een afspraak is en geen natuurwet."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "De Guldensporenslag heeft betekenis op verschillende schaalniveaus. Koppel elke beschrijving aan het juiste niveau.",
+          "paren": [
+            [
+              "een veldslag bij Kortrijk",
+              "Lokaal"
+            ],
+            [
+              "een zaak van het graafschap Vlaanderen",
+              "Regionaal"
+            ],
+            [
+              "een episode in de strijd om Frankrijk",
+              "Continentaal"
+            ]
+          ],
+          "extra": [
+            "Mondiaal"
+          ],
+          "uitleg": "Dezelfde gebeurtenis kan lokaal, regionaal en continentaal betekenis hebben. Mondiaal, de hele wereld, past hier niet."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "De ruimtebegrippen vallen in twee rijtjes uiteen. Sleep elk begrip naar het juiste rijtje.",
+          "kolommen": [
+            "Hoe groot is het gebied?",
+            "Wat voor gebied is het?"
+          ],
+          "items": [
+            [
+              "lokaal",
+              "Hoe groot is het gebied?"
+            ],
+            [
+              "nationaal",
+              "Hoe groot is het gebied?"
+            ],
+            [
+              "continentaal",
+              "Hoe groot is het gebied?"
+            ],
+            [
+              "mondiaal",
+              "Hoe groot is het gebied?"
+            ],
+            [
+              "maritiem",
+              "Wat voor gebied is het?"
+            ],
+            [
+              "ruraal",
+              "Wat voor gebied is het?"
+            ],
+            [
+              "stedelijk",
+              "Wat voor gebied is het?"
+            ],
+            [
+              "westers",
+              "Wat voor gebied is het?"
+            ]
+          ],
+          "uitleg": "Lokaal tot mondiaal zegt hoe groot een gebied is. Maritiem, ruraal, stedelijk en westers zeggen wat voor gebied het is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling legt een kaart van het rijk van Karel V naast een kaart van vandaag. Wat doet ze?",
+          "opties": [
+            "Ze beoordeelt een bron op betrouwbaarheid",
+            "Ze situeert iets in de tijd",
+            "Ze vergelijkt twee maatschappelijke domeinen",
+            "Ze situeert iets in de ruimte"
+          ],
+          "antwoord": 3,
+          "uitleg": "Een historische kaart toont het gebied met de grenzen van toen. Naast een kaart van vandaag situeer je zo een gegeven in de ruimte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelt men met westers?",
+          "opties": [
+            "Samenlevingen met een gedeelde geschiedenis; de grens is een discussie",
+            "Alle landen die op de kaart ten westen van de nulmeridiaan van Greenwich liggen",
+            "Alle landen die aan de Atlantische Oceaan grenzen",
+            "Een begrip van de tijd dat de moderne periode aanduidt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Westers is meer dan een windstreek op de kaart: het slaat op samenlevingen met een gedeelde geschiedenis. Waar die groep ophoudt, is zelf een discussie."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "In welk maatschappelijk domein hoort elk voorbeeld?",
+          "kolommen": [
+            "Politiek",
+            "Sociaal",
+            "Economisch",
+            "Cultureel"
+          ],
+          "items": [
+            [
+              "het absolutisme van Lodewijk XIV",
+              "Politiek"
+            ],
+            [
+              "migratie",
+              "Sociaal"
+            ],
+            [
+              "slavernij",
+              "Sociaal"
+            ],
+            [
+              "e-commerce",
+              "Economisch"
+            ],
+            [
+              "de geldeconomie",
+              "Economisch"
+            ],
+            [
+              "de drukkunst",
+              "Cultureel"
+            ],
+            [
+              "de Reformatie",
+              "Cultureel"
+            ]
+          ],
+          "uitleg": "Macht en bestuur zijn politiek, de verhouding tussen groepen sociaal, produceren en handelen economisch, geloof, kunst en wetenschap cultureel. E-commerce is economisch, hoe modern het ook klinkt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een geschilderd portret van sultan Süleyman I toont zijn macht en is een kunstwerk in een bepaalde stijl. In welke domeinen hoort het? (meerdere antwoorden)",
+          "opties": [
+            "Het politieke domein",
+            "Het culturele domein",
+            "Het economische domein",
+            "Het sociale domein"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Het toont de macht van de sultan (politiek) en is een kunstwerk (cultureel). Met het economische of het sociale domein heeft het weinig te maken."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het [[*geografische|politieke|sociale]] domein is geen maatschappelijk domein. Een handelsvloot die specerijen aanvoert, breng je onder bij het [[*economische|maritieme|militaire]] domein.",
+          "uitleg": "Er zijn vier maatschappelijke domeinen: politiek, sociaal, economisch en cultureel. Het geografische, maritieme en militaire domein bestaan niet; handel is economisch."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Het kader heeft drie assen: de [[tijd]], de [[ruimte]] en de [[maatschappelijke domeinen]]. Je gebruikt het om te [[situeren]] en daarna te vergelijken.",
+          "extra": [
+            "bronnen",
+            "jaartallen",
+            "bewijzen"
+          ],
+          "uitleg": "Tijd, ruimte en domeinen zijn de assen. Het kader situeert en maakt vergelijken mogelijk; het bewijst niets."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom moet een historische vraag afgebakend zijn in tijd, ruimte en domein?",
+          "opties": [
+            "Omdat een vraag anders te kort is voor een examen",
+            "Omdat je ze anders niet met bronnen kan beantwoorden",
+            "Omdat elke vraag over de middeleeuwen moet gaan",
+            "Omdat je anders het jaartal van de gebeurtenis niet kan uitrekenen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een vraag die niet afgebakend is, is te breed om met bronnen te beantwoorden. Daarom begin je met het kader."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom de Guldensporenslag in twee maatschappelijke domeinen tegelijk thuishoort.",
+          "antwoord": "Ze hoort in het politieke domein, want het ging om de macht over Vlaanderen. En ze hoort in het sociale domein, want het ging ook om de verhouding tussen bevolkingsgroepen in de steden."
+        }
+      ]
+    }
+  ]
+}
