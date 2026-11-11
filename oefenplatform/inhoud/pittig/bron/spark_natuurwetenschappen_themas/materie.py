@@ -20,7 +20,7 @@ VRAGEN = [
         vraag="Je bakt pannenkoeken. Bij welke stap gebeurt er een chemisch verschijnsel?",
         opties=[
             "Het deeg wordt bruin in de pan en begint anders te ruiken",
-            "De boter smelt in de hete pan tot een gele vloeistof",
+            "De boter smelt in de hete pan tot een gele, dunne vloeistof",
             "De suiker lost op in de melk en is niet meer te zien",
             "Het ei breekt op de rand van de kom en loopt eruit",
         ],
@@ -57,7 +57,7 @@ VRAGEN = [
         vraag="Op een koude ochtend ligt er rijp op het gras, terwijl het die nacht niet geregend heeft en er geen water op het gras lag. Hoe is die rijp ontstaan?",
         opties=[
             "Waterdamp uit de lucht werd rechtstreeks ijs",
-            "Regenwater bevroor op de grassprieten",
+            "Regenwater van de avond bevroor op de grassprieten",
             "IJs uit de bodem sublimeerde naar boven",
             "Het gras zelf stolde door de koude",
         ],
@@ -94,7 +94,7 @@ VRAGEN = [
         opties=[
             "Hij krimpt, want de deeltjes bewegen trager en komen dichter bij elkaar",
             "Hij zet uit, want de deeltjes worden groter als ze afkoelen",
-            "Hij krimpt, want door de koude verdwijnt een deel van de deeltjes",
+            "Hij krimpt, want door de koude verdwijnt er langzaam een deel van de deeltjes",
             "Er gebeurt niets, want de knoop houdt alle deeltjes binnen",
         ],
         antwoord=0,

@@ -50,7 +50,7 @@ DEEL1 = [
         vraag="Waarom lees je de handleiding van een toestel voor je het gebruikt?",
         opties=[
             "Om te weten hoe je het veilig en juist bedient",
-            "Omdat dat verplicht is bij elk examen",
+            "Omdat dat verplicht is bij elk examen en elke proef",
             "Om te weten wat het kost",
         ],
         antwoord=0,
@@ -66,7 +66,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Waarmee meet je het volume van een vloeistof?",
-        opties=["Met een maatcilinder", "Met een meetlat", "Met een dynamometer"],
+        opties=["Met een maatcilinder", "Met een meetlat of een rolmeter", "Met een dynamometer"],
         antwoord=0,
         uitleg=r"Je giet de vloeistof in een maatcilinder en leest het volume af in milliliter, en \(1\) mL is \(1\,\text{cm}^{3}\).",
     ),
@@ -92,7 +92,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Waarmee meet je de geluidssterkte?",
-        opties=["Met een geluidsmeter", "Met een lichtmeter", "Met een anemometer"],
+        opties=["Met een geluidsmeter", "Met een lichtmeter op een statief", "Met een anemometer"],
         antwoord=0,
         uitleg="De geluidssterkte krijgt het symbool L en meet je in decibel (dB) met een geluidsmeter.",
     ),
@@ -108,7 +108,7 @@ DEEL1 = [
         vraag="Waarmee bepaal je de bodemhardheid in een biotoop?",
         opties=[
             "Met een valpen met plastic buis",
-            "Met een weegschaal",
+            "Met een weegschaal en een schep aarde",
             "Met een lichtmeter",
         ],
         antwoord=0,
@@ -123,7 +123,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat is de SI-eenheid van massa?",
-        opties=["De kilogram", "De gram", "De ton"],
+        opties=["De kilogram", "De gram, met symbool g", "De ton"],
         antwoord=0,
         uitleg=r"De kilogram (kg) is de SI-eenheid. De ton is een niet-SI-eenheid: \(1\,t = 1000\) kg.",
     ),
@@ -170,7 +170,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welk hulpmiddel gebruik je om een cel te bekijken?",
-        opties=["Een lichtmicroscoop", "Een loep", "Een verrekijker"],
+        opties=["Een lichtmicroscoop", "Een loep met een lampje", "Een verrekijker"],
         antwoord=0,
         uitleg="Kies je hulpmiddel naar de vergroting die je nodig hebt: een loep voor een insect, een binoculair voor wat detail, een lichtmicroscoop voor cellen.",
     ),
@@ -191,7 +191,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Hoe lees je een maatcilinder correct af?",
-        opties=["Met je oog op de onderkant van de holle bolling", "Van bovenaf, schuin naar beneden kijkend", "Terwijl je de cilinder schuin houdt"],
+        opties=["Met je oog op de onderkant van de holle bolling", "Van bovenaf, schuin naar beneden kijkend naar het streepje", "Terwijl je de cilinder schuin houdt"],
         antwoord=0,
         uitleg="De vloeistof staat hol in het glas. Lees af aan de onderkant van die holling, met de cilinder recht en je oog op dezelfde hoogte, anders kijk je ernaast.",
     ),
@@ -277,7 +277,7 @@ DEEL2 = [
         vraag="Waarom schakel je een meettoestel uit als je even niet meet?",
         opties=[
             "Om energie te sparen en de batterij te sparen",
-            "Omdat het anders verkeerd meet",
+            "Omdat het anders verkeerd meet als je het weer aanzet",
             "Omdat het dan sneller werkt",
         ],
         antwoord=0,
@@ -288,7 +288,7 @@ DEEL2 = [
         vraag="Je werkt met levend materiaal uit een vijver. Wat doe je achteraf?",
         opties=[
             "Je zet de diertjes terug en maakt je materiaal proper",
-            "Je giet alles in de gootsteen",
+            "Je giet alles in de gootsteen en spoelt goed na met water",
             "Je laat het staan tot volgende week",
         ],
         antwoord=0,

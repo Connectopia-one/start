@@ -24,7 +24,7 @@ DEEL1 = [
         vraag="Waarom weegt een blok ijzer zwaarder dan een even groot blok hout?",
         opties=[
             "IJzer heeft een grotere massadichtheid",
-            "IJzer heeft een groter volume",
+            "IJzer heeft een groter volume dan hout van dezelfde grootte",
             "Hout heeft geen massa",
         ],
         antwoord=0,
@@ -81,7 +81,7 @@ DEEL1 = [
         vraag="Hoe bepaal je het volume van een onregelmatig voorwerp, zoals een steen?",
         opties=[
             "Door het onder te dompelen en te kijken hoeveel het water stijgt",
-            "Door het te wegen",
+            "Door het te wegen op een weegschaal en dan te delen door de massa",
             "Door de lengte te meten met een meetlat",
         ],
         antwoord=0,
@@ -145,7 +145,7 @@ DEEL1 = [
         vraag="Een stuk kurk drijft op water. Wat weet je dan?",
         opties=[
             "De massadichtheid van kurk is kleiner dan die van water",
-            "De massadichtheid van kurk is groter dan die van water",
+            "De massadichtheid van kurk is groter dan die van water, maar kurk is hol",
             "Kurk heeft geen massa",
         ],
         antwoord=0,
@@ -172,7 +172,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Met welk instrument kan je rechtstreeks de massadichtheid van een vloeistof meten?",
-        opties=["Met een dichtheidsmeter", "Met een thermometer", "Met een weegschaal"],
+        opties=["Met een dichtheidsmeter", "Met een thermometer en een weegschaal", "Met een weegschaal"],
         antwoord=0,
         uitleg="Een dichtheidsmeter of densiteitsmeter drijft in de vloeistof en je leest de massadichtheid af op de schaal.",
     ),
@@ -239,7 +239,7 @@ DEEL2 = [
         vraag="Je zet massa (y) uit tegenover volume (x) voor één stof. Hoe ziet de grafiek eruit?",
         opties=[
             "Een rechte door de oorsprong",
-            "Een dalende kromme",
+            "Een dalende kromme die steeds vlakker wordt",
             "Een horizontale rechte",
         ],
         antwoord=0,
@@ -321,7 +321,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Je hebt twee even grote blokjes van dezelfde stof en je legt ze samen op de weegschaal. Wat verandert er?",
-        opties=["Massa en volume verdubbelen, de massadichtheid niet", "De massadichtheid wordt twee keer zo groot", "De massadichtheid wordt de helft"],
+        opties=["Massa en volume verdubbelen, de massadichtheid niet", "De massadichtheid wordt twee keer zo groot, net als de massa", "De massadichtheid wordt de helft"],
         antwoord=0,
         uitleg="Massa en volume worden allebei twee keer zo groot, dus hun verhouding verandert niet. Massadichtheid hangt alleen van de stof af.",
     ),

@@ -35,7 +35,7 @@
           "opties": [
             "Een groep cellen van dezelfde soort die samen één taak doen",
             "Eén cel met een heel bijzondere vorm",
-            "Een groep organen die samenwerken"
+            "Een groep organen die samenwerken aan een grote taak in het lichaam"
           ],
           "antwoord": 0,
           "uitleg": "Cellen van dezelfde soort die samen dezelfde taak uitvoeren, vormen een weefsel. Verschillende weefsels samen vormen een orgaan."
@@ -81,7 +81,7 @@
           "vraag": "Wat doet het celmembraan?",
           "opties": [
             "Het regelt wat er in en uit de cel gaat",
-            "Het maakt suikers met zonlicht",
+            "Het maakt suikers met behulp van zonlicht",
             "Het bewaart de erfelijke informatie"
           ],
           "antwoord": 0,
@@ -102,7 +102,7 @@
           "vraag": "Waarvoor dient een vacuole in een plantencel?",
           "opties": [
             "Ze slaat water en voedingsstoffen op",
-            "Ze vangt het zonlicht op",
+            "Ze vangt het zonlicht op voor de fotosynthese",
             "Ze deelt de cel in tweeën"
           ],
           "antwoord": 0,
@@ -119,7 +119,7 @@
           "vraag": "Wat is het cytoplasma?",
           "opties": [
             "De vloeistof in de cel waarin de celonderdelen liggen",
-            "De harde buitenkant van een plantencel",
+            "De harde buitenkant van een plantencel, rond het celmembraan",
             "Het onderdeel dat zonlicht opvangt"
           ],
           "antwoord": 0,
@@ -250,7 +250,7 @@
           "vraag": "Waarom heeft een cel uit de wortel van een plant geen bladgroenkorrels?",
           "opties": [
             "Omdat er in de grond geen licht komt",
-            "Omdat een wortel geen cellen heeft",
+            "Omdat een wortel geen echte cellen heeft, enkel vezels",
             "Omdat de wortel geen water opneemt"
           ],
           "antwoord": 0,
@@ -558,7 +558,7 @@
           "vraag": "Waarvoor dient de stengel van een plant?",
           "opties": [
             "Ze draagt de bladeren en vervoert stoffen",
-            "Ze neemt zonlicht op",
+            "Ze neemt zonlicht en water op voor de hele plant",
             "Ze maakt zaden"
           ],
           "antwoord": 0,
@@ -592,7 +592,7 @@
           "vraag": "Welk gas is een broeikasgas dat planten uit de lucht halen?",
           "opties": [
             "Koolstofdioxide",
-            "Zuurstofgas",
+            "Zuurstofgas uit de bladeren",
             "Waterstofgas"
           ],
           "antwoord": 0,
@@ -644,7 +644,7 @@
           "vraag": "Waar in het blad zitten de bladgroenkorrels?",
           "opties": [
             "In de cellen van het blad",
-            "Tussen de bladeren",
+            "Tussen de bladeren, aan de buitenkant van de plant",
             "Op de wortels"
           ],
           "antwoord": 0,
@@ -750,8 +750,8 @@
           "vraag": "Een boer zet zijn serre vol extra koolstofdioxide. Waarom?",
           "opties": [
             "Omdat de planten dan meer fotosynthese doen en sneller groeien",
-            "Omdat planten koolstofdioxide inademen om energie te maken",
-            "Omdat de planten er warmer van worden"
+            "Omdat planten koolstofdioxide inademen om er hun energie mee te maken",
+            "Omdat de planten er warmer van worden en dus sneller kiemen"
           ],
           "antwoord": 0,
           "uitleg": "CO₂ is een grondstof voor de fotosynthese. Meer grondstof betekent meer glucose, dus meer groei — zolang licht en water niet tekortschieten."
@@ -821,7 +821,7 @@
           "vraag": "Twee identieke planten staan op de vensterbank. Bij één plak je alle bladeren onderaan af, zodat de huidmondjes dicht zitten. Wat verwacht je?",
           "opties": [
             "Die plant groeit trager, want ze krijgt minder CO₂ binnen",
-            "Die plant groeit sneller, want ze verliest geen water",
+            "Die plant groeit sneller, want ze verliest geen water meer langs de bladeren",
             "Er verandert niets"
           ],
           "antwoord": 0,
@@ -838,7 +838,7 @@
           "vraag": "Waarom noemen we glucose een energierijke stof?",
           "opties": [
             "Omdat er bij de verbranding ervan energie vrijkomt",
-            "Omdat ze zwaar is",
+            "Omdat ze zwaar is en heel veel plaats inneemt in de cel",
             "Omdat ze licht uitstraalt"
           ],
           "antwoord": 0,
@@ -921,7 +921,7 @@
           "vraag": "Waar komt de zuurstof uit de lucht in je bloed terecht?",
           "opties": [
             "In de longblaasjes",
-            "In de luchtpijp",
+            "In de luchtpijp, via de wand",
             "In de maag"
           ],
           "antwoord": 0,
@@ -932,7 +932,7 @@
           "vraag": "Wat doet de strottenklep als je slikt?",
           "opties": [
             "Ze sluit de luchtpijp af",
-            "Ze opent de luchtpijp",
+            "Ze opent de luchtpijp, zodat het eten erin kan",
             "Ze sluit de slokdarm af"
           ],
           "antwoord": 0,
@@ -1263,7 +1263,7 @@
           "vraag": "Wat staat er onderaan, in het donkergroene deel van de actieve voedingsdriehoek?",
           "opties": [
             "Water, groenten, fruit en volle granen",
-            "Vlees en vis",
+            "Vlees, vis, eieren, melk en kaas, allemaal samen",
             "Koek en frisdrank"
           ],
           "antwoord": 0,
@@ -1310,7 +1310,7 @@
           "vraag": "Welk van deze is een ademhalingsproduct?",
           "opties": [
             "Koolstofdioxide",
-            "Urine",
+            "Urine en zweet uit de nieren",
             "Voedselresten"
           ],
           "antwoord": 0,
@@ -1406,7 +1406,7 @@
           "vraag": "Wat is bevruchting?",
           "opties": [
             "Het versmelten van een zaadcel en een eicel",
-            "Het vervoeren van stuifmeel",
+            "Het vervoeren van stuifmeel door bijen en de wind",
             "Het openen van een bloem"
           ],
           "antwoord": 0,
@@ -1461,7 +1461,7 @@
           "vraag": "Waar groeit een baby tijdens de zwangerschap?",
           "opties": [
             "In de baarmoeder",
-            "In de eileider",
+            "In de eileider, tot de geboorte",
             "In de eierstok"
           ],
           "antwoord": 0,
@@ -1599,7 +1599,7 @@
           "vraag": "Waarom verdikt het baarmoederslijmvlies elke cyclus?",
           "opties": [
             "Om een bevruchte eicel te kunnen opvangen",
-            "Om de eicel te laten rijpen",
+            "Om de eicel te laten rijpen voor de eisprong",
             "Om zaadcellen te maken"
           ],
           "antwoord": 0,
@@ -1682,7 +1682,7 @@
           "vraag": "Hoe zorgt de anticonceptiepil ervoor dat er geen zwangerschap komt?",
           "opties": [
             "De hormonen in de pil houden de eisprong tegen",
-            "De pil doodt de zaadcellen in de baarmoeder",
+            "De pil doodt de zaadcellen meteen in de baarmoeder",
             "De pil sluit de eileiders af"
           ],
           "antwoord": 0,
@@ -1731,7 +1731,7 @@
           "vraag": "Waarom heeft een windbestuivende plant zoals gras geen opvallende bloemen?",
           "opties": [
             "Ze moet geen insecten lokken, want de wind doet het werk",
-            "Ze heeft geen stuifmeel nodig",
+            "Ze heeft geen stuifmeel nodig, want ze maakt zaden zonder bestuiving",
             "Ze plant zich niet seksueel voort"
           ],
           "antwoord": 0,
@@ -1827,7 +1827,7 @@
           "vraag": "Met welk meetinstrument meet je de temperatuur in een biotoop?",
           "opties": [
             "Met een thermometer",
-            "Met een anemometer",
+            "Met een anemometer of een hygrometer",
             "Met een hygrometer"
           ],
           "antwoord": 0,
@@ -1871,7 +1871,7 @@
           "vraag": "Welk hulpmiddel gebruik je om een klein insect van dichtbij te bekijken in het veld?",
           "opties": [
             "Een loep of een binoculair",
-            "Een dynamometer",
+            "Een dynamometer met een fijne schaal",
             "Een maatcilinder"
           ],
           "antwoord": 0,
@@ -1938,7 +1938,7 @@
           "vraag": "Wat betekent biodiversiteit?",
           "opties": [
             "De verscheidenheid aan soorten in een gebied",
-            "Het aantal dieren van één soort",
+            "Het aantal dieren van één soort in een groot gebied",
             "De grootte van een biotoop"
           ],
           "antwoord": 0,
@@ -2242,8 +2242,8 @@
           "vraag": "Hoe liggen de deeltjes in een vaste stof volgens het deeltjesmodel?",
           "opties": [
             "Dicht bij elkaar, op een vaste plaats, ze trillen alleen",
-            "Ver uit elkaar en snel door elkaar",
-            "Dicht bij elkaar, maar ze schuiven vrij langs elkaar"
+            "Ver uit elkaar en snel door elkaar, zoals in een gas",
+            "Dicht bij elkaar, maar ze schuiven vrij en snel langs elkaar"
           ],
           "antwoord": 0,
           "uitleg": "In een vaste stof zitten de deeltjes op een vaste plek en trillen ze alleen. In een vloeistof schuiven ze langs elkaar, in een gas vliegen ze ver uit elkaar rond."
@@ -2260,7 +2260,7 @@
           "opties": [
             "Condenseren",
             "Verdampen",
-            "Sublimeren"
+            "Sublimeren tot ijs"
           ],
           "antwoord": 0,
           "uitleg": "Condenseren is gas dat vloeistof wordt, zoals damp op een koude spiegel. Verdampen is net het omgekeerde."
@@ -2521,7 +2521,7 @@
           "vraag": "Je ziet een tekening met deeltjes: allemaal identieke bolletjes van twee aan elkaar. Wat stelt dat voor?",
           "opties": [
             "Een zuivere stof die uit moleculen bestaat",
-            "Een mengsel van twee stoffen",
+            "Een mengsel van twee stoffen die samen één geheel vormen",
             "Een mengsel van atomen en moleculen"
           ],
           "antwoord": 0,
@@ -2670,7 +2670,7 @@
           "vraag": "Waarom weegt een blok ijzer zwaarder dan een even groot blok hout?",
           "opties": [
             "IJzer heeft een grotere massadichtheid",
-            "IJzer heeft een groter volume",
+            "IJzer heeft een groter volume dan hout van dezelfde grootte",
             "Hout heeft geen massa"
           ],
           "antwoord": 0,
@@ -2746,7 +2746,7 @@
           "vraag": "Hoe bepaal je het volume van een onregelmatig voorwerp, zoals een steen?",
           "opties": [
             "Door het onder te dompelen en te kijken hoeveel het water stijgt",
-            "Door het te wegen",
+            "Door het te wegen op een weegschaal en dan te delen door de massa",
             "Door de lengte te meten met een meetlat"
           ],
           "antwoord": 0,
@@ -2830,7 +2830,7 @@
           "vraag": "Een stuk kurk drijft op water. Wat weet je dan?",
           "opties": [
             "De massadichtheid van kurk is kleiner dan die van water",
-            "De massadichtheid van kurk is groter dan die van water",
+            "De massadichtheid van kurk is groter dan die van water, maar kurk is hol",
             "Kurk heeft geen massa"
           ],
           "antwoord": 0,
@@ -2862,7 +2862,7 @@
           "vraag": "Met welk instrument kan je rechtstreeks de massadichtheid van een vloeistof meten?",
           "opties": [
             "Met een dichtheidsmeter",
-            "Met een thermometer",
+            "Met een thermometer en een weegschaal",
             "Met een weegschaal"
           ],
           "antwoord": 0,
@@ -2963,7 +2963,7 @@
           "vraag": "Je zet massa (y) uit tegenover volume (x) voor één stof. Hoe ziet de grafiek eruit?",
           "opties": [
             "Een rechte door de oorsprong",
-            "Een dalende kromme",
+            "Een dalende kromme die steeds vlakker wordt",
             "Een horizontale rechte"
           ],
           "antwoord": 0,
@@ -3063,7 +3063,7 @@
           "vraag": "Je hebt twee even grote blokjes van dezelfde stof en je legt ze samen op de weegschaal. Wat verandert er?",
           "opties": [
             "Massa en volume verdubbelen, de massadichtheid niet",
-            "De massadichtheid wordt twee keer zo groot",
+            "De massadichtheid wordt twee keer zo groot, net als de massa",
             "De massadichtheid wordt de helft"
           ],
           "antwoord": 0,
@@ -3097,7 +3097,7 @@
           "vraag": "Welke energievorm heeft een fietser die snel rijdt?",
           "opties": [
             "Kinetische energie",
-            "Chemische energie",
+            "Chemische energie uit zijn spieren",
             "Kernenergie"
           ],
           "antwoord": 0,
@@ -3125,7 +3125,7 @@
           "vraag": "Welke energieomzetting gebeurt er in een lamp?",
           "opties": [
             "Elektrische energie wordt lichtenergie en warmte",
-            "Lichtenergie wordt elektrische energie",
+            "Lichtenergie wordt elektrische energie in de draad",
             "Chemische energie wordt kernenergie"
           ],
           "antwoord": 0,
@@ -3212,7 +3212,7 @@
           "opties": [
             "Aangrijpingspunt, grootte, richting en zin",
             "Massa, volume, kleur en vorm",
-            "Begin, einde, snelheid en tijd"
+            "Begin, einde, snelheid en tijd van de beweging"
           ],
           "antwoord": 0,
           "uitleg": "Je tekent een kracht als een pijl: waar ze aangrijpt, hoe lang de pijl is (de grootte), langs welke lijn ze werkt (de richting) en welke kant ze op wijst (de zin)."
@@ -3352,7 +3352,7 @@
           "vraag": "In een grafiek staat de afgelegde weg (y) tegenover de tijd (x). Wat betekent een rechte door de oorsprong?",
           "opties": [
             "Het voorwerp beweegt met een constante snelheid",
-            "Het voorwerp versnelt gelijkmatig in de tijd",
+            "Het voorwerp versnelt gelijkmatig in de loop van de tijd",
             "Het voorwerp staat stil"
           ],
           "antwoord": 0,
@@ -3423,7 +3423,7 @@
           "vraag": "Twee kinderen trekken aan een touw, allebei \\(150\\) N, maar in tegengestelde zin. Wat gebeurt er?",
           "opties": [
             "De resultante is \\(0\\) N en het touw beweegt niet",
-            "De resultante is \\(300\\) N",
+            "De resultante is \\(300\\) N, want je telt beide krachten op",
             "Het touw beweegt naar links"
           ],
           "antwoord": 0,
@@ -3440,7 +3440,7 @@
           "vraag": "Een bal die je wegtrapt, verandert van richting én gaat sneller. Wat voor uitwerking is dat?",
           "opties": [
             "Een dynamische uitwerking",
-            "Een statische uitwerking",
+            "Een statische uitwerking op de bal",
             "Geen van beide"
           ],
           "antwoord": 0,
@@ -3568,7 +3568,7 @@
           "vraag": "Waarom lees je de handleiding van een toestel voor je het gebruikt?",
           "opties": [
             "Om te weten hoe je het veilig en juist bedient",
-            "Omdat dat verplicht is bij elk examen",
+            "Omdat dat verplicht is bij elk examen en elke proef",
             "Om te weten wat het kost"
           ],
           "antwoord": 0,
@@ -3590,7 +3590,7 @@
           "vraag": "Waarmee meet je het volume van een vloeistof?",
           "opties": [
             "Met een maatcilinder",
-            "Met een meetlat",
+            "Met een meetlat of een rolmeter",
             "Met een dynamometer"
           ],
           "antwoord": 0,
@@ -3629,7 +3629,7 @@
           "vraag": "Waarmee meet je de geluidssterkte?",
           "opties": [
             "Met een geluidsmeter",
-            "Met een lichtmeter",
+            "Met een lichtmeter op een statief",
             "Met een anemometer"
           ],
           "antwoord": 0,
@@ -3651,7 +3651,7 @@
           "vraag": "Waarmee bepaal je de bodemhardheid in een biotoop?",
           "opties": [
             "Met een valpen met plastic buis",
-            "Met een weegschaal",
+            "Met een weegschaal en een schep aarde",
             "Met een lichtmeter"
           ],
           "antwoord": 0,
@@ -3668,7 +3668,7 @@
           "vraag": "Wat is de SI-eenheid van massa?",
           "opties": [
             "De kilogram",
-            "De gram",
+            "De gram, met symbool g",
             "De ton"
           ],
           "antwoord": 0,
@@ -3739,7 +3739,7 @@
           "vraag": "Welk hulpmiddel gebruik je om een cel te bekijken?",
           "opties": [
             "Een lichtmicroscoop",
-            "Een loep",
+            "Een loep met een lampje",
             "Een verrekijker"
           ],
           "antwoord": 0,
@@ -3768,7 +3768,7 @@
           "vraag": "Hoe lees je een maatcilinder correct af?",
           "opties": [
             "Met je oog op de onderkant van de holle bolling",
-            "Van bovenaf, schuin naar beneden kijkend",
+            "Van bovenaf, schuin naar beneden kijkend naar het streepje",
             "Terwijl je de cilinder schuin houdt"
           ],
           "antwoord": 0,
@@ -3887,7 +3887,7 @@
           "vraag": "Waarom schakel je een meettoestel uit als je even niet meet?",
           "opties": [
             "Om energie te sparen en de batterij te sparen",
-            "Omdat het anders verkeerd meet",
+            "Omdat het anders verkeerd meet als je het weer aanzet",
             "Omdat het dan sneller werkt"
           ],
           "antwoord": 0,
@@ -3898,7 +3898,7 @@
           "vraag": "Je werkt met levend materiaal uit een vijver. Wat doe je achteraf?",
           "opties": [
             "Je zet de diertjes terug en maakt je materiaal proper",
-            "Je giet alles in de gootsteen",
+            "Je giet alles in de gootsteen en spoelt goed na met water",
             "Je laat het staan tot volgende week"
           ],
           "antwoord": 0,
@@ -3981,7 +3981,7 @@
           "vraag": "Waarmee begint een wetenschappelijk onderzoek?",
           "opties": [
             "Met een probleemstelling en een onderzoeksvraag",
-            "Met het maken van een grafiek van je gegevens",
+            "Met het maken van een grafiek van al je gegevens",
             "Met de conclusie"
           ],
           "antwoord": 0,
@@ -3992,7 +3992,7 @@
           "vraag": "Wat is een hypothese?",
           "opties": [
             "Een verwachting die je vooraf opschrijft",
-            "Het resultaat van je metingen achteraf",
+            "Het resultaat van je metingen dat je achteraf noteert",
             "De besluitende zin van je verslag"
           ],
           "antwoord": 0,
@@ -4038,7 +4038,7 @@
           "vraag": "Wat betekent het dat een onderzoeksvraag 'enkelvoudig' moet zijn?",
           "opties": [
             "Ze gaat over één onderwerp of één probleem",
-            "Ze heeft één enkel woord als antwoord",
+            "Ze heeft één enkel woord als antwoord, zoals ja of nee",
             "Ze is kort geschreven"
           ],
           "antwoord": 0,
@@ -4066,7 +4066,7 @@
           "vraag": "Wat is een variabele in een onderzoek?",
           "opties": [
             "Iets dat kan veranderen en dat je meet of instelt",
-            "Het materiaal dat je tijdens de proef gebruikt",
+            "Het materiaal dat je tijdens de proef gebruikt, zoals een bekerglas",
             "Het besluit van je onderzoek"
           ],
           "antwoord": 0,
@@ -4077,7 +4077,7 @@
           "vraag": "Waarom houd je in een proef alle andere omstandigheden gelijk?",
           "opties": [
             "Anders weet je niet waardoor het verschil komt",
-            "Omdat de leerkracht dat nu eenmaal vraagt",
+            "Omdat de leerkracht dat nu eenmaal zo vraagt in elk verslag",
             "Omdat het sneller gaat"
           ],
           "antwoord": 0,
@@ -4088,7 +4088,7 @@
           "vraag": "Waarom herhaal je een meting verschillende keren?",
           "opties": [
             "Om toevallige fouten op te vangen",
-            "Omdat één meting altijd fout is",
+            "Omdat één meting altijd helemaal fout is",
             "Om meer bladzijden te vullen"
           ],
           "antwoord": 0,
@@ -4137,7 +4137,7 @@
           "vraag": "Wat zet je op de horizontale as van een grafiek?",
           "opties": [
             "De grootheid die je zelf instelt of laat veranderen",
-            "De grootheid die je meet tijdens de proef",
+            "De grootheid die je meet tijdens de proef, dus je resultaat",
             "Altijd de tijd"
           ],
           "antwoord": 0,
@@ -4165,7 +4165,7 @@
           "vraag": "Wat betekent 'haalbaar' bij een onderzoeksvraag?",
           "opties": [
             "Je kan het uitvoeren met de tijd die je hebt",
-            "Iedereen vindt de vraag interessant genoeg",
+            "Iedereen in de klas vindt de vraag interessant genoeg om te onderzoeken",
             "Je kent het antwoord al"
           ],
           "antwoord": 0,
@@ -4201,7 +4201,7 @@
           "opties": [
             "Welke invloed heeft de hoeveelheid water op de groei van tuinkers?",
             "Hoeveel verschillende soorten tuinkers bestaan er in de wereld?",
-            "Is tuinkers lekker?"
+            "Is tuinkers lekkerder op een boterham met kaas dan op een boterham met ei?"
           ],
           "antwoord": 0,
           "uitleg": "De eerste is open, enkelvoudig, objectief en onderzoekbaar. De tweede vraagt een mening en de derde is een opzoekvraag."
@@ -4211,7 +4211,7 @@
           "vraag": "Waarom is 'Hoeveel poten heeft een spin?' geen goede onderzoeksvraag?",
           "opties": [
             "Ze is niet onderzoekbaar: je kan het opzoeken",
-            "Ze is niet haalbaar binnen één schooljaar",
+            "Ze is niet haalbaar binnen één schooljaar of één proef",
             "Ze is niet relevant"
           ],
           "antwoord": 0,
@@ -4264,7 +4264,7 @@
           "vraag": "Een leerling besluit: 'Mijn hypothese was juist, want ik vond het logisch.' Wat schort daaraan?",
           "opties": [
             "Een conclusie moet op data steunen, niet op een gevoel",
-            "Hij had helemaal geen hypothese mogen opstellen",
+            "Hij had helemaal geen hypothese mogen opstellen voor zijn proef",
             "Een hypothese mag nooit juist zijn"
           ],
           "antwoord": 0,
@@ -4336,7 +4336,7 @@
           "vraag": "Een onderzoeker meet maar één plant en besluit dat alle planten zo groeien. Wat is er fout?",
           "opties": [
             "Eén meting is te weinig om te veralgemenen",
-            "Hij had een andere plant moeten kiezen",
+            "Hij had een andere, grotere plant moeten kiezen",
             "Hij had een grafiek moeten maken"
           ],
           "antwoord": 0,
@@ -4365,8 +4365,8 @@
           "vraag": "Je wil weten welk isolatiemateriaal een beker koffie het langst warm houdt. Wat is je meetbare variabele?",
           "opties": [
             "De temperatuur van de koffie na een bepaalde tijd",
-            "De prijs van het isolatiemateriaal in de winkel",
-            "De kleur van het materiaal"
+            "De prijs van het isolatiemateriaal in de winkel en op het internet",
+            "De kleur en de dikte van het materiaal"
           ],
           "antwoord": 0,
           "uitleg": "Je meet de temperatuur, je verandert het materiaal, en je houdt de hoeveelheid koffie, de begintemperatuur en de tijd gelijk."
@@ -4393,7 +4393,7 @@
           "vraag": "Wat is het verschil tussen een waarneming en een besluit?",
           "opties": [
             "Een waarneming is wat je meet, een besluit leid je af",
-            "Een waarneming komt na het besluit dat je trekt",
+            "Een waarneming komt pas na het besluit dat je trekt uit je proef",
             "Er is geen verschil"
           ],
           "antwoord": 0,

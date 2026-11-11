@@ -127,7 +127,7 @@ VRAGEN = [
         "vraag": "Welk van deze is géén fysisch verschijnsel?",
         "opties": [
             "Hout dat verbrandt in de kachel",
-            "Water dat kookt in een pan",
+            "Water dat kookt in een pan op het vuur",
             "IJs dat smelt in een glas",
             "Suiker die oplost in thee",
         ],

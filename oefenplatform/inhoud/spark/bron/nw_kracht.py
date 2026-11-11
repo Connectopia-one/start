@@ -20,7 +20,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke energievorm heeft een fietser die snel rijdt?",
-        opties=["Kinetische energie", "Chemische energie", "Kernenergie"],
+        opties=["Kinetische energie", "Chemische energie uit zijn spieren", "Kernenergie"],
         antwoord=0,
         uitleg="Kinetische energie of bewegingsenergie heeft alles wat beweegt. Hoe sneller en hoe zwaarder, hoe meer.",
     ),
@@ -42,7 +42,7 @@ DEEL1 = [
         vraag="Welke energieomzetting gebeurt er in een lamp?",
         opties=[
             "Elektrische energie wordt lichtenergie en warmte",
-            "Lichtenergie wordt elektrische energie",
+            "Lichtenergie wordt elektrische energie in de draad",
             "Chemische energie wordt kernenergie",
         ],
         antwoord=0,
@@ -107,7 +107,7 @@ DEEL1 = [
         opties=[
             "Aangrijpingspunt, grootte, richting en zin",
             "Massa, volume, kleur en vorm",
-            "Begin, einde, snelheid en tijd",
+            "Begin, einde, snelheid en tijd van de beweging",
         ],
         antwoord=0,
         uitleg="Je tekent een kracht als een pijl: waar ze aangrijpt, hoe lang de pijl is (de grootte), langs welke lijn ze werkt (de richting) en welke kant ze op wijst (de zin).",
@@ -204,7 +204,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="In een grafiek staat de afgelegde weg (y) tegenover de tijd (x). Wat betekent een rechte door de oorsprong?",
-        opties=["Het voorwerp beweegt met een constante snelheid", "Het voorwerp versnelt gelijkmatig in de tijd", "Het voorwerp staat stil"],
+        opties=["Het voorwerp beweegt met een constante snelheid", "Het voorwerp versnelt gelijkmatig in de loop van de tijd", "Het voorwerp staat stil"],
         antwoord=0,
         uitleg="Bij een constante snelheid komt er in elke seconde evenveel weg bij: recht evenredig, dus een rechte lijn. De steilheid van die rechte is de snelheid.",
     ),
@@ -261,7 +261,7 @@ DEEL2 = [
         vraag=r"Twee kinderen trekken aan een touw, allebei \(150\) N, maar in tegengestelde zin. Wat gebeurt er?",
         opties=[
             r"De resultante is \(0\) N en het touw beweegt niet",
-            r"De resultante is \(300\) N",
+            r"De resultante is \(300\) N, want je telt beide krachten op",
             "Het touw beweegt naar links",
         ],
         antwoord=0,
@@ -278,7 +278,7 @@ DEEL2 = [
         vraag="Een bal die je wegtrapt, verandert van richting én gaat sneller. Wat voor uitwerking is dat?",
         opties=[
             "Een dynamische uitwerking",
-            "Een statische uitwerking",
+            "Een statische uitwerking op de bal",
             "Geen van beide",
         ],
         antwoord=0,

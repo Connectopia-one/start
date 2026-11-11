@@ -67,7 +67,7 @@ VRAGEN = [
         vraag="Welke uitspraak over de maag klopt NIET?",
         opties=[
             "De maag neemt de meeste voedingsstoffen op in het bloed",
-            "De maag maakt maagsap, en dat bevat zuur",
+            "De maag maakt maagsap, en dat bevat een sterk en bijtend zuur",
             "Het maagsap doodt bacteriën uit je voedsel",
             "In de maag begint de afbraak van eiwitten",
         ],
@@ -103,7 +103,7 @@ VRAGEN = [
         vraag="Iemand wordt telkens opnieuw ziek, maar zijn wondjes stollen normaal en hij is niet sneller moe dan anderen. Welk bestanddeel van het bloed werkt het waarschijnlijkst niet goed?",
         opties=[
             "De witte bloedcellen",
-            "De rode bloedcellen",
+            "De rode bloedcellen die zuurstof vervoeren",
             "De bloedplaatjes",
             "Het plasma",
         ],

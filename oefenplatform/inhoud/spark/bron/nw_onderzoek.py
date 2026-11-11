@@ -18,14 +18,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Waarmee begint een wetenschappelijk onderzoek?",
-        opties=["Met een probleemstelling en een onderzoeksvraag", "Met het maken van een grafiek van je gegevens", "Met de conclusie"],
+        opties=["Met een probleemstelling en een onderzoeksvraag", "Met het maken van een grafiek van al je gegevens", "Met de conclusie"],
         antwoord=0,
         uitleg="Eerst baken je het probleem af en stel je een onderzoeksvraag. Pas daarna bedenk je een hypothese en een plan.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat is een hypothese?",
-        opties=["Een verwachting die je vooraf opschrijft", "Het resultaat van je metingen achteraf", "De besluitende zin van je verslag"],
+        opties=["Een verwachting die je vooraf opschrijft", "Het resultaat van je metingen dat je achteraf noteert", "De besluitende zin van je verslag"],
         antwoord=0,
         uitleg="Een hypothese is een verwacht antwoord op je onderzoeksvraag, vaak in de vorm 'als ..., dan ...'. Ze mag achteraf gerust verkeerd blijken.",
     ),
@@ -62,7 +62,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat betekent het dat een onderzoeksvraag 'enkelvoudig' moet zijn?",
-        opties=["Ze gaat over één onderwerp of één probleem", "Ze heeft één enkel woord als antwoord", "Ze is kort geschreven"],
+        opties=["Ze gaat over één onderwerp of één probleem", "Ze heeft één enkel woord als antwoord, zoals ja of nee", "Ze is kort geschreven"],
         antwoord=0,
         uitleg="Onderzoek je twee dingen tegelijk, dan weet je achteraf niet welke van de twee je resultaat verklaart. Splits zo'n vraag dus in twee.",
     ),
@@ -82,21 +82,21 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat is een variabele in een onderzoek?",
-        opties=["Iets dat kan veranderen en dat je meet of instelt", "Het materiaal dat je tijdens de proef gebruikt", "Het besluit van je onderzoek"],
+        opties=["Iets dat kan veranderen en dat je meet of instelt", "Het materiaal dat je tijdens de proef gebruikt, zoals een bekerglas", "Het besluit van je onderzoek"],
         antwoord=0,
         uitleg="Je verandert er één (bijvoorbeeld de hoeveelheid licht), je meet er één (de groei) en alle andere houd je constant.",
     ),
     dict(
         type="meerkeuze",
         vraag="Waarom houd je in een proef alle andere omstandigheden gelijk?",
-        opties=["Anders weet je niet waardoor het verschil komt", "Omdat de leerkracht dat nu eenmaal vraagt", "Omdat het sneller gaat"],
+        opties=["Anders weet je niet waardoor het verschil komt", "Omdat de leerkracht dat nu eenmaal zo vraagt in elk verslag", "Omdat het sneller gaat"],
         antwoord=0,
         uitleg="Verander je twee dingen tegelijk, dan kan je het resultaat aan geen van beide toeschrijven. Één variabele veranderen maakt je besluit geldig.",
     ),
     dict(
         type="meerkeuze",
         vraag="Waarom herhaal je een meting verschillende keren?",
-        opties=["Om toevallige fouten op te vangen", "Omdat één meting altijd fout is", "Om meer bladzijden te vullen"],
+        opties=["Om toevallige fouten op te vangen", "Omdat één meting altijd helemaal fout is", "Om meer bladzijden te vullen"],
         antwoord=0,
         uitleg="Eén meting kan toevallig afwijken. Meet je meerdere keren en neem je het gemiddelde, dan weeg je die toevalligheden weg.",
     ),
@@ -129,7 +129,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat zet je op de horizontale as van een grafiek?",
-        opties=["De grootheid die je zelf instelt of laat veranderen", "De grootheid die je meet tijdens de proef", "Altijd de tijd"],
+        opties=["De grootheid die je zelf instelt of laat veranderen", "De grootheid die je meet tijdens de proef, dus je resultaat", "Altijd de tijd"],
         antwoord=0,
         uitleg="Op de x-as staat wat je zelf regelt, op de y-as wat daarvan afhangt. Bij een beweging is dat inderdaad vaak de tijd, maar niet altijd.",
     ),
@@ -149,7 +149,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat betekent 'haalbaar' bij een onderzoeksvraag?",
-        opties=["Je kan het uitvoeren met de tijd die je hebt", "Iedereen vindt de vraag interessant genoeg", "Je kent het antwoord al"],
+        opties=["Je kan het uitvoeren met de tijd die je hebt", "Iedereen in de klas vindt de vraag interessant genoeg om te onderzoeken", "Je kent het antwoord al"],
         antwoord=0,
         uitleg="'Hoe evolueert de zeespiegel de komende honderd jaar?' is een mooie vraag, maar niet haalbaar voor een schoolonderzoek.",
     ),
@@ -176,14 +176,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke vraag is een goede onderzoeksvraag?",
-        opties=["Welke invloed heeft de hoeveelheid water op de groei van tuinkers?", "Hoeveel verschillende soorten tuinkers bestaan er in de wereld?", "Is tuinkers lekker?"],
+        opties=["Welke invloed heeft de hoeveelheid water op de groei van tuinkers?", "Hoeveel verschillende soorten tuinkers bestaan er in de wereld?", "Is tuinkers lekkerder op een boterham met kaas dan op een boterham met ei?"],
         antwoord=0,
         uitleg="De eerste is open, enkelvoudig, objectief en onderzoekbaar. De tweede vraagt een mening en de derde is een opzoekvraag.",
     ),
     dict(
         type="meerkeuze",
         vraag="Waarom is 'Hoeveel poten heeft een spin?' geen goede onderzoeksvraag?",
-        opties=["Ze is niet onderzoekbaar: je kan het opzoeken", "Ze is niet haalbaar binnen één schooljaar", "Ze is niet relevant"],
+        opties=["Ze is niet onderzoekbaar: je kan het opzoeken", "Ze is niet haalbaar binnen één schooljaar of één proef", "Ze is niet relevant"],
         antwoord=0,
         uitleg="Onderzoekbaar betekent dat je er data voor moet verzamelen. Een vraag met een bekend antwoord is een opzoekvraag.",
     ),
@@ -221,7 +221,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Een leerling besluit: 'Mijn hypothese was juist, want ik vond het logisch.' Wat schort daaraan?",
-        opties=["Een conclusie moet op data steunen, niet op een gevoel", "Hij had helemaal geen hypothese mogen opstellen", "Een hypothese mag nooit juist zijn"],
+        opties=["Een conclusie moet op data steunen, niet op een gevoel", "Hij had helemaal geen hypothese mogen opstellen voor zijn proef", "Een hypothese mag nooit juist zijn"],
         antwoord=0,
         uitleg="Wetenschap is: meten, en je besluit halen uit wat je gemeten hebt. Ook een hypothese die niet uitkomt, is een goed resultaat.",
     ),
@@ -279,7 +279,7 @@ DEEL2 = [
         vraag="Een onderzoeker meet maar één plant en besluit dat alle planten zo groeien. Wat is er fout?",
         opties=[
             "Eén meting is te weinig om te veralgemenen",
-            "Hij had een andere plant moeten kiezen",
+            "Hij had een andere, grotere plant moeten kiezen",
             "Hij had een grafiek moeten maken",
         ],
         antwoord=0,
@@ -301,7 +301,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Je wil weten welk isolatiemateriaal een beker koffie het langst warm houdt. Wat is je meetbare variabele?",
-        opties=["De temperatuur van de koffie na een bepaalde tijd", "De prijs van het isolatiemateriaal in de winkel", "De kleur van het materiaal"],
+        opties=["De temperatuur van de koffie na een bepaalde tijd", "De prijs van het isolatiemateriaal in de winkel en op het internet", "De kleur en de dikte van het materiaal"],
         antwoord=0,
         uitleg="Je meet de temperatuur, je verandert het materiaal, en je houdt de hoeveelheid koffie, de begintemperatuur en de tijd gelijk.",
     ),
@@ -321,7 +321,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Wat is het verschil tussen een waarneming en een besluit?",
-        opties=["Een waarneming is wat je meet, een besluit leid je af", "Een waarneming komt na het besluit dat je trekt", "Er is geen verschil"],
+        opties=["Een waarneming is wat je meet, een besluit leid je af", "Een waarneming komt pas na het besluit dat je trekt uit je proef", "Er is geen verschil"],
         antwoord=0,
         uitleg=r"'Het water is \(30^{\circ}\text{C}\)' is een waarneming. 'Het water koelt trager af met een deksel' is een besluit dat je uit meerdere waarnemingen haalt.",
     ),

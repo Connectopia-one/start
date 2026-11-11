@@ -500,7 +500,7 @@
           "vraag": "Welke uitspraak over de maag klopt NIET?",
           "opties": [
             "De maag neemt de meeste voedingsstoffen op in het bloed",
-            "De maag maakt maagsap, en dat bevat zuur",
+            "De maag maakt maagsap, en dat bevat een sterk en bijtend zuur",
             "Het maagsap doodt bacteriën uit je voedsel",
             "In de maag begint de afbraak van eiwitten"
           ],
@@ -536,7 +536,7 @@
           "vraag": "Iemand wordt telkens opnieuw ziek, maar zijn wondjes stollen normaal en hij is niet sneller moe dan anderen. Welk bestanddeel van het bloed werkt het waarschijnlijkst niet goed?",
           "opties": [
             "De witte bloedcellen",
-            "De rode bloedcellen",
+            "De rode bloedcellen die zuurstof vervoeren",
             "De bloedplaatjes",
             "Het plasma"
           ],
@@ -956,7 +956,7 @@
           "vraag": "Je wilt weten of de bodem op een wandelpad harder is dan de bodem in het bos ernaast. Hoe pak je dat aan?",
           "opties": [
             "Op beide plaatsen een valpen door een plastic buis laten vallen en de diepte in cm meten",
-            "Op beide plaatsen een hygrometer in de grond steken en het percentage aflezen",
+            "Op beide plaatsen een hygrometer diep in de grond steken en het percentage vocht aflezen",
             "Op beide plaatsen een anemometer op de grond leggen en de snelheid aflezen",
             "Op beide plaatsen de planten determineren met een determineertabel"
           ],
@@ -981,7 +981,7 @@
           "opties": [
             "Ze verdringt inheemse soorten, omdat ze hier geen natuurlijke vijanden heeft",
             "Ze verhardt de oever, zodat er geen enkel dier meer kan leven",
-            "Ze lokt zo veel bijen dat andere bloemen niet meer bestoven worden",
+            "Ze lokt zo veel bijen en hommels dat andere bloemen niet meer bestoven worden",
             "Ze haalt alle zuurstof uit het water, zodat de vissen stikken"
           ],
           "antwoord": 0,
@@ -1033,7 +1033,7 @@
           "vraag": "Een dier heeft allebei zijn ogen vooraan in zijn kop. Wat is het het waarschijnlijkst?",
           "opties": [
             "Een jager die de afstand tot zijn prooi moet schatten",
-            "Een prooidier dat rondom moet kunnen kijken",
+            "Een prooidier dat rondom en achter zich moet kunnen kijken",
             "Een planteneter die vooral 's nachts eet",
             "Een dier dat in de sneeuw leeft"
           ],
@@ -1111,7 +1111,7 @@
           "vraag": "Je bakt pannenkoeken. Bij welke stap gebeurt er een chemisch verschijnsel?",
           "opties": [
             "Het deeg wordt bruin in de pan en begint anders te ruiken",
-            "De boter smelt in de hete pan tot een gele vloeistof",
+            "De boter smelt in de hete pan tot een gele, dunne vloeistof",
             "De suiker lost op in de melk en is niet meer te zien",
             "Het ei breekt op de rand van de kom en loopt eruit"
           ],
@@ -1153,7 +1153,7 @@
           "vraag": "Op een koude ochtend ligt er rijp op het gras, terwijl het die nacht niet geregend heeft en er geen water op het gras lag. Hoe is die rijp ontstaan?",
           "opties": [
             "Waterdamp uit de lucht werd rechtstreeks ijs",
-            "Regenwater bevroor op de grassprieten",
+            "Regenwater van de avond bevroor op de grassprieten",
             "IJs uit de bodem sublimeerde naar boven",
             "Het gras zelf stolde door de koude"
           ],
@@ -1190,7 +1190,7 @@
           "opties": [
             "Hij krimpt, want de deeltjes bewegen trager en komen dichter bij elkaar",
             "Hij zet uit, want de deeltjes worden groter als ze afkoelen",
-            "Hij krimpt, want door de koude verdwijnt een deel van de deeltjes",
+            "Hij krimpt, want door de koude verdwijnt er langzaam een deel van de deeltjes",
             "Er gebeurt niets, want de knoop houdt alle deeltjes binnen"
           ],
           "antwoord": 0,
@@ -1748,7 +1748,7 @@
           "vraag": "Je wilt de dikte van een muntstuk zo nauwkeurig mogelijk meten. Welk instrument kies je?",
           "opties": [
             "Een schuifmaat",
-            "Een meetlat",
+            "Een meetlat met millimeterstreepjes",
             "Een rolmeter",
             "Een vouwmeter"
           ],
@@ -1860,7 +1860,7 @@
           "vraag": "Tijdens een proef valt een bekerglas kapot. Het water loopt over de tafel, tot vlak bij een elektrisch toestel dat aanstaat. Welke aanpak is correct?",
           "opties": [
             "Eerst je handen drogen voor je het toestel aanraakt, dan de scherven opruimen met borstel en blik",
-            "De scherven snel met je handen bijeenrapen en daarna het water wegvegen met je mouw",
+            "De scherven snel met je blote handen bijeenrapen en daarna het water op de tafel wegvegen met je mouw",
             "Alles laten liggen tot het einde van de les, zodat je je proef eerst kan afmaken",
             "Meteen met je natte handen het toestel uitzetten, dan is alle gevaar geweken"
           ],
@@ -1872,7 +1872,7 @@
           "vraag": "Welke handeling tijdens een labo is NIET veilig of duurzaam?",
           "opties": [
             "De bunsenbrander laten branden terwijl je even materiaal gaat halen",
-            "De gastoevoer van de bunsenbrander dichtdraaien als je klaar bent",
+            "De gastoevoer van de bunsenbrander meteen dichtdraaien als je klaar bent met de proef",
             "Een digitale thermometer uitschakelen tijdens de pauze",
             "Waterdiertjes na het onderzoek terugzetten in de vijver"
           ],
@@ -2069,7 +2069,7 @@
           "vraag": "In een tabel staan deze meetwaarden. Als x gelijk is aan \\(2\\), \\(4\\) en \\(6\\), dan is y gelijk aan \\(5\\), \\(10\\) en \\(16\\). Is het verband recht evenredig?",
           "opties": [
             "Nee, want bij x gelijk aan \\(6\\) had y \\(15\\) moeten zijn",
-            "Ja, want y wordt groter als x groter wordt",
+            "Ja, want y wordt telkens groter als x groter wordt, dus het is evenredig",
             "Ja, want y verdubbelt als x van \\(2\\) naar \\(4\\) gaat",
             "Nee, want het is omgekeerd evenredig"
           ],
@@ -2108,7 +2108,7 @@
           "vraag": "Een leerling schrijft zijn hypothese pas op nadat hij al zijn metingen gedaan heeft. Wat is daar het probleem mee?",
           "opties": [
             "Hij past zijn verwachting dan ongemerkt aan zijn resultaat aan",
-            "Zijn metingen worden daardoor minder nauwkeurig",
+            "Zijn metingen worden daardoor minder nauwkeurig en minder betrouwbaar",
             "Hij kan van zijn metingen geen grafiek meer maken",
             "Zijn onderzoeksvraag is daardoor niet meer open"
           ],

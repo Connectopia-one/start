@@ -54,7 +54,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Waar komt de zuurstof uit de lucht in je bloed terecht?",
-        opties=["In de longblaasjes", "In de luchtpijp", "In de maag"],
+        opties=["In de longblaasjes", "In de luchtpijp, via de wand", "In de maag"],
         antwoord=0,
         uitleg="De longblaasjes zijn piepkleine blaasjes met een heel dunne wand, omringd door haarvaten. Daar gaat zuurstof naar het bloed en koolstofdioxide eruit.",
     ),
@@ -63,7 +63,7 @@ DEEL1 = [
         vraag="Wat doet de strottenklep als je slikt?",
         opties=[
             "Ze sluit de luchtpijp af",
-            "Ze opent de luchtpijp",
+            "Ze opent de luchtpijp, zodat het eten erin kan",
             "Ze sluit de slokdarm af",
         ],
         antwoord=0,
@@ -312,7 +312,7 @@ DEEL2 = [
         vraag="Wat staat er onderaan, in het donkergroene deel van de actieve voedingsdriehoek?",
         opties=[
             "Water, groenten, fruit en volle granen",
-            "Vlees en vis",
+            "Vlees, vis, eieren, melk en kaas, allemaal samen",
             "Koek en frisdrank",
         ],
         antwoord=0,
@@ -346,7 +346,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welk van deze is een ademhalingsproduct?",
-        opties=["Koolstofdioxide", "Urine", "Voedselresten"],
+        opties=["Koolstofdioxide", "Urine en zweet uit de nieren", "Voedselresten"],
         antwoord=0,
         uitleg="Koolstofdioxide en waterdamp adem je uit. Urine is een uitscheidingsproduct en voedselresten zijn wat er van de vertering overblijft.",
     ),

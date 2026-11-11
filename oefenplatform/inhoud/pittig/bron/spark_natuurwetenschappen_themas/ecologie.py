@@ -81,7 +81,7 @@ VRAGEN = [
         vraag="Je wilt weten of de bodem op een wandelpad harder is dan de bodem in het bos ernaast. Hoe pak je dat aan?",
         opties=[
             "Op beide plaatsen een valpen door een plastic buis laten vallen en de diepte in cm meten",
-            "Op beide plaatsen een hygrometer in de grond steken en het percentage aflezen",
+            "Op beide plaatsen een hygrometer diep in de grond steken en het percentage vocht aflezen",
             "Op beide plaatsen een anemometer op de grond leggen en de snelheid aflezen",
             "Op beide plaatsen de planten determineren met een determineertabel",
         ],
@@ -106,7 +106,7 @@ VRAGEN = [
         opties=[
             "Ze verdringt inheemse soorten, omdat ze hier geen natuurlijke vijanden heeft",
             "Ze verhardt de oever, zodat er geen enkel dier meer kan leven",
-            "Ze lokt zo veel bijen dat andere bloemen niet meer bestoven worden",
+            "Ze lokt zo veel bijen en hommels dat andere bloemen niet meer bestoven worden",
             "Ze haalt alle zuurstof uit het water, zodat de vissen stikken",
         ],
         antwoord=0,
@@ -154,7 +154,7 @@ VRAGEN = [
         vraag="Een dier heeft allebei zijn ogen vooraan in zijn kop. Wat is het het waarschijnlijkst?",
         opties=[
             "Een jager die de afstand tot zijn prooi moet schatten",
-            "Een prooidier dat rondom moet kunnen kijken",
+            "Een prooidier dat rondom en achter zich moet kunnen kijken",
             "Een planteneter die vooral 's nachts eet",
             "Een dier dat in de sneeuw leeft",
         ],

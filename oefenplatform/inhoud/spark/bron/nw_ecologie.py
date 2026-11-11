@@ -45,7 +45,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Met welk meetinstrument meet je de temperatuur in een biotoop?",
-        opties=["Met een thermometer", "Met een anemometer", "Met een hygrometer"],
+        opties=["Met een thermometer", "Met een anemometer of een hygrometer", "Met een hygrometer"],
         antwoord=0,
         uitleg="De thermometer meet de temperatuur, de anemometer de windsnelheid en de hygrometer de luchtvochtigheid.",
     ),
@@ -72,7 +72,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welk hulpmiddel gebruik je om een klein insect van dichtbij te bekijken in het veld?",
-        opties=["Een loep of een binoculair", "Een dynamometer", "Een maatcilinder"],
+        opties=["Een loep of een binoculair", "Een dynamometer met een fijne schaal", "Een maatcilinder"],
         antwoord=0,
         uitleg="Een loep vergroot een paar keer en een binoculair toont het beestje in drie dimensies. Voor cellen heb je een lichtmicroscoop nodig.",
     ),
@@ -125,7 +125,7 @@ DEEL1 = [
         vraag="Wat betekent biodiversiteit?",
         opties=[
             "De verscheidenheid aan soorten in een gebied",
-            "Het aantal dieren van één soort",
+            "Het aantal dieren van één soort in een groot gebied",
             "De grootte van een biotoop",
         ],
         antwoord=0,

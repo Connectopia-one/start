@@ -80,7 +80,7 @@ DEEL1 = [
         vraag="Wat is bevruchting?",
         opties=[
             "Het versmelten van een zaadcel en een eicel",
-            "Het vervoeren van stuifmeel",
+            "Het vervoeren van stuifmeel door bijen en de wind",
             "Het openen van een bloem",
         ],
         antwoord=0,
@@ -121,7 +121,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Waar groeit een baby tijdens de zwangerschap?",
-        opties=["In de baarmoeder", "In de eileider", "In de eierstok"],
+        opties=["In de baarmoeder", "In de eileider, tot de geboorte", "In de eierstok"],
         antwoord=0,
         uitleg="Na de bevruchting in de eileider reist de bevruchte eicel naar de baarmoeder en nestelt zich in het baarmoederslijmvlies. Daar groeit ze uit tot embryo, foetus en baby.",
     ),
@@ -229,7 +229,7 @@ DEEL2 = [
         vraag="Waarom verdikt het baarmoederslijmvlies elke cyclus?",
         opties=[
             "Om een bevruchte eicel te kunnen opvangen",
-            "Om de eicel te laten rijpen",
+            "Om de eicel te laten rijpen voor de eisprong",
             "Om zaadcellen te maken",
         ],
         antwoord=0,
@@ -290,7 +290,7 @@ DEEL2 = [
         vraag="Hoe zorgt de anticonceptiepil ervoor dat er geen zwangerschap komt?",
         opties=[
             "De hormonen in de pil houden de eisprong tegen",
-            "De pil doodt de zaadcellen in de baarmoeder",
+            "De pil doodt de zaadcellen meteen in de baarmoeder",
             "De pil sluit de eileiders af",
         ],
         antwoord=0,
@@ -336,7 +336,7 @@ DEEL2 = [
         vraag="Waarom heeft een windbestuivende plant zoals gras geen opvallende bloemen?",
         opties=[
             "Ze moet geen insecten lokken, want de wind doet het werk",
-            "Ze heeft geen stuifmeel nodig",
+            "Ze heeft geen stuifmeel nodig, want ze maakt zaden zonder bestuiving",
             "Ze plant zich niet seksueel voort",
         ],
         antwoord=0,

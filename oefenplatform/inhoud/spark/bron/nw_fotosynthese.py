@@ -104,7 +104,7 @@ DEEL1 = [
         vraag="Waarvoor dient de stengel van een plant?",
         opties=[
             "Ze draagt de bladeren en vervoert stoffen",
-            "Ze neemt zonlicht op",
+            "Ze neemt zonlicht en water op voor de hele plant",
             "Ze maakt zaden",
         ],
         antwoord=0,
@@ -132,7 +132,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welk gas is een broeikasgas dat planten uit de lucht halen?",
-        opties=["Koolstofdioxide", "Zuurstofgas", "Waterstofgas"],
+        opties=["Koolstofdioxide", "Zuurstofgas uit de bladeren", "Waterstofgas"],
         antwoord=0,
         uitleg="Koolstofdioxide (CO₂) is een broeikasgas. Planten nemen het op bij de fotosynthese, en daarom helpen bossen tegen de klimaatverandering.",
     ),
@@ -171,7 +171,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Waar in het blad zitten de bladgroenkorrels?",
-        opties=["In de cellen van het blad", "Tussen de bladeren", "Op de wortels"],
+        opties=["In de cellen van het blad", "Tussen de bladeren, aan de buitenkant van de plant", "Op de wortels"],
         antwoord=0,
         uitleg="Bladgroenkorrels zijn celonderdelen: ze liggen in het cytoplasma van de bladcellen. Daarom moet je een microscoop gebruiken om ze te zien.",
     ),
@@ -251,8 +251,8 @@ DEEL2 = [
         vraag="Een boer zet zijn serre vol extra koolstofdioxide. Waarom?",
         opties=[
             "Omdat de planten dan meer fotosynthese doen en sneller groeien",
-            "Omdat planten koolstofdioxide inademen om energie te maken",
-            "Omdat de planten er warmer van worden",
+            "Omdat planten koolstofdioxide inademen om er hun energie mee te maken",
+            "Omdat de planten er warmer van worden en dus sneller kiemen",
         ],
         antwoord=0,
         uitleg="CO₂ is een grondstof voor de fotosynthese. Meer grondstof betekent meer glucose, dus meer groei — zolang licht en water niet tekortschieten.",
@@ -310,7 +310,7 @@ DEEL2 = [
         vraag="Twee identieke planten staan op de vensterbank. Bij één plak je alle bladeren onderaan af, zodat de huidmondjes dicht zitten. Wat verwacht je?",
         opties=[
             "Die plant groeit trager, want ze krijgt minder CO₂ binnen",
-            "Die plant groeit sneller, want ze verliest geen water",
+            "Die plant groeit sneller, want ze verliest geen water meer langs de bladeren",
             "Er verandert niets",
         ],
         antwoord=0,
@@ -327,7 +327,7 @@ DEEL2 = [
         vraag="Waarom noemen we glucose een energierijke stof?",
         opties=[
             "Omdat er bij de verbranding ervan energie vrijkomt",
-            "Omdat ze zwaar is",
+            "Omdat ze zwaar is en heel veel plaats inneemt in de cel",
             "Omdat ze licht uitstraalt",
         ],
         antwoord=0,

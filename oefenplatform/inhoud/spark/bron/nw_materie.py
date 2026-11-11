@@ -25,8 +25,8 @@ DEEL1 = [
         vraag="Hoe liggen de deeltjes in een vaste stof volgens het deeltjesmodel?",
         opties=[
             "Dicht bij elkaar, op een vaste plaats, ze trillen alleen",
-            "Ver uit elkaar en snel door elkaar",
-            "Dicht bij elkaar, maar ze schuiven vrij langs elkaar",
+            "Ver uit elkaar en snel door elkaar, zoals in een gas",
+            "Dicht bij elkaar, maar ze schuiven vrij en snel langs elkaar",
         ],
         antwoord=0,
         uitleg="In een vaste stof zitten de deeltjes op een vaste plek en trillen ze alleen. In een vloeistof schuiven ze langs elkaar, in een gas vliegen ze ver uit elkaar rond.",
@@ -40,7 +40,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Hoe heet de overgang van gasvormig naar vloeibaar?",
-        opties=["Condenseren", "Verdampen", "Sublimeren"],
+        opties=["Condenseren", "Verdampen", "Sublimeren tot ijs"],
         antwoord=0,
         uitleg="Condenseren is gas dat vloeistof wordt, zoals damp op een koude spiegel. Verdampen is net het omgekeerde.",
     ),
@@ -212,7 +212,7 @@ DEEL2 = [
         vraag="Je ziet een tekening met deeltjes: allemaal identieke bolletjes van twee aan elkaar. Wat stelt dat voor?",
         opties=[
             "Een zuivere stof die uit moleculen bestaat",
-            "Een mengsel van twee stoffen",
+            "Een mengsel van twee stoffen die samen één geheel vormen",
             "Een mengsel van atomen en moleculen",
         ],
         antwoord=0,

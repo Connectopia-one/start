@@ -105,7 +105,7 @@ VRAGEN = [
         vraag=r"In een tabel staan deze meetwaarden. Als x gelijk is aan \(2\), \(4\) en \(6\), dan is y gelijk aan \(5\), \(10\) en \(16\). Is het verband recht evenredig?",
         opties=[
             r"Nee, want bij x gelijk aan \(6\) had y \(15\) moeten zijn",
-            "Ja, want y wordt groter als x groter wordt",
+            "Ja, want y wordt telkens groter als x groter wordt, dus het is evenredig",
             r"Ja, want y verdubbelt als x van \(2\) naar \(4\) gaat",
             "Nee, want het is omgekeerd evenredig",
         ],
@@ -141,7 +141,7 @@ VRAGEN = [
         vraag="Een leerling schrijft zijn hypothese pas op nadat hij al zijn metingen gedaan heeft. Wat is daar het probleem mee?",
         opties=[
             "Hij past zijn verwachting dan ongemerkt aan zijn resultaat aan",
-            "Zijn metingen worden daardoor minder nauwkeurig",
+            "Zijn metingen worden daardoor minder nauwkeurig en minder betrouwbaar",
             "Hij kan van zijn metingen geen grafiek meer maken",
             "Zijn onderzoeksvraag is daardoor niet meer open",
         ],

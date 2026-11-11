@@ -7,7 +7,7 @@ VRAGEN = [
         vraag="Je wilt de dikte van een muntstuk zo nauwkeurig mogelijk meten. Welk instrument kies je?",
         opties=[
             "Een schuifmaat",
-            "Een meetlat",
+            "Een meetlat met millimeterstreepjes",
             "Een rolmeter",
             "Een vouwmeter",
         ],
@@ -119,7 +119,7 @@ VRAGEN = [
         vraag="Tijdens een proef valt een bekerglas kapot. Het water loopt over de tafel, tot vlak bij een elektrisch toestel dat aanstaat. Welke aanpak is correct?",
         opties=[
             "Eerst je handen drogen voor je het toestel aanraakt, dan de scherven opruimen met borstel en blik",
-            "De scherven snel met je handen bijeenrapen en daarna het water wegvegen met je mouw",
+            "De scherven snel met je blote handen bijeenrapen en daarna het water op de tafel wegvegen met je mouw",
             "Alles laten liggen tot het einde van de les, zodat je je proef eerst kan afmaken",
             "Meteen met je natte handen het toestel uitzetten, dan is alle gevaar geweken",
         ],
@@ -131,7 +131,7 @@ VRAGEN = [
         vraag="Welke handeling tijdens een labo is NIET veilig of duurzaam?",
         opties=[
             "De bunsenbrander laten branden terwijl je even materiaal gaat halen",
-            "De gastoevoer van de bunsenbrander dichtdraaien als je klaar bent",
+            "De gastoevoer van de bunsenbrander meteen dichtdraaien als je klaar bent met de proef",
             "Een digitale thermometer uitschakelen tijdens de pauze",
             "Waterdiertjes na het onderzoek terugzetten in de vijver",
         ],

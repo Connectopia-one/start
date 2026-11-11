@@ -43,7 +43,7 @@ DEEL1 = [
         opties=[
             "Een groep cellen van dezelfde soort die samen één taak doen",
             "Eén cel met een heel bijzondere vorm",
-            "Een groep organen die samenwerken",
+            "Een groep organen die samenwerken aan een grote taak in het lichaam",
         ],
         antwoord=0,
         uitleg="Cellen van dezelfde soort die samen dezelfde taak uitvoeren, vormen een weefsel. Verschillende weefsels samen vormen een orgaan.",
@@ -83,7 +83,7 @@ DEEL1 = [
         vraag="Wat doet het celmembraan?",
         opties=[
             "Het regelt wat er in en uit de cel gaat",
-            "Het maakt suikers met zonlicht",
+            "Het maakt suikers met behulp van zonlicht",
             "Het bewaart de erfelijke informatie",
         ],
         antwoord=0,
@@ -100,7 +100,7 @@ DEEL1 = [
         vraag="Waarvoor dient een vacuole in een plantencel?",
         opties=[
             "Ze slaat water en voedingsstoffen op",
-            "Ze vangt het zonlicht op",
+            "Ze vangt het zonlicht op voor de fotosynthese",
             "Ze deelt de cel in tweeën",
         ],
         antwoord=0,
@@ -117,7 +117,7 @@ DEEL1 = [
         vraag="Wat is het cytoplasma?",
         opties=[
             "De vloeistof in de cel waarin de celonderdelen liggen",
-            "De harde buitenkant van een plantencel",
+            "De harde buitenkant van een plantencel, rond het celmembraan",
             "Het onderdeel dat zonlicht opvangt",
         ],
         antwoord=0,
@@ -214,7 +214,7 @@ DEEL2 = [
         vraag="Waarom heeft een cel uit de wortel van een plant geen bladgroenkorrels?",
         opties=[
             "Omdat er in de grond geen licht komt",
-            "Omdat een wortel geen cellen heeft",
+            "Omdat een wortel geen echte cellen heeft, enkel vezels",
             "Omdat de wortel geen water opneemt",
         ],
         antwoord=0,
