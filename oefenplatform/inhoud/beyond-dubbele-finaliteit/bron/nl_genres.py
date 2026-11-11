@@ -98,7 +98,7 @@ DEEL1 = [
         vraag="Wat is kenmerkend voor een toneeltekst?",
         opties=[
             "de tekst bestaat haast volledig uit dialoog en regieaanwijzingen",
-            "de tekst wordt altijd in de verleden tijd geschreven",
+            "de tekst wordt altijd in de verleden tijd geschreven, net als een roman",
             "de tekst heeft nooit meer dan drie personages",
             "de tekst bevat per bladzijde één beschrijving",
         ],
@@ -172,7 +172,7 @@ DEEL1 = [
         vraag="Wat hoort bij het verwoorden van je leeservaring?",
         opties=[
             "zeggen wat het boek bij je losmaakte en waarom precies",
-            "de verhaallijn van het boek volledig navertellen",
+            "de verhaallijn van het boek volledig en in detail navertellen",
             "de beoordelingen van andere lezers samenvatten",
             "opzoeken welke prijzen het boek gekregen heeft",
         ],
@@ -296,7 +296,7 @@ DEEL2 = [
         vraag="Je ziet een toneelstuk en je leest daarna de toneeltekst. Wat is het grootste verschil?",
         opties=[
             "de opvoering voegt stem, beweging en decor aan de tekst toe",
-            "de tekst heeft personages die in de opvoering ontbreken",
+            "de tekst heeft personages die in de opvoering helemaal ontbreken",
             "de opvoering volgt een andere verhaallijn dan de tekst",
             "de tekst is altijd langer dan wat er gespeeld wordt",
         ],
@@ -322,7 +322,7 @@ DEEL2 = [
         vraag="Een vriend vraagt of hij een boek moet lezen. Wat is een goed antwoord?",
         opties=[
             "wat je ervan vond, en voor wie je denkt dat het werkt",
-            "hoeveel bladzijden het boek precies telt",
+            "hoeveel bladzijden het boek precies telt en hoe lang je erover doet",
             "wat de achterflap over het boek beweert",
             "welke prijzen het boek al gewonnen heeft",
         ],
@@ -352,7 +352,7 @@ DEEL2 = [
         vraag="Wat doe je als een boek je niet ligt maar je er toch over moet spreken?",
         opties=[
             "je zegt wat niet werkte voor jou, en waar dat volgens jou aan ligt",
-            "je zegt enkel dat het boek slecht geschreven is",
+            "je zegt enkel dat het boek slecht geschreven is en dat je het niet aanraadt",
             "je leest de samenvatting en spreekt daarover",
             "je spreekt over een ander boek dat je wel graag las",
         ],

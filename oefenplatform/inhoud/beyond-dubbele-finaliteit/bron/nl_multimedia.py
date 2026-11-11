@@ -38,7 +38,7 @@ DEEL1 = [
         vraag="Waarom staat er bij een grafiek altijd een onderschrift?",
         opties=[
             "om te zeggen wat de grafiek toont en waar de gegevens vandaan komen",
-            "om de theorie achter de grafiek uit te leggen",
+            "om de theorie achter de grafiek uitgebreid uit te leggen aan de lezer",
             "om de lezer te vertellen wat hij moet vinden",
             "om de grafiek langer te laten lijken dan hij is",
         ],
@@ -126,7 +126,7 @@ DEEL1 = [
         opties=[
             "een vereenvoudigde tekening die één ding aanduidt",
             "een foto met een onderschrift erbij",
-            "een woord in een vreemd alfabet",
+            "een woord in een vreemd alfabet, zoals het Grieks",
             "een grafiek met twee assen",
         ],
         antwoord=0,
@@ -157,7 +157,7 @@ DEEL1 = [
         vraag="Iemand zegt 'prima' met een strak gezicht en afgewend hoofd. Wat concludeer je?",
         opties=[
             "de woorden en de lichaamstaal spreken elkaar tegen",
-            "de persoon heeft het woord verkeerd gebruikt",
+            "de persoon heeft het woord prima gewoon verkeerd gebruikt",
             "de persoon is zijn antwoord vergeten",
             "de woorden wegen zwaarder dan de houding",
         ],
@@ -193,7 +193,7 @@ DEEL1 = [
         vraag="Een nieuwssite zet bij een bericht over armoede een foto van een lachend gezin. Wat is het probleem?",
         opties=[
             "het beeld past niet bij de inhoud van het bericht",
-            "de foto is te klein voor een nieuwssite",
+            "de foto is te klein voor een nieuwssite op een groot scherm",
             "er staat geen muziek bij het bericht",
             "het bericht heeft te veel tussenkoppen",
         ],
@@ -214,7 +214,7 @@ DEEL2 = [
         vraag="Hoe beoordeel je of beeld en tekst bij elkaar passen?",
         opties=[
             "je gaat na of het beeld de boodschap van de tekst ondersteunt",
-            "je kijkt of het beeld groter is dan de tekst",
+            "je kijkt of het beeld op de bladzijde groter is dan de tekst ernaast",
             "je telt hoeveel kleuren er in het beeld zitten",
             "je controleert of de tekst eerst geschreven werd",
         ],
@@ -257,7 +257,7 @@ DEEL2 = [
         vraag="Wat is de functie van een infographic?",
         opties=[
             "veel gegevens in één overzichtelijk beeld zetten",
-            "een tekst vervangen door een foto",
+            "een tekst helemaal vervangen door één grote foto van het onderwerp",
             "een tekst langer en uitgebreider maken",
             "de lezer naar een andere website brengen",
         ],
@@ -356,7 +356,7 @@ DEEL2 = [
         vraag="Waarom staat bij een beeld van een ander een bronvermelding?",
         opties=[
             "omdat de maker van het beeld recht heeft op zijn naam",
-            "omdat het beeld er groter van wordt",
+            "omdat het beeld er op de bladzijde groter en duidelijker van wordt",
             "omdat de lezer dan niet op het beeld klikt",
             "omdat het beeld dan beter bij de tekst past",
         ],
@@ -374,7 +374,7 @@ DEEL2 = [
         vraag="Een handleiding gebruikt genummerde tekeningen bij elke stap. Waarom werkt dat?",
         opties=[
             "de lezer ziet de stap en leest de uitleg ernaast",
-            "de tekeningen maken de handleiding korter",
+            "de tekeningen maken de handleiding korter en goedkoper",
             "de nummers vervangen de woorden volledig",
             "de tekeningen tonen hoe het fout kan gaan",
         ],

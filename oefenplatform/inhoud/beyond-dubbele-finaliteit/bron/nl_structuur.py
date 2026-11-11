@@ -13,7 +13,7 @@ DEEL1 = [
         vraag="Wat is een verwijswoord?",
         opties=[
             "een woord dat naar iets eerder in de tekst verwijst",
-            "een woord dat een nieuw onderwerp aankondigt",
+            "een woord dat een nieuw onderwerp in de tekst aankondigt",
             "een woord dat een verband tussen alinea's noemt",
             "een woord dat de lezer rechtstreeks aanspreekt",
         ],
@@ -25,7 +25,7 @@ DEEL1 = [
         vraag="Waarom gebruikt een schrijver verwijswoorden?",
         opties=[
             "om niet telkens hetzelfde woord te moeten herhalen",
-            "om de tekst moeilijker te maken voor de lezer",
+            "om de tekst moeilijker en langer te maken voor de lezer",
             "om de spelling van de tekst te vereenvoudigen",
             "om het aantal woorden van de tekst te verhogen",
         ],
@@ -98,7 +98,7 @@ DEEL1 = [
         vraag="Waarom let je bij lezen op verwijswoorden?",
         opties=[
             "omdat je anders de draad van de tekst verliest",
-            "omdat ze altijd fout gespeld worden",
+            "omdat ze in teksten altijd fout gespeld worden",
             "omdat ze het onderwerp van de tekst geven",
             "omdat ze de bronnen van de tekst noemen",
         ],
@@ -148,7 +148,7 @@ DEEL1 = [
         vraag="Wat doe je als een verwijswoord in een moeilijke tekst onduidelijk is?",
         opties=[
             "je zoekt het laatst genoemde woord dat past in getal en geslacht",
-            "je kiest het woord dat het dichtst bij staat, altijd",
+            "je kiest altijd het woord dat het dichtst bij het verwijswoord staat",
             "je slaat de zin over en leest verder",
             "je neemt het onderwerp van de hele tekst",
         ],
@@ -196,7 +196,7 @@ DEEL1 = [
         vraag="Waarom zijn verwijswoorden lastig in een tekst met veel personen?",
         opties=[
             "omdat meer kandidaten in getal en geslacht passen",
-            "omdat je ze dan niet meer mag gebruiken",
+            "omdat je ze dan volgens de regels niet meer mag gebruiken",
             "omdat ze dan langer worden dan de namen",
             "omdat ze dan hun betekenis verliezen",
         ],
@@ -328,7 +328,7 @@ DEEL2 = [
         vraag="Waarom zijn structuuraanduiders twee keer belangrijk voor je?",
         opties=[
             "omdat je ze bij het lezen gebruikt en bij het schrijven toepast",
-            "omdat ze in elke tekst precies twee keer voorkomen",
+            "omdat ze in elke tekst precies twee keer voorkomen, aan het begin en het einde",
             "omdat ze enkel in luisterteksten en in gesprekken voorkomen",
             "omdat ze bij literatuur een heel andere naam krijgen",
         ],
@@ -346,7 +346,7 @@ DEEL2 = [
         vraag="Een tekst staat vol met 'enerzijds' en 'anderzijds'. Wat verwacht je?",
         opties=[
             "een vergelijking of een afweging van twee kanten",
-            "een verhaal in chronologische volgorde",
+            "een verhaal in chronologische volgorde, van begin tot eind",
             "een instructie in stappen",
             "een opsomming van voorbeelden",
         ],
@@ -395,7 +395,7 @@ DEEL2 = [
         vraag="Waarom is 'echter' een nuttig woord om op te letten in een opiniestuk?",
         opties=[
             "omdat het aankondigt dat de schrijver nu iets tegenspreekt",
-            "omdat het altijd het begin van het besluit markeert",
+            "omdat het altijd het begin van het besluit van de tekst markeert",
             "omdat het altijd aan het begin van een alinea staat",
             "omdat het aangeeft dat een feit volgt",
         ],

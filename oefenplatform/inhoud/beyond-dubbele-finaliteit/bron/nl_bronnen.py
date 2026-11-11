@@ -14,7 +14,7 @@ DEEL1 = [
         vraag="Waarom kijk je bij een tekst eerst of de auteur vermeld wordt?",
         opties=[
             "omdat je anders niet weet wie voor de inhoud verantwoordelijk is",
-            "omdat een tekst zonder auteur altijd verzonnen is",
+            "omdat een tekst zonder auteur altijd verzonnen is door een computer",
             "omdat je de auteur dan kan aanschrijven",
             "omdat elke tekst wettelijk een auteur moet noemen",
         ],
@@ -26,7 +26,7 @@ DEEL1 = [
         vraag="Wat betekent het criterium 'wie publiceert het artikel'?",
         opties=[
             "welke organisatie of site de tekst naar buiten brengt",
-            "wie de tekst als eerste op sociale media deelde",
+            "wie de tekst als eerste op sociale media deelde of doorstuurde",
             "welke journalist het stuk geschreven heeft",
             "hoeveel mensen de tekst al gelezen hebben",
         ],
@@ -92,7 +92,7 @@ DEEL1 = [
         vraag="Wat is het verschil tussen reclame en propaganda?",
         opties=[
             "reclame wil je iets laten kopen, propaganda iets laten denken",
-            "reclame is altijd eerlijk, propaganda altijd gelogen",
+            "reclame is altijd eerlijk en propaganda is altijd van begin tot eind gelogen",
             "reclame staat op televisie, propaganda in de krant",
             "er is geen verschil, het zijn twee woorden voor hetzelfde",
         ],
@@ -149,7 +149,7 @@ DEEL1 = [
         vraag="Wat doe je als een bericht alleen op sociale media opduikt en nergens anders?",
         opties=[
             "je zoekt eerst of een onafhankelijke bron het ook meldt",
-            "je deelt het en wacht op reacties van anderen",
+            "je deelt het meteen en wacht op de reacties van anderen",
             "je besluit meteen dat het verzonnen is",
             "je neemt het over, want nieuws is daar sneller",
         ],
@@ -207,7 +207,7 @@ DEEL2 = [
         vraag="Een bericht zegt: 'Wetenschappers bewijzen dat chocolade slank maakt.' Wat valt je als eerste op?",
         opties=[
             "er wordt niet gezegd welke wetenschappers of welk onderzoek",
-            "chocolade kan nooit met onderzoek verbonden worden",
+            "chocolade kan nooit met wetenschappelijk onderzoek verbonden worden",
             "de zin is te kort om een bericht te zijn",
             "het woord bewijzen bestaat niet in de wetenschap",
         ],
@@ -231,7 +231,7 @@ DEEL2 = [
         vraag="Een folder van een bank legt uit hoe sparen werkt. Is dat bruikbaar?",
         opties=[
             "ja, voor de uitleg, met in gedachten dat de bank wil verkopen",
-            "neen, een bank mag je nooit als bron gebruiken",
+            "neen, een bank mag je nooit als bron gebruiken in een schooltaak",
             "ja, zonder voorbehoud, want een bank kent het onderwerp",
             "neen, een folder van een bedrijf kan nooit een bron zijn",
         ],
@@ -330,7 +330,7 @@ DEEL2 = [
         vraag="Een reclamespot gebruikt een man in een witte jas die het product aanraadt. Welke techniek is dat?",
         opties=[
             "een beroep op gezag dat hier niet bewezen is",
-            "een vorm van framing door de datum",
+            "een vorm van framing door de datum waarop de spot uitgezonden wordt",
             "een drogreden op basis van cijfers",
             "een narratieve tekststructuur",
         ],
@@ -360,7 +360,7 @@ DEEL2 = [
         vraag="Wat is de beste manier om een opvallende bewering te controleren?",
         opties=[
             "de oorspronkelijke bron van de bewering opzoeken",
-            "kijken hoeveel mensen het bericht deelden",
+            "kijken hoeveel mensen het bericht al gedeeld en geliket hebben",
             "de reacties onder het bericht doorlezen",
             "wachten tot iemand het tegenspreekt",
         ],

@@ -151,7 +151,7 @@ DEEL1 = [
         vraag="Wat doet een betrekkelijk voornaamwoord in een zin?",
         opties=[
             "het begint een bijzin die bij een eerder woord hoort",
-            "het geeft aan wie iets bezit in de zin",
+            "het geeft aan wie iets bezit in de zin, zoals mijn of jouw",
             "het wijst een persoon of zaak aan in de zin",
             "het verbindt twee hoofdzinnen met elkaar",
         ],
@@ -292,7 +292,7 @@ DEEL2 = [
         vraag="Hoe onderscheid je een bijvoeglijk naamwoord van een bijwoord?",
         opties=[
             "je kijkt waar het bij hoort: bij een naamwoord of bij een werkwoord",
-            "je kijkt of het woord op een e eindigt in de zin",
+            "je kijkt of het woord op een e eindigt in de zin of in het woordenboek",
             "je kijkt of het woord voor of achter het lidwoord staat",
             "je kijkt of het woord met een hoofdletter geschreven is",
         ],

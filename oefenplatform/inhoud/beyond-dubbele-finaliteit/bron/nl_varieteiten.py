@@ -55,7 +55,7 @@ DEEL1 = [
         vraag="Wat is een register in taalgebruik?",
         opties=[
             "de toon en woordkeuze die bij een situatie passen",
-            "de lijst met woorden achteraan in een boek",
+            "de lijst met moeilijke woorden achteraan in een boek",
             "de volgorde waarin je je argumenten brengt",
             "de spelling die in een bepaald land geldt",
         ],
@@ -124,7 +124,7 @@ DEEL1 = [
         vraag="Wat is het verschil tussen u en jij?",
         opties=[
             "u houdt afstand, jij veronderstelt nabijheid",
-            "u is correcter Nederlands dan jij",
+            "u is correcter en mooier Nederlands dan jij in elke situatie",
             "u wordt alleen in Nederland gebruikt",
             "u hoort enkel in gesproken taal thuis",
         ],
@@ -136,7 +136,7 @@ DEEL1 = [
         vraag="Wat betekent code switching in een gesprek?",
         opties=[
             "wisselen van taalvariant of taal binnen één gesprek",
-            "een woord uitleggen dat de ander niet kent",
+            "een woord uitleggen dat de ander in het gesprek niet kent",
             "een gesprek afbreken en later hervatten",
             "een boodschap in geheimschrift doorgeven",
         ],
@@ -192,7 +192,7 @@ DEEL1 = [
         vraag="Wat is jargon?",
         opties=[
             "de vaktaal van een bepaalde beroepsgroep",
-            "de taal van jongeren onderling",
+            "de taal die jongeren onderling spreken op straat",
             "de taal van een bepaalde streek",
             "de taal van officiele documenten",
         ],
@@ -256,7 +256,7 @@ DEEL2 = [
         vraag="Je spreekt op een vergadering met mensen die je niet kent. Hoe begin je?",
         opties=[
             "in standaardtaal, en je stemt af op wat de anderen doen",
-            "in tussentaal, want dat spreekt iedereen toch",
+            "in tussentaal, want dat spreekt iedereen toch al in Vlaanderen",
             "in dialect, zodat je natuurlijk overkomt",
             "in jargon, zodat je vakkennis meteen blijkt",
         ],
@@ -312,7 +312,7 @@ DEEL2 = [
         vraag="Waarom gebruiken mensen soms bewust dialect in een gesprek?",
         opties=[
             "om te laten zien dat ze bij dezelfde groep horen",
-            "om de standaardtaal niet te hoeven gebruiken",
+            "om de standaardtaal niet te hoeven gebruiken als ze die niet goed kennen",
             "om sneller te kunnen spreken dan anders",
             "om hun boodschap korter te kunnen maken",
         ],

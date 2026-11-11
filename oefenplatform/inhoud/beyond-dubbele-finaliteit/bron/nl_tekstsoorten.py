@@ -12,7 +12,7 @@ DEEL1 = [
         vraag="Wat is een informatieve tekst?",
         opties=[
             "een tekst die je informatie geeft over een onderwerp",
-            "een tekst die je van iets probeert te overtuigen",
+            "een tekst die je van iets probeert te overtuigen met argumenten",
             "een tekst waarin iemand zijn mening geeft",
             "een tekst die je stap voor stap iets laat doen",
         ],
@@ -24,7 +24,7 @@ DEEL1 = [
         vraag="Wat is een persuasieve tekst?",
         opties=[
             "een tekst die je probeert te overtuigen of te beïnvloeden",
-            "een tekst die enkel feiten over een onderwerp geeft",
+            "een tekst die enkel feiten over een onderwerp geeft, zonder mening",
             "een tekst die een verhaal van begin tot einde vertelt",
             "een tekst die uitlegt hoe een toestel werkt",
         ],
@@ -36,7 +36,7 @@ DEEL1 = [
         vraag="Wat is een opiniërende tekst?",
         opties=[
             "een tekst waarin iemand zijn mening geeft",
-            "een tekst die je instructies geeft",
+            "een tekst die je instructies geeft over hoe je iets doet",
             "een tekst die een verhaal vertelt",
             "een tekst die enkel cijfers meedeelt",
         ],
@@ -60,7 +60,7 @@ DEEL1 = [
         vraag="Wat is een prescriptieve tekst?",
         opties=[
             "een tekst die je instructies geeft over hoe je iets doet",
-            "een tekst die je overhaalt om iets te kopen",
+            "een tekst die je met mooie beloftes overhaalt om iets te kopen",
             "een tekst waarin iemand een verhaal vertelt",
             "een tekst die een mening over een boek geeft",
         ],
@@ -72,7 +72,7 @@ DEEL1 = [
         vraag="Wat is een narratieve tekst?",
         opties=[
             "een tekst waarin een verhaal verteld wordt",
-            "een tekst met enkel feiten en cijfers",
+            "een tekst met enkel feiten en cijfers over een onderwerp",
             "een tekst die een standpunt verdedigt",
             "een tekst die je iets leert gebruiken",
         ],
@@ -84,7 +84,7 @@ DEEL1 = [
         vraag="Wat is een literaire tekst?",
         opties=[
             "een tekst met een esthetische waarde, die inspeelt op emoties",
-            "een tekst die enkel in een boek mag staan",
+            "een tekst die enkel in een gedrukt boek van een uitgeverij mag verschijnen",
             "een tekst van meer dan honderd bladzijden",
             "een tekst die al meer dan vijftig jaar oud is",
         ],
@@ -289,7 +289,7 @@ DEEL2 = [
         vraag="Waarom zou een schrijver de vorm van een informatieve tekst gebruiken voor een persuasieve boodschap?",
         opties=[
             "omdat een neutraal uitziende tekst meer vertrouwen krijgt",
-            "omdat informatieve teksten korter mogen zijn",
+            "omdat informatieve teksten korter mogen zijn dan reclameteksten",
             "omdat reclame wettelijk verboden is",
             "omdat een verhaal moeilijker te schrijven is",
         ],
@@ -321,7 +321,7 @@ DEEL2 = [
         vraag="Een gedicht vertelt het verhaal van een schipbreuk. Wat is er aan de hand?",
         opties=[
             "de tekst is tegelijk literair en narratief",
-            "de tekst is geen gedicht meer",
+            "de tekst is daardoor geen echt gedicht meer, maar een verhaal",
             "de tekst is een prescriptieve tekst",
             "de tekst hoort tot geen enkele soort",
         ],
@@ -339,7 +339,7 @@ DEEL2 = [
         vraag="Een folder van een politieke partij zet in grote letters: 'Genoeg is genoeg.' Hoe lees je dat?",
         opties=[
             "als een persuasieve kreet die een gevoel moet oproepen",
-            "als een neutrale vaststelling over de toestand",
+            "als een neutrale vaststelling over de toestand in het land",
             "als een instructie die je moet uitvoeren",
             "als een literair beeld zonder bedoeling",
         ],
@@ -363,7 +363,7 @@ DEEL2 = [
         vraag="Welke vraag helpt je het best om de soort van een tekst te bepalen?",
         opties=[
             "wat wil de zender met deze tekst bereiken?",
-            "hoeveel woorden bevat deze tekst?",
+            "hoeveel woorden en alinea's bevat deze tekst?",
             "in welk jaar is deze tekst geschreven?",
             "staan er afbeeldingen bij deze tekst?",
         ],
@@ -394,7 +394,7 @@ DEEL2 = [
         vraag="Een videoblogger vertelt wat hem die dag overkwam en raadt dan een merk aan. Wat is er gebeurd?",
         opties=[
             "de tekst verschuift van narratief naar persuasief",
-            "de tekst blijft van begin tot einde narratief",
+            "de tekst blijft van begin tot einde gewoon narratief",
             "de tekst is een prescriptieve tekst geworden",
             "de tekst hoort tot geen van de zeven soorten",
         ],

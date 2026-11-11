@@ -13,7 +13,7 @@ DEEL1 = [
         vraag="Wat is de persoonsvorm in een zin?",
         opties=[
             "het werkwoord dat verandert met het onderwerp",
-            "het werkwoord dat achteraan de zin staat",
+            "het werkwoord dat altijd achteraan de zin staat",
             "het eerste woord van de hele zin",
             "het woord dat de handeling ondergaat",
         ],
@@ -97,7 +97,7 @@ DEEL1 = [
         vraag="Wat is een naamwoordelijk gezegde?",
         opties=[
             "een gezegde met een koppelwerkwoord en een naamwoord erbij",
-            "een gezegde dat uit twee werkwoorden bestaat",
+            "een gezegde dat uit twee werkwoorden en een hulpwerkwoord bestaat",
             "een gezegde dat achteraan de bijzin staat",
             "een gezegde zonder onderwerp in de zin",
         ],
@@ -151,7 +151,7 @@ DEEL1 = [
         vraag="Wat is er mis met 'door de regen werd de wedstrijd afgelast, waardoor wij teleurgesteld waren en niemand kwam'?",
         opties=[
             "de zin rijgt te veel delen aan elkaar en wordt onduidelijk",
-            "de zin bevat geen enkele persoonsvorm",
+            "de zin bevat geen enkele persoonsvorm in de hoofdzin of de bijzin",
             "de zin heeft geen onderwerp in de hoofdzin",
             "de zin gebruikt een verkeerd voegwoord",
         ],
@@ -169,7 +169,7 @@ DEEL1 = [
         vraag="Wat is een tangconstructie?",
         opties=[
             "twee woorden die bij elkaar horen staan te ver van elkaar",
-            "twee hoofdzinnen die zonder voegwoord verbonden zijn",
+            "twee hoofdzinnen die zonder voegwoord of leesteken verbonden zijn",
             "twee bijzinnen die in elkaar geschoven zijn",
             "twee werkwoorden die achteraan de zin staan",
         ],
@@ -316,7 +316,7 @@ DEEL2 = [
         vraag="Wat is er mis met 'de brief die ik gisteren kreeg, en waarin stond dat ik moest komen, lag nog op tafel'?",
         opties=[
             "de twee bijzinnen tussen onderwerp en persoonsvorm maken de zin zwaar",
-            "de zin bevat geen lijdend voorwerp",
+            "de zin heeft twee onderwerpen die elkaar tegenspreken en dus niet kloppen samen",
             "de zin heeft twee onderwerpen die elkaar tegenspreken",
             "de zin gebruikt twee keer een verkeerd betrekkelijk voornaamwoord",
         ],

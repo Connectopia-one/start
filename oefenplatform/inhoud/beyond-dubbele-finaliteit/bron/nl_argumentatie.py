@@ -25,7 +25,7 @@ DEEL1 = [
         vraag="Wat is een mening?",
         opties=[
             "een uitspraak die een standpunt of waardering bevat",
-            "een uitspraak die altijd onjuist is",
+            "een uitspraak die altijd onjuist is, wat je ook doet",
             "een uitspraak die niemand kan begrijpen",
             "een uitspraak zonder enig argument",
         ],
@@ -37,7 +37,7 @@ DEEL1 = [
         vraag="Wat is een stelling in een argumentatieve tekst?",
         opties=[
             "de bewering die de schrijver wil verdedigen",
-            "het eerste argument van de schrijver",
+            "het eerste argument dat de schrijver in de tekst geeft",
             "het besluit dat de lezer zelf trekt",
             "de vraag waarmee de tekst begint",
         ],
@@ -137,7 +137,7 @@ DEEL1 = [
         vraag="'Negen op de tien tandartsen raden dit aan.' Welke soort argumentatie is dat?",
         opties=[
             "een beroep op een autoriteit, met een cijfer erbij",
-            "argumentatie op basis van een vergelijking",
+            "argumentatie op basis van een vergelijking met andere merken",
             "argumentatie op basis van oorzaak en gevolg",
             "een tweezijdige argumentatie",
         ],
@@ -191,7 +191,7 @@ DEEL1 = [
         vraag="Wat is het verschil tussen een stelling en een standpunt?",
         opties=[
             "een stelling is de bewering, een standpunt de kant die je kiest",
-            "een stelling is korter dan een standpunt",
+            "een stelling is korter dan een standpunt en staat altijd in de titel",
             "een stelling staat vooraan, een standpunt achteraan",
             "er is geen verschil, het zijn twee woorden voor hetzelfde",
         ],
@@ -297,7 +297,7 @@ DEEL2 = [
         vraag="Een opiniestuk eindigt met: 'Daarom moet de stad de fietspaden verbreden.' Wat is dat?",
         opties=[
             "de conclusie van het betoog",
-            "een tegenargument",
+            "een tegenargument van de tegenpartij",
             "een feit over de stad",
             "een drogreden",
         ],
@@ -365,7 +365,7 @@ DEEL2 = [
         vraag="Een reclametekst zegt: 'Tachtig procent van de gebruikers is tevreden.' Welke vraag stel je?",
         opties=[
             "hoeveel gebruikers werden er bevraagd, en door wie?",
-            "waarom is het geen honderd procent?",
+            "waarom is het geen honderd procent, als het product zo goed is?",
             "staat dat cijfer ook in andere reclame?",
             "hoe lang bestaat het product al?",
         ],

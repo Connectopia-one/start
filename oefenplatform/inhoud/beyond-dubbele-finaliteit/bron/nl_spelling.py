@@ -328,7 +328,7 @@ DEEL2 = [
         vraag="Wat is het verschil tussen 'haar' in 'haar boek' en 'haar' in 'ik geef haar het boek'?",
         opties=[
             "het eerste is een bezittelijk voornaamwoord, het tweede een persoonlijk",
-            "het eerste is een lidwoord, het tweede een onbepaald voornaamwoord",
+            "het eerste is een lidwoord, het tweede een onbepaald voornaamwoord in de zin",
             "het eerste hoort bij de persoon, het tweede bij het boek",
             "er is geen verschil, het is twee keer hetzelfde woord",
         ],

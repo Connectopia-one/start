@@ -55,7 +55,7 @@ DEEL1 = [
         vraag="Wat is externe ruis?",
         opties=[
             "een storing buiten de ontvanger, zoals lawaai of een slechte verbinding",
-            "een storing in de ontvanger, zoals moeheid of een vooroordeel",
+            "een storing in de ontvanger, zoals moeheid, honger, verveling of een vooroordeel",
             "een boodschap die je bewust verdraait",
             "een kanaal dat je niet kan gebruiken",
         ],
@@ -67,7 +67,7 @@ DEEL1 = [
         vraag="Wat is interne ruis?",
         opties=[
             "een storing in de ontvanger zelf, zoals moeheid of een vooroordeel",
-            "een storing buiten de ontvanger, zoals lawaai op straat",
+            "een storing buiten de ontvanger, zoals lawaai op straat of een slechte lijn",
             "een fout in de spelling van de boodschap",
             "een verkeerd gekozen kanaal van de zender",
         ],
@@ -272,7 +272,7 @@ DEEL2 = [
         vraag="Een gemeente plakt affiches over een wegomlegging. Wat is het doel?",
         opties=[
             "de bewoners informeren zodat ze hun weg aanpassen",
-            "de bewoners van iets overtuigen",
+            "de bewoners van iets overtuigen waar ze eerst tegen waren",
             "de bewoners vermaken",
             "de bewoners iets verkopen",
         ],
@@ -290,7 +290,7 @@ DEEL2 = [
         vraag="Waarom lees je een tekst anders als je weet dat de zender een belang heeft?",
         opties=[
             "omdat je dan nagaat wat hij misschien niet vertelt",
-            "omdat elke zender met een belang liegt",
+            "omdat elke zender met een belang altijd liegt over alles",
             "omdat je de tekst dan niet meer mag gebruiken",
             "omdat je de tekst dan sneller mag lezen",
         ],
@@ -308,7 +308,7 @@ DEEL2 = [
         vraag="Een mail met een lange, boze alinea in hoofdletters komt aan als een schreeuw. Wat is er gebeurd?",
         opties=[
             "de vorm heeft het effect veranderd",
-            "het kanaal is verkeerd gekozen",
+            "het kanaal is verkeerd gekozen voor dit bericht",
             "de zender is onbekend geworden",
             "de context is weggevallen",
         ],
@@ -340,7 +340,7 @@ DEEL2 = [
         vraag="Een bedrijf kiest voor een korte video in plaats van een brief. Wat verandert er vooral?",
         opties=[
             "het kanaal, en daarmee de aandacht die het bericht krijgt",
-            "het doel, dat nu automatisch vermaken wordt",
+            "het doel, dat nu automatisch vermaken wordt in plaats van informeren",
             "de ontvanger, die nu iemand anders is",
             "de boodschap, die nu niet meer bestaat",
         ],
@@ -394,7 +394,7 @@ DEEL2 = [
         vraag="Waarom staat het effect apart van het doel in het model?",
         opties=[
             "omdat het doel bij de zender hoort en het effect bij de ontvanger",
-            "omdat het doel later komt dan het effect",
+            "omdat het doel altijd pas later komt dan het effect bij de ontvanger",
             "omdat enkel het effect gemeten kan worden",
             "omdat het doel enkel bij reclame bestaat",
         ],

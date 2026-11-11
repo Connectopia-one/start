@@ -55,7 +55,7 @@ DEEL1 = [
         vraag="Wat is het verschil tussen het onderwerp en het thema van een boek?",
         opties=[
             "het onderwerp is waarover het gaat, het thema wat de schrijver erover zegt",
-            "het onderwerp staat in de titel, het thema op de achterflap",
+            "het onderwerp staat in de titel, het thema staat op de achterflap van het boek",
             "het onderwerp is korter op te schrijven dan het thema",
             "er is geen verschil, het zijn twee namen voor hetzelfde gegeven",
         ],
@@ -154,7 +154,7 @@ DEEL1 = [
         vraag="Een boek opent met een storm die het dorp bedreigt. Wat doet die opening?",
         opties=[
             "ze zet meteen een dreiging neer die het verhaal draagt",
-            "ze legt uit waar het dorp precies ligt",
+            "ze legt uit waar het dorp precies op de kaart van het land ligt",
             "ze bewijst dat het verhaal waargebeurd is",
             "ze geeft het thema van het boek al weg",
         ],
@@ -190,7 +190,7 @@ DEEL1 = [
         vraag="Waarom zou een schrijver de spanning eerst laten dalen voor het slot?",
         opties=[
             "om de laatste wending harder te laten aankomen",
-            "om de lezer te laten stoppen met lezen",
+            "om de lezer te laten stoppen met lezen voor het slot",
             "om bladzijden te kunnen uitsparen",
             "om een nieuw personage te kunnen invoeren",
         ],
@@ -370,7 +370,7 @@ DEEL2 = [
         vraag="Wat betekent het als een verhaal in de tegenwoordige tijd staat?",
         opties=[
             "de gebeurtenissen lijken zich nu voor je ogen af te spelen",
-            "het verhaal speelt zich af in het jaar van de uitgave",
+            "het verhaal speelt zich af in het jaar waarin het boek uitgegeven werd",
             "de verteller is noodzakelijk een ik-verteller",
             "er kan dan geen terugblik in het boek staan",
         ],

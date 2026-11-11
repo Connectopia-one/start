@@ -13,7 +13,7 @@ DEEL1 = [
         vraag="Wat is een samenstelling?",
         opties=[
             "een woord dat uit twee of meer zelfstandige woorden bestaat",
-            "een woord waaraan een voorvoegsel is toegevoegd",
+            "een woord waaraan een voorvoegsel zoals be- of ver- is toegevoegd",
             "een woord dat uit een andere taal overgenomen is",
             "een woord dat in het meervoud van vorm verandert",
         ],
@@ -25,7 +25,7 @@ DEEL1 = [
         vraag="Wat is een afleiding?",
         opties=[
             "een woord met een voorvoegsel of een achtervoegsel erbij",
-            "een woord dat uit twee zelfstandige woorden bestaat",
+            "een woord dat uit twee zelfstandige woorden aan elkaar bestaat",
             "een woord dat in de verleden tijd staat",
             "een woord met een trema of een accent erin",
         ],
@@ -67,7 +67,7 @@ DEEL1 = [
         vraag="Wat doet het achtervoegsel 'baar' met een woord?",
         opties=[
             "het maakt er een bijvoeglijk naamwoord van",
-            "het maakt er een meervoud van",
+            "het maakt er een meervoud van, zoals bij -en",
             "het maakt er een werkwoord van",
             "het maakt er een verkleinwoord van",
         ],
@@ -139,7 +139,7 @@ DEEL1 = [
         vraag="Wat drukt de voltooid tegenwoordige tijd uit?",
         opties=[
             "iets dat afgelopen is en nu nog gevolgen heeft",
-            "iets dat nu bezig is te gebeuren",
+            "iets dat nu op dit moment bezig is te gebeuren",
             "iets dat in de toekomst zal gebeuren",
             "iets dat nooit heeft plaatsgevonden",
         ],
@@ -214,7 +214,7 @@ DEEL2 = [
         vraag="Wat doet het achtervoegsel 'heid'?",
         opties=[
             "het maakt van een eigenschap een zelfstandig naamwoord",
-            "het maakt van een naamwoord een werkwoord",
+            "het maakt van een naamwoord een werkwoord dat je kan vervoegen",
             "het maakt van een woord een verkleinwoord",
             "het maakt van een woord een meervoud",
         ],
@@ -298,7 +298,7 @@ DEEL2 = [
         vraag="Waarvoor gebruik je de voltooid verleden tijd?",
         opties=[
             "voor iets dat gebeurde vóór een ander moment in het verleden",
-            "voor iets dat in de toekomst afgelopen zal zijn",
+            "voor iets dat pas later in de toekomst helemaal afgelopen zal zijn",
             "voor iets dat nu nog aan het gebeuren is",
             "voor iets dat elke dag opnieuw gebeurt",
         ],
@@ -316,7 +316,7 @@ DEEL2 = [
         vraag="Wat is een sterk werkwoord?",
         opties=[
             "een werkwoord waarvan de klinker verandert in de verleden tijd",
-            "een werkwoord dat een krachtige handeling uitdrukt",
+            "een werkwoord dat een krachtige of snelle handeling uitdrukt, zoals slaan",
             "een werkwoord dat altijd met zijn vervoegd wordt",
             "een werkwoord dat geen deelwoord kan vormen",
         ],

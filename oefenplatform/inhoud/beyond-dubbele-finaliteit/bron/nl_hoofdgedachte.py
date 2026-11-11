@@ -61,7 +61,7 @@ DEEL1 = [
         vraag="Een tekst gaat over videogames. Welke van deze formuleringen is een hoofdgedachte en geen onderwerp?",
         opties=[
             "dit spel is een van de slechtste van het jaar",
-            "de nieuwste videogames van deze zomer",
+            "de nieuwste en populairste videogames van deze zomer",
             "videogames en hun makers in Vlaanderen",
             "het genre van de hedendaagse videogames",
         ],
@@ -205,7 +205,7 @@ DEEL2 = [
         vraag="Wat betekent 'relevante informatie selecteren'?",
         opties=[
             "uit de tekst halen wat je voor je opdracht nodig hebt",
-            "alles overschrijven wat in de tekst staat",
+            "alles overschrijven wat in de tekst staat, woord voor woord",
             "enkel de cijfers en de namen noteren",
             "de tekst in je eigen woorden navertellen",
         ],
@@ -364,7 +364,7 @@ DEEL2 = [
         vraag="Waarvoor gebruik je je notities achteraf?",
         opties=[
             "om een samenvatting te maken of een vraag te beantwoorden",
-            "om te bewijzen dat je de tekst gelezen hebt",
+            "om aan de leerkracht te bewijzen dat je de tekst gelezen hebt",
             "om de tekst letterlijk te kunnen herhalen",
             "om de schrijver van de tekst te beoordelen",
         ],

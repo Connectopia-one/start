@@ -36,7 +36,7 @@ DEEL1 = [
         vraag="Wat is skimmen?",
         opties=[
             "snel door een tekst gaan om te weten waarover hij gaat",
-            "een tekst twee keer helemaal lezen",
+            "een tekst twee keer helemaal en heel aandachtig van begin tot einde lezen",
             "alleen de moeilijke alinea's lezen",
             "een tekst voorlezen aan iemand anders",
         ],
@@ -66,7 +66,7 @@ DEEL1 = [
         vraag="Welke strategie past bij een tekst die je op een toets moet kennen?",
         opties=[
             "intensief lezen, met markeren en samenvatten",
-            "scannen op kernwoorden",
+            "scannen op kernwoorden in de titels en de tussentitels",
             "skimmen en daarna wegleggen",
             "alleen de titel en het slot lezen",
         ],
@@ -96,7 +96,7 @@ DEEL1 = [
         vraag="Wat is het risico van veel markeren in een tekst?",
         opties=[
             "als bijna alles gemarkeerd is, valt niets meer op",
-            "je kan de tekst daarna niet meer lezen",
+            "je kan de tekst daarna niet meer goed lezen door alle kleuren",
             "markeren maakt de tekst korter",
             "markeren werkt alleen bij luisterteksten",
         ],
@@ -283,7 +283,7 @@ DEEL2 = [
         vraag="Wat betekent intensief lezen?",
         opties=[
             "langzaam en nauwkeurig, met aandacht voor elk verband",
-            "zo snel mogelijk, om tijd te winnen",
+            "zo snel mogelijk, om tijd te winnen voor de andere vragen",
             "luidop, zodat je het beter hoort",
             "alleen de delen die je interesseren",
         ],

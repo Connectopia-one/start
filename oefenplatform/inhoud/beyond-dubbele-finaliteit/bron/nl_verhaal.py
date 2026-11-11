@@ -99,7 +99,7 @@ DEEL1 = [
         vraag="Wat is een nevenpersonage?",
         opties=[
             "een personage dat een rol speelt naast het hoofdpersonage",
-            "een personage dat enkel in de titel voorkomt",
+            "een personage dat enkel in de titel van het boek voorkomt",
             "een personage dat door de verteller bedacht wordt",
             "een personage dat nergens beschreven wordt",
         ],
@@ -211,7 +211,7 @@ DEEL2 = [
         vraag="Je leest: 'Ze wist niet dat hij al vertrokken was.' Welk perspectief blijkt hieruit?",
         opties=[
             "een alwetende verteller, want hij weet meer dan zij",
-            "een ik-verteller, want er staat een gedachte in",
+            "een ik-verteller, want er staat een gedachte van iemand in",
             "een personaal perspectief vanuit hem",
             "een meervoudig perspectief in één zin",
         ],
@@ -285,7 +285,7 @@ DEEL2 = [
         vraag="Een verhaal wordt verteld door drie personages, elk in eigen hoofdstukken. Wat levert dat op?",
         opties=[
             "dezelfde gebeurtenis komt er in drie versies te staan",
-            "het verhaal krijgt drie verschillende eindes",
+            "het verhaal krijgt drie verschillende eindes, één per verteller",
             "de verhaallijn verdwijnt uit het boek",
             "de lezer kiest zelf welk hoofdstuk hij leest",
         ],

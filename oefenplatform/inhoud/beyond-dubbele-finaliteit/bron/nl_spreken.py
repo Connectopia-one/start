@@ -250,7 +250,7 @@ DEEL2 = [
         vraag="Wat is het verschil tussen een open en een gesloten vraag?",
         opties=[
             "een open vraag vraagt een verhaal, een gesloten vraag een ja of een nee",
-            "een open vraag is altijd langer dan een gesloten vraag",
+            "een open vraag is altijd langer dan een gesloten vraag en duurt dus ook langer",
             "een open vraag stel je enkel aan het begin van een gesprek",
             "een open vraag mag je in een examengesprek niet gebruiken",
         ],

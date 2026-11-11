@@ -67,7 +67,7 @@ DEEL1 = [
         vraag="Wat is een hyperoniem?",
         opties=[
             "een woord dat een hele groep aanduidt waar andere woorden in vallen",
-            "een woord dat uit meer dan drie lettergrepen bestaat",
+            "een woord dat uit meer dan drie lettergrepen bestaat, zoals een samenstelling",
             "een woord dat extra nadruk geeft aan het woord ernaast",
             "een woord dat enkel in geschreven taal gebruikt wordt",
         ],
@@ -151,7 +151,7 @@ DEEL1 = [
         vraag="Wat is een vaste uitdrukking?",
         opties=[
             "een groepje woorden met een betekenis die je niet uit de delen leest",
-            "een zin die in zowat elke tekst opnieuw terugkomt",
+            "een zin die in zowat elke tekst opnieuw terugkomt, van begin tot einde",
             "een woord dat altijd op dezelfde plaats in de zin staat",
             "een zin die uit een gedicht of een lied overgenomen is",
         ],

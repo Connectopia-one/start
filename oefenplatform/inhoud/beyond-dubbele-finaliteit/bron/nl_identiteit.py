@@ -69,7 +69,7 @@ DEEL1 = [
         vraag="Een tekst spreekt over 'de gewone Vlaming'. Wat gebeurt daar?",
         opties=[
             "er wordt een groep als norm gesteld en een andere daarbuiten",
-            "er wordt een feit over de bevolking weergegeven",
+            "er wordt een feit over de bevolking weergegeven, met een cijfer",
             "er wordt een vakterm uit de politiek gebruikt",
             "er wordt een veralgemening over een land gemaakt",
         ],
@@ -124,7 +124,7 @@ DEEL1 = [
         vraag="Wat is de gevoelswaarde van een woord?",
         opties=[
             "de positieve of negatieve kleur die het meedraagt",
-            "de plaats waar het woord in de zin staat",
+            "de plaats waar het woord in de zin of in de tekst staat",
             "het aantal betekenissen dat het woord heeft",
             "de taal waaruit het woord oorspronkelijk komt",
         ],
@@ -190,7 +190,7 @@ DEEL1 = [
         vraag="Waarom verandert een aanvaarde term voor een groep soms na een tijd?",
         opties=[
             "omdat een woord in gebruik een negatieve kleur kan krijgen",
-            "omdat de spellingregels van het woord gewijzigd zijn",
+            "omdat de spellingregels van het woord intussen officieel gewijzigd zijn",
             "omdat het woord in het buitenland niet begrepen wordt",
             "omdat het woord te lang was om uit te spreken",
         ],
@@ -211,7 +211,7 @@ DEEL2 = [
         vraag="Een vacature zoekt 'een jonge, dynamische kracht'. Wie wordt daarmee buitengesloten?",
         opties=[
             "wie ouder is, ook al heeft die de gevraagde ervaring",
-            "wie geen diploma van het hoger onderwijs heeft",
+            "wie geen diploma van het hoger onderwijs of de universiteit heeft",
             "wie in een andere gemeente woont dan het bedrijf",
             "wie geen rijbewijs heeft voor de verplaatsingen",
         ],
@@ -243,7 +243,7 @@ DEEL2 = [
         vraag="Een tekst noemt de mannelijke arts 'de dokter' en de vrouwelijke 'de vrouwelijke dokter'. Wat zit daarin?",
         opties=[
             "de ene vorm wordt als norm gesteld en de andere als uitzondering",
-            "de tekst gebruikt gewoon twee woorden voor hetzelfde beroep",
+            "de tekst gebruikt gewoon twee woorden voor hetzelfde beroep, zonder verschil",
             "de tekst volgt de officiele spelling van de beroepsnamen",
             "de tekst wil de lezer op het geslacht laten letten",
         ],
@@ -255,7 +255,7 @@ DEEL2 = [
         vraag="Wat doet een schrijver die steeds dezelfde groep als slachtoffer voorstelt?",
         opties=[
             "hij maakt van een rol een eigenschap van die groep",
-            "hij geeft de groep een stem in zijn tekst",
+            "hij geeft de groep een eigen stem en een plaats in zijn tekst",
             "hij vermijdt elke vorm van stereotypering",
             "hij maakt zijn tekst korter en duidelijker",
         ],
@@ -340,7 +340,7 @@ DEEL2 = [
         vraag="Je merkt dat je eigen tekst een groep veralgemeent. Wat doe je?",
         opties=[
             "je noemt over wie je precies spreekt en op welke grond",
-            "je schrapt de hele alinea uit je tekst",
+            "je schrapt de hele alinea uit je tekst en schrijft ze niet opnieuw",
             "je zet er een voorbehoud bij in een voetnoot",
             "je laat de uitspraak staan en noemt ze een mening",
         ],
@@ -370,7 +370,7 @@ DEEL2 = [
         vraag="Boven een artikel staat de kop: 'Weer problemen in die wijk'. Wat is het probleem met die formulering?",
         opties=[
             "ze schrijft een eigenschap toe aan een hele wijk",
-            "ze bevat te weinig woorden voor een kop",
+            "ze bevat te weinig woorden om als echte kop te kunnen dienen",
             "ze gebruikt een woord uit de spreektaal",
             "ze noemt niet wie het artikel schreef",
         ],

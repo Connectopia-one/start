@@ -211,7 +211,7 @@ DEEL2 = [
         vraag="Wat is een probleemstructuur?",
         opties=[
             "eerst het probleem, dan de oorzaken en de oplossingen",
-            "eerst de oplossing, dan de kostprijs",
+            "eerst de oplossing, dan de kostprijs en de mensen die betalen",
             "eerst de voordelen, dan de nadelen",
             "eerst de feiten, dan de bronnenlijst",
         ],
@@ -223,7 +223,7 @@ DEEL2 = [
         vraag="Wat is een maatregelstructuur?",
         opties=[
             "een maatregel wordt voorgesteld, uitgelegd en verdedigd",
-            "een maatregel wordt met een andere vergeleken",
+            "een maatregel wordt met een andere maatregel vergeleken",
             "een maatregel wordt in de tijd gevolgd",
             "een maatregel wordt enkel beschreven",
         ],
@@ -235,7 +235,7 @@ DEEL2 = [
         vraag="Wat is een evaluatiestructuur?",
         opties=[
             "iets wordt aan criteria getoetst en beoordeeld",
-            "iets wordt stap voor stap uitgelegd",
+            "iets wordt stap voor stap uitgelegd aan de lezer",
             "iets wordt in de tijd beschreven",
             "iets wordt met cijfers opgesomd",
         ],
@@ -265,7 +265,7 @@ DEEL2 = [
         vraag="Een tekst beschrijft hoe een stad in honderd jaar van dorp tot stad groeide. Welke structuur is dat?",
         opties=[
             "een ontwikkelingsstructuur",
-            "een probleemstructuur",
+            "een probleemstructuur met oorzaken",
             "een evaluatiestructuur",
             "een maatregelstructuur",
         ],

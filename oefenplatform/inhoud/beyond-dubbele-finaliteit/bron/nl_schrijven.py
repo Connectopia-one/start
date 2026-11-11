@@ -122,7 +122,7 @@ DEEL1 = [
         vraag="Wat doe je als je klacht over een product niet opgelost wordt?",
         opties=[
             "je schrijft een klacht met de feiten, de data en wat je verwacht",
-            "je schrijft een boze mail zonder verdere uitleg erbij",
+            "je schrijft een boze mail zonder verdere uitleg of gegevens erbij",
             "je plaatst meteen een negatieve reactie op sociale media",
             "je wacht af tot de verkoper zelf contact met je opneemt",
         ],
@@ -140,7 +140,7 @@ DEEL1 = [
         vraag="Wat is de functie van een inleiding?",
         opties=[
             "de lezer binnenhalen en zeggen waarover de tekst gaat",
-            "de hele inhoud van de tekst samenvatten",
+            "de hele inhoud van de tekst al kort en volledig samenvatten",
             "de bronnen van de tekst op een rij zetten",
             "de mening van de schrijver al volledig geven",
         ],
@@ -152,7 +152,7 @@ DEEL1 = [
         vraag="Je schrijft een mail met een vraag en een deadline. Waar zet je de deadline?",
         opties=[
             "duidelijk apart, zodat ze niet in de tekst verdwijnt",
-            "achteraan, na je ondertekening",
+            "achteraan, na je ondertekening en je contactgegevens",
             "in de onderwerpregel alleen",
             "midden in de langste alinea",
         ],
@@ -170,7 +170,7 @@ DEEL1 = [
         vraag="Wat hoort in de onderwerpregel van een mail?",
         opties=[
             "in enkele woorden waarover de mail gaat",
-            "een begroeting voor de ontvanger",
+            "een vriendelijke begroeting voor de ontvanger van de mail",
             "de datum waarop je de mail stuurt",
             "je volledige naam en functie",
         ],
@@ -209,7 +209,7 @@ DEEL2 = [
         vraag="Je moet een verslag schrijven van een gesprek met een klant. Wat doe je eerst?",
         opties=[
             "je zet je notities in de orde van wat besproken werd",
-            "je begint met de inleiding uit te schrijven",
+            "je begint meteen met de inleiding van het verslag uit te schrijven",
             "je zoekt een voorbeeldverslag van iemand anders",
             "je kiest het lettertype en de bladspiegel",
         ],
@@ -281,7 +281,7 @@ DEEL2 = [
         vraag="Wat doe je als je tekst te lang is geworden?",
         opties=[
             "je schrapt wat de lezer niet nodig heeft voor je doel",
-            "je maakt de zinnen korter maar laat alles staan",
+            "je maakt de zinnen korter maar laat verder alles gewoon staan",
             "je zet de helft in een bijlage achteraan",
             "je verkleint het lettertype van de tekst",
         ],
@@ -335,7 +335,7 @@ DEEL2 = [
         vraag="Wat zet je in het slot van een opiniestuk?",
         opties=[
             "je conclusie, en wat er volgens jou moet gebeuren",
-            "een nieuw argument dat je nog niet gaf",
+            "een nieuw argument dat je in de tekst nog niet gaf",
             "een samenvatting van alle tegenargumenten",
             "een vraag die je zelf niet beantwoordt",
         ],
@@ -365,7 +365,7 @@ DEEL2 = [
         vraag="Je schrijft dezelfde boodschap voor een mail en voor een affiche. Wat verandert?",
         opties=[
             "de lengte, de vorm en de toon van de boodschap",
-            "alleen het lettertype van de tekst",
+            "alleen het lettertype en de kleur van de tekst",
             "alleen de ondertekening onderaan",
             "niets, want de boodschap blijft dezelfde",
         ],
