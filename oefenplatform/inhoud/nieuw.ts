@@ -126,6 +126,12 @@ export const updates: Update[] = [
   },
   {
     datum: "11 november 2026",
+    titel: "Eerlijkere antwoordkeuzes: het langste antwoord is niet meer vanzelf juist",
+    tekst:
+      "Slimme kinderen merkten het snel: bij veel meerkeuzevragen was het juiste antwoord bijna altijd het langste. Dan kan je gokken zonder na te denken. We hebben in de meeste vakken de foute antwoorden herschreven, zodat ze even lang en even geloofwaardig zijn. Nu moet je echt weten wat juist is. De vragen zelf en de juiste antwoorden blijven hetzelfde.",
+  },
+  {
+    datum: "11 november 2026",
     titel: "Vier nieuwe uitdagingen in Spark, zoals op het examen",
     tekst:
       "Aardrijkskunde, Engels, samenleving en economie en techniek in Spark hebben nu ook een uitdagingshoofdstuk: telkens 30 vragen over alle hoofdstukken door elkaar, in de vormen van het examen van de Examencommissie. Je vult een tabel in, kiest uit keuzelijsten, sleept woorden, koppelt, sorteert, leest een casus, klikt op een prent en schrijft een kort antwoord.",
