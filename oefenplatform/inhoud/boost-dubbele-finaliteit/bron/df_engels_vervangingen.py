@@ -239,7 +239,7 @@ VERVANGINGEN = {
         opties=["I stayed at home because it was raining.",
                 "I stayed at home and watched a film.",
                 "I stayed at home, it was raining hard.",
-                "I stayed at home for the whole evening."],
+                "I stayed at home for the whole evening with my sister."],
         antwoord=0,
         uitleg="'Because it was raining' kan niet op zichzelf staan: dat maakt er een bijzin van. "
                "'And watched a film' is nevenschikking, geen bijzin.",
