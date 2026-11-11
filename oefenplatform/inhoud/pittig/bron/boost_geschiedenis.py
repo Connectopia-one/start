@@ -23,6 +23,7 @@ THEMAS = [
     ("geloof_kunst_macht", "Geloof, kunst en macht in de middeleeuwen"),
     ("nieuwe_wereld", "De 'Nieuwe' Wereld en de driehoekshandel"),
     ("humanisme_barok", "Humanisme, Reformatie, renaissance en barok"),
+    ("vorsten_verlichting", "Vorsten, opstand en de Verlichting"),
 ]
 
 HOOFDSTUKKEN = [

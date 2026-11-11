@@ -2788,6 +2788,466 @@
           ]
         }
       ]
+    },
+    {
+      "titel": "Vorsten, opstand en de Verlichting — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "tabel",
+          "vraag": "Klopt elke uitspraak over het vorstelijk absolutisme?",
+          "rijen": [
+            "Alle macht ligt bij de koning.",
+            "De koning stelt zijn ministers zelf aan en zet ze zelf af.",
+            "De standenvergadering wordt niet meer bijeengeroepen.",
+            "De koning wordt om de zoveel jaar verkozen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De koning is aan niemand verantwoording schuldig. Verkozen worden hoort bij een republiek."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de opvatting dat de macht van de koning rechtstreeks van God komt? Antwoord met twee Franse woorden.",
+          "antwoord": [
+            "droit divin",
+            "het droit divin"
+          ],
+          "uitleg": "Het droit divin. Wie zich dan tegen de koning verzet, verzet zich tegen God zelf."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bekijk het portret van de Zonnekoning. Waarvoor gebruikte hij zijn hof in Versailles? Klopt elke uitspraak?",
+          "rijen": [
+            "om de adel aan het hof te binden en zo onschadelijk te maken",
+            "om zijn macht in kunst en ceremonie zichtbaar te maken",
+            "om het bestuur onder zijn eigen oog te houden",
+            "om er geregeld de Staten-Generaal samen te roepen"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Versailles bond de adel, toonde macht en hield het bestuur dichtbij. De Staten-Generaal riep hij niet meer samen.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/lodewijk-xiv-rigaud.jpg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat ondermijnde op lange termijn de absolute macht in Frankrijk?",
+          "opties": [
+            "Oorlogen en geldgebrek",
+            "Een verkozen parlement dat elke wet tegenhield",
+            "De paus, die de koning had afgezet",
+            "Een opstand van de adel in Versailles zelf"
+          ],
+          "antwoord": 0,
+          "uitleg": "Oorlogen en hofhouding kostten enorm veel, en de belasting drukte op wie ze het minst kon dragen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Na 1689 is Engeland een constitutionele parlementaire monarchie. Wat betekent dat?",
+          "opties": [
+            "Een koning gebonden aan een grondwet, met een parlement dat mee beslist",
+            "Een koning die door het parlement om de vijf jaar opnieuw verkozen of weggestuurd wordt",
+            "Een land zonder koning, waar enkel een verkozen parlement over alles beslist",
+            "Een koning die zijn macht van God krijgt en zelf de wetten maakt"
+          ],
+          "antwoord": 0,
+          "uitleg": "De koning blijft, maar hij regeert binnen regels die hij niet zelf kan veranderen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Was dit een oorzaak van de Glorious Revolution of niet?",
+          "kolommen": [
+            "Oorzaak",
+            "Geen oorzaak"
+          ],
+          "items": [
+            [
+              "de koning wilde zonder het parlement regeren",
+              "Oorzaak"
+            ],
+            [
+              "de koning was katholiek in een overwegend protestants land",
+              "Oorzaak"
+            ],
+            [
+              "het parlement vreesde voor zijn eigen bestaan",
+              "Oorzaak"
+            ],
+            [
+              "een boerenopstand tegen de tiende penning",
+              "Geen oorzaak"
+            ]
+          ],
+          "uitleg": "Het ging om de macht van het parlement en om het geloof van de koning. De tiende penning was een belasting in de Nederlanden."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar van de Glorious Revolution.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/tijdlijn-1400-1800.svg",
+          "zones": [
+            [
+              66.8,
+              25,
+              2.2,
+              55
+            ]
+          ],
+          "uitleg": "In 1688 vluchtte Jacobus II en werd Willem III uit de Nederlanden gehaald, zonder grote veldslag in Engeland."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat legde de Bill of Rights vast?",
+          "opties": [
+            "De koning mag geen wetten opheffen of belastingen heffen zonder het parlement",
+            "De koning mag het parlement ontbinden en zonder parlement regeren wanneer hij dat zelf wil",
+            "Alle volwassen Engelsen krijgen voortaan stemrecht, zowel de mannen als de vrouwen",
+            "De koning moet voortaan katholiek zijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarmee is de macht van de vorst voor het eerst in een tekst begrensd."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In de 17de eeuw wint in Frankrijk [[*de vorst|het parlement]] het van [[*het parlement|de vorst]], in Engeland net omgekeerd.",
+          "uitleg": "Dezelfde eeuw, twee tegengestelde antwoorden: absolutisme in Frankrijk, een begrensde vorst in Engeland."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt elke uitspraak over het beleid van Karel V en Filips II in de Nederlanden?",
+          "rijen": [
+            "Ze wilden het bestuur centraliseren.",
+            "Ze stelden nieuwe bisdommen in.",
+            "Ze traden hard op tegen het protestantisme.",
+            "Ze gaven de steden meer privileges."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Meer privileges gaven ze niet; ze knabbelden er net aan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom voelde centralisatie voor een stad als diefstal van haar rechten?",
+          "opties": [
+            "Het bestuur kwam van één punt, terwijl de stad eigen privileges had",
+            "De vorst nam elk jaar al het geld uit de stadskas mee naar zijn hof in Spanje",
+            "De stad moest voortaan zelf haar soldaten betalen",
+            "De stad mocht geen markt meer houden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Centralisatie is doelmatig voor de vorst, maar een stad met een eigen keure verloor zo haar zelfstandigheid."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een oorzaak of een gevolg van de Opstand in de Nederlanden?",
+          "kolommen": [
+            "Oorzaak",
+            "Gevolg"
+          ],
+          "items": [
+            [
+              "de aantasting van de oude privileges",
+              "Oorzaak"
+            ],
+            [
+              "de vervolging van protestanten",
+              "Oorzaak"
+            ],
+            [
+              "zware belastingen zoals de tiende penning",
+              "Oorzaak"
+            ],
+            [
+              "de sluiting van de Schelde",
+              "Gevolg"
+            ],
+            [
+              "kooplui en geleerden trekken naar het noorden",
+              "Gevolg"
+            ]
+          ],
+          "uitleg": "Privileges, geloof en belastingen dreven tot opstand. De sluiting van de Schelde en het vertrek van kooplui volgden erop."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar van de Beeldenstorm.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/tijdlijn-1400-1800.svg",
+          "zones": [
+            [
+              40.1,
+              25,
+              2.2,
+              55
+            ]
+          ],
+          "uitleg": "De Beeldenstorm is van 1566. Hij begon in Steenvoorde en trok in enkele weken over de Nederlanden."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bekijk deze prent van Frans Hogenberg. Klopt elke uitspraak?",
+          "rijen": [
+            "De prent toont hoe beelden in een kerk vernield worden.",
+            "Voor Filips II was dit het bewijs dat hard optreden nodig was.",
+            "Daarna stuurde hij de hertog van Alva met zijn Raad van Beroerten.",
+            "De beeldenstormers wilden de kerk mooier versieren."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De Beeldenstorm was voor Filips II het teken om in te grijpen.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/beeldenstorm-hogenberg.jpg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een Spaanse bron noemt Alva de redder van orde en geloof, een Nederlandse bron de bloedhertog. Wat besluit je?",
+          "opties": [
+            "Ze kunnen allebei eerlijk zijn en toch iets anders belangrijk vinden",
+            "Een van beide bronnen liegt zeker, dus moet je er één weggooien en de andere geloven",
+            "De oudste bron heeft altijd gelijk",
+            "Bronnen die elkaar zo sterk tegenspreken, zijn allebei waardeloos voor een historicus"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elke auteur schrijft vanuit zijn eigen kant van het conflict. Tegenspraak betekent niet dat er zeker één liegt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe redeneert het Plakkaat van Verlatinghe?",
+          "opties": [
+            "Een vorst die zijn onderdanen als een tiran behandelt, verspeelt zijn recht",
+            "Een vorst krijgt zijn macht rechtstreeks van God en mag dus door niemand afgezworen worden",
+            "Een vorst moet om de vier jaar door de verzamelde gewesten opnieuw herkozen worden om te blijven",
+            "Een vorst die protestant wordt, verliest automatisch zijn kroon"
+          ],
+          "antwoord": 0,
+          "uitleg": "In 1581 zwoeren de gewesten Filips II af. Dat idee komt bij de Verlichting terug."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "De oorlog met Spanje duurde tachtig jaar, met een bestand van twaalf jaar ertussen. Klik op de tijdlijn op die hele periode.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/tijdlijn-1400-1800.svg",
+          "zones": [
+            [
+              41.7,
+              25,
+              17.5,
+              55
+            ]
+          ],
+          "uitleg": "De oorlog duurde van 1568 tot 1648."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk het schema van de Nederlanden. Klik op het deel waarvan de Vrede van Münster de onafhankelijkheid erkende.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/nederlanden.svg",
+          "zones": [
+            [
+              19.0,
+              0,
+              76.0,
+              48.0
+            ]
+          ],
+          "uitleg": "Het noorden werd onafhankelijk en een republiek. Het zuiden bleef katholiek en onder Spaans bestuur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar verwijst het licht in de naam Verlichting naar?",
+          "opties": [
+            "Naar het verstand tegenover de duisternis van vooroordeel en willekeur",
+            "Naar de eerste straatverlichting met olielampen in de straten van Parijs en Londen",
+            "Naar het licht van God dat volgens de Kerk de koning zijn macht geeft",
+            "Naar de grote glasramen van de gotische kathedralen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De Verlichting neemt het verstand als leidraad voor kennis en samenleving. Ze ontstond vooral in de 18de eeuw."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk idee hoort bij elke filosoof?",
+          "paren": [
+            [
+              "John Locke",
+              "natuurlijke rechten op leven, vrijheid en bezit"
+            ],
+            [
+              "Voltaire",
+              "godsdienstige verdraagzaamheid en vrije meningsuiting"
+            ],
+            [
+              "Montesquieu",
+              "de scheiding der machten"
+            ],
+            [
+              "Rousseau",
+              "de macht gaat uit van het volk"
+            ]
+          ],
+          "extra": [
+            "de predestinatie"
+          ],
+          "uitleg": "Locke, Voltaire, Montesquieu en Rousseau. De predestinatie hoort bij het calvinisme."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke filosoof vatte de Verlichting samen in 'durf zelf te denken', sapere aude?",
+          "antwoord": [
+            "Kant",
+            "Immanuel Kant"
+          ],
+          "uitleg": "Immanuel Kant."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom splits je de macht in een wetgevende, een uitvoerende en een rechterlijke macht?",
+          "opties": [
+            "Zodat de ene macht de andere kan tegenhouden",
+            "Zodat de regering de rechtbanken kan leiden",
+            "Zodat de koning sneller kan beslissen",
+            "Zodat elke stand één macht krijgt"
+          ],
+          "antwoord": 0,
+          "uitleg": "De scheiding der machten betekent net niet dat de regering de rechtbanken leidt, maar het omgekeerde."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk begrip uit de Verlichting past bij elke beschrijving?",
+          "paren": [
+            [
+              "dezelfde wet geldt voor iedereen, ongeacht stand of geboorte",
+              "Rechtsgelijkheid"
+            ],
+            [
+              "je kan vooraf weten wat verboden is en welke straf erop staat",
+              "Rechtszekerheid"
+            ],
+            [
+              "de tekst met de grondregels van een staat, boven de gewone wetten",
+              "Grondwet"
+            ]
+          ],
+          "extra": [
+            "Absolutisme"
+          ],
+          "uitleg": "Rechtsgelijkheid botst met de standensamenleving, rechtszekerheid met willekeur. De grondwet staat boven de gewone wetten."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Bij welk begrip hoort deze uitspraak?",
+          "kolommen": [
+            "Empirisme",
+            "Rationalisme",
+            "Vooruitgangsoptimisme"
+          ],
+          "items": [
+            [
+              "eerst kijken en meten, dan besluiten",
+              "Empirisme"
+            ],
+            [
+              "met de rede tot een besluit komen",
+              "Rationalisme"
+            ],
+            [
+              "kennis en rede kunnen de samenleving beter maken",
+              "Vooruitgangsoptimisme"
+            ]
+          ],
+          "uitleg": "Empirisme vertrekt van de waarneming, rationalisme van het redeneren, vooruitgangsoptimisme van het geloof in een betere samenleving."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op welk punt komen empirisme en rationalisme overeen?",
+          "opties": [
+            "Allebei verwerpen ze het argument van het gezag alleen",
+            "Allebei vertrekken ze van de waarneming",
+            "Allebei steunen ze op de Bijbel als enige bron",
+            "Allebei vinden ze dat de koning het laatste woord heeft"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat iets waar is omdat een hooggeplaatst iemand het zegt, geldt voor geen van beide."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat herken je van de Verlichting in de Belgische grondwet? Klopt elke uitspraak?",
+          "rijen": [
+            "de scheiding der machten",
+            "de gelijkheid van alle Belgen voor de wet",
+            "de vrijheid van godsdienst en van meningsuiting",
+            "erfelijke voorrechten voor de adel"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Erfelijke voorrechten zijn net afgeschaft. De grondwet van 1831 gold als een van de meest verlichte van Europa."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "In België wordt beslist op het niveau van de [[gemeente]], van de gemeenschappen en de gewesten, op het [[federale]] en op het [[Europese]] niveau.",
+          "extra": [
+            "keizerlijke",
+            "pauselijke"
+          ],
+          "uitleg": "Vijf niveaus, van dichtbij tot ver weg."
+        },
+        {
+          "casus": "Lina is zestien. Ze wil dat er een veilig fietspad komt naar haar school.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Hoe kan Lina zelf verantwoordelijkheid opnemen binnen de rechtsstaat? Klopt elke uitspraak?",
+              "rijen": [
+                "Ze ondertekent een petitie of start er zelf een.",
+                "Ze gaat naar een inspraakavond in het stadhuis.",
+                "Ze sluit zich aan bij de jeugdraad.",
+                "Ze zet de burgemeester zelf af."
+              ],
+              "antwoord": [
+                true,
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Petitie, inspraak en een jeugdraad zijn wegen binnen de rechtsstaat. Stemmen en je informeren horen er ook bij."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Lina zegt: 'Als een bestuur mijn rechten schendt, mag ik me verzetten.' Hoe heet dat recht?",
+              "opties": [
+                "Het weerstandsrecht",
+                "Het kiesrecht",
+                "Het stemrecht",
+                "Het erfrecht"
+              ],
+              "antwoord": 0,
+              "uitleg": "Het weerstandsrecht is het recht om je te verzetten tegen een bestuur dat je rechten schendt."
+            },
+            {
+              "type": "open",
+              "vraag": "Waarom is de Verlichting een keerpunt in het politieke domein? Leg uit in twee zinnen.",
+              "antwoord": "De bron van het gezag verschuift van God naar het volk. Wie zegt dat de macht van het volk komt, zegt ook dat het volk ze kan terugnemen.",
+              "uitleg": "Een goed antwoord noemt de verschuiving van God naar het volk."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

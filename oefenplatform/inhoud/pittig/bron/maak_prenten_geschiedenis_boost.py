@@ -371,6 +371,24 @@ def perspectief():
     (UIT / "perspectief.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
 
 
+# ---------------------------------------------------------------- Nederlanden
+# Schema, geen kaart: de Nederlanden in twee delen, A boven en B onder, met de
+# zee links en een rivier met een stip voor een havenstad. Klikvak A: 18-95 % breed, 6-48 % hoog.
+def nederlanden():
+    W, Hh = 800, 700
+    d = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {Hh}" width="{W}" height="{Hh}" font-family="Arial, sans-serif">',
+         f'<rect width="{W}" height="{Hh}" fill="{ACHTER}"/>',
+         '<path d="M0 0 L170 0 C 120 150, 200 260, 150 360 C 110 450, 170 560, 120 700 L0 700 Z" fill="#a9cbe6"/>',
+         '<path d="M170 0 L760 0 L760 340 L150 340 C 200 260, 120 150, 170 0 Z" fill="#dde8cf" stroke="#2f4a22" stroke-width="4"/>',
+         '<path d="M150 350 L760 350 L760 680 L130 680 C 170 560, 110 450, 150 350 Z" fill="#f1e6c4" stroke="#2f4a22" stroke-width="4"/>',
+         '<path d="M150 470 C 260 450, 330 500, 420 470 S 560 420, 700 460" stroke="#7fb0d8" stroke-width="12" fill="none"/>',
+         '<circle cx="380" cy="478" r="13" fill="#24331b"/>',
+         letter(470, 170, "A"), letter(470, 590, "B"),
+         f'<text x="790" y="694" font-size="18" text-anchor="end" fill="#555">Schema, geen kaart. De stip is een havenstad aan een rivier.</text>',
+         "</svg>"]
+    (UIT / "nederlanden.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
+
+
 
 if __name__ == "__main__":
     UIT.mkdir(parents=True, exist_ok=True)
@@ -386,6 +404,8 @@ if __name__ == "__main__":
     tijdlijn_1400_1800()
     driehoekshandel()
     perspectief()
+    nederlanden()
+    print("1688", zone_jaar4(1683, 1693), "1566", zone_jaar4(1561, 1571), "80j", zone_jaar4(1568, 1648))
     print("1517", zone_jaar4(1512, 1522), "Trente", zone_jaar4(1545, 1563))
     print("1492", zone_jaar4(1487, 1497), "1498", zone_jaar4(1493, 1503))
     print("1215", zone_jaar3(1205, 1225), "1291", zone_jaar3(1281, 1301))
