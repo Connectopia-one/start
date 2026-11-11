@@ -467,6 +467,465 @@
           "antwoord": "Ze hoort in het politieke domein, want het ging om de macht over Vlaanderen. En ze hoort in het sociale domein, want het ging ook om de verhouding tussen bevolkingsgroepen in de steden."
         }
       ]
+    },
+    {
+      "titel": "Van Rome naar de Franken — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "tabel",
+          "vraag": "Klopt elke uitspraak over het einde van het West-Romeinse Rijk?",
+          "rijen": [
+            "Historici zien de val liever als een proces dan als één gebeurtenis.",
+            "In hetzelfde jaar viel ook het Oost-Romeinse Rijk.",
+            "Een leger dat steeds meer uit ingehuurde Germanen bestond, was een interne oorzaak.",
+            "Na de val nam een sterke staat met ambtenaren en een beroepsleger het over."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Het gezag viel over meer dan een eeuw stukje bij beetje weg. Het Oost-Romeinse Rijk bleef nog bijna duizend jaar bestaan. Na de val kwamen er kleinere, zwak bestuurde koninkrijken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom noemt men 476 een symbolische datering?",
+          "opties": [
+            "Het is een afgesproken grens voor iets wat een eeuw duurde",
+            "In dat jaar viel de laatste stad van het rijk na een lang beleg",
+            "In dat jaar werd het christendom de godsdienst van het rijk",
+            "Het jaartal staat op het oudste bewaarde document van de Kerk"
+          ],
+          "antwoord": 0,
+          "uitleg": "In 476 werd de laatste keizer afgezet, maar het rijk viel over meer dan een eeuw uiteen. Het jaartal is een afgesproken scharnierpunt tussen de klassieke oudheid en de middeleeuwen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een interne of een externe oorzaak van de Germaanse migraties?",
+          "kolommen": [
+            "Interne oorzaak",
+            "Externe oorzaak"
+          ],
+          "items": [
+            [
+              "bevolkingsgroei",
+              "Interne oorzaak"
+            ],
+            [
+              "gebrek aan landbouwgrond",
+              "Interne oorzaak"
+            ],
+            [
+              "de druk van de Hunnen",
+              "Externe oorzaak"
+            ],
+            [
+              "de rijkdom van het Romeinse rijk",
+              "Externe oorzaak"
+            ],
+            [
+              "het klimaat van het Romeinse rijk",
+              "Externe oorzaak"
+            ],
+            [
+              "de verzwakte grensverdediging van Rome",
+              "Externe oorzaak"
+            ]
+          ],
+          "uitleg": "Intern zijn redenen binnen de Germaanse samenlevingen zelf. Wat van buiten de Germaanse wereld komt, zoals de Hunnen of de aantrekkingskracht van Rome, is extern."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is migratie in deze periode zowel een sociaal als een politiek verschijnsel?",
+          "opties": [
+            "Het verandert wie naast wie woont en wie de macht heeft",
+            "Alleen koningen en hun legers trokken toen naar een ander gebied",
+            "Het ging altijd gepaard met een oorlog tussen twee keizers",
+            "Het verandert enkel de taal die de mensen thuis spreken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie er naast wie woont, is sociaal. Wie de macht heeft, is politiek. De migraties veranderden allebei."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Na de migraties ontstaat een gemengde samenleving. Wat bedoelt men daarmee?",
+          "rijen": [
+            "Germaans recht bestond naast Romeins recht.",
+            "Iedereen sprak voortaan dezelfde taal.",
+            "Oude feesten kregen een christelijke betekenis.",
+            "Van elke groep woonden er evenveel mensen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Gemengd gaat over gewoonten die naast elkaar bestaan en zich vermengen: Germaans, Romeins en christelijk. Het gaat niet over één taal of over aantallen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Werkt dit stuk Romeinse erfenis door in de vroege middeleeuwen of niet?",
+          "kolommen": [
+            "Werkt door",
+            "Werkt niet door"
+          ],
+          "items": [
+            [
+              "het Latijn als taal van kerk en bestuur",
+              "Werkt door"
+            ],
+            [
+              "het wegennet",
+              "Werkt door"
+            ],
+            [
+              "de indeling in bisdommen",
+              "Werkt door"
+            ],
+            [
+              "een keizer die door het volk gekozen wordt",
+              "Werkt niet door"
+            ],
+            [
+              "de Romeinse theaters en badhuizen",
+              "Werkt niet door"
+            ],
+            [
+              "een beroepsleger betaald met belastingen",
+              "Werkt niet door"
+            ]
+          ],
+          "uitleg": "Taal, wegen en bisdommen blijven. De Romeinse staat met belastingen en beroepsleger verdwijnt, en de theaters gaan niet opnieuw open."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de eerste dynastie die over het Frankische rijk regeert? Antwoord met één woord.",
+          "antwoord": [
+            "Merovingers",
+            "de Merovingers"
+          ],
+          "uitleg": "De Merovingers zijn de eerste Frankische dynastie. De Karolingers komen later."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom was de doop van Clovis ook een politieke daad?",
+          "opties": [
+            "Hij won zo de steun van de bisschoppen en de Gallo-Romeinen",
+            "De paus maakte hem daarbij meteen tot keizer van het Westen",
+            "Zonder doop mocht een Frank volgens de wet geen grond bezitten",
+            "Hij kreeg daardoor het Oost-Romeinse Rijk erbij"
+          ],
+          "antwoord": 0,
+          "uitleg": "Clovis koos voor het katholieke geloof van de Gallo-Romeinse bevolking en de bisschoppen, en won zo hun steun."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was het gevolg van het Frankische erfrecht voor de koninklijke macht?",
+          "opties": [
+            "Het rijk viel telkens uiteen, met broederoorlogen erbovenop",
+            "De koning moest zijn opvolger laten kiezen door de bisschoppen",
+            "De macht ging bij elke dood naar de hofmeier van het hof",
+            "Het rijk groeide bij elke opvolging, want elke zoon veroverde iets"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het rijk werd onder de zonen verdeeld. Daardoor viel het telkens uiteen en volgden er broederoorlogen."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk begrip past bij elke beschrijving?",
+          "paren": [
+            [
+              "de hoogste ambtenaar aan het hof, die in naam van de koning bestuurde",
+              "Hofmeier"
+            ],
+            [
+              "de laatste koningen van de eerste dynastie, met de titel maar zonder echte macht",
+              "Vadsige koningen"
+            ],
+            [
+              "een reeks heersers uit dezelfde familie",
+              "Dynastie"
+            ]
+          ],
+          "extra": [
+            "Missi dominici"
+          ],
+          "uitleg": "De hofmeier had de echte macht, de vadsige koningen alleen de titel. Een dynastie is een reeks heersers uit één familie. De missi dominici waren de rondreizende controleurs van Karel de Grote."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar waarin Pepijn de Korte zich koning laat maken.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/tijdlijn-400-1000.svg",
+          "zones": [
+            [
+              54.6,
+              25,
+              2.9,
+              55
+            ]
+          ],
+          "uitleg": "Pepijn de Korte wordt in 751 koning en laat zich door de paus zalven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat wilde Pepijn de Korte bereiken met zijn zalving door de paus?",
+          "opties": [
+            "Om zijn machtsovername godsdienstig te laten bevestigen",
+            "Omdat de Frankische wet een gezalfde keizer verplichtte",
+            "Om de paus te dwingen hem Constantinopel te geven",
+            "Omdat de Merovingers het al lang zo deden bij elke kroning"
+          ],
+          "antwoord": 0,
+          "uitleg": "De zalving gaf zijn machtsovername een godsdienstige bevestiging. De paus kreeg er een beschermer voor terug."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar waarin Karel de Grote in Rome tot keizer gekroond wordt.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/tijdlijn-400-1000.svg",
+          "zones": [
+            [
+              61.7,
+              25,
+              2.9,
+              55
+            ]
+          ],
+          "uitleg": "Karel de Grote wordt in het jaar 800 in Rome tot keizer gekroond."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bekijk de middeleeuwse miniatuur van de keizerskroning van Karel de Grote. Klopt elke uitspraak?",
+          "rijen": [
+            "Je situeert de kroning in het politieke én in het culturele domein.",
+            "De prent toont hoe de paus en de Frankische koning op elkaar steunen.",
+            "De miniatuur werd gemaakt door een ooggetuige van de kroning.",
+            "Na deze kroning had Karel rechtstreeks gezag over heel Europa."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Een kroning gaat over macht (politiek) en is een godsdienstige plechtigheid (cultureel). Deze miniatuur is eeuwen later gemaakt. Buiten zijn eigen rijk gaf de keizerstitel vooral aanzien.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/kroning-karel-de-grote.jpg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke middelen gebruikte Karel de Grote om zijn rijk te besturen? Klopt elke uitspraak?",
+          "rijen": [
+            "met graven die elk een gouw bestuurden",
+            "met rondreizende controleurs",
+            "met wetten en richtlijnen die hij liet opschrijven",
+            "met een vast parlement dat de wetten stemde",
+            "met ambtenaren betaald uit een Romeins belastingstelsel"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Graven, rondreizende controleurs en opgeschreven wetten. Een parlement bestond niet, en het Romeinse belastingstelsel was verdwenen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom bleven de graven niet altijd trouwe uitvoerders van de koninklijke wil?",
+          "opties": [
+            "Hoe verder van Aken, hoe meer ze hun gouw als eigen bezit zagen",
+            "Ze werden elk jaar opnieuw verkozen door de boeren van hun gouw",
+            "De paus kon hen op elk moment ontslaan, dus ze volgden hem",
+            "Ze moesten elke wet eerst laten goedkeuren door de bisschoppen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ver van het hof was er weinig toezicht. Veel graven gingen hun gouw als hun eigen bezit beschouwen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat hoort bij de Karolingische renaissance?",
+          "opties": [
+            "Kopieerwerkplaatsen en een nieuw, leesbaar schrift",
+            "De bouw van de eerste gotische kathedralen in Aken",
+            "De uitvinding van de boekdrukkunst aan het hof",
+            "De heropening van de Romeinse theaters en badhuizen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aan het hof en in de kloosters werden oude teksten gekopieerd in een nieuw schrift. Gotiek en boekdrukkunst komen pas eeuwen later."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom bereikte de Karolingische renaissance de gewone boeren nauwelijks?",
+          "opties": [
+            "Ze konden niet lezen en kwamen nooit in Aken",
+            "Karel de Grote verbood boeren om naar school te gaan",
+            "De kloosters lagen allemaal buiten het rijk",
+            "Alle teksten waren in het Grieks geschreven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het bleef een zaak van het hof, de kloosters en een kleine groep geletterden."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Onder de Karolingers werd de koninklijke macht eerst [[*sterker|zwakker]], daarna [[*verbrokkelde|groeide]] ze opnieuw, want het [[*erfrecht|leenstelsel|keizerschap]] bleef gelden.",
+          "uitleg": "Karel de Grote versterkte de macht, maar het rijk werd nog altijd onder de zonen verdeeld. Daardoor verbrokkelde het opnieuw."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze gebeurtenissen in de juiste volgorde, van vroeg naar laat.",
+          "opties": [
+            "De laatste West-Romeinse keizer wordt afgezet",
+            "Clovis laat zich dopen",
+            "Pepijn de Korte wordt koning",
+            "Karel de Grote wordt keizer",
+            "Het rijk wordt in drie delen verdeeld",
+            "Noormannen, Saracenen en Hongaren vallen het rijk binnen"
+          ],
+          "uitleg": "Eerst valt het West-Romeinse Rijk, dan laat Clovis zich dopen. Daarna komen de Karolingers: Pepijn, dan Karel, dan de verdeling onder zijn kleinzonen. De invallen volgen in de 9de en 10de eeuw."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar waarin het rijk van Karel de Grote bij een verdrag in drie delen gesplitst wordt.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/tijdlijn-400-1000.svg",
+          "zones": [
+            [
+              68.0,
+              25,
+              2.9,
+              55
+            ]
+          ],
+          "uitleg": "Die verdeling dateert van 843."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij het Verdrag van Verdun werd het rijk onder drie [[kleinzonen]] van Karel de Grote verdeeld. Daaruit groeiden later [[Frankrijk]] en [[Duitsland]].",
+          "extra": [
+            "zonen",
+            "Spanje",
+            "Engeland"
+          ],
+          "uitleg": "Drie kleinzonen kregen elk een deel. Uit die verdeling groeiden later Frankrijk en Duitsland."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Is Verdun een voorbeeld van territoriale eenheid of van verdeeldheid?",
+          "opties": [
+            "Een beoordelingsvraag: in naam één keizerrijk, in feite drie delen",
+            "Eenheid, want alle drie de delen hadden dezelfde koning",
+            "Verdeeldheid, want het verdrag schafte het keizerrijk meteen helemaal af",
+            "Eenheid, want de drie broers bestuurden samen vanuit Aken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het rijk bleef in naam één keizerrijk, maar in feite ontstonden er drie zelfstandige delen. Je antwoord hangt af van hoe je het beoordeelt."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Bekijk het schema. Welk volk viel in de 9de en 10de eeuw het rijk binnen langs de kant van elke letter?",
+          "paren": [
+            [
+              "A",
+              "Noormannen"
+            ],
+            [
+              "B",
+              "Saracenen"
+            ],
+            [
+              "C",
+              "Hongaren"
+            ]
+          ],
+          "extra": [
+            "Mongolen"
+          ],
+          "uitleg": "Noormannen uit het noorden, Saracenen uit het zuiden, Hongaren of Magyaren uit het oosten. De Mongolen kwamen pas in de 13de eeuw en bereikten West-Europa niet.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/invallen.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was het gevolg van de invallen voor de macht in het rijk?",
+          "opties": [
+            "De bevolking zocht bescherming bij de lokale heer",
+            "De koning kreeg meer macht omdat iedereen hem nodig had",
+            "Het rijk werd opnieuw één geheel onder één keizer",
+            "De Noormannen namen het bestuur in Aken over"
+          ],
+          "antwoord": 0,
+          "uitleg": "De lokale heer kon meteen helpen, de verre koning niet. Zo verzwakte het centrale gezag verder."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het leenstelsel?",
+          "opties": [
+            "Een heer geeft grond in leen voor trouw en krijgsdienst",
+            "Een bank die de koning geld leent voor zijn oorlogen",
+            "Een stelsel van ambtenaren die de koning betaalt",
+            "Een wet die bepaalt dat het rijk onder de zonen verdeeld wordt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Macht wordt een keten van persoonlijke afspraken: grond in ruil voor trouw en krijgsdienst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke maatschappelijke domeinen situeer je de zalving van een koning door de paus? (meerdere antwoorden)",
+          "opties": [
+            "Het politieke domein",
+            "Het culturele domein",
+            "Het economische domein",
+            "Het sociale domein"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Het gaat over wie mag heersen (politiek) en het is een godsdienstige plechtigheid (cultureel). Politiek en godsdienst leunden bij de Franken op elkaar."
+        },
+        {
+          "casus": "Drie leerlingen antwoorden op de vraag of Karel de Grote de vader van Europa is. Noor: \"Ja, want onder hem stonden Frankrijk, Duitsland en Italië onder één gezag.\" Bram: \"Nee, hij was een veroveraar die de Saksen met geweld bekeerde.\" Lena: \"Ja, want zonder zijn kopieerwerkplaatsen kenden we veel oude teksten niet.\"",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom is dit een historische vraag en geen feitenvraag?",
+              "opties": [
+                "Het antwoord hangt af van wat je onder Europa verstaat",
+                "Er bestaan geen bronnen over Karel de Grote",
+                "Het antwoord staat in een jaartal dat historici kennen",
+                "Alleen de paus kon die titel toekennen"
+              ],
+              "antwoord": 0,
+              "uitleg": "Er is geen jaartal dat het beslist. Het antwoord hangt af van hoe je Europa opvat en welke bronnen je kiest."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt elke uitspraak over de drie leerlingen?",
+              "rijen": [
+                "Alle drie gebruiken een argument dat op bronnen kan steunen.",
+                "Omdat hun antwoorden verschillen, heeft minstens één van hen een fout gemaakt.",
+                "Bram kijkt vooral naar de veldtochten van Karel.",
+                "Lena kijkt vooral naar het politieke domein."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true,
+                false
+              ],
+              "uitleg": "Alle drie steunen op bronnen. Dat de antwoorden verschillen, is geen fout. Bram kijkt naar de veroveringen; Lena kijkt naar cultuur, niet naar politiek."
+            },
+            {
+              "type": "open",
+              "vraag": "Geef in drie zinnen je eigen beargumenteerd antwoord op de vraag.",
+              "antwoord": "Karel de Grote bracht Frankrijk, Duitsland en Italië onder één gezag en liet in Aken oude teksten bewaren. Maar hij veroverde ook met geweld, en zijn rijk viel na zijn dood uiteen. Daarom noem ik hem eerder een belangrijke voorloper dan de vader van Europa.",
+              "uitleg": "Een goed antwoord weegt argumenten uit bronnen tegen elkaar af. Elk standpunt kan, zolang je het onderbouwt."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" width="900" height="620" font-family="Arial, sans-serif">
+<rect width="900" height="620" fill="#ffffff"/>
+<defs><marker id="p" markerUnits="userSpaceOnUse" markerWidth="34" markerHeight="34" refX="22" refY="17" orient="auto"><polygon points="0,0 34,17 0,34" fill="#24331b"/></marker></defs>
+<rect x="270" y="220" width="360" height="180" rx="26" fill="#c9dbb4" stroke="#2f4a22" stroke-width="4"/>
+<text x="450" y="300" font-size="30" text-anchor="middle" fill="#24331b">het rijk van</text>
+<text x="450" y="340" font-size="30" text-anchor="middle" fill="#24331b">de Karolingers</text>
+<line x1="450" y1="40" x2="450" y2="205" stroke="#24331b" stroke-width="8" marker-end="url(#p)"/>
+<line x1="450" y1="580" x2="450" y2="415" stroke="#24331b" stroke-width="8" marker-end="url(#p)"/>
+<line x1="870" y1="310" x2="645" y2="310" stroke="#24331b" stroke-width="8" marker-end="url(#p)"/>
+<circle cx="500" cy="95" r="30" fill="#2f4a22"/><text x="500" y="106" font-size="32" text-anchor="middle" fill="#fff">A</text>
+<circle cx="500" cy="535" r="30" fill="#2f4a22"/><text x="500" y="546" font-size="32" text-anchor="middle" fill="#fff">B</text>
+<circle cx="770" cy="260" r="30" fill="#2f4a22"/><text x="770" y="271" font-size="32" text-anchor="middle" fill="#fff">C</text>
+<text x="40" y="50" font-size="24" fill="#24331b">N</text><line x1="48" y1="62" x2="48" y2="120" stroke="#24331b" stroke-width="3"/>
+<text x="880" y="600" font-size="20" text-anchor="end" fill="#555">Schema, geen kaart: de pijlen tonen enkel de richting.</text>
+</svg>

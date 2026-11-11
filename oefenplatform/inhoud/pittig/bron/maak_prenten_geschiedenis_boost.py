@@ -85,10 +85,65 @@ def zones_ring(naam):
     return [pc(x, y, b, yi - y), pc(x, yi + hi, b, y + h - yi - hi), pc(x, yi, xi - x, hi), pc(xi + bi, yi, x + b - xi - bi, hi)]
 
 
+# ---------------------------------------------------------------- tijdlijn 400-1000
+def x_jaar2(jaar, j0=400, j1=1000):
+    return X0 + (jaar - j0) / (j1 - j0) * (X1 - X0)
+
+
+def zone_jaar2(jaar, breed=20):
+    links = x_jaar2(jaar - breed / 2) / B * 100
+    return [round(links, 1), 25, round(breed / 600 * (X1 - X0) / B * 100, 1), 55]
+
+
+def tijdlijn_400_1000():
+    d = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {B} {H}" width="{B}" height="{H}" font-family="Arial, sans-serif">',
+         f'<rect width="{B}" height="{H}" fill="{ACHTER}"/>',
+         f'<line x1="{X0}" y1="110" x2="{X1}" y2="110" stroke="{GROEN}" stroke-width="5"/>',
+         f'<polygon points="{X1},98 {X1+24},110 {X1},122" fill="{GROEN}"/>']
+    for j in range(400, 1001, 10):
+        x = x_jaar2(j)
+        if j % 100 == 0:
+            d.append(f'<line x1="{x:.1f}" y1="92" x2="{x:.1f}" y2="128" stroke="{GROEN}" stroke-width="4"/>')
+            d.append(f'<text x="{x:.1f}" y="166" font-size="28" text-anchor="middle" fill="{DONKER}">{j}</text>')
+        elif j % 50 == 0:
+            d.append(f'<line x1="{x:.1f}" y1="98" x2="{x:.1f}" y2="122" stroke="{GROEN}" stroke-width="2.5"/>')
+        else:
+            d.append(f'<line x1="{x:.1f}" y1="104" x2="{x:.1f}" y2="116" stroke="{GROEN}" stroke-width="1.2"/>')
+    d.append(f'<text x="{X0}" y="50" font-size="22" fill="{DONKER}">Een groot streepje om de 100 jaar, een middelgroot om de 50, een klein om de 10 jaar</text>')
+    d.append("</svg>")
+    (UIT / "tijdlijn-400-1000.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
+
+
+# ---------------------------------------------------------------- invallen 9de-10de eeuw
+def invallen():
+    """Schema, geen kaart: het rijk in het midden, drie pijlen met een letter."""
+    W, Hh = 900, 620
+    d = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {Hh}" width="{W}" height="{Hh}" font-family="Arial, sans-serif">',
+         f'<rect width="{W}" height="{Hh}" fill="{ACHTER}"/>',
+         '<defs><marker id="p" markerUnits="userSpaceOnUse" markerWidth="34" markerHeight="34" refX="22" refY="17" orient="auto"><polygon points="0,0 34,17 0,34" fill="#24331b"/></marker></defs>',
+         f'<rect x="270" y="220" width="360" height="180" rx="26" fill="#c9dbb4" stroke="{GROEN}" stroke-width="4"/>',
+         f'<text x="450" y="300" font-size="30" text-anchor="middle" fill="{DONKER}">het rijk van</text>',
+         f'<text x="450" y="340" font-size="30" text-anchor="middle" fill="{DONKER}">de Karolingers</text>']
+    pijlen = [("A", 450, 40, 450, 205, "noorden"), ("B", 450, 580, 450, 415, "zuiden"), ("C", 870, 310, 645, 310, "oosten")]
+    for letter, x1, y1, x2, y2, _ in pijlen:
+        d.append(f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{DONKER}" stroke-width="8" marker-end="url(#p)"/>')
+    d += [f'<circle cx="500" cy="95" r="30" fill="{GROEN}"/><text x="500" y="106" font-size="32" text-anchor="middle" fill="#fff">A</text>',
+          f'<circle cx="500" cy="535" r="30" fill="{GROEN}"/><text x="500" y="546" font-size="32" text-anchor="middle" fill="#fff">B</text>',
+          f'<circle cx="770" cy="260" r="30" fill="{GROEN}"/><text x="770" y="271" font-size="32" text-anchor="middle" fill="#fff">C</text>',
+          f'<text x="40" y="50" font-size="24" fill="{DONKER}">N</text><line x1="48" y1="62" x2="48" y2="120" stroke="{DONKER}" stroke-width="3"/>',
+          f'<text x="880" y="600" font-size="20" text-anchor="end" fill="#555">Schema, geen kaart: de pijlen tonen enkel de richting.</text>']
+    d.append("</svg>")
+    (UIT / "invallen.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
+
+
 if __name__ == "__main__":
     UIT.mkdir(parents=True, exist_ok=True)
     tijdlijn()
     schaalniveaus()
+    tijdlijn_400_1000()
+    invallen()
+    for j in (476, 751, 800, 843):
+        print('400-1000', j, zone_jaar2(j))
     print('Vlaanderen', zones_ring('het graafschap Vlaanderen'))
     for j in (476, 800, 1453, 1492, 1789):
         print(j, zone_jaar(j))

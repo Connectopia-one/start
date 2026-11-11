@@ -18,6 +18,7 @@ AANTAL = 30
 
 THEMAS = [
     ("referentiekader", "Het historisch referentiekader"),
+    ("rome_franken", "Van Rome naar de Franken"),
 ]
 
 HOOFDSTUKKEN = [
