@@ -290,6 +290,20 @@ export const spelKaarten: SpelKaart[] = [
     tekst: `Honderdzestig begrippen uit de tien leerbundels natuurwetenschappen van Spark, van de cel tot wetenschappelijk onderzoek. ${zesSpellen}`,
   },
   {
+    spel: "begrippenarena-natuur",
+    school: "middelbaar",
+    niveau: "🚀 Boost · biologie, chemie en fysica",
+    niveauInSpel: "boost",
+    tekst: `Ruim honderd begrippen uit biologie, chemie, fysica en natuurwetenschappen van Boost (ook dubbele finaliteit), van het zenuwstelsel en ecologie tot atomen, krachten en de wet van Ohm. ${zesSpellen}`,
+  },
+  {
+    spel: "begrippenarena-natuur",
+    school: "middelbaar",
+    niveau: "🌍 Beyond · biologie, chemie en fysica",
+    niveauInSpel: "beyond",
+    tekst: `Ruim honderdtwintig begrippen uit biologie, chemie, fysica en natuurwetenschappen van Beyond (ook dubbele finaliteit), van afweer, DNA en evolutie tot evenwichten, redox, magnetisme en kernfysica. ${zesSpellen}`,
+  },
+  {
     spel: "begrippenarena-aardrijkskunde",
     school: "middelbaar",
     niveau: "✨ Spark · 1ste en 2de middelbaar",

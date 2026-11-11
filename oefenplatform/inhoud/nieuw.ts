@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "11 november 2026",
+    titel: "Begrippenarena natuurwetenschappen ook voor Boost en Beyond",
+    tekst:
+      "In de begrippenarena natuurwetenschappen kies je nu ook Boost of Beyond, met de begrippen uit biologie, chemie, fysica en natuurwetenschappen van dat niveau, ook voor de dubbele finaliteit. Spark en welzijnswetenschappen blijven zoals ze waren.",
+    link: { tekst: "Naar de spellen", href: "/extras/spellen" },
+  },
+  {
+    datum: "11 november 2026",
     titel: "Woordenarena Engels voor alle niveaus",
     tekst:
       "De woordenarena Engels was er alleen voor Spark. Nu kies je bovenaan ook Start, Boost of Beyond, telkens met de woorden uit de leerbundels van dat niveau. Boost en Beyond gelden ook voor de dubbele finaliteit.",
