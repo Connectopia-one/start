@@ -1841,6 +1841,507 @@
           ]
         }
       ]
+    },
+    {
+      "titel": "De 'Nieuwe' Wereld en de driehoekshandel — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "sorteren",
+          "vraag": "Welk soort motief voor de ontdekkingsreizen is dit?",
+          "kolommen": [
+            "Economisch",
+            "Godsdienstig",
+            "Politiek"
+          ],
+          "items": [
+            [
+              "een eigen weg naar de specerijen van Azië",
+              "Economisch"
+            ],
+            [
+              "het christendom verspreiden",
+              "Godsdienstig"
+            ],
+            [
+              "aanzien voor de eigen vorst",
+              "Politiek"
+            ],
+            [
+              "nieuw gebied voor de eigen vorst",
+              "Politiek"
+            ]
+          ],
+          "uitleg": "Goud, God en glorie: handel, geloof en de eer en het gebied van de vorst. Bij bijna elke reis lopen ze door elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was voor de Portugezen het grote voordeel van een eigen zeeweg naar Azië?",
+          "opties": [
+            "Ze hoefden de prijs niet meer te laten bepalen door tussenhandelaars",
+            "De zeeweg was korter dan elke weg over land",
+            "De paus verbood christenen om over land naar Azië te reizen",
+            "Over land konden schepen de specerijen niet vervoeren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Specerijen die via vele handen kwamen, waren in Lissabon peperduur. Een eigen zeeweg sloeg de tussenhandelaars over."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke vernieuwingen maakten de reizen op open zee mogelijk? Klopt elke uitspraak?",
+          "rijen": [
+            "het kompas",
+            "het astrolabium",
+            "de scheepsmotor",
+            "een schip dat tegen de wind in kon laveren"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Kompas, astrolabium, jakobsstaf en schepen die konden laveren. Een motor bestond nog niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor gebruikte een zeevaarder een astrolabium of een jakobsstaf?",
+          "opties": [
+            "Om de breedtegraad te bepalen uit de hoogte van zon of ster",
+            "Om de diepte van het water onder het schip te meten",
+            "Om de snelheid van de wind op open zee te meten",
+            "Om de tijd te meten tussen twee havens"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie de hoogte van de zon of een ster meet, kan zijn breedtegraad bepalen, ook ver van de kust."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar waarin Columbus de Caraïben bereikt.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/tijdlijn-1400-1800.svg",
+          "zones": [
+            [
+              24.0,
+              25,
+              2.2,
+              55
+            ]
+          ],
+          "uitleg": "Columbus steekt in 1492 de Atlantische Oceaan over."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt elke uitspraak over Christoffel Columbus?",
+          "rijen": [
+            "Hij voer in dienst van Spanje.",
+            "Hij dacht dat hij in Azië was aangekomen.",
+            "Hij wist dat hij een voor Europa onbekend werelddeel bereikt had.",
+            "Het werelddeel kreeg zijn naam."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Columbus voer voor Spanje en hield vol dat hij Azië bereikt had. Het werelddeel kreeg later de naam van Amerigo Vespucci."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke beschrijving hoort bij elke persoon?",
+          "paren": [
+            [
+              "Vasco da Gama",
+              "voer als eerste rond Kaap de Goede Hoop tot in Indië"
+            ],
+            [
+              "Magellaan",
+              "zijn vloot voer als eerste rond de wereld"
+            ],
+            [
+              "Amerigo Vespucci",
+              "gaf zijn naam aan een werelddeel"
+            ],
+            [
+              "Cortés",
+              "geen ontdekkingsreiziger maar een veroveraar"
+            ]
+          ],
+          "extra": [
+            "bereikte als eerste de zuidpool"
+          ],
+          "uitleg": "Da Gama vond de zeeweg naar Indië, Magellaans vloot voer rond de wereld, Vespucci gaf Amerika zijn naam en Cortés was een veroveraar. De zuidpool werd pas veel later bereikt."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar waarin Vasco da Gama in Calicut aankomt.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/tijdlijn-1400-1800.svg",
+          "zones": [
+            [
+              25.3,
+              25,
+              2.2,
+              55
+            ]
+          ],
+          "uitleg": "Vasco da Gama bereikt Calicut in 1498."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was het verschil tussen de koloniën van Portugal en die van Spanje?",
+          "opties": [
+            "Portugal bouwde handelsposten langs de kust, Spanje veroverde het binnenland",
+            "Portugal veroverde grote rijken in het binnenland, Spanje bleef aan de kust",
+            "Portugal had enkel koloniën in Amerika, Spanje enkel in Azië",
+            "Portugal liet alle handel over aan Spanje in ruil voor bescherming"
+          ],
+          "antwoord": 0,
+          "uitleg": "Portugal wilde de handel beheersen, Spanje het land zelf."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit land bij de eerste of bij de tweede kolonisatiegolf?",
+          "kolommen": [
+            "Eerste golf",
+            "Tweede golf"
+          ],
+          "items": [
+            [
+              "Portugal",
+              "Eerste golf"
+            ],
+            [
+              "Spanje",
+              "Eerste golf"
+            ],
+            [
+              "Engeland",
+              "Tweede golf"
+            ],
+            [
+              "Frankrijk",
+              "Tweede golf"
+            ],
+            [
+              "de Verenigde Provinciën",
+              "Tweede golf"
+            ]
+          ],
+          "uitleg": "De eerste golf begint rond 1500, de tweede in de 17de eeuw."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat vernietigden de Spanjaarden in de 16de eeuw? Klopt elke uitspraak?",
+          "rijen": [
+            "het Aztekenrijk in Mexico",
+            "het Incarijk in de Andes",
+            "de Mayasteden in Midden-Amerika",
+            "het Chinese keizerrijk"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Azteken, Inca's en Maya's. China bleef buiten hun bereik."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bekijk deze tekening uit de Florentijnse Codex, gemaakt door Azteekse tekenaars. Klopt elke uitspraak?",
+          "rijen": [
+            "Ze toont een ziekte waartegen de inheemse bevolking geen weerstand had.",
+            "Ze laat het standpunt van de overwonnenen zien.",
+            "Oorlog was de belangrijkste oorzaak van de sterfte.",
+            "Een Spaanse veroveraar maakte deze tekening."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Ziekten zoals pokken en mazelen waren de belangrijkste oorzaak; oorlog en dwangarbeid kwamen erbovenop. De tekenaars waren Azteken.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/pokken-florentijnse-codex.jpg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet het Spaanse systeem waarbij een kolonist arbeid mocht opeisen van de inheemse bevolking, in ruil voor bescherming en bekering? Antwoord met één woord.",
+          "antwoord": [
+            "encomienda",
+            "encomiendasysteem",
+            "het encomiendasysteem",
+            "de encomienda"
+          ],
+          "uitleg": "Dat is het encomiendasysteem. In de praktijk was het dwangarbeid in de mijnen en op de velden."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze stappen in de juiste volgorde: hoe hangen de sterfte in Amerika en de slavenhandel samen?",
+          "opties": [
+            "Kolonisten eisen arbeid op van de inheemse bevolking",
+            "Een groot deel van de inheemse bevolking sterft",
+            "Er zijn te weinig arbeiders voor mijnen en velden",
+            "De arbeid wordt uit Afrika gehaald"
+          ],
+          "uitleg": "Stierf de inheemse bevolking weg, dan viel de gedwongen arbeid weg. Die arbeid haalde men daarna uit Afrika."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom spreekt men in Brazilië Portugees en in de rest van Zuid-Amerika vooral Spaans?",
+          "opties": [
+            "Taal toont vandaag nog welk land welk gebied koloniseerde",
+            "Brazilië koos die taal na zijn onafhankelijkheid zelf",
+            "De inheemse volkeren in Brazilië spraken al Portugees",
+            "Het Portugees is een makkelijkere taal voor handel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Taal, plaatsnamen, godsdienst en rechtssysteem dragen nog het spoor van de kolonisator."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk begrip over de koloniën past bij elke beschrijving?",
+          "paren": [
+            [
+              "een heel gebied met één gewas beplant, voor de uitvoer",
+              "Monocultuur"
+            ],
+            [
+              "de grond of de mijn uitputten zonder aan later te denken",
+              "Roofbouw"
+            ]
+          ],
+          "extra": [
+            "Kapitalisme"
+          ],
+          "uitleg": "Monocultuur gaat over één gewas, roofbouw over uitputten."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Kwam dit product uit Amerika of uit Azië?",
+          "kolommen": [
+            "Uit Amerika",
+            "Uit Azië"
+          ],
+          "items": [
+            [
+              "zilver",
+              "Uit Amerika"
+            ],
+            [
+              "aardappelen",
+              "Uit Amerika"
+            ],
+            [
+              "maïs",
+              "Uit Amerika"
+            ],
+            [
+              "rijst",
+              "Uit Azië"
+            ],
+            [
+              "specerijen",
+              "Uit Azië"
+            ]
+          ],
+          "uitleg": "Zilver kwam uit de Andes, aardappelen en maïs uit Amerika. Rijst en specerijen kwamen uit Azië."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een historicus zet het woord 'Nieuwe' in 'Nieuwe' Wereld tussen aanhalingstekens. Wat wil die daarmee zeggen?",
+          "opties": [
+            "Ze was enkel nieuw voor de Europeanen, er woonden al miljoenen mensen",
+            "Het werelddeel was pas kort daarvoor uit de zee opgerezen",
+            "De naam werd pas in de 20ste eeuw voor het eerst gebruikt",
+            "Columbus noemde het werelddeel zelf nooit zo, maar Cortés wel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er bestonden al rijken en steden. Nieuw was die wereld alleen voor wie uit Europa kwam."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom geeft een Spaanse kroniek over de verovering van Mexico geen volledig beeld?",
+          "opties": [
+            "Ze is door de winnaar geschreven, vaak om zichzelf te verdedigen",
+            "Spaanse kronieken werden altijd pas eeuwen later geschreven",
+            "Spanjaarden mochten van hun koning niets over Mexico schrijven",
+            "De Azteken hebben alle Spaanse kronieken achteraf veranderd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie wint, schrijft vaak om zijn eigen optreden te verdedigen. Azteekse verslagen vertellen het anders."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Bekijk het schema van de driehoekshandel. Wat werd er langs elke pijl vervoerd?",
+          "paren": [
+            [
+              "pijl 1",
+              "wapens, textiel en alcohol"
+            ],
+            [
+              "pijl 2",
+              "tot slaaf gemaakte mensen"
+            ],
+            [
+              "pijl 3",
+              "suiker, katoen en tabak"
+            ]
+          ],
+          "extra": [
+            "specerijen en zijde"
+          ],
+          "uitleg": "Op elk been werd winst gemaakt. Specerijen en zijde kwamen uit Azië, langs een heel andere route.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/driehoekshandel.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk opnieuw het schema. Klik op het been dat men de middenpassage noemt.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/driehoekshandel.svg",
+          "zones": [
+            [
+              17.0,
+              70.0,
+              52.0,
+              27.0
+            ]
+          ],
+          "uitleg": "De middenpassage is de oversteek van Afrika naar Amerika."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bekijk de doorsnede van het slavenschip Brookes. Klopt elke uitspraak?",
+          "rijen": [
+            "Mensen lagen weken in het ruim, vastgeketend.",
+            "Een groot deel van hen overleefde de overtocht niet.",
+            "Op dit schip werden specerijen uit Azië vervoerd.",
+            "Zo'n tekening toont mensen die tot koopwaar gemaakt werden."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "De overtocht was mensonterend en velen stierven. Wat op papier een handelsstroom is, gaat over mensen.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/slavenschip-brookes.jpg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waaraan zie je dat de slavenhandel in Europa lang als een gewone handel gold?",
+          "opties": [
+            "Er werd openlijk in geïnvesteerd, met aandelen en verzekeringen",
+            "Alleen de koning mocht er geld aan verdienen",
+            "Hij gebeurde enkel in het geheim, buiten elke wet",
+            "De Kerk betaalde zelf alle schepen en verdeelde de winst"
+          ],
+          "antwoord": 0,
+          "uitleg": "Pas in de 18de eeuw groeit er een beweging die de slavenhandel wil afschaffen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt elke uitspraak over het handelskapitalisme?",
+          "rijen": [
+            "Winst wordt opnieuw geïnvesteerd om meer winst te maken.",
+            "Meerdere mensen leggen hun kapitaal samen.",
+            "Het risico wordt over veel aandeelhouders gespreid.",
+            "De schepen waren meestal eigendom van de vorst."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Investeren, samenleggen en spreiden. De schepen waren meestal van particuliere compagnieën."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat houdt het mercantilisme in?",
+          "opties": [
+            "Een land moet meer uitvoeren dan invoeren om edelmetaal binnen te halen",
+            "Een land moet vrij handelen met alle landen zonder invoerrechten",
+            "Een land moet al zijn edelmetaal uitgeven aan nieuwe koloniën",
+            "Een land moet de handel met zijn koloniën overlaten aan andere landen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarom beschermde een vorst zijn eigen nijverheid met invoerrechten. Vrije handel is net niet wat het mercantilisme wil."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke vorm van handel of nijverheid past bij elke beschrijving?",
+          "paren": [
+            [
+              "een onderneming waarvan het kapitaal in verhandelbare delen verdeeld is",
+              "Handelscompagnie"
+            ],
+            [
+              "een handelaar levert grondstof aan gezinnen die thuis werken",
+              "Huisnijverheid"
+            ],
+            [
+              "arbeiders werken samen op één plaats, nog met de hand",
+              "Manufactuur"
+            ]
+          ],
+          "extra": [
+            "Gilde"
+          ],
+          "uitleg": "De Verenigde Oost-Indische Compagnie is het bekendste voorbeeld van een handelscompagnie. Een gilde is een middeleeuwse vereniging van ambachtslui."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe hangen de ontdekkingsreizen samen met het ontstaan van het handelskapitalisme?",
+          "opties": [
+            "Een reis vroeg veel geld vooraf en beloofde grote winst achteraf",
+            "De ontdekkingsreizigers brachten het idee van aandelen mee uit Amerika",
+            "De reizen werden altijd volledig door de Kerk betaald",
+            "Na elke reis werd de winst gelijk verdeeld over alle inwoners"
+          ],
+          "antwoord": 0,
+          "uitleg": "Precies daarom legde men geld samen en spreidde men het risico."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij het vruchtwisselstelsel staat elk jaar [[*een ander gewas|hetzelfde gewas]] op een veld, zodat er geen [[*braakland|weiland|bos]] meer nodig is. Voedergewassen zoals [[*klaver|rijst|katoen]] zorgen voor meer vee op stal, en dus voor meer mest. Kunstmest komt pas in de [[*19de|16de|17de]] eeuw.",
+          "uitleg": "Meer voedsel per stuk grond liet de bevolking van Europa in de 18de eeuw sterk groeien."
+        },
+        {
+          "casus": "Rond 1650 trouwt de dochter van een rijke Antwerpse koopman met de zoon van een verarmde edelman. De koopman koopt ook een ambt dat hem aanzien geeft.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat toont dit voorbeeld over de standensamenleving in de vroegmoderne tijd?",
+              "opties": [
+                "De standen bestaan nog, maar geld begint titels te kopen",
+                "De standen zijn afgeschaft en iedereen is voortaan gelijk",
+                "Een koopman wordt door zijn huwelijk meteen geestelijke",
+                "De adel heeft alle macht verloren aan de boeren"
+              ],
+              "antwoord": 0,
+              "uitleg": "De rijke burgerij wordt machtiger dan haar stand laat vermoeden, en sommige adellijke families verarmen."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt elke uitspraak over de vroegmoderne tijd?",
+              "rijen": [
+                "De standen blijven in de wet bestaan tot de Franse Revolutie.",
+                "De grond bleef grotendeels in handen van adel en Kerk.",
+                "De rijke burgerij verloor in deze tijd haar macht.",
+                "Het zilver uit Amerika maakte Spanje blijvend het sterkste land."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false,
+                false
+              ],
+              "uitleg": "De standen bleven, maar de verhoudingen schoven. Het zilver ging naar oorlogen en invoer, en de winst bleef bij de landen die leverden."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

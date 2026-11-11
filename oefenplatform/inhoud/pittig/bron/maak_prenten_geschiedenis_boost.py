@@ -291,6 +291,56 @@ def to_kaart():
     (UIT / "wereldkaart-middeleeuwen.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
 
 
+# ---------------------------------------------------------------- tijdlijn 1400-1800
+def x_jaar4(jaar):
+    return X0 + (jaar - 1400) / 400 * (X1 - X0)
+
+
+def zone_jaar4(van, tot):
+    return [round(x_jaar4(van) / B * 100, 1), 25, round((x_jaar4(tot) - x_jaar4(van)) / B * 100, 1), 55]
+
+
+def tijdlijn_1400_1800():
+    d = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {B} {H}" width="{B}" height="{H}" font-family="Arial, sans-serif">',
+         f'<rect width="{B}" height="{H}" fill="{ACHTER}"/>',
+         f'<line x1="{X0}" y1="110" x2="{X1}" y2="110" stroke="{GROEN}" stroke-width="5"/>',
+         f'<polygon points="{X1},98 {X1+24},110 {X1},122" fill="{GROEN}"/>']
+    for j in range(1400, 1801, 10):
+        x = x_jaar4(j)
+        if j % 100 == 0:
+            d.append(f'<line x1="{x:.1f}" y1="92" x2="{x:.1f}" y2="128" stroke="{GROEN}" stroke-width="4"/>')
+            d.append(f'<text x="{x:.1f}" y="166" font-size="28" text-anchor="middle" fill="{DONKER}">{j}</text>')
+        elif j % 50 == 0:
+            d.append(f'<line x1="{x:.1f}" y1="98" x2="{x:.1f}" y2="122" stroke="{GROEN}" stroke-width="2.5"/>')
+        else:
+            d.append(f'<line x1="{x:.1f}" y1="104" x2="{x:.1f}" y2="116" stroke="{GROEN}" stroke-width="1.2"/>')
+    d.append(f'<text x="{X0}" y="50" font-size="22" fill="{DONKER}">Een groot streepje om de 100 jaar, een middelgroot om de 50, een klein om de 10 jaar</text>')
+    d.append("</svg>")
+    (UIT / "tijdlijn-1400-1800.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
+
+
+# ---------------------------------------------------------------- driehoekshandel
+# Schema, geen kaart: drie vakken met naam, drie genummerde pijlen.
+# Pijl 2 (Afrika naar Amerika) loopt onderaan: klikvak 22-78 % breed, 74-100 % hoog.
+def driehoekshandel():
+    W, Hh = 1000, 620
+    d = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {Hh}" width="{W}" height="{Hh}" font-family="Arial, sans-serif">',
+         f'<rect width="{W}" height="{Hh}" fill="#e3eef7"/>',
+         '<defs><marker id="q" markerUnits="userSpaceOnUse" markerWidth="34" markerHeight="34" refX="22" refY="17" orient="auto"><polygon points="0,0 34,17 0,34" fill="#24331b"/></marker></defs>']
+    vak = [("Amerika", 40, 200), ("Europa", 680, 40), ("West-Afrika", 680, 380)]
+    for naam, x, y in vak:
+        d.append(f'<rect x="{x}" y="{y}" width="280" height="150" rx="24" fill="#f1e6c4" stroke="{GROEN}" stroke-width="4"/>')
+        d.append(f'<text x="{x + 140}" y="{y + 86}" font-size="34" text-anchor="middle" fill="{DONKER}">{naam}</text>')
+    pijlen = [("1", "M820 200 L820 370", 860, 290),       # Europa -> Afrika
+              ("2", "M670 470 C 450 560, 250 520, 180 360", 420, 560),  # Afrika -> Amerika
+              ("3", "M200 190 C 260 60, 480 60, 670 110", 420, 60)]     # Amerika -> Europa
+    for nr, pad, lx, ly in pijlen:
+        d.append(f'<path d="{pad}" stroke="{DONKER}" stroke-width="8" fill="none" marker-end="url(#q)"/>')
+        d.append(letter(lx, ly, nr))
+    d += [f'<text x="20" y="605" font-size="18" fill="#555">Schema, geen kaart: de pijlen tonen enkel de richting.</text>', "</svg>"]
+    (UIT / "driehoekshandel.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
+
+
 
 if __name__ == "__main__":
     UIT.mkdir(parents=True, exist_ok=True)
@@ -303,6 +353,9 @@ if __name__ == "__main__":
     stad()
     bogen()
     to_kaart()
+    tijdlijn_1400_1800()
+    driehoekshandel()
+    print("1492", zone_jaar4(1487, 1497), "1498", zone_jaar4(1493, 1503))
     print("1215", zone_jaar3(1205, 1225), "1291", zone_jaar3(1281, 1301))
     print("1000-1500 11de eeuw", zone_jaar3(1000, 1100), "1347", zone_jaar3(1337, 1357))
     for j in (476, 751, 800, 843):

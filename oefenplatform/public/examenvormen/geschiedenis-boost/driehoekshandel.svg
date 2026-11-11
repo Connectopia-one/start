@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="1000" height="620" font-family="Arial, sans-serif">
+<rect width="1000" height="620" fill="#e3eef7"/>
+<defs><marker id="q" markerUnits="userSpaceOnUse" markerWidth="34" markerHeight="34" refX="22" refY="17" orient="auto"><polygon points="0,0 34,17 0,34" fill="#24331b"/></marker></defs>
+<rect x="40" y="200" width="280" height="150" rx="24" fill="#f1e6c4" stroke="#2f4a22" stroke-width="4"/>
+<text x="180" y="286" font-size="34" text-anchor="middle" fill="#24331b">Amerika</text>
+<rect x="680" y="40" width="280" height="150" rx="24" fill="#f1e6c4" stroke="#2f4a22" stroke-width="4"/>
+<text x="820" y="126" font-size="34" text-anchor="middle" fill="#24331b">Europa</text>
+<rect x="680" y="380" width="280" height="150" rx="24" fill="#f1e6c4" stroke="#2f4a22" stroke-width="4"/>
+<text x="820" y="466" font-size="34" text-anchor="middle" fill="#24331b">West-Afrika</text>
+<path d="M820 200 L820 370" stroke="#24331b" stroke-width="8" fill="none" marker-end="url(#q)"/>
+<circle cx="860" cy="290" r="28" fill="#2f4a22" stroke="#fff" stroke-width="4"/><text x="860" y="301" font-size="30" font-weight="bold" text-anchor="middle" fill="#fff">1</text>
+<path d="M670 470 C 450 560, 250 520, 180 360" stroke="#24331b" stroke-width="8" fill="none" marker-end="url(#q)"/>
+<circle cx="420" cy="560" r="28" fill="#2f4a22" stroke="#fff" stroke-width="4"/><text x="420" y="571" font-size="30" font-weight="bold" text-anchor="middle" fill="#fff">2</text>
+<path d="M200 190 C 260 60, 480 60, 670 110" stroke="#24331b" stroke-width="8" fill="none" marker-end="url(#q)"/>
+<circle cx="420" cy="60" r="28" fill="#2f4a22" stroke="#fff" stroke-width="4"/><text x="420" y="71" font-size="30" font-weight="bold" text-anchor="middle" fill="#fff">3</text>
+<text x="20" y="605" font-size="18" fill="#555">Schema, geen kaart: de pijlen tonen enkel de richting.</text>
+</svg>
