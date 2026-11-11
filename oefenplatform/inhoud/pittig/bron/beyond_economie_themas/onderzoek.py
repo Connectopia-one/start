@@ -139,7 +139,7 @@ VRAGEN = [
     ),
     mk(
         "Een onderzoeker kijkt of de hoogte van de huurprijs invloed heeft op het aantal studenten dat op kot gaat. Wat is de afhankelijke variabele?",
-        ["Het aantal studenten dat op kot gaat", "De hoogte van de huurprijs", "De stad waar de studenten studeren", "De onderzoeker zelf"],
+        ["Het aantal studenten dat op kot gaat", "De hoogte van de huurprijs", "De stad waar de studenten studeren en wonen", "De onderzoeker zelf"],
         0,
         "Het aantal studenten hangt (misschien) af van de huurprijs. De huurprijs is de onafhankelijke variabele.",
     ),

@@ -39,7 +39,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="De inkomenselasticiteit ligt tussen 0 en 1. Wat voor goed is het?",
-        opties=["een noodzakelijk goed", "een luxegoed", "een inferieur goed", "een indifferent goed"],
+        opties=["een noodzakelijk goed", "een luxegoed voor de rijkere gezinnen", "een inferieur goed", "een indifferent goed"],
         antwoord=0,
         uitleg="De vraag stijgt, maar minder sterk dan het inkomen. Het is een normaal goed.",
     ),
@@ -109,7 +109,7 @@ DEEL1 = [
         vraag="Uit welke curve leid je de individuele aanbodcurve van een producent bij volkomen concurrentie af?",
         opties=[
             "het stijgende deel van de marginale kostencurve",
-            "de gemiddelde opbrengstencurve",
+            "de gemiddelde opbrengstencurve van de producent",
             "de totale constante kostencurve",
             "de vraagcurve van de consument",
         ],
@@ -161,7 +161,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welk goed is waarschijnlijk een luxegoed?",
-        opties=["een verre vakantie", "melk", "goedkope pasta", "zout"],
+        opties=["een verre vakantie", "melk uit de supermarkt", "goedkope pasta", "zout"],
         antwoord=0,
         uitleg="Wie meer verdient, geeft daar procentueel veel meer aan uit.",
     ),
@@ -217,7 +217,7 @@ DEEL2 = [
         vraag="Welk voorbeeld heeft een perfect inelastisch aanbod?",
         opties=[
             "de zitplaatsen in een uitverkocht stadion op de dag van de match",
-            "brood in een stad met veel bakkers",
+            "brood in een stad met veel bakkers, die elke ochtend opnieuw verse broden bakken",
             "T-shirts uit een grote fabriek",
             "downloads van een app",
         ],

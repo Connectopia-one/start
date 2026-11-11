@@ -17,7 +17,7 @@ DEEL1 = [
         vraag="Wat is inflatie?",
         opties=[
             "een algemene en aanhoudende stijging van het prijspeil",
-            "een prijsstijging van één enkel product in de winkel",
+            "een prijsstijging van één enkel product in de winkel, bijvoorbeeld brood",
             "een daling van de lonen van alle werknemers",
             "een stijging van de export naar het buitenland",
         ],
@@ -45,7 +45,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="De vraag in de economie is groter dan wat er geproduceerd kan worden, en de prijzen stijgen. Welke inflatie?",
-        opties=["bestedingsinflatie", "kosteninflatie", "importinflatie", "krimpflatie"],
+        opties=["bestedingsinflatie", "kosteninflatie door hogere lonen", "importinflatie", "krimpflatie"],
         antwoord=0,
         uitleg="Ook vraaginflatie genoemd.",
     ),
@@ -80,7 +80,7 @@ DEEL1 = [
         vraag="Wat is beknibbelflatie?",
         opties=[
             "de kwaliteit of service daalt, de prijs blijft gelijk",
-            "de verpakking wordt groter, de prijs blijft gelijk",
+            "de verpakking wordt groter, maar de prijs blijft gewoon gelijk",
             "de prijs daalt elke maand",
             "de overheid knibbelt op de lonen",
         ],
@@ -181,7 +181,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke inflatie volgt de hoog- en laagconjunctuur?",
-        opties=["conjuncturele inflatie", "structurele inflatie", "importinflatie", "krimpflatie"],
+        opties=["conjuncturele inflatie", "structurele inflatie door de lonen", "importinflatie", "krimpflatie"],
         antwoord=0,
         uitleg="In een hoogconjunctuur stijgen de prijzen sneller.",
     ),
@@ -206,7 +206,7 @@ DEEL2 = [
         vraag="Wat stelt V voor in de ruilvergelijking van Fisher?",
         opties=[
             "de omloopsnelheid van het geld",
-            "het volume van de productie",
+            "het volume van de productie in het land",
             "de waarde van de munt",
             "de verkoopprijs",
         ],
@@ -231,7 +231,7 @@ DEEL2 = [
         vraag="Welk inflatiedoel streeft de ECB na?",
         opties=[
             "2 % op middellange termijn",
-            "0 % elk jaar",
+            "0 % elk jaar, zonder uitzondering",
             "5 % per jaar",
             "zo hoog mogelijk",
         ],
@@ -309,7 +309,7 @@ DEEL2 = [
         vraag="Waarom wordt de gezondheidsindex gebruikt in plaats van de gewone CPI voor de loonindexering?",
         opties=[
             "om te vermijden dat duurdere tabak, alcohol en brandstof de lonen opdrijven",
-            "omdat de CPI te laag is",
+            "omdat de gewone CPI te laag uitvalt om de lonen en de uitkeringen correct aan te passen",
             "omdat de CPI niet bestaat in België",
             "omdat de ECB dat verplicht",
         ],
@@ -347,7 +347,7 @@ DEEL2 = [
         opties=[
             "zijn koopkracht daalt met ongeveer 3 %",
             "zijn koopkracht stijgt met 3 %",
-            "zijn koopkracht blijft gelijk",
+            "zijn koopkracht blijft gelijk, want zijn loon verandert niet",
             "zijn loon stijgt automatisch met 3 %",
         ],
         antwoord=0,
@@ -362,7 +362,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Een sterke stijging van de overheidsuitgaven tijdens een hoogconjunctuur kan leiden tot ...",
-        opties=["bestedingsinflatie", "importinflatie", "deflatie", "krimpflatie"],
+        opties=["bestedingsinflatie", "importinflatie door duurdere grondstoffen", "deflatie", "krimpflatie"],
         antwoord=0,
         uitleg="De vraag wordt nog groter dan de productiecapaciteit.",
     ),

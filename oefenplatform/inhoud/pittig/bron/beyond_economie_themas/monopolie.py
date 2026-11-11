@@ -80,7 +80,7 @@ VRAGEN = [
     ),
     mk(
         "Van welke twee dingen hangt de marktvorm vooral af?",
-        ["Het aantal marktpartijen en de toetredingsmogelijkheden", "De prijs van het product en het inkomen van de kopers",
+        ["Het aantal marktpartijen en de toetredingsmogelijkheden", "De prijs van het product en het inkomen van de kopers op die markt",
          "De grootte van het land en het aantal inwoners", "De kwaliteit van het product en de reclame-uitgaven"],
         0,
         "Hoeveel aanbieders er zijn en hoe gemakkelijk een nieuwe aanbieder kan beginnen.",

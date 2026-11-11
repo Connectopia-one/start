@@ -17,7 +17,7 @@ DEEL1 = [
         vraag="Waarom noemt men de wisselmarkt een markt met volkomen concurrentie?",
         opties=[
             "veel kopers en verkopers van een homogeen product",
-            "er is maar één aanbieder van elke munt",
+            "er is maar één aanbieder van elke munt, namelijk de centrale bank",
             "de overheid legt alle koersen vast",
             "enkel banken mogen er kopen en verkopen",
         ],
@@ -73,7 +73,7 @@ DEEL1 = [
         vraag="Wat is het wisselkoersrisico?",
         opties=[
             "het risico dat een koerswijziging verlies oplevert",
-            "het risico dat een bank failliet gaat",
+            "het risico dat een bank failliet gaat en je spaargeld verdwijnt",
             "het risico dat een product beschadigd aankomt",
             "het risico dat de rente stijgt",
         ],
@@ -122,7 +122,7 @@ DEEL1 = [
         vraag="Speculanten verwachten dat de euro zal stijgen. Wat doen ze en wat is het gevolg?",
         opties=[
             "ze kopen nu euro's, waardoor de euro al stijgt",
-            "ze verkopen nu euro's, waardoor de euro daalt",
+            "ze verkopen nu euro's, waardoor de euro nog voor de stijging daalt",
             "ze doen niets",
             "ze vragen de ECB om de koers vast te leggen",
         ],
@@ -203,7 +203,7 @@ DEEL2 = [
         vraag="Wat is de betalingsbalans?",
         opties=[
             "alle transacties van een land met het buitenland",
-            "enkel de export en import van goederen",
+            "enkel de export en de import van goederen, zonder diensten",
             "de begroting van de overheid",
             "de balans van de Nationale Bank",
         ],
@@ -246,7 +246,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Een Belgische werknemer stuurt een deel van zijn loon naar familie in Marokko. Waar komt dat?",
-        opties=["de lopende rekening (secundaire inkomens)", "de lopende rekening (primaire inkomens)", "de kapitaalrekening", "de lopende rekening (goederen)"],
+        opties=["de lopende rekening (secundaire inkomens)", "de lopende rekening (primaire inkomens uit arbeid)", "de kapitaalrekening", "de lopende rekening (goederen)"],
         antwoord=0,
         uitleg="Het is een inkomensoverdracht zonder tegenprestatie.",
     ),
@@ -298,7 +298,7 @@ DEEL2 = [
         vraag="Wat is de hoofdtaak van de Wereldbank?",
         opties=[
             "armoede bestrijden met ontwikkelingsleningen",
-            "de wisselkoersen van alle munten vastleggen",
+            "de wisselkoersen van alle munten ter wereld vastleggen",
             "de euro uitgeven",
             "kartels opsporen",
         ],
@@ -310,7 +310,7 @@ DEEL2 = [
         vraag="Wat doet de OESO?",
         opties=[
             "onderzoek en beleidsadvies voor haar lidstaten",
-            "leningen geven aan landen in crisis",
+            "leningen geven aan landen in crisis, met strenge voorwaarden",
             "bankbiljetten drukken voor de eurozone",
             "de olieprijs bepalen voor de hele wereld",
         ],

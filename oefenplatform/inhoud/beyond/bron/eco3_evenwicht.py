@@ -69,7 +69,7 @@ DEEL1 = [
         vraag="Waarom stijgt het inkomen meer dan de extra investering?",
         opties=[
             "de uitgave wordt inkomen voor anderen, die verder besteden",
-            "de prijzen stijgen mee met de investering",
+            "de prijzen stijgen mee met de investering en blazen het inkomen op",
             "de overheid verdubbelt elke investering",
             "het sparen stijgt sterker dan het inkomen",
         ],
@@ -88,7 +88,7 @@ DEEL1 = [
         opties=[
             "het deel van het extra inkomen dat gespaard wordt",
             "geld dat uit een bankkluis verdwijnt",
-            "spaargeld dat naar het buitenland gaat",
+            "spaargeld dat naar een bank in het buitenland gaat",
             "de rente die banken niet uitbetalen",
         ],
         antwoord=0,
@@ -117,7 +117,7 @@ DEEL1 = [
         vraag="Wat stelt de 45°-lijn voor in de grafiek van het inkomensevenwicht?",
         opties=[
             "de punten waar bestedingen gelijk zijn aan Y",
-            "de consumptiefunctie van de gezinnen",
+            "de consumptiefunctie van de gezinnen bij elk inkomen",
             "de autonome investeringen van bedrijven",
             "het sparen bij elk inkomen",
         ],
@@ -167,7 +167,7 @@ DEEL1 = [
         vraag="Wat is de effectieve vraag?",
         opties=[
             "de bestedingen waarvoor ook koopkracht is",
-            "alles wat mensen zouden willen hebben",
+            "alles wat mensen zouden willen hebben, ook zonder geld",
             "de vraag van de overheid alleen",
             "de vraag naar arbeid",
         ],
@@ -322,7 +322,7 @@ DEEL2 = [
         vraag="Wat gebeurt er op lange termijn na een positieve vraagschok, als de AA-curve op lange termijn verticaal is?",
         opties=[
             "het bbp keert terug naar het potentieel, het prijspeil blijft hoger",
-            "het reëel bbp blijft voorgoed hoger",
+            "het reëel bbp blijft voorgoed hoger, want de vraag blijft blijvend groot",
             "het prijspeil keert terug en het bbp blijft hoger",
             "beide dalen onder het oude niveau",
         ],

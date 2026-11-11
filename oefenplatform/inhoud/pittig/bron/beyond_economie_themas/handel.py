@@ -72,7 +72,7 @@ VRAGEN = [
     ),
     mk(
         "Frankrijk koopt in een douane-unie wijn bij een lidstaat, hoewel een land buiten de unie goedkoper produceert. Hoe heet dat?",
-        ["Handelsverlegging", "Handelsoverschot", "Nearshoring", "Schaalvoordeel"],
+        ["Handelsverlegging", "Handelsoverschot van de lidstaat", "Nearshoring", "Schaalvoordeel"],
         0,
         "Door het gemeenschappelijk buitentarief wordt de goedkopere wijn van buiten de unie duurder dan die van een lid.",
     ),
@@ -170,7 +170,7 @@ VRAGEN = [
     ),
     mk(
         "Welke reden past het best bij reshoring?",
-        ["Hoge transportkosten en problemen in de toeleveringsketen", "Lagere loonkosten in een ver land",
+        ["Hoge transportkosten en problemen in de toeleveringsketen", "Lagere loonkosten en soepelere milieuregels in een ver land",
          "Het gemeenschappelijk buitentarief van de douane-unie", "Een hogere invoerquote van het eigen land"],
         0,
         "Als transport duur wordt en leveringen haperen, halen bedrijven hun productie terug.",

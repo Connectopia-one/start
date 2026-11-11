@@ -196,7 +196,7 @@ DEEL2 = [
         vraag="Waarom gebruikt men het bbp per capita en niet het totale bbp om welvaart te vergelijken?",
         opties=[
             "omdat landen verschillend veel inwoners hebben",
-            "omdat het totale bbp niet berekend kan worden",
+            "omdat het totale bbp niet nauwkeurig berekend kan worden",
             "omdat het bbp per capita de inflatie wegneemt",
             "omdat het totale bbp enkel de export meet",
         ],
@@ -226,7 +226,7 @@ DEEL2 = [
         vraag="Welke drie onderdelen meet de HDI (Human Development Index)?",
         opties=[
             "levensverwachting, onderwijs en inkomen per inwoner",
-            "geluk, vrije tijd en gezondheid",
+            "geluk, vrije tijd en gezondheid van de inwoners, via een grote enquête",
             "export, import en werkloosheid",
             "milieu, veiligheid en woonkwaliteit",
         ],
@@ -246,7 +246,7 @@ DEEL2 = [
         opties=[
             "ze past het bbp aan voor vrije tijd, onbetaald werk en schade",
             "het geluk van de inwoners meten met een enquête",
-            "de vooruitgang op de 17 SDG's per land in kaart brengen",
+            "de vooruitgang op de 17 SDG's per land en per jaar in kaart brengen",
             "de levensverwachting en het onderwijsniveau combineren",
         ],
         antwoord=0,
@@ -269,7 +269,7 @@ DEEL2 = [
         vraag="Wat tonen het SDG Dashboard en de SDG Index?",
         opties=[
             "hoe ver een land staat met het halen van de duurzame ontwikkelingsdoelen",
-            "hoeveel een land uitgeeft aan ontwikkelingshulp",
+            "hoeveel een land elk jaar uitgeeft aan ontwikkelingshulp en noodhulp in het buitenland",
             "de groei van het reëel bbp per kwartaal",
             "de evolutie van de beurskoersen in een land",
         ],

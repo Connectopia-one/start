@@ -40,7 +40,7 @@ DEEL1 = [
         opties=[
             "bij elke prijs de gevraagde hoeveelheden van alle consumenten optellen",
             "bij elke hoeveelheid de prijzen van alle consumenten optellen",
-            "het gemiddelde nemen van alle individuele vraagcurven",
+            "het gemiddelde nemen van alle individuele vraagcurven op de markt, per consument",
             "de vraagcurve van de grootste koper nemen",
         ],
         antwoord=0,
@@ -136,7 +136,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welk product heeft waarschijnlijk de meest inelastische vraag?",
-        opties=["insuline voor een diabetespatiënt", "een bepaald merk chips", "een citytrip naar Rome", "een designerhandtas"],
+        opties=["insuline voor een diabetespatiënt", "een bepaald merk chips", "een citytrip naar Rome tijdens de vakantie", "een designerhandtas"],
         antwoord=0,
         uitleg="Levensnoodzakelijk en zonder alternatief: de vraag reageert nauwelijks op de prijs.",
     ),
@@ -212,7 +212,7 @@ DEEL2 = [
         opties=[
             "het neemt maar een klein deel van het budget in",
             "het is een luxeproduct",
-            "er zijn heel veel substituten",
+            "er zijn heel veel substituten voor in de winkel",
             "het is verslavend",
         ],
         antwoord=0,
@@ -230,7 +230,7 @@ DEEL2 = [
         vraag="Wat zijn complementaire goederen?",
         opties=[
             "goederen die je samen gebruikt, zoals een printer en inkt",
-            "goederen die elkaar vervangen, zoals thee en koffie",
+            "goederen die elkaar vervangen, zoals thee en koffie bij het ontbijt",
             "goederen die je enkel in de winter koopt",
             "goederen die gratis bij een aankoop horen",
         ],
@@ -277,7 +277,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Een prijsdaling van 5 % geeft een stijging van de gevraagde hoeveelheid met 5 %. Wat gebeurt er met de omzet?",
-        opties=["ze blijft ongeveer gelijk", "ze stijgt sterk", "ze daalt sterk", "ze wordt nul"],
+        opties=["ze blijft ongeveer gelijk", "ze stijgt sterk, want de prijs is gedaald", "ze daalt sterk", "ze wordt nul"],
         antwoord=0,
         uitleg="Unitair elastisch: prijs en hoeveelheid compenseren elkaar.",
     ),
@@ -292,7 +292,7 @@ DEEL2 = [
         vraag="Langs een rechte, dalende vraagcurve ...",
         opties=[
             "verandert de elasticiteit: bovenaan elastisch, onderaan inelastisch",
-            "is de elasticiteit overal even groot",
+            "is de elasticiteit overal even groot, van boven tot helemaal onderaan",
             "is de vraag overal perfect elastisch",
             "is de vraag overal perfect inelastisch",
         ],
@@ -318,7 +318,7 @@ DEEL2 = [
         opties=[
             "de vraagcurve van hoesjes verschuift naar rechts",
             "de vraagcurve van hoesjes verschuift naar links",
-            "er is een beweging op de vraagcurve van hoesjes",
+            "er is een beweging op de vraagcurve van de hoesjes zelf",
             "er verandert niets bij de hoesjes",
         ],
         antwoord=0,
@@ -339,7 +339,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke vraag wordt het minst beïnvloed door een prijsstijging?",
-        opties=["een perfect inelastische vraag", "een elastische vraag", "een unitair elastische vraag", "een perfect elastische vraag"],
+        opties=["een perfect inelastische vraag", "een elastische vraag naar een luxeproduct", "een unitair elastische vraag", "een perfect elastische vraag"],
         antwoord=0,
         uitleg="Daar verandert de hoeveelheid helemaal niet.",
     ),

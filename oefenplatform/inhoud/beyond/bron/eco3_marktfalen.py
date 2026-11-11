@@ -31,7 +31,7 @@ DEEL1 = [
         vraag="Welk voorbeeld is een positief extern effect?",
         opties=[
             "bijen van een imker die ook de buren bestuiven",
-            "een fabriek die afvalwater in de rivier loost",
+            "een fabriek die haar afvalwater in de rivier van het dorp loost",
             "lawaai van een disco 's nachts",
             "files door de vele vrachtwagens op de weg",
         ],
@@ -79,7 +79,7 @@ DEEL1 = [
         vraag="Hoe werkt emissiehandel?",
         opties=[
             "bedrijven kopen en verkopen beperkte uitstootrechten",
-            "elk bedrijf mag zoveel uitstoten als het zelf wil",
+            "elk bedrijf mag zoveel uitstoten als het zelf wil, mits een vaste taks",
             "bedrijven betalen een vaste prijs per werknemer",
             "de overheid koopt alle vervuilende fabrieken op",
         ],
@@ -201,7 +201,7 @@ DEEL1 = [
         vraag="Welk welvaartsverlies veroorzaakt marktmacht?",
         opties=[
             "er wordt minder verhandeld aan een hogere prijs",
-            "er wordt meer verhandeld aan een lagere prijs",
+            "er wordt meer verhandeld aan een lagere prijs dan normaal",
             "de overheid moet meer subsidies geven",
             "de consumenten moeten meer belastingen betalen",
         ],
@@ -216,7 +216,7 @@ DEEL2 = [
         vraag="Wat zijn de twee kenmerken van een zuiver publiek goed?",
         opties=[
             "niet-rivaliserend en niet-uitsluitbaar",
-            "rivaliserend en uitsluitbaar",
+            "rivaliserend en uitsluitbaar, zoals een brood",
             "duur en zeldzaam",
             "gratis en in beperkte hoeveelheid",
         ],
@@ -350,7 +350,7 @@ DEEL2 = [
         vraag="Een vaccin beschermt ook wie niet gevaccineerd is. Wat doet de overheid best?",
         opties=[
             "het vaccin subsidiëren of gratis aanbieden",
-            "een extra belasting op vaccins heffen",
+            "een extra belasting op vaccins heffen om de kosten te dekken",
             "een quotum op het aantal vaccins invoeren",
             "het vaccin aan de vrije markt overlaten",
         ],

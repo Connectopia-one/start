@@ -125,7 +125,7 @@ VRAGEN = [
     ),
     mk(
         "De overheid heeft een groot begrotingstekort, maar het land heeft toch een handelsoverschot. Wat moet dan waar zijn?",
-        ["De particulieren sparen veel meer dan ze investeren", "De particulieren investeren meer dan ze sparen",
+        ["De particulieren sparen veel meer dan ze investeren", "De particulieren investeren veel meer dan ze sparen",
          "De overheid ontvangt meer dan ze uitgeeft", "De import is groter dan de export"],
         0,
         "Een negatief T − G en een positief X − M kan alleen als S − I sterk positief is.",
@@ -209,7 +209,7 @@ VRAGEN = [
     ),
     mk(
         "In een land stijgen de investeringen (I) sterk, terwijl S, T, G en de export gelijk blijven. Wat gebeurt er volgens S + T = I + G + X − M met de import?",
-        ["De import stijgt even sterk", "De import daalt even sterk", "De import blijft gelijk", "De import halveert"],
+        ["De import stijgt even sterk", "De import daalt even sterk", "De import blijft gelijk, want I hoort niet bij de handel", "De import halveert"],
         0,
         "Blijft de linkerkant gelijk en stijgt I, dan moet M evenveel stijgen.",
     ),
@@ -226,7 +226,7 @@ VRAGEN = [
     mk(
         "Waarom staan belastingen (T) in Y = T + C + S aan de kant van de gezinnen?",
         ["Het inkomen van de gezinnen gaat naar belastingen, consumptie en sparen",
-         "De gezinnen ontvangen de belastingen van de overheid als inkomen", "Belastingen zijn in de kringloop een vorm van investeren",
+         "De gezinnen ontvangen de belastingen van de overheid terug als een extra inkomen", "Belastingen zijn in de kringloop een vorm van investeren",
          "Belastingen gaan rechtstreeks naar het buitenland"],
         0,
         "Het inkomen Y verdeelt zich over wat gezinnen afdragen, uitgeven en opzijzetten.",

@@ -31,7 +31,7 @@ DEEL1 = [
             "wat de economie normaal kan produceren",
             "het bbp van het vorige jaar",
             "het bbp in lopende prijzen",
-            "het hoogste bbp ooit gemeten",
+            "het hoogste bbp dat ooit in het land gemeten is",
         ],
         antwoord=0,
         uitleg="Het is het niveau zonder overbelasting en zonder onderbenutting.",
@@ -71,7 +71,7 @@ DEEL1 = [
         vraag="Wanneer spreekt men gewoonlijk van een recessie?",
         opties=[
             "als het reëel bbp twee kwartalen na elkaar daalt",
-            "als de inflatie hoger is dan 2 %",
+            "als de inflatie twee kwartalen na elkaar hoger is dan 2 %",
             "als de beurs één dag daalt",
             "als de werkloosheid onder 5 % zakt",
         ],
@@ -108,7 +108,7 @@ DEEL1 = [
         vraag="Wat is een exogene verklaring voor conjunctuurschommelingen?",
         opties=[
             "een oorzaak van buiten de economie, zoals een pandemie of oorlog",
-            "een oorzaak binnen de economie, zoals te veel investeringen",
+            "een oorzaak binnen de economie, zoals te veel investeringen op één moment",
             "een fout in de statistieken",
             "een verandering in de trendlijn",
         ],
@@ -153,7 +153,7 @@ DEEL1 = [
         vraag="Wat gebeurt er meestal tijdens een recessie?",
         opties=[
             "de werkloosheid stijgt en de faillissementen nemen toe",
-            "de werkloosheid daalt en de investeringen stijgen",
+            "de werkloosheid daalt en de investeringen stijgen opnieuw",
             "het consumentenvertrouwen stijgt sterk",
             "de inflatie schiet omhoog",
         ],
@@ -171,7 +171,7 @@ DEEL1 = [
         vraag="Het reëel bbp is 480, het potentieel bbp 500 (miljard euro). Wat besluit je?",
         opties=[
             "er is een negatieve outputkloof van 20: onderbesteding",
-            "er is een positieve outputkloof van 20: overbesteding",
+            "er is een positieve outputkloof van 20: overbesteding en inflatie",
             "er is een bestedingsevenwicht",
             "het land heeft een begrotingstekort van 20",
         ],
@@ -259,7 +259,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welk voorbeeld is een overheidsuitgave?",
-        opties=["de lonen van leerkrachten", "de btw op een aankoop", "de personenbelasting", "een sociale bijdrage"],
+        opties=["de lonen van leerkrachten", "de btw op een aankoop", "de personenbelasting die je via je loonbrief betaalt", "een sociale bijdrage"],
         antwoord=0,
         uitleg="Ook pensioenen, wegen en rente op de staatsschuld zijn uitgaven.",
     ),
@@ -274,7 +274,7 @@ DEEL2 = [
         vraag="Wat gebeurt er meestal met het begrotingssaldo tijdens een recessie?",
         opties=[
             "het verslechtert: minder belastingen en meer uitkeringen",
-            "het verbetert: meer belastingen en minder uitkeringen",
+            "het verbetert: meer belastingen en minder uitkeringen door de crisis",
             "het blijft altijd gelijk",
             "het wordt automatisch nul",
         ],
@@ -330,7 +330,7 @@ DEEL2 = [
         vraag="Wat is een crisis in de conjunctuurbeweging?",
         opties=[
             "een plotse en scherpe omslag naar een neergang",
-            "een rustige periode van gemiddelde groei",
+            "een rustige periode van gemiddelde groei en stabiele prijzen",
             "een begrotingsoverschot",
             "een periode met stijgende lonen",
         ],

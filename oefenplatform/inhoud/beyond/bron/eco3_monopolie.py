@@ -82,7 +82,7 @@ DEEL1 = [
         vraag="Wat zijn de totale constante kosten (TCK)?",
         opties=[
             "kosten die niet veranderen als de productie verandert",
-            "kosten die stijgen met elk extra stuk",
+            "kosten die stijgen met elk extra stuk dat je produceert",
             "de kosten van het laatst gemaakte stuk",
             "de kosten per gemaakt stuk",
         ],
@@ -309,7 +309,7 @@ DEEL2 = [
         vraag="Hoe ligt de MO-curve tegenover de prijsafzetcurve van een monopolist?",
         opties=[
             "eronder, en ze daalt twee keer zo snel",
-            "erboven, en ze stijgt",
+            "erboven, en ze stijgt naarmate de hoeveelheid toeneemt",
             "ze vallen samen",
             "eronder, en ze is horizontaal",
         ],

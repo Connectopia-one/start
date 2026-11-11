@@ -77,7 +77,7 @@ DEEL1 = [
         vraag="Hoe bereken je de activiteitsgraad?",
         opties=[
             "beroepsbevolking / bevolking op arbeidsleeftijd",
-            "werkenden / bevolking op arbeidsleeftijd",
+            "werkenden / bevolking op arbeidsleeftijd, in procent",
             "werklozen / beroepsbevolking",
             "werkenden / totale bevolking",
         ],
@@ -114,7 +114,7 @@ DEEL1 = [
         vraag="Wat is een knelpuntberoep?",
         opties=[
             "een beroep waarvoor werkgevers moeilijk mensen vinden",
-            "een beroep met veel werklozen",
+            "een beroep met veel werklozen en bijna geen openstaande vacatures",
             "een beroep dat binnenkort verdwijnt",
             "een beroep met een heel laag loon",
         ],
@@ -163,7 +163,7 @@ DEEL1 = [
         vraag="Wat is structurele werkloosheid?",
         opties=[
             "werkloosheid omdat het profiel van werkzoekenden niet past bij de vacatures",
-            "werkloosheid tijdens een korte recessie",
+            "werkloosheid tijdens een korte recessie, als de vraag naar producten even wegvalt",
             "werkloosheid in de zomer",
             "werkloosheid tussen twee jobs",
         ],
@@ -258,7 +258,7 @@ DEEL2 = [
         vraag="Waarom bestaat de loonnorm?",
         opties=[
             "om de concurrentiekracht van Belgische bedrijven te beschermen",
-            "om de lonen zo hoog mogelijk te maken",
+            "om de lonen zo hoog mogelijk te maken voor alle werknemers in het land",
             "om de inflatie van de buurlanden te verlagen",
             "om de werkloosheidsuitkeringen te betalen",
         ],
@@ -306,7 +306,7 @@ DEEL2 = [
         vraag="Welke maatregel pakt conjuncturele werkloosheid aan?",
         opties=[
             "de bestedingen stimuleren in een recessie",
-            "opleidingen voor knelpuntberoepen",
+            "opleidingen voor knelpuntberoepen in de sector",
             "een vacaturedatabank",
             "meer seizoensjobs in de zomer",
         ],
@@ -342,7 +342,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Wat stelt het snijpunt van vraag en aanbod op de arbeidsmarkt voor?",
-        opties=["het evenwichtsloon en de evenwichtstewerkstelling", "het minimumloon", "de werkloosheidsgraad", "de loonnorm"],
+        opties=["het evenwichtsloon en de evenwichtstewerkstelling", "het minimumloon dat de overheid voor alle werknemers vastlegt", "de werkloosheidsgraad", "de loonnorm"],
         antwoord=0,
         uitleg="Bij dat loon willen evenveel mensen werken als er gevraagd worden.",
     ),

@@ -132,7 +132,7 @@ VRAGEN = [
     mk(
         "Twee landen hebben ongeveer hetzelfde bbp per capita, maar land X heeft een veel hogere HDI. Wat is de meest logische verklaring?",
         ["In land X zijn de levensverwachting en het onderwijs beter",
-         "Land X heeft meer inwoners, dus een hogere HDI",
+         "Land X heeft meer inwoners, dus automatisch ook een hogere HDI-score",
          "Land X heeft een hoger nominaal bbp door inflatie",
          "In land X telt het vrijwilligerswerk mee in het bbp"],
         0,
@@ -199,7 +199,7 @@ VRAGEN = [
     ),
     mk(
         "Een Belgisch bedrijf keert 40 miljoen euro dividend uit aan Amerikaanse aandeelhouders. Belgen ontvangen 25 miljoen euro lonen uit Nederland. Wat is het effect op het Belgische bnp tegenover het bbp, als er verder niets is?",
-        ["Het bnp is 15 miljoen euro kleiner dan het bbp", "Het bnp is 15 miljoen euro groter dan het bbp",
+        ["Het bnp is 15 miljoen euro kleiner dan het bbp", "Het bnp is 15 miljoen euro groter dan het bbp, door het dividend",
          "Het bnp is 65 miljoen euro groter dan het bbp", "Bnp en bbp zijn even groot"],
         0,
         "Het bnp telt de inkomens van inwoners: + 25 uit het buitenland, − 40 naar het buitenland, samen −15.",

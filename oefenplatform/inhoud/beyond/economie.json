@@ -114,7 +114,7 @@
           "vraag": "Welke stromen gaan van de gezinnen naar de overheid?",
           "opties": [
             "belastingen en sociale bijdragen",
-            "uitkeringen",
+            "uitkeringen, pensioenen en kinderbijslag",
             "subsidies",
             "ambtenarenlonen"
           ],
@@ -238,7 +238,7 @@
           "vraag": "Wat stelt (S − I) voor?",
           "opties": [
             "het spaarsaldo van de particuliere sector",
-            "het begrotingssaldo van de overheid",
+            "het begrotingssaldo van de overheid in dat jaar",
             "het saldo van de handelsbalans",
             "de netto-investeringen van bedrijven"
           ],
@@ -250,7 +250,7 @@
           "vraag": "Wat stelt (T − G) voor?",
           "opties": [
             "het begrotingssaldo van de overheid",
-            "het spaarsaldo van de gezinnen",
+            "het spaarsaldo van de gezinnen en de bedrijven",
             "het saldo van de handelsbalans",
             "de belastingdruk op de gezinnen"
           ],
@@ -298,7 +298,7 @@
           "vraag": "Een land heeft een overheidstekort, maar de particuliere sector spaart veel meer dan ze investeert. Wat kan je besluiten?",
           "opties": [
             "het handelsbalanssaldo kan toch positief zijn",
-            "het land heeft zeker een handelstekort",
+            "het land heeft dan zeker een handelstekort met het buitenland",
             "de overheid heeft zeker een overschot",
             "er wordt niets geïnvesteerd"
           ],
@@ -387,7 +387,7 @@
           "vraag": "Een Belgisch bedrijf koopt een machine in Duitsland. Hoe zie je dat in de kringloop van België?",
           "opties": [
             "een investering (I) én een import (M)",
-            "enkel een export (X)",
+            "enkel een export (X), want het geld gaat naar Duitsland",
             "een overheidsbesteding (G)",
             "consumptie (C) van gezinnen"
           ],
@@ -405,7 +405,7 @@
           "vraag": "Wat stelt (X − M) voor?",
           "opties": [
             "het handelsbalanssaldo",
-            "het begrotingssaldo",
+            "het begrotingssaldo van de overheid",
             "het spaarsaldo",
             "de investeringen"
           ],
@@ -452,7 +452,7 @@
           "vraag": "Wat stellen de twee ringen van de donuteconomie voor?",
           "opties": [
             "een sociaal fundament en een ecologisch plafond",
-            "de export en de import van een land",
+            "de export en de import van een land, binnen en buiten de grens",
             "de vraag en het aanbod op de markt",
             "de rijke en de arme landen van de wereld"
           ],
@@ -515,7 +515,7 @@
           "vraag": "Wat betekent duurzame ontwikkeling?",
           "opties": [
             "voorzien in de behoeften van nu zonder die van later in gevaar te brengen",
-            "zo snel mogelijk groeien zodat er later meer te verdelen is",
+            "zo snel mogelijk groeien, zodat er later meer te verdelen is voor iedereen",
             "enkel nog producten maken die lang meegaan",
             "de natuur beschermen, ook als mensen daardoor tekortkomen"
           ],
@@ -630,7 +630,7 @@
           "opties": [
             "er zijn minder producten nodig voor hetzelfde gebruik",
             "er worden meer nieuwe producten gekocht",
-            "de prijzen stijgen, zodat mensen minder kopen",
+            "de prijzen stijgen, zodat mensen minder nieuwe spullen kopen",
             "de overheid verbiedt het bezit van auto's"
           ],
           "antwoord": 0,
@@ -667,7 +667,7 @@
           "opties": [
             "tekorten, zoals honger of geen toegang tot onderwijs",
             "overschrijding van de grenzen van de planeet",
-            "de veilige en rechtvaardige ruimte",
+            "de veilige en rechtvaardige ruimte voor iedereen op aarde",
             "de winst van de bedrijven"
           ],
           "antwoord": 0,
@@ -720,7 +720,7 @@
           "vraag": "Bij welke kernwaarde hoort 'partnerschap om de doelen te bereiken'?",
           "opties": [
             "Partnership",
-            "Peace",
+            "Peace, want samenwerken brengt vrede",
             "Prosperity",
             "Planet"
           ],
@@ -836,7 +836,7 @@
             "Prosperity",
             "Planet",
             "Peace",
-            "People"
+            "People, want het gaat over mensen"
           ],
           "antwoord": 0,
           "uitleg": "Prosperity gaat over welvaart in harmonie met de natuur."
@@ -846,7 +846,7 @@
           "vraag": "Een vliegmaatschappij zegt 'klimaatneutraal vliegen' omdat je voor 2 euro bomen kan laten planten, zonder te zeggen hoe ze dat controleert. Wat is het probleem?",
           "opties": [
             "het kan greenwashing zijn: een groot groen beeld zonder bewijs",
-            "het is circulaire economie, dus er is geen probleem",
+            "het is circulaire economie, dus er is met die belofte geen enkel probleem",
             "het hoort bij de deeleconomie",
             "bomen planten is altijd verboden voor bedrijven"
           ],
@@ -1083,7 +1083,7 @@
           "vraag": "Waarom gebruikt men het bbp per capita en niet het totale bbp om welvaart te vergelijken?",
           "opties": [
             "omdat landen verschillend veel inwoners hebben",
-            "omdat het totale bbp niet berekend kan worden",
+            "omdat het totale bbp niet nauwkeurig berekend kan worden",
             "omdat het bbp per capita de inflatie wegneemt",
             "omdat het totale bbp enkel de export meet"
           ],
@@ -1116,7 +1116,7 @@
           "vraag": "Welke drie onderdelen meet de HDI (Human Development Index)?",
           "opties": [
             "levensverwachting, onderwijs en inkomen per inwoner",
-            "geluk, vrije tijd en gezondheid",
+            "geluk, vrije tijd en gezondheid van de inwoners, via een grote enquête",
             "export, import en werkloosheid",
             "milieu, veiligheid en woonkwaliteit"
           ],
@@ -1141,7 +1141,7 @@
           "opties": [
             "ze past het bbp aan voor vrije tijd, onbetaald werk en schade",
             "het geluk van de inwoners meten met een enquête",
-            "de vooruitgang op de 17 SDG's per land in kaart brengen",
+            "de vooruitgang op de 17 SDG's per land en per jaar in kaart brengen",
             "de levensverwachting en het onderwijsniveau combineren"
           ],
           "antwoord": 0,
@@ -1164,7 +1164,7 @@
           "vraag": "Wat tonen het SDG Dashboard en de SDG Index?",
           "opties": [
             "hoe ver een land staat met het halen van de duurzame ontwikkelingsdoelen",
-            "hoeveel een land uitgeeft aan ontwikkelingshulp",
+            "hoeveel een land elk jaar uitgeeft aan ontwikkelingshulp en noodhulp in het buitenland",
             "de groei van het reëel bbp per kwartaal",
             "de evolutie van de beurskoersen in een land"
           ],
@@ -1323,7 +1323,7 @@
           "opties": [
             "bij elke prijs de gevraagde hoeveelheden van alle consumenten optellen",
             "bij elke hoeveelheid de prijzen van alle consumenten optellen",
-            "het gemiddelde nemen van alle individuele vraagcurven",
+            "het gemiddelde nemen van alle individuele vraagcurven op de markt, per consument",
             "de vraagcurve van de grootste koper nemen"
           ],
           "antwoord": 0,
@@ -1447,7 +1447,7 @@
           "opties": [
             "insuline voor een diabetespatiënt",
             "een bepaald merk chips",
-            "een citytrip naar Rome",
+            "een citytrip naar Rome tijdens de vakantie",
             "een designerhandtas"
           ],
           "antwoord": 0,
@@ -1547,7 +1547,7 @@
           "opties": [
             "het neemt maar een klein deel van het budget in",
             "het is een luxeproduct",
-            "er zijn heel veel substituten",
+            "er zijn heel veel substituten voor in de winkel",
             "het is verslavend"
           ],
           "antwoord": 0,
@@ -1570,7 +1570,7 @@
           "vraag": "Wat zijn complementaire goederen?",
           "opties": [
             "goederen die je samen gebruikt, zoals een printer en inkt",
-            "goederen die elkaar vervangen, zoals thee en koffie",
+            "goederen die elkaar vervangen, zoals thee en koffie bij het ontbijt",
             "goederen die je enkel in de winter koopt",
             "goederen die gratis bij een aankoop horen"
           ],
@@ -1628,7 +1628,7 @@
           "vraag": "Een prijsdaling van 5 % geeft een stijging van de gevraagde hoeveelheid met 5 %. Wat gebeurt er met de omzet?",
           "opties": [
             "ze blijft ongeveer gelijk",
-            "ze stijgt sterk",
+            "ze stijgt sterk, want de prijs is gedaald",
             "ze daalt sterk",
             "ze wordt nul"
           ],
@@ -1646,7 +1646,7 @@
           "vraag": "Langs een rechte, dalende vraagcurve ...",
           "opties": [
             "verandert de elasticiteit: bovenaan elastisch, onderaan inelastisch",
-            "is de elasticiteit overal even groot",
+            "is de elasticiteit overal even groot, van boven tot helemaal onderaan",
             "is de vraag overal perfect elastisch",
             "is de vraag overal perfect inelastisch"
           ],
@@ -1680,7 +1680,7 @@
           "opties": [
             "de vraagcurve van hoesjes verschuift naar rechts",
             "de vraagcurve van hoesjes verschuift naar links",
-            "er is een beweging op de vraagcurve van hoesjes",
+            "er is een beweging op de vraagcurve van de hoesjes zelf",
             "er verandert niets bij de hoesjes"
           ],
           "antwoord": 0,
@@ -1707,7 +1707,7 @@
           "vraag": "Welke vraag wordt het minst beïnvloed door een prijsstijging?",
           "opties": [
             "een perfect inelastische vraag",
-            "een elastische vraag",
+            "een elastische vraag naar een luxeproduct",
             "een unitair elastische vraag",
             "een perfect elastische vraag"
           ],
@@ -1760,7 +1760,7 @@
           "vraag": "De inkomenselasticiteit ligt tussen 0 en 1. Wat voor goed is het?",
           "opties": [
             "een noodzakelijk goed",
-            "een luxegoed",
+            "een luxegoed voor de rijkere gezinnen",
             "een inferieur goed",
             "een indifferent goed"
           ],
@@ -1845,7 +1845,7 @@
           "vraag": "Uit welke curve leid je de individuele aanbodcurve van een producent bij volkomen concurrentie af?",
           "opties": [
             "het stijgende deel van de marginale kostencurve",
-            "de gemiddelde opbrengstencurve",
+            "de gemiddelde opbrengstencurve van de producent",
             "de totale constante kostencurve",
             "de vraagcurve van de consument"
           ],
@@ -1904,7 +1904,7 @@
           "vraag": "Welk goed is waarschijnlijk een luxegoed?",
           "opties": [
             "een verre vakantie",
-            "melk",
+            "melk uit de supermarkt",
             "goedkope pasta",
             "zout"
           ],
@@ -1981,7 +1981,7 @@
           "vraag": "Welk voorbeeld heeft een perfect inelastisch aanbod?",
           "opties": [
             "de zitplaatsen in een uitverkocht stadion op de dag van de match",
-            "brood in een stad met veel bakkers",
+            "brood in een stad met veel bakkers, die elke ochtend opnieuw verse broden bakken",
             "T-shirts uit een grote fabriek",
             "downloads van een app"
           ],
@@ -2181,7 +2181,7 @@
           "vraag": "Waar ligt het producentensurplus in een grafiek met vraag en aanbod?",
           "opties": [
             "boven de aanbodcurve en onder de marktprijs",
-            "onder de vraagcurve en boven de marktprijs",
+            "onder de vraagcurve en boven de marktprijs, links van het evenwicht",
             "boven de vraagcurve",
             "rechts van de evenwichtshoeveelheid"
           ],
@@ -2236,7 +2236,7 @@
           "vraag": "Wat betekent een Pareto-optimum?",
           "opties": [
             "niemand kan beter worden zonder dat iemand anders slechter wordt",
-            "iedereen heeft precies hetzelfde inkomen",
+            "iedereen heeft precies hetzelfde inkomen en hetzelfde vermogen, zonder verschil",
             "de overheid verdeelt alle goederen eerlijk",
             "de producenten maken de grootst mogelijke winst"
           ],
@@ -2272,7 +2272,7 @@
           "vraag": "De marktprijs ligt boven de evenwichtsprijs. Wat gebeurt er met de totale welvaart?",
           "opties": [
             "ze is kleiner dan in het evenwicht",
-            "ze is groter dan in het evenwicht",
+            "ze is groter dan in het evenwicht, want er wordt duurder verkocht",
             "ze blijft gelijk",
             "ze wordt nul"
           ],
@@ -2478,7 +2478,7 @@
           "vraag": "In welk punt is de totale welvaart op een markt met volkomen concurrentie het grootst?",
           "opties": [
             "in het marktevenwicht",
-            "bij de hoogste prijs",
+            "bij de hoogste prijs die kopers willen betalen",
             "bij de laagste prijs",
             "waar de vraag nul is"
           ],
@@ -2629,7 +2629,7 @@
           "vraag": "Wat zijn de totale constante kosten (TCK)?",
           "opties": [
             "kosten die niet veranderen als de productie verandert",
-            "kosten die stijgen met elk extra stuk",
+            "kosten die stijgen met elk extra stuk dat je produceert",
             "de kosten van het laatst gemaakte stuk",
             "de kosten per gemaakt stuk"
           ],
@@ -2920,7 +2920,7 @@
           "vraag": "Hoe ligt de MO-curve tegenover de prijsafzetcurve van een monopolist?",
           "opties": [
             "eronder, en ze daalt twee keer zo snel",
-            "erboven, en ze stijgt",
+            "erboven, en ze stijgt naarmate de hoeveelheid toeneemt",
             "ze vallen samen",
             "eronder, en ze is horizontaal"
           ],
@@ -2987,7 +2987,7 @@
           "vraag": "Wat kenmerkt een oligopolie?",
           "opties": [
             "enkele grote aanbieders die van elkaar afhankelijk zijn",
-            "veel kleine aanbieders van gelijkaardige producten",
+            "veel kleine aanbieders van gelijkaardige producten op dezelfde markt",
             "één aanbieder die de hele markt bedient",
             "veel aanbieders zonder enige productdifferentiatie"
           ],
@@ -2999,7 +2999,7 @@
           "vraag": "Een stad heeft honderden restaurants, elk met een eigen keuken en sfeer. Welke marktvorm?",
           "opties": [
             "monopolistische concurrentie",
-            "oligopolie",
+            "oligopolie van enkele grote ketens",
             "monopolie",
             "volkomen concurrentie"
           ],
@@ -3192,7 +3192,7 @@
           "vraag": "Wat is een best-response strategie?",
           "opties": [
             "de beste keuze voor een speler, gegeven wat de andere speler doet",
-            "de keuze die voor beide spelers samen het beste is",
+            "de keuze die voor beide spelers samen het allerbeste uitvalt, ook op lange termijn",
             "de keuze die de overheid aanraadt",
             "de keuze die de tegenstander het meest schade toebrengt"
           ],
@@ -3276,7 +3276,7 @@
           "vraag": "Wat is het gevangenendilemma?",
           "opties": [
             "eigenbelang leidt tot een slechtere uitkomst voor beide",
-            "een spel waarin één van de spelers altijd wint",
+            "een spel waarin één van de spelers altijd wint, wat de ander ook doet",
             "een spel waarin samenwerken door de wet verboden is",
             "een spel waarin er geen enkel Nash-evenwicht bestaat"
           ],
@@ -3300,7 +3300,7 @@
           "vraag": "Waarom zijn kartels volgens de speltheorie vaak niet stabiel?",
           "opties": [
             "elk lid wint erbij door stiekem een lagere prijs te vragen",
-            "de leden hebben altijd precies dezelfde kosten",
+            "de leden hebben altijd precies dezelfde kosten en dezelfde klanten",
             "de consumenten weigeren bij een kartel te kopen",
             "een kartel mag volgens de wet maar één jaar bestaan"
           ],
@@ -3509,7 +3509,7 @@
           "opties": [
             "een maximale hoeveelheid die mag worden geproduceerd",
             "een minimale prijs voor een product",
-            "een belasting per geproduceerd stuk",
+            "een belasting per geproduceerd stuk, te betalen aan de overheid",
             "een subsidie voor nieuwe machines"
           ],
           "antwoord": 0,
@@ -3521,7 +3521,7 @@
           "opties": [
             "de prijs stijgt en er wordt minder verhandeld",
             "de prijs daalt en er wordt meer verhandeld",
-            "de prijs daalt en er wordt minder verhandeld",
+            "de prijs daalt en er wordt minder verhandeld dan voordien",
             "er verandert niets"
           ],
           "antwoord": 0,
@@ -3553,7 +3553,7 @@
           "vraag": "Wat gebeurt er met de aanbodcurve als de overheid een belasting per stuk heft bij de producent?",
           "opties": [
             "ze verschuift naar boven (naar links), met het bedrag van de belasting",
-            "ze verschuift naar beneden (naar rechts)",
+            "ze verschuift naar beneden (naar rechts), met het bedrag van de belasting",
             "ze wordt verticaal",
             "ze verandert niet"
           ],
@@ -3712,7 +3712,7 @@
           "vraag": "Wat doet de overheid vaak met het overschot bij een minimumprijs voor landbouwproducten?",
           "opties": [
             "ze koopt het op en slaat het op of verwerkt het",
-            "ze verbiedt de boeren nog te produceren",
+            "ze verbiedt de boeren om nog langer te produceren",
             "ze verlaagt de minimumprijs elke dag",
             "ze verplicht consumenten om alles te kopen"
           ],
@@ -3733,7 +3733,7 @@
           "vraag": "Bij dat quotum van 30 vragen de producenten 70, terwijl hun aanbodcurve bij 30 maar 50 vraagt. Wie wint daarbij ten opzichte van de kopers?",
           "opties": [
             "de producenten met een quotum: ze krijgen een hogere prijs",
-            "de consumenten: ze betalen minder",
+            "de consumenten: ze betalen minder per stuk dan in het evenwicht",
             "de overheid: ze ontvangt belastingen",
             "niemand: alles blijft zoals het evenwicht"
           ],
@@ -3835,7 +3835,7 @@
           "vraag": "Welk voorbeeld is een positief extern effect?",
           "opties": [
             "bijen van een imker die ook de buren bestuiven",
-            "een fabriek die afvalwater in de rivier loost",
+            "een fabriek die haar afvalwater in de rivier van het dorp loost",
             "lawaai van een disco 's nachts",
             "files door de vele vrachtwagens op de weg"
           ],
@@ -3883,7 +3883,7 @@
           "vraag": "Hoe werkt emissiehandel?",
           "opties": [
             "bedrijven kopen en verkopen beperkte uitstootrechten",
-            "elk bedrijf mag zoveel uitstoten als het zelf wil",
+            "elk bedrijf mag zoveel uitstoten als het zelf wil, mits een vaste taks",
             "bedrijven betalen een vaste prijs per werknemer",
             "de overheid koopt alle vervuilende fabrieken op"
           ],
@@ -4021,7 +4021,7 @@
           "vraag": "Welk welvaartsverlies veroorzaakt marktmacht?",
           "opties": [
             "er wordt minder verhandeld aan een hogere prijs",
-            "er wordt meer verhandeld aan een lagere prijs",
+            "er wordt meer verhandeld aan een lagere prijs dan normaal",
             "de overheid moet meer subsidies geven",
             "de consumenten moeten meer belastingen betalen"
           ],
@@ -4040,7 +4040,7 @@
           "vraag": "Wat zijn de twee kenmerken van een zuiver publiek goed?",
           "opties": [
             "niet-rivaliserend en niet-uitsluitbaar",
-            "rivaliserend en uitsluitbaar",
+            "rivaliserend en uitsluitbaar, zoals een brood",
             "duur en zeldzaam",
             "gratis en in beperkte hoeveelheid"
           ],
@@ -4191,7 +4191,7 @@
           "vraag": "Een vaccin beschermt ook wie niet gevaccineerd is. Wat doet de overheid best?",
           "opties": [
             "het vaccin subsidiëren of gratis aanbieden",
-            "een extra belasting op vaccins heffen",
+            "een extra belasting op vaccins heffen om de kosten te dekken",
             "een quotum op het aantal vaccins invoeren",
             "het vaccin aan de vrije markt overlaten"
           ],
@@ -4321,7 +4321,7 @@
           "vraag": "Hoe bereken je de activiteitsgraad?",
           "opties": [
             "beroepsbevolking / bevolking op arbeidsleeftijd",
-            "werkenden / bevolking op arbeidsleeftijd",
+            "werkenden / bevolking op arbeidsleeftijd, in procent",
             "werklozen / beroepsbevolking",
             "werkenden / totale bevolking"
           ],
@@ -4371,7 +4371,7 @@
           "vraag": "Wat is een knelpuntberoep?",
           "opties": [
             "een beroep waarvoor werkgevers moeilijk mensen vinden",
-            "een beroep met veel werklozen",
+            "een beroep met veel werklozen en bijna geen openstaande vacatures",
             "een beroep dat binnenkort verdwijnt",
             "een beroep met een heel laag loon"
           ],
@@ -4428,7 +4428,7 @@
           "vraag": "Wat is structurele werkloosheid?",
           "opties": [
             "werkloosheid omdat het profiel van werkzoekenden niet past bij de vacatures",
-            "werkloosheid tijdens een korte recessie",
+            "werkloosheid tijdens een korte recessie, als de vraag naar producten even wegvalt",
             "werkloosheid in de zomer",
             "werkloosheid tussen twee jobs"
           ],
@@ -4540,7 +4540,7 @@
           "vraag": "Waarom bestaat de loonnorm?",
           "opties": [
             "om de concurrentiekracht van Belgische bedrijven te beschermen",
-            "om de lonen zo hoog mogelijk te maken",
+            "om de lonen zo hoog mogelijk te maken voor alle werknemers in het land",
             "om de inflatie van de buurlanden te verlagen",
             "om de werkloosheidsuitkeringen te betalen"
           ],
@@ -4591,7 +4591,7 @@
           "vraag": "Welke maatregel pakt conjuncturele werkloosheid aan?",
           "opties": [
             "de bestedingen stimuleren in een recessie",
-            "opleidingen voor knelpuntberoepen",
+            "opleidingen voor knelpuntberoepen in de sector",
             "een vacaturedatabank",
             "meer seizoensjobs in de zomer"
           ],
@@ -4639,7 +4639,7 @@
           "vraag": "Wat stelt het snijpunt van vraag en aanbod op de arbeidsmarkt voor?",
           "opties": [
             "het evenwichtsloon en de evenwichtstewerkstelling",
-            "het minimumloon",
+            "het minimumloon dat de overheid voor alle werknemers vastlegt",
             "de werkloosheidsgraad",
             "de loonnorm"
           ],
@@ -4697,7 +4697,7 @@
           "vraag": "In de winkel staat elke prijs in euro, zodat je producten kan vergelijken. Welke functie van geld?",
           "opties": [
             "waardemeter en rekeneenheid",
-            "ruil- en betaalmiddel",
+            "ruil- en betaalmiddel aan de kassa",
             "spaar- en beleggingsmiddel",
             "kredietmiddel"
           ],
@@ -4745,7 +4745,7 @@
           "vraag": "Wat is giraal geld?",
           "opties": [
             "tegoeden op zichtrekeningen",
-            "munten en bankbiljetten",
+            "munten en bankbiljetten in je portefeuille",
             "goudstaven in een kluis",
             "aandelen op de beurs"
           ],
@@ -4757,7 +4757,7 @@
           "vraag": "Wat is quasigeld?",
           "opties": [
             "tegoeden die je snel kan omzetten",
-            "vals geld dat op echt geld lijkt",
+            "vals geld dat op echt geld lijkt en in omloop is",
             "munten uit een ander land",
             "speelgeld voor kinderen"
           ],
@@ -4808,7 +4808,7 @@
           "vraag": "Wat is de maatschappelijke geldhoeveelheid M1?",
           "opties": [
             "chartaal geld plus giraal geld",
-            "enkel munten en biljetten",
+            "enkel munten en biljetten, zonder rekeningen",
             "alle spaarrekeningen",
             "het geld van de overheid"
           ],
@@ -4875,7 +4875,7 @@
           "opties": [
             "M1 stijgt met 10 000 euro",
             "M1 daalt met 10 000 euro",
-            "M1 blijft gelijk",
+            "M1 blijft gelijk, want het is maar krediet",
             "M1 wordt nul"
           ],
           "antwoord": 0,
@@ -4911,7 +4911,7 @@
           "vraag": "Welke rol hebben commerciële banken bij geldschepping?",
           "opties": [
             "ze scheppen giraal geld met kredieten",
-            "ze drukken zelf bankbiljetten",
+            "ze drukken zelf nieuwe bankbiljetten voor hun klanten",
             "ze slaan alle euromunten",
             "ze bepalen de beleidsrente"
           ],
@@ -4923,7 +4923,7 @@
           "vraag": "Waarom kunnen commerciële banken niet onbeperkt geld scheppen?",
           "opties": [
             "ze moeten reserves en kapitaal aanhouden",
-            "ze mogen elk jaar maar één lening geven",
+            "ze mogen elk jaar maar één lening per klant geven",
             "de klanten weigeren leningen",
             "de overheid koopt alle leningen op"
           ],
@@ -5002,7 +5002,7 @@
           "opties": [
             "elektronisch geld op een kaart of in een app",
             "geld dat je via e-mail opstuurt",
-            "een cryptomunt zoals bitcoin of ether",
+            "een cryptomunt zoals bitcoin of ether, op de blockchain",
             "geld van een buitenlandse bank"
           ],
           "antwoord": 0,
@@ -5019,7 +5019,7 @@
           "vraag": "Welke soort geld hoort bij quasigeld?",
           "opties": [
             "een termijnrekening van zes maanden",
-            "een bankbiljet van 20 euro",
+            "een bankbiljet van 20 euro in je portefeuille",
             "een zichtrekening bij de bank",
             "een muntstuk van 2 euro"
           ],
@@ -5032,7 +5032,7 @@
           "opties": [
             "ze vertrouwen dat anderen ze aanvaarden",
             "het papier zelf is veel waard",
-            "elk biljet is gedekt door goud",
+            "elk biljet is gedekt door goud in de kluis van de bank",
             "de bank betaalt rente op elk biljet"
           ],
           "antwoord": 0,
@@ -5201,7 +5201,7 @@
           "vraag": "Welke rol spelen banken tussen spaarders en kredietnemers?",
           "opties": [
             "ze verzamelen spaargeld en lenen het uit",
-            "ze drukken geld voor spaarders",
+            "ze drukken zelf nieuw geld voor hun spaarders",
             "ze bepalen de wisselkoers",
             "ze innen belastingen op spaargeld"
           ],
@@ -5264,7 +5264,7 @@
           "vraag": "Wat is een aandeel?",
           "opties": [
             "een deel van de eigendom van een bedrijf",
-            "een lening aan de Belgische overheid",
+            "een lening aan de Belgische overheid met een vaste rente",
             "een rekening met vaste rente",
             "een fonds van een verzekeraar"
           ],
@@ -5340,7 +5340,7 @@
           "vraag": "Wat is een beleggingsfonds (ICB)?",
           "opties": [
             "een fonds dat geld van veel beleggers samen belegt",
-            "een spaarrekening met vaste rente",
+            "een spaarrekening met een vaste rente bij één bank",
             "een lening van de overheid",
             "een verzekering tegen werkloosheid"
           ],
@@ -5352,7 +5352,7 @@
           "vraag": "Wat is het verschil tussen een bevek en een bevak?",
           "opties": [
             "een bevek heeft een veranderlijk kapitaal, een bevak een vast kapitaal",
-            "een bevek belegt in aandelen, een bevak in obligaties",
+            "een bevek belegt enkel in aandelen, een bevak enkel in obligaties en vastgoed",
             "een bevek is Belgisch, een bevak buitenlands",
             "er is geen verschil"
           ],
@@ -5376,7 +5376,7 @@
           "vraag": "Wat kenmerkt een Tak21-verzekering?",
           "opties": [
             "gewaarborgd kapitaal met een gewaarborgde rente",
-            "geen enkele waarborg, gekoppeld aan fondsen",
+            "geen enkele waarborg, het rendement is gekoppeld aan fondsen",
             "een dividend van het bedrijf",
             "een stemrecht in de verzekeraar"
           ],
@@ -5569,7 +5569,7 @@
           "vraag": "Wat toont de categoriale inkomensverdeling?",
           "opties": [
             "hoe het inkomen verdeeld is over de productiefactoren",
-            "hoe het inkomen verdeeld is over mannen en vrouwen",
+            "hoe het inkomen verdeeld is over mannen en vrouwen in het hele land",
             "hoe het inkomen verdeeld is over jongeren en ouderen",
             "hoe het inkomen verdeeld is over de gemeenten"
           ],
@@ -5582,7 +5582,7 @@
           "opties": [
             "het cumulatieve % bevolking en inkomen",
             "de prijs en de hoeveelheid",
-            "de tijd en het bbp",
+            "de tijd en het bbp per inwoner, per jaar",
             "het loon en de werkloosheid"
           ],
           "antwoord": 0,
@@ -5600,7 +5600,7 @@
           "opties": [
             "in land A is het inkomen ongelijker verdeeld",
             "in land A is het inkomen gelijker verdeeld",
-            "land A is rijker dan land B",
+            "land A is rijker dan land B, gemeten in bbp per inwoner",
             "land A heeft minder inwoners"
           ],
           "antwoord": 0,
@@ -5668,7 +5668,7 @@
           "vraag": "Wat is de genderloonkloof?",
           "opties": [
             "het verschil in gemiddeld loon tussen mannen en vrouwen",
-            "het verschil in loon tussen jongeren en ouderen",
+            "het verschil in loon tussen jongeren en ouderen in hetzelfde beroep",
             "het verschil tussen bruto- en nettoloon",
             "het verschil in loon tussen gewesten"
           ],
@@ -5687,7 +5687,7 @@
           "opties": [
             "als zijn inkomen onder 60 % van de mediaan ligt",
             "als hij geen eigen woning heeft",
-            "als hij minder verdient dan het gemiddelde",
+            "als hij minder verdient dan het gemiddelde van alle inwoners",
             "als hij geen auto heeft"
           ],
           "antwoord": 0,
@@ -5711,7 +5711,7 @@
           "opties": [
             "ernstige materiële en sociale deprivatie",
             "het gemiddelde loon van werknemers",
-            "de groei van het bbp per inwoner",
+            "de groei van het bbp per inwoner, per jaar",
             "het aantal werklozen per gewest"
           ],
           "antwoord": 0,
@@ -5769,7 +5769,7 @@
           "vraag": "Waarom verkleint een progressieve personenbelasting de ongelijkheid?",
           "opties": [
             "hogere inkomens betalen een groter percentage",
-            "iedereen betaalt precies hetzelfde bedrag",
+            "iedereen betaalt precies hetzelfde bedrag, hoe groot zijn inkomen ook is",
             "lage inkomens betalen meer dan hoge",
             "enkel bedrijven betalen belasting"
           ],
@@ -5781,7 +5781,7 @@
           "vraag": "Hoe wordt de personenbelasting in België berekend?",
           "opties": [
             "elke hogere inkomensschijf krijgt een hoger tarief",
-            "iedereen betaalt 25 % op het hele inkomen",
+            "iedereen betaalt 25 % op het hele inkomen, zonder schijven",
             "enkel het inkomen boven 100 000 euro wordt belast",
             "het bedrag hangt enkel af van de leeftijd"
           ],
@@ -5905,7 +5905,7 @@
           "opties": [
             "de inkomensongelijkheid neemt toe",
             "de inkomensongelijkheid neemt af",
-            "het land wordt rijker",
+            "het land wordt rijker per inwoner",
             "het land wordt armer"
           ],
           "antwoord": 0,
@@ -5958,7 +5958,7 @@
           "vraag": "Welke van deze maatregelen is een fiscale maatregel om inkomen te herverdelen?",
           "opties": [
             "een progressieve personenbelasting",
-            "een werkloosheidsuitkering",
+            "een werkloosheidsuitkering voor wie zijn job verliest",
             "een pensioen",
             "een ziekte-uitkering"
           ],
@@ -5995,7 +5995,7 @@
           "vraag": "Wat komt er bij een douane-unie bij ten opzichte van een vrijhandelszone?",
           "opties": [
             "een gemeenschappelijk buitentarief",
-            "een gemeenschappelijke munt",
+            "een gemeenschappelijke munt voor alle leden",
             "vrij verkeer van werknemers",
             "een gemeenschappelijke regering"
           ],
@@ -6064,7 +6064,7 @@
           "vraag": "Wat is de handelsbalans?",
           "opties": [
             "het overzicht van de export en de import van een land",
-            "de begroting van de overheid",
+            "de begroting van de overheid voor dat jaar, met alle uitgaven",
             "het overzicht van alle bankrekeningen",
             "de balans van een onderneming"
           ],
@@ -6212,7 +6212,7 @@
           "opties": [
             "het land moet lenen bij het buitenland",
             "de werkloosheid daalt altijd",
-            "de eigen munt wordt altijd sterker",
+            "de eigen munt wordt daardoor altijd sterker",
             "de export stijgt vanzelf"
           ],
           "antwoord": 0,
@@ -6229,7 +6229,7 @@
           "vraag": "Welk samenwerkingsverband is de Europese Unie minstens?",
           "opties": [
             "een gemeenschappelijke markt",
-            "enkel een vrijhandelszone",
+            "enkel een vrijhandelszone zonder buitentarief",
             "enkel een douane-unie",
             "geen enkel verband"
           ],
@@ -6330,7 +6330,7 @@
           "opties": [
             "goederen uit de partnerlanden worden goedkoper",
             "goederen uit de partnerlanden worden duurder",
-            "de handel tussen de landen stopt",
+            "de handel tussen de landen stopt, want ze concurreren niet meer",
             "de lonen worden overal gelijk"
           ],
           "antwoord": 0,
@@ -6347,7 +6347,7 @@
           "vraag": "Waar vind je statistieken over de Belgische buitenlandse handel?",
           "opties": [
             "bij het Agentschap voor Buitenlandse Handel",
-            "bij de Belgische Mededingingsautoriteit",
+            "bij de Belgische Mededingingsautoriteit in Brussel",
             "bij de Dienst Vreemdelingenzaken",
             "bij de RVA"
           ],
@@ -6365,7 +6365,7 @@
           "vraag": "Welk voordeel heeft een monetaire unie voor bedrijven?",
           "opties": [
             "geen wisselkoersrisico en geen wisselkosten binnen de unie",
-            "hogere invoerrechten op producten van buiten",
+            "hogere invoerrechten op alle producten die van buiten de unie komen",
             "lagere lonen in alle landen",
             "geen concurrentie meer"
           ],
@@ -6393,7 +6393,7 @@
           "opties": [
             "een gemeenschappelijke markt",
             "een vrijhandelszone",
-            "een monetaire unie",
+            "een monetaire unie met één munt",
             "een economische unie"
           ],
           "antwoord": 0,
@@ -6411,7 +6411,7 @@
           "vraag": "Waarom noemt men de wisselmarkt een markt met volkomen concurrentie?",
           "opties": [
             "veel kopers en verkopers van een homogeen product",
-            "er is maar één aanbieder van elke munt",
+            "er is maar één aanbieder van elke munt, namelijk de centrale bank",
             "de overheid legt alle koersen vast",
             "enkel banken mogen er kopen en verkopen"
           ],
@@ -6480,7 +6480,7 @@
           "vraag": "Wat is het wisselkoersrisico?",
           "opties": [
             "het risico dat een koerswijziging verlies oplevert",
-            "het risico dat een bank failliet gaat",
+            "het risico dat een bank failliet gaat en je spaargeld verdwijnt",
             "het risico dat een product beschadigd aankomt",
             "het risico dat de rente stijgt"
           ],
@@ -6534,7 +6534,7 @@
           "vraag": "Speculanten verwachten dat de euro zal stijgen. Wat doen ze en wat is het gevolg?",
           "opties": [
             "ze kopen nu euro's, waardoor de euro al stijgt",
-            "ze verkopen nu euro's, waardoor de euro daalt",
+            "ze verkopen nu euro's, waardoor de euro nog voor de stijging daalt",
             "ze doen niets",
             "ze vragen de ECB om de koers vast te leggen"
           ],
@@ -6622,7 +6622,7 @@
           "vraag": "Wat is de betalingsbalans?",
           "opties": [
             "alle transacties van een land met het buitenland",
-            "enkel de export en import van goederen",
+            "enkel de export en de import van goederen, zonder diensten",
             "de begroting van de overheid",
             "de balans van de Nationale Bank"
           ],
@@ -6682,7 +6682,7 @@
           "vraag": "Een Belgische werknemer stuurt een deel van zijn loon naar familie in Marokko. Waar komt dat?",
           "opties": [
             "de lopende rekening (secundaire inkomens)",
-            "de lopende rekening (primaire inkomens)",
+            "de lopende rekening (primaire inkomens uit arbeid)",
             "de kapitaalrekening",
             "de lopende rekening (goederen)"
           ],
@@ -6745,7 +6745,7 @@
           "vraag": "Wat is de hoofdtaak van de Wereldbank?",
           "opties": [
             "armoede bestrijden met ontwikkelingsleningen",
-            "de wisselkoersen van alle munten vastleggen",
+            "de wisselkoersen van alle munten ter wereld vastleggen",
             "de euro uitgeven",
             "kartels opsporen"
           ],
@@ -6757,7 +6757,7 @@
           "vraag": "Wat doet de OESO?",
           "opties": [
             "onderzoek en beleidsadvies voor haar lidstaten",
-            "leningen geven aan landen in crisis",
+            "leningen geven aan landen in crisis, met strenge voorwaarden",
             "bankbiljetten drukken voor de eurozone",
             "de olieprijs bepalen voor de hele wereld"
           ],
@@ -6857,7 +6857,7 @@
             "wat de economie normaal kan produceren",
             "het bbp van het vorige jaar",
             "het bbp in lopende prijzen",
-            "het hoogste bbp ooit gemeten"
+            "het hoogste bbp dat ooit in het land gemeten is"
           ],
           "antwoord": 0,
           "uitleg": "Het is het niveau zonder overbelasting en zonder onderbenutting."
@@ -6897,7 +6897,7 @@
           "vraag": "Wanneer spreekt men gewoonlijk van een recessie?",
           "opties": [
             "als het reëel bbp twee kwartalen na elkaar daalt",
-            "als de inflatie hoger is dan 2 %",
+            "als de inflatie twee kwartalen na elkaar hoger is dan 2 %",
             "als de beurs één dag daalt",
             "als de werkloosheid onder 5 % zakt"
           ],
@@ -6939,7 +6939,7 @@
           "vraag": "Wat is een exogene verklaring voor conjunctuurschommelingen?",
           "opties": [
             "een oorzaak van buiten de economie, zoals een pandemie of oorlog",
-            "een oorzaak binnen de economie, zoals te veel investeringen",
+            "een oorzaak binnen de economie, zoals te veel investeringen op één moment",
             "een fout in de statistieken",
             "een verandering in de trendlijn"
           ],
@@ -7002,7 +7002,7 @@
           "vraag": "Wat gebeurt er meestal tijdens een recessie?",
           "opties": [
             "de werkloosheid stijgt en de faillissementen nemen toe",
-            "de werkloosheid daalt en de investeringen stijgen",
+            "de werkloosheid daalt en de investeringen stijgen opnieuw",
             "het consumentenvertrouwen stijgt sterk",
             "de inflatie schiet omhoog"
           ],
@@ -7020,7 +7020,7 @@
           "vraag": "Het reëel bbp is 480, het potentieel bbp 500 (miljard euro). Wat besluit je?",
           "opties": [
             "er is een negatieve outputkloof van 20: onderbesteding",
-            "er is een positieve outputkloof van 20: overbesteding",
+            "er is een positieve outputkloof van 20: overbesteding en inflatie",
             "er is een bestedingsevenwicht",
             "het land heeft een begrotingstekort van 20"
           ],
@@ -7140,7 +7140,7 @@
           "opties": [
             "de lonen van leerkrachten",
             "de btw op een aankoop",
-            "de personenbelasting",
+            "de personenbelasting die je via je loonbrief betaalt",
             "een sociale bijdrage"
           ],
           "antwoord": 0,
@@ -7157,7 +7157,7 @@
           "vraag": "Wat gebeurt er meestal met het begrotingssaldo tijdens een recessie?",
           "opties": [
             "het verslechtert: minder belastingen en meer uitkeringen",
-            "het verbetert: meer belastingen en minder uitkeringen",
+            "het verbetert: meer belastingen en minder uitkeringen door de crisis",
             "het blijft altijd gelijk",
             "het wordt automatisch nul"
           ],
@@ -7223,7 +7223,7 @@
           "vraag": "Wat is een crisis in de conjunctuurbeweging?",
           "opties": [
             "een plotse en scherpe omslag naar een neergang",
-            "een rustige periode van gemiddelde groei",
+            "een rustige periode van gemiddelde groei en stabiele prijzen",
             "een begrotingsoverschot",
             "een periode met stijgende lonen"
           ],
@@ -7337,7 +7337,7 @@
           "vraag": "Waarom stijgt het inkomen meer dan de extra investering?",
           "opties": [
             "de uitgave wordt inkomen voor anderen, die verder besteden",
-            "de prijzen stijgen mee met de investering",
+            "de prijzen stijgen mee met de investering en blazen het inkomen op",
             "de overheid verdubbelt elke investering",
             "het sparen stijgt sterker dan het inkomen"
           ],
@@ -7356,7 +7356,7 @@
           "opties": [
             "het deel van het extra inkomen dat gespaard wordt",
             "geld dat uit een bankkluis verdwijnt",
-            "spaargeld dat naar het buitenland gaat",
+            "spaargeld dat naar een bank in het buitenland gaat",
             "de rente die banken niet uitbetalen"
           ],
           "antwoord": 0,
@@ -7385,7 +7385,7 @@
           "vraag": "Wat stelt de 45°-lijn voor in de grafiek van het inkomensevenwicht?",
           "opties": [
             "de punten waar bestedingen gelijk zijn aan Y",
-            "de consumptiefunctie van de gezinnen",
+            "de consumptiefunctie van de gezinnen bij elk inkomen",
             "de autonome investeringen van bedrijven",
             "het sparen bij elk inkomen"
           ],
@@ -7451,7 +7451,7 @@
           "vraag": "Wat is de effectieve vraag?",
           "opties": [
             "de bestedingen waarvoor ook koopkracht is",
-            "alles wat mensen zouden willen hebben",
+            "alles wat mensen zouden willen hebben, ook zonder geld",
             "de vraag van de overheid alleen",
             "de vraag naar arbeid"
           ],
@@ -7623,7 +7623,7 @@
           "vraag": "Wat gebeurt er op lange termijn na een positieve vraagschok, als de AA-curve op lange termijn verticaal is?",
           "opties": [
             "het bbp keert terug naar het potentieel, het prijspeil blijft hoger",
-            "het reëel bbp blijft voorgoed hoger",
+            "het reëel bbp blijft voorgoed hoger, want de vraag blijft blijvend groot",
             "het prijspeil keert terug en het bbp blijft hoger",
             "beide dalen onder het oude niveau"
           ],
@@ -7696,7 +7696,7 @@
           "vraag": "Wat is inflatie?",
           "opties": [
             "een algemene en aanhoudende stijging van het prijspeil",
-            "een prijsstijging van één enkel product in de winkel",
+            "een prijsstijging van één enkel product in de winkel, bijvoorbeeld brood",
             "een daling van de lonen van alle werknemers",
             "een stijging van de export naar het buitenland"
           ],
@@ -7726,7 +7726,7 @@
           "vraag": "De vraag in de economie is groter dan wat er geproduceerd kan worden, en de prijzen stijgen. Welke inflatie?",
           "opties": [
             "bestedingsinflatie",
-            "kosteninflatie",
+            "kosteninflatie door hogere lonen",
             "importinflatie",
             "krimpflatie"
           ],
@@ -7774,7 +7774,7 @@
           "vraag": "Wat is beknibbelflatie?",
           "opties": [
             "de kwaliteit of service daalt, de prijs blijft gelijk",
-            "de verpakking wordt groter, de prijs blijft gelijk",
+            "de verpakking wordt groter, maar de prijs blijft gewoon gelijk",
             "de prijs daalt elke maand",
             "de overheid knibbelt op de lonen"
           ],
@@ -7892,7 +7892,7 @@
           "vraag": "Welke inflatie volgt de hoog- en laagconjunctuur?",
           "opties": [
             "conjuncturele inflatie",
-            "structurele inflatie",
+            "structurele inflatie door de lonen",
             "importinflatie",
             "krimpflatie"
           ],
@@ -7929,7 +7929,7 @@
           "vraag": "Wat stelt V voor in de ruilvergelijking van Fisher?",
           "opties": [
             "de omloopsnelheid van het geld",
-            "het volume van de productie",
+            "het volume van de productie in het land",
             "de waarde van de munt",
             "de verkoopprijs"
           ],
@@ -7959,7 +7959,7 @@
           "vraag": "Welk inflatiedoel streeft de ECB na?",
           "opties": [
             "2 % op middellange termijn",
-            "0 % elk jaar",
+            "0 % elk jaar, zonder uitzondering",
             "5 % per jaar",
             "zo hoog mogelijk"
           ],
@@ -8046,7 +8046,7 @@
           "vraag": "Waarom wordt de gezondheidsindex gebruikt in plaats van de gewone CPI voor de loonindexering?",
           "opties": [
             "om te vermijden dat duurdere tabak, alcohol en brandstof de lonen opdrijven",
-            "omdat de CPI te laag is",
+            "omdat de gewone CPI te laag uitvalt om de lonen en de uitkeringen correct aan te passen",
             "omdat de CPI niet bestaat in België",
             "omdat de ECB dat verplicht"
           ],
@@ -8092,7 +8092,7 @@
           "opties": [
             "zijn koopkracht daalt met ongeveer 3 %",
             "zijn koopkracht stijgt met 3 %",
-            "zijn koopkracht blijft gelijk",
+            "zijn koopkracht blijft gelijk, want zijn loon verandert niet",
             "zijn loon stijgt automatisch met 3 %"
           ],
           "antwoord": 0,
@@ -8109,7 +8109,7 @@
           "vraag": "Een sterke stijging van de overheidsuitgaven tijdens een hoogconjunctuur kan leiden tot ...",
           "opties": [
             "bestedingsinflatie",
-            "importinflatie",
+            "importinflatie door duurdere grondstoffen",
             "deflatie",
             "krimpflatie"
           ],
@@ -8158,7 +8158,7 @@
           "vraag": "In welke fase kies je je methode en maak je een planning?",
           "opties": [
             "voorbereiden",
-            "oriënteren",
+            "oriënteren op het onderwerp",
             "rapporteren",
             "reflecteren"
           ],
@@ -8207,7 +8207,7 @@
           "opties": [
             "je kan ze beantwoorden met de tijd en middelen die je hebt",
             "het antwoord is al bekend",
-            "ze gaat over een onderwerp dat iedereen leuk vindt",
+            "ze gaat over een onderwerp dat iedereen in de klas leuk vindt",
             "ze is met ja of nee te beantwoorden"
           ],
           "antwoord": 0,
@@ -8340,7 +8340,7 @@
           "opties": [
             "een deel van de populatie dat je bevraagt",
             "de hele populatie",
-            "de vragenlijst van een enquête",
+            "de vragenlijst die je bij een enquête uitdeelt",
             "het besluit van je onderzoek"
           ],
           "antwoord": 0,
@@ -8370,7 +8370,7 @@
           "opties": [
             "een kenmerk dat verschillende waarden kan aannemen",
             "een vraag die je altijd overslaat",
-            "een fout in je enquête",
+            "een fout in je enquête die je achteraf moet verbeteren",
             "het aantal deelnemers"
           ],
           "antwoord": 0,
@@ -8428,7 +8428,7 @@
             "Hoe evolueerde de inflatie en waarom stegen de lonen?",
             "Hoe evolueerde de inflatie in België sinds 2020?",
             "Welke factoren verklaren de inflatie in 2022?",
-            "Hoeveel bedroeg de inflatie in België in 2023?"
+            "Hoeveel bedroeg de inflatie in België in 2023, maand per maand?"
           ],
           "antwoord": 0,
           "uitleg": "Er zitten twee vragen in één zin."

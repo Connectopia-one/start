@@ -26,7 +26,7 @@ DEEL1 = [
         vraag="Wat komt er bij een douane-unie bij ten opzichte van een vrijhandelszone?",
         opties=[
             "een gemeenschappelijk buitentarief",
-            "een gemeenschappelijke munt",
+            "een gemeenschappelijke munt voor alle leden",
             "vrij verkeer van werknemers",
             "een gemeenschappelijke regering",
         ],
@@ -87,7 +87,7 @@ DEEL1 = [
         vraag="Wat is de handelsbalans?",
         opties=[
             "het overzicht van de export en de import van een land",
-            "de begroting van de overheid",
+            "de begroting van de overheid voor dat jaar, met alle uitgaven",
             "het overzicht van alle bankrekeningen",
             "de balans van een onderneming",
         ],
@@ -208,7 +208,7 @@ DEEL2 = [
         opties=[
             "het land moet lenen bij het buitenland",
             "de werkloosheid daalt altijd",
-            "de eigen munt wordt altijd sterker",
+            "de eigen munt wordt daardoor altijd sterker",
             "de export stijgt vanzelf",
         ],
         antwoord=0,
@@ -223,7 +223,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welk samenwerkingsverband is de Europese Unie minstens?",
-        opties=["een gemeenschappelijke markt", "enkel een vrijhandelszone", "enkel een douane-unie", "geen enkel verband"],
+        opties=["een gemeenschappelijke markt", "enkel een vrijhandelszone zonder buitentarief", "enkel een douane-unie", "geen enkel verband"],
         antwoord=0,
         uitleg="De EU heeft een interne markt met de vier vrijheden. Twintig landen vormen ook een monetaire unie met de euro.",
     ),
@@ -306,7 +306,7 @@ DEEL2 = [
         opties=[
             "goederen uit de partnerlanden worden goedkoper",
             "goederen uit de partnerlanden worden duurder",
-            "de handel tussen de landen stopt",
+            "de handel tussen de landen stopt, want ze concurreren niet meer",
             "de lonen worden overal gelijk",
         ],
         antwoord=0,
@@ -323,7 +323,7 @@ DEEL2 = [
         vraag="Waar vind je statistieken over de Belgische buitenlandse handel?",
         opties=[
             "bij het Agentschap voor Buitenlandse Handel",
-            "bij de Belgische Mededingingsautoriteit",
+            "bij de Belgische Mededingingsautoriteit in Brussel",
             "bij de Dienst Vreemdelingenzaken",
             "bij de RVA",
         ],
@@ -341,7 +341,7 @@ DEEL2 = [
         vraag="Welk voordeel heeft een monetaire unie voor bedrijven?",
         opties=[
             "geen wisselkoersrisico en geen wisselkosten binnen de unie",
-            "hogere invoerrechten op producten van buiten",
+            "hogere invoerrechten op alle producten die van buiten de unie komen",
             "lagere lonen in alle landen",
             "geen concurrentie meer",
         ],
@@ -363,7 +363,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke stap volgt na een douane-unie?",
-        opties=["een gemeenschappelijke markt", "een vrijhandelszone", "een monetaire unie", "een economische unie"],
+        opties=["een gemeenschappelijke markt", "een vrijhandelszone", "een monetaire unie met één munt", "een economische unie"],
         antwoord=0,
         uitleg="Daarna volgen de economische unie en de monetaire unie.",
     ),

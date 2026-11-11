@@ -19,7 +19,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="In de winkel staat elke prijs in euro, zodat je producten kan vergelijken. Welke functie van geld?",
-        opties=["waardemeter en rekeneenheid", "ruil- en betaalmiddel", "spaar- en beleggingsmiddel", "kredietmiddel"],
+        opties=["waardemeter en rekeneenheid", "ruil- en betaalmiddel aan de kassa", "spaar- en beleggingsmiddel", "kredietmiddel"],
         antwoord=0,
         uitleg="Alle waarden worden in dezelfde eenheid uitgedrukt.",
     ),
@@ -47,7 +47,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat is giraal geld?",
-        opties=["tegoeden op zichtrekeningen", "munten en bankbiljetten", "goudstaven in een kluis", "aandelen op de beurs"],
+        opties=["tegoeden op zichtrekeningen", "munten en bankbiljetten in je portefeuille", "goudstaven in een kluis", "aandelen op de beurs"],
         antwoord=0,
         uitleg="Je betaalt ermee via overschrijving of bankkaart.",
     ),
@@ -56,7 +56,7 @@ DEEL1 = [
         vraag="Wat is quasigeld?",
         opties=[
             "tegoeden die je snel kan omzetten",
-            "vals geld dat op echt geld lijkt",
+            "vals geld dat op echt geld lijkt en in omloop is",
             "munten uit een ander land",
             "speelgeld voor kinderen",
         ],
@@ -99,7 +99,7 @@ DEEL1 = [
         vraag="Wat is de maatschappelijke geldhoeveelheid M1?",
         opties=[
             "chartaal geld plus giraal geld",
-            "enkel munten en biljetten",
+            "enkel munten en biljetten, zonder rekeningen",
             "alle spaarrekeningen",
             "het geld van de overheid",
         ],
@@ -158,7 +158,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Een bank geeft een lening van 10 000 euro en zet dat bedrag op de zichtrekening van de klant. Wat gebeurt er met M1?",
-        opties=["M1 stijgt met 10 000 euro", "M1 daalt met 10 000 euro", "M1 blijft gelijk", "M1 wordt nul"],
+        opties=["M1 stijgt met 10 000 euro", "M1 daalt met 10 000 euro", "M1 blijft gelijk, want het is maar krediet", "M1 wordt nul"],
         antwoord=0,
         uitleg="Er ontstaat nieuw giraal geld: geldschepping.",
     ),
@@ -188,7 +188,7 @@ DEEL2 = [
         vraag="Welke rol hebben commerciële banken bij geldschepping?",
         opties=[
             "ze scheppen giraal geld met kredieten",
-            "ze drukken zelf bankbiljetten",
+            "ze drukken zelf nieuwe bankbiljetten voor hun klanten",
             "ze slaan alle euromunten",
             "ze bepalen de beleidsrente",
         ],
@@ -200,7 +200,7 @@ DEEL2 = [
         vraag="Waarom kunnen commerciële banken niet onbeperkt geld scheppen?",
         opties=[
             "ze moeten reserves en kapitaal aanhouden",
-            "ze mogen elk jaar maar één lening geven",
+            "ze mogen elk jaar maar één lening per klant geven",
             "de klanten weigeren leningen",
             "de overheid koopt alle leningen op",
         ],
@@ -263,7 +263,7 @@ DEEL2 = [
         opties=[
             "elektronisch geld op een kaart of in een app",
             "geld dat je via e-mail opstuurt",
-            "een cryptomunt zoals bitcoin of ether",
+            "een cryptomunt zoals bitcoin of ether, op de blockchain",
             "geld van een buitenlandse bank",
         ],
         antwoord=0,
@@ -278,7 +278,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke soort geld hoort bij quasigeld?",
-        opties=["een termijnrekening van zes maanden", "een bankbiljet van 20 euro", "een zichtrekening bij de bank", "een muntstuk van 2 euro"],
+        opties=["een termijnrekening van zes maanden", "een bankbiljet van 20 euro in je portefeuille", "een zichtrekening bij de bank", "een muntstuk van 2 euro"],
         antwoord=0,
         uitleg="Het geld is niet meteen bruikbaar, maar wel vrij snel.",
     ),
@@ -288,7 +288,7 @@ DEEL2 = [
         opties=[
             "ze vertrouwen dat anderen ze aanvaarden",
             "het papier zelf is veel waard",
-            "elk biljet is gedekt door goud",
+            "elk biljet is gedekt door goud in de kluis van de bank",
             "de bank betaalt rente op elk biljet",
         ],
         antwoord=0,

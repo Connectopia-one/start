@@ -93,7 +93,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke stromen gaan van de gezinnen naar de overheid?",
-        opties=["belastingen en sociale bijdragen", "uitkeringen", "subsidies", "ambtenarenlonen"],
+        opties=["belastingen en sociale bijdragen", "uitkeringen, pensioenen en kinderbijslag", "subsidies", "ambtenarenlonen"],
         antwoord=0,
         uitleg="Uitkeringen en ambtenarenlonen gaan in de andere richting, van de overheid naar de gezinnen.",
     ),
@@ -174,14 +174,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Wat stelt (S − I) voor?",
-        opties=["het spaarsaldo van de particuliere sector", "het begrotingssaldo van de overheid", "het saldo van de handelsbalans", "de netto-investeringen van bedrijven"],
+        opties=["het spaarsaldo van de particuliere sector", "het begrotingssaldo van de overheid in dat jaar", "het saldo van de handelsbalans", "de netto-investeringen van bedrijven"],
         antwoord=0,
         uitleg="Sparen van gezinnen min investeringen van bedrijven.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat stelt (T − G) voor?",
-        opties=["het begrotingssaldo van de overheid", "het spaarsaldo van de gezinnen", "het saldo van de handelsbalans", "de belastingdruk op de gezinnen"],
+        opties=["het begrotingssaldo van de overheid", "het spaarsaldo van de gezinnen en de bedrijven", "het saldo van de handelsbalans", "de belastingdruk op de gezinnen"],
         antwoord=0,
         uitleg="Ontvangsten van de overheid min haar bestedingen. Negatief is een begrotingstekort.",
     ),
@@ -215,7 +215,7 @@ DEEL2 = [
         vraag="Een land heeft een overheidstekort, maar de particuliere sector spaart veel meer dan ze investeert. Wat kan je besluiten?",
         opties=[
             "het handelsbalanssaldo kan toch positief zijn",
-            "het land heeft zeker een handelstekort",
+            "het land heeft dan zeker een handelstekort met het buitenland",
             "de overheid heeft zeker een overschot",
             "er wordt niets geïnvesteerd",
         ],
@@ -289,7 +289,7 @@ DEEL2 = [
         vraag="Een Belgisch bedrijf koopt een machine in Duitsland. Hoe zie je dat in de kringloop van België?",
         opties=[
             "een investering (I) én een import (M)",
-            "enkel een export (X)",
+            "enkel een export (X), want het geld gaat naar Duitsland",
             "een overheidsbesteding (G)",
             "consumptie (C) van gezinnen",
         ],
@@ -305,7 +305,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Wat stelt (X − M) voor?",
-        opties=["het handelsbalanssaldo", "het begrotingssaldo", "het spaarsaldo", "de investeringen"],
+        opties=["het handelsbalanssaldo", "het begrotingssaldo van de overheid", "het spaarsaldo", "de investeringen"],
         antwoord=0,
         uitleg="Export min import.",
     ),

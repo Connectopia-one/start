@@ -69,7 +69,7 @@ VRAGEN = [
     ),
     met_prent(PB, mk(
         "Van E naar G: hoe noem je die combinatie van gevolgen?",
-        ["Stagflatie: hogere prijzen en minder productie", "Deflatie: dalende prijzen en meer productie",
+        ["Stagflatie: hogere prijzen en minder productie", "Deflatie: dalende prijzen en tegelijk meer productie",
          "Een positieve vraagschok", "Een bestedingsevenwicht"],
         0,
         "Het prijspeil stijgt van 6 naar 7 en het reëel bbp daalt van 8 naar 6.",
@@ -116,7 +116,7 @@ VRAGEN = [
     mk(
         "Waarom levert een extra uitgave meer inkomen op dan de uitgave zelf?",
         ["De uitgave wordt inkomen voor anderen, die verder besteden", "De overheid verdubbelt elke extra uitgave",
-         "De prijzen stijgen, waardoor het inkomen groter lijkt", "Banken scheppen bij elke uitgave nieuw geld"],
+         "De prijzen stijgen, waardoor het inkomen groter lijkt", "Banken scheppen bij elke uitgave nieuw geld voor de klanten"],
         0,
         "Bij elke ronde wordt een deel opnieuw besteed: het multiplicatoreffect.",
     ),
@@ -158,7 +158,7 @@ VRAGEN = [
     mk(
         "De Vlaamse regering wil de rente in de eurozone verlagen om de economie te steunen. Kan dat?",
         ["Nee, dat kan enkel de Europese Centrale Bank", "Ja, elke regering bepaalt haar eigen rente",
-         "Ja, als de federale regering akkoord gaat", "Nee, de rente wordt bepaald door het IMF"],
+         "Ja, als de federale regering ermee akkoord gaat", "Nee, de rente wordt bepaald door het IMF"],
         0,
         "Monetair beleid is voor de eurozone in handen van de ECB.",
     ),
@@ -203,7 +203,7 @@ VRAGEN = [
     ),
     mk(
         "Je tekent een AV-AA-schema. Wat zet je op de assen?",
-        ["Het algemeen prijspeil en het reëel bbp", "De rente en de hoeveelheid krediet",
+        ["Het algemeen prijspeil en het reëel bbp", "De rente en de hoeveelheid krediet in de economie",
          "Het inkomen Y en de bestedingen", "De koers en de hoeveelheid euro"],
         0,
         "In tegenstelling tot het vereenvoudigd model mogen de prijzen hier wel veranderen.",

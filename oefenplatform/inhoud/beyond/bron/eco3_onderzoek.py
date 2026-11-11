@@ -32,7 +32,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="In welke fase kies je je methode en maak je een planning?",
-        opties=["voorbereiden", "oriënteren", "rapporteren", "reflecteren"],
+        opties=["voorbereiden", "oriënteren op het onderwerp", "rapporteren", "reflecteren"],
         antwoord=0,
         uitleg="Je beslist hoe je gegevens zal verzamelen, bij wie en wanneer.",
     ),
@@ -78,7 +78,7 @@ DEEL1 = [
         opties=[
             "je kan ze beantwoorden met de tijd en middelen die je hebt",
             "het antwoord is al bekend",
-            "ze gaat over een onderwerp dat iedereen leuk vindt",
+            "ze gaat over een onderwerp dat iedereen in de klas leuk vindt",
             "ze is met ja of nee te beantwoorden",
         ],
         antwoord=0,
@@ -186,7 +186,7 @@ DEEL2 = [
         opties=[
             "een deel van de populatie dat je bevraagt",
             "de hele populatie",
-            "de vragenlijst van een enquête",
+            "de vragenlijst die je bij een enquête uitdeelt",
             "het besluit van je onderzoek",
         ],
         antwoord=0,
@@ -216,7 +216,7 @@ DEEL2 = [
         opties=[
             "een kenmerk dat verschillende waarden kan aannemen",
             "een vraag die je altijd overslaat",
-            "een fout in je enquête",
+            "een fout in je enquête die je achteraf moet verbeteren",
             "het aantal deelnemers",
         ],
         antwoord=0,
@@ -261,7 +261,7 @@ DEEL2 = [
             "Hoe evolueerde de inflatie en waarom stegen de lonen?",
             "Hoe evolueerde de inflatie in België sinds 2020?",
             "Welke factoren verklaren de inflatie in 2022?",
-            "Hoeveel bedroeg de inflatie in België in 2023?",
+            "Hoeveel bedroeg de inflatie in België in 2023, maand per maand?",
         ],
         antwoord=0,
         uitleg="Er zitten twee vragen in één zin.",

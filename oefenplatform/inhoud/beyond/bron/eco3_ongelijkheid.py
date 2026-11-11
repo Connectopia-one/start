@@ -30,7 +30,7 @@ DEEL1 = [
         vraag="Wat toont de categoriale inkomensverdeling?",
         opties=[
             "hoe het inkomen verdeeld is over de productiefactoren",
-            "hoe het inkomen verdeeld is over mannen en vrouwen",
+            "hoe het inkomen verdeeld is over mannen en vrouwen in het hele land",
             "hoe het inkomen verdeeld is over jongeren en ouderen",
             "hoe het inkomen verdeeld is over de gemeenten",
         ],
@@ -43,7 +43,7 @@ DEEL1 = [
         opties=[
             "het cumulatieve % bevolking en inkomen",
             "de prijs en de hoeveelheid",
-            "de tijd en het bbp",
+            "de tijd en het bbp per inwoner, per jaar",
             "het loon en de werkloosheid",
         ],
         antwoord=0,
@@ -61,7 +61,7 @@ DEEL1 = [
         opties=[
             "in land A is het inkomen ongelijker verdeeld",
             "in land A is het inkomen gelijker verdeeld",
-            "land A is rijker dan land B",
+            "land A is rijker dan land B, gemeten in bbp per inwoner",
             "land A heeft minder inwoners",
         ],
         antwoord=0,
@@ -116,7 +116,7 @@ DEEL1 = [
         vraag="Wat is de genderloonkloof?",
         opties=[
             "het verschil in gemiddeld loon tussen mannen en vrouwen",
-            "het verschil in loon tussen jongeren en ouderen",
+            "het verschil in loon tussen jongeren en ouderen in hetzelfde beroep",
             "het verschil tussen bruto- en nettoloon",
             "het verschil in loon tussen gewesten",
         ],
@@ -135,7 +135,7 @@ DEEL1 = [
         opties=[
             "als zijn inkomen onder 60 % van de mediaan ligt",
             "als hij geen eigen woning heeft",
-            "als hij minder verdient dan het gemiddelde",
+            "als hij minder verdient dan het gemiddelde van alle inwoners",
             "als hij geen auto heeft",
         ],
         antwoord=0,
@@ -159,7 +159,7 @@ DEEL1 = [
         opties=[
             "ernstige materiële en sociale deprivatie",
             "het gemiddelde loon van werknemers",
-            "de groei van het bbp per inwoner",
+            "de groei van het bbp per inwoner, per jaar",
             "het aantal werklozen per gewest",
         ],
         antwoord=0,
@@ -209,7 +209,7 @@ DEEL2 = [
         vraag="Waarom verkleint een progressieve personenbelasting de ongelijkheid?",
         opties=[
             "hogere inkomens betalen een groter percentage",
-            "iedereen betaalt precies hetzelfde bedrag",
+            "iedereen betaalt precies hetzelfde bedrag, hoe groot zijn inkomen ook is",
             "lage inkomens betalen meer dan hoge",
             "enkel bedrijven betalen belasting",
         ],
@@ -221,7 +221,7 @@ DEEL2 = [
         vraag="Hoe wordt de personenbelasting in België berekend?",
         opties=[
             "elke hogere inkomensschijf krijgt een hoger tarief",
-            "iedereen betaalt 25 % op het hele inkomen",
+            "iedereen betaalt 25 % op het hele inkomen, zonder schijven",
             "enkel het inkomen boven 100 000 euro wordt belast",
             "het bedrag hangt enkel af van de leeftijd",
         ],
@@ -316,7 +316,7 @@ DEEL2 = [
         opties=[
             "de inkomensongelijkheid neemt toe",
             "de inkomensongelijkheid neemt af",
-            "het land wordt rijker",
+            "het land wordt rijker per inwoner",
             "het land wordt armer",
         ],
         antwoord=0,
@@ -367,7 +367,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke van deze maatregelen is een fiscale maatregel om inkomen te herverdelen?",
-        opties=["een progressieve personenbelasting", "een werkloosheidsuitkering", "een pensioen", "een ziekte-uitkering"],
+        opties=["een progressieve personenbelasting", "een werkloosheidsuitkering voor wie zijn job verliest", "een pensioen", "een ziekte-uitkering"],
         antwoord=0,
         uitleg="De andere drie zijn sociale maatregelen via de sociale zekerheid.",
     ),

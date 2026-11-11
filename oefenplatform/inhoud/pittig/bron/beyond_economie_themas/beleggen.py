@@ -179,7 +179,7 @@ VRAGEN = [
                 "3 % van 10 000 = 300 euro."),
             mk("Lotte koopt de obligatie. Het bedrijf raakt in financiële problemen. Wat is het risico?",
                ["Ze krijgt haar geld misschien niet volledig terug", "Ze moet extra geld bijstorten",
-                "Ze wordt automatisch aandeelhouder met stemrecht", "Er is geen risico, want de coupon ligt vast"], 0,
+                "Ze wordt automatisch aandeelhouder met stemrecht in het bedrijf", "Er is geen risico, want de coupon ligt vast"], 0,
                "Het rendement van een obligatie hangt ook af van de kredietwaardigheid van de uitgever."),
         ],
     ),

@@ -35,7 +35,7 @@ DEEL1 = [
         vraag="Wat kenmerkt een oligopolie?",
         opties=[
             "enkele grote aanbieders die van elkaar afhankelijk zijn",
-            "veel kleine aanbieders van gelijkaardige producten",
+            "veel kleine aanbieders van gelijkaardige producten op dezelfde markt",
             "één aanbieder die de hele markt bedient",
             "veel aanbieders zonder enige productdifferentiatie",
         ],
@@ -45,7 +45,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Een stad heeft honderden restaurants, elk met een eigen keuken en sfeer. Welke marktvorm?",
-        opties=["monopolistische concurrentie", "oligopolie", "monopolie", "volkomen concurrentie"],
+        opties=["monopolistische concurrentie", "oligopolie van enkele grote ketens", "monopolie", "volkomen concurrentie"],
         antwoord=0,
         uitleg="Veel aanbieders, gedifferentieerd product, vrije toetreding.",
     ),
@@ -205,7 +205,7 @@ DEEL2 = [
         vraag="Wat is een best-response strategie?",
         opties=[
             "de beste keuze voor een speler, gegeven wat de andere speler doet",
-            "de keuze die voor beide spelers samen het beste is",
+            "de keuze die voor beide spelers samen het allerbeste uitvalt, ook op lange termijn",
             "de keuze die de overheid aanraadt",
             "de keuze die de tegenstander het meest schade toebrengt",
         ],
@@ -274,7 +274,7 @@ DEEL2 = [
         vraag="Wat is het gevangenendilemma?",
         opties=[
             "eigenbelang leidt tot een slechtere uitkomst voor beide",
-            "een spel waarin één van de spelers altijd wint",
+            "een spel waarin één van de spelers altijd wint, wat de ander ook doet",
             "een spel waarin samenwerken door de wet verboden is",
             "een spel waarin er geen enkel Nash-evenwicht bestaat",
         ],
@@ -298,7 +298,7 @@ DEEL2 = [
         vraag="Waarom zijn kartels volgens de speltheorie vaak niet stabiel?",
         opties=[
             "elk lid wint erbij door stiekem een lagere prijs te vragen",
-            "de leden hebben altijd precies dezelfde kosten",
+            "de leden hebben altijd precies dezelfde kosten en dezelfde klanten",
             "de consumenten weigeren bij een kartel te kopen",
             "een kartel mag volgens de wet maar één jaar bestaan",
         ],

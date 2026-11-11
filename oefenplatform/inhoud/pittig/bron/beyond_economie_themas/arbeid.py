@@ -35,7 +35,7 @@ VRAGEN = [
     )),
     met_prent(P, mk(
         "Wat stelt punt E voor?",
-        ["Het evenwichtsloon en de evenwichtstewerkstelling", "Het minimumloon en het aantal werklozen",
+        ["Het evenwichtsloon en de evenwichtstewerkstelling", "Het minimumloon en het aantal werklozen bij dat loon",
          "Het hoogste loon dat werkgevers kunnen betalen", "Het aantal mensen op arbeidsleeftijd"],
         0,
         "In het snijpunt van vraag en aanbod van arbeid: loon 12 en 800 werkenden.",
@@ -194,7 +194,7 @@ VRAGEN = [
     ),
     mk(
         "Waarom daalt de vraagcurve naar arbeid?",
-        ["Bij een hoger loon vragen werkgevers minder arbeid", "Bij een hoger loon willen minder mensen werken",
+        ["Bij een hoger loon vragen werkgevers minder arbeid", "Bij een hoger loon willen minder mensen gaan werken",
          "Bij een lager loon stijgt de werkloosheid", "Bij een hoger loon stijgt de beroepsbevolking"],
         0,
         "Werkgevers zijn de vragers. Arbeid wordt duurder, dus ze nemen minder mensen in dienst.",

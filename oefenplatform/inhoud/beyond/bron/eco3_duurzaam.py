@@ -26,7 +26,7 @@ DEEL1 = [
         vraag="Wat stellen de twee ringen van de donuteconomie voor?",
         opties=[
             "een sociaal fundament en een ecologisch plafond",
-            "de export en de import van een land",
+            "de export en de import van een land, binnen en buiten de grens",
             "de vraag en het aanbod op de markt",
             "de rijke en de arme landen van de wereld",
         ],
@@ -86,7 +86,7 @@ DEEL1 = [
         vraag="Wat betekent duurzame ontwikkeling?",
         opties=[
             "voorzien in de behoeften van nu zonder die van later in gevaar te brengen",
-            "zo snel mogelijk groeien zodat er later meer te verdelen is",
+            "zo snel mogelijk groeien, zodat er later meer te verdelen is voor iedereen",
             "enkel nog producten maken die lang meegaan",
             "de natuur beschermen, ook als mensen daardoor tekortkomen",
         ],
@@ -185,7 +185,7 @@ DEEL1 = [
         opties=[
             "er zijn minder producten nodig voor hetzelfde gebruik",
             "er worden meer nieuwe producten gekocht",
-            "de prijzen stijgen, zodat mensen minder kopen",
+            "de prijzen stijgen, zodat mensen minder nieuwe spullen kopen",
             "de overheid verbiedt het bezit van auto's",
         ],
         antwoord=0,
@@ -213,7 +213,7 @@ DEEL2 = [
         opties=[
             "tekorten, zoals honger of geen toegang tot onderwijs",
             "overschrijding van de grenzen van de planeet",
-            "de veilige en rechtvaardige ruimte",
+            "de veilige en rechtvaardige ruimte voor iedereen op aarde",
             "de winst van de bedrijven",
         ],
         antwoord=0,
@@ -254,7 +254,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Bij welke kernwaarde hoort 'partnerschap om de doelen te bereiken'?",
-        opties=["Partnership", "Peace", "Prosperity", "Planet"],
+        opties=["Partnership", "Peace, want samenwerken brengt vrede", "Prosperity", "Planet"],
         antwoord=0,
         uitleg="SDG 17 gaat over samenwerking tussen landen, bedrijven en organisaties.",
     ),
@@ -347,7 +347,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke SDG-kernwaarde past bij 'waardig werk en economische groei'?",
-        opties=["Prosperity", "Planet", "Peace", "People"],
+        opties=["Prosperity", "Planet", "Peace", "People, want het gaat over mensen"],
         antwoord=0,
         uitleg="Prosperity gaat over welvaart in harmonie met de natuur.",
     ),
@@ -356,7 +356,7 @@ DEEL2 = [
         vraag="Een vliegmaatschappij zegt 'klimaatneutraal vliegen' omdat je voor 2 euro bomen kan laten planten, zonder te zeggen hoe ze dat controleert. Wat is het probleem?",
         opties=[
             "het kan greenwashing zijn: een groot groen beeld zonder bewijs",
-            "het is circulaire economie, dus er is geen probleem",
+            "het is circulaire economie, dus er is met die belofte geen enkel probleem",
             "het hoort bij de deeleconomie",
             "bomen planten is altijd verboden voor bedrijven",
         ],

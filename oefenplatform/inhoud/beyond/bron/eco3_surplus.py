@@ -49,7 +49,7 @@ DEEL1 = [
         vraag="Waar ligt het producentensurplus in een grafiek met vraag en aanbod?",
         opties=[
             "boven de aanbodcurve en onder de marktprijs",
-            "onder de vraagcurve en boven de marktprijs",
+            "onder de vraagcurve en boven de marktprijs, links van het evenwicht",
             "boven de vraagcurve",
             "rechts van de evenwichtshoeveelheid",
         ],
@@ -92,7 +92,7 @@ DEEL1 = [
         vraag="Wat betekent een Pareto-optimum?",
         opties=[
             "niemand kan beter worden zonder dat iemand anders slechter wordt",
-            "iedereen heeft precies hetzelfde inkomen",
+            "iedereen heeft precies hetzelfde inkomen en hetzelfde vermogen, zonder verschil",
             "de overheid verdeelt alle goederen eerlijk",
             "de producenten maken de grootst mogelijke winst",
         ],
@@ -128,7 +128,7 @@ DEEL1 = [
         vraag="De marktprijs ligt boven de evenwichtsprijs. Wat gebeurt er met de totale welvaart?",
         opties=[
             "ze is kleiner dan in het evenwicht",
-            "ze is groter dan in het evenwicht",
+            "ze is groter dan in het evenwicht, want er wordt duurder verkocht",
             "ze blijft gelijk",
             "ze wordt nul",
         ],
@@ -280,7 +280,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="In welk punt is de totale welvaart op een markt met volkomen concurrentie het grootst?",
-        opties=["in het marktevenwicht", "bij de hoogste prijs", "bij de laagste prijs", "waar de vraag nul is"],
+        opties=["in het marktevenwicht", "bij de hoogste prijs die kopers willen betalen", "bij de laagste prijs", "waar de vraag nul is"],
         antwoord=0,
         uitleg="Daar is de som van beide surplussen maximaal.",
     ),

@@ -100,7 +100,7 @@ DEEL1 = [
         opties=[
             "een maximale hoeveelheid die mag worden geproduceerd",
             "een minimale prijs voor een product",
-            "een belasting per geproduceerd stuk",
+            "een belasting per geproduceerd stuk, te betalen aan de overheid",
             "een subsidie voor nieuwe machines",
         ],
         antwoord=0,
@@ -112,7 +112,7 @@ DEEL1 = [
         opties=[
             "de prijs stijgt en er wordt minder verhandeld",
             "de prijs daalt en er wordt meer verhandeld",
-            "de prijs daalt en er wordt minder verhandeld",
+            "de prijs daalt en er wordt minder verhandeld dan voordien",
             "er verandert niets",
         ],
         antwoord=0,
@@ -136,7 +136,7 @@ DEEL1 = [
         vraag="Wat gebeurt er met de aanbodcurve als de overheid een belasting per stuk heft bij de producent?",
         opties=[
             "ze verschuift naar boven (naar links), met het bedrag van de belasting",
-            "ze verschuift naar beneden (naar rechts)",
+            "ze verschuift naar beneden (naar rechts), met het bedrag van de belasting",
             "ze wordt verticaal",
             "ze verandert niet",
         ],
@@ -263,7 +263,7 @@ DEEL2 = [
         vraag="Wat doet de overheid vaak met het overschot bij een minimumprijs voor landbouwproducten?",
         opties=[
             "ze koopt het op en slaat het op of verwerkt het",
-            "ze verbiedt de boeren nog te produceren",
+            "ze verbiedt de boeren om nog langer te produceren",
             "ze verlaagt de minimumprijs elke dag",
             "ze verplicht consumenten om alles te kopen",
         ],
@@ -281,7 +281,7 @@ DEEL2 = [
         vraag="Bij dat quotum van 30 vragen de producenten 70, terwijl hun aanbodcurve bij 30 maar 50 vraagt. Wie wint daarbij ten opzichte van de kopers?",
         opties=[
             "de producenten met een quotum: ze krijgen een hogere prijs",
-            "de consumenten: ze betalen minder",
+            "de consumenten: ze betalen minder per stuk dan in het evenwicht",
             "de overheid: ze ontvangt belastingen",
             "niemand: alles blijft zoals het evenwicht",
         ],

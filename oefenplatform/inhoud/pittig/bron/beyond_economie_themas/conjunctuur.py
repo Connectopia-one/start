@@ -34,7 +34,7 @@ VRAGEN = [
     ),
     met_prent(P, mk(
         "In welke fase zit de economie in punt B?",
-        ["In de neergaande fase: recessie", "In de opgaande fase: expansie", "Op het hoogtepunt: boom", "Op het dieptepunt: depressie"],
+        ["In de neergaande fase: recessie", "In de opgaande fase: expansie na een dal", "Op het hoogtepunt: boom", "Op het dieptepunt: depressie"],
         0,
         "Tussen de boom (A) en de depressie (C) daalt de activiteit: de neergaande fase.",
     )),

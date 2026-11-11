@@ -29,7 +29,7 @@ VRAGEN = [
     met_prent(P, mk(
         "Van A naar B: wat is er gebeurd?",
         ["De prijs van koffie daalde: een beweging op de vraagcurve",
-         "Het inkomen steeg: een verschuiving van de vraagcurve",
+         "Het inkomen steeg: een verschuiving van de vraagcurve naar rechts",
          "Thee werd goedkoper: een verschuiving naar links",
          "Koffie raakte uit de mode: een verschuiving naar links"],
         0,
@@ -140,7 +140,7 @@ VRAGEN = [
                ["−1,6", "−0,4", "−1", "−2,5"], 0,
                "Hoeveelheid van 10 naar 14: +40 %. Prijs van 4 naar 3: −25 %. E = 40 / −25 = −1,6."),
             mk("Wat gebeurt er met de omzet van de verkopers bij die prijsdaling?",
-               ["Ze stijgt van 40 naar 42 euro", "Ze daalt van 40 naar 36 euro", "Ze blijft 40 euro", "Ze daalt van 42 naar 40 euro"], 0,
+               ["Ze stijgt van 40 naar 42 euro", "Ze daalt van 40 naar 36 euro, want de prijs daalt", "Ze blijft 40 euro", "Ze daalt van 42 naar 40 euro"], 0,
                "4 · 10 = 40 euro en 3 · 14 = 42 euro. Bij een elastische vraag doet een prijsdaling de omzet stijgen."),
         ],
     ),

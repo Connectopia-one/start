@@ -84,7 +84,7 @@ DEEL1 = [
         vraag="Welke rol spelen banken tussen spaarders en kredietnemers?",
         opties=[
             "ze verzamelen spaargeld en lenen het uit",
-            "ze drukken geld voor spaarders",
+            "ze drukken zelf nieuw geld voor hun spaarders",
             "ze bepalen de wisselkoers",
             "ze innen belastingen op spaargeld",
         ],
@@ -134,7 +134,7 @@ DEEL1 = [
         vraag="Wat is een aandeel?",
         opties=[
             "een deel van de eigendom van een bedrijf",
-            "een lening aan de Belgische overheid",
+            "een lening aan de Belgische overheid met een vaste rente",
             "een rekening met vaste rente",
             "een fonds van een verzekeraar",
         ],
@@ -198,7 +198,7 @@ DEEL2 = [
         vraag="Wat is een beleggingsfonds (ICB)?",
         opties=[
             "een fonds dat geld van veel beleggers samen belegt",
-            "een spaarrekening met vaste rente",
+            "een spaarrekening met een vaste rente bij één bank",
             "een lening van de overheid",
             "een verzekering tegen werkloosheid",
         ],
@@ -210,7 +210,7 @@ DEEL2 = [
         vraag="Wat is het verschil tussen een bevek en een bevak?",
         opties=[
             "een bevek heeft een veranderlijk kapitaal, een bevak een vast kapitaal",
-            "een bevek belegt in aandelen, een bevak in obligaties",
+            "een bevek belegt enkel in aandelen, een bevak enkel in obligaties en vastgoed",
             "een bevek is Belgisch, een bevak buitenlands",
             "er is geen verschil",
         ],
@@ -234,7 +234,7 @@ DEEL2 = [
         vraag="Wat kenmerkt een Tak21-verzekering?",
         opties=[
             "gewaarborgd kapitaal met een gewaarborgde rente",
-            "geen enkele waarborg, gekoppeld aan fondsen",
+            "geen enkele waarborg, het rendement is gekoppeld aan fondsen",
             "een dividend van het bedrijf",
             "een stemrecht in de verzekeraar",
         ],

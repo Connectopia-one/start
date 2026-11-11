@@ -130,7 +130,7 @@
           "vraag": "De overheid heeft een groot begrotingstekort, maar het land heeft toch een handelsoverschot. Wat moet dan waar zijn?",
           "opties": [
             "De particulieren sparen veel meer dan ze investeren",
-            "De particulieren investeren meer dan ze sparen",
+            "De particulieren investeren veel meer dan ze sparen",
             "De overheid ontvangt meer dan ze uitgeeft",
             "De import is groter dan de export"
           ],
@@ -294,7 +294,7 @@
           "opties": [
             "De import stijgt even sterk",
             "De import daalt even sterk",
-            "De import blijft gelijk",
+            "De import blijft gelijk, want I hoort niet bij de handel",
             "De import halveert"
           ],
           "antwoord": 0,
@@ -325,7 +325,7 @@
           "vraag": "Waarom staan belastingen (T) in Y = T + C + S aan de kant van de gezinnen?",
           "opties": [
             "Het inkomen van de gezinnen gaat naar belastingen, consumptie en sparen",
-            "De gezinnen ontvangen de belastingen van de overheid als inkomen",
+            "De gezinnen ontvangen de belastingen van de overheid terug als een extra inkomen",
             "Belastingen zijn in de kringloop een vorm van investeren",
             "Belastingen gaan rechtstreeks naar het buitenland"
           ],
@@ -1094,7 +1094,7 @@
           "vraag": "Twee landen hebben ongeveer hetzelfde bbp per capita, maar land X heeft een veel hogere HDI. Wat is de meest logische verklaring?",
           "opties": [
             "In land X zijn de levensverwachting en het onderwijs beter",
-            "Land X heeft meer inwoners, dus een hogere HDI",
+            "Land X heeft meer inwoners, dus automatisch ook een hogere HDI-score",
             "Land X heeft een hoger nominaal bbp door inflatie",
             "In land X telt het vrijwilligerswerk mee in het bbp"
           ],
@@ -1222,7 +1222,7 @@
           "vraag": "Een Belgisch bedrijf keert 40 miljoen euro dividend uit aan Amerikaanse aandeelhouders. Belgen ontvangen 25 miljoen euro lonen uit Nederland. Wat is het effect op het Belgische bnp tegenover het bbp, als er verder niets is?",
           "opties": [
             "Het bnp is 15 miljoen euro kleiner dan het bbp",
-            "Het bnp is 15 miljoen euro groter dan het bbp",
+            "Het bnp is 15 miljoen euro groter dan het bbp, door het dividend",
             "Het bnp is 65 miljoen euro groter dan het bbp",
             "Bnp en bbp zijn even groot"
           ],
@@ -1294,7 +1294,7 @@
           "vraag": "Van A naar B: wat is er gebeurd?",
           "opties": [
             "De prijs van koffie daalde: een beweging op de vraagcurve",
-            "Het inkomen steeg: een verschuiving van de vraagcurve",
+            "Het inkomen steeg: een verschuiving van de vraagcurve naar rechts",
             "Thee werd goedkoper: een verschuiving naar links",
             "Koffie raakte uit de mode: een verschuiving naar links"
           ],
@@ -1507,7 +1507,7 @@
               "vraag": "Wat gebeurt er met de omzet van de verkopers bij die prijsdaling?",
               "opties": [
                 "Ze stijgt van 40 naar 42 euro",
-                "Ze daalt van 40 naar 36 euro",
+                "Ze daalt van 40 naar 36 euro, want de prijs daalt",
                 "Ze blijft 40 euro",
                 "Ze daalt van 42 naar 40 euro"
               ],
@@ -2569,7 +2569,7 @@
           "vraag": "Van welke twee dingen hangt de marktvorm vooral af?",
           "opties": [
             "Het aantal marktpartijen en de toetredingsmogelijkheden",
-            "De prijs van het product en het inkomen van de kopers",
+            "De prijs van het product en het inkomen van de kopers op die markt",
             "De grootte van het land en het aantal inwoners",
             "De kwaliteit van het product en de reclame-uitgaven"
           ],
@@ -4071,7 +4071,7 @@
           "vraag": "Wat stelt punt E voor?",
           "opties": [
             "Het evenwichtsloon en de evenwichtstewerkstelling",
-            "Het minimumloon en het aantal werklozen",
+            "Het minimumloon en het aantal werklozen bij dat loon",
             "Het hoogste loon dat werkgevers kunnen betalen",
             "Het aantal mensen op arbeidsleeftijd"
           ],
@@ -4357,7 +4357,7 @@
           "vraag": "Waarom daalt de vraagcurve naar arbeid?",
           "opties": [
             "Bij een hoger loon vragen werkgevers minder arbeid",
-            "Bij een hoger loon willen minder mensen werken",
+            "Bij een hoger loon willen minder mensen gaan werken",
             "Bij een lager loon stijgt de werkloosheid",
             "Bij een hoger loon stijgt de beroepsbevolking"
           ],
@@ -5181,7 +5181,7 @@
               "opties": [
                 "Ze krijgt haar geld misschien niet volledig terug",
                 "Ze moet extra geld bijstorten",
-                "Ze wordt automatisch aandeelhouder met stemrecht",
+                "Ze wordt automatisch aandeelhouder met stemrecht in het bedrijf",
                 "Er is geen risico, want de coupon ligt vast"
               ],
               "antwoord": 0,
@@ -5757,7 +5757,7 @@
           "vraag": "Frankrijk koopt in een douane-unie wijn bij een lidstaat, hoewel een land buiten de unie goedkoper produceert. Hoe heet dat?",
           "opties": [
             "Handelsverlegging",
-            "Handelsoverschot",
+            "Handelsoverschot van de lidstaat",
             "Nearshoring",
             "Schaalvoordeel"
           ],
@@ -5949,7 +5949,7 @@
           "vraag": "Welke reden past het best bij reshoring?",
           "opties": [
             "Hoge transportkosten en problemen in de toeleveringsketen",
-            "Lagere loonkosten in een ver land",
+            "Lagere loonkosten en soepelere milieuregels in een ver land",
             "Het gemeenschappelijk buitentarief van de douane-unie",
             "Een hogere invoerquote van het eigen land"
           ],
@@ -6498,7 +6498,7 @@
           "vraag": "In welke fase zit de economie in punt B?",
           "opties": [
             "In de neergaande fase: recessie",
-            "In de opgaande fase: expansie",
+            "In de opgaande fase: expansie na een dal",
             "Op het hoogtepunt: boom",
             "Op het dieptepunt: depressie"
           ],
@@ -6970,7 +6970,7 @@
           "vraag": "Van E naar G: hoe noem je die combinatie van gevolgen?",
           "opties": [
             "Stagflatie: hogere prijzen en minder productie",
-            "Deflatie: dalende prijzen en meer productie",
+            "Deflatie: dalende prijzen en tegelijk meer productie",
             "Een positieve vraagschok",
             "Een bestedingsevenwicht"
           ],
@@ -7070,7 +7070,7 @@
             "De uitgave wordt inkomen voor anderen, die verder besteden",
             "De overheid verdubbelt elke extra uitgave",
             "De prijzen stijgen, waardoor het inkomen groter lijkt",
-            "Banken scheppen bij elke uitgave nieuw geld"
+            "Banken scheppen bij elke uitgave nieuw geld voor de klanten"
           ],
           "antwoord": 0,
           "uitleg": "Bij elke ronde wordt een deel opnieuw besteed: het multiplicatoreffect."
@@ -7145,7 +7145,7 @@
           "opties": [
             "Nee, dat kan enkel de Europese Centrale Bank",
             "Ja, elke regering bepaalt haar eigen rente",
-            "Ja, als de federale regering akkoord gaat",
+            "Ja, als de federale regering ermee akkoord gaat",
             "Nee, de rente wordt bepaald door het IMF"
           ],
           "antwoord": 0,
@@ -7229,7 +7229,7 @@
           "vraag": "Je tekent een AV-AA-schema. Wat zet je op de assen?",
           "opties": [
             "Het algemeen prijspeil en het reëel bbp",
-            "De rente en de hoeveelheid krediet",
+            "De rente en de hoeveelheid krediet in de economie",
             "Het inkomen Y en de bestedingen",
             "De koers en de hoeveelheid euro"
           ],
@@ -7414,7 +7414,7 @@
                 "P verdubbelt naar 4",
                 "P blijft 2",
                 "P halveert naar 1",
-                "P stijgt met 400"
+                "P stijgt met 400, want M is groter"
               ],
               "antwoord": 0,
               "uitleg": "800 · 5 = P · 1 000, dus P = 4."
@@ -7424,7 +7424,7 @@
               "vraag": "Wat stelt V voor?",
               "opties": [
                 "De omloopsnelheid van het geld",
-                "De waarde van de munt",
+                "De waarde van de munt tegenover het buitenland",
                 "Het volume van de productie",
                 "De rente"
               ],
@@ -7651,7 +7651,7 @@
           "vraag": "Welke soort inflatie volgt de hoog- en laagconjunctuur?",
           "opties": [
             "Conjuncturele inflatie",
-            "Structurele inflatie",
+            "Structurele inflatie door de lonen",
             "Importinflatie",
             "Krimpflatie"
           ],
@@ -7910,7 +7910,7 @@
           "opties": [
             "Het aantal studenten dat op kot gaat",
             "De hoogte van de huurprijs",
-            "De stad waar de studenten studeren",
+            "De stad waar de studenten studeren en wonen",
             "De onderzoeker zelf"
           ],
           "antwoord": 0,
