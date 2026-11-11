@@ -130,6 +130,7 @@ export const spellen: Spel[] = [
   { slug: "begrippenarena-nederlands", icoon: "📚", titel: "Begrippenarena Nederlands" },
   { slug: "woordenarena-frans", icoon: "🥖", titel: "Woordenarena Frans" },
   { slug: "begrippenarena-techniek", icoon: "⚙️", titel: "Begrippenarena Techniek" },
+  { slug: "begrippenarena-mens", icoon: "🤝", titel: "Begrippenarena Mens en samenleving" },
   { slug: "wiskunde-dimensie", icoon: "🤖", titel: "De Wiskunde-dimensie" },
   /* Prikkelarme spellen voor het lager (Kim, 9 november 2026): geen klok,
      geen geluid, geen punten, een rustige tip bij een fout. */
@@ -170,6 +171,9 @@ const zevenSpellenFr =
 
 const zevenSpellenTech =
   "In zeven spellen: een quiz, memory, raad het begrip, robotgalgje, flitskaarten, bingo en de sorteerband, waarin je voorwerpen in de juiste bak sorteert, zoals geleider of isolator.";
+
+const zevenSpellenMens =
+  "In zeven spellen: een quiz, memory, raad het begrip, huizengalgje, flitskaarten, bingo en het sorteerspel, waarin je bijvoorbeeld een uitspraak bij het juiste stadium of de juiste macht legt.";
 
 export const spelKaarten: SpelKaart[] = [
   /* Lagere school */
@@ -302,6 +306,13 @@ export const spelKaarten: SpelKaart[] = [
     tekst: `Honderddertig begrippen uit de elf leerbundels techniek van Spark, van materialen en stroomkringen tot overbrengingen, het technisch proces en algoritmen. ${zevenSpellenTech}`,
   },
   {
+    spel: "begrippenarena-mens",
+    school: "middelbaar",
+    niveau: "✨ Spark · Samenleving en economie",
+    niveauInSpel: "se_spark",
+    tekst: `Bijna negentig begrippen uit de tien leerbundels samenleving en economie, van identiteit en eerste hulp tot democratie, België, de economische kringloop en veilig online. ${zevenSpellenMens}`,
+  },
+  {
     spel: "woordenarena-engels",
     school: "middelbaar",
     niveau: "✨ Spark · 1ste en 2de middelbaar",
@@ -335,6 +346,34 @@ export const spelKaarten: SpelKaart[] = [
     niveau: "🚀 Boost · 2de graad, doorstroom en dubbele finaliteit",
     niveauInSpel: "boost",
     tekst: `Bijna tweehonderd Franse woorden, van op restaurant en de mens tot de samenleving en de woorden van de grammatica. ${zevenSpellenFr}`,
+  },
+  {
+    spel: "begrippenarena-mens",
+    school: "middelbaar",
+    niveau: "🚀 Boost · Sociale en gedragswetenschappen",
+    niveauInSpel: "sgw_boost",
+    tekst: `Bijna negentig begrippen, van Piaget, Kohlberg en Erikson tot cultuur, socialisatie, sociale groepen en status. ${zevenSpellenMens}`,
+  },
+  {
+    spel: "begrippenarena-mens",
+    school: "middelbaar",
+    niveau: "🚀 Boost · Kunstbeschouwing en filosofie",
+    niveauInSpel: "kf_boost",
+    tekst: `Bijna zestig begrippen, van kunstcriteria en kunststromingen tot de eerste filosofen, lichaam en geest en ethiek. ${zevenSpellenMens}`,
+  },
+  {
+    spel: "begrippenarena-mens",
+    school: "middelbaar",
+    niveau: "🚀 Boost dubbele finaliteit · Gezondheid, zorg en welzijn",
+    niveauInSpel: "gzw",
+    tekst: `Bijna vijftig begrippen, van zintuigen en eerste hulp tot voedselveiligheid, interieurzorg en linnenzorg. ${zevenSpellenMens}`,
+  },
+  {
+    spel: "begrippenarena-mens",
+    school: "middelbaar",
+    niveau: "🚀 Boost dubbele finaliteit · Ontwikkeling en pedagogisch handelen",
+    niveauInSpel: "oph",
+    tekst: `Ruim veertig begrippen, van welzijn en de ontwikkeling van kind tot oudere tot observeren, communiceren en spel. ${zevenSpellenMens}`,
   },
 
   {
@@ -404,6 +443,27 @@ export const spelKaarten: SpelKaart[] = [
     niveau: "🌍 Beyond · 3de graad, doorstroom en dubbele finaliteit",
     niveauInSpel: "beyond",
     tekst: `Vijfenzeventig Franse woorden voor literatuur, mens en samenleving, met verbindingswoorden en uitdrukkingen om je mening te geven. ${zevenSpellenFr}`,
+  },
+  {
+    spel: "begrippenarena-mens",
+    school: "middelbaar",
+    niveau: "🌍 Beyond · Sociale en gedragswetenschappen",
+    niveauInSpel: "sgw_beyond",
+    tekst: `Vijfenzeventig begrippen, van de ontwikkelingstheorieën en sociale psychologie tot persoonlijkheid, opvoeden, sociologie en media. ${zevenSpellenMens}`,
+  },
+  {
+    spel: "begrippenarena-mens",
+    school: "middelbaar",
+    niveau: "🌍 Beyond · Filosofie en recht",
+    niveauInSpel: "filorecht",
+    tekst: `Bijna veertig begrippen, van rationalisme en falsificatie tot vrijheid, ethiek, de rechtsstaat en justitie. ${zevenSpellenMens}`,
+  },
+  {
+    spel: "begrippenarena-mens",
+    school: "middelbaar",
+    niveau: "🌍 Beyond · Samenleving en economie",
+    niveauInSpel: "se_beyond",
+    tekst: `Ruim vijftig begrippen, van identiteit en reanimatie tot belastingen, de markt, je loonfiche, krediet, beleggen en verzekeren. ${zevenSpellenMens}`,
   },
 
 

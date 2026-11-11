@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "11 november 2026",
+    titel: "Nieuwe begrippenarena: mens en samenleving",
+    tekst:
+      "Bij de educatieve spellen staat nu een begrippenarena voor de vakken over mens en samenleving: samenleving en economie, sociale en gedragswetenschappen, kunstbeschouwing en filosofie, gezondheid, zorg en welzijn, ontwikkeling en pedagogisch handelen, en filosofie en recht. Nieuw is het sorteerspel: je legt een uitspraak of voorbeeld in de juiste bak, zoals het juiste stadium van Piaget of de juiste macht.",
+    link: { tekst: "Naar de spellen", href: "/extras/spellen" },
+  },
+  {
+    datum: "11 november 2026",
     titel: "Nieuwe begrippenarena: techniek",
     tekst:
       "Bij de educatieve spellen staat nu ook een begrippenarena techniek, voor wetenschap en techniek in Start en voor techniek in Spark. Je oefent de begrippen uit de leerbundels in met een quiz, memory, galgje, flitskaarten of bingo. Nieuw is de sorteerband: er komt een voorwerp voorbij en jij kiest de juiste bak, zoals geleider of isolator, sensor of actuator.",
