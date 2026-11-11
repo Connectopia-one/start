@@ -103,7 +103,7 @@ DEEL1 = [
         vraag="Wat is een conservatieve kracht?",
         opties=[
             "een kracht waarvan de arbeid niet van de gevolgde weg afhangt",
-            "een kracht die altijd dezelfde grootte houdt",
+            "een kracht die altijd dezelfde grootte houdt, wat er ook gebeurt",
             "een kracht die altijd arbeid aan een lichaam onttrekt",
             "een kracht die enkel bij hoge snelheid werkt",
         ],
@@ -441,7 +441,7 @@ DEEL2 = [
         vraag="Een bal valt van 2 m hoog en stuitert tot 1,4 m. Wat is er met de rest van de energie gebeurd?",
         opties=[
             "ze is bij de botsing als warmte en geluid vrijgekomen",
-            "ze is in de lucht boven de bal blijven hangen",
+            "ze is in de lucht boven de bal blijven hangen als potentiële energie",
             "ze is in potentiële energie van de grond omgezet",
             "ze is gewoon verdwenen, want energie gaat verloren",
         ],

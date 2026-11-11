@@ -52,7 +52,7 @@ DEEL1 = [
         vraag="Waar komt het magnetisme van één atoom vandaan?",
         opties=[
             "van de kringstroom en de spin van zijn elektronen",
-            "van de lading van de protonen in zijn kern",
+            "van de positieve lading van de protonen in zijn kern",
             "van het aantal neutronen dat het atoom draagt",
             "van de snelheid waarmee het hele atoom beweegt",
         ],
@@ -322,7 +322,7 @@ DEEL2 = [
         vraag="Waarvoor dient een ijzeren kern in een elektromagneet?",
         opties=[
             "om het magnetisch veld veel sterker te maken",
-            "om de stroom door de spoel te verkleinen",
+            "om de stroom door de spoel te verkleinen en de spoel te sparen",
             "om de spoel tegen opwarming te beschermen",
             "om de polen van de spoel om te keren",
         ],

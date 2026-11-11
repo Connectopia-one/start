@@ -155,7 +155,7 @@ DEEL1 = [
         vraag="Welke kracht houdt een auto in een bocht?",
         opties=[
             "de wrijvingskracht tussen de banden en het wegdek",
-            "de motorkracht die de auto vooruit duwt",
+            "de motorkracht die de auto vooruit duwt in de richting van de bocht",
             "de normaalkracht van het wegdek omhoog",
             "een middelpuntvliedende kracht naar buiten toe",
         ],
@@ -246,7 +246,7 @@ DEEL2 = [
         vraag="Wat zegt de universele gravitatiewet?",
         opties=[
             "elke twee massa's trekken elkaar aan, met r² in de noemer",
-            "elke twee massa's stoten elkaar af, met r² in de noemer",
+            "elke twee massa's stoten elkaar af, met r² in de noemer van de formule",
             "enkel grote hemellichamen trekken elkaar aan",
             "de aantrekking hangt enkel van de grootste massa af",
         ],
@@ -328,7 +328,7 @@ DEEL2 = [
         vraag="Waarom is g op de maan ongeveer zes keer kleiner dan op aarde?",
         opties=[
             "de maan heeft veel minder massa, ondanks haar kleinere straal",
-            "de maan draait trager rond haar eigen as",
+            "de maan draait veel trager rond haar eigen as dan de aarde dat doet",
             "de maan heeft geen dampkring om massa tegen te houden",
             "de maan ligt verder van de zon dan de aarde",
         ],

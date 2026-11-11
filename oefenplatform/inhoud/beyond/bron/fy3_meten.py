@@ -38,7 +38,7 @@ DEEL1 = [
         vraag="Waarom mag je een meetinstrument niet buiten zijn meetbereik gebruiken?",
         opties=[
             "de meting is dan onbetrouwbaar en het toestel kan beschadigen",
-            "de meting duurt dan veel langer dan ze normaal zou duren",
+            "de meting duurt dan veel langer dan ze normaal zou duren, en dat kost tijd",
             "het toestel verbruikt dan veel meer stroom",
             "het toestel moet dan achteraf opnieuw geijkt worden",
         ],
@@ -216,7 +216,7 @@ DEEL1 = [
         vraag="Waarom gebruik je bij een snelle beweging liever een sensor dan een handchronometer?",
         opties=[
             "je eigen reactietijd geeft bij de hand een fout van wel een tiende seconde",
-            "een sensor kan over een veel grotere afstand meten",
+            "een sensor kan over een veel grotere afstand meten dan je ogen kunnen zien",
             "een handchronometer heeft een veel kleiner meetbereik",
             "een sensor hoeft na de meting niet meer uitgeschakeld te worden",
         ],
@@ -357,7 +357,7 @@ DEEL2 = [
         vraag="Waarom schrijf je niet alle cijfers van je rekenmachine op?",
         opties=[
             "je antwoord zou dan nauwkeuriger lijken dan je meting is",
-            "een rekenmachine rekent met te veel afrondingsfouten",
+            "een rekenmachine rekent met te veel afrondingsfouten in de laatste cijfers",
             "lange getallen zijn moeilijker te controleren",
             "het is enkel een afspraak zonder verdere reden",
         ],
@@ -384,7 +384,7 @@ DEEL2 = [
         vraag="Waarvoor maak je vooraf een schatting van je uitkomst?",
         opties=[
             "om een onzinnig antwoord meteen te herkennen",
-            "om de meting zelf niet meer te hoeven doen",
+            "om de meting zelf daarna niet meer te hoeven doen",
             "om het aantal beduidende cijfers te bepalen",
             "om de eenheid van het antwoord te vinden",
         ],

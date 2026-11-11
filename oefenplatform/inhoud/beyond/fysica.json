@@ -161,7 +161,7 @@
           "vraag": "Waarvoor dient de tribo-elektrische reeks?",
           "opties": [
             "om te zien welke stof bij wrijving elektronen opneemt",
-            "om te zien hoeveel stroom er door een stof kan lopen",
+            "om te zien hoeveel stroom er door een stof kan lopen bij een bepaalde spanning",
             "om de weerstand van een stof bij warmte af te lezen",
             "om de spanning tussen twee geladen platen te bepalen"
           ],
@@ -346,7 +346,7 @@
           "vraag": "Waarom trekt een geladen staaf ook een neutraal stukje papier aan?",
           "opties": [
             "de lading in het papier verschuift en de dichtste kant trekt",
-            "het papier geeft zijn elektronen volledig aan de staaf af",
+            "het papier geeft zijn elektronen volledig aan de staaf af bij het naderen",
             "de lucht tussen staaf en papier duwt het stukje omhoog",
             "papier draagt altijd een kleine lading van zichzelf mee"
           ],
@@ -468,7 +468,7 @@
           "vraag": "Wat betekent het dat de elektrische kracht een veldkracht is?",
           "opties": [
             "ze werkt op afstand, zonder dat er contact nodig is",
-            "ze werkt enkel als de twee voorwerpen elkaar raken",
+            "ze werkt enkel als de twee voorwerpen elkaar echt raken",
             "ze werkt enkel in een leeg vat zonder lucht erin",
             "ze werkt altijd even sterk, hoe ver je ook gaat"
           ],
@@ -1365,7 +1365,7 @@
           "vraag": "Wat houdt een spanningsbron in een kring in stand?",
           "opties": [
             "een potentiaalverschil tussen haar twee polen",
-            "een gelijke potentiaal aan haar twee polen",
+            "een gelijke potentiaal aan haar twee polen, zodat er niets verloren gaat",
             "een gelijke lading op haar twee polen",
             "een constante stroomsterkte in elke tak"
           ],
@@ -1886,7 +1886,7 @@
           "vraag": "Waar komt het magnetisme van één atoom vandaan?",
           "opties": [
             "van de kringstroom en de spin van zijn elektronen",
-            "van de lading van de protonen in zijn kern",
+            "van de positieve lading van de protonen in zijn kern",
             "van het aantal neutronen dat het atoom draagt",
             "van de snelheid waarmee het hele atoom beweegt"
           ],
@@ -2151,7 +2151,7 @@
           "vraag": "Waarvoor dient een ijzeren kern in een elektromagneet?",
           "opties": [
             "om het magnetisch veld veel sterker te maken",
-            "om de stroom door de spoel te verkleinen",
+            "om de stroom door de spoel te verkleinen en de spoel te sparen",
             "om de spoel tegen opwarming te beschermen",
             "om de polen van de spoel om te keren"
           ],
@@ -2413,7 +2413,7 @@
           "vraag": "Hoe vind je de zin van de kracht op een stroomvoerende draad?",
           "opties": [
             "met je rechterhand: vingers in de stroomzin, veld in de handpalm, duim geeft de kracht",
-            "met je rechterhand: duim in de stroomzin, vingers geven de kracht aan",
+            "met je rechterhand: duim in de stroomzin, gekrulde vingers geven de zin van de kracht aan",
             "met een kompas dat je naast de draad legt en laat uitdraaien",
             "met de wet van Ohm, want die geeft de zin van de stroom aan"
           ],
@@ -2425,7 +2425,7 @@
           "vraag": "Een draad staat onder 30 graden met de veldlijnen in plaats van loodrecht. Wat gebeurt er met de kracht?",
           "opties": [
             "ze wordt kleiner, want de sinus van 30 graden is maar een half",
-            "ze wordt groter, want de hoek telt dubbel mee in de formule",
+            "ze wordt groter, want de hoek telt dubbel mee in de formule voor de kracht",
             "ze blijft precies gelijk, want de hoek doet er niet toe",
             "ze valt weg, want kracht ontstaat enkel bij 90 graden"
           ],
@@ -2468,7 +2468,7 @@
           "vraag": "Hoe werkt een luidspreker?",
           "opties": [
             "de wisselstroom in een spoel duwt het membraan heen en weer",
-            "de wisselstroom warmt het membraan op en laat het trillen",
+            "de wisselstroom warmt het membraan op en laat het daardoor trillen",
             "een permanente magneet draait rond en duwt de lucht weg",
             "een spoel zendt het geluid rechtstreeks als golf uit"
           ],
@@ -2624,7 +2624,7 @@
           "vraag": "Waarvoor dient een cyclotron?",
           "opties": [
             "om geladen deeltjes tot hoge snelheid te versnellen",
-            "om de massa van een onbekend ion te meten",
+            "om de massa van een onbekend ion nauwkeurig te meten",
             "om de sterkte van een magnetisch veld af te lezen",
             "om een magnetisch veld uit elektriciteit te maken"
           ],
@@ -2654,7 +2654,7 @@
           "vraag": "Waarom zie je het noorderlicht vooral in de buurt van de polen?",
           "opties": [
             "het aardmagnetisch veld leidt de geladen deeltjes daarheen",
-            "de zon schijnt daar het hele jaar door het schuinst",
+            "de zon schijnt daar het hele jaar door het schuinst op de dampkring",
             "de lucht is daar het dunst en dus het beste zichtbaar",
             "de aarde draait daar het traagst om haar eigen as"
           ],
@@ -2756,7 +2756,7 @@
           "vraag": "Wat is de magnetische flux door een winding?",
           "opties": [
             "het veld maal de doorsneden oppervlakte, met de hoek erbij",
-            "het veld gedeeld door de oppervlakte van de winding",
+            "het veld gedeeld door de oppervlakte van de winding, zonder hoek",
             "de stroom maal het aantal windingen van de spoel",
             "de spanning die de winding aan de kring levert"
           ],
@@ -2839,7 +2839,7 @@
           "vraag": "Wat zegt de wet van Lenz?",
           "opties": [
             "de inductiestroom werkt de verandering die hem veroorzaakt tegen",
-            "de inductiestroom versterkt de verandering die hem veroorzaakt",
+            "de inductiestroom versterkt altijd de verandering die hem veroorzaakt",
             "de inductiestroom loopt altijd in de zin van het veld",
             "de inductiestroom loopt altijd in dezelfde zin als de bron"
           ],
@@ -2851,7 +2851,7 @@
           "vraag": "Je duwt de noordpool van een magneet in een spoel. Wat doet de spoel?",
           "opties": [
             "ze maakt aan die kant zelf een noordpool en duwt terug",
-            "ze maakt aan die kant zelf een zuidpool en trekt aan",
+            "ze maakt aan die kant zelf een zuidpool en trekt de magneet verder naar binnen",
             "ze maakt helemaal geen eigen magnetisch veld aan",
             "ze maakt een veld dwars op de as van de magneet"
           ],
@@ -2983,7 +2983,7 @@
           "vraag": "Hoe wekt een dynamo op een fiets spanning op?",
           "opties": [
             "een magneet draait langs een spoel en laat de flux wisselen",
-            "de wrijving van het wiel maakt de spoel warm genoeg",
+            "de wrijving van het wiel maakt de spoel warm genoeg om stroom te geven",
             "de band perst lucht door een kleine turbine heen",
             "de spoel laadt zich op zoals een batterij dat doet"
           ],
@@ -3087,7 +3087,7 @@
           "vraag": "Hoe werkt een inductiekookplaat?",
           "opties": [
             "een wisselend veld wekt wervelstromen op in de bodem van de pan",
-            "een spoel onder de plaat wordt heet en geeft die warmte door",
+            "een spoel onder de plaat wordt zelf heet en geeft die warmte door aan de pan",
             "de plaat zendt infraroodstraling naar de bodem van de pan",
             "de plaat wrijft met trillingen langs de bodem van de pan"
           ],
@@ -3099,7 +3099,7 @@
           "vraag": "Waarom werkt een inductiekookplaat niet met een pan van aluminium?",
           "opties": [
             "aluminium is niet ferromagnetisch genoeg voor de koppeling",
-            "aluminium geleidt de warmte veel te snel naar boven weg",
+            "aluminium geleidt de warmte veel te snel naar boven weg, uit de pan",
             "aluminium smelt bij de temperatuur van zo'n kookplaat",
             "aluminium is te licht om op de plaat te blijven staan"
           ],
@@ -3126,7 +3126,7 @@
           "vraag": "Hoe werkt de pick-up van een elektrische gitaar?",
           "opties": [
             "de trillende stalen snaar verandert de flux door een spoeltje",
-            "de snaar raakt het spoeltje aan en sluit zo de kring",
+            "de snaar raakt het spoeltje aan en sluit zo de kring van de versterker",
             "de luidspreker neemt het geluid van de snaar rechtstreeks op",
             "de spoel stuurt een stroompje door de snaar heen"
           ],
@@ -3180,7 +3180,7 @@
           "vraag": "Hoe laadt een draadloze oplader een telefoon op?",
           "opties": [
             "een spoel in de lader wekt een stroom op in een spoel in de telefoon",
-            "de lader stuurt de lading rechtstreeks door de lucht heen",
+            "de lader stuurt de lading rechtstreeks door de lucht heen naar de batterij",
             "de lader warmt de batterij op zodat ze lading vasthoudt",
             "de lader maakt licht dat de batterij met een cel opvangt"
           ],
@@ -3282,7 +3282,7 @@
           "vraag": "Waarom ontbind je een kracht in componenten?",
           "opties": [
             "om apart te kunnen rekenen langs twee loodrechte assen",
-            "om de kracht in twee kleinere stukken te verdelen",
+            "om de kracht in twee kleinere en dus zwakkere stukken te verdelen",
             "om de kracht sneller te laten werken op het lichaam",
             "om de massa van het lichaam te kunnen berekenen"
           ],
@@ -3391,7 +3391,7 @@
           "vraag": "Een lamp hangt stil aan één koord. Wat weet je over de spankracht?",
           "opties": [
             "ze is even groot als de zwaartekracht op de lamp",
-            "ze is twee keer zo groot als de zwaartekracht",
+            "ze is twee keer zo groot als de zwaartekracht, want het koord trekt mee",
             "ze is nul zolang de lamp niet beweegt",
             "ze is half zo groot als de zwaartekracht"
           ],
@@ -3608,7 +3608,7 @@
           "vraag": "Een plank van 4 m rust op twee steunen aan de uiteinden. Een last staat op 1 m van de linkersteun. Welke steun draagt het meest?",
           "opties": [
             "de linkersteun, want de last staat er het dichtst bij",
-            "de rechtersteun, want die moet de verste arm aan",
+            "de rechtersteun, want die moet de verste arm aan en draagt dus meer",
             "beide steunen dragen precies evenveel",
             "dat hangt enkel af van de dikte van de plank"
           ],
@@ -3620,7 +3620,7 @@
           "vraag": "Waarom staat er bij een torenkraan een zwaar blok aan de achterste arm?",
           "opties": [
             "om het moment van de last aan de voorkant tegen te werken",
-            "om de kraan zwaarder en dus steviger te maken",
+            "om de kraan zwaarder en dus steviger op de grond te maken",
             "om de last aan de voorkant lichter te laten lijken",
             "om de kraan sneller te kunnen laten draaien"
           ],
@@ -3673,7 +3673,7 @@
           "vraag": "Wat zegt de eerste wet van Newton?",
           "opties": [
             "zonder resulterende kracht verandert de bewegingstoestand niet",
-            "zonder resulterende kracht komt elk lichaam tot stilstand",
+            "zonder resulterende kracht komt elk lichaam na een tijd tot stilstand",
             "elke kracht veroorzaakt een even grote tegenkracht",
             "de versnelling is de kracht gedeeld door de massa"
           ],
@@ -3695,7 +3695,7 @@
           "vraag": "Waarom vlieg je naar voren als de bus plots remt?",
           "opties": [
             "je lichaam wil met dezelfde snelheid door blijven gaan",
-            "de bus duwt je met een kracht naar voren toe",
+            "de bus duwt je met een kracht naar voren toe, tegen de rijrichting",
             "de remmen trekken je naar de voorkant van de bus",
             "de zwaartekracht werkt tijdens het remmen vooruit"
           ],
@@ -3960,7 +3960,7 @@
           "vraag": "Welke kracht is de reactie op de zwaartekracht die de aarde op jou uitoefent?",
           "opties": [
             "de kracht waarmee jij aan de aarde trekt",
-            "de normaalkracht van de vloer op jou",
+            "de normaalkracht van de vloer op jou, omhoog gericht",
             "de wrijvingskracht van je schoenen",
             "de spankracht van je spieren"
           ],
@@ -4956,7 +4956,7 @@
           "vraag": "Waarom mik je bij het werpen over een grote afstand hoger dan het doel?",
           "opties": [
             "het voorwerp verliest onderweg hoogte door de val",
-            "de lucht duwt het voorwerp onderweg omlaag",
+            "de lucht duwt het voorwerp onderweg omlaag naar de grond",
             "het voorwerp wordt onderweg vanzelf zwaarder",
             "de horizontale snelheid neemt onderweg toe"
           ],
@@ -5167,7 +5167,7 @@
           "vraag": "Welke kracht houdt een auto in een bocht?",
           "opties": [
             "de wrijvingskracht tussen de banden en het wegdek",
-            "de motorkracht die de auto vooruit duwt",
+            "de motorkracht die de auto vooruit duwt in de richting van de bocht",
             "de normaalkracht van het wegdek omhoog",
             "een middelpuntvliedende kracht naar buiten toe"
           ],
@@ -5265,7 +5265,7 @@
           "vraag": "Wat zegt de universele gravitatiewet?",
           "opties": [
             "elke twee massa's trekken elkaar aan, met r² in de noemer",
-            "elke twee massa's stoten elkaar af, met r² in de noemer",
+            "elke twee massa's stoten elkaar af, met r² in de noemer van de formule",
             "enkel grote hemellichamen trekken elkaar aan",
             "de aantrekking hangt enkel van de grootste massa af"
           ],
@@ -5350,7 +5350,7 @@
           "vraag": "Waarom is g op de maan ongeveer zes keer kleiner dan op aarde?",
           "opties": [
             "de maan heeft veel minder massa, ondanks haar kleinere straal",
-            "de maan draait trager rond haar eigen as",
+            "de maan draait veel trager rond haar eigen as dan de aarde dat doet",
             "de maan heeft geen dampkring om massa tegen te houden",
             "de maan ligt verder van de zon dan de aarde"
           ],
@@ -5585,7 +5585,7 @@
           "vraag": "Wat is een conservatieve kracht?",
           "opties": [
             "een kracht waarvan de arbeid niet van de gevolgde weg afhangt",
-            "een kracht die altijd dezelfde grootte houdt",
+            "een kracht die altijd dezelfde grootte houdt, wat er ook gebeurt",
             "een kracht die altijd arbeid aan een lichaam onttrekt",
             "een kracht die enkel bij hoge snelheid werkt"
           ],
@@ -5932,7 +5932,7 @@
           "vraag": "Een bal valt van 2 m hoog en stuitert tot 1,4 m. Wat is er met de rest van de energie gebeurd?",
           "opties": [
             "ze is bij de botsing als warmte en geluid vrijgekomen",
-            "ze is in de lucht boven de bal blijven hangen",
+            "ze is in de lucht boven de bal blijven hangen als potentiële energie",
             "ze is in potentiële energie van de grond omgezet",
             "ze is gewoon verdwenen, want energie gaat verloren"
           ],
@@ -5969,7 +5969,7 @@
           "vraag": "Welke grootheden noemt men de toestandsgrootheden van een gas?",
           "opties": [
             "druk, volume, temperatuur en stofhoeveelheid",
-            "druk, massa, snelheid en temperatuur",
+            "druk, massa, snelheid en temperatuur van alle deeltjes",
             "volume, massa, dichtheid en warmte",
             "druk, kracht, oppervlakte en tijd"
           ],
@@ -6079,7 +6079,7 @@
           "vraag": "Hoe ziet een \\(p(V)\\)-grafiek van een isotherm proces eruit?",
           "opties": [
             "een kromme die daalt zoals een omgekeerde evenredigheid",
-            "een rechte door de oorsprong",
+            "een rechte door de oorsprong die gelijkmatig stijgt naarmate V groter wordt",
             "een horizontale rechte",
             "een stijgende parabool"
           ],
@@ -6298,7 +6298,7 @@
           "vraag": "Wat zegt de temperatuur van een gas over zijn deeltjes?",
           "opties": [
             "hoe groot hun gemiddelde kinetische energie is",
-            "hoeveel deeltjes er in het vat aanwezig zijn",
+            "hoeveel deeltjes er in het vat aanwezig zijn, per liter",
             "hoe zwaar elk deeltje afzonderlijk is",
             "hoe groot het volume van elk deeltje is"
           ],
@@ -6368,7 +6368,7 @@
           "vraag": "Waarom staat er op een spuitbus dat je hem niet boven \\(50\\ ^\\circ\\text{C}\\) mag bewaren?",
           "opties": [
             "bij constant volume stijgt de druk mee met de temperatuur",
-            "het gas erin lost bij warmte op in de vloeistof",
+            "het gas erin lost bij warmte op in de vloeistof en verliest zo zijn druk",
             "de bus zet bij warmte zo sterk uit dat hij scheurt",
             "de inhoud verliest bij warmte zijn werking"
           ],
@@ -6398,7 +6398,7 @@
           "vraag": "Een duiker ademt op \\(20\\) m diepte lucht in bij ongeveer \\(3\\) bar. Waarom mag hij bij het opstijgen niet de adem inhouden?",
           "opties": [
             "de lucht in zijn longen zet bij de dalende druk sterk uit",
-            "de lucht in zijn longen koelt bij het stijgen snel af",
+            "de lucht in zijn longen koelt bij het stijgen snel af en trekt samen",
             "de lucht lost bij lagere druk op in zijn bloed",
             "de lucht wordt bij het stijgen zwaarder dan water"
           ],
@@ -6461,7 +6461,7 @@
           "vraag": "Waarvoor gebruik je een calorimeter?",
           "opties": [
             "om een hoeveelheid uitgewisselde warmte te meten",
-            "om de temperatuur van een vlam te meten",
+            "om de temperatuur van een vlam nauwkeurig te meten",
             "om de druk van een gas te meten",
             "om de massa van een vloeistof te meten"
           ],
@@ -6485,7 +6485,7 @@
           "vraag": "Wat is de warmtecapaciteit van een voorwerp?",
           "opties": [
             "de warmte die het nodig heeft om één kelvin op te warmen",
-            "de warmte die het bij kamertemperatuur in totaal bevat",
+            "de warmte die het bij kamertemperatuur in totaal bevat, in joule",
             "de hoogste temperatuur die het voorwerp kan halen",
             "de warmte die het per seconde aan de lucht afgeeft"
           ],
@@ -6705,7 +6705,7 @@
           "opties": [
             "een stijging, dan een horizontaal stuk, dan weer een stijging",
             "een rechte stijging van begin tot eind",
-            "een daling, dan een horizontaal stuk, dan een stijging",
+            "een daling, dan een horizontaal stuk, dan een stijging tot de eindtemperatuur",
             "een horizontaal stuk van begin tot eind"
           ],
           "antwoord": 0,
@@ -6891,7 +6891,7 @@
           "vraag": "Wat is een harmonische trilling?",
           "opties": [
             "een beweging waarvan de uitwijking een sinus van de tijd is",
-            "een beweging waarvan de snelheid altijd dezelfde blijft",
+            "een beweging waarvan de snelheid altijd dezelfde blijft, van begin tot eind",
             "een beweging waarvan de uitwijking steeds groter wordt",
             "een beweging die altijd dezelfde kant op blijft gaan"
           ],
@@ -7025,7 +7025,7 @@
           "vraag": "Waar is de versnelling van een harmonisch trillend lichaam het grootst?",
           "opties": [
             "in de uiterste standen, waar de uitwijking maximaal is",
-            "in de evenwichtsstand, waar de snelheid maximaal is",
+            "in de evenwichtsstand, waar de snelheid van het voorwerp maximaal is",
             "halverwege tussen het evenwicht en de uiterste stand",
             "ze is tijdens de hele trilling even groot"
           ],
@@ -7265,7 +7265,7 @@
           "vraag": "Wat is een gedwongen trilling?",
           "opties": [
             "een trilling die een uitwendige kracht blijft aandrijven",
-            "een trilling die enkel op zijn eigen frequentie gebeurt",
+            "een trilling die enkel op zijn eigen frequentie gebeurt, zonder hulp",
             "een trilling die na één duw vrij blijft doorgaan",
             "een trilling die door wrijving wordt tegengehouden"
           ],
@@ -7718,7 +7718,7 @@
           "vraag": "Wat betekent het dat twee bronnen coherent zijn?",
           "opties": [
             "ze hebben dezelfde frequentie en een vast faseverschil",
-            "ze hebben dezelfde amplitude en dezelfde plaats",
+            "ze hebben dezelfde amplitude en staan op dezelfde plaats in de ruimte",
             "ze liggen precies even ver van de waarnemer",
             "ze zenden elk een golf in een andere stof uit"
           ],
@@ -7972,7 +7972,7 @@
           "vraag": "Waarom gebruikt men radiogolven voor communicatie over grote afstand?",
           "opties": [
             "ze hebben een groot doordringend vermogen en buigen goed af",
-            "ze hebben de hoogste energie per foton van alle golven",
+            "ze hebben de hoogste energie per foton van alle elektromagnetische golven",
             "ze lopen sneller dan de andere elektromagnetische golven",
             "ze worden door de lucht helemaal niet geabsorbeerd"
           ],
@@ -8089,7 +8089,7 @@
           "vraag": "Waaraan hoor je het verschil tussen een viool en een fluit op dezelfde toon?",
           "opties": [
             "aan de klankkleur, dus aan de vorm van het patroon",
-            "aan de toonhoogte, dus aan de frequentie",
+            "aan de toonhoogte, dus aan de frequentie van de trilling",
             "aan de toonsterkte, dus aan de amplitude",
             "aan de snelheid waarmee het geluid aankomt"
           ],
@@ -8179,7 +8179,7 @@
           "vraag": "Hoe ontstaat blijvende gehoorschade in het binnenoor?",
           "opties": [
             "de trilhaartjes van de haarcellen breken af en groeien niet terug",
-            "het trommelvel scheurt en groeit daarna krom weer dicht",
+            "het trommelvel scheurt en groeit daarna krom en verdikt weer dicht",
             "de gehoorbeentjes raken los van elkaar",
             "de gehoorgang raakt verstopt door te veel oorsmeer"
           ],
@@ -8225,7 +8225,7 @@
           "vraag": "Wat is de grondfrequentie van een snaar?",
           "opties": [
             "de laagste frequentie waarop ze als staande golf kan trillen",
-            "de hoogste frequentie waarop ze kan trillen",
+            "de hoogste frequentie waarop ze nog als staande golf kan trillen",
             "de frequentie waarop ze het luidst klinkt",
             "de frequentie van de tweede boventoon"
           ],
@@ -8421,7 +8421,7 @@
           "vraag": "Waarom verklaart het klassieke golfmodel het foto-elektrisch effect niet?",
           "opties": [
             "het voorspelt dat fel rood licht ook elektronen losmaakt",
-            "het voorspelt dat licht helemaal geen energie vervoert",
+            "het voorspelt dat licht helemaal geen energie vervoert naar het metaal",
             "het voorspelt dat er altijd te veel elektronen loskomen",
             "het voorspelt dat licht niet door een metaal kan gaan"
           ],
@@ -8484,7 +8484,7 @@
           "vraag": "Waarom gaat een rookdetector met licht af als er rook in zit?",
           "opties": [
             "de rook verstrooit de bundel en de fotocel krijgt minder licht",
-            "de rook verwarmt de fotocel tot ze een stroom geeft",
+            "de rook verwarmt de fotocel tot ze vanzelf een kleine stroom geeft",
             "de rook geeft zelf licht af dat de fotocel opvangt",
             "de rook maakt de lucht in de detector elektrisch geladen"
           ],
@@ -8553,7 +8553,7 @@
           "vraag": "Wat beschrijft de golffunctie van een deeltje?",
           "opties": [
             "de kans om het deeltje op een bepaalde plaats te vinden",
-            "de baan die het deeltje precies zal volgen",
+            "de baan die het deeltje precies zal volgen, op elk ogenblik",
             "de snelheid die het deeltje op elk ogenblik heeft",
             "de massa die het deeltje op elke plaats heeft"
           ],
@@ -8593,7 +8593,7 @@
           "vraag": "Waarvoor dient de Schrödingervergelijking?",
           "opties": [
             "om de golffunctie van een deeltje te bepalen",
-            "om de massa van een deeltje te bepalen",
+            "om de massa van een deeltje te bepalen uit zijn snelheid",
             "om de energie van een foton te bepalen",
             "om de snelheid van het licht te bepalen"
           ],
@@ -8701,7 +8701,7 @@
           "vraag": "Waarom kan je van een elektron geen baan tekenen zoals van een planeet?",
           "opties": [
             "plaats en snelheid zijn niet samen scherp te kennen",
-            "een elektron beweegt daarvoor veel te snel",
+            "een elektron beweegt daarvoor veel te snel rond de kern",
             "een elektron staat in een atoom helemaal stil",
             "een elektron heeft geen massa en dus geen baan"
           ],
@@ -9206,7 +9206,7 @@
           "vraag": "Wat is het massadefect van een kern?",
           "opties": [
             "het verschil tussen de massa van de losse nucleonen en de kern",
-            "het verschil tussen het massagetal en het atoomnummer",
+            "het verschil tussen het massagetal en het atoomnummer van de kern",
             "het verschil tussen de massa van twee isotopen",
             "het deel van de massa dat bij verval overblijft"
           ],
@@ -9353,7 +9353,7 @@
           "vraag": "Volgens welke twee kenmerken wordt radioactief afval ingedeeld?",
           "opties": [
             "de intensiteit van de straling en hoe lang ze duurt",
-            "het gewicht van het afval en waar het van komt",
+            "het gewicht van het afval en het bedrijf waar het van komt",
             "de kleur van het afval en de plaats van berging",
             "het aantal vaten en het land van herkomst"
           ],
@@ -9383,7 +9383,7 @@
           "vraag": "Waar komt laagactief afval onder meer van?",
           "opties": [
             "van beschermkledij en gereedschap uit een ziekenhuis of labo",
-            "van de gebruikte splijtstaven van een kernreactor",
+            "van de gebruikte splijtstaven uit het hart van een kernreactor in Doel",
             "van de betonnen koepel rond een reactorvat",
             "van het koelwater uit de koeltoren"
           ],
@@ -9460,7 +9460,7 @@
           "vraag": "Hoe gedragen de drie soorten straling zich in een magnetisch veld?",
           "opties": [
             "alfa en bèta buigen naar tegengestelde kanten, gamma gaat recht",
-            "alle drie buigen naar dezelfde kant af",
+            "alle drie buigen naar dezelfde kant af, maar alfa veel sterker dan de andere",
             "gamma buigt het sterkst af en alfa het minst",
             "geen van de drie buigt in een magnetisch veld af"
           ],
@@ -9494,7 +9494,7 @@
           "vraag": "Wat is de geabsorbeerde dosis?",
           "opties": [
             "de energie van de straling per kilogram weefsel",
-            "de energie van de straling per seconde",
+            "de energie van de straling per seconde, in watt",
             "het aantal vervallen per seconde in de bron",
             "de energie van één foton van de straling"
           ],
@@ -9586,7 +9586,7 @@
           "vraag": "Welk effect heeft ioniserende straling op een cel?",
           "opties": [
             "ze kan het DNA beschadigen en de cel doen afsterven of muteren",
-            "ze maakt de cel alleen maar warmer dan normaal",
+            "ze maakt de cel alleen maar warmer dan normaal, zoals bij koorts",
             "ze maakt de celwand elektrisch geladen zonder meer",
             "ze heeft op een levende cel geen enkel effect"
           ],
@@ -9663,7 +9663,7 @@
           "vraag": "Waarom mag je een meetinstrument niet buiten zijn meetbereik gebruiken?",
           "opties": [
             "de meting is dan onbetrouwbaar en het toestel kan beschadigen",
-            "de meting duurt dan veel langer dan ze normaal zou duren",
+            "de meting duurt dan veel langer dan ze normaal zou duren, en dat kost tijd",
             "het toestel verbruikt dan veel meer stroom",
             "het toestel moet dan achteraf opnieuw geijkt worden"
           ],
@@ -9849,7 +9849,7 @@
           "vraag": "Waarom gebruik je bij een snelle beweging liever een sensor dan een handchronometer?",
           "opties": [
             "je eigen reactietijd geeft bij de hand een fout van wel een tiende seconde",
-            "een sensor kan over een veel grotere afstand meten",
+            "een sensor kan over een veel grotere afstand meten dan je ogen kunnen zien",
             "een handchronometer heeft een veel kleiner meetbereik",
             "een sensor hoeft na de meting niet meer uitgeschakeld te worden"
           ],
@@ -9990,7 +9990,7 @@
           "vraag": "Waarom schrijf je niet alle cijfers van je rekenmachine op?",
           "opties": [
             "je antwoord zou dan nauwkeuriger lijken dan je meting is",
-            "een rekenmachine rekent met te veel afrondingsfouten",
+            "een rekenmachine rekent met te veel afrondingsfouten in de laatste cijfers",
             "lange getallen zijn moeilijker te controleren",
             "het is enkel een afspraak zonder verdere reden"
           ],
@@ -10018,7 +10018,7 @@
           "vraag": "Waarvoor maak je vooraf een schatting van je uitkomst?",
           "opties": [
             "om een onzinnig antwoord meteen te herkennen",
-            "om de meting zelf niet meer te hoeven doen",
+            "om de meting zelf daarna niet meer te hoeven doen",
             "om het aantal beduidende cijfers te bepalen",
             "om de eenheid van het antwoord te vinden"
           ],
@@ -10129,7 +10129,7 @@
           "vraag": "Wat is een hypothese?",
           "opties": [
             "een verwachting die je vooraf opstelt en kan nagaan",
-            "een conclusie die uit je metingen volgt",
+            "een conclusie die uit je metingen volgt aan het einde van het onderzoek",
             "een vraag die je met je onderzoek stelt",
             "een regel die zeker waar blijkt te zijn"
           ],
@@ -10151,7 +10151,7 @@
           "vraag": "Welke onderzoeksvraag is bruikbaar voor een proef?",
           "opties": [
             "hoe hangt de periode van een slinger af van zijn lengte?",
-            "is fysica een moeilijker vak dan wiskunde?",
+            "is fysica een moeilijker vak dan wiskunde voor de meeste leerlingen?",
             "zijn slingers interessanter dan veren?",
             "wat vinden mensen van een slingeruurwerk?"
           ],
@@ -10179,7 +10179,7 @@
           "vraag": "Waarom verander je in een proef maar één grootheid tegelijk?",
           "opties": [
             "anders weet je niet welke verandering het verschil veroorzaakte",
-            "anders duurt de proef veel te lang om af te werken",
+            "anders duurt de proef veel te lang om in één enkele les volledig af te werken",
             "anders heb je veel meer meetinstrumenten nodig",
             "anders kan je de resultaten niet in een tabel zetten"
           ],
@@ -10207,7 +10207,7 @@
           "vraag": "Waarom herhaal je een meting meerdere keren?",
           "opties": [
             "om toevallige afwijkingen uit je resultaat te halen",
-            "om je meetinstrument langer in gebruik te houden",
+            "om je meetinstrument langer in gebruik te houden en het te leren kennen",
             "om meer getallen in je tabel te kunnen zetten",
             "om de hypothese alsnog te laten uitkomen"
           ],
@@ -10219,7 +10219,7 @@
           "vraag": "Waarvoor dient een controleproef?",
           "opties": [
             "om te vergelijken met een opstelling waarin je niets verandert",
-            "om de meetinstrumenten vooraf te ijken",
+            "om de meetinstrumenten vooraf te ijken voor je met de echte proef begint",
             "om de proef sneller te laten verlopen",
             "om de hypothese achteraf alsnog bevestigd te krijgen"
           ],
@@ -10231,7 +10231,7 @@
           "vraag": "Wat moet een goede conclusie doen?",
           "opties": [
             "de onderzoeksvraag beantwoorden op basis van de data",
-            "de hypothese bevestigen, wat de data ook zeggen",
+            "de hypothese bevestigen, wat de data ook zeggen over de vraag",
             "de volgende onderzoeksvraag al meteen stellen",
             "alle metingen nog eens één voor één opsommen"
           ],
@@ -10311,7 +10311,7 @@
           "vraag": "Wat doe je met een meting die sterk van de rest afwijkt?",
           "opties": [
             "je zoekt de oorzaak en vermeldt wat je ermee doet",
-            "je laat ze zonder vermelding uit je tabel weg",
+            "je laat ze zonder vermelding uit je tabel weg, want ze is fout",
             "je neemt ze mee alsof er niets aan de hand is",
             "je past ze aan tot ze bij de andere past"
           ],
@@ -10428,7 +10428,7 @@
           "vraag": "Waarom bekijk je een probleem vanuit verschillende STEM-disciplines?",
           "opties": [
             "elk vak brengt een stuk van de oplossing aan",
-            "zo duurt het ontwerpen minder lang",
+            "zo duurt het ontwerpen minder lang en kost het minder",
             "zo heb je minder materiaal nodig",
             "zo hoef je geen criteria op te stellen"
           ],
@@ -10486,7 +10486,7 @@
           "vraag": "Welke fysicakennis helpt bij het ontwerpen van zo'n koeltas?",
           "opties": [
             "hoe warmte door geleiding, stroming en straling verplaatst",
-            "hoe een elektrische kring in serie geschakeld wordt",
+            "hoe een elektrische kring in serie of in parallel geschakeld wordt",
             "hoe een slinger zijn eigenfrequentie krijgt",
             "hoe een kern bij alfaverval verandert"
           ],
@@ -10504,7 +10504,7 @@
           "vraag": "Wat doe je nadat je een gegeven oplossing geëvalueerd hebt?",
           "opties": [
             "je stuurt ze bij waar ze de criteria niet haalt",
-            "je sluit het ontwerp af hoe het ook uitpakte",
+            "je sluit het ontwerp af hoe het ook uitpakte, en je begint opnieuw",
             "je schrijft de criteria achteraf opnieuw",
             "je begint met een volledig ander probleem"
           ],

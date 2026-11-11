@@ -81,8 +81,8 @@ DEEL1 = [
         antwoord=0,
         uitleg=r"\(Q=n\cdot e=5{,}0\cdot 10^{12}\cdot 1{,}602\cdot 10^{-19}\ \text{C}"
         r"\approx 8{,}0\cdot 10^{-7}\ \text{C}\), en te véél elektronen betekent een "
-        r"negatief teken. De laatste optie is wat je krijgt als je deelt in plaats van "
-        r"vermenigvuldigt.",
+        r"negatief teken. Deel je in plaats van te vermenigvuldigen, dan kom je op een "
+        r"veel te groot getal uit.",
     ),
     dict(
         type="meerkeuze",
@@ -184,7 +184,7 @@ DEEL1 = [
         vraag="Waarvoor dient de tribo-elektrische reeks?",
         opties=[
             "om te zien welke stof bij wrijving elektronen opneemt",
-            "om te zien hoeveel stroom er door een stof kan lopen",
+            "om te zien hoeveel stroom er door een stof kan lopen bij een bepaalde spanning",
             "om de weerstand van een stof bij warmte af te lezen",
             "om de spanning tussen twee geladen platen te bepalen",
         ],
@@ -369,7 +369,7 @@ DEEL2 = [
         vraag="Waarom trekt een geladen staaf ook een neutraal stukje papier aan?",
         opties=[
             "de lading in het papier verschuift en de dichtste kant trekt",
-            "het papier geeft zijn elektronen volledig aan de staaf af",
+            "het papier geeft zijn elektronen volledig aan de staaf af bij het naderen",
             "de lucht tussen staaf en papier duwt het stukje omhoog",
             "papier draagt altijd een kleine lading van zichzelf mee",
         ],

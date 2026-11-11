@@ -36,7 +36,7 @@ DEEL1 = [
         vraag="Wat is het massadefect van een kern?",
         opties=[
             "het verschil tussen de massa van de losse nucleonen en de kern",
-            "het verschil tussen het massagetal en het atoomnummer",
+            "het verschil tussen het massagetal en het atoomnummer van de kern",
             "het verschil tussen de massa van twee isotopen",
             "het deel van de massa dat bij verval overblijft",
         ],
@@ -181,7 +181,7 @@ DEEL1 = [
         vraag="Volgens welke twee kenmerken wordt radioactief afval ingedeeld?",
         opties=[
             "de intensiteit van de straling en hoe lang ze duurt",
-            "het gewicht van het afval en waar het van komt",
+            "het gewicht van het afval en het bedrijf waar het van komt",
             "de kleur van het afval en de plaats van berging",
             "het aantal vaten en het land van herkomst",
         ],
@@ -214,7 +214,7 @@ DEEL1 = [
         vraag="Waar komt laagactief afval onder meer van?",
         opties=[
             "van beschermkledij en gereedschap uit een ziekenhuis of labo",
-            "van de gebruikte splijtstaven van een kernreactor",
+            "van de gebruikte splijtstaven uit het hart van een kernreactor in Doel",
             "van de betonnen koepel rond een reactorvat",
             "van het koelwater uit de koeltoren",
         ],
@@ -290,7 +290,7 @@ DEEL2 = [
         vraag="Hoe gedragen de drie soorten straling zich in een magnetisch veld?",
         opties=[
             "alfa en bèta buigen naar tegengestelde kanten, gamma gaat recht",
-            "alle drie buigen naar dezelfde kant af",
+            "alle drie buigen naar dezelfde kant af, maar alfa veel sterker dan de andere",
             "gamma buigt het sterkst af en alfa het minst",
             "geen van de drie buigt in een magnetisch veld af",
         ],
@@ -323,7 +323,7 @@ DEEL2 = [
         vraag="Wat is de geabsorbeerde dosis?",
         opties=[
             "de energie van de straling per kilogram weefsel",
-            "de energie van de straling per seconde",
+            "de energie van de straling per seconde, in watt",
             "het aantal vervallen per seconde in de bron",
             "de energie van één foton van de straling",
         ],
@@ -415,7 +415,7 @@ DEEL2 = [
         vraag="Welk effect heeft ioniserende straling op een cel?",
         opties=[
             "ze kan het DNA beschadigen en de cel doen afsterven of muteren",
-            "ze maakt de cel alleen maar warmer dan normaal",
+            "ze maakt de cel alleen maar warmer dan normaal, zoals bij koorts",
             "ze maakt de celwand elektrisch geladen zonder meer",
             "ze heeft op een levende cel geen enkel effect",
         ],

@@ -167,7 +167,7 @@ DEEL1 = [
         vraag="Waarom verklaart het klassieke golfmodel het foto-elektrisch effect niet?",
         opties=[
             "het voorspelt dat fel rood licht ook elektronen losmaakt",
-            "het voorspelt dat licht helemaal geen energie vervoert",
+            "het voorspelt dat licht helemaal geen energie vervoert naar het metaal",
             "het voorspelt dat er altijd te veel elektronen loskomen",
             "het voorspelt dat licht niet door een metaal kan gaan",
         ],
@@ -233,7 +233,7 @@ DEEL1 = [
         vraag="Waarom gaat een rookdetector met licht af als er rook in zit?",
         opties=[
             "de rook verstrooit de bundel en de fotocel krijgt minder licht",
-            "de rook verwarmt de fotocel tot ze een stroom geeft",
+            "de rook verwarmt de fotocel tot ze vanzelf een kleine stroom geeft",
             "de rook geeft zelf licht af dat de fotocel opvangt",
             "de rook maakt de lucht in de detector elektrisch geladen",
         ],
@@ -295,7 +295,7 @@ DEEL2 = [
         vraag="Wat beschrijft de golffunctie van een deeltje?",
         opties=[
             "de kans om het deeltje op een bepaalde plaats te vinden",
-            "de baan die het deeltje precies zal volgen",
+            "de baan die het deeltje precies zal volgen, op elk ogenblik",
             "de snelheid die het deeltje op elk ogenblik heeft",
             "de massa die het deeltje op elke plaats heeft",
         ],
@@ -335,7 +335,7 @@ DEEL2 = [
         vraag="Waarvoor dient de Schrödingervergelijking?",
         opties=[
             "om de golffunctie van een deeltje te bepalen",
-            "om de massa van een deeltje te bepalen",
+            "om de massa van een deeltje te bepalen uit zijn snelheid",
             "om de energie van een foton te bepalen",
             "om de snelheid van het licht te bepalen",
         ],
@@ -446,7 +446,7 @@ DEEL2 = [
         vraag="Waarom kan je van een elektron geen baan tekenen zoals van een planeet?",
         opties=[
             "plaats en snelheid zijn niet samen scherp te kennen",
-            "een elektron beweegt daarvoor veel te snel",
+            "een elektron beweegt daarvoor veel te snel rond de kern",
             "een elektron staat in een atoom helemaal stil",
             "een elektron heeft geen massa en dus geen baan",
         ],

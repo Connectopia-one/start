@@ -20,7 +20,7 @@ DEEL1 = [
         vraag="Wat is de magnetische flux door een winding?",
         opties=[
             "het veld maal de doorsneden oppervlakte, met de hoek erbij",
-            "het veld gedeeld door de oppervlakte van de winding",
+            "het veld gedeeld door de oppervlakte van de winding, zonder hoek",
             "de stroom maal het aantal windingen van de spoel",
             "de spanning die de winding aan de kring levert",
         ],
@@ -104,7 +104,7 @@ DEEL1 = [
         vraag="Wat zegt de wet van Lenz?",
         opties=[
             "de inductiestroom werkt de verandering die hem veroorzaakt tegen",
-            "de inductiestroom versterkt de verandering die hem veroorzaakt",
+            "de inductiestroom versterkt altijd de verandering die hem veroorzaakt",
             "de inductiestroom loopt altijd in de zin van het veld",
             "de inductiestroom loopt altijd in dezelfde zin als de bron",
         ],
@@ -117,7 +117,7 @@ DEEL1 = [
         vraag="Je duwt de noordpool van een magneet in een spoel. Wat doet de spoel?",
         opties=[
             "ze maakt aan die kant zelf een noordpool en duwt terug",
-            "ze maakt aan die kant zelf een zuidpool en trekt aan",
+            "ze maakt aan die kant zelf een zuidpool en trekt de magneet verder naar binnen",
             "ze maakt helemaal geen eigen magnetisch veld aan",
             "ze maakt een veld dwars op de as van de magneet",
         ],
@@ -248,7 +248,7 @@ DEEL2 = [
         vraag="Hoe wekt een dynamo op een fiets spanning op?",
         opties=[
             "een magneet draait langs een spoel en laat de flux wisselen",
-            "de wrijving van het wiel maakt de spoel warm genoeg",
+            "de wrijving van het wiel maakt de spoel warm genoeg om stroom te geven",
             "de band perst lucht door een kleine turbine heen",
             "de spoel laadt zich op zoals een batterij dat doet",
         ],
@@ -354,7 +354,7 @@ DEEL2 = [
         vraag="Hoe werkt een inductiekookplaat?",
         opties=[
             "een wisselend veld wekt wervelstromen op in de bodem van de pan",
-            "een spoel onder de plaat wordt heet en geeft die warmte door",
+            "een spoel onder de plaat wordt zelf heet en geeft die warmte door aan de pan",
             "de plaat zendt infraroodstraling naar de bodem van de pan",
             "de plaat wrijft met trillingen langs de bodem van de pan",
         ],
@@ -367,7 +367,7 @@ DEEL2 = [
         vraag="Waarom werkt een inductiekookplaat niet met een pan van aluminium?",
         opties=[
             "aluminium is niet ferromagnetisch genoeg voor de koppeling",
-            "aluminium geleidt de warmte veel te snel naar boven weg",
+            "aluminium geleidt de warmte veel te snel naar boven weg, uit de pan",
             "aluminium smelt bij de temperatuur van zo'n kookplaat",
             "aluminium is te licht om op de plaat te blijven staan",
         ],
@@ -393,7 +393,7 @@ DEEL2 = [
         vraag="Hoe werkt de pick-up van een elektrische gitaar?",
         opties=[
             "de trillende stalen snaar verandert de flux door een spoeltje",
-            "de snaar raakt het spoeltje aan en sluit zo de kring",
+            "de snaar raakt het spoeltje aan en sluit zo de kring van de versterker",
             "de luidspreker neemt het geluid van de snaar rechtstreeks op",
             "de spoel stuurt een stroompje door de snaar heen",
         ],
@@ -447,7 +447,7 @@ DEEL2 = [
         vraag="Hoe laadt een draadloze oplader een telefoon op?",
         opties=[
             "een spoel in de lader wekt een stroom op in een spoel in de telefoon",
-            "de lader stuurt de lading rechtstreeks door de lucht heen",
+            "de lader stuurt de lading rechtstreeks door de lucht heen naar de batterij",
             "de lader warmt de batterij op zodat ze lading vasthoudt",
             "de lader maakt licht dat de batterij met een cel opvangt",
         ],

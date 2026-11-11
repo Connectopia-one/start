@@ -35,7 +35,7 @@ DEEL1 = [
         vraag="Wat is een hypothese?",
         opties=[
             "een verwachting die je vooraf opstelt en kan nagaan",
-            "een conclusie die uit je metingen volgt",
+            "een conclusie die uit je metingen volgt aan het einde van het onderzoek",
             "een vraag die je met je onderzoek stelt",
             "een regel die zeker waar blijkt te zijn",
         ],
@@ -55,7 +55,7 @@ DEEL1 = [
         vraag="Welke onderzoeksvraag is bruikbaar voor een proef?",
         opties=[
             "hoe hangt de periode van een slinger af van zijn lengte?",
-            "is fysica een moeilijker vak dan wiskunde?",
+            "is fysica een moeilijker vak dan wiskunde voor de meeste leerlingen?",
             "zijn slingers interessanter dan veren?",
             "wat vinden mensen van een slingeruurwerk?",
         ],
@@ -81,7 +81,7 @@ DEEL1 = [
         vraag="Waarom verander je in een proef maar één grootheid tegelijk?",
         opties=[
             "anders weet je niet welke verandering het verschil veroorzaakte",
-            "anders duurt de proef veel te lang om af te werken",
+            "anders duurt de proef veel te lang om in één enkele les volledig af te werken",
             "anders heb je veel meer meetinstrumenten nodig",
             "anders kan je de resultaten niet in een tabel zetten",
         ],
@@ -108,7 +108,7 @@ DEEL1 = [
         vraag="Waarom herhaal je een meting meerdere keren?",
         opties=[
             "om toevallige afwijkingen uit je resultaat te halen",
-            "om je meetinstrument langer in gebruik te houden",
+            "om je meetinstrument langer in gebruik te houden en het te leren kennen",
             "om meer getallen in je tabel te kunnen zetten",
             "om de hypothese alsnog te laten uitkomen",
         ],
@@ -121,7 +121,7 @@ DEEL1 = [
         vraag="Waarvoor dient een controleproef?",
         opties=[
             "om te vergelijken met een opstelling waarin je niets verandert",
-            "om de meetinstrumenten vooraf te ijken",
+            "om de meetinstrumenten vooraf te ijken voor je met de echte proef begint",
             "om de proef sneller te laten verlopen",
             "om de hypothese achteraf alsnog bevestigd te krijgen",
         ],
@@ -134,7 +134,7 @@ DEEL1 = [
         vraag="Wat moet een goede conclusie doen?",
         opties=[
             "de onderzoeksvraag beantwoorden op basis van de data",
-            "de hypothese bevestigen, wat de data ook zeggen",
+            "de hypothese bevestigen, wat de data ook zeggen over de vraag",
             "de volgende onderzoeksvraag al meteen stellen",
             "alle metingen nog eens één voor één opsommen",
         ],
@@ -213,7 +213,7 @@ DEEL1 = [
         vraag="Wat doe je met een meting die sterk van de rest afwijkt?",
         opties=[
             "je zoekt de oorzaak en vermeldt wat je ermee doet",
-            "je laat ze zonder vermelding uit je tabel weg",
+            "je laat ze zonder vermelding uit je tabel weg, want ze is fout",
             "je neemt ze mee alsof er niets aan de hand is",
             "je past ze aan tot ze bij de andere past",
         ],
@@ -328,7 +328,7 @@ DEEL2 = [
         vraag="Waarom bekijk je een probleem vanuit verschillende STEM-disciplines?",
         opties=[
             "elk vak brengt een stuk van de oplossing aan",
-            "zo duurt het ontwerpen minder lang",
+            "zo duurt het ontwerpen minder lang en kost het minder",
             "zo heb je minder materiaal nodig",
             "zo hoef je geen criteria op te stellen",
         ],
@@ -387,7 +387,7 @@ DEEL2 = [
         vraag="Welke fysicakennis helpt bij het ontwerpen van zo'n koeltas?",
         opties=[
             "hoe warmte door geleiding, stroming en straling verplaatst",
-            "hoe een elektrische kring in serie geschakeld wordt",
+            "hoe een elektrische kring in serie of in parallel geschakeld wordt",
             "hoe een slinger zijn eigenfrequentie krijgt",
             "hoe een kern bij alfaverval verandert",
         ],
@@ -407,7 +407,7 @@ DEEL2 = [
         vraag="Wat doe je nadat je een gegeven oplossing geëvalueerd hebt?",
         opties=[
             "je stuurt ze bij waar ze de criteria niet haalt",
-            "je sluit het ontwerp af hoe het ook uitpakte",
+            "je sluit het ontwerp af hoe het ook uitpakte, en je begint opnieuw",
             "je schrijft de criteria achteraf opnieuw",
             "je begint met een volledig ander probleem",
         ],

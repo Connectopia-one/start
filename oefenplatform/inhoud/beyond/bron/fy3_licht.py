@@ -182,7 +182,7 @@ DEEL1 = [
         vraag="Waarom gebruikt men radiogolven voor communicatie over grote afstand?",
         opties=[
             "ze hebben een groot doordringend vermogen en buigen goed af",
-            "ze hebben de hoogste energie per foton van alle golven",
+            "ze hebben de hoogste energie per foton van alle elektromagnetische golven",
             "ze lopen sneller dan de andere elektromagnetische golven",
             "ze worden door de lucht helemaal niet geabsorbeerd",
         ],
@@ -297,7 +297,7 @@ DEEL2 = [
         vraag="Waaraan hoor je het verschil tussen een viool en een fluit op dezelfde toon?",
         opties=[
             "aan de klankkleur, dus aan de vorm van het patroon",
-            "aan de toonhoogte, dus aan de frequentie",
+            "aan de toonhoogte, dus aan de frequentie van de trilling",
             "aan de toonsterkte, dus aan de amplitude",
             "aan de snelheid waarmee het geluid aankomt",
         ],
@@ -383,7 +383,7 @@ DEEL2 = [
         vraag="Hoe ontstaat blijvende gehoorschade in het binnenoor?",
         opties=[
             "de trilhaartjes van de haarcellen breken af en groeien niet terug",
-            "het trommelvel scheurt en groeit daarna krom weer dicht",
+            "het trommelvel scheurt en groeit daarna krom en verdikt weer dicht",
             "de gehoorbeentjes raken los van elkaar",
             "de gehoorgang raakt verstopt door te veel oorsmeer",
         ],
@@ -429,7 +429,7 @@ DEEL2 = [
         vraag="Wat is de grondfrequentie van een snaar?",
         opties=[
             "de laagste frequentie waarop ze als staande golf kan trillen",
-            "de hoogste frequentie waarop ze kan trillen",
+            "de hoogste frequentie waarop ze nog als staande golf kan trillen",
             "de frequentie waarop ze het luidst klinkt",
             "de frequentie van de tweede boventoon",
         ],

@@ -22,7 +22,7 @@ DEEL1 = [
         vraag="Wat is een harmonische trilling?",
         opties=[
             "een beweging waarvan de uitwijking een sinus van de tijd is",
-            "een beweging waarvan de snelheid altijd dezelfde blijft",
+            "een beweging waarvan de snelheid altijd dezelfde blijft, van begin tot eind",
             "een beweging waarvan de uitwijking steeds groter wordt",
             "een beweging die altijd dezelfde kant op blijft gaan",
         ],
@@ -155,7 +155,7 @@ DEEL1 = [
         vraag="Waar is de versnelling van een harmonisch trillend lichaam het grootst?",
         opties=[
             "in de uiterste standen, waar de uitwijking maximaal is",
-            "in de evenwichtsstand, waar de snelheid maximaal is",
+            "in de evenwichtsstand, waar de snelheid van het voorwerp maximaal is",
             "halverwege tussen het evenwicht en de uiterste stand",
             "ze is tijdens de hele trilling even groot",
         ],
@@ -390,7 +390,7 @@ DEEL2 = [
         vraag="Wat is een gedwongen trilling?",
         opties=[
             "een trilling die een uitwendige kracht blijft aandrijven",
-            "een trilling die enkel op zijn eigen frequentie gebeurt",
+            "een trilling die enkel op zijn eigen frequentie gebeurt, zonder hulp",
             "een trilling die na één duw vrij blijft doorgaan",
             "een trilling die door wrijving wordt tegengehouden",
         ],

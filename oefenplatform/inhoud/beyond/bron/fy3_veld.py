@@ -26,7 +26,7 @@ DEEL1 = [
         vraag="Wat betekent het dat de elektrische kracht een veldkracht is?",
         opties=[
             "ze werkt op afstand, zonder dat er contact nodig is",
-            "ze werkt enkel als de twee voorwerpen elkaar raken",
+            "ze werkt enkel als de twee voorwerpen elkaar echt raken",
             "ze werkt enkel in een leeg vat zonder lucht erin",
             "ze werkt altijd even sterk, hoe ver je ook gaat",
         ],

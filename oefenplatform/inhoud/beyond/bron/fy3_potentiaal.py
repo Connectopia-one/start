@@ -459,7 +459,7 @@ DEEL2 = [
         vraag="Wat houdt een spanningsbron in een kring in stand?",
         opties=[
             "een potentiaalverschil tussen haar twee polen",
-            "een gelijke potentiaal aan haar twee polen",
+            "een gelijke potentiaal aan haar twee polen, zodat er niets verloren gaat",
             "een gelijke lading op haar twee polen",
             "een constante stroomsterkte in elke tak",
         ],

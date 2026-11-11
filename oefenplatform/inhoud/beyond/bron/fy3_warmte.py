@@ -48,7 +48,7 @@ DEEL1 = [
         vraag="Waarvoor gebruik je een calorimeter?",
         opties=[
             "om een hoeveelheid uitgewisselde warmte te meten",
-            "om de temperatuur van een vlam te meten",
+            "om de temperatuur van een vlam nauwkeurig te meten",
             "om de druk van een gas te meten",
             "om de massa van een vloeistof te meten",
         ],
@@ -74,7 +74,7 @@ DEEL1 = [
         vraag="Wat is de warmtecapaciteit van een voorwerp?",
         opties=[
             "de warmte die het nodig heeft om één kelvin op te warmen",
-            "de warmte die het bij kamertemperatuur in totaal bevat",
+            "de warmte die het bij kamertemperatuur in totaal bevat, in joule",
             "de hoogste temperatuur die het voorwerp kan halen",
             "de warmte die het per seconde aan de lucht afgeeft",
         ],
@@ -284,7 +284,7 @@ DEEL2 = [
         opties=[
             "een stijging, dan een horizontaal stuk, dan weer een stijging",
             "een rechte stijging van begin tot eind",
-            "een daling, dan een horizontaal stuk, dan een stijging",
+            "een daling, dan een horizontaal stuk, dan een stijging tot de eindtemperatuur",
             "een horizontaal stuk van begin tot eind",
         ],
         antwoord=0,

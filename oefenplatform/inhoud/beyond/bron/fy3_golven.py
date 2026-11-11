@@ -373,7 +373,7 @@ DEEL2 = [
         vraag="Wat betekent het dat twee bronnen coherent zijn?",
         opties=[
             "ze hebben dezelfde frequentie en een vast faseverschil",
-            "ze hebben dezelfde amplitude en dezelfde plaats",
+            "ze hebben dezelfde amplitude en staan op dezelfde plaats in de ruimte",
             "ze liggen precies even ver van de waarnemer",
             "ze zenden elk een golf in een andere stof uit",
         ],

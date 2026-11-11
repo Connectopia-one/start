@@ -19,7 +19,7 @@ DEEL1 = [
         vraag="Welke grootheden noemt men de toestandsgrootheden van een gas?",
         opties=[
             "druk, volume, temperatuur en stofhoeveelheid",
-            "druk, massa, snelheid en temperatuur",
+            "druk, massa, snelheid en temperatuur van alle deeltjes",
             "volume, massa, dichtheid en warmte",
             "druk, kracht, oppervlakte en tijd",
         ],
@@ -131,7 +131,7 @@ DEEL1 = [
         vraag=r"Hoe ziet een \(p(V)\)-grafiek van een isotherm proces eruit?",
         opties=[
             "een kromme die daalt zoals een omgekeerde evenredigheid",
-            "een rechte door de oorsprong",
+            "een rechte door de oorsprong die gelijkmatig stijgt naarmate V groter wordt",
             "een horizontale rechte",
             "een stijgende parabool",
         ],
@@ -338,7 +338,7 @@ DEEL2 = [
         vraag="Wat zegt de temperatuur van een gas over zijn deeltjes?",
         opties=[
             "hoe groot hun gemiddelde kinetische energie is",
-            "hoeveel deeltjes er in het vat aanwezig zijn",
+            "hoeveel deeltjes er in het vat aanwezig zijn, per liter",
             "hoe zwaar elk deeltje afzonderlijk is",
             "hoe groot het volume van elk deeltje is",
         ],
@@ -411,7 +411,7 @@ DEEL2 = [
         vraag=r"Waarom staat er op een spuitbus dat je hem niet boven \(50\ ^\circ\text{C}\) mag bewaren?",
         opties=[
             "bij constant volume stijgt de druk mee met de temperatuur",
-            "het gas erin lost bij warmte op in de vloeistof",
+            "het gas erin lost bij warmte op in de vloeistof en verliest zo zijn druk",
             "de bus zet bij warmte zo sterk uit dat hij scheurt",
             "de inhoud verliest bij warmte zijn werking",
         ],
@@ -438,7 +438,7 @@ DEEL2 = [
         vraag=r"Een duiker ademt op \(20\) m diepte lucht in bij ongeveer \(3\) bar. Waarom mag hij bij het opstijgen niet de adem inhouden?",
         opties=[
             "de lucht in zijn longen zet bij de dalende druk sterk uit",
-            "de lucht in zijn longen koelt bij het stijgen snel af",
+            "de lucht in zijn longen koelt bij het stijgen snel af en trekt samen",
             "de lucht lost bij lagere druk op in zijn bloed",
             "de lucht wordt bij het stijgen zwaarder dan water",
         ],

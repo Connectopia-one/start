@@ -142,7 +142,7 @@ DEEL1 = [
         vraag="Hoe vind je de zin van de kracht op een stroomvoerende draad?",
         opties=[
             "met je rechterhand: vingers in de stroomzin, veld in de handpalm, duim geeft de kracht",
-            "met je rechterhand: duim in de stroomzin, vingers geven de kracht aan",
+            "met je rechterhand: duim in de stroomzin, gekrulde vingers geven de zin van de kracht aan",
             "met een kompas dat je naast de draad legt en laat uitdraaien",
             "met de wet van Ohm, want die geeft de zin van de stroom aan",
         ],
@@ -155,7 +155,7 @@ DEEL1 = [
         vraag="Een draad staat onder 30 graden met de veldlijnen in plaats van loodrecht. Wat gebeurt er met de kracht?",
         opties=[
             "ze wordt kleiner, want de sinus van 30 graden is maar een half",
-            "ze wordt groter, want de hoek telt dubbel mee in de formule",
+            "ze wordt groter, want de hoek telt dubbel mee in de formule voor de kracht",
             "ze blijft precies gelijk, want de hoek doet er niet toe",
             "ze valt weg, want kracht ontstaat enkel bij 90 graden",
         ],
@@ -196,7 +196,7 @@ DEEL1 = [
         vraag="Hoe werkt een luidspreker?",
         opties=[
             "de wisselstroom in een spoel duwt het membraan heen en weer",
-            "de wisselstroom warmt het membraan op en laat het trillen",
+            "de wisselstroom warmt het membraan op en laat het daardoor trillen",
             "een permanente magneet draait rond en duwt de lucht weg",
             "een spoel zendt het geluid rechtstreeks als golf uit",
         ],
@@ -353,7 +353,7 @@ DEEL2 = [
         vraag="Waarvoor dient een cyclotron?",
         opties=[
             "om geladen deeltjes tot hoge snelheid te versnellen",
-            "om de massa van een onbekend ion te meten",
+            "om de massa van een onbekend ion nauwkeurig te meten",
             "om de sterkte van een magnetisch veld af te lezen",
             "om een magnetisch veld uit elektriciteit te maken",
         ],
@@ -386,7 +386,7 @@ DEEL2 = [
         vraag="Waarom zie je het noorderlicht vooral in de buurt van de polen?",
         opties=[
             "het aardmagnetisch veld leidt de geladen deeltjes daarheen",
-            "de zon schijnt daar het hele jaar door het schuinst",
+            "de zon schijnt daar het hele jaar door het schuinst op de dampkring",
             "de lucht is daar het dunst en dus het beste zichtbaar",
             "de aarde draait daar het traagst om haar eigen as",
         ],

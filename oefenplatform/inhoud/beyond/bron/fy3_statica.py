@@ -86,7 +86,7 @@ DEEL1 = [
         vraag="Waarom ontbind je een kracht in componenten?",
         opties=[
             "om apart te kunnen rekenen langs twee loodrechte assen",
-            "om de kracht in twee kleinere stukken te verdelen",
+            "om de kracht in twee kleinere en dus zwakkere stukken te verdelen",
             "om de kracht sneller te laten werken op het lichaam",
             "om de massa van het lichaam te kunnen berekenen",
         ],
@@ -205,7 +205,7 @@ DEEL1 = [
         vraag="Een lamp hangt stil aan één koord. Wat weet je over de spankracht?",
         opties=[
             "ze is even groot als de zwaartekracht op de lamp",
-            "ze is twee keer zo groot als de zwaartekracht",
+            "ze is twee keer zo groot als de zwaartekracht, want het koord trekt mee",
             "ze is nul zolang de lamp niet beweegt",
             "ze is half zo groot als de zwaartekracht",
         ],
@@ -420,7 +420,7 @@ DEEL2 = [
         vraag="Een plank van 4 m rust op twee steunen aan de uiteinden. Een last staat op 1 m van de linkersteun. Welke steun draagt het meest?",
         opties=[
             "de linkersteun, want de last staat er het dichtst bij",
-            "de rechtersteun, want die moet de verste arm aan",
+            "de rechtersteun, want die moet de verste arm aan en draagt dus meer",
             "beide steunen dragen precies evenveel",
             "dat hangt enkel af van de dikte van de plank",
         ],
@@ -433,7 +433,7 @@ DEEL2 = [
         vraag="Waarom staat er bij een torenkraan een zwaar blok aan de achterste arm?",
         opties=[
             "om het moment van de last aan de voorkant tegen te werken",
-            "om de kraan zwaarder en dus steviger te maken",
+            "om de kraan zwaarder en dus steviger op de grond te maken",
             "om de last aan de voorkant lichter te laten lijken",
             "om de kraan sneller te kunnen laten draaien",
         ],

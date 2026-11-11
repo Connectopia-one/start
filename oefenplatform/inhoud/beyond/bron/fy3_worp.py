@@ -405,7 +405,7 @@ DEEL2 = [
         vraag="Waarom mik je bij het werpen over een grote afstand hoger dan het doel?",
         opties=[
             "het voorwerp verliest onderweg hoogte door de val",
-            "de lucht duwt het voorwerp onderweg omlaag",
+            "de lucht duwt het voorwerp onderweg omlaag naar de grond",
             "het voorwerp wordt onderweg vanzelf zwaarder",
             "de horizontale snelheid neemt onderweg toe",
         ],

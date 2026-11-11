@@ -19,7 +19,7 @@ DEEL1 = [
         vraag="Wat zegt de eerste wet van Newton?",
         opties=[
             "zonder resulterende kracht verandert de bewegingstoestand niet",
-            "zonder resulterende kracht komt elk lichaam tot stilstand",
+            "zonder resulterende kracht komt elk lichaam na een tijd tot stilstand",
             "elke kracht veroorzaakt een even grote tegenkracht",
             "de versnelling is de kracht gedeeld door de massa",
         ],
@@ -39,7 +39,7 @@ DEEL1 = [
         vraag="Waarom vlieg je naar voren als de bus plots remt?",
         opties=[
             "je lichaam wil met dezelfde snelheid door blijven gaan",
-            "de bus duwt je met een kracht naar voren toe",
+            "de bus duwt je met een kracht naar voren toe, tegen de rijrichting",
             "de remmen trekken je naar de voorkant van de bus",
             "de zwaartekracht werkt tijdens het remmen vooruit",
         ],
@@ -313,7 +313,7 @@ DEEL2 = [
         vraag="Welke kracht is de reactie op de zwaartekracht die de aarde op jou uitoefent?",
         opties=[
             "de kracht waarmee jij aan de aarde trekt",
-            "de normaalkracht van de vloer op jou",
+            "de normaalkracht van de vloer op jou, omhoog gericht",
             "de wrijvingskracht van je schoenen",
             "de spankracht van je spieren",
         ],
