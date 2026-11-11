@@ -43,7 +43,7 @@
           "vraag": "Wat is een zelfstandig naamwoord?",
           "opties": [
             "een woord voor een ding, dier, persoon of gedachte",
-            "een woord dat zegt hoe iets is",
+            "een woord dat zegt hoe iets of iemand is of eruitziet",
             "een woord dat zegt wat iemand doet"
           ],
           "antwoord": 0,
@@ -65,7 +65,7 @@
           "vraag": "Waarover zegt een bijvoeglijk naamwoord iets?",
           "opties": [
             "over een zelfstandig naamwoord",
-            "over een werkwoord",
+            "over een werkwoord dat in de zin staat",
             "over een lidwoord"
           ],
           "antwoord": 0,
@@ -235,7 +235,7 @@
           "vraag": "Hoe herken je een voorzetsel makkelijk?",
           "opties": [
             "je kan het invullen in: de kat zit ... de doos",
-            "het staat altijd vooraan in de zin",
+            "het staat altijd helemaal vooraan in de zin, voor het onderwerp",
             "het eindigt altijd op -en"
           ],
           "antwoord": 0,
@@ -290,7 +290,7 @@
           "vraag": "In welke zin staat een voegwoord?",
           "opties": [
             "Ik blijf thuis want het regent",
-            "De bal ligt onder de tafel",
+            "De bal ligt onder de tafel in de keuken",
             "Mijn fiets is nieuw"
           ],
           "antwoord": 0,
@@ -334,7 +334,7 @@
           "vraag": "Naar wie verwijst wij in: Wij gaan zwemmen?",
           "opties": [
             "naar meer mensen, met jezelf erbij",
-            "naar meer mensen, zonder jezelf",
+            "naar meer mensen, maar zonder jezelf erbij",
             "naar één persoon"
           ],
           "antwoord": 0,
@@ -526,7 +526,7 @@
           "vraag": "Hoe vind je de stam van een werkwoord het snelst?",
           "opties": [
             "haal -en van het hele werkwoord",
-            "zet er -t achter",
+            "zet er een -t achter het hele werkwoord",
             "neem de wij-vorm"
           ],
           "antwoord": 0,
@@ -855,7 +855,7 @@
           "vraag": "Wat is het verschil tussen een zwak en een sterk werkwoord?",
           "opties": [
             "een zwak krijgt -te of -de, een sterk verandert van klinker",
-            "een zwak is korter dan een sterk",
+            "een zwak werkwoord is korter dan een sterk werkwoord en heeft minder letters",
             "een sterk werkwoord staat altijd vooraan"
           ],
           "antwoord": 0,
@@ -1014,7 +1014,7 @@
           "vraag": "Hoe weet je of je gebeurt of gebeurd moet schrijven?",
           "opties": [
             "kijk of er is, heeft of ben bij staat",
-            "kijk of het woord lang of kort is",
+            "kijk of het woord lang of kort is, en tel de letters",
             "schrijf altijd een t"
           ],
           "antwoord": 0,
@@ -1047,7 +1047,7 @@
           "vraag": "Waarom krijgt verhuisd een d en geen t?",
           "opties": [
             "omdat het hele werkwoord verhuizen is, met een z",
-            "omdat er geen ge- voor staat",
+            "omdat er geen ge- voor staat, en dan krijg je altijd een d",
             "omdat verhuizen een sterk werkwoord is"
           ],
           "antwoord": 0,
@@ -1069,7 +1069,7 @@
           "vraag": "Welke werkwoorden krijgen geen ge- in het voltooid deelwoord?",
           "opties": [
             "die met be-, ver-, ont- of her- beginnen",
-            "die met een klinker beginnen",
+            "die met een klinker beginnen, zoals eten of openen",
             "de sterke werkwoorden"
           ],
           "antwoord": 0,
@@ -1173,7 +1173,7 @@
           "vraag": "Hoe vind je de persoonsvorm van een zin?",
           "opties": [
             "maak er een vraagzin van, het eerste woord is de persoonsvorm",
-            "neem het langste woord",
+            "neem het langste woord van de zin, dat is meestal het werkwoord",
             "neem het laatste woord van de zin"
           ],
           "antwoord": 0,
@@ -1195,7 +1195,7 @@
           "vraag": "Hoe vind je het onderwerp?",
           "opties": [
             "vraag wie of wat vóór de persoonsvorm",
-            "neem het eerste woord van de zin",
+            "neem het eerste woord van de zin, vóór de komma",
             "neem het woord na het lidwoord"
           ],
           "antwoord": 0,
@@ -1250,7 +1250,7 @@
           "vraag": "Waarom moet je weten wat het onderwerp is?",
           "opties": [
             "de persoonsvorm richt zich ernaar",
-            "om de zin korter te maken",
+            "om de zin korter en duidelijker te maken",
             "om te weten waar de komma moet"
           ],
           "antwoord": 0,
@@ -1283,7 +1283,7 @@
           "vraag": "Welk zinsdeel staat er in: De oude man leest de krant, op de plaats van de krant?",
           "opties": [
             "het lijdend voorwerp",
-            "het onderwerp",
+            "het onderwerp, want het gaat over de krant",
             "de persoonsvorm"
           ],
           "antwoord": 0,
@@ -1365,7 +1365,7 @@
           "vraag": "Hoe vind je het lijdend voorwerp?",
           "opties": [
             "vraag wie of wat plus de persoonsvorm plus het onderwerp",
-            "neem het woord achter het werkwoord",
+            "neem het woord dat vlak achter het werkwoord staat in de zin",
             "neem altijd het laatste woord"
           ],
           "antwoord": 0,
@@ -1398,7 +1398,7 @@
           "vraag": "Wat is in de tuin in: Wij spelen in de tuin?",
           "opties": [
             "een bepaling van plaats",
-            "het lijdend voorwerp",
+            "het lijdend voorwerp, want het staat achteraan",
             "het onderwerp"
           ],
           "antwoord": 0,
@@ -1409,7 +1409,7 @@
           "vraag": "Wat is gisteren in: Gisteren kwam de post laat?",
           "opties": [
             "een bepaling van tijd",
-            "het onderwerp",
+            "het onderwerp, want het staat vooraan",
             "de persoonsvorm"
           ],
           "antwoord": 0,
@@ -1431,7 +1431,7 @@
           "vraag": "Waarom helpt ontleden bij de keuze tussen word en wordt?",
           "opties": [
             "je ziet dan of het onderwerp ik is of iemand anders",
-            "je ziet dan hoe lang de zin is",
+            "je ziet dan hoe lang de zin is en hoeveel woorden erin staan",
             "je ziet dan waar de komma hoort"
           ],
           "antwoord": 0,
@@ -1454,7 +1454,7 @@
           "opties": [
             "de kinderen uit onze straat",
             "onze straat",
-            "buiten"
+            "buiten, want daar spelen de kinderen"
           ],
           "antwoord": 0,
           "uitleg": "Wie of wat speelt buiten? De kinderen uit onze straat. Een zinsdeel kan dus uit meer woorden bestaan."
@@ -1601,7 +1601,7 @@
           "vraag": "Waarom schrijf je bussen met dubbele s maar ramen met één a?",
           "opties": [
             "om de klank van de klinker gelijk te houden",
-            "omdat bus korter is dan raam",
+            "omdat het woord bus korter is dan het woord raam",
             "dat is willekeurig, je moet het leren"
           ],
           "antwoord": 0,
@@ -1848,7 +1848,7 @@
           "vraag": "Wanneer gebruik je een uitroepteken?",
           "opties": [
             "bij een uitroep of een bevel",
-            "aan het einde van elke zin",
+            "aan het einde van elke zin, ook bij een gewone mededeling",
             "bij een vraag"
           ],
           "antwoord": 0,

@@ -35,7 +35,7 @@ DEEL1 = [
        "Ik word, jij wordt, hij wordt. Alleen bij ik blijft de stam kaal.", WOORD),
     mk("Wat is juist: Hij ... zijn jas (zoeken)?", ["Hij zoekt", "Hij zoek", "Hij zoekd"],
        "Stam zoek plus t. Een d komt er bij de tegenwoordige tijd nooit bij; die hoort bij de verleden tijd.", WOORD),
-    mk("Hoe vind je de stam van een werkwoord het snelst?", ["haal -en van het hele werkwoord", "zet er -t achter", "neem de wij-vorm"],
+    mk("Hoe vind je de stam van een werkwoord het snelst?", ["haal -en van het hele werkwoord", "zet er een -t achter het hele werkwoord", "neem de wij-vorm"],
        "Hele werkwoord min -en, en dan nog eens kijken of je moet verdubbelen of net een letter weglaten.", WOORD),
     won("De ik-vorm van een werkwoord krijgt nooit een t.", True,
         "Waar: ik werk, ik vind, ik word. Dat is de kale stam.", True),
