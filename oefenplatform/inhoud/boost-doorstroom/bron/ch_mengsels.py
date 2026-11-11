@@ -139,7 +139,7 @@ DEEL1 = [
         vraag="Wat bedoelt men met de oplosbaarheid van een stof?",
         opties=[
             "hoeveel ervan in een bepaald volume oplosmiddel oplost",
-            "hoe snel de stof uit elkaar valt in de lucht",
+            "hoe snel de stof in de lucht uit elkaar valt tot kleinere stukjes",
             "bij welke temperatuur de stof begint te koken",
             "hoeveel massa één mol van de stof heeft",
         ],

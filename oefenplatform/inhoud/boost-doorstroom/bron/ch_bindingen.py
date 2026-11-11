@@ -42,7 +42,7 @@ DEEL1 = [
         vraag="Hoe ontstaat een metaalbinding?",
         opties=[
             "de valentie-elektronen bewegen vrij tussen de ionen",
-            "twee atomen delen elk één elektronenpaar",
+            "twee atomen delen elk één elektronenpaar met elkaar",
             "een metaal geeft elektronen aan een niet-metaal",
             "de kernen van twee atomen smelten samen",
         ],
@@ -68,7 +68,7 @@ DEEL1 = [
         vraag="Wat noemt men in een Lewisstructuur een bindend elektronenpaar?",
         opties=[
             "een paar dat door twee atomen gedeeld wordt",
-            "een paar dat bij één atoom alleen blijft",
+            "een paar dat bij één atoom alleen blijft, zonder gedeeld te worden",
             "een paar dat vrij door het rooster beweegt",
             "een paar protonen in de kern",
         ],
@@ -80,7 +80,7 @@ DEEL1 = [
         vraag="Wat noemt men een vrij elektronenpaar?",
         opties=[
             "een paar dat niet aan een binding deelneemt",
-            "een paar dat twee atomen samenhoudt",
+            "een paar dat twee atomen samenhoudt in een enkelvoudige binding",
             "een paar dat tussen de metaalionen beweegt",
             "een paar dat in de kern van het atoom zit",
         ],
@@ -237,7 +237,7 @@ DEEL2 = [
         vraag="Waarom heeft een stof met een ionrooster een hoog smeltpunt?",
         opties=[
             "de aantrekking tussen de ionen is sterk",
-            "de ionen zijn zwaarder dan moleculen",
+            "de ionen zijn veel zwaarder dan de moleculen in een molecuulrooster",
             "een ionrooster geleidt elektriciteit",
             "de ionen hebben geen lading",
         ],
@@ -249,7 +249,7 @@ DEEL2 = [
         vraag="Waarom hebben stoffen met een molecuulrooster vaak een laag smeltpunt?",
         opties=[
             "de krachten tussen de moleculen zijn zwak",
-            "de bindingen in de moleculen zijn zwak",
+            "de bindingen binnenin de moleculen zelf zijn zwak",
             "de moleculen hebben geen massa",
             "er zijn geen bindingen in de stof",
         ],
@@ -261,7 +261,7 @@ DEEL2 = [
         vraag="Waarom geleidt een metaal elektriciteit?",
         opties=[
             "de elektronen kunnen vrij bewegen",
-            "de ionen kunnen vrij bewegen",
+            "de ionen kunnen vrij bewegen door het metaal",
             "er zitten geen elektronen in",
             "de atomen trillen snel",
         ],
@@ -286,7 +286,7 @@ DEEL2 = [
         vraag="Waarom is een zoutkristal breekbaar?",
         opties=[
             "bij verschuiving komen gelijke ladingen naast elkaar",
-            "het rooster bevat te weinig ionen",
+            "het rooster bevat te weinig ionen om stevig samen te hangen",
             "de ionen hebben geen lading",
             "er zitten luchtbellen in het kristal",
         ],
@@ -298,7 +298,7 @@ DEEL2 = [
         vraag="Waarom is een metaal vervormbaar en een zoutkristal niet?",
         opties=[
             "de elektronenwolk houdt de ionen samen bij verschuiving",
-            "een metaal heeft geen rooster",
+            "een metaal heeft geen rooster, de atomen liggen los door elkaar",
             "een metaal bestaat uit moleculen",
             "een metaal heeft een laag smeltpunt",
         ],
@@ -310,7 +310,7 @@ DEEL2 = [
         vraag="Waarom is grafiet zacht en diamant hard, al bestaan beide uit koolstof?",
         opties=[
             "in grafiet liggen de atomen in lagen die over elkaar schuiven",
-            "in grafiet zitten de atomen verder van elkaar in de kern",
+            "in grafiet zitten de atomen verder van elkaar, waardoor ze makkelijk loskomen",
             "diamant bevat meer koolstofatomen per molecule",
             "grafiet heeft een ionrooster en diamant niet",
         ],

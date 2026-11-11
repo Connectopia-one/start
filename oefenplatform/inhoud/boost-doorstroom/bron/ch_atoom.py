@@ -69,7 +69,7 @@ DEEL1 = [
         vraag="Wat zegt het massagetal van een atoom?",
         opties=[
             "het aantal protonen en neutronen samen",
-            "het aantal protonen alleen",
+            "het aantal protonen alleen, zonder de neutronen",
             "het aantal elektronen alleen",
             "de massa in kilogram",
         ],
@@ -106,7 +106,7 @@ DEEL1 = [
         vraag="Wat is een ion?",
         opties=[
             "een atoom dat elektronen heeft opgenomen of afgegeven",
-            "een atoom met een extra neutron in de kern",
+            "een atoom met een extra neutron in de kern erbij, zodat het zwaarder wordt",
             "een molecule van twee gelijke atomen",
             "een atoom zonder kern",
         ],
@@ -211,7 +211,7 @@ DEEL2 = [
         vraag="Wat is de relatieve atoommassa van een element?",
         opties=[
             "de massa van het atoom vergeleken met de eenheid u",
-            "de massa van het atoom uitgedrukt in kilogram",
+            "de massa van het atoom uitgedrukt in kilogram, op de weegschaal",
             "het aantal protonen in de kern van het atoom",
             "het aantal elektronen in de buitenste schil",
         ],
@@ -321,7 +321,7 @@ DEEL2 = [
         vraag="Waarom geeft een natriumatoom liever één elektron af dan er zeven op te nemen?",
         opties=[
             "met één minder heeft het al een volle buitenste schil",
-            "zeven elektronen passen niet in zijn buitenste schil",
+            "zeven elektronen passen niet in zijn buitenste schil, want die is te klein",
             "een negatief geladen natriumion kan niet bestaan",
             "natrium heeft geen buitenste schil",
         ],
@@ -335,7 +335,7 @@ DEEL2 = [
             "met stippen rond het symbool voor de buitenste elektronen",
             "met een getal boven het symbool voor het massagetal",
             "met pijlen die de bewegingsrichting van de kern aangeven",
-            "met kleuren voor de verschillende soorten atomen",
+            "met kleuren voor de verschillende soorten atomen in de molecule",
         ],
         antwoord=0,
         uitleg="Elke stip is één elektron uit de buitenste schil. Zo zie je meteen hoeveel valentie-elektronen het atoom heeft.",

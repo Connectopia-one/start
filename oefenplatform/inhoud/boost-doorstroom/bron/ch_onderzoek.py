@@ -70,7 +70,7 @@ DEEL1 = [
             "onmiddellijk opkuisen volgens de voorschriften",
             "wachten tot het van zichzelf verdampt",
             "er een blad papier over leggen",
-            "verder werken en het aan het einde melden",
+            "verder werken en het pas aan het einde van de les melden",
         ],
         antwoord=0,
         uitleg="Een gemorst product kan iemand verwonden of met een andere stof reageren. Daarom ruim je het meteen op.",
@@ -104,7 +104,7 @@ DEEL1 = [
         vraag="Waarvoor gebruik je een maatkolf?",
         opties=[
             "een oplossing tot een nauwkeurig volume aanvullen",
-            "een vloeistof opwarmen boven een vlam",
+            "een vloeistof opwarmen boven een vlam van de bunsenbrander",
             "een neerslag van een vloeistof scheiden",
             "een vaste stof fijnmaken",
         ],
@@ -128,7 +128,7 @@ DEEL1 = [
         vraag="Hoe lees je het volume in een maatcilinder correct af?",
         opties=[
             "op ooghoogte, onderaan de holle vloeistofspiegel",
-            "van boven af, met de cilinder in je hand",
+            "van boven af, met de cilinder in je hand op ooghoogte gehouden",
             "bovenaan de vloeistofspiegel, op tafel",
             "aan de buitenkant van het glas",
         ],
@@ -317,7 +317,7 @@ DEEL2 = [
         vraag="Wat betekent het criterium dat een onderzoeksvraag objectief moet zijn?",
         opties=[
             "ze laat geen overtuiging of mening doorschemeren",
-            "ze gaat over een meetbare grootheid",
+            "ze gaat over een grootheid die je in het labo kan meten",
             "ze is in één zin te noteren",
             "ze is al eens eerder onderzocht",
         ],
@@ -329,7 +329,7 @@ DEEL2 = [
         vraag="Een leerling stelt als onderzoeksvraag: wanneer werd zuurstof ontdekt? Wat is daar het probleem mee?",
         opties=[
             "het is een opzoekvraag en geen onderzoeksvraag",
-            "de vraag is niet objectief geformuleerd",
+            "de vraag is niet objectief geformuleerd, want ze verraadt een mening",
             "de vraag gaat over te veel onderwerpen",
             "de vraag is niet haalbaar binnen de tijd",
         ],

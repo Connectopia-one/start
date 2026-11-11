@@ -140,7 +140,7 @@ DEEL1 = [
         vraag=r"Een leerling berekent de massa van \(3\) mol CO₂ en schrijft \(132\) g op. Hoe weet je zonder narekenen dat de orde klopt?",
         opties=[
             "drie keer ruim veertig is ongeveer honderdtwintig",
-            "drie mol weegt altijd ongeveer honderd gram",
+            "drie mol van eender welke stof weegt altijd ongeveer honderd gram",
             "de massa is altijd gelijk aan het aantal mol",
             "de massa moet onder de tien gram blijven",
         ],

@@ -143,7 +143,7 @@
           "vraag": "Wat bedoelt men met de oplosbaarheid van een stof?",
           "opties": [
             "hoeveel ervan in een bepaald volume oplosmiddel oplost",
-            "hoe snel de stof uit elkaar valt in de lucht",
+            "hoe snel de stof in de lucht uit elkaar valt tot kleinere stukjes",
             "bij welke temperatuur de stof begint te koken",
             "hoeveel massa één mol van de stof heeft"
           ],
@@ -503,7 +503,7 @@
           "vraag": "In de formule H₂SO₄: wat betekent de \\(4\\) achter de O?",
           "opties": [
             "er zitten vier zuurstofatomen in de molecule",
-            "er zijn vier moleculen van de stof",
+            "er zijn vier moleculen van de stof in de oplossing aanwezig",
             "zuurstof staat in groep vier",
             "de stof heeft vier bindingen"
           ],
@@ -556,7 +556,7 @@
           "vraag": "Waarom is O₃ een enkelvoudige stof, ook al staan er drie atomen in?",
           "opties": [
             "alle atomen horen bij hetzelfde element",
-            "er staat geen coëfficiënt voor",
+            "er staat geen coëfficiënt voor de formule van de molecule",
             "het is een gas bij kamertemperatuur",
             "drie is een oneven getal"
           ],
@@ -747,7 +747,7 @@
           "vraag": "Waarom geleidt grafiet elektriciteit en diamant niet?",
           "opties": [
             "in grafiet kunnen elektronen zich vrij bewegen",
-            "grafiet is zachter dan diamant",
+            "grafiet is zachter dan diamant en dus beter geleidend",
             "grafiet is zwart van kleur",
             "diamant is doorzichtig"
           ],
@@ -800,7 +800,7 @@
           "vraag": "Waarom gebruikt men waterstofgas als brandstof?",
           "opties": [
             "bij de verbranding ontstaat enkel water",
-            "het is een edelgas en dus veilig",
+            "het is een edelgas en dus veilig in elke hoeveelheid",
             "het is het zwaarste gas dat er bestaat",
             "het lost niet op in water"
           ],
@@ -887,7 +887,7 @@
           "vraag": "Wat zegt de wet van behoud van massa?",
           "opties": [
             "de totale massa blijft tijdens een reactie gelijk",
-            "de massa neemt toe als er een gas ontstaat",
+            "de massa neemt toe als er tijdens de reactie een gas ontstaat",
             "de massa neemt af als er warmte vrijkomt",
             "de massa hangt af van de temperatuur"
           ],
@@ -1380,7 +1380,7 @@
           "vraag": "Wat zegt het massagetal van een atoom?",
           "opties": [
             "het aantal protonen en neutronen samen",
-            "het aantal protonen alleen",
+            "het aantal protonen alleen, zonder de neutronen",
             "het aantal elektronen alleen",
             "de massa in kilogram"
           ],
@@ -1421,7 +1421,7 @@
           "vraag": "Wat is een ion?",
           "opties": [
             "een atoom dat elektronen heeft opgenomen of afgegeven",
-            "een atoom met een extra neutron in de kern",
+            "een atoom met een extra neutron in de kern erbij, zodat het zwaarder wordt",
             "een molecule van twee gelijke atomen",
             "een atoom zonder kern"
           ],
@@ -1544,7 +1544,7 @@
           "vraag": "Wat is de relatieve atoommassa van een element?",
           "opties": [
             "de massa van het atoom vergeleken met de eenheid u",
-            "de massa van het atoom uitgedrukt in kilogram",
+            "de massa van het atoom uitgedrukt in kilogram, op de weegschaal",
             "het aantal protonen in de kern van het atoom",
             "het aantal elektronen in de buitenste schil"
           ],
@@ -1662,7 +1662,7 @@
           "vraag": "Waarom geeft een natriumatoom liever één elektron af dan er zeven op te nemen?",
           "opties": [
             "met één minder heeft het al een volle buitenste schil",
-            "zeven elektronen passen niet in zijn buitenste schil",
+            "zeven elektronen passen niet in zijn buitenste schil, want die is te klein",
             "een negatief geladen natriumion kan niet bestaan",
             "natrium heeft geen buitenste schil"
           ],
@@ -1676,7 +1676,7 @@
             "met stippen rond het symbool voor de buitenste elektronen",
             "met een getal boven het symbool voor het massagetal",
             "met pijlen die de bewegingsrichting van de kern aangeven",
-            "met kleuren voor de verschillende soorten atomen"
+            "met kleuren voor de verschillende soorten atomen in de molecule"
           ],
           "antwoord": 0,
           "uitleg": "Elke stip is één elektron uit de buitenste schil. Zo zie je meteen hoeveel valentie-elektronen het atoom heeft."
@@ -1772,7 +1772,7 @@
           "vraag": "Wat hebben elementen uit dezelfde hoofdgroep gemeenschappelijk?",
           "opties": [
             "het aantal valentie-elektronen",
-            "het aantal bezette schillen",
+            "het aantal bezette schillen rond de kern",
             "hun massagetal",
             "hun aantal neutronen"
           ],
@@ -2014,7 +2014,7 @@
           "vraag": "Waarom neemt een zuurstofatoom twee elektronen op?",
           "opties": [
             "dan heeft het een volle buitenste schil",
-            "dan wordt het een metaal",
+            "dan wordt zijn kern stabieler en zwaarder",
             "dan is zijn kern stabieler",
             "dan verliest het zijn lading"
           ],
@@ -2041,7 +2041,7 @@
           "vraag": "Wat zegt de elektronegativiteit van een element?",
           "opties": [
             "hoe sterk het elektronen naar zich toe trekt",
-            "hoeveel elektronen het in totaal heeft",
+            "hoeveel elektronen het in totaal heeft in al zijn schillen",
             "hoeveel protonen er in de kern zitten",
             "hoe zwaar één atoom ervan is"
           ],
@@ -2226,7 +2226,7 @@
           "vraag": "Hoe ontstaat een metaalbinding?",
           "opties": [
             "de valentie-elektronen bewegen vrij tussen de ionen",
-            "twee atomen delen elk één elektronenpaar",
+            "twee atomen delen elk één elektronenpaar met elkaar",
             "een metaal geeft elektronen aan een niet-metaal",
             "de kernen van twee atomen smelten samen"
           ],
@@ -2257,7 +2257,7 @@
           "vraag": "Wat noemt men in een Lewisstructuur een bindend elektronenpaar?",
           "opties": [
             "een paar dat door twee atomen gedeeld wordt",
-            "een paar dat bij één atoom alleen blijft",
+            "een paar dat bij één atoom alleen blijft, zonder gedeeld te worden",
             "een paar dat vrij door het rooster beweegt",
             "een paar protonen in de kern"
           ],
@@ -2269,7 +2269,7 @@
           "vraag": "Wat noemt men een vrij elektronenpaar?",
           "opties": [
             "een paar dat niet aan een binding deelneemt",
-            "een paar dat twee atomen samenhoudt",
+            "een paar dat twee atomen samenhoudt in een enkelvoudige binding",
             "een paar dat tussen de metaalionen beweegt",
             "een paar dat in de kern van het atoom zit"
           ],
@@ -2455,7 +2455,7 @@
           "vraag": "Waarom heeft een stof met een ionrooster een hoog smeltpunt?",
           "opties": [
             "de aantrekking tussen de ionen is sterk",
-            "de ionen zijn zwaarder dan moleculen",
+            "de ionen zijn veel zwaarder dan de moleculen in een molecuulrooster",
             "een ionrooster geleidt elektriciteit",
             "de ionen hebben geen lading"
           ],
@@ -2467,7 +2467,7 @@
           "vraag": "Waarom hebben stoffen met een molecuulrooster vaak een laag smeltpunt?",
           "opties": [
             "de krachten tussen de moleculen zijn zwak",
-            "de bindingen in de moleculen zijn zwak",
+            "de bindingen binnenin de moleculen zelf zijn zwak",
             "de moleculen hebben geen massa",
             "er zijn geen bindingen in de stof"
           ],
@@ -2479,7 +2479,7 @@
           "vraag": "Waarom geleidt een metaal elektriciteit?",
           "opties": [
             "de elektronen kunnen vrij bewegen",
-            "de ionen kunnen vrij bewegen",
+            "de ionen kunnen vrij bewegen door het metaal",
             "er zitten geen elektronen in",
             "de atomen trillen snel"
           ],
@@ -2508,7 +2508,7 @@
           "vraag": "Waarom is een zoutkristal breekbaar?",
           "opties": [
             "bij verschuiving komen gelijke ladingen naast elkaar",
-            "het rooster bevat te weinig ionen",
+            "het rooster bevat te weinig ionen om stevig samen te hangen",
             "de ionen hebben geen lading",
             "er zitten luchtbellen in het kristal"
           ],
@@ -2520,7 +2520,7 @@
           "vraag": "Waarom is een metaal vervormbaar en een zoutkristal niet?",
           "opties": [
             "de elektronenwolk houdt de ionen samen bij verschuiving",
-            "een metaal heeft geen rooster",
+            "een metaal heeft geen rooster, de atomen liggen los door elkaar",
             "een metaal bestaat uit moleculen",
             "een metaal heeft een laag smeltpunt"
           ],
@@ -2532,7 +2532,7 @@
           "vraag": "Waarom is grafiet zacht en diamant hard, al bestaan beide uit koolstof?",
           "opties": [
             "in grafiet liggen de atomen in lagen die over elkaar schuiven",
-            "in grafiet zitten de atomen verder van elkaar in de kern",
+            "in grafiet zitten de atomen verder van elkaar, waardoor ze makkelijk loskomen",
             "diamant bevat meer koolstofatomen per molecule",
             "grafiet heeft een ionrooster en diamant niet"
           ],
@@ -2713,7 +2713,7 @@
           "vraag": "Wat betekent het dat HCl een binair zuur is?",
           "opties": [
             "het bevat twee verschillende elementen",
-            "het bevat twee waterstofatomen",
+            "het bevat twee waterstofatomen in elke molecule",
             "het kan twee reacties aangaan",
             "het lost op in twee stappen"
           ],
@@ -3096,7 +3096,7 @@
           "vraag": "Waaruit bestaat een alkaan?",
           "opties": [
             "enkel uit koolstof en waterstof, met enkelvoudige bindingen",
-            "uit koolstof, waterstof en zuurstof",
+            "uit koolstof, waterstof en zuurstof, met een OH-groep in de keten",
             "uit koolstof met een dubbele binding",
             "uit koolstof en een metaal"
           ],
@@ -3327,7 +3327,7 @@
           "vraag": "Wat is het specifieke structuuronderdeel van een alkyn?",
           "opties": [
             "een drievoudige binding tussen twee koolstofatomen",
-            "een dubbele binding tussen twee koolstofatomen",
+            "een dubbele binding tussen twee koolstofatomen in de keten",
             "een OH-groep aan het uiteinde",
             "een ring van zes koolstofatomen"
           ],
@@ -3413,7 +3413,7 @@
           "vraag": "Waarvoor gebruikt men etheen in de voedingssector?",
           "opties": [
             "om vruchten sneller te laten rijpen",
-            "om vlees langer te bewaren",
+            "om vlees en vis langer vers te bewaren in de koeling",
             "om water te ontkalken",
             "om brood te laten rijzen"
           ],
@@ -3425,7 +3425,7 @@
           "vraag": "Waarvoor gebruikt men brandspiritus?",
           "opties": [
             "als brandstof en als oplosmiddel",
-            "als meststof voor planten",
+            "als meststof voor planten in de tuin en in de serre",
             "als bleekmiddel voor textiel",
             "als koelvloeistof in een frigo"
           ],
@@ -3449,7 +3449,7 @@
           "vraag": "Waarom is methanol gevaarlijk, al lijkt het op drankalcohol?",
           "opties": [
             "het lichaam zet het om in giftige stoffen",
-            "het is radioactief",
+            "het is radioactief en straalt in het lichaam",
             "het ontploft bij contact met water",
             "het lost niet op in water"
           ],
@@ -3536,7 +3536,7 @@
           "vraag": "Wanneer is een binding tussen twee atomen polair?",
           "opties": [
             "als het verschil in elektronegativiteit minstens \\(0{,}4\\) is",
-            "als beide atomen een metaal zijn",
+            "als beide atomen een metaal zijn uit dezelfde groep van het periodiek systeem",
             "als de atomen evenveel elektronen hebben",
             "als de stof vast is bij kamertemperatuur"
           ],
@@ -3548,7 +3548,7 @@
           "vraag": "Waarom is een watermolecule polair?",
           "opties": [
             "de molecule is gebogen en zuurstof trekt harder",
-            "de molecule is recht en volledig symmetrisch",
+            "de molecule is recht en volledig symmetrisch gebouwd",
             "de molecule bevat een metaal",
             "de molecule heeft geen vrije elektronenparen"
           ],
@@ -3591,7 +3591,7 @@
           "vraag": "Waarom lost olie niet op in water?",
           "opties": [
             "olie is apolair en water polair",
-            "olie is te zwaar voor water",
+            "olie is te zwaar en zakt naar de bodem van het water",
             "olie is een zout en water niet",
             "olie bevat geen koolstof"
           ],
@@ -3651,7 +3651,7 @@
           "vraag": "Waarom kookt water bij een veel hogere temperatuur dan je bij zo'n kleine molecule zou verwachten?",
           "opties": [
             "de watermoleculen houden elkaar vast met waterstofbruggen",
-            "water bevat een metaal dat de warmte vasthoudt",
+            "water bevat een opgelost metaal dat de warmte lang vasthoudt",
             "water is apolair en apolaire stoffen koken hoog",
             "watermoleculen zijn zwaarder dan luchtmoleculen"
           ],
@@ -3769,7 +3769,7 @@
           "vraag": "Wat gebeurt er als een zout in water dissocieert?",
           "opties": [
             "de ionen uit het rooster komen los in het water",
-            "de moleculen vallen uiteen in atomen",
+            "de moleculen vallen uiteen in losse atomen in het water",
             "het zout verandert in een zuur",
             "er ontstaan nieuwe moleculen"
           ],
@@ -3781,7 +3781,7 @@
           "vraag": "Wat is het verschil tussen ioniseren en dissociëren?",
           "opties": [
             "bij ioniseren ontstaan de ionen pas in het water",
-            "bij ioniseren verdampt het oplosmiddel",
+            "bij ioniseren verdampt het oplosmiddel en blijven de ionen achter",
             "bij dissociëren ontstaan nieuwe moleculen",
             "er is geen verschil tussen die twee"
           ],
@@ -4524,7 +4524,7 @@
           "vraag": "Een leerling berekent de massa van \\(3\\) mol CO₂ en schrijft \\(132\\) g op. Hoe weet je zonder narekenen dat de orde klopt?",
           "opties": [
             "drie keer ruim veertig is ongeveer honderdtwintig",
-            "drie mol weegt altijd ongeveer honderd gram",
+            "drie mol van eender welke stof weegt altijd ongeveer honderd gram",
             "de massa is altijd gelijk aan het aantal mol",
             "de massa moet onder de tien gram blijven"
           ],
@@ -4881,7 +4881,7 @@
             "onmiddellijk opkuisen volgens de voorschriften",
             "wachten tot het van zichzelf verdampt",
             "er een blad papier over leggen",
-            "verder werken en het aan het einde melden"
+            "verder werken en het pas aan het einde van de les melden"
           ],
           "antwoord": 0,
           "uitleg": "Een gemorst product kan iemand verwonden of met een andere stof reageren. Daarom ruim je het meteen op."
@@ -4918,7 +4918,7 @@
           "vraag": "Waarvoor gebruik je een maatkolf?",
           "opties": [
             "een oplossing tot een nauwkeurig volume aanvullen",
-            "een vloeistof opwarmen boven een vlam",
+            "een vloeistof opwarmen boven een vlam van de bunsenbrander",
             "een neerslag van een vloeistof scheiden",
             "een vaste stof fijnmaken"
           ],
@@ -4942,7 +4942,7 @@
           "vraag": "Hoe lees je het volume in een maatcilinder correct af?",
           "opties": [
             "op ooghoogte, onderaan de holle vloeistofspiegel",
-            "van boven af, met de cilinder in je hand",
+            "van boven af, met de cilinder in je hand op ooghoogte gehouden",
             "bovenaan de vloeistofspiegel, op tafel",
             "aan de buitenkant van het glas"
           ],
@@ -5157,7 +5157,7 @@
           "vraag": "Wat betekent het criterium dat een onderzoeksvraag objectief moet zijn?",
           "opties": [
             "ze laat geen overtuiging of mening doorschemeren",
-            "ze gaat over een meetbare grootheid",
+            "ze gaat over een grootheid die je in het labo kan meten",
             "ze is in één zin te noteren",
             "ze is al eens eerder onderzocht"
           ],
@@ -5169,7 +5169,7 @@
           "vraag": "Een leerling stelt als onderzoeksvraag: wanneer werd zuurstof ontdekt? Wat is daar het probleem mee?",
           "opties": [
             "het is een opzoekvraag en geen onderzoeksvraag",
-            "de vraag is niet objectief geformuleerd",
+            "de vraag is niet objectief geformuleerd, want ze verraadt een mening",
             "de vraag gaat over te veel onderwerpen",
             "de vraag is niet haalbaar binnen de tijd"
           ],

@@ -20,7 +20,7 @@ DEEL1 = [
         vraag="Wanneer is een binding tussen twee atomen polair?",
         opties=[
             r"als het verschil in elektronegativiteit minstens \(0{,}4\) is",
-            "als beide atomen een metaal zijn",
+            "als beide atomen een metaal zijn uit dezelfde groep van het periodiek systeem",
             "als de atomen evenveel elektronen hebben",
             "als de stof vast is bij kamertemperatuur",
         ],
@@ -32,7 +32,7 @@ DEEL1 = [
         vraag="Waarom is een watermolecule polair?",
         opties=[
             "de molecule is gebogen en zuurstof trekt harder",
-            "de molecule is recht en volledig symmetrisch",
+            "de molecule is recht en volledig symmetrisch gebouwd",
             "de molecule bevat een metaal",
             "de molecule heeft geen vrije elektronenparen",
         ],
@@ -70,7 +70,7 @@ DEEL1 = [
         vraag="Waarom lost olie niet op in water?",
         opties=[
             "olie is apolair en water polair",
-            "olie is te zwaar voor water",
+            "olie is te zwaar en zakt naar de bodem van het water",
             "olie is een zout en water niet",
             "olie bevat geen koolstof",
         ],
@@ -130,7 +130,7 @@ DEEL1 = [
         vraag="Waarom kookt water bij een veel hogere temperatuur dan je bij zo'n kleine molecule zou verwachten?",
         opties=[
             "de watermoleculen houden elkaar vast met waterstofbruggen",
-            "water bevat een metaal dat de warmte vasthoudt",
+            "water bevat een opgelost metaal dat de warmte lang vasthoudt",
             "water is apolair en apolaire stoffen koken hoog",
             "watermoleculen zijn zwaarder dan luchtmoleculen",
         ],
@@ -223,7 +223,7 @@ DEEL2 = [
         vraag="Wat gebeurt er als een zout in water dissocieert?",
         opties=[
             "de ionen uit het rooster komen los in het water",
-            "de moleculen vallen uiteen in atomen",
+            "de moleculen vallen uiteen in losse atomen in het water",
             "het zout verandert in een zuur",
             "er ontstaan nieuwe moleculen",
         ],
@@ -235,7 +235,7 @@ DEEL2 = [
         vraag="Wat is het verschil tussen ioniseren en dissociëren?",
         opties=[
             "bij ioniseren ontstaan de ionen pas in het water",
-            "bij ioniseren verdampt het oplosmiddel",
+            "bij ioniseren verdampt het oplosmiddel en blijven de ionen achter",
             "bij dissociëren ontstaan nieuwe moleculen",
             "er is geen verschil tussen die twee",
         ],

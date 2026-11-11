@@ -15,7 +15,7 @@ DEEL1 = [
         vraag="Wat zegt de wet van behoud van massa?",
         opties=[
             "de totale massa blijft tijdens een reactie gelijk",
-            "de massa neemt toe als er een gas ontstaat",
+            "de massa neemt toe als er tijdens de reactie een gas ontstaat",
             "de massa neemt af als er warmte vrijkomt",
             "de massa hangt af van de temperatuur",
         ],

@@ -29,7 +29,7 @@ DEEL1 = [
         vraag="Wat hebben elementen uit dezelfde hoofdgroep gemeenschappelijk?",
         opties=[
             "het aantal valentie-elektronen",
-            "het aantal bezette schillen",
+            "het aantal bezette schillen rond de kern",
             "hun massagetal",
             "hun aantal neutronen",
         ],
@@ -244,7 +244,7 @@ DEEL2 = [
         vraag="Waarom neemt een zuurstofatoom twee elektronen op?",
         opties=[
             "dan heeft het een volle buitenste schil",
-            "dan wordt het een metaal",
+            "dan wordt zijn kern stabieler en zwaarder",
             "dan is zijn kern stabieler",
             "dan verliest het zijn lading",
         ],
@@ -268,7 +268,7 @@ DEEL2 = [
         vraag="Wat zegt de elektronegativiteit van een element?",
         opties=[
             "hoe sterk het elektronen naar zich toe trekt",
-            "hoeveel elektronen het in totaal heeft",
+            "hoeveel elektronen het in totaal heeft in al zijn schillen",
             "hoeveel protonen er in de kern zitten",
             "hoe zwaar één atoom ervan is",
         ],

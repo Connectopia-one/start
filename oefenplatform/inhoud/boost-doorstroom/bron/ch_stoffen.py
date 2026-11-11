@@ -67,7 +67,7 @@ DEEL1 = [
         vraag=r"In de formule H₂SO₄: wat betekent de \(4\) achter de O?",
         opties=[
             "er zitten vier zuurstofatomen in de molecule",
-            "er zijn vier moleculen van de stof",
+            "er zijn vier moleculen van de stof in de oplossing aanwezig",
             "zuurstof staat in groep vier",
             "de stof heeft vier bindingen",
         ],
@@ -116,7 +116,7 @@ DEEL1 = [
         vraag="Waarom is O₃ een enkelvoudige stof, ook al staan er drie atomen in?",
         opties=[
             "alle atomen horen bij hetzelfde element",
-            "er staat geen coëfficiënt voor",
+            "er staat geen coëfficiënt voor de formule van de molecule",
             "het is een gas bij kamertemperatuur",
             "drie is een oneven getal",
         ],
@@ -283,7 +283,7 @@ DEEL2 = [
         vraag="Waarom geleidt grafiet elektriciteit en diamant niet?",
         opties=[
             "in grafiet kunnen elektronen zich vrij bewegen",
-            "grafiet is zachter dan diamant",
+            "grafiet is zachter dan diamant en dus beter geleidend",
             "grafiet is zwart van kleur",
             "diamant is doorzichtig",
         ],
@@ -332,7 +332,7 @@ DEEL2 = [
         vraag="Waarom gebruikt men waterstofgas als brandstof?",
         opties=[
             "bij de verbranding ontstaat enkel water",
-            "het is een edelgas en dus veilig",
+            "het is een edelgas en dus veilig in elke hoeveelheid",
             "het is het zwaarste gas dat er bestaat",
             "het lost niet op in water",
         ],

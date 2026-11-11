@@ -17,7 +17,7 @@ DEEL1 = [
         vraag="Waaruit bestaat een alkaan?",
         opties=[
             "enkel uit koolstof en waterstof, met enkelvoudige bindingen",
-            "uit koolstof, waterstof en zuurstof",
+            "uit koolstof, waterstof en zuurstof, met een OH-groep in de keten",
             "uit koolstof met een dubbele binding",
             "uit koolstof en een metaal",
         ],
@@ -222,7 +222,7 @@ DEEL2 = [
         vraag="Wat is het specifieke structuuronderdeel van een alkyn?",
         opties=[
             "een drievoudige binding tussen twee koolstofatomen",
-            "een dubbele binding tussen twee koolstofatomen",
+            "een dubbele binding tussen twee koolstofatomen in de keten",
             "een OH-groep aan het uiteinde",
             "een ring van zes koolstofatomen",
         ],
@@ -298,7 +298,7 @@ DEEL2 = [
         vraag="Waarvoor gebruikt men etheen in de voedingssector?",
         opties=[
             "om vruchten sneller te laten rijpen",
-            "om vlees langer te bewaren",
+            "om vlees en vis langer vers te bewaren in de koeling",
             "om water te ontkalken",
             "om brood te laten rijzen",
         ],
@@ -310,7 +310,7 @@ DEEL2 = [
         vraag="Waarvoor gebruikt men brandspiritus?",
         opties=[
             "als brandstof en als oplosmiddel",
-            "als meststof voor planten",
+            "als meststof voor planten in de tuin en in de serre",
             "als bleekmiddel voor textiel",
             "als koelvloeistof in een frigo",
         ],
@@ -334,7 +334,7 @@ DEEL2 = [
         vraag="Waarom is methanol gevaarlijk, al lijkt het op drankalcohol?",
         opties=[
             "het lichaam zet het om in giftige stoffen",
-            "het is radioactief",
+            "het is radioactief en straalt in het lichaam",
             "het ontploft bij contact met water",
             "het lost niet op in water",
         ],

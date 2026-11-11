@@ -70,7 +70,7 @@ DEEL1 = [
         vraag="Wat betekent het dat HCl een binair zuur is?",
         opties=[
             "het bevat twee verschillende elementen",
-            "het bevat twee waterstofatomen",
+            "het bevat twee waterstofatomen in elke molecule",
             "het kan twee reacties aangaan",
             "het lost op in twee stappen",
         ],
