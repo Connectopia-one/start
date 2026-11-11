@@ -180,39 +180,22 @@
           "uitleg": "De moderne tijd loopt van 1789 tot 1945. Pas na de Tweede Wereldoorlog begint de hedendaagse tijd."
         },
         {
-          "type": "sorteren",
-          "vraag": "Is dit een historische periode of niet?",
-          "kolommen": [
-            "Historische periode",
-            "Geen historische periode"
+          "type": "tabel",
+          "vraag": "Bekijk de zes nagemaakte prenten: een ziggurat, het Colosseum, een burcht, een zeilschip van de ontdekkingsreizen, een stoomlocomotief en de vlaggen van de Europese Unie. Klopt elke uitspraak?",
+          "rijen": [
+            "Prent 3 en prent 4 horen in twee verschillende periodes.",
+            "Prent 5 hoort in dezelfde periode als de Franse Revolutie.",
+            "Prent 1 hoort bij de klassieke oudheid.",
+            "Prent 6 hoort nog bij de moderne tijd."
           ],
-          "items": [
-            [
-              "de middeleeuwen",
-              "Historische periode"
-            ],
-            [
-              "het oude nabije oosten",
-              "Historische periode"
-            ],
-            [
-              "de vroegmoderne tijd",
-              "Historische periode"
-            ],
-            [
-              "de klassieke oudheid",
-              "Historische periode"
-            ],
-            [
-              "de ijstijd",
-              "Geen historische periode"
-            ],
-            [
-              "de ruimtetijd",
-              "Geen historische periode"
-            ]
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
           ],
-          "uitleg": "De ijstijd is een klimaatbegrip en de ruimtetijd hoort bij de natuurkunde. Geen van beide staat in de westerse periodisering."
+          "uitleg": "De burcht is middeleeuws, het zeilschip hoort bij de vroegmoderne tijd: 1492 ligt ertussen. De stoomlocomotief is van de 19de eeuw, de moderne tijd die in 1789 begint. De ziggurat hoort bij het oude nabije oosten. De Europese Unie ontstond na 1945, in de hedendaagse tijd.",
+          "afbeelding_url": "/examenvormen/beeld/prenten-periodes.webp"
         },
         {
           "type": "meerkeuze",
@@ -290,26 +273,36 @@
           ]
         },
         {
-          "type": "koppelen",
-          "vraag": "De Guldensporenslag heeft betekenis op verschillende schaalniveaus. Koppel elke beschrijving aan het juiste niveau.",
-          "paren": [
+          "type": "hotspot",
+          "vraag": "De Guldensporenslag was een veldslag bij Kortrijk, maar ook een zaak van een groter gebied. Klik in het schema op het gebied dat bij het regionale schaalniveau van de slag hoort.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/schaalniveaus.svg",
+          "zones": [
             [
-              "een veldslag bij Kortrijk",
-              "Lokaal"
+              22.0,
+              34.7,
+              56.0,
+              12.1
             ],
             [
-              "een zaak van het graafschap Vlaanderen",
-              "Regionaal"
+              22.0,
+              59.7,
+              56.0,
+              8.9
             ],
             [
-              "een episode in de strijd om Frankrijk",
-              "Continentaal"
+              22.0,
+              46.8,
+              15.0,
+              12.9
+            ],
+            [
+              63.0,
+              46.8,
+              15.0,
+              12.9
             ]
           ],
-          "extra": [
-            "Mondiaal"
-          ],
-          "uitleg": "Dezelfde gebeurtenis kan lokaal, regionaal en continentaal betekenis hebben. Mondiaal, de hele wereld, past hier niet."
+          "uitleg": "Kortrijk is het lokale niveau, het graafschap Vlaanderen het regionale. De strijd om Frankrijk en Europa is continentaal; mondiaal, de hele wereld, past hier niet."
         },
         {
           "type": "sorteren",
@@ -355,16 +348,22 @@
           "uitleg": "Lokaal tot mondiaal zegt hoe groot een gebied is. Maritiem, ruraal, stedelijk en westers zeggen wat voor gebied het is."
         },
         {
-          "type": "meerkeuze",
-          "vraag": "Een leerling legt een kaart van het rijk van Karel V naast een kaart van vandaag. Wat doet ze?",
-          "opties": [
-            "Ze beoordeelt een bron op betrouwbaarheid",
-            "Ze situeert iets in de tijd",
-            "Ze vergelijkt twee maatschappelijke domeinen",
-            "Ze situeert iets in de ruimte"
+          "type": "tabel",
+          "vraag": "Bekijk de historische kaart van het rijk van Karel V rond 1550. Klopt elke uitspraak?",
+          "rijen": [
+            "Met deze kaart situeer je het rijk in de ruimte.",
+            "De grenzen op de kaart zijn de grenzen van vandaag.",
+            "Het rijk had stukken in verschillende delen van Europa en daarbuiten.",
+            "Uit de kaart lees je af hoeveel belasting de inwoners betaalden."
           ],
-          "antwoord": 3,
-          "uitleg": "Een historische kaart toont het gebied met de grenzen van toen. Naast een kaart van vandaag situeer je zo een gegeven in de ruimte."
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Een historische kaart toont het gebied met de grenzen van toen. Leg je ze naast een kaart van vandaag, dan situeer je het rijk in de ruimte. Over belastingen zegt een kaart niets.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/kaart-rijk-karel-v.jpg"
         },
         {
           "type": "meerkeuze",
@@ -421,7 +420,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een geschilderd portret van sultan Süleyman I toont zijn macht en is een kunstwerk in een bepaalde stijl. In welke domeinen hoort het? (meerdere antwoorden)",
+          "vraag": "Bekijk het geschilderde portret van sultan Süleyman I. In welke maatschappelijke domeinen hoort het? (meerdere antwoorden)",
           "opties": [
             "Het politieke domein",
             "Het culturele domein",
@@ -432,7 +431,8 @@
             0,
             1
           ],
-          "uitleg": "Het toont de macht van de sultan (politiek) en is een kunstwerk (cultureel). Met het economische of het sociale domein heeft het weinig te maken."
+          "uitleg": "Het toont de macht van de sultan (politiek) en is een kunstwerk (cultureel). Met het economische of het sociale domein heeft het weinig te maken.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/portret-suleyman.jpg"
         },
         {
           "type": "keuzelijst",

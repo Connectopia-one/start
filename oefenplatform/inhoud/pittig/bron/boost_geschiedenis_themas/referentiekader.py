@@ -1,11 +1,25 @@
 """Het historisch referentiekader — pittig (🚀 Boost doorstroom)."""
-from .vormen import J, F, mk, inv, tabel, keuze, volgorde, koppel, sorteer, sleep, open_, casus, klik
+from .vormen import J, F, mk, inv, tabel, keuze, volgorde, koppel, sorteer, sleep, open_, casus, klik, met_prent
 
 PRENTEN = [
     dict(bestand="tijdlijn-0-2000.svg", zelf=True,
          wat="Tijdlijn van het jaar 0 tot 2000, een groot streepje om de honderd jaar, jaartallen om de vijfhonderd jaar.",
          vragen="klikvragen op 476, het begin van de vroegmoderne tijd en 1789"),
+    dict(bestand="schaalniveaus.svg", zelf=True,
+         wat="Schema met vijf gebieden in elkaar: de wereld, Europa, het koninkrijk Frankrijk, het graafschap Vlaanderen, Kortrijk.",
+         vragen="klikvraag op het regionale schaalniveau van de Guldensporenslag"),
+    dict(bestand="kaart-rijk-karel-v.jpg", zelf=False,
+         wat="Historische kaart van het rijk van Karel V rond 1550, met de Nederlanden, Spanje, delen van Italië, het Heilige Roomse Rijk en de kolonies in Amerika in één kleur.",
+         waar="Wikimedia Commons, zoek op 'Empire of Charles V map' (kies een kaart die vrij te gebruiken is), of een kaart uit een atlas die we mogen tonen.",
+         vragen="tabelvraag: een gegeven in de ruimte situeren met een historische kaart"),
+    dict(bestand="portret-suleyman.jpg", zelf=False,
+         wat="Geschilderd portret van sultan Süleyman I (16de eeuw), bijvoorbeeld het portret uit de werkplaats van Titiaan in het Kunsthistorisches Museum in Wenen.",
+         waar="Wikimedia Commons, zoek op 'Suleiman the Magnificent portrait Titian' (publiek domein).",
+         vragen="meerkeuzevraag: in welke maatschappelijke domeinen hoort het portret"),
 ]
+
+# De zes nagemaakte prenten van de periodes van Geschiedenis Spark (zelfde bestand).
+PERIODES = "/examenvormen/beeld/prenten-periodes.webp"
 
 TL = "tijdlijn-0-2000.svg"
 
@@ -112,18 +126,18 @@ VRAGEN = [
         "De Tweede Wereldoorlog situeer je in de [[*moderne tijd|hedendaagse tijd|vroegmoderne tijd]], want de hedendaagse tijd begint pas in [[*1945|1918|1789]].",
         "De moderne tijd loopt van 1789 tot 1945. Pas na de Tweede Wereldoorlog begint de hedendaagse tijd.",
     ),
-    sorteer(
-        "Is dit een historische periode of niet?",
-        ["Historische periode", "Geen historische periode"],
-        [
-            ["de middeleeuwen", "Historische periode"],
-            ["het oude nabije oosten", "Historische periode"],
-            ["de vroegmoderne tijd", "Historische periode"],
-            ["de klassieke oudheid", "Historische periode"],
-            ["de ijstijd", "Geen historische periode"],
-            ["de ruimtetijd", "Geen historische periode"],
-        ],
-        "De ijstijd is een klimaatbegrip en de ruimtetijd hoort bij de natuurkunde. Geen van beide staat in de westerse periodisering.",
+    dict(
+        **tabel(
+            "Bekijk de zes nagemaakte prenten: een ziggurat, het Colosseum, een burcht, een zeilschip van de ontdekkingsreizen, een stoomlocomotief en de vlaggen van de Europese Unie. Klopt elke uitspraak?",
+            [
+                ("Prent 3 en prent 4 horen in twee verschillende periodes.", J),
+                ("Prent 5 hoort in dezelfde periode als de Franse Revolutie.", J),
+                ("Prent 1 hoort bij de klassieke oudheid.", F),
+                ("Prent 6 hoort nog bij de moderne tijd.", F),
+            ],
+            "De burcht is middeleeuws, het zeilschip hoort bij de vroegmoderne tijd: 1492 ligt ertussen. De stoomlocomotief is van de 19de eeuw, de moderne tijd die in 1789 begint. De ziggurat hoort bij het oude nabije oosten. De Europese Unie ontstond na 1945, in de hedendaagse tijd.",
+        ),
+        afbeelding_url=PERIODES,
     ),
     mk(
         "Met welke twee principes baken je een periode af?",
@@ -189,15 +203,11 @@ VRAGEN = [
         ],
     ),
     # --- ruimte
-    koppel(
-        "De Guldensporenslag heeft betekenis op verschillende schaalniveaus. Koppel elke beschrijving aan het juiste niveau.",
-        [
-            ["een veldslag bij Kortrijk", "Lokaal"],
-            ["een zaak van het graafschap Vlaanderen", "Regionaal"],
-            ["een episode in de strijd om Frankrijk", "Continentaal"],
-        ],
-        ["Mondiaal"],
-        "Dezelfde gebeurtenis kan lokaal, regionaal en continentaal betekenis hebben. Mondiaal, de hele wereld, past hier niet.",
+    klik(
+        "De Guldensporenslag was een veldslag bij Kortrijk, maar ook een zaak van een groter gebied. Klik in het schema op het gebied dat bij het regionale schaalniveau van de slag hoort.",
+        "schaalniveaus.svg",
+        [[22.0, 34.7, 56.0, 12.1], [22.0, 59.7, 56.0, 8.9], [22.0, 46.8, 15.0, 12.9], [63.0, 46.8, 15.0, 12.9]],
+        "Kortrijk is het lokale niveau, het graafschap Vlaanderen het regionale. De strijd om Frankrijk en Europa is continentaal; mondiaal, de hele wereld, past hier niet.",
     ),
     sorteer(
         "De ruimtebegrippen vallen in twee rijtjes uiteen. Sleep elk begrip naar het juiste rijtje.",
@@ -214,16 +224,19 @@ VRAGEN = [
         ],
         "Lokaal tot mondiaal zegt hoe groot een gebied is. Maritiem, ruraal, stedelijk en westers zeggen wat voor gebied het is.",
     ),
-    mk(
-        "Een leerling legt een kaart van het rijk van Karel V naast een kaart van vandaag. Wat doet ze?",
-        [
-            "Ze beoordeelt een bron op betrouwbaarheid",
-            "Ze situeert iets in de tijd",
-            "Ze vergelijkt twee maatschappelijke domeinen",
-            "Ze situeert iets in de ruimte",
-        ],
-        3,
-        "Een historische kaart toont het gebied met de grenzen van toen. Naast een kaart van vandaag situeer je zo een gegeven in de ruimte.",
+    met_prent(
+        "kaart-rijk-karel-v.jpg",
+        tabel(
+            "Bekijk de historische kaart van het rijk van Karel V rond 1550. Klopt elke uitspraak?",
+            [
+                ("Met deze kaart situeer je het rijk in de ruimte.", J),
+                ("De grenzen op de kaart zijn de grenzen van vandaag.", F),
+                ("Het rijk had stukken in verschillende delen van Europa en daarbuiten.", J),
+                ("Uit de kaart lees je af hoeveel belasting de inwoners betaalden.", F),
+            ],
+            "Een historische kaart toont het gebied met de grenzen van toen. Leg je ze naast een kaart van vandaag, dan situeer je het rijk in de ruimte. Over belastingen zegt een kaart niets.",
+        ),
+        volgt=True,
     ),
     mk(
         "Wat bedoelt men met westers?",
@@ -251,11 +264,15 @@ VRAGEN = [
         ],
         "Macht en bestuur zijn politiek, de verhouding tussen groepen sociaal, produceren en handelen economisch, geloof, kunst en wetenschap cultureel. E-commerce is economisch, hoe modern het ook klinkt.",
     ),
-    mk(
-        "Een geschilderd portret van sultan Süleyman I toont zijn macht en is een kunstwerk in een bepaalde stijl. In welke domeinen hoort het? (meerdere antwoorden)",
-        ["Het politieke domein", "Het culturele domein", "Het economische domein", "Het sociale domein"],
-        [0, 1],
-        "Het toont de macht van de sultan (politiek) en is een kunstwerk (cultureel). Met het economische of het sociale domein heeft het weinig te maken.",
+    met_prent(
+        "portret-suleyman.jpg",
+        mk(
+            "Bekijk het geschilderde portret van sultan Süleyman I. In welke maatschappelijke domeinen hoort het? (meerdere antwoorden)",
+            ["Het politieke domein", "Het culturele domein", "Het economische domein", "Het sociale domein"],
+            [0, 1],
+            "Het toont de macht van de sultan (politiek) en is een kunstwerk (cultureel). Met het economische of het sociale domein heeft het weinig te maken.",
+        ),
+        volgt=True,
     ),
     keuze(
         "Het [[*geografische|politieke|sociale]] domein is geen maatschappelijk domein. Een handelsvloot die specerijen aanvoert, breng je onder bij het [[*economische|maritieme|militaire]] domein.",

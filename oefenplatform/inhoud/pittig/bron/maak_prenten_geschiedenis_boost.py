@@ -49,8 +49,46 @@ def tijdlijn():
     (UIT / "tijdlijn-0-2000.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
 
 
+# ---------------------------------------------------------------- schaalniveaus
+# Vijf gebieden in elkaar, van de wereld tot Kortrijk. Geen kaart, enkel een
+# schema: de vorm zegt niets over de echte grenzen.
+SB, SH = 1000, 620
+SCHAAL = [  # naam, x, y, breedte, hoogte, kleur
+    ("de wereld", 10, 10, 980, 600, "#eef3e6"),
+    ("Europa", 70, 75, 860, 480, "#dde8cf"),
+    ("het koninkrijk Frankrijk", 140, 145, 720, 345, "#c9dbb4"),
+    ("het graafschap Vlaanderen", 220, 215, 560, 210, "#b3cc98"),
+    ("Kortrijk", 370, 290, 260, 80, "#ffffff"),
+]
+
+
+def schaalniveaus():
+    d = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {SB} {SH}" width="{SB}" height="{SH}" font-family="Arial, sans-serif">',
+         f'<rect width="{SB}" height="{SH}" fill="{ACHTER}"/>']
+    for naam, x, y, b, h, kleur in SCHAAL:
+        d.append(f'<rect x="{x}" y="{y}" width="{b}" height="{h}" rx="22" fill="{kleur}" stroke="{GROEN}" stroke-width="3"/>')
+        if naam == "Kortrijk":
+            d.append(f'<text x="{x + b / 2}" y="{y + 52}" font-size="30" text-anchor="middle" fill="{DONKER}">{naam}</text>')
+        else:
+            d.append(f'<text x="{x + 22}" y="{y + 42}" font-size="28" fill="{DONKER}">{naam}</text>')
+    d.append("</svg>")
+    (UIT / "schaalniveaus.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
+
+
+def zones_ring(naam):
+    """Klikvakken in procent voor de rand van een gebied, zonder het gebied erbinnen."""
+    i = [n for n, *_ in SCHAAL].index(naam)
+    _, x, y, b, h, _ = SCHAAL[i]
+    _, xi, yi, bi, hi, _ = SCHAAL[i + 1]
+    def pc(a, c, e, f):
+        return [round(a / SB * 100, 1), round(c / SH * 100, 1), round(e / SB * 100, 1), round(f / SH * 100, 1)]
+    return [pc(x, y, b, yi - y), pc(x, yi + hi, b, y + h - yi - hi), pc(x, yi, xi - x, hi), pc(xi + bi, yi, x + b - xi - bi, hi)]
+
+
 if __name__ == "__main__":
     UIT.mkdir(parents=True, exist_ok=True)
     tijdlijn()
+    schaalniveaus()
+    print('Vlaanderen', zones_ring('het graafschap Vlaanderen'))
     for j in (476, 800, 1453, 1492, 1789):
         print(j, zone_jaar(j))
