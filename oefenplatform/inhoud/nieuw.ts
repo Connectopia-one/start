@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "11 november 2026",
+    titel: "Nieuwe begrippenarena: aardrijkskunde",
+    tekst:
+      "Bij de educatieve spellen staat nu ook een begrippenarena aardrijkskunde, voor Start, Spark, Boost en Beyond. Je oefent de begrippen uit de leerbundels in met een quiz, memory, galgje, flitskaarten of bingo, alleen of met de hele klas. Nieuw is fotoraden: je ziet een echte foto van bijvoorbeeld de toendra, de polders of een vulkaan en kiest het juiste begrip.",
+    link: { tekst: "Naar de spellen", href: "/extras/spellen" },
+  },
+  {
+    datum: "11 november 2026",
     titel: "Vier nieuwe uitdagingen in Spark, zoals op het examen",
     tekst:
       "Aardrijkskunde, Engels, samenleving en economie en techniek in Spark hebben nu ook een uitdagingshoofdstuk: telkens 30 vragen over alle hoofdstukken door elkaar, in de vormen van het examen van de Examencommissie. Je vult een tabel in, kiest uit keuzelijsten, sleept woorden, koppelt, sorteert, leest een casus, klikt op een prent en schrijft een kort antwoord.",

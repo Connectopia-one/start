@@ -126,6 +126,7 @@ export const spellen: Spel[] = [
   { slug: "begrippenarena-natuur", icoon: "🔬", titel: "Begrippenarena Natuurwetenschappen" },
   { slug: "begrippenarena-wiskunde", icoon: "📐", titel: "Begrippenarena Wiskunde" },
   { slug: "begrippenarena-economie", icoon: "📊", titel: "Begrippenarena Economie" },
+  { slug: "begrippenarena-aardrijkskunde", icoon: "🌋", titel: "Begrippenarena Aardrijkskunde" },
   { slug: "wiskunde-dimensie", icoon: "🤖", titel: "De Wiskunde-dimensie" },
   /* Prikkelarme spellen voor het lager (Kim, 9 november 2026): geen klok,
      geen geluid, geen punten, een rustige tip bij een fout. */
@@ -155,6 +156,9 @@ export type SpelKaart = {
 const zesSpellen =
   "In zes spellen: een quiz, memory, raad het begrip, galgje, flitskaarten en bingo.";
 
+const zevenSpellenAk =
+  "In zeven spellen: een quiz, memory, raad het begrip, vulkaangalgje, flitskaarten, bingo en fotoraden met echte foto's.";
+
 export const spelKaarten: SpelKaart[] = [
   /* Lagere school */
   {
@@ -170,6 +174,13 @@ export const spelKaarten: SpelKaart[] = [
     niveau: "🌱 Start · 5de en 6de leerjaar",
     niveauInSpel: "start",
     tekst: `De begrippen uit de leerbundels geschiedenis van Start. ${zesSpellen}`,
+  },
+  {
+    spel: "begrippenarena-aardrijkskunde",
+    school: "lager",
+    niveau: "🌱 Start · 5de en 6de leerjaar",
+    niveauInSpel: "start",
+    tekst: `Kaartlezen, België en Europa en de wereld: van legende en windroos tot polders, oase en Europese Unie. ${zevenSpellenAk}`,
   },
   {
     spel: "wiskunde-dimensie",
@@ -230,6 +241,13 @@ export const spelKaarten: SpelKaart[] = [
     tekst: `Honderdzestig begrippen uit de tien leerbundels natuurwetenschappen van Spark, van de cel tot wetenschappelijk onderzoek. ${zesSpellen}`,
   },
   {
+    spel: "begrippenarena-aardrijkskunde",
+    school: "middelbaar",
+    niveau: "✨ Spark · 1ste en 2de middelbaar",
+    niveauInSpel: "spark",
+    tekst: `Honderdzestig begrippen uit de tien leerbundels aardrijkskunde van Spark, van kaart lezen en klimaatzones tot verwering en Geopunt. ${zevenSpellenAk}`,
+  },
+  {
     spel: "woordenarena-engels",
     school: "middelbaar",
     niveau: "✨ Spark · 1ste en 2de middelbaar",
@@ -243,6 +261,13 @@ export const spelKaarten: SpelKaart[] = [
     niveau: "🚀 Boost · 2de graad (3de en 4de middelbaar)",
     niveauInSpel: "boost",
     tekst: `De wiskundewoorden van de 2de graad. ${zesSpellen}`,
+  },
+  {
+    spel: "begrippenarena-aardrijkskunde",
+    school: "middelbaar",
+    niveau: "🚀 Boost · 2de graad, doorstroom en dubbele finaliteit",
+    niveauInSpel: "boost",
+    tekst: `Ruim honderdtwintig begrippen, van bevolking en migratie tot mondialisering, duurzaamheid en het versterkte broeikaseffect. ${zevenSpellenAk}`,
   },
   {
     spel: "begrippenarena-economie",
@@ -292,7 +317,14 @@ export const spelKaarten: SpelKaart[] = [
     niveau: "🌍 Beyond · bedrijfswetenschappen (5de en 6de middelbaar)",
     niveauInSpel: "bedrijf",
     tekst: `Bijna tachtig begrippen bedrijfswetenschappen en recht, van ondernemingsvormen en boekhouden tot kerncijfers, marketing, de arbeidsovereenkomst en databanken. ${zesSpellen}`,
+  },  {
+    spel: "begrippenarena-aardrijkskunde",
+    school: "middelbaar",
+    niveau: "🌍 Beyond · 3de graad, doorstroom en dubbele finaliteit",
+    niveauInSpel: "beyond",
+    tekst: `Ruim tweehonderddertig begrippen in eenentwintig hoofdstukken, van het heelal en de atmosfeer tot platentektoniek, gesteenten en ruimtelijke ordening. ${zevenSpellenAk}`,
   },
+
 ];
 
 export function vindSpel(slug: string) {
