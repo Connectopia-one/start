@@ -15,7 +15,7 @@ DEEL1 = [
         vraag="Wat dacht Lamarck over de lange hals van de giraf?",
         opties=[
             "elk dier rekte zich uit en gaf die langere hals door",
-            "giraffen met een langere hals overleefden vaker",
+            "giraffen met een langere hals overleefden vaker in droge tijden",
             "een toevallige mutatie maakte de hals langer",
             "de hals werd langer door de keuze van het wijfje",
         ],
@@ -33,7 +33,7 @@ DEEL1 = [
         vraag="Wat is de kern van de theorie van Darwin?",
         opties=[
             "wie het best past bij de omgeving, plant zich het meest voort",
-            "wie zijn lichaamsdelen het meest gebruikt, geeft ze door",
+            "wie zijn lichaamsdelen het meest gebruikt, geeft ze versterkt door",
             "wie het sterkst is, leeft altijd het langst",
             "wie het grootst is, krijgt de meeste nakomelingen",
         ],
@@ -65,7 +65,7 @@ DEEL1 = [
         vraag="Wat betekent survival of the fittest?",
         opties=[
             "wie het best bij zijn omgeving past, overleeft het best",
-            "wie het sterkst en het grootst is, wint altijd",
+            "wie het sterkst en het grootst is, wint altijd elk gevecht",
             "wie het snelst kan lopen, ontsnapt altijd",
             "wie het meeste voedsel vindt, leeft het langst",
         ],
@@ -89,7 +89,7 @@ DEEL1 = [
         vraag="Waarom werden de peper-en-zoutvlinders in de industriële streken donkerder?",
         opties=[
             "op roetzwarte boomstammen vielen donkere vlinders minder op",
-            "het roet kleurde de vleugels van de vlinders zwart",
+            "het roet kleurde de vleugels van de vlinders langzaam zwart",
             "de vlinders pasten hun kleur aan het roet aan",
             "donkere vlinders legden plots veel meer eitjes",
         ],
@@ -107,7 +107,7 @@ DEEL1 = [
         vraag="Hoe ontstaat antibioticaresistentie bij bacteriën?",
         opties=[
             "enkele bacteriën waren al ongevoelig en overleven de kuur",
-            "de bacteriën leren tijdens de kuur weerstand opbouwen",
+            "de bacteriën leren tijdens de kuur stap voor stap weerstand opbouwen",
             "het antibioticum maakt de bacteriën sterker",
             "de bacteriën kiezen zelf om te veranderen",
         ],
@@ -151,7 +151,7 @@ DEEL1 = [
         vraag="Hoe zou Lamarck verklaren dat een mol zulke kleine ogen heeft?",
         opties=[
             "door ze onder de grond niet te gebruiken, werden ze kleiner",
-            "mollen met kleine ogen hielden er meer energie aan over",
+            "mollen met kleine ogen hielden er meer energie aan over voor iets anders",
             "een mutatie maakte de ogen bij toeval kleiner",
             "de mol koos ervoor om onder de grond te leven",
         ],
@@ -176,7 +176,7 @@ DEEL1 = [
         opties=[
             "er is dan meer kans dat sommigen een verandering overleven",
             "alle dieren groeien er sneller door",
-            "de populatie wordt er automatisch groter door",
+            "de populatie wordt er automatisch groter en sterker door, elk jaar opnieuw",
             "er worden meer jongen per worp geboren",
         ],
         antwoord=0,
@@ -210,7 +210,7 @@ DEEL2 = [
         vraag="Wat is een soort in de biologie?",
         opties=[
             "een groep die onderling vruchtbare nakomelingen krijgt",
-            "een groep dieren die er hetzelfde uitzien",
+            "een groep dieren die er hetzelfde uitzien en zich zo gedragen",
             "een groep die in hetzelfde gebied leeft",
             "een groep met evenveel chromosomen",
         ],
@@ -250,7 +250,7 @@ DEEL2 = [
             "zonder isolatie blijven de groepen hun genen mengen",
             "zonder isolatie treden er geen mutaties op",
             "zonder isolatie is er geen natuurlijke selectie",
-            "zonder isolatie krijgen dieren geen jongen",
+            "zonder isolatie krijgen de dieren geen jongen meer met elkaar",
         ],
         antwoord=0,
         uitleg="Blijven twee groepen met elkaar paren, dan vloeien hun verschillen telkens weer samen. Pas als die uitwisseling stopt, kunnen ze uit elkaar groeien.",
@@ -308,7 +308,7 @@ DEEL2 = [
         vraag="Hoe draagt een mutatie bij aan de evolutie van een soort?",
         opties=[
             "ze levert een nieuw allel waarop selectie kan werken",
-            "ze maakt het dier meteen beter aangepast",
+            "ze maakt het dier meteen beter aangepast aan zijn omgeving",
             "ze zorgt voor meer nakomelingen per worp",
             "ze versnelt de groei van het organisme",
         ],
@@ -356,7 +356,7 @@ DEEL2 = [
         vraag="Welk voordeel gaf rechtop lopen?",
         opties=[
             "de handen kwamen vrij om dingen te dragen",
-            "het lichaam werd veel sneller",
+            "het lichaam werd veel sneller op lange afstanden",
             "de ogen kwamen lager bij de grond",
             "het skelet werd veel lichter",
         ],
@@ -393,7 +393,7 @@ DEEL2 = [
         opties=[
             "er is weinig variatie om op terug te vallen",
             "de dieren worden er kleiner door",
-            "er ontstaan meer mutaties dan normaal",
+            "er ontstaan in een kleine groep veel meer mutaties dan normaal",
             "de dieren krijgen er minder jongen door",
         ],
         antwoord=0,

@@ -15,7 +15,7 @@ DEEL1 = [
         vraag="Waarop berust de kalendermethode?",
         opties=[
             "op het schatten van de vruchtbare dagen uit vorige cycli",
-            "op het meten van de lichaamstemperatuur elke ochtend",
+            "op het meten van de lichaamstemperatuur elke ochtend bij het opstaan",
             "op het bekijken van het slijm van de baarmoederhals",
             "op het innemen van een hormoon elke dag",
         ],
@@ -197,7 +197,7 @@ DEEL1 = [
         vraag="Waarom is anticonceptie een keuze die bij de persoon zelf past?",
         opties=[
             "omdat gezondheid, leeftijd en levensritme per persoon verschillen",
-            "omdat elke methode voor iedereen even betrouwbaar is",
+            "omdat elke methode voor iedereen precies even betrouwbaar en veilig is",
             "omdat alleen de prijs het verschil maakt",
             "omdat elke methode ook tegen soa's beschermt",
         ],
@@ -260,7 +260,7 @@ DEEL2 = [
         vraag="Wat is het verschil tussen IVF en ICSI?",
         opties=[
             "bij ICSI wordt één zaadcel in de eicel geprikt",
-            "bij ICSI gebeurt alles in het lichaam zelf",
+            "bij ICSI gebeurt alles in het lichaam zelf, zonder labo",
             "bij ICSI worden geen hormonen gebruikt",
             "bij ICSI wordt er geen embryo teruggeplaatst",
         ],
@@ -310,7 +310,7 @@ DEEL2 = [
             "zaadcellen rijpen het best net onder de lichaamstemperatuur",
             "warmte doet het sperma te snel indikken en stollen",
             "warmte jaagt de hoeveelheid testosteron veel te hoog op",
-            "warmte sluit de zaadleiders een tijdlang volledig af",
+            "warmte sluit de zaadleiders een tijdlang volledig af, tot het afkoelt",
         ],
         antwoord=0,
         uitleg="De teelballen hangen buiten de buikholte, want zaadcellen rijpen het best bij een paar graden onder de lichaamstemperatuur. Langdurige warmte, bijvoorbeeld van een laptop op de schoot, remt die rijping.",

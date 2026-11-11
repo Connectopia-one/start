@@ -74,7 +74,7 @@ DEEL1 = [
         vraag="Wat is magnetische influentie?",
         opties=[
             "een stuk ijzer wordt bij een magneet zelf tijdelijk magnetisch",
-            "een stuk ijzer verliest bij een magneet al zijn magnetisme",
+            "een stuk ijzer verliest bij een magneet al zijn magnetisme en lading",
             "een magneet wordt zwakker zodra je er ijzer bij houdt",
             "een magneet geeft een deel van zijn lading aan het ijzer",
         ],
@@ -241,7 +241,7 @@ DEEL2 = [
             "een spoel die magnetisch wordt door een stroom",
             "een magneet die zelf elektriciteit opwekt",
             "een magneet die enkel op koper werkt",
-            "een magneet van een bijzonder soort staal",
+            "een magneet van een bijzonder soort gehard staal met kobalt",
         ],
         antwoord=0,
         uitleg="Zodra er stroom door de wikkelingen loopt, ontstaat er een magneetveld. Zet je de stroom af, dan is het veld weg.",
@@ -342,7 +342,7 @@ DEEL2 = [
         opties=[
             "met een kleine stroom een grote stroom aanzetten",
             "met een grote stroom een kleine stroom meten",
-            "een wisselstroom in een gelijkstroom omzetten",
+            "een wisselstroom in een gelijkstroom omzetten voor een toestel",
             "de spanning van een stroomkring verhogen",
         ],
         antwoord=0,

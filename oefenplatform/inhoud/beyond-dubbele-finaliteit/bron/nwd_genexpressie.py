@@ -62,7 +62,7 @@ DEEL1 = [
         vraag="Wat is een gen?",
         opties=[
             "een stuk DNA met de code voor één eigenschap",
-            "een volledig chromosoom in de celkern",
+            "een volledig chromosoom in de celkern, met al zijn DNA",
             "een eiwit dat de celdeling regelt",
             "een losse base in de DNA-streng",
         ],
@@ -74,7 +74,7 @@ DEEL1 = [
         vraag="Wat is het verschil tussen een gen en een allel?",
         opties=[
             "een allel is één van de mogelijke versies van een gen",
-            "een allel is de losse bouwsteen van een gen",
+            "een allel is de losse bouwsteen van een gen, zoals een base",
             "een allel is een gen op het Y-chromosoom",
             "een allel is een gen dat niet werkt",
         ],
@@ -134,7 +134,7 @@ DEEL1 = [
         vraag="Wat is het genotype van een organisme?",
         opties=[
             "het geheel van zijn erfelijk materiaal",
-            "alles wat je aan de buitenkant ziet",
+            "alles wat je aan de buitenkant van het organisme ziet",
             "de som van zijn omgevingsfactoren",
             "het aantal chromosomen in zijn cellen",
         ],
@@ -265,7 +265,7 @@ DEEL2 = [
         vraag="Zet de stappen op volgorde. Wat komt er tussen het aflezen van het gen en het klaar zijn van het eiwit?",
         opties=[
             "het mRNA reist naar een ribosoom",
-            "het DNA verlaat de celkern",
+            "het DNA verlaat de celkern door de kernporiën",
             "het chromosoom verdubbelt zich",
             "de celkern lost op",
         ],
@@ -315,7 +315,7 @@ DEEL2 = [
         vraag="Wat is recombinant DNA-technologie?",
         opties=[
             "DNA van verschillende organismen wordt samengebracht",
-            "DNA wordt in het labo volledig van nul opgebouwd",
+            "DNA wordt in het labo volledig van nul opgebouwd, base per base",
             "DNA wordt tot de helft van zijn lengte ingekort",
             "DNA wordt met warmte uit de cel verwijderd",
         ],
@@ -327,7 +327,7 @@ DEEL2 = [
         vraag="Wat is veredeling?",
         opties=[
             "doelgericht kruisen en de beste nakomelingen uitkiezen",
-            "een gen uit een ander organisme inbrengen",
+            "een gen uit een ander organisme inbrengen in het DNA van een plant",
             "planten in het labo van nul opbouwen",
             "zaden bestralen tot ze niet meer kiemen",
         ],
@@ -345,7 +345,7 @@ DEEL2 = [
         vraag="Bacteriën die menselijke insuline aanmaken: welke techniek is dat?",
         opties=[
             "recombinant DNA-technologie",
-            "veredeling door kruisen",
+            "veredeling door kruisen en selecteren",
             "natuurlijke selectie",
             "kunstmatige inseminatie",
         ],

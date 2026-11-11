@@ -99,7 +99,7 @@ DEEL1 = [
         vraag="Wat is het resultaat van een mitose of gewone celdeling?",
         opties=[
             "twee cellen met hetzelfde erfelijk materiaal",
-            "vier cellen met half zoveel chromosomen",
+            "vier cellen met half zoveel chromosomen als de moedercel",
             "twee cellen met elk een andere code",
             "één cel met dubbel zoveel chromosomen",
         ],
@@ -111,7 +111,7 @@ DEEL1 = [
         vraag="Wat is het resultaat van een meiose of reductiedeling?",
         opties=[
             "vier haploïde cellen die onderling verschillen",
-            "twee identieke diploïde cellen",
+            "twee identieke diploïde cellen met hetzelfde erfelijk materiaal",
             "twee haploïde cellen die identiek zijn",
             "vier diploïde cellen met nieuw DNA",
         ],
@@ -143,7 +143,7 @@ DEEL1 = [
         vraag="Waarom moet het DNA verdubbelen vóór een cel deelt?",
         opties=[
             "anders krijgt niet elke dochtercel een volledige set",
-            "anders kan de cel niet door het celmembraan",
+            "anders kan de cel niet door het celmembraan heen in twee delen",
             "anders blijft het chromosoom te lang opgerold",
             "anders wordt de celkern te zwaar",
         ],
@@ -260,7 +260,7 @@ DEEL2 = [
         vraag="Wat zegt de uniformiteitswet van Mendel?",
         opties=[
             "kruis je twee raszuivere ouders, dan lijkt de F1 op elkaar",
-            "de F2 splitst zich altijd in drie tegen één",
+            "de F2 splitst zich altijd in drie tegen één, bij elk kenmerk",
             "elk allel wordt apart doorgegeven",
             "dominante allelen verdwijnen na twee generaties",
         ],

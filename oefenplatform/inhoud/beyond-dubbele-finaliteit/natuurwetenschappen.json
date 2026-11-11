@@ -83,7 +83,7 @@
           "vraag": "Hoelang blijft een eicel na de eisprong bevruchtbaar?",
           "opties": [
             "ongeveer een halve tot een hele dag",
-            "ongeveer een volle week",
+            "ongeveer een volle week, tot de menstruatie",
             "ongeveer veertien dagen",
             "ongeveer één uur"
           ],
@@ -141,7 +141,7 @@
           "vraag": "Waarvoor dient het enzym in de kop van de zaadcel?",
           "opties": [
             "om de vliezen rond de eicel open te maken",
-            "om de eicel van energie te voorzien",
+            "om de eicel van energie te voorzien voor de eerste delingen",
             "om de staart sneller te laten slaan",
             "om de kern van de eicel te verdubbelen"
           ],
@@ -181,7 +181,7 @@
           "vraag": "Wat gebeurt er meteen nadat één zaadcel binnen is?",
           "opties": [
             "het bevruchtingsmembraan sluit de eicel af",
-            "de eicel begint zich meteen te delen",
+            "de eicel begint zich meteen te delen in twee cellen",
             "de eicel maakt een tweede celkern aan",
             "de eicel verdubbelt haar reservevoedsel"
           ],
@@ -359,7 +359,7 @@
           "vraag": "Waarom raadt men alcohol af tijdens de zwangerschap?",
           "opties": [
             "alcohol gaat door de placenta naar de vrucht",
-            "alcohol maakt het vruchtwater te zuur",
+            "alcohol maakt het vruchtwater te zuur voor de vrucht",
             "alcohol verhindert de innesteling",
             "alcohol verkort de navelstreng"
           ],
@@ -371,7 +371,7 @@
           "vraag": "Welke stoffen noem je teratogeen?",
           "opties": [
             "stoffen die de ontwikkeling van de vrucht verstoren",
-            "stoffen die de moeder sneller doen vermoeien",
+            "stoffen die de moeder sneller en sterker doen vermoeien",
             "stoffen die de bevalling op gang brengen",
             "stoffen die de melkproductie stimuleren"
           ],
@@ -417,7 +417,7 @@
             "de schadelijke stoffen komen ook zo in het bloed van de moeder",
             "de rook verwarmt het vruchtwater te sterk",
             "de rook maakt de navelstreng korter",
-            "de rook vertraagt de weeën tijdens de bevalling"
+            "de rook vertraagt de weeën tijdens de bevalling en maakt ze pijnlijker"
           ],
           "antwoord": 0,
           "uitleg": "Wie meerookt, ademt dezelfde stoffen in. Koolstofmonoxide neemt in het bloed de plaats van zuurstof in, en dan krijgt de vrucht minder zuurstof binnen."
@@ -452,7 +452,7 @@
           "vraag": "Waarop berust de kalendermethode?",
           "opties": [
             "op het schatten van de vruchtbare dagen uit vorige cycli",
-            "op het meten van de lichaamstemperatuur elke ochtend",
+            "op het meten van de lichaamstemperatuur elke ochtend bij het opstaan",
             "op het bekijken van het slijm van de baarmoederhals",
             "op het innemen van een hormoon elke dag"
           ],
@@ -662,7 +662,7 @@
           "vraag": "Waarom is anticonceptie een keuze die bij de persoon zelf past?",
           "opties": [
             "omdat gezondheid, leeftijd en levensritme per persoon verschillen",
-            "omdat elke methode voor iedereen even betrouwbaar is",
+            "omdat elke methode voor iedereen precies even betrouwbaar en veilig is",
             "omdat alleen de prijs het verschil maakt",
             "omdat elke methode ook tegen soa's beschermt"
           ],
@@ -733,7 +733,7 @@
           "vraag": "Wat is het verschil tussen IVF en ICSI?",
           "opties": [
             "bij ICSI wordt één zaadcel in de eicel geprikt",
-            "bij ICSI gebeurt alles in het lichaam zelf",
+            "bij ICSI gebeurt alles in het lichaam zelf, zonder labo",
             "bij ICSI worden geen hormonen gebruikt",
             "bij ICSI wordt er geen embryo teruggeplaatst"
           ],
@@ -787,7 +787,7 @@
             "zaadcellen rijpen het best net onder de lichaamstemperatuur",
             "warmte doet het sperma te snel indikken en stollen",
             "warmte jaagt de hoeveelheid testosteron veel te hoog op",
-            "warmte sluit de zaadleiders een tijdlang volledig af"
+            "warmte sluit de zaadleiders een tijdlang volledig af, tot het afkoelt"
           ],
           "antwoord": 0,
           "uitleg": "De teelballen hangen buiten de buikholte, want zaadcellen rijpen het best bij een paar graden onder de lichaamstemperatuur. Langdurige warmte, bijvoorbeeld van een laptop op de schoot, remt die rijping."
@@ -954,7 +954,7 @@
           "vraag": "Wat is een gen?",
           "opties": [
             "een stuk DNA met de code voor één eigenschap",
-            "een volledig chromosoom in de celkern",
+            "een volledig chromosoom in de celkern, met al zijn DNA",
             "een eiwit dat de celdeling regelt",
             "een losse base in de DNA-streng"
           ],
@@ -966,7 +966,7 @@
           "vraag": "Wat is het verschil tussen een gen en een allel?",
           "opties": [
             "een allel is één van de mogelijke versies van een gen",
-            "een allel is de losse bouwsteen van een gen",
+            "een allel is de losse bouwsteen van een gen, zoals een base",
             "een allel is een gen op het Y-chromosoom",
             "een allel is een gen dat niet werkt"
           ],
@@ -1038,7 +1038,7 @@
           "vraag": "Wat is het genotype van een organisme?",
           "opties": [
             "het geheel van zijn erfelijk materiaal",
-            "alles wat je aan de buitenkant ziet",
+            "alles wat je aan de buitenkant van het organisme ziet",
             "de som van zijn omgevingsfactoren",
             "het aantal chromosomen in zijn cellen"
           ],
@@ -1185,7 +1185,7 @@
           "vraag": "Zet de stappen op volgorde. Wat komt er tussen het aflezen van het gen en het klaar zijn van het eiwit?",
           "opties": [
             "het mRNA reist naar een ribosoom",
-            "het DNA verlaat de celkern",
+            "het DNA verlaat de celkern door de kernporiën",
             "het chromosoom verdubbelt zich",
             "de celkern lost op"
           ],
@@ -1244,7 +1244,7 @@
           "vraag": "Wat is recombinant DNA-technologie?",
           "opties": [
             "DNA van verschillende organismen wordt samengebracht",
-            "DNA wordt in het labo volledig van nul opgebouwd",
+            "DNA wordt in het labo volledig van nul opgebouwd, base per base",
             "DNA wordt tot de helft van zijn lengte ingekort",
             "DNA wordt met warmte uit de cel verwijderd"
           ],
@@ -1256,7 +1256,7 @@
           "vraag": "Wat is veredeling?",
           "opties": [
             "doelgericht kruisen en de beste nakomelingen uitkiezen",
-            "een gen uit een ander organisme inbrengen",
+            "een gen uit een ander organisme inbrengen in het DNA van een plant",
             "planten in het labo van nul opbouwen",
             "zaden bestralen tot ze niet meer kiemen"
           ],
@@ -1274,7 +1274,7 @@
           "vraag": "Bacteriën die menselijke insuline aanmaken: welke techniek is dat?",
           "opties": [
             "recombinant DNA-technologie",
-            "veredeling door kruisen",
+            "veredeling door kruisen en selecteren",
             "natuurlijke selectie",
             "kunstmatige inseminatie"
           ],
@@ -1434,7 +1434,7 @@
           "vraag": "Wat is het resultaat van een mitose of gewone celdeling?",
           "opties": [
             "twee cellen met hetzelfde erfelijk materiaal",
-            "vier cellen met half zoveel chromosomen",
+            "vier cellen met half zoveel chromosomen als de moedercel",
             "twee cellen met elk een andere code",
             "één cel met dubbel zoveel chromosomen"
           ],
@@ -1446,7 +1446,7 @@
           "vraag": "Wat is het resultaat van een meiose of reductiedeling?",
           "opties": [
             "vier haploïde cellen die onderling verschillen",
-            "twee identieke diploïde cellen",
+            "twee identieke diploïde cellen met hetzelfde erfelijk materiaal",
             "twee haploïde cellen die identiek zijn",
             "vier diploïde cellen met nieuw DNA"
           ],
@@ -1483,7 +1483,7 @@
           "vraag": "Waarom moet het DNA verdubbelen vóór een cel deelt?",
           "opties": [
             "anders krijgt niet elke dochtercel een volledige set",
-            "anders kan de cel niet door het celmembraan",
+            "anders kan de cel niet door het celmembraan heen in twee delen",
             "anders blijft het chromosoom te lang opgerold",
             "anders wordt de celkern te zwaar"
           ],
@@ -1619,7 +1619,7 @@
           "vraag": "Wat zegt de uniformiteitswet van Mendel?",
           "opties": [
             "kruis je twee raszuivere ouders, dan lijkt de F1 op elkaar",
-            "de F2 splitst zich altijd in drie tegen één",
+            "de F2 splitst zich altijd in drie tegen één, bij elk kenmerk",
             "elk allel wordt apart doorgegeven",
             "dominante allelen verdwijnen na twee generaties"
           ],
@@ -1862,7 +1862,7 @@
             "embryo's van verwante soorten lijken sterk op elkaar",
             "embryo's groeien bij alle soorten even snel",
             "embryo's hebben allemaal dezelfde grootte",
-            "embryo's van verwante soorten verschillen sterk"
+            "embryo's van verwante soorten verschillen sterk van elkaar"
           ],
           "antwoord": 0,
           "uitleg": "In een vroeg stadium zijn een visje, een kip en een mens moeilijk uit elkaar te houden; ze hebben zelfs kieuwbogen. Die gelijkenis wijst op een gemeenschappelijke bouwtekening."
@@ -1882,7 +1882,7 @@
           "vraag": "Waarom is Archaeopteryx een belangrijke vondst?",
           "opties": [
             "hij heeft kenmerken van reptielen én van vogels",
-            "hij is het oudste fossiel dat ooit gevonden is",
+            "hij is het oudste fossiel dat ooit op aarde gevonden is",
             "hij toont dat vogels niet geëvolueerd zijn",
             "hij is het enige fossiel met veren"
           ],
@@ -1910,7 +1910,7 @@
           "vraag": "Wat is een evolutiereeks?",
           "opties": [
             "een rij fossielen die de verandering van een soort toont",
-            "een rij dieren die vandaag naast elkaar leven",
+            "een rij dieren die vandaag naast elkaar in hetzelfde gebied leven",
             "een rij organen met dezelfde functie",
             "een rij kruisingen in het labo"
           ],
@@ -1944,7 +1944,7 @@
           "vraag": "Waarom vullen de verschillende argumenten elkaar aan?",
           "opties": [
             "los van elkaar wijzen ze op dezelfde verwantschap",
-            "ze komen allemaal uit hetzelfde onderzoek",
+            "ze komen allemaal uit hetzelfde onderzoek van dezelfde ploeg",
             "ze zijn alle drie gebaseerd op fossielen",
             "ze zijn alleen geldig voor zoogdieren"
           ],
@@ -1974,7 +1974,7 @@
             "alle individuen van één soort in één gebied",
             "alle dieren die in één gebied leven",
             "alle soorten die met elkaar verwant zijn",
-            "alle nakomelingen van één ouderpaar"
+            "alle nakomelingen van één ouderpaar over vele generaties"
           ],
           "antwoord": 0,
           "uitleg": "Een populatie is de groep soortgenoten die samenleven en zich onderling kunnen voortplanten. Evolutie meet je aan de genen van zo'n groep."
@@ -2009,7 +2009,7 @@
           "vraag": "Welk argument komt uit de biochemie?",
           "opties": [
             "alle organismen gebruiken dezelfde soort DNA-code",
-            "alle organismen hebben een skelet van botten",
+            "alle organismen hebben een skelet van botten en kraakbeen",
             "alle organismen ademen met longen",
             "alle organismen leven in dezelfde omgeving"
           ],
@@ -2021,7 +2021,7 @@
           "vraag": "Wat zegt een groot verschil in DNA tussen twee soorten?",
           "opties": [
             "hun gemeenschappelijke voorouder leefde lang geleden",
-            "ze leven vandaag ver van elkaar op de wereldbol",
+            "ze leven vandaag ver van elkaar op de wereldbol, op andere continenten",
             "ze hebben een duidelijk verschillend aantal organen",
             "de ene soort is rechtstreeks uit de andere ontstaan"
           ],
@@ -2039,7 +2039,7 @@
           "vraag": "Wat lees je af van een verwantschapsdiagram?",
           "opties": [
             "welke soorten een recentere voorouder delen",
-            "welke soort het nuttigst is voor de mens",
+            "welke soort het nuttigst is voor de mens en de landbouw",
             "welke soort het grootst geworden is",
             "in welk gebied elke soort vandaag leeft"
           ],
@@ -2079,7 +2079,7 @@
           "vraag": "Wat maakt van de evolutietheorie een wetenschappelijke theorie?",
           "opties": [
             "ze steunt op waarnemingen en kan getoetst worden",
-            "ze wordt door zowat iedereen aanvaard",
+            "ze wordt door zowat iedereen aanvaard, ook buiten de wetenschap",
             "ze staat in zowat alle handboeken biologie",
             "ze is sinds haar ontstaan nooit aangepast"
           ],
@@ -2091,7 +2091,7 @@
           "vraag": "Waarom worden creationisme en Intelligent Design niet als wetenschappelijke theorieën beschouwd?",
           "opties": [
             "hun verklaring is niet met waarnemingen te toetsen",
-            "ze worden door veel te weinig mensen gevolgd",
+            "ze worden door veel te weinig mensen gevolgd om mee te tellen",
             "ze gaan over gebeurtenissen van heel lang geleden",
             "ze gebruiken geen enkel moeilijk vakwoord"
           ],
@@ -2205,7 +2205,7 @@
           "opties": [
             "kleine veranderingen stapelen zich op over vele generaties",
             "soorten veranderen enkel in hun eerste duizend jaar",
-            "elke generatie verandert zichtbaar van vorm en kleur",
+            "elke nieuwe generatie verandert duidelijk zichtbaar van vorm en kleur",
             "zonder genoeg tijd blijven alle mutaties zonder effect"
           ],
           "antwoord": 0,
@@ -2229,7 +2229,7 @@
           "vraag": "Wat dacht Lamarck over de lange hals van de giraf?",
           "opties": [
             "elk dier rekte zich uit en gaf die langere hals door",
-            "giraffen met een langere hals overleefden vaker",
+            "giraffen met een langere hals overleefden vaker in droge tijden",
             "een toevallige mutatie maakte de hals langer",
             "de hals werd langer door de keuze van het wijfje"
           ],
@@ -2251,7 +2251,7 @@
           "vraag": "Wat is de kern van de theorie van Darwin?",
           "opties": [
             "wie het best past bij de omgeving, plant zich het meest voort",
-            "wie zijn lichaamsdelen het meest gebruikt, geeft ze door",
+            "wie zijn lichaamsdelen het meest gebruikt, geeft ze versterkt door",
             "wie het sterkst is, leeft altijd het langst",
             "wie het grootst is, krijgt de meeste nakomelingen"
           ],
@@ -2288,7 +2288,7 @@
           "vraag": "Wat betekent survival of the fittest?",
           "opties": [
             "wie het best bij zijn omgeving past, overleeft het best",
-            "wie het sterkst en het grootst is, wint altijd",
+            "wie het sterkst en het grootst is, wint altijd elk gevecht",
             "wie het snelst kan lopen, ontsnapt altijd",
             "wie het meeste voedsel vindt, leeft het langst"
           ],
@@ -2316,7 +2316,7 @@
           "vraag": "Waarom werden de peper-en-zoutvlinders in de industriële streken donkerder?",
           "opties": [
             "op roetzwarte boomstammen vielen donkere vlinders minder op",
-            "het roet kleurde de vleugels van de vlinders zwart",
+            "het roet kleurde de vleugels van de vlinders langzaam zwart",
             "de vlinders pasten hun kleur aan het roet aan",
             "donkere vlinders legden plots veel meer eitjes"
           ],
@@ -2334,7 +2334,7 @@
           "vraag": "Hoe ontstaat antibioticaresistentie bij bacteriën?",
           "opties": [
             "enkele bacteriën waren al ongevoelig en overleven de kuur",
-            "de bacteriën leren tijdens de kuur weerstand opbouwen",
+            "de bacteriën leren tijdens de kuur stap voor stap weerstand opbouwen",
             "het antibioticum maakt de bacteriën sterker",
             "de bacteriën kiezen zelf om te veranderen"
           ],
@@ -2383,7 +2383,7 @@
           "vraag": "Hoe zou Lamarck verklaren dat een mol zulke kleine ogen heeft?",
           "opties": [
             "door ze onder de grond niet te gebruiken, werden ze kleiner",
-            "mollen met kleine ogen hielden er meer energie aan over",
+            "mollen met kleine ogen hielden er meer energie aan over voor iets anders",
             "een mutatie maakte de ogen bij toeval kleiner",
             "de mol koos ervoor om onder de grond te leven"
           ],
@@ -2411,7 +2411,7 @@
           "opties": [
             "er is dan meer kans dat sommigen een verandering overleven",
             "alle dieren groeien er sneller door",
-            "de populatie wordt er automatisch groter door",
+            "de populatie wordt er automatisch groter en sterker door, elk jaar opnieuw",
             "er worden meer jongen per worp geboren"
           ],
           "antwoord": 0,
@@ -2454,7 +2454,7 @@
           "vraag": "Wat is een soort in de biologie?",
           "opties": [
             "een groep die onderling vruchtbare nakomelingen krijgt",
-            "een groep dieren die er hetzelfde uitzien",
+            "een groep dieren die er hetzelfde uitzien en zich zo gedragen",
             "een groep die in hetzelfde gebied leeft",
             "een groep met evenveel chromosomen"
           ],
@@ -2503,7 +2503,7 @@
             "zonder isolatie blijven de groepen hun genen mengen",
             "zonder isolatie treden er geen mutaties op",
             "zonder isolatie is er geen natuurlijke selectie",
-            "zonder isolatie krijgen dieren geen jongen"
+            "zonder isolatie krijgen de dieren geen jongen meer met elkaar"
           ],
           "antwoord": 0,
           "uitleg": "Blijven twee groepen met elkaar paren, dan vloeien hun verschillen telkens weer samen. Pas als die uitwisseling stopt, kunnen ze uit elkaar groeien."
@@ -2565,7 +2565,7 @@
           "vraag": "Hoe draagt een mutatie bij aan de evolutie van een soort?",
           "opties": [
             "ze levert een nieuw allel waarop selectie kan werken",
-            "ze maakt het dier meteen beter aangepast",
+            "ze maakt het dier meteen beter aangepast aan zijn omgeving",
             "ze zorgt voor meer nakomelingen per worp",
             "ze versnelt de groei van het organisme"
           ],
@@ -2621,7 +2621,7 @@
           "vraag": "Welk voordeel gaf rechtop lopen?",
           "opties": [
             "de handen kwamen vrij om dingen te dragen",
-            "het lichaam werd veel sneller",
+            "het lichaam werd veel sneller op lange afstanden",
             "de ogen kwamen lager bij de grond",
             "het skelet werd veel lichter"
           ],
@@ -2662,7 +2662,7 @@
           "opties": [
             "er is weinig variatie om op terug te vallen",
             "de dieren worden er kleiner door",
-            "er ontstaan meer mutaties dan normaal",
+            "er ontstaan in een kleine groep veel meer mutaties dan normaal",
             "de dieren krijgen er minder jongen door"
           ],
           "antwoord": 0,
@@ -2702,7 +2702,7 @@
           "vraag": "Wat staat er in een P-zin?",
           "opties": [
             "wat je moet doen om veilig met de stof om te gaan",
-            "welk gevaar de stof oplevert",
+            "welk gevaar de stof precies oplevert voor de mens en het milieu",
             "uit welke elementen de stof bestaat",
             "in welk land de stof gemaakt werd"
           ],
@@ -2716,7 +2716,7 @@
             "het pictogram voor bijtend of corrosief",
             "het pictogram voor ontvlambaar",
             "het pictogram voor oxiderend",
-            "het pictogram voor gassen onder druk"
+            "het pictogram voor gassen die onder hoge druk staan"
           ],
           "antwoord": 0,
           "uitleg": "Bijtend of corrosief wordt getekend met een druppel die een hand en een oppervlak aantast. Ontstopper en sterk zoutzuur dragen dat teken."
@@ -2744,7 +2744,7 @@
           "vraag": "Waarom is geconcentreerde ontstopper corrosief en verdunde ontstopper alleen irriterend?",
           "opties": [
             "hoe hoger de concentratie, hoe sterker het effect",
-            "verdunnen verandert de stof in een andere stof",
+            "verdunnen verandert de stof in een helemaal andere, onschuldige stof",
             "verdunde ontstopper bevat een ander bestanddeel",
             "verdunde ontstopper verdampt veel sneller"
           ],
@@ -2851,7 +2851,7 @@
             "de irriterende, want die geeft minder ernstige schade",
             "de bijtende, want die werkt altijd beter",
             "het maakt geen verschil, de stof is dezelfde",
-            "de bijtende, want irriterend zegt niets"
+            "de bijtende, want irriterend zegt eigenlijk niets over het gevaar"
           ],
           "antwoord": 0,
           "uitleg": "Bij gelijke werking kies je altijd het minst gevaarlijke product. Bijtend betekent blijvende schade aan huid en ogen, irriterend betekent voorbijgaande hinder."
@@ -2910,7 +2910,7 @@
             "het heeft een laag kookpunt en verdampt dus vlot",
             "het heeft een hoog kookpunt en blijft dus staan",
             "het bindt het water chemisch aan zich",
-            "het laat een beschermlaagje achter op het glas"
+            "het laat een dun beschermlaagje achter op het glas tegen water"
           ],
           "antwoord": 0,
           "uitleg": "Aceton kookt al bij ongeveer zesenvijftig graden en verdampt dus snel bij kamertemperatuur. Datzelfde lage kookpunt maakt het ook erg brandbaar."
@@ -2928,7 +2928,7 @@
             "het smeltpunt ligt boven de kamertemperatuur",
             "het kookpunt ligt onder de kamertemperatuur",
             "het smeltpunt ligt onder het vriespunt",
-            "het kookpunt en het smeltpunt liggen gelijk"
+            "het kookpunt en het smeltpunt liggen precies even hoog"
           ],
           "antwoord": 0,
           "uitleg": "Zolang het niet warm genoeg is om te smelten, blijft de stof vast. Ligt het smeltpunt eronder, dan is ze bij kamertemperatuur al vloeibaar."
@@ -3088,7 +3088,7 @@
             "het product met het minst zware gevarenpictogram",
             "het product in de grootste verpakking",
             "het product met de felste kleur op het etiket",
-            "het product met de langste H-zin"
+            "het product met de langste en meest uitgebreide H-zin"
           ],
           "antwoord": 0,
           "uitleg": "Bij gelijke werking kies je het minst gevaarlijke product, voor jezelf en voor het milieu. Verpakkingsgrootte en kleur zeggen niets over het risico."
@@ -3155,7 +3155,7 @@
             "een lange keten van suikermoleculen",
             "een enkele suikermolecule",
             "een keten van aminozuren",
-            "een vetzuur met een lange staart"
+            "een vetzuur met een lange staart van koolstof"
           ],
           "antwoord": 0,
           "uitleg": "Zetmeel is een polysacharide: honderden glucosemoleculen aan elkaar. Planten slaan hun energie zo op, in aardappelen, graan en rijst."
@@ -3165,7 +3165,7 @@
           "vraag": "Waarom geeft zetmeel trager energie dan glucose?",
           "opties": [
             "de lange keten moet eerst afgebroken worden",
-            "zetmeel bevat minder energie per gram",
+            "zetmeel bevat veel minder energie per gram dan glucose",
             "zetmeel lost helemaal niet op in water",
             "zetmeel wordt in de maag niet opgenomen"
           ],
@@ -3245,7 +3245,7 @@
           "vraag": "Wat is kenmerkend voor een onverzadigd vetzuur?",
           "opties": [
             "er zit minstens één dubbele binding in de keten",
-            "de keten bevat alleen enkelvoudige bindingen",
+            "de keten bevat alleen enkelvoudige bindingen tussen de koolstofatomen",
             "de keten is altijd veel korter",
             "het bevat geen koolstofatomen"
           ],
@@ -3332,7 +3332,7 @@
           "vraag": "Wat laat de voedingsdriehoek zien?",
           "opties": [
             "waarvan je veel mag eten en waarvan beter weinig",
-            "hoeveel kilojoules elk voedingsmiddel bevat",
+            "hoeveel kilojoules elk voedingsmiddel precies per portie bevat",
             "welke volgorde je bij een maaltijd aanhoudt",
             "welke stoffen samen in één gerecht passen"
           ],
@@ -3403,7 +3403,7 @@
           "vraag": "Wat zegt de nutriscore?",
           "opties": [
             "hoe gezond de samenstelling van een product is",
-            "hoeveel het product op het milieu weegt",
+            "hoeveel het product op het milieu weegt, van productie tot afval",
             "hoe lang het product houdbaar is",
             "waar het product vandaan komt"
           ],
@@ -3415,7 +3415,7 @@
           "vraag": "Wat telt mee in de ecoscore?",
           "opties": [
             "de belasting van het milieu over de hele levenscyclus",
-            "alleen de hoeveelheid suiker en zout",
+            "alleen de hoeveelheid suiker, vet en zout die in het product zit",
             "alleen de prijs in de winkel",
             "alleen de houdbaarheidsdatum"
           ],
@@ -3956,7 +3956,7 @@
           "opties": [
             "ook een nuttige stof heeft een veilige bovengrens",
             "een nuttige stof heeft nooit een bovengrens",
-            "een vitamine is eigenlijk geen voedingsstof",
+            "een vitamine is eigenlijk geen echte voedingsstof voor je lichaam",
             "je hebt van elke vitamine evenveel nodig"
           ],
           "antwoord": 0,
@@ -4044,7 +4044,7 @@
           "vraag": "Wat is downcycling?",
           "opties": [
             "recycleren tot een materiaal van mindere kwaliteit",
-            "recycleren tot een materiaal van hogere kwaliteit",
+            "recycleren tot een materiaal van hogere kwaliteit en waarde",
             "een product in zijn geheel opnieuw gebruiken",
             "een product verbranden en de warmte benutten"
           ],
@@ -4336,7 +4336,7 @@
           "vraag": "Wat is er strenger aan composteerbaar dan aan biodegradeerbaar?",
           "opties": [
             "het moet binnen een afgesproken tijd afbreken",
-            "het moet uit plantaardige grondstof komen",
+            "het moet uit plantaardige grondstof komen en niet uit aardolie",
             "het mag helemaal geen koolstof bevatten",
             "het moet volledig oplossen in koud water"
           ],
@@ -4438,7 +4438,7 @@
             "negatief haalt meer CO₂ uit de lucht dan het uitstoot",
             "negatief stoot meer CO₂ uit dan het opneemt",
             "neutraal stoot helemaal geen enkele stof uit",
-            "neutraal gebruikt uitsluitend hernieuwbare grondstof"
+            "neutraal gebruikt uitsluitend hernieuwbare grondstof en energie"
           ],
           "antwoord": 0,
           "uitleg": "Neutraal betekent dat uitstoot en opname elkaar opheffen. Negatief gaat een stap verder: er verdwijnt netto koolstofdioxide uit de lucht."
@@ -4529,7 +4529,7 @@
           "vraag": "Wat is magnetische influentie?",
           "opties": [
             "een stuk ijzer wordt bij een magneet zelf tijdelijk magnetisch",
-            "een stuk ijzer verliest bij een magneet al zijn magnetisme",
+            "een stuk ijzer verliest bij een magneet al zijn magnetisme en lading",
             "een magneet wordt zwakker zodra je er ijzer bij houdt",
             "een magneet geeft een deel van zijn lading aan het ijzer"
           ],
@@ -4707,7 +4707,7 @@
             "een spoel die magnetisch wordt door een stroom",
             "een magneet die zelf elektriciteit opwekt",
             "een magneet die enkel op koper werkt",
-            "een magneet van een bijzonder soort staal"
+            "een magneet van een bijzonder soort gehard staal met kobalt"
           ],
           "antwoord": 0,
           "uitleg": "Zodra er stroom door de wikkelingen loopt, ontstaat er een magneetveld. Zet je de stroom af, dan is het veld weg."
@@ -4818,7 +4818,7 @@
           "opties": [
             "met een kleine stroom een grote stroom aanzetten",
             "met een grote stroom een kleine stroom meten",
-            "een wisselstroom in een gelijkstroom omzetten",
+            "een wisselstroom in een gelijkstroom omzetten voor een toestel",
             "de spanning van een stroomkring verhogen"
           ],
           "antwoord": 0,
@@ -4935,7 +4935,7 @@
           "vraag": "Wat is kenmerkend voor een transversale golf?",
           "opties": [
             "de deeltjes trillen dwars op de voortplantingsrichting",
-            "de deeltjes trillen langs de voortplantingsrichting",
+            "de deeltjes trillen langs de voortplantingsrichting, heen en weer",
             "de deeltjes trillen in alle richtingen tegelijk",
             "de deeltjes trillen helemaal niet mee"
           ],
@@ -4947,7 +4947,7 @@
           "vraag": "Waarom is geluid een longitudinale golf?",
           "opties": [
             "de lucht trilt in dezelfde richting als de golf loopt",
-            "de lucht trilt dwars op de richting van de golf",
+            "de lucht trilt dwars op de richting waarin de golf zich voortplant",
             "de lucht trilt even snel als de golf vooruitgaat",
             "de lucht trilt alleen aan het begin van de golf"
           ],
@@ -4993,7 +4993,7 @@
           "vraag": "Wat is de amplitude van een golf?",
           "opties": [
             "de grootste uitwijking uit de evenwichtsstand",
-            "de afstand tussen twee golftoppen",
+            "de afstand tussen twee opeenvolgende toppen van de golf",
             "het aantal trillingen per seconde",
             "de tijd van één volledige trilling"
           ],
@@ -5229,7 +5229,7 @@
             "een voorwerp trilt mee op zijn eigen frequentie",
             "een voorwerp houdt een trilling volledig tegen",
             "een voorwerp kaatst de trilling helemaal terug",
-            "een voorwerp zet de trilling om in warmte"
+            "een voorwerp zet de trilling volledig om in warmte"
           ],
           "antwoord": 0,
           "uitleg": "Komt de frequentie van buiten overeen met de eigenfrequentie, dan wordt de trilling steeds groter. Zo kan een glas breken van een aangehouden toon."
@@ -5401,7 +5401,7 @@
           "vraag": "Wanneer is een lichte kern met minder dan twintig protonen stabiel?",
           "opties": [
             "als er ongeveer evenveel neutronen als protonen zijn",
-            "als er veel meer neutronen dan protonen zijn",
+            "als er veel meer neutronen dan protonen in de kern zitten",
             "als er veel meer protonen dan neutronen zijn",
             "als er geen enkel neutron in de kern zit"
           ],
@@ -5506,7 +5506,7 @@
           "vraag": "Waarvoor dienen de regelstaven in een kernreactor?",
           "opties": [
             "de kettingreactie afremmen of stilleggen",
-            "de kettingreactie op gang brengen",
+            "de kettingreactie op gang brengen bij het opstarten",
             "het water in de kringloop rondpompen",
             "de stoom naar de turbine leiden"
           ],
@@ -5539,7 +5539,7 @@
           "vraag": "Hoe wordt de warmte van een kernreactor elektriciteit?",
           "opties": [
             "warmte maakt stoom, stoom draait een turbine en een generator",
-            "warmte wordt rechtstreeks in de stroomkring gestuurd",
+            "warmte wordt rechtstreeks in de stroomkring gestuurd via koperen draden",
             "warmte laat de splijtstaven elektronen uitzenden",
             "warmte doet een magneet rond de reactor draaien"
           ],
@@ -5600,7 +5600,7 @@
           "vraag": "Wat is gammastraling?",
           "opties": [
             "elektromagnetische straling met heel hoge energie",
-            "een stroom zware deeltjes uit de kern",
+            "een stroom zware deeltjes uit de kern, zoals heliumkernen",
             "een stroom elektronen uit de kern",
             "een stroom neutronen uit de kern"
           ],
@@ -5849,7 +5849,7 @@
           "vraag": "Waarom bedien je een elektrisch toestel nooit met natte handen?",
           "opties": [
             "water geleidt de stroom en je kan een schok krijgen",
-            "water maakt het toestel onherstelbaar vuil",
+            "water maakt het toestel onherstelbaar vuil en doet het roesten",
             "water verhoogt de weerstand van het toestel",
             "water doet de zekering onnodig uitvallen"
           ],
@@ -5862,7 +5862,7 @@
           "opties": [
             "met een borstel en een blad, in een harde doos",
             "met je blote handen, stuk per stuk",
-            "met een natte doek over de tafel",
+            "met een natte doek over de tafel, en dan in de vuilnisbak",
             "met je voet naar de rand van het lokaal"
           ],
           "antwoord": 0,
@@ -5960,7 +5960,7 @@
             "om energie te sparen en het toestel te sparen",
             "om de nauwkeurigheid tijdelijk te verhogen",
             "om het meetbereik groter te maken",
-            "om de meting achteraf te kunnen herhalen"
+            "om de meting achteraf nog eens te kunnen herhalen met dezelfde waarde"
           ],
           "antwoord": 0,
           "uitleg": "Een toestel dat nodeloos aan staat, verbruikt stroom of batterij en verslijt sneller. Duurzaam werken zit ook in dat soort kleine gewoonten."
@@ -5978,7 +5978,7 @@
             "sorteren volgens de aanwijzingen op het etiket",
             "alles samen in de gewone vuilnisbak gooien",
             "alles met veel water in de gootsteen gieten",
-            "alles bewaren tot niemand het nog nodig heeft"
+            "alles bewaren in een kast tot niemand het nog nodig heeft"
           ],
           "antwoord": 0,
           "uitleg": "Het etiket en de P-zinnen zeggen waar het afval hoort, vaak bij het klein gevaarlijk afval. Zo komt er niets in het riool dat daar niet thuishoort."
@@ -5988,7 +5988,7 @@
           "vraag": "Waarom gebruik je zo weinig chemische stoffen als mogelijk?",
           "opties": [
             "minder verbruik geeft minder afval en minder risico",
-            "minder verbruik maakt de meting nauwkeuriger",
+            "minder verbruik maakt elke meting in het labo veel nauwkeuriger",
             "minder verbruik versnelt elke reactie",
             "minder verbruik verlengt het meetbereik"
           ],
@@ -6144,7 +6144,7 @@
           "vraag": "Wat is een hypothese?",
           "opties": [
             "een verwachting die je met je proef kan testen",
-            "het besluit dat je na je proef opschrijft",
+            "het besluit dat je na je proef opschrijft in je verslag",
             "de vraag waarmee je onderzoek begint",
             "de lijst materialen die je nodig hebt"
           ],
@@ -6228,7 +6228,7 @@
             "criteria opstellen waaraan de oplossing moet voldoen",
             "meteen de eerste oplossing uitvoeren",
             "het probleem opnieuw ruimer formuleren",
-            "de kostprijs van het eindproduct berekenen"
+            "de kostprijs van het eindproduct al tot op de cent berekenen"
           ],
           "antwoord": 0,
           "uitleg": "Met criteria kan je achteraf nagaan of je oplossing deugt. Daarna splits je het probleem indien nodig op in deelproblemen."

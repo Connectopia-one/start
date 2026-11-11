@@ -79,7 +79,7 @@ DEEL1 = [
             "embryo's van verwante soorten lijken sterk op elkaar",
             "embryo's groeien bij alle soorten even snel",
             "embryo's hebben allemaal dezelfde grootte",
-            "embryo's van verwante soorten verschillen sterk",
+            "embryo's van verwante soorten verschillen sterk van elkaar",
         ],
         antwoord=0,
         uitleg="In een vroeg stadium zijn een visje, een kip en een mens moeilijk uit elkaar te houden; ze hebben zelfs kieuwbogen. Die gelijkenis wijst op een gemeenschappelijke bouwtekening.",
@@ -95,7 +95,7 @@ DEEL1 = [
         vraag="Waarom is Archaeopteryx een belangrijke vondst?",
         opties=[
             "hij heeft kenmerken van reptielen én van vogels",
-            "hij is het oudste fossiel dat ooit gevonden is",
+            "hij is het oudste fossiel dat ooit op aarde gevonden is",
             "hij toont dat vogels niet geëvolueerd zijn",
             "hij is het enige fossiel met veren",
         ],
@@ -119,7 +119,7 @@ DEEL1 = [
         vraag="Wat is een evolutiereeks?",
         opties=[
             "een rij fossielen die de verandering van een soort toont",
-            "een rij dieren die vandaag naast elkaar leven",
+            "een rij dieren die vandaag naast elkaar in hetzelfde gebied leven",
             "een rij organen met dezelfde functie",
             "een rij kruisingen in het labo",
         ],
@@ -149,7 +149,7 @@ DEEL1 = [
         vraag="Waarom vullen de verschillende argumenten elkaar aan?",
         opties=[
             "los van elkaar wijzen ze op dezelfde verwantschap",
-            "ze komen allemaal uit hetzelfde onderzoek",
+            "ze komen allemaal uit hetzelfde onderzoek van dezelfde ploeg",
             "ze zijn alle drie gebaseerd op fossielen",
             "ze zijn alleen geldig voor zoogdieren",
         ],
@@ -175,7 +175,7 @@ DEEL1 = [
             "alle individuen van één soort in één gebied",
             "alle dieren die in één gebied leven",
             "alle soorten die met elkaar verwant zijn",
-            "alle nakomelingen van één ouderpaar",
+            "alle nakomelingen van één ouderpaar over vele generaties",
         ],
         antwoord=0,
         uitleg="Een populatie is de groep soortgenoten die samenleven en zich onderling kunnen voortplanten. Evolutie meet je aan de genen van zo'n groep.",
@@ -206,7 +206,7 @@ DEEL2 = [
         vraag="Welk argument komt uit de biochemie?",
         opties=[
             "alle organismen gebruiken dezelfde soort DNA-code",
-            "alle organismen hebben een skelet van botten",
+            "alle organismen hebben een skelet van botten en kraakbeen",
             "alle organismen ademen met longen",
             "alle organismen leven in dezelfde omgeving",
         ],
@@ -218,7 +218,7 @@ DEEL2 = [
         vraag="Wat zegt een groot verschil in DNA tussen twee soorten?",
         opties=[
             "hun gemeenschappelijke voorouder leefde lang geleden",
-            "ze leven vandaag ver van elkaar op de wereldbol",
+            "ze leven vandaag ver van elkaar op de wereldbol, op andere continenten",
             "ze hebben een duidelijk verschillend aantal organen",
             "de ene soort is rechtstreeks uit de andere ontstaan",
         ],
@@ -236,7 +236,7 @@ DEEL2 = [
         vraag="Wat lees je af van een verwantschapsdiagram?",
         opties=[
             "welke soorten een recentere voorouder delen",
-            "welke soort het nuttigst is voor de mens",
+            "welke soort het nuttigst is voor de mens en de landbouw",
             "welke soort het grootst geworden is",
             "in welk gebied elke soort vandaag leeft",
         ],
@@ -272,7 +272,7 @@ DEEL2 = [
         vraag="Wat maakt van de evolutietheorie een wetenschappelijke theorie?",
         opties=[
             "ze steunt op waarnemingen en kan getoetst worden",
-            "ze wordt door zowat iedereen aanvaard",
+            "ze wordt door zowat iedereen aanvaard, ook buiten de wetenschap",
             "ze staat in zowat alle handboeken biologie",
             "ze is sinds haar ontstaan nooit aangepast",
         ],
@@ -284,7 +284,7 @@ DEEL2 = [
         vraag="Waarom worden creationisme en Intelligent Design niet als wetenschappelijke theorieën beschouwd?",
         opties=[
             "hun verklaring is niet met waarnemingen te toetsen",
-            "ze worden door veel te weinig mensen gevolgd",
+            "ze worden door veel te weinig mensen gevolgd om mee te tellen",
             "ze gaan over gebeurtenissen van heel lang geleden",
             "ze gebruiken geen enkel moeilijk vakwoord",
         ],
@@ -385,7 +385,7 @@ DEEL2 = [
         opties=[
             "kleine veranderingen stapelen zich op over vele generaties",
             "soorten veranderen enkel in hun eerste duizend jaar",
-            "elke generatie verandert zichtbaar van vorm en kleur",
+            "elke nieuwe generatie verandert duidelijk zichtbaar van vorm en kleur",
             "zonder genoeg tijd blijven alle mutaties zonder effect",
         ],
         antwoord=0,

@@ -63,7 +63,7 @@ DEEL1 = [
         vraag="Wanneer is een lichte kern met minder dan twintig protonen stabiel?",
         opties=[
             "als er ongeveer evenveel neutronen als protonen zijn",
-            "als er veel meer neutronen dan protonen zijn",
+            "als er veel meer neutronen dan protonen in de kern zitten",
             "als er veel meer protonen dan neutronen zijn",
             "als er geen enkel neutron in de kern zit",
         ],
@@ -165,7 +165,7 @@ DEEL1 = [
         vraag="Waarvoor dienen de regelstaven in een kernreactor?",
         opties=[
             "de kettingreactie afremmen of stilleggen",
-            "de kettingreactie op gang brengen",
+            "de kettingreactie op gang brengen bij het opstarten",
             "het water in de kringloop rondpompen",
             "de stoom naar de turbine leiden",
         ],
@@ -195,7 +195,7 @@ DEEL1 = [
         vraag="Hoe wordt de warmte van een kernreactor elektriciteit?",
         opties=[
             "warmte maakt stoom, stoom draait een turbine en een generator",
-            "warmte wordt rechtstreeks in de stroomkring gestuurd",
+            "warmte wordt rechtstreeks in de stroomkring gestuurd via koperen draden",
             "warmte laat de splijtstaven elektronen uitzenden",
             "warmte doet een magneet rond de reactor draaien",
         ],
@@ -252,7 +252,7 @@ DEEL2 = [
         vraag="Wat is gammastraling?",
         opties=[
             "elektromagnetische straling met heel hoge energie",
-            "een stroom zware deeltjes uit de kern",
+            "een stroom zware deeltjes uit de kern, zoals heliumkernen",
             "een stroom elektronen uit de kern",
             "een stroom neutronen uit de kern",
         ],

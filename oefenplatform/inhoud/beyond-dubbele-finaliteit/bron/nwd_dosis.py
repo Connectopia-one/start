@@ -358,7 +358,7 @@ DEEL2 = [
         opties=[
             "ook een nuttige stof heeft een veilige bovengrens",
             "een nuttige stof heeft nooit een bovengrens",
-            "een vitamine is eigenlijk geen voedingsstof",
+            "een vitamine is eigenlijk geen echte voedingsstof voor je lichaam",
             "je hebt van elke vitamine evenveel nodig",
         ],
         antwoord=0,

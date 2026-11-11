@@ -47,7 +47,7 @@ DEEL1 = [
             "een lange keten van suikermoleculen",
             "een enkele suikermolecule",
             "een keten van aminozuren",
-            "een vetzuur met een lange staart",
+            "een vetzuur met een lange staart van koolstof",
         ],
         antwoord=0,
         uitleg="Zetmeel is een polysacharide: honderden glucosemoleculen aan elkaar. Planten slaan hun energie zo op, in aardappelen, graan en rijst.",
@@ -57,7 +57,7 @@ DEEL1 = [
         vraag="Waarom geeft zetmeel trager energie dan glucose?",
         opties=[
             "de lange keten moet eerst afgebroken worden",
-            "zetmeel bevat minder energie per gram",
+            "zetmeel bevat veel minder energie per gram dan glucose",
             "zetmeel lost helemaal niet op in water",
             "zetmeel wordt in de maag niet opgenomen",
         ],
@@ -129,7 +129,7 @@ DEEL1 = [
         vraag="Wat is kenmerkend voor een onverzadigd vetzuur?",
         opties=[
             "er zit minstens één dubbele binding in de keten",
-            "de keten bevat alleen enkelvoudige bindingen",
+            "de keten bevat alleen enkelvoudige bindingen tussen de koolstofatomen",
             "de keten is altijd veel korter",
             "het bevat geen koolstofatomen",
         ],
@@ -203,7 +203,7 @@ DEEL1 = [
         vraag="Wat laat de voedingsdriehoek zien?",
         opties=[
             "waarvan je veel mag eten en waarvan beter weinig",
-            "hoeveel kilojoules elk voedingsmiddel bevat",
+            "hoeveel kilojoules elk voedingsmiddel precies per portie bevat",
             "welke volgorde je bij een maaltijd aanhoudt",
             "welke stoffen samen in één gerecht passen",
         ],
@@ -266,7 +266,7 @@ DEEL2 = [
         vraag="Wat zegt de nutriscore?",
         opties=[
             "hoe gezond de samenstelling van een product is",
-            "hoeveel het product op het milieu weegt",
+            "hoeveel het product op het milieu weegt, van productie tot afval",
             "hoe lang het product houdbaar is",
             "waar het product vandaan komt",
         ],
@@ -278,7 +278,7 @@ DEEL2 = [
         vraag="Wat telt mee in de ecoscore?",
         opties=[
             "de belasting van het milieu over de hele levenscyclus",
-            "alleen de hoeveelheid suiker en zout",
+            "alleen de hoeveelheid suiker, vet en zout die in het product zit",
             "alleen de prijs in de winkel",
             "alleen de houdbaarheidsdatum",
         ],

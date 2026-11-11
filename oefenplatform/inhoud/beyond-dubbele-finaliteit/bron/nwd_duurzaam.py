@@ -44,7 +44,7 @@ DEEL1 = [
         vraag="Wat is downcycling?",
         opties=[
             "recycleren tot een materiaal van mindere kwaliteit",
-            "recycleren tot een materiaal van hogere kwaliteit",
+            "recycleren tot een materiaal van hogere kwaliteit en waarde",
             "een product in zijn geheel opnieuw gebruiken",
             "een product verbranden en de warmte benutten",
         ],
@@ -303,7 +303,7 @@ DEEL2 = [
         vraag="Wat is er strenger aan composteerbaar dan aan biodegradeerbaar?",
         opties=[
             "het moet binnen een afgesproken tijd afbreken",
-            "het moet uit plantaardige grondstof komen",
+            "het moet uit plantaardige grondstof komen en niet uit aardolie",
             "het mag helemaal geen koolstof bevatten",
             "het moet volledig oplossen in koud water",
         ],
@@ -395,7 +395,7 @@ DEEL2 = [
             "negatief haalt meer CO₂ uit de lucht dan het uitstoot",
             "negatief stoot meer CO₂ uit dan het opneemt",
             "neutraal stoot helemaal geen enkele stof uit",
-            "neutraal gebruikt uitsluitend hernieuwbare grondstof",
+            "neutraal gebruikt uitsluitend hernieuwbare grondstof en energie",
         ],
         antwoord=0,
         uitleg="Neutraal betekent dat uitstoot en opname elkaar opheffen. Negatief gaat een stap verder: er verdwijnt netto koolstofdioxide uit de lucht.",

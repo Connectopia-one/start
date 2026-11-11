@@ -56,7 +56,7 @@ DEEL1 = [
         vraag="Wat is kenmerkend voor een transversale golf?",
         opties=[
             "de deeltjes trillen dwars op de voortplantingsrichting",
-            "de deeltjes trillen langs de voortplantingsrichting",
+            "de deeltjes trillen langs de voortplantingsrichting, heen en weer",
             "de deeltjes trillen in alle richtingen tegelijk",
             "de deeltjes trillen helemaal niet mee",
         ],
@@ -68,7 +68,7 @@ DEEL1 = [
         vraag="Waarom is geluid een longitudinale golf?",
         opties=[
             "de lucht trilt in dezelfde richting als de golf loopt",
-            "de lucht trilt dwars op de richting van de golf",
+            "de lucht trilt dwars op de richting waarin de golf zich voortplant",
             "de lucht trilt even snel als de golf vooruitgaat",
             "de lucht trilt alleen aan het begin van de golf",
         ],
@@ -110,7 +110,7 @@ DEEL1 = [
         vraag="Wat is de amplitude van een golf?",
         opties=[
             "de grootste uitwijking uit de evenwichtsstand",
-            "de afstand tussen twee golftoppen",
+            "de afstand tussen twee opeenvolgende toppen van de golf",
             "het aantal trillingen per seconde",
             "de tijd van één volledige trilling",
         ],
@@ -325,7 +325,7 @@ DEEL2 = [
             "een voorwerp trilt mee op zijn eigen frequentie",
             "een voorwerp houdt een trilling volledig tegen",
             "een voorwerp kaatst de trilling helemaal terug",
-            "een voorwerp zet de trilling om in warmte",
+            "een voorwerp zet de trilling volledig om in warmte",
         ],
         antwoord=0,
         uitleg="Komt de frequentie van buiten overeen met de eigenfrequentie, dan wordt de trilling steeds groter. Zo kan een glas breken van een aangehouden toon.",

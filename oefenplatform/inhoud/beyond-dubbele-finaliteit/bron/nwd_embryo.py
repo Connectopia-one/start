@@ -81,7 +81,7 @@ DEEL1 = [
         vraag="Hoelang blijft een eicel na de eisprong bevruchtbaar?",
         opties=[
             "ongeveer een halve tot een hele dag",
-            "ongeveer een volle week",
+            "ongeveer een volle week, tot de menstruatie",
             "ongeveer veertien dagen",
             "ongeveer één uur",
         ],
@@ -129,7 +129,7 @@ DEEL1 = [
         vraag="Waarvoor dient het enzym in de kop van de zaadcel?",
         opties=[
             "om de vliezen rond de eicel open te maken",
-            "om de eicel van energie te voorzien",
+            "om de eicel van energie te voorzien voor de eerste delingen",
             "om de staart sneller te laten slaan",
             "om de kern van de eicel te verdubbelen",
         ],
@@ -165,7 +165,7 @@ DEEL1 = [
         vraag="Wat gebeurt er meteen nadat één zaadcel binnen is?",
         opties=[
             "het bevruchtingsmembraan sluit de eicel af",
-            "de eicel begint zich meteen te delen",
+            "de eicel begint zich meteen te delen in twee cellen",
             "de eicel maakt een tweede celkern aan",
             "de eicel verdubbelt haar reservevoedsel",
         ],
@@ -316,7 +316,7 @@ DEEL2 = [
         vraag="Waarom raadt men alcohol af tijdens de zwangerschap?",
         opties=[
             "alcohol gaat door de placenta naar de vrucht",
-            "alcohol maakt het vruchtwater te zuur",
+            "alcohol maakt het vruchtwater te zuur voor de vrucht",
             "alcohol verhindert de innesteling",
             "alcohol verkort de navelstreng",
         ],
@@ -328,7 +328,7 @@ DEEL2 = [
         vraag="Welke stoffen noem je teratogeen?",
         opties=[
             "stoffen die de ontwikkeling van de vrucht verstoren",
-            "stoffen die de moeder sneller doen vermoeien",
+            "stoffen die de moeder sneller en sterker doen vermoeien",
             "stoffen die de bevalling op gang brengen",
             "stoffen die de melkproductie stimuleren",
         ],
@@ -366,7 +366,7 @@ DEEL2 = [
             "de schadelijke stoffen komen ook zo in het bloed van de moeder",
             "de rook verwarmt het vruchtwater te sterk",
             "de rook maakt de navelstreng korter",
-            "de rook vertraagt de weeën tijdens de bevalling",
+            "de rook vertraagt de weeën tijdens de bevalling en maakt ze pijnlijker",
         ],
         antwoord=0,
         uitleg="Wie meerookt, ademt dezelfde stoffen in. Koolstofmonoxide neemt in het bloed de plaats van zuurstof in, en dan krijgt de vrucht minder zuurstof binnen.",
