@@ -367,7 +367,7 @@
           "vraag": "Lees dit krantenstukje: « Depuis la rentrée, les élèves de deux écoles de Charleroi laissent leur téléphone dans un casier pendant les cours. Les professeurs trouvent les classes plus calmes. Certains élèves se plaignent, mais la plupart disent qu'ils se concentrent mieux. L'école va garder la règle jusqu'en juin. » Wat is de hoofdgedachte?",
           "opties": [
             "Twee scholen leggen de telefoons tijdens de les weg, en dat werkt.",
-            "Leerlingen in Charleroi mogen hun telefoon niet meer meebrengen.",
+            "Leerlingen in Charleroi mogen hun telefoon helemaal niet meer meebrengen.",
             "Leraren willen dat telefoons overal verboden worden.",
             "De regel over telefoons wordt in juni afgeschaft."
           ],
@@ -400,9 +400,9 @@
           "vraag": "Lees deze mail: « Madame, Je vous écris au sujet de votre annonce pour un job d'été. Je suis élève en quatrième année et je cherche du travail en juillet. J'ai déjà aidé dans le magasin de mes grands-parents, donc je connais la caisse. Je suis libre du 1er au 31 juillet, sauf le week-end du 14. Pourriez-vous me dire quand je peux venir me présenter ? » Waarom schrijft deze leerling?",
           "opties": [
             "om te reageren op een zoekertje voor vakantiewerk",
-            "om uitleg te vragen over een cursus",
+            "om uitleg te vragen over een cursus Frans in de zomer",
             "om een job op te zeggen",
-            "om een winkel aan te bevelen"
+            "om een winkel aan te bevelen aan andere klanten in de buurt"
           ],
           "antwoord": 0,
           "uitleg": "Au sujet de votre annonce pour un job d'été: naar aanleiding van uw zoekertje voor een zomerjob. Au sujet de betekent over, in verband met."
@@ -443,7 +443,7 @@
           "vraag": "Lees dit tekstje: « Chaque été, trois tonnes de déchets restent sur nos plages. Ramasse ce que tu apportes. Une plage propre, c'est l'affaire de tout le monde. » Wat voor soort tekst is dit, en waaraan zie je dat?",
           "opties": [
             "persuasief, want de tekst wil je gedrag veranderen",
-            "informatief, want de tekst geeft alleen cijfers",
+            "informatief, want de tekst geeft alleen cijfers over het afval",
             "narratief, want de tekst vertelt een gebeurtenis",
             "literair, want de tekst speelt met woorden"
           ],
@@ -564,9 +564,9 @@
           "vraag": "Je krijgt een Franse tekst die begint met « Chère Madame Dupont, ». Wat weet je dan al, nog voor je verder leest?",
           "opties": [
             "Het is een brief of mail aan één bepaalde persoon.",
-            "Het is een artikel uit een krant.",
+            "Het is een artikel uit een krant, gericht aan alle lezers die het blad kopen.",
             "Het is een gedicht.",
-            "Het is een reclameboodschap."
+            "Het is een reclameboodschap die naar veel mensen tegelijk verstuurd wordt."
           ],
           "antwoord": 0,
           "uitleg": "Een aanspreking met een naam hoort bij een brief of een mail. De vorm van een tekst verklapt vaak al de soort."
@@ -581,8 +581,8 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent het dat je hoofdzaken van bijzaken moet onderscheiden?",
           "opties": [
-            "Je ziet welke zinnen de boodschap dragen en welke alleen een voorbeeld geven.",
-            "Je leest alleen de eerste en de laatste zin van een tekst.",
+            "Je ziet welke zinnen de boodschap dragen en welke enkel een voorbeeld geven.",
+            "Je leest alleen de eerste en de laatste zin van een tekst, want daar staat altijd alles wat telt.",
             "Je onthoudt alle cijfers die in de tekst staan.",
             "Je zoekt elk woord op dat je niet kent."
           ],
@@ -600,7 +600,7 @@
           "vraag": "Op het examen mag je een online woordenboek gebruiken. Hoe ga je daar best mee om?",
           "opties": [
             "Je zoekt alleen de woorden op die je echt nodig hebt om de tekst te begrijpen.",
-            "Je zoekt elk woord op dat je niet kent, van de eerste tot de laatste regel.",
+            "Je zoekt elk woord op dat je niet kent, van de eerste regel tot de allerlaatste regel.",
             "Je gebruikt het woordenboek beter helemaal niet.",
             "Je zoekt eerst alle woorden op en leest daarna de tekst."
           ],
@@ -617,9 +617,9 @@
           "type": "meerkeuze",
           "vraag": "Je leest een Franse tekst over een onderwerp dat je niet kent, en halfweg snap je niets meer. Wat doe je het eerst?",
           "opties": [
-            "Je leest verder tot het einde en kijkt dan welke stukken je wel begrepen hebt.",
+            "Je leest verder tot het einde en kijkt dan welke stukken je wel begreep.",
             "Je begint helemaal opnieuw en leest woord per woord.",
-            "Je zoekt het hele stuk woord voor woord op in het woordenboek.",
+            "Je zoekt het hele stuk woord voor woord op in het woordenboek tot je elk woord begrijpt.",
             "Je slaat de tekst over en gaat naar de volgende vraag."
           ],
           "antwoord": 0,
@@ -666,9 +666,9 @@
           "vraag": "Lees dit tekstje: « Le marché est moins cher que le supermarché, par contre il n'ouvre que le mercredi. Comme je travaille ce jour-là, j'y vais rarement. Donc j'achète mes légumes au magasin du coin, même si c'est dommage. » Wat doet het woord par contre in die eerste zin?",
           "opties": [
             "het zet twee dingen tegenover elkaar",
-            "het geeft een reden",
+            "het geeft een reden voor wat ervoor staat",
             "het geeft een gevolg",
-            "het voegt een voorbeeld toe"
+            "het voegt een voorbeeld toe aan de vorige zin"
           ],
           "antwoord": 0,
           "uitleg": "Par contre betekent daarentegen: goedkoper, maar wel alleen op woensdag open."
@@ -769,10 +769,10 @@
           "type": "meerkeuze",
           "vraag": "Waarom zijn verwijswoorden zoals il, elle, y en en belangrijk als je leest?",
           "opties": [
-            "Ze houden de zinnen aan elkaar, en als je niet weet waarnaar ze verwijzen, verlies je de draad.",
-            "Ze staan altijd vooraan in een tekst.",
+            "Ze houden de zinnen aan elkaar; zonder ze te begrijpen verlies je de draad.",
+            "Ze staan altijd vooraan in een tekst, meestal in de eerste zin van elke alinea.",
             "Ze zeggen je welke soort tekst je leest.",
-            "Ze vervangen altijd een persoon."
+            "Ze vervangen altijd een persoon die eerder in de tekst genoemd werd, nooit een ding."
           ],
           "antwoord": 0,
           "uitleg": "Ze verwijzen naar personen, voorwerpen, begrippen of plaatsen uit een vorige zin. Een schrijver gebruikt ze om niet te moeten herhalen."
@@ -794,8 +794,8 @@
           "vraag": "Je leest het Franse woord dangereux en je kent het niet. Hoe raad je de betekenis?",
           "opties": [
             "Je ziet er het Nederlandse of Engelse woord in dat erop lijkt.",
-            "Je kijkt naar het aantal letters.",
-            "Je kijkt of het woord vetgedrukt staat.",
+            "Je kijkt naar het aantal letters en vergelijkt dat met woorden die je al kent.",
+            "Je kijkt of het woord vetgedrukt staat, want dan wordt het verderop in de tekst uitgelegd.",
             "Je leest het woord luidop."
           ],
           "antwoord": 0,
@@ -805,8 +805,8 @@
           "type": "meerkeuze",
           "vraag": "Je leest « Le chemin est impraticable en hiver. » Hoe helpt de bouw van het woord impraticable je?",
           "opties": [
-            "Het voorvoegsel im- betekent niet, dus het is niet begaanbaar.",
-            "Het achtervoegsel -able betekent dat het verboden is.",
+            "Het voorvoegsel im- betekent niet, dus: niet begaanbaar.",
+            "Het achtervoegsel -able betekent dat het verboden is, dus de weg is verboden.",
             "Het woord staat in het meervoud.",
             "Het woord is een werkwoord in de verleden tijd."
           ],
@@ -915,7 +915,7 @@
           "vraag": "Je schrijft een mail aan een werkgever die je niet kent en je wil vragen of je mag komen langskomen. Welke vorm is het meest gepast?",
           "opties": [
             "Pourriez-vous me dire quand je peux venir ?",
-            "Tu peux me dire quand je viens ?",
+            "Tu peux me dire quand je viens chez toi pour l'entretien ?",
             "Dis-moi quand je dois venir.",
             "Je viens demain, d'accord ?"
           ],
@@ -998,7 +998,7 @@
             "Tu viens manger chez moi samedi ?",
             "Je mange chez toi samedi.",
             "Tu as mangé samedi ?",
-            "Je voudrais manger samedi."
+            "Je voudrais manger chez toi samedi."
           ],
           "antwoord": 0,
           "uitleg": "Een uitnodiging is een vraag aan de ander. De andere zinnen vertellen iets over jezelf of vragen naar het verleden."
@@ -1015,7 +1015,7 @@
           "opties": [
             "bij een klant, en bij een collega die hij nog niet kent",
             "alleen bij een klant",
-            "bij elke collega, ook bij wie hij goed kent",
+            "bij elke collega, ook bij wie hij goed kent en al jaren ziet",
             "alleen bij iemand die ouder is dan hij"
           ],
           "antwoord": 0,
@@ -1111,7 +1111,7 @@
           "opties": [
             "Frans wordt in veel landen gesproken, met verschillen maar zonder begripsproblemen.",
             "Frans is alleen in Frankrijk de echte taal.",
-            "Wie Frans leert, moet het accent van Parijs leren.",
+            "Wie Frans leert, moet het accent van Parijs leren, want anders begrijpt men je in andere landen niet.",
             "In Afrika spreekt men een andere taal dan het Frans."
           ],
           "antwoord": 0,
@@ -1206,8 +1206,8 @@
           "opties": [
             "gewoontes uit het dagelijkse leven",
             "lichaamstaal",
-            "sociale verhoudingen",
-            "waarden en normen"
+            "sociale verhoudingen tussen mensen",
+            "waarden en normen van een samenleving"
           ],
           "antwoord": 0,
           "uitleg": "Eetgewoonten horen bij het dagelijkse leven en bij de gewoontes."
@@ -1242,8 +1242,8 @@
           "type": "meerkeuze",
           "vraag": "Waarom hoort cultuur en omgangsvormen bij een taalexamen?",
           "opties": [
-            "Omdat je een taal gebruikt om met mensen om te gaan, en dan moet je hun gewoontes kennen.",
-            "Omdat de examencommissie een cultuurexamen afneemt.",
+            "Omdat je een taal gebruikt om met mensen om te gaan, en dus hun gewoontes moet kennen.",
+            "Omdat de examencommissie naast het taalexamen ook een apart cultuurexamen afneemt over Frankrijk.",
             "Omdat je anders de grammatica niet kan leren.",
             "Omdat het Frans in België moeilijker is dan in Frankrijk."
           ],
@@ -1270,8 +1270,8 @@
           "vraag": "Je krijgt op het examen een tekst over het leven van een jongere in Senegal. Wat verwacht de opdracht van jou?",
           "opties": [
             "Dat je eruit haalt wat die tekst over het dagelijkse leven daar zegt.",
-            "Dat je de aardrijkskunde van Senegal kent.",
-            "Dat je de geschiedenis van het land kan vertellen.",
+            "Dat je de aardrijkskunde van Senegal kent, zoals de hoofdstad en de grote rivieren.",
+            "Dat je de geschiedenis van het land kan vertellen, van de kolonisatie tot nu.",
             "Dat je de tekst in het Nederlands vertaalt."
           ],
           "antwoord": 0,
@@ -1389,7 +1389,7 @@
           "vraag": "Je brengt in het Frans verslag uit over je stage, die vorige maand doorging. In welke tijden schrijf je dan vooral?",
           "opties": [
             "passé composé en imparfait",
-            "présent en futur simple",
+            "présent en futur simple, zoals in een planning",
             "impératif en infinitif",
             "futur proche en présent"
           ],
@@ -1419,7 +1419,7 @@
           "vraag": "Je legt in het Frans uit hoe iemand een gerecht klaarmaakt. Welke werkwoordsvorm gebruik je voor de stappen?",
           "opties": [
             "de impératif, zoals coupez en ajoutez",
-            "de passé composé, zoals j'ai coupé",
+            "de passé composé, zoals j'ai coupé et j'ai ajouté",
             "de imparfait, zoals je coupais",
             "de futur simple, zoals je couperai"
           ],
@@ -1545,7 +1545,7 @@
           "vraag": "Je zit vast: je weet niet hoe je iets in het Frans moet zeggen. Wat doe je volgens de strategieën?",
           "opties": [
             "Je zegt het met de woorden en structuren die je al wel kent.",
-            "Je laat die zin weg en je gaat gewoon verder met de rest.",
+            "Je laat die zin weg en je gaat gewoon verder met de rest van je tekst.",
             "Je schrijft dat stuk in het Nederlands.",
             "Je begint je tekst helemaal opnieuw."
           ],
@@ -1594,7 +1594,7 @@
           "opties": [
             "Dat is aanvaardbaar, zolang de fouten de communicatie niet verstoren.",
             "Elke fout kost je de hele rij.",
-            "Grammatica wordt bij schrijven niet beoordeeld, alleen bij spreken.",
+            "Grammatica wordt bij schrijven niet beoordeeld, alleen bij het spreken.",
             "Alleen fouten in werkwoorden tellen mee."
           ],
           "antwoord": 0,
@@ -1736,7 +1736,7 @@
           "vraag": "Uit welke drie delen bestaat het examen Frans?",
           "opties": [
             "een spreekopdracht, een digitaal examen en een gesprek",
-            "een schriftelijk examen, een gesprek en een werkstuk",
+            "een schriftelijk examen, een mondeling gesprek en een werkstuk",
             "een leesproef, een luisterproef en een dictee",
             "een digitaal examen en twee mondelinge gesprekken"
           ],
@@ -1748,9 +1748,9 @@
           "vraag": "Waar en hoe neem je de spreekopdracht op?",
           "opties": [
             "thuis, en je dient ze in tot drie dagen voor je digitale examen",
-            "in het examencentrum, net voor het digitale examen",
+            "in het examencentrum, net voor je aan het digitale examen begint",
             "thuis, en je brengt ze op een usb-stick mee",
-            "in het examencentrum, samen met het gesprek"
+            "in het examencentrum, samen met het gesprek, voor dezelfde examinator"
           ],
           "antwoord": 0,
           "uitleg": "De spreekopdracht neem je thuis op. Dien ze tijdig in: anders mag je niet deelnemen aan het examen in het centrum."
@@ -1798,9 +1798,9 @@
           "type": "meerkeuze",
           "vraag": "Wat is het verschil tussen een spreekopdracht en een gesprek?",
           "opties": [
-            "Bij een spreekopdracht ben je alleen aan het woord; bij een gesprek moet je reageren.",
+            "Bij een spreekopdracht ben je alleen aan het woord, bij een gesprek moet je reageren.",
             "Een spreekopdracht duurt langer dan een gesprek.",
-            "Een spreekopdracht doe je in het Nederlands, een gesprek in het Frans.",
+            "Een spreekopdracht doe je in het Nederlands, een gesprek in het Frans, zodat je beide talen toont.",
             "Bij een gesprek mag je alles vooraf uitschrijven en voorlezen."
           ],
           "antwoord": 0,
@@ -1872,8 +1872,8 @@
           "type": "meerkeuze",
           "vraag": "Welke rol speelt lichaamstaal in een gesprek in het Frans?",
           "opties": [
-            "Je gebruikt ze zelf om je boodschap over te brengen, en je leest ze bij de ander af.",
-            "Ze telt niet mee, want het examen gaat over taal.",
+            "Je gebruikt ze zelf om je boodschap over te brengen en leest ze bij de ander af.",
+            "Ze telt niet mee, want het examen gaat alleen over taal en niet over hoe je je beweegt.",
             "Ze mag niet, want ze helpt je te veel vooruit.",
             "Ze is alleen belangrijk bij de spreekopdracht thuis."
           ],
@@ -1973,7 +1973,7 @@
           "vraag": "Hoe klinkt de lettergroep oi in het Franse woord moi?",
           "opties": [
             "ongeveer als wa",
-            "als oo",
+            "als oo, zoals in het woord boot",
             "als oe",
             "als ie"
           ],
@@ -2042,7 +2042,7 @@
           "vraag": "Wat is het verschil tussen a en à in « Il a à faire »?",
           "opties": [
             "a is de persoonsvorm van avoir, à is een voorzetsel.",
-            "Ze betekenen hetzelfde; het accent is versiering.",
+            "Ze betekenen hetzelfde; het accent op à is alleen versiering.",
             "a staat in het enkelvoud, à in het meervoud.",
             "à wordt langer uitgesproken dan a."
           ],
@@ -2369,9 +2369,9 @@
           "vraag": "Op je examen staat « Complétez le texte avec les mots suivants. » Wat moet je doen?",
           "opties": [
             "de tekst vervolledigen met de woorden die erbij staan",
-            "de tekst in het Nederlands vertalen",
+            "de tekst in het Nederlands vertalen, zin per zin",
             "de woorden in de goede orde zetten",
-            "de tekst samenvatten in enkele zinnen"
+            "de tekst samenvatten in enkele zinnen met je eigen woorden"
           ],
           "antwoord": 0,
           "uitleg": "Compléter is vervolledigen, suivant betekent volgend. Instructietaal is een eigen woordveld: wie de opdracht niet begrijpt, verliest punten zonder fout te maken."
@@ -2486,7 +2486,7 @@
           "opties": [
             "vijf dagen lang 's morgens en 's avonds een tablet nemen",
             "vijf dagen lang in bed blijven",
-            "twee tabletten per dag nemen tot de pijn weg is",
+            "twee tabletten per dag nemen, tot de pijn helemaal weg is",
             "morgen terugkomen bij de dokter"
           ],
           "antwoord": 0,
@@ -2511,8 +2511,8 @@
           "vraag": "Je belt in het Frans naar een dokter voor een afspraak. Welke zin past?",
           "opties": [
             "Je voudrais prendre un rendez-vous, s'il vous plaît.",
-            "Je prends un rendez-vous maintenant.",
-            "Donnez-moi un rendez-vous demain.",
+            "Je prends un rendez-vous maintenant, pour cet après-midi.",
+            "Donnez-moi un rendez-vous demain matin, s'il vous plaît.",
             "Tu as un rendez-vous pour moi ?"
           ],
           "antwoord": 0,
@@ -3363,9 +3363,9 @@
           "vraag": "Lees deze uitleg: « Pour vous inscrire, créez un compte avec votre adresse mail. Vous recevrez un message avec un lien. Si le message n'arrive pas, regardez dans les courriers indésirables. N'envoyez jamais votre mot de passe par mail. » Wat doe je als het bericht niet aankomt?",
           "opties": [
             "in de map met ongewenste berichten kijken",
-            "opnieuw een account aanmaken",
+            "opnieuw een account aanmaken met een ander wachtwoord",
             "je wachtwoord opsturen",
-            "een ander mailadres gebruiken"
+            "een ander mailadres gebruiken en het opnieuw proberen"
           ],
           "antwoord": 0,
           "uitleg": "Les courriers indésirables zijn de ongewenste berichten, de spam. Indésirable betekent ongewenst."
@@ -3712,8 +3712,8 @@
           "vraag": "Lees dit weerbericht: « Demain, le temps restera gris dans tout le pays. Il pleuvra le matin en Wallonie, avec un vent assez fort venant de l'ouest. Les températures ne dépasseront pas douze degrés. En fin de journée, quelques éclaircies à la côte. » Wat voor weer wordt het morgen?",
           "opties": [
             "grijs, met regen in de voormiddag in Wallonië",
-            "zonnig in het hele land",
-            "regen in de namiddag aan de kust",
+            "zonnig in het hele land, met wat wolken aan de kust",
+            "regen in de namiddag aan de kust, en droog in Wallonië",
             "warm, met meer dan twintig graden"
           ],
           "antwoord": 0,
@@ -3847,8 +3847,8 @@
           "vraag": "Lees dit verslagje: « L'été dernier, nous sommes partis dix jours en Espagne. Nous avons pris l'avion jusqu'à Barcelone, puis le train jusqu'à la côte. L'hôtel était simple mais propre, et la mer était à deux cents mètres. Je voudrais y retourner. » Hoe zijn ze tot aan de kust gekomen?",
           "opties": [
             "met het vliegtuig tot Barcelona en dan met de trein",
-            "met de wagen in één keer",
-            "met het vliegtuig tot aan de kust",
+            "met de wagen in één keer, zonder onderweg te stoppen",
+            "met het vliegtuig tot aan de kust en daarna met de boot",
             "met de trein en dan met de bus"
           ],
           "antwoord": 0,
@@ -4155,7 +4155,7 @@
             "Omdat homme met een stille h begint en ce dan cet wordt.",
             "Omdat homme vrouwelijk is.",
             "Omdat homme in het meervoud staat.",
-            "Omdat cet altijd voor een mannelijk woord komt."
+            "Omdat cet altijd voor een mannelijk woord komt, ook als dat met een medeklinker begint."
           ],
           "antwoord": 0,
           "uitleg": "Voor een klinker of een stille h wordt ce cet: cet homme, cet ami, cet hôtel. Je hoort dan de t."
@@ -4206,10 +4206,10 @@
           "type": "meerkeuze",
           "vraag": "Waarom zegt een jongen én een meisje « ma voiture »?",
           "opties": [
-            "Omdat voiture vrouwelijk is, en het gaat om het geslacht van het bezit.",
-            "Omdat alleen meisjes ma gebruiken.",
+            "Omdat voiture vrouwelijk is: het geslacht van het bezit telt, niet van de bezitter.",
+            "Omdat alleen meisjes ma gebruiken; een jongen zou eigenlijk mon voiture moeten zeggen.",
             "Omdat ma altijd bij één persoon hoort.",
-            "Omdat een wagen in het Frans altijd van een vrouw is."
+            "Omdat een wagen in het Frans altijd van een vrouw is, ook als een man hem bezit en ermee rijdt."
           ],
           "antwoord": 0,
           "uitleg": "Dat is het grote verschil met het Engels: his car en her car worden allebei sa voiture."
@@ -4388,7 +4388,7 @@
           "vraag": "Wat betekent on in « En Belgique, on parle trois langues »?",
           "opties": [
             "men, de mensen in het algemeen",
-            "wij twee",
+            "wij twee, de spreker en zijn vriend",
             "jij en ik",
             "zij, de Belgen alleen"
           ],
@@ -4605,7 +4605,7 @@
           "opties": [
             "erachter, met een streepje: donne-le-moi",
             "ervoor: le me donne",
-            "ervoor, met een streepje: le-moi donne",
+            "ervoor, met een streepje tussen: le-moi donne",
             "erachter zonder streepje: donne le moi"
           ],
           "antwoord": 0,
@@ -4658,7 +4658,7 @@
           "vraag": "Wat is het verschil tussen « il lave la voiture » en « il se lave »?",
           "opties": [
             "In de eerste zin wast hij iets anders, in de tweede zichzelf.",
-            "In de eerste zin is het verleden tijd.",
+            "In de eerste zin staat het werkwoord in de verleden tijd, in de tweede in de présent.",
             "De tweede zin is geen juist Frans.",
             "Er is geen verschil in betekenis."
           ],
@@ -4709,7 +4709,7 @@
           "opties": [
             "een onbepaalde hoeveelheid van iets",
             "een plaats",
-            "een persoon aan wie je iets geeft",
+            "een persoon aan wie je iets geeft of zegt",
             "een bezitter"
           ],
           "antwoord": 0,
@@ -4760,8 +4760,8 @@
           "vraag": "Waarom gebruikt een schrijver voornaamwoorden?",
           "opties": [
             "Om niet elke keer hetzelfde woord te moeten herhalen.",
-            "Om zijn tekst langer te maken.",
-            "Omdat de grammatica dat verplicht.",
+            "Om zijn tekst langer te maken, zodat hij aan het gevraagde aantal woorden komt.",
+            "Omdat de grammatica dat verplicht na elk zelfstandig naamwoord.",
             "Om moeilijker te klinken."
           ],
           "antwoord": 0,
@@ -5072,9 +5072,9 @@
           "vraag": "Wat is het verschil tussen « elle est rapide » en « elle parle rapidement »?",
           "opties": [
             "Het eerste zegt iets over haar, het tweede over hoe ze spreekt.",
-            "Er is geen verschil in betekenis.",
+            "Er is geen verschil in betekenis, het zijn twee manieren om hetzelfde te zeggen.",
             "Het tweede is geen juist Frans.",
-            "Het eerste staat in de verleden tijd."
+            "Het eerste staat in de verleden tijd, het tweede in de tegenwoordige tijd."
           ],
           "antwoord": 0,
           "uitleg": "Een bijvoeglijk naamwoord hoort bij een naamwoord, een bijwoord bij een werkwoord. Daarom verandert het eerste van vorm en het tweede niet."
@@ -5202,7 +5202,7 @@
           "vraag": "Waarom staat er in « un verre d'eau » een d' en geen de?",
           "opties": [
             "Omdat eau met een klinker begint.",
-            "Omdat verre mannelijk is.",
+            "Omdat verre mannelijk is en een glas telt.",
             "Omdat het een hoeveelheid is.",
             "Omdat eau geen lidwoord heeft."
           ],
@@ -5473,8 +5473,8 @@
           "vraag": "Waarom staat er in een recept « ajoutez le riz » en niet « vous ajoutez le riz »?",
           "opties": [
             "Omdat een recept je iets opdraagt, en dan gebruik je de impératif.",
-            "Omdat een recept altijd in de infinitief staat.",
-            "Omdat vous te formeel is in een recept.",
+            "Omdat een recept altijd in de infinitief staat, zoals in een Nederlands kookboek.",
+            "Omdat vous te formeel is in een recept en de lezer zich dan niet aangesproken voelt.",
             "Omdat de présent in een recept niet bestaat."
           ],
           "antwoord": 0,
@@ -5538,8 +5538,8 @@
           "type": "meerkeuze",
           "vraag": "Wat is het verschil tussen aller, allez en allé?",
           "opties": [
-            "aller is de infinitief, allez een persoonsvorm, allé een voltooid deelwoord",
-            "aller is een persoonsvorm, allez de infinitief, allé een bijwoord",
+            "aller is de infinitief, allez een persoonsvorm, allé een deelwoord",
+            "aller is een persoonsvorm, allez de infinitief en allé een bijwoord van plaats",
             "het zijn drie spellingen van dezelfde vorm",
             "allé en allez zijn allebei persoonsvormen"
           ],
@@ -5573,8 +5573,8 @@
           "vraag": "Waarnaar verwijst il in « Il pleut »?",
           "opties": [
             "naar niets of niemand; het is een onpersoonlijk werkwoord",
-            "naar de lucht",
-            "naar het weer als persoon",
+            "naar de lucht boven de plaats waar de spreker zich bevindt",
+            "naar het weer, dat in het Frans als een persoon wordt gezien",
             "naar degene die spreekt"
           ],
           "antwoord": 0,
@@ -5617,9 +5617,9 @@
           "vraag": "Welke vorm hoort in een gebruiksaanwijzing waarin de lezer wordt aangesproken?",
           "opties": [
             "de impératif met vous: n'utilisez pas de sèche-linge",
-            "de infinitief met te: à ne pas utiliser",
+            "de infinitief met te: à ne pas utiliser dans le sèche-linge",
             "de présent met je: je n'utilise pas",
-            "de verleden tijd: je n'ai pas utilisé"
+            "de verleden tijd: je n'ai pas utilisé de sèche-linge"
           ],
           "antwoord": 0,
           "uitleg": "Een waslabel of een handleiding spreekt je in de impératif aan. Soms gebruikt het Frans ook de infinitief alleen, maar de vous-vorm is het gewoonst."
@@ -5758,10 +5758,10 @@
           "type": "meerkeuze",
           "vraag": "Waarom staat er een s aan « Nous sommes partis » en niet aan « Nous avons mangé »?",
           "opties": [
-            "Omdat het deelwoord met être meegaat met het onderwerp, en met avoir niet.",
-            "Omdat partir onregelmatig is.",
+            "Omdat het deelwoord met être meegaat met het onderwerp, met avoir niet.",
+            "Omdat partir een onregelmatig werkwoord is en daarom altijd een s krijgt in het meervoud.",
             "Omdat manger op -er eindigt.",
-            "Omdat nous altijd een s vraagt."
+            "Omdat nous altijd een s vraagt aan het werkwoord, in elke tijd en bij elk hulpwerkwoord."
           ],
           "antwoord": 0,
           "uitleg": "Dat is de overeenkomst van het voltooid deelwoord met être: elle est partie, ils sont partis, elles sont parties."
@@ -5905,7 +5905,7 @@
           "vraag": "Waarvoor gebruik je de imparfait?",
           "opties": [
             "om de omstandigheden en de achtergrond te beschrijven",
-            "om één afgesloten gebeurtenis te vertellen",
+            "om één afgesloten gebeurtenis te vertellen die op een vast moment gebeurde",
             "om iets te zeggen dat morgen gebeurt",
             "om een bevel te geven"
           ],
@@ -6011,7 +6011,7 @@
           "vraag": "Wat betekent « Je viens de manger »?",
           "opties": [
             "Ik heb net gegeten.",
-            "Ik kom eten.",
+            "Ik kom zo meteen eten.",
             "Ik ga eten.",
             "Ik eet van."
           ],
@@ -6065,7 +6065,7 @@
           "vraag": "Wat is het verschil tussen « j'ai mangé » en « je viens de manger »?",
           "opties": [
             "Het tweede zegt dat het net gebeurd is.",
-            "Het eerste staat in de toekomst.",
+            "Het eerste staat in de toekomende tijd.",
             "Het tweede is geen verleden tijd.",
             "Er is geen verschil in betekenis."
           ],
@@ -6362,7 +6362,7 @@
           "vraag": "Hoe maak je de conditionnel?",
           "opties": [
             "de stam van de futur plus de uitgangen van de imparfait",
-            "de volledige infinitief plus -ai, -as en -a",
+            "de volledige infinitief plus de uitgangen -ai, -as en -a",
             "avoir in de présent plus het voltooid deelwoord",
             "aller in de présent plus de infinitief"
           ],
@@ -6375,7 +6375,7 @@
           "opties": [
             "Het eerste is toekomst, het tweede hoffelijk of voorwaardelijk.",
             "Het eerste is verleden tijd, het tweede toekomst.",
-            "Het zijn twee spellingen van precies dezelfde vorm.",
+            "Het zijn twee spellingen van precies dezelfde vorm, met dezelfde betekenis.",
             "Het tweede bestaat niet in het Frans, alleen het eerste."
           ],
           "antwoord": 0,
@@ -6706,7 +6706,7 @@
           "opties": [
             "Je reste à la maison parce qu'il pleut.",
             "Je reste à la maison.",
-            "Il pleut beaucoup aujourd'hui.",
+            "Il pleut beaucoup aujourd'hui dans toute la Belgique.",
             "Ferme la fenêtre."
           ],
           "antwoord": 0,
@@ -6901,7 +6901,7 @@
           "vraag": "Wat is er mis met « Les élèves travaille bien »?",
           "opties": [
             "De persoonsvorm past niet bij het onderwerp: het moet travaillent zijn.",
-            "Les élèves moet enkelvoud zijn.",
+            "Les élèves moet enkelvoud zijn, want het gaat om de klas als geheel en dat is één groep.",
             "Bien moet voor het werkwoord staan.",
             "Er is niets mis met die zin."
           ],
@@ -6913,8 +6913,8 @@
           "vraag": "Wat is er mis met « Ma sœur est content »?",
           "opties": [
             "Het bijvoeglijk naamwoord moet contente zijn.",
-            "Est moet sont zijn.",
-            "Ma moet mon zijn.",
+            "Est moet sont zijn, want sœur is een meervoud.",
+            "Ma moet mon zijn, omdat sœur met een s begint.",
             "Er is niets mis met die zin."
           ],
           "antwoord": 0,

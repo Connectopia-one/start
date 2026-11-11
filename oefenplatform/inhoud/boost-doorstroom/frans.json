@@ -11,7 +11,7 @@
           "opties": [
             "over het uitlenen van elektrische fietsen",
             "over het verkeer in de stad Namen",
-            "over de prijs van een elektrische fiets",
+            "over de prijs van een nieuwe elektrische fiets",
             "over het werk van de inwoners van Namen"
           ],
           "antwoord": 0,
@@ -90,7 +90,7 @@
             "Het menu werkte pas toen het eten lekker was.",
             "Leerlingen eten liever vlees dan groenten.",
             "Een school moet minder vlees serveren.",
-            "De kantine was in september nog niet klaar."
+            "De kantine was in september nog niet helemaal klaar."
           ],
           "antwoord": 0,
           "uitleg": "De laatste zin zegt het met zoveel woorden: le secret n'est pas le menu, mais le goût. Niet het menu maar de smaak."
@@ -229,7 +229,7 @@
           "opties": [
             "om mensen te overtuigen de fiets eens te proberen",
             "om te waarschuwen voor het drukke verkeer",
-            "om elektrische fietsen te verkopen aan inwoners",
+            "om elektrische fietsen te verkopen aan de inwoners van de stad",
             "om uit te leggen hoe je een fiets herstelt"
           ],
           "antwoord": 0,
@@ -241,7 +241,7 @@
           "opties": [
             "een tegenstelling tussen twee bedoelingen",
             "een oorzaak en een gevolg",
-            "een opsomming van twee voordelen",
+            "een opsomming van twee voordelen van de fiets",
             "een voorbeeld bij de vorige zin"
           ],
           "antwoord": 0,
@@ -258,7 +258,7 @@
           "vraag": "Lees opnieuw: 'Notre école a changé le menu de la cantine en septembre. Il y a maintenant un plat végétarien tous les jours et moins de viande. Au début, beaucoup d'élèves se sont plaints. Trois mois plus tard, la cantine sert deux fois plus de repas qu'avant. Le cuisinier explique que le secret n'est pas le menu, mais le goût.' Welke toon heeft deze tekst?",
           "opties": [
             "rustig vaststellend",
-            "boos",
+            "boos en verontwaardigd",
             "bezorgd",
             "spottend"
           ],
@@ -336,7 +336,7 @@
           "vraag": "Lees opnieuw: 'Madame, Monsieur, Je suis élève en quatrième année et je cherche un stage de deux semaines au mois de février. Je m'intéresse beaucoup au travail de votre laboratoire. Je suis libre tous les jours et je peux venir me présenter quand vous voulez. Je vous remercie d'avance pour votre réponse.' Hoe weet je dat dit een formele brief is?",
           "opties": [
             "aan de aanhef en aan het gebruik van vous",
-            "aan de datum bovenaan",
+            "aan de datum bovenaan, die enkel in een formele brief staat",
             "aan de korte zinnen",
             "aan het onderwerp van de brief"
           ],
@@ -459,7 +459,7 @@
           "vraag": "Lees nog eens: 'Épluchez quatre pommes de terre et coupez-les en morceaux. Faites-les cuire vingt minutes dans l'eau bouillante. Égouttez, puis écrasez-les avec un peu de lait chaud. Salez et servez tout de suite.' Waaraan zie je in dat recept meteen dat het een prescriptieve tekst is?",
           "opties": [
             "aan de bevelende werkwoordsvormen épluchez, coupez, salez",
-            "aan de vele bijvoeglijke naamwoorden in de tekst",
+            "aan de vele bijvoeglijke naamwoorden in de tekst, zoals in een beschrijving",
             "aan het feit dat er een mening in staat",
             "aan de verleden tijd waarin alles verteld wordt"
           ],
@@ -648,7 +648,7 @@
           "vraag": "Wat is een tekstverband?",
           "opties": [
             "de functie van een alinea tegenover een andere alinea",
-            "het aantal zinnen dat een alinea telt in totaal",
+            "het aantal zinnen dat een alinea telt, van de eerste tot de laatste",
             "de volgorde waarin de alinea's op papier staan",
             "het verband tussen de titel en de eerste zin"
           ],
@@ -748,7 +748,7 @@
           "vraag": "'Grâce à son entraîneur, elle a gagné.' En: 'À cause de la pluie, le match est annulé.' Wat is het verschil tussen grâce à en à cause de?",
           "opties": [
             "grâce à noemt een goede oorzaak, à cause de een slechte",
-            "grâce à noemt een persoon, à cause de een ding",
+            "grâce à noemt een persoon die helpt, à cause de een ding dat tegenzit",
             "grâce à staat vooraan, à cause de altijd achteraan",
             "grâce à hoort bij de verleden tijd, à cause de niet"
           ],
@@ -782,7 +782,7 @@
           "opties": [
             "voor een plaats die al genoemd is",
             "voor een persoon",
-            "voor een lijdend voorwerp",
+            "voor een lijdend voorwerp dat een persoon is",
             "voor een hoeveelheid"
           ],
           "antwoord": 0,
@@ -793,7 +793,7 @@
           "vraag": "'Tu as des frères ? — Oui, j'en ai deux.' Waarvoor staat en?",
           "opties": [
             "voor een hoeveelheid van iets dat al genoemd is",
-            "voor een plaats",
+            "voor een plaats waar iemand naartoe gaat of vandaan komt",
             "voor de persoon met wie je praat",
             "voor een bezit"
           ],
@@ -889,7 +889,7 @@
           "opties": [
             "naar de laatstgenoemde persoon of zaak",
             "naar de schrijver zelf",
-            "naar het onderwerp van de hele tekst",
+            "naar het onderwerp van de hele tekst, dat in de titel staat",
             "naar het einde van de tekst"
           ],
           "antwoord": 0,
@@ -1053,7 +1053,7 @@
           "vraag": "Wat betekent 'la rentrée' in een Franse tekst?",
           "opties": [
             "het begin van het schooljaar na de zomer",
-            "de terugkeer van een reis naar huis",
+            "de terugkeer van een reis naar huis na de vakantie",
             "de ingang van een gebouw of een school",
             "het einde van de werkdag"
           ],
@@ -1083,7 +1083,7 @@
           "vraag": "Wat is een 'cégep' in Québec?",
           "opties": [
             "een school tussen het secundair en de universiteit",
-            "een gemeentehuis van een kleine gemeente",
+            "een gemeentehuis van een kleine gemeente op het platteland",
             "een openbaar vervoerbedrijf in Montréal",
             "een vorm van sociale huisvesting"
           ],
@@ -1141,7 +1141,7 @@
           "vraag": "Wanneer gebruik je in het Frans de vous-vorm?",
           "opties": [
             "bij een volwassene met wie je geen nauwe band hebt",
-            "bij een goede vriend van je eigen leeftijd",
+            "bij een goede vriend of vriendin van je eigen leeftijd",
             "bij je broer of je zus",
             "bij een huisdier"
           ],
@@ -1189,7 +1189,7 @@
           "vraag": "Wat is 'le conditionnel de politesse'?",
           "opties": [
             "je vraagt iets met je voudrais in plaats van je veux",
-            "je spreekt iemand aan met zijn titel erbij",
+            "je spreekt iemand aan met zijn titel erbij, zoals Monsieur le directeur",
             "je zegt bonjour voor je iets vraagt",
             "je gebruikt de vous-vorm in plaats van tu"
           ],
@@ -1337,7 +1337,7 @@
           "opties": [
             "tu of vous naar de lezer, maar verzorgd en zonder sms-taal",
             "de plechtige formules van een officiële brief",
-            "zo veel mogelijk afkortingen, want het is voor jongeren",
+            "zo veel mogelijk afkortingen en smileys, want het is voor jongeren",
             "enkel opsommingen zonder volledige zinnen"
           ],
           "antwoord": 0,
@@ -1439,7 +1439,7 @@
           "vraag": "In welke tijd vertel je in het Frans meestal wat er gebeurd is?",
           "opties": [
             "de passé composé, met de imparfait voor de achtergrond",
-            "de futur simple, met de présent voor de achtergrond",
+            "de futur simple, met de présent voor de achtergrond van het verhaal",
             "de présent, met de conditionnel voor de achtergrond",
             "de subjonctif, met de impératif voor de achtergrond"
           ],
@@ -1507,7 +1507,7 @@
           "vraag": "Welke zin nodigt iemand uit op een formele manier?",
           "opties": [
             "Nous serions heureux de vous accueillir le 12 mai.",
-            "Viens donc, ça va être génial !",
+            "Viens donc samedi soir, ça va être vraiment génial avec tout le monde !",
             "Tu passes samedi ou pas ?",
             "On se voit là-bas, hein."
           ],
@@ -1635,7 +1635,7 @@
           "vraag": "Wat betekent 'Cher Monsieur' tegenover 'Monsieur' in een brief?",
           "opties": [
             "Cher Monsieur veronderstelt dat je de persoon al kent",
-            "Cher Monsieur is altijd formeler dan Monsieur",
+            "Cher Monsieur is altijd formeler en beleefder dan alleen Monsieur",
             "Cher Monsieur gebruik je alleen bij vrouwen",
             "Er is geen enkel verschil tussen de twee"
           ],
@@ -1692,7 +1692,7 @@
           "vraag": "Waarom pas je je taal aan aan de ontvanger?",
           "opties": [
             "omdat een gepaste toon je boodschap beter laat aankomen",
-            "omdat de regels van de grammatica anders veranderen",
+            "omdat de regels van de grammatica anders veranderen naargelang wie leest",
             "omdat je anders te weinig woorden schrijft",
             "omdat elke ontvanger een ander dialect spreekt"
           ],
@@ -1726,7 +1726,7 @@
           "vraag": "Je mag op het examen een spellingcontrole gebruiken. Wat vindt die controle níét?",
           "opties": [
             "een woord dat juist gespeld is maar niet past",
-            "een woord met een ontbrekend accent",
+            "een woord waarin een accent ontbreekt of verkeerd staat",
             "een dubbele medeklinker te veel",
             "een letter die je vergeten bent"
           ],
@@ -1753,7 +1753,7 @@
           "vraag": "Je schrijft een mail om je te verontschuldigen dat je een afspraak gemist hebt. Welke zin past het best?",
           "opties": [
             "Je suis vraiment désolé de ne pas avoir pu venir.",
-            "Je ne suis pas venu, c'est comme ça.",
+            "Je ne suis pas venu, c'est comme ça, et je n'ai rien à ajouter.",
             "Vous auriez dû me rappeler avant.",
             "Ce n'était pas si important, finalement."
           ],
@@ -1765,7 +1765,7 @@
           "vraag": "Hoe reageer je gepast als iemand zich bij jou verontschuldigt?",
           "opties": [
             "Ce n'est pas grave, ne vous inquiétez pas.",
-            "Je vous remercie d'avance.",
+            "Je vous remercie d'avance pour votre réponse.",
             "Je voudrais des renseignements.",
             "Veuillez agréer mes salutations."
           ],
@@ -1802,9 +1802,9 @@
           "vraag": "Wat betekent 'un beau-père' in een Franse tekst?",
           "opties": [
             "een schoonvader of een stiefvader",
-            "een grootvader",
+            "een grootvader langs de kant van je moeder",
             "een peter",
-            "een zwager"
+            "een zwager, de man van je zus of broer"
           ],
           "antwoord": 0,
           "uitleg": "Beau- en belle- voor een familienaam betekent aangetrouwd: beau-père, belle-mère, beau-frère, belle-sœur. In de praktijk dekt het ook de nieuwe partner van je ouder."
@@ -1943,7 +1943,7 @@
           "vraag": "Wat is 'une infirmière'?",
           "opties": [
             "een verpleegkundige",
-            "een apotheker",
+            "een apotheker in een apotheek",
             "een tandarts",
             "een huisarts"
           ],
@@ -2285,8 +2285,8 @@
           "vraag": "Wat betekent 'un stage'?",
           "opties": [
             "een stage of een cursus van enkele dagen",
-            "een toneelstuk",
-            "een trap in een gebouw",
+            "een toneelstuk dat op een podium gespeeld wordt",
+            "een trap of een verdieping in een groot gebouw",
             "een examenperiode"
           ],
           "antwoord": 0,
@@ -2384,8 +2384,8 @@
           "vraag": "Wat betekent 'un aller-retour'?",
           "opties": [
             "een heen-en-terugticket",
-            "een omweg",
-            "een vertraging",
+            "een omweg langs een andere stad",
+            "een vertraging van de trein",
             "een overstap"
           ],
           "antwoord": 0,
@@ -2446,9 +2446,9 @@
           "vraag": "Wat betekent 'un portable' in een Franse tekst over communicatie?",
           "opties": [
             "een gsm of een draagbare computer",
-            "een postpakket",
+            "een postpakket dat je kan meenemen",
             "een televisietoestel",
-            "een afstandsbediening"
+            "een afstandsbediening voor de televisie"
           ],
           "antwoord": 0,
           "uitleg": "Un portable is meestal de gsm, soms de laptop. Een Belg zegt un GSM, iemand uit Québec un cellulaire."
@@ -2551,9 +2551,9 @@
           "type": "meerkeuze",
           "vraag": "Wat is 'une livre' in een tekst over gewicht?",
           "opties": [
-            "een pond, ongeveer een halve kilo",
-            "een kilogram",
-            "een gram",
+            "een pond, een halve kilo",
+            "een kilogram, of duizend gram",
+            "een gram, de kleinste gewichtseenheid",
             "een ton"
           ],
           "antwoord": 0,
@@ -2700,7 +2700,7 @@
             "voor een woord dat met een klinker of stomme h begint",
             "voor elk woord in het meervoud",
             "voor elk vrouwelijk woord",
-            "voor elk woord dat uit één lettergreep bestaat"
+            "voor elk woord dat uit één lettergreep bestaat, zoals le lit"
           ],
           "antwoord": 0,
           "uitleg": "L'école, l'homme, l'ami. Bij een aangeblazen h blijft het lidwoord staan: le héros, la hache."
@@ -2725,7 +2725,7 @@
           "vraag": "Wat is er juist aan 'je mange du pain'?",
           "opties": [
             "du is deelaanduidend en betekent een onbepaalde hoeveelheid",
-            "du is de samentrekking van de en les",
+            "du is de samentrekking van de en les, zoals des de samentrekking is van de en le",
             "du is het bezittelijk voornaamwoord",
             "du is het meervoud van le"
           ],
@@ -2888,9 +2888,9 @@
           "vraag": "Waarom is het geslacht van een Frans naamwoord belangrijk bij het lezen?",
           "opties": [
             "omdat het lidwoord en het bijvoeglijk naamwoord zich eraan aanpassen",
-            "omdat het de klemtoon in het woord bepaalt",
+            "omdat het de klemtoon in het woord bepaalt, zoals in het Nederlands het geval is",
             "omdat het de volgorde van de zin verandert",
-            "omdat het aangeeft of het woord oud of modern is"
+            "omdat het aangeeft of het woord oud of modern is, en dus uit welke tijd de tekst komt"
           ],
           "antwoord": 0,
           "uitleg": "Zie je une grande maison blanche, dan weet je uit drie woorden tegelijk dat het over één vrouwelijk ding gaat. Dat helpt je verwijswoorden terugvinden."
@@ -2962,7 +2962,7 @@
           "vraag": "Welke rij geeft de bezittelijke determinanten voor meerdere eigenaars?",
           "opties": [
             "notre, votre, leur, nos, vos, leurs",
-            "mon, ton, son, ma, ta, sa",
+            "mon, ton, son, ma, ta, sa, mes, tes, ses",
             "le mien, le tien, le sien",
             "ce, cette, ces"
           ],
@@ -3116,7 +3116,7 @@
           "vraag": "Waarom verschillen 'ce livre' en 'ce livre-ci' van elkaar?",
           "opties": [
             "-ci maakt duidelijk dat het om dit boek hier gaat",
-            "-ci maakt het woord meervoud",
+            "-ci maakt het woord meervoud, zodat het over meerdere boeken gaat",
             "-ci maakt het woord vrouwelijk",
             "-ci zet het woord in de verleden tijd"
           ],
@@ -3185,7 +3185,7 @@
           "vraag": "Hoe weet je dat een werkwoord een COI vraagt en geen COD?",
           "opties": [
             "er staat à voor de persoon in de volle zin",
-            "het werkwoord staat in de verleden tijd",
+            "het werkwoord staat in de verleden tijd, met avoir als hulpwerkwoord",
             "de persoon staat vooraan in de zin",
             "het werkwoord eindigt op -er"
           ],
@@ -3232,8 +3232,8 @@
           "vraag": "Wat vervangt 'en' in een Franse zin?",
           "opties": [
             "een groep die met de, du, de la of des begint",
-            "een plaats waar je naartoe gaat",
-            "de persoon tot wie je spreekt",
+            "een plaats waar je naartoe gaat of waar je woont",
+            "de persoon tot wie je spreekt in het gesprek",
             "een werkwoord in de infinitief"
           ],
           "antwoord": 0,
@@ -3308,7 +3308,7 @@
           "vraag": "Wat is het verschil tussen 'on' en 'nous'?",
           "opties": [
             "on wordt als enkelvoud vervoegd, nous als meervoud",
-            "on is vrouwelijk, nous is mannelijk",
+            "on is vrouwelijk, nous is mannelijk, net zoals bij elle en il",
             "on bestaat alleen in de verleden tijd",
             "on kan geen onderwerp zijn van een zin"
           ],
@@ -3366,7 +3366,7 @@
           "vraag": "Wanneer gebruik je 'qui' in een betrekkelijke bijzin?",
           "opties": [
             "als het voornaamwoord het onderwerp van de bijzin is",
-            "als het voornaamwoord het lijdend voorwerp is",
+            "als het voornaamwoord het lijdend voorwerp van de bijzin is",
             "als er een plaats bedoeld wordt",
             "als er bezit bedoeld wordt"
           ],
@@ -3393,9 +3393,9 @@
           "vraag": "Wanneer gebruik je 'dont'?",
           "opties": [
             "als er in de bijzin een de hoort bij het werkwoord of het naamwoord",
-            "als de bijzin een plaats aangeeft",
+            "als de bijzin een plaats aangeeft waar iets gebeurt of waar iemand woont",
             "als de bijzin een tijd aangeeft",
-            "als het voornaamwoord het onderwerp is"
+            "als het voornaamwoord het onderwerp is van de bijzin die erop volgt"
           ],
           "antwoord": 0,
           "uitleg": "Le film dont je parle, want parler de. La fille dont le père est médecin, want le père de la fille."
@@ -3502,8 +3502,8 @@
           "vraag": "'Quel est ton livre préféré ? — Celui de Camus.' Wat doet celui hier?",
           "opties": [
             "het vervangt het woord livre dat al genoemd is",
-            "het vervangt de naam Camus",
-            "het vraagt naar een keuze",
+            "het vervangt de naam Camus, de schrijver van het boek",
+            "het vraagt naar een keuze tussen verschillende boeken",
             "het geeft een bevel"
           ],
           "antwoord": 0,
@@ -3780,7 +3780,7 @@
           "vraag": "Waarom helpt de uitgang van een bijvoeglijk naamwoord je bij het lezen?",
           "opties": [
             "ze verraadt bij welk naamwoord het woord hoort",
-            "ze geeft de tijd van het werkwoord aan",
+            "ze geeft de tijd van het werkwoord in de zin aan",
             "ze toont of de zin een vraag is",
             "ze bepaalt de klemtoon van de zin"
           ],
@@ -4001,7 +4001,7 @@
           "vraag": "'Elle travaille le plus de toute la classe.' Wat betekent die zin?",
           "opties": [
             "zij werkt het hardst van de hele klas",
-            "zij werkt even hard als de klas",
+            "zij werkt even hard als de rest van de klas",
             "zij werkt minder dan de klas",
             "zij werkt na de hele klas"
           ],
@@ -4296,7 +4296,7 @@
           "vraag": "Waar staat het voornaamwoord in een bevestigend bevel?",
           "opties": [
             "achter het werkwoord, met een streepje",
-            "voor het werkwoord",
+            "voor het werkwoord, net als in een gewone zin",
             "helemaal achteraan in de zin",
             "voor het onderwerp"
           ],
@@ -4366,7 +4366,7 @@
           "opties": [
             "aller in de présent plus de infinitief",
             "venir de plus de infinitief",
-            "être en train de plus de infinitief",
+            "être en train de plus de infinitief, zoals je suis en train de partir",
             "avoir plus het voltooid deelwoord"
           ],
           "antwoord": 0,
@@ -4443,7 +4443,7 @@
           "vraag": "Je leest 'allez' in een tekst. Wat weet je zeker?",
           "opties": [
             "het werkwoord is vervoegd, bij vous of als bevel",
-            "het werkwoord staat in de infinitief",
+            "het werkwoord staat in de infinitief, net zoals aller",
             "het werkwoord staat in de verleden tijd",
             "het werkwoord hoort bij il of elle"
           ],
@@ -4462,7 +4462,7 @@
           "vraag": "Uit welke twee delen bestaat de passé composé?",
           "opties": [
             "een hulpwerkwoord in de présent plus een voltooid deelwoord",
-            "de stam van het werkwoord plus een eigen uitgang",
+            "de stam van het werkwoord plus een eigen uitgang voor elke persoon",
             "het werkwoord aller plus een infinitief",
             "venir de plus een infinitief"
           ],
@@ -4600,8 +4600,8 @@
           "vraag": "Welk hulpwerkwoord hoort bij 'descendre' in 'elle est descendue'?",
           "opties": [
             "être, omdat descendre hier een beweging zonder voorwerp is",
-            "avoir, want descendre gaat altijd met avoir",
-            "aller, als hulpwerkwoord van beweging",
+            "avoir, want descendre gaat altijd met avoir, net als de meeste werkwoorden",
+            "aller, als hulpwerkwoord van beweging, zoals in elle va descendue",
             "faire, omdat er een handeling in zit"
           ],
           "antwoord": 0,
@@ -4640,7 +4640,7 @@
             "voor afgelopen gebeurtenissen die de verhaallijn vooruitduwen",
             "voor een toestand die in het verleden bleef duren",
             "voor een gewoonte uit het verleden",
-            "voor een beschrijving van het decor van een verhaal"
+            "voor een beschrijving van het decor en de sfeer van een verhaal in het verleden"
           ],
           "antwoord": 0,
           "uitleg": "De drie andere horen bij de imparfait. De passé composé zet de gebeurtenissen op een rij: il est entré, il a regardé, il est parti."
@@ -4715,7 +4715,7 @@
           "vraag": "Waarvoor gebruik je de imparfait?",
           "opties": [
             "voor het decor, een gewoonte of een toestand in het verleden",
-            "voor een gebeurtenis die op één bepaald moment afliep",
+            "voor een gebeurtenis die op één bepaald moment afliep, zoals een ongeval",
             "voor iets dat vandaag of morgen nog moet gebeuren",
             "voor een bevel of een vraag aan iemand anders"
           ],
@@ -4786,7 +4786,7 @@
           "opties": [
             "het hulpwerkwoord in de imparfait plus het voltooid deelwoord",
             "het hulpwerkwoord in de présent plus het voltooid deelwoord",
-            "de stam plus de uitgangen van de futur",
+            "de stam van het werkwoord plus de uitgangen van de futur simple",
             "aller in de imparfait plus de infinitief"
           ],
           "antwoord": 0,
@@ -4805,7 +4805,7 @@
           "vraag": "Wat drukt de plus-que-parfait uit?",
           "opties": [
             "iets dat al gebeurd was voor een ander moment in het verleden",
-            "iets dat net gebeurd is op het ogenblik dat je spreekt",
+            "iets dat net gebeurd is op het ogenblik dat je erover spreekt",
             "iets dat straks zal gebeuren, kort na dit moment",
             "een gewoonte die in het verleden bleef doorgaan"
           ],
@@ -4865,7 +4865,7 @@
           "vraag": "Je leest in een verhaal: 'Il pleuvait. Soudain, une voiture a freiné.' Welk verband leggen de twee tijden?",
           "opties": [
             "de regen is het decor, het remmen de gebeurtenis",
-            "de regen begon pas na het remmen van de auto",
+            "de regen begon pas na het remmen van de auto, als gevolg ervan",
             "de twee dingen staan helemaal los van elkaar",
             "allebei zijn het gewoontes die zich herhaalden"
           ],
@@ -4958,7 +4958,7 @@
           "vraag": "Wat is het verschil tussen 'je vais partir' en 'je partirai'?",
           "opties": [
             "de eerste ligt dichterbij en klinkt losser dan de tweede",
-            "de eerste is verleden tijd, de tweede toekomst",
+            "de eerste is verleden tijd, de tweede is toekomende tijd",
             "de eerste is een vraag, de tweede een bevestiging",
             "er is helemaal geen verschil in gebruik"
           ],
@@ -5115,7 +5115,7 @@
           "vraag": "Van welke vorm vertrek je om de subjonctif présent te maken?",
           "opties": [
             "de ils-vorm van de présent, zonder -ent",
-            "de infinitief, zonder de uitgang",
+            "de infinitief, zonder de uitgang -er, -ir of -re",
             "de nous-vorm van de imparfait",
             "het voltooid deelwoord"
           ],
@@ -5283,7 +5283,7 @@
           "vraag": "Wat gebeurt er met 'je pense que' in de ontkenning?",
           "opties": [
             "er komt twijfel bij, en vaak een subjonctif",
-            "er verandert niets aan de wijze",
+            "er verandert niets aan de wijze van het werkwoord in de bijzin",
             "de bijzin verdwijnt helemaal",
             "de bijzin wordt een infinitief"
           ],
@@ -5315,7 +5315,7 @@
           "vraag": "Waarom is de subjonctif voor een Nederlandstalige zo lastig?",
           "opties": [
             "ons eigen taalgevoel geeft er geen aanwijzing voor",
-            "de vormen zijn langer dan in andere tijden",
+            "de vormen zijn veel langer dan in de andere tijden",
             "hij bestaat alleen in geschreven Frans",
             "hij heeft geen eigen uitgangen"
           ],
@@ -5351,7 +5351,7 @@
           "opties": [
             "drie: met de toon, met est-ce que, en met omkering",
             "één: alleen met est-ce que",
-            "twee: met de toon en met een vraagwoord",
+            "twee: met de toon van je stem en met een vraagwoord vooraan",
             "vier, maar alleen in de spreektaal"
           ],
           "antwoord": 0,
@@ -5540,9 +5540,9 @@
           "vraag": "Waarom staat 'je le vois' met het voorwerp vóór het werkwoord?",
           "opties": [
             "omdat een voornaamwoord als voorwerp altijd vooraan komt",
-            "omdat de zin een vraag is",
+            "omdat de zin een vraag is en het voorwerp dan naar voren schuift",
             "omdat het werkwoord onregelmatig is",
-            "omdat de zin in de verleden tijd staat"
+            "omdat de zin in de verleden tijd staat, waar die volgorde verplicht is"
           ],
           "antwoord": 0,
           "uitleg": "Een volledig voorwerp blijft achteraan: je vois Pierre. Zodra het een voornaamwoord wordt, springt het naar voren."
@@ -5559,7 +5559,7 @@
           "vraag": "Wat is het verschil tussen een nevenschikkende en een onderschikkende bijzin?",
           "opties": [
             "een nevengeschikte zin kan alleen staan, een ondergeschikte niet",
-            "een nevengeschikte zin is korter dan een ondergeschikte",
+            "een nevengeschikte zin is altijd korter dan een ondergeschikte zin",
             "een nevengeschikte zin staat altijd vooraan",
             "een nevengeschikte zin heeft geen werkwoord"
           ],
@@ -5760,8 +5760,8 @@
           "vraag": "Waarom helpt het bij het lezen om de persoonsvormen in een lange zin te tellen?",
           "opties": [
             "zo zie je hoeveel delen de zin heeft en waar ze beginnen",
-            "zo weet je in welke tijd de zin staat",
-            "zo vind je het onderwerp van de tekst",
+            "zo weet je in welke tijd de zin staat en of het om het verleden gaat",
+            "zo vind je het onderwerp van de hele tekst, dat altijd in de langste zin staat",
             "zo kan je de klemtoon bepalen"
           ],
           "antwoord": 0,
